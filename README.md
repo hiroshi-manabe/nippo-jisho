@@ -19,6 +19,8 @@ The complete plan, including deliverables and completion criteria, is described 
 
 The [Source and Image Policy](docs/source-policy.md) defines the Gallica/BnF copy as the canonical image source, Wikimedia Commons as a mirror, and Wikisource as a possible transcription source to be evaluated later.
 
+The complete high-resolution source cache can be obtained with the resumable procedure in [Gallica Source Acquisition](docs/source-acquisition.md).
+
 ## Working principles
 
 - **Evidence remains visible.** Every reading should point back to its page and location in the source.

@@ -10,6 +10,8 @@ The project has surveyed representative pages and frozen the first format-versio
 
 The detailed purpose, method, and completion criteria are defined in the [Transcription-Format Pilot](docs/transcription-format-pilot.md).
 
+In parallel, the project is acquiring the complete native-resolution Gallica image sequence using the procedure in [Gallica Source Acquisition](docs/source-acquisition.md). Source acquisition does not change the transcription pilot’s current checkpoint.
+
 ## Current objective
 
 Establish version 1 of a page-transcription specification that can faithfully record the source, remain practical to edit, and support three derived uses:

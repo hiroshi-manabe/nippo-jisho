@@ -34,6 +34,8 @@ The requested width may be changed according to the task. Full-page survey image
 
 Downloaded images belong in an ignored local cache. The maintained project data should record source URLs, identifiers, dimensions, and—once the acquisition process is stable—checksums. Large image collections should not be committed to the main repository.
 
+The reproducible procedure, cache layout, resumption behavior, and verification commands are documented in [Gallica Source Acquisition](source-acquisition.md).
+
 ## Wikimedia Commons mirror
 
 The Wikimedia Commons PDF is a useful convenience mirror and fallback, but it is not the canonical numbering authority:

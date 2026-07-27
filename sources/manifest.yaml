@@ -10,6 +10,12 @@ sources:
     gallica_url: https://gallica.bnf.fr/ark:/12148/bpt6k852354j
     gallica_item_url_template: "https://gallica.bnf.fr/ark:/12148/bpt6k852354j/{gallica_view}.item"
     gallica_iiif_image_template: "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k852354j/{gallica_view}/full/{width},/0/native.jpg"
+    gallica_native_image_template: "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k852354j/{gallica_view}/full/full/0/native.jpg"
+    view_sequence:
+      first: f1
+      last: f651
+      count: 651
+      bounds_verified: 2026-07-28
     source_license_statement: public domain
     role: canonical_image_source
     mirror:
