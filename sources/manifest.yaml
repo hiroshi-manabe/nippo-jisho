@@ -1,0 +1,33 @@
+format: nippo-source-manifest
+format_version: 0
+
+sources:
+  - id: bnf-gallica
+    title: Vocabulario da Lingoa de Iapam
+    common_name: Gallica/Paris copy
+    date: 1603-1604
+    holding_institution: Bibliothèque nationale de France
+    gallica_url: https://gallica.bnf.fr/ark:/12148/bpt6k852354j
+    gallica_item_url_template: "https://gallica.bnf.fr/ark:/12148/bpt6k852354j/{gallica_view}.item"
+    gallica_iiif_image_template: "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k852354j/{gallica_view}/full/{width},/0/native.jpg"
+    source_license_statement: public domain
+    role: canonical_image_source
+    mirror:
+      id: wikimedia-commons-pdf
+      file_url: https://commons.wikimedia.org/wiki/File:Gallica%E2%80%99s_Nippo_Jisho.pdf
+      pdf_url: https://upload.wikimedia.org/wikipedia/commons/9/91/Gallica%E2%80%99s_Nippo_Jisho.pdf
+      pdf_pages: 653
+      role: convenience_mirror_and_fallback
+      known_sequence_offset:
+        relationship: commons_pdf_page = gallica_f_number + 2
+        verified_pairs:
+          - gallica_view: f14
+            commons_pdf_page: 16
+          - gallica_view: f248
+            commons_pdf_page: 250
+          - gallica_view: f643
+            commons_pdf_page: 645
+    notes:
+      - Gallica f-identifiers are the basis of stable pilot page identifiers.
+      - Commons PDF sequence, printed foliation, and dictionary sequence remain separate metadata.
+      - The complete source inventory and checksums are not yet established.

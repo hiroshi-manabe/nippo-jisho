@@ -1,0 +1,152 @@
+format: nippo-pilot-sample
+format_version: 0
+source: bnf-gallica
+selection_date: 2026-07-28
+
+pages:
+  - id: bnf-f0013
+    gallica_view: f13
+    commons_pdf_page: 15
+    mapping_status: inferred_from_verified_offset
+    purpose:
+      - first dictionary page
+      - title and ornamental initial
+      - transition from introductory matter to dictionary text
+    draft_scope: survey_only
+    blinded_comparison_eligible: false
+    exclusion_reason: Wikisource text had been seen before the blinded procedure was adopted.
+
+  - id: bnf-f0014
+    gallica_view: f14
+    commons_pdf_page: 16
+    mapping_status: visually_verified
+    purpose:
+      - ordinary two-column page
+      - repeated running header
+      - continuation from previous page
+      - entry continuing between columns
+      - divided catchword
+    draft_scope: selected_zones
+    blinded_comparison_eligible: true
+
+  - id: bnf-f0048
+    gallica_view: f48
+    commons_pdf_page: 50
+    mapping_status: inferred_from_verified_offset
+    purpose:
+      - dense sequence of short entries
+      - continuation at top of page
+      - divided catchword
+    draft_scope: survey_only
+    blinded_comparison_eligible: true
+
+  - id: bnf-f0098
+    gallica_view: f98
+    commons_pdf_page: 100
+    mapping_status: inferred_from_verified_offset
+    purpose:
+      - ordinary dense page
+      - visibly weak or damaged area in right column
+      - abbreviated catchword
+    draft_scope: survey_only
+    blinded_comparison_eligible: true
+
+  - id: bnf-f0148
+    gallica_view: f148
+    commons_pdf_page: 150
+    mapping_status: inferred_from_verified_offset
+    purpose:
+      - long entries and dense examples
+      - continuation between columns
+      - typographically varied abbreviations
+    draft_scope: survey_only
+    blinded_comparison_eligible: true
+
+  - id: bnf-f0248
+    gallica_view: f248
+    commons_pdf_page: 250
+    mapping_status: visually_verified
+    purpose:
+      - alphabetical subsection changes inside right column
+      - continuation from left to right column
+      - complete and divided entries
+      - divided catchword
+    draft_scope: full_lexical_text
+    blinded_comparison_eligible: true
+
+  - id: bnf-f0348
+    gallica_view: f348
+    commons_pdf_page: 350
+    mapping_status: inferred_from_verified_offset
+    purpose:
+      - long entries with citations and examples
+      - dense romanized Japanese
+      - page-edge degradation
+    draft_scope: survey_only
+    blinded_comparison_eligible: true
+
+  - id: bnf-f0448
+    gallica_view: f448
+    commons_pdf_page: 450
+    mapping_status: inferred_from_verified_offset
+    purpose:
+      - unusual diacritics
+      - closely related headwords
+      - dense grammatical notation
+    draft_scope: survey_only
+    blinded_comparison_eligible: true
+
+  - id: bnf-f0548
+    gallica_view: f548
+    commons_pdf_page: 550
+    mapping_status: inferred_from_verified_offset
+    purpose:
+      - long entry spanning a column
+      - annotations and regional labels
+      - divided catchword
+    draft_scope: survey_only
+    blinded_comparison_eligible: true
+
+  - id: bnf-f0618
+    gallica_view: f618
+    commons_pdf_page: 620
+    mapping_status: inferred_from_verified_offset
+    purpose:
+      - late-alphabet Y section
+      - dense diacritics and abbreviations
+      - divided catchword
+    draft_scope: survey_only
+    blinded_comparison_eligible: true
+
+  - id: bnf-f0638
+    gallica_view: f638
+    commons_pdf_page: 640
+    mapping_status: inferred_from_verified_offset
+    purpose:
+      - transition from Y to Z within a page
+      - large ornamental initial
+      - internal title and subsection heading
+    draft_scope: survey_only
+    blinded_comparison_eligible: true
+
+  - id: bnf-f0643
+    gallica_view: f643
+    commons_pdf_page: 645
+    mapping_status: visually_verified
+    printed_page: 330
+    purpose:
+      - final dictionary page
+      - page number
+      - ownership stamp overlapping text
+      - FINIS and printer ornament
+      - unequal column lengths
+      - no catchword
+    draft_scope: full_lexical_text_and_furniture
+    blinded_comparison_eligible: true
+
+excluded_after_survey:
+  - id: bnf-f0648
+    gallica_view: f648
+    commons_pdf_page: 650
+    mapping_status: inferred_from_verified_offset
+    reason: marbled endpaper with no dictionary text

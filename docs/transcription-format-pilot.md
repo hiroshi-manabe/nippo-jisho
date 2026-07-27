@@ -1,0 +1,175 @@
+# Transcription-Format Pilot
+
+## Status
+
+This is the project’s **current phase**. It precedes production transcription and supports Stage 1 of the [Four-Stage Project Roadmap](four-stage-roadmap.md).
+
+## Purpose
+
+The pilot will determine how the printed pages of the *Nippo Jisho* should be represented as editable, auditable text. The format must preserve meaningful documentary evidence without attempting to recreate the scan typographically.
+
+The pilot exists because a format designed from a single page is likely to fail when it encounters different headers, entry continuations, catchwords, damaged type, unusual abbreviations, or later sections of the dictionary. Changes are inexpensive while the sample is small and increasingly costly after sequential transcription has begun.
+
+## Relationship to the four stages
+
+This pilot is not a fifth publication stage. It is pre-production design for Stage 1.
+
+It is followed by a smaller end-to-end pilot that will take selected material through entry structuring, Japanese restoration, translation, and presentation. The two pilots answer different questions:
+
+| Pilot | Principal question |
+| --- | --- |
+| Transcription-format pilot | Can the source page be represented faithfully and consistently? |
+| End-to-end pilot | Can that representation support all later editorial stages? |
+
+Some pages may be shared between the pilots, but their evaluation criteria remain distinct.
+
+## Questions to resolve
+
+The pilot must provide evidence for decisions about:
+
+- the authoritative unit of page transcription;
+- representation of columns and physical lineation;
+- running headers, section headings, catchwords, signatures, ornaments, and other page furniture;
+- continuations between columns and pages;
+- printed hyphenation and divided words;
+- original glyphs, diacritics, ligatures, abbreviations, and spacing;
+- damaged, illegible, doubtful, corrected, or anomalous print;
+- stable references from later entry records back to the page;
+- the boundary between hand-edited source data and generated views;
+- whether a lightweight text format remains robust enough for production;
+- whether existing Wikisource transcription saves sufficient work to justify reuse and its licensing consequences.
+
+## Representative sample
+
+Approximately 10–15 pages should be selected by feature rather than simply taking the first consecutive pages. The sample should include, where available:
+
+- the first dictionary page with its title and ornamental initial;
+- an ordinary two-column page;
+- an entry continuing between columns;
+- an entry continuing across a page boundary;
+- complete and divided catchwords;
+- repeated and changing running headers;
+- dense sequences of short entries;
+- a long entry containing examples and grammatical information;
+- unusual characters, abbreviations, or difficult typography;
+- damage, staining, weak contrast, or an uncertain reading;
+- a section transition or other change in page organization;
+- supplementary matter if it is intended to enter the transcription corpus;
+- a page from another copy if it is needed to address a lacuna or damaged passage.
+
+The sample list must record why each page was selected. A page may satisfy several requirements.
+
+## Provisional representation model
+
+The pilot begins with three related representations:
+
+```text
+source scan
+    ↓
+page-oriented diplomatic transcription
+    ↓
+generated continuous text and entry references
+```
+
+The scan remains authoritative for exact visual layout. The page transcription records meaningful text and document structure in reading order. Generated views may omit repeated furniture, join continuations, and normalize selected typographical features without changing the underlying transcription.
+
+The initial candidate is one UTF-8 Markdown file per scan page, with machine-readable metadata and explicitly labelled page zones. This is a hypothesis to test, not yet the adopted production format.
+
+An illustrative experiment might look like:
+
+```markdown
+---
+format: nippo-page-transcription
+format_version: 0
+id: bnf-f0013
+source: bnf-gallica
+gallica_view: f13
+commons_pdf_page: 15
+status: draft
+---
+
+[title]
+DOS VOCABVLOS
+
+[column-1]
+[001] A NOME de hũa das 47.
+...
+
+[catchword]
+Abu-
+
+[signature]
+A
+```
+
+Version `0` identifies experimental files. They do not become production transcription merely because they contain transcribed text.
+
+## Method
+
+1. **Inventory observed features.** Inspect the selected pages and record every feature the format may need to express.
+2. **Create independent prototypes.** Transcribe representative portions directly from the scans without consulting Wikisource and without prematurely designing a comprehensive markup language.
+3. **Exercise difficult cases.** Test continuations, repeated furniture, catchwords, uncertainty, abbreviations, and line division.
+4. **Freeze the independent drafts.** Record provenance and prevent later comparison from silently changing the initial readings.
+5. **Generate alternative views.** Confirm that a page-oriented view, continuous text, and preliminary entry references can be derived without maintaining conflicting copies.
+6. **Compare with Wikisource.** Only after freezing the drafts, compare the same pages with Wikisource and classify every meaningful difference before checking it against the scan.
+7. **Revise and repeat.** Apply the revised format to several difficult pages again rather than judging it only on earlier examples.
+8. **Specify and migrate.** Document version 1 and either convert or discard version 0 experiments explicitly.
+
+## Wikisource evaluation
+
+The project has not yet decided that Wikisource will be the transcription base. Its usefulness and licensing consequences will be evaluated together. Pilot transcription must be completed and frozen from the scans before the corresponding Wikisource text is opened.
+
+The comparison should record:
+
+- page coverage and review status;
+- omitted or duplicated text;
+- character and word errors;
+- handling of long *s*, diacritics, abbreviations, and spacing;
+- treatment of headers, catchwords, columns, and continuations;
+- time required to correct the text to project standards;
+- provenance information available for each imported page.
+
+If correction produces a substantial efficiency gain, the project may reuse the material under CC BY-SA 4.0 with page-level provenance. If it does not, the project may produce an independent transcription and consider a more permissive license. The decision and its evidence are pilot deliverables.
+
+## Required outputs
+
+The pilot should produce:
+
+- a representative page list with selection reasons;
+- a catalogue of observed textual and physical features;
+- experimental page transcriptions marked as format version 0;
+- examples of the three derived views;
+- a comparison of direct and Wikisource-assisted transcription;
+- a list of unresolved or deliberately unsupported cases;
+- version 1 of the page-transcription specification;
+- a migration note from experimental files to version 1;
+- an initial provenance and licensing policy.
+
+## Exit criteria
+
+The project may leave this phase when:
+
+1. The sample covers the known common features and a reasonable range of exceptional ones.
+2. Difficult pages have been transcribed successfully after at least one format revision.
+3. Every transcribed element can be traced to a source page and meaningful location.
+4. Page furniture can be preserved without contaminating continuous dictionary text.
+5. Continuations and typographical line division can be represented without silent editorial changes.
+6. The same source files support page-oriented display, continuous text, and stable entry references.
+7. Uncertainty and exceptional cases have explicit representations or documented escape mechanisms.
+8. Version 1 of the format and its conventions are documented.
+9. The initial Wikisource-use and licensing policy has been decided.
+
+Passing the pilot does not mean that the format can never change. It means later changes must be versioned, documented, and accompanied by a migration path.
+
+## Non-goals
+
+This phase does not aim to:
+
+- transcribe the dictionary sequentially or claim production coverage;
+- reproduce the exact page appearance in manually maintained files;
+- create a newly typeset PDF;
+- settle all entry boundaries or complete the Stage 2 schema;
+- restore all Japanese forms or translate the Portuguese;
+- anticipate every exceptional feature in the entire book.
+
+Exact appearance remains available in the scan. Printable facsimile or side-by-side editions may later be generated from the source data, but they are publication formats rather than the editorial source of truth.
