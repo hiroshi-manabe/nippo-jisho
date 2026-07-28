@@ -1,0 +1,40 @@
+format: nippo-external-data-source
+format_version: 1
+id: ninjal-nippo-headwords-202510
+title: Entry Words Data of Nippojisho
+version: "202510"
+publisher: National Institute for Japanese Language and Linguistics
+developers:
+  - Hideyuki Ohshima
+  - Taichi Aida
+publication_date: 2025-10-30
+landing_page: https://www2.ninjal.ac.jp/textdb_dataset/en/nipp/index.html
+download_url: https://www2.ninjal.ac.jp/textdb_dataset/nipp/data/ew-nippo-202510.zip
+license: CC-BY-4.0
+archive:
+  filename: ew-nippo-202510.zip
+  bytes: 3378215
+  sha256: 6bb4f084b9e10778ecfc32e2e2f54c6c4c120f4b6cc91813cccba2b074250175
+  local_path: .cache/external/ninjal-headwords/202510/ew-nippo-202510.zip
+acquisition:
+  acquired_at: 2026-07-28T14:32:28Z
+  result: downloaded_unpacked_and_verified
+contents:
+  records: 32878
+  unique_ids: 32878
+  main_dictionary_records: 25991
+  supplement_records: 6887
+  records_with_bnf_links: 24940
+  records_without_bnf_links: 7938
+  unique_linked_bnf_pages: 631
+role:
+  - post_checkpoint_coverage_validator
+  - post_checkpoint_reading_collator
+  - provisional_entry_scaffolding
+authority: external_reference_not_canonical_transcription
+caveats:
+  - The base witness is the Bodleian Library copy rather than the canonical Paris copy.
+  - Difficult readings generally follow the copyrighted 1980 Iwanami Japanese translation.
+  - Katakana forms, modern verb forms, and lexical identifiers are editorial or derived fields.
+  - Capitalization, diacritics, spacing, and entry boundaries must be checked against the scan.
+  - The dataset replaces printed vel-note lowercase l with a vertical bar.

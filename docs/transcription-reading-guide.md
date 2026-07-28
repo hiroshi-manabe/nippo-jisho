@@ -88,6 +88,8 @@ Routine transcription and review will proceed directly from the Gallica scan wit
 
 The completed comparison remains useful because it exposed four corrections and several recurring error mechanisms. Wikisource or another external transcription may be consulted only as an exceptional aid after independent review when a reading remains unresolved. Any such consultation must identify the exact source and revision, remain separate from the independent checkpoint, and be adjudicated against the scan.
 
+NINJAL's [Nippo Jisho Headword Data](headword-data.md) is treated differently from a page transcription because it supplies dictionary-wide source-order coverage. It may be compared routinely after an independent page checkpoint to detect missing entries and suspicious readings. It must not be opened as a substitute for the initial visual pass or used to normalize the diplomatic layer automatically.
+
 ## Work still required
 
 Before this guide becomes normative:

@@ -18,6 +18,8 @@ The first controlled [Wikisource comparison](pilot/wikisource-comparison/bnf-f00
 
 The resulting visual, linguistic, and expectation-driven cautions are consolidated in the [Provisional Transcription Reading Guide](docs/transcription-reading-guide.md). It includes the `g`/`q` problem, `qua`/`cua`/`qu` distinctions, capitalization and spacing traps, diacritic findings, and page-furniture safeguards. These are diagnostic reinspection prompts, not normalization rules.
 
+NINJAL's CC BY 4.0 [Nippo Jisho Headword Data](docs/headword-data.md), version 202510, has been downloaded, unpacked, checksum-verified, and documented. Its 32,878 source-order records provide dictionary-wide coverage and reading checks unavailable from Wikisource. It remains an attributed external reference because it is based on the Bodleian copy and contains editorial normalization; the Gallica scan remains authoritative.
+
 ## Current objective
 
 Establish version 1 of a page-transcription specification that can faithfully record the source, remain practical to edit, and support three derived uses:

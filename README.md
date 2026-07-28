@@ -25,6 +25,8 @@ The current high-resolution reading experiment is described in [Tiled Visual Rev
 
 Source-specific orthographic patterns, confusable type, and safeguards against expectation-driven correction are collected in the [Provisional Transcription Reading Guide](docs/transcription-reading-guide.md).
 
+The project has also acquired NINJAL's CC BY 4.0 [Nippo Jisho Headword Data](docs/headword-data.md), a 32,878-record external reference for post-checkpoint coverage validation and provisional entry scaffolding.
+
 ## Working principles
 
 - **Evidence remains visible.** Every reading should point back to its page and location in the source.
