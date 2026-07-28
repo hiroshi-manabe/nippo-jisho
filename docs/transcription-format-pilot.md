@@ -82,7 +82,7 @@ The design criterion for Stage 1 is therefore not whether it resolves each struc
 
 Preserving evidence does not require exhaustive uncertainty metadata. The transcription records a secure editorial reading normally even when context helped overcome minor damage. Lightweight span-level uncertainty is used only when the proposed reading remains reasonably disputable; alternatives or an illegible marker are reserved for genuinely unresolved passages. The format must permit detailed notes without requiring them for ordinary difficult reading.
 
-The initial hypothesis was one UTF-8 Markdown file per scan page, with machine-readable metadata and explicitly labelled page zones. Implementing stable span references and mixed typeface runs showed that loosely structured Markdown would require additional conventions and validation machinery. The first version 1 candidate therefore uses one UTF-8 JSON record per page plus a separate linked structural record. JSON is dependable and readily validated, but its manual-authoring verbosity is now an explicit adoption question rather than a settled choice.
+The initial hypothesis was one UTF-8 Markdown file per scan page, with machine-readable metadata and explicitly labelled page zones. The first implementation used JSON to make stable references, mixed typeface runs, and validation explicit. Full-page use then confirmed that JSON was dependable but too verbose for routine human authoring. The current [compact Level 1 Markdown candidate](level1-markdown-candidate.md) therefore uses a deliberately small syntax and generates the validated JSON representation.
 
 An illustrative experiment might look like:
 
@@ -119,7 +119,7 @@ The trial encodes the complete dictionary text and textual furniture of `bnf-f00
 
 The result confirms that physical order, typeface runs, relative indentation, catchwords, cross-column and cross-page continuations, printed word division, lowercase `aburamono`, displaced `(grande.`, later copy marks, and terminal furniture can remain auditable while separate references generate proposed logical views. NINJAL headword data found no omitted entry candidate on the four complete pages. One badly inked word was exceptionally checked against an exactly identified Wikisource revision only after direct review, then adjudicated again against the scan.
 
-The test does not yet justify adopting version 1. JSON may be better retained as a validated interchange representation generated from a more compact authoring syntax, and the optional uncertainty mechanism still needs a genuinely unresolved source example. Level 2 was exercised only to prove the separation and derived views; it is not a complete structural encoding of the trial pages.
+The test does not yet justify adopting version 1. The compact Markdown authoring form must be evaluated through correction and review, and the optional uncertainty mechanism still needs a genuinely unresolved source example. Level 2 is now a secondary compatibility check only; it is not a current design target or a complete structural encoding of the trial pages.
 
 ## Method
 

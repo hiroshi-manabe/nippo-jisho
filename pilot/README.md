@@ -26,7 +26,7 @@ One qualification applies: the opening dictionary page, `bnf-f0013`, had already
 
 The completed [format version 1 trial](format-v1-trial/README.md) is a new implementation experiment, not a rewrite of the frozen version-0 checkpoint. It contains complete physical-order records for `bnf-f0013`, `bnf-f0014`, `bnf-f0248`, and `bnf-f0643`, separate structural assertions, and regenerated page and logical reading views.
 
-The trial validates 330 physical lines, seven structural assertions, and eight reading sequences. It demonstrates that later entry and reading-order decisions can point to source evidence without being embedded in Level 1. Its remaining format questions—authoring verbosity and a real unresolved-reading test—are recorded in the trial report and the [candidate specification](../docs/page-transcription-format-v1-candidate.md).
+The trial validates 330 physical lines in a [compact human-readable Level 1 form](../docs/level1-markdown-candidate.md), then regenerates the machine representation and page views. Seven structural assertions and eight reading sequences remain as a secondary information-loss check rather than the project’s present design focus. The remaining Level 1 questions are recorded in the trial report and candidate specification.
 
 ## Draft coverage
 

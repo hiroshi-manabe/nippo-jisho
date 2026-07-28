@@ -32,7 +32,7 @@
       "id": "grande-placement-mark",
       "kind": "nonlexical_placement_mark",
       "targets": [
-        {"line": "bnf-f0248:c1-l037", "runs": [1]}
+        {"line": "bnf-f0248:c1-l037", "span": "mark"}
       ],
       "claim": "The parenthesis-like mark signals exceptional placement and is not included in the proposed logical text."
     },
@@ -40,7 +40,7 @@
       "id": "grande-logical-assignment",
       "kind": "displaced_text_assignment",
       "targets": [
-        {"line": "bnf-f0248:c1-l037", "runs": [2]},
+        {"line": "bnf-f0248:c1-l037", "span": "word"},
         {"line": "bnf-f0248:c1-l038"}
       ],
       "claim": "The physically displaced word grande. completes the Gozadocoro definition."
@@ -117,7 +117,7 @@
       "label": "Gozadocoro with displaced grande restored to logical order",
       "segments": [
         {"line": "bnf-f0248:c1-l038"},
-        {"line": "bnf-f0248:c1-l037", "runs": [2], "join": "space"}
+        {"line": "bnf-f0248:c1-l037", "span": "word", "join": "space"}
       ]
     },
     {

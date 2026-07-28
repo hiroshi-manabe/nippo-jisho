@@ -23,7 +23,7 @@ The complete high-resolution source cache can be obtained with the resumable pro
 
 The current high-resolution reading experiment is described in [Tiled Visual Review](docs/tiled-visual-review.md).
 
-The first implemented [candidate page-transcription format](docs/page-transcription-format-v1-candidate.md) and its [four-page trial](pilot/format-v1-trial/README.md) now demonstrate separate source-faithful and structural layers, with reproducible page and logical reading views. The candidate remains under evaluation rather than adopted for production.
+The first implemented [candidate page-transcription format](docs/page-transcription-format-v1-candidate.md) and its [four-page trial](pilot/format-v1-trial/README.md) now cover 330 physical lines. A [compact Level 1 Markdown candidate](docs/level1-markdown-candidate.md) provides the human-readable authoring form and regenerates the validated machine representation. The candidate remains under evaluation rather than adopted for production.
 
 Source-specific orthographic patterns, confusable type, and safeguards against expectation-driven correction are collected in the [Provisional Transcription Reading Guide](docs/transcription-reading-guide.md).
 

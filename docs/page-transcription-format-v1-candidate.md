@@ -2,19 +2,21 @@
 
 ## Status
 
-This is the implementation candidate exercised by the [format version 1 trial](../pilot/format-v1-trial/README.md). It is not yet the adopted production specification.
+This is the implementation candidate exercised by the [format version 1 trial](../pilot/format-v1-trial/README.md). Its current human-authoring form is the [Compact Level 1 Markdown Candidate](level1-markdown-candidate.md). It is not yet the adopted production specification.
 
 ## Design boundary
 
 The Level 1 page record contains observable documentary evidence in physical order. It records pages, zones, physical lines, visible text, typeface runs, relative indentation, exceptional placement, and materially unresolved readings. It does not ordinarily identify entries, move displaced text, join divided words, or normalize source forms.
 
-Level 2 is a separate linked record. It points to stable Level 1 line or run identifiers and adds entry boundaries, logical reading order, catchword relationships, and other structural assertions. It does not maintain a corrected duplicate of Level 1 text.
+Level 1 is the current design and production priority. The format should first be judged by whether a human can read, transcribe, review, and correct pages efficiently while retaining visible evidence.
+
+Level 2 is presently only a compatibility constraint. A small separate fixture confirms that stable Level 1 lines and rare named spans could support later entry boundaries, reading order, and displaced-text analysis. The project is not currently designing a complete Level 2 schema, and ordinary Level 1 records should not carry extra markup merely to make hypothetical later operations convenient.
 
 ## Storage model
 
-The trial uses one UTF-8 JSON file per page. JSON is deliberately conservative: it is widely supported, has unambiguous nesting, and can be validated without an additional dependency. The trial will determine whether its verbosity is acceptable for sustained manual work.
+The trial now uses one compact UTF-8 Markdown source file per page. A validator/compiler generates the earlier JSON representation for deterministic machine interchange and rendering. Editors read and change the Markdown; generated JSON is not a competing hand-maintained transcription.
 
-A page record has:
+A compiled page record has:
 
 - source and scope metadata;
 - ordered page zones;
@@ -23,7 +25,7 @@ A page record has:
 - optional relative indentation and exceptional placement;
 - optional lightweight uncertainty attached only to materially doubtful text.
 
-The basic shape is:
+The compiled shape is:
 
 ```json
 {
@@ -50,7 +52,7 @@ The basic shape is:
 }
 ```
 
-Line identifiers are stable within a page. A Level 2 reference combines the page and line identifiers, for example `bnf-f0014:c1-l001`. A structural selector may identify the whole line or selected zero-based run numbers. Character offsets are deliberately omitted from the first candidate because they are fragile during correction; the trial uses a separate run when a smaller stable target is needed.
+Line identifiers are stable within a page. Optional named spans are added only when an exceptional line needs a smaller stable target, as with `{mark}` and `{word}` in the physically displaced `(grande.` example. Character offsets and routine run numbering are avoided because they are fragile during correction.
 
 ## Physical evidence
 
@@ -66,10 +68,11 @@ A secure reading is transcribed normally even when context or enlargement helped
 
 ## Derived views
 
-The trial renderer produces:
+The trial renderer primarily produces:
 
-1. a page-oriented Markdown view from each Level 1 record; and
-2. selected logical sequences from Level 2 references.
+1. a page-oriented Markdown view from each Level 1 record.
+
+Selected logical sequences are retained only as a secondary information-loss check. They show that later interpretation remains possible; they are not an adoption requirement for a full structural format.
 
 Join operations in Level 2 may preserve a boundary, insert a space, or remove a visible line-end hyphen while joining a divided word. These transformations affect only the derived view. They never rewrite the Level 1 source string.
 

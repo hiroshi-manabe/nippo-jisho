@@ -80,7 +80,11 @@ class FormatV1TrialTests(unittest.TestCase):
             for line in zone.get("lines", [])
         }
         displaced = f248_lines["c1-l037"]["runs"]
-        self.assertEqual("".join(run["text"] for run in displaced), "gũ ſenhor principal. (grande.")
+        self.assertEqual(displaced[0]["text"], "gũ ſenhor principal.")
+        self.assertEqual(displaced[1]["text"], " (")
+        self.assertEqual(displaced[1]["span_id"], "mark")
+        self.assertEqual(displaced[2]["text"], "grande.")
+        self.assertEqual(displaced[2]["span_id"], "word")
         self.assertEqual(displaced[1]["placement"], "far-right")
         self.assertEqual(displaced[2]["placement"], "far-right")
 

@@ -12,9 +12,9 @@
   "review": {
     "origin": "direct_from_scan_with_one_exceptional_external_check",
     "wikisource_used_for_this_trial": true,
-    "external_check_scope": "One badly inked word in the Aburatçuqi gloss; see trial README",
     "physical_lineation_checked": true,
-    "status": "trial_reviewed"
+    "status": "trial_reviewed",
+    "external_check_scope": "One badly inked word in the Aburatçuqi gloss; see trial README"
   },
   "zones": [
     {
@@ -22,7 +22,15 @@
       "kind": "running_header",
       "label": "Column 1 running header",
       "lines": [
-        {"id": "h1-l001", "runs": [{"typeface": "display", "text": "A ANTES DO B."}]}
+        {
+          "id": "h1-l001",
+          "runs": [
+            {
+              "typeface": "display",
+              "text": "A ANTES DO B."
+            }
+          ]
+        }
       ]
     },
     {
@@ -30,53 +38,631 @@
       "kind": "column",
       "label": "Column 1",
       "lines": [
-        {"id": "c1-l001", "runs": [{"typeface": "roman", "text": "Abumiuo funbaru."}, {"typeface": "italic", "text": " Eſtribarſe aleuantan-"}]},
-        {"id": "c1-l002", "indent": 1, "runs": [{"typeface": "italic", "text": "doſe ſobre os eſtribos. ¶"}, {"typeface": "roman", "text": " Abumino fa-"}]},
-        {"id": "c1-l003", "indent": 1, "runs": [{"typeface": "roman", "text": "tomune."}, {"typeface": "italic", "text": " A parte dianteira do eſtribo de"}]},
-        {"id": "c1-l004", "indent": 1, "runs": [{"typeface": "italic", "text": "Iapão. ¶"}, {"typeface": "roman", "text": " Abumino cutçugomi."}, {"typeface": "italic", "text": " O lugar"}]},
-        {"id": "c1-l005", "indent": 1, "runs": [{"typeface": "italic", "text": "do eſtribo onde aſenta o pee. ¶"}, {"typeface": "roman", "text": " Abumino"}]},
-        {"id": "c1-l006", "indent": 1, "runs": [{"typeface": "roman", "text": "caco."}, {"typeface": "italic", "text": " Peſcoço do eſtribo por onde ſe toma"}]},
-        {"id": "c1-l007", "indent": 1, "runs": [{"typeface": "italic", "text": "ate a fiuela por onde ſe mete o loro. ¶"}, {"typeface": "roman", "text": " Abu"}]},
-        {"id": "c1-l008", "indent": 1, "runs": [{"typeface": "roman", "text": "mino chicaraqane."}, {"typeface": "italic", "text": " Fiuela do eſtribo, por"}]},
-        {"id": "c1-l009", "indent": 1, "runs": [{"typeface": "italic", "text": "onde ſe mete o loro. ¶"}, {"typeface": "roman", "text": " Abumino ya-"}]},
-        {"id": "c1-l010", "indent": 1, "runs": [{"typeface": "roman", "text": "nalba."}, {"typeface": "italic", "text": " Hum debrum de ferro que cerca em"}]},
-        {"id": "c1-l011", "indent": 1, "runs": [{"typeface": "italic", "text": "roda os eſtribos da parte de baixo. ¶"}, {"typeface": "roman", "text": " Abu"}]},
-        {"id": "c1-l012", "indent": 1, "runs": [{"typeface": "roman", "text": "mino xita laqi."}, {"typeface": "italic", "text": " Põta do eſtribo de Iapão"}]},
-        {"id": "c1-l013", "runs": [{"typeface": "roman", "text": "Abunai."}, {"typeface": "italic", "text": " Couſa perigoſa, ou poſta a perigo."}]},
-        {"id": "c1-l014", "indent": 1, "runs": [{"typeface": "roman", "text": "Abunaſa."}]},
-        {"id": "c1-l015", "indent": 1, "runs": [{"typeface": "roman", "text": "Abunǒ."}]},
-        {"id": "c1-l016", "runs": [{"typeface": "roman", "text": "Abura."}, {"typeface": "italic", "text": " Gordura, unto, enxundia, manteiga,"}]},
-        {"id": "c1-l017", "indent": 1, "runs": [{"typeface": "italic", "text": "toucinho, &c. ¶"}, {"typeface": "roman", "text": " Mino abura."}, {"typeface": "italic", "text": " Gordu-"}]},
-        {"id": "c1-l018", "indent": 1, "runs": [{"typeface": "italic", "text": "ra, ou ſuor que ſae do corpo como azeite."}]},
-        {"id": "c1-l019", "runs": [{"typeface": "roman", "text": "Abura."}, {"typeface": "italic", "text": " Azeite, ou oleo. ¶"}, {"typeface": "roman", "text": " Aburauo"}]},
-        {"id": "c1-l020", "indent": 1, "runs": [{"typeface": "roman", "text": "xiboru."}, {"typeface": "italic", "text": " Fazer azeite. ¶"}, {"typeface": "roman", "text": " Abura de"}]},
-        {"id": "c1-l021", "indent": 1, "runs": [{"typeface": "roman", "text": "aguru."}, {"typeface": "italic", "text": " Frigir com azeite. ¶"}, {"typeface": "roman", "text": " Aburaga xi"}]},
-        {"id": "c1-l022", "indent": 1, "runs": [{"typeface": "roman", "text": "miru."}, {"typeface": "italic", "text": " Fazer nodoa o azeite, ou penetrar."}]},
-        {"id": "c1-l023", "indent": 1, "runs": [{"typeface": "italic", "text": "¶ No Ximo ſe diz."}, {"typeface": "roman", "text": " Aburauo funuuru."}]},
-        {"id": "c1-l024", "indent": 1, "runs": [{"typeface": "italic", "text": "Fazer azeite."}]},
-        {"id": "c1-l025", "runs": [{"typeface": "roman", "text": "Aburadaru."}, {"typeface": "italic", "text": " Barça, ou barril de azeite."}]},
-        {"id": "c1-l026", "runs": [{"typeface": "roman", "text": "Aburafi."}, {"typeface": "italic", "text": " Fogo, ou candea de azeite."}]},
-        {"id": "c1-l027", "runs": [{"typeface": "roman", "text": "Aburagami."}, {"typeface": "italic", "text": " Papel azeitado, ou pastas de"}]},
-        {"id": "c1-l028", "indent": 1, "runs": [{"typeface": "italic", "text": "papel azeitado de q̃ uſão pera contra a chu-"}]},
-        {"id": "c1-l029", "indent": 1, "runs": [{"typeface": "italic", "text": "ua, ou agoa."}]},
-        {"id": "c1-l030", "runs": [{"typeface": "roman", "text": "Abura ague, l, Abura agueno mono."}, {"typeface": "italic", "text": " Cou-"}]},
-        {"id": "c1-l031", "indent": 1, "runs": [{"typeface": "italic", "text": "ſa frita em azeite."}]},
-        {"id": "c1-l032", "runs": [{"typeface": "roman", "text": "Aburaguiru, l, Aburaqiri, ru, itta."}, {"typeface": "italic", "text": " Eſtar gor-"}]},
-        {"id": "c1-l033", "indent": 1, "runs": [{"typeface": "italic", "text": "do, nedeo, & luzidio. ¶"}, {"typeface": "roman", "text": " Aburaguitta"}]},
-        {"id": "c1-l034", "indent": 1, "runs": [{"typeface": "roman", "text": "fito, l, aburaqitta fito."}, {"typeface": "italic", "text": " Homem gordo,"}]},
-        {"id": "c1-l035", "indent": 1, "runs": [{"typeface": "italic", "text": "e nedeo. ¶"}, {"typeface": "roman", "text": " Aburaguitra yu, xiru, &c."}]},
-        {"id": "c1-l036", "indent": 1, "runs": [{"typeface": "italic", "text": "Agoa quente, ou caldo que tem gordura."}]},
-        {"id": "c1-l037", "runs": [{"typeface": "roman", "text": "Aburajimi."}, {"typeface": "italic", "text": " Nodoa do ſuor, ou gordura do"}]},
-        {"id": "c1-l038", "indent": 1, "runs": [{"typeface": "italic", "text": "corpo que fica no veſtido. ¶ Item, Nodoa"}]},
-        {"id": "c1-l039", "indent": 1, "runs": [{"typeface": "italic", "text": "de azeite em geral. ¶"}, {"typeface": "roman", "text": " Aburajimiga ſu-"}]},
-        {"id": "c1-l040", "indent": 1, "runs": [{"typeface": "roman", "text": "ru."}, {"typeface": "italic", "text": " Fazerſe nodoa de azeite. ¶"}, {"typeface": "roman", "text": " Aburajimi"}]},
-        {"id": "c1-l041", "indent": 1, "runs": [{"typeface": "roman", "text": "uo votoſu."}, {"typeface": "italic", "text": " Tirar a nodoa de azeite, ou"}]},
-        {"id": "c1-l042", "indent": 1, "runs": [{"typeface": "italic", "text": "gordura."}]},
-        {"id": "c1-l043", "runs": [{"typeface": "roman", "text": "Aburairi."}, {"typeface": "italic", "text": " Couſa frita, ou torrada em azeite."}]},
-        {"id": "c1-l044", "runs": [{"typeface": "roman", "text": "Aburamigaqi."}, {"typeface": "italic", "text": " O dar luſtro a algũa obra cõ"}]},
-        {"id": "c1-l045", "indent": 1, "runs": [{"typeface": "italic", "text": "azeite de pois de bem acepilhada, & polida."}]},
-        {"id": "c1-l046", "indent": 1, "runs": [{"typeface": "roman", "text": "aburamono."}, {"typeface": "italic", "text": " Couſa frita."}]},
-        {"id": "c1-l047", "runs": [{"typeface": "roman", "text": "Aburamuxi."}, {"typeface": "italic", "text": " Barata bicha. ¶ Item, Hũs"}]}
+        {
+          "id": "c1-l001",
+          "runs": [
+            {
+              "typeface": "roman",
+              "text": "Abumiuo funbaru."
+            },
+            {
+              "typeface": "italic",
+              "text": " Eſtribarſe aleuantan-"
+            }
+          ]
+        },
+        {
+          "id": "c1-l002",
+          "indent": 1,
+          "runs": [
+            {
+              "typeface": "italic",
+              "text": "doſe ſobre os eſtribos. ¶"
+            },
+            {
+              "typeface": "roman",
+              "text": " Abumino fa-"
+            }
+          ]
+        },
+        {
+          "id": "c1-l003",
+          "indent": 1,
+          "runs": [
+            {
+              "typeface": "roman",
+              "text": "tomune."
+            },
+            {
+              "typeface": "italic",
+              "text": " A parte dianteira do eſtribo de"
+            }
+          ]
+        },
+        {
+          "id": "c1-l004",
+          "indent": 1,
+          "runs": [
+            {
+              "typeface": "italic",
+              "text": "Iapão. ¶"
+            },
+            {
+              "typeface": "roman",
+              "text": " Abumino cutçugomi."
+            },
+            {
+              "typeface": "italic",
+              "text": " O lugar"
+            }
+          ]
+        },
+        {
+          "id": "c1-l005",
+          "indent": 1,
+          "runs": [
+            {
+              "typeface": "italic",
+              "text": "do eſtribo onde aſenta o pee. ¶"
+            },
+            {
+              "typeface": "roman",
+              "text": " Abumino"
+            }
+          ]
+        },
+        {
+          "id": "c1-l006",
+          "indent": 1,
+          "runs": [
+            {
+              "typeface": "roman",
+              "text": "caco."
+            },
+            {
+              "typeface": "italic",
+              "text": " Peſcoço do eſtribo por onde ſe toma"
+            }
+          ]
+        },
+        {
+          "id": "c1-l007",
+          "indent": 1,
+          "runs": [
+            {
+              "typeface": "italic",
+              "text": "ate a fiuela por onde ſe mete o loro. ¶"
+            },
+            {
+              "typeface": "roman",
+              "text": " Abu"
+            }
+          ]
+        },
+        {
+          "id": "c1-l008",
+          "indent": 1,
+          "runs": [
+            {
+              "typeface": "roman",
+              "text": "mino chicaraqane."
+            },
+            {
+              "typeface": "italic",
+              "text": " Fiuela do eſtribo, por"
+            }
+          ]
+        },
+        {
+          "id": "c1-l009",
+          "indent": 1,
+          "runs": [
+            {
+              "typeface": "italic",
+              "text": "onde ſe mete o loro. ¶"
+            },
+            {
+              "typeface": "roman",
+              "text": " Abumino ya-"
+            }
+          ]
+        },
+        {
+          "id": "c1-l010",
+          "indent": 1,
+          "runs": [
+            {
+              "typeface": "roman",
+              "text": "nalba."
+            },
+            {
+              "typeface": "italic",
+              "text": " Hum debrum de ferro que cerca em"
+            }
+          ]
+        },
+        {
+          "id": "c1-l011",
+          "indent": 1,
+          "runs": [
+            {
+              "typeface": "italic",
+              "text": "roda os eſtribos da parte de baixo. ¶"
+            },
+            {
+              "typeface": "roman",
+              "text": " Abu"
+            }
+          ]
+        },
+        {
+          "id": "c1-l012",
+          "indent": 1,
+          "runs": [
+            {
+              "typeface": "roman",
+              "text": "mino xita laqi."
+            },
+            {
+              "typeface": "italic",
+              "text": " Põta do eſtribo de Iapão"
+            }
+          ]
+        },
+        {
+          "id": "c1-l013",
+          "runs": [
+            {
+              "typeface": "roman",
+              "text": "Abunai."
+            },
+            {
+              "typeface": "italic",
+              "text": " Couſa perigoſa, ou poſta a perigo."
+            }
+          ]
+        },
+        {
+          "id": "c1-l014",
+          "indent": 1,
+          "runs": [
+            {
+              "typeface": "roman",
+              "text": "Abunaſa."
+            }
+          ]
+        },
+        {
+          "id": "c1-l015",
+          "indent": 1,
+          "runs": [
+            {
+              "typeface": "roman",
+              "text": "Abunǒ."
+            }
+          ]
+        },
+        {
+          "id": "c1-l016",
+          "runs": [
+            {
+              "typeface": "roman",
+              "text": "Abura."
+            },
+            {
+              "typeface": "italic",
+              "text": " Gordura, unto, enxundia, manteiga,"
+            }
+          ]
+        },
+        {
+          "id": "c1-l017",
+          "indent": 1,
+          "runs": [
+            {
+              "typeface": "italic",
+              "text": "toucinho, &c. ¶"
+            },
+            {
+              "typeface": "roman",
+              "text": " Mino abura."
+            },
+            {
+              "typeface": "italic",
+              "text": " Gordu-"
+            }
+          ]
+        },
+        {
+          "id": "c1-l018",
+          "indent": 1,
+          "runs": [
+            {
+              "typeface": "italic",
+              "text": "ra, ou ſuor que ſae do corpo como azeite."
+            }
+          ]
+        },
+        {
+          "id": "c1-l019",
+          "runs": [
+            {
+              "typeface": "roman",
+              "text": "Abura."
+            },
+            {
+              "typeface": "italic",
+              "text": " Azeite, ou oleo. ¶"
+            },
+            {
+              "typeface": "roman",
+              "text": " Aburauo"
+            }
+          ]
+        },
+        {
+          "id": "c1-l020",
+          "indent": 1,
+          "runs": [
+            {
+              "typeface": "roman",
+              "text": "xiboru."
+            },
+            {
+              "typeface": "italic",
+              "text": " Fazer azeite. ¶"
+            },
+            {
+              "typeface": "roman",
+              "text": " Abura de"
+            }
+          ]
+        },
+        {
+          "id": "c1-l021",
+          "indent": 1,
+          "runs": [
+            {
+              "typeface": "roman",
+              "text": "aguru."
+            },
+            {
+              "typeface": "italic",
+              "text": " Frigir com azeite. ¶"
+            },
+            {
+              "typeface": "roman",
+              "text": " Aburaga xi"
+            }
+          ]
+        },
+        {
+          "id": "c1-l022",
+          "indent": 1,
+          "runs": [
+            {
+              "typeface": "roman",
+              "text": "miru."
+            },
+            {
+              "typeface": "italic",
+              "text": " Fazer nodoa o azeite, ou penetrar."
+            }
+          ]
+        },
+        {
+          "id": "c1-l023",
+          "indent": 1,
+          "runs": [
+            {
+              "typeface": "italic",
+              "text": "¶ No Ximo ſe diz."
+            },
+            {
+              "typeface": "roman",
+              "text": " Aburauo funuuru."
+            }
+          ]
+        },
+        {
+          "id": "c1-l024",
+          "indent": 1,
+          "runs": [
+            {
+              "typeface": "italic",
+              "text": "Fazer azeite."
+            }
+          ]
+        },
+        {
+          "id": "c1-l025",
+          "runs": [
+            {
+              "typeface": "roman",
+              "text": "Aburadaru."
+            },
+            {
+              "typeface": "italic",
+              "text": " Barça, ou barril de azeite."
+            }
+          ]
+        },
+        {
+          "id": "c1-l026",
+          "runs": [
+            {
+              "typeface": "roman",
+              "text": "Aburafi."
+            },
+            {
+              "typeface": "italic",
+              "text": " Fogo, ou candea de azeite."
+            }
+          ]
+        },
+        {
+          "id": "c1-l027",
+          "runs": [
+            {
+              "typeface": "roman",
+              "text": "Aburagami."
+            },
+            {
+              "typeface": "italic",
+              "text": " Papel azeitado, ou pastas de"
+            }
+          ]
+        },
+        {
+          "id": "c1-l028",
+          "indent": 1,
+          "runs": [
+            {
+              "typeface": "italic",
+              "text": "papel azeitado de q̃ uſão pera contra a chu-"
+            }
+          ]
+        },
+        {
+          "id": "c1-l029",
+          "indent": 1,
+          "runs": [
+            {
+              "typeface": "italic",
+              "text": "ua, ou agoa."
+            }
+          ]
+        },
+        {
+          "id": "c1-l030",
+          "runs": [
+            {
+              "typeface": "roman",
+              "text": "Abura ague, l, Abura agueno mono."
+            },
+            {
+              "typeface": "italic",
+              "text": " Cou-"
+            }
+          ]
+        },
+        {
+          "id": "c1-l031",
+          "indent": 1,
+          "runs": [
+            {
+              "typeface": "italic",
+              "text": "ſa frita em azeite."
+            }
+          ]
+        },
+        {
+          "id": "c1-l032",
+          "runs": [
+            {
+              "typeface": "roman",
+              "text": "Aburaguiru, l, Aburaqiri, ru, itta."
+            },
+            {
+              "typeface": "italic",
+              "text": " Eſtar gor-"
+            }
+          ]
+        },
+        {
+          "id": "c1-l033",
+          "indent": 1,
+          "runs": [
+            {
+              "typeface": "italic",
+              "text": "do, nedeo, & luzidio. ¶"
+            },
+            {
+              "typeface": "roman",
+              "text": " Aburaguitta"
+            }
+          ]
+        },
+        {
+          "id": "c1-l034",
+          "indent": 1,
+          "runs": [
+            {
+              "typeface": "roman",
+              "text": "fito, l, aburaqitta fito."
+            },
+            {
+              "typeface": "italic",
+              "text": " Homem gordo,"
+            }
+          ]
+        },
+        {
+          "id": "c1-l035",
+          "indent": 1,
+          "runs": [
+            {
+              "typeface": "italic",
+              "text": "e nedeo. ¶"
+            },
+            {
+              "typeface": "roman",
+              "text": " Aburaguitra yu, xiru, &c."
+            }
+          ]
+        },
+        {
+          "id": "c1-l036",
+          "indent": 1,
+          "runs": [
+            {
+              "typeface": "italic",
+              "text": "Agoa quente, ou caldo que tem gordura."
+            }
+          ]
+        },
+        {
+          "id": "c1-l037",
+          "runs": [
+            {
+              "typeface": "roman",
+              "text": "Aburajimi."
+            },
+            {
+              "typeface": "italic",
+              "text": " Nodoa do ſuor, ou gordura do"
+            }
+          ]
+        },
+        {
+          "id": "c1-l038",
+          "indent": 1,
+          "runs": [
+            {
+              "typeface": "italic",
+              "text": "corpo que fica no veſtido. ¶ Item, Nodoa"
+            }
+          ]
+        },
+        {
+          "id": "c1-l039",
+          "indent": 1,
+          "runs": [
+            {
+              "typeface": "italic",
+              "text": "de azeite em geral. ¶"
+            },
+            {
+              "typeface": "roman",
+              "text": " Aburajimiga ſu-"
+            }
+          ]
+        },
+        {
+          "id": "c1-l040",
+          "indent": 1,
+          "runs": [
+            {
+              "typeface": "roman",
+              "text": "ru."
+            },
+            {
+              "typeface": "italic",
+              "text": " Fazerſe nodoa de azeite. ¶"
+            },
+            {
+              "typeface": "roman",
+              "text": " Aburajimi"
+            }
+          ]
+        },
+        {
+          "id": "c1-l041",
+          "indent": 1,
+          "runs": [
+            {
+              "typeface": "roman",
+              "text": "uo votoſu."
+            },
+            {
+              "typeface": "italic",
+              "text": " Tirar a nodoa de azeite, ou"
+            }
+          ]
+        },
+        {
+          "id": "c1-l042",
+          "indent": 1,
+          "runs": [
+            {
+              "typeface": "italic",
+              "text": "gordura."
+            }
+          ]
+        },
+        {
+          "id": "c1-l043",
+          "runs": [
+            {
+              "typeface": "roman",
+              "text": "Aburairi."
+            },
+            {
+              "typeface": "italic",
+              "text": " Couſa frita, ou torrada em azeite."
+            }
+          ]
+        },
+        {
+          "id": "c1-l044",
+          "runs": [
+            {
+              "typeface": "roman",
+              "text": "Aburamigaqi."
+            },
+            {
+              "typeface": "italic",
+              "text": " O dar luſtro a algũa obra cõ"
+            }
+          ]
+        },
+        {
+          "id": "c1-l045",
+          "indent": 1,
+          "runs": [
+            {
+              "typeface": "italic",
+              "text": "azeite de pois de bem acepilhada, & polida."
+            }
+          ]
+        },
+        {
+          "id": "c1-l046",
+          "indent": 1,
+          "runs": [
+            {
+              "typeface": "roman",
+              "text": "aburamono."
+            },
+            {
+              "typeface": "italic",
+              "text": " Couſa frita."
+            }
+          ]
+        },
+        {
+          "id": "c1-l047",
+          "runs": [
+            {
+              "typeface": "roman",
+              "text": "Aburamuxi."
+            },
+            {
+              "typeface": "italic",
+              "text": " Barata bicha. ¶ Item, Hũs"
+            }
+          ]
+        }
       ]
     },
     {
@@ -84,7 +670,15 @@
       "kind": "running_header",
       "label": "Column 2 running header",
       "lines": [
-        {"id": "h2-l001", "runs": [{"typeface": "display", "text": "A ANTES DO B."}]}
+        {
+          "id": "h2-l001",
+          "runs": [
+            {
+              "typeface": "display",
+              "text": "A ANTES DO B."
+            }
+          ]
+        }
       ]
     },
     {
@@ -92,53 +686,586 @@
       "kind": "column",
       "label": "Column 2",
       "lines": [
-        {"id": "c2-l001", "indent": 1, "runs": [{"typeface": "italic", "text": "bichinhos pretos que comem os olhos das aruo-"}]},
-        {"id": "c2-l002", "indent": 1, "runs": [{"typeface": "italic", "text": "res, & eruas."}]},
-        {"id": "c2-l003", "runs": [{"typeface": "roman", "text": "Aburaqeno mono."}, {"typeface": "italic", "text": " Couſa que tem azeite mi-"}]},
-        {"id": "c2-l004", "indent": 1, "runs": [{"typeface": "italic", "text": "ſturado em ſi, ou feita com azeite. ¶"}, {"typeface": "roman", "text": " Abu-"}]},
-        {"id": "c2-l005", "indent": 1, "runs": [{"typeface": "roman", "text": "raqega ſuru."}, {"typeface": "italic", "text": " Ter cheiro, ou ſabor de"}]},
-        {"id": "c2-l006", "indent": 1, "runs": [{"typeface": "italic", "text": "azeite."}]},
-        {"id": "c2-l007", "runs": [{"typeface": "roman", "text": "Aburaqiri, u."}, {"typeface": "italic", "text": " Vide"}, {"typeface": "roman", "text": " Aburaguiru."}]},
-        {"id": "c2-l008", "runs": [{"typeface": "roman", "text": "Aburaſaxi, ſu, aita."}, {"typeface": "italic", "text": " Vntar com azeite, ou"}]},
-        {"id": "c2-l009", "indent": 1, "runs": [{"typeface": "italic", "text": "unto. ¶"}, {"typeface": "roman", "text": " Curumani abura ſaſu."}, {"typeface": "italic", "text": " Vn-"}]},
-        {"id": "c2-l010", "indent": 1, "runs": [{"typeface": "italic", "text": "tar o exo do carro. S. ¶"}, {"typeface": "roman", "text": " Aburauo ſaſu. l,"}]},
-        {"id": "c2-l011", "indent": 1, "runs": [{"typeface": "roman", "text": "Aburauotçugu."}, {"typeface": "italic", "text": " Botar azeite como na cã-"}]},
-        {"id": "c2-l012", "indent": 1, "runs": [{"typeface": "italic", "text": "dea, &c."}]},
-        {"id": "c2-l013", "runs": [{"typeface": "roman", "text": "Aburaſaxi, l, Abura tçugui."}, {"typeface": "italic", "text": " Vaſo com que"}]},
-        {"id": "c2-l014", "indent": 1, "runs": [{"typeface": "italic", "text": "ſe deita azeite."}]},
-        {"id": "c2-l015", "runs": [{"typeface": "roman", "text": "Aburatçugui, l, aburaſaxi."}, {"typeface": "italic", "text": " Almotolia, ou"}]},
-        {"id": "c2-l016", "indent": 1, "runs": [{"typeface": "italic", "text": "vaſo pera botar azeite na candea."}]},
-        {"id": "c2-l017", "runs": [{"typeface": "roman", "text": "Aburatçuqi."}, {"typeface": "italic", "text": " Candieiro, vieira, ou teſto de"}]},
-        {"id": "c2-l018", "indent": 1, "runs": [{"typeface": "italic", "text": "azeite que ſe poem nas alenternas."}]},
-        {"id": "c2-l019", "runs": [{"typeface": "roman", "text": "Aburatçubo."}, {"typeface": "italic", "text": " Hũ vazozinho em q̃ as mo-"}]},
-        {"id": "c2-l020", "indent": 1, "runs": [{"typeface": "italic", "text": "lheres tem azeite pera os cabellos. ¶ Itẽ, Bo-"}]},
-        {"id": "c2-l021", "indent": 1, "runs": [{"typeface": "italic", "text": "yão, ou vazo de azeite."}]},
-        {"id": "c2-l022", "runs": [{"typeface": "roman", "text": "Aburaya."}, {"typeface": "italic", "text": " Caſa onde ſe vẽde, ou faz azei-"}]},
-        {"id": "c2-l023", "indent": 1, "runs": [{"typeface": "italic", "text": "te. ¶ Itẽ, Improprie oq̃ vẽde, ou faz azeite."}]},
-        {"id": "c2-l024", "runs": [{"typeface": "roman", "text": "Aburazaxi, ſu, aita."}, {"typeface": "italic", "text": " Vntar com azeite, ou"}]},
-        {"id": "c2-l025", "indent": 1, "runs": [{"typeface": "italic", "text": "unto. S."}]},
-        {"id": "c2-l026", "runs": [{"typeface": "roman", "text": "Aburazzuqi, u, uita."}, {"typeface": "italic", "text": " Pegarſe o ſuor, ou gor-"}]},
-        {"id": "c2-l027", "indent": 1, "runs": [{"typeface": "italic", "text": "dura do corpo no veſtido, &c. ¶ Itẽ, Ali"}]},
-        {"id": "c2-l028", "indent": 1, "runs": [{"typeface": "italic", "text": "quando permet. Eſtar pegado, & embebido"}]},
-        {"id": "c2-l029", "indent": 1, "runs": [{"typeface": "italic", "text": "em algũa couſa que hũm aprende, ou tem in-"}]},
-        {"id": "c2-l030", "indent": 1, "runs": [{"typeface": "italic", "text": "clinação."}]},
-        {"id": "c2-l031", "runs": [{"typeface": "roman", "text": "Aburazzutçu."}, {"typeface": "italic", "text": " Canudo, ou cana em que ſe tẽ"}]},
-        {"id": "c2-l032", "indent": 1, "runs": [{"typeface": "italic", "text": "o azeite."}]},
-        {"id": "c2-l033", "runs": [{"typeface": "roman", "text": "Abure, ruru, eta."}, {"typeface": "italic", "text": " Aſſarſe."}]},
-        {"id": "c2-l034", "runs": [{"typeface": "roman", "text": "Aburemono."}, {"typeface": "italic", "text": " Homem audaz, & que não tẽ"}]},
-        {"id": "c2-l035", "indent": 1, "runs": [{"typeface": "italic", "text": "deuer com nada, nem eſtima a vida, &c."}]},
-        {"id": "c2-l036", "runs": [{"typeface": "roman", "text": "Aburi, ru, utta."}, {"typeface": "italic", "text": " Aſſar. ¶"}, {"typeface": "roman", "text": " Miuo aburu."}]},
-        {"id": "c2-l037", "indent": 1, "runs": [{"typeface": "italic", "text": "Aquentarſe ao fogo. ¶"}, {"typeface": "roman", "text": " Teuo aburu."}]},
-        {"id": "c2-l038", "indent": 1, "runs": [{"typeface": "italic", "text": "Aquentar as mãos ao fogo. ¶"}, {"typeface": "roman", "text": " Fide monouo"}]},
-        {"id": "c2-l039", "indent": 1, "runs": [{"typeface": "roman", "text": "aburu."}, {"typeface": "italic", "text": " Aſſar algũa couſa ao fogo. ¶"}, {"typeface": "roman", "text": " Qi-"}]},
-        {"id": "c2-l040", "indent": 1, "runs": [{"typeface": "roman", "text": "rumono nadouo fide aburi cauaraguru."}]},
-        {"id": "c2-l041", "indent": 1, "runs": [{"typeface": "italic", "text": "Enxugar veſtido,ou outra couſa ao fogo. ¶"}, {"typeface": "roman", "text": " Cu-"}]},
-        {"id": "c2-l042", "indent": 1, "runs": [{"typeface": "roman", "text": "ſuri, l, chauo aburu."}, {"typeface": "italic", "text": " Torrar algũa me-"}]},
-        {"id": "c2-l043", "indent": 1, "runs": [{"typeface": "italic", "text": "zinha, ou cha, &c."}]},
-        {"id": "c2-l044", "runs": [{"typeface": "roman", "text": "Aburicaraxi, ſu, aita."}, {"typeface": "italic", "text": " Aſſar, & ſecar."}]},
-        {"id": "c2-l045", "runs": [{"typeface": "roman", "text": "Aburicauaragaxi, ſu, ita."}, {"typeface": "italic", "text": " Idem."}]},
-        {"id": "c2-l046", "runs": [{"typeface": "roman", "text": "Aburicauacaſu."}, {"typeface": "italic", "text": " Idem."}]},
-        {"id": "c2-l047", "runs": [{"typeface": "roman", "text": "Aburicauarague, uru, eta."}, {"typeface": "italic", "text": " Idem."}]}
+        {
+          "id": "c2-l001",
+          "indent": 1,
+          "runs": [
+            {
+              "typeface": "italic",
+              "text": "bichinhos pretos que comem os olhos das aruo-"
+            }
+          ]
+        },
+        {
+          "id": "c2-l002",
+          "indent": 1,
+          "runs": [
+            {
+              "typeface": "italic",
+              "text": "res, & eruas."
+            }
+          ]
+        },
+        {
+          "id": "c2-l003",
+          "runs": [
+            {
+              "typeface": "roman",
+              "text": "Aburaqeno mono."
+            },
+            {
+              "typeface": "italic",
+              "text": " Couſa que tem azeite mi-"
+            }
+          ]
+        },
+        {
+          "id": "c2-l004",
+          "indent": 1,
+          "runs": [
+            {
+              "typeface": "italic",
+              "text": "ſturado em ſi, ou feita com azeite. ¶"
+            },
+            {
+              "typeface": "roman",
+              "text": " Abu-"
+            }
+          ]
+        },
+        {
+          "id": "c2-l005",
+          "indent": 1,
+          "runs": [
+            {
+              "typeface": "roman",
+              "text": "raqega ſuru."
+            },
+            {
+              "typeface": "italic",
+              "text": " Ter cheiro, ou ſabor de"
+            }
+          ]
+        },
+        {
+          "id": "c2-l006",
+          "indent": 1,
+          "runs": [
+            {
+              "typeface": "italic",
+              "text": "azeite."
+            }
+          ]
+        },
+        {
+          "id": "c2-l007",
+          "runs": [
+            {
+              "typeface": "roman",
+              "text": "Aburaqiri, u."
+            },
+            {
+              "typeface": "italic",
+              "text": " Vide"
+            },
+            {
+              "typeface": "roman",
+              "text": " Aburaguiru."
+            }
+          ]
+        },
+        {
+          "id": "c2-l008",
+          "runs": [
+            {
+              "typeface": "roman",
+              "text": "Aburaſaxi, ſu, aita."
+            },
+            {
+              "typeface": "italic",
+              "text": " Vntar com azeite, ou"
+            }
+          ]
+        },
+        {
+          "id": "c2-l009",
+          "indent": 1,
+          "runs": [
+            {
+              "typeface": "italic",
+              "text": "unto. ¶"
+            },
+            {
+              "typeface": "roman",
+              "text": " Curumani abura ſaſu."
+            },
+            {
+              "typeface": "italic",
+              "text": " Vn-"
+            }
+          ]
+        },
+        {
+          "id": "c2-l010",
+          "indent": 1,
+          "runs": [
+            {
+              "typeface": "italic",
+              "text": "tar o exo do carro. S. ¶"
+            },
+            {
+              "typeface": "roman",
+              "text": " Aburauo ſaſu. l,"
+            }
+          ]
+        },
+        {
+          "id": "c2-l011",
+          "indent": 1,
+          "runs": [
+            {
+              "typeface": "roman",
+              "text": "Aburauotçugu."
+            },
+            {
+              "typeface": "italic",
+              "text": " Botar azeite como na cã-"
+            }
+          ]
+        },
+        {
+          "id": "c2-l012",
+          "indent": 1,
+          "runs": [
+            {
+              "typeface": "italic",
+              "text": "dea, &c."
+            }
+          ]
+        },
+        {
+          "id": "c2-l013",
+          "runs": [
+            {
+              "typeface": "roman",
+              "text": "Aburaſaxi, l, Abura tçugui."
+            },
+            {
+              "typeface": "italic",
+              "text": " Vaſo com que"
+            }
+          ]
+        },
+        {
+          "id": "c2-l014",
+          "indent": 1,
+          "runs": [
+            {
+              "typeface": "italic",
+              "text": "ſe deita azeite."
+            }
+          ]
+        },
+        {
+          "id": "c2-l015",
+          "runs": [
+            {
+              "typeface": "roman",
+              "text": "Aburatçugui, l, aburaſaxi."
+            },
+            {
+              "typeface": "italic",
+              "text": " Almotolia, ou"
+            }
+          ]
+        },
+        {
+          "id": "c2-l016",
+          "indent": 1,
+          "runs": [
+            {
+              "typeface": "italic",
+              "text": "vaſo pera botar azeite na candea."
+            }
+          ]
+        },
+        {
+          "id": "c2-l017",
+          "runs": [
+            {
+              "typeface": "roman",
+              "text": "Aburatçuqi."
+            },
+            {
+              "typeface": "italic",
+              "text": " Candieiro, vieira, ou teſto de"
+            }
+          ]
+        },
+        {
+          "id": "c2-l018",
+          "indent": 1,
+          "runs": [
+            {
+              "typeface": "italic",
+              "text": "azeite que ſe poem nas alenternas."
+            }
+          ]
+        },
+        {
+          "id": "c2-l019",
+          "runs": [
+            {
+              "typeface": "roman",
+              "text": "Aburatçubo."
+            },
+            {
+              "typeface": "italic",
+              "text": " Hũ vazozinho em q̃ as mo-"
+            }
+          ]
+        },
+        {
+          "id": "c2-l020",
+          "indent": 1,
+          "runs": [
+            {
+              "typeface": "italic",
+              "text": "lheres tem azeite pera os cabellos. ¶ Itẽ, Bo-"
+            }
+          ]
+        },
+        {
+          "id": "c2-l021",
+          "indent": 1,
+          "runs": [
+            {
+              "typeface": "italic",
+              "text": "yão, ou vazo de azeite."
+            }
+          ]
+        },
+        {
+          "id": "c2-l022",
+          "runs": [
+            {
+              "typeface": "roman",
+              "text": "Aburaya."
+            },
+            {
+              "typeface": "italic",
+              "text": " Caſa onde ſe vẽde, ou faz azei-"
+            }
+          ]
+        },
+        {
+          "id": "c2-l023",
+          "indent": 1,
+          "runs": [
+            {
+              "typeface": "italic",
+              "text": "te. ¶ Itẽ, Improprie oq̃ vẽde, ou faz azeite."
+            }
+          ]
+        },
+        {
+          "id": "c2-l024",
+          "runs": [
+            {
+              "typeface": "roman",
+              "text": "Aburazaxi, ſu, aita."
+            },
+            {
+              "typeface": "italic",
+              "text": " Vntar com azeite, ou"
+            }
+          ]
+        },
+        {
+          "id": "c2-l025",
+          "indent": 1,
+          "runs": [
+            {
+              "typeface": "italic",
+              "text": "unto. S."
+            }
+          ]
+        },
+        {
+          "id": "c2-l026",
+          "runs": [
+            {
+              "typeface": "roman",
+              "text": "Aburazzuqi, u, uita."
+            },
+            {
+              "typeface": "italic",
+              "text": " Pegarſe o ſuor, ou gor-"
+            }
+          ]
+        },
+        {
+          "id": "c2-l027",
+          "indent": 1,
+          "runs": [
+            {
+              "typeface": "italic",
+              "text": "dura do corpo no veſtido, &c. ¶ Itẽ, Ali"
+            }
+          ]
+        },
+        {
+          "id": "c2-l028",
+          "indent": 1,
+          "runs": [
+            {
+              "typeface": "italic",
+              "text": "quando permet. Eſtar pegado, & embebido"
+            }
+          ]
+        },
+        {
+          "id": "c2-l029",
+          "indent": 1,
+          "runs": [
+            {
+              "typeface": "italic",
+              "text": "em algũa couſa que hũm aprende, ou tem in-"
+            }
+          ]
+        },
+        {
+          "id": "c2-l030",
+          "indent": 1,
+          "runs": [
+            {
+              "typeface": "italic",
+              "text": "clinação."
+            }
+          ]
+        },
+        {
+          "id": "c2-l031",
+          "runs": [
+            {
+              "typeface": "roman",
+              "text": "Aburazzutçu."
+            },
+            {
+              "typeface": "italic",
+              "text": " Canudo, ou cana em que ſe tẽ"
+            }
+          ]
+        },
+        {
+          "id": "c2-l032",
+          "indent": 1,
+          "runs": [
+            {
+              "typeface": "italic",
+              "text": "o azeite."
+            }
+          ]
+        },
+        {
+          "id": "c2-l033",
+          "runs": [
+            {
+              "typeface": "roman",
+              "text": "Abure, ruru, eta."
+            },
+            {
+              "typeface": "italic",
+              "text": " Aſſarſe."
+            }
+          ]
+        },
+        {
+          "id": "c2-l034",
+          "runs": [
+            {
+              "typeface": "roman",
+              "text": "Aburemono."
+            },
+            {
+              "typeface": "italic",
+              "text": " Homem audaz, & que não tẽ"
+            }
+          ]
+        },
+        {
+          "id": "c2-l035",
+          "indent": 1,
+          "runs": [
+            {
+              "typeface": "italic",
+              "text": "deuer com nada, nem eſtima a vida, &c."
+            }
+          ]
+        },
+        {
+          "id": "c2-l036",
+          "runs": [
+            {
+              "typeface": "roman",
+              "text": "Aburi, ru, utta."
+            },
+            {
+              "typeface": "italic",
+              "text": " Aſſar. ¶"
+            },
+            {
+              "typeface": "roman",
+              "text": " Miuo aburu."
+            }
+          ]
+        },
+        {
+          "id": "c2-l037",
+          "indent": 1,
+          "runs": [
+            {
+              "typeface": "italic",
+              "text": "Aquentarſe ao fogo. ¶"
+            },
+            {
+              "typeface": "roman",
+              "text": " Teuo aburu."
+            }
+          ]
+        },
+        {
+          "id": "c2-l038",
+          "indent": 1,
+          "runs": [
+            {
+              "typeface": "italic",
+              "text": "Aquentar as mãos ao fogo. ¶"
+            },
+            {
+              "typeface": "roman",
+              "text": " Fide monouo"
+            }
+          ]
+        },
+        {
+          "id": "c2-l039",
+          "indent": 1,
+          "runs": [
+            {
+              "typeface": "roman",
+              "text": "aburu."
+            },
+            {
+              "typeface": "italic",
+              "text": " Aſſar algũa couſa ao fogo. ¶"
+            },
+            {
+              "typeface": "roman",
+              "text": " Qi-"
+            }
+          ]
+        },
+        {
+          "id": "c2-l040",
+          "indent": 1,
+          "runs": [
+            {
+              "typeface": "roman",
+              "text": "rumono nadouo fide aburi cauaraguru."
+            }
+          ]
+        },
+        {
+          "id": "c2-l041",
+          "indent": 1,
+          "runs": [
+            {
+              "typeface": "italic",
+              "text": "Enxugar veſtido,ou outra couſa ao fogo. ¶"
+            },
+            {
+              "typeface": "roman",
+              "text": " Cu-"
+            }
+          ]
+        },
+        {
+          "id": "c2-l042",
+          "indent": 1,
+          "runs": [
+            {
+              "typeface": "roman",
+              "text": "ſuri, l, chauo aburu."
+            },
+            {
+              "typeface": "italic",
+              "text": " Torrar algũa me-"
+            }
+          ]
+        },
+        {
+          "id": "c2-l043",
+          "indent": 1,
+          "runs": [
+            {
+              "typeface": "italic",
+              "text": "zinha, ou cha, &c."
+            }
+          ]
+        },
+        {
+          "id": "c2-l044",
+          "runs": [
+            {
+              "typeface": "roman",
+              "text": "Aburicaraxi, ſu, aita."
+            },
+            {
+              "typeface": "italic",
+              "text": " Aſſar, & ſecar."
+            }
+          ]
+        },
+        {
+          "id": "c2-l045",
+          "runs": [
+            {
+              "typeface": "roman",
+              "text": "Aburicauaragaxi, ſu, ita."
+            },
+            {
+              "typeface": "italic",
+              "text": " Idem."
+            }
+          ]
+        },
+        {
+          "id": "c2-l046",
+          "runs": [
+            {
+              "typeface": "roman",
+              "text": "Aburicauacaſu."
+            },
+            {
+              "typeface": "italic",
+              "text": " Idem."
+            }
+          ]
+        },
+        {
+          "id": "c2-l047",
+          "runs": [
+            {
+              "typeface": "roman",
+              "text": "Aburicauarague, uru, eta."
+            },
+            {
+              "typeface": "italic",
+              "text": " Idem."
+            }
+          ]
+        }
       ]
     },
     {
@@ -146,7 +1273,16 @@
       "kind": "catchword",
       "label": "Catchword",
       "lines": [
-        {"id": "catch-l001", "runs": [{"typeface": "roman", "text": "Aburico", "placement": "far-right"}]}
+        {
+          "id": "catch-l001",
+          "runs": [
+            {
+              "typeface": "roman",
+              "text": "Aburico",
+              "placement": "far-right"
+            }
+          ]
+        }
       ]
     }
   ]

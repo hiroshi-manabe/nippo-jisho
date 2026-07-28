@@ -75,6 +75,11 @@ def validate_page(page: dict, path: Path) -> dict[str, dict]:
                     raise TrialFormatError(
                         f"{path}:{line_id}: run {index} has invalid placement {placement!r}"
                     )
+            span_ids = [run["span_id"] for run in runs if "span_id" in run]
+            if any(not isinstance(span_id, str) or not span_id for span_id in span_ids):
+                raise TrialFormatError(f"{path}:{line_id}: invalid named span")
+            if len(span_ids) != len(set(span_ids)):
+                raise TrialFormatError(f"{path}:{line_id}: invalid or duplicate named span")
             ref = f"{page_id}:{line_id}"
             lines[ref] = line
     if not lines:
@@ -82,8 +87,21 @@ def validate_page(page: dict, path: Path) -> dict[str, dict]:
     return lines
 
 
-def line_text(line: dict, selected_runs: list[int] | None = None) -> str:
+def line_text(
+    line: dict,
+    selected_runs: list[int] | None = None,
+    selected_span: str | None = None,
+) -> str:
     runs = line["runs"]
+    if selected_runs is not None and selected_span is not None:
+        raise TrialFormatError(f"{line['id']}: cannot select both runs and a named span")
+    if selected_span is not None:
+        matches = [run for run in runs if run.get("span_id") == selected_span]
+        if len(matches) != 1:
+            raise TrialFormatError(
+                f"{line['id']}: named span {selected_span!r} does not resolve uniquely"
+            )
+        return matches[0]["text"]
     if selected_runs is None:
         return "".join(run["text"] for run in runs)
     pieces: list[str] = []
@@ -166,7 +184,7 @@ def validate_structure(structure: dict, registry: dict[str, dict], path: Path) -
                 ref = selector.get("line")
                 if ref not in registry:
                     raise TrialFormatError(f"{path}:{item_id}: unknown line reference {ref!r}")
-                line_text(registry[ref], selector.get("runs"))
+                line_text(registry[ref], selector.get("runs"), selector.get("span"))
                 if collection == "reading_sequences" and selector.get("join", "space") not in ALLOWED_JOINS:
                     raise TrialFormatError(f"{path}:{item_id}: invalid join operation")
 
@@ -183,7 +201,9 @@ def render_sequences(structure: dict, registry: dict[str, dict]) -> str:
     for sequence in structure.get("reading_sequences", []):
         assembled = ""
         for index, selector in enumerate(sequence["segments"]):
-            text = line_text(registry[selector["line"]], selector.get("runs"))
+            text = line_text(
+                registry[selector["line"]], selector.get("runs"), selector.get("span")
+            )
             if index == 0:
                 assembled = text
                 continue

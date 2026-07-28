@@ -2,9 +2,9 @@
 
 ## Result
 
-The trial successfully represents four complete pages as linked but separate Level 1 and Level 2 data. The renderer validates 330 physical lines, seven structural assertions, and eight selected reading sequences, then regenerates auditable page views and logical reading views without copying source text into Level 2.
+The trial successfully represents four complete pages in a compact human-readable Level 1 authoring format. The compiler validates 330 physical lines and regenerates the machine representation and auditable page views. Seven structural assertions and eight selected reading sequences remain as a secondary compatibility check, not the current design focus.
 
-This is a successful implementation trial, not yet adoption of format version 1. The representation works for the tested evidence, but JSON authoring is verbose and a genuinely unresolved reading has not yet exercised the uncertainty field.
+This is a successful implementation trial, not yet adoption of format version 1. Compact Markdown has replaced JSON as the candidate authoring form; JSON is generated for validation and interchange. A genuinely unresolved reading has not yet exercised the uncertainty field.
 
 ## Scope
 
@@ -19,16 +19,22 @@ The four complete page records contain 330 physical text lines. Exact source-ima
 
 ## Files
 
-- `level1/*.json` contains source-faithful page evidence in physical order.
-- `level2/selected-structure.json` contains entry, catchword, displacement, and logical-order assertions that point back to Level 1.
+- `level1-source/*.md` contains the human-authored source-faithful page evidence in physical order.
+- `level1/*.json` is generated validation and interchange data; it is not edited independently.
+- `level2/selected-structure.json` is a secondary compatibility fixture, not the current format-design target.
 - `generated/*-page.md` contains regenerated page-oriented verification views.
 - `generated/selected-reading-views.md` contains regenerated logical excerpts.
 - [`../../docs/page-transcription-format-v1-candidate.md`](../../docs/page-transcription-format-v1-candidate.md) documents the candidate format.
+- [`../../docs/level1-markdown-candidate.md`](../../docs/level1-markdown-candidate.md) documents the compact authoring syntax.
+- [`../../scripts/compile_level1_markdown.py`](../../scripts/compile_level1_markdown.py) validates and compiles the human-readable sources.
 - [`../../scripts/render_format_trial.py`](../../scripts/render_format_trial.py) validates the records and regenerates the views.
 
 Run from the repository root:
 
 ```sh
+python3 scripts/compile_level1_markdown.py compile \
+  pilot/format-v1-trial/level1-source \
+  pilot/format-v1-trial/level1 --check
 python3 scripts/render_format_trial.py pilot/format-v1-trial
 python3 -m unittest discover -s tests -v
 ```
@@ -61,6 +67,10 @@ The external page displayed neighboring text as unavoidable context. No neighbor
 
 ### Successful parts
 
+- All four complete pages can be read directly as Markdown while compiling back to the complete 330-line machine representation.
+- The four authoring files occupy 467 lines and 19,096 bytes, compared with 4,383 lines and 98,953 bytes for the generated pretty-printed JSON.
+- Ordinary physical lines require only a stable ID and their visible text; Markdown emphasis records typeface without explicit run objects.
+- Only `(grande.` needs named sub-line spans in the current sample, so exceptional machinery remains exceptional.
 - Stable physical-line identifiers provide adequate targets for later structure.
 - Typeface runs preserve evidence without labelling a span as a headword or definition at Level 1.
 - Relative indentation and `far-right` placement preserve the tested layout distinctions without pixel coordinates.
@@ -72,10 +82,11 @@ The external page displayed neighboring text as unavoidable context. No neighbor
 
 ### Costs and limitations
 
-- JSON is reliable but verbose for manual entry, especially where typeface changes several times on one line. A compact authoring syntax that generates this validated representation may be preferable for production.
+- The compact syntax is project-specific and needs continued editing experience before adoption, although its compiler is small and dependency-free.
+- Literal asterisks and the literal delimiter ` || ` have not occurred in the sample; escaping must be specified if the wider corpus contains them.
 - Relative indentation is sufficient for the tested pages but is not a substitute for the scan's exact geometry.
 - The trial contains locally damaged text resolved through enlargement and context, but no reading that remains materially uncertain. The eventual lightweight uncertainty syntax therefore still needs one real stress case.
-- Level 2 contains only the assertions and reading sequences needed to test the separation. It is not a complete structural encoding of all entries on the four pages.
+- Level 2 contains only the assertions and reading sequences needed to check that Level 1 retained necessary evidence. It is deliberately not a complete structural encoding of the four pages.
 - Exact variable compositor spacing is not measured. Ordinary word separation is preserved, while irregular visual width remains recoverable from the scan.
 
 ## Verification-pass corrections

@@ -4,7 +4,7 @@ Last updated: 2026-07-29
 
 ## Current phase
 
-**Transcription-format pilot — candidate evaluation**
+**Transcription-format pilot — compact Level 1 evaluation**
 
 The project has surveyed representative pages and frozen the first format-version-0 transcriptions made directly from the scans. Wikisource has not been consulted for these drafts. This is a pre-production activity supporting Stage 1 of the [Four-Stage Project Roadmap](docs/four-stage-roadmap.md), not yet sequential transcription of the dictionary.
 
@@ -26,17 +26,17 @@ The uncertainty policy is intentionally lightweight. Context may support an ordi
 
 Targeted enlargement is nevertheless a routine review step for any locally difficult span, regardless of the standard tile size. Reviewers return to the surrounding context after enlargement; only doubt that survives both views is marked in the transcription.
 
-The first implemented [candidate page-transcription format](docs/page-transcription-format-v1-candidate.md) has now been exercised in a [four-page trial](pilot/format-v1-trial/README.md). Complete physical-order records for `bnf-f0013`, `bnf-f0014`, `bnf-f0248`, and `bnf-f0643` comprise 330 physical lines. A separate structural record supplies seven assertions and eight selected reading sequences. The validated renderer regenerates page-oriented and continuous reading views without copying or silently correcting Level 1 text.
+The first implemented [candidate page-transcription format](docs/page-transcription-format-v1-candidate.md) has now been exercised in a [four-page trial](pilot/format-v1-trial/README.md). Complete physical-order records for `bnf-f0013`, `bnf-f0014`, `bnf-f0248`, and `bnf-f0643` comprise 330 physical lines. They have been converted into a [compact Level 1 Markdown authoring form](docs/level1-markdown-candidate.md) that regenerates the validated JSON and page views deterministically.
 
-The trial supports the Level 1/Level 2 separation, stable physical-line references, typeface runs, relative indentation, and exceptional placement. It also exposes two decisions still needed before adoption: JSON is dependable but verbose as a hand-authoring format, and the lightweight uncertainty representation has not yet been tested on a genuinely unresolved reading.
+The compact files preserve stable physical-line references, typeface, relative indentation, page furniture, and exceptional placement while remaining directly readable. JSON is now treated as generated machine interchange rather than the hand-authoring format. A small structural test remains only to confirm that Level 1 has not discarded necessary evidence; designing Level 2 and later layers is a secondary concern. The lightweight uncertainty representation has still not been tested on a genuinely unresolved reading.
 
 ## Current objective
 
-Evaluate the implemented version 1 candidate, decide whether to retain JSON as the authoring format or generate it from a more compact syntax, and exercise the uncertainty mechanism on a genuinely unresolved source reading. The adopted specification must continue to provide stable evidence for three linked uses:
+Evaluate the compact Markdown through direct reading, correction, and regeneration, and exercise the uncertainty mechanism on a genuinely unresolved source reading. The immediate objective is a practical Level 1 format supporting:
 
 1. A page-oriented reading and verification view
-2. A continuous-text view generated through separate structural assertions
-3. Preliminary extraction of structured dictionary entries linked to, but not embedded in, Stage 1
+2. Efficient source-faithful editing in physical order
+3. Stable references and retained evidence sufficient for later work without designing later layers now
 
 ## Milestones
 
