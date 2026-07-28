@@ -1,0 +1,90 @@
+{
+  "format": "nippo-tile-config",
+  "format_version": 0,
+  "pages": [
+    {
+      "id": "bnf-f0013",
+      "master": "f0013.jpg",
+      "zones": [
+        {
+          "id": "column-1",
+          "box": [185, 1180, 1325, 3650],
+          "profiles": [
+            {"id": "quarter-column", "tiles": 4, "overlap_pixels": 160},
+            {"id": "sixth-column", "tiles": 6, "overlap_pixels": 160}
+          ]
+        },
+        {
+          "id": "column-2",
+          "box": [1270, 1180, 2510, 3650],
+          "profiles": [
+            {"id": "quarter-column", "tiles": 4, "overlap_pixels": 160},
+            {"id": "sixth-column", "tiles": 6, "overlap_pixels": 160}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bnf-f0014",
+      "master": "f0014.jpg",
+      "zones": [
+        {
+          "id": "column-1",
+          "box": [360, 280, 1480, 3550],
+          "profiles": [
+            {"id": "quarter-column", "tiles": 4, "overlap_pixels": 160},
+            {"id": "sixth-column", "tiles": 6, "overlap_pixels": 160}
+          ]
+        },
+        {
+          "id": "column-2",
+          "box": [1400, 280, 2650, 3550],
+          "profiles": [
+            {"id": "quarter-column", "tiles": 4, "overlap_pixels": 160},
+            {"id": "sixth-column", "tiles": 6, "overlap_pixels": 160}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bnf-f0248",
+      "master": "f0248.jpg",
+      "zones": [
+        {
+          "id": "column-1",
+          "box": [300, 300, 1430, 3520],
+          "profiles": [
+            {"id": "sixth-column", "tiles": 6, "overlap_pixels": 160}
+          ]
+        },
+        {
+          "id": "column-2",
+          "box": [1360, 300, 2580, 3520],
+          "profiles": [
+            {"id": "sixth-column", "tiles": 6, "overlap_pixels": 160}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bnf-f0643",
+      "master": "f0643.jpg",
+      "zones": [
+        {
+          "id": "column-1",
+          "box": [100, 280, 1425, 3535],
+          "profiles": [
+            {"id": "sixth-column", "tiles": 6, "overlap_pixels": 160}
+          ]
+        },
+        {
+          "id": "column-2",
+          "box": [1280, 280, 2580, 3535],
+          "profiles": [
+            {"id": "sixth-column", "tiles": 6, "overlap_pixels": 160}
+          ]
+        }
+      ]
+    }
+  ]
+}

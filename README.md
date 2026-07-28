@@ -23,6 +23,8 @@ The complete high-resolution source cache can be obtained with the resumable pro
 
 The current high-resolution reading experiment is described in [Tiled Visual Review](docs/tiled-visual-review.md).
 
+The first implemented [candidate page-transcription format](docs/page-transcription-format-v1-candidate.md) and its [four-page trial](pilot/format-v1-trial/README.md) now demonstrate separate source-faithful and structural layers, with reproducible page and logical reading views. The candidate remains under evaluation rather than adopted for production.
+
 Source-specific orthographic patterns, confusable type, and safeguards against expectation-driven correction are collected in the [Provisional Transcription Reading Guide](docs/transcription-reading-guide.md).
 
 The project has also acquired NINJAL's CC BY 4.0 [Nippo Jisho Headword Data](docs/headword-data.md), a 32,878-record external reference for post-checkpoint coverage validation and provisional entry scaffolding.
@@ -41,4 +43,4 @@ Before processing the whole dictionary, the project will conduct a [Transcriptio
 
 ## Current status
 
-The project is currently in the **transcription-format pilot** phase. No production transcription format has yet been adopted. See [Project Status](STATUS.md) for the current focus and exit criteria.
+The project is currently in the **transcription-format pilot** phase. The first implementation trial is complete, but no production transcription format has yet been adopted. See [Project Status](STATUS.md) for the current focus and exit criteria.

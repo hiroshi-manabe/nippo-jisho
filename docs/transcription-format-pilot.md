@@ -2,7 +2,7 @@
 
 ## Status
 
-This is the project’s **current phase**. It precedes production transcription and supports Stage 1 of the [Four-Stage Project Roadmap](four-stage-roadmap.md).
+This is the project’s **current phase**. It precedes production transcription and supports Stage 1 of the [Four-Stage Project Roadmap](four-stage-roadmap.md). The first implemented [version 1 candidate](page-transcription-format-v1-candidate.md) has completed a [four-page trial](../pilot/format-v1-trial/README.md) and is now being evaluated for adoption or revision.
 
 ## Purpose
 
@@ -82,7 +82,7 @@ The design criterion for Stage 1 is therefore not whether it resolves each struc
 
 Preserving evidence does not require exhaustive uncertainty metadata. The transcription records a secure editorial reading normally even when context helped overcome minor damage. Lightweight span-level uncertainty is used only when the proposed reading remains reasonably disputable; alternatives or an illegible marker are reserved for genuinely unresolved passages. The format must permit detailed notes without requiring them for ordinary difficult reading.
 
-The initial candidate is one UTF-8 Markdown file per scan page, with machine-readable metadata and explicitly labelled page zones. This is a hypothesis to test, not yet the adopted production format.
+The initial hypothesis was one UTF-8 Markdown file per scan page, with machine-readable metadata and explicitly labelled page zones. Implementing stable span references and mixed typeface runs showed that loosely structured Markdown would require additional conventions and validation machinery. The first version 1 candidate therefore uses one UTF-8 JSON record per page plus a separate linked structural record. JSON is dependable and readily validated, but its manual-authoring verbosity is now an explicit adoption question rather than a settled choice.
 
 An illustrative experiment might look like:
 
@@ -111,7 +111,15 @@ Abu-
 A
 ```
 
-Version `0` identifies experimental files. They do not become production transcription merely because they contain transcribed text.
+Version `0` identifies the earlier experimental files. They do not become production transcription merely because they contain transcribed text. The implemented candidate and its generated views are documented separately in the [candidate specification](page-transcription-format-v1-candidate.md) and [trial report](../pilot/format-v1-trial/README.md).
+
+## First candidate-format trial result
+
+The trial encodes the complete dictionary text and textual furniture of consecutive opening pages `bnf-f0013` and `bnf-f0014`, together with selected difficult regions of `bnf-f0248` and `bnf-f0643`. It validates 229 physical lines, seven independent structural assertions, and eight selected reading sequences.
+
+The result confirms that physical order, typeface runs, relative indentation, catchwords, cross-column and cross-page continuations, printed word division, lowercase `aburamono`, and displaced `(grande.` can remain auditable while separate references generate proposed logical views. NINJAL headword data found no omitted entry candidate on the two complete pages. One badly inked word was exceptionally checked against an exactly identified Wikisource revision only after direct review, then adjudicated again against the scan.
+
+The test does not yet justify adopting version 1. JSON may be better retained as a validated interchange representation generated from a more compact authoring syntax, and the optional uncertainty mechanism still needs a genuinely unresolved source example. Level 2 was exercised only to prove the separation and derived views; it is not a complete structural encoding of the trial pages.
 
 ## Method
 

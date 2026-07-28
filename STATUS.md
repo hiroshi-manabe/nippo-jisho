@@ -4,7 +4,7 @@ Last updated: 2026-07-29
 
 ## Current phase
 
-**Transcription-format pilot — derived-view testing**
+**Transcription-format pilot — candidate evaluation**
 
 The project has surveyed representative pages and frozen the first format-version-0 transcriptions made directly from the scans. Wikisource has not been consulted for these drafts. This is a pre-production activity supporting Stage 1 of the [Four-Stage Project Roadmap](docs/four-stage-roadmap.md), not yet sequential transcription of the dictionary.
 
@@ -26,9 +26,13 @@ The uncertainty policy is intentionally lightweight. Context may support an ordi
 
 Targeted enlargement is nevertheless a routine review step for any locally difficult span, regardless of the standard tile size. Reviewers return to the surrounding context after enlargement; only doubt that survives both views is marked in the transcription.
 
+The first implemented [candidate page-transcription format](docs/page-transcription-format-v1-candidate.md) has now been exercised in a [four-page trial](pilot/format-v1-trial/README.md). Complete physical-order records for `bnf-f0013` and `bnf-f0014`, plus selected difficult regions of `bnf-f0248` and `bnf-f0643`, comprise 229 physical lines. A separate structural record supplies seven assertions and eight selected reading sequences. The validated renderer regenerates page-oriented and continuous reading views without copying or silently correcting Level 1 text.
+
+The trial supports the Level 1/Level 2 separation, stable physical-line references, typeface runs, relative indentation, and exceptional placement. It also exposes two decisions still needed before adoption: JSON is dependable but verbose as a hand-authoring format, and the lightweight uncertainty representation has not yet been tested on a genuinely unresolved reading.
+
 ## Current objective
 
-Establish version 1 of a page-transcription specification that can faithfully record the source, remain practical to edit, and provide stable evidence for three linked uses:
+Evaluate the implemented version 1 candidate, decide whether to retain JSON as the authoring format or generate it from a more compact syntax, and exercise the uncertainty mechanism on a genuinely unresolved source reading. The adopted specification must continue to provide stable evidence for three linked uses:
 
 1. A page-oriented reading and verification view
 2. A continuous-text view generated through separate structural assertions
@@ -44,8 +48,8 @@ Establish version 1 of a page-transcription specification that can faithfully re
 - [x] Generate reproducible quarter-column and sixth-column tile profiles for the first test page.
 - [x] Perform a timed second independent visual pass using overlapping tiles.
 - [x] Compare independent transcription with correction of available Wikisource text.
-- [ ] Test generation of page-oriented, continuous-text, and entry-oriented views.
-- [ ] Document unresolved cases and format limitations.
+- [x] Test generation of page-oriented, continuous-text, and entry-oriented views.
+- [x] Document unresolved cases and format limitations.
 - [ ] Publish version 1 of the page-transcription specification.
 - [ ] Decide the initial transcription provenance and licensing policy.
 

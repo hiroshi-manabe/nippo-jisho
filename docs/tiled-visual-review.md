@@ -93,3 +93,9 @@ The first timed second pass applied this method to `bnf-f0248`. All 12 sixth-col
 A later cross-page glyph audit showed that one proposed correction had confused caron with tilde. Its first revision then overgeneralized in the opposite direction and failed to retain genuine circumflexes such as the one in `Goyô`. This does not change the recorded timing, but it demonstrates that magnification alone is insufficient for unfamiliar type: the review interface also needs verified comparison specimens and occurrence-level classification. See the [Pilot Diacritic Audit](../pilot/diacritic-audit.md).
 
 This result supports the working hypothesis but does not yet make it a version 1 decision. At least one page with degraded or irregular print should test the escalation to entry-level crops.
+
+### Candidate-format trial application
+
+The same hierarchy was subsequently applied during the [format version 1 trial](../pilot/format-v1-trial/README.md). Reproducible quarter- and sixth-column views were generated for `bnf-f0013`, `bnf-f0014`, `bnf-f0248`, and `bnf-f0643` from [tile-config-v1-trial.json](../pilot/tile-config-v1-trial.json), with page-specific column bounds checked before use. Targeted enlargements resolved difficult spans including the fold-crossed `vobitataxiya` passage and several low-contrast or confusable letter sequences.
+
+The complete-page verification pass produced enough corrections to confirm that enlargement and a separate rereading are necessary even when no explicit uncertainty survives in the final transcription. The trial therefore treats the three-level viewing hierarchy as an operational review routine, while leaving the default production crop profile open until a genuinely unresolved or more severely degraded passage is tested.

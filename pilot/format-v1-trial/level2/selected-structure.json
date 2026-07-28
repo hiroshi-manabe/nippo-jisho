@@ -1,0 +1,165 @@
+{
+  "format": "nippo-level2-trial",
+  "format_version": 1,
+  "scope": "selected_structural_assertions_only",
+  "assertions": [
+    {
+      "id": "f13-catchword-anticipates-f14",
+      "kind": "catchword_relationship",
+      "targets": [
+        {"line": "bnf-f0013:catch-l001"},
+        {"line": "bnf-f0014:c1-l001"}
+      ],
+      "claim": "The f13 catchword anticipates the Abumi material continuing at the top of f14; the catchword itself is not lexical text."
+    },
+    {
+      "id": "aburamono-entry-boundary",
+      "kind": "entry_boundary",
+      "targets": [
+        {"line": "bnf-f0014:c1-l046"}
+      ],
+      "claim": "The lowercase source form begins an independent entry; capitalization is not part of this structural assertion."
+    },
+    {
+      "id": "f14-catchword-unresolved-target",
+      "kind": "catchword",
+      "targets": [
+        {"line": "bnf-f0014:catch-l001"}
+      ],
+      "claim": "The visible catchword is page furniture. Its relationship to f15 is outside this trial's page set."
+    },
+    {
+      "id": "grande-placement-mark",
+      "kind": "nonlexical_placement_mark",
+      "targets": [
+        {"line": "bnf-f0248:c1p-l002", "runs": [1]}
+      ],
+      "claim": "The parenthesis-like mark signals exceptional placement and is not included in the proposed logical text."
+    },
+    {
+      "id": "grande-logical-assignment",
+      "kind": "displaced_text_assignment",
+      "targets": [
+        {"line": "bnf-f0248:c1p-l002", "runs": [2]},
+        {"line": "bnf-f0248:c1p-l003"}
+      ],
+      "claim": "The physically displaced word grande. completes the Gozadocoro definition."
+    },
+    {
+      "id": "f248-identical-header-strings",
+      "kind": "page_furniture_distinction",
+      "targets": [
+        {"line": "bnf-f0248:h2-l001"},
+        {"line": "bnf-f0248:s2-l001"}
+      ],
+      "claim": "Identical visible strings serve separately as the column running header and an internal section heading."
+    },
+    {
+      "id": "f248-gucan-entry-boundary",
+      "kind": "entry_boundary",
+      "targets": [
+        {"line": "bnf-f0248:c2g-l004"}
+      ],
+      "claim": "Gǔcan begins an independent entry."
+    }
+  ],
+  "reading_sequences": [
+    {
+      "id": "abumi-cross-page",
+      "label": "Abumi entry across f13 and f14",
+      "segments": [
+        {"line": "bnf-f0013:c2-l032"},
+        {"line": "bnf-f0013:c2-l033", "join": "space"},
+        {"line": "bnf-f0013:c2-l034", "join": "space"},
+        {"line": "bnf-f0013:c2-l035", "join": "word"},
+        {"line": "bnf-f0014:c1-l001", "join": "space"},
+        {"line": "bnf-f0014:c1-l002", "join": "word"},
+        {"line": "bnf-f0014:c1-l003", "join": "word"},
+        {"line": "bnf-f0014:c1-l004", "join": "space"},
+        {"line": "bnf-f0014:c1-l005", "join": "space"},
+        {"line": "bnf-f0014:c1-l006", "join": "space"},
+        {"line": "bnf-f0014:c1-l007", "join": "space"},
+        {"line": "bnf-f0014:c1-l008", "join": "none"},
+        {"line": "bnf-f0014:c1-l009", "join": "space"},
+        {"line": "bnf-f0014:c1-l010", "join": "word"},
+        {"line": "bnf-f0014:c1-l011", "join": "space"},
+        {"line": "bnf-f0014:c1-l012", "join": "none"}
+      ]
+    },
+    {
+      "id": "aburamono",
+      "label": "Lowercase aburamono as a structurally independent entry",
+      "segments": [
+        {"line": "bnf-f0014:c1-l046"}
+      ]
+    },
+    {
+      "id": "aburamuxi-cross-column",
+      "label": "Aburamuxi across the f14 column boundary",
+      "segments": [
+        {"line": "bnf-f0014:c1-l047"},
+        {"line": "bnf-f0014:c2-l001", "join": "space"},
+        {"line": "bnf-f0014:c2-l002", "join": "word"}
+      ]
+    },
+    {
+      "id": "aburaqeno-with-example",
+      "label": "Aburaqeno mono and its physically divided example",
+      "segments": [
+        {"line": "bnf-f0014:c2-l003"},
+        {"line": "bnf-f0014:c2-l004", "join": "word"},
+        {"line": "bnf-f0014:c2-l005", "join": "word"},
+        {"line": "bnf-f0014:c2-l006", "join": "space"}
+      ]
+    },
+    {
+      "id": "gozadocoro-with-displaced-grande",
+      "label": "Gozadocoro with displaced grande restored to logical order",
+      "segments": [
+        {"line": "bnf-f0248:c1p-l003"},
+        {"line": "bnf-f0248:c1p-l002", "runs": [2], "join": "space"}
+      ]
+    },
+    {
+      "id": "f248-diacritic-contrast",
+      "label": "f248 caron and circumflex contrast",
+      "segments": [
+        {"line": "bnf-f0248:c1d-l002"},
+        {"line": "bnf-f0248:c1d-l003", "join": "space"},
+        {"line": "bnf-f0248:c1d-l012", "join": "newline"},
+        {"line": "bnf-f0248:c1d-l013", "join": "space"}
+      ]
+    },
+    {
+      "id": "f248-confusable-sequence",
+      "label": "f248 Gǔcan, Gudon, and Gudonſa readings",
+      "segments": [
+        {"line": "bnf-f0248:c2g-l004"},
+        {"line": "bnf-f0248:c2g-l005", "join": "newline"},
+        {"line": "bnf-f0248:c2g-l006", "join": "word"},
+        {"line": "bnf-f0248:c2g-l009", "join": "newline"}
+      ]
+    },
+    {
+      "id": "f643-diacritic-sequence",
+      "label": "f643 circumflex, grave, and caron examples",
+      "segments": [
+        {"line": "bnf-f0643:c1o-l001"},
+        {"line": "bnf-f0643:c1o-l002", "join": "space"},
+        {"line": "bnf-f0643:c1m-l001", "join": "newline"},
+        {"line": "bnf-f0643:c1m-l002", "join": "space"},
+        {"line": "bnf-f0643:c1m-l003", "join": "space"},
+        {"line": "bnf-f0643:c1m-l004", "join": "word"},
+        {"line": "bnf-f0643:c1m-l005", "join": "word"},
+        {"line": "bnf-f0643:c1m-l010", "join": "newline"},
+        {"line": "bnf-f0643:c1m-l011", "join": "space"},
+        {"line": "bnf-f0643:c1m-l013", "join": "newline"},
+        {"line": "bnf-f0643:c1m-l014", "join": "space"},
+        {"line": "bnf-f0643:c2m-l001", "join": "newline"},
+        {"line": "bnf-f0643:c2m-l002", "join": "word"},
+        {"line": "bnf-f0643:c2m-l003", "join": "newline"},
+        {"line": "bnf-f0643:c2m-l004", "join": "space"}
+      ]
+    }
+  ]
+}
