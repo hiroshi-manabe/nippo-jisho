@@ -133,3 +133,34 @@ Japanese headwords and cited forms are generally set in roman type, while Portug
 - Determine whether typeface can be regenerated reliably from structured entry roles.
 - If exceptions carry meaning that structure alone cannot recover, preserve explicit typeface spans in the page transcription.
 - Do not reproduce purely visual typography unless it preserves documentary or linguistic information.
+
+## OBS-005
+
+**Headword status and printed capitalization are independent observations**
+
+| Field | Value |
+| --- | --- |
+| Status | `confirmed` for the observed case; provisional as a general workflow rule |
+| First recorded | 2026-07-28 |
+| Evidence | `bnf-f0014`, column 1, `aburamono. Couſa frita.` |
+| External comparison | NINJAL headword ID `001c12` |
+| Confidence that `aburamono` is an independent entry | High |
+| Confidence that the lowercase initial is printed | High |
+
+### Visible evidence
+
+The Paris scan prints lowercase `aburamono` on a new physical line after the `Aburamigaqi` definition. The word is set in the roman type used for Japanese forms, followed by a period and the italic Portuguese gloss `Couſa frita.` The neighboring source order is `Aburamigaqi`, `aburamono`, `Aburamuxi`.
+
+### Working interpretation
+
+`aburamono` is an independent headword, not a continuation of the preceding definition. Its exact alphabetical position, headword typeface, entry-like punctuation, and self-contained gloss all support that conclusion; the preceding `Aburamigaqi` explanation is already syntactically and semantically complete. The lowercase initial is therefore a source capitalization anomaly rather than evidence against headword status.
+
+NINJAL correctly selects the form as a headword and assigns it a separate record, while regularizing its display to `Aburamono.` Its note that the form occurs within the `Aburamigaqi` gloss describes the awkward physical placement and does not make it lexically part of that gloss.
+
+### Provisional transcription treatment
+
+- Preserve `aburamono.` with its printed lowercase initial in the diplomatic page transcription.
+- Represent it as an independent entry in the later structured layer.
+- If a normalized display uses `Aburamono`, label that casing as editorial and do not feed it back into the diplomatic text.
+- When collating headword data, score entry selection or boundary agreement separately from character-level agreement in the headword string.
+- Do not infer entry status from capitalization alone; inspect alphabetical order, typeface, punctuation, syntax, and semantic continuity.

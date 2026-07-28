@@ -73,6 +73,7 @@ Nearby letters from the same page and type size are better comparison specimens 
 ## Documentary cautions
 
 - Preserve printed capitalization even when entry analysis suggests a headword.
+- Determine headword status independently of capitalization. Alphabetical position, typeface, punctuation, semantic completeness, and surrounding syntax may establish an entry boundary even when the printer used a lowercase initial.
 - Preserve printed spacing even when it conflicts with Japanese morpheme boundaries. Morphological segmentation belongs in the structured layer.
 - Preserve physical line division and printed word division in the page layer until a documented generated view joins them.
 - Store visible catchword text separately from its structural status. Do not add a hyphen merely to indicate that the anticipated word is divided.
@@ -88,7 +89,7 @@ Routine transcription and review will proceed directly from the Gallica scan wit
 
 The completed comparison remains useful because it exposed four corrections and several recurring error mechanisms. Wikisource or another external transcription may be consulted only as an exceptional aid after independent review when a reading remains unresolved. Any such consultation must identify the exact source and revision, remain separate from the independent checkpoint, and be adjudicated against the scan.
 
-NINJAL's [Nippo Jisho Headword Data](headword-data.md) is treated differently from a page transcription because it supplies dictionary-wide source-order coverage. It may be compared routinely after an independent page checkpoint to detect missing entries and suspicious readings. It must not be opened as a substitute for the initial visual pass or used to normalize the diplomatic layer automatically.
+NINJAL's [Nippo Jisho Headword Data](headword-data.md) is treated differently from a page transcription because it supplies dictionary-wide source-order coverage. It may be compared routinely after an independent page checkpoint to detect missing entries, entry-boundary differences, and suspicious readings. Its structural claims and its diplomatic forms must be evaluated separately: for example, it correctly identifies `aburamono` as a headword but normalizes it to `Aburamono.` It must not be opened as a substitute for the initial visual pass or used to normalize the diplomatic layer automatically.
 
 ## Work still required
 

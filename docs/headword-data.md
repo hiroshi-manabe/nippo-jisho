@@ -66,17 +66,20 @@ The scan remains primary evidence. NINJAL identifiers and Bodleian locations do 
 The data already adds useful evidence:
 
 - It confirms `Aburamigaqi.` and `Aburicauarague,uru,eta.` on Gallica `f14`.
+- It correctly identifies lowercase `aburamono` on Gallica `f14` as an independent headword. Its capitalization as `Aburamono.` is normalization, but its entry selection and boundary analysis are supported by the alphabetical sequence, the headword typeface, and the self-contained Portuguese gloss.
 - It provides 31 expected entries on `f14`, 36 on `f248`, and 29 on `f643`, making page-completeness checks practical.
 - It links the main dictionary directly to the Gallica images while also supplying Bodleian leaf-and-column locations.
 
 It is not a diplomatic transcription:
 
-- It records `Aburamono.` with a capital even though the Paris scan prints lowercase `aburamono`; its note correctly says that the form occurs inside the `Aburamigaqi` definition.
+- It records `Aburamono.` with a capital even though the Paris scan prints lowercase `aburamono`. The form is physically placed within the `Aburamigaqi` text block, as the dataset note observes, but it is structurally a separate entry.
 - It records `Gucan.` without the caron visible as `Gǔcan` in the Paris scan.
 - It replaces the printed lowercase `l` used in *vel* notes with a vertical bar.
 - It contains katakana, modern verb forms, source mappings, and lexical identifiers derived through later editorial analysis.
 
 These are not reasons to reject the dataset. They define its proper role: a broad and valuable reference index whose suggestions must be classified and checked against the scan.
+
+The `aburamono` case also establishes an important distinction for later comparison: **headword identification and diplomatic form are separate claims**. An external dataset can correctly identify an entry while normalizing its capitalization or spelling. Comparison reports must therefore assess at least (a) whether an entry exists and where its boundary falls, and (b) whether the supplied headword string reproduces the source exactly. Agreement on the first does not authorize importing the second into the diplomatic transcription.
 
 ## Attribution and redistribution
 
