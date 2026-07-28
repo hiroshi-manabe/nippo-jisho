@@ -14,6 +14,8 @@ Pre-comparison corrections found by later direct inspection are kept outside the
 
 Potentially reusable discoveries are collected in [Working Editorial Observations](working-observations.md). These remain provisional until further page evidence confirms them; adopted conventions will later move into the versioned transcription specification.
 
+The [Pilot Diacritic Audit](diacritic-audit.md) maintains the initial glyph inventory, affected-form lists, Unicode choices, and representative source-image crops. It corrects the earlier confusion among caron, circumflex, and tilde without rewriting the frozen drafts.
+
 One qualification applies: the opening dictionary page, `bnf-f0013`, had already been viewed together with its Wikisource transcription earlier in the project discussion. It is therefore useful for the page-feature survey but is excluded from the blinded transcription comparison.
 
 ## Draft coverage

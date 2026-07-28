@@ -49,3 +49,32 @@ Gozadocoro. Lugar onde eſtá algum ſenhor grande.
 ### Confirmation needed
 
 Search other sampled pages for words printed beside a preceding line but completing the following entry or line. Record confirming and contrary examples before promoting this treatment into the version 1 specification.
+
+## OBS-002
+
+**A printed caron above vowels is distinct from the tilde and circumflex**
+
+| Field | Value |
+| --- | --- |
+| Status | `confirmed` within the audited pilot pages |
+| First recorded | 2026-07-28 |
+| Evidence | `bnf-f0248` and `bnf-f0643`; 37 vowel-mark instances previously misclassified as circumflexes |
+| Detailed audit | [Pilot Diacritic Audit](diacritic-audit.md) |
+| Confidence in glyph identification | High |
+| Whole-volume coverage | Not yet established |
+
+### Visible evidence
+
+The mark is a pointed, downward-facing wedge. It occurs repeatedly above `o` and `u`, including in `Goxǒ`, `Gǔcan`, `Zzubǒxi`, and `Zzufǔ`. On the same pages, the tilde in forms such as `acõpanha` is visibly wavy rather than angular.
+
+### Working interpretation
+
+The wedge is a caron or háček and must be encoded as such. Earlier pilot readings using `ô`, `û`, or `ũ` for this shape are glyph misclassifications.
+
+### Confirmed transcription treatment
+
+- Transcribe the confirmed forms with Unicode `ǒ` (U+01D2) and `ǔ` (U+01D4).
+- Preserve genuine vowel tildes separately, for example `õ` and `ũ`.
+- Use NFC-normalized text when a precomposed caron character exists.
+- Do not infer a caron solely from linguistic expectations; inspect the printed mark.
+- Continue searching the broader sample for carons on other vowels and for genuine circumflexes or breves before adopting a complete glyph inventory.

@@ -12,7 +12,7 @@ The detailed purpose, method, and completion criteria are defined in the [Transc
 
 The complete native-resolution Gallica image sequence has been acquired and checksum-verified. The result is recorded in [Acquisition Summary](sources/acquisition-summary.yaml). Source acquisition does not change the transcription pilot’s current checkpoint.
 
-The first timed second-pass trial is complete. The [Tiled Visual Review Pilot](docs/tiled-visual-review.md) now records overlapping quarter-column and sixth-column views as a workable review method, and the page-level evidence is preserved in the [bnf-f0248 Second Visual Pass](pilot/second-pass/bnf-f0248.md). The frozen baseline was not rewritten and Wikisource has still not been consulted.
+The first timed second-pass trial is complete. The [Tiled Visual Review Pilot](docs/tiled-visual-review.md) now records overlapping quarter-column and sixth-column views as a workable review method, and the page-level evidence is preserved in the [bnf-f0248 Second Visual Pass](pilot/second-pass/bnf-f0248.md). A subsequent [Pilot Diacritic Audit](pilot/diacritic-audit.md) identified the recurring vowel mark as a caron and documented 37 earlier circumflex misclassifications across two frozen pages. The frozen baselines were not rewritten and Wikisource has still not been consulted.
 
 ## Current objective
 
