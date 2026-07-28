@@ -6,7 +6,7 @@ This directory contains experimental material for the [Transcription-Format Pilo
 
 The files under `transcription-v0/` were produced by direct visual inspection of the Gallica/Wikimedia scan. Wikisource was not consulted while preparing these drafts.
 
-The drafts are now frozen for the later comparison step. Any comparison with Wikisource must be recorded separately and must not silently alter these files.
+The drafts were frozen before the completed comparison step and remain unchanged. Any exceptional future comparison with an external transcription must be recorded separately and must not silently alter these files.
 
 The circumstances and limitations of the first pass are recorded in the [Independent Draft Log](draft-log.md).
 
@@ -17,6 +17,8 @@ Potentially reusable discoveries are collected in [Working Editorial Observation
 The [Pilot Diacritic Audit](diacritic-audit.md) maintains the initial glyph inventory, occurrence-level results, Unicode choices, representative source-image crops, and the history of a superseded blanket correction. It distinguishes caron, circumflex, grave, and tilde without rewriting the frozen drafts.
 
 The first controlled [Wikisource comparison](wikisource-comparison/bnf-f0014.md) uses the blinded selected zones of `bnf-f0014`. It records exact revision provenance, a coverage snapshot, scan adjudication of every meaningful disagreement, and the limited licensing conclusion. The frozen draft remains unchanged.
+
+The comparison's reusable error patterns, together with later research on Jesuit romanization, are maintained in the [Provisional Transcription Reading Guide](../docs/transcription-reading-guide.md). Wikisource is no longer part of the routine workflow.
 
 One qualification applies: the opening dictionary page, `bnf-f0013`, had already been viewed together with its Wikisource transcription earlier in the project discussion. It is therefore useful for the page-feature survey but is excluded from the blinded transcription comparison.
 

@@ -62,13 +62,15 @@ This relationship is useful for migration and cross-reference, but individual ma
 
 ## Wikisource
 
-Wikisource is not an independent image source for this project. Its page views are associated with the Wikimedia Commons PDF. It may later be evaluated as a secondary transcription source under the procedure defined in the [Transcription-Format Pilot](transcription-format-pilot.md).
+Wikisource is not an independent image source for this project. Its page views are associated with the Wikimedia Commons PDF. A controlled evaluation found only five PDF pages with contributed text, none proofread or validated, together with useful individual readings but significant textual and structural errors. The full evidence is in the [bnf-f0014 comparison](../pilot/wikisource-comparison/bnf-f0014.md).
+
+Wikisource will therefore not be consulted during routine transcription or review. The project will work directly from the Gallica scan and preserve an independent checkpoint. An external transcription may be consulted exceptionally after independent review when a reading remains unresolved; its exact source and revision must be recorded, and every proposed reading must be adjudicated against the scan.
 
 The roles are therefore:
 
 1. **Gallica/BnF:** canonical copy, image service, and page identifiers
 2. **Wikimedia Commons:** image mirror, complete-PDF convenience, and fallback
-3. **Wikisource:** possible transcription source to be evaluated after independent drafts are frozen
+3. **Wikisource:** completed pilot comparison and exceptional fallback only, not a production transcription base
 
 ## Other physical copies
 

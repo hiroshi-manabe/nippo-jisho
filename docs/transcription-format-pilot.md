@@ -33,6 +33,7 @@ The pilot must provide evidence for decisions about:
 - continuations between columns and pages;
 - printed hyphenation and divided words;
 - original glyphs, diacritics, ligatures, abbreviations, and spacing;
+- source-specific romanization patterns and expectation-driven reading errors;
 - damaged, illegible, doubtful, corrected, or anomalous print;
 - stable references from later entry records back to the page;
 - the boundary between hand-edited source data and generated views;
@@ -112,13 +113,13 @@ Version `0` identifies experimental files. They do not become production transcr
 4. **Record working observations.** Preserve potentially reusable discoveries with page evidence and a provisional status rather than turning a single example directly into a rule.
 5. **Freeze the independent drafts.** Record provenance and prevent later comparison from silently changing the initial readings.
 6. **Generate alternative views.** Confirm that a page-oriented view, continuous text, and preliminary entry references can be derived without maintaining conflicting copies.
-7. **Compare with Wikisource.** Only after freezing the drafts, compare the same pages with Wikisource and classify every meaningful difference before checking it against the scan.
+7. **Complete the Wikisource experiment.** After freezing the drafts, compare the eligible overlap with Wikisource, classify every meaningful difference, and decide whether routine reuse is justified.
 8. **Revise and repeat.** Apply the revised format to several difficult pages again rather than judging it only on earlier examples.
 9. **Specify and migrate.** Document version 1 and either convert or discard version 0 experiments explicitly.
 
-## Wikisource evaluation
+## Wikisource evaluation and decision
 
-The project has not yet decided that Wikisource will be the transcription base. Its usefulness and licensing consequences will be evaluated together. Pilot transcription must be completed and frozen from the scans before the corresponding Wikisource text is opened.
+The project evaluated Wikisource's usefulness and licensing consequences only after freezing an independent scan-derived draft.
 
 The comparison should record:
 
@@ -130,9 +131,9 @@ The comparison should record:
 - time required to correct the text to project standards;
 - provenance information available for each imported page.
 
-If correction produces a substantial efficiency gain, the project may reuse the material under CC BY-SA 4.0 with page-level provenance. If it does not, the project may produce an independent transcription and consider a more permissive license. The decision and its evidence are pilot deliverables.
+The controlled evaluation is recorded in [Wikisource comparison: bnf-f0014](../pilot/wikisource-comparison/bnf-f0014.md). Wikisource identified useful individual corrections, but its extremely limited and unreviewed coverage cannot materially support whole-volume production. Routine use has therefore been rejected. Transcription will remain scan-first and independent, with external transcription reserved for exceptional unresolved cases and recorded with exact provenance.
 
-The first controlled evaluation is recorded in [Wikisource comparison: bnf-f0014](../pilot/wikisource-comparison/bnf-f0014.md). It supports scan-first independent transcription with Wikisource used only as a secondary collator where text exists. Because the independent first pass was not timed and present Wikisource coverage is extremely limited, it does not yet support a quantitative efficiency claim or a final outbound-license decision.
+The comparison also exposed recurring cognitive and visual errors. These have been converted into the [Provisional Transcription Reading Guide](transcription-reading-guide.md), which must be consulted during later pilot review.
 
 ## Required outputs
 
@@ -142,6 +143,7 @@ The pilot should produce:
 - a catalogue of observed textual and physical features;
 - experimental page transcriptions marked as format version 0;
 - a provisional register of reusable working observations;
+- a provisional source-specific transcription reading guide;
 - examples of the three derived views;
 - a comparison of direct and Wikisource-assisted transcription;
 - a list of unresolved or deliberately unsupported cases;

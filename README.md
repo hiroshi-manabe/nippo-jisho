@@ -17,11 +17,13 @@ The four stages are:
 
 The complete plan, including deliverables and completion criteria, is described in the [Four-Stage Project Roadmap](docs/four-stage-roadmap.md). Current activity is recorded in [Project Status](STATUS.md).
 
-The [Source and Image Policy](docs/source-policy.md) defines the Gallica/BnF copy as the canonical image source, Wikimedia Commons as a mirror, and Wikisource as a possible transcription source to be evaluated later.
+The [Source and Image Policy](docs/source-policy.md) defines the Gallica/BnF copy as the canonical image source, Wikimedia Commons as a mirror, and Wikisource as an evaluated but rejected production transcription base.
 
 The complete high-resolution source cache can be obtained with the resumable procedure in [Gallica Source Acquisition](docs/source-acquisition.md).
 
 The current high-resolution reading experiment is described in [Tiled Visual Review](docs/tiled-visual-review.md).
+
+Source-specific orthographic patterns, confusable type, and safeguards against expectation-driven correction are collected in the [Provisional Transcription Reading Guide](docs/transcription-reading-guide.md).
 
 ## Working principles
 

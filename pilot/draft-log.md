@@ -23,7 +23,7 @@ The frozen files remain unchanged. A timed second visual pass of `bnf-f0248`, pe
 
 ### Timing limitation
 
-Elapsed transcription time was not measured reliably during this first format experiment, so these files cannot provide the timing baseline for the later Wikisource comparison. Before that comparison begins, at least one additional eligible page should be independently transcribed with separate time records for image preparation, first-pass transcription, and visual self-check.
+Elapsed transcription time was not measured reliably during this first format experiment, so these files could not provide a timing baseline for the later Wikisource comparison. The completed comparison was therefore treated as qualitative evidence only and made no claim about time saved. Any future timing experiment must measure image preparation, first-pass transcription, and visual self-check separately.
 
 This limitation does not affect comparison of readings or format coverage, but it prevents a defensible claim about time saved.
 
