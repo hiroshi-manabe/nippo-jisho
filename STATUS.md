@@ -4,7 +4,7 @@ Last updated: 2026-07-28
 
 ## Current phase
 
-**Transcription-format pilot — tiled visual review**
+**Transcription-format pilot — derived-view testing**
 
 The project has surveyed representative pages and frozen the first format-version-0 transcriptions made directly from the scans. Wikisource has not been consulted for these drafts. This is a pre-production activity supporting Stage 1 of the [Four-Stage Project Roadmap](docs/four-stage-roadmap.md), not yet sequential transcription of the dictionary.
 
@@ -12,7 +12,9 @@ The detailed purpose, method, and completion criteria are defined in the [Transc
 
 The complete native-resolution Gallica image sequence has been acquired and checksum-verified. The result is recorded in [Acquisition Summary](sources/acquisition-summary.yaml). Source acquisition does not change the transcription pilot’s current checkpoint.
 
-The first timed second-pass trial is complete. The [Tiled Visual Review Pilot](docs/tiled-visual-review.md) now records overlapping quarter-column and sixth-column views as a workable review method, and the page-level evidence is preserved in the [bnf-f0248 Second Visual Pass](pilot/second-pass/bnf-f0248.md). A revised [Pilot Diacritic Audit](pilot/diacritic-audit.md) distinguishes 30 carons, five genuine circumflexes, one grave accent, and one unmarked form among 37 flagged occurrences across two frozen pages. The frozen baselines were not rewritten and Wikisource has still not been consulted.
+The first timed second-pass trial is complete. The [Tiled Visual Review Pilot](docs/tiled-visual-review.md) now records overlapping quarter-column and sixth-column views as a workable review method, and the page-level evidence is preserved in the [bnf-f0248 Second Visual Pass](pilot/second-pass/bnf-f0248.md). A revised [Pilot Diacritic Audit](pilot/diacritic-audit.md) distinguishes 30 carons, five genuine circumflexes, one grave accent, and one unmarked form among 37 flagged occurrences across two frozen pages.
+
+The first controlled [Wikisource comparison](pilot/wikisource-comparison/bnf-f0014.md) is also complete. Wikisource supplied four new scan-confirmed corrections in the selected zones, agreed with two corrections already made independently, and contained several errors and structural omissions of its own. Only five of the 653 PDF pages currently contain contributed Wikisource text, none proofread or validated. The evidence supports using Wikisource as a secondary collator where available, not as the canonical transcription base. The frozen independent files were not rewritten.
 
 ## Current objective
 
@@ -31,7 +33,7 @@ Establish version 1 of a page-transcription specification that can faithfully re
 - [x] Acquire and checksum-verify all 651 native-resolution Gallica images.
 - [x] Generate reproducible quarter-column and sixth-column tile profiles for the first test page.
 - [x] Perform a timed second independent visual pass using overlapping tiles.
-- [ ] Compare independent transcription with correction of available Wikisource text.
+- [x] Compare independent transcription with correction of available Wikisource text.
 - [ ] Test generation of page-oriented, continuous-text, and entry-oriented views.
 - [ ] Document unresolved cases and format limitations.
 - [ ] Publish version 1 of the page-transcription specification.

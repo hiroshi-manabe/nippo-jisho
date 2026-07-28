@@ -16,6 +16,8 @@ Potentially reusable discoveries are collected in [Working Editorial Observation
 
 The [Pilot Diacritic Audit](diacritic-audit.md) maintains the initial glyph inventory, occurrence-level results, Unicode choices, representative source-image crops, and the history of a superseded blanket correction. It distinguishes caron, circumflex, grave, and tilde without rewriting the frozen drafts.
 
+The first controlled [Wikisource comparison](wikisource-comparison/bnf-f0014.md) uses the blinded selected zones of `bnf-f0014`. It records exact revision provenance, a coverage snapshot, scan adjudication of every meaningful disagreement, and the limited licensing conclusion. The frozen draft remains unchanged.
+
 One qualification applies: the opening dictionary page, `bnf-f0013`, had already been viewed together with its Wikisource transcription earlier in the project discussion. It is therefore useful for the page-feature survey but is excluded from the blinded transcription comparison.
 
 ## Draft coverage

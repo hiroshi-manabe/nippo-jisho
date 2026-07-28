@@ -132,6 +132,8 @@ The comparison should record:
 
 If correction produces a substantial efficiency gain, the project may reuse the material under CC BY-SA 4.0 with page-level provenance. If it does not, the project may produce an independent transcription and consider a more permissive license. The decision and its evidence are pilot deliverables.
 
+The first controlled evaluation is recorded in [Wikisource comparison: bnf-f0014](../pilot/wikisource-comparison/bnf-f0014.md). It supports scan-first independent transcription with Wikisource used only as a secondary collator where text exists. Because the independent first pass was not timed and present Wikisource coverage is extremely limited, it does not yet support a quantitative efficiency claim or a final outbound-license decision.
+
 ## Required outputs
 
 The pilot should produce:

@@ -81,3 +81,55 @@ For long `o`, `ǒ` and `ô` are not interchangeable type variants: they correspo
 - Read the glyph first and use historical vowel class only to corroborate or challenge the reading.
 - Do not perform a global `ô`/`û` replacement; corrections must be occurrence-level.
 - Continue searching the broader sample for other vowel marks and degraded examples before adopting a complete glyph inventory.
+
+## OBS-003
+
+**Catchword text and word-division status must be stored separately**
+
+| Field | Value |
+| --- | --- |
+| Status | `provisional` |
+| First recorded | 2026-07-28 |
+| Evidence | `bnf-f0014`, column 2, final catchword |
+| Comparison | [Wikisource comparison: bnf-f0014](wikisource-comparison/bnf-f0014.md) |
+| Confidence in this page's reading | High |
+| Confidence as a general convention | Medium; more catchwords must be checked |
+
+### Visible evidence
+
+The final catchword is printed as `Aburico` without a visible hyphen. It anticipates a word continued on the following page, so division is structurally real even though a hyphen is not printed.
+
+### Working interpretation
+
+The frozen version-0 draft records `[catchword form="divided"]` and then `Aburico-`. Its structural label is useful, but the added hyphen conflates an editorial indication of division with the visible source string. Wikisource takes the opposite approach and omits the catchword entirely.
+
+### Provisional transcription treatment
+
+- Preserve the visible catchword string exactly, without adding a hyphen.
+- Record whether it represents a divided word in separate metadata.
+- Keep catchwords in the page-oriented source layer and exclude them from generated continuous lexical text.
+- Test this treatment against examples where a hyphen is visibly printed before adopting the convention.
+
+## OBS-004
+
+**Roman and italic type may encode source-text roles**
+
+| Field | Value |
+| --- | --- |
+| Status | `provisional` |
+| First recorded | 2026-07-28 |
+| Evidence | `bnf-f0014`, selected lexical zones |
+| Comparison | [Wikisource comparison: bnf-f0014](wikisource-comparison/bnf-f0014.md) |
+| Confidence on this page | High for the broad headword/explanation contrast |
+| Confidence as a general convention | Low until exceptions are inventoried |
+
+### Visible evidence
+
+Japanese headwords and cited forms are generally set in roman type, while Portuguese explanations are generally italic. Wikisource attempts to preserve this distinction with italic markup; the frozen version-0 Markdown records the characters but not the typeface.
+
+### Provisional transcription treatment
+
+- Inventory typeface changes on several ordinary and exceptional pages.
+- Determine whether typeface can be regenerated reliably from structured entry roles.
+- If exceptions carry meaning that structure alone cannot recover, preserve explicit typeface spans in the page transcription.
+- Do not reproduce purely visual typography unless it preserves documentary or linguistic information.
