@@ -21,6 +21,8 @@ The [Source and Image Policy](docs/source-policy.md) defines the Gallica/BnF cop
 
 The complete high-resolution source cache can be obtained with the resumable procedure in [Gallica Source Acquisition](docs/source-acquisition.md).
 
+The current high-resolution reading experiment is described in [Tiled Visual Review](docs/tiled-visual-review.md).
+
 ## Working principles
 
 - **Evidence remains visible.** Every reading should point back to its page and location in the source.

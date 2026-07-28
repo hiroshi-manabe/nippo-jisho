@@ -1,0 +1,32 @@
+format: nippo-acquisition-summary
+format_version: 1
+source: bnf-gallica
+ark: bpt6k852354j
+resolution: native
+sequence:
+  first: f1
+  last: f651
+  expected: 651
+  acquired: 651
+  verified: 651
+acquisition:
+  first_recorded_at: 2026-07-27T16:28:00+00:00
+  last_recorded_at: 2026-07-27T19:20:29+00:00
+  failures: 0
+storage:
+  total_bytes: 1099861286
+  width_range: [613, 2958]
+  height_range: [3858, 3970]
+verification:
+  performed_at: 2026-07-28T11:36:03+00:00
+  method: JPEG structure, dimensions, byte size, and SHA-256 checked against the local acquisition manifest
+  result: complete
+local_manifest:
+  path: .cache/sources/bnf-gallica/acquisition.jsonl
+  records: 651
+  unique_pages: 651
+  sha256_at_verification: afd3d269471b6829011126c02b89c419bb1928557f36c5a886b838d4fe7df58f
+notes:
+  - The image files and detailed manifest remain in the ignored local cache.
+  - The manifest checksum identifies this local acquisition record at verification time.
+  - The unusually narrow minimum width belongs to a physical-object image near the end of the sequence, not a failed dictionary-page download.

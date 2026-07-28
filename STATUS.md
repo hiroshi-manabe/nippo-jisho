@@ -4,13 +4,15 @@ Last updated: 2026-07-28
 
 ## Current phase
 
-**Transcription-format pilot — independent drafts frozen**
+**Transcription-format pilot — tiled visual review**
 
 The project has surveyed representative pages and frozen the first format-version-0 transcriptions made directly from the scans. Wikisource has not been consulted for these drafts. This is a pre-production activity supporting Stage 1 of the [Four-Stage Project Roadmap](docs/four-stage-roadmap.md), not yet sequential transcription of the dictionary.
 
 The detailed purpose, method, and completion criteria are defined in the [Transcription-Format Pilot](docs/transcription-format-pilot.md).
 
-In parallel, the project is acquiring the complete native-resolution Gallica image sequence using the procedure in [Gallica Source Acquisition](docs/source-acquisition.md). Source acquisition does not change the transcription pilot’s current checkpoint.
+The complete native-resolution Gallica image sequence has been acquired and checksum-verified. The result is recorded in [Acquisition Summary](sources/acquisition-summary.yaml). Source acquisition does not change the transcription pilot’s current checkpoint.
+
+The current experimental task is the [Tiled Visual Review Pilot](docs/tiled-visual-review.md): comparing overlapping quarter-column and sixth-column views before beginning a second independent visual pass.
 
 ## Current objective
 
@@ -26,6 +28,9 @@ Establish version 1 of a page-transcription specification that can faithfully re
 - [x] Select approximately 10–15 representative pages.
 - [x] Catalogue the principal page and typography features observed in the sample.
 - [x] Produce and freeze independent provisional transcriptions of selected test cases.
+- [x] Acquire and checksum-verify all 651 native-resolution Gallica images.
+- [x] Generate reproducible quarter-column and sixth-column tile profiles for the first test page.
+- [ ] Perform a timed second independent visual pass using overlapping tiles.
 - [ ] Compare independent transcription with correction of available Wikisource text.
 - [ ] Test generation of page-oriented, continuous-text, and entry-oriented views.
 - [ ] Document unresolved cases and format limitations.

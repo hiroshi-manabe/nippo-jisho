@@ -1,0 +1,44 @@
+{
+  "format": "nippo-tile-config",
+  "format_version": 0,
+  "pages": [
+    {
+      "id": "bnf-f0014",
+      "master": "f0014.jpg",
+      "zones": [
+        {
+          "id": "column-1",
+          "box": [360, 280, 1480, 3550],
+          "profiles": [
+            {
+              "id": "quarter-column",
+              "tiles": 4,
+              "overlap_pixels": 160
+            },
+            {
+              "id": "sixth-column",
+              "tiles": 6,
+              "overlap_pixels": 160
+            }
+          ]
+        },
+        {
+          "id": "column-2",
+          "box": [1400, 280, 2650, 3550],
+          "profiles": [
+            {
+              "id": "quarter-column",
+              "tiles": 4,
+              "overlap_pixels": 160
+            },
+            {
+              "id": "sixth-column",
+              "tiles": 6,
+              "overlap_pixels": 160
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
