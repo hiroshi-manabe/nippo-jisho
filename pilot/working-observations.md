@@ -52,29 +52,32 @@ Search other sampled pages for words printed beside a preceding line but complet
 
 ## OBS-002
 
-**A printed caron above vowels is distinct from the tilde and circumflex**
+**Caron and circumflex distinguish two long `o` vowels; marks over `u` require shape-level transcription**
 
 | Field | Value |
 | --- | --- |
 | Status | `confirmed` within the audited pilot pages |
 | First recorded | 2026-07-28 |
-| Evidence | `bnf-f0248` and `bnf-f0643`; 37 vowel-mark instances previously misclassified as circumflexes |
+| Evidence | An occurrence-level audit of 37 previously flagged forms on `bnf-f0248` and `bnf-f0643` |
 | Detailed audit | [Pilot Diacritic Audit](diacritic-audit.md) |
 | Confidence in glyph identification | High |
 | Whole-volume coverage | Not yet established |
 
 ### Visible evidence
 
-The mark is a pointed, downward-facing wedge. It occurs repeatedly above `o` and `u`, including in `Goxǒ`, `Gǔcan`, `Zzubǒxi`, and `Zzufǔ`. On the same pages, the tilde in forms such as `acõpanha` is visibly wavy rather than angular.
+The caron is a pointed, downward-facing wedge, as in `Goxǒ` and `Gǔcan`. The circumflex is an upward-facing roof, clearly visible in `Goyô` and `Zzubôxi`. The grave accent in `Ienxùs` is a single descending stroke. The tilde in forms such as `acõpanha` is wavy rather than angular.
 
 ### Working interpretation
 
-The wedge is a caron or háček and must be encoded as such. Earlier pilot readings using `ô`, `û`, or `ũ` for this shape are glyph misclassifications.
+For long `o`, `ǒ` and `ô` are not interchangeable type variants: they correspond respectively to the traditional open and closed long-vowel categories. Marks over long `u` can vary even though `u` lacks the analogous phonological opposition, so their printed shapes must still be preserved diplomatically. The earlier conclusion that all 37 flagged marks were carons is rejected and retained only in the audit history.
 
 ### Confirmed transcription treatment
 
-- Transcribe the confirmed forms with Unicode `ǒ` (U+01D2) and `ǔ` (U+01D4).
+- Transcribe a visible caron with `ǒ` (U+01D2) or `ǔ` (U+01D4).
+- Preserve a visible circumflex as `ô` rather than converting it to `ǒ`.
+- Preserve other visible marks independently, including the grave in `Ienxùs`.
 - Preserve genuine vowel tildes separately, for example `õ` and `ũ`.
-- Use NFC-normalized text when a precomposed caron character exists.
-- Do not infer a caron solely from linguistic expectations; inspect the printed mark.
-- Continue searching the broader sample for carons on other vowels and for genuine circumflexes or breves before adopting a complete glyph inventory.
+- Use NFC-normalized text when a precomposed character exists.
+- Read the glyph first and use historical vowel class only to corroborate or challenge the reading.
+- Do not perform a global `ô`/`û` replacement; corrections must be occurrence-level.
+- Continue searching the broader sample for other vowel marks and degraded examples before adopting a complete glyph inventory.
