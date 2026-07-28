@@ -165,3 +165,27 @@ NINJAL correctly selects the form as a headword and assigns it a separate record
 - If a normalized display uses `Aburamono`, label that casing as editorial and do not feed it back into the diplomatic text.
 - When collating headword data, score entry selection or boundary agreement separately from character-level agreement in the headword string.
 - Do not infer entry status from capitalization alone; inspect alphabetical order, typeface, punctuation, syntax, and semantic continuity.
+
+## OBS-006
+
+**Contextually supported readings do not automatically require uncertainty markup**
+
+| Field | Value |
+| --- | --- |
+| Status | `provisional` |
+| First recorded | 2026-07-29 |
+| Evidence | `bnf-f0013`, column 1, `Aa vobitataxiya.` passage |
+| Confidence in the complete reading | High |
+| Local physical condition | A horizontal fold or crease crosses the beginning of `vobitataxiya`, most noticeably near `vo` |
+
+### Visible evidence and interpretation
+
+The affected letter shapes are less immediately legible than the surrounding type, but surviving strokes, the rest of the word, and the sentence context jointly support `Aa vobitataxiya.` A targeted enlargement helps establish the reading. The passage illustrates contextual confirmation of a secure transcription rather than a useful case for permanent character-by-character confidence data.
+
+### Provisional transcription treatment
+
+- Transcribe `Aa vobitataxiya.` normally unless a later independent review identifies a plausible alternative.
+- Do not attach uncertainty merely because contextual evidence contributed to reading locally damaged print.
+- Use lightweight span-level uncertainty only when the preferred result remains reasonably disputable.
+- If alternatives remain plausible, record the preferred reading and concise alternatives; if no reading is defensible, use an illegible marker and optionally a labelled tentative suggestion.
+- Allow exceptional explanatory notes, but do not require damage type, confidence score, or character-level annotation for every difficult span.

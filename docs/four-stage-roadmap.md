@@ -29,7 +29,7 @@ Produce a faithful, citable transcription of the complete original text, with ev
 - Verify imported or automatically recognized text directly against the scans.
 - Preserve original spelling, romanization, abbreviations, punctuation, and typographical distinctions according to documented conventions.
 - Preserve observable physical evidence needed for later interpretation, including line and column order, visible placement marks, indentation, and exceptional text placement where relevant.
-- Record illegible, damaged, and uncertain readings explicitly.
+- Record illegible passages and materially uncertain readings explicitly; do not burden secure readings with routine character-level confidence metadata merely because context assisted their recognition.
 - Retain page furniture such as headings, catchwords, and continuation markers when it assists reconstruction of the text.
 - Defer entry boundaries, logical reassignment of displaced text, and other lexical interpretations to Stage 2 rather than embedding them in the diplomatic text.
 

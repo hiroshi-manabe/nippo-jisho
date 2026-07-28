@@ -11,12 +11,24 @@ The scan remains decisive. Historical Japanese, Portuguese spelling, morphology,
 For every passage:
 
 1. Read and record the visible characters, capitalization, spacing, punctuation, diacritics, and relevant line divisions.
-2. Mark uncertainty instead of repairing an implausible form from memory or linguistic expectation.
+2. Mark materially unresolved uncertainty instead of repairing an implausible form from memory or linguistic expectation.
 3. Apply the diagnostic cautions in this guide only after an initial reading exists.
 4. If a pattern makes the reading suspicious, inspect a larger crop and compare nearby specimens of the same type.
 5. Accept a correction only when the scan supports it. Record linguistic analysis separately as corroboration.
 
 No spelling rule in this guide licenses automatic substitution. The original printing and the Jesuit transcription system both contain variation, anomalous spellings, and errors.
+
+## Practical threshold for uncertainty
+
+Contextual reasoning is part of ordinary visual transcription. A reading need not be marked uncertain merely because a fold, weak impression, or unfamiliar letter made context useful in confirming it. If the surviving shapes and context together yield a reading that a careful reviewer is unlikely to dispute, transcribe it normally.
+
+Reserve explicit uncertainty notation for materially doubtful results:
+
+- give the preferred reading with a lightweight uncertainty marker when it is probable but reasonably disputable;
+- record alternatives in a short note only when more than one reading remains plausible;
+- use an illegible marker when no defensible reading can be supplied, optionally with a clearly labelled tentative suggestion.
+
+Do not require character-by-character confidence values, damage categories, or explanations for every difficult passage. More detailed notes remain available for exceptional cases where they help later review. The version 1 format must support this escalation without making it routine.
 
 ## Known expectation-driven errors
 

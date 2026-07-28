@@ -22,6 +22,8 @@ NINJAL's CC BY 4.0 [Nippo Jisho Headword Data](docs/headword-data.md), version 2
 
 The provisional layer boundary has now been clarified. Stage 1 will preserve observable page evidence in physical order and will not ordinarily assert entry boundaries or logical reassignment of displaced text. Stage 2 will add those interpretations by linking back to stable Stage 1 spans. The lowercase but structurally independent `aburamono` and the physically displaced `(grande.` are the current test cases for this distinction.
 
+The uncertainty policy is intentionally lightweight. Context may support an ordinary secure transcription, as with the fold-crossed `Aa vobitataxiya.` passage on `f13`; explicit markers are reserved for readings that remain materially disputable or illegible. The format must permit more detailed notes without imposing character-level confidence metadata on routine work.
+
 ## Current objective
 
 Establish version 1 of a page-transcription specification that can faithfully record the source, remain practical to edit, and provide stable evidence for three linked uses:

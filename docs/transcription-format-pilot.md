@@ -80,6 +80,8 @@ The layers are cumulative rather than replacement texts. Structural records poin
 
 The design criterion for Stage 1 is therefore not whether it resolves each structural question, but whether it preserves the visible evidence later editors need to resolve it. For example, the lowercase form and typeface of `aburamono` belong to the page transcription, while its identification as an independent entry belongs to Stage 2. Similarly, the parenthesis-like mark, physical line, and exceptional placement of `(grande.` belong to Stage 1, while assignment of `grande.` to the following definition belongs to Stage 2.
 
+Preserving evidence does not require exhaustive uncertainty metadata. The transcription records a secure editorial reading normally even when context helped overcome minor damage. Lightweight span-level uncertainty is used only when the proposed reading remains reasonably disputable; alternatives or an illegible marker are reserved for genuinely unresolved passages. The format must permit detailed notes without requiring them for ordinary difficult reading.
+
 The initial candidate is one UTF-8 Markdown file per scan page, with machine-readable metadata and explicitly labelled page zones. This is a hypothesis to test, not yet the adopted production format.
 
 An illustrative experiment might look like:
