@@ -24,6 +24,8 @@ The provisional layer boundary has now been clarified. Stage 1 will preserve obs
 
 The uncertainty policy is intentionally lightweight. Context may support an ordinary secure transcription, as with the fold-crossed `Aa vobitataxiya.` passage on `f13`; explicit markers are reserved for readings that remain materially disputable or illegible. The format must permit more detailed notes without imposing character-level confidence metadata on routine work.
 
+Targeted enlargement is nevertheless a routine review step for any locally difficult span, regardless of the standard tile size. Reviewers return to the surrounding context after enlargement; only doubt that survives both views is marked in the transcription.
+
 ## Current objective
 
 Establish version 1 of a page-transcription specification that can faithfully record the source, remain practical to edit, and provide stable evidence for three linked uses:

@@ -189,3 +189,4 @@ The affected letter shapes are less immediately legible than the surrounding typ
 - Use lightweight span-level uncertainty only when the preferred result remains reasonably disputable.
 - If alternatives remain plausible, record the preferred reading and concise alternatives; if no reading is defensible, use an illegible marker and optionally a labelled tentative suggestion.
 - Allow exceptional explanatory notes, but do not require damage type, confidence score, or character-level annotation for every difficult span.
+- Treat targeted enlargement as a routine review action for locally difficult text, independent of the default tile size; distinguish that action from the exceptional result of retaining uncertainty markup.

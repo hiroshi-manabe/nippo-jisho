@@ -12,7 +12,7 @@ This experiment occurs before Wikisource comparison. It is intended to improve t
 whole page for layout
     → column for reading order
         → overlapping vertical tile for transcription
-            → entry-level enlargement for uncertainty
+            → targeted enlargement for local difficulty
 ```
 
 The whole page is inspected before and after tiled transcription. This protects against missed page furniture, incorrect column order, and continuation errors.
@@ -53,11 +53,13 @@ Generated JPEGs and their manifest are written under `.cache/tiles/`, which is i
 1. Inspect the complete page and identify headers, columns, continuations, catchwords, and exceptional marks.
 2. Read one column from top to bottom using one tile profile.
 3. Mark the first and last repeated line in each adjacent overlap.
-4. Create entry-level enlargements for letter sequences that remain materially uncertain after contextual reading.
-5. Assemble the column while removing only overlap duplication.
-6. Reinspect the full column for omissions and reordering.
-7. Inspect the full page again for cross-column and cross-page continuations.
-8. Perform a separate second visual pass before consulting Wikisource.
+4. Enlarge any locally difficult span, including faint, damaged, unfamiliar, or visually confusable type, whether or not it is ultimately marked uncertain.
+5. Return from the enlargement to the surrounding lines and confirm the proposed reading in context.
+6. Mark uncertainty only if reasonable doubt remains after enlarged and contextual review.
+7. Assemble the column while removing only overlap duplication.
+8. Reinspect the full column for omissions and reordering.
+9. Inspect the full page again for cross-column and cross-page continuations.
+10. Perform a separate second visual pass before consulting Wikisource.
 
 Semantic and morphological reasoning may confirm or challenge a visual reading, but it must be recorded separately from what is visible in the image.
 
@@ -72,7 +74,7 @@ For each profile, record:
 - frequency of additional entry-level enlargement;
 - whether surrounding context was sufficient.
 
-The chosen version 1 profile may differ by page condition. The goal is a documented default and an explicit escalation rule, not one crop size imposed on every page.
+The chosen version 1 profile may differ by page condition. The goal is a documented default and an explicit escalation rule, not one crop size imposed on every page. Whatever default viewing unit is adopted, targeted enlargement remains a routine part of review rather than an exceptional change of method.
 
 Escalation should remain proportionate. A local fold or weak impression may require an enlarged crop during review without requiring permanent damage metadata in the transcription. If the enlarged shapes and context establish a secure reading, record the text normally; retain explicit uncertainty only when reasonable alternatives remain.
 
@@ -83,7 +85,7 @@ The sixth-column profile makes individual letter sequences noticeably easier to 
 ```text
 quarter-column view for context
 sixth-column view for primary transcription
-entry-level crop for unresolved readings
+targeted crop for locally difficult spans
 ```
 
 The first timed second pass applied this method to `bnf-f0248`. All 12 sixth-column tiles were read, all 10 adjacent boundaries were checked, and the quarter-column views supplied orientation. The 3-minute-47-second visual comparison found six proposed corrections, with no missed or duplicated boundary lines and no need for a smaller entry crop. Full evidence is recorded in the [page-level review](../pilot/second-pass/bnf-f0248.md).
