@@ -90,7 +90,7 @@ The second pass caught several expectation-driven or resolution-dependent errors
 - abbreviated `vẽde` and source spacing `veſtido,ou`;
 - `Aburaguitta` and anomalous `Aburaguitra`;
 - the earlier established `Aburamigaqi`, `acepilhada`, `aburamono`, `Aburaqega`, `ſecar`, and `Aburicauarague` readings;
-- full-page corrections on `f248`, including `Gǒyen`, `Gǒyenuo`, `Guchina`, `Gǔcon`, and `nibuxi`;
+- full-page corrections on `f248`, including the contrast between `Gǒyen` and abbreviated `Gǒyẽuo`, plus `Guchina`, `Gǔcon`, and `nibuxi`;
 - full-page corrections on `f643`, including `Zzuqiǒ`, `Zzuſocu`, `Zzuſu`, `Zzutçǔ`, `couſada`, and `Veo me`.
 
 This error yield supports retaining a separate verification pass and routine targeted enlargement in production.

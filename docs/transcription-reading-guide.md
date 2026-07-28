@@ -70,6 +70,7 @@ Principal research starting points:
 - The caron is a downward-pointing wedge; the circumflex is an upward-pointing roof. Compare the shape, not only the expected vowel class.
 - Marks over `u` require the same shape-level reading even though `u` lacks the corresponding open/closed opposition.
 - Preserve grave accents and genuine tildes independently. Do not globally replace one accent family with another.
+- Preserve abbreviation tildes as printed rather than expanding them in Level 1. On `f248`, the headword prints `Gǒyen`, but its example prints `Gǒyẽuo`, with `ẽ` abbreviating `en` before `uo`.
 - The current occurrence-level evidence and Unicode choices are in the [Pilot Diacritic Audit](../pilot/diacritic-audit.md).
 
 ### Confusable characters and sequences

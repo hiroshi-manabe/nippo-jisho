@@ -37,7 +37,7 @@ The 37 occurrences previously encoded as `ô` or `û` resolve as follows. The ro
 | No printed mark | 1 | 0 | 1 |
 | **Total audited** | **28** | **9** | **37** |
 
-Genuine tildes form a separate class. Their wavy shape is visible in forms such as `acõpanha` and `algũa`; the abbreviation `q̃` uses a combining tilde.
+Genuine tildes form a separate class. Their wavy shape is visible in forms such as `acõpanha` and `algũa`. Abbreviation tildes must also be preserved rather than silently expanded: `q̃` uses a combining tilde, while `Gǒyẽuo` prints `ẽ` in place of `en` before `uo`.
 
 No caron or circumflex occurs in the drafted excerpts of `bnf-f0014`.
 
@@ -55,7 +55,7 @@ Repeated forms with the same visible type are grouped, but every occurrence was 
 | `Goxô` in `Goxô jenxo` | `Goxǒ` | 1 | Caron | Pointed downward wedge. |
 | `Goxxô` | `Goxxǒ` | 1 | Caron | Contrasts on the same line with the circumflex in `Acugôno`. |
 | `Acugôno` | `Acugôno` | 1 | Circumflex | Upward-pointing roof shape; historically a closed-series vowel. |
-| `Gôyei` / `Gôyeiuo` | `Gǒyen` / `Gǒyenuo` | 2 | Caron | Pointed downward wedge; full-page review also resolves the final letter as `n`. |
+| `Gôyei` / `Gôyeiuo` | `Gǒyen` / `Gǒyẽuo` | 2 | Caron | Pointed downward wedge. The headword prints final `n`; the example instead prints a tilde over `e` as an abbreviation for `n` before `uo`. |
 | `Goyô` / `Goyôno` | unchanged | 3 | Circumflex | Upward-pointing roof; `yô` represents the closed long vowel in 御用 and 五葉. |
 | `Gozô`, `cannozô`, `xinnozô`, `finozô`, `fainozô`, `jinnozô`, `Gozôroppu` | corresponding forms with `ǒ` | 7 | Caron | Repeated pointed downward wedge in the organ-name sequence. |
 | `afô` | `afǒ` | 1 | Caron | Pointed downward wedge. |

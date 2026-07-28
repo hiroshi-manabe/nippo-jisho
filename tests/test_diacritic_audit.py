@@ -51,7 +51,7 @@ class DiacriticAuditTests(unittest.TestCase):
     def test_full_page_reviewed_forms_are_recorded(self):
         reviewed = {row["reviewed"] for row in self.rows}
         self.assertIn("Gǒyen", reviewed)
-        self.assertIn("Gǒyenuo", reviewed)
+        self.assertIn("Gǒyẽuo", reviewed)
         self.assertIn("Gǔcon", reviewed)
         self.assertIn("Zzuqiǒ", reviewed)
         self.assertIn("Zzutçǔ", reviewed)

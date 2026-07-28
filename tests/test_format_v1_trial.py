@@ -99,6 +99,7 @@ class FormatV1TrialTests(unittest.TestCase):
             "bnf-f0248": [
                 "Goxǒuo taſucaru.",
                 "Gǒyen. Tçuyoi yen.",
+                "Gǒyẽuo motte tanomu.",
                 "Guchina.",
                 "Gǔcon. Faluno ne.",
                 "por erro ſepos na",

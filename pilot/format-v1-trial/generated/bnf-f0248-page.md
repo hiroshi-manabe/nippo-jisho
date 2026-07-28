@@ -35,7 +35,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l019` | Goyei. Micague. *Imagem pintada, falando* |  |
 | `c1-l020` | &emsp;*com reuerencia. No Cami ſe diz,* Miyei. |  |
 | `c1-l021` | Gǒyen. Tçuyoi yen. *Grande, & poderoſa* |  |
-| `c1-l022` | &emsp;*amizade. Vt,* Gǒyenuo motte tanomu. |  |
+| `c1-l022` | &emsp;*amizade. Vt,* Gǒyẽuo motte tanomu. |  |
 | `c1-l023` | &emsp;*Rogar algum amigo mais forte, & poderoſo* |  |
 | `c1-l024` | &emsp;*pera que com ſeu fauor vença algũa demanda,* |  |
 | `c1-l025` | &emsp;*ou, poſſa contra o competidor, &c.* |  |
