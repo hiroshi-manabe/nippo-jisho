@@ -19,6 +19,8 @@
 | `bnf-f0248` | Full lexical text | 1 | Independent draft frozen |
 | `bnf-f0643` | Full lexical text and furniture | 1 | Independent draft frozen |
 
+The frozen files remain unchanged. A timed second visual pass of `bnf-f0248`, performed with native Gallica tiles and without Wikisource, is recorded separately in [bnf-f0248 Second Visual Pass](second-pass/bnf-f0248.md).
+
 ### Timing limitation
 
 Elapsed transcription time was not measured reliably during this first format experiment, so these files cannot provide the timing baseline for the later Wikisource comparison. Before that comparison begins, at least one additional eligible page should be independently transcribed with separate time records for image preparation, first-pass transcription, and visual self-check.

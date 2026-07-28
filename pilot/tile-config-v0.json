@@ -39,6 +39,44 @@
           ]
         }
       ]
+    },
+    {
+      "id": "bnf-f0248",
+      "master": "f0248.jpg",
+      "zones": [
+        {
+          "id": "column-1",
+          "box": [300, 300, 1430, 3520],
+          "profiles": [
+            {
+              "id": "quarter-column",
+              "tiles": 4,
+              "overlap_pixels": 160
+            },
+            {
+              "id": "sixth-column",
+              "tiles": 6,
+              "overlap_pixels": 160
+            }
+          ]
+        },
+        {
+          "id": "column-2",
+          "box": [1360, 300, 2580, 3520],
+          "profiles": [
+            {
+              "id": "quarter-column",
+              "tiles": 4,
+              "overlap_pixels": 160
+            },
+            {
+              "id": "sixth-column",
+              "tiles": 6,
+              "overlap_pixels": 160
+            }
+          ]
+        }
+      ]
     }
   ]
 }

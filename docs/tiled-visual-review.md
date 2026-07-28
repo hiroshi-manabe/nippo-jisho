@@ -19,7 +19,7 @@ The whole page is inspected before and after tiled transcription. This protects 
 
 ## Experimental profiles
 
-The initial configuration tests two profiles on Gallica `f14`:
+The initial configuration tests two profiles on Gallica `f14` and `f248`:
 
 | Profile | Tiles per column | Overlap |
 | --- | ---: | ---: |
@@ -74,7 +74,7 @@ For each profile, record:
 
 The chosen version 1 profile may differ by page condition. The goal is a documented default and an explicit escalation rule, not one crop size imposed on every page.
 
-### Preliminary observation
+### First timed result
 
 The sixth-column profile makes individual letter sequences noticeably easier to inspect in the available viewing interface. The quarter-column profile retains more surrounding context and is useful for orientation. The current working hypothesis is therefore:
 
@@ -84,4 +84,6 @@ sixth-column view for primary transcription
 entry-level crop for unresolved readings
 ```
 
-This is not yet a version 1 decision. It must be tested on additional pages and with recorded timing and error counts.
+The first timed second pass applied this method to `bnf-f0248`. All 12 sixth-column tiles were read, all 10 adjacent boundaries were checked, and the quarter-column views supplied orientation. The 3-minute-47-second visual comparison found six proposed corrections, with no missed or duplicated boundary lines and no need for a smaller entry crop. Full evidence is recorded in the [page-level review](../pilot/second-pass/bnf-f0248.md).
+
+This result supports the working hypothesis but does not yet make it a version 1 decision. At least one page with degraded or irregular print should test the escalation to entry-level crops.

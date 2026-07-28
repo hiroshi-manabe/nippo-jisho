@@ -12,7 +12,7 @@ The detailed purpose, method, and completion criteria are defined in the [Transc
 
 The complete native-resolution Gallica image sequence has been acquired and checksum-verified. The result is recorded in [Acquisition Summary](sources/acquisition-summary.yaml). Source acquisition does not change the transcription pilot’s current checkpoint.
 
-The current experimental task is the [Tiled Visual Review Pilot](docs/tiled-visual-review.md): comparing overlapping quarter-column and sixth-column views before beginning a second independent visual pass.
+The first timed second-pass trial is complete. The [Tiled Visual Review Pilot](docs/tiled-visual-review.md) now records overlapping quarter-column and sixth-column views as a workable review method, and the page-level evidence is preserved in the [bnf-f0248 Second Visual Pass](pilot/second-pass/bnf-f0248.md). The frozen baseline was not rewritten and Wikisource has still not been consulted.
 
 ## Current objective
 
@@ -30,7 +30,7 @@ Establish version 1 of a page-transcription specification that can faithfully re
 - [x] Produce and freeze independent provisional transcriptions of selected test cases.
 - [x] Acquire and checksum-verify all 651 native-resolution Gallica images.
 - [x] Generate reproducible quarter-column and sixth-column tile profiles for the first test page.
-- [ ] Perform a timed second independent visual pass using overlapping tiles.
+- [x] Perform a timed second independent visual pass using overlapping tiles.
 - [ ] Compare independent transcription with correction of available Wikisource text.
 - [ ] Test generation of page-oriented, continuous-text, and entry-oriented views.
 - [ ] Document unresolved cases and format limitations.
