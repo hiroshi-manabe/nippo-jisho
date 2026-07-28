@@ -29,7 +29,7 @@ class FormatV1TrialTests(unittest.TestCase):
             check=False,
         )
         self.assertEqual(result.returncode, 0, result.stderr)
-        self.assertIn("229 physical lines", result.stdout)
+        self.assertIn("330 physical lines", result.stdout)
 
     def test_generated_views_are_current(self):
         module = load_module()
@@ -79,7 +79,7 @@ class FormatV1TrialTests(unittest.TestCase):
             for zone in f248["zones"]
             for line in zone.get("lines", [])
         }
-        displaced = f248_lines["c1p-l002"]["runs"]
+        displaced = f248_lines["c1-l037"]["runs"]
         self.assertEqual("".join(run["text"] for run in displaced), "gũ ſenhor principal. (grande.")
         self.assertEqual(displaced[1]["placement"], "far-right")
         self.assertEqual(displaced[2]["placement"], "far-right")
@@ -93,6 +93,42 @@ class FormatV1TrialTests(unittest.TestCase):
             encoding="utf-8"
         )
         self.assertIn("|  *(grande.* |", page_view)
+
+    def test_all_four_page_records_are_complete_and_reviewed(self):
+        expected_corrections = {
+            "bnf-f0248": [
+                "Goxǒuo taſucaru.",
+                "Gǒyen. Tçuyoi yen.",
+                "Guchina.",
+                "Gǔcon. Faluno ne.",
+                "por erro ſepos na",
+            ],
+            "bnf-f0643": [
+                "Zzuqiǒ.",
+                "Zzuſocu. Atama, axi.",
+                "Zzuſu.",
+                "Zzutçǔ. Caxira itamu.",
+            ],
+        }
+        for page_id, required_strings in expected_corrections.items():
+            page = json.loads(
+                (TRIAL / "level1" / f"{page_id}.json").read_text(encoding="utf-8")
+            )
+            self.assertEqual(page["scope"], "full_dictionary_text_and_furniture")
+            self.assertTrue(page["review"]["physical_lineation_checked"])
+            text = "\n".join(
+                "".join(run["text"] for run in line["runs"])
+                for zone in page["zones"]
+                for line in zone.get("lines", [])
+            )
+            for required in required_strings:
+                self.assertIn(required, text)
+
+        f643 = json.loads(
+            (TRIAL / "level1" / "bnf-f0643.json").read_text(encoding="utf-8")
+        )
+        self.assertTrue(any(zone["kind"] == "later_copy_mark" for zone in f643["zones"]))
+        self.assertTrue(any(zone["kind"] == "terminus" for zone in f643["zones"]))
 
     def test_contextually_confirmed_fold_reading_is_unmarked(self):
         f13 = json.loads(

@@ -65,7 +65,7 @@ Search other sampled pages for words printed beside a preceding line but complet
 
 ### Visible evidence
 
-The caron is a pointed, downward-facing wedge, as in `Goxǒ` and `Gǔcan`. The circumflex is an upward-facing roof, clearly visible in `Goyô` and `Zzubôxi`. The grave accent in `Ienxùs` is a single descending stroke. The tilde in forms such as `acõpanha` is wavy rather than angular.
+The caron is a pointed, downward-facing wedge, as in `Goxǒ` and `Gǔcon`. The circumflex is an upward-facing roof, clearly visible in `Goyô` and `Zzubôxi`. The grave accent in `Ienxùs` is a single descending stroke. The tilde in forms such as `acõpanha` is wavy rather than angular.
 
 ### Working interpretation
 

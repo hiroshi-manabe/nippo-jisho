@@ -115,9 +115,9 @@ Version `0` identifies the earlier experimental files. They do not become produc
 
 ## First candidate-format trial result
 
-The trial encodes the complete dictionary text and textual furniture of consecutive opening pages `bnf-f0013` and `bnf-f0014`, together with selected difficult regions of `bnf-f0248` and `bnf-f0643`. It validates 229 physical lines, seven independent structural assertions, and eight selected reading sequences.
+The trial encodes the complete dictionary text and textual furniture of `bnf-f0013`, `bnf-f0014`, `bnf-f0248`, and `bnf-f0643`. It validates 330 physical lines, seven independent structural assertions, and eight selected reading sequences.
 
-The result confirms that physical order, typeface runs, relative indentation, catchwords, cross-column and cross-page continuations, printed word division, lowercase `aburamono`, and displaced `(grande.` can remain auditable while separate references generate proposed logical views. NINJAL headword data found no omitted entry candidate on the two complete pages. One badly inked word was exceptionally checked against an exactly identified Wikisource revision only after direct review, then adjudicated again against the scan.
+The result confirms that physical order, typeface runs, relative indentation, catchwords, cross-column and cross-page continuations, printed word division, lowercase `aburamono`, displaced `(grande.`, later copy marks, and terminal furniture can remain auditable while separate references generate proposed logical views. NINJAL headword data found no omitted entry candidate on the four complete pages. One badly inked word was exceptionally checked against an exactly identified Wikisource revision only after direct review, then adjudicated again against the scan.
 
 The test does not yet justify adopting version 1. JSON may be better retained as a validated interchange representation generated from a more compact authoring syntax, and the optional uncertainty mechanism still needs a genuinely unresolved source example. Level 2 was exercised only to prove the separation and derived views; it is not a complete structural encoding of the trial pages.
 

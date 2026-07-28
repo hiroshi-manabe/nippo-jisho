@@ -32,7 +32,7 @@
       "id": "grande-placement-mark",
       "kind": "nonlexical_placement_mark",
       "targets": [
-        {"line": "bnf-f0248:c1p-l002", "runs": [1]}
+        {"line": "bnf-f0248:c1-l037", "runs": [1]}
       ],
       "claim": "The parenthesis-like mark signals exceptional placement and is not included in the proposed logical text."
     },
@@ -40,8 +40,8 @@
       "id": "grande-logical-assignment",
       "kind": "displaced_text_assignment",
       "targets": [
-        {"line": "bnf-f0248:c1p-l002", "runs": [2]},
-        {"line": "bnf-f0248:c1p-l003"}
+        {"line": "bnf-f0248:c1-l037", "runs": [2]},
+        {"line": "bnf-f0248:c1-l038"}
       ],
       "claim": "The physically displaced word grande. completes the Gozadocoro definition."
     },
@@ -55,12 +55,12 @@
       "claim": "Identical visible strings serve separately as the column running header and an internal section heading."
     },
     {
-      "id": "f248-gucan-entry-boundary",
+      "id": "f248-gucon-entry-boundary",
       "kind": "entry_boundary",
       "targets": [
-        {"line": "bnf-f0248:c2g-l004"}
+        {"line": "bnf-f0248:c2b-l025"}
       ],
-      "claim": "Gǔcan begins an independent entry."
+      "claim": "Gǔcon begins an independent entry."
     }
   ],
   "reading_sequences": [
@@ -116,49 +116,49 @@
       "id": "gozadocoro-with-displaced-grande",
       "label": "Gozadocoro with displaced grande restored to logical order",
       "segments": [
-        {"line": "bnf-f0248:c1p-l003"},
-        {"line": "bnf-f0248:c1p-l002", "runs": [2], "join": "space"}
+        {"line": "bnf-f0248:c1-l038"},
+        {"line": "bnf-f0248:c1-l037", "runs": [2], "join": "space"}
       ]
     },
     {
       "id": "f248-diacritic-contrast",
       "label": "f248 caron and circumflex contrast",
       "segments": [
-        {"line": "bnf-f0248:c1d-l002"},
-        {"line": "bnf-f0248:c1d-l003", "join": "space"},
-        {"line": "bnf-f0248:c1d-l012", "join": "newline"},
-        {"line": "bnf-f0248:c1d-l013", "join": "space"}
+        {"line": "bnf-f0248:c1-l016"},
+        {"line": "bnf-f0248:c1-l017", "join": "space"},
+        {"line": "bnf-f0248:c1-l026", "join": "newline"},
+        {"line": "bnf-f0248:c1-l027", "join": "space"}
       ]
     },
     {
       "id": "f248-confusable-sequence",
-      "label": "f248 Gǔcan, Gudon, and Gudonſa readings",
+      "label": "f248 Gǔcon, Gudon, and Gudonſa readings",
       "segments": [
-        {"line": "bnf-f0248:c2g-l004"},
-        {"line": "bnf-f0248:c2g-l005", "join": "newline"},
-        {"line": "bnf-f0248:c2g-l006", "join": "word"},
-        {"line": "bnf-f0248:c2g-l009", "join": "newline"}
+        {"line": "bnf-f0248:c2b-l025"},
+        {"line": "bnf-f0248:c2b-l026", "join": "newline"},
+        {"line": "bnf-f0248:c2b-l027", "join": "word"},
+        {"line": "bnf-f0248:c2b-l030", "join": "newline"}
       ]
     },
     {
       "id": "f643-diacritic-sequence",
       "label": "f643 circumflex, grave, and caron examples",
       "segments": [
-        {"line": "bnf-f0643:c1o-l001"},
-        {"line": "bnf-f0643:c1o-l002", "join": "space"},
-        {"line": "bnf-f0643:c1m-l001", "join": "newline"},
-        {"line": "bnf-f0643:c1m-l002", "join": "space"},
-        {"line": "bnf-f0643:c1m-l003", "join": "space"},
-        {"line": "bnf-f0643:c1m-l004", "join": "word"},
-        {"line": "bnf-f0643:c1m-l005", "join": "word"},
-        {"line": "bnf-f0643:c1m-l010", "join": "newline"},
-        {"line": "bnf-f0643:c1m-l011", "join": "space"},
-        {"line": "bnf-f0643:c1m-l013", "join": "newline"},
-        {"line": "bnf-f0643:c1m-l014", "join": "space"},
-        {"line": "bnf-f0643:c2m-l001", "join": "newline"},
-        {"line": "bnf-f0643:c2m-l002", "join": "word"},
-        {"line": "bnf-f0643:c2m-l003", "join": "newline"},
-        {"line": "bnf-f0643:c2m-l004", "join": "space"}
+        {"line": "bnf-f0643:c1-l001"},
+        {"line": "bnf-f0643:c1-l002", "join": "space"},
+        {"line": "bnf-f0643:c1-l015", "join": "newline"},
+        {"line": "bnf-f0643:c1-l016", "join": "space"},
+        {"line": "bnf-f0643:c1-l017", "join": "space"},
+        {"line": "bnf-f0643:c1-l018", "join": "word"},
+        {"line": "bnf-f0643:c1-l019", "join": "word"},
+        {"line": "bnf-f0643:c1-l024", "join": "newline"},
+        {"line": "bnf-f0643:c1-l025", "join": "space"},
+        {"line": "bnf-f0643:c1-l027", "join": "newline"},
+        {"line": "bnf-f0643:c1-l028", "join": "space"},
+        {"line": "bnf-f0643:c2-l011", "join": "newline"},
+        {"line": "bnf-f0643:c2-l012", "join": "word"},
+        {"line": "bnf-f0643:c2-l022", "join": "newline"},
+        {"line": "bnf-f0643:c2-l023", "join": "space"}
       ]
     }
   ]

@@ -48,6 +48,14 @@ class DiacriticAuditTests(unittest.TestCase):
         text = AUDIT.read_text(encoding="utf-8")
         self.assertEqual(text, unicodedata.normalize("NFC", text))
 
+    def test_full_page_reviewed_forms_are_recorded(self):
+        reviewed = {row["reviewed"] for row in self.rows}
+        self.assertIn("Gǒyen", reviewed)
+        self.assertIn("Gǒyenuo", reviewed)
+        self.assertIn("Gǔcon", reviewed)
+        self.assertIn("Zzuqiǒ", reviewed)
+        self.assertIn("Zzutçǔ", reviewed)
+
 
 if __name__ == "__main__":
     unittest.main()

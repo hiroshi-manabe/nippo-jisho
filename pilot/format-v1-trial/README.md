@@ -2,7 +2,7 @@
 
 ## Result
 
-The trial successfully represents two consecutive opening pages and difficult excerpts from two distant pages as linked but separate Level 1 and Level 2 data. The renderer validates 229 physical lines, seven structural assertions, and eight selected reading sequences, then regenerates auditable page views and logical reading views without copying source text into Level 2.
+The trial successfully represents four complete pages as linked but separate Level 1 and Level 2 data. The renderer validates 330 physical lines, seven structural assertions, and eight selected reading sequences, then regenerates auditable page views and logical reading views without copying source text into Level 2.
 
 This is a successful implementation trial, not yet adoption of format version 1. The representation works for the tested evidence, but JSON authoring is verbose and a genuinely unresolved reading has not yet exercised the uncertainty field.
 
@@ -12,10 +12,10 @@ This is a successful implementation trial, not yet adoption of format version 1.
 | --- | --- | --- |
 | `bnf-f0013` | Complete dictionary text and textual furniture | Opening title and initial, mixed typeface, physical lines, fold-crossed `vobitataxiya`, signature, catchword |
 | `bnf-f0014` | Complete dictionary text and textual furniture | Cross-page and cross-column continuation, `aburamono`, physical word division, source spacing and capitalization, catchword |
-| `bnf-f0248` | Selected difficult regions | Caron/circumflex contrast, displaced `(grande.`, identical running and internal headings, `Gǔcan`, `Gudon`, `Gudonſa` |
-| `bnf-f0643` | Selected difficult regions | Circumflex, caron, and grave accent examples; printed page number placement |
+| `bnf-f0248` | Complete dictionary text and textual furniture | Caron/circumflex contrast, displaced `(grande.`, identical running and internal headings, `Gǔcon`, catchword |
+| `bnf-f0643` | Complete dictionary text and textual furniture | Circumflex, caron, and grave accent examples; ownership stamp, printed page number, terminus, closing ornament |
 
-The two complete pages contain 172 physical text lines. The selected `f248` and `f643` regions add 57 lines. Exact source-image SHA-256 values are stored in each Level 1 page record.
+The four complete page records contain 330 physical text lines. Exact source-image SHA-256 values are stored in each Level 1 page record.
 
 ## Files
 
@@ -47,7 +47,7 @@ The older version-0 files remain frozen and were not rewritten. They were useful
 
 ## Headword coverage check
 
-NINJAL version 202510 expects 16 source-order records on `f13` (`001a01`–`001b07`) and 31 on `f14` (`001c01`–`001d18`). Every expected record has a corresponding visible form in the complete Level 1 page records; the post-checkpoint comparison found no omitted entry candidate.
+NINJAL version 202510 expects 16 source-order records on `f13` (`001a01`–`001b07`), 31 on `f14` (`001c01`–`001d18`), 36 on `f248` (`122c01`–`122d18`), and 29 on `f643` (`330a01`–`330b15`). Every expected record has a corresponding visible form in the complete Level 1 page records; the post-checkpoint comparison found no omitted entry candidate.
 
 This agreement concerns coverage, not diplomatic identity. The Level 1 record retains differences such as source `Abarabone` without an immediately following period and lowercase `aburamono`, while the external headword data supplies normalized strings. `Abunaſa` and `Abunǒ` are also preserved as visible subordinate forms even though they are not separate NINJAL records.
 
@@ -89,6 +89,8 @@ The second pass caught several expectation-driven or resolution-dependent errors
 - `debrum`, `exo`, and joined `Aburauotçugu`;
 - abbreviated `vẽde` and source spacing `veſtido,ou`;
 - `Aburaguitta` and anomalous `Aburaguitra`;
-- the earlier established `Aburamigaqi`, `acepilhada`, `aburamono`, `Aburaqega`, `ſecar`, and `Aburicauarague` readings.
+- the earlier established `Aburamigaqi`, `acepilhada`, `aburamono`, `Aburaqega`, `ſecar`, and `Aburicauarague` readings;
+- full-page corrections on `f248`, including `Gǒyen`, `Gǒyenuo`, `Guchina`, `Gǔcon`, and `nibuxi`;
+- full-page corrections on `f643`, including `Zzuqiǒ`, `Zzuſocu`, `Zzuſu`, `Zzutçǔ`, `couſada`, and `Veo me`.
 
 This error yield supports retaining a separate verification pass and routine targeted enlargement in production.

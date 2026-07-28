@@ -28,17 +28,17 @@ Gozadocoro. Lugar onde eſtá algum ſenhor grande.
 Goxxǒ. i, Acugôno ſauari. Embaraços, ou impedimentos que nacem do peccado.
 Goyô. Neceſſidade, ou negocio de peſſoa honrada.
 
-## f248 Gǔcan, Gudon, and Gudonſa readings
+## f248 Gǔcon, Gudon, and Gudonſa readings
 
-Gǔcan. Faluno ne. Raiz do golfão.
+Gǔcon. Faluno ne. Raiz do golfão.
 Gudon. Vorocani nibuxi. Rudeza, ou ignorancia.
 Gudonſa.
 
 ## f643 circumflex, grave, and caron examples
 
 Zzubôxi. Pintura que moſtra diſtintamente as partes do corpo pera aprender a curar.
-Zzudat. l, yodare caqe. Babeira que poem aos mininos dependurada do peſcoço, ou de que uſão as molheres como corpinho, & tambem os Bonzos Ienxùs pera quando fazem officios baixos.
-Zzufǔ. Certa doença da cabeça cauſada de frio. ¶ Zzufǔga vocotta. Veome eſta doença.
+Zzudat. l, yodare caqe. Babeira que poem aos mininos dependurada do peſcoço, ou de que vſão as molheres como corpinho, & tambem os Bonzos Ienxùs pera quando fazem officios baixos.
+Zzufǔ. Certa doença da cabeça couſada de frio. ¶ Zzufǔga vocotta. Veo me eſta doença.
 Zzujǒ. Itadaquino uye. Em cima da cucuruta da cabeça.
-Zzuqijǒ. Liuro de anotomia dos fiſicos pera ſaberem as veas, & partes do corpo.
-Zzurçǔ. Caxira itamu. Dor de cabeça, como enxaqueca.
+Zzuqiǒ. Liuro de anotomia dos fiſicos pera ſaberem as veas, & partes do corpo.
+Zzutçǔ. Caxira itamu. Dor de cabeça, como enxaqueca.

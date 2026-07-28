@@ -4,7 +4,7 @@
 
 This audit checks vowel marks in the three frozen pilot transcriptions directly against the native-resolution Gallica images. It does not claim to inventory the complete dictionary. Wikisource and OCR were not consulted.
 
-An initial audit incorrectly treated every `ô` or `û` in the frozen drafts as a caron. That conclusion, committed as `e7acf6f`, is superseded here. It resulted from recognizing `Gǔcan` correctly but then generalizing its glyph shape without comparing every occurrence. The revised audit checks each of the 37 flagged occurrences individually and uses historical vowel class only as corroboration.
+An initial audit incorrectly treated every `ô` or `û` in the frozen drafts as a caron. That conclusion, committed as `e7acf6f`, is superseded here. It resulted from recognizing the caron in `Gǔcon` correctly but then generalizing its glyph shape without comparing every occurrence. The revised audit checks each of the 37 flagged occurrences individually and uses historical vowel class only as corroboration. A later full-page transcription pass also corrected adjacent letters that the mark-only audit had inherited from the frozen drafts.
 
 ## Historical basis
 
@@ -55,13 +55,13 @@ Repeated forms with the same visible type are grouped, but every occurrence was 
 | `Goxô` in `Goxô jenxo` | `Goxǒ` | 1 | Caron | Pointed downward wedge. |
 | `Goxxô` | `Goxxǒ` | 1 | Caron | Contrasts on the same line with the circumflex in `Acugôno`. |
 | `Acugôno` | `Acugôno` | 1 | Circumflex | Upward-pointing roof shape; historically a closed-series vowel. |
-| `Gôyei` / `Gôyeiuo` | `Gǒyei` / `Gǒyeiuo` | 2 | Caron | Pointed downward wedge. |
+| `Gôyei` / `Gôyeiuo` | `Gǒyen` / `Gǒyenuo` | 2 | Caron | Pointed downward wedge; full-page review also resolves the final letter as `n`. |
 | `Goyô` / `Goyôno` | unchanged | 3 | Circumflex | Upward-pointing roof; `yô` represents the closed long vowel in 御用 and 五葉. |
 | `Gozô`, `cannozô`, `xinnozô`, `finozô`, `fainozô`, `jinnozô`, `Gozôroppu` | corresponding forms with `ǒ` | 7 | Caron | Repeated pointed downward wedge in the organ-name sequence. |
 | `afô` | `afǒ` | 1 | Caron | Pointed downward wedge. |
 | `Dôgu` / `dôgu` | `Dǒgu` / `dǒgu` | 2 | Caron | Pointed downward wedge. |
 | `tarôta` | `tarǒta` | 1 | Caron | Pointed downward wedge. |
-| `Gûcan` | `Gǔcan` | 1 | Caron over `u` | Shape classification only; no open/closed-*o* interpretation applies. |
+| `Gûcan` | `Gǔcon` | 1 | Caron over `u` | Shape classification only; full-page review also resolves the following vowel as `o`. |
 
 The `Goyô` entries are decisive counterexamples to the superseded blanket conversion: their second `o` bears a circumflex and must remain `ô`.
 
@@ -74,8 +74,8 @@ The `Goyô` entries are decisive counterexamples to the superseded blanket conve
 | `Ienxûs` | `Ienxùs` | 1 | Grave accent | A single descending stroke, not a two-stroke circumflex or caron. |
 | `Zzufû` / `Zzufûga` | `Zzufǔ` / `Zzufǔga` | 2 | Caron over `u` | Shape classification only. |
 | `Zzujô` | `Zzujǒ` | 1 | Caron | Pointed downward wedge. |
-| `Zzuqijô` | `Zzuqijǒ` | 1 | Caron | Pointed downward wedge. |
-| `Zzurçû` | `Zzurçǔ` | 1 | Caron over `u` | Shape classification only. |
+| `Zzuqijô` | `Zzuqiǒ` | 1 | Caron | Pointed downward wedge; no `j` is printed before the marked `o`. |
+| `Zzurçû` | `Zzutçǔ` | 1 | Caron over `u` | Shape classification only; full-page review resolves the consonant sequence as `tç`. |
 
 ## Character inventory and encoding
 
@@ -99,7 +99,7 @@ These crops are derived without enhancement from the cached Gallica masters. Coo
 | [`Goxǒ`](glyph-samples/bnf-f0248-caron-goxo.jpg) | `f0248.jpg`, `[300, 756, 950, 1076]` | `a7914efb8e3278aa7b0e20c31ea0654db5e72e66010334ee575d3928d74e111b` |
 | [`Goxxǒ` and `Acugôno` on the same line](glyph-samples/bnf-f0248-caron-circumflex-same-line.jpg) | `f0248.jpg`, `[300, 1310, 1020, 1570]` | `80ea87e3842cbf6efca29bf7805efec21247a6bd4c9c7709505a252ba49a4f71` |
 | [`Goyô`](glyph-samples/bnf-f0248-circumflex-goyo.jpg) | `f0248.jpg`, `[300, 1930, 1000, 2360]` | `57341dd942f652936c9627fb056af97af9b2b034835f7ccb037d520ccdd1097a` |
-| [`Gǔcan`](glyph-samples/bnf-f0248-caron-gucan.jpg) | `f0248.jpg`, `[1360, 2546, 2010, 2846]` | `3df14d3dd88b1f70042eb889dc7d8c1c55276634908fe4acda1ba59f9066ec10` |
+| [`Gǔcon`](glyph-samples/bnf-f0248-caron-gucan.jpg) | `f0248.jpg`, `[1360, 2546, 2010, 2846]` | `3df14d3dd88b1f70042eb889dc7d8c1c55276634908fe4acda1ba59f9066ec10` |
 | [`acõpanha`](glyph-samples/bnf-f0248-tilde-acompanha.jpg) | `f0248.jpg`, `[1360, 1920, 2260, 2220]` | `aab46d08fdf64e584ff27eb6f4a47a5a0894ae60789fbcb248a07cfdd7c784be` |
 | [`Zzubôxi`](glyph-samples/bnf-f0643-circumflex-zzuboxi.jpg) | `f0643.jpg`, `[150, 430, 1050, 730]` | `72647bae253b5f3806174c693c09d13303f85e6cc9d06f28558b96947b259a37` |
 | [`Ienxùs`](glyph-samples/bnf-f0643-grave-ienxus.jpg) | `f0643.jpg`, `[350, 1500, 1100, 1730]` | `b283310d2e62047840862c8ffcadbb5c31572024476397b0f94141f81cf6d38b` |

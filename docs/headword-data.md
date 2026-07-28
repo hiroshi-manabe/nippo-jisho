@@ -73,7 +73,7 @@ The data already adds useful evidence:
 It is not a diplomatic transcription:
 
 - It records `Aburamono.` with a capital even though the Paris scan prints lowercase `aburamono`. The form is physically placed within the `Aburamigaqi` text block, as the dataset note observes, but it is structurally a separate entry.
-- It records `Gucan.` without the caron visible as `Gǔcan` in the Paris scan.
+- It distinguishes the unmarked `Gucan.` entry from the later `Gǔcon.` entry; the Paris scan confirms both the separate entries and the caron in the latter, while close review remains necessary for adjacent confusable letters.
 - It replaces the printed lowercase `l` used in *vel* notes with a vertical bar.
 - It contains katakana, modern verb forms, source mappings, and lexical identifiers derived through later editorial analysis.
 
