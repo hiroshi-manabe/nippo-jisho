@@ -73,12 +73,12 @@ Nearby letters from the same page and type size are better comparison specimens 
 ## Documentary cautions
 
 - Preserve printed capitalization even when entry analysis suggests a headword.
-- Determine headword status independently of capitalization. Alphabetical position, typeface, punctuation, semantic completeness, and surrounding syntax may establish an entry boundary even when the printer used a lowercase initial.
+- Defer headword status and entry boundaries to the structural layer. There, determine them independently of capitalization: alphabetical position, typeface, punctuation, semantic completeness, and surrounding syntax may establish an entry boundary even when the printer used a lowercase initial.
 - Preserve printed spacing even when it conflicts with Japanese morpheme boundaries. Morphological segmentation belongs in the structured layer.
 - Preserve physical line division and printed word division in the page layer until a documented generated view joins them.
-- Store visible catchword text separately from its structural status. Do not add a hyphen merely to indicate that the anticipated word is divided.
+- Preserve visible catchword text and position in the page layer; store its later structural interpretation separately. Do not add a hyphen merely to indicate that the anticipated word is divided.
 - Distinguish repeated running headers from internal section headings and retain both in the page layer.
-- Record displaced words in logical reading order only with an auditable layout note.
+- Preserve apparently displaced words, their placement marks, and their physical position in the page layer. Assign them a logical reading order only in the linked structural layer and generated views.
 - Inventory roman and italic type before deciding whether the distinction should be explicit or generated from entry roles.
 
 The evidence for catchwords, displaced text, typeface, and diacritics is maintained in [Working Editorial Observations](../pilot/working-observations.md).

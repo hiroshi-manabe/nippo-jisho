@@ -39,12 +39,12 @@ Gozadocoro. Lugar onde eſtá algum ſenhor grande.
 
 `grande.` therefore belongs logically to the following `Gozadocoro` definition. Its unusual physical position, together with the parenthesis-like mark, appears to be a space-saving displacement convention rather than a parenthetical addition to `Gozadatami`.
 
-### Provisional transcription treatment
+### Provisional layered treatment
 
-- Put `grande.` in its logical position at the end of the `Gozadocoro` definition in a reading-order transcription.
-- Do not treat the parenthesis-like placement mark as lexical punctuation.
-- Preserve the exceptional physical placement in a page note or explicit layout annotation so the editorial reordering is auditable against the scan.
-- Do not generalize this treatment from position alone; require syntactic continuity and visible layout evidence.
+- In Stage 1, preserve the parenthesis-like mark, `grande.`, its physical line, and its exceptional horizontal placement. Do not move the word into a proposed logical position or decide whether the mark is lexical punctuation.
+- In Stage 2, link that Stage 1 span to the end of the `Gozadocoro` definition and record the proposed logical reading order without rewriting the diplomatic text.
+- A generated reading-order view may render `grande.` after `ſenhor`, provided that the transformation remains traceable to both the structural assertion and the physical source span.
+- Do not generalize the Stage 2 assignment from position alone; require syntactic continuity and visible layout evidence.
 
 ### Confirmation needed
 
@@ -106,8 +106,9 @@ The frozen version-0 draft records `[catchword form="divided"]` and then `Aburic
 ### Provisional transcription treatment
 
 - Preserve the visible catchword string exactly, without adding a hyphen.
-- Record whether it represents a divided word in separate metadata.
-- Keep catchwords in the page-oriented source layer and exclude them from generated continuous lexical text.
+- Preserve its physical position and any visibly printed division mark in the page-oriented source layer.
+- Determine in Stage 2 whether it represents a divided word or duplicates text on the next page.
+- Exclude it from generated continuous lexical text only through an explicit structural assertion, not because Stage 1 silently omits it.
 - Test this treatment against examples where a hyphen is visibly printed before adopting the convention.
 
 ## OBS-004
@@ -160,7 +161,7 @@ NINJAL correctly selects the form as a headword and assigns it a separate record
 ### Provisional transcription treatment
 
 - Preserve `aburamono.` with its printed lowercase initial in the diplomatic page transcription.
-- Represent it as an independent entry in the later structured layer.
+- Do not encode its headword status as part of the Stage 1 transcription. Represent it as an independent entry in the Stage 2 structured layer, linked to the unchanged source span.
 - If a normalized display uses `Aburamono`, label that casing as editorial and do not feed it back into the diplomatic text.
 - When collating headword data, score entry selection or boundary agreement separately from character-level agreement in the headword string.
 - Do not infer entry status from capitalization alone; inspect alphabetical order, typeface, punctuation, syntax, and semantic continuity.

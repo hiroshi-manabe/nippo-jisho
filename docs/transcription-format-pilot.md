@@ -62,17 +62,23 @@ The sample list must record why each page was selected. A page may satisfy sever
 
 ## Provisional representation model
 
-The pilot begins with three related representations:
+The pilot begins with cumulative, linked representations:
 
 ```text
 source scan
     ↓
 page-oriented diplomatic transcription
     ↓
-generated continuous text and entry references
+structural analysis
+    ↓
+generated continuous text and entry-oriented views
 ```
 
-The scan remains authoritative for exact visual layout. The page transcription records meaningful text and document structure in reading order. Generated views may omit repeated furniture, join continuations, and normalize selected typographical features without changing the underlying transcription.
+The scan remains authoritative for exact visual layout. The page transcription records observable evidence in physical order: visible characters and marks, capitalization, spacing, punctuation, typeface where significant, pages, columns, lines, indentation, and exceptional placement. It does not ordinarily decide entry boundaries, assign text to headwords or definitions, or move displaced text into a proposed logical position. Those interpretations belong to the structural layer.
+
+The layers are cumulative rather than replacement texts. Structural records point back to transcription units and add interpretations; they do not copy and silently modify the diplomatic text. Generated views may omit repeated furniture, join continuations, or present a proposed reading order, but every transformation must remain traceable to the page transcription and ultimately to the scan.
+
+The design criterion for Stage 1 is therefore not whether it resolves each structural question, but whether it preserves the visible evidence later editors need to resolve it. For example, the lowercase form and typeface of `aburamono` belong to the page transcription, while its identification as an independent entry belongs to Stage 2. Similarly, the parenthesis-like mark, physical line, and exceptional placement of `(grande.` belong to Stage 1, while assignment of `grande.` to the following definition belongs to Stage 2.
 
 The initial candidate is one UTF-8 Markdown file per scan page, with machine-readable metadata and explicitly labelled page zones. This is a hypothesis to test, not yet the adopted production format.
 
@@ -160,7 +166,7 @@ The project may leave this phase when:
 3. Every transcribed element can be traced to a source page and meaningful location.
 4. Page furniture can be preserved without contaminating continuous dictionary text.
 5. Continuations and typographical line division can be represented without silent editorial changes.
-6. The same source files support page-oriented display, continuous text, and stable entry references.
+6. The page transcription supplies stable addressable units from which a separate structural layer can support continuous text and entry references without modifying or duplicating the source record.
 7. Uncertainty and exceptional cases have explicit representations or documented escape mechanisms.
 8. Version 1 of the format and its conventions are documented.
 9. The initial Wikisource-use and licensing policy has been decided.

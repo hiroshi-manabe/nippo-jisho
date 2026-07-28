@@ -1,6 +1,6 @@
 # Project Status
 
-Last updated: 2026-07-28
+Last updated: 2026-07-29
 
 ## Current phase
 
@@ -20,13 +20,15 @@ The resulting visual, linguistic, and expectation-driven cautions are consolidat
 
 NINJAL's CC BY 4.0 [Nippo Jisho Headword Data](docs/headword-data.md), version 202510, has been downloaded, unpacked, checksum-verified, and documented. Its 32,878 source-order records provide dictionary-wide coverage and reading checks unavailable from Wikisource. It remains an attributed external reference because it is based on the Bodleian copy and contains editorial normalization; the Gallica scan remains authoritative.
 
+The provisional layer boundary has now been clarified. Stage 1 will preserve observable page evidence in physical order and will not ordinarily assert entry boundaries or logical reassignment of displaced text. Stage 2 will add those interpretations by linking back to stable Stage 1 spans. The lowercase but structurally independent `aburamono` and the physically displaced `(grande.` are the current test cases for this distinction.
+
 ## Current objective
 
-Establish version 1 of a page-transcription specification that can faithfully record the source, remain practical to edit, and support three derived uses:
+Establish version 1 of a page-transcription specification that can faithfully record the source, remain practical to edit, and provide stable evidence for three linked uses:
 
 1. A page-oriented reading and verification view
-2. A continuous-text view
-3. Preliminary extraction of structured dictionary entries
+2. A continuous-text view generated through separate structural assertions
+3. Preliminary extraction of structured dictionary entries linked to, but not embedded in, Stage 1
 
 ## Milestones
 

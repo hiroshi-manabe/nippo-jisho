@@ -28,8 +28,10 @@ Produce a faithful, citable transcription of the complete original text, with ev
 - Import useful existing transcriptions when licensing and provenance are clear.
 - Verify imported or automatically recognized text directly against the scans.
 - Preserve original spelling, romanization, abbreviations, punctuation, and typographical distinctions according to documented conventions.
+- Preserve observable physical evidence needed for later interpretation, including line and column order, visible placement marks, indentation, and exceptional text placement where relevant.
 - Record illegible, damaged, and uncertain readings explicitly.
 - Retain page furniture such as headings, catchwords, and continuation markers when it assists reconstruction of the text.
+- Defer entry boundaries, logical reassignment of displaced text, and other lexical interpretations to Stage 2 rather than embedding them in the diplomatic text.
 
 ### Principal outputs
 
@@ -56,8 +58,10 @@ Transform the page-oriented transcription into entry-oriented, machine-readable 
 ### Work included
 
 - Identify entry boundaries and continuations across columns or pages.
+- Infer logical reading order for displaced material from the preserved marks, position, syntax, and context in Stage 1.
 - Separate headwords, inflectional forms, grammatical labels, Portuguese definitions, Japanese examples, usage labels, dialect information, and cross-references.
 - Preserve the order and wording of the diplomatic transcription alongside the structured representation.
+- Link every structural assertion back to stable Stage 1 transcription units instead of maintaining a separately corrected copy of their text.
 - Give each entry a stable identifier.
 - Record editorial decisions where boundaries or field assignments are uncertain.
 - Validate the resulting data for consistency and completeness.
