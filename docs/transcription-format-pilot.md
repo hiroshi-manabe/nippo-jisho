@@ -109,11 +109,12 @@ Version `0` identifies experimental files. They do not become production transcr
 1. **Inventory observed features.** Inspect the selected pages and record every feature the format may need to express.
 2. **Create independent prototypes.** Transcribe representative portions directly from the scans without consulting Wikisource and without prematurely designing a comprehensive markup language.
 3. **Exercise difficult cases.** Test continuations, repeated furniture, catchwords, uncertainty, abbreviations, and line division.
-4. **Freeze the independent drafts.** Record provenance and prevent later comparison from silently changing the initial readings.
-5. **Generate alternative views.** Confirm that a page-oriented view, continuous text, and preliminary entry references can be derived without maintaining conflicting copies.
-6. **Compare with Wikisource.** Only after freezing the drafts, compare the same pages with Wikisource and classify every meaningful difference before checking it against the scan.
-7. **Revise and repeat.** Apply the revised format to several difficult pages again rather than judging it only on earlier examples.
-8. **Specify and migrate.** Document version 1 and either convert or discard version 0 experiments explicitly.
+4. **Record working observations.** Preserve potentially reusable discoveries with page evidence and a provisional status rather than turning a single example directly into a rule.
+5. **Freeze the independent drafts.** Record provenance and prevent later comparison from silently changing the initial readings.
+6. **Generate alternative views.** Confirm that a page-oriented view, continuous text, and preliminary entry references can be derived without maintaining conflicting copies.
+7. **Compare with Wikisource.** Only after freezing the drafts, compare the same pages with Wikisource and classify every meaningful difference before checking it against the scan.
+8. **Revise and repeat.** Apply the revised format to several difficult pages again rather than judging it only on earlier examples.
+9. **Specify and migrate.** Document version 1 and either convert or discard version 0 experiments explicitly.
 
 ## Wikisource evaluation
 
@@ -138,6 +139,7 @@ The pilot should produce:
 - a representative page list with selection reasons;
 - a catalogue of observed textual and physical features;
 - experimental page transcriptions marked as format version 0;
+- a provisional register of reusable working observations;
 - examples of the three derived views;
 - a comparison of direct and Wikisource-assisted transcription;
 - a list of unresolved or deliberately unsupported cases;

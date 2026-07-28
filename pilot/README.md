@@ -10,7 +10,9 @@ The drafts are now frozen for the later comparison step. Any comparison with Wik
 
 The circumstances and limitations of the first pass are recorded in the [Independent Draft Log](draft-log.md).
 
-Pre-comparison corrections found by later direct inspection are kept outside the frozen files. The first complete record is the [bnf-f0248 Second Visual Pass](second-pass/bnf-f0248.md), which includes its timing, tile coverage, proposed corrections, and unresolved case.
+Pre-comparison corrections found by later direct inspection are kept outside the frozen files. The first complete record is the [bnf-f0248 Second Visual Pass](second-pass/bnf-f0248.md), which includes its timing, tile coverage, proposed corrections, and layout findings.
+
+Potentially reusable discoveries are collected in [Working Editorial Observations](working-observations.md). These remain provisional until further page evidence confirms them; adopted conventions will later move into the versioned transcription specification.
 
 One qualification applies: the opening dictionary page, `bnf-f0013`, had already been viewed together with its Wikisource transcription earlier in the project discussion. It is therefore useful for the page-feature survey but is excluded from the blinded transcription comparison.
 
