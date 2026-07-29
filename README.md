@@ -25,7 +25,7 @@ The current high-resolution reading experiment is described in [Tiled Visual Rev
 
 The adopted [Level 1 page-transcription format](docs/page-transcription-format-v1-candidate.md) and its [six-page corpus](pilot/format-v1-trial/README.md) now cover 526 physical lines. The [compact Level 1 Markdown format](docs/level1-markdown-candidate.md) is the human-readable authoring form and regenerates the validated machine representation. Adoption evidence and timing are recorded in the [f249–f250 production simulation](pilot/production-simulation/f0249-f0250.md).
 
-The first [human column-review interface](pilot/human-review/README.md) presents `f249` and `f250` as scan-and-transcription pairs and records review separately for both columns and page furniture.
+The [dictionary-wide human review interface](pilot/human-review/README.md) navigates all 651 acquired Gallica leaves, marks scan-only pages as unprocessed, and presents existing Level 1 pages as scan-and-transcription pairs. Human review is recorded separately for both columns and page furniture.
 
 Source-specific orthographic patterns, confusable type, and safeguards against expectation-driven correction are collected in the [Provisional Transcription Reading Guide](docs/transcription-reading-guide.md).
 

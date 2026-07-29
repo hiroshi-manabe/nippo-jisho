@@ -36,11 +36,11 @@ A follow-up [contextual-review experiment](pilot/contextual-review/f0248-f0643.m
 
 The decisive [f249–f250 production simulation](pilot/production-simulation/f0249-f0250.md) added 196 physical lines without requiring new syntax. Measured pass time was 10 minutes for two pages, but a completion audit and later reader review found additional errors, so this is not yet a final-quality rate. Sixteen initial readings were corrected while contextually odd but visibly printed forms were preserved. The post-simulation corrections from `vgogu` to printed `vgoqu` and from `inacu` to `macu` demonstrate that the Japanese morphology and bilingual-context passes must actively test even visually plausible forms. Cross-page catchwords and a second displaced-text example also remained auditable.
 
-A generated [human column-review prototype](pilot/human-review/README.md) now covers `f249` and `f250`. It presents a high-resolution scan beside rendered or literal Level 1 Markdown and divides each page into column 1, column 2, and page-furniture checkpoints. All six units begin as `pending`. The project chat is the intentionally simple correction interface: a reviewer supplies the line ID and proposed reading, the evidence is discussed, and only the canonical Markdown is changed. Corrections reopen only the affected unit; a page becomes `human_checked` after all three units carry reviewer provenance.
+A generated [dictionary-wide human review interface](pilot/human-review/README.md) now covers all 651 acquired leaves. The six Level 1 pages present a high-resolution scan beside rendered or literal transcription; the other 645 leaves retain immediate scan access and an explicit `unprocessed` state. Previous/next controls, direct leaf entry, stable page-and-column links, and reloadable generated data allow transcription and human checking to proceed asynchronously. All 18 human-review units on the six transcribed pages begin as `pending`. Each physical line can copy its stable reference and current text into the project chat, which remains the intentionally simple correction interface. Corrections reopen only the affected unit; a page becomes `human_checked` after both columns and page furniture carry reviewer provenance.
 
 ## Current objective
 
-Validate the human column-review loop on `f249` and `f250`, then prepare the first sequential Level 1 production batch. The immediate objective is repeatable quality control supporting:
+Validate the human column-review loop on the existing Level 1 pages, then prepare the first sequential Level 1 production batch. The immediate objective is repeatable quality control supporting:
 
 1. A page-oriented reading and verification view
 2. Efficient source-faithful editing in physical order
@@ -59,13 +59,13 @@ Validate the human column-review loop on `f249` and `f250`, then prepare the fir
 - [x] Test generation of page-oriented, continuous-text, and entry-oriented views.
 - [x] Document unresolved cases and format limitations.
 - [x] Publish version 1 of the page-transcription specification.
-- [x] Generate a side-by-side human column-review prototype.
+- [x] Generate a dictionary-wide asynchronous human-review interface.
 - [ ] Decide the initial transcription provenance and licensing policy.
 
 ## Production progress
 
-The adoption corpus contains six complete pages and 526 physical lines. `f249` and `f250` are the first records to use the production `scan_confirmed` status and now have six pending human-review units. The corpus remains an adoption and workflow baseline rather than the first declared sequential release batch. Production tracking will begin with that batch.
+The adoption corpus contains six complete pages and 526 physical lines. All six pages now have pending column 1, column 2, and page-furniture review units; `f249` and `f250` remain the first records to use the production `scan_confirmed` status. The other 645 acquired leaves appear as `unprocessed` in the review UI. The corpus remains an adoption and workflow baseline rather than the first declared sequential release batch.
 
 ## Next phase
 
-Complete and evaluate the six human-review units, adjust the interface only where actual use requires it, and then define the first bounded sequential Level 1 batch. A smaller end-to-end pilot will separately test the entry schema, Japanese restoration, translation, and public-edition requirements without delaying publishable Level 1 progress.
+Complete and evaluate human review on the existing Level 1 pages, adjust the interface only where actual use requires it, and then begin the first bounded sequential Level 1 batch. Newly generated pages can appear in the same corpus UI while earlier pages are still being checked. A smaller end-to-end pilot will separately test the entry schema, Japanese restoration, translation, and public-edition requirements without delaying publishable Level 1 progress.

@@ -30,7 +30,7 @@ The six complete page records contain 526 physical lines. Exact source-image SHA
 - [`../../docs/level1-markdown-candidate.md`](../../docs/level1-markdown-candidate.md) documents the compact version 1 authoring syntax.
 - [`../../scripts/compile_level1_markdown.py`](../../scripts/compile_level1_markdown.py) validates and compiles the human-readable sources.
 - [`../../scripts/render_format_trial.py`](../../scripts/render_format_trial.py) validates the records and regenerates the views.
-- [`../human-review/README.md`](../human-review/README.md) documents the generated side-by-side human checkpoint for `f249` and `f250`.
+- [`../human-review/README.md`](../human-review/README.md) documents the dictionary-wide generated review shell and the side-by-side checkpoint for all six Level 1 pages.
 
 Run from the repository root:
 
