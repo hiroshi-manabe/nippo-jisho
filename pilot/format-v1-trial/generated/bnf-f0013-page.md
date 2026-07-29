@@ -81,7 +81,7 @@ A repeated ornamental band is printed above the title; it contains no lexical te
 | `c2-l019` | &emsp;*concertado, & impetuoſo, &c. ¶* Ne- |  |
 | `c2-l020` | &emsp;zumiga abaruru *Andarẽ os ratos ſal-* |  |
 | `c2-l021` | &emsp;*tando, & correndo. ¶* Xixiga abaruru. |  |
-| `c2-l022` | &emsp;*Viuem os porcos de mato liuremente aos cam-* |  |
+| `c2-l022` | &emsp;*Virem os porcos de mato liuremente aos cam-* |  |
 | `c2-l023` | &emsp;*pos, & ſementeiras, & danificalas.* |  |
 | `c2-l024` | Abaremono. *Homem deſordenado, mal cria-* |  |
 | `c2-l025` | &emsp;*do, de ruins cuſtumes, &c.* |  |
