@@ -25,7 +25,7 @@ A repeated ornamental band is printed above the title; it contains no lexical te
 | `c1-l002` | &emsp;*Syllabas do alfabeto Iaponi=* |  |
 | `c1-l003` | &emsp;*co q̃ começa,* I, RO. FA, |  |
 | `c1-l004` | &emsp;*¶ Item,* A, *primeira das* |  |
-| `c1-l005` | &emsp;*cinco vogaes de Iapão, q̃ são* |  |
+| `c1-l005` | &emsp;*cinco vogaeſ de Iapão, q̃ são* |  |
 | `c1-l006` | &emsp;A, I, V, YE, VO. |  |
 | `c1-l007` | Aa. *Interieição de dor, ou triſteza. ¶ Vt,* |  |
 | `c1-l008` | &emsp;Aa canaxij cana. *O couſa triſte ¶ Itẽ,* |  |
