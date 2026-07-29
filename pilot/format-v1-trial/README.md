@@ -1,10 +1,10 @@
-# Candidate Format Version 1 Trial
+# Level 1 Format Version 1 Corpus
 
 ## Result
 
-The trial successfully represents four complete pages in a compact human-readable Level 1 authoring format. The compiler validates 330 physical lines and regenerates the machine representation and auditable page views. Seven structural assertions and eight selected reading sequences remain as a secondary compatibility check, not the current design focus.
+The corpus represents six complete pages in the adopted compact human-readable Level 1 authoring format. The compiler validates 526 physical lines and regenerates the machine representation and auditable page views. Seven structural assertions and eight selected reading sequences remain as a secondary compatibility check, not the current design focus.
 
-This is a successful implementation trial, not yet adoption of format version 1. Compact Markdown has replaced JSON as the candidate authoring form; JSON is generated for validation and interchange. A genuinely unresolved reading has not yet exercised the uncertainty field.
+Format version 1 was adopted after the [timed f249–f250 production simulation](../production-simulation/f0249-f0250.md) required no new syntax. Compact Markdown is the authoring form; JSON is generated for validation and interchange. A genuinely unresolved reading has not yet exercised uncertainty notation, which will be added only in a compatible evidence-driven revision.
 
 ## Scope
 
@@ -13,9 +13,11 @@ This is a successful implementation trial, not yet adoption of format version 1.
 | `bnf-f0013` | Complete dictionary text and textual furniture | Opening title and initial, mixed typeface, physical lines, fold-crossed `vobitataxiya`, signature, catchword |
 | `bnf-f0014` | Complete dictionary text and textual furniture | Cross-page and cross-column continuation, `aburamono`, physical word division, source spacing and capitalization, catchword |
 | `bnf-f0248` | Complete dictionary text and textual furniture | Caron/circumflex contrast, displaced `(grande.`, identical running and internal headings, `Gǔcon`, catchword |
+| `bnf-f0249` | Complete dictionary text and textual furniture | Fresh-page production timing, `f248` catchword continuation, printed page number and signature, displaced `(o homem.` |
+| `bnf-f0250` | Complete dictionary text and textual furniture | Consecutive-page production timing, catchword continuation and confirmation against `f251`, contextual review yield |
 | `bnf-f0643` | Complete dictionary text and textual furniture | Circumflex, caron, and grave accent examples; ownership stamp, printed page number, terminus, closing ornament |
 
-The four complete page records contain 330 physical text lines. Exact source-image SHA-256 values are stored in each Level 1 page record.
+The six complete page records contain 526 physical lines. Exact source-image SHA-256 values are stored in each Level 1 page record.
 
 ## Files
 
@@ -24,8 +26,8 @@ The four complete page records contain 330 physical text lines. Exact source-ima
 - `level2/selected-structure.json` is a secondary compatibility fixture, not the current format-design target.
 - `generated/*-page.md` contains regenerated page-oriented verification views.
 - `generated/selected-reading-views.md` contains regenerated logical excerpts.
-- [`../../docs/page-transcription-format-v1-candidate.md`](../../docs/page-transcription-format-v1-candidate.md) documents the candidate format.
-- [`../../docs/level1-markdown-candidate.md`](../../docs/level1-markdown-candidate.md) documents the compact authoring syntax.
+- [`../../docs/page-transcription-format-v1-candidate.md`](../../docs/page-transcription-format-v1-candidate.md) documents the adopted format.
+- [`../../docs/level1-markdown-candidate.md`](../../docs/level1-markdown-candidate.md) documents the compact version 1 authoring syntax.
 - [`../../scripts/compile_level1_markdown.py`](../../scripts/compile_level1_markdown.py) validates and compiles the human-readable sources.
 - [`../../scripts/render_format_trial.py`](../../scripts/render_format_trial.py) validates the records and regenerates the views.
 
@@ -45,15 +47,18 @@ python3 -m unittest discover -s tests -v
 2. Quarter-column views supplied layout and context.
 3. Overlapping sixth-column views supplied the primary line-by-line reading surface.
 4. Targeted enlargements were used for locally difficult spans regardless of the default tile size.
-5. A separate verification pass checked line coverage, typeface changes, punctuation, diacritics, and expectation-driven normalization.
-6. NINJAL headword data was consulted only after the visual record existed, as a coverage and boundary check.
-7. Generated views and all source references were validated automatically.
+5. Separate Japanese/romanization and Portuguese-context passes flagged suspicious readings without changing the source.
+6. A final complete scan pass adjudicated every flag and checked line coverage, typeface changes, punctuation, diacritics, and expectation-driven normalization.
+7. NINJAL headword data was consulted only after the visual record existed, as a coverage and suspicious-form check.
+8. Generated views and all source references were validated automatically.
 
 The older version-0 files remain frozen and were not rewritten. They were useful as error-history and coverage prompts, not as text to convert mechanically.
 
 ## Headword coverage check
 
 NINJAL version 202510 expects 16 source-order records on `f13` (`001a01`–`001b07`), 31 on `f14` (`001c01`–`001d18`), 36 on `f248` (`122c01`–`122d18`), and 29 on `f643` (`330a01`–`330b15`). Every expected record has a corresponding visible form in the complete Level 1 page records; the post-checkpoint comparison found no omitted entry candidate.
+
+The production simulation adds all 43 expected records on `f249` (`123a01`–`123b20`) and all 43 on `f250` (`123c01`–`123d20`). NINJAL was opened only after the independent visual checkpoint. It exposed suspicious forms such as draft `Gunauaqi`, but the scan independently decided every correction and disagreement, including preservation of printed `Guxer` where the headword row gives `Guxet`.
 
 This agreement concerns coverage, not diplomatic identity. The Level 1 record retains differences such as source `Abarabone` without an immediately following period and lowercase `aburamono`, while the external headword data supplies normalized strings. `Abunaſa` and `Abunǒ` are also preserved as visible subordinate forms even though they are not separate NINJAL records.
 
@@ -67,10 +72,10 @@ The external page displayed neighboring text as unavoidable context. No neighbor
 
 ### Successful parts
 
-- All four complete pages can be read directly as Markdown while compiling back to the complete 330-line machine representation.
-- The four authoring files occupy 467 lines and 19,096 bytes, compared with 4,383 lines and 98,953 bytes for the generated pretty-printed JSON.
+- All six complete pages can be read directly as Markdown while compiling back to the complete 526-line machine representation.
+- The six authoring files occupy 724 lines and 29,594 bytes, compared with 6,926 lines and 155,958 bytes for the generated pretty-printed JSON.
 - Ordinary physical lines require only a stable ID and their visible text; Markdown emphasis records typeface without explicit run objects.
-- Only `(grande.` needs named sub-line spans in the current sample, so exceptional machinery remains exceptional.
+- Only `(grande.` and `(o homem.` need named sub-line spans in the current sample, so exceptional machinery remains exceptional.
 - Stable physical-line identifiers provide adequate targets for later structure.
 - Typeface runs preserve evidence without labelling a span as a headword or definition at Level 1.
 - Relative indentation and `far-right` placement preserve the tested layout distinctions without pixel coordinates.
@@ -82,10 +87,10 @@ The external page displayed neighboring text as unavoidable context. No neighbor
 
 ### Costs and limitations
 
-- The compact syntax is project-specific and needs continued editing experience before adoption, although its compiler is small and dependency-free.
+- The compact syntax is project-specific, although its compiler is small and dependency-free; production evidence must continue to drive compatible revisions.
 - Literal asterisks and the literal delimiter ` || ` have not occurred in the sample; escaping must be specified if the wider corpus contains them.
 - Relative indentation is sufficient for the tested pages but is not a substitute for the scan's exact geometry.
-- The trial contains locally damaged text resolved through enlargement and context, but no reading that remains materially uncertain. The eventual lightweight uncertainty syntax therefore still needs one real stress case.
+- The corpus contains locally damaged text resolved through enlargement and context, but no reading that remains materially uncertain. Lightweight uncertainty notation therefore still needs one real stress case.
 - Level 2 contains only the assertions and reading sequences needed to check that Level 1 retained necessary evidence. It is deliberately not a complete structural encoding of the four pages.
 - Exact variable compositor spacing is not measured. Ordinary word separation is preserved, while irregular visual width remains recoverable from the scan.
 

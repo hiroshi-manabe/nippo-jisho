@@ -22,13 +22,15 @@ The comparison's reusable error patterns, together with later research on Jesuit
 
 One qualification applies: the opening dictionary page, `bnf-f0013`, had already been viewed together with its Wikisource transcription earlier in the project discussion. It is therefore useful for the page-feature survey but is excluded from the blinded transcription comparison.
 
-## Candidate-format trial
+## Level 1 format corpus
 
-The completed [format version 1 trial](format-v1-trial/README.md) is a new implementation experiment, not a rewrite of the frozen version-0 checkpoint. It contains complete physical-order records for `bnf-f0013`, `bnf-f0014`, `bnf-f0248`, and `bnf-f0643`, separate structural assertions, and regenerated page and logical reading views.
+The completed [format version 1 corpus](format-v1-trial/README.md) is not a rewrite of the frozen version-0 checkpoint. It contains complete physical-order records for `bnf-f0013`, `bnf-f0014`, `bnf-f0248`, `bnf-f0249`, `bnf-f0250`, and `bnf-f0643`, separate structural assertions, and regenerated page and logical reading views.
 
-The trial validates 330 physical lines in a [compact human-readable Level 1 form](../docs/level1-markdown-candidate.md), then regenerates the machine representation and page views. Seven structural assertions and eight reading sequences remain as a secondary information-loss check rather than the project’s present design focus. The remaining Level 1 questions are recorded in the trial report and candidate specification.
+The corpus validates 526 physical lines in the adopted [compact human-readable Level 1 form](../docs/level1-markdown-candidate.md), then regenerates the machine representation and page views. Seven structural assertions and eight reading sequences remain as a secondary information-loss check rather than the project’s present design focus.
 
 A subsequent [contextual review of `f0248` and `f0643`](contextual-review/f0248-f0643.md) tests separate Japanese/romanization and Portuguese passes followed by scan confirmation. It finds two residual corrections and rejects five plausible but unprinted emendations.
+
+The [timed `f0249`–`f0250` production simulation](production-simulation/f0249-f0250.md) applies the full workflow to unfamiliar consecutive pages, adds 196 lines, and supplies the evidence for adopting version 1.
 
 ## Draft coverage
 

@@ -1,10 +1,10 @@
-# Compact Level 1 Markdown Candidate
+# Level 1 Markdown Format, Version 1
 
 ## Status and priority
 
-This is the human-authoring candidate for Level 1 diplomatic transcription. It is implemented across all four reviewed pilot pages but is not yet the adopted production format.
+This is the adopted human-authoring format for Level 1 diplomatic transcription. Adoption follows a six-page, 526-line corpus test and a timed two-page production simulation on previously untranscribed consecutive pages.
 
-The immediate design priority is faithful, readable, and efficient Level 1 work. Later structural layers are a secondary compatibility concern: Level 1 retains stable references and does not discard visible evidence, but ordinary transcription is not made more complex merely to anticipate a complete Level 2 schema.
+The design priority is faithful, readable, and efficient Level 1 work. Later structural layers are a secondary compatibility concern: Level 1 retains stable references and does not discard visible evidence, but ordinary transcription is not made more complex merely to anticipate a complete Level 2 schema.
 
 Level 1 may be read with the full help of historical Japanese, Jesuit romanization, and Portuguese context. Those perspectives belong in later review passes and can identify a likely visual error, but every resulting correction must be confirmed against the scan. What remains outside Level 1 is the added analysis—morpheme boundaries, normalized Japanese, grammatical interpretation, and translation—not the knowledge used to read the type.
 
@@ -37,7 +37,7 @@ scope: full_dictionary_text_and_furniture
 origin: direct_from_scan
 wikisource: false
 lineation: checked
-status: trial_reviewed
+status: scan_confirmed
 ---
 
 ## column-1 [column] Column 1
@@ -84,11 +84,17 @@ The compact form retains:
 
 It does not encode entry boundaries, normalize abbreviations, join divided words, reassign displaced text, or translate the source.
 
-The `status` field records review maturity. The current `trial_reviewed` value is deliberately broad; before production it will be replaced or supplemented by states that distinguish initial visual transcription, contextual review, and final scan confirmation. The review procedure is maintained in the [Provisional Transcription Reading Guide](transcription-reading-guide.md#review-passes).
+The `status` field records review maturity:
+
+- `visual_draft`: the initial scan-derived transcription and physical lineation exist;
+- `context_reviewed`: Japanese/romanization and Portuguese-context passes are complete;
+- `scan_confirmed`: all flags have been adjudicated and a final complete scan sweep is complete.
+
+The legacy `trial_reviewed` value is accepted only for existing pilot pages whose earlier history does not map cleanly onto these production states. New work must use the production vocabulary. The procedure is maintained in the [Provisional Transcription Reading Guide](transcription-reading-guide.md#review-passes).
 
 ## Exceptional spans and later compatibility
 
-Named spans are optional and should remain rare. The four complete pages need them only for the physical `(grande.` case:
+Named spans are optional and should remain rare. The six-page adoption corpus needs them only for the physical `(grande.` and `(o homem.` cases:
 
 ```markdown
 [c1-l037 >] *gũ ſenhor principal.* || {mark} *(* || {word}*grande.*
@@ -96,17 +102,23 @@ Named spans are optional and should remain rare. The four complete pages need th
 
 This preserves the mark and displaced word independently without asserting their meaning. The existing compatibility check can refer to `c1-l037@mark` or `c1-l037@word`, but such later use is not the reason ordinary lines carry IDs.
 
+The production simulation reused the same syntax without modification:
+
+```markdown
+[c2-l028 >] *guerra.* || {mark} *(* || {word}*o homem.*
+```
+
 The working rule is: preserve what a later layer may need, but postpone deciding what that layer will mean.
 
 ## Deliberate limits
 
 - Exact compositor spacing remains available in the scan; the transcription records word separation, indentation level, and exceptional placement rather than pixel geometry.
 - Literal asterisks and the literal delimiter ` || ` have not yet occurred in the sample. An escaping convention must be defined if the wider corpus contains them.
-- The current files contain no reading that remains materially unresolved after enlargement and contextual review. A lightweight uncertainty notation should be added only when a real case requires it.
-- The compiler currently supports the indentation levels and placement patterns observed in the four-page sample. New syntax should be added from evidence, not pre-emptively.
+- The current files contain no reading that remains materially unresolved after enlargement and contextual review. A lightweight uncertainty notation will be added in a compatible revision only when a real case requires it.
+- The compiler supports the indentation and placement patterns observed in the six-page adoption corpus. New syntax should be added from evidence, not pre-emptively.
 
 ## Evaluation criterion
 
-The candidate succeeds if editors can read and correct the Markdown directly, regenerate identical validated page data, and preserve all evidence needed for later re-evaluation. Full entry extraction and continuous-text modelling are not current adoption requirements; only a small compatibility check is retained to guard against obvious information loss.
+The format was adopted because editors can read and correct the Markdown directly, regenerate identical validated page data, and preserve all evidence needed for later re-evaluation. Full entry extraction and continuous-text modelling remain outside Level 1 requirements; only a small compatibility check is retained to guard against obvious information loss.
 
-Across the current four-page sample, the human-authored files occupy 467 lines and 19,096 bytes. Their generated pretty-printed JSON occupies 4,383 lines and 98,953 bytes. Size alone is not an adoption criterion, but the reduction reflects how much repetitive machine syntax editors no longer have to navigate.
+Across the six-page adoption corpus, the human-authored files occupy 724 lines and 29,594 bytes. Their generated pretty-printed JSON occupies 6,926 lines and 155,958 bytes. Size alone is not an adoption criterion, but the reduction reflects how much repetitive machine syntax editors no longer have to navigate. The decisive production evidence is recorded in the [f249–f250 simulation](../pilot/production-simulation/f0249-f0250.md).

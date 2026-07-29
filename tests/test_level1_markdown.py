@@ -31,15 +31,15 @@ class Level1MarkdownTests(unittest.TestCase):
             check=False,
         )
         self.assertEqual(result.returncode, 0, result.stderr)
-        self.assertIn("Validated 4 compact Level 1 page records", result.stdout)
+        self.assertIn("Validated 6 compact Level 1 page records", result.stdout)
 
-    def test_all_source_pages_parse_and_retain_330_lines(self):
+    def test_all_source_pages_parse_and_retain_526_lines(self):
         module = load_module()
         pages = [module.parse_markdown(path) for path in sorted(SOURCE.glob("*.md"))]
-        self.assertEqual(len(pages), 4)
+        self.assertEqual(len(pages), 6)
         self.assertEqual(
             sum(len(zone.get("lines", [])) for page in pages for zone in page["zones"]),
-            330,
+            526,
         )
         for page in pages:
             committed = json.loads((JSON_DIR / f"{page['id']}.json").read_text(encoding="utf-8"))
@@ -65,6 +65,20 @@ class Level1MarkdownTests(unittest.TestCase):
         self.assertIn("Couſas deſiguaes: vſaſe em", source)
         self.assertNotIn("bocezinha", source)
         self.assertNotIn("deſiguais", source)
+
+    def test_production_simulation_pages_are_scan_confirmed(self):
+        f249 = (SOURCE / "bnf-f0249.md").read_text(encoding="utf-8")
+        f250 = (SOURCE / "bnf-f0250.md").read_text(encoding="utf-8")
+        self.assertIn("status: scan_confirmed", f249)
+        self.assertIn("Gunameqi, u, eita.", f249)
+        self.assertIn("diuiſa", f249)
+        self.assertIn("adiuiſa", f249)
+        self.assertIn("status: scan_confirmed", f250)
+        self.assertIn("Gũxo.", f250)
+        self.assertIn("Gururigururito.", f250)
+        self.assertIn("enrrejeitados", f250)
+        self.assertNotIn("enrejeitados", f250)
+        self.assertIn("[catch-l001 >>] Gǔyô.", f250)
 
 
 if __name__ == "__main__":

@@ -32,7 +32,7 @@ Production review should separate four perspectives so that expectation does not
 
 The second and third passes diagnose possible errors; they do not normalize the text. For example, Japanese context exposes the initial `bodaino tçutomemo naſu` as suspicious, and the scan confirms `bodaino tçutomeuo naſu`. Level 1 records that confirmed printed sequence. Dividing it as `tçutome + uo`, restoring Japanese script, explaining the particle, and translating it belong to later stages.
 
-Page status should distinguish at least an initial visual draft from a contextually reviewed and scan-confirmed transcription. The pilot's broad `trial_reviewed` label predates this workflow and must not be interpreted as a permanent claim that no further contextual correction is possible. A production status vocabulary will be fixed before sequential transcription begins.
+Page status uses `visual_draft` after the initial visual pass, `context_reviewed` after both contextual passes, and `scan_confirmed` after every flag and the complete page have been checked again against the scan. The pilot's broad `trial_reviewed` label predates this workflow and must not be assigned to new work or interpreted as a permanent claim that no further correction is possible.
 
 ## Practical threshold for uncertainty
 

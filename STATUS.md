@@ -4,9 +4,9 @@ Last updated: 2026-07-29
 
 ## Current phase
 
-**Transcription-format pilot — compact Level 1 evaluation**
+**Level 1 format adopted — production preparation**
 
-The project has surveyed representative pages and frozen the first format-version-0 transcriptions made directly from the scans. Wikisource has not been consulted for these drafts. This is a pre-production activity supporting Stage 1 of the [Four-Stage Project Roadmap](docs/four-stage-roadmap.md), not yet sequential transcription of the dictionary.
+The transcription-format pilot is complete. The project has adopted Level 1 Markdown format version 1 after a six-page corpus test and a timed two-page simulation on previously untranscribed consecutive pages. This begins production preparation for Stage 1 of the [Four-Stage Project Roadmap](docs/four-stage-roadmap.md); broad sequential transcription has not yet begun.
 
 The detailed purpose, method, and completion criteria are defined in the [Transcription-Format Pilot](docs/transcription-format-pilot.md).
 
@@ -26,17 +26,19 @@ The uncertainty policy is intentionally lightweight. Context may support an ordi
 
 Targeted enlargement is nevertheless a routine review step for any locally difficult span, regardless of the standard tile size. Reviewers return to the surrounding context after enlargement; only doubt that survives both views is marked in the transcription.
 
-The first implemented [candidate page-transcription format](docs/page-transcription-format-v1-candidate.md) has now been exercised in a [four-page trial](pilot/format-v1-trial/README.md). Complete physical-order records for `bnf-f0013`, `bnf-f0014`, `bnf-f0248`, and `bnf-f0643` comprise 330 physical lines. They have been converted into a [compact Level 1 Markdown authoring form](docs/level1-markdown-candidate.md) that regenerates the validated JSON and page views deterministically.
+The adopted [page-transcription format](docs/page-transcription-format-v1-candidate.md) has now been exercised in a [six-page corpus](pilot/format-v1-trial/README.md). Complete physical-order records for `bnf-f0013`, `bnf-f0014`, `bnf-f0248`, `bnf-f0249`, `bnf-f0250`, and `bnf-f0643` comprise 526 physical lines. The [Level 1 Markdown authoring form](docs/level1-markdown-candidate.md) regenerates the validated JSON and page views deterministically.
 
-The compact files preserve stable physical-line references, typeface, relative indentation, page furniture, and exceptional placement while remaining directly readable. JSON is now treated as generated machine interchange rather than the hand-authoring format. A small structural test remains only to confirm that Level 1 has not discarded necessary evidence; designing Level 2 and later layers is a secondary concern. The lightweight uncertainty representation has still not been tested on a genuinely unresolved reading.
+The compact files preserve stable physical-line references, typeface, relative indentation, page furniture, and exceptional placement while remaining directly readable. JSON is generated machine interchange rather than a hand-authoring format. A small structural test remains only to confirm that Level 1 has not discarded necessary evidence; designing Level 2 and later layers is a secondary concern. Lightweight uncertainty notation has still not encountered a genuinely unresolved reading and will be added only when evidence requires it.
 
-Level 1 review is now explicitly contextual rather than linguistically blind. After the initial visual transcription, separate Japanese/romanization and Portuguese-context passes flag suspicious readings; each proposed correction is then confirmed against the scan. This procedure corrected `tçutomemo` to printed `tçutomeuo` on `f248`. Segmentation, normalization, grammatical analysis, and translation remain outside Level 1. Production metadata must distinguish the initial visual draft from contextual review and final scan confirmation.
+Level 1 review is explicitly contextual rather than linguistically blind. After the initial visual transcription, separate Japanese/romanization and Portuguese-context passes flag suspicious readings; each proposed correction is then confirmed against the scan. Segmentation, normalization, grammatical analysis, and translation remain outside Level 1. Production metadata uses `visual_draft`, `context_reviewed`, and `scan_confirmed` for these checkpoints.
 
 A follow-up [contextual-review experiment](pilot/contextual-review/f0248-f0643.md) completed both passes on `f248` and the less familiar `f643`. It found no additional correction on `f248` and two on `f643` (`bocetinha`, `deſiguaes`). Several linguistically attractive changes were rejected after scan confirmation, supporting the separation of diagnostic contextual review from source adjudication.
 
+The decisive [f249–f250 production simulation](pilot/production-simulation/f0249-f0250.md) added 196 physical lines without requiring new syntax. Measured pass time was 10 minutes for two pages, but a later completion audit found one additional repeated-letter error, so this is not yet a final-quality rate. Fourteen initial readings were corrected while contextually odd but visibly printed forms were preserved. Cross-page catchwords and a second displaced-text example also remained auditable.
+
 ## Current objective
 
-Evaluate the compact Markdown through direct reading, correction, and regeneration, and exercise the uncertainty mechanism on a genuinely unresolved source reading. The immediate objective is a practical Level 1 format supporting:
+Prepare the first sequential Level 1 production batch using the adopted format. The immediate objective is to establish production tracking, batch boundaries, and repeatable quality control supporting:
 
 1. A page-oriented reading and verification view
 2. Efficient source-faithful editing in physical order
@@ -54,13 +56,13 @@ Evaluate the compact Markdown through direct reading, correction, and regenerati
 - [x] Compare independent transcription with correction of available Wikisource text.
 - [x] Test generation of page-oriented, continuous-text, and entry-oriented views.
 - [x] Document unresolved cases and format limitations.
-- [ ] Publish version 1 of the page-transcription specification.
+- [x] Publish version 1 of the page-transcription specification.
 - [ ] Decide the initial transcription provenance and licensing policy.
 
 ## Production progress
 
-Production counts are intentionally not reported yet. Pilot transcriptions are experiments and must not be mistaken for reviewed Stage 1 coverage. Page and entry totals will be added after the source inventory and status model have been established.
+The adoption corpus contains six complete pages and 526 physical lines. `f249` and `f250` are the first records to use the production `scan_confirmed` status, but the corpus remains an adoption and workflow baseline rather than the first declared sequential release batch. Production tracking will begin with that batch.
 
 ## Next phase
 
-After the transcription format is stable, a smaller end-to-end pilot will test the entry schema, Japanese restoration, translation, and public-edition requirements. Broad Stage 1 production begins only after those foundational decisions are documented.
+Define and begin the first bounded sequential Level 1 batch, including its progress record and review checkpoints. A smaller end-to-end pilot will separately test the entry schema, Japanese restoration, translation, and public-edition requirements without delaying publishable Level 1 progress.

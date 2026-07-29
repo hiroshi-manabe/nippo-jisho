@@ -2,7 +2,7 @@
 
 ## Status
 
-This is the project’s **current phase**. It precedes production transcription and supports Stage 1 of the [Four-Stage Project Roadmap](four-stage-roadmap.md). The first implemented [version 1 candidate](page-transcription-format-v1-candidate.md) has completed a [four-page trial](../pilot/format-v1-trial/README.md) and is now being evaluated for adoption or revision.
+This pilot is **complete**. It preceded production transcription and supports Stage 1 of the [Four-Stage Project Roadmap](four-stage-roadmap.md). The [version 1 format](page-transcription-format-v1-candidate.md) was adopted after a six-page corpus test and a [timed two-page production simulation](../pilot/production-simulation/f0249-f0250.md).
 
 ## Purpose
 
@@ -84,7 +84,7 @@ Preserving evidence does not require exhaustive uncertainty metadata. The transc
 
 The separation between stages governs recorded information, not the editor's knowledge. After an initial visual pass, Level 1 review deliberately uses historical Japanese, the dictionary's romanization, and Portuguese context to find suspicious readings, followed by renewed scan inspection before any correction is accepted. Morphological segmentation, normalized Japanese, grammatical explanation, and translation are still deferred. The operational sequence is documented in the [Provisional Transcription Reading Guide](transcription-reading-guide.md#review-passes).
 
-The initial hypothesis was one UTF-8 Markdown file per scan page, with machine-readable metadata and explicitly labelled page zones. The first implementation used JSON to make stable references, mixed typeface runs, and validation explicit. Full-page use then confirmed that JSON was dependable but too verbose for routine human authoring. The current [compact Level 1 Markdown candidate](level1-markdown-candidate.md) therefore uses a deliberately small syntax and generates the validated JSON representation.
+The initial hypothesis was one UTF-8 Markdown file per scan page, with machine-readable metadata and explicitly labelled page zones. The first implementation used JSON to make stable references, mixed typeface runs, and validation explicit. Full-page use then confirmed that JSON was dependable but too verbose for routine human authoring. The adopted [Level 1 Markdown format](level1-markdown-candidate.md) therefore uses a deliberately small syntax and generates the validated JSON representation.
 
 An illustrative experiment might look like:
 
@@ -113,15 +113,15 @@ Abu-
 A
 ```
 
-Version `0` identifies the earlier experimental files. They do not become production transcription merely because they contain transcribed text. The implemented candidate and its generated views are documented separately in the [candidate specification](page-transcription-format-v1-candidate.md) and [trial report](../pilot/format-v1-trial/README.md).
+Version `0` identifies the earlier experimental files. They do not become production transcription merely because they contain transcribed text. The adopted format and its generated views are documented separately in the [version 1 specification](page-transcription-format-v1-candidate.md) and [trial report](../pilot/format-v1-trial/README.md).
 
-## First candidate-format trial result
+## Format trial and adoption result
 
-The trial encodes the complete dictionary text and textual furniture of `bnf-f0013`, `bnf-f0014`, `bnf-f0248`, and `bnf-f0643`. It validates 330 physical lines, seven independent structural assertions, and eight selected reading sequences.
+The corpus encodes the complete dictionary text and textual furniture of `bnf-f0013`, `bnf-f0014`, `bnf-f0248`, `bnf-f0249`, `bnf-f0250`, and `bnf-f0643`. It validates 526 physical lines, seven independent structural assertions, and eight selected reading sequences.
 
-The result confirms that physical order, typeface runs, relative indentation, catchwords, cross-column and cross-page continuations, printed word division, lowercase `aburamono`, displaced `(grande.`, later copy marks, and terminal furniture can remain auditable while separate references generate proposed logical views. NINJAL headword data found no omitted entry candidate on the four complete pages. One badly inked word was exceptionally checked against an exactly identified Wikisource revision only after direct review, then adjudicated again against the scan.
+The result confirms that physical order, typeface runs, relative indentation, catchwords, cross-column and cross-page continuations, printed word division, lowercase `aburamono`, displaced `(grande.` and `(o homem.`, later copy marks, and terminal furniture can remain auditable while separate references generate proposed logical views. NINJAL headword data found no omitted entry candidate on the six complete pages. One badly inked word was exceptionally checked against an exactly identified Wikisource revision only after direct review, then adjudicated again against the scan.
 
-The test does not yet justify adopting version 1. The compact Markdown authoring form must be evaluated through correction and review, and the optional uncertainty mechanism still needs a genuinely unresolved source example. Level 2 is now a secondary compatibility check only; it is not a current design target or a complete structural encoding of the trial pages.
+The unfamiliar consecutive-page simulation required no new syntax and produced deterministic round trips after all four review passes. Version 1 is therefore adopted. The optional uncertainty mechanism still awaits a genuinely unresolved source example and will be added only through an evidence-driven compatible revision. Level 2 remains a secondary compatibility check only; it is not a current design target or a complete structural encoding of the pages.
 
 ## Method
 

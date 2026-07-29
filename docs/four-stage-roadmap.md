@@ -158,7 +158,7 @@ A correction to a proposed Japanese spelling, for example, must not silently cha
 
 ## Pilot and execution order
 
-The project begins with a [Transcription-Format Pilot](transcription-format-pilot.md). Approximately 10–15 pages selected for varied physical and textual features will be used to establish version 1 of the page-transcription specification. This is the project’s current phase and precedes production transcription.
+The project began with a [Transcription-Format Pilot](transcription-format-pilot.md). A varied page corpus and an unfamiliar consecutive-page production simulation established version 1 of the page-transcription specification. That pilot is complete; the project is preparing the first bounded sequential Level 1 production batch.
 
 After that format has stabilized, an end-to-end pilot of approximately five representative pages will test the wider data model. The selection should include ordinary entries as well as difficult typography, cross-page continuations, grammatical information, examples, and at least one uncertain reading.
 

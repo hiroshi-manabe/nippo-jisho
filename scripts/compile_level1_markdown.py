@@ -32,6 +32,13 @@ REQUIRED_METADATA = {
     "status",
 }
 
+ALLOWED_STATUSES = {
+    "visual_draft",
+    "context_reviewed",
+    "scan_confirmed",
+    "trial_reviewed",
+}
+
 
 def fail(path: Path, line_number: int, message: str) -> Level1MarkdownError:
     return Level1MarkdownError(f"{path}:{line_number}: {message}")
@@ -140,6 +147,10 @@ def parse_markdown(path: Path) -> dict:
         raise Level1MarkdownError(f"{path}: invalid source SHA-256")
     if metadata["lineation"] != "checked":
         raise Level1MarkdownError(f"{path}: lineation must be 'checked'")
+    if metadata["status"] not in ALLOWED_STATUSES:
+        raise Level1MarkdownError(
+            f"{path}: unsupported review status {metadata['status']!r}"
+        )
 
     page = {
         "format": "nippo-level1-page",

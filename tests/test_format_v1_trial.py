@@ -29,7 +29,7 @@ class FormatV1TrialTests(unittest.TestCase):
             check=False,
         )
         self.assertEqual(result.returncode, 0, result.stderr)
-        self.assertIn("330 physical lines", result.stdout)
+        self.assertIn("526 physical lines", result.stdout)
 
     def test_generated_views_are_current(self):
         module = load_module()
@@ -98,7 +98,7 @@ class FormatV1TrialTests(unittest.TestCase):
         )
         self.assertIn("|  *(grande.* |", page_view)
 
-    def test_all_four_page_records_are_complete_and_reviewed(self):
+    def test_all_six_page_records_are_complete_and_reviewed(self):
         expected_corrections = {
             "bnf-f0248": [
                 "Goxǒuo taſucaru.",
@@ -134,6 +134,24 @@ class FormatV1TrialTests(unittest.TestCase):
         )
         self.assertTrue(any(zone["kind"] == "later_copy_mark" for zone in f643["zones"]))
         self.assertTrue(any(zone["kind"] == "terminus" for zone in f643["zones"]))
+
+        f249 = json.loads(
+            (TRIAL / "level1" / "bnf-f0249.json").read_text(encoding="utf-8")
+        )
+        f250 = json.loads(
+            (TRIAL / "level1" / "bnf-f0250.json").read_text(encoding="utf-8")
+        )
+        self.assertEqual(f249["review"]["status"], "scan_confirmed")
+        self.assertEqual(f250["review"]["status"], "scan_confirmed")
+        f249_lines = {
+            line["id"]: line
+            for zone in f249["zones"]
+            for line in zone.get("lines", [])
+        }
+        displaced = f249_lines["c2-l028"]["runs"]
+        self.assertEqual(displaced[1]["span_id"], "mark")
+        self.assertEqual(displaced[2]["span_id"], "word")
+        self.assertEqual(displaced[2]["text"], "o homem.")
 
     def test_contextually_confirmed_fold_reading_is_unmarked(self):
         f13 = json.loads(

@@ -1,8 +1,8 @@
-# Candidate Page-Transcription Format, Version 1
+# Page-Transcription Format, Version 1
 
 ## Status
 
-This is the implementation candidate exercised by the [format version 1 trial](../pilot/format-v1-trial/README.md). Its current human-authoring form is the [Compact Level 1 Markdown Candidate](level1-markdown-candidate.md). It is not yet the adopted production specification.
+This is the adopted Level 1 production specification, exercised by the [format version 1 corpus](../pilot/format-v1-trial/README.md) and the [timed f249–f250 production simulation](../pilot/production-simulation/f0249-f0250.md). Its human-authoring form is the [Level 1 Markdown Format](level1-markdown-candidate.md).
 
 ## Design boundary
 
@@ -68,7 +68,7 @@ Text is NFC-normalized Unicode. Long `ſ`, printed diacritics, capitalization, w
 
 A secure reading is transcribed normally even when context or enlargement helped establish it. Optional uncertainty is reserved for a reading that remains reasonably disputable after targeted enlargement and contextual review. The detailed representation will be finalized only after the trial encounters a genuinely unresolved example; the format does not require routine character-level confidence or damage metadata.
 
-Review state applies to a page, not to a separate textual layer. At minimum, production metadata must distinguish an initial visual draft from work that has received contextual review and final scan confirmation. The pilot value `trial_reviewed` is provisional and does not claim immunity from later correction.
+Review state applies to a page, not to a separate textual layer. Production metadata uses `visual_draft`, `context_reviewed`, and `scan_confirmed` for the successive workflow checkpoints. The legacy pilot value `trial_reviewed` does not claim immunity from later correction and must not be assigned to new work.
 
 ## Derived views
 
@@ -80,12 +80,14 @@ Selected logical sequences are retained only as a secondary information-loss che
 
 Join operations in Level 2 may preserve a boundary, insert a space, or remove a visible line-end hyphen while joining a divided word. These transformations affect only the derived view. They never rewrite the Level 1 source string.
 
-## Adoption test
+## Adoption evidence
 
-The candidate is suitable for adoption only if the trial confirms that:
+The trial and production simulation confirmed that:
 
 - complete pages can be entered and corrected without unreasonable friction;
 - physical order and exceptional placement remain auditable;
 - later structure can be expressed without duplicating source text;
 - page-oriented and logical views can be regenerated deterministically;
 - validation detects broken references, duplicate identifiers, invalid typefaces, and non-NFC text.
+
+The format is therefore adopted as version 1. Compatible revisions remain possible when production supplies evidence not present in the adoption corpus, particularly a materially unresolved reading or a literal Markdown delimiter.
