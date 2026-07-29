@@ -71,6 +71,8 @@ class Level1MarkdownTests(unittest.TestCase):
         f250 = (SOURCE / "bnf-f0250.md").read_text(encoding="utf-8")
         self.assertIn("status: scan_confirmed", f249)
         self.assertIn("Gunameqi, u, eita.", f249)
+        self.assertIn("Muragari vgoqu.", f249)
+        self.assertNotIn("Muragari vgogu.", f249)
         self.assertIn("diuiſa", f249)
         self.assertIn("adiuiſa", f249)
         self.assertIn("status: scan_confirmed", f250)

@@ -73,7 +73,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | Gundô. Muragari vgogu. *Mouerſe muita* |  |
+| `c2-l001` | Gundô. Muragari vgoqu. *Mouerſe muita* |  |
 | `c2-l002` | &emsp;*gente junta.* S. |  |
 | `c2-l003` | Gunen. Motomuru. *Alcançar, ou buſcar* |  |
 | `c2-l004` | &emsp;*com o deſejo.* |  |

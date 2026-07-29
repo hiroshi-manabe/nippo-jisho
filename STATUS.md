@@ -34,7 +34,7 @@ Level 1 review is explicitly contextual rather than linguistically blind. After 
 
 A follow-up [contextual-review experiment](pilot/contextual-review/f0248-f0643.md) completed both passes on `f248` and the less familiar `f643`. It found no additional correction on `f248` and two on `f643` (`bocetinha`, `deſiguaes`). Several linguistically attractive changes were rejected after scan confirmation, supporting the separation of diagnostic contextual review from source adjudication.
 
-The decisive [f249–f250 production simulation](pilot/production-simulation/f0249-f0250.md) added 196 physical lines without requiring new syntax. Measured pass time was 10 minutes for two pages, but a later completion audit found one additional repeated-letter error, so this is not yet a final-quality rate. Fourteen initial readings were corrected while contextually odd but visibly printed forms were preserved. Cross-page catchwords and a second displaced-text example also remained auditable.
+The decisive [f249–f250 production simulation](pilot/production-simulation/f0249-f0250.md) added 196 physical lines without requiring new syntax. Measured pass time was 10 minutes for two pages, but a completion audit and later reader review each found an additional error, so this is not yet a final-quality rate. Fifteen initial readings were corrected while contextually odd but visibly printed forms were preserved. The post-simulation correction from `vgogu` to printed `vgoqu` demonstrates that the Japanese morphology pass must actively test even visually plausible forms. Cross-page catchwords and a second displaced-text example also remained auditable.
 
 ## Current objective
 
