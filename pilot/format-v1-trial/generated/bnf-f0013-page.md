@@ -45,7 +45,7 @@ A repeated ornamental band is printed above the title; it contains no lexical te
 | `c1-l022` | &emsp;*onde tirão a rede do peixe.* |  |
 | `c1-l023` | Abaqemono. *Peſſoa indiſcreta, & deza-* |  |
 | `c1-l024` | &emsp;*tentada no fallar, &c.* |  |
-| `c1-l025` | Abaqi, u, aita. *Communmente ſe uſa no* |  |
+| `c1-l025` | Abaqi, u, aita. *Comummente ſe uſa no* |  |
 | `c1-l026` | &emsp;*negatiuo por não caber. ¶ Vt,* Cono nin |  |
 | `c1-l027` | &emsp;juga cono zaxiqini abacanu. *Eſta gen-* |  |
 | `c1-l028` | &emsp;*te não cabe neſte Zaxiqi. No preſente af-* |  |
