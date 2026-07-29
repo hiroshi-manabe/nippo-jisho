@@ -36,9 +36,11 @@ A follow-up [contextual-review experiment](pilot/contextual-review/f0248-f0643.m
 
 The decisive [f249–f250 production simulation](pilot/production-simulation/f0249-f0250.md) added 196 physical lines without requiring new syntax. Measured pass time was 10 minutes for two pages, but a completion audit and later reader review each found an additional error, so this is not yet a final-quality rate. Fifteen initial readings were corrected while contextually odd but visibly printed forms were preserved. The post-simulation correction from `vgogu` to printed `vgoqu` demonstrates that the Japanese morphology pass must actively test even visually plausible forms. Cross-page catchwords and a second displaced-text example also remained auditable.
 
+A generated [human column-review prototype](pilot/human-review/README.md) now covers `f249` and `f250`. It presents a high-resolution scan beside rendered or literal Level 1 Markdown and divides each page into column 1, column 2, and page-furniture checkpoints. All six units begin as `pending`. Corrections return to the canonical Markdown and reopen only the affected unit; a page becomes `human_checked` after all three units carry reviewer provenance.
+
 ## Current objective
 
-Prepare the first sequential Level 1 production batch using the adopted format. The immediate objective is to establish production tracking, batch boundaries, and repeatable quality control supporting:
+Validate the human column-review loop on `f249` and `f250`, then prepare the first sequential Level 1 production batch. The immediate objective is repeatable quality control supporting:
 
 1. A page-oriented reading and verification view
 2. Efficient source-faithful editing in physical order
@@ -57,12 +59,13 @@ Prepare the first sequential Level 1 production batch using the adopted format. 
 - [x] Test generation of page-oriented, continuous-text, and entry-oriented views.
 - [x] Document unresolved cases and format limitations.
 - [x] Publish version 1 of the page-transcription specification.
+- [x] Generate a side-by-side human column-review prototype.
 - [ ] Decide the initial transcription provenance and licensing policy.
 
 ## Production progress
 
-The adoption corpus contains six complete pages and 526 physical lines. `f249` and `f250` are the first records to use the production `scan_confirmed` status, but the corpus remains an adoption and workflow baseline rather than the first declared sequential release batch. Production tracking will begin with that batch.
+The adoption corpus contains six complete pages and 526 physical lines. `f249` and `f250` are the first records to use the production `scan_confirmed` status and now have six pending human-review units. The corpus remains an adoption and workflow baseline rather than the first declared sequential release batch. Production tracking will begin with that batch.
 
 ## Next phase
 
-Define and begin the first bounded sequential Level 1 batch, including its progress record and review checkpoints. A smaller end-to-end pilot will separately test the entry schema, Japanese restoration, translation, and public-edition requirements without delaying publishable Level 1 progress.
+Complete and evaluate the six human-review units, adjust the interface only where actual use requires it, and then define the first bounded sequential Level 1 batch. A smaller end-to-end pilot will separately test the entry schema, Japanese restoration, translation, and public-edition requirements without delaying publishable Level 1 progress.

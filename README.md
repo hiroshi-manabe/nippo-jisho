@@ -25,6 +25,8 @@ The current high-resolution reading experiment is described in [Tiled Visual Rev
 
 The adopted [Level 1 page-transcription format](docs/page-transcription-format-v1-candidate.md) and its [six-page corpus](pilot/format-v1-trial/README.md) now cover 526 physical lines. The [compact Level 1 Markdown format](docs/level1-markdown-candidate.md) is the human-readable authoring form and regenerates the validated machine representation. Adoption evidence and timing are recorded in the [f249–f250 production simulation](pilot/production-simulation/f0249-f0250.md).
 
+The first [human column-review interface](pilot/human-review/README.md) presents `f249` and `f250` as scan-and-transcription pairs and records review separately for both columns and page furniture.
+
 Source-specific orthographic patterns, confusable type, and safeguards against expectation-driven correction are collected in the [Provisional Transcription Reading Guide](docs/transcription-reading-guide.md).
 
 The project has also acquired NINJAL's CC BY 4.0 [Nippo Jisho Headword Data](docs/headword-data.md), a 32,878-record external reference for post-checkpoint coverage validation and provisional entry scaffolding.
@@ -39,8 +41,8 @@ The project has also acquired NINJAL's CC BY 4.0 [Nippo Jisho Headword Data](doc
 
 ## Initial approach
 
-Before processing the whole dictionary, the project will conduct a [Transcription-Format Pilot](docs/transcription-format-pilot.md). It will survey varied pages, test provisional representations, and define version 1 of the page-transcription format. A smaller end-to-end pilot will then take representative material through all four stages to test the wider data model. Once these formats have survived both tests, the main effort will return to completing Stage 1 across the dictionary.
+The completed [Transcription-Format Pilot](docs/transcription-format-pilot.md) surveyed varied pages and established version 1 of the page-transcription format. The project is now preparing bounded Stage 1 production with a human column-review checkpoint. A smaller end-to-end pilot will separately take representative material through all four stages to test the wider data model.
 
 ## Current status
 
-The project is currently in the **transcription-format pilot** phase. The first implementation trial is complete, but no production transcription format has yet been adopted. See [Project Status](STATUS.md) for the current focus and exit criteria.
+The project is currently in **Level 1 production preparation**. The format has been adopted, and the immediate work is validating the human review loop before beginning the first bounded sequential batch. See [Project Status](STATUS.md) for the current focus.

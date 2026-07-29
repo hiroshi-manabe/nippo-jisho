@@ -32,6 +32,8 @@ A subsequent [contextual review of `f0248` and `f0643`](contextual-review/f0248-
 
 The [timed `f0249`–`f0250` production simulation](production-simulation/f0249-f0250.md) applies the full workflow to unfamiliar consecutive pages, adds 196 lines, and supplies the evidence for adopting version 1.
 
+The [human column-review prototype](human-review/README.md) places the `f0249` and `f0250` scan crops beside their Level 1 text. Its six resumable units—two columns and page furniture for each page—are the first test of the `scan_confirmed` → `human_checked` publication checkpoint.
+
 ## Draft coverage
 
 - `bnf-f0014`: selected zones testing a cross-column continuation, repeated running header, and divided catchword.

@@ -68,7 +68,7 @@ Text is NFC-normalized Unicode. Long `ſ`, printed diacritics, capitalization, w
 
 A secure reading is transcribed normally even when context or enlargement helped establish it. Optional uncertainty is reserved for a reading that remains reasonably disputable after targeted enlargement and contextual review. The detailed representation will be finalized only after the trial encounters a genuinely unresolved example; the format does not require routine character-level confidence or damage metadata.
 
-Review state applies to a page, not to a separate textual layer. Production metadata uses `visual_draft`, `context_reviewed`, and `scan_confirmed` for the successive workflow checkpoints. The legacy pilot value `trial_reviewed` does not claim immunity from later correction and must not be assigned to new work.
+Review state applies to a page, not to a separate textual layer. Production metadata uses `visual_draft`, `context_reviewed`, `scan_confirmed`, and `human_checked` for successive workflow checkpoints. Column-level human-review progress remains in a separate review record; the page receives `human_checked` only after both columns and page furniture have been checked against the current generated view. The legacy pilot value `trial_reviewed` does not claim immunity from later correction and must not be assigned to new work.
 
 ## Derived views
 

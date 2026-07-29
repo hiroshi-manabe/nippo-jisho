@@ -88,9 +88,10 @@ The `status` field records review maturity:
 
 - `visual_draft`: the initial scan-derived transcription and physical lineation exist;
 - `context_reviewed`: Japanese/romanization and Portuguese-context passes are complete;
-- `scan_confirmed`: all flags have been adjudicated and a final complete scan sweep is complete.
+- `scan_confirmed`: all flags have been adjudicated and a final complete scan sweep is complete;
+- `human_checked`: a named human reviewer has compared both columns and the page furniture with the current generated view.
 
-The legacy `trial_reviewed` value is accepted only for existing pilot pages whose earlier history does not map cleanly onto these production states. New work must use the production vocabulary. The procedure is maintained in the [Provisional Transcription Reading Guide](transcription-reading-guide.md#review-passes).
+The legacy `trial_reviewed` value is accepted only for existing pilot pages whose earlier history does not map cleanly onto these production states. New work must use the production vocabulary. Human review progress is recorded independently at column granularity until all three units qualify the page for `human_checked`. The procedure is maintained in the [Provisional Transcription Reading Guide](transcription-reading-guide.md#review-passes).
 
 ## Exceptional spans and later compatibility
 

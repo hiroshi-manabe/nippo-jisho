@@ -36,6 +36,7 @@ ALLOWED_STATUSES = {
     "visual_draft",
     "context_reviewed",
     "scan_confirmed",
+    "human_checked",
     "trial_reviewed",
 }
 

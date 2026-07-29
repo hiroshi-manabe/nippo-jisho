@@ -29,10 +29,11 @@ Production review should separate four perspectives so that expectation does not
 2. **Japanese and romanization pass:** test forms against historical Japanese morphology, syntax, and source-specific spelling patterns. Use implausibility to flag passages for reinspection.
 3. **Portuguese and bilingual-context pass:** test whether the Portuguese gloss and the relationship between both languages expose a likely misreading.
 4. **Final scan confirmation:** inspect every proposed contextual correction again, enlarged when useful, and accept it only if the printed shapes support it.
+5. **Human column review:** after generation, a named human reviewer compares the scan and current Level 1 text one column at a time, followed by a separate page-furniture check.
 
 The second and third passes diagnose possible errors; they do not normalize the text. For example, Japanese context exposes the initial `bodaino tçutomemo naſu` as suspicious, and the scan confirms `bodaino tçutomeuo naſu`. Level 1 records that confirmed printed sequence. Dividing it as `tçutome + uo`, restoring Japanese script, explaining the particle, and translating it belong to later stages.
 
-Page status uses `visual_draft` after the initial visual pass, `context_reviewed` after both contextual passes, and `scan_confirmed` after every flag and the complete page have been checked again against the scan. The pilot's broad `trial_reviewed` label predates this workflow and must not be assigned to new work or interpreted as a permanent claim that no further correction is possible.
+Page status uses `visual_draft` after the initial visual pass, `context_reviewed` after both contextual passes, and `scan_confirmed` after every flag and the complete page have been checked again against the scan. Human review then proceeds through column 1, column 2, and page furniture in the generated [side-by-side review interface](../pilot/human-review/README.md). Corrections are made only in the canonical Level 1 Markdown; the affected review unit is regenerated and checked again. When all three units record reviewer and timestamp, the page may become `human_checked`. The pilot's broad `trial_reviewed` label predates this workflow and must not be assigned to new work or interpreted as a permanent claim that no further correction is possible.
 
 ## Practical threshold for uncertainty
 

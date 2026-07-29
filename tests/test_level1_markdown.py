@@ -22,6 +22,10 @@ def load_module():
 
 
 class Level1MarkdownTests(unittest.TestCase):
+    def test_human_checked_is_a_supported_production_status(self):
+        module = load_module()
+        self.assertIn("human_checked", module.ALLOWED_STATUSES)
+
     def test_committed_json_is_generated_from_compact_source(self):
         result = subprocess.run(
             [sys.executable, str(SCRIPT), "compile", str(SOURCE), str(JSON_DIR), "--check"],
