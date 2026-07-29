@@ -92,7 +92,7 @@ A repeated ornamental band is printed above the title; it contains no lexical te
 | `c2-l030` | &emsp;*tos em que nem reſpirar podem os danados.* |  |
 | `c2-l031` | Abu. *Abeſpa, ou abeſpão.* |  |
 | `c2-l032` | Abumi. *Eſtribo. ¶* Abumiuo caquru. |  |
-| `c2-l033` | &emsp;*Por os eſtribos. ¶* Abumiuo fazzuru. |  |
+| `c2-l033` | &emsp;*Por os eſtribos. ¶* Abumiuo fazzuſu. |  |
 | `c2-l034` | &emsp;*Tirar os eſtribos ¶* Abumiuo ficayu- |  |
 | `c2-l035` | &emsp;ru. *Ter mão no eſtribo pera caualgar.* |  |
 
