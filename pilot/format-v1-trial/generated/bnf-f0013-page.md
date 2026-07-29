@@ -72,7 +72,7 @@ A repeated ornamental band is printed above the title; it contains no lexical te
 | `c2-l010` | &emsp;*neſte ſentido. ¶ Vt,* Iyeua cajeni abare, |  |
 | `c2-l011` | &emsp;ameni cutçuru *A caſa ſe deſfaz cõ o vẽ-* |  |
 | `c2-l012` | &emsp;*to, & apodrece cõ a chuua. ¶ Item,* Aba |  |
-| `c2-l013` | &emsp;re, uru. *Ser deſordenado, ou deſmancha-* |  |
+| `c2-l013` | &emsp;re. uru. *Ser deſordenado, ou deſmancha-* |  |
 | `c2-l014` | &emsp;*do como os meninos no brincar, &c. ¶* Co- |  |
 | `c2-l015` | &emsp;no varanbega abarete tamaranu. *Não* |  |
 | `c2-l016` | &emsp;*ha poderſe valer cõ eſte menino que aſſi brin* |  |
