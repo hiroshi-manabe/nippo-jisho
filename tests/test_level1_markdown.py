@@ -77,6 +77,8 @@ class Level1MarkdownTests(unittest.TestCase):
         self.assertIn("Gunameqi, u, eita.", f249)
         self.assertIn("Muragari vgoqu.", f249)
         self.assertNotIn("Muragari vgogu.", f249)
+        self.assertIn("Icuſano macu.", f249)
+        self.assertNotIn("Icuſano inacu.", f249)
         self.assertIn("diuiſa", f249)
         self.assertIn("adiuiſa", f249)
         self.assertIn("status: scan_confirmed", f250)

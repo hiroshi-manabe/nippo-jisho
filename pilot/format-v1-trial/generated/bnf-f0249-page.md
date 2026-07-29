@@ -112,7 +112,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l037` | &emsp;Permei. Gunomeni monouo ſuru. *Fazer* |  |
 | `c2-l038` | &emsp;*algũa couſa com lauor, ou pintura de cinco* |  |
 | `c2-l039` | &emsp;*quinas à maneira dos cinco pontos dos dados.* |  |
-| `c2-l040` | Gunpacu. Icuſano inacu. *Certas cortinas q̃* |  |
+| `c2-l040` | Gunpacu. Icuſano macu. *Certas cortinas q̃* |  |
 | `c2-l041` | &emsp;*com adiuiſa de cada hum ſe eſtendem nos ran-* |  |
 | `c2-l042` | &emsp;*chos onde ſe aloja o exercito.* S. |  |
 | `c2-l043` | Gunpen. Icuſano fotori. *Iunto do arrayal.* |  |

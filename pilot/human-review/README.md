@@ -10,7 +10,9 @@ python3 scripts/generate_human_review.py
 
 Then open `build/human-review/index.html`. Each unit places a high-resolution scan crop beside the rendered Level 1 transcription. The **Show Markdown** control exposes the literal authoring lines, the zoom control enlarges the scan without losing the surrounding column, and previous/next controls move through all six units.
 
-The interface stores provisional status and notes in that browser only and can download a session summary. These conveniences do not alter project files. The committed [`review-status.json`](review-status.json) remains the canonical progress record and must be updated only after corrections have been applied to the Level 1 Markdown and the affected unit has been regenerated and rechecked.
+The normal correction interface is the project chat, not an editor embedded in the HTML. The reviewer reports a stable line ID and proposed reading; both sides can discuss Japanese and Portuguese context and inspect enlargement before the canonical Markdown is changed. The affected HTML unit is then regenerated and rechecked. This simple conversational loop keeps judgments visible without introducing a second editing surface.
+
+The interface also stores provisional status and notes in that browser and can download a session summary, but these are optional scratch conveniences. They do not alter project files. The committed [`review-status.json`](review-status.json) remains the canonical progress record and must be updated only after corrections have been applied to the Level 1 Markdown and the affected unit has been regenerated and rechecked.
 
 Review states are:
 
