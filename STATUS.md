@@ -32,6 +32,8 @@ The compact files preserve stable physical-line references, typeface, relative i
 
 Level 1 review is now explicitly contextual rather than linguistically blind. After the initial visual transcription, separate Japanese/romanization and Portuguese-context passes flag suspicious readings; each proposed correction is then confirmed against the scan. This procedure corrected `tçutomemo` to printed `tçutomeuo` on `f248`. Segmentation, normalization, grammatical analysis, and translation remain outside Level 1. Production metadata must distinguish the initial visual draft from contextual review and final scan confirmation.
 
+A follow-up [contextual-review experiment](pilot/contextual-review/f0248-f0643.md) completed both passes on `f248` and the less familiar `f643`. It found no additional correction on `f248` and two on `f643` (`bocetinha`, `deſiguaes`). Several linguistically attractive changes were rejected after scan confirmation, supporting the separation of diagnostic contextual review from source adjudication.
+
 ## Current objective
 
 Evaluate the compact Markdown through direct reading, correction, and regeneration, and exercise the uncertainty mechanism on a genuinely unresolved source reading. The immediate objective is a practical Level 1 format supporting:

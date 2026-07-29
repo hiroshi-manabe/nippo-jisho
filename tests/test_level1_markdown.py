@@ -59,6 +59,13 @@ class Level1MarkdownTests(unittest.TestCase):
         )
         self.assertIn("[c1-l022 >] *amizade. Vt,* Gǒyẽuo motte tanomu.", source)
 
+    def test_contextual_review_corrections_are_retained(self):
+        source = (SOURCE / "bnf-f0643.md").read_text(encoding="utf-8")
+        self.assertIn("Certa bocetinha de cha.", source)
+        self.assertIn("Couſas deſiguaes: vſaſe em", source)
+        self.assertNotIn("bocezinha", source)
+        self.assertNotIn("deſiguais", source)
+
 
 if __name__ == "__main__":
     unittest.main()

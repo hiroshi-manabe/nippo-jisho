@@ -28,6 +28,8 @@ The completed [format version 1 trial](format-v1-trial/README.md) is a new imple
 
 The trial validates 330 physical lines in a [compact human-readable Level 1 form](../docs/level1-markdown-candidate.md), then regenerates the machine representation and page views. Seven structural assertions and eight reading sequences remain as a secondary information-loss check rather than the project’s present design focus. The remaining Level 1 questions are recorded in the trial report and candidate specification.
 
+A subsequent [contextual review of `f0248` and `f0643`](contextual-review/f0248-f0643.md) tests separate Japanese/romanization and Portuguese passes followed by scan confirmation. It finds two residual corrections and rejects five plausible but unprinted emendations.
+
 ## Draft coverage
 
 - `bnf-f0014`: selected zones testing a cross-column continuation, repeated running header, and divided catchword.

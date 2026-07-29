@@ -67,7 +67,7 @@ A later red library stamp overlaps the last entry in column 1. The dictionary te
 | `c2-l006` | &emsp;*algũa couſa no fundo. Vt,* Zzunbu- |  |
 | `c2-l007` | &emsp;rito xizzunda. |  |
 | `c2-l008` | Zzunet. *Quentura da cabeça.* |  |
-| `c2-l009` | Zzunguiri. *Certa bocezinha de cha.* |  |
+| `c2-l009` | Zzunguiri. *Certa bocetinha de cha.* |  |
 | `c2-l010` | Zzuqin. *Barrete.* |  |
 | `c2-l011` | Zzuqiǒ. *Liuro de anotomia dos fiſicos pe-* |  |
 | `c2-l012` | &emsp;*ra ſaberem as veas, & partes do corpo.* |  |
@@ -75,7 +75,7 @@ A later red library stamp overlaps the last entry in column 1. The dictionary te
 | `c2-l014` | &emsp;*gũa couſa por diante como obras, &c.* |  |
 | `c2-l015` | &emsp;*¶ Item, Modo de ſe fazer bem, ligeira,* |  |
 | `c2-l016` | &emsp;*& dextramente algũa couſa.* |  |
-| `c2-l017` | Zzuruzzuruna. *Couſas deſiguais: vſaſe em* |  |
+| `c2-l017` | Zzuruzzuruna. *Couſas deſiguaes: vſaſe em* |  |
 | `c2-l018` | &emsp;*algũas partes.* |  |
 | `c2-l019` | Zzuſocu. Atama, axi. *Cabeça, & pé.* |  |
 | `c2-l020` | Zzuſu. *Certos bacios de pao de grande fun-* |  |

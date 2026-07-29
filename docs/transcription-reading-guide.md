@@ -58,8 +58,11 @@ The first controlled comparison exposed errors caused not only by difficult type
 | `Aburaqega ſuru` | `Aburaqe ga ſuru` | Inserting a space at an expected Japanese particle boundary | Copy visible spacing before morphological analysis. |
 | `ſecar` | `ſeccar` | Visual error or expectation of a doubled historical spelling | Count repeated letters individually; do not complete an expected spelling. |
 | `Aburicauarague` | `Aburicauaraque` | Misreading `g` as `q` despite an otherwise expected /ge/ form | Treat linguistic implausibility as a prompt for enlarged reinspection. |
+| `tçutomeuo` | `tçutomemo` | Reading `u` as `m` without testing the Japanese phrase | Use morphology to flag a sequence, then confirm the individual types in the scan. |
+| `bocetinha` | `bocezinha` | Making an unfamiliar Portuguese diminutive into a visually plausible non-word | Test the complete gloss during Portuguese review and reinspect the suspect letters. |
+| `deſiguaes` | `deſiguais` | Unconsciously modernizing an older Portuguese plural | Preserve the printed vowel even when a modern form is more familiar. |
 
-These findings and their scan adjudication are recorded in the [bnf-f0014 Wikisource comparison](../pilot/wikisource-comparison/bnf-f0014.md). The useful result is the error taxonomy, not continued dependence on Wikisource.
+The first four findings and their scan adjudication are recorded in the [bnf-f0014 Wikisource comparison](../pilot/wikisource-comparison/bnf-f0014.md). The later three arose from the [contextual-review experiment](../pilot/contextual-review/f0248-f0643.md). The useful result is the error taxonomy and review method, not continued dependence on an external transcription.
 
 ## Provisional Jesuit-romanization cautions
 
