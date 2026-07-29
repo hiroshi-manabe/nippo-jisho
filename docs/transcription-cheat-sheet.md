@@ -61,7 +61,7 @@ These are **reinspection prompts, not replacement rules**.
 
 - Read the whole gloss, not isolated letter shapes. Modern Portuguese can expose a suspicious sequence, but it cannot settle it.
 - Preserve `ſ`, historical `u/v` and `i/j`, accents, tildes, abbreviations, capitalization, spacing, and punctuation as printed.
-- Expect spelling variation, including vowels and endings unfamiliar from modern Portuguese. The project has already confirmed printed `deſiguaes`, `anotomia`, and `de mais` against tempting modernizations.
+- Expect spelling variation, including missing or unfamiliar-looking vowels and endings. The project has confirmed printed `Interieção`, `deſiguaes`, `anotomia`, and `de mais` against tempting modernizations.
 - A tilde can stand for omitted letters as well as nasalization. Do not expand it in Level 1.
 - Typeface helps: Japanese forms are generally roman and Portuguese explanations generally italic in the sampled dictionary pages. Confirm the local case before relying on that tendency.
 

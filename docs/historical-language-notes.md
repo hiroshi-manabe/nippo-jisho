@@ -170,6 +170,8 @@ The dictionary predates official modern Portuguese orthography by centuries and 
 
 Even one Jesuit work can change practice internally. Takahashi and Osterkamp report that Rodrigues's Portuguese in the *Arte* strongly favors `ão` and `ey` through folio 94, then strongly favors `am` and `ei` from folio 95 (2025: 34 n. 9). Morita also points to *Vocabulario* gloss pairs such as `Ceremonia`/`Cerimonia`, `menino`/`minino`, and `infirmidade`/`enfermidede` (2024: 120). Variation is evidence, not noise to remove.
 
+The opening dictionary page gives a compact warning against lexical modernization: it prints `Interieção` three times (`bnf-f0013:c1-l007`, `c1-l009`, and `c1-l016`), without the second `i` of modern Portuguese *interjeição*. Consonantal `i` represents modern `j`, while the remaining vowel sequence reflects historical orthographic variation. João de Barros's 1540 *Grammatica* similarly uses related forms such as `Interieçam`. Read and count the printed vowels before allowing the modern lemma to guide recognition.
+
 ### 4.2 Practical Portuguese reading categories
 
 | Feature | Why it matters at Level 1 |
@@ -203,6 +205,7 @@ The pilot demonstrates both sides of the method. Portuguese context found printe
 - **The *Vocabulario* scan.** Bibliothèque nationale de France, [complete Gallica object](https://gallica.bnf.fr/ark:/12148/bpt6k852354j); prologue/key at [`f11`](https://gallica.bnf.fr/ark:/12148/bpt6k852354j/f11.item) and [`f12`](https://gallica.bnf.fr/ark:/12148/bpt6k852354j/f12.item). First authority for the project.
 - **João Rodrigues, *Arte da Lingoa de Iapam* (1604–1608).** A contemporary systematic account of Japanese used to explain broader Jesuit practice. A public-domain [scan is available through Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Arte_da_Lingoa_de_Iapam.pdf). It is a comparator, not part of the *Vocabulario*.
 - **Duarte Nunes de Leão, *Orthographia da lingoa portuguesa* (1576).** Contemporary Portuguese orthographic treatise: [Biblioteca Nacional de Portugal scan](https://purl.pt/15) and [PML transcription/catalogue](https://pml.cel.utad.pt/ViewEntry.aspx?id_entry=9).
+- **João de Barros, *Grammatica da lingua portuguesa* (1540).** Near-contemporary evidence for Portuguese grammatical terminology and variable spelling, including forms related to the dictionary's `Interieção`: [Biblioteca Nacional de Portugal scan](https://purl.pt/12148).
 
 ### Modern scholarship
 

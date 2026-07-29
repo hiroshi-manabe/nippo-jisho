@@ -27,16 +27,16 @@ A repeated ornamental band is printed above the title; it contains no lexical te
 | `c1-l004` | &emsp;*¶ Item,* A, *primeira das* |  |
 | `c1-l005` | &emsp;*cinco vogais de Iapão, q̃ ſão* |  |
 | `c1-l006` | &emsp;A, I, V, YE, VO. |  |
-| `c1-l007` | Aa. *Interieição de dor, ou triſteza. ¶ Vt,* |  |
+| `c1-l007` | Aa. *Interieção de dor, ou triſteza. ¶ Vt,* |  |
 | `c1-l008` | &emsp;Aa canaxij cana. *O couſa triſte ¶ Itẽ,* |  |
-| `c1-l009` | &emsp;*Aliquando interieição de admiração. Vt,* Aa |  |
+| `c1-l009` | &emsp;*Aliquando interieção de admiração. Vt,* Aa |  |
 | `c1-l010` | &emsp;vobitataxiya. *O couſa grande, eu enor-* |  |
 | `c1-l011` | &emsp;*me. ¶ Item, De alegria. Vt,* Aa vrexiya. |  |
 | `c1-l012` | &emsp;*O como folgo. ¶ Itẽ, De duuida. Vt,* Aa |  |
 | `c1-l013` | &emsp;vobotçucanai coto cana. *O couſa du-* |  |
 | `c1-l014` | &emsp;*uidoſa. ¶ Item, He particula de reſpõ-* |  |
 | `c1-l015` | &emsp;*der ſi, como que cõſente, ou aproua o q̃ ſe diz.* |  |
-| `c1-l016` | Aara, l, arà. *Interieição. Idem, Mas mais* |  |
+| `c1-l016` | Aara, l, arà. *Interieção. Idem, Mas mais* |  |
 | `c1-l017` | &emsp;*frequente, & vſada que,* Aa. *Vt,* Aara |  |
 | `c1-l018` | &emsp;vrexiya. Aara canaxiya, &c. |  |
 | `c1-l019` | **A ANTES DO B.** |  |

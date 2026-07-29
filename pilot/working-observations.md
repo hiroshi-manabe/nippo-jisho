@@ -190,3 +190,27 @@ The affected letter shapes are less immediately legible than the surrounding typ
 - If alternatives remain plausible, record the preferred reading and concise alternatives; if no reading is defensible, use an illegible marker and optionally a labelled tentative suggestion.
 - Allow exceptional explanatory notes, but do not require damage type, confidence score, or character-level annotation for every difficult span.
 - Treat targeted enlargement as a routine review action for locally difficult text, independent of the default tile size; distinguish that action from the exceptional result of retaining uncertainty markup.
+
+## OBS-007
+
+**Repeated historical spellings can expose modern-lemma bias**
+
+| Field | Value |
+| --- | --- |
+| Status | `confirmed` for the three observed forms |
+| First recorded | 2026-07-30 |
+| Evidence | `bnf-f0013`, column 1, `c1-l007`, `c1-l009`, and `c1-l016` |
+| Printed form | `Interieção` / `interieção` |
+| Initial transcription | `Interieição` / `interieição` |
+| Confidence | High |
+
+### Visible evidence and historical context
+
+All three occurrences omit the second `i` expected from modern Portuguese *interjeição*. The first `i` is the historical printed character corresponding to consonantal modern `j`; it must still be transcribed as `i` at Level 1. Related sixteenth-century forms such as João de Barros's `Interieçam` confirm that a form without modern `-jei-` is historically coherent.
+
+### Transcription treatment
+
+- Preserve `Interieção` exactly as printed; do not expand it to the modern-looking `Interieição`.
+- When a familiar modern lemma seems visually obvious, count its printed letters rather than recognizing the word as a unit.
+- Compare repeated occurrences on the same page before deciding that a missing or extra letter is damaged type.
+- Use historical parallels to establish plausibility, but let the local scan decide the exact spelling.
