@@ -70,6 +70,16 @@ class Level1MarkdownTests(unittest.TestCase):
         self.assertNotIn("bocezinha", source)
         self.assertNotIn("deſiguais", source)
 
+    def test_strengthened_f14_review_is_retained(self):
+        source = (SOURCE / "bnf-f0014.md").read_text(encoding="utf-8")
+        self.assertIn("status: scan_confirmed", source)
+        self.assertIn("mino xita ſaqi.", source)
+        self.assertIn("Gordura, vnto, enxundia", source)
+        self.assertIn("q̃ vſão pera contra", source)
+        self.assertNotIn("mino xita laqi.", source)
+        self.assertNotIn("Gordura, unto, enxundia", source)
+        self.assertNotIn("q̃ uſão pera contra", source)
+
     def test_production_simulation_pages_are_scan_confirmed(self):
         f249 = (SOURCE / "bnf-f0249.md").read_text(encoding="utf-8")
         f250 = (SOURCE / "bnf-f0250.md").read_text(encoding="utf-8")

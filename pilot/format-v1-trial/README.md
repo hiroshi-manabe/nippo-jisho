@@ -47,11 +47,14 @@ python3 -m unittest discover -s tests -v
 1. The native Gallica masters were checked at full resolution.
 2. Quarter-column views supplied layout and context.
 3. Overlapping sixth-column views supplied the primary line-by-line reading surface.
-4. Targeted enlargements were used for locally difficult spans regardless of the default tile size.
-5. Separate Japanese/romanization and Portuguese-context passes flagged suspicious readings without changing the source.
-6. A final complete scan pass adjudicated every flag and checked line coverage, typeface changes, punctuation, diacritics, and expectation-driven normalization.
-7. NINJAL headword data was consulted only after the visual record existed, as a coverage and suspicious-form check.
-8. Generated views and all source references were validated automatically.
+4. Every physical line was compared at useful enlargement; still larger targeted crops were used for locally difficult spans.
+5. Separate Japanese/romanization, Portuguese, and bilingual-context passes actively parsed the text and flagged suspicious readings without overriding the source.
+6. A dedicated glyph pass checked confusable letters and marks occurrence by occurrence.
+7. A final complete scan pass adjudicated every flag and checked line coverage, typeface changes, punctuation, diacritics, and expectation-driven normalization. Production `scan_confirmed` now requires a fresh full-page sweep that produces no new correction candidate.
+8. NINJAL headword data was consulted only after the visual record existed, as a coverage and suspicious-form check.
+9. Generated views and all source references were validated automatically.
+
+This strengthened production procedure was first applied end to end in the [f14 production re-review](../production-review/bnf-f0014.md). The earlier broad `trial_reviewed` labels describe pilot history, not a production-quality guarantee; the remaining legacy pages must pass the same gate before their status is promoted.
 
 The older version-0 files remain frozen and were not rewritten. They were useful as error-history and coverage prompts, not as text to convert mechanically.
 

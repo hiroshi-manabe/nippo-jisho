@@ -1,6 +1,6 @@
 # Project Status
 
-Last updated: 2026-07-29
+Last updated: 2026-07-30
 
 ## Current phase
 
@@ -38,11 +38,13 @@ A follow-up [contextual-review experiment](pilot/contextual-review/f0248-f0643.m
 
 The decisive [f249–f250 production simulation](pilot/production-simulation/f0249-f0250.md) added 196 physical lines without requiring new syntax. Measured pass time was 10 minutes for two pages, but a completion audit and later reader review found additional errors, so this is not yet a final-quality rate. Sixteen initial readings were corrected while contextually odd but visibly printed forms were preserved. The post-simulation corrections from `vgogu` to printed `vgoqu` and from `inacu` to `macu` demonstrate that the Japanese morphology and bilingual-context passes must actively test even visually plausible forms. Cross-page catchwords and a second displaced-text example also remained auditable.
 
+The first strengthened production re-review is complete on [`f14`](pilot/production-review/bnf-f0014.md). Every physical line was compared at enlargement, followed by active Japanese, Portuguese, bilingual, and confusable-glyph passes and a fresh zero-new-candidate sweep. It corrected `laqi` to `ſaqi` through Japanese contextual diagnosis and scan confirmation, and restored printed `vnto` and `vſão`. The page is now `scan_confirmed` but its human-review units remain pending; this distinction keeps pre-review quality control separate from human approval.
+
 A generated [dictionary-wide human review interface](pilot/human-review/README.md) now covers all 651 acquired leaves. The six Level 1 pages present a high-resolution scan beside rendered or literal transcription; the other 645 leaves retain immediate scan access and an explicit `unprocessed` state. Previous/next controls, direct leaf entry, stable page-and-column links, and reloadable generated data allow transcription and human checking to proceed asynchronously. All 18 human-review units on the six transcribed pages begin as `pending`. Each physical line can copy its stable reference and current text into the project chat, which remains the intentionally simple correction interface. Corrections reopen only the affected unit; a page becomes `human_checked` after both columns and page furniture carry reviewer provenance.
 
 ## Current objective
 
-Validate the human column-review loop on the existing Level 1 pages, then prepare the first sequential Level 1 production batch. The immediate objective is repeatable quality control supporting:
+Validate the strengthened pre-review procedure and human column-review loop on the existing Level 1 pages, then prepare the first sequential Level 1 production batch. The immediate objective is repeatable quality control supporting:
 
 1. A page-oriented reading and verification view
 2. Efficient source-faithful editing in physical order
@@ -66,7 +68,7 @@ Validate the human column-review loop on the existing Level 1 pages, then prepar
 
 ## Production progress
 
-The adoption corpus contains six complete pages and 526 physical lines. All six pages now have pending column 1, column 2, and page-furniture review units; `f249` and `f250` remain the first records to use the production `scan_confirmed` status. The other 645 acquired leaves appear as `unprocessed` in the review UI. The corpus remains an adoption and workflow baseline rather than the first declared sequential release batch.
+The adoption corpus contains six complete pages and 526 physical lines. All six pages have pending column 1, column 2, and page-furniture review units. `f14` has now passed the strengthened production gate; `f249` and `f250` retain the earlier production `scan_confirmed` status and should be re-evaluated against that stronger gate. The other 645 acquired leaves appear as `unprocessed` in the review UI. The corpus remains an adoption and workflow baseline rather than the first declared sequential release batch.
 
 ## Next phase
 

@@ -25,11 +25,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l009` | &emsp;*onde ſe mete o loro. ¶* Abumino ya- |  |
 | `c1-l010` | &emsp;nalba. *Hum debrum de ferro que cerca em* |  |
 | `c1-l011` | &emsp;*roda os eſtribos da parte de baixo. ¶* Abu |  |
-| `c1-l012` | &emsp;mino xita laqi. *Põta do eſtribo de Iapão* |  |
+| `c1-l012` | &emsp;mino xita ſaqi. *Põta do eſtribo de Iapão* |  |
 | `c1-l013` | Abunai. *Couſa perigoſa, ou poſta a perigo.* |  |
 | `c1-l014` | &emsp;Abunaſa. |  |
 | `c1-l015` | &emsp;Abunǒ. |  |
-| `c1-l016` | Abura. *Gordura, unto, enxundia, manteiga,* |  |
+| `c1-l016` | Abura. *Gordura, vnto, enxundia, manteiga,* |  |
 | `c1-l017` | &emsp;*toucinho, &c. ¶* Mino abura. *Gordu-* |  |
 | `c1-l018` | &emsp;*ra, ou ſuor que ſae do corpo como azeite.* |  |
 | `c1-l019` | Abura. *Azeite, ou oleo. ¶* Aburauo |  |
@@ -41,7 +41,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l025` | Aburadaru. *Barça, ou barril de azeite.* |  |
 | `c1-l026` | Aburafi. *Fogo, ou candea de azeite.* |  |
 | `c1-l027` | Aburagami. *Papel azeitado, ou pastas de* |  |
-| `c1-l028` | &emsp;*papel azeitado de q̃ uſão pera contra a chu-* |  |
+| `c1-l028` | &emsp;*papel azeitado de q̃ vſão pera contra a chu-* |  |
 | `c1-l029` | &emsp;*ua, ou agoa.* |  |
 | `c1-l030` | Abura ague, l, Abura agueno mono. *Cou-* |  |
 | `c1-l031` | &emsp;*ſa frita em azeite.* |  |
