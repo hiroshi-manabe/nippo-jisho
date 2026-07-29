@@ -24,7 +24,7 @@ This is the short, daily-use layer of the project's linguistic reference. It sup
 | one consonant / two | Count the types. Do not supply an expected historical or modern spelling. |
 | `ǒ` / `ô` | Read the mark's direction: caron `ˇ` versus circumflex `ˆ`. They are not interchangeable. |
 | `ǔ` / `û` / `ù` | Preserve the visible shape. Long `u` has no open/closed opposition corresponding to long `o`. |
-| tilde / accent | A tilde is wavy. It may mark Portuguese nasalization or an abbreviation such as `q̃`; preserve it without expansion. |
+| tilde / grave / `i` dot | A tilde is wavy; a grave is a single diagonal stroke. Compare ordinary dotted `i` locally. On `f13`, read `cà peralì`, not `cã perali`. |
 
 ## Japanese and Jesuit-romanization prompts
 

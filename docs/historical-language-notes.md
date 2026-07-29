@@ -126,6 +126,8 @@ The phonology is less simple than a two-symbol chart suggests. Morita documents 
 
 Tildes must be classified separately. Portuguese uses them for nasal material, while the dictionary also uses abbreviation tildes: `q̃` visibly carries an abbreviation sign, and `Gǒyẽuo` prints `ẽ` where the uncontracted headword has `en`. Level 1 preserves the mark without expansion.
 
+Portuguese grave accents also require shape-level comparison. On `bnf-f0013:c1-l033`, the wavy tilde in `ordẽ` contrasts on the same line with single diagonal strokes in `cà peralì`. The latter marks match the confirmed grave in `arà` on `c1-l016`; the final `ì` must not be reduced to an ordinary dotted `i`. Duarte Nunes de Leão describes the grave with the form `à` and recommends accents where they differentiate otherwise similar words ([1576, fols. 65v–66r](https://pml.cel.utad.pt/ViewEntry.aspx?id_entry=9)). His theory is historical context, not a license to infer an unseen mark: the local type remains decisive.
+
 ### 2.7 Sound change, kana spelling, and variation
 
 Several patterns are especially useful during the Japanese pass:

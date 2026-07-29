@@ -214,3 +214,29 @@ All three occurrences omit the second `i` expected from modern Portuguese *inter
 - When a familiar modern lemma seems visually obvious, count its printed letters rather than recognizing the word as a unit.
 - Compare repeated occurrences on the same page before deciding that a missing or extra letter is damaged type.
 - Use historical parallels to establish plausibility, but let the local scan decide the exact spelling.
+
+## OBS-008
+
+**A grave accent can be mistaken for either a tilde or an italic `i` dot**
+
+| Field | Value |
+| --- | --- |
+| Status | `confirmed` |
+| First recorded | 2026-07-30 |
+| Evidence | `bnf-f0013`, column 1, `c1-l033` |
+| Printed form | `ordẽ correndo de cà peralì.` |
+| Initial transcription | `ordẽ correndo de cã perali.` |
+| Confidence | High after same-page type comparison |
+
+### Visible evidence and context
+
+The line supplies its own contrast. The mark in `ordẽ` is horizontally wavy; those over `à` and `ì` are single diagonal strokes. Both diagonal marks match the grave accent printed in `arà` at `c1-l016`. Ordinary italic `i` elsewhere on the page has a compact dot rather than this stroke.
+
+The Portuguese phrase also supports reinspection: `cà` and the final element `lì` form a here/there contrast, with historical `pera` corresponding to modern *para*. Context identifies the suspicious places, while the repeated type shapes decide the diplomatic reading.
+
+### Transcription treatment
+
+- Transcribe the complete printed sequence as `cà peralì`, preserving both grave accents and the closed spacing in `peralì`.
+- Distinguish tildes from grave accents by contour, not merely by the letter beneath them.
+- When a mark occurs over `i`, compare it with both ordinary `i` dots and known accents; do not assume every detached mark is the dot.
+- Use same-line and same-page comparisons before consulting generalized historical rules.

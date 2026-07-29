@@ -67,6 +67,7 @@ The first controlled comparison exposed errors caused not only by difficult type
 | `bocetinha` | `bocezinha` | Making an unfamiliar Portuguese diminutive into a visually plausible non-word | Test the complete gloss during Portuguese review and reinspect the suspect letters. |
 | `deſiguaes` | `deſiguais` | Unconsciously modernizing an older Portuguese plural | Preserve the printed vowel even when a modern form is more familiar. |
 | `Interieção` | `Interieição` | Supplying the extra vowel expected from modern Portuguese *interjeição* | Count the printed vowels; compare repeated occurrences of the same word on the page. |
+| `cà peralì` | `cã perali` | Treating a diagonal grave as a tilde over `a` and as an ordinary dot over final `i` | Compare the marks with a same-line tilde and a confirmed grave in the same font. |
 
 The first four findings and their scan adjudication are recorded in the [bnf-f0014 Wikisource comparison](../pilot/wikisource-comparison/bnf-f0014.md). `tçutomeuo`, `bocetinha`, and `deſiguaes` arose from the [contextual-review experiment](../pilot/contextual-review/f0248-f0643.md); `vgoqu` and `macu` were caught by human reader review after the [f249–f250 production simulation](../pilot/production-simulation/f0249-f0250.md). The useful result is the error taxonomy and review method, not continued dependence on an external transcription.
 
