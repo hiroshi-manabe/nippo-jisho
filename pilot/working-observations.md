@@ -217,26 +217,26 @@ All three occurrences omit the second `i` expected from modern Portuguese *inter
 
 ## OBS-008
 
-**A grave accent can be mistaken for either a tilde or an italic `i` dot**
+**A grave accent and its base letter must be identified separately**
 
 | Field | Value |
 | --- | --- |
 | Status | `confirmed` |
 | First recorded | 2026-07-30 |
 | Evidence | `bnf-f0013`, column 1, `c1-l033` |
-| Printed form | `ordẽ correndo de cà peralì.` |
+| Printed form | `ordẽ correndo de cà peralà.` |
 | Initial transcription | `ordẽ correndo de cã perali.` |
 | Confidence | High after same-page type comparison |
 
 ### Visible evidence and context
 
-The line supplies its own contrast. The mark in `ordẽ` is horizontally wavy; those over `à` and `ì` are single diagonal strokes. Both diagonal marks match the grave accent printed in `arà` at `c1-l016`. Ordinary italic `i` elsewhere on the page has a compact dot rather than this stroke.
+The line supplies its own contrast. The mark in `ordẽ` is horizontally wavy; those over both instances of `à` are single diagonal strokes. Both diagonal marks match the grave accent printed in `arà` at `c1-l016`. The final base letter has the closed bowl of italic `a`, not the simple stem of `i`.
 
-The Portuguese phrase also supports reinspection: `cà` and the final element `lì` form a here/there contrast, with historical `pera` corresponding to modern *para*. Context identifies the suspicious places, while the repeated type shapes decide the diplomatic reading.
+The Portuguese phrase also supports reinspection: `de cà peralà` corresponds to modern *de cá para lá*. Gil Vicente writes `de cá pera lá`, and the related *Vocabulário na Língua Brasílica* records `de ca pera la`. Context identifies the suspicious places, while the repeated type shapes decide the diplomatic reading.
 
 ### Transcription treatment
 
-- Transcribe the complete printed sequence as `cà peralì`, preserving both grave accents and the closed spacing in `peralì`.
+- Transcribe the complete printed sequence as `cà peralà`, preserving both grave accents and the closed spacing in `peralà`.
 - Distinguish tildes from grave accents by contour, not merely by the letter beneath them.
-- When a mark occurs over `i`, compare it with both ordinary `i` dots and known accents; do not assume every detached mark is the dot.
+- Identify the base glyph independently of the diacritic; an accented italic `a` can lose visual clarity at this size.
 - Use same-line and same-page comparisons before consulting generalized historical rules.
