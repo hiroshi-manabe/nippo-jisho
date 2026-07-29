@@ -54,7 +54,7 @@ A repeated ornamental band is printed above the title; it contains no lexical te
 | `c1-l031` | Abarabone *Coſtellas das ilhargas.* |  |
 | `c1-l032` | Abaragaqe. *Arremetida aos inimigos ſem* |  |
 | `c1-l033` | &emsp;*ordẽ correndo de cà peralà.* |  |
-| `c1-l034` | Abarana. *Couſa deſfeita, & eſtroncada, ou* |  |
+| `c1-l034` | Abarana. *Couſa desfeita, & eſtroncada, ou* |  |
 
 ## Column 2
 
