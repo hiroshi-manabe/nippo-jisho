@@ -4,6 +4,8 @@
 
 This is a working quality-control guide for direct visual transcription of the *Nippo Jisho*. It records source-specific reading cautions discovered during the transcription-format pilot. It is not yet the version 1 transcription specification, a complete account of Jesuit romanization, or authority to normalize the printed text.
 
+For production use, begin with the compact [Transcription Cheat Sheet](transcription-cheat-sheet.md). The fuller linguistic explanations, confidence distinctions, and bibliography are maintained in the [Historical Language Notes](historical-language-notes.md). This guide remains the project evidence trail for scan-adjudicated errors and workflow safeguards.
+
 The scan remains decisive. Historical Japanese, Portuguese spelling, morphology, and expected dictionary structure may indicate where to look again, but they must not silently replace visible evidence.
 
 ## Order of operations

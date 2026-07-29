@@ -27,7 +27,7 @@ The adopted [Level 1 page-transcription format](docs/page-transcription-format-v
 
 The [dictionary-wide human review interface](pilot/human-review/README.md) navigates all 651 acquired Gallica leaves, marks scan-only pages as unprocessed, and presents existing Level 1 pages as scan-and-transcription pairs. Human review is recorded separately for both columns and page furniture.
 
-Source-specific orthographic patterns, confusable type, and safeguards against expectation-driven correction are collected in the [Provisional Transcription Reading Guide](docs/transcription-reading-guide.md).
+Daily linguistic review now begins with the compact [Transcription Cheat Sheet](docs/transcription-cheat-sheet.md). Its claims, qualifications, and source provenance are developed in the [Historical Language Notes](docs/historical-language-notes.md); scan-adjudicated mistakes from the pilot remain in the [Provisional Transcription Reading Guide](docs/transcription-reading-guide.md).
 
 The project has also acquired NINJAL's CC BY 4.0 [Nippo Jisho Headword Data](docs/headword-data.md), a 32,878-record external reference for post-checkpoint coverage validation and provisional entry scaffolding.
 
