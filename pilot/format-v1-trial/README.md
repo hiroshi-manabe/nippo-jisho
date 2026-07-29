@@ -102,6 +102,7 @@ The second pass caught several expectation-driven or resolution-dependent errors
 - `Aburaguitta` and anomalous `Aburaguitra`;
 - the earlier established `Aburamigaqi`, `acepilhada`, `aburamono`, `Aburaqega`, `ſecar`, and `Aburicauarague` readings;
 - full-page corrections on `f248`, including the contrast between `Gǒyen` and abbreviated `Gǒyẽuo`, plus `Guchina`, `Gǔcon`, and `nibuxi`;
+- the contextually detected and visually confirmed `tçutomeuo`, correcting an `m`/`u` sequence error in `tçutomemo`;
 - full-page corrections on `f643`, including `Zzuqiǒ`, `Zzuſocu`, `Zzuſu`, `Zzutçǔ`, `couſada`, and `Veo me`.
 
-This error yield supports retaining a separate verification pass and routine targeted enlargement in production.
+This error yield supports an initial visual pass followed by explicit Japanese/romanization and Portuguese-context passes, with every proposed correction finally confirmed against the scan. These are all Level 1 review activities: later segmentation, normalization, interpretation, and translation remain separate.

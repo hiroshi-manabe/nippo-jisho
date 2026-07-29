@@ -15,7 +15,7 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c1-l001` | Goxǒuo taſucaru. *Saluarſe.* ¶ Goxǒ |  |
-| `c1-l002` | &emsp;bodaino tçutomemo naſu. *Fazer obras,* |  |
+| `c1-l002` | &emsp;bodaino tçutomeuo naſu. *Fazer obras,* |  |
 | `c1-l003` | &emsp;*& exercicios, que ſeruem pera a outra vida,* |  |
 | `c1-l004` | &emsp;*ou ſaluação.* ¶ Conjǒ goxǒ tomoni. |  |
 | `c1-l005` | &emsp;*Neſta, & na outra vida, ou no temporal,* |  |

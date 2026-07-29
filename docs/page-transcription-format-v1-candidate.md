@@ -10,6 +10,8 @@ The Level 1 page record contains observable documentary evidence in physical ord
 
 Level 1 is the current design and production priority. The format should first be judged by whether a human can read, transcribe, review, and correct pages efficiently while retaining visible evidence.
 
+This boundary concerns what Level 1 records, not what an editor is allowed to know. Historical Japanese, Jesuit romanization, and Portuguese context are legitimate review tools for locating suspicious readings. A correction enters Level 1 only after renewed inspection confirms that the scan supports it; segmentation, normalization, grammatical analysis, and translation remain later-stage interpretation. The staged procedure is specified in the [Provisional Transcription Reading Guide](transcription-reading-guide.md#review-passes).
+
 Level 2 is presently only a compatibility constraint. A small separate fixture confirms that stable Level 1 lines and rare named spans could support later entry boundaries, reading order, and displaced-text analysis. The project is not currently designing a complete Level 2 schema, and ordinary Level 1 records should not carry extra markup merely to make hypothetical later operations convenient.
 
 ## Storage model
@@ -65,6 +67,8 @@ Text is NFC-normalized Unicode. Long `ſ`, printed diacritics, capitalization, w
 ## Uncertainty
 
 A secure reading is transcribed normally even when context or enlargement helped establish it. Optional uncertainty is reserved for a reading that remains reasonably disputable after targeted enlargement and contextual review. The detailed representation will be finalized only after the trial encounters a genuinely unresolved example; the format does not require routine character-level confidence or damage metadata.
+
+Review state applies to a page, not to a separate textual layer. At minimum, production metadata must distinguish an initial visual draft from work that has received contextual review and final scan confirmation. The pilot value `trial_reviewed` is provisional and does not claim immunity from later correction.
 
 ## Derived views
 

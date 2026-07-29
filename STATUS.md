@@ -30,6 +30,8 @@ The first implemented [candidate page-transcription format](docs/page-transcript
 
 The compact files preserve stable physical-line references, typeface, relative indentation, page furniture, and exceptional placement while remaining directly readable. JSON is now treated as generated machine interchange rather than the hand-authoring format. A small structural test remains only to confirm that Level 1 has not discarded necessary evidence; designing Level 2 and later layers is a secondary concern. The lightweight uncertainty representation has still not been tested on a genuinely unresolved reading.
 
+Level 1 review is now explicitly contextual rather than linguistically blind. After the initial visual transcription, separate Japanese/romanization and Portuguese-context passes flag suspicious readings; each proposed correction is then confirmed against the scan. This procedure corrected `tçutomemo` to printed `tçutomeuo` on `f248`. Segmentation, normalization, grammatical analysis, and translation remain outside Level 1. Production metadata must distinguish the initial visual draft from contextual review and final scan confirmation.
+
 ## Current objective
 
 Evaluate the compact Markdown through direct reading, correction, and regeneration, and exercise the uncertainty mechanism on a genuinely unresolved source reading. The immediate objective is a practical Level 1 format supporting:

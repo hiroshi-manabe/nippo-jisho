@@ -51,6 +51,8 @@ class Level1MarkdownTests(unittest.TestCase):
 
     def test_exceptional_placement_is_readable_and_addressable(self):
         source = (SOURCE / "bnf-f0248.md").read_text(encoding="utf-8")
+        self.assertIn("bodaino tçutomeuo naſu.", source)
+        self.assertNotIn("tçutomemo", source)
         self.assertIn(
             "[c1-l037 >] *gũ ſenhor principal.* || {mark} *(* || {word}*grande.*",
             source,

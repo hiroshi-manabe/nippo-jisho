@@ -19,6 +19,21 @@ For every passage:
 
 No spelling rule in this guide licenses automatic substitution. The original printing and the Jesuit transcription system both contain variation, anomalous spellings, and errors.
 
+## Review passes
+
+Level 1 is a reasoned diplomatic transcription, not a linguistically blind description of shapes. The scan is already the uninterpreted visual record. Knowledge of historical Japanese, Jesuit romanization, and Portuguese may therefore be used to find and resolve transcription errors, while the Level 1 record itself remains limited to the judged printed reading.
+
+Production review should separate four perspectives so that expectation does not silently become evidence:
+
+1. **Initial visual pass:** record the apparent print in physical order without consulting an external transcription.
+2. **Japanese and romanization pass:** test forms against historical Japanese morphology, syntax, and source-specific spelling patterns. Use implausibility to flag passages for reinspection.
+3. **Portuguese and bilingual-context pass:** test whether the Portuguese gloss and the relationship between both languages expose a likely misreading.
+4. **Final scan confirmation:** inspect every proposed contextual correction again, enlarged when useful, and accept it only if the printed shapes support it.
+
+The second and third passes diagnose possible errors; they do not normalize the text. For example, Japanese context exposes the initial `bodaino tçutomemo naſu` as suspicious, and the scan confirms `bodaino tçutomeuo naſu`. Level 1 records that confirmed printed sequence. Dividing it as `tçutome + uo`, restoring Japanese script, explaining the particle, and translating it belong to later stages.
+
+Page status should distinguish at least an initial visual draft from a contextually reviewed and scan-confirmed transcription. The pilot's broad `trial_reviewed` label predates this workflow and must not be interpreted as a permanent claim that no further contextual correction is possible. A production status vocabulary will be fixed before sequential transcription begins.
+
 ## Practical threshold for uncertainty
 
 Contextual reasoning is part of ordinary visual transcription. A reading need not be marked uncertain merely because a fold, weak impression, or unfamiliar letter made context useful in confirming it. If the surviving shapes and context together yield a reading that a careful reviewer is unlikely to dispute, transcribe it normally.
@@ -80,6 +95,7 @@ At minimum, check these pairs or patterns explicitly during enlarged review:
 - `g` / `q`
 - long `ſ` / `f`
 - `n` / `u`
+- `m` / `u`
 - `i` / `l`
 - one consonant / doubled consonant
 - caron / circumflex / tilde / grave

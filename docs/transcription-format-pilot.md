@@ -82,6 +82,8 @@ The design criterion for Stage 1 is therefore not whether it resolves each struc
 
 Preserving evidence does not require exhaustive uncertainty metadata. The transcription records a secure editorial reading normally even when context helped overcome minor damage. Lightweight span-level uncertainty is used only when the proposed reading remains reasonably disputable; alternatives or an illegible marker are reserved for genuinely unresolved passages. The format must permit detailed notes without requiring them for ordinary difficult reading.
 
+The separation between stages governs recorded information, not the editor's knowledge. After an initial visual pass, Level 1 review deliberately uses historical Japanese, the dictionary's romanization, and Portuguese context to find suspicious readings, followed by renewed scan inspection before any correction is accepted. Morphological segmentation, normalized Japanese, grammatical explanation, and translation are still deferred. The operational sequence is documented in the [Provisional Transcription Reading Guide](transcription-reading-guide.md#review-passes).
+
 The initial hypothesis was one UTF-8 Markdown file per scan page, with machine-readable metadata and explicitly labelled page zones. The first implementation used JSON to make stable references, mixed typeface runs, and validation explicit. Full-page use then confirmed that JSON was dependable but too verbose for routine human authoring. The current [compact Level 1 Markdown candidate](level1-markdown-candidate.md) therefore uses a deliberately small syntax and generates the validated JSON representation.
 
 An illustrative experiment might look like:

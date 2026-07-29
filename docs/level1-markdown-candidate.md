@@ -6,6 +6,8 @@ This is the human-authoring candidate for Level 1 diplomatic transcription. It i
 
 The immediate design priority is faithful, readable, and efficient Level 1 work. Later structural layers are a secondary compatibility concern: Level 1 retains stable references and does not discard visible evidence, but ordinary transcription is not made more complex merely to anticipate a complete Level 2 schema.
 
+Level 1 may be read with the full help of historical Japanese, Jesuit romanization, and Portuguese context. Those perspectives belong in later review passes and can identify a likely visual error, but every resulting correction must be confirmed against the scan. What remains outside Level 1 is the added analysis—morpheme boundaries, normalized Japanese, grammatical interpretation, and translation—not the knowledge used to read the type.
+
 ## Source of truth and generated data
 
 Human editors work in `pilot/format-v1-trial/level1-source/*.md`. The compiler validates these files and generates `level1/*.json` for machine interchange and the existing page renderer. The JSON is not edited independently.
@@ -81,6 +83,8 @@ The compact form retains:
 - non-textual notes for ornaments, later stamps, and similar copy features.
 
 It does not encode entry boundaries, normalize abbreviations, join divided words, reassign displaced text, or translate the source.
+
+The `status` field records review maturity. The current `trial_reviewed` value is deliberately broad; before production it will be replaced or supplemented by states that distinguish initial visual transcription, contextual review, and final scan confirmation. The review procedure is maintained in the [Provisional Transcription Reading Guide](transcription-reading-guide.md#review-passes).
 
 ## Exceptional spans and later compatibility
 
