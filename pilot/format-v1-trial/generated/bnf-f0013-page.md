@@ -78,8 +78,8 @@ A repeated ornamental band is printed above the title; it contains no lexical te
 | `c2-l016` | &emsp;*ha poderſe valer cõ eſte menino que aſſi brin* |  |
 | `c2-l017` | &emsp;*ca, & ſe deſordena ¶* Abareta fito, l, |  |
 | `c2-l018` | &emsp;abaramono. *Homem mal criado, & deſ-* |  |
-| `c2-l019` | &emsp;*concertado, & impetuoſo, &c. ¶* Na- |  |
-| `c2-l020` | &emsp;zuniga abaruru *Andarẽ os raios ſal-* |  |
+| `c2-l019` | &emsp;*concertado, & impetuoſo, &c. ¶* Ne- |  |
+| `c2-l020` | &emsp;zumiga abaruru *Andarẽ os ratos ſal-* |  |
 | `c2-l021` | &emsp;*tando, & correndo. ¶* Xixiga abaruru. |  |
 | `c2-l022` | &emsp;*Viuem os porcos de mato liuremente aos cam-* |  |
 | `c2-l023` | &emsp;*pos, & ſementeiras, & danificalas.* |  |
