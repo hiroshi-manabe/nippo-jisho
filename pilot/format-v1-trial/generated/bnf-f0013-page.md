@@ -86,7 +86,7 @@ A repeated ornamental band is printed above the title; it contains no lexical te
 | `c2-l024` | Abaremono. *Homem deſordenado, mal cria-* |  |
 | `c2-l025` | &emsp;*do, de ruins cuſtumes, &c.* |  |
 | `c2-l026` | Abi, uru, l, abiru, ita. *Lauar o corpo ¶ Vt,* |  |
-| `c2-l027` | &emsp;Yu, mizzuuo abiuru. *Lauar o corpo com* |  |
+| `c2-l027` | &emsp;Yu, mizzuuo aburu. *Lauar o corpo com* |  |
 | `c2-l028` | &emsp;*agoa quente, ou fria.* |  |
 | `c2-l029` | Abigigocu. *Hum Inferno de continos tormen-* |  |
 | `c2-l030` | &emsp;*tos em que nem reſpirar podem os danados.* |  |
