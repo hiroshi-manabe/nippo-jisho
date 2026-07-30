@@ -20,28 +20,28 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l004` | &emsp;*Iapão. ¶* Abumino cutçugomi. *O lugar* |  |
 | `c1-l005` | &emsp;*do eſtribo onde aſenta o pee. ¶* Abumino |  |
 | `c1-l006` | &emsp;caco. *Peſcoço do eſtribo por onde ſe toma* |  |
-| `c1-l007` | &emsp;*ate a fiuela por onde ſe mete o loro. ¶* Abu |  |
-| `c1-l008` | &emsp;mino chicaraqane. *Fiuela do eſtribo, por* |  |
+| `c1-l007` | &emsp;*ate afiuela por onde ſe mete o loro. ¶* Abu |  |
+| `c1-l008` | &emsp;mino chicaragane. *Fiuela do eſtribo, por* |  |
 | `c1-l009` | &emsp;*onde ſe mete o loro. ¶* Abumino ya- |  |
-| `c1-l010` | &emsp;nalba. *Hum debrum de ferro que cerca em* |  |
-| `c1-l011` | &emsp;*roda os eſtribos da parte de baixo. ¶* Abu |  |
+| `c1-l010` | &emsp;naiba. *Hum debrum de ferro que cerca em* |  |
+| `c1-l011` | &emsp;*roda os eſtribos da parte de baxo. ¶* Abu |  |
 | `c1-l012` | &emsp;mino xita ſaqi. *Põta do eſtribo de Iapão* |  |
 | `c1-l013` | Abunai. *Couſa perigoſa, ou poſta a perigo.* |  |
 | `c1-l014` | &emsp;Abunaſa. |  |
 | `c1-l015` | &emsp;Abunǒ. |  |
 | `c1-l016` | Abura. *Gordura, vnto, enxundia, manteiga,* |  |
-| `c1-l017` | &emsp;*toucinho, &c. ¶* Mino abura. *Gordu-* |  |
+| `c1-l017` | &emsp;*touçinho, &c. ¶* Mino abura. *Gordu-* |  |
 | `c1-l018` | &emsp;*ra, ou ſuor que ſae do corpo como azeite.* |  |
 | `c1-l019` | Abura. *Azeite, ou oleo. ¶* Aburauo |  |
 | `c1-l020` | &emsp;xiboru. *Fazer azeite. ¶* Abura de |  |
 | `c1-l021` | &emsp;aguru. *Frigir com azeite. ¶* Aburaga xi |  |
-| `c1-l022` | &emsp;miru. *Fazer nodoa o azeite, ou penetrar.* |  |
-| `c1-l023` | &emsp;*¶ No Ximo ſe diz.* Aburauo funuuru. |  |
+| `c1-l022` | &emsp;mu. *Fazer nodoa o azeite, ou penetrar.* |  |
+| `c1-l023` | &emsp;*¶ No Ximo ſe diz.* Aburauo ſumuru. |  |
 | `c1-l024` | &emsp;*Fazer azeite.* |  |
 | `c1-l025` | Aburadaru. *Barça, ou barril de azeite.* |  |
 | `c1-l026` | Aburafi. *Fogo, ou candea de azeite.* |  |
-| `c1-l027` | Aburagami. *Papel azeitado, ou pastas de* |  |
-| `c1-l028` | &emsp;*papel azeitado de q̃ vſão pera contra a chu-* |  |
+| `c1-l027` | Aburagami. *Papel azeitado, ou paſtas de* |  |
+| `c1-l028` | &emsp;*papel azeitado de q̃ vzão pera contra a chu-* |  |
 | `c1-l029` | &emsp;*ua, ou agoa.* |  |
 | `c1-l030` | Abura ague, l, Abura agueno mono. *Cou-* |  |
 | `c1-l031` | &emsp;*ſa frita em azeite.* |  |
@@ -82,9 +82,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l008` | Aburaſaxi, ſu, aita. *Vntar com azeite, ou* |  |
 | `c2-l009` | &emsp;*unto. ¶* Curumani abura ſaſu. *Vn-* |  |
 | `c2-l010` | &emsp;*tar o exo do carro. S. ¶* Aburauo ſaſu. l, |  |
-| `c2-l011` | &emsp;Aburauotçugu. *Botar azeite como na cã-* |  |
+| `c2-l011` | &emsp;Aburauo tçugu. *Botar azeite como na cã-* |  |
 | `c2-l012` | &emsp;*dea, &c.* |  |
-| `c2-l013` | Aburaſaxi, l, Abura tçugui. *Vaſo com que* |  |
+| `c2-l013` | Aburaſaxi, i, Abura tçugui. *Vaſo com que* |  |
 | `c2-l014` | &emsp;*ſe deita azeite.* |  |
 | `c2-l015` | Aburatçugui, l, aburaſaxi. *Almotolia, ou* |  |
 | `c2-l016` | &emsp;*vaſo pera botar azeite na candea.* |  |
@@ -100,7 +100,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l026` | Aburazzuqi, u, uita. *Pegarſe o ſuor, ou gor-* |  |
 | `c2-l027` | &emsp;*dura do corpo no veſtido, &c. ¶ Itẽ, Ali* |  |
 | `c2-l028` | &emsp;*quando permet. Eſtar pegado, & embebido* |  |
-| `c2-l029` | &emsp;*em algũa couſa que hũm aprende, ou tem in-* |  |
+| `c2-l029` | &emsp;*em algũa couſa que hum aprende, ou tem in-* |  |
 | `c2-l030` | &emsp;*clinação.* |  |
 | `c2-l031` | Aburazzutçu. *Canudo, ou cana em que ſe tẽ* |  |
 | `c2-l032` | &emsp;*o azeite.* |  |
@@ -108,7 +108,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l034` | Aburemono. *Homem audaz, & que não tẽ* |  |
 | `c2-l035` | &emsp;*deuer com nada, nem eſtima a vida, &c.* |  |
 | `c2-l036` | Aburi, ru, utta. *Aſſar. ¶* Miuo aburu. |  |
-| `c2-l037` | &emsp;*Aquentarſe ao fogo. ¶* Teuo aburu. |  |
+| `c2-l037` | &emsp;*Aquẽtarſe ao fogo. ¶* Teuo aburu. |  |
 | `c2-l038` | &emsp;*Aquentar as mãos ao fogo. ¶* Fide monouo |  |
 | `c2-l039` | &emsp;aburu. *Aſſar algũa couſa ao fogo. ¶* Qi- |  |
 | `c2-l040` | &emsp;rumono nadouo fide aburi cauaraguru. |  |

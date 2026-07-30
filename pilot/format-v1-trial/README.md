@@ -54,7 +54,7 @@ python3 -m unittest discover -s tests -v
 8. NINJAL headword data was consulted only after the visual record existed, as a coverage and suspicious-form check.
 9. Generated views and all source references were validated automatically.
 
-This strengthened production procedure was first applied end to end in the [f14 production re-review](../production-review/bnf-f0014.md). The earlier broad `trial_reviewed` labels describe pilot history, not a production-quality guarantee; the remaining legacy pages must pass the same gate before their status is promoted.
+This strengthened production procedure was first applied end to end in the [f14 production re-review](../production-review/bnf-f0014.md), but independent human comparison then found thirteen further corrections. The result did not meet the working quality target. The method now adds explicit token-by-token alignment, a reverse-order glyph sweep, and separate inspection of base letters and marks. The earlier broad `trial_reviewed` labels—and self-assigned `scan_confirmed` alone—describe process history, not a production-quality guarantee.
 
 The older version-0 files remain frozen and were not rewritten. They were useful as error-history and coverage prompts, not as text to convert mechanically.
 

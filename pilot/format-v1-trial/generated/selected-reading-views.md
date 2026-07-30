@@ -5,7 +5,7 @@ They are not independent transcriptions.
 
 ## Abumi entry across f13 and f14
 
-Abumi. Eſtribo. ¶ Abumiuo caquru. Por os eſtribos. ¶ Abumiuo fazzuſu. Tirar os eſtribos ¶ Abumiuo ficayuru. Ter mão no eſtribo pera caualgar. Abumiuo funbaru. Eſtribarſe aleuantandoſe ſobre os eſtribos. ¶ Abumino fatomune. A parte dianteira do eſtribo de Iapão. ¶ Abumino cutçugomi. O lugar do eſtribo onde aſenta o pee. ¶ Abumino caco. Peſcoço do eſtribo por onde ſe toma ate a fiuela por onde ſe mete o loro. ¶ Abumino chicaraqane. Fiuela do eſtribo, por onde ſe mete o loro. ¶ Abumino yanalba. Hum debrum de ferro que cerca em roda os eſtribos da parte de baixo. ¶ Abumino xita ſaqi. Põta do eſtribo de Iapão
+Abumi. Eſtribo. ¶ Abumiuo caquru. Por os eſtribos. ¶ Abumiuo fazzuſu. Tirar os eſtribos ¶ Abumiuo ficayuru. Ter mão no eſtribo pera caualgar. Abumiuo funbaru. Eſtribarſe aleuantandoſe ſobre os eſtribos. ¶ Abumino fatomune. A parte dianteira do eſtribo de Iapão. ¶ Abumino cutçugomi. O lugar do eſtribo onde aſenta o pee. ¶ Abumino caco. Peſcoço do eſtribo por onde ſe toma ate afiuela por onde ſe mete o loro. ¶ Abumino chicaragane. Fiuela do eſtribo, por onde ſe mete o loro. ¶ Abumino yanaiba. Hum debrum de ferro que cerca em roda os eſtribos da parte de baxo. ¶ Abumino xita ſaqi. Põta do eſtribo de Iapão
 
 ## Lowercase aburamono as a structurally independent entry
 
