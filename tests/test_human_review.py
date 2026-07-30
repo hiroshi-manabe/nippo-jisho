@@ -23,7 +23,7 @@ def load_module():
 
 
 class HumanReviewTests(unittest.TestCase):
-    def test_review_record_has_all_transcribed_pages_and_f14_open_corrections(self):
+    def test_review_record_has_all_transcribed_pages_and_f14_confirmation(self):
         module = load_module()
         record = module.load_review_record(REVIEW)
         self.assertEqual(
@@ -31,6 +31,7 @@ class HumanReviewTests(unittest.TestCase):
             [
                 "bnf-f0013",
                 "bnf-f0014",
+                "bnf-f0015",
                 "bnf-f0248",
                 "bnf-f0249",
                 "bnf-f0250",
@@ -42,13 +43,13 @@ class HumanReviewTests(unittest.TestCase):
             for page in record["pages"]
             for unit_id, unit in page["units"].items()
         }
-        self.assertEqual(states[("bnf-f0014", "column-1")], "needs_correction")
-        self.assertEqual(states[("bnf-f0014", "column-2")], "needs_correction")
+        self.assertEqual(states[("bnf-f0014", "column-1")], "checked")
+        self.assertEqual(states[("bnf-f0014", "column-2")], "checked")
         self.assertEqual(
             [status for key, status in states.items() if key[0] != "bnf-f0014"],
-            ["pending"] * 15,
+            ["pending"] * 18,
         )
-        self.assertEqual(states[("bnf-f0014", "furniture")], "pending")
+        self.assertEqual(states[("bnf-f0014", "furniture")], "checked")
 
     def test_generator_builds_dictionary_wide_shell(self):
         module = load_module()

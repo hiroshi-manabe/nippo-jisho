@@ -35,15 +35,15 @@ class Level1MarkdownTests(unittest.TestCase):
             check=False,
         )
         self.assertEqual(result.returncode, 0, result.stderr)
-        self.assertIn("Validated 6 compact Level 1 page records", result.stdout)
+        self.assertIn("Validated 7 compact Level 1 page records", result.stdout)
 
-    def test_all_source_pages_parse_and_retain_526_lines(self):
+    def test_all_source_pages_parse_and_retain_623_lines(self):
         module = load_module()
         pages = [module.parse_markdown(path) for path in sorted(SOURCE.glob("*.md"))]
-        self.assertEqual(len(pages), 6)
+        self.assertEqual(len(pages), 7)
         self.assertEqual(
             sum(len(zone.get("lines", [])) for page in pages for zone in page["zones"]),
-            526,
+            623,
         )
         for page in pages:
             committed = json.loads((JSON_DIR / f"{page['id']}.json").read_text(encoding="utf-8"))
@@ -72,7 +72,7 @@ class Level1MarkdownTests(unittest.TestCase):
 
     def test_strengthened_f14_review_is_retained(self):
         source = (SOURCE / "bnf-f0014.md").read_text(encoding="utf-8")
-        self.assertIn("status: scan_confirmed", source)
+        self.assertIn("status: human_checked", source)
         self.assertIn("mino xita ſaqi.", source)
         self.assertIn("Gordura, vnto, enxundia", source)
         self.assertIn("ate afiuela", source)
@@ -91,6 +91,19 @@ class Level1MarkdownTests(unittest.TestCase):
         self.assertNotIn("mino xita laqi.", source)
         self.assertNotIn("Gordura, unto, enxundia", source)
         self.assertNotIn("q̃ vſão pera contra", source)
+
+    def test_repeated_pass_f15_readings_are_retained(self):
+        source = (SOURCE / "bnf-f0015.md").read_text(encoding="utf-8")
+        self.assertIn("status: scan_confirmed", source)
+        self.assertIn("la menhã cedo", source)
+        self.assertIn("Per met.", source)
+        self.assertIn("briguigõis", source)
+        self.assertIn("Acagauauodoxi", source)
+        self.assertIn("l, ruiuos da", source)
+        self.assertIn("Acajimi, u, jǔda.", source)
+        self.assertIn("¶* Vo\n[c2-l042 >] moteuo", source)
+        self.assertNotIn("briguiçois", source)
+        self.assertNotIn("Vo-", source)
 
     def test_production_simulation_pages_are_scan_confirmed(self):
         f249 = (SOURCE / "bnf-f0249.md").read_text(encoding="utf-8")

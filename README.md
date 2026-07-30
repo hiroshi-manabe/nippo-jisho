@@ -23,7 +23,7 @@ The complete high-resolution source cache can be obtained with the resumable pro
 
 The current high-resolution reading experiment is described in [Tiled Visual Review](docs/tiled-visual-review.md).
 
-The adopted [Level 1 page-transcription format](docs/page-transcription-format-v1-candidate.md) and its [six-page corpus](pilot/format-v1-trial/README.md) now cover 526 physical lines. The [compact Level 1 Markdown format](docs/level1-markdown-candidate.md) is the human-readable authoring form and regenerates the validated machine representation. Adoption evidence and timing are recorded in the [f249–f250 production simulation](pilot/production-simulation/f0249-f0250.md).
+The adopted [Level 1 page-transcription format](docs/page-transcription-format-v1-candidate.md) and its [seven-page corpus](pilot/format-v1-trial/README.md) now cover 623 physical lines. The [compact Level 1 Markdown format](docs/level1-markdown-candidate.md) is the human-readable authoring form and regenerates the validated machine representation. Adoption evidence and timing are recorded in the [f249–f250 production simulation](pilot/production-simulation/f0249-f0250.md), while the first sequential production page is documented in the [f15 repeated-pass report](pilot/production-review/bnf-f0015.md).
 
 The [dictionary-wide human review interface](pilot/human-review/README.md) navigates all 651 acquired Gallica leaves, marks scan-only pages as unprocessed, and presents existing Level 1 pages as scan-and-transcription pairs. Human review is recorded separately for both columns and page furniture.
 
@@ -45,4 +45,4 @@ The completed [Transcription-Format Pilot](docs/transcription-format-pilot.md) s
 
 ## Current status
 
-The project is currently in **Level 1 production preparation**. The format has been adopted, and the immediate work is validating the human review loop before beginning the first bounded sequential batch. See [Project Status](STATUS.md) for the current focus.
+The project is currently in **Level 1 production validation**. The format has been adopted, `f14` has completed human review, and sequential work has begun with a repeatedly checked `f15` awaiting human column review. See [Project Status](STATUS.md) for the current focus.

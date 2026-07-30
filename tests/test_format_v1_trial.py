@@ -29,7 +29,7 @@ class FormatV1TrialTests(unittest.TestCase):
             check=False,
         )
         self.assertEqual(result.returncode, 0, result.stderr)
-        self.assertIn("526 physical lines", result.stdout)
+        self.assertIn("623 physical lines", result.stdout)
 
     def test_generated_views_are_current(self):
         module = load_module()
@@ -98,7 +98,7 @@ class FormatV1TrialTests(unittest.TestCase):
         )
         self.assertIn("|  *(grande.* |", page_view)
 
-    def test_all_six_page_records_are_complete_and_reviewed(self):
+    def test_representative_trial_records_are_complete_and_reviewed(self):
         expected_corrections = {
             "bnf-f0248": [
                 "Goxǒuo taſucaru.",

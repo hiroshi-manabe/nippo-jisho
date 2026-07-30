@@ -4,9 +4,9 @@ Last updated: 2026-07-31
 
 ## Current phase
 
-**Level 1 format adopted — production preparation**
+**Level 1 format adopted — sequential production validation**
 
-The transcription-format pilot is complete. The project has adopted Level 1 Markdown format version 1 after a six-page corpus test and a timed two-page simulation on previously untranscribed consecutive pages. This begins production preparation for Stage 1 of the [Four-Stage Project Roadmap](docs/four-stage-roadmap.md); broad sequential transcription has not yet begun.
+The transcription-format pilot is complete. The project adopted Level 1 Markdown format version 1 after a six-page corpus test and a timed two-page simulation on previously untranscribed consecutive pages. Sequential Stage 1 production has now begun with `f15`, following human confirmation of the revised `f14`; the method is still being validated before production scales.
 
 The detailed purpose, method, and completion criteria are defined in the [Transcription-Format Pilot](docs/transcription-format-pilot.md).
 
@@ -28,7 +28,7 @@ The uncertainty policy is intentionally lightweight. Context may support an ordi
 
 Targeted enlargement is nevertheless a routine review step for any locally difficult span, regardless of the standard tile size. Reviewers return to the surrounding context after enlargement; only doubt that survives both views is marked in the transcription.
 
-The adopted [page-transcription format](docs/page-transcription-format-v1-candidate.md) has now been exercised in a [six-page corpus](pilot/format-v1-trial/README.md). Complete physical-order records for `bnf-f0013`, `bnf-f0014`, `bnf-f0248`, `bnf-f0249`, `bnf-f0250`, and `bnf-f0643` comprise 526 physical lines. The [Level 1 Markdown authoring form](docs/level1-markdown-candidate.md) regenerates the validated JSON and page views deterministically.
+The adopted [page-transcription format](docs/page-transcription-format-v1-candidate.md) has now been exercised in a [seven-page corpus](pilot/format-v1-trial/README.md). The six-page adoption baseline has been extended by sequential page `bnf-f0015`; the complete physical-order records now comprise 623 physical lines. The [Level 1 Markdown authoring form](docs/level1-markdown-candidate.md) regenerates the validated JSON and page views deterministically.
 
 The compact files preserve stable physical-line references, typeface, relative indentation, page furniture, and exceptional placement while remaining directly readable. JSON is generated machine interchange rather than a hand-authoring format. A small structural test remains only to confirm that Level 1 has not discarded necessary evidence; designing Level 2 and later layers is a secondary concern. Lightweight uncertainty notation has still not encountered a genuinely unresolved reading and will be added only when evidence requires it.
 
@@ -38,13 +38,15 @@ A follow-up [contextual-review experiment](pilot/contextual-review/f0248-f0643.m
 
 The decisive [f249–f250 production simulation](pilot/production-simulation/f0249-f0250.md) added 196 physical lines without requiring new syntax. Measured pass time was 10 minutes for two pages, but a completion audit and later reader review found additional errors, so this is not yet a final-quality rate. Sixteen initial readings were corrected while contextually odd but visibly printed forms were preserved. The post-simulation corrections from `vgogu` to printed `vgoqu` and from `inacu` to `macu` demonstrate that the Japanese morphology and bilingual-context passes must actively test even visually plausible forms. Cross-page catchwords and a second displaced-text example also remained auditable.
 
-The first strengthened production re-review has now been evaluated through human review on [`f14`](pilot/production-review/bnf-f0014.md). Although the pre-review found three corrections and ended with a nominal zero-new-candidate sweep, the human comparison found thirteen more. These include modern-language regularizations (`baxo`, `touçinho`, `ximu`), exact-spacing errors, long-`ſ` and `z` confusions, and a silently expanded `ẽ` abbreviation. This greatly exceeds the two-or-three correction target, so the method failed its first quality test. The procedure now requires explicit token alignment, a reverse-order glyph sweep, and independent base-letter/mark checks before production scales. Both f14 column units remain open for correction recheck.
+The first strengthened production re-review was evaluated through human review on [`f14`](pilot/production-review/bnf-f0014.md). Although the pre-review found three corrections and ended with a nominal zero-new-candidate sweep, the human comparison found thirteen more. These include modern-language regularizations (`baxo`, `touçinho`, `mu`), exact-spacing errors, long-`ſ` and `z` confusions, and a silently expanded `ẽ` abbreviation. This greatly exceeded the two-or-three correction target. The corrections have now been applied and the project owner has confirmed both columns and the furniture, making `f14` the first `human_checked` page.
 
-A generated [dictionary-wide human review interface](pilot/human-review/README.md) now covers all 651 acquired leaves. The six Level 1 pages present a high-resolution scan beside rendered or literal transcription; the other 645 leaves retain immediate scan access and an explicit `unprocessed` state. Previous/next controls, direct leaf entry, stable page-and-column links, and reloadable generated data allow transcription and human checking to proceed asynchronously. The 18 human-review units began as `pending`; f14's two column units are now `needs_correction` until the regenerated readings are checked. Each physical line can copy its stable reference and current text into the project chat, which remains the intentionally simple correction interface. Corrections reopen only the affected unit; a page becomes `human_checked` after both columns and page furniture carry reviewer provenance.
+The next page, [`f15`](pilot/production-review/bnf-f0015.md), was transcribed directly from the scan with additional independent passes: forward token alignment, Japanese, Portuguese, bilingual context, reverse-order glyph inspection, separate mark inspection, headword coverage, and a fresh final sweep. These passes caught forms including `menhã`, `Per met.`, `briguigõis`, `ruiuos`, and `jǔda` before handoff. Its 97 physical lines are `scan_confirmed` and now await the project owner's column-by-column check; that correction yield will determine whether the repeated-pass method reaches the working target.
+
+A generated [dictionary-wide human review interface](pilot/human-review/README.md) now covers all 651 acquired leaves. The seven Level 1 pages present a high-resolution scan beside rendered or literal transcription; the other 644 leaves retain immediate scan access and an explicit `unprocessed` state. Previous/next controls, direct leaf entry, stable page-and-column links, and reloadable generated data allow transcription and human checking to proceed asynchronously. The review registry now contains 21 resumable units: all three `f14` units are checked and the three new `f15` units are pending. Each physical line can copy its stable reference and current text into the project chat, which remains the intentionally simple correction interface.
 
 ## Current objective
 
-Validate the strengthened pre-review procedure and human column-review loop on the existing Level 1 pages, then prepare the first sequential Level 1 production batch. The immediate objective is repeatable quality control supporting:
+Measure the human correction yield on repeatedly checked `f15`, refine the procedure from that evidence, and continue the first bounded sequential Level 1 production batch. The immediate objective is repeatable quality control supporting:
 
 1. A page-oriented reading and verification view
 2. Efficient source-faithful editing in physical order
@@ -68,8 +70,8 @@ Validate the strengthened pre-review procedure and human column-review loop on t
 
 ## Production progress
 
-The adoption corpus contains six complete pages and 526 physical lines. Most human-review units remain pending; both f14 columns are open for correction recheck after the first human pass. `f249` and `f250` retain the earlier production `scan_confirmed` status but should be re-evaluated against the revised procedure. The other 645 acquired leaves appear as `unprocessed` in the review UI. The corpus remains an adoption and workflow baseline rather than the first declared sequential release batch.
+The Level 1 corpus contains seven complete pages and 623 physical lines. `f14` is human-checked; sequential `f15` is scan-confirmed and awaits human review. `f249` and `f250` retain the earlier production `scan_confirmed` status but should be re-evaluated against the revised procedure. The other 644 acquired leaves appear as `unprocessed` in the review UI.
 
 ## Next phase
 
-Complete and evaluate human review on the existing Level 1 pages, adjust the interface only where actual use requires it, and then begin the first bounded sequential Level 1 batch. Newly generated pages can appear in the same corpus UI while earlier pages are still being checked. A smaller end-to-end pilot will separately test the entry schema, Japanese restoration, translation, and public-edition requirements without delaying publishable Level 1 progress.
+Complete and evaluate human review on `f15`, adjust the repeated-pass routine only where the measured correction yield requires it, and continue sequentially. Newly generated pages can appear in the same corpus UI while earlier pages are still being checked. A smaller end-to-end pilot will separately test the entry schema, Japanese restoration, translation, and public-edition requirements without delaying publishable Level 1 progress.
