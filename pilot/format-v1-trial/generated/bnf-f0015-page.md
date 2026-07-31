@@ -34,14 +34,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l018` | &emsp;*çujidade.* Acauo votoſu. *Tirar a çuji-* |  |
 | `c1-l019` | &emsp;*dade do corpo, &c. ¶* Acano nuqeta. |  |
 | `c1-l020` | &emsp;*Se diz de hũa obra prima, & bẽ acaba-* |  |
-| `c1-l021` | &emsp;*da. ¶* Acauo nuqeta te. *Letra fer-* |  |
+| `c1-l021` | &emsp;*da. ¶* Acano nuqeta te. *Letra fer-* |  |
 | `c1-l022` | &emsp;*moſa, limpa, & bem talhada.* |  |
 | `c1-l023` | Aca, l, yu. *Agoa da bomba. ¶* Acauo |  |
 | `c1-l024` | &emsp;toru. *Dar à bomba. ¶* Acaga iru. *Fazer* |  |
 | `c1-l025` | &emsp;*a embarcação agoa.* |  |
 | `c1-l026` | Aca, l, Acano mizzu. *Certa agoa que pol-* |  |
-| `c1-l027` | &emsp;*la menhã cedo ſe offerece aos Fotoques.* |  |
-| `c1-l028` | &emsp;*¶* Acamuſubu, l, acano mizzuuo mu- |  |
+| `c1-l027` | &emsp;*la menhaã cedo ſe offerece aos Fotoques.* |  |
+| `c1-l028` | &emsp;*¶* Aca muſubu, l, acano mizzuuo mu- |  |
 | `c1-l029` | &emsp;ſubu. *Tirar, ou tomar eſta agoa da fon-* |  |
 | `c1-l030` | &emsp;*te, rio, &c.* |  |
 | `c1-l031` | Acabana. *Certo peixe do mar de bom ſabor.* |  |
@@ -74,8 +74,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l001` | &emsp;*tudo, & deſpojarão no.* |  |
 | `c2-l002` | Acafata. *Bandeira vermelha.* |  |
 | `c2-l003` | Acafigue. *Barbaruiua.* |  |
-| `c2-l004` | Acagai. *Certa laya de briguigõis vermelhos.* |  |
-| `c2-l005` | &emsp;Acagaiuo toru. *Apanhar eſtes briguigõis* |  |
+| `c2-l004` | Acagai. *Certa laya de briguigoĩs vermelhos.* |  |
+| `c2-l005` | &emsp;Acagaiuo toru. *Apanhar eſtes briguigoĩs* |  |
 | `c2-l006` | Acagane. *Cobre.* |  |
 | `c2-l007` | Acagari. *Gretas grandes cauſadas do frio, ou* |  |
 | `c2-l008` | &emsp;*de doença nos pees, & mãos. ¶* Acaga- |  |
@@ -86,8 +86,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l013` | Acagauo. *Roſto vermelho. ¶* Acagauo |  |
 | `c2-l014` | &emsp;no fito. *Homẽ de roſto vermelho.* |  |
 | `c2-l015` | Acagaxira. *Cabellos vermelhos, l, ruiuos da* |  |
-| `c2-l016` | &emsp;*cabeça. ¶ Itẽ, Hũs rabos de vacas ver-* |  |
-| `c2-l017` | &emsp;*melhos, que chamão comballus que poem na* |  |
+| `c2-l016` | &emsp;*cabeça. ¶ Itẽ, Huns rabos de vacas ver-* |  |
+| `c2-l017` | &emsp;*melhos, que chamão comballas que poem na* |  |
 | `c2-l018` | &emsp;*cimeira do capacete. ¶ Item, Hum paſſa-* |  |
 | `c2-l019` | &emsp;*ro dagoa.* |  |
 | `c2-l020` | Acagi. *Campo vermelho empeças. Vt* Aca- |  |
@@ -100,7 +100,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l027` | Acagome. *Arroz vermelho.* |  |
 | `c2-l028` | Acai. *Couſa vermelha.* |  |
 | `c2-l029` | Acai. *Couſa clara, l, lucida. ¶* Acai |  |
-| `c2-l030` | &emsp;vchini tçugu. *Chegar com de dia.* |  |
+| `c2-l030` | &emsp;vchini tçugu. *Chegar com dedia.* |  |
 | `c2-l031` | &emsp;Acaſa. |  |
 | `c2-l032` | &emsp;Acǒ. |  |
 | `c2-l033` | Acajimi, u, jǔda. *çujarſe o veſtido com a* |  |
@@ -115,8 +115,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l042` | &emsp;moteuo acamuru, l, Acameuo tçuru. |  |
 | `c2-l043` | &emsp;*Enuergonharſe, ou fazerſe vermelho de ver-* |  |
 | `c2-l044` | &emsp;*gonha. ¶ Tambem ſe diz no Ximo aca-* |  |
-| `c2-l045` | &emsp;meuo ſuru. |  |
-| `c2-l046` | Acamedai. *Hũ peixe vermelho aſſi chamado.* |  |
+| `c2-l045` | &emsp;meuo faru. |  |
+| `c2-l046` | Acamedai. *Hũ peixe vermelho aſsi chamado.* |  |
 | `c2-l047` | Acami, u. *Fazerſe vermelho.* |  |
 
 ## Signature

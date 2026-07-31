@@ -40,13 +40,13 @@ The decisive [f249–f250 production simulation](pilot/production-simulation/f02
 
 The first strengthened production re-review was evaluated through human review on [`f14`](pilot/production-review/bnf-f0014.md). Although the pre-review found three corrections and ended with a nominal zero-new-candidate sweep, the human comparison found thirteen more. These include modern-language regularizations (`baxo`, `touçinho`, `mu`), exact-spacing errors, long-`ſ` and `z` confusions, and a silently expanded `ẽ` abbreviation. This greatly exceeded the two-or-three correction target. The corrections have now been applied and the project owner has confirmed both columns and the furniture, making `f14` the first `human_checked` page.
 
-The next page, [`f15`](pilot/production-review/bnf-f0015.md), was transcribed directly from the scan with additional independent passes: forward token alignment, Japanese, Portuguese, bilingual context, reverse-order glyph inspection, separate mark inspection, headword coverage, and a fresh final sweep. These passes caught forms including `menhã`, `Per met.`, `briguigõis`, `ruiuos`, and `jǔda` before handoff. Its 97 physical lines are `scan_confirmed` and now await the project owner's column-by-column check; that correction yield will determine whether the repeated-pass method reaches the working target.
+The next page, [`f15`](pilot/production-review/bnf-f0015.md), was transcribed directly from the scan with additional independent passes: forward token alignment, Japanese, Portuguese, bilingual context, reverse-order glyph inspection, separate mark inspection, headword coverage, and a fresh final sweep. Those passes caught several errors before handoff, but the project owner's comparison still found ten corrections, including `Acano`, `menhaã`, `Aca muſubu`, `briguigoĩs`, `comballas`, `dedia`, `faru`, and `aſsi`. Repetition alone therefore did not reach the working target. Both corrected column units now await recheck; page furniture remains pending.
 
-A generated [dictionary-wide human review interface](pilot/human-review/README.md) now covers all 651 acquired leaves. The seven Level 1 pages present a high-resolution scan beside rendered or literal transcription; the other 644 leaves retain immediate scan access and an explicit `unprocessed` state. Previous/next controls, direct leaf entry, stable page-and-column links, and reloadable generated data allow transcription and human checking to proceed asynchronously. The review registry now contains 21 resumable units: all three `f14` units are checked and the three new `f15` units are pending. Each physical line can copy its stable reference and current text into the project chat, which remains the intentionally simple correction interface.
+A generated [dictionary-wide human review interface](pilot/human-review/README.md) now covers all 651 acquired leaves. The seven Level 1 pages present a high-resolution scan beside rendered or literal transcription; the other 644 leaves retain immediate scan access and an explicit `unprocessed` state. Previous/next controls, direct leaf entry, stable page-and-column links, and reloadable generated data allow transcription and human checking to proceed asynchronously. The review registry now contains 21 resumable units: all three `f14` units are checked, both corrected `f15` columns need recheck, and `f15` furniture is pending. Each physical line can copy its stable reference and current text into the project chat, which remains the intentionally simple correction interface.
 
 ## Current objective
 
-Measure the human correction yield on repeatedly checked `f15`, refine the procedure from that evidence, and continue the first bounded sequential Level 1 production batch. The immediate objective is repeatable quality control supporting:
+Recheck the corrected `f15` columns, refine the procedure from its ten-correction human yield, and continue the first bounded sequential Level 1 production batch. The immediate objective is repeatable quality control supporting:
 
 1. A page-oriented reading and verification view
 2. Efficient source-faithful editing in physical order
@@ -70,7 +70,7 @@ Measure the human correction yield on repeatedly checked `f15`, refine the proce
 
 ## Production progress
 
-The Level 1 corpus contains seven complete pages and 623 physical lines. `f14` is human-checked; sequential `f15` is scan-confirmed and awaits human review. `f249` and `f250` retain the earlier production `scan_confirmed` status but should be re-evaluated against the revised procedure. The other 644 acquired leaves appear as `unprocessed` in the review UI.
+The Level 1 corpus contains seven complete pages and 623 physical lines. `f14` is human-checked; sequential `f15` has been corrected after human comparison and both columns await recheck. `f249` and `f250` retain the earlier production `scan_confirmed` status but should be re-evaluated against the revised procedure. The other 644 acquired leaves appear as `unprocessed` in the review UI.
 
 ## Next phase
 

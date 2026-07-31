@@ -45,9 +45,16 @@ class HumanReviewTests(unittest.TestCase):
         }
         self.assertEqual(states[("bnf-f0014", "column-1")], "checked")
         self.assertEqual(states[("bnf-f0014", "column-2")], "checked")
+        self.assertEqual(states[("bnf-f0015", "column-1")], "needs_correction")
+        self.assertEqual(states[("bnf-f0015", "column-2")], "needs_correction")
+        self.assertEqual(states[("bnf-f0015", "furniture")], "pending")
         self.assertEqual(
-            [status for key, status in states.items() if key[0] != "bnf-f0014"],
-            ["pending"] * 18,
+            [
+                status
+                for key, status in states.items()
+                if key[0] not in {"bnf-f0014", "bnf-f0015"}
+            ],
+            ["pending"] * 15,
         )
         self.assertEqual(states[("bnf-f0014", "furniture")], "checked")
 

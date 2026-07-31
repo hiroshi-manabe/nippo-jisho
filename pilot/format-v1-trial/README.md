@@ -57,7 +57,7 @@ python3 -m unittest discover -s tests -v
 
 This strengthened production procedure was first applied end to end in the [f14 production re-review](../production-review/bnf-f0014.md), but independent human comparison then found thirteen further corrections. The result did not meet the working quality target. The method now adds explicit token-by-token alignment, a reverse-order glyph sweep, and separate inspection of base letters and marks. The earlier broad `trial_reviewed` labels—and self-assigned `scan_confirmed` alone—describe process history, not a production-quality guarantee.
 
-The first sequential application is recorded in the [f15 repeated-pass report](../production-review/bnf-f0015.md). Multiple separate passes caught historical `menhã`, source `ruiuos`, `briguigõis`, the caron in `jǔda`, source spacing, and an invented line-end hyphen before the human checkpoint. Whether this reaches the two-or-three correction target remains for independent human review to decide.
+The first sequential application is recorded in the [f15 repeated-pass report](../production-review/bnf-f0015.md). Multiple separate passes caught several errors before the human checkpoint, but independent comparison still found ten corrections, including faint `menhaã`, tilde placement in `briguigoĩs`, source spacing, `comballas`, `faru`, and the `ſs` sequence in `aſsi`. The method therefore remained above the two-or-three correction target.
 
 The older version-0 files remain frozen and were not rewritten. They were useful as error-history and coverage prompts, not as text to convert mechanically.
 
