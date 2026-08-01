@@ -22,7 +22,7 @@ A repeated ornamental band is printed above the title; it contains no lexical te
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c1-l001` | **A** NOME *de hũa das 47.* |  |
-| `c1-l002` | &emsp;*Syllabas do alfabeto Iaponi=* |  |
+| `c1-l002` | &emsp;*Syllabas do alfabeto Iaponi-* |  |
 | `c1-l003` | &emsp;*co q̃ começa,* I, RO. FA, |  |
 | `c1-l004` | &emsp;*¶ Item,* A, *primeira das* |  |
 | `c1-l005` | &emsp;*cinco vogais de Iapão, q̃ ſão* |  |

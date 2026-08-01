@@ -70,6 +70,11 @@ class Level1MarkdownTests(unittest.TestCase):
         self.assertNotIn("bocezinha", source)
         self.assertNotIn("deſiguais", source)
 
+    def test_line_division_sign_is_uniform_across_typefaces(self):
+        source = (SOURCE / "bnf-f0013.md").read_text(encoding="utf-8")
+        self.assertIn("Iaponi-*", source)
+        self.assertNotIn("Iaponi=", source)
+
     def test_strengthened_f14_review_is_retained(self):
         source = (SOURCE / "bnf-f0014.md").read_text(encoding="utf-8")
         self.assertIn("status: human_checked", source)
@@ -121,9 +126,11 @@ class Level1MarkdownTests(unittest.TestCase):
         self.assertNotIn("acamiga fa-", source)
         self.assertIn("ou dẽpres*", source)
         self.assertNotIn("dẽpres-*", source)
-        self.assertIn("bom lume. ¶* A=", source)
+        self.assertIn("bom lume. ¶* A-", source)
         self.assertIn("eſtaua tol*", source)
-        self.assertIn("diante da cla=*", source)
+        self.assertIn("diante da cla-*", source)
+        self.assertNotIn("A=", source)
+        self.assertNotIn("cla=", source)
         self.assertIn("*entrar a claridade*\n[c1-l046]", source)
         self.assertIn("cobrem a ſel*", source)
         self.assertIn("Fiuo aca-", source)

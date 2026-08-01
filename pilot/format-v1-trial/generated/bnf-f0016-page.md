@@ -51,11 +51,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l035` | &emsp;*em publico. ¶* Acariga ſaſu. *Entrar* |  |
 | `c1-l036` | &emsp;*a claridade.* |  |
 | `c1-l037` | Acari, u, atta. *Dar luz, ou reſplandecer.* |  |
-| `c1-l038` | &emsp;*¶ Item, Dar a candea bom lume. ¶* A= |  |
+| `c1-l038` | &emsp;*¶ Item, Dar a candea bom lume. ¶* A- |  |
 | `c1-l039` | &emsp;carta. *Eſclareceo o tempo que eſtaua tol* |  |
 | `c1-l040` | &emsp;*dado, ou chuuoſo.* |  |
 | `c1-l041` | Acarisaqi. *Diante da claridade. ¶ Vt,* |  |
-| `c1-l042` | &emsp;Acarisaqini tatçu. *Porſe diante da cla=* |  |
+| `c1-l042` | &emsp;Acarisaqini tatçu. *Porſe diante da cla-* |  |
 | `c1-l043` | &emsp;*ridade, ou impedilla.* |  |
 | `c1-l044` | Acaritori. *Freſta do terrado, l, telhado pera* |  |
 | `c1-l045` | &emsp;*entrar a claridade* |  |
