@@ -1,9 +1,7 @@
 const state = { corpus: null, byLeaf: new Map(), currentPage: null, unit: 'page', edits: {} };
 const pageImageCache = new Map();
-const PAGE_IMAGE_CACHE_RADIUS = 2;
 const CURRENT_IMAGE_RETRY_DELAYS = [0, 1500, 4000];
-const NEIGHBOR_PRELOAD_DELAY = 900;
-let imagePreloadGeneration = 0;
+let imageLoadGeneration = 0;
 const $ = selector => document.querySelector(selector);
 const escapeHTML = value => String(value).replace(/[&<>"']/g, character => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[character]));
 
@@ -35,11 +33,6 @@ function delay(milliseconds) {
   return new Promise(resolve => setTimeout(resolve, milliseconds));
 }
 
-function waitForBrowserIdle() {
-  if (!('requestIdleCallback' in window)) return delay(0);
-  return new Promise(resolve => requestIdleCallback(resolve, {timeout: 1500}));
-}
-
 function setScanStatus(message, retry = false) {
   document.querySelectorAll('.scan-status').forEach(node => { node.textContent = message; });
   document.querySelectorAll('.scan-retry').forEach(node => { node.classList.toggle('hidden', !retry); });
@@ -53,20 +46,6 @@ function showRetainedPageImage(page) {
   setScanStatus('Loaded through IIIF');
 }
 
-async function preloadNeighbors(leaf, generation) {
-  if (navigator.connection?.saveData) return;
-  await waitForBrowserIdle();
-  const candidates = [leaf - 1, leaf + 1, leaf - 2, leaf + 2];
-  for (const candidate of candidates) {
-    if (generation !== imagePreloadGeneration || state.currentPage?.leaf !== leaf) return;
-    const page = state.byLeaf.get(candidate);
-    if (!page || pageImageCache.get(candidate)?.status === 'loaded') continue;
-    await delay(NEIGHBOR_PRELOAD_DELAY);
-    if (generation !== imagePreloadGeneration || state.currentPage?.leaf !== leaf) return;
-    await retainPageImage(page).ready;
-  }
-}
-
 async function loadCurrentPageImage(page, generation) {
   for (let attempt = 0; attempt < CURRENT_IMAGE_RETRY_DELAYS.length; attempt++) {
     const retryDelay = CURRENT_IMAGE_RETRY_DELAYS[attempt];
@@ -74,30 +53,22 @@ async function loadCurrentPageImage(page, generation) {
       setScanStatus(`Retrying Gallica scan (${attempt + 1}/${CURRENT_IMAGE_RETRY_DELAYS.length})…`);
       await delay(retryDelay);
     }
-    if (generation !== imagePreloadGeneration || state.currentPage?.leaf !== page.leaf) return;
+    if (generation !== imageLoadGeneration || state.currentPage?.leaf !== page.leaf) return;
     const entry = retainPageImage(page, 'high');
     if (await entry.ready) {
-      if (generation !== imagePreloadGeneration || state.currentPage?.leaf !== page.leaf) return;
+      if (generation !== imageLoadGeneration || state.currentPage?.leaf !== page.leaf) return;
       showRetainedPageImage(page);
-      void preloadNeighbors(page.leaf, generation);
       return;
     }
   }
-  if (generation === imagePreloadGeneration && state.currentPage?.leaf === page.leaf) {
+  if (generation === imageLoadGeneration && state.currentPage?.leaf === page.leaf) {
     setScanStatus('Gallica scan unavailable', true);
     toast('The Gallica image could not be loaded. Retry when ready.');
   }
 }
 
 function updatePageImageCache(leaf) {
-  const generation = ++imagePreloadGeneration;
-  const retainedLeaves = new Set();
-  for (let candidate = leaf - PAGE_IMAGE_CACHE_RADIUS; candidate <= leaf + PAGE_IMAGE_CACHE_RADIUS; candidate++) {
-    if (state.byLeaf.has(candidate)) retainedLeaves.add(candidate);
-  }
-  for (const cachedLeaf of pageImageCache.keys()) {
-    if (!retainedLeaves.has(cachedLeaf)) pageImageCache.delete(cachedLeaf);
-  }
+  const generation = ++imageLoadGeneration;
   setScanStatus('Loading from Gallica…');
   void loadCurrentPageImage(state.byLeaf.get(leaf), generation);
 }
