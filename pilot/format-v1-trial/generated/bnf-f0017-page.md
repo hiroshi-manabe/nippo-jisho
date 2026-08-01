@@ -77,12 +77,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l003` | Acufiǒ. *Ruim frecheiro.* |  |
 | `c2-l004` | Acufit. Axij fude. *Ruim eſcriuão, ou ru-* |  |
 | `c2-l005` | &emsp;*im letra.* |  |
-| `c2-l006` | Acufô. Axij nori. *Ruim feito, ou lei.* |  |
+| `c2-l006` | Acufô. Axij nori. *Ruim feita, ou lei.* |  |
 | `c2-l007` | Acufǒ. *Ruim parte, ou rumo, ou de ruim* |  |
 | `c2-l008` | &emsp;*pronoſtico.* |  |
 | `c2-l009` | Acufǔ. Axij caje. *Vento contrario.* |  |
 | `c2-l010` | &emsp;*¶* Acufǔga vocoru. *Aleuantarſe ruim* |  |
-| `c2-l011` | &emsp;*vento. ¶* Acufǔni fanasaxuru. *Deſgar-* |  |
+| `c2-l011` | &emsp;*vento. ¶* Acufǔni fanaſaruru. *Deſgar-* |  |
 | `c2-l012` | &emsp;*rar com ruim vento.* |  |
 | `c2-l013` | Acugi. Axij tçuchi. *Terra ruim, &* |  |
 | `c2-l014` | &emsp;*eſteril.* |  |
@@ -92,14 +92,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l018` | Acuguen. Axij cotoba. *Mas palauras.* |  |
 | `c2-l019` | Acuguiacu. *Maldades. ¶* Acuguiacu butǒ. |  |
 | `c2-l020` | &emsp;*Maldade, ou deſaforamento. ¶* Acu- |  |
-| `c2-l021` | &emsp;guiacu burǒnaru mono. *Peſſoa de grã-* |  |
+| `c2-l021` | &emsp;guiacu butǒnaru mono. *Peſſoa de grã-* |  |
 | `c2-l022` | &emsp;*des vicios diſſolutos, &c.* |  |
 | `c2-l023` | Acuguio. Axij vuo. *Ruim peixe, ou que* |  |
 | `c2-l024` | &emsp;*faz mal.* |  |
 | `c2-l025` | Acuguiǒ. Axij voconai. *Ruins obras.* |  |
 | `c2-l026` | Acugô. Axij xiuaza. *Ruins obras, ou* |  |
 | `c2-l027` | &emsp;*maldades.* |  |
-| `c2-l028` | Acugon. Axij cotoba. *Mas palauras.* |  |
+| `c2-l028` | Acugon. Axij cotoba. *Más palauras.* |  |
 | `c2-l029` | Acuin. Acuno chinami. *Ruins penſamen-* |  |
 | `c2-l030` | &emsp;*tos, ou obras que ſe fazem neſta vida, ou* |  |
 | `c2-l031` | &emsp;*fizerão noutra idade, ou nacimento,como cui-* |  |
