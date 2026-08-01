@@ -1,6 +1,8 @@
 const state = { corpus: null, byLeaf: new Map(), currentPage: null, unit: 'page', edits: {} };
 const pageImageCache = new Map();
 const PAGE_IMAGE_CACHE_RADIUS = 2;
+const CURRENT_IMAGE_RETRY_DELAYS = [0, 1500, 4000];
+const NEIGHBOR_PRELOAD_DELAY = 900;
 let imagePreloadGeneration = 0;
 const $ = selector => document.querySelector(selector);
 const escapeHTML = value => String(value).replace(/[&<>"']/g, character => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[character]));
@@ -14,14 +16,77 @@ function retainPageImage(page, priority = 'low') {
   const image = new Image();
   image.decoding = 'async';
   image.fetchPriority = priority;
+  entry = {image, status: 'loading', ready: null};
   const ready = new Promise(resolve => {
-    image.addEventListener('load', () => resolve(true), {once: true});
-    image.addEventListener('error', () => resolve(false), {once: true});
+    image.addEventListener('load', () => { entry.status = 'loaded'; resolve(true); }, {once: true});
+    image.addEventListener('error', () => {
+      entry.status = 'error';
+      if (pageImageCache.get(page.leaf) === entry) pageImageCache.delete(page.leaf);
+      resolve(false);
+    }, {once: true});
   });
-  entry = {image, ready};
+  entry.ready = ready;
   pageImageCache.set(page.leaf, entry);
   image.src = page.iiif;
   return entry;
+}
+
+function delay(milliseconds) {
+  return new Promise(resolve => setTimeout(resolve, milliseconds));
+}
+
+function waitForBrowserIdle() {
+  if (!('requestIdleCallback' in window)) return delay(0);
+  return new Promise(resolve => requestIdleCallback(resolve, {timeout: 1500}));
+}
+
+function setScanStatus(message, retry = false) {
+  document.querySelectorAll('.scan-status').forEach(node => { node.textContent = message; });
+  document.querySelectorAll('.scan-retry').forEach(node => { node.classList.toggle('hidden', !retry); });
+}
+
+function showRetainedPageImage(page) {
+  if (state.currentPage?.leaf !== page.leaf) return;
+  document.querySelectorAll('img[data-iiif-page]').forEach(image => {
+    if (image.dataset.iiifPage === page.iiif && image.src !== page.iiif) image.src = page.iiif;
+  });
+  setScanStatus('Loaded through IIIF');
+}
+
+async function preloadNeighbors(leaf, generation) {
+  if (navigator.connection?.saveData) return;
+  await waitForBrowserIdle();
+  const candidates = [leaf - 1, leaf + 1, leaf - 2, leaf + 2];
+  for (const candidate of candidates) {
+    if (generation !== imagePreloadGeneration || state.currentPage?.leaf !== leaf) return;
+    const page = state.byLeaf.get(candidate);
+    if (!page || pageImageCache.get(candidate)?.status === 'loaded') continue;
+    await delay(NEIGHBOR_PRELOAD_DELAY);
+    if (generation !== imagePreloadGeneration || state.currentPage?.leaf !== leaf) return;
+    await retainPageImage(page).ready;
+  }
+}
+
+async function loadCurrentPageImage(page, generation) {
+  for (let attempt = 0; attempt < CURRENT_IMAGE_RETRY_DELAYS.length; attempt++) {
+    const retryDelay = CURRENT_IMAGE_RETRY_DELAYS[attempt];
+    if (retryDelay) {
+      setScanStatus(`Retrying Gallica scan (${attempt + 1}/${CURRENT_IMAGE_RETRY_DELAYS.length})…`);
+      await delay(retryDelay);
+    }
+    if (generation !== imagePreloadGeneration || state.currentPage?.leaf !== page.leaf) return;
+    const entry = retainPageImage(page, 'high');
+    if (await entry.ready) {
+      if (generation !== imagePreloadGeneration || state.currentPage?.leaf !== page.leaf) return;
+      showRetainedPageImage(page);
+      void preloadNeighbors(page.leaf, generation);
+      return;
+    }
+  }
+  if (generation === imagePreloadGeneration && state.currentPage?.leaf === page.leaf) {
+    setScanStatus('Gallica scan unavailable', true);
+    toast('The Gallica image could not be loaded. Retry when ready.');
+  }
 }
 
 function updatePageImageCache(leaf) {
@@ -33,21 +98,8 @@ function updatePageImageCache(leaf) {
   for (const cachedLeaf of pageImageCache.keys()) {
     if (!retainedLeaves.has(cachedLeaf)) pageImageCache.delete(cachedLeaf);
   }
-  const current = retainPageImage(state.byLeaf.get(leaf), 'high');
-  current.ready.then(() => {
-    if (generation !== imagePreloadGeneration || state.currentPage?.leaf !== leaf) return;
-    const preloadNeighbors = () => {
-      if (generation !== imagePreloadGeneration || state.currentPage?.leaf !== leaf) return;
-      for (let distance = 1; distance <= PAGE_IMAGE_CACHE_RADIUS; distance++) {
-        for (const candidate of [leaf - distance, leaf + distance]) {
-          const page = state.byLeaf.get(candidate);
-          if (page) retainPageImage(page);
-        }
-      }
-    };
-    if ('requestIdleCallback' in window) requestIdleCallback(preloadNeighbors, {timeout: 1500});
-    else setTimeout(preloadNeighbors, 0);
-  });
+  setScanStatus('Loading from Gallica…');
+  void loadCurrentPageImage(state.byLeaf.get(leaf), generation);
 }
 
 function toast(message) {
@@ -152,7 +204,7 @@ function continuousHTML(page, unit) {
 }
 
 function scanPane(page) {
-  return `<section class="scan-pane"><div class="pane-toolbar"><strong>Gallica scan</strong><span class="push">Loaded through IIIF</span><a href="${page.gallica}" target="_blank" rel="noreferrer">Open in Gallica</a></div><div class="scan-frame"><img src="${page.iiif}" alt="Gallica scan ${page.view}"></div></section>`;
+  return `<section class="scan-pane"><div class="pane-toolbar"><strong>Gallica scan</strong><span class="push scan-status">Loading from Gallica…</span><button class="scan-retry hidden" type="button" data-action="retry-scan">Retry</button><a href="${page.gallica}" target="_blank" rel="noreferrer">Open in Gallica</a></div><div class="scan-frame"><img data-iiif-page="${page.iiif}" alt=""></div></section>`;
 }
 
 function renderPageContent() {
@@ -160,9 +212,10 @@ function renderPageContent() {
   if (page.processed && ['column-1', 'column-2'].includes(state.unit)) {
     const lines = page.zones.filter(item => item.kind === 'column' && (item.id === state.unit || item.id.startsWith(`${state.unit}-`))).flatMap(item => item.lines);
     $('#page-content').innerHTML = `<div class="line-list">${lines.map(line => lineHTML(page, line)).join('')}</div>`;
-    return;
+  } else {
+    $('#page-content').innerHTML = `<div class="page-comparison">${scanPane(page)}<section class="text-pane"><div class="pane-toolbar"><strong>${page.processed ? 'Level 1 transcription' : 'Transcription'}</strong>${page.source ? `<a class="push" href="${page.source}" target="_blank" rel="noreferrer">Source Markdown</a>` : ''}</div><div class="continuous-text">${continuousHTML(page, state.unit)}</div></section></div>`;
   }
-  $('#page-content').innerHTML = `<div class="page-comparison">${scanPane(page)}<section class="text-pane"><div class="pane-toolbar"><strong>${page.processed ? 'Level 1 transcription' : 'Transcription'}</strong>${page.source ? `<a class="push" href="${page.source}" target="_blank" rel="noreferrer">Source Markdown</a>` : ''}</div><div class="continuous-text">${continuousHTML(page, state.unit)}</div></section></div>`;
+  if (pageImageCache.get(page.leaf)?.status === 'loaded') showRetainedPageImage(page);
 }
 
 function cropStyle(page, crop) {
@@ -186,7 +239,7 @@ function lineHTML(page, line) {
   const edit = pageEdits(page)[line.id];
   const current = edit ? edit.after : line.text;
   const comment = edit?.comment || '';
-  return `<article class="line-row ${edit ? 'changed' : ''}" data-line="${line.id}"><div class="line-head"><code>${line.id}</code><button class="context-toggle" type="button" aria-expanded="false">Show context</button></div><button class="line-crop" type="button" style="aspect-ratio:${line.crop[2]}/${line.crop[3]}" data-crop='${JSON.stringify(line.crop)}' data-context='${JSON.stringify(line.context_crop)}' aria-label="Show context for ${line.id}"><img loading="lazy" src="${page.iiif}" alt="" style="width:${page.width / line.crop[2] * 100}%;transform:translate(${-line.crop[0] / page.width * 100}% ,${-line.crop[1] / page.height * 100}%)"></button><div class="line-text-row"><button class="line-text indent-${line.indent}" type="button" data-action="edit">${edit ? visualDiff(line.text, current) : renderRuns(line.runs)}</button>${comment ? `<button class="comment-preview" type="button" data-action="edit" title="${escapeHTML(comment)}">${escapeHTML(comment)}</button>` : ''}</div></article>`;
+  return `<article class="line-row ${edit ? 'changed' : ''}" data-line="${line.id}"><div class="line-head"><code>${line.id}</code><button class="context-toggle" type="button" aria-expanded="false">Show context</button></div><button class="line-crop" type="button" style="aspect-ratio:${line.crop[2]}/${line.crop[3]}" data-crop='${JSON.stringify(line.crop)}' data-context='${JSON.stringify(line.context_crop)}' aria-label="Show context for ${line.id}"><img loading="lazy" data-iiif-page="${page.iiif}" alt="" style="width:${page.width / line.crop[2] * 100}%;transform:translate(${-line.crop[0] / page.width * 100}% ,${-line.crop[1] / page.height * 100}%)"></button><div class="line-text-row"><button class="line-text indent-${line.indent}" type="button" data-action="edit">${edit ? visualDiff(line.text, current) : renderRuns(line.runs)}</button>${comment ? `<button class="comment-preview" type="button" data-action="edit" title="${escapeHTML(comment)}">${escapeHTML(comment)}</button>` : ''}</div></article>`;
 }
 
 function setCrop(row, expanded) {
@@ -226,6 +279,7 @@ async function submitCorrections() {
 }
 
 document.addEventListener('click', event => {
+  if (event.target.closest('[data-action="retry-scan"]')) return updatePageImageCache(state.currentPage.leaf);
   const card = event.target.closest('.page-card'); if (card) return showPage(Number(card.dataset.leaf));
   const tab = event.target.closest('#view-tabs button'); if (tab) return showPage(state.currentPage.leaf, tab.dataset.unit);
   const row = event.target.closest('.line-row');
