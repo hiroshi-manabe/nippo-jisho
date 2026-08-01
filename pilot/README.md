@@ -24,15 +24,15 @@ One qualification applies: the opening dictionary page, `bnf-f0013`, had already
 
 ## Level 1 format corpus
 
-The [format version 1 corpus](format-v1-trial/README.md) is not a rewrite of the frozen version-0 checkpoint. Its six-page adoption baseline has been extended by sequential production pages `bnf-f0015` and `bnf-f0016`; it now contains eight complete physical-order records, separate structural assertions over the adoption examples, and regenerated page and logical reading views.
+The [format version 1 corpus](format-v1-trial/README.md) is not a rewrite of the frozen version-0 checkpoint. Its six-page adoption baseline has been extended by sequential production pages `bnf-f0015`–`bnf-f0017`; it now contains nine complete physical-order records, separate structural assertions over the adoption examples, and regenerated page and logical reading views.
 
-The corpus validates 720 physical lines in the adopted [compact human-readable Level 1 form](../docs/level1-markdown-candidate.md), then regenerates the machine representation and page views. Seven structural assertions and eight reading sequences remain as a secondary information-loss check rather than the project’s present design focus.
+The corpus validates 818 physical lines in the adopted [compact human-readable Level 1 form](../docs/level1-markdown-candidate.md), then regenerates the machine representation and page views. Seven structural assertions and eight reading sequences remain as a secondary information-loss check rather than the project’s present design focus.
 
 A subsequent [contextual review of `f0248` and `f0643`](contextual-review/f0248-f0643.md) tests separate Japanese/romanization and Portuguese passes followed by scan confirmation. It finds two residual corrections and rejects five plausible but unprinted emendations.
 
 The [timed `f0249`–`f0250` production simulation](production-simulation/f0249-f0250.md) applies the full workflow to unfamiliar consecutive pages, adds 196 lines, and supplies the evidence for adopting version 1.
 
-The [dictionary-wide human review interface](human-review/README.md) navigates all 651 acquired leaves. It places scan crops beside the eight existing Level 1 pages, marks the other 643 leaves `unprocessed`, and tracks 24 resumable human-review units—two columns and page furniture for each transcribed page. The revised `f14` units are human-checked; the corrected `f15` and `f16` columns await recheck, while their furniture remains pending.
+The [dictionary-wide human review interface](human-review/README.md) navigates all 651 acquired leaves. It places scan crops beside the nine existing Level 1 pages, marks the other 642 leaves `unprocessed`, and tracks 27 resumable human-review units—two columns and page furniture for each transcribed page. The revised `f14` units are human-checked; the corrected `f15` and `f16` columns await recheck, while the new `f17` units await their first human check.
 
 ## Draft coverage
 

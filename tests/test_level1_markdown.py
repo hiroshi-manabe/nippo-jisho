@@ -35,15 +35,15 @@ class Level1MarkdownTests(unittest.TestCase):
             check=False,
         )
         self.assertEqual(result.returncode, 0, result.stderr)
-        self.assertIn("Validated 8 compact Level 1 page records", result.stdout)
+        self.assertIn("Validated 9 compact Level 1 page records", result.stdout)
 
-    def test_all_source_pages_parse_and_retain_720_lines(self):
+    def test_all_source_pages_parse_and_retain_818_lines(self):
         module = load_module()
         pages = [module.parse_markdown(path) for path in sorted(SOURCE.glob("*.md"))]
-        self.assertEqual(len(pages), 8)
+        self.assertEqual(len(pages), 9)
         self.assertEqual(
             sum(len(zone.get("lines", [])) for page in pages for zone in page["zones"]),
-            720,
+            818,
         )
         for page in pages:
             committed = json.loads((JSON_DIR / f"{page['id']}.json").read_text(encoding="utf-8"))
@@ -144,6 +144,28 @@ class Level1MarkdownTests(unittest.TestCase):
         self.assertNotIn("Tçuyi-", source)
         self.assertIn("Accô, Varucuchi.", source)
         self.assertIn("[catch-l001 >>] &", source)
+
+    def test_contextual_and_edge_audit_f17_readings_are_retained(self):
+        source = (SOURCE / "bnf-f0017.md").read_text(encoding="utf-8")
+        self.assertIn("status: scan_confirmed", source)
+        self.assertIn("conſideraçaõ", source)
+        self.assertIn("da ſaluaçaõ", source)
+        self.assertIn("Acuni fuqeru", source)
+        self.assertIn("vocaſu. *Peccar", source)
+        self.assertIn("ni quamaru.", source)
+        self.assertIn("¶ Vt,* Acu\n[c1-l019", source)
+        self.assertIn("Idẽ ¶* Acu\n[c1-l025", source)
+        self.assertIn("Acuuo ta\n[c1-l030", source)
+        self.assertIn("Acugaiuo ſuru", source)
+        self.assertIn("ou cõ*\n[c1-l036", source)
+        self.assertIn("Acuin. Acuno chinami", source)
+        self.assertIn("ou nacimento,como", source)
+        self.assertIn("[catch-l001 >>] *mar*", source)
+        self.assertNotIn("conſideração", source)
+        self.assertNotIn("Acuni fiqeru", source)
+        self.assertNotIn("vocaſi.", source)
+        self.assertNotIn("quamãru", source)
+        self.assertNotIn("nascimento,como", source)
 
     def test_production_simulation_pages_are_scan_confirmed(self):
         f249 = (SOURCE / "bnf-f0249.md").read_text(encoding="utf-8")

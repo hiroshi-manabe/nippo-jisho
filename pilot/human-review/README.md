@@ -1,6 +1,6 @@
 # Dictionary-Wide Human Review Interface
 
-This generated interface supports asynchronous Level 1 production and human checking across the complete acquired Gallica sequence. All 651 leaves (`f1`–`f651`) are navigable from the outset. The eight existing Level 1 pages show their transcription and review state; the remaining 643 pages show the verified scan with a clear `unprocessed` state.
+This generated interface supports asynchronous Level 1 production and human checking across the complete acquired Gallica sequence. All 651 leaves (`f1`–`f651`) are navigable from the outset. The nine existing Level 1 pages show their transcription and review state; the remaining 642 pages show the verified scan with a clear `unprocessed` state.
 
 Generate the local review interface from the repository root:
 
