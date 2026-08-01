@@ -15,6 +15,7 @@ import markdown
 
 
 ARK = "ark:/12148/bpt6k852354j"
+IMAGE_BASE_URL = "https://nippo-jisho-images.pages.dev"
 REVIEW_UNITS = ("column-1", "column-2", "furniture")
 
 
@@ -173,9 +174,9 @@ def main() -> int:
             "view": view,
             "page_id": page_id,
             "thumbnail": f"assets/thumbnails/f{leaf:04d}.webp",
-            "iiif_preview": f"https://gallica.bnf.fr/iiif/{ARK}/{view}/full/1000/0/native.jpg",
-            "iiif": f"https://gallica.bnf.fr/iiif/{ARK}/{view}/full/2200/0/native.jpg",
-            "iiif_highres": f"https://gallica.bnf.fr/iiif/{ARK}/{view}/full/3200/0/native.jpg",
+            "iiif_preview": f"{IMAGE_BASE_URL}/scans/1000/f{leaf:04d}.jpg",
+            "iiif": f"{IMAGE_BASE_URL}/scans/2200/f{leaf:04d}.jpg",
+            "iiif_highres": f"{IMAGE_BASE_URL}/scans/native/f{leaf:04d}.jpg",
             "gallica": f"https://gallica.bnf.fr/{ARK}/{view}.item",
             "corrections": corrections.get(
                 page_id,

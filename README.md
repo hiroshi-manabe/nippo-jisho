@@ -4,6 +4,8 @@ This project aims to create a reusable, openly available edition of the *Vocabul
 
 The current page-by-page transcription and correction interface is published at [Nippo Jisho · Human Review](https://hiroshi-manabe.github.io/nippo-jisho/).
 
+Stable copies of all 651 Gallica scan leaves are served from the separate [Cloudflare Scan-Image Mirror](https://nippo-jisho-images.pages.dev/). The mirror and its reproducible local deployment procedure are documented in [Cloudflare scan-image mirror](docs/image-mirror.md). Source gallica.bnf.fr / Bibliothèque nationale de France.
+
 The work will proceed from scans of the original dictionary and other public-domain source material. Existing transcriptions may be used where their terms permit, but every imported reading should remain verifiable against a specific page of the original. The project will not reproduce a modern copyrighted Japanese translation; it will produce a new transcription, restoration, and translation.
 
 ## Why the project is layered

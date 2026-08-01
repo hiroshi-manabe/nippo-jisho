@@ -18,9 +18,9 @@ bnf-f0643
 
 The identifier names the physical image in the canonical copy. Printed page numbers, signatures, and logical dictionary sequence are recorded separately.
 
-## Image acquisition
+## Image acquisition and public delivery
 
-Page images should ordinarily be requested directly from Gallica’s IIIF image service. For example:
+Acquisition should ordinarily request page images directly from Gallica’s IIIF image service. For example:
 
 ```text
 Item page:
@@ -35,6 +35,13 @@ The requested width may be changed according to the task. Full-page survey image
 Downloaded images belong in an ignored local cache. The maintained project data should record source URLs, identifiers, dimensions, and—once the acquisition process is stable—checksums. Large image collections should not be committed to the main repository.
 
 The reproducible procedure, cache layout, resumption behavior, and verification commands are documented in [Gallica Source Acquisition](source-acquisition.md).
+
+The public interface does not depend on live Gallica image requests. All 651
+downloaded leaves, plus 1000px preview and 2200px reading derivatives, are
+published through the project-controlled [Cloudflare scan-image
+mirror](image-mirror.md). This delivery mirror preserves the canonical Gallica
+leaf identifiers and original-page links. It is a transport layer, not a new
+textual witness or numbering authority.
 
 ## Wikimedia Commons mirror
 
@@ -69,8 +76,9 @@ Wikisource will therefore not be consulted during routine transcription or revie
 The roles are therefore:
 
 1. **Gallica/BnF:** canonical copy, image service, and page identifiers
-2. **Wikimedia Commons:** image mirror, complete-PDF convenience, and fallback
-3. **Wikisource:** completed pilot comparison and exceptional fallback only, not a production transcription base
+2. **Project Cloudflare mirror:** routine public delivery of the acquired Gallica scans
+3. **Wikimedia Commons:** independent image mirror, complete-PDF convenience, and fallback
+4. **Wikisource:** completed pilot comparison and exceptional fallback only, not a production transcription base
 
 ## Other physical copies
 

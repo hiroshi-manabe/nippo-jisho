@@ -4,8 +4,8 @@ const hdImageCache = new Map();
 const hdFailures = new Map();
 const PREVIEW_RETRY_DELAYS = [0, 1500, 4000];
 const HD_DWELL_TIME = 1200;
-const HD_MIN_START_INTERVAL = 15000;
-const HD_FAILURE_COOLDOWN = 60000;
+const HD_MIN_START_INTERVAL = 0;
+const HD_FAILURE_COOLDOWN = 5000;
 let imageLoadGeneration = 0;
 const hdManager = {candidate: null, inFlight: null, lastStartedAt: 0, timer: null};
 const $ = selector => document.querySelector(selector);
@@ -56,11 +56,11 @@ function refreshPageImageUI(page) {
   if (state.currentPage?.leaf !== page.leaf) return;
   if (hdImageCache.get(page.leaf)?.status === 'loaded') {
     displayPageImage(page, page.iiif);
-    setScanStatus('HD loaded through IIIF');
+    setScanStatus('HD loaded from image mirror');
     return;
   }
   if (previewImageCache.get(page.leaf)?.status !== 'loaded') {
-    setScanStatus('Loading preview from Gallica…');
+    setScanStatus('Loading preview from image mirror…');
     return;
   }
   displayPageImage(page, page.iiif_preview);
@@ -129,7 +129,7 @@ async function loadCurrentPreview(page, generation) {
   for (let attempt = 0; attempt < PREVIEW_RETRY_DELAYS.length; attempt++) {
     const retryDelay = PREVIEW_RETRY_DELAYS[attempt];
     if (retryDelay) {
-      setScanStatus(`Retrying Gallica preview (${attempt + 1}/${PREVIEW_RETRY_DELAYS.length})…`);
+      setScanStatus(`Retrying image preview (${attempt + 1}/${PREVIEW_RETRY_DELAYS.length})…`);
       await delay(retryDelay);
     }
     if (generation !== imageLoadGeneration || state.currentPage?.leaf !== page.leaf) return;
@@ -142,15 +142,15 @@ async function loadCurrentPreview(page, generation) {
     }
   }
   if (generation === imageLoadGeneration && state.currentPage?.leaf === page.leaf) {
-    setScanStatus('Gallica preview unavailable', 'preview');
-    toast('The Gallica preview could not be loaded. Retry when ready.');
+    setScanStatus('Image preview unavailable', 'preview');
+    toast('The image preview could not be loaded. Retry when ready.');
   }
 }
 
 function updatePageImages(leaf) {
   const generation = ++imageLoadGeneration;
   if (hdManager.candidate?.page.leaf !== leaf) clearHDCandidate();
-  setScanStatus('Loading preview from Gallica…');
+  setScanStatus('Loading preview from image mirror…');
   void loadCurrentPreview(state.byLeaf.get(leaf), generation);
 }
 
@@ -253,23 +253,23 @@ function zonesFor(page, unit) {
 }
 
 function continuousHTML(page, unit) {
-  if (!page.processed) return '<div class="empty"><div><strong>Not yet processed</strong><p>The Gallica scan is available now; transcription will appear here when produced.</p></div></div>';
+  if (!page.processed) return '<div class="empty"><div><strong>Not yet processed</strong><p>The source scan is available now; transcription will appear here when produced.</p></div></div>';
   return zonesFor(page, unit).map(zone => `<section><h3>${escapeHTML(zone.label)}</h3>${zone.lines.map(line => `<div class="continuous-line indent-${line.indent}"><code class="line-id">${escapeHTML(line.id)}</code><span>${renderRuns(line.runs)}</span></div>`).join('')}</section>`).join('');
 }
 
 function scanPane(page) {
-  return `<section class="scan-pane"><div class="pane-toolbar"><strong>Gallica scan</strong><span class="push scan-status">Loading preview from Gallica…</span><button class="preview-retry hidden" type="button" data-action="retry-preview">Retry preview</button><button class="hd-retry hidden" type="button" data-action="retry-hd">Retry HD</button><a href="${page.gallica}" target="_blank" rel="noreferrer">Open in Gallica</a></div><div class="scan-frame"><img data-iiif-page alt=""></div></section>`;
+  return `<section class="scan-pane"><div class="pane-toolbar"><strong>Source scan</strong><span class="push scan-status">Loading preview…</span><button class="preview-retry hidden" type="button" data-action="retry-preview">Retry preview</button><button class="hd-retry hidden" type="button" data-action="retry-hd">Retry HD</button><span>Source gallica.bnf.fr / BnF</span><a href="${page.gallica}" target="_blank" rel="noreferrer">Open original</a></div><div class="scan-frame"><img data-iiif-page alt=""></div></section>`;
 }
 
-function lineImageStatus() {
-  return `<div class="line-image-status"><span class="scan-status">Loading preview from Gallica…</span><button class="preview-retry hidden" type="button" data-action="retry-preview">Retry preview</button><button class="hd-retry hidden" type="button" data-action="retry-hd">Retry HD</button></div>`;
+function lineImageStatus(page) {
+  return `<div class="line-image-status"><span class="scan-status">Loading preview from image mirror…</span><button class="preview-retry hidden" type="button" data-action="retry-preview">Retry preview</button><button class="hd-retry hidden" type="button" data-action="retry-hd">Retry HD</button><span class="push">Source gallica.bnf.fr / BnF</span><a href="${page.gallica}" target="_blank" rel="noreferrer">Open original</a></div>`;
 }
 
 function renderPageContent() {
   const page = state.currentPage;
   if (page.processed && ['column-1', 'column-2'].includes(state.unit)) {
     const lines = page.zones.filter(item => item.kind === 'column' && (item.id === state.unit || item.id.startsWith(`${state.unit}-`))).flatMap(item => item.lines);
-    $('#page-content').innerHTML = `<div class="line-list">${lineImageStatus()}${lines.map(line => lineHTML(page, line)).join('')}</div>`;
+    $('#page-content').innerHTML = `<div class="line-list">${lineImageStatus(page)}${lines.map(line => lineHTML(page, line)).join('')}</div>`;
   } else {
     $('#page-content').innerHTML = `<div class="page-comparison">${scanPane(page)}<section class="text-pane"><div class="pane-toolbar"><strong>${page.processed ? 'Level 1 transcription' : 'Transcription'}</strong>${page.source ? `<a class="push" href="${page.source}" target="_blank" rel="noreferrer">Source Markdown</a>` : ''}</div><div class="continuous-text">${continuousHTML(page, state.unit)}</div></section></div>`;
   }
