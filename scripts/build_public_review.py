@@ -68,7 +68,24 @@ def line_crop(
     )
 
 
-def processed_page(page: dict, config: dict, review: dict) -> dict:
+def processed_page(page: dict, config: dict, review: dict, geometry: dict) -> dict:
+    columns = geometry.get("columns", {})
+    if not columns:
+        raise RuntimeError(f"missing reviewed geometry for {page['id']}")
+    unreviewed = [
+        column_id
+        for column_id, column in columns.items()
+        if column.get("visual_review") != "contact_sheet_reviewed"
+    ]
+    if unreviewed:
+        raise RuntimeError(
+            f"unreviewed geometry for {page['id']}: {', '.join(unreviewed)}"
+        )
+    explicit_lines = {
+        line_id: line_geometry
+        for column in columns.values()
+        for line_id, line_geometry in column.get("lines", {}).items()
+    }
     zones = []
     for zone in page["zones"]:
         output_zone = {
@@ -88,12 +105,11 @@ def processed_page(page: dict, config: dict, review: dict) -> dict:
                 "runs": line["runs"],
                 "text": "".join(run["text"] for run in line["runs"]),
             }
-            if zone["kind"] == "column" and box:
-                crop, context = line_crop(
-                    box, span, index, len(zone["lines"]), overrides.get(line["id"])
-                )
-                output_line["crop"] = crop
-                output_line["context_crop"] = context
+            if zone["kind"] == "column":
+                if line["id"] not in explicit_lines:
+                    raise RuntimeError(f"missing explicit geometry for {page['id']}/{line['id']}")
+                output_line["crop"] = explicit_lines[line["id"]]["crop"]
+                output_line["context_crop"] = explicit_lines[line["id"]]["context_crop"]
             output_zone["lines"].append(output_line)
         zones.append(output_zone)
     return {
@@ -144,6 +160,8 @@ def main() -> int:
     reviews = {page["id"]: page["units"] for page in review_record["pages"]}
     correction_record = load_json(root / "pilot/human-review/correction-history.json")
     corrections = {page["id"]: page for page in correction_record["pages"]}
+    geometry_record = load_json(root / "pilot/human-review/line-geometry.json")
+    geometries = {page["id"]: page for page in geometry_record["pages"]}
     level1_dir = root / "pilot/format-v1-trial/level1"
     pages = []
     for image_record in image_records:
@@ -167,7 +185,10 @@ def main() -> int:
         if source.exists():
             page.update(
                 processed_page(
-                    load_json(source), config.get(page_id, {}), reviews.get(page_id, {})
+                    load_json(source),
+                    config.get(page_id, {}),
+                    reviews.get(page_id, {}),
+                    geometries.get(page_id, {}),
                 )
             )
             page["source"] = f"https://github.com/{args.repository}/blob/{commit}/pilot/format-v1-trial/level1-source/{page_id}.md"

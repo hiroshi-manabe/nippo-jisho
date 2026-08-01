@@ -52,6 +52,8 @@ A generated [dictionary-wide human review interface](pilot/human-review/README.m
 
 The public-review iteration specified in [Human Review and Correction Workflow](docs/human-review-workflow.md) is now deployed at [Nippo Jisho · Human Review](https://hiroshi-manabe.github.io/nippo-jisho/). It adds an all-page thumbnail grid, compact edit-on-click rows, comments that use otherwise free horizontal space, approximate client-side diff highlighting, and page-level correction proposals copied as JSON into GitHub Issues. The Issue body is not encoded into the URL. Each opened leaf loads one Gallica IIIF page image and applies committed line crops in the browser; the corrected crop for the formerly clipped `T` at `f17/c2-l042` is a regression case. Public progress reports applied Issues and corrected lines rather than imply that a page has become definitively verified.
 
+The initial site exposed a browser-positioning defect and the inadequacy of evenly distributed line estimates for irregular pages. The image origin is now fixed explicitly, and all 784 text-column lines on the nine processed pages have backfilled source-pixel crop and context rectangles in [`line-geometry.json`](pilot/human-review/line-geometry.json). Eighteen complete column contact sheets were visually inspected, including the shortened final page `f643` and the section-divided second column of `f248`. Explicit geometry plus contact-sheet and browser review is now a mandatory page-processing checkpoint.
+
 ## Current objective
 
 Complete the human check of newly transcribed `f17`, recheck the corrected `f16` and `f15` columns, and continue the first bounded sequential Level 1 production batch. The immediate objective is repeatable quality control supporting:

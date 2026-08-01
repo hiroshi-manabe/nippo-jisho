@@ -60,10 +60,14 @@ Crop boundaries are governed by legibility, not by a requirement that neighborin
 The routine is:
 
 1. Produce a reasonably tight initial line crop.
-2. Inspect the crop visually against its full column context.
-3. Expand upward or downward when any target glyph is incomplete or ambiguous.
-4. Permit overlap with an adjacent line whenever necessary for a complete reading.
-5. Avoid unnecessary padding where a natural boundary is clear.
+2. Generate a complete column contact sheet pairing every stable line ID with its proposed crop.
+3. Inspect every crop visually against the contact sheet and full column context.
+4. Expand upward or downward when any target glyph is incomplete or ambiguous.
+5. Permit overlap with an adjacent line whenever necessary for a complete reading.
+6. Avoid unnecessary padding where a natural boundary is clear.
+7. Commit an explicit source-pixel rectangle for every column line, including crops accepted without individual adjustment.
+
+This geometry pass is a required part of processing a page, not optional interface polish. A page must not be handed off for line-by-line human review until both column contact sheets have been visually reviewed. The geometry record stores the source dimensions, crop and context rectangle for every stable line ID, review state, and review date. Later regeneration must fail if a processed column line lacks explicit geometry.
 
 The crop is therefore page- and line-sensitive rather than a uniform band with permanently large margins. The clipped top of `T` in `f17/c2-l042` (`Acuma. i. Tengu. Diabo.`) is the motivating example: part of the preceding line may be repeated, but the whole `T` must appear in the target line image. The same reviewed crops should support both project transcription checks and the public human-review interface.
 
@@ -80,6 +84,8 @@ This design keeps the deployed site small and makes a crop correction a reviewab
 The site source, transcription data, crop geometry, and correction Issues live in this repository. The generated site does not occupy a maintained `gh-pages` branch: a GitHub Actions workflow builds it from `main`, uploads the temporary Pages artifact, and deploys that artifact to GitHub Pages. This keeps generated HTML and corpus data out of source history while ensuring that one commit identifies the transcription, reference notes, geometry, and interface shown together.
 
 The committed overview thumbnails and `page-images.json` are reproducible derivatives of the ignored local Gallica master cache. Run `python3 scripts/prepare_review_images.py` only when those derivatives need to be created or refreshed. An ordinary public-site build requires no local master images and runs with `python3 scripts/build_public_review.py`.
+
+Before deployment, the actual browser rendering must also be inspected on representative first, middle, last, tall-glyph, and overridden lines. Numerical coordinate validation and inspection of a source crop do not establish that CSS scaling and positioning render it correctly. `f17/c1-l001` and `f17/c2-l042` are permanent browser-level regression cases.
 
 ## GitHub Issue submission
 

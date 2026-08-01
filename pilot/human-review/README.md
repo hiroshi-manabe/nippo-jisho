@@ -16,6 +16,8 @@ Then open `build/human-review/index.html`. The generator also writes `build/huma
 
 The public IIIF-backed successor is built with `python3 scripts/build_public_review.py`. It uses committed thumbnails and page geometry, loads one Gallica IIIF image only when a leaf is opened, and applies line crops in the browser. The older command above remains available for reproducing the local master-image prototype.
 
+Every processed text column now requires explicit line geometry in [`line-geometry.json`](line-geometry.json). Initial rectangles and disposable contact sheets are generated from the local masters with `python3 scripts/calibrate_line_geometry.py`; the contact sheets must then be inspected before the geometry is marked reviewed. The first backfill covers all 784 text-column lines on the nine processed pages. Furniture remains reviewed in whole-page context rather than receiving artificial line crops.
+
 The parent interface provides:
 
 - previous and next arrows across the full Gallica sequence;

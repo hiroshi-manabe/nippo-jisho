@@ -92,8 +92,8 @@ function renderRuns(runs) {
 
 function zonesFor(page, unit) {
   if (unit === 'page') return page.zones;
-  if (unit === 'column-1') return page.zones.filter(zone => ['header-column-1', 'column-1'].includes(zone.id));
-  if (unit === 'column-2') return page.zones.filter(zone => ['header-column-2', 'column-2'].includes(zone.id));
+  if (unit === 'column-1') return page.zones.filter(zone => zone.id === 'header-column-1' || zone.id === 'column-1' || zone.id.startsWith('column-1-'));
+  if (unit === 'column-2') return page.zones.filter(zone => zone.id === 'header-column-2' || zone.id === 'column-2' || zone.id.startsWith('column-2-'));
   return page.zones.filter(zone => zone.kind !== 'column');
 }
 
@@ -109,8 +109,8 @@ function scanPane(page) {
 function renderPageContent() {
   const page = state.currentPage;
   if (page.processed && ['column-1', 'column-2'].includes(state.unit)) {
-    const zone = page.zones.find(item => item.id === state.unit);
-    $('#page-content').innerHTML = `<div class="line-list">${zone.lines.map(line => lineHTML(page, line)).join('')}</div>`;
+    const lines = page.zones.filter(item => item.kind === 'column' && (item.id === state.unit || item.id.startsWith(`${state.unit}-`))).flatMap(item => item.lines);
+    $('#page-content').innerHTML = `<div class="line-list">${lines.map(line => lineHTML(page, line)).join('')}</div>`;
     return;
   }
   $('#page-content').innerHTML = `<div class="page-comparison">${scanPane(page)}<section class="text-pane"><div class="pane-toolbar"><strong>${page.processed ? 'Level 1 transcription' : 'Transcription'}</strong>${page.source ? `<a class="push" href="${page.source}" target="_blank" rel="noreferrer">Source Markdown</a>` : ''}</div><div class="continuous-text">${continuousHTML(page, state.unit)}</div></section></div>`;
@@ -153,8 +153,7 @@ function setCrop(row, expanded) {
 function openEditor(row) {
   if (row.querySelector('.edit-form')) return;
   const lineId = row.dataset.line;
-  const zone = state.currentPage.zones.find(item => item.id === state.unit);
-  const line = zone.lines.find(item => item.id === lineId);
+  const line = state.currentPage.zones.filter(item => item.kind === 'column').flatMap(item => item.lines).find(item => item.id === lineId);
   const edit = pageEdits(state.currentPage)[lineId];
   row.insertAdjacentHTML('beforeend', `<form class="edit-form"><textarea name="transcription" aria-label="Revised transcription">${escapeHTML(edit?.after || line.text)}</textarea><textarea name="comment" aria-label="Comment" placeholder="Optional comment">${escapeHTML(edit?.comment || '')}</textarea><div class="edit-actions"><button type="button" data-action="cancel">Cancel</button>${edit ? '<button type="button" data-action="revert">Revert</button>' : ''}<button class="primary" type="submit">OK</button></div></form>`);
   row.querySelector('[name="transcription"]').focus();
@@ -193,8 +192,7 @@ document.addEventListener('submit', event => {
   const form = event.target.closest('.edit-form'); if (!form) return;
   event.preventDefault();
   const row = form.closest('.line-row');
-  const zone = state.currentPage.zones.find(item => item.id === state.unit);
-  const line = zone.lines.find(item => item.id === row.dataset.line);
+  const line = state.currentPage.zones.filter(item => item.kind === 'column').flatMap(item => item.lines).find(item => item.id === row.dataset.line);
   const after = form.elements.transcription.value;
   const comment = form.elements.comment.value.trim();
   if (after === line.text && !comment) delete pageEdits(state.currentPage)[line.id];
