@@ -65,6 +65,15 @@
     <nav><button class="active" data-reference="cheat-sheet">Cheat sheet</button><button data-reference="historical-notes">Detailed notes</button></nav>
     <iframe id="reference-frame" title="Transcription reference"></iframe>
   </aside>
+  <dialog id="stale-draft-dialog" class="stale-draft-dialog">
+    <h2>Saved corrections are out of date</h2>
+    <p>The transcription for <strong id="stale-draft-page"></strong> has changed since you began reviewing it. The saved corrections can no longer be applied safely and must be discarded before you continue.</p>
+    <p>You can copy the old corrections first if you may need them.</p>
+    <div class="dialog-actions">
+      <button id="copy-stale-draft" type="button">Copy old corrections</button>
+      <button id="discard-stale-draft" class="primary" type="button">Discard and continue</button>
+    </div>
+  </dialog>
   <div id="toast" class="toast hidden" role="status"></div>
   <script src="app.js"></script>
 </body>

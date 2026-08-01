@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import html
 import json
 import os
@@ -69,6 +70,26 @@ def line_crop(
     )
 
 
+def transcription_version(zones: list[dict]) -> str:
+    """Hash only the ordered text and style information a correction targets."""
+    transcription = [
+        {
+            "id": line["id"],
+            "text": line["text"],
+            "runs": [
+                {"typeface": run["typeface"], "text": run["text"]}
+                for run in line["runs"]
+            ],
+        }
+        for zone in zones
+        for line in zone["lines"]
+    ]
+    transcription_bytes = json.dumps(
+        transcription, ensure_ascii=False, separators=(",", ":")
+    ).encode("utf-8")
+    return f"sha256:{hashlib.sha256(transcription_bytes).hexdigest()}"
+
+
 def processed_page(page: dict, config: dict, review: dict, geometry: dict) -> dict:
     columns = geometry.get("columns", {})
     if not columns:
@@ -116,6 +137,7 @@ def processed_page(page: dict, config: dict, review: dict, geometry: dict) -> di
     return {
         "processed": True,
         "status": page["review"]["status"],
+        "transcription_version": transcription_version(zones),
         "printed_page": next(
             (
                 run["text"].strip()
@@ -203,6 +225,7 @@ def main() -> int:
                     "zones": [],
                     "review": {},
                     "source": None,
+                    "transcription_version": None,
                 }
             )
         pages.append(page)

@@ -109,6 +109,10 @@ The submission flow is therefore:
 
 After the Issue composer opens, the review tab changes to ask whether the Issue was actually submitted. Confirming this does not delete the local draft: it changes the bar to a compact **Marked as submitted** state with a **Submit again** escape hatch. Choosing **Not yet**, editing any line, or explicitly submitting again returns the page to draft state. This local state is persisted per page so returning to or reloading the review tab does not make the submission ambiguous.
 
+Each local page workspace records a transcription version derived only from the ordered line IDs, transcription text, and typeface runs. Scan crops, thumbnails, correction-history badges, metadata, and interface code do not affect this version. When repository text changes, saved edits based on the earlier transcription must not be restored onto the new lines as though they were current.
+
+On a version mismatch, an empty workspace or one explicitly marked as submitted is replaced silently with a fresh workspace. An unsubmitted workspace is held aside and a blocking warning explains that it cannot be applied safely. The reviewer may copy its correction JSON for reference, then must choose **Discard and continue** before reviewing the new transcription. Pre-versioning browser data is migrated once against the first version-aware corpus rather than being discarded without a known comparison point. This is deliberately simple optimistic concurrency control; GitHub Issues preserve submitted proposals, while the browser does not attempt an unreliable automatic merge.
+
 Edited rows must continue to render the original Level 1 typeface runs. Diff highlighting is an additional visual layer; it must not flatten italic Portuguese and roman Japanese into one style.
 
 If clipboard access fails, the interface displays the payload in a selectable text area. Direct GitHub API submission is deliberately deferred because a static GitHub Pages site should not contain a privileged token, and an authentication service is unnecessary for the initial workflow.
@@ -120,6 +124,7 @@ A representative payload is:
   "schema": 1,
   "page": "f17",
   "base_commit": "abc1234",
+  "base_transcription_version": "sha256:0123456789abcdef…",
   "changes": [
     {
       "line": "c1-l026",

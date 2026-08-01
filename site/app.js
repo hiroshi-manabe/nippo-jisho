@@ -1,4 +1,5 @@
-const state = { corpus: null, byLeaf: new Map(), currentPage: null, unit: 'page', edits: {}, submissions: {} };
+const state = { corpus: null, byLeaf: new Map(), currentPage: null, unit: 'page', edits: {}, submissions: {}, workspacesLoaded: new Set(), staleDraft: null };
+const WORKSPACE_SCHEMA = 2;
 const previewImageCache = new Map();
 const hdImageCache = new Map();
 const hdFailures = new Map();
@@ -194,31 +195,78 @@ function renderGrid() {
   $('#page-grid').innerHTML = pages.map(page => `<button class="page-card" type="button" data-leaf="${page.leaf}"><img loading="lazy" src="${page.thumbnail}" alt="Thumbnail of Gallica ${page.view}"><span class="card-copy"><span class="card-title">${page.view}${page.corrections.issues_applied ? `<span class="mini-badge">${page.corrections.issues_applied} issue${page.corrections.issues_applied === 1 ? '' : 's'}</span>` : ''}</span><span class="card-state">${page.processed ? 'Transcription available' : 'Unprocessed'}${page.corrections.distinct_lines ? ` · ${page.corrections.distinct_lines} lines corrected` : ''}</span></span></button>`).join('');
 }
 
-function pageEdits(page) {
-  if (!state.edits[page.page_id]) {
-    try { state.edits[page.page_id] = JSON.parse(localStorage.getItem(`nippo-edits:${page.page_id}`)) || {}; }
-    catch (_) { state.edits[page.page_id] = {}; }
+function storageJSON(key) {
+  try { return JSON.parse(localStorage.getItem(key)); }
+  catch (_) { return null; }
+}
+
+function editStorageKey(page) { return `nippo-edits:${page.page_id}`; }
+function submissionStorageKey(page) { return `nippo-submission:${page.page_id}`; }
+
+function saveWorkspace(page) {
+  localStorage.setItem(editStorageKey(page), JSON.stringify({schema: WORKSPACE_SCHEMA, transcription_version: page.transcription_version, edits: state.edits[page.page_id]}));
+  localStorage.setItem(submissionStorageKey(page), JSON.stringify({schema: WORKSPACE_SCHEMA, transcription_version: page.transcription_version, status: state.submissions[page.page_id].status}));
+}
+
+function staleDraftPayload(stale) {
+  const changes = Object.entries(stale.edits).map(([line, edit]) => ({line, before: edit.before, after: edit.after, ...(edit.comment ? {comment: edit.comment} : {})}));
+  return JSON.stringify({schema: 1, page: stale.page.view, base_transcription_version: stale.version, changes}, null, 2);
+}
+
+function showStaleDraftWarning() {
+  if (!state.staleDraft || state.staleDraft.page !== state.currentPage) return;
+  $('#stale-draft-page').textContent = state.staleDraft.page.view;
+  const dialog = $('#stale-draft-dialog');
+  if (!dialog.open) dialog.showModal();
+}
+
+function loadPageWorkspace(page) {
+  if (state.workspacesLoaded.has(page.page_id)) return;
+  const storedEdits = storageJSON(editStorageKey(page));
+  const storedSubmission = storageJSON(submissionStorageKey(page));
+  const isVersioned = storedEdits?.schema === WORKSPACE_SCHEMA && storedEdits.edits && typeof storedEdits.edits === 'object';
+  const edits = isVersioned ? storedEdits.edits : (storedEdits && typeof storedEdits === 'object' ? storedEdits : {});
+  const status = storedSubmission?.status || 'draft';
+  const storedVersion = isVersioned ? storedEdits.transcription_version : page.transcription_version;
+  const versionChanged = Boolean(storedVersion && page.transcription_version && storedVersion !== page.transcription_version);
+  state.edits[page.page_id] = edits;
+  state.submissions[page.page_id] = {status};
+  state.workspacesLoaded.add(page.page_id);
+  if (versionChanged) {
+    if (Object.keys(edits).length === 0 || status === 'submitted') {
+      state.edits[page.page_id] = {};
+      state.submissions[page.page_id] = {status: 'draft'};
+      saveWorkspace(page);
+    } else {
+      state.staleDraft = {page, version: storedVersion, edits};
+      state.edits[page.page_id] = {};
+      state.submissions[page.page_id] = {status: 'draft'};
+      queueMicrotask(showStaleDraftWarning);
+      return;
+    }
   }
+  if (!isVersioned || storedSubmission?.schema !== WORKSPACE_SCHEMA) saveWorkspace(page);
+}
+
+function pageEdits(page) {
+  loadPageWorkspace(page);
   return state.edits[page.page_id];
 }
 
 function pageSubmission(page) {
-  if (!state.submissions[page.page_id]) {
-    try { state.submissions[page.page_id] = JSON.parse(localStorage.getItem(`nippo-submission:${page.page_id}`)) || {status: 'draft'}; }
-    catch (_) { state.submissions[page.page_id] = {status: 'draft'}; }
-  }
+  loadPageWorkspace(page);
   return state.submissions[page.page_id];
 }
 
 function persistSubmission(page, status) {
   state.submissions[page.page_id] = {status};
-  localStorage.setItem(`nippo-submission:${page.page_id}`, JSON.stringify(state.submissions[page.page_id]));
+  saveWorkspace(page);
   updateSubmitBar();
 }
 
 function persistEdits(page, preserveSubmission = false) {
-  localStorage.setItem(`nippo-edits:${page.page_id}`, JSON.stringify(pageEdits(page)));
   if (!preserveSubmission && pageSubmission(page).status !== 'draft') persistSubmission(page, 'draft');
+  saveWorkspace(page);
   updateSubmitBar();
 }
 
@@ -239,6 +287,7 @@ function updateSubmitBar() {
 function showPage(leaf, unit = 'page', update = true) {
   const page = state.byLeaf.get(leaf);
   if (!page) return;
+  loadPageWorkspace(page);
   state.currentPage = page;
   state.unit = page.processed ? unit : 'page';
   updatePageImages(leaf);
@@ -255,6 +304,7 @@ function showPage(leaf, unit = 'page', update = true) {
   [...document.querySelectorAll('#view-tabs button')].forEach(button => { button.classList.toggle('active', button.dataset.unit === state.unit); button.disabled = !page.processed && button.dataset.unit !== 'page'; });
   renderPageContent();
   updateSubmitBar();
+  showStaleDraftWarning();
   if (update) history.pushState(null, '', `#f${leaf}:${state.unit}`);
 }
 
@@ -372,7 +422,7 @@ async function copyText(text) {
 async function submitCorrections() {
   const page = state.currentPage;
   const changes = Object.entries(pageEdits(page)).map(([line, edit]) => ({ line, before: edit.before, after: edit.after, ...(edit.comment ? {comment: edit.comment} : {}) }));
-  const payload = JSON.stringify({ schema: 1, page: page.view, base_commit: state.corpus.commit, changes }, null, 2);
+  const payload = JSON.stringify({ schema: 1, page: page.view, base_commit: state.corpus.commit, base_transcription_version: page.transcription_version, changes }, null, 2);
   const issueURL = `https://github.com/${state.corpus.repository}/issues/new?template=transcription-correction.md&title=${encodeURIComponent(`[${page.view}] Transcription corrections`)}`;
   const issueWindow = window.open('about:blank', '_blank');
   const copied = await copyText(payload);
@@ -419,6 +469,24 @@ $('#submit').addEventListener('click', submitCorrections);
 $('#submit-not-yet').addEventListener('click', () => persistSubmission(state.currentPage, 'draft'));
 $('#mark-submitted').addEventListener('click', () => persistSubmission(state.currentPage, 'submitted'));
 $('#submit-again').addEventListener('click', () => { persistSubmission(state.currentPage, 'draft'); void submitCorrections(); });
+$('#copy-stale-draft').addEventListener('click', async () => {
+  if (!state.staleDraft) return;
+  const payload = staleDraftPayload(state.staleDraft);
+  if (await copyText(payload)) toast('Old corrections copied.');
+  else prompt('Copy these old corrections:', payload);
+});
+$('#discard-stale-draft').addEventListener('click', () => {
+  if (!state.staleDraft) return;
+  const page = state.staleDraft.page;
+  state.staleDraft = null;
+  state.edits[page.page_id] = {};
+  state.submissions[page.page_id] = {status: 'draft'};
+  saveWorkspace(page);
+  $('#stale-draft-dialog').close();
+  renderPageContent();
+  updateSubmitBar();
+});
+$('#stale-draft-dialog').addEventListener('cancel', event => event.preventDefault());
 
 function setReference(open) { $('#reference-panel').classList.toggle('open', open); $('#reference-panel').setAttribute('aria-hidden', String(!open)); $('#reference-toggle').setAttribute('aria-expanded', String(open)); }
 $('#reference-toggle').addEventListener('click', () => setReference(!$('#reference-panel').classList.contains('open'))); $('#reference-close').addEventListener('click', () => setReference(false));
