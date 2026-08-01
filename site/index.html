@@ -46,6 +46,10 @@
         <button type="button" data-unit="column-2">Column 2</button>
         <button type="button" data-unit="furniture">Furniture</button>
       </nav>
+      <div id="rebase-notice" class="rebase-notice hidden" role="status">
+        <strong>Saved corrections updated</strong>
+        <span id="rebase-notice-text"></span>
+      </div>
       <div id="page-content"></div>
       <div id="submit-bar" class="submit-bar hidden">
         <span id="change-count"></span>
@@ -66,12 +70,12 @@
     <iframe id="reference-frame" title="Transcription reference"></iframe>
   </aside>
   <dialog id="stale-draft-dialog" class="stale-draft-dialog">
-    <h2>Saved corrections are out of date</h2>
-    <p>The transcription for <strong id="stale-draft-page"></strong> has changed since you began reviewing it. The saved corrections can no longer be applied safely and must be discarded before you continue.</p>
-    <p>You can copy the old corrections first if you may need them.</p>
+    <h2>Some saved lines no longer exist</h2>
+    <p><span id="stale-draft-count"></span> from <strong id="stale-draft-page"></strong> cannot be rebased because their line IDs are no longer present.</p>
+    <p>Unaffected corrections have been retained. You can copy the orphaned corrections before discarding them.</p>
     <div class="dialog-actions">
-      <button id="copy-stale-draft" type="button">Copy old corrections</button>
-      <button id="discard-stale-draft" class="primary" type="button">Discard and continue</button>
+      <button id="copy-stale-draft" type="button">Copy orphaned corrections</button>
+      <button id="discard-stale-draft" class="primary" type="button">Discard orphaned corrections</button>
     </div>
   </dialog>
   <div id="toast" class="toast hidden" role="status"></div>

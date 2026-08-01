@@ -30,16 +30,19 @@ class PublicReviewRegressionTests(unittest.TestCase):
         self.assertEqual(line["centre_y"], 1498)
         self.assertEqual(line["crop"], [1460, 1450, 1200, 96])
 
-    def test_transcription_versions_and_stale_draft_controls(self):
+    def test_transcription_versions_and_rebase_controls(self):
         app = (ROOT / "site" / "app.js").read_text(encoding="utf-8")
         document = (ROOT / "site" / "index.html").read_text(encoding="utf-8")
         builder = (ROOT / "scripts" / "build_public_review.py").read_text(encoding="utf-8")
         self.assertIn('"transcription_version": transcription_version(zones)', builder)
-        self.assertIn("const WORKSPACE_SCHEMA = 2", app)
-        self.assertIn("status === 'submitted'", app)
+        self.assertIn("const WORKSPACE_SCHEMA = 3", app)
+        self.assertIn("function reconcileEdits(page, edits)", app)
+        self.assertIn("comment_review_needed", app)
+        self.assertIn("base_line_version", app)
         self.assertIn("base_transcription_version", app)
-        self.assertIn("Copy old corrections", document)
-        self.assertIn("Discard and continue", document)
+        self.assertIn("Saved corrections updated", document)
+        self.assertIn("Copy orphaned corrections", document)
+        self.assertIn("Discard orphaned corrections", document)
 
     def test_transcription_version_ignores_geometry_but_tracks_text_and_style(self):
         zones = [{"lines": [{

@@ -70,24 +70,29 @@ def line_crop(
     )
 
 
+def transcription_line_data(line: dict) -> dict:
+    return {
+        "id": line["id"],
+        "text": line["text"],
+        "runs": [
+            {"typeface": run["typeface"], "text": run["text"]}
+            for run in line["runs"]
+        ],
+    }
+
+
+def content_hash(value: object) -> str:
+    encoded = json.dumps(
+        value, ensure_ascii=False, separators=(",", ":")
+    ).encode("utf-8")
+    return f"sha256:{hashlib.sha256(encoded).hexdigest()}"
+
+
 def transcription_version(zones: list[dict]) -> str:
     """Hash only the ordered text and style information a correction targets."""
-    transcription = [
-        {
-            "id": line["id"],
-            "text": line["text"],
-            "runs": [
-                {"typeface": run["typeface"], "text": run["text"]}
-                for run in line["runs"]
-            ],
-        }
-        for zone in zones
-        for line in zone["lines"]
-    ]
-    transcription_bytes = json.dumps(
-        transcription, ensure_ascii=False, separators=(",", ":")
-    ).encode("utf-8")
-    return f"sha256:{hashlib.sha256(transcription_bytes).hexdigest()}"
+    return content_hash(
+        [transcription_line_data(line) for zone in zones for line in zone["lines"]]
+    )
 
 
 def processed_page(page: dict, config: dict, review: dict, geometry: dict) -> dict:
@@ -127,6 +132,9 @@ def processed_page(page: dict, config: dict, review: dict, geometry: dict) -> di
                 "runs": line["runs"],
                 "text": "".join(run["text"] for run in line["runs"]),
             }
+            output_line["transcription_version"] = content_hash(
+                transcription_line_data(output_line)
+            )
             if zone["kind"] == "column":
                 if line["id"] not in explicit_lines:
                     raise RuntimeError(f"missing explicit geometry for {page['id']}/{line['id']}")

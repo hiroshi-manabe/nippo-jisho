@@ -1,5 +1,5 @@
 const state = { corpus: null, byLeaf: new Map(), currentPage: null, unit: 'page', edits: {}, submissions: {}, workspacesLoaded: new Set(), staleDraft: null };
-const WORKSPACE_SCHEMA = 2;
+const WORKSPACE_SCHEMA = 3;
 const previewImageCache = new Map();
 const hdImageCache = new Map();
 const hdFailures = new Map();
@@ -216,36 +216,84 @@ function staleDraftPayload(stale) {
 function showStaleDraftWarning() {
   if (!state.staleDraft || state.staleDraft.page !== state.currentPage) return;
   $('#stale-draft-page').textContent = state.staleDraft.page.view;
+  const count = Object.keys(state.staleDraft.edits).length;
+  $('#stale-draft-count').textContent = `${count} saved correction${count === 1 ? '' : 's'}`;
   const dialog = $('#stale-draft-dialog');
   if (!dialog.open) dialog.showModal();
+}
+
+function pageLineMap(page) {
+  return new Map(page.zones.flatMap(zone => zone.lines).map(line => [line.id, line]));
+}
+
+function reconcileEdits(page, edits) {
+  const lines = pageLineMap(page);
+  const reconciled = {};
+  const orphaned = {};
+  for (const [lineId, edit] of Object.entries(edits)) {
+    const line = lines.get(lineId);
+    if (!line) {
+      orphaned[lineId] = edit;
+      continue;
+    }
+    const lineChanged = edit.base_line_version
+      ? edit.base_line_version !== line.transcription_version
+      : edit.before !== line.text;
+    if (!lineChanged) {
+      reconciled[lineId] = {...edit, base_line_version: line.transcription_version};
+      continue;
+    }
+    const reviewFlags = {
+      base_line_version: line.transcription_version,
+      base_changed: true,
+      ...(edit.comment ? {comment_review_needed: true} : {}),
+    };
+    if (line.text === edit.after) {
+      if (edit.comment) reconciled[lineId] = {...edit, before: line.text, after: line.text, ...reviewFlags};
+      continue;
+    }
+    if (edit.before === edit.after) {
+      if (edit.comment) reconciled[lineId] = {...edit, before: line.text, after: line.text, ...reviewFlags};
+      continue;
+    }
+    reconciled[lineId] = {...edit, before: line.text, ...reviewFlags};
+  }
+  return {reconciled, orphaned};
 }
 
 function loadPageWorkspace(page) {
   if (state.workspacesLoaded.has(page.page_id)) return;
   const storedEdits = storageJSON(editStorageKey(page));
   const storedSubmission = storageJSON(submissionStorageKey(page));
-  const isVersioned = storedEdits?.schema === WORKSPACE_SCHEMA && storedEdits.edits && typeof storedEdits.edits === 'object';
-  const edits = isVersioned ? storedEdits.edits : (storedEdits && typeof storedEdits === 'object' ? storedEdits : {});
+  const isEnvelope = storedEdits?.schema >= 2 && storedEdits.edits && typeof storedEdits.edits === 'object';
+  const edits = isEnvelope ? storedEdits.edits : (storedEdits && typeof storedEdits === 'object' ? storedEdits : {});
   const status = storedSubmission?.status || 'draft';
-  const storedVersion = isVersioned ? storedEdits.transcription_version : page.transcription_version;
+  const storedVersion = isEnvelope ? storedEdits.transcription_version : page.transcription_version;
   const versionChanged = Boolean(storedVersion && page.transcription_version && storedVersion !== page.transcription_version);
   state.edits[page.page_id] = edits;
   state.submissions[page.page_id] = {status};
   state.workspacesLoaded.add(page.page_id);
   if (versionChanged) {
-    if (Object.keys(edits).length === 0 || status === 'submitted') {
-      state.edits[page.page_id] = {};
+    const {reconciled, orphaned} = reconcileEdits(page, edits);
+    state.edits[page.page_id] = reconciled;
+    const hasRebasedEdits = Object.values(reconciled).some(edit => edit.base_changed);
+    if (hasRebasedEdits || Object.keys(orphaned).length || Object.keys(reconciled).length === 0) {
       state.submissions[page.page_id] = {status: 'draft'};
-      saveWorkspace(page);
-    } else {
-      state.staleDraft = {page, version: storedVersion, edits};
-      state.edits[page.page_id] = {};
-      state.submissions[page.page_id] = {status: 'draft'};
+    }
+    if (Object.keys(orphaned).length) {
+      state.staleDraft = {page, version: storedVersion, edits: orphaned};
       queueMicrotask(showStaleDraftWarning);
       return;
     }
+    saveWorkspace(page);
+    return;
   }
-  if (!isVersioned || storedSubmission?.schema !== WORKSPACE_SCHEMA) saveWorkspace(page);
+  const lines = pageLineMap(page);
+  for (const [lineId, edit] of Object.entries(edits)) {
+    const line = lines.get(lineId);
+    if (line && !edit.base_line_version && edit.before === line.text) edit.base_line_version = line.transcription_version;
+  }
+  if (!isEnvelope || storedEdits.schema !== WORKSPACE_SCHEMA || storedSubmission?.schema !== WORKSPACE_SCHEMA) saveWorkspace(page);
 }
 
 function pageEdits(page) {
@@ -282,6 +330,19 @@ function updateSubmitBar() {
   $('#mark-submitted').classList.toggle('hidden', status !== 'awaiting');
   $('#submit-again').classList.toggle('hidden', status !== 'submitted');
   $('#submit').classList.toggle('hidden', status !== 'draft');
+  updateRebaseNotice();
+}
+
+function updateRebaseNotice() {
+  if (!state.currentPage) return;
+  const edits = Object.values(pageEdits(state.currentPage));
+  const changed = edits.filter(edit => edit.base_changed).length;
+  const comments = edits.filter(edit => edit.comment_review_needed).length;
+  $('#rebase-notice').classList.toggle('hidden', changed === 0);
+  if (!changed) return;
+  let message = `The source data changed for ${changed} edited line${changed === 1 ? '' : 's'}. The saved corrections now use the current transcription as their base.`;
+  if (comments) message += ` ${comments} attached comment${comments === 1 ? '' : 's'} may refer to the earlier transcription.`;
+  $('#rebase-notice-text').textContent = message;
 }
 
 function showPage(leaf, unit = 'page', update = true) {
@@ -392,7 +453,8 @@ function lineHTML(page, line) {
   const edit = pageEdits(page)[line.id];
   const current = edit ? edit.after : line.text;
   const comment = edit?.comment || '';
-  return `<article class="line-row ${edit ? 'changed' : ''}" data-line="${line.id}"><div class="line-head"><code>${line.id}</code><button class="context-toggle" type="button" aria-expanded="false">Show context</button></div><button class="line-crop" type="button" style="aspect-ratio:${line.crop[2]}/${line.crop[3]}" data-crop='${JSON.stringify(line.crop)}' data-context='${JSON.stringify(line.context_crop)}' aria-label="Show context for ${line.id}"><img loading="lazy" data-iiif-page alt="" style="width:${page.width / line.crop[2] * 100}%;transform:translate(${-line.crop[0] / page.width * 100}% ,${-line.crop[1] / page.height * 100}%)"></button><div class="line-text-row"><button class="line-text indent-${line.indent}" type="button" data-action="edit">${edit ? styledVisualDiff(line, current) : renderRuns(line.runs)}</button>${comment ? `<button class="comment-preview" type="button" data-action="edit" title="${escapeHTML(comment)}">${escapeHTML(comment)}</button>` : ''}</div></article>`;
+  const markers = `${edit?.base_changed ? '<span class="review-marker">Base updated</span>' : ''}${edit?.comment_review_needed ? '<span class="review-marker comment-marker">Comment needs review</span>' : ''}`;
+  return `<article class="line-row ${edit ? 'changed' : ''} ${edit?.base_changed ? 'rebased' : ''}" data-line="${line.id}"><div class="line-head"><code>${line.id}</code>${markers}<button class="context-toggle" type="button" aria-expanded="false">Show context</button></div><button class="line-crop" type="button" style="aspect-ratio:${line.crop[2]}/${line.crop[3]}" data-crop='${JSON.stringify(line.crop)}' data-context='${JSON.stringify(line.context_crop)}' aria-label="Show context for ${line.id}"><img loading="lazy" data-iiif-page alt="" style="width:${page.width / line.crop[2] * 100}%;transform:translate(${-line.crop[0] / page.width * 100}% ,${-line.crop[1] / page.height * 100}%)"></button><div class="line-text-row"><button class="line-text indent-${line.indent}" type="button" data-action="edit">${edit ? styledVisualDiff(line, current) : renderRuns(line.runs)}</button>${comment ? `<button class="comment-preview" type="button" data-action="edit" title="${escapeHTML(comment)}">${escapeHTML(comment)}</button>` : ''}</div></article>`;
 }
 
 function setCrop(row, expanded) {
@@ -454,7 +516,7 @@ document.addEventListener('submit', event => {
   const after = form.elements.transcription.value;
   const comment = form.elements.comment.value.trim();
   if (after === line.text && !comment) delete pageEdits(state.currentPage)[line.id];
-  else pageEdits(state.currentPage)[line.id] = {before: line.text, after, comment};
+  else pageEdits(state.currentPage)[line.id] = {before: line.text, after, comment, base_line_version: line.transcription_version};
   persistEdits(state.currentPage); renderPageContent();
 });
 
@@ -472,15 +534,13 @@ $('#submit-again').addEventListener('click', () => { persistSubmission(state.cur
 $('#copy-stale-draft').addEventListener('click', async () => {
   if (!state.staleDraft) return;
   const payload = staleDraftPayload(state.staleDraft);
-  if (await copyText(payload)) toast('Old corrections copied.');
-  else prompt('Copy these old corrections:', payload);
+  if (await copyText(payload)) toast('Orphaned corrections copied.');
+  else prompt('Copy these orphaned corrections:', payload);
 });
 $('#discard-stale-draft').addEventListener('click', () => {
   if (!state.staleDraft) return;
   const page = state.staleDraft.page;
   state.staleDraft = null;
-  state.edits[page.page_id] = {};
-  state.submissions[page.page_id] = {status: 'draft'};
   saveWorkspace(page);
   $('#stale-draft-dialog').close();
   renderPageContent();
