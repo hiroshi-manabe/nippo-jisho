@@ -107,6 +107,10 @@ The submission flow is therefore:
 4. Ask the reader to paste the copied payload at the marked location in the Issue body.
 5. Retain the local draft until the reader explicitly clears it.
 
+After the Issue composer opens, the review tab changes to ask whether the Issue was actually submitted. Confirming this does not delete the local draft: it changes the bar to a compact **Marked as submitted** state with a **Submit again** escape hatch. Choosing **Not yet**, editing any line, or explicitly submitting again returns the page to draft state. This local state is persisted per page so returning to or reloading the review tab does not make the submission ambiguous.
+
+Edited rows must continue to render the original Level 1 typeface runs. Diff highlighting is an additional visual layer; it must not flatten italic Portuguese and roman Japanese into one style.
+
 If clipboard access fails, the interface displays the payload in a selectable text area. Direct GitHub API submission is deliberately deferred because a static GitHub Pages site should not contain a privileged token, and an authentication service is unnecessary for the initial workflow.
 
 A representative payload is:

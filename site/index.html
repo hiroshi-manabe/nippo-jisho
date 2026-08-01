@@ -47,7 +47,16 @@
         <button type="button" data-unit="furniture">Furniture</button>
       </nav>
       <div id="page-content"></div>
-      <div id="submit-bar" class="submit-bar hidden"><span id="change-count"></span><button id="discard-all" type="button">Discard changes</button><button id="submit" class="primary" type="button">Submit page corrections</button></div>
+      <div id="submit-bar" class="submit-bar hidden">
+        <span id="change-count"></span>
+        <span id="submit-question" class="hidden">Did you submit the GitHub Issue?</span>
+        <span id="submitted-label" class="hidden">Marked as submitted</span>
+        <button id="discard-all" type="button">Discard changes</button>
+        <button id="submit-not-yet" class="hidden" type="button">Not yet</button>
+        <button id="mark-submitted" class="primary hidden" type="button">Yes, mark submitted</button>
+        <button id="submit-again" class="hidden" type="button">Submit again</button>
+        <button id="submit" class="primary" type="button">Submit page corrections</button>
+      </div>
     </section>
   </main>
 

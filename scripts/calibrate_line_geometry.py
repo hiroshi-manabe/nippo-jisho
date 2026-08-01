@@ -54,8 +54,10 @@ def rectangles(box: list[int], centres: list[int]) -> list[tuple[list[int], list
     for index, centre in enumerate(centres):
         previous = centres[index - 1] if index else centre - nominal
         following = centres[index + 1] if index + 1 < len(centres) else centre + nominal
-        crop_top = max(top, round((previous + centre) / 2 - 12))
-        crop_bottom = min(bottom, round((centre + following) / 2 + 12))
+        # Retain modest overlap so ascenders, descenders, and locally drifting
+        # baselines remain readable in the default line view.
+        crop_top = max(top, round((previous + centre) / 2 - 18))
+        crop_bottom = min(bottom, round((centre + following) / 2 + 18))
         context_top = max(top, round(centre - nominal * 2.7))
         context_bottom = min(bottom, round(centre + nominal * 2.7))
         result.append(

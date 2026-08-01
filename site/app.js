@@ -1,4 +1,4 @@
-const state = { corpus: null, byLeaf: new Map(), currentPage: null, unit: 'page', edits: {} };
+const state = { corpus: null, byLeaf: new Map(), currentPage: null, unit: 'page', edits: {}, submissions: {} };
 const previewImageCache = new Map();
 const hdImageCache = new Map();
 const hdFailures = new Map();
@@ -202,8 +202,23 @@ function pageEdits(page) {
   return state.edits[page.page_id];
 }
 
-function persistEdits(page) {
+function pageSubmission(page) {
+  if (!state.submissions[page.page_id]) {
+    try { state.submissions[page.page_id] = JSON.parse(localStorage.getItem(`nippo-submission:${page.page_id}`)) || {status: 'draft'}; }
+    catch (_) { state.submissions[page.page_id] = {status: 'draft'}; }
+  }
+  return state.submissions[page.page_id];
+}
+
+function persistSubmission(page, status) {
+  state.submissions[page.page_id] = {status};
+  localStorage.setItem(`nippo-submission:${page.page_id}`, JSON.stringify(state.submissions[page.page_id]));
+  updateSubmitBar();
+}
+
+function persistEdits(page, preserveSubmission = false) {
   localStorage.setItem(`nippo-edits:${page.page_id}`, JSON.stringify(pageEdits(page)));
+  if (!preserveSubmission && pageSubmission(page).status !== 'draft') persistSubmission(page, 'draft');
   updateSubmitBar();
 }
 
@@ -212,6 +227,13 @@ function updateSubmitBar() {
   const count = Object.keys(pageEdits(state.currentPage)).length;
   $('#submit-bar').classList.toggle('hidden', count === 0);
   $('#change-count').textContent = `${count} proposed line correction${count === 1 ? '' : 's'}`;
+  const status = pageSubmission(state.currentPage).status;
+  $('#submit-question').classList.toggle('hidden', status !== 'awaiting');
+  $('#submitted-label').classList.toggle('hidden', status !== 'submitted');
+  $('#submit-not-yet').classList.toggle('hidden', status !== 'awaiting');
+  $('#mark-submitted').classList.toggle('hidden', status !== 'awaiting');
+  $('#submit-again').classList.toggle('hidden', status !== 'submitted');
+  $('#submit').classList.toggle('hidden', status !== 'draft');
 }
 
 function showPage(leaf, unit = 'page', update = true) {
@@ -281,23 +303,46 @@ function cropStyle(page, crop) {
   return `--ratio:${width}/${height};--image-width:${page.width / width * 100}%;--move-x:${-x / page.width * 100}%;--move-y:${-y / page.height * 100}%`;
 }
 
-function visualDiff(before, after) {
-  if (before === after) return escapeHTML(after);
+function renderStyledSlice(runs, sourceOffset, text, mark = false, fixedTypeface = null) {
+  if (!text) return '';
+  const typefaces = runs.flatMap(run => Array(run.text.length).fill(run.typeface));
+  const pieces = [];
+  for (let index = 0; index < text.length; index++) {
+    const sourceIndex = Math.max(0, Math.min(typefaces.length - 1, sourceOffset + index));
+    const typeface = fixedTypeface || typefaces[sourceIndex] || 'roman';
+    const previous = pieces[pieces.length - 1];
+    if (previous?.typeface === typeface) previous.text += text[index];
+    else pieces.push({typeface, text: text[index]});
+  }
+  return pieces.map(piece => {
+    let output = escapeHTML(piece.text);
+    if (mark) output = `<mark class="diff-added">${output}</mark>`;
+    if (piece.typeface === 'italic') return `<em>${output}</em>`;
+    if (piece.typeface === 'display') return `<strong>${output}</strong>`;
+    return output;
+  }).join('');
+}
+
+function styledVisualDiff(line, after) {
+  const before = line.text;
+  if (before === after) return renderRuns(line.runs);
   let start = 0;
   while (start < before.length && start < after.length && before[start] === after[start]) start++;
   let end = 0;
   while (end < before.length - start && end < after.length - start && before[before.length - 1 - end] === after[after.length - 1 - end]) end++;
-  const prefix = after.slice(0, start);
   const changed = after.slice(start, after.length - end || undefined);
-  const suffix = end ? after.slice(after.length - end) : '';
-  return `${escapeHTML(prefix)}<mark class="diff-added">${escapeHTML(changed || '∅')}</mark>${escapeHTML(suffix)}`;
+  const typefaces = line.runs.flatMap(run => Array(run.text.length).fill(run.typeface));
+  const changedTypeface = typefaces[Math.min(start, typefaces.length - 1)] || 'roman';
+  return renderStyledSlice(line.runs, 0, after.slice(0, start))
+    + renderStyledSlice(line.runs, start, changed || '∅', true, changedTypeface)
+    + renderStyledSlice(line.runs, before.length - end, end ? after.slice(after.length - end) : '');
 }
 
 function lineHTML(page, line) {
   const edit = pageEdits(page)[line.id];
   const current = edit ? edit.after : line.text;
   const comment = edit?.comment || '';
-  return `<article class="line-row ${edit ? 'changed' : ''}" data-line="${line.id}"><div class="line-head"><code>${line.id}</code><button class="context-toggle" type="button" aria-expanded="false">Show context</button></div><button class="line-crop" type="button" style="aspect-ratio:${line.crop[2]}/${line.crop[3]}" data-crop='${JSON.stringify(line.crop)}' data-context='${JSON.stringify(line.context_crop)}' aria-label="Show context for ${line.id}"><img loading="lazy" data-iiif-page alt="" style="width:${page.width / line.crop[2] * 100}%;transform:translate(${-line.crop[0] / page.width * 100}% ,${-line.crop[1] / page.height * 100}%)"></button><div class="line-text-row"><button class="line-text indent-${line.indent}" type="button" data-action="edit">${edit ? visualDiff(line.text, current) : renderRuns(line.runs)}</button>${comment ? `<button class="comment-preview" type="button" data-action="edit" title="${escapeHTML(comment)}">${escapeHTML(comment)}</button>` : ''}</div></article>`;
+  return `<article class="line-row ${edit ? 'changed' : ''}" data-line="${line.id}"><div class="line-head"><code>${line.id}</code><button class="context-toggle" type="button" aria-expanded="false">Show context</button></div><button class="line-crop" type="button" style="aspect-ratio:${line.crop[2]}/${line.crop[3]}" data-crop='${JSON.stringify(line.crop)}' data-context='${JSON.stringify(line.context_crop)}' aria-label="Show context for ${line.id}"><img loading="lazy" data-iiif-page alt="" style="width:${page.width / line.crop[2] * 100}%;transform:translate(${-line.crop[0] / page.width * 100}% ,${-line.crop[1] / page.height * 100}%)"></button><div class="line-text-row"><button class="line-text indent-${line.indent}" type="button" data-action="edit">${edit ? styledVisualDiff(line, current) : renderRuns(line.runs)}</button>${comment ? `<button class="comment-preview" type="button" data-action="edit" title="${escapeHTML(comment)}">${escapeHTML(comment)}</button>` : ''}</div></article>`;
 }
 
 function setCrop(row, expanded) {
@@ -331,6 +376,7 @@ async function submitCorrections() {
   const issueURL = `https://github.com/${state.corpus.repository}/issues/new?template=transcription-correction.md&title=${encodeURIComponent(`[${page.view}] Transcription corrections`)}`;
   const issueWindow = window.open('about:blank', '_blank');
   const copied = await copyText(payload);
+  persistSubmission(page, 'awaiting');
   if (issueWindow) issueWindow.location = issueURL; else window.location.href = issueURL;
   if (copied) toast('Correction JSON copied. Paste it into the Issue.');
   else { prompt('Copy this correction JSON, then paste it into the Issue:', payload); toast('Clipboard unavailable; the payload was displayed.'); }
@@ -368,8 +414,11 @@ $('#previous').addEventListener('click', () => showPage(state.currentPage.leaf -
 $('#next').addEventListener('click', () => showPage(state.currentPage.leaf + 1, state.unit));
 function go() { const leaf = Number($('#leaf-input').value); if (state.byLeaf.has(leaf)) showPage(leaf, state.unit); }
 $('#go').addEventListener('click', go); $('#leaf-input').addEventListener('keydown', event => { if (event.key === 'Enter') go(); });
-$('#discard-all').addEventListener('click', () => { if (!confirm('Discard all proposed corrections for this page?')) return; state.edits[state.currentPage.page_id] = {}; persistEdits(state.currentPage); renderPageContent(); });
+$('#discard-all').addEventListener('click', () => { if (!confirm('Discard all proposed corrections for this page?')) return; state.edits[state.currentPage.page_id] = {}; persistSubmission(state.currentPage, 'draft'); persistEdits(state.currentPage, true); renderPageContent(); });
 $('#submit').addEventListener('click', submitCorrections);
+$('#submit-not-yet').addEventListener('click', () => persistSubmission(state.currentPage, 'draft'));
+$('#mark-submitted').addEventListener('click', () => persistSubmission(state.currentPage, 'submitted'));
+$('#submit-again').addEventListener('click', () => { persistSubmission(state.currentPage, 'draft'); void submitCorrections(); });
 
 function setReference(open) { $('#reference-panel').classList.toggle('open', open); $('#reference-panel').setAttribute('aria-hidden', String(!open)); $('#reference-toggle').setAttribute('aria-expanded', String(open)); }
 $('#reference-toggle').addEventListener('click', () => setReference(!$('#reference-panel').classList.contains('open'))); $('#reference-close').addEventListener('click', () => setReference(false));
