@@ -16,12 +16,21 @@ def load_json(path: Path) -> dict:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
-def local_centres(image: Image.Image, box: list[int], count: int, first: int, last: int) -> list[int]:
+def local_centres(
+    image: Image.Image,
+    box: list[int],
+    count: int,
+    first: int,
+    last: int,
+    projection_snap: bool = True,
+) -> list[int]:
     left, top, right, bottom = box
     inset = max(45, (right - left) // 14)
     gray = np.asarray(image.convert("L"))[top:bottom, left + inset:right - inset]
     projection = gaussian_filter1d((gray < 105).sum(axis=1).astype(float), 4)
     expected = np.linspace(first, last, count)
+    if not projection_snap:
+        return [round(value) for value in expected]
     centres: list[int] = []
     radius = 24
     for value in expected:
@@ -130,7 +139,14 @@ def main() -> int:
                     start = next(i for i, line in enumerate(zone_lines) if line["id"] == first_id)
                     stop = next(i for i, line in enumerate(zone_lines) if line["id"] == last_id)
                     selected = zone_lines[start:stop + 1]
-                    centres = local_centres(source, box, len(selected), first_y, last_y)
+                    centres = local_centres(
+                        source,
+                        box,
+                        len(selected),
+                        first_y,
+                        last_y,
+                        column.get("projection_snap", True),
+                    )
                     for line, centre, (crop, context) in zip(selected, centres, rectangles(box, centres)):
                         line_map[line["id"]] = {"centre_y": centre, "crop": crop, "context_crop": context}
                         text = "".join(run["text"] for run in line["runs"])
