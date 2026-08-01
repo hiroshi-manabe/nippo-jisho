@@ -107,6 +107,9 @@
           "id": "column-2",
           "box": [1190, 300, 2290, 3430],
           "line_span_percent": [3.64, 95.34],
+          "line_crop_overrides": {
+            "c2-l042": {"top_steps": 0.9}
+          },
           "profiles": [
             {"id": "quarter-column", "tiles": 4, "overlap_pixels": 160},
             {"id": "sixth-column", "tiles": 6, "overlap_pixels": 160}

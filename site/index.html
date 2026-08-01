@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Page-by-page review of the 1603–1604 Vocabulario da Lingoa de Iapam.">
+  <title>Nippo Jisho · Human Review</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <button id="home" class="brand" type="button"><strong>Nippo Jisho</strong><span>Human review</span></button>
+    <nav id="page-nav" class="page-nav hidden" aria-label="Page navigation">
+      <button id="previous" type="button" aria-label="Previous leaf">←</button>
+      <label>Gallica f <input id="leaf-input" type="number" min="1" max="651"></label>
+      <button id="go" type="button">Go</button>
+      <button id="next" type="button" aria-label="Next leaf">→</button>
+    </nav>
+    <div class="top-actions">
+      <button id="reference-toggle" type="button" aria-expanded="false">Reference</button>
+      <a id="repository-link" target="_blank" rel="noreferrer">GitHub</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="overview" class="overview">
+      <div class="overview-heading">
+        <div><p class="eyebrow">Vocabulario da Lingoa de Iapam · 1603–1604</p><h1>Review the dictionary, leaf by leaf.</h1><p>Every acquired page is visible. Transcribed pages can be compared line by line and proposed corrections can be sent through GitHub.</p></div>
+        <div class="summary" id="summary"></div>
+      </div>
+      <div class="overview-controls">
+        <label>Show <select id="filter"><option value="all">All pages</option><option value="processed">Transcribed</option><option value="unprocessed">Unprocessed</option><option value="corrected">With corrections</option></select></label>
+        <label>Order <select id="sort"><option value="page">Page order</option><option value="recent">Recently corrected</option></select></label>
+      </div>
+      <div id="page-grid" class="page-grid" aria-live="polite"></div>
+    </section>
+
+    <section id="page-view" class="page-view hidden">
+      <div class="page-heading">
+        <div><p id="page-kicker" class="eyebrow"></p><h1 id="page-title"></h1><p id="page-meta"></p></div>
+        <div id="page-badges" class="badges"></div>
+      </div>
+      <nav id="view-tabs" class="view-tabs" aria-label="Page view">
+        <button type="button" data-unit="page">Full page</button>
+        <button type="button" data-unit="column-1">Column 1</button>
+        <button type="button" data-unit="column-2">Column 2</button>
+        <button type="button" data-unit="furniture">Furniture</button>
+      </nav>
+      <div id="page-content"></div>
+      <div id="submit-bar" class="submit-bar hidden"><span id="change-count"></span><button id="discard-all" type="button">Discard changes</button><button id="submit" class="primary" type="button">Submit page corrections</button></div>
+    </section>
+  </main>
+
+  <aside id="reference-panel" class="reference-panel" aria-hidden="true">
+    <header><div><strong>Transcription reference</strong><small id="reference-version"></small></div><button id="reference-close" type="button" aria-label="Close reference">×</button></header>
+    <nav><button class="active" data-reference="cheat-sheet">Cheat sheet</button><button data-reference="historical-notes">Detailed notes</button></nav>
+    <iframe id="reference-frame" title="Transcription reference"></iframe>
+  </aside>
+  <div id="toast" class="toast hidden" role="status"></div>
+  <script src="app.js"></script>
+</body>
+</html>

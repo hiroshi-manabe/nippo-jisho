@@ -67,6 +67,20 @@ The routine is:
 
 The crop is therefore page- and line-sensitive rather than a uniform band with permanently large margins. The clipped top of `T` in `f17/c2-l042` (`Acuma. i. Tengu. Diabo.`) is the motivating example: part of the preceding line may be repeated, but the whole `T` must appear in the target line image. The same reviewed crops should support both project transcription checks and the public human-review interface.
 
+### IIIF delivery and local cropping
+
+The public site stores crop geometry, not derivative line-image files. When a reader opens a leaf, the browser requests one medium-high-resolution page image from Gallica's IIIF Image API. Full-page, column, context, and line views reuse that same URL from the browser cache and apply the committed crop coordinates locally. A separate IIIF region request is reserved for an exceptional high-resolution detail, rather than being made for every ordinary line.
+
+The repository contains pre-generated overview thumbnails because loading hundreds of Gallica pages on the overview would be slow and discourteous to the service. It does not contain the high-resolution masters. Each page record retains the original source dimensions so crop coordinates can be scaled correctly at the requested IIIF resolution. The interface loads the transcription immediately, shows image-loading state where needed, and retains a direct Gallica link as provenance and fallback.
+
+This design keeps the deployed site small and makes a crop correction a reviewable metadata change. It also respects Gallica's current request limits better than issuing dozens of line-region requests whenever one page is opened.
+
+### Build and deployment
+
+The site source, transcription data, crop geometry, and correction Issues live in this repository. The generated site does not occupy a maintained `gh-pages` branch: a GitHub Actions workflow builds it from `main`, uploads the temporary Pages artifact, and deploys that artifact to GitHub Pages. This keeps generated HTML and corpus data out of source history while ensuring that one commit identifies the transcription, reference notes, geometry, and interface shown together.
+
+The committed overview thumbnails and `page-images.json` are reproducible derivatives of the ignored local Gallica master cache. Run `python3 scripts/prepare_review_images.py` only when those derivatives need to be created or refreshed. An ordinary public-site build requires no local master images and runs with `python3 scripts/build_public_review.py`.
+
 ## GitHub Issue submission
 
 The interface prepares corrections page by page. A submission contains only rows whose edits have been confirmed with **OK**. Before submission, the reader can inspect the collected changes.

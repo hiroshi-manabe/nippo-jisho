@@ -12,6 +12,8 @@ python3 scripts/generate_human_review.py
 
 Then open `build/human-review/index.html`. The generator also writes `build/human-review/corpus.json`, an auditable 651-record snapshot of the data embedded in the HTML.
 
+The public IIIF-backed successor is built with `python3 scripts/build_public_review.py`. It uses committed thumbnails and page geometry, loads one Gallica IIIF image only when a leaf is opened, and applies line crops in the browser. The older command above remains available for reproducing the local master-image prototype.
+
 The parent interface provides:
 
 - previous and next arrows across the full Gallica sequence;
