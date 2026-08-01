@@ -18,7 +18,7 @@ class CorrectionCorpusTest(unittest.TestCase):
                 schemas.append(reader.fieldnames)
                 rows.extend(reader)
 
-        self.assertEqual(len(rows), 102)
+        self.assertEqual(len(rows), 106)
         self.assertEqual(
             schemas[0],
             [

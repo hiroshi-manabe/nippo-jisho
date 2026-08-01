@@ -18,10 +18,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l002` | Acome. *Hũa laya de peça de ſeda de Iapão* |  |
 | `c1-l003` | &emsp;*de lauor branco em campo tinto dazul ferrete.* |  |
 | `c1-l004` | Acoya. *Huns bolinhos de farinha darroz.* |  |
-| `c1-l005` | Acqen. *Iulgar mal, ou errar na conſideraçaõ* |  |
+| `c1-l005` | Acqen. *Iulgar mal, ou errar na conſideração* |  |
 | `c1-l006` | &emsp;*iulgando. ¶ Vt,* Acqenni votçuru. |  |
 | `c1-l007` | &emsp;*Errar na conſideraçaõ, & conhecimento* |  |
-| `c1-l008` | &emsp;*da ſaluaçaõ.* |  |
+| `c1-l008` | &emsp;*da ſaluação.* |  |
 | `c1-l009` | Acqet. Axij chi. *Ruim ſangue.* |  |
 | `c1-l010` | Acqi. Axij qi. *Calidade nociua, & venenoſa* |  |
 | `c1-l011` | &emsp;*dalgũa couſa. ¶ Vt,* Acqiuo ſaru. *Ti-* |  |
@@ -39,7 +39,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l023` | &emsp;*¶* Acuni fuqeru. *Eſtar metido nos pecca-* |  |
 | `c1-l024` | &emsp;*dos. ¶* Acuni miuo naſu. *Idẽ. ¶* Acu |  |
 | `c1-l025` | &emsp;ni quamaru. *Conſumarſe em peccados.* |  |
-| `c1-l026` | &emsp;*¶* Acuni toingiacu ſuru. *Eſtar metido,* |  |
+| `c1-l026` | &emsp;*¶* Acuni tongiacu ſuru. *Eſtar metido,* |  |
 | `c1-l027` | &emsp;*& atollado nos peccados. ¶* Acuuo qi- |  |
 | `c1-l028` | &emsp;uamuru. *Fazer muitos peccados.* |  |
 | `c1-l029` | Acu. *Decoada, ou barrela. ¶* Acuuo ta |  |
@@ -50,7 +50,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l034` | &emsp;*çejar.* |  |
 | `c1-l035` | Acubiǒ. Axij yamai. *Doença ruim, ou cõ* |  |
 | `c1-l036` | &emsp;*tagioſa de que todos fogem.* |  |
-| `c1-l037` | Acubicu. i. Varui xucqe. *Maoreligioſo.* |  |
+| `c1-l037` | Acubicu. i. Varui xucqe. *Mao religioſo.* |  |
 | `c1-l038` | Acubocu. Axij qi. *Ruim aruore.* |  |
 | `c1-l039` | Acu chixiqi. *Ruim meſtre nas couſas da* |  |
 | `c1-l040` | &emsp;*virtude, & ſaluação.* |  |

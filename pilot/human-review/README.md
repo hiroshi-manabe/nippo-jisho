@@ -15,9 +15,12 @@ The parent interface provides:
 - previous and next arrows across the full Gallica sequence;
 - direct `f`-number entry and stable fragment links such as `#f249:column-2`;
 - full-page, column 1, column 2, and page-furniture views on transcribed pages;
+- line-by-line column views in which each scan strip sits directly above its transcription at exactly the same width;
 - the Level 1 and human-review status of the selected page;
 - a **Reload latest** action for picking up pages generated while human review proceeds elsewhere;
 - scan zoom, rendered transcription, literal Markdown, Gallica links, and local full-resolution images.
+
+In a column view, the physical line is the default comparison unit. The compact scan strip and its transcription share one horizontal extent, preserving left-to-right correspondence without forcing the eye between separate panes. **Show context** (or a click on the strip) expands that unit to include neighboring lines. Full-page and page-furniture views retain the broader side-by-side layout. Page-specific column boxes and optional first/last-line calibration live in `pilot/tile-config-v1-trial.json`; f17 provides the first calibrated trial.
 
 Scan-only pages load their original master on demand and display **Not yet processed** instead of an empty or misleading transcription. The generator creates column crops only for pages with Level 1 data.
 

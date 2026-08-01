@@ -98,6 +98,28 @@ def load_tile_boxes(path: Path) -> dict[tuple[str, str], tuple[int, int, int, in
     return boxes
 
 
+def load_line_spans(path: Path) -> dict[tuple[str, str], tuple[float, float]]:
+    config = load_json(path)
+    spans: dict[tuple[str, str], tuple[float, float]] = {}
+    for page in config.get("pages", []):
+        page_id = page.get("id")
+        for zone in page.get("zones", []):
+            values = zone.get("line_span_percent")
+            if values is None:
+                continue
+            if not (
+                isinstance(values, list)
+                and len(values) == 2
+                and all(isinstance(value, (int, float)) for value in values)
+                and 0 <= values[0] < values[1] <= 100
+            ):
+                raise HumanReviewError(
+                    f"{path}:{page_id}/{zone.get('id')}: invalid line span"
+                )
+            spans[(page_id, zone.get("id"))] = (float(values[0]), float(values[1]))
+    return spans
+
+
 def discover_masters(master_dir: Path) -> list[tuple[int, Path]]:
     masters: list[tuple[int, Path]] = []
     for path in master_dir.glob("f*.jpg"):
@@ -146,9 +168,16 @@ def render_runs(runs: list[dict]) -> tuple[str, str]:
     return "".join(main), "".join(far_right)
 
 
-def render_zone(zone: dict, raw_lines: dict[str, str], view: str) -> str:
+def render_zone(
+    zone: dict,
+    raw_lines: dict[str, str],
+    view: str,
+    paired: bool = False,
+    line_span: tuple[float, float] = (5.8, 95.8),
+) -> str:
     rendered_lines: list[str] = []
-    for line in zone.get("lines", []):
+    lines = zone.get("lines", [])
+    for index, line in enumerate(lines):
         main, far_right = render_runs(line["runs"])
         indentation = line.get("indent", 0)
         line_id = html.escape(line["id"])
@@ -156,6 +185,29 @@ def render_zone(zone: dict, raw_lines: dict[str, str], view: str) -> str:
         current = html.escape(plain_line_text(line), quote=True)
         reference = html.escape(f"{view}/{line['id']}", quote=True)
         far = f'<span class="far-right">{far_right}</span>' if far_right else ""
+        if paired and zone.get("kind") == "column":
+            position = (
+                50.0
+                if len(lines) == 1
+                else line_span[0]
+                + index / (len(lines) - 1) * (line_span[1] - line_span[0])
+            )
+            rendered_lines.append(
+                f'<article class="line-review" id="{line_id}">'
+                f'<div class="line-review-meta"><code>{line_id}</code>'
+                f'<span class="line-review-actions">'
+                f'<button class="context-line" type="button" aria-expanded="false">Show context</button>'
+                f'<button class="copy-line" type="button" data-reference="{reference}" '
+                f'data-current="{current}" aria-label="Copy {reference}" title="Copy for chat">Copy</button>'
+                f'</span></div>'
+                f'<button class="line-scan" type="button" aria-label="Show more context for {reference}">'
+                f'<img loading="lazy" alt="Scan strip for {reference}" '
+                f'data-scan-unit="{html.escape(zone["id"])}" '
+                f'style="--line-position:-{position:.3f}%"></button>'
+                f'<div class="paired-transcription rendered-text indent-{indentation}">{main}{far}</div>'
+                f'<code class="paired-raw raw-text">{raw}</code></article>'
+            )
+            continue
         rendered_lines.append(
             f'<div class="transcription-line" id="{line_id}">'
             f'<button class="copy-line" type="button" data-reference="{reference}" '
@@ -167,7 +219,8 @@ def render_zone(zone: dict, raw_lines: dict[str, str], view: str) -> str:
     if not rendered_lines:
         return ""
     label = html.escape(zone.get("label", zone["id"]))
-    return f'<section class="zone"><h3>{label}</h3>{"".join(rendered_lines)}</section>'
+    zone_class = "zone paired-zone" if paired and zone.get("kind") == "column" else "zone"
+    return f'<section class="{zone_class}"><h3>{label}</h3>{"".join(rendered_lines)}</section>'
 
 
 def zone_ids_for_unit(page: dict, unit: str) -> list[str]:
@@ -258,6 +311,7 @@ def processed_page_data(
     master_path: Path,
     output_dir: Path,
     boxes: dict[tuple[str, str], tuple[int, int, int, int]],
+    line_spans: dict[tuple[str, str], tuple[float, float]],
     review: dict[str, dict],
 ) -> dict:
     page_id = page["id"]
@@ -268,7 +322,13 @@ def processed_page_data(
     for unit in ("page", *REVIEW_UNITS):
         zone_ids = zone_ids_for_unit(page, unit)
         unit_html = "".join(
-            render_zone(zones[zone_id], raw_lines, view)
+            render_zone(
+                zones[zone_id],
+                raw_lines,
+                view,
+                paired=unit in {"column-1", "column-2"},
+                line_span=line_spans.get((page_id, zone_id), (5.8, 95.8)),
+            )
             for zone_id in zone_ids
             if zone_id in zones
         )
@@ -296,6 +356,7 @@ def build_corpus(
     trial_dir: Path,
     output_dir: Path,
     boxes: dict[tuple[str, str], tuple[int, int, int, int]],
+    line_spans: dict[tuple[str, str], tuple[float, float]],
     reviews: dict[str, dict],
 ) -> list[dict]:
     level1_dir = trial_dir / "level1"
@@ -331,7 +392,13 @@ def build_corpus(
         if page.get("id") != page_id or not source_path.exists():
             raise HumanReviewError(f"incomplete Level 1 pair for {page_id}")
         processed = processed_page_data(
-            page, source_path, master_path, output_dir, boxes, reviews.get(page_id, {})
+            page,
+            source_path,
+            master_path,
+            output_dir,
+            boxes,
+            line_spans,
+            reviews.get(page_id, {}),
         )
         corpus.append({**base, **processed})
         found_processed.add(page_id)
@@ -378,6 +445,10 @@ button:disabled {{ cursor:not-allowed; opacity:.45; }}
 .view-tabs {{ display:flex; align-items:center; gap:.4rem; margin:0 0 .65rem; }}
 .view-tabs button.active {{ color:white; border-color:var(--accent); background:var(--accent); }}
 .comparison {{ display:grid; grid-template-columns:minmax(0,1fr) minmax(34rem,1fr); min-height:calc(100vh - 11.7rem); border:1px solid var(--line); border-radius:.55rem; overflow:hidden; background:var(--panel); box-shadow:0 8px 28px rgba(56,44,25,.08); }}
+.comparison.line-paired-mode {{ display:block; }}
+.line-paired-mode .scan-pane {{ display:none; }}
+.line-paired-mode .text-pane {{ min-height:calc(100vh - 11.7rem); }}
+.line-paired-mode .transcription {{ width:min(100%,88rem); height:calc(100vh - 14.8rem); margin:auto; padding:1rem 1.4rem 4rem; }}
 .scan-pane,.text-pane {{ min-width:0; display:flex; flex-direction:column; }} .scan-pane {{ border-right:1px solid var(--line); background:#c9c0af; }}
 .pane-toolbar {{ min-height:3rem; display:flex; align-items:center; gap:.8rem; padding:.5rem .75rem; border-bottom:1px solid var(--line); background:var(--panel); color:var(--muted); font-size:.8rem; }}
 .pane-toolbar strong {{ color:var(--ink); }} .pane-toolbar a {{ color:var(--accent); }} .push {{ margin-left:auto; }}
@@ -392,6 +463,20 @@ button:disabled {{ cursor:not-allowed; opacity:.45; }}
 .rendered-text {{ min-width:0; white-space:pre-wrap; }} .indent-1 {{ padding-left:1.5em; }} .indent-2 {{ padding-left:3em; }} .far-right {{ float:right; margin-left:1.5rem; }}
 .raw-text {{ display:none; min-width:0; overflow-wrap:anywhere; white-space:pre-wrap; color:#463e31; font:13px/1.5 ui-monospace,SFMono-Regular,monospace; }}
 .raw-mode .rendered-text,.raw-mode .line-id {{ display:none; }} .raw-mode .raw-text {{ display:block; }} .raw-mode .transcription-line {{ grid-template-columns:3.4rem minmax(0,1fr); }}
+.paired-zone {{ margin-bottom:0; }}
+.paired-zone > h3 {{ margin-bottom:.8rem; }}
+.line-review {{ margin:0 0 1.15rem; overflow:hidden; border:1px solid var(--line); border-radius:.48rem; background:#fffdf8; box-shadow:0 2px 8px rgba(56,44,25,.06); }}
+.line-review-meta {{ display:flex; align-items:center; min-height:2.15rem; padding:.25rem .45rem .25rem .75rem; border-bottom:1px solid var(--line); color:var(--muted); background:#f7f2e8; font:11px/1.3 ui-monospace,SFMono-Regular,monospace; }}
+.line-review-actions {{ display:flex; gap:.35rem; margin-left:auto; }}
+.line-review-actions button {{ padding:.22rem .45rem; color:var(--muted); background:#fffdf8; font:11px/1.2 ui-sans-serif,system-ui,sans-serif; }}
+.line-review .copy-line {{ opacity:1; }}
+.line-scan {{ position:relative; display:block; width:100%; height:clamp(3.8rem,5vw,4.5rem); overflow:hidden; padding:0; border:0; border-radius:0; background:#c9c0af; cursor:zoom-in; }}
+.line-scan img {{ position:absolute; top:50%; left:0; display:block; width:100%; max-width:none; height:auto; transform:translateY(var(--line-position)); }}
+.line-review.expanded .line-scan {{ height:clamp(12rem,18vw,18rem); cursor:zoom-out; }}
+.paired-transcription {{ min-height:3.55rem; padding:.68rem 3.6% .72rem; border-top:1px solid #dfd5c4; white-space:pre-wrap; font:clamp(1.05rem,1.55vw,1.38rem)/1.5 Georgia,'Times New Roman',serif; }}
+.paired-raw {{ padding:.7rem 3.6% .8rem; }}
+.raw-mode .paired-transcription {{ display:none; }}
+.raw-mode .paired-raw {{ display:block; }}
 .empty-state {{ display:grid; place-content:center; min-height:100%; padding:2rem; text-align:center; color:var(--muted); }} .empty-state strong {{ display:block; margin-bottom:.35rem; color:var(--ink); font:600 1.35rem Georgia,serif; }}
 #toast {{ position:fixed; right:1rem; bottom:1rem; z-index:30; padding:.55rem .8rem; border-radius:.4rem; color:white; background:#2f4939; box-shadow:0 5px 18px rgba(0,0,0,.2); }}
 .hidden {{ display:none !important; }}
@@ -399,6 +484,8 @@ button:disabled {{ cursor:not-allowed; opacity:.45; }}
   .topbar {{ grid-template-columns:1fr; }} .brand p {{ display:none; }} .leaf-nav,.utility-nav {{ flex-wrap:wrap; }}
   .page-heading {{ align-items:start; }} .comparison {{ grid-template-columns:1fr; }} .scan-pane {{ border-right:0; border-bottom:1px solid var(--line); }}
   .image-frame,.transcription {{ height:56vh; }} .copy-line {{ opacity:.75; }}
+  .line-paired-mode .transcription {{ height:56vh; padding:.7rem .55rem 3rem; }}
+  .line-scan {{ height:clamp(3.8rem,8vw,4.5rem); }}
 }}
 </style>
 </head>
@@ -472,6 +559,8 @@ function show(leaf, requestedUnit='page', updateLocation=true) {{
   if (!page) return;
   currentLeaf = page.leaf;
   currentUnit = page.processed ? requestedUnit : 'page';
+  const pairedMode = page.processed && ['column-1','column-2'].includes(currentUnit);
+  document.querySelector('.comparison').classList.toggle('line-paired-mode', pairedMode);
   document.getElementById('leaf-input').value = page.leaf;
   document.getElementById('previous').disabled = page.leaf === firstLeaf;
   document.getElementById('next').disabled = page.leaf === lastLeaf;
@@ -498,8 +587,14 @@ function show(leaf, requestedUnit='page', updateLocation=true) {{
   source.classList.toggle('hidden', !page.processed);
   if (page.processed) source.href = page.source;
   document.getElementById('mode-toggle').disabled = !page.processed;
+  document.getElementById('text-heading').textContent = pairedMode ? 'Line-by-line comparison' : 'Level 1 transcription';
   const transcription = document.getElementById('transcription');
   transcription.innerHTML = page.processed ? page.units[currentUnit].html : emptyState(page);
+  if (page.processed) {{
+    transcription.querySelectorAll('.line-scan img').forEach(strip => {{
+      strip.src = page.images[strip.dataset.scanUnit];
+    }});
+  }}
   transcription.classList.toggle('raw-mode', rawMode && page.processed);
   transcription.scrollTo(0,0);
   if (updateLocation) setLocation(page.leaf, currentUnit);
@@ -538,6 +633,16 @@ async function copyText(text) {{
   return false;
 }}
 document.getElementById('transcription').addEventListener('click', async event => {{
+  const contextButton = event.target.closest('.context-line');
+  const stripButton = event.target.closest('.line-scan');
+  if (contextButton || stripButton) {{
+    const review = event.target.closest('.line-review');
+    const expanded = review.classList.toggle('expanded');
+    const control = review.querySelector('.context-line');
+    control.textContent = expanded ? 'Hide context' : 'Show context';
+    control.setAttribute('aria-expanded', String(expanded));
+    return;
+  }}
   const button = event.target.closest('.copy-line');
   if (!button) return;
   const text = `${{button.dataset.reference}}\\nCurrent: ${{button.dataset.current}}`;
@@ -574,10 +679,11 @@ def generate(
 ) -> dict[str, int]:
     record = load_review_record(review_path)
     boxes = load_tile_boxes(tile_config_path)
+    line_spans = load_line_spans(tile_config_path)
     masters = discover_masters(master_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
     corpus = build_corpus(
-        masters, trial_dir, output_dir, boxes, review_registry(record)
+        masters, trial_dir, output_dir, boxes, line_spans, review_registry(record)
     )
     title = record.get("title", "Nippo Jisho · Human review")
     atomic_write(

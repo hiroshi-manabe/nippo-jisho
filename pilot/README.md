@@ -32,7 +32,7 @@ A subsequent [contextual review of `f0248` and `f0643`](contextual-review/f0248-
 
 The [timed `f0249`–`f0250` production simulation](production-simulation/f0249-f0250.md) applies the full workflow to unfamiliar consecutive pages, adds 196 lines, and supplies the evidence for adopting version 1.
 
-The [dictionary-wide human review interface](human-review/README.md) navigates all 651 acquired leaves. It places scan crops beside the nine existing Level 1 pages, marks the other 642 leaves `unprocessed`, and tracks 27 resumable human-review units—two columns and page furniture for each transcribed page. The revised `f14` units are human-checked; the corrected `f15` and `f16` columns await recheck, while the new `f17` units await their first human check.
+The [dictionary-wide human review interface](human-review/README.md) navigates all 651 acquired leaves. Column review now trials vertically stacked, equal-width scan-line and transcription pairs with expandable context; full-page and furniture views retain the broader layout. The other 642 leaves are marked `unprocessed`, and 27 resumable human-review units track two columns and page furniture for every transcribed page. The revised `f14` units are human-checked; the corrected `f15` and `f16` columns await recheck, while `f17` review is in progress.
 
 The [raw f13–f16 correction corpus](correction-corpus/README.md) preserves 97 exact textual transitions, including superseded and reverted proposals, in a searchable occurrence-level table. Its first post-hoc use on `f17` is recorded beside it: all major earlier error families were reinspected after the normal review passes, no new change was accepted, and the non-changes remain available for later recall and precision analysis.
 

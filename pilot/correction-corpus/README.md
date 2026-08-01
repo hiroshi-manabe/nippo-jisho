@@ -5,7 +5,7 @@ This directory preserves the correction evidence from the opening production pag
 ## Files
 
 - [`f0013-f0016.tsv`](f0013-f0016.tsv) is the raw event table. One row is one textual transition at one source location.
-- [`f0017.tsv`](f0017.tsv) records the five atomic scan-supported mismatches found by the later repeated f17 audit.
+- [`f0017.tsv`](f0017.tsv) records the five atomic mismatches found by the repeated autonomous audit and four subsequent human-review corrections.
 - [`f0017-pattern-audit.md`](f0017-pattern-audit.md) records the first use of the corpus as a post-hoc checklist on a new page.
 
 ## TSV fields

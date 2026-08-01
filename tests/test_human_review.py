@@ -132,12 +132,17 @@ class HumanReviewTests(unittest.TestCase):
                 'data-current="Gunpacu. Icuſano macu. Certas cortinas q̃"',
                 f249_column_2,
             )
+            self.assertIn('class="line-review"', f249_column_2)
+            self.assertIn('data-scan-unit="column-2"', f249_column_2)
+            self.assertIn("Show context", f249_column_2)
 
             document = (output / "index.html").read_text(encoding="utf-8")
             self.assertIn("Not yet processed", document)
             self.assertIn("Reload latest", document)
             self.assertIn('id="leaf-input"', document)
             self.assertIn("Current: ${button.dataset.current}", document)
+            self.assertIn("line-paired-mode", document)
+            self.assertIn("Line-by-line comparison", document)
             self.assertIn("async function copyText", document)
             self.assertEqual(len(list((output / "assets").glob("*.jpg"))), 6)
 
