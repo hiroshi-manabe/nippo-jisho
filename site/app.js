@@ -1,12 +1,18 @@
 const state = { corpus: null, byLeaf: new Map(), currentPage: null, unit: 'page', edits: {} };
-const pageImageCache = new Map();
-const CURRENT_IMAGE_RETRY_DELAYS = [0, 1500, 4000];
+const previewImageCache = new Map();
+const hdImageCache = new Map();
+const hdFailures = new Map();
+const PREVIEW_RETRY_DELAYS = [0, 1500, 4000];
+const HD_DWELL_TIME = 1200;
+const HD_MIN_START_INTERVAL = 15000;
+const HD_FAILURE_COOLDOWN = 60000;
 let imageLoadGeneration = 0;
+const hdManager = {candidate: null, inFlight: null, lastStartedAt: 0, timer: null};
 const $ = selector => document.querySelector(selector);
 const escapeHTML = value => String(value).replace(/[&<>"']/g, character => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[character]));
 
-function retainPageImage(page, priority = 'low') {
-  let entry = pageImageCache.get(page.leaf);
+function retainImage(cache, leaf, url, priority = 'low') {
+  let entry = cache.get(leaf);
   if (entry) {
     if (priority === 'high') entry.image.fetchPriority = 'high';
     return entry;
@@ -19,13 +25,13 @@ function retainPageImage(page, priority = 'low') {
     image.addEventListener('load', () => { entry.status = 'loaded'; resolve(true); }, {once: true});
     image.addEventListener('error', () => {
       entry.status = 'error';
-      if (pageImageCache.get(page.leaf) === entry) pageImageCache.delete(page.leaf);
+      if (cache.get(leaf) === entry) cache.delete(leaf);
       resolve(false);
     }, {once: true});
   });
   entry.ready = ready;
-  pageImageCache.set(page.leaf, entry);
-  image.src = page.iiif;
+  cache.set(leaf, entry);
+  image.src = url;
   return entry;
 }
 
@@ -33,44 +39,119 @@ function delay(milliseconds) {
   return new Promise(resolve => setTimeout(resolve, milliseconds));
 }
 
-function setScanStatus(message, retry = false) {
+function setScanStatus(message, retryAction = null) {
   document.querySelectorAll('.scan-status').forEach(node => { node.textContent = message; });
-  document.querySelectorAll('.scan-retry').forEach(node => { node.classList.toggle('hidden', !retry); });
+  document.querySelectorAll('.preview-retry').forEach(node => { node.classList.toggle('hidden', retryAction !== 'preview'); });
+  document.querySelectorAll('.hd-retry').forEach(node => { node.classList.toggle('hidden', retryAction !== 'hd'); });
 }
 
-function showRetainedPageImage(page) {
+function displayPageImage(page, url) {
   if (state.currentPage?.leaf !== page.leaf) return;
   document.querySelectorAll('img[data-iiif-page]').forEach(image => {
-    if (image.dataset.iiifPage === page.iiif && image.src !== page.iiif) image.src = page.iiif;
+    if (image.src !== url) image.src = url;
   });
-  setScanStatus('Loaded through IIIF');
 }
 
-async function loadCurrentPageImage(page, generation) {
-  for (let attempt = 0; attempt < CURRENT_IMAGE_RETRY_DELAYS.length; attempt++) {
-    const retryDelay = CURRENT_IMAGE_RETRY_DELAYS[attempt];
+function refreshPageImageUI(page) {
+  if (state.currentPage?.leaf !== page.leaf) return;
+  if (hdImageCache.get(page.leaf)?.status === 'loaded') {
+    displayPageImage(page, page.iiif);
+    setScanStatus('HD loaded through IIIF');
+    return;
+  }
+  if (previewImageCache.get(page.leaf)?.status !== 'loaded') {
+    setScanStatus('Loading preview from Gallica…');
+    return;
+  }
+  displayPageImage(page, page.iiif_preview);
+  if (hdManager.inFlight?.leaf === page.leaf) setScanStatus('Preview loaded · loading HD…');
+  else if (hdManager.candidate?.page.leaf === page.leaf) setScanStatus('Preview loaded · HD queued');
+  else if (hdFailures.has(page.leaf)) setScanStatus('Preview loaded · HD unavailable', 'hd');
+  else setScanStatus('Preview loaded');
+}
+
+function clearHDCandidate() {
+  hdManager.candidate = null;
+  if (hdManager.timer !== null) clearTimeout(hdManager.timer);
+  hdManager.timer = null;
+}
+
+function pumpHDManager() {
+  if (hdManager.timer !== null) clearTimeout(hdManager.timer);
+  hdManager.timer = null;
+  const candidate = hdManager.candidate;
+  if (!candidate) return;
+  if (state.currentPage?.leaf !== candidate.page.leaf) {
+    clearHDCandidate();
+    return;
+  }
+  if (hdManager.inFlight) return;
+  const failureUntil = hdFailures.get(candidate.page.leaf) || 0;
+  const earliestStart = Math.max(candidate.earliestAt, hdManager.lastStartedAt + HD_MIN_START_INTERVAL, failureUntil);
+  const wait = earliestStart - Date.now();
+  if (wait > 0) {
+    hdManager.timer = setTimeout(pumpHDManager, wait);
+    refreshPageImageUI(candidate.page);
+    return;
+  }
+  void startHDRequest(candidate.page);
+}
+
+async function startHDRequest(page) {
+  if (state.currentPage?.leaf !== page.leaf || hdManager.inFlight) return;
+  hdManager.candidate = null;
+  hdManager.lastStartedAt = Date.now();
+  const entry = retainImage(hdImageCache, page.leaf, page.iiif, 'high');
+  hdManager.inFlight = {leaf: page.leaf, entry};
+  refreshPageImageUI(page);
+  const success = await entry.ready;
+  hdManager.inFlight = null;
+  if (success) hdFailures.delete(page.leaf);
+  else hdFailures.set(page.leaf, Date.now() + HD_FAILURE_COOLDOWN);
+  if (state.currentPage?.leaf === page.leaf) refreshPageImageUI(page);
+  pumpHDManager();
+}
+
+function queueHD(page, dwell = true) {
+  if (hdImageCache.get(page.leaf)?.status === 'loaded' || hdManager.inFlight?.leaf === page.leaf) {
+    refreshPageImageUI(page);
+    return;
+  }
+  if (hdManager.candidate?.page.leaf !== page.leaf) {
+    clearHDCandidate();
+    hdManager.candidate = {page, earliestAt: Date.now() + (dwell ? HD_DWELL_TIME : 0)};
+  }
+  refreshPageImageUI(page);
+  pumpHDManager();
+}
+
+async function loadCurrentPreview(page, generation) {
+  for (let attempt = 0; attempt < PREVIEW_RETRY_DELAYS.length; attempt++) {
+    const retryDelay = PREVIEW_RETRY_DELAYS[attempt];
     if (retryDelay) {
-      setScanStatus(`Retrying Gallica scan (${attempt + 1}/${CURRENT_IMAGE_RETRY_DELAYS.length})…`);
+      setScanStatus(`Retrying Gallica preview (${attempt + 1}/${PREVIEW_RETRY_DELAYS.length})…`);
       await delay(retryDelay);
     }
     if (generation !== imageLoadGeneration || state.currentPage?.leaf !== page.leaf) return;
-    const entry = retainPageImage(page, 'high');
+    const entry = retainImage(previewImageCache, page.leaf, page.iiif_preview, 'high');
     if (await entry.ready) {
       if (generation !== imageLoadGeneration || state.currentPage?.leaf !== page.leaf) return;
-      showRetainedPageImage(page);
+      refreshPageImageUI(page);
+      queueHD(page);
       return;
     }
   }
   if (generation === imageLoadGeneration && state.currentPage?.leaf === page.leaf) {
-    setScanStatus('Gallica scan unavailable', true);
-    toast('The Gallica image could not be loaded. Retry when ready.');
+    setScanStatus('Gallica preview unavailable', 'preview');
+    toast('The Gallica preview could not be loaded. Retry when ready.');
   }
 }
 
-function updatePageImageCache(leaf) {
+function updatePageImages(leaf) {
   const generation = ++imageLoadGeneration;
-  setScanStatus('Loading from Gallica…');
-  void loadCurrentPageImage(state.byLeaf.get(leaf), generation);
+  if (hdManager.candidate?.page.leaf !== leaf) clearHDCandidate();
+  setScanStatus('Loading preview from Gallica…');
+  void loadCurrentPreview(state.byLeaf.get(leaf), generation);
 }
 
 function toast(message) {
@@ -88,6 +169,8 @@ function route() {
 }
 
 function showOverview(update = true) {
+  imageLoadGeneration++;
+  clearHDCandidate();
   state.currentPage = null;
   $('#overview').classList.remove('hidden');
   $('#page-view').classList.add('hidden');
@@ -136,7 +219,7 @@ function showPage(leaf, unit = 'page', update = true) {
   if (!page) return;
   state.currentPage = page;
   state.unit = page.processed ? unit : 'page';
-  updatePageImageCache(leaf);
+  updatePageImages(leaf);
   $('#overview').classList.add('hidden');
   $('#page-view').classList.remove('hidden');
   $('#page-nav').classList.remove('hidden');
@@ -175,18 +258,22 @@ function continuousHTML(page, unit) {
 }
 
 function scanPane(page) {
-  return `<section class="scan-pane"><div class="pane-toolbar"><strong>Gallica scan</strong><span class="push scan-status">Loading from Gallica…</span><button class="scan-retry hidden" type="button" data-action="retry-scan">Retry</button><a href="${page.gallica}" target="_blank" rel="noreferrer">Open in Gallica</a></div><div class="scan-frame"><img data-iiif-page="${page.iiif}" alt=""></div></section>`;
+  return `<section class="scan-pane"><div class="pane-toolbar"><strong>Gallica scan</strong><span class="push scan-status">Loading preview from Gallica…</span><button class="preview-retry hidden" type="button" data-action="retry-preview">Retry preview</button><button class="hd-retry hidden" type="button" data-action="retry-hd">Retry HD</button><a href="${page.gallica}" target="_blank" rel="noreferrer">Open in Gallica</a></div><div class="scan-frame"><img data-iiif-page alt=""></div></section>`;
+}
+
+function lineImageStatus() {
+  return `<div class="line-image-status"><span class="scan-status">Loading preview from Gallica…</span><button class="preview-retry hidden" type="button" data-action="retry-preview">Retry preview</button><button class="hd-retry hidden" type="button" data-action="retry-hd">Retry HD</button></div>`;
 }
 
 function renderPageContent() {
   const page = state.currentPage;
   if (page.processed && ['column-1', 'column-2'].includes(state.unit)) {
     const lines = page.zones.filter(item => item.kind === 'column' && (item.id === state.unit || item.id.startsWith(`${state.unit}-`))).flatMap(item => item.lines);
-    $('#page-content').innerHTML = `<div class="line-list">${lines.map(line => lineHTML(page, line)).join('')}</div>`;
+    $('#page-content').innerHTML = `<div class="line-list">${lineImageStatus()}${lines.map(line => lineHTML(page, line)).join('')}</div>`;
   } else {
     $('#page-content').innerHTML = `<div class="page-comparison">${scanPane(page)}<section class="text-pane"><div class="pane-toolbar"><strong>${page.processed ? 'Level 1 transcription' : 'Transcription'}</strong>${page.source ? `<a class="push" href="${page.source}" target="_blank" rel="noreferrer">Source Markdown</a>` : ''}</div><div class="continuous-text">${continuousHTML(page, state.unit)}</div></section></div>`;
   }
-  if (pageImageCache.get(page.leaf)?.status === 'loaded') showRetainedPageImage(page);
+  refreshPageImageUI(page);
 }
 
 function cropStyle(page, crop) {
@@ -210,7 +297,7 @@ function lineHTML(page, line) {
   const edit = pageEdits(page)[line.id];
   const current = edit ? edit.after : line.text;
   const comment = edit?.comment || '';
-  return `<article class="line-row ${edit ? 'changed' : ''}" data-line="${line.id}"><div class="line-head"><code>${line.id}</code><button class="context-toggle" type="button" aria-expanded="false">Show context</button></div><button class="line-crop" type="button" style="aspect-ratio:${line.crop[2]}/${line.crop[3]}" data-crop='${JSON.stringify(line.crop)}' data-context='${JSON.stringify(line.context_crop)}' aria-label="Show context for ${line.id}"><img loading="lazy" data-iiif-page="${page.iiif}" alt="" style="width:${page.width / line.crop[2] * 100}%;transform:translate(${-line.crop[0] / page.width * 100}% ,${-line.crop[1] / page.height * 100}%)"></button><div class="line-text-row"><button class="line-text indent-${line.indent}" type="button" data-action="edit">${edit ? visualDiff(line.text, current) : renderRuns(line.runs)}</button>${comment ? `<button class="comment-preview" type="button" data-action="edit" title="${escapeHTML(comment)}">${escapeHTML(comment)}</button>` : ''}</div></article>`;
+  return `<article class="line-row ${edit ? 'changed' : ''}" data-line="${line.id}"><div class="line-head"><code>${line.id}</code><button class="context-toggle" type="button" aria-expanded="false">Show context</button></div><button class="line-crop" type="button" style="aspect-ratio:${line.crop[2]}/${line.crop[3]}" data-crop='${JSON.stringify(line.crop)}' data-context='${JSON.stringify(line.context_crop)}' aria-label="Show context for ${line.id}"><img loading="lazy" data-iiif-page alt="" style="width:${page.width / line.crop[2] * 100}%;transform:translate(${-line.crop[0] / page.width * 100}% ,${-line.crop[1] / page.height * 100}%)"></button><div class="line-text-row"><button class="line-text indent-${line.indent}" type="button" data-action="edit">${edit ? visualDiff(line.text, current) : renderRuns(line.runs)}</button>${comment ? `<button class="comment-preview" type="button" data-action="edit" title="${escapeHTML(comment)}">${escapeHTML(comment)}</button>` : ''}</div></article>`;
 }
 
 function setCrop(row, expanded) {
@@ -250,7 +337,8 @@ async function submitCorrections() {
 }
 
 document.addEventListener('click', event => {
-  if (event.target.closest('[data-action="retry-scan"]')) return updatePageImageCache(state.currentPage.leaf);
+  if (event.target.closest('[data-action="retry-preview"]')) return updatePageImages(state.currentPage.leaf);
+  if (event.target.closest('[data-action="retry-hd"]')) return queueHD(state.currentPage, false);
   const card = event.target.closest('.page-card'); if (card) return showPage(Number(card.dataset.leaf));
   const tab = event.target.closest('#view-tabs button'); if (tab) return showPage(state.currentPage.leaf, tab.dataset.unit);
   const row = event.target.closest('.line-row');

@@ -173,6 +173,7 @@ def main() -> int:
             "view": view,
             "page_id": page_id,
             "thumbnail": f"assets/thumbnails/f{leaf:04d}.webp",
+            "iiif_preview": f"https://gallica.bnf.fr/iiif/{ARK}/{view}/full/1000/0/native.jpg",
             "iiif": f"https://gallica.bnf.fr/iiif/{ARK}/{view}/full/2200/0/native.jpg",
             "iiif_highres": f"https://gallica.bnf.fr/iiif/{ARK}/{view}/full/3200/0/native.jpg",
             "gallica": f"https://gallica.bnf.fr/{ARK}/{view}.item",
