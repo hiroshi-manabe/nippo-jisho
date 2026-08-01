@@ -1,0 +1,98 @@
+event_id	page	line	phase	step	before	after	outcome	finder	categories	provenance	note
+f13-001	f0013	c1-l005	human_review	1	vogaes	vogaeſ	intermediate	human_visual	short_s/long_s	47ed630	Terminal s was first classified as long s; renewed inspection reversed that part.
+f13-002	f0013	c1-l005	human_review	2	vogaeſ	vogais	accepted	human_visual	vowel;short_s/long_s	6b4d898	The printed sequence is ai plus final short s.
+f13-003	f0013	c1-l005	human_review	1	são	ſão	accepted	human_visual	short_s/long_s	6b4d898	Initial s in the final word is long s.
+f13-004	f0013	c1-l007	human_review	1	Interieição	Interieção	accepted	human_visual	modern_portuguese_bias;vowel	8cdc194	Printed historical spelling lacks the extra i.
+f13-005	f0013	c1-l009	repetition_sweep	1	interieição	interieção	accepted	same_page_repetition	modern_portuguese_bias;vowel	8cdc194	Parallel occurrence found from the first correction.
+f13-006	f0013	c1-l016	repetition_sweep	1	Interieição	Interieção	accepted	same_page_repetition	modern_portuguese_bias;vowel	8cdc194	Parallel occurrence found from the first correction.
+f13-007	f0013	c1-l025	human_review	1	Communmente	Comummente	accepted	human_visual	consonant_count;modern_portuguese_bias	5234c88	One printed m was lost to familiar spelling expectation.
+f13-008	f0013	c1-l033	human_review	1	perali	peralj	reverted	human_visual	i/j	c8d1f94	A proposed final j was not sustained by context or later inspection.
+f13-009	f0013	c1-l033	human_review	2	peralj	perali	intermediate	context_review	i/j	fdd8098	Restored i before the accent itself was identified.
+f13-010	f0013	c1-l033	human_review	3	cã perali	cà peralì	intermediate	human_visual	tilde/grave;base_letter	4403fa5	Both diagonal marks were recognized as graves; final base was still provisional.
+f13-011	f0013	c1-l033	human_review	4	peralì	peralà	accepted	historical_portuguese	modern_portuguese_bias;base_letter;grave	af9e723	Historical phrase de cà peralà and the scan establish final à.
+f13-012	f0013	c1-l034	human_review	1	deſfeita	desfeita	accepted	human_visual	short_s/long_s;modern_portuguese_bias	899fe6c	The medial character is short s.
+f13-013	f0013	c2-l013	human_review	1	re,	re.	accepted	human_visual	punctuation	48338f7	Context favors a comma but the printed mark is a point.
+f13-014	f0013	c2-l019	human_review	1	Na-	Ne-	accepted	japanese_context	vowel;line_continuation	4a7c3cf	Japanese nezumi exposed the first vowel.
+f13-015	f0013	c2-l020	human_review	1	zuniga	zumiga	accepted	japanese_context	n/m;line_continuation	4a7c3cf	Japanese nezumi ga exposed n/m confusion across the line break.
+f13-016	f0013	c2-l020	human_review	1	raios	ratos	accepted	bilingual_context	i/t;portuguese_semantics	4a7c3cf	The Japanese and gloss require rats, confirmed visually.
+f13-017	f0013	c2-l022	human_review	1	Viuem	Virem	accepted	human_visual	u/r	6019942	The third character is r.
+f13-018	f0013	c2-l027	human_review	1	abiuru	aburu	accepted	japanese_context	extra_letter	1c6c67b	The example uses aburu; an i had been supplied.
+f13-019	f0013	c2-l029	human_review	1	tormen-	tormẽ-	accepted	human_visual	abbreviation_tilde;silent_expansion	aacab1d	Printed e-tilde abbreviation was expanded to en.
+f13-020	f0013	c2-l033	human_review	1	fazzuru	fazzuſu	accepted	japanese_context	r/long_s	3776fc8	Japanese morphology and the long-s shape establish fazzuſu.
+f13-021	f0013	c1-l002	convention_audit	1	Iaponi=	Iaponi-	accepted	typographic_audit	line_division;italic_form	930551e	Uniform encoding of the italic line-division sign.
+f14-001	f0014	c1-l044	draft_review	1	Aburamiqei	Aburamigaqi	accepted	human_visual	g/q;vowel;japanese_context	precomparison-corrections.md	Exact frozen-draft correction preserved before external comparison.
+f14-002	f0014	c1-l045	draft_review	1	acepinhada	acepilhada	accepted	human_visual	n/l;portuguese_context	precomparison-corrections.md	Exact frozen-draft correction preserved before external comparison.
+f14-003	f0014	c1-l012	pre_handoff	1	laqi	ſaqi	accepted	japanese_context	l/long_s	17dad57	Japanese shita saki prompted enlargement.
+f14-004	f0014	c1-l016	pre_handoff	1	unto	vnto	accepted	glyph_audit	u/v;modern_portuguese_bias	17dad57	Printed initial v retained.
+f14-005	f0014	c1-l028	pre_handoff	1	q̃ uſão	q̃ vſão	intermediate	glyph_audit	u/v	17dad57	The initial v survived, but human review later changed the medial long s to z.
+f14-006	f0014	c1-l007	human_review	1	ate a fiuela	ate afiuela	accepted	human_visual	spacing;portuguese_expectation	a6e9bda	Expected grammar supplied a source space.
+f14-007	f0014	c1-l008	human_review	1	chicaraqane	chicaragane	accepted	japanese_context	g/q	a6e9bda	Japanese chikara-gane exposes q/g confusion.
+f14-008	f0014	c1-l010	human_review	1	nalba	naiba	accepted	human_visual	i/l	a6e9bda	Enlargement distinguishes i from l.
+f14-009	f0014	c1-l011	human_review	1	baixo	baxo	accepted	historical_portuguese	modern_portuguese_bias;extra_letter	a6e9bda	Modern spelling supplied i.
+f14-010	f0014	c1-l017	human_review	1	toucinho	touçinho	accepted	human_visual	c/cedilla;modern_portuguese_bias	a6e9bda	Cedilla was omitted during fluent reading.
+f14-011	f0014	c1-l022	human_review	1	miru	mu	accepted	japanese_context	extra_letters;modern_japanese_bias	a6e9bda	Historical Japanese shimu exposed the supplied ir.
+f14-012	f0014	c1-l023	human_review	1	funuuru	ſumuru	accepted	japanese_context	f/long_s;n/m/u	a6e9bda	Phrase-level Japanese context and enlargement resolve the difficult types.
+f14-013	f0014	c1-l027	human_review	1	pastas	paſtas	accepted	human_visual	short_s/long_s	a6e9bda	Printed long s preserved.
+f14-014	f0014	c1-l028	human_review	2	vſão	vzão	accepted	human_visual	long_s/z;modern_portuguese_bias	a6e9bda	Expected Portuguese displaced printed z.
+f14-015	f0014	c2-l011	human_review	1	Aburauotçugu	Aburauo tçugu	accepted	human_visual	spacing;japanese_morphology	a6e9bda	Visible source word boundary restored.
+f14-016	f0014	c2-l013	human_review	1	l,	i,	accepted	human_visual	i/l	a6e9bda	The abbreviation alternative begins with i.
+f14-017	f0014	c2-l029	human_review	1	hũm	hum	accepted	mark_audit	inferred_tilde	a6e9bda	A tilde was inferred where no ink supports it.
+f14-018	f0014	c2-l037	human_review	1	Aquentarſe	Aquẽtarſe	accepted	human_visual	abbreviation_tilde;silent_expansion	a6e9bda	Printed e-tilde abbreviation restored.
+f15-001	f0015	c1-l027	pre_handoff	1	manhã	menhã	intermediate	portuguese_context	modern_portuguese_bias;vowel	bnf-f0015.md report	Historical spelling pass found e; a faint a remained missed.
+f15-002	f0015	c1-l043	pre_handoff	1	Permet.	Per met.	accepted	token_alignment	spacing	bnf-f0015.md report	First occurrence contains two printed words.
+f15-003	f0015	c1-l045	pre_handoff	1	Permet.	Per met.	accepted	same_page_repetition	spacing	bnf-f0015.md report	Second occurrence contains the same two printed words.
+f15-004	f0015	c2-l003	pre_handoff	1	Acaſique	Acafigue	accepted	japanese_context	long_s/f;q/g	bnf-f0015.md report	Enlargement confirms f and g.
+f15-005	f0015	c2-l004	pre_handoff	1	briguiçois	briguigõis	intermediate	portuguese_context	c/g;cedilla/tilde;mark_placement	bnf-f0015.md report	Base letters improved, but the tilde was still assigned to the wrong vowel.
+f15-006	f0015	c2-l005	pre_handoff	1	briguiçois	briguigõis	intermediate	same_page_repetition	c/g;cedilla/tilde;mark_placement	bnf-f0015.md report	The same provisional reading was propagated to the repeated form.
+f15-007	f0015	c2-l008	pre_handoff	1	A aga-	Acaga-	accepted	japanese_context	missing_letter	bnf-f0015.md report	Weak c recovered.
+f15-008	f0015	c2-l011	pre_handoff	1	Acagauaiodoxi	Acagauauodoxi	accepted	japanese_context	i/u	bnf-f0015.md report	Compound analysis prompted exact reinspection.
+f15-009	f0015	c2-l015	pre_handoff	1	ruivos	ruiuos	accepted	glyph_audit	u/v;modern_portuguese_bias	bnf-f0015.md report	Printed u retained.
+f15-010	f0015	c2-l025	pre_handoff	1	tè	te.	accepted	mark_audit	grave/punctuation	bnf-f0015.md report	Following point was mistaken for an accent.
+f15-011	f0015	c2-l033	pre_handoff	1	jinda	jǔda	accepted	mark_audit	i/u;caron	bnf-f0015.md report	Base vowel and caron restored.
+f15-012	f0015	c2-l033	pre_handoff	1	Çujarſe	çujarſe	accepted	glyph_audit	capitalization	bnf-f0015.md report	Printed lowercase initial retained.
+f15-013	f0015	c2-l041	pre_handoff	1	Vo-	Vo	accepted	right_edge_audit	inferred_line_division	bnf-f0015.md report	No division sign is printed.
+f15-014	f0015	c1-l021	human_review	1	Acauo	Acano	accepted	japanese_context	u/n	7cc48c0	Nearby Acano and Japanese aca no expose u/n confusion.
+f15-015	f0015	c1-l027	human_review	2	menhã	menhaã	accepted	human_visual	weak_letter;historical_portuguese	7cc48c0	Faint first a recovered.
+f15-016	f0015	c1-l028	human_review	1	Acamuſubu	Aca muſubu	accepted	human_visual	spacing;japanese_morphology	7cc48c0	Visible Japanese spacing restored.
+f15-017	f0015	c2-l004	human_review	2	briguigõis	briguigoĩs	accepted	mark_audit	tilde_placement;vowel	7cc48c0	Tilde belongs over i.
+f15-018	f0015	c2-l005	human_review	2	briguigõis	briguigoĩs	accepted	same_page_repetition	tilde_placement;vowel	7cc48c0	Parallel occurrence received the same source-confirmed correction.
+f15-019	f0015	c2-l016	human_review	1	Hũs	Huns	accepted	mark_audit	inferred_tilde	7cc48c0	No tilde is printed.
+f15-020	f0015	c2-l017	human_review	1	comballus	comballas	accepted	bilingual_context	u/a	7cc48c0	Lexical context and enlargement establish final a.
+f15-021	f0015	c2-l030	human_review	1	de dia	dedia	accepted	human_visual	spacing;portuguese_expectation	7cc48c0	Expected word separation supplied a source space.
+f15-022	f0015	c2-l045	human_review	1	ſuru	faru	accepted	human_visual	long_s/f;japanese_expectation	7cc48c0	Expected Japanese displaced visibly printed f and a.
+f15-023	f0015	c2-l046	human_review	1	aſſi	aſsi	accepted	human_visual	short_s/long_s	7cc48c0	Second sibilant is short s.
+f16-001	f0016	c2-l024	independent_comparison	1	Saguiyiqu	Sagui yiqu	intermediate	independent_reading	spacing;japanese_vowel	bnf-f0016.md report	The space survived; the vowel did not.
+f16-002	f0016	c2-l025–c2-l026	independent_comparison	1	Sof- / frir	Sõ- / fir	intermediate	independent_reading	f/tilde;missing_letter	bnf-f0016.md report	One divided string: marked Sõ survived; following initial f did not.
+f16-003	f0016	c1-l002	first_human_checkpoint	1	acamiga fa-	acamiga ſa-	accepted	japanese_context	f/long_s	3e52257	Japanese akami ga sasu should have triggered reinspection.
+f16-004	f0016	c1-l023	first_human_checkpoint	1	dẽpres-	dẽpres	accepted	right_edge_audit	inferred_line_division	3e52257	Blank right edge.
+f16-005	f0016	c1-l039	first_human_checkpoint	1	tol-	tol	accepted	right_edge_audit	inferred_line_division	3e52257	Blank right edge.
+f16-006	f0016	c1-l045	first_human_checkpoint	1	claridade.	claridade	accepted	right_edge_audit	inferred_punctuation	3e52257	No terminal point is printed.
+f16-007	f0016	c2-l009	first_human_checkpoint	1	ſel-	ſel	accepted	right_edge_audit	inferred_line_division	3e52257	Blank right edge.
+f16-008	f0016	c2-l015	first_human_checkpoint	1	Fito acaſu	Fiuo acaſu	accepted	japanese_context	t/u	3e52257	Japanese hi o akasu exposes t/u confusion.
+f16-009	f0016	c2-l046	first_human_checkpoint	1	Tçuyi-	Tçuyi,	intermediate	right_edge_audit	hyphen/comma	3e52257	Comma survived; Japanese form was corrected later.
+f16-010	f0016	c1-l038	convention_audit	1	A-	A=	reverted	typographic_audit	line_division;italic_form	3e52257	Unnecessary proposal: current convention encodes both typeface forms as hyphen.
+f16-011	f0016	c1-l038	convention_audit	2	A=	A-	accepted	convention_review	line_division;italic_form	930551e	Restored uniform line-division encoding.
+f16-012	f0016	c1-l042	convention_audit	1	cla-	cla=	reverted	typographic_audit	line_division;italic_form	3e52257	Unnecessary proposal.
+f16-013	f0016	c1-l042	convention_audit	2	cla=	cla-	accepted	convention_review	line_division;italic_form	930551e	Restored uniform line-division encoding.
+f16-014	f0016	c1-l010	completed_human_review	1	peſſoa	peſsoa	accepted	human_visual	short_s/long_s	33f61cb	Second sibilant is short s.
+f16-015	f0016	c1-l019	completed_human_review	1	caſados	cazados	accepted	historical_portuguese	long_s/z;modern_portuguese_bias	33f61cb	Printed historical z restored.
+f16-016	f0016	c1-l024	completed_human_review	1	ſado	tado	accepted	human_visual	long_s/t;line_continuation	33f61cb	Continuation after dẽpres begins with t.
+f16-017	f0016	c1-l023	completed_human_review	1	Acarasama	Acaraſama	accepted	human_visual	short_s/long_s	33f61cb	Long s restored.
+f16-018	f0016	c1-l025	completed_human_review	1	Acarasamana	Acaraſamana	accepted	same_page_repetition	short_s/long_s	33f61cb	Parallel form found by repetition sweep.
+f16-019	f0016	c1-l027	completed_human_review	1	Acarasamani	Acaraſamani	accepted	same_page_repetition	short_s/long_s	33f61cb	Parallel form found by repetition sweep.
+f16-020	f0016	c1-l025	completed_human_review	1	Couſa leue	Couſaleue	accepted	human_visual	spacing;portuguese_expectation	33f61cb	Expected lexical boundary supplied a source space.
+f16-021	f0016	c1-l029	completed_human_review	1	Qinoniga	Qinomiga	accepted	japanese_context	n/m	33f61cb	Japanese ki no mi ga exposes n/m confusion.
+f16-022	f0016	c1-l039	completed_human_review	1	Eſclareceo	Eſclarçeo	accepted	historical_portuguese	modern_portuguese_bias;missing_cedilla;extra_letter	33f61cb	Familiar Portuguese spelling was supplied.
+f16-023	f0016	c1-l041	completed_human_review	1	Acarisaqi	Acariſaqi	accepted	human_visual	short_s/long_s	33f61cb	Long s restored.
+f16-024	f0016	c1-l042	completed_human_review	1	Acarisaqini	Acariſaqini	accepted	same_page_repetition	short_s/long_s	33f61cb	Parallel form found by repetition sweep.
+f16-025	f0016	c2-l006	completed_human_review	1	menhã	menhaã	accepted	human_visual	weak_letter;historical_portuguese	33f61cb	Faint a recovered.
+f16-026	f0016	c2-l004	completed_human_review	1	antemanhã	antemenhaã	accepted	same_page_repetition	weak_letter;historical_portuguese	33f61cb	Parallel spelling found by repetition sweep.
+f16-027	f0016	c2-l007	completed_human_review	1	antemanhã	antemenhaã	accepted	same_page_repetition	weak_letter;historical_portuguese	33f61cb	Second parallel spelling found by repetition sweep.
+f16-028	f0016	c2-l017	completed_human_review	1	Paſſar	Paſsar	accepted	human_visual	short_s/long_s	33f61cb	Second sibilant is short s.
+f16-029	f0016	c2-l023	completed_human_review	1	dificuldade	difficuldade	accepted	human_visual	consonant_count	33f61cb	One printed f was lost.
+f16-030	f0016	c2-l024	completed_human_review	2	Sagui yiqu	Sagui yuqu	accepted	japanese_context	i/u	33f61cb	Japanese saki yuku exposes the vowel while retaining the space.
+f16-031	f0016	c2-l026	completed_human_review	2	fir	tir	accepted	japanese_context	f/t	33f61cb	Earlier independent proposal was only partly correct.
+f16-032	f0016	c2-l033	completed_human_review	1	Accô iuru	Accô ſuru	accepted	japanese_context	i/long_s	33f61cb	Japanese morphology exposes i/long-s confusion.
+f16-033	f0016	c2-l036	completed_human_review	1	Ali	Alí	accepted	mark_audit	missing_acute	33f61cb	Acute accent restored.
+f16-034	f0016	c2-l043	completed_human_review	1	melões	melõẽs	accepted	mark_audit	missing_tilde;historical_portuguese	33f61cb	Second marked vowel in the historical plural restored.
+f16-035	f0016	c2-l046	completed_human_review	2	Tçuyi,	Tçuqi,	accepted	japanese_context	y/q	33f61cb	Japanese tsuki exposes y/q confusion; comma remains.
