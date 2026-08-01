@@ -2,6 +2,8 @@
 
 This project aims to create a reusable, openly available edition of the *Vocabulario da Lingoa de Iapam* (1603–1604), commonly known in Japanese as the *Nippo Jisho* (日葡辞書).
 
+The current page-by-page transcription and correction interface is published at [Nippo Jisho · Human Review](https://hiroshi-manabe.github.io/nippo-jisho/).
+
 The work will proceed from scans of the original dictionary and other public-domain source material. Existing transcriptions may be used where their terms permit, but every imported reading should remain verifiable against a specific page of the original. The project will not reproduce a modern copyrighted Japanese translation; it will produce a new transcription, restoration, and translation.
 
 ## Why the project is layered
