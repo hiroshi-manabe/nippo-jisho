@@ -29,3 +29,19 @@ No additional correction was accepted in this first corpus-guided pass. That is 
 ## Interpretation
 
 The pass added no textual churn, so its observed proposal precision is not distorted by speculative changes. Its recall cannot be measured until the human column review is complete. Any later human correction to f17 should be added to the raw corpus and compared with this checklist: if its family was listed here, the failure was inspection or adjudication; if not, the taxonomy itself needs expansion.
+
+## Later repeated-audit result
+
+An open-ended autonomous audit subsequently continued until five atomic source mismatches survived tight comparison with the Gallica master. They are preserved in [`f0017.tsv`](f0017.tsv):
+
+| Line | Before | Scan-supported reading | Evidence mechanism |
+| --- | --- | --- | --- |
+| `c1-l001` | `gosto` | `goſto` | Full-resolution glyph comparison; `flores` on the same line contrasts final short `s`. |
+| `c1-l024` | `Idẽ ¶` | `Idẽ. ¶` | Tight enlargement shows the stop between the abbreviation and paragraph mark. |
+| `c2-l029` | `pensamen-` | `penſamen-` | Full-resolution glyph comparison shows a tall medial `ſ`. |
+| `c2-l034` | `prejudicial` | `preiudicial` | The printed historical spelling has `i`, not modern `j`. |
+| `c2-l034` | terminal letter with no punctuation | terminal `.` | A separate right-edge enlargement shows the full stop. |
+
+This follow-up disproves the practical sufficiency of the first zero-result pass. Two failures belonged to the already-listed long-`ſ` family, one to historical-language bias, and two to punctuation/right-edge inspection. Merely naming an error family is therefore not evidence that all of its occurrences were checked effectively. An inventory of exceptional forms—here, the only ordinary medial ASCII `s` strings in the draft—proved more productive than another broad rereading.
+
+Several plausible proposals were rejected rather than used to reach the target. The scan joins `Maoreligioſo`; the italic `h` in `conhecimento` resembles `b` but agrees with other same-page `h` forms; and `Peſſoa`, `burǒnaru`, `Acudocu`, and the principal headword diacritics remain supported by enlargement.

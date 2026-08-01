@@ -14,7 +14,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | &emsp;*& gosto de ver a lũa, & flores.* |  |
+| `c1-l001` | &emsp;*& goſto de ver a lũa, & flores.* |  |
 | `c1-l002` | Acome. *Hũa laya de peça de ſeda de Iapão* |  |
 | `c1-l003` | &emsp;*de lauor branco em campo tinto dazul ferrete.* |  |
 | `c1-l004` | Acoya. *Huns bolinhos de farinha darroz.* |  |
@@ -37,7 +37,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l021` | &emsp;*os peccados. ¶* Acuuo coraſu. *Emẽ-* |  |
 | `c1-l022` | &emsp;*dar a ruim vida, ou eſcarmentarſe dos vicios.* |  |
 | `c1-l023` | &emsp;*¶* Acuni fuqeru. *Eſtar metido nos pecca-* |  |
-| `c1-l024` | &emsp;*dos. ¶* Acuni miuo naſu. *Idẽ ¶* Acu |  |
+| `c1-l024` | &emsp;*dos. ¶* Acuni miuo naſu. *Idẽ. ¶* Acu |  |
 | `c1-l025` | &emsp;ni quamaru. *Conſumarſe em peccados.* |  |
 | `c1-l026` | &emsp;*¶* Acuni toingiacu ſuru. *Eſtar metido,* |  |
 | `c1-l027` | &emsp;*& atollado nos peccados. ¶* Acuuo qi- |  |
@@ -100,12 +100,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l026` | Acugô. Axij xiuaza. *Ruins obras, ou* |  |
 | `c2-l027` | &emsp;*maldades.* |  |
 | `c2-l028` | Acugon. Axij cotoba. *Mas palauras.* |  |
-| `c2-l029` | Acuin. Acuno chinami. *Ruins pensamen-* |  |
+| `c2-l029` | Acuin. Acuno chinami. *Ruins penſamen-* |  |
 | `c2-l030` | &emsp;*tos, ou obras que ſe fazem neſta vida, ou* |  |
 | `c2-l031` | &emsp;*fizerão noutra idade, ou nacimento,como cui-* |  |
 | `c2-l032` | &emsp;*dão os gentios.* |  |
 | `c2-l033` | Acuji. Axij coto. *Obra ruim, ou malda-* |  |
-| `c2-l034` | &emsp;*de. ¶ Item, Couſa danoſa, & prejudicial* |  |
+| `c2-l034` | &emsp;*de. ¶ Item, Couſa danoſa, & preiudicial.* |  |
 | `c2-l035` | &emsp;*Males, & trabalhos.* |  |
 | `c2-l036` | Acuji. i. Axij toqi. *Ruim hora, & de* |  |
 | `c2-l037` | &emsp;*ruim agouro.* |  |
