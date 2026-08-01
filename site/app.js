@@ -1,6 +1,54 @@
 const state = { corpus: null, byLeaf: new Map(), currentPage: null, unit: 'page', edits: {} };
+const pageImageCache = new Map();
+const PAGE_IMAGE_CACHE_RADIUS = 2;
+let imagePreloadGeneration = 0;
 const $ = selector => document.querySelector(selector);
 const escapeHTML = value => String(value).replace(/[&<>"']/g, character => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[character]));
+
+function retainPageImage(page, priority = 'low') {
+  let entry = pageImageCache.get(page.leaf);
+  if (entry) {
+    if (priority === 'high') entry.image.fetchPriority = 'high';
+    return entry;
+  }
+  const image = new Image();
+  image.decoding = 'async';
+  image.fetchPriority = priority;
+  const ready = new Promise(resolve => {
+    image.addEventListener('load', () => resolve(true), {once: true});
+    image.addEventListener('error', () => resolve(false), {once: true});
+  });
+  entry = {image, ready};
+  pageImageCache.set(page.leaf, entry);
+  image.src = page.iiif;
+  return entry;
+}
+
+function updatePageImageCache(leaf) {
+  const generation = ++imagePreloadGeneration;
+  const retainedLeaves = new Set();
+  for (let candidate = leaf - PAGE_IMAGE_CACHE_RADIUS; candidate <= leaf + PAGE_IMAGE_CACHE_RADIUS; candidate++) {
+    if (state.byLeaf.has(candidate)) retainedLeaves.add(candidate);
+  }
+  for (const cachedLeaf of pageImageCache.keys()) {
+    if (!retainedLeaves.has(cachedLeaf)) pageImageCache.delete(cachedLeaf);
+  }
+  const current = retainPageImage(state.byLeaf.get(leaf), 'high');
+  current.ready.then(() => {
+    if (generation !== imagePreloadGeneration || state.currentPage?.leaf !== leaf) return;
+    const preloadNeighbors = () => {
+      if (generation !== imagePreloadGeneration || state.currentPage?.leaf !== leaf) return;
+      for (let distance = 1; distance <= PAGE_IMAGE_CACHE_RADIUS; distance++) {
+        for (const candidate of [leaf - distance, leaf + distance]) {
+          const page = state.byLeaf.get(candidate);
+          if (page) retainPageImage(page);
+        }
+      }
+    };
+    if ('requestIdleCallback' in window) requestIdleCallback(preloadNeighbors, {timeout: 1500});
+    else setTimeout(preloadNeighbors, 0);
+  });
+}
 
 function toast(message) {
   const node = $('#toast');
@@ -65,6 +113,7 @@ function showPage(leaf, unit = 'page', update = true) {
   if (!page) return;
   state.currentPage = page;
   state.unit = page.processed ? unit : 'page';
+  updatePageImageCache(leaf);
   $('#overview').classList.add('hidden');
   $('#page-view').classList.remove('hidden');
   $('#page-nav').classList.remove('hidden');
