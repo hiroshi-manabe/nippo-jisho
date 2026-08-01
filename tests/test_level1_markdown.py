@@ -35,15 +35,15 @@ class Level1MarkdownTests(unittest.TestCase):
             check=False,
         )
         self.assertEqual(result.returncode, 0, result.stderr)
-        self.assertIn("Validated 7 compact Level 1 page records", result.stdout)
+        self.assertIn("Validated 8 compact Level 1 page records", result.stdout)
 
-    def test_all_source_pages_parse_and_retain_623_lines(self):
+    def test_all_source_pages_parse_and_retain_720_lines(self):
         module = load_module()
         pages = [module.parse_markdown(path) for path in sorted(SOURCE.glob("*.md"))]
-        self.assertEqual(len(pages), 7)
+        self.assertEqual(len(pages), 8)
         self.assertEqual(
             sum(len(zone.get("lines", [])) for page in pages for zone in page["zones"]),
-            623,
+            720,
         )
         for page in pages:
             committed = json.loads((JSON_DIR / f"{page['id']}.json").read_text(encoding="utf-8"))
@@ -111,6 +111,19 @@ class Level1MarkdownTests(unittest.TestCase):
         self.assertIn("¶* Vo\n[c2-l042 >] moteuo", source)
         self.assertNotIn("briguigõis", source)
         self.assertNotIn("Vo-", source)
+
+    def test_independent_comparison_f16_readings_are_retained(self):
+        source = (SOURCE / "bnf-f0016.md").read_text(encoding="utf-8")
+        self.assertIn("status: scan_confirmed", source)
+        self.assertIn("Acamidachi, tçu.", source)
+        self.assertIn("Acarixǒji.", source)
+        self.assertIn("Sagui yiqu tçuuji", source)
+        self.assertNotIn("Saguiyiqu", source)
+        self.assertIn("vazzurǒ. *Sõ-*", source)
+        self.assertIn("[c2-l026 >] *fir o tempo", source)
+        self.assertNotIn("*Sof-*", source)
+        self.assertIn("Accô, Varucuchi.", source)
+        self.assertIn("[catch-l001 >>] &", source)
 
     def test_production_simulation_pages_are_scan_confirmed(self):
         f249 = (SOURCE / "bnf-f0249.md").read_text(encoding="utf-8")

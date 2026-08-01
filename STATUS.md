@@ -1,12 +1,12 @@
 # Project Status
 
-Last updated: 2026-07-31
+Last updated: 2026-08-01
 
 ## Current phase
 
 **Level 1 format adopted — sequential production validation**
 
-The transcription-format pilot is complete. The project adopted Level 1 Markdown format version 1 after a six-page corpus test and a timed two-page simulation on previously untranscribed consecutive pages. Sequential Stage 1 production has now begun with `f15`, following human confirmation of the revised `f14`; the method is still being validated before production scales.
+The transcription-format pilot is complete. The project adopted Level 1 Markdown format version 1 after a six-page corpus test and a timed two-page simulation on previously untranscribed consecutive pages. Sequential Stage 1 production now includes `f15` and `f16`, following human confirmation of the revised `f14`; the method is still being validated before production scales.
 
 The detailed purpose, method, and completion criteria are defined in the [Transcription-Format Pilot](docs/transcription-format-pilot.md).
 
@@ -28,7 +28,7 @@ The uncertainty policy is intentionally lightweight. Context may support an ordi
 
 Targeted enlargement is nevertheless a routine review step for any locally difficult span, regardless of the standard tile size. Reviewers return to the surrounding context after enlargement; only doubt that survives both views is marked in the transcription.
 
-The adopted [page-transcription format](docs/page-transcription-format-v1-candidate.md) has now been exercised in a [seven-page corpus](pilot/format-v1-trial/README.md). The six-page adoption baseline has been extended by sequential page `bnf-f0015`; the complete physical-order records now comprise 623 physical lines. The [Level 1 Markdown authoring form](docs/level1-markdown-candidate.md) regenerates the validated JSON and page views deterministically.
+The adopted [page-transcription format](docs/page-transcription-format-v1-candidate.md) has now been exercised in an [eight-page corpus](pilot/format-v1-trial/README.md). The six-page adoption baseline has been extended by sequential pages `bnf-f0015` and `bnf-f0016`; the complete physical-order records now comprise 720 physical lines. The [Level 1 Markdown authoring form](docs/level1-markdown-candidate.md) regenerates the validated JSON and page views deterministically.
 
 The compact files preserve stable physical-line references, typeface, relative indentation, page furniture, and exceptional placement while remaining directly readable. JSON is generated machine interchange rather than a hand-authoring format. A small structural test remains only to confirm that Level 1 has not discarded necessary evidence; designing Level 2 and later layers is a secondary concern. Lightweight uncertainty notation has still not encountered a genuinely unresolved reading and will be added only when evidence requires it.
 
@@ -42,11 +42,13 @@ The first strengthened production re-review was evaluated through human review o
 
 The next page, [`f15`](pilot/production-review/bnf-f0015.md), was transcribed directly from the scan with additional independent passes: forward token alignment, Japanese, Portuguese, bilingual context, reverse-order glyph inspection, separate mark inspection, headword coverage, and a fresh final sweep. Those passes caught several errors before handoff, but the project owner's comparison still found ten corrections, including `Acano`, `menhaã`, `Aca muſubu`, `briguigoĩs`, `comballas`, `dedia`, `faru`, and `aſsi`. Repetition alone therefore did not reach the working target. Both corrected column units now await recheck; page furniture remains pending.
 
-A generated [dictionary-wide human review interface](pilot/human-review/README.md) now covers all 651 acquired leaves. The seven Level 1 pages present a high-resolution scan beside rendered or literal transcription; the other 644 leaves retain immediate scan access and an explicit `unprocessed` state. Previous/next controls, direct leaf entry, stable page-and-column links, and reloadable generated data allow transcription and human checking to proceed asynchronously. The review registry now contains 21 resumable units: all three `f14` units are checked, both corrected `f15` columns need recheck, and `f15` furniture is pending. Each physical line can copy its stable reference and current text into the project chat, which remains the intentionally simple correction interface.
+Sequential [`f16`](pilot/production-review/bnf-f0016.md) trials an independent second reading instead of further anchored repetition. The rereading proposed two changes, both accepted against tight enlargement: `Sagui yiqu` with its printed space, and anomalous `Sõ-` / `fir` rather than expected `Sof-` / `frir`. The page now awaits human review; final proposal precision and missed-error recall cannot be calculated until that checkpoint is complete.
+
+A generated [dictionary-wide human review interface](pilot/human-review/README.md) now covers all 651 acquired leaves. The eight Level 1 pages present a high-resolution scan beside rendered or literal transcription; the other 643 leaves retain immediate scan access and an explicit `unprocessed` state. Previous/next controls, direct leaf entry, stable page-and-column links, and reloadable generated data allow transcription and human checking to proceed asynchronously. The review registry now contains 24 resumable units: all three `f14` units are checked, both corrected `f15` columns need recheck, and all three `f16` units await first review. Each physical line can copy its stable reference and current text into the project chat, which remains the intentionally simple correction interface.
 
 ## Current objective
 
-Recheck the corrected `f15` columns, refine the procedure from its ten-correction human yield, and continue the first bounded sequential Level 1 production batch. The immediate objective is repeatable quality control supporting:
+Human-check `f16` as the first independent-comparison benchmark, recheck the corrected `f15` columns, and continue the first bounded sequential Level 1 production batch. The immediate objective is repeatable quality control supporting:
 
 1. A page-oriented reading and verification view
 2. Efficient source-faithful editing in physical order
@@ -70,8 +72,8 @@ Recheck the corrected `f15` columns, refine the procedure from its ten-correctio
 
 ## Production progress
 
-The Level 1 corpus contains seven complete pages and 623 physical lines. `f14` is human-checked; sequential `f15` has been corrected after human comparison and both columns await recheck. `f249` and `f250` retain the earlier production `scan_confirmed` status but should be re-evaluated against the revised procedure. The other 644 acquired leaves appear as `unprocessed` in the review UI.
+The Level 1 corpus contains eight complete pages and 720 physical lines. `f14` is human-checked; sequential `f15` has been corrected after human comparison and both columns await recheck; sequential `f16` is scan-confirmed under the independent-comparison method and awaits first human review. `f249` and `f250` retain the earlier production `scan_confirmed` status but should be re-evaluated against the revised procedure. The other 643 acquired leaves appear as `unprocessed` in the review UI.
 
 ## Next phase
 
-Complete and evaluate human review on `f15`, adjust the repeated-pass routine only where the measured correction yield requires it, and continue sequentially. Newly generated pages can appear in the same corpus UI while earlier pages are still being checked. A smaller end-to-end pilot will separately test the entry schema, Japanese restoration, translation, and public-edition requirements without delaying publishable Level 1 progress.
+Complete and evaluate human review on `f16`, using the human-confirmed page to score proposal precision and missed-error recall; recheck f15 and continue sequentially. Newly generated pages can appear in the same corpus UI while earlier pages are still being checked. A smaller end-to-end pilot will separately test the entry schema, Japanese restoration, translation, and public-edition requirements without delaying publishable Level 1 progress.
