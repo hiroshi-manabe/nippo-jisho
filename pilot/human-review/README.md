@@ -2,7 +2,7 @@
 
 This generated interface supports asynchronous Level 1 production and human checking across the complete acquired Gallica sequence. All 651 leaves (`f1`–`f651`) are navigable from the outset. The nine existing Level 1 pages show their transcription and review state; the remaining 642 pages show the verified scan with a clear `unprocessed` state.
 
-This is the current prototype. The agreed next iteration adds a thumbnail overview, compact in-page editing, complete-glyph line crops, clipboard-based GitHub Issue submission, and factual correction-history badges. Its behavior and rationale are specified in [Human Review and Correction Workflow](../../docs/human-review-workflow.md).
+This is the current prototype. The agreed next iteration adds a thumbnail overview, compact in-page editing, complete-glyph line crops, an in-context two-level transcription reference, clipboard-based GitHub Issue submission, and factual correction-history badges. Its behavior and rationale are specified in [Human Review and Correction Workflow](../../docs/human-review-workflow.md).
 
 Generate the local review interface from the repository root:
 

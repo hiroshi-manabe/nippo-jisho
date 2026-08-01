@@ -34,6 +34,14 @@ Unchanged rows remain compact. Clicking the transcription opens an editor contai
 
 In compact form, a comment uses the horizontal space remaining to the right of the usually short transcription. A comment that does not fit is truncated with an ellipsis, with its complete text available on click or focus. On narrow screens it moves below the transcription. The comment should remain visually secondary to the source text.
 
+## Transcription reference panel
+
+The page-review toolbar provides a persistent **Reference** control. It opens a lightweight panel containing the compact [Transcription Cheat Sheet](transcription-cheat-sheet.md), which is the routine operational reference for Japanese romanization, Early Modern Portuguese type, marks, spacing, and recurring visual confusions. Individual topics link to the fuller [Historical Language Notes](historical-language-notes.md) for qualifications, evidence, bibliography, and source provenance.
+
+The panel is closed by default and must not permanently narrow the scan or transcription area. Its state may remain open while the reviewer moves among lines or pages. On the all-page overview, ordinary links to both documents are sufficient; the embedded panel is primarily a line-review aid.
+
+The interface displays the reference source commit or version so that later users can identify which guidance was available during a review. The panel is advisory: it helps generate candidates, but no linguistic expectation overrides the printed scan.
+
 ## Visual diff
 
 The collapsed changed row highlights the difference between the repository text and proposed text. This diff is a client-side reading aid only:
