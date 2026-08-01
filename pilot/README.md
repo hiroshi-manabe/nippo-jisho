@@ -32,7 +32,7 @@ A subsequent [contextual review of `f0248` and `f0643`](contextual-review/f0248-
 
 The [timed `f0249`–`f0250` production simulation](production-simulation/f0249-f0250.md) applies the full workflow to unfamiliar consecutive pages, adds 196 lines, and supplies the evidence for adopting version 1.
 
-The [dictionary-wide human review interface](human-review/README.md) navigates all 651 acquired leaves. It places scan crops beside the eight existing Level 1 pages, marks the other 643 leaves `unprocessed`, and tracks 24 resumable human-review units—two columns and page furniture for each transcribed page. The revised `f14` units are human-checked; both corrected `f15` columns await recheck, while all three new `f16` units await first review.
+The [dictionary-wide human review interface](human-review/README.md) navigates all 651 acquired leaves. It places scan crops beside the eight existing Level 1 pages, marks the other 643 leaves `unprocessed`, and tracks 24 resumable human-review units—two columns and page furniture for each transcribed page. The revised `f14` units are human-checked; the corrected `f15` and `f16` columns await recheck, while their furniture remains pending.
 
 ## Draft coverage
 

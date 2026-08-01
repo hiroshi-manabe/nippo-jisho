@@ -15,7 +15,7 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c1-l001` | Acami. *Vermelhidão do corpo de fruitas,* |  |
-| `c1-l002` | &emsp;*&c. ¶* Faremono nadoni acamiga fa- |  |
+| `c1-l002` | &emsp;*&c. ¶* Faremono nadoni acamiga ſa- |  |
 | `c1-l003` | &emsp;ſu. *Fazerſe vermelho o inchaço, ou ou-* |  |
 | `c1-l004` | &emsp;*tra couſa.* |  |
 | `c1-l005` | Acamidachi, tçu. *Fazerſe vermelho, ou* |  |
@@ -36,7 +36,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l020` | &emsp;*cauſa por via de deſamor pera ſe apartarẽ.* |  |
 | `c1-l021` | Acanu vacare. *Apartamento dos que eſtão* |  |
 | `c1-l022` | &emsp;*bem unidos, ou amigos.* |  |
-| `c1-l023` | Acarasama. *Adu. Leuemente, ou dẽpres-* |  |
+| `c1-l023` | Acarasama. *Adu. Leuemente, ou dẽpres* |  |
 | `c1-l024` | &emsp;*ſado, ou aprimeira vez.* |  |
 | `c1-l025` | Acarasamana. *Couſa leue como de empreſta-* |  |
 | `c1-l026` | &emsp;*do, l, de primeira vez.* |  |
@@ -51,14 +51,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l035` | &emsp;*em publico. ¶* Acariga ſaſu. *Entrar* |  |
 | `c1-l036` | &emsp;*a claridade.* |  |
 | `c1-l037` | Acari, u, atta. *Dar luz, ou reſplandecer.* |  |
-| `c1-l038` | &emsp;*¶ Item, Dar a candea bom lume. ¶* A- |  |
-| `c1-l039` | &emsp;carta. *Eſclareceo o tempo que eſtaua tol-* |  |
+| `c1-l038` | &emsp;*¶ Item, Dar a candea bom lume. ¶* A= |  |
+| `c1-l039` | &emsp;carta. *Eſclareceo o tempo que eſtaua tol* |  |
 | `c1-l040` | &emsp;*dado, ou chuuoſo.* |  |
 | `c1-l041` | Acarisaqi. *Diante da claridade. ¶ Vt,* |  |
-| `c1-l042` | &emsp;Acarisaqini tatçu. *Porſe diante da cla-* |  |
+| `c1-l042` | &emsp;Acarisaqini tatçu. *Porſe diante da cla=* |  |
 | `c1-l043` | &emsp;*ridade, ou impedilla.* |  |
 | `c1-l044` | Acaritori. *Freſta do terrado, l, telhado pera* |  |
-| `c1-l045` | &emsp;*entrar a claridade.* |  |
+| `c1-l045` | &emsp;*entrar a claridade* |  |
 | `c1-l046` | Acarixǒji. *Adufas feitas de papel pera* |  |
 | `c1-l047` | &emsp;*entrar a claridade.* |  |
 
@@ -80,13 +80,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l006` | &emsp;*te menhã.* |  |
 | `c2-l007` | Acatçuqizzuqi. *Lũa que ſaye antemanhã.* |  |
 | `c2-l008` | Acatori. *Balde com que tirão a agoa da bõ-* |  |
-| `c2-l009` | &emsp;*ba. ¶ Item, Hũ pano com que cobrem a ſel-* |  |
+| `c2-l009` | &emsp;*ba. ¶ Item, Hũ pano com que cobrem a ſel* |  |
 | `c2-l010` | &emsp;*la & ancas do cauallo quãdo nelle ſobem mo-* |  |
 | `c2-l011` | &emsp;*lheres. ¶ Item, Eſcouinha de alimpar* |  |
 | `c2-l012` | &emsp;*pentem &c.* |  |
 | `c2-l013` | Acauotoxi. *Sabão, ou qualquer couſa com-* |  |
 | `c2-l014` | &emsp;*que ſe tirão as nodoas, e çujidade.* |  |
-| `c2-l015` | Acaxi, ſu, aita. *Aclarar. ¶* Fito aca- |  |
+| `c2-l015` | Acaxi, ſu, aita. *Aclarar. ¶* Fiuo aca- |  |
 | `c2-l016` | &emsp;ſu. *Acender o fogo. ¶* Yǒuo acaſu. |  |
 | `c2-l017` | &emsp;*Paſſar anoite ſem dormir ate amanhecer.* |  |
 | `c2-l018` | &emsp;*¶* Raſsocuuo acaſu. *Acender a can-* |  |
@@ -117,7 +117,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l043` | Acoda, l, acodauri. *Hũs melões ama-* |  |
 | `c2-l044` | &emsp;*relos, & redondos.* |  |
 | `c2-l045` | Acogare, ruru, eta. *Affligirſe muito com* |  |
-| `c2-l046` | &emsp;*affecto, ou deſejo dalgũa couſa. ¶* Tçuyi- |  |
+| `c2-l046` | &emsp;*affecto, ou deſejo dalgũa couſa. ¶* Tçuyi, |  |
 | `c2-l047` | &emsp;fanani acogaruru. *Sentir grande apetite,* |  |
 
 ## Catchword

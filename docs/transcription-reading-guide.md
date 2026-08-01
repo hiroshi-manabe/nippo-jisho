@@ -46,6 +46,10 @@ Beginning with [f16](../pilot/production-review/bnf-f0016.md), production uses a
 
 Measure this method against the final human-confirmed page, not against the number of changes proposed by later passes. Record true corrections found before handoff, human corrections still missed, and correct readings unnecessarily changed. Report both recall—the share of final errors caught before handoff—and precision—the share of proposed changes that survive human confirmation. Until enough pages exist for stable rates, preserve the raw counts and error categories. The method succeeds only if it reduces missed errors without encouraging normalization or speculative churn.
 
+The first f16 human check exposed a further requirement: audit the complete right edge as its own visual surface. Do not infer a division mark merely because a word continues on the next line. Compare each ending against the scan and distinguish a blank edge, an ordinary hyphen, a double division mark transcribed `=`, and punctuation such as a comma. The f16 contrasts are `dẽpres` / `ſado`, `tol` / `dado`, and `ſel` / `la` with no mark; `A=` / `carta` and `cla=` / `ridade` with a double mark; and `Tçuyi,` / `fanani` with a comma. This audit is independent of reconstructing the continuous word.
+
+Japanese morphology must likewise be tested at the character level, not merely used to judge whether the overall entry is plausible. On f16, *acamiga ſaſu* and *Fiuo acaſu* expose `ſ`/`f` and `u`/`t` errors that survived the first contextual pass. When context predicts a correction, return to same-page glyph specimens before amending the diplomatic text.
+
 ## Practical threshold for uncertainty
 
 Contextual reasoning is part of ordinary visual transcription. A reading need not be marked uncertain merely because a fold, weak impression, or unfamiliar letter made context useful in confirming it. If the surviving shapes and context together yield a reading that a careful reviewer is unlikely to dispute, transcribe it normally.
