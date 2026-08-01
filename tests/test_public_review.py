@@ -60,6 +60,17 @@ class PublicReviewRegressionTests(unittest.TestCase):
         zones[0]["lines"][0]["runs"][1]["typeface"] = "roman"
         self.assertNotEqual(transcription_version(zones), baseline)
 
+    def test_f18_issue_2_correction_history(self):
+        history = json.loads(
+            (ROOT / "pilot" / "human-review" / "correction-history.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        page = next(page for page in history["pages"] if page["id"] == "bnf-f0018")
+        self.assertEqual(page["issues_applied"], 1)
+        self.assertEqual(page["distinct_lines"], 13)
+        self.assertEqual(page["issues"][0]["number"], 2)
+
 
 if __name__ == "__main__":
     unittest.main()

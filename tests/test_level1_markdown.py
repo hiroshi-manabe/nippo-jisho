@@ -201,6 +201,32 @@ class Level1MarkdownTests(unittest.TestCase):
         self.assertNotIn("Ruins pensamen-*", source)
         self.assertNotIn("& prejudicial", source)
 
+    def test_f18_issue_2_scan_adjudication_is_retained(self):
+        source = (SOURCE / "bnf-f0018.md").read_text(encoding="utf-8")
+        accepted = [
+            "dano a agluem",
+            "acoriǔ. i. acuriû",
+            "sǒga miyuru",
+            "Acusǒ. Axij caſa",
+            "como ladroĩs",
+            "Varui sǒ",
+            "mà vontade",
+            "lugar de ladroĩs",
+            "toſu. *Guiar",
+            "vnião de vontades",
+            "Adano naſaqe",
+            "ita. ¶ Item",
+            "Peſsoa mudauel",
+        ]
+        for reading in accepted:
+            self.assertIn(reading, source)
+        retained = ["Ruim tradição", "Ruim chero", "Suiugino facaina"]
+        for reading in retained:
+            self.assertIn(reading, source)
+        rejected = ["Ruim iradição", "Ruim cheiro", "Suſuqino facaina"]
+        for reading in rejected:
+            self.assertNotIn(reading, source)
+
     def test_production_simulation_pages_are_scan_confirmed(self):
         f249 = (SOURCE / "bnf-f0249.md").read_text(encoding="utf-8")
         f250 = (SOURCE / "bnf-f0250.md").read_text(encoding="utf-8")

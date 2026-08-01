@@ -29,10 +29,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l013` | Acurei, l acuriǒ. Acuno mitama. *Alma* |  |
 | `c1-l014` | &emsp;*perdida. ¶* Acurei fitoni vazauo naſu, |  |
 | `c1-l015` | &emsp;l, toritçucu. *A alma perdida moleſtar,* |  |
-| `c1-l016` | &emsp;*ou fazer dano a alguem.* |  |
+| `c1-l016` | &emsp;*ou fazer dano a agluem.* |  |
 | `c1-l017` | Acurei. Axij tamaxij. *Ruim foro, ou cu-* |  |
 | `c1-l018` | &emsp;*ſtume. ¶ Item, Ruim agouro.* |  |
-| `c1-l019` | Acureô, l, acoriǔ. i. acuriǔ. Axij ta- |  |
+| `c1-l019` | Acureô, l, acoriǔ. i. acuriû. Axij ta- |  |
 | `c1-l020` | &emsp;tçu. *Lagarto, ou ſerpente peçonhenta.* |  |
 | `c1-l021` | Acuriǒ. Acuno mitama. *Almas perdidas.* |  |
 | `c1-l022` | &emsp;*¶* Acureo fitoni vazauo naſu. *Faze-* |  |
@@ -51,13 +51,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l035` | Acuſǒ. Axij ſǒ. *Ruins nouas.* |  |
 | `c1-l036` | Acuſǒ. Axij catachi. *Ruim eſtatua, ou* |  |
 | `c1-l037` | &emsp;*figura. ¶ Item, Ruim pronoſtico. ¶* Acu |  |
-| `c1-l038` | &emsp;ſǒga miyuru. *Parece ruim pronoſtico.* |  |
-| `c1-l039` | Acuſǒ. Axij caſa. *Boubas, ou doença ſe-* |  |
+| `c1-l038` | &emsp;sǒga miyuru. *Parece ruim pronoſtico.* |  |
+| `c1-l039` | Acusǒ. Axij caſa. *Boubas, ou doença ſe-* |  |
 | `c1-l040` | &emsp;*melhante.* |  |
 | `c1-l041` | Acuſui.Axij mizzu. *Ruim agoa, & çuja, &c.* |  |
 | `c1-l042` | Acuta. *Ciſco, palhas, eruas, &c.* |  |
 | `c1-l043` | Acutǒ. Axij tomogara. *Companhia, ou a-* |  |
-| `c1-l044` | &emsp;*iuntamento de maos, como ladrões, ſaltea-* |  |
+| `c1-l044` | &emsp;*iuntamento de maos, como ladroĩs, ſaltea-* |  |
 | `c1-l045` | &emsp;*dores, &c.* |  |
 | `c1-l046` | Acuvǒ. Axij vǒ. *Mao Rei, ou Tiranno.* |  |
 | `c1-l047` | Acuvon. Axij voto. *Ruim voz, ou ſom.* |  |
@@ -78,15 +78,15 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2a-l004` | &emsp;*certas moedas de colre baxas.* |  |
 | `c2a-l005` | Acuxei. Axij foxi. *Eſtrella preiudicial,* |  |
 | `c2a-l006` | &emsp;*& nociua.* |  |
-| `c2a-l007` | Acuxet. i. Varui ſǒ. *Ruim noua.* |  |
+| `c2a-l007` | Acuxet. i. Varui sǒ. *Ruim noua.* |  |
 | `c2a-l008` | Acuxin. Axij cocoro. *Odio, & malque-* |  |
 | `c2a-l009` | &emsp;*rença ¶* Acuxinno ſaxifaſamu. *Ter* |  |
-| `c2a-l010` | &emsp;*mã vontade, & odio. ¶* Acuxinuo |  |
+| `c2a-l010` | &emsp;*mà vontade, & odio. ¶* Acuxinuo |  |
 | `c2a-l011` | &emsp;vocoſu. *Ter odio, & raiua contra alguem.* |  |
 | `c2a-l012` | Acuxo. Axij tocoro. *Lugar ruim. ¶ Itẽ,* |  |
 | `c2a-l013` | &emsp;*Lugar, ou caminho aſpero, & fragoſo,* |  |
-| `c2a-l014` | &emsp;*l, lugar de ladrões. ¶* Acuxouo vo- |  |
-| `c2a-l015` | &emsp;tçuru. *Guiar, ou lançar o caualo por al-* |  |
+| `c2a-l014` | &emsp;*l, lugar de ladroĩs. ¶* Acuxouo vo- |  |
+| `c2a-l015` | &emsp;toſu. *Guiar, ou lançar o caualo por al-* |  |
 | `c2a-l016` | &emsp;*gum lugar aſpero, & difficultoſo como monte* |  |
 | `c2a-l017` | &emsp;*ingreme, &c.* |  |
 | `c2a-l018` | Acuxocu. Axij cuimono. *Ruim comer.* |  |
@@ -102,7 +102,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2a-l028` | &emsp;*ra, ou fado do homem cauſado dos males* |  |
 | `c2a-l029` | &emsp;*da vida, que teue antes de nacer ſegundo os* |  |
 | `c2a-l030` | &emsp;*gentios. ¶ Item, Ruim combinação, &* |  |
-| `c2a-l031` | &emsp;*união de vontades.* |  |
+| `c2a-l031` | &emsp;*vnião de vontades.* |  |
 | `c2a-l032` | Acuyǔ. Axij tomo. *Ruim companhia.* |  |
 | `c2a-l033` | Acuzocu. Axij nuſubito. *Ladrão mao,* |  |
 | `c2a-l034` | &emsp;*& peruerſo.* |  |
@@ -119,12 +119,12 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c2b-l001` | ADA. *Não ſe vſa perſi ſenão* Adana, l, |  |
 | `c2b-l002` | &emsp;Adano. *Couſa breue, vaã ſem proueito,* |  |
-| `c2b-l003` | &emsp;*&c. ¶ Vt,* Adano naiqe. *Amor* |  |
+| `c2b-l003` | &emsp;*&c. ¶ Vt,* Adano naſaqe. *Amor* |  |
 | `c2b-l004` | &emsp;*vão, breue, &c.* |  |
 | `c2b-l005` | Adabana. *Flor de aruore que vem ſem fru-* |  |
-| `c2b-l006` | &emsp;*ito. ¶ Item, Flor que vem fora do tem-* |  |
+| `c2b-l006` | &emsp;*ita. ¶ Item, Flor que vem fora do tem-* |  |
 | `c2b-l007` | &emsp;*po ordinario, como no Outono, &c.* |  |
-| `c2b-l008` | Adabito. *Peſſoa mudauel, & inconſtante* |  |
+| `c2b-l008` | Adabito. *Peſsoa mudauel, & inconſtante* |  |
 | `c2b-l009` | &emsp;*particularmente em trocar o amor, & affei-* |  |
 | `c2b-l010` | &emsp;*ção ruim.* |  |
 | `c2b-l011` | Adaca. i. Suiugino facaina. *Caſca de* |  |
