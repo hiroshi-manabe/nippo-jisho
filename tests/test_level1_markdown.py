@@ -35,15 +35,15 @@ class Level1MarkdownTests(unittest.TestCase):
             check=False,
         )
         self.assertEqual(result.returncode, 0, result.stderr)
-        self.assertIn("Validated 14 compact Level 1 page records", result.stdout)
+        self.assertIn("Validated 19 compact Level 1 page records", result.stdout)
 
-    def test_all_source_pages_parse_and_retain_1300_lines(self):
+    def test_all_source_pages_parse_and_retain_1787_lines(self):
         module = load_module()
         pages = [module.parse_markdown(path) for path in sorted(SOURCE.glob("*.md"))]
-        self.assertEqual(len(pages), 14)
+        self.assertEqual(len(pages), 19)
         self.assertEqual(
             sum(len(zone.get("lines", [])) for page in pages for zone in page["zones"]),
-            1300,
+            1787,
         )
         for page in pages:
             committed = json.loads((JSON_DIR / f"{page['id']}.json").read_text(encoding="utf-8"))
@@ -228,6 +228,25 @@ class Level1MarkdownTests(unittest.TestCase):
         rejected = ["Ruim iradição", "Ruim chero", "Suiugino facaina", "i. acuriû"]
         for reading in rejected:
             self.assertNotIn(reading, source)
+
+    def test_sequential_30_60_batch_readings_are_retained(self):
+        expected = {
+            "bnf-f0023.md": ("dante mão", "Morax, ſu.", "adminiſtrarem"),
+            "bnf-f0024.md": ("Padraſto,ou", "A. xirouo"),
+            "bnf-f0025.md": ("Fucaqu", "Ajuocaqe", "Poëtas", "u, arta"),
+            "bnf-f0026.md": ("beirasdoteihado", "galamiuo", "Amano fara"),
+            "bnf-f0027.md": (
+                "Bilho de ſaude",
+                "Amatçumi iora",
+                "Paſsante,ou",
+                "comprido,ou",
+            ),
+        }
+        for filename, readings in expected.items():
+            source = (SOURCE / filename).read_text(encoding="utf-8")
+            self.assertIn("status: scan_confirmed", source)
+            for reading in readings:
+                self.assertIn(reading, source, f"{reading!r} missing from {filename}")
 
     def test_production_simulation_pages_are_scan_confirmed(self):
         f249 = (SOURCE / "bnf-f0249.md").read_text(encoding="utf-8")

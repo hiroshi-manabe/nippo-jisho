@@ -1,12 +1,12 @@
 # Project Status
 
-Last updated: 2026-08-02
+Last updated: 2026-08-03
 
 ## Current phase
 
 **Level 1 format adopted — sequential production validation**
 
-The transcription-format pilot is complete. The project adopted Level 1 Markdown format version 1 after a six-page corpus test and a timed two-page simulation on previously untranscribed consecutive pages. Sequential Stage 1 production now includes `f15`–`f22`, following human confirmation of the revised `f14`; the method is still being validated before production scales.
+The transcription-format pilot is complete. The project adopted Level 1 Markdown format version 1 after a six-page corpus test and a timed two-page simulation on previously untranscribed consecutive pages. Sequential Stage 1 production now includes `f15`–`f27`, following human confirmation of the revised `f14`; the method is still being validated before production scales.
 
 The detailed purpose, method, and completion criteria are defined in the [Transcription-Format Pilot](docs/transcription-format-pilot.md).
 
@@ -28,7 +28,7 @@ The uncertainty policy is intentionally lightweight. Context may support an ordi
 
 Targeted enlargement is nevertheless a routine review step for any locally difficult span, regardless of the standard tile size. Reviewers return to the surrounding context after enlargement; only doubt that survives both views is marked in the transcription.
 
-The adopted [page-transcription format](docs/page-transcription-format-v1-candidate.md) has now been exercised in a [fourteen-page corpus](pilot/format-v1-trial/README.md). The six-page adoption baseline has been extended by sequential pages `bnf-f0015`–`bnf-f0022`; the complete physical-order records now comprise 1,300 physical lines. The [Level 1 Markdown authoring form](docs/level1-markdown-candidate.md) regenerates the validated JSON and page views deterministically.
+The adopted [page-transcription format](docs/page-transcription-format-v1-candidate.md) has now been exercised in a [nineteen-page corpus](pilot/format-v1-trial/README.md). The six-page adoption baseline has been extended by sequential pages `bnf-f0015`–`bnf-f0027`; the complete physical-order records now comprise 1,787 physical lines. The [Level 1 Markdown authoring form](docs/level1-markdown-candidate.md) regenerates the validated JSON and page views deterministically.
 
 The compact files preserve stable physical-line references, typeface, relative indentation, page furniture, and exceptional placement while remaining directly readable. JSON is generated machine interchange rather than a hand-authoring format. A small structural test remains only to confirm that Level 1 has not discarded necessary evidence; designing Level 2 and later layers is a secondary concern. Lightweight uncertainty notation has still not encountered a genuinely unresolved reading and will be added only when evidence requires it.
 
@@ -50,17 +50,19 @@ The first bounded five-page batch, [`f18`](pilot/production-review/bnf-f0018.md)
 
 A subsequent diminishing-returns experiment applied the independent [30–60 marginal-discovery rule](docs/transcription-reading-guide.md#marginal-discovery-audit-the-3060-rule) to the remaining pages `f19`–`f22`. It retained 26 more scan-confirmed corrections: eight on `f19`, five on `f20`, ten on `f21`, and three on `f22`. `f19` stopped after 60 minutes without another finding; the other three stopped after a verified finding took more than 30 minutes. High-value recoveries include nasal `Gacumõ`, Portuguese `Ameſma tinta`, Japanese-context `Pedroto Ioãoua aicuchi`, and the faint cross-reference `Varifu`. The experiment also exposed and corrected one-line-high review crops on `f21` and `f22`. Human review remains necessary; the rule provides a reproducible stopping point for autonomous rechecking, not a completeness claim.
 
+The next five pages, [`f23`](pilot/production-review/bnf-f0023.md) through [`f27`](pilot/production-review/bnf-f0027.md), were processed strictly one at a time: no later page was opened until the current page had independently stopped under the 30–60 rule. The audits retained 52 finding groups after their frozen normal checkpoints—10 on `f23`, 17 on `f24`, 13 on `f25`, 6 on `f26`, and 6 on `f27`. Four pages stopped by a verified finding that took more than 30 minutes; `f26` stopped after 60 minutes without another result. The findings include source anomalies such as `Fucaqu`, `Ajuocaqe`, `arta`, `galamiuo`, `Bilho`, and repeated `iora`, as well as exact sibilant, accent, spacing, punctuation, and line-edge evidence. Each page received visually inspected line geometry before advancing. This batch measures autonomous diminishing returns more faithfully, but its pages still await independent human comparison.
+
 The exact correction history from f13 through f17 is now preserved in a [raw occurrence-level corpus](pilot/correction-corpus/README.md). Its 106 transitions retain intermediate and reverted readings as well as accepted corrections, allowing later pages to be checked by error family without turning prior answers into automatic substitutions. A first [post-hoc pattern audit on f17](pilot/correction-corpus/f0017-pattern-audit.md) rechecked the earlier failure modes but accepted no additional change. The later five-error audit and four human corrections are recorded alongside that zero result: naming an error family is not the same as inspecting all of its occurrences effectively. Recall remains open until human review is complete.
 
-A generated [dictionary-wide human review interface](pilot/human-review/README.md) now covers all 651 acquired leaves. Its experimental column view stacks each scan line directly above its transcription at the same width, with expandable neighboring context; full-page and furniture views retain the broader paired layout. The other 637 leaves retain immediate scan access and an explicit `unprocessed` state. Previous/next controls, direct leaf entry, stable page-and-column links, and reloadable generated data allow transcription and human checking to proceed asynchronously. The review registry contains 42 resumable units: all three `f14` units are checked, both corrected `f15` and `f16` columns need recheck, and `f17`–`f22` await human review. Each physical line can copy its stable reference and current text into the project chat, which remains the intentionally simple correction interface.
+A generated [dictionary-wide human review interface](pilot/human-review/README.md) now covers all 651 acquired leaves. Its experimental column view stacks each scan line directly above its transcription at the same width, with expandable neighboring context; full-page and furniture views retain the broader paired layout. The other 632 leaves retain immediate scan access and an explicit `unprocessed` state. Previous/next controls, direct leaf entry, stable page-and-column links, and reloadable generated data allow transcription and human checking to proceed asynchronously. The review registry contains 57 resumable units: all three `f14` units are checked, both corrected `f15` and `f16` columns need recheck, and `f17`–`f27` await human review. Each physical line can copy its stable reference and current text into the project chat, which remains the intentionally simple correction interface.
 
 The public-review iteration specified in [Human Review and Correction Workflow](docs/human-review-workflow.md) is now deployed at [Nippo Jisho · Human Review](https://hiroshi-manabe.github.io/nippo-jisho/). It adds an all-page thumbnail grid, compact edit-on-click rows, comments that use otherwise free horizontal space, approximate client-side diff highlighting, and page-level correction proposals copied as JSON into GitHub Issues. The Issue body is not encoded into the URL. Each opened leaf loads one Gallica IIIF page image and applies committed line crops in the browser; the corrected crop for the formerly clipped `T` at `f17/c2-l042` is a regression case. Public progress reports applied Issues and corrected lines rather than imply that a page has become definitively verified.
 
-The initial site exposed a browser-positioning defect and the inadequacy of evenly distributed line estimates for irregular pages. The image origin is now fixed explicitly, and all 1,246 text-column lines on the fourteen processed pages have source-pixel crop and context rectangles in [`line-geometry.json`](pilot/human-review/line-geometry.json). Twenty-eight complete column contact sheets were visually inspected, including the shortened final page `f643` and section-divided columns on `f18`, `f19`, `f21`, and `f248`. Explicit geometry plus contact-sheet and browser review is now a mandatory page-processing checkpoint.
+The initial site exposed a browser-positioning defect and the inadequacy of evenly distributed line estimates for irregular pages. The image origin is now fixed explicitly, and all 1,714 text-column lines on the nineteen processed pages have source-pixel crop and context rectangles in [`line-geometry.json`](pilot/human-review/line-geometry.json). Thirty-eight complete column contact sheets were visually inspected, including the shortened final page `f643` and section-divided columns on `f18`, `f19`, `f21`, `f25`, and `f248`. Explicit geometry plus contact-sheet and browser review is now a mandatory page-processing checkpoint.
 
 ## Current objective
 
-Complete human checking of newly transcribed `f17`–`f22` and recheck the corrected `f16` and `f15` columns. The immediate objective is repeatable quality control supporting:
+Complete human checking of newly transcribed `f17`–`f27` and recheck the corrected `f16` and `f15` columns. The immediate objective is repeatable quality control supporting:
 
 1. A page-oriented reading and verification view
 2. Efficient source-faithful editing in physical order
@@ -84,7 +86,7 @@ Complete human checking of newly transcribed `f17`–`f22` and recheck the corre
 
 ## Production progress
 
-The Level 1 corpus contains fourteen complete pages and 1,300 physical lines. `f14` is human-checked; sequential `f15` and `f16` have both been corrected after human comparison and their columns await recheck; `f17`–`f22` are scan-confirmed and await human comparison. `f249` and `f250` retain the earlier production `scan_confirmed` status but should be re-evaluated against the revised procedure. The other 637 acquired leaves appear as `unprocessed` in the review UI.
+The Level 1 corpus contains nineteen complete pages and 1,787 physical lines. `f14` is human-checked; sequential `f15` and `f16` have both been corrected after human comparison and their columns await recheck; `f17`–`f27` are scan-confirmed and await human comparison. `f249` and `f250` retain the earlier production `scan_confirmed` status but should be re-evaluated against the revised procedure. The other 632 acquired leaves appear as `unprocessed` in the review UI.
 
 ## Next phase
 

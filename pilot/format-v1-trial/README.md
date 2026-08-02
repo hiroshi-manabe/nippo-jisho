@@ -2,7 +2,7 @@
 
 ## Result
 
-The corpus represents fourteen complete pages in the adopted compact human-readable Level 1 authoring format. The six-page, 526-line adoption baseline has been extended by eight sequential production pages, bringing the compiler-validated total to 1,300 physical lines. Seven structural assertions and eight selected reading sequences remain as a secondary compatibility check, not the current design focus.
+The corpus represents nineteen complete pages in the adopted compact human-readable Level 1 authoring format. The six-page, 526-line adoption baseline has been extended by thirteen sequential production pages, bringing the compiler-validated total to 1,787 physical lines. Seven structural assertions and eight selected reading sequences remain as a secondary compatibility check, not the current design focus.
 
 Format version 1 was adopted after the [timed f249–f250 production simulation](../production-simulation/f0249-f0250.md) required no new syntax. Compact Markdown is the authoring form; JSON is generated for validation and interchange. A genuinely unresolved reading has not yet exercised uncertainty notation, which will be added only in a compatible evidence-driven revision.
 
@@ -16,12 +16,13 @@ Format version 1 was adopted after the [timed f249–f250 production simulation]
 | `bnf-f0016` | Complete dictionary text and textual furniture | Independent double reading, proposal precision/recall benchmark, anomalous `Sõ-` / `tir`, continuation sign |
 | `bnf-f0017` | Complete dictionary text and textual furniture | Strengthened contextual and right-edge audit, historical `-aõ`, continuation from f16 and catchword to f18 |
 | `bnf-f0018`–`bnf-f0022` | Complete dictionary text and textual furniture | Five-page bounded batch, frozen normal checkpoints, at least five additional scan-confirmed findings per page, calibrated human-review geometry |
+| `bnf-f0023`–`bnf-f0027` | Complete dictionary text and textual furniture | Strictly sequential five-page batch, page-independent 30–60 marginal-discovery stopping rule, source-anomaly checks, calibrated human-review geometry |
 | `bnf-f0248` | Complete dictionary text and textual furniture | Caron/circumflex contrast, displaced `(grande.`, identical running and internal headings, `Gǔcon`, catchword |
 | `bnf-f0249` | Complete dictionary text and textual furniture | Fresh-page production timing, `f248` catchword continuation, printed page number and signature, displaced `(o homem.` |
 | `bnf-f0250` | Complete dictionary text and textual furniture | Consecutive-page production timing, catchword continuation and confirmation against `f251`, contextual review yield |
 | `bnf-f0643` | Complete dictionary text and textual furniture | Circumflex, caron, and grave accent examples; ownership stamp, printed page number, terminus, closing ornament |
 
-The fourteen complete page records contain 1,300 physical lines. Exact source-image SHA-256 values are stored in each Level 1 page record.
+The nineteen complete page records contain 1,787 physical lines. Exact source-image SHA-256 values are stored in each Level 1 page record.
 
 ## Files
 
@@ -34,7 +35,7 @@ The fourteen complete page records contain 1,300 physical lines. Exact source-im
 - [`../../docs/level1-markdown-candidate.md`](../../docs/level1-markdown-candidate.md) documents the compact version 1 authoring syntax.
 - [`../../scripts/compile_level1_markdown.py`](../../scripts/compile_level1_markdown.py) validates and compiles the human-readable sources.
 - [`../../scripts/render_format_trial.py`](../../scripts/render_format_trial.py) validates the records and regenerates the views.
-- [`../human-review/README.md`](../human-review/README.md) documents the dictionary-wide generated review shell and the side-by-side checkpoint for all fourteen Level 1 pages.
+- [`../human-review/README.md`](../human-review/README.md) documents the dictionary-wide generated review shell and the line-by-line checkpoint for all nineteen Level 1 pages.
 
 Run from the repository root:
 

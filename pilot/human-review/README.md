@@ -2,7 +2,7 @@
 
 Public site: <https://hiroshi-manabe.github.io/nippo-jisho/>
 
-This generated interface supports asynchronous Level 1 production and human checking across the complete acquired Gallica sequence. All 651 leaves (`f1`–`f651`) are navigable from the outset. The fourteen existing Level 1 pages show their transcription and review state; the remaining 637 pages show the verified scan with a clear `unprocessed` state.
+This generated interface supports asynchronous Level 1 production and human checking across the complete acquired Gallica sequence. All 651 leaves (`f1`–`f651`) are navigable from the outset. The nineteen existing Level 1 pages show their transcription and review state; the remaining 632 pages show the verified scan with a clear `unprocessed` state.
 
 This is the current prototype. The agreed next iteration adds a thumbnail overview, compact in-page editing, complete-glyph line crops, an in-context two-level transcription reference, clipboard-based GitHub Issue submission, and factual correction-history badges. Its behavior and rationale are specified in [Human Review and Correction Workflow](../../docs/human-review-workflow.md).
 
@@ -16,7 +16,7 @@ Then open `build/human-review/index.html`. The generator also writes `build/huma
 
 The public IIIF-backed successor is built with `python3 scripts/build_public_review.py`. It uses committed thumbnails and page geometry, loads one Gallica IIIF image only when a leaf is opened, and applies line crops in the browser. The older command above remains available for reproducing the local master-image prototype.
 
-Every processed text column now requires explicit line geometry in [`line-geometry.json`](line-geometry.json). Initial rectangles and disposable contact sheets are generated from the local masters with `python3 scripts/calibrate_line_geometry.py`; the contact sheets must then be inspected before the geometry is marked reviewed. The current geometry covers all 1,246 text-column lines on the fourteen processed pages. Furniture remains reviewed in whole-page context rather than receiving artificial line crops.
+Every processed text column now requires explicit line geometry in [`line-geometry.json`](line-geometry.json). Initial rectangles and disposable contact sheets are generated from the local masters with `python3 scripts/calibrate_line_geometry.py`; the contact sheets must then be inspected before the geometry is marked reviewed. The current geometry covers all 1,714 text-column lines on the nineteen processed pages. Furniture remains reviewed in whole-page context rather than receiving artificial line crops.
 
 The parent interface provides:
 
