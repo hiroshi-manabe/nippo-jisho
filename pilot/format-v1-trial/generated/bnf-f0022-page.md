@@ -40,7 +40,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l024` | &emsp;*taremſe os gallos por ſi quando pelejam ſem vẽ-* |  |
 | `c1-l025` | &emsp;*cer hũm ao outro.* |  |
 | `c1-l026` | Aicacaye, uru, eta. *Vide* Cacayuru. |  |
-| `c1-l027` | Aicacoi, ô, ôta. *Vide* Cacoi, ǒ. |  |
+| `c1-l027` | Aicacoi, ô, ôta. *Vide* Cacoi. ô. |  |
 | `c1-l028` | Aicacomi, u, ôda. *Vide* Cacomi, u. |  |
 | `c1-l029` | Ai camayete. *Auizaiuos, tende tento q̃ não fa-* |  |
 | `c1-l030` | &emsp;*çais tal, &c.* |  |
@@ -57,8 +57,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l041` | Ai coraye, uru, eta. *Vide* Coraye, uru. |  |
 | `c1-l042` | Ai coxiraye, uru, eta. *Vide* Coxiraye, uru. |  |
 | `c1-l043` | Ai cuchi. *O agradar hũa peſſoa a outra, ou* |  |
-| `c1-l044` | &emsp;*ſer conforme a ſeu modo. Vt,* Pedro Ioãoua |  |
-| `c1-l045` | &emsp;a cuchi de gozaru. *Pedro, & Ioão cõ-* |  |
+| `c1-l044` | &emsp;*ſer conforme a ſeu modo. Vt,* Pedroto Ioãoua |  |
+| `c1-l045` | &emsp;aicuchi de gozaru. *Pedro, & Ioão cõ-* |  |
 | `c1-l046` | &emsp;*binão entreſi. ¶ Item,* Aicuchi. *Certa par-* |  |
 | `c1-l047` | &emsp;*te como de tampão, ou çapadoura, &c. por* |  |
 

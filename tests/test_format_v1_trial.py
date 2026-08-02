@@ -100,6 +100,30 @@ class FormatV1TrialTests(unittest.TestCase):
 
     def test_representative_trial_records_are_complete_and_reviewed(self):
         expected_corrections = {
+            "bnf-f0019": [
+                "AFIru. Adem.",
+                "Agaqi, u, aita.",
+                "Te, dãgui, tçuzzumi, gacumon, cu-",
+                "l, yǔ yori agaru.",
+            ],
+            "bnf-f0020": [
+                "Fouo",
+                "Faitçuge, l. tatamono ni",
+                "Gacumõ nadeno irouo aguru.",
+                "Aguetçire. i. l. catune.",
+            ],
+            "bnf-f0021": [
+                "cobertoura de baixo",
+                "Aguejitomi.",
+                "Ameſma tinta.",
+                "Vide Varifu.",
+                "Noriai. Nauegar",
+            ],
+            "bnf-f0022": [
+                "Vide Cacoi. ô.",
+                "Pedroto Ioãoua",
+                "aicuchi de gozaru.",
+            ],
             "bnf-f0248": [
                 "Goxǒuo taſucaru.",
                 "Gǒyen. Tçuyoi yen.",

@@ -58,7 +58,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l042` | &emsp;Agiqinaſa. |  |
 | `c1-l043` | &emsp;Agiqinǒ. |  |
 | `c1-l044` | Agizzuqi, u, uita. *Ir ſentindo o goſto no* |  |
-| `c1-l045` | &emsp;*comer o que tem feſtio. ¶ Permet. Chri-* |  |
+| `c1-l045` | &emsp;*comer o que tem feſtio. ¶ Permet.* Chri- |  |
 | `c1-l046` | &emsp;ſtão no cotçeni agizzugu. *Ir tomando go-* |  |
 | `c1-l047` | &emsp;*ſto das couſas de Chriſto.* |  |
 
@@ -85,15 +85,15 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l011` | Agiuai xiri, ru, itta. *Conhecer pollo goſto.* |  |
 | `c2-l012` | &emsp;*¶ Vt,* Saqeuo docozaqeno agiuai xiru. |  |
 | `c2-l013` | &emsp;*Conhecer pollo ſabor o vinho donde he.* |  |
-| `c2-l014` | Ague, ru, eta. *Aleuantar. ¶* Founo |  |
+| `c2-l014` | Ague, ru, eta. *Aleuantar. ¶* Fouo |  |
 | `c2-l015` | &emsp;aguru. *Aleuantar a vela, ou dar a vela.* |  |
 | `c2-l016` | &emsp;*¶* Coyeuo aguru. *Aleuantar a voz,* |  |
-| `c2-l017` | &emsp;*ou gritar. ¶* Faitçuge, l, tatamono ni |  |
+| `c2-l017` | &emsp;*ou gritar. ¶* Faitçuge, l. tatamono ni |  |
 | `c2-l018` | &emsp;aguru. *Crucificar. ¶* Funeno niuo |  |
 | `c2-l019` | &emsp;aguru. *Deſembarcar fato. ¶* Nauo a- |  |
 | `c2-l020` | &emsp;guru. *Tomar nome, ou afamarſe. ¶* Iro |  |
 | `c2-l021` | &emsp;uo aguru. *Dar noua tinta, ou cor.* |  |
-| `c2-l022` | &emsp;*¶ Permet.* Gacumǒ nadeno irouo aguru. |  |
+| `c2-l022` | &emsp;*¶ Permet.* Gacumõ nadeno irouo aguru. |  |
 | `c2-l023` | &emsp;*Medrar, ou melhorarſe no eſtudo, &c.* |  |
 | `c2-l024` | &emsp;*¶* Ienno aguru. *Tirar as mezas, ou por* |  |
 | `c2-l025` | &emsp;*as mezas, ou dar de comer a peſſoa nobre.* |  |
@@ -118,7 +118,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l044` | &emsp;*rubar no chão, ou ter quieto, &c. ¶* A- |  |
 | `c2-l045` | &emsp;gue axiuo tçuru. *Aleuantar lhe a mão deſ-* |  |
 | `c2-l046` | &emsp;*ta maneira.* |  |
-| `c2-l047` | Aguetçire. i. ſ. catune. *Lagar, ou dor-* |  |
+| `c2-l047` | Aguetçire. i. l. catune. *Lagar, ou dor-* |  |
 
 ## Catchword
 

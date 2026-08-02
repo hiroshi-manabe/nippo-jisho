@@ -25,8 +25,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1a-l009` | &emsp;*& feita a caſo.* |  |
 | `c1a-l010` | Adacoto. *Palauras inconſideradas, & vaãs.* |  |
 | `c1a-l011` | &emsp;*¶* Adacotouo yũ, l, faqu. *Dizer eſ-* |  |
-| `c1a-l012` | &emsp;*tas palauras vaãs, &c. ¶ Itẽ,* Aliquan- |  |
-| `c1a-l013` | &emsp;do obras vans *de pouco momento.* |  |
+| `c1a-l012` | &emsp;*tas palauras vaãs, &c. ¶ Itẽ, Aliquan-* |  |
+| `c1a-l013` | &emsp;*do obras vans de pouco momento.* |  |
 | `c1a-l014` | Adana, l, Adano. *Couſa breue vaã, &* |  |
 | `c1a-l015` | &emsp;*de pouca dura.* |  |
 | `c1a-l016` | Adana. *Ruim fama que nace ſomente de* |  |
@@ -47,7 +47,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1a-l031` | Ado. *Repoſta conueniente acerca do que ſe* |  |
 | `c1a-l032` | &emsp;*conta, ou fala. ¶* Adouo vtçu. *Dar* |  |
 | `c1a-l033` | &emsp;*eſtas repoſtas conformandoſe, & contem-* |  |
-| `c1a-l034` | &emsp;*porizando com o que fala. ¶ Itẽ,* Nos en- |  |
+| `c1a-l034` | &emsp;*porizando com o que fala. ¶ Itẽ, Nos en-* |  |
 | `c1a-l035` | &emsp;*entremeſes dar outro terceiro repoſtas con-* |  |
 | `c1a-l036` | &emsp;*temporizando, & lizonjeando ao que faz* |  |
 | `c1a-l037` | &emsp;*a farça.* |  |
@@ -65,7 +65,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1b-l001` | AFiru. *Adem.* |  |
+| `c1b-l001` | AFIru. *Adem.* |  |
 | `c1b-l002` | Afǒ. i. Vtçuqe. *Paruo, tollo.* |  |
 | `c1b-l003` | &emsp;*¶ Item, paruice. ¶* Afǒuo yǔ. *Dizer* |  |
 | `c1b-l004` | &emsp;*paruoices.* |  |
@@ -89,7 +89,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2a-l006` | Afure, ruru, eta. *Tresbordar, ou auer en-* |  |
 | `c2a-l007` | &emsp;*chente de rio, &c. ¶ Item, Permet.* |  |
 | `c2a-l008` | &emsp;*Auer ẽ abundancia. ¶ Vt,* Zaizai xoxǒni |  |
-| `c2a-l009` | &emsp;tçuuamono afureiru. *Todos os lugares* |  |
+| `c2a-l009` | &emsp;tçuuamono afure iru. *Todos os lugares* |  |
 | `c2a-l010` | &emsp;*eſtauão cheos de ſoldadeſca.* |  |
 
 ## Column 2 G section heading
@@ -107,7 +107,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2b-l003` | Agame vyamai, ǒ, ǒta. *Idem.* |  |
 | `c2b-l004` | Agaqe, i, vacataca. *Falcão nouo daquel-* |  |
 | `c2b-l005` | &emsp;*le anno.* |  |
-| `c2b-l006` | Agiqi, u, aita. *Dar o caualo com os pes na* |  |
+| `c2b-l006` | Agaqi, u, aita. *Dar o caualo com os pes na* |  |
 | `c2b-l007` | &emsp;*terra como quem acaua de brio, & feroci-* |  |
 | `c2b-l008` | &emsp;*dade. ¶ Item, Permet. Menear com* |  |
 | `c2b-l009` | &emsp;*diligencia, os pes, & as mãos nalgũa obra,* |  |
@@ -118,7 +118,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2b-l014` | &emsp;*ou enflamarſe o roſto. ¶* Curaini agaru. |  |
 | `c2b-l015` | &emsp;*Subir em dignidade. ¶ Item, Perfei-* |  |
 | `c2b-l016` | &emsp;*çoarſe, ou milhorarſe em algũa arte.* |  |
-| `c2b-l017` | &emsp;*¶* Te, dagui, tçuzzumi, gacumon, cu- |  |
+| `c2b-l017` | &emsp;*¶* Te, dãgui, tçuzzumi, gacumon, cu- |  |
 | `c2b-l018` | &emsp;chiga, &c. Agaru. *Melhorarſe, l,* |  |
 | `c2b-l019` | &emsp;*aproueitar no eſcreuer, prègar, tanger ta-* |  |
 | `c2b-l020` | &emsp;*baquinho, nas letras, linguas, &c. ¶* Sa- |  |
@@ -126,7 +126,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2b-l022` | &emsp;*tumado. ¶* Iroga agaru. *Melhorarſe* |  |
 | `c2b-l023` | &emsp;*a cor da couſa que ſe tinje. ¶* Fune yo- |  |
 | `c2b-l024` | &emsp;ri agaru. *Deſembarcarſe. ¶* Furo, |  |
-| `c2b-l025` | &emsp;l, yǔyori agaru. *Sairſe dos banhos.* |  |
+| `c2b-l025` | &emsp;l, yǔ yori agaru. *Sairſe dos banhos.* |  |
 | `c2b-l026` | &emsp;*¶ Itẽ, Porſe a meza, ou aleuantarſe a peſ-* |  |
 | `c2b-l027` | &emsp;*ſoa honrrada.* Gojenga agaru, gojen- |  |
 | `c2b-l028` | &emsp;ga ſuberu, l, cudaru. *Leuantaremſe as* |  |

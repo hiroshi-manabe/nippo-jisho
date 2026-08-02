@@ -54,6 +54,19 @@ The first f16 human check exposed a further requirement: audit the complete righ
 
 Japanese morphology must likewise be tested at the character level, not merely used to judge whether the overall entry is plausible. On f16, *acamiga ſaſu* and *Fiuo acaſu* expose `ſ`/`f` and `u`/`t` errors that survived the first contextual pass. When context predicts a correction, return to same-page glyph specimens before amending the diplomatic text.
 
+## Marginal-discovery audit: the 30–60 rule
+
+After the ordinary page workflow and checkpoint, a page may receive a deliberately open-ended marginal-discovery audit. Apply the rule independently to each page:
+
+1. Continue focused passes until one certain error has been found and confirmed against the scan.
+2. If that finding took no more than 30 minutes since the preceding confirmed finding (or the start of this audit for the first finding), retain it, reset that page's clock, and repeat.
+3. If a confirmed finding took more than 30 minutes, retain it and stop that page.
+4. If 60 minutes pass without a confirmed finding, stop that page without manufacturing a change.
+
+Only a source-supported correction resets the clock. A rejected candidate, unresolved reading, external-data disagreement, formatting experiment, or finding on another page does not. When several pages are interleaved, record and judge their intervals separately. Check elapsed time at pass boundaries rather than repeatedly interrupting close reading.
+
+The audit should vary its attention rather than repeat one undifferentiated sweep: complete visual reading, Japanese morphology and syntax, Portuguese lexical and historical spelling, typeface boundaries, spacing and line edges, diacritics and abbreviation marks, same-page confusable-glyph comparison, and NINJAL headword disagreement are useful distinct passes. NINJAL remains an alarm only; the scan decides every accepted correction. The stopping rule measures diminishing returns from the machine review, not completeness of the page or the value of later human checking.
+
 ## Practical threshold for uncertainty
 
 Contextual reasoning is part of ordinary visual transcription. A reading need not be marked uncertain merely because a fold, weak impression, or unfamiliar letter made context useful in confirming it. If the surviving shapes and context together yield a reading that a careful reviewer is unlikely to dispute, transcribe it normally.

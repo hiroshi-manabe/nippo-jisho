@@ -17,8 +17,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l001` | &emsp;*na de pao em que eſcorrem, o vinho de Iapão.* |  |
 | `c1-l002` | Aguebutano xocudai. i. Mizzuno dai. *Caſti-* |  |
 | `c1-l003` | &emsp;*çal de metal de certa feição que tem ao pee hũa* |  |
-| `c1-l004` | &emsp;*cobertura de baixo da qual ſe poem o murtião da* |  |
-| `c1-l005` | &emsp;*candea quando ſe eſpiuita.* |  |
+| `c1-l004` | &emsp;*cobertoura de baixo da qual ſe poem o murtião da* |  |
+| `c1-l005` | &emsp;*candea quando ſe eſpeuita.* |  |
 | `c1-l006` | Ague cobu. *Melius,* Iricobu. *Certos limos* |  |
 | `c1-l007` | &emsp;*do mar fritos, ou torrados.* |  |
 | `c1-l008` | Aguegotatçu. *Fogão com hũa armação por ci-* |  |
@@ -33,10 +33,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l017` | &emsp;*coſta.* |  |
 | `c1-l018` | Agueji. *Melius,* Xijo, l, qiyogaqi. *Ma-* |  |
 | `c1-l019` | &emsp;*teria dos que aprendem a eſcreuer.* |  |
-| `c1-l020` | Ague jitomi. *Certas janelas ou portas que ſe le-* |  |
+| `c1-l020` | Aguejitomi. *Certas janelas ou portas que ſe le-* |  |
 | `c1-l021` | &emsp;*uantão, & deitão pera fora com huns paos co-* |  |
 | `c1-l022` | &emsp;*mo pontaletes.* |  |
-| `c1-l023` | Aguemaqi. *Certo mó, ou laçada que ſe dá ẽ hũs* |  |
+| `c1-l023` | Aguemaqi. *Certo nó, ou laçada que ſe dá ẽ hũs* |  |
 | `c1-l024` | &emsp;*cordões debruados no eſpaldar das armas,* |  |
 | `c1-l025` | &emsp;*ou noutras couſas por galantaria, & ornato.* |  |
 | `c1-l026` | Agueqido. *Cancela de paos que ſe aleuanta, &* |  |
@@ -52,9 +52,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l036` | &emsp;ſu. *Degollar molheres. ¶* Xixiuǒno a- |  |
 | `c1-l037` | &emsp;guironi cacaru. *Ser comido de leões.* |  |
 | `c1-l038` | Ago. i. Quizzume. *Eſporão de gallo, ou de* |  |
-| `c1-l039` | &emsp;*galinha do mato. ¶* Agueuo ſaſu. *Meter* |  |
+| `c1-l039` | &emsp;*galinha do mato. ¶* Agouo ſaſu. *Meter* |  |
 | `c1-l040` | &emsp;*o eſporão, ou ferir com elle. ¶ Item, Per-* |  |
-| `c1-l041` | &emsp;*met.* Ago uo ſaſu. *Contradizer, & ir a mão* |  |
+| `c1-l041` | &emsp;*met.* Agouo ſaſu. *Contradizer, & ir a mão* |  |
 | `c1-l042` | &emsp;*a outros.* |  |
 | `c1-l043` | Agon. *Vt,* Agonguiǒ. *Hum liuro de doctri-* |  |
 | `c1-l044` | &emsp;*na de Xaca.* |  |
@@ -87,10 +87,10 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c2b-l001` | AI. *Hũa erua de que ſe faz tinta azul,* |  |
-| `c2b-l002` | &emsp;*como anil. ¶ Item,* Amaina tana. |  |
+| `c2b-l002` | &emsp;*como anil. ¶ Item, Ameſma tinta.* |  |
 | `c2b-l003` | &emsp;*¶* Aino, l, ai de ſomuru. *Tingir de cor azul.* |  |
 | `c2b-l004` | Ai, l, ayu. *Peixe como truta.* |  |
-| `c2b-l005` | Ai. i. Aiai, l, ma. *Eſpaço, ou interual-* |  |
+| `c2b-l005` | Ai. i. Auai, l, ma. *Eſpaço, ou interual-* |  |
 | `c2b-l006` | &emsp;*lo de lugar, tempo, &c. ¶ Item, Re-* |  |
 | `c2b-l007` | &emsp;*preſentação do auto, ou eſpaço em que as figu-* |  |
 | `c2b-l008` | &emsp;*ras ſe veſtem, ou ſe eſtá contando o que ſe ha* |  |
@@ -106,7 +106,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2b-l018` | &emsp;*uarem, ou virem juſtas duas caſcas de amei-* |  |
 | `c2b-l019` | &emsp;*joas quando ſe fechão. ¶* Variſuga vǒta. |  |
 | `c2b-l020` | &emsp;*Quadrar, ou reſponder hũa metade da mitra cõ a* |  |
-| `c2b-l021` | &emsp;*outra diuidida cõ o meſmo ſinal. Vide* Va ſu. |  |
+| `c2b-l021` | &emsp;*outra diuidida cõ o meſmo ſinal. Vide* Varifu. |  |
 | `c2b-l022` | &emsp;*¶* Qini vǒ. *Agradar. ¶* Caniforiga vǒ. |  |
 | `c2b-l023` | &emsp;*Eſtarẽ afiadas, ou cõſo as naualhas pera cortar.* |  |
 | `c2b-l024` | Ai, ǒ, ǒta. *Encontrar. Vt* Nangui ni vǒ. |  |
@@ -125,7 +125,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2b-l037` | &emsp;ru. *Ajuntarſe juntamente com outros, &* |  |
 | `c2b-l038` | &emsp;*particularmente tem eſte ſentido quando ſe põe* |  |
 | `c2b-l039` | &emsp;*no fim da palavra com que ſe compoem. Vt,* |  |
-| `c2b-l040` | &emsp;Norai. *Nauegar, ou embarcarſe juntamente.* |  |
+| `c2b-l040` | &emsp;Noriai. *Nauegar, ou embarcarſe juntamente.* |  |
 | `c2b-l041` | Ai araſoi, ǒ, ǒta. *Contender ſobre algũa* |  |
 | `c2b-l042` | &emsp;*honrra, renda, &c.* |  |
 
