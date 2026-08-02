@@ -32,7 +32,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l016` | &emsp;*ou fazer dano a agluem.* |  |
 | `c1-l017` | Acurei. Axij tamaxij. *Ruim foro, ou cu-* |  |
 | `c1-l018` | &emsp;*ſtume. ¶ Item, Ruim agouro.* |  |
-| `c1-l019` | Acureô, l, acoriǔ. i. acuriû. Axij ta- |  |
+| `c1-l019` | Acureô, l, acoriǔ. i. docuriû. Axij ta- |  |
 | `c1-l020` | &emsp;tçu. *Lagarto, ou ſerpente peçonhenta.* |  |
 | `c1-l021` | Acuriǒ. Acuno mitama. *Almas perdidas.* |  |
 | `c1-l022` | &emsp;*¶* Acureo fitoni vazauo naſu. *Faze-* |  |
@@ -91,7 +91,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2a-l017` | &emsp;*ingreme, &c.* |  |
 | `c2a-l018` | Acuxocu. Axij cuimono. *Ruim comer.* |  |
 | `c2a-l019` | Acuxu. Varui aruji. *Ruim ſenhor.* |  |
-| `c2a-l020` | Acuxǔ. Axij cuſaſa. *Ruim chero, l, fedor.* |  |
+| `c2a-l020` | Acuxǔ. Axij cuſaſa. *Ruim cheiro, l, fedor.* |  |
 | `c2a-l021` | Acuxu. i. Inferno. *Vt* Acuxuni daſu- |  |
 | `c2a-l022` | &emsp;ru. *Cair no Inferno.* |  |
 | `c2a-l023` | Acuye. Axij qegare. *çujdade, l, im-* |  |
@@ -127,7 +127,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2b-l008` | Adabito. *Peſsoa mudauel, & inconſtante* |  |
 | `c2b-l009` | &emsp;*particularmente em trocar o amor, & affei-* |  |
 | `c2b-l010` | &emsp;*ção ruim.* |  |
-| `c2b-l011` | Adaca. i. Suiugino facaina. *Caſca de* |  |
+| `c2b-l011` | Adaca. i. Suſuqino facaina. *Caſca de* |  |
 
 ## Catchword
 

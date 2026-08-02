@@ -240,3 +240,30 @@ The Portuguese phrase also supports reinspection: `de cà peralà` corresponds t
 - Distinguish tildes from grave accents by contour, not merely by the letter beneath them.
 - Identify the base glyph independently of the diacritic; an accented italic `a` can lose visual clarity at this size.
 - Use same-line and same-page comparisons before consulting generalized historical rules.
+
+## OBS-009
+
+**Faded adjacent letters can conceal a lexically valid internal variant**
+
+| Field | Value |
+| --- | --- |
+| Status | `confirmed` for the diplomatic reading; scholarly novelty remains provisional |
+| First recorded | 2026-08-02 |
+| Evidence | `bnf-f0018`, column 1, `c1-l019` |
+| Printed form | `Acureô, l, acoriǔ. i. docuriû.` |
+| Initial transcription | `Acureô, l, acoriǔ. i. acuriû.` |
+| Confidence | High after tight enlargement and independent lexical comparison |
+
+### Visible evidence and interpretation
+
+After `i.` the scan retains three rounded letter bodies before `uriû`. The first is a `d` whose ascender and right side are nearly erased, the second is a severely faded `o`, and the third is a clear `c`. Reading only the strongest strokes collapses `do` into an apparent `a` and produces the contextually attractive but materially unsupported `acuriû`.
+
+The NINJAL headword inventory independently lists `Docuriù.` at `072c14` (Gallica `f156`). That later headword does not mechanically determine the damaged f18 occurrence, and its final accent differs, but it confirms that `docuri-` is part of the dictionary's printed vocabulary. Because the f18 form follows `i.` inside an entry, a headword-only dataset naturally does not expose this occurrence. No checked secondary source has yet been found that reports the f18 reading, so the observation is described as apparently new rather than conclusively absent from all prior scholarship.
+
+### Transcription treatment
+
+- Transcribe the f18 occurrence diplomatically as `docuriû`.
+- Preserve the circumflex visible on its final `u`; do not import the grave accent from the later `Docuriù.` headword.
+- When one expected letter seems to occupy the width of several damaged sorts, count residual letter bodies before choosing a contextual completion.
+- Use independently attested forms to test lexical plausibility, but require the local scan to support every character retained at Level 1.
+- Record possible new readings with the exact image location, the superseded reading, visual grounds, independent parallels, and an explicitly bounded novelty claim.

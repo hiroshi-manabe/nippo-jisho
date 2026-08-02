@@ -205,7 +205,7 @@ class Level1MarkdownTests(unittest.TestCase):
         source = (SOURCE / "bnf-f0018.md").read_text(encoding="utf-8")
         accepted = [
             "dano a agluem",
-            "acoriǔ. i. acuriû",
+            "acoriǔ. i. docuriû",
             "sǒga miyuru",
             "Acusǒ. Axij caſa",
             "como ladroĩs",
@@ -217,13 +217,15 @@ class Level1MarkdownTests(unittest.TestCase):
             "Adano naſaqe",
             "ita. ¶ Item",
             "Peſsoa mudauel",
+            "Ruim cheiro",
+            "Suſuqino facaina",
         ]
         for reading in accepted:
             self.assertIn(reading, source)
-        retained = ["Ruim tradição", "Ruim chero", "Suiugino facaina"]
+        retained = ["Ruim tradição"]
         for reading in retained:
             self.assertIn(reading, source)
-        rejected = ["Ruim iradição", "Ruim cheiro", "Suſuqino facaina"]
+        rejected = ["Ruim iradição", "Ruim chero", "Suiugino facaina", "i. acuriû"]
         for reading in rejected:
             self.assertNotIn(reading, source)
 
