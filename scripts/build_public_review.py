@@ -75,7 +75,11 @@ def transcription_line_data(line: dict) -> dict:
         "id": line["id"],
         "text": line["text"],
         "runs": [
-            {"typeface": run["typeface"], "text": run["text"]}
+            {
+                key: run[key]
+                for key in ("typeface", "text", "layout", "line_span")
+                if key in run
+            }
             for run in line["runs"]
         ],
     }

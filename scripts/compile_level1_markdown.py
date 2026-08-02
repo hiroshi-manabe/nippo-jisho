@@ -16,7 +16,9 @@ class Level1MarkdownError(Exception):
 
 
 ZONE_RE = re.compile(r"^## ([a-z0-9-]+) \[([a-z0-9_-]+)\] (.+)$")
-LINE_RE = re.compile(r"^\[([a-z0-9-]+)(?: (>|>>))?\] (.*)$")
+LINE_RE = re.compile(
+    r"^\[([a-z0-9-]+)(?: (>|>>))?(?: initial=([2-9][0-9]*))?\] (.*)$"
+)
 SPAN_RE = re.compile(r"^\{([a-z0-9_-]+)\}(.*)$")
 
 REQUIRED_METADATA = {
@@ -204,7 +206,7 @@ def parse_markdown(path: Path) -> dict:
             raise fail(path, line_number, "expected a zone heading, zone note, or physical line")
         if current_zone is None:
             raise fail(path, line_number, "physical line appears before a zone heading")
-        line_id, flag, content = match.groups()
+        line_id, flag, initial_span, content = match.groups()
         if line_id in line_ids:
             raise fail(path, line_number, f"duplicate physical-line id {line_id!r}")
         line_ids.add(line_id)
@@ -226,6 +228,20 @@ def parse_markdown(path: Path) -> dict:
             for run in cell_runs:
                 run["placement"] = "far-right"
             runs.extend(cell_runs)
+        if initial_span:
+            if flag == ">>" or runs[0].get("placement") == "far-right":
+                raise fail(path, line_number, "a large initial must begin the main line")
+            first = runs[0]
+            if first["text"][0].isspace():
+                raise fail(path, line_number, "a large initial cannot be whitespace")
+            initial_run = {
+                **first,
+                "text": first["text"][0],
+                "layout": "large-initial",
+                "line_span": int(initial_span),
+            }
+            remainder = first["text"][1:]
+            runs[:1] = [initial_run] + ([{**first, "text": remainder}] if remainder else [])
         for run in runs:
             if "span_id" in run:
                 key = (line_id, run["span_id"])
@@ -279,6 +295,31 @@ def export_markdown(page: dict) -> str:
         if "note" in zone:
             output.extend([f"> {zone['note']}", ""])
         for line in zone.get("lines", []):
+            large_initials = [
+                (index, run)
+                for index, run in enumerate(line["runs"])
+                if run.get("layout") == "large-initial"
+            ]
+            initial_flag = ""
+            if large_initials:
+                if len(large_initials) != 1:
+                    raise Level1MarkdownError(
+                        f"{page['id']}:{line['id']}: exactly one large initial is allowed"
+                    )
+                index, initial = large_initials[0]
+                line_span = initial.get("line_span")
+                if (
+                    index != 0
+                    or len(initial["text"]) != 1
+                    or initial["text"].isspace()
+                    or initial.get("placement", "normal") != "normal"
+                    or not isinstance(line_span, int)
+                    or line_span < 2
+                ):
+                    raise Level1MarkdownError(
+                        f"{page['id']}:{line['id']}: invalid large-initial run"
+                    )
+                initial_flag = f" initial={line_span}"
             normal = [run for run in line["runs"] if run.get("placement", "normal") == "normal"]
             far = [run for run in line["runs"] if run.get("placement") == "far-right"]
             flag = ""
@@ -295,7 +336,7 @@ def export_markdown(page: dict) -> str:
                     if not label:
                         rendered = rendered.lstrip(" ")
                     content += f" || {label}{rendered}"
-            output.append(f"[{line['id']}{flag}] {content}")
+            output.append(f"[{line['id']}{flag}{initial_flag}] {content}")
         output.append("")
     return "\n".join(output).rstrip() + "\n"
 

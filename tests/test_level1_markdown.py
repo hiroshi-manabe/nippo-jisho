@@ -63,6 +63,29 @@ class Level1MarkdownTests(unittest.TestCase):
         )
         self.assertIn("[c1-l022 >] *amizade. Vt,* Gǒyẽuo motte tanomu.", source)
 
+    def test_recurring_large_initials_are_explicit_and_round_trip(self):
+        expected = {
+            "bnf-f0018": ["c2b-l001"],
+            "bnf-f0019": ["c1b-l001", "c2b-l001"],
+            "bnf-f0021": ["c2b-l001"],
+            "bnf-f0025": ["c2b-l001"],
+            "bnf-f0248": ["c2b-l001"],
+        }
+        for page_id, line_ids in expected.items():
+            source = (SOURCE / f"{page_id}.md").read_text(encoding="utf-8")
+            page = json.loads((JSON_DIR / f"{page_id}.json").read_text(encoding="utf-8"))
+            lines = {
+                line["id"]: line
+                for zone in page["zones"]
+                for line in zone.get("lines", [])
+            }
+            for line_id in line_ids:
+                self.assertIn(f"[{line_id} initial=2]", source)
+                first = lines[line_id]["runs"][0]
+                self.assertEqual(first["layout"], "large-initial")
+                self.assertEqual(first["line_span"], 2)
+                self.assertEqual(len(first["text"]), 1)
+
     def test_contextual_review_corrections_are_retained(self):
         source = (SOURCE / "bnf-f0643.md").read_text(encoding="utf-8")
         self.assertIn("Certa bocetinha de cha.", source)

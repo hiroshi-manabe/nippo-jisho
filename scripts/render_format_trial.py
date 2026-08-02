@@ -75,6 +75,24 @@ def validate_page(page: dict, path: Path) -> dict[str, dict]:
                     raise TrialFormatError(
                         f"{path}:{line_id}: run {index} has invalid placement {placement!r}"
                     )
+                layout = run.get("layout")
+                if layout is not None:
+                    if (
+                        layout != "large-initial"
+                        or index != 0
+                        or len(text) != 1
+                        or text.isspace()
+                        or placement != "normal"
+                        or not isinstance(run.get("line_span"), int)
+                        or run["line_span"] < 2
+                    ):
+                        raise TrialFormatError(
+                            f"{path}:{line_id}: run {index} has invalid large-initial layout"
+                        )
+                elif "line_span" in run:
+                    raise TrialFormatError(
+                        f"{path}:{line_id}: run {index} has line_span without a layout"
+                    )
             span_ids = [run["span_id"] for run in runs if "span_id" in run]
             if any(not isinstance(span_id, str) or not span_id for span_id in span_ids):
                 raise TrialFormatError(f"{path}:{line_id}: invalid named span")

@@ -60,6 +60,7 @@ The file is ordinary Markdown except for a small line-prefix and placement vocab
 | `[c1-l001] text` | Record one physical line with a stable ID. |
 | `[c1-l002 >] text` | Record relative indentation level 1. |
 | `[catch-l001 >>] text` | Place the whole line at the far right. |
+| `[c1-l001 initial=2] AFIru.` | Mark the first visible character as an enlarged initial spanning two physical lines. |
 | `*text*` | Printed italic type. Roman is the default. |
 | `**text**` | Printed display type. |
 | `main || far right` | Put the following segment at the far right of the same physical line. |
@@ -79,6 +80,7 @@ The compact form retains:
 - roman, italic, and display type;
 - relative indentation;
 - exceptional far-right placement;
+- enlarged initials and their physical line span;
 - optional named spans only where a smaller stable target is actually needed;
 - non-textual notes for ornaments, later stamps, and similar copy features.
 
@@ -110,6 +112,19 @@ The production simulation reused the same syntax without modification:
 ```
 
 The working rule is: preserve what a later layer may need, but postpone deciding what that layer will mean.
+
+## Enlarged initials across physical lines
+
+Internal alphabetical sections regularly begin with an enlarged first letter that extends beside the following physical line. The nineteen-page corpus contains six confirmed examples: `ADA` on `f18`; `AFIru` and `AGAme` on `f19`; `AI` on `f21`; `AMA` on `f25`; and `GV` on `f248`. This is observable recurring typography, not inferred entry structure.
+
+The annotation remains on the line to which the character belongs textually:
+
+```markdown
+[c1b-l001 initial=2] AFIru. *Adem.*
+[c1b-l002] Afǒ. i. Vtçuqe. *Paruo, tollo.*
+```
+
+The compiler preserves the ordinary plain text `AFIru.` while splitting its first character into a run with `layout: "large-initial"` and `line_span: 2`. It does not merge the two physical lines or attempt facsimile reconstruction. Review-image geometry gives the first line a taller crop containing the complete initial; overlap with the following line is intentional.
 
 ## Deliberate limits
 

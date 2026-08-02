@@ -18,6 +18,8 @@ The public IIIF-backed successor is built with `python3 scripts/build_public_rev
 
 Every processed text column now requires explicit line geometry in [`line-geometry.json`](line-geometry.json). Initial rectangles and disposable contact sheets are generated from the local masters with `python3 scripts/calibrate_line_geometry.py`; the contact sheets must then be inspected before the geometry is marked reviewed. The current geometry covers all 1,714 text-column lines on the nineteen processed pages. Furniture remains reviewed in whole-page context rather than receiving artificial line crops.
 
+When an enlarged initial visibly spans two physical lines, the owning line uses a reviewed `crop_overrides` rectangle tall enough to contain the complete glyph. Its overlap with the following line is deliberate. Ordinary lines continue to use the tighter generated rectangles, so this exception does not add needless vertical context throughout the interface.
+
 The parent interface provides:
 
 - previous and next arrows across the full Gallica sequence;

@@ -15,7 +15,7 @@ Format version 1 was adopted after the [timed f249–f250 production simulation]
 | `bnf-f0015` | Complete dictionary text and textual furniture | First sequential production page, repeated verification passes, historical Portuguese forms, caron and `ſ` checks |
 | `bnf-f0016` | Complete dictionary text and textual furniture | Independent double reading, proposal precision/recall benchmark, anomalous `Sõ-` / `tir`, continuation sign |
 | `bnf-f0017` | Complete dictionary text and textual furniture | Strengthened contextual and right-edge audit, historical `-aõ`, continuation from f16 and catchword to f18 |
-| `bnf-f0018`–`bnf-f0022` | Complete dictionary text and textual furniture | Five-page bounded batch, frozen normal checkpoints, at least five additional scan-confirmed findings per page, calibrated human-review geometry |
+| `bnf-f0018`–`bnf-f0022` | Complete dictionary text and textual furniture | Five-page bounded batch, frozen normal checkpoints, at least five additional scan-confirmed findings per page, enlarged section initials, calibrated human-review geometry |
 | `bnf-f0023`–`bnf-f0027` | Complete dictionary text and textual furniture | Strictly sequential five-page batch, page-independent 30–60 marginal-discovery stopping rule, source-anomaly checks, calibrated human-review geometry |
 | `bnf-f0248` | Complete dictionary text and textual furniture | Caron/circumflex contrast, displaced `(grande.`, identical running and internal headings, `Gǔcon`, catchword |
 | `bnf-f0249` | Complete dictionary text and textual furniture | Fresh-page production timing, `f248` catchword continuation, printed page number and signature, displaced `(o homem.` |
@@ -97,6 +97,7 @@ The external page displayed neighboring text as unavoidable context. No neighbor
 - Catchwords remain visible source strings while their page relationships and exclusion from lexical views are structural assertions.
 - Provisionally, the printed line-division sign is encoded uniformly as `-` in roman and italic type; the equals-like appearance seen in italic text is not promoted to a separate character unless wider sampling supplies a functional or non-italic counterexample.
 - Occurrence-level Unicode preserves `ǒ`, `ô`, `ǔ`, and `ù` without global replacement.
+- The compatible `initial=2` annotation preserves six recurring enlarged section initials without joining the following physical line or burdening ordinary lines with extra markup.
 
 ### Costs and limitations
 

@@ -6,7 +6,7 @@ This is the adopted Level 1 production specification, exercised by the [format v
 
 ## Design boundary
 
-The Level 1 page record contains observable documentary evidence in physical order. It records pages, zones, physical lines, visible text, typeface runs, relative indentation, exceptional placement, and materially unresolved readings. It does not ordinarily identify entries, move displaced text, join divided words, or normalize source forms.
+The Level 1 page record contains observable documentary evidence in physical order. It records pages, zones, physical lines, visible text, typeface runs, relative indentation, exceptional placement, enlarged initials spanning lines, and materially unresolved readings. It does not ordinarily identify entries, move displaced text, join divided words, or normalize source forms.
 
 Level 1 is the current design and production priority. The format should first be judged by whether a human can read, transcribe, review, and correct pages efficiently while retaining visible evidence.
 
@@ -24,7 +24,7 @@ A compiled page record has:
 - ordered page zones;
 - ordered physical lines within textual zones;
 - one or more typeface runs within each line;
-- optional relative indentation and exceptional placement;
+- optional relative indentation, exceptional placement, and enlarged-initial layout;
 - optional lightweight uncertainty attached only to materially doubtful text.
 
 The compiled shape is:
@@ -62,6 +62,8 @@ Line identifiers are stable within a page. Optional named spans are added only w
 
 The allowed trial typefaces are `roman`, `italic`, and `display`. Typeface is recorded because the pilot has shown that it can supply evidence for later structural analysis; it is not inferred from a Level 2 role.
 
+At six internal alphabetical openings in the current corpus, the first printed character is enlarged and extends beside the following physical line. The first run records that observable layout as `"layout": "large-initial"` with integer `"line_span": 2`; its one-character `text` remains part of the owning line. This annotation does not assert an entry boundary or move any text. The review crop for the owning line includes the complete glyph and may therefore overlap substantially with the next line.
+
 Text is NFC-normalized Unicode. Long `ſ`, printed diacritics, capitalization, word separation, materially anomalous spacing, punctuation, and visible line-end division marks are preserved. Exact variable compositor spacing is not measured; the scan remains the geometric record. Page furniture is retained in its own physical zone. A catchword's relationship to another page is not asserted at Level 1.
 
 ## Uncertainty
@@ -86,6 +88,7 @@ The trial and production simulation confirmed that:
 
 - complete pages can be entered and corrected without unreasonable friction;
 - physical order and exceptional placement remain auditable;
+- recurring enlarged initials remain distinguishable from ordinary capitalization without merging physical lines;
 - later structure can be expressed without duplicating source text;
 - page-oriented and logical views can be regenerated deterministically;
 - validation detects broken references, duplicate identifiers, invalid typefaces, and non-NFC text.

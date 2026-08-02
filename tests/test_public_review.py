@@ -60,6 +60,43 @@ class PublicReviewRegressionTests(unittest.TestCase):
         zones[0]["lines"][0]["runs"][1]["typeface"] = "roman"
         self.assertNotEqual(transcription_version(zones), baseline)
 
+    def test_transcription_version_tracks_large_initial_layout(self):
+        zones = [{"lines": [{
+            "id": "c1-l001",
+            "text": "AFIru.",
+            "runs": [
+                {"typeface": "roman", "text": "A"},
+                {"typeface": "roman", "text": "FIru."},
+            ],
+        }]}]
+        baseline = transcription_version(zones)
+        zones[0]["lines"][0]["runs"][0].update(
+            {"layout": "large-initial", "line_span": 2}
+        )
+        self.assertNotEqual(transcription_version(zones), baseline)
+
+    def test_large_initial_crops_contain_the_complete_two_line_glyph(self):
+        record = json.loads(
+            (ROOT / "pilot" / "human-review" / "line-geometry.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        expected = {
+            "bnf-f0018": [("column-2", "c2b-l001")],
+            "bnf-f0019": [
+                ("column-1", "c1b-l001"),
+                ("column-2", "c2b-l001"),
+            ],
+            "bnf-f0021": [("column-2", "c2b-l001")],
+            "bnf-f0025": [("column-2", "c2b-l001")],
+            "bnf-f0248": [("column-2", "c2b-l001")],
+        }
+        pages = {page["id"]: page for page in record["pages"]}
+        for page_id, lines in expected.items():
+            for column_id, line_id in lines:
+                crop = pages[page_id]["columns"][column_id]["lines"][line_id]["crop"]
+                self.assertGreaterEqual(crop[3], 158)
+
     def test_f18_issue_2_correction_history(self):
         history = json.loads(
             (ROOT / "pilot" / "human-review" / "correction-history.json").read_text(

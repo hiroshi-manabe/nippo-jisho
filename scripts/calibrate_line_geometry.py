@@ -156,6 +156,20 @@ def main() -> int:
                 expected = [line for zone_id in column["zones"] for line in zones[zone_id]["lines"]]
                 if set(line_map) != {line["id"] for line in expected}:
                     raise SystemExit(f"incomplete geometry for {page_id}/{column_id}")
+                for line_id, crop in column.get("crop_overrides", {}).items():
+                    if line_id not in line_map:
+                        raise SystemExit(
+                            f"unknown crop override for {page_id}/{column_id}/{line_id}"
+                        )
+                    if (
+                        not isinstance(crop, list)
+                        or len(crop) != 4
+                        or any(not isinstance(value, int) for value in crop)
+                    ):
+                        raise SystemExit(
+                            f"invalid crop override for {page_id}/{column_id}/{line_id}"
+                        )
+                    line_map[line_id]["crop"] = crop
                 page_output["columns"][column_id] = {
                     "box": box,
                     "visual_review": "contact_sheet_reviewed" if args.mark_reviewed else "contact_sheet_pending",
