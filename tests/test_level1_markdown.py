@@ -239,7 +239,7 @@ class Level1MarkdownTests(unittest.TestCase):
         self.assertNotIn("Ruins pensamen-*", source)
         self.assertNotIn("& prejudicial", source)
 
-    def test_f18_issue_2_scan_adjudication_is_retained(self):
+    def test_f18_human_issue_adjudications_are_retained(self):
         source = (SOURCE / "bnf-f0018.md").read_text(encoding="utf-8")
         accepted = [
             "dano a agluem",
@@ -257,13 +257,24 @@ class Level1MarkdownTests(unittest.TestCase):
             "Peſsoa mudauel",
             "Ruim cheiro",
             "Suſuqino facaina",
+            "Acuxinuo ſaxifaſamu",
+            "Axij coromo",
+            "groſseiro",
         ]
         for reading in accepted:
             self.assertIn(reading, source)
         retained = ["Ruim tradição"]
         for reading in retained:
             self.assertIn(reading, source)
-        rejected = ["Ruim iradição", "Ruim chero", "Suiugino facaina", "i. acuriû"]
+        rejected = [
+            "Ruim iradição",
+            "Ruim chero",
+            "Suiugino facaina",
+            "i. acuriû",
+            "Acuxinno",
+            "Axij coremo",
+            "groſſeiro",
+        ]
         for reading in rejected:
             self.assertNotIn(reading, source)
 

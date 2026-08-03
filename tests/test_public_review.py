@@ -122,13 +122,33 @@ class PublicReviewRegressionTests(unittest.TestCase):
             )
         )
         page = next(page for page in history["pages"] if page["id"] == "bnf-f0018")
-        self.assertEqual(page["issues_applied"], 1)
-        self.assertEqual(page["distinct_lines"], 15)
-        self.assertEqual(page["accepted_edits"], 15)
+        self.assertEqual(page["issues_applied"], 2)
+        self.assertEqual(page["distinct_lines"], 18)
+        self.assertEqual(page["accepted_edits"], 18)
         self.assertEqual(page["issues"][0]["number"], 2)
         self.assertIn("c1-l019", page["issues"][0]["lines"])
         self.assertIn("c2a-l020", page["issues"][0]["lines"])
         self.assertIn("c2b-l011", page["issues"][0]["lines"])
+        self.assertEqual(page["issues"][1]["number"], 4)
+        self.assertEqual(
+            page["issues"][1]["lines"],
+            ["c2a-l009", "c2a-l025", "c2a-l026"],
+        )
+
+    def test_f19_issue_3_correction_history(self):
+        history = json.loads(
+            (ROOT / "pilot" / "human-review" / "correction-history.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        page = next(page for page in history["pages"] if page["id"] == "bnf-f0019")
+        self.assertEqual(page["issues_applied"], 1)
+        self.assertEqual(page["distinct_lines"], 9)
+        self.assertEqual(page["accepted_edits"], 9)
+        self.assertEqual(page["issues"][0]["number"], 3)
+        self.assertIn("c1b-l005", page["issues"][0]["lines"])
+        self.assertIn("c2b-l011", page["issues"][0]["lines"])
+        self.assertIn("c2b-l021", page["issues"][0]["lines"])
 
 
 if __name__ == "__main__":

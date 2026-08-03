@@ -80,7 +80,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2a-l006` | &emsp;*& nociua.* |  |
 | `c2a-l007` | Acuxet. i. Varui sǒ. *Ruim noua.* |  |
 | `c2a-l008` | Acuxin. Axij cocoro. *Odio, & malque-* |  |
-| `c2a-l009` | &emsp;*rença ¶* Acuxinno ſaxifaſamu. *Ter* |  |
+| `c2a-l009` | &emsp;*rença ¶* Acuxinuo ſaxifaſamu. *Ter* |  |
 | `c2a-l010` | &emsp;*mà vontade, & odio. ¶* Acuxinuo |  |
 | `c2a-l011` | &emsp;vocoſu. *Ter odio, & raiua contra alguem.* |  |
 | `c2a-l012` | Acuxo. Axij tocoro. *Lugar ruim. ¶ Itẽ,* |  |
@@ -96,8 +96,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2a-l022` | &emsp;ru. *Cair no Inferno.* |  |
 | `c2a-l023` | Acuye. Axij qegare. *çujdade, l, im-* |  |
 | `c2a-l024` | &emsp;*mumdicia.* |  |
-| `c2a-l025` | Acuye. Axij coremo. *Habito, ou veſti-* |  |
-| `c2a-l026` | &emsp;*do çujo, & groſſeiro.* |  |
+| `c2a-l025` | Acuye. Axij coromo. *Habito, ou veſti-* |  |
+| `c2a-l026` | &emsp;*do çujo, & groſseiro.* |  |
 | `c2a-l027` | Acuyen. Acuni chinamu. *Ruim ventu-* |  |
 | `c2a-l028` | &emsp;*ra, ou fado do homem cauſado dos males* |  |
 | `c2a-l029` | &emsp;*da vida, que teue antes de nacer ſegundo os* |  |
