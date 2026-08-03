@@ -385,6 +385,29 @@ function zonesFor(page, unit) {
   return page.zones.filter(zone => zone.kind !== 'column');
 }
 
+function columnSequence() {
+  return state.corpus.pages.flatMap(page => ['column-1', 'column-2']
+    .filter(unit => page.processed && zonesFor(page, unit).some(zone => zone.kind === 'column' && zone.lines.length))
+    .map(unit => ({leaf: page.leaf, unit})));
+}
+
+function columnNavigationHTML(extraClass = '') {
+  const sequence = columnSequence();
+  const index = sequence.findIndex(item => item.leaf === state.currentPage.leaf && item.unit === state.unit);
+  if (index < 0) return '';
+  const previous = sequence[index - 1];
+  const next = sequence[index + 1];
+  const target = item => item ? `data-column-leaf="${item.leaf}" data-column-unit="${item.unit}"` : 'disabled';
+  return `<nav class="column-nav ${extraClass}" aria-label="Column review navigation"><button type="button" ${target(previous)}>← Previous column</button><span>Column ${index + 1} of ${sequence.length}</span><button type="button" ${target(next)}>Next column →</button></nav>`;
+}
+
+function updateColumnNavigation() {
+  const top = $('#column-nav-top');
+  const visible = state.currentPage?.processed && ['column-1', 'column-2'].includes(state.unit);
+  top.classList.toggle('hidden', !visible);
+  top.innerHTML = visible ? columnNavigationHTML('column-nav-inline').replace(/^<nav[^>]*>|<\/nav>$/g, '') : '';
+}
+
 function continuousHTML(page, unit) {
   if (!page.processed) return '<div class="empty"><div><strong>Not yet processed</strong><p>The source scan is available now; transcription will appear here when produced.</p></div></div>';
   return zonesFor(page, unit).map(zone => `<section><h3>${escapeHTML(zone.label)}</h3>${zone.lines.map(line => `<div class="continuous-line indent-${line.indent}"><code class="line-id">${escapeHTML(line.id)}</code><span>${renderRuns(line.runs)}</span></div>`).join('')}</section>`).join('');
@@ -402,10 +425,11 @@ function renderPageContent() {
   const page = state.currentPage;
   if (page.processed && ['column-1', 'column-2'].includes(state.unit)) {
     const lines = page.zones.filter(item => item.kind === 'column' && (item.id === state.unit || item.id.startsWith(`${state.unit}-`))).flatMap(item => item.lines);
-    $('#page-content').innerHTML = `<div class="line-list">${lineImageStatus(page)}${lines.map(line => lineHTML(page, line)).join('')}</div>`;
+    $('#page-content').innerHTML = `<div class="line-list">${lineImageStatus(page)}${lines.map(line => lineHTML(page, line)).join('')}${columnNavigationHTML('column-nav-bottom')}</div>`;
   } else {
     $('#page-content').innerHTML = `<div class="page-comparison">${scanPane(page)}<section class="text-pane"><div class="pane-toolbar"><strong>${page.processed ? 'Level 1 transcription' : 'Transcription'}</strong>${page.source ? `<a class="push" href="${page.source}" target="_blank" rel="noreferrer">Source Markdown</a>` : ''}</div><div class="continuous-text">${continuousHTML(page, state.unit)}</div></section></div>`;
   }
+  updateColumnNavigation();
   refreshPageImageUI(page);
 }
 
@@ -499,6 +523,8 @@ document.addEventListener('click', event => {
   if (event.target.closest('[data-action="retry-hd"]')) return queueHD(state.currentPage, false);
   const card = event.target.closest('.page-card'); if (card) return showPage(Number(card.dataset.leaf));
   const tab = event.target.closest('#view-tabs button'); if (tab) return showPage(state.currentPage.leaf, tab.dataset.unit);
+  const columnButton = event.target.closest('[data-column-leaf][data-column-unit]');
+  if (columnButton) { showPage(Number(columnButton.dataset.columnLeaf), columnButton.dataset.columnUnit); window.scrollTo(0, 0); return; }
   const row = event.target.closest('.line-row');
   if (row) {
     if (event.target.closest('.context-toggle,.line-crop')) { const button = row.querySelector('.context-toggle'); const expanded = button.getAttribute('aria-expanded') !== 'true'; button.setAttribute('aria-expanded', String(expanded)); button.textContent = expanded ? 'Hide context' : 'Show context'; setCrop(row, expanded); return; }

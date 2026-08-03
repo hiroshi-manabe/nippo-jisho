@@ -26,6 +26,8 @@ The page view retains full-page and column context, but the physical line is the
 
 The sticky page-navigation bar includes an explicit **← All pages** button. The project title also returns to the overview, but it is not the sole or implicit way out of an individual page.
 
+Column views also form one continuous review sequence over the transcribed corpus: a page's column 1 is followed by its column 2, then by column 1 of the next transcribed page. **Previous column** and **Next column** controls appear above the line list and repeat after its final line, where the reviewer naturally decides whether to continue. Moving between columns opens the target at its beginning rather than retaining the previous column's scroll position. Full-page, furniture, and unprocessed views do not show these controls; the ordinary page arrows remain independent.
+
 Unchanged rows remain compact. Clicking the transcription opens an editor containing:
 
 - the editable transcription;

@@ -26,6 +26,17 @@ class PublicReviewRegressionTests(unittest.TestCase):
         self.assertIn("← All pages", document)
         self.assertIn("$('#back-to-overview').addEventListener('click', () => showOverview())", app)
 
+    def test_column_views_have_continuous_top_and_bottom_navigation(self):
+        app = (ROOT / "site" / "app.js").read_text(encoding="utf-8")
+        document = (ROOT / "site" / "index.html").read_text(encoding="utf-8")
+        self.assertIn('id="column-nav-top"', document)
+        self.assertIn("function columnSequence()", app)
+        self.assertIn("← Previous column", app)
+        self.assertIn("Next column →", app)
+        self.assertIn("columnNavigationHTML('column-nav-bottom')", app)
+        self.assertIn("[data-column-leaf][data-column-unit]", app)
+        self.assertIn("window.scrollTo(0, 0)", app)
+
     def test_f18_acuxocu_crop_is_centered_and_has_overlap(self):
         record = json.loads(
             (ROOT / "pilot" / "human-review" / "line-geometry.json").read_text(
