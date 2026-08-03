@@ -106,6 +106,7 @@ class PublicReviewRegressionTests(unittest.TestCase):
             "bnf-f0055": [("column-1", "c1b-l001")],
             "bnf-f0058": [("column-2", "c2b-l001")],
             "bnf-f0062": [("column-2", "c2b-l001")],
+            "bnf-f0068": [("column-2", "c2b-l001")],
             "bnf-f0248": [("column-2", "c2b-l001")],
         }
         pages = {page["id"]: page for page in record["pages"]}
