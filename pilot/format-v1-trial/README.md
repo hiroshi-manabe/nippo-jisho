@@ -2,7 +2,7 @@
 
 ## Result
 
-The corpus represents 69 complete pages in the adopted compact human-readable Level 1 authoring format. The six-page, 526-line adoption baseline has been extended by 63 sequential production pages, bringing the compiler-validated total to 6,678 physical lines. Seven structural assertions and eight selected reading sequences remain as a secondary compatibility check, not the current design focus.
+The corpus represents 79 complete pages in the adopted compact human-readable Level 1 authoring format. The six-page, 526-line adoption baseline has been extended by 73 sequential production pages, bringing the compiler-validated total to 7,670 physical lines. Seven structural assertions and eight selected reading sequences remain as a secondary compatibility check, not the current design focus.
 
 Format version 1 was adopted after the [timed f249–f250 production simulation](../production-simulation/f0249-f0250.md) required no new syntax. Compact Markdown is the authoring form; JSON is generated for validation and interchange. A genuinely unresolved reading has not yet exercised uncertainty notation, which will be added only in a compatible evidence-driven revision.
 
@@ -22,12 +22,13 @@ Format version 1 was adopted after the [timed f249–f250 production simulation]
 | `bnf-f0048`–`bnf-f0057` | Complete dictionary text and textual furniture | Ten-page normal bounded batch, B vocabulary, scan-authoritative NINJAL diagnostics, manually reviewed line geometry and enlarged initials |
 | `bnf-f0058`–`bnf-f0067` | Complete dictionary text and textual furniture | Ten-page normal bounded batch, B vocabulary through `B ANTES DO V.`, scan-authoritative NINJAL diagnostics, manually reviewed line geometry and enlarged initials |
 | `bnf-f0068`–`bnf-f0077` | Complete dictionary text and textual furniture | Ten-page normal bounded batch, transition from B into C, scan-authoritative NINJAL diagnostics, manually reviewed line geometry and decorated C |
+| `bnf-f0078`–`bnf-f0087` | Complete dictionary text and textual furniture | Ten-page normal bounded batch, C vocabulary, scan-authoritative NINJAL diagnostics, manually reviewed line geometry |
 | `bnf-f0248` | Complete dictionary text and textual furniture | Caron/circumflex contrast, displaced `(grande.`, identical running and internal headings, `Gǔcon`, catchword |
 | `bnf-f0249` | Complete dictionary text and textual furniture | Fresh-page production timing, `f248` catchword continuation, printed page number and signature, displaced `(o homem.` |
 | `bnf-f0250` | Complete dictionary text and textual furniture | Consecutive-page production timing, catchword continuation and confirmation against `f251`, contextual review yield |
 | `bnf-f0643` | Complete dictionary text and textual furniture | Circumflex, caron, and grave accent examples; ownership stamp, printed page number, terminus, closing ornament |
 
-The 69 complete page records contain 6,678 physical lines. Exact source-image SHA-256 values are stored in each Level 1 page record.
+The 79 complete page records contain 7,670 physical lines. Exact source-image SHA-256 values are stored in each Level 1 page record.
 
 ## Files
 
@@ -40,7 +41,7 @@ The 69 complete page records contain 6,678 physical lines. Exact source-image SH
 - [`../../docs/level1-markdown-candidate.md`](../../docs/level1-markdown-candidate.md) documents the compact version 1 authoring syntax.
 - [`../../scripts/compile_level1_markdown.py`](../../scripts/compile_level1_markdown.py) validates and compiles the human-readable sources.
 - [`../../scripts/render_format_trial.py`](../../scripts/render_format_trial.py) validates the records and regenerates the views.
-- [`../human-review/README.md`](../human-review/README.md) documents the dictionary-wide generated review shell and the line-by-line checkpoint for all 69 Level 1 pages.
+- [`../human-review/README.md`](../human-review/README.md) documents the dictionary-wide generated review shell and the line-by-line checkpoint for all 79 Level 1 pages.
 
 Run from the repository root:
 
@@ -77,6 +78,8 @@ Pages `f48`–`f57` use the same bounded procedure and add 978 physical lines in
 Pages `f58`–`f67` add 983 physical lines and represent all 420 NINJAL rows assigned to those leaves as a post-draft coverage diagnostic. The batch preserves the internal transitions to `B ANTES DO O.` and `B ANTES DO V.`, the anomalous printed `A ANTES DO V.` left running header on f64, and several 48-line columns. Visual crop review exposed and corrected a displaced f62 `BV` range before geometry was approved.
 
 Pages `f68`–`f77` add 979 physical lines and represent all 358 NINJAL rows assigned to those leaves as a post-draft coverage diagnostic. The batch preserves the two-line transition into the C vocabulary on f68, its five-line decorated initial, and both ordinary and irregular page furniture. All twenty column contact sheets were inspected before the geometry was marked reviewed.
+
+Pages `f78`–`f87` add 992 physical lines and represent all 439 NINJAL rows assigned to those leaves as a post-draft coverage diagnostic. The batch continues the C vocabulary under the normal bounded procedure. All twenty column contact sheets were inspected before the geometry was marked reviewed; the pages remain review-ready drafts pending independent human correction.
 
 The [f16 production report](../production-review/bnf-f0016.md) replaces further anchored rereading with an independent second reading and explicit proposal adjudication. Its two pre-handoff proposals each caught a real local feature but neither complete proposed string survived human review: the space in `Sagui yuqu` and the marked `Sõ-` were valid, while `yiqu` and following `fir` were not. The first human checkpoint and renewed audit found seven missed corrections; completed column review and a repetition sweep found twenty-two more. These include right-edge evidence, mixed `ſs`, historical Portuguese spelling and spacing, and Japanese-context errors. Two audit proposals, `A=` and `cla=`, were also unnecessary under the provisional uniform `-` convention. The result shows that proposals must be recorded atomically and that independent comparison alone did not meet the quality target.
 
