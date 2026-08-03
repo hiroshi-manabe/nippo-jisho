@@ -115,7 +115,7 @@ The working rule is: preserve what a later layer may need, but postpone deciding
 
 ## Enlarged initials across physical lines
 
-Internal alphabetical sections regularly begin with an enlarged first letter that extends beside following physical lines. The 49-page corpus contains nineteen confirmed examples: `ADA` on `f18`; `AFIru` and `AGAme` on `f19`; `AI` on `f21`; `AMA` on `f25`; `AN` on `f29`; `APPare` and `AQE` on `f31`; `ARA` on `f33`; `ASA` on `f36`; `ATA` on `f38`; `AVA` on `f41`; `AXE` on `f43`; `AYA` on `f45`; `AZA` on `f46`; the decorated `BA` on `f47`; `BE` on `f53`; `BI` on `f55`; and `GV` on `f248`. This is observable recurring typography, not inferred entry structure.
+Internal alphabetical sections regularly begin with an enlarged first letter that extends beside following physical lines. The 59-page corpus contains twenty-one confirmed examples: `ADA` on `f18`; `AFIru` and `AGAme` on `f19`; `AI` on `f21`; `AMA` on `f25`; `AN` on `f29`; `APPare` and `AQE` on `f31`; `ARA` on `f33`; `ASA` on `f36`; `ATA` on `f38`; `AVA` on `f41`; `AXE` on `f43`; `AYA` on `f45`; `AZA` on `f46`; the decorated `BA` on `f47`; `BE` on `f53`; `BI` on `f55`; `BO` on `f58`; `BV` on `f62`; and `GV` on `f248`. This is observable recurring typography, not inferred entry structure.
 
 The annotation remains on the line to which the character belongs textually:
 

@@ -2,7 +2,7 @@
 
 ## Result
 
-The corpus represents 49 complete pages in the adopted compact human-readable Level 1 authoring format. The six-page, 526-line adoption baseline has been extended by 43 sequential production pages, bringing the compiler-validated total to 4,716 physical lines. Seven structural assertions and eight selected reading sequences remain as a secondary compatibility check, not the current design focus.
+The corpus represents 59 complete pages in the adopted compact human-readable Level 1 authoring format. The six-page, 526-line adoption baseline has been extended by 53 sequential production pages, bringing the compiler-validated total to 5,699 physical lines. Seven structural assertions and eight selected reading sequences remain as a secondary compatibility check, not the current design focus.
 
 Format version 1 was adopted after the [timed f249–f250 production simulation](../production-simulation/f0249-f0250.md) required no new syntax. Compact Markdown is the authoring form; JSON is generated for validation and interchange. A genuinely unresolved reading has not yet exercised uncertainty notation, which will be added only in a compatible evidence-driven revision.
 
@@ -20,12 +20,13 @@ Format version 1 was adopted after the [timed f249–f250 production simulation]
 | `bnf-f0028`–`bnf-f0037` | Complete dictionary text and textual furniture | Ten-page normal bounded batch, bilingual and glyph passes, later NINJAL coverage diagnostics, manually reviewed section transitions and complete-glyph crops |
 | `bnf-f0038`–`bnf-f0047` | Complete dictionary text and textual furniture | Ten-page normal bounded batch, scan-authoritative NINJAL diagnostics, transition from A to B, manually reviewed line geometry and enlarged initials |
 | `bnf-f0048`–`bnf-f0057` | Complete dictionary text and textual furniture | Ten-page normal bounded batch, B vocabulary, scan-authoritative NINJAL diagnostics, manually reviewed line geometry and enlarged initials |
+| `bnf-f0058`–`bnf-f0067` | Complete dictionary text and textual furniture | Ten-page normal bounded batch, B vocabulary through `B ANTES DO V.`, scan-authoritative NINJAL diagnostics, manually reviewed line geometry and enlarged initials |
 | `bnf-f0248` | Complete dictionary text and textual furniture | Caron/circumflex contrast, displaced `(grande.`, identical running and internal headings, `Gǔcon`, catchword |
 | `bnf-f0249` | Complete dictionary text and textual furniture | Fresh-page production timing, `f248` catchword continuation, printed page number and signature, displaced `(o homem.` |
 | `bnf-f0250` | Complete dictionary text and textual furniture | Consecutive-page production timing, catchword continuation and confirmation against `f251`, contextual review yield |
 | `bnf-f0643` | Complete dictionary text and textual furniture | Circumflex, caron, and grave accent examples; ownership stamp, printed page number, terminus, closing ornament |
 
-The 49 complete page records contain 4,716 physical lines. Exact source-image SHA-256 values are stored in each Level 1 page record.
+The 59 complete page records contain 5,699 physical lines. Exact source-image SHA-256 values are stored in each Level 1 page record.
 
 ## Files
 
@@ -38,7 +39,7 @@ The 49 complete page records contain 4,716 physical lines. Exact source-image SH
 - [`../../docs/level1-markdown-candidate.md`](../../docs/level1-markdown-candidate.md) documents the compact version 1 authoring syntax.
 - [`../../scripts/compile_level1_markdown.py`](../../scripts/compile_level1_markdown.py) validates and compiles the human-readable sources.
 - [`../../scripts/render_format_trial.py`](../../scripts/render_format_trial.py) validates the records and regenerates the views.
-- [`../human-review/README.md`](../human-review/README.md) documents the dictionary-wide generated review shell and the line-by-line checkpoint for all 49 Level 1 pages.
+- [`../human-review/README.md`](../human-review/README.md) documents the dictionary-wide generated review shell and the line-by-line checkpoint for all 59 Level 1 pages.
 
 Run from the repository root:
 
@@ -72,6 +73,8 @@ Pages `f38`–`f47` continue the same bounded procedure. They preserve 975 physi
 
 Pages `f48`–`f57` use the same bounded procedure and add 978 physical lines in the B vocabulary. NINJAL supplied 441 source-page rows only as a post-draft coverage diagnostic. The batch includes internal transitions to `B ANTES DO E.` and `B ANTES DO I.`, with complete-glyph crop overrides for their enlarged initials. All line geometry was inspected, and an initially short f55 pre-heading range was corrected before review status was recorded.
 
+Pages `f58`–`f67` add 983 physical lines and represent all 420 NINJAL rows assigned to those leaves as a post-draft coverage diagnostic. The batch preserves the internal transitions to `B ANTES DO O.` and `B ANTES DO V.`, the anomalous printed `A ANTES DO V.` left running header on f64, and several 48-line columns. Visual crop review exposed and corrected a displaced f62 `BV` range before geometry was approved.
+
 The [f16 production report](../production-review/bnf-f0016.md) replaces further anchored rereading with an independent second reading and explicit proposal adjudication. Its two pre-handoff proposals each caught a real local feature but neither complete proposed string survived human review: the space in `Sagui yuqu` and the marked `Sõ-` were valid, while `yiqu` and following `fir` were not. The first human checkpoint and renewed audit found seven missed corrections; completed column review and a repetition sweep found twenty-two more. These include right-edge evidence, mixed `ſs`, historical Portuguese spelling and spacing, and Japanese-context errors. Two audit proposals, `A=` and `cla=`, were also unnecessary under the provisional uniform `-` convention. The result shows that proposals must be recorded atomically and that independent comparison alone did not meet the quality target.
 
 The older version-0 files remain frozen and were not rewritten. They were useful as error-history and coverage prompts, not as text to convert mechanically.
@@ -82,7 +85,7 @@ NINJAL version 202510 expects 16 source-order records on `f13` (`001a01`–`001b
 
 The sequential pages add all 37 expected records on `f15` (`002a01`–`002b20`), all 36 on `f16` (`002c01`–`002d19`), and all 40 on `f17` (`003a01`–`003b23`). The production simulation adds all 43 expected records on `f249` (`123a01`–`123b20`) and all 43 on `f250` (`123c01`–`123d20`). NINJAL was opened only after the independent visual checkpoint. It exposed suspicious forms such as draft `Gunauaqi`, but the scan independently decided every correction and disagreement, including preservation of printed `Guxer` where the headword row gives `Guxet`.
 
-The f28–f37 batch represents all 378 NINJAL rows assigned to those Gallica leaves, f38–f47 represents all 335 rows assigned to the next ten leaves, and f48–f57 represents all 441 rows assigned to the following ten leaves. These are coverage results, not claims that the normalized row strings are diplomatic transcriptions. In particular, NINJAL's `Asa-` strings prompted a coverage check while the Gallica scan adjudicated the printed medial long `ſ` throughout f36–f38.
+The f28–f37 batch represents all 378 NINJAL rows assigned to those Gallica leaves, f38–f47 represents all 335 rows assigned to the next ten leaves, f48–f57 represents 441 rows, and f58–f67 represents 420 rows. These are coverage results, not claims that the normalized row strings are diplomatic transcriptions. In particular, NINJAL's `Asa-` strings prompted a coverage check while the Gallica scan adjudicated the printed medial long `ſ` throughout f36–f38.
 
 This agreement concerns coverage, not diplomatic identity. The Level 1 record retains differences such as source `Abarabone` without an immediately following period and lowercase `aburamono`, while the external headword data supplies normalized strings. `Abunaſa` and `Abunǒ` are also preserved as visible subordinate forms even though they are not separate NINJAL records.
 
@@ -96,8 +99,8 @@ The external page displayed neighboring text as unavoidable context. No neighbor
 
 ### Successful parts
 
-- All 49 complete pages can be read directly as Markdown while compiling back to the complete 4,716-line machine representation.
-- The 49 authoring files occupy 6,365 lines and 261,967 bytes, compared with 62,707 lines and 1,409,424 bytes for the generated pretty-printed JSON.
+- All 59 complete pages can be read directly as Markdown while compiling back to the complete 5,699-line machine representation.
+- The 59 authoring files occupy 7,674 lines and 314,977 bytes, compared with 75,141 lines and 1,687,854 bytes for the generated pretty-printed JSON.
 - Ordinary physical lines require only a stable ID and their visible text; Markdown emphasis records typeface without explicit run objects.
 - Only `(grande.` and `(o homem.` need named sub-line spans in the current sample, so exceptional machinery remains exceptional.
 - Stable physical-line identifiers provide adequate targets for later structure.
@@ -108,7 +111,7 @@ The external page displayed neighboring text as unavoidable context. No neighbor
 - Catchwords remain visible source strings while their page relationships and exclusion from lexical views are structural assertions.
 - Provisionally, the printed line-division sign is encoded uniformly as `-` in roman and italic type; the equals-like appearance seen in italic text is not promoted to a separate character unless wider sampling supplies a functional or non-italic counterexample.
 - Occurrence-level Unicode preserves `ǒ`, `ô`, `ǔ`, and `ù` without global replacement.
-- The compatible `initial=N` annotation preserves nineteen recurring enlarged section initials without joining the following physical line or burdening ordinary lines with extra markup; the decorated `B` on f47 spans four lines while ordinary enlarged initials span two.
+- The compatible `initial=N` annotation preserves twenty-one recurring enlarged section initials without joining the following physical line or burdening ordinary lines with extra markup; the decorated `B` on f47 spans four lines while ordinary enlarged initials span two.
 
 ### Costs and limitations
 
