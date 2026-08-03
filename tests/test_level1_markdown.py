@@ -252,6 +252,13 @@ class Level1MarkdownTests(unittest.TestCase):
         for reading in rejected:
             self.assertNotIn(reading, source)
 
+    def test_f19_rejected_proposals_reopened_by_glyph_comparison_are_retained(self):
+        source = (SOURCE / "bnf-f0019.md").read_text(encoding="utf-8")
+        self.assertEqual(source.count("couſa de paruoice"), 2)
+        self.assertIn("mais do cus-*", source)
+        self.assertNotIn("paruoiçe", source)
+        self.assertNotIn("mais do cuſ-*", source)
+
     def test_sequential_30_60_batch_readings_are_retained(self):
         expected = {
             "bnf-f0023.md": ("dante mão", "Morax, ſu.", "adminiſtrarem"),

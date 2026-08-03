@@ -69,7 +69,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1b-l002` | Afǒ. i. Vtçuqe. *Paruo, tollo.* |  |
 | `c1b-l003` | &emsp;*¶ Item, paruice. ¶* Afǒuo yǔ. *Dizer* |  |
 | `c1b-l004` | &emsp;*paruoices.* |  |
-| `c1b-l005` | Afǒguena. *Paruo, ou couſa de paruoiçe* |  |
+| `c1b-l005` | Afǒguena. *Paruo, ou couſa de paruoice* |  |
 
 ## Column 2 running header
 
@@ -82,7 +82,7 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c2a-l001` | Afǒgueni. *Adu.* |  |
-| `c2a-l002` | Afǒna. *Homem paruo, ou couſa de paruoiçe.* |  |
+| `c2a-l002` | Afǒna. *Homem paruo, ou couſa de paruoice.* |  |
 | `c2a-l003` | Afǒni. *Adu.* Afǒnamono. *Paruo.* |  |
 | `c2a-l004` | Aforaxij. *Idem.* |  |
 | `c2a-l005` | Aforaxet. *Algozes do inferno.* |  |
@@ -122,7 +122,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2b-l018` | &emsp;chiga, &c. Agaru. *Melhorarſe, l,* |  |
 | `c2b-l019` | &emsp;*aproueitar no eſcreuer, prègar, tanger ta-* |  |
 | `c2b-l020` | &emsp;*baquinho, nas letras, linguas, &c. ¶* Sa- |  |
-| `c2b-l021` | &emsp;qega agaru. *Ir Bebẽdo vinho, mais do cuſ-* |  |
+| `c2b-l021` | &emsp;qega agaru. *Ir Bebẽdo vinho, mais do cus-* |  |
 | `c2b-l022` | &emsp;*tumado. ¶* Iroga agaru. *Melhorarſe* |  |
 | `c2b-l023` | &emsp;*a cor da couſa que ſe tinje. ¶* Fune yo- |  |
 | `c2b-l024` | &emsp;ri agaru. *Deſembarcarſe. ¶* Furo, |  |
