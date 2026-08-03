@@ -1,0 +1,129 @@
+# Page view: bnf-f0126
+
+Source: https://gallica.bnf.fr/ark:/12148/bpt6k852354j/f126.item
+
+Scope: `full_dictionary_text_and_furniture`
+
+## Column 1 running header
+
+| Physical line | Main position | Far right |
+| --- | --- | --- |
+| `h1-l001` | **C ANTES DO O.** |  |
+
+## Column 1
+
+| Physical line | Main position | Far right |
+| --- | --- | --- |
+| `c1-l001` | Con in. *Ajuntamento de homem com molher.* |  |
+| `c1-l002` | Cǒnicu. Yoi xiximura. *Boa carne.* |  |
+| `c1-l003` | Conicu. Toranonicu. *Carne de tigre.* |  |
+| `c1-l004` | Conida, l, Conda. *Caualo de albarda, ou de* |  |
+| `c1-l005` | &emsp;*carga.* |  |
+| `c1-l006` | Cǒnin. Tagayeſu fito. *Laurador, ou homem* |  |
+| `c1-l007` | &emsp;*que cultiua os campos, ou varzeas.* |  |
+| `c1-l008` | Cǒnin. Cudaru fito. *O que ſe rende, & pe-* |  |
+| `c1-l009` | &emsp;*de miſericordia.* |  |
+| `c1-l010` | Coniua. *Pateo, ou niua pequena.* |  |
+| `c1-l011` | Conje. Imano yo. *Eſte mundo. ¶ Vt,* Cǒ- |  |
+| `c1-l012` | &emsp;je, goxe. *Eſte mundo, & o outro.* |  |
+| `c1-l013` | Conji, zuru, ita. *Miſturar hũa couſa cõ ou-* |  |
+| `c1-l014` | &emsp;*tra. ¶* Iiyoni conjenu fito. *Homem* |  |
+| `c1-l015` | &emsp;*aſſinalado, ou que não he dos ordinarios.* |  |
+| `c1-l016` | Conjichô. *Nome de hum paſſaro de que ſe fa-* |  |
+| `c1-l017` | &emsp;*la no Buppô.* |  |
+| `c1-l018` | Conjiqi. Coganeno iro. *Cor de ouro.* |  |
+| `c1-l019` | Conjǒ. *Natural de cada hum. Vt,* Conjǒ- |  |
+| `c1-l020` | &emsp;no varui mono. *Homem de ruim nature-* |  |
+| `c1-l021` | &emsp;*za, ou condição.* |  |
+| `c1-l022` | Conjǒ. *Tinta azul eſcura de pintar.* |  |
+| `c1-l023` | Conjǒ. *Eſte mundo, ou eſta vida preſente.* |  |
+| `c1-l024` | Conmiǒnichi. *Oje, ou amenhãa.* |  |
+| `c1-l025` | Connen. Cotoxi. *Eſte anno.* |  |
+| `c1-l026` | Connhacu. *Hũa certa raiz groſſa que ſe come.* |  |
+| `c1-l027` | Connichi. qiǒ. *Oje.* |  |
+| `c1-l028` | Connichigiù. i. Connichino vchi. *Den-* |  |
+| `c1-l029` | &emsp;*tro de oje.* |  |
+| `c1-l030` | Connit. i. Connichi. *Oje.* |  |
+| `c1-l031` | Cônô. *Habito, ou experiencia.* |  |
+| `c1-l032` | Cono. *Pron. Eſte, eſta, &c.* |  |
+| `c1-l033` | Cono aida. *Adu. Os dias paſſados.* |  |
+| `c1-l034` | Conobun, l, cono bunni. *Deſta maneira,* |  |
+| `c1-l035` | &emsp;*ou aſſi.* |  |
+| `c1-l036` | Conocami. *Irmão mais velho.* |  |
+| `c1-l037` | Conodo. *Eſte mundo.* |  |
+| `c1-l038` | Conofa. *Folhas de aruore.* |  |
+| `c1-l039` | Conofa gayeri. Tacano tchiyǒ. *Certo mo-* |  |
+| `c1-l040` | &emsp;*do de voar do falcão quando cai pera tomar* |  |
+| `c1-l041` | &emsp;*algum paſſaro. ¶ Item, Tomaſe por hum* |  |
+| `c1-l042` | &emsp;*certo modo de eſgrimir, ou cortar com nagui-* |  |
+| `c1-l043` | &emsp;*nata. Vt,* Conofa gayerito yŭ teuo da- |  |
+| `c1-l044` | &emsp;ſu. *Vai de hum talho, ou tempo que ſe* |  |
+| `c1-l045` | &emsp;*chama, Conofagayeri.* |  |
+| `c1-l046` | Conomama. *Adu. Aſſi, ou deſta maneira.* |  |
+| `c1-l047` | Conomano tçuqi. *Lũa que ſe vê por entre os* |  |
+| `c1-l048` | &emsp;*ramos das aruores.* |  |
+
+## Column 2 running header
+
+| Physical line | Main position | Far right |
+| --- | --- | --- |
+| `h2-l001` | **C ANTES DO O.** |  |
+
+## Column 2
+
+| Physical line | Main position | Far right |
+| --- | --- | --- |
+| `c2-l001` | Conomaxij. *Couſa deſejada.* |  |
+| `c2-l002` | Conomaxù. *Adu. Com deſejo, ou apetito-* |  |
+| `c2-l003` | &emsp;*ſamente.* |  |
+| `c2-l004` | Conome. P. Qinomedachi. *Gomes,* |  |
+| `c2-l005` | &emsp;*ou olhinhos que brotão da aruore.* |  |
+| `c2-l006` | Conomi. *Fruita.* |  |
+| `c2-l007` | Conomi. *Deſejo.* |  |
+| `c2-l008` | Conomi, u, ôda. *Deſejar.* |  |
+| `c2-l009` | Conomigonomi. *Deſejos varios de cada hũ.* |  |
+| `c2-l010` | &emsp;*Vt,* Conomigomini toru. *Tomar cada hũ* |  |
+| `c2-l011` | &emsp;*conſerua a ſeu deſejo.* |  |
+| `c2-l012` | Conomo canomo. P. i. Cococaxico. *De-* |  |
+| `c2-l013` | &emsp;*cá pera lá, ou aqui, & acolá.* |  |
+| `c2-l014` | Cǒnomono. *Rabão ſalgado que ſe faz de cõ-* |  |
+| `c2-l015` | &emsp;*ſerua em Iapão.* |  |
+| `c2-l016` | Cǒnomono. *Forte, & valeroſo. Vt,* Nip- |  |
+| `c2-l017` | &emsp;pon ichino cǒnomonoua vare yori fo- |  |
+| `c2-l018` | &emsp;cani nai. *Não ha em Iapão outro mais eſ-* |  |
+| `c2-l019` | &emsp;*forçado que eu.* |  |
+| `c2-l020` | Conomoto. *Pé da aruore.* |  |
+| `c2-l021` | Conori. *Nome de certa eſpecie de falcão.* |  |
+| `c2-l022` | &emsp;*¶ Item, Hum grude que fazem de arroz. X.* |  |
+| `c2-l023` | Côno ximoburi. *Penas de hum certo paſſaro* |  |
+| `c2-l024` | &emsp;*como grou pera frechas.* |  |
+| `c2-l025` | Conoyǒna. *Couſa ſemelhante, ou tal.* |  |
+| `c2-l026` | Conoyǒni. *Adu. Aſſi, ou deſta maneira.* |  |
+| `c2-l027` | Conpacu. Tamaxij tamaxij. *Alma ſeſitiua.* |  |
+| `c2-l028` | Conqi. *Sujeito, ou compreição. Vt,* Cõ- |  |
+| `c2-l029` | &emsp;qino tçuyoi fito. *Homẽ de forte cõpreição.* |  |
+| `c2-l030` | Conqi. Nengoroni inoru. *O pedir, ou de-* |  |
+| `c2-l031` | &emsp;*ſejar muito, ou fazer deprecações pollas couſas,* |  |
+| `c2-l032` | &emsp;*ou bẽs deſte mundo.* |  |
+| `c2-l033` | Conqiù. Tçucare, uru. *Grande canſaço.* |  |
+| `c2-l034` | Conrai. Curabire qitaru. *Vir canſado. Vt,* |  |
+| `c2-l035` | &emsp;Qirai qippan, conrai tamen. *Sentindo fome* |  |
+| `c2-l036` | &emsp;*como, ſentindo me canſado, durmo.* |  |
+| `c2-l037` | Conran. Midare majuaru. *Miſtura ſem ſe* |  |
+| `c2-l038` | &emsp;*diuiſarem hũas couſas das outras.* |  |
+| `c2-l039` | Conriôno guio i. i. Vǒno gotucu. *Certo* |  |
+| `c2-l040` | &emsp;*ueſtido de Rei.* |  |
+| `c2-l041` | Conriǔ. Tate, uru. *Edificar. ¶* Dǒ- |  |
+| `c2-l042` | &emsp;tǒuo conriǔ ſuru. *Edificar templos, & torres.* |  |
+| `c2-l043` | Consat. Nengorono fuda. *Carta de beneuo-* |  |
+| `c2-l044` | &emsp;*lencia, ou fauores.* |  |
+| `c2-l045` | Consui. Cuiabire nemuru. *Dormir de can-* |  |
+| `c2-l046` | &emsp;*ſado.* |  |
+| `c2-l047` | Contai. Ne, fozo. i. *Raiz, & grelo, ou* |  |
+| `c2-l048` | &emsp;*cana da erua.* |  |
+
+## Catchword
+
+| Physical line | Main position | Far right |
+| --- | --- | --- |
+| `cw-l001` | **Côtei** |  |
