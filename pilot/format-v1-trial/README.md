@@ -2,7 +2,7 @@
 
 ## Result
 
-The corpus represents 79 complete pages in the adopted compact human-readable Level 1 authoring format. The six-page, 526-line adoption baseline has been extended by 73 sequential production pages, bringing the compiler-validated total to 7,670 physical lines. Seven structural assertions and eight selected reading sequences remain as a secondary compatibility check, not the current design focus.
+The corpus represents 79 complete pages in the adopted compact human-readable Level 1 authoring format. The six-page, 526-line adoption baseline has been extended by 73 sequential production pages, bringing the compiler-validated total to 7,666 physical lines. Seven structural assertions and eight selected reading sequences remain as a secondary compatibility check, not the current design focus.
 
 Format version 1 was adopted after the [timed f249–f250 production simulation](../production-simulation/f0249-f0250.md) required no new syntax. Compact Markdown is the authoring form; JSON is generated for validation and interchange. A genuinely unresolved reading has not yet exercised uncertainty notation, which will be added only in a compatible evidence-driven revision.
 
@@ -28,7 +28,7 @@ Format version 1 was adopted after the [timed f249–f250 production simulation]
 | `bnf-f0250` | Complete dictionary text and textual furniture | Consecutive-page production timing, catchword continuation and confirmation against `f251`, contextual review yield |
 | `bnf-f0643` | Complete dictionary text and textual furniture | Circumflex, caron, and grave accent examples; ownership stamp, printed page number, terminus, closing ornament |
 
-The 79 complete page records contain 7,670 physical lines. Exact source-image SHA-256 values are stored in each Level 1 page record.
+The 79 complete page records contain 7,666 physical lines. Exact source-image SHA-256 values are stored in each Level 1 page record.
 
 ## Files
 
@@ -79,7 +79,7 @@ Pages `f58`–`f67` add 983 physical lines and represent all 420 NINJAL rows ass
 
 Pages `f68`–`f77` add 979 physical lines and represent all 358 NINJAL rows assigned to those leaves as a post-draft coverage diagnostic. The batch preserves the two-line transition into the C vocabulary on f68, its five-line decorated initial, and both ordinary and irregular page furniture. All twenty column contact sheets were inspected before the geometry was marked reviewed.
 
-Pages `f78`–`f87` add 992 physical lines and represent all 439 NINJAL rows assigned to those leaves as a post-draft coverage diagnostic. The batch continues the C vocabulary under the normal bounded procedure. All twenty column contact sheets were inspected before the geometry was marked reviewed; the pages remain review-ready drafts pending independent human correction.
+Pages `f78`–`f87` add 988 physical lines and represent all 439 NINJAL rows assigned to those leaves as a post-draft coverage diagnostic. The batch continues the C vocabulary under the normal bounded procedure. All twenty column contact sheets were inspected before the geometry was marked reviewed; the pages remain review-ready drafts pending independent human correction.
 
 The [f16 production report](../production-review/bnf-f0016.md) replaces further anchored rereading with an independent second reading and explicit proposal adjudication. Its two pre-handoff proposals each caught a real local feature but neither complete proposed string survived human review: the space in `Sagui yuqu` and the marked `Sõ-` were valid, while `yiqu` and following `fir` were not. The first human checkpoint and renewed audit found seven missed corrections; completed column review and a repetition sweep found twenty-two more. These include right-edge evidence, mixed `ſs`, historical Portuguese spelling and spacing, and Japanese-context errors. Two audit proposals, `A=` and `cla=`, were also unnecessary under the provisional uniform `-` convention. The result shows that proposals must be recorded atomically and that independent comparison alone did not meet the quality target.
 

@@ -28,7 +28,7 @@ The uncertainty policy is intentionally lightweight. Context may support an ordi
 
 Targeted enlargement is nevertheless a routine review step for any locally difficult span, regardless of the standard tile size. Reviewers return to the surrounding context after enlargement; only doubt that survives both views is marked in the transcription.
 
-The adopted [page-transcription format](docs/page-transcription-format-v1-candidate.md) has now been exercised in a [79-page corpus](pilot/format-v1-trial/README.md). The six-page adoption baseline has been extended by sequential pages `bnf-f0015`–`bnf-f0087`; the complete physical-order records now comprise 7,670 physical lines. The [Level 1 Markdown authoring form](docs/level1-markdown-candidate.md) regenerates the validated JSON and page views deterministically.
+The adopted [page-transcription format](docs/page-transcription-format-v1-candidate.md) has now been exercised in a [79-page corpus](pilot/format-v1-trial/README.md). The six-page adoption baseline has been extended by sequential pages `bnf-f0015`–`bnf-f0087`; the complete physical-order records now comprise 7,666 physical lines. The [Level 1 Markdown authoring form](docs/level1-markdown-candidate.md) regenerates the validated JSON and page views deterministically.
 
 The compact files preserve stable physical-line references, typeface, relative indentation, page furniture, and exceptional placement while remaining directly readable. JSON is generated machine interchange rather than a hand-authoring format. A small structural test remains only to confirm that Level 1 has not discarded necessary evidence; designing Level 2 and later layers is a secondary concern. Lightweight uncertainty notation has still not encountered a genuinely unresolved reading and will be added only when evidence requires it.
 
@@ -64,7 +64,7 @@ Pages [`f58`](pilot/production-review/bnf-f0058.md) through [`f67`](pilot/produc
 
 Pages [`f68`](pilot/production-review/bnf-f0068.md) through [`f77`](pilot/production-review/bnf-f0077.md) add 979 physical lines and all 358 NINJAL rows assigned to those leaves as a post-draft diagnostic. The batch crosses from B into C on f68, preserving the two-line alphabet transition, the decorated five-line C, and complete-glyph crop geometry. All twenty column contact sheets were visually inspected; the pages remain review-ready drafts pending independent human comparison.
 
-Pages [`f78`](pilot/production-review/bnf-f0078.md) through [`f87`](pilot/production-review/bnf-f0087.md) add 992 physical lines and all 439 NINJAL rows assigned to those leaves as a post-draft diagnostic. The batch continues the C vocabulary under the normal bounded procedure. All twenty column contact sheets were visually inspected; the pages remain review-ready drafts, with an expected later human correction load rather than a claim of final accuracy.
+Pages [`f78`](pilot/production-review/bnf-f0078.md) through [`f87`](pilot/production-review/bnf-f0087.md) add 988 physical lines and all 439 NINJAL rows assigned to those leaves as a post-draft diagnostic. The batch continues the C vocabulary under the normal bounded procedure. All twenty column contact sheets were visually inspected; the pages remain review-ready drafts, with an expected later human correction load rather than a claim of final accuracy.
 
 The exact correction history from f13 through f17 is now preserved in a [raw occurrence-level corpus](pilot/correction-corpus/README.md). Its 106 transitions retain intermediate and reverted readings as well as accepted corrections, allowing later pages to be checked by error family without turning prior answers into automatic substitutions. A first [post-hoc pattern audit on f17](pilot/correction-corpus/f0017-pattern-audit.md) rechecked the earlier failure modes but accepted no additional change. The later five-error audit and four human corrections are recorded alongside that zero result: naming an error family is not the same as inspecting all of its occurrences effectively. Recall remains open until human review is complete.
 
@@ -100,7 +100,7 @@ Continue normal bounded drafting from `f88` toward `f137`, while human checking 
 
 ## Production progress
 
-The Level 1 corpus contains 79 complete pages and 7,670 physical lines. `f14` is human-checked; sequential `f15` and `f16` have both been corrected after human comparison and their columns await recheck; `f17`–`f87` are scan-confirmed and await human comparison. `f249` and `f250` retain the earlier production `scan_confirmed` status but should be re-evaluated against the revised procedure. The other 572 acquired leaves appear as `unprocessed` in the review UI.
+The Level 1 corpus contains 79 complete pages and 7,666 physical lines. `f14` is human-checked; sequential `f15` and `f16` have both been corrected after human comparison and their columns await recheck; `f17`–`f87` are scan-confirmed and await human comparison. `f249` and `f250` retain the earlier production `scan_confirmed` status but should be re-evaluated against the revised procedure. The other 572 acquired leaves appear as `unprocessed` in the review UI.
 
 ## Next phase
 
