@@ -69,12 +69,6 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `h2-l001` | **C ANTES DO A.** |  |
 
-## Printed page number
-
-| Physical line | Main position | Far right |
-| --- | --- | --- |
-| `pn-l001` | 36. |  |
-
 ## Column 2
 
 | Physical line | Main position | Far right |

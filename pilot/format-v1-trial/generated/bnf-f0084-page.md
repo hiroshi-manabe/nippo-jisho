@@ -69,12 +69,6 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `h2-l001` | **C ANTES DO A.** |  |
 
-## Printed page number
-
-| Physical line | Main position | Far right |
-| --- | --- | --- |
-| `pn-l001` | 38. |  |
-
 ## Column 2
 
 | Physical line | Main position | Far right |
@@ -126,12 +120,6 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l045` | &emsp;gaſu. *Idem.* |  |
 | `c2-l046` | Cansǒ. Cauaqi cauagu. *Secura.* |  |
 | `c2-l047` | Canson. Fideri ſon. *Perda cauſada da ſeca.* |  |
-
-## Printed signature
-
-| Physical line | Main position | Far right |
-| --- | --- | --- |
-| `sig-l001` | K |  |
 
 ## Catchword
 

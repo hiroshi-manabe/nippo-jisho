@@ -72,7 +72,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `pn-l001` | 39. |  |
+| `pn-l001` | 37. |  |
 
 ## Column 2
 
