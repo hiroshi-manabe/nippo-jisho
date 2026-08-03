@@ -25,6 +25,7 @@ This is the short, daily-use layer of the project's linguistic reference. It sup
 | `ǒ` / `ô` | Read the mark's direction: caron `ˇ` versus circumflex `ˆ`. They are not interchangeable. |
 | `ǔ` / `û` / `ù` | Preserve the visible shape. Long `u` has no open/closed opposition corresponding to long `o`. |
 | tilde / grave | A tilde is wavy; a grave is a single diagonal stroke. On `f13`, read `cà peralà`, not `cã perali`. Compare the letter beneath the mark separately. |
+| tilde over a vowel sequence | Identify the marked vowel from the scan rather than from the expected word. The corpus prints both `algũa` and `alguã`; preserve each occurrence. |
 
 ## Japanese and Jesuit-romanization prompts
 
@@ -67,6 +68,7 @@ These are **reinspection prompts, not replacement rules**.
 - Expect spelling variation, including missing or unfamiliar-looking vowels, endings, and accent choices. The project has confirmed printed `Interieção`, `deſiguaes`, `anotomia`, `baxo`, `printuras`, `cercido`, `chouer`, `ſonzear`, `delgaça`, `eſtà`, `pès`, and `de mais` against tempting modernizations.
 - Inventory uncommon marks rather than reading through them: `Poëtas` on `f25` has a real diaeresis, not two paper specks.
 - A tilde can stand for omitted letters as well as nasalization. Do not expand it in Level 1.
+- Do not normalize a tilde to the vowel that usually carries it. The [`algũa` / `alguã` audit](../pilot/tilde-position-audit.md) confirms real position variation and supplies occurrence-level comparators.
 - Typeface helps: Japanese forms are generally roman and Portuguese explanations generally italic in the sampled dictionary pages. Confirm the local case before relying on that tendency.
 
 ## Dictionary-specific labels and conventions

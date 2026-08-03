@@ -93,7 +93,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l013` | &emsp;*combater com gente de hũa ſó parte ſem auer* |  |
 | `c2-l014` | &emsp;*outra de que ſeja rebatida. ¶ Item, Por* |  |
 | `c2-l015` | &emsp;*pezo de hũa parte, & não de outra pera car-* |  |
-| `c2-l016` | &emsp;*regar, ou eſpremer algũa couſa.* |  |
+| `c2-l016` | &emsp;*regar, ou eſpremer alguã couſa.* |  |
 | `c2-l017` | Catauoxina. *Parte que foi ſó carregada, ou* |  |
 | `c2-l018` | &emsp;*eſpremida com algum pezo, & a outra não.* |  |
 | `c2-l019` | Cataxigataxi. *Hũa de duas couſas que ſe contão* |  |
@@ -123,7 +123,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l043` | &emsp;*ça, ou de outra couſa. ¶* Catazzuriga |  |
 | `c2-l044` | &emsp;aruca miyo. *Vede ſe ha deſigualdade, quer ſe-* |  |
 | `c2-l045` | &emsp;*ja de pezo, quer ſeja entre dous que jogão, ou* |  |
-| `c2-l046` | &emsp;*ſão deſiguais nalgũa arte, &c.* |  |
+| `c2-l046` | &emsp;*ſão deſiguais nalguã arte, &c.* |  |
 | `c2-l047` | Catazurina. *Couſa deſigual como leue de hũa* |  |
 
 ## Printed signature

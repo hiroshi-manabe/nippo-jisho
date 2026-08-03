@@ -37,7 +37,7 @@ The 37 occurrences previously encoded as `ô` or `û` resolve as follows. The ro
 | No printed mark | 1 | 0 | 1 |
 | **Total audited** | **28** | **9** | **37** |
 
-Genuine tildes form a separate class. Their wavy shape is visible in forms such as `acõpanha` and `algũa`. Abbreviation tildes must also be preserved rather than silently expanded: `q̃` uses a combining tilde, while `Gǒyẽuo` prints `ẽ` in place of `en` before `uo`.
+Genuine tildes form a separate class. Their wavy shape is visible in forms such as `acõpanha` and `algũa`. Their carrier must also be read locally: the wider corpus genuinely varies between `algũa` and `alguã`, as documented in the [complete position audit](tilde-position-audit.md). Abbreviation tildes must likewise be preserved rather than silently expanded: `q̃` uses a combining tilde, while `Gǒyẽuo` prints `ẽ` in place of `en` before `uo`.
 
 No caron or circumflex occurs in the drafted excerpts of `bnf-f0014`.
 

@@ -25,7 +25,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l009` | Corobi, u, ôda. *Cair. ¶* Dôdo corobu. *Ca-* |  |
 | `c1-l010` | &emsp;*ir dando baque, ou fazendo eſtrondo.* |  |
 | `c1-l011` | Corobicacari, u, atta. *Eſtar pera cair, ou* |  |
-| `c1-l012` | &emsp;*cair ſobre algũa couſa.* |  |
+| `c1-l012` | &emsp;*cair ſobre alguã couſa.* |  |
 | `c1-l013` | Corobi fuxi, ſu, uita. *Debruçarſe, ou cair* |  |
 | `c1-l014` | &emsp;*de bruços.* |  |
 | `c1-l015` | Corobi iri, ru, itta. *Caindo entrar. Vt,* |  |

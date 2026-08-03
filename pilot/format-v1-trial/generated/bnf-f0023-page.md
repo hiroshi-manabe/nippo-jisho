@@ -15,7 +15,7 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c1-l001` | &emsp;*rios. ¶ Item, Sinal que alguns dante mão* |  |
-| `c1-l002` | &emsp;*determinão pera fazerem algũa couſa.* |  |
+| `c1-l002` | &emsp;*determinão pera fazerem alguã couſa.* |  |
 | `c1-l003` | Ai iſogui, u, oida. *Vide* Iſogui, u. |  |
 | `c1-l004` | Aimacaxe, ſuru, eta. *Vide* Macaxe, ſuru. |  |
 | `c1-l005` | Aimachi, tçu, ta. *Vide* Machi, tçu. |  |
@@ -106,7 +106,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l032` | &emsp;*ruins repoſtas. ¶* Aiſomonǒ yǔ. *Fal-* |  |
 | `c2-l033` | &emsp;*lar riſpida, & ſecamente. ¶* Fitono aiſo |  |
 | `c2-l034` | &emsp;ni yǔ. *Fallar pera atrahir, & grangear.* |  |
-| `c2-l035` | &emsp;*¶* Aiſoni naru. *Sair, ou ſuceder algũa* |  |
+| `c2-l035` | &emsp;*¶* Aiſoni naru. *Sair, ou ſuceder alguã* |  |
 | `c2-l036` | &emsp;*couſa bẽ pera gaſalhado do hoſpede.* |  |
 | `c2-l037` | Aiſoi, ſô, ôta. *Vide* Soi, ſô. |  |
 | `c2-l038` | Aiſome. *O verſe a primeira vez com alguem.* |  |

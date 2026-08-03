@@ -105,7 +105,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l031` | &emsp;*ou ſaber claro.* |  |
 | `c2-l032` | &emsp;Aqiracani. |  |
 | `c2-l033` | &emsp;Aqiracaſa. |  |
-| `c2-l034` | Aqirame. *Declaração, ou peſquiza de algũa* |  |
+| `c2-l034` | Aqirame. *Declaração, ou peſquiza de alguã* |  |
 | `c2-l035` | &emsp;*couſa.* |  |
 | `c2-l036` | Aqirame, uru, eta. *Declarar, ou auerigoar.* |  |
 | `c2-l037` | &emsp;*¶* Mayoiuo aqiramuru. *Aclarar o erro,* |  |
@@ -115,7 +115,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l041` | &emsp;*zão. ¶* Dǒriuo aqiramuru. *Dar rezão* |  |
 | `c2-l042` | &emsp;*que outro entenda, ou arrezoar diſtintamente.* |  |
 | `c2-l043` | Aqirami, u, ǒda. *Aclararſe, ou auerigoar-* |  |
-| `c2-l044` | &emsp;*ſe algũa couſa.* |  |
+| `c2-l044` | &emsp;*ſe alguã couſa.* |  |
 | `c2-l045` | Aqire, ruru, eta. *Eſpantarſe, eſtar atonito.* |  |
 | `c2-l046` | Aqire fate, tçuru, eta. *Ficar totalmente ato-* |  |
 | `c2-l047` | &emsp;*nito, & como fora de ſi.* |  |

@@ -16,7 +16,7 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c1-l001` | Cacarixi nochiua. *Adu. i. Cacu arixino* |  |
 | `c1-l002` | &emsp;chiua. *Depois diſto, & ſendo aſſi, &c. S.* |  |
-| `c1-l003` | Cacariyǒ. *Pezar algũa couſa igualmente cõ* |  |
+| `c1-l003` | Cacariyǒ. *Pezar alguã couſa igualmente cõ* |  |
 | `c1-l004` | &emsp;*outra, ou eſtar o pezo juſto.* |  |
 | `c1-l005` | Cacaru. *Adiect. i. Cayǒnaru, l, cacuno-* |  |
 | `c1-l006` | &emsp;gotocu naru. *Deſta laya, ou deſta maneira.* |  |
@@ -30,7 +30,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l014` | &emsp;cacaſuru. *Fazer traſpallar com ſeta de par-* |  |
 | `c1-l015` | &emsp;*te a parte.* |  |
 | `c1-l016` | Cacaxi, ſu, aita. *Faltar, ou fazer falta* |  |
-| `c1-l017` | &emsp;*em algũa couſa. Vt,* Oraciono cacaſuna. |  |
+| `c1-l017` | &emsp;*em alguã couſa. Vt,* Oraciono cacaſuna. |  |
 | `c1-l018` | &emsp;*Fazei que não aja falta na oração.* |  |
 | `c1-l019` | Cacayacaxi, ſu, aita. *Fazer reſplandeçer,* |  |
 | `c1-l020` | &emsp;*ou luzir. Vt,* Ficariuo cacayacaſu. *Fa-* |  |

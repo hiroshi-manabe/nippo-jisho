@@ -110,14 +110,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2b-l006` | Agaqi, u, aita. *Dar o caualo com os pes na* |  |
 | `c2b-l007` | &emsp;*terra como quem acaua de brio, & feroci-* |  |
 | `c2b-l008` | &emsp;*dade. ¶ Item, Permet. Menear com* |  |
-| `c2b-l009` | &emsp;*diligencia, os pes, & as mãos nalgũa obra,* |  |
+| `c2b-l009` | &emsp;*diligencia, os pes, & as mãos nalguã obra,* |  |
 | `c2b-l010` | &emsp;*ou trabalho, l, andar ſolicito, & diligẽte* |  |
-| `c2b-l011` | &emsp;*ſobre algũa obra, ou couſa que pretenda.* |  |
+| `c2b-l011` | &emsp;*ſobre alguã obra, ou couſa que pretenda.* |  |
 | `c2b-l012` | Agari, ru, atta. *Subir, ou leuantarſe.* |  |
 | `c2b-l013` | &emsp;*¶* Qiga agaru. *Subir o ſangue a cabeça,* |  |
 | `c2b-l014` | &emsp;*ou enflamarſe o roſto. ¶* Curaini agaru. |  |
 | `c2b-l015` | &emsp;*Subir em dignidade. ¶ Item, Perfei-* |  |
-| `c2b-l016` | &emsp;*çoarſe, ou milhorarſe em algũa arte.* |  |
+| `c2b-l016` | &emsp;*çoarſe, ou milhorarſe em alguã arte.* |  |
 | `c2b-l017` | &emsp;*¶* Te, dãgui, tçuzzumi, gacumon, cu- |  |
 | `c2b-l018` | &emsp;chiga, &c. Agaru. *Melhorarſe, l,* |  |
 | `c2b-l019` | &emsp;*aproueitar no eſcreuer, prègar, tanger ta-* |  |
@@ -131,7 +131,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2b-l027` | &emsp;*ſoa honrrada.* Gojenga agaru, gojen- |  |
 | `c2b-l028` | &emsp;ga ſuberu, l, cudaru. *Leuantaremſe as* |  |
 | `c2b-l029` | &emsp;*mezas de peſſoa honrrada. ¶ Itẽ, Aca-* |  |
-| `c2b-l030` | &emsp;*barſe, ou ceſſar algũa couſa. Vt,* Fu- |  |
+| `c2b-l030` | &emsp;*barſe, ou ceſſar alguã couſa. Vt,* Fu- |  |
 | `c2b-l031` | &emsp;xinga agaru. *Acabaremſe as obras, ou* |  |
 | `c2b-l032` | &emsp;*ceſſar dellas. ¶* Tçuyu, l, Nagaxiga |  |
 | `c2b-l033` | &emsp;agaru. *Acabaremſe as chuuas cuſtuma-* |  |

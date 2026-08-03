@@ -83,7 +83,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l009` | &emsp;*vai enfraquecendo, ou rendendoſe pera que* |  |
 | `c2-l010` | &emsp;*tenha mão, ou não perda, &c. ¶* Si- |  |
 | `c2-l011` | &emsp;neto cǒ. *Por pontalete, ou eſpeque pera* |  |
-| `c2-l012` | &emsp;*ſoſtentar algũa couſa. ¶* Cuſabiuocǒ. |  |
+| `c2-l012` | &emsp;*ſoſtentar alguã couſa. ¶* Cuſabiuocǒ. |  |
 | `c2-l013` | &emsp;*Meter cunha.* |  |
 | `c2-l014` | Cai, ǒ, ǒta. *Criar, ou apacentar gado, ani-* |  |
 | `c2-l015` | &emsp;*mais, & paſſaros, & dar lhes de comer.* |  |
@@ -106,7 +106,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l032` | Caichô. Vxuo. *Agua do mar.* |  |
 | `c2-l033` | Caichǔ. Vmino vchi. *Dentro, ou de baixo* |  |
 | `c2-l034` | &emsp;*do mar. ¶* Caichǔni xizzumuru. *Somer-* |  |
-| `c2-l035` | &emsp;*gir, ou botar algũa couſa no profũdo do mar.* |  |
+| `c2-l035` | &emsp;*gir, ou botar alguã couſa no profũdo do mar.* |  |
 | `c2-l036` | Caico. *Bicho de ſeda, ou ſua ſemente no xi-* |  |
 | `c2-l037` | &emsp;*mo dizem tambem, caigo.* |  |
 | `c2-l038` | Caicǒ. Fataqi, u. *Algoz, ou executor da* |  |

@@ -74,7 +74,7 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c2-l001` | Chôtat. Totonoye taſuru. *O aparelhar,* |  |
-| `c2-l002` | &emsp;*& negociar algũa couſa.* |  |
+| `c2-l002` | &emsp;*& negociar alguã couſa.* |  |
 | `c2-l003` | Chôtei. *Pateo, ou Nina del Rei.* |  |
 | `c2-l004` | Chôteqi. *Inimigo del Rei.* |  |
 | `c2-l005` | Chǒtǒ, l, potius chǒdǒ. Nagai michi. *Cami-* |  |

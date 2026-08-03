@@ -23,7 +23,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l007` | Andon. *Ignorancia, & pouco ſaber.* |  |
 | `c1-l008` | Andon. *Lanterna.* |  |
 | `c1-l009` | Ane. *Irmãa mais velha.* |  |
-| `c1-l010` | Anego. *Idem com algũa honrra.* |  |
+| `c1-l010` | Anego. *Idem com alguã honrra.* |  |
 | `c1-l011` | Anegojen. *Idem.* |  |
 | `c1-l012` | Ane muco. *Cunhado caſado cõ irmãa mais velha.* |  |
 | `c1-l013` | Ane muſume. *Filha mais velha.* |  |
@@ -31,7 +31,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l015` | &emsp;*melhante no altar.* |  |
 | `c1-l016` | Angiǔ. Yaſuqu ſumu. *Aſſento em algum lu-* |  |
 | `c1-l017` | &emsp;*gar, dignidade, &c. ¶* Angiǔ ſuru. *To-* |  |
-| `c1-l018` | &emsp;*mar aſſento, ou ſer morador em algũa parte.* |  |
+| `c1-l018` | &emsp;*mar aſſento, ou ſer morador em alguã parte.* |  |
 | `c1-l019` | &emsp;*¶ Item, Ser aſſentado em algum cargo, offi-* |  |
 | `c1-l020` | &emsp;*cio, &c.* |  |
 | `c1-l021` | Angiǔ. *No Cami ſe diz* Anno vchi. *Aſſi* |  |
@@ -117,7 +117,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l043` | &emsp;*por eſpia.* |  |
 | `c2-l044` | Annaixa. *Guia, ou o que ſabe as entradas,* |  |
 | `c2-l045` | &emsp;*& ſaidas dalgum lugar. ¶ Item, O que* |  |
-| `c2-l046` | &emsp;*ſabe bem algũa couſa, com que ceremonias ſe* |  |
+| `c2-l046` | &emsp;*ſabe bem alguã couſa, com que ceremonias ſe* |  |
 | `c2-l047` | &emsp;*faz, &c. ¶* Annaixauo ſuru. *Guiar,* |  |
 
 ## Catchword

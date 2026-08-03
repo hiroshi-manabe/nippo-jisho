@@ -26,7 +26,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l010` | Cocca. Cuni, iye. *Reinos, & caſas, ou fa-* |  |
 | `c1-l011` | &emsp;*milias.* |  |
 | `c1-l012` | Cocchǒ. Foneuo faru. *Habituado, ou deſ-* |  |
-| `c1-l013` | &emsp;*tro em algũa arte aĩda q̃ ſeja de ladrão. Vt,* |  |
+| `c1-l013` | &emsp;*tro em alguã arte aĩda q̃ ſeja de ladrão. Vt,* |  |
 | `c1-l014` | &emsp;Nuſubitono cocchǒgia. *He inſigne ladrão* |  |
 | `c1-l015` | &emsp;*ja cõſumado neſte vicio. ¶* Cocchǒ ſuru. |  |
 | `c1-l016` | &emsp;*Eſtar habituado, & calificado ẽ algũa couſa.* |  |
@@ -41,7 +41,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l025` | Cochô. *Borboleta.* |  |
 | `c1-l026` | Côchǔ. Cuchiuo vchi. *Dentro na boca.* |  |
 | `c1-l027` | &emsp;¶ Cǒchŭni nigai, l, amaimono gia. |  |
-| `c1-l028` | &emsp;*Ser algũa couſa na boca amargoſa, ou doce.* |  |
+| `c1-l028` | &emsp;*Ser alguã couſa na boca amargoſa, ou doce.* |  |
 | `c1-l029` | Cochǔ. Furui xiruſu. *Comentarios antigos.* |  |
 | `c1-l030` | &emsp;*Item couſa antigua. Vt,* Cochŭna catagui. |  |
 | `c1-l031` | &emsp;*Cuſtume antiguo.* |  |
@@ -111,7 +111,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l031` | &emsp;rouo madouaſu. *Perturbar o coração, ou* |  |
 | `c2-l032` | &emsp;*fazelo perplexo. ¶* Cocorouo cudagu. |  |
 | `c2-l033` | &emsp;*Por diligencia, & cuidado, ou peneirar, &* |  |
-| `c2-l034` | &emsp;*goſtar muito dalgũa couſa q̃ hũ medita profũda-* |  |
+| `c2-l034` | &emsp;*goſtar muito dalguã couſa q̃ hũ medita profũda-* |  |
 | `c2-l035` | &emsp;*mente.* |  |
 | `c2-l036` | Cocoroate. *Tenção.* |  |
 | `c2-l037` | Cocorobaye. *Bõ animo, ou boa vontade. ¶* Co- |  |

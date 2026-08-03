@@ -59,8 +59,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l043` | &emsp;*Per met. Iulgar, ou coniecturar do cha que* |  |
 | `c1-l044` | &emsp;*hum bebe que tal he. ¶ Itẽ, Coniecturar, ou* |  |
 | `c1-l045` | &emsp;*com o juizo, & diſcurſo querer atinar com* |  |
-| `c1-l046` | &emsp;*algũa couſa. ¶ Item, Deſmandarſe, ou* |  |
-| `c1-l047` | &emsp;*tomar mais licença do que lhe dão em algũa* |  |
+| `c1-l046` | &emsp;*alguã couſa. ¶ Item, Deſmandarſe, ou* |  |
+| `c1-l047` | &emsp;*tomar mais licença do que lhe dão em alguã* |  |
 
 ## Column 2 running header
 
@@ -94,7 +94,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l014` | Caburanaxi. *Hũ vazo q̃ ſerue de porẽ roſas nelle.* |  |
 | `c2-l015` | Caburaya. *Certa feição do ferro da ſeta.* |  |
 | `c2-l016` | Caburi, u, utta. *Roer.* |  |
-| `c2-l017` | Caburi, u, utta. *Cobrirſe com algũa couſa.* |  |
+| `c2-l017` | Caburi, u, utta. *Cobrirſe com alguã couſa.* |  |
 | `c2-l018` | &emsp;*Vt,* Zzuginuo caburu. *Por o barrete na* |  |
 | `c2-l019` | &emsp;*cabeça. ¶* Yoguino caburu. *Cobrirſe* |  |
 | `c2-l020` | &emsp;*na cama com cobertor, &c. ¶* Bachiuo |  |
@@ -124,7 +124,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l044` | &emsp;*do capacete.* |  |
 | `c2-l045` | Cabutono xicoro. *Hũas laminas, ou abas q̃* |  |
 | `c2-l046` | &emsp;*decem do capacete, & cobrem o peſcoço.* |  |
-| `c2-l047` | Cabuxe, ſuru, eta. *Cubrir algũa couſa com* |  |
+| `c2-l047` | Cabuxe, ſuru, eta. *Cubrir alguã couſa com* |  |
 
 ## Printed signature
 

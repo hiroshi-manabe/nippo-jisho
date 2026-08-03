@@ -30,7 +30,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l008` | &emsp;zaru. *Socedeo como imaginaua. ¶* An- |  |
 | `c1-l009` | &emsp;ni iru, l, votçuru. *Cair na traça, ou en-* |  |
 | `c1-l010` | &emsp;*gano que hum tẽ urdido. i. condeſcender com* |  |
-| `c1-l011` | &emsp;*alguem nalgũa traça conjuração, &c. ¶* An |  |
+| `c1-l011` | &emsp;*alguem nalguã traça conjuração, &c. ¶* An |  |
 | `c1-l012` | &emsp;no fucai fito. *Homẽ conſiderado. ¶* An |  |
 | `c1-l013` | &emsp;no foca. *Fora do que hum cuidaua.* |  |
 | `c1-l014` | An. i. Ammon. *Minuta, ou borrão da carta* |  |
@@ -64,7 +64,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l042` | Anagachina fito, l, mono. *Homẽ muito ape-* |  |
 | `c1-l043` | &emsp;*titozo, ou ſofrego no comer, & outras couſas.* |  |
 | `c1-l044` | Anagura. *Celleiro, ou tulha feita de baxo da* |  |
-| `c1-l045` | &emsp;*terra, ou em algũa lapa.* |  |
+| `c1-l045` | &emsp;*terra, ou em alguã lapa.* |  |
 
 ## Column 2 running header
 
@@ -101,7 +101,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l023` | Ancan. Yaſuqu, xizzucana. *Paz, ou quie-* |  |
 | `c2-l024` | &emsp;*tação. ¶* Buji ancanni curaſu. *Viuer* |  |
 | `c2-l025` | &emsp;*com quietação, & à vontade.* |  |
-| `c2-l026` | Anchi. i. Sonaye voqu. *Por algũa couſa co-* |  |
+| `c2-l026` | Anchi. i. Sonaye voqu. *Por alguã couſa co-* |  |
 | `c2-l027` | &emsp;*mo Fotoqe, ou imagem em algũ lugar.* |  |
 | `c2-l028` | &emsp;*¶* Goyeiuo anchi ſuru. *Por a imagem no* |  |
 | `c2-l029` | &emsp;*altar.* |  |

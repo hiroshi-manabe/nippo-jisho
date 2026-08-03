@@ -37,10 +37,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l021` | &emsp;*l, fora do Miyaco, ou da corte.* |  |
 | `c1-l022` | Agatame. *Vt,* Agatameuo ſuru. *Olhar* |  |
 | `c1-l023` | &emsp;*pera outra parte de propoſito, ou fazer por* |  |
-| `c1-l024` | &emsp;*não ver algũa couſa olhando pera outra parte.* |  |
+| `c1-l024` | &emsp;*não ver alguã couſa olhando pera outra parte.* |  |
 | `c1-l025` | Agata mexi. *O ſerem chamados do Dairi ẽ* |  |
 | `c1-l026` | &emsp;*certo tempo do anno os de fora do Miyaco* |  |
-| `c1-l027` | &emsp;*pera lhes dar algũa dignidade, ou officio.* |  |
+| `c1-l027` | &emsp;*pera lhes dar alguã dignidade, ou officio.* |  |
 | `c1-l028` | Agata mico. *Molheres que andão por diuer-* |  |
 | `c1-l029` | &emsp;*ſas partes como adiuinhas, ou feiticeiras.* |  |
 | `c1-l030` | Agatano mono. *Aldeão, ou homem de fora* |  |
@@ -74,7 +74,7 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c2-l001` | Agiuai. *Goſto, ſabor. ¶* Agiuaiuo na- |  |
 | `c2-l002` | &emsp;mete miru. *Goſtar, ou prouar. ¶* A- |  |
-| `c2-l003` | &emsp;giuai, l, agiuo ſucumu. *Ser algũa couſa* |  |
+| `c2-l003` | &emsp;giuai, l, agiuo ſucumu. *Ser alguã couſa* |  |
 | `c2-l004` | &emsp;*goſtoſa, ou ter ſabor. ¶* Agiuai, l, a- |  |
 | `c2-l005` | &emsp;giuo tçuguuru. *Dar goſto a algũa couſa.* |  |
 | `c2-l006` | &emsp;*¶* Ienno agiuaini iru. *Goſtar da vir-* |  |
@@ -106,10 +106,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l032` | &emsp;cuuo aguru. *Renunciar, ou deixar o* |  |
 | `c2-l033` | &emsp;*officio. ¶* Chiguiǒuo aguru. *Renun-* |  |
 | `c2-l034` | &emsp;*ciar, ou engeitar a renda ao ſenhor. ¶ Itẽ,* |  |
-| `c2-l035` | &emsp;*Acabar, ou ceſſar dalgũa couſa. ¶ Vt,* |  |
+| `c2-l035` | &emsp;*Acabar, ou ceſſar dalguã couſa. ¶ Vt,* |  |
 | `c2-l036` | &emsp;Fuxinuo aguru. *Acabar, ou ceſſar da o-* |  |
 | `c2-l037` | &emsp;*bra. ¶* Teſoruo aguru. *Acabar de* |  |
-| `c2-l038` | &emsp;*aprẽder algũa materia, ou treſlado deſcreuer.* |  |
+| `c2-l038` | &emsp;*aprẽder alguã materia, ou treſlado deſcreuer.* |  |
 | `c2-l039` | Ague axi. *Pee que ſe leuanta, & poem ſo-* |  |
 | `c2-l040` | &emsp;*bre outro como pera deſcanſar. ¶* Ague |  |
 | `c2-l041` | &emsp;axiuo vtçu. *Por o pee, ou perna deſta ma-* |  |

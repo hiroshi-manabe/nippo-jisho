@@ -94,7 +94,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l020` | Chǒdai. i. Monono uoqidocoro. *Lugar* |  |
 | `c2-l021` | &emsp;*onde ſe poem algũa couſa como camara, ou* |  |
 | `c2-l022` | &emsp;*caſa em que ſe dorme.* |  |
-| `c2-l023` | Chǒdai. Itadaqi, u. *O aleuantar algũa cou-* |  |
+| `c2-l023` | Chǒdai. Itadaqi, u. *O aleuantar alguã cou-* |  |
 | `c2-l024` | &emsp;*ſa ſobre a cabeça com reuerencia. Vt,* Chǒ- |  |
 | `c2-l025` | &emsp;dai tçucamatçuru. *Por ſobre a cabeça com* |  |
 | `c2-l026` | &emsp;*reuerencia.* |  |

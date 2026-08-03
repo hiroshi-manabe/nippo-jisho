@@ -19,9 +19,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l003` | Couaqi. *De baixo do braço, ou ilharga.* |  |
 | `c1-l004` | Couaracana. *Couſa dura, ou cruel.* |  |
 | `c1-l005` | &emsp;Couaracani. *Adu.* |  |
-| `c1-l006` | Couaracaxi, ſu, aita. *Fazer dura algũa cou-* |  |
+| `c1-l006` | Couaracaxi, ſu, aita. *Fazer dura alguã cou-* |  |
 | `c1-l007` | &emsp;*ſa. ¶ Item, Algũa vez permet. Fazer* |  |
-| `c1-l008` | &emsp;*algũa couſa difficultoſa, & de má feição, como* |  |
+| `c1-l008` | &emsp;*alguã couſa difficultoſa, & de má feição, como* |  |
 | `c1-l009` | &emsp;*demanda, &c.* |  |
 | `c1-l010` | Couaraxi, ſu, aita. *Idem.* |  |
 | `c1-l011` | Couari, ru, atta. *Fazerſe a couſa dura,* |  |
@@ -109,7 +109,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l035` | &emsp;*do mar.* |  |
 | `c2-l036` | Coxi, ſu, oita. *Coar. ¶* Mizzuuo coſu. |  |
 | `c2-l037` | &emsp;*Coar agoa, & outras couſas.* |  |
-| `c2-l038` | Coxi, ſu, oita. *Ir paſſando por cima de algũa* |  |
+| `c2-l038` | Coxi, ſu, oita. *Ir paſſando por cima de alguã* |  |
 | `c2-l039` | &emsp;*couſa como de ſerra, montes, &c.* |  |
 | `c2-l040` | Côxi, ſuru, ita. *Chamarſe, ou nomearſe al-* |  |
 | `c2-l041` | &emsp;*gũa couſa. S.* |  |

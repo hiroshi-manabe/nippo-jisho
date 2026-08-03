@@ -59,7 +59,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l043` | Canya. Samui yo. *Noite fria.* |  |
 | `c1-l044` | Canyet. Canji, yorocobu. *Alegrarſe, &* |  |
 | `c1-l045` | &emsp;*louuar interiormente como quando o ſenhor lou-* |  |
-| `c1-l046` | &emsp;*ua algũa couſa, & ſe alegra interiormente do* |  |
+| `c1-l046` | &emsp;*ua alguã couſa, & ſe alegra interiormente do* |  |
 | `c1-l047` | &emsp;*que fez o criado.* |  |
 
 ## Column 2 running header

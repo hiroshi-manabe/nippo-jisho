@@ -74,7 +74,7 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c2-l001` | &emsp;*met.* Cofaini fitouo xicaru. *Reprehen-* |  |
 | `c2-l002` | &emsp;*der a alguẽ muito, & aſperamente. ¶* San- |  |
-| `c2-l003` | &emsp;zan cofaini natta. *Dirſe ha de algũa caſa,* |  |
+| `c2-l003` | &emsp;zan cofaini natta. *Dirſe ha de alguã caſa,* |  |
 | `c2-l004` | &emsp;*ou homem totalmente deſfeito, & deſtruido.* |  |
 | `c2-l005` | Cofaje. *Certo botão que ſerue no veſtido, ou* |  |
 | `c2-l006` | &emsp;*ornamentos, &c.* |  |

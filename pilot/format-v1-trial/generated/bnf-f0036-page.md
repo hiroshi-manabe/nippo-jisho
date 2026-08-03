@@ -18,7 +18,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l002` | &emsp;ſonatano cataye gozarǒto atta. *O tono* |  |
 | `c1-l003` | &emsp;*diſſe que iria a voſſa caſa.* |  |
 | `c1-l004` | Arito aru, l, arǒru. *Todos quantos ha.* |  |
-| `c1-l005` | Ariai, ǒ, ǒta. *Acharſe preſente a algũa cou-* |  |
+| `c1-l005` | Ariai, ǒ, ǒta. *Acharſe preſente a alguã cou-* |  |
 | `c1-l006` | &emsp;*ſa. ¶ Item, Acertar de achar, ou auer à* |  |
 | `c1-l007` | &emsp;*mão.* |  |
 | `c1-l008` | Ariaqe. *Lume que dura toda a noite. ¶* A- |  |
@@ -36,11 +36,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l020` | &emsp;*mo quem eſtà em ſua caſa, &c.* |  |
 | `c1-l021` | Ariarixǔ. *Aduer.* |  |
 | `c1-l022` | Arica, l, ſumica. *Morada, habitação.* |  |
-| `c1-l023` | Aridocoro. *Lugar onde eſtà algũa couſa.* |  |
+| `c1-l023` | Aridocoro. *Lugar onde eſtà alguã couſa.* |  |
 | `c1-l024` | &emsp;*¶ Item, Morada.* |  |
 | `c1-l025` | Arigai. *Couſa de ſer, & de proueito. ¶* A- |  |
 | `c1-l026` | &emsp;rigaino aru mi gia. *Ser proueitoſo, ou ſer-* |  |
-| `c1-l027` | &emsp;*uir pera algũa couſa. ¶* Arigaimo nai fitogia. |  |
+| `c1-l027` | &emsp;*uir pera alguã couſa. ¶* Arigaimo nai fitogia. |  |
 | `c1-l028` | &emsp;*He homem que não aproueita pera nada.* |  |
 | `c1-l029` | &emsp;*¶* Arigai naxi. *Idem.* |  |
 | `c1-l030` | Arigatai. *Couſa ſancta, ou digna de ſe agra-* |  |
@@ -57,7 +57,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l041` | &emsp;uo mottemo nanini xǒzo? *Ainda que* |  |
 | `c1-l042` | &emsp;*tenha caſa como quem viue proſperamente que* |  |
 | `c1-l043` | &emsp;*me aproueita? ¶* Yǒ arigauona tei. *Mo-* |  |
-| `c1-l044` | &emsp;*do, ou geito no roſto de quem traz algũa couſa* |  |
+| `c1-l044` | &emsp;*do, ou geito no roſto de quem traz alguã couſa* |  |
 | `c1-l045` | &emsp;*no penſamento.* |  |
 | `c1-l046` | Arino mama, l, arino mamani. *Adu. Pon-* |  |
 | `c1-l047` | &emsp;*tualmente, ſem tirar nem por, ou aſſi como* |  |
@@ -121,7 +121,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2b-l008` | Aſaaraxi. *Vento de pelamanhãa.* |  |
 | `c2b-l009` | Aſabataqe. *Cãpo onde ſe ſemea linho canemo.* |  |
 | `c2b-l010` | Aſabiyori. *Tẽpo de pelamanhãa bom, ou* |  |
-| `c2b-l011` | &emsp;*mao pera fazer algũa couſa.* |  |
+| `c2b-l011` | &emsp;*mao pera fazer alguã couſa.* |  |
 | `c2b-l012` | Aſaboraqe. P. *Manhãa clara.* |  |
 | `c2b-l013` | Aſaboſa. *Almoço.* |  |
 | `c2b-l014` | Aſacague. *Tempo freſco de pelamanhãa.* |  |

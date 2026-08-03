@@ -47,7 +47,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l031` | Chin. *Varanda, ou baileu de recreação, ou* |  |
 | `c1-l032` | &emsp;*pera paſſar a calma.* |  |
 | `c1-l033` | Chinami, u, ôda. *Eſtar junto, trauado,* |  |
-| `c1-l034` | &emsp;*ou liado com algũa couſa. ¶* Fitoni china- |  |
+| `c1-l034` | &emsp;*ou liado com alguã couſa. ¶* Fitoni china- |  |
 | `c1-l035` | &emsp;mu. *Ser amigo de alguem.* |  |
 | `c1-l036` | Chinami. *Liança, ajuntamento, &c.* |  |
 | `c1-l037` | Chinba. *Manco, ou coxo.* |  |

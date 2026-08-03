@@ -80,7 +80,7 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c2-l001` | Biǒdôni. *Vt,* Biǒdôni monouo voſamuru. |  |
 | `c2-l002` | &emsp;*Gouernar com igualdade, & iuſtiça. ¶* Biǒ- |  |
-| `c2-l003` | &emsp;dôni monouo cubaru. *Repartir algũa* |  |
+| `c2-l003` | &emsp;dôni monouo cubaru. *Repartir alguã* |  |
 | `c2-l004` | &emsp;*couſa igualmente.* |  |
 | `c2-l005` | Biǒdôzucuri. *Certo feitio de arco da tirar.* |  |
 | `c2-l006` | Biǒgan. Vazzurǒ manaco. *Olhos doẽtes.* |  |

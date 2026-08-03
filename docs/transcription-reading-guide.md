@@ -151,6 +151,7 @@ Principal research starting points:
 - Marks over `u` require the same shape-level reading even though `u` lacks the corresponding open/closed opposition.
 - Preserve grave accents and genuine tildes independently. Do not globally replace one accent family with another.
 - Preserve abbreviation tildes as printed rather than expanding them in Level 1. On `f248`, the headword prints `Gǒyen`, but its example prints `Gǒyẽuo`, with `ẽ` abbreviating `en` before `uo`.
+- Treat the vowel carrying a tilde as an occurrence-level reading. The current corpus has both `algũa` and `alguã`; a dictionary-wide replacement in either direction is wrong. Use the [dedicated audit and ledger](../pilot/tilde-position-audit.md) as comparison evidence, then let the local scan decide.
 - The current occurrence-level evidence and Unicode choices are in the [Pilot Diacritic Audit](../pilot/diacritic-audit.md).
 
 ### Confusable characters and sequences

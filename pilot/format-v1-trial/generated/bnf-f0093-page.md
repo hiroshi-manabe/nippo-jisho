@@ -108,7 +108,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l028` | &emsp;votoriſaba caſaye mauare. *Yax. Se render-* |  |
 | `c2-l029` | &emsp;*des algũa fortaleza, rodeai pera a parte alta* |  |
 | `c2-l030` | &emsp;*do monte. ¶ Item, Aparencia, & vulto* |  |
-| `c2-l031` | &emsp;*que faz algũa couſa grande, ou acumulada.* |  |
+| `c2-l031` | &emsp;*que faz alguã couſa grande, ou acumulada.* |  |
 | `c2-l032` | &emsp;*Vt,* Caſaga aru. *Auer eſta aparencia, &* |  |
 | `c2-l033` | &emsp;*volume, &c. ¶* Caſaga agaru. *Crecer* |  |
 | `c2-l034` | &emsp;*& avultar algũa obra como parede, ou vallo,* |  |

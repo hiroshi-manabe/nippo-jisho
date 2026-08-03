@@ -17,7 +17,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l001` | &emsp;*bação, & temor.* |  |
 | `c1-l002` | Auaxe. *Veſtido forrado ſem eſtofo. ¶ Item,* |  |
 | `c1-l003` | &emsp;*Compoſta eſta palaura cõ outras ſignifica eſ-* |  |
-| `c1-l004` | &emsp;*tarem algũas couſas juntas. Vt,* Nimai aua- |  |
+| `c1-l004` | &emsp;*tarem alguãs couſas juntas. Vt,* Nimai aua- |  |
 | `c1-l005` | &emsp;xeni camiuo coxinayuru. *Fazer paſta de* |  |
 | `c1-l006` | &emsp;*duas folhas &c.* |  |
 | `c1-l007` | Auaxe, auaſuru, auaxeta. *Ajuntar hũa* |  |

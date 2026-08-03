@@ -117,7 +117,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2b-l029` | &emsp;*contrei.* |  |
 | `c2b-l030` | Ai. *Tambem he hũa particula que às vezes* |  |
 | `c2b-l031` | &emsp;*enſi não quer dizer nada, mas junta com ver-* |  |
-| `c2b-l032` | &emsp;*bos lhe da algũa força, ou elegancia. Vt,* |  |
+| `c2b-l032` | &emsp;*bos lhe da alguã força, ou elegancia. Vt,* |  |
 | `c2b-l033` | &emsp;Ai camaite, Ai cocoroyete, &c. *Al-* |  |
 | `c2b-l034` | &emsp;*gũas vezes no principio da dição tem ſen-* |  |
 | `c2b-l035` | &emsp;*tido de com, l, juntamente. Vt,* Ai toimo- |  |

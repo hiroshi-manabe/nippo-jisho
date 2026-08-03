@@ -105,7 +105,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l031` | &emsp;*¶* Riũo, l, dǒriuo araſô. *Argumen-* |  |
 | `c2-l032` | &emsp;*tar, ou contender ſobre a rezão, ou ſem rezão.* |  |
 | `c2-l033` | &emsp;*¶* Curaiuo araſô. *Contender com outros* |  |
-| `c2-l034` | &emsp;*ſobre algũa dignidade, ou cargo. ¶ Item,* |  |
+| `c2-l034` | &emsp;*ſobre alguã dignidade, ou cargo. ¶ Item,* |  |
 | `c2-l035` | &emsp;ſegouo araſô. *Contender ſobre ir diante, ou* |  |
 | `c2-l036` | &emsp;*de traz.* |  |
 | `c2-l037` | Arataca. *Gauião do monte ainda por do-* |  |

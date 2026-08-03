@@ -17,7 +17,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1a-l001` | &emsp;*poſito. ¶* Tçucaini azzucaru. *Receber* |  |
 | `c1a-l002` | &emsp;*recado de peſſoa honrrada. ¶* Gojǒni azzu- |  |
 | `c1a-l003` | &emsp;caru. *Receber carta de peſſoa honrrada.* |  |
-| `c1a-l004` | &emsp;*¶* Ximexi azzucaru. *Ser auizado dalgũa* |  |
+| `c1a-l004` | &emsp;*¶* Ximexi azzucaru. *Ser auizado dalguã* |  |
 | `c1a-l005` | &emsp;*couſa.* |  |
 | `c1a-l006` | Azzucaribito. *Peſſoa depoſitada.* |  |
 | `c1a-l007` | Azzucarite. *O q̃ toma em depoſito algũa couſa.* |  |
@@ -67,7 +67,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1b-l005` | &emsp;*¶* Cariba. *Campo, ou lugar* |  |
 | `c1b-l006` | &emsp;*onde ſe caça. ¶* Caxenba. |  |
 | `c1b-l007` | &emsp;*Lugar, ou campo da batalha. ¶* Ba naraxi. |  |
-| `c1b-l008` | &emsp;*Enſayo dalgũa couſa, no meſmo lugar onde ſe* |  |
+| `c1b-l008` | &emsp;*Enſayo dalguã couſa, no meſmo lugar onde ſe* |  |
 | `c1b-l009` | &emsp;*ade fazer. Vt,* Ba naraxini vodoru. *Dã-* |  |
 
 ## Column 2 running header

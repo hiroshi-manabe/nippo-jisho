@@ -126,6 +126,8 @@ The phonology is less simple than a two-symbol chart suggests. Morita documents 
 
 Tildes must be classified separately. Portuguese uses them for nasal material, while the dictionary also uses abbreviation tildes: `q̃` visibly carries an abbreviation sign, and `Gǒyẽuo` prints `ẽ` where the uncontracted headword has `en`. Level 1 preserves the mark without expansion.
 
+The carrier of a tilde is itself source evidence. The current 129-page corpus prints both `algũa` and `alguã`, including their capitalized, plural, and contracted forms. An occurrence-level scan audit found 210 marks over `u` and 178 over final `a`; `bnf-f0019:c2b-l011` is one of the latter. Early Portuguese sources and scholarship allow positional variation, and a separately set mark can also be displaced in movable type. Consequently neither historical expectation nor the spelling of a neighboring occurrence licenses moving the mark. See the [`algũa` / `alguã` Tilde-Position Audit](../pilot/tilde-position-audit.md) and its complete ledger.
+
 Portuguese grave accents also require shape-level comparison. On `bnf-f0013:c1-l033`, the wavy tilde in `ordẽ` contrasts on the same line with single diagonal strokes in `cà peralà`. The latter marks match the confirmed grave in `arà` on `c1-l016`; the final letter has the bowl of italic `a`, not the simple stem of `i`. The phrase is historically well supported: [Gil Vicente](https://ceteatro.pt/wp-content/uploads/2018/01/festa-d66.pdf) has `de cá pera lá`, and the related [*Vocabulário na Língua Brasílica*](https://upload.wikimedia.org/wikipedia/commons/8/84/Vocabul%C3%A1rio_na_l%C3%ADngua_bras%C3%ADlica_%28A3%29.pdf) has `de ca pera la`. Duarte Nunes de Leão describes the grave with the form `à` and recommends accents where they differentiate otherwise similar words ([1576, fols. 65v–66r](https://pml.cel.utad.pt/ViewEntry.aspx?id_entry=9)). These parallels identify the place for comparison, but the local type remains decisive.
 
 ### 2.7 Sound change, kana spelling, and variation
@@ -180,7 +182,7 @@ The opening dictionary page gives a compact warning against lexical modernizatio
 | --- | --- |
 | `ſ` versus `f` | They are different letters but visually close; the complete Portuguese word often exposes a misreading. |
 | `u` / `v`, `i` / `j` | Historical editions preserve these characters independently of modern vowel/consonant values. Copy the glyph rather than modernizing the word. |
-| tildes | They can denote nasalization or omitted material. Preserve their placement and do not expand them. |
+| tildes | They can denote nasalization or omitted material. Preserve their occurrence-level placement and do not expand them; this dictionary genuinely varies between forms such as `algũa` and `alguã`. |
 | accents | They may represent stress, vowel quality, length in Japanese material, or a different mark entirely. Classify the local sign. |
 | doubled letters | Contemporary spelling and typesetting can differ from modern expectation. Count the printed types. |
 | vowel and ending variants | Forms such as printed `deſiguaes` can look wrong to a modern reader but be historically coherent. |

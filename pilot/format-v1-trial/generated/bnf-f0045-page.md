@@ -106,7 +106,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l017` | Ayame. *Eſpadana.* |  |
 | `c2-l018` | Ayame. i. Yoxi axi. *Bem, ou mal dalgũa* |  |
 | `c2-l019` | &emsp;*couſa. ¶ Vt,* Monono ayameuo xirazu. |  |
-| `c2-l020` | &emsp;*Não ſaber dalguem, ou dalgũa couſa ſe he boa* |  |
+| `c2-l020` | &emsp;*Não ſaber dalguem, ou dalguã couſa ſe he boa* |  |
 | `c2-l021` | &emsp;*ou maa.* |  |
 | `c2-l022` | Ayana. i. Yeqi naxi. *Couſa vaã, & ſem* |  |
 | `c2-l023` | &emsp;*proueito. P.* |  |

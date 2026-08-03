@@ -93,8 +93,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l013` | Cagui, u, aida. *Cheirar.* |  |
 | `c2-l014` | Caguimeguri, u, utta. *Andar cheirando à* |  |
 | `c2-l015` | &emsp;*roda, ou por diuerſas partes.* |  |
-| `c2-l016` | Caguiô. *Exercicio, & pratica dalgũa arte* |  |
-| `c2-l017` | &emsp;*propria dalgũa familia.* |  |
+| `c2-l016` | Caguiô. *Exercicio, & pratica dalguã arte* |  |
+| `c2-l017` | &emsp;*propria dalguã familia.* |  |
 | `c2-l018` | Caguiri. *Termo, ou fim. ¶* Satano ca- |  |
 | `c2-l019` | &emsp;guiri, l, ſatano caguirina coto. *Couſa* |  |
 | `c2-l020` | &emsp;*muito mal feita, & que muito ſe eſtranha.* |  |
@@ -112,7 +112,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l032` | Cagu. Iyeno dǒgu. *Alfayas de caſa.* |  |
 | `c2-l033` | &emsp;*¶ Itẽ, Mezas, & eſcudelas, &c. ¶* Ca- |  |
 | `c2-l034` | &emsp;gu zǒgu. *Muitas alfayas, & varias.* |  |
-| `c2-l035` | Cagume, uru, eta. *Ter, ou leuar algũa cou-* |  |
+| `c2-l035` | Cagume, uru, eta. *Ter, ou leuar alguã cou-* |  |
 | `c2-l036` | &emsp;*ſa a cabeça. No Cami ſe diz, Itadaqu.* |  |
 | `c2-l037` | Cagume vchi. *O dar com a Catana leuãdoa* |  |
 | `c2-l038` | &emsp;*a cabeça pera deſcarregar com força, no Ca-* |  |

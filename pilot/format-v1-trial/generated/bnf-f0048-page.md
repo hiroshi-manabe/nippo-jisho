@@ -24,7 +24,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l008` | Bachi. *Caſtigo de culpas. ¶* Bachiuo cõ- |  |
 | `c1-l009` | &emsp;muru. *Ser caſtigado por ſuas culpas. ¶* Ba- |  |
 | `c1-l010` | &emsp;chiga ataru. *Receber caſtigo, ou pago* |  |
-| `c1-l011` | &emsp;*dalgũa culpa. ¶* Voyano bachiuo cabu- |  |
+| `c1-l011` | &emsp;*dalguã culpa. ¶* Voyano bachiuo cabu- |  |
 | `c1-l012` | &emsp;ru. *Receber o pago, ou caſtigo de Deos* |  |
 | `c1-l013` | &emsp;*pellas deſobediencias feitas ao pai, ou mãy.* |  |
 | `c1-l014` | Bachi. *Pao cõ que tãgem o tamboril. ¶ Itẽ,* |  |

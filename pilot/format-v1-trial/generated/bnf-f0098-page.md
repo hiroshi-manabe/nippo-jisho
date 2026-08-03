@@ -15,7 +15,7 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c1-l001` | &emsp;*parte, & peſada da outra, &c. ¶ Item,* |  |
-| `c1-l002` | &emsp;*Permet. Deſiguais em algũa arte, jogo, &c.* |  |
+| `c1-l002` | &emsp;*Permet. Deſiguais em alguã arte, jogo, &c.* |  |
 | `c1-l003` | Catazzu. *Cuſpinho. Mas vſaſe ſó neſta fraſe.* |  |
 | `c1-l004` | &emsp;*Vt,* Catazzuuo nomu. *Eſtar affligido,* |  |
 | `c1-l005` | &emsp;*& em aperto.* |  |
@@ -47,7 +47,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l031` | &emsp;*ſar grande fome.* |  |
 | `c1-l032` | Cate. *Matafotagẽ, ou mantimentos. ¶* Ca- |  |
 | `c1-l033` | &emsp;teuotçumu. *Ajuntar mantimentos, ¶* Iiẽ. |  |
-| `c1-l034` | &emsp;*Embarcalos, ou metelos ẽ algũa caſa. ¶* Ca- |  |
+| `c1-l034` | &emsp;*Embarcalos, ou metelos ẽ alguã caſa. ¶* Ca- |  |
 | `c1-l035` | &emsp;teni tçumaiu. *Faltarem os mantimentos.* |  |
 | `c1-l036` | Caten. i. Tenuo cuuayuru. *Acrecentar hũ* |  |
 | `c1-l037` | &emsp;*ponto à letra de Iapão com que ſe lê de outra* |  |

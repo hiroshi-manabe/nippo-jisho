@@ -53,7 +53,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l037` | Cacuxi, ſu, uita. *Eſconder algũa couſa, ou* |  |
 | `c1-l038` | &emsp;*ter em ſegredo.* |  |
 | `c1-l039` | Cacuxi docoro. *Lugar ſecreto, ou em que ſe* |  |
-| `c1-l040` | &emsp;*eſconde algũa couſa.* |  |
+| `c1-l040` | &emsp;*eſconde alguã couſa.* |  |
 | `c1-l041` | Cacuxǔ. Tabibune. *Embarcação de fora* |  |
 | `c1-l042` | &emsp;*de terra.* |  |
 | `c1-l043` | Cacuxut, l, xuxxen. Vonovono. i. Cacca- |  |

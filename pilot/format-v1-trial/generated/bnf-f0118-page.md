@@ -47,7 +47,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l031` | Cocoronicui. *Eſtar duuidoſo, & com concei-* |  |
 | `c1-l032` | &emsp;*to bom dalguem ſobre algũa couſa, &c.* |  |
 | `c1-l033` | &emsp;¶ Fitouo cocoronicù vomǒ. *Ter con-* |  |
-| `c1-l034` | &emsp;*ceito dalguem, ou ſoſpeitar delle algũa couſa* |  |
+| `c1-l034` | &emsp;*ceito dalguem, ou ſoſpeitar delle alguã couſa* |  |
 | `c1-l035` | &emsp;*boa, ou que terá ſaber, ou fazenda, &c.* |  |
 | `c1-l036` | &emsp;*mais do que moſtra.* |  |
 | `c1-l037` | Cocorono fana. *Conceito, ou traça que hum* |  |

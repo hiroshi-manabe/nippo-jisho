@@ -80,7 +80,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l006` | Atǒ. Cumi ſuru tomogara. *Homẽs da* |  |
 | `c2-l007` | &emsp;*meſma parcialidade pera fazer algũa conju-* |  |
 | `c2-l008` | &emsp;*ração, ou outro mal.* |  |
-| `c2-l009` | Ato. *Raſto, ou ſinal que fica dalgũa couſa.* |  |
+| `c2-l009` | Ato. *Raſto, ou ſinal que fica dalguã couſa.* |  |
 | `c2-l010` | &emsp;*¶* Fitono atouo xitǒ. *Ir em ſeguimento,* |  |
 | `c2-l011` | &emsp;*ou de traz dalguem. ¶ Item, Permet.* |  |
 | `c2-l012` | &emsp;*Seguir, & imitar alguem. ¶* Atouo ſuru. |  |
@@ -110,7 +110,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l036` | &emsp;nuru. *Ir perguntãdo em buſca dalguẽ. Fitono* |  |
 | `c2-l037` | &emsp;atono vôte mairu. *Ir em buſca dalguẽ pellos* |  |
 | `c2-l038` | &emsp;*paſſos, & pouſadas por onde vai. ¶* Ato ta- |  |
-| `c2-l039` | &emsp;yuru. *Acabarſe algũa couſa, ou pereçer* |  |
+| `c2-l039` | &emsp;yuru. *Acabarſe alguã couſa, ou pereçer* |  |
 | `c2-l040` | &emsp;*de maneira que não fique raſto. Itẽ, Extinguirẽ-* |  |
 | `c2-l041` | &emsp;*ſe os herdeiros. ¶* Atouo tatçuru. *Fazer* |  |
 | `c2-l042` | &emsp;*continuar a herança, ou familia de outro ale-* |  |

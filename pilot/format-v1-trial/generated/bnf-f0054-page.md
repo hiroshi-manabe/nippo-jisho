@@ -30,13 +30,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l014` | Bentǒna. *Couſa Abaſtada, ou abundante.* |  |
 | `c1-l015` | &emsp;Bentǒni. |  |
 | `c1-l016` | &emsp;Bentǒſa. |  |
-| `c1-l017` | Bentǒxa. *Homem rico, ou que tem algũa cou-* |  |
+| `c1-l017` | Bentǒxa. *Homem rico, ou que tem alguã cou-* |  |
 | `c1-l018` | &emsp;*ſa em abundancia.* |  |
 | `c1-l019` | Benxei. Vaqimaye ſumaſu. i. Fenben ſu- |  |
 | `c1-l020` | &emsp;ru. *Tomar o ſeu a ſeu dono, ou pagar a diuida.* |  |
 | `c1-l021` | &emsp;*¶ Item, Arrematar as contas, &c.* |  |
 | `c1-l022` | Benxǒ. Vaqimaye tçucurô. i. Monouo ca- |  |
-| `c1-l023` | &emsp;yeſu. *O tornar algũa couſa, ou pagala a* |  |
+| `c1-l023` | &emsp;yeſu. *O tornar alguã couſa, ou pagala a* |  |
 | `c1-l024` | &emsp;*ſeu dono.* |  |
 | `c1-l025` | Benxun. Tacana. *Olho da cana tenrra quan-* |  |
 | `c1-l026` | &emsp;*do nace.* |  |
@@ -111,7 +111,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l037` | Betguan. Bechino negai. *Outro deſejo.* |  |
 | `c2-l038` | Betji. Bechino coto. *Outra couſa.* |  |
 | `c2-l039` | Betji. *Melius,* Bechiji. Bexxiteno toqi. *Dia,* |  |
-| `c2-l040` | &emsp;*ou tempo determinado pera algũa couſa.* |  |
+| `c2-l040` | &emsp;*ou tempo determinado pera alguã couſa.* |  |
 | `c2-l041` | Betji. Bechino tera. *Outra varela.* |  |
 | `c2-l042` | Betjin. Bechino fito. *Outro homem.* |  |
 | `c2-l043` | Betjut. Bechino michi. *Outro modo, ou* |  |

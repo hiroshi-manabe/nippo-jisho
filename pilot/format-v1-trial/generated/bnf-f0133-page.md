@@ -21,7 +21,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l005` | Coxi. *Andas. Vt,* Coxiuo caqu. *Le-* |  |
 | `c1-l006` | &emsp;*uar as andas aos hombros. ¶* Coxiuo caqi- |  |
 | `c1-l007` | &emsp;yoſuru. *Chegar as andas. ¶* Coxini me- |  |
-| `c1-l008` | &emsp;iruru. *Meterſe algũa peſſoa nobre nas* |  |
+| `c1-l008` | &emsp;iruru. *Meterſe alguã peſſoa nobre nas* |  |
 | `c1-l009` | &emsp;*andas.* |  |
 | `c1-l010` | Coxi. *Cinta, ou cadeiras.* |  |
 | `c1-l011` | Coxiaqe. *Vt,* Coxiaqero qimono. *Qui-* |  |
@@ -104,7 +104,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l023` | Côxô. Tacai matçu. *Grande pinheiro.* |  |
 | `c2-l024` | Côxô. Tacai coye. *Voz alta.* |  |
 | `c2-l025` | Côxô. Yuye ſauari. *Impedimento, ou eſ-* |  |
-| `c2-l026` | &emsp;*toruo pera ir a algũa parte, &c.* |  |
+| `c2-l026` | &emsp;*toruo pera ir a alguã parte, &c.* |  |
 | `c2-l027` | Côxô. Tacai caqi. *Cèbe alta.* |  |
 | `c2-l028` | Côxocu. Curenaino iro. *Cor vermelha.* |  |
 | `c2-l029` | Côxocu. Irogonomi. *Senſualidade. ¶* Cô- |  |

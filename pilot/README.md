@@ -16,6 +16,8 @@ Potentially reusable discoveries are collected in [Working Editorial Observation
 
 The [Pilot Diacritic Audit](diacritic-audit.md) maintains the initial glyph inventory, occurrence-level results, Unicode choices, representative source-image crops, and the history of a superseded blanket correction. It distinguishes caron, circumflex, grave, and tilde without rewriting the frozen drafts.
 
+The separate [`algũa` / `alguã` Tilde-Position Audit](tilde-position-audit.md) checks all 388 occurrences of that family in the current Level 1 corpus against the scan. Its TSV ledger preserves every occurrence-level decision and prevents a visually variable setting from being normalized by lexical expectation.
+
 The first controlled [Wikisource comparison](wikisource-comparison/bnf-f0014.md) uses the blinded selected zones of `bnf-f0014`. It records exact revision provenance, a coverage snapshot, scan adjudication of every meaningful disagreement, and the limited licensing conclusion. The frozen draft remains unchanged.
 
 The comparison's reusable error patterns, together with later research on Jesuit romanization, are maintained in the [Provisional Transcription Reading Guide](../docs/transcription-reading-guide.md). Wikisource is no longer part of the routine workflow.

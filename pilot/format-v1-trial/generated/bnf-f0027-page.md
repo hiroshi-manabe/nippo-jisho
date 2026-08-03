@@ -123,7 +123,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l043` | Amazzura. i. Amanozacono tçura. *Foçi-* |  |
 | `c2-l044` | &emsp;*nho de hum certo animal. ¶* Amazzura- |  |
 | `c2-l045` | &emsp;no quantçuqe. *Hũas carrancas deſte ani-* |  |
-| `c2-l046` | &emsp;*mal que eſtão figuradas em algũas panelas de* |  |
+| `c2-l046` | &emsp;*mal que eſtão figuradas em alguãs panelas de* |  |
 | `c2-l047` | &emsp;*ferro do chanoyu no lugar das azas por onde* |  |
 
 ## Catchword

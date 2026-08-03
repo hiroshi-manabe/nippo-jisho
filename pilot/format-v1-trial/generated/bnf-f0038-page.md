@@ -41,7 +41,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l025` | &emsp;*Rabão, ou melão, ou outra couſa ſalgada pe-* |  |
 | `c1-l026` | &emsp;*ra logo ſe comer.* |  |
 | `c1-l027` | Aſobaſare, uru, eta. *Fazer peſſoa nobre, ou* |  |
-| `c1-l028` | &emsp;*honrrada algũa couſa, ler, eſcreuer, a tirar com* |  |
+| `c1-l028` | &emsp;*honrrada alguã couſa, ler, eſcreuer, a tirar com* |  |
 | `c1-l029` | &emsp;*arco, &c. Vt,* Teuo aſobaſaruru. *Eſ-* |  |
 | `c1-l030` | &emsp;*creuer. ¶* Yumiuo aſobaſaruru. *Tirar* |  |
 | `c1-l031` | &emsp;*com arco. ¶* Vtauo aſobaſaruru. *Cõ-* |  |
@@ -108,7 +108,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2b-l012` | &emsp;jenjenni atatameyo. *Não ponhaes ao fogo* |  |
 | `c2b-l013` | &emsp;*forte, mas pouco a pouco aquentar.* |  |
 | `c2b-l014` | Atacataqi. *Inimigo mao, & prejudicial.* |  |
-| `c2b-l015` | Atacamo. *Palaura pera dizer algũa compa-* |  |
+| `c2b-l015` | Atacamo. *Palaura pera dizer alguã compa-* |  |
 | `c2b-l016` | &emsp;*ração, ou ſemelhança, Vt, aſſi como, &c. ¶* A- |  |
 | `c2b-l017` | &emsp;tacamo deichino fachiſuno gotoxi. *He* |  |
 | `c2b-l018` | &emsp;*como dizer, que a flor do golfo naçe no meo* |  |

@@ -37,7 +37,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l021` | &emsp;*cuſas, & achaques.* |  |
 | `c1-l022` | Cacotçuqe, uru, eta. *Eſcuſarſe, ou tomar* |  |
 | `c1-l023` | &emsp;*por achaque. Vt,* Mononi cacotçuqete |  |
-| `c1-l024` | &emsp;mairanu. *Não vir tomando por achaque algũa* |  |
+| `c1-l024` | &emsp;mairanu. *Não vir tomando por achaque alguã* |  |
 | `c1-l025` | &emsp;*couſa.* |  |
 | `c1-l026` | Cacotçuqegoto. *Idem quod Cacotçuqe.* |  |
 | `c1-l027` | Cacoto, l, cagoto. i. Cacotçuqe. *Eſcuſa,* |  |

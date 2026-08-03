@@ -86,7 +86,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l006` | Banaca. i. *Meo da rua, ou terreiro. ¶* Ba- |  |
 | `c2-l007` | &emsp;nacade fagiuo caita. *Fiquei injuriado no* |  |
 | `c2-l008` | &emsp;*meo da rua diante de todos.* |  |
-| `c2-l009` | Banaraxi. *Começar a reprezentar algũa couſa* |  |
+| `c2-l009` | Banaraxi. *Começar a reprezentar alguã couſa* |  |
 | `c2-l010` | &emsp;*pera aquietar a gẽte antes da obra ſair no meſ-* |  |
 | `c2-l011` | &emsp;*mo lugar. ¶* Banaraxini vodoru. *Começar* |  |
 | `c2-l012` | &emsp;*a dãçar pera aquietar a gẽte. Aſſi ſe hade enten-* |  |

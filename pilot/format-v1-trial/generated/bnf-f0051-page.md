@@ -100,7 +100,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l021` | Bappon. Motouo nuqu. i. Motouo vchi |  |
 | `c2-l022` | &emsp;yaburu. *Deſtruir totalmente algũa couſa de* |  |
 | `c2-l023` | &emsp;*raiz.* |  |
-| `c2-l024` | Baqe, ru, eta. *Tomar algũa figura, ou traſ-* |  |
+| `c2-l024` | Baqe, ru, eta. *Tomar alguã figura, ou traſ-* |  |
 | `c2-l025` | &emsp;*formarſe como faz o demonio tomando figura* |  |
 | `c2-l026` | &emsp;*de rapoſa, paſſo que os Iapões não nomeão o dia-* |  |
 | `c2-l027` | &emsp;*bo, mas dizem Qitçunega baqeta. A-* |  |

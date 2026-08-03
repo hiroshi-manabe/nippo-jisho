@@ -47,7 +47,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l031` | Caqi. *Sebe.* |  |
 | `c1-l032` | Caqi, u, aita. *Eſcreuer. ¶ Item, Pin-* |  |
 | `c1-l033` | &emsp;*tar, ou debuxar. ¶* Teuo caqi aguru. |  |
-| `c1-l034` | &emsp;*Eſcreuer ja bem, & com algũa perfeição mais.* |  |
+| `c1-l034` | &emsp;*Eſcreuer ja bem, & com alguã perfeição mais.* |  |
 | `c1-l035` | Caqi, u, aita. *Arranhar, ou coçar. vt,* |  |
 | `c1-l036` | &emsp;Atamauo caqu. *Coçar a cabeça. ¶* Ibi- |  |
 | `c1-l037` | &emsp;quuo caqu. *Roncar dormindo. ¶* Fai- |  |

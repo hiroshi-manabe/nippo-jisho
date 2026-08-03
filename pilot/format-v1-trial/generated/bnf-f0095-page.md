@@ -49,10 +49,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l033` | &emsp;*outro. ¶* Fitono nauo catadoru. *To-* |  |
 | `c1-l034` | &emsp;*mar o nome ſemelhante ao dalguem, ou parte* |  |
 | `c1-l035` | &emsp;*do nome dalguem. ¶ Item, Aſſemelhar, ou* |  |
-| `c1-l036` | &emsp;*arremedar algũa couſa em parte, & não de* |  |
+| `c1-l036` | &emsp;*arremedar alguã couſa em parte, & não de* |  |
 | `c1-l037` | &emsp;*todo. Vt,* Niuauo tçucuri tatçuru toqi, |  |
 | `c1-l038` | &emsp;ymi, yamauo catadoru. *Quando ſe faz* |  |
-| `c1-l039` | &emsp;*algũa Niua arremedar dalgũa maneira o mar,* |  |
+| `c1-l039` | &emsp;*alguã Niua arremedar dalgũa maneira o mar,* |  |
 | `c1-l040` | &emsp;*& os montes.* |  |
 | `c1-l041` | Catafagai. *Hũa aza de paſſaro.* |  |
 | `c1-l042` | Catafai. *Caſa de telhado de hũa ſó banda, ou* |  |
@@ -103,7 +103,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l022` | Catai. *Couſa dura.* |  |
 | `c2-l023` | &emsp;Cataſa. Cato. |  |
 | `c2-l024` | Catajiqenai. *Palaura de agradecer, ou dar gra-* |  |
-| `c2-l025` | &emsp;*ças por algũa couſa.* |  |
+| `c2-l025` | &emsp;*ças por alguã couſa.* |  |
 | `c2-l026` | Catajiqenaſa. *Agradecimento. Vt,* Ama- |  |
 | `c2-l027` | &emsp;rino catajiqenaſani namidani muxebi, |  |
 | `c2-l028` | &emsp;*&c. Mon. Chorando muito com o gran-* |  |

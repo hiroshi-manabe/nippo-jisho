@@ -20,7 +20,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l004` | &emsp;Aiſoraxǔ. |  |
 | `c1-l005` | Aiſoye, uru, eta. *Vide* Soye, uru. |  |
 | `c1-l006` | Aiſumaxi, ſu, aita. *Concluir algũa couſa.* |  |
-| `c1-l007` | &emsp;*¶ Item, Terſe encontrado com algũa peſoa* |  |
+| `c1-l007` | &emsp;*¶ Item, Terſe encontrado com alguã peſoa* |  |
 | `c1-l008` | &emsp;*a ſua vontade, & a ſeu goſto.* |  |
 | `c1-l009` | Aiſuſume, ru, eta. *Vide* Suſume, ru. |  |
 | `c1-l010` | Aiſuſumi, u, unda. *Vide* Suſumi, u. |  |
@@ -94,18 +94,18 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l020` | &emsp;*& mimoſo.* |  |
 | `c2-l021` | Aixi, ſuru, ita. Ytçucuximi, u. *Amimar,* |  |
 | `c2-l022` | &emsp;*& moſtrar ſinaes damor. ¶ Item, Eſtimar,* |  |
-| `c2-l023` | &emsp;*& folgar com algũa couſa que lhe da goſto.* |  |
+| `c2-l023` | &emsp;*& folgar com alguã couſa que lhe da goſto.* |  |
 | `c2-l024` | &emsp;*¶* Fanauo aiſuru. *Folgar de ver as flo-* |  |
 | `c2-l025` | &emsp;*res, ou fullas.* |  |
 | `c2-l026` | Aixirai. *Agaſalhado, & bom tratamẽto que ſe* |  |
 | `c2-l027` | &emsp;*faz aos hoſpedes. ¶ Item, Otratar cõtento,* |  |
-| `c2-l028` | &emsp;*& brandamente algũa couſa deſtima, ou* |  |
+| `c2-l028` | &emsp;*& brandamente alguã couſa deſtima, ou* |  |
 | `c2-l029` | &emsp;*perigoſa de quebrar, &c. ¶* Aixiraino |  |
 | `c2-l030` | &emsp;itta vmagia. *He caualo que tem neceſsidade* |  |
 | `c2-l031` | &emsp;*de moderação no freo.* |  |
 | `c2-l032` | Aixirai, ǒ, ǒta. *Agaſalhar os hoſpedes, &* |  |
 | `c2-l033` | &emsp;*entretelos com pratica, & cõuerſação. ¶ Itẽ,* |  |
-| `c2-l034` | &emsp;*Tratar algũa couſa brandamente que ſe não da-* |  |
+| `c2-l034` | &emsp;*Tratar alguã couſa brandamente que ſe não da-* |  |
 | `c2-l035` | &emsp;*ne, ou quebre. ¶* Vmano cuchiuo aixirǒ. |  |
 | `c2-l036` | &emsp;*Moderar o freo, ou tratar brãdamente o caualo* |  |
 | `c2-l037` | &emsp;*no freo.* |  |

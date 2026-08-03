@@ -84,7 +84,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l010` | &emsp;*dalguem. ¶* Cotouo amanai, vomoteuo |  |
 | `c2-l011` | &emsp;fetçurǒ. *Fazer afagos, & caricias, ou li-* |  |
 | `c2-l012` | &emsp;*ſonzear. ¶ Item, Ter deſejo, & goſto em* |  |
-| `c2-l013` | &emsp;*algũa couſa, ou tela por boa, &c. ¶* Figaxo- |  |
+| `c2-l013` | &emsp;*alguã couſa, ou tela por boa, &c. ¶* Figaxo- |  |
 | `c2-l014` | &emsp;cuni vomomuite xiquauo amanǒ. *Obi-* |  |
 | `c2-l015` | &emsp;*cho do eſtio ſaltando na candea tem por bom,* |  |
 | `c2-l016` | &emsp;*ou apetece ofogo que o mata.* |  |

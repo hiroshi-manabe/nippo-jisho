@@ -26,11 +26,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1a-l010` | Cazzuqi, u. *Cubrirſe.* |  |
 | `c1a-l011` | Cazzuqi, u, uita. *Mergulhar pera tomar* |  |
 | `c1a-l012` | &emsp;*oſtras, ou outro mariſco.* |  |
-| `c1a-l013` | Cazzuqi. *O tomar algũa couſa de baxo da a-* |  |
+| `c1a-l013` | Cazzuqi. *O tomar alguã couſa de baxo da a-* |  |
 | `c1a-l014` | &emsp;*gua mergulhando.* |  |
 | `c1a-l015` | Cazzuqi. *Manto de molher.* |  |
 | `c1a-l016` | Cazzuqiague, uru, eta. *Mergulhando a* |  |
-| `c1a-l017` | &emsp;*leuantar algũa couſa.* |  |
+| `c1a-l017` | &emsp;*leuantar alguã couſa.* |  |
 | `c1a-l018` | Cazzura. *Era que trepa pellas aruores.* |  |
 | `c1a-l019` | Cazzura. *Certa rede comprida com que cercão,* |  |
 | `c1a-l020` | &emsp;*& leuão o pexe diante que ordinariamente ſão* |  |

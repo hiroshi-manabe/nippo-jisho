@@ -38,7 +38,7 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c1b-l001` | BEbe. *Hũa aruore.* |  |
 | `c1b-l002` | Bebenoco. *Vitella, ou bezerro. B.* |  |
-| `c1b-l003` | Beccaqu. i. Cacubet. *Differẽça dalgũa couſa.* |  |
+| `c1b-l003` | Beccaqu. i. Cacubet. *Differẽça dalguã couſa.* |  |
 | `c1b-l004` | Beccaquni. *Adu. Doutra maneira, ou mo-* |  |
 | `c1b-l005` | &emsp;*do differente, ou apartadamente.* |  |
 | `c1b-l006` | Beccan. *Hum certo manjar doçe que ſe faz de* |  |

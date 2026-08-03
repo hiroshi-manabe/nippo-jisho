@@ -116,7 +116,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2b-l004` | &emsp;*¶* Axeuo momu. *Suar o caualo, ou tra-* |  |
 | `c2b-l005` | &emsp;*balhar muito atè ſuar. ¶* Teni axeuomi- |  |
 | `c2b-l006` | &emsp;guiru. *Suar com pena, & cuidado, ou ver-* |  |
-| `c2b-l007` | &emsp;*gonha dalgũa couſa.* |  |
+| `c2b-l007` | &emsp;*gonha dalguã couſa.* |  |
 | `c2b-l008` | Axebu. *Bortoeja, ou burbulhas.* |  |
 | `c2b-l009` | Axebo. *Hũa aruore.* |  |
 | `c2b-l010` | Axenyacu. *Certa mezinha que ſe chama cacho.* |  |
@@ -134,7 +134,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2b-l022` | &emsp;ru. *Porſe em ſeição de ſe acolher, ou fugir.* |  |
 | `c2b-l023` | &emsp;*¶* Xiri axiuo fumu. *Recuar. ¶* Axi |  |
 | `c2b-l024` | &emsp;coxiga tatanu. *Prou. Não poder totalmẽ-* |  |
-| `c2b-l025` | &emsp;*te fazer algũa couſa, como quem ſe não pode bu-* |  |
+| `c2b-l025` | &emsp;*te fazer alguã couſa, como quem ſe não pode bu-* |  |
 | `c2b-l026` | &emsp;*lir, nem menear. ¶* Fiaxi. *Rayo, ou* |  |
 
 ## Signature

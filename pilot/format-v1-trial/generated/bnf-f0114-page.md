@@ -20,7 +20,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l004` | Chũguen. *Homem de eſporas.* |  |
 | `c1-l005` | Chùguen. *Eſpaço, ou entre meo. ¶* Chi- |  |
 | `c1-l006` | &emsp;guen rǒjeqi. *Violencia, ou injuria que ſe* |  |
-| `c1-l007` | &emsp;*faz ſobre algũa couſa que anda em demanda an-* |  |
+| `c1-l007` | &emsp;*faz ſobre alguã couſa que anda em demanda an-* |  |
 | `c1-l008` | &emsp;*tes de ſe liquidar, como tomando algũa couſa cõ* |  |
 | `c1-l009` | &emsp;*ajuda dalguem, antes de ſe dar ſentença, &c.* |  |
 | `c1-l010` | &emsp;¶ Chùguen rǒjeqiuo ſuru. *Fazer eſta* |  |
@@ -40,7 +40,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l024` | Chùjacu aye. *Certa iguaria que ſe faz com* |  |
 | `c1-l025` | &emsp;*abobora, & moſtarda.* |  |
 | `c1-l026` | Chùjet. Naca tayuru. *O ceſſar, ou interrom-* |  |
-| `c1-l027` | &emsp;*per algũa couſa. ¶ Item, Quebrada amizade.* |  |
+| `c1-l027` | &emsp;*per alguã couſa. ¶ Item, Quebrada amizade.* |  |
 | `c1-l028` | Chùjin. *Peſſoa de mediocre ſaber, & honr-* |  |
 | `c1-l029` | &emsp;*ra, &c.* |  |
 | `c1-l030` | Chùjiqi. i. Firuiy, l, firumexi. *Comer do* |  |
@@ -85,7 +85,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l011` | &emsp;*pão a que chamão Figan que he nos dous Equi-* |  |
 | `c2-l012` | &emsp;*noctios do anno, em Março, & ſetembro.* |  |
 | `c2-l013` | Chùnin. Nacôdo. i. Nacadachi. *Tercei-* |  |
-| `c2-l014` | &emsp;*ro, ou medianeiro que faz, & ou concerta algũas* |  |
+| `c2-l014` | &emsp;*ro, ou medianeiro que faz, & ou concerta alguãs* |  |
 | `c2-l015` | &emsp;*amizades, caſamento, &c.* |  |
 | `c2-l016` | Chùqi. *Certo offiçio que ha entre os Tẽxus.* |  |
 | `c2-l017` | Chùqin. i. Chùxet. *Seruiços aſſinalados.* |  |

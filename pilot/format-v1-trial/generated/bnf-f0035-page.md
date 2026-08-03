@@ -94,7 +94,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l014` | &emsp;*Todos os Camis.* |  |
 | `c2-l015` | Are. *Aquelle, ou aquillo. ¶* Coreua are |  |
 | `c2-l016` | &emsp;no de gozaru. *Iſto he daquelle.* |  |
-| `c2-l017` | Are, ruru, eta. *Danificarſe, ou deſtruirſe algũa* |  |
+| `c2-l017` | Are, ruru, eta. *Danificarſe, ou deſtruirſe alguã* |  |
 | `c2-l018` | &emsp;*couſa, como caſa, campo, por ſe não habitar, ou* |  |
 | `c2-l019` | &emsp;*cultiuar. ¶* Iyega aruru. *Danificarem-* |  |
 | `c2-l020` | &emsp;*ſe as caſas por ſe não habitarem nem refazerẽ.* |  |

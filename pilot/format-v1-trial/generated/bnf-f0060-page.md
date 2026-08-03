@@ -106,7 +106,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l032` | Bonju. i. Zôbocu. *Aruore commũa, & de* |  |
 | `c2-l033` | &emsp;*pouca eſtima.* |  |
 | `c2-l034` | Bonnin. i. Bonbu. *Homem que não tem* |  |
-| `c2-l035` | &emsp;*dignidade algũa, baixo, & ſem letras.* |  |
+| `c2-l035` | &emsp;*dignidade alguã, baixo, & ſem letras.* |  |
 | `c2-l036` | Bonnǒ. Vazzurai nayami. i. Togano ſô- |  |
 | `c2-l037` | &emsp;miǒ. *Palaura do Buppô pera declarar to-* |  |
 | `c2-l038` | &emsp;*dos os peccados em particular, & em gẽral.* |  |
@@ -114,7 +114,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l040` | &emsp;*¶* Bonnǒno coigi. *Afflição interior q̃* |  |
 | `c2-l041` | &emsp;*ſe ſente com deſejos ſenſuaes. ¶* Bonnǒ |  |
 | `c2-l042` | &emsp;cubi. *Vt,* Bonnǒ cubiuo ſuru. *Eſtar* |  |
-| `c2-l043` | &emsp;*deleixado, ou deſmayado com algũa afflição co-* |  |
+| `c2-l043` | &emsp;*deleixado, ou deſmayado com alguã afflição co-* |  |
 | `c2-l044` | &emsp;*mo fome, cuidado, &c.* |  |
 | `c2-l045` | Bonnocubo. *Touriço, ou coua do touriço.* |  |
 | `c2-l046` | Bonpi. Bonbuno iyaxij mono. *Homẽ ig-* |  |

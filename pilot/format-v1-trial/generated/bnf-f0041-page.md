@@ -113,7 +113,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l033` | &emsp;Auareni. |  |
 | `c2-l034` | &emsp;Auareſa. |  |
 | `c2-l035` | Auatataxij. *Açodado, leue, ou perturbado* |  |
-| `c2-l036` | &emsp;*em fazer algũa couſa.* |  |
+| `c2-l036` | &emsp;*em fazer alguã couſa.* |  |
 | `c2-l037` | &emsp;Auatataxiſa. |  |
 | `c2-l038` | &emsp;Auatataxǔ. |  |
 | `c2-l039` | Auate, tçuru, teta. *Perturbarſe com grande* |  |

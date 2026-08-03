@@ -19,7 +19,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l003` | &emsp;*o arroz com os pès.* |  |
 | `c1-l004` | Caraxi. *Moſtarda.* |  |
 | `c1-l005` | Caraxi, ſu, aita. *Secar, fazer, ou dei-* |  |
-| `c1-l006` | &emsp;*xar ſecar algũa couſa. ¶* Cotobano ſaqi |  |
+| `c1-l006` | &emsp;*xar ſecar alguã couſa. ¶* Cotobano ſaqi |  |
 | `c1-l007` | &emsp;uo caraſu. *Dizer dantes o fim do que hum* |  |
 | `c1-l008` | &emsp;*começa a contar como quem moſtra eſtar no ca-* |  |
 | `c1-l009` | &emsp;*bo do que ſe conta.* |  |
@@ -86,8 +86,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l012` | Cari, ru, atta. *Segar.* |  |
 | `c2-l013` | Cari, u, atta. *Caçar.* |  |
 | `c2-l014` | Cariaqu. *Sincopa que ſe faz comẽdo, ou deixa-* |  |
-| `c2-l015` | &emsp;*do de pronũciar algũa ſillaba do cabo da palau-* |  |
-| `c2-l016` | &emsp;*ra, ou deixando de dar algũas pancadas do cabo no* |  |
+| `c2-l015` | &emsp;*do de pronũciar alguã ſillaba do cabo da palau-* |  |
+| `c2-l016` | &emsp;*ra, ou deixando de dar alguãs pancadas do cabo no* |  |
 | `c2-l017` | &emsp;*tanger, &c.* |  |
 | `c2-l018` | Cariague, uru, eta. *Leuantar veſtido, ou* |  |
 | `c2-l019` | &emsp;*arregaçarſe. Vt,* Ixǒuo cariaguru. *B.* |  |
