@@ -44,6 +44,16 @@ class HumanReviewTests(unittest.TestCase):
                 "bnf-f0025",
                 "bnf-f0026",
                 "bnf-f0027",
+                "bnf-f0028",
+                "bnf-f0029",
+                "bnf-f0030",
+                "bnf-f0031",
+                "bnf-f0032",
+                "bnf-f0033",
+                "bnf-f0034",
+                "bnf-f0035",
+                "bnf-f0036",
+                "bnf-f0037",
                 "bnf-f0248",
                 "bnf-f0249",
                 "bnf-f0250",
@@ -72,7 +82,7 @@ class HumanReviewTests(unittest.TestCase):
                 for key, status in states.items()
                 if key[0] not in {"bnf-f0014", "bnf-f0015", "bnf-f0016"}
             ],
-            ["pending"] * 48,
+            ["pending"] * 78,
         )
         self.assertEqual(states[("bnf-f0014", "furniture")], "checked")
 

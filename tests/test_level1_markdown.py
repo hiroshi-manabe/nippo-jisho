@@ -35,15 +35,15 @@ class Level1MarkdownTests(unittest.TestCase):
             check=False,
         )
         self.assertEqual(result.returncode, 0, result.stderr)
-        self.assertIn("Validated 19 compact Level 1 page records", result.stdout)
+        self.assertIn("Validated 29 compact Level 1 page records", result.stdout)
 
-    def test_all_source_pages_parse_and_retain_1787_lines(self):
+    def test_all_source_pages_parse_and_retain_2763_lines(self):
         module = load_module()
         pages = [module.parse_markdown(path) for path in sorted(SOURCE.glob("*.md"))]
-        self.assertEqual(len(pages), 19)
+        self.assertEqual(len(pages), 29)
         self.assertEqual(
             sum(len(zone.get("lines", [])) for page in pages for zone in page["zones"]),
-            1787,
+            2763,
         )
         for page in pages:
             committed = json.loads((JSON_DIR / f"{page['id']}.json").read_text(encoding="utf-8"))
@@ -69,6 +69,10 @@ class Level1MarkdownTests(unittest.TestCase):
             "bnf-f0019": ["c1b-l001", "c2b-l001"],
             "bnf-f0021": ["c2b-l001"],
             "bnf-f0025": ["c2b-l001"],
+            "bnf-f0029": ["c1-l001"],
+            "bnf-f0031": ["c2p-l001", "c2q-l001"],
+            "bnf-f0033": ["c1b-l001"],
+            "bnf-f0036": ["c2b-l001"],
             "bnf-f0248": ["c2b-l001"],
         }
         for page_id, line_ids in expected.items():
@@ -277,6 +281,30 @@ class Level1MarkdownTests(unittest.TestCase):
             self.assertIn("status: scan_confirmed", source)
             for reading in readings:
                 self.assertIn(reading, source, f"{reading!r} missing from {filename}")
+
+    def test_normal_bounded_f28_f37_batch_readings_are_retained(self):
+        f28 = (SOURCE / "bnf-f0028.md").read_text(encoding="utf-8")
+        self.assertIn("Ameni nurete tçuyi voſoroxicarazu", f28)
+        self.assertIn("Amey ſameto", f28)
+        self.assertIn("Amiuo votçu", f28)
+        self.assertIn("Amiuo ſuqu", f28)
+
+        f29 = (SOURCE / "bnf-f0029.md").read_text(encoding="utf-8")
+        self.assertIn("[c1-l001 initial=2] AN, iuori.", f29)
+        self.assertNotIn("## page-number", f29)
+
+        f31 = (SOURCE / "bnf-f0031.md").read_text(encoding="utf-8")
+        self.assertIn("[c2p-l001 initial=2] APPare.", f31)
+        self.assertIn("[c2q-l001 initial=2] AQE,", f31)
+
+        f36 = (SOURCE / "bnf-f0036.md").read_text(encoding="utf-8")
+        self.assertIn("[c2b-l001 initial=2] ASA.", f36)
+        self.assertIn("Aſaboſa", f36)
+
+        f37 = (SOURCE / "bnf-f0037.md").read_text(encoding="utf-8")
+        self.assertIn("Aſagaſumi. *Nevoa", f37)
+        self.assertIn("Campainha frol azul", f37)
+        self.assertNotIn("[c1-l001] Asadachi", f37)
 
     def test_production_simulation_pages_are_scan_confirmed(self):
         f249 = (SOURCE / "bnf-f0249.md").read_text(encoding="utf-8")

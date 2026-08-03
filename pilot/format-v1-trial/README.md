@@ -2,7 +2,7 @@
 
 ## Result
 
-The corpus represents nineteen complete pages in the adopted compact human-readable Level 1 authoring format. The six-page, 526-line adoption baseline has been extended by thirteen sequential production pages, bringing the compiler-validated total to 1,787 physical lines. Seven structural assertions and eight selected reading sequences remain as a secondary compatibility check, not the current design focus.
+The corpus represents 29 complete pages in the adopted compact human-readable Level 1 authoring format. The six-page, 526-line adoption baseline has been extended by 23 sequential production pages, bringing the compiler-validated total to 2,763 physical lines. Seven structural assertions and eight selected reading sequences remain as a secondary compatibility check, not the current design focus.
 
 Format version 1 was adopted after the [timed f249–f250 production simulation](../production-simulation/f0249-f0250.md) required no new syntax. Compact Markdown is the authoring form; JSON is generated for validation and interchange. A genuinely unresolved reading has not yet exercised uncertainty notation, which will be added only in a compatible evidence-driven revision.
 
@@ -17,12 +17,13 @@ Format version 1 was adopted after the [timed f249–f250 production simulation]
 | `bnf-f0017` | Complete dictionary text and textual furniture | Strengthened contextual and right-edge audit, historical `-aõ`, continuation from f16 and catchword to f18 |
 | `bnf-f0018`–`bnf-f0022` | Complete dictionary text and textual furniture | Five-page bounded batch, frozen normal checkpoints, at least five additional scan-confirmed findings per page, enlarged section initials, calibrated human-review geometry |
 | `bnf-f0023`–`bnf-f0027` | Complete dictionary text and textual furniture | Strictly sequential five-page batch, page-independent 30–60 marginal-discovery stopping rule, source-anomaly checks, calibrated human-review geometry |
+| `bnf-f0028`–`bnf-f0037` | Complete dictionary text and textual furniture | Ten-page normal bounded batch, bilingual and glyph passes, later NINJAL coverage diagnostics, manually reviewed section transitions and complete-glyph crops |
 | `bnf-f0248` | Complete dictionary text and textual furniture | Caron/circumflex contrast, displaced `(grande.`, identical running and internal headings, `Gǔcon`, catchword |
 | `bnf-f0249` | Complete dictionary text and textual furniture | Fresh-page production timing, `f248` catchword continuation, printed page number and signature, displaced `(o homem.` |
 | `bnf-f0250` | Complete dictionary text and textual furniture | Consecutive-page production timing, catchword continuation and confirmation against `f251`, contextual review yield |
 | `bnf-f0643` | Complete dictionary text and textual furniture | Circumflex, caron, and grave accent examples; ownership stamp, printed page number, terminus, closing ornament |
 
-The nineteen complete page records contain 1,787 physical lines. Exact source-image SHA-256 values are stored in each Level 1 page record.
+The 29 complete page records contain 2,763 physical lines. Exact source-image SHA-256 values are stored in each Level 1 page record.
 
 ## Files
 
@@ -35,7 +36,7 @@ The nineteen complete page records contain 1,787 physical lines. Exact source-im
 - [`../../docs/level1-markdown-candidate.md`](../../docs/level1-markdown-candidate.md) documents the compact version 1 authoring syntax.
 - [`../../scripts/compile_level1_markdown.py`](../../scripts/compile_level1_markdown.py) validates and compiles the human-readable sources.
 - [`../../scripts/render_format_trial.py`](../../scripts/render_format_trial.py) validates the records and regenerates the views.
-- [`../human-review/README.md`](../human-review/README.md) documents the dictionary-wide generated review shell and the line-by-line checkpoint for all nineteen Level 1 pages.
+- [`../human-review/README.md`](../human-review/README.md) documents the dictionary-wide generated review shell and the line-by-line checkpoint for all 29 Level 1 pages.
 
 Run from the repository root:
 
@@ -63,6 +64,8 @@ This strengthened production procedure was first applied end to end in the [f14 
 
 The first sequential application is recorded in the [f15 repeated-pass report](../production-review/bnf-f0015.md). Multiple separate passes caught several errors before the human checkpoint, but independent comparison still found ten corrections, including faint `menhaã`, tilde placement in `briguigoĩs`, source spacing, `comballas`, `faru`, and the `ſs` sequence in `aſsi`. The method therefore remained above the two-or-three correction target.
 
+Pages `f28`–`f37` use the normal bounded procedure without the optional 30–60 marginal-discovery audit. This separates routine forward progress from the much more expensive diminishing-returns experiment. The scan-based pass includes complete line coverage, Japanese and Portuguese context, base-letter and mark checks, reverse order, and a fresh sweep; it then uses NINJAL only for coverage and suspicion generation. All ten pages have visually reviewed line geometry and remain pending independent human review.
+
 The [f16 production report](../production-review/bnf-f0016.md) replaces further anchored rereading with an independent second reading and explicit proposal adjudication. Its two pre-handoff proposals each caught a real local feature but neither complete proposed string survived human review: the space in `Sagui yuqu` and the marked `Sõ-` were valid, while `yiqu` and following `fir` were not. The first human checkpoint and renewed audit found seven missed corrections; completed column review and a repetition sweep found twenty-two more. These include right-edge evidence, mixed `ſs`, historical Portuguese spelling and spacing, and Japanese-context errors. Two audit proposals, `A=` and `cla=`, were also unnecessary under the provisional uniform `-` convention. The result shows that proposals must be recorded atomically and that independent comparison alone did not meet the quality target.
 
 The older version-0 files remain frozen and were not rewritten. They were useful as error-history and coverage prompts, not as text to convert mechanically.
@@ -72,6 +75,8 @@ The older version-0 files remain frozen and were not rewritten. They were useful
 NINJAL version 202510 expects 16 source-order records on `f13` (`001a01`–`001b07`), 31 on `f14` (`001c01`–`001d18`), 36 on `f248` (`122c01`–`122d18`), and 29 on `f643` (`330a01`–`330b15`). Every expected record has a corresponding visible form in the complete Level 1 page records; the post-checkpoint comparison found no omitted entry candidate.
 
 The sequential pages add all 37 expected records on `f15` (`002a01`–`002b20`), all 36 on `f16` (`002c01`–`002d19`), and all 40 on `f17` (`003a01`–`003b23`). The production simulation adds all 43 expected records on `f249` (`123a01`–`123b20`) and all 43 on `f250` (`123c01`–`123d20`). NINJAL was opened only after the independent visual checkpoint. It exposed suspicious forms such as draft `Gunauaqi`, but the scan independently decided every correction and disagreement, including preservation of printed `Guxer` where the headword row gives `Guxet`.
+
+The f28–f37 batch represents all 378 NINJAL rows assigned to those Gallica leaves. This is a coverage result, not a claim that the normalized row strings are diplomatic transcriptions. In particular, NINJAL's `Asa-` strings prompted a coverage check while the Gallica scan adjudicated the printed medial long `ſ` throughout f36–f37.
 
 This agreement concerns coverage, not diplomatic identity. The Level 1 record retains differences such as source `Abarabone` without an immediately following period and lowercase `aburamono`, while the external headword data supplies normalized strings. `Abunaſa` and `Abunǒ` are also preserved as visible subordinate forms even though they are not separate NINJAL records.
 
@@ -85,8 +90,8 @@ The external page displayed neighboring text as unavoidable context. No neighbor
 
 ### Successful parts
 
-- All seven complete pages can be read directly as Markdown while compiling back to the complete 623-line machine representation.
-- The seven authoring files occupy 853 lines and 34,735 bytes, compared with 8,198 lines and 184,350 bytes for the generated pretty-printed JSON.
+- All 29 complete pages can be read directly as Markdown while compiling back to the complete 2,763-line machine representation.
+- The 29 authoring files occupy 3,730 lines and 153,304 bytes, compared with 37,045 lines and 832,483 bytes for the generated pretty-printed JSON.
 - Ordinary physical lines require only a stable ID and their visible text; Markdown emphasis records typeface without explicit run objects.
 - Only `(grande.` and `(o homem.` need named sub-line spans in the current sample, so exceptional machinery remains exceptional.
 - Stable physical-line identifiers provide adequate targets for later structure.
@@ -97,7 +102,7 @@ The external page displayed neighboring text as unavoidable context. No neighbor
 - Catchwords remain visible source strings while their page relationships and exclusion from lexical views are structural assertions.
 - Provisionally, the printed line-division sign is encoded uniformly as `-` in roman and italic type; the equals-like appearance seen in italic text is not promoted to a separate character unless wider sampling supplies a functional or non-italic counterexample.
 - Occurrence-level Unicode preserves `ǒ`, `ô`, `ǔ`, and `ù` without global replacement.
-- The compatible `initial=2` annotation preserves six recurring enlarged section initials without joining the following physical line or burdening ordinary lines with extra markup.
+- The compatible `initial=2` annotation preserves eleven recurring enlarged section initials without joining the following physical line or burdening ordinary lines with extra markup.
 
 ### Costs and limitations
 
