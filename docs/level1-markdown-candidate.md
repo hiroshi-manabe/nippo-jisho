@@ -115,7 +115,7 @@ The working rule is: preserve what a later layer may need, but postpone deciding
 
 ## Enlarged initials across physical lines
 
-Internal alphabetical sections regularly begin with an enlarged first letter that extends beside the following physical line. The 29-page corpus contains eleven confirmed examples: `ADA` on `f18`; `AFIru` and `AGAme` on `f19`; `AI` on `f21`; `AMA` on `f25`; `AN` on `f29`; `APPare` and `AQE` on `f31`; `ARA` on `f33`; `ASA` on `f36`; and `GV` on `f248`. This is observable recurring typography, not inferred entry structure.
+Internal alphabetical sections regularly begin with an enlarged first letter that extends beside following physical lines. The 39-page corpus contains seventeen confirmed examples: `ADA` on `f18`; `AFIru` and `AGAme` on `f19`; `AI` on `f21`; `AMA` on `f25`; `AN` on `f29`; `APPare` and `AQE` on `f31`; `ARA` on `f33`; `ASA` on `f36`; `ATA` on `f38`; `AVA` on `f41`; `AXE` on `f43`; `AYA` on `f45`; `AZA` on `f46`; the decorated `BA` on `f47`; and `GV` on `f248`. This is observable recurring typography, not inferred entry structure.
 
 The annotation remains on the line to which the character belongs textually:
 
@@ -124,7 +124,7 @@ The annotation remains on the line to which the character belongs textually:
 [c1b-l002] Afǒ. i. Vtçuqe. *Paruo, tollo.*
 ```
 
-The compiler preserves the ordinary plain text `AFIru.` while splitting its first character into a run with `layout: "large-initial"` and `line_span: 2`. It does not merge the two physical lines or attempt facsimile reconstruction. Review-image geometry gives the first line a taller crop containing the complete initial; overlap with the following line is intentional.
+The compiler preserves the ordinary plain text `AFIru.` while splitting its first character into a run with `layout: "large-initial"` and `line_span: 2`. The value is observational rather than fixed: f47 uses `initial=4` for its four-line decorated `B`. The compiler does not merge physical lines or attempt facsimile reconstruction. Review-image geometry gives the owning line a taller crop containing the complete initial; overlap with following lines is intentional.
 
 ## Deliberate limits
 

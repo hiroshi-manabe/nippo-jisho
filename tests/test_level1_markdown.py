@@ -35,15 +35,15 @@ class Level1MarkdownTests(unittest.TestCase):
             check=False,
         )
         self.assertEqual(result.returncode, 0, result.stderr)
-        self.assertIn("Validated 29 compact Level 1 page records", result.stdout)
+        self.assertIn("Validated 39 compact Level 1 page records", result.stdout)
 
-    def test_all_source_pages_parse_and_retain_2763_lines(self):
+    def test_all_source_pages_parse_and_retain_3738_lines(self):
         module = load_module()
         pages = [module.parse_markdown(path) for path in sorted(SOURCE.glob("*.md"))]
-        self.assertEqual(len(pages), 29)
+        self.assertEqual(len(pages), 39)
         self.assertEqual(
             sum(len(zone.get("lines", [])) for page in pages for zone in page["zones"]),
-            2763,
+            3738,
         )
         for page in pages:
             committed = json.loads((JSON_DIR / f"{page['id']}.json").read_text(encoding="utf-8"))
@@ -65,15 +65,21 @@ class Level1MarkdownTests(unittest.TestCase):
 
     def test_recurring_large_initials_are_explicit_and_round_trip(self):
         expected = {
-            "bnf-f0018": ["c2b-l001"],
-            "bnf-f0019": ["c1b-l001", "c2b-l001"],
-            "bnf-f0021": ["c2b-l001"],
-            "bnf-f0025": ["c2b-l001"],
-            "bnf-f0029": ["c1-l001"],
-            "bnf-f0031": ["c2p-l001", "c2q-l001"],
-            "bnf-f0033": ["c1b-l001"],
-            "bnf-f0036": ["c2b-l001"],
-            "bnf-f0248": ["c2b-l001"],
+            "bnf-f0018": {"c2b-l001": 2},
+            "bnf-f0019": {"c1b-l001": 2, "c2b-l001": 2},
+            "bnf-f0021": {"c2b-l001": 2},
+            "bnf-f0025": {"c2b-l001": 2},
+            "bnf-f0029": {"c1-l001": 2},
+            "bnf-f0031": {"c2p-l001": 2, "c2q-l001": 2},
+            "bnf-f0033": {"c1b-l001": 2},
+            "bnf-f0036": {"c2b-l001": 2},
+            "bnf-f0038": {"c2b-l001": 2},
+            "bnf-f0041": {"c2-l001": 2},
+            "bnf-f0043": {"c2b-l001": 2},
+            "bnf-f0045": {"c1b-l001": 2},
+            "bnf-f0046": {"c1b-l001": 2},
+            "bnf-f0047": {"c1b-l001": 4},
+            "bnf-f0248": {"c2b-l001": 2},
         }
         for page_id, line_ids in expected.items():
             source = (SOURCE / f"{page_id}.md").read_text(encoding="utf-8")
@@ -83,11 +89,11 @@ class Level1MarkdownTests(unittest.TestCase):
                 for zone in page["zones"]
                 for line in zone.get("lines", [])
             }
-            for line_id in line_ids:
-                self.assertIn(f"[{line_id} initial=2]", source)
+            for line_id, line_span in line_ids.items():
+                self.assertIn(f"[{line_id} initial={line_span}]", source)
                 first = lines[line_id]["runs"][0]
                 self.assertEqual(first["layout"], "large-initial")
-                self.assertEqual(first["line_span"], 2)
+                self.assertEqual(first["line_span"], line_span)
                 self.assertEqual(len(first["text"]), 1)
 
     def test_contextual_review_corrections_are_retained(self):
