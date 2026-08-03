@@ -19,6 +19,13 @@ class PublicReviewRegressionTests(unittest.TestCase):
         self.assertIn("Did you submit the GitHub Issue?", document)
         self.assertIn("Submit again", document)
 
+    def test_page_view_has_explicit_overview_control(self):
+        app = (ROOT / "site" / "app.js").read_text(encoding="utf-8")
+        document = (ROOT / "site" / "index.html").read_text(encoding="utf-8")
+        self.assertIn('id="back-to-overview"', document)
+        self.assertIn("← All pages", document)
+        self.assertIn("$('#back-to-overview').addEventListener('click', () => showOverview())", app)
+
     def test_f18_acuxocu_crop_is_centered_and_has_overlap(self):
         record = json.loads(
             (ROOT / "pilot" / "human-review" / "line-geometry.json").read_text(

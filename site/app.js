@@ -521,6 +521,7 @@ document.addEventListener('submit', event => {
 });
 
 $('#home').addEventListener('click', () => showOverview());
+$('#back-to-overview').addEventListener('click', () => showOverview());
 $('#filter').addEventListener('change', renderGrid); $('#sort').addEventListener('change', renderGrid);
 $('#previous').addEventListener('click', () => showPage(state.currentPage.leaf - 1, state.unit));
 $('#next').addEventListener('click', () => showPage(state.currentPage.leaf + 1, state.unit));

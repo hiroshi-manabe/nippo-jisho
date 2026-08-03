@@ -24,6 +24,8 @@ The badges report activity, not quality. A page with no corrections is not there
 
 The page view retains full-page and column context, but the physical line is the primary checking unit. For each line, the scan strip is placed above its transcription, and both use the same practical horizontal extent. This makes the characters in the image and transcription directly comparable from left to right.
 
+The sticky page-navigation bar includes an explicit **← All pages** button. The project title also returns to the overview, but it is not the sole or implicit way out of an individual page.
+
 Unchanged rows remain compact. Clicking the transcription opens an editor containing:
 
 - the editable transcription;
