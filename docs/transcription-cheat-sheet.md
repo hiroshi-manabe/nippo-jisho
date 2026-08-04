@@ -60,6 +60,7 @@ These are **reinspection prompts, not replacement rules**.
 - Initial `v`, capitalization, long `ſ`, ligatures, and spacing can carry segmentation cues, but none is a complete entry-boundary system.
 - Keep line-end hyphens, catchwords, displaced text, and physical line division as page evidence. Structural joining belongs later. Inspect every column edge directly: a word continuing on the next line does not prove that a hyphen was printed. On f26, `bo` / `ião` has no visible mark even though nearby `na-`, `on-`, and `mun-` do. Verify isolated bottom-right text against the following page before deciding that it is a final content line: f26's `do` repeats the first word of f27 and is a catchword.
 - Count repeated s-types twice—first for how many letters are present, then for whether each is long `ſ` or short `s`; do not supply an expected doubling or turn a visible mixed `ſs` pair into `ſſ`. F27 independently confirms mixed `Paſsante` and `Peſsoa` beside true `ſſ` pairs.
+- Treat italic `st` as a separate high-risk case. A short, low `s` can be joined to a `t` whose head or cross-stroke extends left; the resulting `ﬆ` ligature can look like long `ſ` plus `t` (`ﬅ`). Locate the body of the `s` and decide which letter owns the tall stroke before expanding the ligature. Compare genuine isolated `ſ`, short `s`, and `t` in the same italic type. At `f16/c2-l029`, current `Roſto` is flagged for systematic re-evaluation because the scan appears instead to contain short-`s`–`t` `Rosto`; nearby `vestido` appears to use the same construction.
 
 ## Portuguese prompts
 
@@ -95,6 +96,7 @@ Ask, in this order:
 2. Does Japanese morphology or the Portuguese gloss make one reading substantially more likely?
 3. Does the dictionary's romanization allow the apparently odd sequence?
 4. Does enlargement support the contextual reading?
-5. If not, should the print's odd form be preserved or the reading marked uncertain?
+5. In an apparent `ſt`, does the tall stroke belong to `ſ`, or is it the left-reaching head of `t` joined to a short `s`?
+6. If not, should the print's odd form be preserved or the reading marked uncertain?
 
 Known traps and scan-adjudicated examples are catalogued in the [reading guide](transcription-reading-guide.md#known-expectation-driven-errors). Detailed linguistic explanations and source provenance are in the [historical notes](historical-language-notes.md).
