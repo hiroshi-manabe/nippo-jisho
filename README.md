@@ -27,7 +27,7 @@ The complete high-resolution source cache can be obtained with the resumable pro
 
 The current high-resolution reading experiment is described in [Tiled Visual Review](docs/tiled-visual-review.md).
 
-The adopted [Level 1 page-transcription format](docs/page-transcription-format-v1-candidate.md) and its [179-page corpus](pilot/format-v1-trial/README.md) now cover 17,481 physical lines. The [compact Level 1 Markdown format](docs/level1-markdown-candidate.md) is the human-readable authoring form and regenerates the validated machine representation. Adoption evidence and timing are recorded in the [f249–f250 production simulation](pilot/production-simulation/f0249-f0250.md); sequential production reports now run from [`f15`](pilot/production-review/bnf-f0015.md) through [`f187`](pilot/production-review/bnf-f0187.md).
+The adopted [Level 1 page-transcription format](docs/page-transcription-format-v1-candidate.md) and its [189-page corpus](pilot/format-v1-trial/README.md) now cover 18,462 physical lines. The [compact Level 1 Markdown format](docs/level1-markdown-candidate.md) is the human-readable authoring form and regenerates the validated machine representation. Adoption evidence and timing are recorded in the [f249–f250 production simulation](pilot/production-simulation/f0249-f0250.md); sequential production reports now run from [`f15`](pilot/production-review/bnf-f0015.md) through [`f197`](pilot/production-review/bnf-f0197.md).
 
 The [dictionary-wide human review interface](pilot/human-review/README.md) navigates all 651 acquired Gallica leaves, marks scan-only pages as unprocessed, and presents existing Level 1 pages as scan-and-transcription pairs. The public implementation follows the [Human Review and Correction Workflow](docs/human-review-workflow.md): a thumbnail overview, compact line editing, adaptive complete-glyph crops from one Gallica IIIF page image, an in-context two-level transcription reference, clipboard-to-Issue submission, and correction-history measures that do not claim final verification.
 
@@ -49,4 +49,4 @@ The completed [Transcription-Format Pilot](docs/transcription-format-pilot.md) s
 
 ## Current status
 
-The project is currently in **Level 1 production validation**. The format has been adopted, `f14` has completed human review, and sequential scan-confirmed transcription now runs through `f187`; later human correction remains an expected part of the workflow. See [Project Status](STATUS.md) for the current focus.
+The project is currently in **Level 1 production validation**. The format has been adopted, `f14` has completed human review, and sequential scan-confirmed transcription now runs through `f197`; later human correction remains an expected part of the workflow. See [Project Status](STATUS.md) for the current focus.
