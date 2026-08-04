@@ -1,0 +1,128 @@
+# Page view: bnf-f0228
+
+Source: https://gallica.bnf.fr/ark:/12148/bpt6k852354j/f228.item
+
+Scope: `full_dictionary_text_and_furniture`
+
+## Column 1 running header
+
+| Physical line | Main position | Far right |
+| --- | --- | --- |
+| `h1-l001` | **F ANTES DO V.** |  |
+
+## Column 1
+
+| Physical line | Main position | Far right |
+| --- | --- | --- |
+| `c1-l001` | Fuvn. Vgicumo. *Nuuem que eſtà no ar.* |  |
+| `c1-l002` | Fuunna. *Couſa deſditoſa, ou deſafortunada.* |  |
+| `c1-l003` | Fuunni. *Aduer.* |  |
+| `c1-l004` | Fuxe. *Eſmola que ſe da aos Bõzos por algum* |  |
+| `c1-l005` | &emsp;*officio, ceremonia, &c. ¶* Fuxeuo ſu- |  |
+| `c1-l006` | &emsp;ru. *Dar ſemelhante eſmola.* |  |
+| `c1-l007` | Fuxe. *Remendo. ¶* Fuxeuo ſuru. *Re-* |  |
+| `c1-l008` | &emsp;*mendar. No Cami ſe diz.* Tçuguiuo ſuru. |  |
+| `c1-l009` | Fuxe. *Lugar na Catana onde ſe mete a Cõga-* |  |
+| `c1-l010` | &emsp;*tana, ou outro inſtrumento de ferro. Vt,* |  |
+| `c1-l011` | &emsp;Cogatana buxe, l, cõgai buxe. |  |
+| `c1-l012` | Fuxe, uru, eta. *Fazer deitar. Vt,* V- |  |
+| `c1-l013` | &emsp;mauo fuſuru. *Fazer cair, ou deitar o* |  |
+| `c1-l014` | &emsp;*caualo. ¶ Item, Permet. Condenar. Vt,* |  |
+| `c1-l015` | &emsp;Fito tçumini fuſuru. |  |
+| `c1-l016` | Fuxe, uru, eta. *Remendar. X. Vt,* Qi- |  |
+| `c1-l017` | &emsp;rumonouo fuſuru. |  |
+| `c1-l018` | Fuxego. *Hũa maneira de cubertoura com hũs* |  |
+| `c1-l019` | &emsp;*buraquinhos que põe ſobre algum perfumador* |  |
+| `c1-l020` | &emsp;*polla qual ſae o cheiro.* |  |
+| `c1-l021` | Fuxegui, u, eida. *Reſiſtir, ou defenderſe.* |  |
+| `c1-l022` | &emsp;*¶* Tegiuo fuxegu. *Defenderſe dos ini-* |  |
+| `c1-l023` | &emsp;*migos. ¶* Tentaçamuo fuxegu. *Reſiſ-* |  |
+| `c1-l024` | &emsp;*tir à tentação.* |  |
+| `c1-l025` | Fuxeguiai, ǒ, ǒta. *Reſiſtir de ambas as par-* |  |
+| `c1-l026` | &emsp;*tes, ou pelejarem muitos entreſi.* |  |
+| `c1-l027` | Fuxeguitatacai, ǒ, ǒta. *Reſiſtir pelejãdo.* |  |
+| `c1-l028` | Fǔxei. Cajeno coye. *Soido, ou eſtrepito do* |  |
+| `c1-l029` | &emsp;*vento. Vt,* Fǔxei ſuiuon. *Soido do* |  |
+| `c1-l030` | &emsp;*vento, & ruido dagoa.* |  |
+| `c1-l031` | Fuxei. Vgiyo. *Mundo miſerauel.* |  |
+| `c1-l032` | Fuxen. Nobezu. i, *Não eſcreuer mais, ou* |  |
+| `c1-l033` | &emsp;*não ſe dilatar mais na carta. S.* |  |
+| `c1-l034` | Fuxeri, u, etta. *Jazer, ou deitarſe. ¶ Itẽ,* |  |
+| `c1-l035` | &emsp;*Deſumarſe. X.* |  |
+| `c1-l036` | Fǔxet, l, fǔjet. *Nouas incertas que corrẽ.* |  |
+| `c1-l037` | Fuxet. Tocazu. *Não declarar. Vt,* Ichi- |  |
+| `c1-l038` | &emsp;jifuxet. *Não declarar nem hũa ſó letra.* |  |
+| `c1-l039` | &emsp;Bup. |  |
+| `c1-l040` | Fuxi. Chichi, co. *Pay, & filho. ¶* Go- |  |
+| `c1-l041` | &emsp;fuxino aidani. *Entre o pay, & o filho* |  |
+| `c1-l042` | &emsp;*falando com reſpeito.* |  |
+| `c1-l043` | Fuxi. Xixezu. *Não morrer. i, Immortal.* |  |
+| `c1-l044` | &emsp;*Vt,* Fuxifumet. *Idem. ¶* Fuxi ſu- |  |
+| `c1-l045` | &emsp;metno tai. *Suſtancia immortal.* |  |
+| `c1-l046` | Fuxi. *Toada de canto. ¶* Fuxiuo tçu- |  |
+| `c1-l047` | &emsp;quru. *Dar toada, ou por em canto algũa* |  |
+| `c1-l048` | &emsp;*couſa.* |  |
+
+## Column 2 running header
+
+| Physical line | Main position | Far right |
+| --- | --- | --- |
+| `h2-l001` | **F ANTES DO V.** |  |
+
+## Column 2
+
+| Physical line | Main position | Far right |
+| --- | --- | --- |
+| `c2-l001` | Fuxi. *Nós dos dedos, bambùs, aruores, &c.* |  |
+| `c2-l002` | Fuxi. *Hũa certa fruita pera fazer tinta pre-* |  |
+| `c2-l003` | &emsp;*ta pera os dentes.* |  |
+| `c2-l004` | Fuxi, ſu, xita, uita. *Deitarſe. ¶* Auonogini |  |
+| `c2-l005` | &emsp;fuſu. *Eſtar deitado de coſtas. ¶* Vtçu- |  |
+| `c2-l006` | &emsp;bugini fuſu. *Eſtar deitado de bruços.* |  |
+| `c2-l007` | Fuxicula. *Cilada. ¶* Fuxicufauo ſuru. |  |
+| `c2-l008` | &emsp;*Fazer cilada. No Cami ſe diz.* Machi- |  |
+| `c2-l009` | &emsp;buxeuo ſuru. |  |
+| `c2-l010` | Fuxido. *Lugar onde ſe deita algum homem,* |  |
+| `c2-l011` | &emsp;*ou animal.* |  |
+| `c2-l012` | Fuxifacaxe. *Toada de muſica, ou inſtrumen-* |  |
+| `c2-l013` | &emsp;*tos ẽ que ora ſe apreſſão, ora tardão com o tõ.* |  |
+| `c2-l014` | Fuxigui. Vomoi facarazu. *Couſa maraui-* |  |
+| `c2-l015` | &emsp;*lhoſa, & repentina. Vt,* Fuxigui ideqi- |  |
+| `c2-l016` | &emsp;taru. *Acomeceo couſa milagroſa, &* |  |
+| `c2-l017` | &emsp;*não eſperada.* |  |
+| `c2-l018` | Fuxiguina, l, fuxiguino. *Idem. ¶ Item,* |  |
+| `c2-l019` | &emsp;*Permet. ¶* Fuxiguina yãmexino to- |  |
+| `c2-l020` | &emsp;tonoyete xinjǒzu. *Aparelharuos ei hũa* |  |
+| `c2-l021` | &emsp;*cea mal feita, & de que vos eſpãtareis.* |  |
+| `c2-l022` | Fuxiquini. |  |
+| `c2-l023` | Fuxiquiſa. |  |
+| `c2-l024` | Fuxijen. *Não cuidar na virtude. Vt,* |  |
+| `c2-l025` | &emsp;Fuxijen, fuxiacu. *Não cuidar na virtu-* |  |
+| `c2-l026` | &emsp;*de, nem na maldade. Bup.* |  |
+| `c2-l027` | Fuximarobi, u, ǒda. *Cair redondo.* |  |
+| `c2-l028` | Fuxime. *Rosto carregado, ou ruim ſembran-* |  |
+| `c2-l029` | &emsp;*te como de quem fica conuecido: & enuergonha-* |  |
+| `c2-l030` | &emsp;*do. Vt,* Fuxinieni naru. *Ficar deſta* |  |
+| `c2-l031` | &emsp;*maneira com o roſto carregado.* |  |
+| `c2-l032` | Fuxin. Tçumabiracanarazu. *Duuida. Vt,* |  |
+| `c2-l033` | &emsp;Fuxinni zonzuru, l, vomô. *Duuidar.* |  |
+| `c2-l034` | &emsp;*¶* Fuxinuo faraſu. *Soltar, ou botar fo-* |  |
+| `c2-l035` | &emsp;*ra a duuida. ¶* Fuxinuo ſiraqu. *Idem.* |  |
+| `c2-l036` | &emsp;*¶* Fuxinuo aqiramuru. *Aclarar a du-* |  |
+| `c2-l037` | &emsp;*uida. ¶* Fuxinuotô. *Perguntar algũa* |  |
+| `c2-l038` | &emsp;*duuida. ¶* Fuxinuo ſanzuru. *Desfa-* |  |
+| `c2-l039` | &emsp;*zer, ou tirar algũa duuida. ¶* Fuxinno |  |
+| `c2-l040` | &emsp;ceguru. *Propor algũa duuida.* |  |
+| `c2-l041` | Fuxin. *Fabrica, ou obras.* |  |
+| `c2-l042` | Fuxin. *Indeuação. ¶* Fuxinna fito. *Ho-* |  |
+| `c2-l043` | &emsp;*mem indeuoto.* |  |
+| `c2-l044` | Fuxinna. *Couſa de pouca deuação. ¶ Item,* |  |
+| `c2-l045` | &emsp;*Couſa de duuida.* |  |
+| `c2-l046` | Fuxinni. |  |
+| `c2-l047` | Fuxinſa. |  |
+
+## Catchword
+
+| Physical line | Main position | Far right |
+| --- | --- | --- |
+| `cw-l001` | **Fuxi** |  |
