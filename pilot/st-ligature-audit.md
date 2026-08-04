@@ -48,3 +48,17 @@ Therefore:
 4. decide the final Level 1 notation only after an occurrence audit can reliably separate short-`s`–`t`, long-`ſ`–`t`, and any unligatured exceptions.
 
 The eventual notation can remain minimalist—for example, ordinary letters as the searchable reading plus a sparse ligature annotation—but the source distinction should not be discarded before its predictability has been demonstrated within this dictionary.
+
+## Workflow disposition
+
+The project will defer final `st`/`ſt` allograph and ligature classification to a dedicated human-guided pass near the end of Level 1 production. This visually difficult distinction will not interrupt ordinary page transcription or require the human reviewer to report occurrences piecemeal in chat.
+
+Until that pass:
+
+- retain the provisional reading produced during normal transcription;
+- do not apply global `st`/`ſt` substitutions;
+- do not treat unresolved ligature classification as blocking a page's `scan_confirmed` status;
+- preserve stable page-and-line references and scan geometry so every occurrence can be revisited in one purpose-built review sequence;
+- keep later corrections attributable through Git and the correction workflow.
+
+The final pass should present tightly enlarged occurrences with same-type comparators and should classify both the `s` allograph and ligature status. Its results can then determine whether ligature information is predictable enough to omit, requires sparse exception annotations, or must be represented occurrence by occurrence.
