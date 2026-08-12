@@ -2,7 +2,7 @@
   "format": "nippo-ai-line-geometry-response",
   "format_version": 1,
   "page": "bnf-f0030",
-  "example_status": "reviewed_f30_golden_example",
+  "response_status": "reviewed_f30_golden_example",
   "observed_text_provenance": "Copied from the current canonical Level 1 transcription to demonstrate the expected response shape; unlike future AI responses, these values are not an independent blind reading.",
   "coordinate_space": "native Gallica master pixels",
   "rectangle_format": "[x, y, width, height]",
@@ -25,8 +25,11 @@
         1485,
         3400
       ],
-      "example_geometry_review": "text_image_sanity_checked",
-      "example_reviewed_at": "2026-08-12",
+      "zone_ids": [
+        "column-1"
+      ],
+      "initial_geometry_provenance": "text_image_sanity_checked",
+      "initial_geometry_reviewed_at": "2026-08-12",
       "lines": [
         {
           "id": "c1-l001",
@@ -977,8 +980,11 @@
         2610,
         3400
       ],
-      "example_geometry_review": "text_image_sanity_checked",
-      "example_reviewed_at": "2026-08-12",
+      "zone_ids": [
+        "column-2"
+      ],
+      "initial_geometry_provenance": "text_image_sanity_checked",
+      "initial_geometry_reviewed_at": "2026-08-12",
       "lines": [
         {
           "id": "c2-l001",
