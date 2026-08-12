@@ -123,9 +123,14 @@ class FormatV1TrialTests(unittest.TestCase):
                 "Noriai. Nauegar, ou embarcarſe jũtamente.",
             ],
             "bnf-f0022": [
+                "Hum certo cordão de calçoẽs cha-",
                 "Vide Cacoi. ô.",
                 "Pedroto Ioãoua",
                 "aicuchi de gozaru.",
+                "Enquanto eſtiue no Miyaco. ¶ Tôriǔno",
+                "Por quanto, na eſcritura. Vt, Mairi sǒro",
+                "eſquadroẽs dambas as partes.",
+                "Aigiacu. i. aixitçuqu.",
             ],
             "bnf-f0248": [
                 "Goxǒuo taſucaru.",

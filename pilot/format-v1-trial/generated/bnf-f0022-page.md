@@ -26,7 +26,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l010` | &emsp;*hũa das penas deſta vida.* |  |
 | `c1-l011` | Aibet ricu. *Dor, & pena do apartamento dos* |  |
 | `c1-l012` | &emsp;*que ſe amão.* |  |
-| `c1-l013` | Aibiqi. *Hum certo cordão de calções cha-* |  |
+| `c1-l013` | Aibiqi. *Hum certo cordão de calçoẽs cha-* |  |
 | `c1-l014` | &emsp;*mados,* Yonobacama, *abertos por baxo.* |  |
 | `c1-l015` | Aibiqi. *Oretiraremſe, ou diuidiremſe pera* |  |
 | `c1-l016` | &emsp;*cada parte os exercitos, ou outros que eſtauão* |  |
@@ -37,12 +37,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l021` | &emsp;*eſtreitos, ou remanſos. ¶* Xiuoga aibiqi |  |
 | `c1-l022` | &emsp;ſuru. *Vazar, ou encher a mare deſta manei-* |  |
 | `c1-l023` | &emsp;*ra. ¶* Niuatorino aibiqi ſuru. *Apar-* |  |
-| `c1-l024` | &emsp;*taremſe os gallos por ſi quando pelejam ſem vẽ-* |  |
-| `c1-l025` | &emsp;*cer hũm ao outro.* |  |
+| `c1-l024` | &emsp;*taremſe os gallos por ſi quando peleiam ſem vẽ-* |  |
+| `c1-l025` | &emsp;*cer hum a outro.* |  |
 | `c1-l026` | Aicacaye, uru, eta. *Vide* Cacayuru. |  |
 | `c1-l027` | Aicacoi, ô, ôta. *Vide* Cacoi. ô. |  |
 | `c1-l028` | Aicacomi, u, ôda. *Vide* Cacomi, u. |  |
-| `c1-l029` | Ai camayete. *Auizaiuos, tende tento q̃ não fa-* |  |
+| `c1-l029` | Ai camayete. *Auizaivos, tende tento q̃ não fa* |  |
 | `c1-l030` | &emsp;*çais tal, &c.* |  |
 | `c1-l031` | Ai canai, ǒ, ǒta. *Vide* Canai, ǒ. |  |
 | `c1-l032` | Ai canaximi, u, xǔda. *Entriſtecerſe, Vide* |  |
@@ -72,12 +72,12 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | &emsp;*aqual conchaua, & quadra com a parte com* |  |
+| `c2-l001` | &emsp;*aqual conchaua, & quadra com aparte com* |  |
 | `c2-l002` | &emsp;*que ſe fecha.* |  |
 | `c2-l003` | Ai cuuauari, u, atta. *Vide* Cuuauari, u. |  |
 | `c2-l004` | Aida. i. Ma. *Interuallo de tempo, ou eſpaço,* |  |
 | `c2-l005` | &emsp;*em quanto, &c. ¶ Vt,* Zuqiǒno aida. |  |
-| `c2-l006` | &emsp;*Enquanto eſtiue no Miyaco. ¶* Tôrixiu |  |
+| `c2-l006` | &emsp;*Enquanto eſtiue no* Miyaco. *¶* Tôriǔno |  |
 | `c2-l007` | &emsp;aida. *Em quanto me detiue. ¶* Fitotoqi |  |
 | `c2-l008` | &emsp;no aida. *Por eſpaço de hũa hora. ¶* Co- |  |
 | `c2-l009` | &emsp;no aida. *Eſtes dias atras, ou paſſados.* |  |
@@ -85,7 +85,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l011` | &emsp;Ichirino ida. *Eſpaço de hũa legoa. ¶ Itẽ,* |  |
 | `c2-l012` | &emsp;*Entre, ou no meo.* Voya, cono aida. *En-* |  |
 | `c2-l013` | &emsp;*tre pay, & filho, l, entre parentes. ¶ Itẽ,* |  |
-| `c2-l014` | &emsp;*Por quanto, na eſcritura. Vt,* Mairi ſǒro |  |
+| `c2-l014` | &emsp;*Por quanto, na eſcritura. Vt,* Mairi sǒro |  |
 | `c2-l015` | &emsp;aida, l, mǒxi qeru aida. *Por quanto fui,* |  |
 | `c2-l016` | &emsp;*ou diſſe.* |  |
 | `c2-l017` | Ai dexi. *Condiſcipulos.* |  |
@@ -93,7 +93,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l019` | &emsp;*outros. ¶* Ai dori ſuru. *Tomar deſta ma-* |  |
 | `c2-l020` | &emsp;*neira quando hum perſi não pode ſoo.* |  |
 | `c2-l021` | Ai facarai, ǒ, ǒta. *Vide* Facarai, ǒ. |  |
-| `c2-l022` | Ai facari, ru, atta. *Vide* Ficari, ru. |  |
+| `c2-l022` | Ai facari, ru, atta. *Vide* Facari, ru. |  |
 | `c2-l023` | Ai fajimari, u, atta. *Vide* Fajimari, ru. |  |
 | `c2-l024` | Aifajime, ru, eta. *Vide* Fajime, ru. |  |
 | `c2-l025` | Aifataraqi, qu, aita. *Vide* Fataraqi, qu. |  |
@@ -111,14 +111,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l037` | Aifuxegui, u, eida. *Vide* Fuxegui, u. |  |
 | `c2-l038` | Aigacari. *O arremeter dambas as partes. ¶* Ai |  |
 | `c2-l039` | &emsp;gacarini ſuru, l, aigacarini cacaru. *Ar-* |  |
-| `c2-l040` | &emsp;*remeterem os eſquadros dambas as partes.* |  |
-| `c2-l041` | Aigiacu. i. aixitçugu. *O ter affeição, ou a-* |  |
+| `c2-l040` | &emsp;*remeterem os eſquadroẽs dambas as partes.* |  |
+| `c2-l041` | Aigiacu. i. aixitçuqu. *O ter affeição, ou a-* |  |
 | `c2-l042` | &emsp;*mor intenſo.* |  |
 | `c2-l043` | Aigicani. *Adu. Perto, ou junto.* |  |
 | `c2-l044` | Aiguxi, ſuru, ita. *Leuar conſigo, ou em ſua* |  |
 | `c2-l045` | &emsp;*companhia.* |  |
-| `c2-l046` | Aijiruxi. *Diuiſa cõ q̃ os ſoldados da meſma ban-* |  |
-| `c2-l047` | &emsp;*deira ſe diſtingue dos da outra, & dos contra-* |  |
+| `c2-l046` | Aijiruxi. *Diuiſa cõ q̃ os ſoldados da meſma bã-* |  |
+| `c2-l047` | &emsp;*deira ſe diſtinguẽ dos da outra, & dos contra-* |  |
 
 ## Catchword
 
