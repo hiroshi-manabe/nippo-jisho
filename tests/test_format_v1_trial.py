@@ -172,7 +172,10 @@ class FormatV1TrialTests(unittest.TestCase):
             "bnf-f0024": [
                 "aisôraxij aixirǒ.",
                 "encontrado com algũa peſoa",
+                "Aitagai, ǒ, ǒta.",
                 "eſtenderſe a nuuem",
+                "Aitaixite mǒſu.",
+                "Aitarai, ǒ, ǒta.",
                 "Aitçunori, ru, otta.",
                 "Aiuoino matçu.",
                 "folgar com algũa couſa",
