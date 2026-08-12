@@ -91,7 +91,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2b-l003` | &emsp;*¶* Aini, l, ai de ſomuru. *Tingir de cor azul.* |  |
 | `c2b-l004` | Ai, l, ayu. *Peixe como truta.* |  |
 | `c2b-l005` | Ai. i. Auai, l, ma. *Eſpaço, ou entreual-* |  |
-| `c2b-l006` | &emsp;*lo de lugar, tempo, &c. ¶ Item, Re-* |  |
+| `c2b-l006` | &emsp;*lo de lugar, tempo, &c ¶ Item, Re-* |  |
 | `c2b-l007` | &emsp;*preſentação do auto, ou eſpaço em que as figu-* |  |
 | `c2b-l008` | &emsp;*ras ſe veſtem, ou ſe eſtà contando o que ſe ha* |  |
 | `c2b-l009` | &emsp;*de repreſentar. ¶* Aiuo yǔ, l, nôaiuo |  |
@@ -109,7 +109,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2b-l021` | &emsp;*outra diuidida cõ o meſmo ſinal. Vide* Varifu. |  |
 | `c2b-l022` | &emsp;*¶* Qini vǒ. *Agradar. ¶* Cami ſoriga vǒ. |  |
 | `c2b-l023` | &emsp;*Eſtarẽ afiadas, ou cõfio as naualhas pera cortar.* |  |
-| `c2b-l024` | Ai, ǒ, ǒta. *Emcontrar. Vt* Nanguini vǒ. |  |
+| `c2b-l024` | Ai, ǒ ǒta. *Emcontrar. Vt* Nanguini vǒ. |  |
 | `c2b-l025` | &emsp;*Encontrarſe, ou acharſe em trabalhos, & peri-* |  |
 | `c2b-l026` | &emsp;*gos. ¶* Yoitoqini mairi vǒta. *Acer-* |  |
 | `c2b-l027` | &emsp;*tei de vir a bom tempo. ¶* Yoi toqi ſona- |  |
