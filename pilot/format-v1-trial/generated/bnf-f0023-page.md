@@ -55,7 +55,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l039` | Ainocori, u, otta. *Vide* Nocori, u. |  |
 | `c1-l040` | Ainogaxi, ſu, aita. *Vide* Nogaxi ſu. |  |
 | `c1-l041` | Aino ita. *Repartimento de taboas que diuide* |  |
-| `c1-l042` | &emsp;*na eſtrebaria hum caualo cõ outro.* |  |
+| `c1-l042` | &emsp;*na eſtrebaria hum caualo do outro.* |  |
 | `c1-l043` | Aino mono. *Hũ teſto de barro q̃ ſerue de copo.* |  |
 | `c1-l044` | Ainoqi, u, oita. *Vide* Noqi, qu. *¶* Aino |  |
 | `c1-l045` | &emsp;quni ſuru. *Diuidirſe entre ſi cada hum pera* |  |
@@ -107,7 +107,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l033` | &emsp;*lar riſpida, & ſecamente. ¶* Fitono aiſo |  |
 | `c2-l034` | &emsp;ni yǔ. *Fallar pera atrahir, & grangear.* |  |
 | `c2-l035` | &emsp;*¶* Aiſoni naru. *Sair, ou ſuceder algũa* |  |
-| `c2-l036` | &emsp;*couſa bẽ pera gaſalhado do hoſpede.* |  |
+| `c2-l036` | &emsp;*couſa bem pera gaſalhado do hoſpede.* |  |
 | `c2-l037` | Aiſoi, ſô, ôta. *Vide* Soi, ſô. |  |
 | `c2-l038` | Aiſome. *O verſe a primeira vez com alguem.* |  |
 | `c2-l039` | &emsp;*¶* Ano fitoni ima aiſomegia. *Eſta he a* |  |
