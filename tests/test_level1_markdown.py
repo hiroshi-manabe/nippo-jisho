@@ -292,7 +292,7 @@ class Level1MarkdownTests(unittest.TestCase):
         expected = {
             "bnf-f0023.md": ("dante mão", "Morax , ſu.", "adminiſtrarem"),
             "bnf-f0024.md": ("Padraſto,ou", "A. xirouo"),
-            "bnf-f0025.md": ("Fucaqu", "Ajuocaqe", "Poëtas", "u, arta"),
+            "bnf-f0025.md": ("Fucaqu", "Ajuocaqe", "Poëtas", "u, atta"),
             "bnf-f0026.md": ("beirasdoteihado", "galamiuo", "Amano fara"),
             "bnf-f0027.md": (
                 "Bilho de ſaude",

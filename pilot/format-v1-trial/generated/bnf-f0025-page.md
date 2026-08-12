@@ -16,7 +16,7 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c1-l001` | Aixitagai, ǒ, ǒta. *Vide* Xitagai, ǒ. |  |
 | `c1-l002` | Aixitagaye, uru, eta. *Vide* Xitagaye, uru. |  |
-| `c1-l003` | Aixizzumari, u, arta. *Vide* Xizzumari, u. |  |
+| `c1-l003` | Aixizzumari, u, atta. *Vide* Xizzumari, u. |  |
 | `c1-l004` | Aixizzume, ru, eta. *Vide* Xizzume, ru. |  |
 | `c1-l005` | Aixizzumi, u, unda. *Vide* Xizzumi, u. |  |
 | `c1-l006` | Aixǒ, canaximi, itami. *Triſteza.* |  |
@@ -43,7 +43,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l027` | &emsp;*rompendo as tripas, como fabulão os Poëtas.* |  |
 | `c1-l028` | Aiyoqu. *Grande deſejo, ou affeição dalgũa cou* |  |
 | `c1-l029` | &emsp;*ſa.* |  |
-| `c1-l030` | Aiyome. *Duas caſadas com dous irmãos.* |  |
+| `c1-l030` | Aiyome. *Duas caſadas com dous jrmãos.* |  |
 | `c1-l031` | Aiyuzzuri, u, utta. *Vide* Yuzzuri, u. |  |
 | `c1-l032` | Aizo. Aixi, Nicumi. *Amor, & odio.* |  |
 | `c1-l033` | Aizome. *O Tingir dazul, ou com anil. Vt,* |  |
@@ -91,7 +91,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2a-l017` | Ajezzutaye. *O ir por aquelle lombo de terra* |  |
 | `c2a-l018` | &emsp;*que diuide as varzeas.* |  |
 | `c2a-l019` | Aji, ut. Ajiquan. *Meditação ſobre certa* |  |
-| `c2a-l020` | &emsp;*materia dos Xingoxǔs.* |  |
+| `c2a-l020` | &emsp;*materia dos* Xingoxǔs. |  |
 | `c2a-l021` | Ajica. *Ceſto de canas, ou bambus, ou canaſ-* |  |
 | `c2a-l022` | &emsp;*trinha.* |  |
 | `c2a-l023` | Ajiro. *Hũa laya de eſteiras groſſas tecidas* |  |
@@ -99,9 +99,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2a-l025` | &emsp;*tas, ou janellas. ¶* Ajirocaqe. *O que* |  |
 | `c2a-l026` | &emsp;*faz eſtas eſteiras, ou obra ſemelhante. ¶ Itẽ,* |  |
 | `c2a-l027` | Ajiro. *Hum inſtrumento de canas com que* |  |
-| `c2a-l028` | &emsp;*deitem, & tomão opeixe na corrente dalgum* |  |
+| `c2a-l028` | &emsp;*detem, & tomão o peixe na corrente dalgum* |  |
 | `c2a-l029` | &emsp;*rio como naça, &c. ¶ Item, Paſſo, ou ca-* |  |
-| `c2a-l030` | &emsp;*neiro cercido de bambus em que entra opexe* |  |
+| `c2a-l030` | &emsp;*neiro cercado de bambus em que entra opexe* |  |
 | `c2a-l031` | &emsp;*com a enchente da mare. ¶ Itẽm, Lugar onde* |  |
 | `c2a-l032` | &emsp;*ſe deita, ou puxa a rede, arma naça, &c.* |  |
 | `c2a-l033` | &emsp;*¶ Item, Hũa maneira de cebe, ou eſtacada co-* |  |
@@ -122,7 +122,7 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c2b-l001` | AMA. *Homem, ou molher peſcadora que* |  |
 | `c2b-l002` | &emsp;*viue de mariſcar mergulhando. ¶* Caz- |  |
-| `c2b-l003` | &emsp;zuqino ami. *Molher, ou homem que de* |  |
+| `c2b-l003` | &emsp;zuqino ama. *Molher, ou homem que de* |  |
 | `c2b-l004` | &emsp;*mergulho toma algũm mariſco.* |  |
 | `c2b-l005` | Ama. *Molher rapada.* |  |
 | `c2b-l006` | Ama. Ten. *Ar, ou ceo, mas não ſe vſa ſe* |  |
