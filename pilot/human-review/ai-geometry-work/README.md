@@ -14,7 +14,7 @@ Any `validation_flags` present in the initial task must be resolved before compl
 
 The reviewed f30 output in [`../ai-geometry-examples/bnf-f0030.json`](../ai-geometry-examples/bnf-f0030.json) demonstrates the completed shape. Its accompanying README defines the rectangle conventions and visual acceptance rule.
 
-After validation, a completed response may be imported with `scripts/import_ai_geometry_review.py`. Imported columns use the provenance state `ai_line_by_line_checked`, which accepts the delegated line-level geometry without claiming human verification. Independent textual disagreements remain advisory and must be adjudicated separately against the scan before any Level 1 correction.
+After validation, a completed response may be imported with `scripts/import_ai_geometry_review.py`. Imported columns normally use the provenance state `ai_line_by_line_checked`, which accepts the delegated line-level geometry without claiming human verification. A response whose rectangles pass an independent full contact-sheet audit but whose mechanical edit pattern does not credibly demonstrate individual line-level decisions must instead be imported with `--visual-review ai_bulk_geometry_sanity_checked`. This preserves both the usable geometry and the limitation of the review evidence. Independent textual disagreements remain advisory and must be adjudicated separately against the scan before any Level 1 correction. An `observed_text` field that merely reproduces every canonical line verbatim is useful for line identification but is not independent textual evidence.
 
 ## Prepared task range
 

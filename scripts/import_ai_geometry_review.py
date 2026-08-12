@@ -29,6 +29,16 @@ def main() -> int:
         default=root / "pilot/human-review/line-geometry.json",
     )
     parser.add_argument("--reviewed-at", required=True)
+    parser.add_argument(
+        "--visual-review",
+        choices=("ai_line_by_line_checked", "ai_bulk_geometry_sanity_checked"),
+        default="ai_line_by_line_checked",
+        help=(
+            "provenance assigned to imported columns; use the bulk-sanity state "
+            "when the rectangles were verified independently but the response "
+            "does not credibly demonstrate individual line-level decisions"
+        ),
+    )
     args = parser.parse_args()
 
     review_path = args.review.resolve()
@@ -94,7 +104,7 @@ def main() -> int:
                 "context_crop": context,
             }
         page["columns"][column_id]["lines"] = imported_lines
-        page["columns"][column_id]["visual_review"] = "ai_line_by_line_checked"
+        page["columns"][column_id]["visual_review"] = args.visual_review
         page["columns"][column_id]["reviewed_at"] = args.reviewed_at
         page["columns"][column_id]["review_source"] = str(review_path.relative_to(root))
 
