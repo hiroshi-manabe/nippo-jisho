@@ -212,13 +212,18 @@ class PublicReviewRegressionTests(unittest.TestCase):
             )
         )
         page = next(page for page in history["pages"] if page["id"] == "bnf-f0019")
-        self.assertEqual(page["issues_applied"], 1)
-        self.assertEqual(page["distinct_lines"], 9)
-        self.assertEqual(page["accepted_edits"], 9)
+        self.assertEqual(page["issues_applied"], 2)
+        self.assertEqual(page["distinct_lines"], 20)
+        self.assertEqual(page["accepted_edits"], 21)
         self.assertEqual(page["issues"][0]["number"], 3)
         self.assertIn("c1b-l005", page["issues"][0]["lines"])
         self.assertIn("c2b-l011", page["issues"][0]["lines"])
         self.assertIn("c2b-l021", page["issues"][0]["lines"])
+        self.assertEqual(page["issues"][1]["number"], 11)
+        self.assertEqual(len(page["issues"][1]["lines"]), 12)
+        self.assertIn("c1a-l030", page["issues"][1]["lines"])
+        self.assertIn("c2a-l002", page["issues"][1]["lines"])
+        self.assertIn("c2b-l034", page["issues"][1]["lines"])
 
     def test_f20_issue_5_correction_history(self):
         history = json.loads(

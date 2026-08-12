@@ -33,7 +33,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1a-l017` | &emsp;*ſoſpeita em materia de caſtidade. ¶* A- |  |
 | `c1a-l018` | &emsp;danaga tatçu. *Aleuantarſe fama neſta* |  |
 | `c1a-l019` | &emsp;*materia.* |  |
-| `c1a-l020` | Adanami. *Onda que ſe abaxa, & deſfaz* |  |
+| `c1a-l020` | Adanami. *Onda que ſe abaxa, & desfaz* |  |
 | `c1a-l021` | &emsp;*facilmente.* |  |
 | `c1a-l022` | Adaxi cocoro. P. i. Adana cocoro. |  |
 | `c1a-l023` | &emsp;*Condição mudauel, & inconſtante princi-* |  |
@@ -43,7 +43,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1a-l027` | Adaxiyo. *Mundo breue, & perecedeiro.* |  |
 | `c1a-l028` | Adaya. *Setta que não acerta no aluo, ou* |  |
 | `c1a-l029` | &emsp;*nos inimigos. ¶* Adayaga nai. *Não* |  |
-| `c1a-l030` | &emsp;*atira nehũa ſetta em vão.* |  |
+| `c1a-l030` | &emsp;*a tira nehũa ſetta en vão.* |  |
 | `c1a-l031` | Ado. *Repoſta conueniente acerca do que ſe* |  |
 | `c1a-l032` | &emsp;*conta, ou fala. ¶* Adouo vtçu. *Dar* |  |
 | `c1a-l033` | &emsp;*eſtas repoſtas conformandoſe, & contem-* |  |
@@ -67,7 +67,7 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c1b-l001` | AFIru. *Adem.* |  |
 | `c1b-l002` | Afǒ. i. Vtçuqe. *Paruo, tollo.* |  |
-| `c1b-l003` | &emsp;*¶ Item, paruice. ¶* Afǒuo yǔ. *Dizer* |  |
+| `c1b-l003` | &emsp;*¶ Item, paruoice. ¶* Afǒuo yǔ. *Dizer* |  |
 | `c1b-l004` | &emsp;*paruoices.* |  |
 | `c1b-l005` | Afǒguena. *Paruo, ou couſa de paruoice* |  |
 
@@ -82,15 +82,15 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c2a-l001` | Afǒgueni. *Adu.* |  |
-| `c2a-l002` | Afǒna. *Homem paruo, ou couſa de paruoice.* |  |
+| `c2a-l002` | Afǒna. *Homem paruo, ou couſade paruoice.* |  |
 | `c2a-l003` | Afǒni. *Adu.* Afǒnamono. *Paruo.* |  |
 | `c2a-l004` | Aforaxij. *Idem.* |  |
 | `c2a-l005` | Aforaxet. *Algozes do inferno.* |  |
 | `c2a-l006` | Afure, ruru, eta. *Tresbordar, ou auer en-* |  |
 | `c2a-l007` | &emsp;*chente de rio, &c. ¶ Item, Permet.* |  |
-| `c2a-l008` | &emsp;*Auer ẽ abundancia. ¶ Vt,* Zaizai xoxǒni |  |
+| `c2a-l008` | &emsp;*Auer ẽ abudancia. ¶ Vt,* Zaizai xoxoni |  |
 | `c2a-l009` | &emsp;tçuuamono afure iru. *Todos os lugares* |  |
-| `c2a-l010` | &emsp;*eſtauão cheos de ſoldadeſca.* |  |
+| `c2a-l010` | &emsp;*eſtauão cheos de ſoldadesca.* |  |
 
 ## Column 2 G section heading
 
@@ -125,17 +125,17 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2b-l021` | &emsp;qega agaru. *Ir Bebẽdo vinho, mais do cus-* |  |
 | `c2b-l022` | &emsp;*tumado. ¶* Iroga agaru. *Melhorarſe* |  |
 | `c2b-l023` | &emsp;*a cor da couſa que ſe tinje. ¶* Fune yo- |  |
-| `c2b-l024` | &emsp;ri agaru. *Deſembarcarſe. ¶* Furo, |  |
+| `c2b-l024` | &emsp;ri agaru. *Deſembarcarſe. ¶* furo, |  |
 | `c2b-l025` | &emsp;l, yǔ yori agaru. *Sairſe dos banhos.* |  |
 | `c2b-l026` | &emsp;*¶ Itẽ, Porſe a meza, ou aleuantarſe a peſ-* |  |
 | `c2b-l027` | &emsp;*ſoa honrrada.* Gojenga agaru, gojen- |  |
-| `c2b-l028` | &emsp;ga ſuberu, l, cudaru. *Leuantaremſe as* |  |
-| `c2b-l029` | &emsp;*mezas de peſſoa honrrada. ¶ Itẽ, Aca-* |  |
+| `c2b-l028` | &emsp;ga ſuberu, l, cudaru. *Leuantarenſe as* |  |
+| `c2b-l029` | &emsp;*mezas de peſsoa honrrada. ¶ Itẽ, Aca* |  |
 | `c2b-l030` | &emsp;*barſe, ou ceſſar alguã couſa. Vt,* Fu- |  |
-| `c2b-l031` | &emsp;xinga agaru. *Acabaremſe as obras, ou* |  |
-| `c2b-l032` | &emsp;*ceſſar dellas. ¶* Tçuyu, l, Nagaxiga |  |
+| `c2b-l031` | &emsp;xinga agaru. *Acabarenſe as obras, ou* |  |
+| `c2b-l032` | &emsp;*ceſsar dellas. ¶* Tçuyu, l, Nagaxiga |  |
 | `c2b-l033` | &emsp;agaru. *Acabaremſe as chuuas cuſtuma-* |  |
-| `c2b-l034` | &emsp;*das no verão. ¶* Tengiga agaru. *A-* |  |
+| `c2b-l034` | &emsp;*das no verão. ¶* Tenqiga agaru. *A-* |  |
 | `c2b-l035` | &emsp;*clararſe, ou concertarſe o tempo. ¶ Itẽ,* |  |
 
 ## Catchword
