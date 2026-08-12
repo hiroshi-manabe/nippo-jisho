@@ -15,3 +15,9 @@ Any `validation_flags` present in the initial task must be resolved before compl
 The reviewed f30 output in [`../ai-geometry-examples/bnf-f0030.json`](../ai-geometry-examples/bnf-f0030.json) demonstrates the completed shape. Its accompanying README defines the rectangle conventions and visual acceptance rule.
 
 After validation, a completed response may be imported with `scripts/import_ai_geometry_review.py`. Imported columns use the provenance state `ai_line_by_line_checked`, which accepts the delegated line-level geometry without claiming human verification. Independent textual disagreements remain advisory and must be adjudicated separately against the scan before any Level 1 correction.
+
+## Prepared task range
+
+Pending task records are prepared for `f31` through `f100`. The `f32`–`f100` batch contains 69 pages and 6,482 body lines. Every task has been checked for exact page coverage, unique line IDs, current source-image and transcription hashes, source-image bounds, null independent readings, and pending judgments.
+
+The initial geometry has four known containment flags that the reviewing AI must repair: `f33/c1b-l001`, `f36/c2b-l001`, `f62/c2b-l001`, and `f68/c2b-l001`. Twelve pages in this range aggregate multiple transcription zones into one physical-column task; their `zone_ids` preserve the required order.
