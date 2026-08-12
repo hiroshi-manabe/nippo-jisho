@@ -61,20 +61,42 @@ A pale background and darker accent should preserve the legibility of small lett
 
 Crop boundaries are governed by legibility, not by a requirement that neighboring line images never overlap. Every glyph belonging to the target line must be completely visible. In particular, ascenders, descenders, diacritics, damaged impressions, and type crossing a nominal line boundary must not be clipped.
 
-The routine is:
+There are two distinct cases.
+
+### Existing transcriptions
+
+The coordinates for existing pages are reconstructed after the fact. Although the text was originally read line by line, the temporary image regions used during that work were not preserved as UI geometry. Contact sheets and automatic calibration can provide starting rectangles, but every stable line ID must therefore be reopened and checked individually at the normal browser-review scale. This is geometry verification, not a requirement to transcribe the text again.
+
+### New transcriptions
+
+For new pages, transcription and UI-geometry capture are one operation:
+
+1. Isolate one physical line and assign its stable line ID.
+2. Adjust the displayed rectangle until the intended line and every relevant glyph are completely visible.
+3. Read and transcribe from that rectangle, enlarging it further whenever the reading requires more evidence.
+4. Save that exact source-pixel rectangle as the line's UI crop, together with its context rectangle.
+5. Continue to the next physical line.
+
+The crop used as transcription evidence is therefore preserved instead of being reconstructed later. Subsequent checking may still improve it, but a separate bulk geometry pass should not normally be necessary.
+
+### Acceptance routine
+
+For either case, the final requirements are:
 
 1. Verify the column's horizontal rectangle against the full-resolution page. Both ends of every ordinary line must be present; a large blank margin on one side is a warning that the opposite end may be clipped.
 2. Choose several vertical anchors across the column and generate scan-snapped initial line centres. A single top-to-bottom interpolation is insufficient evidence that intermediate lines are aligned.
-3. Generate a complete column contact sheet pairing every stable line ID with its proposed crop.
-4. Inspect **every crop**, not merely the overall appearance of the sheet. Confirm that the strip contains the line named by its ID and that every target glyph is complete.
-5. Check representative crops in the actual browser interface, including the top, middle, bottom, and any locally irregular passage.
+3. Generate a complete column contact sheet pairing every stable line ID with its proposed crop as an overview and line-order diagnostic.
+4. Open **every crop individually at the normal browser-review scale**. Confirm that the strip contains the line named by its ID and that every target glyph is complete.
+5. Reject a crop when target ink touches or nearly touches a vertical or horizontal edge unless enlarged context proves that the complete glyph is present. Small descenders and diacritics require full-size inspection; a reduced contact sheet cannot establish this.
 6. Add intermediate ranges or explicit per-line centre overrides wherever the generated centres drift. Manual adjustment of every line is permitted when that is what the page requires.
 7. Expand individual rectangles upward or downward when any target glyph is incomplete or ambiguous.
 8. Permit overlap with an adjacent line whenever necessary for a complete reading.
 9. Avoid unnecessary padding where a natural boundary is clear.
 10. Commit an explicit source-pixel rectangle for every column line, including crops accepted without individual adjustment.
 
-This geometry pass is a required part of processing a page, not optional interface polish. A page must not be handed off for line-by-line human review until both column contact sheets have been visually reviewed line by line and the browser-facing crops have passed the spot checks above. The geometry record stores the source dimensions, crop and context rectangle for every stable line ID, review state, and review date. Later regeneration must fail if a processed column line lacks explicit geometry. The older `contact_sheet_reviewed` value records a historical review action; by itself it is not proof that these stronger acceptance checks were completed. Columns passing the complete procedure receive `line_and_browser_reviewed` instead.
+This geometry pass is a required part of processing a page, not optional interface polish. A page-level geometry status is earned only after every browser-facing line crop has passed individual inspection. The geometry record stores the source dimensions, crop and context rectangle for every stable line ID, review state, and review date. Later regeneration must fail if a processed column line lacks explicit geometry.
+
+The existing `contact_sheet_reviewed` records were reconstructed after transcription and are provisional: they say that a contact sheet was inspected, not that every full-size UI crop is complete. New pages whose rectangles are preserved during line-by-line transcription may use `captured_during_transcription`; reconstructed pages may use `line_by_line_reverified` only after the same individual browser-scale check has subsequently been completed. Both statuses describe how the geometry was established; neither removes the possibility of later correction.
 
 The crop is therefore page- and line-sensitive rather than a uniform band with permanently large margins. The clipped top of `T` in `f17/c2-l042` (`Acuma. i. Tengu. Diabo.`) is the motivating example: part of the preceding line may be repeated, but the whole `T` must appear in the target line image. The same reviewed crops should support both project transcription checks and the public human-review interface.
 
