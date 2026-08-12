@@ -173,7 +173,19 @@ A representative payload is:
 
 `before` protects against silently applying a proposal to a line that has subsequently changed. The Issue is a proposal: each reading is still checked against the scan and linguistic context before the canonical Markdown is edited.
 
-Issue adjudication is deliberately asymmetric. A human correction receives a modest corrective prior because it normally reports a discrepancy found while comparing the scan with the published text, whereas the existing transcription may preserve the machine reader's earlier mistake. Review must therefore begin by trying to substantiate the proposed reading, without treating the existing text as neutral evidence. Inspect the relevant scan afresh, use Japanese, Portuguese, and historical-lexical context to generate discriminating letter hypotheses, and compare secure same-page glyphs where possible. Reject a proposal only when the print or strong independent evidence positively contradicts it; the fact that the old reading remains visually possible is insufficient.
+Issue adjudication is deliberately asymmetric. A human correction receives a modest corrective prior because it normally reports a discrepancy found while comparing the scan with the published text, whereas the existing transcription may preserve the machine reader's earlier mistake. Review must therefore begin by trying to substantiate the proposed reading, without treating the existing text as neutral evidence. Inspect the relevant scan afresh, use Japanese, Portuguese, and historical-lexical context to generate discriminating letter hypotheses, and compare secure same-page glyphs where possible.
+
+The machine reviewer accepts and applies every proposal it can substantiate. A proposal it cannot substantiate is provisionally rejected and marked **Human re-check required**. Here, *rejected* means only *not independently verified by the machine reviewer*; it does not mean that the proposal has been proved incorrect. The fact that the old reading remains visually possible is not positive evidence against the correction, but genuine visual uncertainty is sufficient reason to request human adjudication instead of applying the change autonomously.
+
+The human reviewer then re-examines each provisionally rejected item. The reviewer may withdraw the proposal or explicitly override the machine judgment when confident that the proposed reading is correct. An explicit human override is the final adjudication for that Issue item: apply it without reopening the same visual dispute, and retain the Issue discussion as the record of the machine's initial uncertainty and the human decision. An override may inform later error analysis, but it does not become a volume-wide transcription rule without broader evidence.
+
+An Issue remains open while any item is marked **Human re-check required**. Close it only after every submitted item has reached one of these states:
+
+- accepted and applied after machine verification;
+- explicitly withdrawn by the human reviewer; or
+- accepted and applied by explicit human override.
+
+This makes the Issue the durable adjudication checklist and prevents a provisional rejection from being mistaken for a settled decision.
 
 This prior does not authorize automatic acceptance or normalization. The scan remains the Level 1 authority, and a partly correct proposal should be refined rather than accepted or rejected wholesale. The f20 correction `Aguetçire. i. l. catune.` → submitted `Aguebune. i. ſ. cabune.` illustrates both points: repeated inspection anchored on the old transcription reproduced the same mistaken shapes, while independent evidence for 上げ槽 *aguebune* and 酒槽 *sacabune* supplied the useful hypothesis. Renewed inspection then supported the qualified continuous reading `Aguebune. i. ſacabune.` rather than either complete string.
 
