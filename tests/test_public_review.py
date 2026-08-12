@@ -69,6 +69,21 @@ class PublicReviewRegressionTests(unittest.TestCase):
         self.assertEqual(column["visual_review"], "text_image_sanity_checked")
         self.assertEqual(column["lines"]["c2-l041"]["crop"], [1540, 2938, 1080, 122])
 
+    def test_f25_through_f30_received_text_image_sanity_check(self):
+        record = json.loads(
+            (ROOT / "pilot" / "human-review" / "line-geometry.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        pages = {page["id"]: page for page in record["pages"]}
+        for number in range(25, 31):
+            with self.subTest(page=number):
+                page = pages[f"bnf-f{number:04d}"]
+                for column in page["columns"].values():
+                    self.assertEqual(
+                        column["visual_review"], "text_image_sanity_checked"
+                    )
+
     def test_transcription_versions_and_rebase_controls(self):
         app = (ROOT / "site" / "app.js").read_text(encoding="utf-8")
         document = (ROOT / "site" / "index.html").read_text(encoding="utf-8")

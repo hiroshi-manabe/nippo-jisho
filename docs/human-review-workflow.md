@@ -122,6 +122,8 @@ The committed overview thumbnails and `page-images.json` are reproducible deriva
 
 Before deployment, the actual browser rendering must also be inspected on representative first, middle, last, tall-glyph, and overridden lines. Numerical coordinate validation and inspection of a source crop do not establish that CSS scaling and positioning render it correctly. `f17/c1-l001` and `f17/c2-l042` are permanent browser-level regression cases.
 
+Any change that affects the public review interface—including crop geometry, generated corpus data, reference material shown by the interface, or UI code—is not complete when it is merely committed locally. It must be pushed to `main`, the GitHub Pages workflow must finish successfully, and the affected public view must be reopened at the deployed reference commit. This deployment check is part of the UI-change workflow, not a separate optional publication step.
+
 ## GitHub Issue submission
 
 The interface prepares corrections page by page. A submission contains only rows whose edits have been confirmed with **OK**. Before submission, the reader can inspect the collected changes.
