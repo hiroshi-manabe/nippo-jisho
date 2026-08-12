@@ -27,7 +27,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l011` | Aratengu. *Diabo cruel, & que faz mal.* |  |
 | `c1-l012` | Arato. *Pedra groſſa de amolar em que pri-* |  |
 | `c1-l013` | &emsp;*meiro aſſão a ferramenta pera lhe dar depois* |  |
-| `c1-l014` | &emsp;*fio em outra mais fina.* |  |
+| `c1-l014` | &emsp;*o fio em outra mais fina.* |  |
 | `c1-l015` | Aratori. *Paſſaro brauo, que não eſtà ainda* |  |
 | `c1-l016` | &emsp;*domeſtico.* |  |
 | `c1-l017` | Arauana, l, araua naru. *Couſa clara, &* |  |
@@ -37,7 +37,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l021` | &emsp;*aparecer. ¶* Foni arauaruru. *Permet.* |  |
 | `c1-l022` | &emsp;*Deſcobrirſe na obra, ou effeito. S.* |  |
 | `c1-l023` | Arauarete. *Aduer. Manifeſtamente, ou a* |  |
-| `c1-l024` | &emsp;*viſta de todos.* |  |
+| `c1-l024` | &emsp;*uiſta de todos.* |  |
 | `c1-l025` | Arauaxi, ſu, ita. *Manifeſtar, ou declarar.* |  |
 | `c1-l026` | &emsp;*¶* Qidocuuo arauaſu, l, guenzuru. *Fa-* |  |
 | `c1-l027` | &emsp;*zer milagres.* |  |
@@ -96,7 +96,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l016` | &emsp;no de gozaru. *Iſto he daquelle.* |  |
 | `c2-l017` | Are, ruru, eta. *Danificarſe, ou deſtruirſe alguã* |  |
 | `c2-l018` | &emsp;*couſa, como caſa, campo, por ſe não habitar, ou* |  |
-| `c2-l019` | &emsp;*cultiuar. ¶* Iyega aruru. *Danificarem-* |  |
+| `c2-l019` | &emsp;*cultiuar. ¶* Iyega aruru. *Danificarẽ-* |  |
 | `c2-l020` | &emsp;*ſe as caſas por ſe não habitarem nem refazerẽ.* |  |
 | `c2-l021` | &emsp;*¶* Denbatçuga aruru. *Fazeremſe os cã-* |  |
 | `c2-l022` | &emsp;*pos incultos, & ſilueſtres por ſe não laurarem,* |  |
@@ -116,12 +116,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l036` | Are teino. *Couſa ſemelhante, ou como a-* |  |
 | `c2-l037` | &emsp;*quelle.* |  |
 | `c2-l038` | Ari. *Formiga. ¶* Suzuxij qino xitamo |  |
-| `c2-l039` | &emsp;ariga taxebairarenu. *Prou. Ainda que* |  |
+| `c2-l039` | &emsp;ariga taxeba irarenu. *Prou. Ainda que* |  |
 | `c2-l040` | &emsp;*o lugar ſeja bom, & deleitoſo ſe o homem tem* |  |
-| `c2-l041` | &emsp;*cuidados de nada goſta, como o que não pode* |  |
+| `c2-l041` | &emsp;*cuidados de nada goſta, como oque não pode* |  |
 | `c2-l042` | &emsp;*eſtar mordendo a formiga ainda que eſteja de* |  |
 | `c2-l043` | &emsp;*baxo de freſca aruore. ¶* Arimaqiga ſu- |  |
-| `c2-l044` | &emsp;ru. *Iuntaremſe formigas a montões. ¶* A- |  |
+| `c2-l044` | &emsp;ru. *Iuntaremſe formigas a mõtões. ¶* A- |  |
 | `c2-l045` | &emsp;rino cumano mairi fodo tçuzzuitayo. |  |
 | `c2-l046` | &emsp;*Prou. São tantos como formigas.* |  |
 | `c2-l047` | Ari, ru, atta. *Auer, eſtar, ter. ¶ Itẽ,* |  |

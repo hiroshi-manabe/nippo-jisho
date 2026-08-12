@@ -16,7 +16,7 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c1-l001` | &emsp;*Depois de começar o anno nouo. ¶* Aqe- |  |
 | `c1-l002` | &emsp;ru fi. *O dia ſeguinte. ¶* Aqetemo, |  |
-| `c1-l003` | &emsp;curetemo, l, aqe cure. *De dia, & de noi-* |  |
+| `c1-l003` | &emsp;curetemo, l, aqe cure. *Dedia, & de noi-* |  |
 | `c1-l004` | &emsp;*te, ſempre.* |  |
 | `c1-l005` | Aqe. *Cor muito vermelha. ¶ Item, Permet.* |  |
 | `c1-l006` | &emsp;*Sangue. ¶* Aqeni ſomu. *Eſtar tinto* |  |
@@ -110,7 +110,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l036` | Aqirame, uru, eta. *Declarar, ou auerigoar.* |  |
 | `c2-l037` | &emsp;*¶* Mayoiuo aqiramuru. *Aclarar o erro,* |  |
 | `c2-l038` | &emsp;*ou deſenganar. ¶ Item, Tomar reſolução* |  |
-| `c2-l039` | &emsp;*& luz depois de eſtar perplexo. ¶* Riuuo |  |
+| `c2-l039` | &emsp;*& luz depois de eſtar perplexo. ¶* Rifuuo |  |
 | `c2-l040` | &emsp;aqiramuru. *Auerigoar a rezão, & ſem re-* |  |
 | `c2-l041` | &emsp;*zão. ¶* Dǒriuo aqiramuru. *Dar rezão* |  |
 | `c2-l042` | &emsp;*que outro entenda, ou arrezoar diſtintamente.* |  |

@@ -90,19 +90,19 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l016` | &emsp;ca naru coyeuo aguru. *Aleuantar voz* |  |
 | `c2-l017` | &emsp;*aſpera, & rija.* |  |
 | `c2-l018` | Araracani. *Adu. Riſpida, & rijamente.* |  |
-| `c2-l019` | Arare. *Saraina. Vt,* Ararega furu. *Cho-* |  |
-| `c2-l020` | &emsp;*uer ſaraina. ¶* Ararezage. *Hũa laya de* |  |
+| `c2-l019` | Arare. *Saraiua. Vt,* Ararega furu. *Cho-* |  |
+| `c2-l020` | &emsp;*uer ſaraiua. ¶* Arare zaqe. *Hũa laya de* |  |
 | `c2-l021` | &emsp;*vinho.* |  |
 | `c2-l022` | Ararebaxiri. *Certa feſta que ſe faz em caſa do* |  |
 | `c2-l023` | &emsp;*Dairi pello Xǒguachi.* |  |
 | `c2-l024` | Araſa. *Hum pao que ſerue no tear com hũs* |  |
-| `c2-l025` | &emsp;*dentes ralos com que diuizão a vrdidura.* |  |
+| `c2-l025` | &emsp;*dentes ralos com que diuizão a urdidura.* |  |
 | `c2-l026` | Araſo. *Linho canemo ainda por concertar.* |  |
 | `c2-l027` | Araſoi. *Contenda, ou porfia. ¶* Yxei a- |  |
 | `c2-l028` | &emsp;raſoiuo ſuru. *Contender aquem moſtrara* |  |
 | `c2-l029` | &emsp;*mais fauſto, & poder.* |  |
 | `c2-l030` | Araſoi, ô, ôta. *Contender, ou porfiar.* |  |
-| `c2-l031` | &emsp;*¶* Riũo, l, dǒriuo araſô. *Argumen-* |  |
+| `c2-l031` | &emsp;*¶* Rifuuo, l, dǒriuo araſô. *Argumen-* |  |
 | `c2-l032` | &emsp;*tar, ou contender ſobre a rezão, ou ſem rezão.* |  |
 | `c2-l033` | &emsp;*¶* Curaiuo araſô. *Contender com outros* |  |
 | `c2-l034` | &emsp;*ſobre alguã dignidade, ou cargo. ¶ Item,* |  |

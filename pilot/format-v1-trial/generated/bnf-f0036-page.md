@@ -21,9 +21,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l005` | Ariai, ǒ, ǒta. *Acharſe preſente a alguã cou-* |  |
 | `c1-l006` | &emsp;*ſa. ¶ Item, Acertar de achar, ou auer à* |  |
 | `c1-l007` | &emsp;*mão.* |  |
-| `c1-l008` | Ariaqe. *Lume que dura toda a noite. ¶* A- |  |
-| `c1-l009` | &emsp;riaqeuo toboſu. *Acender lume toda a noite.* |  |
-| `c1-l010` | Ariaqeno tçuqi. *Lũa que dura toda a noite.* |  |
+| `c1-l008` | Ariaqe. *Lume que dura toda anoite. ¶* A- |  |
+| `c1-l009` | &emsp;riaqeuo toboſu. *Acender lume toda anoite.* |  |
+| `c1-l010` | Ariaqeno tçuqi. *Lũa que dura toda anoite.* |  |
 | `c1-l011` | Ariarito. *Aduer. Aſſi como he, ſem tirar nẽ* |  |
 | `c1-l012` | &emsp;*por. ¶ Vt,* Ariarito yǔ. *Dizer a couſa co-* |  |
 | `c1-l013` | &emsp;*mo paſſou, ou como ha de ſer. ¶* Ariarito ſu- |  |
@@ -45,7 +45,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l029` | &emsp;*¶* Arigai naxi. *Idem.* |  |
 | `c1-l030` | Arigatai. *Couſa ſancta, ou digna de ſe agra-* |  |
 | `c1-l031` | &emsp;*decer, & venerar. ¶ Item, Couſa rara,* |  |
-| `c1-l032` | &emsp;*& difficulſoſa de auer.* |  |
+| `c1-l032` | &emsp;*& difficultoſa de auer.* |  |
 | `c1-l033` | &emsp;Arigataſa. |  |
 | `c1-l034` | &emsp;Arigatǒ. |  |
 | `c1-l035` | Arigataya. *Palaura ſignificadora de reueren-* |  |
@@ -53,7 +53,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l037` | &emsp;Ara arigataya, tǒtoya! *O couſa ſancta,* |  |
 | `c1-l038` | &emsp;*& pia, &c.* |  |
 | `c1-l039` | Arigauo. *Como quem eſtà contente, ou tem* |  |
-| `c1-l040` | &emsp;*poſſe, &c. Vt,* Vayoni arigauoni iye |  |
+| `c1-l040` | &emsp;*poſſe, &c. Vt,* Vqiyoni arigauoni iye |  |
 | `c1-l041` | &emsp;uo mottemo nanini xǒzo? *Ainda que* |  |
 | `c1-l042` | &emsp;*tenha caſa como quem viue proſperamente que* |  |
 | `c1-l043` | &emsp;*me aproueita? ¶* Yǒ arigauona tei. *Mo-* |  |

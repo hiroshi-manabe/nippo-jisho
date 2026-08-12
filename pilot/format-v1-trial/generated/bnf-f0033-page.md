@@ -98,11 +98,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l009` | &emsp;*Permet. Prouocar a ira a alguem, ou ex-* |  |
 | `c2-l010` | &emsp;*aſperalo.* |  |
 | `c2-l011` | Arafada. *Carão da carne aſpero.* |  |
-| `c2-l012` | Arafa. i. Araifo. *Coſta braua, ou lugar on-* |  |
+| `c2-l012` | Arafa. i. Araiſo. *Coſta braua, ou lugar on-* |  |
 | `c2-l013` | &emsp;*de as ondas do mar batem rijo.* |  |
 | `c2-l014` | Arafiǒgui. *Conſulta feita aſſi leuemente, aſpe-* |  |
 | `c2-l015` | &emsp;*ra, & reſolutamente.* |  |
-| `c2-l016` | Arafitogami. i. Fitoni tçuqitatara cami. |  |
+| `c2-l016` | Arafitogami. i. Fitoni tçuqitararu cami. |  |
 | `c2-l017` | &emsp;*Cami, ou alma perdida que entra em alguem,* |  |
 | `c2-l018` | &emsp;*& lhe faz mal.* |  |
 | `c2-l019` | Aragai, ǒ, ǒta. *Negar. ¶* Aragai qi- |  |
@@ -121,9 +121,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l032` | &emsp;*ferindo, &c.* |  |
 | `c2-l033` | Arai. *Couſa groſſeira, ou mal moida, como a-* |  |
 | `c2-l034` | &emsp;*rea groſſa, farinha com rolão, & pós mal moi-* |  |
-| `c2-l035` | &emsp;*dos, &c. ¶* Araico. *Farinha, ou pós* |  |
+| `c2-l035` | &emsp;*dos, &c. ¶* Arai co. *Farinha, ou pós* |  |
 | `c2-l036` | &emsp;*mal moidos, & groſſos. ¶ Item, Couſa* |  |
-| `c2-l037` | &emsp;*aſpera, & que não he macia. ¶* Arai ixǒ. |  |
+| `c2-l037` | &emsp;*aſpera, & que não he maſia. ¶* Arai ixǒ. |  |
 | `c2-l038` | &emsp;*Veſtido aſpero. ¶ Item, Couſa rala. Vt,* |  |
 | `c2-l039` | &emsp;Arai furui. *Peneira rala. ¶* Arai nu- |  |
 | `c2-l040` | &emsp;no. *Teada de linho canemo groſſeira, &* |  |
