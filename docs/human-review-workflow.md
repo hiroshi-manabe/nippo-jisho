@@ -173,6 +173,10 @@ A representative payload is:
 
 `before` protects against silently applying a proposal to a line that has subsequently changed. The Issue is a proposal: each reading is still checked against the scan and linguistic context before the canonical Markdown is edited.
 
+Issue adjudication is deliberately asymmetric. A human correction receives a modest corrective prior because it normally reports a discrepancy found while comparing the scan with the published text, whereas the existing transcription may preserve the machine reader's earlier mistake. Review must therefore begin by trying to substantiate the proposed reading, without treating the existing text as neutral evidence. Inspect the relevant scan afresh, use Japanese, Portuguese, and historical-lexical context to generate discriminating letter hypotheses, and compare secure same-page glyphs where possible. Reject a proposal only when the print or strong independent evidence positively contradicts it; the fact that the old reading remains visually possible is insufficient.
+
+This prior does not authorize automatic acceptance or normalization. The scan remains the Level 1 authority, and a partly correct proposal should be refined rather than accepted or rejected wholesale. The f20 correction `Aguetçire. i. l. catune.` → submitted `Aguebune. i. ſ. cabune.` illustrates both points: repeated inspection anchored on the old transcription reproduced the same mistaken shapes, while independent evidence for 上げ槽 *aguebune* and 酒槽 *sacabune* supplied the useful hypothesis. Renewed inspection then supported the qualified continuous reading `Aguebune. i. ſacabune.` rather than either complete string.
+
 ## Correction history, not certification
 
 Git records the complete technical history, while Issues retain discussion and the submitted proposal. The generated interface exposes a small factual summary for each page:

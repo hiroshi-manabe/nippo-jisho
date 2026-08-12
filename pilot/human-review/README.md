@@ -42,6 +42,8 @@ Scan-only pages load their original master on demand and display **Not yet proce
 
 In the current prototype, the normal correction interface is the project chat rather than an editor embedded in the HTML. The reviewer reports a stable line ID and proposed reading; both sides can discuss Japanese and Portuguese context and inspect enlargement before the canonical Markdown is changed. The affected HTML unit is then regenerated and rechecked. The planned public interface will retain this conversational route for ambiguous cases while adding page-level proposals through GitHub Issues.
 
+When adjudicating an Issue, give its proposed reading a modest corrective prior and treat the current transcription as potentially anchored error. Start by trying to verify the proposal against a fresh scan view and relevant linguistic or lexical evidence. Reject it only on positive contrary evidence, not because the old reading can still be seen; if the proposal identifies the right word but misreads punctuation, spacing, or one glyph, apply the scan-supported qualified form and explain the refinement in the Issue. The full rule and the f20 `Aguebune. i. ſacabune.` case are documented in [Human Review and Correction Workflow](../../docs/human-review-workflow.md#github-issue-submission).
+
 Every transcribed physical line has a **Copy** button. It copies only the stable reference and current plain text:
 
 ```text
