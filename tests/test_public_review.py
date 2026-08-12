@@ -58,6 +58,17 @@ class PublicReviewRegressionTests(unittest.TestCase):
         line = page["columns"]["column-2"]["lines"]["c2-l023"]
         self.assertEqual(line["crop"], [1540, 1790, 1080, 150])
 
+    def test_f24_aixiri_is_the_crop_focus(self):
+        record = json.loads(
+            (ROOT / "pilot" / "human-review" / "line-geometry.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        page = next(page for page in record["pages"] if page["id"] == "bnf-f0024")
+        column = page["columns"]["column-2"]
+        self.assertEqual(column["visual_review"], "text_image_sanity_checked")
+        self.assertEqual(column["lines"]["c2-l041"]["crop"], [1540, 2938, 1080, 122])
+
     def test_transcription_versions_and_rebase_controls(self):
         app = (ROOT / "site" / "app.js").read_text(encoding="utf-8")
         document = (ROOT / "site" / "index.html").read_text(encoding="utf-8")

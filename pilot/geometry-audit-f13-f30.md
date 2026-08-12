@@ -26,3 +26,7 @@ f18, f19, f21, f25, and f29 were reviewed by the same line-level rule as ordinar
 ## Result
 
 All f13–f30 columns now carry `line_by_line_reverified` with the audit date. The increased overlap restores the full `g` in f20/c1-l007 and protects similar displaced type throughout the range. This status records crop readability, not transcription correctness. For future pages, the rectangle actually used while reading each line must be saved immediately as UI geometry so this reconstruction problem does not recur.
+
+## Text-to-image sanity-check pilot: f24
+
+After a subsequent focus failure was found at f24/c2-l041, f24 alone received a stronger second audit. All 94 body-line crops were displayed as separated cards, each with its complete assigned transcription immediately below it. The reviewer had to be able to read approximately the assigned text from that crop without borrowing ink from an adjacent card. This pass retained the earlier taller override for c2-l023 and shifted c2-l041 downward so `Aixiri, u, itta. Vide Xiri, u.` is the crop's visual focus. Both f24 columns now carry `text_image_sanity_checked`; the remaining f13–f30 columns retain the weaker `line_by_line_reverified` state until the same check is applied.
