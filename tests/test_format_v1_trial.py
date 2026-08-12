@@ -104,7 +104,7 @@ class FormatV1TrialTests(unittest.TestCase):
                 "Comummente ſe vſa no",
                 "& desfazerſe a caſa por ſi",
                 "A caſa ſe desfaz cõ o vẽ-",
-                "Hum Inferno de continos tormẽ-",
+                "Hum Inferno de continos tormẽ",
             ],
             "bnf-f0019": [
                 "AFIru. Adem.",
