@@ -44,7 +44,9 @@ def local_centres(
     return centres
 
 
-def rectangles(box: list[int], centres: list[int]) -> list[tuple[list[int], list[int]]]:
+def rectangles(
+    box: list[int], centres: list[int], overlap: int = 18
+) -> list[tuple[list[int], list[int]]]:
     left, top, right, bottom = box
     if len(centres) > 1:
         nominal = float(np.median(np.diff(centres)))
@@ -56,8 +58,8 @@ def rectangles(box: list[int], centres: list[int]) -> list[tuple[list[int], list
         following = centres[index + 1] if index + 1 < len(centres) else centre + nominal
         # Retain modest overlap so ascenders, descenders, and locally drifting
         # baselines remain readable in the default line view.
-        crop_top = max(top, round((previous + centre) / 2 - 18))
-        crop_bottom = min(bottom, round((centre + following) / 2 + 18))
+        crop_top = max(top, round((previous + centre) / 2 - overlap))
+        crop_bottom = min(bottom, round((centre + following) / 2 + overlap))
         context_top = max(top, round(centre - nominal * 2.7))
         context_bottom = min(bottom, round(centre + nominal * 2.7))
         result.append(
@@ -158,7 +160,11 @@ def main() -> int:
                                     f"invalid centre override for {page_id}/{column_id}/{line['id']}"
                                 )
                             centres[index] = centre
-                    for line, centre, (crop, context) in zip(selected, centres, rectangles(box, centres)):
+                    for line, centre, (crop, context) in zip(
+                        selected,
+                        centres,
+                        rectangles(box, centres, column.get("crop_overlap", 18)),
+                    ):
                         line_map[line["id"]] = {"centre_y": centre, "crop": crop, "context_crop": context}
                         text = "".join(run["text"] for run in line["runs"])
                         sheet_lines.append((line["id"], text, crop))

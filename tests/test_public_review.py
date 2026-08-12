@@ -46,7 +46,7 @@ class PublicReviewRegressionTests(unittest.TestCase):
         page = next(page for page in record["pages"] if page["id"] == "bnf-f0018")
         line = page["columns"]["column-2"]["lines"]["c2a-l018"]
         self.assertEqual(line["centre_y"], 1498)
-        self.assertEqual(line["crop"], [1460, 1450, 1200, 96])
+        self.assertEqual(line["crop"], [1460, 1438, 1200, 120])
 
     def test_transcription_versions_and_rebase_controls(self):
         app = (ROOT / "site" / "app.js").read_text(encoding="utf-8")
