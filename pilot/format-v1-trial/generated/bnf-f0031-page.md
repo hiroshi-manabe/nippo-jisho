@@ -25,7 +25,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l009` | &emsp;*mente he,* Anuon, *& aſſi ſe eſcreue, mas por q̃* |  |
 | `c1-l010` | &emsp;*ſe pronuncia,* Annon, *por iſſo a pomos aqui.* |  |
 | `c1-l011` | Ano. Pron. *Aquelle, ou aquella.* |  |
-| `c1-l012` | Ano catã. Pron. *Aquelle, ou aquella parte.* |  |
+| `c1-l012` | Ano cata. Pron. *Aquelle, ou aquella parte.* |  |
 | `c1-l013` | Ano fǒ. Pron. *Idem.* |  |
 | `c1-l014` | Ano muqi. *Adu. Daquella maneira.* |  |
 | `c1-l015` | Ano tçure. *Daquella laya, ou maneira.* |  |
