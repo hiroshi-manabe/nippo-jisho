@@ -108,9 +108,9 @@ class FormatV1TrialTests(unittest.TestCase):
             ],
             "bnf-f0020": [
                 "Fouo",
-                "Faitçuge, l. tatamono ni",
-                "Gacumõ nadeno irouo aguru.",
-                "Aguetçire. i. l. catune.",
+                "Fattçuqe, l. fatamono ni",
+                "Gacumõ nadono irouo aguru.",
+                "Aguebune. i. ſacabune.",
             ],
             "bnf-f0021": [
                 "cobertoura de baixo",
