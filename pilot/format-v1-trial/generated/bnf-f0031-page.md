@@ -25,7 +25,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l009` | &emsp;*mente he,* Anuon, *& aſſi ſe eſcreue, mas por q̃* |  |
 | `c1-l010` | &emsp;*ſe pronuncia,* Annon, *por iſſo a pomos aqui.* |  |
 | `c1-l011` | Ano. Pron. *Aquelle, ou aquella.* |  |
-| `c1-l012` | Ano cata. Pron. *Aquelle, ou aquella parte.* |  |
+| `c1-l012` | Ano catã. Pron. *Aquelle, ou aquella parte.* |  |
 | `c1-l013` | Ano fǒ. Pron. *Idem.* |  |
 | `c1-l014` | Ano muqi. *Adu. Daquella maneira.* |  |
 | `c1-l015` | Ano tçure. *Daquella laya, ou maneira.* |  |
@@ -47,7 +47,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l031` | Anqi. Yaſuxi, ayauxi. *Seguridade, & pe-* |  |
 | `c1-l032` | &emsp;*rigo. ¶ Item, Succeſſo duuidoſo, & in-* |  |
 | `c1-l033` | &emsp;*certo.* |  |
-| `c1-l034` | Anqiǒ. *Cheiro de noite da flor de hũa aruore* |  |
+| `c1-l034` | Anqiǒ. *Cheiro denoite da flor de hũa aruore* |  |
 | `c1-l035` | &emsp;*como ameixieira. P.* |  |
 | `c1-l036` | Anqio, l, anco. Yaſuqu iru. *Quietação,* |  |
 | `c1-l037` | &emsp;*& ſoçego.* |  |
@@ -81,7 +81,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2a-l001` | Antacu. Iyeuo yaſunzuru. *Eſtar em caſa cõ* |  |
 | `c2a-l002` | &emsp;*quietação.* |  |
 | `c2a-l003` | Antai. *Paz, & quietação. Vt,* Buji antai. |  |
-| `c2a-l004` | &emsp;*Idem. ¶* Antaibiôdô. *Idem.* |  |
+| `c2a-l004` | &emsp;*Idem. ¶* Antai biôdô. *Idem.* |  |
 | `c2a-l005` | Anuon. *Vide* Annon. |  |
 | `c2a-l006` | Anxei. Yaſui yo. i. Bujina jidai. *Idade* |  |
 | `c2a-l007` | &emsp;*pacifica, & quieta. ¶ Item, Paz, &* |  |
@@ -92,7 +92,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2a-l012` | Anxin. Yaſuqi mi. *Eſtar em quietação.* |  |
 | `c2a-l013` | Anxo. Sǒan. *Minuta de carta, ou borrão* |  |
 | `c2a-l014` | &emsp;*de couſa que ſe hade eſcreuer em limpo.* |  |
-| `c2a-l015` | Anxǒ. Tçucuyenouye. *Encima do banco,* |  |
+| `c2a-l015` | Anxǒ. Tçucuyeno vye. *Encima do banco,* |  |
 | `c2a-l016` | &emsp;*ou eſcabello, ou meza.* |  |
 | `c2a-l017` | Anya. Yamino yo. *Noite eſcura.* |  |
 | `c2a-l018` | Anyǒcai. i. Gocuracu. *Paraiſo de Amida.* |  |
@@ -127,7 +127,7 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c2q-l001` | AQE, uru, eta. *Abrir. Vt,* Touo a- |  |
-| `c2q-l002` | &emsp;quru. *Abrir a porta. ¶* Michiuo |  |
+| `c2q-l002` | &emsp;quru. *Abrir aporta. ¶* Michiuo |  |
 | `c2q-l003` | &emsp;aquru. *Dar, ou abrir o caminho. ¶* Mi- |  |
 | `c2q-l004` | &emsp;chiga aita. *Eſtar facil o caminho, ou modo* |  |
 | `c2q-l005` | &emsp;*pera algũa couſa. ¶* Rachiuo aquru. *A-* |  |

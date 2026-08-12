@@ -110,6 +110,7 @@ def processed_page(page: dict, config: dict, review: dict, geometry: dict) -> di
         not in {
             "contact_sheet_reviewed",
             "captured_during_transcription",
+            "ai_line_by_line_checked",
             "line_by_line_reverified",
             "text_image_sanity_checked",
         }
