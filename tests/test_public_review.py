@@ -289,6 +289,32 @@ class PublicReviewRegressionTests(unittest.TestCase):
         self.assertIn("c2-l036", page["issues"][0]["lines"])
         self.assertIn("c2-l047", page["issues"][0]["lines"])
 
+    def test_f24_issue_12_correction_history(self):
+        history = json.loads(
+            (ROOT / "pilot" / "human-review" / "correction-history.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        page = next(page for page in history["pages"] if page["id"] == "bnf-f0024")
+        self.assertEqual(page["issues_applied"], 1)
+        self.assertEqual(page["distinct_lines"], 9)
+        self.assertEqual(page["accepted_edits"], 9)
+        self.assertEqual(page["issues"][0]["number"], 12)
+        self.assertEqual(
+            page["issues"][0]["lines"],
+            [
+                "c1-l001",
+                "c1-l007",
+                "c1-l017",
+                "c1-l031",
+                "c2-l003",
+                "c2-l006",
+                "c2-l023",
+                "c2-l028",
+                "c2-l034",
+            ],
+        )
+
 
 if __name__ == "__main__":
     unittest.main()

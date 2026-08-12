@@ -14,13 +14,13 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | &emsp;aiſôraxij aixirǒ. *Tratar a hum brãdo ou af* |  |
+| `c1-l001` | &emsp;aisôraxij aixirǒ. *Tratar a hum brãdo ou af* |  |
 | `c1-l002` | &emsp;*fabilmente. ¶* |  |
 | `c1-l003` | &emsp;Aiſoraxiſa. |  |
 | `c1-l004` | &emsp;Aiſoraxǔ. |  |
 | `c1-l005` | Aiſoye, uru, eta. *Vide* Soye, uru. |  |
 | `c1-l006` | Aiſumaxi, ſu, aita. *Concluir algũa couſa.* |  |
-| `c1-l007` | &emsp;*¶ Item, Terſe encontrado com alguã peſoa* |  |
+| `c1-l007` | &emsp;*¶ Item, Terſe encontrado com algũa peſoa* |  |
 | `c1-l008` | &emsp;*a ſua vontade, & a ſeu goſto.* |  |
 | `c1-l009` | Aiſuſume, ru, eta. *Vide* Suſume, ru. |  |
 | `c1-l010` | Aiſuſumi, u, unda. *Vide* Suſumi, u. |  |
@@ -30,7 +30,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l014` | Aitagai, ǒ, òta. *Vide* Tagai, ǒ. |  |
 | `c1-l015` | Aitagaini. *Aduer. Entre ſi, l, de hum pe-* |  |
 | `c1-l016` | &emsp;*ra outro.* |  |
-| `c1-l017` | Aitai. Tanabiqi, u. *O eſtenderſe a niuem,* |  |
+| `c1-l017` | Aitai. Tanabiqi, u. *O eſtenderſe a nuuem,* |  |
 | `c1-l018` | &emsp;*neuoa, &c. S.* |  |
 | `c1-l019` | Aitaixi, ſuru, ita. Aimucǒ. *Eſtar de fron* |  |
 | `c1-l020` | &emsp;*te hum doutro. ¶* Aitaixite mělu. *Fal-* |  |
@@ -44,7 +44,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l028` | Aitçu, l, aitçume. Aitçumega. *Aquelle.* |  |
 | `c1-l029` | &emsp;*Fallando com deſprezo, & abatimento.* |  |
 | `c1-l030` | Aitçugai, ǒ, ǒta. *Vide* Tçugai, ǒ. |  |
-| `c1-l031` | Aitçunori, ru, etta. *Vide* Tçunori, u. |  |
+| `c1-l031` | Aitçunori, ru, otta. *Vide* Tçunori, u. |  |
 | `c1-l032` | Aitçuqe, ru, eta. *Atrahir aſi, domeſticar.* |  |
 | `c1-l033` | Aituzzuqe, ru, eta. *Vide* Tçuzzuqe, ru. |  |
 | `c1-l034` | Aitçuzzuqi, u, uita. *Vide* Tçuzzuqi, qu. |  |
@@ -74,10 +74,10 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c2-l001` | Aiuazzurai, ǒ, ǒta. *Vide* Vazzurai, ǒ. |  |
 | `c2-l002` | Aiuo, aixi, nicumi. *Amor, & odio. S.* |  |
-| `c2-l003` | Aiuoi. *Vt,* Aiuoiuo matçu. *Pinheiros que* |  |
+| `c2-l003` | Aiuoi. *Vt,* Aiuoino matçu. *Pinheiros que* |  |
 | `c2-l004` | &emsp;*juntamente forão plantados, & juntamente cre* |  |
 | `c2-l005` | &emsp;*cerão como huns que eſtão na arraya do reino* |  |
-| `c2-l006` | &emsp;*de Farima, & Tçunocuni.* |  |
+| `c2-l006` | &emsp;*de Farima, &* Tçunocuni. |  |
 | `c2-l007` | Aiuomoi, ôta. *Vide* Vomoi, ô. |  |
 | `c2-l008` | Aiuon. Aixi megumu. *Fazer bem a al-* |  |
 | `c2-l009` | &emsp;*guem tendo delle compaixão.* |  |
@@ -94,18 +94,18 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l020` | &emsp;*& mimoſo.* |  |
 | `c2-l021` | Aixi, ſuru, ita. Ytçucuximi, u. *Amimar,* |  |
 | `c2-l022` | &emsp;*& moſtrar ſinaes damor. ¶ Item, Eſtimar,* |  |
-| `c2-l023` | &emsp;*& folgar com alguã couſa que lhe da goſto.* |  |
+| `c2-l023` | &emsp;*& folgar com algũa couſa que lhe da goſto.* |  |
 | `c2-l024` | &emsp;*¶* Fanauo aiſuru. *Folgar de ver as flo-* |  |
 | `c2-l025` | &emsp;*res, ou fullas.* |  |
 | `c2-l026` | Aixirai. *Agaſalhado, & bom tratamẽto que ſe* |  |
 | `c2-l027` | &emsp;*faz aos hoſpedes. ¶ Item, Otratar cõtento,* |  |
-| `c2-l028` | &emsp;*& brandamente alguã couſa deſtima, ou* |  |
+| `c2-l028` | &emsp;*& brandamente algũa couſa deſtima, ou* |  |
 | `c2-l029` | &emsp;*perigoſa de quebrar, &c. ¶* Aixiraino |  |
 | `c2-l030` | &emsp;itta vmagia. *He caualo que tem neceſsidade* |  |
 | `c2-l031` | &emsp;*de moderação no freo.* |  |
 | `c2-l032` | Aixirai, ǒ, ǒta. *Agaſalhar os hoſpedes, &* |  |
 | `c2-l033` | &emsp;*entretelos com pratica, & cõuerſação. ¶ Itẽ,* |  |
-| `c2-l034` | &emsp;*Tratar alguã couſa brandamente que ſe não da-* |  |
+| `c2-l034` | &emsp;*Tratar algũa couſa brandamente que ſe não da-* |  |
 | `c2-l035` | &emsp;*ne, ou quebre. ¶* Vmano cuchiuo aixirǒ. |  |
 | `c2-l036` | &emsp;*Moderar o freo, ou tratar brãdamente o caualo* |  |
 | `c2-l037` | &emsp;*no freo.* |  |

@@ -169,6 +169,16 @@ class FormatV1TrialTests(unittest.TestCase):
                 "Aisoraxij cotobauo caquru.",
                 "compaſſiuas. ¶ Fi ouo",
             ],
+            "bnf-f0024": [
+                "aisôraxij aixirǒ.",
+                "encontrado com algũa peſoa",
+                "eſtenderſe a nuuem",
+                "Aitçunori, ru, otta.",
+                "Aiuoino matçu.",
+                "folgar com algũa couſa",
+                "brandamente algũa couſa",
+                "Tratar algũa couſa brandamente",
+            ],
             "bnf-f0248": [
                 "Goxǒuo taſucaru.",
                 "Gǒyen. Tçuyoi yen.",
