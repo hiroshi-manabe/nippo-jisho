@@ -15,6 +15,8 @@ All 18 pages, f13–f30 inclusive, were audited: 1,655 individual line crops acr
 - overlap with adjacent lines was accepted when it protected target glyphs;
 - horizontal coverage had to include the complete printed line in its column or exceptional region.
 
+The audit must judge each crop in isolation. Adjacent strips in a stacked sheet can visually supply ink omitted from the target strip and create a false impression of completeness. This failure was confirmed at f24/c2-l023, where the following strip made the clipped lower stroke of the `g` in `folgar` appear present. That line now has an explicit taller crop.
+
 The ordinary generated crops now use 30 source pixels of vertical overlap instead of 18. Existing enlarged-initial overrides remain in force where one ordinary-height crop cannot contain the target. The calibration format and generator continue to support `centre_overrides` and per-line `crop_overrides`; manual adjustment of any line remains available when future review exposes a local exception.
 
 ## Exceptional layouts

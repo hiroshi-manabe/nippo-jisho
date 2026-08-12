@@ -48,6 +48,16 @@ class PublicReviewRegressionTests(unittest.TestCase):
         self.assertEqual(line["centre_y"], 1498)
         self.assertEqual(line["crop"], [1460, 1438, 1200, 120])
 
+    def test_f24_folgar_descender_is_not_clipped(self):
+        record = json.loads(
+            (ROOT / "pilot" / "human-review" / "line-geometry.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        page = next(page for page in record["pages"] if page["id"] == "bnf-f0024")
+        line = page["columns"]["column-2"]["lines"]["c2-l023"]
+        self.assertEqual(line["crop"], [1540, 1790, 1080, 150])
+
     def test_transcription_versions_and_rebase_controls(self):
         app = (ROOT / "site" / "app.js").read_text(encoding="utf-8")
         document = (ROOT / "site" / "index.html").read_text(encoding="utf-8")
