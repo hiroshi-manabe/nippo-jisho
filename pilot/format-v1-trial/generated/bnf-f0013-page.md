@@ -45,7 +45,7 @@ A repeated ornamental band is printed above the title; it contains no lexical te
 | `c1-l022` | &emsp;*onde tirão a rede do peixe.* |  |
 | `c1-l023` | Abaqemono. *Peſſoa indiſcreta, & deza-* |  |
 | `c1-l024` | &emsp;*tentada no fallar, &c.* |  |
-| `c1-l025` | Abaqi, u, aita. *Comummente ſe uſa no* |  |
+| `c1-l025` | Abaqi, u, aita. *Comummente ſe vſa no* |  |
 | `c1-l026` | &emsp;*negatiuo por não caber. ¶ Vt,* Cono nin |  |
 | `c1-l027` | &emsp;juga cono zaxiqini abacanu. *Eſta gen-* |  |
 | `c1-l028` | &emsp;*te não cabe neſte Zaxiqi. No preſente af-* |  |
@@ -68,9 +68,9 @@ A repeated ornamental band is printed above the title; it contains no lexical te
 | `c2-l006` | &emsp;Abarani *Adu.* |  |
 | `c2-l007` | Abaraya. *Caſa velha, rota, & eſtroncada.* |  |
 | `c2-l008` | Abare, uru, eta. *Verbo defect. Deſtruirſe,* |  |
-| `c2-l009` | &emsp;*& deſfazerſe a caſa por ſi, pouco uſado* |  |
+| `c2-l009` | &emsp;*& desfazerſe a caſa por ſi, pouco uſado* |  |
 | `c2-l010` | &emsp;*neſte ſentido. ¶ Vt,* Iyeua cajeni abare, |  |
-| `c2-l011` | &emsp;ameni cutçuru *A caſa ſe deſfaz cõ o vẽ-* |  |
+| `c2-l011` | &emsp;ameni cutçuru *A caſa ſe desfaz cõ o vẽ-* |  |
 | `c2-l012` | &emsp;*to, & apodrece cõ a chuua. ¶ Item,* Aba |  |
 | `c2-l013` | &emsp;re. uru. *Ser deſordenado, ou deſmancha-* |  |
 | `c2-l014` | &emsp;*do como os meninos no brincar, &c. ¶* Co- |  |

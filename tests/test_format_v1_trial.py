@@ -100,6 +100,12 @@ class FormatV1TrialTests(unittest.TestCase):
 
     def test_representative_trial_records_are_complete_and_reviewed(self):
         expected_corrections = {
+            "bnf-f0013": [
+                "Comummente ſe vſa no",
+                "& desfazerſe a caſa por ſi",
+                "A caſa ſe desfaz cõ o vẽ-",
+                "Hum Inferno de continos tormẽ-",
+            ],
             "bnf-f0019": [
                 "AFIru. Adem.",
                 "Agaqi, u, aita.",

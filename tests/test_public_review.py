@@ -169,6 +169,22 @@ class PublicReviewRegressionTests(unittest.TestCase):
                 crop = pages[page_id]["columns"][column_id]["lines"][line_id]["crop"]
                 self.assertGreaterEqual(crop[3], 158)
 
+    def test_f13_issue_10_correction_history(self):
+        history = json.loads(
+            (ROOT / "pilot" / "human-review" / "correction-history.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        page = next(page for page in history["pages"] if page["id"] == "bnf-f0013")
+        self.assertEqual(page["issues_applied"], 1)
+        self.assertEqual(page["distinct_lines"], 3)
+        self.assertEqual(page["accepted_edits"], 3)
+        self.assertEqual(page["issues"][0]["number"], 10)
+        self.assertEqual(
+            page["issues"][0]["lines"],
+            ["c1-l025", "c2-l009", "c2-l011"],
+        )
+
     def test_f18_issue_2_correction_history(self):
         history = json.loads(
             (ROOT / "pilot" / "human-review" / "correction-history.json").read_text(
