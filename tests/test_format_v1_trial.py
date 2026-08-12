@@ -113,11 +113,12 @@ class FormatV1TrialTests(unittest.TestCase):
                 "Aguebune. i. ſacabune.",
             ],
             "bnf-f0021": [
-                "cobertoura de baixo",
+                "cobertoura de baixo da qual ſe poem o murrão da",
                 "Aguejitomi.",
                 "Ameſma tinta.",
+                "Aiuo yǔ, l, nôaiuo",
                 "Vide Varifu.",
-                "Noriai. Nauegar",
+                "Noriai. Nauegar, ou embarcarſe jũtamente.",
             ],
             "bnf-f0022": [
                 "Vide Cacoi. ô.",
