@@ -106,7 +106,7 @@ def processed_page(page: dict, config: dict, review: dict, geometry: dict) -> di
     unreviewed = [
         column_id
         for column_id, column in columns.items()
-        if column.get("visual_review") != "contact_sheet_reviewed"
+        if column.get("visual_review") not in {"contact_sheet_reviewed", "line_and_browser_reviewed"}
     ]
     if unreviewed:
         raise RuntimeError(

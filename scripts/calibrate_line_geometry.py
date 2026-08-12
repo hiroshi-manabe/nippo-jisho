@@ -149,6 +149,15 @@ def main() -> int:
                         last_y,
                         column.get("projection_snap", True),
                     )
+                    centre_overrides = column.get("centre_overrides", {})
+                    for index, line in enumerate(selected):
+                        if line["id"] in centre_overrides:
+                            centre = centre_overrides[line["id"]]
+                            if not isinstance(centre, int):
+                                raise SystemExit(
+                                    f"invalid centre override for {page_id}/{column_id}/{line['id']}"
+                                )
+                            centres[index] = centre
                     for line, centre, (crop, context) in zip(selected, centres, rectangles(box, centres)):
                         line_map[line["id"]] = {"centre_y": centre, "crop": crop, "context_crop": context}
                         text = "".join(run["text"] for run in line["runs"])
@@ -172,8 +181,16 @@ def main() -> int:
                     line_map[line_id]["crop"] = crop
                 page_output["columns"][column_id] = {
                     "box": box,
-                    "visual_review": "contact_sheet_reviewed" if args.mark_reviewed else "contact_sheet_pending",
-                    **({"reviewed_at": "2026-08-01"} if args.mark_reviewed else {}),
+                    "visual_review": (
+                        column.get("review_state", "contact_sheet_reviewed")
+                        if args.mark_reviewed
+                        else "contact_sheet_pending"
+                    ),
+                    **(
+                        {"reviewed_at": column.get("reviewed_at", "2026-08-01")}
+                        if args.mark_reviewed
+                        else {}
+                    ),
                     "lines": line_map,
                 }
                 contact_sheet(source, page_id, column_id, sheet_lines, args.review_dir / f"{page_id}-{column_id}.jpg")
