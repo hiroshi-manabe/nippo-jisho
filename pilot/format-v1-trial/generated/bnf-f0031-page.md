@@ -21,7 +21,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l005` | &emsp;*rior. S.* |  |
 | `c1-l006` | Annin. *Miolo do caroço de albicorque.* |  |
 | `c1-l007` | Annon, l, anuon. Yaſuqu vodayaca nari. |  |
-| `c1-l008` | &emsp;*Tranquillidade, & paz. Eſta palaura propria-* |  |
+| `c1-l008` | &emsp;*Tranquillidade, & paz. Eſta palaura propria* |  |
 | `c1-l009` | &emsp;*mente he,* Anuon, *& aſſi ſe eſcreue, mas por q̃* |  |
 | `c1-l010` | &emsp;*ſe pronuncia,* Annon, *por iſſo a pomos aqui.* |  |
 | `c1-l011` | Ano. Pron. *Aquelle, ou aquella.* |  |
