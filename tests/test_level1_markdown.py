@@ -296,8 +296,8 @@ class Level1MarkdownTests(unittest.TestCase):
             "bnf-f0026.md": ("beiras do teihado", "garamiuo", "Amano fara"),
             "bnf-f0027.md": (
                 "Bilho de ſaude",
-                "Amatçumi iora",
-                "Paſsante,ou",
+                "Amatçumi ſora",
+                "Paſſante,ou",
                 "comprido,ou",
             ),
         }

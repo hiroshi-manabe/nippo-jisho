@@ -27,8 +27,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l011` | &emsp;*& no fim conforme a diuerſas ſignificaçoẽs.* |  |
 | `c1-l012` | &emsp;*Vt,* Amari ſamuy. *Faz muito frio. ¶* A- |  |
 | `c1-l013` | &emsp;mari ficui. *He muito baixo deſtatura* |  |
-| `c1-l014` | &emsp;*¶ Item, Paſsante,ou mais. Vt,* Sannen a- |  |
-| `c1-l015` | &emsp;mari. *Paſsante de tres annos,ou mais de tres* |  |
+| `c1-l014` | &emsp;*¶ Item, Paſſante,ou mais. Vt,* Sannen a- |  |
+| `c1-l015` | &emsp;mari. *Paſſante de tres annos,ou mais de tres* |  |
 | `c1-l016` | &emsp;*annos. ¶* Yorocobino amarini. *Polla* |  |
 | `c1-l017` | &emsp;*muita alegria, ou contentamento, &c. ¶* Mi- |  |
 | `c1-l018` | &emsp;ni amari catajigenai. *Agradeço muito em* |  |
@@ -45,7 +45,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l029` | &emsp;*ſa que não ſe pode alcançar, com a conſide-* |  |
 | `c1-l030` | &emsp;*ração. ¶* Fiuono meni amaru mono. *Ho-* |  |
 | `c1-l031` | &emsp;*mem eſcandaloſo, & de ruim exemplo.* |  |
-| `c1-l032` | Amarimono. *Peſsoa indomauel, como moço* |  |
+| `c1-l032` | Amarimono. *Peſſoa indomauel, como moço* |  |
 | `c1-l033` | &emsp;*muito traueſo.* |  |
 | `c1-l034` | Amarina, l, Amarino. *Couſa exceſsiua, & ſo-* |  |
 | `c1-l035` | &emsp;*beja. ¶* Amarino cotoni. *Por mais não* |  |
@@ -82,14 +82,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l002` | Amatatabi. *Adu. Muitas vezes.* |  |
 | `c2-l003` | Amatçucari. *Pato brauo que vai pello ar.* |  |
 | `c2-l004` | Amatçufi. *Sol do ceo. P.* |  |
-| `c2-l005` | Amatçumi iora. l, Amatçu iora. i. Vôzora. |  |
+| `c2-l005` | Amatçumi ſora. l, Amatçu ſora. i. Vôzora. |  |
 | `c2-l006` | &emsp;*Ceo, ou ar. P.* |  |
 | `c2-l007` | Amatçuſora. *Idem.* |  |
 | `c2-l008` | Amateraxi, ſu. P. *Alumiar o ſol, ou a lũa ao ceo.* |  |
 | `c2-l009` | Amauobune. P. *Barco pequeno de peſcadores.* |  |
 | `c2-l010` | Amauoi. *Melius.* Amauouoi. *Toldo, ou* |  |
 | `c2-l011` | &emsp;*ramada contra a chuua.* |  |
-| `c2-l012` | Amauotome. P. *Mlheres moradoras doceo.* |  |
+| `c2-l012` | Amauotome. P. *Molheres moradoras doceo.* |  |
 | `c2-l013` | Amaxi, ſu, aita. *Fazer ſobejar. ¶ Item,* |  |
 | `c2-l014` | &emsp;*Deixar fugir, ou eſcapar. Vt,* Teqiuo ama- |  |
 | `c2-l015` | &emsp;ſuna moraſuna. i. *Não deixeis fugir os ini-* |  |
@@ -100,7 +100,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l020` | &emsp;Amaxigueô. |  |
 | `c2-l021` | Amayacaxi, ſu, aita. *Animar, tratar com* |  |
 | `c2-l022` | &emsp;*demaſiada brandura. ¶* Amayacaxigo. |  |
-| `c2-l023` | &emsp;*Filho muito mimozo, ou criado cõ muito mimo.* |  |
+| `c2-l023` | &emsp;*Filho muito mimozo, on criado cõ muito mimo.* |  |
 | `c2-l024` | Amayadori. *Emparo, ou abrigo a onde nos* |  |
 | `c2-l025` | &emsp;*acolhemos da chuua.* |  |
 | `c2-l026` | Amaye, uru, eta. *Fazerem caricias, ou afa-* |  |
