@@ -112,6 +112,7 @@ def processed_page(page: dict, config: dict, review: dict, geometry: dict) -> di
             "captured_during_transcription",
             "ai_line_by_line_checked",
             "ai_bulk_geometry_sanity_checked",
+            "external_ai_width_rechecked",
             "line_by_line_reverified",
             "text_image_sanity_checked",
         }

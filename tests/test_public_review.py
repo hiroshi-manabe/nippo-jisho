@@ -132,6 +132,36 @@ class PublicReviewRegressionTests(unittest.TestCase):
                         column["visual_review"], "text_image_sanity_checked"
                     )
 
+    def test_external_ai_geometry_has_complete_horizontal_coverage(self):
+        record = json.loads(
+            (ROOT / "pilot" / "human-review" / "line-geometry.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        pages = [
+            page for page in record["pages"]
+            if any(column.get("review_source") for column in page.get("columns", {}).values())
+        ]
+        self.assertEqual(
+            [page["id"] for page in pages],
+            [f"bnf-f{number:04d}" for number in range(31, 72)],
+        )
+        for page in pages:
+            for column in page["columns"].values():
+                self.assertEqual(column["visual_review"], "external_ai_width_rechecked")
+                self.assertEqual(
+                    column["horizontal_completeness_review"]["status"],
+                    "complete_column_width_checked",
+                )
+                left, _, right, _ = column["box"]
+                for line in column["lines"].values():
+                    self.assertEqual(line["crop"][0], left)
+                    self.assertEqual(line["crop"][0] + line["crop"][2], right)
+                    self.assertEqual(line["context_crop"][0], left)
+                    self.assertEqual(
+                        line["context_crop"][0] + line["context_crop"][2], right
+                    )
+
     def test_transcription_versions_and_rebase_controls(self):
         app = (ROOT / "site" / "app.js").read_text(encoding="utf-8")
         document = (ROOT / "site" / "index.html").read_text(encoding="utf-8")
