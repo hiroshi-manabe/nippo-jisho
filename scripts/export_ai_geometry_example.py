@@ -107,6 +107,14 @@ def main() -> int:
         ),
         "coordinate_space": "native Gallica master pixels",
         "rectangle_format": "[x, y, width, height]",
+        "geometry_acceptance": (
+            "Inspect every isolated crop at full practical size against the full page; "
+            "confirm complete first and last glyphs and all top/bottom ink; do not infer "
+            "horizontal completeness from line identity or vertical centering; then sweep "
+            "each column top-to-bottom for repeated clipping, especially the outer/right "
+            "edge of column 2. Conservative rule-to-rule width and necessary neighboring-"
+            "line overlap are allowed."
+        ),
         "source": {
             "filename": tile["master"],
             "width": source_width,

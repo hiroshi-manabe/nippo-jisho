@@ -17,3 +17,5 @@ python3 scripts/recheck_external_geometry_width.py --apply
 ## Consequence for future delegation
 
 Recognizing the assigned line from a full scan is not evidence that its isolated UI crop is complete. Future reviews must separately verify all four edges of the actual returned crop, with explicit attention to the first and last printed glyph. A conservative rule-to-rule crop is acceptable when tight per-line bounds do not add practical value.
+
+The delegated-work README and response generator now carry this requirement directly. Completion includes a final top-to-bottom sweep of the returned isolated crops for each column, specifically checking for a repeated clipped outer edge. This supplements rather than replaces the per-line inspection.

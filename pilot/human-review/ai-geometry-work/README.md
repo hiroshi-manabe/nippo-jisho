@@ -1,6 +1,6 @@
 # Pending AI line-geometry work
 
-Files in this directory are task records, not approved geometry. Their rectangles are initial proposals reconstructed by the existing project process and may be horizontally or vertically wrong.
+Files in this directory are task records, not approved geometry. Their rectangles are initial proposals reconstructed by the existing project process and may be horizontally or vertically wrong. In particular, a line can be vertically correct and readily identifiable while its first or last glyph is outside the proposed rectangle. The f31 return demonstrated this failure in column 2: many right-hand line endings were clipped even though the vertical positions were useful.
 
 For each line, the assigned AI must inspect the proposed crop at full practical width, adjust `centre_y`, `crop`, and `context_crop` when necessary, and independently fill `observed_text` before consulting the canonical transcription. It must then replace the pending judgments as follows:
 
@@ -9,6 +9,21 @@ For each line, the assigned AI must inspect the proposed crop at full practical 
 - `geometry_action`: `accepted_initial` or `adjusted`.
 
 An optional `note` should explain only genuine uncertainty or exceptional geometry. Completion requires every body-line record to have non-null `observed_text` and no `pending` value. It does not authorize changes to the canonical Level 1 transcription.
+
+## Mandatory crop acceptance check
+
+For **every line**, inspect the actual isolated `crop`, not merely the full page or the proposed `column_box_xyxy`, and confirm all four edges:
+
+1. the first printed glyph is wholly visible at the left edge;
+2. the last printed glyph and every line-end mark are wholly visible at the right edge;
+3. accents, ascenders, and any ink extending above the nominal line are visible;
+4. descenders and any ink extending below the nominal line are visible.
+
+Do not infer horizontal completeness from successful line identification or good vertical centering. Do not reuse a fixed width merely because it works for neighboring lines or the other column. The page may be skewed, and column 2 is especially liable to lose its outer/right endings. Inspect the first and last glyph against the full-resolution page before setting `geometry_action` to `accepted_initial`.
+
+A conservative crop extending slightly beyond both printed column rules is preferred when a tight per-line boundary adds no practical value. Neighboring-line overlap is allowed when needed to preserve complete glyphs. `context_crop` must both contain `crop` and retain enough surrounding material to verify that the assigned line—not an adjacent line—is the focus.
+
+After all individual lines are complete, perform one final top-to-bottom sweep of each column using the returned isolated crops. This is a separate completion step: explicitly look for a repeated clipped edge, paying particular attention to the outer/right edge of column 2. A response is not complete until this column-level sweep finds no missing first or last glyphs.
 
 Any `validation_flags` present in the initial task must be resolved before completion. In particular, `context_crop_does_not_contain_crop` means that the enlarged normal crop cannot be reached by expanding to the current context view; the context rectangle must be corrected to contain it.
 
