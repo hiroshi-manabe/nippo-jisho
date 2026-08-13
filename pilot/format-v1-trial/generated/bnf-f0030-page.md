@@ -47,7 +47,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l031` | Angǒ. *Nome de qualquer* Bǒzu, *ou rapado* |  |
 | `c1-l032` | &emsp;*que ſe acaba em* An. *¶* Cono jenmon |  |
 | `c1-l033` | &emsp;no angǒ nanto yǔca? *Qual he onome deſ* |  |
-| `c1-l034` | &emsp;*te rapado. ¶* Angǒuo tçucǒca? Caimini |  |
+| `c1-l034` | &emsp;*te rapado. ¶* Angǒuo tçucǒca? ſaimin |  |
 | `c1-l035` | &emsp;uo tçucǒca? *Quereis que vos ponhão nome* |  |
 | `c1-l036` | &emsp;*dos que acabão em* An, *ou em* Sai. |  |
 | `c1-l037` | Angua. Yaſuqu fuſu. i. Cocoro yasǔ nu- |  |
