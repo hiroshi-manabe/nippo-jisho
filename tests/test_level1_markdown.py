@@ -309,7 +309,7 @@ class Level1MarkdownTests(unittest.TestCase):
 
     def test_normal_bounded_f28_f37_batch_readings_are_retained(self):
         f28 = (SOURCE / "bnf-f0028.md").read_text(encoding="utf-8")
-        self.assertIn("Ameni nurete tçuyi voſoroxicarazu", f28)
+        self.assertIn("Ameni nurete tçuyu voſoroxicarazu", f28)
         self.assertIn("Ameyaſameto", f28)
         self.assertIn("Ameyaſ meto", f28)
         self.assertIn("Amiuo voroſu", f28)

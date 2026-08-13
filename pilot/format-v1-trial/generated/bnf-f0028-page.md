@@ -22,7 +22,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l006` | &emsp;*pera de comer, ou iguaria. ¶* Ambaiuo mi- |  |
 | `c1-l007` | &emsp;ru. *Prouar as iguarias ſe eſtão bẽ temperadas.* |  |
 | `c1-l008` | Ame. *Chua. ¶* Amega furu. *Chouer.* |  |
-| `c1-l009` | &emsp;*¶* Ameni nurete tçuyi voſoroxicarazu. |  |
+| `c1-l009` | &emsp;*¶* Ameni nurete tçuyu voſoroxicarazu. |  |
 | `c1-l010` | &emsp;*Prouerb. Quem padece grandes males não te-* |  |
 | `c1-l011` | &emsp;*me os pequenos, como oque eſtà molhado da* |  |
 | `c1-l012` | &emsp;*chuua não teme o orualho.* |  |

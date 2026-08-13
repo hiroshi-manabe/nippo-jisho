@@ -6,7 +6,7 @@ This is the short, daily-use layer of the project's linguistic reference. It sup
 
 **Let linguistic knowledge tell you where to look again; let the enlarged scan decide what to write.** The printing contains variation, anomalies, and errors. A plausible Japanese or Portuguese form is not permission to repair the source.
 
-For a human correction Issue, use a stricter anti-anchoring order: hide or mentally discard the current reading; first parse the proposed Japanese and Portuguese in context; list the plausible forms; only then inspect the scan. The proposal leads when it is linguistically coherent and the image is compatible. Keep the old reading only with positive contrary visual evidence, not because it remains possible on a second look. Clear printed anomalies still remain literal.
+For a human correction Issue, use a stricter anti-anchoring order: hide or mentally discard the current reading; first parse the proposed Japanese and Portuguese in context; list the plausible forms; only then inspect the scan. The proposal leads when it is linguistically coherent and the image is compatible. Keep the old reading only with positive contrary visual evidence, not because it remains possible on a second look. Clear printed anomalies still remain literal. If machine review produces a third, qualified form rather than the exact submitted correction, stop for human confirmation instead of silently applying it.
 
 ## One-minute routine
 

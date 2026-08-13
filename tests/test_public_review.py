@@ -247,10 +247,10 @@ class PublicReviewRegressionTests(unittest.TestCase):
         )
         page = next(page for page in history["pages"] if page["id"] == "bnf-f0028")
         self.assertEqual(page["issues_applied"], 1)
-        self.assertEqual(page["distinct_lines"], 26)
-        self.assertEqual(page["accepted_edits"], 26)
+        self.assertEqual(page["distinct_lines"], 27)
+        self.assertEqual(page["accepted_edits"], 27)
         self.assertEqual(page["issues"][0]["number"], 16)
-        self.assertNotIn("c1-l009", page["issues"][0]["lines"])
+        self.assertIn("c1-l009", page["issues"][0]["lines"])
         self.assertIn("c1-l036", page["issues"][0]["lines"])
         self.assertIn("c2-l033", page["issues"][0]["lines"])
 
