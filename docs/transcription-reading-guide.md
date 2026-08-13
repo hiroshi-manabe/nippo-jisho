@@ -16,8 +16,8 @@ For every passage:
 2. Apply the diagnostic cautions in this guide only after an initial reading exists.
 3. Enlarge any locally difficult or suspicious span, regardless of the default size used for routine transcription, and compare nearby specimens of the same type when useful.
 4. Return to the surrounding lines to test the enlarged reading in context.
-5. Mark materially unresolved uncertainty instead of repairing an implausible form from memory or linguistic expectation.
-6. Accept a correction only when the scan supports it. Record linguistic analysis separately as corroboration.
+5. During first-pass transcription, mark materially unresolved uncertainty instead of repairing an implausible form from memory or linguistic expectation.
+6. During Issue adjudication, reverse the evidential order to counter anchoring: analyse the human proposal linguistically before viewing the old disputed reading, then use the scan to discriminate the resulting hypotheses. A compatible image plus materially stronger linguistic coherence supports acceptance; retaining the old form requires positive contrary visual evidence.
 
 No spelling rule in this guide licenses automatic substitution. The original printing and the Jesuit transcription system both contain variation, anomalous spellings, and errors.
 

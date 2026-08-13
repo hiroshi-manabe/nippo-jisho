@@ -173,9 +173,20 @@ A representative payload is:
 
 `before` protects against silently applying a proposal to a line that has subsequently changed. The Issue is a proposal: each reading is still checked against the scan and linguistic context before the canonical Markdown is edited.
 
-Issue adjudication is deliberately asymmetric. A human correction receives a modest corrective prior because it normally reports a discrepancy found while comparing the scan with the published text, whereas the existing transcription may preserve the machine reader's earlier mistake. Review must therefore begin by trying to substantiate the proposed reading, without treating the existing text as neutral evidence. Inspect the relevant scan afresh, use Japanese, Portuguese, and historical-lexical context to generate discriminating letter hypotheses, and compare secure same-page glyphs where possible.
+Issue adjudication is deliberately asymmetric. A human correction receives a strong corrective prior because it normally reports a discrepancy found while comparing the scan with the published text, whereas the existing transcription is usually the machine reader's own earlier visual judgment. Showing that old judgment during a second visual pass creates anchoring: the machine can reproduce its first interpretation without adding independent evidence.
 
-The machine reviewer accepts and applies every proposal it can substantiate. A proposal it cannot substantiate is provisionally rejected and marked **Human re-check required**. Here, *rejected* means only *not independently verified by the machine reviewer*; it does not mean that the proposal has been proved incorrect. The fact that the old reading remains visually possible is not positive evidence against the correction, but genuine visual uncertainty is sufficient reason to request human adjudication instead of applying the change autonomously.
+Review therefore proceeds in this order:
+
+1. Temporarily disregard the current transcription and do not begin by rereading its disputed form.
+2. Analyse the proposal from Japanese morphology and lexicon, Portuguese grammar and historical spelling, the bilingual definition, and relevant headword or scholarly evidence. Write down the plausible linguistic forms and the distinctions the image must decide.
+3. Treat a linguistically coherent human proposal as the leading hypothesis, especially when the old form fails to parse or breaks an expected inflectional series.
+4. Inspect the scan afresh and actively look for the proposed reading, then compare only genuinely discriminating same-page glyphs and marks.
+5. Accept the proposal when the image is compatible with it and linguistic evidence materially favors it. The old reading's continued visual possibility is not a reason to retain it.
+6. Retain the old reading only when the scan supplies positive contrary evidence strong enough to outweigh the linguistic case. If neither reading can be settled, request human re-check.
+
+This is evidence-weighting, not silent normalization. An unmistakably printed anomaly remains literal Level 1 text even when its intended word is certain. Linguistic priority governs hypothesis formation and ambiguous evidence; it does not authorize replacing clear type with an expected form.
+
+The machine reviewer accepts and applies every proposal supported by this combined linguistic-first and visual test. A proposal it cannot substantiate is provisionally rejected and marked **Human re-check required**. Here, *rejected* means only *not independently verified by the machine reviewer*; it does not mean that the proposal has been proved incorrect. The machine must state the positive contrary evidence or the exact unresolved distinction rather than merely report that the old reading still looks possible.
 
 The human reviewer then re-examines each provisionally rejected item. The reviewer may withdraw the proposal or explicitly override the machine judgment when confident that the proposed reading is correct. An explicit human override is the final adjudication for that Issue item: apply it without reopening the same visual dispute, and retain the Issue discussion as the record of the machine's initial uncertainty and the human decision. An override may inform later error analysis, but it does not become a volume-wide transcription rule without broader evidence.
 
@@ -187,7 +198,7 @@ An Issue remains open while any item is marked **Human re-check required**. Clos
 
 This makes the Issue the durable adjudication checklist and prevents a provisional rejection from being mistaken for a settled decision.
 
-This prior does not authorize automatic acceptance or normalization. The scan remains the Level 1 authority, and a partly correct proposal should be refined rather than accepted or rejected wholesale. The f20 correction `Aguetçire. i. l. catune.` → submitted `Aguebune. i. ſ. cabune.` illustrates both points: repeated inspection anchored on the old transcription reproduced the same mistaken shapes, while independent evidence for 上げ槽 *aguebune* and 酒槽 *sacabune* supplied the useful hypothesis. Renewed inspection then supported the qualified continuous reading `Aguebune. i. ſacabune.` rather than either complete string.
+This prior does not authorize automatic acceptance or normalization. The scan remains the Level 1 authority, and a partly correct proposal should be refined rather than accepted or rejected wholesale. The f20 correction `Aguetçire. i. l. catune.` → submitted `Aguebune. i. ſ. cabune.` illustrates both points: repeated inspection anchored on the old transcription reproduced the same mistaken shapes, while independent evidence for 上げ槽 *aguebune* and 酒槽 *sacabune* supplied the useful hypothesis. Renewed inspection then supported the qualified continuous reading `Aguebune. i. ſacabune.` rather than either complete string. Issue 14 supplies the broader control case: linguistic analysis strongly favored `Amabiyori`, `qeru`, `ru`, `Amagayeru`, and `Amajiuono uo`, but a visually anchored second pass provisionally retained the machine's earlier anomalous readings. Enlarged human reinspection confirmed the proposals. Future Issue review must perform that linguistic analysis before viewing the old disputed reading.
 
 ## Correction history, not certification
 
