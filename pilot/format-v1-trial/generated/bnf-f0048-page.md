@@ -24,7 +24,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l008` | Bachi. *Caſtigo de culpas. ¶* Bachiuo cõ- |  |
 | `c1-l009` | &emsp;muru. *Ser caſtigado por ſuas culpas. ¶* Ba- |  |
 | `c1-l010` | &emsp;chiga ataru. *Receber caſtigo, ou pago* |  |
-| `c1-l011` | &emsp;*dalguã culpa. ¶* Voyano bachiuo cabu- |  |
+| `c1-l011` | &emsp;*dalgũa culpa. ¶* Voyano bachiuo cabu- |  |
 | `c1-l012` | &emsp;ru. *Receber o pago, ou caſtigo de Deos* |  |
 | `c1-l013` | &emsp;*pellas deſobediencias feitas ao pai, ou mãy.* |  |
 | `c1-l014` | Bachi. *Pao cõ que tãgem o tamboril. ¶ Itẽ,* |  |
@@ -89,7 +89,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l015` | Bacutaino. *Couſa grande, & muita em quã-* |  |
 | `c2-l016` | &emsp;*tidade. ¶* Bacutaino go von. *Muitos be-* |  |
 | `c2-l017` | &emsp;*neficios.* |  |
-| `c2-l018` | Bacuxû. Mugui aqir. Goguachino jibun. |  |
+| `c2-l018` | Bacuxû. Mugui aqi, l. Goguachino jibun. |  |
 | `c2-l019` | &emsp;*Tempo em que o trigo, ou ceuada eſta de vez* |  |
 | `c2-l020` | &emsp;*pera ſe ſegar.* |  |
 | `c2-l021` | Bacuyeqi. i. Bacuchi. *Iogo de dados,* |  |

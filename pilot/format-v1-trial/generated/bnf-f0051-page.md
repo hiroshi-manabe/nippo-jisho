@@ -31,7 +31,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l015` | Banrui. Yorozzuno tagui. *Todas as eſpe-* |  |
 | `c1-l016` | &emsp;*cies, ou layas.* |  |
 | `c1-l017` | Bansan. Yorozzuno yama. *Todos os mõtes.* |  |
-| `c1-l018` | &emsp;*¶ Vt,* Baſa Faru itareba mina fanano ni xi- |  |
+| `c1-l018` | &emsp;*¶ Vt,* Bãſã Faru itareba mina fanano nixi- |  |
 | `c1-l019` | &emsp;qi uo qiru. *Em vindo a primauera todos os* |  |
 | `c1-l020` | &emsp;*montes ſe veſtem de verdura, & fermoſura.* |  |
 | `c1-l021` | Bansô. i. Tomonǒte yuqu. *Religioſo q̃* |  |
@@ -100,9 +100,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l021` | Bappon. Motouo nuqu. i. Motouo vchi |  |
 | `c2-l022` | &emsp;yaburu. *Deſtruir totalmente algũa couſa de* |  |
 | `c2-l023` | &emsp;*raiz.* |  |
-| `c2-l024` | Baqe, ru, eta. *Tomar alguã figura, ou traſ-* |  |
+| `c2-l024` | Baqe, ru, eta. *Tomar algũa figura, ou traſ-* |  |
 | `c2-l025` | &emsp;*formarſe como faz o demonio tomando figura* |  |
-| `c2-l026` | &emsp;*de rapoſa, paſſo que os Iapões não nomeão o dia-* |  |
+| `c2-l026` | &emsp;*de rapoſa, poſto que os Iapões não nomeão o dia-* |  |
 | `c2-l027` | &emsp;*bo, mas dizem Qitçunega baqeta. A-* |  |
 | `c2-l028` | &emsp;*rapoſa ſe fez homem, ou apareçeo traſformada* |  |
 | `c2-l029` | &emsp;*ẽ molher, homẽ, &c. ¶ Item, permet.* |  |
