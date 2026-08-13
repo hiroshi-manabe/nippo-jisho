@@ -14,28 +14,28 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | &emsp;*Depois de começar o anno nouo. ¶* Aqe- |  |
+| `c1-l001` | &emsp;*Depois de começar o anno nouo. ¶* Aqu- |  |
 | `c1-l002` | &emsp;ru fi. *O dia ſeguinte. ¶* Aqetemo, |  |
 | `c1-l003` | &emsp;curetemo, l, aqe cure. *Dedia, & de noi-* |  |
 | `c1-l004` | &emsp;*te, ſempre.* |  |
 | `c1-l005` | Aqe. *Cor muito vermelha. ¶ Item, Permet.* |  |
 | `c1-l006` | &emsp;*Sangue. ¶* Aqeni ſomu. *Eſtar tinto* |  |
-| `c1-l007` | &emsp;*em ſangue, ou de vermelho. ¶* Aqeni na- |  |
+| `c1-l007` | &emsp;*em ſangue, ou de vermelho. ¶* Aqeni na |  |
 | `c1-l008` | &emsp;ru. *Idem. ¶* Aqeno chixiuoni ſomu. |  |
 | `c1-l009` | &emsp;*Eſtar tinto de cor muito vermelha, ou permet.* |  |
 | `c1-l010` | &emsp;*Muito banhado em ſangue.* |  |
 | `c1-l011` | Aqebi. *Hũa erua medicinal.* |  |
 | `c1-l012` | Aqebono. *Alua, ou madrugada.* |  |
-| `c1-l013` | Aqecure. *Continuamente de dia, & de noite.* |  |
+| `c1-l013` | Aqecure. *Continuamente dedia, & de noite.* |  |
 | `c1-l014` | Aqegata. i. Yoaqe, l, aqebono. *Alua,* |  |
 | `c1-l015` | &emsp;*ou ante manhaam. ¶* Sudeni faya yoga |  |
 | `c1-l016` | &emsp;aqegatani natta. *Ea quaſi tinha amanhecido.* |  |
 | `c1-l017` | Aqeno tamagaqi. *Hũas grades vermelhas q̃* |  |
-| `c1-l018` | &emsp;*eſtão diante do Cami.* |  |
-| `c1-l019` | Aqeô. Nicaua. *Cola que ſe faz de couro de* |  |
+| `c1-l018` | &emsp;*eſtão diante do* Cami. |  |
+| `c1-l019` | Aqeô. Nicaua. *Cola queſe faz de couro de* |  |
 | `c1-l020` | &emsp;*vaca, & ſerue de mezinha.* |  |
 | `c1-l021` | Aqeuatari, ru, atta. *Amanhecer de todo, ou* |  |
-| `c1-l022` | &emsp;*aclarar o dia. ¶* Aqeuatari ſora. *Me-* |  |
+| `c1-l022` | &emsp;*aclarar odia. ¶* Aqeuataru ſora. *Me-* |  |
 | `c1-l023` | &emsp;*nhãa clara.* |  |
 | `c1-l024` | Aqi. *Outono. ¶* Aqi fuquru, l, taqu- |  |
 | `c1-l025` | &emsp;ru. P. *Ter paſſado boa parte do Outo-* |  |
@@ -45,17 +45,17 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l029` | Aqi, u, aita. *Enfaſtiarſe, ou enfadarſe cõ* |  |
 | `c1-l030` | &emsp;*algũa couſa, ou fartarſe atè mais não poder.* |  |
 | `c1-l031` | &emsp;*¶* Qiqi aita. *Enfadeime de ouuir. ¶* A- |  |
-| `c1-l032` | &emsp;cu made monouo cù. *Comer atè ſe fartar,* |  |
+| `c1-l032` | &emsp;cu made monouo cǔ. *Comer atè ſe fartar,* |  |
 | `c1-l033` | &emsp;*ou mais não poder. ¶* Mi aqu. *Ver atè* |  |
 | `c1-l034` | &emsp;*ſe enfaſtiar.* |  |
 | `c1-l035` | Aqi, u, aita. *Abrirſe a couſa por ſi. ¶* Fi- |  |
 | `c1-l036` | &emsp;maga aqu. *Ter tempo, ou eſtar deſoccupa-* |  |
-| `c1-l037` | &emsp;*do. ¶* Iye, iremono nadoga aqu. *Deſ-* |  |
+| `c1-l037` | &emsp;*do. ¶* Iye, iremono nadoga aqu. *Deſ* |  |
 | `c1-l038` | &emsp;*pejarſe a caſa, caxa, &c. ¶* Manacoga |  |
 | `c1-l039` | &emsp;acanu. *Não ver, ou não ſe abrirem os o-* |  |
 | `c1-l040` | &emsp;*lhos pera ver. ¶ Item,* Manacoga aca- |  |
 | `c1-l041` | &emsp;nu. *Se diz de homem idiota, & que não* |  |
-| `c1-l042` | &emsp;*ſabe nem hũa ſó letra. ¶* Tocoroga aita. |  |
+| `c1-l042` | &emsp;*ſabe nem hũa ſò letra. ¶* Tocoroga aita. |  |
 | `c1-l043` | &emsp;*Eſtar algum lugar deſpouoado, ou em aberto,* |  |
 | `c1-l044` | &emsp;*& vago. ¶* Michiga aita. *Eſtar o ca-* |  |
 | `c1-l045` | &emsp;*minho aberto, & liure. ¶ Item, Permet.* |  |
@@ -79,7 +79,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l005` | Aqicaje. *Vento do Outono.* |  |
 | `c2-l006` | Aqidari, ru, atta. i. Tannu ſuru. *Auer ẽ* |  |
 | `c2-l007` | &emsp;*abundancia, & fartura. ¶* Aqidaranu, |  |
-| `c2-l008` | &emsp;aqidarazu. Negat. *Não ſe enfadar, ou* |  |
+| `c2-l008` | &emsp;aqidarazu. Negat. *Nãoſe enfadar, ou* |  |
 | `c2-l009` | &emsp;*não ſe fartar. ¶* Tacarani aqidaranu. *Não* |  |
 | `c2-l010` | &emsp;*ſe fartar de riquezas.* |  |
 | `c2-l011` | Aqido, l, aqidocoro. *Lugar deſpejado.* |  |
@@ -97,27 +97,27 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l023` | Aqinai mono. *Couſa de mercancia, ou de* |  |
 | `c2-l024` | &emsp;*compra, & venda.* |  |
 | `c2-l025` | Aqinono. *Campo no tempo do Outono. ¶* A- |  |
-| `c2-l026` | &emsp;qinono nono beôbu. *Biôbus onde eſtão pin-* |  |
-| `c2-l027` | &emsp;*tados campos, ou alegres com boninas, &* |  |
+| `c2-l026` | &emsp;qinono nono beǒbu. *Biǒbus onde eſtão pin-* |  |
+| `c2-l027` | &emsp;*tados campos, ou alegretes com boninas, &* |  |
 | `c2-l028` | &emsp;*eruas do Outono.* |  |
 | `c2-l029` | Aqiracana. *Couſa clara, & que tem luz.* |  |
 | `c2-l030` | &emsp;*¶* Aqiracanaru chiye. *Entendimento,* |  |
 | `c2-l031` | &emsp;*ou ſaber claro.* |  |
 | `c2-l032` | &emsp;Aqiracani. |  |
 | `c2-l033` | &emsp;Aqiracaſa. |  |
-| `c2-l034` | Aqirame. *Declaração, ou peſquiza de alguã* |  |
+| `c2-l034` | Aqirame. *Declaração, ou peſquiza de algũa* |  |
 | `c2-l035` | &emsp;*couſa.* |  |
 | `c2-l036` | Aqirame, uru, eta. *Declarar, ou auerigoar.* |  |
-| `c2-l037` | &emsp;*¶* Mayoiuo aqiramuru. *Aclarar o erro,* |  |
+| `c2-l037` | &emsp;*¶* Mayoiuo aqiramuru. *Aclarar o erro* |  |
 | `c2-l038` | &emsp;*ou deſenganar. ¶ Item, Tomar reſolução* |  |
-| `c2-l039` | &emsp;*& luz depois de eſtar perplexo. ¶* Rifuuo |  |
+| `c2-l039` | &emsp;*& luz depois de eſtar perplexo. ¶* Rifiuo |  |
 | `c2-l040` | &emsp;aqiramuru. *Auerigoar a rezão, & ſem re-* |  |
 | `c2-l041` | &emsp;*zão. ¶* Dǒriuo aqiramuru. *Dar rezão* |  |
 | `c2-l042` | &emsp;*que outro entenda, ou arrezoar diſtintamente.* |  |
-| `c2-l043` | Aqirami, u, ǒda. *Aclararſe, ou auerigoar-* |  |
-| `c2-l044` | &emsp;*ſe alguã couſa.* |  |
+| `c2-l043` | Aqirami, u, ǒda. *Aclararſe, ou auerigoar* |  |
+| `c2-l044` | &emsp;*ſe algũa couſa.* |  |
 | `c2-l045` | Aqire, ruru, eta. *Eſpantarſe, eſtar atonito.* |  |
-| `c2-l046` | Aqire fate, tçuru, eta. *Ficar totalmente ato-* |  |
+| `c2-l046` | Aqire fate, tçuru, eta. *Ficar totalmente ato* |  |
 | `c2-l047` | &emsp;*nito, & como fora de ſi.* |  |
 
 ## Catchword
