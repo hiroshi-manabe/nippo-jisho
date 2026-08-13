@@ -16,6 +16,8 @@ The reviewed f30 output in [`../ai-geometry-examples/bnf-f0030.json`](../ai-geom
 
 After validation, a completed response may be imported with `scripts/import_ai_geometry_review.py`. Imported columns normally use the provenance state `ai_line_by_line_checked`, which accepts the delegated line-level geometry without claiming human verification. A response whose rectangles pass an independent full contact-sheet audit but whose mechanical edit pattern does not credibly demonstrate individual line-level decisions must instead be imported with `--visual-review ai_bulk_geometry_sanity_checked`. This preserves both the usable geometry and the limitation of the review evidence. Independent textual disagreements remain advisory and must be adjudicated separately against the scan before any Level 1 correction. An `observed_text` field that merely reproduces every canonical line verbatim is useful for line identification but is not independent textual evidence.
 
+If a returned file explicitly marks `geometry_review_status` as `completed` and `text_review_status` as `not_completed`, it may be imported with `--allow-geometry-only` after the same crop audit. This does not promote blank `observed_text` fields into textual evidence, and it does not imply that the transcription has been reviewed.
+
 ## Prepared task range
 
 Pending task records are prepared for `f31` through `f100`. The `f32`–`f100` batch contains 69 pages and 6,482 body lines. Every task has been checked for exact page coverage, unique line IDs, current source-image and transcription hashes, source-image bounds, null independent readings, and pending judgments.

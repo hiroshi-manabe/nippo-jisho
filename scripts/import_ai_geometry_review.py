@@ -30,6 +30,14 @@ def main() -> int:
     )
     parser.add_argument("--reviewed-at", required=True)
     parser.add_argument(
+        "--allow-geometry-only",
+        action="store_true",
+        help=(
+            "accept a response whose geometry review is explicitly completed "
+            "while its independent text review remains incomplete"
+        ),
+    )
+    parser.add_argument(
         "--visual-review",
         choices=("ai_line_by_line_checked", "ai_bulk_geometry_sanity_checked"),
         default="ai_line_by_line_checked",
@@ -45,7 +53,13 @@ def main() -> int:
     review = load_json(review_path)
     if review.get("format") != "nippo-ai-line-geometry-response":
         raise SystemExit("unexpected review format")
-    if review.get("response_status") != "completed_independent_ai_line_review":
+    complete_review = review.get("response_status") == "completed_independent_ai_line_review"
+    geometry_only_review = (
+        args.allow_geometry_only
+        and review.get("geometry_review_status") == "completed"
+        and review.get("text_review_status") == "not_completed"
+    )
+    if not (complete_review or geometry_only_review):
         raise SystemExit("AI review is not complete")
 
     page_id = review["page"]
@@ -78,7 +92,7 @@ def main() -> int:
             if line_id in reviewed_ids:
                 raise SystemExit(f"duplicate line: {line_id}")
             reviewed_ids.add(line_id)
-            if line.get("observed_text") is None:
+            if line.get("observed_text") is None and not geometry_only_review:
                 raise SystemExit(f"missing independent reading: {line_id}")
             if line.get("match") not in {"strong", "partial", "mismatch", "unreadable"}:
                 raise SystemExit(f"invalid match value: {line_id}")

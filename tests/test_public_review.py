@@ -1,5 +1,7 @@
 import json
 from pathlib import Path
+import subprocess
+import tempfile
 import unittest
 
 from scripts.build_public_review import transcription_version
@@ -9,6 +11,30 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class PublicReviewRegressionTests(unittest.TestCase):
+    def test_geometry_only_import_requires_explicit_opt_in(self):
+        review = ROOT / "pilot" / "human-review" / "ai-geometry-work" / "bnf-f0042-reviewed.json"
+        with tempfile.NamedTemporaryFile(suffix=".json") as geometry:
+            geometry.write(
+                (ROOT / "pilot" / "human-review" / "line-geometry.json").read_bytes()
+            )
+            geometry.flush()
+            command = [
+                "python3",
+                str(ROOT / "scripts" / "import_ai_geometry_review.py"),
+                str(review),
+                "--geometry",
+                geometry.name,
+                "--reviewed-at",
+                "2026-08-13",
+            ]
+            rejected = subprocess.run(command, capture_output=True, text=True)
+            self.assertNotEqual(rejected.returncode, 0)
+            self.assertIn("AI review is not complete", rejected.stderr)
+            accepted = subprocess.run(
+                [*command, "--allow-geometry-only"], capture_output=True, text=True
+            )
+            self.assertEqual(accepted.returncode, 0, accepted.stderr)
+
     def test_edited_lines_preserve_typeface_and_submission_state(self):
         app = (ROOT / "site" / "app.js").read_text(encoding="utf-8")
         document = (ROOT / "site" / "index.html").read_text(encoding="utf-8")
@@ -36,6 +62,14 @@ class PublicReviewRegressionTests(unittest.TestCase):
         self.assertIn("columnNavigationHTML('column-nav-bottom')", app)
         self.assertIn("[data-column-leaf][data-column-unit]", app)
         self.assertIn("window.scrollTo(0, 0)", app)
+
+    def test_column_views_include_split_zone_names(self):
+        app = (ROOT / "site" / "app.js").read_text(encoding="utf-8")
+        self.assertIn("zone.id.includes(unit)", app)
+        self.assertIn(
+            "zonesFor(page, state.unit).filter(item => item.kind === 'column')",
+            app,
+        )
 
     def test_f18_acuxocu_crop_is_centered_and_has_overlap(self):
         record = json.loads(

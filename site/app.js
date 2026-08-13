@@ -380,8 +380,9 @@ function renderRuns(runs) {
 
 function zonesFor(page, unit) {
   if (unit === 'page') return page.zones;
-  if (unit === 'column-1') return page.zones.filter(zone => zone.id === 'header-column-1' || zone.id === 'column-1' || zone.id.startsWith('column-1-'));
-  if (unit === 'column-2') return page.zones.filter(zone => zone.id === 'header-column-2' || zone.id === 'column-2' || zone.id.startsWith('column-2-'));
+  if (unit === 'column-1' || unit === 'column-2') {
+    return page.zones.filter(zone => zone.id.includes(unit));
+  }
   return page.zones.filter(zone => zone.kind !== 'column');
 }
 
@@ -424,7 +425,7 @@ function lineImageStatus(page) {
 function renderPageContent() {
   const page = state.currentPage;
   if (page.processed && ['column-1', 'column-2'].includes(state.unit)) {
-    const lines = page.zones.filter(item => item.kind === 'column' && (item.id === state.unit || item.id.startsWith(`${state.unit}-`))).flatMap(item => item.lines);
+    const lines = zonesFor(page, state.unit).filter(item => item.kind === 'column').flatMap(item => item.lines);
     $('#page-content').innerHTML = `<div class="line-list">${lineImageStatus(page)}${lines.map(line => lineHTML(page, line)).join('')}${columnNavigationHTML('column-nav-bottom')}</div>`;
   } else {
     $('#page-content').innerHTML = `<div class="page-comparison">${scanPane(page)}<section class="text-pane"><div class="pane-toolbar"><strong>${page.processed ? 'Level 1 transcription' : 'Transcription'}</strong>${page.source ? `<a class="push" href="${page.source}" target="_blank" rel="noreferrer">Source Markdown</a>` : ''}</div><div class="continuous-text">${continuousHTML(page, state.unit)}</div></section></div>`;
