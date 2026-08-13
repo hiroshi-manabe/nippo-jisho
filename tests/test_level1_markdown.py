@@ -293,7 +293,7 @@ class Level1MarkdownTests(unittest.TestCase):
             "bnf-f0023.md": ("dante mão", "Morax , ſu.", "adminiſtrarem"),
             "bnf-f0024.md": ("Padraſto,ou", "A. xirouo"),
             "bnf-f0025.md": ("Fucaqu", "Ajuocaqe", "Poëtas", "u, atta"),
-            "bnf-f0026.md": ("beirasdoteihado", "galamiuo", "Amano fara"),
+            "bnf-f0026.md": ("beiras do teihado", "garamiuo", "Amano fara"),
             "bnf-f0027.md": (
                 "Bilho de ſaude",
                 "Amatçumi iora",

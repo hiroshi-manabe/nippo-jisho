@@ -14,7 +14,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | Ama. *Huns bichintos ligeiros que andão ſobre* |  |
+| `c1-l001` | Ama. *Huns bichinhos ligeiros que andão ſobre* |  |
 | `c1-l002` | &emsp;*a agoa.* |  |
 | `c1-l003` | Amabare. *Tempo claro, & ſereno deſpois da* |  |
 | `c1-l004` | &emsp;*chuua.* |  |
@@ -24,25 +24,25 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l008` | Amabico. i, Cotama. *Eco que reſulta da* |  |
 | `c1-l009` | &emsp;*voz. ¶* Amabicoga cotayuru. *Soar o* |  |
 | `c1-l010` | &emsp;*eco.* |  |
-| `c1-l011` | Amaboxi. *Figos de Iapão meos paſſados, & e-* |  |
+| `c1-l011` | Amaboxi. *Figos de Iapão meos paſſados, & a-* |  |
 | `c1-l012` | &emsp;*inda molles.* |  |
-| `c1-l013` | Amatiyori. *Tempo que eſtà pera chouer.* |  |
-| `c1-l014` | Amacaqeri, qeiu, qetta. P. *voar pollos* |  |
+| `c1-l013` | Amabiyori. *Tempo que eſtà pera chouer.* |  |
+| `c1-l014` | Amacaqeri, qeru, qetta. P. *voar pollos* |  |
 | `c1-l015` | &emsp;*ares.* |  |
 | `c1-l016` | Amacazzura. *Madre ſylua.* |  |
 | `c1-l017` | Amacha. *Certa erua como Era cuja folha ſe moe,* |  |
 | `c1-l018` | &emsp;*& faz como* Cha *doce.* |  |
-| `c1-l019` | Amacudari, iu, atta. *Decer do ceo.* |  |
+| `c1-l019` | Amacudari, ru, atta. *Decer do ceo.* |  |
 | `c1-l020` | Amadare, l, amatare. *Goteiras que caem das* |  |
-| `c1-l021` | &emsp;*beirasdoteihado.* |  |
+| `c1-l021` | &emsp;*beiras do teihado.* |  |
 | `c1-l022` | Amadari. *Idem.* |  |
 | `c1-l023` | Amadori. *Hum paſſaro que não tem pès.* |  |
-| `c1-l024` | Amafada. *Caſca delgaça interior da aruore.* |  |
+| `c1-l024` | Amafada. *Caſca delgada interior da aruore.* |  |
 | `c1-l025` | Amagami. *Papel azeitado pera contra chuua.* |  |
 | `c1-l026` | Amagarami. *Troça q̃ eſtà no maſto. ¶* Ama- |  |
-| `c1-l027` | &emsp;galamiuo ſuru. *Amarrar a troça no maſto.* |  |
-| `c1-l028` | Amagaſa. *Sombreiro grande pera a chuua.* |  |
-| `c1-l029` | Amagayeiu. *Rãa da chuua.* |  |
+| `c1-l027` | &emsp;garamiuo ſuru. *Amarrar a troça no maſto.* |  |
+| `c1-l028` | Amagaſa. *Sombreiro grande pera achuua.* |  |
+| `c1-l029` | Amagayeru. *Rãa da chuua.* |  |
 | `c1-l030` | Amaguiru. *Vt,* Amaguiru yuqi. P. |  |
 | `c1-l031` | &emsp;*Neue que caye eſtando oar eſcuro, ou com* |  |
 | `c1-l032` | &emsp;*çerração.* |  |
@@ -59,7 +59,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l043` | &emsp;Amǒ. |  |
 | `c1-l044` | Amajacuro. *Romam doce.* |  |
 | `c1-l045` | Amajiuo. i. Vſujiuo. *Ponta, ou ſabor de* |  |
-| `c1-l046` | &emsp;*ſal. Vt,* Amajiuoro uo. *Peixe com al-* |  |
+| `c1-l046` | &emsp;*ſal. Vt,* Amajiuono uo. *Peixe com al-* |  |
 | `c1-l047` | &emsp;*gum pouco de ſal, l, leuemente ſalgado.* |  |
 
 ## Column 2 running header
@@ -83,8 +83,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l009` | &emsp;*lauras, ou fazer caricias pera ganhar a võtade* |  |
 | `c2-l010` | &emsp;*dalguem. ¶* Cotouo amanai, vomoteuo |  |
 | `c2-l011` | &emsp;fetçurǒ. *Fazer afagos, & caricias, ou li-* |  |
-| `c2-l012` | &emsp;*ſonzear. ¶ Item, Ter deſejo, & goſto em* |  |
-| `c2-l013` | &emsp;*alguã couſa, ou tela por boa, &c. ¶* Figaxo- |  |
+| `c2-l012` | &emsp;*ſongear. ¶ Item, Ter deſejo, & goſto em* |  |
+| `c2-l013` | &emsp;*algũa couſa, ou tela por boa, &c. ¶* Figaxo- |  |
 | `c2-l014` | &emsp;cuni vomomuite xiquauo amanǒ. *Obi-* |  |
 | `c2-l015` | &emsp;*cho do eſtio ſaltando na candea tem por bom,* |  |
 | `c2-l016` | &emsp;*ou apetece ofogo que o mata.* |  |
@@ -109,10 +109,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l035` | &emsp;*por que puxão quando tirão, ou leuantão arede de* |  |
 | `c2-l036` | &emsp;*peſcar.* |  |
 | `c2-l037` | Amanotaqiſaxi. *Hũa certa frauta.* |  |
-| `c2-l038` | Amano tebeco. *Bordão, ou lança com que os* |  |
+| `c2-l038` | Amano toboco. *Bordão, ou lança com que os* |  |
 | `c2-l039` | &emsp;*dous primeiros Camis de Iapão* Izanami, *&* |  |
 | `c2-l040` | &emsp;Izanagui *ſondarão o fundo domar. ¶ Item,* |  |
-| `c2-l041` | &emsp;*Hũa partizuna que leuão nas feſtas dos Camis.* |  |
+| `c2-l041` | &emsp;*Hũa partezana que leuão nas feſtas dos Camis.* |  |
 | `c2-l042` | Amano to. P. *Portas do ceo.* |  |
 | `c2-l043` | Amano vqenaua. P. i. Tçurino na- |  |
 | `c2-l044` | &emsp;ua. *Linha de peſcar de muitos anzoes, que bo* |  |
