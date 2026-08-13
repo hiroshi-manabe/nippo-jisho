@@ -49,6 +49,19 @@ Therefore:
 
 The eventual notation can remain minimalist—for example, ordinary letters as the searchable reading plus a sparse ligature annotation—but the source distinction should not be discarded before its predictability has been demonstrated within this dictionary.
 
+## Repeated-long-s control specimen
+
+`f33/c1b-l005`, in italic `engroſſo`, is a clear positive specimen of a genuine two-long-s sequence. The scan shows two separately legible tall `ſ` forms. This differs visibly from the recurring single β-like sort that the provisional transcription has also expanded as `ſſ` in many words.
+
+This observation does **not** yet establish what the β-like sort represents or how Level 1 should encode it. It establishes that the printing contains at least two visually distinct ways of setting material currently represented as `ſſ`, so the current character string alone has collapsed potentially meaningful typographic evidence. The final dedicated pass must therefore compare at least these classes separately:
+
+- two visibly discrete long-s sorts, using `f33/c1b-l005` as a control;
+- the β-like joined sort currently expanded as `ſſ`;
+- mixed `ſs` and any two-short-s setting;
+- the already deferred short-`s`–`t` and long-`ſ`–`t` ligatures.
+
+Until that comparison is complete, preserve the provisional transcription and the stable line reference rather than globally rewriting either visual class.
+
 ## Workflow disposition
 
 The project will defer final `st`/`ſt` allograph and ligature classification to a dedicated human-guided pass near the end of Level 1 production. This visually difficult distinction will not interrupt ordinary page transcription or require the human reviewer to report occurrences piecemeal in chat.
@@ -61,4 +74,4 @@ Until that pass:
 - preserve stable page-and-line references and scan geometry so every occurrence can be revisited in one purpose-built review sequence;
 - keep later corrections attributable through Git and the correction workflow.
 
-The final pass should present tightly enlarged occurrences with same-type comparators and should classify both the `s` allograph and ligature status. Its results can then determine whether ligature information is predictable enough to omit, requires sparse exception annotations, or must be represented occurrence by occurrence.
+The final pass should present tightly enlarged occurrences with same-type comparators—including the genuine `ſſ` control at `f33/c1b-l005`—and should classify both the `s` allograph and ligature status. Its results can then determine whether ligature information is predictable enough to omit, requires sparse exception annotations, or must be represented occurrence by occurrence.
