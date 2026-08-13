@@ -82,7 +82,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l004` | &emsp;*de oesnoroeſte por que ſerue pera ir, & vir* |  |
 | `c2-l005` | &emsp;*neſta paragem.* |  |
 | `c2-l006` | Anamata. *Couas de antre os dedos.* |  |
-| `c2-l007` | Anamataguſari. *Eſfoladura da carne dantre os* |  |
+| `c2-l007` | Anamataguſari. *Esfoladura da carne dantre os* |  |
 | `c2-l008` | &emsp;*dedos dos pees.* |  |
 | `c2-l009` | Anamuzã. i. Aramuzan. *Interiecão. de com-* |  |
 | `c2-l010` | &emsp;*paixão.* |  |
@@ -101,7 +101,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l023` | Ancan. Yaſuqu, xizzucana. *Paz, ou quie-* |  |
 | `c2-l024` | &emsp;*tação. ¶* Buji ancanni curaſu. *Viuer* |  |
 | `c2-l025` | &emsp;*com quietação, & à vontade.* |  |
-| `c2-l026` | Anchi. i. Sonaye voqu. *Por alguã couſa co-* |  |
+| `c2-l026` | Anchi. i. Sonaye voqu. *Por algũa couſa co* |  |
 | `c2-l027` | &emsp;*mo Fotoqe, ou imagem em algũ lugar.* |  |
 | `c2-l028` | &emsp;*¶* Goyeiuo anchi ſuru. *Por a imagem no* |  |
 | `c2-l029` | &emsp;*altar.* |  |
