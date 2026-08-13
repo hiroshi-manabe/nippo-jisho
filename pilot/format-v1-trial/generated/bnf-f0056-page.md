@@ -54,7 +54,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l038` | &emsp;*precioſa.* |  |
 | `c1-l039` | Bigio. Vtçucuxij vonna. *Molher fermoſa.* |  |
 | `c1-l040` | &emsp;*¶* Bigioua acugieno catagi. *Prouerb.* |  |
-| `c1-l041` | &emsp;*Molher fermoſa he inimiga de ſea. Dizſe de* |  |
+| `c1-l041` | &emsp;*Molher fermoſa he inimiga de fea. Dizſe de* |  |
 | `c1-l042` | &emsp;*dous de condição contraria, ou dos que tem en-* |  |
 | `c1-l043` | &emsp;*ueja hum de outro de differente eſtado.* |  |
 | `c1-l044` | Bijacu. Sucoxi youaxi. *Fraqueza, ou pou-* |  |

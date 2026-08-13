@@ -22,7 +22,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l006` | Baqeraxij. *Couſa como tranſfigurada, ou extra* |  |
 | `c1-l007` | &emsp;*ordinaria no trajo, &c. Dizſe ha da molher* |  |
 | `c1-l008` | &emsp;*que ſe enfeita demaſiadamente, ou de homem* |  |
-| `c1-l009` | &emsp;*que vem com algum trajo, ou ata uio extra or-* |  |
+| `c1-l009` | &emsp;*que vem com algum trajo, ou atauio extra or-* |  |
 | `c1-l010` | &emsp;*dinario, & que dà nos olhos de todos.* |  |
 | `c1-l011` | Barabara. *Adu. que ſignifica do ſoido da chu-* |  |
 | `c1-l012` | &emsp;*ua, ou de couſa ſemelhante quando cae no chão* |  |
@@ -38,7 +38,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l022` | Bari. *Ourina dos caualos. ¶* Bariuo tçu- |  |
 | `c1-l023` | &emsp;qu. *Ourinar o caualo. ¶ Item, Se diz* |  |
 | `c1-l024` | &emsp;*de gente baixa.* |  |
-| `c1-l025` | Baribixacu. *Coco cõ q̃ irmánão ourina do caualo.* |  |
+| `c1-l025` | Baribixacu. *Coco cõ q̃ tomão ourina do caualo.* |  |
 | `c1-l026` | Barimecaxi, ſu, aita. *Fazer que o veſtido* |  |
 | `c1-l027` | &emsp;*nouo, ou papel faça ſom como quando bulir cõ* |  |
 | `c1-l028` | &emsp;*elle, ou o dobrão, &c. ¶ Item, Fazer* |  |
@@ -91,7 +91,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l017` | &emsp;*couſa. ¶ Vt,* Batto chiru. *Eſpalharſe* |  |
 | `c2-l018` | &emsp;*algũa couſa em varias partes.* |  |
 | `c2-l019` | Batyô. Suyenoſa. *Deſcendentes derradeiros* |  |
-| `c2-l020` | &emsp;*dalgũa familia, ou geira.* |  |
+| `c2-l020` | &emsp;*dalgũa familia, ou ſeita.* |  |
 | `c2-l021` | Batza. Siyenoza. *Lugar mais baxo, ou* |  |
 | `c2-l022` | &emsp;*derradeiro do zaxiqi. ¶* Batzani nauo- |  |
 | `c2-l023` | &emsp;ru. *Por ſe no derradeiro lugar.* |  |

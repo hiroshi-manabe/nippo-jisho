@@ -43,7 +43,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l027` | &emsp;*deſta aruore. ¶* Boqe iro. *Cor ver-* |  |
 | `c1-l028` | &emsp;*melha, ou encarnada como deſta roſa.* |  |
 | `c1-l029` | Boqe, uru, eta. *Parecerem as cores como de* |  |
-| `c1-l030` | &emsp;*encarnado. ¶ Per met.* Cocorono boqe- |  |
+| `c1-l030` | &emsp;*encarnado. ¶ Permet.* Cocorono boqe- |  |
 | `c1-l031` | &emsp;ta fitogira. *He homem apraziuel, & de bõ* |  |
 | `c1-l032` | &emsp;*coração.* |  |
 | `c1-l033` | Boqeboqe. *Adu. Modo de eſtar com eſta* |  |

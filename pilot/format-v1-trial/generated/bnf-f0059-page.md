@@ -109,8 +109,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l029` | Bocutegi. Vxicaino ſuye. *Frauta de paſtor.* |  |
 | `c2-l030` | Bocutô. Qigatana. *Eſpada de pao pera* |  |
 | `c2-l031` | &emsp;*eſgrimir.* |  |
-| `c2-l032` | Bocuxegi. Qi ixi. *Pao, & pedra.* |  |
-| `c2-l033` | Bocuxegi. Sumino ato. l. *Letra que algum* |  |
+| `c2-l032` | Bocuxeqi. Qi ixi. *Pao, & pedra.* |  |
+| `c2-l033` | Bocuxeqi. Sumino ato. l. *Letra que algum* |  |
 | `c2-l034` | &emsp;*antiguo deixou eſcrita.* |  |
 | `c2-l035` | Bocuxô. Toboxiqu ſucunaxi. *Couſa pou-* |  |
 | `c2-l036` | &emsp;*ca, ou pouquidade. ¶* Bocuxô naredo- |  |

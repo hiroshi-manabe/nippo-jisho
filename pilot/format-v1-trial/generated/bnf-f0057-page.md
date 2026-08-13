@@ -112,7 +112,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l032` | &emsp;*ença.* |  |
 | `c2-l033` | Biôxo. Facadocoro. *Sepultura, ou lugar* |  |
 | `c2-l034` | &emsp;*de ſepulturas.* |  |
-| `c2-l035` | Biqei. i. Yoigei. *Fermoſa viſta.* |  |
+| `c2-l035` | Biqei. i. Yoiqei. *Fermoſa viſta.* |  |
 | `c2-l036` | Biqen. Vtçucuxũ cauo yoxi. *Roſto fer-* |  |
 | `c2-l037` | &emsp;*moſo, ou fermoſura.* |  |
 | `c2-l038` | Biqen. Itçucuxij inu. *Cão fermoſo.* |  |

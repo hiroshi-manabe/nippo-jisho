@@ -111,7 +111,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l021` | Bencôja, l, bencôxa. Cuchino tarǒta mo- |  |
 | `c2-l022` | &emsp;no. *Homem eloquente, & copioſo no falar.* |  |
 | `c2-l023` | Bencôna. *Elegante, & copioſo no falar.* |  |
-| `c2-l024` | Beni. Rebiqu e. *¶ Item, Flor de que ſe* |  |
+| `c2-l024` | Beni. Rebique. *¶ Item, Flor de que ſe* |  |
 | `c2-l025` | &emsp;*faz o rebique.* |  |
 | `c2-l026` | Benidaicon. *Rabão vermelho. Palaura de* |  |
 | `c2-l027` | &emsp;*molheres.* |  |

@@ -23,3 +23,7 @@ If a returned file explicitly marks `geometry_review_status` as `completed` and 
 Pending task records are prepared for `f31` through `f100`. The `f32`–`f100` batch contains 69 pages and 6,482 body lines. Every task has been checked for exact page coverage, unique line IDs, current source-image and transcription hashes, source-image bounds, null independent readings, and pending judgments.
 
 The initial geometry has four known containment flags that the reviewing AI must repair: `f33/c1b-l001`, `f36/c2b-l001`, `f62/c2b-l001`, and `f68/c2b-l001`. Twelve pages in this range aggregate multiple transcription zones into one physical-column task; their `zone_ids` preserve the required order.
+
+## Imported batches
+
+The returned `f52`–`f66` records were imported on 2026-08-13. Because every line was reported as a strong match while the rectangles followed a largely mechanical pattern, their geometry is recorded conservatively as `ai_bulk_geometry_sanity_checked`, after validation and complete contact-sheet generation, rather than as independently demonstrated line-by-line checking. Their 17 textual disagreements were adjudicated separately against enlarged scan crops: 15 supported corrections were applied, while the uncertain `f59/c1-l044` plant-name reading and the incomplete `f66/c1-l035` observation were not treated as independent evidence.

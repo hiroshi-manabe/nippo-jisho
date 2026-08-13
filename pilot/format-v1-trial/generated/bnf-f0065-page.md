@@ -110,7 +110,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l030` | &emsp;*eſtà, ou vai dependurada.* |  |
 | `c2-l031` | Burameqi, u, eita. *Bulir a couſa dependu-* |  |
 | `c2-l032` | &emsp;*rada.* |  |
-| `c2-l033` | Burari burari. i. Burabura. *Adu. Modo* |  |
+| `c2-l033` | Burari burari. i. Buratura. *Adu. Modo* |  |
 | `c2-l034` | &emsp;*de eſtar dependurada a couſa no ar, ou de bu-* |  |
 | `c2-l035` | &emsp;*lir de cà pera là. ¶* Burari burarito xite |  |
 | `c2-l036` | &emsp;arucuru. *Andar aſſi froxo, & ſem fazer* |  |

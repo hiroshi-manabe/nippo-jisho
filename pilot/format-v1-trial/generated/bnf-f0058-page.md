@@ -27,7 +27,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l011` | &emsp;Bireſa. |  |
 | `c1-l012` | Bireǒ. *Alguã parte rota do veſtido. Vt,* |  |
 | `c1-l013` | &emsp;Bireǒga ſigatta. *Andar alguã parte do* |  |
-| `c1-l014` | &emsp;*veſtido rota, & deſpegar nada.* |  |
+| `c1-l014` | &emsp;*veſtido rota, & depenurada.* |  |
 | `c1-l015` | Bireǒ. Sucoxi ſuzuxi. *Freſco do eſtio que* |  |
 | `c1-l016` | &emsp;*ſerue pera paſſar a calma.* |  |
 | `c1-l017` | Biribocu. Chicara ſucunaxi. *Poucas, ou* |  |
@@ -124,7 +124,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2b-l004` | &emsp;*Idem. ¶* Bôuo tçucu. *Vzar de bordão.* |  |
 | `c2b-l005` | &emsp;*¶* Bôno te. *Modo, ou arte de eſgrimir* |  |
 | `c2b-l006` | &emsp;*com baſtão.* |  |
-| `c2b-l007` | Bôcho. *Moço pequeno recado que ſerue.* |  |
+| `c2b-l007` | Bǒ. Tçauo. *Moço pequeno recado que ſerue.* |  |
 | `c2b-l008` | Bôacu. Arai acu. i. Vôgina toga. *Gẽo* |  |
 | `c2b-l009` | &emsp;*de peccado, ou enorme maldade.* |  |
 | `c2b-l010` | Bôcho. *Indecèta mulieris. Toldeiras que as mo-* |  |

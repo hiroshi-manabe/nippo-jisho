@@ -52,7 +52,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l036` | &emsp;nabôxi. *Hũas toalhas com que amarrão a ca-* |  |
 | `c1-l037` | &emsp;*beça os dançantes, ou molheres quando vão ſo-* |  |
 | `c1-l038` | &emsp;*ra com hũas pontas compridas.* |  |
-| `c1-l039` | Bôxin. *Criação arreiçoada de criado pera* |  |
+| `c1-l039` | Bôxin. *Criação arreiçoado de criado pera* |  |
 | `c1-l040` | &emsp;*com o ſenhor. ¶* Bôxinuo cuua- |  |
 | `c1-l041` | &emsp;tateguru. *Armar traição contra ſeu ſe-* |  |
 | `c1-l042` | &emsp;*nhor.* |  |

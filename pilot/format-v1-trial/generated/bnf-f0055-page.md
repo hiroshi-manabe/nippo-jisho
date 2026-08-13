@@ -59,7 +59,7 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c1b-l001` | BIacco. Xiroi tora. *Tigre branco.* |  |
-| `c1b-l002` | Biacco. Xiroi qitçune. *Raposa brãca.* |  |
+| `c1b-l002` | Biacco. Xiroi qitçune. *Rapoſa brãca.* |  |
 | `c1b-l003` | Biacgexi. Xiroi gexi. *Dormideiras brancas.* |  |
 | `c1b-l004` | Biacqiôzan. Caicono muxi. *Bicho de ſeda* |  |
 | `c1b-l005` | &emsp;*morto de que vſão em mezinhas.* |  |
@@ -121,7 +121,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l031` | &emsp;*ſeculares, & ſem Coromo os Bôzos como* |  |
 | `c2-l032` | &emsp;*quem eſta mal deſpoſto, deſconcertado no ves-* |  |
 | `c2-l033` | &emsp;*tido. ¶* Biacuyede iru. *Eſtar aſſi* |  |
-| `c2-l034` | &emsp;*mal compoſto, & alauiado.* |  |
+| `c2-l034` | &emsp;*mal compoſto, & atauiado.* |  |
 | `c2-l035` | Biacuzô. Xiroizô. *Elefante branco.* |  |
 | `c2-l036` | Biacuzzuiqu. *Certa mezinha.* |  |
 | `c2-l037` | Bibixi. Vtçucuxu, vtçucuxij. *Couſa viſ-* |  |
