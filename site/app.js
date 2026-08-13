@@ -492,12 +492,63 @@ function setCrop(row, expanded) {
   image.style.transform = `translate(${-crop[0] / page.width * 100}% ,${-crop[1] / page.height * 100}%)`;
 }
 
+const TRANSCRIPTION_KEYS = {
+  '1': {label: 'ſ', insert: 'ſ'},
+  '2': {label: 'ç', insert: 'ç'},
+  '3': {label: '◌̃', mark: '\u0303', name: 'tilde'},
+  '4': {label: '◌̀', mark: '\u0300', name: 'grave accent'},
+  '5': {label: '◌́', mark: '\u0301', name: 'acute accent'},
+  '6': {label: 'ǒ', insert: 'ǒ'},
+  '7': {label: 'ǔ', insert: 'ǔ'},
+  '8': {label: 'ô', insert: 'ô'},
+  '9': {label: 'û', insert: 'û'},
+};
+
+function paletteHTML() {
+  const buttons = Object.entries(TRANSCRIPTION_KEYS).map(([key, item]) =>
+    `<button type="button" class="character-key" data-character-key="${key}" aria-label="${item.name || `Insert ${item.label}`}"><span>${item.label}</span><kbd>${key}</kbd></button>`
+  ).join('');
+  return `<div class="character-palette" aria-label="Transcription characters"><div class="character-buttons">${buttons}</div><label class="literal-digits"><input type="checkbox" name="literal-digits"> Literal digits</label></div>`;
+}
+
+function replaceSelection(area, replacement, start = area.selectionStart, end = area.selectionEnd) {
+  area.setRangeText(replacement, start, end, 'end');
+  area.dispatchEvent(new Event('input', {bubbles: true}));
+  area.focus();
+}
+
+function applyDecoration(area, mark) {
+  let start = area.selectionStart;
+  let end = area.selectionEnd;
+  if (start === end) {
+    while (start > 0 && /[\u0300-\u036f]/u.test(area.value[start - 1])) start--;
+    if (start > 0) start--;
+  }
+  const target = area.value.slice(start, end);
+  const decomposed = target.normalize('NFD');
+  const base = decomposed.match(/[A-Za-z]/u)?.[0];
+  if (!base || decomposed.replace(/[\u0300-\u036f]/gu, '') !== base) {
+    toast('Select a single letter, or place the cursor after one.');
+    area.focus();
+    return;
+  }
+  replaceSelection(area, (base + mark).normalize('NFC'), start, end);
+}
+
+function useTranscriptionKey(form, key) {
+  const item = TRANSCRIPTION_KEYS[key];
+  const area = form.elements.transcription;
+  if (!item || !area) return;
+  if (item.mark) applyDecoration(area, item.mark);
+  else replaceSelection(area, item.insert);
+}
+
 function openEditor(row) {
   if (row.querySelector('.edit-form')) return;
   const lineId = row.dataset.line;
   const line = state.currentPage.zones.filter(item => item.kind === 'column').flatMap(item => item.lines).find(item => item.id === lineId);
   const edit = pageEdits(state.currentPage)[lineId];
-  row.insertAdjacentHTML('beforeend', `<form class="edit-form"><textarea name="transcription" aria-label="Revised transcription">${escapeHTML(edit?.after || line.text)}</textarea><textarea name="comment" aria-label="Comment" placeholder="Optional comment">${escapeHTML(edit?.comment || '')}</textarea><div class="edit-actions"><button type="button" data-action="cancel">Cancel</button>${edit ? '<button type="button" data-action="revert">Revert</button>' : ''}<button class="primary" type="submit">OK</button></div></form>`);
+  row.insertAdjacentHTML('beforeend', `<form class="edit-form"><div class="transcription-editor"><textarea name="transcription" aria-label="Revised transcription">${escapeHTML(edit?.after || line.text)}</textarea>${paletteHTML()}</div><textarea name="comment" aria-label="Comment" placeholder="Optional comment">${escapeHTML(edit?.comment || '')}</textarea><div class="edit-actions"><button type="button" data-action="cancel">Cancel</button>${edit ? '<button type="button" data-action="revert">Revert</button>' : ''}<button class="primary" type="submit">OK</button></div></form>`);
   row.querySelector('[name="transcription"]').focus();
 }
 
@@ -528,11 +579,21 @@ document.addEventListener('click', event => {
   if (columnButton) { showPage(Number(columnButton.dataset.columnLeaf), columnButton.dataset.columnUnit); window.scrollTo(0, 0); return; }
   const row = event.target.closest('.line-row');
   if (row) {
+    const characterButton = event.target.closest('[data-character-key]');
+    if (characterButton) return useTranscriptionKey(row.querySelector('.edit-form'), characterButton.dataset.characterKey);
     if (event.target.closest('.context-toggle,.line-crop')) { const button = row.querySelector('.context-toggle'); const expanded = button.getAttribute('aria-expanded') !== 'true'; button.setAttribute('aria-expanded', String(expanded)); button.textContent = expanded ? 'Hide context' : 'Show context'; setCrop(row, expanded); return; }
     if (event.target.closest('[data-action="edit"]')) return openEditor(row);
     if (event.target.closest('[data-action="cancel"]')) { row.querySelector('.edit-form').remove(); return; }
     if (event.target.closest('[data-action="revert"]')) { delete pageEdits(state.currentPage)[row.dataset.line]; persistEdits(state.currentPage); renderPageContent(); return; }
   }
+});
+
+document.addEventListener('keydown', event => {
+  const area = event.target.closest('.edit-form textarea[name="transcription"]');
+  if (!area || event.isComposing || event.ctrlKey || event.metaKey || event.altKey) return;
+  if (!TRANSCRIPTION_KEYS[event.key] || area.form.elements['literal-digits'].checked) return;
+  event.preventDefault();
+  useTranscriptionKey(area.form, event.key);
 });
 
 document.addEventListener('submit', event => {

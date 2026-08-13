@@ -45,6 +45,20 @@ class PublicReviewRegressionTests(unittest.TestCase):
         self.assertIn("Did you submit the GitHub Issue?", document)
         self.assertIn("Submit again", document)
 
+    def test_line_editor_has_transcription_character_palette(self):
+        app = (ROOT / "site" / "app.js").read_text(encoding="utf-8")
+        styles = (ROOT / "site" / "styles.css").read_text(encoding="utf-8")
+        for key, character in {
+            "1": "ſ", "2": "ç", "3": "◌̃", "4": "◌̀", "5": "◌́",
+            "6": "ǒ", "7": "ǔ", "8": "ô", "9": "û",
+        }.items():
+            self.assertIn(f"'{key}': {{label: '{character}'", app)
+        self.assertIn("function applyDecoration(area, mark)", app)
+        self.assertIn("data-character-key", app)
+        self.assertIn("Literal digits", app)
+        self.assertIn("event.preventDefault()", app)
+        self.assertIn(".character-palette", styles)
+
     def test_page_view_has_explicit_overview_control(self):
         app = (ROOT / "site" / "app.js").read_text(encoding="utf-8")
         document = (ROOT / "site" / "index.html").read_text(encoding="utf-8")

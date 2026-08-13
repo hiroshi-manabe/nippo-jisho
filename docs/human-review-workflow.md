@@ -202,6 +202,10 @@ This makes the Issue the durable adjudication checklist and prevents a provision
 
 This prior does not authorize automatic acceptance or normalization. The scan remains the Level 1 authority, and a partly correct proposal should be refined rather than accepted or rejected wholesale. The f20 correction `Aguetçire. i. l. catune.` → submitted `Aguebune. i. ſ. cabune.` illustrates both points: repeated inspection anchored on the old transcription reproduced the same mistaken shapes, while independent evidence for 上げ槽 *aguebune* and 酒槽 *sacabune* supplied the useful hypothesis. Renewed inspection then supported the qualified continuous reading `Aguebune. i. ſacabune.` rather than either complete string. Issue 14 supplies the broader control case: linguistic analysis strongly favored `Amabiyori`, `qeru`, `ru`, `Amagayeru`, and `Amajiuono uo`, but a visually anchored second pass provisionally retained the machine's earlier anomalous readings. Enlarged human reinspection confirmed the proposals. Future Issue review must perform that linguistic analysis before viewing the old disputed reading.
 
+## Transcription-character input
+
+The line editor provides a compact transcription-character palette. Number keys `1`–`9` insert the character shown on the corresponding button while the transcription field is focused: `ſ`, `ç`, tilde, grave, acute, `ǒ`, `ǔ`, `ô`, and `û`. The three accent buttons apply their mark to a selected single letter or to the letter immediately before the caret; output is normalized to NFC except for combinations such as `q̃` that have no precomposed Unicode character. A **Literal digits** control temporarily restores ordinary numeric input for the uncommon correction that must introduce or change a printed number.
+
 ## Correction history, not certification
 
 Git records the complete technical history, while Issues retain discussion and the submitted proposal. The generated interface exposes a small factual summary for each page:
