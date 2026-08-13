@@ -77,24 +77,24 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c2-l001` | Anagi. *Doença de certas almorreimas.* |  |
-| `c2-l002` | Anaji. *Oeſnoroeste. ¶* Anajiuo conomu |  |
-| `c2-l003` | &emsp;Acaxinadi. *A paſſajem diante de Acaxi pe-* |  |
-| `c2-l004` | &emsp;*de oeſnoroeste por que ſerue pera ir, & vir* |  |
+| `c2-l002` | Anaji. *Oesnoroeſte. ¶* Anajiuo conomu |  |
+| `c2-l003` | &emsp;Acaxinadi. *A paſſajem diante de Acaxi pe* |  |
+| `c2-l004` | &emsp;*de oesnoroeſte por que ſerue pera ir, & vir* |  |
 | `c2-l005` | &emsp;*neſta paragem.* |  |
-| `c2-l006` | Anamata. *Couſa de antre os dedos.* |  |
+| `c2-l006` | Anamata. *Couas de antre os dedos.* |  |
 | `c2-l007` | Anamataguſari. *Eſfoladura da carne dantre os* |  |
 | `c2-l008` | &emsp;*dedos dos pees.* |  |
-| `c2-l009` | Anamuzã. i. Aramuzan. *Interieção. de com-* |  |
+| `c2-l009` | Anamuzã. i. Aramuzan. *Interiecão. de com-* |  |
 | `c2-l010` | &emsp;*paixão.* |  |
 | `c2-l011` | An an. *Grande eſcuridade.* |  |
 | `c2-l012` | Anata. *Adu. Là, ou naquella parte.* |  |
-| `c2-l013` | Anata. *Aquelles, ou eſtes.* |  |
+| `c2-l013` | Anata. *Aquelles, ou eſſes.* |  |
 | `c2-l014` | Anata conata. *Decà pera là.* |  |
 | `c2-l015` | Anaura. *Sola do pè.* |  |
 | `c2-l016` | Anazzuri, uru, utta. *Melius,* Anadoru. |  |
 | `c2-l017` | &emsp;*Zombar, ou eſcarnecer.* |  |
 | `c2-l018` | Anca. *Debaixo do eſcabello ou meza. Palaura de* |  |
-| `c2-l019` | &emsp;*humilhação nos ſobre eſcritos das cartas.* |  |
+| `c2-l019` | &emsp;*humilhação nos ſobre eſcritos das cartas* |  |
 | `c2-l020` | Anca. *Morte del Rei. ¶ Item, Tumba,* |  |
 | `c2-l021` | &emsp;*ou andas em q̃ leuão o corpo morto do Rei, ou* |  |
 | `c2-l022` | &emsp;*outro ſenhor grande.* |  |
@@ -111,14 +111,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l033` | &emsp;*na choupana de homẽs que deixão o mundo.* |  |
 | `c2-l034` | Ancǒ, l, angǒ. *Hum peixe de rio que tẽ pès* |  |
 | `c2-l035` | &emsp;*¶ Item, Hum paſſaro dagoa como garça.* |  |
-| `c2-l036` | &emsp;*¶* Ancǒno tçuni muxeta yôna fito. |  |
+| `c2-l036` | &emsp;*¶* Ancǒno tçuni muxeta yǒna fito. |  |
 | `c2-l037` | &emsp;*Prouerb. Homem eſtupido, & paruo que* |  |
-| `c2-l038` | &emsp;*eſtà com a boca aberta às moſcas, como aquelle* |  |
+| `c2-l038` | &emsp;*eſtà com aboca aberta às moſcas, como aquelle* |  |
 | `c2-l039` | &emsp;*peixe no rio. ¶ Item,* Ancǒ, l, ancǒna |  |
 | `c2-l040` | &emsp;mono. *Paruo, ou tollo a maneira daquelle* |  |
 | `c2-l041` | &emsp;*peixe eſtupido.* |  |
 | `c2-l042` | Ancocu. *Reino quieto, & pacifico.* |  |
-| `c2-l043` | Ancun. *Senhor injuſto.* |  |
+| `c2-l043` | Ancun. *Senhor iniuſto.* |  |
 | `c2-l044` | Adanmuxiro. *Eſteiras de enfardelar fato que* |  |
 | `c2-l045` | &emsp;*vem da China.* |  |
 | `c2-l046` | Ando. *Deſcanſo, que naſce de hum ter alcança-* |  |
