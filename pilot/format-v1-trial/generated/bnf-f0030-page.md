@@ -17,7 +17,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l001` | &emsp;fonriǒni ando ſuru. *Ser reſtituido aſua pri-* |  |
 | `c1-l002` | &emsp;*meira renda. ¶* Andono vomoiuo naſu. |  |
 | `c1-l003` | &emsp;*Aſocegar o coração, & aquietarſe.* |  |
-| `c1-l004` | Andǒ. *Hum homem que nas varcellas dos len-* |  |
+| `c1-l004` | Andǒ. *Hum homem que nas varellas dos* Ien- |  |
 | `c1-l005` | &emsp;xǔ*s no tempo dos officios, & ceremonias guia,* |  |
 | `c1-l006` | &emsp;*& ẽcaminha aos outros, & tange os ſinos, &c.* |  |
 | `c1-l007` | Andon. *Ignorancia, & pouco ſaber.* |  |
@@ -77,7 +77,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l003` | Anjen. *Quietação, repouzo. ¶* Anjen |  |
 | `c2-l004` | &emsp;to xite. *Quietamente.* |  |
 | `c2-l005` | Anji. *Piloto.* |  |
-| `c2-l006` | Anji, zuru, ita. *Conſiderar, ou deſcorrer cõ* |  |
+| `c2-l006` | Anji, zuru, ita. *Conſiderar, ou deſcorrcr cõ* |  |
 | `c2-l007` | &emsp;*openſamento.* |  |
 | `c2-l008` | Anji idaxi, ſu, aita. *Conſiderando achar, deſ-* |  |
 | `c2-l009` | &emsp;*cobrir, ou inuentar algũa couſa.* |  |
@@ -105,7 +105,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l031` | &emsp;*grãos moidos com jagra, ou ſem ella.* |  |
 | `c2-l032` | Anmon. *Minuta de carta, ou primeiro borrão.* |  |
 | `c2-l033` | Annai. *Fazer a ſaber dante mão,ou dar recado* |  |
-| `c2-l034` | &emsp;*primeiro. ¶* Annaiuo yǔ, l, annaiuo ſuru. |  |
+| `c2-l034` | &emsp;*primeiro. ¶* Annaiuo yǔ, l, annaiuo feru. |  |
 | `c2-l035` | &emsp;*Idem. ¶* Annaiuo vcagǒ. *Inquirir ou deſ-* |  |
 | `c2-l036` | &emsp;*cobrir como na guerra campo, &c. ¶* Annai |  |
 | `c2-l037` | &emsp;uo xiru. *Saber o caminho, ẽtradas, & ſai-* |  |

@@ -268,7 +268,7 @@ class PublicReviewRegressionTests(unittest.TestCase):
         self.assertIn("c2-l007", page["issues"][0]["lines"])
         self.assertIn("c2-l026", page["issues"][0]["lines"])
 
-    def test_f30_issue_18_partial_correction_history(self):
+    def test_f30_issue_18_correction_history_after_overrides(self):
         history = json.loads(
             (ROOT / "pilot" / "human-review" / "correction-history.json").read_text(
                 encoding="utf-8"
@@ -276,13 +276,13 @@ class PublicReviewRegressionTests(unittest.TestCase):
         )
         page = next(page for page in history["pages"] if page["id"] == "bnf-f0030")
         self.assertEqual(page["issues_applied"], 1)
-        self.assertEqual(page["distinct_lines"], 29)
-        self.assertEqual(page["accepted_edits"], 29)
+        self.assertEqual(page["distinct_lines"], 32)
+        self.assertEqual(page["accepted_edits"], 32)
         self.assertEqual(page["issues"][0]["number"], 18)
-        self.assertNotIn("c1-l004", page["issues"][0]["lines"])
+        self.assertIn("c1-l004", page["issues"][0]["lines"])
         self.assertNotIn("c1-l034", page["issues"][0]["lines"])
-        self.assertNotIn("c2-l006", page["issues"][0]["lines"])
-        self.assertNotIn("c2-l034", page["issues"][0]["lines"])
+        self.assertIn("c2-l006", page["issues"][0]["lines"])
+        self.assertIn("c2-l034", page["issues"][0]["lines"])
 
     def test_f19_issue_3_correction_history(self):
         history = json.loads(
