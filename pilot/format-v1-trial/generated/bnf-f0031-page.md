@@ -32,9 +32,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l016` | Ano yo, l, nochino yo. *Outra vida.* |  |
 | `c1-l017` | Anpu. Yaſuxiya inaya. *Certeza, & incer-* |  |
 | `c1-l018` | &emsp;*teza do ſucceſſo da couſa, ou ſucceſſo duuidoſo* |  |
-| `c1-l019` | &emsp;*& incerto. ¶ Item, Verdade, ou falſi-* |  |
-| `c1-l020` | &emsp;*dade da couſa. ¶* Anpuni macaiuru. *En-* |  |
-| `c1-l021` | &emsp;*tregarſe à ventura. ¶* Anpuuo qeſſuru, l, |  |
+| `c1-l019` | &emsp;*& incerto. ¶ Item, Verdade, ou falſi-,* |  |
+| `c1-l020` | &emsp;*dade da couſa. ¶* Anpuni macaſuru. *En* |  |
+| `c1-l021` | &emsp;*tregarſe à ventura. ¶* Anpuuo qeſsuru ,l, |  |
 | `c1-l022` | &emsp;ſadamuru, l, qiuamuru. *Averiguar o* |  |
 | `c1-l023` | &emsp;*negocio, ou por hũa, ou por outra parte.* |  |
 | `c1-l024` | &emsp;*¶* Cono caxxenno anpuua facarigatai. |  |
@@ -81,13 +81,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2a-l001` | Antacu. Iyeuo yaſunzuru. *Eſtar em caſa cõ* |  |
 | `c2a-l002` | &emsp;*quietação.* |  |
 | `c2a-l003` | Antai. *Paz, & quietação. Vt,* Buji antai. |  |
-| `c2a-l004` | &emsp;*Idem. ¶* Antai biôdô. *Idem.* |  |
+| `c2a-l004` | &emsp;*Idem. ¶* Antai biǒdô. *Idem.* |  |
 | `c2a-l005` | Anuon. *Vide* Annon. |  |
 | `c2a-l006` | Anxei. Yaſui yo. i. Bujina jidai. *Idade* |  |
 | `c2a-l007` | &emsp;*pacifica, & quieta. ¶ Item, Paz, &* |  |
 | `c2a-l008` | &emsp;*proſperidade. Vt,* Buji anxei. |  |
 | `c2a-l009` | Anxen. *Paz, & tranquilidade.* |  |
-| `c2a-l010` | Anxin. Macurauo yaſunzu. i. yaſǔ inuru. |  |
+| `c2a-l010` | Anxin. Macurauo yaſunzu. i. yaſû inuru. |  |
 | `c2a-l011` | &emsp;*Dormir quietamente.* |  |
 | `c2a-l012` | Anxin. Yaſuqi mi. *Eſtar em quietação.* |  |
 | `c2a-l013` | Anxo. Sǒan. *Minuta de carta, ou borrão* |  |
@@ -95,7 +95,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2a-l015` | Anxǒ. Tçucuyeno vye. *Encima do banco,* |  |
 | `c2a-l016` | &emsp;*ou eſcabello, ou meza.* |  |
 | `c2a-l017` | Anya. Yamino yo. *Noite eſcura.* |  |
-| `c2a-l018` | Anyǒcai. i. Gocuracu. *Paraiſo de Amida.* |  |
+| `c2a-l018` | Anyǒcai. i. Gocuracu. *Paraiſo de* Amida. |  |
 | `c2a-l019` | Anza. Zauo yaſunzuru. *Eſtar aſſentado à* |  |
 | `c2a-l020` | &emsp;*ſua vontade. Vt,* Anza ſuru. *Idem.* |  |
 | `c2a-l021` | Anzoccǒ. *Certa mezinha ſemelhante a en-* |  |
@@ -113,7 +113,7 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c2p-l001` | APPare. *Interieção de exclamação, ou eſ-* |  |
-| `c2p-l002` | &emsp;*panto.* Appare giogonxa cana! *O grã-* |  |
+| `c2p-l002` | &emsp;*panto.* Appare qiogonxa cana! *O grã* |  |
 | `c2p-l003` | &emsp;*de mentirozo!* |  |
 
 ## Column 2 internal Q section
