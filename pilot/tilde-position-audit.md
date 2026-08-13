@@ -4,10 +4,10 @@
 
 The Level 1 corpus is not uniform. A scan-level audit of the complete `algũa` / `alguã` family found **388 occurrences on 387 lines**:
 
-- **226** print the tilde over `u`: for example `algũa`, `dalgũa`, and `Algũas`;
-- **162** print the tilde over final `a`: for example `alguã`, `dalguã`, and `nalguã`.
+- **227** print the tilde over `u`: for example `algũa`, `dalgũa`, and `Algũas`;
+- **161** print the tilde over final `a`: for example `alguã`, `dalguã`, and `nalguã`.
 
-The previously uniform transcription has therefore been corrected at the 162 final-`a` occurrences and retained at the other 226. The initiating example, `bnf-f0019:c2b-l011`, reads `alguã`; the clear forms on `bnf-f0014:c1-l044`, `c2-l029`, `c2-l039`, and `c2-l042` remain `algũa`. Enlarged line review later reassigned five initially classified final-`a` cases on `f47`–`f51` to tilde-over-`u`; explicit human reinspection likewise reassigned `bnf-f0026:c2-l013` while adjudicating Issue 14.
+The previously uniform transcription has therefore been corrected at the 161 final-`a` occurrences and retained at the other 227. The initiating example, `bnf-f0019:c2b-l011`, reads `alguã`; the clear forms on `bnf-f0014:c1-l044`, `c2-l029`, `c2-l039`, and `c2-l042` remain `algũa`. Enlarged line review later reassigned five initially classified final-`a` cases on `f47`–`f51` to tilde-over-`u`; human Issue review likewise reassigned `bnf-f0026:c2-l013` and `bnf-f0027:c2-l046`.
 
 The occurrence ledger is [tilde-position-audit.tsv](tilde-position-audit.tsv). It records the page, line identifier, previous text, scan-adjudicated source text, and vowel carrying the mark. Capitalization, plurality, and contraction (`d-`, `n-`) are retained independently of the tilde position.
 
