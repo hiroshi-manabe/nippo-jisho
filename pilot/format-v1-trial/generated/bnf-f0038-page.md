@@ -121,7 +121,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2b-l025` | &emsp;*Dar cutes, ou pancadas na cabeça. ¶* A- |  |
 | `c2b-l026` | &emsp;tamauo futte iyagaru. *Dando à cabeça, recu-* |  |
 | `c2b-l027` | &emsp;*ſar algũa couſa, ou dizer que naõ.* |  |
-| `c2b-l028` | Atamagachina fito. *Homẽ algũ tanto preſum-* |  |
+| `c2b-l028` | Atamagachina fito. *Homẽ algũ tanto preſun-* |  |
 | `c2b-l029` | &emsp;*tuoſo, & atreuido aſſi ẽ fazer como dizer al-* |  |
 | `c2b-l030` | &emsp;*guã couſa por ſua cabeça.* |  |
 | `c2b-l031` | Ataqe. *Nome de embarcações grandes.* |  |
