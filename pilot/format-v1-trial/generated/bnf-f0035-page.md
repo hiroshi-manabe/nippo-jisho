@@ -26,8 +26,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l010` | &emsp;*refreſco.* |  |
 | `c1-l011` | Aratengu. *Diabo cruel, & que faz mal.* |  |
 | `c1-l012` | Arato. P*edra groſſa de amolar em que pri-* |  |
-| `c1-l013` | &emsp;*meiro aſſão a ferramenta pera lhe dar depois* |  |
-| `c1-l014` | &emsp;*o fio em outra mais fina.* |  |
+| `c1-l013` | &emsp;*meiro a fião aferramenta peralhe dar de pois* |  |
+| `c1-l014` | &emsp;*ofio em outra mais fina.* |  |
 | `c1-l015` | Aratori. *Paſſaro brauo, que não eſta ainda* |  |
 | `c1-l016` | &emsp;*domeſtico.* |  |
 | `c1-l017` | Arauana, l, araua naru. *Couſa clara, &* |  |
@@ -96,7 +96,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l016` | &emsp;no de gozaru. *Iſto he daquelle.* |  |
 | `c2-l017` | Are, ruru, eta. *Danificarſe, ou deſtruirſe algũa* |  |
 | `c2-l018` | &emsp;*couſa, como caſa, campo, por ſe não habitar, ou* |  |
-| `c2-l019` | &emsp;*cultiuar. ¶* Iyega aruru. *Danificarẽ-* |  |
+| `c2-l019` | &emsp;*cultiuar. ¶* Iyega aruru. *Danificarem* |  |
 | `c2-l020` | &emsp;*ſe as caſas por ſe não habitarem nem refazerẽ.* |  |
 | `c2-l021` | &emsp;*¶* Denbacuga aruru. *Fazeremſe os cã-* |  |
 | `c2-l022` | &emsp;*pos incultos, & ſilueſtres por ſe não laurarem,* |  |
