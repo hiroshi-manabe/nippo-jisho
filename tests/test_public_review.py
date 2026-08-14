@@ -349,6 +349,34 @@ class PublicReviewRegressionTests(unittest.TestCase):
         self.assertIn({"typeface": "italic", "text": " P. i."}, lines["c1-l010"])
         self.assertEqual(lines["c2-l046"][1]["typeface"], "italic")
 
+    def test_f38_issue_26_partial_history_and_typeface_corrections(self):
+        history = json.loads(
+            (ROOT / "pilot" / "human-review" / "correction-history.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        page = next(page for page in history["pages"] if page["id"] == "bnf-f0038")
+        self.assertEqual(page["issues_applied"], 1)
+        self.assertEqual(page["distinct_lines"], 31)
+        self.assertEqual(page["accepted_edits"], 31)
+        self.assertEqual(page["issues"][0]["number"], 26)
+        self.assertNotIn("c2b-l007", page["issues"][0]["lines"])
+        self.assertNotIn("c2b-l028", page["issues"][0]["lines"])
+
+        record = json.loads(
+            (ROOT / "pilot" / "format-v1-trial" / "level1" / "bnf-f0038.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        lines = {
+            line["id"]: line["runs"]
+            for zone in record["zones"]
+            for line in zone.get("lines", [])
+        }
+        self.assertIn({"typeface": "roman", "text": " Qijis,"}, lines["c1-l005"])
+        self.assertIn({"typeface": "roman", "text": " Ximo"}, lines["c1-l006"])
+        self.assertIn({"typeface": "roman", "text": " i. Niuacani."}, lines["c2b-l020"])
+
     def test_f29_issue_17_correction_history(self):
         history = json.loads(
             (ROOT / "pilot" / "human-review" / "correction-history.json").read_text(
