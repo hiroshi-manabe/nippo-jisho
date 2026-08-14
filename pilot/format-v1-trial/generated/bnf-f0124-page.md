@@ -14,7 +14,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | Coma. *Pião.* |  |
+| `c1-l001` | Coma. *Piaõ.* |  |
 | `c1-l002` | Coma. *Gato.* |  |
 | `c1-l003` | Coma. *Caualo. ¶* Comauo fayamuru. |  |
 | `c1-l004` | &emsp;*Apertar as pernas ao caualo.* Comauo Exi- |  |

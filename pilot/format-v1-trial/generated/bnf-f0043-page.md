@@ -46,7 +46,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l030` | &emsp;*inda madura.* |  |
 | `c1-l031` | Auona. *Folhas verdes de nabo, ou nabiças.* |  |
 | `c1-l032` | Auoniqide. i. Fei. *Certos papeis cortados como* |  |
-| `c1-l033` | &emsp;*abanos cõ q̃ abanão diãte dos Camis de Iapão.* |  |
+| `c1-l033` | &emsp;*abanos cõ q̃ abanaõ diãte dos Camis de Iapão.* |  |
 | `c1-l034` | Auoniqide, xitaniqide. *Idem.* |  |
 | `c1-l035` | Auonoqe, uru, eta. *Pòr de coſtas a outro,* |  |
 | `c1-l036` | &emsp;*ou com o roſto pera çima.* |  |

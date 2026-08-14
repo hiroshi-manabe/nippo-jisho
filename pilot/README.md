@@ -18,6 +18,8 @@ The [Pilot Diacritic Audit](diacritic-audit.md) maintains the initial glyph inve
 
 The separate [`algũa` / `alguã` Tilde-Position Audit](tilde-position-audit.md) checks all 388 occurrences of that family in the current Level 1 corpus against the scan. Its TSV ledger preserves every occurrence-level decision and prevents a visually variable setting from being normalized by lexical expectation.
 
+The broader [Adjacent-Vowel Tilde-Carrier Audit](adjacent-vowel-tilde-audit.md) checks all 3,852 applicable occurrences on the not-yet-human-reviewed pages from `f39` onward, excluding the already audited `nhaã` family. It records every carrier decision and corrects two locally printed `aõ` forms that had been regularized to `ão`.
+
 The first controlled [Wikisource comparison](wikisource-comparison/bnf-f0014.md) uses the blinded selected zones of `bnf-f0014`. It records exact revision provenance, a coverage snapshot, scan adjudication of every meaningful disagreement, and the limited licensing conclusion. The frozen draft remains unchanged.
 
 The comparison's reusable error patterns, together with later research on Jesuit romanization, are maintained in the [Provisional Transcription Reading Guide](../docs/transcription-reading-guide.md). Wikisource is no longer part of the routine workflow.
