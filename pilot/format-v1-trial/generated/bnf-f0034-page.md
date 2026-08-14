@@ -25,40 +25,40 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l009` | Arai ſuſugui, u, ſuida. *Enxagoar, ou lauar* |  |
 | `c1-l010` | &emsp;*enxagoando.* |  |
 | `c1-l011` | Araiſute, tçuru, eta. *Lauar botando fora a* |  |
-| `c1-l012` | &emsp;*ſujidade.* |  |
+| `c1-l012` | &emsp;*çujidade.* |  |
 | `c1-l013` | Araitate, tçuru, eta. *Lauando concertar,* |  |
 | `c1-l014` | &emsp;*ou acabar de lauar.* |  |
 | `c1-l015` | Araitade, zzuru. *Vt,* Funeuo arai |  |
-| `c1-l016` | &emsp;tazzuru, l, ſuritazzuru. *Aquentar a fu-* |  |
-| `c1-l017` | &emsp;*ne com fogo, & depois lauala, & eſfregala.* |  |
-| `c1-l018` | Araito. *Seda groſſa, ou do lançao.* |  |
-| `c1-l019` | Araiuotoxi, ſu, ita. *Tirar a nodoa, ou ſu-* |  |
+| `c1-l016` | &emsp;tazzuru, l, ſuritazzuru. *Aquentar a* Fu |  |
+| `c1-l017` | &emsp;ne *com fogo, & depois lauala, & esfregala.* |  |
+| `c1-l018` | Araito. *Seda groſſa, ou do lancão.* |  |
+| `c1-l019` | Araiuotoxi, ſu, ita. *Tirar a nodoa, ou çu-* |  |
 | `c1-l020` | &emsp;*jidade lauando.* |  |
 | `c1-l021` | Arai yone. *Arroz ja pilado, & lauado, que* |  |
-| `c1-l022` | &emsp;*ſe offerece diante do Cami.* |  |
+| `c1-l022` | &emsp;*ſe offerece diante do* Cami. |  |
 | `c1-l023` | Aramafoxij. *Couſa que deſejamos nos venha.* |  |
 | `c1-l024` | &emsp;Arama foxiſa. |  |
-| `c1-l025` | &emsp;Arama foxǒ. |  |
+| `c1-l025` | &emsp;Arama foxǔ. |  |
 | `c1-l026` | Aramaqi. *Modo de emburilhar, ou enuoluer* |  |
 | `c1-l027` | &emsp;*em palha algũa couſa. ¶ Item, O meſmo* |  |
 | `c1-l028` | &emsp;*enuoltorio, ou amarrado de palha.* |  |
 | `c1-l029` | Aramaxi, l, Aramaxino. *Couſa dita dante mão* |  |
 | `c1-l030` | &emsp;*que ſe auia de fazer depois. ¶* Aramaxi |  |
 | `c1-l031` | &emsp;no coto. *Idem. ¶ Item, Couſa breue,* |  |
-| `c1-l032` | &emsp;*ou breuemente, ou em ſumma. Vt,* Arama- |  |
-| `c1-l033` | &emsp;xi vcmǒxiare. *Dizei breuemente, ou em* |  |
+| `c1-l032` | &emsp;*ou breuemente, ou em ſumma. Vt,* Arama |  |
+| `c1-l033` | &emsp;xi vomǒxiare. *Dizei breuemente, ou em* |  |
 | `c1-l034` | &emsp;*ſumma.* |  |
 | `c1-l035` | Aramaxigoto. *Couſa dita dante mão acerca* |  |
 | `c1-l036` | &emsp;*do que hum ha de fazer, &c.* |  |
 | `c1-l037` | Arame. *Hũs limos do mar.* |  |
 | `c1-l038` | Aramena fito. *Homem riſpido, & aſpero, ou* |  |
 | `c1-l039` | &emsp;*ſeuero.* |  |
-| `c1-l040` | Arami. *Catana noua, ou feita de pouco tẽpo.* |  |
+| `c1-l040` | Arami. Catana *noua, ou feita de pouco tẽpo.* |  |
 | `c1-l041` | Aramono. *Homem cruel, & aſpero. ¶ Itẽ,* |  |
 | `c1-l042` | &emsp;*Na carga de nauios, ou em mercadoria,* |  |
 | `c1-l043` | &emsp;Aramono, *he fazenda groſſa, pezada,* |  |
 | `c1-l044` | &emsp;*& de pouco preço como ſapão, chumbo, &c.* |  |
-| `c1-l045` | Aramuxa. *Soldado eſforçado, ou feroz.* |  |
+| `c1-l045` | Aramuxa. *Soldado esforçado, ou feroz.* |  |
 | `c1-l046` | Aranami. *Ondas brauas.* |  |
 | `c1-l047` | Aranu, l, ararenu ſama. *Trajo, ou modo* |  |
 
