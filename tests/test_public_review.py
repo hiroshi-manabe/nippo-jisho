@@ -144,15 +144,23 @@ class PublicReviewRegressionTests(unittest.TestCase):
         ]
         self.assertEqual(
             [page["id"] for page in pages],
-            [f"bnf-f{number:04d}" for number in range(31, 72)],
+            [f"bnf-f{number:04d}" for number in range(31, 86)],
         )
         for page in pages:
             for column in page["columns"].values():
-                self.assertEqual(column["visual_review"], "external_ai_width_rechecked")
-                self.assertEqual(
-                    column["horizontal_completeness_review"]["status"],
-                    "complete_column_width_checked",
-                )
+                leaf = int(page["id"].removeprefix("bnf-f"))
+                if leaf <= 71:
+                    self.assertEqual(
+                        column["visual_review"], "external_ai_width_rechecked"
+                    )
+                    self.assertEqual(
+                        column["horizontal_completeness_review"]["status"],
+                        "complete_column_width_checked",
+                    )
+                else:
+                    self.assertEqual(
+                        column["visual_review"], "ai_bulk_geometry_sanity_checked"
+                    )
                 left, _, right, _ = column["box"]
                 for line in column["lines"].values():
                     self.assertEqual(line["crop"][0], left)

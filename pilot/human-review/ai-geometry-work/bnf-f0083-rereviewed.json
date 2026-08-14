@@ -1,0 +1,1958 @@
+{
+  "format": "nippo-ai-line-geometry-response",
+  "format_version": 1,
+  "page": "bnf-f0083",
+  "response_status": "completed_independent_ai_line_review",
+  "observed_text_provenance": "Second-pass geometry re-registration from the supplied scan. The initial proposed geometry was not trusted: each physical line was re-located from the page image, corrected crops were visually swept top-to-bottom, and catchwords/rules were excluded from body-line assignment. Prior independent observed_text was retained only where it still agreed with the corrected physical line; otherwise the corrected crop was reread, with batch OCR used only as a transcription aid after visual line identification. expected_line_version values are preserved unchanged.",
+  "coordinate_space": "native Gallica master pixels",
+  "rectangle_format": "[x, y, width, height]",
+  "source": {
+    "filename": "f0083.jpg",
+    "width": 2672,
+    "height": 3858,
+    "sha256": "b4bc7bcbe9f6e20ae5151f7d2967665ef5b812dd9f7ac2a16353a4e49c0b39e2",
+    "gallica_url": "https://gallica.bnf.fr/ark:/12148/bpt6k852354j/f83.item"
+  },
+  "transcription_source": {
+    "page_file": "pilot/format-v1-trial/level1/bnf-f0083.json",
+    "page_file_sha256": "0ad83f15d81adf56ad395c54543225475e1a3adc62f4789c72ec4e848f4d2f06"
+  },
+  "columns": {
+    "column-1": {
+      "column_box_xyxy": [
+        180,
+        300,
+        1220,
+        3420
+      ],
+      "zone_ids": [
+        "column-1"
+      ],
+      "initial_geometry_provenance": "contact_sheet_reviewed",
+      "initial_geometry_reviewed_at": "2026-08-01",
+      "geometry_requires_line_by_line_review": false,
+      "lines": [
+        {
+          "id": "c1-l001",
+          "centre_y": 460,
+          "crop": [
+            180,
+            400,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            300,
+            1040,
+            334
+          ],
+          "observed_text": "Cindnip, Bup . xizzucana michino fito..",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:614d9625a3f6c5ef060e4c8952d1263cd7cc9f72027bf74ad8b950c34643587c"
+        },
+        {
+          "id": "c1-l002",
+          "centre_y": 521,
+          "crop": [
+            180,
+            461,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            354,
+            1040,
+            334
+          ],
+          "observed_text": "Peffoa que tem bem meditado , oO penetrado",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:08c400bc1e5f3c52e3d558213e666ec8133c31a5be089916c7e9e6b6fef3a861"
+        },
+        {
+          "id": "c1-l003",
+          "centre_y": 582,
+          "crop": [
+            180,
+            522,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            415,
+            1040,
+            334
+          ],
+          "observed_text": "4) coufasdo~ goxd dos tenxts . _",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:4e86cf85d4b252ebc7629ca5accd605bb6250fedf088ac51b8cb9a41ede3aa0d"
+        },
+        {
+          "id": "c1-l004",
+          "centre_y": 643,
+          "crop": [
+            180,
+            583,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            476,
+            1040,
+            334
+          ],
+          "observed_text": "Candori. O.que vataoleme ouogoucrna .",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:f74ce649e05d52f87d3e76169c8016bdeec965007f00bae3c6463da508b035a2"
+        },
+        {
+          "id": "c1-l005",
+          "centre_y": 704,
+          "crop": [
+            180,
+            644,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            537,
+            1040,
+            334
+          ],
+          "observed_text": "Cane Tinta com que tinzem os pentes.",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:21443a03ff2b42a87a5afd5e3e5068ab31a6f6624d74b088bbe2cd9f88e962ee"
+        },
+        {
+          "id": "c1-l006",
+          "centre_y": 766,
+          "crop": [
+            180,
+            706,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            599,
+            1040,
+            334
+          ],
+          "observed_text": "q. Caneuo tgugaru. Fazer os detes preto-.",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:074d5eddae27cab097468b6199a564e6f007ce50772c558a0d0aca455e803956"
+        },
+        {
+          "id": "c1-l007",
+          "centre_y": 825,
+          "crop": [
+            180,
+            765,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            658,
+            1040,
+            334
+          ],
+          "observed_text": "Cane. Metal. Vt, Caneuo fugu. Fume",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:c14d2e93e983b9985d607f8477fba86a17ff1de246d55a91b978485f742a9267"
+        },
+        {
+          "id": "c1-l008",
+          "centre_y": 887,
+          "crop": [
+            180,
+            827,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            720,
+            1040,
+            334
+          ],
+          "observed_text": "dir metal. @ Caneuovtgu. (urar como",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:b5e0832d67a96fd6c63c14a44c89ecc6a4b8612aa42a19fe4533f3e1f714b7e3"
+        },
+        {
+          "id": "c1-l009",
+          "centre_y": 949,
+          "crop": [
+            180,
+            889,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            782,
+            1040,
+            334
+          ],
+          "observed_text": "cuftamdo os gentios batendo combiia Catana",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:71313630557634ccd2caba06478feb1042285459610555de1ac5008d6927ad1b"
+        },
+        {
+          "id": "c1-l010",
+          "centre_y": 1009,
+          "crop": [
+            180,
+            949,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            842,
+            1040,
+            334
+          ],
+          "observed_text": "naourae @ tiem, Caneuo vicu. Tan",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:6f9aeaeb26fdbfa8a096fbf1a6286cb44afccca408347c259f4b620124222772"
+        },
+        {
+          "id": "c1-l011",
+          "centre_y": 1071,
+          "crop": [
+            180,
+            1011,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            904,
+            1040,
+            334
+          ],
+          "observed_text": "er batega » ou outro metal que fo como cut",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:b6861534a49bc42da5aff373743deddf3412205a3d0710e6bae7379588fe7be3"
+        },
+        {
+          "id": "c1-l012",
+          "centre_y": 1133,
+          "crop": [
+            180,
+            1073,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            966,
+            1040,
+            334
+          ],
+          "observed_text": "mda os gentios chamado por Nenbuc.",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:af9add306c7ce0f2a3b17749a1ea7784094b7c5f603748ddc0bd25c35ef80345"
+        },
+        {
+          "id": "c1-l013",
+          "centre_y": 1194,
+          "crop": [
+            180,
+            1134,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            1027,
+            1040,
+            334
+          ],
+          "observed_text": "Cane. Sind. q Caneuo tguque Tanger",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:397cc03feeaae67b7bb5f5695d6a8f74941b5f20d83947c7e90baacb9e45d918"
+        },
+        {
+          "id": "c1-l014",
+          "centre_y": 1255,
+          "crop": [
+            180,
+            1195,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            1088,
+            1040,
+            334
+          ],
+          "observed_text": "~ofino-ao modo deLapio. .",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:a1c3a599c1be853babf02f1c7b3c50be2f0cacbe1d08c38582d24712396fa680"
+        },
+        {
+          "id": "c1-l015",
+          "centre_y": 1318,
+          "crop": [
+            180,
+            1258,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            1151,
+            1040,
+            334
+          ],
+          "observed_text": "Cane. Efyuadra das carpinteiros «",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:8715351f19453eb34195181a308d090ffeb4a07d98a6d58b9da598179c8b461e"
+        },
+        {
+          "id": "c1-l016",
+          "centre_y": 1380,
+          "crop": [
+            180,
+            1320,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            1213,
+            1040,
+            334
+          ],
+          "observed_text": "Caney uru, eta. Prouer. Vt, Sagiuo ca",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:304a59dce10d95e279254f98c570d9d10e78d09a23b863c51353e95f986fb3b0"
+        },
+        {
+          "id": "c1-l017",
+          "centre_y": 1425,
+          "crop": [
+            180,
+            1365,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            1258,
+            1040,
+            334
+          ],
+          "observed_text": "nuru+ Prover , @ difpordantes. q Rid",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:87449d684984f105d58788a8abfe11824203780fcc1bd9df2bcd16176a72217e"
+        },
+        {
+          "id": "c1-l018",
+          "centre_y": 1500,
+          "crop": [
+            180,
+            1440,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            1333,
+            1040,
+            334
+          ],
+          "observed_text": "»bbiio qiuo cancte yh. Falar contemperie",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:032863100afed685634b22cc2f69d98b40cc11ecc5ff24e308d344812bb7cb19"
+        },
+        {
+          "id": "c1-l019",
+          "centre_y": 1559,
+          "crop": [
+            180,
+            1499,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            1392,
+            1040,
+            334
+          ],
+          "observed_text": "zandocom o coragaodambos ,",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:644b8df5b3d6d0e7c66467bbba6b5fa90d98c5516579b990d08d65cbcc030f35"
+        },
+        {
+          "id": "c1-l020",
+          "centre_y": 1622,
+          "crop": [
+            180,
+            1562,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            1455,
+            1040,
+            334
+          ],
+          "observed_text": "Cwe,uu, cta- Ter difficuldade em algiia",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:e4f433015f0d929efc34ef4fcd080735d775c6a18fc7e0d6aadfb117bd93006f"
+        },
+        {
+          "id": "c1-l021",
+          "centre_y": 1684,
+          "crop": [
+            180,
+            1624,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            1517,
+            1040,
+            334
+          ],
+          "observed_text": "coufa. Este verbo vai depois das rarzes de",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:c21613caca44d8d89d608739a81b8adb7e8bd5ca3eb41ada66bcdda178dc11fe"
+        },
+        {
+          "id": "c1-l022",
+          "centre_y": 1745,
+          "crop": [
+            180,
+            1685,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            1578,
+            1040,
+            334
+          ],
+          "observed_text": "muitos verbos. q Yugi ¢anumm. ‘Nao",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:7d3d704be3f9d408d09e46de37d6cd594c7616a50f5321e128dff401e84bf508"
+        },
+        {
+          "id": "c1-l023",
+          "centre_y": 1802,
+          "crop": [
+            180,
+            1742,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            1635,
+            1040,
+            334
+          ],
+          "observed_text": "» poder ir pordiante. @ “Faxegui canurus",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:0189be18fddbbb74ff30114f63358daf56571e0b861a64206e8a4fe1b5e3b14c"
+        },
+        {
+          "id": "c1-l024",
+          "centre_y": 1862,
+          "crop": [
+            180,
+            1802,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            1695,
+            1040,
+            334
+          ],
+          "observed_text": "Refifir com difficuldade «",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:8b3d0ce1ba8d6d7dc1d6f92af0317913fcbc36302319403c8902f95e0e5b8424"
+        },
+        {
+          "id": "c1-l025",
+          "centre_y": 1921,
+          "crop": [
+            180,
+            1861,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            1754,
+            1040,
+            334
+          ],
+          "observed_text": "Canetort. 0 que caua nas minas.",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:79424f83832356fb9e6f8eddaad1f2eec3a48c7fc7c2d4b6fe3c675ac476c2ff"
+        },
+        {
+          "id": "c1-l026",
+          "centre_y": 1982,
+          "crop": [
+            180,
+            1922,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            1815,
+            1040,
+            334
+          ],
+          "observed_text": "Cunegane. Adu. Dantes,",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:e29e45ffd613afa2d2d6a57e9568608da5fbe6e66267644df54dc0f321bb6180"
+        },
+        {
+          "id": "c1-l027",
+          "centre_y": 2042,
+          "crop": [
+            180,
+            1982,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            1875,
+            1040,
+            334
+          ],
+          "observed_text": "Canet. me ee Natguno be. atgula. PR sa eek Quentura do verio.",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:0e369817c51d49bc2c1936f1c3371007e40ef221d8dd91f201795e14540fad16"
+        },
+        {
+          "id": "c1-l028",
+          "centre_y": 2104,
+          "crop": [
+            180,
+            2044,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            1937,
+            1040,
+            334
+          ],
+          "observed_text": "Canere. a Pes Ady. SIG ngs Dantes LAB. alent Of ae ee",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:0c2025079b16a148296b6270b91c031d72c426ce513ea471e848efac96a5f853"
+        },
+        {
+          "id": "c1-l029",
+          "centre_y": 2166,
+          "crop": [
+            180,
+            2106,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            1999,
+            1040,
+            334
+          ],
+          "observed_text": "Cangan+ Axe cauobaxe. i. Fazzucaxij. o|",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:a735ebf2d116dcd01187ab7cd72d531664626e600f1651e1a2eddfbfff998ba3"
+        },
+        {
+          "id": "c1-l030",
+          "centre_y": 2209,
+          "crop": [
+            180,
+            2149,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            2042,
+            1040,
+            334
+          ],
+          "observed_text": "es ter vergonba. TTT Te pone 7 kaeeuvanlye UY",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:a7b1684cbebdd1478373ad838f2e5a8f97cec7471af539f075ba312f53f8c3e8"
+        },
+        {
+          "id": "c1-l031",
+          "centre_y": 2290,
+          "crop": [
+            180,
+            2230,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            2123,
+            1040,
+            334
+          ],
+          "observed_text": "Cangan Pe en eee Samui eo oe iua Penedia fria.",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:83c1ac30d8a941e2c96e55a998e1fcf61a86da2ecada9f61685227730f073e30"
+        },
+        {
+          "id": "c1-l032",
+          "centre_y": 2350,
+          "crop": [
+            180,
+            2290,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            2183,
+            1040,
+            334
+          ],
+          "observed_text": "Sangan WS wees Lite Ds chea. a re as e ia",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:ab401b574d0a5d3e49202d5251a0eaf213d0a21e3aae71fcb12c062cb6beb6f0"
+        },
+        {
+          "id": "c1-l033",
+          "centre_y": 2410,
+          "crop": [
+            180,
+            2350,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            2243,
+            1040,
+            334
+          ],
+          "observed_text": "Cangaye UU seta Confiderar f, cOputar.",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:d09cc9efd758e509047389679e5c2ae4d313f245692bb94d209fb4bdb491e45f"
+        },
+        {
+          "id": "c1-l034",
+          "centre_y": 2470,
+          "crop": [
+            180,
+            2410,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            2303,
+            1040,
+            334
+          ],
+          "observed_text": "Cangue.« Mee “Doenga Ri eee de eee mininos como 2 dobaco. ae A",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:4156ca8198b741b94557f94fc160fc52b7b4f1e95ea49b0ee63189808130389e"
+        },
+        {
+          "id": "c1-l035",
+          "centre_y": 2532,
+          "crop": [
+            180,
+            2472,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            2365,
+            1040,
+            334
+          ],
+          "observed_text": "E",
+          "match": "strong",
+          "assessment": "uncertain",
+          "expected_line_version": "sha256:357fde7c0ab5e6fad91faaac5cff9671d660d528f8c366c04b139f36a404a0d0",
+          "note": "Geometry visually confirmed; diplomatic reading remains uncertain."
+        },
+        {
+          "id": "c1-l036",
+          "centre_y": 2591,
+          "crop": [
+            180,
+            2531,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            2424,
+            1040,
+            334
+          ],
+          "observed_text": "exmiagio. exoriacdo. gq Canguenuoylr Cangt vas OE ‘Dar b3|",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:0a7dcb216d33fc7997fd2c2af5ded9f2fef0c6314f9b337c7fe39a0171276cdf"
+        },
+        {
+          "id": "c1-l037",
+          "centre_y": 2640,
+          "crop": [
+            180,
+            2580,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            2473,
+            1040,
+            334
+          ],
+          "observed_text": "imaell con{eibo, ou reprebender 8 SE ahs bem, de tel Sart x if hl VE",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:554eec77606ac9ee1065f600385816b00b8a99387b30a38b2af0449e98f8d6a6"
+        },
+        {
+          "id": "c1-l038",
+          "centre_y": 2715,
+          "crop": [
+            180,
+            2655,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            2548,
+            1040,
+            334
+          ],
+          "observed_text": "sangiien,. Canzurg cotoba. Palauras bem",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:9aa397bf1080e08962f5fcf1bfe4c2b19016e8657ad3f0dade9b688b0fccf4c9"
+        },
+        {
+          "id": "c1-l039",
+          "centre_y": 2776,
+          "crop": [
+            180,
+            2716,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            2609,
+            1040,
+            334
+          ],
+          "observed_text": "i ditas 2a propofita que os circunStantes loue",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:97dc47acda2392075661c81e299209cd789e4018e990eb3290a8d34c296ef4dd"
+        },
+        {
+          "id": "c1-l040",
+          "centre_y": 2837,
+          "crop": [
+            180,
+            2777,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            2670,
+            1040,
+            334
+          ],
+          "observed_text": "wio. _Cinguenuo yu ase cannacoto|",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:229a89e86f6b7c23fa46106f85437e371f8d1c836089012927c1c4953ebbd85e"
+        },
+        {
+          "id": "c1-l041",
+          "centre_y": 2901,
+          "crop": [
+            180,
+            2841,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            2734,
+            1040,
+            334
+          ],
+          "observed_text": "ha _Dize cftas palauras que os outros|",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:730851ebb7e2415c506f3757b29056e1d717d88d94125718c67cb1b677ec3f2c"
+        },
+        {
+          "id": "c1-l042",
+          "centre_y": 2962,
+          "crop": [
+            180,
+            2902,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            2795,
+            1040,
+            334
+          ],
+          "observed_text": "Woenesan: SPSS Serene aes Ls m= on",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:96f50baec54c9d035bf8b3795aa8d487af7a472a658e9feb2cf0bc8c080744c7"
+        },
+        {
+          "id": "c1-l043",
+          "centre_y": 3022,
+          "crop": [
+            180,
+            2962,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            2855,
+            1040,
+            334
+          ],
+          "observed_text": "* ecupado . é ;",
+          "match": "strong",
+          "assessment": "uncertain",
+          "expected_line_version": "sha256:e1c03fcc00541815afec7b126bd829678cccb1f880f206febddfe92998cedd12",
+          "note": "Geometry visually confirmed; diplomatic reading remains uncertain."
+        },
+        {
+          "id": "c1-l044",
+          "centre_y": 3100,
+          "crop": [
+            180,
+            3040,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            2933,
+            1040,
+            334
+          ],
+          "observed_text": "canguet, Samui tcuqi. i. Fuyuno teu is",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:37bf21789cf9daebaca08d322b54ce7da29e8d7a063975f41f32b56b63d9734a"
+        },
+        {
+          "id": "c1-l045",
+          "centre_y": 3142,
+          "crop": [
+            180,
+            3082,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            2975,
+            1040,
+            334
+          ],
+          "observed_text": "anguet. Samui 7 a tguqi. el eee i. Ge Fuyuno SE TTY rguqi.|",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:b45cd4ca5aa99769fc071153aad5040e61e0a8d8a5044d389343cbad65a2b0bf"
+        },
+        {
+          "id": "c1-l046",
+          "centre_y": 3201,
+          "crop": [
+            180,
+            3141,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            3034,
+            1040,
+            334
+          ],
+          "observed_text": "SS Tidjiueno. ee a ee Pp. i oe 3 ae d a i",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:78039eccb2b3b8f93af4fe9bc2bdc220277d29c85c627e33c80f252c716e9238"
+        },
+        {
+          "id": "c1-l047",
+          "centre_y": 3266,
+          "crop": [
+            180,
+            3206,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            3099,
+            1040,
+            334
+          ],
+          "observed_text": "Cango. Taitõno cotoba. Palavra da China.",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:4ad0fd270c2e4fa4a12198da821ce4039eb5851987a94c87cd3ef82d9eda3375"
+        }
+      ]
+    },
+    "column-2": {
+      "column_box_xyxy": [
+        1250,
+        300,
+        2310,
+        3420
+      ],
+      "zone_ids": [
+        "column-2"
+      ],
+      "initial_geometry_provenance": "contact_sheet_reviewed",
+      "initial_geometry_reviewed_at": "2026-08-01",
+      "geometry_requires_line_by_line_review": false,
+      "lines": [
+        {
+          "id": "c2-l001",
+          "centre_y": 439,
+          "crop": [
+            1250,
+            379,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            300,
+            1060,
+            334
+          ],
+          "observed_text": "CangS. Cangaye auaturu. 4 diuinbar con",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:77b5b754c1586aec7da668389d1b8342eb3fe0c70ef440c81fa0efbe2c9c2628"
+        },
+        {
+          "id": "c2-l002",
+          "centre_y": 496,
+          "crop": [
+            1250,
+            436,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            329,
+            1060,
+            334
+          ],
+          "observed_text": "f_ om 2 patando. 5s ee ES ao hae 2 Pe e a=",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:b376ca09b0fc163294576b7e229e958dd7e015531b32944d97f632bff7bd898b"
+        },
+        {
+          "id": "c2-l003",
+          "centre_y": 547,
+          "crop": [
+            1250,
+            487,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            380,
+            1060,
+            334
+          ],
+          "observed_text": "Cangd xen. Nome de bits embarcegoés ar",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:568bd02efefa626751c1f24e5ae06489efe2bfd4b16867e66e6ad9dc17ed82a1"
+        },
+        {
+          "id": "c2-l004",
+          "centre_y": 622,
+          "crop": [
+            1250,
+            562,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            455,
+            1060,
+            334
+          ],
+          "observed_text": "tee. tiguas GS que Filo eS de fapiodchma. i: =a fe",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:b10fefd59b8a62aeff7b63955fb158156d4f3958d3e003d76219a843579345f4"
+        },
+        {
+          "id": "c2-l005",
+          "centre_y": 687,
+          "crop": [
+            1250,
+            627,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            520,
+            1060,
+            334
+          ],
+          "observed_text": "Cangi. Cuaita eguchi. Terra feea, &",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:be49f501ab85a099cc97db1e8f0e1b82cf0695b629da4f736b9c4c0b45d2f429"
+        },
+        {
+          "id": "c2-l006",
+          "centre_y": 750,
+          "crop": [
+            1250,
+            690,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            583,
+            1060,
+            334
+          ],
+          "observed_text": "angi. C.uaita cguchi. Terra feca",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:86c855c6f3ebe7675ec957112cab8fd23b8b19a8691d91d57de73b3eb35eb12b"
+        },
+        {
+          "id": "c2-l007",
+          "centre_y": 807,
+          "crop": [
+            1250,
+            747,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            640,
+            1060,
+            334
+          ],
+          "observed_text": "efteril. ats AS Sor",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:d9a967a40eb04570c1595c2edaefff4a18207200b52036e5e8113ccb3cfecf32"
+        },
+        {
+          "id": "c2-l008",
+          "centre_y": 873,
+          "crop": [
+            1250,
+            813,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            706,
+            1060,
+            334
+          ],
+          "observed_text": "dar conta. Vt, CG ingiouo tojuru. Dar",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:fff5b7fd01805ce47958a2b66741cbdaece7de62c23b7edd2cfa5578d8d56937"
+        },
+        {
+          "id": "c2-l009",
+          "centre_y": 935,
+          "crop": [
+            1250,
+            875,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            768,
+            1060,
+            334
+          ],
+          "observed_text": "contas, | : ‘",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:60ab6717cc8c935395063e72080599f65f86fad9ee584cd92ef3e9879d1e5569"
+        },
+        {
+          "id": "c2-l010",
+          "centre_y": 975,
+          "crop": [
+            1250,
+            915,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            808,
+            1060,
+            334
+          ],
+          "observed_text": "ontas. 2 wergiwuw wuts et Let",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:b2ee1a7cfb850799f0d4aeae1ad4e53e4eff26cb40cb216d8c5efff3c0a06740"
+        },
+        {
+          "id": "c2-l011",
+          "centre_y": 1060,
+          "crop": [
+            1250,
+            1000,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            893,
+            1060,
+            334
+          ],
+          "observed_text": "no, outempofrio. ue",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:02b6168173ed24e8535dcbb93bd413dab47a059b936fb44978927be8ab885f48"
+        },
+        {
+          "id": "c2-l012",
+          "centre_y": 1120,
+          "crop": [
+            1250,
+            1060,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            953,
+            1060,
+            334
+          ],
+          "observed_text": "Cini, Cangrejo. :",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:9df623558baede655987757d60f7dd084edac5fb76c0e2e696fefe33d0365f7d"
+        },
+        {
+          "id": "c2-l013",
+          "centre_y": 1182,
+          "crop": [
+            1250,
+            1122,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            1015,
+            1060,
+            334
+          ],
+          "observed_text": "Canja. Mao, 04 refa'cado .",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:9831a4adde2db1bf320d9f9399fea550bc7d0a4b455e37b30ef47e417ae8f72d"
+        },
+        {
+          "id": "c2-l014",
+          "centre_y": 1244,
+          "crop": [
+            1250,
+            1184,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            1077,
+            1060,
+            334
+          ],
+          "observed_text": "Cinji, zuru, ta. “Fazer frio.",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:2df9169ae02ebdff04e5e66950f1e2ec3afb677be3fdb6a94ee732969de5771f"
+        },
+        {
+          "id": "c2-l015",
+          "centre_y": 1307,
+          "crop": [
+            1250,
+            1247,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            1140,
+            1060,
+            334
+          ],
+          "observed_text": "Cinji, zaru, ita. Louuar confiderande-",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:eb3474072ec0b8f2046343dda32d4ccb0845eee954e37e76c0cf85adc5e66a4f"
+        },
+        {
+          "id": "c2-l016",
+          "centre_y": 1370,
+          "crop": [
+            1250,
+            1310,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            1203,
+            1060,
+            334
+          ],
+          "observed_text": "Canji, Vaiténo ji. Letra da china.",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:a32347e934a641cf6460c3d4fd2fca1d7e89ebb978bc2c835dcac56c6797fef8"
+        },
+        {
+          "id": "c2-l017",
+          "centre_y": 1432,
+          "crop": [
+            1250,
+            1372,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            1265,
+            1060,
+            334
+          ],
+          "observed_text": "Canji. Taitõno ji. Letra da China.",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:6c74234618497b2e04671c4bdadd8ee3de2843c3c17935cc8fbb2bdc16a5e450"
+        },
+        {
+          "id": "c2-l018",
+          "centre_y": 1496,
+          "crop": [
+            1250,
+            1436,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            1329,
+            1060,
+            334
+          ],
+          "observed_text": "ae Xizzcuaua coto. Coufa quictd, ouoe",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:7c21cb36e1cc75dfd119cb77ffa9dd1efb9a2d48e5bd0653ad889ecdd8e7822b"
+        },
+        {
+          "id": "c2-l019",
+          "centre_y": 1555,
+          "crop": [
+            1250,
+            1495,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            1388,
+            1060,
+            334
+          ],
+          "observed_text": "Mode 8",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:37591439376438d98d03fed1874466b912701548a4b4a61c38ecb74ac2c1b20f"
+        },
+        {
+          "id": "c2-l020",
+          "centre_y": 1620,
+          "crop": [
+            1250,
+            1560,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            1453,
+            1060,
+            334
+          ],
+          "observed_text": "Canjiai, 5, Sta. Louzarem muitos entre fi al",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:d25ff4fd1d01ae2fed44a49ad1849bfe89502112396dcf2f43b5230e71274310"
+        },
+        {
+          "id": "c2-l021",
+          "centre_y": 1680,
+          "crop": [
+            1250,
+            1620,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            1513,
+            1060,
+            334
+          ],
+          "observed_text": "git coufa’. ec a",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:9618234f9090e750e1e9ac8b3ac800f6b893f89d4ee436190fde027b3ccc85bb"
+        },
+        {
+          "id": "c2-l022",
+          "centre_y": 1744,
+          "crop": [
+            1250,
+            1684,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            1577,
+            1060,
+            334
+          ],
+          "observed_text": "Canjliri, ru, itta. Louuar profundamente,",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:98f6b00279b357b4f87232403466d45e2d3ebc86fbed08118fb16b38673424c4"
+        },
+        {
+          "id": "c2-l023",
+          "centre_y": 1806,
+          "crop": [
+            1250,
+            1746,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            1639,
+            1060,
+            334
+          ],
+          "observed_text": "Caijin. i. Cadamax'j fico. Homem malie",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:73d4bf6d325cd7c6a2380c76837f4b6046615d4b979d3c1c8d7233cc1fe45063"
+        },
+        {
+          "id": "c2-l024",
+          "centre_y": 1865,
+          "crop": [
+            1250,
+            1805,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            1698,
+            1060,
+            334
+          ],
+          "observed_text": "Cfo, ourefalcado, ene",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:d41ffcf4fc66cc3a2cb278bd8358c2dc8ac2ca14e42100e2580ca52f3ac677a2"
+        },
+        {
+          "id": "c2-l025",
+          "centre_y": 1925,
+          "crop": [
+            1250,
+            1865,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            1758,
+            1060,
+            334
+          ],
+          "observed_text": "Canjin . Qimo , cocoro’.i, Cany dna coro ,",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:f1d030db046ce9bf440b7652207b6a20d94b6554011b1fa0b1b8ee2b84625bea"
+        },
+        {
+          "id": "c2-l026",
+          "centre_y": 1986,
+          "crop": [
+            1250,
+            1926,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            1819,
+            1060,
+            334
+          ],
+          "observed_text": "Coufa necefJaria, & de importancia .",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:143ae1bf526c5fd85a7e9c5b8cdd986296105496533646bcca2559720dfbfce2"
+        },
+        {
+          "id": "c2-l027",
+          "centre_y": 2044,
+          "crop": [
+            1250,
+            1984,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            1877,
+            1060,
+            334
+          ],
+          "observed_text": "Canjigi. Hilas taboas redondas que fe amarraio",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:079d30726384894333a2cea1e84d025c36647a8b59e5057cd8c8755039f781d8"
+        },
+        {
+          "id": "c2-l028",
+          "centre_y": 2102,
+          "crop": [
+            1250,
+            2042,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            1935,
+            1060,
+            334
+          ],
+          "observed_text": "as folas dos pés en caminbosde muita neve pe",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:9936b92e84225de1c8b1ebf0c9bef8bd1b85b378b406bd53d4a875d7450f0faa"
+        },
+        {
+          "id": "c2-l029",
+          "centre_y": 2171,
+          "crop": [
+            1250,
+            2111,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            2004,
+            1060,
+            334
+          ],
+          "observed_text": "rafenadacaruarnzlla. . 2 :",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:4e8b88ce8a9cc763da35ede6f5a4d590ab32ad32481006c90dd925c384156ea2"
+        },
+        {
+          "id": "c2-l030",
+          "centre_y": 2228,
+          "crop": [
+            1250,
+            2168,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            2061,
+            1060,
+            334
+          ],
+          "observed_text": "Canyit. Samui fi . Dia de‘ grande frio.",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:29b33c88847724dffdc1886f94af9c3f07a7102586f0ca78ffebb70b1b796be8"
+        },
+        {
+          "id": "c2-l031",
+          "centre_y": 2298,
+          "crop": [
+            1250,
+            2238,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            2131,
+            1060,
+            334
+          ],
+          "observed_text": "Canjo . Samuxi atcuxi.1. Narguto thyu .",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:7c26a5803509b27499e99fa98eb3a6c27f6c2f15e667543c2cc6825c92da178e"
+        },
+        {
+          "id": "c2-l032",
+          "centre_y": 2344,
+          "crop": [
+            1250,
+            2284,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            2177,
+            1060,
+            334
+          ],
+          "observed_text": "Inuerno . ¢y verdo . .",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:f3ebcbcdc7de2e8869104f2b908b32157ab301d02a62a76e95221b9531b6bba8"
+        },
+        {
+          "id": "c2-l033",
+          "centre_y": 2413,
+          "crop": [
+            1250,
+            2353,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            2246,
+            1060,
+            334
+          ],
+          "observed_text": "Canjo. —Liwro que enfing a efcreuer cartas,",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:b44b51dae94628ea76f3f37df44f355fab53464fc8c9083d71593a0899f936d2"
+        },
+        {
+          "id": "c2-l034",
+          "centre_y": 2486,
+          "crop": [
+            1250,
+            2426,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            2319,
+            1060,
+            334
+          ],
+          "observed_text": "Cunjo. Xizzucana tocuro. Lugar de repou",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:83b5d18a9d90106b6973e7cec971a9ff2b610d63d685750f2b4a71354f0434a7"
+        },
+        {
+          "id": "c2-l035",
+          "centre_y": 2546,
+          "crop": [
+            1250,
+            2486,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            2379,
+            1060,
+            334
+          ],
+          "observed_text": "XO , quietacao - :",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:62b7d6f6ef59dc5e6ae40afa26f03c22f879003707a295282e0acdd62f4e8019"
+        },
+        {
+          "id": "c2-l036",
+          "centre_y": 2609,
+          "crop": [
+            1250,
+            2549,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            2442,
+            1060,
+            334
+          ],
+          "observed_text": "Canjo. Secretas. :",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:59d08722a13dc7d6ff06d9d3b137875e075d70754a0d0325d4e1a05fd8ec4b78"
+        },
+        {
+          "id": "c2-l037",
+          "centre_y": 2673,
+          "crop": [
+            1250,
+            2613,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            2506,
+            1060,
+            334
+          ],
+          "observed_text": "CanjO. Cangaye arzuaf.. i. Fitouo fobi",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:c1f25ff1019e529cefb3ead332aa6beac5316cf26e2cb15b79fa17521bcdda15"
+        },
+        {
+          "id": "c2-l038",
+          "centre_y": 2734,
+          "crop": [
+            1250,
+            2674,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            2567,
+            1060,
+            334
+          ],
+          "observed_text": "tiru tuni «Carta de losuores dalguem .",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:028b2ad5f17ecd458d16ed4faa9497dd014401f139caef277de271d7f2a9eb3b"
+        },
+        {
+          "id": "c2-l039",
+          "centre_y": 2797,
+          "crop": [
+            1250,
+            2737,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            2630,
+            1060,
+            334
+          ],
+          "observed_text": "Ts Cee eke",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:a762100ed0f9d594b5ca4139de0370b244a50d03f302c50ad7b091ce81a60f70"
+        },
+        {
+          "id": "c2-l040",
+          "centre_y": 2856,
+          "crop": [
+            1250,
+            2796,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            2689,
+            1060,
+            334
+          ],
+          "observed_text": "asvarzeas , Campos , rc,",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:69db9543c1b4a6c9a69ac0d50a369ed41e4dee70a755b668a44d46ac524679c7"
+        },
+        {
+          "id": "c2-l041",
+          "centre_y": 2920,
+          "crop": [
+            1250,
+            2860,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            2753,
+            1060,
+            334
+          ],
+          "observed_text": "FS ee ae",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:105b9d3078cccf8925214999a6ab2b4010131ca121cbc340d59bd35387cd3330"
+        },
+        {
+          "id": "c2-l042",
+          "centre_y": 2983,
+          "crop": [
+            1250,
+            2923,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            2816,
+            1060,
+            334
+          ],
+          "observed_text": "bra. @ =Canmaiga tatcn. — guer ques",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:3ac1461e32c9036dadc1594d7be394d12b59f67cfac1e9c07e7fc5c6363c4711"
+        },
+        {
+          "id": "c2-l043",
+          "centre_y": 3043,
+          "crop": [
+            1250,
+            2983,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            2876,
+            1060,
+            334
+          ],
+          "observed_text": "Ce Pe",
+          "match": "strong",
+          "assessment": "uncertain",
+          "expected_line_version": "sha256:6a301892c2c40f53c5190ee74e5087e04052e9e5948d655c194d7975d9c54adc",
+          "note": "Geometry visually confirmed; diplomatic reading remains uncertain."
+        },
+        {
+          "id": "c2-l044",
+          "centre_y": 3105,
+          "crop": [
+            1250,
+            3045,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            2938,
+            1060,
+            334
+          ],
+          "observed_text": "Caniman . Causqgi mitgu. Vazar, e ene",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:56ee2c984df872c5c28f86664bb9a6bd1db1ea6a8d66f25c05b9a3f6a276075c"
+        },
+        {
+          "id": "c2-l045",
+          "centre_y": 3169,
+          "crop": [
+            1250,
+            3109,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            3002,
+            1060,
+            334
+          ],
+          "observed_text": "cher amare. Ordinariamente lhe ajuriao'V=!",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:fd7ea3a9f31e8e084395863593a20de5266060761dabfe38faca093f3b8dff3e"
+        },
+        {
+          "id": "c2-l046",
+          "centre_y": 3233,
+          "crop": [
+            1250,
+            3173,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            3066,
+            1060,
+            334
+          ],
+          "observed_text": "xiuo. /t,Vxiuoye canman - Idem. .",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:738f8332dde60dca1525998cc6d0f8927b588178044e1a8ab64643380504f4cf"
+        },
+        {
+          "id": "c2-l047",
+          "centre_y": 3293,
+          "crop": [
+            1250,
+            3233,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            3126,
+            1060,
+            334
+          ],
+          "observed_text": "Canmcn, Xizzucanitcmuu. Seno repone",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:e0f54b8b2a6d6ee5425f95b459a696a8a6ac373519ec38574b168dd93b09da1b"
+        },
+        {
+          "id": "c2-l048",
+          "centre_y": 3346,
+          "crop": [
+            1250,
+            3286,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            3179,
+            1060,
+            334
+          ],
+          "observed_text": "Canmen, Xizzucahi ucniuu, Sono yx",
+          "match": "strong",
+          "assessment": "uncertain",
+          "expected_line_version": "sha256:bb6f4fa13c2271576ce846ebff0eb56e44b0ff5fab2600c783844e097c95fd85",
+          "note": "Geometry visually confirmed; diplomatic reading remains uncertain."
+        }
+      ]
+    }
+  }
+}

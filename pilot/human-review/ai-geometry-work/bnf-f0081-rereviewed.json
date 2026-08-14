@@ -1,0 +1,1954 @@
+{
+  "format": "nippo-ai-line-geometry-response",
+  "format_version": 1,
+  "page": "bnf-f0081",
+  "response_status": "completed_independent_ai_line_review",
+  "observed_text_provenance": "Second-pass geometry re-registration from the supplied scan. The initial proposed geometry was not trusted: each physical line was re-located from the page image, corrected crops were visually swept top-to-bottom, and catchwords/rules were excluded from body-line assignment. Prior independent observed_text was retained only where it still agreed with the corrected physical line; otherwise the corrected crop was reread, with batch OCR used only as a transcription aid after visual line identification. expected_line_version values are preserved unchanged.",
+  "coordinate_space": "native Gallica master pixels",
+  "rectangle_format": "[x, y, width, height]",
+  "source": {
+    "filename": "f0081.jpg",
+    "width": 2672,
+    "height": 3858,
+    "sha256": "b965cf3948dcd2cb60a7b2e7c45de5f613ac258a6bc691a59807388c4b111a67",
+    "gallica_url": "https://gallica.bnf.fr/ark:/12148/bpt6k852354j/f81.item"
+  },
+  "transcription_source": {
+    "page_file": "pilot/format-v1-trial/level1/bnf-f0081.json",
+    "page_file_sha256": "e620102eb63c9208246d4e8352135aa9cb8ac9d5ad8c77b43db1a10d91b496e2"
+  },
+  "columns": {
+    "column-1": {
+      "column_box_xyxy": [
+        180,
+        300,
+        1220,
+        3420
+      ],
+      "zone_ids": [
+        "column-1"
+      ],
+      "initial_geometry_provenance": "contact_sheet_reviewed",
+      "initial_geometry_reviewed_at": "2026-08-01",
+      "geometry_requires_line_by_line_review": false,
+      "lines": [
+        {
+          "id": "c1-l001",
+          "centre_y": 450,
+          "crop": [
+            180,
+            390,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            300,
+            1040,
+            334
+          ],
+          "observed_text": "Camon «lye, cado. Cafa,o4 familia .",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:6311b2ef55e3d005c85f2f23c0cde8874158dc029b8bf6c9912961c3469d5ced"
+        },
+        {
+          "id": "c1-l002",
+          "centre_y": 513,
+          "crop": [
+            180,
+            453,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            346,
+            1040,
+            334
+          ],
+          "observed_text": "Camome, Gaiuota.",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:9719f40505e39b34c777672f356776d8b3552d86b169d180b5d6ac14f9a1ccea"
+        },
+        {
+          "id": "c1-l003",
+          "centre_y": 574,
+          "crop": [
+            180,
+            514,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            407,
+            1040,
+            334
+          ],
+          "observed_text": "Camomeguiri. Modo de cortar lapas, dema-",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:318eab8cea562f04a462ffd1251e0f066d63dd03ca906a03b2cad4c4e8e9e63c"
+        },
+        {
+          "id": "c1-l004",
+          "centre_y": 636,
+          "crop": [
+            180,
+            576,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            469,
+            1040,
+            334
+          ],
+          "observed_text": "neira que arremeda a feicdo.dasgaiuotas .",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:655e8a2cf5c6ee9d846ff3295c67d5f591d1630d4095e4ee8b8071649c9e2ce0"
+        },
+        {
+          "id": "c1-l005",
+          "centre_y": 698,
+          "crop": [
+            180,
+            638,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            531,
+            1040,
+            334
+          ],
+          "observed_text": "Camomejiri. Vt, Camomeyirini catanauo",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:e23c4f9627b33e6ddaa3acf77741c485fef358ee7b6e039474b4c9464dafbb89"
+        },
+        {
+          "id": "c1-l006",
+          "centre_y": 759,
+          "crop": [
+            180,
+            699,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            592,
+            1040,
+            334
+          ],
+          "observed_text": "fal. Cingir catana coma ponte alenitada",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:b327175fe83549e1075f3020aa822965e21eb102ccc7f16c5d750569a8dd7b5d"
+        },
+        {
+          "id": "c1-l007",
+          "centre_y": 820,
+          "crop": [
+            180,
+            760,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            653,
+            1040,
+            334
+          ],
+          "observed_text": "para detrax",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:6c184476161a40a924a9fa999381c9f47be6cf499dcdf684626132ee74dcadd1"
+        },
+        {
+          "id": "c1-l008",
+          "centre_y": 880,
+          "crop": [
+            180,
+            820,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            713,
+            1040,
+            334
+          ],
+          "observed_text": "Camouri . Combelengas.",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:4ced9d632468f2e6329b9e3721783da2e43afe0c7ac765ed655dc5372d53ec5d"
+        },
+        {
+          "id": "c1-l009",
+          "centre_y": 942,
+          "crop": [
+            180,
+            882,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            775,
+            1040,
+            334
+          ],
+          "observed_text": "Canuri . Coroa, ou infignia que fe trax na",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:a6cceea15e7b996be341db57b7b7c3dcdfac3fab14d3f5b18109ba2ba14e3c97"
+        },
+        {
+          "id": "c1-l010",
+          "centre_y": 1002,
+          "crop": [
+            180,
+            942,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            835,
+            1040,
+            334
+          ],
+          "observed_text": "cabega como barrete , Ce .",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:43cae6bbce411e5954542e8ec9e6b3f4d43131f8e783fd74aa1e3c506f4037c4"
+        },
+        {
+          "id": "c1-l011",
+          "centre_y": 1065,
+          "crop": [
+            180,
+            1005,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            898,
+            1040,
+            334
+          ],
+          "observed_text": "Camuriuotoxie Certa laya de feitio de catana.",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:50b50a016180b4c8cd2f523205d4dbe379870d50de7a30f8e0d8bc93e765d09a"
+        },
+        {
+          "id": "c1-l012",
+          "centre_y": 1125,
+          "crop": [
+            180,
+            1065,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            958,
+            1040,
+            334
+          ],
+          "observed_text": "Can. Samuxi. Frialdade, ou frio.",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:f269756b63a61ee5c7e1028e44639c864160968687319c7d3a5a7ba9d26685b3"
+        },
+        {
+          "id": "c1-l013",
+          "centre_y": 1187,
+          "crop": [
+            180,
+            1127,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            1020,
+            1040,
+            334
+          ],
+          "observed_text": "Gan. Vi, Cangatatcu. Diminuirfe 0 arroz",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:5bd7553ea1a39d477a52bd3c700535ac64da54f2dbf1fb4af6211810bf885a0d"
+        },
+        {
+          "id": "c1-l014",
+          "centre_y": 1248,
+          "crop": [
+            180,
+            1188,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            1081,
+            1040,
+            334
+          ],
+          "observed_text": "no medit you nos fardos, ee. Canga",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:b54efa2528efc477e8fd902c6bf8f8d347a26c2666a6e7877a9f78ea58c965dc"
+        },
+        {
+          "id": "c1-l015",
+          "centre_y": 1310,
+          "crop": [
+            180,
+            1250,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            1143,
+            1040,
+            334
+          ],
+          "observed_text": "itasl,catta. Ouue quebra, ou diminuicao",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:6a26ae673aa7ba07ede575e842d180489bb10ba554be74b51cf327dc5c49cd1f"
+        },
+        {
+          "id": "c1-l016",
+          "centre_y": 1371,
+          "crop": [
+            180,
+            1311,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            1204,
+            1040,
+            334
+          ],
+          "observed_text": "no artoz , ou outro legume quefe mede.",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:b70313c124196f635b5da597c24c82e7b118a4b8ef75769853dd27f9c32be186"
+        },
+        {
+          "id": "c1-l017",
+          "centre_y": 1431,
+          "crop": [
+            180,
+            1371,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            1264,
+            1040,
+            334
+          ],
+          "observed_text": "can. Qimo. Figcdo. q Canuo cuda-",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:d8bf877987d193df80f9c9af9484a11266a847075365cedea1368b9822da9d76"
+        },
+        {
+          "id": "c1-l018",
+          "centre_y": 1493,
+          "crop": [
+            180,
+            1433,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            1326,
+            1040,
+            334
+          ],
+          "observed_text": "cue Por as forgas em alguacoufa. q Ca-",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:d58de93c39cc945f841a7acfcacfc17536dd03889655d68275d76763ec5e34a4"
+        },
+        {
+          "id": "c1-l019",
+          "centre_y": 1552,
+          "crop": [
+            180,
+            1492,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            1385,
+            1040,
+            334
+          ],
+          "observed_text": "noyoivina. Canalo forte , visa, o& ese",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:00aaa9de1d5c00aa906de663589fe167dff569abd012f5cb3d203db7791766e0"
+        },
+        {
+          "id": "c1-l020",
+          "centre_y": 1611,
+          "crop": [
+            180,
+            1551,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            1444,
+            1040,
+            334
+          ],
+          "observed_text": "perto no andar.",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:75b02af48b455263843b97773a9342db5bef78ac99f6adff113556b4d7a19b62"
+        },
+        {
+          "id": "c1-l021",
+          "centre_y": 1674,
+          "crop": [
+            180,
+            1614,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            1507,
+            1040,
+            334
+          ],
+          "observed_text": "san. Taité. china.",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:697d75606f20988ab436fb4585a31c4a575c85df8a3fca2082dd2add7540737b"
+        },
+        {
+          "id": "c1-l022",
+          "centre_y": 1736,
+          "crop": [
+            180,
+            1676,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            1569,
+            1040,
+            334
+          ],
+          "observed_text": "ania Certa letra de (apie. q Cananiyh.",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:e4f4d81a6c804d8780a6100a2fb4da944e7ddd3c9b6fd2cc5b4b929893bbcfb2"
+        },
+        {
+          "id": "c1-l023",
+          "centre_y": 1794,
+          "crop": [
+            180,
+            1734,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            1627,
+            1040,
+            334
+          ],
+          "observed_text": "Fala chaamente de maneira @ todos entédéo,",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:f618e4dbd7fb66676e2e64cc7887fdaeae90ef7afdefe78cbf0e5491a41d8927"
+        },
+        {
+          "id": "c1-l024",
+          "centre_y": 1855,
+          "crop": [
+            180,
+            1795,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            1688,
+            1040,
+            334
+          ],
+          "observed_text": "Cana. 0, palaura de admir agao. Vs , Fuxi",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:99ed22fc198af96ce39ab77e67996752977cf027616ffd7641b3c160b61d911d"
+        },
+        {
+          "id": "c1-l025",
+          "centre_y": 1917,
+          "crop": [
+            180,
+            1857,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            1750,
+            1040,
+            334
+          ],
+          "observed_text": "guina cotocana! Ocoufa marauilbofa , ¢",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:5f3645a872184623b473099477f9cb472da06a3175e4f2b7edd890dbd66dcd91"
+        },
+        {
+          "id": "c1-l026",
+          "centre_y": 1959,
+          "crop": [
+            180,
+            1899,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            1792,
+            1040,
+            334
+          ],
+          "observed_text": "grande &",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:4d326144da4557a4752e16ef1d8f1f0b37be5e439cdc1a537d86963a1ebaef0e"
+        },
+        {
+          "id": "c1-l027",
+          "centre_y": 2027,
+          "crop": [
+            180,
+            1967,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            1860,
+            1040,
+            334
+          ],
+          "observed_text": "Sanaabumi . Eftribos de ferro <",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:8579748da13a5d465423b47b4d0644bb476a1a3580dc650b706914909fdb4ee1"
+        },
+        {
+          "id": "c1-l028",
+          "centre_y": 2101,
+          "crop": [
+            180,
+            2041,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            1934,
+            1040,
+            334
+          ],
+          "observed_text": "Canabachi. Bacia delatdo , ow outro metal .",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:ff874d9c44b70c1e5d4767a2abad40a4f5115122a19fa2d79a1c2a9d97bd661e"
+        },
+        {
+          "id": "c1-l029",
+          "centre_y": 2162,
+          "crop": [
+            180,
+            2102,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            1995,
+            1040,
+            334
+          ],
+          "observed_text": "vanabafami» Troquez, ou tanaz",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:4e8aa50fd684daf55a636507c3e0ea3f0a4758b099643f5a7ed9d11d62c90be3"
+        },
+        {
+          "id": "c1-l030",
+          "centre_y": 2223,
+          "crop": [
+            180,
+            2163,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            2056,
+            1040,
+            334
+          ],
+          "observed_text": "Janabaxi. Faxis de metal.",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:557d5c71f5a7d5fea8268290aee894a1ef919f2f69e0efe1f0067652834fbac4"
+        },
+        {
+          "id": "c1-l031",
+          "centre_y": 2281,
+          "crop": [
+            180,
+            2221,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            2114,
+            1040,
+            334
+          ],
+          "observed_text": "Sanabiqi'yu, ijta, Prouar a catana.",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:539a9e9a46b52d3723b1516285ad90dcad17e04a4e1f85fecd779cfb5ad4ea85"
+        },
+        {
+          "id": "c1-l032",
+          "centre_y": 2346,
+          "crop": [
+            180,
+            2286,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            2179,
+            1040,
+            334
+          ],
+          "observed_text": "sanabd + Bordo, on baftio de ferro «",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:248cd77c2404d53fb98429d802e7ddab56e13e234f40bb3fd04bb79a910f49b6"
+        },
+        {
+          "id": "c1-l033",
+          "centre_y": 2406,
+          "crop": [
+            180,
+            2346,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            2239,
+            1040,
+            334
+          ],
+          "observed_text": "vanabumi. Carta efcrita com fetva cana «",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:1aa5bfebf9a106e5cd1868df54c3fda9ec124ee48ef0fb5d29a8a4b932686a6e"
+        },
+        {
+          "id": "c1-l034",
+          "centre_y": 2468,
+          "crop": [
+            180,
+            2408,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            2301,
+            1040,
+            334
+          ],
+          "observed_text": "vanacage, i, Fegui. Hiias taboinbas quadrae",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:1a802e96a13d221e070606369d0afd2e730b05d5ec293cadff483fe7c1f73129"
+        },
+        {
+          "id": "c1-l035",
+          "centre_y": 2529,
+          "crop": [
+            180,
+            2469,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            2362,
+            1040,
+            334
+          ],
+          "observed_text": "das folre que leudo algiia coufs d meja, ou",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:bb722f30dbec0d7ce420b1b9123bf12ab3d3ef700f274c093ad5fa0c0bcf49a4"
+        },
+        {
+          "id": "c1-l036",
+          "centre_y": 2589,
+          "crop": [
+            180,
+            2529,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            2422,
+            1040,
+            334
+          ],
+          "observed_text": "poem facazzugt, Oc,",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:3754e4bd5a6edd89523043d6bbae54caa1e716b5dcab05d8c97260b29f0ce172"
+        },
+        {
+          "id": "c1-l037",
+          "centre_y": 2645,
+          "crop": [
+            180,
+            2585,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            2478,
+            1040,
+            334
+          ],
+          "observed_text": "“sete + Pregos de ferro.",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:c91ccb76c6855dc1916d93b2adfa45e288a9338c4a0208b6e98d732bd160362b"
+        },
+        {
+          "id": "c1-l038",
+          "centre_y": 2714,
+          "crop": [
+            180,
+            2654,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            2547,
+            1040,
+            334
+          ],
+          "observed_text": "anaculai. Coufa que tem cheiro , ou fabor de",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:6d4603bcc9b9571b1b32cdd83dad25fdd959e721c708721914e1c3df84543814"
+        },
+        {
+          "id": "c1-l039",
+          "centre_y": 2775,
+          "crop": [
+            180,
+            2715,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            2608,
+            1040,
+            334
+          ],
+          "observed_text": "ferro y 04 outro metal.",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:07cabc603f6c8ed35494368eb4e40ad1de9b88e47738f45b58e6b202689c666b"
+        },
+        {
+          "id": "c1-l040",
+          "centre_y": 2828,
+          "crop": [
+            180,
+            2768,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            2661,
+            1040,
+            334
+          ],
+          "observed_text": "anactifl « Efcorias do ferro .",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:bb9e5bbdcedbd1523260e1e43ea82d66084c32a99908b51d5fbc8d17e81b834d"
+        },
+        {
+          "id": "c1-l041",
+          "centre_y": 2900,
+          "crop": [
+            180,
+            2840,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            2733,
+            1040,
+            334
+          ],
+          "observed_text": "anacuzzu. Limaduras de prata, ouro, ou’",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:94be6b894ea04d23fb13706897e1d34785b1c8adc294c762d393a9e128811050"
+        },
+        {
+          "id": "c1-l042",
+          "centre_y": 2957,
+          "crop": [
+            180,
+            2897,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            2790,
+            1040,
+            334
+          ],
+          "observed_text": "outro metal.",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:4511599af8c2a17b659a2e0b449d6567be80e0d2a5bd8bee5b7db6794feeaf6d"
+        },
+        {
+          "id": "c1-l043",
+          "centre_y": 3020,
+          "crop": [
+            180,
+            2960,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            2853,
+            1040,
+            334
+          ],
+          "observed_text": "anadoricaua. Tiras de metal com que en!",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:710c19bbd0f791b03fd3c7664ddb9a827dad0312418a07807cb86e53722dc272"
+        },
+        {
+          "id": "c1-l044",
+          "centre_y": 3082,
+          "crop": [
+            180,
+            3022,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            2915,
+            1040,
+            334
+          ],
+          "observed_text": "buruibio , & amarréo os punbos da catana'",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:4105c730b3c76d52a16a4b339ec5dfad83b78132641db16148a5e46c5011398d"
+        },
+        {
+          "id": "c1-l045",
+          "centre_y": 3131,
+          "crop": [
+            180,
+            3071,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            2964,
+            1040,
+            334
+          ],
+          "observed_text": "em lugar de correas ,",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:a10952a5d90ea720ff9b5693515d3dd4465325e7d69eb6c81b0ff28228562721"
+        },
+        {
+          "id": "c1-l046",
+          "centre_y": 3201,
+          "crop": [
+            180,
+            3141,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            3034,
+            1040,
+            334
+          ],
+          "observed_text": "‘anadoro « . Alenterna de metal ,",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:82ca3ad1fb163a1dec0a432fafe44b7c38e83a590998f952b666e150cfdc6598"
+        },
+        {
+          "id": "c1-l047",
+          "centre_y": 3269,
+          "crop": [
+            180,
+            3209,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            3102,
+            1040,
+            334
+          ],
+          "observed_text": "anafangut. Letras de metal que feruem na",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:23b98f12df0b079f61c1478ea2473544ef5276413f4eb0e582000a598f5957c0"
+        },
+        {
+          "id": "c1-l048",
+          "centre_y": 3326,
+          "crop": [
+            180,
+            3266,
+            1040,
+            120
+          ],
+          "context_crop": [
+            180,
+            3159,
+            1040,
+            334
+          ],
+          "observed_text": "emprenfa,",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:32870df5514c64fa477c2e8ffd6ffda2b536c8986cb4c98993268fe4ae36a808"
+        }
+      ]
+    },
+    "column-2": {
+      "column_box_xyxy": [
+        1250,
+        300,
+        2310,
+        3420
+      ],
+      "zone_ids": [
+        "column-2"
+      ],
+      "initial_geometry_provenance": "contact_sheet_reviewed",
+      "initial_geometry_reviewed_at": "2026-08-01",
+      "geometry_requires_line_by_line_review": false,
+      "lines": [
+        {
+          "id": "c2-l001",
+          "centre_y": 450,
+          "crop": [
+            1250,
+            390,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            300,
+            1060,
+            334
+          ],
+          "observed_text": "Canafibachi. Fogareito de metal.",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:c1e2f7803ed9a5e2f6a27e2ee6f4681b42ef55ac2e03ec5882928dc36c5b2577"
+        },
+        {
+          "id": "c2-l002",
+          "centre_y": 511,
+          "crop": [
+            1250,
+            451,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            344,
+            1060,
+            334
+          ],
+          "observed_text": "Canafifague. Vazo com que deitéo ag04 qué’",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:589774f5b144f4f17f6f1813ac10d06ba152d4c6d521b1fcacac79e9e6c88693"
+        },
+        {
+          "id": "c2-l003",
+          "centre_y": 572,
+          "crop": [
+            1250,
+            512,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            405,
+            1060,
+            334
+          ],
+          "observed_text": "tedmeZa,ou agoads maos , ec. :",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:0cc9bc41c94a3d0d268bcc5b218175e13f4405dca623454343291d14cdb6995a"
+        },
+        {
+          "id": "c2-l004",
+          "centre_y": 637,
+          "crop": [
+            1250,
+            577,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            470,
+            1060,
+            334
+          ],
+          "observed_text": "Canagai. Ouro, prata , latdo , ce. que fe me",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:696ad49718cee8ce4dbc985618c88185ed4205f5facf82ef108502a3f1815b36"
+        },
+        {
+          "id": "c2-l005",
+          "centre_y": 696,
+          "crop": [
+            1250,
+            636,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            529,
+            1060,
+            334
+          ],
+          "observed_text": "te como Isuor ems metal aberio , ou em coufa",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:3105933bd1401fc0a566df00a33f7640793256a52f52241841b9fd2866379c15"
+        },
+        {
+          "id": "c2-l006",
+          "centre_y": 761,
+          "crop": [
+            1250,
+            701,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            594,
+            1060,
+            334
+          ],
+          "observed_text": "‘uruxada como bainba, gs. q Canagai",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:e7bba113908e9e2741b718e65d9716dffe7d1698dac16927e50487d6cc5d26f6"
+        },
+        {
+          "id": "c2-l007",
+          "centre_y": 822,
+          "crop": [
+            1250,
+            762,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            655,
+            1060,
+            334
+          ],
+          "observed_text": "uotruru. Afentar eftes lauoresde ouro, ow",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:07503f8e4c919236f016232a2dbde1de17fbe591dc3ea5e55e4a508deb52dcf3"
+        },
+        {
+          "id": "c2-l008",
+          "centre_y": 884,
+          "crop": [
+            1250,
+            824,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            717,
+            1060,
+            334
+          ],
+          "observed_text": "outro metal, .",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:c42f0b817743a739cdae1438f795c6e5ce0e805765c4d4621954349974d380a8"
+        },
+        {
+          "id": "c2-l009",
+          "centre_y": 944,
+          "crop": [
+            1250,
+            884,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            777,
+            1060,
+            334
+          ],
+          "observed_text": "Canagaxira, ‘Nome de bum peixe do mar.",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:bd0d589e489206413e22947a7b06847446adcb933a83ed3b6559fa418d20cf51"
+        },
+        {
+          "id": "c2-l010",
+          "centre_y": 1010,
+          "crop": [
+            1250,
+            950,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            843,
+            1060,
+            334
+          ],
+          "observed_text": "Canagino qinran . Certa laya de pecus cos",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:f0d78cddf66e561f13b6caf48050f6808727756a5ce8545b352d4a36cbe95423"
+        },
+        {
+          "id": "c2-l011",
+          "centre_y": 1072,
+          "crop": [
+            1250,
+            1012,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            905,
+            1060,
+            334
+          ],
+          "observed_text": "mo brocado . 3",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:602787ba028811babc6158458c8a15dbb79f8ed4140b54b28facb0813f48d0b5"
+        },
+        {
+          "id": "c2-l012",
+          "centre_y": 1133,
+          "crop": [
+            1250,
+            1073,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            966,
+            1060,
+            334
+          ],
+          "observed_text": "Sanat « Aparelbe , ou petrecbos fetios de",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:2e21e232efe41ac70360aeaf9954b915e5f387cd7a47b89781edf4a101e961fd"
+        },
+        {
+          "id": "c2-l013",
+          "centre_y": 1175,
+          "crop": [
+            1250,
+            1115,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            1008,
+            1060,
+            334
+          ],
+          "observed_text": "“spt TET! eo vepeune va por ewussy pOEGT ac",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:5f480e0ecadc5ae42b3062d4570a809a34fb1edfbe4eeac2b20a5169833725b5"
+        },
+        {
+          "id": "c2-l014",
+          "centre_y": 1253,
+          "crop": [
+            1250,
+            1193,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            1086,
+            1060,
+            334
+          ],
+          "observed_text": "Cwaguri suru, urea. Arrepellar. V%,Ca",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:dc9234460e1ffdf5563f4ce5709afe0963e97355e32965a2794324bcab64c1f6"
+        },
+        {
+          "id": "c2-l015",
+          "centre_y": 1317,
+          "crop": [
+            1250,
+            1257,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            1150,
+            1060,
+            334
+          ],
+          "observed_text": "_, Muocanagure. Aryepellar os cabellor.",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:48a6fc8d566955e34c5f10734ee9002ac1affac42e302e05bb2d205e1f5c7cfd"
+        },
+        {
+          "id": "c2-l016",
+          "centre_y": 1381,
+          "crop": [
+            1250,
+            1321,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            1214,
+            1060,
+            334
+          ],
+          "observed_text": "Canagurifie ,tgura,tcta- Firar , eo lane",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:ea11a2c6c6cf46eb86506768375a6d8c57c8303234a6b1f5cde71a7ab6f2952d"
+        },
+        {
+          "id": "c2-l017",
+          "centre_y": 1442,
+          "crop": [
+            1250,
+            1382,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            1275,
+            1060,
+            334
+          ],
+          "observed_text": "$4 fora como eruas , ou coula que ela pegada.",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:81d3235c9e50a6e0ac7497f5c232b943617259caa0b821ab08fb3eceb023b48d"
+        },
+        {
+          "id": "c2-l018",
+          "centre_y": 1503,
+          "crop": [
+            1250,
+            1443,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            1336,
+            1060,
+            334
+          ],
+          "observed_text": "Canaguritori, ru. otta. Tomar por cen",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:499b44f2f1085af593561edc5869170b1bbb867acfdfa381ad18b2c9949d6b3b"
+        },
+        {
+          "id": "c2-l019",
+          "centre_y": 1564,
+          "crop": [
+            1250,
+            1504,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            1397,
+            1060,
+            334
+          ],
+          "observed_text": "arrebatando.",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:160f8a3f72e931065ffb284e088a564f32ff5388f1fff7c1e1084d244ba59ffd"
+        },
+        {
+          "id": "c2-l020",
+          "centre_y": 1628,
+          "crop": [
+            1250,
+            1568,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            1461,
+            1060,
+            334
+          ],
+          "observed_text": "‘Canagulai, Cadea de ferro «",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:41b5db25aa3331a885749b812ce056ef00329025ba0dfb449c218546cd559d86"
+        },
+        {
+          "id": "c2-l021",
+          "centre_y": 1691,
+          "crop": [
+            1250,
+            1631,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            1524,
+            1060,
+            334
+          ],
+          "observed_text": "Canal, 6, ota. Poders @ Item, Come",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:40569859242216ee02994142e439c21a3f8d10b9b296f09d27d0168243e9de87"
+        },
+        {
+          "id": "c2-l022",
+          "centre_y": 1752,
+          "crop": [
+            1250,
+            1692,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            1585,
+            1060,
+            334
+          ],
+          "observed_text": "prife , ou effettuarfe como defejo,voto , ec.",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:b0f7f42c0e9c68db8794e295fe5421710e3417a79cfd7bf426d56e6957e15d68"
+        },
+        {
+          "id": "c2-l023",
+          "centre_y": 1813,
+          "crop": [
+            1250,
+            1753,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            1646,
+            1060,
+            334
+          ],
+          "observed_text": "Vt, Nozomt, 1; guanga canéta- ‘Com",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:663040d9dc26cb9122afd0984c8fcb58a18d549bc2dadfbc36205c9ab7c001af"
+        },
+        {
+          "id": "c2-l024",
+          "centre_y": 1876,
+          "crop": [
+            1250,
+            1816,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            1709,
+            1060,
+            334
+          ],
+          "observed_text": "priofe o defejoou voto. q Item, Contentar",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:e8b9ecd5af901ce19fae5cb3947b704ed571d9d251e5b90cb45cb09faf4ae2c8"
+        },
+        {
+          "id": "c2-l025",
+          "centre_y": 1934,
+          "crop": [
+            1250,
+            1874,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            1767,
+            1060,
+            334
+          ],
+          "observed_text": "& quidrar. Vt, Cocoroni cand, gM;",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:ba6a74e6532642503c363d4d2a17fdbc0276ff092de175b02410495945765e06"
+        },
+        {
+          "id": "c2-l026",
+          "centre_y": 1997,
+          "crop": [
+            1250,
+            1937,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            1830,
+            1060,
+            334
+          ],
+          "observed_text": "_ chinicanétacoto , 1, aicandta cote . Cous",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:2af1b86d29191f1ed61e2f58349fda640c2380be029a0aa5cf1983017d000aa5"
+        },
+        {
+          "id": "c2-l027",
+          "centre_y": 2059,
+          "crop": [
+            1250,
+            1999,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            1892,
+            1060,
+            334
+          ],
+          "observed_text": "S4 conforme 4 rezaoy ow conforme d vegra dal",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:ef65e5e8b8d8472332b927451d38f9477d594e5c52543876b243fedc50ae51e8"
+        },
+        {
+          "id": "c2-l028",
+          "centre_y": 2103,
+          "crop": [
+            1250,
+            2043,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            1936,
+            1060,
+            334
+          ],
+          "observed_text": "iia arte particular . 4",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:dbd0e3f84d883c76fa5d73685f9586f2ea70880e621945156ace021469dd7e52"
+        },
+        {
+          "id": "c2-l029",
+          "centre_y": 2179,
+          "crop": [
+            1250,
+            2119,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            2012,
+            1060,
+            334
+          ],
+          "observed_text": "Canaicari. Ancova de ferro.",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:714ee80eae2dbf4a2d4ccbfab471330eaf3d827cfe0d4225b720a89e81341705"
+        },
+        {
+          "id": "c2-l030",
+          "centre_y": 2244,
+          "crop": [
+            1250,
+            2184,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            2077,
+            1060,
+            334
+          ],
+          "observed_text": "Canairo. Vazo de metalcom que deitéo agoa",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:6a31bfabd6d2132b5ca99ee1b9977e6f3bdbb770ce7627571270362f7bd581d4"
+        },
+        {
+          "id": "c2-l031",
+          "centre_y": 2306,
+          "crop": [
+            1250,
+            2246,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            2139,
+            1060,
+            334
+          ],
+          "observed_text": "quente 4 meza, ou dao 204 ds maos 3 Cte",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:639fee51c2c49f395570d1fb5967e07a51be19fd0cfba0de55a445d9f34aa0af"
+        },
+        {
+          "id": "c2-l032",
+          "centre_y": 2369,
+          "crop": [
+            1250,
+            2309,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            2202,
+            1060,
+            334
+          ],
+          "observed_text": "Canamage. Vi, Canamaqeuo firu fito.",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:ecee2ec1a1da178b38b05498e402b2432cb825faea6e04be2bed4d75da406ef7"
+        },
+        {
+          "id": "c2-l033",
+          "centre_y": 2432,
+          "crop": [
+            1250,
+            2372,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            2265,
+            1060,
+            334
+          ],
+          "observed_text": "Homem que lhe faz mal jou be contrario oferro,",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:8833c42f8f8cf6ed139622c66b17349666077750e7c5fcb333aa5ce81617d265"
+        },
+        {
+          "id": "c2-l034",
+          "centre_y": 2493,
+          "crop": [
+            1250,
+            2433,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            2326,
+            1060,
+            334
+          ],
+          "observed_text": "Ouarms , %& nao fara facilmense da ferica",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:231723f33ff3bd82878ef61b69d1515e9f67ad7482eb2b568ceb636595b82776"
+        },
+        {
+          "id": "c2-l035",
+          "centre_y": 2554,
+          "crop": [
+            1250,
+            2494,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            2387,
+            1060,
+            334
+          ],
+          "observed_text": "gté. X.No Cami fe diz Qizuyami, 1, qi",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:ae84cb446d49ff0bd6e14f8c3f0fddab2058ea01d94e8a280f3b2c7b4ed5d626"
+        },
+        {
+          "id": "c2-l036",
+          "centre_y": 2619,
+          "crop": [
+            1250,
+            2559,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            2452,
+            1060,
+            334
+          ],
+          "observed_text": "zuyamaiuo faru fico.",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:b0a5edd6fdabb128b5687bd55a7f4478c204e3534eec1ca9c3e64fcff89bd00d"
+        },
+        {
+          "id": "c2-l037",
+          "centre_y": 2680,
+          "crop": [
+            1250,
+            2620,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            2513,
+            1060,
+            334
+          ],
+          "observed_text": "Caname. Eixo , ou parafufo do abano. @ Tié,",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:4ce8850dbc66062fdb9e1ad64967071bf3487e3e1a54b9e487bcee42c041edd2"
+        },
+        {
+          "id": "c2-l038",
+          "centre_y": 2743,
+          "crop": [
+            1250,
+            2683,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            2576,
+            1060,
+            334
+          ],
+          "observed_text": "Permet~ Coufafolida, & em que np 0",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:d47123ba7ca47e546526161c46a697d8488c07194ae1aeae51f1b56813ed11ee"
+        },
+        {
+          "id": "c2-l039",
+          "centre_y": 2809,
+          "crop": [
+            1250,
+            2749,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            2642,
+            1060,
+            334
+          ],
+          "observed_text": "negocio. Vt, Corega canamede gozaru.",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:356fc143e4d21397943f9b03551c8284712ff873a548df449b8e6dc242e0d579"
+        },
+        {
+          "id": "c2-l040",
+          "centre_y": 2865,
+          "crop": [
+            1250,
+            2805,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            2698,
+            1060,
+            334
+          ],
+          "observed_text": "Ifto be o effencial , oem que cofiste a coufa.",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:a886e8e8443b1e5ff823fcf190435dd63a76736af4e392f0d853b7743528aec7"
+        },
+        {
+          "id": "c2-l041",
+          "centre_y": 2930,
+          "crop": [
+            1250,
+            2870,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            2763,
+            1060,
+            334
+          ],
+          "observed_text": "Canamono. Ferros , on chapas de metal , cos",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:5b0d1c2b8924a53da7bfdd4dbd97cf31bd6628ac51814961805c2fc6b516a12f"
+        },
+        {
+          "id": "c2-l042",
+          "centre_y": 2985,
+          "crop": [
+            1250,
+            2925,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            2818,
+            1060,
+            334
+          ],
+          "observed_text": "bre, Ge.",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:32cc31fa59f7cb9bdd62db2583b2cddde0bb794de0e0acc5760d6d098e08eb6d"
+        },
+        {
+          "id": "c2-l043",
+          "centre_y": 3052,
+          "crop": [
+            1250,
+            2992,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            2885,
+            1060,
+            334
+          ],
+          "observed_text": "Canarazu. Ady. De certo, ou em todo cafo.",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:8978d216e267f1b7d7f3d5ed08b68cc4ce87511f8dd56de803392a7626aef623"
+        },
+        {
+          "id": "c2-l044",
+          "centre_y": 3109,
+          "crop": [
+            1250,
+            3049,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            2942,
+            1060,
+            334
+          ],
+          "observed_text": "Canalaibd- Borda de ferro",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:24746ace0cfa5c57c3ac1baa7c0b6eaf74ea6dc4f737c2a1d655eb61eb483281"
+        },
+        {
+          "id": "c2-l045",
+          "centre_y": 3177,
+          "crop": [
+            1250,
+            3117,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            3010,
+            1060,
+            334
+          ],
+          "observed_text": "Canaluzzugi.i. Canagauarage . Certa fei-",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:1a33776fa5956bd70c87a33a8194a275316df530a29baa85abc0beace61eb56a"
+        },
+        {
+          "id": "c2-l046",
+          "centre_y": 3237,
+          "crop": [
+            1250,
+            3177,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            3070,
+            1060,
+            334
+          ],
+          "observed_text": "§4 de candiciros comoteftos. X -",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:df147d2897c78c8e24166c4b33fbab63b2342c40ea81c09620dac8d5da72791a"
+        },
+        {
+          "id": "c2-l047",
+          "centre_y": 3303,
+          "crop": [
+            1250,
+            3243,
+            1060,
+            120
+          ],
+          "context_crop": [
+            1250,
+            3136,
+            1060,
+            334
+          ],
+          "observed_text": "Canata conatas 4du. Deca perala.",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:d653f815dbe14e15f02ea07f0a4cac68d51c60608569b7b915d40d16d5359ee2"
+        }
+      ]
+    }
+  }
+}

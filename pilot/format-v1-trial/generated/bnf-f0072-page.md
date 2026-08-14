@@ -21,7 +21,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l005` | Caco. *Peſcoço, ou parte ſuperior do eſtribo.* |  |
 | `c1-l006` | Caco. i. Funaxu. *Marinheiros.* |  |
 | `c1-l007` | Cacochi, tçu, otta. *Deſgoſtar, ou aqueixar* |  |
-| `c1-l008` | &emsp;*ſe conſigo ſó. vt,* Vagamino cacotçu. *A-* |  |
+| `c1-l008` | &emsp;*ſe conſigo ſó. vt,* Vagamiuo cacotçu. *A-* |  |
 | `c1-l009` | &emsp;*queixarſe de ſi meſmo.* |  |
 | `c1-l010` | Cacoi, ô, ôta. *Concertar, ou reparar como* |  |
 | `c1-l011` | &emsp;*caſa &c. ¶ Item, Cercar com vallo, trã-* |  |
