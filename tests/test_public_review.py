@@ -59,6 +59,20 @@ class PublicReviewRegressionTests(unittest.TestCase):
         self.assertIn("event.preventDefault()", app)
         self.assertIn(".character-palette", styles)
 
+    def test_line_editor_supports_lightweight_roman_spans(self):
+        app = (ROOT / "site" / "app.js").read_text(encoding="utf-8")
+        styles = (ROOT / "site" / "styles.css").read_text(encoding="utf-8")
+        workflow = (ROOT / "docs" / "human-review-workflow.md").read_text(encoding="utf-8")
+        issue_template = (ROOT / ".github" / "ISSUE_TEMPLATE" / "transcription-correction.md").read_text(encoding="utf-8")
+        self.assertIn("function parseRomanNotation(value)", app)
+        self.assertIn("function proposalMatchesLine(line, annotatedText)", app)
+        self.assertIn("function styledRomanDiff(line, proposal)", app)
+        self.assertIn("function applyRomanSpan(area)", app)
+        self.assertIn('data-action="roman-span"', app)
+        self.assertIn(".roman-span-key", styles)
+        self.assertIn("`[Fotoqe]`", workflow)
+        self.assertIn("`[Fotoqe]`", issue_template)
+
     def test_page_view_has_explicit_overview_control(self):
         app = (ROOT / "site" / "app.js").read_text(encoding="utf-8")
         document = (ROOT / "site" / "index.html").read_text(encoding="utf-8")
