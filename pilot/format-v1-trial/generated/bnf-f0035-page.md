@@ -47,7 +47,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l031` | &emsp;*reiro o ferro mal, & imperfeitamente. ¶ Itẽ,* |  |
 | `c1-l032` | &emsp;*Desbaſtar com enxò amadeira, &c.* |  |
 | `c1-l033` | Arauchina fito. *Homem inculto, & ruſtico,* |  |
-| `c1-l034` | &emsp;*que nada faz com ſoçego nem com graça.* |  |
+| `c1-l034` | &emsp;*que nada faz com ſocego nem com graça.* |  |
 | `c1-l035` | Ara vma. *Caualo brauo, & indomito.* |  |
 | `c1-l036` | Ara vma nori. *Caualgador de caualo brauo.* |  |
 | `c1-l037` | Araxe, ſuru, eta. *Fazer auer, ou mandar* |  |
