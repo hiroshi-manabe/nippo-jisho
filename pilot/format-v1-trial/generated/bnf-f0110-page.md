@@ -38,7 +38,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l022` | &emsp;*em preſença: mas depois não continua, ou ſe* |  |
 | `c1-l023` | &emsp;*eſquece.* |  |
 | `c1-l024` | Chôcô. i. Teiuôno xinca. *Criado do Rei.* |  |
-| `c1-l025` | Chôcon. Axita cure. *Pola manhãa, & à* |  |
+| `c1-l025` | Chôcon. Axita cure. *Pola manhaã, & à* |  |
 | `c1-l026` | &emsp;*tarde. P.* |  |
 | `c1-l027` | Chocqio. Teiuôno von yuruxi. *Perdão del* |  |
 | `c1-l028` | &emsp;*Rei.* |  |

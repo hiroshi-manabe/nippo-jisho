@@ -19,10 +19,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1a-l003` | &emsp;*Idem.* |  |
 | `c1a-l004` | Axi ſuzume, l, Yoxiuara ſuzume. *Hum* |  |
 | `c1a-l005` | &emsp;*paſſaro mayor que pardal de cor cinzenta.* |  |
-| `c1a-l006` | Axita. i. Aſa. *Polamanhãa.* |  |
+| `c1a-l006` | Axita. i. Aſa. *Polamanhaã.* |  |
 | `c1a-l007` | Axitacagumo. *Hũa eſpecie de aranhas de* |  |
 | `c1a-l008` | &emsp;*pees muito compridos.* |  |
-| `c1a-l009` | Axitatô. *Aduer. Polamanhãa cedo.* |  |
+| `c1a-l009` | Axitatô. *Aduer. Polamanhaã cedo.* |  |
 | `c1a-l010` | Axitazzu. i. tçuru. *Grow.* |  |
 | `c1a-l011` | Axitçuqe. *Bandeja alta com pès como meza.* |  |
 | `c1a-l012` | Axiuara, l, yoxiuara. *Lugar de muitos caniços.* |  |

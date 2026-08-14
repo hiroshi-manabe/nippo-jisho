@@ -43,7 +43,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l027` | Chǒrǒ. *Dignidade principal entre os Bonzos:* |  |
 | `c1-l028` | &emsp;*ou Bonzos deſta dignidade.* |  |
 | `c1-l029` | Chôrô. Azaqeri, u. *Eſcarnecer.* |  |
-| `c1-l030` | Chôro. Axitano tçuyu. *Orualho da manhãa.* |  |
+| `c1-l030` | Chôro. Axitano tçuyu. *Orualho da manhaã.* |  |
 | `c1-l031` | Chorocu. Inoxixi, canoxixi. *Porco do ma-* |  |
 | `c1-l032` | &emsp;*to, & veado.* |  |
 | `c1-l033` | Chôrui. Torino taguy. *Eſpecie, ou genero* |  |
@@ -55,7 +55,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l039` | &emsp;buſuo chôsai ſuru. *Temperar, & concer-* |  |
 | `c1-l040` | &emsp;*tar o comer.* |  |
 | `c1-l041` | Chôsainin. *O que faz, ou tempera o comer.* |  |
-| `c1-l042` | Chôsan. Axita mairu. *O ir polla manhãa a to-* |  |
+| `c1-l042` | Chôsan. Axita mairu. *O ir polla manhaã a to-* |  |
 | `c1-l043` | &emsp;*mar os pontos de meditação. ¶ Boſan. O ir* |  |
 | `c1-l044` | &emsp;*à tarde dar conta deſtes pontos. ſenxii.* |  |
 | `c1-l045` | Chotan. Inoxixino qimo. *Figado, ou bofes* |  |
@@ -98,7 +98,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l023` | &emsp;*dentro nos paſſos del Rei.* |  |
 | `c2-l024` | Chôxen. Tçuribune. *Embarcação peſca-* |  |
 | `c2-l025` | &emsp;*reza.* |  |
-| `c2-l026` | Chôxeqi. Aſa yŭ. *Polla manhãa, & à tarde.* |  |
+| `c2-l026` | Chôxeqi. Aſa yŭ. *Polla manhaã, & à tarde.* |  |
 | `c2-l027` | Chǒxi. Sôriôgo. *Filho morgado.* |  |
 | `c2-l028` | Chôxi. *Vazo de deitar vinho que ſerue no* |  |
 | `c2-l029` | &emsp;*zaxiqi.* |  |

@@ -108,7 +108,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l028` | &emsp;*portunidade, &c.* |  |
 | `c2-l029` | Chǒbiǒ. Nagaqi vazzurai. *Doença cõprida.* |  |
 | `c2-l030` | Chôbǒ. *Viſta apraziuel.* |  |
-| `c2-l031` | Chôbo. Aſayŭ. *Polla menhãa, & à tarde.* |  |
+| `c2-l031` | Chôbo. Aſayŭ. *Polla menhaã, & à tarde.* |  |
 | `c2-l032` | Chǒbon. *Cabeça, ou principio. Vt,* Areua |  |
 | `c2-l033` | &emsp;mutonninno chǒbongia. *Aquelle he a ca-* |  |
 | `c2-l034` | &emsp;*beça, & capitão dos tredos.* |  |
@@ -124,7 +124,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l044` | &emsp;*poderarſe do imperio. ¶* Chôcani tçuca- |  |
 | `c2-l045` | &emsp;uaruru. *Seruir ao Rei.* |  |
 | `c2-l046` | Chôca. Aſa caſumi. *Neuoeiro de polla me-* |  |
-| `c2-l047` | &emsp;*nhãa.* |  |
+| `c2-l047` | &emsp;*nhaã.* |  |
 
 ## Printed signature
 

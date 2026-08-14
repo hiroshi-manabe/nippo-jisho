@@ -36,7 +36,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l020` | &emsp;*vaca, & ſerue de mezinha.* |  |
 | `c1-l021` | Aqeuatari, ru, atta. *Amanhecer de todo, ou* |  |
 | `c1-l022` | &emsp;*aclarar odia. ¶* Aqeuataru ſora. *Me-* |  |
-| `c1-l023` | &emsp;*nhãa clara.* |  |
+| `c1-l023` | &emsp;*nhaã clara.* |  |
 | `c1-l024` | Aqi. *Outono. ¶* Aqi fuquru, l, taqu- |  |
 | `c1-l025` | &emsp;ru. P. *Ter paſſado boa parte do Outo-* |  |
 | `c1-l026` | &emsp;*no. ¶* Aqiga tatçu. *Começarſe o Outo-* |  |

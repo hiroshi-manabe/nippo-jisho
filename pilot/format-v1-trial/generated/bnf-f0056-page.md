@@ -73,7 +73,7 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c2-l001` | &emsp;*ou fermoſa.* |  |
-| `c2-l002` | Bimei. Imada aqezu. *Ante manhãa.* |  |
+| `c2-l002` | Bimei. Imada aqezu. *Ante manhaã.* |  |
 | `c2-l003` | Bimi. Vmai agiuai. *Suaue goſto.* |  |
 | `c2-l004` | Bimô. i. Mayuno qe, l, mique. *Sobrã-* |  |
 | `c2-l005` | &emsp;*çelhas.* |  |

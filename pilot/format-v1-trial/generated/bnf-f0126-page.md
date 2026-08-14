@@ -37,7 +37,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l021` | &emsp;*za, ou condição.* |  |
 | `c1-l022` | Conjǒ. *Tinta azul eſcura de pintar.* |  |
 | `c1-l023` | Conjǒ. *Eſte mundo, ou eſta vida preſente.* |  |
-| `c1-l024` | Conmiǒnichi. *Oje, ou amenhãa.* |  |
+| `c1-l024` | Conmiǒnichi. *Oje, ou amenhaã.* |  |
 | `c1-l025` | Connen. Cotoxi. *Eſte anno.* |  |
 | `c1-l026` | Connhacu. *Hũa certa raiz groſſa que ſe come.* |  |
 | `c1-l027` | Connichi. qiǒ. *Oje.* |  |

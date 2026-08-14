@@ -28,7 +28,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l012` | &emsp;*caſeira, &c.* |  |
 | `c1-l013` | Chôga. Atuyamaino na. *Hũa certa doença.* |  |
 | `c1-l014` | Chôgai. Coyuru caguiri. *Toda a vida.* |  |
-| `c1-l015` | Chôguet. Axitano tçuqij. *Lũa de polla manhãa.* |  |
+| `c1-l015` | Chôguet. Axitano tçuqij. *Lũa de polla manhaã.* |  |
 | `c1-l016` | Chôgui. Totonoyuru gui. *Ardil, ou in-* |  |
 | `c1-l017` | &emsp;*uenção. Vt,* Chôguiuo ſuru. *Fazer ar-* |  |
 | `c1-l018` | &emsp;*dil. ¶* Chôguiuo auaſuru. *Fazer q̃* |  |
@@ -83,7 +83,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l003` | Chǒjibucuro. *Saquinho de Crauo que metem* |  |
 | `c2-l004` | &emsp;*dentro no forro do veſtido.* |  |
 | `c2-l005` | Chǒjit. Nagai fi. *Dia comprido.* |  |
-| `c2-l006` | Chôjit. Aſa fi. *Sol de polla manhãa.* |  |
+| `c2-l006` | Chôjit. Aſa fi. *Sol de polla manhaã.* |  |
 | `c2-l007` | Chǒjǒ. Itadaqino vye. *Cucuruta da cabeça.* |  |
 | `c2-l008` | &emsp;*¶ Item, permet, couſa ſuprema, & excel-* |  |
 | `c2-l009` | &emsp;*lente.* |  |

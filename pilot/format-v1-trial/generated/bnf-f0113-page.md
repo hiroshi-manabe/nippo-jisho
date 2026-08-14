@@ -18,16 +18,16 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l002` | Chôxǔ. Tçuribune. *Embarcação peſcareza.* |  |
 | `c1-l003` | Chǒya. Nagai yo. *Noite comprida.* |  |
 | `c1-l004` | Chôyei. Axitani ſacôru. *O florecer polla me-* |  |
-| `c1-l005` | &emsp;*nhãa. Vt,* Vqiyono ariſamauà, maco- |  |
+| `c1-l005` | &emsp;*nhaã. Vt,* Vqiyono ariſamauà, maco- |  |
 | `c1-l006` | &emsp;toni chôyei horacu. *A maneira do mũ-* |  |
-| `c1-l007` | &emsp;*do he como flor de polla manhãa que logo à* |  |
+| `c1-l007` | &emsp;*do he como flor de polla manhaã que logo à* |  |
 | `c1-l008` | &emsp;*tarde ſe murcha, & cae.* |  |
 | `c1-l009` | Chôyǒ. Cuguiatno coconocano coto. *No-* |  |
 | `c1-l010` | &emsp;*no dia da nona lũa.* |  |
-| `c1-l011` | Chôyǒ. Aſafi. *Sol de polla manhãa. Vt,* |  |
+| `c1-l011` | Chôyǒ. Aſafi. *Sol de polla manhaã. Vt,* |  |
 | `c1-l012` | &emsp;Chôyǒ uocalazarẽdomo zanxei ficariuo |  |
 | `c1-l013` | &emsp;vbauaru. *Ainda que o ſol não he ſaido,* |  |
-| `c1-l014` | &emsp;*todauia ja polla manhãa cedo as eſtrelas que* |  |
+| `c1-l014` | &emsp;*todauia ja polla manhaã cedo as eſtrelas que* |  |
 | `c1-l015` | &emsp;*ficão perdem a luz: vſaſe em comparação de* |  |
 | `c1-l016` | &emsp;*hum homẽ inſigne, & principal em reſpe-* |  |
 | `c1-l017` | &emsp;*ito de outro ſomenos junto do qual fica aca-* |  |

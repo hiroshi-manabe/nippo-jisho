@@ -73,6 +73,7 @@ These are **reinspection prompts, not replacement rules**.
 - Inventory uncommon marks rather than reading through them: `Poëtas` on `f25` has a real diaeresis, not two paper specks.
 - A tilde can stand for omitted letters as well as nasalization. Do not expand it in Level 1.
 - Do not normalize a tilde to the vowel that usually carries it. The [`algũa` / `alguã` audit](../pilot/tilde-position-audit.md) confirms real position variation and supplies occurrence-level comparators.
+- In the currently transcribed `manhaa` family, assign the mark only after isolating both `a` types. A [64-occurrence scan audit](../pilot/nhaa-position-audit.md) found `nhaã` in every case—including `manhaã`, `menhaã`, `amenhaã`, and `amanhaã`—and no genuine `nhãa`; do not let modern *manhã* pull the tilde leftward.
 - Typeface helps: Japanese forms are generally roman and Portuguese explanations generally italic in the sampled dictionary pages. Confirm the local case before relying on that tendency.
 
 ## Dictionary-specific labels and conventions

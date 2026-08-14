@@ -60,7 +60,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l044` | Conbǒ. Nengoroni nozomu. *Pedir perdão,* |  |
 | `c1-l045` | &emsp;*ou miſericordia ſogeitandoſe.* |  |
 | `c1-l046` | Conbon. Nemoto. *Origem, ou principio.* |  |
-| `c1-l047` | Conchô. Qeſa. *Eſta manhãa.* |  |
+| `c1-l047` | Conchô. Qeſa. *Eſta manhaã.* |  |
 
 ## Column 2 running header
 

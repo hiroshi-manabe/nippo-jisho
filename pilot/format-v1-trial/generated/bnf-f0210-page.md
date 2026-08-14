@@ -21,7 +21,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l005` | &emsp;*rendimento às Teras, ou varelas. ¶* Fô- |  |
 | `c1-l006` | &emsp;nô itaſu. *Idem.* |  |
 | `c1-l007` | Fonobono. *Adu. P. Modo de amanhecer, ou* |  |
-| `c1-l008` | &emsp;*abrir amenhãa. ¶* Yono fonobono aqe- |  |
+| `c1-l008` | &emsp;*abrir amenhaã. ¶* Yono fonobono aqe- |  |
 | `c1-l009` | &emsp;ni mairǒ. *Irei logo em amanhecendo.* |  |
 | `c1-l010` | Fonocani. *Eſcaſamente. Vt,* Fonocani |  |
 | `c1-l011` | &emsp;miru, l, qiqu. *Ver, ou ouuir eſcaſamen-* |  |

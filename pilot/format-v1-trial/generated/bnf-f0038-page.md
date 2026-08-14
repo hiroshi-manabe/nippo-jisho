@@ -23,20 +23,20 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l007` | &emsp;*a mão trigo, ou arroz, &c. que ſe poem a* |  |
 | `c1-l008` | &emsp;*ſol, linhaſa que ſe torra ao fogo, &c.* |  |
 | `c1-l009` | Aſaſuſamajij. *Hum pouco frio, ou freſco de* |  |
-| `c1-l010` | &emsp;*polamanhãa no tempo do Outono.* |  |
+| `c1-l010` | &emsp;*polamanhaã no tempo do Outono.* |  |
 | `c1-l011` | &emsp;Aſaſuſamajita. |  |
 | `c1-l012` | &emsp;Aſaſuſamajǔ. |  |
-| `c1-l013` | Aſaſuzumi. *Freſco de polamanhãa & eſtio.* |  |
-| `c1-l014` | Aſatocu. *Adu. Polamanhãam cedo.* |  |
+| `c1-l013` | Aſaſuzumi. *Freſco de polamanhaã & eſtio.* |  |
+| `c1-l014` | Aſatocu. *Adu. Polamanhaãm cedo.* |  |
 | `c1-l015` | Aſatçuqi. *Hũa erua como çebolas.* |  |
-| `c1-l016` | Aſatte. i. Meôgonichi. *Depois da manhãa.* |  |
+| `c1-l016` | Aſatte. i. Meôgonichi. *Depois da manhaã.* |  |
 | `c1-l017` | Aſauodai, l, aſamexi. *Iantar, ou comer* |  |
-| `c1-l018` | &emsp;*de polamanhãa.* |  |
-| `c1-l019` | Aſauoqi. *O aleuantarſe polamanhãa.* |  |
+| `c1-l018` | &emsp;*de polamanhaã.* |  |
+| `c1-l019` | Aſauoqi. *O aleuantarſe polamanhaã.* |  |
 | `c1-l020` | Aſaxe. *Vao, ou baxo do rio.* |  |
-| `c1-l021` | Aſayǔ. *Adu. Polamanhãa, & a tarde.* |  |
+| `c1-l021` | Aſayǔ. *Adu. Polamanhaã, & a tarde.* |  |
 | `c1-l022` | Aſazaqe. *Vinho que ſe bebe antes de jantar.* |  |
-| `c1-l023` | Aſazucui. i. Aſafi. P. *Sol de polamanhãa.* |  |
+| `c1-l023` | Aſazucui. i. Aſafi. P. *Sol de polamanhaã.* |  |
 | `c1-l024` | Aſazzuqe. *Vt,* Aſazzuqeno cõnomono. |  |
 | `c1-l025` | &emsp;*Rabão, ou melão, ou outra couſa ſalgada pe-* |  |
 | `c1-l026` | &emsp;*ra logo ſe comer.* |  |
@@ -78,11 +78,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2a-l004` | &emsp;*tos. Bup.* |  |
 | `c2a-l005` | Aſſon. *Criados, ou vaſſalos que immediatamẽ-* |  |
 | `c2a-l006` | &emsp;*te ſeruem a el Rei.* |  |
-| `c2a-l007` | Aſu. Meônichi. *Amanhãa.* |  |
+| `c2a-l007` | Aſu. Meônichi. *Amanhaã.* |  |
 | `c2a-l008` | Aſu. i. Voxi. *Mudo. ¶* Aſuno yume |  |
 | `c2a-l009` | &emsp;uo mite catarazaruga gotoxi. *Prouerb.* |  |
 | `c2a-l010` | &emsp;*Entender a couſa, & não a ſaber declarar.* |  |
-| `c2a-l011` | Aſu aſatte. *Amanhãa, ou depois de amanhãa.* |  |
+| `c2a-l011` | Aſu aſatte. *Amanhaã, ou depois de amanhaã.* |  |
 
 ## Column 2 internal T section
 

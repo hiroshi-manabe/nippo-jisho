@@ -39,7 +39,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l023` | Guenson. Feri, ſonzuru. *Diminuição, &* |  |
 | `c1-l024` | &emsp;*perda como de fazenda, &c. S.* |  |
 | `c1-l025` | Guentan. Xǒguachino axita. *Primeira* |  |
-| `c1-l026` | &emsp;*manhãa do Xǒguachi. S.* |  |
+| `c1-l026` | &emsp;*manhaã do Xǒguachi. S.* |  |
 | `c1-l027` | Guẽtǒ. *Eſte mundo, ou vida preſente & futura.* |  |
 | `c1-l028` | &emsp;*¶* Guentǒ rixeno vongouo auogu ta- |  |
 | `c1-l029` | &emsp;tem tçuru. *Pedir a proteição deſte mundo,* |  |

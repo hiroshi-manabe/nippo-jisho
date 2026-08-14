@@ -28,7 +28,7 @@ Accordingly, Level 1 preserves the printed carrier: `algũa` and `alguã` are so
 
 ## Scope
 
-This audit covers only the `algua` family present in the current 129-page Level 1 corpus. It does not silently generalize its decisions to separate families such as `hũa` or `nenhũa`. Those require their own occurrence inventories if systematic doubt arises.
+This audit covers only the `algua` family present in the current 129-page Level 1 corpus. It does not silently generalize its decisions to separate families such as `hũa` or `nenhũa`. Those require their own occurrence inventories if systematic doubt arises. The separately completed [`nhãa` / `nhaã` audit](nhaa-position-audit.md) uses the same occurrence-level principle and found final-`a` placement in all 64 current cases.
 
 ## References
 
