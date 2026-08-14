@@ -111,7 +111,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2b-l001` | ASA. *Menhãa clara ou tẽpo de pelamanhãa.* |  |
+| `c2b-l001` | ASA. *Menhaã clara ou tẽpo de polamanhaã.* |  |
 | `c2b-l002` | Aſa. *Linho canemo ainda em erua.* |  |
 | `c2b-l003` | &emsp;*¶* Aſanouo. *Linho canemo concertado e* |  |
 | `c2b-l004` | &emsp;*feito ia como eſtriga. ¶* Aſano ito. *Li-* |  |
