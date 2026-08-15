@@ -8,6 +8,8 @@ This is the short, daily-use layer of the project's linguistic reference. It sup
 
 For a human correction Issue, use a stricter anti-anchoring order: hide or mentally discard the current reading; first parse the proposed Japanese and Portuguese in context; list the plausible forms; only then inspect the scan. The proposal leads when it is linguistically coherent and the image is compatible. Keep the old reading only with positive contrary visual evidence, not because it remains possible on a second look. Clear printed anomalies still remain literal. If machine review produces a third, qualified form rather than the exact submitted correction, stop for human confirmation instead of silently applying it.
 
+In a correction proposal only, a trailing `*` on a word with one tilde and one unambiguous adjacent-vowel alternative means “move the tilde to the other vowel; change nothing else”: `mãos*` → `maõs`, `dalguã*` → `dalgũa`. Remove the marker when applying the correction. Write the intended form explicitly if more than two carriers are plausible or the word contains multiple tildes.
+
 ## One-minute routine
 
 1. Transcribe the visible letters, case, spaces, punctuation, typeface, diacritics, and line division without an external transcription.
