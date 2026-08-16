@@ -56,7 +56,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l040` | Bat. i. Bachi. *Caſtigo, ou juſtiça. ¶* Baſſu- |  |
 | `c1-l041` | &emsp;ru. *Iuſtiçar, ou caſtigar.* |  |
 | `c1-l042` | Batacu. Acuuo tçumiſuru. *Caſtigo do peccado.* |  |
-| `c1-l043` | Batabata. *Adu. Modo de ſoar batendo o paſſa-* |  |
+| `c1-l043` | Batabata. *Adu. Modo de ſoar batendo o paſſa* |  |
 | `c1-l044` | &emsp;*ro as azas, ou de ſoar couſa que ſe bate, ou* |  |
 | `c1-l045` | &emsp;*toca hũa na outra.* |  |
 | `c1-l046` | Batamecaxi, ſu, aita. *Fazerem os paſſaros eſ-* |  |

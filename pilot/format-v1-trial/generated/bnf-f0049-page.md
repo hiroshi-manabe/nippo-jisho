@@ -78,12 +78,12 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | &emsp;*trinchar. i.* Qiriban. *¶ Item, Tabolei-* |  |
-| `c2-l002` | &emsp;*ro de jugar. ¶* Xǒguino ban. *Tabolei-* |  |
+| `c2-l001` | &emsp;*trinchar. i.* Qiriban. *¶ Item, Tabolei* |  |
+| `c2-l002` | &emsp;*ro de jugar. ¶* Xǒguino ban. *Tabolei* |  |
 | `c2-l003` | &emsp;*ro do enxadres. ¶* Sugurocuno bã. *Ta-* |  |
-| `c2-l004` | &emsp;*boleiro das tabolas. ¶* Goban. *Tabolei-* |  |
+| `c2-l004` | &emsp;*boleiro das tabolas. ¶* Goban. *Tabolei* |  |
 | `c2-l005` | &emsp;*ro de hum jogo chamado* Go *de muitas pedras.* |  |
-| `c2-l006` | Banaca. i. *Meo da rua, ou terreiro. ¶* Ba- |  |
+| `c2-l006` | Banaca. i. *Meo da rua, ou terreiro. ¶* Ba |  |
 | `c2-l007` | &emsp;nacade fagiuo caita. *Fiquei injuriado no* |  |
 | `c2-l008` | &emsp;*meo da rua diante de todos.* |  |
 | `c2-l009` | Banaraxi. *Começar a reprezentar algũa couſa* |  |

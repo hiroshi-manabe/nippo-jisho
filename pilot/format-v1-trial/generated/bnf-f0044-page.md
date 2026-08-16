@@ -92,7 +92,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l018` | &emsp;*comprido.* |  |
 | `c2-l019` | Aximoto. *Iunto, ou apar dos pès. ¶* Axi- |  |
 | `c2-l020` | &emsp;motoni fireſuſu. *Botarſe aos pès de outro.* |  |
-| `c2-l021` | &emsp;*¶* Aximoto yoroyoro tçuru. *Dar par-* |  |
+| `c2-l021` | &emsp;*¶* Aximoto yoroyoro tçuru. *Dar par* |  |
 | `c2-l022` | &emsp;*leſia nos pès. ¶ Item, Eſtar pouco ſeguro* |  |
 | `c2-l023` | &emsp;*& firme nos pès por eſtar bebado, &c.* |  |
 | `c2-l024` | Axinabe. *Panella de ferro que tem pès.* |  |

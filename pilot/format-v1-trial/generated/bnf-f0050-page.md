@@ -54,7 +54,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l038` | &emsp;*ro que ha nos paços & entradas que ſe vi-* |  |
 | `c1-l039` | &emsp;*gião. S.* |  |
 | `c1-l040` | Banchû. Bidǒ. *Vuas.* |  |
-| `c1-l041` | Banjacu. *Pedra muito grande. ¶ Item, Ro-* |  |
+| `c1-l041` | Banjacu. *Pedra muito grande. ¶ Item, Ro* |  |
 | `c1-l042` | &emsp;*cha, ou penedia.* |  |
 | `c1-l043` | Banichi. Mannin fitotçu. *Poruentura, ou a* |  |
 | `c1-l044` | &emsp;*caſo, ou de mil hum, ſi ſera, ou não ſera.* |  |

@@ -98,15 +98,15 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l008` | Beiriû. Cometçubu. *Grão de arroz.* |  |
 | `c2-l009` | Beixen. Come, ſeni. *Arroz, & caixas.* |  |
 | `c2-l010` | Ben. *Copia, & eloquencia no falar. ¶ Vt,* |  |
-| `c2-l011` | &emsp;Benno aru fito, benno qijta fito, l, ben- |  |
+| `c2-l011` | &emsp;Benno aru fito, benno qijta fito, l, ben |  |
 | `c2-l012` | &emsp;no, l, benni canǒta fito. *Homem facũ-* |  |
 | `c2-l013` | &emsp;*do, & eloquente.* |  |
 | `c2-l014` | Benbento xite, l, bento xite. *Adu. Pau-* |  |
 | `c2-l015` | &emsp;*ſada, ou deſcançadamente. ¶* Benbento |  |
-| `c2-l016` | &emsp;xita fito. *Homem deſcançado. ¶* Ben- |  |
+| `c2-l016` | &emsp;xita fito. *Homem deſcançado. ¶* Ben |  |
 | `c2-l017` | &emsp;bento xite iru. *Eſtar muito deſcançado,* |  |
 | `c2-l018` | &emsp;*& à ſua vontade, & deuagar.* |  |
-| `c2-l019` | Bencô. Cuchino tarǒta. *Eloquencia, & co-* |  |
+| `c2-l019` | Bencô. Cuchino tarǒta. *Eloquencia, & co* |  |
 | `c2-l020` | &emsp;*pia no falar.* |  |
 | `c2-l021` | Bencôja, l, bencôxa. Cuchino tarǒta mo- |  |
 | `c2-l022` | &emsp;no. *Homem eloquente, & copioſo no falar.* |  |

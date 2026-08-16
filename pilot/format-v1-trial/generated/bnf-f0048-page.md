@@ -108,12 +108,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l034` | &emsp;*& manifeſtamente.* |  |
 | `c2-l035` | Bafi. Vmano caua. *Pelle de caualo.* |  |
 | `c2-l036` | Bafun. Vmano fun. *Eſterco do caualo.* |  |
-| `c2-l037` | Baguiǒ. Vmano catachi. *Feição, ou poſtu-* |  |
+| `c2-l037` | Baguiǒ. Vmano catachi. *Feição, ou poſtu* |  |
 | `c2-l038` | &emsp;*ra do Caualo. ¶* Baguiǒ no yoi vma. |  |
 | `c2-l039` | &emsp;*Caualo bem poſto, & de boas feições.* |  |
 | `c2-l040` | Baguiû. Vma Vxi. *Caualo, vaca, ou boy.* |  |
 | `c2-l041` | Bai. *Eſpecie de oſtras, & mariſco do mar.* |  |
-| `c2-l042` | Baibai. Vricô. *Comprar, & vender, ou mer-* |  |
+| `c2-l042` | Baibai. Vricô. *Comprar, & vender, ou mer* |  |
 | `c2-l043` | &emsp;*cancia. ¶* Baibaiuo itasu. *Exercitar* |  |
 | `c2-l044` | &emsp;*a mercancia.* |  |
 | `c2-l045` | Baibaijin. *Mercador.* |  |

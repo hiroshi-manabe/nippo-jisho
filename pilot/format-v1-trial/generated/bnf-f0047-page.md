@@ -15,7 +15,7 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c1a-l001` | &emsp;*poſito. ¶* Tçucaini azzucaru. *Receber* |  |
-| `c1a-l002` | &emsp;*recado de peſſoa honrrada. ¶* Gojǒni azzu- |  |
+| `c1a-l002` | &emsp;*recado de peſſoa honrrada. ¶* Gojǒni azzu |  |
 | `c1a-l003` | &emsp;caru. *Receber carta de peſſoa honrrada.* |  |
 | `c1a-l004` | &emsp;*¶* Ximexi azzucaru. *Ser auizado dalgũa* |  |
 | `c1a-l005` | &emsp;*couſa.* |  |
@@ -61,8 +61,8 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c1b-l001` | BA. Niua. *Terreiro, campo,* |  |
-| `c1b-l002` | &emsp;*ou praça. ¶* Matoba. *Lu-* |  |
-| `c1b-l003` | &emsp;*gar õde tirão à barreira. ¶* Ichi- |  |
+| `c1b-l002` | &emsp;*ou praça. ¶* Matoba. *Lu* |  |
+| `c1b-l003` | &emsp;*gar õde tirão à barreira. ¶* Ichi |  |
 | `c1b-l004` | &emsp;ta. *Lugar onde ſe faz a feira.* |  |
 | `c1b-l005` | &emsp;*¶* Cariba. *Campo, ou lugar* |  |
 | `c1b-l006` | &emsp;*onde ſe caça. ¶* Caxenba. |  |
