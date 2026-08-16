@@ -315,11 +315,18 @@ def tilde_candidate_crop(page: dict, line: dict, start: int, end: int) -> list[i
         )
     # Existing line rectangles were reviewed for readable letter bodies, but
     # this task depends on small marks above them. Preserve extra space above
-    # the line and modest overlap below it so a slightly displaced rectangle
-    # cannot clip the tilde under review.
-    crop_top = max(0, top - max(45, round(height * 0.45)))
+    # the line and overlap below it so a slightly displaced rectangle cannot
+    # clip the tilde under review. The externally reviewed geometry from f60
+    # onward can be displaced by roughly one printed line while remaining
+    # nominally readable, so give that range one additional line of context on
+    # both sides in this specialist UI without changing canonical geometry.
+    vertical_safety = 70 if page["leaf"] >= 60 else 0
+    crop_top = max(
+        0, top - max(45, round(height * 0.45)) - vertical_safety
+    )
     crop_bottom = min(
-        page["height"], top + height + max(30, round(height * 0.30))
+        page["height"],
+        top + height + max(30, round(height * 0.30)) + vertical_safety,
     )
     return [crop_left, crop_top, crop_width, crop_bottom - crop_top]
 

@@ -105,6 +105,12 @@ class PublicReviewRegressionTests(unittest.TestCase):
             # A final period is outside the token span but still belongs to
             # the printed line ending; retain the complete right edge.
             self.assertEqual(candidates["f58/c2b-l004#1"]["crop"], [1931, 2819, 720, 173])
+            # From f60 onward the externally reviewed line geometry can be
+            # displaced by about one printed line while remaining readable.
+            # The specialist UI therefore retains an extra line above and
+            # below; here the former crop showed `Bonnin` while clipping the
+            # target `dignidade alguã` line at its lower edge.
+            self.assertEqual(candidates["f60/c2-l035#1"]["crop"], [1445, 2347, 720, 311])
 
     def test_hyphen_audit_selections_survive_geometry_only_deployments(self):
         script = (ROOT / "site" / "hyphen-audit.js").read_text(encoding="utf-8")
