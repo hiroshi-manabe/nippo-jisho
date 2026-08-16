@@ -530,6 +530,45 @@ class PublicReviewRegressionTests(unittest.TestCase):
         self.assertTrue(any(run["typeface"] == "roman" and "Tatami" in run["text"] for run in lines["c2-l008"]))
         self.assertNotIn("*", "".join(plain.values()))
 
+    def test_f43_issue_32_history_typeface_and_tilde_shorthand(self):
+        history = json.loads(
+            (ROOT / "pilot" / "human-review" / "correction-history.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        page = next(page for page in history["pages"] if page["id"] == "bnf-f0043")
+        self.assertEqual(page["issues_applied"], 1)
+        self.assertEqual(page["distinct_lines"], 23)
+        self.assertEqual(page["accepted_edits"], 23)
+        self.assertEqual(page["issues"][0]["number"], 32)
+        self.assertIn("c1-l004", page["issues"][0]["lines"])
+        self.assertIn("c2b-l025", page["issues"][0]["lines"])
+
+        record = json.loads(
+            (ROOT / "pilot" / "format-v1-trial" / "level1" / "bnf-f0043.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        lines = {
+            line["id"]: line["runs"]
+            for zone in record["zones"]
+            for line in zone.get("lines", [])
+        }
+        plain = {
+            line_id: "".join(run["text"] for run in runs)
+            for line_id, runs in lines.items()
+        }
+        self.assertIn("graõs", plain["c1-l007"])
+        self.assertIn("botaõ", plain["c1-l016"])
+        self.assertIn("abanão", plain["c1-l033"])
+        self.assertIn("dalgũa", plain["c2b-l007"])
+        self.assertIn("algũa", plain["c2b-l025"])
+        self.assertTrue(any(run["typeface"] == "roman" and "Catana" in run["text"] for run in lines["c1-l004"]))
+        self.assertTrue(any(run["typeface"] == "roman" and "Cami" in run["text"] for run in lines["c1-l033"]))
+        self.assertEqual(plain["c2b-l003"], "xe mizzuni naru. Banharſe em ſuor.")
+        self.assertTrue(plain["c2b-l025"].endswith("não pode bu"))
+        self.assertNotIn("*", "".join(plain.values()))
+
     def test_f29_issue_17_correction_history(self):
         history = json.loads(
             (ROOT / "pilot" / "human-review" / "correction-history.json").read_text(
