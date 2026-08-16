@@ -301,9 +301,13 @@ def tilde_candidate_crop(page: dict, line: dict, start: int, end: int) -> list[i
     )
     centre_x = left + round(unit_width * centre)
     crop_width = min(width, 720)
-    if end == len(text) and text_width_units(text) >= 28:
+    trailing_text = text[end:]
+    at_printed_line_end = re.fullmatch(r"[\s.,;:!?]*", trailing_text) is not None
+    if at_printed_line_end and text_width_units(text) >= 28:
         # A long line ending at the outer rule is safer to anchor to that rule;
         # the fixed-width estimate otherwise risks losing its final character.
+        # Terminal punctuation belongs to the same printed ending even though
+        # it is outside the candidate token.
         crop_left = left + width - crop_width
     else:
         crop_left = min(

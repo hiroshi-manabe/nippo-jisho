@@ -102,6 +102,9 @@ class PublicReviewRegressionTests(unittest.TestCase):
             # The corrected f57 rectangle and added upper overlap retain the
             # complete tilde-bearing word rather than centering the next line.
             self.assertEqual(candidates["f57/c2-l003#1"]["crop"], [1702, 448, 720, 175])
+            # A final period is outside the token span but still belongs to
+            # the printed line ending; retain the complete right edge.
+            self.assertEqual(candidates["f58/c2b-l004#1"]["crop"], [1931, 2819, 720, 173])
 
     def test_hyphen_audit_selections_survive_geometry_only_deployments(self):
         script = (ROOT / "site" / "hyphen-audit.js").read_text(encoding="utf-8")
