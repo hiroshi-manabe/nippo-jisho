@@ -97,7 +97,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l008` | &emsp;*tar alguẽ. ¶ Item, Errar, ou faltar. ¶* Vo- |  |
 | `c2-l009` | &emsp;moi ayamatçu. *Cuidar hũa couſa por* |  |
 | `c2-l010` | &emsp;*outra.* |  |
-| `c2-l011` | Ayamari. *Falta, erro, culpa. ¶* Ayama- |  |
+| `c2-l011` | Ayamari. *Falta, erro, culpa. ¶* Ayama |  |
 | `c2-l012` | &emsp;riuo aratamuru, l, nauoſu. *Emendar as* |  |
 | `c2-l013` | &emsp;*faltas. ¶* Ayamariuo cõ. *Pedir per-* |  |
 | `c2-l014` | &emsp;*dão da culpa, ou erro.* |  |

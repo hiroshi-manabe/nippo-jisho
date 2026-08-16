@@ -42,7 +42,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l026` | Bango. Cureno nochi. *Deſpois de anoiteçer.* |  |
 | `c1-l027` | Bango. *Os que vigião de baixo de algũ capi-* |  |
 | `c1-l028` | &emsp;*tão. ¶ Item, No* Ximo *diſcipulo de of-* |  |
-| `c1-l029` | &emsp;*ficial mecanico, ou homem que lhe ajuda no of-* |  |
+| `c1-l029` | &emsp;*ficial mecanico, ou homem que lhe ajuda no of* |  |
 | `c1-l030` | &emsp;*ficio.* |  |
 | `c1-l031` | Bangumi. *Gente que pertençe a hũa vigia.* |  |
 | `c1-l032` | Banguſocu. *Armas ordinarias que não ſão* |  |
@@ -113,7 +113,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l039` | &emsp;*as, & apraziueis à viſta.* |  |
 | `c2-l040` | Banqit, l, banqichi. Yorozzuno yoi coto. |  |
 | `c2-l041` | &emsp;*Todas as couſas boas.* |  |
-| `c2-l042` | Banqua. *Milhares de pedras precioſas. ¶* Xe- |  |
+| `c2-l042` | Banqua. *Milhares de pedras precioſas. ¶* Xe |  |
 | `c2-l043` | &emsp;qua banqua. *Idem.* |  |
 | `c2-l044` | Banqua. Yorozzuno fana. *Todas as roſas,* |  |
 | `c2-l045` | &emsp;*& flores.* |  |

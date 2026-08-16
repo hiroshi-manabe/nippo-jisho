@@ -90,7 +90,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l002` | &emsp;*O paſſear o caualo antes de correr a carreira.* |  |
 | `c2-l003` | &emsp;*¶* Ba farete ſuru. *Fazer algũa couſa pu-* |  |
 | `c2-l004` | &emsp;*blica, & manifeſtamente. ¶* Ba fareta |  |
-| `c2-l005` | &emsp;coto. *Couſa publica, & manifeſta, ou fei-* |  |
+| `c2-l005` | &emsp;coto. *Couſa publica, & manifeſta, ou fei* |  |
 | `c2-l006` | &emsp;*ta em publico. ¶* Bauo toru. i. Tocoro |  |
 | `c2-l007` | &emsp;uo fuſagu. *Occupar lugar. ¶ Itẽ, Per-* |  |
 | `c2-l008` | &emsp;*met. Fazer aparato, ou terreiro com algum* |  |
@@ -98,7 +98,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l010` | &emsp;*Fazer vulto como prezente. ¶* Baba. V- |  |
 | `c2-l011` | &emsp;mano niua. *Carreira, ou lugar como rua cõ-* |  |
 | `c2-l012` | &emsp;*prida onde exercitão, & correm caualos.* |  |
-| `c2-l013` | Babagaxira. *Principio, ou cabeceira da carrei-* |  |
+| `c2-l013` | Babagaxira. *Principio, ou cabeceira da carrei* |  |
 | `c2-l014` | &emsp;*ra dos caualos.* |  |
 | `c2-l015` | Babamecaſu. *Fazer ſoar cõ traquinada. Vt,* |  |
 | `c2-l016` | &emsp;Vmauo babamecaſu. *Fazer eſtropiada, ou* |  |
@@ -111,7 +111,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l023` | Babamixe. *O paſſear o caualo a carreira antes* |  |
 | `c2-l024` | &emsp;*que corra.* |  |
 | `c2-l025` | Babato ſuru. i. Babamequ. |  |
-| `c2-l026` | Babazuye. *Termo, ou parte inferior da car-* |  |
+| `c2-l026` | Babazuye. *Termo, ou parte inferior da car* |  |
 | `c2-l027` | &emsp;*reira dos caualos.* |  |
 | `c2-l028` | Babensǒ. *Hũa erua que ſe vſa ẽ mezinhas.* |  |
 | `c2-l029` | Baburi. *Melius.* Furizunbai. *Funda pera* |  |
@@ -132,7 +132,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l044` | Bacazzura. *Focinho de deſcortez, & mal* |  |
 | `c2-l045` | &emsp;*criado.* |  |
 | `c2-l046` | Bacca. Macuno xita. *Dentro de hũas corti-* |  |
-| `c2-l047` | &emsp;*nas grãdes de linho canemo, de q̃ Vſão na guer-* |  |
+| `c2-l047` | &emsp;*nas grãdes de linho canemo, de q̃ Vſão na guer* |  |
 
 ## Signature
 

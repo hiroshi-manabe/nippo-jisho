@@ -14,7 +14,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | &emsp;*reſtea do ſol. ¶* Axi teuo caiſamani na- |  |
+| `c1-l001` | &emsp;*reſtea do ſol. ¶* Axi teuo caiſamani na |  |
 | `c1-l002` | &emsp;ſu. *Prou. Deſfazer ſe por agazalhar, &* |  |
 | `c1-l003` | &emsp;*animar alguem.* |  |
 | `c1-l004` | Axiai, ǒ. *Ir a poz a caça.* |  |
@@ -104,12 +104,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l030` | &emsp;*pè çepello.* |  |
 | `c2-l031` | Axinaye. *Parleſia ou tolbimento, & fraque-* |  |
 | `c2-l032` | &emsp;*za dos pees. ¶ Item, o meſmo paraliſico.* |  |
-| `c2-l033` | &emsp;*¶ Vt,* Areua axinayede gozaru. *A-* |  |
+| `c2-l033` | &emsp;*¶ Vt,* Areua axinayede gozaru. *A* |  |
 | `c2-l034` | &emsp;*quelle he paralitico, ou tolhido dos pès.* |  |
 | `c2-l035` | Axinaye, uru, eta. *Dar parleſia nos pès, ou* |  |
 | `c2-l036` | &emsp;*ſer tolhido dos pès.* |  |
 | `c2-l037` | Axino cô. *Peito do pè.* |  |
-| `c2-l038` | Axino tçuqemoto. *Colo do pee açima dos arti-* |  |
+| `c2-l038` | Axino tçuqemoto. *Colo do pee açima dos arti* |  |
 | `c2-l039` | &emsp;*lhos.* |  |
 | `c2-l040` | Axino tçucubuxi. *Melius,* Curubuxi. |  |
 | `c2-l041` | &emsp;*Artelhos dos pès.* |  |

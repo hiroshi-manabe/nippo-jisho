@@ -24,10 +24,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l008` | &emsp;*que ſe enfeita demaſiadamente, ou de homem* |  |
 | `c1-l009` | &emsp;*que vem com algum trajo, ou atauio extra or-* |  |
 | `c1-l010` | &emsp;*dinario, & que dà nos olhos de todos.* |  |
-| `c1-l011` | Barabara. *Adu. que ſignifica do ſoido da chu-* |  |
+| `c1-l011` | Barabara. *Adu. que ſignifica do ſoido da chu* |  |
 | `c1-l012` | &emsp;*ua, ou de couſa ſemelhante quando cae no chão* |  |
 | `c1-l013` | &emsp;*como caſtanhas do caſtanheiro, ou grãos que ſe* |  |
-| `c1-l014` | &emsp;*entornão. ¶* Fitoga barabarato tatçu. *Ale-* |  |
+| `c1-l014` | &emsp;*entornão. ¶* Fitoga barabarato tatçu. *Ale* |  |
 | `c1-l015` | &emsp;*uantarſe muita gente ſẽ ordem, & cõ eſtrondo.* |  |
 | `c1-l016` | Baramecaxi, ſu, aita. *Fazer ſom a ſarauia* |  |
 | `c1-l017` | &emsp;*que choue, ou a fruita que cae da aruore, &c.* |  |
@@ -82,7 +82,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l008` | &emsp;*tinteiro de Iapão.* |  |
 | `c2-l009` | Batjet. Xitauo nuqu. *O Arrancar a lingua.* |  |
 | `c2-l010` | Batô. Vmano caxira. *Cabeça de caualo.* |  |
-| `c2-l011` | Batriǔ. Suyeno nagare. *Geração, ou deſ-* |  |
+| `c2-l011` | Batriǔ. Suyeno nagare. *Geração, ou deſ* |  |
 | `c2-l012` | &emsp;*cendentes ultimos q̃ vem dalguã familia, mas* |  |
 | `c2-l013` | &emsp;*o mais commum ſentido he diſcipulos, ou deſ-* |  |
 | `c2-l014` | &emsp;*cendentes derradeiros dalguã ſeita, arte,* |  |
@@ -113,7 +113,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l039` | &emsp;*o eſtar a caualo. ¶* Baxǒno fito. *Ho-* |  |
 | `c2-l040` | &emsp;*mem a caualo.* |  |
 | `c2-l041` | Baxô. *Figueira da India de folhas largas.* |  |
-| `c2-l042` | Baxônuno. *Pano como de linho, ou teada fei-* |  |
+| `c2-l042` | Baxônuno. *Pano como de linho, ou teada fei* |  |
 | `c2-l043` | &emsp;*ta de hũs fios da quella figueira da India mais* |  |
 | `c2-l044` | &emsp;*rezos.* |  |
 | `c2-l045` | Baxǒſan. Vmano vyeno ſacazzzuqi. *Certo* |  |

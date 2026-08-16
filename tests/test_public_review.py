@@ -38,10 +38,10 @@ class PublicReviewRegressionTests(unittest.TestCase):
                 for page in audit["pages"]
                 for candidate in page["candidates"]
             }
-            self.assertEqual(len(candidates), 165)
-            self.assertIn("f44/c1-l001", candidates)
-            self.assertIn("f44/c2-l038", candidates)
-            self.assertIn("f46/c1a-l013", candidates)
+            self.assertEqual(len(candidates), 132)
+            self.assertNotIn("f44/c1-l001", candidates)
+            self.assertNotIn("f44/c2-l038", candidates)
+            self.assertNotIn("f46/c1a-l013", candidates)
             self.assertTrue(
                 all(candidate["before"].endswith("-") for candidate in candidates.values())
             )

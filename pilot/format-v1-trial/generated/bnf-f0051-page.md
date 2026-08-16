@@ -19,7 +19,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l003` | Banrei. *Todos os viuentes ſenſitiuos.* |  |
 | `c1-l004` | Banri. *Dez mil, ou muitas legoas. i. muito* |  |
 | `c1-l005` | &emsp;*longe.* |  |
-| `c1-l006` | Banri cǒzan. *Hũa pintura antigua do* Cha- |  |
+| `c1-l006` | Banri cǒzan. *Hũa pintura antigua do* Cha |  |
 | `c1-l007` | &emsp;noyu. |  |
 | `c1-l008` | Banrio. Yorozzuno vomouacaru. *Diſcurſo,* |  |
 | `c1-l009` | &emsp;*ou conſideração de varias couſas.* |  |
@@ -59,7 +59,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l043` | &emsp;*tãgem à boca da noite, ou ao pôr do ſol.* |  |
 | `c1-l044` | Banxocu. Cureno xocu. *Cea ou comer da* |  |
 | `c1-l045` | &emsp;*tarde.* |  |
-| `c1-l046` | Banxocu. Cureno iro. i. Bangueino qe- |  |
+| `c1-l046` | Banxocu. Cureno iro. i. Bangueino qe |  |
 
 ## Column 2 running header
 
@@ -102,7 +102,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l023` | &emsp;*raiz.* |  |
 | `c2-l024` | Baqe, ru, eta. *Tomar algũa figura, ou traſ-* |  |
 | `c2-l025` | &emsp;*formarſe como faz o demonio tomando figura* |  |
-| `c2-l026` | &emsp;*de rapoſa, poſto que os Iapões não nomeão o dia-* |  |
+| `c2-l026` | &emsp;*de rapoſa, poſto que os Iapões não nomeão o dia* |  |
 | `c2-l027` | &emsp;*bo, mas dizem Qitçunega baqeta. A-* |  |
 | `c2-l028` | &emsp;*rapoſa ſe fez homem, ou apareçeo traſformada* |  |
 | `c2-l029` | &emsp;*ẽ molher, homẽ, &c. ¶ Item, permet.* |  |
@@ -118,7 +118,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l039` | &emsp;*Engano, ou diſſimulação com que hum engana a* |  |
 | `c2-l040` | &emsp;*outro como o que ſe faz virtuoſo, ou religioſo* |  |
 | `c2-l041` | &emsp;*ſendo mao, & ſecular, &c. ¶* Baqega |  |
-| `c2-l042` | &emsp;arauareta. *Deſcobrioſe o engano, ou diſſimu-* |  |
+| `c2-l042` | &emsp;arauareta. *Deſcobrioſe o engano, ou diſſimu* |  |
 | `c2-l043` | &emsp;*lação, &c.* |  |
 | `c2-l044` | Baqebaqexij. i. Baqeraxij. *Couſa que pa-* |  |
 | `c2-l045` | &emsp;*rece como tranſformada, & contra feita, ou* |  |

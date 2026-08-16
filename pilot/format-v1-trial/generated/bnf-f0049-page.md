@@ -41,7 +41,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l025` | Baixet. Vmeyuqi. *Amexieira, & neue.* |  |
 | `c1-l026` | Baixu. Vrizage. *Vinho de venda. ¶* Go- |  |
 | `c1-l027` | &emsp;reua baixu gia. *He vinho comprado, ou* |  |
-| `c1-l028` | &emsp;*de venda. ¶* Baixu itasu. *Fazerſe vi-* |  |
+| `c1-l028` | &emsp;*de venda. ¶* Baixu itasu. *Fazerſe vi* |  |
 | `c1-l029` | &emsp;*nhateiro.* |  |
 | `c1-l030` | Baiyô. i. Tarayô. *Folha de palmeira em q̃* |  |
 | `c1-l031` | &emsp;*ſe eſcreue.* |  |
@@ -89,23 +89,23 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l009` | Banaraxi. *Começar a reprezentar algũa couſa* |  |
 | `c2-l010` | &emsp;*pera aquietar a gẽte antes da obra ſair no meſ-* |  |
 | `c2-l011` | &emsp;*mo lugar. ¶* Banaraxini vodoru. *Começar* |  |
-| `c2-l012` | &emsp;*a dãçar pera aquietar a gẽte. Aſſi ſe hade enten-* |  |
+| `c2-l012` | &emsp;*a dãçar pera aquietar a gẽte. Aſſi ſe hade enten* |  |
 | `c2-l013` | &emsp;*der o* Banaraxi *deçima.* |  |
 | `c2-l014` | Banareta fito. *Homem exercitado em lutas,* |  |
-| `c2-l015` | &emsp;*ou em outra arte. ¶* Banarenu fito. *Ho-* |  |
+| `c2-l015` | &emsp;*ou em outra arte. ¶* Banarenu fito. *Ho* |  |
 | `c2-l016` | &emsp;*mem que não eſta ainda deſtro, & exercitado* |  |
 | `c2-l017` | &emsp;*em publico.* |  |
-| `c2-l018` | Banbato. *Adu. Modo de ſoarẽ as azas dos paſ-* |  |
+| `c2-l018` | Banbato. *Adu. Modo de ſoarẽ as azas dos paſ* |  |
 | `c2-l019` | &emsp;*ſaros que vão voando, ou de outro eſtrondo que* |  |
 | `c2-l020` | &emsp;*faz o vento, ou alguem que vai andando, &c.* |  |
 | `c2-l021` | Banbocu. Yorozzuno qi. *Todas as aruores.* |  |
 | `c2-l022` | Banbucuro. *Saco da cama dos que vigião, ou* |  |
 | `c2-l023` | &emsp;*de ſoldados, &c.* |  |
-| `c2-l024` | Banbut, l, Banmot. Yorozzuno mono. *To-* |  |
+| `c2-l024` | Banbut, l, Banmot. Yorozzuno mono. *To* |  |
 | `c2-l025` | &emsp;*das as couſas, ou todas as creaturas.* |  |
 | `c2-l026` | Banca. Natçuno cure. *Fim do eſtio. i. Sex-* |  |
 | `c2-l027` | &emsp;*ta lũa.* |  |
-| `c2-l028` | Banca. Cureno caſumi. *Neuoeiro das tar-* |  |
+| `c2-l028` | Banca. Cureno caſumi. *Neuoeiro das tar* |  |
 | `c2-l029` | &emsp;*des do verão.* |  |
 | `c2-l030` | Bancha. Cha *ordinario que não he do bom.* |  |
 | `c2-l031` | Banchǒ. i. Banno nicqi. *Rol dos que vi-* |  |

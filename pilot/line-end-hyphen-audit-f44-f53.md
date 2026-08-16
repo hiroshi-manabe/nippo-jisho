@@ -17,7 +17,7 @@ This ten-page trial tests whether a dedicated scan pass can reliably distinguish
 
 ## Results
 
-The existing transcription contained 191 candidate terminal division marks. The scan audit removed 15 unsupported marks, retained 176 visibly printed marks, and found no omitted printed mark.
+The existing transcription contained 191 candidate terminal division marks. The initial AI scan audit removed 15 unsupported marks and retained 176. A subsequent compact human review of the remaining candidates removed 33 more, for a combined total of 48 removals and 143 retained marks. The human interface deliberately tested only supplied terminal marks, so neither stage establishes that no printed mark was omitted from the transcription.
 
 | Page | Line | Before | After | Scan finding |
 | --- | --- | --- | --- | --- |
@@ -37,8 +37,8 @@ The existing transcription contained 191 candidate terminal division marks. The 
 | f53 | c2-l016 | `Ben-` | `Ben` | blank after `n` |
 | f53 | c2-l019 | `co-` | `co` | blank after `o` |
 
-All corrections are removals of inferred marks. Repeated or linguistically obvious continuations were a particular source of false positives: the three `Tabolei` lines on f49 demonstrate that even identical continuation structure does not license a printed mark. Conversely, many nearby roman and italic endings do contain clearly visible division signs and were retained.
+All corrections are removals of inferred marks. Repeated or linguistically obvious continuations were a particular source of false positives: the three `Tabolei` lines on f49 demonstrate that even identical continuation structure does not license a printed mark. Conversely, many nearby roman and italic endings do contain clearly visible division signs and were retained. GitHub Issue [#33](https://github.com/hiroshi-manabe/nippo-jisho/issues/33) records the 33 human-selected follow-up removals; unlisted candidates were left unchanged.
 
 ## Assessment
 
-The dedicated pass added material value: it corrected 15 of 191 previously recorded candidate marks (7.9%) without proposing a speculative addition. The result is promising enough to use the same scan-first audit on further unchecked pages. It does not prove complete recall, especially for faint marks, so the first larger batch should still receive a human spot-check before this becomes a fully delegated specialist pass.
+The initial dedicated pass added material value, but it was not sufficiently reliable for delegation: the human review rejected another 33 of the 176 marks it had retained (18.8%). Across both stages, 48 of the original 191 supplied marks were removed (25.1%). Line-end division-mark verification should therefore be treated as a human-led specialist task. A compact candidate interface remains useful because it focuses human attention on the relevant edge without requiring full-page re-editing.
