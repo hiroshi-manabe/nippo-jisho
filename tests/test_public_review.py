@@ -484,19 +484,23 @@ class PublicReviewRegressionTests(unittest.TestCase):
         self.assertTrue(plain["c2-l047"].endswith("com pertur"))
         self.assertNotIn("*", "".join(plain.values()))
 
-    def test_f42_issue_30_history_typeface_and_tilde_shorthand(self):
+    def test_f42_issues_30_and_31_history_typeface_and_tilde_shorthand(self):
         history = json.loads(
             (ROOT / "pilot" / "human-review" / "correction-history.json").read_text(
                 encoding="utf-8"
             )
         )
         page = next(page for page in history["pages"] if page["id"] == "bnf-f0042")
-        self.assertEqual(page["issues_applied"], 1)
-        self.assertEqual(page["distinct_lines"], 16)
-        self.assertEqual(page["accepted_edits"], 16)
+        self.assertEqual(page["issues_applied"], 2)
+        self.assertEqual(page["distinct_lines"], 28)
+        self.assertEqual(page["accepted_edits"], 28)
         self.assertEqual(page["issues"][0]["number"], 30)
         self.assertIn("c1-l034", page["issues"][0]["lines"])
         self.assertIn("c1-l047", page["issues"][0]["lines"])
+        self.assertEqual(page["issues"][1]["number"], 31)
+        self.assertEqual(len(page["issues"][1]["lines"]), 12)
+        self.assertIn("c2-l004", page["issues"][1]["lines"])
+        self.assertIn("c2-l046", page["issues"][1]["lines"])
 
         record = json.loads(
             (ROOT / "pilot" / "format-v1-trial" / "level1" / "bnf-f0042.json").read_text(
@@ -519,6 +523,11 @@ class PublicReviewRegressionTests(unittest.TestCase):
         self.assertIn("jutamente", plain["c1-l017"])
         self.assertIn("Concodar", plain["c1-l022"])
         self.assertTrue(any(run["typeface"] == "roman" and "Curo" in run["text"] for run in lines["c1-l047"]))
+        self.assertIn("couſas çujas", plain["c2-l004"])
+        self.assertIn("alguã", plain["c2-l033"])
+        self.assertIn("reuerẽ-", plain["c2-l034"])
+        self.assertEqual(plain["c2-l046"], "Auǒ. Auoſa.")
+        self.assertTrue(any(run["typeface"] == "roman" and "Tatami" in run["text"] for run in lines["c2-l008"]))
         self.assertNotIn("*", "".join(plain.values()))
 
     def test_f29_issue_17_correction_history(self):

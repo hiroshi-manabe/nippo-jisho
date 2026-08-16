@@ -75,22 +75,22 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l001` | Auoba. *Folhas verdes.* |  |
 | `c2-l002` | Auoba. *Nome de hũa certa frauta antigua.* |  |
 | `c2-l003` | Auobai. *Moſca verde que ſempre ſe poem em* |  |
-| `c2-l004` | &emsp;*couſas ſujas, ou no eſterco, &c.* |  |
-| `c2-l005` | Auobana. *No Ximo ſe diz Farada hũa laya* |  |
+| `c2-l004` | &emsp;*couſas çujas, ou no eſterco, &c.* |  |
+| `c2-l005` | Auobana. *No* Ximo *ſe diz* Farada *hũa laya* |  |
 | `c2-l006` | &emsp;*de papel tinto de azul.* |  |
-| `c2-l007` | Auoberi. *Debrum, ou tira azul que ſe pega* |  |
-| `c2-l008` | &emsp;*nas bordas do Tatami, ou eſteira.* |  |
+| `c2-l007` | Auoberi. *Debrum, ou tira azul queſe pega* |  |
+| `c2-l008` | &emsp;*nas bordas do* Tatami*, ou eſteira* |  |
 | `c2-l009` | Auocha. *Hũa cor antre verde, & amarelo.* |  |
 | `c2-l010` | &emsp;*¶ Item,* Cha *muito verde na cor.* |  |
 | `c2-l011` | Auochi, tçu, otta. *Abanar como com eſtei-* |  |
 | `c2-l012` | &emsp;*ra, taboa, &c. Item, Dar com as pernas ao* |  |
-| `c2-l013` | &emsp;*caualo. Itẽ, Adejarem, ou baterẽ os paſſaros* |  |
+| `c2-l013` | &emsp;*caualo. Itẽ, Adejarẽ, ou baterẽ os paſſaros* |  |
 | `c2-l014` | &emsp;*com as azas. Itẽ, Fazer meneos com as mãos,* |  |
 | `c2-l015` | &emsp;*ou outra couſa como quem abana.* |  |
 | `c2-l016` | Auocubi. *Marreca, paſſaro dagoa macho que* |  |
 | `c2-l017` | &emsp;*tem o peſcoço azul.* |  |
 | `c2-l018` | Auocuſa. *Erua verde.* |  |
-| `c2-l019` | Auoda. *Hũa maneira de catre como pauiola,* |  |
+| `c2-l019` | Auoda. *Hũa maneira de catre como pauiolla,* |  |
 | `c2-l020` | &emsp;*ſobre que leuão as coſtas algum doente, &c.* |  |
 | `c2-l021` | Auofiqi. *Raã verde.* |  |
 | `c2-l022` | Auogairu. *Idem.* |  |
@@ -101,11 +101,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l027` | Auogui, u, uoida. *Abanar com abano.* |  |
 | `c2-l028` | &emsp;*¶ Item, Abanar, ou fazer vento com aba-* |  |
 | `c2-l029` | &emsp;*no, taboa, &c.* |  |
-| `c2-l030` | Auogui, u, uoida. *Olhar pera çima. ¶* Tẽni |  |
+| `c2-l030` | Auogui, u, uo ida. *Olhar pera çima. ¶* Tẽni |  |
 | `c2-l031` | &emsp;auogui, chini fuſu. *Ora olhar pera o ceo,* |  |
 | `c2-l032` | &emsp;*ora debruçar ſe ſobre a terra, quando hum* |  |
-| `c2-l033` | &emsp;*eſta muito affligido, ou deſeja muito algũa cou-* |  |
-| `c2-l034` | &emsp;*ſa. ¶ Itẽ,* Auogu. *Venerar, & reueren-* |  |
+| `c2-l033` | &emsp;*eſta muito affligido, ou deſeja muito alguã cou-* |  |
+| `c2-l034` | &emsp;*ſa. ¶ Itẽ,* Auogu. *Venerar, & reuerẽ-* |  |
 | `c2-l035` | &emsp;*çiar. Vt,* Qimiuo auogui tatematçuru. |  |
 | `c2-l036` | &emsp;*Reuerenciar ao ſenhor.* |  |
 | `c2-l037` | Auogui negauacuua. *Modo de deſejar, & pedir* |  |
@@ -115,9 +115,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l041` | &emsp;*cor azul deixando algũs lauores entreſachados.* |  |
 | `c2-l042` | Auoi. *Couſa de cor azul eſcuro. Itẽ, de Verde.* |  |
 | `c2-l043` | &emsp;*Item, Verde. i. Que não he maduro.* |  |
-| `c2-l044` | &emsp;*¶* Auoi cotouo yu. *Dizer couſas de pou-* |  |
-| `c2-l045` | &emsp;*co tomo, ou de pouca experiencia.* |  |
-| `c2-l046` | Auô. Auola. |  |
+| `c2-l044` | &emsp;*¶* Auoi cotouo yu. *Dizer couſas de pou* |  |
+| `c2-l045` | &emsp;*co tomo, ou de pouca experiençia.* |  |
+| `c2-l046` | Auǒ. Auoſa. |  |
 | `c2-l047` | Auoi. *Maluas, ou Maluaiſco.* |  |
 
 ## Catchword
