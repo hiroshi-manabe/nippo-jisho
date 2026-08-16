@@ -20,9 +20,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l004` | &emsp;Ataraxiſa. |  |
 | `c1-l005` | &emsp;Ataraxǔ. |  |
 | `c1-l006` | Atari. *Perto, ou junto. ¶* Sono atari. *Per* |  |
-| `c1-l007` | &emsp;*to dali, ou ali junto. Vt,* Atariuo farai ſo- |  |
+| `c1-l007` | &emsp;*to dali, ou alijunto. Vt,* Atariuo farai fo |  |
 | `c1-l008` | &emsp;toriuo cacayacaſu. *Moſtrar fauſto, & ap-* |  |
-| `c1-l009` | &emsp;*parato. ¶* Atariuo farǒ. *Na peleja não* |  |
+| `c1-l009` | &emsp;*parato. ¶* Atariuo farǒ. *Napeleja não* |  |
 | `c1-l010` | &emsp;*deixar chegar os inimigos a ſi.* |  |
 | `c1-l011` | Atari, ru, atta. *Topar, encontrar, ou dar hũa* |  |
 | `c1-l012` | &emsp;*couſa em outra. ¶* Funega xeni atatta. |  |
@@ -44,7 +44,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l028` | &emsp;*dia do Natal. ¶* Cujiga ataru. *Cair a* |  |
 | `c1-l029` | &emsp;*ſorte ſobre alguem. ¶* Cuyacuga ataru. |  |
 | `c1-l030` | &emsp;*Cairlhe a iez em que hade fazer o ſeruiço obri* |  |
-| `c1-l031` | &emsp;*gatorio ao ſenhor. ¶* Vtteni ataru. *Ser de-* |  |
+| `c1-l031` | &emsp;*gatorio ao ſenhor. ¶* Vtteni ataru. *Serde* |  |
 | `c1-l032` | &emsp;*terminado do ſenhor por matador, ou executor da* |  |
 | `c1-l033` | &emsp;*morte dalguem. ¶ Itẽ,* Fitoni yô ataru, l, |  |
 | `c1-l034` | &emsp;axǔ ataru. *Tratar bem, ou mal a outros. ¶* |  |
@@ -55,9 +55,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l039` | &emsp;Atatacaſa. |  |
 | `c1-l040` | &emsp;Atatacani. |  |
 | `c1-l041` | Atatamari. *Quentura. ¶* Atatamariga |  |
-| `c1-l042` | &emsp;nuqeta. *Eſfriarſe a couſa quente.* |  |
+| `c1-l042` | &emsp;nuqeta. *Esfriarſe a couſa quente.* |  |
 | `c1-l043` | Atatamari, u, atta. *Aquentarſe, ou aquècer.* |  |
-| `c1-l044` | Atatame, ru, eta. *Aquentar.* |  |
+| `c1-l044` | Atatame, ru, eta. *Aqnentar.* |  |
 | `c1-l045` | Atataqe. *Hũs bolos grandes de arroz como fo* |  |
 | `c1-l046` | &emsp;*gaças hum pouco ouados na forma.* |  |
 | `c1-l047` | Ataye. *Dadiua, ou merçe. Vt,* Tenno a- |  |
@@ -81,8 +81,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l001` | &emsp;taye. *Beneficio do ceo.* |  |
 | `c2-l002` | Ataye, uru, eta. *Dar. ¶* Chijocuuo atayuru. |  |
 | `c2-l003` | &emsp;*Injuriar, ou afrontar. ¶* Cuſuriuo atayuru. |  |
-| `c2-l004` | &emsp;*Aplicar, ou dar mezinha ao doente.* |  |
-| `c2-l005` | Atayete. *O que dà, ou faz merçe dalgũa couſa.* |  |
+| `c2-l004` | &emsp;*Aplicar, ou dar mezinha aodoente.* |  |
+| `c2-l005` | Atayete. *Oque dà, ou faz merçe dalgũa couſa.* |  |
 | `c2-l006` | Atçù. *Adu. Quente.* |  |
 | `c2-l007` | Atçù. *Adu. Groſſo, ou eſpeſſo. ¶ Itẽ, Muito. Vt,* |  |
 | `c2-l008` | &emsp;Xǒuo atçǔ ſuru. *Fazer muitos beneficios.* |  |
