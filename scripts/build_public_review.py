@@ -4,13 +4,16 @@
 from __future__ import annotations
 
 import argparse
+import csv
 import hashlib
 import html
 import json
 import os
 from pathlib import Path
+import re
 import shutil
 import subprocess
+import unicodedata
 
 import markdown
 
@@ -20,6 +23,9 @@ IMAGE_BASE_URL = "https://nippo-jisho-images.pages.dev"
 REVIEW_UNITS = ("column-1", "column-2", "furniture")
 HYPHEN_AUDIT_LEAVES = range(44, 101)
 HYPHEN_AUDIT_SCOPE = "f44-f100"
+TILDE_AUDIT_LEAVES = range(39, 101)
+TILDE_AUDIT_SCOPE = "f39-f100"
+TILDE_AUDIT_STATUS = "batch_review_unverified"
 
 
 def load_json(path: Path) -> dict:
@@ -238,6 +244,134 @@ def hyphen_audit_payload(pages: list[dict], commit: str, repository: str) -> dic
     }
 
 
+def vowel_unit(character: str) -> tuple[str, str]:
+    decomposed = unicodedata.normalize("NFD", character)
+    return decomposed[0].lower(), decomposed[1:]
+
+
+def alternate_tilde_carrier(token: str, marked_index: int) -> str | None:
+    """Move one tilde across a maximal adjacent-vowel pair."""
+    units = [unicodedata.normalize("NFD", character) for character in token]
+    if not (0 <= marked_index < len(units)) or "\N{COMBINING TILDE}" not in units[marked_index]:
+        return None
+    left = marked_index
+    while left and vowel_unit(token[left - 1])[0] in "aeiou":
+        left -= 1
+    right = marked_index + 1
+    while right < len(token) and vowel_unit(token[right])[0] in "aeiou":
+        right += 1
+    if right - left != 2:
+        return None
+    if sum("\N{COMBINING TILDE}" in units[index] for index in range(left, right)) != 1:
+        return None
+    destination = left if marked_index == left + 1 else left + 1
+    units[marked_index] = units[marked_index].replace("\N{COMBINING TILDE}", "", 1)
+    units[destination] += "\N{COMBINING TILDE}"
+    return unicodedata.normalize("NFC", "".join(units))
+
+
+def text_width_units(value: str) -> float:
+    narrow = set(" ilIſft.,:;'|")
+    wide = set("MWmw&")
+    return sum(0.52 if character in narrow else 1.42 if character in wide else 1.0 for character in value)
+
+
+def tilde_candidate_crop(page: dict, line: dict, start: int, end: int) -> list[int]:
+    if "crop" in line:
+        left, top, width, height = line["crop"]
+    else:
+        # Catchwords are outside the column geometry but consistently occupy
+        # the lower-right portion of these leaves.
+        left = round(page["width"] * 0.43)
+        top = round(page["height"] * 0.84)
+        width = page["width"] - left - 40
+        height = page["height"] - top - 30
+    text = line["text"]
+    total = max(text_width_units(text), 1)
+    centre = text_width_units(text[:start]) + text_width_units(text[start:end]) / 2
+    centre_x = left + round(width * centre / total)
+    crop_width = min(width, 720)
+    crop_left = min(max(left, centre_x - crop_width // 2), left + width - crop_width)
+    padding = max(14, round(height * 0.24))
+    crop_top = max(0, top - padding)
+    crop_bottom = min(page["height"], top + height + padding)
+    return [crop_left, crop_top, crop_width, crop_bottom - crop_top]
+
+
+def tilde_audit_payload(
+    pages: list[dict], commit: str, repository: str, ledger: Path
+) -> dict:
+    page_lookup = {page["page_id"]: page for page in pages if page["processed"]}
+    candidates_by_leaf: dict[int, list[dict]] = {}
+    with ledger.open(encoding="utf-8", newline="") as handle:
+        rows = csv.DictReader(handle, delimiter="\t")
+        for row in rows:
+            leaf = int(re.search(r"f(\d+)$", row["page"]).group(1))
+            if leaf not in TILDE_AUDIT_LEAVES or row["status"] != TILDE_AUDIT_STATUS:
+                continue
+            page = page_lookup.get(row["page"])
+            if page is None:
+                continue
+            lines = {
+                line["id"]: line
+                for zone in page["zones"]
+                for line in zone.get("lines", [])
+            }
+            line = lines.get(row["line"])
+            if line is None:
+                raise RuntimeError(f"missing tilde-audit line {row['page']}/{row['line']}")
+            start, end = int(row["token_start"]), int(row["token_end"])
+            token = line["text"][start:end]
+            if token != row["reviewed_token"]:
+                raise RuntimeError(
+                    f"stale tilde-audit token {row['page']}/{row['line']} "
+                    f"#{row['occurrence']}: {token!r} != {row['reviewed_token']!r}"
+                )
+            alternate = alternate_tilde_carrier(token, int(row["marked_index"]))
+            if alternate is None:
+                continue
+            candidates_by_leaf.setdefault(leaf, []).append(
+                {
+                    "line": row["line"],
+                    "occurrence": int(row["occurrence"]),
+                    "before": token,
+                    "after": alternate,
+                    "line_text": line["text"],
+                    "token_start": start,
+                    "token_end": end,
+                    "base_line_version": line["transcription_version"],
+                    "crop": tilde_candidate_crop(page, line, start, end),
+                }
+            )
+    audit_pages = []
+    for leaf in TILDE_AUDIT_LEAVES:
+        page = next((page for page in pages if page["leaf"] == leaf), None)
+        candidates = candidates_by_leaf.get(leaf, [])
+        if page is None or not candidates:
+            continue
+        audit_pages.append(
+            {
+                "leaf": leaf,
+                "view": page["view"],
+                "page_id": page["page_id"],
+                "width": page["width"],
+                "height": page["height"],
+                "image": page["iiif"],
+                "gallica": page["gallica"],
+                "candidates": candidates,
+            }
+        )
+    return {
+        "schema": 1,
+        "task": "tilde-carrier-audit",
+        "scope": TILDE_AUDIT_SCOPE,
+        "base_commit": commit,
+        "repository": repository,
+        "review_basis": TILDE_AUDIT_STATUS,
+        "pages": audit_pages,
+    }
+
+
 def main() -> int:
     root = Path(__file__).resolve().parents[1]
     parser = argparse.ArgumentParser(description=__doc__)
@@ -325,6 +459,20 @@ def main() -> int:
         + "\n",
         encoding="utf-8",
     )
+    (output / "tilde-audit.json").write_text(
+        json.dumps(
+            tilde_audit_payload(
+                pages,
+                commit,
+                args.repository,
+                root / "pilot" / "adjacent-vowel-tilde-audit.tsv",
+            ),
+            ensure_ascii=False,
+            separators=(",", ":"),
+        )
+        + "\n",
+        encoding="utf-8",
+    )
     for name in (
         "index.html",
         "app.js",
@@ -333,6 +481,9 @@ def main() -> int:
         "hyphen-audit.html",
         "hyphen-audit.js",
         "hyphen-audit.css",
+        "tilde-audit.html",
+        "tilde-audit.js",
+        "tilde-audit.css",
         ".nojekyll",
     ):
         shutil.copy2(root / "site" / name, output / name)

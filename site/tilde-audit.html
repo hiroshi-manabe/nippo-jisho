@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Human review of tilde placement over adjacent vowel pairs in the Nippo Jisho transcription.">
+  <title>Nippo Jisho · Tilde-position audit</title>
+  <link rel="stylesheet" href="tilde-audit.css">
+</head>
+<body>
+  <header class="audit-header">
+    <div>
+      <a href="index.html">← Main review site</a>
+      <p class="eyebrow">Tilde-position review · <span id="audit-scope">f39–f100</span></p>
+      <h1>Move tildes printed over the other vowel.</h1>
+      <p>Each item contains exactly two adjacent vowels and one tilde. Check it only when the scan places the tilde over the other vowel. Unchecked items remain unchanged.</p>
+      <p class="keyboard-help"><kbd>↑</kbd><kbd>↓</kbd> move · <kbd>Space</kbd> check or uncheck</p>
+    </div>
+    <div class="audit-summary"><strong id="candidate-count">—</strong><span>unreviewed candidates</span><strong id="selected-count">0</strong><span>marked to swap</span></div>
+  </header>
+
+  <main id="audit-list" aria-live="polite"><p class="loading">Loading audit data…</p></main>
+
+  <footer class="submit-bar">
+    <span><strong id="footer-count">0</strong> marked to swap</span>
+    <button id="copy-json" type="button">Copy JSON</button>
+    <button id="open-issue" class="primary" type="button">Open GitHub Issue</button>
+  </footer>
+  <div id="toast" class="toast hidden" role="status"></div>
+  <script src="tilde-audit.js"></script>
+</body>
+</html>

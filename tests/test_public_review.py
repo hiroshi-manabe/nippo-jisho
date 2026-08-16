@@ -5,13 +5,72 @@ import subprocess
 import tempfile
 import unittest
 
-from scripts.build_public_review import transcription_version
+from scripts.build_public_review import alternate_tilde_carrier, transcription_version
 
 
 ROOT = Path(__file__).resolve().parents[1]
 
 
 class PublicReviewRegressionTests(unittest.TestCase):
+    def test_tilde_audit_covers_only_unreviewed_two_vowel_pairs(self):
+        with tempfile.TemporaryDirectory() as directory:
+            subprocess.run(
+                [
+                    "python3",
+                    str(ROOT / "scripts" / "build_public_review.py"),
+                    "--output",
+                    directory,
+                ],
+                cwd=ROOT,
+                check=True,
+                capture_output=True,
+                text=True,
+            )
+            output = Path(directory)
+            audit = json.loads(
+                (output / "tilde-audit.json").read_text(encoding="utf-8")
+            )
+            self.assertEqual(audit["task"], "tilde-carrier-audit")
+            self.assertEqual(audit["scope"], "f39-f100")
+            self.assertEqual(audit["review_basis"], "batch_review_unverified")
+            self.assertEqual(
+                [page["leaf"] for page in audit["pages"]], list(range(39, 101))
+            )
+            candidates = [
+                (page["view"], candidate)
+                for page in audit["pages"]
+                for candidate in page["candidates"]
+            ]
+            self.assertEqual(len(candidates), 1147)
+            keys = {
+                f"{page}/{candidate['line']}#{candidate['occurrence']}"
+                for page, candidate in candidates
+            }
+            self.assertEqual(len(keys), len(candidates))
+            self.assertNotIn("f39/c2-l019#1", keys)
+            self.assertNotIn("f100/c2-l020#1", keys)
+            self.assertIn("f39/c1-l002#1", keys)
+            first = audit["pages"][0]["candidates"][0]
+            self.assertEqual((first["before"], first["after"]), ("não", "naõ"))
+            for asset in ("tilde-audit.html", "tilde-audit.js", "tilde-audit.css"):
+                self.assertTrue((output / asset).is_file())
+
+    def test_tilde_carrier_swap_requires_exactly_two_adjacent_vowels(self):
+        self.assertEqual(alternate_tilde_carrier("não", 1), "naõ")
+        self.assertEqual(alternate_tilde_carrier("huã", 2), "hũa")
+        self.assertEqual(alternate_tilde_carrier("poẽ", 2), "põe")
+        self.assertIsNone(alternate_tilde_carrier("Gõye", 1))
+        self.assertIsNone(alternate_tilde_carrier("casa", 1))
+
+    def test_tilde_audit_has_keyboard_review_controls(self):
+        script = (ROOT / "site" / "tilde-audit.js").read_text(encoding="utf-8")
+        self.assertIn("event.key === 'ArrowDown'", script)
+        self.assertIn("event.key === 'ArrowUp'", script)
+        self.assertIn("event.code === 'Space'", script)
+        self.assertIn("scrollIntoView({block: 'center'", script)
+        self.assertIn("saved?.schema === 2", script)
+        self.assertIn("candidate.occurrence", script)
+
     def test_hyphen_audit_selections_survive_geometry_only_deployments(self):
         script = (ROOT / "site" / "hyphen-audit.js").read_text(encoding="utf-8")
         self.assertIn(
