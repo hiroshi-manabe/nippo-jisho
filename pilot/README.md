@@ -18,7 +18,7 @@ The [Pilot Diacritic Audit](diacritic-audit.md) maintains the initial glyph inve
 
 The separate [`algũa` / `alguã` Tilde-Position Audit](tilde-position-audit.md) checks all 388 occurrences of that family in the current Level 1 corpus against the scan. Its TSV ledger preserves every occurrence-level decision and prevents a visually variable setting from being normalized by lexical expectation.
 
-The broader [Adjacent-Vowel Tilde-Carrier Inventory and Superseded Batch Audit](adjacent-vowel-tilde-audit.md) locates all 3,852 applicable occurrences on the not-yet-human-reviewed pages from `f39` onward, excluding the already audited `nhaã` family. It found two genuine `aõ` corrections, but later human spot checks exposed false bulk confirmations at `maõs` and `dalgũa`; unchanged rows are therefore retained as unverified inventory rather than individual scan decisions.
+The broader [Adjacent-Vowel Tilde-Carrier Inventory and Superseded Batch Audit](adjacent-vowel-tilde-audit.md) locates all 3,852 applicable occurrences on the not-yet-human-reviewed pages from `f39` onward, excluding the already audited `nhaã` family. It found two genuine `aõ` corrections, but later human spot checks exposed false bulk confirmations at `maõs` and `dalgũa`; unchanged rows are therefore retained as unverified inventory rather than individual scan decisions. The affected f39 and f40 forms have since been individually corrected through their Issue workflows.
 
 The first controlled [Wikisource comparison](wikisource-comparison/bnf-f0014.md) uses the blinded selected zones of `bnf-f0014`. It records exact revision provenance, a coverage snapshot, scan adjudication of every meaningful disagreement, and the limited licensing conclusion. The frozen draft remains unchanged.
 

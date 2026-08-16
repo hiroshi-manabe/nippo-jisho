@@ -4,10 +4,10 @@
 
 The Level 1 corpus is not uniform. A scan-level audit of the complete `algũa` / `alguã` family found **388 occurrences on 387 lines**:
 
-- **237** print the tilde over `u`: for example `algũa`, `dalgũa`, and `Algũas`;
-- **151** print the tilde over final `a`: for example `alguã`, `dalguã`, and `nalguã`.
+- **241** print the tilde over `u`: for example `algũa`, `dalgũa`, and `Algũas`;
+- **147** print the tilde over final `a`: for example `alguã`, `dalguã`, and `nalguã`.
 
-The previously uniform transcription has therefore been corrected at the 151 final-`a` occurrences and retained at the other 237. The initiating example, `bnf-f0019:c2b-l011`, reads `alguã`; the clear forms on `bnf-f0014:c1-l044`, `c2-l029`, `c2-l039`, and `c2-l042` remain `algũa`. Enlarged line review later reassigned five initially classified final-`a` cases on `f47`–`f51` to tilde-over-`u`; human Issue review likewise reassigned `bnf-f0026:c2-l013`, `bnf-f0027:c2-l046`, `bnf-f0029:c2-l026`, three occurrences on `bnf-f0030`, `bnf-f0032:c2-l034` and `c2-l044`, `bnf-f0035:c2-l017`, and four occurrences on `bnf-f0036`, while Issue #16 reassigned `bnf-f0028:c2-l033` to final-`a`.
+The previously uniform transcription has therefore been corrected at the 147 final-`a` occurrences and retained at the other 241. The initiating example, `bnf-f0019:c2b-l011`, reads `alguã`; the clear forms on `bnf-f0014:c1-l044`, `c2-l029`, `c2-l039`, and `c2-l042` remain `algũa`. Enlarged line review later reassigned five initially classified final-`a` cases on `f47`–`f51` to tilde-over-`u`; human Issue review likewise reassigned `bnf-f0026:c2-l013`, `bnf-f0027:c2-l046`, `bnf-f0029:c2-l026`, three occurrences on `bnf-f0030`, `bnf-f0032:c2-l034` and `c2-l044`, `bnf-f0035:c2-l017`, four occurrences on `bnf-f0036`, and `bnf-f0040:c2-l009` and `c2-l039`, while Issue #16 reassigned `bnf-f0028:c2-l033` to final-`a`.
 
 The occurrence ledger is [tilde-position-audit.tsv](tilde-position-audit.tsv). It records the page, line identifier, previous text, scan-adjudicated source text, and vowel carrying the mark. Capitalization, plurality, and contraction (`d-`, `n-`) are retained independently of the tilde position.
 

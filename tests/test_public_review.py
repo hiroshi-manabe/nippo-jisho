@@ -407,6 +407,44 @@ class PublicReviewRegressionTests(unittest.TestCase):
         self.assertIn("alijunto", lines["c1-l007"])
         self.assertIn("Serde", lines["c1-l031"])
 
+    def test_f40_issue_28_history_typeface_and_tilde_shorthand(self):
+        history = json.loads(
+            (ROOT / "pilot" / "human-review" / "correction-history.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        page = next(page for page in history["pages"] if page["id"] == "bnf-f0040")
+        self.assertEqual(page["issues_applied"], 1)
+        self.assertEqual(page["distinct_lines"], 24)
+        self.assertEqual(page["accepted_edits"], 24)
+        self.assertEqual(page["issues"][0]["number"], 28)
+        self.assertIn("c1-l003", page["issues"][0]["lines"])
+        self.assertIn("c2-l040", page["issues"][0]["lines"])
+
+        record = json.loads(
+            (ROOT / "pilot" / "format-v1-trial" / "level1" / "bnf-f0040.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        lines = {
+            line["id"]: line["runs"]
+            for zone in record["zones"]
+            for line in zone.get("lines", [])
+        }
+        plain = {
+            line_id: "".join(run["text"] for run in runs)
+            for line_id, runs in lines.items()
+        }
+        self.assertIn({"typeface": "roman", "text": " Myaco catana."}, lines["c1-l001"])
+        self.assertIn({"typeface": "roman", "text": " Torinoco"}, lines["c1-l002"])
+        self.assertEqual(lines["c2-l017"][1], {"typeface": "italic", "text": " P. Imitar, ou ſeguir al-"})
+        self.assertIn({"typeface": "roman", "text": " Fitono"}, lines["c2-l036"])
+        self.assertIn("muniçoẽs", plain["c1-l036"])
+        self.assertIn("dalgũa", plain["c2-l009"])
+        self.assertIn("algũa", plain["c2-l039"])
+        self.assertIn("naõ", plain["c2-l040"])
+        self.assertNotIn("*", "".join(plain.values()))
+
     def test_f29_issue_17_correction_history(self):
         history = json.loads(
             (ROOT / "pilot" / "human-review" / "correction-history.json").read_text(

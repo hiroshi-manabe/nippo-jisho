@@ -2,16 +2,16 @@
 
 ## Result
 
-The not-yet-human-reviewed Level 1 pages contained **3,852 tilde-bearing vowel occurrences adjacent to another vowel**, on **3,443 physical lines across 203 pages**. The already completed `nhaã` / `nhãa` family was deliberately excluded from this pass. This inventory remains useful, but the original contact-sheet adjudication did **not** establish an individual scan confirmation for every occurrence.
+The not-yet-human-reviewed Level 1 pages contain **3,852 tilde-bearing vowel occurrences adjacent to another vowel**, on **3,443 physical lines across 203 pages**. The already completed `nhaã` / `nhãa` family was deliberately excluded from this pass. This inventory remains useful, but the original contact-sheet adjudication did **not** establish an individual scan confirmation for every occurrence.
 
 The machine review found two cases in which the transcription had regularized a locally printed final `aõ` to the much commoner `ão`:
 
 - `bnf-f0043:c1-l033`: `abanão` → `abanaõ`
 - `bnf-f0124:c1-l001`: `Pião` → `Piaõ`
 
-Subsequent tight human inspection disproved the bulk confirmation at `bnf-f0039:c2-l019`, correcting `mãos` to printed `maõs` through Issue #27. A second spot check at `bnf-f0040:c2-l009` likewise found printed `dalgũa` rather than the inventoried `dalguã`; that occurrence remains for its page's Issue workflow. The failure was not crop localization: the correct word image was present, but grouping by the existing carrier, labels that displayed the existing reading, dense 32-item sheets, and escalation based on OCR-location confidence all encouraged confirmation rather than an explicit carrier decision.
+Subsequent tight human inspection disproved the bulk confirmation at `bnf-f0039:c2-l019`, correcting `mãos` to printed `maõs` through Issue #27. A second spot check at `bnf-f0040:c2-l009` likewise found printed `dalgũa` rather than the inventoried `dalguã`; Issue #28 then confirmed that correction along with printed `muniçoẽs`, `algũa`, `naõ`, and newly recovered `quẽte` on the same page. The failure was not crop localization: the correct word image was present, but grouping by the existing carrier, labels that displayed the existing reading, dense 32-item sheets, and escalation based on OCR-location confidence all encouraged confirmation rather than an explicit carrier decision.
 
-Accordingly, unchanged rows are now marked `batch_review_unverified`, not `scan_confirmed`. The two machine-found corrections have status `machine_scan_corrected`, and the f39 human correction has status `human_scan_confirmed`. The current ledger has 2,604 marks on `a`, 1,008 on `u`, 156 on `o`, 80 on `e`, and 4 on `i`; these are inventory totals, not verified distributions or spelling rules.
+Accordingly, unchanged rows are now marked `batch_review_unverified`, not `scan_confirmed`. The two machine-found corrections have status `machine_scan_corrected`, while individually adjudicated f39 and f40 corrections have status `human_scan_confirmed`. The current ledger has 2,601 marks on `a`, 1,010 on `u`, 156 on `o`, 81 on `e`, and 4 on `i`; these are inventory totals, not verified distributions or spelling rules.
 
 The occurrence ledger is [adjacent-vowel-tilde-audit.tsv](adjacent-vowel-tilde-audit.tsv). It records the page, physical line, occurrence number, token, marked-vowel context, carrier, and review status. A row may be treated as individually adjudicated only when its status explicitly says so.
 
