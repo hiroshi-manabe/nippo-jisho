@@ -244,7 +244,7 @@ class PublicReviewRegressionTests(unittest.TestCase):
         self.assertEqual(column["visual_review"], "text_image_sanity_checked")
         self.assertEqual(column["lines"]["c2-l041"]["crop"], [1540, 2938, 1080, 122])
 
-    def test_f70_and_f72_corrected_columns_reach_past_the_right_rule(self):
+    def test_manually_corrected_columns_reach_past_the_right_rule(self):
         record = json.loads(
             (ROOT / "pilot" / "human-review" / "line-geometry.json").read_text(
                 encoding="utf-8"
@@ -256,6 +256,12 @@ class PublicReviewRegressionTests(unittest.TestCase):
             ("bnf-f0072", "column-1"): 1560,
             ("bnf-f0072", "column-2"): 2660,
         }
+        for number in range(73, 86):
+            corrected_columns[(f"bnf-f{number:04d}", "column-2")] = (
+                2422 if number % 2 else 2660
+            )
+        for number in (74, 76, 78, 80, 82, 84, 86, 88):
+            corrected_columns[(f"bnf-f{number:04d}", "column-1")] = 1560
         for (page_id, column_id), right_edge in corrected_columns.items():
             with self.subTest(page=page_id, column=column_id):
                 column = pages[page_id]["columns"][column_id]
