@@ -21,11 +21,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1a-l005` | &emsp;*ſorte que não ſe conhece bem.* |  |
 | `c1a-l006` | Ayaximi, u, ûda. *Duuidar, ſer ſoſpeita.* |  |
 | `c1a-l007` | Aye, uru, eta. *Miſturar, ou concertar, &* |  |
-| `c1a-l008` | &emsp;*temperar eruas com Miſo, &c. pera comer.* |  |
+| `c1a-l008` | &emsp;*temperar eruas com* Miſo*, &c. pera comer.* |  |
 | `c1a-l009` | &emsp;*¶ Item, Perder o goſto algum comer por eſ-* |  |
-| `c1a-l010` | &emsp;*tar muito tempo feito como Namaſu, cella-* |  |
+| `c1a-l010` | &emsp;*tar muito tempo feito como* Namaſu*, cella-* |  |
 | `c1a-l011` | &emsp;*da, &c. ¶* Namaſuga ayeta. *Eſtar o* |  |
-| `c1a-l012` | &emsp;*Namaſu ſem ſabor. ¶ Item, No Ximo* |  |
+| `c1a-l012` | &emsp;Namaſu *ſem ſabor. ¶ Item, No* Ximo |  |
 | `c1a-l013` | &emsp;*cair a fruita, grãos, trigo, &c. por ſi, ou qual-* |  |
 | `c1a-l014` | &emsp;*quer outra couſa de alto.* |  |
 | `c1a-l015` | Ayegui, u, eida. *Reſpirar com o folego a-* |  |
@@ -86,8 +86,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l004` | &emsp;*Abrio, ou fez aquelle releuo mui bẽ, diſtintamẽ-* |  |
 | `c2-l005` | &emsp;*te.* |  |
 | `c2-l006` | Azacayexi, u, eita. *Virar, ou reuoluer al-* |  |
-| `c2-l007` | &emsp;*gũa couſa como fato de Cauago, &c.* |  |
-| `c2-l008` | Azami. *Hũa erua que ſe come em Ayemono.* |  |
+| `c2-l007` | &emsp;*gũa couſa como fato de* Cauago*, &c.* |  |
+| `c2-l008` | Azami. *Hũa erua que ſe come em* Ayemono. |  |
 | `c2-l009` | &emsp;*¶* Voniazami. *Hũa erua como cardo ſil-* |  |
 | `c2-l010` | &emsp;*ueſtre.* |  |
 | `c2-l011` | Azamuqi, u, uita. *Zombar, ou deſdanhar* |  |

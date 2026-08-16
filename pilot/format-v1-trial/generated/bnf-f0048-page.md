@@ -97,7 +97,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l023` | Badai. *Dinheiro, ou caxas que ſe cuſtumão a dar* |  |
 | `c2-l024` | &emsp;*aos ſenhores em lugar de caualo que apre-* |  |
 | `c2-l025` | &emsp;*zentão em certos tempos. Em algũas partes* |  |
-| `c2-l026` | &emsp;*ſe diz Baxen.* |  |
+| `c2-l026` | &emsp;*ſe diz* Baxen. |  |
 | `c2-l027` | Bafã. *Ir a furtar fora de Iapão a China, ou a* |  |
 | `c2-l028` | &emsp;*outras partes.* |  |
 | `c2-l029` | Bafanbune. *Embarcação de ladrões, q̃ vão a* |  |

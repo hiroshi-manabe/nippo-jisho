@@ -131,7 +131,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l043` | &emsp;*Como à meanoite, ou a horas de meanoite.* |  |
 | `c2-l044` | Bacazzura. *Focinho de deſcortez, & mal* |  |
 | `c2-l045` | &emsp;*criado.* |  |
-| `c2-l046` | Bacca. *Macuno xita. Dentro de hũas corti-* |  |
+| `c2-l046` | Bacca. Macuno xita. *Dentro de hũas corti-* |  |
 | `c2-l047` | &emsp;*nas grãdes de linho canemo, de q̃ Vſão na guer-* |  |
 
 ## Signature

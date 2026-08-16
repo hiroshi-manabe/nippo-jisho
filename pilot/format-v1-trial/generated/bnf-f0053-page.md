@@ -61,9 +61,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1b-l023` | Bechidan. *Melius,* Betdan. *Diuerso, ou ou-* |  |
 | `c1b-l024` | &emsp;*tra laya.* |  |
 | `c1b-l025` | Bechigui. *Outra couſa differente. ¶ Item,* |  |
-| `c1b-l026` | &emsp;*Certa laya de Cha bom.* |  |
+| `c1b-l026` | &emsp;*Certa laya de* Cha *bom.* |  |
 | `c1b-l027` | Bechiji. *Outra couſa. Itẽ, Couſa notauel.* |  |
-| `c1b-l028` | Bechijin. *Vono fito. Outra peſſoa.* |  |
+| `c1b-l028` | Bechijin. Vono fito. *Outra peſſoa.* |  |
 | `c1b-l029` | Bechini. *Adu. De outra maneira. ¶ Itẽ,* |  |
 | `c1b-l030` | &emsp;Outro. *Vt,* Bechini aru. *Ha outro.* |  |
 | `c1b-l031` | Becqe. Bechino iye. *Outra caſa, ou familia.* |  |

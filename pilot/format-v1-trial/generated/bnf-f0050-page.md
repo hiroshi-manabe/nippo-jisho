@@ -41,7 +41,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l025` | &emsp;*pedras precioſas.* |  |
 | `c1-l026` | Bango. Cureno nochi. *Deſpois de anoiteçer.* |  |
 | `c1-l027` | Bango. *Os que vigião de baixo de algũ capi-* |  |
-| `c1-l028` | &emsp;*tão. ¶ Item, No Ximo diſcipulo de of-* |  |
+| `c1-l028` | &emsp;*tão. ¶ Item, No* Ximo *diſcipulo de of-* |  |
 | `c1-l029` | &emsp;*ficial mecanico, ou homem que lhe ajuda no of-* |  |
 | `c1-l030` | &emsp;*ficio.* |  |
 | `c1-l031` | Bangumi. *Gente que pertençe a hũa vigia.* |  |
@@ -80,7 +80,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l006` | &emsp;*cer. Vt,* Figa banzuru. *Ir abaixando* |  |
 | `c2-l007` | &emsp;*o ſol, ou declinando o dia.* |  |
 | `c2-l008` | Banjin. *Couſa de muita altura como rocha, mõ-* |  |
-| `c2-l009` | &emsp;*te, parede, &c. ¶ Item, Hum Cami q̃* |  |
+| `c2-l009` | &emsp;*te, parede, &c. ¶ Item, Hum* Cami *q̃* |  |
 | `c2-l010` | &emsp;*guarda ao Rei.* |  |
 | `c2-l011` | Banjit. Cureno fi. *Sol da tarde.* |  |
 | `c2-l012` | Banjô. *Dignidade real. Vt,* Banjôno cu- |  |

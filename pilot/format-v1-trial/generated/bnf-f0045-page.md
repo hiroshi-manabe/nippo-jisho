@@ -131,7 +131,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l042` | &emsp;Ayau. |  |
 | `c2-l043` | &emsp;Ayauſa. |  |
 | `c2-l044` | Ayaxi, ſu. *Derramar. ¶* Chiuo ayaſu. |  |
-| `c2-l045` | &emsp;*Derramar ſangue. ¶ Item, No Ximo* |  |
+| `c2-l045` | &emsp;*Derramar ſangue. ¶ Item, No* Ximo |  |
 | `c2-l046` | &emsp;*derrubar, ou fazer cair como fruita, &c.* |  |
 | `c2-l047` | Ayaxij. *Couſa duuidoſa, ou eſtar duuidoſo.* |  |
 

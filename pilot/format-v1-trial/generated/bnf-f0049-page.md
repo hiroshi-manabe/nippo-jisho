@@ -82,7 +82,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l002` | &emsp;*ro de jugar. ¶* Xǒguino ban. *Tabolei-* |  |
 | `c2-l003` | &emsp;*ro do enxadres. ¶* Sugurocuno bã. *Ta-* |  |
 | `c2-l004` | &emsp;*boleiro das tabolas. ¶* Goban. *Tabolei-* |  |
-| `c2-l005` | &emsp;*ro de hum jogo chamado Go de muitas pedras.* |  |
+| `c2-l005` | &emsp;*ro de hum jogo chamado* Go *de muitas pedras.* |  |
 | `c2-l006` | Banaca. i. *Meo da rua, ou terreiro. ¶* Ba- |  |
 | `c2-l007` | &emsp;nacade fagiuo caita. *Fiquei injuriado no* |  |
 | `c2-l008` | &emsp;*meo da rua diante de todos.* |  |
@@ -90,7 +90,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l010` | &emsp;*pera aquietar a gẽte antes da obra ſair no meſ-* |  |
 | `c2-l011` | &emsp;*mo lugar. ¶* Banaraxini vodoru. *Começar* |  |
 | `c2-l012` | &emsp;*a dãçar pera aquietar a gẽte. Aſſi ſe hade enten-* |  |
-| `c2-l013` | &emsp;*der o Banaraxi deçima.* |  |
+| `c2-l013` | &emsp;*der o* Banaraxi *deçima.* |  |
 | `c2-l014` | Banareta fito. *Homem exercitado em lutas,* |  |
 | `c2-l015` | &emsp;*ou em outra arte. ¶* Banarenu fito. *Ho-* |  |
 | `c2-l016` | &emsp;*mem que não eſta ainda deſtro, & exercitado* |  |
@@ -107,7 +107,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l027` | &emsp;*ta lũa.* |  |
 | `c2-l028` | Banca. Cureno caſumi. *Neuoeiro das tar-* |  |
 | `c2-l029` | &emsp;*des do verão.* |  |
-| `c2-l030` | Bancha. *Cha ordinario que não he do bom.* |  |
+| `c2-l030` | Bancha. Cha *ordinario que não he do bom.* |  |
 | `c2-l031` | Banchǒ. i. Banno nicqi. *Rol dos que vi-* |  |
 | `c2-l032` | &emsp;*gião. ¶* Banchǒni tçugu. *Eſtar eſcri-* |  |
 | `c2-l033` | &emsp;*to no rol da vigia.* |  |

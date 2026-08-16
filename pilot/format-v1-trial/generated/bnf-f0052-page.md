@@ -33,7 +33,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l017` | &emsp;*que choue, ou a fruita que cae da aruore, &c.* |  |
 | `c1-l018` | Barameqi, u, eita. *Soar a chuua, ou cou-* |  |
 | `c1-l019` | &emsp;*ſa ſemelhante quando dà no chão.* |  |
-| `c1-l020` | Bararibarito. *Vide Barabara.* |  |
+| `c1-l020` | Bararibarito. *Vide* Barabara. |  |
 | `c1-l021` | Bararito. *Adu. Totalmente.* |  |
 | `c1-l022` | Bari. *Ourina dos caualos. ¶* Bariuo tçu- |  |
 | `c1-l023` | &emsp;qu. *Ourinar o caualo. ¶ Item, Se diz* |  |
@@ -48,7 +48,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l032` | Barin. *Hũa erua que tem a folha como eſpada* |  |
 | `c1-l033` | &emsp;*na pequena. ¶ Item, Eſcouinha feita da* |  |
 | `c1-l034` | &emsp;*raiz deſta erua com que eſfregão à panella do* |  |
-| `c1-l035` | &emsp;*Chanoyu, &c.* |  |
+| `c1-l035` | &emsp;Chanoyu*, &c.* |  |
 | `c1-l036` | Baro. Vmamichi. *Caminho dos caualos.* |  |
 | `c1-l037` | Baſarana. *Açodado, ou deſmanchado em ſu-* |  |
 | `c1-l038` | &emsp;*as couſas no veſtido, &c.* |  |
@@ -80,7 +80,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l006` | Batei. Vmano ſizzume. *Caſcoſou unhas* |  |
 | `c2-l007` | &emsp;*dos caualos. ¶ Item, Nome geral do* |  |
 | `c2-l008` | &emsp;*tinteiro de Iapão.* |  |
-| `c2-l009` | Batjet. *Xitauo nuqu. O Arrancar a lingua.* |  |
+| `c2-l009` | Batjet. Xitauo nuqu. *O Arrancar a lingua.* |  |
 | `c2-l010` | Batô. Vmano caxira. *Cabeça de caualo.* |  |
 | `c2-l011` | Batriǔ. Suyeno nagare. *Geração, ou deſ-* |  |
 | `c2-l012` | &emsp;*cendentes ultimos q̃ vem dalguã familia, mas* |  |

@@ -36,7 +36,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l020` | &emsp;*como ſe faz no teatro, &c.* |  |
 | `c1-l021` | Axica. *Certo animal do mar como caualo.* |  |
 | `c1-l022` | Axicai, i. Tçunoſunu axi. *Gomo, ou o-* |  |
-| `c1-l023` | &emsp;*lho de certas caninhas. Xintô.* |  |
+| `c1-l023` | &emsp;*lho de certas caninhas.* Xintô. |  |
 | `c1-l024` | Axicamo, l, camo. *Marreca.* |  |
 | `c1-l025` | Axicata. *Pegadas, ou raſto.* |  |
 | `c1-l026` | Axicaua. *Peozes de falcão, ou açor.* |  |
@@ -79,8 +79,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l005` | &emsp;*aſſaltos nos imigos, ou vão a deſcubrir o cãpo.* |  |
 | `c2-l006` | Axigatame. *Couſa em que eſtribão, ou ſe* |  |
 | `c2-l007` | &emsp;*fortificão os pès de banco, ou de couſa ſeme-* |  |
-| `c2-l008` | &emsp;*lhante como Faxira, &c.* |  |
-| `c2-l009` | Axigaxe. *Grilhões, ou tronco de pão. Tega-* |  |
+| `c2-l008` | &emsp;*lhante como* Faxira*, &c.* |  |
+| `c2-l009` | Axigaxe. *Grilhões, ou tronco de pão.* Tega- |  |
 | `c2-l010` | &emsp;xe, axigaxe. *Algemas, & grilhões.* |  |
 | `c2-l011` | Axigue. *Cor de cauallo ruço.* |  |
 | `c2-l012` | Axigutçu, i, fodaxi. *Malho, ou grilhões de pão.* |  |
