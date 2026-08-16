@@ -25,7 +25,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l009` | Cayette. Adu. *Pollo contrario, antes.* |  |
 | `c1-l010` | Cayexi. *Eſterco de paſſaros.* |  |
 | `c1-l011` | Cayexi, u, yeita. *Eſſer tornar. ¶ Iiẽ,* |  |
-| `c1-l012` | &emsp;*Tornar alguã couſa, ou reſtituila. ¶* Tauo |  |
+| `c1-l012` | &emsp;*Tornar algũa couſa, ou reſtituila. ¶* Tauo |  |
 | `c1-l013` | &emsp;cayelu. *Cauar, ou laurar as varzeas.* |  |
 | `c1-l014` | Cayexiauaxe, uru, eta. *Voltar ſobre os inimi-* |  |
 | `c1-l015` | &emsp;*gos. Vt,* Teqini cayexiauaturu. |  |

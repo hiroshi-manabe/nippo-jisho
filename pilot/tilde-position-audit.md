@@ -4,10 +4,10 @@
 
 The Level 1 corpus is not uniform. The occurrence ledger for the complete `algũa` / `alguã` family contains **388 occurrences on 387 lines**:
 
-- **330** print the tilde over `u`: for example `algũa`, `dalgũa`, and `Algũas`;
-- **58** print the tilde over final `a`: for example `alguã`, `dalguã`, and `nalguã`.
+- **370** print the tilde over `u`: for example `algũa`, `dalgũa`, and `Algũas`;
+- **18** print the tilde over final `a`: for example `alguã`, `dalguã`, and `nalguã`.
 
-The initiating example, `bnf-f0019:c2b-l011`, still reads `alguã`; the clear forms on `bnf-f0014:c1-l044`, `c2-l029`, `c2-l039`, and `c2-l042` remain `algũa`. The first grouped scan audit substantially overestimated final-`a` placement. Later enlarged-line and Issue review had already reassigned several cases, and the dedicated one-candidate-at-a-time human interface in Issue #36 reassigned another **86** `alguã`-family occurrences to tilde-over-`u`. The ledger now records those individual human decisions rather than the earlier expectation-biased batch classification. Genuine final-`a` forms remain and must not be normalized automatically.
+The initiating example, `bnf-f0019:c2b-l011`, still reads `alguã`; the clear forms on `bnf-f0014:c1-l044`, `c2-l029`, `c2-l039`, and `c2-l042` remain `algũa`. The first grouped scan audit substantially overestimated final-`a` placement. Later enlarged-line and Issue review had already reassigned several cases, and the dedicated one-candidate-at-a-time human interface in Issue #36 reassigned another **86** `alguã`-family occurrences to tilde-over-`u`. A subsequent targeted scan audit of all 42 remaining final-`a` readings from `f101` onward found 40 further `algũa`-family forms. It retained the visibly final-`a` forms at `bnf-f0105:c1-l038` and `bnf-f0120:c2-l003`. The ledger records those occurrence-level decisions rather than treating `algũa` as an automatic normalization. Genuine final-`a` forms remain and must not be normalized automatically.
 
 The occurrence ledger is [tilde-position-audit.tsv](tilde-position-audit.tsv). It records the page, line identifier, previous text, scan-adjudicated source text, and vowel carrying the mark. Capitalization, plurality, and contraction (`d-`, `n-`) are retained independently of the tilde position.
 

@@ -36,7 +36,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l020` | &emsp;*ças no roſto.* |  |
 | `c1-l021` | Cobi fetçurai, ǒ. *Lizonjear, ou falar cõ* |  |
 | `c1-l022` | &emsp;*certa graça pera contentar.* |  |
-| `c1-l023` | Cobi, uru, ita. *Ter a couſa em ſi alguã gra-* |  |
+| `c1-l023` | Cobi, uru, ita. *Ter a couſa em ſi algũa gra-* |  |
 | `c1-l024` | &emsp;*ça, ou particularidade que contenta. ¶ Item,* |  |
 | `c1-l025` | &emsp;*Ser* Cobito, *& eſtrauagante em falar pala-* |  |
 | `c1-l026` | &emsp;*uras nouas, & exquiſitas. Vt,* Cobite yŭ. |  |
@@ -91,7 +91,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l017` | &emsp;¶ *Item name de hum certo liuro de bom eſ-* |  |
 | `c2-l018` | &emsp;*tilo pera compor.* |  |
 | `c2-l019` | Cǒbun. Tegami, fumi. *Carta, ou papel* |  |
-| `c2-l020` | &emsp;*em que ſe notifica alguã couſa certa a alguem.* |  |
+| `c2-l020` | &emsp;*em que ſe notifica algũa couſa certa a alguem.* |  |
 | `c2-l021` | Cǒbun. *Eſcritura de eſtilo alto, & excellente.* |  |
 | `c2-l022` | Cobune. *Embarcação pequena.* |  |
 | `c2-l023` | Cobura. *Barriga da perna.* |  |

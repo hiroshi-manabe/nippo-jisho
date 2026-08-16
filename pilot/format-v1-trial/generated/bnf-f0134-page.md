@@ -25,12 +25,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l009` | &emsp;*Vt,* Coya iriuo ſuru. *Começar a trabalhar* |  |
 | `c1-l010` | &emsp;*nas obras, & a carpentejar em algũa caſa feita* |  |
 | `c1-l011` | &emsp;*toſcamente. ¶ Item, Maxime no* Cami |  |
-| `c1-l012` | &emsp;Coya iriuo ſuru. *Dar principio a alguã ca-* |  |
+| `c1-l012` | &emsp;Coya iriuo ſuru. *Dar principio a algũa ca-* |  |
 | `c1-l013` | &emsp;*ſa toſca pera nella morar como de empreſtado,* |  |
 | `c1-l014` | &emsp;*depois de queimadas as proprias caſas, ou der-* |  |
 | `c1-l015` | &emsp;*rubadas com a tempeſtade, &c. ¶* Coya- |  |
 | `c1-l016` | &emsp;uo caquru, l, coyagaqeuo ſuru. *Aleuã-* |  |
-| `c1-l017` | &emsp;*tar alguã caſa toſca, & por pouco tẽpo, ou tẽ-* |  |
+| `c1-l017` | &emsp;*tar algũa caſa toſca, & por pouco tẽpo, ou tẽ-* |  |
 | `c1-l018` | &emsp;*da no campo como fazem os ſoldados na guer-* |  |
 | `c1-l019` | &emsp;*ra, &c.* |  |
 | `c1-l020` | Côyacu. *Meizinha como diaquilão, ou em-* |  |

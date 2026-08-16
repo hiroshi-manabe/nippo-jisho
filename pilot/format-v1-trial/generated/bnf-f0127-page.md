@@ -84,9 +84,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l004` | &emsp;*Beneficios grandes.* |  |
 | `c2-l005` | Coqe muxi, u, uita. *Nacerem muitos muſ-* |  |
 | `c2-l006` | &emsp;*gos juntos, & eſpeſſos.* |  |
-| `c2-l007` | Coqẽ. *Carta de venda dalguãs caſas, chão &c.* |  |
+| `c2-l007` | Coqẽ. *Carta de venda dalgũas caſas, chão &c.* |  |
 | `c2-l008` | Côqen. Vxiromi. *Protector, ou aſſiſtente* |  |
-| `c2-l009` | &emsp;*que eſtá por guarda, & defenſão dalguã peſ-* |  |
+| `c2-l009` | &emsp;*que eſtá por guarda, & defenſão dalgũa peſ-* |  |
 | `c2-l010` | &emsp;*ſoa muito nobre. ¶* Coqenuo tçuru. |  |
 | `c2-l011` | &emsp;*Ter, ou fazer eſte officio de protector, &c.* |  |
 | `c2-l012` | Côqennin. *Idem.* |  |

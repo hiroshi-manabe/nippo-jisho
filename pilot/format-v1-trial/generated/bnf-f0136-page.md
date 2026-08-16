@@ -15,7 +15,7 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c1-l001` | &emsp;riuo ſuru. *Lamber os beiços como quem* |  |
-| `c1-l002` | &emsp;*quer dizer alguã couſa, ou deſeja comer o que* |  |
+| `c1-l002` | &emsp;*quer dizer algũa couſa, ou deſeja comer o que* |  |
 | `c1-l003` | &emsp;*vè, &c. ¶* Cuchiuo firaqu, l, aqu- |  |
 | `c1-l004` | &emsp;ru. *Abrir a boca. ¶* Cuchiuo ſoroyu- |  |
 | `c1-l005` | &emsp;ru. *Dizerem todos o meſmo. ¶* Cuchi- |  |
@@ -55,12 +55,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l039` | &emsp;*no falar.* |  |
 | `c1-l040` | Cuchibiqi. *Sonſonete, ou modo de falar, pel-* |  |
 | `c1-l041` | &emsp;*lo qual ſe entende de hum que conſente, ou con-* |  |
-| `c1-l042` | &emsp;*cede alguã couſa, &c.* |  |
+| `c1-l042` | &emsp;*cede algũa couſa, &c.* |  |
 | `c1-l043` | Cuchibiru. *Beiços.* |  |
 | `c1-l044` | Cuchiburi. i. Cuchibiqi. *Modo de falar,* |  |
 | `c1-l045` | &emsp;*ou ſonſonete das palauras.* |  |
 | `c1-l046` | Cuchicu. Nigatçqe. *Certa laya de bambus.* |  |
-| `c1-l047` | Cuchicuxe. *Cuſtume de dizer alguã couſa ſem-* |  |
+| `c1-l047` | Cuchicuxe. *Cuſtume de dizer algũa couſa ſem-* |  |
 | `c1-l048` | &emsp;*pre.* |  |
 
 ## Column 2 running header

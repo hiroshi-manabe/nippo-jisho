@@ -103,12 +103,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l029` | &emsp;*mo juncado, & cuberto deſtas couſas.* |  |
 | `c2-l030` | Chirichirito. Adu. *Modo de deſaparecer* |  |
 | `c2-l031` | &emsp;*às vezes, & tornar aparecer eſtrela, cometa,* |  |
-| `c2-l032` | &emsp;*&c. ¶ Item, Modo de bulir alguã couſa.* |  |
+| `c2-l032` | &emsp;*&c. ¶ Item, Modo de bulir algũa couſa.* |  |
 | `c2-l033` | Chiromecaxi, u, aita. *Fazer bulir, ou* |  |
 | `c2-l034` | &emsp;*mouer como fogo, ou tição, &c. pera que* |  |
 | `c2-l035` | &emsp;*dê lume.* |  |
 | `c2-l036` | Chiromeqi, u, eita. *Bulirſe de cá pera lá, ou* |  |
-| `c2-l037` | &emsp;*de quando em quando alguã couſa como eſtrela* |  |
+| `c2-l037` | &emsp;*de quando em quando algũa couſa como eſtrela* |  |
 | `c2-l038` | &emsp;*por antre nuuẽs que ora ſe vê ora deſaparece.* |  |
 | `c2-l039` | Chiſacu. Voſocu tçucuru. *Lauoura, ou* |  |
 | `c2-l040` | &emsp;*cultivação feita tarde.* |  |

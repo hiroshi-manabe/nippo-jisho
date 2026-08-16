@@ -22,12 +22,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l006` | Cuchuoxù. *Adu. Com pezar, & raiuoſa-* |  |
 | `c1-l007` | &emsp;*mente.* |  |
 | `c1-l008` | Cuchizuſami. *O trazer algum dito, &c.* |  |
-| `c1-l009` | &emsp;*na boca, ou falar alguã couſa por recreação.* |  |
+| `c1-l009` | &emsp;*na boca, ou falar algũa couſa por recreação.* |  |
 | `c1-l010` | Cuchizuſami, u, ôda. *Trazer na boca algũ* |  |
 | `c1-l011` | &emsp;*dito, ou falar por recreação.* |  |
 | `c1-l012` | Cuchizzuqi, u, uita. *Começar a dizer, ou* |  |
-| `c1-l013` | &emsp;*pronunciar alguãs palauras que dantes não po-* |  |
-| `c1-l014` | &emsp;*dia, como o q̃ aprẽdendo alguã oração em latim* |  |
+| `c1-l013` | &emsp;*pronunciar algũas palauras que dantes não po-* |  |
+| `c1-l014` | &emsp;*dia, como o q̃ aprẽdendo algũa oração em latim* |  |
 | `c1-l015` | &emsp;*começaſſe amaſtizar as palauras q̃ dantes não* |  |
 | `c1-l016` | &emsp;*podia. ¶ Item, Começar alguẽ a comer pou-* |  |
 | `c1-l017` | &emsp;*co a pouco, tendo dantes faſtio. Vt,* Nocu- |  |
@@ -47,7 +47,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l031` | &emsp;*do, ou eſcondido.* |  |
 | `c1-l032` | Cucqiô, l, *Potius.* Cuqiô. *Couſa conſuma-* |  |
 | `c1-l033` | &emsp;*da, ou excellente. ¶* Cuqiôno jôzu. *Deſ-* |  |
-| `c1-l034` | &emsp;*tro, & conſumado em alguã arte.* |  |
+| `c1-l034` | &emsp;*tro, & conſumado em algũa arte.* |  |
 | `c1-l035` | Cucqiocu. Magatta ana. *Cauerna, ou coua* |  |
 | `c1-l036` | &emsp;*de rodeos, & voltas.* |  |
 | `c1-l037` | Cucqiocu. Cagami magaru. *Couſa torta co-* |  |
@@ -79,7 +79,7 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c2-l001` | Cucumi. *Tanaz, ou troquez.* |  |
-| `c2-l002` | Cucumi, u, unda. *Ter alguã couſa na boca.* |  |
+| `c2-l002` | Cucumi, u, unda. *Ter algũa couſa na boca.* |  |
 | `c2-l003` | &emsp;¶ *Item ter aferrado com tanaz, &c.* |  |
 | `c2-l004` | Cucumijô. *Carta metida na boca como a que* |  |
 | `c2-l005` | &emsp;*tinha Fôguandono quando morreo.* |  |
@@ -101,7 +101,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l021` | Cucut. Curuximino ana. *Lugar de tormẽtos.* |  |
 | `c2-l022` | Cucutachi. *Grelos de rabãos, ou nabos.* |  |
 | `c2-l023` | Cucuximono. *Modo de tingir peças de ſeda* |  |
-| `c2-l024` | &emsp;*deixando alguãs roſas, ou folhagem de vari-* |  |
+| `c2-l024` | &emsp;*deixando algũas roſas, ou folhagem de vari-* |  |
 | `c2-l025` | &emsp;*as cores.* |  |
 | `c2-l026` | Cuda. *Canella de fiado.* |  |
 | `c2-l027` | Cudai. *Eſpaço, ou ſuſtancia que he fora dos* |  |
@@ -111,7 +111,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l031` | &emsp;*traz. ¶* Cudanno fito. *Homẽ do qual* |  |
 | `c2-l032` | &emsp;*ſe falou atraz.* |  |
 | `c2-l033` | Cudaqe, uru, eta. *Eſmiuçarſe. ¶* Mi, in- |  |
-| `c2-l034` | &emsp;ni cudaquru. *Fazerſe alguã couſa em mi-* |  |
+| `c2-l034` | &emsp;ni cudaquru. *Fazerſe algũa couſa em mi-* |  |
 | `c2-l035` | &emsp;*galhas.* |  |
 | `c2-l036` | Cudaqe chiri, ru, itta. *Eſpedaçandoſe, eſ-* |  |
 | `c2-l037` | &emsp;*palharſe.* |  |

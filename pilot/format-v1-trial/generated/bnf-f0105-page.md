@@ -57,7 +57,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l041` | &emsp;*do gente perto recrear praticando.* |  |
 | `c1-l042` | Chicazzuqi, u, uita. *Chegarſe, ou vir per-* |  |
 | `c1-l043` | &emsp;*to. ¶ Item, Eſtar algum homem aman-* |  |
-| `c1-l044` | &emsp;*cebado com alguã molher, ou pello contrario Vt,* |  |
+| `c1-l044` | &emsp;*cebado com algũa molher, ou pello contrario Vt,* |  |
 | `c1-l045` | &emsp;Võna, l, Voconi chicazzuqu. |  |
 | `c1-l046` | Chicazzuqi. *Amigo, ou amiga. ¶* Chijin |  |
 | `c1-l047` | &emsp;chicazzuqi. *Amigos, & conhecidos.* |  |
@@ -89,7 +89,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l009` | Chichi. Voſoqu voloxi. *Tardança. ¶* |  |
 | `c2-l010` | &emsp;Chichi tçucamatçuru. *Tardar.* |  |
 | `c2-l011` | Chichi. *Pay.* |  |
-| `c2-l012` | Chichibaxiri, u, itta. *Eſtar alguã parte do* |  |
+| `c2-l012` | Chichibaxiri, u, itta. *Eſtar algũa parte do* |  |
 | `c2-l013` | &emsp;*corpo vermelha, ou enſangoentada com o ſan-* |  |
 | `c2-l014` | &emsp;*gue que ſe eſpalha, ou derrama.* |  |
 | `c2-l015` | Chichi faua. *Pay, & may.* |  |
@@ -115,7 +115,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l035` | Chicubocu. Taqe, qi. *Bambu, & aruore, ou* |  |
 | `c2-l036` | &emsp;*paos.* |  |
 | `c2-l037` | Chicucan. Taqe, ſuuo. *Cana em que poem,* |  |
-| `c2-l038` | &emsp;*ou de pendurão alguã couſa, ou vara da embar-* |  |
+| `c2-l038` | &emsp;*ou de pendurão algũa couſa, ou vara da embar-* |  |
 | `c2-l039` | &emsp;*cação. P.* |  |
 | `c2-l040` | Chicuchicu. *Pouco a pouco.* |  |
 | `c2-l041` | Chicuchicuto. *Idem.* |  |
