@@ -88,8 +88,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l014` | &emsp;*joa, &c.* |  |
 | `c2-l015` | Cara. i. Teco. *Pao como alauanca que ſe me-* |  |
 | `c2-l016` | &emsp;*te de baixo dalguã pedra, ou pao por que pu-* |  |
-| `c2-l017` | &emsp;*xão, ou leuão pera alguã parte. X. no Cami* |  |
-| `c2-l018` | &emsp;*ſe diz Teco.* |  |
+| `c2-l017` | &emsp;*xão, ou leuão pera alguã parte. X. no* Cami |  |
+| `c2-l018` | &emsp;*ſe diz* Teco. |  |
 | `c2-l019` | Cara. *Poſpoſição de ablatiuo. Vt,* Coreca- |  |
 | `c2-l020` | &emsp;ra aremade. *Deſdaqui atec olà.* |  |
 | `c2-l021` | Cara. *China.* |  |

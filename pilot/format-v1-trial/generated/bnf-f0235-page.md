@@ -20,7 +20,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l004` | &emsp;*arco, arte de caualgar, de eſcreuer, & cõtar.* |  |
 | `c1-l005` | &emsp;*¶* Nôua Qin, gui, xo, gua. *Arte de* |  |
 | `c1-l006` | &emsp;*tanger inſtrumento muſico, maximè crauo,* |  |
-| `c1-l007` | &emsp;*arte de jogar o go, eſcreuer, e pintar.* |  |
+| `c1-l007` | &emsp;*arte de jogar o* go, *eſcreuer, e pintar.* |  |
 | `c1-l008` | Gueisai. *Artes, & ſaber.* |  |
 | `c1-l009` | Gueixa. Guei arumono. *Homem que ſabe* |  |
 | `c1-l010` | &emsp;*artes, ou tem habilidades.* |  |
@@ -30,7 +30,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l014` | &emsp;*arrancão os cabellos da cabeça os Iapoens.* |  |
 | `c1-l015` | &emsp;*¶ Item, Hum certo bicho que por ſi arranca* |  |
 | `c1-l016` | &emsp;*eſtes cabellos de noite eſtando hum dormindo.* |  |
-| `c1-l017` | &emsp;*No Cami ſe diz,* Guejigueji. |  |
+| `c1-l017` | &emsp;*No* Cami *ſe diz,* Guejigueji. |  |
 | `c1-l018` | Guejiqi, u, ijta. *B. Gaſtar mal, & eſperdi-* |  |
 | `c1-l019` | &emsp;*çar o fato, &c. ¶* Guejiqi vxino. *Gaſ-* |  |
 | `c1-l020` | &emsp;*tar, & eſperdiçar todo o fato.* |  |
@@ -50,8 +50,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l034` | &emsp;*Parece que veo.* Vacai guena. *Pare-* |  |
 | `c1-l035` | &emsp;*ce que he mancebo.* |  |
 | `c1-l036` | Guenbucu. *Por nome de homem aos mininos,* |  |
-| `c1-l037` | &emsp;*& fazer lhes cingir Catana a primeira vez.* |  |
-| `c1-l038` | Guenbutxa. *Fotoque que deſpacha depreſſa,* |  |
+| `c1-l037` | &emsp;*& fazer lhes cingir* Catana *a primeira vez.* |  |
+| `c1-l038` | Guenbutxa. Fotoque *que deſpacha depreſſa,* |  |
 | `c1-l039` | &emsp;*& ouue as petições, ou dà logo premio, ou* |  |
 | `c1-l040` | &emsp;*caſtigo.* |  |
 | `c1-l041` | Guencan. Qibixij ſamuxi. *Grande frio. S.* |  |

@@ -55,7 +55,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l039` | Chùjǒ. *Meo que ſe chega hum pouco ao* |  |
 | `c1-l040` | &emsp;*ſupremo.* |  |
 | `c1-l041` | Chǔjǒ. *Certa dignidade de gente em caſa do* |  |
-| `c1-l042` | &emsp;*Dairi.* |  |
+| `c1-l042` | &emsp;Dairi. |  |
 | `c1-l043` | Chùjù. *Meo do Outono.* |  |
 | `c1-l044` | Chùjun. *Meo da prima uera, ou ſegũda lũa.* |  |
 | `c1-l045` | Chùjun. *Os dez dias do meo dos mezes de* |  |
@@ -76,13 +76,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l002` | Chùmon. *Rol, ou liuro de apontamentos.* |  |
 | `c2-l003` | &emsp;¶ *Item, Rol das couſas que ſe mandão de* |  |
 | `c2-l004` | &emsp;*prezente como peças, agulha, &c. por que* |  |
-| `c2-l005` | &emsp;*ſe he caualo, montante, Tarus, & Sacanas* |  |
-| `c2-l006` | &emsp;*diz ſe Mocurocu.* |  |
+| `c2-l005` | &emsp;*ſe he caualo, montante,* Tarus, *&* Sacanas |  |
+| `c2-l006` | &emsp;*diz ſe* Mocurocu. |  |
 | `c2-l007` | Chùmǒ. Chùnono anni. *Tea de aranha.* |  |
 | `c2-l008` | Chùna. *Couſa arrezoada, ou mediocre.* |  |
 | `c2-l009` | Chùnichi. *Dias do meo da ſomana em que ſa-* |  |
 | `c2-l010` | &emsp;*zem boas obras, ou rezão pollos defuntos: ſa-* |  |
-| `c2-l011` | &emsp;*pão a que chamão Figan que he nos dous Equi-* |  |
+| `c2-l011` | &emsp;*pão a que chamão* Figan *que he nos dous Equi-* |  |
 | `c2-l012` | &emsp;*noctios do anno, em Março, & ſetembro.* |  |
 | `c2-l013` | Chùnin. Nacôdo. i. Nacadachi. *Tercei-* |  |
 | `c2-l014` | &emsp;*ro, ou medianeiro que faz, & ou concerta alguãs* |  |
@@ -93,7 +93,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l019` | &emsp;*des ſeruiços, & aſſinalados.* |  |
 | `c2-l020` | Chùqua. Miyaco. i. Tatôno Miaco. *Ci-* |  |
 | `c2-l021` | &emsp;*dade principal, ou metropole do Reino da Chi-* |  |
-| `c2-l022` | &emsp;*na, tambem ſe aplica ao Miaco de Iapão.* |  |
+| `c2-l022` | &emsp;*na, tambem ſe aplica ao* Miaco *de Iapão.* |  |
 | `c2-l023` | Chùricu. Vchi xiqi. i. Xeibai. *Iuſtiçar,* |  |
 | `c2-l024` | &emsp;*ou matar por juſtiça. ¶* Chùricuno ba. |  |
 | `c2-l025` | &emsp;*Lugar, ou campo onde ſe corta a cabeça, &c.* |  |
@@ -108,7 +108,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l034` | &emsp;*ſobre algum bom ardil, ou meo.* |  |
 | `c2-l035` | Chùrǒ. Chùno toxiyori. *Velhice mediocre, ou* |  |
 | `c2-l036` | &emsp;*idade como de 50. annos pouco mais, ou menos.* |  |
-| `c2-l037` | Chùrǒ. *Molheres de mea laya da caſa do Dairi.* |  |
+| `c2-l037` | Chùrǒ. *Molheres de mea laya da caſa do* Dairi. |  |
 | `c2-l038` | Chùſacu. *Ardil. Vt,* Chùſacuuo meguraſu. |  |
 | `c2-l039` | &emsp;*Ordir, ou tramar algũa couſa.* |  |
 | `c2-l040` | Chùſacu. *Meyo, ou interceſſão pera fazer* |  |

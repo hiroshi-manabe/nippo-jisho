@@ -35,7 +35,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l019` | Caſane jǒyô. *Banquete que vem hum ſobre* |  |
 | `c1-l020` | &emsp;*outro no meſmo dia. Vt,* Finſǒno caſane |  |
 | `c1-l021` | &emsp;jǒyô. *Banquete de muitas partes que a cõ-* |  |
-| `c1-l022` | &emsp;*tece em hum meſmo tempo ao Bǒzo pobre.* |  |
+| `c1-l022` | &emsp;*tece em hum meſmo tempo ao* Bǒzo *pobre.* |  |
 | `c1-l023` | Caſanegui. *Veſtidos huns ſobre os outros.* |  |
 | `c1-l024` | &emsp;*¶* Caſaneguiuo ſuru. *Veſtir veſtido ſobre* |  |
 | `c1-l025` | &emsp;*veſtido.* |  |
@@ -49,7 +49,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l033` | &emsp;*homem molher. S.* |  |
 | `c1-l034` | Caſu. *Couſa que fica depois de eſprimida a ſuſ-* |  |
 | `c1-l035` | &emsp;*tancia, como bagaço das vuas, ou que fica do* |  |
-| `c1-l036` | &emsp;*vinho de Iapão, d'azeite, &c. Item, Fare-* |  |
+| `c1-l036` | &emsp;*vinho de Iapão, d'azeite, &c. Item,* Fare*-* |  |
 | `c1-l037` | &emsp;*los de trigo, &c.* |  |
 | `c1-l038` | Caſucana. *O que ſe vê, ou ouue eſcaçamente,* |  |
 | `c1-l039` | &emsp;*&c. ¶* Caſucana coye. *Voz que eſca-* |  |
@@ -114,9 +114,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l040` | &emsp;noru. *Caualgar ſobre os hombros, ou ir às* |  |
 | `c2-l041` | &emsp;*caualeirõs.* |  |
 | `c2-l042` | Cata comani noſuru. *Por alguem eſcanchu-* |  |
-| `c2-l043` | &emsp;*do com as pernas ſobre os hombros. No Ca-* |  |
-| `c2-l044` | &emsp;*mi em algũas partes ſe diz tambem Catacu-* |  |
-| `c2-l045` | &emsp;*mani noru, l, noſuru.* |  |
+| `c2-l043` | &emsp;*do com as pernas ſobre os hombros. No* Ca- |  |
+| `c2-l044` | &emsp;mi *em algũas partes ſe diz tambem* Catacu- |  |
+| `c2-l045` | &emsp;mani noru, *l,* noſuru. |  |
 | `c2-l046` | Cata. *Parte. Vt,* Chijno catauo ſuru. |  |
 | `c2-l047` | &emsp;*Fazer as partes do amigo.* |  |
 

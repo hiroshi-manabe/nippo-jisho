@@ -111,7 +111,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l031` | Fadaca vma. *Caualo em oſſo. ¶* Fadaca |  |
 | `c2-l032` | &emsp;vmani vchinoru. *Caualgar no caualo em oſſo.* |  |
 | `c2-l033` | Fadagui. *Veſtido junto à carne que ordinaria-* |  |
-| `c2-l034` | &emsp;*mente he Auaxe.* |  |
+| `c2-l034` | &emsp;*mente he* Auaxe. |  |
 | `c2-l035` | Fadaqe. *Eſpaço entre o arco, & corda.* |  |
 | `c2-l036` | Fadaqe, uru, eta. *Almoſaçar o caualo. Vt,* |  |
 | `c2-l037` | &emsp;Vmauo fadaquru. ¶ Fitouo nade fada- |  |

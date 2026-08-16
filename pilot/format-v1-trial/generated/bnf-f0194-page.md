@@ -30,7 +30,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l014` | &emsp;*couſa direita, ou de fronte doutra. Vt,* Ya- |  |
 | `c1-l015` | &emsp;gate Ioſephno von curamauo Iacobno võ- |  |
 | `c1-l016` | &emsp;curumano mayeye fiqimucaye tanaitçu- |  |
-| `c1-l017` | &emsp;tçu. *2. part. Gioſag. Logo fizerão ro-* |  |
+| `c1-l017` | &emsp;tçu. *2. part.* Gioſag. *Logo fizerão ro-* |  |
 | `c1-l018` | &emsp;*dear o carro de Ioſeph pera diante do carro de* |  |
 | `c1-l019` | &emsp;*Iacob.* |  |
 | `c1-l020` | Fiqimuqe, uru, eta. *Puxando por algũa cou-* |  |
@@ -52,7 +52,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l036` | &emsp;*xando, ou mudala a outro lugar.* |  |
 | `c1-l037` | Fiqinobe, uru, eta. *Puxando eſtirar. Vt,* |  |
 | `c1-l038` | &emsp;Ienchoninno xuſocuuo fiqinobete xitani |  |
-| `c1-l039` | &emsp;fiuo tacaxe, &c. *1. part. Gioſag. Eſ-* |  |
+| `c1-l039` | &emsp;fiuo tacaxe, &c. *1. part.* Gioſag. *Eſ-* |  |
 | `c1-l040` | &emsp;*tendendo os pès, & mãos da Sancta, & pon-* |  |
 | `c1-l041` | &emsp;*dolhe fogo de baixo, &c.* |  |
 | `c1-l042` | Fiqinoboxe, ſuru, eta. *Puxando fazer ſobir.* |  |
@@ -76,7 +76,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l002` | &emsp;*barcalo, ou caualgalo, ſubilo, &c.* |  |
 | `c2-l003` | Fiqinuqi, u, uita. *Arrancar como aruores,* |  |
 | `c2-l004` | &emsp;*&c. ¶ Item, Arrancar, ou leuar do mon-* |  |
-| `c2-l005` | &emsp;*tante, Catana, &c.* |  |
+| `c2-l005` | &emsp;*tante,* Catana, *&c.* |  |
 | `c2-l006` | Fiqio. i, Dorinai coto. *Sem rezão, ou ſem* |  |
 | `c2-l007` | &emsp;*juſtiça.* |  |
 | `c2-l008` | Fiqiô. Vide. Fiqeô. |  |

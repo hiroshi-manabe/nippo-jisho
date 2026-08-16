@@ -31,7 +31,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l015` | Catçuge. *Ama, ou molher que cria algũo.* |  |
 | `c1-l016` | Catçuge, uru. *Amançar, ou domeſticar.* |  |
 | `c1-l017` | Catçura. *Hũa laya de molheres q̃ ſobre o ma-* |  |
-| `c1-l018` | &emsp;*is veſtido trazem hũa Catabira de linho por* |  |
+| `c1-l018` | &emsp;*is veſtido trazem hũa* Catabira *de linho por* |  |
 | `c1-l019` | &emsp;*cima, & nacabeça muito toucado, as quaes deſ-* |  |
 | `c1-l020` | &emsp;*correm por diuerſas partes.* |  |
 | `c1-l021` | Catçute. Adu. *De nenhũa qualidade, ou nũ-* |  |
@@ -57,7 +57,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l041` | Catô. P. Cauano fotori. *Borda do rio.* |  |
 | `c1-l042` | Catocu. i. Iyeuo yuzuru coto. *Herãça.* |  |
 | `c1-l043` | &emsp;*¶* Catocuuo yŭ, l, vquiu. *Receber a* |  |
-| `c1-l044` | &emsp;*herança, ou herdar a caſa, ſato, &c.* |  |
+| `c1-l044` | &emsp;*herança, ou herdar a caſa,* ſato, *&c.* |  |
 | `c1-l045` | Catôdo. i. Fijqiuo ſuru. *Porſe da parte de* |  |
 | `c1-l046` | &emsp;*alguem, ou procurar por elle. Vt,* Nuſubi- |  |
 | `c1-l047` | &emsp;teno catôdouoſu mi. *Terçar pello ladrão,* |  |
@@ -79,10 +79,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l005` | &emsp;*¶* Vaga catteni yǒ yǒni xeyo. *Fazei* |  |
 | `c2-l006` | &emsp;*de maneira que quadre a meu modo.* |  |
 | `c2-l007` | Catte. *Lugar onde ſe guardão os petrechos, &* |  |
-| `c2-l008` | &emsp;*peças do Chanoyu.* |  |
+| `c2-l008` | &emsp;*peças do* Chanoyu. |  |
 | `c2-l009` | Catte. *A mão que puxa polla corda do arco q̃* |  |
 | `c2-l010` | &emsp;*he a direita. A outra que tem mão no arco* |  |
-| `c2-l011` | &emsp;*ſe diz Voxite.* |  |
+| `c2-l011` | &emsp;*ſe diz* Voxite. |  |
 | `c2-l012` | Cattô. Cuzu, fugi. *Certo genero de vimes* |  |
 | `c2-l013` | &emsp;*como era.* |  |
 | `c2-l014` | Caua. *Rio, ou ribeira. ¶* Cauauo vata- |  |

@@ -56,11 +56,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l040` | Comatçunagui. *Erua aſſi chamada.* |  |
 | `c1-l041` | Comazarai. *Hum inſtrumento de pao com den-* |  |
 | `c1-l042` | &emsp;*tes de ferro como grade pera tirar as eruas, ou* |  |
-| `c1-l043` | &emsp;*apanhar, & afaſtar o eſterco, &c. No Xi-* |  |
-| `c1-l044` | &emsp;*mo ſe diz Culacaqı. ¶* Comazarai faz- |  |
+| `c1-l043` | &emsp;*apanhar, & afaſtar o eſterco, &c. No* Xi- |  |
+| `c1-l044` | &emsp;mo *ſe diz* Culacaqı. *¶* Comazarai faz- |  |
 | `c1-l045` | &emsp;zure. *Permet. Se diz de gente que preſta* |  |
 | `c1-l046` | &emsp;*pera pouco, ou he como rebotalho, &c.* |  |
-| `c1-l047` | Comazarai fazzure. *Vide Comazarai.* |  |
+| `c1-l047` | Comazarai fazzure. *Vide* Comazarai. |  |
 | `c1-l048` | Come. *Arroz crũ. ¶* Comeuo tçuqu. |  |
 | `c1-l049` | &emsp;*Pilar arroz.* |  |
 
@@ -78,7 +78,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l002` | &emsp;¶ Cateuo xironi comuru. *Meter manti-* |  |
 | `c2-l003` | &emsp;*mentos na fortaleza. ¶* Catanauo comu- |  |
 | `c2-l004` | &emsp;ru, l, tegomen ſuru. *Ter mão em alguẽ* |  |
-| `c2-l005` | &emsp;*que não arranque a Catana.* |  |
+| `c2-l005` | &emsp;*que não arranque a* Catana. |  |
 | `c2-l006` | Comebucuro. *Saco, ou taleiga de arroz.* |  |
 | `c2-l007` | Comedauara. *Fardo de arroz.* |  |
 | `c2-l008` | Comegura. *Gudão, ou celeiro de arroz.* |  |

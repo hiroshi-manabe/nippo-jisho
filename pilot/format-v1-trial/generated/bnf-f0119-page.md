@@ -27,7 +27,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l011` | &emsp;*pir, ou abrir, em metal, pao, &c.* |  |
 | `c1-l012` | Cocudan. i. comacani uchicudacu. *Fazer* |  |
 | `c1-l013` | &emsp;*algũa couſa em migalhas. Vt,* Cocudanni |  |
-| `c1-l014` | &emsp;naſu. *No Cami ſe diz.* Cocuzanni naſu. |  |
+| `c1-l014` | &emsp;naſu. *No* Cami *ſe diz.* Cocuzanni naſu. |  |
 | `c1-l015` | Cocudo, cuni, cuni. *Reinos, & terras.* |  |
 | `c1-l016` | &emsp;¶ Cocudouo foroboſu. *Deſtruir reinos,* |  |
 | `c1-l017` | &emsp;*& terras.* |  |
@@ -78,7 +78,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | &emsp;*O meſmo ſinal feito com tinta preta. Xuin, he* |  |
+| `c2-l001` | &emsp;*O meſmo ſinal feito com tinta preta.* Xuin, *he* |  |
 | `c2-l002` | &emsp;*ſinal feito com tinta vermelha.* |  |
 | `c2-l003` | Cocumin. Cunino tami. *Pouo, ou gente do* |  |
 | `c2-l004` | &emsp;*reino.* |  |
@@ -90,10 +90,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l010` | Cocuri, u, utta. *Eſfregar rijo, ou roçar.* |  |
 | `c2-l011` | Cocusai. *Officio de mandar, ou ordenar al-* |  |
 | `c2-l012` | &emsp;*gũa comarca, ou lugar. Inuſit.* |  |
-| `c2-l013` | Cocuso. *Certa laya de grude feito de Vruxi,* |  |
+| `c2-l013` | Cocuso. *Certa laya de grude feito de* Vruxi, |  |
 | `c2-l014` | &emsp;*& panos de linho cortados.* |  |
 | `c2-l015` | Cocusot. *Hum nome que ſe em poz antigua-* |  |
-| `c2-l016` | &emsp;*mente a hum homem, como eſtano Veige mas* |  |
+| `c2-l016` | &emsp;*mente a hum homem, como eſtano* Veige *mas* |  |
 | `c2-l017` | &emsp;*não he palaura que ſe vſa, he como dizer ſoão* |  |
 | `c2-l018` | &emsp;*preto.* |  |
 | `c2-l019` | Cocuvn. Curui cumo. *Nuuem preta. Vt,* |  |
@@ -111,7 +111,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l031` | &emsp;*aldade ſão contrarios, ou repugnão.* |  |
 | `c2-l032` | Cocuxiqi. Curoi iro. *Cor preta.* |  |
 | `c2-l033` | Cocuxit. Curoi vruxi. *Verniz preto mui-* |  |
-| `c2-l034` | &emsp;*to fino, ou Vruxi preto de Iapão.* |  |
+| `c2-l034` | &emsp;*to fino, ou* Vruxi *preto de Iapão.* |  |
 | `c2-l035` | Cocuxu. Cunino nuxi. *Senhor de reino.* |  |
 | `c2-l036` | Cocuxu. Cuniuo mamoru mono. *O q̃ guar-* |  |
 | `c2-l037` | &emsp;*da, & defende o reino.* |  |
@@ -124,7 +124,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l044` | Cocuyû. Cuni, ſato. *Reino, & pouoação.* |  |
 | `c2-l045` | Cocuzan. Comacani vchicudagu. *Vt,* Co- |  |
 | `c2-l046` | &emsp;cuzanni naſu. *Fazer algũa couſa em pedaços,* |  |
-| `c2-l047` | &emsp;*ou em migalhas. No Ximo ſe diz Cocucan.* |  |
+| `c2-l047` | &emsp;*ou em migalhas. No* Ximo *ſe diz* Cocucan. |  |
 
 ## Printed signature mark
 

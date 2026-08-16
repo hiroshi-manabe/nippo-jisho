@@ -53,7 +53,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l037` | &emsp;*grão caualos. ¶ Item,* Fari. *Agulhão* |  |
 | `c1-l038` | &emsp;*de abelhas, bichos, &c.* |  |
 | `c1-l039` | Fari. Tanja. *Hũa pedra precioſa.* |  |
-| `c1-l040` | Fari. *Traues, ou vigas. No cami ſe diz,* |  |
+| `c1-l040` | Fari. *Traues, ou vigas. No* cami *ſe diz,* |  |
 | `c1-l041` | &emsp;Vtçubari. |  |
 | `c1-l042` | Fari, u, atta. *Eſtender, ou eſtirar. ¶* Qi- |  |
 | `c1-l043` | &emsp;nuuo faru. *Eſtender peças de ſeda delgadas.* |  |

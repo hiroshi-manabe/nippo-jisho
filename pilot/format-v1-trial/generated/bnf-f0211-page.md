@@ -15,7 +15,7 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c1-l001` | Fonxi. Fonno xixǒ. *Primeiro, & proprio* |  |
-| `c1-l002` | &emsp;*meſtre. i, Xaca. Como cuidão os gentios.* |  |
+| `c1-l002` | &emsp;*meſtre. i,* Xaca. *Como cuidão os gentios.* |  |
 | `c1-l003` | Fonxin. *Melius,* Fonjin. Fonno cocoro. |  |
 | `c1-l004` | &emsp;*Proprio ſentido, ou juizo. ¶* Fonxinni |  |
 | `c1-l005` | &emsp;mototçzuqu. *Tornar em ſeu acordo, ou juizo.* |  |
@@ -26,7 +26,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l010` | &emsp;vxinǒ. *Perder o juizo, ou eſmorecer.* |  |
 | `c1-l011` | &emsp;*¶* Fonxǒni naru. *Tornar em ſi. ¶ Item,* |  |
 | `c1-l012` | &emsp;*Suſtancia como eſpiritu de que ſe falla no* |  |
-| `c1-l013` | &emsp;*Buppǒ.* |  |
+| `c1-l013` | &emsp;Buppǒ. |  |
 | `c1-l014` | Fonxocu. *Primeiro offiçio, ou dignidade.* |  |
 | `c1-l015` | Fonxu. *Proprio, ou verdadeiro ſenhor.* |  |
 | `c1-l016` | Fonyacu. *Explicar algũa couſa por outra lin-* |  |
@@ -43,7 +43,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l027` | Foppôuô. *Vt,* Foppôuôno ſanjin. *Tres* |  |
 | `c1-l028` | &emsp;*maneiras de attributos, ou qualidades que ha* |  |
 | `c1-l029` | &emsp;*naquelle primeiro principio de que ſe fala no* |  |
-| `c1-l030` | &emsp;*Buppǒ.* |  |
+| `c1-l030` | &emsp;Buppǒ. |  |
 | `c1-l031` | Foqe. *Vapor, ou bafo que ſae da agua quen-* |  |
 | `c1-l032` | &emsp;*te. ¶* Foqega tatçu. *Aleuantarſe eſte* |  |
 | `c1-l033` | &emsp;*vapor, ou bafo.* |  |
@@ -53,9 +53,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l037` | Fǒqei. Cǒbaxij megumi. *Beneficios, ou mi-* |  |
 | `c1-l038` | &emsp;*mos, & afabilidade que ſe moſtra a alguem* |  |
 | `c1-l039` | &emsp;*falando com corteſia. S.* |  |
-| `c1-l040` | Fôqen. Tacarano qen. *Eſpada de Tenxǒdai-* |  |
+| `c1-l040` | Fôqen. Tacarano qen. *Eſpada de* Tenxǒdai- |  |
 | `c1-l041` | &emsp;*jin, que he hũa das tres peças prezadas que tẽ* |  |
-| `c1-l042` | &emsp;*o Dairi. ¶ Item, Eſpada do Rei. i,* |  |
+| `c1-l042` | &emsp;*o* Dairi. *¶ Item, Eſpada do Rei. i,* |  |
 | `c1-l043` | &emsp;Guioquen. |  |
 | `c1-l044` | Foqet. Chiuo voguino. *O temperar, ou re-* |  |
 | `c1-l045` | &emsp;*fazer o ſangue. S.* |  |
@@ -91,7 +91,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l017` | Foqifoqi. *Adu. Aquelle modo de ſoar a cou-* |  |
 | `c2-l018` | &emsp;*ſa quando ſe quebra como pao ſeco, &c.* |  |
 | `c2-l019` | Fǒqigusa. *Certa erua de que ſe fazem vaſou-* |  |
-| `c2-l020` | &emsp;*ras. No Cami ſe diz,* Fǒqigui. *Porque* |  |
+| `c2-l020` | &emsp;*ras. No* Cami *ſe diz,* Fǒqigui. *Porque* |  |
 | `c2-l021` | &emsp;*he como plantaſinha de pois de grande.* |  |
 | `c2-l022` | Fôqiǒ. Tacarano faco. *Caixão, ou arca de* |  |
 | `c2-l023` | &emsp;*riquezas, ou onde eſtão metidas couſas precioſas.* |  |
@@ -109,7 +109,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l035` | Fôquan. *Certa maneira de frauta.* |  |
 | `c2-l036` | Fora. *Cauerna, ou lapa.* |  |
 | `c2-l037` | Fôracu. *Folguedo como auto, bailo, &c. que* |  |
-| `c2-l038` | &emsp;*ſe faz diante dos Camis, & Fotoques, ou por* |  |
+| `c2-l038` | &emsp;*ſe faz diante dos* Camis, *&* Fotoques, *ou por* |  |
 | `c2-l039` | &emsp;*reſpeito dalgum defunto ja de muito tempo.* |  |
 | `c2-l040` | Fôracu ſuru. *Fazer eſte folguedo.* |  |
 | `c2-l041` | Foragai. i, Forano cai. *Buzio com que cha-* |  |

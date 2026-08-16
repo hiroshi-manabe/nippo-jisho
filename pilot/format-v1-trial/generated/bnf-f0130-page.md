@@ -85,8 +85,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l010` | &emsp;*ſa feita de bronzo.* |  |
 | `c2-l011` | Côtô. Yeno ſotori. *Borda do rio, ou enſeada P.* |  |
 | `c2-l012` | Côtô. *Certa dignidade dos cegos. Item, Cer-* |  |
-| `c2-l013` | &emsp;*ta dignidade que o Dairi concede aos Bon-* |  |
-| `c2-l014` | &emsp;*zos de xôdô.* |  |
+| `c2-l013` | &emsp;*ta dignidade que o* Dairi *concede aos Bon-* |  |
+| `c2-l014` | &emsp;*zos de* xôdô. |  |
 | `c2-l015` | Côtô. *Obſeruancia de regras na policia. Vt,* |  |
 | `c2-l016` | &emsp;Côtôna fito. *Homem obſeruante, &* |  |
 | `c2-l017` | &emsp;*regular nas leis de policia.* |  |
@@ -105,7 +105,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l030` | Cotobagoxi. *O interromper ao que eſtà falan-* |  |
 | `c2-l031` | &emsp;*do. Vt,* Vocotobagoxi naredomo. *A-* |  |
 | `c2-l032` | &emsp;*inda que ſeja cortar o fio da pratica de voſa* |  |
-| `c2-l033` | &emsp;*merce. No Cami, & mais geralmente ſe diz.* |  |
+| `c2-l033` | &emsp;*merce. No* Cami, *& mais geralmente ſe diz.* |  |
 | `c2-l034` | &emsp;Vocotoba nacaba naredomo. *Idem.* |  |
 | `c2-l035` | Cotobatçuqi. *Modo de falar, ou ſom das pa-* |  |
 | `c2-l036` | &emsp;*lauras.* |  |

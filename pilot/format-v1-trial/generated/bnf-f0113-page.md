@@ -34,8 +34,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l018` | &emsp;*nhado, & ſem luſtro.* |  |
 | `c1-l019` | Chǒyǒ. Farunocoto. *Primauera.* |  |
 | `c1-l020` | Chǒza. Nagaiza. *O eſtar muito tempo no* |  |
-| `c1-l021` | &emsp;*zaxiqi, ou durar muito tempo o ajuntamen-* |  |
-| `c1-l022` | &emsp;*to do zaxiqi.* |  |
+| `c1-l021` | &emsp;zaxiqi, *ou durar muito tempo o ajuntamen-* |  |
+| `c1-l022` | &emsp;*to do* zaxiqi. |  |
 | `c1-l023` | Chôzan. i. Giŭzan, caſanaru yama. *Mui-* |  |
 | `c1-l024` | &emsp;*tos montes que pareçem eſtarem hũs ſobre os* |  |
 | `c1-l025` | &emsp;*outros.* |  |
@@ -58,7 +58,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l042` | Chùbat. Vchi, vtçu. i. Xeibai. *Caſtigo* |  |
 | `c1-l043` | &emsp;*de morte. Vt,* Chùbatni voconô. *Iuſ-* |  |
 | `c1-l044` | &emsp;*tiçar, ou ſentenciar à morte.* |  |
-| `c1-l045` | Chùberi. *Guarnição do meo do Feôfoye.* |  |
+| `c1-l045` | Chùberi. *Guarnição do meo do* Feôfoye. |  |
 | `c1-l046` | Chùbon. *Couſa mediocre. Vt,* Chùbon- |  |
 | `c1-l047` | &emsp;chijǒno mono nari. *He couſa mediocre,* |  |
 

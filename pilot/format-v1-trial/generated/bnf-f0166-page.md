@@ -34,7 +34,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l018` | &emsp;*ou ver com reuerencia.* |  |
 | `c1-l019` | Fairiǒ. Vogami riǒzuru. i, Tamauaru. *Re-* |  |
 | `c1-l020` | &emsp;*ceber algũa couſa de peſſoa nobre. Vt,* Ca- |  |
-| `c1-l021` | &emsp;tanauo fairiǒ ſuru. *Receber Catana dal-* |  |
+| `c1-l021` | &emsp;tanauo fairiǒ ſuru. *Receber* Catana *dal-* |  |
 | `c1-l022` | &emsp;*gum ſenhor, ou peſſoa nobre.* |  |
 | `c1-l023` | Fairi, u, itta. *Entrar.* |  |
 | `c1-l024` | Fairino coya. P. i, Xebai iuori. *Choupa-* |  |
@@ -117,7 +117,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l043` | &emsp;*mo grades.* |  |
 | `c2-l044` | Fama. *Praya.* |  |
 | `c2-l045` | Fama. *Pedras que ſe tomão ao contrario ven-* |  |
-| `c2-l046` | &emsp;*cendo no jogo do Go de Iapão.* |  |
+| `c2-l046` | &emsp;*cendo no jogo do* Go *de Iapão.* |  |
 | `c2-l047` | Fama. *Hum circulo de palha, ou de junco que* |  |
 
 ## Catchword

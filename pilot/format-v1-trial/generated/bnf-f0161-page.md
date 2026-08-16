@@ -25,7 +25,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l009` | Fabute, ru, eta. *Moſtrarſe arruſado, ou de* |  |
 | `c1-l010` | &emsp;*ruim ſembrante, &c.* |  |
 | `c1-l011` | Faca. *Vt,* Facagayuqu, l, mairu. *Ir a* |  |
-| `c1-l012` | &emsp;*obra auante, ou luzir. No Ximo ſe diz,* Mi- |  |
+| `c1-l012` | &emsp;*obra auante, ou luzir. No* Ximo *ſe diz,* Mi- |  |
 | `c1-l013` | &emsp;chiga mairu. ¶ Facauo yaru. *Fazer* |  |
 | `c1-l014` | &emsp;*luzir a obra. ¶* Fuxinno tacaga yuca- |  |
 | `c1-l015` | &emsp;nu. *Não luzirem as obras, ou não irem* |  |
@@ -40,7 +40,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l024` | Facague. *Sombra das aſas principalmente* |  |
 | `c1-l025` | &emsp;*do falcão. ¶ Item ſombra das folhas das* |  |
 | `c1-l026` | &emsp;*aruores.* |  |
-| `c1-l027` | Facague. *Deſdentado. No Cami ſe diz,* |  |
+| `c1-l027` | Facague. *Deſdentado. No* Cami *ſe diz,* |  |
 | `c1-l028` | &emsp;facage, l, fanuge. |  |
 | `c1-l029` | Facai, Imaximeno yaburu. *Quebrar a ley* |  |
 | `c1-l030` | &emsp;*ou prohibição.* |  |
@@ -79,7 +79,7 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c2-l001` | Facariya. *Caſa, onde ſe mede, ou vende ar-* |  |
-| `c2-l002` | &emsp;*roz. No Cami ſe diz,* Comeya. |  |
+| `c2-l002` | &emsp;*roz. No* Cami *ſe diz,* Comeya. |  |
 | `c2-l003` | Facariya. *Caſa onde ſe fazem balanças que ſe* |  |
 | `c2-l004` | &emsp;*vſão em Iapão, & na china.* |  |
 | `c2-l005` | Facauara. i, Facadocoro. *Adro, ou campo* |  |
@@ -110,7 +110,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l030` | &emsp;*to modo teſo, ou rijo.* |  |
 | `c2-l031` | Fachifiraqi. *Pedinte.* |  |
 | `c2-l032` | Fachigicu. *Oito liuros, ou partes que tem o Fo-* |  |
-| `c2-l033` | &emsp;*geqiǒ que eſcreueo Xaca.* |  |
+| `c2-l033` | &emsp;*geqiǒ que eſcreueo* Xaca. |  |
 | `c2-l034` | Fachiguire, uru, eta. *Abrirſe, ou gretar o* |  |
 | `c2-l035` | &emsp;*melão, &c. ¶ Item, Fazeremſe gretas nas* |  |
 | `c2-l036` | &emsp;*mãos, ou na carne com frio, ou doença.* |  |

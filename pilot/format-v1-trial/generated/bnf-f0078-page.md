@@ -14,7 +14,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | Caijin. Vmino Cami. *Cami do mar.* |  |
+| `c1-l001` | Caijin. Vmino Cami. Cami *do mar.* |  |
 | `c1-l002` | Caimamiye, uru. P. *Aparecer por hum* |  |
 | `c1-l003` | &emsp;*pouco. ¶* Caqino fima yori caimamiye |  |
 | `c1-l004` | &emsp;tamai geri. *Apareceo por entre as aberturas* |  |
@@ -35,7 +35,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l019` | &emsp;*do o animo, & coração.* |  |
 | `c1-l020` | Cainai. Vmino vchi. *Dentro no mar.* |  |
 | `c1-l021` | Cainan. Minamino vmi. *Mar do ſul.* |  |
-| `c1-l022` | Cainazaxi. *O bailar, ou cãtar diante dos Camis.* |  |
+| `c1-l022` | Cainazaxi. *O bailar, ou cãtar diante dos* Camis. |  |
 | `c1-l023` | Cainen. i. Xinnen, l, Aratamaru toxi. *An-* |  |
 | `c1-l024` | &emsp;*no nouo.* |  |
 | `c1-l025` | Cainocoxi, u, oita. *Deixar por comprar al-* |  |
@@ -53,9 +53,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l037` | &emsp;Fanaga cairacu ſuru. *Abrirem as roſas,* |  |
 | `c1-l038` | &emsp;*ou flores, & cairem deſfolhandoſe.* |  |
 | `c1-l039` | Cairagui. *Hum certo peixe como lixa cuja pel-* |  |
-| `c1-l040` | &emsp;*le ſerue pera cubrir, & ornar os punhos da Ca-* |  |
-| `c1-l041` | &emsp;*tana. ¶* Cairaguizzuca. *Punhos da Ca-* |  |
-| `c1-l042` | &emsp;*tana concertados, & cubertos com eſta pelle.* |  |
+| `c1-l040` | &emsp;*le ſerue pera cubrir, & ornar os punhos da* Ca- |  |
+| `c1-l041` | &emsp;tana. *¶* Cairaguizzuca. *Punhos da* Ca- |  |
+| `c1-l042` | &emsp;tana *concertados, & cubertos com eſta pelle.* |  |
 | `c1-l043` | Cairicu. Vmi cuga. *Mar, & terra, ou por* |  |
 | `c1-l044` | &emsp;*mar, & por terra.* |  |
 | `c1-l045` | Cairiǒ. *Vt,* Cairiǒ manzocu. *Alegria,* |  |
@@ -73,7 +73,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | Cairit. Aratame tadaxij. *Lei dos Fotoqes.* |  |
+| `c2-l001` | Cairit. Aratame tadaxij. *Lei dos* Fotoqes. |  |
 | `c2-l002` | Cairo. Vmino michi. *Caminho do mar, ou* |  |
 | `c2-l003` | &emsp;*por mar.* |  |
 | `c2-l004` | Cairǒ. Vmino toxiyori. i. Yebi. *Lagoſtas,* |  |

@@ -19,7 +19,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l003` | Fuxinqiû. *Hum certo arco pequeno.* |  |
 | `c1-l004` | Fuxiqi. Xirazu. *Não ſaber. Bup.* |  |
 | `c1-l005` | Fuxiqi. *Aruore caida com tormenta, ou de* |  |
-| `c1-l006` | &emsp;*podre, & velha. ¶ Item, No Cami,* |  |
+| `c1-l006` | &emsp;*podre, & velha. ¶ Item, No* Cami, |  |
 | `c1-l007` | &emsp;Fuxiqi. *Aruore, ou pao de muitos noos.* |  |
 | `c1-l008` | Fuxitauore, ruru, eta. *Cair no chão.* |  |
 | `c1-l009` | Fuxiuabi, uru, ita. *Eſtar deitado com triſ-* |  |
@@ -59,8 +59,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l043` | &emsp;*o deſejo, & goſto.* |  |
 | `c1-l044` | Fuxocu. Xocuxezu. *Faſtio. ¶* Fuxocu |  |
 | `c1-l045` | &emsp;ſuru. *Ter faſtio.* |  |
-| `c1-l046` | Fuxôna, mata fuxǒna. *Vide Fuxô, &* |  |
-| `c1-l047` | &emsp;*Fuxǒ.* |  |
+| `c1-l046` | Fuxôna, mata fuxǒna. *Vide* Fuxô, *&* |  |
+| `c1-l047` | &emsp;Fuxǒ. |  |
 
 ## Column 2 running header
 
@@ -114,7 +114,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l034` | &emsp;*nagoa demaſiadamente.* |  |
 | `c2-l035` | Fuzaqe, uru, eta. *Eſtar muito tempo na agoa,* |  |
 | `c2-l036` | &emsp;*& danarſe, ou apodrecer como bate, ma-* |  |
-| `c2-l037` | &emsp;*mes, arroz cozido, &c. No Ximo ſe diz,* |  |
+| `c2-l037` | &emsp;*mes, arroz cozido, &c. No* Ximo *ſe diz,* |  |
 | `c2-l038` | &emsp;Fozaqe, uru, eta. |  |
 | `c2-l039` | Fuyuzare. P. i, Fuyunonaca. *Meo do* |  |
 | `c2-l040` | &emsp;*inuerno.* |  |

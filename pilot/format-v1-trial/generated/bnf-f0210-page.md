@@ -38,7 +38,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l022` | &emsp;*mente ſe via, ou reluzia ſobre as ſellas dos* |  |
 | `c1-l023` | &emsp;*caualos.* |  |
 | `c1-l024` | Fônoqi. *Aruore aſſi chamada de que fazem* |  |
-| `c1-l025` | &emsp;*as bainhas das Catanas.* |  |
+| `c1-l025` | &emsp;*as bainhas das* Catanas. |  |
 | `c1-l026` | Fonouo. *Labareda de fogo. ¶* Fono- |  |
 | `c1-l027` | &emsp;uoga tobichiru. *Saltar, & eſpalharſe a* |  |
 | `c1-l028` | &emsp;*labareda. ¶* Fonouo moye izzuru. *Sair,* |  |
@@ -80,7 +80,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l006` | Fonqen. *Primeira carta de venda que tinha* |  |
 | `c2-l007` | &emsp;*o que comprou as caſas, & a dá alem do V-* |  |
 | `c2-l008` | &emsp;*rigen, a aquelle que as compra delle: & ſe he* |  |
-| `c2-l009` | &emsp;*outra carta mais antigua ſe diz Coqen.* |  |
+| `c2-l009` | &emsp;*outra carta mais antigua ſe diz* Coqen. |  |
 | `c2-l010` | Fonqi. Motouo xiruxu. *Eſcritura, ou hiſ-* |  |
 | `c2-l011` | &emsp;*toria antigua.* |  |
 | `c2-l012` | Fonrai. *Principio, ou deſdo principio ate* |  |

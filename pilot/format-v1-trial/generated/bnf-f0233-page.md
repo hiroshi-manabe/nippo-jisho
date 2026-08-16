@@ -18,7 +18,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l002` | Ganyô. Cauobaxe, catachi. *Roſto, &* |  |
 | `c1-l003` | &emsp;*figura. S.* |  |
 | `c1-l004` | Ganzǒ. Fucumi majinaru. *Hũa certa igua-* |  |
-| `c1-l005` | &emsp;*ria de muitos peixes miſturados feitos em Suxi-* |  |
+| `c1-l005` | &emsp;*ria de muitos peixes miſturados feitos em* Suxi*-* |  |
 | `c1-l006` | &emsp;*mi. S. ¶ Item, Miſtura de varias* |  |
 | `c1-l007` | &emsp;*couſas.* |  |
 | `c1-l008` | Gappato. *Adu. Vide,* Gafato. |  |
@@ -36,7 +36,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l020` | &emsp;*as almas.* |  |
 | `c1-l021` | Gara. *Modo, feição: ſempre vai com outro* |  |
 | `c1-l022` | &emsp;*nome. Vt,* Tocorugara. *Modo, ou fei-* |  |
-| `c1-l023` | &emsp;*ção do lugar. No Cami ſe diz,* Tocorocara. |  |
+| `c1-l023` | &emsp;*ção do lugar. No* Cami *ſe diz,* Tocorocara. |  |
 | `c1-l024` | &emsp;*¶* Iibungara. *Tempo, ou conjunção de tẽ-* |  |
 | `c1-l025` | &emsp;*po em que ha algum trabalho, ou particulari-* |  |
 | `c1-l026` | &emsp;*dade, &c.* |  |
@@ -52,7 +52,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l036` | &emsp;*como campainha, caſcaueis, &c.* |  |
 | `c1-l037` | Gararigararito. *Adu. Idem.* |  |
 | `c1-l038` | Garenbu. *Vuas do mato q̃ cõmunmente chama-* |  |
-| `c1-l039` | &emsp;*mos garebo, alicubi* Gara. *No Cami* Yabu- |  |
+| `c1-l039` | &emsp;*mos garebo, alicubi* Gara. *No* Cami Yabu- |  |
 | `c1-l040` | &emsp;budu. |  |
 | `c1-l041` | Garigarito. *Adu. Modo de ſoar couſa du-* |  |
 | `c1-l042` | &emsp;*ra, & q̃ trinca nos dentes.* |  |

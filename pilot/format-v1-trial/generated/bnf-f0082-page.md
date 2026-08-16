@@ -51,7 +51,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l035` | &emsp;*pel em que ſe eſcreue, & borra facilmente* |  |
 | `c1-l036` | &emsp;*ſem ficar ſinal.* |  |
 | `c1-l037` | Canbara. *Nome de hum lugar que ha no rei-* |  |
-| `c1-l038` | &emsp;*no de Yechijen. ¶ Item, Hũas candeas q̃* |  |
+| `c1-l038` | &emsp;*no de* Yechijen. *¶ Item, Hũas candeas q̃* |  |
 | `c1-l039` | &emsp;*vem deſte lugar. ¶* Canbarayǒji. *Paos de* |  |
 | `c1-l040` | &emsp;*dentes de ſalgueiro que vem deſte lugar.* |  |
 | `c1-l041` | Canbat. i. Ficeri. *Seca.* |  |

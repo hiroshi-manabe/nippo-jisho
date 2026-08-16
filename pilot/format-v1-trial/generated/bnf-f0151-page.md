@@ -42,19 +42,19 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l026` | &emsp;*em lugar de outro. ¶* Daisôni tatçu. *Ir,* |  |
 | `c1-l027` | &emsp;*ou ſair em lugar de outro religioſo.* |  |
 | `c1-l028` | Daisocu. *Feixinho, ou amarrado de lenha. Pa-* |  |
-| `c1-l029` | &emsp;*laura que corre em algũas partes do Goqinai.* |  |
-| `c1-l030` | Daisôjǒ. *Certa dignidade entre os Bonzos de* |  |
-| `c1-l031` | &emsp;*Fiyeno yama.* |  |
+| `c1-l029` | &emsp;*laura que corre em algũas partes do* Goqinai. |  |
+| `c1-l030` | Daisôjǒ. *Certa dignidade entre os* Bonzos *de* |  |
+| `c1-l031` | &emsp;*Fiyeno* yama. |  |
 | `c1-l032` | Daison. Vǒqina ſon. *Grande perda.* |  |
-| `c1-l033` | Daisu. *Certa meſa alta vſada do Chanoyu.* |  |
+| `c1-l033` | Daisu. *Certa meſa alta vſada do* Chanoyu. |  |
 | `c1-l034` | Daitan. Vǒqina qimo. *Grande coração.* |  |
 | `c1-l035` | Daitanna. *Homem de grande coração, &* |  |
 | `c1-l036` | &emsp;*atreuido.* |  |
 | `c1-l037` | Daitet. Vǒqini touoru. *O ter muito pene-* |  |
-| `c1-l038` | &emsp;*trado, & ſabido as couſas do Satori do* |  |
-| `c1-l039` | &emsp;*Buppǒ. ¶* Daigo daitet no fito. *Ho-* |  |
+| `c1-l038` | &emsp;*trado, & ſabido as couſas do* Satori *do* |  |
+| `c1-l039` | &emsp;Buppǒ. *¶* Daigo daitet no fito. *Ho-* |  |
 | `c1-l040` | &emsp;*mem que tem penetrado bem as couſas de ſa-* |  |
-| `c1-l041` | &emsp;*tori, ou meditação dos Ienxus.* |  |
+| `c1-l041` | &emsp;*tori, ou meditação dos* Ienxus. |  |
 | `c1-l042` | Dai vn. Vǒqini atatacanari. *Grãde quentura.* |  |
 | `c1-l043` | Daiuǒ. Vǒqina vǒ. *Grande Rei, ou em-* |  |
 | `c1-l044` | &emsp;*perador.* |  |
@@ -81,24 +81,24 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l001` | &emsp;guru. *Aleuantar grande voz.* |  |
 | `c2-l002` | Daixa. Vǒqina curuma. *Grãde carro.* |  |
 | `c2-l003` | Daixen xecai. *Bup. Grandes mil mundos* |  |
-| `c2-l004` | &emsp;*como ſe conta que ha nas fabulas do Buppǒ.* |  |
+| `c2-l004` | &emsp;*como ſe conta que ha nas fabulas do* Buppǒ. |  |
 | `c2-l005` | Daixi. Vǒqina xixǒ. *Grande meſtre.* |  |
 | `c2-l006` | Daixô. Vǒqinari, chijſaxi. *Grande, &* |  |
 | `c2-l007` | &emsp;*pequeno.* |  |
 | `c2-l008` | Daixǒ. i. Vǒqina xixǒ. *Grande meſtre.* |  |
 | `c2-l009` | Daixǒ. Vǒqina fijiri. *Grande letrado, &* |  |
 | `c2-l010` | &emsp;*virtuoſo.* |  |
-| `c2-l011` | Daixǒ. *Certa dignidade em caſa do Dairi.* |  |
+| `c2-l011` | Daixǒ. *Certa dignidade em caſa do* Dairi. |  |
 | `c2-l012` | Daixǒcocu. i. Daijǒ daijin. *Certa dignida-* |  |
-| `c2-l013` | &emsp;*de principal, ou primeira na caſa do Dairi.* |  |
+| `c2-l013` | &emsp;*de principal, ou primeira na caſa do* Dairi. |  |
 | `c2-l014` | Daiza. Vǒqini zaſuru. *Flor de golfão em* |  |
-| `c2-l015` | &emsp;*que dizem os gentios eſtar aſſentado o Fotoqe.* |  |
+| `c2-l015` | &emsp;*que dizem os gentios eſtar aſſentado o* Fotoqe. |  |
 | `c2-l016` | Daizǒ. Vǒqina zǒ. *Grande elefante.* |  |
 | `c2-l017` | Daizocu. Vǒqina zocu. *Secular, ou muito* |  |
 | `c2-l018` | &emsp;*mundano.* |  |
 | `c2-l019` | Daizui. *Oſſo eminente que eſta logo abaixo do* |  |
 | `c2-l020` | &emsp;*touriço, como cabeça do eſpinhaço.* |  |
-| `c2-l021` | Daizzu. *Mame. Grãos, ou feijões de Iapão.* |  |
+| `c2-l021` | Daizzu. Mame. *Grãos, ou feijões de Iapão.* |  |
 | `c2-l022` | Dama. i. Zǒyacu. *Egoa. ¶ Item, Beſ-* |  |
 | `c2-l023` | &emsp;*ta de carga.* |  |
 | `c2-l024` | Damari, ru, atta. *Ser refalſado, ou malicioſo.* |  |

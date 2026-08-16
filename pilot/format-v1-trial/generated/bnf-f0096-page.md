@@ -18,7 +18,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l002` | Catamayedare. *O veſtir o veſtido com hũa* |  |
 | `c1-l003` | &emsp;*ponta mais comprida que outra. ¶* Cata- |  |
 | `c1-l004` | &emsp;mayedare ni qiru. *Veſtir deſta maneira o qi-* |  |
-| `c1-l005` | &emsp;*mão, ou Catabira.* |  |
+| `c1-l005` | &emsp;*mão, ou* Catabira. |  |
 | `c1-l006` | Catame. *Torto de hum olho. ¶ Item, Hũ* |  |
 | `c1-l007` | &emsp;*ſó olho.* |  |
 | `c1-l008` | Catame, uru, eta. *Fazer duro, ou coalhar.* |  |
@@ -56,7 +56,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l040` | Catan. Nindai, ǒ. *Leuar carga aos hombros.* |  |
 | `c1-l041` | &emsp;*¶* Catanſuru. *Terçar por alguem.* |  |
 | `c1-l042` | Catana. *Eſpada de Iapão. ¶* Catanauo |  |
-| `c1-l043` | &emsp;vtçu, l, tçucuru. *Fazer Catanas. ¶* |  |
+| `c1-l043` | &emsp;vtçu, l, tçucuru. *Fazer* Catanas. *¶* |  |
 | `c1-l044` | &emsp;Catanauo ſayani voſamuru. *Meter a eſpada* |  |
 | `c1-l045` | &emsp;*na bainha. ¶* Catanauo ſaſu. *Cingir* |  |
 | `c1-l046` | &emsp;*eſpada. ¶* Catanauo miguqu. *Alim-* |  |
@@ -72,16 +72,16 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | &emsp;ſuri aguru. *Fazer o ferro da Catana mais* |  |
+| `c2-l001` | &emsp;ſuri aguru. *Fazer o ferro da* Catana *mais* |  |
 | `c2-l002` | &emsp;*curto limandoo, & fazendo os cabos mais com-* |  |
 | `c2-l003` | &emsp;*pridos. ¶* Catanauo ſuriaguru. *Fazer mais* |  |
-| `c2-l004` | &emsp;*curta a Catana cortandoa pellos cabos. ¶* Ca- |  |
+| `c2-l004` | &emsp;*curta a* Catana *cortandoa pellos cabos. ¶* Ca- |  |
 | `c2-l005` | &emsp;tanauo tameſu. *Prouar a eſpada. ¶* Cata- |  |
 | `c2-l006` | &emsp;nauo nuqu. *Arrancar a eſpada. ¶* Ca- |  |
 | `c2-l007` | &emsp;tanaga noru, l, notta. *Ficar a eſpada, em-* |  |
-| `c2-l008` | &emsp;*tortarſe, ou ficar torta a Catana.* |  |
-| `c2-l009` | Catanabucuro. *Sobre bainha da Catana.* |  |
-| `c2-l010` | Catanadamari. *Ter a Catana em que empe-* |  |
+| `c2-l008` | &emsp;*tortarſe, ou ficar torta a* Catana. |  |
+| `c2-l009` | Catanabucuro. *Sobre bainha da* Catana. |  |
+| `c2-l010` | Catanadamari. *Ter a* Catana *em que empe-* |  |
 | `c2-l011` | &emsp;*ça, ou embaça quando corta.* |  |
 | `c2-l012` | Catanano aijiruxi. *Diuiſa que leuão nas ca-* |  |
 | `c2-l013` | &emsp;*tanas os ſoldados de hũa bandeira, ou de* |  |
@@ -96,7 +96,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l022` | Catanori. *Huns limos do mar.* |  |
 | `c2-l023` | Catanori. *Certo grude, ou polme groſſo de* |  |
 | `c2-l024` | &emsp;*arroz, de que vſão os tintureiros.* |  |
-| `c2-l025` | Cataqi. *Inimigo. Voyano cataqi. Inimi-* |  |
+| `c2-l025` | Cataqi. *Inimigo. Voyano* cataqi. *Inimi-* |  |
 | `c2-l026` | &emsp;*go que matou ao pai. ¶* Cataqiuo toru. |  |
 | `c2-l027` | &emsp;*Determinar a alguem por capital inimigo pera* |  |
 | `c2-l028` | &emsp;*o matar.* |  |

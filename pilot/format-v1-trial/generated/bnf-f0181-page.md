@@ -25,7 +25,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1a-l009` | &emsp;*&c. ao caualo.* |  |
 | `c1a-l010` | Fazzuxigane. *Prata, ouro, ou outro metal* |  |
 | `c1a-l011` | &emsp;*que ſe faz deſmanchar, & tira de ſeu lugar* |  |
-| `c1a-l012` | &emsp;*pera ſe gaſtar como da Catana, &c.* |  |
+| `c1a-l012` | &emsp;*pera ſe gaſtar como da* Catana, *&c.* |  |
 | `c1a-l013` | Fazzuye. *Alas que ſeruem aos paſſaros como* |  |
 | `c1a-l014` | &emsp;*de bordão quando eſtão canſados, principalmente* |  |
 | `c1a-l015` | &emsp;*ſe diz, dos falcões. ¶* Fazzuyeuo tçu- |  |
@@ -56,7 +56,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1b-l011` | &emsp;*em dignidade, &c.* |  |
 | `c1b-l012` | Febi. *Cobra.* |  |
 | `c1b-l013` | Febo. *Hũa doença que vem aos meninos como* |  |
-| `c1b-l014` | &emsp;*ſarampão. X. No Cami ſe diz,* Fe- |  |
+| `c1b-l014` | &emsp;*ſarampão. X. No* Cami *ſe diz,* Fe- |  |
 | `c1b-l015` | &emsp;nuno. |  |
 | `c1b-l016` | Febo. *Hum bicho.* |  |
 | `c1b-l017` | Fechima. *Hum certo genero de abobaras como* |  |
@@ -99,7 +99,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l016` | Fefe. i, *Muliebria.* |  |
 | `c2-l017` | Fegue, uru, eta. *De pegarſe, ou deſgrudarſe.* |  |
 | `c2-l018` | Fegui. *Hũas taboinhas quadradas ſobre que po-* |  |
-| `c2-l019` | &emsp;*em o Sacazzuqi, ou algũa iguaria.* |  |
+| `c2-l019` | &emsp;*em o* Sacazzuqi, *ou algũa iguaria.* |  |
 | `c2-l020` | Fegui, u, eida. *Deſapegar, abrir, ou fender.* |  |
 | `c2-l021` | &emsp;*¶ Item,* Itauo fegu. *Fender, ou abrir ta-* |  |
 | `c2-l022` | &emsp;*boas como fazem às taboinhas com que telhão as* |  |
@@ -111,7 +111,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l028` | &emsp;*Xix. Quando os ſoldados eſtão canſados o* |  |
 | `c2-l029` | &emsp;*capitão não tem poder nem brio. S.* |  |
 | `c2-l030` | Fei. *Hũa cana com hũs papeis cortados na põta,* |  |
-| `c2-l031` | &emsp;*conq̃ fazem certas ceremonias diante do Cami.* |  |
+| `c2-l031` | &emsp;*conq̃ fazem certas ceremonias diante do* Cami. |  |
 | `c2-l032` | Fei. *Parede de barro cuberta de taboas, ou pa-* |  |
 | `c2-l033` | &emsp;*lha com que cercão a caſa, ou algum chão.* |  |
 | `c2-l034` | &emsp;*¶* Feiuo tçucuru, l, ſuru. *Aleuantar, ou* |  |
@@ -122,7 +122,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l039` | &emsp;*& quietação.* |  |
 | `c2-l040` | Feibaxira. *Eſteos de pao da parede da cerca.* |  |
 | `c2-l041` | Feica. Miraxino moto. *Ao pee da eſcada do* |  |
-| `c2-l042` | &emsp;*Dairi, aos degraos da qual ſe ſobe conforme a* |  |
+| `c2-l042` | &emsp;Dairi, *aos degraos da qual ſe ſobe conforme a* |  |
 | `c2-l043` | &emsp;*dignidade de cada hum.* |  |
 | `c2-l044` | Feicai. Tegaxe, axigaxe. *Algemas, & gri-* |  |
 | `c2-l045` | &emsp;*lhões. ¶* Feicaino xemeuo cuuayuru. *A-* |  |

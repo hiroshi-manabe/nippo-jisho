@@ -16,13 +16,13 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c1-l001` | Candǒnin. Bup. xizzucana michino fito. |  |
 | `c1-l002` | &emsp;*Peſſoa que tem bem meditado, & penetrado* |  |
-| `c1-l003` | &emsp;*as couſas do goxô dos Ienxus.* |  |
+| `c1-l003` | &emsp;*as couſas do goxô dos* Ienxus. |  |
 | `c1-l004` | Candori. *O que vai ao leme ou gouerna.* |  |
 | `c1-l005` | Cane. *Tinta com que tingem os pentes.* |  |
 | `c1-l006` | &emsp;*¶* Caneuo tçuguru. *Fazer os dentes pretos.* |  |
 | `c1-l007` | Cane. *Metal. Vt,* Caneuo fuqu. *Fun-* |  |
 | `c1-l008` | &emsp;*dir metal. ¶* Caneuo vtçu. *Iurar como* |  |
-| `c1-l009` | &emsp;*cuſtumão os gentios batendo com hũa Catana* |  |
+| `c1-l009` | &emsp;*cuſtumão os gentios batendo com hũa* Catana |  |
 | `c1-l010` | &emsp;*na outra. ¶ Item,* Caneuo vtçu. *Tan-* |  |
 | `c1-l011` | &emsp;*ger batega, ou outro metal que ſoa como cuſtu-* |  |
 | `c1-l012` | &emsp;*mão os gentios chamado por Nenbuc.* |  |

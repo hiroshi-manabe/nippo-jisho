@@ -16,7 +16,7 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c1-l001` | Ficojiri, u, itta. *Arraſtar. Vt,* Cana- |  |
 | `c1-l002` | &emsp;ta cona aye ficojiri, coxxet ſanareba nare- |  |
-| `c1-l003` | &emsp;ni naru. *Secunda parte Gioſag. Arraſtando* |  |
+| `c1-l003` | &emsp;ni naru. *Secunda parte* Gioſag. *Arraſtando* |  |
 | `c1-l004` | &emsp;*o por diuerſas partes deſconjuntarãoſe lhe os* |  |
 | `c1-l005` | &emsp;*membros.* |  |
 | `c1-l006` | Ficqen. Fude ſuzuri. *Pena, & tinteiro.* |  |
@@ -33,7 +33,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l017` | &emsp;*pera dentro.* |  |
 | `c1-l018` | Ficumeqi, qu, eita. *Idem.* |  |
 | `c1-l019` | Ficuzzu. *Folhas miudas, & ſomenos que fi-* |  |
-| `c1-l020` | &emsp;*cão do cha depois de eſcolher o bom. ¶ Item,* |  |
+| `c1-l020` | &emsp;*cão do* cha *depois de eſcolher o bom. ¶ Item,* |  |
 | `c1-l021` | &emsp;*Alimpadura que fica do arroz, &c.* |  |
 | `c1-l022` | Fida. *Prègas, ou dobras, encrespado, &c.* |  |
 | `c1-l023` | &emsp;*¶* Ixôno fidauo toru. *Fazer eſtas do-* |  |
@@ -47,10 +47,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l031` | Fidan. *Segredo, ou pratica, arrezoamento,* |  |
 | `c1-l032` | &emsp;*&c. que ſe diz, ou enſina ſecretamente.* |  |
 | `c1-l033` | Fidari. *Mão, ou parte eſquerda.* |  |
-| `c1-l034` | Fidaridachi. *O tomar a Catana, ou montan-* |  |
+| `c1-l034` | Fidaridachi. *O tomar a* Catana, *ou montan-* |  |
 | `c1-l035` | &emsp;*te com a mão eſquerda diante.* |  |
-| `c1-l036` | Fidarigamaye. *Fabrica de Zaxiqi, ou Chanoyu* |  |
-| `c1-l037` | &emsp;*em que ſe faz o cha à parte eſquerda pondo* |  |
+| `c1-l036` | Fidarigamaye. *Fabrica de* Zaxiqi, *ou* Chanoyu |  |
+| `c1-l037` | &emsp;*em que ſe faz o* cha *à parte eſquerda pondo* |  |
 | `c1-l038` | &emsp;*o hoſpede à direita.* |  |
 | `c1-l039` | Fidariguicchǒ. *Eſquerdo, ou canhoto. B.* |  |
 | `c1-l040` | Fidariguiqi. *Peſſoa eſquerda.* |  |
@@ -73,7 +73,7 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c2-l001` |  | *ſegunda, ou terceira peſſoa.* |
-| `c2-l002` | Fidaxi. *Alimpaduras do arroz, Cha, &c.* |  |
+| `c2-l002` | Fidaxi. *Alimpaduras do arroz,* Cha, *&c.* |  |
 | `c2-l003` | Fidaxi, ſu, aita. *Joeirar, ou ſacudir de ma-* |  |
 | `c2-l004` | &emsp;*neira que cayão as palhas, pao, &c.* |  |
 | `c2-l005` | Fiddai, l, fitdai. *Hũa caixinha com pès em* |  |
@@ -83,7 +83,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l009` | Fideri, l, canbat. *Seca cauſada do ſol.* |  |
 | `c2-l010` | Fideri, ru, etta. Vzzuçu. *Eſcozer, laſtejar,* |  |
 | `c2-l011` | &emsp;*ou arder a chaga, queimadura, &c. X. No* |  |
-| `c2-l012` | &emsp;*Cami ſe diz firaqi.* |  |
+| `c2-l012` | &emsp;Cami *ſe diz* firaqi. |  |
 | `c2-l013` | Fidǒ. Michini arazu. *Sem rezão, ou in-* |  |
 | `c2-l014` | &emsp;*juſtiça. ¶* Fidǒuo ſuru, l, camayuru, l, |  |
 | `c2-l015` | &emsp;voconǒ. *Fazer injuſtiça, & ſem rezão.* |  |

@@ -53,9 +53,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l037` | &emsp;uagu. |  |
 | `c1-l038` | Fitasura, l, fitasurani. *Adu. Modo de ro-* |  |
 | `c1-l039` | &emsp;*gar com humildade, & importunação.* |  |
-| `c1-l040` | Fitatare. *Hũs veſtidos que vſão os Cugues, &* |  |
+| `c1-l040` | Fitatare. *Hũs veſtidos que vſão os* Cugues, *&* |  |
 | `c1-l041` | &emsp;*ſoldados por cima das armas.* |  |
-| `c1-l042` | Fitato. *Adu. i, Fitafitato. Modo de* |  |
+| `c1-l042` | Fitato. *Adu. i,* Fitafitato. *Modo de* |  |
 | `c1-l043` | &emsp;*eſtar pegado, ou de eſtar continuamente junto,* |  |
 | `c1-l044` | &emsp;*ou afferrado, &c.* |  |
 | `c1-l045` | Fitauchi. *Pancadas ſem interpolação. ¶* Fita- |  |

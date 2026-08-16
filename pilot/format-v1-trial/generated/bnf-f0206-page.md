@@ -36,7 +36,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l020` | Focunan. i, Qita, minami. *Norte, Sul.* |  |
 | `c1-l021` | Focuro. *Sinal preto do roſto.* |  |
 | `c1-l022` | Focurocu. *Caminho por terra pera a parte do* |  |
-| `c1-l023` | &emsp;*Norte em reſpeito de Miaco.* |  |
+| `c1-l023` | &emsp;*Norte em reſpeito de* Miaco. |  |
 | `c1-l024` | Focurocudǒ. *Idem.* |  |
 | `c1-l025` | Focusan. Qitano yama. *Montes da parte* |  |
 | `c1-l026` | &emsp;*do Norte.* |  |
@@ -73,7 +73,7 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c2-l001` |  | *pao: poſto q̃ as vezes tẽ hũa argola de ferro q̃* |
-| `c2-l002` | &emsp;*metem por hum pè. No Cami.* |  |
+| `c2-l002` | &emsp;*metem por hum pè. No* Cami. |  |
 | `c2-l003` | Fôden. *Oratorio, ou capella ſeparada onde eſtã.* |  |
 | `c2-l004` | Fôdô. *Bandeira da lei. ¶* Fôdôuo ta- |  |
 | `c2-l005` | &emsp;tçuru. *Propagar a lei.* |  |
@@ -113,12 +113,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l039` | Fodonǒ, l, fodonacu. *Adu. Em breue* |  |
 | `c2-l040` | &emsp;*eſpaço de tempo, ou logo.* |  |
 | `c2-l041` | Fodoqi, u, oita. *Deſatar, ou deſfazer.* |  |
-| `c2-l042` | &emsp;*¶* Guanauo fodocu. *No Ximo comprir o* |  |
-| `c2-l043` | &emsp;*voto. No Cami ſe diz,* Guauo aguru. |  |
+| `c2-l042` | &emsp;*¶* Guanauo fodocu. *No* Ximo *comprir o* |  |
+| `c2-l043` | &emsp;*voto. No* Cami *ſe diz,* Guauo aguru. |  |
 | `c2-l044` | Fodoqi. *O deſatar. Vt,* Fitorodoqini fo- |  |
 | `c2-l045` | &emsp;doite tachiuo toridaſu. *Mon. Deſamarran-* |  |
 | `c2-l046` | &emsp;*do, ou deſatando de hũa vez tirou fora o montan-* |  |
-| `c2-l047` | &emsp;*te. ¶ Item, No Ximo, Obra, ou ſeruiço.* |  |
+| `c2-l047` | &emsp;*te. ¶ Item, No* Ximo, *Obra, ou ſeruiço.* |  |
 
 ## Catchword
 

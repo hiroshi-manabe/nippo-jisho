@@ -36,7 +36,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l020` | Chiuaragi. *Certos çapatos de palha bem feitos* |  |
 | `c1-l021` | &emsp;*de que vſão as molheres.* |  |
 | `c1-l022` | Chiuayafuru. i. *Couſa antigua, ou de muito* |  |
-| `c1-l023` | &emsp;*tempo. Xintô.* |  |
+| `c1-l023` | &emsp;*tempo.* Xintô. |  |
 | `c1-l024` | Chiuototoi, l, chiuototo. *Colaço. i. Irmão* |  |
 | `c1-l025` | &emsp;*de leite.* |  |
 | `c1-l026` | Chixa. Xirumono. *Letrado.* |  |
@@ -55,7 +55,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l039` | Chixô. Chino vye. *Sobre a terra. ¶* Chi- |  |
 | `c1-l040` | &emsp;xôni firefuſu. *Eſtar deitado de bruços ſo-* |  |
 | `c1-l041` | &emsp;*bre a terra.* |  |
-| `c1-l042` | Chixu. Saqeuo voqu. *Pôr vinho no Zaxiqi* |  |
+| `c1-l042` | Chixu. Saqeuo voqu. *Pôr vinho no* Zaxiqi |  |
 | `c1-l043` | &emsp;*pera beber. Vt,* Chixu côçuai. *Ajun-* |  |
 | `c1-l044` | &emsp;*tamento de gente pera beber, & folgar.* |  |
 | `c1-l045` | Chiye. *Saber.* |  |
@@ -104,7 +104,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l024` | Chôbi. Torino vo. *Rabo de paſſaro.* |  |
 | `c2-l025` | Chôbi. Totonoye ſonayuru. *O aparelhar,* |  |
 | `c2-l026` | &emsp;*ou temperar couſa de comer. ¶ Iiẽ, Per-* |  |
-| `c2-l027` | &emsp;*met. No Ximo ſe toma por boa conjunção, o-* |  |
+| `c2-l027` | &emsp;*met. No* Ximo *ſe toma por boa conjunção, o-* |  |
 | `c2-l028` | &emsp;*portunidade, &c.* |  |
 | `c2-l029` | Chǒbiǒ. Nagaqi vazzurai. *Doença cõprida.* |  |
 | `c2-l030` | Chôbǒ. *Viſta apraziuel.* |  |

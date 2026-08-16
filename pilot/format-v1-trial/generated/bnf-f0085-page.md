@@ -23,7 +23,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l007` | &emsp;*ficacia. ¶* Cantan xite inoru. *Fazer* |  |
 | `c1-l008` | &emsp;*deprecações com diligencia, & efficacia.* |  |
 | `c1-l009` | Cantan. Qimo qimo. *Figado.* |  |
-| `c1-l010` | Cantei. Xizzucana niua. *Pateo, ou Niua* |  |
+| `c1-l010` | Cantei. Xizzucana niua. *Pateo, ou* Niua |  |
 | `c1-l011` | &emsp;*deſerta, ſolitaria ou, deſhabitada.* |  |
 | `c1-l012` | Canten. Samui ſora. *Ar frio, ou tempo* |  |
 | `c1-l013` | &emsp;*frio.* |  |
@@ -40,7 +40,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l024` | Canuǒ. Xizzucana camome. *Gaiuota que eſta* |  |
 | `c1-l025` | &emsp;*quieta nagoa.* |  |
 | `c1-l026` | Canuô. *Vide.* Cannǒ. *Porque na pra-* |  |
-| `c1-l027` | &emsp;*tica ſe diz Cannǒ.* |  |
+| `c1-l027` | &emsp;*tica ſe diz* Cannǒ. |  |
 | `c1-l028` | Canxa. Cadamaxijmono. i. *Homem malicio-* |  |
 | `c1-l029` | &emsp;*ſo, ou reſalçado. Melius.* Canja. |  |
 | `c1-l030` | Canxen. Tanino izzumi. *Fonte dos vales.* |  |
@@ -53,9 +53,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l037` | &emsp;*midade.* |  |
 | `c1-l038` | Canxǒ. *Nome de hũa mezinha cheiroſa.* |  |
 | `c1-l039` | Canxu. Samui ſaqe. *Vinho frio aſſi ſe vſa* |  |
-| `c1-l040` | &emsp;*no Cami por vinho que não he quente.* |  |
+| `c1-l040` | &emsp;*no* Cami *por vinho que não he quente.* |  |
 | `c1-l041` | Canxu. Atacacana ſaqe. *Vinho quente. No* |  |
-| `c1-l042` | &emsp;*Cami ſe diz Canno ſaqe.* |  |
+| `c1-l042` | &emsp;Cami *ſe diz* Canno ſaqe. |  |
 | `c1-l043` | Canya. Samui yo. *Noite fria.* |  |
 | `c1-l044` | Canyet. Canji, yorocobu. *Alegrarſe, &* |  |
 | `c1-l045` | &emsp;*louuar interiormente como quando o ſenhor lou-* |  |
@@ -88,7 +88,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l008` | &emsp;*bre os cabellos da cabeça.* |  |
 | `c2-l009` | Canzǒ. Amaqi cuſa. *Alcaçus.* |  |
 | `c2-l010` | Canzo. *Hũa dignidade, ou officio de Bõzos* |  |
-| `c2-l011` | &emsp;*da ſeita dos Ienxus.* |  |
+| `c2-l011` | &emsp;*da ſeita dos* Ienxus. |  |
 | `c2-l012` | Cappato. *Adu. Modo de aleuantarſe de* |  |
 | `c2-l013` | &emsp;*preſſa. Vt,* Cappato voqi agaru. *Ale-* |  |
 | `c2-l014` | &emsp;*uantarſe deſte modo.* |  |

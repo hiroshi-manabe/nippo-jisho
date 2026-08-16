@@ -55,8 +55,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l039` | &emsp;voqu. *Dourar, ou pratear.* Facuuo chi- |  |
 | `c1-l040` | &emsp;raſu. *Semear, ou ſalpicar de ouro, ou prata.* |  |
 | `c1-l041` | Facuba. *Vt,* Facubano xechiye. *Hũa cer-* |  |
-| `c1-l042` | &emsp;*ta feſta que ſe faz pollo Xǒguachi diante do* |  |
-| `c1-l043` | &emsp;*Dairi, ou dalgum ſenhor grande.* |  |
+| `c1-l042` | &emsp;*ta feſta que ſe faz pollo* Xǒguachi *diante do* |  |
+| `c1-l043` | &emsp;Dairi, *ou dalgum ſenhor grande.* |  |
 | `c1-l044` | Facubai. Xiroi vme. *Flores brancas de certas* |  |
 | `c1-l045` | &emsp;*ameixeiras.* |  |
 | `c1-l046` | Facuban. Yûgure. i, Curecacaru jibũ. *Ao* |  |

@@ -47,21 +47,21 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l031` | Buxǔxinna. *Pouco inclinado, ou pouco affei-* |  |
 | `c1-l032` | &emsp;*çoado a algũa couſa.* |  |
 | `c1-l033` | Buxxari. Fotoqeno xari. *Caueira, ou oſſo* |  |
-| `c1-l034` | &emsp;*q̃ fica como reliquia do Fotoqe.* |  |
+| `c1-l034` | &emsp;*q̃ fica como reliquia do* Fotoqe. |  |
 | `c1-l035` | Buxxecai. Fotoqeno xecai. *Lugar onde es-* |  |
-| `c1-l036` | &emsp;*tão os Fotoqes. i. Paraiſo.* |  |
+| `c1-l036` | &emsp;*tão os* Fotoqes. *i. Paraiſo.* |  |
 | `c1-l037` | Buxxet. Fotoqe xet. i. Fotoqeno voxiy e. |  |
-| `c1-l038` | &emsp;*Doutrina, ou preegação immediata do Fotoqe.* |  |
-| `c1-l039` | Buxxi. Fotoqeno co. *Filho do Fotoqe.* |  |
+| `c1-l038` | &emsp;*Doutrina, ou preegação immediata do* Fotoqe. |  |
+| `c1-l039` | Buxxi. Fotoqeno co. *Filho do* Fotoqe. |  |
 | `c1-l040` | Buxxi. i. Fotoqe tçucuri. *Eſtatuario de* |  |
 | `c1-l041` | &emsp;*pagodes.* |  |
 | `c1-l042` | Buxxin. Fotoqeno cocoro. *Coração do* |  |
-| `c1-l043` | &emsp;*fotoqe.* |  |
-| `c1-l044` | Buxxin. Fotoqeno mi. *Corpo, ou ſer do fotoqe.* |  |
-| `c1-l045` | Buxxiya. *Caſa do que faz fotoqes.* |  |
-| `c1-l046` | Buxxo. Fotoqeno tocoro. *Lugar do fotoqe.* |  |
+| `c1-l043` | &emsp;fotoqe. |  |
+| `c1-l044` | Buxxin. Fotoqeno mi. *Corpo, ou ſer do* fotoqe. |  |
+| `c1-l045` | Buxxiya. *Caſa do que faz* fotoqes. |  |
+| `c1-l046` | Buxxo. Fotoqeno tocoro. *Lugar do* fotoqe. |  |
 | `c1-l047` | Buxxǒ. Fotoqeno xǒ. *Ser, & ſubſtan-* |  |
-| `c1-l048` | &emsp;*cia do fotoqe.* |  |
+| `c1-l048` | &emsp;*cia do* fotoqe. |  |
 
 ## Column 2 running header
 
@@ -73,12 +73,12 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2a-l001` | Buxxǒ. *Arroz que ſe poem diante dos fo-* |  |
-| `c2a-l002` | &emsp;*toqes.* |  |
+| `c2a-l001` | Buxxǒ. *Arroz que ſe poem diante dos* fo- |  |
+| `c2a-l002` | &emsp;toqes. |  |
 | `c2a-l003` | Buxxǒqi. *Vazo em que ſe poem eſte arroz.* |  |
 | `c2a-l004` | Buxxu. Fotoqeno tane. *Deſcendentes do* |  |
-| `c2a-l005` | &emsp;*fotoqe.* |  |
-| `c2a-l006` | Buxxu. Fotoqeno te. *Mãos do fotoqe.* |  |
+| `c2a-l005` | &emsp;fotoqe. |  |
+| `c2a-l006` | Buxxu. Fotoqeno te. *Mãos do* fotoqe. |  |
 | `c2a-l007` | Buyexacu. *Falta nos gaſalhados, & com-* |  |
 | `c2a-l008` | &emsp;*primentos.* |  |
 | `c2a-l009` | Buyen. Xiuonaxi. *Couſa freſca ſem ſal, co-* |  |
@@ -119,7 +119,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2b-l006` | &emsp;guerarete. *Rodeando com as* |  |
 | `c2b-l007` | &emsp;*andas. S. palaura de comprimento que ſe diz* |  |
 | `c2b-l008` | &emsp;*honrrãdo a peſſoa que veo rodeando, & cõ tra-* |  |
-| `c2b-l009` | &emsp;*balho no Norimono.* |  |
+| `c2b-l009` | &emsp;*balho no* Norimono. |  |
 | `c2b-l010` | Ca. Cõbaxij. *Cheiro, ou perfume. ¶* Ca- |  |
 | `c2b-l011` | &emsp;ga vçuru. *Tomar algũa couſa, ou cheiro de* |  |
 | `c2b-l012` | &emsp;*outra. ¶* Caga qicoyuru. *Sentir ſe bom* |  |

@@ -118,7 +118,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l028` | &emsp;*eſpeſſa, como acipreſtre.* |  |
 | `c2-l029` | Biacuxiqi. Xiroi iro. *Cor branca.* |  |
 | `c2-l030` | Biacuye. *O eſtar em corpo ſem calções os* |  |
-| `c2-l031` | &emsp;*ſeculares, & ſem Coromo os Bôzos como* |  |
+| `c2-l031` | &emsp;*ſeculares, & ſem* Coromo *os* Bôzos *como* |  |
 | `c2-l032` | &emsp;*quem eſta mal deſpoſto, deſconcertado no ves-* |  |
 | `c2-l033` | &emsp;*tido. ¶* Biacuyede iru. *Eſtar aſſi* |  |
 | `c2-l034` | &emsp;*mal compoſto, & atauiado.* |  |

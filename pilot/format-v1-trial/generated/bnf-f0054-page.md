@@ -42,7 +42,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l026` | &emsp;*do nace.* |  |
 | `c1-l027` | Benyei. Muchino cague. *Sombra da vara* |  |
 | `c1-l028` | &emsp;*com que ſe dà no caualo.* |  |
-| `c1-l029` | Benzaiten. i. Fucuno cami. *Cami, ou Deos* |  |
+| `c1-l029` | Benzaiten. i. Fucuno cami. Cami, *ou Deos* |  |
 | `c1-l030` | &emsp;*das riquezas, que os gentios venerão.* |  |
 | `c1-l031` | Benzaxi. *Cabeça dos peſcadores a quẽ o ſenhor* |  |
 | `c1-l032` | &emsp;*da ordem do que ſe hade fazer. ¶ Item,* |  |

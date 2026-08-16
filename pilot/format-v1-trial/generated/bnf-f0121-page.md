@@ -24,7 +24,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l008` | &emsp;*ſobre que poem o ſacazzùqi.* |  |
 | `c1-l009` | Cǒgai. *Hum ferro amanchirado caniuete de* |  |
 | `c1-l010` | &emsp;*cobre preto, ou dourado que ſe mete em hũa* |  |
-| `c1-l011` | &emsp;*ilharga da bainha da catana.* |  |
+| `c1-l011` | &emsp;*ilharga da bainha da* catana. |  |
 | `c1-l012` | Cǒgai. *Hum inſtrumento com que as molheres* |  |
 | `c1-l013` | &emsp;*conſertão os cabellos.* |  |
 | `c1-l014` | Cogaina. *Braço deſdo cotouelo atee o ombro.* |  |
@@ -37,14 +37,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l021` | Coganeguſa. *Erua aſſi chamada.* |  |
 | `c1-l022` | Coganeguſari. *Cadea de ouro.* |  |
 | `c1-l023` | Cogane menuqi. *Hũas como boninas, ou chapas* |  |
-| `c1-l024` | &emsp;*de ouro que poem nos cabos da catana por* |  |
+| `c1-l024` | &emsp;*de ouro que poem nos cabos da* catana *por* |  |
 | `c1-l025` | &emsp;*ornato. ¶ Item, Certa eſpecie de boninas* |  |
 | `c1-l026` | &emsp;*do Outono.* |  |
 | `c1-l027` | Cogane muxi. *Hum bichinho a que luzem as* |  |
 | `c1-l028` | &emsp;*azas como pulgões.* |  |
 | `c1-l029` | Coganezane. *Certo feitio de armas.* |  |
 | `c1-l030` | Coganezzucuri. *Certos lauores, ou ornato de* |  |
-| `c1-l031` | &emsp;*ouro da Catana, ou montante.* |  |
+| `c1-l031` | &emsp;*ouro da* Catana, *ou montante.* |  |
 | `c1-l032` | Cogaracaxi, ſu, aita. *Torrar, ou aſſar muito* |  |
 | `c1-l033` | &emsp;*ao fogo de maneira que fique eſturrado.* |  |
 | `c1-l034` | Cogaraxi. P. Aqino caje. *Vento de Ou-* |  |
@@ -80,13 +80,13 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c2-l001` | Cogaſa. *Sarna miuda.* |  |
 | `c2-l002` | Cogatana. *Caniuete, ou faca.* |  |
-| `c2-l003` | Cogatanabuxe. *X. No Cami cogatana* |  |
+| `c2-l003` | Cogatanabuxe. *X. No* Cami cogatana |  |
 | `c2-l004` | &emsp;*zaxi. Vide infra.* |  |
 | `c2-l005` | Cogatanazaxi. *Lugar do caniuete em hũa par-* |  |
-| `c2-l006` | &emsp;*te da bainha da Catana.* |  |
+| `c2-l006` | &emsp;*te da bainha da* Catana. |  |
 | `c2-l007` | Cogaua. *Rio, ou ribeira pequena.* |  |
 | `c2-l008` | Cogaxi. *Arroz em pó com outras miſturas, q̃* |  |
-| `c2-l009` | &emsp;*ſe bebe como Cha.* |  |
+| `c2-l009` | &emsp;*ſe bebe como* Cha. |  |
 | `c2-l010` | Cogaxi, ſu, aita. *Torrar algũa couſa.* |  |
 | `c2-l011` | &emsp;¶ Muneuo cogaſu. *Affligirſe muito, ou* |  |
 | `c2-l012` | &emsp;*com amor, ou com cuidados, &c.* |  |
@@ -119,9 +119,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l039` | &emsp;*pigado arroz, &c. X.* |  |
 | `c2-l040` | Cogui ariqi, u, uita. *Ir a remo de cá pera lá.* |  |
 | `c2-l041` | Cogui idaxi, ſu, aita. *Irſe ſaindo a remo, ou* |  |
-| `c2-l042` | &emsp;*botar a Fune remando.* |  |
+| `c2-l042` | &emsp;*botar a* Fune *remando.* |  |
 | `c2-l043` | Coguimodoxi, ſu, oita. *Virar, ou tornar com* |  |
-| `c2-l044` | &emsp;*a Fune a remo.* |  |
+| `c2-l044` | &emsp;*a* Fune *a remo.* |  |
 | `c2-l045` | Coguinarabe, uru, eta. *Fazer remar apar* |  |
 | `c2-l046` | &emsp;*duas, ou mais Funes.* |  |
 | `c2-l047` | Côguiǒ. Vocoxi voconǒ. *Excitar, ou per-* |  |

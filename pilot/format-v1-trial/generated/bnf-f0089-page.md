@@ -30,12 +30,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l014` | &emsp;*ao que eſtá eſcrito. ¶ Item, Per met.* |  |
 | `c1-l015` | &emsp;*Contar a algum, ou metelo no numero de outros.* |  |
 | `c1-l016` | Caqicuyǒji, uru, ita. *Eſcreuendo alguã cou-* |  |
-| `c1-l017` | &emsp;*ſa offerecela ao Fotoque.* |  |
+| `c1-l017` | &emsp;*ſa offerecela ao* Fotoque. |  |
 | `c1-l018` | Caqidaxi, ſu, aita. *Tirar alguã couſa aos hõ-* |  |
 | `c1-l019` | &emsp;*bros, ou nas mãos. Vt,* Ano biǒbuuo |  |
-| `c1-l020` | &emsp;caqidaxe. *Tirai fora aquelle biǒbu.* |  |
-| `c1-l021` | Caqidouori. *Erua aſſi chamada. No cami* |  |
-| `c1-l022` | &emsp;*ſe diz Caqidouoxi.* |  |
+| `c1-l020` | &emsp;caqidaxe. *Tirai fora aquelle* biǒbu. |  |
+| `c1-l021` | Caqidouori. *Erua aſſi chamada. No* cami |  |
+| `c1-l022` | &emsp;*ſe diz* Caqidouoxi. |  |
 | `c1-l023` | Caqifuxe, uru, eta. *Tomando a alguem* |  |
 | `c1-l024` | &emsp;*nas mãos deitalo. Vt,* Fizano vyeni ca- |  |
 | `c1-l025` | &emsp;qifuxeta. *Encoſtouo ſobre os joelhos, ou* |  |
@@ -53,7 +53,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l037` | Caqimidaxi, ſu, aita. *Emburilhar, ou deſ-* |  |
 | `c1-l038` | &emsp;*concertar. Vt,* Cami caqimidaſu. *Deſ-* |  |
 | `c1-l039` | &emsp;*concertar, & empeçar os cabellos.* |  |
-| `c1-l040` | Caqin. Tanjǒno qizu. i. Chijocu. *Inju-* |  |
+| `c1-l040` | Caqin. Tanjǒno qizu. i. Chijocu. Inju*-* |  |
 | `c1-l041` | &emsp;*ria. Vt,* Xǒgaino caqin nari. *He a* |  |
 | `c1-l042` | &emsp;*fronta em quanto viuer, ou de toda a vida.* |  |
 | `c1-l043` | Caqinade, zzuru, deta. *Aſſagar pondo a* |  |
@@ -90,7 +90,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l010` | Caqine. *Raiz, ou pé da ſebe.* |  |
 | `c2-l011` | Caqinobori, ru, otta. *Sobir trepando com* |  |
 | `c2-l012` | &emsp;*as mãos. Vt,* Yumino fazuuo yuano fiza- |  |
-| `c2-l013` | &emsp;mani uegui tatete caqinobotta. *Feiqe.* |  |
+| `c2-l013` | &emsp;mani uegui tatete caqinobotta. Feiqe. |  |
 | `c2-l014` | &emsp;*Lib. 1. Metendo bem a ponta do arco an-* |  |
 | `c2-l015` | &emsp;*tre os penedos, ou rocha trepou.* |  |
 | `c2-l016` | Caqinǒgi. *Figueira de Iapão.* |  |

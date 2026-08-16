@@ -24,10 +24,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l008` | &emsp;*co montes, ou elefante, & corno.* |  |
 | `c1-l009` | Guecai. *Eſte mundo inferior.* |  |
 | `c1-l010` | Guecan. *Os derradeiros dez dias do mes em cõ-* |  |
-| `c1-l011` | &emsp;*paração de Chǔcan, jǒcan. Que ſão os dez do* |  |
+| `c1-l011` | &emsp;*paração de* Chǔcan, *jǒcan. Que ſão os dez do* |  |
 | `c1-l012` | &emsp;*meo, & os do principio.* |  |
 | `c1-l013` | Guechacu. Cudaritçugu. *Chegar vindo do* |  |
-| `c1-l014` | &emsp;*Miyaco, ou de outra parte ſuperior.* |  |
+| `c1-l014` | &emsp;Miyaco, *ou de outra parte ſuperior.* |  |
 | `c1-l015` | Guechi. Xitano chiye. *Pouco ſaber. Vt,* |  |
 | `c1-l016` | &emsp;Guecon guechina fito. *Homem de pouco ſa-* |  |
 | `c1-l017` | &emsp;*ber, & fraca habilidade.* |  |
@@ -36,8 +36,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l020` | &emsp;*& no demais he temperado, modeſto, & apri-* |  |
 | `c1-l021` | &emsp;*morado.* |  |
 | `c1-l022` | Guecǒ. Cudaritçucǒ. *Decer de lugar alto,* |  |
-| `c1-l023` | &emsp;*& principalmente do Miyaco.* |  |
-| `c1-l024` | Guecocu. Cuniye cudari. *Tornar do Miya-* |  |
+| `c1-l023` | &emsp;*& principalmente do* Miyaco. |  |
+| `c1-l024` | Guecocu. Cuniye cudari. *Tornar do* Miya*-* |  |
 | `c1-l025` | &emsp;*co pera ſeu reino.* |  |
 | `c1-l026` | Guecocujǒ. Ximo, vyeni catçu. *Sendo bai-* |  |
 | `c1-l027` | &emsp;*xo, & criado, por ſuas boas partes, & induſ-* |  |
@@ -45,13 +45,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l029` | &emsp;*& o ſenhor vir a ſer criado, ou baixo.* |  |
 | `c1-l030` | Guecǒdǒ. Cudarimucǒ michi. *Caminho,* |  |
 | `c1-l031` | &emsp;*polo qual ſe dece de lugar alto, como quando* |  |
-| `c1-l032` | &emsp;*vem de viſitar o Cami, ou Fotoque.* |  |
+| `c1-l032` | &emsp;*vem de viſitar o* Cami, *ou* Fotoque. |  |
 | `c1-l033` | Guecon. i, Qiconno naimono. *Peſſoa de* |  |
 | `c1-l034` | &emsp;*fraca compreẽſão, & q̃ não chega ao cabo nem* |  |
 | `c1-l035` | &emsp;*perſeuera, &c. ¶* Jǒcon. *O que tem* |  |
 | `c1-l036` | &emsp;*vigor, & perſeuera.* |  |
 | `c1-l037` | Guecqei. *Nome de hũa dignidade, ou nobres* |  |
-| `c1-l038` | &emsp;*que ſeruem ao Dairi.* |  |
+| `c1-l038` | &emsp;*que ſeruem ao* Dairi. |  |
 | `c1-l039` | Guecqiǔ. Tçuqino miya. *Caſa que imagi-* |  |
 | `c1-l040` | &emsp;*não os gẽtios eſtar dentro da lũa onde hum como* |  |
 | `c1-l041` | &emsp;*Anjo a faz crecer, & minguar.* |  |
@@ -83,11 +83,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l009` | &emsp;*xões, & vicios.* |  |
 | `c2-l010` | Gueden. i, Zocuxo. *Liuros de couſas hu-* |  |
 | `c2-l011` | &emsp;*manas, & ſeculares. ¶* Naiden. *Liuro* |  |
-| `c2-l012` | &emsp;*que trata de couſas do Buppô.* |  |
+| `c2-l012` | &emsp;*que trata de couſas do* Buppô. |  |
 | `c2-l013` | Guedǒ. *Fazer mal, ou empecer. Vt,* Gue- |  |
 | `c2-l014` | &emsp;dǒuo naſu. *¶ Item, Permet. Cerimoni-* |  |
 | `c2-l015` | &emsp;*as, ou deprecações que fazem os feiticeiros, ou* |  |
-| `c2-l016` | &emsp;*Yamabuxis pera botar o diabo fora, ou pera ou-* |  |
+| `c2-l016` | &emsp;Yamabuxis *pera botar o diabo fora, ou pera ou-* |  |
 | `c2-l017` | &emsp;*tro effeito.* |  |
 | `c2-l018` | Guedocu. *Hũa certa mezinha.* |  |
 | `c2-l019` | Guefai. Xitano tomogara. *Gente baixa, ou* |  |

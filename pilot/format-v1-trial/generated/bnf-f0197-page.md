@@ -25,17 +25,17 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l009` | &emsp;*recer a couſa de preſſa como abano que ſe arre-* |  |
 | `c1-l010` | &emsp;*meſſa, &c.* |  |
 | `c1-l011` | Firata, l, firada. *Embarcação larga, & bai-* |  |
-| `c1-l012` | &emsp;*xa como Fune do rio.* |  |
+| `c1-l012` | &emsp;*xa como* Fune *do rio.* |  |
 | `c1-l013` | Firataqe. *Cugumelos que nacem aos pès das* |  |
 | `c1-l014` | &emsp;*aruores.* |  |
 | `c1-l015` | Firauchi. *O tecer algũa couſa larga como fitas,* |  |
-| `c1-l016` | &emsp;*&c. Vt,* Firauchino vobi. *Fita, ou cingi-* |  |
+| `c1-l016` | &emsp;*&c. Vt,* Firauchino vobi. Fita, *ou cingi-* |  |
 | `c1-l017` | &emsp;*douro largo. ¶ Item, O dar de pancha cõ* |  |
-| `c1-l018` | &emsp;*a Catana.* |  |
+| `c1-l018` | &emsp;*a* Catana. |  |
 | `c1-l019` | Firazaya. *Bainha larga.* |  |
 | `c1-l020` | Firazzuqe. *O chegar a embarcação atrauéſſa-* |  |
 | `c1-l021` | &emsp;*da. Vt,* Firazzuqeni xeyo. *Chegai* |  |
-| `c1-l022` | &emsp;*perto a Fune de ilharga.* |  |
+| `c1-l022` | &emsp;*perto a* Fune *de ilharga.* |  |
 | `c1-l023` | Firazzuqeno vobi. *Cinto, ou cingidouro de* |  |
 | `c1-l024` | &emsp;*molher muito largo.* |  |
 | `c1-l025` | Firazzutçumi. *Maneira de lençol de linho ca-* |  |
@@ -43,7 +43,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l027` | Firefuxi, ſu, uita. *Deitarſe de bruços.* |  |
 | `c1-l028` | Firei. Rini arazu. *Sem deuida ceremonia,* |  |
 | `c1-l029` | &emsp;*ou corteſia. Vt,* Xinua fireiuo vqezu. |  |
-| `c1-l030` | &emsp;*O Came não aceita offertas ſem as deuidas ce-* |  |
+| `c1-l030` | &emsp;*O* Came *não aceita offertas ſem as deuidas ce-* |  |
 | `c1-l031` | &emsp;*remonias.* |  |
 | `c1-l032` | Firei. Tamexini arazu. *Couſa que não he or-* |  |
 | `c1-l033` | &emsp;*dinaria, & cuſtumada.* |  |

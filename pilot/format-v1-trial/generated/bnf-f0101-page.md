@@ -30,7 +30,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l014` | &emsp;xocu. *Officio, ou arte de algũa caſa, ou fami-* |  |
 | `c1-l015` | &emsp;*lia que vem por dedução.* |  |
 | `c1-l016` | Caxu. *Plantas que tem a cabeça, ou raiz na* |  |
-| `c1-l017` | &emsp;*terra vide jôxu.* |  |
+| `c1-l017` | &emsp;*terra vide* jôxu. |  |
 | `c1-l018` | Caxucu. Fuſun naru coto. *Caſarſe.* Caxxucu |  |
 | `c1-l019` | Caxxen. Auaxe tatacô. *Batalha.* |  |
 | `c1-l020` | Caxxi, ſu, ita. *Ter ſede.* |  |
@@ -51,7 +51,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l035` | Cayacu. Cuſurino cuuayuru. *Mezinha que* |  |
 | `c1-l036` | &emsp;*ſe acrecenta fora do regimento ordinario pera* |  |
 | `c1-l037` | &emsp;*algum effeito.* |  |
-| `c1-l038` | Cayairo. *Cor de hũa fruita chamada caya,* |  |
+| `c1-l038` | Cayairo. *Cor de hũa fruita chamada* caya, |  |
 | `c1-l039` | &emsp;*como amarelo.* |  |
 | `c1-l040` | Cayainuxiro. *Eſteira de palha.* |  |
 | `c1-l041` | Cayanone. *Raiz de erua com que cobrem* |  |
@@ -118,7 +118,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l038` | &emsp;*em os peccados. ¶* Acouo cayerimiru. *O-* |  |
 | `c2-l039` | &emsp;*lhar pera traz.* |  |
 | `c2-l040` | Cayeriqitari, ru, atta. *Tornar do vir.* |  |
-| `c2-l041` | Cayeru. *Poſto q̃ na pratica ſe diz Cairu. Raiz.* |  |
+| `c2-l041` | Cayeru. *Poſto q̃ na pratica ſe diz* Cairu. *Raiz.* |  |
 | `c2-l042` | Cayeſa. P. i. Cayeriſa. *Tornada.* |  |
 | `c2-l043` | Cayetçugaqi, X. i. Faxigaqi, l, ſedegaqi. |  |
 | `c2-l044` | &emsp;*Repetição que ſe faz no principio da carta* |  |

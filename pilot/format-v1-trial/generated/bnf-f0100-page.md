@@ -110,7 +110,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l036` | &emsp;*los cabellos de cabeça. Vt,* Caxira mida- |  |
 | `c2-l037` | &emsp;ruru. *Ter os cabellos deſconcertados. ¶* Ca- |  |
 | `c2-l038` | &emsp;xirauo marumuru. *Rapar toda a cabeça* |  |
-| `c2-l039` | &emsp;*fazendoſe Bôzo, ou rapado. ¶* Caxirauo |  |
+| `c2-l039` | &emsp;*fazendoſe* Bôzo, *ou rapado. ¶* Caxirauo |  |
 | `c2-l040` | &emsp;qezuru. *Pentear a cabeça. ¶* Caxi- |  |
 | `c2-l041` | &emsp;rauo ſoru. *Raparſe. ¶* Caxirauo vo- |  |
 | `c2-l042` | &emsp;reſu. *Raparſe a primeira vez. ¶* Caxi- |  |
@@ -118,7 +118,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l044` | &emsp;rauo yu. *Amarrar os cabellos da cabeça.* |  |
 | `c2-l045` | Caxiragaxira. *Cabeças, ou principaes.* |  |
 | `c2-l046` | Caxira, ijuara. *Palha de arroz q̃ ſe guarda ẽ* |  |
-| `c2-l047` | &emsp;*caſa eſcolhida no cami ſe diz. Suguyinata.* |  |
+| `c2-l047` | &emsp;*caſa eſcolhida no* cami *ſe diz.* Suguyinata. |  |
 
 ## Catchword
 

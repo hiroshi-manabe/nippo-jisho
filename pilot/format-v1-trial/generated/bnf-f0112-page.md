@@ -40,8 +40,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l024` | Chôriacu. *Ardil.* |  |
 | `c1-l025` | Chǒriŭ. Minaguiri nagaruru. *Corrente do* |  |
 | `c1-l026` | &emsp;*rio com impeto.* |  |
-| `c1-l027` | Chǒrǒ. *Dignidade principal entre os Bonzos:* |  |
-| `c1-l028` | &emsp;*ou Bonzos deſta dignidade.* |  |
+| `c1-l027` | Chǒrǒ. *Dignidade principal entre os* Bonzos: |  |
+| `c1-l028` | &emsp;*ou* Bonzos *deſta dignidade.* |  |
 | `c1-l029` | Chôrô. Azaqeri, u. *Eſcarnecer.* |  |
 | `c1-l030` | Chôro. Axitano tçuyu. *Orualho da manhaã.* |  |
 | `c1-l031` | Chorocu. Inoxixi, canoxixi. *Porco do ma-* |  |
@@ -56,7 +56,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l040` | &emsp;*tar o comer.* |  |
 | `c1-l041` | Chôsainin. *O que faz, ou tempera o comer.* |  |
 | `c1-l042` | Chôsan. Axita mairu. *O ir polla manhaã a to-* |  |
-| `c1-l043` | &emsp;*mar os pontos de meditação. ¶ Boſan. O ir* |  |
+| `c1-l043` | &emsp;*mar os pontos de meditação. ¶* Boſan. *O ir* |  |
 | `c1-l044` | &emsp;*à tarde dar conta deſtes pontos. ſenxii.* |  |
 | `c1-l045` | Chotan. Inoxixino qimo. *Figado, ou bofes* |  |
 | `c1-l046` | &emsp;*de porco do mato.* |  |
@@ -75,9 +75,9 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c2-l001` | Chôtat. Totonoye taſuru. *O aparelhar,* |  |
 | `c2-l002` | &emsp;*& negociar alguã couſa.* |  |
-| `c2-l003` | Chôtei. *Pateo, ou Nina del Rei.* |  |
+| `c2-l003` | Chôtei. *Pateo, ou* Nina *del Rei.* |  |
 | `c2-l004` | Chôteqi. *Inimigo del Rei.* |  |
-| `c2-l005` | Chǒtǒ, l, potius chǒdǒ. Nagai michi. *Cami-* |  |
+| `c2-l005` | Chǒtǒ, l, potius chǒdǒ. Nagai michi. Cami*-* |  |
 | `c2-l006` | &emsp;*nho comprido.* |  |
 | `c2-l007` | Chôtô. *Acender a candea, ou lanterna.* |  |
 | `c2-l008` | Chôtçugai. *Ferros, ou engonços de portas* |  |
@@ -88,7 +88,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l013` | Chôuot. Coye, coyuru. *Paſſar, ou exceder.* |  |
 | `c2-l014` | Chôxe. Yoni coruyu. *Ser excellente, ou* |  |
 | `c2-l015` | &emsp;*inſigne entre os outros. ¶* Chôxeino fi- |  |
-| `c2-l016` | &emsp;guai. *Voto que Amida fez de ſaluar os* |  |
+| `c2-l016` | &emsp;guai. *Voto que* Amida *fez de ſaluar os* |  |
 | `c2-l017` | &emsp;*homẽs que excede a todos os outros votos.* |  |
 | `c2-l018` | Chǒxei. Nagai iquru. *Vida comprida.* |  |
 | `c2-l019` | &emsp;*Vt,* Chǒxei turô. *Longa vida ſem en-* |  |
@@ -101,7 +101,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l026` | Chôxeqi. Aſa yŭ. *Polla manhaã, & à tarde.* |  |
 | `c2-l027` | Chǒxi. Sôriôgo. *Filho morgado.* |  |
 | `c2-l028` | Chôxi. *Vazo de deitar vinho que ſerue no* |  |
-| `c2-l029` | &emsp;*zaxiqi.* |  |
+| `c2-l029` | &emsp;zaxiqi. |  |
 | `c2-l030` | Chôxi. *Tom, ou toada da voz que ſe diuide* |  |
 | `c2-l031` | &emsp;*em doze vozes ou toadas. ¶* Chôxiga lo- |  |
 | `c2-l032` | &emsp;rô. *Concordarẽ as vozes, ou tom da muſica,* |  |

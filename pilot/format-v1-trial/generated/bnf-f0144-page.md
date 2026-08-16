@@ -77,8 +77,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l003` | &emsp;*rer as contas pellos dedos como quem reza.* |  |
 | `c2-l004` | Curibayaxi. *Souto de caſtanheiros.* |  |
 | `c2-l005` | Curicata. *Azeilha da bainha por onde metem* |  |
-| `c2-l006` | &emsp;*o cordão, com que cingem a Catana.* |  |
-| `c2-l007` | Curicono mochi. *Mochis com farinha de* |  |
+| `c2-l006` | &emsp;*o cordão, com que cingem a* Catana. |  |
+| `c2-l007` | Curicono mochi. Mochis *com farinha de* |  |
 | `c2-l008` | &emsp;*caſtanhas por cima.* |  |
 | `c2-l009` | Curicayexi, ſu, eita. *Tornar a correr, ou* |  |
 | `c2-l010` | &emsp;*paſſar liuro, &c.* |  |
@@ -94,7 +94,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l020` | Curi ixi. *Pedrinhas, ou ſeixinhos.* |  |
 | `c2-l021` | Curin. Cocorotçuno va. *Certo remate de me-* |  |
 | `c2-l022` | &emsp;*tal com algũs noue circulos enfiados que poem* |  |
-| `c2-l023` | &emsp;*ſobre os Tǒs de Iapão, que ſão hũas torres, ou* |  |
+| `c2-l023` | &emsp;*ſobre os* Tǒs *de Iapão, que ſão hũas torres, ou* |  |
 | `c2-l024` | &emsp;*balluartes altos de madeira.* |  |
 | `c2-l025` | Curino iga. *Ouriço de caſtanhas.* |  |
 | `c2-l026` | Curino qi. *Caſtanheiro.* |  |

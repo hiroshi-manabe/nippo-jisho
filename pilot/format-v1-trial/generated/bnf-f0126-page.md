@@ -23,14 +23,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l007` | &emsp;*que cultiua os campos, ou varzeas.* |  |
 | `c1-l008` | Cǒnin. Cudaru fito. *O que ſe rende, & pe-* |  |
 | `c1-l009` | &emsp;*de miſericordia.* |  |
-| `c1-l010` | Coniua. *Pateo, ou niua pequena.* |  |
+| `c1-l010` | Coniua. *Pateo, ou* niua *pequena.* |  |
 | `c1-l011` | Conje. Imano yo. *Eſte mundo. ¶ Vt,* Cǒ- |  |
 | `c1-l012` | &emsp;je, goxe. *Eſte mundo, & o outro.* |  |
 | `c1-l013` | Conji, zuru, ita. *Miſturar hũa couſa cõ ou-* |  |
 | `c1-l014` | &emsp;*tra. ¶* Iiyoni conjenu fito. *Homem* |  |
 | `c1-l015` | &emsp;*aſſinalado, ou que não he dos ordinarios.* |  |
 | `c1-l016` | Conjichô. *Nome de hum paſſaro de que ſe fa-* |  |
-| `c1-l017` | &emsp;*la no Buppô.* |  |
+| `c1-l017` | &emsp;*la no* Buppô. |  |
 | `c1-l018` | Conjiqi. Coganeno iro. *Cor de ouro.* |  |
 | `c1-l019` | Conjǒ. *Natural de cada hum. Vt,* Conjǒ- |  |
 | `c1-l020` | &emsp;no varui mono. *Homem de ruim nature-* |  |

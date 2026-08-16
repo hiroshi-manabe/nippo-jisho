@@ -17,8 +17,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l001` | &emsp;*outra. Vt,* Yoguiuo firo ni cabuſuru. |  |
 | `c1-l002` | &emsp;*Cubrir a alguem com cobertor de Iapão.* |  |
 | `c1-l003` | Cabuxeua. *Rodilha, ou pano que poem ſobre* |  |
-| `c1-l004` | &emsp;*a cabeça pera leuar algum pezo. No Cami ſe* |  |
-| `c1-l005` | &emsp;*diz Va.* |  |
+| `c1-l004` | &emsp;*a cabeça pera leuar algum pezo. No* Cami *ſe* |  |
+| `c1-l005` | &emsp;*diz* Va. |  |
 | `c1-l006` | Caca. i. Faua. *Mãy. He palaura de meninos.* |  |
 | `c1-l007` | &emsp;*¶ Item, Tomaſe por hũa molher matrona, ou* |  |
 | `c1-l008` | &emsp;*que he mais velha, & como mãy da caſa.* |  |
@@ -31,12 +31,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l015` | &emsp;*ra de qualquer couſa, ſenão neſtes modos de fa-* |  |
 | `c1-l016` | &emsp;*lar. ¶* Tomoxibiuo cacaguru. *Ati-* |  |
 | `c1-l017` | &emsp;*çar, ou eſpeuitar a candea. ¶ Item, Acẽ-* |  |
-| `c1-l018` | &emsp;*de.a, & polla diante do Cami ou Fotoqe.* |  |
+| `c1-l018` | &emsp;*de.a, & polla diante do* Cami *ou* Fotoqe. |  |
 | `c1-l019` | &emsp;*¶* Qrumonono ſutouo cacaguru. *Ar-* |  |
 | `c1-l020` | &emsp;*regaçar, ou aleuantar as fraldas do veſtido.* |  |
 | `c1-l021` | &emsp;*¶* Fôrôuo cacaguru. *Louuar, & engrã-* |  |
 | `c1-l022` | &emsp;*deçer muito, ou fazer reſplandeçer a doutrina* |  |
-| `c1-l023` | &emsp;*dos Fotoqes com a preegação. ¶* Fitono |  |
+| `c1-l023` | &emsp;*dos* Fotoqes *com a preegação. ¶* Fitono |  |
 | `c1-l024` | &emsp;ſomareuo cacaguru. *Louuar, & engran-* |  |
 | `c1-l025` | &emsp;*deçer alguem.* |  |
 | `c1-l026` | Cacai. Miſaxini cuuauaru. i. Curaini agaru. |  |

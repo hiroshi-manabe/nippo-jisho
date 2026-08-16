@@ -51,14 +51,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l035` | &emsp;*os gentios tem por agouro.* |  |
 | `c1-l036` | Fujǒna. *Couſa immunda.* |  |
 | `c1-l037` | Fujǒni. *Adu.* |  |
-| `c1-l038` | Fuju, l, fujumon. *Eſcritura que os Bonzos* |  |
+| `c1-l038` | Fuju, l, fujumon. *Eſcritura que os* Bonzos |  |
 | `c1-l039` | &emsp;*lem ſobre os defuntos.* |  |
 | `c1-l040` | Fujucu. Iucuxezu. *Não eſtar maduro.* |  |
 | `c1-l041` | Fujucuna. *Couſa que não eſtà ainda madura* |  |
 | `c1-l042` | &emsp;*como fruita. ¶ Item, Permet. Deman-* |  |
 | `c1-l043` | &emsp;*da, ou negocio que ainda eſtà verde, & por* |  |
 | `c1-l044` | &emsp;*concluir.* |  |
-| `c1-l045` | Fujumon. *Eſcritura que lem os Bonzos por os* |  |
+| `c1-l045` | Fujumon. *Eſcritura que lem os* Bonzos *por os* |  |
 | `c1-l046` | &emsp;*defuntos de ſuas boas obras, antes de começar* |  |
 | `c1-l047` | &emsp;*a pregação, ou de pois de acabar.* |  |
 

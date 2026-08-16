@@ -36,7 +36,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l020` | &emsp;*çerem cabelos, eruas, &c.* |  |
 | `c1-l021` | Faza. *Eſpaço, ou tempo. X.* Ytçuno fazani |  |
 | `c1-l022` | &emsp;coreuo xôca? *Quando, ou em q̃ tempo farei* |  |
-| `c1-l023` | &emsp;*iſſo? No Cami ſe diz,* Itçunomani. |  |
+| `c1-l023` | &emsp;*iſſo? No* Cami *ſe diz,* Itçunomani. |  |
 | `c1-l024` | Fazama. *Idem. ¶ Vt,* Vchinimo tçuuai- |  |
 | `c1-l025` | &emsp;monodomo ſima fazamamonǒ michini |  |
 | `c1-l026` | &emsp;chite itta. *Feiq. lib. 1. Entrarão os ſolda-* |  |

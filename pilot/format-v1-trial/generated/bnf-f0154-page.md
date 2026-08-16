@@ -23,7 +23,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l007` | &emsp;*¶* Deiuo qeſu. *Fazer eſta tinta, ou polme* |  |
 | `c1-l008` | &emsp;*de metal. (pedes.* |  |
 | `c1-l009` | Dei. Zaxiqi. *Sala, ou caſa ẽ q̃ agaſalhão os hoſ-* |  |
-| `c1-l010` | Deibut. *Fotoqe dourado.* |  |
+| `c1-l010` | Deibut. Fotoqe *dourado.* |  |
 | `c1-l011` | Deichù. Dorono vchi. *Dentro na lama.* |  |
 | `c1-l012` | Deiguiù. Dorono vxi. *Vaca, ou boy de bar-* |  |
 | `c1-l013` | &emsp;*ro como imaginão os Ienxùs.* |  |
@@ -51,12 +51,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l035` | &emsp;*campo.* |  |
 | `c1-l036` | Dencacu. Tachi. *Paços, ou caſas de nobres.* |  |
 | `c1-l037` | Dendǒ. Iye iye. *Templo, ou Tera. ¶ Item,* |  |
-| `c1-l038` | &emsp;*Paços, ou caſas grandes do Dairi.* |  |
-| `c1-l039` | Dengacu. *Bǒzos bailadores. ¶ Item, Tǒ-* |  |
-| `c1-l040` | &emsp;*fus com Miſo eſpetados, & aſſados.* |  |
+| `c1-l038` | &emsp;*Paços, ou caſas grandes do* Dairi. |  |
+| `c1-l039` | Dengacu. Bǒzos *bailadores. ¶ Item, Tǒ-* |  |
+| `c1-l040` | &emsp;*fus com* Miſo *eſpetados, & aſſados.* |  |
 | `c1-l041` | Dengo, l, dengon. i. Cotatçute. *Enco-* |  |
 | `c1-l042` | &emsp;*mendas que ſe dão de palaura.* |  |
-| `c1-l043` | Dengõ. Cotobauo tçutayuru. *Vide, Dẽgo.* |  |
+| `c1-l043` | Dengõ. Cotobauo tçutayuru. *Vide,* Dẽgo. |  |
 | `c1-l044` | Dengi. i. Ta. *Varzeas.* |  |
 | `c1-l045` | Denja. Tano iye. *Aldea, ou caſas que eſtão* |  |
 | `c1-l046` | &emsp;*pollo campo.* |  |

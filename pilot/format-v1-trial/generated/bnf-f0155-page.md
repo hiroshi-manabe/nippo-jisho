@@ -25,7 +25,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1a-l009` | &emsp;yeba ſanayacani detachi ſumaite, &c. |  |
 | `c1a-l010` | &emsp;*Parecendo lhe que aquelle dia auia de morrer* |  |
 | `c1a-l011` | &emsp;*veſtioſe, & ornouſe lindamente.* |  |
-| `c1a-l012` | Detamono. *Vide ſupra Demono. Peſſoa* |  |
+| `c1a-l012` | Detamono. *Vide ſupra* Demono. *Peſſoa* |  |
 | `c1a-l013` | &emsp;*atreuida, & que ſe entremete muito.* |  |
 | `c1a-l014` | Dexi. *Diſcipulo.* |  |
 
@@ -53,7 +53,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1b-l012` | &emsp;*Vt,* Dôbiǒ ai auaremu. *Os que tem a-* |  |
 | `c1b-l013` | &emsp;*meſma doença ſe ſabem compadecer.* |  |
 | `c1b-l014` | Dôbô. *Certos rapaſos q̃ ſeruem no paço dalgum* |  |
-| `c1b-l015` | &emsp;*Yacata, ou ſenhor grande.* |  |
+| `c1b-l015` | &emsp;Yacata, *ou ſenhor grande.* |  |
 | `c1b-l016` | Dôbocu. Ximobe ximobe. *Seruidores, ou* |  |
 | `c1b-l017` | &emsp;*homens de ſeruiço.* |  |
 | `c1b-l018` | Dôbone. *Oſſos das cadeiras.* |  |
@@ -89,7 +89,7 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c2-l001` | &emsp;*muitos juntos em cima, ou dentro dos paços.* |  |
 | `c2-l002` | &emsp;*& tambem à porta em baixo, ou no pateo.* |  |
-| `c2-l003` | Dǒca. i. Buppǒno vta. *Verſo do Buppǒ.* |  |
+| `c2-l003` | Dǒca. i. Buppǒno vta. *Verſo do* Buppǒ. |  |
 | `c2-l004` | Dôcacu. Iye. *Caſas dalgum ſenhor.* |  |
 | `c2-l005` | Doccacu. *Hũa maneira de teſto de barro, que* |  |
 | `c2-l006` | &emsp;*poem ao derrador dalgũa candea pera não dar* |  |

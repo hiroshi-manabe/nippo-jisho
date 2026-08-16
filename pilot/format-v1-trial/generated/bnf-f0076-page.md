@@ -21,14 +21,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l005` | &emsp;*mir na embarcação.* |  |
 | `c1-l006` | Cagime. *Hũs limos do mar.* |  |
 | `c1-l007` | Cagimon. *Certas ceremonias, ou deprecações* |  |
-| `c1-l008` | &emsp;*da ſeita Xingǒjǔ.* |  |
+| `c1-l008` | &emsp;*da ſeita* Xingǒjǔ. |  |
 | `c1-l009` | Cagio. Vtǒ vonna. *Molher qua canta.* |  |
 | `c1-l010` | Cagiô. *Conta de capitulos, apontamentos.* |  |
 | `c1-l011` | &emsp;*Vt,* Iccagiô, nicagiô. *Hum capitulo, do-* |  |
 | `c1-l012` | &emsp;*us, &c. ¶* Cagiôgaqi. *Capitulos, ou* |  |
 | `c1-l013` | &emsp;*apontamentos eſcritos.* |  |
 | `c1-l014` | Cagitoco. *Hum pao em que vai encaixado o* |  |
-| `c1-l015` | &emsp;*leme dos nauios de Iapão, Iucos, Somas, &c.* |  |
+| `c1-l015` | &emsp;*leme dos nauios de Iapão,* Iucos, Somas, *&c.* |  |
 | `c1-l016` | Cagiya. *Caſa de ferreiro.* |  |
 | `c1-l017` | Cagizzuca. *Cana do leme.* |  |
 | `c1-l018` | Cai. Vmi. *Mar. Vt,* Cai manmanto |  |
@@ -36,7 +36,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l020` | &emsp;*que não tem termo.* |  |
 | `c1-l021` | Cai. *Particula que ſe ajunta, & compoem cõ* |  |
 | `c1-l022` | &emsp;*algũs verbos, & lhes da certa enfaſi que no* |  |
-| `c1-l023` | &emsp;*Ximo ſe diz Tçui. Vt,* Caicorobi caicu- |  |
+| `c1-l023` | &emsp;Ximo *ſe diz* Tçui. *Vt,* Caicorobi caicu- |  |
 | `c1-l024` | &emsp;mu. Caicacu, caifiraqu, &c. |  |
 | `c1-l025` | Cai. Imaxinuru. *Prohibição, ou preceito de* |  |
 | `c1-l026` | &emsp;*couſas affirmatiuas. ¶* Caiuo tamotçu. |  |
@@ -102,13 +102,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l028` | &emsp;*car cõ o cabellos, eruas, linhas, fios, &c.* |  |
 | `c2-l029` | Caicayexi, ſu, eita. *Tornar a comprar o* |  |
 | `c2-l030` | &emsp;*uendido.* |  |
-| `c2-l031` | Caicatarai, ǒ, ǒta. *Vide catarai, ǒ.* |  |
+| `c2-l031` | Caicatarai, ǒ, ǒta. *Vide* catarai, *ǒ.* |  |
 | `c2-l032` | Caichô. Vxuo. *Agua do mar.* |  |
 | `c2-l033` | Caichǔ. Vmino vchi. *Dentro, ou de baixo* |  |
 | `c2-l034` | &emsp;*do mar. ¶* Caichǔni xizzumuru. *Somer-* |  |
 | `c2-l035` | &emsp;*gir, ou botar alguã couſa no profũdo do mar.* |  |
 | `c2-l036` | Caico. *Bicho de ſeda, ou ſua ſemente no xi-* |  |
-| `c2-l037` | &emsp;*mo dizem tambem, caigo.* |  |
+| `c2-l037` | &emsp;*mo dizem tambem,* caigo. |  |
 | `c2-l038` | Caicǒ. Fataqi, u. *Algoz, ou executor da* |  |
 | `c2-l039` | &emsp;*juſtiça.* |  |
 | `c2-l040` | Caicomi, u, ôda. *Meter dentro. Vt,* Ta- |  |

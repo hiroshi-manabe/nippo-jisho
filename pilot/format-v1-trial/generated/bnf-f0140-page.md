@@ -14,7 +14,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | &emsp;*e os Fotoques, ou às almas dos defuntos.* |  |
+| `c1-l001` | &emsp;*e os* Fotoques, *ou às almas dos defuntos.* |  |
 | `c1-l002` | Cujet. i. Cǒjet. *Boca, & lingua.* Cujet |  |
 | `c1-l003` | &emsp;no qiita fito. *Homem que pratica bem, ou* |  |
 | `c1-l004` | &emsp;*eloquentemente.* |  |
@@ -26,8 +26,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l010` | &emsp;*tes. ¶* Cujidori ſuru. *Lançar ſortes,* |  |
 | `c1-l011` | &emsp;*ou aueriguar a couſa com ſortes.* |  |
 | `c1-l012` | Cuji. *Bixigas. ¶* Cujiuo ſuru. *Ter bi-* |  |
-| `c1-l013` | &emsp;*xigas. X. Melius Fǒrǒ, l, mogara. Tão* |  |
-| `c1-l014` | &emsp;*bem no Cami diz a gente popular, votona.* |  |
+| `c1-l013` | &emsp;*xigas. X. Melius* Fǒrǒ, *l,* mogara. *Tão* |  |
+| `c1-l014` | &emsp;*bem no* Cami *diz a gente popular,* votona. |  |
 | `c1-l015` | &emsp;*¶* Votona gotçu ſuru. *Ter bixigas.* |  |
 | `c1-l016` | Cuji. *Direito, ou ſeruiço que impõem o ſe-* |  |
 | `c1-l017` | &emsp;*nhor. ¶* Cujiuo tçutomuru. *Comprir* |  |
@@ -81,9 +81,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l006` | Cumataca. *Certo açor, ou falcão grãde.* |  |
 | `c2-l007` | Cumanono gouǒ. *Certos papeis que ſe dão em* |  |
 | `c2-l008` | &emsp;Cumano *como por nominas em que pintão hum* |  |
-| `c2-l009` | &emsp;*Cami por nome Gonguen, & neſte papel fa-* |  |
+| `c2-l009` | &emsp;Cami *por nome* Gonguen, *& neſte papel fa-* |  |
 | `c2-l010` | &emsp;*zem às vezes fazer o ſinal aos que jurão em reſ-* |  |
-| `c2-l011` | &emsp;*peito daquelle Cami, que os caſtigarà ſe não cõ-* |  |
+| `c2-l011` | &emsp;*peito daquelle* Cami, *que os caſtigarà ſe não cõ-* |  |
 | `c2-l012` | &emsp;*prirem o juramento, &c.* |  |
 | `c2-l013` | Cumen. Cãno vomote. *Letra, ou ſuperficie* |  |
 | `c2-l014` | &emsp;*literal.* |  |

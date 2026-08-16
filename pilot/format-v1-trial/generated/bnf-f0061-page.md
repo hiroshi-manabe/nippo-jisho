@@ -94,7 +94,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l014` | Boribori. *Adu. Modo de ſoar algũa couſa* |  |
 | `c2-l015` | &emsp;*ſeca quãdo ſe quebra, ou come como obreas, &c.* |  |
 | `c2-l016` | Bǒriǒ. Bôno xoriǒ. *Renda particular de* |  |
-| `c2-l017` | &emsp;*cada Bôzo que tem algũa tera, ou ermida a* |  |
+| `c2-l017` | &emsp;*cada* Bôzo *que tem algũa tera, ou ermida a* |  |
 | `c2-l018` | &emsp;*ſeu cargo.* |  |
 | `c2-l019` | Bôrô. Cuzzure moruru. *Effuſão de ſemente* |  |
 | `c2-l020` | &emsp;*cauſada de fraqueza, ou mà diſpoſição. ¶ Itẽ,* |  |
@@ -111,7 +111,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l031` | Bosan. *Ir à tarde dar conta ao meſtre da medi-* |  |
 | `c2-l032` | &emsp;*cação que os lenxios dão.* |  |
 | `c2-l033` | Bosat. Taſuqe, uru. *Dignidade de menos* |  |
-| `c2-l034` | &emsp;*que Fotoqe.* |  |
+| `c2-l034` | &emsp;*que* Fotoqe. |  |
 | `c2-l035` | Bǒsǒ. Chigaya. *Erua aſſi chamada.* |  |
 | `c2-l036` | Botai. Fauano fara. *Ventre da mãy.* |  |
 | `c2-l037` | Botan. *Erua, ou roſa aſſi chamada.* |  |

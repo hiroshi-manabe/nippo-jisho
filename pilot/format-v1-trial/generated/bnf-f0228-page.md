@@ -21,8 +21,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l005` | &emsp;*officio, ceremonia, &c. ¶* Fuxeuo ſu- |  |
 | `c1-l006` | &emsp;ru. *Dar ſemelhante eſmola.* |  |
 | `c1-l007` | Fuxe. *Remendo. ¶* Fuxeuo ſuru. *Re-* |  |
-| `c1-l008` | &emsp;*mendar. No Cami ſe diz.* Tçuguiuo ſuru. |  |
-| `c1-l009` | Fuxe. *Lugar na Catana onde ſe mete a Cõga-* |  |
+| `c1-l008` | &emsp;*mendar. No* Cami *ſe diz.* Tçuguiuo ſuru. |  |
+| `c1-l009` | Fuxe. *Lugar na* Catana *onde ſe mete a Cõga-* |  |
 | `c1-l010` | &emsp;*tana, ou outro inſtrumento de ferro. Vt,* |  |
 | `c1-l011` | &emsp;Cogatana buxe, l, cõgai buxe. |  |
 | `c1-l012` | Fuxe, uru, eta. *Fazer deitar. Vt,* V- |  |
@@ -80,7 +80,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l005` | &emsp;fuſu. *Eſtar deitado de coſtas. ¶* Vtçu- |  |
 | `c2-l006` | &emsp;bugini fuſu. *Eſtar deitado de bruços.* |  |
 | `c2-l007` | Fuxicula. *Cilada. ¶* Fuxicufauo ſuru. |  |
-| `c2-l008` | &emsp;*Fazer cilada. No Cami ſe diz.* Machi- |  |
+| `c2-l008` | &emsp;*Fazer cilada. No* Cami *ſe diz.* Machi- |  |
 | `c2-l009` | &emsp;buxeuo ſuru. |  |
 | `c2-l010` | Fuxido. *Lugar onde ſe deita algum homem,* |  |
 | `c2-l011` | &emsp;*ou animal.* |  |

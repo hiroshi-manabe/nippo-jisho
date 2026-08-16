@@ -14,7 +14,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | &emsp;*ſe põe a cobertoura, ou teſto da panella do Cha-* |  |
+| `c1-l001` | &emsp;*ſe põe a cobertoura, ou teſto da panella do* Cha*-* |  |
 | `c1-l002` | &emsp;*noyu. i.* futauoqi. |  |
 | `c1-l003` | Cacure, uru, eta. *Eſconderſe, ou eſtar eſcõ-* |  |
 | `c1-l004` | &emsp;*dido. ¶ Item, Morrer.* |  |
@@ -46,8 +46,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l030` | Cacuuon. *Nome de hum certo tom, ou toa-* |  |
 | `c1-l031` | &emsp;*da da voz.* |  |
 | `c1-l032` | Cacuxa. Satotta fito. *Peſſoa que per diſcur-* |  |
-| `c1-l033` | &emsp;*ſo penetrou o ſer das couſas, como ſão os Fo-* |  |
-| `c1-l034` | &emsp;*toqes.* |  |
+| `c1-l033` | &emsp;*ſo penetrou o ſer das couſas, como ſão os* Fo- |  |
+| `c1-l034` | &emsp;toqes. |  |
 | `c1-l035` | Cacuxen. Tabibune. *Embarcação foraſtei-* |  |
 | `c1-l036` | &emsp;*ra. P.* |  |
 | `c1-l037` | Cacuxi, ſu, uita. *Eſconder algũa couſa, ou* |  |
@@ -82,7 +82,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l002` | &emsp;*ou reſplandor. Vt,* Quǒmiǒ cacuyacuto |  |
 | `c2-l003` | &emsp;xite. *Reſplandecendo, ou fazendo grande* |  |
 | `c2-l004` | &emsp;*reſplandor.* |  |
-| `c2-l005` | Cada. *O cantar dos Bǒzos em ſeus officios,* |  |
+| `c2-l005` | Cada. *O cantar dos* Bǒzos *em ſeus officios,* |  |
 | `c2-l006` | &emsp;*& ceremonias. ¶* Cadauo fiqu. *Ento-* |  |
 | `c2-l007` | &emsp;*ar, ou cantar com certa toada neſtes offici-* |  |
 | `c2-l008` | &emsp;*os, &c.* |  |
@@ -108,8 +108,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l028` | Cadǒ. Vtano michi. *Arte de fazer ver-* |  |
 | `c2-l029` | &emsp;*ſos, ou poeſia.* |  |
 | `c2-l030` | Cadô. Vtǒ varanbe. *Menino que canta.* |  |
-| `c2-l031` | Cado. *Pederneira. No Cami ſe diz fiuchi-* |  |
-| `c2-l032` | &emsp;*no ixi.* |  |
+| `c2-l031` | Cado. *Pederneira. No* Cami *ſe diz* fiuchi- |  |
+| `c2-l032` | &emsp;no ixi. |  |
 | `c2-l033` | Cado. *Porta por onde ſe entra, ou portal da* |  |
 | `c2-l034` | &emsp;*caſa. ¶* Cadoni tatçu, l, cadodachi |  |
 | `c2-l035` | &emsp;ſuru. *Eſtar em pè à porta.* Cadoni ya- |  |

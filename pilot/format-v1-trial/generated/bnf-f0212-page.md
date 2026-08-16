@@ -81,7 +81,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l007` | &emsp;*Vt,* Dǒtetuo forijdaſu. *Tirar cobre,* |  |
 | `c2-l008` | &emsp;*& ferro dalgũa mina. ¶ Item, Per* |  |
 | `c2-l009` | &emsp;*met. Abrir, ou deſcobrir algũa couſa noua,* |  |
-| `c2-l010` | &emsp;*como hũa peça de Chanoyu, &c.* |  |
+| `c2-l010` | &emsp;*como hũa peça de* Chanoyu, *&c.* |  |
 | `c2-l011` | Foriire, uru, eta. *Cauando meter dentro, ou* |  |
 | `c2-l012` | &emsp;*enterrar.* |  |
 | `c2-l013` | Forimauaxi, ſu, aita. *Cauar em roda.* |  |
@@ -94,7 +94,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l020` | &emsp;rimonouo ſuru. *Eſculpir, ou fazer obra* |  |
 | `c2-l021` | &emsp;*de releuo.* |  |
 | `c2-l022` | Fôrin. *Vt,* Fôrinuo tenzuru. *Dilatar, &* |  |
-| `c2-l023` | &emsp;*diuulgar a ley, ou doutrina do Fotoque.* |  |
+| `c2-l023` | &emsp;*diuulgar a ley, ou doutrina do* Fotoque. |  |
 | `c2-l024` | Forinoqe, uru, eta. *Cauando afaſtar.* |  |
 | `c2-l025` | Fôriǒ. *Quantidade, ou termo. Vt,* Qim- |  |
 | `c2-l026` | &emsp;toriǒga nai. *Não tem fim nem limite, ou* |  |

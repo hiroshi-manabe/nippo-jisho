@@ -28,7 +28,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l012` | &emsp;*chão, ou ſobre os limites, & arrayas que ha* |  |
 | `c1-l013` | &emsp;*entre dous exercitos.* |  |
 | `c1-l014` | Chimatçuri. *Sacrificio de ſangue que ſe faz* |  |
-| `c1-l015` | &emsp;*ao Cami da guerra no principio da batalha quã-* |  |
+| `c1-l015` | &emsp;*ao* Cami *da guerra no principio da batalha quã-* |  |
 | `c1-l016` | &emsp;*do matão algum inimigo, pera que dê bom ſu-* |  |
 | `c1-l017` | &emsp;*ceſſo na guerra, &c.* |  |
 | `c1-l018` | Chimayoi, ô, ôta. *Subir o ſangue à cabeça,* |  |
@@ -107,12 +107,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l027` | Chinin. Vorocana fito. *Homem de pouco* |  |
 | `c2-l028` | &emsp;*ſaber, ou ignorante.* |  |
 | `c2-l029` | Chinjei. i. Saicocu. *Os noue reinos do* |  |
-| `c2-l030` | &emsp;*Ximo.* |  |
+| `c2-l030` | &emsp;Ximo. |  |
 | `c2-l031` | Chinjen. Mezzuraxij jen. *Meza de boas* |  |
 | `c2-l032` | &emsp;*iguarias.* |  |
 | `c2-l033` | Chinji. Mezzuraxij coto. *Couſa noua.* |  |
 | `c2-l034` | Chinji, zuru, ita. *Negar.* |  |
-| `c2-l035` | Chinju. *Cami padroeiro, ou da guarda dalgũ* |  |
+| `c2-l035` | Chinju. Cami *padroeiro, ou da guarda dalgũ* |  |
 | `c2-l036` | &emsp;*reino, cidade, ou peſſoa.* |  |
 | `c2-l037` | Chinmai. Xizzumi vzzumu. i. vzzumareta |  |
 | `c2-l038` | &emsp;coto. *Couſa eſcondida, ou enterrada.* |  |

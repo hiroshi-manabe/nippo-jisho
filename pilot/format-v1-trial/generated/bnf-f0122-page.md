@@ -31,7 +31,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l015` | Cogo. Cojinno go. *Sentença de algũ antigo.* |  |
 | `c1-l016` | Cogori. *Hum certo conſerto como conſerua de* |  |
 | `c1-l017` | &emsp;*peixe encaramelado que ſe faz no inuerno co-* |  |
-| `c1-l018` | &emsp;*zido com miſo.* |  |
+| `c1-l018` | &emsp;*zido com* miſo. |  |
 | `c1-l019` | Cogoxi. *Certa tecedura de hũas liſtras ao com-* |  |
 | `c1-l020` | &emsp;*prido, & atraueſſadas.* |  |
 | `c1-l021` | Cogoye. *Voz baixa. Vt,* Cogoyeni nat- |  |
@@ -114,7 +114,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l040` | Coinegai, ǒ, ta. *Deſejar muito.* |  |
 | `c2-l041` | Coinegauacuua. *Oxalá, ou praza a Deus* |  |
 | `c2-l042` | &emsp;*que aſſi ſeja, &c.* |  |
-| `c2-l043` | Coino qeguirino xiru. *Hũ certo caldo, ou xiru* |  |
+| `c2-l043` | Coino qeguirino xiru. *Hũ certo caldo, ou* xiru |  |
 | `c2-l044` | &emsp;*de peixe Coi, juntamente com a eſcama.* |  |
 | `c2-l045` | Côiqi. Mizo, mizo. *Rego, ou cano, por* |  |
 | `c2-l046` | &emsp;*onde corre agua.* |  |

@@ -26,7 +26,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l010` | Famabô. *Hũa certa aruorezinha, ou erua* |  |
 | `c1-l011` | &emsp;*grande da praya que he boa pera lauatorio dos* |  |
 | `c1-l012` | &emsp;*pés chamada Nigunde na India.* |  |
-| `c1-l013` | Famabutçu. *Erua aſſi chamada. No cami* |  |
+| `c1-l013` | Famabutçu. *Erua aſſi chamada. No* cami |  |
 | `c1-l014` | &emsp;*ſe diz,* Cauara yomogui. |  |
 | `c1-l015` | Famachi. *Hum certo peixe do mar.* |  |
 | `c1-l016` | Famachidori. *Maſſarico, paſſaro que anda* |  |

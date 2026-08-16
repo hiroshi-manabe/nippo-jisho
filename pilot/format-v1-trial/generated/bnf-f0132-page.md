@@ -29,7 +29,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l013` | Couaricatabira. *Veſtido ſingello de linho ca-* |  |
 | `c1-l014` | &emsp;*nemo por curar que fica muito teſo.* |  |
 | `c1-l015` | Couari catabira. *Nome de hũa eſcudela de* |  |
-| `c1-l016` | &emsp;*barro nomeada em Iapão por onde bebem cha.* |  |
+| `c1-l016` | &emsp;*barro nomeada em Iapão por onde bebem* cha. |  |
 | `c1-l017` | Couaſaqi. *Som, ou ſonſonete da palaura.* |  |
 | `c1-l018` | Couatçuqi. *Som, ou metal da voz.* |  |
 | `c1-l019` | Coude. *Braço deſdo cotouelo atè o colo da mão.* |  |
@@ -46,7 +46,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l030` | Côuon. Tacai von. *Grandes beneficios. Vt,* |  |
 | `c1-l031` | &emsp;Côuon fôjigataxi. *Os grandes beneficios* |  |
 | `c1-l032` | &emsp;*não ſe podem pagar.* |  |
-| `c1-l033` | Couonzo. *Certo veſtido, ou coſode hum pouco* |  |
+| `c1-l033` | Couonzo. *Certo veſtido, ou* coſode *hum pouco* |  |
 | `c1-l034` | &emsp;*comprido que juntamente ſerue de cobertor da* |  |
 | `c1-l035` | &emsp;*cama.* |  |
 | `c1-l036` | Couoqe. *Tina pequena. ¶ Item, Caixa* |  |
@@ -57,7 +57,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l041` | &emsp;*ro. ¶* Te, axiga couoriru. *Ter os pès,* |  |
 | `c1-l042` | &emsp;*& mãos enregeladas com frio. ¶ Permet.* |  |
 | `c1-l043` | &emsp;Zaxiuiga couotta. *Ficarão frios, & atoni-* |  |
-| `c1-l044` | &emsp;*tos os do Zaxiu.* |  |
+| `c1-l044` | &emsp;*tos os do* Zaxiu. |  |
 | `c1-l045` | Couorimizzu. *Agoa que eſtà de baixo do* |  |
 | `c1-l046` | &emsp;*caramelo.* |  |
 | `c1-l047` | Couorizatô. *Açuquere candil.* |  |
@@ -78,7 +78,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l004` | Côuotnin. *Homẽs altos, & baixos.* |  |
 | `c2-l005` | Côxa. *Carro que vem de traz. ¶* Lèxano |  |
 | `c2-l006` | &emsp;cutçu gayeruuo mite, côxano jimaxime- |  |
-| `c2-l007` | &emsp;toſi. *Xixo. Eſcarmentar em cabeça alhea* |  |
+| `c2-l007` | &emsp;toſi. Xixo. *Eſcarmentar em cabeça alhea* |  |
 | `c2-l008` | &emsp;*como o carro que vem de traz ſe acautela ven-* |  |
 | `c2-l009` | &emsp;*do uirarſe o que vai diante.* |  |
 | `c2-l010` | Côxa. Tçuyoqi mono. *Peſſoa forte, & eſ-* |  |
@@ -89,7 +89,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l015` | &emsp;*ſar praticado ſobre algũ texto, &c.* |  |
 | `c2-l016` | Coxegare. *Moço pequeno.* |  |
 | `c2-l017` | Côxei. Nochini vmaruru. *O nacer depois de* |  |
-| `c2-l018` | &emsp;*outro. ¶ Vt,* Côxei uoſorubexi. *Xixo.* |  |
+| `c2-l018` | &emsp;*outro. ¶ Vt,* Côxei uoſorubexi. Xixo. |  |
 | `c2-l019` | &emsp;*Temei, & arreceaiuos do que nace depois de* |  |
 | `c2-l020` | &emsp;*uòs porque poruentura ſabera mais, &c.* |  |
 | `c2-l021` | Côxei. Atçui naſaqe. *Grande piedade, ou* |  |

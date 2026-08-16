@@ -42,7 +42,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l026` | &emsp;no ſuru. *Prouar as forças hũs cõ os outros.* |  |
 | `c1-l027` | Curabe. *Comparação, ou o cotejar algũa couſa* |  |
 | `c1-l028` | &emsp;*com outra. Vt,* Tencani voite vonna cu- |  |
-| `c1-l029` | &emsp;rabeno atta toqi. *Quando na Tenca ouue* |  |
+| `c1-l029` | &emsp;rabeno atta toqi. *Quando na* Tenca *ouue* |  |
 | `c1-l030` | &emsp;*cotejar, & comparar as molheres.* |  |
 | `c1-l031` | Curabone. *Armação da ſella.* |  |
 | `c1-l032` | Curacu. Curuximi, tanoximi. *Tormentos,* |  |

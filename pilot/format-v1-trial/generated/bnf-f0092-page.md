@@ -51,10 +51,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l035` | &emsp;*vão ſe ſecando, ou enrouquecendo.* |  |
 | `c1-l036` | Caregoye. *Voz rouca.* |  |
 | `c1-l037` | Carei. Yoqi tamexi. *Cuſtume ordinario, &* |  |
-| `c1-l038` | &emsp;*bom como o de viſitar pello Xǒguachi, &* |  |
+| `c1-l038` | &emsp;*bom como o de viſitar pello* Xǒguachi, *&* |  |
 | `c1-l039` | &emsp;*mais feſtas ao ſenhor. Vt,* Careino goto- |  |
 | `c1-l040` | &emsp;cu. *Segundo o bom cuſtume ordinario.* |  |
-| `c1-l041` | Carei. *Linguado. No Cami ſe diz Care.* |  |
+| `c1-l041` | Carei. *Linguado. No* Cami *ſe diz* Care. |  |
 | `c1-l042` | Careiy. *Arroz cozido.* |  |
 | `c1-l043` | Careô. Cuuziye reǒgi ſuru. *Curar doen-* |  |
 | `c1-l044` | &emsp;*tes, &c.* |  |
@@ -99,11 +99,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l025` | &emsp;*que ſe veſte como dempreſtado, ou por pouco* |  |
 | `c2-l026` | &emsp;*tempo.* |  |
 | `c2-l027` | Caricoto. *Mentiras, como quando hum diz* |  |
-| `c2-l028` | &emsp;*que o ſenhor, ou Tono manda tal couſa ſem ſer* |  |
+| `c2-l028` | &emsp;*que o ſenhor, ou* Tono *manda tal couſa ſem ſer* |  |
 | `c2-l029` | &emsp;*aſſi. Vt,* Caricotouo yù. *Dizer eſtas* |  |
 | `c2-l030` | &emsp;*mentiras.* |  |
 | `c2-l031` | Carigane. *Pato brauo.* |  |
-| `c2-l032` | Cariguinu. *Huns certos veſtidos de Cugue* |  |
+| `c2-l032` | Cariguinu. *Huns certos veſtidos de* Cugue |  |
 | `c2-l033` | &emsp;*quando vão à caça.* |  |
 | `c2-l034` | Caridaxi, ſu, aita. *Deſcobrir, ou dar cõ a caça.* |  |
 | `c2-l035` | Carimacura. P. *Dormir por hum pouco, ou* |  |

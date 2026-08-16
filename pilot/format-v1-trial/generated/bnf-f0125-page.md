@@ -22,13 +22,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l006` | &emsp;*ca de portal.* |  |
 | `c1-l007` | Comori, ru, otta. *Eſtar encerrado, ou con-* |  |
 | `c1-l008` | &emsp;*terſe. ¶* Cuguiga cuorecomotta. *Melius* |  |
-| `c1-l009` | &emsp;quã vorecomatta. *Vide, Comari, u.* |  |
-| `c1-l010` | Cǒmot. *Melius. Cǒbut. Couſa q̃ he boa, ou não* |  |
+| `c1-l009` | &emsp;quã vorecomatta. *Vide,* Comari, u. |  |
+| `c1-l010` | Cǒmot. *Melius.* Cǒbut. *Couſa q̃ he boa, ou não* |  |
 | `c1-l011` | &emsp;*faz mal pera algũa doença, &c. Vt,* Qin |  |
 | `c1-l012` | &emsp;cǒmot. *Couſa que faz mal, ou não dana pe-* |  |
 | `c1-l013` | &emsp;*ra algũa infirmidade, ou mezinhas que hum* |  |
-| `c1-l014` | &emsp;*toma, &c. Si dana dizſe Qinmot. Se não* |  |
-| `c1-l015` | &emsp;*dana, Cǒmot.* |  |
+| `c1-l014` | &emsp;*toma, &c. Si dana dizſe* Qinmot. *Se não* |  |
+| `c1-l015` | &emsp;*dana,* Cǒmot. |  |
 | `c1-l016` | Comozzutçumi. *Couſa enfardelada em ca-* |  |
 | `c1-l017` | &emsp;*ſeira groſſa.* |  |
 | `c1-l018` | Comugui. Xǒbacu. *Trigo.* |  |
@@ -50,7 +50,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l034` | &emsp;*tura. Vt,* Cônanni narǒzu. *Serà in-* |  |
 | `c1-l035` | &emsp;*juria, ou infamia pera o futuro.* |  |
 | `c1-l036` | Conasubi. *Biringela pequena. ¶ Item, Bo-* |  |
-| `c1-l037` | &emsp;*yãozinho do Chanoyu em q̃ ſe mete cha moido.* |  |
+| `c1-l037` | &emsp;*yãozinho do* Chanoyu *em q̃ ſe mete* cha *moido.* |  |
 | `c1-l038` | Conaxi. *Mortificação, ou aperto. ¶* Co- |  |
 | `c1-l039` | &emsp;toba gonaxi. *O mortificar de palaura.* |  |
 | `c1-l040` | Conaxi, ſu, aita. *Apertar, ou mortificar.* |  |
@@ -112,7 +112,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l032` | Congǒ. *Çapatos de palha.* |  |
 | `c2-l033` | Congon. Cogane, xirocane. *Ouro, & pra-* |  |
 | `c2-l034` | &emsp;*ta. Vt,* Congondǒ, l, congon ruri. *Por* |  |
-| `c2-l035` | &emsp;*que Congon ſomente não ſe vſa ſem mais al-* |  |
+| `c2-l035` | &emsp;*que* Congon *ſomente não ſe vſa ſem mais al-* |  |
 | `c2-l036` | &emsp;*gũa compoſição.* |  |
 | `c2-l037` | Congǒdǒ. Cogane, xirocane, acagane. *Ou-* |  |
 | `c2-l038` | &emsp;*ro, prata, & cobre.* |  |

@@ -110,7 +110,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l036` | Fiqiuqe, uru, eta. *Receber. ¶* Saqeuō |  |
 | `c2-l037` | &emsp;fiqiuqete nomu. *Tomando vinho no copo* |  |
 | `c2-l038` | &emsp;*beber.* |  |
-| `c2-l039` | Fiqiùto. *Anẽo. Tambem ſe diz uſumbôxi,* |  |
+| `c2-l039` | Fiqiùto. *Anẽo. Tambem ſe diz* uſumbôxi, |  |
 | `c2-l040` | &emsp;*ſed minùs proprie.* |  |
 | `c2-l041` | Fiqixirizoqi, u, oita. *Recuar, ou afaſ-* |  |
 | `c2-l042` | &emsp;*tarſe pera tras.* |  |

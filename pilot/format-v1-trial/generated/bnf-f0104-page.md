@@ -14,37 +14,37 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | Chanoyuxa. *O que tẽ cuidado do Chanoyu.* |  |
+| `c1-l001` | Chanoyuxa. *O que tẽ cuidado do* Chanoyu. |  |
 | `c1-l002` | Chaqin. *Paninhos com que ſe alimpa a porſo-* |  |
-| `c1-l003` | &emsp;*lana do Cha.* |  |
+| `c1-l003` | &emsp;*lana do* Cha. |  |
 | `c1-l004` | Chaqin. *Certa bandeirinha com hum ſinal que* |  |
 | `c1-l005` | &emsp;*ſe aleuantaua nas embarcações em certos paſſos* |  |
 | `c1-l006` | &emsp;*em ſinal de não auerem de pagar portagem,* |  |
 | `c1-l007` | &emsp;*&c. X.* |  |
-| `c1-l008` | Chatate. *O que concerta o Cha na porſolana* |  |
-| `c1-l009` | &emsp;*ordinariamente dizem Chatate bôzu.* |  |
+| `c1-l008` | Chatate. *O que concerta o* Cha *na porſolana* |  |
+| `c1-l009` | &emsp;*ordinariamente dizem* Chatate bôzu. |  |
 | `c1-l010` | Chatçu. *Certa eſcudela de pao de pouco fundo.* |  |
-| `c1-l011` | Chatçubo. *Bojão em que guardão o Cha.* |  |
-| `c1-l012` | Chato. Cha yu. *Cha, & agoa quente que po-* |  |
+| `c1-l011` | Chatçubo. *Bojão em que guardão o* Cha. |  |
+| `c1-l012` | Chato. Cha yu. Cha, *& agoa quente que po-* |  |
 | `c1-l013` | &emsp;*em em certo lugar, & offerecem aos mor-* |  |
 | `c1-l014` | &emsp;*tos diante de hũa tauoinha onde eſtá o nome do* |  |
 | `c1-l015` | &emsp;*defunto. ¶* Chatôuo aguru. *Offerecer* |  |
-| `c1-l016` | &emsp;*eſte Cha deſta maneira.* |  |
+| `c1-l016` | &emsp;*eſte* Cha *deſta maneira.* |  |
 | `c1-l017` | Chatto. Adu. *Depreſſa.* |  |
 | `c1-l018` | Chauan. *Porſolana, ou eſcudela de barro.* |  |
 | `c1-l019` | Chauanbachi. *Bacio grande como de agoa* |  |
 | `c1-l020` | &emsp;*às mãos.* |  |
 | `c1-l021` | Chauanzara. *Pires, ou ſalſeiras da china.* |  |
-| `c1-l022` | Chauoge. *Balde de agoa q̃ ſerue no Chanoyu.* |  |
-| `c1-l023` | Chaviri. *Peſſoa que vende o Cha.* |  |
-| `c1-l024` | Chautu. *Mó em que moem o Cha.* |  |
+| `c1-l022` | Chauoge. *Balde de agoa q̃ ſerue no* Chanoyu. |  |
+| `c1-l023` | Chaviri. *Peſſoa que vende o* Cha. |  |
+| `c1-l024` | Chautu. *Mó em que moem o* Cha. |  |
 | `c1-l025` | Chaxen. *Eſ ouinha de bambu, cõ que ſe meſ-* |  |
-| `c1-l026` | &emsp;*tura o Cha com agoa quente na porſolana.* |  |
+| `c1-l026` | &emsp;*tura o* Cha *com agoa quente na porſolana.* |  |
 | `c1-l027` | Chaya. i. Chano iye. *Caſa no caminho on-* |  |
-| `c1-l028` | &emsp;*de ſe vende o Cha feito na porſolana.* |  |
+| `c1-l028` | &emsp;*de ſe vende o* Cha *feito na porſolana.* |  |
 | `c1-l029` | Chayen. Chano ſono. *Chayal lugar onde eſ-* |  |
-| `c1-l030` | &emsp;*ta plantado o Cha.* |  |
-| `c1-l031` | Chazome. *Tinta, ou o tingir da cor de Cha.* |  |
+| `c1-l030` | &emsp;*ta plantado o* Cha. |  |
+| `c1-l031` | Chazome. *Tinta, ou o tingir da cor de* Cha. |  |
 | `c1-l032` | Chi. Xiri, u. *Saber. Vt,* Chi arumo, chi |  |
 | `c1-l033` | &emsp;naqimo. *Os que ſabem, & que não ſabem.* |  |
 | `c1-l034` | Chi. Tçuchi. *Terra. ¶* Chiuo araſô. |  |
@@ -59,7 +59,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l043` | &emsp;*Derramar ſangue. Vt,* Catanauo motte |  |
 | `c1-l044` | &emsp;vonorega finauo tçuqiqitte chiuo vomote |  |
 | `c1-l045` | &emsp;ni nagaxicaqe, &c. *Taiſ. Lib. 31.* |  |
-| `c1-l046` | &emsp;*Ferindo ſe com a ponta da Catana na teſta* |  |
+| `c1-l046` | &emsp;*Ferindo ſe com a ponta da* Catana *na teſta* |  |
 | `c1-l047` | &emsp;*derramou o ſãgue pello roſto a baxo. ¶* Chi |  |
 
 ## Column 2 running header
@@ -92,7 +92,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l018` | Chibana. *Certa erua que tem hum miolo bran-* |  |
 | `c2-l019` | &emsp;*co que comem os meninos.* |  |
 | `c2-l020` | Chibi, iritçu, uru, ita. *Danarſe, ou fazer* |  |
-| `c2-l021` | &emsp;*ſe bota a ponta, ou corte da catana, faca,* |  |
+| `c2-l021` | &emsp;*ſe bota a ponta, ou corte da* catana, *faca,* |  |
 | `c2-l022` | &emsp;*&c. Propriamente ſe diz das penas que ſe* |  |
 | `c2-l023` | &emsp;*caſão, ou ſe lhe dana a ponta. ¶* Chibi- |  |
 | `c2-l024` | &emsp;fi.de. *Pena danada, ou bota da ponta.* |  |

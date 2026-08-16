@@ -23,8 +23,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l007` | Fǒxeqi. Vmi, tçugumu. *Obra de fiar, &* |  |
 | `c1-l008` | &emsp;*torcer linho.* |  |
 | `c1-l009` | Foxi. *Eſtrela.* |  |
-| `c1-l010` | Fôxi. *Rapado, ou Bǒzo. ¶* Fôxini na- |  |
-| `c1-l011` | &emsp;ru. *Fazerſe Bǒzo, ou rapado.* |  |
+| `c1-l010` | Fôxi. *Rapado, ou* Bǒzo. *¶* Fôxini na- |  |
+| `c1-l011` | &emsp;ru. *Fazerſe* Bǒzo, *ou rapado.* |  |
 | `c1-l012` | Foxi. *Sinal preto q̃ ſe poem no meo do aluo.* |  |
 | `c1-l013` | &emsp;*¶* Matono foxiuo nerǒ. *Apontar ao pre-* |  |
 | `c1-l014` | &emsp;*to do aluo.* |  |
@@ -50,10 +50,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l034` | Foxijmamani. *Adu. Conforme ao deſejo,* |  |
 | `c1-l035` | &emsp;*ou vontade.* |  |
 | `c1-l036` | Foximecaxi, ſu, aita. *Açular o cão. X.* |  |
-| `c1-l037` | &emsp;*No Cami ſe diz,* Qexicaquru. *Vt,* Inu- |  |
+| `c1-l037` | &emsp;*No* Cami *ſe diz,* Qexicaquru. *Vt,* Inu- |  |
 | `c1-l038` | &emsp;uo foximecaſu. |  |
 | `c1-l039` | Foximenuqi. *Hum certo ferrinho que metem* |  |
-| `c1-l040` | &emsp;*pellos punhos, & ferro da Catana pera os* |  |
+| `c1-l040` | &emsp;*pellos punhos, & ferro da* Catana *pera os* |  |
 | `c1-l041` | &emsp;*ter mão.* |  |
 | `c1-l042` | Foximeqi, u, eita. *Soar o arroz nos dentes,* |  |
 | `c1-l043` | &emsp;*& ſentirſe mal cozido por dentro. ¶* Me- |  |
@@ -100,17 +100,17 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l026` | Foxxinja. *Homem deſejoſo de ſe ſaluar, ou* |  |
 | `c2-l027` | &emsp;*deſprezador do mundo.* |  |
 | `c2-l028` | Foxxǒ. *Bup. Primeiro principio, ou nature-* |  |
-| `c2-l029` | &emsp;*za do Fotoque.* |  |
+| `c2-l029` | &emsp;*za do* Fotoque. |  |
 | `c2-l030` | Foya. *Hũ certo peixe redondo, & vermelho.* |  |
 | `c2-l031` | Foyacu. Voguino cuſuri. *Mezinha que vai* |  |
 | `c2-l032` | &emsp;*deſpondo pouco a pouco como enxaropes.* |  |
 | `c2-l033` | &emsp;*¶ Item, Mezinha que refaz, ou dá alento.* |  |
 | `c2-l034` | Fôyacu. *Paruoiçe, ou tolice.* |  |
-| `c2-l035` | Fôye. *Ajuntamento de Bǒzos pera algum of-* |  |
+| `c2-l035` | Fôye. *Ajuntamento de* Bǒzos *pera algum of-* |  |
 | `c2-l036` | &emsp;*ficio, ou ceremonias, ou os meſmos officios, &* |  |
 | `c2-l037` | &emsp;*ſolennidade.* |  |
 | `c2-l038` | Fôye. Norino coromo. *Veſtido particular* |  |
-| `c2-l039` | &emsp;*dos Bǒzos com que ſe diſtinguẽ dos ſeculares,* |  |
+| `c2-l039` | &emsp;*dos* Bǒzos *com que ſe diſtinguẽ dos ſeculares,* |  |
 | `c2-l040` | &emsp;*ou com que fazem ſuas ceremonias.* |  |
 | `c2-l041` | Fǒye. i, Yena. *Pellejinha, ou camiſinha* |  |
 | `c2-l042` | &emsp;*com que a criança eſtà enuolta no ventre da* |  |

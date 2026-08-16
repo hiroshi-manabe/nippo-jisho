@@ -40,7 +40,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l024` | Chidori. *Hũs paſſarinhos que andão na praya.* |  |
 | `c1-l025` | Chidorigama. *Certa arma de tres pontas.* |  |
 | `c1-l026` | Chidoren. *Nome de hum liuro que fala do* |  |
-| `c1-l027` | &emsp;*Buppô.* |  |
+| `c1-l027` | &emsp;Buppô. |  |
 | `c1-l028` | Chifen. P. Iqeno fotori. *Borda da* |  |
 | `c1-l029` | &emsp;*alagoa.* |  |
 | `c1-l030` | Chifit. Voſoi fude. *O que eſcreue deuagar.* |  |
@@ -113,7 +113,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l038` | &emsp;Chijrono vmi. *Mar muito fundo.* |  |
 | `c2-l039` | Chijfai. *Couſa pequena.* |  |
 | `c2-l040` | Chijſo. Adu. |  |
-| `c2-l041` | Chiji. *Certo officio no moſteiro dos Bôzos.* |  |
+| `c2-l041` | Chiji. *Certo officio no moſteiro dos* Bôzos. |  |
 | `c2-l042` | Chijocu. *Afronta, ou injuria. ¶* Chijo- |  |
 | `c2-l043` | &emsp;cuuo caquru, l, xicaquru. *Injuriar, ou* |  |
 | `c2-l044` | &emsp;*deſhonrrar a alguem. ¶* Chijocuuo ſuſu- |  |

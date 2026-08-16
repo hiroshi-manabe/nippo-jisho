@@ -39,7 +39,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l023` | &emsp;*teſpicio.* |  |
 | `c1-l024` | Firachi. i, Feigi. *Terra praina.* |  |
 | `c1-l025` | Firacubi. *A parte larga do peſcoço do caualo.* |  |
-| `c1-l026` | Firacuchi. *Bibora. No Cami ſe diz Cu-* |  |
+| `c1-l026` | Firacuchi. *Bibora. No* Cami *ſe diz* Cu- |  |
 | `c1-l027` | &emsp;chifami. |  |
 | `c1-l028` | Firacugue. *Certo grao de dignidade dos Cũgues* |  |
 | `c1-l029` | &emsp;*ordinarios.* |  |
@@ -58,7 +58,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l042` | &emsp;Firǒ. |  |
 | `c1-l043` | Firajǒ. *Fortaleza que eſta em terra praina.* |  |
 | `c1-l044` | Firamecaxi, ſu, aita. *Fazer reluzir, ou re-* |  |
-| `c1-l045` | &emsp;*ſplandecer bulindo como arma, Catana, &c.* |  |
+| `c1-l045` | &emsp;*ſplandecer bulindo como arma,* Catana, *&c.* |  |
 | `c1-l046` | &emsp;*¶* Vǒguiuo firamecaſu. *Menear, & vi-* |  |
 | `c1-l047` | &emsp;*rar o abano.* |  |
 
@@ -77,7 +77,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l003` | &emsp;*Reluzir a eſpada, ou armas que ſe mouem, ou* |  |
 | `c2-l004` | &emsp;*meneão.* |  |
 | `c2-l005` | Firami, u, ǒda. *Encolherſe, ou murcharſe* |  |
-| `c2-l006` | &emsp;*cõ medo, &c. ¶ Item, No ximo chorar:* |  |
+| `c2-l006` | &emsp;*cõ medo, &c. ¶ Item, No* ximo *chorar:* |  |
 | `c2-l007` | &emsp;*meliùs,* Nagi firamu. |  |
 | `c2-l008` | Firani. *Adu. Humildemente, ou em todo* |  |
 | `c2-l009` | &emsp;*caſo. Vt,* Firanicanomu. *Pedir encare-* |  |
@@ -88,14 +88,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l014` | &emsp;*Depois de ſe ſeparar, & aparecer. i, Deſe-* |  |
 | `c2-l015` | &emsp;*formar o ceo, & a terra. ¶ Item, Abri-* |  |
 | `c2-l016` | &emsp;*remſe as roſas, ou flores. Vt,* Fanaga fi- |  |
-| `c2-l017` | &emsp;raquru. *Mas mais propriamente ſe diz Fa-* |  |
+| `c2-l017` | &emsp;raquru. *Mas mais propriamente ſe diz* Fa- |  |
 | `c2-l018` | &emsp;naga firaqu. |  |
 | `c2-l019` | Firaqi, u, aita. *Abrir. ¶* Monuo fira- |  |
 | `c2-l020` | &emsp;qu. *Abrir a porta da rua. ¶* Manaco- |  |
 | `c2-l021` | &emsp;uo firaqu. *Abrir os olhos. ¶* Fuxinuo |  |
 | `c2-l022` | &emsp;firaqu. *Soltar a duuida. ¶* Fanaga fi- |  |
 | `c2-l023` | &emsp;raqu. *Abrir a roſa. ¶* Fachiuo firaqu. |  |
-| `c2-l024` | &emsp;*Pedir eſmola, propriamente ſe diz de Bonzos,* |  |
+| `c2-l024` | &emsp;*Pedir eſmola, propriamente ſe diz de* Bonzos, |  |
 | `c2-l025` | &emsp;*ou religioſos. ¶* Diouo fanni, l, fangui- |  |
 | `c2-l026` | &emsp;ni firaqu. *Imprimir liuros. ¶* Qiyeno |  |
 | `c2-l027` | &emsp;mayuuo firaqu. *Alegrarſe muito.* |  |
@@ -116,7 +116,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l042` | &emsp;*uor no canto, bailo, pregação, &c. & reti-* |  |
 | `c2-l043` | &emsp;*rarſe, ou aquietarſe a ſeu tempo.* |  |
 | `c2-l044` | Firaqiauaxe, uru, eta. *Deſencontrarſe cõ as* |  |
-| `c2-l045` | &emsp;*Catanas nos golpes, ou talhos da eſgrima.* |  |
+| `c2-l045` | &emsp;Catanas *nos golpes, ou talhos da eſgrima.* |  |
 | `c2-l046` | Firaqido. *Porta que ſe abre ſobre couceira.* |  |
 | `c2-l047` | Firaqiuacare, uru, eta. *Retirarſe, & diui-* |  |
 | `c2-l048` | &emsp;*dirſe.* |  |

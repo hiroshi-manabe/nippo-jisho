@@ -92,7 +92,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l012` | &emsp;*he o dia, & anoite reuezandoſe roem a raiz* |  |
 | `c2-l013` | &emsp;*deſſa erua. i. Gaſtão a vida.* |  |
 | `c2-l014` | Cauaſulo. *Parte inferior do rio.* |  |
-| `c2-l015` | Cauatabi. *Tabis de couro.* |  |
+| `c2-l015` | Cauatabi. Tabis *de couro.* |  |
 | `c2-l016` | Cauatçura. P. *Superficie do rio.* |  |
 | `c2-l017` | Cauatori. *Paſſaro do rio.* |  |
 | `c2-l018` | Cauauſo. *Hum animal dagoa como lontra,* |  |
@@ -104,12 +104,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l024` | Cauaxi. *Troco, ou cambio. ¶* Cane, co- |  |
 | `c2-l025` | &emsp;me nadouo cauaxini ſuru. *Dar, ou to-* |  |
 | `c2-l026` | &emsp;*mar prata, arroz, &c. ao cambio, como* |  |
-| `c2-l027` | &emsp;*quando hum toma prata no Miyaco pera a pa-* |  |
+| `c2-l027` | &emsp;*quando hum toma prata no* Miyaco *pera a pa-* |  |
 | `c2-l028` | &emsp;*gar em Nagaſaqi.* |  |
 | `c2-l029` | Cauaxebi. *Hũa aue aſsi chamada.* |  |
 | `c2-l030` | Cauaya. *Secretas.* |  |
 | `c2-l031` | Cauaya. *Caſa do corrieiro, ou çapateiro que* |  |
-| `c2-l032` | &emsp;*faz Tabis. ¶ Item, O meſmo official.* |  |
+| `c2-l032` | &emsp;*faz* Tabis. *¶ Item, O meſmo official.* |  |
 | `c2-l033` | Cauaya. *Homem que tem por officio eſſolar* |  |
 | `c2-l034` | &emsp;*beſtas mortas, ou bois, & faz Cauagos.* |  |
 | `c2-l035` | Cauayebi. *Camarão do rio, ou ribeira.* |  |
@@ -123,7 +123,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l043` | Cauocu. Iye iye. *Caſa.* |  |
 | `c2-l044` | Cauon. Voni uo cuuayuru. *Acrecenta-* |  |
 | `c2-l045` | &emsp;*mento de beneficios, ou renda. ¶* Gocauô |  |
-| `c2-l046` | &emsp;uonaſareta. *Acrecentou lhe o Tono mais* |  |
+| `c2-l046` | &emsp;uonaſareta. *Acrecentou lhe o* Tono *mais* |  |
 | `c2-l047` | &emsp;*renda.* |  |
 
 ## Catchword

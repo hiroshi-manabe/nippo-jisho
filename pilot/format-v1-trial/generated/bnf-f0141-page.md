@@ -14,7 +14,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | &emsp;*com que amarrão a alguem. No Cami ſe diz* |  |
+| `c1-l001` | &emsp;*com que amarrão a alguem. No* Cami *ſe diz* |  |
 | `c1-l002` | &emsp;Curu. *i. fabrica.* |  |
 | `c1-l003` | Cumitate. *Inuenção, ou traça, ou modo de* |  |
 | `c1-l004` | Cumitate, tçuru, eta. *Fabricar, ou edificar.* |  |
@@ -54,7 +54,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l038` | Cumono-i. *Tea daranha.* |  |
 | `c1-l039` | Cumono vye. *Paços do Rei de Iapão.* |  |
 | `c1-l040` | Cumono vyebito. *Os grãdes da corte do Rei.* |  |
-| `c1-l041` | &emsp;*i. Cugues.* |  |
+| `c1-l041` | &emsp;*i.* Cugues. |  |
 | `c1-l042` | Cumono iye. *Tea daranha.* |  |
 | `c1-l043` | Cumoracaxi, ſu, aita. *Eſcurecer, ou enne-* |  |
 | `c1-l044` | &emsp;*uoar algũa couſa como o eſpelho, &c.* |  |
@@ -85,7 +85,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l005` | &emsp;*tempo, ou toldarſe o ceo.* |  |
 | `c2-l006` | Cumot. *Caxas, ou arroz que ſe offerece ao ſe-* |  |
 | `c2-l007` | &emsp;*nhor de ſuas rendas proprias. Vt,* Gocumot |  |
-| `c2-l008` | &emsp;uo aguru. *¶ Item. Cumot. No Ximo,* |  |
+| `c2-l008` | &emsp;uo aguru. *¶ Item.* Cumot. *No* Ximo, |  |
 | `c2-l009` | &emsp;*arroz, ou bate.* |  |
 | `c2-l010` | Cun, Voxiyuru. *O declarar, ou ler em lin-* |  |
 | `c2-l011` | &emsp;*gua vulgar algum liuro, &c. ¶* Cunno |  |

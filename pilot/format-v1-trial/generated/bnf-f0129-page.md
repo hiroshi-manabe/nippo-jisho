@@ -98,7 +98,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l018` | &emsp;*te, ou boa aparencia, & ornato. ¶ Item,* |  |
 | `c2-l019` | &emsp;*Boa aparencia de qualquer outra couſa. S.* |  |
 | `c2-l020` | &emsp;¶ Côſôna, l, côſônaru coto. *Idem.* |  |
-| `c2-l021` | Côſô. Tacaqi ſijiri. *Bôzo honrrado de dig-* |  |
+| `c2-l021` | Côſô. Tacaqi ſijiri. Bôzo *honrrado de dig-* |  |
 | `c2-l022` | &emsp;*nidade.* |  |
 | `c2-l023` | Coſo. *Adu. Antes, l, Potius. As ve-* |  |
 | `c2-l024` | &emsp;*zes ſe vſa ſomente por elegancia. Vt,* Ca- |  |
@@ -110,7 +110,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l030` | &emsp;*dos Ienxis. Vt,* Amatano coſocuuo ſanje- |  |
 | `c2-l031` | &emsp;rareta. *Mon. Diſcorreo, & meditou* |  |
 | `c2-l032` | &emsp;*muitos pontos dos que dão os Ienxis.* |  |
-| `c2-l033` | Coſode. *Veſtido de ſeda, ou Tçu mugui.* |  |
+| `c2-l033` | Coſode. *Veſtido de ſeda, ou* Tçu mugui. |  |
 | `c2-l034` | Coſogue, uru, eta. *Raſpar.* |  |
 | `c2-l035` | Coſoguri, uru, utta. *Fazer coſegas.* |  |
 | `c2-l036` | Côſon. Yenomura. *Pouoação que eſtà na en-* |  |

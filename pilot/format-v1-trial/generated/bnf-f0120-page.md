@@ -21,11 +21,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l005` | Codachi. *Ramos daruore.* |  |
 | `c1-l006` | Codachi. *Montante pequeno.* |  |
 | `c1-l007` | Coda codana. *Couſa miuda, ou feita em pe-* |  |
-| `c1-l008` | &emsp;*dacinhos. No Cami ſe diz Cudacudana.* |  |
+| `c1-l008` | &emsp;*dacinhos. No* Cami *ſe diz* Cudacudana. |  |
 | `c1-l009` | Codacodani. *Adu. Empedacinhos, ou mi-* |  |
 | `c1-l010` | &emsp;*udamente. ¶* Codacodani ſuru. *Es-* |  |
-| `c1-l011` | &emsp;*miuçar, ou fazer em pedacinhos. No Cami* |  |
-| `c1-l012` | &emsp;*ſe diz Cudacudani.* |  |
+| `c1-l011` | &emsp;*miuçar, ou fazer em pedacinhos. No* Cami |  |
+| `c1-l012` | &emsp;*ſe diz* Cudacudani. |  |
 | `c1-l013` | Codai. *Gorazes, ou pargos pequenos.* |  |
 | `c1-l014` | Cǒdan. Tacaqu cataru. *Falar, ou pregar* |  |
 | `c1-l015` | &emsp;*alto.* |  |
@@ -41,7 +41,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l025` | Cǒdǒ. Tacaqi iye. *Tera alta, ou caſas altas.* |  |
 | `c1-l026` | Codoco. *Paos que atraueſſão nas faxiras de* |  |
 | `c1-l027` | &emsp;*baxo do ſolhado pera fortificar a obra. No* |  |
-| `c1-l028` | &emsp;*Cami ſe diz Neda.* |  |
+| `c1-l028` | &emsp;Cami *ſe diz* Neda. |  |
 | `c1-l029` | Codocu. Minaxigo. fitorimi. *Orfão, &* |  |
 | `c1-l030` | &emsp;*homem deſemparado ſem abrigo, &c.* |  |
 | `c1-l031` | Cǒdocu. Yomi yomu. *Ler cõ certa toada co-* |  |

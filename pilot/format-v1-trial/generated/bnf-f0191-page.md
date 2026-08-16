@@ -55,7 +55,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l039` | Fippari, u, atta. *Eſtirar puxando.* |  |
 | `c1-l040` | Fippegui. *Hũas taboinhas quadradas ſobre que* |  |
 | `c1-l041` | &emsp;*poem Sacazzuqui, ou algũa iguaria, &c. no* |  |
-| `c1-l042` | &emsp;*Ximo ſe diz Fegui.* |  |
+| `c1-l042` | &emsp;Ximo *ſe diz* Fegui. |  |
 | `c1-l043` | Fippǒ. Fudeno nori. i, Monono cagiyǒ. |  |
 | `c1-l044` | &emsp;*Modo de eſcreuer, ou talho de letras. ¶* Fu- |  |
 | `c1-l045` | &emsp;deno fippǒga yoica, varuica? *O talho da-* |  |

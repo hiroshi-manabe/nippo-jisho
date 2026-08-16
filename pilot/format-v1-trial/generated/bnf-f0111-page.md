@@ -17,7 +17,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l001` | Chôfô. Yomoqi tacara. *Couſa eſtimada,* |  |
 | `c1-l002` | &emsp;*& precioſa, ou proueitoſa.* |  |
 | `c1-l003` | Chôfǒ. *O concertar, ou aparelhar. Vt,* |  |
-| `c1-l004` | &emsp;Sacanauo chôfǒſuru. *Aparelhar ſacana.* |  |
+| `c1-l004` | &emsp;Sacanauo chôfǒſuru. *Aparelhar* ſacana. |  |
 | `c1-l005` | &emsp;*¶* Chôfǒno yoifito. *Peſſoa induſtrioſa,* |  |
 | `c1-l006` | &emsp;*& que ſabe aparelhar as couſas, & negoci-* |  |
 | `c1-l007` | &emsp;*arſe, &c.* |  |
@@ -114,13 +114,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l034` | &emsp;*mentos a ſuas horas.* |  |
 | `c2-l035` | Chonicu. Inoxixino xiximura. *Carne de* |  |
 | `c2-l036` | &emsp;*porco do mato.* |  |
-| `c2-l037` | Chǒnin. Machiudo. *Homem do Machi, ou* |  |
+| `c2-l037` | Chǒnin. Machiudo. *Homem do* Machi, *ou* |  |
 | `c2-l038` | &emsp;*rua.* |  |
 | `c2-l039` | Chôno. *Enxó.* |  |
-| `c2-l040` | Chonto. *Vide, Chonguirito.* |  |
+| `c2-l040` | Chonto. *Vide,* Chonguirito. |  |
 | `c2-l041` | Chǒqen. Nagai qinu. i. Xôzocu. *Certo* |  |
-| `c2-l042` | &emsp;*veſtido que os Bôzos veſtem por cima.* |  |
-| `c2-l043` | Chôqen. Axita nori. *Ordenações do Dairi.* |  |
+| `c2-l042` | &emsp;*veſtido que os* Bôzos *veſtem por cima.* |  |
+| `c2-l043` | Chôqen. Axita nori. *Ordenações do* Dairi. |  |
 | `c2-l044` | Chǒqi. Tacafizauo tatçuru. *Porſe de joe-* |  |
 | `c2-l045` | &emsp;*lhos ao modo de Europa. ¶* Chǒqi gax- |  |
 | `c2-l046` | &emsp;xô xite. *Pondoſe de joelhos com as mãos a-* |  |

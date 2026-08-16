@@ -21,7 +21,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l005` | &emsp;*bomba. &c* Funeno acauo cumi ague- |  |
 | `c1-l006` | &emsp;caye ſutçuru. *Monog. Dando à bom-* |  |
 | `c1-l007` | &emsp;*ba botauão fora toda a immundicia, & agoa* |  |
-| `c1-l008` | &emsp;*da Fune.* |  |
+| `c1-l008` | &emsp;*da* Fune. |  |
 | `c1-l009` | Cayette. Adu. *Pollo contrario, antes.* |  |
 | `c1-l010` | Cayexi. *Eſterco de paſſaros.* |  |
 | `c1-l011` | Cayexi, u, yeita. *Eſſer tornar. ¶ Iiẽ,* |  |
@@ -45,13 +45,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l029` | &emsp;miuo cayouaſu. *Eſcreuerſe entre ſi.* |  |
 | `c1-l030` | &emsp;*¶* Tçucaiuo cayouaſu. *Mandar recados* |  |
 | `c1-l031` | &emsp;*hum a outro.* |  |
-| `c1-l032` | Cayu. *Canja.* |  |
+| `c1-l032` | Cayu. Canja. |  |
 | `c1-l033` | Cayŭ. Adu. Vt, Cayŭ goçaru. *Sen-* |  |
 | `c1-l034` | &emsp;*tir comechão, ou coçeira.* |  |
-| `c1-l035` | Cayugari, u. *Vem de Caij. ter, ou ſentir co-* |  |
+| `c1-l035` | Cayugari, u. *Vem de* Caij. *ter, ou ſentir co-* |  |
 | `c1-l036` | &emsp;*meçhão, ou coçeira.* |  |
 | `c1-l037` | Cayuſa. *Comechão. Poſto que commummente* |  |
-| `c1-l038` | &emsp;*ſe diz Caiſa.* |  |
+| `c1-l038` | &emsp;*ſe diz* Caiſa. |  |
 | `c1-l039` | Caza. i. *Vento, eſta palaura não ſe vſa por ſi* |  |
 | `c1-l040` | &emsp;*ſoo, ſe não compoſta com outras. Vt,* Caza- |  |
 | `c1-l041` | &emsp;cague, &c. *Como ſe vera a baixo.* |  |
@@ -80,7 +80,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l006` | Cazaqiri. *Cabo, ou pontas delgadas das pe-* |  |
 | `c2-l007` | &emsp;*nas das auez. ¶* Cazaqiriuo xigocu. *Deſ-* |  |
 | `c2-l008` | &emsp;*penar eſtas penas aos paſſaros pera que não vo-* |  |
-| `c2-l009` | &emsp;*em muito. ¶ Item, Cazaqiri. Hũa ma-* |  |
+| `c2-l009` | &emsp;*em muito. ¶ Item,* Cazaqiri. *Hũa ma-* |  |
 | `c2-l010` | &emsp;*neira de catavento, ou grimpa.* |  |
 | `c2-l011` | Cazari, u, atta. *Ornar, ou armar.* |  |
 | `c2-l012` | Cazari. *Ornamento, ou armação.* |  |
@@ -97,7 +97,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l023` | &emsp;riagaru. *Ir embarcado, ou poſto no nauio* |  |
 | `c2-l024` | &emsp;*da parte de balravento quando o vento he polla* |  |
 | `c2-l025` | &emsp;*bulina pera que aſsi indireite a embarcação. O* |  |
-| `c2-l026` | &emsp;*contrario he Cazaxita. i. Iulauento.* |  |
+| `c2-l026` | &emsp;*contrario he* Cazaxita. *i. Iulauento.* |  |
 | `c2-l027` | Cazaxi, ſu, aita. *Aleuantar diante do roſto* |  |
 | `c2-l028` | &emsp;*algũa couſa como abano, ramo, &c. Vt,* |  |
 | `c2-l029` | &emsp;Vǒguiuo cazaſu. *Aleuantar o abano diante* |  |

@@ -114,18 +114,18 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2b-l013` | &emsp;*não ſabe as entradas, & ſaidas.* |  |
 | `c2b-l014` | Bucacugo. *Deſaperçibimento, ou pouco aparelho.* |  |
 | `c2b-l015` | Buccai. Fotoqeno yuaxime. *Prohibição do* |  |
-| `c2b-l016` | &emsp;*Fotoqe.* |  |
-| `c2b-l017` | Buccacu. Fotoqeno iye. *Caſa do Fotoqe, ou* |  |
+| `c2b-l016` | &emsp;Fotoqe. |  |
+| `c2b-l017` | Buccacu. Fotoqeno iye. *Caſa do* Fotoqe, *ou* |  |
 | `c2b-l018` | &emsp;*varela.* |  |
 | `c2b-l019` | Bucchi. Fotoqenochiye. *Saber do idolo, ou* |  |
-| `c2b-l020` | &emsp;*Fotoqe.* |  |
-| `c2b-l021` | Bucchi. *Lugar onde eſtão os Fotoqes.* |  |
+| `c2b-l020` | &emsp;Fotoqe. |  |
+| `c2b-l021` | Bucchi. *Lugar onde eſtão os* Fotoqes. |  |
 | `c2b-l022` | Bucchocu. Fotoqeno micotono ri. *Pala-* |  |
-| `c2b-l023` | &emsp;*uras, ou doutrina do Fotoqe.* |  |
-| `c2b-l024` | Buccô. Fotoqeno cuchi. *Boca do Fotoqe.* |  |
-| `c2b-l025` | Buccot. *Obra marauilhoſa que fez o Fotoqe.* |  |
+| `c2b-l023` | &emsp;*uras, ou doutrina do* Fotoqe. |  |
+| `c2b-l024` | Buccô. Fotoqeno cuchi. *Boca do* Fotoqe. |  |
+| `c2b-l025` | Buccot. *Obra marauilhoſa que fez o* Fotoqe. |  |
 | `c2b-l026` | Buccu. Fotoqeno cuimono. *Comer que ſe* |  |
-| `c2b-l027` | &emsp;*poem diante do Fotoqe, mas pronunciãſe Buc-* |  |
+| `c2b-l027` | &emsp;*poem diante do* Fotoqe, *mas pronunciãſe Buc-* |  |
 | `c2b-l028` | &emsp;*cu com hum ſó C.* |  |
 | `c2b-l029` | Buchi. *Vara, ou bordão. ¶ Item, Cor de* |  |
 | `c2b-l030` | &emsp;*caualo.* |  |

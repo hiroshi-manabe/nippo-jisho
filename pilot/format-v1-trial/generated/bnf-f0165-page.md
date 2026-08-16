@@ -44,7 +44,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l028` | &emsp;*pollo chão.* |  |
 | `c1-l029` | Faiban. *Hũa taboinha ſobre que poem o copo.* |  |
 | `c1-l030` | Faibun. Rǒjeqi. *Deſordem, & pertur-* |  |
-| `c1-l031` | &emsp;*bação que fica no Zaxiqi, depois de muito* |  |
+| `c1-l031` | &emsp;*bação que fica no* Zaxiqi, *depois de muito* |  |
 | `c1-l032` | &emsp;*beber.* |  |
 | `c1-l033` | Faibun. Cubari, vaquru. *Repartição.* |  |
 | `c1-l034` | Faibuqi. *Certa prata boa.* |  |
@@ -79,7 +79,7 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c2-l001` | Faiden. Vogamijo. *Certo oratorio que eſta* |  |
-| `c2-l002` | &emsp;*diante da caſa do Cami.* |  |
+| `c2-l002` | &emsp;*diante da caſa do* Cami. |  |
 | `c2-l003` | Faidocu. Vogami yomu. *Ler com reuerencia.* |  |
 | `c2-l004` | Faje. *Hum certo peixe.* |  |
 | `c2-l005` | Faje. *Eſteiras feitas de hũa certa erua, ou* |  |
@@ -112,7 +112,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l032` | Faigun. Icuſa yabururu. i, Ginga cuzzu- |  |
 | `c2-l033` | &emsp;ruru. *Deſtruirſe o exercito.* |  |
 | `c2-l034` | Faijen. Ienuo cubaru. *Opor as meſas de* |  |
-| `c2-l035` | &emsp;*Iapão por ordem no Zaxiqi.* |  |
+| `c2-l035` | &emsp;*Iapão por ordem no* Zaxiqi. |  |
 | `c2-l036` | Fai iri, u, itta. *Entrar de gatinhas.* |  |
 | `c2-l037` | Faiji. Vogami tçucayuru. *Seruiço q̃ ſe faz,* |  |
 | `c2-l038` | &emsp;*com reuerencia a peſſoa honrada.* |  |

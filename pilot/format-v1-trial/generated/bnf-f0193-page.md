@@ -26,7 +26,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l010` | &emsp;*Deſaparecerem as aues quando as ſeguem por* |  |
 | `c1-l011` | &emsp;*cauſa dalgum monte, ou ſerra que eſtà dian-* |  |
 | `c1-l012` | &emsp;*te: principalmente ſe diz das gallinhas do* |  |
-| `c1-l013` | &emsp;*mato. Item, No Ximo ſe diz de gente que* |  |
+| `c1-l013` | &emsp;*mato. Item, No* Ximo *ſe diz de gente que* |  |
 | `c1-l014` | &emsp;*ſe encobre, ou deſaparece com algum mon-* |  |
 | `c1-l015` | &emsp;*te, &c.* |  |
 | `c1-l016` | Fiqicudaxi, u, aita. *Abaixar algũa couſa* |  |
@@ -80,7 +80,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l005` | &emsp;*no chão.* |  |
 | `c2-l006` | Fiqigairu. i, Vacufiqi. *Manduco.* |  |
 | `c2-l007` | Fiqigui. *Pao com que fazem andar à roda,* |  |
-| `c2-l008` | &emsp;*a mó de moer cha, farinha, &c.* |  |
+| `c2-l008` | &emsp;*a mó de moer* cha, *farinha, &c.* |  |
 | `c2-l009` | Fiqiguiri. *Hũa laya de verruma grande de que* |  |
 | `c2-l010` | &emsp;*uſão os carpinteiros de nauios.* |  |
 | `c2-l011` | Fiqiguxi, ſuru, ita. *Leuar conſigo gente.* |  |

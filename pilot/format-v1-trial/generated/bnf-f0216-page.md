@@ -46,8 +46,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l030` | &emsp;*&c. ¶* Faxirano fozo. *Ponta delgada* |  |
 | `c1-l031` | &emsp;*da colũna pera encaixar em outro pao.* |  |
 | `c1-l032` | Fôzǒ. Tacara cura. *Gudão, ou logra de fa-* |  |
-| `c1-l033` | &emsp;*to. ¶ Item, No Ximo bolſa que ſe traz* |  |
-| `c1-l034` | &emsp;*dependurada no cinto. No Cami ſe diz,* Fi- |  |
+| `c1-l033` | &emsp;*to. ¶ Item, No* Ximo *bolſa que ſe traz* |  |
+| `c1-l034` | &emsp;*dependurada no cinto. No* Cami *ſe diz,* Fi- |  |
 | `c1-l035` | &emsp;uchibucuro, l, qinchacu. |  |
 | `c1-l036` | Fǒzon. Cǒbaxǔ zonzuru. *Reſpeito, ou pe-* |  |
 | `c1-l037` | &emsp;*jo em falar algũa couſa. ¶* Fǒzonmono- |  |

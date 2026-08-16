@@ -46,7 +46,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l030` | &emsp;*guardar o meo, ou em tudo ſede temperado.* |  |
 | `c1-l031` | &emsp;¶ *Item, Nome de hum liuro da china que* |  |
 | `c1-l032` | &emsp;*trata deſta temperança, & mediocridade.* |  |
-| `c1-l033` | Chùzon. *Fotoque que eſtá no meyo, i. en-* |  |
+| `c1-l033` | Chùzon. Fotoque *que eſtá no meyo, i. en-* |  |
 | `c1-l034` | &emsp;*tre dous.* |  |
 
 ## Printed alphabetical divider
@@ -108,7 +108,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l019` | &emsp;mu. *Andar com o paſſo curto.* |  |
 | `c2-l020` | Coba. i. Cococuno vma, l, yebifuno v- |  |
 | `c2-l021` | &emsp;ma. *Caualo de hum Reino vezinho ao da* |  |
-| `c2-l022` | &emsp;*China chamado Coba.* |  |
+| `c2-l022` | &emsp;*China chamado* Coba. |  |
 | `c2-l023` | Cǒba. Yuqu vma. *Caualo que caminha.* |  |
 | `c2-l024` | Cǒbaco. *Bocetinha de cheiros.* |  |
 | `c2-l025` | Cobaco. *Bocetinha em que metem algũa me-* |  |

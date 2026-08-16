@@ -99,12 +99,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l015` | Fôate. *Viſeira. ¶* Fôateuo ſuru. *Põr* |  |
 | `c2-l016` | &emsp;*viſeira no roſto.* |  |
 | `c2-l017` | Fôbare. *Doença que faz inchar o roſto. No* |  |
-| `c2-l018` | &emsp;*Cami ſe diz,* Fôfare. *¶* Fôbareuo ya- |  |
+| `c2-l018` | &emsp;Cami *ſe diz,* Fôfare. *¶* Fôbareuo ya- |  |
 | `c2-l019` | &emsp;mu. *Eſtar com o roſto inchado deſta doença.* |  |
 | `c2-l020` | Fǒbai. *Companheiro.* |  |
 | `c2-l021` | Fobaxira. *Maſto. ¶* Fobaxirauo tatçu- |  |
 | `c2-l022` | &emsp;ru, l, voxitatçuru. *Aleuantar o maſto.* |  |
-| `c2-l023` | Fǒben. *Ardil, ou modo de enſinar o Fotoque* |  |
+| `c2-l023` | Fǒben. *Ardil, ou modo de enſinar o* Fotoque |  |
 | `c2-l024` | &emsp;*com a doutrina apparente pera que o pouo ſe affei-* |  |
 | `c2-l025` | &emsp;*çoe, poſto que em ſecreto tenha, & enſine ou-* |  |
 | `c2-l026` | &emsp;*tra couſa.* |  |

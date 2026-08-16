@@ -17,9 +17,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l001` | &emsp;*cantos, ou pontas, & que não he liza, ou redon-* |  |
 | `c1-l002` | &emsp;*da. ¶ Item, Homem agaſtado, & que* |  |
 | `c1-l003` | &emsp;*da nos olhos dos outros com ſeu modo.* |  |
-| `c1-l004` | Cadogamaxij. *Idem quod Cado.* |  |
+| `c1-l004` | Cadogamaxij. *Idem quod* Cado. |  |
 | `c1-l005` | Cadode. *Primeira ſaida. A propria* |  |
-| `c1-l006` | &emsp;*palaura, & corrente he cadoide. vide infra.* |  |
+| `c1-l006` | &emsp;*palaura, & corrente he* cadoide. *vide infra.* |  |
 | `c1-l007` | Cadoi, ô, ôta. *Leuar por engano a outro,* |  |
 | `c1-l008` | &emsp;*ou enganando o leualo furtado.* |  |
 | `c1-l009` | Cadoi idaxi, ſu, aita. *Leuar alguẽ enga-* |  |
@@ -37,7 +37,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l021` | &emsp;*ou mal eſtreada conforme ao ſucceſſo que tem* |  |
 | `c1-l022` | &emsp;*no dia em que ſaem, ou ſe partem deueras, &* |  |
 | `c1-l023` | &emsp;*aſſi ſe acerta de encontrar alguã peſſoa a que* |  |
-| `c1-l024` | &emsp;*tem odio, &c. dizem cadoideuo ximauoi-* |  |
+| `c1-l024` | &emsp;*tem odio, &c. dizem* cadoideuo ximauoi- |  |
 | `c1-l025` | &emsp;te mairo. *Quero ir me emendar, ou mi-* |  |
 | `c1-l026` | &emsp;*lhorar eſta ſaida, o q̃ fazem tornando ſe pera* |  |
 | `c1-l027` | &emsp;*caſa. ¶* Cadoideuo ſuru. *Fazer eſta ſaida.* |  |
@@ -48,9 +48,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l032` | Cadouacaxi, ſu, aita. *Leuar a outro enganado,* |  |
 | `c1-l033` | &emsp;*como a gente furtada.* |  |
 | `c1-l034` | Cadǒxa. Vtano michiuo xitta fito. *Poeta.* |  |
-| `c1-l035` | Cafacu. i. Suijin. *Cami que guarda, ou tem* |  |
+| `c1-l035` | Cafacu. i. Suijin. Cami *que guarda, ou tem* |  |
 | `c1-l036` | &emsp;*cuidado dos rios, como imaginão os gentios.* |  |
-| `c1-l037` | &emsp;*¶ Item, Odono, ou meſtre que gouerna a* |  |
+| `c1-l037` | &emsp;*¶ Item,* Odono, *ou meſtre que gouerna a* |  |
 | `c1-l038` | &emsp;*ẽbarcação dos rios, q̃ ſẽpre anda, & viue.* |  |
 | `c1-l039` | Cafan. Fanuo cuuayuru. i. Fiteno ſaino ſo- |  |
 | `c1-l040` | &emsp;bani ſuyuru. *Aſinarem muitos juntos.* |  |
@@ -77,7 +77,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l002` | &emsp;*ticular dalguã familia, ou arte que por dedução* |  |
 | `c2-l003` | &emsp;*he propria de algũa familia. ¶* Cafǔ jin- |  |
 | `c2-l004` | &emsp;jǒni xite. *Sendo arte limpa, & liberal co-* |  |
-| `c2-l005` | &emsp;*mo de compor Vtas, &c. propria dalgũa* |  |
+| `c2-l005` | &emsp;*mo de compor* Vtas, *&c. propria dalgũa* |  |
 | `c2-l006` | &emsp;*familia.* |  |
 | `c2-l007` | Cafuchi. Qinbunuo cuuayuru, l, fuchi- |  |
 | `c2-l008` | &emsp;uo cuuayuru. *Acrecentar a merce, come-* |  |
@@ -117,7 +117,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l042` | &emsp;*hũs, & outros, ou andar eſcondido.* |  |
 | `c2-l043` | Cagamino mochi. *Hũs bolos de arroz redõ-* |  |
 | `c2-l044` | &emsp;*dos muito grandes como nos q̃ fazem no tempo* |  |
-| `c2-l045` | &emsp;*do Xǒguachi.* |  |
+| `c2-l045` | &emsp;*do* Xǒguachi. |  |
 | `c2-l046` | Cagami tenjǒ. *Forro de caſa plaino de taboas* |  |
 | `c2-l047` | &emsp;*ſem faſquias pollas junturas.* |  |
 

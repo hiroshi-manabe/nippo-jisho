@@ -44,7 +44,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l028` | &emsp;*uas que ſe queimão pera mezinha em lugar* |  |
 | `c1-l029` | &emsp;*das quais uſão às vezes da fullugem que eſtà* |  |
 | `c1-l030` | &emsp;*pegada no fundo da panella que eſtà ao fogo* |  |
-| `c1-l031` | &emsp;*a que chamão tambem fiacuſǒ.* |  |
+| `c1-l031` | &emsp;*a que chamão tambem* fiacuſǒ. |  |
 | `c1-l032` | Fiacuſocu. Fiacuno axi. i, mucade. *Cen-* |  |
 | `c1-l033` | &emsp;*topea.* |  |
 | `c1-l034` | Fiacuuǒ. Fiacudai. *Muitas idades. Vt,* |  |
@@ -116,7 +116,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l041` | Fiba. Tǒbu vma. *Caualo de ſalto, ou ligeiro.* |  |
 | `c2-l042` | Fiba. i, Finoqino fa. *Folhas de hũa aruore* |  |
 | `c2-l043` | &emsp;*como accipreſte.* |  |
-| `c2-l044` | Fibacari. *Certa cobra pintada: No Ximo, ſe diz* |  |
+| `c2-l044` | Fibacari. *Certa cobra pintada: No* Ximo, *ſe diz* |  |
 | `c2-l045` | &emsp;Fibacari. |  |
 | `c2-l046` | Fibachi. *Fogareiro.* |  |
 | `c2-l047` | Fibaco. *Braſeiro de pao fechado pera aquen-* |  |

@@ -19,12 +19,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l003` | Camomeguiri. *Modo de cortar lapas, de ma-* |  |
 | `c1-l004` | &emsp;*neira que arremeda a feição das gaiuotas.* |  |
 | `c1-l005` | Camomejiri. *Vt,* Camomejirini catana uo |  |
-| `c1-l006` | &emsp;ſaſu. *Cingir catana com a ponta aleuantada* |  |
+| `c1-l006` | &emsp;ſaſu. *Cingir* catana *com a ponta aleuantada* |  |
 | `c1-l007` | &emsp;*para detraz.* |  |
 | `c1-l008` | Camouri. *Combalengas.* |  |
 | `c1-l009` | Camuri. *Coroa, ou inſignia que ſe traz na* |  |
 | `c1-l010` | &emsp;*cabeça como barrete, &c.* |  |
-| `c1-l011` | Camuriuotoxi. *Certa laya de feitio de catana.* |  |
+| `c1-l011` | Camuriuotoxi. *Certa laya de feitio de* catana. |  |
 | `c1-l012` | Can. Samuxi. *Frialdade, ou frio.* |  |
 | `c1-l013` | Can. *Vt,* Cangatatçu. *Diminuirſe o arroz* |  |
 | `c1-l014` | &emsp;*no medir, ou nos fardos, &c. ¶* Canga |  |
@@ -44,12 +44,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l028` | Canabachi. *Bacia de latão, ou outro metal.* |  |
 | `c1-l029` | Canabaſami. *Troquez, ou tanaz.* |  |
 | `c1-l030` | Canabaxi. *Faxis de metal.* |  |
-| `c1-l031` | Canabiqi, u, ijta. *Prouar a catana.* |  |
+| `c1-l031` | Canabiqi, u, ijta. *Prouar a* catana. |  |
 | `c1-l032` | Canabǒ. *Bordão, ou baſtão de ferro.* |  |
 | `c1-l033` | Canabumi. *Carta eſcrita com letra cana.* |  |
 | `c1-l034` | Canacaqe. i. Yegui. *Hũas taboinhas quadra-* |  |
 | `c1-l035` | &emsp;*das ſobre que leuão algũa couſa à meſa, ou* |  |
-| `c1-l036` | &emsp;*poem ſacazzuqi, &c.* |  |
+| `c1-l036` | &emsp;*poem* ſacazzuqi, *&c.* |  |
 | `c1-l037` | Canacugui. *Pregos de ferro.* |  |
 | `c1-l038` | Canacuſai. *Couſa que tem cheiro, ou ſabor de* |  |
 | `c1-l039` | &emsp;*ferro, ou outro metal.* |  |
@@ -57,7 +57,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l041` | Canacuzzu. *Limaduras de prata, ouro, ou* |  |
 | `c1-l042` | &emsp;*outro metal.* |  |
 | `c1-l043` | Canadoricaua. *Tiras de metal com que em-* |  |
-| `c1-l044` | &emsp;*burulhão, & amarrão os punhos da catana* |  |
+| `c1-l044` | &emsp;*burulhão, & amarrão os punhos da* catana |  |
 | `c1-l045` | &emsp;*em lugar de correas.* |  |
 | `c1-l046` | Canadôro. *Alenterna de metal.* |  |
 | `c1-l047` | Canafangui. *Letras de metal que ſeruem na* |  |
@@ -113,7 +113,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l032` | Canamaqe. *Vt,* Canamaqeuo ſuru fito. |  |
 | `c2-l033` | &emsp;*Homem que lhe faz mal, ou he contrario o ferro,* |  |
 | `c2-l034` | &emsp;*ou arma, & não ſara facilmente da ferida* |  |
-| `c2-l035` | &emsp;*q̃ te. X. No Cami ſe diz Qizuyami, l, qi-* |  |
+| `c2-l035` | &emsp;*q̃ te. X. No* Cami *ſe diz* Qizuyami, *l,* qi- |  |
 | `c2-l036` | &emsp;zuyamaiuo ſuru fito. |  |
 | `c2-l037` | Caname. *Eixo, ou parafuſo do abano. ¶ Itẽ,* |  |
 | `c2-l038` | &emsp;*Per met. Couſa ſolida, & em que conſiſte o* |  |

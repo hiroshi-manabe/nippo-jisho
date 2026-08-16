@@ -33,7 +33,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l017` | Coccocu. Toqitoqi. *Cada hora, ou cada* |  |
 | `c1-l018` | &emsp;*quarto. ¶* Iiji coccocuni. *Cada ho-* |  |
 | `c1-l019` | &emsp;*ra, & cada quarto. i. Sempre, & cada paſſo.* |  |
-| `c1-l020` | Cocha. Furui cha. *Cha velho.* |  |
+| `c1-l020` | Cocha. Furui cha. Cha *velho.* |  |
 | `c1-l021` | Cochi. *Adu. Aqui.* |  |
 | `c1-l022` | Cochi. *Vento leſte.* |  |
 | `c1-l023` | Cochi. *Certo peixe como Peſcada.* |  |
@@ -81,7 +81,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l001` | Cocochi. *Modo, ou feição. Vt,* Guenzã |  |
 | `c2-l002` | &emsp;no cocochi ſuru. *Fazer como que ouiſſe, ou* |  |
 | `c2-l003` | &emsp;*encontralſe. ¶* Funago cocochi. *Enjoamen-* |  |
-| `c2-l004` | &emsp;*to da Fune. ¶* Rei naranu cocochi. *In-* |  |
+| `c2-l004` | &emsp;*to da* Fune. *¶* Rei naranu cocochi. *In-* |  |
 | `c2-l005` | &emsp;*diſpoſição extra ordinaria.* |  |
 | `c2-l006` | Côcocu. Nochino toqi. *Depois, ou noutra* |  |
 | `c2-l007` | &emsp;*hora.* |  |
@@ -94,7 +94,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l014` | Cocona. *Eſte, ou eſta. Vt,* Cocona fito. |  |
 | `c2-l015` | &emsp;*Eſte homem.* |  |
 | `c2-l016` | Coconi. *Adu. Aqui,* |  |
-| `c2-l017` | Coconoye. *Miyaco.* |  |
+| `c2-l017` | Coconoye. Miyaco. |  |
 | `c2-l018` | Cocoro. *Coração. ¶* Cocoroga mado. |  |
 | `c2-l019` | &emsp;*Andar o coração inquieto, & perturbado, ou* |  |
 | `c2-l020` | &emsp;*perplexo. ¶* Cocoroni cacaru. *Ter a-* |  |

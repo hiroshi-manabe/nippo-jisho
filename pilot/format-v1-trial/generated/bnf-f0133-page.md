@@ -40,11 +40,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l024` | Coxicobata. *Bandeirinhas que leuão de tras os* |  |
 | `c1-l025` | &emsp;*ſoldados na cinta aleuantadas.* |  |
 | `c1-l026` | Coxifiqi. *Manco, ou coxo.* |  |
-| `c1-l027` | Coxigatana. *Catana que ſe traz na cinta.* |  |
+| `c1-l027` | Coxigatana. Catana *que ſe traz na cinta.* |  |
 | `c1-l028` | Coxigaua. *Cinto que ſe cinge pegado na al-* |  |
 | `c1-l029` | &emsp;*jaua.* |  |
 | `c1-l030` | Coxigi. *Caminho pera as partes do norte à reſ-* |  |
-| `c1-l031` | &emsp;*peito do Miaco. ¶* Coxigiye vomomu- |  |
+| `c1-l031` | &emsp;*peito do* Miaco. *¶* Coxigiye vomomu- |  |
 | `c1-l032` | &emsp;qu. *Ir pera as partes do norte.* |  |
 | `c1-l033` | Coximaqi. *Veſtido que trazem molheres honr-* |  |
 | `c1-l034` | &emsp;*radas ſem veſtir as mangas ſobre os outros Co-* |  |
@@ -59,7 +59,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l043` | &emsp;*bediente.* |  |
 | `c1-l044` | Coxin. Vonorega mi. *Eu, ou minha peſ-* |  |
 | `c1-l045` | &emsp;*ſoa. S.* |  |
-| `c1-l046` | Coxino mono. *Eſpada, ou Catana de peſſoa* |  |
+| `c1-l046` | Coxino mono. *Eſpada, ou* Catana *de peſſoa* |  |
 | `c1-l047` | &emsp;*honrrada, & aſſi ſe diz ordinariamente. Vo-* |  |
 | `c1-l048` | &emsp;coxino mono. |  |
 

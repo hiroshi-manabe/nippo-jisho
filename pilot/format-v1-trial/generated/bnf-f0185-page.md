@@ -86,7 +86,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l012` | Feri. *Debrum, ou bainha do veſtido. ¶* Fe- |  |
 | `c2-l013` | &emsp;riuo toru. *Botar debrum, ou abainhar al-* |  |
 | `c2-l014` | &emsp;*gum veſtido, barrete, &c.* Tatamino feri- |  |
-| `c2-l015` | &emsp;uo tçuguru. *Botar debrum no Tatami.* |  |
+| `c2-l015` | &emsp;uo tçuguru. *Botar debrum no* Tatami. |  |
 | `c2-l016` | Feri, u, etta. *Irſe diminuindo. Vt,* Miz- |  |
 | `c2-l017` | &emsp;zuga fetta. *Diminuioſe, ou mingou a agua.* |  |
 | `c2-l018` | Fericudari. *Humildade.* |  |
@@ -103,7 +103,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l029` | &emsp;*imbigo das crianças. ¶* Feſono vouo qi- |  |
 | `c2-l030` | &emsp;ru, l, tçugu. *Cortar eſta tripa.* |  |
 | `c2-l031` | Feſubi. *Fulugem que eſtà pegada na panella de* |  |
-| `c2-l032` | &emsp;*ferro. X. No Cami ſe diz* Nabeſumi. |  |
+| `c2-l032` | &emsp;*ferro. X. No* Cami *ſe diz* Nabeſumi. |  |
 | `c2-l033` | Feta. *Borda do mar, ou de outra couſa. ¶* Fe- |  |
 | `c2-l034` | &emsp;tauo noru. *Nauegar ao longo da terra.* |  |
 | `c2-l035` | &emsp;*¶ Item, Aquella folha que eſta pegada no pé,* |  |

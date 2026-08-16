@@ -97,9 +97,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l017` | &emsp;*ou de outro gado.* |  |
 | `c2-l018` | Bocujin. Vianô fito. *Feiticeiro, ou o que* |  |
 | `c2-l019` | &emsp;*bota ſortes, & adeuinha.* |  |
-| `c2-l020` | Bocujô. *Dar o ſacazzugi a peſſoa mais al-* |  |
+| `c2-l020` | Bocujô. *Dar o* ſacazzugi *a peſſoa mais al-* |  |
 | `c2-l021` | &emsp;*ta. ¶* Bocujô itaſu, l, môſu. *Man-* |  |
-| `c2-l022` | &emsp;*dir, ou dar o ſacazzugi a alguem. Falando* |  |
+| `c2-l022` | &emsp;*dir, ou dar o* ſacazzugi *a alguem. Falando* |  |
 | `c2-l023` | &emsp;*com reſpeito da peſſoa.* |  |
 | `c2-l024` | Bocujũ. i. Guenindomo. *Criados, & ſeruos.* |  |
 | `c2-l025` | Bocujũ. Sumino xiru, l, ſuritaru ſumi. *Tĩta mo-* |  |

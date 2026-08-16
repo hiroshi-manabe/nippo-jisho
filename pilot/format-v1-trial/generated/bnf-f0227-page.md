@@ -16,7 +16,7 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c1-l001` | &emsp;*molher: palaura de molheres.* |  |
 | `c1-l002` | Futauoqi. *Couſa em que ſe poem a cobertura,* |  |
-| `c1-l003` | &emsp;*ou teſto do caldeirão, ou panella do Chanoyu.* |  |
+| `c1-l003` | &emsp;*ou teſto do caldeirão, ou panella do* Chanoyu. |  |
 | `c1-l004` | Futçǔ. Amanecu touoru. *Vniuerſalmente,* |  |
 | `c1-l005` | &emsp;*ou pella mòr parte. ¶* Futçǔna fitode nai. |  |
 | `c1-l006` | &emsp;*Não he qualquer homem, ou dos ordi-* |  |
@@ -27,14 +27,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l011` | &emsp;*municamos nem viſitamos. S.* |  |
 | `c1-l012` | Futçu. *Erua com que ſe dão botoens de fogo* |  |
 | `c1-l013` | &emsp;*X. ¶* Futçumochi. *Bolinhos de ar-* |  |
-| `c1-l014` | &emsp;*roz feitos com eſta erua. No Cami ſe diz* |  |
+| `c1-l014` | &emsp;*roz feitos com eſta erua. No* Cami *ſe diz* |  |
 | `c1-l015` | &emsp;Yomogui. |  |
 | `c1-l016` | Futçufutçuto. *Adu. Modo de cortar cerce,* |  |
 | `c1-l017` | &emsp;*ou modo de reſponder reſolutamente, &c.* |  |
 | `c1-l018` | Futçugǒ. Tçugǒxezu. *Não quadrar hũa* |  |
 | `c1-l019` | &emsp;*couſa com outra.* |  |
-| `c1-l020` | Futçumochi. *Vide futçu.* |  |
-| `c1-l021` | Futçuqi. *P. Xichiguat. 7. Lũa.* |  |
+| `c1-l020` | Futçumochi. *Vide* futçu. |  |
+| `c1-l021` | Futçuqi. *P.* Xichiguat. *7. Lũa.* |  |
 | `c1-l022` | Futçuto. *Adu. Modo de cortar cerce, ou* |  |
 | `c1-l023` | &emsp;*de reſponder reſolutamente.* |  |
 | `c1-l024` | Fute, tçuru, eta. *Obſtinarſe, ou não lhe dar* |  |
@@ -79,7 +79,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l004` | Futǒjin, l, futǒna mono. *Homem baixo,* |  |
 | `c2-l005` | &emsp;*& ſem policia, que reſponde, & não tem* |  |
 | `c2-l006` | &emsp;*deuer com nada.* |  |
-| `c2-l007` | Futojiro. i, Xiroi catabira. *Catabira bran-* |  |
+| `c2-l007` | Futojiro. i, Xiroi catabira. Catabira *bran-* |  |
 | `c2-l008` | &emsp;*ca. X.* |  |
 | `c2-l009` | Futome, uru, eta. *Fazer grande, ou mayor.* |  |
 | `c2-l010` | Futon. i, Xiqimono. *Colchão. ¶ Item,* |  |

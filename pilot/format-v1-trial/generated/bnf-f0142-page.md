@@ -16,7 +16,7 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c1-l001` | Cuniguni. *Reinos.* |  |
 | `c1-l002` | Cunijichi. *Refens que ſe dão da parte dalgũ* |  |
-| `c1-l003` | &emsp;*reino. Vide Xichi.* |  |
+| `c1-l003` | &emsp;*reino. Vide* Xichi. |  |
 | `c1-l004` | Cunimoto. *Patria, ou reino onde hum naceo,* |  |
 | `c1-l005` | &emsp;*ou reino que hum tem, ou poſſue.* |  |
 | `c1-l006` | Cuninami. *Comum cuſtume q̃ corre no reino.* |  |
@@ -31,7 +31,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l015` | Cuniuaqe. *Diuiſão dos reinos.* |  |
 | `c1-l016` | Cuniùdo. *Os naturaes do reino.* |  |
 | `c1-l017` | Cuni xu. *Os principaes do reino. Palaura que* |  |
-| `c1-l018` | &emsp;*corre em Bungo. ¶ Item, Os do reino.* |  |
+| `c1-l018` | &emsp;*corre em* Bungo. *¶ Item, Os do reino.* |  |
 | `c1-l019` | Cunizacai. *Termo, ou arraya do reino.* |  |
 | `c1-l020` | Cunizzucuxi. *Reinos pintados em mapa, ou* |  |
 | `c1-l021` | &emsp;*eſcritos de letra.* |  |
@@ -108,7 +108,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l034` | Cunyu. Cǒbaxij abura. *Vnguento, ou o-* |  |
 | `c2-l035` | &emsp;*leo cheiroſo.* |  |
 | `c2-l036` | Cuppucu. *O chamar, ou gaſalhar alguem.* |  |
-| `c2-l037` | Cuqegi. *Vide, Cuqemichi.* |  |
+| `c2-l037` | Cuqegi. *Vide,* Cuqemichi. |  |
 | `c2-l038` | Cuqemichi, l, cuqegi. *Atalho, ou cami-* |  |
 | `c2-l039` | &emsp;*nho eſcuſo por onde hum vai às eſcondidas.* |  |
 | `c2-l040` | Cùqen. Munaxij cobuxi. *Punho da mão* |  |

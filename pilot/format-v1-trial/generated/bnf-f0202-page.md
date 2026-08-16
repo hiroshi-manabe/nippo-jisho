@@ -36,7 +36,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l020` | Fiuada. *Caſca de hũa aruore como acipreſte.* |  |
 | `c1-l021` | Fiuadabuqi. *O telhar com eſta caſca, ou cor-* |  |
 | `c1-l022` | &emsp;*tiça. ¶* Fiuadabuqino iye. *Caſa telha-* |  |
-| `c1-l023` | &emsp;*da deſtas caſcas, ou cortiça de Finoqi.* |  |
+| `c1-l023` | &emsp;*da deſtas caſcas, ou cortiça de* Finoqi. |  |
 | `c1-l024` | Fiuadairo. *Cor que tira para preto ſobre ver-* |  |
 | `c1-l025` | &emsp;*melho.* |  |
 | `c1-l026` | Fiuare, ruru, eta. *Fender, ou abrir algũa cou-* |  |
@@ -48,7 +48,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l032` | Fiuchibucuro. *Bolſa da feição deſte fuzil q̃* |  |
 | `c1-l033` | &emsp;*ſe traz dependurada no cinto.* |  |
 | `c1-l034` | Fiuchicado. *Fuzil, & pederneira. X.* |  |
-| `c1-l035` | Fiuchino ixi. *Pederneira. No Ximo ſe diz* |  |
+| `c1-l035` | Fiuchino ixi. *Pederneira. No* Ximo *ſe diz* |  |
 | `c1-l036` | &emsp;Cado. |  |
 | `c1-l037` | Fiùgazu. *Vt,* Tacano fiùgazu. *Falcão q̃* |  |
 | `c1-l038` | &emsp;*ſe criou, ou veo do reino de Fiùga.* |  |
@@ -85,7 +85,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l011` | &emsp;*munda.* |  |
 | `c2-l012` | Fixi. *Eſtrepes, ou abrolhos. ¶* Fixiuo ma- |  |
 | `c2-l013` | &emsp;qu. *Por abrolhos, ou meter eſtrepes pera* |  |
-| `c2-l014` | &emsp;*impedir algum caminho. No Ximo ſe diz* |  |
+| `c2-l014` | &emsp;*impedir algum caminho. No* Ximo *ſe diz* |  |
 | `c2-l015` | &emsp;*tambem* Fixiuo vyuru, l, tatçuru, *&c.* |  |
 | `c2-l016` | &emsp;*Idem.* |  |
 | `c2-l017` | Fixi. *Certa fruita de erua que ſe dà nas ala-* |  |
@@ -102,7 +102,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l028` | &emsp;*to rijamente, ou apertadamente. Vt,* Fixi- |  |
 | `c2-l029` | &emsp;fixito vtaruru. *Ser eſpancado rijamente.* |  |
 | `c2-l030` | &emsp;*¶* Zaxiquini fixifixito nami iru. *Eſtarẽ* |  |
-| `c2-l031` | &emsp;*todos no Zaxiqui aſſentados por ordem, & a-* |  |
+| `c2-l031` | &emsp;*todos no* Zaxiqui *aſſentados por ordem, & a-* |  |
 | `c2-l032` | &emsp;*pertados.* |  |
 | `c2-l033` | Fixigue, uru, eta. *Quebrarſe, ou eſmiu-* |  |
 | `c2-l034` | &emsp;*çarſe.* |  |

@@ -19,7 +19,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l003` | &emsp;uo naſu. *Vnirſe, & liuarſe como dous irmãos.* |  |
 | `c1-l004` | Conton. *Vt,* Conton mibun. *Antes de* |  |
 | `c1-l005` | &emsp;*ſe criar, & aparecer diſtincto o ceo, & a ter-* |  |
-| `c1-l006` | &emsp;*ra, ou mundo. Xint.* |  |
+| `c1-l006` | &emsp;*ra, ou mundo.* Xint. |  |
 | `c1-l007` | Conxei. Nengoro naſaqe. *Amor, & a-* |  |
 | `c1-l008` | &emsp;*mizade, ou beneuolencia.* |  |
 | `c1-l009` | Conxeqi. Qiǒno cure. *Eſta tarde.* |  |
@@ -57,7 +57,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l041` | Cǒqe. Tadai iye. *Caſa, ou familia nobre.* |  |
 | `c1-l042` | &emsp;¶ Cǒqeno fito. *Homem nobre.* |  |
 | `c1-l043` | Coqe, uru, eta. *Roçar como de coſta a bai-* |  |
-| `c1-l044` | &emsp;*xo. ¶ Item, No Ximo eſtar queimado,* |  |
+| `c1-l044` | &emsp;*xo. ¶ Item, No* Ximo *eſtar queimado,* |  |
 | `c1-l045` | &emsp;*ou criuado do fogo.* |  |
 | `c1-l046` | Coqegi. P. i. Coqe muxitaru michi. |  |
 | `c1-l047` | &emsp;*Caminho de muito muſgo.* |  |
@@ -115,11 +115,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l035` | &emsp;*melhas.* |  |
 | `c2-l036` | Coqimajete. *Miſturando, ou trauando hũs ra-* |  |
 | `c2-l037` | &emsp;*mos com outros. He modo de falar que não ſe* |  |
-| `c2-l038` | &emsp;*vſa mais que em hũa Vta antigua.* |  |
-| `c2-l039` | Coqin. *Nome de hum liuro de Vtas antiguas.* |  |
+| `c2-l038` | &emsp;*vſa mais que em hũa* Vta *antigua.* |  |
+| `c2-l039` | Coqin. *Nome de hum liuro de* Vtas *antiguas.* |  |
 | `c2-l040` | Coqinxù. *Idem. ¶* Coqinno chiuta, |  |
 | `c2-l041` | &emsp;fatamaqi. *Doze liuros, ou partes onde hà* |  |
-| `c2-l042` | &emsp;*mil Vtas, ou verſos deſte liuro.* |  |
+| `c2-l042` | &emsp;*mil* Vtas, *ou verſos deſte liuro.* |  |
 | `c2-l043` | Côqin. Curenai nixiqi. *Certa peça luſtroſa* |  |
 | `c2-l044` | &emsp;*como brocadilho de ſeda vermelha.* |  |
 | `c2-l045` | Cǒqiǒ. Cuaqu, tçuyoxi. *Homem forte,* |  |

@@ -21,12 +21,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l005` | Canmon. *Rol, ou capitulos dos dias, ou me-* |  |
 | `c1-l006` | &emsp;*ſes em que hum hade fazer, ou deixar de fa-* |  |
 | `c1-l007` | &emsp;*zer alguã couſa por agouro, que os que ſeruem* |  |
-| `c1-l008` | &emsp;*ao Cami dão.* |  |
+| `c1-l008` | &emsp;*ao* Cami *dão.* |  |
 | `c1-l009` | Canna. *Cepilho. ¶* Cannauo caguru. |  |
 | `c1-l010` | &emsp;*Acepilhar.* |  |
 | `c1-l011` | Cannacuzzu. *Raſpaduras, ou cauaquinhos* |  |
 | `c1-l012` | &emsp;*q̃ ficão depois de açepilhar algũ pao, ou taboa.* |  |
-| `c1-l013` | Cannagui. *Homẽs que ſeruem aos Camis.* |  |
+| `c1-l013` | Cannagui. *Homẽs que ſeruem aos* Camis. |  |
 | `c1-l014` | Cannan. Cataxi cataxi. *Perigos. Vt,* Cã- |  |
 | `c1-l015` | &emsp;nãuo xinogu. *Paſſar trabalhos, & perigos.* |  |
 | `c1-l016` | Cannet. Samuxi, atçuxi. *Frio, & quente.* |  |
@@ -38,13 +38,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l022` | &emsp;nin ſuru. *Sofrer, ou ter paciencia.* |  |
 | `c1-l023` | Cannô, l, cãnôna. *Peſſoa deſtra em alguã couſa.* |  |
 | `c1-l024` | Cannǒ. Canji vqemuru. *O aceitarem os* |  |
-| `c1-l025` | &emsp;*Camis, & Fotoques alguã obra dos homens,* |  |
+| `c1-l025` | &emsp;Camis, *&* Fotoques *alguã obra dos homens,* |  |
 | `c1-l026` | &emsp;*& agradar lhe. ¶ Item, O comprirem,* |  |
 | `c1-l027` | &emsp;*ou ouuirem ſuas petições, & votos. Pode ſe* |  |
 | `c1-l028` | &emsp;*aplicar a Deos N. S., & aos ſanctos.* |  |
 | `c1-l029` | Cannozǒ. *Baço.* |  |
 | `c1-l030` | Cannuxi. *Hum dos principais como cabeça q̃* |  |
-| `c1-l031` | &emsp;*ſerue aos Camis.* |  |
+| `c1-l031` | &emsp;*ſerue aos* Camis. |  |
 | `c1-l032` | Cano. *Pron. Aquelle, ou aquella.* |  |
 | `c1-l033` | Canoco. *Filho de veado, ou corſo.* |  |
 | `c1-l034` | Canoco. *Malhas, ou olhos brancos que ſe dei-* |  |
@@ -58,9 +58,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l042` | Canpai. i. Cannozǒto faimezǒ. *Baço,* |  |
 | `c1-l043` | &emsp;*& Bofes.* |  |
 | `c1-l044` | Canpariô. Bup. *Ter bem entendido, & pe-* |  |
-| `c1-l045` | &emsp;*netrado as couſas que os Ienxus dão a meditar.* |  |
+| `c1-l045` | &emsp;*netrado as couſas que os* Ienxus *dão a meditar.* |  |
 | `c1-l046` | Canpiô. Foſu fitago. *Aboboras, ou cõ-* |  |
-| `c1-l047` | &emsp;*balengas ſecas de que fazem depois xiru, &* |  |
+| `c1-l047` | &emsp;*balengas ſecas de que fazem depois* xiru, *&* |  |
 | `c1-l048` | &emsp;*outras iguarias.* |  |
 
 ## Column 2 running header

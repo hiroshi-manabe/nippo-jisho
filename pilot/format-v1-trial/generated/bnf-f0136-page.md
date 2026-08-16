@@ -34,7 +34,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l018` | &emsp;*ra. Vt,* Qiga cutçuru. *Apodrecer o* |  |
 | `c1-l019` | &emsp;*pao, ou madeira. ¶* Catanaga cuchita, |  |
 | `c1-l020` | &emsp;l, cuchiga itta. *Ter a ferrugẽ entrado pel-* |  |
-| `c1-l021` | &emsp;*la Catana. Permet.* Yega cutçuru. *A-* |  |
+| `c1-l021` | &emsp;*la* Catana. *Permet.* Yega cutçuru. *A-* |  |
 | `c1-l022` | &emsp;*cabarſe a amizade.* |  |
 | `c1-l023` | Cuchiba. *Folhas daruore velhas que eſtão ja* |  |
 | `c1-l024` | &emsp;*pera cair hum pouco vermelhas, & amarellas.* |  |
@@ -113,7 +113,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l038` | Cuchiqiqi. *Homem que fala expedita, &* |  |
 | `c2-l039` | &emsp;*eloquentemente.* |  |
 | `c2-l040` | Cuchiqiri. *O abrir a primeira vez o boyão de* |  |
-| `c2-l041` | &emsp;*Cha.* |  |
+| `c2-l041` | &emsp;Cha. |  |
 | `c2-l042` | Cuchitataqi. *Palrreiro. ¶* Cuchiuo tataqu. |  |
 | `c2-l043` | &emsp;*Falar muito, ou palrrar. Mas não ſe vſa em* |  |
 | `c2-l044` | &emsp;*todos os tempos.* |  |

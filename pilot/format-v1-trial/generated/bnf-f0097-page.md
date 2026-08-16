@@ -48,7 +48,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l032` | &emsp;*propriamente ſe diz, de que eſta cõ cuidado, &* |  |
 | `c1-l033` | &emsp;*afflição ſobre algũ caſo.* |  |
 | `c1-l034` | Catatçuburi, l, quaguiù. *Caracol.* |  |
-| `c1-l035` | Catatçuqi. *Boyãozinho em que ſe mete Cha* |  |
+| `c1-l035` | Catatçuqi. *Boyãozinho em que ſe mete* Cha |  |
 | `c1-l036` | &emsp;*moido pera ſe gaſtar.* |  |
 | `c1-l037` | Catate. *Hũa mão, frecha, &c.* |  |
 | `c1-l038` | Catatoqi. i. Fanji, l, fantôqi. *Por hum* |  |
@@ -103,7 +103,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l023` | &emsp;*de outra laya. He palaura baixa, & que do* |  |
 | `c2-l024` | &emsp;*muito ſe vſara em çapatos. A propria* |  |
 | `c2-l025` | &emsp;*palaura, & mais geral em couſas de pares,* |  |
-| `c2-l026` | &emsp;*como Tabis, biǒbus &c. he Carachigui.* |  |
+| `c2-l026` | &emsp;*como* Tabis, biǒbus *&c. he* Carachigui. |  |
 | `c2-l027` | Cataxiqi, u, ijta. *Eſtender hũa ſó manga,* |  |
 | `c2-l028` | &emsp;*&c. Vt,* Sodeuo cataxijte nuru. |  |
 | `c2-l029` | &emsp;*Eſtendendo a manga dormir ſobre ella, ou dor-* |  |

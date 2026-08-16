@@ -43,7 +43,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l027` | Caixet. Firaqi toqu. *Enſinar, & declarar.* |  |
 | `c1-l028` | &emsp;*V. G. Lugares eſcuros dalgum liuro, &c.* |  |
 | `c1-l029` | Caixiqi. *Raminhos, ou folhas que ſe poem de* |  |
-| `c1-l030` | &emsp;*baixo da Sacana.* |  |
+| `c1-l030` | &emsp;*baixo da* Sacana. |  |
 | `c1-l031` | Caixǒ. Vmino vye. *Sobre o mar. ¶ Itẽ,* |  |
 | `c1-l032` | &emsp;*O mar.* |  |
 | `c1-l033` | Caixuno uoxiqi. *Mezas de Iapão uruxadas* |  |
@@ -61,7 +61,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l045` | &emsp;*ou vento frio, ou frialdade. Vt,* Cajeuo fi- |  |
 | `c1-l046` | &emsp;qu. *Eſtar traſpaſſado do vento, ou doente* |  |
 | `c1-l047` | &emsp;*do vento, ou ar. ¶* Chaga caje fiqu. Cu- |  |
-| `c1-l048` | &emsp;ſurini caje ga fiqu, &c. *Danarſe o Cha,* |  |
+| `c1-l048` | &emsp;ſurini caje ga fiqu, &c. *Danarſe o* Cha, |  |
 
 ## Column 2 running header
 
@@ -118,7 +118,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l037` | &emsp;*ou faiſcas não entrem na panela.* |  |
 | `c2-l038` | Camano fo. *Eruas compridas que nacem em* |  |
 | `c2-l039` | &emsp;*lugares humidos à maneira de candeas amare-* |  |
-| `c2-l040` | &emsp;*las. No Cami ſe diz Gamano fo.* |  |
+| `c2-l040` | &emsp;*las. No* Cami *ſe diz* Gamano fo. |  |
 | `c2-l041` | Camano maye. *Lar diante do fogão, ou for-* |  |
 | `c2-l042` | &emsp;*nalha.* |  |
 | `c2-l043` | Camano mimi. *Azas da panela, ou buracos* |  |

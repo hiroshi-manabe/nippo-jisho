@@ -30,10 +30,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l014` | &emsp;mayuru. *Cubiçar, ou grangear com cubiça.* |  |
 | `c1-l015` | &emsp;*¶* Yaxinuo camayuru. *Fazer traição.* |  |
 | `c1-l016` | &emsp;*¶* Yari, catana nadouo camayete iru. *Eſ-* |  |
-| `c1-l017` | &emsp;*tar com a lança, Catana, &c. em feição,* |  |
+| `c1-l017` | &emsp;*tar com a lança,* Catana, *&c. em feição,* |  |
 | `c1-l018` | &emsp;*& poſtura de dar, ou ferir. ¶* Catanaga- |  |
 | `c1-l019` | &emsp;mayeuo ſuru. *Porſe em feição, & poſtura* |  |
-| `c1-l020` | &emsp;*de dar, ou ferir com a Catana. ¶* Fida- |  |
+| `c1-l020` | &emsp;*de dar, ou ferir com a* Catana. *¶* Fida- |  |
 | `c1-l021` | &emsp;rigamayeuo ſuru. *Menear as armas da par-* |  |
 | `c1-l022` | &emsp;*te eſquerda.* |  |
 | `c1-l023` | Camaye. *Cerca, repairo, ou concerto.* |  |
@@ -45,7 +45,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l029` | Cameno cô. *Repairo com que ſe cobrem, &* |  |
 | `c1-l030` | &emsp;*emparão os que combatem algũa fortaleza.* |  |
 | `c1-l031` | Cameno futa. *Hum vazo em que vazão agoa* |  |
-| `c1-l032` | &emsp;*no Chanoyu como Mizzucoboxi.* |  |
+| `c1-l032` | &emsp;*no* Chanoyu *como* Mizzucoboxi. |  |
 | `c1-l033` | Cameno vo. *O derradeiro oſſo da trazeira que* |  |
 | `c1-l034` | &emsp;*he o cabo do eſpinhaço.* |  |
 | `c1-l035` | Cami. *Cabellos da cabeça. ¶* Camiga ta- |  |
@@ -57,11 +57,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l041` | &emsp;*caem da cabeça das molheres.* |  |
 | `c1-l042` | Cami. *Parte ſuperior. ¶ Item, Senhor, ou* |  |
 | `c1-l043` | &emsp;*ſenhora.* |  |
-| `c1-l044` | Cami. *Camis que venerão os gentios de Iapão.* |  |
+| `c1-l044` | Cami. Camis *que venerão os gentios de Iapão.* |  |
 | `c1-l045` | Cami. *Palaura dos medicos. i. tẽpera da mezi-* |  |
 | `c1-l046` | &emsp;*nha que fazem com acrecentar, ou diminuir* |  |
 | `c1-l047` | &emsp;*algum material. S. A palaura corrente* |  |
-| `c1-l048` | &emsp;*he caguen.* |  |
+| `c1-l048` | &emsp;*he* caguen. |  |
 
 ## Column 2 running header
 
@@ -89,7 +89,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l014` | Camicoroxi, u, oita. *Meter as dentadas.* |  |
 | `c2-l015` | Camicudaqi, u, aita. *Eſmiuçar maſtigando.* |  |
 | `c2-l016` | Camicurai, ǒ, ǒta. *Comer maſtigando.* |  |
-| `c2-l017` | Camigata. *Partes do Miyaco.* |  |
+| `c2-l017` | Camigata. *Partes do* Miyaco. |  |
 | `c2-l018` | Camigue. *Cabellos da cabeça.* |  |
 | `c2-l019` | Camiguinu. *Veſtido de papel.* |  |
 | `c2-l020` | Camimichi. *Caminho de cima.* |  |
@@ -111,9 +111,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l036` | &emsp;*& compridas na boca, como alſeloas, &c.* |  |
 | `c2-l037` | Camitçuqi, u, uita. *Morder, ou dar dentada.* |  |
 | `c2-l038` | Camiya. *Caſa onde vendem papel.* |  |
-| `c2-l039` | Camiyo. *Idade, ou tẽpo dos Camis de Iapão.* |  |
+| `c2-l039` | Camiyo. *Idade, ou tẽpo dos* Camis *de Iapão.* |  |
 | `c2-l040` | Camiyori. *Papel torcido pera atar algũa cou-* |  |
-| `c2-l041` | &emsp;*ſa em lugar de fio. Melius. Coyori.* |  |
+| `c2-l041` | &emsp;*ſa em lugar de fio. Melius.* Coyori. |  |
 | `c2-l042` | Camo. *Hum paſſaro do mar, como marreca.* |  |
 | `c2-l043` | Camogutçu. *Çapatos altos pera jugar apella* |  |
 | `c2-l044` | &emsp;*com os pees ao cuſtume de Iapão.* |  |

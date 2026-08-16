@@ -31,7 +31,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l015` | &emsp;*po ſem o enterrar, como morrendo na guerra,* |  |
 | `c1-l016` | &emsp;*ou iuſtiçando alguẽ deixar lhe o corpo no ſa-* |  |
 | `c1-l017` | &emsp;*tçuqe, ou a cabeça em hum pao em publico.* |  |
-| `c1-l018` | Cabazzuca. *Punho da catana, ou adaga em-* |  |
+| `c1-l018` | Cabazzuca. *Punho da* catana, *ou adaga em-* |  |
 | `c1-l019` | &emsp;*volto, & amarrado com rota, ou caſca de* |  |
 | `c1-l020` | &emsp;*cereijeira pera não eſcorregar.* |  |
 | `c1-l021` | Cabe. *Parede de barro.* |  |
@@ -43,20 +43,20 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l027` | &emsp;ſaſuru, l, ſaſuru. *Fazer tomar bolor.* |  |
 | `c1-l028` | Cabiǒ. *Curar o enfermo, & ter conta com elle,* |  |
 | `c1-l029` | &emsp;*ainda que a propria palaura he canbiǒ, toda-* |  |
-| `c1-l030` | &emsp;*uia na pratica corre tambem Cabiǒ. ¶* Te- |  |
+| `c1-l030` | &emsp;*uia na pratica corre tambem* Cabiǒ. *¶* Te- |  |
 | `c1-l031` | &emsp;uoiuo cabiǒ ſuru. *Curar o ferido.* |  |
 | `c1-l032` | Cabocu. Yoi qi. *Boa aruore.* |  |
 | `c1-l033` | Cabu. *Pee, ou tronco da aruore, bambu,* |  |
 | `c1-l034` | &emsp;*&c. que fica depois de cortado.* |  |
 | `c1-l035` | Cabu. *Raiz do nabo, ou o nabo. He palau-* |  |
-| `c1-l036` | &emsp;*ra de molheres. Melius. Cabura.* |  |
+| `c1-l036` | &emsp;*ra de molheres. Melius.* Cabura. |  |
 | `c1-l037` | Cabu. Vtaimǒ. *O cantar, & bailar, ou* |  |
 | `c1-l038` | &emsp;*dançar.* |  |
 | `c1-l039` | Cabun. Ximo yori qiqu. *Perguntar aos* |  |
 | `c1-l040` | &emsp;*inferiores.* |  |
 | `c1-l041` | Cabuqi, u, uita. *Pezando algũa couſa ver* |  |
 | `c1-l042` | &emsp;*bem pera onde inclina a balança. ¶ Item,* |  |
-| `c1-l043` | &emsp;*Per met. Iulgar, ou coniecturar do cha que* |  |
+| `c1-l043` | &emsp;*Per met. Iulgar, ou coniecturar do* cha *que* |  |
 | `c1-l044` | &emsp;*hum bebe que tal he. ¶ Itẽ, Coniecturar, ou* |  |
 | `c1-l045` | &emsp;*com o juizo, & diſcurſo querer atinar com* |  |
 | `c1-l046` | &emsp;*alguã couſa. ¶ Item, Deſmandarſe, ou* |  |
@@ -115,7 +115,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l035` | Cabuto. *Capacete. ¶* Cabutouo nu- |  |
 | `c2-l036` | &emsp;gu. *Renderſe, ou ſugeitarſe na guerra.* |  |
 | `c2-l037` | Cabutogai. *Hum genero de mariſco chama-* |  |
-| `c2-l038` | &emsp;*do Vni.* |  |
+| `c2-l038` | &emsp;*do* Vni. |  |
 | `c2-l039` | Cabutono fachi. *Caſco do capacete.* |  |
 | `c2-l040` | Cabutono foxi. *Ornato do capacete com eſtre-* |  |
 | `c2-l041` | &emsp;*linhas ſemeadas.* |  |

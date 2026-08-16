@@ -45,7 +45,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l029` | &emsp;*nome, & afamado.* |  |
 | `c1-l030` | Chiqemui. *Sangue que ſae fumegando.* |  |
 | `c1-l031` | Chiqen. Xirinjiu. *O olhar, ou ver dos* |  |
-| `c1-l032` | &emsp;*Fotoqes. Bup.* |  |
+| `c1-l032` | &emsp;Fotoqes. *Bup.* |  |
 | `c1-l033` | Chiqui. *Hum pao do tear em que emburi-* |  |
 | `c1-l034` | &emsp;*lhão a ordidura da ſeda.* |  |
 | `c1-l035` | Chiracaxi, ſu, aita. Melius chiraxi, ſu. |  |
@@ -78,7 +78,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l004` | &emsp;*gũa couſa cõ ouro, ou prata. ¶* Qinguin- |  |
 | `c2-l005` | &emsp;xippôuo chiribamete, rurioi, betta mi- |  |
 | `c2-l006` | &emsp;yano vchiye mairi, &c. *Feiq. Lib.* |  |
-| `c2-l007` | &emsp;*4. Entrando dentro na ermida do Cami que* |  |
+| `c2-l007` | &emsp;*4. Entrando dentro na ermida do* Cami *que* |  |
 | `c2-l008` | &emsp;*eſtaua toda cozida em ouro, & prata, & or-* |  |
 | `c2-l009` | &emsp;*nada de pedras precioſas.* |  |
 | `c2-l010` | Chirichirito. Adu. *Modo de correr viua,* |  |

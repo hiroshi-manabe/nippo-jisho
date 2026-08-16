@@ -22,8 +22,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l006` | &emsp;*ou pao.* |  |
 | `c1-l007` | Caidai. *Terra, ou mundo.* |  |
 | `c1-l008` | Caidan. *Tabernaculo, ou modo de altar em* |  |
-| `c1-l009` | &emsp;*que ſe dão graos, & dignidades a certos Bô-* |  |
-| `c1-l010` | &emsp;*zos.* |  |
+| `c1-l009` | &emsp;*que ſe dão graos, & dignidades a certos* Bô- |  |
+| `c1-l010` | &emsp;zos. |  |
 | `c1-l011` | Caidarui. *Eſtar muito canſado, & com o* |  |
 | `c1-l012` | &emsp;*corpo, ou membros debilitados, ¶* Cai- |  |
 | `c1-l013` | &emsp;daru gozaru. *Idem.* |  |
@@ -33,9 +33,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l017` | &emsp;*entre os imigos. ¶* Caidateuo caqu, l, |  |
 | `c1-l018` | &emsp;aguru. *Idem.* |  |
 | `c1-l019` | Caide. *Folhas de certa aruore, que em quanto* |  |
-| `c1-l020` | &emsp;*eſtão verdes ſe chamão Caide, & depois que* |  |
-| `c1-l021` | &emsp;*ſe tornão vermelhas no outono ſe chamão Mo-* |  |
-| `c1-l022` | &emsp;*migi.* |  |
+| `c1-l020` | &emsp;*eſtão verdes ſe chamão* Caide, *& depois que* |  |
+| `c1-l021` | &emsp;*ſe tornão vermelhas no outono ſe chamão* Mo- |  |
+| `c1-l022` | &emsp;migi. |  |
 | `c1-l023` | Caidǒ. *Certa laya de ameixieiras, cuja flor he* |  |
 | `c1-l024` | &emsp;*como de cereijeira.* |  |
 | `c1-l025` | Caidǒ. *Caminho largo, ou eſtrada por terra.* |  |
@@ -54,7 +54,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l038` | &emsp;*junto ao mar, ou lugar maritimo.* |  |
 | `c1-l039` | Caifiacu. Firaqi, u. *Principio do mundo, ou* |  |
 | `c1-l040` | &emsp;*quando ſe principiou o mundo. Poſto que ordi-* |  |
-| `c1-l041` | &emsp;*nariamente dizem Tenchi caifiacu yori. i.* |  |
+| `c1-l041` | &emsp;*nariamente dizem* Tenchi caifiacu yori. *i.* |  |
 | `c1-l042` | &emsp;*Deſpois de começado o mundo.* |  |
 | `c1-l043` | Caifiraqi, u, aita. *Abrir, ou abrir de par* |  |
 | `c1-l044` | &emsp;*em par.* |  |
@@ -92,7 +92,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l012` | Caigue. Firaqi, toqu. *O ſoltar como algũa* |  |
 | `c2-l013` | &emsp;*duiida, &c. ¶ Itẽ,* Caigue. i. Satoriuo firaqu. |  |
 | `c2-l014` | &emsp;*Entender per diſcurſo, ou conſideração.* |  |
-| `c2-l015` | Caigue. *Hũa laya de Fixacu, ou cocolaro pa-* |  |
+| `c2-l015` | Caigue. *Hũa laya de* Fixacu, *ou cocolaro pa-* |  |
 | `c2-l016` | &emsp;*ra tirar agoa.* |  |
 | `c2-l017` | Caiguei. Vmino cujira. *Balea.* |  |
 | `c2-l018` | Caiguen. Aratamuru ſajime. *Principio da era.* |  |
@@ -111,7 +111,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l031` | &emsp;*fechando a. ¶* Cuchiuo caigǒga yoi. |  |
 | `c2-l032` | &emsp;*Ter boa pronunçiação.* |  |
 | `c2-l033` | Caigo. *Ouos de galinha, ou paſſaro. ¶ Itẽ,* |  |
-| `c2-l034` | &emsp;*No Xino, bicho de ſeda.* |  |
+| `c2-l034` | &emsp;*No* Xino, *bicho de ſeda.* |  |
 | `c2-l035` | Caigu. Vmano dǒgu. *Arreos, & apare-* |  |
 | `c2-l036` | &emsp;*lhos do caualo.* |  |
 | `c2-l037` | Caiguai. Vmino foca. i. Xecaino fato. *Fo-* |  |

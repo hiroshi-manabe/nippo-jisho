@@ -14,11 +14,11 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | Cacarixi nochiua. *Adu. i. Cacu arixino* |  |
+| `c1-l001` | Cacarixi nochiua. *Adu. i.* Cacu *arixino* |  |
 | `c1-l002` | &emsp;chiua. *Depois diſto, & ſendo aſſi, &c. S.* |  |
 | `c1-l003` | Cacariyǒ. *Pezar alguã couſa igualmente cõ* |  |
 | `c1-l004` | &emsp;*outra, ou eſtar o pezo juſto.* |  |
-| `c1-l005` | Cacaru. *Adiect. i. Cayǒnaru, l, cacuno-* |  |
+| `c1-l005` | Cacaru. *Adiect. i.* Cayǒnaru, *l,* cacuno- |  |
 | `c1-l006` | &emsp;gotocu naru. *Deſta laya, ou deſta maneira.* |  |
 | `c1-l007` | &emsp;*¶* Cacaru tocoroni. i. Cacunogotoqu |  |
 | `c1-l008` | &emsp;aru tocoroni. *Adu. ſendo aſſi.* |  |

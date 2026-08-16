@@ -32,7 +32,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l016` | Curogane. *Ferro.* |  |
 | `c1-l017` | Curoguino torij. *P. i.* Carino torij. *Hũa* |  |
 | `c1-l018` | &emsp;*maneira de portal que eſta diante das ermidas* |  |
-| `c1-l019` | &emsp;*dos Camis, feita de madeira por laurar aſſi cha-* |  |
+| `c1-l019` | &emsp;*dos* Camis, *feita de madeira por laurar aſſi cha-* |  |
 | `c1-l020` | &emsp;*boda, & toſcamente.* |  |
 | `c1-l021` | Curoguizzucurino iye. *Caſa feita de madei-* |  |
 | `c1-l022` | &emsp;*ra por laurar, & por deſcalçar.* |  |
@@ -80,10 +80,10 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c2-l001` | Curozzuru. *Grou preto.* |  |
 | `c2-l002` | Curubuqi, u, uita. *Eſtar com o peito pera* |  |
-| `c2-l003` | &emsp;*baixo inclinado. X. No Cami ſe diz Vgu-* |  |
-| `c2-l004` | &emsp;*biqu.* |  |
+| `c2-l003` | &emsp;*baixo inclinado. X. No* Cami *ſe diz* Vgu- |  |
+| `c2-l004` | &emsp;biqu. |  |
 | `c2-l005` | Curubuxi, l, axino curubuxi. *Arelhos dos* |  |
-| `c2-l006` | &emsp;*pès. No Cami ſe diz Tçucubuxi.* |  |
+| `c2-l006` | &emsp;*pès. No* Cami *ſe diz* Tçucubuxi. |  |
 | `c2-l007` | Curucuruto. *Adu. Modo de deſatar, deſ-* |  |
 | `c2-l008` | &emsp;*enrolar, ou apanhar corda.* |  |
 | `c2-l009` | Curui, ù, ùta. *Brincar, ou folgar. ¶* Mo- |  |

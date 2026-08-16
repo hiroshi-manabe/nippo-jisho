@@ -16,19 +16,19 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c1-l001` | Caracaua. *Pelle da China.* |  |
 | `c1-l002` | Caracaua. *Caſca de hũa aruore chamada* |  |
-| `c1-l003` | &emsp;*tanxǒ que dà pimenta em Iapão. No cami* |  |
-| `c1-l004` | &emsp;*ſe diz tanxǒno caua.* |  |
-| `c1-l005` | Caracha. *Hũa cor como a do cha.* |  |
+| `c1-l003` | &emsp;tanxǒ *que dà pimenta em Iapão. No* cami |  |
+| `c1-l004` | &emsp;*ſe diz* tanxǒno caua. |  |
+| `c1-l005` | Caracha. *Hũa cor como a do* cha. |  |
 | `c1-l006` | Caraco. *Minino china.* |  |
 | `c1-l007` | Caraconoye. *Pintura onde pintão eſtes mini-* |  |
 | `c1-l008` | &emsp;*nos da China com cabello amarrado no meo* |  |
 | `c1-l009` | &emsp;*da cabeça.* |  |
 | `c1-l010` | Caracotoba. *Palauras eſcuras como da china.* |  |
-| `c1-l011` | &emsp;*vide caragon.* |  |
+| `c1-l011` | &emsp;*vide* caragon. |  |
 | `c1-l012` | Caracumi, u, unda. *Inuentar, & edificar* |  |
 | `c1-l013` | &emsp;*alguã obra que não he ordinaria. Vt,* Fu- |  |
 | `c1-l014` | &emsp;neni xeirǒuo caracumi aguru. *Aleuan-* |  |
-| `c1-l015` | &emsp;*tar na fune baluarte alto como maſto com* |  |
+| `c1-l015` | &emsp;*tar na* fune *baluarte alto como maſto com* |  |
 | `c1-l016` | &emsp;*gauea.* |  |
 | `c1-l017` | Caracurenai. *Retroz Carmezim da China.* |  |
 | `c1-l018` | Caracuri, u, utta. *Fazer, ou inuentar algũa* |  |
@@ -90,7 +90,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l010` | &emsp;*marrar.* |  |
 | `c2-l011` | Caramete. *Porta detraição da fortaleza. A-* |  |
 | `c2-l012` | &emsp;*inda que alguã vez ſe diga, ou ache nalgum* |  |
-| `c2-l013` | &emsp;*liuro, Caramede, a propria palaura he Ca-* |  |
+| `c2-l013` | &emsp;*liuro,* Caramede, *a propria palaura he Ca-* |  |
 | `c2-l014` | &emsp;*ramete.* |  |
 | `c2-l015` | Carametori, u, otta. *Prender, & amarrar.* |  |
 | `c2-l016` | Caramomo. *Certo genero de pecegos.* |  |

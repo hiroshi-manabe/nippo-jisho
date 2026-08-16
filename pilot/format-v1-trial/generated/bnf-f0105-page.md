@@ -119,7 +119,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l039` | &emsp;*cação. P.* |  |
 | `c2-l040` | Chicuchicu. *Pouco a pouco.* |  |
 | `c2-l041` | Chicuchicuto. *Idem.* |  |
-| `c2-l042` | Chicufu. *Hum Nuno da China feito de bambus* |  |
+| `c2-l042` | Chicufu. *Hum* Nuno *da China feito de bambus* |  |
 | `c2-l043` | &emsp;*miudos, & deſfiados.* |  |
 | `c2-l044` | Chicugi. Taqeno tçuye. *Bordão de bãbu.* |  |
 | `c2-l045` | Chicui. Taqeno cague. *Sombra de* |  |

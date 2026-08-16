@@ -27,12 +27,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l011` | Coixǔ. *Adu. Saudoſa, ou amoroſamente.* |  |
 | `c1-l012` | &emsp;*Vt,* Xidadonoua nauomo Miacoue coixǔ |  |
 | `c1-l013` | &emsp;voboximexite, yoru finitçuide nobora- |  |
-| `c1-l014` | &emsp;xerururu. *Xid. Xidadono tendo ainda ma-* |  |
-| `c1-l015` | &emsp;*is ſaudades do Miyaco, de dia, & de noite* |  |
+| `c1-l014` | &emsp;xerururu. *Xid.* Xidadono *tendo ainda ma-* |  |
+| `c1-l015` | &emsp;*is ſaudades do* Miyaco, *de dia, & de noite* |  |
 | `c1-l016` | &emsp;*caminhaua pera lá.* |  |
 | `c1-l017` | Coixinobi, u, ǒda, l, coixitǒ. *Andar* |  |
 | `c1-l018` | &emsp;*de amores apos alguem.* |  |
-| `c1-l019` | Coixiqi. *Vide coixij.* |  |
+| `c1-l019` | Coixiqi. *Vide* coixij. |  |
 | `c1-l020` | Coixitai, ǒ, ǒta, l, coixinobi, u. *Andar* |  |
 | `c1-l021` | &emsp;*de amores apos alguem.* |  |
 | `c1-l022` | Coixiya. *Interjeição do q̃ ama, ou tem ſauda-* |  |
@@ -46,7 +46,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l030` | &emsp;*beneficencia.* |  |
 | `c1-l031` | Cojei. *Pouca gente.* |  |
 | `c1-l032` | Côjet. Nodo, xita. *Garganta, & lingua.* |  |
-| `c1-l033` | Côjet. *Melius Cujet. Cuchi, xita. Bo-* |  |
+| `c1-l033` | Côjet. *Melius* Cujet. Cuchi, xita. *Bo-* |  |
 | `c1-l034` | &emsp;*ca, & lingua.* |  |
 | `c1-l035` | Cǒjet. Yomi, toqu. *O ler, & declarar, ou* |  |
 | `c1-l036` | &emsp;*interpretar. ¶* Qiǒuo cǒjet ſuru. *Ler,* |  |
@@ -56,7 +56,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l040` | &emsp;*nunciar as palauras.* |  |
 | `c1-l041` | Cǒji. *Formento com que em Iapão fazem o* |  |
 | `c1-l042` | &emsp;*vinho, ou miſturão em outra couſa.* |  |
-| `c1-l043` | Cǒji. *Bǒzo que lee, & interpreta algum* |  |
+| `c1-l043` | Cǒji. Bǒzo *que lee, & interpreta algum* |  |
 | `c1-l044` | &emsp;*texto, &c.* |  |
 | `c1-l045` | Cǒji. Yoicoto. *Couſa boa, ou proueitoſa.* |  |
 | `c1-l046` | Coji. Furui coto. *Hiſtorias antiguas, ou* |  |
@@ -87,7 +87,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l006` | Côji, zuru, ita. *Ir a doença agrauandoſe, ou* |  |
 | `c2-l007` | &emsp;*empeiorando. Vt,* Yamaiga cǒjita. *A-* |  |
 | `c2-l008` | &emsp;*grauouſe a doença.* |  |
-| `c2-l009` | Cǒjifuſube. *Vide ſup. Cǒji.* |  |
+| `c2-l009` | Cǒjifuſube. *Vide ſup.* Cǒji. |  |
 | `c2-l010` | Cojima. *Ilha pequena.* |  |
 | `c2-l011` | Cǒjimuro. *Certa fornalha, ou forno em que* |  |
 | `c2-l012` | &emsp;*aquentão o formento que ſerue pera fazer vi-* |  |
@@ -97,14 +97,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l016` | &emsp;*dão os parabens, ou rogão boas couſas, &c. S.* |  |
 | `c2-l017` | Côjin. Nochino fito. *Homem vindouro, ou* |  |
 | `c2-l018` | &emsp;*que hade vir depois.* |  |
-| `c2-l019` | Cojiqi. *Pedinte. ¶ Item, No Ximo La-* |  |
+| `c2-l019` | Cojiqi. *Pedinte. ¶ Item, No* Ximo *La-* |  |
 | `c2-l020` | &emsp;*zaro.* |  |
 | `c2-l021` | Cojiri. *Conteira da eſpada.* |  |
-| `c2-l022` | Cojiru. *Segundo Xiru que ſe dá na meſa.* |  |
+| `c2-l022` | Cojiru. *Segundo* Xiru *que ſe dá na meſa.* |  |
 | `c2-l023` | Cojiruuan. *Eſcudelinha que vem com o ſegun-* |  |
-| `c2-l024` | &emsp;*do Xiru.* |  |
+| `c2-l024` | &emsp;*do* Xiru. |  |
 | `c2-l025` | Côjit. Nochino fi. *X. Ao diante, ou em* |  |
-| `c2-l026` | &emsp;*outro tempo ao diante. No Cami ſe diz Go-* |  |
+| `c2-l026` | &emsp;*outro tempo ao diante. No* Cami *ſe diz* Go*-* |  |
 | `c2-l027` | &emsp;*nichi.* |  |
 | `c2-l028` | Cǒjit. *Bom dia.* |  |
 | `c2-l029` | Cojita. *Lingoeta q̃ tẽ os paſſaros de baixo da* |  |

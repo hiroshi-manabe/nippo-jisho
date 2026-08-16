@@ -34,14 +34,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l018` | Bogui. i. Faua. *Mãy.* |  |
 | `c1-l019` | Boguiǔ. i. Cotoino vxi. *Touro, ou boy.* |  |
 | `c1-l020` | Bǒgǒ. Bôno na. *Certa ermida, ou caſa de* |  |
-| `c1-l021` | &emsp;*Bôzo.* |  |
+| `c1-l021` | &emsp;Bôzo. |  |
 | `c1-l022` | Bǒguan. *Officio como de feitor, ou veador* |  |
-| `c1-l023` | &emsp;*môr na caſa de algũs Bôzos principaes, &* |  |
+| `c1-l023` | &emsp;*môr na caſa de algũs* Bôzos *principaes, &* |  |
 | `c1-l024` | &emsp;*de grande dignidade.* |  |
 | `c1-l025` | Bǒgiǔ. Bôno vchi. *Dentro da ermida, ou* |  |
-| `c1-l026` | &emsp;*capellas particulares que tem cada Bôzo nas* |  |
+| `c1-l026` | &emsp;*capellas particulares que tem cada* Bôzo *nas* |  |
 | `c1-l027` | &emsp;*Terras em Iapão.* |  |
-| `c1-l028` | Bǒja. Bôzono iye. *Caſa do Bôzo, ou er-* |  |
+| `c1-l028` | Bǒja. Bôzono iye. *Caſa do* Bôzo, *ou er-* |  |
 | `c1-l029` | &emsp;*mida particular.* |  |
 | `c1-l030` | Bǒjacubujin. *Deſauergonhado, & deſafora-* |  |
 | `c1-l031` | &emsp;*do que lhe não dà de ninguem.* |  |
@@ -82,7 +82,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l008` | &emsp;*dem candeas tres dias à boca da noite.* |  |
 | `c2-l009` | Bǒnai. Tçubonenouchi. *Dentro da caſa ou ca-* |  |
 | `c2-l010` | &emsp;*mara particular de alguem.* |  |
-| `c2-l011` | Bonborito. *Adu. Modo de eſtar a Vata,* |  |
+| `c2-l011` | Bonborito. *Adu. Modo de eſtar a* Vata, |  |
 | `c2-l012` | &emsp;*ou algodão creſpo, & aleuantado, os cabellos* |  |
 | `c2-l013` | &emsp;*da cabeça creſpos, & em pedaços, &c.* |  |
 | `c2-l014` | Bonbu. *Ignorante, ou ſem letras, & digni-* |  |
@@ -91,7 +91,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l017` | &emsp;te. *Sendo ignorante, & popular, ou ſem* |  |
 | `c2-l018` | &emsp;*letras, & dignidade.* |  |
 | `c2-l019` | Bonchô. *Paſſaros ordinarios como pardais,* |  |
-| `c2-l020` | &emsp;*&c. O ſeu oppoſito he Meichô.* |  |
+| `c2-l020` | &emsp;*&c. O ſeu oppoſito he* Meichô. |  |
 | `c2-l021` | Bonden. *Hũa laya de melões. ¶ Item,* |  |
 | `c2-l022` | &emsp;*Nome de hum ceo.* |  |
 | `c2-l023` | Bondenqua. *Nome de hũa flor de aruores* |  |
@@ -108,7 +108,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l034` | Bonnin. i. Bonbu. *Homem que não tem* |  |
 | `c2-l035` | &emsp;*dignidade alguã, baixo, & ſem letras.* |  |
 | `c2-l036` | Bonnǒ. Vazzurai nayami. i. Togano ſô- |  |
-| `c2-l037` | &emsp;miǒ. *Palaura do Buppô pera declarar to-* |  |
+| `c2-l037` | &emsp;miǒ. *Palaura do* Buppô *pera declarar to-* |  |
 | `c2-l038` | &emsp;*dos os peccados em particular, & em gẽral.* |  |
 | `c2-l039` | &emsp;*¶ Item, Concupiſcencia, ou ſenſualidade.* |  |
 | `c2-l040` | &emsp;*¶* Bonnǒno coigi. *Afflição interior q̃* |  |

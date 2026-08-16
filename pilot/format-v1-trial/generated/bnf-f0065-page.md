@@ -39,7 +39,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l023` | Bunxit. *Modo de engrandecer, & ornar com* |  |
 | `c1-l024` | &emsp;*palauras, comprimentos, &c. & ſingeleza* |  |
 | `c1-l025` | &emsp;*no falar, & poucos comprimentos. O primeiro* |  |
-| `c1-l026` | &emsp;*ſentido he de Bun, o ſegundo de Xit.* |  |
+| `c1-l026` | &emsp;*ſentido he de Bun, o ſegundo de* Xit. |  |
 | `c1-l027` | Bunxǒ. Fumi, tamazzula. *Eſtillo, & no-* |  |
 | `c1-l028` | &emsp;*ta de cartas. ¶* Bunxǒno yoi fito. *Bõ* |  |
 | `c1-l029` | &emsp;*notador, & eſcriuão de cartas.* |  |
@@ -52,12 +52,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l036` | &emsp;*bilidade de cada hum, quantidade, parte, por-* |  |
 | `c1-l037` | &emsp;*ção, &c.* |  |
 | `c1-l038` | Buppô. Fotoqeno nori. *Leis, ou doutrina* |  |
-| `c1-l039` | &emsp;*dos Fotoqes.* |  |
+| `c1-l039` | &emsp;*dos* Fotoqes. |  |
 | `c1-l040` | Buppuxe. Fotoqeno ſuxe. *Eſmola que ſe* |  |
-| `c1-l041` | &emsp;*dà ao Fotoqe.* |  |
+| `c1-l041` | &emsp;*dà ao* Fotoqe. |  |
 | `c1-l042` | Buqe. Buxino iye. *Familia de ſoldados, ou* |  |
-| `c1-l043` | &emsp;*caualeiros, cuja cabeça he o Cubô que tambem* |  |
-| `c1-l044` | &emsp;*ſe diz Xôgun, & he capitão geral da mi-* |  |
+| `c1-l043` | &emsp;*caualeiros, cuja cabeça he o* Cubô *que tambem* |  |
+| `c1-l044` | &emsp;*ſe diz* Xôgun, *& he capitão geral da mi-* |  |
 | `c1-l045` | &emsp;*licia del Rei de Iapão. ¶* Buqeno qex. |  |
 | `c1-l046` | &emsp;i. Cubô. *Capitão geral del Rei de Iapão.* |  |
 | `c1-l047` | Buqei. Buxino facaricoto. *Ardil de guerra.* |  |

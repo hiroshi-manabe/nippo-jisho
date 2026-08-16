@@ -35,31 +35,31 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l019` | &emsp;*cio, ou habito.* |  |
 | `c1-l020` | Bucotna. i. Iguiuno xiranu mono. *Peſſoa* |  |
 | `c1-l021` | &emsp;*ruſtica, & que não ſabe as leis da policia.* |  |
-| `c1-l022` | Bucqe. *Couſas pertencentes a Fotoqe.* |  |
+| `c1-l022` | Bucqe. *Couſas pertencentes a* Fotoqe. |  |
 | `c1-l023` | Bucqei. Fotoqeni môzzuru, l, mairu. *Ir* |  |
-| `c1-l024` | &emsp;*em romaria à Varela, ou templo do Foto-* |  |
-| `c1-l025` | &emsp;*qe. ¶* Bucqei ſuru. *Idem.* |  |
+| `c1-l024` | &emsp;*em romaria à Varela, ou templo do* Foto- |  |
+| `c1-l025` | &emsp;qe. *¶* Bucqei ſuru. *Idem.* |  |
 | `c1-l026` | Bucqen. *O ver conſiderando, & penetrando* |  |
-| `c1-l027` | &emsp;*as couſas. ¶ O contrario he Bonqen. i. Bô-* |  |
-| `c1-l028` | &emsp;*buno miyô.* |  |
+| `c1-l027` | &emsp;*as couſas. ¶ O contrario he* Bonqen. *i.* Bô- |  |
+| `c1-l028` | &emsp;buno miyô. |  |
 | `c1-l029` | Bucqeô. Fotoqeno voxiuye. *Doutrina do* |  |
-| `c1-l030` | &emsp;*Fotoqe.* |  |
-| `c1-l031` | Bucqiǒ. Fotoqeno qiǒ. *Liuro do Fotoqe.* |  |
+| `c1-l030` | &emsp;Fotoqe. |  |
+| `c1-l031` | Bucqiǒ. Fotoqeno qiǒ. *Liuro do* Fotoqe. |  |
 | `c1-l032` | Bucqiǒ. Monogurui. *Doudo.* |  |
 | `c1-l033` | Bucqua. Fotoqeni naru curai. *Dignidade* |  |
-| `c1-l034` | &emsp;*do fotoqe, ou ſer feito fotoqe.* |  |
+| `c1-l034` | &emsp;*do* fotoqe, *ou ſer feito* fotoqe. |  |
 | `c1-l035` | Bucu. *Não ſe vſa por ſi, ſenão com xi, ſuru.* |  |
 | `c1-l036` | &emsp;*¶ Vt,* Bucuxuru. *Comer. Item, Beber* |  |
-| `c1-l037` | &emsp;*mezinhas, & cha.* |  |
+| `c1-l037` | &emsp;*mezinhas, &* cha. |  |
 | `c1-l038` | Bucu. i. Fotoqeni cùzuru mono. *Couſa* |  |
-| `c1-l039` | &emsp;*como comer, de que ſe offerece ao fotoqe.* |  |
+| `c1-l039` | &emsp;*como comer, de que ſe offerece ao* fotoqe. |  |
 | `c1-l040` | Bucujin. *Certa mezinha.* |  |
 | `c1-l041` | Bucujiqi. i. Cuimono. *Comer.* |  |
 | `c1-l042` | Bucureǒ. *Certa mezinha.* |  |
 | `c1-l043` | Bucuxocu. i. Cuimono. *Comer.* |  |
 | `c1-l044` | Bucuyacu. *Vt,* Bucuyacuſuru. i. Cuſuriuo |  |
 | `c1-l045` | &emsp;mochijru. *Tomar, ou beber mezinhas.* |  |
-| `c1-l046` | Bucuyô. Mochijru. *Comer. Item, Beber cha,* |  |
+| `c1-l046` | Bucuyô. Mochijru. *Comer. Item, Beber* cha, |  |
 | `c1-l047` | &emsp;*ou mezinhas, &c. ¶* Bucuyôſuru. *Idẽ.* |  |
 | `c1-l048` | Buda. muoi vma. *Caualo de carga.* |  |
 

@@ -20,8 +20,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l004` | Funamachi. *O eſperar polla embarcação.* |  |
 | `c1-l005` | Funamoto. i, Funaba. *Surgidouro, ou porto* |  |
 | `c1-l006` | &emsp;*onde ſurgem as embarcações.* |  |
-| `c1-l007` | Funamoyoi. *A percibimento que ſe faz de Fu-* |  |
-| `c1-l008` | &emsp;*ne que eſtà pera ſe partir. ¶* Funamoyoi- |  |
+| `c1-l007` | Funamoyoi. *A percibimento que ſe faz de* Fu- |  |
+| `c1-l008` | &emsp;ne *que eſtà pera ſe partir. ¶* Funamoyoi- |  |
 | `c1-l009` | &emsp;uo ſuru. *Fazer eſte apercibimento, & a-* |  |
 | `c1-l010` | &emsp;*parelho.* |  |
 | `c1-l011` | Funamuxi. *Bicho que roe as embarcações.* |  |
@@ -103,7 +103,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l029` | &emsp;cayeſarete, &c. *Taif. Lib. 33. Go-* |  |
 | `c2-l030` | &emsp;*uernarão a outro rumo, porem com as ondas e-* |  |
 | `c2-l031` | &emsp;*contradas que vinhão ſendo virada, & ſoſſo-* |  |
-| `c2-l032` | &emsp;*brada a Fune. ¶* Funeuo cogu. *Remar* |  |
+| `c2-l032` | &emsp;*brada a* Fune. *¶* Funeuo cogu. *Remar* |  |
 | `c2-l033` | &emsp;*a embarcação. ¶* Funeuo daſu. *Fazer* |  |
 | `c2-l034` | &emsp;*partir a embarcação. ¶* Funeni noru. *Em-* |  |
 | `c2-l035` | &emsp;*barcarſe. ¶* Funeni meſaruru. *Embar-* |  |

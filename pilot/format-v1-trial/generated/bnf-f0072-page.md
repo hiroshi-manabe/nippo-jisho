@@ -39,7 +39,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l023` | &emsp;*por achaque. Vt,* Mononi cacotçuqete |  |
 | `c1-l024` | &emsp;mairanu. *Não vir tomando por achaque alguã* |  |
 | `c1-l025` | &emsp;*couſa.* |  |
-| `c1-l026` | Cacotçuqegoto. *Idem quod Cacotçuqe.* |  |
+| `c1-l026` | Cacotçuqegoto. *Idem quod* Cacotçuqe. |  |
 | `c1-l027` | Cacoto, l, cagoto. i. Cacotçuqe. *Eſcuſa,* |  |
 | `c1-l028` | &emsp;*achaque.* |  |
 | `c1-l029` | Cacozuri. *Roçadura que fazem os eſtribos cõ* |  |
@@ -96,9 +96,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l022` | Cacu. i. Vonovono, l, caccacuno cocoro- |  |
 | `c2-l023` | &emsp;l, cocorogocoro. *Diuersos pareceres.* |  |
 | `c2-l024` | Cacu ita. *Taboinha quadrada, & uruxada q̃* |  |
-| `c2-l025` | &emsp;*poem de baixo do fogareiro do Chanoyu.* |  |
+| `c2-l025` | &emsp;*poem de baixo do fogareiro do* Chanoyu. |  |
 | `c2-l026` | Cacujen. Satorino maye. Bup. *O eſtar exer-* |  |
-| `c2-l027` | &emsp;*citado nas meditações dos Ienxus.* |  |
+| `c2-l027` | &emsp;*citado nas meditações dos* Ienxus. |  |
 | `c2-l028` | Cacuite. *Adu. Eſcondidamente.* |  |
 | `c2-l029` | Cacuna. *Couſa quadrada, ou que tem cantos.* |  |
 | `c2-l030` | Cacuna mono. *Idem.* |  |

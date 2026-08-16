@@ -21,7 +21,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1a-l005` | &emsp;*ſoa imprudente.* |  |
 | `c1a-l006` | Fuzugi. *Pao comprido calçado de ferro de que* |  |
 | `c1a-l007` | &emsp;*vſão os lauradores, ou os que fazem vallos.* |  |
-| `c1a-l008` | &emsp;*X. No Cami ſe diz,* Sugui. |  |
+| `c1a-l008` | &emsp;*X. No* Cami *ſe diz,* Sugui. |  |
 | `c1a-l009` | Fuzzucuri, u, utta. *Inuentar. ¶ Item,* |  |
 | `c1a-l010` | &emsp;*Cortar, & cercear papel. Vt,* Camiuo fuz- |  |
 | `c1a-l011` | &emsp;zucuru, l, qiriſoroyuru. *¶ Itẽ, Tra-* |  |
@@ -62,7 +62,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1b-l014` | &emsp;*força de infinitiuo. Vt,* Citagayoi. *He* |  |
 | `c1b-l015` | &emsp;*bom ſer comido. ¶ Item, De accuſatiuo.* |  |
 | `c1b-l016` | &emsp;*Vt,* Feiqeno yuraiga qiçitai. *Deſejo de* |  |
-| `c1b-l017` | &emsp;*ouuir o principio das couſas do Feique. Tẽ ou-* |  |
+| `c1b-l017` | &emsp;*ouuir o principio das couſas do* Feique. *Tẽ ou-* |  |
 | `c1b-l018` | &emsp;*tros modos de falar menos principais os quaes* |  |
 | `c1b-l019` | &emsp;*ſe podem ver na arte.* |  |
 | `c1b-l020` | Ga. *Brio, coragem, ou parecer, & opinião.* |  |
@@ -93,13 +93,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l007` | Gabugabu. *Aduerb. Modo de ſoar a agoa* |  |
 | `c2-l008` | &emsp;*quando ſe bebe. ¶* Gabugabuto nomu. |  |
 | `c2-l009` | &emsp;*Beber com aquelle eſtrondo.* |  |
-| `c2-l010` | Gabumeqi, u, eita. *Balancear muito a Fune.* |  |
+| `c2-l010` | Gabumeqi, u, eita. *Balancear muito a* Fune. |  |
 | `c2-l011` | Gabun. i, Vaga zonbun. *Proprio parecer* |  |
 | `c2-l012` | &emsp;*ou juizo. ¶* Gabunuo tatçuru. *Ter* |  |
 | `c2-l013` | &emsp;*mão em ſeu parecer, & juizo. ¶ Item,* |  |
 | `c2-l014` | &emsp;*Poſſe, ou faculdade.* |  |
 | `c2-l015` | Gabutçucaxi, ſu, aita. *Fazer balancear* |  |
-| `c2-l016` | &emsp;*a Fune.* |  |
+| `c2-l016` | &emsp;*a* Fune. |  |
 | `c2-l017` | Gabutçugi, u, uita. *Idem, quod Gabu-* |  |
 | `c2-l018` | &emsp;*mequ.* |  |
 | `c2-l019` | Gabugabuto ſuru. *Idem.* |  |

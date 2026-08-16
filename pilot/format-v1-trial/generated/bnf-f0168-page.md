@@ -26,7 +26,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l010` | Fanabaxira. *Lombo do nariz.* |  |
 | `c1-l011` | Fanabira. *Hũas roſas feitas de papel de vari-* |  |
 | `c1-l012` | &emsp;*as cores que os Bõzos eſpalhão em certos offici-* |  |
-| `c1-l013` | &emsp;*os. ¶ Item, Hũa certa laya de Mochi.* |  |
+| `c1-l013` | &emsp;*os. ¶ Item, Hũa certa laya de* Mochi. |  |
 | `c1-l014` | Fanabirayuqi. *Neue que cae em paſta como* |  |
 | `c1-l015` | &emsp;*lãa, ou borra. Vt,* Fanabira yuqiga furu. |  |
 | `c1-l016` | &emsp;*Chouer eſta neue.* |  |
@@ -49,13 +49,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l033` | &emsp;*mal que ſe cria ſolto, & fora da gayola, &c.* |  |
 | `c1-l034` | &emsp;Vide fanaxigai. |  |
 | `c1-l035` | Fanada. *Papel tinto de azul com hũa folha* |  |
-| `c1-l036` | &emsp;*que ſe chama Fanagara. No cami ſe diz,* A- |  |
+| `c1-l036` | &emsp;*que ſe chama* Fanagara. *No* cami *ſe diz,* A- |  |
 | `c1-l037` | &emsp;uobana. |  |
 | `c1-l038` | Fanafadaxij. *Couſa grande, & terriuel, como* |  |
 | `c1-l039` | &emsp;*ira, luxo, &c.* |  |
 | `c1-l040` | &emsp;¶ Fanafadaxijſa. |  |
 | `c1-l041` | &emsp;¶ Fanafadaxijna. |  |
-| `c1-l042` | Fanaga. *Bom cheiro, particularmente de Cha.* |  |
+| `c1-l042` | Fanaga. *Bom cheiro, particularmente de* Cha. |  |
 | `c1-l043` | &emsp;¶ *Per met.* Ano firono fanaga ga nuge- |  |
 | `c1-l044` | &emsp;ta. *Ia eſte homem não contenta como primei-* |  |
 | `c1-l045` | &emsp;*ro, nem he tam eſtimado, &c.* |  |
@@ -109,7 +109,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l034` | Fananegi. *Argola com que apertão os beiços às* |  |
 | `c2-l035` | &emsp;*beſtas pera ter mão nellas, & as ſujeitar.* |  |
 | `c2-l036` | Fanano aca. *Sugidade, ou ranho dos narizes.* |  |
-| `c2-l037` | Fanano ana. *Ventas dos narizes: no Ximo ſe* |  |
+| `c2-l037` | Fanano ana. *Ventas dos narizes: no* Ximo *ſe* |  |
 | `c2-l038` | &emsp;*diz,* Fanano ſu. |  |
 | `c2-l039` | Fanano boxi. *Certos veos, ou mantilhas que* |  |
 | `c2-l040` | &emsp;*trazẽ as freiras de Iapão, & Bõzos na cabeça.* |  |

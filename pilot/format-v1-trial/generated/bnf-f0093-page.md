@@ -57,7 +57,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l041` | Caruco. *Hum paozinho que poem os carpin-* |  |
 | `c1-l042` | &emsp;*teiros na ponta da linha, ou cordel com que* |  |
 | `c1-l043` | &emsp;*fazem as riſcas na madeira. ¶ Item, No* |  |
-| `c1-l044` | &emsp;*cami ſe toma por hũa cruzeta que ſe faz de* |  |
+| `c1-l044` | &emsp;cami *ſe toma por hũa cruzeta que ſe faz de* |  |
 | `c1-l045` | &emsp;*dous paos ſobreque aſſentão barcas de vinho,* |  |
 | `c1-l046` | &emsp;*& as amarrão pera leuar às coſtas, ou aos* |  |
 | `c1-l047` | &emsp;*hombros.* |  |
@@ -90,7 +90,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l010` | &emsp;Caruſa. |  |
 | `c2-l011` | &emsp;Carǔ. |  |
 | `c2-l012` | Carui, ù, ùta. *Leuar algũa couſa nas coſtas.* |  |
-| `c2-l013` | &emsp;*X. No Cami ſe diz Vǒi, ô.* |  |
+| `c2-l013` | &emsp;*X. No* Cami *ſe diz* Vǒi, ô. |  |
 | `c2-l014` | Caruixi. *Pedra pomez.* |  |
 | `c2-l015` | Carume, uru, eta. *Aliuiar. ¶* Vomoi |  |
 | `c2-l016` | &emsp;uo carumuru. *Aliuiar a triſteza, ou* |  |

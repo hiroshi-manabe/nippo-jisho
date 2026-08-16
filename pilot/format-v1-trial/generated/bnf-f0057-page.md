@@ -45,10 +45,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l029` | &emsp;*contra o vento, &c. ¶* Biǒbu uo caye- |  |
 | `c1-l030` | &emsp;ſugi gotocu, vma yori maſſacalamani vo- |  |
 | `c1-l031` | &emsp;chita. *Cabio do caualo de pernas arriba a* |  |
-| `c1-l032` | &emsp;*maneira de Biǒbus que caem pera traz, dan-* |  |
+| `c1-l032` | &emsp;*maneira de* Biǒbus *que caem pera traz, dan-* |  |
 | `c1-l033` | &emsp;*do comſigo no chão.* |  |
 | `c1-l034` | Biǒbu caqe. *Inſtrumento como gancho de* |  |
-| `c1-l035` | &emsp;*pao que tem mão nos Biǒbus que não caião.* |  |
+| `c1-l035` | &emsp;*pao que tem mão nos* Biǒbus *que não caião.* |  |
 | `c1-l036` | Biǒca. Biǒjano iye. *Caſa de doentes.* |  |
 | `c1-l037` | Biǒchǔ. Vazzuraino vchi. *Eſtando doente,* |  |
 | `c1-l038` | &emsp;*ou em tempo da doença.* |  |
@@ -116,7 +116,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l036` | Biqen. Vtçucuxũ cauo yoxi. *Roſto fer-* |  |
 | `c2-l037` | &emsp;*moſo, ou fermoſura.* |  |
 | `c2-l038` | Biqen. Itçucuxij inu. *Cão fermoſo.* |  |
-| `c2-l039` | Biqin. *Alicubi. Fanagami. Papel de aſ-* |  |
+| `c2-l039` | Biqin. *Alicubi.* Fanagami. *Papel de aſ-* |  |
 | `c2-l040` | &emsp;*ſoar os narizes.* |  |
 | `c2-l041` | Biramecaxi, ſu, aita. *Fazer ondear as bã-* |  |
 | `c2-l042` | &emsp;*deiras, ou fazer bulir papel, abano, &c.* |  |

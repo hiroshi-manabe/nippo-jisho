@@ -30,7 +30,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l014` | &emsp;*olhos, & nariz em ſeu lugar, & em ſua for-* |  |
 | `c1-l015` | &emsp;*ma.* |  |
 | `c1-l016` | Bicǒ. *Çapatos da China de bico reuolto de que* |  |
-| `c1-l017` | &emsp;*vſão os Bôzos. ¶ Item,* Alicubi, *alpar-* |  |
+| `c1-l017` | &emsp;*vſão os* Bôzos. *¶ Item,* Alicubi, *alpar-* |  |
 | `c1-l018` | &emsp;*cas de ſolas de couro.* |  |
 | `c1-l019` | Bicquai. *Adulterio, ou andar com molher* |  |
 | `c1-l020` | &emsp;*alhea. ¶* Tano tçumauo bicquai ſuru. |  |
@@ -38,7 +38,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l022` | Bicǔ, l, bicǒ. Fanano ana. *Vetas dos narizes.* |  |
 | `c1-l023` | Bicu. *Parte exterior das orelhas.* |  |
 | `c1-l024` | Bicu. i. Votoco xucqe. *Religioſo gentio* |  |
-| `c1-l025` | &emsp;*ou Bôzo.* |  |
+| `c1-l025` | &emsp;*ou* Bôzo. |  |
 | `c1-l026` | Bicumeqi, u, eita. *Palpitar, ou bulir alguã* |  |
 | `c1-l027` | &emsp;*parte do corpo.* |  |
 | `c1-l028` | Bicuni. i. ama. *Molher rapada, ou religioſa* |  |

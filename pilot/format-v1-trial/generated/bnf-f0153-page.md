@@ -35,7 +35,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1a-l019` | &emsp;*como em briga, ou contenda, &c. ¶* V- |  |
 | `c1a-l020` | &emsp;mauo daſu. *Fazer correr o caualo ſoltamen-* |  |
 | `c1a-l021` | &emsp;*te. ¶* Tencadono vmauo daſaxeraru. |  |
-| `c1a-l022` | &emsp;*O ſenhor da Tenca ſe parte pera a guerra. ¶* V- |  |
+| `c1a-l022` | &emsp;*O ſenhor da* Tenca *ſe parte pera a guerra. ¶* V- |  |
 | `c1a-l023` | &emsp;maga qiuo daſu. *Tomar o caualo brio* |  |
 | `c1a-l024` | &emsp;*como quando começa a correr, &c. ¶* Fauo |  |
 | `c1a-l025` | &emsp;daſu. *Agaſtarſe, ou moſtrar os dentes cõ ira.* |  |
@@ -48,7 +48,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1a-l032` | Daximono. *Couſa que ſe tira, ou poem fora.* |  |
 | `c1a-l033` | &emsp;*¶* Forono daximono. *Certa diuifa, ou* |  |
 | `c1a-l034` | &emsp;*ſinal que leuão os ſoldados, quando vão à* |  |
-| `c1a-l035` | &emsp;*guerra. Vide daxi.* |  |
+| `c1a-l035` | &emsp;*guerra. Vide* daxi. |  |
 | `c1a-l036` | Daxinuqi, u, ita. *Enganar.* |  |
 | `c1a-l037` | Daxi yagura. *Balcão, ou varanda ſaida pe-* |  |
 | `c1a-l038` | &emsp;*ra fora.* |  |
@@ -105,7 +105,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l016` | &emsp;no vyedeua naniuo xǒca? *Alem diſto q̃ po-* |  |
 | `c2-l017` | &emsp;*ſſo mais fazer, &c. ¶ Item,* De, i, E- |  |
 | `c2-l018` | &emsp;ya. *Vt,* De nhǒ, &c. *Eya durmamos.* |  |
-| `c2-l019` | &emsp;*No Cami ſe diz, & melius* Ide. |  |
+| `c2-l019` | &emsp;*No* Cami *ſe diz, & melius* Ide. |  |
 | `c2-l020` | De, zzuru, eta. *Sair. Melius,* Ide, izzu- |  |
 | `c2-l021` | &emsp;ru. *¶* Funega zzuru. *Partirſe a em-* |  |
 | `c2-l022` | &emsp;*barcação. ¶* Vmãga zzuru. *Sair, ou* |  |
@@ -126,8 +126,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l037` | Decchi. *Dous azes dos dados ſaindo em cada* |  |
 | `c2-l038` | &emsp;*dado hum.* |  |
 | `c2-l039` | Deccu. *Quinas nos dados.* |  |
-| `c2-l040` | Decoi. *Couſa grande, ou de quantidade. No Ca-* |  |
-| `c2-l041` | &emsp;*mi ſe diz,* Tecoi. *¶* Decǒ yamaturu. |  |
+| `c2-l040` | Decoi. *Couſa grande, ou de quantidade. No* Ca- |  |
+| `c2-l041` | &emsp;mi *ſe diz,* Tecoi. *¶* Decǒ yamaturu. |  |
 | `c2-l042` | &emsp;*Dar muitas pancadas em alguem. B.* |  |
 | `c2-l043` | Decǒ. *Adu. Muito. B.* |  |
 | `c2-l044` | Defa. *Vt,* Nǒno deſa. *Principio, ou pri-* |  |

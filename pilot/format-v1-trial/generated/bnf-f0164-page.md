@@ -55,7 +55,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l039` | &emsp;*¶ Item, Hũa certa fruita ſeca como bugá-* |  |
 | `c1-l040` | &emsp;*lhos grandes, em que os meninos metem hũas* |  |
 | `c1-l041` | &emsp;*penas, & como pella rechação com hũa ta-* |  |
-| `c1-l042` | &emsp;*boinha que ſe chama Fagoita. ¶* Fagcuo |  |
+| `c1-l042` | &emsp;*boinha que ſe chama* Fagoita. *¶* Fagcuo |  |
 | `c1-l043` | &emsp;tçugu. *Dar com a taboinha neſta pella.* |  |
 | `c1-l044` | Fagocumi, u, da. *Soſſentar. ¶* Fitouo |  |
 | `c1-l045` | &emsp;fagocumu. *Soſſentar, ou dar de comer a* |  |
@@ -72,7 +72,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | &emsp;*ninos no Xǒguachi. Vide,* Fago. |  |
+| `c2-l001` | &emsp;*ninos no* Xǒguachi. *Vide,* Fago. |  |
 | `c2-l002` | Fagotaye. *Comendo algũa couſa dura, ou* |  |
 | `c2-l003` | &emsp;*ruim de maſtigar, &c. ſentila nos dentes,* |  |
 | `c2-l004` | &emsp;*Vt,* Fagotayega ſuru. |  |
@@ -85,10 +85,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l011` | &emsp;*¶ Item, Pelarſe por doença. Vt,* Atama |  |
 | `c2-l012` | &emsp;no qega faguru. *Cairem os cabellos da ca-* |  |
 | `c2-l013` | &emsp;*beça. ¶ Item, Cair, ou deſfazerſe o ver-* |  |
-| `c2-l014` | &emsp;*niz, ou Vruxi, tinta de pinturas, &c.* |  |
+| `c2-l014` | &emsp;*niz, ou* Vruxi, *tinta de pinturas, &c.* |  |
 | `c2-l015` | Fague, guru, eta. *Vt,* Yauo faguru. *Por* |  |
 | `c2-l016` | &emsp;*a ſeta no arco. ¶* Fazzuxem yumi ni ya |  |
-| `c2-l017` | &emsp;uo faguete yûto ſuredomo irarzu. *Feiqe* |  |
+| `c2-l017` | &emsp;uo faguete yûto ſuredomo irarzu. Feiqe |  |
 | `c2-l018` | &emsp;*Lib. 3. Pondo a ſeta no arco deſarmado fa-* |  |
 | `c2-l019` | &emsp;*zia por a tirar, mas não podia.* |  |
 | `c2-l020` | Faguemaxi, ſu, aita. *Por todas as forças.* |  |
@@ -110,7 +110,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l036` | &emsp;*pojar. ¶* Yamadachi ni ſǒde lanzanni |  |
 | `c2-l037` | &emsp;faguimucurareta. *Encontrando cõ ſaltea-* |  |
 | `c2-l038` | &emsp;*dores ficou roubado, & deſpojado de tudo.* |  |
-| `c2-l039` | Faguire. *Abertura que tem a Catana no fer-* |  |
+| `c2-l039` | Faguire. *Abertura que tem a* Catana *no fer-* |  |
 | `c2-l040` | &emsp;*ro atraueſſado, que na eſpada ſe diz,* Sada. |  |
 | `c2-l041` | Faguitori, u, otta. *Deſpir, ou deſpojar. Vt,* |  |
 | `c2-l042` | &emsp;Nuſubitõdomo ga midare itte, cazucazuuo |  |

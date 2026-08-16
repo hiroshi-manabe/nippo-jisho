@@ -110,7 +110,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l030` | &emsp;*primeira vez que ſe vai a algum lugar, &c.* |  |
 | `c2-l031` | &emsp;*Vt,* Miacoye maitta cotoua ima fatçude |  |
 | `c2-l032` | &emsp;gozaru. *Eſta he a primeira vez q̃ vim ao* |  |
-| `c2-l033` | &emsp;*Miaco. ¶* Fatçugan. *Os primeiros pa-* |  |
+| `c2-l033` | &emsp;Miaco. *¶* Fatçugan. *Os primeiros pa-* |  |
 | `c2-l034` | &emsp;*tos brauos q̃ ſe tomão, & aſſi de todas as ma-* |  |
 | `c2-l035` | &emsp;*is couſas. ¶* Fatçu araxi. i, Xi fi- |  |
 | `c2-l036` | &emsp;guatno caje. *Primeiro vento que venta no* |  |

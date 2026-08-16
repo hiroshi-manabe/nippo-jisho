@@ -19,7 +19,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l003` | Ficaricacayaqi, u, aita. *Reſplandecer mui-* |  |
 | `c1-l004` | &emsp;*to. Vt,* Teqino meniua ficari cacayaqu |  |
 | `c1-l005` | &emsp;azayacanaru yoroiuo qi, &c. *1. Parte* |  |
-| `c1-l006` | &emsp;*Gioſag. Veſtindo hũas armas mui luzidas que* |  |
+| `c1-l006` | &emsp;Gioſag. *Veſtindo hũas armas mui luzidas que* |  |
 | `c1-l007` | &emsp;*reluzião nos olhos dos inimigos.* |  |
 | `c1-l008` | Ficarimono. *Exhalação aceſa que aparece de* |  |
 | `c1-l009` | &emsp;*noite, ou outra claridade como de relampa-* |  |
@@ -90,7 +90,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l016` | &emsp;*minho proprio, & tomar outro pera outra parte.* |  |
 | `c2-l017` | Ficcô. Fudeno cô. *Preço, ou ſalario que ſe* |  |
 | `c2-l018` | &emsp;*dà ao eſcriuão.* |  |
-| `c2-l019` | Ficcomi. *Sobrebainha da Catana.* |  |
+| `c2-l019` | Ficcomi. *Sobrebainha da* Catana. |  |
 | `c2-l020` | Ficcomi, u, ôda. *Meterſe, ou recolherſe* |  |
 | `c2-l021` | &emsp;*pera dentro.* |  |
 | `c2-l022` | Ficcomori, ru, otta. *Recolherſe, ou en-* |  |
@@ -107,19 +107,19 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l033` | Fichiriqi. *Frauta de cana que ſe tange em tem-* |  |
 | `c2-l034` | &emsp;*po de muſica.* |  |
 | `c2-l035` | Fichiriqizuca. *Certa feição de punhos, ou em-* |  |
-| `c2-l036` | &emsp;*punhadura da Catana.* |  |
+| `c2-l036` | &emsp;*punhadura da* Catana. |  |
 | `c2-l037` | Fichô. Tobu chô. *Borboleta que voa. P.* |  |
 | `c2-l038` | Fichô. Tobu tori. *Paſſaro que voa. P.* |  |
 | `c2-l039` | Fichù. *Cabellos da barba na parte do beiço de* |  |
 | `c2-l040` | &emsp;*baixo.* |  |
 | `c2-l041` | Ficǒ. i, Vicauo yeizuru. *Modo de ler os* |  |
-| `c2-l042` | &emsp;*verſos, ou Vtas de Iapão cantando. P.* |  |
+| `c2-l042` | &emsp;*verſos, ou* Vtas *de Iapão cantando. P.* |  |
 | `c2-l043` | Fico. *Biſneto.* |  |
 | `c2-l044` | Ficobaye. *Vergontea que nace ao pè da aruore* |  |
 | `c2-l045` | &emsp;*depois de cortada.* |  |
 | `c2-l046` | Ficǒgai. *Inſtrumento cõ duas riſcas que ſe traz* |  |
 | `c2-l047` | &emsp;*metido por ornato em hũa parte da bainha da* |  |
-| `c2-l048` | &emsp;*Catana.* |  |
+| `c2-l048` | &emsp;Catana. |  |
 
 ## Printed page number
 

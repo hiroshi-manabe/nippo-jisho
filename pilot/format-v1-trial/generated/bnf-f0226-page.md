@@ -15,7 +15,7 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c1-l001` | &emsp;*Eſcamar o peixe. ¶* Qeuo toru. *Ali-* |  |
-| `c1-l002` | &emsp;*cabi. Idem.* |  |
+| `c1-l002` | &emsp;cabi. *Idem.* |  |
 | `c1-l003` | Fuqi, u, uita. *Vt,* Iye, l, yaneuo fuqu. |  |
 | `c1-l004` | &emsp;*Telhar, ou cobrir a caſa.* |  |
 | `c1-l005` | Fuqi, u, uita. *Ventar, ou aſoprar. ¶* Vio- |  |

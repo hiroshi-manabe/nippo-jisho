@@ -24,7 +24,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l008` | &emsp;*teiros, & laurão a madeira. ¶* Coya iri. |  |
 | `c1-l009` | &emsp;*Vt,* Coya iriuo ſuru. *Começar a trabalhar* |  |
 | `c1-l010` | &emsp;*nas obras, & a carpentejar em algũa caſa feita* |  |
-| `c1-l011` | &emsp;*toſcamente. ¶ Item, Maxime no Cami* |  |
+| `c1-l011` | &emsp;*toſcamente. ¶ Item, Maxime no* Cami |  |
 | `c1-l012` | &emsp;Coya iriuo ſuru. *Dar principio a alguã ca-* |  |
 | `c1-l013` | &emsp;*ſa toſca pera nella morar como de empreſtado,* |  |
 | `c1-l014` | &emsp;*depois de queimadas as proprias caſas, ou der-* |  |
@@ -35,13 +35,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l019` | &emsp;*ra, &c.* |  |
 | `c1-l020` | Côyacu. *Meizinha como diaquilão, ou em-* |  |
 | `c1-l021` | &emsp;*praſto q̃ pegão em algũ inchaço, poſtema, &c.* |  |
-| `c1-l022` | Côyacuzaya. *Bainha de Catana uruxada de* |  |
+| `c1-l022` | Côyacuzaya. *Bainha de* Catana *uruxada de* |  |
 | `c1-l023` | &emsp;*cor caſtanha ſobre pelle curtida de caualo.* |  |
 | `c1-l024` | Coyado. *Caſa alugada por poucos dias, ou* |  |
 | `c1-l025` | &emsp;*eſtalajem. ¶* Coyadouo toru. *Tomar* |  |
 | `c1-l026` | &emsp;*pouſada, ou eſtalajem.* |  |
-| `c1-l027` | Côya fijiri. *Certos Bôzos do moeſteiro da Cô-* |  |
-| `c1-l028` | &emsp;*ya que andão com hũa trouxa às coſtas pedin-* |  |
+| `c1-l027` | Côya fijiri. *Certos* Bôzos *do moeſteiro da* Cô- |  |
+| `c1-l028` | &emsp;ya *que andão com hũa trouxa às coſtas pedin-* |  |
 | `c1-l029` | &emsp;*do eſmola.* |  |
 | `c1-l030` | Coyagaqe. *Vide* Coya. |  |
 | `c1-l031` | Coyairi. *Vide* Coya. |  |

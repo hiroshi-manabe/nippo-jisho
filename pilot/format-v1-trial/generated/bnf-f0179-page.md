@@ -89,7 +89,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l015` | &emsp;*O contrario he,* Xigueyama. |  |
 | `c2-l016` | Fayamari, u, atta. *Fazerſe algũa couſa de preſ-* |  |
 | `c2-l017` | &emsp;*ſa, ou ãtes do tẽpo determinado, ou anticiparſe* |  |
-| `c2-l018` | &emsp;*o tẽpo dalgũa feſta, cõuite, &c. X. No Cami* |  |
+| `c2-l018` | &emsp;*o tẽpo dalgũa feſta, cõuite, &c. X. No* Cami |  |
 | `c2-l019` | &emsp;*ſe diz,* Toricoſu. |  |
 | `c2-l020` | Fayame, uru, eta. *Apreſſar, ou dar preſſa.* |  |
 | `c2-l021` | &emsp;*¶* Vmauo fayamuru. *Fazer andar de* |  |

@@ -14,7 +14,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | Guesui. *Hum vaſo que ſerue no Chanoyu pera* |  |
+| `c1-l001` | Guesui. *Hum vaſo que ſerue no* Chanoyu *pera* |  |
 | `c1-l002` | &emsp;*vazar nelle agoa: mas mais propriamente ſe* |  |
 | `c1-l003` | &emsp;*toma pella agoa que eſta neſte vaſo.* |  |
 | `c1-l004` | Gueta. *Hũs chiripos feitos ao modo de Iapão* |  |
@@ -80,12 +80,12 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c2-l001` | Gueyô. i, Xita jitano fanmai. *Mantimen-* |  |
 | `c2-l002` | &emsp;*to, ou comer darroz de gente baixa, ou arroz* |  |
-| `c2-l003` | &emsp;*ordinario, & mal pilado. No Ximo ſe diz* |  |
+| `c2-l003` | &emsp;*ordinario, & mal pilado. No* Ximo *ſe diz* |  |
 | `c2-l004` | &emsp;Veyô. |  |
 | `c2-l005` | Gueza. Ximoza. *Lugar inferior. Vt,* Gue- |  |
 | `c2-l006` | &emsp;zani tçugu. *Aſſentarſe no mais baixo lugar* |  |
-| `c2-l007` | &emsp;*do Zaxiqui.* |  |
-| `c2-l008` | Gui. *Vſaſe às vezes ẽ lugar de Coto. i, couſa.* |  |
+| `c2-l007` | &emsp;*do* Zaxiqui. |  |
+| `c2-l008` | Gui. *Vſaſe às vezes ẽ lugar de* Coto. *i, couſa.* |  |
 | `c2-l009` | Gui. *Hum dos cinco primores, ou cuſtumes* |  |
 | `c2-l010` | &emsp;*politicos celebrados dos Chinas, & Iapoens* |  |
 | `c2-l011` | &emsp;*que he como humildade, comedimento, &* |  |

@@ -56,7 +56,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l040` | &emsp;*as folhas. ¶* Torino fauo caqu. *Cor-* |  |
 | `c1-l041` | &emsp;*tar as azas ao paſſaro pera que não fuja.* |  |
 | `c1-l042` | &emsp;*¶* Cubiuo caqu, l, caquioru. *Cortar* |  |
-| `c1-l043` | &emsp;*a cabeça com o corte da catana pera ſi aferra-* |  |
+| `c1-l043` | &emsp;*a cabeça com o corte da* catana *pera ſi aferra-* |  |
 | `c1-l044` | &emsp;*dolhe dos cabellos. ¶* Camino faxiuo ca- |  |
 | `c1-l045` | &emsp;qu. *Cortar as bordas do papel.* |  |
 | `c1-l046` | Caqi, u, aita. *Vt,* cotocaqi u, l, cotoiuo |  |
@@ -76,9 +76,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l002` | &emsp;Camini cotouo caita. *Faltoume papel.* |  |
 | `c2-l003` | Caqi, u. *Leuarem duas, ou mais peſſoas algũa* |  |
 | `c2-l004` | &emsp;*couſa aos hombros, ou nas mãos. ¶* Co- |  |
-| `c2-l005` | &emsp;xi nadouo caqu. *Leuar norimono, ou* |  |
+| `c2-l005` | &emsp;xi nadouo caqu. *Leuar* norimono, *ou* |  |
 | `c2-l006` | &emsp;*outra couſa aos hombros.* |  |
-| `c2-l007` | Caqi, u. *Com eſta palaura fagi, ou chijocu.* |  |
+| `c2-l007` | Caqi, u. *Com eſta palaura* fagi, *ou* chijocu. |  |
 | `c2-l008` | &emsp;*Quer dizer, ficar injuriado, ou enuergonha-* |  |
 | `c2-l009` | &emsp;*do. Vt,* Fagiuo caita. *Fiquei afrontado.* |  |
 | `c2-l010` | Caqi, u, aita. *Vt,* Fei, cabe nadono xi- |  |

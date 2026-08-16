@@ -38,7 +38,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l022` | &emsp;*certa graça pera contentar.* |  |
 | `c1-l023` | Cobi, uru, ita. *Ter a couſa em ſi alguã gra-* |  |
 | `c1-l024` | &emsp;*ça, ou particularidade que contenta. ¶ Item,* |  |
-| `c1-l025` | &emsp;*Ser Cobito, & eſtrauagante em falar pala-* |  |
+| `c1-l025` | &emsp;*Ser* Cobito, *& eſtrauagante em falar pala-* |  |
 | `c1-l026` | &emsp;*uras nouas, & exquiſitas. Vt,* Cobite yŭ. |  |
 | `c1-l027` | &emsp;*Falar eſtas palauras extraordinarias, & ſe-* |  |
 | `c1-l028` | &emsp;*lectas.* |  |
@@ -60,7 +60,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l044` | Cobore, uru, eta. *Entornarſe, ou tresbordar.* |  |
 | `c1-l045` | &emsp;¶ Namidaga coboruru. *Caĩrem as lagri-* |  |
 | `c1-l046` | &emsp;*mas dos olhos. ¶* Catanano faga cobo- |  |
-| `c1-l047` | &emsp;reta. *Fazerẽſe mossas no corte da Catana.* |  |
+| `c1-l047` | &emsp;reta. *Fazerẽſe mossas no corte da* Catana. |  |
 
 ## Column 2 running header
 
@@ -77,13 +77,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l003` | Coboreuochi, uru, ita. *Trasbordar, ou cair.* |  |
 | `c2-l004` | &emsp;¶ Nanigamo cobôru. *Derramar lagri-* |  |
 | `c2-l005` | &emsp;*mas. ¶* Catanano fauo cobôru. *Fa-* |  |
-| `c2-l006` | &emsp;*zer mossas no corte da catana.* |  |
+| `c2-l006` | &emsp;*zer mossas no corte da* catana. |  |
 | `c2-l007` | Cobǒxi. *Bonzinho, ou Menino rapado.* |  |
 | `c2-l008` | Cobu. *Lobinho, ou carne ſaida pera fora* |  |
 | `c2-l009` | &emsp;*naturalmente.* |  |
 | `c2-l010` | Cobu. *Hũs limos do mar de folha larga que* |  |
 | `c2-l011` | &emsp;*ſe comem.* |  |
-| `c2-l012` | Cobucu. *Hũa taça pequena de Cha, ou de* |  |
+| `c2-l012` | Cobucu. *Hũa taça pequena de* Cha, *ou de* |  |
 | `c2-l013` | &emsp;*mezinha que ſe bebe.* |  |
 | `c2-l014` | Cobucuro. *Bolſinha, ou ſaquinho.* |  |
 | `c2-l015` | Cobujiqirô. *Certa boceta redonda.* |  |
@@ -95,7 +95,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l021` | Cǒbun. *Eſcritura de eſtilo alto, & excellente.* |  |
 | `c2-l022` | Cobune. *Embarcação pequena.* |  |
 | `c2-l023` | Cobura. *Barriga da perna.* |  |
-| `c2-l024` | Cobut. Inixiyeno fotoqe. *Fotoqe antiguo.* |  |
+| `c2-l024` | Cobut. Inixiyeno fotoqe. Fotoqe *antiguo.* |  |
 | `c2-l025` | Cǒbut. Yoximono, l, conomu mono. *Cou-* |  |
 | `c2-l026` | &emsp;*ſa boa, ou apeticiuel como couſa que o do-* |  |
 | `c2-l027` | &emsp;*ente apetece, ou que hum folga, & geſta* |  |

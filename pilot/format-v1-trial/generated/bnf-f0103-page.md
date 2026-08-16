@@ -50,25 +50,25 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c1b-l001` | CHA. *Hũa certa folha de hũa aruoreſinha* |  |
 | `c1b-l002` | &emsp;*que ſe bebe moida. ¶* Chauo fiqu. *Mo-* |  |
-| `c1b-l003` | &emsp;*er Cha. ¶* Chauo tatçuru. *Concertar o* |  |
-| `c1b-l004` | &emsp;*Cha na porſolana pera ſe beber. ¶* Cha- |  |
-| `c1b-l005` | &emsp;uo tçumu. *¶ Colher o Cha.* |  |
+| `c1b-l003` | &emsp;*er* Cha. *¶* Chauo tatçuru. *Concertar o* |  |
+| `c1b-l004` | &emsp;Cha *na porſolana pera ſe beber. ¶* Cha- |  |
+| `c1b-l005` | &emsp;uo tçumu. *¶ Colher o* Cha. |  |
 | `c1b-l006` | Chabixacu. *Hũa maneira de cocoſinho com ſeu* |  |
 | `c1b-l007` | &emsp;*cabo feito de bambu com que tirão agua no* |  |
-| `c1b-l008` | &emsp;*Chanoyu.* |  |
+| `c1b-l008` | &emsp;Chanoyu. |  |
 | `c1b-l009` | Chabon. *Hũa meſaſinha como bandeja em* |  |
-| `c1b-l010` | &emsp;*que poem os aparelhos do Chanoyu.* |  |
+| `c1b-l010` | &emsp;*que poem os aparelhos do* Chanoyu. |  |
 | `c1b-l011` | Chabucuro. *Saquinho de papel em que metẽ o* |  |
-| `c1b-l012` | &emsp;*cha por moer. ¶ Item certa laya de me-* |  |
+| `c1b-l012` | &emsp;cha *por moer. ¶ Item certa laya de me-* |  |
 | `c1b-l013` | &emsp;*loẽs que ſe parecem com eſtes ſaquinhos.* |  |
 | `c1b-l014` | Chaburu. *Joeira, ou ciranda com que alimpão* |  |
-| `c1b-l015` | &emsp;*o cha.* |  |
+| `c1b-l015` | &emsp;*o* cha. |  |
 | `c1b-l016` | Chaccocu. Cunini tçugu. *Chegar ao Reino.* |  |
 | `c1b-l017` | &emsp;*¶* Gochaccocu naſareta. *Ter chegado ao* |  |
-| `c1b-l018` | &emsp;*Reino algum ſenhor, ou Tono.* |  |
+| `c1b-l018` | &emsp;*Reino algum ſenhor, ou* Tono. |  |
 | `c1b-l019` | Chacinato. Adu. *Depreſſa.* |  |
 | `c1b-l020` | Chacô. *Ajuntamento dos que ſe ajuntão a beber* |  |
-| `c1b-l021` | &emsp;*cha.* |  |
+| `c1b-l021` | &emsp;cha. |  |
 | `c1b-l022` | Chacqe. Sôriôno iye. *Morgado que erda a* |  |
 | `c1b-l023` | &emsp;*caſa.* |  |
 
@@ -116,23 +116,23 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l026` | Chacuxi. i. Sôriô. *Morgado.* |  |
 | `c2-l027` | Chacuxi, ſuru, xita. i. qiru. *Veſtir.* |  |
 | `c2-l028` | Chacuza. Zani tçugu. *Aſſentarſe em ſeu lu-* |  |
-| `c2-l029` | &emsp;*gar no Zaxiqi. Vt,* Chacuza ſuru. |  |
-| `c2-l030` | Chafan. Cha, iy. *Cha, & arroz cozido.* |  |
+| `c2-l029` | &emsp;*gar no* Zaxiqi. *Vt,* Chacuza ſuru. |  |
+| `c2-l030` | Chafan. Cha, iy. Cha, *& arroz cozido.* |  |
 | `c2-l031` | &emsp;*¶ Item, Permet. Couſa neceſſaria, & que* |  |
 | `c2-l032` | &emsp;*não pode deixar de ſe fazer. Vt,* Iôgiuno |  |
 | `c2-l033` | &emsp;chafande gozaru. *He couſa que não ſe eſ-* |  |
 | `c2-l034` | &emsp;*cuſa fazer ſempre.* |  |
 | `c2-l035` | Chaire. *Vazo, ou boceta vruxada em que ſe* |  |
-| `c2-l036` | &emsp;*mete o Cha moido.* |  |
-| `c2-l037` | Chajo. *Lugar onde ſe bebe o Cha. No Cami* |  |
-| `c2-l038` | &emsp;*ſe diz Sadô.* |  |
+| `c2-l036` | &emsp;*mete o* Cha *moido.* |  |
+| `c2-l037` | Chajo. *Lugar onde ſe bebe o* Cha. *No* Cami |  |
+| `c2-l038` | &emsp;*ſe diz* Sadô. |  |
 | `c2-l039` | Chanoco. *Couſa apetitosa, & ſalgada que ſe* |  |
-| `c2-l040` | &emsp;*come antes do Cha.* |  |
-| `c2-l041` | Chano iqi. *Cheiro, & ſabor do Cha. ¶* Cha- |  |
+| `c2-l040` | &emsp;*come antes do* Cha. |  |
+| `c2-l041` | Chano iqi. *Cheiro, & ſabor do* Cha. *¶* Cha- |  |
 | `c2-l042` | &emsp;no iqi ga yoi, l, varui. *O cheiro, & ſabor* |  |
-| `c2-l043` | &emsp;*do Cha he bom, ou ruim.* |  |
+| `c2-l043` | &emsp;*do* Cha *he bom, ou ruim.* |  |
 | `c2-l044` | Chanoyu. *Lugar onde ſe aquenta a agoa pera* |  |
-| `c2-l045` | &emsp;*o Cha, & ſe prepara pera beber.* |  |
+| `c2-l045` | &emsp;*o* Cha, *& ſe prepara pera beber.* |  |
 | `c2-l046` | Chanoyujo. *Idem.* |  |
 | `c2-l047` | Chanoyuno ma. *Idem.* |  |
 

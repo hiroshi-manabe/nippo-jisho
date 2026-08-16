@@ -19,7 +19,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1a-l003` | Côzai. *Saber, & Sagacidade. Vt,* Cô- |  |
 | `c1a-l004` | &emsp;zaina fito. *Homem ſagaz, & eſperto.* |  |
 | `c1a-l005` | Cozaixô. *Certa dignidade de homẽs, & mo-* |  |
-| `c1a-l006` | &emsp;*lheres que ſeruem na caſa do Dairi.* |  |
+| `c1a-l006` | &emsp;*lheres que ſeruem na caſa do* Dairi. |  |
 | `c1a-l007` | Côzan. Tacai yama. *Monte alto.* |  |
 | `c1a-l008` | Cozaſa. *Certa laya de erua como caninhas curtas.* |  |
 | `c1a-l009` | Cozauaxi. *Hum genero de figos de Iapão.* |  |
@@ -32,7 +32,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1a-l016` | &emsp;*& mui apertadamente muita gente, &c.* |  |
 | `c1a-l017` | Cozorifa. *Hũa certa alabarda pequena.* |  |
 | `c1a-l018` | Cozôxi. *Molheres baixas que ſeruem em caſa* |  |
-| `c1a-l019` | &emsp;*do Dairi.* |  |
+| `c1a-l019` | &emsp;*do* Dairi. |  |
 | `c1a-l020` | Côzui. Vuoi mizzu. *Grande enchente, ou* |  |
 | `c1a-l021` | &emsp;*diluuio dagua.* |  |
 | `c1a-l022` | Cozuye. *Raminhos do alto da aruore.* |  |
@@ -43,7 +43,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1a-l027` | &emsp;*couſas ſobre outras. ¶ Item, Cair o caua-* |  |
 | `c1a-l028` | &emsp;*lo embiçando.* |  |
 | `c1a-l029` | Cozzuna. *Corda, ou calaure pequeno.* |  |
-| `c1a-l030` | Cozzuqe. *Xiru, & arroz em eſcudelinhas,* |  |
+| `c1a-l030` | Cozzuqe. Xiru, *& arroz em eſcudelinhas,* |  |
 | `c1a-l031` | &emsp;*he comer leue feito depreſſa pera algũ hoſpede.* |  |
 | `c1a-l032` | Cozzutai, ô, ôta. *Andar o bugio pellos ra-* |  |
 | `c1a-l033` | &emsp;*mos das aruores. Vt,* Mineni cozzutô ſa- |  |
@@ -103,7 +103,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l014` | Cubicaqi gatana. *Eſpada de cortar cabeças.* |  |
 | `c2-l015` | Cubicaxe. *Iugo dos bois, ou com que ator-* |  |
 | `c2-l016` | &emsp;*mentão, & ſojugão homens malfeitores.* |  |
-| `c2-l017` | Cubimaqi. *Pano como Vataboxi pera cu-* |  |
+| `c2-l017` | Cubimaqi. *Pano como* Vataboxi *pera cu-* |  |
 | `c2-l018` | &emsp;*brir o peſcoço.* |  |
 | `c2-l019` | Cubiri, ru, itta. *Atar, ou amarrar. ¶ Itẽ,* |  |
 | `c2-l020` | &emsp;*Enforcarſe. Vt,* Cubiuo cubiru. *x.* |  |

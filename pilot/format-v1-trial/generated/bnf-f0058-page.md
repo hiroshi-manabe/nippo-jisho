@@ -46,13 +46,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l030` | &emsp;Birôni. |  |
 | `c1-l031` | &emsp;Birôſa. |  |
 | `c1-l032` | Biruchôjô. *Couſa ſuprema que não tem igual.* |  |
-| `c1-l033` | Biruxara. *Nome de hum Fotoqe.* |  |
+| `c1-l033` | Biruxara. *Nome de hum* Fotoqe. |  |
 | `c1-l034` | Biſai, l, biſaina. *Peſſoa meuda, ou que* |  |
 | `c1-l035` | &emsp;*entende em couſas muito meudas, &c.* |  |
 | `c1-l036` | &emsp;Biſaini. *Adu.* |  |
 | `c1-l037` | Biſô. Vtçucuxij yoſocoi. *Bom parecer, &* |  |
 | `c1-l038` | &emsp;*compoſtura do corpo.* |  |
-| `c1-l039` | Bitô. Vtçucuxij ſô. *Bôzo bem aſſombrado.* |  |
+| `c1-l039` | Bitô. Vtçucuxij ſô. Bôzo *bem aſſombrado.* |  |
 | `c1-l040` | Bitamecaxi, ſu, aita. i. Bitachitato ſuru. |  |
 | `c1-l041` | &emsp;*Fazer ſoar os veſtidos molhados, ou batendo* |  |
 | `c1-l042` | &emsp;*com a mão fazer ſoar agoa, &c.* |  |
@@ -82,7 +82,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2a-l008` | Biuabôxi. i. Zatô. *Cego rapado.* |  |
 | `c2a-l009` | Biuano cõ. *Certas taboas delgadas que ſeruẽ* |  |
 | `c2a-l010` | &emsp;*pera portas, forros de caſas, &c.* |  |
-| `c2a-l011` | Biuano qi. *Hũa aruore chamada Biua.* |  |
+| `c2a-l011` | Biuano qi. *Hũa aruore chamada* Biua. |  |
 | `c2a-l012` | Biuon. Chiſai coye. *Voz pequena, &* |  |
 | `c2a-l013` | &emsp;*baixa.* |  |
 | `c2a-l014` | Bixigo. *Melius.* Niſſgo. *Guincho paſſaro* |  |

@@ -27,7 +27,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l011` | &emsp;*nhor grande por algum ſeruiço. ¶* Funin |  |
 | `c1-l012` | &emsp;uo daſaruru. *Dar eſta dignidade, ou grao.* |  |
 | `c1-l013` | Funjin. Miuo vaguru. *Corpo, ou ſuſtan-* |  |
-| `c1-l014` | &emsp;*cia do Fotoque que é varias partes ſendo o meſ-* |  |
+| `c1-l014` | &emsp;*cia do* Fotoque *que é varias partes ſendo o meſ-* |  |
 | `c1-l015` | &emsp;*mo ſe manifeſta de diuerſas maneiras.* |  |
 | `c1-l016` | Funmiǒ. *Clareza.* |  |
 | `c1-l017` | Funmiǒna. *Couſa clara, & manifeſta.* |  |
@@ -107,11 +107,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l033` | &emsp;cara, l, yocuni fuqeru. *Deleitarſe, ou eſ-* |  |
 | `c2-l034` | &emsp;*tar metido nas riquezas, ou na cobiça. ¶ Itẽ,* |  |
 | `c2-l035` | &emsp;Fuqeri, ru. *Dar moſtra dalgũa couſa pre-* |  |
-| `c2-l036` | &emsp;*zada como de hum bojão, Catana, &c. Vt,* |  |
+| `c2-l036` | &emsp;*zada como de hum bojão,* Catana, *&c. Vt,* |  |
 | `c2-l037` | &emsp;Cudaſaretaru monouo fitobitoni fuqeri |  |
 | `c2-l038` | &emsp;mõxi ſoro. *Aquillo que me deſtes aſoalhoo* |  |
 | `c2-l039` | &emsp;*& moſtro a todos. ¶* Chauanuo fuqeru. |  |
-| `c2-l040` | &emsp;*Dar moſtras dalgũa boa Chauan.* |  |
+| `c2-l040` | &emsp;*Dar moſtras dalgũa boa* Chauan. |  |
 | `c2-l041` | Fuqi. *Hũa erua que tem grandes folhas, &* |  |
 | `c2-l042` | &emsp;*ſe come.* |  |
 | `c2-l043` | Fuqi, l, fuigo. *Foles de ferreiro, ouriues, &c.* |  |
