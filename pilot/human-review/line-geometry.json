@@ -63981,16 +63981,16 @@
               ]
             },
             "c2-l003": {
-              "centre_y": 593,
+              "centre_y": 539,
               "crop": [
                 1205,
-                544,
+                493,
                 1217,
-                98
+                100
               ],
               "context_crop": [
                 1205,
-                428,
+                374,
                 1217,
                 330
               ]
@@ -64657,6 +64657,12 @@
             }
           },
           "review_source": "pilot/human-review/ai-geometry-work/bnf-f0057-reviewed.json",
+          "manual_line_review": {
+            "c2-l003": {
+              "reviewed_at": "2026-08-16",
+              "reason": "tilde-position audit exposed clipping above the target line"
+            }
+          },
           "horizontal_completeness_review": {
             "status": "complete_column_width_checked",
             "method": "full-scan boundary audit with conservative rule-to-rule coverage",

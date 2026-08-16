@@ -287,14 +287,36 @@ def tilde_candidate_crop(page: dict, line: dict, start: int, end: int) -> list[i
         width = page["width"] - left - 40
         height = page["height"] - top - 30
     text = line["text"]
-    total = max(text_width_units(text), 1)
-    centre = text_width_units(text[:start]) + text_width_units(text[start:end]) / 2
-    centre_x = left + round(width * centre / total)
+    # Printed continuation lines often occupy only a small part of the
+    # column. Normalizing every line to the full column width therefore sends
+    # short indented text (for example `ta lũa.`) to the wrong edge. Estimate
+    # position using a stable full-line measure and the recorded indentation
+    # instead; the generous crop remains intentionally approximate.
+    unit_width = width / 48
+    indent_units = float(line.get("indent", 0)) * 2.0
+    centre = (
+        indent_units
+        + text_width_units(text[:start])
+        + text_width_units(text[start:end]) / 2
+    )
+    centre_x = left + round(unit_width * centre)
     crop_width = min(width, 720)
-    crop_left = min(max(left, centre_x - crop_width // 2), left + width - crop_width)
-    padding = max(14, round(height * 0.24))
-    crop_top = max(0, top - padding)
-    crop_bottom = min(page["height"], top + height + padding)
+    if end == len(text) and text_width_units(text) >= 28:
+        # A long line ending at the outer rule is safer to anchor to that rule;
+        # the fixed-width estimate otherwise risks losing its final character.
+        crop_left = left + width - crop_width
+    else:
+        crop_left = min(
+            max(left, centre_x - crop_width // 2), left + width - crop_width
+        )
+    # Existing line rectangles were reviewed for readable letter bodies, but
+    # this task depends on small marks above them. Preserve extra space above
+    # the line and modest overlap below it so a slightly displaced rectangle
+    # cannot clip the tilde under review.
+    crop_top = max(0, top - max(45, round(height * 0.45)))
+    crop_bottom = min(
+        page["height"], top + height + max(30, round(height * 0.30))
+    )
     return [crop_left, crop_top, crop_width, crop_bottom - crop_top]
 
 

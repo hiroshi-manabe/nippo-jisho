@@ -71,6 +71,38 @@ class PublicReviewRegressionTests(unittest.TestCase):
         self.assertIn("saved?.schema === 2", script)
         self.assertIn("candidate.occurrence", script)
 
+    def test_tilde_audit_keeps_short_continuations_and_diacritics_visible(self):
+        with tempfile.TemporaryDirectory() as directory:
+            subprocess.run(
+                [
+                    "python3",
+                    str(ROOT / "scripts" / "build_public_review.py"),
+                    "--output",
+                    directory,
+                ],
+                cwd=ROOT,
+                check=True,
+                capture_output=True,
+                text=True,
+            )
+            audit = json.loads(
+                (Path(directory) / "tilde-audit.json").read_text(encoding="utf-8")
+            )
+            candidates = {
+                f"{page['view']}/{candidate['line']}#{candidate['occurrence']}": candidate
+                for page in audit["pages"]
+                for candidate in page["candidates"]
+            }
+            # These indented continuations are printed at the left of their
+            # columns; the former proportional estimate incorrectly cropped
+            # them at the right edge.
+            self.assertEqual(candidates["f49/c2-l027#1"]["crop"][0], 1205)
+            self.assertLess(candidates["f51/c2-l005#1"]["crop"][0], 1400)
+            self.assertEqual(candidates["f52/c2-l008#1"]["crop"][0], 1445)
+            # The corrected f57 rectangle and added upper overlap retain the
+            # complete tilde-bearing word rather than centering the next line.
+            self.assertEqual(candidates["f57/c2-l003#1"]["crop"], [1702, 448, 720, 175])
+
     def test_hyphen_audit_selections_survive_geometry_only_deployments(self):
         script = (ROOT / "site" / "hyphen-audit.js").read_text(encoding="utf-8")
         self.assertIn(
