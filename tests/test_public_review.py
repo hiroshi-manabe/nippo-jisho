@@ -377,6 +377,33 @@ class PublicReviewRegressionTests(unittest.TestCase):
         self.assertIn({"typeface": "roman", "text": " Ximo"}, lines["c1-l006"])
         self.assertIn({"typeface": "roman", "text": " i. Niuacani."}, lines["c2b-l020"])
 
+    def test_f39_issue_27_partial_history_and_tilde_shorthand(self):
+        history = json.loads(
+            (ROOT / "pilot" / "human-review" / "correction-history.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        page = next(page for page in history["pages"] if page["id"] == "bnf-f0039")
+        self.assertEqual(page["issues_applied"], 1)
+        self.assertEqual(page["distinct_lines"], 14)
+        self.assertEqual(page["accepted_edits"], 14)
+        self.assertEqual(page["issues"][0]["number"], 27)
+        self.assertIn("c2-l019", page["issues"][0]["lines"])
+        self.assertNotIn("c1-l007", page["issues"][0]["lines"])
+
+        record = json.loads(
+            (ROOT / "pilot" / "format-v1-trial" / "level1" / "bnf-f0039.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        lines = {
+            line["id"]: "".join(run["text"] for run in line["runs"])
+            for zone in record["zones"]
+            for line in zone.get("lines", [])
+        }
+        self.assertIn("maõs", lines["c2-l019"])
+        self.assertNotIn("*", lines["c2-l019"])
+
     def test_f29_issue_17_correction_history(self):
         history = json.loads(
             (ROOT / "pilot" / "human-review" / "correction-history.json").read_text(

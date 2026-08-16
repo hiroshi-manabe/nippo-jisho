@@ -2,16 +2,18 @@
 
 ## Result
 
-The not-yet-human-reviewed Level 1 pages contained **3,852 tilde-bearing vowel occurrences adjacent to another vowel**, on **3,443 physical lines across 203 pages**. Every occurrence was checked against the Gallica scan as an individual typographic setting. The already completed `nhaã` / `nhãa` family was deliberately excluded from this pass.
+The not-yet-human-reviewed Level 1 pages contained **3,852 tilde-bearing vowel occurrences adjacent to another vowel**, on **3,443 physical lines across 203 pages**. The already completed `nhaã` / `nhãa` family was deliberately excluded from this pass. This inventory remains useful, but the original contact-sheet adjudication did **not** establish an individual scan confirmation for every occurrence.
 
-The review corrected two cases in which the transcription had regularized a locally printed final `aõ` to the much commoner `ão`:
+The machine review found two cases in which the transcription had regularized a locally printed final `aõ` to the much commoner `ão`:
 
 - `bnf-f0043:c1-l033`: `abanão` → `abanaõ`
 - `bnf-f0124:c1-l001`: `Pião` → `Piaõ`
 
-The other 3,850 occurrences retain their existing carrier. The corrected corpus has 2,605 audited marks on `a`, 1,008 on `u`, 155 on `o`, 80 on `e`, and 4 on `i`. These totals describe this audit scope only; they are not spelling rules.
+Subsequent tight human inspection disproved the bulk confirmation at `bnf-f0039:c2-l019`, correcting `mãos` to printed `maõs` through Issue #27. A second spot check at `bnf-f0040:c2-l009` likewise found printed `dalgũa` rather than the inventoried `dalguã`; that occurrence remains for its page's Issue workflow. The failure was not crop localization: the correct word image was present, but grouping by the existing carrier, labels that displayed the existing reading, dense 32-item sheets, and escalation based on OCR-location confidence all encouraged confirmation rather than an explicit carrier decision.
 
-The occurrence ledger is [adjacent-vowel-tilde-audit.tsv](adjacent-vowel-tilde-audit.tsv). It records the page, physical line, occurrence number, token, marked-vowel context, carrier, and review status.
+Accordingly, unchanged rows are now marked `batch_review_unverified`, not `scan_confirmed`. The two machine-found corrections have status `machine_scan_corrected`, and the f39 human correction has status `human_scan_confirmed`. The current ledger has 2,604 marks on `a`, 1,008 on `u`, 156 on `o`, 80 on `e`, and 4 on `i`; these are inventory totals, not verified distributions or spelling rules.
+
+The occurrence ledger is [adjacent-vowel-tilde-audit.tsv](adjacent-vowel-tilde-audit.tsv). It records the page, physical line, occurrence number, token, marked-vowel context, carrier, and review status. A row may be treated as individually adjudicated only when its status explicitly says so.
 
 ## Scope
 
@@ -24,12 +26,12 @@ This pass includes all other adjacent-vowel contexts, not only Portuguese word e
 1. Inventory every NFC tilde-bearing vowel (`ã`, `õ`, `ũ`, `ẽ`, or `ĩ`) that directly neighbors another vowel in the canonical Markdown.
 2. Recover its physical line from the native-resolution local Gallica master using the reviewed line geometry.
 3. Use OCR only to locate likely ink. It is never evidence for which vowel carries the mark.
-4. Inspect enlarged word crops grouped by vowel context. If localization is weak, repeated, or absent, inspect a complete enlarged line instead of accepting the crop.
-5. Decide the carrier occurrence by occurrence and record the result in the ledger before changing canonical text.
+4. The first pass inspected enlarged word crops grouped by the existing vowel context. If localization was weak, repeated, or absent, it inspected a complete enlarged line.
+5. This presentation proved insufficient for carrier adjudication: future review must hide the existing carrier classification, enlarge one word at a time, and require an explicit `a`, `e`, `i`, `o`, `u`, or `uncertain` decision before recording confirmation.
 6. Rebuild the derived transcription and review-site data from the corrected Level 1 source.
 
-The two corrections demonstrate why a lexical rule is unsafe: even a familiar-looking final nasal sequence may be set `aõ` in one occurrence and `ão` elsewhere. Historical expectation is useful for finding a suspicious reading, but the local printed sort remains authoritative.
+The retained corrections demonstrate why a lexical rule is unsafe: even a familiar-looking final nasal sequence may be set `aõ` in one occurrence and `ão` elsewhere. The invalidated bulk result also demonstrates that a correctly localized crop is not itself a reading. Historical expectation is useful for finding a suspicious form, but only an explicit inspection of the local printed sort establishes the carrier.
 
 ## Reproduction
 
-Run `scripts/build_adjacent_tilde_audit.py` to rebuild the occurrence inventory and optional compact or full-line review sheets. Its OCR-assisted locator is intentionally separated from the visual adjudication represented by the checked-in ledger.
+Run `scripts/build_adjacent_tilde_audit.py` to rebuild the occurrence inventory and optional compact or full-line review sheets. Its OCR-assisted locator is useful for finding the word but must not be interpreted as carrier evidence. The checked-in statuses preserve the distinction between the superseded batch review and later individual adjudication.
