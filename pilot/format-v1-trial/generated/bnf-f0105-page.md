@@ -51,7 +51,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l035` | Chicayori, u, otta. *Chegarſe perto.* |  |
 | `c1-l036` | Chicayoxe, ſuru, eta. *Chegar algũa couſa* |  |
 | `c1-l037` | &emsp;*perto deſi.* |  |
-| `c1-l038` | Chicazzuqe, uru, eta. *Chegar a alguã cou-* |  |
+| `c1-l038` | Chicazzuqe, uru, eta. *Chegar a algũa cou-* |  |
 | `c1-l039` | &emsp;*ſa perto. Vt,* Fitouo chicazzuqe, l, chi- |  |
 | `c1-l040` | &emsp;cayoxete catari naguramuru. *Ajuntan-* |  |
 | `c1-l041` | &emsp;*do gente perto recrear praticando.* |  |

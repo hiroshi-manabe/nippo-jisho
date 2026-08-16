@@ -18,7 +18,7 @@ class TildePositionAuditTests(unittest.TestCase):
         self.assertEqual(len(self.rows), 388)
         self.assertEqual(
             {mark: sum(row["mark_on"] == mark for row in self.rows) for mark in ("u", "a")},
-            {"u": 370, "a": 18},
+            {"u": 372, "a": 16},
         )
         self.assertEqual(len({(row["page"], row["line"]) for row in self.rows}), 387)
 
@@ -42,20 +42,14 @@ class TildePositionAuditTests(unittest.TestCase):
         for line in ("c1-l044", "c2-l029", "c2-l039", "c2-l042"):
             self.assertEqual(decisions[("bnf-f0014", line)]["source"], "algũa")
 
-    def test_f101_onward_targeted_audit_retains_only_visible_final_a_forms(self):
+    def test_f101_onward_targeted_audit_has_no_final_a_forms(self):
         final_a = {
             (row["page"], row["line"], row["source"])
             for row in self.rows
             if int(row["page"].removeprefix("bnf-f")) >= 101
             and row["mark_on"] == "a"
         }
-        self.assertEqual(
-            final_a,
-            {
-                ("bnf-f0105", "c1-l038", "alguã"),
-                ("bnf-f0120", "c2-l003", "alguã"),
-            },
-        )
+        self.assertEqual(final_a, set())
 
 
 if __name__ == "__main__":
