@@ -19,10 +19,16 @@ def horizontal_bounds(page: dict) -> dict[str, tuple[int, int]]:
     second = page["columns"]["column-2"]["box"]
     divider = (first[2] + second[0]) // 2
     outer_right_margin = 250 if width < 2700 else 70
-    return {
+    inferred = {
         "column-1": (max(0, first[0] - 40), divider + 30),
         "column-2": (divider - 30, width - outer_right_margin),
     }
+    for column_id, column in page["columns"].items():
+        prior = column.get("horizontal_completeness_review", {})
+        audited_box = prior.get("audited_box") or prior.get("previous_box")
+        if prior.get("status") == "complete_column_width_checked" and audited_box:
+            inferred[column_id] = (audited_box[0], audited_box[2])
+    return inferred
 
 
 def main() -> int:
@@ -74,6 +80,7 @@ def main() -> int:
                 "status": "complete_column_width_checked",
                 "method": "full-scan boundary audit with conservative rule-to-rule coverage",
                 "previous_box": old_box,
+                "audited_box": [left, old_box[1], right, old_box[3]],
             }
             page_report["columns"][column_id] = {
                 "before": old_box,
