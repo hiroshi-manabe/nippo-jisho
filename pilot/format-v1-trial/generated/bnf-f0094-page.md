@@ -30,38 +30,37 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l014` | &emsp;qi. *Alem diſſo veſtindo em cima tres cor-* |  |
 | `c1-l015` | &emsp;*pos darmas.* |  |
 | `c1-l016` | Caſaneague, uru, eta. *Acumular. Clar.* |  |
-| `c1-l017` | Caſaneatçume, uru, eta. *Ajũtar, & acumu-* |  |
-| `c1-l018` | &emsp;*lar.* |  |
-| `c1-l019` | Caſanegaſane. *Adu. Hũa vez, & outra.* |  |
-| `c1-l020` | Caſane jǒyô. *Banquete que vem hum ſobre* |  |
-| `c1-l021` | &emsp;*outro no meſmo dia. Vt,* Finſǒno caſane |  |
-| `c1-l022` | &emsp;jǒyô. *Banquete de muitas partes que a cõ-* |  |
-| `c1-l023` | &emsp;*tece em hum meſmo tempo ao Bǒzo pobre.* |  |
-| `c1-l024` | Caſanegui. *Veſtidos huns ſobre os outros.* |  |
-| `c1-l025` | &emsp;*¶* Caſaneguiuo ſuru. *Veſtir veſtido ſobre* |  |
-| `c1-l026` | &emsp;*veſtido.* |  |
-| `c1-l027` | Caſaneqi, iru, ita. *veſtir huns veſtidos ſo-* |  |
-| `c1-l028` | &emsp;*bre outros.* |  |
-| `c1-l029` | Caſanete. *Adu. Outra vez.* |  |
-| `c1-l030` | Caſayadori. P. i. Aniayadori. *O aco-* |  |
-| `c1-l031` | &emsp;*lherſe da chūua emparando ſe de baixo dalguã* |  |
-| `c1-l032` | &emsp;*aruore, ou flores como de baixo de ſombreiro.* |  |
-| `c1-l033` | Caſù. Metoru coto. *Caçarſe, ou tomar o* |  |
-| `c1-l034` | &emsp;*homem molher. S.* |  |
-| `c1-l035` | Caſu. *Couſa que fica depois de eſprimida a ſuſ-* |  |
-| `c1-l036` | &emsp;*tancia, como bagaço das vuas, ou que fica do* |  |
-| `c1-l037` | &emsp;*vinho de Iapão, d'azeite, &c. Item, Fare-* |  |
-| `c1-l038` | &emsp;*los de trigo, &c.* |  |
-| `c1-l039` | Caſucana. *O que ſe vê, ou ouue eſcaçamente,* |  |
-| `c1-l040` | &emsp;*&c. ¶* Caſucana coye. *Voz que eſca-* |  |
-| `c1-l041` | &emsp;*çamente ſe ouue. ¶ Item, Couſa pouca,* |  |
-| `c1-l042` | &emsp;*ou pequena. Vt,* Caſucana cotonaredo- |  |
-| `c1-l043` | &emsp;mo. *Ainda que ſeja couſa pouca, &c.* |  |
-| `c1-l044` | Caſucani. *Adu. Eſcaçamente. Vt,* Ca- |  |
-| `c1-l045` | &emsp;ſucani miyuru. *Aparecer eſcaçamente, ou* |  |
-| `c1-l046` | &emsp;*mal.* |  |
-| `c1-l047` | Caſuſai, l, Caſuſaqi. *Eſcarro. Vt,* Ca- |  |
-| `c1-l048` | &emsp;ſuſaqiuo ſaqu. *Eſcarrar.* |  |
+| `c1-l017` | Caſaneatçume, uru, eta. *Ajũtar, & acumu* |  |
+| `c1-l018` | Caſanegaſane. *Adu. Hũa vez, & outra.* |  |
+| `c1-l019` | Caſane jǒyô. *Banquete que vem hum ſobre* |  |
+| `c1-l020` | &emsp;*outro no meſmo dia. Vt,* Finſǒno caſane |  |
+| `c1-l021` | &emsp;jǒyô. *Banquete de muitas partes que a cõ-* |  |
+| `c1-l022` | &emsp;*tece em hum meſmo tempo ao Bǒzo pobre.* |  |
+| `c1-l023` | Caſanegui. *Veſtidos huns ſobre os outros.* |  |
+| `c1-l024` | &emsp;*¶* Caſaneguiuo ſuru. *Veſtir veſtido ſobre* |  |
+| `c1-l025` | &emsp;*veſtido.* |  |
+| `c1-l026` | Caſaneqi, iru, ita. *veſtir huns veſtidos ſo-* |  |
+| `c1-l027` | &emsp;*bre outros.* |  |
+| `c1-l028` | Caſanete. *Adu. Outra vez.* |  |
+| `c1-l029` | Caſayadori. P. i. Aniayadori. *O aco-* |  |
+| `c1-l030` | &emsp;*lherſe da chūua emparando ſe de baixo dalguã* |  |
+| `c1-l031` | &emsp;*aruore, ou flores como de baixo de ſombreiro.* |  |
+| `c1-l032` | Caſù. Metoru coto. *Caçarſe, ou tomar o* |  |
+| `c1-l033` | &emsp;*homem molher. S.* |  |
+| `c1-l034` | Caſu. *Couſa que fica depois de eſprimida a ſuſ-* |  |
+| `c1-l035` | &emsp;*tancia, como bagaço das vuas, ou que fica do* |  |
+| `c1-l036` | &emsp;*vinho de Iapão, d'azeite, &c. Item, Fare-* |  |
+| `c1-l037` | &emsp;*los de trigo, &c.* |  |
+| `c1-l038` | Caſucana. *O que ſe vê, ou ouue eſcaçamente,* |  |
+| `c1-l039` | &emsp;*&c. ¶* Caſucana coye. *Voz que eſca-* |  |
+| `c1-l040` | &emsp;*çamente ſe ouue. ¶ Item, Couſa pouca,* |  |
+| `c1-l041` | &emsp;*ou pequena. Vt,* Caſucana cotonaredo- |  |
+| `c1-l042` | &emsp;mo. *Ainda que ſeja couſa pouca, &c.* |  |
+| `c1-l043` | Caſucani. *Adu. Eſcaçamente. Vt,* Ca- |  |
+| `c1-l044` | &emsp;ſucani miyuru. *Aparecer eſcaçamente, ou* |  |
+| `c1-l045` | &emsp;*mal.* |  |
+| `c1-l046` | Caſuſai, l, Caſuſaqi. *Eſcarro. Vt,* Ca- |  |
+| `c1-l047` | &emsp;ſuſaqiuo ſaqu. *Eſcarrar.* |  |
 
 ## Column 2 running header
 

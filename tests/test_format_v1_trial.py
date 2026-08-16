@@ -29,7 +29,7 @@ class FormatV1TrialTests(unittest.TestCase):
             check=False,
         )
         self.assertEqual(result.returncode, 0, result.stderr)
-        self.assertIn("22380 physical lines", result.stdout)
+        self.assertIn("22379 physical lines", result.stdout)
 
     def test_generated_views_are_current(self):
         module = load_module()

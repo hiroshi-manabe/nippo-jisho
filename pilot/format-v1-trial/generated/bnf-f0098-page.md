@@ -30,7 +30,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l014` | &emsp;*Cazzugi. (criança.* |  |
 | `c1-l015` | Catçuge. *Ama, ou molher que cria algũo.* |  |
 | `c1-l016` | Catçuge, uru. *Amançar, ou domeſticar.* |  |
-| `c1-l017` | Catçira. *Hũa laya de molheres q̃ ſobre o ma-* |  |
+| `c1-l017` | Catçura. *Hũa laya de molheres q̃ ſobre o ma-* |  |
 | `c1-l018` | &emsp;*is veſtido trazem hũa Catabira de linho por* |  |
 | `c1-l019` | &emsp;*cima, & nacabeça muito toucado, as quaes deſ-* |  |
 | `c1-l020` | &emsp;*correm por diuerſas partes.* |  |
@@ -48,7 +48,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l032` | Cate. *Matafotagẽ, ou mantimentos. ¶* Ca- |  |
 | `c1-l033` | &emsp;teuotçumu. *Ajuntar mantimentos, ¶* Iiẽ. |  |
 | `c1-l034` | &emsp;*Embarcalos, ou metelos ẽ alguã caſa. ¶* Ca- |  |
-| `c1-l035` | &emsp;teni tçumaiu. *Faltarem os mantimentos.* |  |
+| `c1-l035` | &emsp;teni tçumaru. *Faltarem os mantimentos.* |  |
 | `c1-l036` | Caten. i. Tenuo cuuayuru. *Acrecentar hũ* |  |
 | `c1-l037` | &emsp;*ponto à letra de Iapão com que ſe lê de outra* |  |
 | `c1-l038` | &emsp;*maneira.* |  |
@@ -115,7 +115,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l041` | Cauagoromo. *Veſtido de couro.* |  |
 | `c2-l042` | Cauaguchi. *Entrada, ou boca do rio.* |  |
 | `c2-l043` | Cauaguinu. *Veſtido de pelle.* |  |
-| `c2-l044` | Cauaguiri. *Neuoero, ou vapores que ſe ale-* |  |
+| `c2-l044` | Cauaguiri. *Neuoeiro, ou vapores que ſe ale-* |  |
 | `c2-l045` | &emsp;*uantão do rio.* |  |
 | `c2-l046` | Cauaguixi. *Terra hum pouco alta, ou barreira* |  |
 | `c2-l047` | &emsp;*que eſta ao longo do rio.* |  |

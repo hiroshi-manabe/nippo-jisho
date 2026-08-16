@@ -79,8 +79,13 @@ def main() -> int:
     if [width, height] != [review["source"]["width"], review["source"]["height"]]:
         raise SystemExit("source dimensions differ")
 
-    existing_ids = {
-        line_id for column in page["columns"].values() for line_id in column["lines"]
+    transcription = load_json(page_path)
+    transcription_zones = {zone["id"]: zone for zone in transcription["zones"]}
+    expected_ids = {
+        line["id"]
+        for reviewed_column in review["columns"].values()
+        for zone_id in reviewed_column["zone_ids"]
+        for line in transcription_zones[zone_id].get("lines", [])
     }
     reviewed_ids: set[str] = set()
     for column_id, reviewed_column in review["columns"].items():
@@ -122,9 +127,9 @@ def main() -> int:
         page["columns"][column_id]["reviewed_at"] = args.reviewed_at
         page["columns"][column_id]["review_source"] = str(review_path.relative_to(root))
 
-    if reviewed_ids != existing_ids:
-        missing = sorted(existing_ids - reviewed_ids)
-        extra = sorted(reviewed_ids - existing_ids)
+    if reviewed_ids != expected_ids:
+        missing = sorted(expected_ids - reviewed_ids)
+        extra = sorted(reviewed_ids - expected_ids)
         raise SystemExit(f"line-ID mismatch; missing={missing}, extra={extra}")
 
     args.geometry.write_text(

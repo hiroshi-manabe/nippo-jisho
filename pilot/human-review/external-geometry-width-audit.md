@@ -25,3 +25,9 @@ The delegated-work README and response generator now carry this requirement dire
 The independently revised returns for `f72` through `f85` were imported on 2026-08-14 after the first return had been rejected for poor quality. Their 1,327 line rectangles were checked in 28 column contact sheets. Line order, target-line readability, all four edges, and especially the outer edge of column 2 were inspected. The returned crops already span the complete canonical column width, so they required no additional horizontal expansion.
 
 These columns use the deliberately conservative provenance value `ai_bulk_geometry_sanity_checked`: the isolated crops passed the project-side visual audit, but the response files do not contain per-line `geometry_action` evidence and retain partly standardized crop heights. A regression test now requires every crop and context crop in both external-AI batches (`f31`–`f85`) to retain complete horizontal coverage.
+
+## f86–f100 batch
+
+The `f86`–`f100` returns were inspected in 30 complete column contact sheets on 2026-08-16. Their vertical sequence was usable except for the f94 lineation discrepancy described below, but their fixed-width rectangles did not reliably preserve the outermost text. On f94, for example, the end of printed `acumu` extended beyond the submitted column-1 bound. All 1,414 imported rectangles were therefore widened to the same conservative rule-to-rule boundaries used by the earlier audit and assigned `external_ai_width_rechecked`.
+
+The f94 discrepancy proved to be a canonical error rather than a missing scan row: the scan prints `Ajũtar, & acumu` on one line and immediately begins the next entry, while the old transcription invented a separate continuation `lar.`. Removing that false line restored the correct 47-row sequence and allowed the returned downstream rectangles to align with their stable IDs.

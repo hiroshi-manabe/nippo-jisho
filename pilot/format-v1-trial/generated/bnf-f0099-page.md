@@ -18,7 +18,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l002` | &emsp;*tas, ou rodeos que faz o rio.* |  |
 | `c1-l003` | Cauaigari, u, atta. *Que vem de cauaij.* |  |
 | `c1-l004` | &emsp;*Compadecerſe, ou ter compaixão, & amor.* |  |
-| `c1-l005` | Cauaji. *Couſa de que ſe tem piedade, & com-* |  |
+| `c1-l005` | Cauaij. *Couſa de que ſe tem piedade, & com-* |  |
 | `c1-l006` | &emsp;*paixão, ou o ter compaixão.* |  |
 | `c1-l007` | &emsp;Cauaiſa. |  |
 | `c1-l008` | &emsp;Cauaiyŭ. |  |
@@ -32,10 +32,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l016` | Cauaqiqiri, u, itta. *Secarſe de todo.* |  |
 | `c1-l017` | Cauara. *Lugares ſecos, ou areaes que ficão ao* |  |
 | `c1-l018` | &emsp;*longo dos rios.* |  |
-| `c1-l019` | Cauara. *Telha. ¶* Xigigauara. *Tijolo,* |  |
+| `c1-l019` | Cauara. *Telha. ¶* Xiqigauara. *Tijolo,* |  |
 | `c1-l020` | &emsp;*ou ladrilho.* |  |
 | `c1-l021` | Cauara. *Quilha do Nauio.* |  |
-| `c1-l022` | Cauarabugi. *O telhar com telhas de barro.* |  |
+| `c1-l022` | Cauarabuqi. *O telhar com telhas de barro.* |  |
 | `c1-l023` | Cauaracaxi, ſu, aita, l, potius, Cauacaxi, |  |
 | `c1-l024` | &emsp;ſu. *Enxugar couſas molhadas, ou humidas.* |  |
 | `c1-l025` | Cauara ſiua. *Hum paſſarinho aſsi chamado de* |  |
@@ -102,7 +102,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l022` | &emsp;cauaſu. *Prometer, ou fazer concertos en-* |  |
 | `c2-l023` | &emsp;*tre ſi.* |  |
 | `c2-l024` | Cauaxi. *Troco, ou cambio. ¶* Cane, co- |  |
-| `c2-l025` | &emsp;me o douo cauaxini ſuru. *Dar, ou to-* |  |
+| `c2-l025` | &emsp;me nadouo cauaxini ſuru. *Dar, ou to-* |  |
 | `c2-l026` | &emsp;*mar prata, arroz, &c. ao cambio, como* |  |
 | `c2-l027` | &emsp;*quando hum toma prata no Miyaco pera a pa-* |  |
 | `c2-l028` | &emsp;*gar em Nagaſaqi.* |  |

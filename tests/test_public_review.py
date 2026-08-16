@@ -158,12 +158,12 @@ class PublicReviewRegressionTests(unittest.TestCase):
         ]
         self.assertEqual(
             [page["id"] for page in pages],
-            [f"bnf-f{number:04d}" for number in range(31, 86)],
+            [f"bnf-f{number:04d}" for number in range(31, 101)],
         )
         for page in pages:
             for column in page["columns"].values():
                 leaf = int(page["id"].removeprefix("bnf-f"))
-                if leaf <= 71:
+                if leaf <= 71 or leaf >= 86:
                     self.assertEqual(
                         column["visual_review"], "external_ai_width_rechecked"
                     )
@@ -183,6 +183,45 @@ class PublicReviewRegressionTests(unittest.TestCase):
                     self.assertEqual(
                         line["context_crop"][0] + line["context_crop"][2], right
                     )
+
+    def test_f86_f100_external_review_text_and_f94_lineation(self):
+        def plain_lines(page_id):
+            record = json.loads(
+                (ROOT / "pilot" / "format-v1-trial" / "level1" / f"{page_id}.json").read_text(
+                    encoding="utf-8"
+                )
+            )
+            return {
+                line["id"]: "".join(run["text"] for run in line["runs"])
+                for zone in record["zones"]
+                for line in zone.get("lines", [])
+            }
+
+        f91 = plain_lines("bnf-f0091")
+        self.assertIn("taſucatta", f91["c1-l034"])
+
+        f94 = plain_lines("bnf-f0094")
+        self.assertEqual(len([line for line in f94 if line.startswith("c1-")]), 47)
+        self.assertTrue(f94["c1-l017"].endswith("Ajũtar, & acumu"))
+        self.assertNotIn("c1-l048", f94)
+
+        f98 = plain_lines("bnf-f0098")
+        self.assertIn("Catçura", f98["c1-l017"])
+        self.assertIn("tçumaru", f98["c1-l035"])
+        self.assertIn("Neuoeiro", f98["c2-l044"])
+
+        f99 = plain_lines("bnf-f0099")
+        self.assertIn("Cauaij", f99["c1-l005"])
+        self.assertIn("Xiqigauara", f99["c1-l019"])
+        self.assertIn("Cauarabuqi", f99["c1-l022"])
+        self.assertIn("me nadouo", f99["c2-l025"])
+
+        f100 = plain_lines("bnf-f0100")
+        self.assertIn("yerabu", f100["c1-l030"])
+        self.assertIn("trauão", f100["c2-l020"])
+        self.assertIn("Caxiqe", f100["c2-l023"])
+        self.assertIn("Fanamo", f100["c2-l024"])
+        self.assertIn("Caxiqeta", f100["c2-l027"])
 
     def test_transcription_versions_and_rebase_controls(self):
         app = (ROOT / "site" / "app.js").read_text(encoding="utf-8")

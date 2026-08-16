@@ -47,7 +47,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l031` | Carafune. *Nauio vazio.* |  |
 | `c1-l032` | Caragara. *Ad. Eſcaſſamente, ou com mui-* |  |
 | `c1-l033` | &emsp;*to trabalho, & riſco. Vt,* Caragara yne- |  |
-| `c1-l034` | &emsp;chiuo tatucatta. *Eſcapou com a vida, mas* |  |
+| `c1-l034` | &emsp;chiuo taſucatta. *Eſcapou com a vida, mas* |  |
 | `c1-l035` | &emsp;*com muito perigo, & riſco.* |  |
 | `c1-l036` | Carague, uru, eta. *Atar, ou liar fato &c.* |  |
 | `c1-l037` | Carague naua. *Corda de liar fato.* |  |

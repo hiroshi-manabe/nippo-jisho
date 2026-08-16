@@ -100,6 +100,8 @@ The existing `contact_sheet_reviewed` records were reconstructed after transcrip
 
 A line may be vertically centered and still unusable if its first or last glyph is outside the crop. Every imported geometry review must therefore check **horizontal completeness** independently of line identification: compare the isolated crop with the full scan and ensure that all printed text assigned to the line remains visible. For ordinary two-column pages, a conservative crop spanning slightly beyond both column rules is preferable to a tight fixed-width crop. The status `external_ai_width_rechecked` means that externally supplied vertical coordinates were retained but every affected line was subsequently expanded to audited rule-to-rule horizontal coverage. This status does not imply a new textual review.
 
+The width-recheck command accepts `--start-page`, `--end-page`, and `--reviewed-at` so a new delegated batch can be corrected without rewriting the provenance of earlier accepted batches. If the delegated review exposes a genuine canonical lineation error, correct the canonical physical-line sequence first; the importer validates returned IDs against that current sequence rather than preserving stale geometry IDs.
+
 The crop is therefore page- and line-sensitive rather than a uniform band with permanently large margins. The clipped top of `T` in `f17/c2-l042` (`Acuma. i. Tengu. Diabo.`) is the motivating example: part of the preceding line may be repeated, but the whole `T` must appear in the target line image. The same reviewed crops should support both project transcription checks and the public human-review interface.
 
 ### IIIF delivery and local cropping

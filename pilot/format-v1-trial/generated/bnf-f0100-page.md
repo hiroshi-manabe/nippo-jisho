@@ -43,7 +43,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l027` | &emsp;ru. *Ajudar, ou ſoccorrer.* |  |
 | `c1-l028` | Caxemono. *Fidalgo razo, ou peſſoa honrrada* |  |
 | `c1-l029` | &emsp;*com pouca renda, ou tença.* |  |
-| `c1-l030` | Caxen. Vta yerſu. *Eſcolha de verſos.* |  |
+| `c1-l030` | Caxen. Vta yerabu. *Eſcolha de verſos.* |  |
 | `c1-l031` | Caxeſaburai. *Fidalgo pobre, & de pouca* |  |
 | `c1-l032` | &emsp;*renda.* |  |
 | `c1-l033` | Caxet. Yoqixet. *Dia feſtiual. ¶ Item,* |  |
@@ -91,14 +91,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l017` | Caximaxij. *O auer, ou fazer traquinada.* |  |
 | `c2-l018` | Caxin. *Hora boa, ou ditoſa, & bem eſtreada,* |  |
 | `c2-l019` | &emsp;*ou hora de alegria.* |  |
-| `c2-l020` | Caxinomi. *Bolotas, ou landeas que traião.* |  |
+| `c2-l020` | Caxinomi. *Bolotas, ou landeas que trauão.* |  |
 | `c2-l021` | Caxinogi. *Aruore que dá eſta fruita do mato* |  |
 | `c2-l022` | &emsp;*que he como carualho.* |  |
-| `c2-l023` | Caxige, uru, eta. *Ser magro, deſfeito, ou* |  |
-| `c2-l024` | &emsp;*eſteril. ¶* Yanamo vazzucani, codachi |  |
+| `c2-l023` | Caxiqe, uru, eta. *Ser magro, deſfeito, ou* |  |
+| `c2-l024` | &emsp;*eſteril. ¶* Fanamo vazzucani, codachi |  |
 | `c2-l025` | &emsp;mo caxige tatçu. *Fox. Lib. 1. As fo-* |  |
 | `c2-l026` | &emsp;*lhas nacião ja pequenas, & os ramos fracos, &* |  |
-| `c2-l027` | &emsp;*magros. ¶* Caxigeta fito. *Homem des-* |  |
+| `c2-l027` | &emsp;*magros. ¶* Caxiqeta fito. *Homem des-* |  |
 | `c2-l028` | &emsp;*feito, & magro ſem cores, & forças. ¶* Ca- |  |
 | `c2-l029` | &emsp;xigeta nari. *Modo, ou maneira de hum eſ-* |  |
 | `c2-l030` | &emsp;*tar pobre, ou com pouco cabedal, & fato.* |  |

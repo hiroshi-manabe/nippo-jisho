@@ -2,7 +2,7 @@
 
 ## Result
 
-The corpus represents 229 complete pages in the adopted compact human-readable Level 1 authoring format. The six-page, 526-line adoption baseline has been extended by 223 sequential production pages, bringing the compiler-validated total to 22,380 physical lines. Seven structural assertions and eight selected reading sequences remain as a secondary compatibility check, not the current design focus.
+The corpus represents 229 complete pages in the adopted compact human-readable Level 1 authoring format. The six-page, 526-line adoption baseline has been extended by 223 sequential production pages, bringing the compiler-validated total to 22,379 physical lines. Seven structural assertions and eight selected reading sequences remain as a secondary compatibility check, not the current design focus.
 
 Format version 1 was adopted after the [timed f249–f250 production simulation](../production-simulation/f0249-f0250.md) required no new syntax. Compact Markdown is the authoring form; JSON is generated for validation and interchange. A genuinely unresolved reading has not yet exercised uncertainty notation, which will be added only in a compatible evidence-driven revision.
 
@@ -42,7 +42,7 @@ Format version 1 was adopted after the [timed f249–f250 production simulation]
 | `bnf-f0250` | Complete dictionary text and textual furniture | Consecutive-page production timing, catchword continuation and confirmation against `f251`, contextual review yield |
 | `bnf-f0643` | Complete dictionary text and textual furniture | Circumflex, caron, and grave accent examples; ownership stamp, printed page number, terminus, closing ornament |
 
-The 229 complete page records contain 22,380 physical lines. Exact source-image SHA-256 values are stored in each Level 1 page record.
+The 229 complete page records contain 22,379 physical lines. Exact source-image SHA-256 values are stored in each Level 1 page record.
 
 ## Files
 
@@ -149,7 +149,7 @@ The external page displayed neighboring text as unavoidable context. No neighbor
 
 ### Successful parts
 
-- All 229 complete pages can be read directly as Markdown while compiling back to the complete 22,380-line machine representation.
+- All 229 complete pages can be read directly as Markdown while compiling back to the complete 22,379-line machine representation.
 - The 209 authoring files occupy 27,142 lines and 1,118,697 bytes.
 - Ordinary physical lines require only a stable ID and their visible text; Markdown emphasis records typeface without explicit run objects.
 - Only `(grande.` and `(o homem.` need named sub-line spans in the current sample, so exceptional machinery remains exceptional.

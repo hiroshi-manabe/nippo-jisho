@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 from pathlib import Path
 
 
@@ -33,12 +34,20 @@ def main() -> int:
         default=root / "pilot/human-review/line-geometry.json",
     )
     parser.add_argument("--apply", action="store_true")
+    parser.add_argument("--start-page", type=int, default=None)
+    parser.add_argument("--end-page", type=int, default=None)
+    parser.add_argument("--reviewed-at", default="2026-08-13")
     args = parser.parse_args()
 
     record = json.loads(args.geometry.read_text(encoding="utf-8"))
     changed_pages = changed_columns = changed_lines = 0
     report = []
     for page in record["pages"]:
+        page_number = int(re.search(r"f(\d+)$", page["id"]).group(1))
+        if args.start_page is not None and page_number < args.start_page:
+            continue
+        if args.end_page is not None and page_number > args.end_page:
+            continue
         columns = page.get("columns", {})
         if not columns or not any(
             column.get("review_source") and column.get("visual_review") != REVIEW_STATUS
@@ -60,7 +69,7 @@ def main() -> int:
                     line[key][2] = right - left
                 changed_lines += 1
             column["visual_review"] = REVIEW_STATUS
-            column["reviewed_at"] = "2026-08-13"
+            column["reviewed_at"] = args.reviewed_at
             column["horizontal_completeness_review"] = {
                 "status": "complete_column_width_checked",
                 "method": "full-scan boundary audit with conservative rule-to-rule coverage",

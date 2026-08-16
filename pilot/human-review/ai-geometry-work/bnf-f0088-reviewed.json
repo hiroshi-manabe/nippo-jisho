@@ -1,0 +1,1936 @@
+{
+  "format": "nippo-ai-line-geometry-response",
+  "format_version": 1,
+  "page": "bnf-f0088",
+  "response_status": "completed_independent_ai_line_review",
+  "geometry_review_status": "completed",
+  "text_review_status": "not_completed",
+  "observed_text_provenance": "Every physical body line was visually inspected one by one on enlarged isolated crops against the supplied scan, with the proposed geometry treated as provisional and re-registered from the image. A second full-column top-to-bottom sweep was then used to detect duplicate/missed rows and repeated edge clipping. observed_text was read independently from the scan; page-level OCR was used only as a transcription aid after visual line identification, with missed or obviously garbled short lines reread manually. The canonical Level 1 transcription was not modified, and all supplied expected_line_version values are preserved unchanged.",
+  "coordinate_space": "native Gallica master pixels",
+  "rectangle_format": "[x, y, width, height]",
+  "source": {
+    "filename": "f0088.jpg",
+    "width": 2721,
+    "height": 3893,
+    "sha256": "44b369fcd3cdcc6994a50379da6ea2712688753a4be9a5904bd7c47facf636eb",
+    "gallica_url": "https://gallica.bnf.fr/ark:/12148/bpt6k852354j/f88.item"
+  },
+  "transcription_source": {
+    "page_file": "pilot/format-v1-trial/level1/bnf-f0088.json",
+    "page_file_sha256": "6baeedab86a7005b599bf7ef95026519779e18faac1cdb2412a969c2b1e89aee"
+  },
+  "columns": {
+    "column-1": {
+      "column_box_xyxy": [
+        340,
+        300,
+        1450,
+        3410
+      ],
+      "zone_ids": [
+        "column-1"
+      ],
+      "initial_geometry_provenance": "contact_sheet_reviewed",
+      "initial_geometry_reviewed_at": "2026-08-01",
+      "geometry_requires_line_by_line_review": false,
+      "lines": [
+        {
+          "id": "c1-l001",
+          "centre_y": 456,
+          "crop": [
+            340,
+            396,
+            1200,
+            120
+          ],
+          "context_crop": [
+            340,
+            286,
+            1200,
+            340
+          ],
+          "observed_text": "iq2déto mina caqeuochiuo xita. Fab. Fur",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:2b08aa2bcc08aa5d1c6bb249bc0f8c5a2551c29a8524ee26c103990205f2408d"
+        },
+        {
+          "id": "c1-l002",
+          "centre_y": 517,
+          "crop": [
+            340,
+            457,
+            1200,
+            120
+          ],
+          "context_crop": [
+            340,
+            347,
+            1200,
+            340
+          ],
+          "observed_text": "girdo efcondidamenie pera faluar a-uida...",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:79f85ed8ee265e83a1fb36b84acc88ce0e342f55acdfb7ef2d92ae77160fb82c"
+        },
+        {
+          "id": "c1-l003",
+          "centre_y": 580,
+          "crop": [
+            340,
+            520,
+            1200,
+            120
+          ],
+          "context_crop": [
+            340,
+            410,
+            1200,
+            340
+          ],
+          "observed_text": "'|Cageuochi xi, furu, ita. Fugir fecretaméte,",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:c14a59a6271f42a95f80b93be156265918d60db1ec5eb8a4ada8b304cd29da08"
+        },
+        {
+          "id": "c1-l004",
+          "centre_y": 639,
+          "crop": [
+            340,
+            579,
+            1200,
+            120
+          ],
+          "context_crop": [
+            340,
+            469,
+            1200,
+            340
+          ],
+          "observed_text": "Caqeuodoxi . Pelle € que“emburulbao as armas .",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:3d8eafe61ef374b044d388eeee5d73fff5f79f5f3f8ec82dbfa1fba05a11dfc9"
+        },
+        {
+          "id": "c1-l005",
+          "centre_y": 703,
+          "crop": [
+            340,
+            643,
+            1200,
+            120
+          ],
+          "context_crop": [
+            340,
+            533,
+            1200,
+            340
+          ],
+          "observed_text": "Caqeuotoxi., fu, oita, Derrubsralgiia cou",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:5ad8e14350f53cee04f12e8d506f34d983452e63c7aa105f1f7f0f6357023067"
+        },
+        {
+          "id": "c1-l006",
+          "centre_y": 766,
+          "crop": [
+            340,
+            706,
+            1200,
+            120
+          ],
+          "context_crop": [
+            340,
+            596,
+            1200,
+            340
+          ],
+          "observed_text": "fa de lugar alto.",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:11d72f08080a802b745f18f42c88100bee8e382019a092926d5e47286f32f146"
+        },
+        {
+          "id": "c1-l007",
+          "centre_y": 825,
+          "crop": [
+            340,
+            765,
+            1200,
+            120
+          ],
+          "context_crop": [
+            340,
+            655,
+            1200,
+            340
+          ],
+          "observed_text": "Cageyaburi-, ru, utta. Romper a gente de",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:e9b3ebe90459f7752696b5fb193b8a6c120172544d14bacedef60eb35e525945"
+        },
+        {
+          "id": "c1-l008",
+          "centre_y": 888,
+          "crop": [
+            340,
+            828,
+            1200,
+            120
+          ],
+          "context_crop": [
+            340,
+            718,
+            1200,
+            340
+          ],
+          "observed_text": "causlo. Vs, Vdjeino nacauo zatto cage",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:8af665f397153e6884d173d56416579ebc01b6d9bac36f90c6da6365d105a4c2"
+        },
+        {
+          "id": "c1-l009",
+          "centre_y": 950,
+          "crop": [
+            340,
+            890,
+            1200,
+            120
+          ],
+          "context_crop": [
+            340,
+            780,
+            1200,
+            340
+          ],
+          "observed_text": "yabutra. R omperdo, ¢ entrardo os.de ca",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:8946b9dbe7c2833d78695b36396664bb8171fff637eb7b507e9579efc6548e1c"
+        },
+        {
+          "id": "c1-l010",
+          "centre_y": 1011,
+          "crop": [
+            340,
+            951,
+            1200,
+            120
+          ],
+          "context_crop": [
+            340,
+            841,
+            1200,
+            340
+          ],
+          "observed_text": "ualo pellomeodoatrayal,",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:5649f35ccb2e88f7545ea90746d0d50da982bf74210cdeaa1317d5272b4301c8"
+        },
+        {
+          "id": "c1-l011",
+          "centre_y": 1074,
+          "crop": [
+            340,
+            1014,
+            1200,
+            120
+          ],
+          "context_crop": [
+            340,
+            904,
+            1200,
+            340
+          ],
+          "observed_text": "Cageyori , yoru, yotta. Chegarfe aca:",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:0b7bb14b4f4434870ff7cce081b9146160b7bf0355087d5ef3efac7bfa1e1159"
+        },
+        {
+          "id": "c1-l012",
+          "centre_y": 1137,
+          "crop": [
+            340,
+            1077,
+            1200,
+            120
+          ],
+          "context_crop": [
+            340,
+            967,
+            1200,
+            340
+          ],
+          "observed_text": "ualo ,",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:b54bcb3337ada7ebba179e93af4ddcc7108c69dd7a1a6884c6a8bd6b788d7191"
+        },
+        {
+          "id": "c1-l013",
+          "centre_y": 1194,
+          "crop": [
+            340,
+            1134,
+            1200,
+            120
+          ],
+          "context_crop": [
+            340,
+            1024,
+            1200,
+            340
+          ],
+          "observed_text": "Caqeyoxe, furn , eta. Arremeter a caualo.",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:9ebde81f05c87d6c66c07a093560171902de61ff79d9cd44e5b525cd556301ce"
+        },
+        {
+          "id": "c1-l014",
+          "centre_y": 1258,
+          "crop": [
+            340,
+            1198,
+            1200,
+            120
+          ],
+          "context_crop": [
+            340,
+            1088,
+            1200,
+            340
+          ],
+          "observed_text": "V1, Coma cageyoxete chdchddo vrcu.",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:a31376a51a3e937ebca97da82574211d1ce34fd752b4c3074760c4ab02c5a6a2"
+        },
+        {
+          "id": "c1-l015",
+          "centre_y": 1319,
+          "crop": [
+            340,
+            1259,
+            1200,
+            120
+          ],
+          "context_crop": [
+            340,
+            1149,
+            1200,
+            340
+          ],
+          "observed_text": "Arremetendo com os caualos dauao , ou feriio.",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:829096df14726decd078fb3c4abd02f46ac1e1e52a999ee7e8b50cb3b268db70"
+        },
+        {
+          "id": "c1-l016",
+          "centre_y": 1380,
+          "crop": [
+            340,
+            1320,
+            1200,
+            120
+          ],
+          "context_crop": [
+            340,
+            1210,
+            1200,
+            340
+          ],
+          "observed_text": "Cagezan . Muhiplicar . Vide Gifan .",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:8c37a06059b1c069eccd85c9644ab008c220119f916547e77a058f954c21d40f"
+        },
+        {
+          "id": "c1-l017",
+          "centre_y": 1445,
+          "crop": [
+            340,
+            1385,
+            1200,
+            120
+          ],
+          "context_crop": [
+            340,
+            1275,
+            1200,
+            340
+          ],
+          "observed_text": "Cagczzucu, 1, Cagedocu. Apoftar. .. V3,",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:d304daf85a2d4adf3d5bc44ed7c42530906a4aef12660d8d8747024ba05a3774"
+        },
+        {
+          "id": "c1-l018",
+          "centre_y": 1505,
+          "crop": [
+            340,
+            1445,
+            1200,
+            120
+          ],
+          "context_crop": [
+            340,
+            1335,
+            1200,
+            340
+          ],
+          "observed_text": "Cagezzucunifani, q Cagezzucu, J, ca-",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:eff3d467a4ec13aa79e5edceb0250b661df6bd2940cb0bd2963dc2d2e23d8978"
+        },
+        {
+          "id": "c1-l019",
+          "centre_y": 1568,
+          "crop": [
+            340,
+            1508,
+            1200,
+            120
+          ],
+          "context_crop": [
+            340,
+            1398,
+            1200,
+            340
+          ],
+          "observed_text": "gedocuni mainy, Idem. Mas milbor. be;",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:541eeee0869ad215b6ed4cb78069b0bd931db467186aa2774e6b97ab0d98b2a5"
+        },
+        {
+          "id": "c1-l020",
+          "centre_y": 1631,
+          "crop": [
+            340,
+            1571,
+            1200,
+            120
+          ],
+          "context_crop": [
+            340,
+            1461,
+            1200,
+            340
+          ],
+          "observed_text": "caqenimairu.",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:f19d2fcf9b5c3f82445cf5feb201104c46d2d9dc621ae3ce4aa887f3d1eb9a6d"
+        },
+        {
+          "id": "c1-l021",
+          "centre_y": 1692,
+          "crop": [
+            340,
+            1632,
+            1200,
+            120
+          ],
+          "context_crop": [
+            340,
+            1522,
+            1200,
+            340
+          ],
+          "observed_text": "Cagezzucuri . Edificio feito om lugar parte",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:cfd82943512688619a9f6fe49c45f6138ce0eb6e08f51fc4c967544e7ad7cbc0"
+        },
+        {
+          "id": "c1-l022",
+          "centre_y": 1755,
+          "crop": [
+            340,
+            1695,
+            1200,
+            120
+          ],
+          "context_crop": [
+            340,
+            1585,
+            1200,
+            340
+          ],
+          "observed_text": "firme , parte baxo , ou ingreme como fobre o-",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:b00b6809151aff07836924f4e08d92d1cd15e2b47f8d9abd09d4fdb08fd2f306"
+        },
+        {
+          "id": "c1-l023",
+          "centre_y": 1813,
+          "crop": [
+            340,
+            1753,
+            1200,
+            120
+          ],
+          "context_crop": [
+            340,
+            1643,
+            1200,
+            340
+          ],
+          "observed_text": "mar , ou fobre alga precipicio , @ce",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:c0d2062d275f3f9b446e3f50216d4522ae9feedc7ec106974b29f8537644a57a"
+        },
+        {
+          "id": "c1-l024",
+          "centre_y": 1878,
+          "crop": [
+            340,
+            1818,
+            1200,
+            120
+          ],
+          "context_crop": [
+            340,
+            1708,
+            1200,
+            340
+          ],
+          "observed_text": "‘|Caqezzuchi. Mago grande de pao de Care",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:d992da7ecf78f6af2789a9d216d09115776ea252d59f9f0ac0e5e633d602b212"
+        },
+        {
+          "id": "c1-l025",
+          "centre_y": 1939,
+          "crop": [
+            340,
+            1879,
+            1200,
+            120
+          ],
+          "context_crop": [
+            340,
+            1769,
+            1200,
+            340
+          ],
+          "observed_text": "pintetro..",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:f4e15b473ba1be181ecc79f56e58ad80f4f1be74d2d65f64d3d230e7771083fc"
+        },
+        {
+          "id": "c1-l026",
+          "centre_y": 2002,
+          "crop": [
+            340,
+            1942,
+            1200,
+            120
+          ],
+          "context_crop": [
+            340,
+            1832,
+            1200,
+            340
+          ],
+          "observed_text": "|Caqi... Figos de fapéo como magias .",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:2f6d15a4c142597d50315beb76b01a9e77284d95f93a10717e3a25ebff43e6f8"
+        },
+        {
+          "id": "c1-l027",
+          "centre_y": 2062,
+          "crop": [
+            340,
+            2002,
+            1200,
+            120
+          ],
+          "context_crop": [
+            340,
+            1892,
+            1200,
+            340
+          ],
+          "observed_text": "Caqi. Hua cor como de figos meos maduros .",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:8423740c8a53a50226a57f1d432734b7fcef4a8cc39a5fa0cfffb3df93bf9e5f"
+        },
+        {
+          "id": "c1-l028",
+          "centre_y": 2125,
+          "crop": [
+            340,
+            2065,
+            1200,
+            120
+          ],
+          "context_crop": [
+            340,
+            1955,
+            1200,
+            340
+          ],
+          "observed_text": "V1, Caqini fomura . 1 ingir deSta cor de",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:a0f74319d1994726c758a72232e7ea49d8fca6814c22e93e83308d093f41618c"
+        },
+        {
+          "id": "c1-l029",
+          "centre_y": 2194,
+          "crop": [
+            340,
+            2134,
+            1200,
+            120
+          ],
+          "context_crop": [
+            340,
+            2024,
+            1200,
+            340
+          ],
+          "observed_text": "Sigos «",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:e37d3d7b013951e52816cce536ec4994e602cc1141bae85c0cd902f03273469a"
+        },
+        {
+          "id": "c1-l030",
+          "centre_y": 2249,
+          "crop": [
+            340,
+            2189,
+            1200,
+            120
+          ],
+          "context_crop": [
+            340,
+            2079,
+            1200,
+            340
+          ],
+          "observed_text": "Cagi, Oftras.",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:7e1141fe9f705aa79c52d5f844a70e6bbcec0254382f22ae404375c7d919d1c5"
+        },
+        {
+          "id": "c1-l031",
+          "centre_y": 2313,
+          "crop": [
+            340,
+            2253,
+            1200,
+            120
+          ],
+          "context_crop": [
+            340,
+            2143,
+            1200,
+            340
+          ],
+          "observed_text": "‘AGagi. Sebe.",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:b98de8a82d70a58634207bd68cde9d29ad85d7e1d2d579540e9d2b32846338a5"
+        },
+        {
+          "id": "c1-l032",
+          "centre_y": 2374,
+          "crop": [
+            340,
+            2314,
+            1200,
+            120
+          ],
+          "context_crop": [
+            340,
+            2204,
+            1200,
+            340
+          ],
+          "observed_text": "Caqi, u,aita. Efcrener.,: « lem, Pine",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:5af206c80299fac41e365dd74946776affee0f0cb5fbaed7d6a1f6cdf512f92a"
+        },
+        {
+          "id": "c1-l033",
+          "centre_y": 2435,
+          "crop": [
+            340,
+            2375,
+            1200,
+            120
+          ],
+          "context_crop": [
+            340,
+            2265,
+            1200,
+            340
+          ],
+          "observed_text": "tar , oudebuxar . @ Teuo caqi aguru. |",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:de9dfc241a1eb9a5a9b42a422af7ff667f21044ff5dc5c35d69213e5512e51a1"
+        },
+        {
+          "id": "c1-l034",
+          "centre_y": 2496,
+          "crop": [
+            340,
+            2436,
+            1200,
+            120
+          ],
+          "context_crop": [
+            340,
+            2326,
+            1200,
+            340
+          ],
+          "observed_text": "Efcreuerja bem,¢> com algita perfeegao mats.",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:594ed45d50b30dd14837a10356a51bfbbcdd360f71a209e483c282044e2c586c"
+        },
+        {
+          "id": "c1-l035",
+          "centre_y": 2560,
+          "crop": [
+            340,
+            2500,
+            1200,
+            120
+          ],
+          "context_crop": [
+            340,
+            2390,
+            1200,
+            340
+          ],
+          "observed_text": "Caqi,u, alta. Arranbar, on cogar. wt,",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:f82917596df89f06a1c7f6228fb5911ad600af6fc656cf00e29863d17696e011"
+        },
+        {
+          "id": "c1-l036",
+          "centre_y": 2621,
+          "crop": [
+            340,
+            2561,
+            1200,
+            120
+          ],
+          "context_crop": [
+            340,
+            2451,
+            1200,
+            340
+          ],
+          "observed_text": "Atamauo caqu . Cogara cabega. @ fbi-",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:8e5d6f91a1490a1b46c47ec6e133f5c03acd13cec7088ea894c59b10c538b29f"
+        },
+        {
+          "id": "c1-l037",
+          "centre_y": 2682,
+          "crop": [
+            340,
+            2622,
+            1200,
+            120
+          ],
+          "context_crop": [
+            340,
+            2512,
+            1200,
+            340
+          ],
+          "observed_text": "quocaqu. Roncar dormindo. @ Fai-",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:7e85e5c2cc059ba86bdf20c65ba36e0a10868d729f1aaba51d1981f83ef2559b"
+        },
+        {
+          "id": "c1-l038",
+          "centre_y": 2747,
+          "crop": [
+            340,
+            2687,
+            1200,
+            120
+          ],
+          "context_crop": [
+            340,
+            2577,
+            1200,
+            340
+          ],
+          "observed_text": "uocaqu. Tirar acinzado lar, on fogio,",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:30046981f68583bb5754222c4ec9ef85a9159632680f44e97232a96f2c5a2e23"
+        },
+        {
+          "id": "c1-l039",
+          "centre_y": 2808,
+          "crop": [
+            340,
+            2748,
+            1200,
+            120
+          ],
+          "context_crop": [
+            340,
+            2638,
+            1200,
+            340
+          ],
+          "observed_text": "ec. @ Fauocaqu. Colber , outomar",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:3242cd319ab21574ad2c3e5b0ca8d8c202f6ea727c33f39be8742f282d185f60"
+        },
+        {
+          "id": "c1-l040",
+          "centre_y": 2870,
+          "crop": [
+            340,
+            2810,
+            1200,
+            120
+          ],
+          "context_crop": [
+            340,
+            2700,
+            1200,
+            340
+          ],
+          "observed_text": "asfolbas, @ Torino fauo caqu. Core",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:04dc92e5145b46d955880a21f52a742c6256642164910d3cbedfb4a196960b63"
+        },
+        {
+          "id": "c1-l041",
+          "centre_y": 2931,
+          "crop": [
+            340,
+            2871,
+            1200,
+            120
+          ],
+          "context_crop": [
+            340,
+            2761,
+            1200,
+            340
+          ],
+          "observed_text": "tar as @Zas a0 pafaro pera que nao fuja .",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:97d79518f9205e628f9ffefb596d5d4e599f1e3fa112adab8a26df37a547a6ff"
+        },
+        {
+          "id": "c1-l042",
+          "centre_y": 2994,
+          "crop": [
+            340,
+            2934,
+            1200,
+            120
+          ],
+          "context_crop": [
+            340,
+            2824,
+            1200,
+            340
+          ],
+          "observed_text": "q Cubiuo caqu , |, caqiuorcfu.  Cortar",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:64cd88279ac94cc83518c66634e4a83d6d91c5b76495433603e3dc6ec039dbf6"
+        },
+        {
+          "id": "c1-l043",
+          "centre_y": 3055,
+          "crop": [
+            340,
+            2995,
+            1200,
+            120
+          ],
+          "context_crop": [
+            340,
+            2885,
+            1200,
+            340
+          ],
+          "observed_text": "4 cab-¢a com 0 corte da catana pera fi afferra",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:3b850d4b6855b184f85aeb02907295483965fd0925b6b4d88aa3bd5dbb73ce3a"
+        },
+        {
+          "id": "c1-l044",
+          "centre_y": 3119,
+          "crop": [
+            340,
+            3059,
+            1200,
+            120
+          ],
+          "context_crop": [
+            340,
+            2949,
+            1200,
+            340
+          ],
+          "observed_text": "doibe dos cabellos. q . Camino faxiuo ca",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:49acf544f289bb292e118b69775ab65826b03753473d464bb278b6db0907a5d3"
+        },
+        {
+          "id": "c1-l045",
+          "centre_y": 3178,
+          "crop": [
+            340,
+            3118,
+            1200,
+            120
+          ],
+          "context_crop": [
+            340,
+            3008,
+            1200,
+            340
+          ],
+          "observed_text": "qu. Cottar as bordas do papel .",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:e3f303422b44c7b165508f269371c7fe0d1cff3c1a499d1b5fef2a3c4780a8d7"
+        },
+        {
+          "id": "c1-l046",
+          "centre_y": 3245,
+          "crop": [
+            340,
+            3185,
+            1200,
+            120
+          ],
+          "context_crop": [
+            340,
+            3075,
+            1200,
+            340
+          ],
+          "observed_text": "[€aqr, u, alta. Vt, cotocagi u, 1, cctouo",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:5f30677041a8395075967856856016e8f9fe35b053d818353df32e783d446d6c"
+        },
+        {
+          "id": "c1-l047",
+          "centre_y": 3308,
+          "crop": [
+            340,
+            3248,
+            1200,
+            120
+          ],
+          "context_crop": [
+            340,
+            3138,
+            1200,
+            340
+          ],
+          "observed_text": "‘caqu. Ter falta de algnacouja. Ordinaria-",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:07355656568617931449175a7626ce274f2a059fae1beff4dbfbabed7e7984f9"
+        }
+      ]
+    },
+    "column-2": {
+      "column_box_xyxy": [
+        1500,
+        300,
+        2590,
+        3410
+      ],
+      "zone_ids": [
+        "column-2"
+      ],
+      "initial_geometry_provenance": "contact_sheet_reviewed",
+      "initial_geometry_reviewed_at": "2026-08-01",
+      "geometry_requires_line_by_line_review": false,
+      "lines": [
+        {
+          "id": "c2-l001",
+          "centre_y": 464,
+          "crop": [
+            1500,
+            404,
+            1160,
+            120
+          ],
+          "context_crop": [
+            1500,
+            294,
+            1160,
+            340
+          ],
+          "observed_text": "“mente fepoé € ablatiuo a coufa.que falta",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:66d4808379347bfcc9ee4adee3fa28341f55bcf0f1b21644e04100769a186e90"
+        },
+        {
+          "id": "c2-l002",
+          "centre_y": 527,
+          "crop": [
+            1500,
+            467,
+            1160,
+            120
+          ],
+          "context_crop": [
+            1500,
+            357,
+            1160,
+            340
+          ],
+          "observed_text": "Camaini cotouc caita... Faltoume pap",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:248b8621d831e588ee3ca1cff0abfe6f17df66f55029971204a9b7e082c129dd"
+        },
+        {
+          "id": "c2-l003",
+          "centre_y": 587,
+          "crop": [
+            1500,
+            527,
+            1160,
+            120
+          ],
+          "context_crop": [
+            1500,
+            417,
+            1160,
+            340
+          ],
+          "observed_text": "Cagi,u. Leuarem duas 5 ou mais pefoasalg",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:80ff538aa52ff642e46115a1c0f12088a4546c9baf0621a7b023b44857f2e024"
+        },
+        {
+          "id": "c2-l004",
+          "centre_y": 648,
+          "crop": [
+            1500,
+            588,
+            1160,
+            120
+          ],
+          "context_crop": [
+            1500,
+            478,
+            1160,
+            340
+          ],
+          "observed_text": "couja aos bombros., ounas maos.",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:59575c1cdb8dbfef26aedffd484f95102c7cca267b0f7d590cdd3bd599be31ad"
+        },
+        {
+          "id": "c2-l005",
+          "centre_y": 711,
+          "crop": [
+            1500,
+            651,
+            1160,
+            120
+          ],
+          "context_crop": [
+            1500,
+            541,
+            1160,
+            340
+          ],
+          "observed_text": "xinadouo cagu. Leuar norimono,",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:5e1b0e45cd0fe86974c6ac82e529f68750a4a045382677939a24bbc63812831d"
+        },
+        {
+          "id": "c2-l006",
+          "centre_y": 772,
+          "crop": [
+            1500,
+            712,
+            1160,
+            120
+          ],
+          "context_crop": [
+            1500,
+            602,
+            1160,
+            340
+          ],
+          "observed_text": "outta coufa.dos bombros .",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:469a22774ded17ed5b4a8c0fea35da938dd26424ddc4aee34465777e4e200b36"
+        },
+        {
+          "id": "c2-l007",
+          "centre_y": 834,
+          "crop": [
+            1500,
+            774,
+            1160,
+            120
+          ],
+          "context_crop": [
+            1500,
+            664,
+            1160,
+            340
+          ],
+          "observed_text": "agi,u.. Comesta palaura fagi., ou chijo :",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:6d44a18051d1ed6ad4dcfa39b16cf70d89894da73ae367f3829118467b537198"
+        },
+        {
+          "id": "c2-l008",
+          "centre_y": 893,
+          "crop": [
+            1500,
+            833,
+            1160,
+            120
+          ],
+          "context_crop": [
+            1500,
+            723,
+            1160,
+            340
+          ],
+          "observed_text": "‘Quer dizer, ficar injuriado , 04 enuergonl",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:ac1769981c717fb177e4f39c4994509d44aa2b843a1e24093016cd6616dce678"
+        },
+        {
+          "id": "c2-l009",
+          "centre_y": 958,
+          "crop": [
+            1500,
+            898,
+            1160,
+            120
+          ],
+          "context_crop": [
+            1500,
+            788,
+            1160,
+            340
+          ],
+          "observed_text": "do. Vt, Fagiuo caita .. Eiquei afro",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:03aec8d6e5336f0e532c2a808ce33dca941febe149bee23599fdb654ec7189da"
+        },
+        {
+          "id": "c2-l010",
+          "centre_y": 1021,
+          "crop": [
+            1500,
+            961,
+            1160,
+            120
+          ],
+          "context_crop": [
+            1500,
+            851,
+            1160,
+            340
+          ],
+          "observed_text": "Cagi, uraita. Vt, Bi, cabe nadono     |",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:c9ed16fdee16ae564e40acae8513ce9ae178927e02db69558eb0784e103ec764"
+        },
+        {
+          "id": "c2-l011",
+          "centre_y": 1082,
+          "crop": [
+            1500,
+            1022,
+            1160,
+            120
+          ],
+          "context_crop": [
+            1500,
+            912,
+            1160,
+            340
+          ],
+          "observed_text": "Tagine caqu .. Fager o fundamento da p",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:4f8b1c9429856cabe9997c087491a9792f0bf5c1033b75515781a9faf3b08cac"
+        },
+        {
+          "id": "c2-l012",
+          "centre_y": 1141,
+          "crop": [
+            1500,
+            1081,
+            1160,
+            120
+          ],
+          "context_crop": [
+            1500,
+            971,
+            1160,
+            340
+          ],
+          "observed_text": "rede de barro com canas atadas , ¢      amai",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:ac9b04d9e6f521b6f4d089847d17df51681bae37e2fac85b558e584cf13cd834"
+        },
+        {
+          "id": "c2-l013",
+          "centre_y": 1205,
+          "crop": [
+            1500,
+            1145,
+            1160,
+            120
+          ],
+          "context_crop": [
+            1500,
+            1035,
+            1160,
+            340
+          ],
+          "observed_text": "«« ¥adas bias. com as outras .",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:4f9a3416033c0d98c965a4ee4788b1efcd648e5da9f20799db76d551c085cd97"
+        },
+        {
+          "id": "c2-l014",
+          "centre_y": 1266,
+          "crop": [
+            1500,
+            1206,
+            1160,
+            120
+          ],
+          "context_crop": [
+            1500,
+            1096,
+            1160,
+            340
+          ],
+          "observed_text": "cigs. faxercanicada por a le. fe anda:",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:107eb5fddad0e772eee0d2239f3dcabf55a7e3694afbc98e5e3a2d9418b3d336"
+        },
+        {
+          "id": "c2-l015",
+          "centre_y": 1329,
+          "crop": [
+            1500,
+            1269,
+            1160,
+            120
+          ],
+          "context_crop": [
+            1500,
+            1159,
+            1160,
+            340
+          ],
+          "observed_text": ". @- Sobre que poem cs taiamis, —__",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:0922183b68e99e72730c32b4464713d923f16a41027fdf7656d87e7ba89f8535"
+        },
+        {
+          "id": "c2-l016",
+          "centre_y": 1391,
+          "crop": [
+            1500,
+            1331,
+            1160,
+            120
+          ],
+          "context_crop": [
+            1500,
+            1221,
+            1160,
+            340
+          ],
+          "observed_text": "Cagi,u. djuntandolbe vray quer dix:",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:e70086c274f6630fd1f0fe1a74d588b3e5cf098da97aff6b5cf37f75e6584fb0"
+        },
+        {
+          "id": "c2-l017",
+          "centre_y": 1452,
+          "crop": [
+            1500,
+            1392,
+            1160,
+            120
+          ],
+          "context_crop": [
+            1500,
+            1282,
+            1160,
+            340
+          ],
+          "observed_text": "| fat , ou-trajpaBar comfeta . Vt, Vra",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:195b5b6ab7e1a6e94fbaa713aaf7b1758b22e15b7e5d319a8919c9ff14dca416"
+        },
+        {
+          "id": "c2-l018",
+          "centre_y": 1515,
+          "crop": [
+            1500,
+            1455,
+            1160,
+            120
+          ],
+          "context_crop": [
+            1500,
+            1345,
+            1160,
+            340
+          ],
+          "observed_text": "caita yameua itgu tocorodeiatta..  yit",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:7b9c5eaf6036800f12e4a8add045460d841c3fa59a43c4c4d9a64bf9e41addc5"
+        },
+        {
+          "id": "c2-l019",
+          "centre_y": 1576,
+          "crop": [
+            1500,
+            1516,
+            1160,
+            120
+          ],
+          "context_crop": [
+            1500,
+            1406,
+            1160,
+            340
+          ],
+          "observed_text": "., Lib.2. Os finais ds. fetas que. pafiaiao",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:a9f92961c943d2eb0b06dc5d432f9291f552eacdea953921720866e2646f5378"
+        },
+        {
+          "id": "c2-l020",
+          "centre_y": 1637,
+          "crop": [
+            1500,
+            1577,
+            1160,
+            120
+          ],
+          "context_crop": [
+            1500,
+            1467,
+            1160,
+            340
+          ],
+          "observed_text": "| parks aparte, erdo cinco lnzarese -      &",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:0a6d89df10d57ed640ab2d4c188d02725513c357ca49f9c770081cb345dea31c"
+        },
+        {
+          "id": "c2-l021",
+          "centre_y": 1699,
+          "crop": [
+            1500,
+            1639,
+            1160,
+            120
+          ],
+          "context_crop": [
+            1500,
+            1529,
+            1160,
+            340
+          ],
+          "observed_text": "Cagiague, uru , eta, Aleuantar . Vt SF",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:112fc41e3511bec92e3054061ec535b3baa94cb1b160dab56bc2c21f3a35cd1f"
+        },
+        {
+          "id": "c2-l022",
+          "centre_y": 1762,
+          "crop": [
+            1500,
+            1702,
+            1160,
+            120
+          ],
+          "context_crop": [
+            1500,
+            1592,
+            1160,
+            340
+          ],
+          "observed_text": "oeG) Kauo Cagtaguru.... Aleuantar     com]",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:943b292c6e32f30c594fad2bb6e4f002de22af30aff3f79119589818f1e52c82"
+        },
+        {
+          "id": "c2-l023",
+          "centre_y": 1823,
+          "crop": [
+            1500,
+            1763,
+            1160,
+            120
+          ],
+          "context_crop": [
+            1500,
+            1653,
+            1160,
+            340
+          ],
+          "observed_text": "..as maor as telbas de taboas ; ou desteib,",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:c862fb828405ae603252201d6e91e62d7710ad4f4381bc4ec93c7f5b51f90734"
+        },
+        {
+          "id": "c2-l024",
+          "centre_y": 1888,
+          "crop": [
+            1500,
+            1828,
+            1160,
+            120
+          ],
+          "context_crop": [
+            1500,
+            1718,
+            1160,
+            340
+          ],
+          "observed_text": "caſa.",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:e6af7ba715ce1c4f282c557de5c54702522fcf73886c69e23e192656c8443cf5"
+        },
+        {
+          "id": "c2-l025",
+          "centre_y": 1946,
+          "crop": [
+            1500,
+            1886,
+            1160,
+            120
+          ],
+          "context_crop": [
+            1500,
+            1776,
+            1160,
+            340
+          ],
+          "observed_text": "Caqi arauaxi, fis, aita, Mauifeflar algiia cou|",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:50799a3fcca2b3ff58c5ab9e3f3301b14769ab46cb551d54c3ac1388dd4bf906"
+        },
+        {
+          "id": "c2-l026",
+          "centre_y": 2011,
+          "crop": [
+            1500,
+            1951,
+            1160,
+            120
+          ],
+          "context_crop": [
+            1500,
+            1841,
+            1160,
+            340
+          ],
+          "observed_text": "| por eferito. a",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:5a83cc699a688fd2cfbd7c9a18c3904c442c6f228ecc6743659e04e50df702b1"
+        },
+        {
+          "id": "c2-l027",
+          "centre_y": 2070,
+          "crop": [
+            1500,
+            2010,
+            1160,
+            120
+          ],
+          "context_crop": [
+            1500,
+            1900,
+            1160,
+            340
+          ],
+          "observed_text": ",Caglatcume   , uru , eta. -Ajuntar efcrenéce",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:7a9dc0ad67d3f2904131a05c93cbae815fd9e3241a2acfe5482212de037efe1c"
+        },
+        {
+          "id": "c2-l028",
+          "centre_y": 2133,
+          "crop": [
+            1500,
+            2073,
+            1160,
+            120
+          ],
+          "context_crop": [
+            1500,
+            1963,
+            1160,
+            340
+          ],
+          "observed_text": "Cagiatgume , uru , eta. Ajuniat algiad",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:a67be01e6743dd1afe7cfce6a03e6b93f70b7dda583723b7a2fe4ad502f7d724"
+        },
+        {
+          "id": "c2-l029",
+          "centre_y": 2192,
+          "crop": [
+            1500,
+            2132,
+            1160,
+            120
+          ],
+          "context_crop": [
+            1500,
+            2022,
+            1160,
+            340
+          ],
+          "observed_text": "{4,com amdo_, 04 algum inftrumento..",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:f70d043ae5a5c62cce68c83217f751e2ec65f86ee9acefe85304962da8142e92"
+        },
+        {
+          "id": "c2-l030",
+          "centre_y": 2256,
+          "crop": [
+            1500,
+            2196,
+            1160,
+            120
+          ],
+          "context_crop": [
+            1500,
+            2086,
+            1160,
+            340
+          ],
+          "observed_text": "Cagiauaxe, turu , eta. Efcrener aloiia coup",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:184bc0c76e25c1fe67692e6f24d53106fd29e5e4f0bc147bbb9e5c91a9053bca"
+        },
+        {
+          "id": "c2-l031",
+          "centre_y": 2315,
+          "crop": [
+            1500,
+            2255,
+            1160,
+            120
+          ],
+          "context_crop": [
+            1500,
+            2145,
+            1160,
+            340
+          ],
+          "observed_text": "demaneira que verba iuSla, & caiba em    al",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:40f0f1b346b8d1892031ed152dd6eda1db6d913ead9d71d44031b7ac44c1b9d9"
+        },
+        {
+          "id": "c2-l032",
+          "centre_y": 2378,
+          "crop": [
+            1500,
+            2318,
+            1160,
+            120
+          ],
+          "context_crop": [
+            1500,
+            2208,
+            1160,
+            340
+          ],
+          "observed_text": "git certa quantidade de papel ,",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:ff1afab9a029f75c6f74d9065881d0e8eb824cb851099c5462b571bc2e563ec1"
+        },
+        {
+          "id": "c2-l033",
+          "centre_y": 2443,
+          "crop": [
+            1500,
+            2383,
+            1160,
+            120
+          ],
+          "context_crop": [
+            1500,
+            2273,
+            1160,
+            340
+          ],
+          "observed_text": "| Caqibai. Cal feita de cafcas de oStras..X.",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:749e2c9a5dabdbbdb445265a7b69256ede3d9db61d3c7e073f98f90bbb604bad"
+        },
+        {
+          "id": "c2-l034",
+          "centre_y": 2503,
+          "crop": [
+            1500,
+            2443,
+            1160,
+            120
+          ],
+          "context_crop": [
+            1500,
+            2333,
+            1160,
+            340
+          ],
+          "observed_text": "Caqibixe . Conchas , ou cafcas deoftras .",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:643761bc1c434a4efa6074d3a34ed11b3e60abcc79d176ba9b75118b467d45e4"
+        },
+        {
+          "id": "c2-l035",
+          "centre_y": 2566,
+          "crop": [
+            1500,
+            2506,
+            1160,
+            120
+          ],
+          "context_crop": [
+            1500,
+            2396,
+            1160,
+            340
+          ],
+          "observed_text": "Czgicauaxi, fu, aita. E/creuerfe entre f",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:91ac51171f8fff8a0b1ab39afd6be33edc3a2c63d544ba9bce05d801c370af6c"
+        },
+        {
+          "id": "c2-l036",
+          "centre_y": 2629,
+          "crop": [
+            1500,
+            2569,
+            1160,
+            120
+          ],
+          "context_crop": [
+            1500,
+            2459,
+            1160,
+            340
+          ],
+          "observed_text": "Vt , Tagaini fumino caqi caualu. Efer",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:0de9224a5d4cc6d5f063ad2bb90ea80352fe71431c4cdb1a7eeac1339ade39d6"
+        },
+        {
+          "id": "c2-l037",
+          "centre_y": 2690,
+          "crop": [
+            1500,
+            2630,
+            1160,
+            120
+          ],
+          "context_crop": [
+            1500,
+            2520,
+            1160,
+            340
+          ],
+          "observed_text": "wer entre fi Cartas.",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:4704317facaf3f12f952f52e2d5f564c8261897d2237803cc9e83dba1236ff5e"
+        },
+        {
+          "id": "c2-l038",
+          "centre_y": 2754,
+          "crop": [
+            1500,
+            2694,
+            1160,
+            120
+          ],
+          "context_crop": [
+            1500,
+            2584,
+            1160,
+            340
+          ],
+          "observed_text": "jCaqicaye, tu , eta. .Mudar doutra mane",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:8ae824da081df9f607f6205834c77e8b24847c5cc4179fbad939e123e90967df"
+        },
+        {
+          "id": "c2-l039",
+          "centre_y": 2813,
+          "crop": [
+            1500,
+            2753,
+            1160,
+            120
+          ],
+          "context_crop": [
+            1500,
+            2643,
+            1160,
+            340
+          ],
+          "observed_text": "rao que eflauaefcrito . na",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:c94bebdee2c16eaf4376d372e648a839b93962f1e45d1816a01a029bf27c6ff6"
+        },
+        {
+          "id": "c2-l040",
+          "centre_y": 2876,
+          "crop": [
+            1500,
+            2816,
+            1160,
+            120
+          ],
+          "context_crop": [
+            1500,
+            2706,
+            1160,
+            340
+          ],
+          "observed_text": "C.gict . Vta mari. Verfos, & pel",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:7f4b92c903bd1edba9df17a9136e9c9d8e670edaf93782283cd20e967e952b80"
+        },
+        {
+          "id": "c2-l041",
+          "centre_y": 2941,
+          "crop": [
+            1500,
+            2881,
+            1160,
+            120
+          ],
+          "context_crop": [
+            1500,
+            2771,
+            1160,
+            340
+          ],
+          "observed_text": "q Cagicuno quai . Ajuntamenio on fo",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:02f218d74754a6ae7c4fb202966e7dd77385f5c440d691b5c4416f3ef3e15809"
+        },
+        {
+          "id": "c2-l042",
+          "centre_y": 3001,
+          "crop": [
+            1500,
+            2941,
+            1160,
+            120
+          ],
+          "context_crop": [
+            1500,
+            2831,
+            1160,
+            340
+          ],
+          "observed_text": "guecode verfos, eo pela... ..",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:e551ecb79347258724d5b7e653dbdf49014f258d5ca1e92f4ee304ef7ffc3e64"
+        },
+        {
+          "id": "c2-l043",
+          "centre_y": 3064,
+          "crop": [
+            1500,
+            3004,
+            1160,
+            120
+          ],
+          "context_crop": [
+            1500,
+            2894,
+            1160,
+            340
+          ],
+          "observed_text": "Cagicube , buru, eta. Mcter.no fogo caua",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:ffb13201ab02bb62284ffce3732fb4a5abf0ac33b1538a3f27c842822914bcf6"
+        },
+        {
+          "id": "c2-l044",
+          "centre_y": 3125,
+          "crop": [
+            1500,
+            3065,
+            1160,
+            120
+          ],
+          "context_crop": [
+            1500,
+            2955,
+            1160,
+            340
+          ],
+          "observed_text": "ou outras coufas mindas como acendadall",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:3529722120559ad43a52add2f5a743e60c7841e7334bad1a5a3f5dc555419334"
+        },
+        {
+          "id": "c2-l045",
+          "centre_y": 3190,
+          "crop": [
+            1500,
+            3130,
+            1160,
+            120
+          ],
+          "context_crop": [
+            1500,
+            3020,
+            1160,
+            340
+          ],
+          "observed_text": "Caqicudoqi, u, oita. Carpirfe , oula",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:3c4af5360db475b8e3ade68ae85e1def213404116706049aa146bf2e7eca5131"
+        },
+        {
+          "id": "c2-l046",
+          "centre_y": 3249,
+          "crop": [
+            1500,
+            3189,
+            1160,
+            120
+          ],
+          "context_crop": [
+            1500,
+            3079,
+            1160,
+            340
+          ],
+          "observed_text": "tar dizendo queixas »¢laftimas,",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:7c8c1946a41d0a1a40a71846f0f0bb7bf77ee54a78e41fbc8e1163064ef6b63b"
+        },
+        {
+          "id": "c2-l047",
+          "centre_y": 3313,
+          "crop": [
+            1500,
+            3253,
+            1160,
+            120
+          ],
+          "context_crop": [
+            1500,
+            3143,
+            1160,
+            340
+          ],
+          "observed_text": "Cagicumort ,u,otta. Toldarfeocco »",
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:d14ed6e91e50ec06f6c887accdbe1ff687a4d9e7828a68bbc9e7651af6d5e919"
+        }
+      ]
+    }
+  }
+}
