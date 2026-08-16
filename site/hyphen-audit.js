@@ -3,7 +3,11 @@ const $ = selector => document.querySelector(selector);
 const escapeHTML = value => String(value).replace(/[&<>"']/g, character => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[character]));
 
 function candidateKey(page, candidate) { return `${page.view}/${candidate.line}`; }
-function storageKey() { return `nippo-hyphen-audit:${state.data.base_commit}:${state.data.scope}`; }
+function storageKey() { return `nippo-hyphen-audit:${state.data.scope}`; }
+
+function candidateVersions() {
+  return new Map(state.data.pages.flatMap(page => page.candidates.map(candidate => [candidateKey(page, candidate), candidate.base_line_version])));
+}
 
 function toast(message) {
   const node = $('#toast');
@@ -31,14 +35,36 @@ function copyText(text) {
 }
 
 function restoreSelection() {
+  const versions = candidateVersions();
   try {
-    const saved = JSON.parse(localStorage.getItem(storageKey()));
-    if (Array.isArray(saved)) state.selected = new Set(saved);
+    const current = localStorage.getItem(storageKey());
+    if (current) {
+      const saved = JSON.parse(current);
+      const selections = saved?.schema === 2 ? saved.selections : {};
+      state.selected = new Set(Object.entries(selections).filter(([key, version]) => versions.get(key) === version).map(([key]) => key));
+      saveSelection();
+      return;
+    }
+
+    // Migrate the original commit-scoped array. Geometry-only deployments must
+    // not erase a reviewer’s in-progress choices when the page is refreshed.
+    const migrated = new Set();
+    const suffix = `:${state.data.scope}`;
+    for (let index = 0; index < localStorage.length; index += 1) {
+      const key = localStorage.key(index);
+      if (!key?.startsWith('nippo-hyphen-audit:') || !key.endsWith(suffix)) continue;
+      const legacy = JSON.parse(localStorage.getItem(key));
+      if (Array.isArray(legacy)) legacy.filter(candidate => versions.has(candidate)).forEach(candidate => migrated.add(candidate));
+    }
+    state.selected = migrated;
+    saveSelection();
   } catch (_) {}
 }
 
 function saveSelection() {
-  localStorage.setItem(storageKey(), JSON.stringify([...state.selected]));
+  const versions = candidateVersions();
+  const selections = Object.fromEntries([...state.selected].filter(key => versions.has(key)).map(key => [key, versions.get(key)]));
+  localStorage.setItem(storageKey(), JSON.stringify({schema: 2, selections}));
 }
 
 function updateCounts() {

@@ -12,6 +12,16 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class PublicReviewRegressionTests(unittest.TestCase):
+    def test_hyphen_audit_selections_survive_geometry_only_deployments(self):
+        script = (ROOT / "site" / "hyphen-audit.js").read_text(encoding="utf-8")
+        self.assertIn(
+            "`nippo-hyphen-audit:${state.data.scope}`",
+            script,
+        )
+        self.assertIn("saved?.schema === 2", script)
+        self.assertIn("versions.get(key) === version", script)
+        self.assertIn("Migrate the original commit-scoped array", script)
+
     def test_hyphen_audit_covers_f44_through_f100(self):
         with tempfile.TemporaryDirectory() as directory:
             subprocess.run(
@@ -234,6 +244,23 @@ class PublicReviewRegressionTests(unittest.TestCase):
         self.assertEqual(column["visual_review"], "text_image_sanity_checked")
         self.assertEqual(column["lines"]["c2-l041"]["crop"], [1540, 2938, 1080, 122])
 
+    def test_f70_and_f72_column_one_reaches_past_the_right_rule(self):
+        record = json.loads(
+            (ROOT / "pilot" / "human-review" / "line-geometry.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        pages = {page["id"]: page for page in record["pages"]}
+        for page_id in ("bnf-f0070", "bnf-f0072"):
+            with self.subTest(page=page_id):
+                column = pages[page_id]["columns"]["column-1"]
+                self.assertEqual(column["box"][2], 1560)
+                for line in column["lines"].values():
+                    self.assertEqual(line["crop"][0] + line["crop"][2], 1560)
+                    self.assertEqual(
+                        line["context_crop"][0] + line["context_crop"][2], 1560
+                    )
+
     def test_f25_through_f30_received_text_image_sanity_check(self):
         record = json.loads(
             (ROOT / "pilot" / "human-review" / "line-geometry.json").read_text(
@@ -265,13 +292,13 @@ class PublicReviewRegressionTests(unittest.TestCase):
         )
         for page in pages:
             for column in page["columns"].values():
-                leaf = int(page["id"].removeprefix("bnf-f"))
-                if leaf <= 71 or leaf >= 86:
+                horizontal_review = column.get("horizontal_completeness_review")
+                if horizontal_review:
                     self.assertEqual(
                         column["visual_review"], "external_ai_width_rechecked"
                     )
                     self.assertEqual(
-                        column["horizontal_completeness_review"]["status"],
+                        horizontal_review["status"],
                         "complete_column_width_checked",
                     )
                 else:
