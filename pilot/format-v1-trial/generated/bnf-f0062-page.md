@@ -16,14 +16,14 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c1-l001` | Botoboto. *Adu. Modo de ſoar do tambor* |  |
 | `c1-l002` | &emsp;*roto, ou velho, ou dos paſſaros quando ſe le-* |  |
-| `c1-l003` | &emsp;*uantão voando. ¶* Botoboto xita na- |  |
+| `c1-l003` | &emsp;*uantão voando. ¶* Botoboto xita na |  |
 | `c1-l004` | &emsp;rigia. *He maneira, ou aparencia de pobre* |  |
 | `c1-l005` | &emsp;*roto, &c.* |  |
 | `c1-l006` | Botomecaxi, ſu, aita. *Fazer ſoar o tambor* |  |
 | `c1-l007` | &emsp;*velho, ou roto, &c.* |  |
 | `c1-l008` | Botomeqi, u, eita. *Soar o tamboril velho,* |  |
 | `c1-l009` | &emsp;*ou roto, &c.* |  |
-| `c1-l010` | Bot racu. Vochi, tçuru. *Queda, ou deſtrui-* |  |
+| `c1-l010` | Bot racu. Vochi, tçuru. *Queda, ou deſtrui* |  |
 | `c1-l011` | &emsp;*ção. ¶* Sacannaru monomo tçumi bot- |  |
 | `c1-l012` | &emsp;racu ſu. *O que eſta em proſperidade por der-* |  |
 | `c1-l013` | &emsp;*radeiro cae, ou ſe deſtrue.* |  |
@@ -34,23 +34,23 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l018` | Bǒuri. *Hũs melões verdes de bom ſabor.* |  |
 | `c1-l019` | Bǒxa. Caya iye. *Caſa de palha, ou colmo.* |  |
 | `c1-l020` | Bǒxa. Yaburetaru curuma. *Carro quebrado.* |  |
-| `c1-l021` | Boxacu. Cureno ſuzume. *Pardais da tar-* |  |
+| `c1-l021` | Boxacu. Cureno ſuzume. *Pardais da tar* |  |
 | `c1-l022` | &emsp;*de. ¶ Vt,* Boxacu taqeni muragaru. |  |
 | `c1-l023` | &emsp;*Os pardais da tarde ſe ajuntão em bandos nos* |  |
 | `c1-l024` | &emsp;*bambus.* |  |
 | `c1-l025` | Bǒxi caya, chigaya. *Colmo, ou palha de co-* |  |
 | `c1-l026` | &emsp;*brir a caſa. Mas não ſe vſa ordinariamente ſe* |  |
 | `c1-l027` | &emsp;*não neſta ſentença. ¶* Bǒxi qirazu, taiteu |  |
-| `c1-l028` | &emsp;qezzurazu. *Não moſtrar aparato nẽ ter faſ-* |  |
+| `c1-l028` | &emsp;qezzurazu. *Não moſtrar aparato nẽ ter faſ* |  |
 | `c1-l029` | &emsp;*to no veſtido comer, &c. à maneira de caſa de* |  |
-| `c1-l030` | &emsp;*palha roſca que não ſe apara ao redor nẽ ama-* |  |
+| `c1-l030` | &emsp;*palha roſca que não ſe apara ao redor nẽ ama* |  |
 | `c1-l031` | &emsp;*deira bem laurada.* |  |
-| `c1-l032` | Bôxi. Cazzugu mono. *Couſa com que ſe co-* |  |
-| `c1-l033` | &emsp;*bre, ou amara a cabeça, como chapeo, carapu-* |  |
+| `c1-l032` | Bôxi. Cazzugu mono. *Couſa com que ſe co* |  |
+| `c1-l033` | &emsp;*bre, ou amara a cabeça, como chapeo, carapu* |  |
 | `c1-l034` | &emsp;*ça, barrete, pano da cabeça. ¶* Vatabô- |  |
 | `c1-l035` | &emsp;xi. *Pano da cabeça feito de borra. ¶* Bi- |  |
-| `c1-l036` | &emsp;nabôxi. *Hũas toalhas com que amarrão a ca-* |  |
-| `c1-l037` | &emsp;*beça os dançantes, ou molheres quando vão ſo-* |  |
+| `c1-l036` | &emsp;nabôxi. *Hũas toalhas com que amarrão a ca* |  |
+| `c1-l037` | &emsp;*beça os dançantes, ou molheres quando vão ſo* |  |
 | `c1-l038` | &emsp;*ra com hũas pontas compridas.* |  |
 | `c1-l039` | Bôxin. *Criação arreiçoado de criado pera* |  |
 | `c1-l040` | &emsp;*com o ſenhor. ¶* Bôxinuo cuua- |  |
@@ -76,7 +76,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2a-l002` | &emsp;*mais não poder. ¶* Bǒxocu ſuru. *Comer dema-* |  |
 | `c2a-l003` | &emsp;*ſiadamente.* |  |
 | `c2a-l004` | Boxǔ. Aqino cure. i. Cuguachi. *Fim do outono.* |  |
-| `c2a-l005` | Boxû. *Animaes que tem a cabeça pera hũa par-* |  |
+| `c2a-l005` | Boxû. *Animaes que tem a cabeça pera hũa par* |  |
 | `c2a-l006` | &emsp;*te, ou para baixo.* |  |
 | `c2a-l007` | Boxun. Cureno faru. i. Sanguatno ſuye. |  |
 | `c2a-l008` | &emsp;*Fim da primavera.* |  |
@@ -86,7 +86,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2a-l012` | Bôyû. Tomo tomo. *Companheiro, ou com-* |  |
 | `c2a-l013` | &emsp;*panhia.* |  |
 | `c2a-l014` | Bǒzu. Bôno nuxi. *Religioſo que tem ſua* |  |
-| `c2a-l015` | &emsp;*propria, ou ermida. Item, Qualquer religio-* |  |
+| `c2a-l015` | &emsp;*propria, ou ermida. Item, Qualquer religio* |  |
 | `c2a-l016` | &emsp;*ſo, ou rapado.* |  |
 
 ## Column 2 internal heading
@@ -107,7 +107,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2b-l006` | &emsp;*ſyllabo. ¶* Buuo aratô. *Contender qual* |  |
 | `c2b-l007` | &emsp;*he milhor ſoldado, ou mais deſtro na milicia.* |  |
 | `c2b-l008` | &emsp;*¶* Buuo taxinamu. *Procurar de ſe eſme-* |  |
-| `c2b-l009` | &emsp;*rar na arte militar, & fazer officio de bõ ſol-* |  |
+| `c2b-l009` | &emsp;*rar na arte militar, & fazer officio de bõ ſol* |  |
 | `c2b-l010` | &emsp;*dado.* |  |
 | `c2b-l011` | Bu. *Homem que carreta, ou leua carga.* |  |
 | `c2b-l012` | Buannai. *Homem nouo em algũa couſa, & q̃* |  |
@@ -125,7 +125,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2b-l024` | Buccô. Fotoqeno cuchi. *Boca do* Fotoqe. |  |
 | `c2b-l025` | Buccot. *Obra marauilhoſa que fez o* Fotoqe. |  |
 | `c2b-l026` | Buccu. Fotoqeno cuimono. *Comer que ſe* |  |
-| `c2b-l027` | &emsp;*poem diante do* Fotoqe, *mas pronunciãſe Buc-* |  |
+| `c2b-l027` | &emsp;*poem diante do* Fotoqe, *mas pronunciãſe Buc* |  |
 | `c2b-l028` | &emsp;*cu com hum ſó C.* |  |
 | `c2b-l029` | Buchi. *Vara, ou bordão. ¶ Item, Cor de* |  |
 | `c2b-l030` | &emsp;*caualo.* |  |

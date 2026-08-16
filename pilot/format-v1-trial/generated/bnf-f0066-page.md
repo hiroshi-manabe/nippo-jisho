@@ -58,7 +58,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l042` | &emsp;*ſentão autos, &c. ¶* Butaiuo ſuru. *Fa-* |  |
 | `c1-l043` | &emsp;*zer eſte theatro.* |  |
 | `c1-l044` | Butai fai, l, Butai faina. *Peſſoa deſmaze-* |  |
-| `c1-l045` | &emsp;*lada, ou deſconcertada na compoſição, ou eſta-* |  |
+| `c1-l045` | &emsp;*lada, ou deſconcertada na compoſição, ou eſta* |  |
 | `c1-l046` | &emsp;*tura do corpo.* |  |
 | `c1-l047` | Butaxinami. *Pouco resguardo, & cautella,* |  |
 | `c1-l048` | &emsp;*ou deſcuido.* |  |
@@ -101,9 +101,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l026` | &emsp;*Olhos do* Fotoqe. |  |
 | `c2-l027` | Butguen. Fotoqeno manaco. *Olhos do Fo-* |  |
 | `c2-l028` | &emsp;*toqe.* |  |
-| `c2-l029` | Butguen, l, butgon. Fotoqeno cotoba. *Pa-* |  |
+| `c2-l029` | Butguen, l, butgon. Fotoqeno cotoba. *Pa* |  |
 | `c2-l030` | &emsp;*lauras do* Fotoqe. |  |
-| `c2-l031` | Butguen. Fotoqe arauaruru. *Manifeſtar-* |  |
+| `c2-l031` | Butguen. Fotoqe arauaruru. *Manifeſtar* |  |
 | `c2-l032` | &emsp;*ſe, ou aparecer o* Fotoqe. |  |
 | `c2-l033` | Butguiǒ. Fotoqeno catachi. *Figura do* |  |
 | `c2-l034` | &emsp;Fotoqe. |  |

@@ -75,7 +75,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2a-l001` | Bitô. *Ponta do nariz.* |  |
 | `c2a-l002` | Bitô. Vo, caxira. *Rabo, & cabeça.* |  |
 | `c2a-l003` | Biua. *Viola. ¶* Biuauo tanzuru, l, fiqu. |  |
-| `c2a-l004` | &emsp;*Tanger a viola. ¶* Biuauo xiraburu. *Es-* |  |
+| `c2a-l004` | &emsp;*Tanger a viola. ¶* Biuauo xiraburu. *Es* |  |
 | `c2a-l005` | &emsp;*perar a viola.* |  |
 | `c2a-l006` | Biua. *Hũa aruore aſſi chamada. ¶ Item,* |  |
 | `c2a-l007` | &emsp;*A fruita deſta aruore.* |  |
@@ -93,18 +93,18 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2a-l019` | &emsp;*chão, &c. ¶* Caqiga bixarito tçuburuſu. |  |
 | `c2a-l020` | &emsp;*Eſborracharemſe os figos deſta maneira.* |  |
 | `c2a-l021` | Bixi. Sucoxino cocorozaxi. *Hũa pequena* |  |
-| `c2a-l022` | &emsp;*moſtra de amor. ¶ Vt,* Bixiuo araua- |  |
+| `c2a-l022` | &emsp;*moſtra de amor. ¶ Vt,* Bixiuo araua |  |
 | `c2a-l023` | &emsp;ſu. *Moſtrar algum pequeno amor, ou boa* |  |
 | `c2a-l024` | &emsp;*vontade.* |  |
 | `c2a-l025` | Bixô. Sucoxi, jǒ. *Couſa pouca, ou pouquidade.* |  |
 | `c2a-l026` | Bixôna. *Couſa pouca.* |  |
 | `c2a-l027` | Bixôni. *Adu.* |  |
-| `c2a-l028` | Bixocui. Vmai ccu. *Iguarias, ou comer ſa-* |  |
+| `c2a-l028` | Bixocui. Vmai ccu. *Iguarias, ou comer ſa* |  |
 | `c2a-l029` | &emsp;*boroſo, & excellente.* |  |
 | `c2a-l030` | Bixu. i. Yoi ſaqe. *Exelente vinho. ¶ Vt,* |  |
 | `c2a-l031` | &emsp;Bixu chinicô. *Excellente vinho, & comer* |  |
 | `c2a-l032` | &emsp;*de carne, & peixe.* |  |
-| `c2a-l033` | Bixe. Itçucuxij tama. *Fermoſa pedra pre-* |  |
+| `c2a-l033` | Bixe. Itçucuxij tama. *Fermoſa pedra pre* |  |
 | `c2a-l034` | &emsp;*cioſa.* |  |
 | `c2a-l035` | Biyofôxei. *Boa fama, & nome celebre.* |  |
 
@@ -127,7 +127,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2b-l007` | Bǒ. Tçauo. *Moço pequeno recado que ſerue.* |  |
 | `c2b-l008` | Bôacu. Arai acu. i. Vôgina toga. *Gẽo* |  |
 | `c2b-l009` | &emsp;*de peccado, ou enorme maldade.* |  |
-| `c2b-l010` | Bôcho. *Indecèta mulieris. Toldeiras que as mo-* |  |
+| `c2b-l010` | Bôcho. *Indecèta mulieris. Toldeiras que as mo* |  |
 
 ## Catchword
 

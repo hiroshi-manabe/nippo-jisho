@@ -19,7 +19,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l003` | Buchin. *Aluguel de homẽs de carga.* |  |
 | `c1-l004` | Buchôfǒ. *Deſemparelhamento, mao concerto,* |  |
 | `c1-l005` | &emsp;*& aparelho.* |  |
-| `c1-l006` | Buchôfǒna. *Couſa deſemparelhada, deſconcer-* |  |
+| `c1-l006` | Buchôfǒna. *Couſa deſemparelhada, deſconcer* |  |
 | `c1-l007` | &emsp;*tada, ou que não ſe pode concertar bem, mal* |  |
 | `c1-l008` | &emsp;*aparelhada.* |  |
 | `c1-l009` | &emsp;Buchôfǒni. |  |
@@ -37,7 +37,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l021` | &emsp;*ruſtica, & que não ſabe as leis da policia.* |  |
 | `c1-l022` | Bucqe. *Couſas pertencentes a* Fotoqe. |  |
 | `c1-l023` | Bucqei. Fotoqeni môzzuru, l, mairu. *Ir* |  |
-| `c1-l024` | &emsp;*em romaria à Varela, ou templo do* Foto- |  |
+| `c1-l024` | &emsp;*em romaria à Varela, ou templo do* Foto |  |
 | `c1-l025` | &emsp;qe. *¶* Bucqei ſuru. *Idem.* |  |
 | `c1-l026` | Bucqen. *O ver conſiderando, & penetrando* |  |
 | `c1-l027` | &emsp;*as couſas. ¶ O contrario he* Bonqen. *i.* Bô- |  |
@@ -95,7 +95,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l014` | &emsp;*¶* Bugacuuo ſôſuru, l, naſu. *Cantar,* |  |
 | `c2-l015` | &emsp;*& bailar.* |  |
 | `c2-l016` | Bugiacu. Ay tçugu. *Affeição que hum toma a* |  |
-| `c2-l017` | &emsp;*outro, ou a algũa couſa. ¶* Mononi bugia- |  |
+| `c2-l017` | &emsp;*outro, ou a algũa couſa. ¶* Mononi bugia |  |
 | `c2-l018` | &emsp;cu ſuru. *Affeiçoarſe a algũa couſa.* |  |
 | `c2-l019` | Buguey. Taqeqi xuuaza. *Arte militar, ou* |  |
 | `c2-l020` | &emsp;*milicia.* |  |

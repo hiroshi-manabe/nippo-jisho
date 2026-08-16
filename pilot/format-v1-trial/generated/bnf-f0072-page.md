@@ -32,7 +32,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l016` | Cacomi. *O cercar com gente.* |  |
 | `c1-l017` | Cacon. Totçugui, u. *Ajuntamento de femea,* |  |
 | `c1-l018` | &emsp;*& macho.* |  |
-| `c1-l019` | Cacotçuqe. *Eſcuſa, ou achaque. ¶* Caco- |  |
+| `c1-l019` | Cacotçuqe. *Eſcuſa, ou achaque. ¶* Caco |  |
 | `c1-l020` | &emsp;tçuqe, l, Cacotçuqegotouo yu. *Dar eſ-* |  |
 | `c1-l021` | &emsp;*cuſas, & achaques.* |  |
 | `c1-l022` | Cacotçuqe, uru, eta. *Eſcuſarſe, ou tomar* |  |
@@ -46,7 +46,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l030` | &emsp;*a parte de çima nas pernas.* |  |
 | `c1-l031` | Cacqe. *Dor dos pees, ou pernas, ou de outros* |  |
 | `c1-l032` | &emsp;*membros como corrimentos.* |  |
-| `c1-l033` | Cacqito. *Adu. Clara, diſtinta, ou re-* |  |
+| `c1-l033` | Cacqito. *Adu. Clara, diſtinta, ou re* |  |
 | `c1-l034` | &emsp;*ſolutamente.* |  |
 | `c1-l035` | Cacqirito. *Idem.* |  |
 | `c1-l036` | Cacqua. Cuzzuno fana. *Flor de hũa certa* |  |

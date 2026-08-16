@@ -47,7 +47,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l031` | &emsp;*do que lhe não dà de ninguem.* |  |
 | `c1-l032` | Bǒjen. *Eſtar arrebatado, ou paſmado fora de* |  |
 | `c1-l033` | &emsp;*ſi. ¶* Bǒjento aqire fatete iru. *Idẽ.* |  |
-| `c1-l034` | Bǒji, zuru, ita. *Eſtar alienado, & como fo-* |  |
+| `c1-l034` | Bǒji, zuru, ita. *Eſtar alienado, & como fo* |  |
 | `c1-l035` | &emsp;*ra de ſi.* |  |
 | `c1-l036` | Bǒji. i. Bôxu. *Homem que vſa de enganos,* |  |
 | `c1-l037` | &emsp;*& ardis.* |  |
@@ -80,7 +80,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l006` | Bon. *Feſta dos finados dos gentios que fazem* |  |
 | `c2-l007` | &emsp;*aos 14. ou 15. da ſetima lũa na qual acẽ-* |  |
 | `c2-l008` | &emsp;*dem candeas tres dias à boca da noite.* |  |
-| `c2-l009` | Bǒnai. Tçubonenouchi. *Dentro da caſa ou ca-* |  |
+| `c2-l009` | Bǒnai. Tçubonenouchi. *Dentro da caſa ou ca* |  |
 | `c2-l010` | &emsp;*mara particular de alguem.* |  |
 | `c2-l011` | Bonborito. *Adu. Modo de eſtar a* Vata, |  |
 | `c2-l012` | &emsp;*ou algodão creſpo, & aleuantado, os cabellos* |  |
@@ -114,7 +114,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l040` | &emsp;*¶* Bonnǒno coigi. *Afflição interior q̃* |  |
 | `c2-l041` | &emsp;*ſe ſente com deſejos ſenſuaes. ¶* Bonnǒ |  |
 | `c2-l042` | &emsp;cubi. *Vt,* Bonnǒ cubiuo ſuru. *Eſtar* |  |
-| `c2-l043` | &emsp;*deleixado, ou deſmayado com alguã afflição co-* |  |
+| `c2-l043` | &emsp;*deleixado, ou deſmayado com alguã afflição co* |  |
 | `c2-l044` | &emsp;*mo fome, cuidado, &c.* |  |
 | `c2-l045` | Bonnocubo. *Touriço, ou coua do touriço.* |  |
 | `c2-l046` | Bonpi. Bonbuno iyaxij mono. *Homẽ ig-* |  |

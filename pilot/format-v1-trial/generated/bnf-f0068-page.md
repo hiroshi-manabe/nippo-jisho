@@ -30,7 +30,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l014` | &emsp;*¶* Buxǒna qi, tage. *Pao, ou bãbu fraco.* |  |
 | `c1-l015` | &emsp;Buxǒni. |  |
 | `c1-l016` | &emsp;Buxǒſa. |  |
-| `c1-l017` | Buxotai. i. Xotai xirazu. *Inhabil, & desma-* |  |
+| `c1-l017` | Buxotai. i. Xotai xirazu. *Inhabil, & desma* |  |
 | `c1-l018` | &emsp;*zelado na adminiſtração do temporal da caſa,* |  |
 | `c1-l019` | &emsp;*gaſtãdo demazalada mente.* |  |
 | `c1-l020` | Buxotaina. *Idem.* |  |
@@ -44,11 +44,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l028` | Buxucanno qi. *Cidreira.* |  |
 | `c1-l029` | Buxǔxin. Xǔxin narazu. *Pouca inclinação,* |  |
 | `c1-l030` | &emsp;*ou affeição a alguã couſa.* |  |
-| `c1-l031` | Buxǔxinna. *Pouco inclinado, ou pouco affei-* |  |
+| `c1-l031` | Buxǔxinna. *Pouco inclinado, ou pouco affei* |  |
 | `c1-l032` | &emsp;*çoado a algũa couſa.* |  |
 | `c1-l033` | Buxxari. Fotoqeno xari. *Caueira, ou oſſo* |  |
 | `c1-l034` | &emsp;*q̃ fica como reliquia do* Fotoqe. |  |
-| `c1-l035` | Buxxecai. Fotoqeno xecai. *Lugar onde es-* |  |
+| `c1-l035` | Buxxecai. Fotoqeno xecai. *Lugar onde es* |  |
 | `c1-l036` | &emsp;*tão os* Fotoqes. *i. Paraiſo.* |  |
 | `c1-l037` | Buxxet. Fotoqe xet. i. Fotoqeno voxiy e. |  |
 | `c1-l038` | &emsp;*Doutrina, ou preegação immediata do* Fotoqe. |  |
@@ -86,7 +86,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2a-l011` | &emsp;*por peixe freſco.* |  |
 | `c2a-l012` | Buyenrio. *Pouca prouidencia do futuro, ou* |  |
 | `c2a-l013` | &emsp;*não cuidar, nem prouer pera o futuro.* |  |
-| `c2a-l014` | Buyocu. i. Buxino ſomareno qicoyuru co- |  |
+| `c2a-l014` | Buyocu. i. Buxino ſomareno qicoyuru co |  |
 | `c2a-l015` | &emsp;to. *O ſer o ſoldado nomeado, & af-* |  |
 | `c2a-l016` | &emsp;*famado. S.* |  |
 | `c2a-l017` | Buyǒjin. Yǒjinnaxi. *O não auer vigia, &* |  |

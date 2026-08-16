@@ -18,7 +18,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l002` | &emsp;*Ou. Vt,* Pedro ca Ioão ca mairetomǒxe. |  |
 | `c1-l003` | &emsp;*Dize que venha ca Pedro, ou Ioão.* |  |
 | `c1-l004` | Caba. *Caſca de çereijeira.* |  |
-| `c1-l005` | Cabacaxi, ſu, aita. *Fazer a boloreçer, ou dei-* |  |
+| `c1-l005` | Cabacaxi, ſu, aita. *Fazer a boloreçer, ou dei* |  |
 | `c1-l006` | &emsp;*xar tomar bolor, & mofo a couſa.* |  |
 | `c1-l007` | Cabai. Vtai, ǒ. *Cantar à maneira de quem* |  |
 | `c1-l008` | &emsp;*gargantea, ou varia a voz como gemendo.* |  |
@@ -31,7 +31,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l015` | &emsp;*po ſem o enterrar, como morrendo na guerra,* |  |
 | `c1-l016` | &emsp;*ou iuſtiçando alguẽ deixar lhe o corpo no ſa-* |  |
 | `c1-l017` | &emsp;*tçuqe, ou a cabeça em hum pao em publico.* |  |
-| `c1-l018` | Cabazzuca. *Punho da* catana, *ou adaga em-* |  |
+| `c1-l018` | Cabazzuca. *Punho da* catana, *ou adaga em* |  |
 | `c1-l019` | &emsp;*volto, & amarrado com rota, ou caſca de* |  |
 | `c1-l020` | &emsp;*cereijeira pera não eſcorregar.* |  |
 | `c1-l021` | Cabe. *Parede de barro.* |  |
@@ -42,7 +42,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l026` | &emsp;*bolorenta, ou com mofo. ¶* Cabiuo ne- |  |
 | `c1-l027` | &emsp;ſaſuru, l, ſaſuru. *Fazer tomar bolor.* |  |
 | `c1-l028` | Cabiǒ. *Curar o enfermo, & ter conta com elle,* |  |
-| `c1-l029` | &emsp;*ainda que a propria palaura he canbiǒ, toda-* |  |
+| `c1-l029` | &emsp;*ainda que a propria palaura he canbiǒ, toda* |  |
 | `c1-l030` | &emsp;*uia na pratica corre tambem* Cabiǒ. *¶* Te- |  |
 | `c1-l031` | &emsp;uoiuo cabiǒ ſuru. *Curar o ferido.* |  |
 | `c1-l032` | Cabocu. Yoi qi. *Boa aruore.* |  |
@@ -106,8 +106,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l026` | &emsp;*dos à roda hum pouco compridos. ¶ Item,* |  |
 | `c2-l027` | &emsp;*Modo de deſbaſtar, & de cortar ramos de ar-* |  |
 | `c2-l028` | &emsp;*uores, mato, &c. ¶* Camiuo caburoni |  |
-| `c2-l029` | &emsp;qirimaſu. *Cortar os cabellos da cabeça da-* |  |
-| `c2-l030` | &emsp;*quella maneira. ¶* Yamauo caburoni qi- |  |
+| `c2-l029` | &emsp;qirimaſu. *Cortar os cabellos da cabeça da* |  |
+| `c2-l030` | &emsp;*quella maneira. ¶* Yamauo caburoni qi |  |
 | `c2-l031` | &emsp;rinaſu. *Deſbaſtar, ou decotar o mato, ou* |  |
 | `c2-l032` | &emsp;*ramos, &c.* |  |
 | `c2-l033` | Cabuſu. *Hum genero de laranjas, ou limas.* |  |
@@ -117,7 +117,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l037` | Cabutogai. *Hum genero de mariſco chama-* |  |
 | `c2-l038` | &emsp;*do* Vni. |  |
 | `c2-l039` | Cabutono fachi. *Caſco do capacete.* |  |
-| `c2-l040` | Cabutono foxi. *Ornato do capacete com eſtre-* |  |
+| `c2-l040` | Cabutono foxi. *Ornato do capacete com eſtre* |  |
 | `c2-l041` | &emsp;*linhas ſemeadas.* |  |
 | `c2-l042` | Cabutono maccǒ. *Dianteira do capacete.* |  |
 | `c2-l043` | Cabutono teſaqi. *As duas pontas, ou azas* |  |

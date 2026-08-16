@@ -20,7 +20,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l004` | &emsp;*que ſão os deozes familiares dos Iapões gen-* |  |
 | `c1-l005` | &emsp;*tios.* |  |
 | `c1-l006` | Butma. Fotoqe, *& demonios.* |  |
-| `c1-l007` | Butmen. Fotoqeno vomote. *Roſto do* Fo- |  |
+| `c1-l007` | Butmen. Fotoqeno vomote. *Roſto do* Fo |  |
 | `c1-l008` | &emsp;toqe. |  |
 | `c1-l009` | Butmiǒ. Fotoqeno na. *Nome do* Fotoqe. |  |
 | `c1-l010` | &emsp;*¶ Item, Certas ceremonias que faz o* Dairi *no* |  |
@@ -59,8 +59,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l043` | &emsp;*& eſſes idolos, ou moradores do ceo.* |  |
 | `c1-l044` | Butteqi. Fotoqeno teqi. *Inimigo do* fotoqe. |  |
 | `c1-l045` | Buto. *Certos bolinhos de arroz.* |  |
-| `c1-l046` | Buttô. Fotoqeno tomoxibi. i. Butſenno tô- |  |
-| `c1-l047` | &emsp;miǒ. *A lampada, ou alenterna que ſe ac-* |  |
+| `c1-l046` | Buttô. Fotoqeno tomoxibi. i. Butſenno tô |  |
+| `c1-l047` | &emsp;miǒ. *A lampada, ou alenterna que ſe ac* |  |
 
 ## Column 2 running header
 
@@ -79,7 +79,7 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c2-l001` | &emsp;*cende diante do* Fotoqe. |  |
-| `c2-l002` | Buttocu. Fotoqenotocu. *Beneficios, & a-* |  |
+| `c2-l002` | Buttocu. Fotoqenotocu. *Beneficios, & a* |  |
 | `c2-l003` | &emsp;*judas, ou virtude, & efficacia do* fotoqe. |  |
 | `c2-l004` | Butuon. Fotoqeno megumi. *Beneficios, ou* |  |
 | `c2-l005` | &emsp;*prouidencia do* fotoqe. |  |
@@ -92,14 +92,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l012` | Butzaixe. *Tempo que o* Fotoqe *eſteue no* |  |
 | `c2-l013` | &emsp;*mundo.* |  |
 | `c2-l014` | Butzaixo. *Lugar onde eſtão* Fotoqes. |  |
-| `c2-l015` | Butzǒ. Fotoqeno catachi. *Figura, ou ima-* |  |
+| `c2-l015` | Butzǒ. Fotoqeno catachi. *Figura, ou ima* |  |
 | `c2-l016` | &emsp;*gem de vulto do* Fotoqe. |  |
 | `c2-l017` | Bu-u. Qiri, ame. *Neuoa, & chuva.* |  |
 | `c2-l018` | Buun. Buxino vnmei. *Fortuna, ou ventu-* |  |
 | `c2-l019` | &emsp;*ra do ſoldado, ou capitão, &c.* |  |
 | `c2-l020` | Buuǒ. Chichiuǒ. *El Rei velho, ou o Rei pay.* |  |
 | `c2-l021` | Buxa. i. Cuguachi. *Nona lũa de Iapão.* |  |
-| `c2-l022` | Buxei. i. Buninju, ſucunai xei. *Pouca gẽ-* |  |
+| `c2-l022` | Buxei. i. Buninju, ſucunai xei. *Pouca gẽ* |  |
 | `c2-l023` | &emsp;*te de guerra.* |  |
 | `c2-l024` | Buxi. *Raiz de hũa erua medicinal.* |  |
 | `c2-l025` | Buxi. *Soldado.* |  |
@@ -109,7 +109,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l029` | Buxian. Cangayuru coto naxi. *Inconſide-* |  |
 | `c2-l030` | &emsp;*ração, ou couſa mal conſiderada. ¶* Bu- |  |
 | `c2-l031` | &emsp;xian, l, buxianna cotouo itaſu. *Fazer* |  |
-| `c2-l032` | &emsp;*algũa couſa mal feita, & que não deuia de fa-* |  |
+| `c2-l032` | &emsp;*algũa couſa mal feita, & que não deuia de fa* |  |
 | `c2-l033` | &emsp;*zer. ¶* Buxianna fito. *Homẽ q̃ conſi-* |  |
 | `c2-l034` | &emsp;*dera mal as couſas.* |  |
 | `c2-l035` | Buxianni. *Adu. Inconſiderada, & impru-* |  |

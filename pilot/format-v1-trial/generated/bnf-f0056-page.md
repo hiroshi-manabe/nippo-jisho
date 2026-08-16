@@ -22,7 +22,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l006` | Biccurito. *Adu. Modo de eſtremecer, como* |  |
 | `c1-l007` | &emsp;*quando derrepente ouuimos deſparar artelharia,* |  |
 | `c1-l008` | &emsp;*&c.* |  |
-| `c1-l009` | Bichimeqi, u, eita. *Bulir o peixe com as bar-* |  |
+| `c1-l009` | Bichimeqi, u, eita. *Bulir o peixe com as bar* |  |
 | `c1-l010` | &emsp;*batanas, ou borboleta que cae na agoa eſtar ba-* |  |
 | `c1-l011` | &emsp;*tendo com as azas, &c. ¶* Bichitagi, |  |
 | `c1-l012` | &emsp;qu. *Idem. B.* |  |
@@ -30,7 +30,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l014` | &emsp;*olhos, & nariz em ſeu lugar, & em ſua for-* |  |
 | `c1-l015` | &emsp;*ma.* |  |
 | `c1-l016` | Bicǒ. *Çapatos da China de bico reuolto de que* |  |
-| `c1-l017` | &emsp;*vſão os* Bôzos. *¶ Item,* Alicubi, *alpar-* |  |
+| `c1-l017` | &emsp;*vſão os* Bôzos. *¶ Item,* Alicubi, *alpar* |  |
 | `c1-l018` | &emsp;*cas de ſolas de couro.* |  |
 | `c1-l019` | Bicquai. *Adulterio, ou andar com molher* |  |
 | `c1-l020` | &emsp;*alhea. ¶* Tano tçumauo bicquai ſuru. |  |

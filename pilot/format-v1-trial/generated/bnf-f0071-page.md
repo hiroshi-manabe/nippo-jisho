@@ -18,7 +18,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l002` | &emsp;chiua. *Depois diſto, & ſendo aſſi, &c. S.* |  |
 | `c1-l003` | Cacariyǒ. *Pezar alguã couſa igualmente cõ* |  |
 | `c1-l004` | &emsp;*outra, ou eſtar o pezo juſto.* |  |
-| `c1-l005` | Cacaru. *Adiect. i.* Cayǒnaru, *l,* cacuno- |  |
+| `c1-l005` | Cacaru. *Adiect. i.* Cayǒnaru, *l,* cacuno |  |
 | `c1-l006` | &emsp;gotocu naru. *Deſta laya, ou deſta maneira.* |  |
 | `c1-l007` | &emsp;*¶* Cacaru tocoroni. i. Cacunogotoqu |  |
 | `c1-l008` | &emsp;aru tocoroni. *Adu. ſendo aſſi.* |  |
@@ -33,7 +33,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l017` | &emsp;*em alguã couſa. Vt,* Oraciono cacaſuna. |  |
 | `c1-l018` | &emsp;*Fazei que não aja falta na oração.* |  |
 | `c1-l019` | Cacayacaxi, ſu, aita. *Fazer reſplandeçer,* |  |
-| `c1-l020` | &emsp;*ou luzir. Vt,* Ficariuo cacayacaſu. *Fa-* |  |
+| `c1-l020` | &emsp;*ou luzir. Vt,* Ficariuo cacayacaſu. *Fa* |  |
 | `c1-l021` | &emsp;*zer reſplandeçer.* |  |
 | `c1-l022` | Cacayaqi, u, aita. *Reſplandeçer, ou luzir.* |  |
 | `c1-l023` | Cacayaqi vatari, ru, atta. *Reſplandeçer* |  |
@@ -42,14 +42,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l026` | &emsp;*ou ſoſtentar a couſa que quer cair. ¶ Item,* |  |
 | `c1-l027` | &emsp;*Defender a alguem recolhendoo. ¶* Xirouo |  |
 | `c1-l028` | &emsp;cacayuru. *Soſtentar, & defender a forta-* |  |
-| `c1-l029` | &emsp;*leza. ¶* Fitouo cacayuru. *Tomar a al-* |  |
+| `c1-l029` | &emsp;*leza. ¶* Fitouo cacayuru. *Tomar a al* |  |
 | `c1-l030` | &emsp;*guem em ſeu ſeruiço, & ſoſtentalo.* |  |
 | `c1-l031` | Cacaye voqi, u, oita. *Soſtentar a alguem* |  |
 | `c1-l032` | &emsp;*& tomalo em ſeu ſeruiço.* |  |
-| `c1-l033` | Caccacu. *Cada hum por ſi, ou couſa differen-* |  |
+| `c1-l033` | Caccacu. *Cada hum por ſi, ou couſa differen* |  |
 | `c1-l034` | &emsp;*te, ou diſtinta. Vt,* Caccacude gozaru. |  |
 | `c1-l035` | &emsp;*São differentes, ou diſtintos.* |  |
-| `c1-l036` | Caccacuni. *Adu. Diſtinta, ou differentemẽ-* |  |
+| `c1-l036` | Caccacuni. *Adu. Diſtinta, ou differentemẽ* |  |
 | `c1-l037` | &emsp;*te, cada hum por ſi.* |  |
 | `c1-l038` | Caccan. i. Mecura. *Cego.* |  |
 | `c1-l039` | Cacchǔ. Yoroi, cabuto. *Armas, & ca-* |  |
@@ -87,12 +87,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l006` | &emsp;*ta, &c. ¶* Catçuni noru. *Emſoberueçer* |  |
 | `c2-l007` | &emsp;*ſe cõ a vitoria, ou bom ſucceſſo, &c.* |  |
 | `c2-l008` | Cachi, tçu, atta. *Varejar, ou dar com vara,* |  |
-| `c2-l009` | &emsp;*ou pao, lança, &c. ¶* Conomiuo cachi- |  |
+| `c2-l009` | &emsp;*ou pao, lança, &c. ¶* Conomiuo cachi |  |
 | `c2-l010` | &emsp;votoſu. *Varejar, ou derrubar com vara a* |  |
 | `c2-l011` | &emsp;*fruita.* |  |
 | `c2-l012` | Cachi, ita. *Secarſe. verbo defuſit.* |  |
 | `c2-l013` | Cachiay. *Darſe hũ a outro com pao, lança,* |  |
-| `c2-l014` | &emsp;*&c. ¶* Varide cachiuǒ. *Darſe, ou fe-* |  |
+| `c2-l014` | &emsp;*&c. ¶* Varide cachiuǒ. *Darſe, ou fe* |  |
 | `c2-l015` | &emsp;*rirſe com as pontas das lanças ſem dar pancadas* |  |
 | `c2-l016` | &emsp;*à mão tente.* |  |
 | `c2-l017` | Cachicu. Natçuno tage. *Bambu, ou canas* |  |
@@ -101,14 +101,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l020` | Cachidoqi. *Grita em ſinal da victoria. ¶* Ca- |  |
 | `c2-l021` | &emsp;chidoqiuo aguru, l, tçucuru. *Aleuãtar* |  |
 | `c2-l022` | &emsp;*eſta grita com a vitoria.* |  |
-| `c2-l023` | Cachifadaxi. *O andar deſcalço. ¶* Cachi- |  |
+| `c2-l023` | Cachifadaxi. *O andar deſcalço. ¶* Cachi |  |
 | `c2-l024` | &emsp;fadaxini ayumu. *Andar a pee deſcalço.* |  |
-| `c2-l025` | Cachigi. *Caminho que ſe anda a pè. ¶* Ca- |  |
+| `c2-l025` | Cachigi. *Caminho que ſe anda a pè. ¶* Ca |  |
 | `c2-l026` | &emsp;chigiuo iqu. *Ir por terra a pè.* |  |
 | `c2-l027` | Cachigoxǒ. *Pagem que vai a pè.* |  |
 | `c2-l028` | Cachiguri. *Caſtanhas piladas, ou ſecas ao ſol.* |  |
 | `c2-l029` | Cachi iro. *O pareçer que vençe, ou moſtras* |  |
-| `c2-l030` | &emsp;*de vençer. ¶* Cachi irona. *Idem. Vt,* Mi- |  |
+| `c2-l030` | &emsp;*de vençer. ¶* Cachi irona. *Idem. Vt,* Mi |  |
 | `c2-l031` | &emsp;cata cachi ironi gozaru. *Os da noſſa parte* |  |
 | `c2-l032` | &emsp;*pareçe, ou tem geito de vençer.* |  |
 | `c2-l033` | Cachimaqe. *Ganho, & perda, vençer, &* |  |

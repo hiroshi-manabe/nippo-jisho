@@ -16,7 +16,7 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c1a-l001` | Bet ri. Vacare, fanaruru. *Apartamento.* |  |
 | `c1a-l002` | Betriũ. Bechino nagare. *Outra arte, ou* |  |
-| `c1a-l003` | &emsp;*doutrina. ¶ Item, Outra maneira, ou mo-* |  |
+| `c1a-l003` | &emsp;*doutrina. ¶ Item, Outra maneira, ou mo* |  |
 | `c1a-l004` | &emsp;*do de fazer alguã couſa.* |  |
 | `c1a-l005` | Betrui. Vacareno namida. *Lagrimas que ſe* |  |
 | `c1a-l006` | &emsp;*derramão no apartamento, ou deſpedida.* |  |
@@ -33,7 +33,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1a-l017` | &emsp;*cipal nalguã pouoação.* |  |
 | `c1a-l018` | Betyô. Bechino yô. *Outra neceſſidade.* |  |
 | `c1a-l019` | Beryũ. Bechino tomo. *Outra companhia.* |  |
-| `c1a-l020` | Bexxi. Bechino cami. i. Bexxo, l, bechi- |  |
+| `c1a-l020` | Bexxi. Bechino cami. i. Bexxo, l, bechi |  |
 | `c1a-l021` | &emsp;no fumi. *Outra carta. ¶ Item, Outro* |  |
 | `c1a-l022` | &emsp;*papel eſcrito, ou tratado.* |  |
 | `c1a-l023` | Bexxi. Bechino co. *Outro filho. i. Filho* |  |
@@ -88,7 +88,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | &emsp;*Cair em terra de pura triſteza & afflição, ou es-* |  |
+| `c2-l001` | &emsp;*Cair em terra de pura triſteza & afflição, ou es* |  |
 | `c2-l002` | &emsp;*morecer.* |  |
 | `c2-l003` | Biacuguiũ. Xiroi vxi. *Vaca, ou boi brãco.* |  |
 | `c2-l004` | Biacujut. *Mezinha de certas raizes de hũa er-* |  |
@@ -119,7 +119,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l029` | Biacuxiqi. Xiroi iro. *Cor branca.* |  |
 | `c2-l030` | Biacuye. *O eſtar em corpo ſem calções os* |  |
 | `c2-l031` | &emsp;*ſeculares, & ſem* Coromo *os* Bôzos *como* |  |
-| `c2-l032` | &emsp;*quem eſta mal deſpoſto, deſconcertado no ves-* |  |
+| `c2-l032` | &emsp;*quem eſta mal deſpoſto, deſconcertado no ves* |  |
 | `c2-l033` | &emsp;*tido. ¶* Biacuyede iru. *Eſtar aſſi* |  |
 | `c2-l034` | &emsp;*mal compoſto, & atauiado.* |  |
 | `c2-l035` | Biacuzô. Xiroizô. *Elefante branco.* |  |

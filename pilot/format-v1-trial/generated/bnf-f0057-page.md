@@ -14,16 +14,16 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | Bin mizzu. *Agoa pera concertarem o cabe-* |  |
+| `c1-l001` | Bin mizzu. *Agoa pera concertarem o cabe* |  |
 | `c1-l002` | &emsp;*da cabeça dos homẽs.* |  |
 | `c1-l003` | Binpat. Binno cami. *Cabellos das fontes da* |  |
 | `c1-l004` | &emsp;*cabeça. ¶* Binpatuo qezzuru. *Pentear* |  |
 | `c1-l005` | &emsp;*os cabellos das fontes.* |  |
-| `c1-l006` | Binpǔ, l, fǔbin. Tayori tayori. *Oppor-* |  |
+| `c1-l006` | Binpǔ, l, fǔbin. Tayori tayori. *Oppor* |  |
 | `c1-l007` | &emsp;*tunidade, ocasião.* |  |
-| `c1-l008` | Binro. Tayorino michi. *Comercio, ou cõ-* |  |
+| `c1-l008` | Binro. Tayorino michi. *Comercio, ou cõ* |  |
 | `c1-l009` | &emsp;*municação de recados, ou portador. ¶ Vt,* |  |
-| `c1-l010` | &emsp;Binrogatayuru. *Atalharſe, ou impedir-* |  |
+| `c1-l010` | &emsp;Binrogatayuru. *Atalharſe, ou impedir* |  |
 | `c1-l011` | &emsp;*ſe a communicação, & comercio, cami-* |  |
 | `c1-l012` | &emsp;*nho, &c.* |  |
 | `c1-l013` | Binrǒji. *Arêca que em Iapão vzão por me-* |  |

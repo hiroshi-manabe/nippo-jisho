@@ -35,10 +35,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l019` | Benxei. Vaqimaye ſumaſu. i. Fenben ſu- |  |
 | `c1-l020` | &emsp;ru. *Tomar o ſeu a ſeu dono, ou pagar a diuida.* |  |
 | `c1-l021` | &emsp;*¶ Item, Arrematar as contas, &c.* |  |
-| `c1-l022` | Benxǒ. Vaqimaye tçucurô. i. Monouo ca- |  |
+| `c1-l022` | Benxǒ. Vaqimaye tçucurô. i. Monouo ca |  |
 | `c1-l023` | &emsp;yeſu. *O tornar alguã couſa, ou pagala a* |  |
 | `c1-l024` | &emsp;*ſeu dono.* |  |
-| `c1-l025` | Benxun. Tacana. *Olho da cana tenrra quan-* |  |
+| `c1-l025` | Benxun. Tacana. *Olho da cana tenrra quan* |  |
 | `c1-l026` | &emsp;*do nace.* |  |
 | `c1-l027` | Benyei. Muchino cague. *Sombra da vara* |  |
 | `c1-l028` | &emsp;*com que ſe dà no caualo.* |  |
@@ -72,13 +72,13 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | Beppô. Bechinonori. *Outro modo de dou-* |  |
+| `c2-l001` | Beppô. Bechinonori. *Outro modo de dou* |  |
 | `c2-l002` | &emsp;*trina, ou de enſinar. Bup.* |  |
 | `c2-l003` | Beppu. Bechino votto. *Outro marido.* |  |
 | `c2-l004` | Beppucu. Bechino fara. *Outro ventre, ou* |  |
 | `c2-l005` | &emsp;*outra mãy. ¶* Beppucino co. *Filho de* |  |
 | `c2-l006` | &emsp;*outra molher, & do meſmo pay.* |  |
-| `c2-l007` | Beſſacu. Bechino ſacu. *Obra de outro offi-* |  |
+| `c2-l007` | Beſſacu. Bechino ſacu. *Obra de outro offi* |  |
 | `c2-l008` | &emsp;*cial.* |  |
 | `c2-l009` | Beſſai. Bechino tçuma. *Outra eſpoſa, ou* |  |
 | `c2-l010` | &emsp;*molher.* |  |
@@ -104,7 +104,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l030` | &emsp;*outra couſa differente.* |  |
 | `c2-l031` | Betguiô. Bechino xidaza. *Outra obra, ou* |  |
 | `c2-l032` | &emsp;*exercicio. ¶ Item, Adro, que eſta nos* |  |
-| `c2-l033` | &emsp;*campos, ou montes. ¶ Item, Outra pouo-* |  |
+| `c2-l033` | &emsp;*campos, ou montes. ¶ Item, Outra pouo* |  |
 | `c2-l034` | &emsp;*ção, ou lugar.* |  |
 | `c2-l035` | Betgo. Vacareno nochi. *Depois do aparta-* |  |
 | `c2-l036` | &emsp;*mento.* |  |

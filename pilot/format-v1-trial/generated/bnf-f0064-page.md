@@ -27,13 +27,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l011` | Bumeqi, u, eita. *Zunirem os moſquitos, bi-* |  |
 | `c1-l012` | &emsp;*zouros, &c.* |  |
 | `c1-l013` | Bumo. Chichi faua. *Pay, & mãy.* |  |
-| `c1-l014` | Bun. *Eſtillo de eſcreuer cartas. ¶ Item, Le-* |  |
-| `c1-l015` | &emsp;*tras, & ſciencia. ¶* Bunpuga nidǒ. *Le-* |  |
+| `c1-l014` | Bun. *Eſtillo de eſcreuer cartas. ¶ Item, Le* |  |
+| `c1-l015` | &emsp;*tras, & ſciencia. ¶* Bunpuga nidǒ. *Le* |  |
 | `c1-l016` | &emsp;*tras, & milicia, que ſão duas artes.* |  |
-| `c1-l017` | Bun. vaquru, l, vacaru. *Diuiſão, parti-* |  |
+| `c1-l017` | Bun. vaquru, l, vacaru. *Diuiſão, parti* |  |
 | `c1-l018` | &emsp;*quinhão, &c. ¶ Item, Ser outro, ou dif-* |  |
 | `c1-l019` | &emsp;*ferente. ¶* Soreua bunde gozaru. *Iſſo* |  |
-| `c1-l020` | &emsp;*he differente, ou outro por ſi. ¶ Item, Poſ-* |  |
+| `c1-l020` | &emsp;*he differente, ou outro por ſi. ¶ Item, Poſ* |  |
 | `c1-l021` | &emsp;*ſe, ou forças. Vt,* Bunni, l, Bun- |  |
 | `c1-l022` | &emsp;zunni ſuguita ſuſumai. *Conuite que* |  |
 | `c1-l023` | &emsp;*excede a poſſe de quem o dà.* |  |
@@ -74,13 +74,13 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c2-l001` | Bunen. i. nenmo irenu coto. *Pouco cuida-* |  |
 | `c2-l002` | &emsp;*do, & induſtria. ¶ Item, Inconſideração.* |  |
-| `c2-l003` | Bungacu. Fumi manabu. *Eſtudo, & ſcien-* |  |
+| `c2-l003` | Bungacu. Fumi manabu. *Eſtudo, & ſcien* |  |
 | `c2-l004` | &emsp;*cia de liuros, & bom eſtillo de cartas, &c.* |  |
-| `c2-l005` | Bunguei. Fumino guei. *Arte de ſaber eſcre-* |  |
+| `c2-l005` | Bunguei. Fumino guei. *Arte de ſaber eſcre* |  |
 | `c2-l006` | &emsp;*uer, & notar bem cartas.* |  |
-| `c2-l007` | Bunguen. Cugiriuo vaquru monono ſodo- |  |
+| `c2-l007` | Bunguen. Cugiriuo vaquru monono ſodo |  |
 | `c2-l008` | &emsp;rai. *Poſſibilidade, ou quantidade das cou-* |  |
-| `c2-l009` | &emsp;*ſas, ou fato que hum tem. ¶ Item,* Bun- |  |
+| `c2-l009` | &emsp;*ſas, ou fato que hum tem. ¶ Item,* Bun |  |
 | `c2-l010` | &emsp;guen. *Riqueza.* |  |
 | `c2-l011` | Bunguiri. *Hum canudo em que cabe hũa car-* |  |
 | `c2-l012` | &emsp;*ga de poluora. ¶ Item, Certa parte, ou* |  |
@@ -113,12 +113,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l039` | Bunpǒ. Fumino fatto. *Regras, ou precei-* |  |
 | `c2-l040` | &emsp;*tos pera ſaber bem eſcreuer cartas.* |  |
 | `c2-l041` | Bunpu. i. Buntô, butô. *Letras, & mili-* |  |
-| `c2-l042` | &emsp;*cia, ou ſciencia, & arte militar. ¶* Bun- |  |
-| `c2-l043` | &emsp;pu nidǒno fito. *Homem exercitado nas le-* |  |
+| `c2-l042` | &emsp;*cia, ou ſciencia, & arte militar. ¶* Bun |  |
+| `c2-l043` | &emsp;pu nidǒno fito. *Homem exercitado nas le* |  |
 | `c2-l044` | &emsp;*tras, & na milicia.* |  |
 | `c2-l045` | Bunpuna. *Exercitado nas letras, & na milicia.* |  |
 | `c2-l046` | Bunrai. Cã icazzuchi. i. Cãno coye. *Eſ-* |  |
-| `c2-l047` | &emsp;*truendo de moſquitos que fazem quando ſe ajun-* |  |
+| `c2-l047` | &emsp;*truendo de moſquitos que fazem quando ſe ajun* |  |
 | `c2-l048` | &emsp;*tão muitos.* |  |
 
 ## Catchword

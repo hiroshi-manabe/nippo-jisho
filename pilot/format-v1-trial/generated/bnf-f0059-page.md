@@ -16,7 +16,7 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c1-l001` | &emsp;*lheres, & meninas vſão.* |  |
 | `c1-l002` | Bobocaxi, ſu, aita. *Aleuantar, ou abrir* |  |
-| `c1-l003` | &emsp;*como algodão, pelo, &c. ¶* Camiuo bo- |  |
+| `c1-l003` | &emsp;*como algodão, pelo, &c. ¶* Camiuo bo |  |
 | `c1-l004` | &emsp;bocarũ. *Engrenhar os cabellos.* |  |
 | `c1-l005` | Boboqe, uru, eta. *Aleuantarſe como friſ-* |  |
 | `c1-l006` | &emsp;*za, ou pello de papel, &c.* |  |
@@ -26,7 +26,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l010` | &emsp;taru caixô. *Mar largo, & comprido.* |  |
 | `c1-l011` | Bôbôto. *Adu. Modo de ſoar vento, ou* |  |
 | `c1-l012` | &emsp;*dezunirem as orelhas.* |  |
-| `c1-l013` | Bôbôtoxite. *Adu. Modo de eſtar trans-* |  |
+| `c1-l013` | Bôbôtoxite. *Adu. Modo de eſtar trans* |  |
 | `c1-l014` | &emsp;*portado, ou ſolitario. ¶ Item, Modo de* |  |
 | `c1-l015` | &emsp;*viſta ao lõge, ou de couſa larga, & comprida.* |  |
 | `c1-l016` | &emsp;*¶ Item, Modo da eſpeſſura das eruas muito* |  |
@@ -57,7 +57,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l041` | Bôcen. *Almas perdidas que paſſarão ja deſta* |  |
 | `c1-l042` | &emsp;*vida.* |  |
 | `c1-l043` | Bocu. *Pao toſco, em que eſtão pegadas alguãs* |  |
-| `c1-l044` | &emsp;*aruorezinhas, ou eruas à maneira de vbeozqi-* |  |
+| `c1-l044` | &emsp;*aruorezinhas, ou eruas à maneira de vbeozqi* |  |
 | `c1-l045` | &emsp;*nho.* |  |
 | `c1-l046` | Bocu. *Preza feita na guerra, ou deſpojo.* |  |
 | `c1-l047` | &emsp;*Vt,* Bocuuo ſuru. *Fazer preza, ou tomar* |  |
@@ -102,7 +102,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l022` | &emsp;*dir, ou dar o* ſacazzugi *a alguem. Falando* |  |
 | `c2-l023` | &emsp;*com reſpeito da peſſoa.* |  |
 | `c2-l024` | Bocujũ. i. Guenindomo. *Criados, & ſeruos.* |  |
-| `c2-l025` | Bocujũ. Sumino xiru, l, ſuritaru ſumi. *Tĩta mo-* |  |
+| `c2-l025` | Bocujũ. Sumino xiru, l, ſuritaru ſumi. *Tĩta mo* |  |
 | `c2-l026` | &emsp;*ida liquida, como a que eſta nos tinteiros de* |  |
 | `c2-l027` | &emsp;*Iapão, ou china.* |  |
 | `c2-l028` | Bocuri. *Tamancos, ou chiripos de pao.* |  |

@@ -28,7 +28,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l012` | &emsp;*ou imperfeita.* |  |
 | `c1-l013` | Bonsan. *Hũa pedra, ou pao roſco que os Ia-* |  |
 | `c1-l014` | &emsp;*pões concertão a maneira de ilheozinho com* |  |
-| `c1-l015` | &emsp;*muſgoſ verdes, & alguã aruorezinha alli plan-* |  |
+| `c1-l015` | &emsp;*muſgoſ verdes, & alguã aruorezinha alli plan* |  |
 | `c1-l016` | &emsp;*tada, &c.* |  |
 | `c1-l017` | Bonxu. i. Bonbuno te. *Mãos de ignorante,* |  |
 | `c1-l018` | &emsp;*baixo, &c.* |  |
@@ -37,7 +37,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l021` | &emsp;uo bonyô ſuru. *Vſar mal da fazenda alhea.* |  |
 | `c1-l022` | Bonzô. i. Curai naqi iyaxiqi ſô. *Reli-* |  |
 | `c1-l023` | &emsp;*gioſo commum, & ſem dignidade.* |  |
-| `c1-l024` | Bonzai. Tçumiuo vocaſu. i. Bonqua. *Pec-* |  |
+| `c1-l024` | Bonzai. Tçumiuo vocaſu. i. Bonqua. *Pec* |  |
 | `c1-l025` | &emsp;*cado cometido, ou o cometer peccado.* |  |
 | `c1-l026` | Boqe. *Hũa aruore do mato. ¶ Itẽ, flor* |  |
 | `c1-l027` | &emsp;*deſta aruore. ¶* Boqe iro. *Cor ver-* |  |
@@ -88,7 +88,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l008` | &emsp;*ou almas dos defuntos, q̃ aparacẽ neſta vida.* |  |
 | `c2-l009` | Borei. *Hũa certa mezinha feita de caſcas de* |  |
 | `c2-l010` | &emsp;*oſtras queimadas.* |  |
-| `c2-l011` | Bôriacu. Facaricoto. *Engano, ou ardil en-* |  |
+| `c2-l011` | Bôriacu. Facaricoto. *Engano, ou ardil en* |  |
 | `c2-l012` | &emsp;*ganoſo. Vt,* Bôriacuuo meguraſu. |  |
 | `c2-l013` | &emsp;*Vrdir enganos.* |  |
 | `c2-l014` | Boribori. *Adu. Modo de ſoar algũa couſa* |  |
@@ -108,7 +108,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l028` | &emsp;*do ſe metem no fogo ou outras couſas, como* |  |
 | `c2-l029` | &emsp;*grãos ou arroz q̃ ſe entorna.* |  |
 | `c2-l030` | Boromeqi, u, eta. *Soarem eſtas couſas.* |  |
-| `c2-l031` | Bosan. *Ir à tarde dar conta ao meſtre da medi-* |  |
+| `c2-l031` | Bosan. *Ir à tarde dar conta ao meſtre da medi* |  |
 | `c2-l032` | &emsp;*cação que os lenxios dão.* |  |
 | `c2-l033` | Bosat. Taſuqe, uru. *Dignidade de menos* |  |
 | `c2-l034` | &emsp;*que* Fotoqe. |  |

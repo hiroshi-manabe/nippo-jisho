@@ -48,7 +48,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l032` | &emsp;bô ſodezo? *Aquelle homem em que grao* |  |
 | `c1-l033` | &emsp;*eſtarà deſta arte de eſcreuer, ou notar car-* |  |
 | `c1-l034` | &emsp;*tas, &c.* |  |
-| `c1-l035` | Bunzai. Qiuauo vacatçu. i. Fadorai. *Poſſi-* |  |
+| `c1-l035` | Bunzai. Qiuauo vacatçu. i. Fadorai. *Poſſi* |  |
 | `c1-l036` | &emsp;*bilidade de cada hum, quantidade, parte, por-* |  |
 | `c1-l037` | &emsp;*ção, &c.* |  |
 | `c1-l038` | Buppô. Fotoqeno nori. *Leis, ou doutrina* |  |
@@ -57,7 +57,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l041` | &emsp;*dà ao* Fotoqe. |  |
 | `c1-l042` | Buqe. Buxino iye. *Familia de ſoldados, ou* |  |
 | `c1-l043` | &emsp;*caualeiros, cuja cabeça he o* Cubô *que tambem* |  |
-| `c1-l044` | &emsp;*ſe diz* Xôgun, *& he capitão geral da mi-* |  |
+| `c1-l044` | &emsp;*ſe diz* Xôgun, *& he capitão geral da mi* |  |
 | `c1-l045` | &emsp;*licia del Rei de Iapão. ¶* Buqeno qex. |  |
 | `c1-l046` | &emsp;i. Cubô. *Capitão geral del Rei de Iapão.* |  |
 | `c1-l047` | Buqei. Buxino facaricoto. *Ardil de guerra.* |  |
@@ -84,7 +84,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l004` | &emsp;Buqenbǒſa. |  |
 | `c2-l005` | Buqenbǒxa. *Homem iniuſto, & que não he* |  |
 | `c2-l006` | &emsp;*recto.* |  |
-| `c2-l007` | Buqiguen. Qiguen naxi. *Eſtar de ruim ſem-* |  |
+| `c2-l007` | Buqiguen. Qiguen naxi. *Eſtar de ruim ſem* |  |
 | `c2-l008` | &emsp;*blante.* |  |
 | `c2-l009` | Buqeô. Queô naxi. *Triſteza, deſſabor, ou* |  |
 | `c2-l010` | &emsp;*deſgraça.* |  |
