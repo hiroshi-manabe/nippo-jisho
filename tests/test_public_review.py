@@ -244,21 +244,29 @@ class PublicReviewRegressionTests(unittest.TestCase):
         self.assertEqual(column["visual_review"], "text_image_sanity_checked")
         self.assertEqual(column["lines"]["c2-l041"]["crop"], [1540, 2938, 1080, 122])
 
-    def test_f70_and_f72_column_one_reaches_past_the_right_rule(self):
+    def test_f70_and_f72_corrected_columns_reach_past_the_right_rule(self):
         record = json.loads(
             (ROOT / "pilot" / "human-review" / "line-geometry.json").read_text(
                 encoding="utf-8"
             )
         )
         pages = {page["id"]: page for page in record["pages"]}
-        for page_id in ("bnf-f0070", "bnf-f0072"):
-            with self.subTest(page=page_id):
-                column = pages[page_id]["columns"]["column-1"]
-                self.assertEqual(column["box"][2], 1560)
+        corrected_columns = {
+            ("bnf-f0070", "column-1"): 1560,
+            ("bnf-f0072", "column-1"): 1560,
+            ("bnf-f0072", "column-2"): 2660,
+        }
+        for (page_id, column_id), right_edge in corrected_columns.items():
+            with self.subTest(page=page_id, column=column_id):
+                column = pages[page_id]["columns"][column_id]
+                self.assertEqual(column["box"][2], right_edge)
                 for line in column["lines"].values():
-                    self.assertEqual(line["crop"][0] + line["crop"][2], 1560)
                     self.assertEqual(
-                        line["context_crop"][0] + line["context_crop"][2], 1560
+                        line["crop"][0] + line["crop"][2], right_edge
+                    )
+                    self.assertEqual(
+                        line["context_crop"][0] + line["context_crop"][2],
+                        right_edge,
                     )
 
     def test_f25_through_f30_received_text_image_sanity_check(self):
