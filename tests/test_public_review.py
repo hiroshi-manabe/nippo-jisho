@@ -445,6 +445,45 @@ class PublicReviewRegressionTests(unittest.TestCase):
         self.assertIn("naõ", plain["c2-l040"])
         self.assertNotIn("*", "".join(plain.values()))
 
+    def test_f41_issue_29_history_typeface_and_tilde_shorthand(self):
+        history = json.loads(
+            (ROOT / "pilot" / "human-review" / "correction-history.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        page = next(page for page in history["pages"] if page["id"] == "bnf-f0041")
+        self.assertEqual(page["issues_applied"], 1)
+        self.assertEqual(page["distinct_lines"], 28)
+        self.assertEqual(page["accepted_edits"], 28)
+        self.assertEqual(page["issues"][0]["number"], 29)
+        self.assertIn("c1-l043", page["issues"][0]["lines"])
+        self.assertIn("c2-l047", page["issues"][0]["lines"])
+
+        record = json.loads(
+            (ROOT / "pilot" / "format-v1-trial" / "level1" / "bnf-f0041.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        lines = {
+            line["id"]: line["runs"]
+            for zone in record["zones"]
+            for line in zone.get("lines", [])
+        }
+        plain = {
+            line_id: "".join(run["text"] for run in runs)
+            for line_id, runs in lines.items()
+        }
+        self.assertTrue(any(run["typeface"] == "roman" and "Cami" in run["text"] for run in lines["c1-l018"]))
+        self.assertTrue(any(run["typeface"] == "roman" and "Fotoqe" in run["text"] for run in lines["c1-l018"]))
+        self.assertTrue(any(run["typeface"] == "roman" and "Buppô" in run["text"] for run in lines["c1-l019"]))
+        self.assertEqual(lines["c2-l038"][1], {"typeface": "italic", "text": "ù"})
+        self.assertTrue(any(run["typeface"] == "roman" and "i. Auatatax" in run["text"] for run in lines["c2-l045"]))
+        self.assertIn("ẽcarnaçaõ", plain["c1-l020"])
+        self.assertIn("cõpaixaõ", plain["c2-l021"])
+        self.assertIn("algũa", plain["c2-l036"])
+        self.assertTrue(plain["c2-l047"].endswith("com pertur"))
+        self.assertNotIn("*", "".join(plain.values()))
+
     def test_f29_issue_17_correction_history(self):
         history = json.loads(
             (ROOT / "pilot" / "human-review" / "correction-history.json").read_text(
