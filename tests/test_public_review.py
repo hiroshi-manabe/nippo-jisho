@@ -12,6 +12,40 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class PublicReviewRegressionTests(unittest.TestCase):
+    def test_temporary_hyphen_audit_is_narrow_and_complete(self):
+        with tempfile.TemporaryDirectory() as directory:
+            subprocess.run(
+                [
+                    "python3",
+                    str(ROOT / "scripts" / "build_public_review.py"),
+                    "--output",
+                    directory,
+                ],
+                cwd=ROOT,
+                check=True,
+                capture_output=True,
+                text=True,
+            )
+            audit = json.loads(
+                (Path(directory) / "hyphen-audit.json").read_text(encoding="utf-8")
+            )
+            self.assertEqual(audit["scope"], "f44-f53")
+            self.assertEqual(
+                [page["leaf"] for page in audit["pages"]], list(range(44, 54))
+            )
+            candidates = {
+                f"{page['view']}/{candidate['line']}": candidate
+                for page in audit["pages"]
+                for candidate in page["candidates"]
+            }
+            self.assertEqual(len(candidates), 165)
+            self.assertIn("f44/c1-l001", candidates)
+            self.assertIn("f44/c2-l038", candidates)
+            self.assertIn("f46/c1a-l013", candidates)
+            self.assertTrue(
+                all(candidate["before"].endswith("-") for candidate in candidates.values())
+            )
+
     def test_outstanding_external_ai_tasks_are_complete_and_current(self):
         work = ROOT / "pilot" / "human-review" / "ai-geometry-work"
         expected_pages = [f"bnf-f{number:04d}" for number in range(101, 238)] + [

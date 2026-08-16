@@ -18,6 +18,7 @@ import markdown
 ARK = "ark:/12148/bpt6k852354j"
 IMAGE_BASE_URL = "https://nippo-jisho-images.pages.dev"
 REVIEW_UNITS = ("column-1", "column-2", "furniture")
+HYPHEN_AUDIT_LEAVES = range(44, 54)
 
 
 def load_json(path: Path) -> dict:
@@ -184,6 +185,58 @@ def render_reference(source: Path, title: str) -> str:
     return f"<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width'><title>{html.escape(title)}</title><link rel='stylesheet' href='reference.css'></head><body>{body}</body></html>"
 
 
+def hyphen_audit_payload(pages: list[dict], commit: str, repository: str) -> dict:
+    audit_pages = []
+    for page in pages:
+        if page["leaf"] not in HYPHEN_AUDIT_LEAVES or not page["processed"]:
+            continue
+        candidates = []
+        for zone in page["zones"]:
+            if zone["kind"] != "column":
+                continue
+            for line in zone["lines"]:
+                if not line["text"].rstrip().endswith("-"):
+                    continue
+                left, top, width, height = line["crop"]
+                crop_width = min(width, 720)
+                padding = max(12, round(height * 0.28))
+                crop_top = max(0, top - padding)
+                crop_bottom = min(page["height"], top + height + padding)
+                candidates.append(
+                    {
+                        "line": line["id"],
+                        "before": line["text"],
+                        "base_line_version": line["transcription_version"],
+                        "crop": [
+                            left + width - crop_width,
+                            crop_top,
+                            crop_width,
+                            crop_bottom - crop_top,
+                        ],
+                    }
+                )
+        audit_pages.append(
+            {
+                "leaf": page["leaf"],
+                "view": page["view"],
+                "page_id": page["page_id"],
+                "width": page["width"],
+                "height": page["height"],
+                "image": page["iiif"],
+                "gallica": page["gallica"],
+                "candidates": candidates,
+            }
+        )
+    return {
+        "schema": 1,
+        "task": "line-end-hyphen-audit",
+        "scope": "f44-f53",
+        "base_commit": commit,
+        "repository": repository,
+        "pages": audit_pages,
+    }
+
+
 def main() -> int:
     root = Path(__file__).resolve().parents[1]
     parser = argparse.ArgumentParser(description=__doc__)
@@ -262,7 +315,25 @@ def main() -> int:
         json.dumps(payload, ensure_ascii=False, separators=(",", ":")) + "\n",
         encoding="utf-8",
     )
-    for name in ("index.html", "app.js", "styles.css", "reference.css", ".nojekyll"):
+    (output / "hyphen-audit.json").write_text(
+        json.dumps(
+            hyphen_audit_payload(pages, commit, args.repository),
+            ensure_ascii=False,
+            separators=(",", ":"),
+        )
+        + "\n",
+        encoding="utf-8",
+    )
+    for name in (
+        "index.html",
+        "app.js",
+        "styles.css",
+        "reference.css",
+        "hyphen-audit.html",
+        "hyphen-audit.js",
+        "hyphen-audit.css",
+        ".nojekyll",
+    ):
         shutil.copy2(root / "site" / name, output / name)
     shutil.copytree(root / "site/assets", output / "assets")
     reference_dir = output / "reference"
