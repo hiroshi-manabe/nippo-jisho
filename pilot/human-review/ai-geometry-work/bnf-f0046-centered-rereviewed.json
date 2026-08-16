@@ -15,7 +15,7 @@
   },
   "transcription_source": {
     "page_file": "pilot/format-v1-trial/level1/bnf-f0046.json",
-    "page_file_sha256": "728a4883e3186e06bda2b5092be720059a6e78e97ae740ce369359ff768ca5ab"
+    "page_file_sha256": "74899d2b029892fc4655daab65dc7fbc5dfc2cab205d0c40a3f906e83c037a10"
   },
   "columns": {
     "column-1": {
@@ -1837,7 +1837,7 @@
             1500,
             3208,
             1090,
-            180
+            108
           ],
           "context_crop": [
             1500,
@@ -1849,12 +1849,32 @@
           "match": "strong",
           "assessment": "readable",
           "expected_line_version": "sha256:be290755be6f4e780827a2b7d2c4ee2ffe6c1c71ae74c974d70180acc45bf261"
+        },
+        {
+          "id": "c2-l047",
+          "centre_y": 3344,
+          "crop": [
+            1500,
+            3290,
+            1090,
+            108
+          ],
+          "context_crop": [
+            1500,
+            3168,
+            1090,
+            242
+          ],
+          "observed_text": null,
+          "match": "strong",
+          "assessment": "readable",
+          "expected_line_version": "sha256:4e24e6f75013e7474c653f4a3bf8573df600c8e4f0a6db86451f0066ac2d2e56"
         }
       ]
     }
   },
   "text_review_status": "not_completed",
   "geometry_review_status": "completed",
-  "geometry_review_note": "The supplied line IDs were re-centered and individually inspected under the stricter centering criterion. The lower-right word is poſito, a displaced continuation completing depoſito in c2-l046 rather than an extra physical body line or a next-page catchword. The c2-l046 crop has therefore been enlarged downward to keep both parts readable. observed_text remains null because a separate diplomatic transcription pass was not performed. Transcription hashes were rebased after later text-only corrections; line IDs and the reviewed scan are unchanged.",
+  "geometry_review_note": "The supplied line IDs were re-centered and individually inspected under the stricter centering criterion. Human adjudication established that lower-right poſito is a separate physical column-2 line continuing c2-l046, rather than page furniture or a next-page catchword. It is therefore represented as c2-l047 with its own crop. observed_text remains null because a separate diplomatic transcription pass was not performed. Transcription hashes were rebased after later text-only corrections; the reviewed scan is unchanged.",
   "lineation_discrepancy": null
 }

@@ -8,7 +8,7 @@ This ten-page trial tests whether a dedicated scan pass can reliably distinguish
 
 ## Method
 
-- Scope: every dictionary-text line on f44–f53, 936 physical lines in all.
+- Scope: every dictionary-text line on f44–f53, now 937 physical lines after the former f46 furniture record `poſito` was correctly reclassified as `c2-l047`.
 - Primary evidence: the locally cached full-resolution Gallica scans.
 - First pass: inspect each complete line crop, paying particular attention to both column edges.
 - Adjudication: enlarge the right edge whenever the presence or absence of a mark is not immediately clear. Lexical continuation was used to locate candidates, never to supply a mark.

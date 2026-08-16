@@ -126,9 +126,4 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l044` | Azzucari. i. azzucarimono. *Depoſito, ou* |  |
 | `c2-l045` | &emsp;*couſa de que me ſiruo como de em preſtado.* |  |
 | `c2-l046` | Azzucari, u, atta. *Receber ou tomar em de* |  |
-
-## Catchword
-
-| Physical line | Main position | Far right |
-| --- | --- | --- |
-| `catch-l001` |  | poſito |
+| `c2-l047` | &emsp;*poſito* |  |
