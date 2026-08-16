@@ -20,7 +20,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l004` | &emsp;*ue, ou principal.* |  |
 | `c1-l005` | Canmon. *Rol, ou capitulos dos dias, ou me* |  |
 | `c1-l006` | &emsp;*ſes em que hum hade fazer, ou deixar de fa-* |  |
-| `c1-l007` | &emsp;*zer alguã couſa por agouro, que os que ſeruem* |  |
+| `c1-l007` | &emsp;*zer algũa couſa por agouro, que os que ſeruem* |  |
 | `c1-l008` | &emsp;*ao* Cami *dão.* |  |
 | `c1-l009` | Canna. *Cepilho. ¶* Cannauo caguru. |  |
 | `c1-l010` | &emsp;*Acepilhar.* |  |
@@ -36,11 +36,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l020` | Cannichi. *Dia aſiago, ou de ruim agouro.* |  |
 | `c1-l021` | Cannin. Coraye xinobu. *Paciencia. ¶* Cã- |  |
 | `c1-l022` | &emsp;nin ſuru. *Sofrer, ou ter paciencia.* |  |
-| `c1-l023` | Cannô, l, cãnôna. *Peſſoa deſtra em alguã couſa.* |  |
+| `c1-l023` | Cannô, l, cãnôna. *Peſſoa deſtra em algũa couſa.* |  |
 | `c1-l024` | Cannǒ. Canji vqemuru. *O aceitarem os* |  |
-| `c1-l025` | &emsp;Camis, *&* Fotoques *alguã obra dos homens,* |  |
+| `c1-l025` | &emsp;Camis, *&* Fotoques *algũa obra dos homens,* |  |
 | `c1-l026` | &emsp;*& agradar lhe. ¶ Item, O comprirem,* |  |
-| `c1-l027` | &emsp;*ou ouuirem ſuas petições, & votos. Pode ſe* |  |
+| `c1-l027` | &emsp;*ou ouuirem ſuas petiçoẽs, & votos. Pode ſe* |  |
 | `c1-l028` | &emsp;*aplicar a Deos N. S., & aos ſanctos.* |  |
 | `c1-l029` | Cannozǒ. *Baço.* |  |
 | `c1-l030` | Cannuxi. *Hum dos principais como cabeça q̃* |  |
@@ -48,7 +48,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l032` | Cano. *Pron. Aquelle, ou aquella.* |  |
 | `c1-l033` | Canoco. *Filho de veado, ou corſo.* |  |
 | `c1-l034` | Canoco. *Malhas, ou olhos brancos que ſe dei-* |  |
-| `c1-l035` | &emsp;*xão nos quimões pintados.* |  |
+| `c1-l035` | &emsp;*xão nos quimoẽs pintados.* |  |
 | `c1-l036` | Canoqixi. Nochinoyo. *Mundo vindouro.* |  |
 | `c1-l037` | Canoxixi. *Veado.* |  |
 | `c1-l038` | Canoye canoto. *Modo de contar os dias,* |  |

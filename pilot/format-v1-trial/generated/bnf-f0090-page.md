@@ -46,7 +46,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l030` | &emsp;*Debuxar, ou tirar hũa couſa por outra.* |  |
 | `c1-l031` | Caqiuoi, ô, ôta. *Leuar às coſtas.* |  |
 | `c1-l032` | Caqiuoqi. *Teſtamento.* |  |
-| `c1-l033` | Caqiuoqi, u, oita. *Deixar eſcrito alguã couſa.* |  |
+| `c1-l033` | Caqiuoqi, u, oita. *Deixar eſcrito algũa couſa.* |  |
 | `c1-l034` | Caqiuotoxi, ſu, oita. *Deixar por erro de eſcre* |  |
 | `c1-l035` | &emsp;*uer algũa couſa.* |  |
 | `c1-l036` | Caqiuotoxi, ſu, oita. *Cortar a cabeça afer-* |  |
@@ -72,9 +72,9 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | &emsp;*hũ traz aos ombros, ou nas mãos a alguã parte.* |  |
+| `c2-l001` | &emsp;*hũ traz aos ombros, ou nas mãos a algũa parte.* |  |
 | `c2-l002` | Caqiyoxe, ſuru, eta. *Ajuntar com os de-* |  |
-| `c2-l003` | &emsp;*dos das mãos, ou com inſtrumento alguãs cou-* |  |
+| `c2-l003` | &emsp;*dos das mãos, ou com inſtrumento algũas cou-* |  |
 | `c2-l004` | &emsp;*ſas eſpalhadas pollo chão. Vt,* Matçubauo |  |
 | `c2-l005` | &emsp;caqiyoſuru. *Ajutar, & apanhar com as* |  |
 | `c2-l006` | &emsp;*mãos, ou com inſtrumento folhas de pinheiro.* |  |
@@ -87,15 +87,15 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l013` | Cara. *Caſca dura como de ouo, noz, ame-* |  |
 | `c2-l014` | &emsp;*joa, &c.* |  |
 | `c2-l015` | Cara. i. Teco. *Pao como alauanca que ſe me-* |  |
-| `c2-l016` | &emsp;*te de baixo dalguã pedra, ou pao por que pu-* |  |
-| `c2-l017` | &emsp;*xão, ou leuão pera alguã parte. X. no* Cami |  |
+| `c2-l016` | &emsp;*te de baixo dalgũa pedra, ou pao por que pu-* |  |
+| `c2-l017` | &emsp;*xão, ou leuão pera algũa parte. X. no* Cami |  |
 | `c2-l018` | &emsp;*ſe diz* Teco. |  |
 | `c2-l019` | Cara. *Poſpoſição de ablatiuo. Vt,* Coreca- |  |
 | `c2-l020` | &emsp;ra aremade. *Deſdaqui atec olà.* |  |
 | `c2-l021` | Cara. *China.* |  |
 | `c2-l022` | Caraaya. *Certas peças da China como lins, ou* |  |
 | `c2-l023` | &emsp;*damaſquilhos.* |  |
-| `c2-l024` | Carabacaxi, ſu, aita. *Secar ao ſol alguã* |  |
+| `c2-l024` | Carabacaxi, ſu, aita. *Secar ao ſol algũa* |  |
 | `c2-l025` | &emsp;*couſa, ou deixar ſecar ao ar, &c.* |  |
 | `c2-l026` | Carabi, uru, ita. *Secarſe ao ſol, ou ao ar.* |  |
 | `c2-l027` | &emsp;*¶ Item, Per met.* Carabita ſurumai. *Cõuida* |  |

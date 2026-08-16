@@ -41,11 +41,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1a-l025` | Ayenai. *Couſa triſte, & que cauſa compaixão.* |  |
 | `c1a-l026` | Ayenǒ. *Adu. Laſtimoſamente, cõ cõpaixão.* |  |
 | `c1a-l027` | Ayete. i. Vqegǒte. *Conſentindo, & fazẽ* |  |
-| `c1a-l028` | &emsp;*doſe capaz prohibir alguã couſa, ou propor de a* |  |
+| `c1a-l028` | &emsp;*doſe capaz prohibir algũa couſa, ou propor de a* |  |
 | `c1a-l029` | &emsp;*não fazer. ¶* Ayete xirizoqu coto naca |  |
 | `c1a-l030` | &emsp;re. *Conſentindo não vos aparteis de ahi. S.* |  |
 | `c1a-l031` | Ayezu. *Iunto com outros verbos na raiz ſigni-* |  |
-| `c1a-l032` | &emsp;*fica não acabar alguã couſa. Vt,* Yomiaye- |  |
+| `c1a-l032` | &emsp;*fica não acabar algũa couſa. Vt,* Yomiaye- |  |
 | `c1a-l033` | &emsp;zu. *Não acabando de ler. ¶* Torumo- |  |
 | `c1a-l034` | &emsp;nomo toriayezu. *Com preſſa não acabar* |  |
 | `c1a-l035` | &emsp;*de tomar. i. Eſtar com preſſa, & perturbação.* |  |

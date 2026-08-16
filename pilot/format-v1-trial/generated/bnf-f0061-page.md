@@ -27,8 +27,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l011` | Bonsacu. Ninguẽnno ſacu. *Obra humana,* |  |
 | `c1-l012` | &emsp;*ou imperfeita.* |  |
 | `c1-l013` | Bonsan. *Hũa pedra, ou pao roſco que os Ia-* |  |
-| `c1-l014` | &emsp;*pões concertão a maneira de ilheozinho com* |  |
-| `c1-l015` | &emsp;*muſgoſ verdes, & alguã aruorezinha alli plan* |  |
+| `c1-l014` | &emsp;*poẽs concertão a maneira de ilheozinho com* |  |
+| `c1-l015` | &emsp;*muſgoſ verdes, & algũa aruorezinha alli plan* |  |
 | `c1-l016` | &emsp;*tada, &c.* |  |
 | `c1-l017` | Bonxu. i. Bonbuno te. *Mãos de ignorante,* |  |
 | `c1-l018` | &emsp;*baixo, &c.* |  |
@@ -101,7 +101,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l021` | &emsp;*Regra das molheres que por ſi ſe faz. ¶ Itẽ,* |  |
 | `c2-l022` | &emsp;*Camaras liquidas, ou ſoltas.* |  |
 | `c2-l023` | Boroboroto. *Adu. Modo de ſe quebrar, ou* |  |
-| `c2-l024` | &emsp;*eſbroar alguã couſa como barro, ou terra que* |  |
+| `c2-l024` | &emsp;*eſbroar algũa couſa como barro, ou terra que* |  |
 | `c2-l025` | &emsp;*ſe deſfaz, ou como grãos, & arroz quando* |  |
 | `c2-l026` | &emsp;*ſe entorna.* |  |
 | `c2-l027` | Boromecaxi, u, aita. *Fazer ſoar folha quã-* |  |

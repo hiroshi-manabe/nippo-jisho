@@ -49,7 +49,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l033` | &emsp;*muito boas nem excellẽtes de que ſe ſeruem* |  |
 | `c1-l034` | &emsp;*commũmente as vigias.* |  |
 | `c1-l035` | Bangiû. *Grande multidão de couſas muito* |  |
-| `c1-l036` | &emsp;*juntas & acrecentadas hũas ſobre outras. Vt,* |  |
+| `c1-l036` | &emsp;*juntas & acrecentadas huãs ſobre outras. Vt,* |  |
 | `c1-l037` | &emsp;Bangiûno quan. *Muitas portas em nume-* |  |
 | `c1-l038` | &emsp;*ro que ha nos paços & entradas que ſe vi-* |  |
 | `c1-l039` | &emsp;*gião. S.* |  |
@@ -104,7 +104,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l030` | Banqei. Cureno qei. *Viſta da tarde.* |  |
 | `c2-l031` | Banqei. Yorozzuno qei. *Todas as viſtas.* |  |
 | `c2-l032` | Banqi. *Vt,* Banqino matçurigoto. *To-* |  |
-| `c2-l033` | &emsp;*das as leis, ou ordenações do gouerno politico.* |  |
+| `c2-l033` | &emsp;*das as leis, ou ordenaçoẽs do gouerno politico.* |  |
 | `c2-l034` | Banqi. Yorozzuno yorocobi. *Todas as a-* |  |
 | `c2-l035` | &emsp;*legrias.* |  |
 | `c2-l036` | Banqichi, l, banqit. *Todas as couſas boas.* |  |

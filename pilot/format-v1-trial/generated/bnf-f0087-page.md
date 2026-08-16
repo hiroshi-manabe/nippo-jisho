@@ -89,7 +89,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l008` | &emsp;*& entrou pello meo do arrayal tanto como cõ* |  |
 | `c2-l009` | &emsp;*primento de hũa rua.* |  |
 | `c2-l010` | Caqerare, uru, eta. *Eſte verbo com* Guioi, |  |
-| `c2-l011` | &emsp;*quer dizer receber alguã peſſoa honrrada em* |  |
+| `c2-l011` | &emsp;*quer dizer receber algũa peſſoa honrrada em* |  |
 | `c2-l012` | &emsp;*ſua caſa, ou receber della algũa couſa. Vt,* |  |
 | `c2-l013` | &emsp;Guioini caqeraruru. *¶* Sono contas uo |  |
 | `c2-l014` | &emsp;guioini caqerarei. *Fazeime merce dellas* |  |

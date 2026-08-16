@@ -106,7 +106,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l026` | &emsp;*de ſoldados, ou caualeiros.* |  |
 | `c2-l027` | Buquan. Buxino tachi. *Caſa de ſoldado* |  |
 | `c2-l028` | &emsp;*nobre.* |  |
-| `c2-l029` | Buramecaxi, ſu, aita. *Fazer bulir alguã couſa q̃* |  |
+| `c2-l029` | Buramecaxi, ſu, aita. *Fazer bulir algũa couſa q̃* |  |
 | `c2-l030` | &emsp;*eſtà, ou vai dependurada.* |  |
 | `c2-l031` | Burameqi, u, eita. *Bulir a couſa dependu-* |  |
 | `c2-l032` | &emsp;*rada.* |  |

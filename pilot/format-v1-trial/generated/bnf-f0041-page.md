@@ -22,7 +22,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l006` | &emsp;*agoa a deixa limpa. ¶* Atouo tçucuru. |  |
 | `c1-l007` | &emsp;*Deixar raſto de ſi. ¶* Atouo tçuquru, l, |  |
 | `c1-l008` | &emsp;atouo tçuguete yuqu. *Ir de traz no alcãçe* |  |
-| `c1-l009` | &emsp;*dos que vão fugindo, ou dalgum animal, ou* |  |
+| `c1-l009` | &emsp;*dos que vaõ fugindo, ou dalgum animal, ou* |  |
 | `c1-l010` | &emsp;*aue. ¶* Atouo ſaqini, l, ſaqiye ſuru, |  |
 | `c1-l011` | &emsp;l, naſu. *Fazer depois o q̃ auia de fazer pri-* |  |
 | `c1-l012` | &emsp;*meiro. ¶* Atouo curamacaſu. *Quando* |  |

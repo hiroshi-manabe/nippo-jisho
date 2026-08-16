@@ -37,7 +37,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l021` | &emsp;*cuſas, & achaques.* |  |
 | `c1-l022` | Cacotçuqe, uru, eta. *Eſcuſarſe, ou tomar* |  |
 | `c1-l023` | &emsp;*por achaque. Vt,* Mononi cacotçuqete |  |
-| `c1-l024` | &emsp;mairanu. *Não vir tomando por achaque alguã* |  |
+| `c1-l024` | &emsp;mairanu. *Não vir tomando por achaque algũa* |  |
 | `c1-l025` | &emsp;*couſa.* |  |
 | `c1-l026` | Cacotçuqegoto. *Idem quod* Cacotçuqe. |  |
 | `c1-l027` | Cacoto, l, cagoto. i. Cacotçuqe. *Eſcuſa,* |  |
@@ -98,7 +98,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l024` | Cacu ita. *Taboinha quadrada, & uruxada q̃* |  |
 | `c2-l025` | &emsp;*poem de baixo do fogareiro do* Chanoyu. |  |
 | `c2-l026` | Cacujen. Satorino maye. Bup. *O eſtar exer* |  |
-| `c2-l027` | &emsp;*citado nas meditações dos* Ienxus. |  |
+| `c2-l027` | &emsp;*citado nas meditaçoẽs dos* Ienxus. |  |
 | `c2-l028` | Cacuite. *Adu. Eſcondidamente.* |  |
 | `c2-l029` | Cacuna. *Couſa quadrada, ou que tem cantos.* |  |
 | `c2-l030` | Cacuna mono. *Idem.* |  |

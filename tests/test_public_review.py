@@ -41,7 +41,7 @@ class PublicReviewRegressionTests(unittest.TestCase):
                 for page in audit["pages"]
                 for candidate in page["candidates"]
             ]
-            self.assertEqual(len(candidates), 1147)
+            self.assertEqual(len(candidates), 1019)
             keys = {
                 f"{page}/{candidate['line']}#{candidate['occurrence']}"
                 for page, candidate in candidates
@@ -99,18 +99,18 @@ class PublicReviewRegressionTests(unittest.TestCase):
             self.assertEqual(candidates["f49/c2-l027#1"]["crop"][0], 1205)
             self.assertLess(candidates["f51/c2-l005#1"]["crop"][0], 1400)
             self.assertEqual(candidates["f52/c2-l008#1"]["crop"][0], 1445)
-            # The corrected f57 rectangle and added upper overlap retain the
-            # complete tilde-bearing word rather than centering the next line.
-            self.assertEqual(candidates["f57/c2-l003#1"]["crop"], [1702, 448, 720, 175])
+            # The corrected f57 occurrence was individually adjudicated in
+            # Issue #36 and therefore no longer appears in this unreviewed UI.
+            self.assertNotIn("f57/c2-l003#1", candidates)
             # A final period is outside the token span but still belongs to
             # the printed line ending; retain the complete right edge.
             self.assertEqual(candidates["f58/c2b-l004#1"]["crop"], [1931, 2819, 720, 173])
             # From f60 onward the externally reviewed line geometry can be
             # displaced by about one printed line while remaining readable.
             # The specialist UI therefore retains an extra line above and
-            # below; here the former crop showed `Bonnin` while clipping the
-            # target `dignidade alguã` line at its lower edge.
-            self.assertEqual(candidates["f60/c2-l035#1"]["crop"], [1445, 2347, 720, 311])
+            # below. This nearby still-unreviewed line shares the displaced
+            # f60 geometry that originally clipped the following target line.
+            self.assertEqual(candidates["f60/c2-l034#1"]["crop"], [1727, 2287, 720, 311])
 
     def test_hyphen_audit_selections_survive_geometry_only_deployments(self):
         script = (ROOT / "site" / "hyphen-audit.js").read_text(encoding="utf-8")
@@ -735,12 +735,14 @@ class PublicReviewRegressionTests(unittest.TestCase):
             )
         )
         page = next(page for page in history["pages"] if page["id"] == "bnf-f0041")
-        self.assertEqual(page["issues_applied"], 1)
-        self.assertEqual(page["distinct_lines"], 28)
-        self.assertEqual(page["accepted_edits"], 28)
+        self.assertEqual(page["issues_applied"], 2)
+        self.assertEqual(page["distinct_lines"], 29)
+        self.assertEqual(page["accepted_edits"], 29)
         self.assertEqual(page["issues"][0]["number"], 29)
         self.assertIn("c1-l043", page["issues"][0]["lines"])
         self.assertIn("c2-l047", page["issues"][0]["lines"])
+        self.assertEqual(page["issues"][1]["number"], 36)
+        self.assertEqual(page["issues"][1]["lines"], ["c1-l009"])
 
         record = json.loads(
             (ROOT / "pilot" / "format-v1-trial" / "level1" / "bnf-f0041.json").read_text(

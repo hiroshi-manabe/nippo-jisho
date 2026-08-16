@@ -24,12 +24,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l008` | &emsp;*ou fazer religioſo.* |  |
 | `c1-l009` | Caimon. Imaximeno fumi. *Prohibição, ou* |  |
 | `c1-l010` | &emsp;*lei.* |  |
-| `c1-l011` | Cai motome, uru, eta. *Auer alguã couſa com* |  |
+| `c1-l011` | Cai motome, uru, eta. *Auer algũa couſa com* |  |
 | `c1-l012` | &emsp;*prandoa.* |  |
 | `c1-l013` | Caimucu. i. Chittomo. *Nem hum tamanino.* |  |
 | `c1-l014` | &emsp;*Ajuntaſe com negatiuo. Vt,* Caimu- |  |
 | `c1-l015` | &emsp;cu xiranu. *Não ſei nada.* |  |
-| `c1-l016` | Caina. *Braço do cotouelo atee a mão.* |  |
+| `c1-l016` | Caina. *Braço do cotouelo atee a maõ.* |  |
 | `c1-l017` | Cainai. *Couſa fraca. ¶* Cocoro ga cainǒ- |  |
 | `c1-l018` | &emsp;te. *Eſtq. Enfraquecendo, ou perden-* |  |
 | `c1-l019` | &emsp;*do o animo, & coração.* |  |
@@ -94,10 +94,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l019` | &emsp;*tido az aueſſas.* |  |
 | `c2-l020` | Caiſama ro. i. Sacaro. *Remos az aueſſas.* |  |
 | `c2-l021` | &emsp;*i. Poſtos de proa a popa.* |  |
-| `c2-l022` | Caiſan. Yamauo firaqu. *Fundador de alguã* |  |
+| `c2-l022` | Caiſan. Yamauo firaqu. *Fundador de algũa* |  |
 | `c2-l023` | &emsp;*ſeita. ¶ Item, O que primeiro edificou al-* |  |
 | `c2-l024` | &emsp;*gũa terra, ermida, &c.* |  |
-| `c2-l025` | Caiſo. *Fundador dalguã ſeita, ou religião.* |  |
+| `c2-l025` | Caiſo. *Fundador dalgũa ſeita, ou religião.* |  |
 | `c2-l026` | Caiſǒ. Vmino cuſa. *Erua do mar.* |  |
 | `c2-l027` | Caiſodate, tçuru, eta. *Criar, ou apacentar.* |  |
 | `c2-l028` | &emsp;*Vt,* Fitçujino caiſodatçuru. *Apacentar* |  |

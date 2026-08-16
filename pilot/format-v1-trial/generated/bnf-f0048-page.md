@@ -14,7 +14,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | &emsp;*ra como tendas, ou nas embarcações, &c.* |  |
+| `c1-l001` | &emsp;*ra como tendas, ou nas embarcaçoẽs, &c.* |  |
 | `c1-l002` | &emsp;*¶* Baccani ſanzuru. *Lançarſe com os inimi-* |  |
 | `c1-l003` | &emsp;*gos. ¶* Rinjuno baccani iru. *Morrer.* |  |
 | `c1-l004` | Baccun. *Adu. Muito, mais, ou auentaja-* |  |
@@ -94,23 +94,23 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l020` | &emsp;*pera ſe ſegar.* |  |
 | `c2-l021` | Bacuyeqi. i. Bacuchi. *Iogo de dados,* |  |
 | `c2-l022` | &emsp;*tabolas &c. ¶* Bacuyeqi ſuru. *Iugar.* |  |
-| `c2-l023` | Badai. *Dinheiro, ou caxas que ſe cuſtumão a dar* |  |
+| `c2-l023` | Badai. *Dinheiro, ou caxas que ſe cuſtumaõ a dar* |  |
 | `c2-l024` | &emsp;*aos ſenhores em lugar de caualo que apre-* |  |
-| `c2-l025` | &emsp;*zentão em certos tempos. Em algũas partes* |  |
+| `c2-l025` | &emsp;*zentaõ em certos tempos. Em algũas partes* |  |
 | `c2-l026` | &emsp;*ſe diz* Baxen. |  |
 | `c2-l027` | Bafã. *Ir a furtar fora de Iapão a China, ou a* |  |
 | `c2-l028` | &emsp;*outras partes.* |  |
-| `c2-l029` | Bafanbune. *Embarcação de ladrões, q̃ vão a* |  |
+| `c2-l029` | Bafanbune. *Embarcaçaõ de ladroẽs, q̃ vaõ a* |  |
 | `c2-l030` | &emsp;*furtar a outro Reino.* Bafanjin. *La-* |  |
-| `c2-l031` | &emsp;*drões, ou coſairos que vão fazer eſtes furtos.* |  |
+| `c2-l031` | &emsp;*droẽs, ou coſairos que vaõ fazer eſtes furtos.* |  |
 | `c2-l032` | Bafaretacoto. *Couſa patente, & manifeſta.* |  |
 | `c2-l033` | Bafarete ſuru. *Fazer algũa couſa publica,* |  |
 | `c2-l034` | &emsp;*& manifeſtamente.* |  |
 | `c2-l035` | Bafi. Vmano caua. *Pelle de caualo.* |  |
 | `c2-l036` | Bafun. Vmano fun. *Eſterco do caualo.* |  |
-| `c2-l037` | Baguiǒ. Vmano catachi. *Feição, ou poſtu* |  |
+| `c2-l037` | Baguiǒ. Vmano catachi. *Feiçaõ, ou poſtu* |  |
 | `c2-l038` | &emsp;*ra do Caualo. ¶* Baguiǒ no yoi vma. |  |
-| `c2-l039` | &emsp;*Caualo bem poſto, & de boas feições.* |  |
+| `c2-l039` | &emsp;*Caualo bem poſto, & de boas feiçoẽs.* |  |
 | `c2-l040` | Baguiû. Vma Vxi. *Caualo, vaca, ou boy.* |  |
 | `c2-l041` | Bai. *Eſpecie de oſtras, & mariſco do mar.* |  |
 | `c2-l042` | Baibai. Vricô. *Comprar, & vender, ou mer* |  |

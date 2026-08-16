@@ -38,11 +38,11 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c1b-l001` | BEbe. *Hũa aruore.* |  |
 | `c1b-l002` | Bebenoco. *Vitella, ou bezerro. B.* |  |
-| `c1b-l003` | Beccaqu. i. Cacubet. *Differẽça dalguã couſa.* |  |
+| `c1b-l003` | Beccaqu. i. Cacubet. *Differẽça dalgũa couſa.* |  |
 | `c1b-l004` | Beccaquni. *Adu. Doutra maneira, ou mo-* |  |
 | `c1b-l005` | &emsp;*do differente, ou apartadamente.* |  |
 | `c1b-l006` | Beccan. *Hum certo manjar doçe que ſe faz de* |  |
-| `c1b-l007` | &emsp;*feijões, &c.* |  |
+| `c1b-l007` | &emsp;*feijoẽs, &c.* |  |
 | `c1b-l008` | Becchi. Bechino gi. *Outra terra, ou lugar.* |  |
 | `c1b-l009` | Beccô. Cannenocõ. *Concubato cagado, ou* |  |
 | `c1b-l010` | &emsp;*tartarugada parte deçima.* |  |
@@ -126,7 +126,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l036` | &emsp;*fazer ſeus negocios. ¶* Daixôuo benzu- |  |
 | `c2-l037` | &emsp;ru. *Fazer, ou cumprir ſuas neceſſidades* |  |
 | `c2-l038` | &emsp;*naturaes.* |  |
-| `c2-l039` | Benisaqi. i. Fôſaqi. *Maçãa do roſto.* |  |
+| `c2-l039` | Benisaqi. i. Fôſaqi. *Maçaã do roſto.* |  |
 | `c2-l040` | Benitaqe. *Certa laya de cogumellos vermelhos.* |  |
 | `c2-l041` | Beniyeno coſode. *Veſtidos que tem pinturas* |  |
 | `c2-l042` | &emsp;*de cor de rebique.* |  |

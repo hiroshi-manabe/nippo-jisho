@@ -28,7 +28,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l012` | &emsp;*des rizadas com caquino.* |  |
 | `c1-l013` | Cacafayuy. *Couſa vergonhoza, ou de pejo.* |  |
 | `c1-l014` | Cacague, ru, eta. *Aleuantar. Mas não ſe di-* |  |
-| `c1-l015` | &emsp;*ra de qualquer couſa, ſenão neſtes modos de fa-* |  |
+| `c1-l015` | &emsp;*ra de qualquer couſa, ſenaõ neſtes modos de fa-* |  |
 | `c1-l016` | &emsp;*lar. ¶* Tomoxibiuo cacaguru. *Ati-* |  |
 | `c1-l017` | &emsp;*çar, ou eſpeuitar a candea. ¶ Item, Acẽ* |  |
 | `c1-l018` | &emsp;*de.a, & polla diante do* Cami *ou* Fotoqe. |  |
@@ -42,14 +42,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l026` | Cacai. Miſaxini cuuauaru. i. Curaini agaru. |  |
 | `c1-l027` | &emsp;*Subir em dignidade. ¶* Quancacai. *O* |  |
 | `c1-l028` | &emsp;*ſobir a dignidade, cargo, ou officio.* |  |
-| `c1-l029` | Cacarai, ǒ, ǒta. *Tocar nalguã couſa, ou ter* |  |
+| `c1-l029` | Cacarai, ǒ, ǒta. *Tocar nalgũa couſa, ou ter* |  |
 | `c1-l030` | &emsp;*deuer, &c. B.* |  |
 | `c1-l031` | Cacari, u, atta. *Pendurarſe, ou eſtar depen* |  |
 | `c1-l032` | &emsp;*durado. ¶* Caguini cacaru. *Eſta depẽ* |  |
 | `c1-l033` | &emsp;*durado no prego. ¶ Item, Tocar em outra* |  |
 | `c1-l034` | &emsp;*couſa Vt,* Mini cacatta. *Tocoume.* |  |
-| `c1-l035` | &emsp;*¶ Item, Cair alguã couſa ſobre outra. Vt,* |  |
-| `c1-l036` | &emsp;Amega cacaru. *Chouer ſobre alguã couſa.* |  |
+| `c1-l035` | &emsp;*¶ Item, Cair algũa couſa ſobre outra. Vt,* |  |
+| `c1-l036` | &emsp;Amega cacaru. *Chouer ſobre algũa couſa.* |  |
 | `c1-l037` | &emsp;*¶ Item, Cair a culpa, ou outra couſa ſobre* |  |
 | `c1-l038` | &emsp;*alguem, ou ſer lhe impoſta. Vt,* Cono to- |  |
 | `c1-l039` | &emsp;gaua tareni cacarǒca? *Eſta culpa ſobre* |  |
@@ -60,7 +60,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l044` | &emsp;*¶* Cacarite. *Fiador. ¶ Item, Surgir* |  |
 | `c1-l045` | &emsp;*o nauio. Vt,* Funega cacaru. *¶ Item,* |  |
 | `c1-l046` | &emsp;*Eſtar a balança em fiel, ou juſta, ou ſer peza-* |  |
-| `c1-l047` | &emsp;*da alguã couſa. Vt,* Fiacunie cacatta. *Eſ-* |  |
+| `c1-l047` | &emsp;*da algũa couſa. Vt,* Fiacunie cacatta. *Eſ-* |  |
 
 ## Column 2 running header
 
@@ -75,7 +75,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l001` | &emsp;*tão pezados dez taes. ¶* Cacatta. *Eſta* |  |
 | `c2-l002` | &emsp;*pezado, ou eſta a balança, ou da chem, ou ri* |  |
 | `c2-l003` | &emsp;*fio. ¶ Item, Eſtar ocupado, ou entender* |  |
-| `c2-l004` | &emsp;*em alguã couſa. Vt,* Mononi cacaru. Zǒſa |  |
+| `c2-l004` | &emsp;*em algũa couſa. Vt,* Mononi cacaru. Zǒſa |  |
 | `c2-l005` | &emsp;cuni cacaru. *Entẽder ẽ obras. ¶ Itẽ, Aco* |  |
 | `c2-l006` | &emsp;*meter, ou arremeter. Vt,* Teqini cacaru. |  |
 | `c2-l007` | &emsp;*Acometer os inimigos. ¶ Item, Ser ſuſ-* |  |

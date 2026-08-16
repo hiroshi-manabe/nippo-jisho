@@ -36,7 +36,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l020` | Busaicacuna. *De pouca induſtria, & negocio.* |  |
 | `c1-l021` | &emsp;Busaicacuni. |  |
 | `c1-l022` | &emsp;Buſaicacuſa. |  |
-| `c1-l023` | Busaicu. *Pouco engenhoſo de mãos.* |  |
+| `c1-l023` | Busaicu. *Pouco engenhoſo de maõs.* |  |
 | `c1-l024` | Busaicuna. *Idem.* |  |
 | `c1-l025` | Busaicuni. *Adu.* |  |
 | `c1-l026` | Busata. *Falta nos comprimentos, & viſitas.* |  |

@@ -15,7 +15,7 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c1-l001` | &emsp;*parte, & peſada da outra, &c. ¶ Item,* |  |
-| `c1-l002` | &emsp;*Permet. Deſiguais em alguã arte, jogo, &c.* |  |
+| `c1-l002` | &emsp;*Permet. Deſiguais em algũa arte, jogo, &c.* |  |
 | `c1-l003` | Catazzu. *Cuſpinho. Mas vſaſe ſó neſta fraſe.* |  |
 | `c1-l004` | &emsp;*Vt,* Catazzuuo nomu. *Eſtar affligido,* |  |
 | `c1-l005` | &emsp;*& em aperto.* |  |
@@ -47,7 +47,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l031` | &emsp;*ſar grande fome.* |  |
 | `c1-l032` | Cate. *Matafotagẽ, ou mantimentos. ¶* Ca- |  |
 | `c1-l033` | &emsp;teuotçumu. *Ajuntar mantimentos, ¶* Iiẽ. |  |
-| `c1-l034` | &emsp;*Embarcalos, ou metelos ẽ alguã caſa. ¶* Ca |  |
+| `c1-l034` | &emsp;*Embarcalos, ou metelos ẽ algũa caſa. ¶* Ca |  |
 | `c1-l035` | &emsp;teni tçumaru. *Faltarem os mantimentos.* |  |
 | `c1-l036` | Caten. i. Tenuo cuuayuru. *Acrecentar hũ* |  |
 | `c1-l037` | &emsp;*ponto à letra de Iapão com que ſe lê de outra* |  |
@@ -92,7 +92,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l018` | Caua. *Pelle, ou couro. ¶ Item, Caſca da* |  |
 | `c2-l019` | &emsp;*aruore, fruita, &c.* |  |
 | `c2-l020` | Caua araxi. *Vento que venta no rio.* |  |
-| `c2-l021` | Cauabacama. *Calções de couro.* |  |
+| `c2-l021` | Cauabacama. *Calçoẽs de couro.* |  |
 | `c2-l022` | Cauabata. *Borda do rio.* |  |
 | `c2-l023` | Cauabei. *Idem.* |  |
 | `c2-l024` | Cauabuçuro. *Bolſa, ou ſaco de couro.* |  |

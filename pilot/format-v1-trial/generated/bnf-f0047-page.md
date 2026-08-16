@@ -105,7 +105,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l017` | &emsp;*eſtrondo com os caualos.* |  |
 | `c2-l018` | Babaxij. *Vt,* Babaxij fito. *Homem que* |  |
 | `c2-l019` | &emsp;*no exterior ſe moſtra inquieto, & deſe-* |  |
-| `c2-l020` | &emsp;*manchado nas palauras, & mais aições.* |  |
+| `c2-l020` | &emsp;*manchado nas palauras, & mais aiçoẽs.* |  |
 | `c2-l021` | Babameqi, u, eita. *Fazer traquinada, ou* |  |
 | `c2-l022` | &emsp;*eſtrondo o caualo.* |  |
 | `c2-l023` | Babamixe. *O paſſear o caualo a carreira antes* |  |

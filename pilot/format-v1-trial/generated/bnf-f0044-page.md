@@ -80,10 +80,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l006` | Axigatame. *Couſa em que eſtribão, ou ſe* |  |
 | `c2-l007` | &emsp;*fortificão os pès de banco, ou de couſa ſeme-* |  |
 | `c2-l008` | &emsp;*lhante como* Faxira*, &c.* |  |
-| `c2-l009` | Axigaxe. *Grilhões, ou tronco de pão.* Tega- |  |
-| `c2-l010` | &emsp;xe, axigaxe. *Algemas, & grilhões.* |  |
+| `c2-l009` | Axigaxe. *Grilhoẽs, ou tronco de pão.* Tega- |  |
+| `c2-l010` | &emsp;xe, axigaxe. *Algemas, & grilhoẽs.* |  |
 | `c2-l011` | Axigue. *Cor de cauallo ruço.* |  |
-| `c2-l012` | Axigutçu, i, fodaxi. *Malho, ou grilhões de pão.* |  |
+| `c2-l012` | Axigutçu, i, fodaxi. *Malho, ou grilhoẽs de pão.* |  |
 | `c2-l013` | Axij. *Couſa maa, & prejudicial.* |  |
 | `c2-l014` | &emsp;Axiſa. |  |
 | `c2-l015` | &emsp;Axij. |  |
@@ -116,7 +116,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l042` | Axino vottori. *Colo do pè açima dos artelhos.* |  |
 | `c2-l043` | Axino ura. *Sola dos pès.* |  |
 | `c2-l044` | Axinoya. *Caſa de colmo, ou de caniços.* |  |
-| `c2-l045` | Axiqe. *Doença dos pès do falcão. Itẽ, Doença* |  |
+| `c2-l045` | Axiqe. *Doença dos pès do falcaõ. Itẽ, Doença* |  |
 | `c2-l046` | &emsp;*dos pès de outros paſſaros de gayolla.* |  |
 | `c2-l047` | Axiqiqi. *Deſtro, ou ligeiro, & forte dos pès.* |  |
 | `c2-l048` | &emsp;*Diz ſe de homẽs, & cauallos que andão bem.* |  |

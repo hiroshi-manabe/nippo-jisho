@@ -25,8 +25,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l009` | &emsp;*ou limpa, & luſtroſa, como veſtido, &c.* |  |
 | `c1-l010` | &emsp;Bireni. |  |
 | `c1-l011` | &emsp;Bireſa. |  |
-| `c1-l012` | Bireǒ. *Alguã parte rota do veſtido. Vt,* |  |
-| `c1-l013` | &emsp;Bireǒga ſigatta. *Andar alguã parte do* |  |
+| `c1-l012` | Bireǒ. *Algũa parte rota do veſtido. Vt,* |  |
+| `c1-l013` | &emsp;Bireǒga ſigatta. *Andar algũa parte do* |  |
 | `c1-l014` | &emsp;*veſtido rota, & depenurada.* |  |
 | `c1-l015` | Bireǒ. Sucoxi ſuzuxi. *Freſco do eſtio que* |  |
 | `c1-l016` | &emsp;*ſerue pera paſſar a calma.* |  |

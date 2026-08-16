@@ -17,7 +17,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1a-l001` | Bet ri. Vacare, fanaruru. *Apartamento.* |  |
 | `c1a-l002` | Betriũ. Bechino nagare. *Outra arte, ou* |  |
 | `c1a-l003` | &emsp;*doutrina. ¶ Item, Outra maneira, ou mo* |  |
-| `c1a-l004` | &emsp;*do de fazer alguã couſa.* |  |
+| `c1a-l004` | &emsp;*do de fazer algũa couſa.* |  |
 | `c1a-l005` | Betrui. Vacareno namida. *Lagrimas que ſe* |  |
 | `c1a-l006` | &emsp;*derramão no apartamento, ou deſpedida.* |  |
 | `c1a-l007` | Berrui. Bechino taguy. *Outra eſpecie, ou* |  |
@@ -30,7 +30,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1a-l014` | Bettato. *Idem.* |  |
 | `c1a-l015` | Betro. *Nome de hũa certa dignidade. ¶ Itẽ,* |  |
 | `c1a-l016` | &emsp;*Homem que he como cabeça, ou official prin-* |  |
-| `c1a-l017` | &emsp;*cipal nalguã pouoação.* |  |
+| `c1a-l017` | &emsp;*cipal nalgũa pouoação.* |  |
 | `c1a-l018` | Betyô. Bechino yô. *Outra neceſſidade.* |  |
 | `c1a-l019` | Beryũ. Bechino tomo. *Outra companhia.* |  |
 | `c1a-l020` | Bexxi. Bechino cami. i. Bexxo, l, bechi |  |

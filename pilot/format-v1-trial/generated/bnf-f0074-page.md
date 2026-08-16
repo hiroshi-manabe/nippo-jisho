@@ -25,7 +25,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l009` | Cadoi idaxi, ſu, aita. *Leuar alguẽ enga-* |  |
 | `c1-l010` | &emsp;*nado, & furtado.* |  |
 | `c1-l011` | Cadoide. *Saida fora de caſa, que fazem* |  |
-| `c1-l012` | &emsp;*antes de ir a guerra, ou a alguã parte longe* |  |
+| `c1-l012` | &emsp;*antes de ir a guerra, ou a algũa parte longe* |  |
 | `c1-l013` | &emsp;*por não poder partirſe naquelle dia que tinhão* |  |
 | `c1-l014` | &emsp;*dantes determinado, & por não perder a* |  |
 | `c1-l015` | &emsp;*ocaſião do bõ dia que eſperarão, vão entre tan-* |  |
@@ -36,7 +36,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l020` | &emsp;cadoide yoi, l, axij. *Ser a ſaida boa, bem,* |  |
 | `c1-l021` | &emsp;*ou mal eſtreada conforme ao ſucceſſo que tem* |  |
 | `c1-l022` | &emsp;*no dia em que ſaem, ou ſe partem deueras, &* |  |
-| `c1-l023` | &emsp;*aſſi ſe acerta de encontrar alguã peſſoa a que* |  |
+| `c1-l023` | &emsp;*aſſi ſe acerta de encontrar algũa peſſoa a que* |  |
 | `c1-l024` | &emsp;*tem odio, &c. dizem* cadoideuo ximauoi |  |
 | `c1-l025` | &emsp;te mairo. *Quero ir me emendar, ou mi-* |  |
 | `c1-l026` | &emsp;*lhorar eſta ſaida, o q̃ fazem tornando ſe pera* |  |
@@ -74,7 +74,7 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c2-l001` | Cafǔ. Iyeno fǔ. i. Catagui. *Cuſtume par-* |  |
-| `c2-l002` | &emsp;*ticular dalguã familia, ou arte que por dedução* |  |
+| `c2-l002` | &emsp;*ticular dalgũa familia, ou arte que por dedução* |  |
 | `c2-l003` | &emsp;*he propria de algũa familia. ¶* Cafǔ jin |  |
 | `c2-l004` | &emsp;jǒni xite. *Sendo arte limpa, & liberal co* |  |
 | `c2-l005` | &emsp;*mo de compor* Vtas, *&c. propria dalgũa* |  |
@@ -86,7 +86,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l011` | Cagacu. Vtano manabi. i. Vtauo narǒ. |  |
 | `c2-l012` | &emsp;*O aprender a fazer verſos de Iapão ou China.* |  |
 | `c2-l013` | Cagacu. Xirayori manabu. *O aprender co-* |  |
-| `c2-l014` | &emsp;*meçando por baxos principios alguã couſa. Vt,* |  |
+| `c2-l014` | &emsp;*meçando por baxos principios algũa couſa. Vt,* |  |
 | `c2-l015` | &emsp;Cagacu xite xǒ taſu. *Aprender deſdo* |  |
 | `c2-l016` | &emsp;*mais baxo, pera vir a ſaber couſas altas. S.* |  |
 | `c2-l017` | Cagaguinu. *Peças de ſeda que ſe fazem bo-* |  |

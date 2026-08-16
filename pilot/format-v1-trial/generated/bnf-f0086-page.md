@@ -24,7 +24,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l008` | &emsp;quru. *Falar com alguem. ¶* Monouo |  |
 | `c1-l009` | &emsp;meni caquru. *Moſtrar algũa couſa a alguẽ.* |  |
 | `c1-l010` | &emsp;*¶* Mizzuuo caquru. *Agoar. ¶* Mo- |  |
-| `c1-l011` | &emsp;noni meuo caquru. *Por os olhos em alguã* |  |
+| `c1-l011` | &emsp;noni meuo caquru. *Por os olhos em algũa* |  |
 | `c1-l012` | &emsp;*couſa deſejandoa. ¶* Fitoni meuo caqu- |  |
 | `c1-l013` | &emsp;ru. *Fauoreçer a alguem.* |  |
 | `c1-l014` | Caqe, uru, eta. *Arremeter. ¶* Teqiye |  |
@@ -87,7 +87,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l013` | &emsp;*zer eſpalhafato nos inimigos a caualo.* |  |
 | `c2-l014` | Caqecurabe, uru, eta. i. Caqenarabe, uru. |  |
 | `c2-l015` | &emsp;*Correrem dous, ou muitos a par.* |  |
-| `c2-l016` | Caqecurabe, uru, eta. *Pezar alguãs couſas* |  |
+| `c2-l016` | Caqecurabe, uru, eta. *Pezar algũas couſas* |  |
 | `c2-l017` | &emsp;*cotejandoas.* |  |
 | `c2-l018` | Caqedaxi. *Crecenças do pezo.* |  |
 | `c2-l019` | Caqedaxi, ſu, aita. *Botar, ou arremeçar o* |  |
@@ -102,7 +102,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l028` | &emsp;*como eſcada que não pode chegar ao ceo.* |  |
 | `c2-l029` | Caqefazzuxi, ſu, uita. *Deſencontrarſe cõ alguẽ* |  |
 | `c2-l030` | &emsp;*indo correndo a caualo. ¶ Item, Botar a rede* |  |
-| `c2-l031` | &emsp;*ẽ vão ſobre paſſaros q̃ ſe aleuantão voando.* |  |
+| `c2-l031` | &emsp;*ẽ vão ſobre paſſaros q̃ ſe aleuantaõ voando.* |  |
 | `c2-l032` | Caqefi. *Cano por onde vẽ agoa trazida de longe.* |  |
 | `c2-l033` | Caqefiqi. *O arremeter, & retirarſe. ¶* Xe |  |
 | `c2-l034` | &emsp;giǒdeua caqefiqiga daijina cotogia. *Na* |  |

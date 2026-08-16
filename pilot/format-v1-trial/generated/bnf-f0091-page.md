@@ -26,14 +26,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l010` | Caracotoba. *Palauras eſcuras como da china.* |  |
 | `c1-l011` | &emsp;*vide* caragon. |  |
 | `c1-l012` | Caracumi, u, unda. *Inuentar, & edificar* |  |
-| `c1-l013` | &emsp;*alguã obra que não he ordinaria. Vt,* Fu- |  |
+| `c1-l013` | &emsp;*algũa obra que não he ordinaria. Vt,* Fu- |  |
 | `c1-l014` | &emsp;neni xeirǒuo caracumi aguru. *Aleuan-* |  |
 | `c1-l015` | &emsp;*tar na* fune *baluarte alto como maſto com* |  |
 | `c1-l016` | &emsp;*gauea.* |  |
 | `c1-l017` | Caracurenai. *Retroz Carmezim da China.* |  |
 | `c1-l018` | Caracuri, u, utta. *Fazer, ou inuentar algũa* |  |
 | `c1-l019` | &emsp;*couſa artificioſa. ¶ Item, Fazer inuen-* |  |
-| `c1-l020` | &emsp;*ções, l, concertar de maneira que ſe unão ou-* |  |
+| `c1-l020` | &emsp;*çoẽs, l, concertar de maneira que ſe unão ou-* |  |
 | `c1-l021` | &emsp;*tros com alguem, &c. Vt,* Vchiuauo |  |
 | `c1-l022` | &emsp;caracuru. *Fazer eſtas inuenções, & ardis* |  |
 | `c1-l023` | &emsp;*pera que outros ſejão do meſmo parecer.* |  |
@@ -89,7 +89,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l009` | Carametçuqe, uru, eta. *Prender, ou a-* |  |
 | `c2-l010` | &emsp;*marrar.* |  |
 | `c2-l011` | Caramete. *Porta detraição da fortaleza. A* |  |
-| `c2-l012` | &emsp;*inda que alguã vez ſe diga, ou ache nalgum* |  |
+| `c2-l012` | &emsp;*inda que algũa vez ſe diga, ou ache nalgum* |  |
 | `c2-l013` | &emsp;*liuro,* Caramede, *a propria palaura he Ca-* |  |
 | `c2-l014` | &emsp;*ramete.* |  |
 | `c2-l015` | Carametori, u, otta. *Prender, & amarrar.* |  |
@@ -103,7 +103,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l023` | Cararito. *Adu. Modo de ſoar algũa couſa* |  |
 | `c2-l024` | &emsp;*junta com outra como pao, ou bambu que dà* |  |
 | `c2-l025` | &emsp;*hum no outro, ou ſeta que toca no arco, &c.* |  |
-| `c2-l026` | &emsp;*¶ Item, Modo de ſecar, & torrar alguã* |  |
+| `c2-l026` | &emsp;*¶ Item, Modo de ſecar, & torrar algũa* |  |
 | `c2-l027` | &emsp;*couſa. Vt,* Cararito iriaguru. *Acabar* |  |
 | `c2-l028` | &emsp;*de ſecar, ou torrar.* |  |
 | `c2-l029` | Carari cararito. *Adu. Modo de ſoar metal* |  |

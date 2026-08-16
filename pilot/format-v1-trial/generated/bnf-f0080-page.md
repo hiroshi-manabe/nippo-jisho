@@ -81,7 +81,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l006` | &emsp;xi fitouo camu. *O lião come o homem.* |  |
 | `c2-l007` | Cami, u, ôda. *Vt,* Fanauo camu. *Aſſoarſe.* |  |
 | `c2-l008` | Camiai, ǒ, ǒta. *Morderſe hũ ao outro. Vt,* |  |
-| `c2-l009` | &emsp;Ynuga camiyǒta. *Os cães morderão ſe huns* |  |
+| `c2-l009` | &emsp;Ynuga camiyǒta. *Os caẽs morderão ſe huns* |  |
 | `c2-l010` | &emsp;*aos outros.* |  |
 | `c2-l011` | Camibuſuma. *Colchão a maneira de feltro* |  |
 | `c2-l012` | &emsp;*de papel.* |  |

@@ -85,9 +85,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l011` | Batriǔ. Suyeno nagare. *Geração, ou deſ* |  |
 | `c2-l012` | &emsp;*cendentes ultimos q̃ vem dalguã familia, mas* |  |
 | `c2-l013` | &emsp;*o mais commum ſentido he diſcipulos, ou deſ-* |  |
-| `c2-l014` | &emsp;*cendentes derradeiros dalguã ſeita, arte,* |  |
+| `c2-l014` | &emsp;*cendentes derradeiros dalgũa ſeita, arte,* |  |
 | `c2-l015` | &emsp;*doutrina, &c.* |  |
-| `c2-l016` | Batto. *Aduer. Modo deſe eſpalhar alguã* |  |
+| `c2-l016` | Batto. *Aduer. Modo deſe eſpalhar algũa* |  |
 | `c2-l017` | &emsp;*couſa. ¶ Vt,* Batto chiru. *Eſpalharſe* |  |
 | `c2-l018` | &emsp;*algũa couſa em varias partes.* |  |
 | `c2-l019` | Batyô. Suyenoſa. *Deſcendentes derradeiros* |  |

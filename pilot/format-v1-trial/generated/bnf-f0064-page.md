@@ -84,8 +84,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l010` | &emsp;guen. *Riqueza.* |  |
 | `c2-l011` | Bunguiri. *Hum canudo em que cabe hũa car-* |  |
 | `c2-l012` | &emsp;*ga de poluora. ¶ Item, Certa parte, ou* |  |
-| `c2-l013` | &emsp;*quinhão de alguã couſa. ¶* Bunguiriuo ia- |  |
-| `c2-l014` | &emsp;damuru. *Diuidir, ou repartir quinhões.* |  |
+| `c2-l013` | &emsp;*quinhão de algũa couſa. ¶* Bunguiriuo ia- |  |
+| `c2-l014` | &emsp;damuru. *Diuidir, ou repartir quinhoẽs.* |  |
 | `c2-l015` | Bunhô. Yutaca. *Abundancia, & abaſtança.* |  |
 | `c2-l016` | Bunhôna. *Abundante, proſpero, & abaſtado.* |  |
 | `c2-l017` | &emsp;*¶* Bunhôna cuni, toxi, &c. *Reino a-* |  |

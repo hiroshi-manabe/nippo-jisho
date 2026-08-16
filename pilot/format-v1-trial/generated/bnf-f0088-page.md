@@ -47,7 +47,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l031` | Caqi. *Sebe.* |  |
 | `c1-l032` | Caqi, u, aita. *Eſcreuer. ¶ Item, Pin-* |  |
 | `c1-l033` | &emsp;*tar, ou debuxar. ¶* Teuo caqi aguru. |  |
-| `c1-l034` | &emsp;*Eſcreuer ja bem, & com alguã perfeição mais.* |  |
+| `c1-l034` | &emsp;*Eſcreuer ja bem, & com algũa perfeição mais.* |  |
 | `c1-l035` | Caqi, u, aita. *Arranhar, ou coçar. vt,* |  |
 | `c1-l036` | &emsp;Atamauo caqu. *Coçar a cabeça. ¶* Ibi- |  |
 | `c1-l037` | &emsp;quuo caqu. *Roncar dormindo. ¶* Fai- |  |
@@ -72,7 +72,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | &emsp;*mente ſe põe ẽ ablatiuo a couſa que falta. Vt,* |  |
+| `c2-l001` | &emsp;*mente ſe poẽ ẽ ablatiuo a couſa que falta. Vt,* |  |
 | `c2-l002` | &emsp;Camini cotouo caita. *Faltoume papel.* |  |
 | `c2-l003` | Caqi, u. *Leuarem duas, ou mais peſſoas algũa* |  |
 | `c2-l004` | &emsp;*couſa aos hombros, ou nas mãos. ¶* Co- |  |

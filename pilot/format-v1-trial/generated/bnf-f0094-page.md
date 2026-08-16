@@ -43,7 +43,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l027` | &emsp;*bre outros.* |  |
 | `c1-l028` | Caſanete. *Adu. Outra vez.* |  |
 | `c1-l029` | Caſayadori. P. i. Aniayadori. *O aco-* |  |
-| `c1-l030` | &emsp;*lherſe da chūua emparando ſe de baixo dalguã* |  |
+| `c1-l030` | &emsp;*lherſe da chūua emparando ſe de baixo dalgũa* |  |
 | `c1-l031` | &emsp;*aruore, ou flores como de baixo de ſombreiro.* |  |
 | `c1-l032` | Caſù. Metoru coto. *Caçarſe, ou tomar o* |  |
 | `c1-l033` | &emsp;*homem molher. S.* |  |

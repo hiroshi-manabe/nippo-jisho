@@ -43,7 +43,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l027` | &emsp;*te hũa parte aberta à maneira de mão cõ dedos.* |  |
 | `c1-l028` | Buxucanno qi. *Cidreira.* |  |
 | `c1-l029` | Buxǔxin. Xǔxin narazu. *Pouca inclinação,* |  |
-| `c1-l030` | &emsp;*ou affeição a alguã couſa.* |  |
+| `c1-l030` | &emsp;*ou affeição a algũa couſa.* |  |
 | `c1-l031` | Buxǔxinna. *Pouco inclinado, ou pouco affei* |  |
 | `c1-l032` | &emsp;*çoado a algũa couſa.* |  |
 | `c1-l033` | Buxxari. Fotoqeno xari. *Caueira, ou oſſo* |  |

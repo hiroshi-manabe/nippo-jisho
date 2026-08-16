@@ -2,12 +2,12 @@
 
 ## Result
 
-The Level 1 corpus is not uniform. A scan-level audit of the complete `algũa` / `alguã` family found **388 occurrences on 387 lines**:
+The Level 1 corpus is not uniform. The occurrence ledger for the complete `algũa` / `alguã` family contains **388 occurrences on 387 lines**:
 
-- **242** print the tilde over `u`: for example `algũa`, `dalgũa`, and `Algũas`;
-- **146** print the tilde over final `a`: for example `alguã`, `dalguã`, and `nalguã`.
+- **330** print the tilde over `u`: for example `algũa`, `dalgũa`, and `Algũas`;
+- **58** print the tilde over final `a`: for example `alguã`, `dalguã`, and `nalguã`.
 
-The previously uniform transcription has therefore been corrected at the 146 final-`a` occurrences and retained at the other 242. The initiating example, `bnf-f0019:c2b-l011`, reads `alguã`; the clear forms on `bnf-f0014:c1-l044`, `c2-l029`, `c2-l039`, and `c2-l042` remain `algũa`. Enlarged line review later reassigned five initially classified final-`a` cases on `f47`–`f51` to tilde-over-`u`; human Issue review likewise reassigned `bnf-f0026:c2-l013`, `bnf-f0027:c2-l046`, `bnf-f0029:c2-l026`, three occurrences on `bnf-f0030`, `bnf-f0032:c2-l034` and `c2-l044`, `bnf-f0035:c2-l017`, four occurrences on `bnf-f0036`, `bnf-f0040:c2-l009` and `c2-l039`, `bnf-f0041:c2-l036`, and `bnf-f0042:c1-l004`, while Issues #16 and #31 respectively assigned `bnf-f0028:c2-l033` and `bnf-f0042:c2-l033` to final-`a`.
+The initiating example, `bnf-f0019:c2b-l011`, still reads `alguã`; the clear forms on `bnf-f0014:c1-l044`, `c2-l029`, `c2-l039`, and `c2-l042` remain `algũa`. The first grouped scan audit substantially overestimated final-`a` placement. Later enlarged-line and Issue review had already reassigned several cases, and the dedicated one-candidate-at-a-time human interface in Issue #36 reassigned another **86** `alguã`-family occurrences to tilde-over-`u`. The ledger now records those individual human decisions rather than the earlier expectation-biased batch classification. Genuine final-`a` forms remain and must not be normalized automatically.
 
 The occurrence ledger is [tilde-position-audit.tsv](tilde-position-audit.tsv). It records the page, line identifier, previous text, scan-adjudicated source text, and vowel carrying the mark. Capitalization, plurality, and contraction (`d-`, `n-`) are retained independently of the tilde position.
 

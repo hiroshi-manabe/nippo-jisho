@@ -80,7 +80,7 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c2-l001` | Cangǒ. Cangaye auatçuru. *Adiuinhar com* |  |
 | `c2-l002` | &emsp;*putando.* |  |
-| `c2-l003` | Cangǒ xen. *Nome de hũas embarcações an* |  |
+| `c2-l003` | Cangǒ xen. *Nome de hũas embarcaçoẽs an* |  |
 | `c2-l004` | &emsp;*tiguas que hião de Iapão à China.* |  |
 | `c2-l005` | Cangi. Samui tçuchi. *Terra fria.* |  |
 | `c2-l006` | Cangi. Cuaita tçuchi. *Terra ſeca, &* |  |
@@ -106,7 +106,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l026` | &emsp;*Couſa neceſſaria, & de importancia.* |  |
 | `c2-l027` | Canjiqi. *Hũas taboas redondas que ſe amarrão* |  |
 | `c2-l028` | &emsp;*nas ſolas dos pès em caminhos de muita neue pe* |  |
-| `c2-l029` | &emsp;*ra ſe não atolar nella.* |  |
+| `c2-l029` | &emsp;*ra ſe naõ atolar nella.* |  |
 | `c2-l030` | Canjit. Samui fi. *Dia de grande frio.* |  |
 | `c2-l031` | Canjo. Samuxi atçuxi. i. Natçuto fuyu. |  |
 | `c2-l032` | &emsp;*Inuerno, & verão.* |  |

@@ -39,7 +39,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l023` | Bicu. *Parte exterior das orelhas.* |  |
 | `c1-l024` | Bicu. i. Votoco xucqe. *Religioſo gentio* |  |
 | `c1-l025` | &emsp;*ou* Bôzo. |  |
-| `c1-l026` | Bicumeqi, u, eita. *Palpitar, ou bulir alguã* |  |
+| `c1-l026` | Bicumeqi, u, eita. *Palpitar, ou bulir algũa* |  |
 | `c1-l027` | &emsp;*parte do corpo.* |  |
 | `c1-l028` | Bicuni. i. ama. *Molher rapada, ou religioſa* |  |
 | `c1-l029` | &emsp;*gentia.* |  |

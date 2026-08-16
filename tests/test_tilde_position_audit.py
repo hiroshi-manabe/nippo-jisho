@@ -18,7 +18,7 @@ class TildePositionAuditTests(unittest.TestCase):
         self.assertEqual(len(self.rows), 388)
         self.assertEqual(
             {mark: sum(row["mark_on"] == mark for row in self.rows) for mark in ("u", "a")},
-            {"u": 244, "a": 144},
+            {"u": 330, "a": 58},
         )
         self.assertEqual(len({(row["page"], row["line"]) for row in self.rows}), 387)
 

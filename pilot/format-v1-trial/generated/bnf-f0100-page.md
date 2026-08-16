@@ -53,7 +53,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l037` | &emsp;*ſem fato. Vſaſe tambem no gerundio* Ca- |  |
 | `c1-l038` | &emsp;xete. *Eſtando magro, &c.* |  |
 | `c1-l039` | Caxi, ſu, aita. *Empreſtar. ¶ Item, A* |  |
-| `c1-l040` | &emsp;*lugar, ou arendar alguã couſa a outro como* |  |
+| `c1-l040` | &emsp;*lugar, ou arendar algũa couſa a outro como* |  |
 | `c1-l041` | &emsp;*caſa, &c.* |  |
 | `c1-l042` | Caxi, ſu, aita. *Meter nagoa o arroz pera a* |  |
 | `c1-l043` | &emsp;*molecer,* |  |

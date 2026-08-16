@@ -110,7 +110,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l029` | &emsp;*lhai por vos. (onde poem as panelas.* |  |
 | `c2-l030` | Camano dan. i. Camado, l, tetçuri. *Lugar* |  |
 | `c2-l031` | Camano fa. *Cinta de ferro q̃ te ao derredor das* |  |
-| `c2-l032` | &emsp;*bordas alguãs panelas de ferro da cozinha.* |  |
+| `c2-l032` | &emsp;*bordas algũas panelas de ferro da cozinha.* |  |
 | `c2-l033` | Camano feſo. *Remate que fica no fundo da* |  |
 | `c2-l034` | &emsp;*panela fundida.* |  |
 | `c2-l035` | Camano fitai, l, camadono fitai. *Parte di* |  |

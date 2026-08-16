@@ -41,7 +41,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l025` | &emsp;*donda que eſta na ponta do ferro da frecha.* |  |
 | `c1-l026` | Biǒbu. Cajeuo fuxegu. *Hũa maneira de* |  |
 | `c1-l027` | &emsp;*panneis groſſos que ſe tem por ſi em pee, de que* |  |
-| `c1-l028` | &emsp;*vzão os Iapões pera ornato das caſas, & pera* |  |
+| `c1-l028` | &emsp;*vzão os Iapoẽs pera ornato das caſas, & pera* |  |
 | `c1-l029` | &emsp;*contra o vento, &c. ¶* Biǒbu uo caye- |  |
 | `c1-l030` | &emsp;ſugi gotocu, vma yori maſſacalamani vo- |  |
 | `c1-l031` | &emsp;chita. *Cabio do caualo de pernas arriba a* |  |
@@ -80,7 +80,7 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c2-l001` | Biǒdôni. *Vt,* Biǒdôni monouo voſamuru. |  |
 | `c2-l002` | &emsp;*Gouernar com igualdade, & iuſtiça. ¶* Biǒ- |  |
-| `c2-l003` | &emsp;dôni monouo cubaru. *Repartir alguã* |  |
+| `c2-l003` | &emsp;dôni monouo cubaru. *Repartir algũa* |  |
 | `c2-l004` | &emsp;*couſa igualmente.* |  |
 | `c2-l005` | Biǒdôzucuri. *Certo feitio de arco da tirar.* |  |
 | `c2-l006` | Biǒgan. Vazzurǒ manaco. *Olhos doẽtes.* |  |

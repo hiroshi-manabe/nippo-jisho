@@ -39,7 +39,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l023` | Bocchô. Vodori, ru. *Bailar, ou dançar.* |  |
 | `c1-l024` | Bochibochi. *Adu. Modo, & ſom de cair* |  |
 | `c1-l025` | &emsp;*agua de alto como goteiras, ou ſom que faz o* |  |
-| `c1-l026` | &emsp;*rato quando roe alguã couſa.* |  |
+| `c1-l026` | &emsp;*rato quando roe algũa couſa.* |  |
 | `c1-l027` | Bochimecaxi, ſu, aita. *Fazer ſoar tocando,* |  |
 | `c1-l028` | &emsp;*ou batendo. ¶* Tçuzzumiuo bochimeca- |  |
 | `c1-l029` | &emsp;ſu. *Fazer ſoar mal o tamboril de Iapão,* |  |
@@ -56,7 +56,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l040` | &emsp;*do, & aſolado.* |  |
 | `c1-l041` | Bôcen. *Almas perdidas que paſſarão ja deſta* |  |
 | `c1-l042` | &emsp;*vida.* |  |
-| `c1-l043` | Bocu. *Pao toſco, em que eſtão pegadas alguãs* |  |
+| `c1-l043` | Bocu. *Pao toſco, em que eſtão pegadas algũas* |  |
 | `c1-l044` | &emsp;*aruorezinhas, ou eruas à maneira de vbeozqi* |  |
 | `c1-l045` | &emsp;*nho.* |  |
 | `c1-l046` | Bocu. *Preza feita na guerra, ou deſpojo.* |  |
