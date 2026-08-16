@@ -17,50 +17,50 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l001` | &emsp;*bação, & temor.* |  |
 | `c1-l002` | Auaxe. *Veſtido forrado ſem eſtofo. ¶ Item,* |  |
 | `c1-l003` | &emsp;*Compoſta eſta palaura cõ outras ſignifica eſ-* |  |
-| `c1-l004` | &emsp;*tarem alguãs couſas juntas. Vt,* Nimai aua- |  |
+| `c1-l004` | &emsp;*tarem algũas couſas juntas. Vt,* Nimai aua- |  |
 | `c1-l005` | &emsp;xeni camiuo coxinayuru. *Fazer paſta de* |  |
 | `c1-l006` | &emsp;*duas folhas &c.* |  |
 | `c1-l007` | Auaxe, auaſuru, auaxeta. *Ajuntar hũa* |  |
 | `c1-l008` | &emsp;*couſa com outra ¶* Teuo auaſuru. |  |
-| `c1-l009` | &emsp;*Aleuantar as mãos juntas. ¶* San- |  |
-| `c1-l010` | &emsp;yǒuo auaſuru. *Fazer contas. ¶* Fiǒgui- |  |
+| `c1-l009` | &emsp;*Aleuantar as maõs juntas. ¶* San- |  |
+| `c1-l010` | &emsp;yôuo auaſuru. *Fazer contas. ¶* Fiǒgui- |  |
 | `c1-l011` | &emsp;uo auaſuru. *Concertarſe & concordar com ou-* |  |
 | `c1-l012` | &emsp;*tro acerca do modo de fazer algũa couſa.* |  |
 | `c1-l013` | &emsp;*¶* Cocoro, l, cocorozaxiuo auaſuru. |  |
-| `c1-l014` | &emsp;*Concordar entre ſi, ou vnirſe. ¶* Chicara- |  |
+| `c1-l014` | &emsp;*Concordar entre ſi, ou vnir ſe. ¶* Chicara- |  |
 | `c1-l015` | &emsp;uo auaſuru. *Aiudar ſe hũs aos outros.* |  |
-| `c1-l016` | &emsp;*¶* Feǒxiuo auaſuru. *Cantar, ou deſcantar* |  |
-| `c1-l017` | &emsp;*juntamente & com cõpaço. ¶* Gacugiuo |  |
+| `c1-l016` | &emsp;*¶* Feôxiuo auaſuru. *Cantar, ou des cantar* |  |
+| `c1-l017` | &emsp;*jutamente & com cõpaço. ¶* Gacuqiuo |  |
 | `c1-l018` | &emsp;auaſuru. *Deſcantar com inſtrumentos muſicos.* |  |
 | `c1-l019` | &emsp;*¶* Cuſuriuo auaſuru. *Ajuntar os materi-* |  |
 | `c1-l020` | &emsp;*aes, & fazer delles mezinha. ¶* Camiſo- |  |
 | `c1-l021` | &emsp;riuo auaſuru. *¶ Afiar as naualhas.* |  |
-| `c1-l022` | &emsp;*¶* Xubi, l, fazu no auaſuru. *Concordar o* |  |
+| `c1-l022` | &emsp;*¶* Xubi, l, fazu no auaſuru. *Concodar o* |  |
 | `c1-l023` | &emsp;*principio, & o fim, ou comprir a promeſſa.* |  |
-| `c1-l024` | &emsp;*¶* Niuatorino auaſuru. *Fazer pelejar os* |  |
-| `c1-l025` | &emsp;*galos. ¶* Togiuo auaſuru. *Reſponder* |  |
+| `c1-l024` | &emsp;*¶* Niuatorino auaſuru. *Fazer peleiar os* |  |
+| `c1-l025` | &emsp;*galos. ¶* Toqiuo auaſuru. *Reſponder* |  |
 | `c1-l026` | &emsp;*com grita ao exercito, ou outra gente que primei-* |  |
-| `c1-l027` | &emsp;*ro gritou. ¶* Vumoteuo auaſuru. *Eſ-* |  |
+| `c1-l027` | &emsp;*ro gritou. ¶* Vomoteuo auaſuru. *Eſ-* |  |
 | `c1-l028` | &emsp;*tar virado hũ pera outro cõ o roſto. ¶* Meto |  |
 | `c1-l029` | &emsp;meuo auaſuru. *Fixar os olhos hum no ou-* |  |
 | `c1-l030` | &emsp;*tro. ¶* Coyeuo auaſuru. *Gritar junta-* |  |
 | `c1-l031` | &emsp;*mente. ¶* Yariuo auaſuru. *Enraſtar as* |  |
 | `c1-l032` | &emsp;*lanças hum com outro. ¶ Item,* Auaſuru. |  |
-| `c1-l033` | &emsp;*Cotejar hũa couſa com outra. ¶* Vguyſuno |  |
-| `c1-l034` | &emsp;auaſuru. *Cotejar o cantar de hũ roxinol cõ* |  |
+| `c1-l033` | &emsp;*Cotejar hũa couſa com outra. ¶* Vguyſuuo |  |
+| `c1-l034` | &emsp;auaſuru *Cotejar o cantar de hum roxinol cõ* |  |
 | `c1-l035` | &emsp;*outro. ¶* Yomiauasuru. *Cotejar lendo.* |  |
 | `c1-l036` | Auaxedo. *Pedra de amolar, ou aguçar.* |  |
 | `c1-l037` | Auaxegǒ. *Cheiro, ou porſume de varias con-* |  |
-| `c1-l038` | &emsp;*feições.* |  |
+| `c1-l038` | &emsp;*feiçoẽs.* |  |
 | `c1-l039` | Auaxeguſuri. *Mezinhas feitas de varios ma-* |  |
 | `c1-l040` | &emsp;*teriaes.* |  |
 | `c1-l041` | Auaya. *Interi. Deſpanto.* |  |
 | `c1-l042` | Auayuqi. *Neue da primauera, ou que logo* |  |
-| `c1-l043` | &emsp;*em caindo ſe deſfaz.* |  |
+| `c1-l043` | &emsp;*em caindo ſe desfaz.* |  |
 | `c1-l044` | Auo. *Cor de caualo murzello que tem os pelos* |  |
 | `c1-l045` | &emsp;*de dentro das orelhas hum pouco brancos. Quã-* |  |
-| `c1-l046` | &emsp;*do eſtes pelos ſão igualmente pretos como o de* |  |
-| `c1-l047` | &emsp;*mais cabello do corpo, chama ſe Curo.* |  |
+| `c1-l046` | &emsp;*do eſtes pelos são igualmente pretos como ode* |  |
+| `c1-l047` | &emsp;*mais cabello do corpo, chamaſe* Curo. |  |
 
 ## Column 2 running header
 

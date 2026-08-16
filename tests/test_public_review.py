@@ -484,6 +484,43 @@ class PublicReviewRegressionTests(unittest.TestCase):
         self.assertTrue(plain["c2-l047"].endswith("com pertur"))
         self.assertNotIn("*", "".join(plain.values()))
 
+    def test_f42_issue_30_history_typeface_and_tilde_shorthand(self):
+        history = json.loads(
+            (ROOT / "pilot" / "human-review" / "correction-history.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        page = next(page for page in history["pages"] if page["id"] == "bnf-f0042")
+        self.assertEqual(page["issues_applied"], 1)
+        self.assertEqual(page["distinct_lines"], 16)
+        self.assertEqual(page["accepted_edits"], 16)
+        self.assertEqual(page["issues"][0]["number"], 30)
+        self.assertIn("c1-l034", page["issues"][0]["lines"])
+        self.assertIn("c1-l047", page["issues"][0]["lines"])
+
+        record = json.loads(
+            (ROOT / "pilot" / "format-v1-trial" / "level1" / "bnf-f0042.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        lines = {
+            line["id"]: line["runs"]
+            for zone in record["zones"]
+            for line in zone.get("lines", [])
+        }
+        plain = {
+            line_id: "".join(run["text"] for run in runs)
+            for line_id, runs in lines.items()
+        }
+        self.assertIn("algũas", plain["c1-l004"])
+        self.assertIn("maõs", plain["c1-l009"])
+        self.assertIn("feiçoẽs", plain["c1-l038"])
+        self.assertIn("auaſuru Cotejar", plain["c1-l034"])
+        self.assertIn("jutamente", plain["c1-l017"])
+        self.assertIn("Concodar", plain["c1-l022"])
+        self.assertTrue(any(run["typeface"] == "roman" and "Curo" in run["text"] for run in lines["c1-l047"]))
+        self.assertNotIn("*", "".join(plain.values()))
+
     def test_f29_issue_17_correction_history(self):
         history = json.loads(
             (ROOT / "pilot" / "human-review" / "correction-history.json").read_text(
