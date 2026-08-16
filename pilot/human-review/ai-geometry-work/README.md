@@ -52,9 +52,9 @@ If a returned file explicitly marks `geometry_review_status` as `completed` and 
 
 ## Task-record coverage
 
-Task records are retained for `f31` through `f100`, including already returned and imported work; the presence of a base JSON file therefore does not mean that its page is still pending. The `f32`–`f100` records contain 69 pages and 6,482 body lines. At preparation time, every task was checked for exact page coverage, unique line IDs, source-image and transcription hashes, source-image bounds, null independent readings, and pending judgments. Those hashes deliberately make a task stale when its canonical transcription changes.
+Task records are retained for `f31`–`f237`, `f248`–`f250`, and `f643`, including already returned and imported work; the presence of a base JSON file therefore does not by itself mean that its page is still pending. The complete set contains 211 pages and 19,825 body lines. At preparation time, every task was checked for exact page coverage, unique line IDs, current source-image and transcription hashes, source-image bounds, null independent readings, and pending judgments. Those hashes deliberately make a task stale when its canonical transcription changes.
 
-The initial records contained four known containment flags at `f33/c1b-l001`, `f36/c2b-l001`, `f62/c2b-l001`, and `f68/c2b-l001`; these remain useful examples of issues that a review must resolve. Twelve pages in this range aggregate multiple transcription zones into one physical-column task; their `zone_ids` preserve the required order.
+The newly prepared outstanding batch comprises `f101`–`f237`, `f248`–`f250`, and `f643`: 141 pages and 13,253 body lines. It contains ten explicit `context_crop_does_not_contain_crop` flags that the reviewer must resolve: `f103/c1b-l001`, `f149/c1b-l001`, `f153/c1b-l001`, `f155/c1b-l001`, `f160/c1f-l001`, `f181/c1b-l001`, `f186/c1b-l001`, `f204/c1b-l001`, `f216/c2b-l001`, and `f230/c1b-l001`. Several pages aggregate multiple transcription zones into one physical-column task; their `zone_ids` preserve the required order.
 
 ## Imported batches
 

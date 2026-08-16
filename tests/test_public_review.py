@@ -1,3 +1,4 @@
+import hashlib
 import json
 from pathlib import Path
 import subprocess
@@ -11,6 +12,56 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class PublicReviewRegressionTests(unittest.TestCase):
+    def test_outstanding_external_ai_tasks_are_complete_and_current(self):
+        work = ROOT / "pilot" / "human-review" / "ai-geometry-work"
+        expected_pages = [f"bnf-f{number:04d}" for number in range(101, 238)] + [
+            "bnf-f0248",
+            "bnf-f0249",
+            "bnf-f0250",
+            "bnf-f0643",
+        ]
+        expected_flags = {
+            "bnf-f0103/c1b-l001",
+            "bnf-f0149/c1b-l001",
+            "bnf-f0153/c1b-l001",
+            "bnf-f0155/c1b-l001",
+            "bnf-f0160/c1f-l001",
+            "bnf-f0181/c1b-l001",
+            "bnf-f0186/c1b-l001",
+            "bnf-f0204/c1b-l001",
+            "bnf-f0216/c2b-l001",
+            "bnf-f0230/c1b-l001",
+        }
+        line_count = 0
+        actual_flags = set()
+        for page_id in expected_pages:
+            record = json.loads((work / f"{page_id}.json").read_text(encoding="utf-8"))
+            self.assertEqual(record["page"], page_id)
+            self.assertEqual(record["default_response_mode"], "geometry_and_text")
+            self.assertEqual(
+                record["response_status"], "pending_independent_ai_line_review"
+            )
+            self.assertIn("geometry_and_text", record["completion_statuses"])
+            self.assertIn("geometry_only_fallback", record["completion_statuses"])
+            source = ROOT / record["transcription_source"]["page_file"]
+            self.assertEqual(
+                hashlib.sha256(source.read_bytes()).hexdigest(),
+                record["transcription_source"]["page_file_sha256"],
+            )
+            seen = set()
+            for column in record["columns"].values():
+                for line in column["lines"]:
+                    self.assertNotIn(line["id"], seen)
+                    seen.add(line["id"])
+                    self.assertIsNone(line["observed_text"])
+                    self.assertEqual(line["match"], "pending")
+                    self.assertEqual(line["assessment"], "pending")
+                    if line.get("validation_flags"):
+                        actual_flags.add(f"{page_id}/{line['id']}")
+            line_count += len(seen)
+        self.assertEqual(line_count, 13_253)
+        self.assertEqual(actual_flags, expected_flags)
+
     def test_geometry_only_import_requires_explicit_opt_in(self):
         review = ROOT / "pilot" / "human-review" / "ai-geometry-work" / "bnf-f0042-reviewed.json"
         with tempfile.NamedTemporaryFile(suffix=".json") as geometry:

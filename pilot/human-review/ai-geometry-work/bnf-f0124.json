@@ -1,0 +1,2105 @@
+{
+  "format": "nippo-ai-line-geometry-response",
+  "format_version": 1,
+  "page": "bnf-f0124",
+  "response_status": "pending_independent_ai_line_review",
+  "default_response_mode": "geometry_and_text",
+  "completion_statuses": {
+    "geometry_and_text": {
+      "geometry_review_status": "completed",
+      "text_review_status": "completed"
+    },
+    "geometry_only_fallback": {
+      "geometry_review_status": "completed",
+      "text_review_status": "not_completed"
+    }
+  },
+  "observed_text_provenance": "Must be written independently from each proposed crop before consulting the canonical transcription. Null means that this line has not yet been read.",
+  "coordinate_space": "native Gallica master pixels",
+  "rectangle_format": "[x, y, width, height]",
+  "geometry_acceptance": "Inspect every isolated crop at full practical size against the full page; confirm complete first and last glyphs and all top/bottom ink; do not infer horizontal completeness from line identity or vertical centering; then sweep each column top-to-bottom for repeated clipping, especially the outer/right edge of column 2. Conservative rule-to-rule width and necessary neighboring-line overlap are allowed.",
+  "text_acceptance": "Read the print independently before consulting the canonical line. Preserve visible historical spelling, spacing, diacritics, and long s; do not normalize, copy the canonical text, or guess merely to complete a field. Returned text is advisory until separately adjudicated against the scan.",
+  "lineation_discrepancy": "If the printed number or order of physical lines differs from the task, do not invent a blank continuation, shift IDs, or renumber the response. Mark the response incomplete and report the first divergence so the canonical lineation can be corrected and the task regenerated.",
+  "source": {
+    "filename": "f0124.jpg",
+    "width": 2721,
+    "height": 3893,
+    "sha256": "84f2b99456474a044cb0e186aa5699517af2416e14e502a6e23bcf8a6cc10057",
+    "gallica_url": "https://gallica.bnf.fr/ark:/12148/bpt6k852354j/f124.item"
+  },
+  "transcription_source": {
+    "page_file": "pilot/format-v1-trial/level1/bnf-f0124.json",
+    "page_file_sha256": "a8b6c73d41a4a4ec3ed7fcca332a635e3c090c66e8d3d608b14dae59f91cc2fa"
+  },
+  "columns": {
+    "column-1": {
+      "column_box_xyxy": [
+        340,
+        300,
+        1450,
+        3540
+      ],
+      "zone_ids": [
+        "column-1"
+      ],
+      "initial_geometry_provenance": "contact_sheet_reviewed",
+      "initial_geometry_reviewed_at": "2026-08-01",
+      "geometry_requires_line_by_line_review": true,
+      "lines": [
+        {
+          "id": "c1-l001",
+          "centre_y": 470,
+          "crop": [
+            340,
+            420,
+            1110,
+            100
+          ],
+          "context_crop": [
+            340,
+            300,
+            1110,
+            340
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:e20477ea14fcffec04ff31ad1c532896d27a10f23a45316024f13a4f3008e5fd"
+        },
+        {
+          "id": "c1-l002",
+          "centre_y": 533,
+          "crop": [
+            340,
+            484,
+            1110,
+            98
+          ],
+          "context_crop": [
+            340,
+            363,
+            1110,
+            340
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:dd72c97e1b60bca0423401a9cf93633ed3f49eea13b93366c9314ea3332188aa"
+        },
+        {
+          "id": "c1-l003",
+          "centre_y": 596,
+          "crop": [
+            340,
+            546,
+            1110,
+            100
+          ],
+          "context_crop": [
+            340,
+            426,
+            1110,
+            340
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:fae034fe57e343d12021e93967aa5e48dea6377382a211776f2fae2aec9cd90c"
+        },
+        {
+          "id": "c1-l004",
+          "centre_y": 659,
+          "crop": [
+            340,
+            610,
+            1110,
+            98
+          ],
+          "context_crop": [
+            340,
+            489,
+            1110,
+            340
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:0ccff872d757203ed1b5209afdbdbfc7f07676d115f578b297a6e90c570bdef2"
+        },
+        {
+          "id": "c1-l005",
+          "centre_y": 722,
+          "crop": [
+            340,
+            672,
+            1110,
+            99
+          ],
+          "context_crop": [
+            340,
+            552,
+            1110,
+            340
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:321355a10f0425c9e705d06362cee89196175a88d6994c83618f466b783bebd6"
+        },
+        {
+          "id": "c1-l006",
+          "centre_y": 784,
+          "crop": [
+            340,
+            735,
+            1110,
+            99
+          ],
+          "context_crop": [
+            340,
+            614,
+            1110,
+            340
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:b6caa4faf001a7e95ab22e1855e126486c7b75024b45457cb3229134bae52d2e"
+        },
+        {
+          "id": "c1-l007",
+          "centre_y": 847,
+          "crop": [
+            340,
+            798,
+            1110,
+            98
+          ],
+          "context_crop": [
+            340,
+            677,
+            1110,
+            340
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:bf41d331375a28408bc8a863e931c7bbfa13936ef509ce0767383fc372691a39"
+        },
+        {
+          "id": "c1-l008",
+          "centre_y": 910,
+          "crop": [
+            340,
+            860,
+            1110,
+            100
+          ],
+          "context_crop": [
+            340,
+            740,
+            1110,
+            340
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:5bfc238d252fda9206ecd3da51dd83d7f2c0207bebf5f27b6048aa385f4c91e9"
+        },
+        {
+          "id": "c1-l009",
+          "centre_y": 973,
+          "crop": [
+            340,
+            924,
+            1110,
+            98
+          ],
+          "context_crop": [
+            340,
+            803,
+            1110,
+            340
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:ba1157a51733deb8a3a1ef81afb6e67aa92914a47b30fa52e13d6951ac7f77f7"
+        },
+        {
+          "id": "c1-l010",
+          "centre_y": 1036,
+          "crop": [
+            340,
+            986,
+            1110,
+            100
+          ],
+          "context_crop": [
+            340,
+            866,
+            1110,
+            340
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:e3e778411a3f496a31e230e9228e9481f11a58861ea34cc3f4d66c8afd88b722"
+        },
+        {
+          "id": "c1-l011",
+          "centre_y": 1099,
+          "crop": [
+            340,
+            1050,
+            1110,
+            98
+          ],
+          "context_crop": [
+            340,
+            929,
+            1110,
+            340
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:1dab404f5a6ba863024d025145cbf19a4a6313b7fa6a23e29072418a082d8e4c"
+        },
+        {
+          "id": "c1-l012",
+          "centre_y": 1162,
+          "crop": [
+            340,
+            1112,
+            1110,
+            99
+          ],
+          "context_crop": [
+            340,
+            992,
+            1110,
+            340
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:c12ab14c2ba1dfb2737ec054367ca43520bb64186991ddc2022abb64e8f91139"
+        },
+        {
+          "id": "c1-l013",
+          "centre_y": 1224,
+          "crop": [
+            340,
+            1175,
+            1110,
+            99
+          ],
+          "context_crop": [
+            340,
+            1054,
+            1110,
+            340
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:e444a86498b452ebaf350e7dcbe4dee3070cd9ca5bbe5a77a44f60c3e8a3e795"
+        },
+        {
+          "id": "c1-l014",
+          "centre_y": 1287,
+          "crop": [
+            340,
+            1238,
+            1110,
+            98
+          ],
+          "context_crop": [
+            340,
+            1117,
+            1110,
+            340
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:24b1bf544b23bcea4169137da5c58116f81c703fbc5c98e18771befa8db1a178"
+        },
+        {
+          "id": "c1-l015",
+          "centre_y": 1350,
+          "crop": [
+            340,
+            1300,
+            1110,
+            100
+          ],
+          "context_crop": [
+            340,
+            1180,
+            1110,
+            340
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:5eccddd184f678425e3db6efaaa732f7b6c2058cda829e741a3273814f379f20"
+        },
+        {
+          "id": "c1-l016",
+          "centre_y": 1413,
+          "crop": [
+            340,
+            1364,
+            1110,
+            98
+          ],
+          "context_crop": [
+            340,
+            1243,
+            1110,
+            340
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:9501352737dcf99707a6fea1603af1c68bff2224371ba25890ad574973dbea50"
+        },
+        {
+          "id": "c1-l017",
+          "centre_y": 1476,
+          "crop": [
+            340,
+            1426,
+            1110,
+            100
+          ],
+          "context_crop": [
+            340,
+            1306,
+            1110,
+            340
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:6dd21f862ccbc5fc8a03c7a34c5dc6db314a4020bf6c6f1b4dfa5d552241b465"
+        },
+        {
+          "id": "c1-l018",
+          "centre_y": 1539,
+          "crop": [
+            340,
+            1490,
+            1110,
+            98
+          ],
+          "context_crop": [
+            340,
+            1369,
+            1110,
+            340
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:3634b2a206cec192337d3382e6ac46cbc4b3dafa5b42ea2bf03be7e5d32ebfde"
+        },
+        {
+          "id": "c1-l019",
+          "centre_y": 1602,
+          "crop": [
+            340,
+            1552,
+            1110,
+            100
+          ],
+          "context_crop": [
+            340,
+            1432,
+            1110,
+            340
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:e5426eff76475ab579dfea4569a39a8564c042e8a61919e6e8f2ea992ae7850b"
+        },
+        {
+          "id": "c1-l020",
+          "centre_y": 1665,
+          "crop": [
+            340,
+            1616,
+            1110,
+            98
+          ],
+          "context_crop": [
+            340,
+            1495,
+            1110,
+            340
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:dfdca1a6808429e088c0953ec0b6b9fd0ec07f63ea0f5764834529296d00900b"
+        },
+        {
+          "id": "c1-l021",
+          "centre_y": 1728,
+          "crop": [
+            340,
+            1678,
+            1110,
+            99
+          ],
+          "context_crop": [
+            340,
+            1558,
+            1110,
+            340
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:228e110240fe7a9db0d0a3fcd2509848e6a9759e52773de06aa7b9183dacdc83"
+        },
+        {
+          "id": "c1-l022",
+          "centre_y": 1790,
+          "crop": [
+            340,
+            1741,
+            1110,
+            99
+          ],
+          "context_crop": [
+            340,
+            1620,
+            1110,
+            340
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:4650bb562169d416cea71a0d6bcc661f024f193d93a928644cab9072fc9ff3c1"
+        },
+        {
+          "id": "c1-l023",
+          "centre_y": 1853,
+          "crop": [
+            340,
+            1804,
+            1110,
+            98
+          ],
+          "context_crop": [
+            340,
+            1683,
+            1110,
+            340
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:d6857f56b4f87e1e120a5dbc579ea096540ec7ba53bdc989d1720661aa755fe2"
+        },
+        {
+          "id": "c1-l024",
+          "centre_y": 1916,
+          "crop": [
+            340,
+            1866,
+            1110,
+            100
+          ],
+          "context_crop": [
+            340,
+            1746,
+            1110,
+            340
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:8af3fa8e8e25f55980dd94232e4bdd5334607def600f674027ed4b8faa0c7b96"
+        },
+        {
+          "id": "c1-l025",
+          "centre_y": 1979,
+          "crop": [
+            340,
+            1930,
+            1110,
+            98
+          ],
+          "context_crop": [
+            340,
+            1809,
+            1110,
+            340
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:bd36a0619089745902b52aa2739dff8f9d925d0d0ad957e5be8c76c71c1ff681"
+        },
+        {
+          "id": "c1-l026",
+          "centre_y": 2042,
+          "crop": [
+            340,
+            1992,
+            1110,
+            100
+          ],
+          "context_crop": [
+            340,
+            1872,
+            1110,
+            340
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:f338d9b459b0167fdd8049dd90edb26a61757ffdaf71a2dc556ba3704caf3160"
+        },
+        {
+          "id": "c1-l027",
+          "centre_y": 2105,
+          "crop": [
+            340,
+            2056,
+            1110,
+            98
+          ],
+          "context_crop": [
+            340,
+            1935,
+            1110,
+            340
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:484bc4c237459c82336d1d9675c0afad9b687cac4e8a5c0444be86b4c73ff1ab"
+        },
+        {
+          "id": "c1-l028",
+          "centre_y": 2168,
+          "crop": [
+            340,
+            2118,
+            1110,
+            99
+          ],
+          "context_crop": [
+            340,
+            1998,
+            1110,
+            340
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:a7ede7e7c97dcaf86e27abe92557de6e06228266bde39975659723e8f72b7615"
+        },
+        {
+          "id": "c1-l029",
+          "centre_y": 2230,
+          "crop": [
+            340,
+            2181,
+            1110,
+            99
+          ],
+          "context_crop": [
+            340,
+            2060,
+            1110,
+            340
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:a87f7e1fc482bc0d85dc5557312442d1ff158f04f890086960b7696dc2518fa9"
+        },
+        {
+          "id": "c1-l030",
+          "centre_y": 2293,
+          "crop": [
+            340,
+            2244,
+            1110,
+            98
+          ],
+          "context_crop": [
+            340,
+            2123,
+            1110,
+            340
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:5acd80917496db5ae6a08405aa60cf0952bb2bdf4687c27043a5b5d02902e9da"
+        },
+        {
+          "id": "c1-l031",
+          "centre_y": 2356,
+          "crop": [
+            340,
+            2306,
+            1110,
+            100
+          ],
+          "context_crop": [
+            340,
+            2186,
+            1110,
+            340
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:3a3a81fb5d6fafa1669af846249d5ab04e9b28a10ba8f8f2c134963664077824"
+        },
+        {
+          "id": "c1-l032",
+          "centre_y": 2419,
+          "crop": [
+            340,
+            2370,
+            1110,
+            98
+          ],
+          "context_crop": [
+            340,
+            2249,
+            1110,
+            340
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:dc9df41e552f3209ed23adce355e7b278ea27dd2aad348b2d247dd8d3788c2c5"
+        },
+        {
+          "id": "c1-l033",
+          "centre_y": 2482,
+          "crop": [
+            340,
+            2432,
+            1110,
+            100
+          ],
+          "context_crop": [
+            340,
+            2312,
+            1110,
+            340
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:13ca6980e73dda4960298bc2132983ed5937acfea7eda4974e7fc9ec6a7b681e"
+        },
+        {
+          "id": "c1-l034",
+          "centre_y": 2545,
+          "crop": [
+            340,
+            2496,
+            1110,
+            98
+          ],
+          "context_crop": [
+            340,
+            2375,
+            1110,
+            340
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:59e154e47e64e57a3f6dd541f9e24a9605290ab422bdd97af3db77fb5674f9c2"
+        },
+        {
+          "id": "c1-l035",
+          "centre_y": 2608,
+          "crop": [
+            340,
+            2558,
+            1110,
+            100
+          ],
+          "context_crop": [
+            340,
+            2438,
+            1110,
+            340
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:140b54c70857f6fb0d6810d7bee79fa8395a251bb3e6bbe3770ce8ab6ee96a43"
+        },
+        {
+          "id": "c1-l036",
+          "centre_y": 2671,
+          "crop": [
+            340,
+            2622,
+            1110,
+            98
+          ],
+          "context_crop": [
+            340,
+            2501,
+            1110,
+            340
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:86f61c596b9af025870a503383462a4fc012c6d4f1a9e8953d5b259d29922ce2"
+        },
+        {
+          "id": "c1-l037",
+          "centre_y": 2734,
+          "crop": [
+            340,
+            2684,
+            1110,
+            99
+          ],
+          "context_crop": [
+            340,
+            2564,
+            1110,
+            340
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:aa98687c0cc5f14a671f9791dd2a458f3ba132c5e69ce3cf65f33171af370e51"
+        },
+        {
+          "id": "c1-l038",
+          "centre_y": 2796,
+          "crop": [
+            340,
+            2747,
+            1110,
+            99
+          ],
+          "context_crop": [
+            340,
+            2626,
+            1110,
+            340
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:f109fc5bfca9d6547c2ca88450c22638a37160db03e36f85579d3915509a21de"
+        },
+        {
+          "id": "c1-l039",
+          "centre_y": 2859,
+          "crop": [
+            340,
+            2810,
+            1110,
+            98
+          ],
+          "context_crop": [
+            340,
+            2689,
+            1110,
+            340
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:ee8172b88a5695940ee77c1664cb1c510d87ea0f9cdc6eb55173dafc88fc0c69"
+        },
+        {
+          "id": "c1-l040",
+          "centre_y": 2922,
+          "crop": [
+            340,
+            2872,
+            1110,
+            100
+          ],
+          "context_crop": [
+            340,
+            2752,
+            1110,
+            340
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:d65398055c7847d863648d9be393ca3efc56961bcd48a9b70f5980a5d3cb21fb"
+        },
+        {
+          "id": "c1-l041",
+          "centre_y": 2985,
+          "crop": [
+            340,
+            2936,
+            1110,
+            98
+          ],
+          "context_crop": [
+            340,
+            2815,
+            1110,
+            340
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:a53ace19a5db6d14ba4ac133242d681dea2da44e637c598b1326e78483b8a6e1"
+        },
+        {
+          "id": "c1-l042",
+          "centre_y": 3048,
+          "crop": [
+            340,
+            2998,
+            1110,
+            100
+          ],
+          "context_crop": [
+            340,
+            2878,
+            1110,
+            340
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:1347b3653e7763b84e15b27a0442403aa594ccb68c0d2890cffb5a3f57023477"
+        },
+        {
+          "id": "c1-l043",
+          "centre_y": 3111,
+          "crop": [
+            340,
+            3062,
+            1110,
+            98
+          ],
+          "context_crop": [
+            340,
+            2941,
+            1110,
+            340
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:374db2d9232ac96ddcd76295bc2a7d2a75cfab6b140b8fe442d873720005c60c"
+        },
+        {
+          "id": "c1-l044",
+          "centre_y": 3174,
+          "crop": [
+            340,
+            3124,
+            1110,
+            99
+          ],
+          "context_crop": [
+            340,
+            3004,
+            1110,
+            340
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:52bcd6a298e153bbc21937197929f951a8c271c0711b7afe6926c71133830931"
+        },
+        {
+          "id": "c1-l045",
+          "centre_y": 3236,
+          "crop": [
+            340,
+            3187,
+            1110,
+            99
+          ],
+          "context_crop": [
+            340,
+            3066,
+            1110,
+            340
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:cb4b79a39187276a5313110096bfcb9b909a14f96c6b54010ba4b35d60c793c1"
+        },
+        {
+          "id": "c1-l046",
+          "centre_y": 3299,
+          "crop": [
+            340,
+            3250,
+            1110,
+            98
+          ],
+          "context_crop": [
+            340,
+            3129,
+            1110,
+            340
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:cb80dbd4035681dd1c2deba1c2cf18520e78020485bff7008df188fa50177bed"
+        },
+        {
+          "id": "c1-l047",
+          "centre_y": 3362,
+          "crop": [
+            340,
+            3312,
+            1110,
+            100
+          ],
+          "context_crop": [
+            340,
+            3192,
+            1110,
+            340
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:351f13ce0a33bab2010729e6de68e6e74a2ee67ab143c352bdb671fb1093e945"
+        },
+        {
+          "id": "c1-l048",
+          "centre_y": 3425,
+          "crop": [
+            340,
+            3376,
+            1110,
+            98
+          ],
+          "context_crop": [
+            340,
+            3255,
+            1110,
+            285
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:508f3179405f5e009723917a1efa1452de9a8c6527036b6c4703b3d078df4355"
+        },
+        {
+          "id": "c1-l049",
+          "centre_y": 3488,
+          "crop": [
+            340,
+            3438,
+            1110,
+            100
+          ],
+          "context_crop": [
+            340,
+            3318,
+            1110,
+            222
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:3aaf7e8639344a80e273ea379813a50ae5de51c8829d8d07dac049954b477c3e"
+        }
+      ]
+    },
+    "column-2": {
+      "column_box_xyxy": [
+        1500,
+        300,
+        2590,
+        3450
+      ],
+      "zone_ids": [
+        "column-2"
+      ],
+      "initial_geometry_provenance": "contact_sheet_reviewed",
+      "initial_geometry_reviewed_at": "2026-08-01",
+      "geometry_requires_line_by_line_review": true,
+      "lines": [
+        {
+          "id": "c2-l001",
+          "centre_y": 470,
+          "crop": [
+            1500,
+            421,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1500,
+            303,
+            1090,
+            334
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:b0998a6bfca64760e5efe4774330b8a107d383f9c08e581abc6bbff3c4d6d789"
+        },
+        {
+          "id": "c2-l002",
+          "centre_y": 532,
+          "crop": [
+            1500,
+            483,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1500,
+            365,
+            1090,
+            334
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:e183c3223a19ade3f7178765942406c31401636dda3d389e36bf6eeb2a5d79ec"
+        },
+        {
+          "id": "c2-l003",
+          "centre_y": 594,
+          "crop": [
+            1500,
+            545,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1500,
+            427,
+            1090,
+            334
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:2a3dabd51254a1bb552832fff6574a0202d56fb63aa4b9d3178cea28342655b4"
+        },
+        {
+          "id": "c2-l004",
+          "centre_y": 656,
+          "crop": [
+            1500,
+            607,
+            1090,
+            99
+          ],
+          "context_crop": [
+            1500,
+            489,
+            1090,
+            334
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:565f6508b2fd7ba6e701500b65e78608fb8f1ae8da35696090bb0086e46f1141"
+        },
+        {
+          "id": "c2-l005",
+          "centre_y": 719,
+          "crop": [
+            1500,
+            670,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1500,
+            552,
+            1090,
+            334
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:52d02f10026c381058410f837923428511a7a4db7f31e692581251a4d6716f72"
+        },
+        {
+          "id": "c2-l006",
+          "centre_y": 781,
+          "crop": [
+            1500,
+            732,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1500,
+            614,
+            1090,
+            334
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:f0b087981287fa3602f07aba3e89be84d603dd2b1fa6f13be09f8fac8fb214e7"
+        },
+        {
+          "id": "c2-l007",
+          "centre_y": 843,
+          "crop": [
+            1500,
+            794,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1500,
+            676,
+            1090,
+            334
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:85fb202e93724ffd2d24f913781ae4b3eac97c56c3f1b3791da8f83340b1c9ca"
+        },
+        {
+          "id": "c2-l008",
+          "centre_y": 905,
+          "crop": [
+            1500,
+            856,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1500,
+            738,
+            1090,
+            334
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:692a10bca08f9594dbed8a2d2d8319d1cdc2d23dc73a3e94a44252556c81c1ae"
+        },
+        {
+          "id": "c2-l009",
+          "centre_y": 967,
+          "crop": [
+            1500,
+            918,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1500,
+            800,
+            1090,
+            334
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:21521c72ad91bf5800ccc31b59439e951fe01c810bcb40d5f05a6527cbabcd48"
+        },
+        {
+          "id": "c2-l010",
+          "centre_y": 1029,
+          "crop": [
+            1500,
+            980,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1500,
+            862,
+            1090,
+            334
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:1441a393f3c3fdd70453c8b64088de625297dde1292ec508498bf67a8c20da2e"
+        },
+        {
+          "id": "c2-l011",
+          "centre_y": 1091,
+          "crop": [
+            1500,
+            1042,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1500,
+            924,
+            1090,
+            334
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:2b0af71d7312370ae71cc179014d76c7704de9f1410047f3d505ef4de69d6005"
+        },
+        {
+          "id": "c2-l012",
+          "centre_y": 1153,
+          "crop": [
+            1500,
+            1104,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1500,
+            986,
+            1090,
+            334
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:9170208031461bca7f864837adb3394c5ba2513a04803236624e55d1f81abb48"
+        },
+        {
+          "id": "c2-l013",
+          "centre_y": 1216,
+          "crop": [
+            1500,
+            1166,
+            1090,
+            99
+          ],
+          "context_crop": [
+            1500,
+            1049,
+            1090,
+            334
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:5c6244a8c6322d455e1d2445bdd4cde4d6c956656a31a4413101e78c31ec4bd2"
+        },
+        {
+          "id": "c2-l014",
+          "centre_y": 1278,
+          "crop": [
+            1500,
+            1229,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1500,
+            1111,
+            1090,
+            334
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:7b5c69f8218a6f6482df7f8a9e56bb79c644e853ddea01641271ef9da82d7955"
+        },
+        {
+          "id": "c2-l015",
+          "centre_y": 1340,
+          "crop": [
+            1500,
+            1291,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1500,
+            1173,
+            1090,
+            334
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:1060857eb2340930fdc08bb491927068f1dccfab74a5731fe06aa61518d08f3a"
+        },
+        {
+          "id": "c2-l016",
+          "centre_y": 1402,
+          "crop": [
+            1500,
+            1353,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1500,
+            1235,
+            1090,
+            334
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:5e54b63e7175279c33b59a6b81ebe895ae35f86618f4aba137facbf2c8445dfb"
+        },
+        {
+          "id": "c2-l017",
+          "centre_y": 1464,
+          "crop": [
+            1500,
+            1415,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1500,
+            1297,
+            1090,
+            334
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:bba1d3edbe88346da4e850bd4a0f21b413549463e58dff46bb99186ffc7fb250"
+        },
+        {
+          "id": "c2-l018",
+          "centre_y": 1526,
+          "crop": [
+            1500,
+            1477,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1500,
+            1359,
+            1090,
+            334
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:c95ba468ab6584bc1792cb99e9ab2e83e7dd9912cff596be1b98f497a5f7e9c2"
+        },
+        {
+          "id": "c2-l019",
+          "centre_y": 1588,
+          "crop": [
+            1500,
+            1539,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1500,
+            1421,
+            1090,
+            334
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:1e39d6025f05e07b22a7c32278982176302dbb92380e345fe9ab4b7751a4d48b"
+        },
+        {
+          "id": "c2-l020",
+          "centre_y": 1650,
+          "crop": [
+            1500,
+            1601,
+            1090,
+            99
+          ],
+          "context_crop": [
+            1500,
+            1483,
+            1090,
+            334
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:22237d2ab137aa782c0b24a872f1951a37a2829c1a8d88bff7aa3ec6d9aef448"
+        },
+        {
+          "id": "c2-l021",
+          "centre_y": 1713,
+          "crop": [
+            1500,
+            1664,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1500,
+            1546,
+            1090,
+            334
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:cb1efd2baa59b9e009db19a87551881e6a482f9e71e5c03d64a33a29a7d512b9"
+        },
+        {
+          "id": "c2-l022",
+          "centre_y": 1775,
+          "crop": [
+            1500,
+            1726,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1500,
+            1608,
+            1090,
+            334
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:25652f389d00c2c48c19f7c5800efa6afdffc7cd01ef6d2674adefb0fb840866"
+        },
+        {
+          "id": "c2-l023",
+          "centre_y": 1837,
+          "crop": [
+            1500,
+            1788,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1500,
+            1670,
+            1090,
+            334
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:80886f40c140b0968d33f70b7e5a965a70995398037ff235281175354c08ac91"
+        },
+        {
+          "id": "c2-l024",
+          "centre_y": 1899,
+          "crop": [
+            1500,
+            1850,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1500,
+            1732,
+            1090,
+            334
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:c76b0649fb5d1d45ee065d07e619c18a0bdd6b879fc45315988a25f4a1816aea"
+        },
+        {
+          "id": "c2-l025",
+          "centre_y": 1961,
+          "crop": [
+            1500,
+            1912,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1500,
+            1794,
+            1090,
+            334
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:fa4c3e2336e9a964696c7cdb9baa3687853b2f14e8bf0578467e9aa9d14911af"
+        },
+        {
+          "id": "c2-l026",
+          "centre_y": 2023,
+          "crop": [
+            1500,
+            1974,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1500,
+            1856,
+            1090,
+            334
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:908f3a68fa4ea9a45081cabf45807cff8d6b984341c073c5f11307820aaa73b7"
+        },
+        {
+          "id": "c2-l027",
+          "centre_y": 2085,
+          "crop": [
+            1500,
+            2036,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1500,
+            1918,
+            1090,
+            334
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:52a4cfcc2961606a32524c81ae6dad3b72ade36f0a48a73d2bb9c08112a7c0e7"
+        },
+        {
+          "id": "c2-l028",
+          "centre_y": 2147,
+          "crop": [
+            1500,
+            2098,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1500,
+            1980,
+            1090,
+            334
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:ad5cf358dce1e9caf82fcc37cdb6b5f09615e4bbc8573f2a1eae13c2f1b625fa"
+        },
+        {
+          "id": "c2-l029",
+          "centre_y": 2210,
+          "crop": [
+            1500,
+            2160,
+            1090,
+            99
+          ],
+          "context_crop": [
+            1500,
+            2043,
+            1090,
+            334
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:041f6a9e9cb0a2b96d63a4441cd8c8f6e6521ccd01e1d3eee75a86b72a789c85"
+        },
+        {
+          "id": "c2-l030",
+          "centre_y": 2272,
+          "crop": [
+            1500,
+            2223,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1500,
+            2105,
+            1090,
+            334
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:29addda7a5a21893fbe30be27c07c241a0fd449cb48c359b174afdbac553463f"
+        },
+        {
+          "id": "c2-l031",
+          "centre_y": 2334,
+          "crop": [
+            1500,
+            2285,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1500,
+            2167,
+            1090,
+            334
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:a474c7774bd43776f07b9a67ab7c37d59c586b96c975eebac688d447de001906"
+        },
+        {
+          "id": "c2-l032",
+          "centre_y": 2396,
+          "crop": [
+            1500,
+            2347,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1500,
+            2229,
+            1090,
+            334
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:c7d8586038d05e35ef6638d061725e6bcea0bba838e6b90eecdf279630cc2d16"
+        },
+        {
+          "id": "c2-l033",
+          "centre_y": 2458,
+          "crop": [
+            1500,
+            2409,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1500,
+            2291,
+            1090,
+            334
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:61a3a13f9283a73e21f42823772b1d6294cf4d7a0179ec31d18cb96cf3299a05"
+        },
+        {
+          "id": "c2-l034",
+          "centre_y": 2520,
+          "crop": [
+            1500,
+            2471,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1500,
+            2353,
+            1090,
+            334
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:5e455f6e60bd907d239ccdd1499d193b1e460ff4779f84a029a69ee60a1f7cc0"
+        },
+        {
+          "id": "c2-l035",
+          "centre_y": 2582,
+          "crop": [
+            1500,
+            2533,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1500,
+            2415,
+            1090,
+            334
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:69287c7a6b7a5628cb3b1f4552fb5e4447e8d6115f0bf4c1695ebd7631eff96e"
+        },
+        {
+          "id": "c2-l036",
+          "centre_y": 2644,
+          "crop": [
+            1500,
+            2595,
+            1090,
+            99
+          ],
+          "context_crop": [
+            1500,
+            2477,
+            1090,
+            334
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:3606dc58d33c679d5bf33b55b709df0d93c5570cb04ffc59e0f45fb448f04f35"
+        },
+        {
+          "id": "c2-l037",
+          "centre_y": 2707,
+          "crop": [
+            1500,
+            2658,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1500,
+            2540,
+            1090,
+            334
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:e95084bf465026004f4018fc3e0420893f35672b7d1e7b337f87468508bc1c84"
+        },
+        {
+          "id": "c2-l038",
+          "centre_y": 2769,
+          "crop": [
+            1500,
+            2720,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1500,
+            2602,
+            1090,
+            334
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:06ceb0ab91c9c8b408f7d40cd35892a200ca4b4ff5d09ad0b37ccef5cb1d40ff"
+        },
+        {
+          "id": "c2-l039",
+          "centre_y": 2831,
+          "crop": [
+            1500,
+            2782,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1500,
+            2664,
+            1090,
+            334
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:8803579c0f2c9c5f5a08304ef6e8609c38beff8778fb33433d0c268db43b1c58"
+        },
+        {
+          "id": "c2-l040",
+          "centre_y": 2893,
+          "crop": [
+            1500,
+            2844,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1500,
+            2726,
+            1090,
+            334
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:49edf0d1bc61f6bef0f1a675d79cff0d9f234db279222b23bab91455b84e7c43"
+        },
+        {
+          "id": "c2-l041",
+          "centre_y": 2955,
+          "crop": [
+            1500,
+            2906,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1500,
+            2788,
+            1090,
+            334
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:34112efe832df7ebe3aea72b81ffa5ee2332a3dab8b11719c1cd5f7ef062dcb3"
+        },
+        {
+          "id": "c2-l042",
+          "centre_y": 3017,
+          "crop": [
+            1500,
+            2968,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1500,
+            2850,
+            1090,
+            334
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:b63f4f94ce48964d9782d7640cc67bd1bd87d015abcaaae70e1a8cac578323d1"
+        },
+        {
+          "id": "c2-l043",
+          "centre_y": 3079,
+          "crop": [
+            1500,
+            3030,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1500,
+            2912,
+            1090,
+            334
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:f06228a864228453eeb476c8301fa500881fb5772966782bef42de077d3cf40c"
+        },
+        {
+          "id": "c2-l044",
+          "centre_y": 3141,
+          "crop": [
+            1500,
+            3092,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1500,
+            2974,
+            1090,
+            334
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:316649158892c8e601c54ce184440adf350326c9dcffaa23de47606fd9b42de0"
+        },
+        {
+          "id": "c2-l045",
+          "centre_y": 3204,
+          "crop": [
+            1500,
+            3154,
+            1090,
+            99
+          ],
+          "context_crop": [
+            1500,
+            3037,
+            1090,
+            334
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:048c926b60c6e3be15d6e6718d30d162eca74a8302b467684793965c49529796"
+        },
+        {
+          "id": "c2-l046",
+          "centre_y": 3266,
+          "crop": [
+            1500,
+            3217,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1500,
+            3099,
+            1090,
+            334
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:148f4b1d890121679c071e80854d13aababf70abb7661fbca2d47aab5f0f19a3"
+        },
+        {
+          "id": "c2-l047",
+          "centre_y": 3328,
+          "crop": [
+            1500,
+            3279,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1500,
+            3161,
+            1090,
+            289
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:0ae09ec431dd7b3968e92509a4d708d01723cf6bd9857394ef244d87fbc6c2d5"
+        },
+        {
+          "id": "c2-l048",
+          "centre_y": 3390,
+          "crop": [
+            1500,
+            3341,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1500,
+            3223,
+            1090,
+            227
+          ],
+          "observed_text": null,
+          "match": "pending",
+          "assessment": "pending",
+          "geometry_action": "inspect_and_adjust_if_needed",
+          "expected_line_version": "sha256:8e06d1a8c287c7067f15dbbf6dcde8da9d0176201124acd99b8a6498e1f0e0a6"
+        }
+      ]
+    }
+  }
+}

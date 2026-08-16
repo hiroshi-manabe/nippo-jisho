@@ -97,6 +97,17 @@ def main() -> int:
             if args.working
             else "reviewed_f30_golden_example"
         ),
+        "default_response_mode": "geometry_and_text",
+        "completion_statuses": {
+            "geometry_and_text": {
+                "geometry_review_status": "completed",
+                "text_review_status": "completed",
+            },
+            "geometry_only_fallback": {
+                "geometry_review_status": "completed",
+                "text_review_status": "not_completed",
+            },
+        },
         "observed_text_provenance": (
             "Must be written independently from each proposed crop before consulting "
             "the canonical transcription. Null means that this line has not yet been read."
@@ -114,6 +125,18 @@ def main() -> int:
             "each column top-to-bottom for repeated clipping, especially the outer/right "
             "edge of column 2. Conservative rule-to-rule width and necessary neighboring-"
             "line overlap are allowed."
+        ),
+        "text_acceptance": (
+            "Read the print independently before consulting the canonical line. Preserve "
+            "visible historical spelling, spacing, diacritics, and long s; do not normalize, "
+            "copy the canonical text, or guess merely to complete a field. Returned text is "
+            "advisory until separately adjudicated against the scan."
+        ),
+        "lineation_discrepancy": (
+            "If the printed number or order of physical lines differs from the task, do not "
+            "invent a blank continuation, shift IDs, or renumber the response. Mark the "
+            "response incomplete and report the first divergence so the canonical lineation "
+            "can be corrected and the task regenerated."
         ),
         "source": {
             "filename": tile["master"],
