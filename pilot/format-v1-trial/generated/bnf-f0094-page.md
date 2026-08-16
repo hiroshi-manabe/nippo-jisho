@@ -47,16 +47,16 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l031` | &emsp;*aruore, ou flores como de baixo de ſombreiro.* |  |
 | `c1-l032` | Caſù. Metoru coto. *Caçarſe, ou tomar o* |  |
 | `c1-l033` | &emsp;*homem molher. S.* |  |
-| `c1-l034` | Caſu. *Couſa que fica depois de eſprimida a ſuſ-* |  |
+| `c1-l034` | Caſu. *Couſa que fica depois de eſprimida a ſuſ* |  |
 | `c1-l035` | &emsp;*tancia, como bagaço das vuas, ou que fica do* |  |
-| `c1-l036` | &emsp;*vinho de Iapão, d'azeite, &c. Item,* Fare*-* |  |
+| `c1-l036` | &emsp;*vinho de Iapão, d'azeite, &c. Item,* Fare |  |
 | `c1-l037` | &emsp;*los de trigo, &c.* |  |
 | `c1-l038` | Caſucana. *O que ſe vê, ou ouue eſcaçamente,* |  |
 | `c1-l039` | &emsp;*&c. ¶* Caſucana coye. *Voz que eſca-* |  |
 | `c1-l040` | &emsp;*çamente ſe ouue. ¶ Item, Couſa pouca,* |  |
 | `c1-l041` | &emsp;*ou pequena. Vt,* Caſucana cotonaredo- |  |
 | `c1-l042` | &emsp;mo. *Ainda que ſeja couſa pouca, &c.* |  |
-| `c1-l043` | Caſucani. *Adu. Eſcaçamente. Vt,* Ca- |  |
+| `c1-l043` | Caſucani. *Adu. Eſcaçamente. Vt,* Ca |  |
 | `c1-l044` | &emsp;ſucani miyuru. *Aparecer eſcaçamente, ou* |  |
 | `c1-l045` | &emsp;*mal.* |  |
 | `c1-l046` | Caſuſai, l, Caſuſaqi. *Eſcarro. Vt,* Ca- |  |
@@ -85,7 +85,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l011` | Caſumetori, u, otta. *Tomar algũa couſa por* |  |
 | `c2-l012` | &emsp;*engano.* |  |
 | `c2-l013` | Caſumi. *Neuoa, ou vapor. ¶ Item, Fu-* |  |
-| `c2-l014` | &emsp;*mo, ou bafo do vinho, ou vinagre, &c. quã-* |  |
+| `c2-l014` | &emsp;*mo, ou bafo do vinho, ou vinagre, &c. quã* |  |
 | `c2-l015` | &emsp;*do ſe aquenta. ¶* Saqeno caſumiga tatçu. |  |
 | `c2-l016` | &emsp;*Aleuantarſe eſte vapor do vinho quando ſe* |  |
 | `c2-l017` | &emsp;*aquenta.* |  |
@@ -102,12 +102,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l028` | &emsp;*ſe fazem nos veſtidos de Iapão.* |  |
 | `c2-l029` | Caſuuona. Xiroito curoini majiratta coto. |  |
 | `c2-l030` | &emsp;*Cor branca, & preta miſturada dos cabellos.* |  |
-| `c2-l031` | &emsp;*Vt,* Caſuuona camiuo carauani mague- |  |
+| `c2-l031` | &emsp;*Vt,* Caſuuona camiuo carauani mague |  |
 | `c2-l032` | &emsp;te, &c. *Xid. Amarrando os cabellos da* |  |
 | `c2-l033` | &emsp;*cabeça que erão ja meos brancos.* |  |
 | `c2-l034` | Cat. Mizzu vy e. *Sede. ¶* Caxxi, catſu- |  |
 | `c2-l035` | &emsp;ru. *Ter ſede. ¶* Catni voyobu, l, |  |
-| `c2-l036` | &emsp;nozomu. *Idem. ¶* Catuo yamuru. *Ma-* |  |
+| `c2-l036` | &emsp;nozomu. *Idem. ¶* Catuo yamuru. *Ma* |  |
 | `c2-l037` | &emsp;*tar a ſede.* |  |
 | `c2-l038` | Cata. *Hombros. ¶* Fitoni catauo nara- |  |
 | `c2-l039` | &emsp;buru. *Igualarſe com outro. ¶* Catani |  |

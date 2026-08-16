@@ -18,7 +18,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l002` | &emsp;*girão eſcondidamente pera ſaluar a vida.* |  |
 | `c1-l003` | Caqeuochi xi, ſuru, ita. *Fugir ſecretamẽte.* |  |
 | `c1-l004` | Caqeuodoxi. *Pelle ẽ que emburulhão as armas.* |  |
-| `c1-l005` | Caqeuotoxi, ſu, oita. *Derrubar algũa cou-* |  |
+| `c1-l005` | Caqeuotoxi, ſu, oita. *Derrubar algũa cou* |  |
 | `c1-l006` | &emsp;*ſa de lugar alto.* |  |
 | `c1-l007` | Caqeyaburi, ru, utta. *Romper a gente de* |  |
 | `c1-l008` | &emsp;*caualo. Vt,* Vǒjeino nacauo zatto caqe |  |
@@ -57,7 +57,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l041` | &emsp;*tar as azas ao paſſaro pera que não fuja.* |  |
 | `c1-l042` | &emsp;*¶* Cubiuo caqu, l, caquioru. *Cortar* |  |
 | `c1-l043` | &emsp;*a cabeça com o corte da* catana *pera ſi aferra-* |  |
-| `c1-l044` | &emsp;*dolhe dos cabellos. ¶* Camino faxiuo ca- |  |
+| `c1-l044` | &emsp;*dolhe dos cabellos. ¶* Camino faxiuo ca |  |
 | `c1-l045` | &emsp;qu. *Cortar as bordas do papel.* |  |
 | `c1-l046` | Caqi, u, aita. *Vt,* cotocaqi u, l, cotoiuo |  |
 | `c1-l047` | &emsp;caqu. *Ter falta de algũa couſa. Ordinaria-* |  |
@@ -99,7 +99,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l025` | Caqi arauaxi, ſu, aita. *Manifeſtar algũa couſa* |  |
 | `c2-l026` | &emsp;*por eſcrito.* |  |
 | `c2-l027` | Caqiatçume, uru, eta. *Ajuntar eſcreuẽdo.* |  |
-| `c2-l028` | Caqiatçume, uru, eta. *Ajuntar algũa cou-* |  |
+| `c2-l028` | Caqiatçume, uru, eta. *Ajuntar algũa cou* |  |
 | `c2-l029` | &emsp;*ſa com amão, ou algum inſtrumento.* |  |
 | `c2-l030` | Caqiauaxe, ſuru, eta. *Eſcreuer algũa couſa* |  |
 | `c2-l031` | &emsp;*de maneira que venha iuſta, & caiba em al-* |  |

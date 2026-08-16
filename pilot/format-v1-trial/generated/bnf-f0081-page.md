@@ -56,7 +56,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l040` | Canacuſo. *Eſcorias do ferro.* |  |
 | `c1-l041` | Canacuzzu. *Limaduras de prata, ouro, ou* |  |
 | `c1-l042` | &emsp;*outro metal.* |  |
-| `c1-l043` | Canadoricaua. *Tiras de metal com que em-* |  |
+| `c1-l043` | Canadoricaua. *Tiras de metal com que em* |  |
 | `c1-l044` | &emsp;*burulhão, & amarrão os punhos da* catana |  |
 | `c1-l045` | &emsp;*em lugar de correas.* |  |
 | `c1-l046` | Canadôro. *Alenterna de metal.* |  |
@@ -80,9 +80,9 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c2-l001` | Canafibachi. *Fogareiro de metal.* |  |
-| `c2-l002` | Canafisague. *Vazo com que deitão agoa quẽ-* |  |
+| `c2-l002` | Canafisague. *Vazo com que deitão agoa quẽ* |  |
 | `c2-l003` | &emsp;*te à meza, ou agoa às mãos, &c.* |  |
-| `c2-l004` | Canagai. *Ouro, prata, latão, &c. que ſe me-* |  |
+| `c2-l004` | Canagai. *Ouro, prata, latão, &c. que ſe me* |  |
 | `c2-l005` | &emsp;*te como lauor em metal aberto, ou em couſa* |  |
 | `c2-l006` | &emsp;*uruxada como bainha, &c. ¶* Canagai |  |
 | `c2-l007` | &emsp;uo iruru. *Aſſentar eſtes lauores de ouro, ou* |  |
@@ -92,7 +92,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l011` | &emsp;*mo brocado.* |  |
 | `c2-l012` | Canagu. *Aparelho, ou petrechos feitos de* |  |
 | `c2-l013` | &emsp;*ferro.* |  |
-| `c2-l014` | Canaguri, uru, utta. *Arrepellar. Vt,* Ca- |  |
+| `c2-l014` | Canaguri, uru, utta. *Arrepellar. Vt,* Ca |  |
 | `c2-l015` | &emsp;miuo canaguru. *Arrepellar os cabellos.* |  |
 | `c2-l016` | Canaguri ſute, tçuru, teta. *Tirar, & lan-* |  |
 | `c2-l017` | &emsp;*çar fora como eruas, ou couſa que eſtà pegada.* |  |
@@ -103,9 +103,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l022` | &emsp;*prirſe, ou effectuarſe como deſejo, voto, &c.* |  |
 | `c2-l023` | &emsp;*Vt,* Nozomi, l, guanga canǒta. *Com-* |  |
 | `c2-l024` | &emsp;*prioſe o deſejo ou voto. ¶ Item, Contentar* |  |
-| `c2-l025` | &emsp;*& quadrar. Vt,* Cocoroni canǒ. *¶* Mi- |  |
+| `c2-l025` | &emsp;*& quadrar. Vt,* Cocoroni canǒ. *¶* Mi |  |
 | `c2-l026` | &emsp;chini canǒta coto, l, aicanǒta coto. *Cou-* |  |
-| `c2-l027` | &emsp;*ſa conforme à rezão, ou conforme à regra dal-* |  |
+| `c2-l027` | &emsp;*ſa conforme à rezão, ou conforme à regra dal* |  |
 | `c2-l028` | &emsp;*gũa arte particular.* |  |
 | `c2-l029` | Canaicari. *Ancora de ferro.* |  |
 | `c2-l030` | Canairo. *Vazo de metal com que deitão agoa* |  |
@@ -113,7 +113,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l032` | Canamaqe. *Vt,* Canamaqeuo ſuru fito. |  |
 | `c2-l033` | &emsp;*Homem que lhe faz mal, ou he contrario o ferro,* |  |
 | `c2-l034` | &emsp;*ou arma, & não ſara facilmente da ferida* |  |
-| `c2-l035` | &emsp;*q̃ te. X. No* Cami *ſe diz* Qizuyami, *l,* qi- |  |
+| `c2-l035` | &emsp;*q̃ te. X. No* Cami *ſe diz* Qizuyami, *l,* qi |  |
 | `c2-l036` | &emsp;zuyamaiuo ſuru fito. |  |
 | `c2-l037` | Caname. *Eixo, ou parafuſo do abano. ¶ Itẽ,* |  |
 | `c2-l038` | &emsp;*Per met. Couſa ſolida, & em que conſiſte o* |  |

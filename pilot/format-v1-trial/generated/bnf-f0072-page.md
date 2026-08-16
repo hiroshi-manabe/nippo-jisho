@@ -77,11 +77,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l003` | Cacubet. *Differença. ¶* Cacubetno xi- |  |
 | `c2-l004` | &emsp;lai atte. *Auendo diuerſa cauſa.* |  |
 | `c2-l005` | Cacuchi. Satori xiru. *Adeuinhar.* |  |
-| `c2-l006` | Cacufai. Qiacuno ſacazzuqi. *Copo por on-* |  |
+| `c2-l006` | Cacufai. Qiacuno ſacazzuqi. *Copo por on* |  |
 | `c2-l007` | &emsp;*de os hoſpedes bebem.* |  |
 | `c2-l008` | Cacufit. Fudeuo ſaxiutçuqu. *Por a pena. i.* |  |
 | `c2-l009` | &emsp;*Acabar, ou deixar de eſcreuer.* |  |
-| `c2-l010` | Cacuguet. Tçugiuo ſedatçuru. i. ſi, tçugi- |  |
+| `c2-l010` | Cacuguet. Tçugiuo ſedatçuru. i. ſi, tçugi |  |
 | `c2-l011` | &emsp;gauarini. *Vt,* Cacuguetno mono. |  |
 | `c2-l012` | &emsp;*Couſa que ſe varia pellos meſes.* |  |
 | `c2-l013` | Cacuguiǒ. *Peça de enxadres, que reſponde a* |  |
@@ -93,11 +93,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l019` | &emsp;*cuidaua.* |  |
 | `c2-l020` | Cacui. *Cepas, ou calos que ficão dalgũs paos* |  |
 | `c2-l021` | &emsp;*cortados juntamente com a raiz pera lenha.* |  |
-| `c2-l022` | Cacu. i. Vonovono, l, caccacuno cocoro- |  |
+| `c2-l022` | Cacu. i. Vonovono, l, caccacuno cocoro |  |
 | `c2-l023` | &emsp;l, cocorogocoro. *Diuersos pareceres.* |  |
 | `c2-l024` | Cacu ita. *Taboinha quadrada, & uruxada q̃* |  |
 | `c2-l025` | &emsp;*poem de baixo do fogareiro do* Chanoyu. |  |
-| `c2-l026` | Cacujen. Satorino maye. Bup. *O eſtar exer-* |  |
+| `c2-l026` | Cacujen. Satorino maye. Bup. *O eſtar exer* |  |
 | `c2-l027` | &emsp;*citado nas meditações dos* Ienxus. |  |
 | `c2-l028` | Cacuite. *Adu. Eſcondidamente.* |  |
 | `c2-l029` | Cacuna. *Couſa quadrada, ou que tem cantos.* |  |
@@ -110,7 +110,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l036` | Cacunogotocu. *Adu. Deſta maneira, ou* |  |
 | `c2-l037` | &emsp;*modo.* |  |
 | `c2-l038` | Cacunogotocuno. *Couſa ſemelhante, ou tal.* |  |
-| `c2-l039` | &emsp;*Vt,* Cacunogotocuno teitaracu. *Eſpe-* |  |
+| `c2-l039` | &emsp;*Vt,* Cacunogotocuno teitaracu. *Eſpe* |  |
 | `c2-l040` | &emsp;*ctaculo deſta maneira, ou tal.* |  |
 | `c2-l041` | Cacunogotocuni. *Adu. Aſſi, ou deſta* |  |
 | `c2-l042` | &emsp;*maneira.* |  |

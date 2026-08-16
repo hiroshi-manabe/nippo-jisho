@@ -18,7 +18,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l002` | Canmi. Amai agiuai. *Excellente goſto.* |  |
 | `c1-l003` | Canmon. i. Canyǒno mon. *Sentença gra-* |  |
 | `c1-l004` | &emsp;*ue, ou principal.* |  |
-| `c1-l005` | Canmon. *Rol, ou capitulos dos dias, ou me-* |  |
+| `c1-l005` | Canmon. *Rol, ou capitulos dos dias, ou me* |  |
 | `c1-l006` | &emsp;*ſes em que hum hade fazer, ou deixar de fa-* |  |
 | `c1-l007` | &emsp;*zer alguã couſa por agouro, que os que ſeruem* |  |
 | `c1-l008` | &emsp;*ao* Cami *dão.* |  |
@@ -27,7 +27,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l011` | Cannacuzzu. *Raſpaduras, ou cauaquinhos* |  |
 | `c1-l012` | &emsp;*q̃ ficão depois de açepilhar algũ pao, ou taboa.* |  |
 | `c1-l013` | Cannagui. *Homẽs que ſeruem aos* Camis. |  |
-| `c1-l014` | Cannan. Cataxi cataxi. *Perigos. Vt,* Cã- |  |
+| `c1-l014` | Cannan. Cataxi cataxi. *Perigos. Vt,* Cã |  |
 | `c1-l015` | &emsp;nãuo xinogu. *Paſſar trabalhos, & perigos.* |  |
 | `c1-l016` | Cannet. Samuxi, atçuxi. *Frio, & quente.* |  |
 | `c1-l017` | &emsp;*¶* Cannetuo xinogu. *Paſſar, ou ſofrer* |  |
@@ -112,7 +112,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l037` | &emsp;*inuerno.* |  |
 | `c2-l038` | Canro. Amai tçuyu. *Orualho como manna,* |  |
 | `c2-l039` | &emsp;*ou manjar celeſtial, & goſtoſo. ¶* Teno |  |
-| `c2-l040` | &emsp;Canrouo namuru. *Goſtar, ou prouar ſua-* |  |
+| `c2-l040` | &emsp;Canrouo namuru. *Goſtar, ou prouar ſua* |  |
 | `c2-l041` | &emsp;*uidade do ceo.* |  |
 | `c2-l042` | Canrui. Canzuru namida. *Lagrimas de* |  |
 | `c2-l043` | &emsp;*alegria, &c. ¶* Canrui ſodeni amaru. |  |

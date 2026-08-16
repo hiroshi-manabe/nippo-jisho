@@ -19,7 +19,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l003` | Cauori, u, otta. P. i. Niũô. *Cheirar, ou* |  |
 | `c1-l004` | &emsp;*recender. ¶ Vt,* Noqichicô fanatachi |  |
 | `c1-l005` | &emsp;banano attaga, cayeua natçucaxi cauot- |  |
-| `c1-l006` | &emsp;ta, &c. *Feiq. Lib. 4. Eſtaua hũa aruo-* |  |
+| `c1-l006` | &emsp;ta, &c. *Feiq. Lib. 4. Eſtaua hũa aruo* |  |
 | `c1-l007` | &emsp;*re de boas flores junto das beiras do telhado q̃* |  |
 | `c1-l008` | &emsp;*com o vento cheiraua muito.* |  |
 | `c1-l009` | Cauoyebana. P. i. Caqitçubata. *Lirio.* |  |
@@ -52,7 +52,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l036` | &emsp;*& deſfeito. ¶ Item, Permet. Pobre, &* |  |
 | `c1-l037` | &emsp;*ſem fato. Vſaſe tambem no gerundio* Ca- |  |
 | `c1-l038` | &emsp;xete. *Eſtando magro, &c.* |  |
-| `c1-l039` | Caxi, ſu, aita. *Empreſtar. ¶ Item, A-* |  |
+| `c1-l039` | Caxi, ſu, aita. *Empreſtar. ¶ Item, A* |  |
 | `c1-l040` | &emsp;*lugar, ou arendar alguã couſa a outro como* |  |
 | `c1-l041` | &emsp;*caſa, &c.* |  |
 | `c1-l042` | Caxi, ſu, aita. *Meter nagoa o arroz pera a* |  |
@@ -77,7 +77,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l003` | &emsp;Caxicô. |  |
 | `c2-l004` | &emsp;Caxicola. |  |
 | `c2-l005` | Caxicomari, u, atta. *Eſtar em cocaras.* |  |
-| `c2-l006` | &emsp;*¶* Caxicomarta. *No preterito moſtrar a al-* |  |
+| `c2-l006` | &emsp;*¶* Caxicomarta. *No preterito moſtrar a al* |  |
 | `c2-l007` | &emsp;*guem que conſente, & fara o que diz, humil-* |  |
 | `c2-l008` | &emsp;*mente. ¶* Caxicomatte iru. *Eſtar com* |  |
 | `c2-l009` | &emsp;*reuerencia diante dalguẽ cõ as mãos no chão, &c.* |  |
@@ -85,7 +85,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l011` | &emsp;*ou moſtrar reuerencia, & humildade.* |  |
 | `c2-l012` | Caxigome. *Arroz metido em agua pera amol-* |  |
 | `c2-l013` | &emsp;*lecer,* |  |
-| `c2-l014` | Caxij. *Hũa fruita do mato como bolotas, ou lan-* |  |
+| `c2-l014` | Caxij. *Hũa fruita do mato como bolotas, ou lan* |  |
 | `c2-l015` | &emsp;*deas pequenas,* |  |
 | `c2-l016` | Caxi iye. *Caſa de aluguer.* |  |
 | `c2-l017` | Caximaxij. *O auer, ou fazer traquinada.* |  |
@@ -98,21 +98,21 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l024` | &emsp;*eſteril. ¶* Fanamo vazzucani, codachi |  |
 | `c2-l025` | &emsp;mo caxige tatçu. *Fox. Lib. 1. As fo-* |  |
 | `c2-l026` | &emsp;*lhas nacião ja pequenas, & os ramos fracos, &* |  |
-| `c2-l027` | &emsp;*magros. ¶* Caxiqeta fito. *Homem des-* |  |
-| `c2-l028` | &emsp;*feito, & magro ſem cores, & forças. ¶* Ca- |  |
-| `c2-l029` | &emsp;xigeta nari. *Modo, ou maneira de hum eſ-* |  |
+| `c2-l027` | &emsp;*magros. ¶* Caxiqeta fito. *Homem des* |  |
+| `c2-l028` | &emsp;*feito, & magro ſem cores, & forças. ¶* Ca |  |
+| `c2-l029` | &emsp;xigeta nari. *Modo, ou maneira de hum eſ* |  |
 | `c2-l030` | &emsp;*tar pobre, ou com pouco cabedal, & fato.* |  |
 | `c2-l031` | Caxiqi, u, xijta. *Cozer, ou concertar arroz.* |  |
 | `c2-l032` | &emsp;*Vt,* Fiôrôno nõte mexiuomio caxicami |  |
 | `c2-l033` | &emsp;vchuni vyeta. *Não auendo mantimentos,* |  |
 | `c2-l034` | &emsp;*quanto não cozião arroz tiue fome.* |  |
-| `c2-l035` | Caxira. *Cabeça. ¶ A ſuezes ſe toma pol-* |  |
-| `c2-l036` | &emsp;*los cabellos de cabeça. Vt,* Caxira mida- |  |
+| `c2-l035` | Caxira. *Cabeça. ¶ A ſuezes ſe toma pol* |  |
+| `c2-l036` | &emsp;*los cabellos de cabeça. Vt,* Caxira mida |  |
 | `c2-l037` | &emsp;ruru. *Ter os cabellos deſconcertados. ¶* Ca- |  |
 | `c2-l038` | &emsp;xirauo marumuru. *Rapar toda a cabeça* |  |
 | `c2-l039` | &emsp;*fazendoſe* Bôzo, *ou rapado. ¶* Caxirauo |  |
 | `c2-l040` | &emsp;qezuru. *Pentear a cabeça. ¶* Caxi- |  |
-| `c2-l041` | &emsp;rauo ſoru. *Raparſe. ¶* Caxirauo vo- |  |
+| `c2-l041` | &emsp;rauo ſoru. *Raparſe. ¶* Caxirauo vo |  |
 | `c2-l042` | &emsp;reſu. *Raparſe a primeira vez. ¶* Caxi- |  |
 | `c2-l043` | &emsp;rauo ſuru. *Mouer a cabeça. ¶* Caxi- |  |
 | `c2-l044` | &emsp;rauo yu. *Amarrar os cabellos da cabeça.* |  |

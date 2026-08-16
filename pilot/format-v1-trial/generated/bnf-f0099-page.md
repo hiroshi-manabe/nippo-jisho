@@ -53,7 +53,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l037` | Cauaraqe iro. *Cor de teſto de barro hum pouco* |  |
 | `c1-l038` | &emsp;*branco, ou cinzento.* |  |
 | `c1-l039` | Cauaratçucuri. *Oleiro que faz telha.* |  |
-| `c1-l040` | Cauari. *Troco. ¶ Item, Lugar, ou ſuſ-* |  |
+| `c1-l040` | Cauari. *Troco. ¶ Item, Lugar, ou ſuſ* |  |
 | `c1-l041` | &emsp;*tituto de alguem.* |  |
 | `c1-l042` | Cauari, u, atta. *Differenciarſe, mudarſe, ou* |  |
 | `c1-l043` | &emsp;*trocarſe.* |  |

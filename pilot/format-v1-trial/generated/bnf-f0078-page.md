@@ -24,7 +24,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l008` | &emsp;*ou fazer religioſo.* |  |
 | `c1-l009` | Caimon. Imaximeno fumi. *Prohibição, ou* |  |
 | `c1-l010` | &emsp;*lei.* |  |
-| `c1-l011` | Cai motome, uru, eta. *Auer alguã couſa com-* |  |
+| `c1-l011` | Cai motome, uru, eta. *Auer alguã couſa com* |  |
 | `c1-l012` | &emsp;*prandoa.* |  |
 | `c1-l013` | Caimucu. i. Chittomo. *Nem hum tamanino.* |  |
 | `c1-l014` | &emsp;*Ajuntaſe com negatiuo. Vt,* Caimu- |  |
@@ -45,7 +45,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l029` | Caiqi. *Tafeta.* |  |
 | `c1-l030` | Caiqi. *Peſſoa que deu principio à algũa ſeita,* |  |
 | `c1-l031` | &emsp;*ou doctrina.* |  |
-| `c1-l032` | Caiqiǔ. Qidaſaxi xina. *Dignidade a q̃ ſe ſo-* |  |
+| `c1-l032` | Caiqiǔ. Qidaſaxi xina. *Dignidade a q̃ ſe ſo* |  |
 | `c1-l033` | &emsp;*be por graos.* |  |
 | `c1-l034` | Caiqua. Fana firaqu. *Abrirſe a roſa, ou* |  |
 | `c1-l035` | &emsp;*flor. P.* |  |
@@ -53,14 +53,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l037` | &emsp;Fanaga cairacu ſuru. *Abrirem as roſas,* |  |
 | `c1-l038` | &emsp;*ou flores, & cairem deſfolhandoſe.* |  |
 | `c1-l039` | Cairagui. *Hum certo peixe como lixa cuja pel-* |  |
-| `c1-l040` | &emsp;*le ſerue pera cubrir, & ornar os punhos da* Ca- |  |
-| `c1-l041` | &emsp;tana. *¶* Cairaguizzuca. *Punhos da* Ca- |  |
+| `c1-l040` | &emsp;*le ſerue pera cubrir, & ornar os punhos da* Ca |  |
+| `c1-l041` | &emsp;tana. *¶* Cairaguizzuca. *Punhos da* Ca |  |
 | `c1-l042` | &emsp;tana *concertados, & cubertos com eſta pelle.* |  |
 | `c1-l043` | Cairicu. Vmi cuga. *Mar, & terra, ou por* |  |
 | `c1-l044` | &emsp;*mar, & por terra.* |  |
 | `c1-l045` | Cairiǒ. *Vt,* Cairiǒ manzocu. *Alegria,* |  |
 | `c1-l046` | &emsp;*& contentamento perfeito.* |  |
-| `c1-l047` | Cairiqi. Imaximeno chicara. *Vigor, & for-* |  |
+| `c1-l047` | Cairiqi. Imaximeno chicara. *Vigor, & for* |  |
 | `c1-l048` | &emsp;*ça da lei.* |  |
 
 ## Column 2 running header
@@ -90,7 +90,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l015` | &emsp;*brir, & cultiuar de nouo algũa terra.* |  |
 | `c2-l016` | Caiſaguri, ru, utta. *Palpar leuemente.* |  |
 | `c2-l017` | Caiſama, l, caiſamani. *Az aueſſas. Vt,* |  |
-| `c2-l018` | &emsp;Caiſamani qirimonomo qiru. *Veſtir o veſ-* |  |
+| `c2-l018` | &emsp;Caiſamani qirimonomo qiru. *Veſtir o veſ* |  |
 | `c2-l019` | &emsp;*tido az aueſſas.* |  |
 | `c2-l020` | Caiſama ro. i. Sacaro. *Remos az aueſſas.* |  |
 | `c2-l021` | &emsp;*i. Poſtos de proa a popa.* |  |
@@ -103,7 +103,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l028` | &emsp;*Vt,* Fitçujino caiſodatçuru. *Apacentar* |  |
 | `c2-l029` | &emsp;*ouelhas.* |  |
 | `c2-l030` | Caiſoi, ô, ôta. *Eſtar junto, ou pegado com* |  |
-| `c2-l031` | &emsp;*alguem. ¶* Caiſôta fito. *Homem mã-* |  |
+| `c2-l031` | &emsp;*alguem. ¶* Caiſôta fito. *Homem mã* |  |
 | `c2-l032` | &emsp;*ſo, & brando.* |  |
 | `c2-l033` | Caiſoye, uru, eta. *Comprando acrecentar.* |  |
 | `c2-l034` | &emsp;*Vt,* Vxini vmauo caiſoyete qica. *Tornei* |  |

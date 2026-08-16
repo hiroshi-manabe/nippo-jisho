@@ -24,7 +24,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l008` | &emsp;*da ſeita* Xingǒjǔ. |  |
 | `c1-l009` | Cagio. Vtǒ vonna. *Molher qua canta.* |  |
 | `c1-l010` | Cagiô. *Conta de capitulos, apontamentos.* |  |
-| `c1-l011` | &emsp;*Vt,* Iccagiô, nicagiô. *Hum capitulo, do-* |  |
+| `c1-l011` | &emsp;*Vt,* Iccagiô, nicagiô. *Hum capitulo, do* |  |
 | `c1-l012` | &emsp;*us, &c. ¶* Cagiôgaqi. *Capitulos, ou* |  |
 | `c1-l013` | &emsp;*apontamentos eſcritos.* |  |
 | `c1-l014` | Cagitoco. *Hum pao em que vai encaixado o* |  |
@@ -36,16 +36,16 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l020` | &emsp;*que não tem termo.* |  |
 | `c1-l021` | Cai. *Particula que ſe ajunta, & compoem cõ* |  |
 | `c1-l022` | &emsp;*algũs verbos, & lhes da certa enfaſi que no* |  |
-| `c1-l023` | &emsp;Ximo *ſe diz* Tçui. *Vt,* Caicorobi caicu- |  |
+| `c1-l023` | &emsp;Ximo *ſe diz* Tçui. *Vt,* Caicorobi caicu |  |
 | `c1-l024` | &emsp;mu. Caicacu, caifiraqu, &c. |  |
 | `c1-l025` | Cai. Imaxinuru. *Prohibição, ou preceito de* |  |
 | `c1-l026` | &emsp;*couſas affirmatiuas. ¶* Caiuo tamotçu. |  |
 | `c1-l027` | &emsp;*Guardar os mandamentos. ¶* Caiuo vqu- |  |
 | `c1-l028` | &emsp;ru. *Receber preceito, ou prohibição.* |  |
 | `c1-l029` | Cai. Sacai. i. Xecai. *Mundo.* |  |
-| `c1-l030` | Cai. *Ameijoa, ou outro mariſco do mar ſeme-* |  |
+| `c1-l030` | Cai. *Ameijoa, ou outro mariſco do mar ſeme* |  |
 | `c1-l031` | &emsp;*lhante. ¶ Item, Buzio que em Iapão ſer-* |  |
-| `c1-l032` | &emsp;*ue como de buzina, ou trombeta. ¶* Cai- |  |
+| `c1-l032` | &emsp;*ue como de buzina, ou trombeta. ¶* Cai |  |
 | `c1-l033` | &emsp;uo ſuqu. *Tanger eſte buzio, ou buzina.* |  |
 | `c1-l034` | &emsp;*¶* Caiuo naraſu, l, tatçuru. *Idem.* |  |
 | `c1-l035` | &emsp;*¶* Caimo coye. *Som de buzio de Iapão,* |  |
@@ -54,10 +54,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l038` | &emsp;*buzina. ¶* Caino tama. *Perola, ou* |  |
 | `c1-l039` | &emsp;*aljofre.* |  |
 | `c1-l040` | Cai, Vouô, l, vouoi. *Cubrir, ou couſa q̃ cobre* |  |
-| `c1-l041` | &emsp;*como palco, ſobrecto, toldo, &c. Vt,* Cai- |  |
+| `c1-l041` | &emsp;*como palco, ſobrecto, toldo, &c. Vt,* Cai |  |
 | `c1-l042` | &emsp;uo ſaſu. *Eſtender toldo, &c.* |  |
 | `c1-l043` | Cai, l, caiyǔ. *Canjoſita de arroz.* |  |
-| `c1-l044` | Cai. *Proueito, ou remedio. Vt,* Iqite cai- |  |
+| `c1-l044` | Cai. *Proueito, ou remedio. Vt,* Iqite cai |  |
 | `c1-l045` | &emsp;no rai. *Ainda q̃ viua q̃ a proueit? ¶* Mô- |  |
 | `c1-l046` | &emsp;xita caiganai. *Por mais que lho tenha* |  |
 | `c1-l047` | &emsp;*dito não ha remedio.* |  |

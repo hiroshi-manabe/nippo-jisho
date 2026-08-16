@@ -21,20 +21,20 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l005` | Camafu zzuqin. *Barrete de dous cantos.* |  |
 | `c1-l006` | Camaya. *Cozinha, ou lugar das fornalhas, &* |  |
 | `c1-l007` | &emsp;*fogões.* |  |
-| `c1-l008` | Camayari. *Certas lanças que tem o ferro à ma-* |  |
+| `c1-l008` | Camayari. *Certas lanças que tem o ferro à ma* |  |
 | `c1-l009` | &emsp;*neira de cruz.* |  |
 | `c1-l010` | Camaye, ru, eta. *Cercar, ou aparelhar, ou* |  |
 | `c1-l011` | &emsp;*concertar. ¶* Xirouo camayuru. *Cercar,* |  |
 | `c1-l012` | &emsp;*& concertar a fortaleza. ¶* Buxǒuo ca- |  |
-| `c1-l013` | &emsp;mayuru. *Ter priguiça. ¶* Yocuuo ca- |  |
+| `c1-l013` | &emsp;mayuru. *Ter priguiça. ¶* Yocuuo ca |  |
 | `c1-l014` | &emsp;mayuru. *Cubiçar, ou grangear com cubiça.* |  |
 | `c1-l015` | &emsp;*¶* Yaxinuo camayuru. *Fazer traição.* |  |
-| `c1-l016` | &emsp;*¶* Yari, catana nadouo camayete iru. *Eſ-* |  |
+| `c1-l016` | &emsp;*¶* Yari, catana nadouo camayete iru. *Eſ* |  |
 | `c1-l017` | &emsp;*tar com a lança,* Catana, *&c. em feição,* |  |
 | `c1-l018` | &emsp;*& poſtura de dar, ou ferir. ¶* Catanaga- |  |
 | `c1-l019` | &emsp;mayeuo ſuru. *Porſe em feição, & poſtura* |  |
 | `c1-l020` | &emsp;*de dar, ou ferir com a* Catana. *¶* Fida- |  |
-| `c1-l021` | &emsp;rigamayeuo ſuru. *Menear as armas da par-* |  |
+| `c1-l021` | &emsp;rigamayeuo ſuru. *Menear as armas da par* |  |
 | `c1-l022` | &emsp;*te eſquerda.* |  |
 | `c1-l023` | Camaye. *Cerca, repairo, ou concerto.* |  |
 | `c1-l024` | Camayete, l, Camaite. *Olhai por vós.* |  |
@@ -51,7 +51,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l035` | Cami. *Cabellos da cabeça. ¶* Camiga ta- |  |
 | `c1-l036` | &emsp;tçu. *Arrepiarem ſe os cabellos. ¶* Ca- |  |
 | `c1-l037` | &emsp;miuo ſoru. *Rapar a cabeça. ¶* Cami- |  |
-| `c1-l038` | &emsp;ga chigimu. *Ter os cabellos creſpos. ¶* Ca- |  |
+| `c1-l038` | &emsp;ga chigimu. *Ter os cabellos creſpos. ¶* Ca |  |
 | `c1-l039` | &emsp;miuo nazzuru. *Affagar pondo a mão polla* |  |
 | `c1-l040` | &emsp;*cabeça. ¶* Camino vochi. *Cabellos que* |  |
 | `c1-l041` | &emsp;*caem da cabeça das molheres.* |  |
@@ -106,13 +106,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l031` | Camiſoribaco. *Cuixinha das naualhas.* |  |
 | `c2-l032` | Camiſorigai. *Certo genero de ameijoas.* |  |
 | `c2-l033` | Camitadaracaxi, ſu, aita. *Maſtigar, ou* |  |
-| `c2-l034` | &emsp;*cortar com os dentes couſas duras, & corriẽ-* |  |
+| `c2-l034` | &emsp;*cortar com os dentes couſas duras, & corriẽ* |  |
 | `c2-l035` | &emsp;*tas de maneira que fiquem mal cortadas,* |  |
 | `c2-l036` | &emsp;*& compridas na boca, como alſeloas, &c.* |  |
 | `c2-l037` | Camitçuqi, u, uita. *Morder, ou dar dentada.* |  |
 | `c2-l038` | Camiya. *Caſa onde vendem papel.* |  |
 | `c2-l039` | Camiyo. *Idade, ou tẽpo dos* Camis *de Iapão.* |  |
-| `c2-l040` | Camiyori. *Papel torcido pera atar algũa cou-* |  |
+| `c2-l040` | Camiyori. *Papel torcido pera atar algũa cou* |  |
 | `c2-l041` | &emsp;*ſa em lugar de fio. Melius.* Coyori. |  |
 | `c2-l042` | Camo. *Hum paſſaro do mar, como marreca.* |  |
 | `c2-l043` | Camogutçu. *Çapatos altos pera jugar apella* |  |

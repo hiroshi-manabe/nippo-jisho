@@ -96,7 +96,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l016` | &emsp;uo carumuru. *Aliuiar a triſteza, ou* |  |
 | `c2-l017` | &emsp;*cuidados.* |  |
 | `c2-l018` | Carumi, u, ùda. *Fazerſe leue, ou aliuiareſe.* |  |
-| `c2-l019` | Carumonogura. *Deſpença em que ſe tem cou-* |  |
+| `c2-l019` | Carumonogura. *Deſpença em que ſe tem cou* |  |
 | `c2-l020` | &emsp;*ſas leues, & mais menemei.* |  |
 | `c2-l021` | Carumuxa. *Soldado ligeiro.* |  |
 | `c2-l022` | Carunori. *O caualgar ligeiramente.* |  |
@@ -105,7 +105,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l025` | Caruxime, uru, eta. *Deſprezar, ou fazer* |  |
 | `c2-l026` | &emsp;*pouco caſo.* |  |
 | `c2-l027` | Caſa. *Parte ſuperior do monte. Vt,* Iǒuo |  |
-| `c2-l028` | &emsp;votoriſaba caſaye mauare. *Yax. Se render-* |  |
+| `c2-l028` | &emsp;votoriſaba caſaye mauare. *Yax. Se render* |  |
 | `c2-l029` | &emsp;*des algũa fortaleza, rodeai pera a parte alta* |  |
 | `c2-l030` | &emsp;*do monte. ¶ Item, Aparencia, & vulto* |  |
 | `c2-l031` | &emsp;*que faz alguã couſa grande, ou acumulada.* |  |

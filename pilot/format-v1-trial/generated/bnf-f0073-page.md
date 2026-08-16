@@ -14,19 +14,19 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | &emsp;*ſe põe a cobertoura, ou teſto da panella do* Cha*-* |  |
+| `c1-l001` | &emsp;*ſe põe a cobertoura, ou teſto da panella do* Cha |  |
 | `c1-l002` | &emsp;*noyu. i.* futauoqi. |  |
-| `c1-l003` | Cacure, uru, eta. *Eſconderſe, ou eſtar eſcõ-* |  |
+| `c1-l003` | Cacure, uru, eta. *Eſconderſe, ou eſtar eſcõ* |  |
 | `c1-l004` | &emsp;*dido. ¶ Item, Morrer.* |  |
 | `c1-l005` | Cacure. *O eſconderſe, ou não ſe ſaber. ¶* Ca- |  |
-| `c1-l006` | &emsp;curemonai fito. *Homem affamado, & ſa-* |  |
+| `c1-l006` | &emsp;curemonai fito. *Homem affamado, & ſa* |  |
 | `c1-l007` | &emsp;*bido de todos.* |  |
 | `c1-l008` | Cacure fuxi, ſu, uita. *Eſtar deitado eſcondido.* |  |
 | `c1-l009` | Cacure ariqi, u, uita. *Andar eſcondidamẽ-* |  |
 | `c1-l010` | &emsp;*te de ca pera là.* |  |
 | `c1-l011` | Cacuredocoro. *Lugar ſecreto, & eſcondido,* |  |
 | `c1-l012` | &emsp;*ou onde ſe hum eſconde.* |  |
-| `c1-l013` | Cacurego. *Certo jogo de meninos em que ſe eſ-* |  |
+| `c1-l013` | Cacurego. *Certo jogo de meninos em que ſe eſ* |  |
 | `c1-l014` | &emsp;*condem, & buſcão huns aos outros.* |  |
 | `c1-l015` | Cacureô. Satori, u. *Deſcorrer com o penſa-* |  |
 | `c1-l016` | &emsp;*mento, ou alcançar com o diſcurſo.* |  |
@@ -41,7 +41,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l025` | &emsp;*ẽtẽde, ou penetra por via de diſcurſo, &c.* |  |
 | `c1-l026` | Cacutai. Betno tai. *Suſtancia differente, ou* |  |
 | `c1-l027` | &emsp;*diſtinta.* |  |
-| `c1-l028` | Cacute, l, cacuteua. *Adu. Sendo aſſi, deſ-* |  |
+| `c1-l028` | Cacute, l, cacuteua. *Adu. Sendo aſſi, deſ* |  |
 | `c1-l029` | &emsp;*ta maneira, &c.* |  |
 | `c1-l030` | Cacuuon. *Nome de hum certo tom, ou toa-* |  |
 | `c1-l031` | &emsp;*da da voz.* |  |
@@ -57,7 +57,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l041` | Cacuxǔ. Tabibune. *Embarcação de fora* |  |
 | `c1-l042` | &emsp;*de terra.* |  |
 | `c1-l043` | Cacuxut, l, xuxxen. Vonovono. i. Cacca- |  |
-| `c1-l044` | &emsp;cuni daſu. *Dar cada hum por ſi algũa cou-* |  |
+| `c1-l044` | &emsp;cuni daſu. *Dar cada hum por ſi algũa cou* |  |
 | `c1-l045` | &emsp;*ſa quando ſão muitos. Vt,* Cacuxutni |  |
 | `c1-l046` | &emsp;xite monouo daſu. *Dar cada hum algũa* |  |
 | `c1-l047` | &emsp;*couſa como pera algum conuite, &c.* |  |
@@ -112,7 +112,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l032` | &emsp;no ixi. |  |
 | `c2-l033` | Cado. *Porta por onde ſe entra, ou portal da* |  |
 | `c2-l034` | &emsp;*caſa. ¶* Cadoni tatçu, l, cadodachi |  |
-| `c2-l035` | &emsp;ſuru. *Eſtar em pè à porta.* Cadoni ya- |  |
+| `c2-l035` | &emsp;ſuru. *Eſtar em pè à porta.* Cadoni ya |  |
 | `c2-l036` | &emsp;ſurǒ. *Eſtar eſperando em pè à porta. ¶* Ca- |  |
 | `c2-l037` | &emsp;douo tatçuru, ſaſu, tçumuru, xecu. |  |
 | `c2-l038` | &emsp;*Fechar a porta. ¶* Cadouo curiſuru. *A-* |  |

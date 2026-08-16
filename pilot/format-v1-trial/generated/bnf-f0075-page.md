@@ -85,7 +85,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l005` | &emsp;*toldado, ou mudado. Vt,* Tengiga cague- |  |
 | `c2-l006` | &emsp;rôta. *o meſmo.* |  |
 | `c2-l007` | Caguerô. *Hum certo bicho. ¶ Itẽ,* |  |
-| `c2-l008` | &emsp;*Sombra, ou fantaſma que aparece & logo de-* |  |
+| `c2-l008` | &emsp;*Sombra, ou fantaſma que aparece & logo de* |  |
 | `c2-l009` | &emsp;*ſaparece.* |  |
 | `c2-l010` | Caguet. Natçuno tçugui. *Lũa do eſtio.* |  |
 | `c2-l011` | Cagui. *Chaue.* |  |
@@ -100,19 +100,19 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l020` | &emsp;*muito mal feita, & que muito ſe eſtranha.* |  |
 | `c2-l021` | Caguiri, u, itta. *Terminarſe, acabar, ou* |  |
 | `c2-l022` | &emsp;*conterſe, encerrarſe.* |  |
-| `c2-l023` | Cago. Cuuaye mamoru. *Ajuda, ou protei-* |  |
+| `c2-l023` | Cago. Cuuaye mamoru. *Ajuda, ou protei* |  |
 | `c2-l024` | &emsp;*ção. Vt,* Deusno gocagouo cõmuru. |  |
 | `c2-l025` | &emsp;*Receber o fauor diuino.* |  |
 | `c2-l026` | Cago. *Ceſto, ou gayola de canas, &c.* |  |
-| `c2-l027` | Cagoto. *Eſcuſa, ou achaque. ¶* Cagoto- |  |
-| `c2-l028` | &emsp;uo ſaqidatçuru. *Dizer logo eſcuſas primei-* |  |
+| `c2-l027` | Cagoto. *Eſcuſa, ou achaque. ¶* Cagoto |  |
+| `c2-l028` | &emsp;uo ſaqidatçuru. *Dizer logo eſcuſas primei* |  |
 | `c2-l029` | &emsp;*ro que outra couſa.* |  |
 | `c2-l030` | Cagu. Iyaxij, mono xirazu. *Ignorancia de* |  |
 | `c2-l031` | &emsp;*homem baxo.* |  |
 | `c2-l032` | Cagu. Iyeno dǒgu. *Alfayas de caſa.* |  |
 | `c2-l033` | &emsp;*¶ Itẽ, Mezas, & eſcudelas, &c. ¶* Ca- |  |
 | `c2-l034` | &emsp;gu zǒgu. *Muitas alfayas, & varias.* |  |
-| `c2-l035` | Cagume, uru, eta. *Ter, ou leuar alguã cou-* |  |
+| `c2-l035` | Cagume, uru, eta. *Ter, ou leuar alguã cou* |  |
 | `c2-l036` | &emsp;*ſa a cabeça. No* Cami *ſe diz,* Itadaqu. |  |
 | `c2-l037` | Cagume vchi. *O dar com a* Catana *leuãdoa* |  |
 | `c2-l038` | &emsp;*a cabeça pera deſcarregar com força, no Ca-* |  |

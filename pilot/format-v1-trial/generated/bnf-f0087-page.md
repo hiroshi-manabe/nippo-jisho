@@ -46,7 +46,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l030` | Caqemidare, uru, eta. *Arremeter a caua-* |  |
 | `c1-l031` | &emsp;*lo trauandoſe hũs com os outros.* |  |
 | `c1-l032` | Caqemizzu. *Agoa que vem por canos.* |  |
-| `c1-l033` | Caqemono. *Apoſta. ¶* Caqemononi ſu- |  |
+| `c1-l033` | Caqemono. *Apoſta. ¶* Caqemononi ſu |  |
 | `c1-l034` | &emsp;ru. *Apoſtar. ¶* Quaina naguſamini |  |
 | `c1-l035` | &emsp;ua qinguin naritomo, vma, mononogu |  |
 | `c1-l036` | &emsp;naritomo caqemononi ſuru cotogia. *Mon.* |  |
@@ -81,12 +81,12 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c2-l001` | Caqenoge, uru, eta. *Fazer a caualaria a-* |  |
 | `c2-l002` | &emsp;*faſtar os inimigos, &c. Vt,* Teqiuo mi, |  |
-| `c2-l003` | &emsp;vnauo caqe nogeôto xita. *Vendo os ini-* |  |
+| `c2-l003` | &emsp;vnauo caqe nogeôto xita. *Vendo os ini* |  |
 | `c2-l004` | &emsp;*migos fez, pollos afaſtar.* |  |
 | `c2-l005` | Caqenuge, uru, eta. *Romper a caualo, ou* |  |
 | `c2-l006` | &emsp;*paſſar pollo meo dos inimigos. Vt,* Ginno |  |
 | `c2-l007` | &emsp;nacauo icchǒ bacari caqenugeta. *Rompeo,* |  |
-| `c2-l008` | &emsp;*& entrou pello meo do arrayal tanto como cõ-* |  |
+| `c2-l008` | &emsp;*& entrou pello meo do arrayal tanto como cõ* |  |
 | `c2-l009` | &emsp;*primento de hũa rua.* |  |
 | `c2-l010` | Caqerare, uru, eta. *Eſte verbo com* Guioi, |  |
 | `c2-l011` | &emsp;*quer dizer receber alguã peſſoa honrrada em* |  |
@@ -97,7 +97,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l016` | Caqeri, ru, etta. *Voar. Vt,* Sorauo caqeru. |  |
 | `c2-l017` | Caqeſuzuri. *Eſcritorio, ou caixinha com ga-* |  |
 | `c2-l018` | &emsp;*uetas.* |  |
-| `c2-l019` | Caqeſugui, uru, ita. *Paſſar a diante a caua-* |  |
+| `c2-l019` | Caqeſugui, uru, ita. *Paſſar a diante a caua* |  |
 | `c2-l020` | &emsp;*lo. Vt,* Teqiuo caqeſuguru. *Paſſar* |  |
 | `c2-l021` | &emsp;*correndo a caualo pellos inimigos.* |  |
 | `c2-l022` | Caqeſuye, uru, eta. *Fazer parar o caualo* |  |

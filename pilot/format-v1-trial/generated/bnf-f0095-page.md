@@ -30,7 +30,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l014` | Catacana. *Hum genero de letra de Iapão.* |  |
 | `c1-l015` | Catacata. *Hũa daquellas couſas que ſe con-* |  |
 | `c1-l016` | &emsp;*tão a pares, como beõbus, çapatos, &c.* |  |
-| `c1-l017` | Catacunana, l, catacunanaru. *Peſſoa alei-* |  |
+| `c1-l017` | Catacunana, l, catacunanaru. *Peſſoa alei* |  |
 | `c1-l018` | &emsp;*jada, ou falta de algũ membro. ¶ Item, Peſſoa* |  |
 | `c1-l019` | &emsp;*hũ pouco ſeca de condição, & falta, ou curta* |  |
 | `c1-l020` | &emsp;*nos cõprimentos.* |  |
@@ -56,9 +56,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l040` | &emsp;*& os montes.* |  |
 | `c1-l041` | Catafagai. *Hũa aza de paſſaro.* |  |
 | `c1-l042` | Catafai. *Caſa de telhado de hũa ſó banda, ou* |  |
-| `c1-l043` | &emsp;*que não he de duas agoas. ¶* Catafaini ſu- |  |
+| `c1-l043` | &emsp;*que não he de duas agoas. ¶* Catafaini ſu |  |
 | `c1-l044` | &emsp;ru. *Fazer telhado deſta maneira.* |  |
-| `c1-l045` | Catafana. *Cabeça, ou principal de hũa parel-* |  |
+| `c1-l045` | Catafana. *Cabeça, ou principal de hũa parel* |  |
 | `c1-l046` | &emsp;*da briga, ou contenda. ¶* Catafanauo |  |
 | `c1-l047` | &emsp;motçu. *Ser cabeça, ou principal deſta ma-* |  |
 | `c1-l048` | &emsp;*neira.* |  |
@@ -87,7 +87,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l006` | &emsp;*¶* Iyeno catafaxiga cuzzururu. *Irſe* |  |
 | `c2-l007` | &emsp;*deſtruindo, & deſfazendo a caſa por hũa parte.* |  |
 | `c2-l008` | Catagata. *Voſſas merçes. ¶ Item, Hũa* |  |
-| `c2-l009` | &emsp;*couſa, & outra. ¶* Catagata mǒxi nobeǒ- |  |
+| `c2-l009` | &emsp;*couſa, & outra. ¶* Catagata mǒxi nobeǒ |  |
 | `c2-l010` | &emsp;zu. *Declararei hũa couſa, & outra. ¶ Item,* |  |
 | `c2-l011` | &emsp;*Secũdũ alios. Ou là ou cà: là. i. vẽdome cõ voſco,* |  |
 | `c2-l012` | &emsp;*ou cà. i. vẽdo vos comigo direi diſfuſamente.* |  |
@@ -104,7 +104,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l023` | &emsp;Cataſa. Cato. |  |
 | `c2-l024` | Catajiqenai. *Palaura de agradecer, ou dar gra-* |  |
 | `c2-l025` | &emsp;*ças por alguã couſa.* |  |
-| `c2-l026` | Catajiqenaſa. *Agradecimento. Vt,* Ama- |  |
+| `c2-l026` | Catajiqenaſa. *Agradecimento. Vt,* Ama |  |
 | `c2-l027` | &emsp;rino catajiqenaſani namidani muxebi, |  |
 | `c2-l028` | &emsp;*&c. Mon. Chorando muito com o gran-* |  |
 | `c2-l029` | &emsp;*de agradecimento, & conhecimento do beneficio.* |  |
@@ -124,8 +124,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l043` | Catamari, u, atta. *Fazerſe a couſa dura,* |  |
 | `c2-l044` | &emsp;*ou forte, ou coalharſe. ¶ Item, Vnirſe.* |  |
 | `c2-l045` | &emsp;*Vt,* Vchiuaga catamaru. *Vnirſe a familia,* |  |
-| `c2-l046` | &emsp;*ou gente de hũa caſa. O contrario he, Vchiu a-* |  |
-| `c2-l047` | &emsp;ga yabururu. *Deſunirſe, & deſbaratarſe al-* |  |
+| `c2-l046` | &emsp;*ou gente de hũa caſa. O contrario he, Vchiu a* |  |
+| `c2-l047` | &emsp;ga yabururu. *Deſunirſe, & deſbaratarſe al* |  |
 
 ## Printed signature
 

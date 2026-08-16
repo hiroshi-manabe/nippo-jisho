@@ -28,7 +28,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l012` | &emsp;*agoas viuas.* |  |
 | `c1-l013` | Caraxizu. *Moſtarda moida com vinagre.* |  |
 | `c1-l014` | Caraxǒzocu. *Trajo, ou veſtido da China.* |  |
-| `c1-l015` | Carayezzuqi. *O eſcarrar, ou tucir ſeco ſem bo-* |  |
+| `c1-l015` | Carayezzuqi. *O eſcarrar, ou tucir ſeco ſem bo* |  |
 | `c1-l016` | &emsp;*tar nada. ¶* Carayezziqiuo ſuru. *Fa-* |  |
 | `c1-l017` | &emsp;*zer que eſcarra, ou quer eſcarrar ſem botar* |  |
 | `c1-l018` | &emsp;*nada.* |  |
@@ -46,7 +46,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l030` | &emsp;*aquillo, &c.* |  |
 | `c1-l031` | Careſate, tçuru, eta. *Secarſe de todo.* |  |
 | `c1-l032` | Caregareni. *Modo de ſe ir ſecando eruas, fo-* |  |
-| `c1-l033` | &emsp;*lhas, &c. ¶ Item, Per met.* Muxiuo ne- |  |
+| `c1-l033` | &emsp;*lhas, &c. ¶ Item, Per met.* Muxiuo ne |  |
 | `c1-l034` | &emsp;mo caregareni nari. *As vozes dos bichos* |  |
 | `c1-l035` | &emsp;*vão ſe ſecando, ou enrouquecendo.* |  |
 | `c1-l036` | Caregoye. *Voz rouca.* |  |
@@ -93,7 +93,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l019` | &emsp;*arregaçarſe. Vt,* Ixǒuo cariaguru. *B.* |  |
 | `c2-l020` | Cariba. *Lugar de caça.* |  |
 | `c2-l021` | Caribito. *Caçador.* |  |
-| `c2-l022` | Caribuxi. P. i. Carini inuru coto. *Dor-* |  |
+| `c2-l022` | Caribuxi. P. i. Carini inuru coto. *Dor* |  |
 | `c2-l023` | &emsp;*mir por hum pouco.* |  |
 | `c2-l024` | Caricoromo. P. i. Carini qiru. *Veſtido* |  |
 | `c2-l025` | &emsp;*que ſe veſte como dempreſtado, ou por pouco* |  |
@@ -112,7 +112,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l038` | Carimatagara. *Certa laya de frechas deſte fer-* |  |
 | `c2-l039` | &emsp;*ro de duas pontas.* |  |
 | `c2-l040` | Carimecaxi, ſu, aita. *Fazer ruido cõ os dẽ-* |  |
-| `c2-l041` | &emsp;*tes quebrando oſſos, couſas duras como biſcou-* |  |
+| `c2-l041` | &emsp;*tes quebrando oſſos, couſas duras como biſcou* |  |
 | `c2-l042` | &emsp;*to, &c.* |  |
 | `c2-l043` | Carimeqi, u, eita. *Soar entre os dentes, quã-* |  |
 | `c2-l044` | &emsp;*do ſe maſtiga pepino, rábão, biſcouto, &c.* |  |

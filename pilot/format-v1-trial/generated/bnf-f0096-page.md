@@ -35,21 +35,21 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l019` | &emsp;*Deixar por lembrança, ou memoria algũa couſa.* |  |
 | `c1-l020` | Catami. *Hũa parte, ou ametade do corpo. Vt,* |  |
 | `c1-l021` | &emsp;Catamiga nayeta. *Eſta tolhido, ou paralí-* |  |
-| `c1-l022` | &emsp;*tico de hũa parte do corpo. ¶ Item, Ame-* |  |
+| `c1-l022` | &emsp;*tico de hũa parte do corpo. ¶ Item, Ame* |  |
 | `c1-l023` | &emsp;*tade do veſtido. ¶* Catamigauarino qiru |  |
 | `c1-l024` | &emsp;mono. *Veſtido que cada parte tem ſua cor* |  |
 | `c1-l025` | &emsp;*differente.* |  |
 | `c1-l026` | Catamichi. *Caminho que ſe anda de hũa vez,* |  |
-| `c1-l027` | &emsp;*ſem ter conta com o tornar andar, como que foſ-* |  |
+| `c1-l027` | &emsp;*ſem ter conta com o tornar andar, como que foſ* |  |
 | `c1-l028` | &emsp;*ſe pera Arima ſem tornar.* |  |
 | `c1-l029` | Catamuqe, uru, eta. *Inclinar. ¶ Item,* |  |
-| `c1-l030` | &emsp;*Render a alguem. ¶* Cuniuo catamuqu- |  |
+| `c1-l030` | &emsp;*Render a alguem. ¶* Cuniuo catamuqu |  |
 | `c1-l031` | &emsp;ru. *Fazer reuoluer, ou perturbar o reino.* |  |
 | `c1-l032` | Catamuqi, u, uita. *Inclinarſe. ¶* Yǒtai |  |
 | `c1-l033` | &emsp;catamuqu. *Ir enuelhecendo. ¶* Vnmeĩ |  |
 | `c1-l034` | &emsp;ga catamuqu. *Irſe acabando a boa dita, ou* |  |
 | `c1-l035` | &emsp;*fortuna. ¶* Acuni catamuqu. *Inclinar-* |  |
-| `c1-l036` | &emsp;*ſe à maldade. ¶* Cuniga catamuqu. *Per-* |  |
+| `c1-l036` | &emsp;*ſe à maldade. ¶* Cuniga catamuqu. *Per* |  |
 | `c1-l037` | &emsp;*turbarſe, ou deſtruirſe o reino.* |  |
 | `c1-l038` | Catamuqi tachi, tçu, tatta. *Fugir, ou ir* |  |
 | `c1-l039` | &emsp;*de cabeça a baixo o exercito, &c.* |  |
@@ -73,12 +73,12 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c2-l001` | &emsp;ſuri aguru. *Fazer o ferro da* Catana *mais* |  |
-| `c2-l002` | &emsp;*curto limandoo, & fazendo os cabos mais com-* |  |
+| `c2-l002` | &emsp;*curto limandoo, & fazendo os cabos mais com* |  |
 | `c2-l003` | &emsp;*pridos. ¶* Catanauo ſuriaguru. *Fazer mais* |  |
-| `c2-l004` | &emsp;*curta a* Catana *cortandoa pellos cabos. ¶* Ca- |  |
-| `c2-l005` | &emsp;tanauo tameſu. *Prouar a eſpada. ¶* Cata- |  |
+| `c2-l004` | &emsp;*curta a* Catana *cortandoa pellos cabos. ¶* Ca |  |
+| `c2-l005` | &emsp;tanauo tameſu. *Prouar a eſpada. ¶* Cata |  |
 | `c2-l006` | &emsp;nauo nuqu. *Arrancar a eſpada. ¶* Ca- |  |
-| `c2-l007` | &emsp;tanaga noru, l, notta. *Ficar a eſpada, em-* |  |
+| `c2-l007` | &emsp;tanaga noru, l, notta. *Ficar a eſpada, em* |  |
 | `c2-l008` | &emsp;*tortarſe, ou ficar torta a* Catana. |  |
 | `c2-l009` | Catanabucuro. *Sobre bainha da* Catana. |  |
 | `c2-l010` | Catanadamari. *Ter a* Catana *em que empe-* |  |
@@ -96,7 +96,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l022` | Catanori. *Huns limos do mar.* |  |
 | `c2-l023` | Catanori. *Certo grude, ou polme groſſo de* |  |
 | `c2-l024` | &emsp;*arroz, de que vſão os tintureiros.* |  |
-| `c2-l025` | Cataqi. *Inimigo. Voyano* cataqi. *Inimi-* |  |
+| `c2-l025` | Cataqi. *Inimigo. Voyano* cataqi. *Inimi* |  |
 | `c2-l026` | &emsp;*go que matou ao pai. ¶* Cataqiuo toru. |  |
 | `c2-l027` | &emsp;*Determinar a alguem por capital inimigo pera* |  |
 | `c2-l028` | &emsp;*o matar.* |  |

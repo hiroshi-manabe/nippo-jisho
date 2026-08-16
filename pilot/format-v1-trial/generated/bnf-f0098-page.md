@@ -22,7 +22,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l006` | Catbeǒ. *Hũa certa doença q̃ cauſa grãde ſede.* |  |
 | `c1-l007` | Catçû, l, catçûua. *Hum pouco. ¶ Item,* |  |
 | `c1-l008` | &emsp;*Por hũa parte, ou por hũa via, à hũa, &c.* |  |
-| `c1-l009` | Catçugatçu. i. Sucoxizzutçu. *Pouco a pou-* |  |
+| `c1-l009` | Catçugatçu. i. Sucoxizzutçu. *Pouco a pou* |  |
 | `c1-l010` | &emsp;*co. ¶ Vt,* Deqixidai catçugatçu xinji ma- |  |
 | `c1-l011` | &emsp;raxǒzu. *Aſsi como ſe for fazendo pouco a* |  |
 | `c1-l012` | &emsp;*pouco volo darei.* |  |
@@ -32,7 +32,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l016` | Catçuge, uru. *Amançar, ou domeſticar.* |  |
 | `c1-l017` | Catçura. *Hũa laya de molheres q̃ ſobre o ma-* |  |
 | `c1-l018` | &emsp;*is veſtido trazem hũa* Catabira *de linho por* |  |
-| `c1-l019` | &emsp;*cima, & nacabeça muito toucado, as quaes deſ-* |  |
+| `c1-l019` | &emsp;*cima, & nacabeça muito toucado, as quaes deſ* |  |
 | `c1-l020` | &emsp;*correm por diuerſas partes.* |  |
 | `c1-l021` | Catçute. Adu. *De nenhũa qualidade, ou nũ-* |  |
 | `c1-l022` | &emsp;*qua, ſempre ſe junta com negatiuos.* |  |
@@ -43,16 +43,16 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l027` | Catçuuoguſa. *Erva aſsi chamada.* |  |
 | `c1-l028` | Catçuuomuxi. *Hum bichô queſe cria no peixe* |  |
 | `c1-l029` | &emsp;*combalamaz.* |  |
-| `c1-l030` | Catçuye, uru, eta. *Morrer de fome, ou paſ-* |  |
+| `c1-l030` | Catçuye, uru, eta. *Morrer de fome, ou paſ* |  |
 | `c1-l031` | &emsp;*ſar grande fome.* |  |
 | `c1-l032` | Cate. *Matafotagẽ, ou mantimentos. ¶* Ca- |  |
 | `c1-l033` | &emsp;teuotçumu. *Ajuntar mantimentos, ¶* Iiẽ. |  |
-| `c1-l034` | &emsp;*Embarcalos, ou metelos ẽ alguã caſa. ¶* Ca- |  |
+| `c1-l034` | &emsp;*Embarcalos, ou metelos ẽ alguã caſa. ¶* Ca |  |
 | `c1-l035` | &emsp;teni tçumaru. *Faltarem os mantimentos.* |  |
 | `c1-l036` | Caten. i. Tenuo cuuayuru. *Acrecentar hũ* |  |
 | `c1-l037` | &emsp;*ponto à letra de Iapão com que ſe lê de outra* |  |
 | `c1-l038` | &emsp;*maneira.* |  |
-| `c1-l039` | Catgô. Caxizzugi auogu. i. Fitouo acchi- |  |
+| `c1-l039` | Catgô. Caxizzugi auogu. i. Fitouo acchi |  |
 | `c1-l040` | &emsp;vyamô. *Venerar, & reuerenciar.* |  |
 | `c1-l041` | Catô. P. Cauano fotori. *Borda do rio.* |  |
 | `c1-l042` | Catocu. i. Iyeuo yuzuru coto. *Herãça.* |  |
@@ -85,9 +85,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l011` | &emsp;*ſe diz* Voxite. |  |
 | `c2-l012` | Cattô. Cuzu, fugi. *Certo genero de vimes* |  |
 | `c2-l013` | &emsp;*como era.* |  |
-| `c2-l014` | Caua. *Rio, ou ribeira. ¶* Cauauo vata- |  |
+| `c2-l014` | Caua. *Rio, ou ribeira. ¶* Cauauo vata |  |
 | `c2-l015` | &emsp;ru, l, Cauauo coſu, l, vataſu. *Paſſar* |  |
-| `c2-l016` | &emsp;*o rio. ¶* Cauauo xeqitomuru. *Repre-* |  |
+| `c2-l016` | &emsp;*o rio. ¶* Cauauo xeqitomuru. *Repre* |  |
 | `c2-l017` | &emsp;*zar o rio.* |  |
 | `c2-l018` | Caua. *Pelle, ou couro. ¶ Item, Caſca da* |  |
 | `c2-l019` | &emsp;*aruore, fruita, &c.* |  |
@@ -103,7 +103,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l029` | Cauacami. *Cabeça do rio, ou parte ſuperior* |  |
 | `c2-l030` | &emsp;*do rio.* |  |
 | `c2-l031` | Cauadachi. i. Suirenuo yeta fito. *Homem* |  |
-| `c2-l032` | &emsp;*que nada, ou paſſa bem os rios. ¶* Caua- |  |
+| `c2-l032` | &emsp;*que nada, ou paſſa bem os rios. ¶* Caua |  |
 | `c2-l033` | &emsp;dachiuo ſuru mono. *Idem.* |  |
 | `c2-l034` | Cauagani. *Cangrejo do rio.* |  |
 | `c2-l035` | Cauagaraſii. *Hũa aue do rio aſsi chamada.* |  |

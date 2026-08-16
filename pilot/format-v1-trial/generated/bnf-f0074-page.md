@@ -37,7 +37,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l021` | &emsp;*ou mal eſtreada conforme ao ſucceſſo que tem* |  |
 | `c1-l022` | &emsp;*no dia em que ſaem, ou ſe partem deueras, &* |  |
 | `c1-l023` | &emsp;*aſſi ſe acerta de encontrar alguã peſſoa a que* |  |
-| `c1-l024` | &emsp;*tem odio, &c. dizem* cadoideuo ximauoi- |  |
+| `c1-l024` | &emsp;*tem odio, &c. dizem* cadoideuo ximauoi |  |
 | `c1-l025` | &emsp;te mairo. *Quero ir me emendar, ou mi-* |  |
 | `c1-l026` | &emsp;*lhorar eſta ſaida, o q̃ fazem tornando ſe pera* |  |
 | `c1-l027` | &emsp;*caſa. ¶* Cadoideuo ſuru. *Fazer eſta ſaida.* |  |
@@ -55,7 +55,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l039` | Cafan. Fanuo cuuayuru. i. Fiteno ſaino ſo- |  |
 | `c1-l040` | &emsp;bani ſuyuru. *Aſinarem muitos juntos.* |  |
 | `c1-l041` | &emsp;*¶* Cafan ſuru. *Idem.* |  |
-| `c1-l042` | Cafen. Cauano fotori. *Cerda do rio, ou jũ-* |  |
+| `c1-l042` | Cafen. Cauano fotori. *Cerda do rio, ou jũ* |  |
 | `c1-l043` | &emsp;*to do rio.* |  |
 | `c1-l044` | Cafit. Fudeuo cuuayuru. *Dar encomendas* |  |
 | `c1-l045` | &emsp;*por carta. Vt,* Fitoni cafitue mǒxi ſoro. |  |
@@ -75,11 +75,11 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c2-l001` | Cafǔ. Iyeno fǔ. i. Catagui. *Cuſtume par-* |  |
 | `c2-l002` | &emsp;*ticular dalguã familia, ou arte que por dedução* |  |
-| `c2-l003` | &emsp;*he propria de algũa familia. ¶* Cafǔ jin- |  |
-| `c2-l004` | &emsp;jǒni xite. *Sendo arte limpa, & liberal co-* |  |
+| `c2-l003` | &emsp;*he propria de algũa familia. ¶* Cafǔ jin |  |
+| `c2-l004` | &emsp;jǒni xite. *Sendo arte limpa, & liberal co* |  |
 | `c2-l005` | &emsp;*mo de compor* Vtas, *&c. propria dalgũa* |  |
 | `c2-l006` | &emsp;*familia.* |  |
-| `c2-l007` | Cafuchi. Qinbunuo cuuayuru, l, fuchi- |  |
+| `c2-l007` | Cafuchi. Qinbunuo cuuayuru, l, fuchi |  |
 | `c2-l008` | &emsp;uo cuuayuru. *Acrecentar a merce, come-* |  |
 | `c2-l009` | &emsp;*dia, ou renda aos criados. ¶* Cafuchiuo |  |
 | `c2-l010` | &emsp;ſuru. *Idem.* |  |
@@ -100,22 +100,22 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l025` | &emsp;*enneuoarſe o eſpelho, ou fazerſe baço. ¶* Ca- |  |
 | `c2-l026` | &emsp;gamini muco. *Verſe ao eſpelho. ¶ Itẽ,* |  |
 | `c2-l027` | &emsp;Cagami. *Eſpelho, ou exemplo de virtude,* |  |
-| `c2-l028` | &emsp;*&c. ¶* Ienno cagami. *Eſpelho, ou ex-* |  |
-| `c2-l029` | &emsp;*emplo de virtude. ¶* Fitono cagamito na- |  |
+| `c2-l028` | &emsp;*&c. ¶* Ienno cagami. *Eſpelho, ou ex* |  |
+| `c2-l029` | &emsp;*emplo de virtude. ¶* Fitono cagamito na |  |
 | `c2-l030` | &emsp;ru. *Dar bom exemplo aos outros.* |  |
 | `c2-l031` | Cagami, iru. *Ver algũa couſa com conſidera-* |  |
 | `c2-l032` | &emsp;*ção, ou tomala por exemplo. Inda que não ha* |  |
 | `c2-l033` | &emsp;Cagamita, *dirſe ha* Cagamite. |  |
 | `c2-l034` | Cagami, u, ôda. *Incuruarſe, ou andar al-* |  |
 | `c2-l035` | &emsp;*corcouado. ¶* Cexiga cagamu. *Andar* |  |
-| `c2-l036` | &emsp;*al corcouado. ¶ Item,* Cagamu. *Vene-* |  |
-| `c2-l037` | &emsp;*rar, & reuerenciar a outro dobrandoſe, & abai-* |  |
+| `c2-l036` | &emsp;*al corcouado. ¶ Item,* Cagamu. *Vene* |  |
+| `c2-l037` | &emsp;*rar, & reuerenciar a outro dobrandoſe, & abai* |  |
 | `c2-l038` | &emsp;*xandoſe. ¶ Item, Eſconderſe por reſpeito* |  |
 | `c2-l039` | &emsp;*dalguem.* |  |
 | `c2-l040` | Cagami mauari, ru. *Encuruarſe a outro por* |  |
 | `c2-l041` | &emsp;*cauſa de reuerencia, ou andar baqueandoſe a* |  |
 | `c2-l042` | &emsp;*hũs, & outros, ou andar eſcondido.* |  |
-| `c2-l043` | Cagamino mochi. *Hũs bolos de arroz redõ-* |  |
+| `c2-l043` | Cagamino mochi. *Hũs bolos de arroz redõ* |  |
 | `c2-l044` | &emsp;*dos muito grandes como nos q̃ fazem no tempo* |  |
 | `c2-l045` | &emsp;*do* Xǒguachi. |  |
 | `c2-l046` | Cagami tenjǒ. *Forro de caſa plaino de taboas* |  |

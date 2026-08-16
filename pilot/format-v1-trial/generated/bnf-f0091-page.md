@@ -58,7 +58,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l042` | &emsp;*tarda, &c.* |  |
 | `c1-l043` | &emsp;Caraſa. Carǒ. |  |
 | `c1-l044` | Carai. Natçu qitaru. *Entrar o verão, ou eſtio.* |  |
-| `c1-l045` | Caraixiqi. *Huns paos groſſos ſobre que ſe chã-* |  |
+| `c1-l045` | Caraixiqi. *Huns paos groſſos ſobre que ſe chã* |  |
 | `c1-l046` | &emsp;*as portas, & aſſentão as colunas dos portais.* |  |
 | `c1-l047` | Caramaqi, qu, aita. *Debar ſiado, ſeda, &c.* |  |
 
@@ -81,14 +81,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l001` | Cara iye. *Caſa vazia ſem fato, & ſem gẽte.* |  |
 | `c2-l002` | Carame, uru, eta. *Amarrar homens, &c.* |  |
 | `c2-l003` | Caramecaxi, ſu, aita. *Fazer ſoar com hum* |  |
-| `c2-l004` | &emsp;*certo ſom rouquenho a campainha, ou outra cou-* |  |
+| `c2-l004` | &emsp;*certo ſom rouquenho a campainha, ou outra cou* |  |
 | `c2-l005` | &emsp;*ſa ſemelhante.* |  |
 | `c2-l006` | Caramede. *Vide,* Caramete. |  |
 | `c2-l007` | Carameqi, u, eita. *Soar a campainha, ou* |  |
 | `c2-l008` | &emsp;*couſa ſemelhante com ſom rouquenho.* |  |
 | `c2-l009` | Carametçuqe, uru, eta. *Prender, ou a-* |  |
 | `c2-l010` | &emsp;*marrar.* |  |
-| `c2-l011` | Caramete. *Porta detraição da fortaleza. A-* |  |
+| `c2-l011` | Caramete. *Porta detraição da fortaleza. A* |  |
 | `c2-l012` | &emsp;*inda que alguã vez ſe diga, ou ache nalgum* |  |
 | `c2-l013` | &emsp;*liuro,* Caramede, *a propria palaura he Ca-* |  |
 | `c2-l014` | &emsp;*ramete.* |  |
@@ -111,7 +111,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l031` | Caraſu. *Coruo.* |  |
 | `c2-l032` | Caraſugai. *Certo genero de mariſco como a-* |  |
 | `c2-l033` | &emsp;*meijoas.* |  |
-| `c2-l034` | Caraſugaxira. *Iuntura dos oſſos das pernas tra-* |  |
+| `c2-l034` | Caraſugaxira. *Iuntura dos oſſos das pernas tra* |  |
 | `c2-l035` | &emsp;*zeiros do caualo.* |  |
 | `c2-l036` | Caraſuguchinaua. *Cobra preta.* |  |
 | `c2-l037` | Caraſumi. *Tinta da china. ¶ Item, Per-* |  |

@@ -22,7 +22,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l006` | Caqicure, uru, eta. *Eſcurecerſe, ou apagar-* |  |
 | `c1-l007` | &emsp;*ſe. Vt,* Fumiuo agete mirarureba, tu- |  |
 | `c1-l008` | &emsp;deno atoua namidanicaqicurete, ſoco fa- |  |
-| `c1-l009` | &emsp;catouamiyenu. *Feiq. Lib. 1. Atri-* |  |
+| `c1-l009` | &emsp;catouamiyenu. *Feiq. Lib. 1. Atri* |  |
 | `c1-l010` | &emsp;*do, & vendo a carta eſtauão as letras com as* |  |
 | `c1-l011` | &emsp;*lagrimas apagadas, de maneira que não ſe diſ-* |  |
 | `c1-l012` | &emsp;*tinguião bem.* |  |
@@ -51,7 +51,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l035` | &emsp;coro caqimidarete. *Perturbandoſe o co-* |  |
 | `c1-l036` | &emsp;*ração.* |  |
 | `c1-l037` | Caqimidaxi, ſu, aita. *Emburilhar, ou deſ-* |  |
-| `c1-l038` | &emsp;*concertar. Vt,* Cami caqimidaſu. *Deſ-* |  |
+| `c1-l038` | &emsp;*concertar. Vt,* Cami caqimidaſu. *Deſ* |  |
 | `c1-l039` | &emsp;*concertar, & empeçar os cabellos.* |  |
 | `c1-l040` | Caqin. Tanjǒno qizu. i. Chijocu. Inju*-* |  |
 | `c1-l041` | &emsp;*ria. Vt,* Xǒgaino caqin nari. *He a* |  |
@@ -81,7 +81,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l001` | &emsp;*gũa couſa nas mãos, ou aos hombros igualmente.* |  |
 | `c2-l002` | Caqinaraxi, ſu, aita. *Aprainar a terra.* |  |
 | `c2-l003` | &emsp;*Vt,* Giuo caqinaraſu. |  |
-| `c2-l004` | Caqinauoxi, ſu, oita. *Tornar a eſcreuer mi-* |  |
+| `c2-l004` | Caqinauoxi, ſu, oita. *Tornar a eſcreuer mi* |  |
 | `c2-l005` | &emsp;*lhor o mal eſcrito.* |  |
 | `c2-l006` | Caqinaxi, ſu, aita. *Eſcreuer de maneira que* |  |
 | `c2-l007` | &emsp;*pareça aſſi, ou aſſi. Vt,* Itçuuarino macoto |  |
@@ -96,8 +96,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l016` | Caqinǒgi. *Figueira de Iapão.* |  |
 | `c2-l017` | Caqinoxe, ſuru, eta. *Eſcreuer alguã couſa* |  |
 | `c2-l018` | &emsp;*em papel, liuro, &c.* |  |
-| `c2-l019` | Caqinoxe, ſuru, eta. *Por alguã couſa em ci-* |  |
-| `c2-l020` | &emsp;*ma doutra. Vt,* Xigaiuo fizano vyeni ca- |  |
+| `c2-l019` | Caqinoxe, ſuru, eta. *Por alguã couſa em ci* |  |
+| `c2-l020` | &emsp;*ma doutra. Vt,* Xigaiuo fizano vyeni ca |  |
 | `c2-l021` | &emsp;qinoxete. *Pondo o corpo morto ſobre os* |  |
 | `c2-l022` | &emsp;*joelhos.* |  |
 | `c2-l023` | Caqiǒ. Yoi ſacai. *Termo, ou confins. Vt,* |  |
@@ -105,21 +105,21 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l025` | &emsp;*de ſeus confins, ou termo.* |  |
 | `c2-l026` | Caqiocu. Vtano qiocu. *Armonia, ou ſua-* |  |
 | `c2-l027` | &emsp;*uidade do canto.* |  |
-| `c2-l028` | Caqiqexi, ſu, eita. *Deſaparecer. Vt,* Ca- |  |
+| `c2-l028` | Caqiqexi, ſu, eita. *Deſaparecer. Vt,* Ca |  |
 | `c2-l029` | &emsp;qiqeſu yǒni vxeta. *Deſapareceo de todo.* |  |
 | `c2-l030` | Caqiqiri, ru, itta. *Certar com o corte, ou* |  |
-| `c2-l031` | &emsp;*ponta pera ſi. ¶* Cubiuo caqiqiru. *Cor-* |  |
+| `c2-l031` | &emsp;*ponta pera ſi. ¶* Cubiuo caqiqiru. *Cor* |  |
 | `c2-l032` | &emsp;*tar a cabeça a alguem aferrandolhe com a mão* |  |
 | `c2-l033` | &emsp;*eſquerda dos cabellos, & cortado com o corte* |  |
 | `c2-l034` | &emsp;*pera ſi.* |  |
 | `c2-l035` | Caqiuo. P. i. Caqi. *Cerca, ou ſebe.* |  |
-| `c2-l036` | Caqiſagaxi, ſu, aita. *Eſgrauatar, ou reuol-* |  |
+| `c2-l036` | Caqiſagaxi, ſu, aita. *Eſgrauatar, ou reuol* |  |
 | `c2-l037` | &emsp;*uer, & buſcar alguã couſa.* |  |
 | `c2-l038` | Caqiſaqi, u, aita. *Deſpedaçar com as unhas.* |  |
 | `c2-l039` | Caqiſaxi, ſu, aita. *Deixar de eſcreuer, ou de* |  |
 | `c2-l040` | &emsp;*continuar com o eſcreuer.* |  |
 | `c2-l041` | Caqiſoye, uru, eta. *Eſcreuendo acrecentar.* |  |
-| `c2-l042` | Caqiſuſami, u, ôda. *Eſcreuer por deſenfada-* |  |
+| `c2-l042` | Caqiſuſami, u, ôda. *Eſcreuer por deſenfada* |  |
 | `c2-l043` | &emsp;*mento, ou recreação, não de propoſito.* |  |
 | `c2-l044` | Caqiſute, tçuru, eta. *Deixar de eſcreuer.* |  |
 | `c2-l045` | Caqiſuye, uru, eta. *Por no chão o que hum* |  |

@@ -25,7 +25,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l009` | Cataritçutaye, uru, eta. *Praticar algũa* |  |
 | `c1-l010` | &emsp;*couſa por deſcendencia como de pais a filhos,* |  |
 | `c1-l011` | &emsp;*& filhos a netos, &c.* |  |
-| `c1-l012` | Cataritçuzzuqe, uru, eta. *Praticar en-* |  |
+| `c1-l012` | Cataritçuzzuqe, uru, eta. *Praticar en* |  |
 | `c1-l013` | &emsp;*fiado. Vt,* Coxi cata yucuſſuyeno co- |  |
 | `c1-l014` | &emsp;todomouo cataritçuzzuqete ſamezame- |  |
 | `c1-l015` | &emsp;to natareta. *Fei. L. 4. Continuando* |  |
@@ -56,7 +56,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l040` | Cataua. *Aleijão. ¶* Catauani naru. *Ser* |  |
 | `c1-l041` | &emsp;*aleijado.* |  |
 | `c1-l042` | Catauaguruma. *Carro como aleijado de hũa ſó* |  |
-| `c1-l043` | &emsp;*roda que não preſta ja para nada. Acomoda-* |  |
+| `c1-l043` | &emsp;*roda que não preſta ja para nada. Acomoda* |  |
 | `c1-l044` | &emsp;*ſe tambẽ nos Mais a hum homem que nenhum* |  |
 | `c1-l045` | &emsp;*remedio humano tem, &c.* |  |
 | `c1-l046` | Catauana. *Peſſoa aleijada.* |  |
@@ -107,7 +107,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l027` | Cataxiqi, u, ijta. *Eſtender hũa ſó manga,* |  |
 | `c2-l028` | &emsp;*&c. Vt,* Sodeuo cataxijte nuru. |  |
 | `c2-l029` | &emsp;*Eſtendendo a manga dormir ſobre ella, ou dor-* |  |
-| `c2-l030` | &emsp;*mir ſobre o braço, ou eſtribado ſobre o coto-* |  |
+| `c2-l030` | &emsp;*mir ſobre o braço, ou eſtribado ſobre o coto* |  |
 | `c2-l031` | &emsp;*uelo.* |  |
 | `c2-l032` | Cataya. Sumǒuo toru ba. *Terreiro onde* |  |
 | `c2-l033` | &emsp;*ſe luta.* |  |
@@ -119,9 +119,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l039` | &emsp;*Molheres de ſeruiço das ordinarias que não ſão* |  |
 | `c2-l040` | &emsp;*muito baixas.* |  |
 | `c2-l041` | Catayori, u, otta. *Chegarſe pera hũa parte.* |  |
-| `c2-l042` | Catazzuri. *Deſigualdade de hũa parte da balan-* |  |
+| `c2-l042` | Catazzuri. *Deſigualdade de hũa parte da balan* |  |
 | `c2-l043` | &emsp;*ça, ou de outra couſa. ¶* Catazzuriga |  |
-| `c2-l044` | &emsp;aruca miyo. *Vede ſe ha deſigualdade, quer ſe-* |  |
+| `c2-l044` | &emsp;aruca miyo. *Vede ſe ha deſigualdade, quer ſe* |  |
 | `c2-l045` | &emsp;*ja de pezo, quer ſeja entre dous que jogão, ou* |  |
 | `c2-l046` | &emsp;*ſão deſiguais nalguã arte, &c.* |  |
 | `c2-l047` | Catazurina. *Couſa deſigual como leue de hũa* |  |

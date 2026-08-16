@@ -19,7 +19,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l003` | &emsp;*de muita ſecura, ou muita agoa.* |  |
 | `c1-l004` | Cantan. Canji, naguequ. i. Naguequ. |  |
 | `c1-l005` | &emsp;*Grande cuidado, & diligencia. Vt,* |  |
-| `c1-l006` | &emsp;Cantanuo cudaite tanomu. *Pedir com ef-* |  |
+| `c1-l006` | &emsp;Cantanuo cudaite tanomu. *Pedir com ef* |  |
 | `c1-l007` | &emsp;*ficacia. ¶* Cantan xite inoru. *Fazer* |  |
 | `c1-l008` | &emsp;*deprecações com diligencia, & efficacia.* |  |
 | `c1-l009` | Cantan. Qimo qimo. *Figado.* |  |
@@ -41,7 +41,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l025` | &emsp;*quieta nagoa.* |  |
 | `c1-l026` | Canuô. *Vide.* Cannǒ. *Porque na pra-* |  |
 | `c1-l027` | &emsp;*tica ſe diz* Cannǒ. |  |
-| `c1-l028` | Canxa. Cadamaxijmono. i. *Homem malicio-* |  |
+| `c1-l028` | Canxa. Cadamaxijmono. i. *Homem malicio* |  |
 | `c1-l029` | &emsp;*ſo, ou reſalçado. Melius.* Canja. |  |
 | `c1-l030` | Canxen. Tanino izzumi. *Fonte dos vales.* |  |
 | `c1-l031` | Canxen. Amai izzumi. *Agoa doce.* |  |
@@ -78,7 +78,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | Canyǒ. Qimo mochiiru. i. Xen ichi. *Cou-* |  |
+| `c2-l001` | Canyǒ. Qimo mochiiru. i. Xen ichi. *Cou* |  |
 | `c2-l002` | &emsp;*ſa neceſſaria, & importante.* |  |
 | `c2-l003` | Canyǒna. *Adiect. Idem.* |  |
 | `c2-l004` | Canza. Xizzucani zaſuru. *Eſtar quieto, &* |  |
@@ -116,7 +116,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l036` | &emsp;*pendurar as contas, imagem, &c.* |  |
 | `c2-l037` | Caqe, uru. *Por. Vt,* Tanomiuo caquru. |  |
 | `c2-l038` | &emsp;*Por a eſperança, ou confiança em alguem.* |  |
-| `c2-l039` | &emsp;*¶* Futamichiuo caquru. *Andar hum ho-* |  |
+| `c2-l039` | &emsp;*¶* Futamichiuo caquru. *Andar hum ho* |  |
 | `c2-l040` | &emsp;*mem com duas molheres, ou hũa molher com* |  |
 | `c2-l041` | &emsp;*dous homẽs. ¶* Minatoni funuo caqu- |  |
 | `c2-l042` | &emsp;ru. *Fazer ſurgir a embarcação no porto.* |  |

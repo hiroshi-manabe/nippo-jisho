@@ -25,7 +25,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l009` | &emsp;*¶* Caqitayete votozzuremo naxi. *Ceſſa-* |  |
 | `c1-l010` | &emsp;*do as cartas nem nouas hã.* |  |
 | `c1-l011` | Caqitçucauaxi, ſu, aita. *Mandar por eſcrito.* |  |
-| `c1-l012` | Caqitçucuxi, ſu, uita. *Eſcreuer tudo, ou eſ-* |  |
+| `c1-l012` | Caqitçucuxi, ſu, uita. *Eſcreuer tudo, ou eſ* |  |
 | `c1-l013` | &emsp;*creuer miuda, & copioſamente.* |  |
 | `c1-l014` | Caqitçume, uru, eta. *Eſcreuer, & encher* |  |
 | `c1-l015` | &emsp;*tudo ſem ficar eſpaço.* |  |
@@ -37,7 +37,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l021` | &emsp;*algũa couſa infeſta, ou continuada com outra.* |  |
 | `c1-l022` | Caqitodome, uru, eta. *Acabar de eſcreuer* |  |
 | `c1-l023` | &emsp;*algũa couſa. ¶ Item, Deixar eſcrito pera o* |  |
-| `c1-l024` | &emsp;*diante. Vt,* Vtauo caqitodometa. *Dei-* |  |
+| `c1-l024` | &emsp;*diante. Vt,* Vtauo caqitodometa. *Dei* |  |
 | `c1-l025` | &emsp;*xou eſcrito hũs verſos.* |  |
 | `c1-l026` | Caqitori, u, otta. *Acabar de eſcreuer.* |  |
 | `c1-l027` | Caqitotonoye, uru, eta. *Acabar de eſcre-* |  |
@@ -47,16 +47,16 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l031` | Caqiuoi, ô, ôta. *Leuar às coſtas.* |  |
 | `c1-l032` | Caqiuoqi. *Teſtamento.* |  |
 | `c1-l033` | Caqiuoqi, u, oita. *Deixar eſcrito alguã couſa.* |  |
-| `c1-l034` | Caqiuotoxi, ſu, oita. *Deixar por erro de eſcre-* |  |
+| `c1-l034` | Caqiuotoxi, ſu, oita. *Deixar por erro de eſcre* |  |
 | `c1-l035` | &emsp;*uer algũa couſa.* |  |
 | `c1-l036` | Caqiuotoxi, ſu, oita. *Cortar a cabeça afer-* |  |
 | `c1-l037` | &emsp;*rando com a mão eſquerda dos cabellos della.* |  |
 | `c1-l038` | &emsp;*Vt,* Cubiuo caqiuotoſu. |  |
-| `c1-l039` | Caqiuouari, ru, atta. *Acabar de eſcreuer al-* |  |
+| `c1-l039` | Caqiuouari, ru, atta. *Acabar de eſcreuer al* |  |
 | `c1-l040` | &emsp;*gũa couſa.* |  |
 | `c1-l041` | Caqixiruxi, ſu, uita. *Eſcreuendo aſſinar,* |  |
 | `c1-l042` | &emsp;*ou deixar por eſcrito.* |  |
-| `c1-l043` | Caqixitatame, uru, eta. *Eſcreuendo concer-* |  |
+| `c1-l043` | Caqixitatame, uru, eta. *Eſcreuendo concer* |  |
 | `c1-l044` | &emsp;*tar, ou acabar de eſcreuer.* |  |
 | `c1-l045` | Caqiyaburi, u, utta. *Raſgar, romper, ar-* |  |
 | `c1-l046` | &emsp;*ranhar, & ferir, &c.* |  |

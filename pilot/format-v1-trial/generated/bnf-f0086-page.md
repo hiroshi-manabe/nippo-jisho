@@ -20,7 +20,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l004` | &emsp;*¶* Fiuo caquru. *Por, ou pegar fogo.* |  |
 | `c1-l005` | &emsp;*¶* Qeuo caquru. *Fazer riſcas, ou re-* |  |
 | `c1-l006` | &emsp;*grar. ¶* Cane nadouo caquru. *Pezar* |  |
-| `c1-l007` | &emsp;*prata, & outras couſas. ¶* Cotobauo ca- |  |
+| `c1-l007` | &emsp;*prata, & outras couſas. ¶* Cotobauo ca |  |
 | `c1-l008` | &emsp;quru. *Falar com alguem. ¶* Monouo |  |
 | `c1-l009` | &emsp;meni caquru. *Moſtrar algũa couſa a alguẽ.* |  |
 | `c1-l010` | &emsp;*¶* Mizzuuo caquru. *Agoar. ¶* Mo- |  |
@@ -31,14 +31,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l015` | &emsp;caquru. *Dar, ou arremeter aos inimigos.* |  |
 | `c1-l016` | &emsp;*¶ Item, Arremeçar o caualo. Vt,* Vma |  |
 | `c1-l017` | &emsp;uo caquru. *¶* Michiuo caquru. *An-* |  |
-| `c1-l018` | &emsp;*dar caminho. ¶* No yamauo caquru. *Cor-* |  |
-| `c1-l019` | &emsp;*rer, ou andar por montes, & campos. ¶* Ni- |  |
-| `c1-l020` | &emsp;dono caqeni couo vtareta. *Nos dous en-* |  |
+| `c1-l018` | &emsp;*dar caminho. ¶* No yamauo caquru. *Cor* |  |
+| `c1-l019` | &emsp;*rer, ou andar por montes, & campos. ¶* Ni |  |
+| `c1-l020` | &emsp;dono caqeni couo vtareta. *Nos dous en* |  |
 | `c1-l021` | &emsp;*contros lhe matarão os filhos. ¶* Vanauo |  |
 | `c1-l022` | &emsp;caquru. *Armar laço, ratoeira, &c.* |  |
 | `c1-l023` | &emsp;Ica nadoni cãnauo caquru. *Açepilhar taboa* |  |
 | `c1-l024` | &emsp;*&c. ¶* Yumini tçuruuo caquru. *Por a* |  |
-| `c1-l025` | &emsp;*corda no arco. ¶* Faxiuo caquru. *Fazer põ-* |  |
+| `c1-l025` | &emsp;*corda no arco. ¶* Faxiuo caquru. *Fazer põ* |  |
 | `c1-l026` | &emsp;*te, ou por eſcada pera ſubir. ¶* Fuxinuo |  |
 | `c1-l027` | &emsp;caquru. *Por duuidas. ¶* Qini caquru. |  |
 | `c1-l028` | &emsp;*Ter por agouro. ¶* Suuo caquru. *Fazer* |  |
@@ -47,7 +47,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l031` | &emsp;gaqeuo ſuru. *Fazer caſinhas, ou tendas co-* |  |
 | `c1-l032` | &emsp;*mo no exercito, &c. ¶* Bagiuo caquru. |  |
 | `c1-l033` | &emsp;*Injuriar a alguem. ¶* Toriuo caquru. |  |
-| `c1-l034` | &emsp;*Botar a rede ſobre paſſaros que ſe aleuantão vo-* |  |
+| `c1-l034` | &emsp;*Botar a rede ſobre paſſaros que ſe aleuantão vo* |  |
 | `c1-l035` | &emsp;*ando. Item, Ajuntandoſe com as raizes de* |  |
 | `c1-l036` | &emsp;*muitos verbos ſignifica ter começada a couſa,* |  |
 | `c1-l037` | &emsp;*& aſſi dizemos. ¶* Xicaqete. *Tendo* |  |
@@ -97,14 +97,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l023` | &emsp;daita. *Pezei, & achei mais hum maz do q̃* |  |
 | `c2-l024` | &emsp;*eſtaua dantes.* |  |
 | `c2-l025` | Caqede, zzuru, eta. *Sair a caualo corrẽdo.* |  |
-| `c2-l026` | Caqefaxi. *Eſcada leuadiça. ¶* Tenni ca- |  |
+| `c2-l026` | Caqefaxi. *Eſcada leuadiça. ¶* Tenni ca |  |
 | `c2-l027` | &emsp;qe faxi. *Se diz de couſa que he impoſſiuel* |  |
 | `c2-l028` | &emsp;*como eſcada que não pode chegar ao ceo.* |  |
 | `c2-l029` | Caqefazzuxi, ſu, uita. *Deſencontrarſe cõ alguẽ* |  |
 | `c2-l030` | &emsp;*indo correndo a caualo. ¶ Item, Botar a rede* |  |
 | `c2-l031` | &emsp;*ẽ vão ſobre paſſaros q̃ ſe aleuantão voando.* |  |
 | `c2-l032` | Caqefi. *Cano por onde vẽ agoa trazida de longe.* |  |
-| `c2-l033` | Caqefiqi. *O arremeter, & retirarſe. ¶* Xe- |  |
+| `c2-l033` | Caqefiqi. *O arremeter, & retirarſe. ¶* Xe |  |
 | `c2-l034` | &emsp;giǒdeua caqefiqiga daijina cotogia. *Na* |  |
 | `c2-l035` | &emsp;*batalha o arremeter, & retirarſe a tempo, he* |  |
 | `c2-l036` | &emsp;*couſa em que vai muito.* |  |
@@ -116,7 +116,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l042` | Caqegane. *Aldraba.* |  |
 | `c2-l043` | Caqegi. *Caminho ingreme, & difficultoſo.* |  |
 | `c2-l044` | Caqego. *Gaueta.* |  |
-| `c2-l045` | Caqegǒ. *Bolſinha de varios cheiros que tra-* |  |
+| `c2-l045` | Caqegǒ. *Bolſinha de varios cheiros que tra* |  |
 | `c2-l046` | &emsp;*zem algũs conſigo no ſeo.* |  |
 | `c2-l047` | Caqei. Yoyi yorocobi. *Alegres feſtas que* |  |
 

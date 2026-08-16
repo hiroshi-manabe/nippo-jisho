@@ -15,14 +15,14 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c1-l001` | &emsp;uo caicuru. *Dar volta, ou emburilhar* |  |
-| `c1-l002` | &emsp;*as redeas na mão. ¶* Itouo caicuru. *De-* |  |
+| `c1-l002` | &emsp;*as redeas na mão. ¶* Itouo caicuru. *De* |  |
 | `c1-l003` | &emsp;*bar, ou ajuntar depreſſa o fio ẽ nouelo. ¶ Itẽ* |  |
 | `c1-l004` | &emsp;*Furar. Vt,* tage, l, qiuo caicuru. *Abrir algũ* |  |
 | `c1-l005` | &emsp;*buraco com faca, ou outra couſa em bambu,* |  |
 | `c1-l006` | &emsp;*ou pao.* |  |
 | `c1-l007` | Caidai. *Terra, ou mundo.* |  |
 | `c1-l008` | Caidan. *Tabernaculo, ou modo de altar em* |  |
-| `c1-l009` | &emsp;*que ſe dão graos, & dignidades a certos* Bô- |  |
+| `c1-l009` | &emsp;*que ſe dão graos, & dignidades a certos* Bô |  |
 | `c1-l010` | &emsp;zos. |  |
 | `c1-l011` | Caidarui. *Eſtar muito canſado, & com o* |  |
 | `c1-l012` | &emsp;*corpo, ou membros debilitados, ¶* Cai- |  |
@@ -82,7 +82,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l002` | Caifu. Vouoi, ô. *Cubrir.* |  |
 | `c2-l003` | Caifuqi. *O que tange a buzina.* |  |
 | `c2-l004` | Caiga. Vmi caua. *Mar, & rio.* |  |
-| `c2-l005` | Caigaixij. *Forte, & robuſto. ¶ Item, Eſ-* |  |
+| `c2-l005` | Caigaixij. *Forte, & robuſto. ¶ Item, Eſ* |  |
 | `c2-l006` | &emsp;*forçado, & valente.* |  |
 | `c2-l007` | &emsp;Caigaixiſa. |  |
 | `c2-l008` | &emsp;Caigaixǔ. |  |
@@ -92,19 +92,19 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l012` | Caigue. Firaqi, toqu. *O ſoltar como algũa* |  |
 | `c2-l013` | &emsp;*duiida, &c. ¶ Itẽ,* Caigue. i. Satoriuo firaqu. |  |
 | `c2-l014` | &emsp;*Entender per diſcurſo, ou conſideração.* |  |
-| `c2-l015` | Caigue. *Hũa laya de* Fixacu, *ou cocolaro pa-* |  |
+| `c2-l015` | Caigue. *Hũa laya de* Fixacu, *ou cocolaro pa* |  |
 | `c2-l016` | &emsp;*ra tirar agoa.* |  |
 | `c2-l017` | Caiguei. Vmino cujira. *Balea.* |  |
 | `c2-l018` | Caiguen. Aratamuru ſajime. *Principio da era.* |  |
 | `c2-l019` | &emsp;*¶* Nengǒua nanito caiguen xitaca? *Co-* |  |
 | `c2-l020` | &emsp;*mo ſe começou a era em Iapão, ou que nome* |  |
 | `c2-l021` | &emsp;*lhe derão.* |  |
-| `c2-l022` | Caiguet. Vminotçugi. i. Curague. *Ago-* |  |
+| `c2-l022` | Caiguet. Vminotçugi. i. Curague. *Ago* |  |
 | `c2-l023` | &emsp;*as mortas, ou alſarreca.* |  |
 | `c2-l024` | Caiguiǒ. *Vida, ou obras a cerca da obſeruan-* |  |
 | `c2-l025` | &emsp;*çia da lei. ¶* Caiguiǒno yoi fito. *Ho-* |  |
 | `c2-l026` | &emsp;*mem regular, & obſeruante da lei.* |  |
-| `c2-l027` | Caiguiǔ. Qidaſaxi xina. *Graos de dignida-* |  |
+| `c2-l027` | Caiguiǔ. Qidaſaxi xina. *Graos de dignida* |  |
 | `c2-l028` | &emsp;*des pellos quaes ſe vai ſubindo.* |  |
 | `c2-l029` | Caigǒ. Firaqi auaſuru. i. Cuchino ſubari, |  |
 | `c2-l030` | &emsp;Firogari. *O pronunçiar abrindo a boca, ou* |  |
@@ -117,7 +117,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l037` | Caiguai. Vmino foca. i. Xecaino fato. *Fo-* |  |
 | `c2-l038` | &emsp;*ra do mar. i. No cabo do mundo.* |  |
 | `c2-l039` | Caigin. Ginuo firaqu. *O formar da guerra.* |  |
-| `c2-l040` | Caigiǒye. *Guardar os mandamentos, fazer exer-* |  |
+| `c2-l040` | Caigiǒye. *Guardar os mandamentos, fazer exer* |  |
 | `c2-l041` | &emsp;*cicios de meditação, ſciencia, letras, &c.* |  |
 | `c2-l042` | Caij. *Sentir, ou ter comechão.* Caiſa. Cayu. |  |
 | `c2-l043` | Cai idaqi, u, aita. *Abraçar.* |  |

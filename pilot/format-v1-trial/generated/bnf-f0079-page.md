@@ -15,15 +15,15 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c1-l001` | Caitei. Vmino ſoco. *Profundo do mar.* |  |
-| `c1-l002` | &emsp;*¶* Caiteini xizzumu. *Ser metido, ou mer-* |  |
+| `c1-l002` | &emsp;*¶* Caiteini xizzumu. *Ser metido, ou mer* |  |
 | `c1-l003` | &emsp;*gulharſe no fundo do mar.* |  |
 | `c1-l004` | Caitori. *Paſſaro que ſe cria, & domeſtica na* |  |
 | `c1-l005` | &emsp;*gayola, &c.* |  |
 | `c1-l006` | Caitori, u, otta. *Tomar, ou aleuantar. Vt,* |  |
-| `c1-l007` | &emsp;Yxǒno ſuſouo caitoru. *Aleuantar as fral-* |  |
+| `c1-l007` | &emsp;Yxǒno ſuſouo caitoru. *Aleuantar as fral* |  |
 | `c1-l008` | &emsp;*das do veſtido.* |  |
 | `c1-l009` | Caitori, u, otta. *Comprar, ou tomar com-* |  |
-| `c1-l010` | &emsp;*prando. Vt,* Funeuo caitotte cogui cuda- |  |
+| `c1-l010` | &emsp;*prando. Vt,* Funeuo caitotte cogui cuda |  |
 | `c1-l011` | &emsp;rǒ. *Comprando hũa embarcação decerei re-* |  |
 | `c1-l012` | &emsp;*mando.* |  |
 | `c1-l013` | Caiuoqi, u, oita. *Comprando guardar.* |  |
@@ -31,12 +31,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l015` | &emsp;*deitado.* |  |
 | `c1-l016` | Caixacu. *O ajudar a morrer cortando a cabeça* |  |
 | `c1-l017` | &emsp;*ao que ſe cortou a barriga. ¶ Item, Aju-* |  |
-| `c1-l018` | &emsp;*da q̃ dà algũ homẽ como ayo a algũ menino no-* |  |
+| `c1-l018` | &emsp;*da q̃ dà algũ homẽ como ayo a algũ menino no* |  |
 | `c1-l019` | &emsp;*bre tendo cuidado delle, encaminhandoo, &c.* |  |
-| `c1-l020` | Caixacunin. *O que ajuda a morrer a outro cor-* |  |
-| `c1-l021` | &emsp;*tando lhe a cabeça. ¶ Item, Ayo, ou peſ-* |  |
+| `c1-l020` | Caixacunin. *O que ajuda a morrer a outro cor* |  |
+| `c1-l021` | &emsp;*tando lhe a cabeça. ¶ Item, Ayo, ou peſ* |  |
 | `c1-l022` | &emsp;*ſoa que tem cuidado dalgum menino nobre.* |  |
-| `c1-l023` | Caixei. Mina ſumaſu. *Pagar todo o rendimẽ-* |  |
+| `c1-l023` | Caixei. Mina ſumaſu. *Pagar todo o rendimẽ* |  |
 | `c1-l024` | &emsp;*to, ou reſtituir, & pagar todas as diuidas.* |  |
 | `c1-l025` | &emsp;*Vt,* Caixeino vqe dorino toru. *Receber* |  |
 | `c1-l026` | &emsp;*conhecimento de como pagou tudo o que deuia.* |  |
@@ -58,9 +58,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l042` | &emsp;*a agoa da bomba.* |  |
 | `c1-l043` | Caje. *vento. ¶ Item, Elemento do ar. Vt,* |  |
 | `c1-l044` | &emsp;Tçuchi, Mizzu, Caje, Fi. *¶ Itẽ, Ar,* |  |
-| `c1-l045` | &emsp;*ou vento frio, ou frialdade. Vt,* Cajeuo fi- |  |
+| `c1-l045` | &emsp;*ou vento frio, ou frialdade. Vt,* Cajeuo fi |  |
 | `c1-l046` | &emsp;qu. *Eſtar traſpaſſado do vento, ou doente* |  |
-| `c1-l047` | &emsp;*do vento, ou ar. ¶* Chaga caje fiqu. Cu- |  |
+| `c1-l047` | &emsp;*do vento, ou ar. ¶* Chaga caje fiqu. Cu |  |
 | `c1-l048` | &emsp;ſurini caje ga fiqu, &c. *Danarſe o* Cha, |  |
 
 ## Column 2 running header
@@ -89,17 +89,17 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l008` | &emsp;*¶* Cajiqebito, l, cajiqeta fito. *Homẽ* |  |
 | `c2-l009` | &emsp;*pobre, & neceſſitado.* |  |
 | `c2-l010` | Cajit. Natçuno fi. *Dias do verão. P.* |  |
-| `c2-l011` | Cajit. Itomanofi. *Dia q̃ hũ fica liure, & deſo-* |  |
+| `c2-l011` | Cajit. Itomanofi. *Dia q̃ hũ fica liure, & deſo* |  |
 | `c2-l012` | &emsp;*cupado.* |  |
 | `c2-l013` | Cajit. yoi mi. i. yoi conomi. *Boa fruita. P.* |  |
 | `c2-l014` | Cama, l, cairu. *Raãs. ¶* Camaquiuin. |  |
 | `c2-l015` | &emsp;*Raã, & minhoca.* |  |
 | `c2-l016` | Cama. *Caldeirão, ou panela de ferro.* |  |
 | `c2-l017` | Cama. *Fouçe de cegar erua.* |  |
-| `c2-l018` | Camabiſuxij. *Couſa que faz ruido, ou traqui-* |  |
+| `c2-l018` | Camabiſuxij. *Couſa que faz ruido, ou traqui* |  |
 | `c2-l019` | &emsp;*nada, ou fazer traquinada.* |  |
 | `c2-l020` | Camaboco. *Hũa certa iguaria de peixe.* |  |
-| `c2-l021` | Camachi. *Paos dos cantos, ou bordas de qual-* |  |
+| `c2-l021` | Camachi. *Paos dos cantos, ou bordas de qual* |  |
 | `c2-l022` | &emsp;*quer couſa, como armação de portas ainda ſem* |  |
 | `c2-l023` | &emsp;*as traueſſas, & taboas, &c.* |  |
 | `c2-l024` | Camado. *Fogão, ou fornalha onde poem a pa-* |  |
@@ -113,18 +113,18 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l032` | &emsp;*bordas alguãs panelas de ferro da cozinha.* |  |
 | `c2-l033` | Camano feſo. *Remate que fica no fundo da* |  |
 | `c2-l034` | &emsp;*panela fundida.* |  |
-| `c2-l035` | Camano fitai, l, camadono fitai. *Parte di-* |  |
+| `c2-l035` | Camano fitai, l, camadono fitai. *Parte di* |  |
 | `c2-l036` | &emsp;*anteira da fornalha mais alta pera que o fogo,* |  |
 | `c2-l037` | &emsp;*ou faiſcas não entrem na panela.* |  |
 | `c2-l038` | Camano fo. *Eruas compridas que nacem em* |  |
 | `c2-l039` | &emsp;*lugares humidos à maneira de candeas amare-* |  |
 | `c2-l040` | &emsp;*las. No* Cami *ſe diz* Gamano fo. |  |
-| `c2-l041` | Camano maye. *Lar diante do fogão, ou for-* |  |
+| `c2-l041` | Camano maye. *Lar diante do fogão, ou for* |  |
 | `c2-l042` | &emsp;*nalha.* |  |
 | `c2-l043` | Camano mimi. *Azas da panela, ou buracos* |  |
 | `c2-l044` | &emsp;*por onde metem hũas argolas com que a tirão,* |  |
 | `c2-l045` | &emsp;*ou poem no fogo.* |  |
-| `c2-l046` | Camano xita. *Vão que eſtà dentro do fogão en-* |  |
+| `c2-l046` | Camano xita. *Vão que eſtà dentro do fogão en* |  |
 | `c2-l047` | &emsp;*tre o lar, & o fundo da panela.* |  |
 
 ## Printed signature
