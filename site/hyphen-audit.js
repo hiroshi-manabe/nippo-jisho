@@ -99,7 +99,11 @@ function loadPageImage(page) {
   image.decoding = 'async';
   image.fetchPriority = 'high';
   state.images.set(page.leaf, image);
-  image.addEventListener('load', () => drawCandidates(page, image), {once: true});
+  image.addEventListener('load', () => {
+    drawCandidates(page, image);
+    state.images.delete(page.leaf);
+    image.removeAttribute('src');
+  }, {once: true});
   image.addEventListener('error', () => {
     document.querySelectorAll(`canvas[data-leaf="${page.leaf}"]`).forEach(canvas => {
       const error = document.createElement('div');
@@ -113,6 +117,7 @@ function loadPageImage(page) {
 
 function render() {
   const total = state.data.pages.reduce((sum, page) => sum + page.candidates.length, 0);
+  $('#audit-scope').textContent = state.data.scope.replace('-', '–');
   $('#candidate-count').textContent = total;
   $('#audit-list').innerHTML = state.data.pages.map(page => `<section class="page-group" data-page="${page.leaf}"><div class="page-heading"><h2>${page.view}</h2><span>${page.candidates.length} candidates</span><a href="${page.gallica}" target="_blank" rel="noreferrer">Open full scan ↗</a></div>${page.candidates.map((candidate, index) => { const key = candidateKey(page, candidate); return `<article class="candidate"><div class="crop-wrap"><canvas data-leaf="${page.leaf}" data-index="${index}" aria-label="Right edge of ${key}"></canvas><div class="candidate-meta"><span class="line-id">${escapeHTML(key)}</span><span class="line-text">${escapeHTML(candidate.before)}</span></div></div><label class="remove-choice"><input type="checkbox" data-key="${escapeHTML(key)}"${state.selected.has(key) ? ' checked' : ''}>Remove hyphen</label></article>`; }).join('')}</section>`).join('');
   updateCounts();

@@ -2,6 +2,8 @@
 
 Public site: <https://hiroshi-manabe.github.io/nippo-jisho/>
 
+The public site also provides a dedicated `f44`–`f100` line-end-hyphen audit. This replaces the earlier `f44`–`f53` trial at the same `hyphen-audit.html` route; unchecked candidates are unchanged, while checked removals are copied as a versioned GitHub Issue payload.
+
 This generated interface supports asynchronous Level 1 production and human checking across the complete acquired Gallica sequence. All 651 leaves (`f1`–`f651`) are navigable from the outset. The 229 existing Level 1 pages show their transcription and review state; the remaining 422 pages show the verified scan with a clear `unprocessed` state.
 
 This is the current prototype. The agreed next iteration adds a thumbnail overview, compact in-page editing, complete-glyph line crops, an in-context two-level transcription reference, clipboard-based GitHub Issue submission, and factual correction-history badges. Its behavior and rationale are specified in [Human Review and Correction Workflow](../../docs/human-review-workflow.md).

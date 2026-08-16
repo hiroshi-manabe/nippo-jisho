@@ -18,7 +18,8 @@ import markdown
 ARK = "ark:/12148/bpt6k852354j"
 IMAGE_BASE_URL = "https://nippo-jisho-images.pages.dev"
 REVIEW_UNITS = ("column-1", "column-2", "furniture")
-HYPHEN_AUDIT_LEAVES = range(44, 54)
+HYPHEN_AUDIT_LEAVES = range(44, 101)
+HYPHEN_AUDIT_SCOPE = "f44-f100"
 
 
 def load_json(path: Path) -> dict:
@@ -230,7 +231,7 @@ def hyphen_audit_payload(pages: list[dict], commit: str, repository: str) -> dic
     return {
         "schema": 1,
         "task": "line-end-hyphen-audit",
-        "scope": "f44-f53",
+        "scope": HYPHEN_AUDIT_SCOPE,
         "base_commit": commit,
         "repository": repository,
         "pages": audit_pages,

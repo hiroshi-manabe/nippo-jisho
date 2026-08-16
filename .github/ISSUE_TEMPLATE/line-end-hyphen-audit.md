@@ -1,7 +1,7 @@
 ---
 name: Line-end hyphen audit
-about: Submit the temporary f44–f53 human hyphen-review results
-title: "[hyphen-audit f44-f53] Human review results"
+about: Submit the f44–f100 human hyphen-review results
+title: "[hyphen-audit f44-f100] Human review results"
 labels: transcription-correction
 assignees: ""
 ---

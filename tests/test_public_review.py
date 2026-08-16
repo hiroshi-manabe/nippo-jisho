@@ -12,7 +12,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class PublicReviewRegressionTests(unittest.TestCase):
-    def test_temporary_hyphen_audit_is_narrow_and_complete(self):
+    def test_hyphen_audit_covers_f44_through_f100(self):
         with tempfile.TemporaryDirectory() as directory:
             subprocess.run(
                 [
@@ -29,16 +29,34 @@ class PublicReviewRegressionTests(unittest.TestCase):
             audit = json.loads(
                 (Path(directory) / "hyphen-audit.json").read_text(encoding="utf-8")
             )
-            self.assertEqual(audit["scope"], "f44-f53")
+            self.assertEqual(audit["scope"], "f44-f100")
             self.assertEqual(
-                [page["leaf"] for page in audit["pages"]], list(range(44, 54))
+                [page["leaf"] for page in audit["pages"]], list(range(44, 101))
             )
             candidates = {
                 f"{page['view']}/{candidate['line']}": candidate
                 for page in audit["pages"]
                 for candidate in page["candidates"]
             }
-            self.assertEqual(len(candidates), 132)
+            expected = set()
+            for leaf in range(44, 101):
+                page = json.loads(
+                    (
+                        ROOT
+                        / "pilot"
+                        / "format-v1-trial"
+                        / "level1"
+                        / f"bnf-f{leaf:04d}.json"
+                    ).read_text(encoding="utf-8")
+                )
+                for zone in page["zones"]:
+                    if zone["kind"] != "column":
+                        continue
+                    for line in zone["lines"]:
+                        text = "".join(run["text"] for run in line["runs"])
+                        if text.rstrip().endswith("-"):
+                            expected.add(f"f{leaf}/{line['id']}")
+            self.assertEqual(set(candidates), expected)
             self.assertNotIn("f44/c1-l001", candidates)
             self.assertNotIn("f44/c2-l038", candidates)
             self.assertNotIn("f46/c1a-l013", candidates)
