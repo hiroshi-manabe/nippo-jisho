@@ -73,7 +73,7 @@ class PublicReviewRegressionTests(unittest.TestCase):
                 for page in audit["pages"]
                 for candidate in page["candidates"]
             ]
-            self.assertEqual(len(candidates), 1018)
+            self.assertEqual(len(candidates), 1017)
             keys = {
                 f"{page}/{candidate['line']}#{candidate['occurrence']}"
                 for page, candidate in candidates
@@ -895,7 +895,7 @@ class PublicReviewRegressionTests(unittest.TestCase):
         self.assertTrue(plain["c2b-l024"].endswith("totalmẽ"))
         self.assertNotIn("*", "".join(plain.values()))
 
-    def test_f44_issue_38_partial_adjudication(self):
+    def test_f44_issue_38_after_human_overrides(self):
         history = json.loads(
             (ROOT / "pilot" / "human-review" / "correction-history.json").read_text(
                 encoding="utf-8"
@@ -903,10 +903,10 @@ class PublicReviewRegressionTests(unittest.TestCase):
         )
         page = next(page for page in history["pages"] if page["id"] == "bnf-f0044")
         self.assertEqual(page["issues_applied"], 3)
-        self.assertEqual(page["distinct_lines"], 24)
-        self.assertEqual(page["accepted_edits"], 25)
+        self.assertEqual(page["distinct_lines"], 27)
+        self.assertEqual(page["accepted_edits"], 30)
         self.assertEqual(page["issues"][-1]["number"], 38)
-        self.assertEqual(len(page["issues"][-1]["lines"]), 18)
+        self.assertEqual(len(page["issues"][-1]["lines"]), 23)
 
         record = json.loads(
             (ROOT / "pilot" / "format-v1-trial" / "level1" / "bnf-f0044.json").read_text(
@@ -933,12 +933,24 @@ class PublicReviewRegressionTests(unittest.TestCase):
         self.assertEqual(plain["c2-l020"], "motoni firefuſu. Botarſe aos pès de outro.")
         self.assertIn("omeſmo paralitico", plain["c2-l032"])
 
-        # These remain unchanged while Issue 38 awaits human re-check.
-        self.assertTrue(plain["c1-l046"].endswith("alojarſe."))
-        self.assertIn("Malho, ou grilhoẽs de pão", plain["c2-l012"])
-        self.assertTrue(plain["c2-l037"].endswith("Peito do pè."))
-        self.assertTrue(plain["c2-l038"].endswith("dos arti"))
-        self.assertEqual(plain["c2-l039"], "lhos.")
+        self.assertTrue(plain["c1-l046"].endswith("alojarte."))
+        self.assertIn("Macho, ou grilhoẽs de pao", plain["c2-l012"])
+        self.assertTrue(plain["c2-l037"].endswith("Peito do pè. (lhos."))
+        self.assertTrue(plain["c2-l038"].endswith("dos arte"))
+        self.assertNotIn("c2-l039", plain)
+
+        geometry = json.loads(
+            (ROOT / "pilot" / "human-review" / "line-geometry.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        geometry_page = next(page for page in geometry["pages"] if page["id"] == "bnf-f0044")
+        geometry_lines = geometry_page["columns"]["column-2"]["lines"]
+        self.assertNotIn("c2-l039", geometry_lines)
+        self.assertEqual(geometry_lines["c2-l037"]["centre_y"], 2689)
+        self.assertEqual(geometry_lines["c2-l038"]["centre_y"], 2758)
+        self.assertEqual(geometry_lines["c2-l040"]["centre_y"], 2821)
+        self.assertEqual(geometry_lines["c2-l048"]["centre_y"], 3319)
 
     def test_f29_issue_17_correction_history(self):
         history = json.loads(

@@ -37,13 +37,13 @@ class Level1MarkdownTests(unittest.TestCase):
         self.assertEqual(result.returncode, 0, result.stderr)
         self.assertIn("Validated 229 compact Level 1 page records", result.stdout)
 
-    def test_all_source_pages_parse_and_retain_22379_lines(self):
+    def test_all_source_pages_parse_and_retain_22378_lines(self):
         module = load_module()
         pages = [module.parse_markdown(path) for path in sorted(SOURCE.glob("*.md"))]
         self.assertEqual(len(pages), 229)
         self.assertEqual(
             sum(len(zone.get("lines", [])) for page in pages for zone in page["zones"]),
-            22379,
+            22378,
         )
         for page in pages:
             committed = json.loads((JSON_DIR / f"{page['id']}.json").read_text(encoding="utf-8"))

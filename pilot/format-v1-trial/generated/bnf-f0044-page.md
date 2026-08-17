@@ -59,7 +59,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l043` | &emsp;*caminha, ou onde ſe pode eſtar. ¶* Axi |  |
 | `c1-l044` | &emsp;gacarino varui tocoro. *Lugar difficultoſo* |  |
 | `c1-l045` | &emsp;*de caminhar, ou de eſtar nelle. Item, lugar* |  |
-| `c1-l046` | &emsp;*onde o exercito ſe pode firmar, ou alojarſe.* |  |
+| `c1-l046` | &emsp;*onde o exercito ſe pode firmar, ou alojarte.* |  |
 | `c1-l047` | Axigaqi. *Sebes feitas de caniços.* |  |
 
 ## Column 2 running header
@@ -83,7 +83,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l009` | Axigaxe. *Grilhoẽs, ou tronco de pao.* Tega- |  |
 | `c2-l010` | &emsp;xe, axigaxe. *Algemas, & grilhoẽs.* |  |
 | `c2-l011` | Axigue. *Cor de cauallo ruço.* |  |
-| `c2-l012` | Axigutçu, i, fodaxi. *Malho, ou grilhoẽs de pão.* |  |
+| `c2-l012` | Axigutçu, i, fodaxi. *Macho, ou grilhoẽs de pao.* |  |
 | `c2-l013` | Axij. *Couſa maa, & prejudicial.* |  |
 | `c2-l014` | &emsp;Axiſa. |  |
 | `c2-l015` | &emsp;Axù. |  |
@@ -108,9 +108,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l034` | &emsp;*quelle he paralitico, ou tolhido dos pès.* |  |
 | `c2-l035` | Axinaye, uru, eta. *Dar parleſia nos pès, ou* |  |
 | `c2-l036` | &emsp;*ſer tolhido dos pès.* |  |
-| `c2-l037` | Axino cô. *Peito do pè.* |  |
-| `c2-l038` | Axino tçuqemoto. *Colo do pee açima dos arti* |  |
-| `c2-l039` | &emsp;*lhos.* |  |
+| `c2-l037` | Axino cô. *Peito do pè. (lhos.* |  |
+| `c2-l038` | Axino tçuqemoto. *Colo do pee açima dos arte* |  |
 | `c2-l040` | Axino tçucubuxi. *Melius,* Curubuxi. |  |
 | `c2-l041` | &emsp;*Artelhos dos pès.* |  |
 | `c2-l042` | Axino vottori. *Colo do pè açima dos artelhos.* |  |
