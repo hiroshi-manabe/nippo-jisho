@@ -2,7 +2,7 @@
 
 ## Result
 
-The not-yet-human-reviewed Level 1 pages contain **3,853 tilde-bearing vowel occurrences adjacent to another vowel**, on **3,443 physical lines across 203 pages**. The already completed `nhaã` / `nhãa` family was deliberately excluded from this pass. This inventory remains useful, but the original contact-sheet adjudication did **not** establish an individual scan confirmation for every occurrence.
+The not-yet-human-reviewed Level 1 pages contain **3,852 tilde-bearing vowel occurrences adjacent to another vowel**, on **3,443 physical lines across 203 pages**. The already completed `nhaã` / `nhãa` family was deliberately excluded from this pass. This inventory remains useful, but the original contact-sheet adjudication did **not** establish an individual scan confirmation for every occurrence.
 
 The machine review found two cases in which the transcription had regularized a locally printed final `aõ` to the much commoner `ão`:
 
@@ -15,7 +15,7 @@ Issue #36 subsequently used the dedicated one-candidate-at-a-time interface to a
 
 A targeted machine scan audit then revisited all 42 remaining `alguã`-family readings from `f101` onward, one enlarged occurrence at a time. All 42 visibly carry the mark over `u` and were corrected. The last two doubtful cases, at `bnf-f0105:c1-l038` and `bnf-f0120:c2-l003`, became clear only in tighter word-level enlargements. These 42 rows are individually marked `machine_scan_corrected`; the result is evidence about those occurrences, not a license to normalize the family globally.
 
-Accordingly, unchanged rows are marked `batch_review_unverified`, not `scan_confirmed`. The 43 individually inspected machine corrections have status `machine_scan_corrected`, while 155 individually adjudicated occurrences have status `human_scan_confirmed`. The current ledger has 2,445 marks on `a`, 1,140 on `u`, 155 on `o`, 109 on `e`, and 4 on `i`; these are inventory totals, not verified distributions or spelling rules.
+Accordingly, unchanged rows are marked `batch_review_unverified`, not `scan_confirmed`. The 43 individually inspected machine corrections have status `machine_scan_corrected`, while 155 individually adjudicated occurrences have status `human_scan_confirmed`. The current ledger has 2,444 marks on `a`, 1,140 on `u`, 155 on `o`, 109 on `e`, and 4 on `i`; these are inventory totals, not verified distributions or spelling rules.
 
 The occurrence ledger is [adjacent-vowel-tilde-audit.tsv](adjacent-vowel-tilde-audit.tsv). It records the page, physical line, occurrence number, token, marked-vowel context, carrier, and review status. A row may be treated as individually adjudicated only when its status explicitly says so.
 

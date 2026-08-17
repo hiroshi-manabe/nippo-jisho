@@ -73,7 +73,7 @@ class PublicReviewRegressionTests(unittest.TestCase):
                 for page in audit["pages"]
                 for candidate in page["candidates"]
             ]
-            self.assertEqual(len(candidates), 1019)
+            self.assertEqual(len(candidates), 1018)
             keys = {
                 f"{page}/{candidate['line']}#{candidate['occurrence']}"
                 for page, candidate in candidates
@@ -894,6 +894,51 @@ class PublicReviewRegressionTests(unittest.TestCase):
         self.assertTrue(plain["c2b-l021"].endswith("na"))
         self.assertTrue(plain["c2b-l024"].endswith("totalmẽ"))
         self.assertNotIn("*", "".join(plain.values()))
+
+    def test_f44_issue_38_partial_adjudication(self):
+        history = json.loads(
+            (ROOT / "pilot" / "human-review" / "correction-history.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        page = next(page for page in history["pages"] if page["id"] == "bnf-f0044")
+        self.assertEqual(page["issues_applied"], 3)
+        self.assertEqual(page["distinct_lines"], 24)
+        self.assertEqual(page["accepted_edits"], 25)
+        self.assertEqual(page["issues"][-1]["number"], 38)
+        self.assertEqual(len(page["issues"][-1]["lines"]), 18)
+
+        record = json.loads(
+            (ROOT / "pilot" / "format-v1-trial" / "level1" / "bnf-f0044.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        lines = {
+            line["id"]: line["runs"]
+            for zone in record["zones"]
+            for line in zone.get("lines", [])
+        }
+        plain = {
+            line_id: "".join(run["text"] for run in runs)
+            for line_id, runs in lines.items()
+        }
+        self.assertEqual(plain["c1-l003"], "amimar alguem.")
+        self.assertIn("Tçunogumu axi", plain["c1-l022"])
+        self.assertTrue(
+            any(run["typeface"] == "italic" and run["text"].strip() == "i." for run in lines["c1-l022"])
+        )
+        self.assertTrue(
+            any(run["typeface"] == "italic" and run["text"].strip() == "ſ" for run in lines["c1-l029"])
+        )
+        self.assertEqual(plain["c2-l020"], "motoni firefuſu. Botarſe aos pès de outro.")
+        self.assertIn("omeſmo paralitico", plain["c2-l032"])
+
+        # These remain unchanged while Issue 38 awaits human re-check.
+        self.assertTrue(plain["c1-l046"].endswith("alojarſe."))
+        self.assertIn("Malho, ou grilhoẽs de pão", plain["c2-l012"])
+        self.assertTrue(plain["c2-l037"].endswith("Peito do pè."))
+        self.assertTrue(plain["c2-l038"].endswith("dos arti"))
+        self.assertEqual(plain["c2-l039"], "lhos.")
 
     def test_f29_issue_17_correction_history(self):
         history = json.loads(
