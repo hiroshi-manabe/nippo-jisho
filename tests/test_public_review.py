@@ -434,7 +434,7 @@ class PublicReviewRegressionTests(unittest.TestCase):
         ]
         self.assertEqual(
             [page["id"] for page in pages],
-            [f"bnf-f{number:04d}" for number in range(31, 101)],
+            [f"bnf-f{number:04d}" for number in range(31, 105)],
         )
         for page in pages:
             for column in page["columns"].values():
@@ -459,6 +459,11 @@ class PublicReviewRegressionTests(unittest.TestCase):
                     self.assertEqual(
                         line["context_crop"][0] + line["context_crop"][2], right
                     )
+
+        f105 = next(page for page in record["pages"] if page["id"] == "bnf-f0105")
+        self.assertTrue(
+            all(not column.get("review_source") for column in f105["columns"].values())
+        )
 
     def test_f86_f100_external_review_text_and_f94_lineation(self):
         def plain_lines(page_id):

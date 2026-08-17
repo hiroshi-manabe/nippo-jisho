@@ -1,0 +1,2026 @@
+{
+  "format": "nippo-ai-line-geometry-response",
+  "format_version": 1,
+  "page": "bnf-f0103",
+  "response_status": "completed_independent_ai_line_review",
+  "default_response_mode": "geometry_and_text",
+  "completion_statuses": {
+    "geometry_and_text": {
+      "geometry_review_status": "completed",
+      "text_review_status": "completed"
+    },
+    "geometry_only_fallback": {
+      "geometry_review_status": "completed",
+      "text_review_status": "not_completed"
+    }
+  },
+  "observed_text_provenance": "Every assigned physical body line was visually inspected one by one at enlarged crop level against the supplied page scan. observed_text records the direct scan reading; visible historical spelling, spacing, punctuation, diacritics, short/long s, and line division are preserved rather than normalized. Geometry was inspected line by line and then swept top-to-bottom by column. Pinned source/transcription hashes and expected_line_version values are preserved unchanged.",
+  "coordinate_space": "native Gallica master pixels",
+  "rectangle_format": "[x, y, width, height]",
+  "geometry_acceptance": "Inspect every isolated crop at full practical size against the full page; confirm complete first and last glyphs and all top/bottom ink; do not infer horizontal completeness from line identity or vertical centering; then sweep each column top-to-bottom for repeated clipping, especially the outer/right edge of column 2. Conservative rule-to-rule width and necessary neighboring-line overlap are allowed.",
+  "text_acceptance": "Read the print independently before consulting the canonical line. Preserve visible historical spelling, spacing, diacritics, and long s; do not normalize, copy the canonical text, or guess merely to complete a field. Returned text is advisory until separately adjudicated against the scan.",
+  "lineation_discrepancy": "If the printed number or order of physical lines differs from the task, do not invent a blank continuation, shift IDs, or renumber the response. Mark the response incomplete and report the first divergence so the canonical lineation can be corrected and the task regenerated.",
+  "source": {
+    "filename": "f0103.jpg",
+    "width": 2672,
+    "height": 3858,
+    "sha256": "72abdcbc105e10bb7c26f447fcd7950c40fedd91aab7427acf6e4ec0551a9654",
+    "gallica_url": "https://gallica.bnf.fr/ark:/12148/bpt6k852354j/f103.item"
+  },
+  "transcription_source": {
+    "page_file": "pilot/format-v1-trial/level1/bnf-f0103.json",
+    "page_file_sha256": "f853cdf91a44df22bf02524025447a630ee2dc9ccb769ed13d460b00324ee57d"
+  },
+  "columns": {
+    "column-1": {
+      "column_box_xyxy": [
+        130,
+        300,
+        1200,
+        3420
+      ],
+      "zone_ids": [
+        "column-1a",
+        "column-1b"
+      ],
+      "initial_geometry_provenance": "contact_sheet_reviewed",
+      "initial_geometry_reviewed_at": "2026-08-01",
+      "geometry_requires_line_by_line_review": false,
+      "lines": [
+        {
+          "id": "c1a-l001",
+          "centre_y": 470,
+          "crop": [
+            130,
+            424,
+            1070,
+            92
+          ],
+          "context_crop": [
+            130,
+            322,
+            1070,
+            296
+          ],
+          "observed_text": "manto, ou veſtido, &c. Ou fazer lhe veſtir,",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:d10b275574aacec0c697ce8fedc2deea0d5de8eea93e66f4b52936d4a96a42df"
+        },
+        {
+          "id": "c1a-l002",
+          "centre_y": 525,
+          "crop": [
+            130,
+            480,
+            1070,
+            91
+          ],
+          "context_crop": [
+            130,
+            376,
+            1070,
+            298
+          ],
+          "observed_text": "ou cubrir com algũa couſa.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:3905773852f060b4a28d4f83ca990dcb6b932456e5d438bb7c85f06cec198db6"
+        },
+        {
+          "id": "c1a-l003",
+          "centre_y": 581,
+          "crop": [
+            130,
+            535,
+            1070,
+            91
+          ],
+          "context_crop": [
+            130,
+            432,
+            1070,
+            298
+          ],
+          "observed_text": "Cazzucaxe, uru, eta. Fazer mergulhar",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:d39b74cf86b100642badf1ecc45275c11238eb3119f598d21c015fffe0486cae"
+        },
+        {
+          "id": "c1a-l004",
+          "centre_y": 636,
+          "crop": [
+            130,
+            590,
+            1070,
+            92
+          ],
+          "context_crop": [
+            130,
+            488,
+            1070,
+            296
+          ],
+          "observed_text": "pera tomar algũa couſa, como mariſco no fun-",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:56b84a456fd228969fcd6bcabb9338404ee9dda0ca2e3bf84432b86fe1dad428"
+        },
+        {
+          "id": "c1a-l005",
+          "centre_y": 692,
+          "crop": [
+            130,
+            646,
+            1070,
+            92
+          ],
+          "context_crop": [
+            130,
+            544,
+            1070,
+            296
+          ],
+          "observed_text": "do da agoa.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:b65de2484c02b91e53c0c3a98d522a293a64e94d41eafb30f2ad8ba69c34304a"
+        },
+        {
+          "id": "c1a-l006",
+          "centre_y": 747,
+          "crop": [
+            130,
+            702,
+            1070,
+            91
+          ],
+          "context_crop": [
+            130,
+            598,
+            1070,
+            298
+          ],
+          "observed_text": "Cazzune. Raiz de hũa erva que comem os",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:44a9bc538702060daaf54f82e004649ecdc1e676d056bcd9b84aaeb34129d5d2"
+        },
+        {
+          "id": "c1a-l007",
+          "centre_y": 803,
+          "crop": [
+            130,
+            757,
+            1070,
+            91
+          ],
+          "context_crop": [
+            130,
+            654,
+            1070,
+            298
+          ],
+          "observed_text": "pobres.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:2c848ee8cf564ae33b74c9e4b341f831e39544c23ce4cf565745a68bd92778be"
+        },
+        {
+          "id": "c1a-l008",
+          "centre_y": 858,
+          "crop": [
+            130,
+            812,
+            1070,
+            92
+          ],
+          "context_crop": [
+            130,
+            710,
+            1070,
+            296
+          ],
+          "observed_text": "Cazzuqe, uru, eta. Fazer cubrir a alguem,",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:800fd3409fe6eb921f929b2a97c5bad1c7aa62576ff8b885054e55288e3824c4"
+        },
+        {
+          "id": "c1a-l009",
+          "centre_y": 914,
+          "crop": [
+            130,
+            868,
+            1070,
+            92
+          ],
+          "context_crop": [
+            130,
+            766,
+            1070,
+            296
+          ],
+          "observed_text": "ou cubrir, ou aſi, ou a outro.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:3168749e12af7a0fb5fb8054c077e1231c3904ac209fd7e3fa26c1c91454906c"
+        },
+        {
+          "id": "c1a-l010",
+          "centre_y": 969,
+          "crop": [
+            130,
+            924,
+            1070,
+            91
+          ],
+          "context_crop": [
+            130,
+            820,
+            1070,
+            298
+          ],
+          "observed_text": "Cazzuqi, u. Cubrirſe.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:22d50a5095859f1b48e6baad73e1586316e4244b5dc65d6bde11687464d76bd3"
+        },
+        {
+          "id": "c1a-l011",
+          "centre_y": 1025,
+          "crop": [
+            130,
+            979,
+            1070,
+            91
+          ],
+          "context_crop": [
+            130,
+            876,
+            1070,
+            298
+          ],
+          "observed_text": "Cazzuqi, u, uita. Mergulhar pera tomar",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:48e6c506f60abf6019dcdc2f6cfb434b63b5ca212c1955478c614e633edaf3bd"
+        },
+        {
+          "id": "c1a-l012",
+          "centre_y": 1080,
+          "crop": [
+            130,
+            1034,
+            1070,
+            92
+          ],
+          "context_crop": [
+            130,
+            932,
+            1070,
+            296
+          ],
+          "observed_text": "oſtras, ou outro mariſco.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:82deb1418f5a42d9312fdeacbd33bf6403d93945c6852a57e624d354f509e6ce"
+        },
+        {
+          "id": "c1a-l013",
+          "centre_y": 1135,
+          "crop": [
+            130,
+            1090,
+            1070,
+            91
+          ],
+          "context_crop": [
+            130,
+            986,
+            1070,
+            298
+          ],
+          "observed_text": "Cazzuqi. O tomar algũa couſa de baxo da a",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:90ef08f94d1854252024ecb3b96aab36a665b187df786149aa76fc04bf2bec98"
+        },
+        {
+          "id": "c1a-l014",
+          "centre_y": 1191,
+          "crop": [
+            130,
+            1145,
+            1070,
+            91
+          ],
+          "context_crop": [
+            130,
+            1042,
+            1070,
+            298
+          ],
+          "observed_text": "gua mergulhando.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:33161937f517d72f8e476a8ab9bef22d43e8ca76c779d90234f33619503021d8"
+        },
+        {
+          "id": "c1a-l015",
+          "centre_y": 1246,
+          "crop": [
+            130,
+            1200,
+            1070,
+            92
+          ],
+          "context_crop": [
+            130,
+            1098,
+            1070,
+            296
+          ],
+          "observed_text": "Cazzuqi. Manto de molher.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:12f67931054541d23b8c298bcb8e016e07bb3d2af23b501cf6767b023728421a"
+        },
+        {
+          "id": "c1a-l016",
+          "centre_y": 1302,
+          "crop": [
+            130,
+            1256,
+            1070,
+            92
+          ],
+          "context_crop": [
+            130,
+            1154,
+            1070,
+            296
+          ],
+          "observed_text": "Cazzuqiague, uru, eta. Mergulhando a",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:a2418dd104339b9fa59a8773f20d5f746188c2ca4264ea4dd0d083bfec8dcb89"
+        },
+        {
+          "id": "c1a-l017",
+          "centre_y": 1357,
+          "crop": [
+            130,
+            1312,
+            1070,
+            91
+          ],
+          "context_crop": [
+            130,
+            1208,
+            1070,
+            298
+          ],
+          "observed_text": "leuantar algũa couſa.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:1fc6792e74f6629445df79e54751958269e2d4aa6644bfef486cb566240edfd8"
+        },
+        {
+          "id": "c1a-l018",
+          "centre_y": 1413,
+          "crop": [
+            130,
+            1367,
+            1070,
+            91
+          ],
+          "context_crop": [
+            130,
+            1264,
+            1070,
+            298
+          ],
+          "observed_text": "Cazzura. Era que trepa pellas aruores.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:f9941aafe64616ce5e38f4df4500a7585e5cfb6993d5394b333817e49dd3cebe"
+        },
+        {
+          "id": "c1a-l019",
+          "centre_y": 1468,
+          "crop": [
+            130,
+            1422,
+            1070,
+            92
+          ],
+          "context_crop": [
+            130,
+            1320,
+            1070,
+            296
+          ],
+          "observed_text": "Cazzura. Certa rede comprida com que cercão,",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:38022934869e65d1713124296fd9fa2eb4de6b511fc0a7cbc8291a136f6bb05d"
+        },
+        {
+          "id": "c1a-l020",
+          "centre_y": 1524,
+          "crop": [
+            130,
+            1478,
+            1070,
+            92
+          ],
+          "context_crop": [
+            130,
+            1376,
+            1070,
+            296
+          ],
+          "observed_text": "& leuão o peixe diante que ordinariamente ſão",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:b2c3ef1d1bb3d28135c3057beeeb66f2f6702949d036cbe6d81472a40886a69a"
+        },
+        {
+          "id": "c1a-l021",
+          "centre_y": 1579,
+          "crop": [
+            130,
+            1534,
+            1070,
+            91
+          ],
+          "context_crop": [
+            130,
+            1430,
+            1070,
+            298
+          ],
+          "observed_text": "Tais. ¶ Cazzurauo fiqu. Puxar por",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:3c95a885ad3eeacbeeb4dced0361cc5c935b4402993fa9b9b1b46ded8637272f"
+        },
+        {
+          "id": "c1a-l022",
+          "centre_y": 1635,
+          "crop": [
+            130,
+            1589,
+            1070,
+            91
+          ],
+          "context_crop": [
+            130,
+            1486,
+            1070,
+            298
+          ],
+          "observed_text": "eſta rede.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:92625a82a1ce0f331579b297410dc114e65c3811e6689b8c146fe7d62627f890"
+        },
+        {
+          "id": "c1a-l023",
+          "centre_y": 1690,
+          "crop": [
+            130,
+            1644,
+            1070,
+            92
+          ],
+          "context_crop": [
+            130,
+            1542,
+            1070,
+            296
+          ],
+          "observed_text": "Cazzura. Cabeleira poſtiça.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:95aebcc0aa3eb5ccc69a8291a11368ce007a0dce21cd6f6671489107dbefe3c8"
+        },
+        {
+          "id": "c1b-l001",
+          "centre_y": 1980,
+          "crop": [
+            140,
+            1880,
+            1070,
+            230
+          ],
+          "context_crop": [
+            120,
+            1818,
+            1100,
+            324
+          ],
+          "observed_text": "CHA. Hũa certa folha de hũa aruoreſinha",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:ff7661a477a4d1a56b9fe112d5aa81d1103e43741bd16622d0ea187f7bec7829",
+          "note": "Resolved the supplied context_crop_does_not_contain_crop flag by widening the context crop to contain the complete tall line crop with margin; the tall crop itself is retained because it is needed for the enlarged initial C."
+        },
+        {
+          "id": "c1b-l002",
+          "centre_y": 2040,
+          "crop": [
+            130,
+            1992,
+            1070,
+            96
+          ],
+          "context_crop": [
+            130,
+            1878,
+            1070,
+            324
+          ],
+          "observed_text": "que ſe bebe moida. ¶ Chauo fiqu. Mo-",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:3001d6ca0e48161fb399dcc3cd605908c27c11256a98970d83fea93771e2edf8"
+        },
+        {
+          "id": "c1b-l003",
+          "centre_y": 2099,
+          "crop": [
+            130,
+            2052,
+            1070,
+            95
+          ],
+          "context_crop": [
+            130,
+            1937,
+            1070,
+            324
+          ],
+          "observed_text": "er Cha. ¶ Chauo tatçuru. Concertar o",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:e6009d83df4177bf05bb9036bf7af1873f83379a778591f0145a1713ac8dfbfc"
+        },
+        {
+          "id": "c1b-l004",
+          "centre_y": 2159,
+          "crop": [
+            130,
+            2111,
+            1070,
+            95
+          ],
+          "context_crop": [
+            130,
+            1997,
+            1070,
+            324
+          ],
+          "observed_text": "Cha na porſolana pera ſe beber. ¶ Cha",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:154dd83be684276b2fd7fc8ba88c084ea64512d2c3a54fa9b7b61b8ce9066455"
+        },
+        {
+          "id": "c1b-l005",
+          "centre_y": 2218,
+          "crop": [
+            130,
+            2170,
+            1070,
+            96
+          ],
+          "context_crop": [
+            130,
+            2056,
+            1070,
+            324
+          ],
+          "observed_text": "uo tçumu. ¶ Colher o Cha.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:dce5d394664d68666370d5cbddb840c74b92afc4edd23c2fc205102616020af5"
+        },
+        {
+          "id": "c1b-l006",
+          "centre_y": 2278,
+          "crop": [
+            130,
+            2230,
+            1070,
+            96
+          ],
+          "context_crop": [
+            130,
+            2116,
+            1070,
+            324
+          ],
+          "observed_text": "Chabixacu. Hũa maneira de cocoſinho com ſeu",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:e114397ee6ac4c8e710b6dadaddff135182dd0e5beaa3124d6830db0f700417b"
+        },
+        {
+          "id": "c1b-l007",
+          "centre_y": 2337,
+          "crop": [
+            130,
+            2290,
+            1070,
+            95
+          ],
+          "context_crop": [
+            130,
+            2175,
+            1070,
+            324
+          ],
+          "observed_text": "cabo feito de bambu com que tirão agua no",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:bd9dfe2c864515275a87cc7b8c286e12d0141ce29aa06c531c82129ff5eaddd8"
+        },
+        {
+          "id": "c1b-l008",
+          "centre_y": 2397,
+          "crop": [
+            130,
+            2349,
+            1070,
+            95
+          ],
+          "context_crop": [
+            130,
+            2235,
+            1070,
+            324
+          ],
+          "observed_text": "Chanoyu.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:206c4a7d0809a52df9818115e174792567e43a868a010f78888c658d909ae345"
+        },
+        {
+          "id": "c1b-l009",
+          "centre_y": 2456,
+          "crop": [
+            130,
+            2408,
+            1070,
+            96
+          ],
+          "context_crop": [
+            130,
+            2294,
+            1070,
+            324
+          ],
+          "observed_text": "Chabon. Hũa meſaſinha como bandeja em",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:4ec5395cae0cc6985a114f991bff128ef8478666a2ba369d61ee9ee2f2c7c426"
+        },
+        {
+          "id": "c1b-l010",
+          "centre_y": 2516,
+          "crop": [
+            130,
+            2468,
+            1070,
+            96
+          ],
+          "context_crop": [
+            130,
+            2354,
+            1070,
+            324
+          ],
+          "observed_text": "que poem os aparelhos do Chanoyu.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:f27528131f65108dd09454b57a71958034d7bdfd597375cdcf2d979a22517bcd"
+        },
+        {
+          "id": "c1b-l011",
+          "centre_y": 2575,
+          "crop": [
+            130,
+            2528,
+            1070,
+            95
+          ],
+          "context_crop": [
+            130,
+            2413,
+            1070,
+            324
+          ],
+          "observed_text": "Chabucuro. Saquinho de papel em que metẽ o",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:4ec02e46a7e45364fc8bf5c6336129e307b716de5548f2f81f705cd7ab0d128a"
+        },
+        {
+          "id": "c1b-l012",
+          "centre_y": 2635,
+          "crop": [
+            130,
+            2587,
+            1070,
+            96
+          ],
+          "context_crop": [
+            130,
+            2473,
+            1070,
+            324
+          ],
+          "observed_text": "chà por moer. ¶ Item certa laya de me",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:c7ea84ce1556bc9fd6f1b1dbbe2536125322bfd475b0e2d6b86b0bc38efd0222"
+        },
+        {
+          "id": "c1b-l013",
+          "centre_y": 2695,
+          "crop": [
+            130,
+            2647,
+            1070,
+            95
+          ],
+          "context_crop": [
+            130,
+            2533,
+            1070,
+            324
+          ],
+          "observed_text": "lões que ſe parecem com eſtes ſaquinhos.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:67984e4586b4ea61ce31b9981be949c382f097d10b371e5cbb53c0c908a24453"
+        },
+        {
+          "id": "c1b-l014",
+          "centre_y": 2754,
+          "crop": [
+            130,
+            2706,
+            1070,
+            96
+          ],
+          "context_crop": [
+            130,
+            2592,
+            1070,
+            324
+          ],
+          "observed_text": "Chaburui. Poeira, ou ciranda com que alimpão",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:9a3779cfed3fc8eecd127134234ef4fcb1fc2ddcc5879be026f2c3729ea8d532"
+        },
+        {
+          "id": "c1b-l015",
+          "centre_y": 2814,
+          "crop": [
+            130,
+            2766,
+            1070,
+            96
+          ],
+          "context_crop": [
+            130,
+            2652,
+            1070,
+            324
+          ],
+          "observed_text": "o cha.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:ee4da947735af6c4a3d4f4de68eea5f60458864990ae3f85f113508874254e35"
+        },
+        {
+          "id": "c1b-l016",
+          "centre_y": 2873,
+          "crop": [
+            130,
+            2826,
+            1070,
+            95
+          ],
+          "context_crop": [
+            130,
+            2711,
+            1070,
+            324
+          ],
+          "observed_text": "Chaccocu. Cunini tçuqu. Chegar ao Reino.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:eabc0b61fc6b4925cfa561d4e0fcd20bd2829923f7722f6008b3adf8d013d2d9"
+        },
+        {
+          "id": "c1b-l017",
+          "centre_y": 2933,
+          "crop": [
+            130,
+            2885,
+            1070,
+            95
+          ],
+          "context_crop": [
+            130,
+            2771,
+            1070,
+            324
+          ],
+          "observed_text": "¶ Gochaccocu naſareta, Ter chegado ao",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:7f3f70b9176bbe4835afe7baa7ab886b6be92703f2b72f42c7f787ade2f8a974"
+        },
+        {
+          "id": "c1b-l018",
+          "centre_y": 2992,
+          "crop": [
+            130,
+            2944,
+            1070,
+            96
+          ],
+          "context_crop": [
+            130,
+            2830,
+            1070,
+            324
+          ],
+          "observed_text": "Reino algum ſenhor, ou Tono.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:b3ba8d0b371f11e5ac57730f485cb77a3688887d9151e72aba94a5223b0a6d6d"
+        },
+        {
+          "id": "c1b-l019",
+          "centre_y": 3052,
+          "crop": [
+            130,
+            3004,
+            1070,
+            96
+          ],
+          "context_crop": [
+            130,
+            2890,
+            1070,
+            324
+          ],
+          "observed_text": "Chachato. Adu. Depreſſa.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:a846350f4b0cd180ae3213afc30c8172f59269a6707c50fe0ea03edef700b004"
+        },
+        {
+          "id": "c1b-l020",
+          "centre_y": 3111,
+          "crop": [
+            130,
+            3064,
+            1070,
+            95
+          ],
+          "context_crop": [
+            130,
+            2949,
+            1070,
+            324
+          ],
+          "observed_text": "Chacò. ajuntamento dos que ſe ajuntão a beber",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:ad8326858acf362a63cebdb3784128ba0b2adb350e203aada926fda14f5a2657"
+        },
+        {
+          "id": "c1b-l021",
+          "centre_y": 3171,
+          "crop": [
+            130,
+            3123,
+            1070,
+            95
+          ],
+          "context_crop": [
+            130,
+            3009,
+            1070,
+            324
+          ],
+          "observed_text": "cha.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:84016eaf0943fa653317a5abe0a4df21b4cd88ee3226f691291d06450c430ebe"
+        },
+        {
+          "id": "c1b-l022",
+          "centre_y": 3230,
+          "crop": [
+            130,
+            3182,
+            1070,
+            96
+          ],
+          "context_crop": [
+            130,
+            3068,
+            1070,
+            324
+          ],
+          "observed_text": "Chacqe. ſôr:ôno iye. Morgado que erda a",
+          "match": "strong",
+          "assessment": "uncertain",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:54ce96db704e3c4669a4bba0e721b7ad78332eb986087a382b20fe785ebb14a5",
+          "note": "The compact romanized form after the headword is visually difficult; observed_text records the most secure enlarged-scan reading, including the long s and diacritics."
+        },
+        {
+          "id": "c1b-l023",
+          "centre_y": 3290,
+          "crop": [
+            130,
+            3242,
+            1070,
+            96
+          ],
+          "context_crop": [
+            130,
+            3128,
+            1070,
+            292
+          ],
+          "observed_text": "caſa.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:b8605c4f1e893db31b869e72d779c089c5571dc153bd6158758062ab362353a7"
+        }
+      ]
+    },
+    "column-2": {
+      "column_box_xyxy": [
+        1220,
+        300,
+        2310,
+        3420
+      ],
+      "zone_ids": [
+        "column-2"
+      ],
+      "initial_geometry_provenance": "contact_sheet_reviewed",
+      "initial_geometry_reviewed_at": "2026-08-01",
+      "geometry_requires_line_by_line_review": false,
+      "lines": [
+        {
+          "id": "c2-l001",
+          "centre_y": 470,
+          "crop": [
+            1220,
+            422,
+            1090,
+            96
+          ],
+          "context_crop": [
+            1220,
+            305,
+            1090,
+            330
+          ],
+          "observed_text": "Chacqito. Adu. Modo de veſtirſe, ou a-",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:f7498eddd27e4114721f09b967155bbb9915576061350a1c5299462e4a7aa6a0"
+        },
+        {
+          "id": "c2-l002",
+          "centre_y": 531,
+          "crop": [
+            1220,
+            482,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1220,
+            366,
+            1090,
+            330
+          ],
+          "observed_text": "tauiarſe limpa, & airosamente.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:4a5b889c3758b660f1fd3ca21912cac07c06b44f6311b2783e60fd250ca93a5f"
+        },
+        {
+          "id": "c2-l003",
+          "centre_y": 593,
+          "crop": [
+            1220,
+            544,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1220,
+            428,
+            1090,
+            330
+          ],
+          "observed_text": "Chacuchacu. Herdeiro da caſa, ou morgado.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:708eea5e5a37ed1e2ae6a040bc696cb5e30a5a530eb4241971a34db4cc9296aa"
+        },
+        {
+          "id": "c2-l004",
+          "centre_y": 654,
+          "crop": [
+            1220,
+            606,
+            1090,
+            96
+          ],
+          "context_crop": [
+            1220,
+            489,
+            1090,
+            330
+          ],
+          "observed_text": "Chacuchacu. Adu. Apreſſadamente.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:df1ec51b143d3661a6f330bdd1b7a024560822714458e7351c26ff16bcfdf05e"
+        },
+        {
+          "id": "c2-l005",
+          "centre_y": 715,
+          "crop": [
+            1220,
+            666,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1220,
+            550,
+            1090,
+            330
+          ],
+          "observed_text": "Chacufu. Cunino funi tçuqu. Chegar à ci-",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:f34c5d1692a393ee66984cefe7939ea562f2780691115132faf2d2b9eaa35482"
+        },
+        {
+          "id": "c2-l006",
+          "centre_y": 777,
+          "crop": [
+            1220,
+            728,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1220,
+            612,
+            1090,
+            330
+          ],
+          "observed_text": "dade principal dalgum reino como em Bun-",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:551edda9b8ee9959d6c7635439d6032942f113c41ca29416056e861edf3bd371"
+        },
+        {
+          "id": "c2-l007",
+          "centre_y": 838,
+          "crop": [
+            1220,
+            790,
+            1090,
+            96
+          ],
+          "context_crop": [
+            1220,
+            673,
+            1090,
+            330
+          ],
+          "observed_text": "go a Funai, &c.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:fb9d490c49079e8e91122db3c34c3a6cbca460b43a735aca1b3455fc8889d731"
+        },
+        {
+          "id": "c2-l008",
+          "centre_y": 899,
+          "crop": [
+            1220,
+            850,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1220,
+            734,
+            1090,
+            330
+          ],
+          "observed_text": "Chacugan. i. Funega minatoni tçuqu. Che-",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:d25fc1d89c59898e6d7f1c2bc640039c7494cfd727b5f9857c98c83487e09425"
+        },
+        {
+          "id": "c2-l009",
+          "centre_y": 960,
+          "crop": [
+            1220,
+            912,
+            1090,
+            97
+          ],
+          "context_crop": [
+            1220,
+            795,
+            1090,
+            330
+          ],
+          "observed_text": "gar o nauio ao porto, ou a gente que vem em-",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:cfc8c85b01ab0a85eb348a6f90f42a218190dbb4fd92a073222a3f2b4e897742"
+        },
+        {
+          "id": "c2-l010",
+          "centre_y": 1022,
+          "crop": [
+            1220,
+            973,
+            1090,
+            97
+          ],
+          "context_crop": [
+            1220,
+            857,
+            1090,
+            330
+          ],
+          "observed_text": "barcada.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:c4ff7017abb084c68301c2209ebd378344efcb2311037502e1e759c2666156d0"
+        },
+        {
+          "id": "c2-l011",
+          "centre_y": 1083,
+          "crop": [
+            1220,
+            1034,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1220,
+            918,
+            1090,
+            330
+          ],
+          "observed_text": "Chacugin. Ginni tçuqu. Chegar ao arraial.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:a6b00e48f5a8a88d483f76ca2ce19dbd5c7ba52f7d2eb7f6872392a695bae9c9"
+        },
+        {
+          "id": "c2-l012",
+          "centre_y": 1144,
+          "crop": [
+            1220,
+            1096,
+            1090,
+            97
+          ],
+          "context_crop": [
+            1220,
+            979,
+            1090,
+            330
+          ],
+          "observed_text": "Chacujini. Vt, Chacujini ſuru. Fazer al-",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:366bce60a08344227c31379cd3efce49e5399e9d1c86106a40c760df8feaf268"
+        },
+        {
+          "id": "c2-l013",
+          "centre_y": 1206,
+          "crop": [
+            1220,
+            1157,
+            1090,
+            97
+          ],
+          "context_crop": [
+            1220,
+            1041,
+            1090,
+            330
+          ],
+          "observed_text": "gũa couſa depreſſa.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:138fba21a1185c8405fe17e6a84cdea0ae8f13a8e86803cbe3e7827c91db2193"
+        },
+        {
+          "id": "c2-l014",
+          "centre_y": 1267,
+          "crop": [
+            1220,
+            1218,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1220,
+            1102,
+            1090,
+            330
+          ],
+          "observed_text": "Chacunari. Sôriô. Herdeiro, ou morgado.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:3c87010d1a57be5962eba26c0aeae32f274e8031967afd0e66a8dc1089458ed3"
+        },
+        {
+          "id": "c2-l015",
+          "centre_y": 1328,
+          "crop": [
+            1220,
+            1280,
+            1090,
+            97
+          ],
+          "context_crop": [
+            1220,
+            1163,
+            1090,
+            330
+          ],
+          "observed_text": "Chacunho. Primeira filha.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:6925a5f6a04a18b5e25a06d48ab52c670c74399ddde7ef218d17d2003638eeb7"
+        },
+        {
+          "id": "c2-l016",
+          "centre_y": 1390,
+          "crop": [
+            1220,
+            1341,
+            1090,
+            97
+          ],
+          "context_crop": [
+            1220,
+            1225,
+            1090,
+            330
+          ],
+          "observed_text": "Chacurito. Adu. Depreſſa.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:1c346149f1a8c5181668b5ade087cdaedb04fd204e03f31f59e9b7bf8cba449b"
+        },
+        {
+          "id": "c2-l017",
+          "centre_y": 1451,
+          "crop": [
+            1220,
+            1402,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1220,
+            1286,
+            1090,
+            330
+          ],
+          "observed_text": "Chacuroi. Sôriô mago. Neto morgado.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:c00c75eff586c993cf7f39af483c3a8f0dadf4ef98702d518177b177fd22bcbc"
+        },
+        {
+          "id": "c2-l018",
+          "centre_y": 1512,
+          "crop": [
+            1220,
+            1464,
+            1090,
+            96
+          ],
+          "context_crop": [
+            1220,
+            1347,
+            1090,
+            330
+          ],
+          "observed_text": "Chacutçu. Minatoni tçuqu. Chegar ao porto.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:f6012d52381c9e65876104c7f13818942c3e1a88dc735719caad1e65912df05e"
+        },
+        {
+          "id": "c2-l019",
+          "centre_y": 1573,
+          "crop": [
+            1220,
+            1524,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1220,
+            1408,
+            1090,
+            330
+          ],
+          "observed_text": "Chacutô. Rol em que ſe eſcreuem os nomes",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:a473340cd2b77a6eb4a050ff8c97b40c3bb1879fc498da08140a276237f2baee"
+        },
+        {
+          "id": "c2-l020",
+          "centre_y": 1635,
+          "crop": [
+            1220,
+            1586,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1220,
+            1470,
+            1090,
+            330
+          ],
+          "observed_text": "dos ſoldados, ou de outra gente. Chacutô",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:9664f3c96001bfc3a534e1e0dc6bed367b086c16dc3d25ce4b2959e735a8c670"
+        },
+        {
+          "id": "c2-l021",
+          "centre_y": 1696,
+          "crop": [
+            1220,
+            1648,
+            1090,
+            96
+          ],
+          "context_crop": [
+            1220,
+            1531,
+            1090,
+            330
+          ],
+          "observed_text": "uo tçuquiu, l, chacutôni tçuqu. Eſcre-",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:c16918612036a685140509bfb722b6eb217e1199efa4a9e1eb8037dc765fede7"
+        },
+        {
+          "id": "c2-l022",
+          "centre_y": 1757,
+          "crop": [
+            1220,
+            1708,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1220,
+            1592,
+            1090,
+            330
+          ],
+          "observed_text": "uer, ou aſſentar neſte rol.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:5d24df177e30b769dda771f3f5f14ca8bf984ac15c99bd8a01a6e885d21d7f26"
+        },
+        {
+          "id": "c2-l023",
+          "centre_y": 1819,
+          "crop": [
+            1220,
+            1770,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1220,
+            1654,
+            1090,
+            330
+          ],
+          "observed_text": "Chacuto. Adu. Logo, ou depreſſa.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:5630012c14652bd63980332bfdea56d44b3815f208af7bcb88b3b7f619d44bee"
+        },
+        {
+          "id": "c2-l024",
+          "centre_y": 1880,
+          "crop": [
+            1220,
+            1832,
+            1090,
+            96
+          ],
+          "context_crop": [
+            1220,
+            1715,
+            1090,
+            330
+          ],
+          "observed_text": "Chacuxen. Fune tçuqu. Chegar o nauio ao",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:fe3d667ea194d6cf67a271b0d3b3b071ae4a7b8353cb994c06c1d214d68ecfb7"
+        },
+        {
+          "id": "c2-l025",
+          "centre_y": 1941,
+          "crop": [
+            1220,
+            1892,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1220,
+            1776,
+            1090,
+            330
+          ],
+          "observed_text": "porto. Vt, Chacuxende gozaru.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:1098d70b44a0068b10fadbbadcf926bd1a8b5013d42f45cd3d19496e791d3b0b"
+        },
+        {
+          "id": "c2-l026",
+          "centre_y": 2003,
+          "crop": [
+            1220,
+            1954,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1220,
+            1838,
+            1090,
+            330
+          ],
+          "observed_text": "Chacuxi. i. Sôriô. Morgado.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:ff84b51db8c25cbbaf531a5c2d177e258ae11a099b3f2a4648890fccdb45bc04"
+        },
+        {
+          "id": "c2-l027",
+          "centre_y": 2064,
+          "crop": [
+            1220,
+            2016,
+            1090,
+            96
+          ],
+          "context_crop": [
+            1220,
+            1899,
+            1090,
+            330
+          ],
+          "observed_text": "Chacuxi, ſuru, xita. i. qiru. Veſtir.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:522b8089449077ad1da1d30c72306491871b2173b8d24ff58d052fd62b885e16"
+        },
+        {
+          "id": "c2-l028",
+          "centre_y": 2125,
+          "crop": [
+            1220,
+            2076,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1220,
+            1960,
+            1090,
+            330
+          ],
+          "observed_text": "Chacuza. Zani tçuqu. Aſentarſe em ſeu lu-",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:491b56d91b8fd259c98e8ac0af8c3dd78ad1ae879ef84caa49e565c3b6bf32db"
+        },
+        {
+          "id": "c2-l029",
+          "centre_y": 2187,
+          "crop": [
+            1220,
+            2138,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1220,
+            2022,
+            1090,
+            330
+          ],
+          "observed_text": "gar no Zaxiqi. Vt, Chacuza ſuru.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:ff77c19d5d70f3dbebf9bccf625031656f427377103c2c9c312d3c22e32bb930"
+        },
+        {
+          "id": "c2-l030",
+          "centre_y": 2248,
+          "crop": [
+            1220,
+            2200,
+            1090,
+            96
+          ],
+          "context_crop": [
+            1220,
+            2083,
+            1090,
+            330
+          ],
+          "observed_text": "Chafan. Cha, iy. Cha, & arroz cozido.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:c53380d928de3a1371ff11955244fbbda94ba844c2ac14e7be00965d7921263f"
+        },
+        {
+          "id": "c2-l031",
+          "centre_y": 2309,
+          "crop": [
+            1220,
+            2260,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1220,
+            2144,
+            1090,
+            330
+          ],
+          "observed_text": "¶ Item, Permet. Couſa neceſſaria, & que",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:00bc528397a8990e672c1dc2a2bb765839f89e1192c246a18237f6e619fd2bf9"
+        },
+        {
+          "id": "c2-l032",
+          "centre_y": 2370,
+          "crop": [
+            1220,
+            2322,
+            1090,
+            97
+          ],
+          "context_crop": [
+            1220,
+            2205,
+            1090,
+            330
+          ],
+          "observed_text": "não pode deixar de ſe fazer. Vt, Iǒgũno",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:b60049123bb63abc950aaaa07e9a976ef365110af3b52b0cefdea6a456a718cc"
+        },
+        {
+          "id": "c2-l033",
+          "centre_y": 2432,
+          "crop": [
+            1220,
+            2383,
+            1090,
+            97
+          ],
+          "context_crop": [
+            1220,
+            2267,
+            1090,
+            330
+          ],
+          "observed_text": "chafande gozaru. He couſa que não ſe eſ-",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:f598629f5e0b5064f2fe899792292258d17cbe615905d799639a7ea7af30606d"
+        },
+        {
+          "id": "c2-l034",
+          "centre_y": 2493,
+          "crop": [
+            1220,
+            2444,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1220,
+            2328,
+            1090,
+            330
+          ],
+          "observed_text": "cuſa fazer ſempre.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:162f6d8db224520df064d1139ca4b421242fc469bed381f8cabd8e93f6558c9e"
+        },
+        {
+          "id": "c2-l035",
+          "centre_y": 2554,
+          "crop": [
+            1220,
+            2506,
+            1090,
+            97
+          ],
+          "context_crop": [
+            1220,
+            2389,
+            1090,
+            330
+          ],
+          "observed_text": "Chaire. Vazo, ou boceta vruxada em que ſe",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:ce6a74e70ec87bc6a34a5e2915ecd2e81d619ce2ab981e1ef41ba3ca5c6ece42"
+        },
+        {
+          "id": "c2-l036",
+          "centre_y": 2616,
+          "crop": [
+            1220,
+            2567,
+            1090,
+            97
+          ],
+          "context_crop": [
+            1220,
+            2451,
+            1090,
+            330
+          ],
+          "observed_text": "mete o Cha moido.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:72762e02a66b9db90249db0afcd16fd9fbce49961ed00b923b3feb803b23b379"
+        },
+        {
+          "id": "c2-l037",
+          "centre_y": 2677,
+          "crop": [
+            1220,
+            2628,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1220,
+            2512,
+            1090,
+            330
+          ],
+          "observed_text": "Chajo. Lugar onde ſe bebe o Cha. No Çami",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:7eace018fdce7d7b81ec0132fba63c3dd877f41510af63a2e8b8d9366bbd7711"
+        },
+        {
+          "id": "c2-l038",
+          "centre_y": 2738,
+          "crop": [
+            1220,
+            2690,
+            1090,
+            97
+          ],
+          "context_crop": [
+            1220,
+            2573,
+            1090,
+            330
+          ],
+          "observed_text": "ſe diz Sadô.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:3bf527ccc1fa760f7e85bf7fff319e9ed97e74245908dd436c26dd04adf0698a"
+        },
+        {
+          "id": "c2-l039",
+          "centre_y": 2800,
+          "crop": [
+            1220,
+            2751,
+            1090,
+            97
+          ],
+          "context_crop": [
+            1220,
+            2635,
+            1090,
+            330
+          ],
+          "observed_text": "Chanoco. Couſa apetitoſa, & ſalgada que ſe",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:dcf6bb5e4bfea27e26d77adaf8c8799d8d3c143f9257b0c1b5e405f73964e0c7"
+        },
+        {
+          "id": "c2-l040",
+          "centre_y": 2861,
+          "crop": [
+            1220,
+            2812,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1220,
+            2696,
+            1090,
+            330
+          ],
+          "observed_text": "come antes do Cha.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:7d95d51ad704da6e2762ea31eed48e7c0e1e42535acb6eb832674f6e2c6427ef"
+        },
+        {
+          "id": "c2-l041",
+          "centre_y": 2922,
+          "crop": [
+            1220,
+            2874,
+            1090,
+            96
+          ],
+          "context_crop": [
+            1220,
+            2757,
+            1090,
+            330
+          ],
+          "observed_text": "Chano iqi. Cheiro, & ſabor do Cha. ¶ Cha",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:3bad761c0809d054e58fe18058ef9690a2b70233c2dae9624a344850f51a4643"
+        },
+        {
+          "id": "c2-l042",
+          "centre_y": 2983,
+          "crop": [
+            1220,
+            2934,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1220,
+            2818,
+            1090,
+            330
+          ],
+          "observed_text": "no iqi ga yoi, l, varui. O cheiro, & ſabor",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:791763083affd8a0328fe14965c2540bc6334b587a9d3189dda5fd5aeea98f3c"
+        },
+        {
+          "id": "c2-l043",
+          "centre_y": 3045,
+          "crop": [
+            1220,
+            2996,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1220,
+            2880,
+            1090,
+            330
+          ],
+          "observed_text": "do Cha he bom, ou ruim.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:9b92849f6a0bd7f2617522e0f920d4e6bd10aa978b19b2a5502d9dde21d17ef2"
+        },
+        {
+          "id": "c2-l044",
+          "centre_y": 3106,
+          "crop": [
+            1220,
+            3058,
+            1090,
+            96
+          ],
+          "context_crop": [
+            1220,
+            2941,
+            1090,
+            330
+          ],
+          "observed_text": "Chanoyu. Lugar onde ſe aquenta a agoa pera",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:fd9fb7524e0e935dd2b75669161bc9f7ee6b23c673c9a503b64e76616b4b7c7d"
+        },
+        {
+          "id": "c2-l045",
+          "centre_y": 3167,
+          "crop": [
+            1220,
+            3118,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1220,
+            3002,
+            1090,
+            330
+          ],
+          "observed_text": "o Cha, & ſe prepara pera beber.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:2518761e81af37977040773fed73ef7c5d11bc838d1845614c7809da51903a78"
+        },
+        {
+          "id": "c2-l046",
+          "centre_y": 3229,
+          "crop": [
+            1220,
+            3180,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1220,
+            3064,
+            1090,
+            330
+          ],
+          "observed_text": "Chanoyujo. Idem.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:b72a4f9605ee1ee77ba274367592b041d34b891bc70b217dbdf4a396b1fcebd2"
+        },
+        {
+          "id": "c2-l047",
+          "centre_y": 3290,
+          "crop": [
+            1220,
+            3242,
+            1090,
+            96
+          ],
+          "context_crop": [
+            1220,
+            3125,
+            1090,
+            295
+          ],
+          "observed_text": "Chanoyuno ma. Idem",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:9cf30fd14c5780c98ba9df0ec4856ca95ca0be0454d14e37a8c131f378e5d972"
+        }
+      ]
+    }
+  },
+  "geometry_review_status": "completed",
+  "text_review_status": "completed"
+}

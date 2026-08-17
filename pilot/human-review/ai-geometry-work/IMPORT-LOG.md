@@ -35,3 +35,9 @@ Revised submissions were imported on 2026-08-14 after an earlier low-quality ret
 ### f86–f100
 
 The submissions were processed on 2026-08-16. Their 1,414 rectangles passed a 30-column contact-sheet and line-to-text sanity sweep, but fixed horizontal bounds repeated the earlier clipped-edge risk. All were expanded to audited rule-to-rule coverage and recorded as `external_ai_width_rechecked`. The readings were too OCR-like to constitute completed independent text review, so those files record `text_review_status: not_completed`. Thirteen compact candidate differences were independently confirmed and applied. Geometry review also exposed the false f94 `lar.` row described in the geometry guide.
+
+### f101–f105
+
+The returns were adjudicated on 2026-08-18. The f101–f104 files retained almost every provisional rectangle unchanged and marked every reading as a strong match despite 160 differences from the canonical text, including many visibly or linguistically impossible forms. Their 375 rectangles nevertheless passed a complete contact-sheet line-association sweep. They were therefore imported as bulk-sanity geometry, expanded to conservative rule-to-rule horizontal coverage, and recorded as `external_ai_width_rechecked`; none of their textual differences was applied as independent evidence.
+
+The f105 return was not imported. It correctly stopped after finding that both columns' provisional geometry begins one printed row below the canonical first line: the crop assigned to `c1-l001` shows `gotogia`, while the crop assigned to `c2-l001` shows `Chicco`. Its pending response is retained as evidence that the page must be re-registered or regenerated before review can continue.
