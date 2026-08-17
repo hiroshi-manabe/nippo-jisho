@@ -1,8 +1,18 @@
-# AI line-geometry response example
+# AI line-review examples
 
-[`bnf-f0030.json`](bnf-f0030.json) is the complete expected response shape for an AI asked to establish line geometry from `f31` onward. It contains all 94 body lines on the already reviewed `f30`, not merely a shortened schema illustration.
+Use two examples for two different purposes.
 
-The example combines the current canonical f30 transcription with geometry that has passed the project's text–image sanity check. Its `observed_text` values are therefore **reference values copied from the canonical transcription**, not the result of a new blind reading. This is disclosed in the JSON itself. For a new page, the responding AI must write `observed_text` independently from the proposed crop before comparing it with the supplied canonical line.
+## Recommended behavioral example: f53
+
+[`../ai-geometry-work/bnf-f0053-reviewed.json`](../ai-geometry-work/bnf-f0053-reviewed.json) is a real completed external-AI return and is the recommended example of how to perform the work. All 93 body lines have independently read `observed_text`. The return preserves visible disagreements with the then-canonical text, labels a materially abraded passage `uncertain`, and explains the exceptional tall crop needed for an enlarged initial rather than forcing that line into the ordinary geometry.
+
+This is a historical return, frozen by Git at commit `340f4bb`. It predates the explicit `geometry_review_status`, `text_review_status`, and per-line `geometry_action` fields now required by [the response format](../ai-geometry-work/FORMAT.md). Follow its judgment and evidence, but follow the current format for fields and completion metadata. Its readings are evidence from that review, not automatically accepted Level 1 corrections.
+
+## Structural specimen: f30
+
+[`bnf-f0030.json`](bnf-f0030.json) contains the complete current response shape and all 94 body-line records on an already reviewed page. Use it for nesting, coordinate conventions, source/version metadata, and allowed field placement.
+
+The f30 specimen combines canonical transcription with geometry that passed the project's text–image sanity check. Its `observed_text` values are therefore **reference values copied from the canonical transcription**, not the result of a blind reading. This is disclosed in the JSON itself. Do not imitate that provenance in a new response: write `observed_text` independently from the proposed crop before comparing it with the supplied canonical line.
 
 ## Required response behaviour
 
@@ -22,7 +32,7 @@ Both `crop` and `context_crop` use `[x, y, width, height]`. `column_box_xyxy` al
 
 `match` concerns line identification, not diplomatic correctness. A recognizably aligned line may receive `strong` even when one difficult character differs. A disagreement in `observed_text` is a later transcription-review candidate; the geometry task must not modify Level 1 text.
 
-Regenerate the f30 exemplar after intentional changes to its canonical transcription or reviewed geometry:
+Regenerate only the structural f30 specimen after intentional changes to its canonical transcription or reviewed geometry:
 
 ```sh
 python3 scripts/export_ai_geometry_example.py

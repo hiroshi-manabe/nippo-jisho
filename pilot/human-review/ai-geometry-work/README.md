@@ -32,8 +32,8 @@ The scan decides the reading. Linguistic knowledge may identify a suspicious cha
 
 ## References
 
-- [Response format](FORMAT.md): fields, allowed values, completion states, hashes, and the golden example.
+- [Response format](FORMAT.md): fields, allowed values, completion states, hashes, and the examples.
 - [Geometry guide](GEOMETRY-GUIDE.md): crop acceptance, page skew, overlap, validation flags, and lineation discrepancies.
 - [Project import log](IMPORT-LOG.md): project-side validation, provenance, coverage, and earlier batch outcomes. This is background for maintainers, not part of the reviewer’s normal assignment.
 
-The reviewed f30 example at [`../ai-geometry-examples/bnf-f0030.json`](../ai-geometry-examples/bnf-f0030.json) demonstrates the completed response shape.
+Start with the [example guide](../ai-geometry-examples/README.md). The completed f53 return is the recommended model for actual review behavior; f30 is retained only as a current structural and coordinate specimen.

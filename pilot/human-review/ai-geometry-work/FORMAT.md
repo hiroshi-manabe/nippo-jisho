@@ -40,6 +40,11 @@ The response pins both the source image and canonical transcription with hashes.
 
 The prepared base-task collection covers `f31`–`f237`, `f248`–`f250`, and `f643`. A base JSON file remains after review and therefore does not indicate that a page is still pending.
 
-## Example
+## Examples
 
-The reviewed f30 response at [`../ai-geometry-examples/bnf-f0030.json`](../ai-geometry-examples/bnf-f0030.json) is the golden structural example. Its accompanying README explains the coordinate conventions. Copy its data shape, not its page-specific values or transcription.
+Use the [example guide](../ai-geometry-examples/README.md) to keep two distinct purposes straight:
+
+- [`bnf-f0053-reviewed.json`](bnf-f0053-reviewed.json) is the recommended model for real independent reading, visible disagreement, explicit uncertainty, and exceptional crop judgment;
+- [`../ai-geometry-examples/bnf-f0030.json`](../ai-geometry-examples/bnf-f0030.json) is only the current structural and coordinate specimen. Its readings were copied from the canonical transcription and are not review evidence.
+
+The f53 return predates the explicit `geometry_review_status`, `text_review_status`, and `geometry_action` fields. New work must still supply every field required by this document; do not reproduce that legacy omission.

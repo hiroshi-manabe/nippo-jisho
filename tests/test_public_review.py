@@ -20,6 +20,30 @@ class PublicReviewRegressionTests(unittest.TestCase):
             self.assertTrue((work / name).is_file())
             self.assertIn(f"]({name})", readme)
 
+    def test_external_ai_behavioral_example_is_a_real_completed_review(self):
+        review_root = ROOT / "pilot" / "human-review"
+        example_guide = (
+            review_root / "ai-geometry-examples" / "README.md"
+        ).read_text(encoding="utf-8")
+        reviewed_path = (
+            review_root / "ai-geometry-work" / "bnf-f0053-reviewed.json"
+        )
+        reviewed = json.loads(reviewed_path.read_text(encoding="utf-8"))
+        lines = [
+            line
+            for column in reviewed["columns"].values()
+            for line in column["lines"]
+        ]
+
+        self.assertIn("../ai-geometry-work/bnf-f0053-reviewed.json", example_guide)
+        self.assertEqual(
+            reviewed["response_status"], "completed_independent_ai_line_review"
+        )
+        self.assertTrue(lines)
+        self.assertTrue(all(line["observed_text"] is not None for line in lines))
+        self.assertTrue(any(line["assessment"] == "uncertain" for line in lines))
+        self.assertTrue(any("note" in line for line in lines))
+
     def test_tilde_audit_covers_only_unreviewed_two_vowel_pairs(self):
         with tempfile.TemporaryDirectory() as directory:
             subprocess.run(
