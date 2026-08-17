@@ -14,7 +14,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | Banqe. *O mudarſe, ou traſformarſe em va-* |  |
+| `c1-l001` | Banqe. *O mudarſe, ou trasformarſe em va-* |  |
 | `c1-l002` | &emsp;*rias figuras.* |  |
 | `c1-l003` | Banrei. *Todos os viuentes ſenſitiuos.* |  |
 | `c1-l004` | Banri. *Dez mil, ou muitas legoas. i. muito* |  |
@@ -104,7 +104,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l025` | &emsp;*formarſe como faz o demonio tomando figura* |  |
 | `c2-l026` | &emsp;*de rapoſa, poſto que os Iapões não nomeão o dia* |  |
 | `c2-l027` | &emsp;*bo, mas dizem Qitçunega baqeta. A-* |  |
-| `c2-l028` | &emsp;*rapoſa ſe fez homem, ou apareçeo traſformada* |  |
+| `c2-l028` | &emsp;*rapoſa ſe fez homem, ou apareçeo trasformada* |  |
 | `c2-l029` | &emsp;*ẽ molher, homẽ, &c. ¶ Item, permet.* |  |
 | `c2-l030` | &emsp;*Mudar o trajo, & tomar figura eſtranha. Vt,* |  |
 | `c2-l031` | &emsp;Vonnani bacuru. *Veſtiſſe o homem ẽ trajos* |  |
@@ -121,7 +121,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l042` | &emsp;arauareta. *Deſcobrioſe o engano, ou diſſimu* |  |
 | `c2-l043` | &emsp;*lação, &c.* |  |
 | `c2-l044` | Baqebaqexij. i. Baqeraxij. *Couſa que pa-* |  |
-| `c2-l045` | &emsp;*rece como tranſformada, & contra feita, ou* |  |
+| `c2-l045` | &emsp;*rece como transformada, & contra feita, ou* |  |
 | `c2-l046` | &emsp;*extra ordinaria no trajo, & modo, como mo-* |  |
 
 ## Signature

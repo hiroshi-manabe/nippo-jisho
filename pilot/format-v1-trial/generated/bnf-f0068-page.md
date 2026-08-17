@@ -92,7 +92,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2a-l017` | Buyǒjin. Yǒjinnaxi. *O não auer vigia, &* |  |
 | `c2a-l018` | &emsp;*cautela.* |  |
 | `c2a-l019` | Buyǔ. Tagecu iſamu. i. Qenaguena coto. |  |
-| `c2a-l020` | &emsp;*Valentia, & eſforço de ſoldados.* |  |
+| `c2a-l020` | &emsp;*Valentia, & esforço de ſoldados.* |  |
 
 ## Column 2 alphabet transition
 

@@ -102,7 +102,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l022` | &emsp;*Camaras liquidas, ou ſoltas.* |  |
 | `c2-l023` | Boroboroto. *Adu. Modo de ſe quebrar, ou* |  |
 | `c2-l024` | &emsp;*eſbroar algũa couſa como barro, ou terra que* |  |
-| `c2-l025` | &emsp;*ſe deſfaz, ou como grãos, & arroz quando* |  |
+| `c2-l025` | &emsp;*ſe desfaz, ou como grãos, & arroz quando* |  |
 | `c2-l026` | &emsp;*ſe entorna.* |  |
 | `c2-l027` | Boromecaxi, u, aita. *Fazer ſoar folha quã-* |  |
 | `c2-l028` | &emsp;*do ſe metem no fogo ou outras couſas, como* |  |

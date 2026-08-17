@@ -85,12 +85,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l004` | Catafaxi. *Hum paozinho dos dous com que* |  |
 | `c2-l005` | &emsp;*comem os Iapoẽs. ¶ Item, Hũa banda.* |  |
 | `c2-l006` | &emsp;*¶* Iyeno catafaxiga cuzzururu. *Irſe* |  |
-| `c2-l007` | &emsp;*deſtruindo, & deſfazendo a caſa por hũa parte.* |  |
+| `c2-l007` | &emsp;*deſtruindo, & desfazendo a caſa por hũa parte.* |  |
 | `c2-l008` | Catagata. *Voſſas merçes. ¶ Item, Hũa* |  |
 | `c2-l009` | &emsp;*couſa, & outra. ¶* Catagata mǒxi nobeǒ |  |
 | `c2-l010` | &emsp;zu. *Declararei hũa couſa, & outra. ¶ Item,* |  |
 | `c2-l011` | &emsp;*Secũdũ alios. Ou là ou cà: là. i. vẽdome cõ voſco,* |  |
-| `c2-l012` | &emsp;*ou cà. i. vẽdo vos comigo direi diſfuſamente.* |  |
+| `c2-l012` | &emsp;*ou cà. i. vẽdo vos comigo direi disfuſamente.* |  |
 | `c2-l013` | Catague, uru, eta. *Acarretar, ou leuar* |  |
 | `c2-l014` | &emsp;*aos hombros.* |  |
 | `c2-l015` | Catagui. *Coſtume.* |  |

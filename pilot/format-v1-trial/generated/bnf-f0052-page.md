@@ -19,7 +19,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l003` | Baqemono. *Couſa trãsformada, ou reueſtida noutra* |  |
 | `c1-l004` | &emsp;*figura, como demonio que aparece em figura de* |  |
 | `c1-l005` | &emsp;*ſerpente, rapoſa, &c.* |  |
-| `c1-l006` | Baqeraxij. *Couſa como tranſfigurada, ou extra* |  |
+| `c1-l006` | Baqeraxij. *Couſa como transfigurada, ou extra* |  |
 | `c1-l007` | &emsp;*ordinaria no trajo, &c. Dizſe ha da molher* |  |
 | `c1-l008` | &emsp;*que ſe enfeita demaſiadamente, ou de homem* |  |
 | `c1-l009` | &emsp;*que vem com algum trajo, ou atauio extra or-* |  |
@@ -47,7 +47,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l031` | Barimeqi, u, eita. *Soarem eſtas couſas.* |  |
 | `c1-l032` | Barin. *Hũa erua que tem a folha como eſpada* |  |
 | `c1-l033` | &emsp;*na pequena. ¶ Item, Eſcouinha feita da* |  |
-| `c1-l034` | &emsp;*raiz deſta erua com que eſfregão à panella do* |  |
+| `c1-l034` | &emsp;*raiz deſta erua com que esfregão à panella do* |  |
 | `c1-l035` | &emsp;Chanoyu*, &c.* |  |
 | `c1-l036` | Baro. Vmamichi. *Caminho dos caualos.* |  |
 | `c1-l037` | Baſarana. *Açodado, ou deſmanchado em ſu-* |  |

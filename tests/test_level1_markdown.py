@@ -115,6 +115,14 @@ class Level1MarkdownTests(unittest.TestCase):
         self.assertIn("Iaponi-*", source)
         self.assertNotIn("Iaponi=", source)
 
+    def test_short_s_precedes_f_through_human_reviewed_f100_scope(self):
+        sources = "".join(
+            (SOURCE / f"bnf-f{leaf:04d}.md").read_text(encoding="utf-8")
+            for leaf in range(13, 101)
+        )
+        self.assertNotIn("ſf", sources)
+        self.assertGreaterEqual(sources.count("sf"), 32)
+
     def test_strengthened_f14_review_is_retained(self):
         source = (SOURCE / "bnf-f0014.md").read_text(encoding="utf-8")
         self.assertIn("status: human_checked", source)

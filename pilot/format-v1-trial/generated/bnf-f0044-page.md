@@ -15,7 +15,7 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c1-l001` | &emsp;*reſtea do ſol. ¶* Axi teuo caiſamani na |  |
-| `c1-l002` | &emsp;ſu. *Prou. Deſfazer ſe por agazalhar, &* |  |
+| `c1-l002` | &emsp;ſu. *Prou. Desfazer ſe por agazalhar, &* |  |
 | `c1-l003` | &emsp;*animar alguem.* |  |
 | `c1-l004` | Axiai, ǒ. *Ir a poz a caça.* |  |
 | `c1-l005` | Axiato. *Pegada, ou raſto. ¶* Axiatouo |  |

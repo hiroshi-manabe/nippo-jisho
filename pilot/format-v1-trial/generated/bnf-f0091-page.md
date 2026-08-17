@@ -96,7 +96,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l016` | Caramomo. *Certo genero de pecegos.* |  |
 | `c2-l017` | Caramono. *Couſa da China.* |  |
 | `c2-l018` | Caramuxiro. *Eſteira da China.* |  |
-| `c2-l019` | Caranaxi. *Certa laya de peras deſfeição de ca-* |  |
+| `c2-l019` | Caranaxi. *Certa laya de peras desfeição de ca-* |  |
 | `c2-l020` | &emsp;*baçinhas. ¶ Item, Ameſma pereira.* |  |
 | `c2-l021` | Caraneco. *Certa caſta de gatos.* |  |
 | `c2-l022` | Caranixiqi. *Certa laya de peças da China.* |  |

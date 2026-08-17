@@ -82,7 +82,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l001` | Budǒ. Yehi cazzura. *Vnus, ou parra de vuas.* |  |
 | `c2-l002` | Budǒxu. *Vinho de vuas.* |  |
 | `c2-l003` | Bufen. *Arte militar, milicia. ¶ Item,* |  |
-| `c2-l004` | &emsp;*Valentia, & eſforço de animo na guerra.* |  |
+| `c2-l004` | &emsp;*Valentia, & esforço de animo na guerra.* |  |
 | `c2-l005` | Bufenxa. *Bom ſoldado, ou valente, caualeiro.* |  |
 | `c2-l006` | Bufiǒ. Cachidachino muxa. *Pião peça do* |  |
 | `c2-l007` | &emsp;*enxadrez. ¶ Item,* Bunnaru. *Homem* |  |

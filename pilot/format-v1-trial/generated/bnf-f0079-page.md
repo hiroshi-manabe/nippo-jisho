@@ -84,7 +84,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l003` | &emsp;je. *Redemoinho de vento.* |  |
 | `c2-l004` | Cajin. Vtabito. i. Vtayomi. *Poeta.* |  |
 | `c2-l005` | Cajiqe, uru, eta. *Empejorar, enfraqueçer, ou* |  |
-| `c2-l006` | &emsp;*eſtar magro, & deſfeito. ¶ Item, Per met.* |  |
+| `c2-l006` | &emsp;*eſtar magro, & desfeito. ¶ Item, Per met.* |  |
 | `c2-l007` | &emsp;*ſe dira de hum homem pobre, & ſem fato.* |  |
 | `c2-l008` | &emsp;*¶* Cajiqebito, l, cajiqeta fito. *Homẽ* |  |
 | `c2-l009` | &emsp;*pobre, & neceſſitado.* |  |

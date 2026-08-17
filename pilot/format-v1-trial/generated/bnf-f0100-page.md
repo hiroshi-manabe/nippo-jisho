@@ -49,7 +49,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l033` | Caxet. Yoqixet. *Dia feſtiual. ¶ Item,* |  |
 | `c1-l034` | &emsp;*Bom tempo.* |  |
 | `c1-l035` | Caxe. Vt, Caxeta fito. *Homem magro,* |  |
-| `c1-l036` | &emsp;*& deſfeito. ¶ Item, Permet. Pobre, &* |  |
+| `c1-l036` | &emsp;*& desfeito. ¶ Item, Permet. Pobre, &* |  |
 | `c1-l037` | &emsp;*ſem fato. Vſaſe tambem no gerundio* Ca- |  |
 | `c1-l038` | &emsp;xete. *Eſtando magro, &c.* |  |
 | `c1-l039` | Caxi, ſu, aita. *Empreſtar. ¶ Item, A* |  |
@@ -94,7 +94,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l020` | Caxinomi. *Bolotas, ou landeas que trauão.* |  |
 | `c2-l021` | Caxinogi. *Aruore que dá eſta fruita do mato* |  |
 | `c2-l022` | &emsp;*que he como carualho.* |  |
-| `c2-l023` | Caxiqe, uru, eta. *Ser magro, deſfeito, ou* |  |
+| `c2-l023` | Caxiqe, uru, eta. *Ser magro, desfeito, ou* |  |
 | `c2-l024` | &emsp;*eſteril. ¶* Fanamo vazzucani, codachi |  |
 | `c2-l025` | &emsp;mo caxige tatçu. *Fox. Lib. 1. As fo-* |  |
 | `c2-l026` | &emsp;*lhas nacião ja pequenas, & os ramos fracos, &* |  |

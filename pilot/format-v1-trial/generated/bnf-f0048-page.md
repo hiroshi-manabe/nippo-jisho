@@ -43,7 +43,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l027` | &emsp;*gem o tamboril.* |  |
 | `c1-l028` | Bacu. Mugui. *Trigo, & ceuada.* |  |
 | `c1-l029` | Bacu, l, macu. *Hum animal, o qual pintão* |  |
-| `c1-l030` | &emsp;*os gentios à cabeceira pera lhe deſfazer os* |  |
+| `c1-l030` | &emsp;*os gentios à cabeceira pera lhe desfazer os* |  |
 | `c1-l031` | &emsp;*ruins ſonhos.* |  |
 | `c1-l032` | Bacubeǒ. Miguinonaye. *Trigo, ou ce-* |  |
 | `c1-l033` | &emsp;*uada ainda em erua tenrra.* |  |

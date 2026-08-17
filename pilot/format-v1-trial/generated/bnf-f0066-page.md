@@ -25,7 +25,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l009` | Buriocujin. *Pobre.* |  |
 | `c1-l010` | Buriocuna. *Idem.* |  |
 | `c1-l011` | Buriocuni. *Adu.* |  |
-| `c1-l012` | Buriqi. Buxinochicara. *Forças, ou eſforço* |  |
+| `c1-l012` | Buriqi. Buxinochicara. *Forças, ou esforço* |  |
 | `c1-l013` | &emsp;*de ſoldado.* |  |
 | `c1-l014` | Burui. Iuburu taguy. i. ichizocu. *Fami-* |  |
 | `c1-l015` | &emsp;*lia, ou gente da meſma caſa.* |  |

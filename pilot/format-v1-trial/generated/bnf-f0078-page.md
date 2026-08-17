@@ -51,7 +51,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l035` | &emsp;*flor. P.* |  |
 | `c1-l036` | Cairacu. Firaqi votçuru. *Abrirſe, & cair.* |  |
 | `c1-l037` | &emsp;Fanaga cairacu ſuru. *Abrirem as roſas,* |  |
-| `c1-l038` | &emsp;*ou flores, & cairem deſfolhandoſe.* |  |
+| `c1-l038` | &emsp;*ou flores, & cairem desfolhandoſe.* |  |
 | `c1-l039` | Cairagui. *Hum certo peixe como lixa cuja pel-* |  |
 | `c1-l040` | &emsp;*le ſerue pera cubrir, & ornar os punhos da* Ca |  |
 | `c1-l041` | &emsp;tana. *¶* Cairaguizzuca. *Punhos da* Ca |  |
