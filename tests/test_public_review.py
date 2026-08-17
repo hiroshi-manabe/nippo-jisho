@@ -952,6 +952,8 @@ class PublicReviewRegressionTests(unittest.TestCase):
         geometry_page = next(page for page in geometry["pages"] if page["id"] == "bnf-f0044")
         geometry_lines = geometry_page["columns"]["column-2"]["lines"]
         self.assertNotIn("c2-l039", geometry_lines)
+        self.assertEqual(geometry_lines["c2-l017"]["centre_y"], 1461)
+        self.assertEqual(geometry_lines["c2-l032"]["centre_y"], 2386)
         self.assertEqual(geometry_lines["c2-l037"]["centre_y"], 2689)
         self.assertEqual(geometry_lines["c2-l038"]["centre_y"], 2758)
         self.assertEqual(geometry_lines["c2-l040"]["centre_y"], 2821)
