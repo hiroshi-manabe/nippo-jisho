@@ -847,19 +847,24 @@ class PublicReviewRegressionTests(unittest.TestCase):
         self.assertTrue(any(run["typeface"] == "roman" and "Tatami" in run["text"] for run in lines["c2-l008"]))
         self.assertNotIn("*", "".join(plain.values()))
 
-    def test_f43_issue_32_history_typeface_and_tilde_shorthand(self):
+    def test_f43_issue_history_typeface_tilde_and_terminal_marks(self):
         history = json.loads(
             (ROOT / "pilot" / "human-review" / "correction-history.json").read_text(
                 encoding="utf-8"
             )
         )
         page = next(page for page in history["pages"] if page["id"] == "bnf-f0043")
-        self.assertEqual(page["issues_applied"], 1)
-        self.assertEqual(page["distinct_lines"], 23)
-        self.assertEqual(page["accepted_edits"], 23)
+        self.assertEqual(page["issues_applied"], 2)
+        self.assertEqual(page["distinct_lines"], 27)
+        self.assertEqual(page["accepted_edits"], 27)
         self.assertEqual(page["issues"][0]["number"], 32)
         self.assertIn("c1-l004", page["issues"][0]["lines"])
         self.assertIn("c2b-l025", page["issues"][0]["lines"])
+        self.assertEqual(page["issues"][1]["number"], 37)
+        self.assertEqual(
+            page["issues"][1]["lines"],
+            ["c1-l034", "c1-l037", "c2b-l021", "c2b-l024"],
+        )
 
         record = json.loads(
             (ROOT / "pilot" / "format-v1-trial" / "level1" / "bnf-f0043.json").read_text(
@@ -884,6 +889,10 @@ class PublicReviewRegressionTests(unittest.TestCase):
         self.assertTrue(any(run["typeface"] == "roman" and "Cami" in run["text"] for run in lines["c1-l033"]))
         self.assertEqual(plain["c2b-l003"], "xe mizzuni naru. Banharſe em ſuor.")
         self.assertTrue(plain["c2b-l025"].endswith("não pode bu"))
+        self.assertTrue(plain["c1-l034"].endswith("Idem"))
+        self.assertTrue(plain["c1-l037"].endswith("ceo"))
+        self.assertTrue(plain["c2b-l021"].endswith("na"))
+        self.assertTrue(plain["c2b-l024"].endswith("totalmẽ"))
         self.assertNotIn("*", "".join(plain.values()))
 
     def test_f29_issue_17_correction_history(self):

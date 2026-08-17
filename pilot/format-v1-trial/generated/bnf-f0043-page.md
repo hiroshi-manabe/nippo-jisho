@@ -47,10 +47,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l031` | Auona. *Folhas verdes de nabo, ou nabiças.* |  |
 | `c1-l032` | Auoniqide. i. Fei. *Certos papeis cortados como* |  |
 | `c1-l033` | &emsp;*abanos cõ q̃ abanão diãte dos* Cami*s de Iapão.* |  |
-| `c1-l034` | Auoniqide, xitaniqide. *Idem.* |  |
+| `c1-l034` | Auoniqide, xitaniqide. *Idem* |  |
 | `c1-l035` | Auonoqe, uru, eta. *Pòr de coſtas a outro,* |  |
 | `c1-l036` | &emsp;*ou com o roſto pera çima.* |  |
-| `c1-l037` | Auonoqi, u, oita. *Eſtar cõ o roſto pera o ceo,* |  |
+| `c1-l037` | Auonoqi, u, oita. *Eſtar cõ o roſto pera o ceo* |  |
 | `c1-l038` | &emsp;*ou de coſtas, ou virado pera çima.* |  |
 | `c1-l039` | Auonori. *Hũa laya de limos do mar verdes q̃* |  |
 | `c1-l040` | &emsp;*ſe comem.* |  |
@@ -130,10 +130,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2b-l018` | &emsp;ni naru coto. *Couſa que impede, ou eſtor-* |  |
 | `c2b-l019` | &emsp;*ua, como impecillo dos pes. ¶* Axini ma- |  |
 | `c2b-l020` | &emsp;caxete yuqu. *Ir por onde o leuão os pes ſem* |  |
-| `c2b-l021` | &emsp;*ſaber a onde. ¶* Axiaxini miyuru, l, na- |  |
+| `c2b-l021` | &emsp;*ſaber a onde. ¶* Axiaxini miyuru, l, na |  |
 | `c2b-l022` | &emsp;ru. *Porſe em ſeição de ſe acolher, ou fugir.* |  |
 | `c2b-l023` | &emsp;*¶* Xiri axiuo fumu. *Recuar. ¶* Axi |  |
-| `c2b-l024` | &emsp;coxiga tatanu. *Prou. Não poder totalmẽ-* |  |
+| `c2b-l024` | &emsp;coxiga tatanu. *Prou. Não poder totalmẽ* |  |
 | `c2b-l025` | &emsp;*te fazer algũa couſa,como quem ſe não pode bu* |  |
 | `c2b-l026` | &emsp;*lir, nem menear. ¶* Fiaxi. *Rayo, ou* |  |
 
