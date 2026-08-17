@@ -12,6 +12,14 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class PublicReviewRegressionTests(unittest.TestCase):
+    def test_external_ai_assignment_stays_concise_and_links_references(self):
+        work = ROOT / "pilot" / "human-review" / "ai-geometry-work"
+        readme = (work / "README.md").read_text(encoding="utf-8")
+        self.assertLessEqual(len(readme.splitlines()), 60)
+        for name in ("FORMAT.md", "GEOMETRY-GUIDE.md", "IMPORT-LOG.md"):
+            self.assertTrue((work / name).is_file())
+            self.assertIn(f"]({name})", readme)
+
     def test_tilde_audit_covers_only_unreviewed_two_vowel_pairs(self):
         with tempfile.TemporaryDirectory() as directory:
             subprocess.run(
