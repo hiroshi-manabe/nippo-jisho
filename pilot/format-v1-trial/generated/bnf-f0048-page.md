@@ -35,7 +35,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l019` | &emsp;*quando batem, &c.* |  |
 | `c1-l020` | Bachimecaxi, ſu, aita. *Fazer eſtalar no* |  |
 | `c1-l021` | &emsp;*fogo canas, ou folhas, ou fazer ſoar mal o* |  |
-| `c1-l022` | &emsp;*ſabor, ou outra couſa.* |  |
+| `c1-l022` | &emsp;*tãbor, ou outra couſa.* |  |
 | `c1-l023` | Bachimeqi, u, eita. *Eſtalar no fogo como* |  |
 | `c1-l024` | &emsp;*canas, & folhas, ou ſoar mal o tãbor, &c.* |  |
 | `c1-l025` | Bachiuoto. *Som que faz o pentem comque ſe* |  |
@@ -59,7 +59,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l043` | Bacufei. *Bolos de farinha de trigo, ou ceuada.* |  |
 | `c1-l044` | Bacufun. Comugui, l, Vǒmuguinoco. *Fa-* |  |
 | `c1-l045` | &emsp;*rinha de trigo, ou ceuada.* |  |
-| `c1-l046` | Bacugue. i. Vómuguino moyaxi. *Fazer* |  |
+| `c1-l046` | Bacugue. i. Vǒmuguino moyaxi. *Fazer* |  |
 | `c1-l047` | &emsp;*que naça otrigo, ou brote pera mezinha.* |  |
 
 ## Column 2 running header
@@ -77,8 +77,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l003` | Bacugi. *Terra de ſemear trigo, ou ceuada.* |  |
 | `c2-l004` | Bacuji. Facaxe. *Feitiçeiro.* |  |
 | `c2-l005` | Bacumondô. *Hũa erua medicinal.* |  |
-| `c2-l006` | Bacurǒ. *Corretor de caualos, ou o que trata em* |  |
-| `c2-l007` | &emsp;*comprar, ou vender caualos. ¶* Bacurǒ |  |
+| `c2-l006` | Bacurǒ. *Corretor de caualos, ou o que trata en* |  |
+| `c2-l007` | &emsp;*comprar, ou uender caualos. ¶* Bacurǒ |  |
 | `c2-l008` | &emsp;ſuru. *Tratar em caualos deſta maneira.* |  |
 | `c2-l009` | Bacuſacu. *Lauoura, ou ſementeira de trigo, ou* |  |
 | `c2-l010` | &emsp;*ceuada.* |  |
@@ -108,7 +108,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l034` | &emsp;*& manifeſtamente.* |  |
 | `c2-l035` | Bafi. Vmano caua. *Pelle de caualo.* |  |
 | `c2-l036` | Bafun. Vmano fun. *Eſterco do caualo.* |  |
-| `c2-l037` | Baguiǒ. Vmano catachi. *Feiçaõ, ou poſtu* |  |
+| `c2-l037` | Baguiǒ. Vmano catachi. *Feiçaõ, ou poſtu-* |  |
 | `c2-l038` | &emsp;*ra do caualo. ¶* Baguiǒ no yoi vma. |  |
 | `c2-l039` | &emsp;*Caualo bem poſto, & de boas feiçoẽs.* |  |
 | `c2-l040` | Baguiû. Vma Vxi. *Caualo, & vaca, ou boy.* |  |
