@@ -42,6 +42,13 @@ ST_CROP_OVERRIDES = {
     ("f32", "c1-l006", 23): [1050, 690, 380, 150],
     ("f32", "c1-l029", 18): [700, 2125, 380, 150],
     ("f32", "c1-l044", 25): [1050, 3066, 380, 150],
+    # Later words on these unusually spaced lines fall to the right of the
+    # generic transcription-width estimate. Each override was checked against
+    # the native scan and centres the actual ſt sort in the specialist tile.
+    ("f34", "c2-l008", 21): [2050, 828, 380, 148],
+    ("f37", "c2-l037", 30): [1970, 2652, 380, 123],
+    ("f38", "c1-l013", 35): [1125, 1155, 380, 121],
+    ("f38", "c2b-l008", 21): [1950, 1654, 380, 122],
 }
 
 

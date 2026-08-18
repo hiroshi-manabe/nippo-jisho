@@ -138,6 +138,26 @@ class PublicReviewRegressionTests(unittest.TestCase):
             }
             self.assertEqual(len(keys), len(candidates))
             self.assertFalse(any("prechecked" in item for _, item in candidates))
+            candidate_lookup = {
+                (page, candidate["line"], candidate["occurrence"]): candidate
+                for page, candidate in candidates
+            }
+            self.assertEqual(
+                candidate_lookup[("f34", "c2-l008", 1)]["crop"],
+                [2050, 828, 380, 148],
+            )
+            self.assertEqual(
+                candidate_lookup[("f37", "c2-l037", 1)]["crop"],
+                [1970, 2652, 380, 123],
+            )
+            self.assertEqual(
+                candidate_lookup[("f38", "c1-l013", 1)]["crop"],
+                [1125, 1155, 380, 121],
+            )
+            self.assertEqual(
+                candidate_lookup[("f38", "c2b-l008", 1)]["crop"],
+                [1950, 1654, 380, 122],
+            )
             for asset in ("st-audit.html", "st-audit.js", "st-audit.css"):
                 self.assertTrue((output / asset).is_file())
 
