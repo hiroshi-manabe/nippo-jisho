@@ -65,21 +65,14 @@ function updateCounts() {
 }
 
 function payload() {
-  const replacements = [];
+  const retain = [];
   for (const page of state.data.pages) {
     for (const candidate of page.candidates) {
-      if (state.selected.has(candidateKey(page, candidate))) continue;
-      replacements.push({
-        page: page.view,
-        line: candidate.line,
-        occurrence: candidate.occurrence,
-        before: candidate.before,
-        after: candidate.after,
-        base_line_version: candidate.base_line_version,
-      });
+      const key = candidateKey(page, candidate);
+      if (state.selected.has(key)) retain.push(key);
     }
   }
-  return JSON.stringify({schema: 1, task: state.data.task, scope: state.data.scope, base_commit: state.data.base_commit, replacements}, null, 2);
+  return JSON.stringify({schema: 2, task: state.data.task, scope: state.data.scope, base_commit: state.data.base_commit, candidate_count: state.total, unchecked: 'provisional-st', retain});
 }
 
 function drawCandidates(page, image) {

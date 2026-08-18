@@ -185,11 +185,14 @@ class PublicReviewRegressionTests(unittest.TestCase):
         self.assertIn("event.key === 'ArrowDown'", script)
         self.assertIn("event.key === 'ArrowUp'", script)
         self.assertIn("event.code === 'Space'", script)
-        self.assertIn("if (state.selected.has(candidateKey(page, candidate))) continue", script)
+        self.assertIn("if (state.selected.has(key)) retain.push(key)", script)
         self.assertIn("candidate.occurrence", script)
         self.assertIn("state.selected.clear()", script)
         self.assertIn("function highlightedLine(candidate)", script)
         self.assertIn("<mark>", script)
+        self.assertIn("schema: 2", script)
+        self.assertIn("unchecked: 'provisional-st'", script)
+        self.assertNotIn("const replacements = []", script)
 
     def test_tilde_audit_keeps_short_continuations_and_diacritics_visible(self):
         with tempfile.TemporaryDirectory() as directory:
