@@ -37,9 +37,14 @@ function copyText(value) {
 function restoreSelection() {
   const versions = candidateVersions();
   try {
-    const saved = JSON.parse(localStorage.getItem(storageKey()));
-    const selections = saved?.schema === 2 ? saved.selections : {};
-    state.selected = new Set(Object.entries(selections).filter(([key, version]) => versions.get(key) === version).map(([key]) => key));
+    const raw = localStorage.getItem(storageKey());
+    const saved = raw ? JSON.parse(raw) : null;
+    if (saved?.schema === 2) {
+      const selections = saved.selections || {};
+      state.selected = new Set(Object.entries(selections).filter(([key, version]) => versions.get(key) === version).map(([key]) => key));
+    } else {
+      state.selected = new Set(state.data.pages.flatMap(page => page.candidates.filter(candidate => candidate.prechecked).map(candidate => candidateKey(page, candidate))));
+    }
   } catch (_) {
     state.selected = new Set();
   }
@@ -156,7 +161,7 @@ function render() {
   state.total = state.data.pages.reduce((sum, page) => sum + page.candidates.length, 0);
   $('#audit-scope').textContent = state.data.scope.replace('-', '–');
   $('#candidate-count').textContent = state.total;
-  $('#confirmed-count').textContent = state.data.confirmed_long_s;
+  $('#confirmed-count').textContent = state.data.prechecked_count;
   if (!state.total) {
     $('#audit-list').innerHTML = '<p class="completion"><strong>This audit is complete.</strong> All remaining ſt occurrences in this scope have been confirmed as genuine long-s forms.</p>';
     state.candidates = [];
@@ -219,6 +224,14 @@ document.addEventListener('click', event => {
 $('#copy-json').addEventListener('click', async () => {
   if (await copyText(payload())) toast('JSON copied.');
   else prompt('Copy this JSON:', payload());
+});
+
+$('#clear-checks').addEventListener('click', () => {
+  state.selected.clear();
+  document.querySelectorAll('input[data-key]').forEach(checkbox => { checkbox.checked = false; });
+  saveSelection();
+  updateCounts();
+  toast('All initial checks cleared.');
 });
 
 $('#open-issue').addEventListener('click', () => {

@@ -103,7 +103,7 @@ class PublicReviewRegressionTests(unittest.TestCase):
         self.assertIn("saved?.schema === 2", script)
         self.assertIn("candidate.occurrence", script)
 
-    def test_st_audit_excludes_confirmed_long_s_occurrences(self):
+    def test_st_audit_uses_versioned_prechecks_for_next_scope(self):
         with tempfile.TemporaryDirectory() as directory:
             subprocess.run(
                 [
@@ -120,21 +120,24 @@ class PublicReviewRegressionTests(unittest.TestCase):
             output = Path(directory)
             audit = json.loads((output / "st-audit.json").read_text(encoding="utf-8"))
             self.assertEqual(audit["task"], "st-ligature-audit")
-            self.assertEqual(audit["scope"], "f13-f22")
-            self.assertEqual([page["leaf"] for page in audit["pages"]], list(range(13, 23)))
-            self.assertEqual(audit["confirmed_long_s"], 28)
+            self.assertEqual(audit["scope"], "f23-f32")
+            self.assertEqual([page["leaf"] for page in audit["pages"]], list(range(23, 33)))
+            self.assertEqual(audit["confirmed_long_s"], 0)
             self.assertEqual(audit["stale_confirmations"], 0)
+            self.assertEqual(audit["prechecked_count"], 28)
+            self.assertEqual(audit["stale_prechecks"], 0)
             candidates = [
                 (page["view"], candidate)
                 for page in audit["pages"]
                 for candidate in page["candidates"]
             ]
-            self.assertEqual(len(candidates), 0)
+            self.assertEqual(len(candidates), 111)
             keys = {
                 f"{page}/{candidate['line']}#{candidate['occurrence']}"
                 for page, candidate in candidates
             }
             self.assertEqual(len(keys), len(candidates))
+            self.assertEqual(sum(item["prechecked"] for _, item in candidates), 28)
             for asset in ("st-audit.html", "st-audit.js", "st-audit.css"):
                 self.assertTrue((output / asset).is_file())
 
@@ -146,6 +149,8 @@ class PublicReviewRegressionTests(unittest.TestCase):
                 "f18\tc2a-l005\t1\tsha256:67f38efb7a1999bd41fedfab271330000b5ef280906157e51f952dc940e1a97f\tconfirmed_long_s_t\t45\tfull_scan_manual_check",
                 ledger,
             )
+            prechecks = (ROOT / "pilot" / "st-ligature-prechecks-f23-f32.tsv").read_text(encoding="utf-8")
+            self.assertEqual(len(prechecks.splitlines()), 29)
 
     def test_st_audit_has_grid_keyboard_controls_and_inverted_default(self):
         script = (ROOT / "site" / "st-audit.js").read_text(encoding="utf-8")
@@ -156,6 +161,7 @@ class PublicReviewRegressionTests(unittest.TestCase):
         self.assertIn("event.code === 'Space'", script)
         self.assertIn("if (state.selected.has(candidateKey(page, candidate))) continue", script)
         self.assertIn("candidate.occurrence", script)
+        self.assertIn("state.selected.clear()", script)
 
     def test_tilde_audit_keeps_short_continuations_and_diacritics_visible(self):
         with tempfile.TemporaryDirectory() as directory:

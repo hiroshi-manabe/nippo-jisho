@@ -26,12 +26,22 @@ HYPHEN_AUDIT_SCOPE = "f44-f100"
 TILDE_AUDIT_LEAVES = range(39, 101)
 TILDE_AUDIT_SCOPE = "f39-f100"
 TILDE_AUDIT_STATUS = "batch_review_unverified"
-ST_AUDIT_LEAVES = range(13, 23)
-ST_AUDIT_SCOPE = "f13-f22"
+ST_AUDIT_LEAVES = range(23, 33)
+ST_AUDIT_SCOPE = "f23-f32"
 ST_CROP_OVERRIDES = {
     # This short entry fills substantially more of the measure than its
     # character count predicts; retain the independently checked Eſtrella.
     ("f18", "c2a-l005", 20): [2050, 622, 380, 148],
+    # Short and mixed-layout lines need occurrence-specific horizontal
+    # placement; proportional text-width estimates hide the target sort.
+    ("f31", "c1-l043", 32): [790, 2977, 380, 128],
+    ("f31", "c2a-l001", 26): [1780, 383, 380, 124],
+    ("f31", "c2a-l012", 19): [1660, 1069, 380, 123],
+    ("f31", "c2a-l019", 23): [1660, 1507, 380, 124],
+    ("f31", "c2q-l004", 13): [1450, 2439, 380, 127],
+    ("f32", "c1-l006", 23): [1050, 690, 380, 150],
+    ("f32", "c1-l029", 18): [700, 2125, 380, 150],
+    ("f32", "c1-l044", 25): [1050, 3066, 380, 150],
 }
 
 
@@ -371,7 +381,7 @@ def occurrence_crop(page: dict, line: dict, start: int, end: int) -> list[int]:
 
 
 def st_audit_payload(
-    pages: list[dict], commit: str, repository: str, ledger: Path
+    pages: list[dict], commit: str, repository: str, ledger: Path, prechecks: Path
 ) -> dict:
     confirmed = {}
     with ledger.open(encoding="utf-8", newline="") as handle:
@@ -380,9 +390,16 @@ def st_audit_payload(
                 continue
             key = (row["page"], row["line"], int(row["occurrence"]))
             confirmed[key] = row["base_line_version"]
+    predicted = {}
+    with prechecks.open(encoding="utf-8", newline="") as handle:
+        for row in csv.DictReader(handle, delimiter="\t"):
+            key = (row["page"], row["line"], int(row["occurrence"]))
+            predicted[key] = row
     audit_pages = []
     confirmed_count = 0
     stale_confirmations = 0
+    prechecked_count = 0
+    stale_prechecks = 0
     for page in pages:
         if page["leaf"] not in ST_AUDIT_LEAVES or not page["processed"]:
             continue
@@ -402,6 +419,16 @@ def st_audit_payload(
                         continue
                     if confirmation is not None:
                         stale_confirmations += 1
+                    prediction = predicted.get((page["view"], line["id"], occurrence))
+                    prechecked = bool(
+                        prediction
+                        and prediction["base_line_version"]
+                        == line["transcription_version"]
+                    )
+                    if prechecked:
+                        prechecked_count += 1
+                    elif prediction:
+                        stale_prechecks += 1
                     candidates.append(
                         {
                             "line": line["id"],
@@ -412,6 +439,10 @@ def st_audit_payload(
                             "token_start": match.start(),
                             "token_end": match.end(),
                             "base_line_version": line["transcription_version"],
+                            "prechecked": prechecked,
+                            "precheck_basis": (
+                                prediction["decision_basis"] if prechecked else None
+                            ),
                             "crop": occurrence_crop(
                                 page, line, match.start(), match.end()
                             ),
@@ -439,6 +470,9 @@ def st_audit_payload(
         "checked_action": "retain-long-s-t",
         "confirmed_long_s": confirmed_count,
         "stale_confirmations": stale_confirmations,
+        "prechecked_count": prechecked_count,
+        "stale_prechecks": stale_prechecks,
+        "precheck_method": "labeled-control visual comparison",
         "pages": audit_pages,
     }
 
@@ -625,6 +659,7 @@ def main() -> int:
                 commit,
                 args.repository,
                 root / "pilot" / "st-ligature-audit.tsv",
+                root / "pilot" / "st-ligature-prechecks-f23-f32.tsv",
             ),
             ensure_ascii=False,
             separators=(",", ":"),
