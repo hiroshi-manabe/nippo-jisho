@@ -1194,6 +1194,40 @@ class PublicReviewRegressionTests(unittest.TestCase):
             any(run["typeface"] == "italic" and run["text"].strip() == "Saulo" for run in lines["c2-l022"])
         )
 
+    def test_f47_issue_41_partial_application(self):
+        history = json.loads(
+            (ROOT / "pilot" / "human-review" / "correction-history.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        page = next(page for page in history["pages"] if page["id"] == "bnf-f0047")
+        self.assertEqual(page["issues_applied"], 3)
+        self.assertEqual(page["distinct_lines"], 17)
+        self.assertEqual(page["accepted_edits"], 18)
+        self.assertEqual(page["issues"][-1]["number"], 41)
+        self.assertEqual(len(page["issues"][-1]["lines"]), 13)
+        self.assertNotIn("c2-l020", page["issues"][-1]["lines"])
+
+        record = json.loads(
+            (ROOT / "pilot" / "format-v1-trial" / "level1" / "bnf-f0047.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        plain = {
+            line["id"]: "".join(run["text"] for run in line["runs"])
+            for zone in record["zones"]
+            for line in zone.get("lines", [])
+        }
+        self.assertIn("Oq̃ toma", plain["c1a-l007"])
+        self.assertIn("metelas", plain["c1a-l012"])
+        self.assertIn("Azzuſayumi", plain["c1a-l029"])
+        self.assertTrue(plain["c1b-l009"].startswith("àde fazer"))
+        self.assertTrue(plain["c2-l013"].endswith("da carri"))
+        self.assertIn("Hom em que", plain["c2-l018"])
+        self.assertIn("descortez", plain["c2-l036"])
+        self.assertIn("Yafan bacarini", plain["c2-l042"])
+        self.assertIn("aiçoẽs", plain["c2-l020"])
+
 
 if __name__ == "__main__":
     unittest.main()
