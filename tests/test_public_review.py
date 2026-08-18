@@ -1283,6 +1283,18 @@ class PublicReviewRegressionTests(unittest.TestCase):
         self.assertEqual(line_39["crop"], [140, 2732, 1125, 98])
         self.assertGreaterEqual(line_40["centre_y"] - line_39["centre_y"], 50)
 
+    def test_f49_column_2_opening_crops_follow_distinct_lines(self):
+        geometry = json.loads(
+            (ROOT / "pilot" / "human-review" / "line-geometry.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        page = next(page for page in geometry["pages"] if page["id"] == "bnf-f0049")
+        lines = page["columns"]["column-2"]["lines"]
+        centres = [lines[f"c2-l{number:03d}"]["centre_y"] for number in range(1, 10)]
+        self.assertEqual(centres, [447, 509, 571, 633, 695, 757, 819, 881, 943])
+        self.assertTrue(all(right - left == 62 for left, right in zip(centres, centres[1:])))
+
 
 if __name__ == "__main__":
     unittest.main()
