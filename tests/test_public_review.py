@@ -1227,6 +1227,45 @@ class PublicReviewRegressionTests(unittest.TestCase):
         self.assertIn("Yafan bacarini", plain["c2-l042"])
         self.assertIn("acçoẽs", plain["c2-l020"])
 
+    def test_f48_issue_42_applies_only_scan_supported_corrections(self):
+        history = json.loads(
+            (ROOT / "pilot" / "human-review" / "correction-history.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        page = next(page for page in history["pages"] if page["id"] == "bnf-f0048")
+        self.assertEqual(page["issues_applied"], 2)
+        self.assertEqual(page["distinct_lines"], 34)
+        self.assertEqual(page["accepted_edits"], 38)
+        self.assertEqual(page["issues"][-1]["number"], 42)
+        self.assertEqual(len(page["issues"][-1]["lines"]), 28)
+
+        record = json.loads(
+            (ROOT / "pilot" / "format-v1-trial" / "level1" / "bnf-f0048.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        plain = {
+            line["id"]: "".join(run["text"] for run in line["runs"])
+            for zone in record["zones"]
+            for line in zone.get("lines", [])
+        }
+        self.assertIn("fodoyorimo", plain["c1-l005"])
+        self.assertIn("votonaxǔmiyuru", plain["c1-l006"])
+        self.assertEqual(plain["c1-l032"], "Bacubeô. Miguinonaye. Trigo, ou ce-")
+        self.assertIn("Vǒmuguinoco", plain["c1-l044"])
+        self.assertEqual(plain["c2-l027"], "Bafá. Ir a furtar fora de Iapão a China, ou a")
+        self.assertIn("Vricǒ", plain["c2-l042"])
+        self.assertIn("vẽder", plain["c2-l042"])
+        self.assertTrue(plain["c2-l042"].endswith("mer-"))
+        self.assertEqual(plain["c2-l046"], "Bai, o, ǒta. Tomar por força.")
+
+        # Proposals whose exact submitted reading is not supported remain unchanged.
+        self.assertIn("Baccani", plain["c1-l002"])
+        self.assertIn("ſabor", plain["c1-l022"])
+        self.assertIn("trata em", plain["c2-l006"])
+        self.assertTrue(plain["c2-l037"].endswith("poſtu"))
+
 
 if __name__ == "__main__":
     unittest.main()
