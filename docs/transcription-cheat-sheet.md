@@ -41,7 +41,7 @@ These are **reinspection prompts, not replacement rules**.
 | `ga, go, gu`; `gue, gui` | ordinary /g/-series spellings | An apparent `q` in an expected /g/ form is a classic enlargement case. |
 | `qua`, `gua` | historical labial glides | Contrast `cua`, which can represent /kua/ as two vowels. |
 | `qu` | may represent ordinary /ku/, including before an inflectional ending | `qua` is not the only valid `qu-` sequence. The scan-confirmed `Fucaqu aigiacu ſuru` also shows that a visibly anomalous `qu` must not be normalized to expected `cu`. Rare `que`/`qui` strings do not by themselves prove Japanese /kwe, kwi/. |
-| `x`, `tç`, `f` | often correspond broadly to modern *sh*, *ts*, and h-row sounds | Preserve the Jesuit spelling; use the modern form only to test plausibility. |
+| `x`, `tç`, `f` | often correspond broadly to modern *sh*, *ts*, and h-row sounds | Preserve the Jesuit spelling; use the modern form only to test plausibility. Thus scan-confirmed `Yafan` corresponds to 夜半 *yahan*, rather than representing an anomalous `r`/`f` substitution. |
 | `ji` / `gi`; `zu` / `zzu` | intended yotsugana distinctions | Contemporary sources also confuse them. Never regularize from etymology alone. |
 | initial or morpheme-initial `v`; internal `u` | often positional variants for Japanese /u, w/ | Thus `vgoqu` is plausible while particles appear in forms such as `uo`; preserve the actual letter and spacing. |
 | doubled letters or mixed clusters such as `cq` | may signal gemination | Jesuit spelling also preserves kana-influenced or exceptional forms. Inspect, do not automatically simplify. |
