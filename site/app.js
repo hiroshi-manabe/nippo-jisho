@@ -634,9 +634,33 @@ function useTranscriptionKey(form, key) {
   else replaceSelection(area, item.insert);
 }
 
+function saveEditor(form) {
+  const row = form.closest('.line-row');
+  const line = state.currentPage.zones.filter(item => item.kind === 'column').flatMap(item => item.lines).find(item => item.id === row.dataset.line);
+  const after = form.elements.transcription.value;
+  const comment = form.elements.comment.value.trim();
+  const proposal = parseRomanNotation(after);
+  if (!proposal.valid) {
+    toast(proposal.error);
+    form.elements.transcription.focus();
+    return false;
+  }
+  if (proposalMatchesLine(line, after) && !comment) delete pageEdits(state.currentPage)[line.id];
+  else pageEdits(state.currentPage)[line.id] = {before: line.text, after, comment, base_line_version: line.transcription_version};
+  persistEdits(state.currentPage);
+  return true;
+}
+
 function openEditor(row) {
-  if (row.querySelector('.edit-form')) return;
   const lineId = row.dataset.line;
+  const activeForm = document.querySelector('.edit-form');
+  if (activeForm) {
+    if (activeForm.closest('.line-row') === row) return;
+    if (!saveEditor(activeForm)) return;
+    renderPageContent();
+    row = [...document.querySelectorAll('.line-row')].find(candidate => candidate.dataset.line === lineId);
+    if (!row) return;
+  }
   const line = state.currentPage.zones.filter(item => item.kind === 'column').flatMap(item => item.lines).find(item => item.id === lineId);
   const edit = pageEdits(state.currentPage)[lineId];
   row.insertAdjacentHTML('beforeend', `<form class="edit-form"><div class="transcription-editor"><textarea name="transcription" aria-label="Revised transcription">${escapeHTML(edit?.after || line.text)}</textarea>${paletteHTML()}</div><textarea name="comment" aria-label="Comment" placeholder="Optional comment">${escapeHTML(edit?.comment || '')}</textarea><div class="edit-actions"><button type="button" data-action="cancel">Cancel</button>${edit ? '<button type="button" data-action="revert">Revert</button>' : ''}<button class="primary" type="submit">OK</button></div></form>`);
@@ -691,15 +715,7 @@ document.addEventListener('keydown', event => {
 document.addEventListener('submit', event => {
   const form = event.target.closest('.edit-form'); if (!form) return;
   event.preventDefault();
-  const row = form.closest('.line-row');
-  const line = state.currentPage.zones.filter(item => item.kind === 'column').flatMap(item => item.lines).find(item => item.id === row.dataset.line);
-  const after = form.elements.transcription.value;
-  const comment = form.elements.comment.value.trim();
-  const proposal = parseRomanNotation(after);
-  if (!proposal.valid) { toast(proposal.error); form.elements.transcription.focus(); return; }
-  if (proposalMatchesLine(line, after) && !comment) delete pageEdits(state.currentPage)[line.id];
-  else pageEdits(state.currentPage)[line.id] = {before: line.text, after, comment, base_line_version: line.transcription_version};
-  persistEdits(state.currentPage); renderPageContent();
+  if (saveEditor(form)) renderPageContent();
 });
 
 $('#home').addEventListener('click', () => showOverview());

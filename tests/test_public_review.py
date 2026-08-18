@@ -317,6 +317,17 @@ class PublicReviewRegressionTests(unittest.TestCase):
         self.assertIn("`[Fotoqe]`", workflow)
         self.assertIn("`[Fotoqe]`", issue_template)
 
+    def test_opening_another_line_saves_the_active_editor(self):
+        app = (ROOT / "site" / "app.js").read_text(encoding="utf-8")
+        workflow = (ROOT / "docs" / "human-review-workflow.md").read_text(
+            encoding="utf-8"
+        )
+        self.assertIn("function saveEditor(form)", app)
+        self.assertIn("const activeForm = document.querySelector('.edit-form')", app)
+        self.assertIn("if (!saveEditor(activeForm)) return", app)
+        self.assertIn("if (saveEditor(form)) renderPageContent()", app)
+        self.assertIn("Opening another line has the same save-and-collapse effect", workflow)
+
     def test_page_view_has_explicit_overview_control(self):
         app = (ROOT / "site" / "app.js").read_text(encoding="utf-8")
         document = (ROOT / "site" / "index.html").read_text(encoding="utf-8")

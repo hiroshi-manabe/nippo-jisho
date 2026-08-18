@@ -34,7 +34,7 @@ Unchanged rows remain compact. Clicking the transcription opens an editor contai
 - an optional comment;
 - **OK** and **Cancel** actions.
 
-**OK** confirms the local proposal and collapses the editor. **Cancel** discards changes made during that editing session. A changed row can be reopened, and a **Revert** action restores the repository text.
+**OK** confirms the local proposal and collapses the editor. Opening another line has the same save-and-collapse effect on the active editor before the new one opens, so moving through the page cannot silently discard typed text or comments. **Cancel** remains the explicit way to discard changes made during that editing session. A changed row can be reopened, and a **Revert** action restores the repository text.
 
 In compact form, a comment uses the horizontal space remaining to the right of the usually short transcription. A comment that does not fit is truncated with an ellipsis, with its complete text available on click or focus. On narrow screens it moves below the transcription. The comment should remain visually secondary to the source text.
 
