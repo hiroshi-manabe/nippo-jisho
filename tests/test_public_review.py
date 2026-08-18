@@ -618,7 +618,7 @@ class PublicReviewRegressionTests(unittest.TestCase):
         page = next(page for page in history["pages"] if page["id"] == "bnf-f0018")
         self.assertEqual(page["issues_applied"], 2)
         self.assertEqual(page["distinct_lines"], 18)
-        self.assertEqual(page["accepted_edits"], 18)
+        self.assertEqual(page["accepted_edits"], 19)
         self.assertEqual(page["issues"][0]["number"], 2)
         self.assertIn("c1-l019", page["issues"][0]["lines"])
         self.assertIn("c2a-l020", page["issues"][0]["lines"])
@@ -1306,7 +1306,7 @@ class PublicReviewRegressionTests(unittest.TestCase):
         self.assertEqual(page["distinct_lines"], 17)
         self.assertEqual(page["accepted_edits"], 18)
         self.assertEqual(page["issues"][-1]["number"], 43)
-        self.assertEqual(len(page["issues"][-1]["lines"]), 12)
+        self.assertEqual(len(page["issues"][-1]["lines"]), 13)
 
         record = json.loads(
             (ROOT / "pilot" / "format-v1-trial" / "level1" / "bnf-f0049.json").read_text(
@@ -1336,10 +1336,10 @@ class PublicReviewRegressionTests(unittest.TestCase):
             any(run["typeface"] == "italic" and run["text"].lstrip().startswith("i. Meo") for run in lines["c2-l006"])
         )
 
-        # The submitted Aſii reading is not accepted without human confirmation.
+        # The tight crop and human confirmation support the atypical printed Aſii.
         self.assertEqual(
             plain["c2-l012"],
-            "a dãçar pera aquietar a gẽte. Aſſi ſe hade enten",
+            "a dãçar pera aquietar agẽte. Aſii ſe hade entẽ",
         )
         self.assertIn("em lutas,", plain["c2-l014"])
 

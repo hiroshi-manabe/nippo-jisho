@@ -89,7 +89,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l009` | Banaraxi. *Começar a reprezentar algũa couſa* |  |
 | `c2-l010` | &emsp;*pera aquietar a gẽte antes da obra ſair no meſ-* |  |
 | `c2-l011` | &emsp;*mo lugar. ¶* Banaraxini vodoru. *Começar* |  |
-| `c2-l012` | &emsp;*a dãçar pera aquietar a gẽte. Aſſi ſe hade enten* |  |
+| `c2-l012` | &emsp;*a dãçar pera aquietar agẽte. Aſii ſe hade entẽ* |  |
 | `c2-l013` | &emsp;*der o* Banaraxi *deçima.* |  |
 | `c2-l014` | Banareta fito. *Homem exercitado em lutas,* |  |
 | `c2-l015` | &emsp;*ou em outra arte. ¶* Banarenu fito. *Ho* |  |
