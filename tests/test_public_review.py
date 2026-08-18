@@ -1306,6 +1306,62 @@ class PublicReviewRegressionTests(unittest.TestCase):
         self.assertEqual(centres, [447, 509, 571, 633, 695, 757, 819, 881, 943])
         self.assertTrue(all(right - left == 62 for left, right in zip(centres, centres[1:])))
 
+    def test_f50_column_1_late_crops_follow_the_printed_lines(self):
+        geometry = json.loads(
+            (ROOT / "pilot" / "human-review" / "line-geometry.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        page = next(page for page in geometry["pages"] if page["id"] == "bnf-f0050")
+        lines = page["columns"]["column-1"]["lines"]
+        centres = [lines[f"c1-l{number:03d}"]["centre_y"] for number in range(29, 48)]
+        self.assertEqual(
+            centres,
+            [
+                2207,
+                2269,
+                2329,
+                2408,
+                2473,
+                2538,
+                2600,
+                2663,
+                2726,
+                2789,
+                2855,
+                2918,
+                2981,
+                3045,
+                3098,
+                3163,
+                3220,
+                3285,
+                3346,
+            ],
+        )
+        self.assertTrue(
+            all(right - left >= 50 for left, right in zip(centres, centres[1:]))
+        )
+
+        reviewed = json.loads(
+            (
+                ROOT
+                / "pilot"
+                / "human-review"
+                / "ai-geometry-work"
+                / "bnf-f0050-reviewed.json"
+            ).read_text(encoding="utf-8")
+        )
+        reviewed_lines = {
+            line["id"]: line
+            for column in reviewed["columns"].values()
+            for line in column["lines"]
+        }
+        self.assertEqual(
+            [reviewed_lines[f"c1-l{number:03d}"]["centre_y"] for number in range(29, 48)],
+            centres,
+        )
+
     def test_f49_issue_43_applies_only_exact_scan_supported_changes(self):
         history = json.loads(
             (ROOT / "pilot" / "human-review" / "correction-history.json").read_text(
