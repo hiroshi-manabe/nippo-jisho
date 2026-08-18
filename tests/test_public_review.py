@@ -1382,6 +1382,52 @@ class PublicReviewRegressionTests(unittest.TestCase):
             column_2_centres,
         )
 
+    def test_f50_issue_44_applies_only_scan_supported_changes(self):
+        history = json.loads(
+            (ROOT / "pilot" / "human-review" / "correction-history.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        page = next(page for page in history["pages"] if page["id"] == "bnf-f0050")
+        self.assertEqual(page["issues_applied"], 3)
+        self.assertEqual(page["distinct_lines"], 17)
+        self.assertEqual(page["accepted_edits"], 18)
+        self.assertEqual(page["issues"][-1]["number"], 44)
+        self.assertEqual(len(page["issues"][-1]["lines"]), 14)
+
+        record = json.loads(
+            (ROOT / "pilot" / "format-v1-trial" / "level1" / "bnf-f0050.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        lines = {
+            line["id"]: "".join(run["text"] for run in line["runs"])
+            for zone in record["zones"]
+            for line in zone.get("lines", [])
+        }
+        self.assertEqual(lines["c1-l003"], "teiros, ou montes bajxos.")
+        self.assertEqual(lines["c1-l005"], "¶ vt, Bangauarini ſuru. Reuezarſe na-")
+        self.assertEqual(lines["c1-l006"], "vigia. ¶ Item, Bangauari. O queſe-")
+        self.assertIn("prinçipal", lines["c1-l008"])
+        self.assertIn("Xenxǒ bangue", lines["c1-l011"])
+        self.assertIn("Deſpois da noiteçer", lines["c1-l026"])
+        self.assertEqual(lines["c1-l038"], "ro que hà nos paſſos & entradas que ſe vi-")
+        self.assertEqual(lines["c2-l003"], "de China.")
+        self.assertIn("raiuo fumu", lines["c2-l013"])
+        self.assertIn("Moromorono vyeqi", lines["c2-l017"])
+        self.assertIn("Toda agente", lines["c2-l019"])
+        self.assertIn("Banqei i.", lines["c2-l031"])
+        self.assertIn("Xenqei banqiǒ", lines["c2-l038"])
+        self.assertTrue(lines["c2-l042"].endswith("¶ Xẽ"))
+
+        # Proposals with positive contrary evidence remain unchanged for human re-check.
+        self.assertIn("giuo", lines["c1-l018"])
+        self.assertEqual(lines["c1-l023"], "lau ras.")
+        self.assertEqual(lines["c1-l030"], "ficio.")
+        self.assertIn("ſi ſera", lines["c1-l044"])
+        self.assertIn("anoiteſ-", lines["c2-l005"])
+        self.assertIn("Cureno fi", lines["c2-l011"])
+
     def test_f49_issue_43_applies_only_exact_scan_supported_changes(self):
         history = json.loads(
             (ROOT / "pilot" / "human-review" / "correction-history.json").read_text(
