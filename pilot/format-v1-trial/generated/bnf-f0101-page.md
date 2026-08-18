@@ -18,20 +18,20 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l002` | Caxixi. Melius Canoxixi. *Veado.* |  |
 | `c1-l003` | Caxizzuqi, u, uita. *Fazer muito agaza-* |  |
 | `c1-l004` | &emsp;*lhado, ou ſeruir cõ reuerencia ao ſenhor, &c.* |  |
-| `c1-l005` | Caxo. Vtano cagimono. *Liuro de verſos,* |  |
+| `c1-l005` | Caxo. Vtano caqimono. *Liuro de verſos,* |  |
 | `c1-l006` | &emsp;*ou cantigas.* |  |
 | `c1-l007` | Caxô. Yeqi ſaiuai. *Couſa proſpera, & de* |  |
 | `c1-l008` | &emsp;*bom ſucceſſo.* |  |
 | `c1-l009` | Caxo. Natçuno ſajime. *Principio do ve-* |  |
 | `c1-l010` | &emsp;*rão, ou eſtio.* |  |
 | `c1-l011` | Caxô. Yeqi tamazzura. *Carta.* |  |
-| `c1-l012` | Caxocu. Maqruyuru. *O ſentear, & pleitar.* |  |
+| `c1-l012` | Caxocu. Maqiuyuru. *O ſemear, & plãtar.* |  |
 | `c1-l013` | Caxocu. Iyeno xocu. i. Iyeni tçutauaru |  |
 | `c1-l014` | &emsp;xocu. *Officio, ou arte de algũa caſa, ou fami-* |  |
 | `c1-l015` | &emsp;*lia que vem por dedução.* |  |
 | `c1-l016` | Caxu. *Plantas que tem a cabeça, ou raiz na* |  |
 | `c1-l017` | &emsp;*terra vide* jôxu. |  |
-| `c1-l018` | Caxucu. Fuſun naru coto. *Caſarſe.* Caxxucu |  |
+| `c1-l018` | Caxucu. Fuſuni naru coto. *Caſarſe.* Caxucu |  |
 | `c1-l019` | Caxxen. Auaxe tatacô. *Batalha.* |  |
 | `c1-l020` | Caxxi, ſu, ita. *Ter ſede.* |  |
 | `c1-l021` | Caxxicaxxito. Adu. *Modo de aſſentar os* |  |
@@ -47,7 +47,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l031` | Caya. *Hũa fruita como bolotas doces.* |  |
 | `c1-l032` | Caya. Natçuno yo. *Noites do verão, ou* |  |
 | `c1-l033` | &emsp;*eſtio.* |  |
-| `c1-l034` | Cayabugi. *O cubrir de palha as caſas, &c.* |  |
+| `c1-l034` | Cayabuqi. *O cubrir de palha as caſas, &c.* |  |
 | `c1-l035` | Cayacu. Cuſurino cuuayuru. *Mezinha que* |  |
 | `c1-l036` | &emsp;*ſe acrecenta fora do regimento ordinario pera* |  |
 | `c1-l037` | &emsp;*algum effeito.* |  |
@@ -90,7 +90,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l010` | &emsp;*do o tom tanger. Taiſ. Lib. 5. ¶* Mi- |  |
 | `c2-l011` | &emsp;ni cayete fitouo vorrô. *Amar a alguem* |  |
 | `c2-l012` | &emsp;*mais que aſi, ou arriſcando a vida por elle.* |  |
-| `c2-l013` | Caye, uru, eta. *Deſpejar Vt,* Mizzuuo |  |
+| `c2-l013` | Caye, uru, eta. *Deſpejar. Vt,* Mizzuuo |  |
 | `c2-l014` | &emsp;cayuru. *Deſpejar, ou tirar a agoa toda fo-* |  |
 | `c2-l015` | &emsp;*ra dalgum poço, ou de outra parte.* |  |
 | `c2-l016` | Cayen. Futuno yenuo muſubu coto. *Ca-* |  |

@@ -215,7 +215,6 @@ class PublicReviewRegressionTests(unittest.TestCase):
             "bnf-f0643",
         ]
         expected_flags = {
-            "bnf-f0103/c1b-l001",
             "bnf-f0149/c1b-l001",
             "bnf-f0153/c1b-l001",
             "bnf-f0155/c1b-l001",
@@ -434,7 +433,7 @@ class PublicReviewRegressionTests(unittest.TestCase):
         ]
         self.assertEqual(
             [page["id"] for page in pages],
-            [f"bnf-f{number:04d}" for number in range(31, 105)],
+            [f"bnf-f{number:04d}" for number in range(31, 106)],
         )
         for page in pages:
             for column in page["columns"].values():
@@ -462,8 +461,13 @@ class PublicReviewRegressionTests(unittest.TestCase):
 
         f105 = next(page for page in record["pages"] if page["id"] == "bnf-f0105")
         self.assertTrue(
-            all(not column.get("review_source") for column in f105["columns"].values())
+            all(
+                column.get("review_source", "").endswith("-reviewed-redone.json")
+                for column in f105["columns"].values()
+            )
         )
+        final_line = f105["columns"]["column-2"]["lines"]["c2-l047"]
+        self.assertGreaterEqual(final_line["crop"][1] + final_line["crop"][3], 3380)
 
     def test_f86_f100_external_review_text_and_f94_lineation(self):
         def plain_lines(page_id):

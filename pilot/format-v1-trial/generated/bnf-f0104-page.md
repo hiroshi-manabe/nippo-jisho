@@ -25,7 +25,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l009` | &emsp;*ordinariamente dizem* Chatate bôzu. |  |
 | `c1-l010` | Chatçu. *Certa eſcudela de pao de pouco fundo.* |  |
 | `c1-l011` | Chatçubo. *Bojão em que guardão o* Cha. |  |
-| `c1-l012` | Chato. Cha yu. Cha, *& agoa quente que po-* |  |
+| `c1-l012` | Chatǒ. Cha yu. Cha, *& agoa quente que po-* |  |
 | `c1-l013` | &emsp;*em em certo lugar, & offerecem aos mor-* |  |
 | `c1-l014` | &emsp;*tos diante de hũa tauoinha onde eſtá o nome do* |  |
 | `c1-l015` | &emsp;*defunto. ¶* Chatôuo aguru. *Offerecer* |  |
@@ -74,9 +74,9 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c2-l001` | &emsp;gatçuru. *Correr o ſangue. ¶* Chigato- |  |
 | `c2-l002` | &emsp;maru. *Eſtancar o ſangue. ¶* Chiuo |  |
-| `c2-l003` | &emsp;tomuru. *Fazer eſtacar o ſangue. ¶* Chi- |  |
+| `c2-l003` | &emsp;tomuru. *Fazer eſtãcar o ſãgue. ¶* Chi- |  |
 | `c2-l004` | &emsp;uo idaſu. *Tirar, ou botar ſangue, ou ſangrar.* |  |
-| `c2-l005` | &emsp;*Vt,* Vmano fuſono chiuo idaxi, l, toru. |  |
+| `c2-l005` | &emsp;*Vt,* Vmano fuſono chiuo idaſu, l, toru. |  |
 | `c2-l006` | &emsp;*Sangrar os caualos nos pees. ¶* Chiga cu- |  |
 | `c2-l007` | &emsp;ru. *Alterarſe o ſangue. ¶* Chiga ſaga- |  |
 | `c2-l008` | &emsp;ru. *Correr o ſangue pera baixo. ¶* Chi- |  |
@@ -91,7 +91,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l017` | &emsp;*ſeu ſinal, ou aſſinarſe com ſangue.* |  |
 | `c2-l018` | Chibana. *Certa erua que tem hum miolo bran-* |  |
 | `c2-l019` | &emsp;*co que comem os meninos.* |  |
-| `c2-l020` | Chibi, iritçu, uru, ita. *Danarſe, ou fazer* |  |
+| `c2-l020` | Chibi, iru, l, uru, ita. *Danarſe, ou fazer* |  |
 | `c2-l021` | &emsp;*ſe bota a ponta, ou corte da* catana, *faca,* |  |
 | `c2-l022` | &emsp;*&c. Propriamente ſe diz das penas que ſe* |  |
 | `c2-l023` | &emsp;*caſão, ou ſe lhe dana a ponta. ¶* Chibi- |  |
@@ -115,7 +115,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l041` | Chicacu. Xiri ſatoru. *Eſpeculação. Bup.* |  |
 | `c2-l042` | Chicagicato. Adu. *Perto. Vt,* Fitouo |  |
 | `c2-l043` | &emsp;chicagicato meſu. *Chamar a alguẽ perto.* |  |
-| `c2-l044` | Chicagicaxi. *Couſa propinqua, ou que ha* |  |
+| `c2-l044` | Chicagicaxij. *Couſa propinqua, ou que ha* |  |
 | `c2-l045` | &emsp;*pouco que paſſou.* |  |
 | `c2-l046` | Chicag.caxi. Aduer. |  |
 | `c2-l047` | Chicagero. Adu. *Muito, palaura de encare-* |  |

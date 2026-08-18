@@ -18,17 +18,17 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l002` | &emsp;ximini cayeſumaita. *Paſſando trabalhos* |  |
 | `c1-l003` | &emsp;*de pobreza cõuerteos bem nos deleites do ceo.* |  |
 | `c1-l004` | Cayeſute, tçuru. *Botar fora como agoa da* |  |
-| `c1-l005` | &emsp;*bomba. &c* Funeno acauo cumi ague- |  |
+| `c1-l005` | &emsp;*bomba. &c* Funeno acauo cumi ague |  |
 | `c1-l006` | &emsp;caye ſutçuru. *Monog. Dando à bom-* |  |
 | `c1-l007` | &emsp;*ba botauão fora toda a immundicia, & agoa* |  |
 | `c1-l008` | &emsp;*da* Fune. |  |
 | `c1-l009` | Cayette. Adu. *Pollo contrario, antes.* |  |
 | `c1-l010` | Cayexi. *Eſterco de paſſaros.* |  |
-| `c1-l011` | Cayexi, u, yeita. *Eſſer tornar. ¶ Iiẽ,* |  |
+| `c1-l011` | Cayexi, u, yeita. *Fazer tornar. ¶ Itẽ,* |  |
 | `c1-l012` | &emsp;*Tornar algũa couſa, ou reſtituila. ¶* Tauo |  |
 | `c1-l013` | &emsp;cayelu. *Cauar, ou laurar as varzeas.* |  |
 | `c1-l014` | Cayexiauaxe, uru, eta. *Voltar ſobre os inimi-* |  |
-| `c1-l015` | &emsp;*gos. Vt,* Teqini cayexiauaturu. |  |
+| `c1-l015` | &emsp;*gos. Vt,* Teqini cayexi auaturu. |  |
 | `c1-l016` | Cayexi momodachi. *O aleuantar os calções a* |  |
 | `c1-l017` | &emsp;*cima virando os hum pouco do aueſſo. Vt,* |  |
 | `c1-l018` | &emsp;F. camano cayexi momodachiuo tacaqu |  |
@@ -92,10 +92,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l018` | &emsp;*aleuantando bandeiras como nos nauios, &c.* |  |
 | `c2-l019` | Cazauori. *Quebra, ou dobra de hũas certas ca-* |  |
 | `c2-l020` | &emsp;*rapuças, ou caraminholas de q̃ vſão nos autos.* |  |
-| `c2-l021` | Cazauye. *Balravento. i. Parte donde vem,* |  |
+| `c2-l021` | Cazauye. *Balrauvento. i. Parte donde vem,* |  |
 | `c2-l022` | &emsp;*ou dá o vento. ¶* Cazauyeni noru. l, No- |  |
 | `c2-l023` | &emsp;riagaru. *Ir embarcado, ou poſto no nauio* |  |
-| `c2-l024` | &emsp;*da parte de balravento quando o vento he polla* |  |
+| `c2-l024` | &emsp;*da parte de balrauvento quando o vento he polla* |  |
 | `c2-l025` | &emsp;*bulina pera que aſsi indireite a embarcação. O* |  |
 | `c2-l026` | &emsp;*contrario he* Cazaxita. *i. Iulauento.* |  |
 | `c2-l027` | Cazaxi, ſu, aita. *Aleuantar diante do roſto* |  |
@@ -106,11 +106,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l032` | &emsp;*o vento. ¶* Cazaxitani noru. *Eſtar na* |  |
 | `c2-l033` | &emsp;*embarcação ajulauento. O contrario he, Ca-* |  |
 | `c2-l034` | &emsp;*zauye.* |  |
-| `c2-l035` | Cazô. Cuuaye maſu. *Acrecentamento.* |  |
+| `c2-l035` | Cazô. Cuuaye. maſu. *Acrecentamento.* |  |
 | `c2-l036` | &emsp;*Vt,* Chiguiôni cazôuo ſuru. *Acrecentar* |  |
 | `c2-l037` | &emsp;*a renda.* |  |
 | `c2-l038` | Cazocu. Iyeno nuſubito. *Ladrão de caſa.* |  |
-| `c2-l039` | &emsp;*Vt,* Cazocu fuxegui garaxi. *Six. Mal* |  |
+| `c2-l039` | &emsp;*Vt,* Cazocu fuxegui garaxi. *Xix. Mal* |  |
 | `c2-l040` | &emsp;*ſe defende do ladrão de caſa.* |  |
 | `c2-l041` | Cazoye, uru, eta. *Contar.* |  |
 | `c2-l042` | Cazu. *Numero.* |  |
@@ -118,7 +118,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l044` | &emsp;axinogoiuo tçuri zauoni caqe. *Mon. De-* |  |
 | `c2-l045` | &emsp;*pendurando muitas toalhas dos pés, de hũ bũbu.* |  |
 | `c2-l046` | Cazuye, uru, eta. *Contar.* |  |
-| `c2-l047` | Cazucaxe ſuju. *Cubrir a alguem com algum* |  |
+| `c2-l047` | Cazucaxe ſuru. *Cubrir a alguem com algum* |  |
 
 ## Catchword
 

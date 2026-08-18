@@ -2,7 +2,7 @@
   "format": "nippo-ai-line-geometry-response",
   "format_version": 1,
   "page": "bnf-f0101",
-  "response_status": "pending_independent_ai_line_review",
+  "response_status": "completed_independent_ai_line_review",
   "default_response_mode": "geometry_and_text",
   "completion_statuses": {
     "geometry_and_text": {
@@ -14,7 +14,7 @@
       "text_review_status": "not_completed"
     }
   },
-  "observed_text_provenance": "Must be written independently from each proposed crop before consulting the canonical transcription. Null means that this line has not yet been read.",
+  "observed_text_provenance": "Every physical body line was visually inspected at enlarged line-crop level from the ZIP-preserved native source image whose SHA-256 matches the pinned task source. observed_text records the scan reading; the canonical Level 1 transcription was consulted only after the independent visual pass for comparison. Visible disagreements and uncertainty are retained rather than normalized.",
   "coordinate_space": "native Gallica master pixels",
   "rectangle_format": "[x, y, width, height]",
   "geometry_acceptance": "Inspect every isolated crop at full practical size against the full page; confirm complete first and last glyphs and all top/bottom ink; do not infer horizontal completeness from line identity or vertical centering; then sweep each column top-to-bottom for repeated clipping, especially the outer/right edge of column 2. Conservative rule-to-rule width and necessary neighboring-line overlap are allowed.",
@@ -29,2014 +29,2029 @@
   },
   "transcription_source": {
     "page_file": "pilot/format-v1-trial/level1/bnf-f0101.json",
-    "page_file_sha256": "a7ae1a371214975bb1a8810e0cb16135aa19503f51dc181ae0a9c343637fb33f"
+    "page_file_sha256": "9356811438101078adeddd036d838bdd85328f982a88788f51c394297e908e4c"
   },
   "columns": {
     "column-1": {
       "column_box_xyxy": [
-        90,
+        130,
         300,
-        1240,
+        1200,
         3420
       ],
       "zone_ids": [
         "column-1"
       ],
-      "initial_geometry_provenance": "external_ai_width_rechecked",
-      "initial_geometry_reviewed_at": "2026-08-18",
-      "geometry_requires_line_by_line_review": true,
+      "initial_geometry_provenance": "contact_sheet_reviewed",
+      "initial_geometry_reviewed_at": "2026-08-01",
+      "geometry_requires_line_by_line_review": false,
       "lines": [
         {
           "id": "c1-l001",
           "centre_y": 434,
           "crop": [
-            90,
+            85,
             379,
-            1150,
+            1145,
             110
           ],
           "context_crop": [
-            90,
+            85,
             274,
-            1150,
+            1145,
             320
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
-          "expected_line_version": "sha256:51a93ad314cdab33450b24b4df42250c2e373080ce5c8f449a849d73874c92e4"
+          "observed_text": "Caxit. Iyeiye. Caſas.",
+          "match": "mismatch",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:51a93ad314cdab33450b24b4df42250c2e373080ce5c8f449a849d73874c92e4",
+          "note": "Direct native-scan reading differs from the canonical Level 1 line; visible scan form is retained."
         },
         {
           "id": "c1-l002",
           "centre_y": 512,
           "crop": [
-            90,
+            85,
             457,
-            1150,
+            1145,
             94
           ],
           "context_crop": [
-            90,
+            85,
             352,
-            1150,
+            1145,
             304
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Caxixi. Melius Canoxixi. Veado.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:135ef91d75d8521fe747c8b697de775d3a6e17dbd2e9fc698ba904a2fac56b88"
         },
         {
           "id": "c1-l003",
           "centre_y": 558,
           "crop": [
-            90,
+            85,
             515,
-            1150,
+            1145,
             86
           ],
           "context_crop": [
-            90,
+            85,
             410,
-            1150,
+            1145,
             296
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Caxizzuqi, u, uita. Fazer muito agaza-",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:395119a88162d48840c018adbcb1667b02b069b71d9f6afc67736bd7960ccb99"
         },
         {
           "id": "c1-l004",
           "centre_y": 615,
           "crop": [
-            90,
+            85,
             570,
-            1150,
+            1145,
             99
           ],
           "context_crop": [
-            90,
+            85,
             465,
-            1150,
+            1145,
             309
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "lhado, ou ſeruir cõ reuerencia ao ſenhor, &c.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:3cf4cb884ae6cd3c16ab4f328c7f804b38a815be0a18e4524110929186e7f403"
         },
         {
           "id": "c1-l005",
           "centre_y": 691,
           "crop": [
-            90,
+            85,
             637,
-            1150,
+            1145,
             102
           ],
           "context_crop": [
-            90,
+            85,
             532,
-            1150,
+            1145,
             312
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
-          "expected_line_version": "sha256:6ed44000fc701922703fcb762f856fcb2e8c9f01471c924b04b670946d1f24d8"
+          "observed_text": "Caxo. Vtano caqimono. Liuro de verſos,",
+          "match": "mismatch",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:bced97aeb2d166e144978ee283b0ba17eb7133805c8950c8dd7733e63d13d7d1",
+          "note": "Direct native-scan reading differs from the canonical Level 1 line; visible scan form is retained."
         },
         {
           "id": "c1-l006",
           "centre_y": 756,
           "crop": [
-            90,
+            85,
             707,
-            1150,
+            1145,
             94
           ],
           "context_crop": [
-            90,
+            85,
             602,
-            1150,
+            1145,
             304
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "ou cantigas.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:de09428003dcb286402be99eaebe1512a9af6d1b045ce134dd298e91bccde8ac"
         },
         {
           "id": "c1-l007",
           "centre_y": 815,
           "crop": [
-            90,
+            85,
             769,
-            1150,
+            1145,
             86
           ],
           "context_crop": [
-            90,
+            85,
             664,
-            1150,
+            1145,
             296
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Caxô. Yeqi ſaiuai. Couſa proſpera, & de",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:04bd400a4eac07ee3dc1623b9c10762e9af910da129a8dff1588acacb16ff6e4"
         },
         {
           "id": "c1-l008",
           "centre_y": 863,
           "crop": [
-            90,
+            85,
             823,
-            1150,
+            1145,
             93
           ],
           "context_crop": [
-            90,
+            85,
             718,
-            1150,
+            1145,
             303
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "bom ſucceſſo.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:175878ef9d0d8a1af0ede57aac5c1e5f0686ea1449fc28a1f7bad30b8639fe5d"
         },
         {
           "id": "c1-l009",
           "centre_y": 937,
           "crop": [
-            90,
+            85,
             884,
-            1150,
+            1145,
             92
           ],
           "context_crop": [
-            90,
+            85,
             779,
-            1150,
+            1145,
             302
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Caxo. Natçuno ſajime. Principio do ve-",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:52978fc5adfabb3bd5fc5e69ff244a21df75c83762cc65b4d23337baa6c024d5"
         },
         {
           "id": "c1-l010",
           "centre_y": 983,
           "crop": [
-            90,
+            85,
             944,
-            1150,
+            1145,
             93
           ],
           "context_crop": [
-            90,
+            85,
             839,
-            1150,
+            1145,
             303
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "rão, ou eſtio.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:1de236b81a6bd442ef4af5c1409dbe1513f5a5de34077c2f14341d98aa3ea19f"
         },
         {
           "id": "c1-l011",
           "centre_y": 1060,
           "crop": [
-            90,
+            85,
             1005,
-            1150,
+            1145,
             92
           ],
           "context_crop": [
-            90,
+            85,
             900,
-            1150,
+            1145,
             302
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
-          "expected_line_version": "sha256:1a1be1f2282ab777acfe763396ad7383ead6729597b90b6765d4c4d43f0171b3"
+          "observed_text": "Caxô. Yeqi tamezzuiſa. Carta.",
+          "match": "partial",
+          "assessment": "uncertain",
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:1a1be1f2282ab777acfe763396ad7383ead6729597b90b6765d4c4d43f0171b3",
+          "note": "The middle vowel in the romanized form is faint; enlarged scan reading is recorded as tamezzuiſa."
         },
         {
           "id": "c1-l012",
           "centre_y": 1102,
           "crop": [
-            90,
+            85,
             1065,
-            1150,
+            1145,
             93
           ],
           "context_crop": [
-            90,
+            85,
             960,
-            1150,
+            1145,
             303
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
-          "expected_line_version": "sha256:3af56021627674e34bb843d0f59a0777a11dbf58ca58681dc3d201ef76aa733a"
+          "observed_text": "Caxocu. Maqiuyuru. O ſemear, & plãtar.",
+          "match": "mismatch",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:7b2e589e7a031f88f237569ffe4094a24c5a962561e1a6646e56d05eb2a5cb01",
+          "note": "Direct native-scan reading differs from the canonical Level 1 line; visible scan form is retained."
         },
         {
           "id": "c1-l013",
           "centre_y": 1183,
           "crop": [
-            90,
+            85,
             1126,
-            1150,
+            1145,
             103
           ],
           "context_crop": [
-            90,
+            85,
             1021,
-            1150,
+            1145,
             313
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Caxocu. Iyeno xocu. i. Iyeni tçutauaru",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:d52fdafec08c19a28454fdb57aa3884ab37adc2134bebfbf91d4bc8b397c1e59"
         },
         {
           "id": "c1-l014",
           "centre_y": 1244,
           "crop": [
-            90,
+            85,
             1201,
-            1150,
+            1145,
             86
           ],
           "context_crop": [
-            90,
+            85,
             1096,
-            1150,
+            1145,
             296
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "xocu. Officio, ou arte de algũa caſa, ou fami-",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:6dd5744ffa3a20297e469c9eae8ef501bc58d4f3655ca7403278f16fbb54b2ed"
         },
         {
           "id": "c1-l015",
           "centre_y": 1289,
           "crop": [
-            90,
+            85,
             1250,
-            1150,
+            1145,
             93
           ],
           "context_crop": [
-            90,
+            85,
             1145,
-            1150,
+            1145,
             303
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "lia que vem por dedução.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:6f3840cf2ec469551c0219bd2abf03ca55b3875aabd247d29a3284d9c5cddf4d"
         },
         {
           "id": "c1-l016",
           "centre_y": 1366,
           "crop": [
-            90,
+            85,
             1311,
-            1150,
+            1145,
             92
           ],
           "context_crop": [
-            90,
+            85,
             1206,
-            1150,
+            1145,
             302
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Caxu. Plantas que tem a cabeça, ou raiz na",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:ccb0ced0ba96696cc159d8b1aaa8e76ca9072887ac8db6d67b3468d91d04d602"
         },
         {
           "id": "c1-l017",
           "centre_y": 1409,
           "crop": [
-            90,
+            85,
             1371,
-            1150,
+            1145,
             94
           ],
           "context_crop": [
-            90,
+            85,
             1266,
-            1150,
+            1145,
             304
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
-          "expected_line_version": "sha256:7a22db47222d5824e62a199bdc28f359bd2aa5c43343b1cfb33b8ac9b53f5a01"
+          "observed_text": "terra vide jôxu. (iuru.",
+          "match": "partial",
+          "assessment": "uncertain",
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:7a22db47222d5824e62a199bdc28f359bd2aa5c43343b1cfb33b8ac9b53f5a01",
+          "note": "A faint parenthetical-looking fragment at the far right is visible; retained as (iuru. rather than silently omitted."
         },
         {
           "id": "c1-l018",
           "centre_y": 1489,
           "crop": [
-            90,
+            85,
             1433,
-            1150,
+            1145,
             102
           ],
           "context_crop": [
-            90,
+            85,
             1328,
-            1150,
+            1145,
             312
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
-          "expected_line_version": "sha256:dcd3bb9e6ac23bc9898c50faa8ca6c2540e8cba3d038472753fb9e472d663750"
+          "observed_text": "Caxucu. Fuſuni naru coto. Caſarſe. Caxucu",
+          "match": "mismatch",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:7a2a155f1d44635a7e3f6cfdd3d724ddc15f3efeebd46b74002d4f7dd6cf2f92",
+          "note": "Direct native-scan reading differs from the canonical Level 1 line; visible scan form is retained."
         },
         {
           "id": "c1-l019",
           "centre_y": 1549,
           "crop": [
-            90,
+            85,
             1503,
-            1150,
+            1145,
             92
           ],
           "context_crop": [
-            90,
+            85,
             1398,
-            1150,
+            1145,
             302
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Caxxen. Auaxe tatacô. Batalha.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:d7207226dc3f8505a1bd084426e5ed77c35080f488848c73adc1229be02f0bee"
         },
         {
           "id": "c1-l020",
           "centre_y": 1609,
           "crop": [
-            90,
+            85,
             1563,
-            1150,
+            1145,
             92
           ],
           "context_crop": [
-            90,
+            85,
             1458,
-            1150,
+            1145,
             302
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Caxxi, ſu, ita. Ter ſede.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:44fe6e58b382cd27cf466a09fe9eee874c9229ad7b84413cbd73f528847a6152"
         },
         {
           "id": "c1-l021",
           "centre_y": 1670,
           "crop": [
-            90,
+            85,
             1623,
-            1150,
+            1145,
             93
           ],
           "context_crop": [
-            90,
+            85,
             1518,
-            1150,
+            1145,
             303
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Caxxicaxxito. Adu. Modo de aſſentar os",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:952514c3d12d7410f0e6f8fc9f8e42e46990905990a6f335f7359cfbb04b4d30"
         },
         {
           "id": "c1-l022",
           "centre_y": 1731,
           "crop": [
-            90,
+            85,
             1684,
-            1150,
+            1145,
             92
           ],
           "context_crop": [
-            90,
+            85,
             1579,
-            1150,
+            1145,
             302
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "pees, ou ſear o caualo quando vai andando",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:ff890b0240dab1a9dc2386e425d255dc6b6ef5363cca9e47332dedd192eec25c"
         },
         {
           "id": "c1-l023",
           "centre_y": 1789,
           "crop": [
-            90,
+            85,
             1746,
-            1150,
+            1145,
             86
           ],
           "context_crop": [
-            90,
+            85,
             1641,
-            1150,
+            1145,
             296
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "com brio.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:1106a457b0d9be2528e597d010ef3575fa5b8965e260d6026234b1c086480468"
         },
         {
           "id": "c1-l024",
           "centre_y": 1832,
           "crop": [
-            90,
+            85,
             1789,
-            1150,
+            1145,
             86
           ],
           "context_crop": [
-            90,
+            85,
             1684,
-            1150,
+            1145,
             296
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Caxxiqi. Certos Meninos que ſe crião nas va-",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:6e5a19e8979e373c88b6e310dd622451c7b4aec5af143c17689f61dc6924848b"
         },
         {
           "id": "c1-l025",
           "centre_y": 1895,
           "crop": [
-            90,
+            85,
             1847,
-            1150,
+            1145,
             103
           ],
           "context_crop": [
-            90,
+            85,
             1742,
-            1150,
+            1145,
             313
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "relas com cabellos compridos, & nas teſtas",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:18c5ec30ecf82999f750663ce518d0dfff6109c83147e761b4c2a1806bfdb982"
         },
         {
           "id": "c1-l026",
           "centre_y": 1973,
           "crop": [
-            90,
+            85,
             1918,
-            1150,
+            1145,
             92
           ],
           "context_crop": [
-            90,
+            85,
             1813,
-            1150,
+            1145,
             302
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "deixão dependurada hũa guedelha de cabellos",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:48310c69e0c9c94256057941afd6de44495813cd61ead18881a2046efb9f1ac8"
         },
         {
           "id": "c1-l027",
           "centre_y": 2016,
           "crop": [
-            90,
+            85,
             1973,
-            1150,
+            1145,
             86
           ],
           "context_crop": [
-            90,
+            85,
             1868,
-            1150,
+            1145,
             296
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "em ſinal que ſe hão de rapar.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:7632be340454855579ebf80b85ca0fc4c04fe8749691a4f287431d836ab0f0b1"
         },
         {
           "id": "c1-l028",
           "centre_y": 2079,
           "crop": [
-            90,
+            85,
             2031,
-            1150,
+            1145,
             96
           ],
           "context_crop": [
-            90,
+            85,
             1926,
-            1150,
+            1145,
             306
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Caxxito. Adu. Forte, ou teçamente.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:d4b6422ce38142a3e6ba982c23a19493ab34ce136d0859ebe6754670ed6f8730"
         },
         {
           "id": "c1-l029",
           "centre_y": 2144,
           "crop": [
-            90,
+            85,
             2095,
-            1150,
+            1145,
             94
           ],
           "context_crop": [
-            90,
+            85,
             1990,
-            1150,
+            1145,
             304
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Caya. Certo Pauelhão pera contra os moſquitos.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:46c7b5933620eec353434930d30660717f1b297797dd026510e1777e0895c6f8"
         },
         {
           "id": "c1-l030",
           "centre_y": 2202,
           "crop": [
-            90,
+            85,
             2157,
-            1150,
+            1145,
             92
           ],
           "context_crop": [
-            90,
+            85,
             2052,
-            1150,
+            1145,
             302
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Caya. Palha, ou feno do campo.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:198c3b4af7f1ee82456761d5f632006345d34e6e23c21a96199eacda6d3efdca"
         },
         {
           "id": "c1-l031",
           "centre_y": 2265,
           "crop": [
-            90,
+            85,
             2217,
-            1150,
+            1145,
             100
           ],
           "context_crop": [
-            90,
+            85,
             2112,
-            1150,
+            1145,
             310
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Caya. Hũa fruita como bolotas doces.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:8225329ab40c0f0066b3424a1b83fec69a08e86969766db1d5e5dfd0fae8c807"
         },
         {
           "id": "c1-l032",
           "centre_y": 2338,
           "crop": [
-            90,
+            85,
             2285,
-            1150,
+            1145,
             99
           ],
           "context_crop": [
-            90,
+            85,
             2180,
-            1150,
+            1145,
             309
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Caya. Natçuno yo. Noites do verão, ou",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:d098d6f21660a50108ef7007a90d105f9ad9e8cca6589e69e67300a68e3fbb96"
         },
         {
           "id": "c1-l033",
           "centre_y": 2399,
           "crop": [
-            90,
+            85,
             2352,
-            1150,
+            1145,
             93
           ],
           "context_crop": [
-            90,
+            85,
             2247,
-            1150,
+            1145,
             303
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "eſtio.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:a57f6841f156b137032e4fcfcc4d1a57216fcd08b59615c948a3852c5cde3f8a"
         },
         {
           "id": "c1-l034",
           "centre_y": 2459,
           "crop": [
-            90,
+            85,
             2413,
-            1150,
+            1145,
             93
           ],
           "context_crop": [
-            90,
+            85,
             2308,
-            1150,
+            1145,
             303
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
-          "expected_line_version": "sha256:16f65e6473256964e5e1c4d491ea70cd08cbf487c8a88f64533393ee27e7ca8f"
+          "observed_text": "Cayabuqi. O cubrir de palha as caſas, &c.",
+          "match": "mismatch",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:07d5702658dce431f7234a2f2363e0568186a38816ab3ad04333b35e5442988e",
+          "note": "Direct native-scan reading differs from the canonical Level 1 line; visible scan form is retained."
         },
         {
           "id": "c1-l035",
           "centre_y": 2521,
           "crop": [
-            90,
+            85,
             2474,
-            1150,
+            1145,
             92
           ],
           "context_crop": [
-            90,
+            85,
             2369,
-            1150,
+            1145,
             302
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Cayacu. Cuſurino cuuayuru. Mezinha que",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:d3e2ee3a0a5dd666e91ed636ea34efea390ed7a1f2d380ee02c90eda6ebf9e71"
         },
         {
           "id": "c1-l036",
           "centre_y": 2579,
           "crop": [
-            90,
+            85,
             2534,
-            1150,
+            1145,
             86
           ],
           "context_crop": [
-            90,
+            85,
             2429,
-            1150,
+            1145,
             296
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "ſe acrecenta fora do regimento ordinario pera",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:d386ef430985c1453971b9301d355a3c9956d6039444561127d180c383e170eb"
         },
         {
           "id": "c1-l037",
           "centre_y": 2629,
           "crop": [
-            90,
+            85,
             2588,
-            1150,
+            1145,
             95
           ],
           "context_crop": [
-            90,
+            85,
             2483,
-            1150,
+            1145,
             305
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "algum effeito.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:f36b43cf8f58d9ebfaa27c9f79744a5a9239dd237e69f4c2491aa0f9ffb38ea2"
         },
         {
           "id": "c1-l038",
           "centre_y": 2706,
           "crop": [
-            90,
+            85,
             2651,
-            1150,
+            1145,
             94
           ],
           "context_crop": [
-            90,
+            85,
             2546,
-            1150,
+            1145,
             304
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Cayairo. Cor de hũa fruita chamada caya,",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:3e31e46b4bf4e167ba72cda7fa2ffd49ff058f85a642fcb01d75e73c480a9826"
         },
         {
           "id": "c1-l039",
           "centre_y": 2753,
           "crop": [
-            90,
+            85,
             2713,
-            1150,
+            1145,
             97
           ],
           "context_crop": [
-            90,
+            85,
             2608,
-            1150,
+            1145,
             307
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "como amarelo.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:2a787df6d48cec5a1ca1ba5f2d72a3c9f117c361c1c9514e5ecb0734d941e61f"
         },
         {
           "id": "c1-l040",
           "centre_y": 2835,
           "crop": [
-            90,
+            85,
             2778,
-            1150,
+            1145,
             101
           ],
           "context_crop": [
-            90,
+            85,
             2673,
-            1150,
+            1145,
             311
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Cayainuxiro. Eſteira de palha.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:8b06ad16b5a40f6cbe61d752fe93043856744796952ab43ac5ffa7257ff432c8"
         },
         {
           "id": "c1-l041",
           "centre_y": 2892,
           "crop": [
-            90,
+            85,
             2847,
-            1150,
+            1145,
             92
           ],
           "context_crop": [
-            90,
+            85,
             2742,
-            1150,
+            1145,
             302
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Cayanone. Raiz de erua com que cobrem",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:3f9977d5ad2d4c75e6754d7c80d371cf5992087788de5d63a1ea2664fbb7537a"
         },
         {
           "id": "c1-l042",
           "centre_y": 2955,
           "crop": [
-            90,
+            85,
             2907,
-            1150,
+            1145,
             94
           ],
           "context_crop": [
-            90,
+            85,
             2802,
-            1150,
+            1145,
             304
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "as caſas.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:bccee71e7c8758ff9a37644901e4fa6d638bb03b7f744cef4972f7b7e96be515"
         },
         {
           "id": "c1-l043",
           "centre_y": 3015,
           "crop": [
-            90,
+            85,
             2969,
-            1150,
+            1145,
             93
           ],
           "context_crop": [
-            90,
+            85,
             2864,
-            1150,
+            1145,
             303
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Cayano tçurite. Hũs ganchos com que armão",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:7868bbd6fc5e10f6e4f13a4d1088203c5b83fb3b7f52bd213e719c7cad9ba838"
         },
         {
           "id": "c1-l044",
           "centre_y": 3078,
           "crop": [
-            90,
+            85,
             3030,
-            1150,
+            1145,
             86
           ],
           "context_crop": [
-            90,
+            85,
             2925,
-            1150,
+            1145,
             296
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "o pauelhão a maneira de eſcapulas cõ hũs cor-",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:98495b1225c4fcf020a67758dc9fc5c5229437f1b95f305cba7d6a2bcb0a264f"
         },
         {
           "id": "c1-l045",
           "centre_y": 3123,
           "crop": [
-            90,
+            85,
             3084,
-            1150,
+            1145,
             96
           ],
           "context_crop": [
-            90,
+            85,
             2979,
-            1150,
+            1145,
             306
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "deis preſos.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:1ecf80469fe98c94e2032d0fbac4b42dd54b507a00c7134cccedc23695f4748e"
         },
         {
           "id": "c1-l046",
           "centre_y": 3205,
           "crop": [
-            90,
+            85,
             3148,
-            1150,
+            1145,
             103
           ],
           "context_crop": [
-            90,
+            85,
             3043,
-            1150,
+            1145,
             313
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Cayaribi. Fogo, ou fumo que ſe faz pera",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:c5532690fed7cd246a230d18aa09133cf6fcf53840f9a5bf5d477391e177c3ff"
         },
         {
           "id": "c1-l047",
           "centre_y": 3266,
           "crop": [
-            90,
+            85,
             3219,
-            1150,
+            1145,
             93
           ],
           "context_crop": [
-            90,
+            85,
             3114,
-            1150,
+            1145,
             303
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "botar os moſquitos fora.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:14cb7655418584a093d18963ee057b33a8029ac6833c6441d65068a484c55899"
         }
       ]
     },
     "column-2": {
       "column_box_xyxy": [
-        1180,
+        1220,
         300,
-        2422,
+        2310,
         3420
       ],
       "zone_ids": [
         "column-2"
       ],
-      "initial_geometry_provenance": "external_ai_width_rechecked",
-      "initial_geometry_reviewed_at": "2026-08-18",
-      "geometry_requires_line_by_line_review": true,
+      "initial_geometry_provenance": "contact_sheet_reviewed",
+      "initial_geometry_reviewed_at": "2026-08-01",
+      "geometry_requires_line_by_line_review": false,
       "lines": [
         {
           "id": "c2-l001",
           "centre_y": 423,
           "crop": [
-            1180,
+            1175,
             366,
-            1242,
+            1165,
             113
           ],
           "context_crop": [
-            1180,
+            1175,
             261,
-            1242,
+            1165,
             323
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Cayauara. Campo ou, monte onde ha muita pa-",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:c03e2bfd097b2badabade98a7fa2b6c4749917d7e8b5033965852a606cbfb17d"
         },
         {
           "id": "c2-l002",
           "centre_y": 504,
           "crop": [
-            1180,
+            1175,
             447,
-            1242,
+            1165,
             104
           ],
           "context_crop": [
-            1180,
+            1175,
             342,
-            1242,
+            1165,
             314
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "lha, ou erua com que cobrem caſas.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:a109cfb6dcd6a8e77ba7d4302d42e17496d0294ad9b647ca0ac0ecc994c302ef"
         },
         {
           "id": "c2-l003",
           "centre_y": 567,
           "crop": [
-            1180,
+            1175,
             524,
-            1242,
+            1165,
             86
           ],
           "context_crop": [
-            1180,
+            1175,
             419,
-            1242,
+            1165,
             296
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Caye. ru, eta. Trocar. ¶ Teuo cayu-",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:b03910f57cebdd81cc36eab40736942185d572c0eddf80ae7de7316a63129472"
         },
         {
           "id": "c2-l004",
           "centre_y": 608,
           "crop": [
-            1180,
+            1175,
             571,
-            1242,
+            1165,
             93
           ],
           "context_crop": [
-            1180,
+            1175,
             466,
-            1242,
+            1165,
             303
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
-          "expected_line_version": "sha256:90f8f9601c0ccdbc004f86c11dc5d2a2875f720392245ef7742d38c8a7249b2d"
+          "observed_text": "ru. Fazer de differente maneira. ¶ Te",
+          "match": "mismatch",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:90f8f9601c0ccdbc004f86c11dc5d2a2875f720392245ef7742d38c8a7249b2d",
+          "note": "Direct native-scan reading differs from the canonical Level 1 line; visible scan form is retained."
         },
         {
           "id": "c2-l005",
           "centre_y": 689,
           "crop": [
-            1180,
+            1175,
             632,
-            1242,
+            1165,
             104
           ],
           "context_crop": [
-            1180,
+            1175,
             527,
-            1242,
+            1165,
             314
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "uo cayuru. Mudar a letra. ¶ Item,",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:848f9a5dfe79e49f989b923eddc64e14c82e7ca6c5919e8c8cb2f81196a64456"
         },
         {
           "id": "c2-l006",
           "centre_y": 751,
           "crop": [
-            1180,
+            1175,
             708,
-            1242,
+            1165,
             86
           ],
           "context_crop": [
-            1180,
+            1175,
             603,
-            1242,
+            1165,
             296
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "No jogo, ou em outras couſas mudar o lanço,",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:b488d5c4f9fee271891ddc0a54b24365b5f3aff007f120ed69b9fa17df03e0e5"
         },
         {
           "id": "c2-l007",
           "centre_y": 794,
           "crop": [
-            1180,
+            1175,
             756,
-            1242,
+            1165,
             94
           ],
           "context_crop": [
-            1180,
+            1175,
             651,
-            1242,
+            1165,
             304
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
-          "expected_line_version": "sha256:8a728feceafeecbe2bb7d0f868c3654705711d7e04be0766aa5207923783d1bd"
+          "observed_text": "ou variar a couſa, &c. ¶ Fiõxiuo ca-",
+          "match": "mismatch",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:8a728feceafeecbe2bb7d0f868c3654705711d7e04be0766aa5207923783d1bd",
+          "note": "Direct native-scan reading differs from the canonical Level 1 line; visible scan form is retained."
         },
         {
           "id": "c2-l008",
           "centre_y": 875,
           "crop": [
-            1180,
+            1175,
             818,
-            1242,
+            1165,
             104
           ],
           "context_crop": [
-            1180,
+            1175,
             713,
-            1242,
+            1165,
             314
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "yuru. Mudar o compaço, ou ſom do bai-",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:78c1c60470a9c4d70ef58b254e478457afddfe67a7913722157ed9c8c1d8d238"
         },
         {
           "id": "c2-l009",
           "centre_y": 937,
           "crop": [
-            1180,
+            1175,
             890,
-            1242,
+            1165,
             93
           ],
           "context_crop": [
-            1180,
+            1175,
             785,
-            1242,
+            1165,
             303
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
-          "expected_line_version": "sha256:c863e452e2297f851cecae2318bbedbb85c80820f2beb5f94a950dc05e0cb30f"
+          "observed_text": "lo. ¶ Fiõxiuo cayete fayaiu. Mudã-",
+          "match": "mismatch",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:c863e452e2297f851cecae2318bbedbb85c80820f2beb5f94a950dc05e0cb30f",
+          "note": "Direct native-scan reading differs from the canonical Level 1 line; visible scan form is retained."
         },
         {
           "id": "c2-l010",
           "centre_y": 998,
           "crop": [
-            1180,
+            1175,
             951,
-            1242,
+            1165,
             93
           ],
           "context_crop": [
-            1180,
+            1175,
             846,
-            1242,
+            1165,
             303
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "do o tom tanger. Taiſ. Lib. 5. ¶ Mi-",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:08864e12bed7b19ca4521b96dda125001256168dab641f4760f8d343310a5dd0"
         },
         {
           "id": "c2-l011",
           "centre_y": 1058,
           "crop": [
-            1180,
+            1175,
             1015,
-            1242,
+            1165,
             86
           ],
           "context_crop": [
-            1180,
+            1175,
             910,
-            1242,
+            1165,
             296
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "ni cayete fitouo vorrô. Amar a alguem",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:d72eb054ab8e18143a2584e7271a8b36d77802c87d87e7fc1cecbf51f5c1e585"
         },
         {
           "id": "c2-l012",
           "centre_y": 1102,
           "crop": [
-            1180,
+            1175,
             1064,
-            1242,
+            1165,
             92
           ],
           "context_crop": [
-            1180,
+            1175,
             959,
-            1242,
+            1165,
             302
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "mais que aſi, ou arriſcando a vida por elle.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:54acd645030cd16cff5ff5086e53f0d08e6ffb3f1b0ca0a5bd3b1950c0ac74a5"
         },
         {
           "id": "c2-l013",
           "centre_y": 1179,
           "crop": [
-            1180,
+            1175,
             1124,
-            1242,
+            1165,
             101
           ],
           "context_crop": [
-            1180,
+            1175,
             1019,
-            1242,
+            1165,
             311
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
-          "expected_line_version": "sha256:2991f34c1ac6601748f165a81f31caeda5e7d223d12bd04cd273cc11a7c36540"
+          "observed_text": "Caye, uru, eta. Deſpejar. Vt, Mizzuuo",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:a4e20035dafd5eb576e629b1c7e3291fe41b72331605856a26cfa83bf09058b8"
         },
         {
           "id": "c2-l014",
           "centre_y": 1240,
           "crop": [
-            1180,
+            1175,
             1193,
-            1242,
+            1165,
             93
           ],
           "context_crop": [
-            1180,
+            1175,
             1088,
-            1242,
+            1165,
             303
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "cayuru. Deſpejar, ou tirar a agoa toda fo-",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:eef01e320206df4ec7c66b49e94eb8d19724cb7ccc69105081ba96fd249ce955"
         },
         {
           "id": "c2-l015",
           "centre_y": 1301,
           "crop": [
-            1180,
+            1175,
             1254,
-            1242,
+            1165,
             94
           ],
           "context_crop": [
-            1180,
+            1175,
             1149,
-            1242,
+            1165,
             304
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "ra dalgum poço, ou de outra parte.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:636d760fad6783745dbc6d3db9dff66ba16f26114b0678538880dba935c5c5e8"
         },
         {
           "id": "c2-l016",
           "centre_y": 1364,
           "crop": [
-            1180,
+            1175,
             1316,
-            1242,
+            1165,
             95
           ],
           "context_crop": [
-            1180,
+            1175,
             1211,
-            1242,
+            1165,
             305
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
-          "expected_line_version": "sha256:db65d5b75be4eaea2be2038f142ad0d099650439ae5581679aa0cc07f516bf5b"
+          "observed_text": "Cayen. Futuno yeiuo muſubu coto. Ca-",
+          "match": "mismatch",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:db65d5b75be4eaea2be2038f142ad0d099650439ae5581679aa0cc07f516bf5b",
+          "note": "Direct native-scan reading differs from the canonical Level 1 line; visible scan form is retained."
         },
         {
           "id": "c2-l017",
           "centre_y": 1426,
           "crop": [
-            1180,
+            1175,
             1379,
-            1242,
+            1165,
             94
           ],
           "context_crop": [
-            1180,
+            1175,
             1274,
-            1242,
+            1165,
             304
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "zamento. ¶ Cayenuo muſubu. Cazar.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:6433e023933822e05474bab581bd4deef761caa5269b184d13952a4e73670081"
         },
         {
           "id": "c2-l018",
           "centre_y": 1488,
           "crop": [
-            1180,
+            1175,
             1441,
-            1242,
+            1165,
             93
           ],
           "context_crop": [
-            1180,
+            1175,
             1336,
-            1242,
+            1165,
             303
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Cayeri, ſu, etta. Tornarſe.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:9debd99767ed7ea56790885d90db26d6453af7151a4807cce5fd428e2c75ea84"
         },
         {
           "id": "c2-l019",
           "centre_y": 1548,
           "crop": [
-            1180,
+            1175,
             1505,
-            1242,
+            1165,
             86
           ],
           "context_crop": [
-            1180,
+            1175,
             1400,
-            1242,
+            1165,
             296
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Cayeri. Tornada.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:5b5c824fa9cacd8e756cc3737d1b540328d988046c5f0e2766afbcf1d19a1a50"
         },
         {
           "id": "c2-l020",
           "centre_y": 1595,
           "crop": [
-            1180,
+            1175,
             1555,
-            1242,
+            1165,
             96
           ],
           "context_crop": [
-            1180,
+            1175,
             1450,
-            1242,
+            1165,
             306
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Cayeri, ru, etta. Nacirem, ou ſaírem os",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:9ba6416933d3eb7120d3c05c9fe084b44332b7e9b5f1d48e4ef23890cb1e5e1c"
         },
         {
           "id": "c2-l021",
           "centre_y": 1675,
           "crop": [
-            1180,
+            1175,
             1619,
-            1242,
+            1165,
             103
           ],
           "context_crop": [
-            1180,
+            1175,
             1514,
-            1242,
+            1165,
             313
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "pintiãos, ou paſſaros da caſca. Vt, Caigo, l,",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:1feb2099239b7f7b634badd41460d9581bc9d6e56fd3f14bd104ae706c34a234"
         },
         {
           "id": "c2-l022",
           "centre_y": 1738,
           "crop": [
-            1180,
+            1175,
             1695,
-            1242,
+            1165,
             86
           ],
           "context_crop": [
-            1180,
+            1175,
             1590,
-            1242,
+            1165,
             296
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "tamagoga cayetta. Saírem os pintiãos, ou",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:a2d5823494d8d84247dcab16a07e6a9d80a4f926ef45ad405c682ef2b32243d0"
         },
         {
           "id": "c2-l023",
           "centre_y": 1779,
           "crop": [
-            1180,
+            1175,
             1742,
-            1242,
+            1165,
             88
           ],
           "context_crop": [
-            1180,
+            1175,
             1637,
-            1242,
+            1165,
             298
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "paſſarinhos dos ouos.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:2180be91679169889d72a9a11baea63562601f6d4c7c0a9a811429d9c9343253"
         },
         {
           "id": "c2-l024",
           "centre_y": 1850,
           "crop": [
-            1180,
+            1175,
             1798,
-            1242,
+            1165,
             102
           ],
           "context_crop": [
-            1180,
+            1175,
             1693,
-            1242,
+            1165,
             312
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Cayeracaxi, ſu, aita. Vt Caigo, l, tamagouo",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:e92200cab97c1d2d2ee0a79a0a1d714eb872cb91c6c7b7c1b338fa8e5e8274fd"
         },
         {
           "id": "c2-l025",
           "centre_y": 1919,
           "crop": [
-            1180,
+            1175,
             1868,
-            1242,
+            1165,
             94
           ],
           "context_crop": [
-            1180,
+            1175,
             1763,
-            1242,
+            1165,
             304
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "cayeracaſu. Tirar a galinha, ou outro paſ-",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:ff77040b4e80a9d6bbbd184811454a299010250a2670568923bdfb8cf732deed"
         },
         {
           "id": "c2-l026",
           "centre_y": 1974,
           "crop": [
-            1180,
+            1175,
             1930,
-            1242,
+            1165,
             89
           ],
           "context_crop": [
-            1180,
+            1175,
             1825,
-            1242,
+            1165,
             299
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "ſaro os filhos da caſca. ¶ Item, Fazendo",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:32f11379ac0146f15f33b4fe13c80a902fefb6bab9920c031951ab6ed2413fac"
         },
         {
           "id": "c2-l027",
           "centre_y": 2033,
           "crop": [
-            1180,
+            1175,
             1987,
-            1242,
+            1165,
             98
           ],
           "context_crop": [
-            1180,
+            1175,
             1882,
-            1242,
+            1165,
             308
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "chocar a galinha fazer tirar os ouos, &c.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:7cc6062f3edb818bb8dbd3c8a5938f5c4293334e2f54e9ed2046bc55d4efa71f"
         },
         {
           "id": "c2-l028",
           "centre_y": 2105,
           "crop": [
-            1180,
+            1175,
             2053,
-            1242,
+            1165,
             92
           ],
           "context_crop": [
-            1180,
+            1175,
             1948,
-            1242,
+            1165,
             302
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Cayeri axi. Tornada. Vt, Cari no Cayeri-",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:0b7f09adb4858aaa087b78d97dd087e4970bd55d167ffa4eeb39243728f222ca"
         },
         {
           "id": "c2-l029",
           "centre_y": 2154,
           "crop": [
-            1180,
+            1175,
             2113,
-            1242,
+            1165,
             95
           ],
           "context_crop": [
-            1180,
+            1175,
             2008,
-            1242,
+            1165,
             305
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "axini. Na tornada da caça.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:cbce018673d125a1a315eaf2e703bc2df50983252285bd3c8adc25059f4847f9"
         },
         {
           "id": "c2-l030",
           "centre_y": 2231,
           "crop": [
-            1180,
+            1175,
             2176,
-            1242,
+            1165,
             98
           ],
           "context_crop": [
-            1180,
+            1175,
             2071,
-            1242,
+            1165,
             308
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Cayerichiu. Vt, Cayerichiuo ſuru. O a-",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:c76d302298f86b7c7bca491740835b980ca709b68db818a0f670406a980e82c6"
         },
         {
           "id": "c2-l031",
           "centre_y": 2285,
           "crop": [
-            1180,
+            1175,
             2242,
-            1242,
+            1165,
             95
           ],
           "context_crop": [
-            1180,
+            1175,
             2137,
-            1242,
+            1165,
             305
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "uizar algũm dos que eſtauão conjurados ao ſe-",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:4c17b495c7d3a8621c7db775065e9fbc62102b7db10b1a2b75e61b3f73080a8d"
         },
         {
           "id": "c2-l032",
           "centre_y": 2357,
           "crop": [
-            1180,
+            1175,
             2305,
-            1242,
+            1165,
             99
           ],
           "context_crop": [
-            1180,
+            1175,
             2200,
-            1242,
+            1165,
             309
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "nhor da traição, ou de qualquer outro ma-",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:09be063a436f10dc6c8e8674618d2438ab4d5ce9bb6c124dc139e19979988d98"
         },
         {
           "id": "c2-l033",
           "centre_y": 2420,
           "crop": [
-            1180,
+            1175,
             2372,
-            1242,
+            1165,
             94
           ],
           "context_crop": [
-            1180,
+            1175,
             2267,
-            1242,
+            1165,
             304
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "leficio em que tinha conſentido fazendo lhe niſ-",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:19cca572d423ade0d3b892088173e4899e7d8f66989c95c5cf3f4d9d023d559c"
         },
         {
           "id": "c2-l034",
           "centre_y": 2481,
           "crop": [
-            1180,
+            1175,
             2434,
-            1242,
+            1165,
             92
           ],
           "context_crop": [
-            1180,
+            1175,
             2329,
-            1242,
+            1165,
             302
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "ſo ſeruiço.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:63e217e93ce19a2b2bb942a7b56db9c21442aefd4f3fd1ee669076de942fc8b3"
         },
         {
           "id": "c2-l035",
           "centre_y": 2540,
           "crop": [
-            1180,
+            1175,
             2494,
-            1242,
+            1165,
             95
           ],
           "context_crop": [
-            1180,
+            1175,
             2389,
-            1242,
+            1165,
             305
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Cayerimi, ru, ita. Atentar, aduertir. ¶ Mi-",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:2db39b38b30784f255579317c18f2a1ab359ebd5e4f14a92e8f14739392b9562"
         },
         {
           "id": "c2-l036",
           "centre_y": 2607,
           "crop": [
-            1180,
+            1175,
             2557,
-            1242,
+            1165,
             97
           ],
           "context_crop": [
-            1180,
+            1175,
             2452,
-            1242,
+            1165,
             307
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "uo cayerimuru. Tornar ſobre ſi. ¶ To-",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:81751df9b29da654a9d112de3553e364c96365856864ebf7b956a95da05d4bce"
         },
         {
           "id": "c2-l037",
           "centre_y": 2669,
           "crop": [
-            1180,
+            1175,
             2622,
-            1242,
+            1165,
             93
           ],
           "context_crop": [
-            1180,
+            1175,
             2517,
-            1242,
+            1165,
             303
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "gauo cayerimiru. Conſiderar, & reparar",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:68aaf53908a4bd505989a3473ad5ec63f1ec3134b8d9c80dd09adb63efeb1ad3"
         },
         {
           "id": "c2-l038",
           "centre_y": 2729,
           "crop": [
-            1180,
+            1175,
             2686,
-            1242,
+            1165,
             86
           ],
           "context_crop": [
-            1180,
+            1175,
             2581,
-            1242,
+            1165,
             296
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
-          "expected_line_version": "sha256:0640b731aa8fa2511a404f1ec1c3ad4499d34f4b9c047d7f2bfbc476b5276db9"
+          "observed_text": "em os peccados. ¶ A:ouo cayerimiru. O-",
+          "match": "mismatch",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:0640b731aa8fa2511a404f1ec1c3ad4499d34f4b9c047d7f2bfbc476b5276db9",
+          "note": "Direct native-scan reading differs from the canonical Level 1 line; visible scan form is retained."
         },
         {
           "id": "c2-l039",
           "centre_y": 2772,
           "crop": [
-            1180,
+            1175,
             2734,
-            1242,
+            1165,
             94
           ],
           "context_crop": [
-            1180,
+            1175,
             2629,
-            1242,
+            1165,
             304
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "lhar pera traz.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:3e3ec8df00612fe78fafff26866846ecaac387dddd6ec8ff665da900397cb3d5"
         },
         {
           "id": "c2-l040",
           "centre_y": 2852,
           "crop": [
-            1180,
+            1175,
             2796,
-            1242,
+            1165,
             104
           ],
           "context_crop": [
-            1180,
+            1175,
             2691,
-            1242,
+            1165,
             314
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Cayeriqitari, ru, atta. Tornar do vir.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:d64ae827fbc5a5e21d27cadd500eca5390d8dc232ddbbca6333662ec333a6e12"
         },
         {
           "id": "c2-l041",
           "centre_y": 2917,
           "crop": [
-            1180,
+            1175,
             2868,
-            1242,
+            1165,
             96
           ],
           "context_crop": [
-            1180,
+            1175,
             2763,
-            1242,
+            1165,
             306
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
-          "expected_line_version": "sha256:451405284baaeb1c9aa6eef2678f3d647c6a1f1d194c286008bc2288c1ca122b"
+          "observed_text": "Cayeru. Poſto q̃ na pratica ſe diz Cairu. Raã.",
+          "match": "mismatch",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:451405284baaeb1c9aa6eef2678f3d647c6a1f1d194c286008bc2288c1ca122b",
+          "note": "Direct native-scan reading differs from the canonical Level 1 line; visible scan form is retained."
         },
         {
           "id": "c2-l042",
           "centre_y": 2979,
           "crop": [
-            1180,
+            1175,
             2932,
-            1242,
+            1165,
             95
           ],
           "context_crop": [
-            1180,
+            1175,
             2827,
-            1242,
+            1165,
             305
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Cayeſa. P. i. Cayeriſa. Tornada.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:204bde08e01dad45f922f08c8602d0b49e4c6bcae772a17f714001692b49f002"
         },
         {
           "id": "c2-l043",
           "centre_y": 3044,
           "crop": [
-            1180,
+            1175,
             2995,
-            1242,
+            1165,
             96
           ],
           "context_crop": [
-            1180,
+            1175,
             2890,
-            1242,
+            1165,
             306
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Cayetçugaqi, X. i. Faxigaqi, l, ſedegaqi.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:7ed963c24bf0830537cb2216d6c0b5b9a653aceba94ea35f2680c6a0b2f1f4bc"
         },
         {
           "id": "c2-l044",
           "centre_y": 3107,
           "crop": [
-            1180,
+            1175,
             3059,
-            1242,
+            1165,
             94
           ],
           "context_crop": [
-            1180,
+            1175,
             2954,
-            1242,
+            1165,
             304
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Repetição que ſe faz no principio da carta",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:059855c099ce4c3897fcd8c6a52361c4c6d431fe953375bbfe2b222758a7c75d"
         },
         {
           "id": "c2-l045",
           "centre_y": 3168,
           "crop": [
-            1180,
+            1175,
             3121,
-            1242,
+            1165,
             93
           ],
           "context_crop": [
-            1180,
+            1175,
             3016,
-            1242,
+            1165,
             303
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "de letra mais miuda.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:cd10c08bf3f2b99362e1547b77db58bc23a876c7651589881e7bdccf8ca1c241"
         },
         {
           "id": "c2-l046",
           "centre_y": 3229,
           "crop": [
-            1180,
+            1175,
             3182,
-            1242,
+            1165,
             95
           ],
           "context_crop": [
-            1180,
+            1175,
             3077,
-            1242,
+            1165,
             305
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Cayetçugayelu. Adu. Hũa vez, & outra.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:0accbf7b46f389d4c427faafb592793a194d03f43f74ac4a77142570575b3e8d"
         },
         {
           "id": "c2-l047",
           "centre_y": 3294,
           "crop": [
-            1180,
+            1175,
             3245,
-            1242,
+            1165,
             97
           ],
           "context_crop": [
-            1180,
+            1175,
             3140,
-            1242,
+            1165,
             307
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Cayetçumaxi, ſu, aita. Trocar, ou mudar em",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:2c2826137a50b8baa8fc5b33a60c5212a33ab79db8c70eb62b43630d5e247798"
         }
       ]
     }
-  }
+  },
+  "geometry_review_status": "completed",
+  "text_review_status": "completed"
 }
