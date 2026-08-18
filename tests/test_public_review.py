@@ -135,7 +135,7 @@ class PublicReviewRegressionTests(unittest.TestCase):
             self.assertEqual(len(keys), len(candidates))
             self.assertTrue(all(candidate["before"] == "ſt" for _, candidate in candidates))
             self.assertTrue(all(candidate["after"] == "st" for _, candidate in candidates))
-            self.assertTrue(all(candidate["crop"][2] <= 340 for _, candidate in candidates))
+            self.assertTrue(all(candidate["crop"][2] <= 380 for _, candidate in candidates))
             for asset in ("st-audit.html", "st-audit.js", "st-audit.css"):
                 self.assertTrue((output / asset).is_file())
 

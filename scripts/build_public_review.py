@@ -337,7 +337,14 @@ def occurrence_crop(page: dict, line: dict, start: int, end: int) -> list[int]:
     """Return a compact crop centred on one transcribed occurrence."""
     left, top, width, height = line["crop"]
     text = line["text"]
-    unit_width = width / 48
+    # Unlike the wider tilde cards, these tiles have almost no tolerance for
+    # a misplaced horizontal estimate. Use the observed line height as a cap
+    # on normal type width, while letting a genuinely full line distribute
+    # its transcription across the complete recorded rectangle. A fixed
+    # 48-character measure put later words much too far left on shorter full
+    # lines (for example f13/c1-l008 `couſa triſte`).
+    total_units = max(text_width_units(text), 1)
+    unit_width = min(width / total_units, height * 0.27)
     indent_units = float(line.get("indent", 0)) * 2.0
     centre_units = (
         indent_units
@@ -345,7 +352,7 @@ def occurrence_crop(page: dict, line: dict, start: int, end: int) -> list[int]:
         + text_width_units(text[start:end]) / 2
     )
     centre_x = left + round(unit_width * centre_units)
-    crop_width = min(width, 340)
+    crop_width = min(width, 380)
     crop_left = min(
         max(left, centre_x - crop_width // 2), left + width - crop_width
     )
