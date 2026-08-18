@@ -1269,6 +1269,20 @@ class PublicReviewRegressionTests(unittest.TestCase):
         self.assertIn("ou uender caualos", plain["c2-l007"])
         self.assertTrue(plain["c2-l037"].endswith("poſtu-"))
 
+    def test_f49_c1_l039_has_its_own_line_crop(self):
+        geometry = json.loads(
+            (ROOT / "pilot" / "human-review" / "line-geometry.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        page = next(page for page in geometry["pages"] if page["id"] == "bnf-f0049")
+        lines = page["columns"]["column-1"]["lines"]
+        line_39 = lines["c1-l039"]
+        line_40 = lines["c1-l040"]
+        self.assertEqual(line_39["centre_y"], 2781)
+        self.assertEqual(line_39["crop"], [140, 2732, 1125, 98])
+        self.assertGreaterEqual(line_40["centre_y"] - line_39["centre_y"], 50)
+
 
 if __name__ == "__main__":
     unittest.main()
