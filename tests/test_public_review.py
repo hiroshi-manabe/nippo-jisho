@@ -1362,6 +1362,26 @@ class PublicReviewRegressionTests(unittest.TestCase):
             centres,
         )
 
+        column_2_lines = page["columns"]["column-2"]["lines"]
+        column_2_centres = [
+            column_2_lines[f"c2-l{number:03d}"]["centre_y"]
+            for number in range(35, 48)
+        ]
+        self.assertEqual(
+            column_2_centres,
+            [2578, 2637, 2702, 2763, 2832, 2889, 2950, 3013, 3078, 3138, 3200, 3263, 3328],
+        )
+        self.assertTrue(
+            all(
+                right - left >= 50
+                for left, right in zip(column_2_centres, column_2_centres[1:])
+            )
+        )
+        self.assertEqual(
+            [reviewed_lines[f"c2-l{number:03d}"]["centre_y"] for number in range(35, 48)],
+            column_2_centres,
+        )
+
     def test_f49_issue_43_applies_only_exact_scan_supported_changes(self):
         history = json.loads(
             (ROOT / "pilot" / "human-review" / "correction-history.json").read_text(
