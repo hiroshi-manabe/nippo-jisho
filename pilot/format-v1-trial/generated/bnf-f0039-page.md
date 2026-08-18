@@ -102,8 +102,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l022` | Atçufai. *Cinza quente.* |  |
 | `c2-l023` | Atçugami. *Hũa laya de papel groſſo.* |  |
 | `c2-l024` | Atçugan. *Vinho muito quente.* |  |
-| `c2-l025` | Atçugui. *Veſtidos, hũs ſobre os outros, ou* |  |
-| `c2-l026` | &emsp;*dobrados. ¶* Atçuguiſuru. *Veſtir ves-* |  |
+| `c2-l025` | Atçugui. *Vestidos, hũs ſobre os outros, ou* |  |
+| `c2-l026` | &emsp;*dobrados. ¶* Atçuguiſuru. *Vestir ves-* |  |
 | `c2-l027` | &emsp;*tidos dobrados.* |  |
 | `c2-l028` | Atçui. *Couſa quente.* |  |
 | `c2-l029` | Atçui. *Couſa groſſa, ou eſpeſſa.* |  |

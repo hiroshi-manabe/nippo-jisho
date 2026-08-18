@@ -29,7 +29,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l013` | Bainin. *Miolo do caroço de* Vmes. |  |
 | `c1-l014` | Baiqiǒ. Vme cobaxij. i. Vmeno niuoi. |  |
 | `c1-l015` | &emsp;*Cheiro de certa amexieira.* |  |
-| `c1-l016` | Baiqua. Vmeno fana. *Flor deſta amexieira.* |  |
+| `c1-l016` | Baiqua. Vmeno fana. *Flor desta amexieira.* |  |
 | `c1-l017` | Bairin. Vmeno fayaxi. *Boſque, ou lugar de* |  |
 | `c1-l018` | &emsp;*muitas amexieiras.* |  |
 | `c1-l019` | Bairiǔ. Vme yanagui. *Amexieira, & ſal-* |  |
@@ -93,10 +93,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l013` | &emsp;*der o* Banaraxi *deçima.* |  |
 | `c2-l014` | Banareta fito. *Homem exercitado em lutas,* |  |
 | `c2-l015` | &emsp;*ou em outra arte. ¶* Banarenu fito. *Ho* |  |
-| `c2-l016` | &emsp;*mem que não eſta a inda deſtro, & exercitado* |  |
+| `c2-l016` | &emsp;*mem que não esta a inda deſtro, & exercitado* |  |
 | `c2-l017` | &emsp;*em publico.* |  |
 | `c2-l018` | Banbato. *Adu. Modo de ſoarẽ as azas dos paſ* |  |
-| `c2-l019` | &emsp;*ſaros que vão voando, ou de outro eſtrondo que* |  |
+| `c2-l019` | &emsp;*ſaros que vão voando, ou de outro estrondo que* |  |
 | `c2-l020` | &emsp;*faz o vento, ou alguem que vai andando, &c.* |  |
 | `c2-l021` | Banbocu. Yorozzuno qi. *Todas as aruores.* |  |
 | `c2-l022` | Banbucuro. *Saco da cama dos que vigião, ou* |  |
@@ -109,7 +109,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l029` | &emsp;*des do verão.* |  |
 | `c2-l030` | Bancha. Cha *ordinario que não he do bom.* |  |
 | `c2-l031` | Banchǒ. i. Banno nicqi. *Rol dos que vi-* |  |
-| `c2-l032` | &emsp;*gião. ¶* Banchǒni tçuqu. *Eſtar eſcri-* |  |
+| `c2-l032` | &emsp;*gião. ¶* Banchǒni tçuqu. *Estar eſcri-* |  |
 | `c2-l033` | &emsp;*to no rol da vigia.* |  |
 | `c2-l034` | Bancǒ. Yorozzuno ſaiuai. *Todos os bons* |  |
 | `c2-l035` | &emsp;*ſuçeſſos, ou proſperidades.* |  |
@@ -122,7 +122,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l042` | Bandori. *Paſſaro que vigia.* |  |
 | `c2-l043` | Bangacu. Voſoi gacumon. *O aprender* |  |
 | `c2-l044` | &emsp;*tarde, ou ja de muita idade. Vt,* Bangacu |  |
-| `c2-l045` | &emsp;ua rǒxite cô naxi. *O eſtudo tomado tarde* |  |
+| `c2-l045` | &emsp;ua rǒxite cô naxi. *O estudo tomado tarde* |  |
 | `c2-l046` | &emsp;*he trabalhoſo, & não proueitoſo.* |  |
 | `c2-l047` | Bangacu. Yorozzuno gacumon. *Todos os* |  |
 

@@ -18,7 +18,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l002` | Catari idaxi, ſu, aita. *Começar a praticar,* |  |
 | `c1-l003` | &emsp;*ou falar couſas paſſadas. ¶* Cono fito |  |
 | `c1-l004` | &emsp;qiŭoyete iroirono cotouo catariidaita. |  |
-| `c1-l005` | &emsp;*Mon. Eſte homem tomando alento contou* |  |
+| `c1-l005` | &emsp;*Mon. Este homem tomando alento contou* |  |
 | `c1-l006` | &emsp;*varias couſas. (a pratica.* |  |
 | `c1-l007` | Catariſute, tçuru, eta. *Deixar, ou acabar.* |  |
 | `c1-l008` | Cataritçurane, uru, eta. *Leuar enfiada a pratica.* |  |
@@ -33,30 +33,30 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l017` | &emsp;*uia de acontecer chorou muitas lagrimas.* |  |
 | `c1-l018` | Catariuocoxi, ſu, oita. *Tornar a praticar* |  |
 | `c1-l019` | &emsp;*o paſſado.* |  |
-| `c1-l020` | Cataſagari. *O eſtar hũa parte mais baixa que* |  |
-| `c1-l021` | &emsp;*outra. ¶ Item, Eſtar o veſtido de hũa* |  |
+| `c1-l020` | Cataſagari. *O estar hũa parte mais baixa que* |  |
+| `c1-l021` | &emsp;*outra. ¶ Item, Estar o vestido de hũa* |  |
 | `c1-l022` | &emsp;*parte mais baixo, ou comprido.* |  |
-| `c1-l023` | Cataſagarina. *Couſa deſigual por eſtar hũa* |  |
+| `c1-l023` | Cataſagarina. *Couſa deſigual por estar hũa* |  |
 | `c1-l024` | &emsp;*parte mais baixa que outra.* |  |
 | `c1-l025` | Cataſaqi. *Hũa ponta.* |  |
 | `c1-l026` | Cataſode. *Hũa manga.* |  |
 | `c1-l027` | Cataſoguizzucuri. *Certo modo de fazer ca-* |  |
 | `c1-l028` | &emsp;*ſas toſca, & imperfeitamente.* |  |
 | `c1-l029` | Catatçu. *Cuſpinho. Mas não ſe vſa ſe não* |  |
-| `c1-l030` | &emsp;*deſta maneira. Vt,* Catatçuuo nomu. |  |
-| `c1-l031` | &emsp;*Eſtar em grande trabalho, & perigo X. Mais* |  |
-| `c1-l032` | &emsp;*propriamente ſe diz, de que eſta cõ cuidado, &* |  |
+| `c1-l030` | &emsp;*desta maneira. Vt,* Catatçuuo nomu. |  |
+| `c1-l031` | &emsp;*Estar em grande trabalho, & perigo X. Mais* |  |
+| `c1-l032` | &emsp;*propriamente ſe diz, de que esta cõ cuidado, &* |  |
 | `c1-l033` | &emsp;*afflição ſobre algũ caſo.* |  |
 | `c1-l034` | Catatçuburi, l, quaguiù. *Caracol.* |  |
 | `c1-l035` | Catatçuqi. *Boyãozinho em que ſe mete* Cha |  |
-| `c1-l036` | &emsp;*moido pera ſe gaſtar.* |  |
+| `c1-l036` | &emsp;*moido pera ſe gastar.* |  |
 | `c1-l037` | Catate. *Hũa mão, frecha, &c.* |  |
 | `c1-l038` | Catatoqi. i. Fanji, l, fantôqi. *Por hum* |  |
 | `c1-l039` | &emsp;*pouco, ou mea hora.* |  |
 | `c1-l040` | Cataua. *Aleijão. ¶* Catauani naru. *Ser* |  |
 | `c1-l041` | &emsp;*aleijado.* |  |
 | `c1-l042` | Catauaguruma. *Carro como aleijado de hũa ſó* |  |
-| `c1-l043` | &emsp;*roda que não preſta ja para nada. Acomoda* |  |
+| `c1-l043` | &emsp;*roda que não presta ja para nada. Acomoda* |  |
 | `c1-l044` | &emsp;*ſe tambẽ nos Mais a hum homem que nenhum* |  |
 | `c1-l045` | &emsp;*remedio humano tem, &c.* |  |
 | `c1-l046` | Catauana. *Peſſoa aleijada.* |  |
@@ -104,10 +104,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l024` | &emsp;*muito ſe vſara em çapatos. A propria* |  |
 | `c2-l025` | &emsp;*palaura, & mais geral em couſas de pares,* |  |
 | `c2-l026` | &emsp;*como* Tabis, biǒbus *&c. he* Carachigui. |  |
-| `c2-l027` | Cataxiqi, u, ijta. *Eſtender hũa ſó manga,* |  |
+| `c2-l027` | Cataxiqi, u, ijta. *Estender hũa ſó manga,* |  |
 | `c2-l028` | &emsp;*&c. Vt,* Sodeuo cataxijte nuru. |  |
-| `c2-l029` | &emsp;*Eſtendendo a manga dormir ſobre ella, ou dor-* |  |
-| `c2-l030` | &emsp;*mir ſobre o braço, ou eſtribado ſobre o coto* |  |
+| `c2-l029` | &emsp;*Estendendo a manga dormir ſobre ella, ou dor-* |  |
+| `c2-l030` | &emsp;*mir ſobre o braço, ou estribado ſobre o coto* |  |
 | `c2-l031` | &emsp;*uelo.* |  |
 | `c2-l032` | Cataya. Sumǒuo toru ba. *Terreiro onde* |  |
 | `c2-l033` | &emsp;*ſe luta.* |  |

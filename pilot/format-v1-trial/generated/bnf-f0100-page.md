@@ -19,7 +19,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l003` | Cauori, u, otta. P. i. Niũô. *Cheirar, ou* |  |
 | `c1-l004` | &emsp;*recender. ¶ Vt,* Noqichicô fanatachi |  |
 | `c1-l005` | &emsp;banano attaga, cayeua natçucaxi cauot- |  |
-| `c1-l006` | &emsp;ta, &c. *Feiq. Lib. 4. Eſtaua hũa aruo* |  |
+| `c1-l006` | &emsp;ta, &c. *Feiq. Lib. 4. Estaua hũa aruo* |  |
 | `c1-l007` | &emsp;*re de boas flores junto das beiras do telhado q̃* |  |
 | `c1-l008` | &emsp;*com o vento cheiraua muito.* |  |
 | `c1-l009` | Cauoyebana. P. i. Caqitçubata. *Lirio.* |  |
@@ -31,7 +31,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l015` | Caxe. *Hũa maneira de ſarilho.* |  |
 | `c1-l016` | Caxegui. *Hum animal, ou ſaluajem do mato* |  |
 | `c1-l017` | &emsp;*como porco, & veado.* |  |
-| `c1-l018` | Caxegui. *Canas, ou paos que eſtão amarra-* |  |
+| `c1-l018` | Caxegui. *Canas, ou paos que estão amarra-* |  |
 | `c1-l019` | &emsp;*dos aos liços dependentes dos pés do tear.* |  |
 | `c1-l020` | Caxegui, u, eida. *Por diligencia, & induſ-* |  |
 | `c1-l021` | &emsp;*tria. Vt,* Xigoto, ſuxinnadeuo caxegui. |  |
@@ -46,13 +46,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l030` | Caxen. Vta yerabu. *Eſcolha de verſos.* |  |
 | `c1-l031` | Caxeſaburai. *Fidalgo pobre, & de pouca* |  |
 | `c1-l032` | &emsp;*renda.* |  |
-| `c1-l033` | Caxet. Yoqixet. *Dia feſtiual. ¶ Item,* |  |
+| `c1-l033` | Caxet. Yoqixet. *Dia festiual. ¶ Item,* |  |
 | `c1-l034` | &emsp;*Bom tempo.* |  |
 | `c1-l035` | Caxe. Vt, Caxeta fito. *Homem magro,* |  |
 | `c1-l036` | &emsp;*& desfeito. ¶ Item, Permet. Pobre, &* |  |
 | `c1-l037` | &emsp;*ſem fato. Vſaſe tambem no gerundio* Ca- |  |
-| `c1-l038` | &emsp;xete. *Eſtando magro, &c.* |  |
-| `c1-l039` | Caxi, ſu, aita. *Empreſtar. ¶ Item, A* |  |
+| `c1-l038` | &emsp;xete. *Estando magro, &c.* |  |
+| `c1-l039` | Caxi, ſu, aita. *Emprestar. ¶ Item, A* |  |
 | `c1-l040` | &emsp;*lugar, ou arendar algũa couſa a outro como* |  |
 | `c1-l041` | &emsp;*caſa, &c.* |  |
 | `c1-l042` | Caxi, ſu, aita. *Meter nagoa o arroz pera a* |  |
@@ -72,30 +72,30 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | Caxicodate. *O moſtrarſe prudente, ou ſagaz.* |  |
+| `c2-l001` | Caxicodate. *O mostrarſe prudente, ou ſagaz.* |  |
 | `c2-l002` | Caxicoi. *Prudente, & ſagaz.* |  |
 | `c2-l003` | &emsp;Caxicô. |  |
 | `c2-l004` | &emsp;Caxicola. |  |
-| `c2-l005` | Caxicomari, u, atta. *Eſtar em cocaras.* |  |
-| `c2-l006` | &emsp;*¶* Caxicomarta. *No preterito moſtrar a al* |  |
+| `c2-l005` | Caxicomari, u, atta. *Estar em cocaras.* |  |
+| `c2-l006` | &emsp;*¶* Caxicomarta. *No preterito mostrar a al* |  |
 | `c2-l007` | &emsp;*guem que conſente, & fara o que diz, humil-* |  |
-| `c2-l008` | &emsp;*mente. ¶* Caxicomatte iru. *Eſtar com* |  |
+| `c2-l008` | &emsp;*mente. ¶* Caxicomatte iru. *Estar com* |  |
 | `c2-l009` | &emsp;*reuerencia diante dalguẽ cõ as mãos no chão, &c.* |  |
 | `c2-l010` | Caxicomari zonji, zuru, ita. *Agradecer,* |  |
-| `c2-l011` | &emsp;*ou moſtrar reuerencia, & humildade.* |  |
+| `c2-l011` | &emsp;*ou mostrar reuerencia, & humildade.* |  |
 | `c2-l012` | Caxigome. *Arroz metido em agua pera amol-* |  |
 | `c2-l013` | &emsp;*lecer,* |  |
 | `c2-l014` | Caxij. *Hũa fruita do mato como bolotas, ou lan* |  |
 | `c2-l015` | &emsp;*deas pequenas,* |  |
 | `c2-l016` | Caxi iye. *Caſa de aluguer.* |  |
 | `c2-l017` | Caximaxij. *O auer, ou fazer traquinada.* |  |
-| `c2-l018` | Caxin. *Hora boa, ou ditoſa, & bem eſtreada,* |  |
+| `c2-l018` | Caxin. *Hora boa, ou ditoſa, & bem estreada,* |  |
 | `c2-l019` | &emsp;*ou hora de alegria.* |  |
 | `c2-l020` | Caxinomi. *Bolotas, ou landeas que trauão.* |  |
-| `c2-l021` | Caxinogi. *Aruore que dá eſta fruita do mato* |  |
+| `c2-l021` | Caxinogi. *Aruore que dá esta fruita do mato* |  |
 | `c2-l022` | &emsp;*que he como carualho.* |  |
 | `c2-l023` | Caxiqe, uru, eta. *Ser magro, desfeito, ou* |  |
-| `c2-l024` | &emsp;*eſteril. ¶* Fanamo vazzucani, codachi |  |
+| `c2-l024` | &emsp;*esteril. ¶* Fanamo vazzucani, codachi |  |
 | `c2-l025` | &emsp;mo caxige tatçu. *Fox. Lib. 1. As fo-* |  |
 | `c2-l026` | &emsp;*lhas nacião ja pequenas, & os ramos fracos, &* |  |
 | `c2-l027` | &emsp;*magros. ¶* Caxiqeta fito. *Homem des* |  |

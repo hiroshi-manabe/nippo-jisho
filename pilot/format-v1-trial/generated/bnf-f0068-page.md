@@ -17,7 +17,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l001` | &emsp;*corteſias, & ſeruiço politico. ¶* Buxitçu- |  |
 | `c1-l002` | &emsp;queuo ſuru. *Fazer mao enſino, ou falta nas* |  |
 | `c1-l003` | &emsp;*corteſias.* |  |
-| `c1-l004` | Buxitçuqena. *Mal acoſtumado, ou que ſabe* |  |
+| `c1-l004` | Buxitçuqena. *Mal acostumado, ou que ſabe* |  |
 | `c1-l005` | &emsp;*pouco de policia, ceremonias, & cõprimentos.* |  |
 | `c1-l006` | &emsp;Buxitçuqeni. |  |
 | `c1-l007` | &emsp;Buxitçuqeſa. |  |
@@ -31,12 +31,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l015` | &emsp;Buxǒni. |  |
 | `c1-l016` | &emsp;Buxǒſa. |  |
 | `c1-l017` | Buxotai. i. Xotai xirazu. *Inhabil, & desma* |  |
-| `c1-l018` | &emsp;*zelado na adminiſtração do temporal da caſa,* |  |
+| `c1-l018` | &emsp;*zelado na administração do temporal da caſa,* |  |
 | `c1-l019` | &emsp;*gaſtãdo demazalada mente.* |  |
 | `c1-l020` | Buxotaina. *Idem.* |  |
 | `c1-l021` | Buxǒzzura. *Ruim focinho como de quẽ não* |  |
 | `c1-l022` | &emsp;*quer fazer a couſa por priguiça.* |  |
-| `c1-l023` | Buxu. Maino ſode. *Mangas dos veſtidos de* |  |
+| `c1-l023` | Buxu. Maino ſode. *Mangas dos vestidos de* |  |
 | `c1-l024` | &emsp;*que vſão nos bailos, com as quaes o que dança* |  |
 | `c1-l025` | &emsp;*faz mudanças, & meneos.* |  |
 | `c1-l026` | Buxucan. Fotoqeno te. *Cidra, ou cidrão q̃* |  |
@@ -53,14 +53,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l037` | Buxxet. Fotoqe xet. i. Fotoqeno voxiy e. |  |
 | `c1-l038` | &emsp;*Doutrina, ou preegação immediata do* Fotoqe. |  |
 | `c1-l039` | Buxxi. Fotoqeno co. *Filho do* Fotoqe. |  |
-| `c1-l040` | Buxxi. i. Fotoqe tçucuri. *Eſtatuario de* |  |
+| `c1-l040` | Buxxi. i. Fotoqe tçucuri. *Estatuario de* |  |
 | `c1-l041` | &emsp;*pagodes.* |  |
 | `c1-l042` | Buxxin. Fotoqeno cocoro. *Coração do* |  |
 | `c1-l043` | &emsp;fotoqe. |  |
 | `c1-l044` | Buxxin. Fotoqeno mi. *Corpo, ou ſer do* fotoqe. |  |
 | `c1-l045` | Buxxiya. *Caſa do que faz* fotoqes. |  |
 | `c1-l046` | Buxxo. Fotoqeno tocoro. *Lugar do* fotoqe. |  |
-| `c1-l047` | Buxxǒ. Fotoqeno xǒ. *Ser, & ſubſtan-* |  |
+| `c1-l047` | Buxxǒ. Fotoqeno xǒ. *Ser, & ſubstan-* |  |
 | `c1-l048` | &emsp;*cia do* fotoqe. |  |
 
 ## Column 2 running header
@@ -75,7 +75,7 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c2a-l001` | Buxxǒ. *Arroz que ſe poem diante dos* fo- |  |
 | `c2a-l002` | &emsp;toqes. |  |
-| `c2a-l003` | Buxxǒqi. *Vazo em que ſe poem eſte arroz.* |  |
+| `c2a-l003` | Buxxǒqi. *Vazo em que ſe poem este arroz.* |  |
 | `c2a-l004` | Buxxu. Fotoqeno tane. *Deſcendentes do* |  |
 | `c2a-l005` | &emsp;fotoqe. |  |
 | `c2a-l006` | Buxxu. Fotoqeno te. *Mãos do* fotoqe. |  |
@@ -124,8 +124,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2b-l011` | &emsp;ga vçuru. *Tomar algũa couſa, ou cheiro de* |  |
 | `c2b-l012` | &emsp;*outra. ¶* Caga qicoyuru. *Sentir ſe bom* |  |
 | `c2b-l013` | &emsp;*cheiro. ¶* Cauo tomuru. *Perfumarſe,* |  |
-| `c2b-l014` | &emsp;*ou perfumar os veſtidos. ¶* Cauo xitǒ. |  |
-| `c2b-l015` | &emsp;*Ir raſtrejando pello cheiro, ou faro. ¶* Ca- |  |
+| `c2b-l014` | &emsp;*ou perfumar os vestidos. ¶* Cauo xitǒ. |  |
+| `c2b-l015` | &emsp;*Ir rastrejando pello cheiro, ou faro. ¶* Ca- |  |
 | `c2b-l016` | &emsp;uo ſaſſuru. *Eſpalhar cheiro. ¶* Caga |  |
 | `c2b-l017` | &emsp;ſatçuru. *Eſpalha ſe cheiro.* |  |
 | `c2b-l018` | Ca. Moſſuito. |  |

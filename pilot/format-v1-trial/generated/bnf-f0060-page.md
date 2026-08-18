@@ -45,9 +45,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l029` | &emsp;*mida particular.* |  |
 | `c1-l030` | Bǒjacubujin. *Deſauergonhado, & deſafora-* |  |
 | `c1-l031` | &emsp;*do que lhe não dà de ninguem.* |  |
-| `c1-l032` | Bǒjen. *Eſtar arrebatado, ou paſmado fora de* |  |
+| `c1-l032` | Bǒjen. *Estar arrebatado, ou paſmado fora de* |  |
 | `c1-l033` | &emsp;*ſi. ¶* Bǒjento aqire fatete iru. *Idẽ.* |  |
-| `c1-l034` | Bǒji, zuru, ita. *Eſtar alienado, & como fo* |  |
+| `c1-l034` | Bǒji, zuru, ita. *Estar alienado, & como fo* |  |
 | `c1-l035` | &emsp;*ra de ſi.* |  |
 | `c1-l036` | Bǒji. i. Bôxu. *Homem que vſa de enganos,* |  |
 | `c1-l037` | &emsp;*& ardis.* |  |
@@ -55,12 +55,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l039` | &emsp;*Palaura limpa. ¶* Bǒjiga ſugure varui. |  |
 | `c1-l040` | &emsp;*Darſe demaſiadamente a molheres, he ruim.* |  |
 | `c1-l041` | &emsp;*¶* Bǒjino ſugoſu. *Darſe muito a molhe-* |  |
-| `c1-l042` | &emsp;*res, ou vſar muito deſte ajuntamento, &c.* |  |
+| `c1-l042` | &emsp;*res, ou vſar muito deste ajuntamento, &c.* |  |
 | `c1-l043` | Bǒji. *Homem de ſeruiço que a carreta ſa-* |  |
 | `c1-l044` | &emsp;*lo, &c.* |  |
-| `c1-l045` | Bôjǒ. *Veſtido feito de pedaços, ou remendos.* |  |
+| `c1-l045` | Bôjǒ. *Vestido feito de pedaços, ou remendos.* |  |
 | `c1-l046` | &emsp;*¶ Vt,* Fari bôjǒ. *Veſtido remendado, ou* |  |
-| `c1-l047` | &emsp;*feito de pedaços lauado, & eſtendido ao ſol.* |  |
+| `c1-l047` | &emsp;*feito de pedaços lauado, & estendido ao ſol.* |  |
 
 ## Column 2 running header
 
@@ -72,17 +72,17 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | Bǒman. Aqimitçuru. *Eſtar farto ate ma-* |  |
+| `c2-l001` | Bǒman. Aqimitçuru. *Estar farto ate ma-* |  |
 | `c2-l002` | &emsp;*is não poder, & emfaſtiado. ¶* Bǒman |  |
 | `c2-l003` | &emsp;ſuru. *Fartarſe ate não poder mais.* |  |
 | `c2-l004` | Bon. Fotogui. *Bandeja, ou baçio de pao* |  |
 | `c2-l005` | &emsp;*em que poem fruita, &c.* |  |
-| `c2-l006` | Bon. *Feſta dos finados dos gentios que fazem* |  |
+| `c2-l006` | Bon. *Festa dos finados dos gentios que fazem* |  |
 | `c2-l007` | &emsp;*aos 14. ou 15. da ſetima lũa na qual acẽ-* |  |
 | `c2-l008` | &emsp;*dem candeas tres dias à boca da noite.* |  |
 | `c2-l009` | Bǒnai. Tçubonenouchi. *Dentro da caſa ou ca* |  |
 | `c2-l010` | &emsp;*mara particular de alguem.* |  |
-| `c2-l011` | Bonborito. *Adu. Modo de eſtar a* Vata, |  |
+| `c2-l011` | Bonborito. *Adu. Modo de estar a* Vata, |  |
 | `c2-l012` | &emsp;*ou algodão creſpo, & aleuantado, os cabellos* |  |
 | `c2-l013` | &emsp;*da cabeça creſpos, & em pedaços, &c.* |  |
 | `c2-l014` | Bonbu. *Ignorante, ou ſem letras, & digni-* |  |
@@ -104,7 +104,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l030` | &emsp;*Sião.* |  |
 | `c2-l031` | Bonji. Tengicuno ji. *Letra de Sião.* |  |
 | `c2-l032` | Bonju. i. Zôbocu. *Aruore commũa, & de* |  |
-| `c2-l033` | &emsp;*pouca eſtima.* |  |
+| `c2-l033` | &emsp;*pouca estima.* |  |
 | `c2-l034` | Bonnin. i. Bonbu. *Homem que não tem* |  |
 | `c2-l035` | &emsp;*dignidade algũa, baixo, & ſem letras.* |  |
 | `c2-l036` | Bonnǒ. Vazzurai nayami. i. Togano ſô- |  |
@@ -113,7 +113,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l039` | &emsp;*¶ Item, Concupiſcencia, ou ſenſualidade.* |  |
 | `c2-l040` | &emsp;*¶* Bonnǒno coigi. *Afflição interior q̃* |  |
 | `c2-l041` | &emsp;*ſe ſente com deſejos ſenſuaes. ¶* Bonnǒ |  |
-| `c2-l042` | &emsp;cubi. *Vt,* Bonnǒ cubiuo ſuru. *Eſtar* |  |
+| `c2-l042` | &emsp;cubi. *Vt,* Bonnǒ cubiuo ſuru. *Estar* |  |
 | `c2-l043` | &emsp;*deleixado, ou deſmayado com algũa afflição co* |  |
 | `c2-l044` | &emsp;*mo fome, cuidado, &c.* |  |
 | `c2-l045` | Bonnocubo. *Touriço, ou coua do touriço.* |  |

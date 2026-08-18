@@ -90,7 +90,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l002` | &emsp;*O paſſear o caualo antes de correr a carreira.* |  |
 | `c2-l003` | &emsp;*¶* Ba farete ſuru. *Fazer algũa couſa pu-* |  |
 | `c2-l004` | &emsp;*blica, & manifeſtamente. ¶* Ba fareta |  |
-| `c2-l005` | &emsp;coto. *Couſa publica, & manifeſta, ou fei* |  |
+| `c2-l005` | &emsp;coto. *Couſa publica, & manifesta, ou fei* |  |
 | `c2-l006` | &emsp;*ta em publico. ¶* Bauo toru. i. Tocoro |  |
 | `c2-l007` | &emsp;uo fuſagu. *Occupar lugar. ¶ Itẽ, Per-* |  |
 | `c2-l008` | &emsp;*met. Fazer aparato, ou terreiro com algum* |  |
@@ -101,13 +101,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l013` | Babagaxira. *Principio, ou cabeceira da carri* |  |
 | `c2-l014` | &emsp;*ra dos caualos.* |  |
 | `c2-l015` | Babamecaſu. *Fazer ſoar cõ traquinada. Vt,* |  |
-| `c2-l016` | &emsp;Vmauo babamecaſu. *Fazer eſtropiada, ou* |  |
+| `c2-l016` | &emsp;Vmauo babamecaſu. *Fazer estropiada, ou* |  |
 | `c2-l017` | &emsp;*eſtrondo com os caualos.* |  |
 | `c2-l018` | Babaxij. *Vt,* Babaxij fito. *Hom em que* |  |
-| `c2-l019` | &emsp;*no exterior ſe moſtra inquieto, & deſe-* |  |
+| `c2-l019` | &emsp;*no exterior ſe mostra inquieto, & deſe-* |  |
 | `c2-l020` | &emsp;*manchado nas palauras, & mais acçoẽs.* |  |
 | `c2-l021` | Babameqi, u, eita. *Fazer traquinada, ou* |  |
-| `c2-l022` | &emsp;*eſtrondo o caualo.* |  |
+| `c2-l022` | &emsp;*estrondo o caualo.* |  |
 | `c2-l023` | Babamixe. *O paſſear o caualo a carreira antes* |  |
 | `c2-l024` | &emsp;*que corra.* |  |
 | `c2-l025` | Babato ſuru. i. Babamequ. |  |

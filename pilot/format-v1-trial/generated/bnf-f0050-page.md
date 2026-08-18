@@ -101,14 +101,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l027` | &emsp;*dos os reinos.* |  |
 | `c2-l028` | Banpǒ. Yorozzuno cata. *Todas as partes.* |  |
 | `c2-l029` | Banpǔ. Cureno caje. *Vento que venta à tarde.* |  |
-| `c2-l030` | Banqei. Cureno qei. *Viſta da tarde.* |  |
-| `c2-l031` | Banqei i. Yorozzuno qei. *Todas as viſtas.* |  |
+| `c2-l030` | Banqei. Cureno qei. *Vista da tarde.* |  |
+| `c2-l031` | Banqei i. Yorozzuno qei. *Todas as vistas.* |  |
 | `c2-l032` | Banqi. *Vt,* Banqino matçurigoto. *To-* |  |
 | `c2-l033` | &emsp;*das as leis, ou ordenaçoẽs do gouerno politico.* |  |
 | `c2-l034` | Banqi. Yorozzuno yorocobi. *Todas as a-* |  |
 | `c2-l035` | &emsp;*legrias.* |  |
 | `c2-l036` | Banqichi, l, banqit. *Todas as couſas boas.* |  |
-| `c2-l037` | Banqiǒ. *Boa viſta, ou bons objectos da viſta.* |  |
+| `c2-l037` | Banqiǒ. *Boa vista, ou bons objectos da vista.* |  |
 | `c2-l038` | &emsp;*Vt,* Xenqei banqiǒ. *Todas as couſas bo-* |  |
 | `c2-l039` | &emsp;*as, & apraziueis à viſta.* |  |
 | `c2-l040` | Banqit, l, banqichi. Yorozzuno yoi coto. |  |

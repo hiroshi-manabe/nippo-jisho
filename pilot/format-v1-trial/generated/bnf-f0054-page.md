@@ -27,7 +27,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l011` | Bentǒ. *Hũa caixa como eſcritorio, que tem* |  |
 | `c1-l012` | &emsp;*dentro gauetas em que ſe leuão couſas de comer.* |  |
 | `c1-l013` | Bentocu. Vaqimayeuru. *O entender.* |  |
-| `c1-l014` | Bentǒna. *Couſa Abaſtada, ou abundante.* |  |
+| `c1-l014` | Bentǒna. *Couſa Abastada, ou abundante.* |  |
 | `c1-l015` | &emsp;Bentǒni. |  |
 | `c1-l016` | &emsp;Bentǒſa. |  |
 | `c1-l017` | Bentǒxa. *Homem rico, ou que tem algũa cou-* |  |
@@ -49,7 +49,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l033` | &emsp;*Alcaide, cabeça dos lauradores.* |  |
 | `c1-l034` | Beô. i. Beôxo. *Sepultura, ou tumulo.* |  |
 | `c1-l035` | Beôbeô. Farucani, faruca nari. *Muito lar-* |  |
-| `c1-l036` | &emsp;*go, ou diſtante à viſta. ¶* Beôbeôto xi- |  |
+| `c1-l036` | &emsp;*go, ou distante à viſta. ¶* Beôbeôto xi- |  |
 | `c1-l037` | &emsp;ta nobara. *Campo que parece muito longe* |  |
 | `c1-l038` | &emsp;*comprido, & largo.* |  |
 | `c1-l039` | Beôbǒ. Farucani, farucanari. *Idem.* |  |
@@ -103,7 +103,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l029` | Betgiô. Bechinocoto. *Outro capitulo, ou* |  |
 | `c2-l030` | &emsp;*outra couſa differente.* |  |
 | `c2-l031` | Betguiô. Bechino xidaza. *Outra obra, ou* |  |
-| `c2-l032` | &emsp;*exercicio. ¶ Item, Adro, que eſta nos* |  |
+| `c2-l032` | &emsp;*exercicio. ¶ Item, Adro, que esta nos* |  |
 | `c2-l033` | &emsp;*campos, ou montes. ¶ Item, Outra pouo* |  |
 | `c2-l034` | &emsp;*ção, ou lugar.* |  |
 | `c2-l035` | Betgo. Vacareno nochi. *Depois do aparta-* |  |

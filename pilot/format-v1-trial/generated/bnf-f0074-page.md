@@ -15,7 +15,7 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c1-l001` | &emsp;*cantos, ou pontas, & que não he liza, ou redon-* |  |
-| `c1-l002` | &emsp;*da. ¶ Item, Homem agaſtado, & que* |  |
+| `c1-l002` | &emsp;*da. ¶ Item, Homem agastado, & que* |  |
 | `c1-l003` | &emsp;*da nos olhos dos outros com ſeu modo.* |  |
 | `c1-l004` | Cadogamaxij. *Idem quod* Cado. |  |
 | `c1-l005` | Cadode. *Primeira ſaida. A propria* |  |
@@ -34,13 +34,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l018` | &emsp;*não pera caſa. ¶ Item, O partirſe pera* |  |
 | `c1-l019` | &emsp;*as tais partes ſẽ tornar logo. ¶* Cadode, l, |  |
 | `c1-l020` | &emsp;cadoide yoi, l, axij. *Ser a ſaida boa, bem,* |  |
-| `c1-l021` | &emsp;*ou mal eſtreada conforme ao ſucceſſo que tem* |  |
+| `c1-l021` | &emsp;*ou mal estreada conforme ao ſucceſſo que tem* |  |
 | `c1-l022` | &emsp;*no dia em que ſaem, ou ſe partem deueras, &* |  |
 | `c1-l023` | &emsp;*aſſi ſe acerta de encontrar algũa peſſoa a que* |  |
 | `c1-l024` | &emsp;*tem odio, &c. dizem* cadoideuo ximauoi |  |
 | `c1-l025` | &emsp;te mairo. *Quero ir me emendar, ou mi-* |  |
-| `c1-l026` | &emsp;*lhorar eſta ſaida, o q̃ fazem tornando ſe pera* |  |
-| `c1-l027` | &emsp;*caſa. ¶* Cadoideuo ſuru. *Fazer eſta ſaida.* |  |
+| `c1-l026` | &emsp;*lhorar esta ſaida, o q̃ fazem tornando ſe pera* |  |
+| `c1-l027` | &emsp;*caſa. ¶* Cadoideuo ſuru. *Fazer esta ſaida.* |  |
 | `c1-l028` | Cadome, uru, eta. *Notar vendo, ou pergun-* |  |
 | `c1-l029` | &emsp;*tando.* |  |
 | `c1-l030` | Cadotagai. i. Cadochigai. *O errar a porta,* |  |
@@ -50,7 +50,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l034` | Cadǒxa. Vtano michiuo xitta fito. *Poeta.* |  |
 | `c1-l035` | Cafacu. i. Suijin. Cami *que guarda, ou tem* |  |
 | `c1-l036` | &emsp;*cuidado dos rios, como imaginão os gentios.* |  |
-| `c1-l037` | &emsp;*¶ Item,* Odono, *ou meſtre que gouerna a* |  |
+| `c1-l037` | &emsp;*¶ Item,* Odono, *ou mestre que gouerna a* |  |
 | `c1-l038` | &emsp;*ẽbarcação dos rios, q̃ ſẽpre anda, & viue.* |  |
 | `c1-l039` | Cafan. Fanuo cuuayuru. i. Fiteno ſaino ſo- |  |
 | `c1-l040` | &emsp;bani ſuyuru. *Aſinarem muitos juntos.* |  |
@@ -73,7 +73,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | Cafǔ. Iyeno fǔ. i. Catagui. *Cuſtume par-* |  |
+| `c2-l001` | Cafǔ. Iyeno fǔ. i. Catagui. *Custume par-* |  |
 | `c2-l002` | &emsp;*ticular dalgũa familia, ou arte que por dedução* |  |
 | `c2-l003` | &emsp;*he propria de algũa familia. ¶* Cafǔ jin |  |
 | `c2-l004` | &emsp;jǒni xite. *Sendo arte limpa, & liberal co* |  |

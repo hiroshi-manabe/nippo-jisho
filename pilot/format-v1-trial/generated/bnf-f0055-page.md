@@ -23,7 +23,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1a-l007` | Berrui. Bechino taguy. *Outra eſpecie, ou* |  |
 | `c1a-l008` | &emsp;*laya.* |  |
 | `c1a-l009` | Bettacu. Bechino iye. *Outra caſa.* |  |
-| `c1a-l010` | Bettai. Bechino tai. *Outra ſuſtancia.* |  |
+| `c1a-l010` | Bettai. Bechino tai. *Outra ſustancia.* |  |
 | `c1a-l011` | Bettarito. *Adu. Modo de eſcorregar, ou ca-* |  |
 | `c1a-l012` | &emsp;*ir na lama, &c. ¶ Item, Modo de pegar* |  |
 | `c1a-l013` | &emsp;*algũa couſa como barro à parede, &c.* |  |
@@ -68,7 +68,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1b-l008` | &emsp;*do de maneira que fique de cor de ſandalo bem* |  |
 | `c1b-l009` | &emsp;*polido, & lizo. ¶* Biacudan migaguini |  |
 | `c1b-l010` | &emsp;ſuru. *Vruxar deſta maneira. ¶* Biacu- |  |
-| `c1b-l011` | &emsp;danno iro. *Cor deſte pao que ſe deita cõ Vru-* |  |
+| `c1b-l011` | &emsp;danno iro. *Cor deste pao que ſe deita cõ Vru-* |  |
 | `c1b-l012` | &emsp;*xi ſobre dourado.* |  |
 | `c1b-l013` | Biacugi. *¶ Vt,* Monjet biacugi ſuru. |  |
 
@@ -88,7 +88,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | &emsp;*Cair em terra de pura triſteza & afflição, ou es* |  |
+| `c2-l001` | &emsp;*Cair em terra de pura tristeza & afflição, ou es* |  |
 | `c2-l002` | &emsp;*morecer.* |  |
 | `c2-l003` | Biacuguiũ. Xiroi vxi. *Vaca, ou boi brãco.* |  |
 | `c2-l004` | Biacujut. *Mezinha de certas raizes de hũa er-* |  |
@@ -105,35 +105,35 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l015` | Biacurocu. Xiroi canoxixi. *Veado branco.* |  |
 | `c2-l016` | Biacurocu. *Tinta de cor verde claro.* |  |
 | `c2-l017` | Biacuriũ. Xiroi tatçu. *Lagarto branco.* |  |
-| `c2-l018` | Biacutanji, zuru. i. Biacuyede iru. *Eſtar* |  |
-| `c2-l019` | &emsp;*com os veſtidos mal compoſto, deſapertado ſem* |  |
+| `c2-l018` | Biacutanji, zuru. i. Biacuyede iru. *Estar* |  |
+| `c2-l019` | &emsp;*com os vestidos mal composto, deſapertado ſem* |  |
 | `c2-l020` | &emsp;*cinto, &c. ¶* Biacutanjita nari. *Fei-* |  |
-| `c2-l021` | &emsp;*ção, ou maneira de eſtar aſſi mal veſtido, &* |  |
+| `c2-l021` | &emsp;*ção, ou maneira de estar aſſi mal vestido, &* |  |
 | `c2-l022` | &emsp;*deſapertado, &c.* |  |
 | `c2-l023` | Biacu xacuyacu. *Certas roſas brancas grã-* |  |
-| `c2-l024` | &emsp;*des, ou a erua que daa eſtas roſas.* |  |
+| `c2-l024` | &emsp;*des, ou a erua que daa estas roſas.* |  |
 | `c2-l025` | Biacuxi. *Certa aruorezinha que ſe planta nas* |  |
 | `c2-l026` | &emsp;*niuas do Iapão, que tẽ a folha como da lecrim.* |  |
 | `c2-l027` | Biacuxin. *Hũa aruorezinha das niuas muito* |  |
-| `c2-l028` | &emsp;*eſpeſſa, como acipreſtre.* |  |
+| `c2-l028` | &emsp;*eſpeſſa, como aciprestre.* |  |
 | `c2-l029` | Biacuxiqi. Xiroi iro. *Cor branca.* |  |
-| `c2-l030` | Biacuye. *O eſtar em corpo ſem calções os* |  |
+| `c2-l030` | Biacuye. *O estar em corpo ſem calções os* |  |
 | `c2-l031` | &emsp;*ſeculares, & ſem* Coromo *os* Bôzos *como* |  |
-| `c2-l032` | &emsp;*quem eſta mal deſpoſto, deſconcertado no ves* |  |
-| `c2-l033` | &emsp;*tido. ¶* Biacuyede iru. *Eſtar aſſi* |  |
-| `c2-l034` | &emsp;*mal compoſto, & atauiado.* |  |
+| `c2-l032` | &emsp;*quem esta mal deſposto, deſconcertado no ves* |  |
+| `c2-l033` | &emsp;*tido. ¶* Biacuyede iru. *Estar aſſi* |  |
+| `c2-l034` | &emsp;*mal composto, & atauiado.* |  |
 | `c2-l035` | Biacuzô. Xiroizô. *Elefante branco.* |  |
 | `c2-l036` | Biacuzzuiqu. *Certa mezinha.* |  |
 | `c2-l037` | Bibixi. Vtçucuxu, vtçucuxij. *Couſa viſ-* |  |
-| `c2-l038` | &emsp;*toſa, magnifica, & luſtroſa. ¶* Bibixij |  |
-| `c2-l039` | &emsp;detachi. *Trajo, ou veſtido limpo, &* |  |
-| `c2-l040` | &emsp;*luſtroſo. ¶* Bibixij ariſama. *Manei-* |  |
+| `c2-l038` | &emsp;*toſa, magnifica, & lustroſa. ¶* Bibixij |  |
+| `c2-l039` | &emsp;detachi. *Trajo, ou vestido limpo, &* |  |
+| `c2-l040` | &emsp;*lustroſo. ¶* Bibixij ariſama. *Manei-* |  |
 | `c2-l041` | &emsp;*ra, ou modo de ſe tratar bem, & luzida-* |  |
 | `c2-l042` | &emsp;*mente, & com fausto.* |  |
 | `c2-l043` | &emsp;Bibixiſa. |  |
 | `c2-l044` | &emsp;Bibixii. |  |
 | `c2-l045` | Bibocu. Mayume. i. Mime. *Parecer do* |  |
-| `c2-l046` | &emsp;*roſto.* |  |
+| `c2-l046` | &emsp;*rosto.* |  |
 | `c2-l047` | Bibocu. Faname. *Nariz, & olhos.* |  |
 
 ## Signature

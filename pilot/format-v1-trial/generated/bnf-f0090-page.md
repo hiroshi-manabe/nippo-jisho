@@ -34,7 +34,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l018` | Caqitçuqe, uru, eta. *Chegar com a tumba,* |  |
 | `c1-l019` | &emsp;*andas, &c. ao lugar determinado onde hia.* |  |
 | `c1-l020` | Caqitçurane, uru, eta. *Pintar, ou eſcreuer* |  |
-| `c1-l021` | &emsp;*algũa couſa infeſta, ou continuada com outra.* |  |
+| `c1-l021` | &emsp;*algũa couſa infesta, ou continuada com outra.* |  |
 | `c1-l022` | Caqitodome, uru, eta. *Acabar de eſcreuer* |  |
 | `c1-l023` | &emsp;*algũa couſa. ¶ Item, Deixar eſcrito pera o* |  |
 | `c1-l024` | &emsp;*diante. Vt,* Vtauo caqitodometa. *Dei* |  |
@@ -44,8 +44,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l028` | &emsp;*uer alguã couſa.* |  |
 | `c1-l029` | Caqiutçuxi, ſu, uita. *Trasladar. ¶ Item,* |  |
 | `c1-l030` | &emsp;*Debuxar, ou tirar hũa couſa por outra.* |  |
-| `c1-l031` | Caqiuoi, ô, ôta. *Leuar às coſtas.* |  |
-| `c1-l032` | Caqiuoqi. *Teſtamento.* |  |
+| `c1-l031` | Caqiuoi, ô, ôta. *Leuar às costas.* |  |
+| `c1-l032` | Caqiuoqi. *Testamento.* |  |
 | `c1-l033` | Caqiuoqi, u, oita. *Deixar eſcrito algũa couſa.* |  |
 | `c1-l034` | Caqiuotoxi, ſu, oita. *Deixar por erro de eſcre* |  |
 | `c1-l035` | &emsp;*uer algũa couſa.* |  |
@@ -74,10 +74,10 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c2-l001` | &emsp;*hũ traz aos ombros, ou nas mãos a algũa parte.* |  |
 | `c2-l002` | Caqiyoxe, ſuru, eta. *Ajuntar com os de-* |  |
-| `c2-l003` | &emsp;*dos das mãos, ou com inſtrumento algũas cou-* |  |
+| `c2-l003` | &emsp;*dos das mãos, ou com instrumento algũas cou-* |  |
 | `c2-l004` | &emsp;*ſas eſpalhadas pollo chão. Vt,* Matçubauo |  |
 | `c2-l005` | &emsp;caqiyoſuru. *Ajutar, & apanhar com as* |  |
-| `c2-l006` | &emsp;*mãos, ou com inſtrumento folhas de pinheiro.* |  |
+| `c2-l006` | &emsp;*mãos, ou com instrumento folhas de pinheiro.* |  |
 | `c2-l007` | Caqizome. *O tingir de cor de figos de Iapão* |  |
 | `c2-l008` | &emsp;*meos maduros.* |  |
 | `c2-l009` | Cara. Gu ella. *Vt,* Carauo caqu, l, fana |  |
@@ -99,7 +99,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l025` | &emsp;*couſa, ou deixar ſecar ao ar, &c.* |  |
 | `c2-l026` | Carabi, uru, ita. *Secarſe ao ſol, ou ao ar.* |  |
 | `c2-l027` | &emsp;*¶ Item, Per met.* Carabita ſurumai. *Cõuida* |  |
-| `c2-l028` | &emsp;*de pouco comer, & fauſto.* |  |
+| `c2-l028` | &emsp;*de pouco comer, & fausto.* |  |
 | `c2-l029` | Carabune. *Melius.* Caraſune. *Embar-* |  |
 | `c2-l030` | &emsp;*cação vazia. ¶* Caraiye. *Caſa vazia,* |  |
 | `c2-l031` | &emsp;*ſem fato.* |  |
@@ -110,9 +110,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l036` | Caracaimaqe, uru, eta. *Ficar vencido na* |  |
 | `c2-l037` | &emsp;*contenda.* |  |
 | `c2-l038` | Caracami. *Papel adamaſcado.* |  |
-| `c2-l039` | Caracami xǒji. *Portas, ou adufas deſte* |  |
+| `c2-l039` | Caracami xǒji. *Portas, ou adufas deste* |  |
 | `c2-l040` | &emsp;*papel.* |  |
-| `c2-l041` | Caracane. *Hum certo metal compoſto de co-* |  |
+| `c2-l041` | Caracane. *Hum certo metal composto de co-* |  |
 | `c2-l042` | &emsp;*bre, & calaim que ſerue pera a fundição.* |  |
 | `c2-l043` | Caracara. *Adu. Modo de rir com ſaguinos.* |  |
 | `c2-l044` | Caracarato. *Idem. ¶* Caracarato varǒ. |  |

@@ -30,7 +30,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l014` | Bucô. i. Habito, ou exercicio de ſoldado. |  |
 | `c1-l015` | Bucǒcǒ. i. Cǒcǒnaxi. *Deſobediencia ao pay,* |  |
 | `c1-l016` | &emsp;*& mãy, ou ao ſenhor, & meſtre. Poſto que* |  |
-| `c1-l017` | &emsp;*ordinariamente ſe vſa ſó pera cõ o pay, & meſtre.* |  |
+| `c1-l017` | &emsp;*ordinariamente ſe vſa ſó pera cõ o pay, & mestre.* |  |
 | `c1-l018` | Bucôſa. *Pouca experiencia, ou nenhum exerci-* |  |
 | `c1-l019` | &emsp;*cio, ou habito.* |  |
 | `c1-l020` | Bucotna. i. Iguiuno xiranu mono. *Peſſoa* |  |
@@ -87,7 +87,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l006` | Bufiǒ. Cachidachino muxa. *Pião peça do* |  |
 | `c2-l007` | &emsp;*enxadrez. ¶ Item,* Bunnaru. *Homem* |  |
 | `c2-l008` | &emsp;*que leua o fato de carreto na guerra, traba-* |  |
-| `c2-l009` | &emsp;*lhador, ou gaſtador. Item, Soldado de pee.* |  |
+| `c2-l009` | &emsp;*lhador, ou gastador. Item, Soldado de pee.* |  |
 | `c2-l010` | Bufôcô. *Falta ou negligencia no ſeruiço.* |  |
 | `c2-l011` | &emsp;*¶* Bufôcônin. *Homem negligente no* |  |
 | `c2-l012` | &emsp;*ſeruiço.* |  |
@@ -119,7 +119,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l038` | Buin. Votozzumanaxi. *Falta nos comprimen-* |  |
 | `c2-l039` | &emsp;*tos, & viſitas.* |  |
 | `c2-l040` | Buji. *Paz, tranquilidade. ¶* Bujini ſaca- |  |
-| `c2-l041` | &emsp;yuru. *Eſtar em grande paz, & tranquili-* |  |
+| `c2-l041` | &emsp;yuru. *Estar em grande paz, & tranquili-* |  |
 | `c2-l042` | &emsp;*dade. ¶* Bujini zocuſuru. *Aquietarſe,* |  |
 | `c2-l043` | &emsp;*& pacificarſe. ¶* Buji ancan. *Idem.* |  |
 | `c2-l044` | Bujina. *Couſa pacifica, & quieta.* |  |

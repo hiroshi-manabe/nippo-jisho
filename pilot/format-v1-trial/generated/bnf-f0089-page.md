@@ -23,11 +23,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l007` | &emsp;*ſe. Vt,* Fumiuo agete mirarureba, tu- |  |
 | `c1-l008` | &emsp;deno atoua namidanicaqicurete, ſoco fa- |  |
 | `c1-l009` | &emsp;catouamiyenu. *Feiq. Lib. 1. Atri* |  |
-| `c1-l010` | &emsp;*do, & vendo a carta eſtauão as letras com as* |  |
+| `c1-l010` | &emsp;*do, & vendo a carta estauão as letras com as* |  |
 | `c1-l011` | &emsp;*lagrimas apagadas, de maneira que não ſe diſ-* |  |
 | `c1-l012` | &emsp;*tinguião bem.* |  |
 | `c1-l013` | Caqicuuaye, uru, eta. *Eſcreuer ajuntando* |  |
-| `c1-l014` | &emsp;*ao que eſtá eſcrito. ¶ Item, Per met.* |  |
+| `c1-l014` | &emsp;*ao que está eſcrito. ¶ Item, Per met.* |  |
 | `c1-l015` | &emsp;*Contar a algum, ou metelo no numero de outros.* |  |
 | `c1-l016` | Caqicuyǒji, uru, ita. *Eſcreuendo alguã cou-* |  |
 | `c1-l017` | &emsp;*ſa offerecela ao* Fotoque. |  |
@@ -38,7 +38,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l022` | &emsp;*ſe diz* Caqidouoxi. |  |
 | `c1-l023` | Caqifuxe, uru, eta. *Tomando a alguem* |  |
 | `c1-l024` | &emsp;*nas mãos deitalo. Vt,* Fizano vyeni ca- |  |
-| `c1-l025` | &emsp;qifuxeta. *Encoſtouo ſobre os joelhos, ou* |  |
+| `c1-l025` | &emsp;qifuxeta. *Encostouo ſobre os joelhos, ou* |  |
 | `c1-l026` | &emsp;*pollo no regaço.* |  |
 | `c1-l027` | Caqi idaqi, u, aita. *Tomar nos braços.* |  |
 | `c1-l028` | Caqi idaxi, ſu, aita. *vide* Caqidaſu. |  |

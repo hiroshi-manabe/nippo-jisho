@@ -16,7 +16,7 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c1-l001` | &emsp;*ou de ſe menear, & mouer muito como peſſoa* |  |
 | `c1-l002` | &emsp;*que quer moſtrar os veſtidos, &c.* |  |
-| `c1-l003` | Biratçugi, qu. *O mouerſe deſta maneira, ou* |  |
+| `c1-l003` | Biratçugi, qu. *O mouerſe desta maneira, ou* |  |
 | `c1-l004` | &emsp;*virarſe pera varias partes como molher que ſe* |  |
 | `c1-l005` | &emsp;*quer moſtrar, &c.* |  |
 | `c1-l006` | Birei. Vtçucuxũ vruuaxij. *Fermoſura,* |  |
@@ -25,10 +25,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l009` | &emsp;*ou limpa, & luſtroſa, como veſtido, &c.* |  |
 | `c1-l010` | &emsp;Bireni. |  |
 | `c1-l011` | &emsp;Bireſa. |  |
-| `c1-l012` | Bireǒ. *Algũa parte rota do veſtido. Vt,* |  |
+| `c1-l012` | Bireǒ. *Algũa parte rota do vestido. Vt,* |  |
 | `c1-l013` | &emsp;Bireǒga ſigatta. *Andar algũa parte do* |  |
 | `c1-l014` | &emsp;*veſtido rota, & depenurada.* |  |
-| `c1-l015` | Bireǒ. Sucoxi ſuzuxi. *Freſco do eſtio que* |  |
+| `c1-l015` | Bireǒ. Sucoxi ſuzuxi. *Freſco do estio que* |  |
 | `c1-l016` | &emsp;*ſerue pera paſſar a calma.* |  |
 | `c1-l017` | Biribocu. Chicara ſucunaxi. *Poucas, ou* |  |
 | `c1-l018` | &emsp;*fracas forças.* |  |
@@ -51,13 +51,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l035` | &emsp;*entende em couſas muito meudas, &c.* |  |
 | `c1-l036` | &emsp;Biſaini. *Adu.* |  |
 | `c1-l037` | Biſô. Vtçucuxij yoſocoi. *Bom parecer, &* |  |
-| `c1-l038` | &emsp;*compoſtura do corpo.* |  |
+| `c1-l038` | &emsp;*compostura do corpo.* |  |
 | `c1-l039` | Bitô. Vtçucuxij ſô. Bôzo *bem aſſombrado.* |  |
 | `c1-l040` | Bitamecaxi, ſu, aita. i. Bitachitato ſuru. |  |
 | `c1-l041` | &emsp;*Fazer ſoar os veſtidos molhados, ou batendo* |  |
 | `c1-l042` | &emsp;*com a mão fazer ſoar agoa, &c.* |  |
 | `c1-l043` | Bitameqi, u, eita. *Soarem, ou bulirem os* |  |
-| `c1-l044` | &emsp;*veſtidos molhados, caindo no corpo, ou per-* |  |
+| `c1-l044` | &emsp;*vestidos molhados, caindo no corpo, ou per-* |  |
 | `c1-l045` | &emsp;*nas, ou bulir o peixe na agoa, &c.* |  |
 | `c1-l046` | Bitan. Fanano ſaxi. i. Fanano ſaqi. *Põ-* |  |
 | `c1-l047` | &emsp;*ta do nariz.* |  |
@@ -88,13 +88,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2a-l014` | Bixigo. *Melius.* Niſſgo. *Guincho paſſaro* |  |
 | `c2a-l015` | &emsp;*que toma peixe.* |  |
 | `c2a-l016` | Bixarito. *Adu. Modo de ſoar algũa couſa quãdo* |  |
-| `c2a-l017` | &emsp;*ſe eſborracha como figos maduros, ou poſtema q̃* |  |
+| `c2a-l017` | &emsp;*ſe eſborracha como figos maduros, ou postema q̃* |  |
 | `c2a-l018` | &emsp;*rebenta, ou ouos que ſe quebrão, & eſchorrão* |  |
 | `c2a-l019` | &emsp;*chão, &c. ¶* Caqiga bixarito tçuburuſu. |  |
 | `c2a-l020` | &emsp;*Eſborracharemſe os figos deſta maneira.* |  |
 | `c2a-l021` | Bixi. Sucoxino cocorozaxi. *Hũa pequena* |  |
-| `c2a-l022` | &emsp;*moſtra de amor. ¶ Vt,* Bixiuo araua |  |
-| `c2a-l023` | &emsp;ſu. *Moſtrar algum pequeno amor, ou boa* |  |
+| `c2a-l022` | &emsp;*mostra de amor. ¶ Vt,* Bixiuo araua |  |
+| `c2a-l023` | &emsp;ſu. *Mostrar algum pequeno amor, ou boa* |  |
 | `c2a-l024` | &emsp;*vontade.* |  |
 | `c2a-l025` | Bixô. Sucoxi, jǒ. *Couſa pouca, ou pouquidade.* |  |
 | `c2a-l026` | Bixôna. *Couſa pouca.* |  |
@@ -118,12 +118,12 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2b-l001` | Bǒ. *Baſtão, ou bordão, ou vara com que ſe* |  |
-| `c2b-l002` | &emsp;*caſtiga. ¶* Bôuo furu. *Eſgrimir com* |  |
+| `c2b-l001` | Bǒ. *Bastão, ou bordão, ou vara com que ſe* |  |
+| `c2b-l002` | &emsp;*castiga. ¶* Bôuo furu. *Eſgrimir com* |  |
 | `c2b-l003` | &emsp;*o baſtão, ou menealo. ¶* Bôuo tçucô. |  |
 | `c2b-l004` | &emsp;*Idem. ¶* Bôuo tçucu. *Vzar de bordão.* |  |
 | `c2b-l005` | &emsp;*¶* Bôno te. *Modo, ou arte de eſgrimir* |  |
-| `c2b-l006` | &emsp;*com baſtão.* |  |
+| `c2b-l006` | &emsp;*com bastão.* |  |
 | `c2b-l007` | Bǒ. Tçauo. *Moço pequeno recado que ſerue.* |  |
 | `c2b-l008` | Bôacu. Arai acu. i. Vôgina toga. *Gẽo* |  |
 | `c2b-l009` | &emsp;*de peccado, ou enorme maldade.* |  |

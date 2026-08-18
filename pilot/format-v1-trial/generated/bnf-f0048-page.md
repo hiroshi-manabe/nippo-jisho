@@ -21,11 +21,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l005` | &emsp;*damente. Vt,* Toxino fodoyorimo bac- |  |
 | `c1-l006` | &emsp;cun votonaxǔmiyuru. *Parece ter mais* |  |
 | `c1-l007` | &emsp;*cizo, & ſaber do que tem de idade.* |  |
-| `c1-l008` | Bachi. *Caſtigo de culpas. ¶* Bachiuo cǒ- |  |
-| `c1-l009` | &emsp;muru. *Ser caſtigado por ſuas culpas. ¶* Ba- |  |
-| `c1-l010` | &emsp;chiga ataru. *Receber caſtigo, ou pago* |  |
+| `c1-l008` | Bachi. *Castigo de culpas. ¶* Bachiuo cǒ- |  |
+| `c1-l009` | &emsp;muru. *Ser castigado por ſuas culpas. ¶* Ba- |  |
+| `c1-l010` | &emsp;chiga ataru. *Receber castigo, ou pago* |  |
 | `c1-l011` | &emsp;*dalgũa culpa. ¶* Voyano bachiuo cabu- |  |
-| `c1-l012` | &emsp;ru. *Receber opago, ou caſtigo de Deos* |  |
+| `c1-l012` | &emsp;ru. *Receber opago, ou castigo de Deos* |  |
 | `c1-l013` | &emsp;*pellas deſobediencias feitas aopai, ou mãy.* |  |
 | `c1-l014` | Bachi. *Pao cõ que tãgem o tamboril. ¶ Itẽ,* |  |
 | `c1-l015` | &emsp;*Hũ inſtrumento de feição de pentem com que* |  |
@@ -33,10 +33,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l017` | Bachibachi. *Adu. Modo de ſoarem as fo-* |  |
 | `c1-l018` | &emsp;*lhas quando ſe queimão, ou de outra couſa* |  |
 | `c1-l019` | &emsp;*quando batem, &c.* |  |
-| `c1-l020` | Bachimecaxi, ſu, aita. *Fazer eſtalar no* |  |
+| `c1-l020` | Bachimecaxi, ſu, aita. *Fazer estalar no* |  |
 | `c1-l021` | &emsp;*fogo canas, ou folhas, ou fazer ſoar mal o* |  |
 | `c1-l022` | &emsp;*tãbor, ou outra couſa.* |  |
-| `c1-l023` | Bachimeqi, u, eita. *Eſtalar no fogo como* |  |
+| `c1-l023` | Bachimeqi, u, eita. *Estalar no fogo como* |  |
 | `c1-l024` | &emsp;*canas, & folhas, ou ſoar mal o tãbor, &c.* |  |
 | `c1-l025` | Bachiuoto. *Som que faz o pentem comque ſe* |  |
 | `c1-l026` | &emsp;*tange a viola, ou o ſom dos paos com que tan-* |  |
@@ -103,16 +103,16 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l029` | Bafanbune. *Embarcaçaõ de ladroẽs, q̃ vaõ a* |  |
 | `c2-l030` | &emsp;*furtar a outro Reino.* Bafanjin. *La-* |  |
 | `c2-l031` | &emsp;*droẽs, ou coſairos que vaõ fazer eſtes furtos.* |  |
-| `c2-l032` | Bafaretacoto. *Couſa patente, & manifeſta.* |  |
+| `c2-l032` | Bafaretacoto. *Couſa patente, & manifesta.* |  |
 | `c2-l033` | Bafarete ſuru. *Fazer algũa couſa publica,* |  |
 | `c2-l034` | &emsp;*& manifeſtamente.* |  |
 | `c2-l035` | Bafi. Vmano caua. *Pelle de caualo.* |  |
-| `c2-l036` | Bafun. Vmano fun. *Eſterco do caualo.* |  |
-| `c2-l037` | Baguiǒ. Vmano catachi. *Feiçaõ, ou poſtu-* |  |
+| `c2-l036` | Bafun. Vmano fun. *Esterco do caualo.* |  |
+| `c2-l037` | Baguiǒ. Vmano catachi. *Feiçaõ, ou postu-* |  |
 | `c2-l038` | &emsp;*ra do caualo. ¶* Baguiǒ no yoi vma. |  |
-| `c2-l039` | &emsp;*Caualo bem poſto, & de boas feiçoẽs.* |  |
+| `c2-l039` | &emsp;*Caualo bem posto, & de boas feiçoẽs.* |  |
 | `c2-l040` | Baguiû. Vma Vxi. *Caualo, & vaca, ou boy.* |  |
-| `c2-l041` | Bai. *Eſpecie de oſtras, & mariſco do mar.* |  |
+| `c2-l041` | Bai. *Eſpecie de ostras, & mariſco do mar.* |  |
 | `c2-l042` | Baibai. Vricǒ. *Comprar, & vẽder, ou mer-* |  |
 | `c2-l043` | &emsp;*cancia. ¶* Baibaiuo itaſu. *Exercitar* |  |
 | `c2-l044` | &emsp;*a mercãcia.* |  |

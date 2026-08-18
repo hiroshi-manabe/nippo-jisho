@@ -15,10 +15,10 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c1-l001` | Caſanari, u, atta. *Acrecentarſe.* |  |
-| `c1-l002` | Caſanarifuxi, ſu, uita. *Eſtarem hũs ſobre os* |  |
+| `c1-l002` | Caſanarifuxi, ſu, uita. *Estarem hũs ſobre os* |  |
 | `c1-l003` | &emsp;*outros deitados. Vt,* Sanjunin vomoiuo- |  |
 | `c1-l004` | &emsp;moni fara caqiqitte vyega yyeni caſana- |  |
-| `c1-l005` | &emsp;ri ſuſu. *Taif. Lib. 26. Eſtauão trinta* |  |
+| `c1-l005` | &emsp;ri ſuſu. *Taif. Lib. 26. Estauão trinta* |  |
 | `c1-l006` | &emsp;*que ſe cortarão as barrigas deitados hũs ſobre* |  |
 | `c1-l007` | &emsp;*os outros.* |  |
 | `c1-l008` | Caſanari yuqi, u, uita. *Irſe acrecentando. vt* |  |
@@ -27,7 +27,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l011` | &emsp;*couſas enfadonhas.* |  |
 | `c1-l012` | Caſane, uru, eta. *Acrecentar. Vt,* Sono |  |
 | `c1-l013` | &emsp;vyeni mata yoyei ſanriǒ caſanete zacçuto |  |
-| `c1-l014` | &emsp;qi. *Alem diſſo veſtindo em cima tres cor-* |  |
+| `c1-l014` | &emsp;qi. *Alem diſſo vestindo em cima tres cor-* |  |
 | `c1-l015` | &emsp;*pos darmas.* |  |
 | `c1-l016` | Caſaneague, uru, eta. *Acumular. Clar.* |  |
 | `c1-l017` | Caſaneatçume, uru, eta. *Ajũtar, & acumu* |  |
@@ -36,10 +36,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l020` | &emsp;*outro no meſmo dia. Vt,* Finſǒno caſane |  |
 | `c1-l021` | &emsp;jǒyô. *Banquete de muitas partes que a cõ-* |  |
 | `c1-l022` | &emsp;*tece em hum meſmo tempo ao* Bǒzo *pobre.* |  |
-| `c1-l023` | Caſanegui. *Veſtidos huns ſobre os outros.* |  |
-| `c1-l024` | &emsp;*¶* Caſaneguiuo ſuru. *Veſtir veſtido ſobre* |  |
-| `c1-l025` | &emsp;*veſtido.* |  |
-| `c1-l026` | Caſaneqi, iru, ita. *veſtir huns veſtidos ſo-* |  |
+| `c1-l023` | Caſanegui. *Vestidos huns ſobre os outros.* |  |
+| `c1-l024` | &emsp;*¶* Caſaneguiuo ſuru. *Vestir vestido ſobre* |  |
+| `c1-l025` | &emsp;*vestido.* |  |
+| `c1-l026` | Caſaneqi, iru, ita. *vestir huns vestidos ſo-* |  |
 | `c1-l027` | &emsp;*bre outros.* |  |
 | `c1-l028` | Caſanete. *Adu. Outra vez.* |  |
 | `c1-l029` | Caſayadori. P. i. Aniayadori. *O aco-* |  |
@@ -74,7 +74,7 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c2-l001` | Caſugai. *Gatos de ferro pera ter mão em al-* |  |
 | `c2-l002` | &emsp;*gũa couſa. ¶* Caſugaiuo vtçu, l, cacu- |  |
-| `c2-l003` | &emsp;ru. *Pregar, ou por eſtes gatos de ferro.* |  |
+| `c2-l003` | &emsp;ru. *Pregar, ou por estes gatos de ferro.* |  |
 | `c2-l004` | Caſugue. *Certa cor de caualos como ruços q̃* |  |
 | `c2-l005` | &emsp;*tem mais de preto que branco.* |  |
 | `c2-l006` | Caſui. Cauano mizzu. *Agoa do rio, ou* |  |
@@ -87,11 +87,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l013` | Caſumi. *Neuoa, ou vapor. ¶ Item, Fu-* |  |
 | `c2-l014` | &emsp;*mo, ou bafo do vinho, ou vinagre, &c. quã* |  |
 | `c2-l015` | &emsp;*do ſe aquenta. ¶* Saqeno caſumiga tatçu. |  |
-| `c2-l016` | &emsp;*Aleuantarſe eſte vapor do vinho quando ſe* |  |
+| `c2-l016` | &emsp;*Aleuantarſe este vapor do vinho quando ſe* |  |
 | `c2-l017` | &emsp;*aquenta.* |  |
-| `c2-l018` | Caſumi, u, unda. *Eſtar o tempo enneuoado,* |  |
+| `c2-l018` | Caſumi, u, unda. *Estar o tempo enneuoado,* |  |
 | `c2-l019` | &emsp;*ou o ceo toldado.* |  |
-| `c2-l020` | Caſumiuatari, u, atta. *Eſtenderſe muito o* |  |
+| `c2-l020` | Caſumiuatari, u, atta. *Estenderſe muito o* |  |
 | `c2-l021` | &emsp;*neuoeiro. Vt,* Faruua yomoga caſumi |  |
 | `c2-l022` | &emsp;uataru. *Na primauera por todas as partes* |  |
 | `c2-l023` | &emsp;*ha neuoa.* |  |
@@ -99,9 +99,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l025` | &emsp;*do com colher, ou coco, &c. ¶* Tçubo |  |
 | `c2-l026` | &emsp;ſocouo caſuru. *Rapar o fundo do boyão.* |  |
 | `c2-l027` | Caſuri. *Hũa maneira de pintura como nuuẽs q̃* |  |
-| `c2-l028` | &emsp;*ſe fazem nos veſtidos de Iapão.* |  |
+| `c2-l028` | &emsp;*ſe fazem nos vestidos de Iapão.* |  |
 | `c2-l029` | Caſuuona. Xiroito curoini majiratta coto. |  |
-| `c2-l030` | &emsp;*Cor branca, & preta miſturada dos cabellos.* |  |
+| `c2-l030` | &emsp;*Cor branca, & preta misturada dos cabellos.* |  |
 | `c2-l031` | &emsp;*Vt,* Caſuuona camiuo carauani mague |  |
 | `c2-l032` | &emsp;te, &c. *Xid. Amarrando os cabellos da* |  |
 | `c2-l033` | &emsp;*cabeça que erão ja meos brancos.* |  |

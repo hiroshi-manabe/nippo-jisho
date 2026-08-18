@@ -14,11 +14,11 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | Carini. *Adu. De empreſtado, ou leuemente.* |  |
+| `c1-l001` | Carini. *Adu. De emprestado, ou leuemente.* |  |
 | `c1-l002` | Cariocu. Chicarauo cuuayuru. i. Cǒriocu |  |
 | `c1-l003` | &emsp;*oajudar, ou ajuda.* |  |
 | `c1-l004` | Cariſome. *Adu. Por hum pouco, ou de em-* |  |
-| `c1-l005` | &emsp;*preſtado.* |  |
+| `c1-l005` | &emsp;*prestado.* |  |
 | `c1-l006` | Cariſomeni. *Item.* |  |
 | `c1-l007` | Caritate, tçuru, eta. *Leuar diante deſi, ou* |  |
 | `c1-l008` | &emsp;*cercar inimigos, como quem cerca caça, &c.* |  |
@@ -36,8 +36,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l020` | &emsp;voſamete, &c. *Fei. Li. 2. Acabandoſe* |  |
 | `c1-l021` | &emsp;*os mantimentos ſegarão, & recolherão a ſe-* |  |
 | `c1-l022` | &emsp;*ara das varzeas.* |  |
-| `c1-l023` | Carixǒzocu. *Veſtidos de caça, ou de caminho.* |  |
-| `c1-l024` | Cariya. *Caſa empreſtada.* |  |
+| `c1-l023` | Carixǒzocu. *Vestidos de caça, ou de caminho.* |  |
+| `c1-l024` | Cariya. *Caſa emprestada.* |  |
 | `c1-l025` | Cariyado. *Idem.* |  |
 | `c1-l026` | Cariyaſu. *Hũa erua aſſi chamada que ſerue* |  |
 | `c1-l027` | &emsp;*para tingir de hũa cor que tira para verde,* |  |
@@ -59,7 +59,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l043` | &emsp;*fazem as riſcas na madeira. ¶ Item, No* |  |
 | `c1-l044` | &emsp;cami *ſe toma por hũa cruzeta que ſe faz de* |  |
 | `c1-l045` | &emsp;*dous paos ſobreque aſſentão barcas de vinho,* |  |
-| `c1-l046` | &emsp;*& as amarrão pera leuar às coſtas, ou aos* |  |
+| `c1-l046` | &emsp;*& as amarrão pera leuar às costas, ou aos* |  |
 | `c1-l047` | &emsp;*hombros.* |  |
 
 ## Column 2 running header
@@ -82,25 +82,25 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l002` | Carugaruxij. *Couſa, ou peſſoa leue.* |  |
 | `c2-l003` | &emsp;Carugaruxiſa. |  |
 | `c2-l004` | &emsp;Carugaruxǔ. |  |
-| `c2-l005` | Carugayuyeni. *Adu. Por eſta cauſa, por* |  |
+| `c2-l005` | Carugayuyeni. *Adu. Por esta cauſa, por* |  |
 | `c2-l006` | &emsp;*tanto, ou ſendo aſſi. S.* |  |
 | `c2-l007` | Carugueni. *Adu. Leuemente.* |  |
 | `c2-l008` | Carui. *Couſa leue. ¶ Item, Peſſoa de pou-* |  |
 | `c2-l009` | &emsp;*co ſizo.* |  |
 | `c2-l010` | &emsp;Caruſa. |  |
 | `c2-l011` | &emsp;Carǔ. |  |
-| `c2-l012` | Carui, ù, ùta. *Leuar algũa couſa nas coſtas.* |  |
+| `c2-l012` | Carui, ù, ùta. *Leuar algũa couſa nas costas.* |  |
 | `c2-l013` | &emsp;*X. No* Cami *ſe diz* Vǒi, ô. |  |
 | `c2-l014` | Caruixi. *Pedra pomez.* |  |
 | `c2-l015` | Carume, uru, eta. *Aliuiar. ¶* Vomoi |  |
-| `c2-l016` | &emsp;uo carumuru. *Aliuiar a triſteza, ou* |  |
+| `c2-l016` | &emsp;uo carumuru. *Aliuiar a tristeza, ou* |  |
 | `c2-l017` | &emsp;*cuidados.* |  |
 | `c2-l018` | Carumi, u, ùda. *Fazerſe leue, ou aliuiareſe.* |  |
 | `c2-l019` | Carumonogura. *Deſpença em que ſe tem cou* |  |
 | `c2-l020` | &emsp;*ſas leues, & mais menemei.* |  |
 | `c2-l021` | Carumuxa. *Soldado ligeiro.* |  |
 | `c2-l022` | Carunori. *O caualgar ligeiramente.* |  |
-| `c2-l023` | Caruuaza. *Obra de homem ligeiro, & deſtro* |  |
+| `c2-l023` | Caruuaza. *Obra de homem ligeiro, & destro* |  |
 | `c2-l024` | &emsp;*como no caualgar, &c.* |  |
 | `c2-l025` | Caruxime, uru, eta. *Deſprezar, ou fazer* |  |
 | `c2-l026` | &emsp;*pouco caſo.* |  |
@@ -109,7 +109,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l029` | &emsp;*des algũa fortaleza, rodeai pera a parte alta* |  |
 | `c2-l030` | &emsp;*do monte. ¶ Item, Aparencia, & vulto* |  |
 | `c2-l031` | &emsp;*que faz algũa couſa grande, ou acumulada.* |  |
-| `c2-l032` | &emsp;*Vt,* Caſaga aru. *Auer eſta aparencia, &* |  |
+| `c2-l032` | &emsp;*Vt,* Caſaga aru. *Auer esta aparencia, &* |  |
 | `c2-l033` | &emsp;*volume, &c. ¶* Caſaga agaru. *Crecer* |  |
 | `c2-l034` | &emsp;*& avultar algũa obra como parede, ou vallo,* |  |
 | `c2-l035` | &emsp;*&c. que ſe vai fazendo.* |  |
@@ -118,13 +118,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l038` | Caſa. *Eſcudelazinha de pao.* |  |
 | `c2-l039` | Caſa. *Chapeo, ou ſombreiro.* |  |
 | `c2-l040` | Caſa. i. Cubicaxe. *Vide* Chiicaicaſa. *Por* |  |
-| `c2-l041` | &emsp;*que, Caſa, por ſi não ſe vſa ſó neſte ſentido.* |  |
+| `c2-l041` | &emsp;*que, Caſa, por ſi não ſe vſa ſó neste ſentido.* |  |
 | `c2-l042` | Caſabucuro. *Saco pera o ſombreiro.* |  |
 | `c2-l043` | Caſacaqe. *O atirar à barreira com frechas.* |  |
 | `c2-l044` | Caſacaqebiqime. *Certa laya de frechas.* |  |
 | `c2-l045` | Caſadaca, l, caſadacana. *Couſa que avulta* |  |
-| `c2-l046` | &emsp;*eſtando hũa ſobre outra.* |  |
-| `c2-l047` | Caſafuta. *Cedea de ſarna, ou buſtela.* |  |
+| `c2-l046` | &emsp;*estando hũa ſobre outra.* |  |
+| `c2-l047` | Caſafuta. *Cedea de ſarna, ou bustela.* |  |
 
 ## Printed signature
 

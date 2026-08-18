@@ -21,7 +21,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l005` | &emsp;*ferido leuemente.* |  |
 | `c1-l006` | Aſafanadana. *Peſſoa varia, & mudauel.* |  |
 | `c1-l007` | Aſafanadani. *Aduer.* |  |
-| `c1-l008` | Aſafara. *Eſtamago de quem eſta em jejũ po-* |  |
+| `c1-l008` | Aſafara. *Estamago de quem esta em jejũ po-* |  |
 | `c1-l009` | &emsp;*lamanhaã.* |  |
 | `c1-l010` | Aſafaca. *P. i.* Aſai facaricoto. *Traça* |  |
 | `c1-l011` | &emsp;*leue, ou meo que hum inuenta de pouco mo-* |  |
@@ -40,7 +40,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l024` | Aſagi. *P. Feno, ou erua do campo.* |  |
 | `c1-l025` | Aſagia. Cha *que ſe bebe polamanhaã antes* |  |
 | `c1-l026` | &emsp;*do jantar.* |  |
-| `c1-l027` | Aſagianoco. *Algũa couſa de pouca ſuſtancia* |  |
+| `c1-l027` | Aſagianoco. *Algũa couſa de pouca ſustancia* |  |
 | `c1-l028` | &emsp;*que ſe come antes de beber o* Cha *polamanhaã.* |  |
 | `c1-l029` | Aſagiga fara. *Campo de feno.* |  |
 | `c1-l030` | Aſagiuara. *Idem.* |  |
@@ -86,7 +86,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l006` | Aſajimeri. *Humidade da manhaã.* |  |
 | `c2-l007` | Aſamadaqi. *P. Manhaã cedo.* |  |
 | `c2-l008` | Aſamana. i. Aſai. *Couſa de pouco fundo.* |  |
-| `c2-l009` | &emsp;*¶ Itẽ, Couſa de pouca ſuſtancia, valia,ou ſer.* |  |
+| `c2-l009` | &emsp;*¶ Itẽ, Couſa de pouca ſustancia, valia,ou ſer.* |  |
 | `c2-l010` | Aſamani. *Adu. Leuemente, ou a poucando.* |  |
 | `c2-l011` | &emsp;*¶ Vt,* Aſamani iy naſu. *Apoucar com* |  |
 | `c2-l012` | &emsp;*palauras, ou dizer leuemẽte. ¶* Xinjinga |  |
@@ -97,7 +97,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l017` | &emsp;*tudo o que faz, & ordena a cerca do gouer-* |  |
 | `c2-l018` | &emsp;*no ouuindo aspartes, &c.* |  |
 | `c2-l019` | Aſamato. *O a tirar ao aluo polamanhaã.* |  |
-| `c2-l020` | Aſamaxij. *Couſa miſerauel, ou laſtimoſa.* |  |
+| `c2-l020` | Aſamaxij. *Couſa miſerauel, ou lastimoſa.* |  |
 | `c2-l021` | &emsp;Aſamaxiſa. |  |
 | `c2-l022` | &emsp;Aſamaxǔ. |  |
 | `c2-l023` | Aſamexi. *Iantar, ou comer de polamanhaã.* |  |
@@ -108,13 +108,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l028` | Aſamoyu. *P. Apercibimento que hum faz* |  |
 | `c2-l029` | &emsp;*polamanhaã do comer, ou de outra couſa.* |  |
 | `c2-l030` | Aſana aſana. *Cada manhaã.* P. |  |
-| `c2-l031` | Aſanagui. *Eſtar o mar em calma polamanhaã.* |  |
+| `c2-l031` | Aſanagui. *Estar o mar em calma polamanhaã.* |  |
 | `c2-l032` | Aſana yǔna. P. *Manhaã, & tarde.* |  |
 | `c2-l033` | Aſane. *O dormir de polamanhaã.* |  |
 | `c2-l034` | Aſaniji. *O arco do ceo de polamanhaã. Vt,* |  |
 | `c2-l035` | &emsp;Aſanijiga tatçu. *Fazerſe o arco no ceo, ou* |  |
 | `c2-l036` | &emsp;*nas nuuens de polamanhaã.* |  |
-| `c2-l037` | Aſano coromo, l, aſagoromo. *Veſtido de* |  |
+| `c2-l037` | Aſano coromo, l, aſagoromo. *Vestido de* |  |
 | `c2-l038` | &emsp;*linho canemo groſſeiro.* |  |
 | `c2-l039` | Aſano ma. *Eſpaço de polamanhaã.* |  |
 | `c2-l040` | Aſaqe. i. Aſamexi. *O jantar, ou comer de* |  |

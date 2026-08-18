@@ -22,9 +22,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l006` | &emsp;*¶* Caneuo tçuguru. *Fazer os dentes pretos.* |  |
 | `c1-l007` | Cane. *Metal. Vt,* Caneuo fuqu. *Fun-* |  |
 | `c1-l008` | &emsp;*dir metal. ¶* Caneuo vtçu. *Iurar como* |  |
-| `c1-l009` | &emsp;*cuſtumão os gentios batendo com hũa* Catana |  |
+| `c1-l009` | &emsp;*custumão os gentios batendo com hũa* Catana |  |
 | `c1-l010` | &emsp;*na outra. ¶ Item,* Caneuo vtçu. *Tan* |  |
-| `c1-l011` | &emsp;*ger batega, ou outro metal que ſoa como cuſtu* |  |
+| `c1-l011` | &emsp;*ger batega, ou outro metal que ſoa como custu* |  |
 | `c1-l012` | &emsp;*mão os gentios chamado por Nenbuc.* |  |
 | `c1-l013` | Cane. *Sino. ¶* Caneuo tçugu. *Tanger* |  |
 | `c1-l014` | &emsp;*o ſino ao modo de Iapão.* |  |
@@ -34,10 +34,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l018` | &emsp;bǒno qiuo canete yù. *Falar contempori-* |  |
 | `c1-l019` | &emsp;*zando com o coração dambos.* |  |
 | `c1-l020` | Cane, uru, eta. *Ter dificuldade em algũa* |  |
-| `c1-l021` | &emsp;*couſa. Eſte verbo vai depois das raizes de* |  |
+| `c1-l021` | &emsp;*couſa. Este verbo vai depois das raizes de* |  |
 | `c1-l022` | &emsp;*muitos verbos. ¶* Yuqi canuru. *Não* |  |
 | `c1-l023` | &emsp;*poder ir por diante. ¶* Fuxegui canuru. |  |
-| `c1-l024` | &emsp;*Reſiſtir com dificuldade.* |  |
+| `c1-l024` | &emsp;*Reſistir com dificuldade.* |  |
 | `c1-l025` | Canefori. *O que caua nas minas.* |  |
 | `c1-l026` | Canegane. *Adu. Dantes.* |  |
 | `c1-l027` | Canet. Natçuno atçuſa. *Quentura do verão.* |  |
@@ -52,11 +52,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l036` | &emsp;*exortação. ¶* Canguenuo yù. *Dar bõ* |  |
 | `c1-l037` | &emsp;*conſelho, ou reprehender bem.* |  |
 | `c1-l038` | Canguen. Canzuru cotoba. *Palauras bem* |  |
-| `c1-l039` | &emsp;*ditas, & a propoſito que os circumſtantes lou-* |  |
+| `c1-l039` | &emsp;*ditas, & a propoſito que os circumstantes lou-* |  |
 | `c1-l040` | &emsp;*uão. ¶* Canguenuo yù, l, cannacoto |  |
-| `c1-l041` | &emsp;uo yù. *Dizer eſtas palauras que os outros* |  |
+| `c1-l041` | &emsp;uo yù. *Dizer estas palauras que os outros* |  |
 | `c1-l042` | &emsp;*louuão.* |  |
-| `c1-l043` | Cangueqi. Xizzucana fima. *O eſtar deſ-* |  |
+| `c1-l043` | Cangueqi. Xizzucana fima. *O estar deſ-* |  |
 | `c1-l044` | &emsp;*ocupado.* |  |
 | `c1-l045` | Canguet. Samui tçugi. i. Fuyuno tçugi. |  |
 | `c1-l046` | &emsp;*Lũa do inuerno. P.* |  |
@@ -84,7 +84,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l004` | &emsp;*tiguas que hião de Iapão à China.* |  |
 | `c2-l005` | Cangi. Samui tçuchi. *Terra fria.* |  |
 | `c2-l006` | Cangi. Cuaita tçuchi. *Terra ſeca, &* |  |
-| `c2-l007` | &emsp;*eſteril.* |  |
+| `c2-l007` | &emsp;*esteril.* |  |
 | `c2-l008` | Cangiǒ. Cangaye ſadamuru. *O tomar, ou* |  |
 | `c2-l009` | &emsp;*dar conta. Vt,* Cangiǒuo tozuru. *Dar* |  |
 | `c2-l010` | &emsp;*contas.* |  |

@@ -16,14 +16,14 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c1a-l001` | Baxxi. Suyeno co. i. Votogo. *Filho der-* |  |
 | `c1a-l002` | &emsp;*radeiro.* |  |
-| `c1a-l003` | Baxxi, ſuru, ita, l, batſuru. *Caſtigar, ou* |  |
-| `c1a-l004` | &emsp;*juſtiçar.* |  |
+| `c1a-l003` | Baxxi, ſuru, ita, l, batſuru. *Castigar, ou* |  |
+| `c1a-l004` | &emsp;*justiçar.* |  |
 | `c1a-l005` | Bayen. Vmaquemuri. *Poeira que aleuantão* |  |
 | `c1a-l006` | &emsp;*muitos caualos juntos andando, ou correndo.* |  |
 | `c1a-l007` | &emsp;*¶* Bayeuo tatete tatacô. *Pelejar com* |  |
 | `c1a-l008` | &emsp;*impeto a caualo, aleuantando poeira.* |  |
 | `c1a-l009` | Bazzui. Zuiuo nuqu. *O Tirar, ou eſcolher* |  |
-| `c1a-l010` | &emsp;*a medulla, ou ſuſtancial dalgũa couſa como* |  |
+| `c1a-l010` | &emsp;*a medulla, ou ſustancial dalgũa couſa como* |  |
 | `c1a-l011` | &emsp;*de liuros, &c.* |  |
 
 ## Column 1 internal heading
@@ -56,7 +56,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1b-l018` | Bechibechini. *Adu. Differentemente, ou* |  |
 | `c1b-l019` | &emsp;*cada hum por ſi. ¶* Bechibechini ſuru. |  |
 | `c1b-l020` | &emsp;*Fazer ſeparado por ſi.* |  |
-| `c1b-l021` | &emsp;*¶* Bechibechini naru. *Afaſtarſe, ou* |  |
+| `c1b-l021` | &emsp;*¶* Bechibechini naru. *Afastarſe, ou* |  |
 | `c1b-l022` | &emsp;*eſtar diuidido. (tra laya.* |  |
 | `c1b-l023` | Bechidan. *Melius,* Betdan. *Diuerso, ou ou-* |  |
 | `c1b-l024` | &emsp;*tra laya.* |  |
@@ -104,7 +104,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l014` | Benbento xite, l, bento xite. *Adu. Pau-* |  |
 | `c2-l015` | &emsp;*ſada, ou deſcançadamente. ¶* Benbento |  |
 | `c2-l016` | &emsp;xita fito. *Homem deſcançado. ¶* Ben |  |
-| `c2-l017` | &emsp;bento xite iru. *Eſtar muito deſcançado,* |  |
+| `c2-l017` | &emsp;bento xite iru. *Estar muito deſcançado,* |  |
 | `c2-l018` | &emsp;*& à ſua vontade, & deuagar.* |  |
 | `c2-l019` | Bencô. Cuchino tarǒta. *Eloquencia, & co* |  |
 | `c2-l020` | &emsp;*pia no falar.* |  |
@@ -126,9 +126,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l036` | &emsp;*fazer ſeus negocios. ¶* Daixôuo benzu- |  |
 | `c2-l037` | &emsp;ru. *Fazer, ou cumprir ſuas neceſſidades* |  |
 | `c2-l038` | &emsp;*naturaes.* |  |
-| `c2-l039` | Benisaqi. i. Fôſaqi. *Maçaã do roſto.* |  |
+| `c2-l039` | Benisaqi. i. Fôſaqi. *Maçaã do rosto.* |  |
 | `c2-l040` | Benitaqe. *Certa laya de cogumellos vermelhos.* |  |
-| `c2-l041` | Beniyeno coſode. *Veſtidos que tem pinturas* |  |
+| `c2-l041` | Beniyeno coſode. *Vestidos que tem pinturas* |  |
 | `c2-l042` | &emsp;*de cor de rebique.* |  |
 | `c2-l043` | Benizara. *Bacio, ou porçolana com rebique* |  |
 | `c2-l044` | &emsp;*delido.* |  |

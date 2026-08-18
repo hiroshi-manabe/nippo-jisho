@@ -31,32 +31,32 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l015` | Auomi. *Eruas cortadas miudamente que ſe* |  |
 | `c1-l016` | &emsp;*botaõ no caldo, ou* Xiru*. Vt,* Auomiuo iru- |  |
 | `c1-l017` | &emsp;ru. *Botar no* Xiru *eſtas eruas.* |  |
-| `c1-l018` | Auomi, u, ǒda. *Ser, ou eſtar verde a erua,* |  |
-| `c1-l019` | &emsp;*ou aruore. ¶ Item, Eſtar azul, ou* |  |
+| `c1-l018` | Auomi, u, ǒda. *Ser, ou estar verde a erua,* |  |
+| `c1-l019` | &emsp;*ou aruore. ¶ Item, Estar azul, ou* |  |
 | `c1-l020` | &emsp;*tinto dazul.* |  |
 | `c1-l021` | Auomidori. *Limos do rio. ¶ Itẽ, Muſgos, ou* |  |
 | `c1-l022` | &emsp;*eruas q̃ cõ a chuua, ou humidade nace nos pa-* |  |
 | `c1-l023` | &emsp;*teos, &* niuas*.* |  |
 | `c1-l024` | Auomigachina. *Couſa que tem mais de azul,* |  |
 | `c1-l025` | &emsp;*ou verde que de outra cor.* |  |
-| `c1-l026` | Auomi vatari, u, atta. *Eſtar toda a campi-* |  |
+| `c1-l026` | Auomi vatari, u, atta. *Estar toda a campi-* |  |
 | `c1-l027` | &emsp;*na, ou monte verde. ¶* Vmiga auomiua |  |
-| `c1-l028` | &emsp;taru. *Eſta o mar todo azul.* |  |
+| `c1-l028` | &emsp;taru. *Esta o mar todo azul.* |  |
 | `c1-l029` | Auomugui. *Trigo, ou ceuada que não eſta a* |  |
 | `c1-l030` | &emsp;*inda madura.* |  |
 | `c1-l031` | Auona. *Folhas verdes de nabo, ou nabiças.* |  |
 | `c1-l032` | Auoniqide. i. Fei. *Certos papeis cortados como* |  |
 | `c1-l033` | &emsp;*abanos cõ q̃ abanão diãte dos* Cami*s de Iapão.* |  |
 | `c1-l034` | Auoniqide, xitaniqide. *Idem* |  |
-| `c1-l035` | Auonoqe, uru, eta. *Pòr de coſtas a outro,* |  |
-| `c1-l036` | &emsp;*ou com o roſto pera çima.* |  |
+| `c1-l035` | Auonoqe, uru, eta. *Pòr de costas a outro,* |  |
+| `c1-l036` | &emsp;*ou com o rosto pera çima.* |  |
 | `c1-l037` | Auonoqi, u, oita. *Eſtar cõ o roſto pera o ceo* |  |
 | `c1-l038` | &emsp;*ou de coſtas, ou virado pera çima.* |  |
 | `c1-l039` | Auonori. *Hũa laya de limos do mar verdes q̃* |  |
 | `c1-l040` | &emsp;*ſe comem.* |  |
 | `c1-l041` | Auoqi. *Hũa aruore cuja folha ſerue de curar* |  |
 | `c1-l042` | &emsp;*feridas.* |  |
-| `c1-l043` | Auoqiba. *Folhas deſta aruore.* |  |
+| `c1-l043` | Auoqiba. *Folhas desta aruore.* |  |
 | `c1-l044` | Auori. *Hũas meas gualdrapas de couro ,ou de* |  |
 | `c1-l045` | &emsp;*outra couſa que poem nos caualos da parte dos* |  |
 | `c1-l046` | &emsp;*eſtribos.* |  |
@@ -81,18 +81,18 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c2a-l001` | &emsp;*ra, taboa, &c. ou dar com as mãos como quẽ* |  |
 | `c2a-l002` | &emsp;*abana.* |  |
-| `c2a-l003` | Auoſa. *Hũs limos verdes q̃ eſtão pegados nas* |  |
+| `c2a-l003` | Auoſa. *Hũs limos verdes q̃ estão pegados nas* |  |
 | `c2a-l004` | &emsp;*pedras à borda do mar.* |  |
 | `c2a-l005` | Auoſaba. *Certo peixe como ſauelha.* |  |
 | `c2a-l006` | Auoſagui. *Garça parda, ou de cor cinzenta,* |  |
 | `c2a-l007` | &emsp;*& azul.* |  |
-| `c2a-l008` | Auota. *Varzea cuja ſementeira não eſta a in-* |  |
+| `c2a-l008` | Auota. *Varzea cuja ſementeira não esta a in-* |  |
 | `c2a-l009` | &emsp;*da madura.* |  |
-| `c2a-l010` | Auotçuzzura. *Hũa erua como era quando eſta* |  |
+| `c2a-l010` | Auotçuzzura. *Hũa erua como era quando esta* |  |
 | `c2a-l011` | &emsp;*verde.* |  |
 | `c2a-l012` | Auoto. *Pedra da molar de cor azul.* |  |
 | `c2a-l013` | Auome. *Hũa fruita como ameixas verdes.* |  |
-| `c2a-l014` | Auo vmeno xechiye. *Certa feſta que ſe faz* |  |
+| `c2a-l014` | Auo vmeno xechiye. *Certa festa que ſe faz* |  |
 | `c2a-l015` | &emsp;*diante do* Dairi *ajuntando muitos caualos ſem* |  |
 | `c2a-l016` | &emsp;*cela.* |  |
 | `c2a-l017` | Auoyagui, *P.* i. Yanagui. *Salgueiro ver* |  |

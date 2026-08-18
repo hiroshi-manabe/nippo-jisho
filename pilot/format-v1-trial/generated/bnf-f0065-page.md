@@ -27,9 +27,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l011` | Buntat. Bunni taſſu. *Perfeição, & deſtre-* |  |
 | `c1-l012` | &emsp;*za na arte de eſcreuer cartas, &c. ou conſu-* |  |
 | `c1-l013` | &emsp;*mado nas letras, & ſciencia de eſcreuer.* |  |
-| `c1-l014` | Buntatna. *Deſtro neſta arte de eſcreuer.* |  |
-| `c1-l015` | Bũtei. Fumino tei. i. Buxo. *Eſtillo, ou nota de* |  |
-| `c1-l016` | &emsp;*cartas. ¶* Bũtei ga yoi. *Ser o eſtillo,* |  |
+| `c1-l014` | Buntatna. *Destro nesta arte de eſcreuer.* |  |
+| `c1-l015` | Bũtei. Fumino tei. i. Buxo. *Estillo, ou nota de* |  |
+| `c1-l016` | &emsp;*cartas. ¶* Bũtei ga yoi. *Ser o estillo,* |  |
 | `c1-l017` | &emsp;*ou nota da carta boa.* |  |
 | `c1-l018` | Buntǒ. i. Bunnon ichi. *Sciencia, ou arte,* |  |
 | `c1-l019` | &emsp;*& modo de ſaber o bom eſtillo das cartas, &* |  |
@@ -40,13 +40,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l024` | &emsp;*palauras, comprimentos, &c. & ſingeleza* |  |
 | `c1-l025` | &emsp;*no falar, & poucos comprimentos. O primeiro* |  |
 | `c1-l026` | &emsp;*ſentido he de Bun, o ſegundo de* Xit. |  |
-| `c1-l027` | Bunxǒ. Fumi, tamazzula. *Eſtillo, & no-* |  |
+| `c1-l027` | Bunxǒ. Fumi, tamazzula. *Estillo, & no-* |  |
 | `c1-l028` | &emsp;*ta de cartas. ¶* Bunxǒno yoi fito. *Bõ* |  |
 | `c1-l029` | &emsp;*notador, & eſcriuão de cartas.* |  |
-| `c1-l030` | Bun-i. *Quantidade, ou grao neſta arte de* |  |
+| `c1-l030` | Bun-i. *Quantidade, ou grao nesta arte de* |  |
 | `c1-l031` | &emsp;*eſcreuer. Vt,* Cãno fitono bu-i nan- |  |
 | `c1-l032` | &emsp;bô ſodezo? *Aquelle homem em que grao* |  |
-| `c1-l033` | &emsp;*eſtarà deſta arte de eſcreuer, ou notar car-* |  |
+| `c1-l033` | &emsp;*estarà desta arte de eſcreuer, ou notar car-* |  |
 | `c1-l034` | &emsp;*tas, &c.* |  |
 | `c1-l035` | Bunzai. Qiuauo vacatçu. i. Fadorai. *Poſſi* |  |
 | `c1-l036` | &emsp;*bilidade de cada hum, quantidade, parte, por-* |  |
@@ -78,21 +78,21 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | Buqenbǒ. *Iniuſtiça.* |  |
+| `c2-l001` | Buqenbǒ. *Iniustiça.* |  |
 | `c2-l002` | Buqenbǒna. *Couſa iniuſta.* |  |
 | `c2-l003` | &emsp;Buqenbǒni. |  |
 | `c2-l004` | &emsp;Buqenbǒſa. |  |
-| `c2-l005` | Buqenbǒxa. *Homem iniuſto, & que não he* |  |
+| `c2-l005` | Buqenbǒxa. *Homem iniusto, & que não he* |  |
 | `c2-l006` | &emsp;*recto.* |  |
-| `c2-l007` | Buqiguen. Qiguen naxi. *Eſtar de ruim ſem* |  |
+| `c2-l007` | Buqiguen. Qiguen naxi. *Estar de ruim ſem* |  |
 | `c2-l008` | &emsp;*blante.* |  |
-| `c2-l009` | Buqeô. Queô naxi. *Triſteza, deſſabor, ou* |  |
+| `c2-l009` | Buqeô. Queô naxi. *Tristeza, deſſabor, ou* |  |
 | `c2-l010` | &emsp;*deſgraça.* |  |
 | `c2-l011` | Buqiocu. *Nome de hum principio de q̃ vſão* |  |
 | `c2-l012` | &emsp;*os Aſtrologos, ou adiuinhos.* |  |
 | `c2-l013` | Buqiocu. *Galantarias, ou meneos de mãos que* |  |
 | `c2-l014` | &emsp;*ſe vſão bailando.* |  |
-| `c2-l015` | Buqeôna. *Couſa deſaſtrada, triſte, deſabri-* |  |
+| `c2-l015` | Buqeôna. *Couſa deſastrada, triste, deſabri-* |  |
 | `c2-l016` | &emsp;*da, &c.* |  |
 | `c2-l017` | &emsp;Buqeôni. *Adu.* |  |
 | `c2-l018` | &emsp;Buqeôſa. |  |
@@ -111,7 +111,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l031` | Burameqi, u, eita. *Bulir a couſa dependu-* |  |
 | `c2-l032` | &emsp;*rada.* |  |
 | `c2-l033` | Burari burari. i. Buratura. *Adu. Modo* |  |
-| `c2-l034` | &emsp;*de eſtar dependurada a couſa no ar, ou de bu-* |  |
+| `c2-l034` | &emsp;*de estar dependurada a couſa no ar, ou de bu-* |  |
 | `c2-l035` | &emsp;*lir de cà pera là. ¶* Burari burarito xite |  |
 | `c2-l036` | &emsp;arucuru. *Andar aſſi froxo, & ſem fazer* |  |
 | `c2-l037` | &emsp;*couſa de importancia de cà pera là.* |  |

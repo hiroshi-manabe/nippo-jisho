@@ -22,7 +22,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l006` | &emsp;*grar. ¶* Cane nadouo caquru. *Pezar* |  |
 | `c1-l007` | &emsp;*prata, & outras couſas. ¶* Cotobauo ca |  |
 | `c1-l008` | &emsp;quru. *Falar com alguem. ¶* Monouo |  |
-| `c1-l009` | &emsp;meni caquru. *Moſtrar algũa couſa a alguẽ.* |  |
+| `c1-l009` | &emsp;meni caquru. *Mostrar algũa couſa a alguẽ.* |  |
 | `c1-l010` | &emsp;*¶* Mizzuuo caquru. *Agoar. ¶* Mo- |  |
 | `c1-l011` | &emsp;noni meuo caquru. *Por os olhos em algũa* |  |
 | `c1-l012` | &emsp;*couſa deſejandoa. ¶* Fitoni meuo caqu- |  |
@@ -73,7 +73,7 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c2-l001` | &emsp;*¶* Caqeauanu aite gia. *Não ſão parelhos* |  |
-| `c2-l002` | &emsp;*eſtes competidores.* |  |
+| `c2-l002` | &emsp;*estes competidores.* |  |
 | `c2-l003` | Caqeaxi. *O ir correndo a redea ſolta. Vt,* |  |
 | `c2-l004` | &emsp;Caqe axini natte yuqu. *Fei. Lib. 4.* |  |
 | `c2-l005` | &emsp;*Hia correndo a redea ſolta.* |  |
@@ -95,7 +95,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l021` | Caqedaxi, ſu, aita. *Achar mais no pezo do* |  |
 | `c2-l022` | &emsp;*que auia dantes. Vt,* Ichimonme caqe |  |
 | `c2-l023` | &emsp;daita. *Pezei, & achei mais hum maz do q̃* |  |
-| `c2-l024` | &emsp;*eſtaua dantes.* |  |
+| `c2-l024` | &emsp;*estaua dantes.* |  |
 | `c2-l025` | Caqede, zzuru, eta. *Sair a caualo corrẽdo.* |  |
 | `c2-l026` | Caqefaxi. *Eſcada leuadiça. ¶* Tenni ca |  |
 | `c2-l027` | &emsp;qe faxi. *Se diz de couſa que he impoſſiuel* |  |
@@ -118,7 +118,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l044` | Caqego. *Gaueta.* |  |
 | `c2-l045` | Caqegǒ. *Bolſinha de varios cheiros que tra* |  |
 | `c2-l046` | &emsp;*zem algũs conſigo no ſeo.* |  |
-| `c2-l047` | Caqei. Yoyi yorocobi. *Alegres feſtas que* |  |
+| `c2-l047` | Caqei. Yoyi yorocobi. *Alegres festas que* |  |
 
 ## Catchword
 

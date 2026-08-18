@@ -26,7 +26,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l010` | &emsp;*polamanhaã no tempo do Outono.* |  |
 | `c1-l011` | &emsp;Aſaſuſamajiſa. |  |
 | `c1-l012` | &emsp;Aſaſuſamajǔ. |  |
-| `c1-l013` | Aſaſuzumi. *Freſco de polamanhaã & eſtio.* |  |
+| `c1-l013` | Aſaſuzumi. *Freſco de polamanhaã & estio.* |  |
 | `c1-l014` | Aſatocu. *Adu. Polamanhaam cedo.* |  |
 | `c1-l015` | Aſatçuqi. *Hũa erua como çebolas.* |  |
 | `c1-l016` | Aſatte. i. Meǒgonichi. *Depois da manhaã.* |  |
@@ -101,7 +101,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2b-l005` | Ata aburi. *O aſſar carne, &c. ẽ fogo muito* |  |
 | `c2b-l006` | &emsp;*forte.* |  |
 | `c2b-l007` | Atabara. *Dor repentina da barriga. ¶* A- |  |
-| `c2b-l008` | &emsp;tabarauo tatçuru. *Agaſtarſe de repente.* |  |
+| `c2b-l008` | &emsp;tabarauo tatçuru. *Agastarſe de repente.* |  |
 | `c2b-l009` | &emsp;*¶* Atabaraga vocoru. *Dar dor de barriga* |  |
 | `c2b-l010` | &emsp;*de repente.* |  |
 | `c2b-l011` | Atabi. *Fogo forte, & rijo. ¶* Atabini atezu, |  |

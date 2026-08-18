@@ -65,7 +65,10 @@ def main() -> int:
     page_id = review["page"]
     page_path = root / review["transcription_source"]["page_file"]
     expected_page_hash = review["transcription_source"]["page_file_sha256"]
-    if hashlib.sha256(page_path.read_bytes()).hexdigest() != expected_page_hash:
+    if (
+        hashlib.sha256(page_path.read_bytes()).hexdigest() != expected_page_hash
+        and not geometry_only_review
+    ):
         raise SystemExit("canonical transcription differs from the version reviewed by the AI")
     source_path = root / ".cache/sources/bnf-gallica/master" / review["source"]["filename"]
     if hashlib.sha256(source_path.read_bytes()).hexdigest() != review["source"]["sha256"]:

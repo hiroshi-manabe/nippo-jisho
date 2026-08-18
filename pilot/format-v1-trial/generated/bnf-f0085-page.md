@@ -37,7 +37,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l021` | &emsp;*quente.* |  |
 | `c1-l022` | Can vn. Samui cumo. *Nuuem do inuer-* |  |
 | `c1-l023` | &emsp;*no. S.* |  |
-| `c1-l024` | Canuǒ. Xizzucana camome. *Gaiuota que eſta* |  |
+| `c1-l024` | Canuǒ. Xizzucana camome. *Gaiuota que esta* |  |
 | `c1-l025` | &emsp;*quieta nagoa.* |  |
 | `c1-l026` | Canuô. *Vide.* Cannǒ. *Porque na pra-* |  |
 | `c1-l027` | &emsp;*tica ſe diz* Cannǒ. |  |
@@ -81,7 +81,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l001` | Canyǒ. Qimo mochiiru. i. Xen ichi. *Cou* |  |
 | `c2-l002` | &emsp;*ſa neceſſaria, & importante.* |  |
 | `c2-l003` | Canyǒna. *Adiect. Idem.* |  |
-| `c2-l004` | Canza. Xizzucani zaſuru. *Eſtar quieto, &* |  |
+| `c2-l004` | Canza. Xizzucani zaſuru. *Estar quieto, &* |  |
 | `c2-l005` | &emsp;*ſolitario.* |  |
 | `c2-l006` | Canzan. Samui yama. *Monte frio. P.* |  |
 | `c2-l007` | Canzaxi. *Certo ornato que poem as molheres ſo-* |  |
@@ -91,7 +91,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l011` | &emsp;*da ſeita dos* Ienxus. |  |
 | `c2-l012` | Cappato. *Adu. Modo de aleuantarſe de* |  |
 | `c2-l013` | &emsp;*preſſa. Vt,* Cappato voqi agaru. *Ale-* |  |
-| `c2-l014` | &emsp;*uantarſe deſte modo.* |  |
+| `c2-l014` | &emsp;*uantarſe deste modo.* |  |
 | `c2-l015` | Cappei. *Soldado armado. S.* |  |
 | `c2-l016` | Cappeqi. Cabeuo auafuru. *Vizinho.* |  |
 | `c2-l017` | Cappun. Saqi vaquru. i. Monouo fiqi ſaqu. |  |
@@ -104,12 +104,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l024` | &emsp;*chouſe, ou ficou em vão o ardil.* |  |
 | `c2-l025` | Caqe. *Sinal que ſe dà nas compras, ou ven-* |  |
 | `c2-l026` | &emsp;*das. Vt,* Caqega aru. *Auer, ou paſſar* |  |
-| `c2-l027` | &emsp;*eſte ſinal antes de ſe entregar toda a paga.* |  |
+| `c2-l027` | &emsp;*este ſinal antes de ſe entregar toda a paga.* |  |
 | `c2-l028` | &emsp;*¶* Caqexen. *Idem.* |  |
-| `c2-l029` | Caqe. *Apoſta. ¶* Caqeni ſuru, l, caqe |  |
-| `c2-l030` | &emsp;ni mairu. *Apoſtar.* |  |
-| `c2-l031` | Caqe. *Falta, ou reſtante que fica por pagar.* |  |
-| `c2-l032` | &emsp;*¶* Caqega aru. *Reſtar ainda algũa cou-* |  |
+| `c2-l029` | Caqe. *Aposta. ¶* Caqeni ſuru, l, caqe |  |
+| `c2-l030` | &emsp;ni mairu. *Apostar.* |  |
+| `c2-l031` | Caqe. *Falta, ou restante que fica por pagar.* |  |
+| `c2-l032` | &emsp;*¶* Caqega aru. *Restar ainda algũa cou-* |  |
 | `c2-l033` | &emsp;*ſa por pagar.* |  |
 | `c2-l034` | Caqe, uru, eta. *Dependurar algũa couſa.* |  |
 | `c2-l035` | &emsp;*¶ contas, goye, nadouo caquru. De-* |  |

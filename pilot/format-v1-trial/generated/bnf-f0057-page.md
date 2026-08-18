@@ -28,7 +28,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l012` | &emsp;*nho, &c.* |  |
 | `c1-l013` | Binrǒji. *Arêca que em Iapão vzão por me-* |  |
 | `c1-l014` | &emsp;*zinha.* |  |
-| `c1-l015` | Bintat. *Diligẽcia, & habilidade no eſtudo das* |  |
+| `c1-l015` | Bintat. *Diligẽcia, & habilidade no estudo das* |  |
 | `c1-l016` | &emsp;*letras. ¶* Bintatna. *Homem habil, &* |  |
 | `c1-l017` | &emsp;*de bom engenho.* |  |
 | `c1-l018` | Binxen. Tayorino fune. *Embarcação em q̃* |  |
@@ -38,7 +38,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l022` | Binzzura. *Fontes da cabeça.* |  |
 | `c1-l023` | Biǒ. *Prègos belmazes, tachas, ou brochas de* |  |
 | `c1-l024` | &emsp;*cabeça redonda. ¶ Item, Hũa cabecinha re-* |  |
-| `c1-l025` | &emsp;*donda que eſta na ponta do ferro da frecha.* |  |
+| `c1-l025` | &emsp;*donda que esta na ponta do ferro da frecha.* |  |
 | `c1-l026` | Biǒbu. Cajeuo fuxegu. *Hũa maneira de* |  |
 | `c1-l027` | &emsp;*panneis groſſos que ſe tem por ſi em pee, de que* |  |
 | `c1-l028` | &emsp;*vzão os Iapoẽs pera ornato das caſas, & pera* |  |
@@ -47,20 +47,20 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l031` | &emsp;chita. *Cabio do caualo de pernas arriba a* |  |
 | `c1-l032` | &emsp;*maneira de* Biǒbus *que caem pera traz, dan-* |  |
 | `c1-l033` | &emsp;*do comſigo no chão.* |  |
-| `c1-l034` | Biǒbu caqe. *Inſtrumento como gancho de* |  |
+| `c1-l034` | Biǒbu caqe. *Instrumento como gancho de* |  |
 | `c1-l035` | &emsp;*pao que tem mão nos* Biǒbus *que não caião.* |  |
 | `c1-l036` | Biǒca. Biǒjano iye. *Caſa de doentes.* |  |
-| `c1-l037` | Biǒchǔ. Vazzuraino vchi. *Eſtando doente,* |  |
+| `c1-l037` | Biǒchǔ. Vazzuraino vchi. *Estando doente,* |  |
 | `c1-l038` | &emsp;*ou em tempo da doença.* |  |
 | `c1-l039` | Biǒcon. Yamaino ne. *Raiz, ou origem da* |  |
 | `c1-l040` | &emsp;*doença.* |  |
 | `c1-l041` | Biǒcu. Vazzurai, curuximi. *Dores, ou tor-* |  |
 | `c1-l042` | &emsp;*mentos cauſados de doença.* |  |
 | `c1-l043` | Biǒdô. Tairacani fitoxi. *Igualdade de cou-* |  |
-| `c1-l044` | &emsp;*ſas que eſtão prainas. ¶ Item, Permei. E-* |  |
-| `c1-l045` | &emsp;*quidade, & iuſtiça.* |  |
+| `c1-l044` | &emsp;*ſas que estão prainas. ¶ Item, Permei. E-* |  |
+| `c1-l045` | &emsp;*quidade, & iustiça.* |  |
 | `c1-l046` | Biǒdôna. *Couſa igual, ou praina. ¶ Itẽ,* |  |
-| `c1-l047` | &emsp;*Couſa iuſta, & igual.* |  |
+| `c1-l047` | &emsp;*Couſa iusta, & igual.* |  |
 
 ## Column 2 running header
 
@@ -79,7 +79,7 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c2-l001` | Biǒdôni. *Vt,* Biǒdôni monouo voſamuru. |  |
-| `c2-l002` | &emsp;*Gouernar com igualdade, & iuſtiça. ¶* Biǒ- |  |
+| `c2-l002` | &emsp;*Gouernar com igualdade, & iustiça. ¶* Biǒ- |  |
 | `c2-l003` | &emsp;dôni monouo cubaru. *Repartir algũa* |  |
 | `c2-l004` | &emsp;*couſa igualmente.* |  |
 | `c2-l005` | Biǒdôzucuri. *Certo feitio de arco da tirar.* |  |
@@ -112,8 +112,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l032` | &emsp;*ença.* |  |
 | `c2-l033` | Biôxo. Facadocoro. *Sepultura, ou lugar* |  |
 | `c2-l034` | &emsp;*de ſepulturas.* |  |
-| `c2-l035` | Biqei. i. Yoiqei. *Fermoſa viſta.* |  |
-| `c2-l036` | Biqen. Vtçucuxũ cauo yoxi. *Roſto fer-* |  |
+| `c2-l035` | Biqei. i. Yoiqei. *Fermoſa vista.* |  |
+| `c2-l036` | Biqen. Vtçucuxũ cauo yoxi. *Rosto fer-* |  |
 | `c2-l037` | &emsp;*moſo, ou fermoſura.* |  |
 | `c2-l038` | Biqen. Itçucuxij inu. *Cão fermoſo.* |  |
 | `c2-l039` | Biqin. *Alicubi.* Fanagami. *Papel de aſ-* |  |

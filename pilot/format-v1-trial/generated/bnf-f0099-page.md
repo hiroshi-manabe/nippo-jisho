@@ -23,8 +23,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l007` | &emsp;Cauaiſa. |  |
 | `c1-l008` | &emsp;Cauaiyŭ. |  |
 | `c1-l009` | Cauame. *Parte da caſca, ou cortiça, que* |  |
-| `c1-l010` | &emsp;*eſta junto ao pao. ¶ Item, Pelle que eſta* |  |
-| `c1-l011` | &emsp;*vizinha à carne ou tẽ algũa miſtura de carne.* |  |
+| `c1-l010` | &emsp;*esta junto ao pao. ¶ Item, Pelle que esta* |  |
+| `c1-l011` | &emsp;*vizinha à carne ou tẽ algũa mistura de carne.* |  |
 | `c1-l012` | Cauamucai. *Da outra banda do rio.* |  |
 | `c1-l013` | Cauanaca. *Meo do rio.* |  |
 | `c1-l014` | Cauaqi, u, aita. *Secarſe. ¶* Nodoga ca- |  |
@@ -45,12 +45,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l029` | Cauarague, uru, eta. *Enxugar couſas humi-* |  |
 | `c1-l030` | &emsp;*das, ou molhadas.* |  |
 | `c1-l031` | Cauaragui, u, aida. *Enxugaremſe, ou ſeca-* |  |
-| `c1-l032` | &emsp;*rem ſe eſtas couſas.* |  |
+| `c1-l032` | &emsp;*rem ſe estas couſas.* |  |
 | `c1-l033` | Cauarano mono. i. Cauaya. *O que eſſola* |  |
-| `c1-l034` | &emsp;*beſtas mortas, & tem ſuperintendencia ſobre* |  |
+| `c1-l034` | &emsp;*bestas mortas, & tem ſuperintendencia ſobre* |  |
 | `c1-l035` | &emsp;*os lazaros.* |  |
-| `c1-l036` | Cauaraqe. *Teſto, ou tigelinha de barro.* |  |
-| `c1-l037` | Cauaraqe iro. *Cor de teſto de barro hum pouco* |  |
+| `c1-l036` | Cauaraqe. *Testo, ou tigelinha de barro.* |  |
+| `c1-l037` | Cauaraqe iro. *Cor de testo de barro hum pouco* |  |
 | `c1-l038` | &emsp;*branco, ou cinzento.* |  |
 | `c1-l039` | Cauaratçucuri. *Oleiro que faz telha.* |  |
 | `c1-l040` | Cauari. *Troco. ¶ Item, Lugar, ou ſuſ* |  |
@@ -90,7 +90,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l010` | &emsp;gauaru ſono cuſano neuo caburu. *Taiſ.* |  |
 | `c2-l011` | &emsp;*Lib. 34. Os dous ratos branco, & preto, q̃* |  |
 | `c2-l012` | &emsp;*he o dia, & anoite reuezandoſe roem a raiz* |  |
-| `c2-l013` | &emsp;*deſſa erua. i. Gaſtão a vida.* |  |
+| `c2-l013` | &emsp;*deſſa erua. i. Gastão a vida.* |  |
 | `c2-l014` | Cauaſulo. *Parte inferior do rio.* |  |
 | `c2-l015` | Cauatabi. Tabis *de couro.* |  |
 | `c2-l016` | Cauatçura. P. *Superficie do rio.* |  |
@@ -111,15 +111,15 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l031` | Cauaya. *Caſa do corrieiro, ou çapateiro que* |  |
 | `c2-l032` | &emsp;*faz* Tabis. *¶ Item, O meſmo official.* |  |
 | `c2-l033` | Cauaya. *Homem que tem por officio eſſolar* |  |
-| `c2-l034` | &emsp;*beſtas mortas, ou bois, & faz Cauagos.* |  |
+| `c2-l034` | &emsp;*bestas mortas, ou bois, & faz Cauagos.* |  |
 | `c2-l035` | Cauayebi. *Camarão do rio, ou ribeira.* |  |
 | `c2-l036` | Cauazaicu. *Official de couſas que ſe fazem* |  |
 | `c2-l037` | &emsp;*de couro. ¶* Cauazaicuuo ſuru. *Exer-* |  |
-| `c2-l038` | &emsp;*citar eſte officio.* |  |
+| `c2-l038` | &emsp;*citar este officio.* |  |
 | `c2-l039` | Cauazzu. P. i. Cairu. *Raiz.* |  |
-| `c2-l040` | Cauo. *Roſto. ¶* Cauouo tçuguru. *Con-* |  |
-| `c2-l041` | &emsp;*certar o roſto, ou enfeitarſe.* |  |
-| `c2-l042` | Cauobaxe. *Roſto.* |  |
+| `c2-l040` | Cauo. *Rosto. ¶* Cauouo tçuguru. *Con-* |  |
+| `c2-l041` | &emsp;*certar o rosto, ou enfeitarſe.* |  |
+| `c2-l042` | Cauobaxe. *Rosto.* |  |
 | `c2-l043` | Cauocu. Iye iye. *Caſa.* |  |
 | `c2-l044` | Cauon. Voni uo cuuayuru. *Acrecenta-* |  |
 | `c2-l045` | &emsp;*mento de beneficios, ou renda. ¶* Gocauô |  |

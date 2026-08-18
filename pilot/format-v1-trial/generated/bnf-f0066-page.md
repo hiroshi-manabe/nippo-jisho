@@ -18,7 +18,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l002` | &emsp;*andando as voltas com elle no ar, como funda* |  |
 | `c1-l003` | &emsp;*dão em hũa eſcola como boleo. ¶* Bunburi- |  |
 | `c1-l004` | &emsp;de vtçu. *Iugar a eſcola, ou vſar de boleo* |  |
-| `c1-l005` | &emsp;*deſta maneira.* |  |
+| `c1-l005` | &emsp;*desta maneira.* |  |
 | `c1-l006` | Buriocu. Chicaranaxi. i. fin. *Pobreza,* |  |
 | `c1-l007` | &emsp;*& pouca poſſe. ¶* Buriocu xenban na- |  |
 | `c1-l008` | &emsp;xi. *He ſumma pobreza.* |  |
@@ -31,9 +31,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l015` | &emsp;*lia, ou gente da meſma caſa.* |  |
 | `c1-l016` | Busai. Sainaxi. *Poucas iguarias. ¶* Bu- |  |
 | `c1-l017` | &emsp;ſaina ſurumai. *Conuite de poucos manjares.* |  |
-| `c1-l018` | Busaicacu. *Pouca induſtria, ou cuidado nas* |  |
+| `c1-l018` | Busaicacu. *Pouca industria, ou cuidado nas* |  |
 | `c1-l019` | &emsp;*couſas.* |  |
-| `c1-l020` | Busaicacuna. *De pouca induſtria, & negocio.* |  |
+| `c1-l020` | Busaicacuna. *De pouca industria, & negocio.* |  |
 | `c1-l021` | &emsp;Busaicacuni. |  |
 | `c1-l022` | &emsp;Buſaicacuſa. |  |
 | `c1-l023` | Busaicu. *Pouco engenhoſo de maõs.* |  |
@@ -58,7 +58,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l042` | &emsp;*ſentão autos, &c. ¶* Butaiuo ſuru. *Fa-* |  |
 | `c1-l043` | &emsp;*zer eſte theatro.* |  |
 | `c1-l044` | Butai fai, l, Butai faina. *Peſſoa deſmaze-* |  |
-| `c1-l045` | &emsp;*lada, ou deſconcertada na compoſição, ou eſta* |  |
+| `c1-l045` | &emsp;*lada, ou deſconcertada na compoſição, ou esta* |  |
 | `c1-l046` | &emsp;*tura do corpo.* |  |
 | `c1-l047` | Butaxinami. *Pouco resguardo, & cautella,* |  |
 | `c1-l048` | &emsp;*ou deſcuido.* |  |
@@ -73,12 +73,12 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | But bachi. Fotoqeno bachi. *Caſtigo que dão* |  |
+| `c2-l001` | But bachi. Fotoqeno bachi. *Castigo que dão* |  |
 | `c2-l002` | &emsp;*os* fotoqes. |  |
 | `c2-l003` | Butbat. *Idem.* |  |
 | `c2-l004` | Butçuji. *Exequias que ſe fazẽ ao modo gen-* |  |
 | `c2-l005` | &emsp;*tilico lendo o* Fotoqeiǒ, *&c. ¶* Butçu- |  |
-| `c2-l006` | &emsp;jiuo ſuru. *Fazerẽ os* Buzos *eſtas exequias,* |  |
+| `c2-l006` | &emsp;jiuo ſuru. *Fazerẽ os* Buzos *estas exequias,* |  |
 | `c2-l007` | &emsp;*ou comendação pollos defuntos. ¶ Itẽ,* |  |
 | `c2-l008` | &emsp;*Fazerem os ſeculares eſte aparelho de exequias* |  |
 | `c2-l009` | &emsp;*chamando os* Bôzos, *fazendo ler o liuro do* |  |
@@ -103,7 +103,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l028` | &emsp;*toqe.* |  |
 | `c2-l029` | Butguen, l, butgon. Fotoqeno cotoba. *Pa* |  |
 | `c2-l030` | &emsp;*lauras do* Fotoqe. |  |
-| `c2-l031` | Butguen. Fotoqe arauaruru. *Manifeſtar* |  |
+| `c2-l031` | Butguen. Fotoqe arauaruru. *Manifestar* |  |
 | `c2-l032` | &emsp;*ſe, ou aparecer o* Fotoqe. |  |
 | `c2-l033` | Butguiǒ. Fotoqeno catachi. *Figura do* |  |
 | `c2-l034` | &emsp;Fotoqe. |  |

@@ -15,9 +15,9 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c1-l001` | &emsp;*gũa familia, ou gente de hũa meſma caſa.* |  |
-| `c1-l002` | Catamayedare. *O veſtir o veſtido com hũa* |  |
+| `c1-l002` | Catamayedare. *O vestir o vestido com hũa* |  |
 | `c1-l003` | &emsp;*ponta mais comprida que outra. ¶* Cata- |  |
-| `c1-l004` | &emsp;mayedare ni qiru. *Veſtir deſta maneira o qi-* |  |
+| `c1-l004` | &emsp;mayedare ni qiru. *Vestir desta maneira o qi-* |  |
 | `c1-l005` | &emsp;*mão, ou* Catabira. |  |
 | `c1-l006` | Catame. *Torto de hum olho. ¶ Item, Hũ* |  |
 | `c1-l007` | &emsp;*ſó olho.* |  |
@@ -34,10 +34,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l018` | &emsp;*ou memoria. ¶* Catamini noncauo voqu. |  |
 | `c1-l019` | &emsp;*Deixar por lembrança, ou memoria algũa couſa.* |  |
 | `c1-l020` | Catami. *Hũa parte, ou ametade do corpo. Vt,* |  |
-| `c1-l021` | &emsp;Catamiga nayeta. *Eſta tolhido, ou paralí-* |  |
+| `c1-l021` | &emsp;Catamiga nayeta. *Esta tolhido, ou paralí-* |  |
 | `c1-l022` | &emsp;*tico de hũa parte do corpo. ¶ Item, Ame* |  |
-| `c1-l023` | &emsp;*tade do veſtido. ¶* Catamigauarino qiru |  |
-| `c1-l024` | &emsp;mono. *Veſtido que cada parte tem ſua cor* |  |
+| `c1-l023` | &emsp;*tade do vestido. ¶* Catamigauarino qiru |  |
+| `c1-l024` | &emsp;mono. *Vestido que cada parte tem ſua cor* |  |
 | `c1-l025` | &emsp;*differente.* |  |
 | `c1-l026` | Catamichi. *Caminho que ſe anda de hũa vez,* |  |
 | `c1-l027` | &emsp;*ſem ter conta com o tornar andar, como que foſ* |  |
@@ -50,7 +50,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l034` | &emsp;ga catamuqu. *Irſe acabando a boa dita, ou* |  |
 | `c1-l035` | &emsp;*fortuna. ¶* Acuni catamuqu. *Inclinar-* |  |
 | `c1-l036` | &emsp;*ſe à maldade. ¶* Cuniga catamuqu. *Per* |  |
-| `c1-l037` | &emsp;*turbarſe, ou deſtruirſe o reino.* |  |
+| `c1-l037` | &emsp;*turbarſe, ou destruirſe o reino.* |  |
 | `c1-l038` | Catamuqi tachi, tçu, tatta. *Fugir, ou ir* |  |
 | `c1-l039` | &emsp;*de cabeça a baixo o exercito, &c.* |  |
 | `c1-l040` | Catan. Nindai, ǒ. *Leuar carga aos hombros.* |  |
@@ -87,10 +87,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l013` | &emsp;*tanas os ſoldados de hũa bandeira, ou de* |  |
 | `c2-l014` | &emsp;*hum exercito.* |  |
 | `c2-l015` | Catanizzuri. *O pezar mais o fato de hũa das* |  |
-| `c2-l016` | &emsp;*bandas. ¶* Catanizzuriga ſuru. *Eſtar* |  |
+| `c2-l016` | &emsp;*bandas. ¶* Catanizzuriga ſuru. *Estar* |  |
 | `c2-l017` | &emsp;*deſigual o fato que ſe leua em duas trouxas.* |  |
 | `c2-l018` | Catanizzurina. *Couſa como fato deſigual* |  |
-| `c2-l019` | &emsp;*deſta maneira.* |  |
+| `c2-l019` | &emsp;*desta maneira.* |  |
 | `c2-l020` | Catanogotocu. *Adu. Mediocre, ou arrazø-* |  |
 | `c2-l021` | &emsp;*adamente.* |  |
 | `c2-l022` | Catanori. *Huns limos do mar.* |  |

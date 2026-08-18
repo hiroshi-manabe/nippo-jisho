@@ -16,8 +16,8 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c1-l001` | &emsp;*parte, & peſada da outra, &c. ¶ Item,* |  |
 | `c1-l002` | &emsp;*Permet. Deſiguais em algũa arte, jogo, &c.* |  |
-| `c1-l003` | Catazzu. *Cuſpinho. Mas vſaſe ſó neſta fraſe.* |  |
-| `c1-l004` | &emsp;*Vt,* Catazzuuo nomu. *Eſtar affligido,* |  |
+| `c1-l003` | Catazzu. *Cuſpinho. Mas vſaſe ſó nesta fraſe.* |  |
+| `c1-l004` | &emsp;*Vt,* Catazzuuo nomu. *Estar affligido,* |  |
 | `c1-l005` | &emsp;*& em aperto.* |  |
 | `c1-l006` | Catbeǒ. *Hũa certa doença q̃ cauſa grãde ſede.* |  |
 | `c1-l007` | Catçû, l, catçûua. *Hum pouco. ¶ Item,* |  |
@@ -29,9 +29,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l013` | Catçugui. *Manto de molher. X. Melius* |  |
 | `c1-l014` | &emsp;*Cazzugi. (criança.* |  |
 | `c1-l015` | Catçuge. *Ama, ou molher que cria algũo.* |  |
-| `c1-l016` | Catçuge, uru. *Amançar, ou domeſticar.* |  |
+| `c1-l016` | Catçuge, uru. *Amançar, ou domesticar.* |  |
 | `c1-l017` | Catçura. *Hũa laya de molheres q̃ ſobre o ma-* |  |
-| `c1-l018` | &emsp;*is veſtido trazem hũa* Catabira *de linho por* |  |
+| `c1-l018` | &emsp;*is vestido trazem hũa* Catabira *de linho por* |  |
 | `c1-l019` | &emsp;*cima, & nacabeça muito toucado, as quaes deſ* |  |
 | `c1-l020` | &emsp;*correm por diuerſas partes.* |  |
 | `c1-l021` | Catçute. Adu. *De nenhũa qualidade, ou nũ-* |  |
@@ -75,7 +75,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l001` | &emsp;*ou fazer as ſuas partes.* |  |
 | `c2-l002` | Cattai, i. Raijin. *Leprozo, ou lazaro.* |  |
 | `c2-l003` | Catte. *Geito, ou feição. ¶* Iyeno catte |  |
-| `c2-l004` | &emsp;ga yoi. *A traça da caſa, ou feição eſta boa.* |  |
+| `c2-l004` | &emsp;ga yoi. *A traça da caſa, ou feição esta boa.* |  |
 | `c2-l005` | &emsp;*¶* Vaga catteni yǒ yǒni xeyo. *Fazei* |  |
 | `c2-l006` | &emsp;*de maneira que quadre a meu modo.* |  |
 | `c2-l007` | Catte. *Lugar onde ſe guardão os petrechos, &* |  |
@@ -110,15 +110,15 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l036` | Cauagari. *Peſcaria do rio.* |  |
 | `c2-l037` | Cauagixa. *Alface da ribeira, ou que ſe dá* |  |
 | `c2-l038` | &emsp;*em lugares humidos.* |  |
-| `c2-l039` | Cauago. *Certa feição de canaſtra de couro do* |  |
+| `c2-l039` | Cauago. *Certa feição de canastra de couro do* |  |
 | `c2-l040` | &emsp;*Iapão.* |  |
-| `c2-l041` | Cauagoromo. *Veſtido de couro.* |  |
+| `c2-l041` | Cauagoromo. *Vestido de couro.* |  |
 | `c2-l042` | Cauaguchi. *Entrada, ou boca do rio.* |  |
-| `c2-l043` | Cauaguinu. *Veſtido de pelle.* |  |
+| `c2-l043` | Cauaguinu. *Vestido de pelle.* |  |
 | `c2-l044` | Cauaguiri. *Neuoeiro, ou vapores que ſe ale-* |  |
 | `c2-l045` | &emsp;*uantão do rio.* |  |
 | `c2-l046` | Cauaguixi. *Terra hum pouco alta, ou barreira* |  |
-| `c2-l047` | &emsp;*que eſta ao longo do rio.* |  |
+| `c2-l047` | &emsp;*que esta ao longo do rio.* |  |
 
 ## Catchword
 

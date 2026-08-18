@@ -20,7 +20,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l004` | &emsp;*doſe hum aparta de hum lugar, deixalo bem* |  |
 | `c1-l005` | &emsp;*concertado, como paſſaro que aleuãtandoſe da* |  |
 | `c1-l006` | &emsp;*agoa a deixa limpa. ¶* Atouo tçucuru. |  |
-| `c1-l007` | &emsp;*Deixar raſto de ſi. ¶* Atouo tçuquru, l, |  |
+| `c1-l007` | &emsp;*Deixar rasto de ſi. ¶* Atouo tçuquru, l, |  |
 | `c1-l008` | &emsp;atouo tçuguete yuqu. *Ir de traz no alcãçe* |  |
 | `c1-l009` | &emsp;*dos que vaõ fugindo, ou dalgum animal, ou* |  |
 | `c1-l010` | &emsp;*aue. ¶* Atouo ſaqini, l, ſaqiye ſuru, |  |
@@ -36,7 +36,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l020` | &emsp;ſuixacu. *Podeſe acomodar à ẽcarnaçaõ do filho* |  |
 | `c1-l021` | &emsp;*de Deos, & ao exemplo que deixou neſte mundo* |  |
 | `c1-l022` | &emsp;*cõ ſua vida, & Doctrina. ¶ Item,* Ato. *Co-* |  |
-| `c1-l023` | &emsp;*ſtas, ou de traz. Vt,* Atoni mairu. *Ir de traz,* |  |
+| `c1-l023` | &emsp;*stas, ou de traz. Vt,* Atoni mairu. *Ir de traz,* |  |
 | `c1-l024` | &emsp;*ou nas coſtas dalguem.* |  |
 | `c1-l025` | Atocata. *Vt,* Atocatamo nai coto. *Couſa de* |  |
 | `c1-l026` | &emsp;*que ſe naõ ſabe parte nẽ raſto. i. naõ tem* |  |
@@ -92,7 +92,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l012` | Auai. *Couſa enxabida como comer enxabido,* |  |
 | `c2-l013` | &emsp;*& ſem ſabor. Inuſit.* |  |
 | `c2-l014` | Auai. *Eſpaço de lugar, ou tempo. ¶ Item,* |  |
-| `c2-l015` | &emsp;*Entre, ou no meo. Vt,* Auaini iru. *Eſtar no* |  |
+| `c2-l015` | &emsp;*Entre, ou no meo. Vt,* Auaini iru. *Estar no* |  |
 | `c2-l016` | &emsp;*meo, ou antre outras couſas.* |  |
 | `c2-l017` | Auamochi. *Bolos feitos de painço, ou milho.* |  |
 | `c2-l018` | Auare. *Praza a Deos, òxala. Segueſe lhe ſempre* |  |
@@ -117,13 +117,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l037` | &emsp;Auatataxiſa. |  |
 | `c2-l038` | &emsp;Auatatax*ù*. |  |
 | `c2-l039` | Auate, tçuru, teta. *Perturbarſe com grande* |  |
-| `c2-l040` | &emsp;*preſſa, ou eſtar perturbado. ¶* Monouo |  |
+| `c2-l040` | &emsp;*preſſa, ou estar perturbado. ¶* Monouo |  |
 | `c2-l041` | &emsp;auateteſuru. *Fazer algũa couſa apreſſada,* |  |
 | `c2-l042` | &emsp;*ou perturbadamente.* |  |
 | `c2-l043` | Auate fatameqi, u, eita. *Perturbarſe açoda* |  |
 | `c2-l044` | &emsp;*damente.* |  |
 | `c2-l045` | Auateguini. *Adu.* i. Auatatax*ù* qirutei. *Cõ* |  |
-| `c2-l046` | &emsp;*perturbação, & preſſa no veſtir, armarſe, &c.* |  |
+| `c2-l046` | &emsp;*perturbação, & preſſa no vestir, armarſe, &c.* |  |
 | `c2-l047` | Auateſauagui, u, aida. *Apreſarſe com pertur* |  |
 
 ## Signature

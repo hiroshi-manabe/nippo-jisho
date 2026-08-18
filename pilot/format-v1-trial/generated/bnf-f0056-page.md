@@ -16,10 +16,10 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c1-l001` | Bibut. Vmaimono. *Iguaria, ou comer ſa-* |  |
 | `c1-l002` | &emsp;*boroſo particularmente de peixe.* |  |
-| `c1-l003` | Bicen. Itçucuxij cauoyoxi. *Roſto fermoſo.* |  |
+| `c1-l003` | Bicen. Itçucuxij cauoyoxi. *Rosto fermoſo.* |  |
 | `c1-l004` | Bican. Sucoxi ſamuxi. *Pouco frio, ou frio* |  |
 | `c1-l005` | &emsp;*ainda moderado.* |  |
-| `c1-l006` | Biccurito. *Adu. Modo de eſtremecer, como* |  |
+| `c1-l006` | Biccurito. *Adu. Modo de estremecer, como* |  |
 | `c1-l007` | &emsp;*quando derrepente ouuimos deſparar artelharia,* |  |
 | `c1-l008` | &emsp;*&c.* |  |
 | `c1-l009` | Bichimeqi, u, eita. *Bulir o peixe com as bar* |  |
@@ -43,11 +43,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l027` | &emsp;*parte do corpo.* |  |
 | `c1-l028` | Bicuni. i. ama. *Molher rapada, ou religioſa* |  |
 | `c1-l029` | &emsp;*gentia.* |  |
-| `c1-l030` | Bifǔ. Sucoxinocaje. *Vento fraco do eſtio.* |  |
+| `c1-l030` | Bifǔ. Sucoxinocaje. *Vento fraco do estio.* |  |
 | `c1-l031` | Bifu. Itçucuxij ſadaye. *Bom carão, ou ſu-* |  |
 | `c1-l032` | &emsp;*perficie da carne macia, & branda.* |  |
-| `c1-l033` | Bifucu. Vtçucuxij qirumono. *Veſtido ga-* |  |
-| `c1-l034` | &emsp;*lante, ou luſtroſo.* |  |
+| `c1-l033` | Bifucu. Vtçucuxij qirumono. *Vestido ga-* |  |
+| `c1-l034` | &emsp;*lante, ou lustroſo.* |  |
 | `c1-l035` | Biguen. Vtçucuxij cotoba. *Palauras ele-* |  |
 | `c1-l036` | &emsp;*gantes, & polidas.* |  |
 | `c1-l037` | Biguiocu. Vtçucuxij tama. *Fermoſa pedra* |  |
@@ -74,7 +74,7 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c2-l001` | &emsp;*ou fermoſa.* |  |
 | `c2-l002` | Bimei. Imada aqezu. *Ante manhaã.* |  |
-| `c2-l003` | Bimi. Vmai agiuai. *Suaue goſto.* |  |
+| `c2-l003` | Bimi. Vmai agiuai. *Suaue gosto.* |  |
 | `c2-l004` | Bimô. i. Mayuno qe, l, mique. *Sobrã-* |  |
 | `c2-l005` | &emsp;*çelhas.* |  |
 | `c2-l006` | Bimocu. Vtçucuxij me. *Olhos fermoſos.* |  |
@@ -104,7 +104,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l030` | Bingachô. *Hum certo paſſaro.* |  |
 | `c2-l031` | Bincagami. *Eſpelho pequeno de que vzão os* |  |
 | `c2-l032` | &emsp;*homẽs.* |  |
-| `c2-l033` | Bincǒgai. *Hum inſtrumento de bambu com q̃* |  |
+| `c2-l033` | Bincǒgai. *Hum instrumento de bambu com q̃* |  |
 | `c2-l034` | &emsp;*os homẽs concertão os cabellos.* |  |
 | `c2-l035` | Bindarai. *Vazilha em que molhão o pentem* |  |
 | `c2-l036` | &emsp;*pera concertar os cabellos dos homẽs.* |  |

@@ -40,18 +40,18 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l024` | Bonzai. Tçumiuo vocaſu. i. Bonqua. *Pec* |  |
 | `c1-l025` | &emsp;*cado cometido, ou o cometer peccado.* |  |
 | `c1-l026` | Boqe. *Hũa aruore do mato. ¶ Itẽ, flor* |  |
-| `c1-l027` | &emsp;*deſta aruore. ¶* Boqe iro. *Cor ver-* |  |
+| `c1-l027` | &emsp;*desta aruore. ¶* Boqe iro. *Cor ver-* |  |
 | `c1-l028` | &emsp;*melha, ou encarnada como deſta roſa.* |  |
 | `c1-l029` | Boqe, uru, eta. *Parecerem as cores como de* |  |
 | `c1-l030` | &emsp;*encarnado. ¶ Permet.* Cocorono boqe- |  |
 | `c1-l031` | &emsp;ta fitogira. *He homem apraziuel, & de bõ* |  |
 | `c1-l032` | &emsp;*coração.* |  |
-| `c1-l033` | Boqeboqe. *Adu. Modo de eſtar com eſta* |  |
-| `c1-l034` | &emsp;*cor. ¶* Boqe boqeto xita cauo. *Roſto* |  |
+| `c1-l033` | Boqeboqe. *Adu. Modo de eſtar com esta* |  |
+| `c1-l034` | &emsp;*cor. ¶* Boqe boqeto xita cauo. *Rosto* |  |
 | `c1-l035` | &emsp;*cõrado, ou roſado de vinho &c.* |  |
 | `c1-l036` | Bôqei. i. Itçuqarino facaricoto. *Ardil com* |  |
 | `c1-l037` | &emsp;*engano.* |  |
-| `c1-l038` | Boqeno. *Vt,* Boqeno coſode. *Veſtido de* |  |
+| `c1-l038` | Boqeno. *Vt,* Boqeno coſode. *Vestido de* |  |
 | `c1-l039` | &emsp;*cor encarnada.* |  |
 | `c1-l040` | Bǒqi. Vaſururu coto. *Eſquecimento. Vt,* |  |
 | `c1-l041` | &emsp;Bǒqi ſuru. *Eſquecerſe. ¶* Bǒqiga ſuru. |  |
@@ -81,13 +81,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l001` | Bǒquǒ. Bexiga. |  |
 | `c2-l002` | Boracu. Curenji vorcuru. *Vt,* Chôyei bora- |  |
 | `c2-l003` | &emsp;cuua yono narai. *Florecer polla manhã, &* |  |
-| `c2-l004` | &emsp;*cair polla tarde, he cuſtume do mundo.* |  |
+| `c2-l004` | &emsp;*cair polla tarde, he custume do mundo.* |  |
 | `c2-l005` | Bôran. Facaricoto midaru. *Perturba-* |  |
 | `c2-l006` | &emsp;*ção com ardis, & enganos.* |  |
 | `c2-l007` | Bǒrei. Forobitaru tamaxi. *Almas perdidas,* |  |
-| `c2-l008` | &emsp;*ou almas dos defuntos, q̃ aparacẽ neſta vida.* |  |
+| `c2-l008` | &emsp;*ou almas dos defuntos, q̃ aparacẽ nesta vida.* |  |
 | `c2-l009` | Borei. *Hũa certa mezinha feita de caſcas de* |  |
-| `c2-l010` | &emsp;*oſtras queimadas.* |  |
+| `c2-l010` | &emsp;*ostras queimadas.* |  |
 | `c2-l011` | Bôriacu. Facaricoto. *Engano, ou ardil en* |  |
 | `c2-l012` | &emsp;*ganoſo. Vt,* Bôriacuuo meguraſu. |  |
 | `c2-l013` | &emsp;*Vrdir enganos.* |  |
@@ -107,7 +107,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l027` | Boromecaxi, u, aita. *Fazer ſoar folha quã-* |  |
 | `c2-l028` | &emsp;*do ſe metem no fogo ou outras couſas, como* |  |
 | `c2-l029` | &emsp;*grãos ou arroz q̃ ſe entorna.* |  |
-| `c2-l030` | Boromeqi, u, eta. *Soarem eſtas couſas.* |  |
+| `c2-l030` | Boromeqi, u, eta. *Soarem estas couſas.* |  |
 | `c2-l031` | Bosan. *Ir à tarde dar conta ao meſtre da medi* |  |
 | `c2-l032` | &emsp;*cação que os lenxios dão.* |  |
 | `c2-l033` | Bosat. Taſuqe, uru. *Dignidade de menos* |  |
@@ -120,7 +120,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l040` | Boten. Curenno ſora. *Tempo do ſol poſto, ou* |  |
 | `c2-l041` | &emsp;*da tarde.* |  |
 | `c2-l042` | Bǒtô. Bôno caxira. *Cabeça do bordão, ou* |  |
-| `c2-l043` | &emsp;*baſtão. ¶ Prouerb.* Bǒtôni manaco |  |
+| `c2-l043` | &emsp;*bastão. ¶ Prouerb.* Bǒtôni manaco |  |
 | `c2-l044` | &emsp;ari. *A cabeça de bordão tem olhos. i. Tudo* |  |
 | `c2-l045` | &emsp;*ſe vê, ou ſabe.* |  |
 | `c2-l046` | Botô. Fuyuno cure. i. Xuaſu. *Fim do in-* |  |

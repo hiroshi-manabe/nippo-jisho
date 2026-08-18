@@ -47,7 +47,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l031` | &emsp;*ſe poem ſobre a carta, ou ſobre o liuro pera que* |  |
 | `c1-l032` | &emsp;*o vento o não leue, ou moua.* |  |
 | `c1-l033` | Buncǒ. Fumino faco. *Hũa caixinha feita* |  |
-| `c1-l034` | &emsp;*de paſta, ou de outra couſa pera meter cartas,* |  |
+| `c1-l034` | &emsp;*de pasta, ou de outra couſa pera meter cartas,* |  |
 | `c1-l035` | &emsp;*& papeis.* |  |
 | `c1-l036` | Bunco. Fumino cura. i. Cura. *Logea, ou ſotão* |  |
 | `c1-l037` | &emsp;*pera meter fato, liuros, &c.* |  |
@@ -74,8 +74,8 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c2-l001` | Bunen. i. nenmo irenu coto. *Pouco cuida-* |  |
 | `c2-l002` | &emsp;*do, & induſtria. ¶ Item, Inconſideração.* |  |
-| `c2-l003` | Bungacu. Fumi manabu. *Eſtudo, & ſcien* |  |
-| `c2-l004` | &emsp;*cia de liuros, & bom eſtillo de cartas, &c.* |  |
+| `c2-l003` | Bungacu. Fumi manabu. *Estudo, & ſcien* |  |
+| `c2-l004` | &emsp;*cia de liuros, & bom estillo de cartas, &c.* |  |
 | `c2-l005` | Bunguei. Fumino guei. *Arte de ſaber eſcre* |  |
 | `c2-l006` | &emsp;*uer, & notar bem cartas.* |  |
 | `c2-l007` | Bunguen. Cugiriuo vaquru monono ſodo |  |
@@ -86,7 +86,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l012` | &emsp;*ga de poluora. ¶ Item, Certa parte, ou* |  |
 | `c2-l013` | &emsp;*quinhão de algũa couſa. ¶* Bunguiriuo ia- |  |
 | `c2-l014` | &emsp;damuru. *Diuidir, ou repartir quinhoẽs.* |  |
-| `c2-l015` | Bunhô. Yutaca. *Abundancia, & abaſtança.* |  |
+| `c2-l015` | Bunhô. Yutaca. *Abundancia, & abastança.* |  |
 | `c2-l016` | Bunhôna. *Abundante, proſpero, & abaſtado.* |  |
 | `c2-l017` | &emsp;*¶* Bunhôna cuni, toxi, &c. *Reino a-* |  |
 | `c2-l018` | &emsp;*baſtado, anno proſpero, &c.* |  |
@@ -99,7 +99,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l025` | Bunji. *Eſcriuão, ou ſecretario del Rei.* |  |
 | `c2-l026` | Bunji, zuru, ita. *Multiplicarſe em numero,* |  |
 | `c2-l027` | &emsp;*ou quantidade.* |  |
-| `c2-l028` | Bunjo. *Liuros em que ſe trata do bom eſtillo* |  |
+| `c2-l028` | Bunjo. *Liuros em que ſe trata do bom estillo* |  |
 | `c2-l029` | &emsp;*de eſcreuer cartas, &c.* |  |
 | `c2-l030` | Bunin. Fito naxi. *Pouca gente.* |  |
 | `c2-l031` | Buninju. Fito cazu naxi. *Idem.* |  |
@@ -107,8 +107,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l033` | Bunmauaxi. *Compaço.* |  |
 | `c2-l034` | Bunmǒ. Ca, abu. *Moſquito, & abelhas.* |  |
 | `c2-l035` | Bunpit. Fumi, fude. *Carta, & pena.* |  |
-| `c2-l036` | &emsp;*¶* Bunpitni taxxita fito. *Home deſtro* |  |
-| `c2-l037` | &emsp;*em eſcreuer cartas, aſſi por via do eſtillo como* |  |
+| `c2-l036` | &emsp;*¶* Bunpitni taxxita fito. *Home destro* |  |
+| `c2-l037` | &emsp;*em eſcreuer cartas, aſſi por via do estillo como* |  |
 | `c2-l038` | &emsp;*de letra.* |  |
 | `c2-l039` | Bunpǒ. Fumino fatto. *Regras, ou precei-* |  |
 | `c2-l040` | &emsp;*tos pera ſaber bem eſcreuer cartas.* |  |

@@ -16,7 +16,7 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c1-l001` | &emsp;Camaqiri. *Bicho da ſaude.* |  |
 | `c1-l002` | Camafu. *Hum certo peixe de focinho agudo.* |  |
-| `c1-l003` | Camafu. *Saco de arroz feito de eſteiras, ou de* |  |
+| `c1-l003` | Camafu. *Saco de arroz feito de esteiras, ou de* |  |
 | `c1-l004` | &emsp;*palha.* |  |
 | `c1-l005` | Camafu zzuqin. *Barrete de dous cantos.* |  |
 | `c1-l006` | Camaya. *Cozinha, ou lugar das fornalhas, &* |  |
@@ -31,8 +31,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l015` | &emsp;*¶* Yaxinuo camayuru. *Fazer traição.* |  |
 | `c1-l016` | &emsp;*¶* Yari, catana nadouo camayete iru. *Eſ* |  |
 | `c1-l017` | &emsp;*tar com a lança,* Catana, *&c. em feição,* |  |
-| `c1-l018` | &emsp;*& poſtura de dar, ou ferir. ¶* Catanaga- |  |
-| `c1-l019` | &emsp;mayeuo ſuru. *Porſe em feição, & poſtura* |  |
+| `c1-l018` | &emsp;*& postura de dar, ou ferir. ¶* Catanaga- |  |
+| `c1-l019` | &emsp;mayeuo ſuru. *Porſe em feição, & postura* |  |
 | `c1-l020` | &emsp;*de dar, ou ferir com a* Catana. *¶* Fida- |  |
 | `c1-l021` | &emsp;rigamayeuo ſuru. *Menear as armas da par* |  |
 | `c1-l022` | &emsp;*te eſquerda.* |  |
@@ -41,7 +41,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l025` | Came. *Tartaruga, ou cagado.* |  |
 | `c1-l026` | Came. *Iarra.* |  |
 | `c1-l027` | Camei. Yoi na. *Bom nome, ou boa fama.* |  |
-| `c1-l028` | Cameno cô. *Coſtas da tartaruga.* |  |
+| `c1-l028` | Cameno cô. *Costas da tartaruga.* |  |
 | `c1-l029` | Cameno cô. *Repairo com que ſe cobrem, &* |  |
 | `c1-l030` | &emsp;*emparão os que combatem algũa fortaleza.* |  |
 | `c1-l031` | Cameno futa. *Hum vazo em que vazão agoa* |  |
@@ -75,7 +75,7 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c2-l001` | Cami. *Papel. Vt,* Camiuo ſuqu. *Fazer* |  |
 | `c2-l002` | &emsp;*papel.* |  |
-| `c2-l003` | Cami, u, ôda. *Maſtigar, ou morder. ¶* Xi- |  |
+| `c2-l003` | Cami, u, ôda. *Mastigar, ou morder. ¶* Xi- |  |
 | `c2-l004` | &emsp;ra auauo camu. *Eſcumar o caualo polla* |  |
 | `c2-l005` | &emsp;*boca. ¶ Item,* Cami, u. *Comer. ¶* Xi- |  |
 | `c2-l006` | &emsp;xi fitouo camu. *O lião come o homem.* |  |
@@ -85,13 +85,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l010` | &emsp;*aos outros.* |  |
 | `c2-l011` | Camibuſuma. *Colchão a maneira de feltro* |  |
 | `c2-l012` | &emsp;*de papel.* |  |
-| `c2-l013` | Camico. *Veſtido de papel.* |  |
+| `c2-l013` | Camico. *Vestido de papel.* |  |
 | `c2-l014` | Camicoroxi, u, oita. *Meter as dentadas.* |  |
-| `c2-l015` | Camicudaqi, u, aita. *Eſmiuçar maſtigando.* |  |
-| `c2-l016` | Camicurai, ǒ, ǒta. *Comer maſtigando.* |  |
+| `c2-l015` | Camicudaqi, u, aita. *Eſmiuçar mastigando.* |  |
+| `c2-l016` | Camicurai, ǒ, ǒta. *Comer mastigando.* |  |
 | `c2-l017` | Camigata. *Partes do* Miyaco. |  |
 | `c2-l018` | Camigue. *Cabellos da cabeça.* |  |
-| `c2-l019` | Camiguinu. *Veſtido de papel.* |  |
+| `c2-l019` | Camiguinu. *Vestido de papel.* |  |
 | `c2-l020` | Camimichi. *Caminho de cima.* |  |
 | `c2-l021` | Caminari. *Trouão. ¶* Caminariga ſuru. |  |
 | `c2-l022` | &emsp;*Soar o trouão. ¶ Item, Curiſco. ¶* Ca- |  |
@@ -105,7 +105,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l030` | Camiſori. *Naualha.* |  |
 | `c2-l031` | Camiſoribaco. *Cuixinha das naualhas.* |  |
 | `c2-l032` | Camiſorigai. *Certo genero de ameijoas.* |  |
-| `c2-l033` | Camitadaracaxi, ſu, aita. *Maſtigar, ou* |  |
+| `c2-l033` | Camitadaracaxi, ſu, aita. *Mastigar, ou* |  |
 | `c2-l034` | &emsp;*cortar com os dentes couſas duras, & corriẽ* |  |
 | `c2-l035` | &emsp;*tas de maneira que fiquem mal cortadas,* |  |
 | `c2-l036` | &emsp;*& compridas na boca, como alſeloas, &c.* |  |
@@ -116,10 +116,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l041` | &emsp;*ſa em lugar de fio. Melius.* Coyori. |  |
 | `c2-l042` | Camo. *Hum paſſaro do mar, como marreca.* |  |
 | `c2-l043` | Camogutçu. *Çapatos altos pera jugar apella* |  |
-| `c2-l044` | &emsp;*com os pees ao cuſtume de Iapão.* |  |
+| `c2-l044` | &emsp;*com os pees ao custume de Iapão.* |  |
 | `c2-l045` | Camoi. *Traueſſa de cima por onde correm as* |  |
 | `c2-l046` | &emsp;*portas de Iapão.* |  |
-| `c2-l047` | Camoji. *Cabelleira poſtiça de nobres.* |  |
+| `c2-l047` | Camoji. *Cabelleira postiça de nobres.* |  |
 
 ## Catchword
 

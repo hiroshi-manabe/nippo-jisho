@@ -31,15 +31,15 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1a-l015` | &emsp;*gauião.* |  |
 | `c1a-l016` | Axiuonagani. *Aduerb. Modo de cingir o* |  |
 | `c1a-l017` | &emsp;*montante ficando as pontas do cingidouro, ou* |  |
-| `c1a-l018` | &emsp;*fitas que o ſoſtentão muito compridas.* |  |
+| `c1a-l018` | &emsp;*fitas que o ſostentão muito compridas.* |  |
 | `c1a-l019` | Axiuoto. *Som dos pes.* |  |
 | `c1a-l020` | Axixiro. *Andaimos.* |  |
 | `c1a-l021` | Axizuri. *O roçar dos pees hum comoutro.* |  |
 | `c1a-l022` | &emsp;*¶* Axizuri, tezuri ſuru. *Rogar com* |  |
-| `c1a-l023` | &emsp;*efficacia, ou moſtrar grande ſentimento.* |  |
+| `c1a-l023` | &emsp;*efficacia, ou mostrar grande ſentimento.* |  |
 | `c1a-l024` | Axiyri. *Atoleiro. ¶ Item, Embarcação* |  |
 | `c1a-l025` | &emsp;*muito carregada, & metida no fundo. ¶* Co- |  |
-| `c1a-l026` | &emsp;no funeua axiyrigia. *Eſta embarcação vem* |  |
+| `c1a-l026` | &emsp;no funeua axiyrigia. *Esta embarcação vem* |  |
 | `c1a-l027` | &emsp;*muito metida no fundo.* |  |
 
 ## Column 1 internal heading
@@ -66,7 +66,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1b-l012` | &emsp;*do coração, ou animo dalguem.* |  |
 | `c1b-l013` | Ayacari. *Paruo.* |  |
 | `c1b-l014` | Ayacari, u, atta. *Imitar, ou ſer ſemelhante* |  |
-| `c1b-l015` | &emsp;*nos coſtumes. ¶* Fitoni ayacaru. *Parecerſe cõ* |  |
+| `c1b-l015` | &emsp;*nos costumes. ¶* Fitoni ayacaru. *Parecerſe cõ* |  |
 | `c1b-l016` | &emsp;*alguem nas obras, ou imitalo.* |  |
 | `c1b-l017` | Ayacaxi. *Paruo.* |  |
 | `c1b-l018` | Ayadori, ru, otta. *Tingir, ou pintar de di-* |  |
@@ -88,11 +88,11 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c2-l001` | &emsp;*uerſas cores, & fulas. ¶ Item, Eſcreuer com* |  |
-| `c2-l002` | &emsp;*bom eſtillo, & ornato de palauras. ¶ Vt,* |  |
+| `c2-l002` | &emsp;*bom estillo, & ornato de palauras. ¶ Vt,* |  |
 | `c2-l003` | &emsp;Bunxǒno ayadoru. *Idem.* |  |
-| `c2-l004` | Ayamachi. *Deſaſtre. ¶ Item, Falta. Vt,* |  |
+| `c2-l004` | Ayamachi. *Deſastre. ¶ Item, Falta. Vt,* |  |
 | `c2-l005` | &emsp;Cotobano ayamachi. *Erro nas palauras.* |  |
-| `c2-l006` | Ayamachi, u, atta. *Acõtecer algũ deſaſtre* |  |
+| `c2-l006` | Ayamachi, u, atta. *Acõtecer algũ deſastre* |  |
 | `c2-l007` | &emsp;*a alguem. ¶* Fitouo ayamatçu. *Ma-* |  |
 | `c2-l008` | &emsp;*tar alguẽ. ¶ Item, Errar, ou faltar. ¶* Vo- |  |
 | `c2-l009` | &emsp;moi ayamatçu. *Cuidar hũa couſa por* |  |

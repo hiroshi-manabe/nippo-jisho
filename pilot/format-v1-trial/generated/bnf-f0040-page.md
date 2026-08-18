@@ -19,12 +19,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l003` | Atçuyu. i. Atçuiyu. *Agoa muito quẽte.* |  |
 | `c1-l004` | Ate. *Pao, ou couſa ſemelhante que ſe poẽ de* |  |
 | `c1-l005` | &emsp;*baixo doutro pao pera o cortar, &c. ¶ Item,* |  |
-| `c1-l006` | &emsp;*Hũ pao ſobre que batem os veſtidos encanja-* |  |
+| `c1-l006` | &emsp;*Hũ pao ſobre que batem os vestidos encanja-* |  |
 | `c1-l007` | &emsp;*dos, ou ſobre que batem palha, &c.* |  |
 | `c1-l008` | Ate, tçuru, eta. *Ajuntar, ou chegar hũa* |  |
 | `c1-l009` | &emsp;*couſa a outra, dar, ou bater com hũa cou-* |  |
 | `c1-l010` | &emsp;*ſa em outra. ¶ Vt,* Cauoni cauouo a- |  |
-| `c1-l011` | &emsp;tçuru. *Ajuntar afaçe do roſto cõ ado outro.* |  |
+| `c1-l011` | &emsp;tçuru. *Ajuntar afaçe do rosto cõ ado outro.* |  |
 | `c1-l012` | &emsp;*¶* Cajega atçuru. *Dar o vento em algũ* |  |
 | `c1-l013` | &emsp;*lugar. ¶* Atete, l, atetçuqeteyǔ. *Fa-* |  |
 | `c1-l014` | &emsp;*lar reprehendendo, ou tocando aſperamente em* |  |
@@ -42,7 +42,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l026` | Ateatexij. *Vt,* Ateatexij cotouo yǔ. *Di-* |  |
 | `c1-l027` | &emsp;*zer couſas que tocão, ou dão no coração.* |  |
 | `c1-l028` | Atecoto. *Palaura que fere, ou dà no coração.* |  |
-| `c1-l029` | &emsp;*¶* Atecotouo yǔ. *Dizer eſtas palauras.* |  |
+| `c1-l029` | &emsp;*¶* Atecotouo yǔ. *Dizer estas palauras.* |  |
 | `c1-l030` | Ategai, ǒ, ǒta. *Aplicar, ou dar a hũ con-* |  |
 | `c1-l031` | &emsp;*forme ao que lhe conuem, dirigir, entregar.* |  |
 | `c1-l032` | &emsp;*¶* Cuſuriuo ategǒ. *Aplicar mezinha* |  |
@@ -60,7 +60,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l044` | &emsp;chiguiǒno toru. *Tomar renda propria,* |  |
 | `c1-l045` | &emsp;*ou ſer lhe aplicada.* |  |
 | `c1-l046` | Ateuoconai, ǒ, ǒta. *Dar, ou encarregar* |  |
-| `c1-l047` | &emsp;*a outro a adminiſtração de rendas, officios,* |  |
+| `c1-l047` | &emsp;*a outro a administração de rendas, officios,* |  |
 
 ## Column 2 running header
 
@@ -80,7 +80,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l006` | Atǒ. Cumi ſuru tomogara. *Homẽs da* |  |
 | `c2-l007` | &emsp;*meſma parcialidade pera fazer algũa conju-* |  |
 | `c2-l008` | &emsp;*ração, ou outro mal.* |  |
-| `c2-l009` | Ato. *Raſto, ou ſinal que fica dalgũa couſa.* |  |
+| `c2-l009` | Ato. *Rasto, ou ſinal que fica dalgũa couſa.* |  |
 | `c2-l010` | &emsp;*¶* Fitono atouo xitǒ. *Ir em ſeguimento,* |  |
 | `c2-l011` | &emsp;*ou de traz dalguem. ¶ Item, Permet.* |  |
 | `c2-l012` | &emsp;*Seguir, & imitar alguem. ¶* Atouo ſuru. |  |
@@ -94,7 +94,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l020` | &emsp;*¶* Atouo cacufu, l, atouo vzzumu. *En-* |  |
 | `c2-l021` | &emsp;*terrar o corpo morto. ¶ Item, Deſprezar-* |  |
 | `c2-l022` | &emsp;*de todo ao mundo eſcondendoſe a onde não ſeja* |  |
-| `c2-l023` | &emsp;*viſto de ninguem. ¶ Item,* Ato. *Heran-* |  |
+| `c2-l023` | &emsp;*visto de ninguem. ¶ Item,* Ato. *Heran-* |  |
 | `c2-l024` | &emsp;*ça, ou couſa que fica deſpois do morto como* |  |
 | `c2-l025` | &emsp;*caſas, riquezas, &c. ¶* Atouo, l, ato- |  |
 | `c2-l026` | &emsp;xiquo yuzzuru. *Fazer a alguem ſeu* |  |
@@ -118,7 +118,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l044` | &emsp;ta atono yǒna. *Prou. Ficar algũ lugar mui-* |  |
 | `c2-l045` | &emsp;*to ſolitario, & quieto depois que ſe vai algum* |  |
 | `c2-l046` | &emsp;*golpe de gente delle. ¶* Vômizzuno deta |  |
-| `c2-l047` | &emsp;atonoyǒna. *Ficar algũ lugar como deſtrui-* |  |
+| `c2-l047` | &emsp;atonoyǒna. *Ficar algũ lugar como destrui-* |  |
 
 ## Catchword
 

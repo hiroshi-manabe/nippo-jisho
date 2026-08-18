@@ -21,19 +21,19 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l005` | Boboqe, uru, eta. *Aleuantarſe como friſ-* |  |
 | `c1-l006` | &emsp;*za, ou pello de papel, &c.* |  |
 | `c1-l007` | Bôbôtaru rei. *Modo de muita eſpeſſura, ou* |  |
-| `c1-l008` | &emsp;*viço das eruas, ou de eſtar algum lugar in-* |  |
+| `c1-l008` | &emsp;*viço das eruas, ou de estar algum lugar in-* |  |
 | `c1-l009` | &emsp;*culto, & baſto com eruas, &c. ¶* Bôbô |  |
 | `c1-l010` | &emsp;taru caixô. *Mar largo, & comprido.* |  |
 | `c1-l011` | Bôbôto. *Adu. Modo de ſoar vento, ou* |  |
 | `c1-l012` | &emsp;*dezunirem as orelhas.* |  |
-| `c1-l013` | Bôbôtoxite. *Adu. Modo de eſtar trans* |  |
+| `c1-l013` | Bôbôtoxite. *Adu. Modo de estar trans* |  |
 | `c1-l014` | &emsp;*portado, ou ſolitario. ¶ Item, Modo de* |  |
-| `c1-l015` | &emsp;*viſta ao lõge, ou de couſa larga, & comprida.* |  |
+| `c1-l015` | &emsp;*vista ao lõge, ou de couſa larga, & comprida.* |  |
 | `c1-l016` | &emsp;*¶ Item, Modo da eſpeſſura das eruas muito* |  |
 | `c1-l017` | &emsp;*crecidas.* |  |
-| `c1-l018` | Bôbuxe. *O derrubar a alguem com o baſtão,* |  |
+| `c1-l018` | Bôbuxe. *O derrubar a alguem com o bastão,* |  |
 | `c1-l019` | &emsp;*ou bordão dandolhe pancada.* |  |
-| `c1-l020` | Boca. Natçunocure. *Fim do eſtio.* |  |
+| `c1-l020` | Boca. Natçunocure. *Fim do estio.* |  |
 | `c1-l021` | Bocan. *Frio que faz pola tarde, ou tarde fria.* |  |
 | `c1-l022` | Boccai. i. Firoi vmi. *Mar largo, & eſpaçoſo.* |  |
 | `c1-l023` | Bocchô. Vodori, ru. *Bailar, ou dançar.* |  |
@@ -93,7 +93,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l013` | &emsp;*ta, & pena.* |  |
 | `c2-l014` | Bocuguiũ. i. Maqino vxi. *Vacas que ſe* |  |
 | `c2-l015` | &emsp;*crião no campo.* |  |
-| `c2-l016` | Bocuji. Vxicô votoco. *Paſtor de vacas,* |  |
+| `c2-l016` | Bocuji. Vxicô votoco. *Pastor de vacas,* |  |
 | `c2-l017` | &emsp;*ou de outro gado.* |  |
 | `c2-l018` | Bocujin. Vianô fito. *Feiticeiro, ou o que* |  |
 | `c2-l019` | &emsp;*bota ſortes, & adeuinha.* |  |
@@ -103,10 +103,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l023` | &emsp;*com reſpeito da peſſoa.* |  |
 | `c2-l024` | Bocujũ. i. Guenindomo. *Criados, & ſeruos.* |  |
 | `c2-l025` | Bocujũ. Sumino xiru, l, ſuritaru ſumi. *Tĩta mo* |  |
-| `c2-l026` | &emsp;*ida liquida, como a que eſta nos tinteiros de* |  |
+| `c2-l026` | &emsp;*ida liquida, como a que esta nos tinteiros de* |  |
 | `c2-l027` | &emsp;*Iapão, ou china.* |  |
 | `c2-l028` | Bocuri. *Tamancos, ou chiripos de pao.* |  |
-| `c2-l029` | Bocutegi. Vxicaino ſuye. *Frauta de paſtor.* |  |
+| `c2-l029` | Bocutegi. Vxicaino ſuye. *Frauta de pastor.* |  |
 | `c2-l030` | Bocutô. Qigatana. *Eſpada de pao pera* |  |
 | `c2-l031` | &emsp;*eſgrimir.* |  |
 | `c2-l032` | Bocuxeqi. Qi ixi. *Pao, & pedra.* |  |
@@ -117,7 +117,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l037` | &emsp;mo xinzuru. *Ainda que ſeja pouquidade* |  |
 | `c2-l038` | &emsp;*vos offereço.* |  |
 | `c2-l039` | Bocuyô. Fitçujicô coto, l, fitçuji cai. *A-* |  |
-| `c2-l040` | &emsp;*pacentar ouelhas. Item, Paſtor de ouelhas.* |  |
+| `c2-l040` | &emsp;*pacentar ouelhas. Item, Pastor de ouelhas.* |  |
 | `c2-l041` | Bodai. *O tirar do coração todas as affeiço-* |  |
 | `c2-l042` | &emsp;*ẽs do mundo pera ſe ſaluar. ¶ Item, De-* |  |
 | `c2-l043` | &emsp;*ſejo da ſaluação. ¶* Bodaiuotô, l, Go- |  |

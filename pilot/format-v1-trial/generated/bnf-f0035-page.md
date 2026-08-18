@@ -15,9 +15,9 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c1-l001` | Aratana, l, ataraxij. *Couſa noua, ou reno-* |  |
-| `c1-l002` | &emsp;*uada. ¶ Item, Couſa manifeſta, & ſabida.* |  |
+| `c1-l002` | &emsp;*uada. ¶ Item, Couſa manifesta, & ſabida.* |  |
 | `c1-l003` | Aratani. *Adu. De nouo. ¶ Item, Mani-* |  |
-| `c1-l004` | &emsp;*feſtamente.* |  |
+| `c1-l004` | &emsp;*festamente.* |  |
 | `c1-l005` | Aratçuchi. *Terra groſſeira, ou miſturada cõ* |  |
 | `c1-l006` | &emsp;*pedras antes de a concertarem pera barrar.* |  |
 | `c1-l007` | Arate. *Gente de refreſco que ſocede à canſada* |  |
@@ -28,24 +28,24 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l012` | Arato. P*edra groſſa de amolar em que pri-* |  |
 | `c1-l013` | &emsp;*meiro a fião aferramenta peralhe dar de pois* |  |
 | `c1-l014` | &emsp;*ofio em outra mais fina.* |  |
-| `c1-l015` | Aratori. *Paſſaro brauo, que não eſta ainda* |  |
-| `c1-l016` | &emsp;*domeſtico.* |  |
+| `c1-l015` | Aratori. *Paſſaro brauo, que não esta ainda* |  |
+| `c1-l016` | &emsp;*domestico.* |  |
 | `c1-l017` | Arauana, l, araua naru. *Couſa clara, &* |  |
 | `c1-l018` | &emsp;*deſcuberta.* |  |
 | `c1-l019` | Arauani. *Adu. Claramente, ou a olhos viſtos.* |  |
-| `c1-l020` | Arauare, ruru, eta. *Manifeſtarſe, declararſe,* |  |
+| `c1-l020` | Arauare, ruru, eta. *Manifestarſe, declararſe,* |  |
 | `c1-l021` | &emsp;*aparecer. ¶* Foni arauaruru. *Permet.* |  |
 | `c1-l022` | &emsp;*Deſcobrirſe na obra, ou effeito. S.* |  |
-| `c1-l023` | Arauarete. *Aduer. Manifeſtamente, ou a* |  |
+| `c1-l023` | Arauarete. *Aduer. Manifestamente, ou a* |  |
 | `c1-l024` | &emsp;*viſta de todos.* |  |
-| `c1-l025` | Arauaxi, ſu, ita. *Manifeſtar, ou declarar.* |  |
+| `c1-l025` | Arauaxi, ſu, ita. *Manifestar, ou declarar.* |  |
 | `c1-l026` | &emsp;*¶* Qidocuuo arauaſu, l, guenzuru. *Fa-* |  |
 | `c1-l027` | &emsp;*zer milagres.* |  |
 | `c1-l028` | Arauchi. *Cana pera arco ainda por polir, &* |  |
 | `c1-l029` | &emsp;*por arcar.* |  |
 | `c1-l030` | Arauchi. *Vt,* Arauchiuo ſuru. *Bater o fer* |  |
 | `c1-l031` | &emsp;*reiro o ferro mal, & imperfeitamente. ¶ Itẽ,* |  |
-| `c1-l032` | &emsp;*Desbaſtar com enxò amadeira, &c.* |  |
+| `c1-l032` | &emsp;*Desbastar com enxò amadeira, &c.* |  |
 | `c1-l033` | Arauchina fito. *Homem inculto, & ruſtico,* |  |
 | `c1-l034` | &emsp;*que nada faz com ſocego nem com graça.* |  |
 | `c1-l035` | Ara vma. *Caualo brauo, & indomito.* |  |
@@ -93,7 +93,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l013` | &emsp;qe. *Todos os* Fotoqes. *¶* Arǒru Cami. |  |
 | `c2-l014` | &emsp;*Todos os* Camis. |  |
 | `c2-l015` | Are. *Aquelle, ou aquillo. ¶* Coreua are |  |
-| `c2-l016` | &emsp;no de gozaru. *Iſto he daquelle.* |  |
+| `c2-l016` | &emsp;no de gozaru. *Isto he daquelle.* |  |
 | `c2-l017` | Are, ruru, eta. *Danificarſe, ou deſtruirſe algũa* |  |
 | `c2-l018` | &emsp;*couſa, como caſa, campo, por ſe não habitar, ou* |  |
 | `c2-l019` | &emsp;*cultiuar. ¶* Iyega aruru. *Danificarem* |  |
@@ -119,12 +119,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l039` | &emsp;ariga ſaxeba irarenu. *Prou. Ainda que* |  |
 | `c2-l040` | &emsp;*o lugar ſeja bom, & deleitoſo ſe o homem tem* |  |
 | `c2-l041` | &emsp;*cuidados de nada goſta, como oque não pode* |  |
-| `c2-l042` | &emsp;*eſtar mordendoo a formiga ainda que eſteja de* |  |
+| `c2-l042` | &emsp;*estar mordendoo a formiga ainda que eſteja de* |  |
 | `c2-l043` | &emsp;*baxo de freſca aruore. ¶* Arimaqiga ſu- |  |
 | `c2-l044` | &emsp;ru. *Iuntaremſe formigas a mõtoẽs. ¶* A- |  |
 | `c2-l045` | &emsp;rino cumano mairi fodo tçuzzuitayo. |  |
 | `c2-l046` | &emsp;*Prou. São tantos como formigas.* |  |
-| `c2-l047` | Ari, ru, atta. *Auer, eſtar, ter. ¶ Itẽ,* |  |
+| `c2-l047` | Ari, ru, atta. *Auer, estar, ter. ¶ Itẽ,* |  |
 
 ## Catchword
 

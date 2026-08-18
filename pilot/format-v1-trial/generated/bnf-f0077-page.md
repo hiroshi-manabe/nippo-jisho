@@ -24,7 +24,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l008` | Caidan. *Tabernaculo, ou modo de altar em* |  |
 | `c1-l009` | &emsp;*que ſe dão graos, & dignidades a certos* Bô |  |
 | `c1-l010` | &emsp;zos. |  |
-| `c1-l011` | Caidarui. *Eſtar muito canſado, & com o* |  |
+| `c1-l011` | Caidarui. *Estar muito canſado, & com o* |  |
 | `c1-l012` | &emsp;*corpo, ou membros debilitados, ¶* Cai- |  |
 | `c1-l013` | &emsp;daru gozaru. *Idem.* |  |
 | `c1-l014` | Caidate. *Repairo de taboas de que ſe vſaua* |  |
@@ -33,12 +33,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l017` | &emsp;*entre os imigos. ¶* Caidateuo caqu, l, |  |
 | `c1-l018` | &emsp;aguru. *Idem.* |  |
 | `c1-l019` | Caide. *Folhas de certa aruore, que em quanto* |  |
-| `c1-l020` | &emsp;*eſtão verdes ſe chamão* Caide, *& depois que* |  |
+| `c1-l020` | &emsp;*estão verdes ſe chamão* Caide, *& depois que* |  |
 | `c1-l021` | &emsp;*ſe tornão vermelhas no outono ſe chamão* Mo- |  |
 | `c1-l022` | &emsp;migi. |  |
 | `c1-l023` | Caidǒ. *Certa laya de ameixieiras, cuja flor he* |  |
 | `c1-l024` | &emsp;*como de cereijeira.* |  |
-| `c1-l025` | Caidǒ. *Caminho largo, ou eſtrada por terra.* |  |
+| `c1-l025` | Caidǒ. *Caminho largo, ou estrada por terra.* |  |
 | `c1-l026` | Caidǒjet. *Nouas de caminho, ou do bazar,* |  |
 | `c1-l027` | &emsp;*incertas.* |  |
 | `c1-l028` | Caifacarai, ǒ, ota. *Determinar, ou prouer algũa* |  |
@@ -53,7 +53,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l037` | Caifen. Vmino fotori. *Borda do mar, ou* |  |
 | `c1-l038` | &emsp;*junto ao mar, ou lugar maritimo.* |  |
 | `c1-l039` | Caifiacu. Firaqi, u. *Principio do mundo, ou* |  |
-| `c1-l040` | &emsp;*quando ſe principiou o mundo. Poſto que ordi-* |  |
+| `c1-l040` | &emsp;*quando ſe principiou o mundo. Posto que ordi-* |  |
 | `c1-l041` | &emsp;*nariamente dizem* Tenchi caifiacu yori. *i.* |  |
 | `c1-l042` | &emsp;*Deſpois de começado o mundo.* |  |
 | `c1-l043` | Caifiraqi, u, aita. *Abrir, ou abrir de par* |  |
@@ -82,11 +82,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l002` | Caifu. Vouoi, ô. *Cubrir.* |  |
 | `c2-l003` | Caifuqi. *O que tange a buzina.* |  |
 | `c2-l004` | Caiga. Vmi caua. *Mar, & rio.* |  |
-| `c2-l005` | Caigaixij. *Forte, & robuſto. ¶ Item, Eſ* |  |
+| `c2-l005` | Caigaixij. *Forte, & robusto. ¶ Item, Eſ* |  |
 | `c2-l006` | &emsp;*forçado, & valente.* |  |
 | `c2-l007` | &emsp;Caigaixiſa. |  |
 | `c2-l008` | &emsp;Caigaixǔ. |  |
-| `c2-l009` | Caigan. Vmino qixi. *Rochedo que eſta na* |  |
+| `c2-l009` | Caigan. Vmino qixi. *Rochedo que esta na* |  |
 | `c2-l010` | &emsp;*borda do mar.* |  |
 | `c2-l011` | Caigane, l, Caiganeno fone. *Eſpadoas.* |  |
 | `c2-l012` | Caigue. Firaqi, toqu. *O ſoltar como algũa* |  |

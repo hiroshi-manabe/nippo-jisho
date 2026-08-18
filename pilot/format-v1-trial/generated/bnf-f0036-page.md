@@ -32,11 +32,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l016` | &emsp;*muita aparencia de verdade.* |  |
 | `c1-l017` | Ariarixij. *Couſa que deue, ou parece ſer aſſi.* |  |
 | `c1-l018` | &emsp;*¶* Ariarixij teide gozaru. *Maneira de* |  |
-| `c1-l019` | &emsp;*eſtar conueuientemente, & à ſua vontade co-* |  |
-| `c1-l020` | &emsp;*mo quem eſta em ſua caſa, &c.* |  |
+| `c1-l019` | &emsp;*estar conueuientemente, & à ſua vontade co-* |  |
+| `c1-l020` | &emsp;*mo quem esta em ſua caſa, &c.* |  |
 | `c1-l021` | Ariarixǔ. *Aduer.* |  |
 | `c1-l022` | Arica, l, ſumica. *Morada, habitação.* |  |
-| `c1-l023` | Aridocoro. *Lugar onde eſtà algũa couſa.* |  |
+| `c1-l023` | Aridocoro. *Lugar onde està algũa couſa.* |  |
 | `c1-l024` | &emsp;*¶ Item, Morada.* |  |
 | `c1-l025` | Arigai. *Couſa de ſer, & de proueito. ¶* A- |  |
 | `c1-l026` | &emsp;rigaino aru mi gia. *Ser proueitoſo, ou ſer-* |  |
@@ -52,12 +52,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l036` | &emsp;*cia, veneração, & agradecimento. Vt,* |  |
 | `c1-l037` | &emsp;Ara arigataya, tǒtoya! *O couſa ſancta,* |  |
 | `c1-l038` | &emsp;*& pia, &c.* |  |
-| `c1-l039` | Arigauo. *Como quem eſtà contente, ou tem* |  |
+| `c1-l039` | Arigauo. *Como quem està contente, ou tem* |  |
 | `c1-l040` | &emsp;*poſſe, &c. Vt,* Vqiyoni arigauoni iye |  |
 | `c1-l041` | &emsp;uo mottemo nanini xôzo? *Ainda que* |  |
 | `c1-l042` | &emsp;*tenha caſa como quem viue proſperamente que* |  |
 | `c1-l043` | &emsp;*me aproueita? ¶* Yǒ arigauona tei. *Mo* |  |
-| `c1-l044` | &emsp;*do, ou geito no roſto de quem traz algũa couſa* |  |
+| `c1-l044` | &emsp;*do, ou geito no rosto de quem traz algũa couſa* |  |
 | `c1-l045` | &emsp;*no penſamento.* |  |
 | `c1-l046` | Arino mama, l, arino mamani. *Adu. Pon-* |  |
 | `c1-l047` | &emsp;*tualmente, ſem tirar nem por, ou aſſi como* |  |
@@ -77,18 +77,18 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2a-l002` | Arino mino qi. *Pereira.* |  |
 | `c2a-l003` | Ariqi, u, ruita. *Andar, caminhar. ¶ Vt,* |  |
 | `c2a-l004` | &emsp;Michiuo ariqu. *Idem.* |  |
-| `c2a-l005` | Ariſama. *Figura, ſeição, poſtura, maneira.* |  |
+| `c2a-l005` | Ariſama. *Figura, ſeição, postura, maneira.* |  |
 | `c2a-l006` | &emsp;*Vt,* Memo aterarenu ariſama. *Figura laſ* |  |
 | `c2a-l007` | &emsp;*timoſa.* |  |
 | `c2a-l008` | Aritçuqe, uru, eta. *Fazer com alguem que to* |  |
 | `c2a-l009` | &emsp;*me aſſento em algũa parte, ou modo de vida.* |  |
 | `c2a-l010` | &emsp;*¶ Item, Cazar a alguem, & darlhe caſa* |  |
 | `c2a-l011` | Aritçuqi, u, uita. *Tomar aſſento em algũ* |  |
-| `c2a-l012` | &emsp;*lugar, ou eſtado. Item tomar caſa, cazar-* |  |
+| `c2a-l012` | &emsp;*lugar, ou estado. Item tomar caſa, cazar-* |  |
 | `c2a-l013` | &emsp;*ſe &c.* |  |
 | `c2a-l014` | Ariya, jnaya? *Ha, ou não ha?* |  |
 | `c2a-l015` | Ariyǒ. i. Aritey. *Maneira de ſer, onegocio* |  |
-| `c2a-l016` | &emsp;*como paſſa, o eſtado da couſa.* |  |
+| `c2a-l016` | &emsp;*como paſſa, o estado da couſa.* |  |
 | `c2a-l017` | Aru. *Hum certo. Vt,* Aru fito, Aru qe- |  |
 | `c2a-l018` | &emsp;damono, &c. *Hũ certo homem, Ani-* |  |
 | `c2a-l019` | &emsp;*mal, &c.* |  |
@@ -114,7 +114,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2b-l001` | ASA. *Menhaã clara ou tẽpo de polamanhaã.* |  |
 | `c2b-l002` | Aſa. *Linho canemo ainda em erua.* |  |
 | `c2b-l003` | &emsp;*¶* Aſanouo. *Linho canemo concertado e* |  |
-| `c2b-l004` | &emsp;*feito ia como eſtriga. ¶* Aſano ito. *Li-* |  |
+| `c2b-l004` | &emsp;*feito ia como estriga. ¶* Aſano ito. *Li-* |  |
 | `c2b-l005` | &emsp;*nhas, ou fio de linho canemo.* |  |
 | `c2b-l006` | Aſaaqe. *Menhaã clara.* |  |
 | `c2b-l007` | Aſa aſato. *Ad. Leue, & expeditamente.* |  |

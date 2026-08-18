@@ -21,7 +21,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l005` | &emsp;*furioſa.* |  |
 | `c1-l006` | Aragutçuua. *Freo que poem aos caualos* |  |
 | `c1-l007` | &emsp;*quando os vão lauar.* |  |
-| `c1-l008` | Araiſo. *Praya, ou coſta braua.* |  |
+| `c1-l008` | Araiſo. *Praya, ou costa braua.* |  |
 | `c1-l009` | Arai ſuſugui, u, ſuida. *Enxagoar, ou lauar* |  |
 | `c1-l010` | &emsp;*enxagoando.* |  |
 | `c1-l011` | Araiſute, tçuru, eta. *Lauar botando fora a* |  |
@@ -72,14 +72,14 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | &emsp;*de veſtido que não diz, nem he conueniente a* |  |
+| `c2-l001` | &emsp;*de vestido que não diz, nem he conueniente a* |  |
 | `c2-l002` | &emsp;*tal peſſoa como ſe hum homem ſe veſtira como* |  |
 | `c2-l003` | &emsp;*molher, &c.* |  |
 | `c2-l004` | Araqe, uru, eta. *Deſuiar, ou dar caminho* |  |
 | `c2-l005` | &emsp;*& lugar. ¶* Tocoro, l, michiuo ara- |  |
 | `c2-l006` | &emsp;quru. *Deſpejar lugar, ou caminho tirando* |  |
 | `c2-l007` | &emsp;*delle as couſas que occupão, ou embaração.* |  |
-| `c2-l008` | &emsp;*¶* Teqiga araqeta. *Afaſtarãoſe, ou a-* |  |
+| `c2-l008` | &emsp;*¶* Teqiga araqeta. *Afastarãoſe, ou a-* |  |
 | `c2-l009` | &emsp;*longarãoſe os inimigos.* |  |
 | `c2-l010` | Araqenai. *Couſa cruel. ¶ Item, Aſpe-* |  |
 | `c2-l011` | &emsp;*ra, & riſpida.* |  |
@@ -93,13 +93,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l019` | Arare. *Saraiua. Vt,* Ararega furu. *Cho-* |  |
 | `c2-l020` | &emsp;*uer ſaraiua. ¶* Arare zaqe. *Hũa laya de* |  |
 | `c2-l021` | &emsp;*vinho.* |  |
-| `c2-l022` | Ararebaxiri. *Certa feſta que ſe faz em caſa do* |  |
+| `c2-l022` | Ararebaxiri. *Certa festa que ſe faz em caſa do* |  |
 | `c2-l023` | &emsp;*Dairi pello Xǒguachi.* |  |
 | `c2-l024` | Araſa. *Hum pao que ſerue no tear com hũs* |  |
 | `c2-l025` | &emsp;*dentes ralos com que diuizão a urdidura.* |  |
 | `c2-l026` | Araſo. *Linho canemo ainda por concertar.* |  |
 | `c2-l027` | Araſoi. *Contenda, ou porfia. ¶* Yxei a- |  |
-| `c2-l028` | &emsp;raſoiuo ſuru. *Contender aquem moſtrara* |  |
+| `c2-l028` | &emsp;raſoiuo ſuru. *Contender aquem mostrara* |  |
 | `c2-l029` | &emsp;*mais fauſto, & poder.* |  |
 | `c2-l030` | Araſoi, ô, ôta. *Contender, ou porfiar.* |  |
 | `c2-l031` | &emsp;*¶* Rifuuo, l, dǒriuo araſô. *Argumen-* |  |
@@ -110,7 +110,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l036` | &emsp;*de traz.* |  |
 | `c2-l037` | Arataca. *Gauião do monte ainda por do-* |  |
 | `c2-l038` | &emsp;*meſticar.* |  |
-| `c2-l039` | Aratama. *Pedra precioſa toſca, & que eſtà in-* |  |
+| `c2-l039` | Aratama. *Pedra precioſa toſca, & que està in-* |  |
 | `c2-l040` | &emsp;*da por laurar.* |  |
 | `c2-l041` | Aratamano toxi. P. Toxino fajime. *Prin-* |  |
 | `c2-l042` | &emsp;*cipio do anno, ou anno nouo.* |  |
@@ -118,7 +118,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l044` | &emsp;*formarſe.* |  |
 | `c2-l045` | Aratame, uru, eta. *Renouar, ou reformar.* |  |
 | `c2-l046` | &emsp;*Vt,* Guioguiuo aratamuru. *Mudar os co-* |  |
-| `c2-l047` | &emsp;*ſtumes em bem, ou emendar a vida.* |  |
+| `c2-l047` | &emsp;*stumes em bem, ou emendar a vida.* |  |
 
 ## Catchword
 

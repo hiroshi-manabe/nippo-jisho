@@ -33,7 +33,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l017` | Bansan. Yorozzuno yama. *Todos os mõtes.* |  |
 | `c1-l018` | &emsp;*¶ Vt,* Bãſã Faru itareba mina fanano nixi- |  |
 | `c1-l019` | &emsp;qi uo qiru. *Em vindo a primauera todos os* |  |
-| `c1-l020` | &emsp;*montes ſe veſtem de verdura, & fermoſura.* |  |
+| `c1-l020` | &emsp;*montes ſe vestem de verdura, & fermoſura.* |  |
 | `c1-l021` | Bansô. i. Tomonǒte yuqu. *Religioſo q̃* |  |
 | `c1-l022` | &emsp;*vai em companhia de outro.* |  |
 | `c1-l023` | Bansot. i. Xotot. *Todos os ſoldados.* |  |

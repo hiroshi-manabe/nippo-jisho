@@ -17,9 +17,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l001` | Cacarixi nochiua. *Adu. i.* Cacu *arixino* |  |
 | `c1-l002` | &emsp;chiua. *Depois diſto, & ſendo aſſi, &c. S.* |  |
 | `c1-l003` | Cacariyǒ. *Pezar algũa couſa igualmente cõ* |  |
-| `c1-l004` | &emsp;*outra, ou eſtar o pezo juſto.* |  |
+| `c1-l004` | &emsp;*outra, ou estar o pezo juſto.* |  |
 | `c1-l005` | Cacaru. *Adiect. i.* Cayǒnaru, *l,* cacuno |  |
-| `c1-l006` | &emsp;gotocu naru. *Deſta laya, ou deſta maneira.* |  |
+| `c1-l006` | &emsp;gotocu naru. *Desta laya, ou deſta maneira.* |  |
 | `c1-l007` | &emsp;*¶* Cacaru tocoroni. i. Cacunogotoqu |  |
 | `c1-l008` | &emsp;aru tocoroni. *Adu. ſendo aſſi.* |  |
 | `c1-l009` | Cacauari, u, atta. *Ter deuer, ou entender cõ* |  |
@@ -39,17 +39,17 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l023` | Cacayaqi vatari, ru, atta. *Reſplandeçer* |  |
 | `c1-l024` | &emsp;*muito, ou por todas as partes.* |  |
 | `c1-l025` | Cacaye, uru, eta. *Ter mão em algũa couſa,* |  |
-| `c1-l026` | &emsp;*ou ſoſtentar a couſa que quer cair. ¶ Item,* |  |
+| `c1-l026` | &emsp;*ou ſostentar a couſa que quer cair. ¶ Item,* |  |
 | `c1-l027` | &emsp;*Defender a alguem recolhendoo. ¶* Xirouo |  |
-| `c1-l028` | &emsp;cacayuru. *Soſtentar, & defender a forta-* |  |
+| `c1-l028` | &emsp;cacayuru. *Sostentar, & defender a forta-* |  |
 | `c1-l029` | &emsp;*leza. ¶* Fitouo cacayuru. *Tomar a al* |  |
-| `c1-l030` | &emsp;*guem em ſeu ſeruiço, & ſoſtentalo.* |  |
-| `c1-l031` | Cacaye voqi, u, oita. *Soſtentar a alguem* |  |
+| `c1-l030` | &emsp;*guem em ſeu ſeruiço, & ſostentalo.* |  |
+| `c1-l031` | Cacaye voqi, u, oita. *Sostentar a alguem* |  |
 | `c1-l032` | &emsp;*& tomalo em ſeu ſeruiço.* |  |
 | `c1-l033` | Caccacu. *Cada hum por ſi, ou couſa differen* |  |
-| `c1-l034` | &emsp;*te, ou diſtinta. Vt,* Caccacude gozaru. |  |
+| `c1-l034` | &emsp;*te, ou distinta. Vt,* Caccacude gozaru. |  |
 | `c1-l035` | &emsp;*São differentes, ou diſtintos.* |  |
-| `c1-l036` | Caccacuni. *Adu. Diſtinta, ou differentemẽ* |  |
+| `c1-l036` | Caccacuni. *Adu. Distinta, ou differentemẽ* |  |
 | `c1-l037` | &emsp;*te, cada hum por ſi.* |  |
 | `c1-l038` | Caccan. i. Mecura. *Cego.* |  |
 | `c1-l039` | Cacchǔ. Yoroi, cabuto. *Armas, & ca-* |  |
@@ -107,7 +107,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l026` | &emsp;chigiuo iqu. *Ir por terra a pè.* |  |
 | `c2-l027` | Cachigoxǒ. *Pagem que vai a pè.* |  |
 | `c2-l028` | Cachiguri. *Caſtanhas piladas, ou ſecas ao ſol.* |  |
-| `c2-l029` | Cachi iro. *O pareçer que vençe, ou moſtras* |  |
+| `c2-l029` | Cachi iro. *O pareçer que vençe, ou mostras* |  |
 | `c2-l030` | &emsp;*de vençer. ¶* Cachi irona. *Idem. Vt,* Mi |  |
 | `c2-l031` | &emsp;cata cachi ironi gozaru. *Os da noſſa parte* |  |
 | `c2-l032` | &emsp;*pareçe, ou tem geito de vençer.* |  |
@@ -123,7 +123,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l042` | &emsp;*molheres.* |  |
 | `c2-l043` | Cachǒ. i. Caya. *Pauilhaõ com que cobrem a* |  |
 | `c2-l044` | &emsp;*cama por amor dos moſquitos.* |  |
-| `c2-l045` | Cacho. Buta. *Porco do meſtiço.* |  |
+| `c2-l045` | Cacho. Buta. *Porco do mestiço.* |  |
 | `c2-l046` | Cachǒ. *Alegria, & gratulação dalgum bẽ.* |  |
 | `c2-l047` | Cachǔ. Iyeno vchi. *Dentro de caſa. ¶ Itẽ,* |  |
 | `c2-l048` | &emsp;*Familia, ou criados de algũ ſenhor.* |  |

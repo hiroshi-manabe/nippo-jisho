@@ -20,11 +20,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1a-l004` | Ayaxino xizzunouo. *Homem de baixa* |  |
 | `c1a-l005` | &emsp;*ſorte que não ſe conhece bem.* |  |
 | `c1a-l006` | Ayaximi, u, ûda. *Duuidar, ter ſoſpeita.* |  |
-| `c1a-l007` | Aye, uru, eta. *Miſturar, ou concertar, &* |  |
+| `c1a-l007` | Aye, uru, eta. *Misturar, ou concertar, &* |  |
 | `c1a-l008` | &emsp;*temperar eruas com* Miſo*, &c. pera comer.* |  |
 | `c1a-l009` | &emsp;*¶ Item, Perder o goſto algum comer por eſ-* |  |
 | `c1a-l010` | &emsp;*tar muito tempo feito como* Namaſu*, cella-* |  |
-| `c1a-l011` | &emsp;*da, &c. ¶* Namaſuga ayeta. *Eſtar o* |  |
+| `c1a-l011` | &emsp;*da, &c. ¶* Namaſuga ayeta. *Estar o* |  |
 | `c1a-l012` | &emsp;Namaſu *ſem ſabor. ¶ Item, No* Ximo |  |
 | `c1a-l013` | &emsp;*cair a fruita, grãos, trigo, &c. por ſi, ou qual* |  |
 | `c1a-l014` | &emsp;*quer outra couſa de alto.* |  |
@@ -34,12 +34,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1a-l018` | &emsp;*guem como quando ha muita gente, &c.* |  |
 | `c1a-l019` | &emsp;*¶ Item, Permet. Tirar palha com alguem* |  |
 | `c1a-l020` | &emsp;*zombando delle, ou tratandoo mal.* |  |
-| `c1a-l021` | Ayemono. *Cellada, ou miſtura deruas cõ ſeu* |  |
+| `c1a-l021` | Ayemono. *Cellada, ou mistura deruas cõ ſeu* |  |
 | `c1a-l022` | &emsp;*molho, ou tempera. ¶ Item, Permet.* Aye- |  |
 | `c1a-l023` | &emsp;mononi naru. *Por ſer paruo, ſer mal tra-* |  |
 | `c1a-l024` | &emsp;*tado de palaura, & zombarias de outros.* |  |
 | `c1a-l025` | Ayenai. *Couſa triſte, & que cauſa compaixão.* |  |
-| `c1a-l026` | Ayenǒ. *Adu. Laſtimoſamente, cõ cõpaixão.* |  |
+| `c1a-l026` | Ayenǒ. *Adu. Lastimoſamente, cõ cõpaixão.* |  |
 | `c1a-l027` | Ayete. i. Vqegǒte. *Conſentindo, & fazẽ* |  |
 | `c1a-l028` | &emsp;*doſe capaz prohibir algũa couſa, ou propor de a* |  |
 | `c1a-l029` | &emsp;*não fazer. ¶* Ayete xirizoqu coto naca |  |
@@ -67,7 +67,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1b-l001` | AZA. *Sinal preto no roſto, ou qualquer* |  |
+| `c1b-l001` | AZA. *Sinal preto no rosto, ou qualquer* |  |
 | `c1b-l002` | &emsp;*parte do corpo. ¶* Focuro. *He ſo-* |  |
 
 ## Column 2 running header
@@ -80,16 +80,16 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | &emsp;*mente o do roſto.* |  |
-| `c2-l002` | Azaazato. *Adu. Claramente, diſtĩ tamẽ-* |  |
+| `c2-l001` | &emsp;*mente o do rosto.* |  |
+| `c2-l002` | Azaazato. *Adu. Claramente, distĩ tamẽ-* |  |
 | `c2-l003` | &emsp;*te. ¶* Forimonouo azaazato foritçuqeta. |  |
-| `c2-l004` | &emsp;*Abrio,ou fez aquelle releuo mui bẽ, diſtincta* |  |
+| `c2-l004` | &emsp;*Abrio,ou fez aquelle releuo mui bẽ, distincta* |  |
 | `c2-l005` | &emsp;*mente.* |  |
 | `c2-l006` | Azacayexi, u, eita. *Virar, ou reuoluer al-* |  |
 | `c2-l007` | &emsp;*gũa couſa como fato de* Cauago*, &c.* |  |
 | `c2-l008` | Azami. H*ũa erua que ſe come em* Ayemono. |  |
 | `c2-l009` | &emsp;*¶* Voniazami. *Hũa erua como cardo ſil-* |  |
-| `c2-l010` | &emsp;*ueſtre.* |  |
+| `c2-l010` | &emsp;*uestre.* |  |
 | `c2-l011` | Azamuqi, u, uita. *Zombar, ou deſdanhar* |  |
 | `c2-l012` | &emsp;*como de couſa inferior, ou ſomenos como em* |  |
 | `c2-l013` | &emsp;*forças, fermoſura, &c. Vt,* Fanquay, |  |
@@ -120,7 +120,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l038` | &emsp;*do do que outro diz, ou faz.* |  |
 | `c2-l039` | Azayacana. *Couſa clara & diſtinta. Item,* |  |
 | `c2-l040` | &emsp;*Couſa excellente, limpa, & luſtroſa. ¶* Aza |  |
-| `c2-l041` | &emsp;yacana yxǒ. *Veſtido limpo, & luſtroſo.* |  |
+| `c2-l041` | &emsp;yacana yxǒ. *Veſtido limpo, & lustroſo.* |  |
 | `c2-l042` | &emsp;Azayacani. |  |
 | `c2-l043` | &emsp;Azayacaſa. |  |
 | `c2-l044` | Azzucari. i. azzucarimono. *Depoſito, ou* |  |

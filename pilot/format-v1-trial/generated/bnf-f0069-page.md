@@ -37,8 +37,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l021` | Cabe. *Parede de barro.* |  |
 | `c1-l022` | Cabeguiua. *Borda da parede.* |  |
 | `c1-l023` | Cabi. *Bolor, ou Mofo.* |  |
-| `c1-l024` | Cabi, ru, ita. *Aboloreçer, ou eſtar com* |  |
-| `c1-l025` | &emsp;*mofo. ¶* Cabiga neru. *Eſtar a couſa* |  |
+| `c1-l024` | Cabi, ru, ita. *Aboloreçer, ou estar com* |  |
+| `c1-l025` | &emsp;*mofo. ¶* Cabiga neru. *Estar a couſa* |  |
 | `c1-l026` | &emsp;*bolorenta, ou com mofo. ¶* Cabiuo ne- |  |
 | `c1-l027` | &emsp;ſaſuru, l, ſaſuru. *Fazer tomar bolor.* |  |
 | `c1-l028` | Cabiǒ. *Curar o enfermo, & ter conta com elle,* |  |
@@ -104,7 +104,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l024` | Caburitçuqi, u, uita. *Morder roendo.* |  |
 | `c2-l025` | Caburo. *Feição dos cabellos da cabeça cercea-* |  |
 | `c2-l026` | &emsp;*dos à roda hum pouco compridos. ¶ Item,* |  |
-| `c2-l027` | &emsp;*Modo de deſbaſtar, & de cortar ramos de ar-* |  |
+| `c2-l027` | &emsp;*Modo de deſbastar, & de cortar ramos de ar-* |  |
 | `c2-l028` | &emsp;*uores, mato, &c. ¶* Camiuo caburoni |  |
 | `c2-l029` | &emsp;qirimaſu. *Cortar os cabellos da cabeça da* |  |
 | `c2-l030` | &emsp;*quella maneira. ¶* Yamauo caburoni qi |  |

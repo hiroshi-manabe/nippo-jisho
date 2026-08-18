@@ -23,11 +23,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l007` | &emsp;*velho, ou roto, &c.* |  |
 | `c1-l008` | Botomeqi, u, eita. *Soar o tamboril velho,* |  |
 | `c1-l009` | &emsp;*ou roto, &c.* |  |
-| `c1-l010` | Bot racu. Vochi, tçuru. *Queda, ou deſtrui* |  |
+| `c1-l010` | Bot racu. Vochi, tçuru. *Queda, ou destrui* |  |
 | `c1-l011` | &emsp;*ção. ¶* Sacannaru monomo tçumi bot- |  |
-| `c1-l012` | &emsp;racu ſu. *O que eſta em proſperidade por der-* |  |
+| `c1-l012` | &emsp;racu ſu. *O que esta em proſperidade por der-* |  |
 | `c1-l013` | &emsp;*radeiro cae, ou ſe deſtrue.* |  |
-| `c1-l014` | Botzai. Tçumini xizzumu. *Eſtar metido,* |  |
+| `c1-l014` | Botzai. Tçumini xizzumu. *Estar metido,* |  |
 | `c1-l015` | &emsp;*ou ſumerſo em peccados.* |  |
 | `c1-l016` | Bǒuocu. Cayaiye. *Caſa de palha, ou col-* |  |
 | `c1-l017` | &emsp;*mo.* |  |
@@ -40,8 +40,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l024` | &emsp;*bambus.* |  |
 | `c1-l025` | Bǒxi caya, chigaya. *Colmo, ou palha de co-* |  |
 | `c1-l026` | &emsp;*brir a caſa. Mas não ſe vſa ordinariamente ſe* |  |
-| `c1-l027` | &emsp;*não neſta ſentença. ¶* Bǒxi qirazu, taiteu |  |
-| `c1-l028` | &emsp;qezzurazu. *Não moſtrar aparato nẽ ter faſ* |  |
+| `c1-l027` | &emsp;*não nesta ſentença. ¶* Bǒxi qirazu, taiteu |  |
+| `c1-l028` | &emsp;qezzurazu. *Não mostrar aparato nẽ ter faſ* |  |
 | `c1-l029` | &emsp;*to no veſtido comer, &c. à maneira de caſa de* |  |
 | `c1-l030` | &emsp;*palha roſca que não ſe apara ao redor nẽ ama* |  |
 | `c1-l031` | &emsp;*deira bem laurada.* |  |
@@ -58,7 +58,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l042` | &emsp;*nhor.* |  |
 | `c1-l043` | Bôxin. *Criado treido ao ſenhor.* |  |
 | `c1-l044` | Bǒxit. Vaſure vxinǒ. *Eſquecimento.* |  |
-| `c1-l045` | Bǒxo. Forobitaru tocoro. *Lugar deſtruido.* |  |
+| `c1-l045` | Bǒxo. Forobitaru tocoro. *Lugar destruido.* |  |
 | `c1-l046` | Bôxo. Facaricotono fumi, l, xo. *Carta* |  |
 | `c1-l047` | &emsp;*falſa, ou falſificada com ſinal furtado, &c.* |  |
 
@@ -119,7 +119,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2b-l018` | &emsp;*varela.* |  |
 | `c2b-l019` | Bucchi. Fotoqenochiye. *Saber do idolo, ou* |  |
 | `c2b-l020` | &emsp;Fotoqe. |  |
-| `c2b-l021` | Bucchi. *Lugar onde eſtão os* Fotoqes. |  |
+| `c2b-l021` | Bucchi. *Lugar onde estão os* Fotoqes. |  |
 | `c2b-l022` | Bucchocu. Fotoqeno micotono ri. *Pala-* |  |
 | `c2b-l023` | &emsp;*uras, ou doutrina do* Fotoqe. |  |
 | `c2b-l024` | Buccô. Fotoqeno cuchi. *Boca do* Fotoqe. |  |

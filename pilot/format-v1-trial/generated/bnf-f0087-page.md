@@ -16,12 +16,12 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c1-l001` | &emsp;*ſe dão no primeiro dia do anno. Vt,* Cai- |  |
 | `c1-l002` | &emsp;nenno caqei chinhǒni ſoro. *Dou vos os* |  |
-| `c1-l003` | &emsp;*annos bõs deſte anno nouo. S.* |  |
-| `c1-l004` | Caqei. Natçuno cague. *Viſta no tempo do* |  |
-| `c1-l005` | &emsp;*verão, ou eſtio.* |  |
-| `c1-l006` | Caqei. Yoqi qei. *Boa viſta. Vt,* Caqei |  |
+| `c1-l003` | &emsp;*annos bõs deste anno nouo. S.* |  |
+| `c1-l004` | Caqei. Natçuno cague. *Vista no tempo do* |  |
+| `c1-l005` | &emsp;*verão, ou estio.* |  |
+| `c1-l006` | Caqei. Yoqi qei. *Boa vista. Vt,* Caqei |  |
 | `c1-l007` | &emsp;nagamuruni acazu. *Não ſe fartar com* |  |
-| `c1-l008` | &emsp;*a boa viſta.* |  |
+| `c1-l008` | &emsp;*a boa vista.* |  |
 | `c1-l009` | Caqeidaxi, ſu. *Vide* Caqedaxi, ſu. |  |
 | `c1-l010` | Caqeide, zzuru. *Vide* Caqede, zzuru. |  |
 | `c1-l011` | Caqeji. *Letras eſcritas em algum papel que* |  |
@@ -38,7 +38,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l022` | Caqemauari, u, atta. *Correndo rodear a caua-* |  |
 | `c1-l023` | &emsp;*lo. Vt,* Aruxichibiǒye nicuxi qitanaxi |  |
 | `c1-l024` | &emsp;cayexe modoxero vomeqi ſaqeôde caqe- |  |
-| `c1-l025` | &emsp;mauatta. *Yas. Eſte homem a caualo co-* |  |
+| `c1-l025` | &emsp;mauatta. *Yas. Este homem a caualo co-* |  |
 | `c1-l026` | &emsp;*rrendo rodeaua, ou diſcorria bradando, ô* |  |
 | `c1-l027` | &emsp;*deſhonrra, ô vergonha, torna, torna.* |  |
 | `c1-l028` | Caqemauaxi, ſu, aita. *Rodear a caualo o* |  |
@@ -46,11 +46,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l030` | Caqemidare, uru, eta. *Arremeter a caua-* |  |
 | `c1-l031` | &emsp;*lo trauandoſe hũs com os outros.* |  |
 | `c1-l032` | Caqemizzu. *Agoa que vem por canos.* |  |
-| `c1-l033` | Caqemono. *Apoſta. ¶* Caqemononi ſu |  |
-| `c1-l034` | &emsp;ru. *Apoſtar. ¶* Quaina naguſamini |  |
+| `c1-l033` | Caqemono. *Aposta. ¶* Caqemononi ſu |  |
+| `c1-l034` | &emsp;ru. *Apostar. ¶* Quaina naguſamini |  |
 | `c1-l035` | &emsp;ua qinguin naritomo, vma, mononogu |  |
 | `c1-l036` | &emsp;naritomo caqemononi ſuru cotogia. *Mon.* |  |
-| `c1-l037` | &emsp;*Em grandes folguedos apoſtão quer ſeja ouro,* |  |
+| `c1-l037` | &emsp;*Em grandes folguedos apostão quer ſeja ouro,* |  |
 | `c1-l038` | &emsp;*& prata, quer caualo, ou armas.* |  |
 | `c1-l039` | Caqemucai, ǒ, ǒta. *Encontrarſe arremetẽ-* |  |
 | `c1-l040` | &emsp;*do. Vt,* Ieqi vǒjeini caqe mucǒ. *Hũ* |  |
@@ -80,15 +80,15 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c2-l001` | Caqenoge, uru, eta. *Fazer a caualaria a-* |  |
-| `c2-l002` | &emsp;*faſtar os inimigos, &c. Vt,* Teqiuo mi, |  |
+| `c2-l002` | &emsp;*fastar os inimigos, &c. Vt,* Teqiuo mi, |  |
 | `c2-l003` | &emsp;vnauo caqe nogeôto xita. *Vendo os ini* |  |
-| `c2-l004` | &emsp;*migos fez, pollos afaſtar.* |  |
+| `c2-l004` | &emsp;*migos fez, pollos afastar.* |  |
 | `c2-l005` | Caqenuge, uru, eta. *Romper a caualo, ou* |  |
 | `c2-l006` | &emsp;*paſſar pollo meo dos inimigos. Vt,* Ginno |  |
 | `c2-l007` | &emsp;nacauo icchǒ bacari caqenugeta. *Rompeo,* |  |
 | `c2-l008` | &emsp;*& entrou pello meo do arrayal tanto como cõ* |  |
 | `c2-l009` | &emsp;*primento de hũa rua.* |  |
-| `c2-l010` | Caqerare, uru, eta. *Eſte verbo com* Guioi, |  |
+| `c2-l010` | Caqerare, uru, eta. *Este verbo com* Guioi, |  |
 | `c2-l011` | &emsp;*quer dizer receber algũa peſſoa honrrada em* |  |
 | `c2-l012` | &emsp;*ſua caſa, ou receber della algũa couſa. Vt,* |  |
 | `c2-l013` | &emsp;Guioini caqeraruru. *¶* Sono contas uo |  |
@@ -122,7 +122,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l041` | &emsp;*26. Paſſando diante dos inimigos que hião* |  |
 | `c2-l042` | &emsp;*na vanguarda.* |  |
 | `c2-l043` | Caqeuo. *Cordão, ou ataca pera meter em ilhòs,* |  |
-| `c2-l044` | &emsp;*& amarrar. Eſtes ilhòs, ou buracos ſe dizem* |  |
+| `c2-l044` | &emsp;*& amarrar. Estes ilhòs, ou buracos ſe dizem* |  |
 | `c2-l045` | &emsp;Vgeuo. |  |
 | `c2-l046` | Caqeuobi. *Cingidouro, ou cinto.* |  |
 | `c2-l047` | Caqeuochi. *Fugida ſecreta. ¶* Inochiuo |  |

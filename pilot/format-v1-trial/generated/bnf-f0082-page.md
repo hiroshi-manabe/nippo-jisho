@@ -17,21 +17,21 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l001` | Canatçugui. *Fiſga de ferro.* |  |
 | `c1-l002` | Canatebǒ. *Bordão de ferro.* |  |
 | `c1-l003` | Canatoco. *Safra, ou bigorna de ferreiro.* |  |
-| `c1-l004` | Canatôdai. *Caſtiçal alto de ferro, ou outro* |  |
+| `c1-l004` | Canatôdai. *Castiçal alto de ferro, ou outro* |  |
 | `c1-l005` | &emsp;*metal.* |  |
 | `c1-l006` | Canaua. *Trempe de ferro.* |  |
-| `c1-l007` | Canaxigueni. *Adu. Com triſteza, ou triſ* |  |
+| `c1-l007` | Canaxigueni. *Adu. Com tristeza, ou triſ* |  |
 | `c1-l008` | &emsp;*temente.* |  |
-| `c1-l009` | Canaxij. *Couſa triſte.* |  |
+| `c1-l009` | Canaxij. *Couſa triste.* |  |
 | `c1-l010` | &emsp;Canaxifa. |  |
 | `c1-l011` | &emsp;Canaxu. |  |
-| `c1-l012` | Canaximi. *Triſteza. ¶* Canaximiuo ca- |  |
-| `c1-l013` | &emsp;quru. *Dar triſteza. ¶* Canaximiuo |  |
-| `c1-l014` | &emsp;moyouoſu. *Entriſtecerſe muito. ¶* Cana- |  |
-| `c1-l015` | &emsp;ximi qimoni meizuru. *Penetrar a triſteza* |  |
+| `c1-l012` | Canaximi. *Tristeza. ¶* Canaximiuo ca- |  |
+| `c1-l013` | &emsp;quru. *Dar tristeza. ¶* Canaximiuo |  |
+| `c1-l014` | &emsp;moyouoſu. *Entristecerſe muito. ¶* Cana- |  |
+| `c1-l015` | &emsp;ximi qimoni meizuru. *Penetrar a tristeza* |  |
 | `c1-l016` | &emsp;*muito a alguem. ¶* Canaximimini ama- |  |
-| `c1-l017` | &emsp;ru. *Ter grandiſſima triſteza.* |  |
-| `c1-l018` | Canaximi, u, uda. *Entriſtecerſe.* |  |
+| `c1-l017` | &emsp;ru. *Ter grandiſſima tristeza.* |  |
+| `c1-l018` | Canaximi, u, uda. *Entristecerſe.* |  |
 | `c1-l019` | Canaxiqi. *Safra, ou bigorna de ferrei-* |  |
 | `c1-l020` | &emsp;*ro. B.* |  |
 | `c1-l021` | Canaxiuo. *Tempera de ferro.* |  |
@@ -52,8 +52,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l036` | &emsp;*ſem ficar ſinal.* |  |
 | `c1-l037` | Canbara. *Nome de hum lugar que ha no rei-* |  |
 | `c1-l038` | &emsp;*no de* Yechijen. *¶ Item, Hũas candeas q̃* |  |
-| `c1-l039` | &emsp;*vem deſte lugar. ¶* Canbarayǒji. *Paos de* |  |
-| `c1-l040` | &emsp;*dentes de ſalgueiro que vem deſte lugar.* |  |
+| `c1-l039` | &emsp;*vem deste lugar. ¶* Canbarayǒji. *Paos de* |  |
+| `c1-l040` | &emsp;*dentes de ſalgueiro que vem deste lugar.* |  |
 | `c1-l041` | Canbat. i. Ficeri. *Seca.* |  |
 | `c1-l042` | Canbaxe. *Reſſo.* |  |
 | `c1-l043` | Canbaxij. *Couſa cheiroſa.* |  |
@@ -80,11 +80,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l005` | Canbocu. Fude ſumi. *Pena, & tinta.* |  |
 | `c2-l006` | &emsp;*Item, Algũa vez ſe toma por carta.* |  |
 | `c2-l007` | Canbun. *Cartas ou eſcritos da china de boa no* |  |
-| `c2-l008` | &emsp;*ta, eſtillo, &c.* |  |
+| `c2-l008` | &emsp;*ta, estillo, &c.* |  |
 | `c2-l009` | Canbut. Foxi mono. *Couſa ſeca como peixe,* |  |
 | `c2-l010` | &emsp;*mariſco, abobora, &c.* |  |
 | `c2-l011` | Canca. Canno iye. *China.* |  |
-| `c2-l012` | Canca. Xizzucana ſima. *Eſtar deſocupado.* |  |
+| `c2-l012` | Canca. Xizzucana ſima. *Estar deſocupado.* |  |
 | `c2-l013` | Canchicu. Carano taqe. *Canas da China, de* |  |
 | `c2-l014` | &emsp;*que ſe fazem frautas.* |  |
 | `c2-l015` | Canchicuno yôgiô. *Frauta aſſi chamada.* |  |

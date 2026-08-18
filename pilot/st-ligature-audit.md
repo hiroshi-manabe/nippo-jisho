@@ -74,4 +74,10 @@ Until that pass:
 - preserve stable page-and-line references and scan geometry so every occurrence can be revisited in one purpose-built review sequence;
 - keep later corrections attributable through Git and the correction workflow.
 
+## Applied human-audit batches
+
+Issues #45 and #46 completed the focused `f13`–`f32` batches. Issue #47 applied the larger but explicitly incomplete `f33`–`f100` batch: 154 checked occurrences remain confirmed long `ſ` + `t`, and 631 unchecked occurrences were changed to provisional short `st` under the compact submission rule. The later part of that visual pass—especially `f51` onward—was abandoned when the crop layout proved too difficult to use efficiently.
+
+The complete pre-rewrite inventory is retained in `st-ligature-classification-f33-f100.json`, including stable candidate keys, original line text and versions, offsets, crops, and classification status. That file is required provenance: it permits a future, better-layout interface to restore every provisional occurrence even though the working transcription now reads `st`. The 154 positive findings are additionally stored in `st-ligature-audit.tsv` and remain subject to the usual line-version invalidation.
+
 The final pass should present tightly enlarged occurrences with same-type comparators—including the genuine `ſſ` control at `f33/c1b-l005`—and should classify both the `s` allograph and ligature status. Its results can then determine whether ligature information is predictable enough to omit, requires sparse exception annotations, or must be represented occurrence by occurrence.

@@ -19,15 +19,15 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1a-l003` | Aqiǔdo. *Mercador. ¶* Biǒbuto, Aqiǔ- |  |
 | `c1a-l004` | &emsp;dotoua ſugunareba miga tatanu. *Pro-* |  |
 | `c1a-l005` | &emsp;*uerb. Os biǒbus, & mercadores não podem* |  |
-| `c1a-l006` | &emsp;*eſtar direitos. i. Sempre o mercador he la-* |  |
+| `c1a-l006` | &emsp;*estar direitos. i. Sempre o mercador he la-* |  |
 | `c1a-l007` | &emsp;*drão, ou mente.* |  |
 | `c1a-l008` | Aqiza. *Aſſento, ou lugar daſala, ou Zaxiqi* |  |
 | `c1a-l009` | &emsp;*deſpejado.* |  |
 | `c1a-l010` | Aqiya, l, aqi iye. *Caſa vazia, ou deſ-* |  |
 | `c1a-l011` | &emsp;*pejada.* |  |
 | `c1a-l012` | Aqugo. Aqu toqi. *Tempo, ou lugar de ſe* |  |
-| `c1a-l013` | &emsp;*enfaſtiar. ¶* Aqugomo nai fito. *Ho-* |  |
-| `c1a-l014` | &emsp;*mem que nunca ſe enfaſtia, ou farta das couſas* |  |
+| `c1a-l013` | &emsp;*enfastiar. ¶* Aqugomo nai fito. *Ho-* |  |
+| `c1a-l014` | &emsp;*mem que nunca ſe enfastia, ou farta das couſas* |  |
 | `c1a-l015` | &emsp;*que muito apeteçe.* |  |
 
 ## Column 1 internal R section
@@ -89,16 +89,16 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c2-l001` | &emsp;ta. *polla mòr parte negociei, ou aparelhei.* |  |
 | `c2-l002` | Aracaua. i. Tçucuranu caua. *Pele por cortir.* |  |
-| `c2-l003` | Aracomo. *Hũa eſteira groſſa, & toſca de* |  |
+| `c2-l003` | Aracomo. *Hũa esteira groſſa, & toſca de* |  |
 | `c2-l004` | &emsp;*palha.* |  |
 | `c2-l005` | Aradachi, tçu. *Embrauecerſe, ou exaſperarſe.* |  |
 | `c2-l006` | Aradate, tçuru. *Exaſperar, ou fazer brauo,* |  |
 | `c2-l007` | &emsp;*como quando hum ſe chega perto dalgum paſſa-* |  |
-| `c2-l008` | &emsp;*ro que eſtà na gayola por domeſticar. ¶ Itẽ,* |  |
+| `c2-l008` | &emsp;*ro que està na gayola por domesticar. ¶ Itẽ,* |  |
 | `c2-l009` | &emsp;*Permet. Prouocar a ira aalguem, ou ex-* |  |
 | `c2-l010` | &emsp;*aſperalo.* |  |
 | `c2-l011` | Arafada. *Carão da carne aſpero.* |  |
-| `c2-l012` | Arafa. i. Araiſo. *Coſta braua, ou lugar on-* |  |
+| `c2-l012` | Arafa. i. Araiſo. *Costa braua, ou lugar on-* |  |
 | `c2-l013` | &emsp;*de as ondas do mar batem rijo.* |  |
 | `c2-l014` | Arafiǒgui. *Conſulta feita aſſi leuemente, aſpe-* |  |
 | `c2-l015` | &emsp;*ra, & reſolutamente.* |  |
@@ -110,7 +110,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l021` | &emsp;*Prouerb. O ſizo he, não ſe arriſcar, ou por* |  |
 | `c2-l022` | &emsp;*a perigo.* |  |
 | `c2-l023` | Aragai. *O negar. ¶* Aragaini ſuru. *A-* |  |
-| `c2-l024` | &emsp;*poſtar.* |  |
+| `c2-l024` | &emsp;*postar.* |  |
 | `c2-l025` | Aragui. *Couſa aſpera, & riſpida. ¶* Ara- |  |
 | `c2-l026` | &emsp;guiuo daſu. *Exaſperar, & ſair com pala-* |  |
 | `c2-l027` | &emsp;*uras aſperas.* |  |
@@ -124,7 +124,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l035` | &emsp;*dos, &c. ¶* Arai co. *Farinha, ou pòs* |  |
 | `c2-l036` | &emsp;*mal moidos, & groſſos. ¶ Item, Couſa* |  |
 | `c2-l037` | &emsp;*aſpera, & que não he maſia. ¶* Arai ixǒ. |  |
-| `c2-l038` | &emsp;*Veſtido aſpero. ¶ Item, Couſa rala. Vt,* |  |
+| `c2-l038` | &emsp;*Vestido aſpero. ¶ Item, Couſa rala. Vt,* |  |
 | `c2-l039` | &emsp;Arai furui. *Peneira rala. ¶* Arai nu- |  |
 | `c2-l040` | &emsp;no. *Teada de linho canemo groſſeira, &* |  |
 | `c2-l041` | &emsp;*rala.* |  |
