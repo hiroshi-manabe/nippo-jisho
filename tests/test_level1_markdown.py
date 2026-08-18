@@ -135,7 +135,7 @@ class Level1MarkdownTests(unittest.TestCase):
         self.assertIn("touçinho", source)
         self.assertIn("Aburaga xi\n[c1-l022 >] mu.", source)
         self.assertIn("Aburauo ſumuru", source)
-        self.assertIn("ou paſtas de", source)
+        self.assertIn("ou pastas de", source)
         self.assertIn("q̃ vzão pera contra", source)
         self.assertIn("Aburauo tçugu", source)
         self.assertIn("Aburaſaxi, i, Abura tçugui", source)

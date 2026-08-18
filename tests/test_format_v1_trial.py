@@ -146,7 +146,7 @@ class FormatV1TrialTests(unittest.TestCase):
                 "Vide Cacoi. ô.",
                 "Pedroto Ioãoua",
                 "aicuchi de gozaru.",
-                "Enquanto eſtiue no Miyaco. ¶ Tôriǔno",
+                "Enquanto estiue no Miyaco. ¶ Tôriǔno",
                 "Por quanto, na eſcritura. Vt, Mairi sǒro",
                 "eſquadroẽs dambas as partes.",
                 "Aigiacu. i. aixitçuqu.",

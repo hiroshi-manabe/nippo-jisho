@@ -15,22 +15,22 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c1-l001` | &emsp;*na de pao em que eſcorrem, o vinho de Iapão.* |  |
-| `c1-l002` | Aguebutano xocudai. i. Mizzuno dai. *Caſti-* |  |
+| `c1-l002` | Aguebutano xocudai. i. Mizzuno dai. *Casti-* |  |
 | `c1-l003` | &emsp;*çal de metal de certa feição que tem ao pee hũa* |  |
 | `c1-l004` | &emsp;*cobertoura de baixo da qual ſe poem o murrão da* |  |
 | `c1-l005` | &emsp;*candea quando ſe eſpeuita.* |  |
 | `c1-l006` | Ague cobu. *Melius,* Iricobu. *Certos limos* |  |
 | `c1-l007` | &emsp;*do mar fritos, ou torrados.* |  |
 | `c1-l008` | Aguegotatçu. *Fogão com hũa armação por ci* |  |
-| `c1-l009` | &emsp;*ma de madeira ſobre que eſtendem algum cober* |  |
+| `c1-l009` | &emsp;*ma de madeira ſobre que estendem algum cober* |  |
 | `c1-l010` | &emsp;*tor, ou colcha pera ſe aquentarem no inuerno.* |  |
 | `c1-l011` | Aguecuni. *Adu. Por derradeiro, ou final-* |  |
 | `c1-l012` | &emsp;*mente.* |  |
 | `c1-l013` | Aguedôro. *Lanterna que ſe dependura ẽ maſ-* |  |
-| `c1-l014` | &emsp;*tos altos em hũa feſta do ſeptimo mez, que fazẽ* |  |
+| `c1-l014` | &emsp;*tos altos em hũa festa do ſeptimo mez, que fazẽ* |  |
 | `c1-l015` | &emsp;*às almas dos finados.* |  |
 | `c1-l016` | Ague fune. *Embarcação varada, ou que deu à* |  |
-| `c1-l017` | &emsp;*coſta.* |  |
+| `c1-l017` | &emsp;*costa.* |  |
 | `c1-l018` | Agueji. *Melius,* X ijo, l, qiyogaqi. *Ma-* |  |
 | `c1-l019` | &emsp;*teria dos que aprendem a eſcreuer.* |  |
 | `c1-l020` | Aguejitomi. *Certas janelas ou portas que ſe le-* |  |
@@ -45,7 +45,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l029` | Agueſudo. *Idem de canas, ou bambus.* |  |
 | `c1-l030` | Aguetçuchicado. *Certa feição de portal.* |  |
 | `c1-l031` | Agueuoqi, qu, oita. *Vt,* Funeuo ague vo- |  |
-| `c1-l032` | &emsp;qu. *Por em eſtaleiro, ou varar a embarca-* |  |
+| `c1-l032` | &emsp;qu. *Por em estaleiro, ou varar a embarca-* |  |
 | `c1-l033` | &emsp;*ção.* |  |
 | `c1-l034` | Agui. Aguito. *Queixo de baixo. ¶* Vua |  |
 | `c1-l035` | &emsp;agui. *Queixo de cima. ¶* Aguiuo fana- |  |
@@ -74,7 +74,7 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c2a-l001` | Ah. *Interieção de admiração, &c. ¶ Vt,* |  |
 | `c2a-l002` | &emsp;Ah migoto. *O couſa para ver, l, apraziuel* |  |
-| `c2a-l003` | &emsp;*a viſta.* |  |
+| `c2a-l003` | &emsp;*a vista.* |  |
 
 ## Column 2 internal section heading
 
@@ -93,22 +93,22 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2b-l005` | Ai. i. Auai, l, ma. *Eſpaço, ou entreual-* |  |
 | `c2b-l006` | &emsp;*lo de lugar, tempo, &c ¶ Item, Re-* |  |
 | `c2b-l007` | &emsp;*preſentação do auto, ou eſpaço em que as figu-* |  |
-| `c2b-l008` | &emsp;*ras ſe veſtem, ou ſe eſtà contando o que ſe ha* |  |
+| `c2b-l008` | &emsp;*ras ſe vestem, ou ſe està contando o que ſe ha* |  |
 | `c2b-l009` | &emsp;*de repreſentar. ¶* Aiuo yǔ, l, nôaiuo |  |
 | `c2b-l010` | &emsp;yǔ. *Fazer aquelle officio do repreſentador* |  |
 | `c2b-l011` | &emsp;*no diſcurſo do auto. ¶ Item,* Ai. i. ſuqi. |  |
 | `c2b-l012` | &emsp;*Tempo vago, ou deſoccupãção.* |  |
 | `c2b-l013` | Ai, ǒ, ǒta. *Quadrar hũa couſa com ou-* |  |
-| `c2b-l014` | &emsp;*tra, ou vir iuſta, como veſtido calçado, &c.* |  |
+| `c2b-l014` | &emsp;*tra, ou vir iusta, como vestido calçado, &c.* |  |
 | `c2b-l015` | &emsp;*¶* Xubiga vǒ. *Concordarem os principios* |  |
 | `c2b-l016` | &emsp;*com os fins, ou confrontar hũa couſa com* |  |
 | `c2b-l017` | &emsp;*outra. ¶* Caino cuchiga vǒta. *Concha-* |  |
-| `c2b-l018` | &emsp;*uarem, ou virem iuſtas duas caſcas de amei-* |  |
+| `c2b-l018` | &emsp;*uarem, ou virem iustas duas caſcas de amei-* |  |
 | `c2b-l019` | &emsp;*joas quando ſe fechão. ¶* Varifuga vǒta. |  |
 | `c2b-l020` | &emsp;*Quadrar, ou reſponder hũa metade da mitra cõ a* |  |
 | `c2b-l021` | &emsp;*outra diuidida cõ o meſmo ſinal. Vide* Varifu. |  |
 | `c2b-l022` | &emsp;*¶* Qini vǒ. *Agradar. ¶* Cami ſoriga vǒ. |  |
-| `c2b-l023` | &emsp;*Eſtarẽ afiadas, ou cõfio as naualhas pera cortar.* |  |
+| `c2b-l023` | &emsp;*Estarẽ afiadas, ou cõfio as naualhas pera cortar.* |  |
 | `c2b-l024` | Ai, ǒ ǒta. *Emcontrar. Vt* Nanguini vǒ. |  |
 | `c2b-l025` | &emsp;*Encontrarſe, ou acharſe em trabalhos, & peri-* |  |
 | `c2b-l026` | &emsp;*gos. ¶* Yoitoqini mairi vǒta. *Acer-* |  |
@@ -123,7 +123,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2b-l035` | &emsp;*tido de com, l, juntamente. Vt,* Ai tomo- |  |
 | `c2b-l036` | &emsp;ni. *Iuntamente com outros.* Ai atçuma- |  |
 | `c2b-l037` | &emsp;ru. *Ajuntarſe juntamente com outros, &* |  |
-| `c2b-l038` | &emsp;*particularmente tem eſte ſentido quando ſe põe* |  |
+| `c2b-l038` | &emsp;*particularmente tem este ſentido quando ſe põe* |  |
 | `c2b-l039` | &emsp;*no fim da palaura com que ſe compoem. Vt,* |  |
 | `c2b-l040` | &emsp;Noriai. *Nauegar, ou embarcarſe jũtamente.* |  |
 | `c2b-l041` | Ai araſoi, ǒ, ôta. *Contender ſobre algũa* |  |

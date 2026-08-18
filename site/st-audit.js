@@ -156,6 +156,13 @@ function render() {
   state.total = state.data.pages.reduce((sum, page) => sum + page.candidates.length, 0);
   $('#audit-scope').textContent = state.data.scope.replace('-', '–');
   $('#candidate-count').textContent = state.total;
+  $('#confirmed-count').textContent = state.data.confirmed_long_s;
+  if (!state.total) {
+    $('#audit-list').innerHTML = '<p class="completion"><strong>This audit is complete.</strong> All remaining ſt occurrences in this scope have been confirmed as genuine long-s forms.</p>';
+    state.candidates = [];
+    updateCounts();
+    return;
+  }
   let globalIndex = 0;
   $('#audit-list').innerHTML = state.data.pages.map(page => `<section class="page-group" data-page="${page.leaf}"><div class="page-heading"><h2>${page.view}</h2><span>${page.candidates.length} candidates</span><a href="${page.gallica}" target="_blank" rel="noreferrer">Open full scan ↗</a></div><div class="tile-grid">${page.candidates.map((candidate, pageIndex) => { const key = candidateKey(page, candidate); const index = globalIndex++; return `<article class="candidate" tabindex="-1" data-candidate-index="${index}"><canvas data-leaf="${page.leaf}" data-page-index="${pageIndex}" aria-label="Scan crop for ${escapeHTML(key)}"></canvas><label class="candidate-footer"><input type="checkbox" data-key="${escapeHTML(key)}"${state.selected.has(key) ? ' checked' : ''} aria-label="Retain true long s in ${escapeHTML(key)}"><span class="candidate-text"><small class="candidate-id">${escapeHTML(key)}</small><span class="candidate-context">${escapeHTML(occurrenceContext(candidate))}</span></span></label></article>`; }).join('')}</div></section>`).join('');
   state.candidates = [...document.querySelectorAll('.candidate')];

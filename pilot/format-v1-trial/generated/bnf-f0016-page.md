@@ -38,7 +38,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l022` | &emsp;*bem unidos, ou amigos.* |  |
 | `c1-l023` | Acaraſama. *Adu. Leuemente, ou dẽpres* |  |
 | `c1-l024` | &emsp;*tado, ou aprimeira vez.* |  |
-| `c1-l025` | Acaraſamana. *Couſaleue como de empreſta-* |  |
+| `c1-l025` | Acaraſamana. *Couſaleue como de empresta-* |  |
 | `c1-l026` | &emsp;*do, l, de primeira vez.* |  |
 | `c1-l027` | &emsp;Acaraſamani. *Adu.* |  |
 | `c1-l028` | Acarami, u, òda. *Fazerſe vermelho, ou* |  |
@@ -57,7 +57,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l041` | Acariſaqi. *Diante da claridade. ¶ Vt,* |  |
 | `c1-l042` | &emsp;Acariſaqini tatçu. *Porſe diante da cla-* |  |
 | `c1-l043` | &emsp;*ridade, ou impedilla.* |  |
-| `c1-l044` | Acaritori. *Freſta do terrado, l, telhado pera* |  |
+| `c1-l044` | Acaritori. *Fresta do terrado, l, telhado pera* |  |
 | `c1-l045` | &emsp;*entrar a claridade* |  |
 | `c1-l046` | Acarixǒji. *Adufas feitas de papel pera* |  |
 | `c1-l047` | &emsp;*entrar a claridade.* |  |
@@ -97,12 +97,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l023` | &emsp;*po com difficuldade como eſperando por al-* |  |
 | `c2-l024` | &emsp;*guẽm, &c. ¶* Sagui yuqu tçuuji, fi- |  |
 | `c2-l025` | &emsp;uomo acaxi cane, curaxi vazzurǒ. *Sõ-* |  |
-| `c2-l026` | &emsp;*tir o tempo comprido polla triſteza, & affli-* |  |
+| `c2-l026` | &emsp;*tir o tempo comprido polla tristeza, & affli-* |  |
 | `c2-l027` | &emsp;*ção do animo. S.* |  |
 | `c2-l028` | Acaza. *Hũa erua.* |  |
-| `c2-l029` | Acazzura. *Roſto vermelho.* |  |
+| `c2-l029` | Acazzura. *Rosto vermelho.* |  |
 | `c2-l030` | Acazzuqi, u, uita. *Pegarſe a çujidade do* |  |
-| `c2-l031` | &emsp;*corpo no veſtido, ou noutra couſa.* |  |
+| `c2-l031` | &emsp;*corpo no vestido, ou noutra couſa.* |  |
 | `c2-l032` | Accô, Varucuchi. *Injuria de palauras, ou* |  |
 | `c2-l033` | &emsp;*ruins palauras. ¶ Vt,* Accô ſuru. *Mal* |  |
 | `c2-l034` | &emsp;*dizer. ¶* Accôuo faqu. *Idem. ¶* Ac- |  |

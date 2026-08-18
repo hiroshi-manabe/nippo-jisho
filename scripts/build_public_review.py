@@ -28,6 +28,11 @@ TILDE_AUDIT_SCOPE = "f39-f100"
 TILDE_AUDIT_STATUS = "batch_review_unverified"
 ST_AUDIT_LEAVES = range(13, 23)
 ST_AUDIT_SCOPE = "f13-f22"
+ST_CROP_OVERRIDES = {
+    # This short entry fills substantially more of the measure than its
+    # character count predicts; retain the independently checked Eſtrella.
+    ("f18", "c2a-l005", 20): [2050, 622, 380, 148],
+}
 
 
 def load_json(path: Path) -> dict:
@@ -335,6 +340,9 @@ def tilde_candidate_crop(page: dict, line: dict, start: int, end: int) -> list[i
 
 def occurrence_crop(page: dict, line: dict, start: int, end: int) -> list[int]:
     """Return a compact crop centred on one transcribed occurrence."""
+    override = ST_CROP_OVERRIDES.get((page["view"], line["id"], start))
+    if override is not None:
+        return override
     left, top, width, height = line["crop"]
     text = line["text"]
     # Unlike the wider tilde cards, these tiles have almost no tolerance for
@@ -362,8 +370,19 @@ def occurrence_crop(page: dict, line: dict, start: int, end: int) -> list[int]:
     return [crop_left, crop_top, crop_width, crop_bottom - crop_top]
 
 
-def st_audit_payload(pages: list[dict], commit: str, repository: str) -> dict:
+def st_audit_payload(
+    pages: list[dict], commit: str, repository: str, ledger: Path
+) -> dict:
+    confirmed = {}
+    with ledger.open(encoding="utf-8", newline="") as handle:
+        for row in csv.DictReader(handle, delimiter="\t"):
+            if row["decision"] != "confirmed_long_s_t":
+                continue
+            key = (row["page"], row["line"], int(row["occurrence"]))
+            confirmed[key] = row["base_line_version"]
     audit_pages = []
+    confirmed_count = 0
+    stale_confirmations = 0
     for page in pages:
         if page["leaf"] not in ST_AUDIT_LEAVES or not page["processed"]:
             continue
@@ -375,6 +394,14 @@ def st_audit_payload(pages: list[dict], commit: str, repository: str) -> dict:
                 occurrence = 0
                 for match in re.finditer("ſt", line["text"]):
                     occurrence += 1
+                    confirmation = confirmed.get(
+                        (page["view"], line["id"], occurrence)
+                    )
+                    if confirmation == line["transcription_version"]:
+                        confirmed_count += 1
+                        continue
+                    if confirmation is not None:
+                        stale_confirmations += 1
                     candidates.append(
                         {
                             "line": line["id"],
@@ -410,6 +437,8 @@ def st_audit_payload(pages: list[dict], commit: str, repository: str) -> dict:
         "repository": repository,
         "unchecked_action": "replace-long-s-t-with-short-s-t",
         "checked_action": "retain-long-s-t",
+        "confirmed_long_s": confirmed_count,
+        "stale_confirmations": stale_confirmations,
         "pages": audit_pages,
     }
 
@@ -591,7 +620,12 @@ def main() -> int:
     )
     (output / "st-audit.json").write_text(
         json.dumps(
-            st_audit_payload(pages, commit, args.repository),
+            st_audit_payload(
+                pages,
+                commit,
+                args.repository,
+                root / "pilot" / "st-ligature-audit.tsv",
+            ),
             ensure_ascii=False,
             separators=(",", ":"),
         )

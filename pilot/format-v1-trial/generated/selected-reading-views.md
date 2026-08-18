@@ -5,7 +5,7 @@ They are not independent transcriptions.
 
 ## Abumi entry across f13 and f14
 
-Abumi. Eſtribo. ¶ Abumiuo caquru. Por os eſtribos. ¶ Abumiuo fazzuſu. Tirar os eſtribos ¶ Abumiuo ficayuru. Ter mão no eſtribo pera caualgar. Abumiuo funbaru. Eſtribarſe aleuantandoſe ſobre os eſtribos. ¶ Abumino fatomune. A parte dianteira do eſtribo de Iapão. ¶ Abumino cutçugomi. O lugar do eſtribo onde aſenta o pee. ¶ Abumino caco. Peſcoço do eſtribo por onde ſe toma ate afiuela por onde ſe mete o loro. ¶ Abumino chicaragane. Fiuela do eſtribo, por onde ſe mete o loro. ¶ Abumino yanaiba. Hum debrum de ferro que cerca em roda os eſtribos da parte de baxo. ¶ Abumino xita ſaqi. Põta do eſtribo de Iapão
+Abumi. Estribo. ¶ Abumiuo caquru. Por os estribos. ¶ Abumiuo fazzuſu. Tirar os estribos ¶ Abumiuo ficayuru. Ter mão no estribo pera caualgar. Abumiuo funbaru. Estribarſe aleuantandoſe ſobre os estribos. ¶ Abumino fatomune. A parte dianteira do eſtribo de Iapão. ¶ Abumino cutçugomi. O lugar do estribo onde aſenta o pee. ¶ Abumino caco. Peſcoço do estribo por onde ſe toma ate afiuela por onde ſe mete o loro. ¶ Abumino chicaragane. Fiuela do estribo, por onde ſe mete o loro. ¶ Abumino yanaiba. Hum debrum de ferro que cerca em roda os estribos da parte de baxo. ¶ Abumino xita ſaqi. Põta do estribo de Iapão
 
 ## Lowercase aburamono as a structurally independent entry
 
@@ -17,7 +17,7 @@ Aburamuxi. Barata bicha. ¶ Item, Hũs bichinhos pretos que comem os olhos das a
 
 ## Aburaqeno mono and its physically divided example
 
-Aburaqeno mono. Couſa que tem azeite miſturado em ſi, ou feita com azeite. ¶ Aburaqega ſuru. Ter cheiro, ou ſabor de azeite.
+Aburaqeno mono. Couſa que tem azeite misturado em ſi, ou feita com azeite. ¶ Aburaqega ſuru. Ter cheiro, ou ſabor de azeite.
 
 ## Gozadocoro with displaced grande restored to logical order
 

@@ -26,12 +26,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l010` | &emsp;*O deſembarcarſe do nauio. ¶* Furo agari, |  |
 | `c1-l011` | &emsp;yu agari. *Acabarſe de banhar, ou lauar.* |  |
 | `c1-l012` | Agariba. *Deſembarcadouro. ¶ Item, Hũ* |  |
-| `c1-l013` | &emsp;*lugar nos banhos onde poem os veſtidos.* |  |
+| `c1-l013` | &emsp;*lugar nos banhos onde poem os vestidos.* |  |
 | `c1-l014` | Agari cuchi. *Principio, ou entrada pera ſu-* |  |
 | `c1-l015` | &emsp;*bir.* |  |
-| `c1-l016` | Agari ſaca. *Coſta arriba, ſubida ou ladeira* |  |
+| `c1-l016` | Agari ſaca. *Costa arriba, ſubida ou ladeira* |  |
 | `c1-l017` | &emsp;*a cima.* |  |
-| `c1-l018` | Agari vma. *Caualo poſto em gemeas.* |  |
+| `c1-l018` | Agari vma. *Caualo posto em gemeas.* |  |
 | `c1-l019` | Agata. *Hũa parte pequena das em que os rei* |  |
 | `c1-l020` | &emsp;*nos de Iapão ſe repartem. ¶ Itẽ, Aldea,* |  |
 | `c1-l021` | &emsp;*l, fora do Miyaco, ou da corte.* |  |
@@ -48,19 +48,19 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l032` | Age. *Vide* Aje. |  |
 | `c1-l033` | Agi. *Marreca.* |  |
 | `c1-l034` | Agi. *Peixe carapao.* |  |
-| `c1-l035` | Agi. *Sabor, goſto. ¶* Gacumonno agi |  |
-| `c1-l036` | &emsp;ni noru. *Goſtar do eſtudo. ¶* Agi |  |
-| `c1-l037` | &emsp;ga nuquru. *Perderſe o ſabor, & goſto* |  |
+| `c1-l035` | Agi. *Sabor, gosto. ¶* Gacumonno agi |  |
+| `c1-l036` | &emsp;ni noru. *Gostar do estudo. ¶* Agi |  |
+| `c1-l037` | &emsp;ga nuquru. *Perderſe o ſabor, & gosto* |  |
 | `c1-l038` | &emsp;*dalgũa couſa que o tinha.* |  |
 | `c1-l039` | Agimura. *Bando de marrecas.* |  |
-| `c1-l040` | Agiqinai. *Couſa triſte, & que cauſa deſgoſ-* |  |
+| `c1-l040` | Agiqinai. *Couſa triste, & que cauſa deſgoſ-* |  |
 | `c1-l041` | &emsp;*to, & pouco animo.* |  |
 | `c1-l042` | &emsp;Agiqinaſa. |  |
 | `c1-l043` | &emsp;Agiqinǒ. |  |
-| `c1-l044` | Agizzuqi, u, uita. *Ir ſentindo o goſto no* |  |
-| `c1-l045` | &emsp;*comer o que tem feſtio. ¶ Permet.* Chri- |  |
+| `c1-l044` | Agizzuqi, u, uita. *Ir ſentindo o gosto no* |  |
+| `c1-l045` | &emsp;*comer o que tem festio. ¶ Permet.* Chri- |  |
 | `c1-l046` | &emsp;ſtão no cotoni agizzuqu. *Ir tomando go-* |  |
-| `c1-l047` | &emsp;*ſto das couſas de Chriſto.* |  |
+| `c1-l047` | &emsp;*sto das couſas de Christo.* |  |
 
 ## Column 2 running header
 
@@ -72,17 +72,17 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | Agiuai. *Goſto, ſabor. ¶* Agiuaiuo na- |  |
-| `c2-l002` | &emsp;mete miru. *Goſtar, ou prouar. ¶* A- |  |
+| `c2-l001` | Agiuai. *Gosto, ſabor. ¶* Agiuaiuo na- |  |
+| `c2-l002` | &emsp;mete miru. *Gostar, ou prouar. ¶* A- |  |
 | `c2-l003` | &emsp;giuai, l, agiuo ſucumu. *Ser alguã couſa* |  |
-| `c2-l004` | &emsp;*goſtoſa, ou ter ſabor. ¶* Agiuai, l, a- |  |
-| `c2-l005` | &emsp;giuo tçuquru. *Dar goſto a algũa couſa.* |  |
-| `c2-l006` | &emsp;*¶* Ienno agiuaini iru. *Goſtar da vir-* |  |
+| `c2-l004` | &emsp;*gostoſa, ou ter ſabor. ¶* Agiuai, l, a- |  |
+| `c2-l005` | &emsp;giuo tçuquru. *Dar gosto a algũa couſa.* |  |
+| `c2-l006` | &emsp;*¶* Ienno agiuaini iru. *Gostar da vir-* |  |
 | `c2-l007` | &emsp;*tude.* |  |
-| `c2-l008` | Agiuai, uǒ, uǒta. *Goſtar, ou prouar. ¶* A- |  |
+| `c2-l008` | Agiuai, uǒ, uǒta. *Gostar, ou prouar. ¶* A- |  |
 | `c2-l009` | &emsp;giuǒte miru, l, cocoromiru. *Prouar* |  |
 | `c2-l010` | &emsp;*comer, &c.* |  |
-| `c2-l011` | Agiuai xiri, ru, itta. *Conhecer pollo goſto.* |  |
+| `c2-l011` | Agiuai xiri, ru, itta. *Conhecer pollo gosto.* |  |
 | `c2-l012` | &emsp;*¶ Vt,* Saqeuo docozaqeto agiuai xiru. |  |
 | `c2-l013` | &emsp;*Conhecer pollo ſabor o vinho donde he.* |  |
 | `c2-l014` | Ague, ru, eta. *Aleuantar. ¶* Fouo |  |
@@ -94,7 +94,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l020` | &emsp;guru. *Tomar nome, ou afamarſe. ¶* Iro |  |
 | `c2-l021` | &emsp;uo aguru. *Dar noua tinta, ou cor.* |  |
 | `c2-l022` | &emsp;*¶ Permet.* Gacumõ nadono irouo aguru. |  |
-| `c2-l023` | &emsp;*Medrar, ou melhorarſe no eſtudo, &c.* |  |
+| `c2-l023` | &emsp;*Medrar, ou melhorarſe no estudo, &c.* |  |
 | `c2-l024` | &emsp;*¶* Ienuo aguru. *Tirar as mezas, ou por* |  |
 | `c2-l025` | &emsp;*as mezas, ou dar de comer a peſſoa nobre.* |  |
 | `c2-l026` | &emsp;*¶* Xeqiuo aguru. *Tirar as portagens,* |  |
@@ -112,7 +112,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l038` | &emsp;*aprẽder algũa materia, ou treslado deſcreuer.* |  |
 | `c2-l039` | Ague axi. *Pee que ſe leuanta, & poem ſo-* |  |
 | `c2-l040` | &emsp;*bre outro como pera deſcanſar. ¶* Ague |  |
-| `c2-l041` | &emsp;axiuo vtçu. *Por o pee, ou perna deſta ma-* |  |
+| `c2-l041` | &emsp;axiuo vtçu. *Por o pee, ou perna desta ma-* |  |
 | `c2-l042` | &emsp;*neira. ¶ Item,* Ague axi. *Hũa mão do* |  |
 | `c2-l043` | &emsp;*caualo que ſe aleuanta de hũa parte pera o der* |  |
 | `c2-l044` | &emsp;*rubar no chão, ou ter quieto, &c. ¶* A- |  |

@@ -15,9 +15,9 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c1a-l001` | &emsp;*certa erua groſſa de Iapão. ¶ Vt,* Ada |  |
-| `c1a-l002` | &emsp;cazzuna. *Corda feita deſta caſca.* |  |
+| `c1a-l002` | &emsp;cazzuna. *Corda feita desta caſca.* |  |
 | `c1a-l003` | Adacai. *Pouco cortez, & mal criado, l,* |  |
-| `c1a-l004` | &emsp;*que moſtra pouco ſaber, & policia entre os* |  |
+| `c1a-l004` | &emsp;*que mostra pouco ſaber, & policia entre os* |  |
 | `c1a-l005` | &emsp;*outros. ¶* Adacai fito. *Idem.* |  |
 | `c1a-l006` | Adacari ſomeni. *Breuemente, & a caſo, ou* |  |
 | `c1a-l007` | &emsp;*ſem propoſito.* |  |
@@ -30,25 +30,25 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1a-l014` | Adana, l, Adano. *Couſa breue vaã, &* |  |
 | `c1a-l015` | &emsp;*de pouca dura.* |  |
 | `c1a-l016` | Adana. *Ruim fama que nace ſomente de* |  |
-| `c1a-l017` | &emsp;*ſoſpeita em materia de caſtidade. ¶* A- |  |
-| `c1a-l018` | &emsp;danaga tatçu. *Aleuantarſe fama neſta* |  |
+| `c1a-l017` | &emsp;*ſoſpeita em materia de castidade. ¶* A- |  |
+| `c1a-l018` | &emsp;danaga tatçu. *Aleuantarſe fama nesta* |  |
 | `c1a-l019` | &emsp;*materia.* |  |
 | `c1a-l020` | Adanami. *Onda que ſe abaxa, & desfaz* |  |
 | `c1a-l021` | &emsp;*facilmente.* |  |
 | `c1a-l022` | Adaxi cocoro. P. i. Adana cocoro. |  |
-| `c1a-l023` | &emsp;*Condição mudauel, & inconſtante princi-* |  |
+| `c1a-l023` | &emsp;*Condição mudauel, & inconstante princi-* |  |
 | `c1a-l024` | &emsp;*palmente em materia de amores.* |  |
-| `c1a-l025` | Adaximi. P. *ſer, ou ſubſtancia de pouca* |  |
+| `c1a-l025` | Adaximi. P. *ſer, ou ſubstancia de pouca* |  |
 | `c1a-l026` | &emsp;*dura, & momento.* |  |
 | `c1a-l027` | Adaxiyo. *Mundo breue, & perecedeiro.* |  |
 | `c1a-l028` | Adaya. *Setta que não acerta no aluo, ou* |  |
 | `c1a-l029` | &emsp;*nos inimigos. ¶* Adayaga nai. *Não* |  |
 | `c1a-l030` | &emsp;*a tira nehũa ſetta en vão.* |  |
-| `c1a-l031` | Ado. *Repoſta conueniente acerca do que ſe* |  |
+| `c1a-l031` | Ado. *Reposta conueniente acerca do que ſe* |  |
 | `c1a-l032` | &emsp;*conta, ou fala. ¶* Adouo vtçu. *Dar* |  |
-| `c1a-l033` | &emsp;*eſtas repoſtas conformandoſe, & contem-* |  |
+| `c1a-l033` | &emsp;*estas repostas conformandoſe, & contem-* |  |
 | `c1a-l034` | &emsp;*porizando com o que fala. ¶ Itẽ, Nos en-* |  |
-| `c1a-l035` | &emsp;*entremeſes dar outro terceiro repoſtas con-* |  |
+| `c1a-l035` | &emsp;*entremeſes dar outro terceiro repostas con-* |  |
 | `c1a-l036` | &emsp;*temporizando, & lizonjeando ao que faz* |  |
 | `c1a-l037` | &emsp;*a farça.* |  |
 | `c1a-l038` | Adonai, l, adonai fito. *Homem ſimplez,* |  |
@@ -90,7 +90,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2a-l007` | &emsp;*chente de rio, &c. ¶ Item, Permet.* |  |
 | `c2a-l008` | &emsp;*Auer ẽ abudancia. ¶ Vt,* Zaizai xoxoni |  |
 | `c2a-l009` | &emsp;tçuuamono afure iru. *Todos os lugares* |  |
-| `c2a-l010` | &emsp;*eſtauão cheos de ſoldadesca.* |  |
+| `c2a-l010` | &emsp;*estauão cheos de ſoldadesca.* |  |
 
 ## Column 2 G section heading
 
@@ -115,7 +115,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2b-l011` | &emsp;*ſobre alguã obra, ou couſa que pretenda.* |  |
 | `c2b-l012` | Agari, ru, atta. *Subir, ou leuantarſe.* |  |
 | `c2b-l013` | &emsp;*¶* Qiga agaru. *Subir o ſangue a cabeça,* |  |
-| `c2b-l014` | &emsp;*ou enflamarſe o roſto. ¶* Curaini agaru. |  |
+| `c2b-l014` | &emsp;*ou enflamarſe o rosto. ¶* Curaini agaru. |  |
 | `c2b-l015` | &emsp;*Subir em dignidade. ¶ Item, Perfei-* |  |
 | `c2b-l016` | &emsp;*çoarſe, ou milhorarſe em alguã arte.* |  |
 | `c2b-l017` | &emsp;*¶* Te, dãgui, tçuzzumi, gacumon, cu- |  |
@@ -134,7 +134,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2b-l030` | &emsp;*barſe, ou ceſſar alguã couſa. Vt,* Fu- |  |
 | `c2b-l031` | &emsp;xinga agaru. *Acabarenſe as obras, ou* |  |
 | `c2b-l032` | &emsp;*ceſsar dellas. ¶* Tçuyu, l, Nagaxiga |  |
-| `c2b-l033` | &emsp;agaru. *Acabaremſe as chuuas cuſtuma-* |  |
+| `c2b-l033` | &emsp;agaru. *Acabaremſe as chuuas custuma-* |  |
 | `c2b-l034` | &emsp;*das no verão. ¶* Tenqiga agaru. *A-* |  |
 | `c2b-l035` | &emsp;*clararſe, ou concertarſe o tempo. ¶ Itẽ,* |  |
 

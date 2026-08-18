@@ -14,19 +14,19 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | Abumiuo funbaru. *Eſtribarſe aleuantan-* |  |
-| `c1-l002` | &emsp;*doſe ſobre os eſtribos. ¶* Abumino fa- |  |
+| `c1-l001` | Abumiuo funbaru. *Estribarſe aleuantan-* |  |
+| `c1-l002` | &emsp;*doſe ſobre os estribos. ¶* Abumino fa- |  |
 | `c1-l003` | &emsp;tomune. *A parte dianteira do eſtribo de* |  |
 | `c1-l004` | &emsp;*Iapão. ¶* Abumino cutçugomi. *O lugar* |  |
-| `c1-l005` | &emsp;*do eſtribo onde aſenta o pee. ¶* Abumino |  |
-| `c1-l006` | &emsp;caco. *Peſcoço do eſtribo por onde ſe toma* |  |
+| `c1-l005` | &emsp;*do estribo onde aſenta o pee. ¶* Abumino |  |
+| `c1-l006` | &emsp;caco. *Peſcoço do estribo por onde ſe toma* |  |
 | `c1-l007` | &emsp;*ate afiuela por onde ſe mete o loro. ¶* Abu |  |
-| `c1-l008` | &emsp;mino chicaragane. *Fiuela do eſtribo, por* |  |
+| `c1-l008` | &emsp;mino chicaragane. *Fiuela do estribo, por* |  |
 | `c1-l009` | &emsp;*onde ſe mete o loro. ¶* Abumino ya- |  |
 | `c1-l010` | &emsp;naiba. *Hum debrum de ferro que cerca em* |  |
-| `c1-l011` | &emsp;*roda os eſtribos da parte de baxo. ¶* Abu |  |
-| `c1-l012` | &emsp;mino xita ſaqi. *Põta do eſtribo de Iapão* |  |
-| `c1-l013` | Abunai. *Couſa perigoſa, ou poſta a perigo.* |  |
+| `c1-l011` | &emsp;*roda os estribos da parte de baxo. ¶* Abu |  |
+| `c1-l012` | &emsp;mino xita ſaqi. *Põta do estribo de Iapão* |  |
+| `c1-l013` | Abunai. *Couſa perigoſa, ou posta a perigo.* |  |
 | `c1-l014` | &emsp;Abunaſa. |  |
 | `c1-l015` | &emsp;Abunǒ. |  |
 | `c1-l016` | Abura. *Gordura, vnto, enxundia, manteiga,* |  |
@@ -40,18 +40,18 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l024` | &emsp;*Fazer azeite.* |  |
 | `c1-l025` | Aburadaru. *Barça, ou barril de azeite.* |  |
 | `c1-l026` | Aburafi. *Fogo, ou candea de azeite.* |  |
-| `c1-l027` | Aburagami. *Papel azeitado, ou paſtas de* |  |
+| `c1-l027` | Aburagami. *Papel azeitado, ou pastas de* |  |
 | `c1-l028` | &emsp;*papel azeitado de q̃ vzão pera contra a chu-* |  |
 | `c1-l029` | &emsp;*ua, ou agoa.* |  |
 | `c1-l030` | Abura ague, l, Abura agueno mono. *Cou-* |  |
 | `c1-l031` | &emsp;*ſa frita em azeite.* |  |
-| `c1-l032` | Aburaguiru, l, Aburaqiri, ru, itta. *Eſtar gor-* |  |
+| `c1-l032` | Aburaguiru, l, Aburaqiri, ru, itta. *Estar gor-* |  |
 | `c1-l033` | &emsp;*do, nedeo, & luzidio. ¶* Aburaguitta |  |
 | `c1-l034` | &emsp;fito, l, aburaqitta fito. *Homem gordo,* |  |
 | `c1-l035` | &emsp;*e nedeo. ¶* Aburaguitra yu, xiru, &c. |  |
 | `c1-l036` | &emsp;*Agoa quente, ou caldo que tem gordura.* |  |
 | `c1-l037` | Aburajimi. *Nodoa do ſuor, ou gordura do* |  |
-| `c1-l038` | &emsp;*corpo que fica no veſtido. ¶ Item, Nodoa* |  |
+| `c1-l038` | &emsp;*corpo que fica no vestido. ¶ Item, Nodoa* |  |
 | `c1-l039` | &emsp;*de azeite em geral. ¶* Aburajimiga ſu- |  |
 | `c1-l040` | &emsp;ru. *Fazerſe nodoa de azeite. ¶* Aburajimi |  |
 | `c1-l041` | &emsp;uo votoſu. *Tirar a nodoa de azeite, ou* |  |
@@ -75,7 +75,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l001` | &emsp;*bichinhos pretos que comem os olhos das aruo-* |  |
 | `c2-l002` | &emsp;*res, & eruas.* |  |
 | `c2-l003` | Aburaqeno mono. *Couſa que tem azeite mi-* |  |
-| `c2-l004` | &emsp;*ſturado em ſi, ou feita com azeite. ¶* Abu- |  |
+| `c2-l004` | &emsp;*sturado em ſi, ou feita com azeite. ¶* Abu- |  |
 | `c2-l005` | &emsp;raqega ſuru. *Ter cheiro, ou ſabor de* |  |
 | `c2-l006` | &emsp;*azeite.* |  |
 | `c2-l007` | Aburaqiri, u. *Vide* Aburaguiru. |  |
@@ -88,7 +88,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l014` | &emsp;*ſe deita azeite.* |  |
 | `c2-l015` | Aburatçugui, l, aburaſaxi. *Almotolia, ou* |  |
 | `c2-l016` | &emsp;*vaſo pera botar azeite na candea.* |  |
-| `c2-l017` | Aburatçuqi. *Candieiro, vieira, ou teſto de* |  |
+| `c2-l017` | Aburatçuqi. *Candieiro, vieira, ou testo de* |  |
 | `c2-l018` | &emsp;*azeite que ſe poem nas alenternas.* |  |
 | `c2-l019` | Aburatçubo. *Hũ vazozinho em q̃ as mo-* |  |
 | `c2-l020` | &emsp;*lheres tem azeite pera os cabellos. ¶ Itẽ, Bo-* |  |
@@ -99,7 +99,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l025` | &emsp;*unto. S.* |  |
 | `c2-l026` | Aburazzuqi, u, uita. *Pegarſe o ſuor, ou gor-* |  |
 | `c2-l027` | &emsp;*dura do corpo no veſtido, &c. ¶ Itẽ, Ali* |  |
-| `c2-l028` | &emsp;*quando permet. Eſtar pegado, & embebido* |  |
+| `c2-l028` | &emsp;*quando permet. Estar pegado, & embebido* |  |
 | `c2-l029` | &emsp;*em algũa couſa que hum aprende, ou tem in-* |  |
 | `c2-l030` | &emsp;*clinação.* |  |
 | `c2-l031` | Aburazzutçu. *Canudo, ou cana em que ſe tẽ* |  |

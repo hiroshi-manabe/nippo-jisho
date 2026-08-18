@@ -18,7 +18,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l002` | &emsp;*car infamado.* |  |
 | `c1-l003` | Acumot. Axij mono. *Couſa ruim, ou no-* |  |
 | `c1-l004` | &emsp;*ciua. ¶ Item, Ruim humor, ou materia* |  |
-| `c1-l005` | &emsp;*de poſtema, &c.* |  |
+| `c1-l005` | &emsp;*de postema, &c.* |  |
 | `c1-l006` | Acunen. *Mao penſamento. ¶* Acunen |  |
 | `c1-l007` | &emsp;ga vocoru. *Brotarem ou virem ruins pen-* |  |
 | `c1-l008` | &emsp;*ſamentos.* |  |
@@ -28,7 +28,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l012` | &emsp;*homem.* |  |
 | `c1-l013` | Acurei, l acuriǒ. Acuno mitama. *Alma* |  |
 | `c1-l014` | &emsp;*perdida. ¶* Acurei fitoni vazauo naſu, |  |
-| `c1-l015` | &emsp;l, toritçucu. *A alma perdida moleſtar,* |  |
+| `c1-l015` | &emsp;l, toritçucu. *A alma perdida molestar,* |  |
 | `c1-l016` | &emsp;*ou fazer dano a agluem.* |  |
 | `c1-l017` | Acurei. Axij tamaxij. *Ruim foro, ou cu-* |  |
 | `c1-l018` | &emsp;*ſtume. ¶ Item, Ruim agouro.* |  |
@@ -36,12 +36,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l020` | &emsp;tçu. *Lagarto, ou ſerpente peçonhenta.* |  |
 | `c1-l021` | Acuriǒ. Acuno mitama. *Almas perdidas.* |  |
 | `c1-l022` | &emsp;*¶* Acureo fitoni vazauo naſu. *Faze-* |  |
-| `c1-l023` | &emsp;*rem eſtas almas dano, ou mal a alguem.* |  |
+| `c1-l023` | &emsp;*rem estas almas dano, ou mal a alguem.* |  |
 | `c1-l024` | Acuriǔ. Axij ingare. *Ruim tradição, ou* |  |
 | `c1-l025` | &emsp;*ramo de algũa ſeita. ¶ Item, Couſas em* |  |
 | `c1-l026` | &emsp;*que a arte diſcrepa, ou que ſam de ruim for-* |  |
 | `c1-l027` | &emsp;*ma, & feição.* |  |
-| `c1-l028` | Acurui. Axij taguy. *Ruim caſta, ou laya* |  |
+| `c1-l028` | Acurui. Axij taguy. *Ruim casta, ou laya* |  |
 | `c1-l029` | &emsp;*de couſas.* |  |
 | `c1-l030` | Acuſa. *Maldade.* |  |
 | `c1-l031` | Acuſai. Axij tçuma. *Molher cazada* |  |
@@ -50,7 +50,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l034` | Acuſô. Axij bǒzu. *Ruim religioſo.* |  |
 | `c1-l035` | Acuſǒ. Axij ſǒ. *Ruins nouas.* |  |
 | `c1-l036` | Acuſǒ. Axij catachi. *Ruim eſtatua, ou* |  |
-| `c1-l037` | &emsp;*figura. ¶ Item, Ruim pronoſtico. ¶* Acu |  |
+| `c1-l037` | &emsp;*figura. ¶ Item, Ruim pronostico. ¶* Acu |  |
 | `c1-l038` | &emsp;sǒga miyuru. *Parece ruim pronoſtico.* |  |
 | `c1-l039` | Acusǒ. Axij caſa. *Boubas, ou doença ſe-* |  |
 | `c1-l040` | &emsp;*melhante.* |  |
@@ -96,7 +96,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2a-l022` | &emsp;ru. *Cair no Inferno.* |  |
 | `c2a-l023` | Acuye. Axij qegare. *çujdade, l, im-* |  |
 | `c2a-l024` | &emsp;*mumdicia.* |  |
-| `c2a-l025` | Acuye. Axij coromo. *Habito, ou veſti-* |  |
+| `c2a-l025` | Acuye. Axij coromo. *Habito, ou vesti-* |  |
 | `c2a-l026` | &emsp;*do çujo, & groſseiro.* |  |
 | `c2a-l027` | Acuyen. Acuni chinamu. *Ruim ventu-* |  |
 | `c2a-l028` | &emsp;*ra, ou fado do homem cauſado dos males* |  |
@@ -124,7 +124,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2b-l005` | Adabana. *Flor de aruore que vem ſem fru-* |  |
 | `c2b-l006` | &emsp;*ita. ¶ Item, Flor que vem fora do tem-* |  |
 | `c2b-l007` | &emsp;*po ordinario, como no Outono, &c.* |  |
-| `c2b-l008` | Adabito. *Peſsoa mudauel, & inconſtante* |  |
+| `c2b-l008` | Adabito. *Peſsoa mudauel, & inconstante* |  |
 | `c2b-l009` | &emsp;*particularmente em trocar o amor, & affei-* |  |
 | `c2b-l010` | &emsp;*ção ruim.* |  |
 | `c2b-l011` | Adaca. i. Suſuqino facaina. *Caſca de* |  |

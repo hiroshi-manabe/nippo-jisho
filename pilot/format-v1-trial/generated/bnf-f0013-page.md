@@ -27,8 +27,8 @@ A repeated ornamental band is printed above the title; it contains no lexical te
 | `c1-l004` | &emsp;*¶ Item,* A, *primeira das* |  |
 | `c1-l005` | &emsp;*cinco vogais de Iapão, q̃ ſão* |  |
 | `c1-l006` | &emsp;A, I, V, YE, VO. |  |
-| `c1-l007` | Aa. *Interieção de dor, ou triſteza. ¶ Vt,* |  |
-| `c1-l008` | &emsp;Aa canaxij cana. *O couſa triſte ¶ Itẽ,* |  |
+| `c1-l007` | Aa. *Interieção de dor, ou tristeza. ¶ Vt,* |  |
+| `c1-l008` | &emsp;Aa canaxij cana. *O couſa triste ¶ Itẽ,* |  |
 | `c1-l009` | &emsp;*Aliquando interieção de admiração. Vt,* Aa |  |
 | `c1-l010` | &emsp;vobitataxiya. *O couſa grande, eu enor-* |  |
 | `c1-l011` | &emsp;*me. ¶ Item, De alegria. Vt,* Aa vrexiya. |  |
@@ -47,14 +47,14 @@ A repeated ornamental band is printed above the title; it contains no lexical te
 | `c1-l024` | &emsp;*tentada no fallar, &c.* |  |
 | `c1-l025` | Abaqi, u, aita. *Comummente ſe vſa no* |  |
 | `c1-l026` | &emsp;*negatiuo por não caber. ¶ Vt,* Cono nin |  |
-| `c1-l027` | &emsp;juga cono zaxiqini abacanu. *Eſta gen-* |  |
-| `c1-l028` | &emsp;*te não cabe neſte Zaxiqi. No preſente af-* |  |
+| `c1-l027` | &emsp;juga cono zaxiqini abacanu. *Esta gen-* |  |
+| `c1-l028` | &emsp;*te não cabe neste Zaxiqi. No preſente af-* |  |
 | `c1-l029` | &emsp;*firmatiuo ſe vſa às vezes por ſobejar, ou re-* |  |
 | `c1-l030` | &emsp;*dundar.* |  |
-| `c1-l031` | Abarabone *Coſtellas das ilhargas.* |  |
+| `c1-l031` | Abarabone *Costellas das ilhargas.* |  |
 | `c1-l032` | Abaragaqe. *Arremetida aos inimigos ſem* |  |
 | `c1-l033` | &emsp;*ordẽ correndo de cà peralà.* |  |
-| `c1-l034` | Abarana. *Couſa desfeita, & eſtroncada, ou* |  |
+| `c1-l034` | Abarana. *Couſa desfeita, & estroncada, ou* |  |
 
 ## Column 2
 
@@ -62,14 +62,14 @@ A repeated ornamental band is printed above the title; it contains no lexical te
 | --- | --- | --- |
 | `c2-l001` | &emsp;*aberta como caſa, parede, &c. ¶ Vt,* Ca- |  |
 | `c2-l002` | &emsp;qi, cabe abarani xite ame, caje tama- |  |
-| `c2-l003` | &emsp;ranu. *Eſtando aſebe, & paredes desfei-* |  |
+| `c2-l003` | &emsp;ranu. *Estando aſebe, & paredes desfei-* |  |
 | `c2-l004` | &emsp;*tas entra o vento, & a chuua por todas as* |  |
 | `c2-l005` | &emsp;*partes.* |  |
 | `c2-l006` | &emsp;Abarani *Adu.* |  |
-| `c2-l007` | Abaraya. *Caſa velha, rota, & eſtroncada.* |  |
-| `c2-l008` | Abare, uru, eta. *Verbo defect. Deſtruirſe,* |  |
+| `c2-l007` | Abaraya. *Caſa velha, rota, & estroncada.* |  |
+| `c2-l008` | Abare, uru, eta. *Verbo defect. Destruirſe,* |  |
 | `c2-l009` | &emsp;*& desfazerſe a caſa por ſi, pouco uſado* |  |
-| `c2-l010` | &emsp;*neſte ſentido. ¶ Vt,* Iyeua cajeni abare, |  |
+| `c2-l010` | &emsp;*neste ſentido. ¶ Vt,* Iyeua cajeni abare, |  |
 | `c2-l011` | &emsp;ameni cutçuru *A caſa ſe desfaz cõ o vẽ-* |  |
 | `c2-l012` | &emsp;*to, & apodrece cõ a chuua. ¶ Item,* Aba |  |
 | `c2-l013` | &emsp;re. uru. *Ser deſordenado, ou deſmancha-* |  |
@@ -84,17 +84,17 @@ A repeated ornamental band is printed above the title; it contains no lexical te
 | `c2-l022` | &emsp;*Virem os porcos de mato liuremente aos cam-* |  |
 | `c2-l023` | &emsp;*pos, & ſementeiras, & danificalas.* |  |
 | `c2-l024` | Abaremono. *Homem deſordenado, mal cria-* |  |
-| `c2-l025` | &emsp;*do, de ruins cuſtumes, &c.* |  |
+| `c2-l025` | &emsp;*do, de ruins custumes, &c.* |  |
 | `c2-l026` | Abi, uru, l, abiru, ita. *Lauar o corpo ¶ Vt,* |  |
 | `c2-l027` | &emsp;Yu, mizzuuo aburu. *Lauar o corpo com* |  |
 | `c2-l028` | &emsp;*agoa quente, ou fria.* |  |
 | `c2-l029` | Abigigocu. *Hum Inferno de continos tormẽ* |  |
 | `c2-l030` | &emsp;*tos em que nem reſpirar podem os danados.* |  |
 | `c2-l031` | Abu. *Abeſpa, ou abeſpão.* |  |
-| `c2-l032` | Abumi. *Eſtribo. ¶* Abumiuo caquru. |  |
-| `c2-l033` | &emsp;*Por os eſtribos. ¶* Abumiuo fazzuſu. |  |
-| `c2-l034` | &emsp;*Tirar os eſtribos ¶* Abumiuo ficayu- |  |
-| `c2-l035` | &emsp;ru. *Ter mão no eſtribo pera caualgar.* |  |
+| `c2-l032` | Abumi. *Estribo. ¶* Abumiuo caquru. |  |
+| `c2-l033` | &emsp;*Por os estribos. ¶* Abumiuo fazzuſu. |  |
+| `c2-l034` | &emsp;*Tirar os estribos ¶* Abumiuo ficayu- |  |
+| `c2-l035` | &emsp;ru. *Ter mão no estribo pera caualgar.* |  |
 
 ## Signature
 

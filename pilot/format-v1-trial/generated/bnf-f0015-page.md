@@ -14,7 +14,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | &emsp;Aburico. *Grelhas: ¶ Item, Hum inſtru-* |  |
+| `c1-l001` | &emsp;Aburico. *Grelhas: ¶ Item, Hum instru-* |  |
 | `c1-l002` | &emsp;*mento tecido de canas em q̃ torrão cha, &* |  |
 | `c1-l003` | &emsp;*outras couſas.* |  |
 | `c1-l004` | Aburicobu. *Certos limos do mar largos aſſa-* |  |
@@ -42,7 +42,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l026` | Aca, l, Acano mizzu. *Certa agoa que pol-* |  |
 | `c1-l027` | &emsp;*la menhaã cedo ſe offerece aos Fotoques.* |  |
 | `c1-l028` | &emsp;*¶* Aca muſubu, l, acano mizzuuo mu- |  |
-| `c1-l029` | &emsp;ſubu. *Tirar, ou tomar eſta agoa da fon-* |  |
+| `c1-l029` | &emsp;ſubu. *Tirar, ou tomar esta agoa da fon-* |  |
 | `c1-l030` | &emsp;*te, rio, &c.* |  |
 | `c1-l031` | Acabana. *Certo peixe do mar de bom ſabor.* |  |
 | `c1-l032` | Acabucai. *Couſa onde ordinariamente ha çu-* |  |
@@ -75,7 +75,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l002` | Acafata. *Bandeira vermelha.* |  |
 | `c2-l003` | Acafigue. *Barbaruiua.* |  |
 | `c2-l004` | Acagai. *Certa laya de briguigoĩs vermelhos.* |  |
-| `c2-l005` | &emsp;Acagaiuo toru. *Apanhar eſtes briguigoĩs* |  |
+| `c2-l005` | &emsp;Acagaiuo toru. *Apanhar estes briguigoĩs* |  |
 | `c2-l006` | Acagane. *Cobre.* |  |
 | `c2-l007` | Acagari. *Gretas grandes cauſadas do frio, ou* |  |
 | `c2-l008` | &emsp;*de doença nos pees, & mãos. ¶* Acaga- |  |
@@ -83,7 +83,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l010` | &emsp;*frio.* |  |
 | `c2-l011` | Acagauauodoxi. *Certa tecedura de armas* |  |
 | `c2-l012` | &emsp;*em cadeada com correas de pelle vermelha.* |  |
-| `c2-l013` | Acagauo. *Roſto vermelho. ¶* Acagauo |  |
+| `c2-l013` | Acagauo. *Rosto vermelho. ¶* Acagauo |  |
 | `c2-l014` | &emsp;no fito. *Homẽ de roſto vermelho.* |  |
 | `c2-l015` | Acagaxira. *Cabellos vermelhos, l, ruiuos da* |  |
 | `c2-l016` | &emsp;*cabeça. ¶ Itẽ, Huns rabos de vacas ver-* |  |

@@ -36,10 +36,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l020` | &emsp;ga tçumoru. *Crecerem, & acumularemſe* |  |
 | `c1-l021` | &emsp;*os peccados. ¶* Acuuo coraſu. *Emẽ-* |  |
 | `c1-l022` | &emsp;*dar a ruim vida, ou eſcarmentarſe dos vicios.* |  |
-| `c1-l023` | &emsp;*¶* Acuni fuqeru. *Eſtar metido nos pecca-* |  |
+| `c1-l023` | &emsp;*¶* Acuni fuqeru. *Estar metido nos pecca-* |  |
 | `c1-l024` | &emsp;*dos. ¶* Acuni miuo naſu. *Idẽ. ¶* Acu |  |
 | `c1-l025` | &emsp;ni quamaru. *Conſumarſe em peccados.* |  |
-| `c1-l026` | &emsp;*¶* Acuni tongiacu ſuru. *Eſtar metido,* |  |
+| `c1-l026` | &emsp;*¶* Acuni tongiacu ſuru. *Estar metido,* |  |
 | `c1-l027` | &emsp;*& atollado nos peccados. ¶* Acuuo qi- |  |
 | `c1-l028` | &emsp;uamuru. *Fazer muitos peccados.* |  |
 | `c1-l029` | Acu. *Decoada, ou barrela. ¶* Acuuo ta |  |
@@ -52,7 +52,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l036` | &emsp;*tagioſa de que todos fogem.* |  |
 | `c1-l037` | Acubicu. i. Varui xucqe. *Mao religioſo.* |  |
 | `c1-l038` | Acubocu. Axij qi. *Ruim aruore.* |  |
-| `c1-l039` | Acu chixiqi. *Ruim meſtre nas couſas da* |  |
+| `c1-l039` | Acu chixiqi. *Ruim mestre nas couſas da* |  |
 | `c1-l040` | &emsp;*virtude, & ſaluação.* |  |
 | `c1-l041` | Acuchǔ. Axij muxi. *Ruim bicho.* |  |
 | `c1-l042` | Acudǒ. Axij michi. *Ruim caminho, ou* |  |
@@ -72,20 +72,20 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | Acufeqi. Axij cuxe. *Maos coſtumes, ha-* |  |
+| `c2-l001` | Acufeqi. Axij cuxe. *Maos costumes, ha-* |  |
 | `c2-l002` | &emsp;*bitos, &c.* |  |
 | `c2-l003` | Acufiǒ. *Ruim frecheiro.* |  |
 | `c2-l004` | Acufit. Axij fude. *Ruim eſcriuão, ou ru-* |  |
 | `c2-l005` | &emsp;*im letra.* |  |
 | `c2-l006` | Acufô. Axij nori. *Ruim feita, ou lei.* |  |
 | `c2-l007` | Acufǒ. *Ruim parte, ou rumo, ou de ruim* |  |
-| `c2-l008` | &emsp;*pronoſtico.* |  |
+| `c2-l008` | &emsp;*pronostico.* |  |
 | `c2-l009` | Acufǔ. Axij caje. *Vento contrario.* |  |
 | `c2-l010` | &emsp;*¶* Acufǔga vocoru. *Aleuantarſe ruim* |  |
 | `c2-l011` | &emsp;*vento. ¶* Acufǔni fanaſaruru. *Deſgar-* |  |
 | `c2-l012` | &emsp;*rar com ruim vento.* |  |
 | `c2-l013` | Acugi. Axij tçuchi. *Terra ruim, &* |  |
-| `c2-l014` | &emsp;*eſteril.* |  |
+| `c2-l014` | &emsp;*esteril.* |  |
 | `c2-l015` | Acugio. Axij vonna. *Molher fea, & de* |  |
 | `c2-l016` | &emsp;*ruim parecer. ¶ Item, Molher de ruim* |  |
 | `c2-l017` | &emsp;*vida.* |  |
@@ -101,7 +101,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l027` | &emsp;*maldades.* |  |
 | `c2-l028` | Acugon. Axij cotoba. *Más palauras.* |  |
 | `c2-l029` | Acuin. Acuno chinami. *Ruins penſamen-* |  |
-| `c2-l030` | &emsp;*tos, ou obras que ſe fazem neſta vida, ou* |  |
+| `c2-l030` | &emsp;*tos, ou obras que ſe fazem nesta vida, ou* |  |
 | `c2-l031` | &emsp;*fizerão noutra idade, ou nacimento,como cui-* |  |
 | `c2-l032` | &emsp;*dão os gentios.* |  |
 | `c2-l033` | Acuji. Axij coto. *Obra ruim, ou malda-* |  |
