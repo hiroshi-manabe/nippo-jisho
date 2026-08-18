@@ -144,19 +144,23 @@ class PublicReviewRegressionTests(unittest.TestCase):
             }
             self.assertEqual(
                 candidate_lookup[("f34", "c2-l008", 1)]["crop"],
-                [2050, 828, 380, 148],
+                [1445, 828, 1206, 148],
             )
             self.assertEqual(
                 candidate_lookup[("f37", "c2-l037", 1)]["crop"],
-                [1970, 2652, 380, 123],
+                [1190, 2652, 1232, 123],
             )
             self.assertEqual(
                 candidate_lookup[("f38", "c1-l013", 1)]["crop"],
-                [1125, 1155, 380, 121],
+                [300, 1155, 1205, 121],
             )
             self.assertEqual(
                 candidate_lookup[("f38", "c2b-l008", 1)]["crop"],
-                [1950, 1654, 380, 122],
+                [1445, 1654, 1206, 122],
+            )
+            self.assertEqual(
+                candidate_lookup[("f56", "c1-l003", 1)]["crop"],
+                [300, 551, 1205, 122],
             )
             for asset in ("st-audit.html", "st-audit.js", "st-audit.css"):
                 self.assertTrue((output / asset).is_file())
@@ -184,6 +188,8 @@ class PublicReviewRegressionTests(unittest.TestCase):
         self.assertIn("if (state.selected.has(candidateKey(page, candidate))) continue", script)
         self.assertIn("candidate.occurrence", script)
         self.assertIn("state.selected.clear()", script)
+        self.assertIn("function highlightedLine(candidate)", script)
+        self.assertIn("<mark>", script)
 
     def test_tilde_audit_keeps_short_continuations_and_diacritics_visible(self):
         with tempfile.TemporaryDirectory() as directory:

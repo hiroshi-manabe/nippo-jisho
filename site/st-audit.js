@@ -149,10 +149,8 @@ function toggleCandidate(index) {
   checkbox.dispatchEvent(new Event('change', {bubbles: true}));
 }
 
-function occurrenceContext(candidate) {
-  const start = Math.max(0, candidate.token_start - 10);
-  const end = Math.min(candidate.line_text.length, candidate.token_end + 10);
-  return `${start ? '…' : ''}${candidate.line_text.slice(start, end)}${end < candidate.line_text.length ? '…' : ''}`;
+function highlightedLine(candidate) {
+  return `${escapeHTML(candidate.line_text.slice(0, candidate.token_start))}<mark>${escapeHTML(candidate.line_text.slice(candidate.token_start, candidate.token_end))}</mark>${escapeHTML(candidate.line_text.slice(candidate.token_end))}`;
 }
 
 function render() {
@@ -166,7 +164,7 @@ function render() {
     return;
   }
   let globalIndex = 0;
-  $('#audit-list').innerHTML = state.data.pages.map(page => `<section class="page-group" data-page="${page.leaf}"><div class="page-heading"><h2>${page.view}</h2><span>${page.candidates.length} candidates</span><a href="${page.gallica}" target="_blank" rel="noreferrer">Open full scan ↗</a></div><div class="tile-grid">${page.candidates.map((candidate, pageIndex) => { const key = candidateKey(page, candidate); const index = globalIndex++; return `<article class="candidate" tabindex="-1" data-candidate-index="${index}"><canvas data-leaf="${page.leaf}" data-page-index="${pageIndex}" aria-label="Scan crop for ${escapeHTML(key)}"></canvas><label class="candidate-footer"><input type="checkbox" data-key="${escapeHTML(key)}"${state.selected.has(key) ? ' checked' : ''} aria-label="Retain true long s in ${escapeHTML(key)}"><span class="candidate-text"><small class="candidate-id">${escapeHTML(key)}</small><span class="candidate-context">${escapeHTML(occurrenceContext(candidate))}</span></span></label></article>`; }).join('')}</div></section>`).join('');
+  $('#audit-list').innerHTML = state.data.pages.map(page => `<section class="page-group" data-page="${page.leaf}"><div class="page-heading"><h2>${page.view}</h2><span>${page.candidates.length} candidates</span><a href="${page.gallica}" target="_blank" rel="noreferrer">Open full scan ↗</a></div><div class="tile-grid">${page.candidates.map((candidate, pageIndex) => { const key = candidateKey(page, candidate); const index = globalIndex++; return `<article class="candidate" tabindex="-1" data-candidate-index="${index}"><canvas data-leaf="${page.leaf}" data-page-index="${pageIndex}" aria-label="Full line scan for ${escapeHTML(key)}"></canvas><label class="candidate-footer"><input type="checkbox" data-key="${escapeHTML(key)}"${state.selected.has(key) ? ' checked' : ''} aria-label="Retain true long s in ${escapeHTML(key)}"><span class="candidate-text"><small class="candidate-id">${escapeHTML(key)}</small><span class="candidate-context">${highlightedLine(candidate)}</span></span></label></article>`; }).join('')}</div></section>`).join('');
   state.candidates = [...document.querySelectorAll('.candidate')];
   updateCounts();
   const observer = new IntersectionObserver(entries => {

@@ -28,30 +28,6 @@ TILDE_AUDIT_SCOPE = "f39-f100"
 TILDE_AUDIT_STATUS = "batch_review_unverified"
 ST_AUDIT_LEAVES = range(33, 101)
 ST_AUDIT_SCOPE = "f33-f100"
-ST_CROP_OVERRIDES = {
-    # This short entry fills substantially more of the measure than its
-    # character count predicts; retain the independently checked Eſtrella.
-    ("f18", "c2a-l005", 20): [2050, 622, 380, 148],
-    # Short and mixed-layout lines need occurrence-specific horizontal
-    # placement; proportional text-width estimates hide the target sort.
-    ("f31", "c1-l043", 32): [790, 2977, 380, 128],
-    ("f31", "c2a-l001", 26): [1780, 383, 380, 124],
-    ("f31", "c2a-l012", 19): [1660, 1069, 380, 123],
-    ("f31", "c2a-l019", 23): [1660, 1507, 380, 124],
-    ("f31", "c2q-l004", 13): [1450, 2439, 380, 127],
-    ("f32", "c1-l006", 23): [1050, 690, 380, 150],
-    ("f32", "c1-l029", 18): [700, 2125, 380, 150],
-    ("f32", "c1-l044", 25): [1050, 3066, 380, 150],
-    # Later words on these unusually spaced lines fall to the right of the
-    # generic transcription-width estimate. Each override was checked against
-    # the native scan and centres the actual ſt sort in the specialist tile.
-    ("f34", "c2-l008", 21): [2050, 828, 380, 148],
-    ("f37", "c2-l037", 30): [1970, 2652, 380, 123],
-    ("f38", "c1-l013", 35): [1125, 1155, 380, 121],
-    ("f38", "c2b-l008", 21): [1950, 1654, 380, 122],
-}
-
-
 def load_json(path: Path) -> dict:
     return json.loads(path.read_text(encoding="utf-8"))
 
@@ -355,36 +331,13 @@ def tilde_candidate_crop(page: dict, line: dict, start: int, end: int) -> list[i
     return [crop_left, crop_top, crop_width, crop_bottom - crop_top]
 
 
-def occurrence_crop(page: dict, line: dict, start: int, end: int) -> list[int]:
-    """Return a compact crop centred on one transcribed occurrence."""
-    override = ST_CROP_OVERRIDES.get((page["view"], line["id"], start))
-    if override is not None:
-        return override
+def st_line_crop(page: dict, line: dict) -> list[int]:
+    """Return the complete reviewed printed line for reliable ſt checking."""
     left, top, width, height = line["crop"]
-    text = line["text"]
-    # Unlike the wider tilde cards, these tiles have almost no tolerance for
-    # a misplaced horizontal estimate. Use the observed line height as a cap
-    # on normal type width, while letting a genuinely full line distribute
-    # its transcription across the complete recorded rectangle. A fixed
-    # 48-character measure put later words much too far left on shorter full
-    # lines (for example f13/c1-l008 `couſa triſte`).
-    total_units = max(text_width_units(text), 1)
-    unit_width = min(width / total_units, height * 0.27)
-    indent_units = float(line.get("indent", 0)) * 2.0
-    centre_units = (
-        indent_units
-        + text_width_units(text[:start])
-        + text_width_units(text[start:end]) / 2
-    )
-    centre_x = left + round(unit_width * centre_units)
-    crop_width = min(width, 380)
-    crop_left = min(
-        max(left, centre_x - crop_width // 2), left + width - crop_width
-    )
     padding = max(8, round(height * 0.12))
     crop_top = max(0, top - padding)
     crop_bottom = min(page["height"], top + height + padding)
-    return [crop_left, crop_top, crop_width, crop_bottom - crop_top]
+    return [left, crop_top, width, crop_bottom - crop_top]
 
 
 def st_audit_payload(
@@ -429,9 +382,7 @@ def st_audit_payload(
                             "token_start": match.start(),
                             "token_end": match.end(),
                             "base_line_version": line["transcription_version"],
-                            "crop": occurrence_crop(
-                                page, line, match.start(), match.end()
-                            ),
+                            "crop": st_line_crop(page, line),
                         }
                     )
         audit_pages.append(
