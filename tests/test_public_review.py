@@ -1295,6 +1295,54 @@ class PublicReviewRegressionTests(unittest.TestCase):
         self.assertEqual(centres, [447, 509, 571, 633, 695, 757, 819, 881, 943])
         self.assertTrue(all(right - left == 62 for left, right in zip(centres, centres[1:])))
 
+    def test_f49_issue_43_applies_only_exact_scan_supported_changes(self):
+        history = json.loads(
+            (ROOT / "pilot" / "human-review" / "correction-history.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        page = next(page for page in history["pages"] if page["id"] == "bnf-f0049")
+        self.assertEqual(page["issues_applied"], 2)
+        self.assertEqual(page["distinct_lines"], 17)
+        self.assertEqual(page["accepted_edits"], 18)
+        self.assertEqual(page["issues"][-1]["number"], 43)
+        self.assertEqual(len(page["issues"][-1]["lines"]), 12)
+
+        record = json.loads(
+            (ROOT / "pilot" / "format-v1-trial" / "level1" / "bnf-f0049.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        lines = {
+            line["id"]: line["runs"]
+            for zone in record["zones"]
+            for line in zone.get("lines", [])
+        }
+        plain = {
+            line_id: "".join(run["text"] for run in runs)
+            for line_id, runs in lines.items()
+        }
+        self.assertIn("Tomar oque", plain["c1-l006"])
+        self.assertIn("Maxi, maſu", plain["c1-l032"])
+        self.assertIn("fioszinhos", plain["c1-l034"])
+        self.assertIn("boca danoite", plain["c1-l045"])
+        self.assertIn("a inda", plain["c2-l016"])
+        self.assertIn("tçuqu", plain["c2-l032"])
+        self.assertIn("cô naxi", plain["c2-l045"])
+        self.assertTrue(
+            any(run["typeface"] == "roman" and run["text"].strip() == "Vmes." for run in lines["c1-l013"])
+        )
+        self.assertTrue(
+            any(run["typeface"] == "italic" and run["text"].lstrip().startswith("i. Meo") for run in lines["c2-l006"])
+        )
+
+        # The submitted Aſii reading is not accepted without human confirmation.
+        self.assertEqual(
+            plain["c2-l012"],
+            "a dãçar pera aquietar a gẽte. Aſſi ſe hade enten",
+        )
+        self.assertIn("em lutas,", plain["c2-l014"])
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -19,14 +19,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l003` | Baichi. *Terras compradas, ou arrendadas.* |  |
 | `c1-l004` | Baidori. *Tomar por força. ¶* Baidorini |  |
 | `c1-l005` | &emsp;ſuru. *Idem.* |  |
-| `c1-l006` | Baigachi. *Tomar o que ſe lança arrebatinhas.* |  |
+| `c1-l006` | Baigachi. *Tomar oque ſe lança arrebatinhas.* |  |
 | `c1-l007` | &emsp;*¶ Vt,* Baigachini ſuru. *Idem.* |  |
 | `c1-l008` | Baiguet. *Lũa do quinto mez quando certas a-* |  |
 | `c1-l009` | &emsp;*meixeas a madurecem.* |  |
 | `c1-l010` | Baijit. Vmeno mi. *Fruita de aruore como a-* |  |
 | `c1-l011` | &emsp;*mexieira.* |  |
 | `c1-l012` | Baimo. *Certa mezinha.* |  |
-| `c1-l013` | Bainin. *Miolo do caroço de Vmes.* |  |
+| `c1-l013` | Bainin. *Miolo do caroço de* Vmes. |  |
 | `c1-l014` | Baiqiǒ. Vme cobaxij. i. Vmeno niuoi. |  |
 | `c1-l015` | &emsp;*Cheiro de certa amexieira.* |  |
 | `c1-l016` | Baiqua. Vmeno fana. *Flor deſta amexieira.* |  |
@@ -39,15 +39,15 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l023` | &emsp;*ſe diz de terras, caſas, ou chão que ſe compra.* |  |
 | `c1-l024` | Baitori, u, otta. *Tomar por força.* |  |
 | `c1-l025` | Baixet. Vmeyuqi. *Amexieira, & neue.* |  |
-| `c1-l026` | Baixu. Vrizage. *Vinho de venda. ¶* Go- |  |
+| `c1-l026` | Baixu. Vrizage. *Vinho de venda. ¶* Co- |  |
 | `c1-l027` | &emsp;reua baixu gia. *He vinho comprado, ou* |  |
-| `c1-l028` | &emsp;*de venda. ¶* Baixu itasu. *Fazerſe vi* |  |
+| `c1-l028` | &emsp;*de venda. ¶* Baixu itaſu. *Fazerſe vi* |  |
 | `c1-l029` | &emsp;*nhateiro.* |  |
-| `c1-l030` | Baiyô. i. Tarayô. *Folha de palmeira em q̃* |  |
+| `c1-l030` | Baiyǒ. i. Tarayô. *Folha de palmeira em q̃* |  |
 | `c1-l031` | &emsp;*ſe eſcreue.* |  |
-| `c1-l032` | Baizô. Maximaſu. *Multiplicação de qualquer* |  |
+| `c1-l032` | Baizô. Maxi, maſu. *Multiplicação de qualquer* |  |
 | `c1-l033` | &emsp;*couſa, ou melhoria.* |  |
-| `c1-l034` | Baizui. Vmeno fananozui. *Hũs fiozinhos* |  |
+| `c1-l034` | Baizui. Vmeno fananozui. *Hũs fioszinhos* |  |
 | `c1-l035` | &emsp;*amarelos que eſtão dentro na flor da amexieira.* |  |
 | `c1-l036` | Bamen. Vmano vomote. *Vizeiras do caualo* |  |
 | `c1-l037` | &emsp;*armado.* |  |
@@ -58,7 +58,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l042` | &emsp;*numerais ſignifica ordem. i. Significa primei-* |  |
 | `c1-l043` | &emsp;*ro, ſegundo, terceiro. ¶ Vt,* Ichiban, ni |  |
 | `c1-l044` | &emsp;ban, &c. |  |
-| `c1-l045` | Ban. Cururu. *Tarde, ou boca da noite.* |  |
+| `c1-l045` | Ban. Cururu. *Tarde, ou boca danoite.* |  |
 | `c1-l046` | &emsp;*¶* Figa banni voyobu. *Anoitecer.* |  |
 | `c1-l047` | Ban. *Meza alta. ¶ Item, Hũ banco de* |  |
 
@@ -83,7 +83,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l003` | &emsp;*ro do enxadres. ¶* Sugurocuno bã. *Ta-* |  |
 | `c2-l004` | &emsp;*boleiro das tabolas. ¶* Goban. *Tabolei* |  |
 | `c2-l005` | &emsp;*ro de hum jogo chamado* Go *de muitas pedras.* |  |
-| `c2-l006` | Banaca. i. *Meo da rua, ou terreiro. ¶* Ba |  |
+| `c2-l006` | Banaca. *i. Meo da rua, ou terreiro. ¶* Ba |  |
 | `c2-l007` | &emsp;nacade fagiuo caita. *Fiquei injuriado no* |  |
 | `c2-l008` | &emsp;*meo da rua diante de todos.* |  |
 | `c2-l009` | Banaraxi. *Começar a reprezentar algũa couſa* |  |
@@ -93,7 +93,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l013` | &emsp;*der o* Banaraxi *deçima.* |  |
 | `c2-l014` | Banareta fito. *Homem exercitado em lutas,* |  |
 | `c2-l015` | &emsp;*ou em outra arte. ¶* Banarenu fito. *Ho* |  |
-| `c2-l016` | &emsp;*mem que não eſta ainda deſtro, & exercitado* |  |
+| `c2-l016` | &emsp;*mem que não eſta a inda deſtro, & exercitado* |  |
 | `c2-l017` | &emsp;*em publico.* |  |
 | `c2-l018` | Banbato. *Adu. Modo de ſoarẽ as azas dos paſ* |  |
 | `c2-l019` | &emsp;*ſaros que vão voando, ou de outro eſtrondo que* |  |
@@ -109,7 +109,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l029` | &emsp;*des do verão.* |  |
 | `c2-l030` | Bancha. Cha *ordinario que não he do bom.* |  |
 | `c2-l031` | Banchǒ. i. Banno nicqi. *Rol dos que vi-* |  |
-| `c2-l032` | &emsp;*gião. ¶* Banchǒni tçugu. *Eſtar eſcri-* |  |
+| `c2-l032` | &emsp;*gião. ¶* Banchǒni tçuqu. *Eſtar eſcri-* |  |
 | `c2-l033` | &emsp;*to no rol da vigia.* |  |
 | `c2-l034` | Bancǒ. Yorozzuno ſaiuai. *Todos os bons* |  |
 | `c2-l035` | &emsp;*ſuçeſſos, ou proſperidades.* |  |
@@ -122,7 +122,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l042` | Bandori. *Paſſaro que vigia.* |  |
 | `c2-l043` | Bangacu. Voſoi gacumon. *O aprender* |  |
 | `c2-l044` | &emsp;*tarde, ou ja de muita idade. Vt,* Bangacu |  |
-| `c2-l045` | &emsp;ua rǒxite cõ naxi. *O eſtudo tomado tarde* |  |
+| `c2-l045` | &emsp;ua rǒxite cô naxi. *O eſtudo tomado tarde* |  |
 | `c2-l046` | &emsp;*he trabalhoſo, & não proueitoſo.* |  |
 | `c2-l047` | Bangacu. Yorozzuno gacumon. *Todos os* |  |
 
