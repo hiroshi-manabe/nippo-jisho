@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Human review of long-s–t and short-s–t forms in the Nippo Jisho transcription.">
+  <title>Nippo Jisho · ſt / st audit</title>
+  <link rel="stylesheet" href="st-audit.css">
+</head>
+<body>
+  <header class="audit-header">
+    <div>
+      <a href="index.html">← Main review site</a>
+      <p class="eyebrow">ſt / st review · <span id="audit-scope">f13–f22</span></p>
+      <h1>Check only genuine long <i>ſ</i> + <i>t</i>.</h1>
+      <p>Every tile is currently transcribed <strong>ſt</strong>. Leave short <strong>st</strong> forms unchecked; check only tiles where the first letter is genuinely long <strong>ſ</strong>. On submission, unchecked forms become <strong>st</strong> and checked forms retain <strong>ſt</strong>.</p>
+      <p class="keyboard-help"><kbd>←</kbd><kbd>→</kbd><kbd>↑</kbd><kbd>↓</kbd> move · <kbd>Space</kbd> check or uncheck</p>
+    </div>
+    <div class="audit-summary"><strong id="candidate-count">—</strong><span>total candidates</span><strong id="selected-count">0</strong><span>retain as true ſt</span><strong id="convert-count">—</strong><span>convert to st</span></div>
+  </header>
+
+  <main id="audit-list" aria-live="polite"><p class="loading">Loading audit data…</p></main>
+
+  <footer class="submit-bar">
+    <span><strong id="footer-retain-count">0</strong> retain · <strong id="footer-convert-count">—</strong> convert</span>
+    <button id="copy-json" type="button">Copy JSON</button>
+    <button id="open-issue" class="primary" type="button">Open GitHub Issue</button>
+  </footer>
+  <div id="toast" class="toast hidden" role="status"></div>
+  <script src="st-audit.js"></script>
+</body>
+</html>

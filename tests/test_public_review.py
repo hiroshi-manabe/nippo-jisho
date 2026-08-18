@@ -103,6 +103,52 @@ class PublicReviewRegressionTests(unittest.TestCase):
         self.assertIn("saved?.schema === 2", script)
         self.assertIn("candidate.occurrence", script)
 
+    def test_st_audit_covers_every_occurrence_on_first_ten_column_leaves(self):
+        with tempfile.TemporaryDirectory() as directory:
+            subprocess.run(
+                [
+                    "python3",
+                    str(ROOT / "scripts" / "build_public_review.py"),
+                    "--output",
+                    directory,
+                ],
+                cwd=ROOT,
+                check=True,
+                capture_output=True,
+                text=True,
+            )
+            output = Path(directory)
+            audit = json.loads((output / "st-audit.json").read_text(encoding="utf-8"))
+            self.assertEqual(audit["task"], "st-ligature-audit")
+            self.assertEqual(audit["scope"], "f13-f22")
+            self.assertEqual([page["leaf"] for page in audit["pages"]], list(range(13, 23)))
+            candidates = [
+                (page["view"], candidate)
+                for page in audit["pages"]
+                for candidate in page["candidates"]
+            ]
+            self.assertEqual(len(candidates), 136)
+            keys = {
+                f"{page}/{candidate['line']}#{candidate['occurrence']}"
+                for page, candidate in candidates
+            }
+            self.assertEqual(len(keys), len(candidates))
+            self.assertTrue(all(candidate["before"] == "ſt" for _, candidate in candidates))
+            self.assertTrue(all(candidate["after"] == "st" for _, candidate in candidates))
+            self.assertTrue(all(candidate["crop"][2] <= 340 for _, candidate in candidates))
+            for asset in ("st-audit.html", "st-audit.js", "st-audit.css"):
+                self.assertTrue((output / asset).is_file())
+
+    def test_st_audit_has_grid_keyboard_controls_and_inverted_default(self):
+        script = (ROOT / "site" / "st-audit.js").read_text(encoding="utf-8")
+        self.assertIn("event.key === 'ArrowLeft'", script)
+        self.assertIn("event.key === 'ArrowRight'", script)
+        self.assertIn("event.key === 'ArrowDown'", script)
+        self.assertIn("event.key === 'ArrowUp'", script)
+        self.assertIn("event.code === 'Space'", script)
+        self.assertIn("if (state.selected.has(candidateKey(page, candidate))) continue", script)
+        self.assertIn("candidate.occurrence", script)
+
     def test_tilde_audit_keeps_short_continuations_and_diacritics_visible(self):
         with tempfile.TemporaryDirectory() as directory:
             subprocess.run(

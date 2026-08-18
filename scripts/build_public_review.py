@@ -26,6 +26,8 @@ HYPHEN_AUDIT_SCOPE = "f44-f100"
 TILDE_AUDIT_LEAVES = range(39, 101)
 TILDE_AUDIT_SCOPE = "f39-f100"
 TILDE_AUDIT_STATUS = "batch_review_unverified"
+ST_AUDIT_LEAVES = range(13, 23)
+ST_AUDIT_SCOPE = "f13-f22"
 
 
 def load_json(path: Path) -> dict:
@@ -331,6 +333,80 @@ def tilde_candidate_crop(page: dict, line: dict, start: int, end: int) -> list[i
     return [crop_left, crop_top, crop_width, crop_bottom - crop_top]
 
 
+def occurrence_crop(page: dict, line: dict, start: int, end: int) -> list[int]:
+    """Return a compact crop centred on one transcribed occurrence."""
+    left, top, width, height = line["crop"]
+    text = line["text"]
+    unit_width = width / 48
+    indent_units = float(line.get("indent", 0)) * 2.0
+    centre_units = (
+        indent_units
+        + text_width_units(text[:start])
+        + text_width_units(text[start:end]) / 2
+    )
+    centre_x = left + round(unit_width * centre_units)
+    crop_width = min(width, 340)
+    crop_left = min(
+        max(left, centre_x - crop_width // 2), left + width - crop_width
+    )
+    padding = max(8, round(height * 0.12))
+    crop_top = max(0, top - padding)
+    crop_bottom = min(page["height"], top + height + padding)
+    return [crop_left, crop_top, crop_width, crop_bottom - crop_top]
+
+
+def st_audit_payload(pages: list[dict], commit: str, repository: str) -> dict:
+    audit_pages = []
+    for page in pages:
+        if page["leaf"] not in ST_AUDIT_LEAVES or not page["processed"]:
+            continue
+        candidates = []
+        for zone in page["zones"]:
+            if zone["kind"] != "column":
+                continue
+            for line in zone["lines"]:
+                occurrence = 0
+                for match in re.finditer("ſt", line["text"]):
+                    occurrence += 1
+                    candidates.append(
+                        {
+                            "line": line["id"],
+                            "occurrence": occurrence,
+                            "before": "ſt",
+                            "after": "st",
+                            "line_text": line["text"],
+                            "token_start": match.start(),
+                            "token_end": match.end(),
+                            "base_line_version": line["transcription_version"],
+                            "crop": occurrence_crop(
+                                page, line, match.start(), match.end()
+                            ),
+                        }
+                    )
+        audit_pages.append(
+            {
+                "leaf": page["leaf"],
+                "view": page["view"],
+                "page_id": page["page_id"],
+                "width": page["width"],
+                "height": page["height"],
+                "image": page["iiif"],
+                "gallica": page["gallica"],
+                "candidates": candidates,
+            }
+        )
+    return {
+        "schema": 1,
+        "task": "st-ligature-audit",
+        "scope": ST_AUDIT_SCOPE,
+        "base_commit": commit,
+        "repository": repository,
+        "unchecked_action": "replace-long-s-t-with-short-s-t",
+        "checked_action": "retain-long-s-t",
+        "pages": audit_pages,
+    }
+
+
 def tilde_audit_payload(
     pages: list[dict], commit: str, repository: str, ledger: Path
 ) -> dict:
@@ -506,6 +582,15 @@ def main() -> int:
         + "\n",
         encoding="utf-8",
     )
+    (output / "st-audit.json").write_text(
+        json.dumps(
+            st_audit_payload(pages, commit, args.repository),
+            ensure_ascii=False,
+            separators=(",", ":"),
+        )
+        + "\n",
+        encoding="utf-8",
+    )
     for name in (
         "index.html",
         "app.js",
@@ -517,6 +602,9 @@ def main() -> int:
         "tilde-audit.html",
         "tilde-audit.js",
         "tilde-audit.css",
+        "st-audit.html",
+        "st-audit.js",
+        "st-audit.css",
         ".nojekyll",
     ):
         shutil.copy2(root / "site" / name, output / name)

@@ -6,6 +6,8 @@ The public site also provides a dedicated `f44`–`f100` line-end-hyphen audit. 
 
 A second dedicated interface covers unreviewed tilde placement in exactly two adjacent vowels on `f39`–`f100`. Checked candidates move the tilde to the other vowel; unchecked candidates remain unchanged. Arrow keys move between candidates, Space toggles the focused choice, and submissions preserve the token occurrence and source-line version.
 
+A compact `f13`–`f22` trial audits every current `ſt` occurrence at glyph level. Its tiles show only the immediate scan context and pack horizontally. Because short `s` + `t` is the expected form, unchecked candidates are submitted as `ſt` → `st` replacements; the reviewer checks only genuinely long `ſ` + `t`. All four arrow keys move focus and Space toggles the focused tile.
+
 This generated interface supports asynchronous Level 1 production and human checking across the complete acquired Gallica sequence. All 651 leaves (`f1`–`f651`) are navigable from the outset. The 229 existing Level 1 pages show their transcription and review state; the remaining 422 pages show the verified scan with a clear `unprocessed` state.
 
 This is the current prototype. The agreed next iteration adds a thumbnail overview, compact in-page editing, complete-glyph line crops, an in-context two-level transcription reference, clipboard-based GitHub Issue submission, and factual correction-history badges. Its behavior and rationale are specified in [Human Review and Correction Workflow](../../docs/human-review-workflow.md).
