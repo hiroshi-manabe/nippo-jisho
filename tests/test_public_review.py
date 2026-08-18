@@ -1390,10 +1390,10 @@ class PublicReviewRegressionTests(unittest.TestCase):
         )
         page = next(page for page in history["pages"] if page["id"] == "bnf-f0050")
         self.assertEqual(page["issues_applied"], 3)
-        self.assertEqual(page["distinct_lines"], 17)
-        self.assertEqual(page["accepted_edits"], 18)
+        self.assertEqual(page["distinct_lines"], 24)
+        self.assertEqual(page["accepted_edits"], 26)
         self.assertEqual(page["issues"][-1]["number"], 44)
-        self.assertEqual(len(page["issues"][-1]["lines"]), 14)
+        self.assertEqual(len(page["issues"][-1]["lines"]), 22)
 
         record = json.loads(
             (ROOT / "pilot" / "format-v1-trial" / "level1" / "bnf-f0050.json").read_text(
@@ -1420,13 +1420,16 @@ class PublicReviewRegressionTests(unittest.TestCase):
         self.assertIn("Xenqei banqiǒ", lines["c2-l038"])
         self.assertTrue(lines["c2-l042"].endswith("¶ Xẽ"))
 
-        # Proposals with positive contrary evidence remain unchanged for human re-check.
-        self.assertIn("giuo", lines["c1-l018"])
-        self.assertEqual(lines["c1-l023"], "lau ras.")
-        self.assertEqual(lines["c1-l030"], "ficio.")
-        self.assertIn("ſi ſera", lines["c1-l044"])
-        self.assertIn("anoiteſ-", lines["c2-l005"])
-        self.assertIn("Cureno fi", lines["c2-l011"])
+        # Human visual overrides settle the machine-rejected proposals.
+        self.assertIn("guio", lines["c1-l018"])
+        self.assertEqual(lines["c1-l023"], "lauras.")
+        self.assertTrue(lines["c1-l029"].startswith("fiçial"))
+        self.assertEqual(lines["c1-l030"], "fiçio.")
+        self.assertIn("excelẽtes", lines["c1-l033"])
+        self.assertEqual(lines["c1-l034"], "commũmente as vigias.")
+        self.assertIn("aſi ſera", lines["c1-l044"])
+        self.assertIn("anoite-", lines["c2-l005"])
+        self.assertIn("Curenofi", lines["c2-l011"])
 
     def test_f49_issue_43_applies_only_exact_scan_supported_changes(self):
         history = json.loads(

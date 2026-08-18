@@ -31,22 +31,22 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l015` | Banguei. Yorozzuno guei. *Todas as artes* |  |
 | `c1-l016` | &emsp;*liberais de Iapão, que ſão ſeis, & ſe chamão* |  |
 | `c1-l017` | &emsp;Ricuguei, *as quaes ſe reduzem as outras. Vt,* |  |
-| `c1-l018` | &emsp;Rei, gacu, xa, giuo, xo, ſu. *i. Policia,* |  |
+| `c1-l018` | &emsp;Rei, gacu, xa, guio, xo, ſu. *i. Policia,* |  |
 | `c1-l019` | &emsp;*muſica, exercitar o arco. i. milicia, arte de* |  |
 | `c1-l020` | &emsp;*caualgar, arte de eſcreuer cartas, ariſmethi-* |  |
 | `c1-l021` | &emsp;*ca, ou arte de contar.* |  |
 | `c1-l022` | Banguen. Yorozzuno cotoba. *Todas as pa-* |  |
-| `c1-l023` | &emsp;*lau ras.* |  |
+| `c1-l023` | &emsp;*lauras.* |  |
 | `c1-l024` | Banguiocu. Yorozzuno tama. *Todas as* |  |
 | `c1-l025` | &emsp;*pedras precioſas.* |  |
 | `c1-l026` | Bango. Cureno nochi. *Deſpois da noiteçer.* |  |
 | `c1-l027` | Bango. *Os que vigião de baixo de algũ capi-* |  |
 | `c1-l028` | &emsp;*tão. ¶ Item, No* Ximo *diſcipulo de of-* |  |
-| `c1-l029` | &emsp;*ficial mecanico, ou homem que lhe ajuda no of* |  |
-| `c1-l030` | &emsp;*ficio.* |  |
+| `c1-l029` | &emsp;*fiçial mecanico, ou homem que lhe ajuda no of* |  |
+| `c1-l030` | &emsp;*fiçio.* |  |
 | `c1-l031` | Bangumi. *Gente que pertençe a hũa vigia.* |  |
 | `c1-l032` | Banguſocu. *Armas ordinarias que não ſão* |  |
-| `c1-l033` | &emsp;*muito boas nem excellẽtes de que ſe ſeruem* |  |
+| `c1-l033` | &emsp;*muito boas nem excelẽtes de que ſe ſeruem* |  |
 | `c1-l034` | &emsp;*commũmente as vigias.* |  |
 | `c1-l035` | Bangiû. *Grande multidão de couſas muito* |  |
 | `c1-l036` | &emsp;*juntas & acrecentadas huãs ſobre outras. Vt,* |  |
@@ -57,7 +57,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l041` | Banjacu. *Pedra muito grande. ¶ Item, Ro* |  |
 | `c1-l042` | &emsp;*cha, ou penedia.* |  |
 | `c1-l043` | Banichi. Mannin fitotçu. *Poruentura, ou a* |  |
-| `c1-l044` | &emsp;*caſo, ou de mil hum, ſi ſera, ou não ſera.* |  |
+| `c1-l044` | &emsp;*caſo, ou de mil hum, aſi ſera, ou não ſera.* |  |
 | `c1-l045` | Banjei. *Gente de vigia de guerra.* |  |
 | `c1-l046` | Banjei. *Muitos annos. Vt,* Xenxǔ banjei, |  |
 | `c1-l047` | &emsp;l, bannen, mannen, l. *Pera ſempre, ou* |  |
@@ -76,13 +76,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l002` | Ban-i. Yebisu. *Barbaro, ou homem de fora* |  |
 | `c2-l003` | &emsp;*de China.* |  |
 | `c2-l004` | Banji. Yorozzuno coto. *Todas as couſas.* |  |
-| `c2-l005` | Banji, zuru, ita. *Fazerſe tarde, ou anoiteſ-* |  |
+| `c2-l005` | Banji, zuru, ita. *Fazerſe tarde, ou anoite-* |  |
 | `c2-l006` | &emsp;*cer. Vt,* Figa banzuru. *Ir abaixando* |  |
 | `c2-l007` | &emsp;*o ſol, ou declinando o dia.* |  |
 | `c2-l008` | Banjin. *Couſa de muita altura como rocha, mõ-* |  |
 | `c2-l009` | &emsp;*te, parede, &c. ¶ Item, Hum* Cami *q̃* |  |
 | `c2-l010` | &emsp;*guarda ao Rei.* |  |
-| `c2-l011` | Banjit. Cureno fi. *Sol da tarde.* |  |
+| `c2-l011` | Banjit. Curenofi. *Sol da tarde.* |  |
 | `c2-l012` | Banjô. *Dignidade real. Vt,* Banjôno cu- |  |
 | `c2-l013` | &emsp;raiuo fumu. *Subir a dignidade real.* |  |
 | `c2-l014` | Banjǒ. *Carpinteiro.* |  |
