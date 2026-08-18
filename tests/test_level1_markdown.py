@@ -298,7 +298,7 @@ class Level1MarkdownTests(unittest.TestCase):
 
     def test_sequential_30_60_batch_readings_are_retained(self):
         expected = {
-            "bnf-f0023.md": ("dante mão", "Morax , ſu.", "adminiſtrarem"),
+            "bnf-f0023.md": ("dante mão", "Morax , ſu.", "administrarem"),
             "bnf-f0024.md": ("Padraſto,ou", "A. xirouo"),
             "bnf-f0025.md": ("Fucaqu", "Ajuocaqe", "Poëtas", "u, atta"),
             "bnf-f0026.md": ("beiras do teihado", "garamiuo", "Amano fara"),

@@ -19,7 +19,7 @@ The result was unusable: balanced accuracy was 0.500, with confusion matrix
 held-out occurrence short. Those outputs were rejected and do not determine
 any checkbox state.
 
-## Initial checks used in the UI
+## Human result and retired initial checks
 
 The second pass used the same labeled data as visual controls. Enlarged f23–f32
 tiles were compared with the confirmed β-like short sort and the descending
@@ -28,9 +28,11 @@ prechecked; ambiguous forms were deliberately left unchecked. The 28
 version-bound prechecks are recorded in
 [`st-ligature-prechecks-f23-f32.tsv`](st-ligature-prechecks-f23-f32.tsv).
 
-These are predictions, not accepted transcription. The specialist UI loads
-them as editable initial state, and the human reviewer may clear any or all of
-them. If a source line changes, its stale precheck is not applied.
+These were predictions, not accepted transcription. In the completed human
+review, the reviewer cleared all 28 because their classifications were not
+useful. Issue #46 then supplied 97 short-`st` replacements and retained 14
+genuine long-`ſt` forms. The precheck file remains only as experiment
+provenance; it no longer determines any live checkbox state.
 
 ## Learning value
 
@@ -38,10 +40,11 @@ This pilot establishes two useful facts for subsequent batches:
 
 - the 136 labels are not enough for a naive crop-level image classifier that
   generalizes across pages;
-- the labels are already useful as control specimens for a faster comparison
-  pass and as a benchmark against which future classifiers can be measured.
+- the labels remain useful as a benchmark, but the attempted visual-control
+  prechecks did not save human review effort.
 
-After f23–f32 is reviewed, its accepted labels should be appended to the
-training corpus before another automatic experiment. A future model should
-first solve glyph localization explicitly rather than resizing a broad text
-crop and expecting the classifier to discover the target sort unaided.
+The accepted f23–f32 labels are recorded in the transcription and retention
+ledger. The f33–f100 task therefore starts completely unchecked. Any future
+automatic experiment should first solve glyph localization explicitly rather
+than resizing a broad text crop and expecting the classifier to discover the
+target sort unaided.

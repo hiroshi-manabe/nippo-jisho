@@ -19,20 +19,20 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l003` | &emsp;*fallar. ¶ Item, Permet.* Saxidegamaxii |  |
 | `c1-l004` | &emsp;mono. *Homem entremetido, & bacharel.* |  |
 | `c1-l005` | Amaqe. *Deſpoſição do tempo pera chouer. Vt,* |  |
-| `c1-l006` | &emsp;Amaqeni gozaru. *Eſtà o tẽpo pera chouer.* |  |
+| `c1-l006` | &emsp;Amaqeni gozaru. *Està o tẽpo pera chouer.* |  |
 | `c1-l007` | Amaqibi. i. Tǒrǒ. *Bilho de ſaude.* |  |
 | `c1-l008` | Amaracaxi, ſu, aita. *Fazer ſobejar.* |  |
 | `c1-l009` | Amari. *Sobejo. ¶ Item, Adu. Muito ſo-* |  |
 | `c1-l010` | &emsp;*bejamente. Vſaſe no principio da oração,* |  |
 | `c1-l011` | &emsp;*& no fim conforme a diuerſas ſignificaçoẽs.* |  |
 | `c1-l012` | &emsp;*Vt,* Amari ſamuy. *Faz muito frio. ¶* A- |  |
-| `c1-l013` | &emsp;mari ficui. *He muito baixo deſtatura* |  |
+| `c1-l013` | &emsp;mari ficui. *He muito baixo destatura* |  |
 | `c1-l014` | &emsp;*¶ Item, Paſſante,ou mais. Vt,* Sannen a- |  |
 | `c1-l015` | &emsp;mari. *Paſſante de tres annos,ou mais de tres* |  |
 | `c1-l016` | &emsp;*annos. ¶* Yorocobino amarini. *Polla* |  |
 | `c1-l017` | &emsp;*muita alegria, ou contentamento, &c. ¶* Mi- |  |
 | `c1-l018` | &emsp;ni amari catajigenai. *Agradeço muito em* |  |
-| `c1-l019` | &emsp;*eſtremo.* |  |
+| `c1-l019` | &emsp;*estremo.* |  |
 | `c1-l020` | Amari, ru, atta. *Sobejar. ¶* Acuguiacu |  |
 | `c1-l021` | &emsp;mini amaru. *Ter muitos peccados. ¶* Yo- |  |
 | `c1-l022` | &emsp;rocobi mini amaru. *Alegrarſe exceſsiua-* |  |
@@ -105,7 +105,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l025` | &emsp;*acolhemos da chuua.* |  |
 | `c2-l026` | Amaye, uru, eta. *Fazerem caricias, ou afa-* |  |
 | `c2-l027` | &emsp;*gos os mininos aos pays. ¶* Ynuga xujin |  |
-| `c2-l028` | &emsp;ni amayuru. *O cão faz feſta, & caricias ao* |  |
+| `c2-l028` | &emsp;ni amayuru. *O cão faz festa, & caricias ao* |  |
 | `c2-l029` | &emsp;*ſenhor.* |  |
 | `c2-l030` | Amayegoye. *Voz de mininos como choroſa,* |  |
 | `c2-l031` | &emsp;*ou mauioſa pera mouerem a mãy, ou a outros* |  |
@@ -115,15 +115,15 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l035` | &emsp;*com afago, & caricia.* |  |
 | `c2-l036` | Amayo. i. Ameno furuyo. *Noite chuuoſa.* |  |
 | `c2-l037` | Amazacuro. *Romãa doce.* |  |
-| `c2-l038` | Amazaqe. *Moſto, ou vinho doce que ainda* |  |
-| `c2-l039` | &emsp;*ferue, & eſta porſe perfeiçoar.* |  |
+| `c2-l038` | Amazaqe. *Mosto, ou vinho doce que ainda* |  |
+| `c2-l039` | &emsp;*ferue, & esta porſe perfeiçoar.* |  |
 | `c2-l040` | Amazui. *Couſa agra, & doce como vinho* |  |
 | `c2-l041` | &emsp;*Romaã, &c.* |  |
 | `c2-l042` | Amazzura, i, Amacazzura. *Madre ſylua.* |  |
 | `c2-l043` | Amazzura. i. Amanozacono tçura. *Foçi-* |  |
 | `c2-l044` | &emsp;*nho de hum certo animal. ¶* Amazzura- |  |
-| `c2-l045` | &emsp;no quantçuqe. *Hũas carrancas deſte ani-* |  |
-| `c2-l046` | &emsp;*mal que eſtão figuradas em algũas panelas de* |  |
+| `c2-l045` | &emsp;no quantçuqe. *Hũas carrancas deste ani-* |  |
+| `c2-l046` | &emsp;*mal que estão figuradas em algũas panelas de* |  |
 | `c2-l047` | &emsp;*ferro do chanoyu no lugar das azas por onde* |  |
 
 ## Catchword

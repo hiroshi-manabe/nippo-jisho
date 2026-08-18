@@ -42,9 +42,7 @@ function restoreSelection() {
     if (saved?.schema === 2) {
       const selections = saved.selections || {};
       state.selected = new Set(Object.entries(selections).filter(([key, version]) => versions.get(key) === version).map(([key]) => key));
-    } else {
-      state.selected = new Set(state.data.pages.flatMap(page => page.candidates.filter(candidate => candidate.prechecked).map(candidate => candidateKey(page, candidate))));
-    }
+    } else state.selected = new Set();
   } catch (_) {
     state.selected = new Set();
   }
@@ -161,7 +159,6 @@ function render() {
   state.total = state.data.pages.reduce((sum, page) => sum + page.candidates.length, 0);
   $('#audit-scope').textContent = state.data.scope.replace('-', '–');
   $('#candidate-count').textContent = state.total;
-  $('#confirmed-count').textContent = state.data.prechecked_count;
   if (!state.total) {
     $('#audit-list').innerHTML = '<p class="completion"><strong>This audit is complete.</strong> All remaining ſt occurrences in this scope have been confirmed as genuine long-s forms.</p>';
     state.candidates = [];
@@ -231,7 +228,7 @@ $('#clear-checks').addEventListener('click', () => {
   document.querySelectorAll('input[data-key]').forEach(checkbox => { checkbox.checked = false; });
   saveSelection();
   updateCounts();
-  toast('All initial checks cleared.');
+  toast('All checks cleared.');
 });
 
 $('#open-issue').addEventListener('click', () => {

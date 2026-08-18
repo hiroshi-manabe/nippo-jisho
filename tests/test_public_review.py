@@ -103,7 +103,7 @@ class PublicReviewRegressionTests(unittest.TestCase):
         self.assertIn("saved?.schema === 2", script)
         self.assertIn("candidate.occurrence", script)
 
-    def test_st_audit_uses_versioned_prechecks_for_next_scope(self):
+    def test_st_audit_starts_the_full_human_scope_unchecked(self):
         with tempfile.TemporaryDirectory() as directory:
             subprocess.run(
                 [
@@ -120,37 +120,39 @@ class PublicReviewRegressionTests(unittest.TestCase):
             output = Path(directory)
             audit = json.loads((output / "st-audit.json").read_text(encoding="utf-8"))
             self.assertEqual(audit["task"], "st-ligature-audit")
-            self.assertEqual(audit["scope"], "f23-f32")
-            self.assertEqual([page["leaf"] for page in audit["pages"]], list(range(23, 33)))
+            self.assertEqual(audit["scope"], "f33-f100")
+            self.assertEqual([page["leaf"] for page in audit["pages"]], list(range(33, 101)))
             self.assertEqual(audit["confirmed_long_s"], 0)
             self.assertEqual(audit["stale_confirmations"], 0)
-            self.assertEqual(audit["prechecked_count"], 28)
-            self.assertEqual(audit["stale_prechecks"], 0)
+            self.assertNotIn("prechecked_count", audit)
+            self.assertNotIn("precheck_method", audit)
             candidates = [
                 (page["view"], candidate)
                 for page in audit["pages"]
                 for candidate in page["candidates"]
             ]
-            self.assertEqual(len(candidates), 111)
+            self.assertEqual(len(candidates), 785)
             keys = {
                 f"{page}/{candidate['line']}#{candidate['occurrence']}"
                 for page, candidate in candidates
             }
             self.assertEqual(len(keys), len(candidates))
-            self.assertEqual(sum(item["prechecked"] for _, item in candidates), 28)
+            self.assertFalse(any("prechecked" in item for _, item in candidates))
             for asset in ("st-audit.html", "st-audit.js", "st-audit.css"):
                 self.assertTrue((output / asset).is_file())
 
             ledger = (ROOT / "pilot" / "st-ligature-audit.tsv").read_text(
                 encoding="utf-8"
             )
-            self.assertEqual(len(ledger.splitlines()), 29)
+            self.assertEqual(len(ledger.splitlines()), 43)
             self.assertIn(
                 "f18\tc2a-l005\t1\tsha256:67f38efb7a1999bd41fedfab271330000b5ef280906157e51f952dc940e1a97f\tconfirmed_long_s_t\t45\tfull_scan_manual_check",
                 ledger,
             )
-            prechecks = (ROOT / "pilot" / "st-ligature-prechecks-f23-f32.tsv").read_text(encoding="utf-8")
-            self.assertEqual(len(prechecks.splitlines()), 29)
+            self.assertIn(
+                "f31\tc1-l043\t1\tsha256:25d2d1de32ca0a3f629adc8ed1aa3f8bbbaf02b312167f4f1d296e7db4a1e450\tconfirmed_long_s_t\t46\tspecialist_tile_manual_check",
+                ledger,
+            )
 
     def test_st_audit_has_grid_keyboard_controls_and_inverted_default(self):
         script = (ROOT / "site" / "st-audit.js").read_text(encoding="utf-8")
@@ -711,13 +713,15 @@ class PublicReviewRegressionTests(unittest.TestCase):
             )
         )
         page = next(page for page in history["pages"] if page["id"] == "bnf-f0028")
-        self.assertEqual(page["issues_applied"], 1)
-        self.assertEqual(page["distinct_lines"], 27)
-        self.assertEqual(page["accepted_edits"], 27)
+        self.assertEqual(page["issues_applied"], 2)
+        self.assertEqual(page["distinct_lines"], 34)
+        self.assertEqual(page["accepted_edits"], 37)
         self.assertEqual(page["issues"][0]["number"], 16)
         self.assertIn("c1-l009", page["issues"][0]["lines"])
         self.assertIn("c1-l036", page["issues"][0]["lines"])
         self.assertIn("c2-l033", page["issues"][0]["lines"])
+        self.assertEqual(page["issues"][1]["number"], 46)
+        self.assertEqual(len(page["issues"][1]["lines"]), 10)
 
     def test_f37_issue_25_history_and_typeface_corrections(self):
         history = json.loads(
@@ -1045,12 +1049,14 @@ class PublicReviewRegressionTests(unittest.TestCase):
             )
         )
         page = next(page for page in history["pages"] if page["id"] == "bnf-f0029")
-        self.assertEqual(page["issues_applied"], 1)
-        self.assertEqual(page["distinct_lines"], 12)
-        self.assertEqual(page["accepted_edits"], 12)
+        self.assertEqual(page["issues_applied"], 2)
+        self.assertEqual(page["distinct_lines"], 18)
+        self.assertEqual(page["accepted_edits"], 20)
         self.assertEqual(page["issues"][0]["number"], 17)
         self.assertIn("c2-l007", page["issues"][0]["lines"])
         self.assertIn("c2-l026", page["issues"][0]["lines"])
+        self.assertEqual(page["issues"][1]["number"], 46)
+        self.assertEqual(len(page["issues"][1]["lines"]), 8)
 
     def test_f30_issue_18_correction_history_after_overrides(self):
         history = json.loads(
@@ -1059,14 +1065,16 @@ class PublicReviewRegressionTests(unittest.TestCase):
             )
         )
         page = next(page for page in history["pages"] if page["id"] == "bnf-f0030")
-        self.assertEqual(page["issues_applied"], 1)
-        self.assertEqual(page["distinct_lines"], 33)
-        self.assertEqual(page["accepted_edits"], 33)
+        self.assertEqual(page["issues_applied"], 2)
+        self.assertEqual(page["distinct_lines"], 37)
+        self.assertEqual(page["accepted_edits"], 38)
         self.assertEqual(page["issues"][0]["number"], 18)
         self.assertIn("c1-l004", page["issues"][0]["lines"])
         self.assertIn("c1-l034", page["issues"][0]["lines"])
         self.assertIn("c2-l006", page["issues"][0]["lines"])
         self.assertIn("c2-l034", page["issues"][0]["lines"])
+        self.assertEqual(page["issues"][1]["number"], 46)
+        self.assertEqual(len(page["issues"][1]["lines"]), 5)
 
     def test_f19_issue_3_correction_history(self):
         history = json.loads(
@@ -1150,15 +1158,17 @@ class PublicReviewRegressionTests(unittest.TestCase):
             )
         )
         page = next(page for page in history["pages"] if page["id"] == "bnf-f0023")
-        self.assertEqual(page["issues_applied"], 1)
-        self.assertEqual(page["distinct_lines"], 18)
-        self.assertEqual(page["accepted_edits"], 18)
+        self.assertEqual(page["issues_applied"], 2)
+        self.assertEqual(page["distinct_lines"], 25)
+        self.assertEqual(page["accepted_edits"], 30)
         self.assertEqual(page["issues"][0]["number"], 8)
         self.assertIn("c1-l002", page["issues"][0]["lines"])
         self.assertIn("c1-l042", page["issues"][0]["lines"])
         self.assertIn("c2-l017", page["issues"][0]["lines"])
         self.assertIn("c2-l036", page["issues"][0]["lines"])
         self.assertIn("c2-l047", page["issues"][0]["lines"])
+        self.assertEqual(page["issues"][1]["number"], 46)
+        self.assertEqual(len(page["issues"][1]["lines"]), 11)
 
     def test_f24_issue_12_correction_history(self):
         history = json.loads(
@@ -1167,9 +1177,9 @@ class PublicReviewRegressionTests(unittest.TestCase):
             )
         )
         page = next(page for page in history["pages"] if page["id"] == "bnf-f0024")
-        self.assertEqual(page["issues_applied"], 1)
-        self.assertEqual(page["distinct_lines"], 12)
-        self.assertEqual(page["accepted_edits"], 12)
+        self.assertEqual(page["issues_applied"], 2)
+        self.assertEqual(page["distinct_lines"], 21)
+        self.assertEqual(page["accepted_edits"], 26)
         self.assertEqual(page["issues"][0]["number"], 12)
         self.assertEqual(
             page["issues"][0]["lines"],

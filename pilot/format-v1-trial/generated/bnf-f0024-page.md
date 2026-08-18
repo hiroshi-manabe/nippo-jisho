@@ -21,7 +21,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l005` | Aiſoye, uru, eta. *Vide* Soye, uru. |  |
 | `c1-l006` | Aiſumaxi, ſu, aita. *Concluir algũa couſa.* |  |
 | `c1-l007` | &emsp;*¶ Item, Terſe encontrado com algũa peſoa* |  |
-| `c1-l008` | &emsp;*a ſua vontade, & a ſeu goſto.* |  |
+| `c1-l008` | &emsp;*a ſua vontade, & a ſeu gosto.* |  |
 | `c1-l009` | Aiſuſume, ru, eta. *Vide* Suſume, ru. |  |
 | `c1-l010` | Aiſuſumi, u, unda. *Vide* Suſumi, u. |  |
 | `c1-l011` | Aitabacari, ru, atta. *Vide* Tabacari, ru. |  |
@@ -30,11 +30,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l014` | Aitagai, ǒ, ǒta. *Vide* Tagai, ǒ. |  |
 | `c1-l015` | Aitagaini. *Aduer. Entre ſi, l, de hum pe-* |  |
 | `c1-l016` | &emsp;*ra outro.* |  |
-| `c1-l017` | Aitai. Tanabiqi, u. *O eſtenderſe a nuuem,* |  |
+| `c1-l017` | Aitai. Tanabiqi, u. *O estenderſe a nuuem,* |  |
 | `c1-l018` | &emsp;*neuoa, &c. S.* |  |
-| `c1-l019` | Aitaixi, ſuru, ita. Aimucǒ. *Eſtar de fron* |  |
+| `c1-l019` | Aitaixi, ſuru, ita. Aimucǒ. *Estar de fron* |  |
 | `c1-l020` | &emsp;*te hum doutro. ¶* Aitaixite mǒſu. *Fal-* |  |
-| `c1-l021` | &emsp;*lar de roſto aroſto.* |  |
+| `c1-l021` | &emsp;*lar de rosto arosto.* |  |
 | `c1-l022` | Aitanomi, u, ôda. *Vide* Tanomi, u. |  |
 | `c1-l023` | Aitarai, ǒ, ǒta. *Vide* Tarai, o. |  |
 | `c1-l024` | Aitaſuqe, uru, eta. *Vide* Taſuqe, uru. |  |
@@ -45,7 +45,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l029` | &emsp;*Fallando com deſprezo, & abatimento.* |  |
 | `c1-l030` | Aitçugai, ǒ, ǒta. *Vide* Tçugai, ǒ. |  |
 | `c1-l031` | Aitçunori, ru, otta. *Vide* Tçunori, u. |  |
-| `c1-l032` | Aitçuqe, ru, eta. *Atrahir aſi, domeſticar.* |  |
+| `c1-l032` | Aitçuqe, ru, eta. *Atrahir aſi, domesticar.* |  |
 | `c1-l033` | Aituzzuqe, ru, eta. *Vide* Tçuzzuqe, ru. |  |
 | `c1-l034` | Aitçuzzuqi, u, uita. *Vide* Tçuzzuqi, qu. |  |
 | `c1-l035` | Aite. *Competidor, parte, ou companheiro,* |  |
@@ -76,7 +76,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l002` | Aiuo, aixi, nicumi. *Amor, & odio. S.* |  |
 | `c2-l003` | Aiuoi. *Vt,* Aiuoino matçu. *Pinheiros que* |  |
 | `c2-l004` | &emsp;*juntamente forão plantados, & juntamente cre* |  |
-| `c2-l005` | &emsp;*cerão como huns que eſtão na arraya do reino* |  |
+| `c2-l005` | &emsp;*cerão como huns que estão na arraya do reino* |  |
 | `c2-l006` | &emsp;*de Farima, &* Tçunocuni. |  |
 | `c2-l007` | Aiuomoi, ôta. *Vide* Vomoi, ô. |  |
 | `c2-l008` | Aiuon. Aixi megumu. *Fazer bem a al-* |  |
@@ -84,22 +84,22 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l010` | Aiuqegai, ǔ, ǒta. *Vide* Vqegai, ǒ. |  |
 | `c2-l011` | Aiutçuri, ru, utta. *Vide* Vtçuri, u. |  |
 | `c2-l012` | Aiutçuxi, ſu, uita. *Vide* Vtçuxi ſu, |  |
-| `c2-l013` | Aixei. Canaxij coye. *Voz triſte, & mauioſa.* |  |
-| `c2-l014` | Aixei. *Triſteza.* Quanracu qiuamarite |  |
+| `c2-l013` | Aixei. Canaxij coye. *Voz triste, & mauioſa.* |  |
+| `c2-l014` | Aixei. *Tristeza.* Quanracu qiuamarite |  |
 | `c2-l015` | &emsp;aixei vonoxi. *Conſumandoſe as alegrias* |  |
-| `c2-l016` | &emsp;*ſocedem muitas triſtezas.* |  |
+| `c2-l016` | &emsp;*ſocedem muitas tristezas.* |  |
 | `c2-l017` | Aixebame, u, eta. *Vide* Xebame, ru. |  |
 | `c2-l018` | Aixeme, uru, eta. *Vide* Xeme, ru. |  |
 | `c2-l019` | Aixi, aiſuru co, l, Vomoigo. *Filho amado,* |  |
 | `c2-l020` | &emsp;*& mimoſo.* |  |
 | `c2-l021` | Aixi, ſuru, ita. Ytçucuximi, u. *Amimar,* |  |
-| `c2-l022` | &emsp;*& moſtrar ſinaes damor. ¶ Item, Eſtimar,* |  |
-| `c2-l023` | &emsp;*& folgar com algũa couſa que lhe da goſto.* |  |
+| `c2-l022` | &emsp;*& mostrar ſinaes damor. ¶ Item, Estimar,* |  |
+| `c2-l023` | &emsp;*& folgar com algũa couſa que lhe da gosto.* |  |
 | `c2-l024` | &emsp;*¶* Fanauo aiſuru. *Folgar de ver as flo-* |  |
 | `c2-l025` | &emsp;*res, ou fullas.* |  |
 | `c2-l026` | Aixirai. *Agaſalhado, & bom tratamẽto que ſe* |  |
 | `c2-l027` | &emsp;*faz aos hoſpedes. ¶ Item, Otratar cõtento,* |  |
-| `c2-l028` | &emsp;*& brandamente algũa couſa deſtima, ou* |  |
+| `c2-l028` | &emsp;*& brandamente algũa couſa destima, ou* |  |
 | `c2-l029` | &emsp;*perigoſa de quebrar, &c. ¶* Aixiraino |  |
 | `c2-l030` | &emsp;itta vmagia. *He caualo que tem neceſsidade* |  |
 | `c2-l031` | &emsp;*de moderação no freo.* |  |

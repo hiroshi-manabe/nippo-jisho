@@ -39,12 +39,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l023` | Amadori. *Hum paſſaro que não tem pès.* |  |
 | `c1-l024` | Amafada. *Caſca delgada interior da aruore.* |  |
 | `c1-l025` | Amagami. *Papel azeitado pera contra chuua.* |  |
-| `c1-l026` | Amagarami. *Troça q̃ eſtà no maſto. ¶* Ama- |  |
-| `c1-l027` | &emsp;garamiuo ſuru. *Amarrar a troça no maſto.* |  |
+| `c1-l026` | Amagarami. *Troça q̃ eſtà no masto. ¶* Ama- |  |
+| `c1-l027` | &emsp;garamiuo ſuru. *Amarrar a troça no masto.* |  |
 | `c1-l028` | Amagaſa. *Sombreiro grande pera achuua.* |  |
 | `c1-l029` | Amagayeru. *Rãa da chuua.* |  |
 | `c1-l030` | Amaguiru. *Vt,* Amaguiru yuqi. P. |  |
-| `c1-l031` | &emsp;*Neue que caye eſtando oar eſcuro, ou com* |  |
+| `c1-l031` | &emsp;*Neue que caye estando oar eſcuro, ou com* |  |
 | `c1-l032` | &emsp;*çerração.* |  |
 | `c1-l033` | Amadorinoco. *Hũa laya de papel branco, &* |  |
 | `c1-l034` | &emsp;*delgado.* |  |
@@ -73,7 +73,7 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c2-l001` | Amama. i. Ameno farema. *Eſpaço em que* |  |
-| `c2-l002` | &emsp;*a chuua eſtea, ou deixa de chouer.* |  |
+| `c2-l002` | &emsp;*a chuua estea, ou deixa de chouer.* |  |
 | `c2-l003` | Amame. i. Funamuxi. *Hum bicho como* |  |
 | `c2-l004` | &emsp;*barata que ãda nas embarcaçoẽs que tem muitos* |  |
 | `c2-l005` | &emsp;*pès. ¶ Item, Barata das ordinarias.* |  |
@@ -83,10 +83,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l009` | &emsp;*lauras, ou fazer caricias pera ganhar a võtade* |  |
 | `c2-l010` | &emsp;*dalguem. ¶* Cotouo amanai, vomoteuo |  |
 | `c2-l011` | &emsp;fetçurǒ. *Fazer afagos, & caricias, ou li-* |  |
-| `c2-l012` | &emsp;*ſongear. ¶ Item, Ter deſejo, & goſto em* |  |
+| `c2-l012` | &emsp;*ſongear. ¶ Item, Ter deſejo, & gosto em* |  |
 | `c2-l013` | &emsp;*algũa couſa, ou tela por boa, &c. ¶* Figaxo- |  |
 | `c2-l014` | &emsp;cuni vomomuite xiquauo amanǒ. *Obi-* |  |
-| `c2-l015` | &emsp;*cho do eſtio ſaltando na candea tem por bom,* |  |
+| `c2-l015` | &emsp;*cho do estio ſaltando na candea tem por bom,* |  |
 | `c2-l016` | &emsp;*ou apetece ofogo que o mata.* |  |
 | `c2-l017` | Amanequ. Adu. *Geralmente, ẽ toda a parte.* |  |
 | `c2-l018` | Amanei. *Couſa geral, ou vniuerſal.* |  |

@@ -14,7 +14,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | &emsp;fonriǒni ando ſuru. *Ser reſtituido aſua pri-* |  |
+| `c1-l001` | &emsp;fonriǒni ando ſuru. *Ser restituido aſua pri-* |  |
 | `c1-l002` | &emsp;*meira renda. ¶* Andono vomoiuo naſu. |  |
 | `c1-l003` | &emsp;*Aſocegar o coração, & aquietarſe.* |  |
 | `c1-l004` | Andǒ. *Hum homem que nas varellas dos* Ien- |  |
@@ -60,7 +60,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l044` | &emsp;*te que conſidera bem as couſas.* |  |
 | `c1-l045` | Anja. i. Andǒ. *Certa dignidade que ha ẽ-* |  |
 | `c1-l046` | &emsp;*tre os* lenxus, *ou officio de hum homem que os* |  |
-| `c1-l047` | &emsp;*guia nos officios, & cuſtuma tanger os ſinos.* |  |
+| `c1-l047` | &emsp;*guia nos officios, & custuma tanger os ſinos.* |  |
 
 ## Column 2 running header
 
@@ -81,7 +81,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l007` | &emsp;*openſamento.* |  |
 | `c2-l008` | Anji idaxi, ſu, aita. *Conſiderando achar, deſ-* |  |
 | `c2-l009` | &emsp;*cobrir, ou inuentar algũa couſa.* |  |
-| `c2-l010` | Anjin. *O eſſencial em que conſiſte o modo da* |  |
+| `c2-l010` | Anjin. *O eſſencial em que conſiste o modo da* |  |
 | `c2-l011` | &emsp;*ſaluação de cada ſeita, que cada hum em ſi con-* |  |
 | `c2-l012` | &emsp;*cebe, & aprende. ¶* Core vaga xǔno |  |
 | `c2-l013` | &emsp;anjin nari. *i. Eſte he o aluo, ou eſſencial de* |  |
@@ -89,12 +89,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l015` | &emsp;*ſem duuidar.* |  |
 | `c2-l016` | Anjit. Yuori iye. *Choupana, ou choça de* |  |
 | `c2-l017` | &emsp;*peſſoa que deixou o mundo. ¶* Anjituo mu- |  |
-| `c2-l018` | &emsp;ſubu. *Fazer eſta choupana.* |  |
+| `c2-l018` | &emsp;ſubu. *Fazer esta choupana.* |  |
 | `c2-l019` | Anji tçuzzuqe, ru, eta. *Fazer diſcurſo.* |  |
 | `c2-l020` | &emsp;*¶* Mucaxi imano cotouo anji tçuzzuqu- |  |
 | `c2-l021` | &emsp;ru. *Deſcorrer, ou lembrarſe do paſſado, &* |  |
 | `c2-l022` | &emsp;*preſente.* |  |
-| `c2-l023` | Anji vazzurai, ǒ, ǒta. *Eſtar perplexo, ou* |  |
+| `c2-l023` | Anji vazzurai, ǒ, ǒta. *Estar perplexo, ou* |  |
 | `c2-l024` | &emsp;*penſatiuo.* |  |
 | `c2-l025` | Anju, l, anzu. Bǒzu, *ou religioſo que tem* |  |
 | `c2-l026` | &emsp;*ſella por ſi apartada.* |  |

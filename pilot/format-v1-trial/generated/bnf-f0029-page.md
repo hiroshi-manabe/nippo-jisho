@@ -22,7 +22,7 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c1-l001` | AN, iuori. *Choça, ou choupana de homẽs* |  |
 | `c1-l002` | &emsp;*q̃ deixão o mundo, ou de ermitões. ¶* An- |  |
-| `c1-l003` | &emsp;uo muſubu. *Fazer eſtas choupanas.* |  |
+| `c1-l003` | &emsp;uo muſubu. *Fazer estas choupanas.* |  |
 | `c1-l004` | An. *Diſcurſo, ou cuidar, ou ter pera ſi. ¶* An- |  |
 | `c1-l005` | &emsp;no gotocu. *Como eu cuidaua. ¶* Anni |  |
 | `c1-l006` | &emsp;ſoi ſuru. *Soceder ao contrario do que cuida-* |  |
@@ -35,7 +35,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l013` | &emsp;no foca. *Fora do que hum cuidaua.* |  |
 | `c1-l014` | An. i. Ammon. *Minuta, ou borrão da carta* |  |
 | `c1-l015` | &emsp;*que depois ſe treſlada. ¶* Anuo ſuru. *Fa-* |  |
-| `c1-l016` | &emsp;*zer eſta minuta.* |  |
+| `c1-l016` | &emsp;*zer esta minuta.* |  |
 | `c1-l017` | An. *Recheo dos mochis, ou manijus.* |  |
 | `c1-l018` | Ana. *Coua, ou buraco. ¶* Caguino ana |  |
 | `c1-l019` | &emsp;cara tenuo nozoqu. *Prouerb. Querer me-* |  |
@@ -49,7 +49,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l027` | Anacaxico. *Adu. i. Aicamayete. Cauſa-* |  |
 | `c1-l028` | &emsp;*mente, com precação. Vt,* Anacaxico cono |  |
 | `c1-l029` | &emsp;cotouo tagaye tamòna. *Olhai que não fal-* |  |
-| `c1-l030` | &emsp;*teis niſto. ¶ Item, He palaura que ſe poem* |  |
+| `c1-l030` | &emsp;*teis nisto. ¶ Item, He palaura que ſe poem* |  |
 | `c1-l031` | &emsp;*no fim das cartas.* |  |
 | `c1-l032` | Anadori. *Eſcarneo, zombaria.* |  |
 | `c1-l033` | Anadori, ru, otta. *Zombar, ou eſcarnecer.* |  |
@@ -112,14 +112,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l034` | Ancǒ, l, angǒ. *Hum peixe de rio que tẽ pès* |  |
 | `c2-l035` | &emsp;*¶ Item, Hum paſſaro dagoa como garça.* |  |
 | `c2-l036` | &emsp;*¶* Ancǒno tçuni muxeta yǒna fito. |  |
-| `c2-l037` | &emsp;*Prouerb. Homem eſtupido, & paruo que* |  |
-| `c2-l038` | &emsp;*eſtà com aboca aberta às moſcas, como aquelle* |  |
+| `c2-l037` | &emsp;*Prouerb. Homem estupido, & paruo que* |  |
+| `c2-l038` | &emsp;*està com aboca aberta às moſcas, como aquelle* |  |
 | `c2-l039` | &emsp;*peixe no rio. ¶ Item,* Ancǒ, l, ancǒna |  |
 | `c2-l040` | &emsp;mono. *Paruo, ou tollo a maneira daquelle* |  |
-| `c2-l041` | &emsp;*peixe eſtupido.* |  |
+| `c2-l041` | &emsp;*peixe estupido.* |  |
 | `c2-l042` | Ancocu. *Reino quieto, & pacifico.* |  |
-| `c2-l043` | Ancun. *Senhor iniuſto.* |  |
-| `c2-l044` | Adanmuxiro. *Eſteiras de enfardelar fato que* |  |
+| `c2-l043` | Ancun. *Senhor iniusto.* |  |
+| `c2-l044` | Adanmuxiro. *Esteiras de enfardelar fato que* |  |
 | `c2-l045` | &emsp;*vem da China.* |  |
 | `c2-l046` | Ando. *Deſcanſo, que naſce de hum ter alcança-* |  |
 | `c2-l047` | &emsp;*do o que deſejaua. ¶ Item, Tornar à pro-* |  |

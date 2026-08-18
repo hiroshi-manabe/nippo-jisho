@@ -19,7 +19,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l003` | Aixizzumari, u, atta. *Vide* Xizzumari, u. |  |
 | `c1-l004` | Aixizzume, ru, eta. *Vide* Xizzume, ru. |  |
 | `c1-l005` | Aixizzumi, u, unda. *Vide* Xizzumi, u. |  |
-| `c1-l006` | Aixǒ, canaximi, itami. *Triſteza.* |  |
+| `c1-l006` | Aixǒ, canaximi, itami. *Tristeza.* |  |
 | `c1-l007` | Aixǒ. *Condição natural em que alguns concor-* |  |
 | `c1-l008` | &emsp;*dão, ou combinão.* |  |
 | `c1-l009` | Aixocu. *Dous q̃ tem omeſmo officio, ou car-* |  |
@@ -27,7 +27,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l011` | &emsp;*de, &c.* |  |
 | `c1-l012` | Aixu. *Oſer amigo de vinho. ¶ Item, Oque* |  |
 | `c1-l013` | &emsp;*he amigo de vinho.* |  |
-| `c1-l014` | Aixǔ. Canaximi, vreô. *Triſteza.* |  |
+| `c1-l014` | Aixǔ. Canaximi, vreô. *Tristeza.* |  |
 | `c1-l015` | Aixǔ. l. Fucaqu aigiacu ſuru. *Oter affeição* |  |
 | `c1-l016` | &emsp;*intenſa, & deſordenada.* |  |
 | `c1-l017` | Aiyadori, u, otta. *Tomarem dous, ou mais* |  |
@@ -36,10 +36,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l020` | Aiyaburi, u, utta. *Vide* Yaburi, u. |  |
 | `c1-l021` | Aiyami, u, ǒda. *Vide* Yami, u. |  |
 | `c1-l022` | Aiyaqe. *Conſogros, ou conſogras.* |  |
-| `c1-l023` | Aiyen. Canaximu ſaru. *Bugio triſte, & q̃* |  |
-| `c1-l024` | &emsp;*com ſua voz cauſa triſteza. ¶ Vt,* Aiyen |  |
+| `c1-l023` | Aiyen. Canaximu ſaru. *Bugio triste, & q̃* |  |
+| `c1-l024` | &emsp;*com ſua voz cauſa tristeza. ¶ Vt,* Aiyen |  |
 | `c1-l025` | &emsp;cumoni ſaqende farauatauo tatçu. *Obugio* |  |
-| `c1-l026` | &emsp;*triſte viuando em alta voz morreo de triſteza* |  |
+| `c1-l026` | &emsp;*triste viuando em alta voz morreo de triſteza* |  |
 | `c1-l027` | &emsp;*rompendo as tripas, como fabulão os Poëtas.* |  |
 | `c1-l028` | Aiyoqu. *Grande deſejo, ou affeição dalgũa cou* |  |
 | `c1-l029` | &emsp;*ſa.* |  |
@@ -49,7 +49,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l033` | Aizome. *O Tingir dazul, ou com anil. Vt,* |  |
 | `c1-l034` | &emsp;Aizomeni ſuru. *Tingir deſta cor.* |  |
 | `c1-l035` | Aizuri. *Hũa maneira de printuras azues dos* |  |
-| `c1-l036` | &emsp;*veſtidos de Iapão.* |  |
+| `c1-l036` | &emsp;*vestidos de Iapão.* |  |
 | `c1-l037` | Aizzu. *Sinal com que dantemão alguns ſe con-* |  |
 | `c1-l038` | &emsp;*certão pera fazer algũa couſa. ¶* Aizzu |  |
 | `c1-l039` | &emsp;uo ſuru, l, ſadamuru. *Determinar o tal* |  |
@@ -92,23 +92,23 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2a-l018` | &emsp;*que diuide as varzeas.* |  |
 | `c2a-l019` | Aji, ut. Ajiquan. *Meditação ſobre certa* |  |
 | `c2a-l020` | &emsp;*materia dos* Xingoxǔs. |  |
-| `c2a-l021` | Ajica. *Ceſto de canas, ou bambus, ou canaſ-* |  |
+| `c2a-l021` | Ajica. *Cesto de canas, ou bambus, ou canaſ-* |  |
 | `c2a-l022` | &emsp;*trinha.* |  |
-| `c2a-l023` | Ajiro. *Hũa laya de eſteiras groſſas tecidas* |  |
+| `c2a-l023` | Ajiro. *Hũa laya de esteiras groſſas tecidas* |  |
 | `c2a-l024` | &emsp;*de canas, ou bambus que de pendurão das por-* |  |
 | `c2a-l025` | &emsp;*tas, ou janellas. ¶* Ajirocaqe. *O que* |  |
-| `c2a-l026` | &emsp;*faz eſtas eſteiras, ou obra ſemelhante. ¶ Itẽ,* |  |
-| `c2a-l027` | Ajiro. *Hum inſtrumento de canas com que* |  |
+| `c2a-l026` | &emsp;*faz estas esteiras, ou obra ſemelhante. ¶ Itẽ,* |  |
+| `c2a-l027` | Ajiro. *Hum instrumento de canas com que* |  |
 | `c2a-l028` | &emsp;*detem, & tomão o peixe na corrente dalgum* |  |
 | `c2a-l029` | &emsp;*rio como naça, &c. ¶ Item, Paſſo, ou ca-* |  |
 | `c2a-l030` | &emsp;*neiro cercado de bambus em que entra opexe* |  |
 | `c2a-l031` | &emsp;*com a enchente da mare. ¶ Itẽm, Lugar onde* |  |
 | `c2a-l032` | &emsp;*ſe deita, ou puxa a rede, arma naça, &c.* |  |
-| `c2a-l033` | &emsp;*¶ Item, Hũa maneira de cebe, ou eſtacada co-* |  |
+| `c2a-l033` | &emsp;*¶ Item, Hũa maneira de cebe, ou estacada co-* |  |
 | `c2a-l034` | &emsp;*mo marachão com que reprezão a agoa dal* |  |
 | `c2a-l035` | &emsp;*gum rio.* |  |
-| `c2a-l036` | Ajuocaqe. *O que faz eſteiras tecidas de canas* |  |
-| `c2a-l037` | &emsp;*fendidas, ceſtos, &c.* |  |
+| `c2a-l036` | Ajuocaqe. *O que faz esteiras tecidas de canas* |  |
+| `c2a-l037` | &emsp;*fendidas, cestos, &c.* |  |
 
 ## Column 2 internal section heading
 

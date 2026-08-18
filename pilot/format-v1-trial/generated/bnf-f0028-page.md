@@ -20,11 +20,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l004` | &emsp;*com bois.* |  |
 | `c1-l005` | Ambai, l, yembai. i. Reôrino caguen. *Tẽ* |  |
 | `c1-l006` | &emsp;*pera de comer, ou iguaria. ¶* Ambaiuo mi- |  |
-| `c1-l007` | &emsp;ru. *Prouar as iguarias ſe eſtão bẽ temperadas.* |  |
+| `c1-l007` | &emsp;ru. *Prouar as iguarias ſe estão bẽ temperadas.* |  |
 | `c1-l008` | Ame. *Chua. ¶* Amega furu. *Chouer.* |  |
 | `c1-l009` | &emsp;*¶* Ameni nurete tçuyu voſoroxicarazu. |  |
 | `c1-l010` | &emsp;*Prouerb. Quem padece grandes males não te-* |  |
-| `c1-l011` | &emsp;*me os pequenos, como oque eſtà molhado da* |  |
+| `c1-l011` | &emsp;*me os pequenos, como oque està molhado da* |  |
 | `c1-l012` | &emsp;*chuua não teme o orualho.* |  |
 | `c1-l013` | Ame. *Ceo,ou ar. ¶* Ameyama catajiqe- |  |
 | `c1-l014` | &emsp;nai. *Summamente agradecer. ¶* Ame |  |
@@ -56,7 +56,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l040` | &emsp;*rede. ¶* Amiuo voroſu. *Lãçar a rede.* |  |
 | `c1-l041` | &emsp;*¶* Amiuo tatçuru. *Botar a rede pera ter,* |  |
 | `c1-l042` | &emsp;*ou cercar o peixe ſem a puxar. ¶* Tate |  |
-| `c1-l043` | &emsp;ami. *Rede q̃ſe bota deſta maneira. ¶* A- |  |
+| `c1-l043` | &emsp;ami. *Rede q̃ſe bota desta maneira. ¶* A- |  |
 | `c1-l044` | &emsp;mini cacaru. *Cair na rede, ou ficar em re-* |  |
 | `c1-l045` | &emsp;*dado. ¶* Amiuo ſuqu. *Fazer rede.* |  |
 | `c1-l046` | &emsp;*¶* Vchiami, l, nagueniuo ſuru, l, ami- |  |
@@ -88,25 +88,25 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l008` | &emsp;*com que cobrem, ou dão ſobre alguns paſſaros.* |  |
 | `c2-l009` | Ami. *Certo pexeſinho miudo como camaroẽs.* |  |
 | `c2-l010` | &emsp;*¶* Amino xiuocara. *Conſerua, ou ſal-* |  |
-| `c2-l011` | &emsp;*moura deſtes pexinhos, ou camaroẽs.* |  |
+| `c2-l011` | &emsp;*moura destes pexinhos, ou camaroẽs.* |  |
 | `c2-l012` | Amiba. *Lugar como ceuadouro onde ſe arma,* |  |
 | `c2-l013` | &emsp;*ou lança rede pera tomar peixes, ou paſſaros.* |  |
 | `c2-l014` | &emsp;*¶ Item, Lugar onde puxão, & tirão a rede* |  |
 | `c2-l015` | &emsp;*com peixe.* |  |
-| `c2-l016` | Amidare. *Eſteiras ralas que ſe poem diante das* |  |
+| `c2-l016` | Amidare. *Esteiras ralas que ſe poem diante das* |  |
 | `c2-l017` | &emsp;*portas, & janelas.* |  |
 | `c2-l018` | Amido. *Cançellas feitas de canas, ou de ramos* |  |
 | `c2-l019` | &emsp;*daruore, &c.* |  |
 | `c2-l020` | Amigaſa. *Chapeo tecido de junco, ou palha.* |  |
 | `c2-l021` | Amino fucuro. *Bolſo da rede onde ſe ajunta* |  |
 | `c2-l022` | &emsp;*o peixe.* |  |
-| `c2-l023` | Ami, u, onda. *Teçer eſteiras de palha, ou* |  |
+| `c2-l023` | Ami, u, onda. *Teçer esteiras de palha, ou* |  |
 | `c2-l024` | &emsp;*canas, de maneira que fiquẽ iguaes. ¶* Su- |  |
-| `c2-l025` | &emsp;dareuo amu. *Fazer eſteiras de canas, ou* |  |
+| `c2-l025` | &emsp;dareuo amu. *Fazer esteiras de canas, ou* |  |
 | `c2-l026` | &emsp;*outra couſa que de pendurão das janellas, ou* |  |
 | `c2-l027` | &emsp;*portas. ¶* Qiǒuo amu, l, ami tatçuru. |  |
 | `c2-l028` | &emsp;*Compor liuros.* |  |
-| `c2-l029` | Amime. *Teçedura como de eſteira, chapeo de* |  |
+| `c2-l029` | Amime. *Teçedura como de esteira, chapeo de* |  |
 | `c2-l030` | &emsp;*Iapão, &c. ¶ Item, Debrum, ou remate* |  |
 | `c2-l031` | &emsp;*de couſa ſemelhente.* |  |
 | `c2-l032` | Amitçuqe, quru, qeta. *Liar, & tecer* |  |
@@ -114,9 +114,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l034` | &emsp;*cilmente.* |  |
 | `c2-l035` | Amiſoye, uru, eta. *Acreſcẽtar tecẽdo. ¶ Itẽ,* |  |
 | `c2-l036` | &emsp;*Acreſcentar compondo algũ liuro.* |  |
-| `c2-l037` | Amiſucaxi, ſu, aita. *Tecer eſteiras ralas.* |  |
+| `c2-l037` | Amiſucaxi, ſu, aita. *Tecer esteiras ralas.* |  |
 | `c2-l038` | Amitare, ruru. *Irem caindo em baxo a quel-* |  |
-| `c2-l039` | &emsp;*las eſteiras quando ſe tecem.* |  |
+| `c2-l039` | &emsp;*las esteiras quando ſe tecem.* |  |
 | `c2-l040` | Amiûdo. *Peſcador.* |  |
 | `c2-l041` | Amo. Mochi. *Palaura de molheres, & mininos.* |  |
 | `c2-l042` | Amoto. *Lugar donde hum he natural, ou caſa* |  |
