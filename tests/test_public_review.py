@@ -73,7 +73,7 @@ class PublicReviewRegressionTests(unittest.TestCase):
                 for page in audit["pages"]
                 for candidate in page["candidates"]
             ]
-            self.assertEqual(len(candidates), 1017)
+            self.assertEqual(len(candidates), 1016)
             keys = {
                 f"{page}/{candidate['line']}#{candidate['occurrence']}"
                 for page, candidate in candidates
@@ -1104,6 +1104,45 @@ class PublicReviewRegressionTests(unittest.TestCase):
                 "c2-l028",
                 "c2-l034",
             ],
+        )
+
+    def test_f45_issue_39_verified_corrections(self):
+        history = json.loads(
+            (ROOT / "pilot" / "human-review" / "correction-history.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        page = next(page for page in history["pages"] if page["id"] == "bnf-f0045")
+        self.assertEqual(page["issues_applied"], 2)
+        self.assertEqual(page["distinct_lines"], 17)
+        self.assertEqual(page["accepted_edits"], 17)
+        self.assertEqual(page["issues"][-1]["number"], 39)
+        self.assertEqual(len(page["issues"][-1]["lines"]), 16)
+
+        record = json.loads(
+            (ROOT / "pilot" / "format-v1-trial" / "level1" / "bnf-f0045.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        lines = {
+            line["id"]: line["runs"]
+            for zone in record["zones"]
+            for line in zone.get("lines", [])
+        }
+        plain = {
+            line_id: "".join(run["text"] for run in runs)
+            for line_id, runs in lines.items()
+        }
+        self.assertEqual(plain["c1a-l010"], "Axitazzu. i. tçuru. Grou.")
+        self.assertIn("õdinhas creſpas como adamaſcadas", plain["c1b-l005"])
+        self.assertEqual(plain["c2-l003"], "Bunxǒno ayadoru. Idem.")
+        self.assertIn("dalgũa couſa", plain["c2-l020"])
+        self.assertEqual(plain["c1a-l014"], "o montante. ¶ Item, Peòzes de a çor, ou")
+        self.assertTrue(
+            any(run["typeface"] == "roman" and run["text"].endswith("B") for run in lines["c2-l018"])
+        )
+        self.assertTrue(
+            any(run["typeface"] == "italic" and run["text"].startswith("em, ou") for run in lines["c2-l018"])
         )
 
 
