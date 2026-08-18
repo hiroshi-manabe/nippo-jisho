@@ -1145,6 +1145,55 @@ class PublicReviewRegressionTests(unittest.TestCase):
             any(run["typeface"] == "italic" and run["text"].startswith("em, ou") for run in lines["c2-l018"])
         )
 
+    def test_f46_issue_40_verified_corrections(self):
+        history = json.loads(
+            (ROOT / "pilot" / "human-review" / "correction-history.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        page = next(page for page in history["pages"] if page["id"] == "bnf-f0046")
+        self.assertEqual(page["issues_applied"], 3)
+        self.assertEqual(page["distinct_lines"], 23)
+        self.assertEqual(page["accepted_edits"], 25)
+        self.assertEqual(page["issues"][-1]["number"], 40)
+        self.assertEqual(len(page["issues"][-1]["lines"]), 14)
+
+        record = json.loads(
+            (ROOT / "pilot" / "format-v1-trial" / "level1" / "bnf-f0046.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        lines = {
+            line["id"]: line["runs"]
+            for zone in record["zones"]
+            for line in zone.get("lines", [])
+        }
+        plain = {
+            line_id: "".join(run["text"] for run in runs)
+            for line_id, runs in lines.items()
+        }
+        self.assertEqual(plain["c1a-l002"], "Ayaxiſa.")
+        self.assertIn("diſtĩ tamẽ-", plain["c2-l002"])
+        self.assertIn("azaazato", plain["c2-l003"])
+        self.assertTrue(plain["c2-l004"].endswith("diſtincta"))
+        self.assertEqual(plain["c2-l005"], "mente.")
+        self.assertIn("chǒriǒuomo", plain["c2-l014"])
+        self.assertIn("aq̃l-", plain["c2-l030"])
+        self.assertIn("uerſo quelhe", plain["c2-l034"])
+        self.assertIn("yxǒ", plain["c2-l041"])
+        self.assertTrue(
+            any(run["typeface"] == "italic" and run["text"].strip() == "e" for run in lines["c1a-l015"])
+        )
+        self.assertTrue(
+            any(run["typeface"] == "roman" and run["text"].endswith("H") for run in lines["c2-l008"])
+        )
+        self.assertTrue(
+            any(run["typeface"] == "italic" and run["text"].strip() == "S. Paulo" for run in lines["c2-l022"])
+        )
+        self.assertTrue(
+            any(run["typeface"] == "italic" and run["text"].strip() == "Saulo" for run in lines["c2-l022"])
+        )
+
 
 if __name__ == "__main__":
     unittest.main()
