@@ -22,7 +22,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l006` | Biccurito. *Adu. Modo de estremecer, como* |  |
 | `c1-l007` | &emsp;*quando derrepente ouuimos deſparar artelharia,* |  |
 | `c1-l008` | &emsp;*&c.* |  |
-| `c1-l009` | Bichimeqi, u, eita. *Bulir o peixe com as bar* |  |
+| `c1-l009` | Bichimeqi, u, eita. *Bulir o peixe com as bar-* |  |
 | `c1-l010` | &emsp;*batanas, ou borboleta que cae na agoa eſtar ba-* |  |
 | `c1-l011` | &emsp;*tendo com as azas, &c. ¶* Bichitagi, |  |
 | `c1-l012` | &emsp;qu. *Idem. B.* |  |
@@ -52,9 +52,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l036` | &emsp;*gantes, & polidas.* |  |
 | `c1-l037` | Biguiocu. Vtçucuxij tama. *Fermoſa pedra* |  |
 | `c1-l038` | &emsp;*precioſa.* |  |
-| `c1-l039` | Bigio. Vtçucuxij vonna. *Molher fermoſa.* |  |
+| `c1-l039` | Bigio. Vtçucuxij vonna. *Molher fermoſa,* |  |
 | `c1-l040` | &emsp;*¶* Bigioua acugieno catagi. *Prouerb.* |  |
-| `c1-l041` | &emsp;*Molher fermoſa he inimiga de fea. Dizſe de* |  |
+| `c1-l041` | &emsp;*Molher fermoſa he inimiga de fea. Diz ſe de* |  |
 | `c1-l042` | &emsp;*dous de condição contraria, ou dos que tem en-* |  |
 | `c1-l043` | &emsp;*ueja hum de outro de differente eſtado.* |  |
 | `c1-l044` | Bijacu. Sucoxi youaxi. *Fraqueza, ou pou-* |  |
@@ -75,12 +75,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l001` | &emsp;*ou fermoſa.* |  |
 | `c2-l002` | Bimei. Imada aqezu. *Ante manhaã.* |  |
 | `c2-l003` | Bimi. Vmai agiuai. *Suaue gosto.* |  |
-| `c2-l004` | Bimô. i. Mayuno qe, l, mique. *Sobrã-* |  |
+| `c2-l004` | Bimô. i. Mayuno qe, l, migue. *Sobrã-* |  |
 | `c2-l005` | &emsp;*çelhas.* |  |
 | `c2-l006` | Bimocu. Vtçucuxij me. *Olhos fermoſos.* |  |
 | `c2-l007` | Bin. *Cabellos das fontes da cabeça.* |  |
-| `c2-l008` | &emsp;*¶* Binuo caqu, l, tçucuru. *Concertarem os* |  |
-| `c2-l009` | &emsp;*homẽs os cabellos das fontes, penteãdoos ao modo* |  |
+| `c2-l008` | &emsp;*¶* Binuo caçu, l, tçucuru. *Concertarem os* |  |
+| `c2-l009` | &emsp;*homẽs os cabellos das fõtes, penteãdoos ao modo* |  |
 | `c2-l010` | &emsp;*de Iapão. ¶* Binuo canaguru. *Arran-* |  |
 | `c2-l011` | &emsp;*car os cabellos das fontes.* |  |
 | `c2-l012` | Bin. Tayori. *Ocasião, opportunidade. ¶* |  |
@@ -93,7 +93,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l019` | &emsp;*¶* Binanuo ſuru. *Enfeitarſe, ou ataviar* |  |
 | `c2-l020` | &emsp;*ſe aſſi homẽs, como molheres.* |  |
 | `c2-l021` | Binanbôxi. *Hũas toucas com que os homẽs,* |  |
-| `c2-l022` | &emsp;*ou molheres amarão a cabeça deixando hũas põ-* |  |
+| `c2-l022` | &emsp;*ou molheres amarrão a cabeça deixando hũas põ-* |  |
 | `c2-l023` | &emsp;*tas compridas como fazem os q̃ danção, &c.* |  |
 | `c2-l024` | Binbô. Tonoxũ madexi. *Pobreza.* |  |
 | `c2-l025` | &emsp;*¶* Binbôni naru. *Empobrecer.* |  |
@@ -109,16 +109,16 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l035` | Bindarai. *Vazilha em que molhão o pentem* |  |
 | `c2-l036` | &emsp;*pera concertar os cabellos dos homẽs.* |  |
 | `c2-l037` | Bingue. *Idem. Alicubi.* |  |
-| `c2-l038` | Bingǔ. Mazzuxij quamanu. *Pobreza extre-* |  |
+| `c2-l038` | Bingǔ. Mazzuxij qiuamau. *Pobreza extre-* |  |
 | `c2-l039` | &emsp;*ma. ¶* Bingǔ guexen. *Pobreza & vileza.* |  |
 | `c2-l040` | Bingui. i. Tayori. *Bom portador, opportu-* |  |
 | `c2-l041` | &emsp;*nidade, & ocasião. ¶* Binguini maca- |  |
-| `c2-l042` | &emsp;xete tçumiuo caqu. *Eſcreuer carta offere-* |  |
+| `c2-l042` | &emsp;xete fumiuo caqu. *Eſcreuer carta offere-* |  |
 | `c2-l043` | &emsp;*cendoſe bom portador, ou boa ocasião.* |  |
-| `c2-l044` | Binguxi. *Pentem de dentes muito miudos cõ* |  |
+| `c2-l044` | Binguixi. *Pentem de dentes muito miudos cõ* |  |
 | `c2-l045` | &emsp;*que os homẽs concertão o cabello da cabeça.* |  |
 | `c2-l046` | Binjǒ. *Carta que ſe enuia per algũa ocasião,* |  |
-| `c2-l047` | &emsp;*ou opportunidade que ſe offereçe.* |  |
+| `c2-l047` | &emsp;*ou oportunidade que ſe offereçe.* |  |
 
 ## Catchword
 

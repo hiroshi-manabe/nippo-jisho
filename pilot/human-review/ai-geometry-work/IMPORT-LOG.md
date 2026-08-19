@@ -28,6 +28,12 @@ Fresh geometry-and-text returns were imported on 2026-08-19 after the original f
 
 Thirty-eight physical lines contained scan-supported corrections: 1 on f51, 8 on f52, none on f53, 9 on f54, and 20 on f55. Clear additions, historical spellings, diacritics, Japanese romanization, punctuation, and missed letters were applied. Uncertain line-end hyphens, modernized spellings, and readings that merely reversed Issue #47's explicitly provisional `st` classification were not applied. The returned files remain the evidence for both accepted and rejected proposals; canonical amendments remain independently attributable through this import record and Git.
 
+### f56–f60 line-by-line rereviews
+
+Fresh geometry-and-text returns were imported on 2026-08-20. All 470 body-line rectangles passed exact line-ID, bounds, and source-image validation and are recorded as `ai_line_by_line_checked`. The returns were prepared from canonical page JSON that had since been regenerated, so geometry was imported with explicit transcription-drift acknowledgement after the advisory text was separately adjudicated against the native scans. The rereview corrected f57's systematic vertical misregistration and retained conservative rule-to-rule horizontal coverage throughout the batch.
+
+Seventy-two physical lines contained independently scan-supported textual corrections: 11 on f56, 13 on f57, 19 on f58, 19 on f59, and 10 on f60. Accepted changes include line-end division marks, omitted letters and words, historical spacing and punctuation, Japanese romanization, diacritics, and Portuguese long-s forms outside the unresolved `ſt` classification. Proposed `ſt`/`st` reversals were deliberately not imported because those shapes remain governed by the separate human specialist audit; uncertain or linguistically impossible readings were likewise rejected. In several places the scan supported a third reading rather than either the old text or the returned observation, such as f56 `qiuamau` rather than returned `quiamau`.
+
 ### f44–f46 geometry rereviews
 
 The stricter geometry-only rereviews were imported on 2026-08-16 after the first returns proved insufficiently centered. All 278 body-line rectangles use the revised vertical positions while retaining previously audited conservative horizontal coverage. Human adjudication established that lower-right `poſito` on f46 is a separate physical line continuing `depoſito` from `c2-l046`, not furniture or a catchword; it is therefore `c2-l047`. No independent text readings were supplied or applied.

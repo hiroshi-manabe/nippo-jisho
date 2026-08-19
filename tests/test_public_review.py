@@ -1572,6 +1572,80 @@ class PublicReviewRegressionTests(unittest.TestCase):
         self.assertIn("&c tranſ-", lines["c2-l037"])
         self.assertIn("faz uirtuoſo", lines["c2-l040"])
 
+    def test_f56_f60_line_by_line_rereviews_and_text_adjudication(self):
+        geometry = json.loads(
+            (ROOT / "pilot" / "human-review" / "line-geometry.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        reviewed_pages = {
+            page["id"]: page
+            for page in geometry["pages"]
+            if page["id"] in {f"bnf-f{leaf:04d}" for leaf in range(56, 61)}
+        }
+        self.assertEqual(
+            sum(
+                len(column["lines"])
+                for page in reviewed_pages.values()
+                for column in page["columns"].values()
+            ),
+            470,
+        )
+        for page in reviewed_pages.values():
+            for column in page["columns"].values():
+                self.assertEqual(column["visual_review"], "ai_line_by_line_checked")
+                self.assertEqual(column["reviewed_at"], "2026-08-20")
+                self.assertRegex(
+                    column["review_source"],
+                    r"bnf-f00(?:56|57|58|59|60)-reviewed\.json$",
+                )
+
+        expected = {
+            56: {
+                "c2-l038": "Bingǔ. Mazzuxij qiuamau. Pobreza extre-",
+                "c2-l042": "xete fumiuo caqu. Eſcreuer carta offere-",
+                "c2-l044": "Binguixi. Pentem de dentes muito miudos cõ",
+            },
+            57: {
+                "c1-l010": "Binroga tayuru. Atalharſe, ou impedir",
+                "c1-l044": "ſas que estão prainas. ¶ Item, Permet. E-",
+                "c2-l036": "Biqen. Vtçucuxŭ cauo yoxi. Rosto fer-",
+            },
+            58: {
+                "c1-l017": "Biriocu. Chicara ſucunaxi. Poucas, ou",
+                "c1-l027": "Biremeqi, qu, eita. Bulirẽ couſas ſemelhantes.",
+                "c2b-l010": "Bôcho. Pudenda mulieris. Palauras que as mo-",
+            },
+            59: {
+                "c1-l012": "de zumbirem as orelhas.",
+                "c2-l007": "Bocudô. Vxicai Varaua. Moço que guar-",
+                "c2-l047": "fruita de que ſe fazem contas de rezar dos",
+            },
+            60: {
+                "c1-l043": "Bǒji. Homem de ſeruiço que a carreta fa-",
+                "c1-l044": "to, &c.",
+                "c2-l023": "Bondeniqua. Nome de hũa flor de aruores",
+                "c2-l043": "deſleixado, ou deſmayado com algũa afflição co-",
+            },
+        }
+        for leaf, expected_lines in expected.items():
+            record = json.loads(
+                (
+                    ROOT
+                    / "pilot"
+                    / "format-v1-trial"
+                    / "level1"
+                    / f"bnf-f{leaf:04d}.json"
+                ).read_text(encoding="utf-8")
+            )
+            lines = {
+                line["id"]: "".join(run["text"] for run in line["runs"])
+                for zone in record["zones"]
+                for line in zone.get("lines", [])
+            }
+            for line_id, text in expected_lines.items():
+                self.assertEqual(lines[line_id], text)
+
     def test_f50_issue_44_applies_only_scan_supported_changes(self):
         history = json.loads(
             (ROOT / "pilot" / "human-review" / "correction-history.json").read_text(

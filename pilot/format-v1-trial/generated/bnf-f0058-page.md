@@ -14,38 +14,38 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | &emsp;*ou de ſe menear, & mouer muito como peſſoa* |  |
+| `c1-l001` | &emsp;*ou deſe menear, & mouer muito como peſſoa* |  |
 | `c1-l002` | &emsp;*que quer moſtrar os veſtidos, &c.* |  |
 | `c1-l003` | Biratçugi, qu. *O mouerſe desta maneira, ou* |  |
 | `c1-l004` | &emsp;*virarſe pera varias partes como molher que ſe* |  |
 | `c1-l005` | &emsp;*quer moſtrar, &c.* |  |
 | `c1-l006` | Birei. Vtçucuxũ vruuaxij. *Fermoſura,* |  |
-| `c1-l007` | &emsp;*& lindeza.* |  |
+| `c1-l007` | &emsp;*& lindeza. ¶* |  |
 | `c1-l008` | Bireina. *Couſa fermoſa, & de bom parecer,* |  |
 | `c1-l009` | &emsp;*ou limpa, & luſtroſa, como veſtido, &c.* |  |
-| `c1-l010` | &emsp;Bireni. |  |
-| `c1-l011` | &emsp;Bireſa. |  |
+| `c1-l010` | &emsp;*¶* Bireini. |  |
+| `c1-l011` | &emsp;Bireſa. *¶* |  |
 | `c1-l012` | Bireǒ. *Algũa parte rota do vestido. Vt,* |  |
-| `c1-l013` | &emsp;Bireǒga ſigatta. *Andar algũa parte do* |  |
+| `c1-l013` | &emsp;Bireǒga ſagatta. *Andar algũa parte do* |  |
 | `c1-l014` | &emsp;*veſtido rota, & depenurada.* |  |
 | `c1-l015` | Bireǒ. Sucoxi ſuzuxi. *Freſco do estio que* |  |
-| `c1-l016` | &emsp;*ſerue pera paſſar a calma.* |  |
-| `c1-l017` | Biribocu. Chicara ſucunaxi. *Poucas, ou* |  |
+| `c1-l016` | &emsp;*ſerue pera paſſar a calma.* S. |  |
+| `c1-l017` | Biriocu. Chicara ſucunaxi. *Poucas, ou* |  |
 | `c1-l018` | &emsp;*fracas forças.* |  |
 | `c1-l019` | Birô. *Deſcortezia, mao enſino.* |  |
-| `c1-l020` | Birebiro. *Adu. Modo de bulir a lingua, ou* |  |
+| `c1-l020` | Birebiro. *Adu. Modo de lamir a lingua, ou* |  |
 | `c1-l021` | &emsp;*outra couſa ſemelhante.* |  |
-| `c1-l022` | Biroqu. Mexica, voxica. *Cerua, & vea-* |  |
+| `c1-l022` | Biroqu. Mejica, vejica. *Cerua, & vea-* |  |
 | `c1-l023` | &emsp;*do macho.* |  |
 | `c1-l024` | Biromecaxi, ſu, aita. *Fazer bulir, ou menear* |  |
-| `c1-l025` | &emsp;*como lingua, rabo, &c. ¶* Xitauo kireme |  |
-| `c1-l026` | &emsp;caqu. *Mouer a lingua.* |  |
-| `c1-l027` | Birumegi, qu, eta. *Bulirẽ couſas ſemelhantes.* |  |
+| `c1-l025` | &emsp;*como lingua, rabo, &c. ¶* Xitauo bireme |  |
+| `c1-l026` | &emsp;caſu. *Mouer a lingua.* |  |
+| `c1-l027` | Biremeqi, qu, eita. *Bulirẽ couſas ſemelhantes.* |  |
 | `c1-l028` | Birôna. *Couſa de deſcortezia, ou mao enſino.* |  |
 | `c1-l029` | &emsp;*¶ Item, Deſcortez.* |  |
 | `c1-l030` | &emsp;Birôni. |  |
 | `c1-l031` | &emsp;Birôſa. |  |
-| `c1-l032` | Biruchôjô. *Couſa ſuprema que não tem igual.* |  |
+| `c1-l032` | Biruchǒjǒ. *Couſa ſuprema que não tem igual.* |  |
 | `c1-l033` | Biruxara. *Nome de hum* Fotoqe. |  |
 | `c1-l034` | Biſai, l, biſaina. *Peſſoa meuda, ou que* |  |
 | `c1-l035` | &emsp;*entende em couſas muito meudas, &c.* |  |
@@ -57,7 +57,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l041` | &emsp;*Fazer ſoar os veſtidos molhados, ou batendo* |  |
 | `c1-l042` | &emsp;*com a mão fazer ſoar agoa, &c.* |  |
 | `c1-l043` | Bitameqi, u, eita. *Soarem, ou bulirem os* |  |
-| `c1-l044` | &emsp;*vestidos molhados, caindo no corpo, ou per-* |  |
+| `c1-l044` | &emsp;*vestidos molhados, batendo no corpo, ou per-* |  |
 | `c1-l045` | &emsp;*nas, ou bulir o peixe na agoa, &c.* |  |
 | `c1-l046` | Bitan. Fanano ſaxi. i. Fanano ſaqi. *Põ-* |  |
 | `c1-l047` | &emsp;*ta do nariz.* |  |
@@ -75,7 +75,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2a-l001` | Bitô. *Ponta do nariz.* |  |
 | `c2a-l002` | Bitô. Vo, caxira. *Rabo, & cabeça.* |  |
 | `c2a-l003` | Biua. *Viola. ¶* Biuauo tanzuru, l, fiqu. |  |
-| `c2a-l004` | &emsp;*Tanger a viola. ¶* Biuauo xiraburu. *Es* |  |
+| `c2a-l004` | &emsp;*Tanger a viola. ¶* Biuauo xiraburu. *Tem-* |  |
 | `c2a-l005` | &emsp;*perar a viola.* |  |
 | `c2a-l006` | Biua. *Hũa aruore aſſi chamada. ¶ Item,* |  |
 | `c2a-l007` | &emsp;*A fruita deſta aruore.* |  |
@@ -95,16 +95,16 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2a-l021` | Bixi. Sucoxino cocorozaxi. *Hũa pequena* |  |
 | `c2a-l022` | &emsp;*mostra de amor. ¶ Vt,* Bixiuo araua |  |
 | `c2a-l023` | &emsp;ſu. *Mostrar algum pequeno amor, ou boa* |  |
-| `c2a-l024` | &emsp;*vontade.* |  |
+| `c2a-l024` | &emsp;*vontade.* S. |  |
 | `c2a-l025` | Bixô. Sucoxi, jǒ. *Couſa pouca, ou pouquidade.* |  |
 | `c2a-l026` | Bixôna. *Couſa pouca.* |  |
 | `c2a-l027` | Bixôni. *Adu.* |  |
-| `c2a-l028` | Bixocui. Vmai ccu. *Iguarias, ou comer ſa* |  |
+| `c2a-l028` | Bixocui. Vmai ccu. *Iguarias, ou comer ſa-* |  |
 | `c2a-l029` | &emsp;*boroſo, & excellente.* |  |
 | `c2a-l030` | Bixu. i. Yoi ſaqe. *Exelente vinho. ¶ Vt,* |  |
 | `c2a-l031` | &emsp;Bixu chinicô. *Excellente vinho, & comer* |  |
 | `c2a-l032` | &emsp;*de carne, & peixe.* |  |
-| `c2a-l033` | Bixe. Itçucuxij tama. *Fermoſa pedra pre* |  |
+| `c2a-l033` | Bixe. Itçucuxij tama. *Fermoſa pedra pre-* |  |
 | `c2a-l034` | &emsp;*cioſa.* |  |
 | `c2a-l035` | Biyofôxei. *Boa fama, & nome celebre.* |  |
 
@@ -127,7 +127,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2b-l007` | Bǒ. Tçauo. *Moço pequeno recado que ſerue.* |  |
 | `c2b-l008` | Bôacu. Arai acu. i. Vôgina toga. *Gẽo* |  |
 | `c2b-l009` | &emsp;*de peccado, ou enorme maldade.* |  |
-| `c2b-l010` | Bôcho. *Indecèta mulieris. Toldeiras que as mo* |  |
+| `c2b-l010` | Bôcho. *Pudenda mulieris. Palauras que as mo-* |  |
 
 ## Catchword
 

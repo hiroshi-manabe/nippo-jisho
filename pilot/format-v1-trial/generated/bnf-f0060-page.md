@@ -22,7 +22,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l006` | &emsp;*ra ſe ſaluar, ou fazerſe deuoto, & pio.* |  |
 | `c1-l007` | Bodaixo. *Ermida onde ſe fazem as exequias* |  |
 | `c1-l008` | &emsp;*de algum defunto, ou lugar que hum faz* |  |
-| `c1-l009` | &emsp;*pera deſpois de morto alli lhe rogarem polla alma.* |  |
+| `c1-l009` | &emsp;*pera deſpois de morto alli lhe rogare polla alma.* |  |
 | `c1-l010` | Bôfan. *Sinal falſo, ou falſificado.* |  |
 | `c1-l011` | Bǒfu. *Nome de hũa erua medicinal, que ſe* |  |
 | `c1-l012` | &emsp;*come, & nace na praya.* |  |
@@ -30,7 +30,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l014` | Bofû. Arai caje. *Vento rijo.* |  |
 | `c1-l015` | Bofù. Cureno caje. *Vento da tarde.* |  |
 | `c1-l016` | Bofucu. i. Fauano fara. *Ventre da mãy.* |  |
-| `c1-l017` | Boguet. Cureno tçugi. *Lũa de ſobre a tarde.* |  |
+| `c1-l017` | Boguet. Cureno tçugi. *Lũa de ſobre atarde.* |  |
 | `c1-l018` | Bogui. i. Faua. *Mãy.* |  |
 | `c1-l019` | Boguiǔ. i. Cotoino vxi. *Touro, ou boy.* |  |
 | `c1-l020` | Bǒgǒ. Bôno na. *Certa ermida, ou caſa de* |  |
@@ -47,7 +47,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l031` | &emsp;*do que lhe não dà de ninguem.* |  |
 | `c1-l032` | Bǒjen. *Estar arrebatado, ou paſmado fora de* |  |
 | `c1-l033` | &emsp;*ſi. ¶* Bǒjento aqire fatete iru. *Idẽ.* |  |
-| `c1-l034` | Bǒji, zuru, ita. *Estar alienado, & como fo* |  |
+| `c1-l034` | Bǒji, zuru, ita. *Estar alienado, & como fo-* |  |
 | `c1-l035` | &emsp;*ra de ſi.* |  |
 | `c1-l036` | Bǒji. i. Bôxu. *Homem que vſa de enganos,* |  |
 | `c1-l037` | &emsp;*& ardis.* |  |
@@ -56,9 +56,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l040` | &emsp;*Darſe demaſiadamente a molheres, he ruim.* |  |
 | `c1-l041` | &emsp;*¶* Bǒjino ſugoſu. *Darſe muito a molhe-* |  |
 | `c1-l042` | &emsp;*res, ou vſar muito deste ajuntamento, &c.* |  |
-| `c1-l043` | Bǒji. *Homem de ſeruiço que a carreta ſa-* |  |
-| `c1-l044` | &emsp;*lo, &c.* |  |
-| `c1-l045` | Bôjǒ. *Vestido feito de pedaços, ou remendos.* |  |
+| `c1-l043` | Bǒji. *Homem de ſeruiço que a carreta fa-* |  |
+| `c1-l044` | &emsp;*to, &c.* |  |
+| `c1-l045` | Bǒjǒ. *Vestido feito de pedaços, ou remendos.* |  |
 | `c1-l046` | &emsp;*¶ Vt,* Fari bôjǒ. *Veſtido remendado, ou* |  |
 | `c1-l047` | &emsp;*feito de pedaços lauado, & estendido ao ſol.* |  |
 
@@ -78,9 +78,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l004` | Bon. Fotogui. *Bandeja, ou baçio de pao* |  |
 | `c2-l005` | &emsp;*em que poem fruita, &c.* |  |
 | `c2-l006` | Bon. *Festa dos finados dos gentios que fazem* |  |
-| `c2-l007` | &emsp;*aos 14. ou 15. da ſetima lũa na qual acẽ-* |  |
+| `c2-l007` | &emsp;*aos. 14. ou 15. da ſetima lũa na qual acẽ-* |  |
 | `c2-l008` | &emsp;*dem candeas tres dias à boca da noite.* |  |
-| `c2-l009` | Bǒnai. Tçubonenouchi. *Dentro da caſa ou ca* |  |
+| `c2-l009` | Bǒnai. Tçubonenouchi. *Dẽtro da caſa ou ca-* |  |
 | `c2-l010` | &emsp;*mara particular de alguem.* |  |
 | `c2-l011` | Bonborito. *Adu. Modo de estar a* Vata, |  |
 | `c2-l012` | &emsp;*ou algodão creſpo, & aleuantado, os cabellos* |  |
@@ -94,7 +94,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l020` | &emsp;*&c. O ſeu oppoſito he* Meichô. |  |
 | `c2-l021` | Bonden. *Hũa laya de meloẽs. ¶ Item,* |  |
 | `c2-l022` | &emsp;*Nome de hum ceo.* |  |
-| `c2-l023` | Bondenqua. *Nome de hũa flor de aruores* |  |
+| `c2-l023` | Bondeniqua. *Nome de hũa flor de aruores* |  |
 | `c2-l024` | &emsp;*zinhas, que plantão nas hortas como em lugar* |  |
 | `c2-l025` | &emsp;*de ſebe.* |  |
 | `c2-l026` | Bongue. i. Bonbu. *¶* Bonguena, l, |  |
@@ -114,7 +114,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l040` | &emsp;*¶* Bonnǒno coigi. *Afflição interior q̃* |  |
 | `c2-l041` | &emsp;*ſe ſente com deſejos ſenſuaes. ¶* Bonnǒ |  |
 | `c2-l042` | &emsp;cubi. *Vt,* Bonnǒ cubiuo ſuru. *Estar* |  |
-| `c2-l043` | &emsp;*deleixado, ou deſmayado com algũa afflição co* |  |
+| `c2-l043` | &emsp;*deſleixado, ou deſmayado com algũa afflição co-* |  |
 | `c2-l044` | &emsp;*mo fome, cuidado, &c.* |  |
 | `c2-l045` | Bonnocubo. *Touriço, ou coua do touriço.* |  |
 | `c2-l046` | Bonpi. Bonbuno iyaxij mono. *Homẽ ig-* |  |

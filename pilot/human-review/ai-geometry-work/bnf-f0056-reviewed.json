@@ -3,9 +3,23 @@
   "format_version": 1,
   "page": "bnf-f0056",
   "response_status": "completed_independent_ai_line_review",
-  "observed_text_provenance": "Every physical body line was visually inspected at enlarged crop level against the supplied f0056 scan, with line geometry re-registered and checked again on the full-page image. observed_text records the scan reading; the canonical Level 1 transcription was consulted only afterward as a comparison/adjudication aid, and visible disagreements are retained rather than normalized. expected_line_version values are preserved unchanged.",
+  "default_response_mode": "geometry_and_text",
+  "completion_statuses": {
+    "geometry_and_text": {
+      "geometry_review_status": "completed",
+      "text_review_status": "completed"
+    },
+    "geometry_only_fallback": {
+      "geometry_review_status": "completed",
+      "text_review_status": "not_completed"
+    }
+  },
+  "observed_text_provenance": "Must be written independently from each proposed crop before consulting the canonical transcription. Null means that this line has not yet been read.",
   "coordinate_space": "native Gallica master pixels",
   "rectangle_format": "[x, y, width, height]",
+  "geometry_acceptance": "Inspect every isolated crop at full practical size against the full page; confirm complete first and last glyphs and all top/bottom ink; do not infer horizontal completeness from line identity or vertical centering; then sweep each column top-to-bottom for repeated clipping, especially the outer/right edge of column 2. Conservative rule-to-rule width and necessary neighboring-line overlap are allowed.",
+  "text_acceptance": "Read the print independently before consulting the canonical line. Preserve visible historical spelling, spacing, diacritics, and long s; do not normalize, copy the canonical text, or guess merely to complete a field. Returned text is advisory until separately adjudicated against the scan.",
+  "lineation_discrepancy": "If the printed number or order of physical lines differs from the task, do not invent a blank continuation, shift IDs, or renumber the response. Mark the response incomplete and report the first divergence so the canonical lineation can be corrected and the task regenerated.",
   "source": {
     "filename": "f0056.jpg",
     "width": 2721,
@@ -15,1921 +29,2017 @@
   },
   "transcription_source": {
     "page_file": "pilot/format-v1-trial/level1/bnf-f0056.json",
-    "page_file_sha256": "d8cfe2e0233eac6bc7dae4d8c1090584d5089f134823561942c03fb0ff8a41c9"
+    "page_file_sha256": "9ad9db22300703b05f661e452d322bff26b52adde49a6ec9af045527c429bdf2"
   },
   "columns": {
     "column-1": {
       "column_box_xyxy": [
-        340,
         300,
-        1450,
+        300,
+        1505,
         3410
       ],
       "zone_ids": [
         "column-1"
       ],
-      "initial_geometry_provenance": "contact_sheet_reviewed",
-      "initial_geometry_reviewed_at": "2026-08-01",
-      "geometry_requires_line_by_line_review": false,
+      "initial_geometry_provenance": "external_ai_width_rechecked",
+      "initial_geometry_reviewed_at": "2026-08-13",
+      "geometry_requires_line_by_line_review": true,
       "lines": [
         {
           "id": "c1-l001",
           "centre_y": 489,
           "crop": [
-            340,
+            300,
             441,
-            1110,
+            1205,
             96
           ],
           "context_crop": [
-            340,
+            300,
             324,
-            1110,
+            1205,
             330
           ],
-          "observed_text": "Bibut. Vmaimono. Iguaria, ou comer ſa-",
-          "match": "strong",
+          "observed_text": "Bitut. Vnaimono. Iguaria, ou comer ſa-",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:19ff1147d9a413b11154e8714f17488110d77b8036adf71915d4a47964ab9f16"
         },
         {
           "id": "c1-l002",
           "centre_y": 550,
           "crop": [
-            340,
+            300,
             501,
-            1110,
+            1205,
             98
           ],
           "context_crop": [
-            340,
+            300,
             385,
-            1110,
+            1205,
             330
           ],
           "observed_text": "boroſo particularmente de peixe.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:78d918b389f5159552d3f17db8d186f44d9cfa54f7d3c9aa2527af9b31493ebb"
         },
         {
           "id": "c1-l003",
           "centre_y": 612,
           "crop": [
-            340,
+            300,
             563,
-            1110,
+            1205,
             98
           ],
           "context_crop": [
-            340,
+            300,
             447,
-            1110,
+            1205,
             330
           ],
           "observed_text": "Bicen. Itçucuxij cauoyoxi. Roſto fermoſo.",
-          "match": "strong",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:e1babc97997d1709494a22d89aaff44c76bf517a7967dc40e1cc34c57b6f20da"
         },
         {
           "id": "c1-l004",
           "centre_y": 674,
           "crop": [
-            340,
+            300,
             626,
-            1110,
+            1205,
             96
           ],
           "context_crop": [
-            340,
+            300,
             509,
-            1110,
+            1205,
             330
           ],
-          "observed_text": "Bican. Sucoxi ſamuxi. Pouco frio, ou frio",
-          "match": "strong",
+          "observed_text": "Bican. Sucoxi tçuyuxi. Pouco frio, ou frio",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:3eb640a65df06b155c8785e665dec96c7756d6fb33a6d10c725fbf9f3c79cfb6"
         },
         {
           "id": "c1-l005",
           "centre_y": 735,
           "crop": [
-            340,
+            300,
             686,
-            1110,
+            1205,
             98
           ],
           "context_crop": [
-            340,
+            300,
             570,
-            1110,
+            1205,
             330
           ],
-          "observed_text": "ainda moderado.",
-          "match": "strong",
+          "observed_text": "aindu moderado.",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:f30a00a18c916b9b20a4eb5138aa6a621906f211495fe23dad16118f56f5e1ec"
         },
         {
           "id": "c1-l006",
           "centre_y": 797,
           "crop": [
-            340,
+            300,
             748,
-            1110,
+            1205,
             98
           ],
           "context_crop": [
-            340,
+            300,
             632,
-            1110,
+            1205,
             330
           ],
           "observed_text": "Biccurito. Adu. Modo de eſtremecer, como",
-          "match": "strong",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:f9b990364b4703584ed4fc56ecf6e2ab4b66af7b9da32d3265a2fc0279165b82"
         },
         {
           "id": "c1-l007",
           "centre_y": 859,
           "crop": [
-            340,
+            300,
             811,
-            1110,
+            1205,
             96
           ],
           "context_crop": [
-            340,
+            300,
             694,
-            1110,
+            1205,
             330
           ],
           "observed_text": "quando derrepente ouuimos deſparar artelharia,",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:2bac56f282d34e36263ffce5f673f8393a1b2d43bd25f471fe7b46041336628d"
         },
         {
           "id": "c1-l008",
           "centre_y": 921,
           "crop": [
-            340,
+            300,
             872,
-            1110,
+            1205,
             98
           ],
           "context_crop": [
-            340,
+            300,
             756,
-            1110,
+            1205,
             330
           ],
           "observed_text": "&c.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:0d9ac903dda0b2c4816194f5f179d27b1719e2449186ac6bd40e401d9bcfa95a"
         },
         {
           "id": "c1-l009",
           "centre_y": 982,
           "crop": [
-            340,
+            300,
             934,
-            1110,
+            1205,
             97
           ],
           "context_crop": [
-            340,
+            300,
             817,
-            1110,
+            1205,
             330
           ],
           "observed_text": "Bichimeqi, u, eita. Bulir o peixe com as bar-",
-          "match": "strong",
+          "match": "mismatch",
           "assessment": "readable",
-          "expected_line_version": "sha256:056d9e67c23922c1c7f1845a8009b5159912901db5690313f78496fd716a5ea4"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:d03ae3183a1f1d3a4a2b806179c84ad4cc07d1f3c80b84863bb04ec48e89e725"
         },
         {
           "id": "c1-l010",
           "centre_y": 1044,
           "crop": [
-            340,
+            300,
             996,
-            1110,
+            1205,
             97
           ],
           "context_crop": [
-            340,
+            300,
             879,
-            1110,
+            1205,
             330
           ],
           "observed_text": "batanas, ou borboleta que cae na agoa eſtar ba-",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:631bcd00dde348c8e96a94f97660c3a57768cdf8458c58b7f49f560d2d07f599"
         },
         {
           "id": "c1-l011",
           "centre_y": 1106,
           "crop": [
-            340,
+            300,
             1057,
-            1110,
+            1205,
             98
           ],
           "context_crop": [
-            340,
+            300,
             941,
-            1110,
+            1205,
             330
           ],
-          "observed_text": "tendo com as azas, &c. ¶ Bichitagi,",
-          "match": "strong",
+          "observed_text": "tendo com as azas, &c. ¶ Bichiraqi,",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:72f709a42ae6fadc3ad52e6bf431512ca5ab1dbc849ab05808ea439214b406d0"
         },
         {
           "id": "c1-l012",
           "centre_y": 1168,
           "crop": [
-            340,
+            300,
             1120,
-            1110,
+            1205,
             97
           ],
           "context_crop": [
-            340,
+            300,
             1003,
-            1110,
+            1205,
             330
           ],
           "observed_text": "qu. Idem. B.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:740940d69153756518a81d922f6c91cfa54335bc63dffb46c54fa44f0c9ce79d"
         },
         {
           "id": "c1-l013",
           "centre_y": 1229,
           "crop": [
-            340,
+            300,
             1180,
-            1110,
+            1205,
             97
           ],
           "context_crop": [
-            340,
+            300,
             1064,
-            1110,
+            1205,
             330
           ],
-          "observed_text": "Bichocu. Vt, Vǔgan bichocu. Eſtarẽ os",
-          "match": "strong",
+          "observed_text": "Bichocu. Vt, Vogan bichocu. Eſtarẽ os",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:31e79e604619aef1fa760986a7f33682ec098de03b2dc131061580663ec7c213"
         },
         {
           "id": "c1-l014",
           "centre_y": 1291,
           "crop": [
-            340,
+            300,
             1242,
-            1110,
+            1205,
             98
           ],
           "context_crop": [
-            340,
+            300,
             1126,
-            1110,
+            1205,
             330
           ],
           "observed_text": "olhos, & nariz em ſeu lugar, & em ſua for-",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:71c34963b86157793e1368004e6410ad1f7b2c4e8b3c012d3d7fd84dc68a52e7"
         },
         {
           "id": "c1-l015",
           "centre_y": 1353,
           "crop": [
-            340,
+            300,
             1304,
-            1110,
+            1205,
             97
           ],
           "context_crop": [
-            340,
+            300,
             1188,
-            1110,
+            1205,
             330
           ],
           "observed_text": "ma.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:f86f0bc492918de164bab2debd2735f4fb9ddb1676b2aa5a5c5d273fa9dcd394"
         },
         {
           "id": "c1-l016",
           "centre_y": 1415,
           "crop": [
-            340,
+            300,
             1366,
-            1110,
+            1205,
             97
           ],
           "context_crop": [
-            340,
+            300,
             1250,
-            1110,
+            1205,
             330
           ],
-          "observed_text": "Bicǒ. Çapatos da China de bico reuolto de que",
-          "match": "strong",
+          "observed_text": "Bicǒ. çapatos da China de bico reuolto de que",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:16c335128fd265865a879adfb9b81ea5e5bc840618f6fc69fe6707c1332faa3d"
         },
         {
           "id": "c1-l017",
           "centre_y": 1476,
           "crop": [
-            340,
+            300,
             1427,
-            1110,
+            1205,
             98
           ],
           "context_crop": [
-            340,
+            300,
             1311,
-            1110,
+            1205,
             330
           ],
-          "observed_text": "vſão os Bôzos. ¶ Item, Alicubi, alpar-",
-          "match": "strong",
+          "observed_text": "vſão os Bõzos. ¶ Item, Alicubi, alpar",
+          "match": "mismatch",
           "assessment": "readable",
-          "expected_line_version": "sha256:d6d493d6b72cd3952e5c1fe83f33c061f1e00d2b2180a3dc8007d72ef49dfb22"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:2cd884e1e63447eb3c09e73d571753ff79fba74b41b1cb940fc12683272f4027"
         },
         {
           "id": "c1-l018",
           "centre_y": 1538,
           "crop": [
-            340,
+            300,
             1490,
-            1110,
+            1205,
             96
           ],
           "context_crop": [
-            340,
+            300,
             1373,
-            1110,
+            1205,
             330
           ],
           "observed_text": "cas de ſolas de couro.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:e802e12a3455241f2cb8fc6b16c373af3979f403b1098ab2c35ef077a077670a"
         },
         {
           "id": "c1-l019",
           "centre_y": 1600,
           "crop": [
-            340,
+            300,
             1551,
-            1110,
+            1205,
             98
           ],
           "context_crop": [
-            340,
+            300,
             1435,
-            1110,
+            1205,
             330
           ],
           "observed_text": "Bicquai. Adulterio, ou andar com molher",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:56eef71ed7f6822cc4d9a3c778cadbf77112c996a432c6d570327222e6cb6b69"
         },
         {
           "id": "c1-l020",
           "centre_y": 1662,
           "crop": [
-            340,
+            300,
             1613,
-            1110,
+            1205,
             98
           ],
           "context_crop": [
-            340,
+            300,
             1497,
-            1110,
+            1205,
             330
           ],
           "observed_text": "alhea. ¶ Tano tçumauo bicquai ſuru.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:0cb83b66cc58189108618a6efa3b5092f47035bbbaf84efc7d833cb3afcd09e8"
         },
         {
           "id": "c1-l021",
           "centre_y": 1723,
           "crop": [
-            340,
+            300,
             1675,
-            1110,
+            1205,
             96
           ],
           "context_crop": [
-            340,
+            300,
             1558,
-            1110,
+            1205,
             330
           ],
           "observed_text": "Adulterar com molher alhea.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:81db181b1b2c9f6ae00f87ff5d85bd5667f7eca11e52f0548dcff8165d6dfc91"
         },
         {
           "id": "c1-l022",
           "centre_y": 1785,
           "crop": [
-            340,
+            300,
             1736,
-            1110,
+            1205,
             98
           ],
           "context_crop": [
-            340,
+            300,
             1620,
-            1110,
+            1205,
             330
           ],
-          "observed_text": "Bicǔ, l, bicǒ. Fanano ana. Vetas dos narizes.",
-          "match": "strong",
+          "observed_text": "Bicǐ, l, bicǒ Fanano ana. Veias dos narizes.",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:63c5c97593ba18ba520ab8c198c66db1e82d4bac64812f39c6d8be4cdecfd04c"
         },
         {
           "id": "c1-l023",
           "centre_y": 1847,
           "crop": [
-            340,
+            300,
             1798,
-            1110,
+            1205,
             98
           ],
           "context_crop": [
-            340,
+            300,
             1682,
-            1110,
+            1205,
             330
           ],
           "observed_text": "Bicu. Parte exterior das orelhas.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:16765dd2564eda3411a17141a36f452d6a05e0411c6eeccc36c4323c2d1e97a9"
         },
         {
           "id": "c1-l024",
           "centre_y": 1908,
           "crop": [
-            340,
+            300,
             1860,
-            1110,
+            1205,
             96
           ],
           "context_crop": [
-            340,
+            300,
             1743,
-            1110,
+            1205,
             330
           ],
           "observed_text": "Bicu. i. Votoco xucqe. Religioſo gentio",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:c09fe3e916b71bb592d472efab776d1cceb7bf6b958cd44933d0f9f9010d169c"
         },
         {
           "id": "c1-l025",
           "centre_y": 1970,
           "crop": [
-            340,
+            300,
             1921,
-            1110,
+            1205,
             98
           ],
           "context_crop": [
-            340,
+            300,
             1805,
-            1110,
+            1205,
             330
           ],
-          "observed_text": "ou Bôzo.",
-          "match": "strong",
+          "observed_text": "ou Bõzo.",
+          "match": "mismatch",
           "assessment": "readable",
-          "expected_line_version": "sha256:7d3483b7c92904d100160bbb698184d592522d9f92edb391ba7d4d7594643be4"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:56165cf4b24f39c305c7036fd1357b9f3cc9af83ed37c7f8ee30ceeaadfd633a"
         },
         {
           "id": "c1-l026",
           "centre_y": 2032,
           "crop": [
-            340,
+            300,
             1983,
-            1110,
+            1205,
             98
           ],
           "context_crop": [
-            340,
+            300,
             1867,
-            1110,
+            1205,
             330
           ],
-          "observed_text": "Bicumeqi, u, eita. Palpitar, ou bulir alguã",
+          "observed_text": "Bicumeqi, u, eita. Palpitar, ou bulir algũa",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:4ac8ab7bfac2c5476dea53995c567d84efdfa9ccbcd0af3038f358768611592f"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:25c5435372f76e28d97d6fe1b4251cd794957d2d19ff73de8e5e0d0fadf6defa"
         },
         {
           "id": "c1-l027",
           "centre_y": 2094,
           "crop": [
-            340,
+            300,
             2046,
-            1110,
+            1205,
             96
           ],
           "context_crop": [
-            340,
+            300,
             1929,
-            1110,
+            1205,
             330
           ],
           "observed_text": "parte do corpo.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:b6f2fd5411085e2338e02d7d20cdcb5435115288625fea7127d4caf33db1180a"
         },
         {
           "id": "c1-l028",
           "centre_y": 2155,
           "crop": [
-            340,
+            300,
             2106,
-            1110,
+            1205,
             98
           ],
           "context_crop": [
-            340,
+            300,
             1990,
-            1110,
+            1205,
             330
           ],
           "observed_text": "Bicuni. i. ama. Molher rapada, ou religioſa",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:eb56140db2a91a988c99570f5fc80e238a3d89c208ae48599b04d7dd8d7ef981"
         },
         {
           "id": "c1-l029",
           "centre_y": 2217,
           "crop": [
-            340,
+            300,
             2168,
-            1110,
+            1205,
             98
           ],
           "context_crop": [
-            340,
+            300,
             2052,
-            1110,
+            1205,
             330
           ],
           "observed_text": "gentia.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:7d7e188793020f0e4ed8b06cb567d67fcd1e6978e95b70c331ab9a4b5eb5f582"
         },
         {
           "id": "c1-l030",
           "centre_y": 2279,
           "crop": [
-            340,
+            300,
             2231,
-            1110,
+            1205,
             96
           ],
           "context_crop": [
-            340,
+            300,
             2114,
-            1110,
+            1205,
             330
           ],
-          "observed_text": "Bifǔ. Sucoxinocaje. Vento fraco do eſtio.",
-          "match": "strong",
+          "observed_text": "Bifü. Sucoxi nocaze. Vento fraco do eſtio.",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:f45c33d2a6c3d2035443bee0819e437874952056dd8e053ff39cb502fa593a15"
         },
         {
           "id": "c1-l031",
           "centre_y": 2341,
           "crop": [
-            340,
+            300,
             2292,
-            1110,
+            1205,
             98
           ],
           "context_crop": [
-            340,
+            300,
             2176,
-            1110,
+            1205,
             330
           ],
-          "observed_text": "Bifu. Itçucuxij ſadaye. Bom carão, ou ſu-",
-          "match": "strong",
+          "observed_text": "Bifu. Itçucuxij fadaye. Bom carão, ou ſu-",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:7efe1bc5d0e4f961fd13183467839b6351e6de35a141898d976ddf99bbe1ed86"
         },
         {
           "id": "c1-l032",
           "centre_y": 2402,
           "crop": [
-            340,
+            300,
             2354,
-            1110,
+            1205,
             97
           ],
           "context_crop": [
-            340,
+            300,
             2237,
-            1110,
+            1205,
             330
           ],
           "observed_text": "perficie da carne macia, & branda.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:37a2645880290f559ea4e251fc5a4d00e4fb2e02a696f6682a4cc340d148fb8d"
         },
         {
           "id": "c1-l033",
           "centre_y": 2464,
           "crop": [
-            340,
+            300,
             2416,
-            1110,
+            1205,
             97
           ],
           "context_crop": [
-            340,
+            300,
             2299,
-            1110,
+            1205,
             330
           ],
           "observed_text": "Bifucu. Vtçucuxij qirumono. Veſtido ga-",
-          "match": "strong",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:46b6ae3a0b6779bdeeac760ac1e94f72a01ee560d06cce6b0ecf30a5ed4567cc"
         },
         {
           "id": "c1-l034",
           "centre_y": 2526,
           "crop": [
-            340,
+            300,
             2477,
-            1110,
+            1205,
             98
           ],
           "context_crop": [
-            340,
+            300,
             2361,
-            1110,
+            1205,
             330
           ],
           "observed_text": "lante, ou luſtroſo.",
-          "match": "strong",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:8a3c2b973a958dee28cfcc5c75275338bc7934a19cd69ec2277cc2f21924bcac"
         },
         {
           "id": "c1-l035",
           "centre_y": 2588,
           "crop": [
-            340,
+            300,
             2540,
-            1110,
+            1205,
             97
           ],
           "context_crop": [
-            340,
+            300,
             2423,
-            1110,
+            1205,
             330
           ],
-          "observed_text": "Biguen. Vtçucuxij cotoba. Palauras ele-",
-          "match": "strong",
+          "observed_text": "Biguen. Vçucuxij cotoba. Palauras ele-",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:cfd579a194ae27a24e2b9069992dab0d4e75247bd7e62ec35e31d040f0c12c62"
         },
         {
           "id": "c1-l036",
           "centre_y": 2649,
           "crop": [
-            340,
+            300,
             2600,
-            1110,
+            1205,
             97
           ],
           "context_crop": [
-            340,
+            300,
             2484,
-            1110,
+            1205,
             330
           ],
           "observed_text": "gantes, & polidas.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:287a44df84726f91584f0a9c0824574a035c8b97bf859b97981dd94d14456025"
         },
         {
           "id": "c1-l037",
           "centre_y": 2711,
           "crop": [
-            340,
+            300,
             2662,
-            1110,
+            1205,
             98
           ],
           "context_crop": [
-            340,
+            300,
             2546,
-            1110,
+            1205,
             330
           ],
-          "observed_text": "Biguiocu. Vtçucuxij tama. Fermoſa pedra",
-          "match": "strong",
+          "observed_text": "Biguocu. Vtçucuxij tama. Fermoſa pedra",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:3d2b3abff7f6d1f4da00f8d02770f4b8f5b57ad4b5a4d9910aa0bbe7849fcf05"
         },
         {
           "id": "c1-l038",
           "centre_y": 2773,
           "crop": [
-            340,
+            300,
             2724,
-            1110,
+            1205,
             97
           ],
           "context_crop": [
-            340,
+            300,
             2608,
-            1110,
+            1205,
             330
           ],
           "observed_text": "precioſa.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:3d5cf673f64cb6bcc82bcc3afd44031faa78ac1f61805f964144f2e8c4fc0ccb"
         },
         {
           "id": "c1-l039",
           "centre_y": 2835,
           "crop": [
-            340,
+            300,
             2786,
-            1110,
+            1205,
             97
           ],
           "context_crop": [
-            340,
+            300,
             2670,
-            1110,
+            1205,
             330
           ],
-          "observed_text": "Bigio. Vtçucuxij vonna. Molher fermoſa.",
-          "match": "strong",
+          "observed_text": "Bigio. Vtçucuxij vonna. Molher fermoſa,",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:1011fbab189cadca0d780820be3ea9206f1faa8107a78c38153256cd30e423c4"
         },
         {
           "id": "c1-l040",
           "centre_y": 2896,
           "crop": [
-            340,
+            300,
             2847,
-            1110,
+            1205,
             98
           ],
           "context_crop": [
-            340,
+            300,
             2731,
-            1110,
+            1205,
             330
           ],
-          "observed_text": "¶ Bigioua acugieno catagi. Prouerb.",
-          "match": "strong",
-          "assessment": "readable",
+          "observed_text": "¶ Bigioua acugicno cat: qi. Prouerb.",
+          "match": "mismatch",
+          "assessment": "uncertain",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:334c639c1886634efbfaad7d79fecc6bba9c45416fefcd849748ee274cef48ed"
         },
         {
           "id": "c1-l041",
           "centre_y": 2958,
           "crop": [
-            340,
+            300,
             2910,
-            1110,
+            1205,
             96
           ],
           "context_crop": [
-            340,
+            300,
             2793,
-            1110,
+            1205,
             330
           ],
-          "observed_text": "Molher fermoſa he inimiga de fea. Dizſe de",
-          "match": "strong",
+          "observed_text": "Molher fermoſa he inimiga de fea. Diz ſe de",
+          "match": "mismatch",
           "assessment": "readable",
-          "expected_line_version": "sha256:f6bd2a36296582f39543dda337c24c421efaabc11256103676c6958c9b8320df",
-          "note": "Direct scan reading differs from the canonical Level 1 transcription; the visible scan form is retained here."
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:b447f0a00b6cb1f129d68883f3834aacc0ec8cd35964fe166694201d34bbc0ab"
         },
         {
           "id": "c1-l042",
           "centre_y": 3020,
           "crop": [
-            340,
+            300,
             2971,
-            1110,
+            1205,
             98
           ],
           "context_crop": [
-            340,
+            300,
             2855,
-            1110,
+            1205,
             330
           ],
           "observed_text": "dous de condição contraria, ou dos que tem en-",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:291ac9127ae128a97ae73a8e09734aafa2c1e9d60b26d79e249bdbc465a3a671"
         },
         {
           "id": "c1-l043",
           "centre_y": 3081,
           "crop": [
-            340,
+            300,
             3032,
-            1110,
+            1205,
             98
           ],
           "context_crop": [
-            340,
+            300,
             2916,
-            1110,
+            1205,
             330
           ],
-          "observed_text": "ueja hum de outro de differente eſtado.",
-          "match": "strong",
+          "observed_text": "ueja hum de outro ſe differente eſtado.",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:0122379e863d8adcbba9b35e1b6577db7556761f35fd3e9b8b4719bc491eeb9e"
         },
         {
           "id": "c1-l044",
           "centre_y": 3143,
           "crop": [
-            340,
+            300,
             3095,
-            1110,
+            1205,
             96
           ],
           "context_crop": [
-            340,
+            300,
             2978,
-            1110,
+            1205,
             330
           ],
           "observed_text": "Bijacu. Sucoxi youaxi. Fraqueza, ou pou-",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:7bbdf2ad2c981c950fbddf32242816211ef731504faa3c729f77e79afd8b2cb4"
         },
         {
           "id": "c1-l045",
           "centre_y": 3205,
           "crop": [
-            340,
+            300,
             3156,
-            1110,
+            1205,
             98
           ],
           "context_crop": [
-            340,
+            300,
             3040,
-            1110,
+            1205,
             330
           ],
           "observed_text": "cas forças em peſſoas de pouca idade.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:a430049897291acda0008f60d15940de066d82fe9ea51bc295a70e11ef989984"
         },
         {
           "id": "c1-l046",
           "centre_y": 3267,
           "crop": [
-            340,
+            300,
             3218,
-            1110,
+            1205,
             98
           ],
           "context_crop": [
-            340,
+            300,
             3102,
-            1110,
+            1205,
             330
           ],
           "observed_text": "Bijacuna. Peſſoa de pouca idade, forças fracas.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:73f429acb4a8039f9847e8fd7de9aab1843a74b1d238610a7b50da6590e8b0fd"
         },
         {
           "id": "c1-l047",
           "centre_y": 3328,
           "crop": [
-            340,
+            300,
             3280,
-            1110,
+            1205,
             96
           ],
           "context_crop": [
-            340,
+            300,
             3186,
-            1110,
+            1205,
             285
           ],
           "observed_text": "Bijin. Itçucuxij fito. Peſſoa bem parecida,",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:d86b80888ba5aa0ddac36ccd4b60480ee7c0c87b723fdb0ef7a83d9531a04889"
         }
       ]
     },
     "column-2": {
       "column_box_xyxy": [
-        1500,
+        1445,
         300,
-        2590,
+        2651,
         3410
       ],
       "zone_ids": [
         "column-2"
       ],
-      "initial_geometry_provenance": "contact_sheet_reviewed",
-      "initial_geometry_reviewed_at": "2026-08-01",
-      "geometry_requires_line_by_line_review": false,
+      "initial_geometry_provenance": "external_ai_width_rechecked",
+      "initial_geometry_reviewed_at": "2026-08-13",
+      "geometry_requires_line_by_line_review": true,
       "lines": [
         {
           "id": "c2-l001",
           "centre_y": 475,
           "crop": [
-            1500,
+            1445,
             427,
-            1090,
+            1206,
             96
           ],
           "context_crop": [
-            1500,
+            1445,
             310,
-            1090,
+            1206,
             330
           ],
           "observed_text": "ou fermoſa.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:9f750a3ba874bcdf8645cca774849b5a76f526a678715ab2ef62acfa22a25b35"
         },
         {
           "id": "c2-l002",
           "centre_y": 537,
           "crop": [
-            1500,
+            1445,
             488,
-            1090,
+            1206,
             98
           ],
           "context_crop": [
-            1500,
+            1445,
             372,
-            1090,
+            1206,
             330
           ],
-          "observed_text": "Bimei. Imada aqezu. Ante manhãa.",
-          "match": "strong",
+          "observed_text": "Bimei. Imada aqezu. Ante manhã.",
+          "match": "mismatch",
           "assessment": "readable",
-          "expected_line_version": "sha256:df3933506fab24a2e0353d8c83ca71871bb2ba82f9916caeae67d39f820a8c00"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:84e6832a4dce17b9116676276eccfec3ad970233bdaf9b36f1d4fd1f9b03d058"
         },
         {
           "id": "c2-l003",
           "centre_y": 598,
           "crop": [
-            1500,
+            1445,
             549,
-            1090,
+            1206,
             98
           ],
           "context_crop": [
-            1500,
+            1445,
             433,
-            1090,
+            1206,
             330
           ],
           "observed_text": "Bimi. Vmai agiuai. Suaue goſto.",
-          "match": "strong",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:33bfed3e62721519cabe0172740a5672362cf54ef8ff9e1284ed89ac7eb161a9"
         },
         {
           "id": "c2-l004",
           "centre_y": 660,
           "crop": [
-            1500,
+            1445,
             612,
-            1090,
+            1206,
             96
           ],
           "context_crop": [
-            1500,
+            1445,
             495,
-            1090,
+            1206,
             330
           ],
-          "observed_text": "Bimô. i. Mayuno qe, l, mique. Sobrã-",
-          "match": "strong",
+          "observed_text": "Bimǒ. i. Mayuno qe, l, mige. Sobrã-",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:0a70930fc66f04bd9de31146074644d371dd10bdb88410d5f3335df237082b3e"
         },
         {
           "id": "c2-l005",
           "centre_y": 721,
           "crop": [
-            1500,
+            1445,
             672,
-            1090,
+            1206,
             98
           ],
           "context_crop": [
-            1500,
+            1445,
             556,
-            1090,
+            1206,
             330
           ],
           "observed_text": "çelhas.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:3a90208993d17d99711aaca0d9aa0839becd61b78f9978d0bb1cd63cf53db0fc"
         },
         {
           "id": "c2-l006",
           "centre_y": 782,
           "crop": [
-            1500,
+            1445,
             733,
-            1090,
+            1206,
             98
           ],
           "context_crop": [
-            1500,
+            1445,
             617,
-            1090,
+            1206,
             330
           ],
           "observed_text": "Bimocu. Vtçucuxij me. Olhos fermoſos.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:36c3c870a2e12c8db0587384230681a341556403c143e69ce3d6f3a0e974558f"
         },
         {
           "id": "c2-l007",
           "centre_y": 844,
           "crop": [
-            1500,
+            1445,
             796,
-            1090,
+            1206,
             96
           ],
           "context_crop": [
-            1500,
+            1445,
             679,
-            1090,
+            1206,
             330
           ],
           "observed_text": "Bin. Cabellos das fontes da cabeça.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:6024419cf2f0348de5d54418e921dc427302900dc0dd4d387c2df68aafe4294b"
         },
         {
           "id": "c2-l008",
           "centre_y": 905,
           "crop": [
-            1500,
+            1445,
             856,
-            1090,
+            1206,
             98
           ],
           "context_crop": [
-            1500,
+            1445,
             740,
-            1090,
+            1206,
             330
           ],
-          "observed_text": "¶ Binuo caqu, l, tçucuru. Concertarem os",
-          "match": "strong",
+          "observed_text": "¶ Binuo caçu, l, tçucuru. Concertarem os",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:42d7ceb97b6f23c867392b223f3c35603fea66a2ce2e4cf0e8d6848553c1266c"
         },
         {
           "id": "c2-l009",
           "centre_y": 967,
           "crop": [
-            1500,
+            1445,
             918,
-            1090,
+            1206,
             97
           ],
           "context_crop": [
-            1500,
+            1445,
             802,
-            1090,
+            1206,
             330
           ],
-          "observed_text": "homẽs os cabellos das fontes, penteãdoos ao modo",
-          "match": "strong",
+          "observed_text": "homẽs os cabellos das fõtes, penteãdoos ao modo",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:d502390feb1bb5816a5d4522a414239aab99091dee739711c74ab36d220854d7"
         },
         {
           "id": "c2-l010",
           "centre_y": 1028,
           "crop": [
-            1500,
+            1445,
             980,
-            1090,
+            1206,
             97
           ],
           "context_crop": [
-            1500,
+            1445,
             863,
-            1090,
+            1206,
             330
           ],
           "observed_text": "de Iapão. ¶ Binuo canaguru. Arran-",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:10d5d7c07c9244cae0cf734ab582303d4a7ef3cdf9a6d6cb2dbea2f56ea5c082"
         },
         {
           "id": "c2-l011",
           "centre_y": 1090,
           "crop": [
-            1500,
+            1445,
             1041,
-            1090,
+            1206,
             98
           ],
           "context_crop": [
-            1500,
+            1445,
             925,
-            1090,
+            1206,
             330
           ],
           "observed_text": "car os cabellos das fontes.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:5c1104a42a45754c0793c0e20550727faedf88de325d3ea68e5ad6975be05dde"
         },
         {
           "id": "c2-l012",
           "centre_y": 1151,
           "crop": [
-            1500,
+            1445,
             1102,
-            1090,
+            1206,
             97
           ],
           "context_crop": [
-            1500,
+            1445,
             986,
-            1090,
+            1206,
             330
           ],
-          "observed_text": "Bin. Tayori. Ocasião, opportunidade. ¶",
-          "match": "strong",
+          "observed_text": "Bin. Tayori. Ocaſião, oportunidade. ¶",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:da2a50b0f3d2d6269317319b26af34cd1a86aafdda07975dbb6dc51ee88de3b4"
         },
         {
           "id": "c2-l013",
           "centre_y": 1213,
           "crop": [
-            1500,
+            1445,
             1164,
-            1090,
+            1206,
             97
           ],
           "context_crop": [
-            1500,
+            1445,
             1048,
-            1090,
+            1206,
             330
           ],
-          "observed_text": "Vt, Binuo vcagǒ. l, bin, ſimano vcagǒ.",
-          "match": "strong",
+          "observed_text": "Vt, Binuo veagǒ. l, bin, fimauo veagǒ.",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:90e54b5fcebd1cfbe355ed483b49c6d82d33e99fb99d3343355508d79489aed0"
         },
         {
           "id": "c2-l014",
           "centre_y": 1274,
           "crop": [
-            1500,
+            1445,
             1225,
-            1090,
+            1206,
             98
           ],
           "context_crop": [
-            1500,
+            1445,
             1109,
-            1090,
+            1206,
             330
           ],
-          "observed_text": "Buſcar opportunidade. ¶ Binnai mǒxi go-",
-          "match": "strong",
+          "observed_text": "Buscar oportunidade. ¶ Binmai mǒxi go-",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:54ea39491f6bb1bb4f121d35a06f51ede8cc386cb7368ac1fd53e45353a8eb1d"
         },
         {
           "id": "c2-l015",
           "centre_y": 1335,
           "crop": [
-            1500,
+            1445,
             1286,
-            1090,
+            1206,
             97
           ],
           "context_crop": [
-            1500,
+            1445,
             1170,
-            1090,
+            1206,
             330
           ],
           "observed_text": "to nagara. Ainda que ſeja couſa de pejo,",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:30ab954d5e8ac5795360dd26d4362c3de3f317383414e6fbc1f991a4c6cdf6a0"
         },
         {
           "id": "c2-l016",
           "centre_y": 1397,
           "crop": [
-            1500,
+            1445,
             1348,
-            1090,
+            1206,
             97
           ],
           "context_crop": [
-            1500,
+            1445,
             1232,
-            1090,
+            1206,
             330
           ],
           "observed_text": "& atreuimento.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:566abf584c45bdd555428b3e321de8bc78bd17c9c40be335774a1fdb14426a84"
         },
         {
           "id": "c2-l017",
           "centre_y": 1458,
           "crop": [
-            1500,
+            1445,
             1409,
-            1090,
+            1206,
             98
           ],
           "context_crop": [
-            1500,
+            1445,
             1293,
-            1090,
+            1206,
             330
           ],
           "observed_text": "Bin. Came. Bule, ou pichel.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:27d5e4d04bb8b683acc66287bf543ecd42fdf38b63aa07337acd8794a55bf79b"
         },
         {
           "id": "c2-l018",
           "centre_y": 1520,
           "crop": [
-            1500,
+            1445,
             1472,
-            1090,
+            1206,
             96
           ],
           "context_crop": [
-            1500,
+            1445,
             1355,
-            1090,
+            1206,
             330
           ],
           "observed_text": "Binan. Itçucuxij vonoco. Gentil homem.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:b76c83ac4503759bee9715b606be364963a363da86df5e7632cb46ab49bd78f6"
         },
         {
           "id": "c2-l019",
           "centre_y": 1581,
           "crop": [
-            1500,
+            1445,
             1532,
-            1090,
+            1206,
             98
           ],
           "context_crop": [
-            1500,
+            1445,
             1416,
-            1090,
+            1206,
             330
           ],
-          "observed_text": "¶ Binanuo ſuru. Enfeitarſe, ou ataviar",
-          "match": "strong",
+          "observed_text": "¶ Binanuo iuu. Enfeitar ſe, ou ataviar",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:97a2af48ecee2ba5f17599a1e5431f5efb34279fa444ec8459c6f4c0f7502d78"
         },
         {
           "id": "c2-l020",
           "centre_y": 1643,
           "crop": [
-            1500,
+            1445,
             1594,
-            1090,
+            1206,
             98
           ],
           "context_crop": [
-            1500,
+            1445,
             1478,
-            1090,
+            1206,
             330
           ],
-          "observed_text": "ſe aſſi homẽs, como molheres.",
-          "match": "strong",
+          "observed_text": "ſe aſsi homẽs, como molheres.",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:91b666efd18f0a01f3814ba04715381099e9add23bbeac6e3976c4d8cbaa0a55"
         },
         {
           "id": "c2-l021",
           "centre_y": 1704,
           "crop": [
-            1500,
+            1445,
             1656,
-            1090,
+            1206,
             96
           ],
           "context_crop": [
-            1500,
+            1445,
             1539,
-            1090,
+            1206,
             330
           ],
           "observed_text": "Binanbôxi. Hũas toucas com que os homẽs,",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:b90df7836798c1ad2c5be7d98a1709efcdbd0f67abfbb2f3f0170910038b4492"
         },
         {
           "id": "c2-l022",
           "centre_y": 1766,
           "crop": [
-            1500,
+            1445,
             1717,
-            1090,
+            1206,
             98
           ],
           "context_crop": [
-            1500,
+            1445,
             1601,
-            1090,
+            1206,
             330
           ],
-          "observed_text": "ou molheres amarão a cabeça deixando hũas põ-",
-          "match": "strong",
+          "observed_text": "ou molheres amarrão a cabeça deixando hũas pon-",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:ce14eede251d4ed2525c67ccd32ce4a8023d79908dc3b339f7b7a681d78e47b8"
         },
         {
           "id": "c2-l023",
           "centre_y": 1827,
           "crop": [
-            1500,
+            1445,
             1778,
-            1090,
+            1206,
             98
           ],
           "context_crop": [
-            1500,
+            1445,
             1662,
-            1090,
+            1206,
             330
           ],
           "observed_text": "tas compridas como fazem os q̃ danção, &c.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:089e89727f3903f09bd7cde1d0fc252a67c54d9cf3c0737e21048123d348d0e3"
         },
         {
           "id": "c2-l024",
           "centre_y": 1889,
           "crop": [
-            1500,
+            1445,
             1841,
-            1090,
+            1206,
             96
           ],
           "context_crop": [
-            1500,
+            1445,
             1724,
-            1090,
+            1206,
             330
           ],
-          "observed_text": "Binbô. Tonoxũ madexi. Pobreza.",
-          "match": "strong",
+          "observed_text": "Binbô. Tomoxŭ madoxi. Pobreza.",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:3afdf6f98851365d0ea807bcdfd7d5e10e7d10d27c074159d8c73359d495719e"
         },
         {
           "id": "c2-l025",
           "centre_y": 1950,
           "crop": [
-            1500,
+            1445,
             1901,
-            1090,
+            1206,
             98
           ],
           "context_crop": [
-            1500,
+            1445,
             1785,
-            1090,
+            1206,
             330
           ],
           "observed_text": "¶ Binbôni naru. Empobrecer.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:8ee274ca23a6db6e8281f82635750d04b3ebcdcb5bbc590d302fc893f6f25774"
         },
         {
           "id": "c2-l026",
           "centre_y": 2011,
           "crop": [
-            1500,
+            1445,
             1962,
-            1090,
+            1206,
             98
           ],
           "context_crop": [
-            1500,
+            1445,
             1846,
-            1090,
+            1206,
             330
           ],
           "observed_text": "Binbônin. Pobre miſerauel.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:00283e0538b66c383193fd4e155261bf91f2683cce73ed20101dae280e031646"
         },
         {
           "id": "c2-l027",
           "centre_y": 2073,
           "crop": [
-            1500,
+            1445,
             2025,
-            1090,
+            1206,
             96
           ],
           "context_crop": [
-            1500,
+            1445,
             1908,
-            1090,
+            1206,
             330
           ],
           "observed_text": "Binbôna. Pobre, ou couſa de pobreza.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:d74aa5a09e031374b9a50260c64912767d174fc9502f6da31ccc3675f1f62e4c"
         },
         {
           "id": "c2-l028",
           "centre_y": 2134,
           "crop": [
-            1500,
+            1445,
             2085,
-            1090,
+            1206,
             98
           ],
           "context_crop": [
-            1500,
+            1445,
             1969,
-            1090,
+            1206,
             330
           ],
           "observed_text": "Binbôni.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:f883d8747e5218746babc75e756f56bd3bba2a4a0303c9ad458d6194b5692b8c"
         },
         {
           "id": "c2-l029",
           "centre_y": 2196,
           "crop": [
-            1500,
+            1445,
             2147,
-            1090,
+            1206,
             98
           ],
           "context_crop": [
-            1500,
+            1445,
             2031,
-            1090,
+            1206,
             330
           ],
           "observed_text": "Binbôſa.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:a3d23fe205a1f71c54dbd5c038fcd13d1ff369dfd74582084b3763708bda99ee"
         },
         {
           "id": "c2-l030",
           "centre_y": 2257,
           "crop": [
-            1500,
+            1445,
             2209,
-            1090,
+            1206,
             96
           ],
           "context_crop": [
-            1500,
+            1445,
             2092,
-            1090,
+            1206,
             330
           ],
           "observed_text": "Bingachô. Hum certo paſſaro.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:097dcb00adfb9a69206531363237eb4d7dcf26147b882c037d6e10594488da58"
         },
         {
           "id": "c2-l031",
           "centre_y": 2319,
           "crop": [
-            1500,
+            1445,
             2270,
-            1090,
+            1206,
             98
           ],
           "context_crop": [
-            1500,
+            1445,
             2154,
-            1090,
+            1206,
             330
           ],
-          "observed_text": "Bincagami. Eſpelho pequeno de que vzão os",
-          "match": "strong",
+          "observed_text": "Bincagami. Eſpelho pequeno de que vſão os",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:2c00221720a1e3c28f15ba8de9bcd4a2ef1ff2d0f35ac8249239bac72947afb0"
         },
         {
           "id": "c2-l032",
           "centre_y": 2380,
           "crop": [
-            1500,
+            1445,
             2332,
-            1090,
+            1206,
             97
           ],
           "context_crop": [
-            1500,
+            1445,
             2215,
-            1090,
+            1206,
             330
           ],
           "observed_text": "homẽs.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:2b4b098d7676dcd14c6ab63d4bf4d2245b461314cb9dc57867f18263a62cbe21"
         },
         {
           "id": "c2-l033",
           "centre_y": 2442,
           "crop": [
-            1500,
+            1445,
             2394,
-            1090,
+            1206,
             97
           ],
           "context_crop": [
-            1500,
+            1445,
             2277,
-            1090,
+            1206,
             330
           ],
-          "observed_text": "Bincǒgai. Hum inſtrumento de bambu com q̃",
-          "match": "strong",
+          "observed_text": "Bincôgai. Hum inſtrumento de bambu, u com q̃",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:8932617c2ffae8c9fd2fa82009322383c87d252c93c1a1cd03f29869a3ba4891"
         },
         {
           "id": "c2-l034",
           "centre_y": 2503,
           "crop": [
-            1500,
+            1445,
             2454,
-            1090,
+            1206,
             98
           ],
           "context_crop": [
-            1500,
+            1445,
             2338,
-            1090,
+            1206,
             330
           ],
           "observed_text": "os homẽs concertão os cabellos.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:248a7a60b65744a81c87b7b60283e2e7452a3f89e2b7933ab27004ccc627e47d"
         },
         {
           "id": "c2-l035",
           "centre_y": 2564,
           "crop": [
-            1500,
+            1445,
             2516,
-            1090,
+            1206,
             97
           ],
           "context_crop": [
-            1500,
+            1445,
             2399,
-            1090,
+            1206,
             330
           ],
-          "observed_text": "Bindarai. Vazilha em que molhão o pentem",
-          "match": "strong",
+          "observed_text": "Bindarai. Vazija em que molhão o pentem",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:5e59d41f2c55a02448a33626de70ae1603024015e7ee283ce77a35b2f1559349"
         },
         {
           "id": "c2-l036",
           "centre_y": 2626,
           "crop": [
-            1500,
+            1445,
             2578,
-            1090,
+            1206,
             97
           ],
           "context_crop": [
-            1500,
+            1445,
             2461,
-            1090,
+            1206,
             330
           ],
           "observed_text": "pera concertar os cabellos dos homẽs.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:43134746ab547511b278f5063f8e0680bf0d832091f34cfd7b04aed442efa181"
         },
         {
           "id": "c2-l037",
           "centre_y": 2687,
           "crop": [
-            1500,
+            1445,
             2638,
-            1090,
+            1206,
             98
           ],
           "context_crop": [
-            1500,
+            1445,
             2522,
-            1090,
+            1206,
             330
           ],
           "observed_text": "Bingue. Idem. Alicubi.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:f53b24abfd47e65809bb79f97db029c1696aa449a87b91d9d0abbaa045d85440"
         },
         {
           "id": "c2-l038",
           "centre_y": 2749,
           "crop": [
-            1500,
+            1445,
             2700,
-            1090,
+            1206,
             97
           ],
           "context_crop": [
-            1500,
+            1445,
             2584,
-            1090,
+            1206,
             330
           ],
-          "observed_text": "Bingǔ. Mazzuxij quamanu. Pobreza extre-",
-          "match": "strong",
+          "observed_text": "Bingŭ. Mazzuxij quiamau. Pobreza extre-",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:56e37434da3a1aba188bdc12cae5c096947ecb02a2f64c0b1d229fb14dea1df8"
         },
         {
           "id": "c2-l039",
           "centre_y": 2810,
           "crop": [
-            1500,
+            1445,
             2762,
-            1090,
+            1206,
             97
           ],
           "context_crop": [
-            1500,
+            1445,
             2645,
-            1090,
+            1206,
             330
           ],
-          "observed_text": "ma. ¶ Bingǔ guexen. Pobreza & vileza.",
-          "match": "strong",
+          "observed_text": "ma. ¶ Bingŭguexen. Pobreza & vileza.",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:245e1f9ed3b33f7df7ad492f05d2c356ef3a4fb21016a0dd7c2c4f6786088f84"
         },
         {
           "id": "c2-l040",
           "centre_y": 2872,
           "crop": [
-            1500,
+            1445,
             2823,
-            1090,
+            1206,
             98
           ],
           "context_crop": [
-            1500,
+            1445,
             2707,
-            1090,
+            1206,
             330
           ],
           "observed_text": "Bingui. i. Tayori. Bom portador, opportu-",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:d81533cdef7a80bb2bd2681afb88ec13fdd3d41e1203a6257d195e7bee8d2a90"
         },
         {
           "id": "c2-l041",
           "centre_y": 2933,
           "crop": [
-            1500,
+            1445,
             2885,
-            1090,
+            1206,
             96
           ],
           "context_crop": [
-            1500,
+            1445,
             2768,
-            1090,
+            1206,
             330
           ],
-          "observed_text": "nidade, & ocasião. ¶ Binguini maca-",
-          "match": "strong",
+          "observed_text": "nidade, & ocaſião. ¶ Binguini maca-",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:5e9848a80a1a660b9e6f4f7eb4a1183438aed764f387a72427ca91e345c090a7"
         },
         {
           "id": "c2-l042",
           "centre_y": 2995,
           "crop": [
-            1500,
+            1445,
             2946,
-            1090,
+            1206,
             98
           ],
           "context_crop": [
-            1500,
+            1445,
             2830,
-            1090,
+            1206,
             330
           ],
-          "observed_text": "xete tçumiuo caqu. Eſcreuer carta offere-",
-          "match": "strong",
+          "observed_text": "xete fimauo caqu. Eſcreuer carta offere-",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:7687bd8a7cbddc3e78e3285e7dde9b8e0ec78beb1e4bf19bfec193ea2acf426d"
         },
         {
           "id": "c2-l043",
           "centre_y": 3056,
           "crop": [
-            1500,
+            1445,
             3007,
-            1090,
+            1206,
             98
           ],
           "context_crop": [
-            1500,
+            1445,
             2891,
-            1090,
+            1206,
             330
           ],
-          "observed_text": "cendoſe bom portador, ou boa ocasião.",
-          "match": "strong",
+          "observed_text": "cendoſe bom portador, ou boa ocaſião.",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:7f39a4b76b411a62ab68f5b46e97bbdf32ad036c0f2684597517c78b71a62d97"
         },
         {
           "id": "c2-l044",
           "centre_y": 3117,
           "crop": [
-            1500,
+            1445,
             3069,
-            1090,
+            1206,
             96
           ],
           "context_crop": [
-            1500,
+            1445,
             2952,
-            1090,
+            1206,
             330
           ],
-          "observed_text": "Binguxi. Pentem de dentes muito miudos cõ",
-          "match": "strong",
+          "observed_text": "Binguixi. Pentem de dentes muito miudos cõ",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:5d8a199e5947784d29c5a421740b714b6d49700c8d26a52028a97f9a1279639d"
         },
         {
           "id": "c2-l045",
           "centre_y": 3179,
           "crop": [
-            1500,
+            1445,
             3130,
-            1090,
+            1206,
             98
           ],
           "context_crop": [
-            1500,
+            1445,
             3014,
-            1090,
+            1206,
             330
           ],
           "observed_text": "que os homẽs concertão o cabello da cabeça.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:f40afc882390fd81f6cedd9982ebe72e1cbe705edf6a3b6f450af0f6a35f4879"
         },
         {
           "id": "c2-l046",
           "centre_y": 3240,
           "crop": [
-            1500,
+            1445,
             3191,
-            1090,
+            1206,
             98
           ],
           "context_crop": [
-            1500,
+            1445,
             3075,
-            1090,
+            1206,
             330
           ],
-          "observed_text": "Binjǒ. Carta que ſe enuia per algũa ocasião,",
-          "match": "strong",
+          "observed_text": "Binjǒ. Carta que ſe enuia por algũa ocaſião,",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:0ad355c839f42909f996cf182b729e9558978c484120dfe4d19c03757adb998a"
         },
         {
           "id": "c2-l047",
           "centre_y": 3302,
           "crop": [
-            1500,
+            1445,
             3254,
-            1090,
+            1206,
             96
           ],
           "context_crop": [
-            1500,
+            1445,
             3160,
-            1090,
+            1206,
             285
           ],
-          "observed_text": "ou opportunidade que ſe offereçe.",
-          "match": "strong",
+          "observed_text": "ou oportunidade que ſe offereçe.",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:c368b6672eb6fec17c7db9153b94d746a81384cce5a7c018a4890c9c80e87246"
         }
       ]
     }
-  }
+  },
+  "geometry_review_status": "completed",
+  "text_review_status": "completed",
+  "review_note": "Every physical body line was independently read from the native-resolution scan before canonical comparison; every returned crop was checked for complete left/right and top/bottom ink in page context and swept top-to-bottom by column."
 }

@@ -19,11 +19,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l003` | Binpat. Binno cami. *Cabellos das fontes da* |  |
 | `c1-l004` | &emsp;*cabeça. ¶* Binpatuo qezzuru. *Pentear* |  |
 | `c1-l005` | &emsp;*os cabellos das fontes.* |  |
-| `c1-l006` | Binpǔ, l, fǔbin. Tayori tayori. *Oppor* |  |
+| `c1-l006` | Binpǔ, l, fǔbin. Tayori tayori. *Oppor-* |  |
 | `c1-l007` | &emsp;*tunidade, ocasião.* |  |
-| `c1-l008` | Binro. Tayorino michi. *Comercio, ou cõ* |  |
+| `c1-l008` | Binro. Tayorino michi. *Comercio, ou cõ-* |  |
 | `c1-l009` | &emsp;*municação de recados, ou portador. ¶ Vt,* |  |
-| `c1-l010` | &emsp;Binrogatayuru. *Atalharſe, ou impedir* |  |
+| `c1-l010` | &emsp;Binroga tayuru. *Atalharſe, ou impedir* |  |
 | `c1-l011` | &emsp;*ſe a communicação, & comercio, cami-* |  |
 | `c1-l012` | &emsp;*nho, &c.* |  |
 | `c1-l013` | Binrǒji. *Arêca que em Iapão vzão por me-* |  |
@@ -37,16 +37,16 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l021` | &emsp;*ſombra de outros.* |  |
 | `c1-l022` | Binzzura. *Fontes da cabeça.* |  |
 | `c1-l023` | Biǒ. *Prègos belmazes, tachas, ou brochas de* |  |
-| `c1-l024` | &emsp;*cabeça redonda. ¶ Item, Hũa cabecinha re-* |  |
+| `c1-l024` | &emsp;*cabeça redõda. ¶ Item, Hũa cabecinha re-* |  |
 | `c1-l025` | &emsp;*donda que esta na ponta do ferro da frecha.* |  |
 | `c1-l026` | Biǒbu. Cajeuo fuxegu. *Hũa maneira de* |  |
 | `c1-l027` | &emsp;*panneis groſſos que ſe tem por ſi em pee, de que* |  |
 | `c1-l028` | &emsp;*vzão os Iapoẽs pera ornato das caſas, & pera* |  |
-| `c1-l029` | &emsp;*contra o vento, &c. ¶* Biǒbu uo caye- |  |
+| `c1-l029` | &emsp;*contra o vento, &c. ¶* Biǒbuuo caye- |  |
 | `c1-l030` | &emsp;ſugi gotocu, vma yori maſſacalamani vo- |  |
 | `c1-l031` | &emsp;chita. *Cabio do caualo de pernas arriba a* |  |
-| `c1-l032` | &emsp;*maneira de* Biǒbus *que caem pera traz, dan-* |  |
-| `c1-l033` | &emsp;*do comſigo no chão.* |  |
+| `c1-l032` | &emsp;*maneira de* Biǒbus *que caem pera traz dan-* |  |
+| `c1-l033` | &emsp;*do cõſigo no chão.* |  |
 | `c1-l034` | Biǒbu caqe. *Instrumento como gancho de* |  |
 | `c1-l035` | &emsp;*pao que tem mão nos* Biǒbus *que não caião.* |  |
 | `c1-l036` | Biǒca. Biǒjano iye. *Caſa de doentes.* |  |
@@ -57,8 +57,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l041` | Biǒcu. Vazzurai, curuximi. *Dores, ou tor-* |  |
 | `c1-l042` | &emsp;*mentos cauſados de doença.* |  |
 | `c1-l043` | Biǒdô. Tairacani fitoxi. *Igualdade de cou-* |  |
-| `c1-l044` | &emsp;*ſas que estão prainas. ¶ Item, Permei. E-* |  |
-| `c1-l045` | &emsp;*quidade, & iustiça.* |  |
+| `c1-l044` | &emsp;*ſas que estão prainas. ¶ Item, Permet. E-* |  |
+| `c1-l045` | &emsp;*quidade & iustiça.* |  |
 | `c1-l046` | Biǒdôna. *Couſa igual, ou praina. ¶ Itẽ,* |  |
 | `c1-l047` | &emsp;*Couſa iusta, & igual.* |  |
 
@@ -99,12 +99,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l019` | Biǒqina. *Doente.* Biǒqini. *Adu.* |  |
 | `c2-l020` | Biǒrǒ. Yamaino tçucare. *Fraqueza, &* |  |
 | `c2-l021` | &emsp;*canſaço da doença.* |  |
-| `c2-l022` | Biǒtai. Vazzuro tai. *Corpo doente, enfermo.* |  |
+| `c2-l022` | Biǒtai. Vazzurǒ tai. *Corpo doente, enfermo.* |  |
 | `c2-l023` | &emsp;*¶* Biǒtai degozaru. *Ser doente, ou* |  |
 | `c2-l024` | &emsp;*enfermo.* |  |
 | `c2-l025` | Biǒxi. Vazzurai xiſuru. *O morrer da do-* |  |
 | `c2-l026` | &emsp;*ença.* |  |
-| `c2-l027` | Biǒxin. Vazzurǒmi. *Corpo enfermo.* |  |
+| `c2-l027` | Biǒxin. Vazzurǒ mi. *Corpo enfermo.* |  |
 | `c2-l028` | Biǒxit. Yami. *Doença.* |  |
 | `c2-l029` | Biǒxǒ. Yamaino yuca. *Catre, ou cama* |  |
 | `c2-l030` | &emsp;*do doente.* |  |
@@ -112,8 +112,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l032` | &emsp;*ença.* |  |
 | `c2-l033` | Biôxo. Facadocoro. *Sepultura, ou lugar* |  |
 | `c2-l034` | &emsp;*de ſepulturas.* |  |
-| `c2-l035` | Biqei. i. Yoiqei. *Fermoſa vista.* |  |
-| `c2-l036` | Biqen. Vtçucuxũ cauo yoxi. *Rosto fer-* |  |
+| `c2-l035` | Biqei. i. Yoi qei. *Fermoſa vista.* |  |
+| `c2-l036` | Biqen. Vtçucuxŭ cauo yoxi. *Rosto fer-* |  |
 | `c2-l037` | &emsp;*moſo, ou fermoſura.* |  |
 | `c2-l038` | Biqen. Itçucuxij inu. *Cão fermoſo.* |  |
 | `c2-l039` | Biqin. *Alicubi.* Fanagami. *Papel de aſ-* |  |

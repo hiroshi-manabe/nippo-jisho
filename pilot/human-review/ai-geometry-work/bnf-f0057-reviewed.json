@@ -3,9 +3,23 @@
   "format_version": 1,
   "page": "bnf-f0057",
   "response_status": "completed_independent_ai_line_review",
-  "observed_text_provenance": "Every physical body line was visually inspected at enlarged crop level against the supplied f0057 scan, with line geometry rechecked on the full-page image. observed_text records the scan reading; the canonical Level 1 transcription was consulted only as a comparison/adjudication aid after visual inspection, and visible disagreements are retained rather than normalized. expected_line_version values are preserved unchanged.",
+  "default_response_mode": "geometry_and_text",
+  "completion_statuses": {
+    "geometry_and_text": {
+      "geometry_review_status": "completed",
+      "text_review_status": "completed"
+    },
+    "geometry_only_fallback": {
+      "geometry_review_status": "completed",
+      "text_review_status": "not_completed"
+    }
+  },
+  "observed_text_provenance": "Must be written independently from each proposed crop before consulting the canonical transcription. Null means that this line has not yet been read.",
   "coordinate_space": "native Gallica master pixels",
   "rectangle_format": "[x, y, width, height]",
+  "geometry_acceptance": "Inspect every isolated crop at full practical size against the full page; confirm complete first and last glyphs and all top/bottom ink; do not infer horizontal completeness from line identity or vertical centering; then sweep each column top-to-bottom for repeated clipping, especially the outer/right edge of column 2. Conservative rule-to-rule width and necessary neighboring-line overlap are allowed.",
+  "text_acceptance": "Read the print independently before consulting the canonical line. Preserve visible historical spelling, spacing, diacritics, and long s; do not normalize, copy the canonical text, or guess merely to complete a field. Returned text is advisory until separately adjudicated against the scan.",
+  "lineation_discrepancy": "If the printed number or order of physical lines differs from the task, do not invent a blank continuation, shift IDs, or renumber the response. Mark the response incomplete and report the first divergence so the canonical lineation can be corrected and the task regenerated.",
   "source": {
     "filename": "f0057.jpg",
     "width": 2672,
@@ -15,1921 +29,2017 @@
   },
   "transcription_source": {
     "page_file": "pilot/format-v1-trial/level1/bnf-f0057.json",
-    "page_file_sha256": "b617d5cb2c4f1f09563971ce01f874eb33a53f40019c0d522870b3283e240861"
+    "page_file_sha256": "a029aa3ff6df1fafa5059ddabd3ab5fda2e5dc23534464ece4d6750bbeb872af"
   },
   "columns": {
     "column-1": {
       "column_box_xyxy": [
-        180,
+        140,
         300,
-        1220,
+        1265,
         3420
       ],
       "zone_ids": [
         "column-1"
       ],
-      "initial_geometry_provenance": "contact_sheet_reviewed",
-      "initial_geometry_reviewed_at": "2026-08-01",
-      "geometry_requires_line_by_line_review": false,
+      "initial_geometry_provenance": "external_ai_width_rechecked",
+      "initial_geometry_reviewed_at": "2026-08-13",
+      "geometry_requires_line_by_line_review": true,
       "lines": [
         {
           "id": "c1-l001",
-          "centre_y": 470,
+          "centre_y": 425,
           "crop": [
-            180,
-            422,
-            1040,
+            140,
+            377,
+            1125,
             96
           ],
           "context_crop": [
-            180,
-            305,
-            1040,
+            140,
+            260,
+            1125,
             330
           ],
-          "observed_text": "Bin mizzu. Agoa pera concertarem o cabe-",
+          "observed_text": "Bin mizzu. Agoa pera concertarem o cabe",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:bd49288746bf281395ed2e7fa5c242c2066c6093f6c87007cf546da4a7fec555"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:d21273b1a2905693707f091c0721e94bb85172cadb171a1110b1b819ab5f927b"
         },
         {
           "id": "c1-l002",
-          "centre_y": 531,
+          "centre_y": 486,
           "crop": [
-            180,
-            482,
-            1040,
+            140,
+            437,
+            1125,
             98
           ],
           "context_crop": [
-            180,
-            366,
-            1040,
+            140,
+            321,
+            1125,
             330
           ],
           "observed_text": "da cabeça dos homẽs.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:33abb3ed1c41d6e735ea773b19759bcc3c6a6f9a817d8f1d7e0efe089976e162"
         },
         {
           "id": "c1-l003",
-          "centre_y": 593,
+          "centre_y": 548,
           "crop": [
-            180,
-            544,
-            1040,
+            140,
+            499,
+            1125,
             98
           ],
           "context_crop": [
-            180,
-            428,
-            1040,
+            140,
+            383,
+            1125,
             330
           ],
-          "observed_text": "Binpat. Binno cami. Cabellos das fontes da",
-          "match": "strong",
+          "observed_text": "Binpat. Binuo cami. Cabellos das fontes da",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:012211b030ff04779cadbae3dd8889c6ccdcdf7cdd10c8b861afc4e671336ec8"
         },
         {
           "id": "c1-l004",
-          "centre_y": 654,
+          "centre_y": 609,
           "crop": [
-            180,
-            606,
-            1040,
+            140,
+            561,
+            1125,
             96
           ],
           "context_crop": [
-            180,
-            489,
-            1040,
+            140,
+            444,
+            1125,
             330
           ],
-          "observed_text": "cabeça. ¶ Binpatuo qezzuru. Pentear",
-          "match": "strong",
+          "observed_text": "cabeça. ¶ Binpatuo yezzuru. Pentear",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:f50360288f92f07eca5e12e6a085ac315c2218dd2a70815b79ba0b59ccc7ec29"
         },
         {
           "id": "c1-l005",
-          "centre_y": 715,
+          "centre_y": 670,
           "crop": [
-            180,
-            666,
-            1040,
+            140,
+            621,
+            1125,
             98
           ],
           "context_crop": [
-            180,
-            550,
-            1040,
+            140,
+            505,
+            1125,
             330
           ],
           "observed_text": "os cabellos das fontes.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:bb245201fc126496f8f79c5e6311a76e635657231d466dc463884d5c3ae4796c"
         },
         {
           "id": "c1-l006",
-          "centre_y": 777,
+          "centre_y": 732,
           "crop": [
-            180,
-            728,
-            1040,
+            140,
+            683,
+            1125,
             98
           ],
           "context_crop": [
-            180,
-            612,
-            1040,
+            140,
+            567,
+            1125,
             330
           ],
-          "observed_text": "Binpǔ, l, fǔbin. Tayori tayori. Oppor-",
-          "match": "strong",
+          "observed_text": "Binpŭ, l, Fibin. Tayori tayori. Opor-",
+          "match": "mismatch",
           "assessment": "readable",
-          "expected_line_version": "sha256:6976e3ba412fa96d3589c5dc1da235f7e03ec7047695a56b86443857098a352f"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:cbd26958dbb771347263bc646919345e52c1ac8eaaa56e5d591f1fb2afdce081"
         },
         {
           "id": "c1-l007",
-          "centre_y": 838,
+          "centre_y": 793,
           "crop": [
-            180,
-            790,
-            1040,
+            140,
+            745,
+            1125,
             96
           ],
           "context_crop": [
-            180,
-            673,
-            1040,
+            140,
+            628,
+            1125,
             330
           ],
-          "observed_text": "tunidade, ocasião.",
-          "match": "strong",
+          "observed_text": "tunidade, ocaſião.",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:7c0ee3904b52181fb09662a70e63e3e247c21ca996a3bf8c4bb2337ff72d0912"
         },
         {
           "id": "c1-l008",
-          "centre_y": 899,
+          "centre_y": 854,
           "crop": [
-            180,
-            850,
-            1040,
+            140,
+            805,
+            1125,
             98
           ],
           "context_crop": [
-            180,
-            734,
-            1040,
+            140,
+            689,
+            1125,
             330
           ],
           "observed_text": "Binro. Tayorino michi. Comercio, ou cõ-",
-          "match": "strong",
+          "match": "mismatch",
           "assessment": "readable",
-          "expected_line_version": "sha256:f71846911843e08ee3f1484f1cb3d9d90b144f0ebb41f02988313c30c996d9b5"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:2749ec37d88c17798491654efc0ec0c5637131d62ee15ca5a1e933ac7c24726b"
         },
         {
           "id": "c1-l009",
-          "centre_y": 960,
+          "centre_y": 915,
           "crop": [
-            180,
-            912,
-            1040,
+            140,
+            867,
+            1125,
             97
           ],
           "context_crop": [
-            180,
-            795,
-            1040,
+            140,
+            750,
+            1125,
             330
           ],
           "observed_text": "municação de recados, ou portador. ¶ Vt,",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:1be8b31e498c1663baf341543440100cac25ffd07a31dfedcfca7ba91a37aece"
         },
         {
           "id": "c1-l010",
-          "centre_y": 1022,
+          "centre_y": 977,
           "crop": [
-            180,
-            973,
-            1040,
+            140,
+            928,
+            1125,
             97
           ],
           "context_crop": [
-            180,
-            857,
-            1040,
+            140,
+            812,
+            1125,
             330
           ],
-          "observed_text": "Binrogatayuru. Atalharſe, ou impedir-",
-          "match": "strong",
+          "observed_text": "Binroga tayuru. Atalharſe, ou impedir",
+          "match": "mismatch",
           "assessment": "readable",
-          "expected_line_version": "sha256:4bc907697b483750f461469c198b29a5f447c2d29e6b3fff3e2960a93782a57f"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:20d80c9dc90878523e4a91f3da2c6e52522b108a1b3004a58753b4a1185072fa"
         },
         {
           "id": "c1-l011",
-          "centre_y": 1083,
+          "centre_y": 1038,
           "crop": [
-            180,
-            1034,
-            1040,
+            140,
+            989,
+            1125,
             98
           ],
           "context_crop": [
-            180,
-            918,
-            1040,
+            140,
+            873,
+            1125,
             330
           ],
           "observed_text": "ſe a communicação, & comercio, cami-",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:20e0845cbd6724f4950c74a904e3c0fe2bd89ed7964fa7e340bba17e275bb556"
         },
         {
           "id": "c1-l012",
-          "centre_y": 1144,
+          "centre_y": 1099,
           "crop": [
-            180,
-            1096,
-            1040,
+            140,
+            1051,
+            1125,
             97
           ],
           "context_crop": [
-            180,
-            979,
-            1040,
+            140,
+            934,
+            1125,
             330
           ],
           "observed_text": "nho, &c.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:4952bd72e6e4f98fe7bd14761748f72d97bb604407a05f9b1a197aeb8f622cd7"
         },
         {
           "id": "c1-l013",
-          "centre_y": 1206,
+          "centre_y": 1161,
           "crop": [
-            180,
-            1157,
-            1040,
+            140,
+            1112,
+            1125,
             97
           ],
           "context_crop": [
-            180,
-            1041,
-            1040,
+            140,
+            996,
+            1125,
             330
           ],
-          "observed_text": "Binrǒji. Arêca que em Iapão vzão por me-",
-          "match": "strong",
+          "observed_text": "Binroji. Areca que em Iapão vſão por me-",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:172a930069687d3d7e2ed0c1244b7adccbb6080ea1ba42198869dd5f1c3ea2b8"
         },
         {
           "id": "c1-l014",
-          "centre_y": 1267,
+          "centre_y": 1222,
           "crop": [
-            180,
-            1218,
-            1040,
+            140,
+            1173,
+            1125,
             98
           ],
           "context_crop": [
-            180,
-            1102,
-            1040,
+            140,
+            1057,
+            1125,
             330
           ],
           "observed_text": "zinha.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:d8df33bd2b791515ad2b380c3bdf38285e585183c701ec4b1a6797095ea92655"
         },
         {
           "id": "c1-l015",
-          "centre_y": 1328,
+          "centre_y": 1283,
           "crop": [
-            180,
-            1280,
-            1040,
+            140,
+            1235,
+            1125,
             97
           ],
           "context_crop": [
-            180,
-            1163,
-            1040,
+            140,
+            1118,
+            1125,
             330
           ],
           "observed_text": "Bintat. Diligẽcia, & habilidade no eſtudo das",
-          "match": "strong",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:669edfc7add1f61d34b1fdd672e081711731139683f3433c2873d0a0cfc05c56"
         },
         {
           "id": "c1-l016",
-          "centre_y": 1390,
+          "centre_y": 1345,
           "crop": [
-            180,
-            1341,
-            1040,
+            140,
+            1296,
+            1125,
             97
           ],
           "context_crop": [
-            180,
-            1225,
-            1040,
+            140,
+            1180,
+            1125,
             330
           ],
           "observed_text": "letras. ¶ Bintatna. Homem habil, &",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:b5f0243d250b391488d5bc2d23873090afcbc371b6ffe886f696c02e9e8872e1"
         },
         {
           "id": "c1-l017",
-          "centre_y": 1451,
+          "centre_y": 1406,
           "crop": [
-            180,
-            1402,
-            1040,
+            140,
+            1357,
+            1125,
             98
           ],
           "context_crop": [
-            180,
-            1286,
-            1040,
+            140,
+            1241,
+            1125,
             330
           ],
           "observed_text": "de bom engenho.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:2d73b068f2c39f5a8bf390bf932c44fe827c13f49c8f06aac6712eee7845a055"
         },
         {
           "id": "c1-l018",
-          "centre_y": 1512,
+          "centre_y": 1467,
           "crop": [
-            180,
-            1464,
-            1040,
+            140,
+            1419,
+            1125,
             96
           ],
           "context_crop": [
-            180,
-            1347,
-            1040,
+            140,
+            1302,
+            1125,
             330
           ],
           "observed_text": "Binxen. Tayorino fune. Embarcação em q̃",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:1b34beabda63ca4d0dba61b1bb3e8fd5c361990a7af2d5dd133b18866771f514"
         },
         {
           "id": "c1-l019",
-          "centre_y": 1573,
+          "centre_y": 1528,
           "crop": [
-            180,
-            1524,
-            1040,
+            140,
+            1479,
+            1125,
             98
           ],
           "context_crop": [
-            180,
-            1408,
-            1040,
+            140,
+            1363,
+            1125,
             330
           ],
-          "observed_text": "algũ vai ſem a fretar por ſi. ¶ Binxen",
-          "match": "strong",
+          "observed_text": "algum vai ſem a fretar por ſi. ¶ Binxen",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:58b3c7f50ddc51607688df8bccd67fc7af0bd7a3499520dd24c612ea13170188"
         },
         {
           "id": "c1-l020",
-          "centre_y": 1635,
+          "centre_y": 1590,
           "crop": [
-            180,
-            1586,
-            1040,
+            140,
+            1541,
+            1125,
             98
           ],
           "context_crop": [
-            180,
-            1470,
-            1040,
+            140,
+            1425,
+            1125,
             330
           ],
-          "observed_text": "ſuru. Ir neſta embarcação por ocasião, ou à",
-          "match": "strong",
+          "observed_text": "ſuru. Ir neſta embarcação por ocaſião, ou à",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:5c82cfe70731c12716e6dea31990e3407ee09a7940eef8bc9f5b28efcb8dd463"
         },
         {
           "id": "c1-l021",
-          "centre_y": 1696,
+          "centre_y": 1651,
           "crop": [
-            180,
-            1648,
-            1040,
+            140,
+            1603,
+            1125,
             96
           ],
           "context_crop": [
-            180,
-            1531,
-            1040,
+            140,
+            1486,
+            1125,
             330
           ],
           "observed_text": "ſombra de outros.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:04f82d39ac67d0218efbcdd406d7d81bbaa7c45cff341a26c25b0a368781d012"
         },
         {
           "id": "c1-l022",
-          "centre_y": 1757,
+          "centre_y": 1712,
           "crop": [
-            180,
-            1708,
-            1040,
+            140,
+            1663,
+            1125,
             98
           ],
           "context_crop": [
-            180,
-            1592,
-            1040,
+            140,
+            1547,
+            1125,
             330
           ],
           "observed_text": "Binzzura. Fontes da cabeça.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:18930a2880bd98df85929fe16dcc246e4810a151891489b53c84ef7019761d5e"
         },
         {
           "id": "c1-l023",
-          "centre_y": 1819,
+          "centre_y": 1774,
           "crop": [
-            180,
-            1770,
-            1040,
+            140,
+            1725,
+            1125,
             98
           ],
           "context_crop": [
-            180,
-            1654,
-            1040,
+            140,
+            1609,
+            1125,
             330
           ],
-          "observed_text": "Biǒ. Prègos belmazes, tachas, ou brochas de",
-          "match": "strong",
+          "observed_text": "Biǒ. Pregos belmazes, tachas, ou brochas de",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:14cdf8a2b95c672b100e40787b858b5509027977dc24c1d0f8d521f1dd9be33c"
         },
         {
           "id": "c1-l024",
-          "centre_y": 1880,
+          "centre_y": 1835,
           "crop": [
-            180,
-            1832,
-            1040,
+            140,
+            1787,
+            1125,
             96
           ],
           "context_crop": [
-            180,
-            1715,
-            1040,
+            140,
+            1670,
+            1125,
             330
           ],
-          "observed_text": "cabeça redonda. ¶ Item, Hũa cabecinha re-",
-          "match": "strong",
+          "observed_text": "cabeça redõda. ¶ Item, Hũa cabecinha re-",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:af6c6c58f3fe57eded03a3eab08df21b369db9b5a172438969e3ce8b5592df9d"
         },
         {
           "id": "c1-l025",
-          "centre_y": 1941,
+          "centre_y": 1896,
           "crop": [
-            180,
-            1892,
-            1040,
+            140,
+            1847,
+            1125,
             98
           ],
           "context_crop": [
-            180,
-            1776,
-            1040,
+            140,
+            1731,
+            1125,
             330
           ],
           "observed_text": "donda que eſta na ponta do ferro da frecha.",
-          "match": "strong",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:ef9efec34ee0b6fc0ce5d2621df5db46c737f90abca89dda006f18fd35c4164e"
         },
         {
           "id": "c1-l026",
-          "centre_y": 2003,
+          "centre_y": 1958,
           "crop": [
-            180,
-            1954,
-            1040,
+            140,
+            1909,
+            1125,
             98
           ],
           "context_crop": [
-            180,
-            1838,
-            1040,
+            140,
+            1793,
+            1125,
             330
           ],
-          "observed_text": "Biǒbu. Cajeuo fuxegu. Hũa maneira de",
-          "match": "strong",
+          "observed_text": "Biǒbi. Cayeto fuxegu. Hũa maneira de",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:7d4db32d21a47f080b506e6f38dfb0298dee0c0d2acfdc13345e1460c805983b"
         },
         {
           "id": "c1-l027",
-          "centre_y": 2064,
+          "centre_y": 2019,
           "crop": [
-            180,
-            2016,
-            1040,
+            140,
+            1971,
+            1125,
             96
           ],
           "context_crop": [
-            180,
-            1899,
-            1040,
+            140,
+            1854,
+            1125,
             330
           ],
-          "observed_text": "panneis groſſos que ſe tem por ſi em pee, de que",
-          "match": "strong",
+          "observed_text": "paineis groſſos que ſe tem por ſi em pee, de que",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:ac0cd8224d709cd1a4cc23fea575c8353dd5451dcebad52eefeab0a0e139e587"
         },
         {
           "id": "c1-l028",
-          "centre_y": 2125,
+          "centre_y": 2080,
           "crop": [
-            180,
-            2076,
-            1040,
+            140,
+            2031,
+            1125,
             98
           ],
           "context_crop": [
-            180,
-            1960,
-            1040,
+            140,
+            1915,
+            1125,
             330
           ],
-          "observed_text": "vzão os Iapões pera ornato das caſas, & pera",
-          "match": "strong",
+          "observed_text": "vſão os Iapões pera ornato das caſas, & pera",
+          "match": "mismatch",
           "assessment": "readable",
-          "expected_line_version": "sha256:e8c77f3688c0418bc15766228e14d60ac24a370ea2b020f7a41fd772e595bb07"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:ccf00353c10d50c996cd233b3ab4e71fb823a081ff90b4f14bb6e36de7deb218"
         },
         {
           "id": "c1-l029",
-          "centre_y": 2187,
+          "centre_y": 2142,
           "crop": [
-            180,
-            2138,
-            1040,
+            140,
+            2093,
+            1125,
             98
           ],
           "context_crop": [
-            180,
-            2022,
-            1040,
+            140,
+            1977,
+            1125,
             330
           ],
-          "observed_text": "contra o vento, &c. ¶ Biǒbu uo caye-",
-          "match": "strong",
+          "observed_text": "contra o vento, &c. ¶ Biǒbuuo caye-",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:661640e6a0395ff1a0de93b0cb6126d18d080fae7eb701f2b0fbc45dbfd39692"
         },
         {
           "id": "c1-l030",
-          "centre_y": 2248,
+          "centre_y": 2203,
           "crop": [
-            180,
-            2200,
-            1040,
+            140,
+            2155,
+            1125,
             96
           ],
           "context_crop": [
-            180,
-            2083,
-            1040,
+            140,
+            2038,
+            1125,
             330
           ],
-          "observed_text": "ſugi gotocu, vma yori maſſacalamani vo-",
-          "match": "strong",
-          "assessment": "readable",
+          "observed_text": "tagi gotocu, vma yori maſſacalamani vo-",
+          "match": "mismatch",
+          "assessment": "uncertain",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:760be1cead14bbb239bf0053e762653ecc9b26d2dc258162b91471989e8ef1f6"
         },
         {
           "id": "c1-l031",
-          "centre_y": 2309,
+          "centre_y": 2264,
           "crop": [
-            180,
-            2260,
-            1040,
+            140,
+            2215,
+            1125,
             98
           ],
           "context_crop": [
-            180,
-            2144,
-            1040,
+            140,
+            2099,
+            1125,
             330
           ],
-          "observed_text": "chita. Cabio do caualo de pernas arriba a",
-          "match": "strong",
+          "observed_text": "chita. Cahio do caualo de pernas arriba a",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:ebaf83ca1340c61692176d18eb7d044e217d784ac2542a3b170b3427615a2026"
         },
         {
           "id": "c1-l032",
-          "centre_y": 2370,
+          "centre_y": 2325,
           "crop": [
-            180,
-            2322,
-            1040,
+            140,
+            2277,
+            1125,
             97
           ],
           "context_crop": [
-            180,
-            2205,
-            1040,
+            140,
+            2160,
+            1125,
             330
           ],
-          "observed_text": "maneira de Biǒbus que caem pera traz, dan-",
-          "match": "strong",
+          "observed_text": "maneira de Biǒbus que caem pera traz dan-",
+          "match": "mismatch",
           "assessment": "readable",
-          "expected_line_version": "sha256:cce825e12194a4ffaea6e3927702ff81a8669117e4a5b332430b6159a2aaeeaf"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:0930fd1c336fe9922a8d00cf2a67cc3b33aaa177ced45b5827a2ea7f5581cc62"
         },
         {
           "id": "c1-l033",
-          "centre_y": 2432,
+          "centre_y": 2387,
           "crop": [
-            180,
-            2383,
-            1040,
+            140,
+            2338,
+            1125,
             97
           ],
           "context_crop": [
-            180,
-            2267,
-            1040,
+            140,
+            2222,
+            1125,
             330
           ],
-          "observed_text": "do comſigo no chão.",
-          "match": "strong",
+          "observed_text": "do cõſigo no chão.",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:18a625e33cda59255d399a9bfca66503d5bf770bf517ba6d5b45bdd1950ccf5c"
         },
         {
           "id": "c1-l034",
-          "centre_y": 2493,
+          "centre_y": 2448,
           "crop": [
-            180,
-            2444,
-            1040,
+            140,
+            2399,
+            1125,
             98
           ],
           "context_crop": [
-            180,
-            2328,
-            1040,
+            140,
+            2283,
+            1125,
             330
           ],
           "observed_text": "Biǒbu caqe. Inſtrumento como gancho de",
-          "match": "strong",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:d667799baae84ba2945434fadac24f1454611a7e3c7c46f9fb9534a28cb90141"
         },
         {
           "id": "c1-l035",
-          "centre_y": 2554,
+          "centre_y": 2509,
           "crop": [
-            180,
-            2506,
-            1040,
+            140,
+            2461,
+            1125,
             97
           ],
           "context_crop": [
-            180,
-            2389,
-            1040,
+            140,
+            2344,
+            1125,
             330
           ],
           "observed_text": "pao que tem mão nos Biǒbus que não caião.",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:10c669fa74f876e310816598ed1428400c5b4a5fcdd848ecd9fb4709aae3e9ab"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:6be1bd1f6c827447264d0539d78b6dba0e1f3824e839f88269b05bd65717729a"
         },
         {
           "id": "c1-l036",
-          "centre_y": 2616,
+          "centre_y": 2571,
           "crop": [
-            180,
-            2567,
-            1040,
+            140,
+            2522,
+            1125,
             97
           ],
           "context_crop": [
-            180,
-            2451,
-            1040,
+            140,
+            2406,
+            1125,
             330
           ],
           "observed_text": "Biǒca. Biǒjano iye. Caſa de doentes.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:6b91fc060f23356f1aa6f952e8a74b34c46cf62edb5e9994ab9d27cfc2894635"
         },
         {
           "id": "c1-l037",
-          "centre_y": 2677,
+          "centre_y": 2632,
           "crop": [
-            180,
-            2628,
-            1040,
+            140,
+            2583,
+            1125,
             98
           ],
           "context_crop": [
-            180,
-            2512,
-            1040,
+            140,
+            2467,
+            1125,
             330
           ],
-          "observed_text": "Biǒchǔ. Vazzuraino vchi. Eſtando doente,",
-          "match": "strong",
+          "observed_text": "Biochi. Vazzurauo vchi. Eſtando doente,",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:be919381405ffd96fed59c4f35571b4f7fe3aae01b2361769d4f65b0b7d21d40"
         },
         {
           "id": "c1-l038",
-          "centre_y": 2738,
+          "centre_y": 2693,
           "crop": [
-            180,
-            2690,
-            1040,
+            140,
+            2645,
+            1125,
             97
           ],
           "context_crop": [
-            180,
-            2573,
-            1040,
+            140,
+            2528,
+            1125,
             330
           ],
           "observed_text": "ou em tempo da doença.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:eb948ccdb20a8948c6efc4beee401035440635797773375c2d4263c3b58eea7f"
         },
         {
           "id": "c1-l039",
-          "centre_y": 2800,
+          "centre_y": 2755,
           "crop": [
-            180,
-            2751,
-            1040,
+            140,
+            2706,
+            1125,
             97
           ],
           "context_crop": [
-            180,
-            2635,
-            1040,
+            140,
+            2590,
+            1125,
             330
           ],
           "observed_text": "Biǒcon. Yamaino ne. Raiz, ou origem da",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:f2f1f437e04c464fbb004ce280ebf8822d0c3a9aca3e8fa6fcf869574560eba8"
         },
         {
           "id": "c1-l040",
-          "centre_y": 2861,
+          "centre_y": 2816,
           "crop": [
-            180,
-            2812,
-            1040,
+            140,
+            2767,
+            1125,
             98
           ],
           "context_crop": [
-            180,
-            2696,
-            1040,
+            140,
+            2651,
+            1125,
             330
           ],
           "observed_text": "doença.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:02835fa4c14a9deff09fbe27799edfcc73bcbc01b506ebb6b39257f62dd58dd2"
         },
         {
           "id": "c1-l041",
-          "centre_y": 2922,
+          "centre_y": 2877,
           "crop": [
-            180,
-            2874,
-            1040,
+            140,
+            2829,
+            1125,
             96
           ],
           "context_crop": [
-            180,
-            2757,
-            1040,
+            140,
+            2712,
+            1125,
             330
           ],
           "observed_text": "Biǒcu. Vazzurai, curuximi. Dores, ou tor-",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:86084424835a749a1f3a56c42b54419739d1c10ae77355be9b196dbccb6eca8e"
         },
         {
           "id": "c1-l042",
-          "centre_y": 2983,
+          "centre_y": 2938,
           "crop": [
-            180,
-            2934,
-            1040,
+            140,
+            2889,
+            1125,
             98
           ],
           "context_crop": [
-            180,
-            2818,
-            1040,
+            140,
+            2773,
+            1125,
             330
           ],
           "observed_text": "mentos cauſados de doença.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:8fec3844b9756ebf56962a4c1db6e5c277a27d5b8d3fa3db59209d71fd6f8948"
         },
         {
           "id": "c1-l043",
-          "centre_y": 3045,
+          "centre_y": 3000,
           "crop": [
-            180,
-            2996,
-            1040,
+            140,
+            2951,
+            1125,
             98
           ],
           "context_crop": [
-            180,
-            2880,
-            1040,
+            140,
+            2835,
+            1125,
             330
           ],
-          "observed_text": "Biǒdô. Tairacani fitoxi. Igualdade de cou-",
-          "match": "strong",
+          "observed_text": "Biǒdǒ. Tairacani fitoxi. Igualdade de cou-",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:41a5a1b3038ba24bd6c87b96c79fbdffdb27fa4f77583ef73bc95fc33ea377e7"
         },
         {
           "id": "c1-l044",
-          "centre_y": 3106,
+          "centre_y": 3061,
           "crop": [
-            180,
-            3058,
-            1040,
+            140,
+            3013,
+            1125,
             96
           ],
           "context_crop": [
-            180,
-            2941,
-            1040,
+            140,
+            2896,
+            1125,
             330
           ],
-          "observed_text": "ſas que eſtão prainas. ¶ Item, Permei. E-",
-          "match": "strong",
+          "observed_text": "ſas que eſtão prainas. ¶ Item, Permet. E-",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:ee00a7656bef6124a32854d892bfd23a29cbf289d277478184cc0f0404a49fa4"
         },
         {
           "id": "c1-l045",
-          "centre_y": 3167,
+          "centre_y": 3122,
           "crop": [
-            180,
-            3118,
-            1040,
+            140,
+            3073,
+            1125,
             98
           ],
           "context_crop": [
-            180,
-            3002,
-            1040,
+            140,
+            2957,
+            1125,
             330
           ],
-          "observed_text": "quidade, & iuſtiça.",
-          "match": "strong",
+          "observed_text": "quidade & iuſtiça.",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:07e8a1bc101aa8d60658d4ca1ac588740d6b549d0dd8e5af852cab9179187757"
         },
         {
           "id": "c1-l046",
-          "centre_y": 3229,
+          "centre_y": 3184,
           "crop": [
-            180,
-            3180,
-            1040,
+            140,
+            3135,
+            1125,
             98
           ],
           "context_crop": [
-            180,
-            3064,
-            1040,
+            140,
+            3019,
+            1125,
             330
           ],
-          "observed_text": "Biǒdôna. Couſa igual, ou praina. ¶ Itẽ,",
-          "match": "strong",
+          "observed_text": "Biǒdǒna. Couſa igual, ou praina. ¶ Itẽ,",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:8b383da2269f9d22c40fe96c7c1c2e637008e00c11d6ab12d71eb29918269ad5"
         },
         {
           "id": "c1-l047",
-          "centre_y": 3290,
+          "centre_y": 3245,
           "crop": [
-            180,
-            3242,
-            1040,
+            140,
+            3197,
+            1125,
             96
           ],
           "context_crop": [
-            180,
-            3125,
-            1040,
+            140,
+            3080,
+            1125,
             295
           ],
           "observed_text": "Couſa iuſta, & igual.",
-          "match": "strong",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:225a2106031496c442f5ced12c7868262f814174e2c7df8cda7ec94aecb6030a"
         }
       ]
     },
     "column-2": {
       "column_box_xyxy": [
-        1250,
+        1205,
         300,
-        2310,
+        2422,
         3420
       ],
       "zone_ids": [
         "column-2"
       ],
-      "initial_geometry_provenance": "contact_sheet_reviewed",
-      "initial_geometry_reviewed_at": "2026-08-01",
-      "geometry_requires_line_by_line_review": false,
+      "initial_geometry_provenance": "external_ai_width_rechecked",
+      "initial_geometry_reviewed_at": "2026-08-13",
+      "geometry_requires_line_by_line_review": true,
       "lines": [
         {
           "id": "c2-l001",
-          "centre_y": 470,
+          "centre_y": 425,
           "crop": [
-            1250,
-            422,
-            1060,
+            1205,
+            377,
+            1217,
             96
           ],
           "context_crop": [
-            1250,
-            305,
-            1060,
+            1205,
+            260,
+            1217,
             330
           ],
-          "observed_text": "Biǒdôni. Vt, Biǒdôni monouo voſamuru.",
-          "match": "strong",
+          "observed_text": "Biǒdǒni. Vt, Biǒdǒni monouo voſamuru.",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:71bae5afd586f0629cfc957dc1567a74f6ff1ffd6a968a00f7de8b6ad23d3e0e"
         },
         {
           "id": "c2-l002",
-          "centre_y": 531,
+          "centre_y": 486,
           "crop": [
-            1250,
-            482,
-            1060,
+            1205,
+            437,
+            1217,
             98
           ],
           "context_crop": [
-            1250,
-            366,
-            1060,
+            1205,
+            321,
+            1217,
             330
           ],
           "observed_text": "Gouernar com igualdade, & iuſtiça. ¶ Biǒ-",
-          "match": "strong",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:37f3ec41a4296571123f2a279379abb8f3aed2dc60f939131676080ba37db8af"
         },
         {
           "id": "c2-l003",
-          "centre_y": 593,
+          "centre_y": 548,
           "crop": [
-            1250,
-            544,
-            1060,
-            98
+            1205,
+            498,
+            1217,
+            100
           ],
           "context_crop": [
-            1250,
-            428,
-            1060,
+            1205,
+            383,
+            1217,
             330
           ],
-          "observed_text": "dôni monouo cubaru. Repartir alguã",
-          "match": "strong",
+          "observed_text": "dǒni monouo cubaru. Repartir algũa",
+          "match": "mismatch",
           "assessment": "readable",
-          "expected_line_version": "sha256:783dfd261e49d542c94ebda04dadc033616e0751d27fe83e61cad4e6b3688e7d"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:a826bcc9dd62ccb9a83abee29d8958a689183cf167b540c8e57502604e9d4d4a"
         },
         {
           "id": "c2-l004",
-          "centre_y": 654,
+          "centre_y": 609,
           "crop": [
-            1250,
-            606,
-            1060,
+            1205,
+            561,
+            1217,
             96
           ],
           "context_crop": [
-            1250,
-            489,
-            1060,
+            1205,
+            444,
+            1217,
             330
           ],
           "observed_text": "couſa igualmente.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:1a06c708dfa69ddef318d5c0f475cd79a023acc2c184da0b3c2e4915fa395bd1"
         },
         {
           "id": "c2-l005",
-          "centre_y": 715,
+          "centre_y": 670,
           "crop": [
-            1250,
-            666,
-            1060,
+            1205,
+            621,
+            1217,
             98
           ],
           "context_crop": [
-            1250,
-            550,
-            1060,
+            1205,
+            505,
+            1217,
             330
           ],
-          "observed_text": "Biǒdôzucuri. Certo feitio de arco da tirar.",
-          "match": "strong",
-          "assessment": "readable",
+          "observed_text": "Biǒdǒzucuri. Certo feitio de arco dairar.",
+          "match": "mismatch",
+          "assessment": "uncertain",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:3a42caa6f4e1c56698d0b6704780ba87e5c49069f1836d213f7e4885d09f52e8"
         },
         {
           "id": "c2-l006",
-          "centre_y": 777,
+          "centre_y": 732,
           "crop": [
-            1250,
-            728,
-            1060,
+            1205,
+            683,
+            1217,
             98
           ],
           "context_crop": [
-            1250,
-            612,
-            1060,
+            1205,
+            567,
+            1217,
             330
           ],
           "observed_text": "Biǒgan. Vazzurǒ manaco. Olhos doẽtes.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:932a8f7af2540909cdb61de87a895ef81702228697ed55b490093dcc8bd1562e"
         },
         {
           "id": "c2-l007",
-          "centre_y": 838,
+          "centre_y": 793,
           "crop": [
-            1250,
-            790,
-            1060,
+            1205,
+            745,
+            1217,
             96
           ],
           "context_crop": [
-            1250,
-            673,
-            1060,
+            1205,
+            628,
+            1217,
             330
           ],
-          "observed_text": "Biǒguen. Yamaj no minacami. Cauſa da do-",
-          "match": "strong",
+          "observed_text": "Biǒguen. Yamai no minacami. Cauſa da do-",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:6861c283602e738f7aa8f522d09eb0576599ce588af47e94632b9787ba7c1d1d"
         },
         {
           "id": "c2-l008",
-          "centre_y": 899,
+          "centre_y": 854,
           "crop": [
-            1250,
-            850,
-            1060,
+            1205,
+            805,
+            1217,
             98
           ],
           "context_crop": [
-            1250,
-            734,
-            1060,
+            1205,
+            689,
+            1217,
             330
           ],
-          "observed_text": "ença.",
-          "match": "strong",
+          "observed_text": "doença.",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:c8af3c1be523f0de62a5afa3c8d4dfee126fe961b453c338bef659ed93a98ccb"
         },
         {
           "id": "c2-l009",
-          "centre_y": 960,
+          "centre_y": 915,
           "crop": [
-            1250,
-            912,
-            1060,
+            1205,
+            867,
+            1217,
             97
           ],
           "context_crop": [
-            1250,
-            795,
-            1060,
+            1205,
+            750,
+            1217,
             330
           ],
           "observed_text": "Biǒgo. Yamaino nochi. Depois da doença.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:a823d4cdada04bbe987ead55a12ef550b207a7f1520719ef6853d15f69dd2d9f"
         },
         {
           "id": "c2-l010",
-          "centre_y": 1022,
+          "centre_y": 977,
           "crop": [
-            1250,
-            973,
-            1060,
+            1205,
+            928,
+            1217,
             97
           ],
           "context_crop": [
-            1250,
-            857,
-            1060,
+            1205,
+            812,
+            1217,
             330
           ],
           "observed_text": "Biǒin. Origem, ou principio da doença.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:c3581d0784789eae4eda3f1334b1ce1dbbcf8ede0eeb74ade3312324c6282d89"
         },
         {
           "id": "c2-l011",
-          "centre_y": 1083,
+          "centre_y": 1038,
           "crop": [
-            1250,
-            1034,
-            1060,
+            1205,
+            989,
+            1217,
             98
           ],
           "context_crop": [
-            1250,
-            918,
-            1060,
+            1205,
+            873,
+            1217,
             330
           ],
           "observed_text": "Biǒja. i. Vazzurǒ mono. Doente, enfermo.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:af8acd78fbbaff7720cb55bcb81246b0f07d0066156fb3525d03be764a2b2683"
         },
         {
           "id": "c2-l012",
-          "centre_y": 1144,
+          "centre_y": 1099,
           "crop": [
-            1250,
-            1096,
-            1060,
+            1205,
+            1051,
+            1217,
             97
           ],
           "context_crop": [
-            1250,
-            979,
-            1060,
+            1205,
+            934,
+            1217,
             330
           ],
           "observed_text": "Biǒnan. i. Yamaino nangui. Afflição, ou",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:08e7edcb0a5ac9556fd323d1ece3ebcf147e167ea3316cbbe6e659c8f1a0549f"
         },
         {
           "id": "c2-l013",
-          "centre_y": 1206,
+          "centre_y": 1161,
           "crop": [
-            1250,
-            1157,
-            1060,
+            1205,
+            1112,
+            1217,
             97
           ],
           "context_crop": [
-            1250,
-            1041,
-            1060,
+            1205,
+            996,
+            1217,
             330
           ],
           "observed_text": "pena da doença.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:05baeee708e071dc7c59f1cf2c14e1ddc6ccb42960c7e3c8ed7e81f2a300487b"
         },
         {
           "id": "c2-l014",
-          "centre_y": 1267,
+          "centre_y": 1222,
           "crop": [
-            1250,
-            1218,
-            1060,
+            1205,
+            1173,
+            1217,
             98
           ],
           "context_crop": [
-            1250,
-            1102,
-            1060,
+            1205,
+            1057,
+            1217,
             330
           ],
           "observed_text": "Biǒnin. i. Vazzurǒ fito, l, Yamǒdo. En-",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:b39c6a663df33b14ef7a2567dacbba432060194e82c8e694799237f43d93c39e"
         },
         {
           "id": "c2-l015",
-          "centre_y": 1328,
+          "centre_y": 1283,
           "crop": [
-            1250,
-            1280,
-            1060,
+            1205,
+            1235,
+            1217,
             97
           ],
           "context_crop": [
-            1250,
-            1163,
-            1060,
+            1205,
+            1118,
+            1217,
             330
           ],
           "observed_text": "fermo, ou doente.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:ecb64c266baeb52146f0383b352666d0a260b30e9549e84d78fd9ee2a81f7343"
         },
         {
           "id": "c2-l016",
-          "centre_y": 1390,
+          "centre_y": 1345,
           "crop": [
-            1250,
-            1341,
-            1060,
+            1205,
+            1296,
+            1217,
             97
           ],
           "context_crop": [
-            1250,
-            1225,
-            1060,
+            1205,
+            1180,
+            1217,
             330
           ],
-          "observed_text": "Biǒnǒ. i. Vazzurai nayamu coto. Pena,",
-          "match": "strong",
+          "observed_text": "Biǒrǒ. i. Vazzurai nayamu coto. Pena,",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:8834422f17183fc22601784d56dbe69af4b9680621b35167c3961e67bf540259"
         },
         {
           "id": "c2-l017",
-          "centre_y": 1451,
+          "centre_y": 1406,
           "crop": [
-            1250,
-            1402,
-            1060,
+            1205,
+            1357,
+            1217,
             98
           ],
           "context_crop": [
-            1250,
-            1286,
-            1060,
+            1205,
+            1241,
+            1217,
             330
           ],
           "observed_text": "& afflição que cauſa a doença.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:a3e0cd69ec9903a36f5a5455c5bbdd330ca4ce5f50bbff3f52c62a6879f5a638"
         },
         {
           "id": "c2-l018",
-          "centre_y": 1512,
+          "centre_y": 1467,
           "crop": [
-            1250,
-            1464,
-            1060,
+            1205,
+            1419,
+            1217,
             96
           ],
           "context_crop": [
-            1250,
-            1347,
-            1060,
+            1205,
+            1302,
+            1217,
             330
           ],
           "observed_text": "Biǒqi. Doença, & enfermidade.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:fb63d133e703ff187947348a87a7bcfe07f1a5457a0a2a004df684b775b44f19"
         },
         {
           "id": "c2-l019",
-          "centre_y": 1573,
+          "centre_y": 1528,
           "crop": [
-            1250,
-            1524,
-            1060,
+            1205,
+            1479,
+            1217,
             98
           ],
           "context_crop": [
-            1250,
-            1408,
-            1060,
+            1205,
+            1363,
+            1217,
             330
           ],
           "observed_text": "Biǒqina. Doente. Biǒqini. Adu.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:e84ab9559eb658e7c3657c458436d4afdd949f5772a8312e7d00bc1a70a9dcb0"
         },
         {
           "id": "c2-l020",
-          "centre_y": 1635,
+          "centre_y": 1590,
           "crop": [
-            1250,
-            1586,
-            1060,
+            1205,
+            1541,
+            1217,
             98
           ],
           "context_crop": [
-            1250,
-            1470,
-            1060,
+            1205,
+            1425,
+            1217,
             330
           ],
           "observed_text": "Biǒrǒ. Yamaino tçucare. Fraqueza, &",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:a2f3e7859346bea5180b0c848ef239e48083b656d33eae2c8a0e724689c99293"
         },
         {
           "id": "c2-l021",
-          "centre_y": 1696,
+          "centre_y": 1651,
           "crop": [
-            1250,
-            1648,
-            1060,
+            1205,
+            1603,
+            1217,
             96
           ],
           "context_crop": [
-            1250,
-            1531,
-            1060,
+            1205,
+            1486,
+            1217,
             330
           ],
           "observed_text": "canſaço da doença.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:bc0be6e14c4dc5bee6c306951ce509b877b5307a23bb24500924d896bfbc5a90"
         },
         {
           "id": "c2-l022",
-          "centre_y": 1757,
+          "centre_y": 1712,
           "crop": [
-            1250,
-            1708,
-            1060,
+            1205,
+            1663,
+            1217,
             98
           ],
           "context_crop": [
-            1250,
-            1592,
-            1060,
+            1205,
+            1547,
+            1217,
             330
           ],
-          "observed_text": "Biǒtai. Vazzuro tai. Corpo doente, enfermo.",
-          "match": "strong",
+          "observed_text": "Biǒtai. Vazzurǒ tai. Corpo doente, enfermo.",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:83d535b99219722910a3aebac345e1732d4f2c20f2df30d2989ed32e62e2f5fe"
         },
         {
           "id": "c2-l023",
-          "centre_y": 1819,
+          "centre_y": 1774,
           "crop": [
-            1250,
-            1770,
-            1060,
+            1205,
+            1725,
+            1217,
             98
           ],
           "context_crop": [
-            1250,
-            1654,
-            1060,
+            1205,
+            1609,
+            1217,
             330
           ],
           "observed_text": "¶ Biǒtai degozaru. Ser doente, ou",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:02b50d609e298749732581b6ba60fe9f97673be53053183a7cdfc54beaf35723"
         },
         {
           "id": "c2-l024",
-          "centre_y": 1880,
+          "centre_y": 1835,
           "crop": [
-            1250,
-            1832,
-            1060,
+            1205,
+            1787,
+            1217,
             96
           ],
           "context_crop": [
-            1250,
-            1715,
-            1060,
+            1205,
+            1670,
+            1217,
             330
           ],
           "observed_text": "enfermo.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:2bc58e54945fce7a75673043dfaf44bb0bfdc5db6f4581199bb2dca3a878b083"
         },
         {
           "id": "c2-l025",
-          "centre_y": 1941,
+          "centre_y": 1896,
           "crop": [
-            1250,
-            1892,
-            1060,
+            1205,
+            1847,
+            1217,
             98
           ],
           "context_crop": [
-            1250,
-            1776,
-            1060,
+            1205,
+            1731,
+            1217,
             330
           ],
-          "observed_text": "Biǒxi. Vazzurai xiſuru. O morrer da do-",
-          "match": "strong",
+          "observed_text": "Biǒxi. Vazzurai xifuru. O morrer da do-",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:72c51335bcec2403ce59c8518d54c1bb3b101a55c6d544f1fcd8dd0c58616ef3"
         },
         {
           "id": "c2-l026",
-          "centre_y": 2003,
+          "centre_y": 1958,
           "crop": [
-            1250,
-            1954,
-            1060,
+            1205,
+            1909,
+            1217,
             98
           ],
           "context_crop": [
-            1250,
-            1838,
-            1060,
+            1205,
+            1793,
+            1217,
             330
           ],
           "observed_text": "ença.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:028e4317d42a48b8a38378c9c6685d7d6c262abff5855f1f62c1ae56c99e31d6"
         },
         {
           "id": "c2-l027",
-          "centre_y": 2064,
+          "centre_y": 2019,
           "crop": [
-            1250,
-            2016,
-            1060,
+            1205,
+            1971,
+            1217,
             96
           ],
           "context_crop": [
-            1250,
-            1899,
-            1060,
+            1205,
+            1854,
+            1217,
             330
           ],
-          "observed_text": "Biǒxin. Vazzurǒmi. Corpo enfermo.",
-          "match": "strong",
+          "observed_text": "Biǒxin. Vazzurǒ mi. Corpo enfermo.",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:9d4b76f1a864d9849481de5eb04c0c406290535a3de52215cf5e5c87a35426b9"
         },
         {
           "id": "c2-l028",
-          "centre_y": 2125,
+          "centre_y": 2080,
           "crop": [
-            1250,
-            2076,
-            1060,
+            1205,
+            2031,
+            1217,
             98
           ],
           "context_crop": [
-            1250,
-            1960,
-            1060,
+            1205,
+            1915,
+            1217,
             330
           ],
           "observed_text": "Biǒxit. Yami. Doença.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:c599c091e4df096aa62aa8a9dcab3fd6481e7cff3af7bf4caca0f8caf6e85f59"
         },
         {
           "id": "c2-l029",
-          "centre_y": 2187,
+          "centre_y": 2142,
           "crop": [
-            1250,
-            2138,
-            1060,
+            1205,
+            2093,
+            1217,
             98
           ],
           "context_crop": [
-            1250,
-            2022,
-            1060,
+            1205,
+            1977,
+            1217,
             330
           ],
           "observed_text": "Biǒxǒ. Yamaino yuca. Catre, ou cama",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:39581ef76fa87925578cc3cc7ef391007be665365e4ae670e2fce8a7f76ab27a"
         },
         {
           "id": "c2-l030",
-          "centre_y": 2248,
+          "centre_y": 2203,
           "crop": [
-            1250,
-            2200,
-            1060,
+            1205,
+            2155,
+            1217,
             96
           ],
           "context_crop": [
-            1250,
-            2083,
-            1060,
+            1205,
+            2038,
+            1217,
             330
           ],
           "observed_text": "do doente.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:6786e234f59b78fbdb2b3ce3c8596ba473727b19ac652c539497b44fe474708c"
         },
         {
           "id": "c2-l031",
-          "centre_y": 2309,
+          "centre_y": 2264,
           "crop": [
-            1250,
-            2260,
-            1060,
+            1205,
+            2215,
+            1217,
             98
           ],
           "context_crop": [
-            1250,
-            2144,
-            1060,
+            1205,
+            2099,
+            1217,
             330
           ],
-          "observed_text": "Biǒxô. Sinal, ou effeito donde ſe conhece a do-",
-          "match": "strong",
+          "observed_text": "Biǒxǒ. Sinal, ou effeito donde ſe conhece a do-",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:82f333883bb63ceaf42ae7bc3d5cf55e9c1277b7f8842d28df38789e51dbd65d"
         },
         {
           "id": "c2-l032",
-          "centre_y": 2370,
+          "centre_y": 2325,
           "crop": [
-            1250,
-            2322,
-            1060,
+            1205,
+            2277,
+            1217,
             97
           ],
           "context_crop": [
-            1250,
-            2205,
-            1060,
+            1205,
+            2160,
+            1217,
             330
           ],
           "observed_text": "ença.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:af1c6f618dae0bddb5ac8d574d81ea6d30d63dde4492932dc1c6aca7123ab65c"
         },
         {
           "id": "c2-l033",
-          "centre_y": 2432,
+          "centre_y": 2387,
           "crop": [
-            1250,
-            2383,
-            1060,
+            1205,
+            2338,
+            1217,
             97
           ],
           "context_crop": [
-            1250,
-            2267,
-            1060,
+            1205,
+            2222,
+            1217,
             330
           ],
-          "observed_text": "Biôxo. Facadocoro. Sepultura, ou lugar",
-          "match": "strong",
+          "observed_text": "Biǒxǒ. Facadocoro. Sepultura, ou lugar",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:3347fc2cb64e995be0c9cf4a01fd1528fdcd9f7c4122adab5aac025164c0809d"
         },
         {
           "id": "c2-l034",
-          "centre_y": 2493,
+          "centre_y": 2448,
           "crop": [
-            1250,
-            2444,
-            1060,
+            1205,
+            2399,
+            1217,
             98
           ],
           "context_crop": [
-            1250,
-            2328,
-            1060,
+            1205,
+            2283,
+            1217,
             330
           ],
           "observed_text": "de ſepulturas.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:01d3095d648e95e39f6094a2c5f2fe47c4f70d951acb3dda5987b92adccfd30b"
         },
         {
           "id": "c2-l035",
-          "centre_y": 2554,
+          "centre_y": 2509,
           "crop": [
-            1250,
-            2506,
-            1060,
+            1205,
+            2461,
+            1217,
             97
           ],
           "context_crop": [
-            1250,
-            2389,
-            1060,
+            1205,
+            2344,
+            1217,
             330
           ],
-          "observed_text": "Biqei. i. Yoiqei. Fermoſa viſta.",
-          "match": "strong",
+          "observed_text": "Biqei. i. Yoi qei. Fermoſa viſta.",
+          "match": "mismatch",
           "assessment": "readable",
-          "expected_line_version": "sha256:e845ab4aa29c37357838a03ddbb68c6b58dac4c64368d824dcc92ae0634efac6",
-          "note": "Direct scan reading differs from the canonical Level 1 transcription; the scan clearly reads “Yoiqei”, and that visible form is retained here."
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:ba20d81ed42e929d8266e073ed55703a0d6c331e43b97f4b8d7a4fbd11fadd08"
         },
         {
           "id": "c2-l036",
-          "centre_y": 2616,
+          "centre_y": 2571,
           "crop": [
-            1250,
-            2567,
-            1060,
+            1205,
+            2522,
+            1217,
             97
           ],
           "context_crop": [
-            1250,
-            2451,
-            1060,
+            1205,
+            2406,
+            1217,
             330
           ],
-          "observed_text": "Biqen. Vtçucuxũ cauo yoxi. Roſto fer-",
-          "match": "strong",
+          "observed_text": "Biqen. Vtçucuxŭ cauo yoxi. Roſto fer-",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:7af9d798a21daf095ef260643fea245af9aa5ae7ffe23335ab304ab4564b1203"
         },
         {
           "id": "c2-l037",
-          "centre_y": 2677,
+          "centre_y": 2632,
           "crop": [
-            1250,
-            2628,
-            1060,
+            1205,
+            2583,
+            1217,
             98
           ],
           "context_crop": [
-            1250,
-            2512,
-            1060,
+            1205,
+            2467,
+            1217,
             330
           ],
           "observed_text": "moſo, ou fermoſura.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:2d54b17677fda3f4fc603ee917ee161742568934a15883f79bb026ada7f7ca35"
         },
         {
           "id": "c2-l038",
-          "centre_y": 2738,
+          "centre_y": 2693,
           "crop": [
-            1250,
-            2690,
-            1060,
+            1205,
+            2645,
+            1217,
             97
           ],
           "context_crop": [
-            1250,
-            2573,
-            1060,
+            1205,
+            2528,
+            1217,
             330
           ],
           "observed_text": "Biqen. Itçucuxij inu. Cão fermoſo.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:3b69ed62e1a67d4a6eaa63d211ad187311c12f9e01c81201f2611b0ab5db2ccf"
         },
         {
           "id": "c2-l039",
-          "centre_y": 2800,
+          "centre_y": 2755,
           "crop": [
-            1250,
-            2751,
-            1060,
+            1205,
+            2706,
+            1217,
             97
           ],
           "context_crop": [
-            1250,
-            2635,
-            1060,
+            1205,
+            2590,
+            1217,
             330
           ],
-          "observed_text": "Biqin. Alicubi. Fanagami. Papel de aſ-",
-          "match": "strong",
+          "observed_text": "Biquin. Alicubi. Fanagami. Papel de aſ-",
+          "match": "mismatch",
           "assessment": "readable",
-          "expected_line_version": "sha256:496822f8b572dcc57817dd92c346077587ccf8d29deb91722ac7785a50b4d886"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:9a2484ea4056605a4db0ae2d111a8c92580d2a20313920500a24d4144ff11672"
         },
         {
           "id": "c2-l040",
-          "centre_y": 2861,
+          "centre_y": 2816,
           "crop": [
-            1250,
-            2812,
-            1060,
+            1205,
+            2767,
+            1217,
             98
           ],
           "context_crop": [
-            1250,
-            2696,
-            1060,
+            1205,
+            2651,
+            1217,
             330
           ],
           "observed_text": "ſoar os narizes.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:6c84b2929084fdd09160aa474671b74f6d67cea47c905d303510949ec81571f0"
         },
         {
           "id": "c2-l041",
-          "centre_y": 2922,
+          "centre_y": 2877,
           "crop": [
-            1250,
-            2874,
-            1060,
+            1205,
+            2829,
+            1217,
             96
           ],
           "context_crop": [
-            1250,
-            2757,
-            1060,
+            1205,
+            2712,
+            1217,
             330
           ],
           "observed_text": "Biramecaxi, ſu, aita. Fazer ondear as bã-",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:3233d002a5e525cc644f03ccbde38fd3d6232ac2c40285ad83acccaab3baab7f"
         },
         {
           "id": "c2-l042",
-          "centre_y": 2983,
+          "centre_y": 2938,
           "crop": [
-            1250,
-            2934,
-            1060,
+            1205,
+            2889,
+            1217,
             98
           ],
           "context_crop": [
-            1250,
-            2818,
-            1060,
+            1205,
+            2773,
+            1217,
             330
           ],
           "observed_text": "deiras, ou fazer bulir papel, abano, &c.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:544d8aff0f45bca0926cb2f180632b41c7889ba2b7f79a8478b84f7a96236f2d"
         },
         {
           "id": "c2-l043",
-          "centre_y": 3045,
+          "centre_y": 3000,
           "crop": [
-            1250,
-            2996,
-            1060,
+            1205,
+            2951,
+            1217,
             98
           ],
           "context_crop": [
-            1250,
-            2880,
-            1060,
+            1205,
+            2835,
+            1217,
             330
           ],
           "observed_text": "Birameqi, u, eita. Ondearem as bandeiras,",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:69df053d3b6fbe81af0d9a28fe9bab22dfd5943faf191a3cd268e6a136c733ce"
         },
         {
           "id": "c2-l044",
-          "centre_y": 3106,
+          "centre_y": 3061,
           "crop": [
-            1250,
-            3058,
-            1060,
+            1205,
+            3013,
+            1217,
             96
           ],
           "context_crop": [
-            1250,
-            2941,
-            1060,
+            1205,
+            2896,
+            1217,
             330
           ],
           "observed_text": "papel, ou couſa ſemelhante ao vento, &c.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:8a0d179fcff8d95cfd8f474d163f932da046d839f526a4e95f9164c495cfb894"
         },
         {
           "id": "c2-l045",
-          "centre_y": 3167,
+          "centre_y": 3122,
           "crop": [
-            1250,
-            3118,
-            1060,
+            1205,
+            3073,
+            1217,
             98
           ],
           "context_crop": [
-            1250,
-            3002,
-            1060,
+            1205,
+            2957,
+            1217,
             330
           ],
-          "observed_text": "Birampǔ. Vento que ſoprou no principio do mũ-",
-          "match": "strong",
+          "observed_text": "Birampi. Vento que ſoprou no principio do mũ-",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:8f4dc5984f146ebd422cc3e1a4fea53ad1f56443a81fc0174344d4eddfac5e27"
         },
         {
           "id": "c2-l046",
-          "centre_y": 3229,
+          "centre_y": 3184,
           "crop": [
-            1250,
-            3180,
-            1060,
+            1205,
+            3135,
+            1217,
             98
           ],
           "context_crop": [
-            1250,
-            3064,
-            1060,
+            1205,
+            3019,
+            1217,
             330
           ],
           "observed_text": "do, como dizem os gentios de Iapão.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:eaf78c09c2aebd567d8b39009b3b13c0da09c8b5cd37a05a1de81be8ed1b03e3"
         },
         {
           "id": "c2-l047",
-          "centre_y": 3290,
+          "centre_y": 3245,
           "crop": [
-            1250,
-            3242,
-            1060,
+            1205,
+            3197,
+            1217,
             96
           ],
           "context_crop": [
-            1250,
-            3125,
-            1060,
+            1205,
+            3080,
+            1217,
             295
           ],
-          "observed_text": "Birari xarari. Modo de andar daqui para lá,",
-          "match": "strong",
+          "observed_text": "Birari xaiari. Modo de andar deci para lá,",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:c5749331d61447e035721d1a7d7f1b8a576cec8200275a35e0f118caa9409955"
         }
       ]
     }
-  }
+  },
+  "geometry_review_status": "completed",
+  "text_review_status": "completed",
+  "review_note": "Every physical body line was independently read from the native-resolution scan before canonical comparison; every returned crop was checked for complete left/right and top/bottom ink in page context and swept top-to-bottom by column. On f57 the provisional body-line geometry was systematically high-numbered/low-positioned relative to the printed rows, so the line crops were shifted upward and the duplicated c2-l003 centre was repaired."
 }
