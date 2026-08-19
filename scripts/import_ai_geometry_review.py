@@ -38,6 +38,14 @@ def main() -> int:
         ),
     )
     parser.add_argument(
+        "--allow-transcription-drift",
+        action="store_true",
+        help=(
+            "import geometry after separately adjudicating later transcription "
+            "changes; exact reviewed line-ID coverage is still required"
+        ),
+    )
+    parser.add_argument(
         "--visual-review",
         choices=("ai_line_by_line_checked", "ai_bulk_geometry_sanity_checked"),
         default="ai_line_by_line_checked",
@@ -68,6 +76,7 @@ def main() -> int:
     if (
         hashlib.sha256(page_path.read_bytes()).hexdigest() != expected_page_hash
         and not geometry_only_review
+        and not args.allow_transcription_drift
     ):
         raise SystemExit("canonical transcription differs from the version reviewed by the AI")
     source_path = root / ".cache/sources/bnf-gallica/master" / review["source"]["filename"]

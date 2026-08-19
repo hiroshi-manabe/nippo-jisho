@@ -19,10 +19,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l003` | Bẽſacu. Muchimuchi. *Vara de caualo. ¶ Itẽ,* |  |
 | `c1-l004` | &emsp;*Ardil, ou inuenção. ¶* Benſacuuo me- |  |
 | `c1-l005` | &emsp;guraſu. *Inuentar ardil, ou fazelo.* |  |
-| `c1-l006` | Bensai. Vaqimaye ſumaſu. *O pagar adiui-* |  |
+| `c1-l006` | Benſai. Vaqimaye ſumaſu. *O pagar adiui-* |  |
 | `c1-l007` | &emsp;*da, ou aueriguar as contas, &c. Vt,* Be- |  |
 | `c1-l008` | &emsp;ſaiſuru. |  |
-| `c1-l009` | Bensai. *Prudencia, diſcrição.* |  |
+| `c1-l009` | Benſai. *Prudencia, diſcrição.* |  |
 | `c1-l010` | Bentǒ. *Abastança, ou abundancia.* |  |
 | `c1-l011` | Bentǒ. *Hũa caixa como eſcritorio, que tem* |  |
 | `c1-l012` | &emsp;*dentro gauetas em que ſe leuão couſas de comer.* |  |
@@ -38,7 +38,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l022` | Benxǒ. Vaqimaye tçucurô. i. Monouo ca |  |
 | `c1-l023` | &emsp;yeſu. *O tornar algũa couſa, ou pagala a* |  |
 | `c1-l024` | &emsp;*ſeu dono.* |  |
-| `c1-l025` | Benxun. Tacana. *Olho da cana tenrra quan* |  |
+| `c1-l025` | Benxun. Tacãna. *Olho da cana tenrra quan* |  |
 | `c1-l026` | &emsp;*do nace.* |  |
 | `c1-l027` | Benyei. Muchino cague. *Sombra da vara* |  |
 | `c1-l028` | &emsp;*com que ſe dà no caualo.* |  |
@@ -46,7 +46,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l030` | &emsp;*das riquezas, que os gentios venerão.* |  |
 | `c1-l031` | Benzaxi. *Cabeça dos peſcadores a quẽ o ſenhor* |  |
 | `c1-l032` | &emsp;*da ordem do que ſe hade fazer. ¶ Item,* |  |
-| `c1-l033` | &emsp;*Alcaide, cabeça dos lauradores.* |  |
+| `c1-l033` | &emsp;*Alicubi, cabeça dos lauradores.* |  |
 | `c1-l034` | Beô. i. Beôxo. *Sepultura, ou tumulo.* |  |
 | `c1-l035` | Beôbeô. Farucani, faruca nari. *Muito lar-* |  |
 | `c1-l036` | &emsp;*go, ou distante à viſta. ¶* Beôbeôto xi- |  |
@@ -59,7 +59,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l043` | Beôxi. Nayeco. *Menino de dous ate tres* |  |
 | `c1-l044` | &emsp;*annos.* |  |
 | `c1-l045` | Beôyei. Naye. *Trigo, ou arroz em erua na-* |  |
-| `c1-l046` | &emsp;*cida de pouco. ¶ Item, Geração, ou deſ-* |  |
+| `c1-l046` | &emsp;*cido de pouco. ¶ Item, Geração, ou deſ-* |  |
 | `c1-l047` | &emsp;*cendentes.* |  |
 
 ## Column 2 running header
@@ -96,15 +96,15 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l022` | Betdã. Bechino dãgui. *Outra pratica, ou* |  |
 | `c2-l023` | &emsp;*pregação. ¶* Betdanuo noburu. *Fazer* |  |
 | `c2-l024` | &emsp;*outra pratica, ou pregação.* |  |
-| `c2-l025` | Betdan. Bechino dan. *Outro degrao.* |  |
+| `c2-l025` | Betdan. Bechino dan. *Outro de grao.* |  |
 | `c2-l026` | Betden. Bechino tçutaye. *Outra doutrina,* |  |
 | `c2-l027` | &emsp;*ou opinião diuerſa.* |  |
 | `c2-l028` | Betdǒ. Bechino michi. *Outro caminho.* |  |
 | `c2-l029` | Betgiô. Bechinocoto. *Outro capitulo, ou* |  |
 | `c2-l030` | &emsp;*outra couſa differente.* |  |
-| `c2-l031` | Betguiô. Bechino xidaza. *Outra obra, ou* |  |
-| `c2-l032` | &emsp;*exercicio. ¶ Item, Adro, que esta nos* |  |
-| `c2-l033` | &emsp;*campos, ou montes. ¶ Item, Outra pouo* |  |
+| `c2-l031` | Betguiô. Bechino xiuaza. *Outra obra, ou* |  |
+| `c2-l032` | &emsp;*exerçiçio. ¶ Item, Adro, que esta nos* |  |
+| `c2-l033` | &emsp;*campos, ou montes. ¶ Item, Outra pouoa* |  |
 | `c2-l034` | &emsp;*ção, ou lugar.* |  |
 | `c2-l035` | Betgo. Vacareno nochi. *Depois do aparta-* |  |
 | `c2-l036` | &emsp;*mento.* |  |

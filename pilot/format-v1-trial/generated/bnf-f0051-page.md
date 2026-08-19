@@ -21,7 +21,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l005` | &emsp;*longe.* |  |
 | `c1-l006` | Banri cǒzan. *Hũa pintura antigua do* Cha |  |
 | `c1-l007` | &emsp;noyu. |  |
-| `c1-l008` | Banrio. Yorozzuno vomouacaru. *Diſcurſo,* |  |
+| `c1-l008` | Banrio. Yorozzu vomouacaru. *Diſcurſo,* |  |
 | `c1-l009` | &emsp;*ou conſideração de varias couſas.* |  |
 | `c1-l010` | Banrǒ. Yorozzuno nami. *Todas as ondas.* |  |
 | `c1-l011` | &emsp;*¶ Vt,* Banrǒ banpa. *Idem.* |  |

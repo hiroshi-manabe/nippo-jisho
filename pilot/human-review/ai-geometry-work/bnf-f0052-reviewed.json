@@ -3,9 +3,23 @@
   "format_version": 1,
   "page": "bnf-f0052",
   "response_status": "completed_independent_ai_line_review",
-  "observed_text_provenance": "Every physical body line was visually inspected at enlarged crop level against the supplied f0052 scan, with line geometry re-registered and checked again on the full-page image. observed_text records the scan reading; the canonical Level 1 transcription was consulted only afterward as a comparison/adjudication aid, and visible disagreements are retained rather than normalized. expected_line_version values are preserved unchanged.",
+  "default_response_mode": "geometry_and_text",
+  "completion_statuses": {
+    "geometry_and_text": {
+      "geometry_review_status": "completed",
+      "text_review_status": "completed"
+    },
+    "geometry_only_fallback": {
+      "geometry_review_status": "completed",
+      "text_review_status": "not_completed"
+    }
+  },
+  "observed_text_provenance": "Must be written independently from each proposed crop before consulting the canonical transcription. Null means that this line has not yet been read.",
   "coordinate_space": "native Gallica master pixels",
   "rectangle_format": "[x, y, width, height]",
+  "geometry_acceptance": "Inspect every isolated crop at full practical size against the full page; confirm complete first and last glyphs and all top/bottom ink; do not infer horizontal completeness from line identity or vertical centering; then sweep each column top-to-bottom for repeated clipping, especially the outer/right edge of column 2. Conservative rule-to-rule width and necessary neighboring-line overlap are allowed.",
+  "text_acceptance": "Read the print independently before consulting the canonical line. Preserve visible historical spelling, spacing, diacritics, and long s; do not normalize, copy the canonical text, or guess merely to complete a field. Returned text is advisory until separately adjudicated against the scan.",
+  "lineation_discrepancy": "If the printed number or order of physical lines differs from the task, do not invent a blank continuation, shift IDs, or renumber the response. Mark the response incomplete and report the first divergence so the canonical lineation can be corrected and the task regenerated.",
   "source": {
     "filename": "f0052.jpg",
     "width": 2721,
@@ -20,1918 +34,2022 @@
   "columns": {
     "column-1": {
       "column_box_xyxy": [
-        340,
         300,
-        1450,
+        300,
+        1505,
         3410
       ],
       "zone_ids": [
         "column-1"
       ],
-      "initial_geometry_provenance": "contact_sheet_reviewed",
-      "initial_geometry_reviewed_at": "2026-08-01",
-      "geometry_requires_line_by_line_review": false,
+      "initial_geometry_provenance": "external_ai_width_rechecked",
+      "initial_geometry_reviewed_at": "2026-08-13",
+      "geometry_requires_line_by_line_review": true,
       "lines": [
         {
           "id": "c1-l001",
           "centre_y": 496,
           "crop": [
-            340,
-            448,
-            1110,
-            96
+            300,
+            455,
+            1205,
+            82
           ],
           "context_crop": [
-            340,
-            331,
-            1110,
-            330
+            300,
+            350,
+            1205,
+            292
           ],
           "observed_text": "lher demaſiadamẽte ẽfeitada, ou homẽ ẽfeitado",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:ff2a33c2f17ad43567ff4e7ded4453c0ffeb5f7b21c4aee203c6ef8f00a3e39a"
         },
         {
           "id": "c1-l002",
           "centre_y": 558,
           "crop": [
-            340,
-            509,
-            1110,
-            98
+            300,
+            517,
+            1205,
+            83
           ],
           "context_crop": [
-            340,
-            393,
-            1110,
-            330
+            300,
+            412,
+            1205,
+            293
           ],
           "observed_text": "como molher, q̃ dà muito nos olhos de todos.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:5beb485520b3dd6c2e6d0da6b2f35f55db9ed09751b2ef5872b8cd3ad57b0b10"
         },
         {
           "id": "c1-l003",
           "centre_y": 621,
           "crop": [
-            340,
-            572,
-            1110,
-            98
+            300,
+            579,
+            1205,
+            83
           ],
           "context_crop": [
-            340,
-            456,
-            1110,
-            330
+            300,
+            474,
+            1205,
+            293
           ],
           "observed_text": "Baqemono. Couſa trãsformada, ou reueſtida noutra",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:2c0a047a3a89a025168e2093826d2bfe7614c7c9b8bb558127ff169e45666e9c"
         },
         {
           "id": "c1-l004",
           "centre_y": 683,
           "crop": [
-            340,
-            635,
-            1110,
-            96
+            300,
+            642,
+            1205,
+            82
           ],
           "context_crop": [
-            340,
-            518,
-            1110,
-            330
+            300,
+            537,
+            1205,
+            292
           ],
           "observed_text": "figura, como demonio que aparece em figura de",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:4db6f85fe9a5ef240421b8c7dbfac26b66c0f3a824894e44bd5b2274b1b9e14e"
         },
         {
           "id": "c1-l005",
           "centre_y": 745,
           "crop": [
-            340,
-            696,
-            1110,
-            98
+            300,
+            704,
+            1205,
+            83
           ],
           "context_crop": [
-            340,
-            580,
-            1110,
-            330
+            300,
+            599,
+            1205,
+            293
           ],
           "observed_text": "ſerpente, rapoſa, &c.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:bb3e84ba988f01c773bc6a494010ef48d8a402862addfe5516847c04dfa006e9"
         },
         {
           "id": "c1-l006",
           "centre_y": 808,
           "crop": [
-            340,
-            759,
-            1110,
-            98
+            300,
+            766,
+            1205,
+            83
           ],
           "context_crop": [
-            340,
-            643,
-            1110,
-            330
+            300,
+            661,
+            1205,
+            293
           ],
-          "observed_text": "Baqeraxij. Couſa como tranſfigurada, ou extra",
+          "observed_text": "Baqeraxij. Couſa como transfigurada, ou extra",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:1635d0f786f5d9591cd4e7063082e6dbd3ba33fcda0327a523ee78d599a39f96"
         },
         {
           "id": "c1-l007",
           "centre_y": 870,
           "crop": [
-            340,
-            822,
-            1110,
-            96
+            300,
+            829,
+            1205,
+            82
           ],
           "context_crop": [
-            340,
-            705,
-            1110,
-            330
+            300,
+            724,
+            1205,
+            292
           ],
           "observed_text": "ordinaria no trajo, &c. Dizſe ha da molher",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:9b1e42fc7c33aa8b12c3fcfe75369ff948768dd45bdb08787a0504adfdf6bb46"
         },
         {
           "id": "c1-l008",
           "centre_y": 932,
           "crop": [
-            340,
-            883,
-            1110,
-            98
+            300,
+            891,
+            1205,
+            83
           ],
           "context_crop": [
-            340,
-            767,
-            1110,
-            330
+            300,
+            786,
+            1205,
+            293
           ],
           "observed_text": "que ſe enfeita demaſiadamente, ou de homem",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:f54b33c7b7f4d55892f8d19d5e109539d5a2407fbb0e6d491c60961a42263981"
         },
         {
           "id": "c1-l009",
           "centre_y": 995,
           "crop": [
-            340,
-            946,
-            1110,
-            97
+            300,
+            953,
+            1205,
+            83
           ],
           "context_crop": [
-            340,
-            830,
-            1110,
-            330
+            300,
+            848,
+            1205,
+            293
           ],
           "observed_text": "que vem com algum trajo, ou atauio extra or-",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:8628079fbc661454ac07e8a4d257bfa2ef8ed6834e088958a7b1b022bbf68b20",
-          "note": "Direct scan reading differs from the canonical Level 1 transcription; the visible scan form is retained here."
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:91aa992ed89dc780aa02e98c17802fbd607201b67f4ff50b2ba00add1fa7eba0"
         },
         {
           "id": "c1-l010",
           "centre_y": 1057,
           "crop": [
-            340,
-            1008,
-            1110,
-            97
+            300,
+            1016,
+            1205,
+            82
           ],
           "context_crop": [
-            340,
-            892,
-            1110,
-            330
+            300,
+            911,
+            1205,
+            292
           ],
           "observed_text": "dinario, & que dà nos olhos de todos.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:f8ce78dbbc5c13b72111c87384e42efde3dee5557ad99e27710efd1c9d9185f2"
         },
         {
           "id": "c1-l011",
           "centre_y": 1119,
           "crop": [
-            340,
-            1070,
-            1110,
-            98
+            300,
+            1078,
+            1205,
+            83
           ],
           "context_crop": [
-            340,
-            954,
-            1110,
-            330
+            300,
+            973,
+            1205,
+            293
           ],
-          "observed_text": "Barabara. Adu. que ſignifica do ſoido da chu-",
+          "observed_text": "Barabara. Adu. que ſignifica do ſoido da chu",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:41d19948421a925ee8e1bf121cb52a665b6fa03342122f096402a42ff2706509"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:75c8378bb236bfb228ea139334506ab9a6bf0fa6aa836e4dc6a2431bf1d1cdd2"
         },
         {
           "id": "c1-l012",
           "centre_y": 1182,
           "crop": [
-            340,
-            1134,
-            1110,
-            97
+            300,
+            1140,
+            1205,
+            83
           ],
           "context_crop": [
-            340,
-            1017,
-            1110,
-            330
+            300,
+            1035,
+            1205,
+            293
           ],
           "observed_text": "ua, ou de couſa ſemelhante quando cae no chão",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:e19e0baa6a2ca29d5b3787f99e9f167ba8f6137ecb5583bac8e444f0f85dbd83"
         },
         {
           "id": "c1-l013",
           "centre_y": 1244,
           "crop": [
-            340,
-            1196,
-            1110,
-            97
+            300,
+            1203,
+            1205,
+            82
           ],
           "context_crop": [
-            340,
-            1079,
-            1110,
-            330
+            300,
+            1098,
+            1205,
+            292
           ],
           "observed_text": "como caſtanhas do caſtanheiro, ou grãos que ſe",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:4b2cefdb1155fb974f9e6d3d1390e68d93942c030034cde7e9db9c056c4e1c33"
         },
         {
           "id": "c1-l014",
           "centre_y": 1306,
           "crop": [
-            340,
-            1257,
-            1110,
-            98
+            300,
+            1265,
+            1205,
+            83
           ],
           "context_crop": [
-            340,
-            1141,
-            1110,
-            330
+            300,
+            1160,
+            1205,
+            293
           ],
-          "observed_text": "entornão. ¶ Fitoga barabarato tatçu. Ale-",
+          "observed_text": "entornão. ¶ Fitoga barabarato tatçu. Ale",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:0383486d10cd31237f5d86e70c8108410e98b4a734b7a1ebd2a4856f8ff33291"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:8a9ee2bff4813a3e085cec1d2140d386b31146abf561146780fc475b6a8b4cc9"
         },
         {
           "id": "c1-l015",
           "centre_y": 1369,
           "crop": [
-            340,
-            1320,
-            1110,
-            97
+            300,
+            1327,
+            1205,
+            83
           ],
           "context_crop": [
-            340,
-            1204,
-            1110,
-            330
+            300,
+            1222,
+            1205,
+            293
           ],
           "observed_text": "uantarſe muita gente ſẽ ordem, & cõ eſtrondo.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:a09a013ead922ff7f51597b214e9d43949c61b01aaa8c58c7f5ab13f8a566166"
         },
         {
           "id": "c1-l016",
           "centre_y": 1431,
           "crop": [
-            340,
-            1382,
-            1110,
-            97
+            300,
+            1390,
+            1205,
+            82
           ],
           "context_crop": [
-            340,
-            1266,
-            1110,
-            330
+            300,
+            1285,
+            1205,
+            292
           ],
           "observed_text": "Baramecaxi, ſu, aita. Fazer ſom a ſarauia",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:34955b4f0027410eb403f154002e537e5bbdf5add5a0351840b399d1b12dba70"
         },
         {
           "id": "c1-l017",
           "centre_y": 1493,
           "crop": [
-            340,
-            1444,
-            1110,
-            98
+            300,
+            1452,
+            1205,
+            82
           ],
           "context_crop": [
-            340,
-            1328,
-            1110,
-            330
+            300,
+            1347,
+            1205,
+            292
           ],
           "observed_text": "que choue, ou a fruita que cae da aruore, &c.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:c0f6af8822ef5bb5838fc4a45dac6fad20ad7546d5854a879fbb42a9922f5ea3"
         },
         {
           "id": "c1-l018",
           "centre_y": 1555,
           "crop": [
-            340,
-            1507,
-            1110,
-            96
+            300,
+            1514,
+            1205,
+            83
           ],
           "context_crop": [
-            340,
-            1390,
-            1110,
-            330
+            300,
+            1409,
+            1205,
+            293
           ],
           "observed_text": "Barameqi, u, eita. Soar a chuua, ou cou-",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:8508355973cb88854412e350483b8cb7772c5a3e46b72aa438033b6803917c9f"
         },
         {
           "id": "c1-l019",
           "centre_y": 1618,
           "crop": [
-            340,
-            1569,
-            1110,
-            98
+            300,
+            1576,
+            1205,
+            83
           ],
           "context_crop": [
-            340,
-            1453,
-            1110,
-            330
+            300,
+            1471,
+            1205,
+            293
           ],
           "observed_text": "ſa ſemelhante quando dà no chão.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:74d1eafa30d14f0ff3807846d4131c507f095b56f94e8f2c8f41227dca957730"
         },
         {
           "id": "c1-l020",
           "centre_y": 1680,
           "crop": [
-            340,
-            1631,
-            1110,
-            98
+            300,
+            1639,
+            1205,
+            82
           ],
           "context_crop": [
-            340,
-            1515,
-            1110,
-            330
+            300,
+            1534,
+            1205,
+            292
           ],
           "observed_text": "Bararibarito. Vide Barabara.",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:41555d020a9a4a4962caab8d07482d6b3f162a51529906fdcaaee9c27aba55b4"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:a11f6150e7aa953fb92f358d279d82599e0d1a62feedef533e41c99c32e61374"
         },
         {
           "id": "c1-l021",
           "centre_y": 1742,
           "crop": [
-            340,
-            1694,
-            1110,
-            96
+            300,
+            1701,
+            1205,
+            83
           ],
           "context_crop": [
-            340,
-            1577,
-            1110,
-            330
+            300,
+            1596,
+            1205,
+            293
           ],
           "observed_text": "Bararito. Adu. Totalmente.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:e8ca6a4463802fefac94ef12fe4547b5f1c187c2a7fa2cec7f3c94cb0a79626c"
         },
         {
           "id": "c1-l022",
           "centre_y": 1805,
           "crop": [
-            340,
-            1756,
-            1110,
-            98
+            300,
+            1763,
+            1205,
+            83
           ],
           "context_crop": [
-            340,
-            1640,
-            1110,
-            330
+            300,
+            1658,
+            1205,
+            293
           ],
           "observed_text": "Bari. Ourina dos caualos. ¶ Bariuo tçu-",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:85c42b0c50514f17ae15cb3502ecd67d4d7c494a8b08cf3b97bbcc32e57efc86"
         },
         {
           "id": "c1-l023",
           "centre_y": 1867,
           "crop": [
-            340,
-            1818,
-            1110,
-            98
+            300,
+            1826,
+            1205,
+            82
           ],
           "context_crop": [
-            340,
-            1702,
-            1110,
-            330
+            300,
+            1721,
+            1205,
+            292
           ],
           "observed_text": "qu. Ourinar o caualo. ¶ Item, Se diz",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:ba02089164fe11cf2bf1496aa35adc7a33fd6aa8e6d90d7c3bd5a9d78f1216a6"
         },
         {
           "id": "c1-l024",
           "centre_y": 1929,
           "crop": [
-            340,
-            1881,
-            1110,
-            96
+            300,
+            1888,
+            1205,
+            83
           ],
           "context_crop": [
-            340,
-            1764,
-            1110,
-            330
+            300,
+            1783,
+            1205,
+            293
           ],
           "observed_text": "de gente baixa.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:7b222d3ee33ac56099920c939ad3ee1f2119754e155a7fd7a9137cc5442481e7"
         },
         {
           "id": "c1-l025",
           "centre_y": 1992,
           "crop": [
-            340,
-            1943,
-            1110,
-            98
+            300,
+            1950,
+            1205,
+            83
           ],
           "context_crop": [
-            340,
-            1827,
-            1110,
-            330
+            300,
+            1845,
+            1205,
+            293
           ],
           "observed_text": "Baribixacu. Coco cõ q̃ tomão a ourina do caualo.",
-          "match": "strong",
+          "match": "mismatch",
           "assessment": "readable",
-          "expected_line_version": "sha256:5e28601ed1b7ca8a55f50f1cb593009662201073c25ab437036b0060dacfab0c",
-          "note": "Direct scan reading differs from the canonical Level 1 transcription; the visible scan form is retained here."
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:fdc7d5ee2dad249dcd9b4525ec78899d9eafbfd5bf5c0fae9e765335a0b2750d",
+          "note": "The scan visibly includes 'a' in 'tomão a ourina'."
         },
         {
           "id": "c1-l026",
           "centre_y": 2054,
           "crop": [
-            340,
-            2005,
-            1110,
-            98
+            300,
+            2013,
+            1205,
+            82
           ],
           "context_crop": [
-            340,
-            1889,
-            1110,
-            330
+            300,
+            1908,
+            1205,
+            292
           ],
           "observed_text": "Barimecaxi, ſu, aita. Fazer que o veſtido",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:b847a99615f6ff8d06aeb9200c0c173af6d133d88b76d7869671586d62aa21c6"
         },
         {
           "id": "c1-l027",
           "centre_y": 2116,
           "crop": [
-            340,
-            2068,
-            1110,
-            96
+            300,
+            2075,
+            1205,
+            83
           ],
           "context_crop": [
-            340,
-            1951,
-            1110,
-            330
+            300,
+            1970,
+            1205,
+            293
           ],
           "observed_text": "nouo, ou papel faça ſom como quando bulir cõ",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:1a18b27273f2740f9d8349dcef50ba12872e7aed740771e5e4f1cb9790e6e664"
         },
         {
           "id": "c1-l028",
           "centre_y": 2179,
           "crop": [
-            340,
-            2130,
-            1110,
-            98
+            300,
+            2137,
+            1205,
+            83
           ],
           "context_crop": [
-            340,
-            2014,
-            1110,
-            330
+            300,
+            2032,
+            1205,
+            293
           ],
           "observed_text": "elle, ou o dobrão, &c. ¶ Item, Fazer",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:2179bb0169b1c9b59cbaa471ee490fa47397889f009036c8990d52ade2506377"
         },
         {
           "id": "c1-l029",
           "centre_y": 2241,
           "crop": [
-            340,
-            2192,
-            1110,
-            98
+            300,
+            2200,
+            1205,
+            82
           ],
           "context_crop": [
-            340,
-            2076,
-            1110,
-            330
+            300,
+            2095,
+            1205,
+            292
           ],
           "observed_text": "ſoar a couſa que ſe come entre os dentes como",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:7e224368e3d5b19344efb5f2ece8a299392081bd78f9db8f32dd9d271e7cab08"
         },
         {
           "id": "c1-l030",
           "centre_y": 2303,
           "crop": [
-            340,
-            2255,
-            1110,
-            96
+            300,
+            2262,
+            1205,
+            83
           ],
           "context_crop": [
-            340,
-            2138,
-            1110,
-            330
+            300,
+            2157,
+            1205,
+            293
           ],
           "observed_text": "obreas, &c.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:653ea92dc43fbf5d3841fd0b3287c7bc68c93252f785689b0de1e4a5bfc52d6b"
         },
         {
           "id": "c1-l031",
           "centre_y": 2366,
           "crop": [
-            340,
-            2317,
-            1110,
-            98
+            300,
+            2324,
+            1205,
+            83
           ],
           "context_crop": [
-            340,
-            2201,
-            1110,
-            330
+            300,
+            2219,
+            1205,
+            293
           ],
           "observed_text": "Barimeqi, u, eita. Soarem eſtas couſas.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:307258aeeab123ee928ce5c6e234c9a513123c298ffebcbd14e629f3ceda54d4"
         },
         {
           "id": "c1-l032",
           "centre_y": 2428,
           "crop": [
-            340,
-            2380,
-            1110,
-            97
+            300,
+            2387,
+            1205,
+            82
           ],
           "context_crop": [
-            340,
-            2263,
-            1110,
-            330
+            300,
+            2282,
+            1205,
+            292
           ],
           "observed_text": "Barin. Hũa erua que tem a folha como eſpada",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:6b374adfe442181098e86eba7887634496ac3b71439c07e7dc8a60d7a3a93cb6"
         },
         {
           "id": "c1-l033",
           "centre_y": 2490,
           "crop": [
-            340,
-            2442,
-            1110,
-            97
+            300,
+            2449,
+            1205,
+            83
           ],
           "context_crop": [
-            340,
-            2325,
-            1110,
-            330
+            300,
+            2344,
+            1205,
+            293
           ],
           "observed_text": "na pequena. ¶ Item, Eſcouinha feita da",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:49e95261c2bbc16bbf2a441bdf69662ca7e9d26e9f94eeea5c3f6110be8e131f"
         },
         {
           "id": "c1-l034",
           "centre_y": 2553,
           "crop": [
-            340,
-            2504,
-            1110,
-            98
+            300,
+            2511,
+            1205,
+            83
           ],
           "context_crop": [
-            340,
-            2388,
-            1110,
-            330
+            300,
+            2406,
+            1205,
+            293
           ],
-          "observed_text": "raiz deſta erua com que eſfregão à panella do",
+          "observed_text": "raiz deſta erua com que esfregão à panella do",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:803f13146beb2f35c7e3bb26fe032a8604a26a0ec4cf8c29af99119562448e2a"
         },
         {
           "id": "c1-l035",
           "centre_y": 2615,
           "crop": [
-            340,
-            2566,
-            1110,
-            97
+            300,
+            2574,
+            1205,
+            82
           ],
           "context_crop": [
-            340,
-            2450,
-            1110,
-            330
+            300,
+            2469,
+            1205,
+            292
           ],
           "observed_text": "Chanoyu, &c.",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:3f261f470dde144721f9b5bd694f4e975ba754792fbe4978638e029860445ab2"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:f4baad81ff56956e6225e97c33805c7539a177ca19be5eea2327f8381934eca5"
         },
         {
           "id": "c1-l036",
           "centre_y": 2677,
           "crop": [
-            340,
-            2628,
-            1110,
-            97
+            300,
+            2636,
+            1205,
+            82
           ],
           "context_crop": [
-            340,
-            2512,
-            1110,
-            330
+            300,
+            2531,
+            1205,
+            292
           ],
           "observed_text": "Baro. Vmamichi. Caminho dos caualos.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:12a56244a24eec5232b585dbcc407f273bb2616d6aadaa50a19e3f9f397c2d4a"
         },
         {
           "id": "c1-l037",
           "centre_y": 2739,
           "crop": [
-            340,
-            2690,
-            1110,
-            98
+            300,
+            2698,
+            1205,
+            83
           ],
           "context_crop": [
-            340,
-            2574,
-            1110,
-            330
+            300,
+            2593,
+            1205,
+            293
           ],
           "observed_text": "Baſarana. Açodado, ou deſmanchado em ſu-",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:fe8ceb94410ff98dfe9bee9ad3346a5f53aa1c611fe9d33129ad52eaa0de333e"
         },
         {
           "id": "c1-l038",
           "centre_y": 2802,
           "crop": [
-            340,
-            2754,
-            1110,
-            97
+            300,
+            2760,
+            1205,
+            83
           ],
           "context_crop": [
-            340,
-            2637,
-            1110,
-            330
+            300,
+            2655,
+            1205,
+            293
           ],
           "observed_text": "as couſas no veſtido, &c.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:080a2492ab73f87e8c9f5fa1fd33562c101690b318444e9ae5da4e5d68ef50c5"
         },
         {
           "id": "c1-l039",
           "centre_y": 2864,
           "crop": [
-            340,
-            2816,
-            1110,
-            97
+            300,
+            2823,
+            1205,
+            82
           ],
           "context_crop": [
-            340,
-            2699,
-            1110,
-            330
+            300,
+            2718,
+            1205,
+            292
           ],
           "observed_text": "Baſſon. Deſcendentes derradeiros.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:a574c9cf81da784f46ebae9a07a672bdbf59bda0318a7a0ead50e5728d403cde"
         },
         {
           "id": "c1-l040",
           "centre_y": 2926,
           "crop": [
-            340,
-            2877,
-            1110,
-            98
+            300,
+            2885,
+            1205,
+            83
           ],
           "context_crop": [
-            340,
-            2761,
-            1110,
-            330
+            300,
+            2780,
+            1205,
+            293
           ],
           "observed_text": "Bat. i. Bachi. Caſtigo, ou juſtiça. ¶ Baſſu-",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:11b1102cd4353fe5d1996128dc691db97105afe9c651e03f69c0991adc043006"
         },
         {
           "id": "c1-l041",
           "centre_y": 2989,
           "crop": [
-            340,
-            2941,
-            1110,
-            96
+            300,
+            2947,
+            1205,
+            83
           ],
           "context_crop": [
-            340,
-            2824,
-            1110,
-            330
+            300,
+            2842,
+            1205,
+            293
           ],
           "observed_text": "ru. Iuſtiçar, ou caſtigar.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:e584459ef20f16ebd5150a6cf0d89b95bd65935bd6abf3414d70551a64155cec"
         },
         {
           "id": "c1-l042",
           "centre_y": 3051,
           "crop": [
-            340,
-            3002,
-            1110,
-            98
+            300,
+            3010,
+            1205,
+            82
           ],
           "context_crop": [
-            340,
-            2886,
-            1110,
-            330
+            300,
+            2905,
+            1205,
+            292
           ],
           "observed_text": "Batacu. Acuuo tçumiſuru. Caſtigo do peccado.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:95bcc4b8d37fddb10b224567a2121b06a91b4be96e27460e6e57579a3399cb43"
         },
         {
           "id": "c1-l043",
           "centre_y": 3113,
           "crop": [
-            340,
-            3064,
-            1110,
-            98
+            300,
+            3072,
+            1205,
+            83
           ],
           "context_crop": [
-            340,
-            2948,
-            1110,
-            330
+            300,
+            2967,
+            1205,
+            293
           ],
           "observed_text": "Batabata. Adu. Modo de ſoar batendo o paſſa-",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:ca4b127ccacdec428a5efdfcadc7cba2ee43d1a4c9e196cfc7389cd899364915"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:53982681eed3268cf1ee9f6b3c3df30d9b11ad1c5edb949ae2beff76b46de05d"
         },
         {
           "id": "c1-l044",
           "centre_y": 3176,
           "crop": [
-            340,
-            3128,
-            1110,
-            96
+            300,
+            3134,
+            1205,
+            83
           ],
           "context_crop": [
-            340,
-            3011,
-            1110,
-            330
+            300,
+            3029,
+            1205,
+            293
           ],
           "observed_text": "ro as azas, ou de ſoar couſa que ſe bate, ou",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:c308e3aa65f1e8c7c0c49cd511a55f83315d27db331b4f51ad7c7dae03209852"
         },
         {
           "id": "c1-l045",
           "centre_y": 3238,
           "crop": [
-            340,
-            3189,
-            1110,
-            98
+            300,
+            3197,
+            1205,
+            82
           ],
           "context_crop": [
-            340,
-            3073,
-            1110,
-            330
+            300,
+            3092,
+            1205,
+            292
           ],
           "observed_text": "toca hũa na outra.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:6dbb81caddcf6317c2dd8038775edcb06ea7011303e31e27f4709f3f19171e75"
         },
         {
           "id": "c1-l046",
           "centre_y": 3300,
           "crop": [
-            340,
-            3251,
-            1110,
-            98
+            300,
+            3259,
+            1205,
+            83
           ],
           "context_crop": [
-            340,
-            3135,
-            1110,
-            330
+            300,
+            3154,
+            1205,
+            256
           ],
           "observed_text": "Batamecaxi, ſu, aita. Fazerem os paſſaros eſ-",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:ec18dca8e407e02c9f733ad84e970e66dd9d8d15ef165874ea69596cd1fb271b"
         },
         {
           "id": "c1-l047",
           "centre_y": 3363,
           "crop": [
-            340,
-            3315,
-            1110,
-            96
+            300,
+            3321,
+            1205,
+            84
           ],
           "context_crop": [
-            340,
-            3220,
-            1110,
-            285
+            300,
+            3216,
+            1205,
+            194
           ],
           "observed_text": "trõdo com as azas batendoas. ¶ Item, Fazer",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:668feb8c716115f35628d05c9924a35af74378968c18c6af34a68878d8d17897"
         }
       ]
     },
     "column-2": {
       "column_box_xyxy": [
-        1500,
+        1445,
         300,
-        2590,
+        2651,
         3410
       ],
       "zone_ids": [
         "column-2"
       ],
-      "initial_geometry_provenance": "contact_sheet_reviewed",
-      "initial_geometry_reviewed_at": "2026-08-01",
-      "geometry_requires_line_by_line_review": false,
+      "initial_geometry_provenance": "external_ai_width_rechecked",
+      "initial_geometry_reviewed_at": "2026-08-13",
+      "geometry_requires_line_by_line_review": true,
       "lines": [
         {
           "id": "c2-l001",
           "centre_y": 496,
           "crop": [
-            1500,
-            448,
-            1090,
-            96
+            1445,
+            455,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            331,
-            1090,
-            330
+            1445,
+            350,
+            1206,
+            292
           ],
           "observed_text": "ſoar couſa que ſe bate, &c.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:78618b1c73aff2c95d84bddfca3e45edb89fe5961f39d1bf90109ec8968777bc"
         },
         {
           "id": "c2-l002",
           "centre_y": 558,
           "crop": [
-            1500,
-            509,
-            1090,
-            98
+            1445,
+            517,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            393,
-            1090,
-            330
+            1445,
+            412,
+            1206,
+            292
           ],
           "observed_text": "Batameqi, u, eita. Soarem as azas dos",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:1190f468fc3bc817869bc2cd99ffbe87ffa5c48ad360806a1c479419df67f40e"
         },
         {
           "id": "c2-l003",
           "centre_y": 620,
           "crop": [
-            1500,
-            571,
-            1090,
-            98
+            1445,
+            579,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            455,
-            1090,
-            330
+            1445,
+            474,
+            1206,
+            292
           ],
           "observed_text": "paſſaros quando voão, ou dão com ellas no chão.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:de427379b63bc97e29927411cb6680c357b6449df35c805cc9a634219439f1d0"
         },
         {
           "id": "c2-l004",
           "centre_y": 682,
           "crop": [
-            1500,
-            634,
-            1090,
-            96
+            1445,
+            641,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            517,
-            1090,
-            330
+            1445,
+            536,
+            1206,
+            292
           ],
           "observed_text": "¶ Item, Soar a couſa batida, &c.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:d70765b170f16bc13bcd0faa1490498e9abbe5ba6e4723061da85ed6f54b30c3"
         },
         {
           "id": "c2-l005",
           "centre_y": 744,
           "crop": [
-            1500,
-            695,
-            1090,
-            98
+            1445,
+            703,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            579,
-            1090,
-            330
+            1445,
+            598,
+            1206,
+            292
           ],
           "observed_text": "Batatçuqi, qu. Idem.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:477909e0d4fa6206eaea7099026b02d5f4aaf652b1f177b2dfc9ee0039b75dde"
         },
         {
           "id": "c2-l006",
           "centre_y": 805,
           "crop": [
-            1500,
-            756,
-            1090,
-            98
+            1445,
+            764,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            640,
-            1090,
-            330
+            1445,
+            659,
+            1206,
+            292
           ],
-          "observed_text": "Batei. Vmano ſizzume. Caſcoſou unhas",
-          "match": "strong",
+          "observed_text": "Batei. Vmano fizzume. Caſcosou unhas",
+          "match": "mismatch",
           "assessment": "readable",
-          "expected_line_version": "sha256:dbb388c7c175883a170c7b5498d597ccdc294916d049de1953d847934f91f97e"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:dbb388c7c175883a170c7b5498d597ccdc294916d049de1953d847934f91f97e",
+          "note": "The scan reads 'fizzume' and 'Caſcosou'; the supplied canonical line differs."
         },
         {
           "id": "c2-l007",
           "centre_y": 867,
           "crop": [
-            1500,
-            819,
-            1090,
-            96
+            1445,
+            826,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            702,
-            1090,
-            330
+            1445,
+            721,
+            1206,
+            292
           ],
           "observed_text": "dos caualos. ¶ Item, Nome geral do",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:3db993a93844a7b0b89d1f22837eb04126489526015c98eec7193ea8b6af1f60"
         },
         {
           "id": "c2-l008",
           "centre_y": 929,
           "crop": [
-            1500,
-            880,
-            1090,
-            98
+            1445,
+            888,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            764,
-            1090,
-            330
+            1445,
+            783,
+            1206,
+            292
           ],
           "observed_text": "tinteiro de Iapão.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:15022bcb37b74bef317da57cff4d58fa283f263a95e30d437dcde155ddd85eb2"
         },
         {
           "id": "c2-l009",
           "centre_y": 991,
           "crop": [
-            1500,
-            942,
-            1090,
-            97
+            1445,
+            950,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            826,
-            1090,
-            330
+            1445,
+            845,
+            1206,
+            292
           ],
           "observed_text": "Batjet. Xitauo nuqu. O Arrancar a lingua.",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:3cbbbe20f4e22f652bcef5a03f154e903dedad61d5123270b06a3b2366dcabf0"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:cc72f52a1575a9b06551e5db95a6a1843f81b41938d7a02a15ad37210e1d0e3f"
         },
         {
           "id": "c2-l010",
           "centre_y": 1053,
           "crop": [
-            1500,
-            1004,
-            1090,
-            97
+            1445,
+            1012,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            888,
-            1090,
-            330
+            1445,
+            907,
+            1206,
+            292
           ],
           "observed_text": "Batô. Vmano caxira. Cabeça de caualo.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:1a3ae97747e4526000a8d9c88e4d1702a243ed80eabc86a6b46bddb4c73817da"
         },
         {
           "id": "c2-l011",
           "centre_y": 1115,
           "crop": [
-            1500,
-            1066,
-            1090,
-            98
+            1445,
+            1074,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            950,
-            1090,
-            330
+            1445,
+            969,
+            1206,
+            292
           ],
           "observed_text": "Batriǔ. Suyeno nagare. Geração, ou deſ-",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:05fe10c33036c69aceea67c4904f93bbc4eb873a82bed7bbe055d44109e8e36d"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:0568a3ccb006eb5ee506aad6cbe307b0f4b78132d5438b417e696f07655a747a"
         },
         {
           "id": "c2-l012",
           "centre_y": 1177,
           "crop": [
-            1500,
-            1128,
-            1090,
-            97
+            1445,
+            1136,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            1012,
-            1090,
-            330
+            1445,
+            1031,
+            1206,
+            292
           ],
-          "observed_text": "cendentes ultimos q̃ vem dalguã familia, mas",
+          "observed_text": "cendentes ultimos q̃ vem dalgũa familia, mas",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:8ed78815a717feaf3088b2556d04ae6c64c4100d4e8dcd23b9f7aa95c678aa95"
         },
         {
           "id": "c2-l013",
           "centre_y": 1238,
           "crop": [
-            1500,
-            1190,
-            1090,
-            97
+            1445,
+            1197,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            1073,
-            1090,
-            330
+            1445,
+            1092,
+            1206,
+            292
           ],
           "observed_text": "o mais commum ſentido he diſcipulos, ou deſ-",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:2d916b949597217457b87f74058cbd0d703ba89da89cc59302f75da628daf4ef"
         },
         {
           "id": "c2-l014",
           "centre_y": 1300,
           "crop": [
-            1500,
-            1251,
-            1090,
-            98
+            1445,
+            1259,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            1135,
-            1090,
-            330
+            1445,
+            1154,
+            1206,
+            292
           ],
-          "observed_text": "cendentes derradeiros dalguã ſeita, arte,",
+          "observed_text": "cendentes derradeiros dalgũa ſeita, arte,",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:f1713470ddc1cd4f45578307ef74208eb59f65e2d632f831204f3329b2aa5f14"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:c2d410be95272e46481998d0efad09f53912972e36e3b1b6b5f6ff4786873336"
         },
         {
           "id": "c2-l015",
           "centre_y": 1362,
           "crop": [
-            1500,
-            1314,
-            1090,
-            97
+            1445,
+            1321,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            1197,
-            1090,
-            330
+            1445,
+            1216,
+            1206,
+            292
           ],
           "observed_text": "doutrina, &c.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:5cb757a66239344047102753e49b4aa6a88fcf0d842ff0e954cafaf3d2a8afdb"
         },
         {
           "id": "c2-l016",
           "centre_y": 1424,
           "crop": [
-            1500,
-            1376,
-            1090,
-            97
+            1445,
+            1383,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            1259,
-            1090,
-            330
+            1445,
+            1278,
+            1206,
+            292
           ],
-          "observed_text": "Batto. Aduer. Modo deſe eſpalhar alguã",
+          "observed_text": "Batto. Aduer. Modo deſe eſpalhar algũa",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:043220db00153bb24a2e7b5a6a7168b9265c58f51f3d6cd876e57c2f28660712"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:9ca75293c8a93161925fb0772bc09ddb79ce911d92a0f7d7d8e9de6b91fc6689"
         },
         {
           "id": "c2-l017",
           "centre_y": 1486,
           "crop": [
-            1500,
-            1437,
-            1090,
-            98
+            1445,
+            1445,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            1321,
-            1090,
-            330
+            1445,
+            1340,
+            1206,
+            292
           ],
           "observed_text": "couſa. ¶ Vt, Batto chiru. Eſpalharſe",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:8e742b27e5dadf2c5236c67e4995d707c1e07fd6f8e1a33cbb3e052e6ee111b0"
         },
         {
           "id": "c2-l018",
           "centre_y": 1548,
           "crop": [
-            1500,
-            1500,
-            1090,
-            96
+            1445,
+            1507,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            1383,
-            1090,
-            330
+            1445,
+            1402,
+            1206,
+            292
           ],
           "observed_text": "algũa couſa em varias partes.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:1150822e2355d6f0a2c4ef44705e7994094bcc0b7286ed859ca0c6efff2b0974"
         },
         {
           "id": "c2-l019",
           "centre_y": 1610,
           "crop": [
-            1500,
-            1561,
-            1090,
-            98
+            1445,
+            1569,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
             1445,
-            1090,
-            330
+            1464,
+            1206,
+            292
           ],
           "observed_text": "Batyô. Suyenoſa. Deſcendentes derradeiros",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:3a050b9d9f1efa94afe44f957389ce4af7bae6e10bf649c072a8443dfb21b6a1"
         },
         {
           "id": "c2-l020",
           "centre_y": 1671,
           "crop": [
-            1500,
-            1622,
-            1090,
-            98
+            1445,
+            1630,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            1506,
-            1090,
-            330
+            1445,
+            1525,
+            1206,
+            292
           ],
           "observed_text": "dalgũa familia, ou ſeita.",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:6345e66d71d18a732aac748c87e100982114fa360a789e43b6f8ad744723c83f",
-          "note": "Direct scan reading differs from the canonical Level 1 transcription; the visible scan form is retained here."
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:1cb211afba806289aec8e9ebb32b39fa3b91dee110541c9996b8c0f6cc22593a"
         },
         {
           "id": "c2-l021",
           "centre_y": 1733,
           "crop": [
-            1500,
-            1685,
-            1090,
-            96
+            1445,
+            1692,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            1568,
-            1090,
-            330
+            1445,
+            1587,
+            1206,
+            292
           ],
           "observed_text": "Batza. Siyenoza. Lugar mais baxo, ou",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:9fba877733409730f114aebc6961a9f2626de0938eea4be4297410b06b921749"
         },
         {
           "id": "c2-l022",
           "centre_y": 1795,
           "crop": [
-            1500,
-            1746,
-            1090,
-            98
+            1445,
+            1754,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            1630,
-            1090,
-            330
+            1445,
+            1649,
+            1206,
+            292
           ],
           "observed_text": "derradeiro do zaxiqi. ¶ Batzani nauo-",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:31e4179f01c0c4aa3013fd0261e0772961fa8c0d094db32865c40e0af570f96c"
         },
         {
           "id": "c2-l023",
           "centre_y": 1857,
           "crop": [
-            1500,
-            1808,
-            1090,
-            98
+            1445,
+            1816,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            1692,
-            1090,
-            330
+            1445,
+            1711,
+            1206,
+            292
           ],
           "observed_text": "ru. Por ſe no derradeiro lugar.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:2880818c81f6ba4449565d0a454724bb37e55df82b0f30b360886afd8e657127"
         },
         {
           "id": "c2-l024",
           "centre_y": 1919,
           "crop": [
-            1500,
-            1871,
-            1090,
-            96
+            1445,
+            1878,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            1754,
-            1090,
-            330
+            1445,
+            1773,
+            1206,
+            292
           ],
           "observed_text": "Batzai. Caſtigo, ou juſtiça por peccado.",
-          "match": "strong",
+          "match": "mismatch",
           "assessment": "readable",
-          "expected_line_version": "sha256:5bd2d7df7d003c3b523885f844c498b01f7287d4db864d88e4edf2ecb419e9cd"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:5bd2d7df7d003c3b523885f844c498b01f7287d4db864d88e4edf2ecb419e9cd",
+          "note": "The scan visibly prints long s in 'Caſtigo' and 'juſtiça'."
         },
         {
           "id": "c2-l025",
           "centre_y": 1981,
           "crop": [
-            1500,
-            1932,
-            1090,
-            98
+            1445,
+            1940,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            1816,
-            1090,
-            330
+            1445,
+            1835,
+            1206,
+            292
           ],
           "observed_text": "Baxacu. Magaxi. Almocreue.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:3c5aa0eff4430ae0d981b22bb10025a3d8a770c9c6da515b310af9c487b145f1"
         },
         {
           "id": "c2-l026",
           "centre_y": 2043,
           "crop": [
-            1500,
-            1994,
-            1090,
-            98
+            1445,
+            2002,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            1878,
-            1090,
-            330
+            1445,
+            1897,
+            1206,
+            292
           ],
-          "observed_text": "Baxacu. i. tçiqi. Aleuitamento. ¶ Baxa-",
-          "match": "strong",
+          "observed_text": "Baxacu i. jtqi. Aleuãtamẽto. ¶ Baxa-",
+          "match": "mismatch",
           "assessment": "readable",
-          "expected_line_version": "sha256:6056b65f1f47de711a5ed9faf312bc2d4b480887ec8fa97e9c42d75a7a2c5a02"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:6056b65f1f47de711a5ed9faf312bc2d4b480887ec8fa97e9c42d75a7a2c5a02",
+          "note": "At enlarged inspection the scan reads the short romanized form as 'jtqi'; the supplied canonical line differs."
         },
         {
           "id": "c2-l027",
           "centre_y": 2105,
           "crop": [
-            1500,
-            2057,
-            1090,
-            96
+            1445,
+            2064,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            1940,
-            1090,
-            330
+            1445,
+            1959,
+            1206,
+            292
           ],
           "observed_text": "cuga vocoru. Auer eſte aleuantamento.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:14df25093647a000a0c793f5763e32e1151c29683d812e1bde53e655d65ccf54"
         },
         {
           "id": "c2-l028",
           "centre_y": 2166,
           "crop": [
-            1500,
-            2117,
-            1090,
-            98
+            1445,
+            2125,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            2001,
-            1090,
-            330
+            1445,
+            2020,
+            1206,
+            292
           ],
           "observed_text": "Baxen. i. vuaxiqi, l, futon. Hũa almo-",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:ed3c84dc76540e6020d84c83550c5de793be3d1ea3fbcef580b33fdcd8836af3"
         },
         {
           "id": "c2-l029",
           "centre_y": 2228,
           "crop": [
-            1500,
-            2179,
-            1090,
-            98
+            1445,
+            2187,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            2063,
-            1090,
-            330
+            1445,
+            2082,
+            1206,
+            292
           ],
           "observed_text": "fadinha, ou coxim que ſe poem ſobre a ſella",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:9a9e981ae53bd4f148dfddba33650c24ac067560d2d233468c3a8d4c6e2308f9"
         },
         {
           "id": "c2-l030",
           "centre_y": 2290,
           "crop": [
-            1500,
-            2242,
-            1090,
-            96
+            1445,
+            2249,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            2125,
-            1090,
-            330
+            1445,
+            2144,
+            1206,
+            292
           ],
           "observed_text": "do caualo.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:ed2269446da81c0e47b11ff15f89b876d125af1a58dc6a66323f97c5523a5073"
         },
         {
           "id": "c2-l031",
           "centre_y": 2352,
           "crop": [
-            1500,
-            2303,
-            1090,
-            98
+            1445,
+            2311,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            2187,
-            1090,
-            330
+            1445,
+            2206,
+            1206,
+            292
           ],
           "observed_text": "Baxen. Melius, Badai. Caxas de cobre, ou di-",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:ff16cce77a17ce48c357fe10cf632f18ea9c7a4a380c27f59454a6c38dfc3676"
         },
         {
           "id": "c2-l032",
           "centre_y": 2414,
           "crop": [
-            1500,
-            2366,
-            1090,
-            97
+            1445,
+            2373,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            2249,
-            1090,
-            330
+            1445,
+            2268,
+            1206,
+            292
           ],
-          "observed_text": "nheiro que ſe da a algum ſenhor em lugar de",
-          "match": "strong",
+          "observed_text": "nheiro que ſe dà a algum ſenhor em lugar de",
+          "match": "mismatch",
           "assessment": "readable",
-          "expected_line_version": "sha256:a4801407f39b4bd112eef4d3be26944549816b832d24ab55f5d3c2ecbb53be25"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:a4801407f39b4bd112eef4d3be26944549816b832d24ab55f5d3c2ecbb53be25",
+          "note": "The scan visibly prints 'dà'."
         },
         {
           "id": "c2-l033",
           "centre_y": 2476,
           "crop": [
-            1500,
-            2428,
-            1090,
-            97
+            1445,
+            2435,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            2311,
-            1090,
-            330
+            1445,
+            2330,
+            1206,
+            292
           ],
           "observed_text": "caualo que ſe lhe cuſtuma offereçer em certos",
-          "match": "strong",
+          "match": "mismatch",
           "assessment": "readable",
-          "expected_line_version": "sha256:55aade98786bd2fceea6f83c0794562124c7bfa921db4efcf3fb9603702e4a94"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:55aade98786bd2fceea6f83c0794562124c7bfa921db4efcf3fb9603702e4a94",
+          "note": "The scan visibly prints long s in 'cuſtuma'."
         },
         {
           "id": "c2-l034",
           "centre_y": 2538,
           "crop": [
-            1500,
-            2489,
-            1090,
-            98
+            1445,
+            2497,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            2373,
-            1090,
-            330
+            1445,
+            2392,
+            1206,
+            292
           ],
-          "observed_text": "tempos, por preſente, ou viſitação.",
-          "match": "strong",
+          "observed_text": "tẽpos, por preſente, ou viſitação.",
+          "match": "mismatch",
           "assessment": "readable",
-          "expected_line_version": "sha256:898bafd3a7f0075d12d4a3fef9a29d98fb44aed4db87b24793c260c241aecc05"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:898bafd3a7f0075d12d4a3fef9a29d98fb44aed4db87b24793c260c241aecc05",
+          "note": "The scan visibly prints 'tẽpos'."
         },
         {
           "id": "c2-l035",
           "centre_y": 2599,
           "crop": [
-            1500,
-            2550,
-            1090,
-            97
+            1445,
+            2558,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            2434,
-            1090,
-            330
+            1445,
+            2453,
+            1206,
+            292
           ],
           "observed_text": "Baxina. Inquieto, leue, & açodado.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:72b1cbd0f21a4ff68759141918ed86458cb2c30e7455edf843060d98f6e9c0cd"
         },
         {
           "id": "c2-l036",
           "centre_y": 2661,
           "crop": [
-            1500,
-            2612,
-            1090,
-            97
+            1445,
+            2620,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            2496,
-            1090,
-            330
+            1445,
+            2515,
+            1206,
+            292
           ],
           "observed_text": "Baxǒ. Liuro em que ſe trata das couſas de",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:d4fd9aeb349cb7428a10c32a22b91659b87131fd2373a5444fad359d81978688"
         },
         {
           "id": "c2-l037",
           "centre_y": 2723,
           "crop": [
-            1500,
-            2674,
-            1090,
-            98
+            1445,
+            2682,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            2558,
-            1090,
-            330
+            1445,
+            2577,
+            1206,
+            292
           ],
           "observed_text": "caualos.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:e1f81709aa5a5495021d5b790811fa85797674ee793f5ba68eb7b3f90bf7ce54"
         },
         {
           "id": "c2-l038",
           "centre_y": 2785,
           "crop": [
-            1500,
-            2736,
-            1090,
-            97
+            1445,
+            2744,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            2620,
-            1090,
-            330
+            1445,
+            2639,
+            1206,
+            292
           ],
           "observed_text": "Baxǒ. Vmano vye. Em cima do caualo, ou",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:9a350d436047859663241104e2926a8a48345a60c0105056fbc7459416629d6e"
         },
         {
           "id": "c2-l039",
           "centre_y": 2847,
           "crop": [
-            1500,
-            2798,
-            1090,
-            97
+            1445,
+            2806,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            2682,
-            1090,
-            330
+            1445,
+            2701,
+            1206,
+            292
           ],
           "observed_text": "o eſtar a caualo. ¶ Baxǒno fito. Ho-",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:b2dba81c66d9907896ebb9eb445b87fed10db0991c4014ad84f18de223df059f"
         },
         {
           "id": "c2-l040",
           "centre_y": 2909,
           "crop": [
-            1500,
-            2860,
-            1090,
-            98
+            1445,
+            2868,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            2744,
-            1090,
-            330
+            1445,
+            2763,
+            1206,
+            292
           ],
           "observed_text": "mem a caualo.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:9ab47b7a42db33741be80118d433b890bb3fcb40317017c4c60fa5ef96e01618"
         },
         {
           "id": "c2-l041",
           "centre_y": 2971,
           "crop": [
-            1500,
-            2923,
-            1090,
-            96
+            1445,
+            2930,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            2806,
-            1090,
-            330
+            1445,
+            2825,
+            1206,
+            292
           ],
           "observed_text": "Baxô. Figueira da India de folhas largas.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:1d2ea61e517dc0f478132da4bd752c2065a849310854807c02d51d868a0329c3"
         },
         {
           "id": "c2-l042",
           "centre_y": 3032,
           "crop": [
-            1500,
-            2983,
-            1090,
-            98
+            1445,
+            2991,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            2867,
-            1090,
-            330
+            1445,
+            2886,
+            1206,
+            292
           ],
-          "observed_text": "Baxônuno. Pano como de linho, ou teada fei-",
+          "observed_text": "Baxônuno. Pano como de linho, ou teada fei",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:89ea93233752ced1614d9e78ea446663bfb402646f5fb9740ed586b3f67016a5"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:80d41734408914f3ccbad2273d53a960875aebd034c0469c9ea30a56578e1ca6"
         },
         {
           "id": "c2-l043",
           "centre_y": 3094,
           "crop": [
-            1500,
-            3045,
-            1090,
-            98
+            1445,
+            3053,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            2929,
-            1090,
-            330
+            1445,
+            2948,
+            1206,
+            292
           ],
           "observed_text": "ta de hũs fios da quella figueira da India mais",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:3435ac7711930d93149cda7e61dca190595811d0878a9f0d15a91c73058c7a7b"
         },
         {
           "id": "c2-l044",
           "centre_y": 3156,
           "crop": [
-            1500,
-            3108,
-            1090,
-            96
+            1445,
+            3115,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            2991,
-            1090,
-            330
+            1445,
+            3010,
+            1206,
+            292
           ],
-          "observed_text": "rezos.",
-          "match": "strong",
+          "observed_text": "teços.",
+          "match": "mismatch",
           "assessment": "readable",
-          "expected_line_version": "sha256:01a5e974516b904d8258b56f3106b508769990515c98a7d1e7d3a8d2e5d35bb3"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:01a5e974516b904d8258b56f3106b508769990515c98a7d1e7d3a8d2e5d35bb3",
+          "note": "The scan reads 'teços'."
         },
         {
           "id": "c2-l045",
           "centre_y": 3218,
           "crop": [
-            1500,
-            3169,
-            1090,
-            98
+            1445,
+            3177,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            3053,
-            1090,
-            330
+            1445,
+            3072,
+            1206,
+            292
           ],
-          "observed_text": "Baxǒſan. Vmano vyeno ſacazzzuqi. Certo",
-          "match": "strong",
+          "observed_text": "Baxǒſan. Vmano vyero ſacazzuqi. Certo",
+          "match": "mismatch",
           "assessment": "readable",
-          "expected_line_version": "sha256:88434b17b3f3ea0017c2bba7282fc8a1f8f87d39778aab33f5601085190c76b1"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:88434b17b3f3ea0017c2bba7282fc8a1f8f87d39778aab33f5601085190c76b1",
+          "note": "The scan reads 'vyero'."
         },
         {
           "id": "c2-l046",
           "centre_y": 3280,
           "crop": [
-            1500,
-            3231,
-            1090,
-            98
+            1445,
+            3239,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            3115,
-            1090,
-            330
+            1445,
+            3134,
+            1206,
+            276
           ],
-          "observed_text": "copo de vinho per q̃ ſe bebe eſtando a caualo.",
-          "match": "strong",
+          "observed_text": "copo de vinho per q̃ ſe bebe Eſtando a caualo.",
+          "match": "mismatch",
           "assessment": "readable",
-          "expected_line_version": "sha256:14b7c0b342b6fb5fd5f4fde261e401b74723b14c515850ca2a731bc652eb104a"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:14b7c0b342b6fb5fd5f4fde261e401b74723b14c515850ca2a731bc652eb104a",
+          "note": "The scan prints 'per q̃' and capital long-s 'Eſtando'."
         },
         {
           "id": "c2-l047",
           "centre_y": 3342,
           "crop": [
-            1500,
-            3294,
-            1090,
-            96
+            1445,
+            3301,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            3200,
-            1090,
-            285
+            1445,
+            3196,
+            1206,
+            214
           ],
           "observed_text": "Baxu. Vmano cubi. Peſcoço do caualo.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:f689b540cd2d8ea3e9bd9665a87a65ed353f40e2842719bc4bc933fe20eca5dd"
         }
       ]
     }
-  }
+  },
+  "geometry_review_status": "completed",
+  "text_review_status": "completed",
+  "review_note": "Every physical body line was independently read from the native-resolution scan before canonical comparison; every returned crop was then checked for complete edge/top/bottom ink and swept top-to-bottom by column."
 }

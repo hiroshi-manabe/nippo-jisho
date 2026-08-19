@@ -12,6 +12,8 @@ A response explicitly completed as geometry-only may be imported with `--allow-g
 
 Independent textual disagreements remain advisory. Apply a Level 1 correction only after separate scan adjudication. A default `geometry_and_text` response supplies candidates, not canonical amendments.
 
+If the canonical transcription changed after a completed response was prepared, geometry may be imported with `--allow-transcription-drift` only after those later text changes and the response's advisory readings have been separately adjudicated. The importer still requires exact reviewed line-ID coverage, valid rectangles, and the unchanged master-image hash. The flag does not assert that the old independent reading matches the newer canonical text.
+
 ## Task-record coverage
 
 Base task records are retained for `f31`–`f237`, `f248`–`f250`, and `f643`, including returned and imported pages. The complete set contains 211 pages and 19,825 body lines. At preparation time, each task had exact page coverage, unique line IDs, current source-image and transcription hashes, in-bounds rectangles, null independent readings, and pending judgments.
@@ -19,6 +21,12 @@ Base task records are retained for `f31`–`f237`, `f248`–`f250`, and `f643`, 
 The later prepared range `f101`–`f237`, `f248`–`f250`, and `f643` contains 141 pages and 13,253 body lines. A file’s presence does not establish its current workflow state; consult its response status, reviewed variants, and import history.
 
 ## Imported batches
+
+### f51–f55 line-by-line rereviews
+
+Fresh geometry-and-text returns were imported on 2026-08-19 after the original f52–f55 batch had only bulk-sanity provenance. All 466 body-line rectangles passed exact line-ID and bounds validation plus a complete strip-to-transcription association sweep; the new line-specific rectangles are recorded as `ai_line_by_line_checked`. The returns were based on commit `a945106`, immediately before Issue #47 changed unchecked `ſt` candidates to provisional short `st`. Geometry was therefore imported with explicit transcription-drift acknowledgement after the newer text and all advisory readings were separately adjudicated.
+
+Thirty-eight physical lines contained scan-supported corrections: 1 on f51, 8 on f52, none on f53, 9 on f54, and 20 on f55. Clear additions, historical spellings, diacritics, Japanese romanization, punctuation, and missed letters were applied. Uncertain line-end hyphens, modernized spellings, and readings that merely reversed Issue #47's explicitly provisional `st` classification were not applied. The returned files remain the evidence for both accepted and rejected proposals; canonical amendments remain independently attributable through this import record and Git.
 
 ### f44–f46 geometry rereviews
 

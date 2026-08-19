@@ -3,9 +3,23 @@
   "format_version": 1,
   "page": "bnf-f0054",
   "response_status": "completed_independent_ai_line_review",
-  "observed_text_provenance": "Every physical body line was visually inspected at enlarged crop level against the supplied f0054 scan, with line geometry re-registered and checked again on the full-page image. observed_text records the scan reading; the canonical Level 1 transcription was consulted only afterward as a comparison/adjudication aid, and visible disagreements are retained rather than normalized. expected_line_version values are preserved unchanged.",
+  "default_response_mode": "geometry_and_text",
+  "completion_statuses": {
+    "geometry_and_text": {
+      "geometry_review_status": "completed",
+      "text_review_status": "completed"
+    },
+    "geometry_only_fallback": {
+      "geometry_review_status": "completed",
+      "text_review_status": "not_completed"
+    }
+  },
+  "observed_text_provenance": "Must be written independently from each proposed crop before consulting the canonical transcription. Null means that this line has not yet been read.",
   "coordinate_space": "native Gallica master pixels",
   "rectangle_format": "[x, y, width, height]",
+  "geometry_acceptance": "Inspect every isolated crop at full practical size against the full page; confirm complete first and last glyphs and all top/bottom ink; do not infer horizontal completeness from line identity or vertical centering; then sweep each column top-to-bottom for repeated clipping, especially the outer/right edge of column 2. Conservative rule-to-rule width and necessary neighboring-line overlap are allowed.",
+  "text_acceptance": "Read the print independently before consulting the canonical line. Preserve visible historical spelling, spacing, diacritics, and long s; do not normalize, copy the canonical text, or guess merely to complete a field. Returned text is advisory until separately adjudicated against the scan.",
+  "lineation_discrepancy": "If the printed number or order of physical lines differs from the task, do not invent a blank continuation, shift IDs, or renumber the response. Mark the response incomplete and report the first divergence so the canonical lineation can be corrected and the task regenerated.",
   "source": {
     "filename": "f0054.jpg",
     "width": 2721,
@@ -15,1920 +29,2028 @@
   },
   "transcription_source": {
     "page_file": "pilot/format-v1-trial/level1/bnf-f0054.json",
-    "page_file_sha256": "4b33c1fb1c497b6d64ff5f56ed36d846e9b0b89dac4aa222706b70f0521f0311"
+    "page_file_sha256": "9a85105cd9c5344e203b9ca06febf156623b56b843c97dfd4f70d9ddcd632684"
   },
   "columns": {
     "column-1": {
       "column_box_xyxy": [
-        340,
         300,
-        1450,
+        300,
+        1505,
         3410
       ],
       "zone_ids": [
         "column-1"
       ],
-      "initial_geometry_provenance": "contact_sheet_reviewed",
-      "initial_geometry_reviewed_at": "2026-08-01",
-      "geometry_requires_line_by_line_review": false,
+      "initial_geometry_provenance": "external_ai_width_rechecked",
+      "initial_geometry_reviewed_at": "2026-08-13",
+      "geometry_requires_line_by_line_review": true,
       "lines": [
         {
           "id": "c1-l001",
           "centre_y": 479,
           "crop": [
-            340,
-            431,
-            1110,
-            96
+            300,
+            438,
+            1205,
+            82
           ],
           "context_crop": [
-            340,
-            314,
-            1110,
-            330
+            300,
+            333,
+            1205,
+            292
           ],
           "observed_text": "que ſe faz por algum intereſſe.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:9f319b2b68f08696c436f85cc639f2d09aa5e6e5f84bdeaa5efbba6157b7eaf1"
         },
         {
           "id": "c1-l002",
           "centre_y": 541,
           "crop": [
-            340,
-            492,
-            1110,
-            98
+            300,
+            500,
+            1205,
+            83
           ],
           "context_crop": [
-            340,
-            376,
-            1110,
-            330
+            300,
+            395,
+            1205,
+            293
           ],
           "observed_text": "Benri. Diſcrição, ou ſagacidade cõ eloquẽcia.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:990bf6d303a3a2138ea7cde0b90610859d5612e5c6de58cbdb68baab1dccd346"
         },
         {
           "id": "c1-l003",
           "centre_y": 604,
           "crop": [
-            340,
-            555,
-            1110,
-            98
+            300,
+            562,
+            1205,
+            83
           ],
           "context_crop": [
-            340,
-            439,
-            1110,
-            330
+            300,
+            457,
+            1205,
+            293
           ],
           "observed_text": "Bẽſacu. Muchimuchi. Vara de caualo. ¶ Itẽ,",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:9f814082d53734b21002a428e9b37fc3d378c8a3b2ad9e2d8415397d92d5e920"
         },
         {
           "id": "c1-l004",
           "centre_y": 666,
           "crop": [
-            340,
-            618,
-            1110,
-            96
+            300,
+            625,
+            1205,
+            82
           ],
           "context_crop": [
-            340,
-            501,
-            1110,
-            330
+            300,
+            520,
+            1205,
+            292
           ],
           "observed_text": "Ardil, ou inuenção. ¶ Benſacuuo me-",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:32c072486aa75cdba15939cc3c92ae153503919e34d0dee93907a69b9f761a31"
         },
         {
           "id": "c1-l005",
           "centre_y": 728,
           "crop": [
-            340,
-            679,
-            1110,
-            98
+            300,
+            687,
+            1205,
+            82
           ],
           "context_crop": [
-            340,
-            563,
-            1110,
-            330
+            300,
+            582,
+            1205,
+            292
           ],
           "observed_text": "guraſu. Inuentar ardil, ou fazelo.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:a9d612c0b325ea91c3ac35d8e0717258768c1593c638277b5889154181bf3fe4"
         },
         {
           "id": "c1-l006",
           "centre_y": 790,
           "crop": [
-            340,
-            741,
-            1110,
-            98
+            300,
+            749,
+            1205,
+            83
           ],
           "context_crop": [
-            340,
-            625,
-            1110,
-            330
+            300,
+            644,
+            1205,
+            293
           ],
-          "observed_text": "Bensai. Vaqimaye ſumaſu. O pagar adiui-",
-          "match": "strong",
+          "observed_text": "Benſai. Vaqimaye ſumaſu. O pagar adiui-",
+          "match": "mismatch",
           "assessment": "readable",
-          "expected_line_version": "sha256:0bdb143e69141df65aaa594584c0cb36e839e715542cef50127b2fc8606b0422"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:0bdb143e69141df65aaa594584c0cb36e839e715542cef50127b2fc8606b0422",
+          "note": "The scan visibly prints 'Benſai' with long s."
         },
         {
           "id": "c1-l007",
           "centre_y": 853,
           "crop": [
-            340,
-            805,
-            1110,
-            96
+            300,
+            811,
+            1205,
+            83
           ],
           "context_crop": [
-            340,
-            688,
-            1110,
-            330
+            300,
+            706,
+            1205,
+            293
           ],
           "observed_text": "da, ou aueriguar as contas, &c. Vt, Be-",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:ef77c30624888326bb3b26825521c6330fde75ae21e3a4b31aad65638b509a3f"
         },
         {
           "id": "c1-l008",
           "centre_y": 915,
           "crop": [
-            340,
-            866,
-            1110,
-            98
+            300,
+            874,
+            1205,
+            82
           ],
           "context_crop": [
-            340,
-            750,
-            1110,
-            330
+            300,
+            769,
+            1205,
+            292
           ],
           "observed_text": "ſaiſuru.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:f1e841baf7c6d6f6843b80d7634f39938cab4ded7c736b4542b30c6f273be27c"
         },
         {
           "id": "c1-l009",
           "centre_y": 977,
           "crop": [
-            340,
-            928,
-            1110,
-            97
+            300,
+            936,
+            1205,
+            82
           ],
           "context_crop": [
-            340,
-            812,
-            1110,
-            330
+            300,
+            831,
+            1205,
+            292
           ],
-          "observed_text": "Bensai. Prudencia, diſcrição.",
-          "match": "strong",
+          "observed_text": "Benſai. Prudencia, diſcrição.",
+          "match": "mismatch",
           "assessment": "readable",
-          "expected_line_version": "sha256:1ac3c3a93b96d89c1d5a7d0d6e51be1c4486e1b5e3767aceefac79097a6534eb"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:1ac3c3a93b96d89c1d5a7d0d6e51be1c4486e1b5e3767aceefac79097a6534eb",
+          "note": "The scan visibly prints 'Benſai' with long s."
         },
         {
           "id": "c1-l010",
           "centre_y": 1039,
           "crop": [
-            340,
-            990,
-            1110,
-            97
+            300,
+            998,
+            1205,
+            83
           ],
           "context_crop": [
-            340,
-            874,
-            1110,
-            330
+            300,
+            893,
+            1205,
+            293
           ],
-          "observed_text": "Bentǒ. Abastança, ou abundancia.",
-          "match": "strong",
+          "observed_text": "Bentǒ. Abaſtança, ou abundancia.",
+          "match": "mismatch",
           "assessment": "readable",
-          "expected_line_version": "sha256:558b5a39a9e39406515df8a36d4dd8dbff3fa53fe2a754f68e6862087056f0ef"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:558b5a39a9e39406515df8a36d4dd8dbff3fa53fe2a754f68e6862087056f0ef",
+          "note": "The scan visibly prints long s in 'Abaſtança'."
         },
         {
           "id": "c1-l011",
           "centre_y": 1102,
           "crop": [
-            340,
-            1053,
-            1110,
-            98
+            300,
+            1060,
+            1205,
+            83
           ],
           "context_crop": [
-            340,
-            937,
-            1110,
-            330
+            300,
+            955,
+            1205,
+            293
           ],
           "observed_text": "Bentǒ. Hũa caixa como eſcritorio, que tem",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:6a7a99fbaba6f30fd9d51c494570402d0c573542b0d55ad61ab2242ab20f4636"
         },
         {
           "id": "c1-l012",
           "centre_y": 1164,
           "crop": [
-            340,
-            1116,
-            1110,
-            97
+            300,
+            1123,
+            1205,
+            82
           ],
           "context_crop": [
-            340,
-            999,
-            1110,
-            330
+            300,
+            1018,
+            1205,
+            292
           ],
           "observed_text": "dentro gauetas em que ſe leuão couſas de comer.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:a4e556f61de5d4507329a3b6c9d46b6be065ecd221e4e84d00944469006f203d"
         },
         {
           "id": "c1-l013",
           "centre_y": 1226,
           "crop": [
-            340,
-            1178,
-            1110,
-            97
+            300,
+            1185,
+            1205,
+            83
           ],
           "context_crop": [
-            340,
-            1061,
-            1110,
-            330
+            300,
+            1080,
+            1205,
+            293
           ],
           "observed_text": "Bentocu. Vaqimayeuru. O entender.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:a4f297429ab758584c33a33e2eda62c5de3811d89a9df1b55de131688fd9f1d1"
         },
         {
           "id": "c1-l014",
           "centre_y": 1289,
           "crop": [
-            340,
-            1240,
-            1110,
-            98
+            300,
+            1247,
+            1205,
+            83
           ],
           "context_crop": [
-            340,
-            1124,
-            1110,
-            330
+            300,
+            1142,
+            1205,
+            293
           ],
           "observed_text": "Bentǒna. Couſa Abaſtada, ou abundante.",
-          "match": "strong",
+          "match": "mismatch",
           "assessment": "readable",
-          "expected_line_version": "sha256:79c96651de55bba6bc7865a35926fafce46e0501f28f3800d985438838b167a9"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:79c96651de55bba6bc7865a35926fafce46e0501f28f3800d985438838b167a9",
+          "note": "The scan visibly prints long s in 'Abaſtada'."
         },
         {
           "id": "c1-l015",
           "centre_y": 1351,
           "crop": [
-            340,
-            1302,
-            1110,
-            97
+            300,
+            1310,
+            1205,
+            82
           ],
           "context_crop": [
-            340,
-            1186,
-            1110,
-            330
+            300,
+            1205,
+            1205,
+            292
           ],
           "observed_text": "Bentǒni.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:f22ed00449af89bb066cc9892158b9ed85622b3fe32e45f09808e0f0721213a4"
         },
         {
           "id": "c1-l016",
           "centre_y": 1413,
           "crop": [
-            340,
-            1364,
-            1110,
-            97
+            300,
+            1372,
+            1205,
+            82
           ],
           "context_crop": [
-            340,
-            1248,
-            1110,
-            330
+            300,
+            1267,
+            1205,
+            292
           ],
           "observed_text": "Bentǒſa.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:43828bd36c643aeb31bf37d816ca064b5c773bc3f9e05645ebbc2b9101f63286"
         },
         {
           "id": "c1-l017",
           "centre_y": 1475,
           "crop": [
-            340,
-            1426,
-            1110,
-            98
+            300,
+            1434,
+            1205,
+            83
           ],
           "context_crop": [
-            340,
-            1310,
-            1110,
-            330
+            300,
+            1329,
+            1205,
+            293
           ],
-          "observed_text": "Bentǒxa. Homem rico, ou que tem alguã cou-",
+          "observed_text": "Bentǒxa. Homem rico, ou que tem algũa cou-",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:6ecd95d26e2caf562c923950cc748119dd98901449c68a4337a9e15ea510827a"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:d95e6389cd3fd866cb4c89e54975dc75c1b7bf76c17101bef940b2e54329f09d"
         },
         {
           "id": "c1-l018",
           "centre_y": 1538,
           "crop": [
-            340,
-            1490,
-            1110,
-            96
+            300,
+            1496,
+            1205,
+            83
           ],
           "context_crop": [
-            340,
-            1373,
-            1110,
-            330
+            300,
+            1391,
+            1205,
+            293
           ],
           "observed_text": "ſa em abundancia.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:5099068792641a24f47d44d4a55c98b32cdfc06251507a8ed7aab2f4ad70f38e"
         },
         {
           "id": "c1-l019",
           "centre_y": 1600,
           "crop": [
-            340,
-            1551,
-            1110,
-            98
+            300,
+            1559,
+            1205,
+            82
           ],
           "context_crop": [
-            340,
-            1435,
-            1110,
-            330
+            300,
+            1454,
+            1205,
+            292
           ],
           "observed_text": "Benxei. Vaqimaye ſumaſu. i. Fenben ſu-",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:4abceed71bc5c4ec6a76cb325e4e2a3d14f11c796009a0bc5250179fc72a9969"
         },
         {
           "id": "c1-l020",
           "centre_y": 1662,
           "crop": [
-            340,
-            1613,
-            1110,
-            98
+            300,
+            1621,
+            1205,
+            83
           ],
           "context_crop": [
-            340,
-            1497,
-            1110,
-            330
+            300,
+            1516,
+            1205,
+            293
           ],
           "observed_text": "ru. Tomar o ſeu a ſeu dono, ou pagar a diuida.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:d8af59c1bb9a7f4caf4486859535c0911370e42dd27e24aa139cb7ca71f14faf"
         },
         {
           "id": "c1-l021",
           "centre_y": 1725,
           "crop": [
-            340,
-            1677,
-            1110,
-            96
+            300,
+            1683,
+            1205,
+            83
           ],
           "context_crop": [
-            340,
-            1560,
-            1110,
-            330
+            300,
+            1578,
+            1205,
+            293
           ],
           "observed_text": "¶ Item, Arrematar as contas, &c.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:50f18786d73fb407070089fc3b97144f21f8d79813a2d034b090ba3dca53750c"
         },
         {
           "id": "c1-l022",
           "centre_y": 1787,
           "crop": [
-            340,
-            1738,
-            1110,
-            98
+            300,
+            1746,
+            1205,
+            82
           ],
           "context_crop": [
-            340,
-            1622,
-            1110,
-            330
+            300,
+            1641,
+            1205,
+            292
           ],
           "observed_text": "Benxǒ. Vaqimaye tçucurô. i. Monouo ca-",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:70e0c324a4ecb12703a8dd1ae0eaf73c29f2336c8db812e65e749bb0cee8a4fa"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:287008119f93cd13b0a74b3f38738fb6565338685ed20f9005a54fba1e56486d"
         },
         {
           "id": "c1-l023",
           "centre_y": 1849,
           "crop": [
-            340,
-            1800,
-            1110,
-            98
+            300,
+            1808,
+            1205,
+            82
           ],
           "context_crop": [
-            340,
-            1684,
-            1110,
-            330
+            300,
+            1703,
+            1205,
+            292
           ],
-          "observed_text": "yeſu. O tornar alguã couſa, ou pagala a",
+          "observed_text": "yeſu. O tornar algũa couſa, ou pagala a",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:cc770eefe30db696664c8ef398750f442d357c459eac8f4205ae3483c09e8f03"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:7c790eb5344c00e14d5b305c28cf30f9781d763ffacc52a226261256989fe067"
         },
         {
           "id": "c1-l024",
           "centre_y": 1911,
           "crop": [
-            340,
-            1863,
-            1110,
-            96
+            300,
+            1870,
+            1205,
+            83
           ],
           "context_crop": [
-            340,
-            1746,
-            1110,
-            330
+            300,
+            1765,
+            1205,
+            293
           ],
           "observed_text": "ſeu dono.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:f52c2145b3b6e320385ededa2e69f82cef0ca85254e0a3903d21ff4fc4167f1a"
         },
         {
           "id": "c1-l025",
           "centre_y": 1974,
           "crop": [
-            340,
-            1925,
-            1110,
-            98
+            300,
+            1932,
+            1205,
+            83
           ],
           "context_crop": [
-            340,
-            1809,
-            1110,
-            330
+            300,
+            1827,
+            1205,
+            293
           ],
-          "observed_text": "Benxun. Tacana. Olho da cana tenrra quan-",
-          "match": "strong",
+          "observed_text": "Benxun. Tacãna. Olho da cana tenrra quan-",
+          "match": "mismatch",
           "assessment": "readable",
-          "expected_line_version": "sha256:c208da6f391996f04df5a9a50efad71c363be51d3aaa489e3526842ddb866c05"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:6d9214f633e0076dc31911140af6d73cd7c521561104d4dbe37f56660d93a013",
+          "note": "The scan visibly prints 'Tacãna'."
         },
         {
           "id": "c1-l026",
           "centre_y": 2036,
           "crop": [
-            340,
-            1987,
-            1110,
-            98
+            300,
+            1995,
+            1205,
+            82
           ],
           "context_crop": [
-            340,
-            1871,
-            1110,
-            330
+            300,
+            1890,
+            1205,
+            292
           ],
           "observed_text": "do nace.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:1c233aa688168013790ba280eec37f309dd31e6b64aa423302f2150d0936baa9"
         },
         {
           "id": "c1-l027",
           "centre_y": 2098,
           "crop": [
-            340,
-            2050,
-            1110,
-            96
+            300,
+            2057,
+            1205,
+            82
           ],
           "context_crop": [
-            340,
-            1933,
-            1110,
-            330
+            300,
+            1952,
+            1205,
+            292
           ],
           "observed_text": "Benyei. Muchino cague. Sombra da vara",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:75c4a7c458a8c26ad80fe431d9bbe3b615502f8bdc8f78b11618e148dfecca11"
         },
         {
           "id": "c1-l028",
           "centre_y": 2160,
           "crop": [
-            340,
-            2111,
-            1110,
-            98
+            300,
+            2119,
+            1205,
+            83
           ],
           "context_crop": [
-            340,
-            1995,
-            1110,
-            330
+            300,
+            2014,
+            1205,
+            293
           ],
           "observed_text": "com que ſe dà no caualo.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:24ef399b8fb3be6f9fe10946d0b5ff4c823d23de16d0fba25cecfd7e8f230192"
         },
         {
           "id": "c1-l029",
           "centre_y": 2223,
           "crop": [
-            340,
-            2174,
-            1110,
-            98
+            300,
+            2181,
+            1205,
+            83
           ],
           "context_crop": [
-            340,
-            2058,
-            1110,
-            330
+            300,
+            2076,
+            1205,
+            293
           ],
           "observed_text": "Benzaiten. i. Fucuno cami. Cami, ou Deos",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:0584818e508639f5314228a2410999a6be0084c3df5a21a29b464f2b8d731adf"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:fba5f5ead46ecd948065693238c66c944fc52958e0237b8c6f66ff76528faf5b"
         },
         {
           "id": "c1-l030",
           "centre_y": 2285,
           "crop": [
-            340,
-            2237,
-            1110,
-            96
+            300,
+            2244,
+            1205,
+            82
           ],
           "context_crop": [
-            340,
-            2120,
-            1110,
-            330
+            300,
+            2139,
+            1205,
+            292
           ],
           "observed_text": "das riquezas, que os gentios venerão.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:fb312769592e8873f634120f999f73020a1f2be67e2fec5260590f5c9d6ff42b"
         },
         {
           "id": "c1-l031",
           "centre_y": 2347,
           "crop": [
-            340,
-            2298,
-            1110,
-            98
+            300,
+            2306,
+            1205,
+            83
           ],
           "context_crop": [
-            340,
-            2182,
-            1110,
-            330
+            300,
+            2201,
+            1205,
+            293
           ],
           "observed_text": "Benzaxi. Cabeça dos peſcadores a quẽ o ſenhor",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:017a39668e71c30bf6e45781d42401361699fd6b1590338e725ecd01bd5fb35a"
         },
         {
           "id": "c1-l032",
           "centre_y": 2410,
           "crop": [
-            340,
-            2362,
-            1110,
-            97
+            300,
+            2368,
+            1205,
+            83
           ],
           "context_crop": [
-            340,
-            2245,
-            1110,
-            330
+            300,
+            2263,
+            1205,
+            293
           ],
           "observed_text": "da ordem do que ſe hade fazer. ¶ Item,",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:901d1f25f4f6a26035f5a2bdade1f4bf6842d66179dfeecf41f538cf8fd6187c"
         },
         {
           "id": "c1-l033",
           "centre_y": 2472,
           "crop": [
-            340,
-            2424,
-            1110,
-            97
+            300,
+            2431,
+            1205,
+            82
           ],
           "context_crop": [
-            340,
-            2307,
-            1110,
-            330
+            300,
+            2326,
+            1205,
+            292
           ],
-          "observed_text": "Alcaide, cabeça dos lauradores.",
+          "observed_text": "Alicubi, cabeça dos lauradores.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:96ccd30ec1047dc8303c4d797e27ec745e9d97458048feecde46d492dc24daba"
         },
         {
           "id": "c1-l034",
           "centre_y": 2534,
           "crop": [
-            340,
-            2485,
-            1110,
-            98
+            300,
+            2493,
+            1205,
+            82
           ],
           "context_crop": [
-            340,
-            2369,
-            1110,
-            330
+            300,
+            2388,
+            1205,
+            292
           ],
           "observed_text": "Beô. i. Beôxo. Sepultura, ou tumulo.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:64bebe0f8326163398765eab1fb9a9f91178d0715122d38b0ee32cc13c1b7a3e"
         },
         {
           "id": "c1-l035",
           "centre_y": 2596,
           "crop": [
-            340,
-            2548,
-            1110,
-            97
+            300,
+            2555,
+            1205,
+            83
           ],
           "context_crop": [
-            340,
-            2431,
-            1110,
-            330
+            300,
+            2450,
+            1205,
+            293
           ],
           "observed_text": "Beôbeô. Farucani, faruca nari. Muito lar-",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:d362087c57796a6cb05e5929af9ac643d9d743011aa8a83d84218bf5d819ca3d"
         },
         {
           "id": "c1-l036",
           "centre_y": 2659,
           "crop": [
-            340,
-            2610,
-            1110,
-            97
+            300,
+            2617,
+            1205,
+            83
           ],
           "context_crop": [
-            340,
-            2494,
-            1110,
-            330
+            300,
+            2512,
+            1205,
+            293
           ],
           "observed_text": "go, ou diſtante à viſta. ¶ Beôbeôto xi-",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:d3aca7bb701a0f849361d2088cff5731fc546b841412c20b6b873e222ccc1241"
         },
         {
           "id": "c1-l037",
           "centre_y": 2721,
           "crop": [
-            340,
-            2672,
-            1110,
-            98
+            300,
+            2680,
+            1205,
+            82
           ],
           "context_crop": [
-            340,
-            2556,
-            1110,
-            330
+            300,
+            2575,
+            1205,
+            292
           ],
           "observed_text": "ta nobara. Campo que parece muito longe",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:e8a2eb88ac2bc61986443994ca138d0452b889981dbf85a8017053b4d6c0cc7c"
         },
         {
           "id": "c1-l038",
           "centre_y": 2783,
           "crop": [
-            340,
-            2734,
-            1110,
-            97
+            300,
+            2742,
+            1205,
+            82
           ],
           "context_crop": [
-            340,
-            2618,
-            1110,
-            330
+            300,
+            2637,
+            1205,
+            292
           ],
           "observed_text": "comprido, & largo.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:5b1e0f3519865650b940c5c2e8b524ccbc760c538e08f40234decc296abd8702"
         },
         {
           "id": "c1-l039",
           "centre_y": 2845,
           "crop": [
-            340,
-            2796,
-            1110,
-            97
+            300,
+            2804,
+            1205,
+            83
           ],
           "context_crop": [
-            340,
-            2680,
-            1110,
-            330
+            300,
+            2699,
+            1205,
+            293
           ],
           "observed_text": "Beôbǒ. Farucani, farucanari. Idem.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:02ebc28681c02b0ae54b1f6caa0b3dbbe00e391b5d23150037915e6bd845ae47"
         },
         {
           "id": "c1-l040",
           "centre_y": 2908,
           "crop": [
-            340,
-            2859,
-            1110,
-            98
+            300,
+            2866,
+            1205,
+            83
           ],
           "context_crop": [
-            340,
-            2743,
-            1110,
-            330
+            300,
+            2761,
+            1205,
+            293
           ],
           "observed_text": "¶ Beôbǒtaru caixô. Mar largo, & cõ-",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:8be2af6c0745b9c09896d7b4d215efa87c6a45697311bff9d436d78c60a72fb9"
         },
         {
           "id": "c1-l041",
           "centre_y": 2970,
           "crop": [
-            340,
-            2922,
-            1110,
-            96
+            300,
+            2929,
+            1205,
+            82
           ],
           "context_crop": [
-            340,
-            2805,
-            1110,
-            330
+            300,
+            2824,
+            1205,
+            292
           ],
           "observed_text": "prido.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:0850997c0f6630c8f612f5a8c74db9846d5c4b190f78929e0791d079ee9ddec4"
         },
         {
           "id": "c1-l042",
           "centre_y": 3032,
           "crop": [
-            340,
-            2983,
-            1110,
-            98
+            300,
+            2991,
+            1205,
+            83
           ],
           "context_crop": [
-            340,
-            2867,
-            1110,
-            330
+            300,
+            2886,
+            1205,
+            293
           ],
           "observed_text": "Beǒqi. Vide, Biǒqi.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:6845de445bf1692ba471092e268783014e7b40ace9c8acf6c43ca541a3d164e5"
         },
         {
           "id": "c1-l043",
           "centre_y": 3095,
           "crop": [
-            340,
-            3046,
-            1110,
-            98
+            300,
+            3053,
+            1205,
+            83
           ],
           "context_crop": [
-            340,
-            2930,
-            1110,
-            330
+            300,
+            2948,
+            1205,
+            293
           ],
           "observed_text": "Beôxi. Nayeco. Menino de dous ate tres",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:93f2a724211de7ad1f5f7c4321017bae0e5be2aad997e7be791fe71685333573"
         },
         {
           "id": "c1-l044",
           "centre_y": 3157,
           "crop": [
-            340,
-            3109,
-            1110,
-            96
+            300,
+            3116,
+            1205,
+            82
           ],
           "context_crop": [
-            340,
-            2992,
-            1110,
-            330
+            300,
+            3011,
+            1205,
+            292
           ],
           "observed_text": "annos.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:03ef8752efc604d2d71713f8f013df1c6f93190c099b53666aab7d7abea034e5"
         },
         {
           "id": "c1-l045",
           "centre_y": 3219,
           "crop": [
-            340,
-            3170,
-            1110,
-            98
+            300,
+            3178,
+            1205,
+            82
           ],
           "context_crop": [
-            340,
-            3054,
-            1110,
-            330
+            300,
+            3073,
+            1205,
+            292
           ],
           "observed_text": "Beôyei. Naye. Trigo, ou arroz em erua na-",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:65f2737d622354bacd24244c6062a52e309fd28284ced9dbbf805a8e57ee5462"
         },
         {
           "id": "c1-l046",
           "centre_y": 3281,
           "crop": [
-            340,
-            3232,
-            1110,
-            98
+            300,
+            3240,
+            1205,
+            83
           ],
           "context_crop": [
-            340,
-            3116,
-            1110,
-            330
+            300,
+            3135,
+            1205,
+            275
           ],
-          "observed_text": "cida de pouco. ¶ Item, Geração, ou deſ-",
+          "observed_text": "cido de pouco. ¶ Item, Geração, ou deſ-",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:4b4447dcfe0db9eebb2053d710bb375ce56c5b8f943a159a15a406a2062fac89"
         },
         {
           "id": "c1-l047",
           "centre_y": 3344,
           "crop": [
-            340,
-            3296,
-            1110,
-            96
+            300,
+            3302,
+            1205,
+            84
           ],
           "context_crop": [
-            340,
-            3202,
-            1110,
-            285
+            300,
+            3197,
+            1205,
+            213
           ],
           "observed_text": "cendentes.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:e9051bbbe85eb58fc254647eb5c02d881dd0bef6140fcef8aa41f8370de4091b"
         }
       ]
     },
     "column-2": {
       "column_box_xyxy": [
-        1500,
+        1445,
         300,
-        2590,
+        2651,
         3410
       ],
       "zone_ids": [
         "column-2"
       ],
-      "initial_geometry_provenance": "contact_sheet_reviewed",
-      "initial_geometry_reviewed_at": "2026-08-01",
-      "geometry_requires_line_by_line_review": false,
+      "initial_geometry_provenance": "external_ai_width_rechecked",
+      "initial_geometry_reviewed_at": "2026-08-13",
+      "geometry_requires_line_by_line_review": true,
       "lines": [
         {
           "id": "c2-l001",
           "centre_y": 483,
           "crop": [
-            1500,
-            435,
-            1090,
-            96
+            1445,
+            442,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            318,
-            1090,
-            330
+            1445,
+            337,
+            1206,
+            292
           ],
-          "observed_text": "Beppô. Bechinonori. Outro modo de dou-",
+          "observed_text": "Beppô. Bechinonori. Outro modo de dou",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:f093ced704e8ecec938f7b507c430b2ed8146115c460e2b62c6f723c109e0ab8"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:84e80d13388277b0fa9bd4b659105332142daf814c639243ab6d0df55de41195"
         },
         {
           "id": "c2-l002",
           "centre_y": 545,
           "crop": [
-            1500,
-            496,
-            1090,
-            98
+            1445,
+            504,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            380,
-            1090,
-            330
+            1445,
+            399,
+            1206,
+            292
           ],
           "observed_text": "trina, ou de enſinar. Bup.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:63e553113b3d3ede6b1a66919b2a744ea37b330b42cf813c8037b5e75ff16c77"
         },
         {
           "id": "c2-l003",
           "centre_y": 606,
           "crop": [
-            1500,
-            557,
-            1090,
-            98
+            1445,
+            565,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            441,
-            1090,
-            330
+            1445,
+            460,
+            1206,
+            292
           ],
           "observed_text": "Beppu. Bechino votto. Outro marido.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:4c12153f4afffc17d6caf8c667fad13d828bef6c497b8fa8bd00065450973a22"
         },
         {
           "id": "c2-l004",
           "centre_y": 668,
           "crop": [
-            1500,
-            620,
-            1090,
-            96
+            1445,
+            627,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            503,
-            1090,
-            330
+            1445,
+            522,
+            1206,
+            292
           ],
           "observed_text": "Beppucu. Bechino fara. Outro ventre, ou",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:4a85d076c8d89f86c5be910bc457a6ca6882926a79ee599fedaaa52106f73f56"
         },
         {
           "id": "c2-l005",
           "centre_y": 730,
           "crop": [
-            1500,
-            681,
-            1090,
-            98
+            1445,
+            689,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            565,
-            1090,
-            330
+            1445,
+            584,
+            1206,
+            292
           ],
           "observed_text": "outra mãy. ¶ Beppucino co. Filho de",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:0639d134d6f0e29958e141099566c088fa84400395eba0755c8cbe89893bb34c"
         },
         {
           "id": "c2-l006",
           "centre_y": 792,
           "crop": [
-            1500,
-            743,
-            1090,
-            98
+            1445,
+            751,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            627,
-            1090,
-            330
+            1445,
+            646,
+            1206,
+            292
           ],
           "observed_text": "outra molher, & do meſmo pay.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:7889774f301c57e1b0abd65624671fad9fc5d522ffe889a0faaa6339841e05b0"
         },
         {
           "id": "c2-l007",
           "centre_y": 853,
           "crop": [
-            1500,
-            805,
-            1090,
-            96
+            1445,
+            812,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            688,
-            1090,
-            330
+            1445,
+            707,
+            1206,
+            292
           ],
           "observed_text": "Beſſacu. Bechino ſacu. Obra de outro offi-",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:cb4ce7081f438ff8a89f0ca998c651c0363af9cc7b16db414fa6bd81d84b30df"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:1d0172617a2d3e4443b8cfccc12236e03cc70ba0dc942db868c22e4fcb56897a"
         },
         {
           "id": "c2-l008",
           "centre_y": 915,
           "crop": [
-            1500,
-            866,
-            1090,
-            98
+            1445,
+            874,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            750,
-            1090,
-            330
+            1445,
+            769,
+            1206,
+            292
           ],
           "observed_text": "cial.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:1b428ad6b69998c3457eb6246384072b3556d85c9282e9d218e3f4d48358dde1"
         },
         {
           "id": "c2-l009",
           "centre_y": 977,
           "crop": [
-            1500,
-            928,
-            1090,
-            97
+            1445,
+            936,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            812,
-            1090,
-            330
+            1445,
+            831,
+            1206,
+            292
           ],
           "observed_text": "Beſſai. Bechino tçuma. Outra eſpoſa, ou",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:f3c5e08b0189068f61aeb5dd12360aa867d07396525a2a6242bc3ec6e5e83f26"
         },
         {
           "id": "c2-l010",
           "centre_y": 1039,
           "crop": [
-            1500,
-            990,
-            1090,
-            97
+            1445,
+            998,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            874,
-            1090,
-            330
+            1445,
+            893,
+            1206,
+            292
           ],
           "observed_text": "molher.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:aedcf098e4ed0739b1a4750d852996a80343ec74df32957aefa2fc7b607abb76"
         },
         {
           "id": "c2-l011",
           "centre_y": 1101,
           "crop": [
-            1500,
-            1052,
-            1090,
-            98
+            1445,
+            1060,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            936,
-            1090,
-            330
+            1445,
+            955,
+            1206,
+            292
           ],
           "observed_text": "Beſſǒ. Bechino catachi. Outra figura, ou",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:e8589e284ae950d8425455bab839e8b9be39d361f987b941b779d8fd2621127d"
         },
         {
           "id": "c2-l012",
           "centre_y": 1162,
           "crop": [
-            1500,
-            1114,
-            1090,
-            97
+            1445,
+            1121,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            997,
-            1090,
-            330
+            1445,
+            1016,
+            1206,
+            292
           ],
           "observed_text": "eſtatus.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:06a6fa9561ab569a84d45c981225014309cb3681f3945d068aeee0954dbeb8d2"
         },
         {
           "id": "c2-l013",
           "centre_y": 1224,
           "crop": [
-            1500,
-            1176,
-            1090,
-            97
+            1445,
+            1183,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            1059,
-            1090,
-            330
+            1445,
+            1078,
+            1206,
+            292
           ],
           "observed_text": "Bet. Bechi. Diuerso, outro, differente.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:0d17ba96bc9efcad3ab609ddbd21f81094ec516654e6f3f45cff3b448fd0fc04"
         },
         {
           "id": "c2-l014",
           "centre_y": 1286,
           "crop": [
-            1500,
-            1237,
-            1090,
-            98
+            1445,
+            1245,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            1121,
-            1090,
-            330
+            1445,
+            1140,
+            1206,
+            292
           ],
           "observed_text": "¶ Betno fito. Outro homem.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:c133c35b94661e8fbd93326cd94aa241dad1ee5fe228bda3c29f0a2a20314ab2"
         },
         {
           "id": "c2-l015",
           "centre_y": 1348,
           "crop": [
-            1500,
-            1300,
-            1090,
-            97
+            1445,
+            1307,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            1183,
-            1090,
-            330
+            1445,
+            1202,
+            1206,
+            292
           ],
           "observed_text": "Betamecaxi, ſu, aita. Dar com os pès na la-",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:658d6f0c7b8191cf44a0d3779f474b4a4f162a17ce5dd4a9314b884593abb0f2"
         },
         {
           "id": "c2-l016",
           "centre_y": 1410,
           "crop": [
-            1500,
-            1362,
-            1090,
-            97
+            1445,
+            1369,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            1245,
-            1090,
-            330
+            1445,
+            1264,
+            1206,
+            292
           ],
           "observed_text": "ma, ou fazer ſoar o lodo lançandoo à parede,",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:71c85b111905929e8c4a5aa2466cf2d0db443c97fc2ce33b8312952253c7ebcc"
         },
         {
           "id": "c2-l017",
           "centre_y": 1471,
           "crop": [
-            1500,
-            1422,
-            1090,
-            98
+            1445,
+            1430,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            1306,
-            1090,
-            330
+            1445,
+            1325,
+            1206,
+            292
           ],
           "observed_text": "&c.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:ef927b59aec884d7bce767ba9f50f088545083f230a7d136e541f1b0ce606608"
         },
         {
           "id": "c2-l018",
           "centre_y": 1533,
           "crop": [
-            1500,
-            1485,
-            1090,
-            96
+            1445,
+            1492,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            1368,
-            1090,
-            330
+            1445,
+            1387,
+            1206,
+            292
           ],
           "observed_text": "Betameqi, u, eita. Soar a lama que ſe lança",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:a15669861218597a838f28acbd97a40168c0231a04c03ee265a67aa557223961"
         },
         {
           "id": "c2-l019",
           "centre_y": 1595,
           "crop": [
-            1500,
-            1546,
-            1090,
-            98
+            1445,
+            1554,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            1430,
-            1090,
-            330
+            1445,
+            1449,
+            1206,
+            292
           ],
           "observed_text": "à parede, &c.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:52b6cd0305d3b083299203d59ba593dc56b9e8f0a4241fb3e9898a1e612ac756"
         },
         {
           "id": "c2-l020",
           "centre_y": 1657,
           "crop": [
-            1500,
-            1608,
-            1090,
-            98
+            1445,
+            1616,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            1492,
-            1090,
-            330
+            1445,
+            1511,
+            1206,
+            292
           ],
           "observed_text": "Betdan. i. Betgui. Outra couſa, ou couſa",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:343fd55c9d6b24143f8fc2380438c11527265d2b25656b972422f5b42a9ff45f"
         },
         {
           "id": "c2-l021",
           "centre_y": 1718,
           "crop": [
-            1500,
-            1670,
-            1090,
-            96
+            1445,
+            1677,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            1553,
-            1090,
-            330
+            1445,
+            1572,
+            1206,
+            292
           ],
           "observed_text": "diuerſa, & doutra laya.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:c0006f184ea9db5428fdb5bedb517ea7d65e2b09a6ac04dc8e26a75a3efd8ac4"
         },
         {
           "id": "c2-l022",
           "centre_y": 1780,
           "crop": [
-            1500,
-            1731,
-            1090,
-            98
+            1445,
+            1739,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            1615,
-            1090,
-            330
+            1445,
+            1634,
+            1206,
+            292
           ],
           "observed_text": "Betdã. Bechino dãgui. Outra pratica, ou",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:8968d584bf0db6b55d06dddde9075281f68d52794e220edbf80d6c3c65511738"
         },
         {
           "id": "c2-l023",
           "centre_y": 1842,
           "crop": [
-            1500,
-            1793,
-            1090,
-            98
+            1445,
+            1801,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            1677,
-            1090,
-            330
+            1445,
+            1696,
+            1206,
+            292
           ],
           "observed_text": "pregação. ¶ Betdanuo noburu. Fazer",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:9ad73096351d4e4673f4ce4cfa7e09467fdbe5aa3d46a3baa644c26c4e353678"
         },
         {
           "id": "c2-l024",
           "centre_y": 1904,
           "crop": [
-            1500,
-            1856,
-            1090,
-            96
+            1445,
+            1863,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            1739,
-            1090,
-            330
+            1445,
+            1758,
+            1206,
+            292
           ],
           "observed_text": "outra pratica, ou pregação.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:a7075f461eeb9a479acacdbc15e5ccc3d1674912940875d3b1e544ce4153db48"
         },
         {
           "id": "c2-l025",
           "centre_y": 1966,
           "crop": [
-            1500,
-            1917,
-            1090,
-            98
+            1445,
+            1925,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            1801,
-            1090,
-            330
+            1445,
+            1820,
+            1206,
+            292
           ],
-          "observed_text": "Betdan. Bechino dan. Outro degrao.",
-          "match": "strong",
+          "observed_text": "Betdan. Bechino dan. Outro de grao.",
+          "match": "mismatch",
           "assessment": "readable",
-          "expected_line_version": "sha256:49a165d81e30045d6d9c3f79703454f8b95a3226f7e724277b747df84ccd019e"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:49a165d81e30045d6d9c3f79703454f8b95a3226f7e724277b747df84ccd019e",
+          "note": "The scan visibly spaces 'de grao' as two words."
         },
         {
           "id": "c2-l026",
           "centre_y": 2027,
           "crop": [
-            1500,
-            1978,
-            1090,
-            98
+            1445,
+            1986,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            1862,
-            1090,
-            330
+            1445,
+            1881,
+            1206,
+            292
           ],
           "observed_text": "Betden. Bechino tçutaye. Outra doutrina,",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:a343941e2b022fbae6878784979e0b7521656898411d3ff5e38961f192502fbe"
         },
         {
           "id": "c2-l027",
           "centre_y": 2089,
           "crop": [
-            1500,
-            2041,
-            1090,
-            96
+            1445,
+            2048,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            1924,
-            1090,
-            330
+            1445,
+            1943,
+            1206,
+            292
           ],
           "observed_text": "ou opinião diuerſa.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:452597df8071f5a0f0a2a98f21429e11dd7e5d59f813760ed3ffaa3378b5c05a"
         },
         {
           "id": "c2-l028",
           "centre_y": 2151,
           "crop": [
-            1500,
-            2102,
-            1090,
-            98
+            1445,
+            2110,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            1986,
-            1090,
-            330
+            1445,
+            2005,
+            1206,
+            292
           ],
           "observed_text": "Betdǒ. Bechino michi. Outro caminho.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:c27770b12a28cfced12c805578d0bd2ca3d530dc88e9827064becd913df7260e"
         },
         {
           "id": "c2-l029",
           "centre_y": 2213,
           "crop": [
-            1500,
-            2164,
-            1090,
-            98
+            1445,
+            2172,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            2048,
-            1090,
-            330
+            1445,
+            2067,
+            1206,
+            292
           ],
-          "observed_text": "Betgiô. Bechinocoto. Outro capitulo, ou",
-          "match": "strong",
+          "observed_text": "Betgiǒ. Bechinocoto. Outro capitulo, ou",
+          "match": "mismatch",
           "assessment": "readable",
-          "expected_line_version": "sha256:372d1156cdbab55c86ba25796919964ae8ebd5246d2026f41951f2372cda241f"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:372d1156cdbab55c86ba25796919964ae8ebd5246d2026f41951f2372cda241f",
+          "note": "The scan shows the caron-marked form 'Betgiǒ'."
         },
         {
           "id": "c2-l030",
           "centre_y": 2274,
           "crop": [
-            1500,
-            2226,
-            1090,
-            96
+            1445,
+            2233,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            2109,
-            1090,
-            330
+            1445,
+            2128,
+            1206,
+            292
           ],
           "observed_text": "outra couſa differente.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:504e61a5030e0496a919eab56cfb0f6a70182d094086cbdc5ddc0018d4698981"
         },
         {
           "id": "c2-l031",
           "centre_y": 2336,
           "crop": [
-            1500,
-            2287,
-            1090,
-            98
+            1445,
+            2295,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            2171,
-            1090,
-            330
+            1445,
+            2190,
+            1206,
+            292
           ],
-          "observed_text": "Betguiô. Bechino xidaza. Outra obra, ou",
-          "match": "strong",
+          "observed_text": "Betguiǒ. Bechino xiuaza. Outra obra, ou",
+          "match": "mismatch",
           "assessment": "readable",
-          "expected_line_version": "sha256:b5c8051866d5793591406adc2a85fd2ac10aff57de8960e1dea07029eb563625"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:b5c8051866d5793591406adc2a85fd2ac10aff57de8960e1dea07029eb563625",
+          "note": "The scan shows the caron-marked form 'Betguiǒ'."
         },
         {
           "id": "c2-l032",
           "centre_y": 2398,
           "crop": [
-            1500,
-            2350,
-            1090,
-            97
+            1445,
+            2357,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            2233,
-            1090,
-            330
+            1445,
+            2252,
+            1206,
+            292
           ],
-          "observed_text": "exercicio. ¶ Item, Adro, que eſta nos",
-          "match": "strong",
+          "observed_text": "exerçiçio. ¶ Item, Adro, que eſta nos",
+          "match": "mismatch",
           "assessment": "readable",
-          "expected_line_version": "sha256:abc7d12e0813e93542ca49b414b895375def0919cff2b061cfd02fadf2aa0836"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:abc7d12e0813e93542ca49b414b895375def0919cff2b061cfd02fadf2aa0836",
+          "note": "The scan reads 'exerçiçio' and prints long s in 'eſta'."
         },
         {
           "id": "c2-l033",
           "centre_y": 2460,
           "crop": [
-            1500,
-            2412,
-            1090,
-            97
+            1445,
+            2419,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            2295,
-            1090,
-            330
+            1445,
+            2314,
+            1206,
+            292
           ],
-          "observed_text": "campos, ou montes. ¶ Item, Outra pouo-",
+          "observed_text": "campos, ou montes. ¶ Item, Outra pouoa",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:943de1aa20e6991100d705f32b9f56f6ccd47f2d7550c494d37792cf263b97af"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:4a37846a71bd1d9985c35875c49aee0d4a7fd0dbc7b02c2d6cf5d0f9901cbab1"
         },
         {
           "id": "c2-l034",
           "centre_y": 2522,
           "crop": [
-            1500,
-            2473,
-            1090,
-            98
+            1445,
+            2481,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            2357,
-            1090,
-            330
+            1445,
+            2376,
+            1206,
+            292
           ],
           "observed_text": "ção, ou lugar.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:605bfec542d7d2d27924089d490dc26914a02d41ea6a29c4a60aac5156542351"
         },
         {
           "id": "c2-l035",
           "centre_y": 2583,
           "crop": [
-            1500,
-            2534,
-            1090,
-            97
+            1445,
+            2542,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            2418,
-            1090,
-            330
+            1445,
+            2437,
+            1206,
+            292
           ],
-          "observed_text": "Betgo. Vacareno nochi. Depois do aparta-",
-          "match": "strong",
+          "observed_text": "Betgo. Vacareno nochi. Depois do aparta",
+          "match": "mismatch",
           "assessment": "readable",
-          "expected_line_version": "sha256:7f7e13e62ba9ac8894116e65e8ca07a3d790f7e5d059d1ed9d47c4008f60823a"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:7f7e13e62ba9ac8894116e65e8ca07a3d790f7e5d059d1ed9d47c4008f60823a",
+          "note": "No line-end division mark is visible after 'aparta' in the scan."
         },
         {
           "id": "c2-l036",
           "centre_y": 2645,
           "crop": [
-            1500,
-            2596,
-            1090,
-            97
+            1445,
+            2604,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            2480,
-            1090,
-            330
+            1445,
+            2499,
+            1206,
+            292
           ],
           "observed_text": "mento.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:7e12cef9a2fa79d98dfb1bebab570b74ba00d072cad612ea649bda993d9f15ee"
         },
         {
           "id": "c2-l037",
           "centre_y": 2707,
           "crop": [
-            1500,
-            2658,
-            1090,
-            98
+            1445,
+            2666,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            2542,
-            1090,
-            330
+            1445,
+            2561,
+            1206,
+            292
           ],
           "observed_text": "Betguan. Bechino negai. Outro deſejo.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:d9f6cb83dc70b8a4cbd6004e21e76e2b54ee5c22d710416ffe40bfdf417342dc"
         },
         {
           "id": "c2-l038",
           "centre_y": 2769,
           "crop": [
-            1500,
-            2720,
-            1090,
-            97
+            1445,
+            2728,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            2604,
-            1090,
-            330
+            1445,
+            2623,
+            1206,
+            292
           ],
           "observed_text": "Betji. Bechino coto. Outra couſa.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:ad43a56c60f0772b0be4ebb13e6a3f60816d36488c74b2c10393af0c19ce39bb"
         },
         {
           "id": "c2-l039",
           "centre_y": 2830,
           "crop": [
-            1500,
-            2782,
-            1090,
-            97
+            1445,
+            2789,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            2665,
-            1090,
-            330
+            1445,
+            2684,
+            1206,
+            292
           ],
           "observed_text": "Betji. Melius, Bechiji. Bexxiteno toqi. Dia,",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:2555939b8753065e04c3b13ab8f29796066fc407e10cf8944a9d3229c4a848b7"
         },
         {
           "id": "c2-l040",
           "centre_y": 2892,
           "crop": [
-            1500,
-            2843,
-            1090,
-            98
+            1445,
+            2851,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            2727,
-            1090,
-            330
+            1445,
+            2746,
+            1206,
+            292
           ],
-          "observed_text": "ou tempo determinado pera alguã couſa.",
+          "observed_text": "ou tempo determinado pera algũa couſa.",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:7825245884771f94cab9451696dfe91b1a0e1d52c880be1f5e14585f3d5d3682"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:4cc1663348f1b300a8e5e0cbd5c9a3712873c15b427974aba997bcc616e0ffdd"
         },
         {
           "id": "c2-l041",
           "centre_y": 2954,
           "crop": [
-            1500,
-            2906,
-            1090,
-            96
+            1445,
+            2913,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            2789,
-            1090,
-            330
+            1445,
+            2808,
+            1206,
+            292
           ],
           "observed_text": "Betji. Bechino tera. Outra varela.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:6e4024dd229cebe9df0811fa37b1bd6e7d82d686c142ab485c6c19ddaa898b83"
         },
         {
           "id": "c2-l042",
           "centre_y": 3016,
           "crop": [
-            1500,
-            2967,
-            1090,
-            98
+            1445,
+            2975,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            2851,
-            1090,
-            330
+            1445,
+            2870,
+            1206,
+            292
           ],
           "observed_text": "Betjin. Bechino fito. Outro homem.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:eac6ab988f8927a2bfea1974b20d6872317ba3a982321bf785f60c1ecd49ae22"
         },
         {
           "id": "c2-l043",
           "centre_y": 3078,
           "crop": [
-            1500,
-            3029,
-            1090,
-            98
+            1445,
+            3037,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            2913,
-            1090,
-            330
+            1445,
+            2932,
+            1206,
+            292
           ],
           "observed_text": "Betjut. Bechino michi. Outro modo, ou",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:a7b96b73b0ee6e01d81bcccc8033405a2cb33d1bb085521db4b87fcfab4aa15d"
         },
         {
           "id": "c2-l044",
           "centre_y": 3139,
           "crop": [
-            1500,
-            3091,
-            1090,
-            96
+            1445,
+            3098,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            2974,
-            1090,
-            330
+            1445,
+            2993,
+            1206,
+            292
           ],
           "observed_text": "caminho de fazer as couſas.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:2eadbe586bb238392f12176590608cb61f919e1108e7217e86b4735fbd6e7f20"
         },
         {
           "id": "c2-l045",
           "centre_y": 3201,
           "crop": [
-            1500,
-            3152,
-            1090,
-            98
+            1445,
+            3160,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            3036,
-            1090,
-            330
+            1445,
+            3055,
+            1206,
+            292
           ],
           "observed_text": "Betmot. Bechino mono. Outra couſa.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:974e4fe570f4253a521fbb5a3ac87a87e9c890336d2204444baf69696ffd5968"
         },
         {
           "id": "c2-l046",
           "centre_y": 3263,
           "crop": [
-            1500,
-            3214,
-            1090,
-            98
+            1445,
+            3222,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            3098,
-            1090,
-            330
+            1445,
+            3117,
+            1206,
+            292
           ],
-          "observed_text": "Betni. Adu. De outra maneira, ou differen-",
-          "match": "strong",
+          "observed_text": "Betni. Adu. De outra maneira, ou differen",
+          "match": "mismatch",
           "assessment": "readable",
-          "expected_line_version": "sha256:d056f5df1ea5659802ef8e82a008117b96bb1942c7574ae2ad2fd4ad25e6166b"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:d056f5df1ea5659802ef8e82a008117b96bb1942c7574ae2ad2fd4ad25e6166b",
+          "note": "No line-end division mark is visible after 'differen' in the scan."
         },
         {
           "id": "c2-l047",
           "centre_y": 3325,
           "crop": [
-            1500,
-            3277,
-            1090,
-            96
+            1445,
+            3284,
+            1206,
+            82
           ],
           "context_crop": [
-            1500,
-            3182,
-            1090,
-            285
+            1445,
+            3179,
+            1206,
+            231
           ],
           "observed_text": "temente.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:2d3e7a840c5ec8e452913cae41857e4c0499e3e2a205fec7e8ed50ecfa381e94"
         }
       ]
     }
-  }
+  },
+  "geometry_review_status": "completed",
+  "text_review_status": "completed",
+  "review_note": "Every physical body line was independently read from the native-resolution scan before canonical comparison; every returned crop was then checked for complete edge/top/bottom ink and swept top-to-bottom by column."
 }

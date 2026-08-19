@@ -38,7 +38,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l022` | Bari. *Ourina dos caualos. ¶* Bariuo tçu- |  |
 | `c1-l023` | &emsp;qu. *Ourinar o caualo. ¶ Item, Se diz* |  |
 | `c1-l024` | &emsp;*de gente baixa.* |  |
-| `c1-l025` | Baribixacu. *Coco cõ q̃ tomão ourina do caualo.* |  |
+| `c1-l025` | Baribixacu. *Coco cõ q̃ tomão a ourina do caualo.* |  |
 | `c1-l026` | Barimecaxi, ſu, aita. *Fazer que o vestido* |  |
 | `c1-l027` | &emsp;*nouo, ou papel faça ſom como quando bulir cõ* |  |
 | `c1-l028` | &emsp;*elle, ou o dobrão, &c. ¶ Item, Fazer* |  |
@@ -83,7 +83,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l009` | Batjet. Xitauo nuqu. *O Arrancar a lingua.* |  |
 | `c2-l010` | Batô. Vmano caxira. *Cabeça de caualo.* |  |
 | `c2-l011` | Batriǔ. Suyeno nagare. *Geração, ou deſ* |  |
-| `c2-l012` | &emsp;*cendentes ultimos q̃ vem dalguã familia, mas* |  |
+| `c2-l012` | &emsp;*cendentes ultimos q̃ vem dalgũa familia, mas* |  |
 | `c2-l013` | &emsp;*o mais commum ſentido he diſcipulos, ou deſ-* |  |
 | `c2-l014` | &emsp;*cendentes derradeiros dalgũa ſeita, arte,* |  |
 | `c2-l015` | &emsp;*doutrina, &c.* |  |
@@ -97,15 +97,15 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l023` | &emsp;ru. *Por ſe no derradeiro lugar.* |  |
 | `c2-l024` | Batzai. *Castigo, ou justiça por peccado.* |  |
 | `c2-l025` | Baxacu. Magaxi. *Almocreue.* |  |
-| `c2-l026` | Baxacu. i. tçiqi. *Aleuitamento. ¶* Baxa- |  |
+| `c2-l026` | Baxacu. i. jtqi. *Aleuãtamẽto. ¶* Baxa- |  |
 | `c2-l027` | &emsp;cuga vocoru. *Auer este aleuantamento.* |  |
 | `c2-l028` | Baxen. i. vuaxiqi, l, futon. *Hũa almo-* |  |
 | `c2-l029` | &emsp;*fadinha, ou coxim que ſe poem ſobre a ſella* |  |
 | `c2-l030` | &emsp;*do caualo.* |  |
 | `c2-l031` | Baxen. *Melius,* Badai. *Caxas de cobre, ou di-* |  |
-| `c2-l032` | &emsp;*nheiro que ſe da a algum ſenhor em lugar de* |  |
+| `c2-l032` | &emsp;*nheiro que ſe dà a algum ſenhor em lugar de* |  |
 | `c2-l033` | &emsp;*caualo que ſe lhe custuma offereçer em certos* |  |
-| `c2-l034` | &emsp;*tempos, por preſente, ou viſitação.* |  |
+| `c2-l034` | &emsp;*tẽpos, por preſente, ou viſitação.* |  |
 | `c2-l035` | Baxina. *Inquieto, leue, & açodado.* |  |
 | `c2-l036` | Baxǒ. *Liuro em que ſe trata das couſas de* |  |
 | `c2-l037` | &emsp;*caualos.* |  |
@@ -115,9 +115,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l041` | Baxô. *Figueira da India de folhas largas.* |  |
 | `c2-l042` | Baxônuno. *Pano como de linho, ou teada fei* |  |
 | `c2-l043` | &emsp;*ta de hũs fios da quella figueira da India mais* |  |
-| `c2-l044` | &emsp;*rezos.* |  |
-| `c2-l045` | Baxǒſan. Vmano vyeno ſacazzzuqi. *Certo* |  |
-| `c2-l046` | &emsp;*copo de vinho per q̃ ſe bebe estando a caualo.* |  |
+| `c2-l044` | &emsp;*teços.* |  |
+| `c2-l045` | Baxǒſan. Vmano vyero ſacazzuqi. *Certo* |  |
+| `c2-l046` | &emsp;*copo de vinho per q̃ ſe bebe Estando a caualo.* |  |
 | `c2-l047` | Baxu. Vmano cubi. *Peſcoço do caualo.* |  |
 
 ## Catchword

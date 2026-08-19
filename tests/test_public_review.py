@@ -73,7 +73,7 @@ class PublicReviewRegressionTests(unittest.TestCase):
                 for page in audit["pages"]
                 for candidate in page["candidates"]
             ]
-            self.assertEqual(len(candidates), 1016)
+            self.assertEqual(len(candidates), 1014)
             keys = {
                 f"{page}/{candidate['line']}#{candidate['occurrence']}"
                 for page, candidate in candidates
@@ -384,6 +384,35 @@ class PublicReviewRegressionTests(unittest.TestCase):
             )
             self.assertEqual(accepted.returncode, 0, accepted.stderr)
 
+    def test_completed_review_requires_explicit_transcription_drift_opt_in(self):
+        review = ROOT / "pilot" / "human-review" / "ai-geometry-work" / "bnf-f0053-reviewed.json"
+        with tempfile.NamedTemporaryFile(suffix=".json") as geometry:
+            geometry.write(
+                (ROOT / "pilot" / "human-review" / "line-geometry.json").read_bytes()
+            )
+            geometry.flush()
+            command = [
+                "python3",
+                str(ROOT / "scripts" / "import_ai_geometry_review.py"),
+                str(review),
+                "--geometry",
+                geometry.name,
+                "--reviewed-at",
+                "2026-08-19",
+            ]
+            rejected = subprocess.run(command, capture_output=True, text=True)
+            self.assertNotEqual(rejected.returncode, 0)
+            self.assertIn(
+                "canonical transcription differs from the version reviewed by the AI",
+                rejected.stderr,
+            )
+            accepted = subprocess.run(
+                [*command, "--allow-transcription-drift"],
+                capture_output=True,
+                text=True,
+            )
+            self.assertEqual(accepted.returncode, 0, accepted.stderr)
+
     def test_edited_lines_preserve_typeface_and_submission_state(self):
         app = (ROOT / "site" / "app.js").read_text(encoding="utf-8")
         document = (ROOT / "site" / "index.html").read_text(encoding="utf-8")
@@ -555,8 +584,9 @@ class PublicReviewRegressionTests(unittest.TestCase):
             for column in page["columns"].values():
                 horizontal_review = column.get("horizontal_completeness_review")
                 if horizontal_review:
-                    self.assertEqual(
-                        column["visual_review"], "external_ai_width_rechecked"
+                    self.assertIn(
+                        column["visual_review"],
+                        {"external_ai_width_rechecked", "ai_line_by_line_checked"},
                     )
                     self.assertEqual(
                         horizontal_review["status"],
