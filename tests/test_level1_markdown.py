@@ -115,13 +115,17 @@ class Level1MarkdownTests(unittest.TestCase):
         self.assertIn("Iaponi-*", source)
         self.assertNotIn("Iaponi=", source)
 
-    def test_short_s_precedes_f_through_human_reviewed_f100_scope(self):
+    def test_short_s_before_f_is_the_general_tendency_not_an_absolute_rule(self):
         sources = "".join(
             (SOURCE / f"bnf-f{leaf:04d}.md").read_text(encoding="utf-8")
             for leaf in range(13, 101)
         )
-        self.assertNotIn("ſf", sources)
+        self.assertEqual(sources.count("ſf"), 2)
         self.assertGreaterEqual(sources.count("sf"), 32)
+
+        f51 = (SOURCE / "bnf-f0051.md").read_text(encoding="utf-8")
+        self.assertIn("trãſformarſe", f51)
+        self.assertIn("trãſformada", f51)
 
     def test_strengthened_f14_review_is_retained(self):
         source = (SOURCE / "bnf-f0014.md").read_text(encoding="utf-8")

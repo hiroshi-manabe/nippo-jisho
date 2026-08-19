@@ -1560,7 +1560,7 @@ class PublicReviewRegressionTests(unittest.TestCase):
             for zone in record["zones"]
             for line in zone.get("lines", [])
         }
-        self.assertEqual(lines["c1-l001"], "Banqe. Omudarſe, ou trãsformarſe em va-")
+        self.assertEqual(lines["c1-l001"], "Banqe. Omudarſe, ou trãſformarſe em va-")
         self.assertIn("Banſô. i. Tomonǒte yuqu ſô.", lines["c1-l021"])
         self.assertEqual(lines["c1-l024"], "Banſui. i. Yǔmexi. Cea, ou comer datarde.")
         self.assertIn("Todas as repoſ-", lines["c1-l034"])
