@@ -1537,6 +1537,41 @@ class PublicReviewRegressionTests(unittest.TestCase):
             column_2_centres,
         )
 
+    def test_f51_issue_48_applies_all_scan_supported_changes(self):
+        history = json.loads(
+            (ROOT / "pilot" / "human-review" / "correction-history.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        page = next(page for page in history["pages"] if page["id"] == "bnf-f0051")
+        self.assertEqual(page["issues_applied"], 3)
+        self.assertEqual(page["distinct_lines"], 25)
+        self.assertEqual(page["accepted_edits"], 26)
+        issue = next(issue for issue in page["issues"] if issue["number"] == 48)
+        self.assertEqual(len(issue["lines"]), 21)
+
+        record = json.loads(
+            (ROOT / "pilot" / "format-v1-trial" / "level1" / "bnf-f0051.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        lines = {
+            line["id"]: "".join(run["text"] for run in line["runs"])
+            for zone in record["zones"]
+            for line in zone.get("lines", [])
+        }
+        self.assertEqual(lines["c1-l001"], "Banqe. Omudarſe, ou trãsformarſe em va-")
+        self.assertIn("Banſô. i. Tomonǒte yuqu ſô.", lines["c1-l021"])
+        self.assertEqual(lines["c1-l024"], "Banſui. i. Yǔmexi. Cea, ou comer datarde.")
+        self.assertIn("Todas as repoſ-", lines["c1-l034"])
+        self.assertIn("eſcaçamente", lines["c1-l041"])
+        self.assertTrue(lines["c2-l017"].endswith("vinho ẽ"))
+        self.assertIn("poliçia açerca", lines["c2-l018"])
+        self.assertEqual(lines["c2-l030"], "Mudar otrajo, & tomar figura eſtranha. Vt")
+        self.assertIn("Veſtirſe", lines["c2-l031"])
+        self.assertIn("&c tranſ-", lines["c2-l037"])
+        self.assertIn("faz uirtuoſo", lines["c2-l040"])
+
     def test_f50_issue_44_applies_only_scan_supported_changes(self):
         history = json.loads(
             (ROOT / "pilot" / "human-review" / "correction-history.json").read_text(
