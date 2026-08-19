@@ -120,12 +120,15 @@ class Level1MarkdownTests(unittest.TestCase):
             (SOURCE / f"bnf-f{leaf:04d}.md").read_text(encoding="utf-8")
             for leaf in range(13, 101)
         )
-        self.assertEqual(sources.count("ſf"), 2)
-        self.assertGreaterEqual(sources.count("sf"), 32)
+        self.assertEqual(sources.count("ſf"), 3)
+        self.assertGreaterEqual(sources.count("sf"), 31)
 
         f51 = (SOURCE / "bnf-f0051.md").read_text(encoding="utf-8")
         self.assertIn("trãſformarſe", f51)
         self.assertIn("trãſformada", f51)
+
+        f52 = (SOURCE / "bnf-f0052.md").read_text(encoding="utf-8")
+        self.assertIn("tranſfigurada", f52)
 
     def test_strengthened_f14_review_is_retained(self):
         source = (SOURCE / "bnf-f0014.md").read_text(encoding="utf-8")
