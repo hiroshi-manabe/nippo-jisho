@@ -93,7 +93,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l019` | Batyô. Suyenofa. *Deſcendentes derradeiros* |  |
 | `c2-l020` | &emsp;*dalgũa familia, ou çeita.* |  |
 | `c2-l021` | Batza. Siyenoza. *Lugar mais baxo, ou* |  |
-| `c2-l022` | &emsp;*derradeiro do zaxiqi. ¶* Batzani nauo- |  |
+| `c2-l022` | &emsp;*derradeiro do* zaxiqi*. ¶* Batzani nauo- |  |
 | `c2-l023` | &emsp;ru. *Por ſe no derradeiro lugar.* |  |
 | `c2-l024` | Batzai. *Castigo, ou justiça por peccado.* |  |
 | `c2-l025` | Baxacu. Magaxi. *Almocreue.* |  |
