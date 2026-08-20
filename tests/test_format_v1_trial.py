@@ -20,6 +20,29 @@ def load_module():
 
 
 class FormatV1TrialTests(unittest.TestCase):
+    def test_f13_internal_b_heading_is_furniture_not_body_text(self):
+        page = json.loads(
+            (TRIAL / "level1" / "bnf-f0013.json").read_text(encoding="utf-8")
+        )
+        zones = {zone["id"]: zone for zone in page["zones"]}
+        self.assertEqual(zones["section-column-1"]["kind"], "section_heading")
+        self.assertEqual(
+            "".join(
+                run["text"]
+                for run in zones["section-column-1"]["lines"][0]["runs"]
+            ),
+            "A ANTES DO B.",
+        )
+        body_lines = {
+            line["id"]
+            for zone in page["zones"]
+            if zone["kind"] == "column"
+            for line in zone["lines"]
+        }
+        self.assertNotIn("c1-l019", body_lines)
+        self.assertIn("c1-l018", body_lines)
+        self.assertIn("c1-l020", body_lines)
+
     def test_complete_trial_validates(self):
         result = subprocess.run(
             [sys.executable, str(SCRIPT), str(TRIAL), "--check"],

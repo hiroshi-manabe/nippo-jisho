@@ -17,7 +17,7 @@ A repeated ornamental band is printed above the title; it contains no lexical te
 | `title-l003` | **LETRA.** |  |
 | `title-l004` | **A** |  |
 
-## Column 1
+## Column 1 before internal section heading
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
@@ -39,7 +39,17 @@ A repeated ornamental band is printed above the title; it contains no lexical te
 | `c1-l016` | Aara, l, arà. *Interieção. Idem, Mas mais* |  |
 | `c1-l017` | &emsp;*frequente, & vſada que,* Aa. *Vt,* Aara |  |
 | `c1-l018` | &emsp;vrexiya. Aara canaxiya, &c. |  |
-| `c1-l019` | **A ANTES DO B.** |  |
+
+## Column 1 internal section heading
+
+| Physical line | Main position | Far right |
+| --- | --- | --- |
+| `s1-l001` | **A ANTES DO B.** |  |
+
+## Column 1 after internal section heading
+
+| Physical line | Main position | Far right |
+| --- | --- | --- |
 | `c1-l020` | Aba. *Lugar como ceuadouro onde ſe deita, ou* |  |
 | `c1-l021` | &emsp;*arma rede aos paſſaros. ¶ Item, Lugar* |  |
 | `c1-l022` | &emsp;*onde tirão a rede do peixe.* |  |

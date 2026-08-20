@@ -29,7 +29,7 @@
   },
   "transcription_source": {
     "page_file": "pilot/format-v1-trial/level1/bnf-f0013.json",
-    "page_file_sha256": "fecf5772d5f4551e99ba1c618b21420f77458e36b97f1713f0ff7d74a48ec7b1"
+    "page_file_sha256": "8ea39a4a4bc64a6cd8087d7e9066f674ba3da105497638f4162d2131dc63234c"
   },
   "columns": {
     "column-1": {
@@ -40,7 +40,8 @@
         3650
       ],
       "zone_ids": [
-        "column-1"
+        "column-1-before-section",
+        "column-1-after-section"
       ],
       "initial_geometry_provenance": "line_by_line_reverified",
       "initial_geometry_reviewed_at": "2026-08-20",
@@ -423,27 +424,6 @@
           "assessment": "pending",
           "geometry_action": "inspect_and_adjust_if_needed",
           "expected_line_version": "sha256:4c887148bab4af66444928c69b2195accb619edf4a826564ddf1019e69e3a9bb"
-        },
-        {
-          "id": "c1-l019",
-          "centre_y": 2339,
-          "crop": [
-            199,
-            2273,
-            1025,
-            135
-          ],
-          "context_crop": [
-            198,
-            2174,
-            1026,
-            330
-          ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
-          "expected_line_version": "sha256:0b81ff1aa52d28793cc11ccc8652743467f7f1857902d990c2cb183cb8550399"
         },
         {
           "id": "c1-l020",
