@@ -32,9 +32,12 @@ Unchanged rows remain compact. Clicking the transcription opens an editor contai
 
 - the editable transcription;
 - an optional comment;
+- a **Request second opinion** checkbox;
 - **OK** and **Cancel** actions.
 
 **OK** confirms the local proposal and collapses the editor. Opening another line has the same save-and-collapse effect on the active editor before the new one opens, so moving through the page cannot silently discard typed text or comments. **Cancel** remains the explicit way to discard changes made during that editing session. A changed row can be reopened, and a **Revert** action restores the repository text.
+
+Typing a comment selects **Request second opinion** automatically, because a comment usually identifies a distinction that deserves discussion. The reader may clear the checkbox afterward when the comment is only provenance or an already-settled human observation. That explicit choice persists when the row is reopened. A checked row receives a compact marker after **OK** so the page-level review state remains visible.
 
 In compact form, a comment uses the horizontal space remaining to the right of the usually short transcription. A comment that does not fit is truncated with an ellipsis, with its complete text available on click or focus. On narrow screens it moves below the transcription. The comment should remain visually secondary to the source text.
 
@@ -152,7 +155,7 @@ The Issue body must not be placed in a GitHub `issues/new` query parameter. GitH
 
 The submission flow is therefore:
 
-1. Serialize the confirmed page corrections as readable, versioned JSON.
+1. Serialize the confirmed page corrections as readable schema-2 JSON, marking only requested second-opinion rows with `"second_opinion": true`.
 2. Copy the complete payload to the clipboard.
 3. Open a short GitHub Issue URL containing only the template selection and a page-specific title.
 4. Ask the reader to paste the copied payload at the marked location in the Issue body.
@@ -176,7 +179,7 @@ A representative payload is:
 
 ```json
 {
-  "schema": 1,
+  "schema": 2,
   "page": "f17",
   "base_commit": "abc1234",
   "base_transcription_version": "sha256:0123456789abcdef…",
@@ -185,15 +188,18 @@ A representative payload is:
       "line": "c1-l026",
       "before": "Acuni toingiacu ſuru.",
       "after": "Acuni tongiacu ſuru.",
-      "comment": "Japanese 頓着 supports tongiacu."
+      "comment": "Japanese 頓着 supports tongiacu.",
+      "second_opinion": true
     }
   ]
 }
 ```
 
-`before` protects against silently applying a proposal to a line that has subsequently changed. The Issue is a proposal: each reading is still checked against the scan and linguistic context before the canonical Markdown is edited.
+`before` protects against silently applying a correction to a line that has subsequently changed. In schema 2, an absent or false `second_opinion` means that the human reviewer has settled the exact correction and asks for mechanical application. A true value asks the machine reviewer to investigate that item independently. Schema-1 payloads predate this distinction and retain the former behavior: every item requires detailed review.
 
-Issue adjudication is deliberately asymmetric. A human correction receives a strong corrective prior because it normally reports a discrepancy found while comparing the scan with the published text, whereas the existing transcription is usually the machine reader's own earlier visual judgment. Showing that old judgment during a second visual pass creates anchoring: the machine can reproduce its first interpretation without adding independent evidence.
+Issue processing is deliberately two-stage. First validate the page, base version, line IDs, `before` values, and correction notation, then mechanically apply all unflagged schema-2 changes to the working tree. Do not reopen their glyph judgments merely because machine vision would have read them differently. Next, perform the detailed linguistic-first and visual review below only for `second_opinion: true` items (and every item in a legacy schema-1 payload). Do not commit, push, or close the Issue until the flagged set is settled. If no items are flagged, the validated mechanical application may proceed directly through tests, commit, deployment, and Issue closure.
+
+Second-opinion adjudication is deliberately asymmetric. A human correction receives a strong corrective prior because it normally reports a discrepancy found while comparing the scan with the published text, whereas the existing transcription is usually the machine reader's own earlier visual judgment. Showing that old judgment during a second visual pass creates anchoring: the machine can reproduce its first interpretation without adding independent evidence.
 
 Review therefore proceeds in this order:
 
@@ -206,7 +212,7 @@ Review therefore proceeds in this order:
 
 This is evidence-weighting, not silent normalization. An unmistakably printed anomaly remains literal Level 1 text even when its intended word is certain. Linguistic priority governs hypothesis formation and ambiguous evidence; it does not authorize replacing clear type with an expected form.
 
-An explicit human pre-confirmation attached to an Issue item is already an adjudication, not merely supporting commentary. When the comment states that the reviewer has inspected the relevant feature and records the resulting decision—for example, confirming that a visibly slanted Japanese word is nevertheless roman type—the machine skips that stated visual check and applies the exact submitted correction. It must not reopen the same distinction merely because it is difficult for machine vision. A comment that only supplies context, a hypothesis, or a reason to inspect the scan is not a pre-confirmation and follows the ordinary review procedure.
+An explicit human pre-confirmation attached to a second-opinion item is already an adjudication, not merely supporting commentary. When the comment states that the reviewer has inspected the relevant feature and records the resulting decision—for example, confirming that a visibly slanted Japanese word is nevertheless roman type—the machine skips that stated visual check and applies the exact submitted correction. It must not reopen the same distinction merely because it is difficult for machine vision. A comment that only supplies context, a hypothesis, or a reason to inspect the scan follows the ordinary second-opinion procedure. In the UI, a reader who intends the former may also clear the automatically selected checkbox and submit the item as human-settled.
 
 The machine reviewer accepts and applies every proposal supported by this combined linguistic-first and visual test. A proposal it cannot substantiate is provisionally rejected and marked **Human re-check required**. Here, *rejected* means only *not independently verified by the machine reviewer*; it does not mean that the proposal has been proved incorrect. The machine must state the positive contrary evidence or the exact unresolved distinction rather than merely report that the old reading still looks possible.
 

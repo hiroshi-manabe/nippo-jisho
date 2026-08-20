@@ -462,6 +462,21 @@ class PublicReviewRegressionTests(unittest.TestCase):
         self.assertIn("if (saveEditor(form)) renderPageContent()", app)
         self.assertIn("Opening another line has the same save-and-collapse effect", workflow)
 
+    def test_correction_submission_supports_opt_in_second_opinions(self):
+        app = (ROOT / "site" / "app.js").read_text(encoding="utf-8")
+        styles = (ROOT / "site" / "styles.css").read_text(encoding="utf-8")
+        workflow = (ROOT / "docs" / "human-review-workflow.md").read_text(
+            encoding="utf-8"
+        )
+        self.assertIn('name="second-opinion"', app)
+        self.assertIn("function requestsSecondOpinion(edit)", app)
+        self.assertIn("opinionControl.checked = Boolean(commentArea.value.trim())", app)
+        self.assertIn("opinionControl.dataset.manual = 'true'", app)
+        self.assertIn("second_opinion: true", app)
+        self.assertIn("{ schema: 2, page: page.view", app)
+        self.assertIn(".second-opinion-toggle", styles)
+        self.assertIn("mechanically apply all unflagged schema-2 changes", workflow)
+
     def test_page_view_has_explicit_overview_control(self):
         app = (ROOT / "site" / "app.js").read_text(encoding="utf-8")
         document = (ROOT / "site" / "index.html").read_text(encoding="utf-8")

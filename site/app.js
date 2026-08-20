@@ -208,9 +208,13 @@ function saveWorkspace(page) {
   localStorage.setItem(submissionStorageKey(page), JSON.stringify({schema: WORKSPACE_SCHEMA, transcription_version: page.transcription_version, status: state.submissions[page.page_id].status}));
 }
 
+function requestsSecondOpinion(edit) {
+  return edit?.second_opinion ?? Boolean(edit?.comment);
+}
+
 function staleDraftPayload(stale) {
-  const changes = Object.entries(stale.edits).map(([line, edit]) => ({line, before: edit.before, after: edit.after, ...(edit.comment ? {comment: edit.comment} : {})}));
-  return JSON.stringify({schema: 1, page: stale.page.view, base_transcription_version: stale.version, changes}, null, 2);
+  const changes = Object.entries(stale.edits).map(([line, edit]) => ({line, before: edit.before, after: edit.after, ...(edit.comment ? {comment: edit.comment} : {}), ...(requestsSecondOpinion(edit) ? {second_opinion: true} : {})}));
+  return JSON.stringify({schema: 2, page: stale.page.view, base_transcription_version: stale.version, changes}, null, 2);
 }
 
 function showStaleDraftWarning() {
@@ -551,7 +555,7 @@ function lineHTML(page, line) {
   const edit = pageEdits(page)[line.id];
   const current = edit ? edit.after : line.text;
   const comment = edit?.comment || '';
-  const markers = `${edit?.base_changed ? '<span class="review-marker">Base updated</span>' : ''}${edit?.comment_review_needed ? '<span class="review-marker comment-marker">Comment needs review</span>' : ''}`;
+  const markers = `${edit?.base_changed ? '<span class="review-marker">Base updated</span>' : ''}${edit?.comment_review_needed ? '<span class="review-marker comment-marker">Comment needs review</span>' : ''}${requestsSecondOpinion(edit) ? '<span class="review-marker opinion-marker">Second opinion</span>' : ''}`;
   return `<article class="line-row ${edit ? 'changed' : ''} ${edit?.base_changed ? 'rebased' : ''}" data-line="${line.id}"><div class="line-head"><code>${line.id}</code>${markers}<button class="context-toggle" type="button" aria-expanded="false">Show context</button></div><button class="line-crop" type="button" style="aspect-ratio:${line.crop[2]}/${line.crop[3]}" data-crop='${JSON.stringify(line.crop)}' data-context='${JSON.stringify(line.context_crop)}' aria-label="Show context for ${line.id}"><img loading="lazy" data-iiif-page alt="" style="width:${page.width / line.crop[2] * 100}%;transform:translate(${-line.crop[0] / page.width * 100}% ,${-line.crop[1] / page.height * 100}%)"></button><div class="line-text-row"><button class="line-text indent-${line.indent}" type="button" data-action="edit">${edit ? styledVisualDiff(line, current) : renderRuns(line.runs)}</button>${comment ? `<button class="comment-preview" type="button" data-action="edit" title="${escapeHTML(comment)}">${escapeHTML(comment)}</button>` : ''}</div></article>`;
 }
 
@@ -639,14 +643,16 @@ function saveEditor(form) {
   const line = state.currentPage.zones.filter(item => item.kind === 'column').flatMap(item => item.lines).find(item => item.id === row.dataset.line);
   const after = form.elements.transcription.value;
   const comment = form.elements.comment.value.trim();
+  const secondOpinion = form.elements['second-opinion'].checked;
+  const secondOpinionManual = form.elements['second-opinion'].dataset.manual === 'true';
   const proposal = parseRomanNotation(after);
   if (!proposal.valid) {
     toast(proposal.error);
     form.elements.transcription.focus();
     return false;
   }
-  if (proposalMatchesLine(line, after) && !comment) delete pageEdits(state.currentPage)[line.id];
-  else pageEdits(state.currentPage)[line.id] = {before: line.text, after, comment, base_line_version: line.transcription_version};
+  if (proposalMatchesLine(line, after) && !comment && !secondOpinion) delete pageEdits(state.currentPage)[line.id];
+  else pageEdits(state.currentPage)[line.id] = {before: line.text, after, comment, second_opinion: secondOpinion, second_opinion_manual: secondOpinionManual, base_line_version: line.transcription_version};
   persistEdits(state.currentPage);
   return true;
 }
@@ -663,7 +669,17 @@ function openEditor(row) {
   }
   const line = state.currentPage.zones.filter(item => item.kind === 'column').flatMap(item => item.lines).find(item => item.id === lineId);
   const edit = pageEdits(state.currentPage)[lineId];
-  row.insertAdjacentHTML('beforeend', `<form class="edit-form"><div class="transcription-editor"><textarea name="transcription" aria-label="Revised transcription">${escapeHTML(edit?.after || line.text)}</textarea>${paletteHTML()}</div><textarea name="comment" aria-label="Comment" placeholder="Optional comment">${escapeHTML(edit?.comment || '')}</textarea><div class="edit-actions"><button type="button" data-action="cancel">Cancel</button>${edit ? '<button type="button" data-action="revert">Revert</button>' : ''}<button class="primary" type="submit">OK</button></div></form>`);
+  const hasStoredOpinion = typeof edit?.second_opinion === 'boolean';
+  const secondOpinion = hasStoredOpinion ? edit.second_opinion : Boolean(edit?.comment);
+  const opinionManual = hasStoredOpinion && edit?.second_opinion_manual;
+  row.insertAdjacentHTML('beforeend', `<form class="edit-form"><div class="transcription-editor"><textarea name="transcription" aria-label="Revised transcription">${escapeHTML(edit?.after || line.text)}</textarea>${paletteHTML()}</div><div class="comment-editor"><textarea name="comment" aria-label="Comment" placeholder="Optional comment">${escapeHTML(edit?.comment || '')}</textarea><label class="second-opinion-toggle"><input type="checkbox" name="second-opinion" ${secondOpinion ? 'checked' : ''} data-manual="${opinionManual ? 'true' : 'false'}"> <span>Request second opinion</span></label></div><div class="edit-actions"><button type="button" data-action="cancel">Cancel</button>${edit ? '<button type="button" data-action="revert">Revert</button>' : ''}<button class="primary" type="submit">OK</button></div></form>`);
+  const form = row.querySelector('.edit-form');
+  const commentArea = form.elements.comment;
+  const opinionControl = form.elements['second-opinion'];
+  commentArea.addEventListener('input', () => {
+    if (opinionControl.dataset.manual !== 'true') opinionControl.checked = Boolean(commentArea.value.trim());
+  });
+  opinionControl.addEventListener('change', () => { opinionControl.dataset.manual = 'true'; });
   row.querySelector('[name="transcription"]').focus();
 }
 
@@ -674,8 +690,8 @@ async function copyText(text) {
 
 async function submitCorrections() {
   const page = state.currentPage;
-  const changes = Object.entries(pageEdits(page)).map(([line, edit]) => ({ line, before: edit.before, after: edit.after, ...(edit.comment ? {comment: edit.comment} : {}) }));
-  const payload = JSON.stringify({ schema: 1, page: page.view, base_commit: state.corpus.commit, base_transcription_version: page.transcription_version, changes }, null, 2);
+  const changes = Object.entries(pageEdits(page)).map(([line, edit]) => ({ line, before: edit.before, after: edit.after, ...(edit.comment ? {comment: edit.comment} : {}), ...(requestsSecondOpinion(edit) ? {second_opinion: true} : {}) }));
+  const payload = JSON.stringify({ schema: 2, page: page.view, base_commit: state.corpus.commit, base_transcription_version: page.transcription_version, changes }, null, 2);
   const issueURL = `https://github.com/${state.corpus.repository}/issues/new?template=transcription-correction.md&title=${encodeURIComponent(`[${page.view}] Transcription corrections`)}`;
   const issueWindow = window.open('about:blank', '_blank');
   const copied = await copyText(payload);
