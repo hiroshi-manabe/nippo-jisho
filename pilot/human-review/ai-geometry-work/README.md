@@ -11,6 +11,10 @@ The default assignment is `geometry_and_text`. For every physical body line:
 3. adjust the line geometry until the complete printed line is comfortably readable;
 4. compare the independent reading with the canonical line and finish the required judgments.
 
+Treat each page as an independent completion unit. A normal `geometry_and_text` run should contain only one or two pages; a larger archive is a storage convenience, not an instruction to finish every enclosed page in one response. Write each `*-reviewed.json` as soon as that page meets the completion standard. If a later page cannot be finished, return the already completed page files and identify the unfinished page separately rather than withholding the whole batch.
+
+When a scan exposes a genuine line-count, line-order, or displaced-text problem in the supplied canonical structure, stop adjudicating that page and report the discrepancy precisely. Other pages in the assignment may still be completed independently. The project will repair and regenerate the affected page before asking for a new review.
+
 Use visual judgment. Uniform spacing, identical crop sizes, and mechanically reused rectangles are not goals. A good result may use conservative rule-to-rule width, local vertical overlap, or an exceptional line rectangle when the print requires it.
 
 Preserve what is visibly printed: historical spelling, spacing, diacritics, short and long `s`, punctuation, and line division. Do not modernize, silently repair the language, copy the canonical line as an independent reading, or invent a character merely to complete the task. Uncertainty is valid evidence and should be reported explicitly.

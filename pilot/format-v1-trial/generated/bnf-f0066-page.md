@@ -48,9 +48,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l032` | &emsp;*conueniente, ou que não quadra.* |  |
 | `c1-l033` | Busu. *Peçonha que mata.* |  |
 | `c1-l034` | Bussacu. Fotoqeno ſacu. *Obras feitas por* |  |
-| `c1-l035` | &emsp;*mão do* Fotoqe. *(eſſores.* |  |
+| `c1-l035` | &emsp;*mão do* Fotoqe. |  |
 | `c1-l036` | Busso. Fotoqe foxi. Fotoqe, *& ſeus ſo-* |  |
-| `c1-l037` | &emsp;*ceſſores.* |  |
+| `c1-l037` |  | *(ceſſores.* |
 | `c1-l038` | Bussô. Mono itçuuaxi. *Perturbação,* |  |
 | `c1-l039` | &emsp;*& preſſa.* |  |
 | `c1-l040` | Buta. Vyeno inoxixi. *Porco criado em caſa.* |  |
