@@ -195,9 +195,35 @@ A representative payload is:
 }
 ```
 
-`before` protects against silently applying a correction to a line that has subsequently changed. In schema 2, an absent or false `second_opinion` means that the human reviewer has settled the exact correction and asks for mechanical application. A true value asks the machine reviewer to investigate that item independently. Schema-1 payloads predate this distinction and retain the former behavior: every item requires detailed review.
+`before` protects against silently applying a correction to a line that has subsequently changed. In schema 2, an absent or false `second_opinion` means that the human reviewer has settled the exact correction and asks for mechanical application. A true value asks the machine reviewer to investigate that item independently. The automated processor accepts schema 2 only and returns an error for schema 1; no new schema-1 submission is expected.
 
-Issue processing is deliberately two-stage. First validate the page, base version, line IDs, `before` values, and correction notation, then mechanically apply all unflagged schema-2 changes to the working tree. Do not reopen their glyph judgments merely because machine vision would have read them differently. Next, perform the detailed linguistic-first and visual review below only for `second_opinion: true` items (and every item in a legacy schema-1 payload). Do not commit, push, or close the Issue until the flagged set is settled. If no items are flagged, the validated mechanical application may proceed directly through tests, commit, deployment, and Issue closure.
+Issue processing is deliberately two-stage. First validate the page, base version, line IDs, `before` values, and correction notation, then mechanically apply all unflagged schema-2 changes to the working tree. Do not reopen their glyph judgments merely because machine vision would have read them differently. Next, perform the detailed linguistic-first and visual review below only for `second_opinion: true` items. Do not commit, push, or close the Issue until the flagged set is settled. If no items are flagged, the validated mechanical application may proceed directly through tests, commit, deployment, and Issue closure.
+
+### Automated Issue processor
+
+The normal first action for a correction Issue is:
+
+```sh
+python3 scripts/process_correction_issue.py process ISSUE_NUMBER
+```
+
+The command takes an explicit Issue number; it never selects an Issue implicitly. It fetches the single schema-2 payload, verifies that the Issue is open and its base commit exists, validates every stable line ID and `before` value, resolves lightweight `*word` and `[roman]` notation, and applies all unflagged changes to the compact Level 1 source. A page-version mismatch caused by unrelated lines is reported but does not defeat exact line-level validation. Unknown lines, changed `before` text, ambiguous notation, multiple payload blocks, and schema 1 are hard errors. Existing large-initial, far-right, and other run metadata is retained through textual edits.
+
+After application, the processor recompiles the interchange JSON, regenerates verification views, rebuilds the public review artifact, and runs the complete test suite. If no second opinion was requested, it updates correction history, stages only the expected page-derived files, commits, pushes `main`, waits for the Pages workflow, verifies the deployed commit and correction record, comments on the Issue, and closes it. A failure before deployed verification leaves the Issue open.
+
+If one or more changes contain `second_opinion: true`, the processor applies and validates only the unflagged subset, writes `build/correction-issues/issue-N.json`, prints its path, and exits with status 3. No history update, commit, push, deployment, or Issue closure occurs. Each flagged item begins with `"decision": "pending"`. After the linguistic-first and visual review, the machine reviewer records one of:
+
+- `"accept"`: apply the submitted form exactly;
+- `"reject"`: retain the existing line;
+- `"qualify"`: apply the separately recorded `qualified_after` form after any required human confirmation.
+
+The reviewer then resumes with:
+
+```sh
+python3 scripts/process_correction_issue.py finalize ISSUE_NUMBER
+```
+
+Finalization refuses unresolved decisions, validates rejected and accepted lines against the prepared base, and then follows the same generation, testing, publication, deployed-verification, and closure sequence. `--local-only` exercises either path through local generation and tests without Git or GitHub writes; it is intended for development and regression testing, not ordinary Issue processing.
 
 Second-opinion adjudication is deliberately asymmetric. A human correction receives a strong corrective prior because it normally reports a discrepancy found while comparing the scan with the published text, whereas the existing transcription is usually the machine reader's own earlier visual judgment. Showing that old judgment during a second visual pass creates anchoring: the machine can reproduce its first interpretation without adding independent evidence.
 
