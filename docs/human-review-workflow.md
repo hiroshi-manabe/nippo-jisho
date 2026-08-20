@@ -83,7 +83,7 @@ The crop used as transcription evidence is therefore preserved instead of being 
 
 For either case, the final requirements are:
 
-1. Verify the column's horizontal rectangle against the full-resolution page. Both ends of every ordinary line must be present; a large blank margin on one side is a warning that the opposite end may be clipped.
+1. Verify the column's horizontal rectangle against the full-resolution page. Both ends of every ordinary line must be present; a large blank margin on one side is a warning that the opposite end may be clipped. On a skewed page, do not force the whole column into one fixed `x`/`width`: identify the four printed vertical rules (the two outer rules and both sides of the central gutter), interpolate each rule down the page, and derive each line's horizontal bounds from the rule positions across that line's own vertical span. Retain a small margin outside the rules and inspect the result; the fitted trajectory is only a starting model, not visual evidence by itself.
 2. Choose several vertical anchors across the column and generate scan-snapped initial line centres. A single top-to-bottom interpolation is insufficient evidence that intermediate lines are aligned.
 3. Generate a complete column contact sheet pairing every stable line ID with its proposed crop as an overview and line-order diagnostic.
 4. Open **every crop individually at the normal browser-review scale**. Confirm that the strip contains the line named by its ID and that every target glyph is complete.
@@ -93,6 +93,8 @@ For either case, the final requirements are:
 8. Permit overlap with an adjacent line whenever necessary for a complete reading.
 9. Avoid unnecessary padding where a natural boundary is clear.
 10. Commit an explicit source-pixel rectangle for every column line, including crops accepted without individual adjustment.
+
+The first skew-aware retrofit covers `f13`–`f30`. Its four rule trajectories are recorded reproducibly in `scripts/align_early_column_rules.py`; the command changes only horizontal bounds and deliberately preserves the previously reviewed `y`/height of every line and context crop. Any future rerun still requires a fresh isolated-card audit of every affected line before the resulting geometry is accepted.
 
 This geometry pass is a required part of processing a page, not optional interface polish. A page-level geometry status is earned only after every browser-facing line crop has passed individual inspection. The geometry record stores the source dimensions, crop and context rectangle for every stable line ID, review state, and review date. Later regeneration must fail if a processed column line lacks explicit geometry.
 

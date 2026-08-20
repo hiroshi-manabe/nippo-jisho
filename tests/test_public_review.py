@@ -497,7 +497,7 @@ class PublicReviewRegressionTests(unittest.TestCase):
         page = next(page for page in record["pages"] if page["id"] == "bnf-f0018")
         line = page["columns"]["column-2"]["lines"]["c2a-l018"]
         self.assertEqual(line["centre_y"], 1498)
-        self.assertEqual(line["crop"], [1460, 1438, 1200, 120])
+        self.assertEqual(line["crop"], [1581, 1438, 1041, 120])
 
     def test_f24_folgar_descender_is_not_clipped(self):
         record = json.loads(
@@ -507,7 +507,7 @@ class PublicReviewRegressionTests(unittest.TestCase):
         )
         page = next(page for page in record["pages"] if page["id"] == "bnf-f0024")
         line = page["columns"]["column-2"]["lines"]["c2-l023"]
-        self.assertEqual(line["crop"], [1540, 1790, 1080, 150])
+        self.assertEqual(line["crop"], [1537, 1790, 1085, 150])
 
     def test_f24_aixiri_is_the_crop_focus(self):
         record = json.loads(
@@ -518,7 +518,7 @@ class PublicReviewRegressionTests(unittest.TestCase):
         page = next(page for page in record["pages"] if page["id"] == "bnf-f0024")
         column = page["columns"]["column-2"]
         self.assertEqual(column["visual_review"], "text_image_sanity_checked")
-        self.assertEqual(column["lines"]["c2-l041"]["crop"], [1540, 2938, 1080, 122])
+        self.assertEqual(column["lines"]["c2-l041"]["crop"], [1535, 2938, 1091, 122])
 
     def test_manually_corrected_columns_reach_past_the_right_rule(self):
         record = json.loads(
