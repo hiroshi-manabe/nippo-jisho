@@ -12,6 +12,48 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class PublicReviewRegressionTests(unittest.TestCase):
+    def test_f14_issue_54_applies_unflagged_notation_mechanically(self):
+        history = json.loads(
+            (ROOT / "pilot" / "human-review" / "correction-history.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        page_history = next(
+            page for page in history["pages"] if page["id"] == "bnf-f0014"
+        )
+        self.assertEqual(page_history["issues_applied"], 2)
+        self.assertEqual(page_history["distinct_lines"], 26)
+        self.assertEqual(page_history["accepted_edits"], 27)
+        issue = next(item for item in page_history["issues"] if item["number"] == 54)
+        self.assertEqual(len(issue["lines"]), 13)
+
+        record = json.loads(
+            (
+                ROOT
+                / "pilot"
+                / "format-v1-trial"
+                / "level1"
+                / "bnf-f0014.json"
+            ).read_text(encoding="utf-8")
+        )
+        lines = {
+            line["id"]: line
+            for zone in record["zones"]
+            for line in zone.get("lines", [])
+        }
+        self.assertEqual(
+            "".join(run["text"] for run in lines["c2-l034"]["runs"]),
+            "Aburemono. Homem audaz, & que naõ tẽ",
+        )
+        self.assertEqual(
+            lines["c2-l043"]["runs"],
+            [
+                {"typeface": "italic", "text": "zinha, ou"},
+                {"typeface": "roman", "text": " cha"},
+                {"typeface": "italic", "text": ", &c."},
+            ],
+        )
+
     def test_external_ai_assignment_stays_concise_and_links_references(self):
         work = ROOT / "pilot" / "human-review" / "ai-geometry-work"
         readme = (work / "README.md").read_text(encoding="utf-8")

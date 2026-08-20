@@ -43,16 +43,16 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l027` | Aburagami. *Papel azeitado, ou pastas de* |  |
 | `c1-l028` | &emsp;*papel azeitado de q̃ vzão pera contra a chu-* |  |
 | `c1-l029` | &emsp;*ua, ou agoa.* |  |
-| `c1-l030` | Abura ague, l, Abura agueno mono. *Cou-* |  |
+| `c1-l030` | Abura ague, l, Abura agueno mono. *Cou* |  |
 | `c1-l031` | &emsp;*ſa frita em azeite.* |  |
-| `c1-l032` | Aburaguiru, l, Aburaqiri, ru, itta. *Estar gor-* |  |
+| `c1-l032` | Aburaguiru, l, Aburaqiri, ru, itta. *Estar gor* |  |
 | `c1-l033` | &emsp;*do, nedeo, & luzidio. ¶* Aburaguitta |  |
-| `c1-l034` | &emsp;fito, l, aburaqitta fito. *Homem gordo,* |  |
+| `c1-l034` | &emsp;fito, l, aburaqitta fito. *Homen gordo,* |  |
 | `c1-l035` | &emsp;*e nedeo. ¶* Aburaguitra yu, xiru, &c. |  |
 | `c1-l036` | &emsp;*Agoa quente, ou caldo que tem gordura.* |  |
 | `c1-l037` | Aburajimi. *Nodoa do ſuor, ou gordura do* |  |
 | `c1-l038` | &emsp;*corpo que fica no vestido. ¶ Item, Nodoa* |  |
-| `c1-l039` | &emsp;*de azeite em geral. ¶* Aburajimiga ſu- |  |
+| `c1-l039` | &emsp;*de azeite em gèral. ¶* Aburajimiga ſu- |  |
 | `c1-l040` | &emsp;ru. *Fazerſe nodoa de azeite. ¶* Aburajimi |  |
 | `c1-l041` | &emsp;uo votoſu. *Tirar a nodoa de azeite, ou* |  |
 | `c1-l042` | &emsp;*gordura.* |  |
@@ -60,7 +60,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l044` | Aburamigaqi. *O dar luſtro a algũa obra cõ* |  |
 | `c1-l045` | &emsp;*azeite de pois de bem acepilhada, & polida.* |  |
 | `c1-l046` | &emsp;aburamono. *Couſa frita.* |  |
-| `c1-l047` | Aburamuxi. *Barata bicha. ¶ Item, Hũs* |  |
+| `c1-l047` | Aburamuxi. *Barata bicho. ¶ Item, Hũs* |  |
 
 ## Column 2 running header
 
@@ -80,9 +80,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l006` | &emsp;*azeite.* |  |
 | `c2-l007` | Aburaqiri, u. *Vide* Aburaguiru. |  |
 | `c2-l008` | Aburaſaxi, ſu, aita. *Vntar com azeite, ou* |  |
-| `c2-l009` | &emsp;*unto. ¶* Curumani abura ſaſu. *Vn-* |  |
-| `c2-l010` | &emsp;*tar o exo do carro. S. ¶* Aburauo ſaſu. l, |  |
-| `c2-l011` | &emsp;Aburauo tçugu. *Botar azeite como na cã-* |  |
+| `c2-l009` | &emsp;*vnto. ¶* Curumani abura ſaſu. *Vn-* |  |
+| `c2-l010` | &emsp;*tar o exo do carro. S. ¶* Aburauo ſaſu. i, |  |
+| `c2-l011` | &emsp;Aburauo tçugu. *Botar azeite como na cã* |  |
 | `c2-l012` | &emsp;*dea, &c.* |  |
 | `c2-l013` | Aburaſaxi, i, Abura tçugui. *Vaſo com que* |  |
 | `c2-l014` | &emsp;*ſe deita azeite.* |  |
@@ -93,11 +93,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l019` | Aburatçubo. *Hũ vazozinho em q̃ as mo-* |  |
 | `c2-l020` | &emsp;*lheres tem azeite pera os cabellos. ¶ Itẽ, Bo-* |  |
 | `c2-l021` | &emsp;*yão, ou vazo de azeite.* |  |
-| `c2-l022` | Aburaya. *Caſa onde ſe vẽde, ou faz azei-* |  |
+| `c2-l022` | Aburaya. *Caſa onde ſe vende, ou faz azei-* |  |
 | `c2-l023` | &emsp;*te. ¶ Itẽ, Improprie oq̃ vẽde, ou faz azeite.* |  |
 | `c2-l024` | Aburazaxi, ſu, aita. *Vntar com azeite, ou* |  |
-| `c2-l025` | &emsp;*unto. S.* |  |
-| `c2-l026` | Aburazzuqi, u, uita. *Pegarſe o ſuor, ou gor-* |  |
+| `c2-l025` | &emsp;*vnto. S.* |  |
+| `c2-l026` | Aburazzuqi, u, uita. *Pegarſe o ſuor, ou gor* |  |
 | `c2-l027` | &emsp;*dura do corpo no veſtido, &c. ¶ Itẽ, Ali* |  |
 | `c2-l028` | &emsp;*quando permet. Estar pegado, & embebido* |  |
 | `c2-l029` | &emsp;*em algũa couſa que hum aprende, ou tem in-* |  |
@@ -105,7 +105,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l031` | Aburazzutçu. *Canudo, ou cana em que ſe tẽ* |  |
 | `c2-l032` | &emsp;*o azeite.* |  |
 | `c2-l033` | Abure, ruru, eta. *Aſſarſe.* |  |
-| `c2-l034` | Aburemono. *Homem audaz, & que não tẽ* |  |
+| `c2-l034` | Aburemono. *Homem audaz, & que naõ tẽ* |  |
 | `c2-l035` | &emsp;*deuer com nada, nem eſtima a vida, &c.* |  |
 | `c2-l036` | Aburi, ru, utta. *Aſſar. ¶* Miuo aburu. |  |
 | `c2-l037` | &emsp;*Aquẽtarſe ao fogo. ¶* Teuo aburu. |  |
@@ -114,7 +114,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l040` | &emsp;rumono nadouo fide aburi cauaraguru. |  |
 | `c2-l041` | &emsp;*Enxugar veſtido,ou outra couſa ao fogo. ¶* Cu- |  |
 | `c2-l042` | &emsp;ſuri, l, chauo aburu. *Torrar algũa me-* |  |
-| `c2-l043` | &emsp;*zinha, ou cha, &c.* |  |
+| `c2-l043` | &emsp;*zinha, ou* cha*, &c.* |  |
 | `c2-l044` | Aburicaraxi, ſu, aita. *Aſſar, & ſecar.* |  |
 | `c2-l045` | Aburicauaragaxi, ſu, ita. *Idem.* |  |
 | `c2-l046` | Aburicauacaſu. *Idem.* |  |

@@ -13,7 +13,7 @@ aburamono. Couſa frita.
 
 ## Aburamuxi across the f14 column boundary
 
-Aburamuxi. Barata bicha. ¶ Item, Hũs bichinhos pretos que comem os olhos das aruores, & eruas.
+Aburamuxi. Barata bicho. ¶ Item, Hũs bichinhos pretos que comem os olhos das aruores, & eruas.
 
 ## Aburaqeno mono and its physically divided example
 
