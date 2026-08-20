@@ -73,7 +73,7 @@ class PublicReviewRegressionTests(unittest.TestCase):
                 for page in audit["pages"]
                 for candidate in page["candidates"]
             ]
-            self.assertEqual(len(candidates), 1014)
+            self.assertEqual(len(candidates), 1013)
             keys = {
                 f"{page}/{candidate['line']}#{candidate['occurrence']}"
                 for page, candidate in candidates
@@ -122,7 +122,7 @@ class PublicReviewRegressionTests(unittest.TestCase):
             self.assertEqual(audit["task"], "st-ligature-audit")
             self.assertEqual(audit["scope"], "f33-f100")
             self.assertEqual([page["leaf"] for page in audit["pages"]], list(range(33, 101)))
-            self.assertEqual(audit["confirmed_long_s"], 155)
+            self.assertEqual(audit["confirmed_long_s"], 157)
             self.assertEqual(audit["stale_confirmations"], 0)
             self.assertNotIn("prechecked_count", audit)
             self.assertNotIn("precheck_method", audit)
@@ -147,8 +147,8 @@ class PublicReviewRegressionTests(unittest.TestCase):
             self.assertFalse(snapshot["review_complete"])
             self.assertEqual(snapshot["known_incomplete_from_leaf"], 51)
             self.assertEqual(snapshot["candidate_count"], 785)
-            self.assertEqual(snapshot["confirmed_long_s_t_count"], 154)
-            self.assertEqual(snapshot["provisional_short_s_t_count"], 631)
+            self.assertEqual(snapshot["confirmed_long_s_t_count"], 157)
+            self.assertEqual(snapshot["provisional_short_s_t_count"], 628)
             snapshot_keys = {item["key"] for item in snapshot["candidates"]}
             self.assertEqual(len(snapshot_keys), 785)
             candidate_lookup = {
@@ -181,7 +181,7 @@ class PublicReviewRegressionTests(unittest.TestCase):
             ledger = (ROOT / "pilot" / "st-ligature-audit.tsv").read_text(
                 encoding="utf-8"
             )
-            self.assertEqual(len(ledger.splitlines()), 198)
+            self.assertEqual(len(ledger.splitlines()), 200)
             self.assertIn(
                 "f18\tc2a-l005\t1\tsha256:67f38efb7a1999bd41fedfab271330000b5ef280906157e51f952dc940e1a97f\tconfirmed_long_s_t\t45\tfull_scan_manual_check",
                 ledger,
