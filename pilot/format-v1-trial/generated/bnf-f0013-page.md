@@ -35,8 +35,8 @@ A repeated ornamental band is printed above the title; it contains no lexical te
 | `c1-l012` | &emsp;*O como folgo. ¶ Itẽ, De duuida. Vt,* Aa |  |
 | `c1-l013` | &emsp;vobotçucanai coto cana. *O couſa du-* |  |
 | `c1-l014` | &emsp;*uidoſa. ¶ Item, He particula de reſpõ-* |  |
-| `c1-l015` | &emsp;*der ſi, como que cõſente, ou aproua o q̃ ſe diz.* |  |
-| `c1-l016` | Aara, l, arà. *Interieção. Idem, Mas mais* |  |
+| `c1-l015` | &emsp;*der ſi, como que cõſente, ou aproua o q̃ſediz.* |  |
+| `c1-l016` | Aara, l, ara. *Interieção. Idem, Mas mais* |  |
 | `c1-l017` | &emsp;*frequente, & vſada que,* Aa. *Vt,* Aara |  |
 | `c1-l018` | &emsp;vrexiya. Aara canaxiya, &c. |  |
 
@@ -58,7 +58,7 @@ A repeated ornamental band is printed above the title; it contains no lexical te
 | `c1-l025` | Abaqi, u, aita. *Comummente ſe vſa no* |  |
 | `c1-l026` | &emsp;*negatiuo por não caber. ¶ Vt,* Cono nin |  |
 | `c1-l027` | &emsp;juga cono zaxiqini abacanu. *Esta gen-* |  |
-| `c1-l028` | &emsp;*te não cabe neste Zaxiqi. No preſente af-* |  |
+| `c1-l028` | &emsp;*te não cabe neste* Zaxiqi*. No preſente af-* |  |
 | `c1-l029` | &emsp;*firmatiuo ſe vſa às vezes por ſobejar, ou re-* |  |
 | `c1-l030` | &emsp;*dundar.* |  |
 | `c1-l031` | Abarabone *Costellas das ilhargas.* |  |
@@ -78,7 +78,7 @@ A repeated ornamental band is printed above the title; it contains no lexical te
 | `c2-l006` | &emsp;Abarani *Adu.* |  |
 | `c2-l007` | Abaraya. *Caſa velha, rota, & estroncada.* |  |
 | `c2-l008` | Abare, uru, eta. *Verbo defect. Destruirſe,* |  |
-| `c2-l009` | &emsp;*& desfazerſe a caſa por ſi, pouco uſado* |  |
+| `c2-l009` | &emsp;*& desfazerſe a caſa por ſi, pouco vſado* |  |
 | `c2-l010` | &emsp;*neste ſentido. ¶ Vt,* Iyeua cajeni abare, |  |
 | `c2-l011` | &emsp;ameni cutçuru *A caſa ſe desfaz cõ o vẽ-* |  |
 | `c2-l012` | &emsp;*to, & apodrece cõ a chuua. ¶ Item,* Aba |  |
