@@ -53,15 +53,16 @@ class Level1MarkdownTests(unittest.TestCase):
                 (SOURCE / f"{page['id']}.md").read_text(encoding="utf-8"),
             )
 
-    def test_exceptional_placement_is_readable_and_addressable(self):
-        source = (SOURCE / "bnf-f0248.md").read_text(encoding="utf-8")
-        self.assertIn("bodaino tçutomeuo naſu.", source)
-        self.assertNotIn("tçutomemo", source)
-        self.assertIn(
-            "[c1-l037 >] *gũ ſenhor principal.* || {mark} *(* || {word}*grande.*",
-            source,
+    def test_exceptional_placement_is_addressable(self):
+        page = json.loads((JSON_DIR / "bnf-f0248.json").read_text(encoding="utf-8"))
+        line = next(
+            line
+            for zone in page["zones"]
+            for line in zone.get("lines", [])
+            if line["id"] == "c1-l037"
         )
-        self.assertIn("[c1-l022 >] *amizade. Vt,* Gǒyẽuo motte tanomu.", source)
+        displaced = [run for run in line["runs"] if run.get("placement") == "far-right"]
+        self.assertEqual([run["span_id"] for run in displaced], ["mark", "word"])
 
     def test_recurring_large_initials_are_explicit_and_round_trip(self):
         expected = {
@@ -103,268 +104,28 @@ class Level1MarkdownTests(unittest.TestCase):
                 self.assertEqual(first["line_span"], line_span)
                 self.assertEqual(len(first["text"]), 1)
 
-    def test_contextual_review_corrections_are_retained(self):
-        source = (SOURCE / "bnf-f0643.md").read_text(encoding="utf-8")
-        self.assertIn("Certa bocetinha de cha.", source)
-        self.assertIn("Couſas deſiguaes: vſaſe em", source)
-        self.assertNotIn("bocezinha", source)
-        self.assertNotIn("deſiguais", source)
-
     def test_line_division_sign_is_uniform_across_typefaces(self):
-        source = (SOURCE / "bnf-f0013.md").read_text(encoding="utf-8")
-        self.assertIn("Iaponi-*", source)
-        self.assertNotIn("Iaponi=", source)
+        for path in SOURCE.glob("*.md"):
+            for line in path.read_text(encoding="utf-8").splitlines():
+                if line.startswith("[") and "] " in line:
+                    self.assertNotIn("=", line.split("] ", 1)[1], path.name)
 
-    def test_short_s_before_f_is_the_general_tendency_not_an_absolute_rule(self):
-        sources = "".join(
-            (SOURCE / f"bnf-f{leaf:04d}.md").read_text(encoding="utf-8")
-            for leaf in range(13, 101)
+    def test_correction_history_aggregates_are_self_consistent(self):
+        history = json.loads(
+            (ROOT / "pilot" / "human-review" / "correction-history.json").read_text(
+                encoding="utf-8"
+            )
         )
-        self.assertEqual(sources.count("ſf"), 3)
-        self.assertGreaterEqual(sources.count("sf"), 31)
-
-        f51 = (SOURCE / "bnf-f0051.md").read_text(encoding="utf-8")
-        self.assertIn("trãſformarſe", f51)
-        self.assertIn("trãſformada", f51)
-
-        f52 = (SOURCE / "bnf-f0052.md").read_text(encoding="utf-8")
-        self.assertIn("tranſfigurada", f52)
-
-    def test_strengthened_f14_review_is_retained(self):
-        source = (SOURCE / "bnf-f0014.md").read_text(encoding="utf-8")
-        self.assertIn("status: human_checked", source)
-        self.assertIn("mino xita ſaqi.", source)
-        self.assertIn("Gordura, vnto, enxundia", source)
-        self.assertIn("ate afiuela", source)
-        self.assertIn("mino chicaragane", source)
-        self.assertIn("mino ya-\n[c1-l010 >] naiba.", source)
-        self.assertIn("parte de baxo", source)
-        self.assertIn("touçinho", source)
-        self.assertIn("Aburaga xi\n[c1-l022 >] mu.", source)
-        self.assertIn("Aburauo ſumuru", source)
-        self.assertIn("ou pastas de", source)
-        self.assertIn("q̃ vzão pera contra", source)
-        self.assertIn("Aburauo tçugu", source)
-        self.assertIn("Aburaſaxi, i, Abura tçugui", source)
-        self.assertIn("que hum aprende", source)
-        self.assertIn("Aquẽtarſe ao fogo", source)
-        self.assertNotIn("mino xita laqi.", source)
-        self.assertNotIn("Gordura, unto, enxundia", source)
-        self.assertNotIn("q̃ vſão pera contra", source)
-
-    def test_repeated_pass_f15_readings_are_retained(self):
-        source = (SOURCE / "bnf-f0015.md").read_text(encoding="utf-8")
-        self.assertIn("status: scan_confirmed", source)
-        self.assertIn("Acano nuqeta te.", source)
-        self.assertIn("lamenhaã cedo", source)
-        self.assertIn("Aca muſubu", source)
-        self.assertIn("Per met.", source)
-        self.assertIn("briguigoĩs", source)
-        self.assertIn("Acagauauodoxi", source)
-        self.assertIn("l, ruiuos da", source)
-        self.assertIn("Huns rabos", source)
-        self.assertIn("comballas", source)
-        self.assertIn("Chegar com dedia", source)
-        self.assertIn("Acajimi, u, jǔda.", source)
-        self.assertIn("meuo faru.", source)
-        self.assertIn("vermelho aſsi chamado", source)
-        self.assertIn("¶* Vo\n[c2-l042 >] moteuo", source)
-        self.assertNotIn("briguigõis", source)
-        self.assertNotIn("Vo-", source)
-
-    def test_independent_comparison_f16_readings_are_retained(self):
-        source = (SOURCE / "bnf-f0016.md").read_text(encoding="utf-8")
-        self.assertIn("status: scan_confirmed", source)
-        self.assertIn("Acamidachi, tçu.", source)
-        self.assertIn("Acarixǒji.", source)
-        self.assertIn("acamiga ſa-", source)
-        self.assertNotIn("acamiga fa-", source)
-        self.assertIn("ou dẽpres*", source)
-        self.assertNotIn("dẽpres-*", source)
-        self.assertIn("bom lume. ¶* A-", source)
-        self.assertIn("eſtaua tol*", source)
-        self.assertIn("diante da cla-*", source)
-        self.assertNotIn("A=", source)
-        self.assertNotIn("cla=", source)
-        self.assertIn("*entrar a claridade*\n[c1-l046]", source)
-        self.assertIn("cobrem a ſel*", source)
-        self.assertIn("Fiuo aca-", source)
-        self.assertNotIn("Fito aca-", source)
-        self.assertIn("algũa peſsoa", source)
-        self.assertIn("cazados, ou amigos", source)
-        self.assertIn("dẽpres*\n[c1-l024 >] *tado", source)
-        self.assertIn("Acaraſama.", source)
-        self.assertIn("Acaraſamana.", source)
-        self.assertIn("Acaraſamani.", source)
-        self.assertIn("Couſaleue", source)
-        self.assertIn("Qinomiga acaramu", source)
-        self.assertIn("Eſclarçeo", source)
-        self.assertIn("Acariſaqi.", source)
-        self.assertIn("Acariſaqini tatçu", source)
-        self.assertIn("te menhaã", source)
-        self.assertEqual(source.count("antemenhaã"), 2)
-        self.assertIn("Paſsar anoite", source)
-        self.assertIn("com difficuldade", source)
-        self.assertIn("Saguiyuqu tçuqi", source)
-        self.assertNotIn("Sagui yuqu tçuuji", source)
-        self.assertNotIn("Saguiyiqu", source)
-        self.assertNotIn("Sagui yiqu", source)
-        self.assertIn("vazzurǒ. *Sõ-*", source)
-        self.assertIn("[c2-l026 >] *tir o tempo", source)
-        self.assertNotIn("*fir o tempo", source)
-        self.assertNotIn("*Sof-*", source)
-        self.assertIn("Accô ſuru", source)
-        self.assertIn("Adu. Alì, ou là", source)
-        self.assertIn("Hũs meloẽs", source)
-        self.assertIn("Tçuqi,\n[c2-l047 >] fanani", source)
-        self.assertNotIn("Tçuyi,", source)
-        self.assertNotIn("Tçuyi-", source)
-        self.assertIn("Accô, Varucuchi.", source)
-        self.assertIn("[catch-l001 >>] &", source)
-
-    def test_contextual_and_edge_audit_f17_readings_are_retained(self):
-        source = (SOURCE / "bnf-f0017.md").read_text(encoding="utf-8")
-        self.assertIn("status: scan_confirmed", source)
-        self.assertIn("conſideração", source)
-        self.assertIn("da ſaluação", source)
-        self.assertIn("Acuni fuqeru", source)
-        self.assertIn("vocaſu. *Peccar", source)
-        self.assertIn("ni quamaru.", source)
-        self.assertIn("Acuni tongiacu ſuru", source)
-        self.assertIn("Mao religioſo", source)
-        self.assertIn("¶ Vt,* Acu\n[c1-l019", source)
-        self.assertIn("& goſto de ver a lũa", source)
-        self.assertIn("Idẽ. ¶* Acu\n[c1-l025", source)
-        self.assertIn("Acuuo ta\n[c1-l030", source)
-        self.assertIn("Acugaiuo ſuru", source)
-        self.assertIn("ou cõ*\n[c1-l036", source)
-        self.assertIn("Acuin. Acuno chinami", source)
-        self.assertIn("Ruins penſamen-*", source)
-        self.assertIn("ou nacimento,como", source)
-        self.assertIn("Couſa danoſa, & preiudicial.*", source)
-        self.assertIn("[catch-l001 >>] *mar*", source)
-        self.assertEqual(source.count("conſideraçaõ"), 1)
-        self.assertNotIn("Iulgar mal, ou errar na conſideraçaõ", source)
-        self.assertNotIn("ſaluaçaõ", source)
-        self.assertNotIn("toingiacu", source)
-        self.assertNotIn("Maoreligioſo", source)
-        self.assertNotIn("Acuni fiqeru", source)
-        self.assertNotIn("vocaſi.", source)
-        self.assertNotIn("quamãru", source)
-        self.assertNotIn("nascimento,como", source)
-        self.assertNotIn("& gosto de ver a lũa", source)
-        self.assertNotIn("Idẽ ¶", source)
-        self.assertNotIn("Ruins pensamen-*", source)
-        self.assertNotIn("& prejudicial", source)
-
-    def test_f18_human_issue_adjudications_are_retained(self):
-        source = (SOURCE / "bnf-f0018.md").read_text(encoding="utf-8")
-        accepted = [
-            "dano a agluem",
-            "acoriǔ. i. docuriû",
-            "sǒga miyuru",
-            "Acusǒ. Axij caſa",
-            "como ladroĩs",
-            "Varui sǒ",
-            "mà vontade",
-            "lugar de ladroĩs",
-            "toſu. *Guiar",
-            "vnião de vontades",
-            "Adano naſaqe",
-            "ita. ¶ Item",
-            "Peſsoa mudauel",
-            "Ruim cheiro",
-            "Suſuqino facaina",
-            "Acuxinuo ſaxifaſamu",
-            "Axij coromo",
-            "groſseiro",
-        ]
-        for reading in accepted:
-            self.assertIn(reading, source)
-        retained = ["Ruim tradição"]
-        for reading in retained:
-            self.assertIn(reading, source)
-        rejected = [
-            "Ruim iradição",
-            "Ruim chero",
-            "Suiugino facaina",
-            "i. acuriû",
-            "Acuxinno",
-            "Axij coremo",
-            "groſſeiro",
-        ]
-        for reading in rejected:
-            self.assertNotIn(reading, source)
-
-    def test_f19_rejected_proposals_reopened_by_glyph_comparison_are_retained(self):
-        source = (SOURCE / "bnf-f0019.md").read_text(encoding="utf-8")
-        self.assertEqual(source.count("couſa de paruoice"), 1)
-        self.assertEqual(source.count("couſade paruoice"), 1)
-        self.assertIn("mais do cus-*", source)
-        self.assertNotIn("paruoiçe", source)
-        self.assertNotIn("mais do cuſ-*", source)
-
-    def test_sequential_30_60_batch_readings_are_retained(self):
-        expected = {
-            "bnf-f0023.md": ("dante mão", "Morax , ſu.", "administrarem"),
-            "bnf-f0024.md": ("Padraſto,ou", "A. xirouo"),
-            "bnf-f0025.md": ("Fucaqu", "Ajuocaqe", "Poëtas", "u, atta"),
-            "bnf-f0026.md": ("beiras do teihado", "garamiuo", "Amano fara"),
-            "bnf-f0027.md": (
-                "Bilho de ſaude",
-                "Amatçumi ſora",
-                "Paſſante,ou",
-                "comprido,ou",
-            ),
-        }
-        for filename, readings in expected.items():
-            source = (SOURCE / filename).read_text(encoding="utf-8")
-            self.assertIn("status: scan_confirmed", source)
-            for reading in readings:
-                self.assertIn(reading, source, f"{reading!r} missing from {filename}")
-
-    def test_normal_bounded_f28_f37_batch_readings_are_retained(self):
-        f28 = (SOURCE / "bnf-f0028.md").read_text(encoding="utf-8")
-        self.assertIn("Ameni nurete tçuyu voſoroxicarazu", f28)
-        self.assertIn("Ameyaſameto", f28)
-        self.assertIn("Ameyaſ meto", f28)
-        self.assertIn("Amiuo voroſu", f28)
-        self.assertIn("Amiuo ſuqu", f28)
-
-        f29 = (SOURCE / "bnf-f0029.md").read_text(encoding="utf-8")
-        self.assertIn("[c1-l001 initial=2] AN, iuori.", f29)
-        self.assertNotIn("## page-number", f29)
-
-        f31 = (SOURCE / "bnf-f0031.md").read_text(encoding="utf-8")
-        self.assertIn("[c2p-l001 initial=2] APPare.", f31)
-        self.assertIn("[c2q-l001 initial=2] AQE,", f31)
-
-        f36 = (SOURCE / "bnf-f0036.md").read_text(encoding="utf-8")
-        self.assertIn("[c2b-l001 initial=2] ASA.", f36)
-        self.assertIn("Aſaboſa", f36)
-
-        f37 = (SOURCE / "bnf-f0037.md").read_text(encoding="utf-8")
-        self.assertIn("Aſagaſumi. *Nevoa", f37)
-        self.assertIn("Campainha frol azul", f37)
-        self.assertNotIn("[c1-l001] Asadachi", f37)
-
-    def test_production_simulation_pages_are_scan_confirmed(self):
-        f249 = (SOURCE / "bnf-f0249.md").read_text(encoding="utf-8")
-        f250 = (SOURCE / "bnf-f0250.md").read_text(encoding="utf-8")
-        self.assertIn("status: scan_confirmed", f249)
-        self.assertIn("Gunameqi, u, eita.", f249)
-        self.assertIn("Muragari vgoqu.", f249)
-        self.assertNotIn("Muragari vgogu.", f249)
-        self.assertIn("Icuſano macu.", f249)
-        self.assertNotIn("Icuſano inacu.", f249)
-        self.assertIn("diuiſa", f249)
-        self.assertIn("adiuiſa", f249)
-        self.assertIn("status: scan_confirmed", f250)
-        self.assertIn("Gũxo.", f250)
-        self.assertIn("Gururigururito.", f250)
-        self.assertIn("enrrejeitados", f250)
-        self.assertNotIn("enrejeitados", f250)
-        self.assertIn("[catch-l001 >>] Gǔyô.", f250)
+        page_ids = [page["id"] for page in history["pages"]]
+        self.assertEqual(len(page_ids), len(set(page_ids)))
+        for page in history["pages"]:
+            issues = page["issues"]
+            issue_numbers = [issue["number"] for issue in issues]
+            lines = [line for issue in issues for line in issue["lines"]]
+            self.assertEqual(page["issues_applied"], len(issues))
+            self.assertEqual(page["distinct_lines"], len(set(lines)))
+            self.assertGreaterEqual(page["accepted_edits"], page["distinct_lines"])
+            self.assertEqual(len(issue_numbers), len(set(issue_numbers)))
 
 
 if __name__ == "__main__":

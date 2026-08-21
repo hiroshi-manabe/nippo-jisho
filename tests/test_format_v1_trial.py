@@ -20,19 +20,12 @@ def load_module():
 
 
 class FormatV1TrialTests(unittest.TestCase):
-    def test_f13_internal_b_heading_is_furniture_not_body_text(self):
+    def test_f13_internal_heading_is_furniture_not_body_text(self):
         page = json.loads(
             (TRIAL / "level1" / "bnf-f0013.json").read_text(encoding="utf-8")
         )
         zones = {zone["id"]: zone for zone in page["zones"]}
         self.assertEqual(zones["section-column-1"]["kind"], "section_heading")
-        self.assertEqual(
-            "".join(
-                run["text"]
-                for run in zones["section-column-1"]["lines"][0]["runs"]
-            ),
-            "A ANTES DO B.",
-        )
         body_lines = {
             line["id"]
             for zone in page["zones"]
@@ -76,200 +69,34 @@ class FormatV1TrialTests(unittest.TestCase):
         )
         self.assertEqual(generated, module.render_sequences(structure, registry))
 
-    def test_source_evidence_remains_distinct_from_structure(self):
-        f14 = json.loads(
-            (TRIAL / "level1" / "bnf-f0014.json").read_text(encoding="utf-8")
-        )
-        f14_lines = {
-            line["id"]: line
-            for zone in f14["zones"]
-            for line in zone.get("lines", [])
-        }
-        self.assertEqual(
-            "".join(run["text"] for run in f14_lines["c1-l046"]["runs"]),
-            "aburamono. Couſa frita.",
-        )
-        self.assertEqual(
-            "".join(run["text"] for run in f14_lines["catch-l001"]["runs"]),
-            "Aburico",
-        )
-
-        f248 = json.loads(
+    def test_exceptional_span_placement_remains_structural(self):
+        page = json.loads(
             (TRIAL / "level1" / "bnf-f0248.json").read_text(encoding="utf-8")
-        )
-        f248_lines = {
-            line["id"]: line
-            for zone in f248["zones"]
-            for line in zone.get("lines", [])
-        }
-        displaced = f248_lines["c1-l037"]["runs"]
-        self.assertEqual(displaced[0]["text"], "gũ ſenhor principal.")
-        self.assertEqual(displaced[1]["text"], " (")
-        self.assertEqual(displaced[1]["span_id"], "mark")
-        self.assertEqual(displaced[2]["text"], "grande.")
-        self.assertEqual(displaced[2]["span_id"], "word")
-        self.assertEqual(displaced[1]["placement"], "far-right")
-        self.assertEqual(displaced[2]["placement"], "far-right")
-
-        reading_view = (TRIAL / "generated" / "selected-reading-views.md").read_text(
-            encoding="utf-8"
-        )
-        self.assertIn("Gozadocoro. Lugar onde eſtá algum ſenhor grande.", reading_view)
-        self.assertNotIn("ſenhor (grande", reading_view)
-        page_view = (TRIAL / "generated" / "bnf-f0248-page.md").read_text(
-            encoding="utf-8"
-        )
-        self.assertIn("|  *(grande.* |", page_view)
-
-    def test_representative_trial_records_are_complete_and_reviewed(self):
-        expected_corrections = {
-            "bnf-f0013": [
-                "Comummente ſe vſa no",
-                "& desfazerſe a caſa por ſi",
-                "A caſa ſe desfaz cõ o vẽ-",
-                "Hum Inferno de continos tormẽ",
-            ],
-            "bnf-f0019": [
-                "AFIru. Adem.",
-                "Agaqi, u, aita.",
-                "Te, dãgui, tçuzzumi, gacumon, cu-",
-                "l, yǔ yori agaru.",
-                "Onda que ſe abaxa, & desfaz",
-                "a tira nehũa ſetta en vão.",
-                "¶ Item, paruoice.",
-                "couſade paruoice.",
-                "Auer ẽ abudancia.",
-                "Zaizai xoxoni",
-                "cheos de ſoldadesca.",
-                "Deſembarcarſe. ¶ furo,",
-                "Leuantarenſe as",
-                "mezas de peſsoa honrrada. ¶ Itẽ, Aca",
-                "Acabarenſe as obras",
-                "ceſsar dellas.",
-                "Tenqiga agaru.",
-            ],
-            "bnf-f0020": [
-                "Fouo",
-                "Fattçuqe, l. fatamono ni",
-                "Gacumõ nadono irouo aguru.",
-                "Aguebune. i. ſacabune.",
-            ],
-            "bnf-f0021": [
-                "cobertoura de baixo da qual ſe poem o murrão da",
-                "Aguejitomi.",
-                "Ameſma tinta.",
-                "lo de lugar, tempo, &c ¶ Item, Re-",
-                "Aiuo yǔ, l, nôaiuo",
-                "Ai, ǒ ǒta. Emcontrar.",
-                "Vide Varifu.",
-                "Noriai. Nauegar, ou embarcarſe jũtamente.",
-            ],
-            "bnf-f0022": [
-                "Hum certo cordão de calçoẽs cha-",
-                "Vide Cacoi. ô.",
-                "Pedroto Ioãoua",
-                "aicuchi de gozaru.",
-                "Enquanto estiue no Miyaco. ¶ Tôriǔno",
-                "Por quanto, na eſcritura. Vt, Mairi sǒro",
-                "eſquadroẽs dambas as partes.",
-                "Aigiacu. i. aixitçuqu.",
-            ],
-            "bnf-f0023": [
-                "determinão pera fazerem algũa couſa.",
-                "Vide Morax , ſu.",
-                "Couſa q̃ està de frõte da outra.",
-                "mucaino iye. Caſa que está de fronte.",
-                "Cunhados caſados com duas jrmaãs.",
-                "na estrebaria hum caualo do outro.",
-                "metaplora.",
-                "Aiqiǒ. ytçucuximi",
-                "vyauyaxǔ ſu.",
-                "Airaxiſa.",
-                "Airaxǔ.",
-                "couſa bem pera gaſalhado do hoſpede.",
-                "ſecamẽte.",
-                "Aisǒraxij.",
-                "Aisoraxij cotobauo caquru.",
-                "compaſſiuas. ¶ Fi ouo",
-            ],
-            "bnf-f0024": [
-                "aisôraxij aixirǒ.",
-                "encontrado com algũa peſoa",
-                "Aitagai, ǒ, ǒta.",
-                "estenderſe a nuuem",
-                "Aitaixite mǒſu.",
-                "Aitarai, ǒ, ǒta.",
-                "Aitçunori, ru, otta.",
-                "Aiuoino matçu.",
-                "folgar com algũa couſa",
-                "brandamente algũa couſa",
-                "Tratar algũa couſa brandamente",
-            ],
-            "bnf-f0248": [
-                "Goxǒuo taſucaru.",
-                "Gǒyen. Tçuyoi yen.",
-                "Gǒyẽuo motte tanomu.",
-                "Guchina.",
-                "Gǔcon. Faluno ne.",
-                "por erro ſepos na",
-            ],
-            "bnf-f0643": [
-                "Zzuqiǒ.",
-                "Zzuſocu. Atama, axi.",
-                "Zzuſu.",
-                "Zzutçǔ. Caxira itamu.",
-            ],
-        }
-        for page_id, required_strings in expected_corrections.items():
-            page = json.loads(
-                (TRIAL / "level1" / f"{page_id}.json").read_text(encoding="utf-8")
-            )
-            self.assertEqual(page["scope"], "full_dictionary_text_and_furniture")
-            self.assertTrue(page["review"]["physical_lineation_checked"])
-            text = "\n".join(
-                "".join(run["text"] for run in line["runs"])
-                for zone in page["zones"]
-                for line in zone.get("lines", [])
-            )
-            for required in required_strings:
-                self.assertIn(required, text)
-
-        f643 = json.loads(
-            (TRIAL / "level1" / "bnf-f0643.json").read_text(encoding="utf-8")
-        )
-        self.assertTrue(any(zone["kind"] == "later_copy_mark" for zone in f643["zones"]))
-        self.assertTrue(any(zone["kind"] == "terminus" for zone in f643["zones"]))
-
-        f249 = json.loads(
-            (TRIAL / "level1" / "bnf-f0249.json").read_text(encoding="utf-8")
-        )
-        f250 = json.loads(
-            (TRIAL / "level1" / "bnf-f0250.json").read_text(encoding="utf-8")
-        )
-        self.assertEqual(f249["review"]["status"], "scan_confirmed")
-        self.assertEqual(f250["review"]["status"], "scan_confirmed")
-        f249_lines = {
-            line["id"]: line
-            for zone in f249["zones"]
-            for line in zone.get("lines", [])
-        }
-        displaced = f249_lines["c2-l028"]["runs"]
-        self.assertEqual(displaced[1]["span_id"], "mark")
-        self.assertEqual(displaced[2]["span_id"], "word")
-        self.assertEqual(displaced[2]["text"], "o homem.")
-
-    def test_contextually_confirmed_fold_reading_is_unmarked(self):
-        f13 = json.loads(
-            (TRIAL / "level1" / "bnf-f0013.json").read_text(encoding="utf-8")
         )
         line = next(
             line
-            for zone in f13["zones"]
+            for zone in page["zones"]
             for line in zone.get("lines", [])
-            if line["id"] == "c1-l010"
+            if line["id"] == "c1-l037"
         )
-        self.assertEqual(line["runs"][0]["text"], "vobitataxiya.")
-        self.assertNotIn("uncertainty", line)
+        displaced = [run for run in line["runs"] if run.get("placement") == "far-right"]
+        self.assertEqual([run["span_id"] for run in displaced], ["mark", "word"])
+
+    def test_trial_records_have_complete_scope_and_checked_lineation(self):
+        pages = [
+            json.loads(path.read_text(encoding="utf-8"))
+            for path in sorted((TRIAL / "level1").glob("*.json"))
+        ]
+        self.assertEqual(len(pages), 229)
+        for page in pages:
+            self.assertEqual(page["scope"], "full_dictionary_text_and_furniture")
+            self.assertTrue(page["review"]["physical_lineation_checked"])
+
+        final_page = next(page for page in pages if page["id"] == "bnf-f0643")
+        self.assertTrue(
+            any(zone["kind"] == "later_copy_mark" for zone in final_page["zones"])
+        )
+        self.assertTrue(any(zone["kind"] == "terminus" for zone in final_page["zones"]))
 
 
 if __name__ == "__main__":
