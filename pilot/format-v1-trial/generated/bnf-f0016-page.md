@@ -32,10 +32,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l016` | &emsp;*ta cor.* |  |
 | `c1-l017` | Acanomizzu. *Vide* Aca. |  |
 | `c1-l018` | Acanunaca. *Amizade, ou liança como de* |  |
-| `c1-l019` | &emsp;*cazados, ou amigos bẽ unidos, & que não ha* |  |
+| `c1-l019` | &emsp;*cazados, ou amigos bẽ vnidos, & que não ha* |  |
 | `c1-l020` | &emsp;*cauſa por via de deſamor pera ſe apartarẽ.* |  |
 | `c1-l021` | Acanu vacare. *Apartamento dos que eſtão* |  |
-| `c1-l022` | &emsp;*bem unidos, ou amigos.* |  |
+| `c1-l022` | &emsp;*bem vnidos, ou amigos.* |  |
 | `c1-l023` | Acaraſama. *Adu. Leuemente, ou dẽpres* |  |
 | `c1-l024` | &emsp;*tado, ou aprimeira vez.* |  |
 | `c1-l025` | Acaraſamana. *Couſaleue como de empresta-* |  |
@@ -52,7 +52,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l036` | &emsp;*a claridade.* |  |
 | `c1-l037` | Acari, u, atta. *Dar luz, ou reſplandecer.* |  |
 | `c1-l038` | &emsp;*¶ Item, Dar a candea bom lume. ¶* A- |  |
-| `c1-l039` | &emsp;carta. *Eſclarçeo o tempo que eſtaua tol* |  |
+| `c1-l039` | &emsp;catta. *Eſclarçeo o tempo que eſtaua tol* |  |
 | `c1-l040` | &emsp;*dado, ou chuuoſo.* |  |
 | `c1-l041` | Acariſaqi. *Diante da claridade. ¶ Vt,* |  |
 | `c1-l042` | &emsp;Acariſaqini tatçu. *Porſe diante da cla-* |  |
@@ -87,7 +87,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l013` | Acauotoxi. *Sabão, ou qualquer couſa com-* |  |
 | `c2-l014` | &emsp;*que ſe tirão as nodoas, e çujidade.* |  |
 | `c2-l015` | Acaxi, ſu, aita. *Aclarar. ¶* Fiuo aca- |  |
-| `c2-l016` | &emsp;ſu. *Acender o fogo. ¶* Yǒuo acaſu. |  |
+| `c2-l016` | &emsp;ſu. *Acender o fogo. ¶* Youo acaſu. |  |
 | `c2-l017` | &emsp;*Paſsar anoite ſem dormir ate amanhecer.* |  |
 | `c2-l018` | &emsp;*¶* Raſsocuuo acaſu. *Acender a can-* |  |
 | `c2-l019` | &emsp;*dea. ¶* Aburafiuo acaſu. *Acender* |  |
@@ -95,7 +95,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l021` | &emsp;*Declarar a duuida.* |  |
 | `c2-l022` | Acaxicane, uru, eta. *Paſſar anoite, ou tẽ-* |  |
 | `c2-l023` | &emsp;*po com difficuldade como eſperando por al-* |  |
-| `c2-l024` | &emsp;*guẽm, &c. ¶* Sagui yuqu tçuuji, fi- |  |
+| `c2-l024` | &emsp;*guem, &c. ¶* Saguiyuqu tçuqi, fi- |  |
 | `c2-l025` | &emsp;uomo acaxi cane, curaxi vazzurǒ. *Sõ-* |  |
 | `c2-l026` | &emsp;*tir o tempo comprido polla tristeza, & affli-* |  |
 | `c2-l027` | &emsp;*ção do animo. S.* |  |
@@ -107,14 +107,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l033` | &emsp;*ruins palauras. ¶ Vt,* Accô ſuru. *Mal* |  |
 | `c2-l034` | &emsp;*dizer. ¶* Accôuo faqu. *Idem. ¶* Ac- |  |
 | `c2-l035` | &emsp;cô zǒgon. *Injuria de palaura.* |  |
-| `c2-l036` | Achi. *Adu. Alí, ou là.* |  |
+| `c2-l036` | Achi. *Adu. Alì, ou là.* |  |
 | `c2-l037` | Achi, cochi. *Adu. Decà pera là.* |  |
 | `c2-l038` | Acǒ. *Adu. Com claridade, ou de dia.* |  |
 | `c2-l039` | &emsp;*¶* Acǒ tçuita. *Ainda cheguei de dia.* |  |
-| `c2-l040` | Aco. *Por o Bonzo fogo ſobre o corpo morto q̃* |  |
+| `c2-l040` | Aco. *Por o* Bonzo *fogo ſobre o corpo morto q̃* |  |
 | `c2-l041` | &emsp;*ſe hade queimar como ceremonia de enterra-* |  |
 | `c2-l042` | &emsp;*mento.* |  |
-| `c2-l043` | Acoda, l, acodauri. *Hũs melõẽs ama-* |  |
+| `c2-l043` | Acoda, l, acodauri. *Hũs meloẽs ama-* |  |
 | `c2-l044` | &emsp;*relos, & redondos.* |  |
 | `c2-l045` | Acogare, ruru, eta. *Affligirſe muito com* |  |
 | `c2-l046` | &emsp;*affecto, ou deſejo dalgũa couſa. ¶* Tçuqi, |  |
