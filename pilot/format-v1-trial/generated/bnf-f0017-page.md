@@ -32,13 +32,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l016` | Acqua. *Ruim fim, ou pena que hum recebe* |  |
 | `c1-l017` | &emsp;*pollas obras que fez.* |  |
 | `c1-l018` | Acu. *Maldade, ou peccado. ¶ Vt,* Acu |  |
-| `c1-l019` | &emsp;uo ſuru, l, vocaſu. *Peccar. ¶* Acu- |  |
+| `c1-l019` | &emsp;uo ſuru, *l*, vocaſu. *Peccar. ¶* Acu- |  |
 | `c1-l020` | &emsp;ga tçumoru. *Crecerem, & acumularemſe* |  |
 | `c1-l021` | &emsp;*os peccados. ¶* Acuuo coraſu. *Emẽ-* |  |
 | `c1-l022` | &emsp;*dar a ruim vida, ou eſcarmentarſe dos vicios.* |  |
 | `c1-l023` | &emsp;*¶* Acuni fuqeru. *Estar metido nos pecca-* |  |
 | `c1-l024` | &emsp;*dos. ¶* Acuni miuo naſu. *Idẽ. ¶* Acu |  |
-| `c1-l025` | &emsp;ni quamaru. *Conſumarſe em peccados.* |  |
+| `c1-l025` | &emsp;ni qiuamaru. *Conſumarſe em peccados.* |  |
 | `c1-l026` | &emsp;*¶* Acuni tongiacu ſuru. *Estar metido,* |  |
 | `c1-l027` | &emsp;*& atollado nos peccados. ¶* Acuuo qi- |  |
 | `c1-l028` | &emsp;uamuru. *Fazer muitos peccados.* |  |
