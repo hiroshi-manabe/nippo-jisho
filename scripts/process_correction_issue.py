@@ -470,7 +470,11 @@ def apply_second_opinion_decisions(report: dict, root: Path) -> list[str]:
                 f"invalid decision {decision!r} for {item['line']}"
             )
         line = lines[item["line"]]
-        if line_text(line) != item["before"]:
+        current = line_text(line)
+        if current == item["resolved_after"] and current != item["before"]:
+            accepted.append(item["line"])
+            continue
+        if current != item["before"]:
             raise IssueProcessingError(
                 f"pending {item['line']} changed before its decision was applied"
             )
@@ -500,9 +504,16 @@ def update_history(report: dict, accepted_lines: list[str], root: Path) -> None:
         }
         history["pages"].append(page)
         history["pages"].sort(key=lambda item: item["id"])
-    if any(item["number"] == report["issue"] for item in page["issues"]):
+    existing_issue = next(
+        (item for item in page["issues"] if item["number"] == report["issue"]),
+        None,
+    )
+    if existing_issue is not None:
+        if existing_issue["lines"] == accepted_lines:
+            return
         raise IssueProcessingError(
-            f"Issue #{report['issue']} is already present in correction history"
+            f"Issue #{report['issue']} is already present in correction history "
+            "with different accepted lines"
         )
     issue_record = {
         "number": report["issue"],

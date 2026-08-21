@@ -165,6 +165,10 @@ class CorrectionIssueProcessorTests(unittest.TestCase):
             self.assertEqual(page["issues_applied"], 2)
             self.assertEqual(page["accepted_edits"], 4)
             self.assertEqual(page["distinct_lines"], 3)
+            update_history(report, ["c1-l002", "c1-l003"], root)
+            self.assertEqual(
+                json.loads(path.read_text(encoding="utf-8"))["pages"][0], page
+            )
             with self.assertRaisesRegex(IssueProcessingError, "already present"):
                 update_history(report, ["c1-l002"], root)
 
@@ -306,6 +310,21 @@ status: scan_confirmed
             self.assertIn("Second lines.", source.read_text(encoding="utf-8"))
             applied = json.loads(history.read_text(encoding="utf-8"))["pages"][0]
             self.assertEqual(applied["accepted_edits"], 2)
+
+            retry = json.loads(report_path(9, root).read_text(encoding="utf-8"))
+            retry["status"] = "awaiting_second_opinion"
+            report_path(9, root).write_text(json.dumps(retry), encoding="utf-8")
+            with (
+                mock.patch("scripts.process_correction_issue.regenerate_and_test"),
+                mock.patch(
+                    "scripts.process_correction_issue.changed_paths", return_value=set()
+                ),
+            ):
+                retried = finalize(9, root=root, local_only=True)
+            self.assertEqual(retried["status"], "locally_finalized")
+            self.assertEqual(
+                json.loads(history.read_text(encoding="utf-8"))["pages"][0], applied
+            )
 
 
 if __name__ == "__main__":

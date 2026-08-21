@@ -122,7 +122,7 @@ class PublicReviewRegressionTests(unittest.TestCase):
             self.assertEqual(audit["task"], "st-ligature-audit")
             self.assertEqual(audit["scope"], "f33-f100")
             self.assertEqual([page["leaf"] for page in audit["pages"]], list(range(33, 101)))
-            self.assertEqual(audit["confirmed_long_s"], 158)
+            self.assertEqual(audit["confirmed_long_s"], 159)
             self.assertEqual(audit["stale_confirmations"], 0)
             self.assertNotIn("prechecked_count", audit)
             self.assertNotIn("precheck_method", audit)
@@ -181,7 +181,7 @@ class PublicReviewRegressionTests(unittest.TestCase):
             ledger = (ROOT / "pilot" / "st-ligature-audit.tsv").read_text(
                 encoding="utf-8"
             )
-            self.assertEqual(len(ledger.splitlines()), 201)
+            self.assertEqual(len(ledger.splitlines()), 202)
             self.assertIn(
                 "f18\tc2a-l005\t1\tsha256:67f38efb7a1999bd41fedfab271330000b5ef280906157e51f952dc940e1a97f\tconfirmed_long_s_t\t45\tfull_scan_manual_check",
                 ledger,
