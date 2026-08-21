@@ -261,18 +261,6 @@ def current_transcription_version(page: dict) -> str:
     return transcription_version(zones)
 
 
-def ensure_clean_tracked_worktree(root: Path) -> None:
-    status = run(
-        ["git", "status", "--porcelain", "--untracked-files=no"],
-        root=root,
-        capture=True,
-    ).strip()
-    if status:
-        raise IssueProcessingError(
-            "tracked worktree changes exist; finish or set them aside before processing an Issue"
-        )
-
-
 def fetch_issue(issue_number: int, repository: str) -> dict:
     raw = run(
         [
@@ -304,21 +292,25 @@ def validate_base_commit(root: Path, commit: str) -> None:
         raise IssueProcessingError(f"base commit {commit} is unavailable locally")
 
 
-def apply_change(line: dict, change: dict) -> dict:
+def apply_change(line: dict, change: dict) -> tuple[dict, bool]:
     current = line_text(line)
-    if current != change["before"]:
-        raise IssueProcessingError(
-            f"{change['line']} before mismatch: expected {change['before']!r}, found {current!r}"
-        )
     target, roman_ranges = parse_correction_notation(change["after"])
-    return {
-        "line": change["line"],
-        "before": change["before"],
-        "submitted_after": change["after"],
-        "resolved_after": target,
-        "roman_ranges": roman_ranges,
-        **({"comment": change["comment"]} if change.get("comment") else {}),
-    }
+    if current not in {change["before"], target}:
+        raise IssueProcessingError(
+            f"{change['line']} before mismatch: expected {change['before']!r} "
+            f"or prepared target {target!r}, found {current!r}"
+        )
+    return (
+        {
+            "line": change["line"],
+            "before": change["before"],
+            "submitted_after": change["after"],
+            "resolved_after": target,
+            "roman_ranges": roman_ranges,
+            **({"comment": change["comment"]} if change.get("comment") else {}),
+        },
+        current == target,
+    )
 
 
 def apply_resolved(line: dict, item: dict) -> None:
@@ -351,7 +343,6 @@ def prepare(
     root: Path = ROOT,
     repository: str = REPOSITORY,
 ) -> dict:
-    ensure_clean_tracked_worktree(root)
     issue = fetch_issue(issue_number, repository)
     payload = extract_payload(issue["body"])
     validate_base_commit(root, payload["base_commit"])
@@ -359,6 +350,17 @@ def prepare(
     json_path = compiled_path(root, payload["page"])
     if not markdown_path.exists() or not json_path.exists():
         raise IssueProcessingError(f"page {payload['page']} is not transcribed")
+    preliminary = {"page_id": page_id(payload["page"])}
+    existing_changes = changed_paths(root)
+    allowed_recovery = expected_paths(preliminary) - {
+        "pilot/human-review/correction-history.json"
+    }
+    unexpected_existing = existing_changes - allowed_recovery
+    if unexpected_existing:
+        raise IssueProcessingError(
+            "tracked worktree changes exist outside this Issue's recoverable files: "
+            + ", ".join(sorted(unexpected_existing))
+        )
     page = parse_markdown(markdown_path)
     current_version = current_transcription_version(page)
     lines = line_map(page)
@@ -368,14 +370,17 @@ def prepare(
         line = lines.get(change["line"])
         if line is None:
             raise IssueProcessingError(f"unknown line {change['line']!r}")
-        item = apply_change(line, change)
+        item, already_prepared = apply_change(line, change)
         if change.get("second_opinion", False):
+            if already_prepared and item["resolved_after"] != item["before"]:
+                raise IssueProcessingError(
+                    f"flagged {change['line']} was modified before second-opinion review"
+                )
             pending.append({**item, "decision": "pending"})
         else:
             apply_resolved(line, item)
-            applied.append(item)
+            applied.append({**item, "recovered": already_prepared})
     markdown_path.write_text(export_markdown(page), encoding="utf-8")
-    regenerate_and_test(root)
     report = {
         "format": "nippo-correction-issue-report",
         "format_version": 1,
@@ -391,8 +396,18 @@ def prepare(
         != payload["base_transcription_version"],
         "applied_unflagged": applied,
         "second_opinions": pending,
-        "status": "awaiting_second_opinion" if pending else "ready_to_finalize",
+        "status": "validating",
     }
+    write_json(report_path(issue_number, root), report)
+    try:
+        regenerate_and_test(root)
+    except IssueProcessingError as error:
+        report["status"] = "validation_failed"
+        report["validation_error"] = str(error)
+        write_json(report_path(issue_number, root), report)
+        raise
+    report["status"] = "awaiting_second_opinion" if pending else "ready_to_finalize"
+    report.pop("validation_error", None)
     write_json(report_path(issue_number, root), report)
     return report
 
@@ -486,7 +501,7 @@ def expected_paths(report: dict) -> set[str]:
         f"pilot/format-v1-trial/generated/{stem}-page.md",
         "pilot/format-v1-trial/generated/selected-reading-views.md",
         "pilot/human-review/correction-history.json",
-    }
+    } | set(report.get("additional_paths", []))
 
 
 def changed_paths(root: Path) -> set[str]:

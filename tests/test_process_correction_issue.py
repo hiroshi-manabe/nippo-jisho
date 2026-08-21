@@ -218,8 +218,30 @@ status: scan_confirmed
             }
             with (
                 mock.patch(
-                    "scripts.process_correction_issue.ensure_clean_tracked_worktree"
+                    "scripts.process_correction_issue.validate_base_commit"
                 ),
+                mock.patch(
+                    "scripts.process_correction_issue.fetch_issue", return_value=issue
+                ),
+                mock.patch(
+                    "scripts.process_correction_issue.regenerate_and_test",
+                    side_effect=IssueProcessingError("test failure"),
+                ),
+                mock.patch(
+                    "scripts.process_correction_issue.changed_paths", return_value=set()
+                ),
+            ):
+                with self.assertRaisesRegex(IssueProcessingError, "test failure"):
+                    prepare(9, root=root, repository="example/test")
+            failed = json.loads(report_path(9, root).read_text(encoding="utf-8"))
+            self.assertEqual(failed["status"], "validation_failed")
+            self.assertIn("test failure", failed["validation_error"])
+            prepared = source.read_text(encoding="utf-8")
+            self.assertIn("First lines.", prepared)
+            self.assertIn("Second line.", prepared)
+            self.assertNotIn("Second lines.", prepared)
+
+            with (
                 mock.patch(
                     "scripts.process_correction_issue.validate_base_commit"
                 ),
@@ -227,14 +249,17 @@ status: scan_confirmed
                     "scripts.process_correction_issue.fetch_issue", return_value=issue
                 ),
                 mock.patch("scripts.process_correction_issue.regenerate_and_test"),
+                mock.patch(
+                    "scripts.process_correction_issue.changed_paths",
+                    return_value={
+                        "pilot/format-v1-trial/level1-source/bnf-f0014.md"
+                    },
+                ),
             ):
-                report = prepare(9, root=root, repository="example/test")
-            prepared = source.read_text(encoding="utf-8")
-            self.assertIn("First lines.", prepared)
-            self.assertIn("Second line.", prepared)
-            self.assertNotIn("Second lines.", prepared)
-            self.assertEqual(report["status"], "awaiting_second_opinion")
-            self.assertEqual(report["second_opinions"][0]["decision"], "pending")
+                recovered = prepare(9, root=root, repository="example/test")
+            self.assertTrue(recovered["applied_unflagged"][0]["recovered"])
+            self.assertEqual(recovered["status"], "awaiting_second_opinion")
+            self.assertEqual(recovered["second_opinions"][0]["decision"], "pending")
 
             saved = json.loads(report_path(9, root).read_text(encoding="utf-8"))
             saved["second_opinions"][0]["decision"] = "accept"
