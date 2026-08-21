@@ -437,19 +437,23 @@ class PublicReviewRegressionTests(unittest.TestCase):
         self.assertIn("event.preventDefault()", app)
         self.assertIn(".character-palette", styles)
 
-    def test_line_editor_supports_lightweight_roman_spans(self):
+    def test_line_editor_supports_paired_lightweight_typeface_spans(self):
         app = (ROOT / "site" / "app.js").read_text(encoding="utf-8")
         styles = (ROOT / "site" / "styles.css").read_text(encoding="utf-8")
         workflow = (ROOT / "docs" / "human-review-workflow.md").read_text(encoding="utf-8")
         issue_template = (ROOT / ".github" / "ISSUE_TEMPLATE" / "transcription-correction.md").read_text(encoding="utf-8")
-        self.assertIn("function parseRomanNotation(value)", app)
+        self.assertIn("function parseTypefaceNotation(value)", app)
         self.assertIn("function proposalMatchesLine(line, annotatedText)", app)
-        self.assertIn("function styledRomanDiff(line, proposal)", app)
-        self.assertIn("function applyRomanSpan(area)", app)
-        self.assertIn('data-action="roman-span"', app)
-        self.assertIn(".roman-span-key", styles)
+        self.assertIn("function styledTypefaceDiff(line, proposal)", app)
+        self.assertIn("function applyTypefaceSpan(area, typeface)", app)
+        self.assertIn('data-action="typeface-span"', app)
+        self.assertIn('data-typeface="roman"', app)
+        self.assertIn('data-typeface="italic"', app)
+        self.assertIn(".typeface-span-key", styles)
         self.assertIn("`[Fotoqe]`", workflow)
+        self.assertIn("`{P.}`", workflow)
         self.assertIn("`[Fotoqe]`", issue_template)
+        self.assertIn("`{P.}`", issue_template)
 
     def test_opening_another_line_saves_the_active_editor(self):
         app = (ROOT / "site" / "app.js").read_text(encoding="utf-8")

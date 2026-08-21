@@ -146,28 +146,39 @@ def resolve_tilde_markers(value: str) -> str:
     return resolved
 
 
-def parse_correction_notation(value: str) -> tuple[str, list[tuple[int, int]]]:
+def parse_correction_notation(
+    value: str,
+) -> tuple[str, list[tuple[int, int]], list[tuple[int, int]]]:
     value = resolve_tilde_markers(value)
     text: list[str] = []
-    ranges: list[tuple[int, int]] = []
-    opened: int | None = None
+    roman_ranges: list[tuple[int, int]] = []
+    italic_ranges: list[tuple[int, int]] = []
+    opened: tuple[str, int] | None = None
     for character in value:
-        if character == "[":
+        if character in "[{":
             if opened is not None:
-                raise IssueProcessingError("roman spans cannot be nested")
-            opened = len(text)
-        elif character == "]":
+                raise IssueProcessingError("typeface spans cannot be nested or overlap")
+            opened = (character, len(text))
+        elif character in "]}":
             if opened is None:
-                raise IssueProcessingError("roman span has an unmatched closing bracket")
-            if opened == len(text):
-                raise IssueProcessingError("roman span cannot be empty")
-            ranges.append((opened, len(text)))
+                raise IssueProcessingError("typeface span has an unmatched closing delimiter")
+            opener, start = opened
+            if (opener, character) not in {("[", "]"), ("{", "}")}:
+                raise IssueProcessingError("typeface span has mismatched delimiters")
+            if start == len(text):
+                raise IssueProcessingError("typeface span cannot be empty")
+            ranges = roman_ranges if opener == "[" else italic_ranges
+            ranges.append((start, len(text)))
             opened = None
         else:
             text.append(character)
     if opened is not None:
-        raise IssueProcessingError("roman span has no closing bracket")
-    return unicodedata.normalize("NFC", "".join(text)), ranges
+        raise IssueProcessingError("typeface span has no closing delimiter")
+    return (
+        unicodedata.normalize("NFC", "".join(text)),
+        roman_ranges,
+        italic_ranges,
+    )
 
 
 def line_text(line: dict) -> str:
@@ -199,8 +210,12 @@ def choose_style(source: list[dict], left: int, right: int) -> dict:
 
 
 def corrected_runs(
-    line: dict, target: str, roman_ranges: list[tuple[int, int]]
+    line: dict,
+    target: str,
+    roman_ranges: list[tuple[int, int]],
+    italic_ranges: list[tuple[int, int]] | None = None,
 ) -> list[dict]:
+    italic_ranges = italic_ranges or []
     before = line_text(line)
     source_styles = [
         {key: value for key, value in run.items() if key != "text"}
@@ -224,6 +239,11 @@ def corrected_runs(
             raise IssueProcessingError("roman span falls outside resolved correction text")
         for index in range(start, end):
             target_styles[index] = {**target_styles[index], "typeface": "roman"}
+    for start, end in italic_ranges:
+        if not (0 <= start < end <= len(target)):
+            raise IssueProcessingError("italic span falls outside resolved correction text")
+        for index in range(start, end):
+            target_styles[index] = {**target_styles[index], "typeface": "italic"}
     if any(style is None for style in target_styles):
         raise IssueProcessingError(f"could not preserve typeface for {line['id']}")
     runs: list[dict] = []
@@ -294,7 +314,7 @@ def validate_base_commit(root: Path, commit: str) -> None:
 
 def apply_change(line: dict, change: dict) -> tuple[dict, bool]:
     current = line_text(line)
-    target, roman_ranges = parse_correction_notation(change["after"])
+    target, roman_ranges, italic_ranges = parse_correction_notation(change["after"])
     if current not in {change["before"], target}:
         raise IssueProcessingError(
             f"{change['line']} before mismatch: expected {change['before']!r} "
@@ -307,6 +327,7 @@ def apply_change(line: dict, change: dict) -> tuple[dict, bool]:
             "submitted_after": change["after"],
             "resolved_after": target,
             "roman_ranges": roman_ranges,
+            "italic_ranges": italic_ranges,
             **({"comment": change["comment"]} if change.get("comment") else {}),
         },
         current == target,
@@ -314,7 +335,12 @@ def apply_change(line: dict, change: dict) -> tuple[dict, bool]:
 
 
 def apply_resolved(line: dict, item: dict) -> None:
-    line["runs"] = corrected_runs(line, item["resolved_after"], item["roman_ranges"])
+    line["runs"] = corrected_runs(
+        line,
+        item["resolved_after"],
+        item["roman_ranges"],
+        item.get("italic_ranges", []),
+    )
 
 
 def validation_commands(root: Path) -> list[list[str]]:
@@ -435,9 +461,10 @@ def apply_second_opinion_decisions(report: dict, root: Path) -> list[str]:
                 raise IssueProcessingError(
                     f"qualified {item['line']} needs a qualified_after value"
                 )
-            resolved, ranges = parse_correction_notation(qualified)
+            resolved, roman_ranges, italic_ranges = parse_correction_notation(qualified)
             item["resolved_after"] = resolved
-            item["roman_ranges"] = ranges
+            item["roman_ranges"] = roman_ranges
+            item["italic_ranges"] = italic_ranges
         elif decision != "accept":
             raise IssueProcessingError(
                 f"invalid decision {decision!r} for {item['line']}"

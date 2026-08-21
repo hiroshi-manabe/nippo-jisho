@@ -230,26 +230,30 @@ function pageLineMap(page) {
   return new Map(page.zones.flatMap(zone => zone.lines).map(line => [line.id, line]));
 }
 
-function parseRomanNotation(value) {
+function parseTypefaceNotation(value) {
   let text = '';
   let open = null;
   const romanRanges = [];
+  const italicRanges = [];
   for (let index = 0; index < value.length; index++) {
     const character = value[index];
-    if (character === '[') {
-      if (open !== null) return {valid: false, error: 'Roman spans cannot be nested.'};
-      open = text.length;
-    } else if (character === ']') {
-      if (open === null) return {valid: false, error: 'A Roman span has an unmatched closing bracket.'};
-      if (open === text.length) return {valid: false, error: 'A Roman span cannot be empty.'};
-      romanRanges.push([open, text.length]);
+    if (character === '[' || character === '{') {
+      if (open !== null) return {valid: false, error: 'Typeface spans cannot be nested or overlap.'};
+      open = {delimiter: character, start: text.length};
+    } else if (character === ']' || character === '}') {
+      if (open === null) return {valid: false, error: 'A typeface span has an unmatched closing delimiter.'};
+      if ((open.delimiter === '[' && character !== ']') || (open.delimiter === '{' && character !== '}')) {
+        return {valid: false, error: 'A typeface span has mismatched delimiters.'};
+      }
+      if (open.start === text.length) return {valid: false, error: 'A typeface span cannot be empty.'};
+      (open.delimiter === '[' ? romanRanges : italicRanges).push([open.start, text.length]);
       open = null;
     } else {
       text += character;
     }
   }
-  if (open !== null) return {valid: false, error: 'A Roman span has no closing bracket.'};
-  return {valid: true, text, romanRanges};
+  if (open !== null) return {valid: false, error: 'A typeface span has no closing delimiter.'};
+  return {valid: true, text, romanRanges, italicRanges};
 }
 
 function rangeContains(ranges, index) {
@@ -257,13 +261,14 @@ function rangeContains(ranges, index) {
 }
 
 function proposalMatchesLine(line, annotatedText) {
-  const proposal = parseRomanNotation(annotatedText);
+  const proposal = parseTypefaceNotation(annotatedText);
   if (!proposal.valid || proposal.text !== line.text) return false;
   const typefaces = line.runs.flatMap(run => Array(run.text.length).fill(run.typeface));
-  return proposal.romanRanges.every(([start, end]) => {
-    for (let index = start; index < end; index++) if (typefaces[index] !== 'roman') return false;
+  const matches = (ranges, expected) => ranges.every(([start, end]) => {
+    for (let index = start; index < end; index++) if (typefaces[index] !== expected) return false;
     return true;
   });
+  return matches(proposal.romanRanges, 'roman') && matches(proposal.italicRanges, 'italic');
 }
 
 function reconcileEdits(page, edits) {
@@ -292,8 +297,8 @@ function reconcileEdits(page, edits) {
       if (edit.comment) reconciled[lineId] = {...edit, before: line.text, after: line.text, ...reviewFlags};
       continue;
     }
-    const proposal = parseRomanNotation(edit.after);
-    if (proposal.valid && edit.before === proposal.text && proposal.romanRanges.length === 0) {
+    const proposal = parseTypefaceNotation(edit.after);
+    if (proposal.valid && edit.before === proposal.text && proposal.romanRanges.length === 0 && proposal.italicRanges.length === 0) {
       if (edit.comment) reconciled[lineId] = {...edit, before: line.text, after: line.text, ...reviewFlags};
       continue;
     }
@@ -501,9 +506,9 @@ function renderStyledSlice(runs, sourceOffset, text, mark = false, fixedTypeface
 }
 
 function styledVisualDiff(line, after) {
-  const proposal = parseRomanNotation(after);
+  const proposal = parseTypefaceNotation(after);
   if (!proposal.valid) return escapeHTML(after);
-  if (proposal.romanRanges.length) return styledRomanDiff(line, proposal);
+  if (proposal.romanRanges.length || proposal.italicRanges.length) return styledTypefaceDiff(line, proposal);
   after = proposal.text;
   const before = line.text;
   if (before === after) return renderRuns(line.runs);
@@ -519,7 +524,7 @@ function styledVisualDiff(line, after) {
     + renderStyledSlice(line.runs, before.length - end, end ? after.slice(after.length - end) : '');
 }
 
-function styledRomanDiff(line, proposal) {
+function styledTypefaceDiff(line, proposal) {
   const before = line.text;
   const after = proposal.text;
   let start = 0;
@@ -536,8 +541,11 @@ function styledRomanDiff(line, proposal) {
     else sourceIndex = Math.min(start, Math.max(0, typefaces.length - 1));
     const originalTypeface = typefaces[sourceIndex] || 'roman';
     const forcedRoman = rangeContains(proposal.romanRanges, index);
-    const typeface = forcedRoman ? 'roman' : originalTypeface;
-    const marked = (start <= index && index < changedEnd) || (forcedRoman && originalTypeface !== 'roman');
+    const forcedItalic = rangeContains(proposal.italicRanges, index);
+    const typeface = forcedRoman ? 'roman' : (forcedItalic ? 'italic' : originalTypeface);
+    const marked = (start <= index && index < changedEnd)
+      || (forcedRoman && originalTypeface !== 'roman')
+      || (forcedItalic && originalTypeface !== 'italic');
     const previous = pieces[pieces.length - 1];
     if (previous?.typeface === typeface && previous.marked === marked) previous.text += after[index];
     else pieces.push({typeface, marked, text: after[index]});
@@ -585,7 +593,7 @@ function paletteHTML() {
   const buttons = Object.entries(TRANSCRIPTION_KEYS).map(([key, item]) =>
     `<button type="button" class="character-key" data-character-key="${key}" aria-label="${item.name || `Insert ${item.label}`}"><span>${item.label}</span><kbd>${key}</kbd></button>`
   ).join('');
-  return `<div class="character-palette" aria-label="Transcription characters"><div class="character-buttons">${buttons}<button type="button" class="roman-span-key" data-action="roman-span" aria-label="Mark selected text as Roman type"><span>Roman</span><kbd>[ ]</kbd></button></div><label class="literal-digits"><input type="checkbox" name="literal-digits"> Literal digits</label></div>`;
+  return `<div class="character-palette" aria-label="Transcription characters"><div class="character-buttons">${buttons}<button type="button" class="typeface-span-key" data-action="typeface-span" data-typeface="roman" aria-label="Mark selected text as Roman type"><span>Roman</span><kbd>[ ]</kbd></button><button type="button" class="typeface-span-key" data-action="typeface-span" data-typeface="italic" aria-label="Mark selected text as italic type"><span>Italic</span><kbd>{ }</kbd></button></div><label class="literal-digits"><input type="checkbox" name="literal-digits"> Literal digits</label></div>`;
 }
 
 function replaceSelection(area, replacement, start = area.selectionStart, end = area.selectionEnd) {
@@ -612,21 +620,22 @@ function applyDecoration(area, mark) {
   replaceSelection(area, (base + mark).normalize('NFC'), start, end);
 }
 
-function applyRomanSpan(area) {
+function applyTypefaceSpan(area, typeface) {
   const start = area.selectionStart;
   const end = area.selectionEnd;
   if (start === end) {
-    toast('Select the Japanese text to mark as Roman type.');
+    toast(`Select the text to mark as ${typeface} type.`);
     area.focus();
     return;
   }
   const target = area.value.slice(start, end);
-  if (target.includes('[') || target.includes(']')) {
-    toast('Select text that is not already marked as Roman.');
+  if (['[', ']', '{', '}'].some(character => target.includes(character))) {
+    toast('Select text that is not already marked with a typeface annotation.');
     area.focus();
     return;
   }
-  replaceSelection(area, `[${target}]`, start, end);
+  const [open, close] = typeface === 'italic' ? ['{', '}'] : ['[', ']'];
+  replaceSelection(area, `${open}${target}${close}`, start, end);
   area.setSelectionRange(start + 1, end + 1);
 }
 
@@ -645,7 +654,7 @@ function saveEditor(form) {
   const comment = form.elements.comment.value.trim();
   const secondOpinion = form.elements['second-opinion'].checked;
   const secondOpinionManual = form.elements['second-opinion'].dataset.manual === 'true';
-  const proposal = parseRomanNotation(after);
+  const proposal = parseTypefaceNotation(after);
   if (!proposal.valid) {
     toast(proposal.error);
     form.elements.transcription.focus();
@@ -712,7 +721,8 @@ document.addEventListener('click', event => {
   if (row) {
     const characterButton = event.target.closest('[data-character-key]');
     if (characterButton) return useTranscriptionKey(row.querySelector('.edit-form'), characterButton.dataset.characterKey);
-    if (event.target.closest('[data-action="roman-span"]')) return applyRomanSpan(row.querySelector('textarea[name="transcription"]'));
+    const typefaceButton = event.target.closest('[data-action="typeface-span"]');
+    if (typefaceButton) return applyTypefaceSpan(row.querySelector('textarea[name="transcription"]'), typefaceButton.dataset.typeface);
     if (event.target.closest('.context-toggle,.line-crop')) { const button = row.querySelector('.context-toggle'); const expanded = button.getAttribute('aria-expanded') !== 'true'; button.setAttribute('aria-expanded', String(expanded)); button.textContent = expanded ? 'Hide context' : 'Show context'; setCrop(row, expanded); return; }
     if (event.target.closest('[data-action="edit"]')) return openEditor(row);
     if (event.target.closest('[data-action="cancel"]')) { row.querySelector('.edit-form').remove(); return; }

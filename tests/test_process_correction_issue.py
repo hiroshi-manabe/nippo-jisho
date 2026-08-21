@@ -44,16 +44,28 @@ class CorrectionIssueProcessorTests(unittest.TestCase):
             extract_payload(body + "\n```json\n{}\n```")
 
     def test_lightweight_notation_resolves_without_leaking_markers(self):
-        text, ranges = parse_correction_notation(
+        text, roman_ranges, italic_ranges = parse_correction_notation(
             "Aburemono. Homem audaz, & que *não tẽ"
         )
         self.assertEqual(text, "Aburemono. Homem audaz, & que naõ tẽ")
-        self.assertEqual(ranges, [])
-        text, ranges = parse_correction_notation("zinha, ou [cha], &c.")
-        self.assertEqual(text, "zinha, ou cha, &c.")
-        self.assertEqual(ranges, [(10, 13)])
+        self.assertEqual(roman_ranges, [])
+        self.assertEqual(italic_ranges, [])
+        text, roman_ranges, italic_ranges = parse_correction_notation(
+            "zinha, ou [cha], {P.}"
+        )
+        self.assertEqual(text, "zinha, ou cha, P.")
+        self.assertEqual(roman_ranges, [(10, 13)])
+        self.assertEqual(italic_ranges, [(15, 17)])
         self.assertNotIn("*", text)
         self.assertNotIn("[", text)
+        self.assertNotIn("{", text)
+
+    def test_typeface_annotations_reject_nesting_and_mismatched_delimiters(self):
+        for value in ("[{cha}]", "{[P.]}"):
+            with self.assertRaisesRegex(IssueProcessingError, "cannot be nested"):
+                parse_correction_notation(value)
+        with self.assertRaisesRegex(IssueProcessingError, "mismatched"):
+            parse_correction_notation("{P.]")
 
     def test_ambiguous_tilde_marker_is_rejected(self):
         with self.assertRaisesRegex(IssueProcessingError, "no unique"):
@@ -64,13 +76,32 @@ class CorrectionIssueProcessorTests(unittest.TestCase):
             "id": "c2-l043",
             "runs": [{"typeface": "italic", "text": "zinha, ou cha, &c."}],
         }
-        text, ranges = parse_correction_notation("zinha, ou [cha], &c.")
+        text, roman_ranges, italic_ranges = parse_correction_notation(
+            "zinha, ou [cha], &c."
+        )
         self.assertEqual(
-            corrected_runs(line, text, ranges),
+            corrected_runs(line, text, roman_ranges, italic_ranges),
             [
                 {"typeface": "italic", "text": "zinha, ou "},
                 {"typeface": "roman", "text": "cha"},
                 {"typeface": "italic", "text": ", &c."},
+            ],
+        )
+
+    def test_italic_override_is_applied_to_roman_source_text(self):
+        line = {
+            "id": "c1-l001",
+            "runs": [{"typeface": "roman", "text": "Adu. P. Vide."}],
+        }
+        text, roman_ranges, italic_ranges = parse_correction_notation(
+            "Adu. {P.} Vide."
+        )
+        self.assertEqual(
+            corrected_runs(line, text, roman_ranges, italic_ranges),
+            [
+                {"typeface": "roman", "text": "Adu. "},
+                {"typeface": "italic", "text": "P."},
+                {"typeface": "roman", "text": " Vide."},
             ],
         )
 
