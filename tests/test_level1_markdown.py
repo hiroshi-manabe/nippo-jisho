@@ -156,7 +156,7 @@ class Level1MarkdownTests(unittest.TestCase):
         source = (SOURCE / "bnf-f0015.md").read_text(encoding="utf-8")
         self.assertIn("status: scan_confirmed", source)
         self.assertIn("Acano nuqeta te.", source)
-        self.assertIn("la menhaã cedo", source)
+        self.assertIn("lamenhaã cedo", source)
         self.assertIn("Aca muſubu", source)
         self.assertIn("Per met.", source)
         self.assertIn("briguigoĩs", source)
