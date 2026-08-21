@@ -466,6 +466,15 @@ class PublicReviewRegressionTests(unittest.TestCase):
         self.assertIn("if (saveEditor(form)) renderPageContent()", app)
         self.assertIn("Opening another line has the same save-and-collapse effect", workflow)
 
+    def test_enter_confirms_the_physical_line_editor(self):
+        app = (ROOT / "site" / "app.js").read_text(encoding="utf-8")
+        workflow = (ROOT / "docs" / "human-review-workflow.md").read_text(
+            encoding="utf-8"
+        )
+        self.assertIn("if (event.key === 'Enter')", app)
+        self.assertIn("if (saveEditor(area.form)) renderPageContent()", app)
+        self.assertIn("Pressing **Enter** in the transcription field", workflow)
+
     def test_correction_submission_supports_opt_in_second_opinions(self):
         app = (ROOT / "site" / "app.js").read_text(encoding="utf-8")
         styles = (ROOT / "site" / "styles.css").read_text(encoding="utf-8")

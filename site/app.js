@@ -733,6 +733,11 @@ document.addEventListener('click', event => {
 document.addEventListener('keydown', event => {
   const area = event.target.closest('.edit-form textarea[name="transcription"]');
   if (!area || event.isComposing || event.ctrlKey || event.metaKey || event.altKey) return;
+  if (event.key === 'Enter') {
+    event.preventDefault();
+    if (saveEditor(area.form)) renderPageContent();
+    return;
+  }
   if (!TRANSCRIPTION_KEYS[event.key] || area.form.elements['literal-digits'].checked) return;
   event.preventDefault();
   useTranscriptionKey(area.form, event.key);

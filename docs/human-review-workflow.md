@@ -35,7 +35,7 @@ Unchanged rows remain compact. Clicking the transcription opens an editor contai
 - a **Request second opinion** checkbox;
 - **OK** and **Cancel** actions.
 
-**OK** confirms the local proposal and collapses the editor. Opening another line has the same save-and-collapse effect on the active editor before the new one opens, so moving through the page cannot silently discard typed text or comments. **Cancel** remains the explicit way to discard changes made during that editing session. A changed row can be reopened, and a **Revert** action restores the repository text.
+**OK** confirms the local proposal and collapses the editor. Pressing **Enter** in the transcription field does the same thing: each record represents one physical printed line, so a newline is not valid transcription content. Enter remains available normally in the separate comment field. IME composition is exempt so that confirming composed input does not close the editor. Opening another line has the same save-and-collapse effect on the active editor before the new one opens, so moving through the page cannot silently discard typed text or comments. **Cancel** remains the explicit way to discard changes made during that editing session. A changed row can be reopened, and a **Revert** action restores the repository text.
 
 Typing a comment selects **Request second opinion** automatically, because a comment usually identifies a distinction that deserves discussion. The reader may clear the checkbox afterward when the comment is only provenance or an already-settled human observation. That explicit choice persists when the row is reopened. A checked row receives a compact marker after **OK** so the page-level review state remains visible.
 
