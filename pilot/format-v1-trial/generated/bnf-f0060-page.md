@@ -16,7 +16,7 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c1-l001` | Bodaixin. *Deſprezo do mundo, ou botar do* |  |
 | `c1-l002` | &emsp;*coração todas as couſas do mũdo que em pedẽ* |  |
-| `c1-l003` | &emsp;*a ſaluação, & deuação. ¶ Item, Deſejo* |  |
+| `c1-l003` | &emsp;*a ſaluação, & deuação. ¶ Item, Deſeio* |  |
 | `c1-l004` | &emsp;*da ſaluação, & deuação. ¶* Bodaixinuo |  |
 | `c1-l005` | &emsp;vocoſu. *Deixar, ou deſprezar o mundo pe-* |  |
 | `c1-l006` | &emsp;*ra ſe ſaluar, ou fazerſe deuoto, & pio.* |  |
@@ -26,7 +26,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l010` | Bôfan. *Sinal falſo, ou falſificado.* |  |
 | `c1-l011` | Bǒfu. *Nome de hũa erua medicinal, que ſe* |  |
 | `c1-l012` | &emsp;*come, & nace na praya.* |  |
-| `c1-l013` | Bofu. Forechitaru chichi. *Pay morto.* |  |
+| `c1-l013` | Bofu. Forobitaru chichi. *Pay morto.* |  |
 | `c1-l014` | Bofû. Arai caje. *Vento rijo.* |  |
 | `c1-l015` | Bofù. Cureno caje. *Vento da tarde.* |  |
 | `c1-l016` | Bofucu. i. Fauano fara. *Ventre da mãy.* |  |
@@ -34,33 +34,33 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l018` | Bogui. i. Faua. *Mãy.* |  |
 | `c1-l019` | Boguiǔ. i. Cotoino vxi. *Touro, ou boy.* |  |
 | `c1-l020` | Bǒgǒ. Bôno na. *Certa ermida, ou caſa de* |  |
-| `c1-l021` | &emsp;Bôzo. |  |
+| `c1-l021` | &emsp;Bõzo. |  |
 | `c1-l022` | Bǒguan. *Officio como de feitor, ou veador* |  |
-| `c1-l023` | &emsp;*môr na caſa de algũs* Bôzos *principaes, &* |  |
+| `c1-l023` | &emsp;*mòr na caſa de algũs* Bõzos *principaes, &* |  |
 | `c1-l024` | &emsp;*de grande dignidade.* |  |
 | `c1-l025` | Bǒgiǔ. Bôno vchi. *Dentro da ermida, ou* |  |
-| `c1-l026` | &emsp;*capellas particulares que tem cada* Bôzo *nas* |  |
-| `c1-l027` | &emsp;*Terras em Iapão.* |  |
-| `c1-l028` | Bǒja. Bôzono iye. *Caſa do* Bôzo, *ou er-* |  |
+| `c1-l026` | &emsp;*capellas particulares que tem cada* Bõzo *nas* |  |
+| `c1-l027` | &emsp;*Teras em Iapão.* |  |
+| `c1-l028` | Bǒja. Bǒzono iye. *Caſa do* Bõzo, *ou er-* |  |
 | `c1-l029` | &emsp;*mida particular.* |  |
 | `c1-l030` | Bǒjacubujin. *Deſauergonhado, & deſafora-* |  |
 | `c1-l031` | &emsp;*do que lhe não dà de ninguem.* |  |
 | `c1-l032` | Bǒjen. *Estar arrebatado, ou paſmado fora de* |  |
 | `c1-l033` | &emsp;*ſi. ¶* Bǒjento aqire fatete iru. *Idẽ.* |  |
-| `c1-l034` | Bǒji, zuru, ita. *Estar alienado, & como fo-* |  |
+| `c1-l034` | Bǒji, zuru, ita. *Eſtar alienado, & como fo-* |  |
 | `c1-l035` | &emsp;*ra de ſi.* |  |
 | `c1-l036` | Bǒji. i. Bôxu. *Homem que vſa de enganos,* |  |
-| `c1-l037` | &emsp;*& ardis.* |  |
+| `c1-l037` | &emsp;*& ardijs.* |  |
 | `c1-l038` | Bǒji. *Ajuntamento de homem com molher.* |  |
-| `c1-l039` | &emsp;*Palaura limpa. ¶* Bǒjiga ſugure varui. |  |
+| `c1-l039` | &emsp;*Palaura limpa. ¶* Bǒjiga ſuguite varui. |  |
 | `c1-l040` | &emsp;*Darſe demaſiadamente a molheres, he ruim.* |  |
-| `c1-l041` | &emsp;*¶* Bǒjino ſugoſu. *Darſe muito a molhe-* |  |
+| `c1-l041` | &emsp;*¶* Bǒjiuo ſugoſu. *Darſe muito a molhe-* |  |
 | `c1-l042` | &emsp;*res, ou vſar muito deste ajuntamento, &c.* |  |
 | `c1-l043` | Bǒji. *Homem de ſeruiço que a carreta fa-* |  |
 | `c1-l044` | &emsp;*to, &c.* |  |
 | `c1-l045` | Bǒjǒ. *Vestido feito de pedaços, ou remendos.* |  |
 | `c1-l046` | &emsp;*¶ Vt,* Fari bôjǒ. *Veſtido remendado, ou* |  |
-| `c1-l047` | &emsp;*feito de pedaços lauado, & estendido ao ſol.* |  |
+| `c1-l047` | &emsp;*feito de pedaços lauado, & eſtendido ao ſol.* |  |
 
 ## Column 2 running header
 
@@ -78,9 +78,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l004` | Bon. Fotogui. *Bandeja, ou baçio de pao* |  |
 | `c2-l005` | &emsp;*em que poem fruita, &c.* |  |
 | `c2-l006` | Bon. *Festa dos finados dos gentios que fazem* |  |
-| `c2-l007` | &emsp;*aos. 14. ou 15. da ſetima lũa na qual acẽ-* |  |
+| `c2-l007` | &emsp;*aos. 14. ou 15. da ſetima lũa na qual açẽ-* |  |
 | `c2-l008` | &emsp;*dem candeas tres dias à boca da noite.* |  |
-| `c2-l009` | Bǒnai. Tçubonenouchi. *Dẽtro da caſa ou ca-* |  |
+| `c2-l009` | Bǒnai. Tçubonenouchi. *Dẽtro da caſa ou ca* |  |
 | `c2-l010` | &emsp;*mara particular de alguem.* |  |
 | `c2-l011` | Bonborito. *Adu. Modo de estar a* Vata, |  |
 | `c2-l012` | &emsp;*ou algodão creſpo, & aleuantado, os cabellos* |  |
@@ -103,20 +103,20 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l029` | Bongo. Tengicuno cotoba. *Palauras de* |  |
 | `c2-l030` | &emsp;*Sião.* |  |
 | `c2-l031` | Bonji. Tengicuno ji. *Letra de Sião.* |  |
-| `c2-l032` | Bonju. i. Zôbocu. *Aruore commũa, & de* |  |
-| `c2-l033` | &emsp;*pouca estima.* |  |
+| `c2-l032` | Bonju. i. Zǒbocu. *Aruore commũa, & de* |  |
+| `c2-l033` | &emsp;*pouca eſtima.* |  |
 | `c2-l034` | Bonnin. i. Bonbu. *Homem que não tem* |  |
-| `c2-l035` | &emsp;*dignidade algũa, baixo, & ſem letras.* |  |
+| `c2-l035` | &emsp;*dignidade algũa, baxo, & ſem letras.* |  |
 | `c2-l036` | Bonnǒ. Vazzurai nayami. i. Togano ſô- |  |
 | `c2-l037` | &emsp;miǒ. *Palaura do* Buppô *pera declarar to-* |  |
-| `c2-l038` | &emsp;*dos os peccados em particular, & em gẽral.* |  |
+| `c2-l038` | &emsp;*dos os peccados em particular, & em gèral.* |  |
 | `c2-l039` | &emsp;*¶ Item, Concupiſcencia, ou ſenſualidade.* |  |
 | `c2-l040` | &emsp;*¶* Bonnǒno coigi. *Afflição interior q̃* |  |
 | `c2-l041` | &emsp;*ſe ſente com deſejos ſenſuaes. ¶* Bonnǒ |  |
 | `c2-l042` | &emsp;cubi. *Vt,* Bonnǒ cubiuo ſuru. *Estar* |  |
-| `c2-l043` | &emsp;*deſleixado, ou deſmayado com algũa afflição co-* |  |
+| `c2-l043` | &emsp;*deſleixado, ou deſmayado com algũa afflição co* |  |
 | `c2-l044` | &emsp;*mo fome, cuidado, &c.* |  |
-| `c2-l045` | Bonnocubo. *Touriço, ou coua do touriço.* |  |
+| `c2-l045` | Bonnocubo. *Toutiço, ou coua do toutiço.* |  |
 | `c2-l046` | Bonpi. Bonbuno iyaxij mono. *Homẽ ig-* |  |
 | `c2-l047` | &emsp;*norante, vil, & baixo. ¶* Bonpina mo- |  |
 | `c2-l048` | &emsp;no. *Idem.* |  |
