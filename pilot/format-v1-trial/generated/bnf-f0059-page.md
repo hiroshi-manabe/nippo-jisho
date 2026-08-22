@@ -17,21 +17,21 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l001` | &emsp;*lheres, & meninas vſão.* |  |
 | `c1-l002` | Bobocaxi, ſu, aita. *Aleuantar, ou abrir* |  |
 | `c1-l003` | &emsp;*como algodão, pelo, &c. ¶* Camiuo bo |  |
-| `c1-l004` | &emsp;bocarũ. *Engrenhar os cabellos.* |  |
+| `c1-l004` | &emsp;bocaſu. *Engrenhar os cabelos.* |  |
 | `c1-l005` | Boboqe, uru, eta. *Aleuantarſe como fri-* |  |
 | `c1-l006` | &emsp;*za, ou pelo de papel, &c.* |  |
 | `c1-l007` | Bǒbǒtaru tei. *Modo de muita eſpeſſura, ou* |  |
 | `c1-l008` | &emsp;*viço das eruas, ou de estar algum lugar in-* |  |
-| `c1-l009` | &emsp;*culto, & baſto com eruas, &c. ¶* Bǒbǒ- |  |
-| `c1-l010` | &emsp;taru caixô. *Mar largo, & comprido.* |  |
+| `c1-l009` | &emsp;*culto, & baſto com eruas, &c. ¶* Bǒbǒ |  |
+| `c1-l010` | &emsp;taru caixǒ. *Mar largo, & comprido.* |  |
 | `c1-l011` | Bǒbǒto. *Adu. Modo de ſoar vento, ou* |  |
-| `c1-l012` | &emsp;*de zumbirem as orelhas.* |  |
-| `c1-l013` | Bǒbǒtoxite. *Adu. Modo de estar trans-* |  |
+| `c1-l012` | &emsp;*dezunirem as orelhas.* |  |
+| `c1-l013` | Bǒbǒtoxite. *Adu. Modo de estar trans* |  |
 | `c1-l014` | &emsp;*portado, ou ſolitario. ¶ Item, Modo de* |  |
 | `c1-l015` | &emsp;*vista ao lõge, ou de couſa larga, & comprida.* |  |
 | `c1-l016` | &emsp;*¶ Item, Modo da eſpeſſura das eruas muito* |  |
 | `c1-l017` | &emsp;*crecidas.* |  |
-| `c1-l018` | Bôbuxe. *O derrubar a alguem com o bastão,* |  |
+| `c1-l018` | Bǒbuxe. *O derrubar a alguem com obastão,* |  |
 | `c1-l019` | &emsp;*ou bordão dandolhe pancada.* |  |
 | `c1-l020` | Boca. Natçunocure. *Fim do estio.* |  |
 | `c1-l021` | Bocan. *Frio que faz pola tarde, ou tarde fria.* |  |
@@ -57,7 +57,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l041` | Bǒcen. *Almas perdidas que paſſarão ja deſta* |  |
 | `c1-l042` | &emsp;*vida.* |  |
 | `c1-l043` | Bocu. *Pao toſco, em que eſtão pegadas algũas* |  |
-| `c1-l044` | &emsp;*aruorezinhas, ou eruas à maneira de vbeozqi* |  |
+| `c1-l044` | &emsp;*aruorezinhas, ou eruas à maneira de ilheozi* |  |
 | `c1-l045` | &emsp;*nho.* |  |
 | `c1-l046` | Bocu. *Preza feita na guerra, ou deſpojo.* |  |
 | `c1-l047` | &emsp;*Vt,* Bocuuo ſuru. *Fazer preza, ou tomar* |  |
@@ -91,22 +91,22 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l011` | Bocufit. Qino fude. *Pincel, ou pena de* |  |
 | `c2-l012` | &emsp;*Iapão pera pintar toda de pao. ¶ Item, Tin-* |  |
 | `c2-l013` | &emsp;*ta, & pena.* |  |
-| `c2-l014` | Bocuguiũ. i. Maqino vxi. *Vacas que ſe* |  |
+| `c2-l014` | Bocuguiǔ. i. Maqino vxi. *Vacas que ſe* |  |
 | `c2-l015` | &emsp;*crião no campo.* |  |
 | `c2-l016` | Bocuji. Vxicǒ votoco. *Pastor de vacas,* |  |
 | `c2-l017` | &emsp;*ou de outro gado.* |  |
-| `c2-l018` | Bocujin. Vianǒ fito. *Feiticeiro, ou o que* |  |
+| `c2-l018` | Bocujin. Vranǒ fito. *Feiticeiro, ou o que* |  |
 | `c2-l019` | &emsp;*bota ſortes, & adeuinha.* |  |
-| `c2-l020` | Bocujǒ. *Dar o* ſacazzùqi *a peſſoa mais al-* |  |
+| `c2-l020` | Bocujǒ. *Dar o* ſacazzuqi *a peſſoa mais al-* |  |
 | `c2-l021` | &emsp;*ta. ¶* Bocujǒ itaſu, l, mǒſu. *Man-* |  |
-| `c2-l022` | &emsp;*dir, ou dar o* ſacazzugi *a alguem. Falando* |  |
+| `c2-l022` | &emsp;*dir, ou dar o* ſacazzuqi *a alguem. Falando* |  |
 | `c2-l023` | &emsp;*com reſpeito da peſſoa.* |  |
 | `c2-l024` | Bocujũ. i. Guenindomo. *Criados, & ſeruos.* |  |
-| `c2-l025` | Bocujũ. Sumino xiru, l, ſuritaru ſumi. *Tĩta mo-* |  |
+| `c2-l025` | Bocujǔ. Sumino xiru, l, ſuritaru ſumi. *Tĩta mo* |  |
 | `c2-l026` | &emsp;*ida liquida, como a que esta nos tinteiros de* |  |
-| `c2-l027` | &emsp;*Iapão, ou china.* |  |
+| `c2-l027` | &emsp;*Iapão, ou China.* |  |
 | `c2-l028` | Bocuri. *Tamancos, ou chiripos de pao.* |  |
-| `c2-l029` | Bocutegi. Vxicaino fuye. *Frauta de pastor.* |  |
+| `c2-l029` | Bocuteqi. Vxicaino fuye. *Frauta de pastor.* |  |
 | `c2-l030` | Bocutǒ. Qigatana. *Eſpada de pao pera* |  |
 | `c2-l031` | &emsp;*eſgrimir.* |  |
 | `c2-l032` | Bocuxeqi. Qi ixi. *Pao, & pedra.* |  |
@@ -116,14 +116,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l036` | &emsp;*ca, ou pouquidade. ¶* Bocuxô naredo- |  |
 | `c2-l037` | &emsp;mo xinzuru. *Ainda que ſeja pouquidade* |  |
 | `c2-l038` | &emsp;*vos offereço.* |  |
-| `c2-l039` | Bocuyǒ. Fitçujicǒ coto, l, fitçuji cai. *A-* |  |
+| `c2-l039` | Bocuyǒ. Fitçuji cǒ coto, l, fitçuji cai. *A-* |  |
 | `c2-l040` | &emsp;*pacentar ouelhas. Item, Pastor de ouelhas.* |  |
 | `c2-l041` | Bodai. *O tirar do coração todas as affeiço-* |  |
 | `c2-l042` | &emsp;*ẽs do mundo pera ſe ſaluar. ¶ Item, De-* |  |
-| `c2-l043` | &emsp;*ſejo da ſaluação. ¶* Bodaiuotô, l, Go- |  |
-| `c2-l044` | &emsp;xôuo tomurô. *Fazer exequias, ou co-* |  |
+| `c2-l043` | &emsp;*zejo da ſaluação. ¶* Bodaiuotô, l, Go- |  |
+| `c2-l044` | &emsp;xǒuo tomurǒ. *Fazer exequias, ou co-* |  |
 | `c2-l045` | &emsp;*mendação pellos defunctos.* |  |
-| `c2-l046` | Bodaiju. *Aruore aſſi chamada que dà hũa* |  |
+| `c2-l046` | Bodaiju. *Aruore aſsi chamada que dà hũa* |  |
 | `c2-l047` | &emsp;*fruita de que ſe fazem contas de rezar dos* |  |
 | `c2-l048` | &emsp;*gentios.* |  |
 
