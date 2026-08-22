@@ -2,13 +2,7 @@
 
 Public site: <https://hiroshi-manabe.github.io/nippo-jisho/>
 
-The public site also provides a dedicated `f44`–`f100` line-end-hyphen audit. This replaces the earlier `f44`–`f53` trial at the same `hyphen-audit.html` route; unchecked candidates are unchanged, while checked removals are copied as a versioned GitHub Issue payload.
-
-A second dedicated interface covers unreviewed tilde placement in exactly two adjacent vowels on `f39`–`f100`. Checked candidates move the tilde to the other vowel; unchecked candidates remain unchanged. Arrow keys move between candidates, Space toggles the focused choice, and submissions preserve the token occurrence and source-line version.
-
-A compact `f13`–`f22` trial audits every current `ſt` occurrence at glyph level. Its tiles show only the immediate scan context and pack horizontally. Because short `s` + `t` is the expected form, unchecked candidates are submitted as `ſt` → `st` replacements; the reviewer checks only genuinely long `ſ` + `t`. All four arrow keys move focus and Space toggles the focused tile. The initial audit was completed in [Issue #45](https://github.com/hiroshi-manabe/nippo-jisho/issues/45): 108 occurrences were converted to short `st`, while the 28 human-confirmed long forms are preserved in [`st-ligature-audit.tsv`](../st-ligature-audit.tsv) and excluded from repeat review unless their source line changes.
-
-Issue #46 completed `f23`–`f32` after a page-held-out image-classifier experiment failed to produce useful prechecks. Issue #47 then applied an incomplete `f33`–`f100` pass: 154 checked occurrences are confirmed long `ſ` + `t`, and 631 unchecked occurrences are provisional short `st`. Because the human pass stopped early and the later tiles need a better layout, the complete original candidate inventory is preserved in [`st-ligature-classification-f33-f100.json`](../st-ligature-classification-f33-f100.json) for reconstruction rather than treating the provisional substitutions as final visual judgments.
+The former line-end-hyphen, adjacent-vowel-tilde, and `ſt`/`st` specialist interfaces have been retired. Their accepted corrections remain in the canonical Level 1 text, Git history, and the Issues that applied them, but their candidate inventories, mutable ledgers, public routes, and dedicated Issue templates are no longer maintained. If another systematic audit is needed, generate a fresh inventory from the then-current transcription and geometry rather than reviving stale task state.
 
 This generated interface supports asynchronous Level 1 production and human checking across the complete acquired Gallica sequence. All 651 leaves (`f1`–`f651`) are navigable from the outset. The 229 existing Level 1 pages show their transcription and review state; the remaining 422 pages show the verified scan with a clear `unprocessed` state.
 

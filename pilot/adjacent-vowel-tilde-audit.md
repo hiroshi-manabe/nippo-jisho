@@ -17,7 +17,7 @@ A targeted machine scan audit then revisited all 42 remaining `alguã`-family re
 
 Accordingly, unchanged rows are marked `batch_review_unverified`, not `scan_confirmed`. The 43 individually inspected machine corrections have status `machine_scan_corrected`, while 155 individually adjudicated occurrences have status `human_scan_confirmed`. The current ledger has 2,443 marks on `a`, 1,140 on `u`, 155 on `o`, 109 on `e`, and 4 on `i`; these are inventory totals, not verified distributions or spelling rules.
 
-The occurrence ledger is [adjacent-vowel-tilde-audit.tsv](adjacent-vowel-tilde-audit.tsv). It records the page, physical line, occurrence number, token, marked-vowel context, carrier, and review status. A row may be treated as individually adjudicated only when its status explicitly says so.
+The former occurrence ledger recorded the page, physical line, occurrence number, token, marked-vowel context, carrier, and review status. It was retired after its task ended and remains recoverable through Git history. This report is historical evidence, not a current inventory.
 
 ## Scope
 
@@ -38,4 +38,4 @@ The retained corrections demonstrate why a lexical rule is unsafe: even a famili
 
 ## Reproduction
 
-Run `scripts/build_adjacent_tilde_audit.py` to rebuild the occurrence inventory and optional compact or full-line review sheets. Its OCR-assisted locator is useful for finding the word but must not be interpreted as carrier evidence. The checked-in statuses preserve the distinction between the superseded batch review and later individual adjudication.
+No current inventory or generator is maintained. If the question needs another systematic pass, derive a new occurrence inventory from the then-current Level 1 corpus and geometry. The retired generator and ledger remain available in Git history for methodological reference; their old statuses must not be reused as current decisions.

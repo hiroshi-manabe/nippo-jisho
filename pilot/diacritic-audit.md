@@ -27,7 +27,7 @@ References:
 
 ## Revised result
 
-The 37 occurrences previously encoded as `ô` or `û` resolve as follows. The row-level data is available in [diacritic-audit.csv](diacritic-audit.csv).
+The 37 occurrences previously encoded as `ô` or `û` resolved as follows. The retired row-level data remains available through Git history; this table is its historical summary.
 
 | Result | `bnf-f0248` | `bnf-f0643` | Total |
 | --- | ---: | ---: | ---: |

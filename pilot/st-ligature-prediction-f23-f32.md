@@ -25,14 +25,14 @@ The second pass used the same labeled data as visual controls. Enlarged f23–f3
 tiles were compared with the confirmed β-like short sort and the descending
 long-`ſ` sort from f13–f22. Only readings judged sufficiently distinct were
 prechecked; ambiguous forms were deliberately left unchecked. The 28
-version-bound prechecks are recorded in
-[`st-ligature-prechecks-f23-f32.tsv`](st-ligature-prechecks-f23-f32.tsv).
+version-bound prechecks were formerly recorded in a TSV that remains available
+through Git history.
 
 These were predictions, not accepted transcription. In the completed human
 review, the reviewer cleared all 28 because their classifications were not
 useful. Issue #46 then supplied 97 short-`st` replacements and retained 14
 genuine long-`ſt` forms. The precheck file remains only as experiment
-provenance; it no longer determines any live checkbox state.
+provenance; no live checkbox state or current ledger is retained.
 
 ## Learning value
 

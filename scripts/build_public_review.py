@@ -4,13 +4,11 @@
 from __future__ import annotations
 
 import argparse
-import csv
 import hashlib
 import html
 import json
 import os
 from pathlib import Path
-import re
 import shutil
 import subprocess
 import unicodedata
@@ -21,13 +19,8 @@ import markdown
 ARK = "ark:/12148/bpt6k852354j"
 IMAGE_BASE_URL = "https://nippo-jisho-images.pages.dev"
 REVIEW_UNITS = ("column-1", "column-2", "furniture")
-HYPHEN_AUDIT_LEAVES = range(44, 101)
-HYPHEN_AUDIT_SCOPE = "f44-f100"
-TILDE_AUDIT_LEAVES = range(39, 101)
-TILDE_AUDIT_SCOPE = "f39-f100"
-TILDE_AUDIT_STATUS = "batch_review_unverified"
-ST_AUDIT_LEAVES = range(33, 101)
-ST_AUDIT_SCOPE = "f33-f100"
+
+
 def load_json(path: Path) -> dict:
     return json.loads(path.read_text(encoding="utf-8"))
 
@@ -192,58 +185,6 @@ def render_reference(source: Path, title: str) -> str:
     return f"<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width'><title>{html.escape(title)}</title><link rel='stylesheet' href='reference.css'></head><body>{body}</body></html>"
 
 
-def hyphen_audit_payload(pages: list[dict], commit: str, repository: str) -> dict:
-    audit_pages = []
-    for page in pages:
-        if page["leaf"] not in HYPHEN_AUDIT_LEAVES or not page["processed"]:
-            continue
-        candidates = []
-        for zone in page["zones"]:
-            if zone["kind"] != "column":
-                continue
-            for line in zone["lines"]:
-                if not line["text"].rstrip().endswith("-"):
-                    continue
-                left, top, width, height = line["crop"]
-                crop_width = min(width, 720)
-                padding = max(12, round(height * 0.28))
-                crop_top = max(0, top - padding)
-                crop_bottom = min(page["height"], top + height + padding)
-                candidates.append(
-                    {
-                        "line": line["id"],
-                        "before": line["text"],
-                        "base_line_version": line["transcription_version"],
-                        "crop": [
-                            left + width - crop_width,
-                            crop_top,
-                            crop_width,
-                            crop_bottom - crop_top,
-                        ],
-                    }
-                )
-        audit_pages.append(
-            {
-                "leaf": page["leaf"],
-                "view": page["view"],
-                "page_id": page["page_id"],
-                "width": page["width"],
-                "height": page["height"],
-                "image": page["iiif"],
-                "gallica": page["gallica"],
-                "candidates": candidates,
-            }
-        )
-    return {
-        "schema": 1,
-        "task": "line-end-hyphen-audit",
-        "scope": HYPHEN_AUDIT_SCOPE,
-        "base_commit": commit,
-        "repository": repository,
-        "pages": audit_pages,
-    }
-
-
 def vowel_unit(character: str) -> tuple[str, str]:
     decomposed = unicodedata.normalize("NFD", character)
     return decomposed[0].lower(), decomposed[1:]
@@ -268,221 +209,6 @@ def alternate_tilde_carrier(token: str, marked_index: int) -> str | None:
     units[marked_index] = units[marked_index].replace("\N{COMBINING TILDE}", "", 1)
     units[destination] += "\N{COMBINING TILDE}"
     return unicodedata.normalize("NFC", "".join(units))
-
-
-def text_width_units(value: str) -> float:
-    narrow = set(" ilIſft.,:;'|")
-    wide = set("MWmw&")
-    return sum(0.52 if character in narrow else 1.42 if character in wide else 1.0 for character in value)
-
-
-def tilde_candidate_crop(page: dict, line: dict, start: int, end: int) -> list[int]:
-    if "crop" in line:
-        left, top, width, height = line["crop"]
-    else:
-        # Catchwords are outside the column geometry but consistently occupy
-        # the lower-right portion of these leaves.
-        left = round(page["width"] * 0.43)
-        top = round(page["height"] * 0.84)
-        width = page["width"] - left - 40
-        height = page["height"] - top - 30
-    text = line["text"]
-    # Printed continuation lines often occupy only a small part of the
-    # column. Normalizing every line to the full column width therefore sends
-    # short indented text (for example `ta lũa.`) to the wrong edge. Estimate
-    # position using a stable full-line measure and the recorded indentation
-    # instead; the generous crop remains intentionally approximate.
-    unit_width = width / 48
-    indent_units = float(line.get("indent", 0)) * 2.0
-    centre = (
-        indent_units
-        + text_width_units(text[:start])
-        + text_width_units(text[start:end]) / 2
-    )
-    centre_x = left + round(unit_width * centre)
-    crop_width = min(width, 720)
-    trailing_text = text[end:]
-    at_printed_line_end = re.fullmatch(r"[\s.,;:!?]*", trailing_text) is not None
-    if at_printed_line_end and text_width_units(text) >= 28:
-        # A long line ending at the outer rule is safer to anchor to that rule;
-        # the fixed-width estimate otherwise risks losing its final character.
-        # Terminal punctuation belongs to the same printed ending even though
-        # it is outside the candidate token.
-        crop_left = left + width - crop_width
-    else:
-        crop_left = min(
-            max(left, centre_x - crop_width // 2), left + width - crop_width
-        )
-    # Existing line rectangles were reviewed for readable letter bodies, but
-    # this task depends on small marks above them. Preserve extra space above
-    # the line and overlap below it so a slightly displaced rectangle cannot
-    # clip the tilde under review. The externally reviewed geometry from f60
-    # onward can be displaced by roughly one printed line while remaining
-    # nominally readable, so give that range one additional line of context on
-    # both sides in this specialist UI without changing canonical geometry.
-    vertical_safety = 70 if page["leaf"] >= 60 else 0
-    crop_top = max(
-        0, top - max(45, round(height * 0.45)) - vertical_safety
-    )
-    crop_bottom = min(
-        page["height"],
-        top + height + max(30, round(height * 0.30)) + vertical_safety,
-    )
-    return [crop_left, crop_top, crop_width, crop_bottom - crop_top]
-
-
-def st_line_crop(page: dict, line: dict) -> list[int]:
-    """Return the complete reviewed printed line for reliable ſt checking."""
-    left, top, width, height = line["crop"]
-    padding = max(8, round(height * 0.12))
-    crop_top = max(0, top - padding)
-    crop_bottom = min(page["height"], top + height + padding)
-    return [left, crop_top, width, crop_bottom - crop_top]
-
-
-def st_audit_payload(
-    pages: list[dict], commit: str, repository: str, ledger: Path
-) -> dict:
-    confirmed = {}
-    with ledger.open(encoding="utf-8", newline="") as handle:
-        for row in csv.DictReader(handle, delimiter="\t"):
-            if row["decision"] != "confirmed_long_s_t":
-                continue
-            key = (row["page"], row["line"], int(row["occurrence"]))
-            confirmed[key] = row["base_line_version"]
-    audit_pages = []
-    confirmed_count = 0
-    stale_confirmations = 0
-    for page in pages:
-        if page["leaf"] not in ST_AUDIT_LEAVES or not page["processed"]:
-            continue
-        candidates = []
-        for zone in page["zones"]:
-            if zone["kind"] != "column":
-                continue
-            for line in zone["lines"]:
-                occurrence = 0
-                for match in re.finditer("ſt", line["text"]):
-                    occurrence += 1
-                    confirmation = confirmed.get(
-                        (page["view"], line["id"], occurrence)
-                    )
-                    if confirmation == line["transcription_version"]:
-                        confirmed_count += 1
-                        continue
-                    if confirmation is not None:
-                        stale_confirmations += 1
-                    candidates.append(
-                        {
-                            "line": line["id"],
-                            "occurrence": occurrence,
-                            "before": "ſt",
-                            "after": "st",
-                            "line_text": line["text"],
-                            "token_start": match.start(),
-                            "token_end": match.end(),
-                            "base_line_version": line["transcription_version"],
-                            "crop": st_line_crop(page, line),
-                        }
-                    )
-        audit_pages.append(
-            {
-                "leaf": page["leaf"],
-                "view": page["view"],
-                "page_id": page["page_id"],
-                "width": page["width"],
-                "height": page["height"],
-                "image": page["iiif"],
-                "gallica": page["gallica"],
-                "candidates": candidates,
-            }
-        )
-    return {
-        "schema": 1,
-        "task": "st-ligature-audit",
-        "scope": ST_AUDIT_SCOPE,
-        "base_commit": commit,
-        "repository": repository,
-        "unchecked_action": "replace-long-s-t-with-short-s-t",
-        "checked_action": "retain-long-s-t",
-        "confirmed_long_s": confirmed_count,
-        "stale_confirmations": stale_confirmations,
-        "pages": audit_pages,
-    }
-
-
-def tilde_audit_payload(
-    pages: list[dict], commit: str, repository: str, ledger: Path
-) -> dict:
-    page_lookup = {page["page_id"]: page for page in pages if page["processed"]}
-    candidates_by_leaf: dict[int, list[dict]] = {}
-    with ledger.open(encoding="utf-8", newline="") as handle:
-        rows = csv.DictReader(handle, delimiter="\t")
-        for row in rows:
-            leaf = int(re.search(r"f(\d+)$", row["page"]).group(1))
-            if leaf not in TILDE_AUDIT_LEAVES or row["status"] != TILDE_AUDIT_STATUS:
-                continue
-            page = page_lookup.get(row["page"])
-            if page is None:
-                continue
-            lines = {
-                line["id"]: line
-                for zone in page["zones"]
-                for line in zone.get("lines", [])
-            }
-            line = lines.get(row["line"])
-            if line is None:
-                raise RuntimeError(f"missing tilde-audit line {row['page']}/{row['line']}")
-            start, end = int(row["token_start"]), int(row["token_end"])
-            token = line["text"][start:end]
-            if token != row["reviewed_token"]:
-                raise RuntimeError(
-                    f"stale tilde-audit token {row['page']}/{row['line']} "
-                    f"#{row['occurrence']}: {token!r} != {row['reviewed_token']!r}"
-                )
-            alternate = alternate_tilde_carrier(token, int(row["marked_index"]))
-            if alternate is None:
-                continue
-            candidates_by_leaf.setdefault(leaf, []).append(
-                {
-                    "line": row["line"],
-                    "occurrence": int(row["occurrence"]),
-                    "before": token,
-                    "after": alternate,
-                    "line_text": line["text"],
-                    "token_start": start,
-                    "token_end": end,
-                    "base_line_version": line["transcription_version"],
-                    "crop": tilde_candidate_crop(page, line, start, end),
-                }
-            )
-    audit_pages = []
-    for leaf in TILDE_AUDIT_LEAVES:
-        page = next((page for page in pages if page["leaf"] == leaf), None)
-        candidates = candidates_by_leaf.get(leaf, [])
-        if page is None or not candidates:
-            continue
-        audit_pages.append(
-            {
-                "leaf": leaf,
-                "view": page["view"],
-                "page_id": page["page_id"],
-                "width": page["width"],
-                "height": page["height"],
-                "image": page["iiif"],
-                "gallica": page["gallica"],
-                "candidates": candidates,
-            }
-        )
-    return {
-        "schema": 1,
-        "task": "tilde-carrier-audit",
-        "scope": TILDE_AUDIT_SCOPE,
-        "base_commit": commit,
-        "repository": repository,
-        "review_basis": TILDE_AUDIT_STATUS,
-        "pages": audit_pages,
-    }
 
 
 def main() -> int:
@@ -563,57 +289,11 @@ def main() -> int:
         json.dumps(payload, ensure_ascii=False, separators=(",", ":")) + "\n",
         encoding="utf-8",
     )
-    (output / "hyphen-audit.json").write_text(
-        json.dumps(
-            hyphen_audit_payload(pages, commit, args.repository),
-            ensure_ascii=False,
-            separators=(",", ":"),
-        )
-        + "\n",
-        encoding="utf-8",
-    )
-    (output / "tilde-audit.json").write_text(
-        json.dumps(
-            tilde_audit_payload(
-                pages,
-                commit,
-                args.repository,
-                root / "pilot" / "adjacent-vowel-tilde-audit.tsv",
-            ),
-            ensure_ascii=False,
-            separators=(",", ":"),
-        )
-        + "\n",
-        encoding="utf-8",
-    )
-    (output / "st-audit.json").write_text(
-        json.dumps(
-            st_audit_payload(
-                pages,
-                commit,
-                args.repository,
-                root / "pilot" / "st-ligature-audit.tsv",
-            ),
-            ensure_ascii=False,
-            separators=(",", ":"),
-        )
-        + "\n",
-        encoding="utf-8",
-    )
     for name in (
         "index.html",
         "app.js",
         "styles.css",
         "reference.css",
-        "hyphen-audit.html",
-        "hyphen-audit.js",
-        "hyphen-audit.css",
-        "tilde-audit.html",
-        "tilde-audit.js",
-        "tilde-audit.css",
-        "st-audit.html",
-        "st-audit.js",
-        "st-audit.css",
         ".nojekyll",
     ):
         shutil.copy2(root / "site" / name, output / name)
