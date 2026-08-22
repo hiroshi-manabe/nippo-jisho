@@ -3,9 +3,23 @@
   "format_version": 1,
   "page": "bnf-f0066",
   "response_status": "completed_independent_ai_line_review",
-  "observed_text_provenance": "Every physical body line was visually inspected at enlarged crop level against the supplied scan, with line geometry rechecked on the full-page image. observed_text records the scan reading; the canonical Level 1 transcription was consulted only as a comparison/adjudication aid after visual inspection, and visible disagreements are retained rather than normalized. expected_line_version values are preserved unchanged.",
+  "default_response_mode": "geometry_and_text",
+  "completion_statuses": {
+    "geometry_and_text": {
+      "geometry_review_status": "completed",
+      "text_review_status": "completed"
+    },
+    "geometry_only_fallback": {
+      "geometry_review_status": "completed",
+      "text_review_status": "not_completed"
+    }
+  },
+  "observed_text_provenance": "Must be written independently from each proposed crop before consulting the canonical transcription. Null means that this line has not yet been read.",
   "coordinate_space": "native Gallica master pixels",
   "rectangle_format": "[x, y, width, height]",
+  "geometry_acceptance": "Inspect every isolated crop at full practical size against the full page; confirm complete first and last glyphs and all top/bottom ink; do not infer horizontal completeness from line identity or vertical centering; then sweep each column top-to-bottom for repeated clipping, especially the outer/right edge of column 2. Conservative rule-to-rule width and necessary neighboring-line overlap are allowed.",
+  "text_acceptance": "Read the print independently before consulting the canonical line. Preserve visible historical spelling, spacing, diacritics, and long s; do not normalize, copy the canonical text, or guess merely to complete a field. Returned text is advisory until separately adjudicated against the scan.",
+  "lineation_discrepancy": "If the printed number or order of physical lines differs from the task, do not invent a blank continuation, shift IDs, or renumber the response. Mark the response incomplete and report the first divergence so the canonical lineation can be corrected and the task regenerated.",
   "source": {
     "filename": "f0066.jpg",
     "width": 2721,
@@ -15,1938 +29,2034 @@
   },
   "transcription_source": {
     "page_file": "pilot/format-v1-trial/level1/bnf-f0066.json",
-    "page_file_sha256": "3b8f84684450f02b6fb279496effce9b58c5c2615628f1e753425c8aaa35d86d"
+    "page_file_sha256": "60ede04320b44143bae6818694222acfe8fb6b0401398edea19b05771af859b1"
   },
   "columns": {
     "column-1": {
       "column_box_xyxy": [
-        340,
         300,
-        1450,
+        300,
+        1505,
         3410
       ],
       "zone_ids": [
         "column-1"
       ],
-      "initial_geometry_provenance": "contact_sheet_reviewed",
-      "initial_geometry_reviewed_at": "2026-08-01",
+      "initial_geometry_provenance": "external_ai_width_rechecked",
+      "initial_geometry_reviewed_at": "2026-08-13",
       "geometry_requires_line_by_line_review": true,
       "lines": [
         {
           "id": "c1-l001",
-          "centre_y": 470,
+          "centre_y": 472,
           "crop": [
-            340,
-            422,
-            1110,
+            300,
+            424,
+            1205,
             96
           ],
           "context_crop": [
-            340,
-            308,
-            1110,
+            300,
+            310,
+            1205,
             324
           ],
           "observed_text": "amarrão no cabo com algum cordel, ou fita, &",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:30bd50811a6d97460f908a20d7de62e3e8a807b10c9c631dd62eaa293452789f"
         },
         {
           "id": "c1-l002",
-          "centre_y": 530,
+          "centre_y": 551,
           "crop": [
-            340,
-            482,
-            1110,
+            300,
+            503,
+            1205,
             96
           ],
           "context_crop": [
-            340,
-            368,
-            1110,
+            300,
+            389,
+            1205,
             324
           ],
           "observed_text": "andando as voltas com elle no ar, como funda",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:9ceb735870e4350faa6f34c061a00e653475eb7b3aabea7a34dd019a7ae1b615"
         },
         {
           "id": "c1-l003",
-          "centre_y": 590,
+          "centre_y": 613,
           "crop": [
-            340,
-            542,
-            1110,
+            300,
+            565,
+            1205,
             96
           ],
           "context_crop": [
-            340,
-            428,
-            1110,
+            300,
+            451,
+            1205,
             324
           ],
           "observed_text": "dão em hũa eſcola como boleo. ¶ Bunburi-",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:9ab48f48ac3dbd7297d1dc5940ae1aaba8bfae8e2b047416418e62cae07dfb51"
         },
         {
           "id": "c1-l004",
-          "centre_y": 650,
+          "centre_y": 674,
           "crop": [
-            340,
-            602,
-            1110,
+            300,
+            626,
+            1205,
             96
           ],
           "context_crop": [
-            340,
-            488,
-            1110,
+            300,
+            512,
+            1205,
             324
           ],
           "observed_text": "de vtçu. Iugar a eſcola, ou vſar de boleo",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:e226fed979cdd10cec5be6416302205aac73dc8729b211ad1431f542f1b23019"
         },
         {
           "id": "c1-l005",
-          "centre_y": 710,
+          "centre_y": 738,
           "crop": [
-            340,
-            662,
-            1110,
+            300,
+            690,
+            1205,
             96
           ],
           "context_crop": [
-            340,
-            548,
-            1110,
+            300,
+            576,
+            1205,
             324
           ],
           "observed_text": "deſta maneira.",
-          "match": "strong",
+          "match": "mismatch",
           "assessment": "readable",
-          "expected_line_version": "sha256:df78c964fe092b638092ea525bcaff0499e434c29d193f5f632f87d6e39f8562"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:b4eb1401d3daba0c6206588db2677e37b0d19670751c12b65b0fc85b470c5b6c"
         },
         {
           "id": "c1-l006",
-          "centre_y": 770,
+          "centre_y": 801,
           "crop": [
-            340,
-            722,
-            1110,
+            300,
+            753,
+            1205,
             96
           ],
           "context_crop": [
-            340,
-            608,
-            1110,
+            300,
+            639,
+            1205,
             324
           ],
           "observed_text": "Buriocu. Chicaranaxi. i. fin. Pobreza,",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:04f296f6c595ea66fd5116c21513976543c9359aa3060117bc503108320ea23b"
         },
         {
           "id": "c1-l007",
-          "centre_y": 830,
+          "centre_y": 863,
           "crop": [
-            340,
-            782,
-            1110,
+            300,
+            815,
+            1205,
             96
           ],
           "context_crop": [
-            340,
-            668,
-            1110,
+            300,
+            701,
+            1205,
             324
           ],
           "observed_text": "& pouca poſſe. ¶ Buriocu xenban na-",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:e1fdb658bab507b57ed266deeb5754b0c4b12d1d3efc69643385aa75b1f0ed90"
         },
         {
           "id": "c1-l008",
-          "centre_y": 890,
+          "centre_y": 910,
           "crop": [
-            340,
-            842,
-            1110,
+            300,
+            862,
+            1205,
             96
           ],
           "context_crop": [
-            340,
-            728,
-            1110,
+            300,
+            748,
+            1205,
             324
           ],
           "observed_text": "xi. He ſumma pobreza.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:a89075b4de9fe31dbc5491532de871b29bd71f7693ed2d34a4787a745d886677"
         },
         {
           "id": "c1-l009",
-          "centre_y": 950,
+          "centre_y": 987,
           "crop": [
-            340,
-            902,
-            1110,
+            300,
+            939,
+            1205,
             96
           ],
           "context_crop": [
-            340,
-            788,
-            1110,
+            300,
+            825,
+            1205,
             324
           ],
           "observed_text": "Buriocujin. Pobre.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:b07079e1f31f9ccb677237df463c48ffd15afe61a81f069e5d3995af1f172cc0"
         },
         {
           "id": "c1-l010",
-          "centre_y": 1010,
+          "centre_y": 1051,
           "crop": [
-            340,
-            962,
-            1110,
+            300,
+            1003,
+            1205,
             96
           ],
           "context_crop": [
-            340,
-            848,
-            1110,
+            300,
+            889,
+            1205,
             324
           ],
           "observed_text": "Buriocuna. Idem.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:3b74afe5dd47263aab50b21f8f603beb0baa9043aabe06ee2d4fcb6019aa474c"
         },
         {
           "id": "c1-l011",
-          "centre_y": 1070,
+          "centre_y": 1112,
           "crop": [
-            340,
-            1022,
-            1110,
+            300,
+            1064,
+            1205,
             96
           ],
           "context_crop": [
-            340,
-            908,
-            1110,
+            300,
+            950,
+            1205,
             324
           ],
           "observed_text": "Buriocuni. Adu.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:740caf806c7bf571b8c92c70249f5130e13a150fd58e8ebcdc4f89218a9b95d6"
         },
         {
           "id": "c1-l012",
-          "centre_y": 1130,
+          "centre_y": 1173,
           "crop": [
-            340,
-            1082,
-            1110,
+            300,
+            1125,
+            1205,
             96
           ],
           "context_crop": [
-            340,
-            968,
-            1110,
+            300,
+            1011,
+            1205,
             324
           ],
           "observed_text": "Buriqi. Buxinochicara. Forças, ou eſforço",
-          "match": "strong",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:1118b2596f1da3ab2ff3e9565ca9c7b488c636e92e227fc8842a26d3c1122127"
         },
         {
           "id": "c1-l013",
-          "centre_y": 1190,
+          "centre_y": 1233,
           "crop": [
-            340,
-            1142,
-            1110,
+            300,
+            1185,
+            1205,
             96
           ],
           "context_crop": [
-            340,
-            1028,
-            1110,
+            300,
+            1071,
+            1205,
             324
           ],
           "observed_text": "de ſoldado.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:876a9bcfa920349d35276af73d67c6bc81be8cc2dfff682c07d295d8cf65ef04"
         },
         {
           "id": "c1-l014",
-          "centre_y": 1250,
+          "centre_y": 1297,
           "crop": [
-            340,
-            1202,
-            1110,
+            300,
+            1249,
+            1205,
             96
           ],
           "context_crop": [
-            340,
-            1088,
-            1110,
+            300,
+            1135,
+            1205,
             324
           ],
           "observed_text": "Burui. Iuburu taguy. i. ichizocu. Fami-",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:d793ca72f1b23ed4821baa52142647e0812886c30632db349de230d26b7106d1"
         },
         {
           "id": "c1-l015",
-          "centre_y": 1310,
+          "centre_y": 1358,
           "crop": [
-            340,
-            1262,
-            1110,
+            300,
+            1310,
+            1205,
             96
           ],
           "context_crop": [
-            340,
-            1148,
-            1110,
+            300,
+            1196,
+            1205,
             324
           ],
           "observed_text": "lia, ou gente da meſma caſa.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:9e18d2ebf1244eb2676af02004771881cb56817fdac339097d740d435641736b"
         },
         {
           "id": "c1-l016",
-          "centre_y": 1370,
+          "centre_y": 1420,
           "crop": [
-            340,
-            1322,
-            1110,
+            300,
+            1372,
+            1205,
             96
           ],
           "context_crop": [
-            340,
-            1208,
-            1110,
+            300,
+            1258,
+            1205,
             324
           ],
-          "observed_text": "Busai. Sainaxi. Poucas iguarias. ¶ Bu-",
-          "match": "strong",
+          "observed_text": "Buſai. Sainaxi. Poucas iguarias. ¶ Bu-",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:60a76b52e368e3ed6fa8cab7ef42242e3afd1d30583f5392cc39874680a4a00a"
         },
         {
           "id": "c1-l017",
-          "centre_y": 1430,
+          "centre_y": 1464,
           "crop": [
-            340,
-            1382,
-            1110,
+            300,
+            1416,
+            1205,
             96
           ],
           "context_crop": [
-            340,
-            1268,
-            1110,
+            300,
+            1302,
+            1205,
             324
           ],
           "observed_text": "ſaina ſurumai. Conuite de poucos manjares.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:f0553cc939fe2f781875029385068bf4767ff73c442539052c925101083ebadd"
         },
         {
           "id": "c1-l018",
-          "centre_y": 1490,
+          "centre_y": 1541,
           "crop": [
-            340,
-            1442,
-            1110,
+            300,
+            1493,
+            1205,
             96
           ],
           "context_crop": [
-            340,
-            1328,
-            1110,
+            300,
+            1379,
+            1205,
             324
           ],
-          "observed_text": "Busaicacu. Pouca induſtria, ou cuidado nas",
-          "match": "strong",
+          "observed_text": "Buſaicacu. Pouca industria, ou cuidado nas",
+          "match": "mismatch",
           "assessment": "readable",
-          "expected_line_version": "sha256:722ae5d220e7a51aafd5444c21e3e6f56bc53b4396a7490dafe27d82388ec95f"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:397b1f16cf1e909f6443fe79a711ea44541f417015283c8c4323e7af58661583"
         },
         {
           "id": "c1-l019",
-          "centre_y": 1550,
+          "centre_y": 1607,
           "crop": [
-            340,
-            1502,
-            1110,
+            300,
+            1559,
+            1205,
             96
           ],
           "context_crop": [
-            340,
-            1388,
-            1110,
+            300,
+            1445,
+            1205,
             324
           ],
           "observed_text": "couſas.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:f6bdef13af62bc4f5a548eee4cafb6463ea9e7a0ea13dff1f513aaf8d786b2ab"
         },
         {
           "id": "c1-l020",
-          "centre_y": 1610,
+          "centre_y": 1668,
           "crop": [
-            340,
-            1562,
-            1110,
+            300,
+            1620,
+            1205,
             96
           ],
           "context_crop": [
-            340,
-            1448,
-            1110,
+            300,
+            1506,
+            1205,
             324
           ],
-          "observed_text": "Busaicacuna. De pouca induſtria, & negocio.",
-          "match": "strong",
+          "observed_text": "Buſaicacuna. De pouca industria, & negocio.",
+          "match": "mismatch",
           "assessment": "readable",
-          "expected_line_version": "sha256:5100414be5f8185d817b712b63198a5a2de911e018ef840b31f05290b0f6f478"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:d26e568b5687f08b1c6113dac05d89c7583cde85459442180a194e4b83b7d91a"
         },
         {
           "id": "c1-l021",
-          "centre_y": 1670,
+          "centre_y": 1733,
           "crop": [
-            340,
-            1622,
-            1110,
+            300,
+            1685,
+            1205,
             96
           ],
           "context_crop": [
-            340,
-            1508,
-            1110,
+            300,
+            1571,
+            1205,
             324
           ],
-          "observed_text": "Busaicacuni.",
-          "match": "strong",
+          "observed_text": "Buſaicacuni.",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:1bffe9fd3764a7f92474b29034f1e2691ac662ea0cf4673b3bb894d9cc4ce4f0"
         },
         {
           "id": "c1-l022",
-          "centre_y": 1730,
+          "centre_y": 1796,
           "crop": [
-            340,
-            1682,
-            1110,
+            300,
+            1748,
+            1205,
             96
           ],
           "context_crop": [
-            340,
-            1568,
-            1110,
+            300,
+            1634,
+            1205,
             324
           ],
           "observed_text": "Buſaicacuſa.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:f8fc117c5b38106f8b74ceb090c0830bff1e30bc42c60a6605b4ed2c8d1d4a5f"
         },
         {
           "id": "c1-l023",
-          "centre_y": 1790,
+          "centre_y": 1839,
           "crop": [
-            340,
-            1742,
-            1110,
+            300,
+            1791,
+            1205,
             96
           ],
           "context_crop": [
-            340,
-            1628,
-            1110,
+            300,
+            1677,
+            1205,
             324
           ],
-          "observed_text": "Busaicu. Pouco engenhoſo de mãos.",
-          "match": "strong",
+          "observed_text": "Buſaicu. Pouco engenhoſo de maõs.",
+          "match": "mismatch",
           "assessment": "readable",
-          "expected_line_version": "sha256:75c4c3b5d56af51feb7aca48f2c80091493aabfb4a20998169af6f80f1b6a042"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:b6b8c9ace08ec649f616079cb19c436abc5d0a4333861084a48eafb0a20d335f"
         },
         {
           "id": "c1-l024",
-          "centre_y": 1850,
+          "centre_y": 1920,
           "crop": [
-            340,
-            1802,
-            1110,
+            300,
+            1872,
+            1205,
             96
           ],
           "context_crop": [
-            340,
-            1688,
-            1110,
+            300,
+            1758,
+            1205,
             324
           ],
-          "observed_text": "Busaicuna. Idem.",
-          "match": "strong",
+          "observed_text": "Buſaicuna. Idem.",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:4df583c2f576fe627cdd2a00765ea50612462f9ca478fd75032035606eb1ed39"
         },
         {
           "id": "c1-l025",
-          "centre_y": 1910,
+          "centre_y": 1981,
           "crop": [
-            340,
-            1862,
-            1110,
+            300,
+            1933,
+            1205,
             96
           ],
           "context_crop": [
-            340,
-            1748,
-            1110,
+            300,
+            1819,
+            1205,
             324
           ],
-          "observed_text": "Busaicuni. Adu.",
-          "match": "strong",
+          "observed_text": "Buſaicuni. Adu.",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:a6072ac9d23f9e5389ed231c7846903eec7551e63b9ac7af26d0aba22ad8b777"
         },
         {
           "id": "c1-l026",
-          "centre_y": 1970,
+          "centre_y": 2025,
           "crop": [
-            340,
-            1922,
-            1110,
+            300,
+            1977,
+            1205,
             96
           ],
           "context_crop": [
-            340,
-            1808,
-            1110,
+            300,
+            1863,
+            1205,
             324
           ],
-          "observed_text": "Busata. Falta nos comprimentos, & viſitas.",
-          "match": "strong",
+          "observed_text": "Buſata. Falta nos comprimentos, & viſitas.",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:761b80756b99f4a6439eece2f43102ea50b70dff121999394f89273e8ac19f36"
         },
         {
           "id": "c1-l027",
-          "centre_y": 2030,
+          "centre_y": 2101,
           "crop": [
-            340,
-            1982,
-            1110,
+            300,
+            2053,
+            1205,
             96
           ],
           "context_crop": [
-            340,
-            1868,
-            1110,
+            300,
+            1939,
+            1205,
             324
           ],
           "observed_text": "¶ Buſataſuru. Faltar com ſeu deuer.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:a180a536047010467bbf599dcd894a7420b9814f8d93b9c2c2e64d0a8b75eff2"
         },
         {
           "id": "c1-l028",
-          "centre_y": 2090,
+          "centre_y": 2167,
           "crop": [
-            340,
-            2042,
-            1110,
+            300,
+            2119,
+            1205,
             96
           ],
           "context_crop": [
-            340,
-            1928,
-            1110,
+            300,
+            2005,
+            1205,
             324
           ],
-          "observed_text": "Busǒ. Narabinaxi. Sem igual.",
-          "match": "strong",
+          "observed_text": "Buſǒ. Narabinaxi. Sem igual.",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:e3529d3e1c8b46c3ae372fd525183b7c690ba2b6fc6a2a116aa109d759a0458e"
         },
         {
           "id": "c1-l029",
-          "centre_y": 2150,
+          "centre_y": 2221,
           "crop": [
-            340,
-            2102,
-            1110,
+            300,
+            2173,
+            1205,
             96
           ],
           "context_crop": [
-            340,
-            1988,
-            1110,
+            300,
+            2059,
+            1205,
             324
           ],
-          "observed_text": "Busǒna. Couſa ſem igual. ¶ Tenca bu-",
-          "match": "strong",
+          "observed_text": "Buſǒna. Couſa ſem igual. ¶ Tenca bu-",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:053cd9da39d816c2ee31f7bec536efa0254c0074d02f316a1dde64263ec09379"
         },
         {
           "id": "c1-l030",
-          "centre_y": 2210,
+          "centre_y": 2289,
           "crop": [
-            340,
-            2162,
-            1110,
+            300,
+            2241,
+            1205,
             96
           ],
           "context_crop": [
-            340,
-            2048,
-            1110,
+            300,
+            2127,
+            1205,
             324
           ],
           "observed_text": "ſǒna. Supremo, ou ſem igual.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:1583a4e564149d03057aa5921b8c0c124db01680e83f53f33e120e767221b28e"
         },
         {
           "id": "c1-l031",
-          "centre_y": 2270,
+          "centre_y": 2340,
           "crop": [
-            340,
-            2222,
-            1110,
+            300,
+            2292,
+            1205,
             96
           ],
           "context_crop": [
-            340,
-            2108,
-            1110,
+            300,
+            2178,
+            1205,
             324
           ],
-          "observed_text": "Busǒuô. Sǒuô ſurucoto naxi. Couſa não",
-          "match": "strong",
+          "observed_text": "Buſǒuô. Sǒuô ſurucoto naxi. Couſa não",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:7ea7ab146e0ef75f243365f2a82dce02abc56b05c74a4e9f244e058172d612bc"
         },
         {
           "id": "c1-l032",
-          "centre_y": 2330,
+          "centre_y": 2414,
           "crop": [
-            340,
-            2282,
-            1110,
+            300,
+            2366,
+            1205,
             96
           ],
           "context_crop": [
-            340,
-            2168,
-            1110,
+            300,
+            2252,
+            1205,
             324
           ],
           "observed_text": "conueniente, ou que não quadra.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:6323bff78bd8e8239088fcef71c313b8eb5f21b2e2b5e2c07297d0919501c557"
         },
         {
           "id": "c1-l033",
-          "centre_y": 2390,
+          "centre_y": 2477,
           "crop": [
-            340,
-            2342,
-            1110,
+            300,
+            2429,
+            1205,
             96
           ],
           "context_crop": [
-            340,
-            2228,
-            1110,
+            300,
+            2315,
+            1205,
             324
           ],
-          "observed_text": "Busu. Peçonha que mata.",
-          "match": "strong",
+          "observed_text": "Buſu. Peçonha que mata.",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:1bfec38271795ff1dcd9e6d3ea160b4d3b054aafe3ab8504f9a7e5cebe000a57"
         },
         {
           "id": "c1-l034",
-          "centre_y": 2450,
+          "centre_y": 2522,
           "crop": [
-            340,
-            2402,
-            1110,
+            300,
+            2474,
+            1205,
             96
           ],
           "context_crop": [
-            340,
-            2288,
-            1110,
+            300,
+            2360,
+            1205,
             324
           ],
-          "observed_text": "Bussacu. Fotoqeno ſacu. Obras feitas por",
-          "match": "strong",
+          "observed_text": "Buſſacu. Fotoqeno ſacu. Obras feitas por",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:0d43a4faf187f53bea1200775fe7347d48866a1482014531093a7137f3398f68"
         },
         {
           "id": "c1-l035",
-          "centre_y": 2510,
+          "centre_y": 2594,
           "crop": [
-            340,
-            2462,
-            1110,
+            300,
+            2546,
+            1205,
             96
           ],
           "context_crop": [
-            340,
-            2348,
-            1110,
+            300,
+            2432,
+            1205,
             324
           ],
           "observed_text": "mão do Fotoqe.",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:455e3403c37ab45775b57602f526710252696f4248196fb62d24c3388a8445af",
-          "note": "A faint duplicate-looking “(ceſſores.” at the far right appears to be show-through/non-target ink, so it is not included in observed_text."
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:18eda4b391ab2994dfc3f672ccc4ceff96a06ed82e4f922a8c1c3ff4d3de319b",
+          "note": "Updated task intentionally assigns this fragment to a shared physical row; full row-width crop retained for line identity."
         },
         {
           "id": "c1-l036",
-          "centre_y": 2570,
+          "centre_y": 2659,
           "crop": [
-            340,
-            2522,
-            1110,
+            300,
+            2611,
+            1205,
             96
           ],
           "context_crop": [
-            340,
-            2408,
-            1110,
+            300,
+            2497,
+            1205,
             324
           ],
-          "observed_text": "Busso. Fotoqe foxi. Fotoqe, & ſeus ſo-",
-          "match": "strong",
+          "observed_text": "Buſſo. Fotoqe foxi. Fotoqe, & ſeus ſo-",
+          "match": "mismatch",
           "assessment": "readable",
-          "expected_line_version": "sha256:dec203e55d3a304d6882dbcb138319e0c244cd5eb4d305cfa711114afb04cfda"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:df3a9e9e9761cc9dc4fe8d9cb2c3f7ae53fa6aaae0e8e6c9281f26de2f6bb531"
         },
         {
           "id": "c1-l037",
-          "centre_y": 2630,
+          "centre_y": 2594,
           "crop": [
-            340,
-            2582,
-            1110,
+            300,
+            2546,
+            1205,
             96
           ],
           "context_crop": [
-            340,
-            2468,
-            1110,
+            300,
+            2432,
+            1205,
             324
           ],
-          "observed_text": "ceſſores.",
+          "observed_text": "(ceſſores.",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:d617267e0eda7ef6d4ecdc79292403e363dd4fcf7dd160f180b2b42a3a82e29b"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:faa42e76171a64d503e5811170d04b2457d566b2db6b04b159ebe7fa90196700",
+          "note": "Updated task intentionally assigns this fragment to a shared physical row; full row-width crop retained for line identity."
         },
         {
           "id": "c1-l038",
-          "centre_y": 2690,
+          "centre_y": 2719,
           "crop": [
-            340,
-            2642,
-            1110,
+            300,
+            2671,
+            1205,
             96
           ],
           "context_crop": [
-            340,
-            2528,
-            1110,
+            300,
+            2557,
+            1205,
             324
           ],
-          "observed_text": "Bussô. Mono itçuuaxi. Perturbação,",
-          "match": "strong",
+          "observed_text": "Buſſô. Mono itçuuaxi. Perturbação,",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:a134984707b7e3607012f3a74a8ea75974c9c1581b364bd086a53fdde56d9e47"
         },
         {
           "id": "c1-l039",
-          "centre_y": 2750,
+          "centre_y": 2773,
           "crop": [
-            340,
-            2702,
-            1110,
+            300,
+            2725,
+            1205,
             96
           ],
           "context_crop": [
-            340,
-            2588,
-            1110,
+            300,
+            2611,
+            1205,
             324
           ],
           "observed_text": "& preſſa.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:0469c3ea9bc9cb917112c2e8bf6ff7ceb06dfe05eda14b12ed94b0661331c05c"
         },
         {
           "id": "c1-l040",
-          "centre_y": 2810,
+          "centre_y": 2840,
           "crop": [
-            340,
-            2762,
-            1110,
+            300,
+            2792,
+            1205,
             96
           ],
           "context_crop": [
-            340,
-            2648,
-            1110,
+            300,
+            2678,
+            1205,
             324
           ],
           "observed_text": "Buta. Vyeno inoxixi. Porco criado em caſa.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:110e4566d5a49635c390bce38acd226f2c8cddfa25cbb96d7b45f701e8ab38e3"
         },
         {
           "id": "c1-l041",
-          "centre_y": 2870,
+          "centre_y": 2903,
           "crop": [
-            340,
-            2822,
-            1110,
+            300,
+            2855,
+            1205,
             96
           ],
           "context_crop": [
-            340,
-            2708,
-            1110,
+            300,
+            2741,
+            1205,
             324
           ],
           "observed_text": "Butai. Maino vten. Teatro, onde repre-",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:10db377ced25ab446379e809970cf951becebf8cac3060edfbb10fda12c2d3c4"
         },
         {
           "id": "c1-l042",
-          "centre_y": 2930,
+          "centre_y": 2966,
           "crop": [
-            340,
-            2882,
-            1110,
+            300,
+            2918,
+            1205,
             96
           ],
           "context_crop": [
-            340,
-            2768,
-            1110,
+            300,
+            2804,
+            1205,
             324
           ],
           "observed_text": "ſentão autos, &c. ¶ Butaiuo ſuru. Fa-",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:308936bc3cb40059c2db6cce00d36f1fc8ffc6b29fb133150d69c8f0ec6db250"
         },
         {
           "id": "c1-l043",
-          "centre_y": 2990,
+          "centre_y": 3019,
           "crop": [
-            340,
-            2942,
-            1110,
+            300,
+            2971,
+            1205,
             96
           ],
           "context_crop": [
-            340,
-            2828,
-            1110,
+            300,
+            2857,
+            1205,
             324
           ],
           "observed_text": "zer eſte theatro.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:f4dbce00be49451024de917d42d07de1afd8ee9b2a91bc9704e05aa6ff050ad2"
         },
         {
           "id": "c1-l044",
-          "centre_y": 3050,
+          "centre_y": 3087,
           "crop": [
-            340,
-            3002,
-            1110,
+            300,
+            3039,
+            1205,
             96
           ],
           "context_crop": [
-            340,
-            2888,
-            1110,
+            300,
+            2925,
+            1205,
             324
           ],
           "observed_text": "Butai fai, l, Butai faina. Peſſoa deſmaze-",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:9ab6f0a358a688e1d3fd1402ea5dd87082f3d82fca12b5277a025ed7426e9c8f"
         },
         {
           "id": "c1-l045",
-          "centre_y": 3110,
+          "centre_y": 3145,
           "crop": [
-            340,
-            3062,
-            1110,
+            300,
+            3097,
+            1205,
             96
           ],
           "context_crop": [
-            340,
-            2948,
-            1110,
+            300,
+            2983,
+            1205,
             324
           ],
-          "observed_text": "lada, ou deſconcertada na compoſição, ou eſta-",
-          "match": "strong",
+          "observed_text": "lada, ou deſconcertada na compoſição, ou eſta",
+          "match": "mismatch",
           "assessment": "readable",
-          "expected_line_version": "sha256:eb2b2b348c84f1eacd1f04f088530caa1d8f7b4269d9a42dc1cad302de5b499c"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:02de86f65f2adbd5264e092eb04dd7ac58f7cae4ac87474d89b66a9ddb29cf59"
         },
         {
           "id": "c1-l046",
-          "centre_y": 3170,
+          "centre_y": 3221,
           "crop": [
-            340,
-            3122,
-            1110,
+            300,
+            3173,
+            1205,
             96
           ],
           "context_crop": [
-            340,
-            3008,
-            1110,
+            300,
+            3059,
+            1205,
             324
           ],
           "observed_text": "tura do corpo.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:24c9fda460edb9242060384b3c94d491bff9460fbd0757e5bf2e641f8fa51257"
         },
         {
           "id": "c1-l047",
-          "centre_y": 3230,
+          "centre_y": 3269,
           "crop": [
-            340,
-            3182,
-            1110,
+            300,
+            3221,
+            1205,
             96
           ],
           "context_crop": [
-            340,
-            3068,
-            1110,
+            300,
+            3107,
+            1205,
             324
           ],
           "observed_text": "Butaxinami. Pouco resguardo, & cautella,",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:e7882c272bf13ae068d5c9df6b5189b9367f3673f28eb3a22e1c4d61f08176e4"
         },
         {
           "id": "c1-l048",
-          "centre_y": 3290,
+          "centre_y": 3346,
           "crop": [
-            340,
-            3242,
-            1110,
+            300,
+            3298,
+            1205,
             96
           ],
           "context_crop": [
-            340,
-            3128,
-            1110,
-            282
+            300,
+            3184,
+            1205,
+            324
           ],
           "observed_text": "ou deſcuido.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:19baa7e83927cb1f375953d2897b4542f98fad7870ff54c282108176bd02e854"
         }
       ]
     },
     "column-2": {
       "column_box_xyxy": [
-        1500,
+        1445,
         300,
-        2590,
+        2651,
         3410
       ],
       "zone_ids": [
         "column-2"
       ],
-      "initial_geometry_provenance": "contact_sheet_reviewed",
-      "initial_geometry_reviewed_at": "2026-08-01",
+      "initial_geometry_provenance": "external_ai_width_rechecked",
+      "initial_geometry_reviewed_at": "2026-08-13",
       "geometry_requires_line_by_line_review": true,
       "lines": [
         {
           "id": "c2-l001",
-          "centre_y": 470,
+          "centre_y": 505,
           "crop": [
-            1500,
-            422,
-            1090,
+            1445,
+            457,
+            1206,
             96
           ],
           "context_crop": [
-            1500,
-            305,
-            1090,
-            330
+            1445,
+            343,
+            1206,
+            324
           ],
           "observed_text": "But bachi. Fotoqeno bachi. Caſtigo que dão",
-          "match": "strong",
+          "match": "mismatch",
           "assessment": "readable",
-          "expected_line_version": "sha256:6408e5f3ff54397894ee52df5c65fbe380c61fd7488cef4772b0bec95983daae"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:f28ae5a0624c44f8ee0d29e410aa8764915a508f476fdf7d4a620181aff8eb18"
         },
         {
           "id": "c2-l002",
-          "centre_y": 531,
+          "centre_y": 546,
           "crop": [
-            1500,
-            482,
-            1090,
-            98
+            1445,
+            498,
+            1206,
+            96
           ],
           "context_crop": [
-            1500,
-            366,
-            1090,
-            330
+            1445,
+            384,
+            1206,
+            324
           ],
           "observed_text": "os fotoqes.",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:2167e1c1e504298a068c476b7b150b6e21f8c445429b5d2888edab98699e12d7"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:695db47342dc7dbe81bda47cd263d1dc37289fd489b713724013537b46414c57"
         },
         {
           "id": "c2-l003",
-          "centre_y": 593,
+          "centre_y": 625,
           "crop": [
-            1500,
-            544,
-            1090,
-            98
+            1445,
+            577,
+            1206,
+            96
           ],
           "context_crop": [
-            1500,
-            428,
-            1090,
-            330
+            1445,
+            463,
+            1206,
+            324
           ],
           "observed_text": "Butbat. Idem.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:637d13c45270045228eb1ddb54067ca5a04378329e0fa93e614c21b036b3a4da"
         },
         {
           "id": "c2-l004",
-          "centre_y": 654,
+          "centre_y": 674,
           "crop": [
-            1500,
-            606,
-            1090,
+            1445,
+            626,
+            1206,
             96
           ],
           "context_crop": [
-            1500,
-            489,
-            1090,
-            330
+            1445,
+            512,
+            1206,
+            324
           ],
           "observed_text": "Butçuji. Exequias que ſe fazẽ ao modo gen-",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:38f26ed28ca2add4bdea79ee02aba145f656530d4140df7f383d791f1f8b1e36"
         },
         {
           "id": "c2-l005",
-          "centre_y": 715,
+          "centre_y": 750,
           "crop": [
-            1500,
-            666,
-            1090,
-            98
+            1445,
+            702,
+            1206,
+            96
           ],
           "context_crop": [
-            1500,
-            550,
-            1090,
-            330
+            1445,
+            588,
+            1206,
+            324
           ],
           "observed_text": "tilico lendo o Fotoqeiǒ, &c. ¶ Butçu-",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:b47a94f073aa6e6c385cf727b0acd5b2c5e154b33209fed5937f67e872929e04"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:eca894fc3743ae5d1d890ef3e3c48fbecf704c826385b02db22052efa36303ae"
         },
         {
           "id": "c2-l006",
-          "centre_y": 777,
+          "centre_y": 812,
           "crop": [
-            1500,
-            728,
-            1090,
-            98
-          ],
-          "context_crop": [
-            1500,
-            612,
-            1090,
-            330
-          ],
-          "observed_text": "jiuo ſuru. Fazerẽ os Buzos eſtas exequias,",
-          "match": "strong",
-          "assessment": "readable",
-          "expected_line_version": "sha256:027c24394c17d21bd9236ee74eacfccde65a46f2024c4038cd34ea39cd31b758"
-        },
-        {
-          "id": "c2-l007",
-          "centre_y": 838,
-          "crop": [
-            1500,
-            790,
-            1090,
+            1445,
+            764,
+            1206,
             96
           ],
           "context_crop": [
-            1500,
-            673,
-            1090,
-            330
+            1445,
+            650,
+            1206,
+            324
+          ],
+          "observed_text": "jiuo ſuru. Fazerẽ os Buzos eſtas exequias,",
+          "match": "mismatch",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:7b1a540eb24b5363e220103b52f780d218d84a65f48c89c334dbe7706d850301"
+        },
+        {
+          "id": "c2-l007",
+          "centre_y": 872,
+          "crop": [
+            1445,
+            824,
+            1206,
+            96
+          ],
+          "context_crop": [
+            1445,
+            710,
+            1206,
+            324
           ],
           "observed_text": "ou comendação pollos defuntos. ¶ Itẽ,",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:6b7f9f4bdda7667709c7f9c5dcca04daba06049ef006f06d8970c1186149ae9d"
         },
         {
           "id": "c2-l008",
-          "centre_y": 899,
+          "centre_y": 919,
           "crop": [
-            1500,
-            850,
-            1090,
-            98
+            1445,
+            871,
+            1206,
+            96
           ],
           "context_crop": [
-            1500,
-            734,
-            1090,
-            330
+            1445,
+            757,
+            1206,
+            324
           ],
           "observed_text": "Fazerem os ſeculares eſte aparelho de exequias",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:0c90cac997702299012f4ff63f961c7739280ad05e863dad28004be39a418367"
         },
         {
           "id": "c2-l009",
-          "centre_y": 960,
+          "centre_y": 979,
           "crop": [
-            1500,
-            912,
-            1090,
-            97
+            1445,
+            931,
+            1206,
+            96
           ],
           "context_crop": [
-            1500,
-            795,
-            1090,
-            330
+            1445,
+            817,
+            1206,
+            324
           ],
           "observed_text": "chamando os Bôzos, fazendo ler o liuro do",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:eb0bab80bed43cbf1e4e9384959f7f67e1ea3e505ed6bf9af896766733ff79c0"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:12e79a5b8d427274f0ddb8febe1a857f3463690913e63961ca8bbb3acaa44603"
         },
         {
           "id": "c2-l010",
-          "centre_y": 1022,
+          "centre_y": 1040,
           "crop": [
-            1500,
-            973,
-            1090,
-            97
+            1445,
+            992,
+            1206,
+            96
           ],
           "context_crop": [
-            1500,
-            857,
-            1090,
-            330
+            1445,
+            878,
+            1206,
+            324
           ],
           "observed_text": "Fotoqe dando eſmola, &c.",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:cc82ac50890f888d863834543c5feb259e2ed6b7037899da92ed57d10442b44d"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:4838b22046df1a9ccd66a70939fb78d547a88e3769179b423db2fbf48132b132"
         },
         {
           "id": "c2-l011",
-          "centre_y": 1083,
+          "centre_y": 1118,
           "crop": [
-            1500,
-            1034,
-            1090,
-            98
+            1445,
+            1070,
+            1206,
+            96
           ],
           "context_crop": [
-            1500,
-            918,
-            1090,
-            330
+            1445,
+            956,
+            1206,
+            324
           ],
-          "observed_text": "Butçuyaqigoto, l, Potiuſ, Tçubuyaqigoto.",
-          "match": "strong",
+          "observed_text": "Butçuyaqigoto, l, Potius, Tçubuyaqigoto.",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:1f72a33caa42d5f609cd38881c6a8d4466990bf3c509ad7b77fa120fb1b26828"
         },
         {
           "id": "c2-l012",
-          "centre_y": 1144,
+          "centre_y": 1163,
           "crop": [
-            1500,
-            1096,
-            1090,
-            97
+            1445,
+            1115,
+            1206,
+            96
           ],
           "context_crop": [
-            1500,
-            979,
-            1090,
-            330
+            1445,
+            1001,
+            1206,
+            324
           ],
           "observed_text": "O falar antre os dentes como murmurando.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:a876ae9c3763a66df79969c96a5851d491bd25780e036c210264d75dd967e144"
         },
         {
           "id": "c2-l013",
-          "centre_y": 1206,
+          "centre_y": 1241,
           "crop": [
-            1500,
-            1157,
-            1090,
-            97
+            1445,
+            1193,
+            1206,
+            96
           ],
           "context_crop": [
-            1500,
-            1041,
-            1090,
-            330
+            1445,
+            1079,
+            1206,
+            324
           ],
-          "observed_text": "Butçuyaqi, u, aita, l, Potiuſ, Tçubuyaqu.",
-          "match": "strong",
+          "observed_text": "Butçuyaqi, u, aita, l, Potius, Tçubuyaqu.",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:2c8dd5be680d7c80004f6d61d17720fe41902bb0cbdebabf830858d4fbf4ca56"
         },
         {
           "id": "c2-l014",
-          "centre_y": 1267,
+          "centre_y": 1286,
           "crop": [
-            1500,
-            1218,
-            1090,
-            98
+            1445,
+            1238,
+            1206,
+            96
           ],
           "context_crop": [
-            1500,
-            1102,
-            1090,
-            330
+            1445,
+            1124,
+            1206,
+            324
           ],
           "observed_text": "Falar manſo, ou entre os dentes dizendo mal.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:4bc98169146c7d9edbaab13911e789f67ce67b9af8735c01cb1d6691a47b899c"
         },
         {
           "id": "c2-l015",
-          "centre_y": 1328,
+          "centre_y": 1364,
           "crop": [
-            1500,
-            1280,
-            1090,
-            97
+            1445,
+            1316,
+            1206,
+            96
           ],
           "context_crop": [
-            1500,
-            1163,
-            1090,
-            330
+            1445,
+            1202,
+            1206,
+            324
           ],
           "observed_text": "Butda. i. Fotoqe. He palaura de Sião mal",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:c443a5e599646e86d56eb1f65640a94e6c23703be21a8bac43bdf4816326f533"
         },
         {
           "id": "c2-l016",
-          "centre_y": 1390,
+          "centre_y": 1405,
           "crop": [
-            1500,
-            1341,
-            1090,
-            97
+            1445,
+            1357,
+            1206,
+            96
           ],
           "context_crop": [
-            1500,
-            1225,
-            1090,
-            330
+            1445,
+            1243,
+            1206,
+            324
           ],
           "observed_text": "vſada.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:00af3a7067daf66531f8ba6aa83380baacbe1c911afe44bd10bdfae1c62f47dd"
         },
         {
           "id": "c2-l017",
-          "centre_y": 1451,
+          "centre_y": 1471,
           "crop": [
-            1500,
-            1402,
-            1090,
-            98
+            1445,
+            1423,
+            1206,
+            96
           ],
           "context_crop": [
-            1500,
-            1286,
-            1090,
-            330
+            1445,
+            1309,
+            1206,
+            324
           ],
           "observed_text": "Butdan. Fotoqeno dan. Altar do Fotoqe.",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:d6b85896ebdfd46b8bfe98bbac740e27d4cbecb1977806789176bae674909cf2"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:127feda19e39feff770a273e125170385ddde3bbc92d3bad6ce3f64f515dc4d0"
         },
         {
           "id": "c2-l018",
-          "centre_y": 1512,
+          "centre_y": 1549,
           "crop": [
-            1500,
-            1464,
-            1090,
+            1445,
+            1501,
+            1206,
             96
           ],
           "context_crop": [
-            1500,
-            1347,
-            1090,
-            330
+            1445,
+            1387,
+            1206,
+            324
           ],
           "observed_text": "Butden. Fotoqeno iye. Caſa do Fotoqe.",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:cd19ac4eb44156af3d5b2a811bfb74f59ae1c71747768a9bcd321ed3001f38df"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:23dad376d0c19b0ec24a826851cf6789d5b8c8d2c7d87eb1b9b2d30d433ef8a2"
         },
         {
           "id": "c2-l019",
-          "centre_y": 1573,
+          "centre_y": 1612,
           "crop": [
-            1500,
-            1524,
-            1090,
-            98
+            1445,
+            1564,
+            1206,
+            96
           ],
           "context_crop": [
-            1500,
-            1408,
-            1090,
-            330
+            1445,
+            1450,
+            1206,
+            324
           ],
           "observed_text": "Butdexi. Fotoqeno dexi. Diſcipulos do",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:14422e894461ed0cec96c6741922732bbe3550a887a947135c8503eb025021d7"
         },
         {
           "id": "c2-l020",
-          "centre_y": 1635,
+          "centre_y": 1655,
           "crop": [
-            1500,
-            1586,
-            1090,
-            98
+            1445,
+            1607,
+            1206,
+            96
           ],
           "context_crop": [
-            1500,
-            1470,
-            1090,
-            330
+            1445,
+            1493,
+            1206,
+            324
           ],
           "observed_text": "Fotoqe.",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:4cffe9f452c32c7129fc2709bc3544403d9a6f83b4c35df1f0d69c35f423cdea"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:8177e45b0eeb36ba9feecae8be376764cb12101afc78ec95fe2a660c89f61cb8"
         },
         {
           "id": "c2-l021",
-          "centre_y": 1696,
+          "centre_y": 1736,
           "crop": [
-            1500,
-            1648,
-            1090,
+            1445,
+            1688,
+            1206,
             96
           ],
           "context_crop": [
-            1500,
-            1531,
-            1090,
-            330
+            1445,
+            1574,
+            1206,
+            324
           ],
           "observed_text": "Butdo. Fotoqeno cuni. i. Gocuracu. Pa-",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:6fd4c635048d4101d39420e6770d7c0d1d6fa5e8ef0c1854f034bafba80445c2"
         },
         {
           "id": "c2-l022",
-          "centre_y": 1757,
+          "centre_y": 1797,
           "crop": [
-            1500,
-            1708,
-            1090,
-            98
+            1445,
+            1749,
+            1206,
+            96
           ],
           "context_crop": [
-            1500,
-            1592,
-            1090,
-            330
+            1445,
+            1635,
+            1206,
+            324
           ],
           "observed_text": "raiſo do Fotoqe.",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:df1cb0ec6c0f0fd47c405e87196c7d1230d3fd9b3c80fd0e768d368ec3aab3e3"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:20d8824a0fc9dd41337c1e1b7004930d9a1c22054229b208fae0aa6db23befda"
         },
         {
           "id": "c2-l023",
-          "centre_y": 1819,
+          "centre_y": 1858,
           "crop": [
-            1500,
-            1770,
-            1090,
-            98
+            1445,
+            1810,
+            1206,
+            96
           ],
           "context_crop": [
-            1500,
-            1654,
-            1090,
-            330
+            1445,
+            1696,
+            1206,
+            324
           ],
           "observed_text": "Butdǒ. Fotoqeno michi. Lei, ou ſeita do",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:9931ee35f3bd79c0c9306a7e01f3184c394f7f70acc1b6788aa74b8a6f757964"
         },
         {
           "id": "c2-l024",
-          "centre_y": 1880,
+          "centre_y": 1916,
           "crop": [
-            1500,
-            1832,
-            1090,
+            1445,
+            1868,
+            1206,
             96
           ],
           "context_crop": [
-            1500,
-            1715,
-            1090,
-            330
+            1445,
+            1754,
+            1206,
+            324
           ],
           "observed_text": "Fotoqe.",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:8c8b5748039fc7835f084ba2a57b2cf0413f80f5ea2b82e6b7bb2cd8bcd8f90d"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:aa8420d1ac9080bbfed2455a92ee3f296b2413339beb1febee5e83f79186bfec"
         },
         {
           "id": "c2-l025",
-          "centre_y": 1941,
+          "centre_y": 1980,
           "crop": [
-            1500,
-            1892,
-            1090,
-            98
+            1445,
+            1932,
+            1206,
+            96
           ],
           "context_crop": [
-            1500,
-            1776,
-            1090,
-            330
+            1445,
+            1818,
+            1206,
+            324
           ],
           "observed_text": "Butgan, l, butguen. Fotoqeno manaco.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:cadff80e6f7c1378b9e4210a0d7bd4685734e3e64b25c5cf40f2df1ef77cce13"
         },
         {
           "id": "c2-l026",
-          "centre_y": 2003,
+          "centre_y": 2039,
           "crop": [
-            1500,
-            1954,
-            1090,
-            98
+            1445,
+            1991,
+            1206,
+            96
           ],
           "context_crop": [
-            1500,
-            1838,
-            1090,
-            330
+            1445,
+            1877,
+            1206,
+            324
           ],
           "observed_text": "Olhos do Fotoqe.",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:b2736c6651c5a263035ca33fc1f2de9f7e2a421efe3b64b128629226adb31fa2"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:da952a524f8e7dca571ad210f57d6324e6326c0679642ee36531949588defee2"
         },
         {
           "id": "c2-l027",
-          "centre_y": 2064,
+          "centre_y": 2103,
           "crop": [
-            1500,
-            2016,
-            1090,
+            1445,
+            2055,
+            1206,
             96
           ],
           "context_crop": [
-            1500,
-            1899,
-            1090,
-            330
+            1445,
+            1941,
+            1206,
+            324
           ],
           "observed_text": "Butguen. Fotoqeno manaco. Olhos do Fo-",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:2298c92f55fa3c90727ea014cc495cc3a287b7b0935f6eff4eb91c8f5d33c183"
         },
         {
           "id": "c2-l028",
-          "centre_y": 2125,
+          "centre_y": 2163,
           "crop": [
-            1500,
-            2076,
-            1090,
-            98
+            1445,
+            2115,
+            1206,
+            96
           ],
           "context_crop": [
-            1500,
-            1960,
-            1090,
-            330
+            1445,
+            2001,
+            1206,
+            324
           ],
           "observed_text": "toqe.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:05f780e983a7d1ea098536867cf1bfcc3940265c2de95bc25b2fb682ebcf54e8"
         },
         {
           "id": "c2-l029",
-          "centre_y": 2187,
+          "centre_y": 2229,
           "crop": [
-            1500,
-            2138,
-            1090,
-            98
-          ],
-          "context_crop": [
-            1500,
-            2022,
-            1090,
-            330
-          ],
-          "observed_text": "Butguen, l, butgon. Fotoqeno cotoba. Pa-",
-          "match": "strong",
-          "assessment": "readable",
-          "expected_line_version": "sha256:8722eaa2c2bbdf9182f50765b89f1eebe2f85bdea8ec1662ebd5cbc72dd62db1"
-        },
-        {
-          "id": "c2-l030",
-          "centre_y": 2248,
-          "crop": [
-            1500,
-            2200,
-            1090,
+            1445,
+            2181,
+            1206,
             96
           ],
           "context_crop": [
-            1500,
-            2083,
-            1090,
-            330
+            1445,
+            2067,
+            1206,
+            324
+          ],
+          "observed_text": "Butguen, l, butgon. Fotoqeno cotoba. Pa",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:c74d0d790709c380c757ef15db064a289e26b322efba553570b2a907a764af86"
+        },
+        {
+          "id": "c2-l030",
+          "centre_y": 2291,
+          "crop": [
+            1445,
+            2243,
+            1206,
+            96
+          ],
+          "context_crop": [
+            1445,
+            2129,
+            1206,
+            324
           ],
           "observed_text": "lauras do Fotoqe.",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:40a4b5841a3d59a58598b5632e7c25091c6250e2a9e2a10d6585b5f87cf756f8"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:ba692813d4d24ac42bfcb58722467d3647625b157e601a8c7e1270d62490f9d2"
         },
         {
           "id": "c2-l031",
-          "centre_y": 2309,
+          "centre_y": 2354,
           "crop": [
-            1500,
-            2260,
-            1090,
-            98
+            1445,
+            2306,
+            1206,
+            96
           ],
           "context_crop": [
-            1500,
-            2144,
-            1090,
-            330
+            1445,
+            2192,
+            1206,
+            324
           ],
-          "observed_text": "Butguen. Fotoqe arauaruru. Manifeſtar-",
-          "match": "strong",
+          "observed_text": "Butguen. Fotoqe arauaruru. Manifeſtar",
+          "match": "mismatch",
           "assessment": "readable",
-          "expected_line_version": "sha256:3500addeabd8b25b9537643d7bc820e58be445860ddafd8385d33c7ee5b42a09"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:6161dcdc92b417bf9f59512633cf194ac4f3fded0350acca9f7fa4f4e35cffb8"
         },
         {
           "id": "c2-l032",
-          "centre_y": 2370,
+          "centre_y": 2418,
           "crop": [
-            1500,
-            2322,
-            1090,
-            97
+            1445,
+            2370,
+            1206,
+            96
           ],
           "context_crop": [
-            1500,
-            2205,
-            1090,
-            330
+            1445,
+            2256,
+            1206,
+            324
           ],
           "observed_text": "ſe, ou aparecer o Fotoqe.",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:251ee679a4e317d575109db4a388860a5bbbf5c904ac030bc366c342bf145bd7"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:03439fdec1618acb3a9b6aaf65d698eec8cd242859399d9bc628e24dd164c8fd"
         },
         {
           "id": "c2-l033",
-          "centre_y": 2432,
+          "centre_y": 2481,
           "crop": [
-            1500,
-            2383,
-            1090,
-            97
+            1445,
+            2433,
+            1206,
+            96
           ],
           "context_crop": [
-            1500,
-            2267,
-            1090,
-            330
+            1445,
+            2319,
+            1206,
+            324
           ],
           "observed_text": "Butguiǒ. Fotoqeno catachi. Figura do",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:07cd1741f181cd06d7f322b0fbb00de3087637572b23bdd02798d10b5a578207"
         },
         {
           "id": "c2-l034",
-          "centre_y": 2493,
+          "centre_y": 2540,
           "crop": [
-            1500,
-            2444,
-            1090,
-            98
+            1445,
+            2492,
+            1206,
+            96
           ],
           "context_crop": [
-            1500,
-            2328,
-            1090,
-            330
+            1445,
+            2378,
+            1206,
+            324
           ],
           "observed_text": "Fotoqe.",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:a8c8a8610cfb459d8efb59edade4185ea60ea04b892aa68bc898d3cb6853ef27"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:5320cf61dd5d40afa0a227daafd2d22ba484563cd87ba70bda5b85e52ae82bd5"
         },
         {
           "id": "c2-l035",
-          "centre_y": 2554,
+          "centre_y": 2585,
           "crop": [
-            1500,
-            2506,
-            1090,
-            97
+            1445,
+            2537,
+            1206,
+            96
           ],
           "context_crop": [
-            1500,
-            2389,
-            1090,
-            330
+            1445,
+            2423,
+            1206,
+            324
           ],
           "observed_text": "Butgo. Fotoqenogo. Sentença do Fotoqe,",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:56dfaa3037af094d2f4efba79cb0f779a44bea9744d751fabd135e460bf1f84a"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:1b6add636239e1d92fa13270314946843c45aad042767f7ecb0b31fb5d2e7868"
         },
         {
           "id": "c2-l036",
-          "centre_y": 2616,
+          "centre_y": 2665,
           "crop": [
-            1500,
-            2567,
-            1090,
-            97
+            1445,
+            2617,
+            1206,
+            96
           ],
           "context_crop": [
-            1500,
-            2451,
-            1090,
-            330
+            1445,
+            2503,
+            1206,
+            324
           ],
           "observed_text": "ou palauras.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:e3022045353c1e79ae3153feb8f5e53c7c0b46df819391f5a346e659871d71ba"
         },
         {
           "id": "c2-l037",
-          "centre_y": 2677,
+          "centre_y": 2728,
           "crop": [
-            1500,
-            2628,
-            1090,
-            98
+            1445,
+            2680,
+            1206,
+            96
           ],
           "context_crop": [
-            1500,
-            2512,
-            1090,
-            330
+            1445,
+            2566,
+            1206,
+            324
           ],
           "observed_text": "Butgǒ. Fotoqeno na. Nome do fotoqe.",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:acbbec8543eef9348fb135870223475f80d7e98b43770f59ee8ce623150c4890"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:aa6f45c0d9ace6ad63827730785915eefec666651d33c12be78b41d3824bed2d"
         },
         {
           "id": "c2-l038",
-          "centre_y": 2738,
+          "centre_y": 2789,
           "crop": [
-            1500,
-            2690,
-            1090,
-            97
+            1445,
+            2741,
+            1206,
+            96
           ],
           "context_crop": [
-            1500,
-            2573,
-            1090,
-            330
+            1445,
+            2627,
+            1206,
+            324
           ],
           "observed_text": "¶ Butgǒuo tonayuru. Inuocar o fotoqe.",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:be85ae2e61a4de0be354c11c1f313c8af762b25b51c4d03d337e69124c241241"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:124aff1b7bc6881e2297a23e4e7fcbfac21e93f63ff0e511377f5c4575ce0985"
         },
         {
           "id": "c2-l039",
-          "centre_y": 2800,
+          "centre_y": 2852,
           "crop": [
-            1500,
-            2751,
-            1090,
-            97
+            1445,
+            2804,
+            1206,
+            96
           ],
           "context_crop": [
-            1500,
-            2635,
-            1090,
-            330
+            1445,
+            2690,
+            1206,
+            324
           ],
           "observed_text": "Butgô. Fotoqeno xuuaza. Obras do fotoqe.",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:94c07797f7ef4484b790cb474e18a58a7db472a63e05d90c604f3e92a99de4fe"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:c0801eccc6580dd16454ec42a23bf3b0ce852eca94e532a71a15edc5517c2b4f"
         },
         {
           "id": "c2-l040",
-          "centre_y": 2861,
+          "centre_y": 2913,
           "crop": [
-            1500,
-            2812,
-            1090,
-            98
+            1445,
+            2865,
+            1206,
+            96
           ],
           "context_crop": [
-            1500,
-            2696,
-            1090,
-            330
+            1445,
+            2751,
+            1206,
+            324
           ],
           "observed_text": "Butgu. Fotoqeno dǒgu. Couſas que ſeruem",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:c298f8e21dc7d78e0d19d22f9faec14d502eaa784a7eaf32147ce18aad8bf0b1"
         },
         {
           "id": "c2-l041",
-          "centre_y": 2922,
+          "centre_y": 2978,
           "crop": [
-            1500,
-            2874,
-            1090,
+            1445,
+            2930,
+            1206,
             96
           ],
           "context_crop": [
-            1500,
-            2757,
-            1090,
-            330
+            1445,
+            2816,
+            1206,
+            324
           ],
           "observed_text": "diante do fotoqe no altar, &c.",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:9e0ed507cd7469c35eb137303bb38018974d899cd0fef9b34fcda5f3d63b1d24"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:dd90e26433b7a831c27fe60fa5e1389f0e32ffc7fc513756b515b7826f9f159f"
         },
         {
           "id": "c2-l042",
-          "centre_y": 2983,
+          "centre_y": 3039,
           "crop": [
-            1500,
-            2934,
-            1090,
-            98
+            1445,
+            2991,
+            1206,
+            96
           ],
           "context_crop": [
-            1500,
-            2818,
-            1090,
-            330
+            1445,
+            2877,
+            1206,
+            324
           ],
           "observed_text": "But-i. Fotoqeno cocoro. Animo, vontade,",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:6006d089fb301f2c719c9471f1466a6a38fe7b73159a7167e18cdffd950490f1"
         },
         {
           "id": "c2-l043",
-          "centre_y": 3045,
+          "centre_y": 3105,
           "crop": [
-            1500,
-            2996,
-            1090,
-            98
+            1445,
+            3057,
+            1206,
+            96
           ],
           "context_crop": [
-            1500,
-            2880,
-            1090,
-            330
+            1445,
+            2943,
+            1206,
+            324
           ],
           "observed_text": "ou coração do fotoqe.",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:694fac36310df94bea6118142c3601eecb1e3e142bb2810c05f5193b3eb49281"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:a18ae79749e355cd2b0fd403b4f76304af1c297aff48ce26ecfa548ec9f0dc50"
         },
         {
           "id": "c2-l044",
-          "centre_y": 3106,
+          "centre_y": 3150,
           "crop": [
-            1500,
-            3058,
-            1090,
+            1445,
+            3102,
+            1206,
             96
           ],
           "context_crop": [
-            1500,
-            2941,
-            1090,
-            330
+            1445,
+            2988,
+            1206,
+            324
           ],
           "observed_text": "Butjen. Fotoqeno maye. Diante do fotoqe.",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:84c68973e6593e488688054dc3f3eaf90dbe34cb5fb8918496d575758fcf0bc3"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:e66475de486a7b9b93a941ed81d6a033efacc2a47e89daa0591012bacd626147"
         },
         {
           "id": "c2-l045",
-          "centre_y": 3167,
+          "centre_y": 3215,
           "crop": [
-            1500,
-            3118,
-            1090,
-            98
+            1445,
+            3167,
+            1206,
+            96
           ],
           "context_crop": [
-            1500,
-            3002,
-            1090,
-            330
+            1445,
+            3053,
+            1206,
+            324
           ],
           "observed_text": "Butji. i. Butçuji, tomuray. Exequias que ſe",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:a5d0fc12fb8044e87d2b90ce2de6d1a81b6e1897c610475f19af6c8774cd43ff"
         },
         {
           "id": "c2-l046",
-          "centre_y": 3229,
+          "centre_y": 3282,
           "crop": [
-            1500,
-            3180,
-            1090,
-            98
+            1445,
+            3234,
+            1206,
+            96
           ],
           "context_crop": [
-            1500,
-            3064,
-            1090,
-            330
+            1445,
+            3120,
+            1206,
+            324
           ],
           "observed_text": "fazem lendo o fotoqeiǒ com outras ceremo-",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:ce04d7a1de06f1f2ddaea43e57d0305037053899eff4d58c917028cc67a43bdd"
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:143fef5685c33cb33b4d05ffecb21f0f3087d9e8f45dcebd09ce8329ee132fa3"
         },
         {
           "id": "c2-l047",
-          "centre_y": 3290,
+          "centre_y": 3355,
           "crop": [
-            1500,
-            3242,
-            1090,
+            1445,
+            3307,
+            1206,
             96
           ],
           "context_crop": [
-            1500,
-            3125,
-            1090,
-            285
+            1445,
+            3193,
+            1206,
+            324
           ],
           "observed_text": "nias. Vide, Butçuji.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:1f974ba54bd57ced8c111834b64ff0395cd7d2b6af987138b075c234ec9ddea4"
         }
       ]
