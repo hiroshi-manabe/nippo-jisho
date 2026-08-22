@@ -265,6 +265,11 @@ def styled_text(run: dict) -> str:
     trailing = text[len(text.rstrip(" ")) :]
     core_end = len(text) - len(trailing) if trailing else len(text)
     core = text[len(leading) : core_end]
+    # Typeface has no visible effect on an all-space run. Emitting emphasis
+    # markers here would produce ``**``, which the parser interprets as an
+    # opening display-type marker rather than an empty italic span.
+    if not core:
+        return text
     return f"{leading}{marker}{core}{marker}{trailing}"
 
 

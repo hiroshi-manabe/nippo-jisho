@@ -15,6 +15,7 @@ from scripts.process_correction_issue import (
     update_history,
     validate_payload,
 )
+from scripts.compile_level1_markdown import export_markdown, parse_markdown
 
 
 class CorrectionIssueProcessorTests(unittest.TestCase):
@@ -103,6 +104,53 @@ class CorrectionIssueProcessorTests(unittest.TestCase):
                 {"typeface": "italic", "text": "P."},
                 {"typeface": "roman", "text": " Vide."},
             ],
+        )
+
+    def test_export_treats_whitespace_only_italic_run_as_plain_space(self):
+        page = {
+            "format": "nippo-level1-page",
+            "format_version": 1,
+            "id": "bnf-f9999",
+            "source": {
+                "repository": "test",
+                "view": "f9999",
+                "url": "https://example.invalid/",
+                "master_sha256": "0" * 64,
+            },
+            "scope": "test",
+            "review": {
+                "origin": "test",
+                "wikisource_used_for_this_trial": False,
+                "physical_lineation_checked": True,
+                "status": "scan_confirmed",
+            },
+            "zones": [
+                {
+                    "id": "column-1",
+                    "kind": "column",
+                    "label": "Column 1",
+                    "lines": [
+                        {
+                            "id": "c1-l001",
+                            "runs": [
+                                {"typeface": "italic", "text": "before"},
+                                {"typeface": "roman", "text": " word."},
+                                {"typeface": "italic", "text": " "},
+                                {"typeface": "roman", "text": "i"},
+                                {"typeface": "italic", "text": "."},
+                            ],
+                        }
+                    ],
+                }
+            ],
+        }
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "page.md"
+            path.write_text(export_markdown(page), encoding="utf-8")
+            parsed = parse_markdown(path)
+        self.assertEqual(
+            "".join(run["text"] for run in parsed["zones"][0]["lines"][0]["runs"]),
+            "before word. i.",
         )
 
     def test_text_edits_retain_layout_metadata(self):
