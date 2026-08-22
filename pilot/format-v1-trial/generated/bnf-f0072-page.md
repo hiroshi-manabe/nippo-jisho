@@ -75,7 +75,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l001` | Cacuban. *Vigiar alternandoſe.* |  |
 | `c2-l002` | Cacubaxira. *Coluna de pao quadrada.* |  |
 | `c2-l003` | Cacubet. *Differença. ¶* Cacubetno xi- |  |
-| `c2-l004` | &emsp;lai atte. *Auendo diuerſa cauſa.* |  |
+| `c2-l004` | &emsp;ſai atte. *Auendo diuerſa cauſa.* |  |
 | `c2-l005` | Cacuchi. Satori xiru. *Adeuinhar.* |  |
 | `c2-l006` | Cacufai. Qiacuno ſacazzuqi. *Copo por on* |  |
 | `c2-l007` | &emsp;*de os hoſpedes bebem.* |  |
@@ -118,7 +118,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l044` | &emsp;*ou de cantos com pees, & ſem elles.* |  |
 | `c2-l045` | Cacurega. *Eſconderijo, ou lugar apartado, ou* |  |
 | `c2-l046` | &emsp;*ſolitario onde hum ſe recolhe, ou eſconde.* |  |
-| `c2-l047` | &emsp;*¶ Item, Hum pè de bambu, ou iſo ſobre q̃* |  |
+| `c2-l047` | &emsp;*¶ Item, Hum pè de bambu, ou pao ſobre q̃* |  |
 
 ## Catchword
 

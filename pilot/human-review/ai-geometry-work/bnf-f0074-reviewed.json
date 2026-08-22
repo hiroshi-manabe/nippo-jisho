@@ -3,9 +3,23 @@
   "format_version": 1,
   "page": "bnf-f0074",
   "response_status": "completed_independent_ai_line_review",
-  "observed_text_provenance": "Every physical body line was visually inspected at enlarged crop level against the supplied scan, with line geometry rechecked on the full-page image. observed_text records the scan reading; the canonical Level 1 transcription was consulted only as a comparison/adjudication aid after visual inspection, and visible disagreements are retained rather than normalized. expected_line_version values are preserved unchanged.",
+  "default_response_mode": "geometry_and_text",
+  "completion_statuses": {
+    "geometry_and_text": {
+      "geometry_review_status": "completed",
+      "text_review_status": "completed"
+    },
+    "geometry_only_fallback": {
+      "geometry_review_status": "completed",
+      "text_review_status": "not_completed"
+    }
+  },
+  "observed_text_provenance": "Must be written independently from each proposed crop before consulting the canonical transcription. Null means that this line has not yet been read.",
   "coordinate_space": "native Gallica master pixels",
   "rectangle_format": "[x, y, width, height]",
+  "geometry_acceptance": "Inspect every isolated crop at full practical size against the full page; confirm complete first and last glyphs and all top/bottom ink; do not infer horizontal completeness from line identity or vertical centering; then sweep each column top-to-bottom for repeated clipping, especially the outer/right edge of column 2. Conservative rule-to-rule width and necessary neighboring-line overlap are allowed.",
+  "text_acceptance": "Read the print independently before consulting the canonical line. Preserve visible historical spelling, spacing, diacritics, and long s; do not normalize, copy the canonical text, or guess merely to complete a field. Returned text is advisory until separately adjudicated against the scan.",
+  "lineation_discrepancy": "If the printed number or order of physical lines differs from the task, do not invent a blank continuation, shift IDs, or renumber the response. Mark the response incomplete and report the first divergence so the canonical lineation can be corrected and the task regenerated.",
   "source": {
     "filename": "f0074.jpg",
     "width": 2721,
@@ -15,21 +29,21 @@
   },
   "transcription_source": {
     "page_file": "pilot/format-v1-trial/level1/bnf-f0074.json",
-    "page_file_sha256": "8c9741cbc976183f3688e766b926f9b01053bb7ff9ffd8c8da31f34974d161a9"
+    "page_file_sha256": "4ad529fa20b850956b1e3a5fd788bb5a231eaf2ae8af5dd6f5f267e522ad7501"
   },
   "columns": {
     "column-1": {
       "column_box_xyxy": [
         340,
         300,
-        1450,
+        1560,
         3410
       ],
       "zone_ids": [
         "column-1"
       ],
-      "initial_geometry_provenance": "contact_sheet_reviewed",
-      "initial_geometry_reviewed_at": "2026-08-01",
+      "initial_geometry_provenance": "external_ai_width_rechecked",
+      "initial_geometry_reviewed_at": "2026-08-16",
       "geometry_requires_line_by_line_review": true,
       "lines": [
         {
@@ -38,18 +52,19 @@
           "crop": [
             340,
             429,
-            1110,
+            1220,
             96
           ],
           "context_crop": [
             340,
             315,
-            1110,
+            1220,
             324
           ],
           "observed_text": "cantos, ou pontas, & que não he liza, ou redon-",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:101c3017d08854a4587203ab68d7e424dfa9bb59c0daaa8f366541de09a63771"
         },
         {
@@ -58,19 +73,20 @@
           "crop": [
             340,
             492,
-            1110,
+            1220,
             96
           ],
           "context_crop": [
             340,
             378,
-            1110,
+            1220,
             324
           ],
           "observed_text": "da. ¶ Item, Homem agaſtado, & que",
-          "match": "strong",
+          "match": "mismatch",
           "assessment": "readable",
-          "expected_line_version": "sha256:242b5826d435ffc106dadde377368158915738d2467b15abd92f88207bee8a79"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:9c31c48015f9fb202daa4aec4cc002a6e0272eaa2ffb4f279504ffe7589396cd"
         },
         {
           "id": "c1-l003",
@@ -78,18 +94,19 @@
           "crop": [
             340,
             553,
-            1110,
+            1220,
             96
           ],
           "context_crop": [
             340,
             439,
-            1110,
+            1220,
             324
           ],
           "observed_text": "da nos olhos dos outros com ſeu modo.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:353e4240fd80a153d0dbcc08ca2ba3f0f79319f71d0bc8d65455694be8df65a6"
         },
         {
@@ -98,19 +115,20 @@
           "crop": [
             340,
             615,
-            1110,
+            1220,
             96
           ],
           "context_crop": [
             340,
             501,
-            1110,
+            1220,
             324
           ],
           "observed_text": "Cadogamaxij. Idem quod Cado.",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:26036fd1c2a0bbfb69d173757b772ea98b472ef6918cd4e219119f202f3b636c"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:8d069fc6d04f39948a92ca9e62006fa417437f081d094d0c982fccb9e4fc9e28"
         },
         {
           "id": "c1-l005",
@@ -118,18 +136,19 @@
           "crop": [
             340,
             675,
-            1110,
+            1220,
             96
           ],
           "context_crop": [
             340,
             561,
-            1110,
+            1220,
             324
           ],
           "observed_text": "Cadode. Primeira ſaida. A propria",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:9e7f3789871cd1974cfa7ce7ac6aa85841a051b6f83eaed4fab2abeeb3236e00"
         },
         {
@@ -138,19 +157,20 @@
           "crop": [
             340,
             739,
-            1110,
+            1220,
             96
           ],
           "context_crop": [
             340,
             625,
-            1110,
+            1220,
             324
           ],
           "observed_text": "palaura, & corrente he cadoide. vide infra.",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:69f46c8b9f7b5eb7cbf5625039c823b62122a5e39821017cd7ba637a3b21548c"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:fe58596ddd73f179bdb744eef9362276f9d21602aba1592ef25a2065ff763443"
         },
         {
           "id": "c1-l007",
@@ -158,18 +178,19 @@
           "crop": [
             340,
             802,
-            1110,
+            1220,
             96
           ],
           "context_crop": [
             340,
             688,
-            1110,
+            1220,
             324
           ],
           "observed_text": "Cadoi, ô, ôta. Leuar por engano a outro,",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:576e9ad756af004de0cc3a49ce2e51c80730b828b94cbf864f8df0e9bd034b2c"
         },
         {
@@ -178,18 +199,19 @@
           "crop": [
             340,
             864,
-            1110,
+            1220,
             96
           ],
           "context_crop": [
             340,
             750,
-            1110,
+            1220,
             324
           ],
           "observed_text": "ou enganando o leualo furtado.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:93a8861dd7365a529e908048ae077491143b7711aaed7ac2899bdf044845050d"
         },
         {
@@ -198,18 +220,19 @@
           "crop": [
             340,
             927,
-            1110,
+            1220,
             96
           ],
           "context_crop": [
             340,
             813,
-            1110,
+            1220,
             324
           ],
           "observed_text": "Cadoi idaxi, ſu, aita. Leuar alguẽ enga-",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:9132d9f4170ed1023f2842188dae8fe4066fe73f12511c197f30b921ce43d08d"
         },
         {
@@ -218,18 +241,19 @@
           "crop": [
             340,
             990,
-            1110,
+            1220,
             96
           ],
           "context_crop": [
             340,
             876,
-            1110,
+            1220,
             324
           ],
           "observed_text": "nado, & furtado.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:46d55f13f73fd5a187239b4e6fd55b799df17c063876d667d431b1a8612ac4a7"
         },
         {
@@ -238,18 +262,19 @@
           "crop": [
             340,
             1049,
-            1110,
+            1220,
             96
           ],
           "context_crop": [
             340,
             935,
-            1110,
+            1220,
             324
           ],
           "observed_text": "Cadoide. Saida fora de caſa, que fazem",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:8157913081415452e90b0fce387b570b009fb7adbdae8ebe9193e006cc098966"
         },
         {
@@ -258,19 +283,20 @@
           "crop": [
             340,
             1111,
-            1110,
+            1220,
             96
           ],
           "context_crop": [
             340,
             997,
-            1110,
+            1220,
             324
           ],
-          "observed_text": "antes de ir a guerra, ou a alguã parte longe",
+          "observed_text": "antes de ir a guerra, ou a algũa parte longe",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:ceb713bbf39634aef14999616933b2083bd4dc48a004e0253c1d62ddfa670557"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:997c2b9eff883c36c8106b426f6c546367720229f5a816198e606b7bc6b4813f"
         },
         {
           "id": "c1-l013",
@@ -278,18 +304,19 @@
           "crop": [
             340,
             1171,
-            1110,
+            1220,
             96
           ],
           "context_crop": [
             340,
             1057,
-            1110,
+            1220,
             324
           ],
           "observed_text": "por não poder partirſe naquelle dia que tinhão",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:419f1c28375cc9925ed96e5f03c7342c44c24b8d3ebcae1c516b4ab67d0ca363"
         },
         {
@@ -298,18 +325,19 @@
           "crop": [
             340,
             1235,
-            1110,
+            1220,
             96
           ],
           "context_crop": [
             340,
             1121,
-            1110,
+            1220,
             324
           ],
           "observed_text": "dantes determinado, & por não perder a",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:554a902d8af31af37888a55a2306ac7eb1d2a0e01e2376ef13449e3014bccc13"
         },
         {
@@ -318,18 +346,19 @@
           "crop": [
             340,
             1297,
-            1110,
+            1220,
             96
           ],
           "context_crop": [
             340,
             1183,
-            1110,
+            1220,
             324
           ],
           "observed_text": "ocaſião do bõ dia que eſperarão, vão entre tan-",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:81504b22f31b0b38eb01043034759351f69ed2570b297f277b77bb9534844f03"
         },
         {
@@ -338,18 +367,19 @@
           "crop": [
             340,
             1361,
-            1110,
+            1220,
             96
           ],
           "context_crop": [
             340,
             1247,
-            1110,
+            1220,
             324
           ],
           "observed_text": "to a algũa terra, ou a caſa dalgum parẽte, ou",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:ecf4fb13a15400a2190f26ef72168c52775fb36626dca48b230de08362da7ae4"
         },
         {
@@ -358,18 +388,19 @@
           "crop": [
             340,
             1419,
-            1110,
+            1220,
             96
           ],
           "context_crop": [
             340,
             1305,
-            1110,
+            1220,
             324
           ],
           "observed_text": "amigo, & alli lhe dão a boa ſaida, & ſe tor-",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:4ba5c5051bcd847aa743106f64af7b9e7d798d140d54b290479858141b1862a9"
         },
         {
@@ -378,18 +409,19 @@
           "crop": [
             340,
             1483,
-            1110,
+            1220,
             96
           ],
           "context_crop": [
             340,
             1369,
-            1110,
+            1220,
             324
           ],
           "observed_text": "não pera caſa. ¶ Item, O partirſe pera",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:330d9a51903441949dc8ca7171cf6149f3bd1c7f5a2c9cd61e8a6e872ee620e8"
         },
         {
@@ -398,18 +430,19 @@
           "crop": [
             340,
             1546,
-            1110,
+            1220,
             96
           ],
           "context_crop": [
             340,
             1432,
-            1110,
+            1220,
             324
           ],
           "observed_text": "as tais partes ſẽ tornar logo. ¶ Cadode, l,",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:bb16a80d8fefa9261c515176e748b0cbd4f900e6cc218a64bef06582497800d6"
         },
         {
@@ -418,18 +451,19 @@
           "crop": [
             340,
             1608,
-            1110,
+            1220,
             96
           ],
           "context_crop": [
             340,
             1494,
-            1110,
+            1220,
             324
           ],
           "observed_text": "cadoide yoi, l, axij. Ser a ſaida boa, bem,",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:6f50813935269e7b2399e430b05bbcbe7ed12c6f8ebe3ad8084c4f9b499df07a"
         },
         {
@@ -438,19 +472,20 @@
           "crop": [
             340,
             1672,
-            1110,
+            1220,
             96
           ],
           "context_crop": [
             340,
             1558,
-            1110,
+            1220,
             324
           ],
           "observed_text": "ou mal eſtreada conforme ao ſucceſſo que tem",
-          "match": "strong",
+          "match": "mismatch",
           "assessment": "readable",
-          "expected_line_version": "sha256:aac5a239e6a8dfde0cc1ddb0f6e9ae6c045a0e8efac6a05b378a675c93283d87"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:59cd499c24911cc25bc7f329f6bf1b8b210acdf40f82a501296a4e9343049f9d"
         },
         {
           "id": "c1-l022",
@@ -458,18 +493,19 @@
           "crop": [
             340,
             1734,
-            1110,
+            1220,
             96
           ],
           "context_crop": [
             340,
             1620,
-            1110,
+            1220,
             324
           ],
           "observed_text": "no dia em que ſaem, ou ſe partem deueras, &",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:b8812c6a239f57433f2a2cbf07ff0e93fd490878a6f6f593271bd914524661b3"
         },
         {
@@ -478,19 +514,20 @@
           "crop": [
             340,
             1795,
-            1110,
+            1220,
             96
           ],
           "context_crop": [
             340,
             1681,
-            1110,
+            1220,
             324
           ],
-          "observed_text": "aſſi ſe acerta de encontrar alguã peſſoa a que",
+          "observed_text": "aſſi ſe acerta de encontrar algũa peſſoa a que",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:00c0a849f6db9962b6fc7e87b7acb75cf21f90b3e0b0e75100b3d8442193ef46"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:6333ab5274993ad0ee691f031e5be8b64944e86c454e7e577f45ca97e2d92d9a"
         },
         {
           "id": "c1-l024",
@@ -498,19 +535,20 @@
           "crop": [
             340,
             1856,
-            1110,
+            1220,
             96
           ],
           "context_crop": [
             340,
             1742,
-            1110,
+            1220,
             324
           ],
-          "observed_text": "tem odio, &c. dizem cadoideuo ximauoi-",
+          "observed_text": "tem odio, &c. dizem cadoideuo ximauoi",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:ffc60c27091d5d0bf26dcaa9700e2366c39ff089d6532ffef3ccc437bc1ecac7"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:f8c68e3967b469b8bad89d2c7be3979d785f8541a3fca3c47e2c8976520c76e9"
         },
         {
           "id": "c1-l025",
@@ -518,18 +556,19 @@
           "crop": [
             340,
             1916,
-            1110,
+            1220,
             96
           ],
           "context_crop": [
             340,
             1802,
-            1110,
+            1220,
             324
           ],
           "observed_text": "te mairo. Quero ir me emendar, ou mi-",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:d50842d6f9706f181804263b40ff2bb3f84aadcafd6e04d56c677f9bf9475ac7"
         },
         {
@@ -538,19 +577,20 @@
           "crop": [
             340,
             1976,
-            1110,
+            1220,
             96
           ],
           "context_crop": [
             340,
             1862,
-            1110,
+            1220,
             324
           ],
           "observed_text": "lhorar eſta ſaida, o q̃ fazem tornando ſe pera",
-          "match": "strong",
+          "match": "mismatch",
           "assessment": "readable",
-          "expected_line_version": "sha256:8bd1d4fcd0775927ab5bd4331439339c5525502300f88694aead5b1eb0e5d688"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:d7dc106351c0eae8e5af8eb0f108189d699514dd9f743f3d0d5fc5cccbe74b19"
         },
         {
           "id": "c1-l027",
@@ -558,19 +598,20 @@
           "crop": [
             340,
             2039,
-            1110,
+            1220,
             96
           ],
           "context_crop": [
             340,
             1925,
-            1110,
+            1220,
             324
           ],
           "observed_text": "caſa. ¶ Cadoideuo ſuru. Fazer eſta ſaida.",
-          "match": "strong",
+          "match": "mismatch",
           "assessment": "readable",
-          "expected_line_version": "sha256:f3c713747af4d1fa69a02b412e1b251178bb625df852de39f03f9bf9d79b7235"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:39c7682f0fdd8fb2da87de74fdc1b6824b7f5cc776960e7f09b074d2951743cb"
         },
         {
           "id": "c1-l028",
@@ -578,18 +619,19 @@
           "crop": [
             340,
             2103,
-            1110,
+            1220,
             96
           ],
           "context_crop": [
             340,
             1989,
-            1110,
+            1220,
             324
           ],
           "observed_text": "Cadome, uru, eta. Notar vendo, ou pergun-",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:bd0a21f17f5bc53431dd8e01df84fd6fb42cf058092b610adf985968c20d79bf"
         },
         {
@@ -598,18 +640,19 @@
           "crop": [
             340,
             2166,
-            1110,
+            1220,
             96
           ],
           "context_crop": [
             340,
             2052,
-            1110,
+            1220,
             324
           ],
           "observed_text": "tando.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:73f167a577de15b37785d1817694fbed44b4d05644109e3554f5ddd234b1ec81"
         },
         {
@@ -618,18 +661,19 @@
           "crop": [
             340,
             2225,
-            1110,
+            1220,
             96
           ],
           "context_crop": [
             340,
             2111,
-            1110,
+            1220,
             324
           ],
           "observed_text": "Cadotagai. i. Cadochigai. O errar a porta,",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:ecf3c1f522ae8b6275349c30c1f3d50896c726af2c6366a14ab82da5e2e50d03"
         },
         {
@@ -638,18 +682,19 @@
           "crop": [
             340,
             2291,
-            1110,
+            1220,
             96
           ],
           "context_crop": [
             340,
             2177,
-            1110,
+            1220,
             324
           ],
           "observed_text": "ou caſa.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:6cc43609ec72ff8b76a7b9e42e36ec0ea85dd7da455fb96bd2b1b808a7c6fe73"
         },
         {
@@ -658,18 +703,19 @@
           "crop": [
             340,
             2350,
-            1110,
+            1220,
             96
           ],
           "context_crop": [
             340,
             2236,
-            1110,
+            1220,
             324
           ],
           "observed_text": "Cadouacaxi, ſu, aita. Leuar a outro enganado,",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:045f9ce327f87bd818a48d7139b5334e37d97dd8f2d33849c44a934a0f45543f"
         },
         {
@@ -678,18 +724,19 @@
           "crop": [
             340,
             2413,
-            1110,
+            1220,
             96
           ],
           "context_crop": [
             340,
             2299,
-            1110,
+            1220,
             324
           ],
           "observed_text": "como a gente furtada.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:b08906fb0a20443ae9672ef39d31145ad655f15cab20d4c7aa8acec1187ff276"
         },
         {
@@ -698,18 +745,19 @@
           "crop": [
             340,
             2471,
-            1110,
+            1220,
             96
           ],
           "context_crop": [
             340,
             2357,
-            1110,
+            1220,
             324
           ],
           "observed_text": "Cadǒxa. Vtano michiuo xitta fito. Poeta.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:43ff85acc787c8221c28de92297ffba6a9598f8829e0936a771a55cc2aacf2c1"
         },
         {
@@ -718,19 +766,20 @@
           "crop": [
             340,
             2536,
-            1110,
+            1220,
             96
           ],
           "context_crop": [
             340,
             2422,
-            1110,
+            1220,
             324
           ],
           "observed_text": "Cafacu. i. Suijin. Cami que guarda, ou tem",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:e928d007d2be01e7da8844f155358d6f4e89adacdf757ec6a6ba109c2f116146"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:5c1fe7b696b810cd24c7a7748c79a1f0a17180148b8ac9348507a09c0ff1054f"
         },
         {
           "id": "c1-l036",
@@ -738,18 +787,19 @@
           "crop": [
             340,
             2598,
-            1110,
+            1220,
             96
           ],
           "context_crop": [
             340,
             2484,
-            1110,
+            1220,
             324
           ],
           "observed_text": "cuidado dos rios, como imaginão os gentios.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:ae5f1129461905f9d49179099eab9ddef9649a09acd678925cd590387470958c"
         },
         {
@@ -758,19 +808,20 @@
           "crop": [
             340,
             2660,
-            1110,
+            1220,
             96
           ],
           "context_crop": [
             340,
             2546,
-            1110,
+            1220,
             324
           ],
           "observed_text": "¶ Item, Odono, ou meſtre que gouerna a",
-          "match": "strong",
+          "match": "mismatch",
           "assessment": "readable",
-          "expected_line_version": "sha256:f513ea3dc1078819ab63e4a94b8612c00fc25568df10ac3019d9da597f7a708e"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:aa88b39208b9e0e10615c4538c8d3ed04f9d1a2246ce516cc1042b431536f23e"
         },
         {
           "id": "c1-l038",
@@ -778,18 +829,19 @@
           "crop": [
             340,
             2721,
-            1110,
+            1220,
             96
           ],
           "context_crop": [
             340,
             2607,
-            1110,
+            1220,
             324
           ],
           "observed_text": "ẽbarcação dos rios, q̃ ſẽpre anda, & viue.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:1324f77f7ee498cda6eab402eb64b0add25b6a81997b82ec7aeacb4772f858f0"
         },
         {
@@ -798,18 +850,19 @@
           "crop": [
             340,
             2783,
-            1110,
+            1220,
             96
           ],
           "context_crop": [
             340,
             2669,
-            1110,
+            1220,
             324
           ],
           "observed_text": "Cafan. Fanuo cuuayuru. i. Fiteno ſaino ſo-",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:9b19eac2882c1345ab55660780fe37911a80ed1b00b35c9b0f05902aab990a88"
         },
         {
@@ -818,18 +871,19 @@
           "crop": [
             340,
             2846,
-            1110,
+            1220,
             96
           ],
           "context_crop": [
             340,
             2732,
-            1110,
+            1220,
             324
           ],
           "observed_text": "bani ſuyuru. Aſinarem muitos juntos.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:f0d21c81a98b0e815635cc6d446ad605d54c9ae34e2c09cbcfa99160edd8fb85"
         },
         {
@@ -838,18 +892,19 @@
           "crop": [
             340,
             2907,
-            1110,
+            1220,
             96
           ],
           "context_crop": [
             340,
             2793,
-            1110,
+            1220,
             324
           ],
           "observed_text": "¶ Cafan ſuru. Idem.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:215cd33a7c841873ab044320bf6006e0732dc4c37c0ab4a9116dd85134782cf9"
         },
         {
@@ -858,19 +913,20 @@
           "crop": [
             340,
             2967,
-            1110,
+            1220,
             96
           ],
           "context_crop": [
             340,
             2853,
-            1110,
+            1220,
             324
           ],
-          "observed_text": "Cafen. Cauano fotori. Cerda do rio, ou jũ-",
+          "observed_text": "Cafen. Cauano fotori. Cerda do rio, ou jũ",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:86111f7ce051223998238a32cd72376f6250d30c48abb1af1f2725daa37d7114"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:09e72d4505a6ca3a6a112e2f07863ced0fe078c7489cf4e8df37871fb2254bea"
         },
         {
           "id": "c1-l043",
@@ -878,18 +934,19 @@
           "crop": [
             340,
             3031,
-            1110,
+            1220,
             96
           ],
           "context_crop": [
             340,
             2917,
-            1110,
+            1220,
             324
           ],
           "observed_text": "to do rio.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:233544f526ad46bead221f06794df864d584176b74c4358500c9a90829c47643"
         },
         {
@@ -898,18 +955,19 @@
           "crop": [
             340,
             3091,
-            1110,
+            1220,
             96
           ],
           "context_crop": [
             340,
             2977,
-            1110,
+            1220,
             324
           ],
           "observed_text": "Cafit. Fudeuo cuuayuru. Dar encomendas",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:4fc97881a950339f6ee8cf88a66f844f2513b6c09fde3a17e0f2219e9ed38ba9"
         },
         {
@@ -918,18 +976,19 @@
           "crop": [
             340,
             3154,
-            1110,
+            1220,
             96
           ],
           "context_crop": [
             340,
             3040,
-            1110,
+            1220,
             324
           ],
           "observed_text": "por carta. Vt, Fitoni cafitue mǒxi ſoro.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:d32580d97cb56c9b5ee3c74f6a05946e8af7e5d78c5357059c0a55cf1280fa66"
         },
         {
@@ -938,18 +997,19 @@
           "crop": [
             340,
             3217,
-            1110,
+            1220,
             96
           ],
           "context_crop": [
             340,
             3086,
-            1110,
+            1220,
             324
           ],
           "observed_text": "Dar encomendas por carta a alguem.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:f1a2fdc15483ad344c68dae4f1244486dfc19d4781381c0b9fc0d751ad3d8771"
         },
         {
@@ -958,18 +1018,19 @@
           "crop": [
             340,
             3280,
-            1110,
+            1220,
             96
           ],
           "context_crop": [
             340,
             3086,
-            1110,
+            1220,
             324
           ],
           "observed_text": "Cafô. Iyeno tacara. Riqueza, ou alfayas",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:3caa9884ba28e441a45dfb11b5bbec9c1b1c3b9a4660c03d129e5b0e4107d370"
         },
         {
@@ -978,18 +1039,19 @@
           "crop": [
             340,
             3314,
-            1110,
+            1220,
             96
           ],
           "context_crop": [
             340,
             3128,
-            1110,
+            1220,
             282
           ],
           "observed_text": "de caſa.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:18c6ebf09f08db7eb983d3cd0b25dcc3334b1e802e4713ecbe3994976468fe68"
         }
       ]
@@ -998,14 +1060,14 @@
       "column_box_xyxy": [
         1500,
         300,
-        2590,
+        2660,
         3410
       ],
       "zone_ids": [
         "column-2"
       ],
-      "initial_geometry_provenance": "contact_sheet_reviewed",
-      "initial_geometry_reviewed_at": "2026-08-01",
+      "initial_geometry_provenance": "external_ai_width_rechecked",
+      "initial_geometry_reviewed_at": "2026-08-16",
       "geometry_requires_line_by_line_review": true,
       "lines": [
         {
@@ -1014,19 +1076,20 @@
           "crop": [
             1500,
             417,
-            1090,
+            1160,
             96
           ],
           "context_crop": [
             1500,
             300,
-            1090,
+            1160,
             330
           ],
           "observed_text": "Cafǔ. Iyeno fǔ. i. Catagui. Cuſtume par-",
-          "match": "strong",
+          "match": "mismatch",
           "assessment": "readable",
-          "expected_line_version": "sha256:1b5539a033fa3b9ddc20a40b0897622f8d145520550b5dc55807afb3157d7fad"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:4047b8dec3a7d371ca3cb3e58aca0c52471f818a85c7164d3d28e85057f77237"
         },
         {
           "id": "c2-l002",
@@ -1034,19 +1097,20 @@
           "crop": [
             1500,
             478,
-            1090,
+            1160,
             98
           ],
           "context_crop": [
             1500,
             362,
-            1090,
+            1160,
             330
           ],
-          "observed_text": "ticular dalguã familia, ou arte que por dedução",
+          "observed_text": "ticular dalgũa familia, ou arte que por dedução",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:ecab241b28397cc4d0a03ae326a405d9b428d3aab3e1ad725213a620861cbaf0"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:207828bb2ea20879416c24e11458a6bdd4b9275d936485fd3f8f6eb968462a79"
         },
         {
           "id": "c2-l003",
@@ -1054,19 +1118,20 @@
           "crop": [
             1500,
             540,
-            1090,
+            1160,
             98
           ],
           "context_crop": [
             1500,
             424,
-            1090,
+            1160,
             330
           ],
-          "observed_text": "he propria de algũa familia. ¶ Cafǔ jin-",
+          "observed_text": "he propria de algũa familia. ¶ Cafǔ jin",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:7829c096898a82ac705371468fc25de4b1e0a6c0e08d77497f4847676912c1b7"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:820b6e0aeaed5749b93f9cde00658f4a7f078de640af3d87554973a5d1f589e5"
         },
         {
           "id": "c2-l004",
@@ -1074,19 +1139,20 @@
           "crop": [
             1500,
             602,
-            1090,
+            1160,
             96
           ],
           "context_crop": [
             1500,
             485,
-            1090,
+            1160,
             330
           ],
-          "observed_text": "jǒni xite. Sendo arte limpa, & liberal co-",
+          "observed_text": "jǒni xite. Sendo arte limpa, & liberal co",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:e7f5bfcaa0f623745fb041e6ec738c7a7d94283d13e32531199746515f56d366"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:87d2615c6eccca764120c8f06b46ec62a5f1bbe2fcf0f7401064feb050fa7c95"
         },
         {
           "id": "c2-l005",
@@ -1094,19 +1160,20 @@
           "crop": [
             1500,
             666,
-            1090,
+            1160,
             98
           ],
           "context_crop": [
             1500,
             550,
-            1090,
+            1160,
             330
           ],
           "observed_text": "mo de compor Vtas, &c. propria dalgũa",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:8ee5c9a5943179ab276eebae5ffc1e9602a86202b7ffaedf7e06a7dbe788ae72"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:98ce295fc7b7e2f44bc01faf4958197de516cd0b617a8016423aa8dd4d7eb50c"
         },
         {
           "id": "c2-l006",
@@ -1114,18 +1181,19 @@
           "crop": [
             1500,
             730,
-            1090,
+            1160,
             98
           ],
           "context_crop": [
             1500,
             614,
-            1090,
+            1160,
             330
           ],
           "observed_text": "familia.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:b0c5abb62fc8bea6b70617939c60e9a1464908195b7356548123dbdf2f6c9ffc"
         },
         {
@@ -1134,19 +1202,20 @@
           "crop": [
             1500,
             789,
-            1090,
+            1160,
             96
           ],
           "context_crop": [
             1500,
             672,
-            1090,
+            1160,
             330
           ],
-          "observed_text": "Cafuchi. Qinbunuo cuuayuru, l, fuchi-",
+          "observed_text": "Cafuchi. Qinbunuo cuuayuru, l, fuchi",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:bb1fb8e4386282a373f8ec32e9b09345b7c8962877ac9662dfb87a9f1bcaf450"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:eadba843350818806c5400ffef5cb39fe25a2d09b7a7becf0deb6fb132e9f0fd"
         },
         {
           "id": "c2-l008",
@@ -1154,18 +1223,19 @@
           "crop": [
             1500,
             853,
-            1090,
+            1160,
             98
           ],
           "context_crop": [
             1500,
             737,
-            1090,
+            1160,
             330
           ],
           "observed_text": "uo cuuayuru. Acrecentar a merce, come-",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:51c1d89c1b736533aaff7527f827fe8015a40fd312a60e7962769a01a813acab"
         },
         {
@@ -1174,18 +1244,19 @@
           "crop": [
             1500,
             914,
-            1090,
+            1160,
             97
           ],
           "context_crop": [
             1500,
             798,
-            1090,
+            1160,
             330
           ],
           "observed_text": "dia, ou renda aos criados. ¶ Cafuchiuo",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:ca22969266b3d885e5566ac5f50f6f537a84ce20861356cf09ef72dc788ac1e9"
         },
         {
@@ -1194,18 +1265,19 @@
           "crop": [
             1500,
             980,
-            1090,
+            1160,
             97
           ],
           "context_crop": [
             1500,
             864,
-            1090,
+            1160,
             330
           ],
           "observed_text": "ſuru. Idem.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:c2d836e44c80bd088bba44ca603456a60413c62d8492a977aeea243f5ec67f9d"
         },
         {
@@ -1214,18 +1286,19 @@
           "crop": [
             1500,
             1037,
-            1090,
+            1160,
             98
           ],
           "context_crop": [
             1500,
             921,
-            1090,
+            1160,
             330
           ],
           "observed_text": "Cagacu. Vtano manabi. i. Vtauo narǒ.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:4f1b56b2b6c8cae23079322c17da13953e08725965eb1684f6cd1123962401af"
         },
         {
@@ -1234,18 +1307,19 @@
           "crop": [
             1500,
             1100,
-            1090,
+            1160,
             97
           ],
           "context_crop": [
             1500,
             983,
-            1090,
+            1160,
             330
           ],
           "observed_text": "O aprender a fazer verſos de Iapão ou China.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:338f95bdd9c67765c7ef80e44fdcfbd9ed8b50ae7e5ddd197848611a4cb21248"
         },
         {
@@ -1254,18 +1328,19 @@
           "crop": [
             1500,
             1162,
-            1090,
+            1160,
             97
           ],
           "context_crop": [
             1500,
             1046,
-            1090,
+            1160,
             330
           ],
           "observed_text": "Cagacu. Xirayori manabu. O aprender co-",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:60485ca0da51f5a96e32619794f2c8a3ee96efe3f2e2a271e1bd1e930ae6dea4"
         },
         {
@@ -1274,19 +1349,20 @@
           "crop": [
             1500,
             1225,
-            1090,
+            1160,
             98
           ],
           "context_crop": [
             1500,
             1109,
-            1090,
+            1160,
             330
           ],
-          "observed_text": "meçando por baxos principios alguã couſa. Vt,",
+          "observed_text": "meçando por baxos principios algũa couſa. Vt,",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:f9a279273a69eda27dbe9a462ba8f8e92803ebf798bcd9607d3df733fa5932f1"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:7374ef58b1baaba0666b50bde1d595c7d19014f71864ec77c9cec1c315c9dee7"
         },
         {
           "id": "c2-l015",
@@ -1294,18 +1370,19 @@
           "crop": [
             1500,
             1288,
-            1090,
+            1160,
             97
           ],
           "context_crop": [
             1500,
             1171,
-            1090,
+            1160,
             330
           ],
           "observed_text": "Cagacu xite xǒ taſu. Aprender deſdo",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:ce0bcf34240398820304f1ea7d075c0df4b042da0bfcf46cdcf1788aded6a9e8"
         },
         {
@@ -1314,18 +1391,19 @@
           "crop": [
             1500,
             1350,
-            1090,
+            1160,
             97
           ],
           "context_crop": [
             1500,
             1233,
-            1090,
+            1160,
             330
           ],
           "observed_text": "mais baxo, pera vir a ſaber couſas altas. S.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:522981ee18cadfaa64c0f1e11908d3e00557b6ec409d06e4d59c92102b60b8ec"
         },
         {
@@ -1334,18 +1412,19 @@
           "crop": [
             1500,
             1415,
-            1090,
+            1160,
             98
           ],
           "context_crop": [
             1500,
             1299,
-            1090,
+            1160,
             330
           ],
           "observed_text": "Cagaguinu. Peças de ſeda que ſe fazem bo-",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:13d70c9056cd9de0d333868edb0a48d583c17a548b14b2e89ed830284f11a222"
         },
         {
@@ -1354,18 +1433,19 @@
           "crop": [
             1500,
             1478,
-            1090,
+            1160,
             96
           ],
           "context_crop": [
             1500,
             1361,
-            1090,
+            1160,
             330
           ],
           "observed_text": "as no reino de Caga.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:c53801e91aad5e303adf2faba3355a6966ecd1be024361d99d098344101f5d55"
         },
         {
@@ -1374,18 +1454,19 @@
           "crop": [
             1500,
             1536,
-            1090,
+            1160,
             98
           ],
           "context_crop": [
             1500,
             1420,
-            1090,
+            1160,
             330
           ],
           "observed_text": "Cagamari, aru, atta. Encolherſe, ou do-",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:2f9d4f11b8fbfb420f6736d8a193fce032ff4568738c74a55d1306c83349ece3"
         },
         {
@@ -1394,18 +1475,19 @@
           "crop": [
             1500,
             1601,
-            1090,
+            1160,
             98
           ],
           "context_crop": [
             1500,
             1485,
-            1090,
+            1160,
             330
           ],
           "observed_text": "brarſe.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:8fa479e7237fff15afdb2828fd1d18cc9bdce5a7b853285c405e565ed59dce60"
         },
         {
@@ -1414,18 +1496,19 @@
           "crop": [
             1500,
             1662,
-            1090,
+            1160,
             96
           ],
           "context_crop": [
             1500,
             1545,
-            1090,
+            1160,
             330
           ],
           "observed_text": "Cagame, uru, eta. Encuruar, dobrar, ou",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:41f33dc364f53084f5549d06af4cad1b121ae45bf8b4f84f359a41f4a320a763"
         },
         {
@@ -1434,18 +1517,19 @@
           "crop": [
             1500,
             1724,
-            1090,
+            1160,
             98
           ],
           "context_crop": [
             1500,
             1608,
-            1090,
+            1160,
             330
           ],
           "observed_text": "entortar algũa couſa. ¶ Fizauo cagamu-",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:90384d48aa430ed0a46ddebf3e8ba46ea1922bfdbf5146bb45678ad1a38400cc"
         },
         {
@@ -1454,18 +1538,19 @@
           "crop": [
             1500,
             1787,
-            1090,
+            1160,
             98
           ],
           "context_crop": [
             1500,
             1671,
-            1090,
+            1160,
             330
           ],
           "observed_text": "ru. Dobrar os joelhos.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:22cafae8c1747d1624681964c09629df3dc1b5e038a3a95889d2f621706ca707"
         },
         {
@@ -1474,18 +1559,19 @@
           "crop": [
             1500,
             1841,
-            1090,
+            1160,
             96
           ],
           "context_crop": [
             1500,
             1724,
-            1090,
+            1160,
             330
           ],
           "observed_text": "Cagami. Eſpelho. ¶ Cagamiga cumoru.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:2877848e2a4281ffc1b341ca2b7a25f6cbdd6ad60899e1df71aeacf6730b0f29"
         },
         {
@@ -1494,18 +1580,19 @@
           "crop": [
             1500,
             1900,
-            1090,
+            1160,
             98
           ],
           "context_crop": [
             1500,
             1784,
-            1090,
+            1160,
             330
           ],
           "observed_text": "enneuoarſe o eſpelho, ou fazerſe baço. ¶ Ca-",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:fb38bf14a6987fba39ae51652b997ddec10dcaea810f6815921d02b172b14fd9"
         },
         {
@@ -1514,18 +1601,19 @@
           "crop": [
             1500,
             1965,
-            1090,
+            1160,
             98
           ],
           "context_crop": [
             1500,
             1849,
-            1090,
+            1160,
             330
           ],
           "observed_text": "gamini muco. Verſe ao eſpelho. ¶ Itẽ,",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:1e86a6c8ac3888aee17ed5a0a53d5294955b7858b1af107a4dac5274419dff83"
         },
         {
@@ -1534,18 +1622,19 @@
           "crop": [
             1500,
             2025,
-            1090,
+            1160,
             96
           ],
           "context_crop": [
             1500,
             1908,
-            1090,
+            1160,
             330
           ],
           "observed_text": "Cagami. Eſpelho, ou exemplo de virtude,",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:a1ae7dc95cb834c83df6f06a657e7962258fc07549c0a4eb90c171d597b1097a"
         },
         {
@@ -1554,19 +1643,20 @@
           "crop": [
             1500,
             2087,
-            1090,
+            1160,
             98
           ],
           "context_crop": [
             1500,
             1971,
-            1090,
+            1160,
             330
           ],
-          "observed_text": "&c. ¶ Ienno cagami. Eſpelho, ou ex-",
+          "observed_text": "&c. ¶ Ienno cagami. Eſpelho, ou ex",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:815d7f4d62b924bc38f79a9b4b89976681ac8bbbc0f71d10f877d949ecd03964"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:ca5cad92e4538634c6cc5ac31580fda27828e14f01e31afb66cafb9a53b89cd9"
         },
         {
           "id": "c2-l029",
@@ -1574,19 +1664,20 @@
           "crop": [
             1500,
             2150,
-            1090,
+            1160,
             98
           ],
           "context_crop": [
             1500,
             2034,
-            1090,
+            1160,
             330
           ],
-          "observed_text": "emplo de virtude. ¶ Fitono cagamito na-",
+          "observed_text": "emplo de virtude. ¶ Fitono cagamito na",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:5d123e0a639cac8c689d3c6009817414cfa5a0a061734a44eb8f0c12eca593cf"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:1ecca7fbd30980f55c303ea5cb67380dfd015b587f307252a35638bce73a7dd0"
         },
         {
           "id": "c2-l030",
@@ -1594,18 +1685,19 @@
           "crop": [
             1500,
             2214,
-            1090,
+            1160,
             96
           ],
           "context_crop": [
             1500,
             2097,
-            1090,
+            1160,
             330
           ],
           "observed_text": "ru. Dar bom exemplo aos outros.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:d09b58113266108c6c2b78213f447d26631118bba91ab9bf3e3fa7d55cfda532"
         },
         {
@@ -1614,18 +1706,19 @@
           "crop": [
             1500,
             2275,
-            1090,
+            1160,
             98
           ],
           "context_crop": [
             1500,
             2159,
-            1090,
+            1160,
             330
           ],
           "observed_text": "Cagami, iru. Ver algũa couſa com conſidera-",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:83314ba0f59a53d6c581af6b5f0236137cd74c82d06dce6bcc0a29d1b6a824cb"
         },
         {
@@ -1634,18 +1727,19 @@
           "crop": [
             1500,
             2340,
-            1090,
+            1160,
             97
           ],
           "context_crop": [
             1500,
             2223,
-            1090,
+            1160,
             330
           ],
           "observed_text": "ção, ou tomala por exemplo. Inda que não ha",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:98e10b94a29d46661803c24087cd2801866c06f826af58ee516af49446f1a7b4"
         },
         {
@@ -1654,18 +1748,19 @@
           "crop": [
             1500,
             2404,
-            1090,
+            1160,
             97
           ],
           "context_crop": [
             1500,
             2287,
-            1090,
+            1160,
             330
           ],
           "observed_text": "Cagamita, dirſe ha Cagamite.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:1ac9266845504913474c053c0685f1021ea2058cd72b0a1aa11b630b752d4951"
         },
         {
@@ -1674,18 +1769,19 @@
           "crop": [
             1500,
             2462,
-            1090,
+            1160,
             98
           ],
           "context_crop": [
             1500,
             2346,
-            1090,
+            1160,
             330
           ],
           "observed_text": "Cagami, u, ôda. Incuruarſe, ou andar al-",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:ad36aedba90be932ee8345654695e0975c68d478eac285185c41f51a2b9a3ed0"
         },
         {
@@ -1694,18 +1790,19 @@
           "crop": [
             1500,
             2526,
-            1090,
+            1160,
             97
           ],
           "context_crop": [
             1500,
             2409,
-            1090,
+            1160,
             330
           ],
           "observed_text": "corcouado. ¶ Cexiga cagamu. Andar",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:6854a37523a44a3a5dd4fdfc4bafc5d432609175e5aac7e19b6f4dfdd97d5827"
         },
         {
@@ -1714,19 +1811,20 @@
           "crop": [
             1500,
             2590,
-            1090,
+            1160,
             97
           ],
           "context_crop": [
             1500,
             2473,
-            1090,
+            1160,
             330
           ],
-          "observed_text": "al corcouado. ¶ Item, Cagamu. Vene-",
+          "observed_text": "al corcouado. ¶ Item, Cagamu. Vene",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:548f49897532a5fc7cd2a1610f197781e73ae9df65b1e3ba775e55d99307ed52"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:ac1e50220a5edc8e1413b7b6f69abe44fdec6a915cbea17b73a8576a44125dc8"
         },
         {
           "id": "c2-l037",
@@ -1734,19 +1832,20 @@
           "crop": [
             1500,
             2649,
-            1090,
+            1160,
             98
           ],
           "context_crop": [
             1500,
             2533,
-            1090,
+            1160,
             330
           ],
-          "observed_text": "rar, & reuerenciar a outro dobrandoſe, & abai-",
+          "observed_text": "rar, & reuerenciar a outro dobrandoſe, & abai",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:47b77f6bdd12f686cb2bdc735cf1829d257f6964931e87569adf5e935f970561"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:ae06f37e0dec4ed0ee55eee97034565f6fc1be9f66d67e7465c535e2b0edfd8c"
         },
         {
           "id": "c2-l038",
@@ -1754,18 +1853,19 @@
           "crop": [
             1500,
             2714,
-            1090,
+            1160,
             97
           ],
           "context_crop": [
             1500,
             2597,
-            1090,
+            1160,
             330
           ],
           "observed_text": "xandoſe. ¶ Item, Eſconderſe por reſpeito",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:d1e4909a15f3f5d3179a86ecbc6aae9b9a91ff2a8a6f64cb9da153ad203a1e74"
         },
         {
@@ -1774,18 +1874,19 @@
           "crop": [
             1500,
             2778,
-            1090,
+            1160,
             97
           ],
           "context_crop": [
             1500,
             2661,
-            1090,
+            1160,
             330
           ],
           "observed_text": "dalguem.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:fd66c93a620e75376b7c313b820cd384265fdd3b9dd11db7adca7d1f3772f68c"
         },
         {
@@ -1794,18 +1895,19 @@
           "crop": [
             1500,
             2837,
-            1090,
+            1160,
             98
           ],
           "context_crop": [
             1500,
             2721,
-            1090,
+            1160,
             330
           ],
           "observed_text": "Cagami mauari, ru. Encuruarſe a outro por",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:b35ad0a1b0db52057d6a8fa221d14eb7b897aa48c2269ab15601e8b4642451d2"
         },
         {
@@ -1814,18 +1916,19 @@
           "crop": [
             1500,
             2901,
-            1090,
+            1160,
             96
           ],
           "context_crop": [
             1500,
             2784,
-            1090,
+            1160,
             330
           ],
           "observed_text": "cauſa de reuerencia, ou andar baqueandoſe a",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:e2e1fa82587e8fd5d92135a8b230c7685883dc35253fa25602b8b9b80f76f09f"
         },
         {
@@ -1834,18 +1937,19 @@
           "crop": [
             1500,
             2961,
-            1090,
+            1160,
             98
           ],
           "context_crop": [
             1500,
             2845,
-            1090,
+            1160,
             330
           ],
           "observed_text": "hũs, & outros, ou andar eſcondido.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:7a7df0a7bab7cef326d5090cc0c43f69d973c36b29a4bdad8ca1219bbdda154e"
         },
         {
@@ -1854,19 +1958,20 @@
           "crop": [
             1500,
             3024,
-            1090,
+            1160,
             98
           ],
           "context_crop": [
             1500,
             2908,
-            1090,
+            1160,
             330
           ],
-          "observed_text": "Cagamino mochi. Hũs bolos de arroz redõ-",
+          "observed_text": "Cagamino mochi. Hũs bolos de arroz redõ",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:55d5952f54d067aed33a41ffcaf955511fb1cf9430dea66e5b96b92947e1fbd1"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:a7458ecf57babec0df671083c27d3a5dc516747b673065a93dd47c053e6bfcb0"
         },
         {
           "id": "c2-l044",
@@ -1874,18 +1979,19 @@
           "crop": [
             1500,
             3087,
-            1090,
+            1160,
             96
           ],
           "context_crop": [
             1500,
             2970,
-            1090,
+            1160,
             330
           ],
           "observed_text": "dos muito grandes como nos q̃ fazem no tempo",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:87bf5d4423a0dd8acb3b1ac839a534b00324567ba8ee4c0f53fc819dd6defff7"
         },
         {
@@ -1894,19 +2000,20 @@
           "crop": [
             1500,
             3146,
-            1090,
+            1160,
             98
           ],
           "context_crop": [
             1500,
             3030,
-            1090,
+            1160,
             330
           ],
           "observed_text": "do Xǒguachi.",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:f6b9210e07d4cf69c7b670c48214b47b6f52ba3d03fe07587955bdcc16af89fb"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:d6e26da00380c48b3bf5734f641741f3f18dc6b22cc65b3cb3b8252f62994a8c"
         },
         {
           "id": "c2-l046",
@@ -1914,18 +2021,19 @@
           "crop": [
             1500,
             3206,
-            1090,
+            1160,
             98
           ],
           "context_crop": [
             1500,
             3080,
-            1090,
+            1160,
             330
           ],
           "observed_text": "Cagami tenjǒ. Forro de caſa plaino de taboas",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:6779a9dbaf8301eb86b411ac747b7fa9340165e151efb67456e5ccbba22578cd"
         },
         {
@@ -1934,18 +2042,19 @@
           "crop": [
             1500,
             3272,
-            1090,
+            1160,
             96
           ],
           "context_crop": [
             1500,
             3125,
-            1090,
+            1160,
             285
           ],
           "observed_text": "ſem faſquias pollas junturas.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:63800901526174c799e584d1ee12e461afc5ff86debf9bb33e5326ebeea0ce9c"
         }
       ]

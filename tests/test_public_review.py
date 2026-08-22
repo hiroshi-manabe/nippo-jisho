@@ -361,8 +361,9 @@ class PublicReviewRegressionTests(unittest.TestCase):
                         "complete_column_width_checked",
                     )
                 else:
-                    self.assertEqual(
-                        column["visual_review"], "ai_bulk_geometry_sanity_checked"
+                    self.assertIn(
+                        column["visual_review"],
+                        {"ai_bulk_geometry_sanity_checked", "ai_line_by_line_checked"},
                     )
                 left, _, right, _ = column["box"]
                 for line in column["lines"].values():

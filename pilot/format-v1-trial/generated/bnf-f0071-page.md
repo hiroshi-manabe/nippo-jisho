@@ -14,7 +14,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | Cacarixi nochiua. *Adu. i.* Cacu *arixino* |  |
+| `c1-l001` | Cacarixi nochiua. *Adu. i.* Cacu *arixi no* |  |
 | `c1-l002` | &emsp;chiua. *Depois diſto, & ſendo aſſi, &c. S.* |  |
 | `c1-l003` | Cacariyǒ. *Pezar algũa couſa igualmente cõ* |  |
 | `c1-l004` | &emsp;*outra, ou estar o pezo juſto.* |  |
@@ -27,10 +27,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l011` | &emsp;*tender com algũa couſa. ¶ Item, Tocar,* |  |
 | `c1-l012` | &emsp;*ou tratar com as mãos. Vt,* Tede cacauaru. |  |
 | `c1-l013` | Cacaxe, ſuru, eta. *Fazer ſaltar. ¶* Vrauo |  |
-| `c1-l014` | &emsp;cacaſuru. *Fazer traſpallar com ſeta de par-* |  |
+| `c1-l014` | &emsp;cacaſuru. *Fazer traſpaſſar com ſeta de par-* |  |
 | `c1-l015` | &emsp;*te a parte.* |  |
 | `c1-l016` | Cacaxi, ſu, aita. *Faltar, ou fazer falta* |  |
-| `c1-l017` | &emsp;*em algũa couſa. Vt,* Oraciono cacaſuna. |  |
+| `c1-l017` | &emsp;*em algũa couſa. Vt,* Oraciouo cacaſuna. |  |
 | `c1-l018` | &emsp;*Fazei que não aja falta na oração.* |  |
 | `c1-l019` | Cacayacaxi, ſu, aita. *Fazer reſplandeçer,* |  |
 | `c1-l020` | &emsp;*ou luzir. Vt,* Ficariuo cacayacaſu. *Fa* |  |

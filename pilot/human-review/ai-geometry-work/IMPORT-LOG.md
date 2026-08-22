@@ -34,6 +34,12 @@ Fresh geometry-and-text returns were imported on 2026-08-20. All 470 body-line r
 
 Seventy-two physical lines contained independently scan-supported textual corrections: 11 on f56, 13 on f57, 19 on f58, 19 on f59, and 10 on f60. Accepted changes include line-end division marks, omitted letters and words, historical spacing and punctuation, Japanese romanization, diacritics, and Portuguese long-s forms outside the unresolved `ſt` classification. Proposed `ſt`/`st` reversals were deliberately not imported because those shapes remain governed by the separate human specialist audit; uncertain or linguistically impossible readings were likewise rejected. In several places the scan supported a third reading rather than either the old text or the returned observation, such as f56 `qiuamau` rather than returned `quiamau`.
 
+### f71–f75 line-by-line rereviews
+
+Fresh native-scan geometry-and-text returns were imported on 2026-08-23. All 474 body-line rectangles passed exact line-ID, bounds, source-image, and full strip-to-transcription association checks and are recorded as `ai_line_by_line_checked`. The returned geometry preserved readable character tops and descenders, line-end division marks, and the outer column rules throughout all ten columns; no project-side rectangle adjustment was needed.
+
+The 62 advisory text disagreements were separately adjudicated. Five scan-supported corrections were applied: f71 `arixi no`, `traſpaſſar`, and `Oraciouo`; f72 continuation `ſai atte` and Portuguese `pao`. The f72 proposal `femeas` was rejected because the scan clearly prints singular `femea,`. The remaining 56 proposals are exclusively `st`/`ſt` classifications and were deliberately left unchanged for the dedicated human specialist audit; neither the rereview nor this geometry import silently resolves that known difficult glyph distinction.
+
 ### f44–f46 geometry rereviews
 
 The stricter geometry-only rereviews were imported on 2026-08-16 after the first returns proved insufficiently centered. All 278 body-line rectangles use the revised vertical positions while retaining previously audited conservative horizontal coverage. Human adjudication established that lower-right `poſito` on f46 is a separate physical line continuing `depoſito` from `c2-l046`, not furniture or a catchword; it is therefore `c2-l047`. No independent text readings were supplied or applied.
