@@ -182,6 +182,7 @@ The opening dictionary page gives a compact warning against lexical modernizatio
 | --- | --- |
 | `ſ` versus `f` | They are different letters but visually close; the complete Portuguese word often exposes a misreading. |
 | `u` / `v`, `i` / `j` | Historical editions preserve these characters independently of modern vowel/consonant values. Copy the glyph rather than modernizing the word. |
+| `c` / `ç` | Cedilla use is not governed by modern Portuguese spelling in this source. A printed `ç` may occur where modern spelling has plain `c`, even before `e` or `i`; scan-confirmed examples include `touçinho`, `Eſclarçeo`, and `açẽdem`. Preserve or omit the cedilla occurrence by occurrence from visible ink. |
 | tildes | They can denote nasalization or omitted material. Preserve their occurrence-level placement and do not expand them; this dictionary genuinely varies between forms such as `algũa` and `alguã`. |
 | accents | They may represent stress, vowel quality, length in Japanese material, or a different mark entirely. Classify the local sign. |
 | doubled letters | Contemporary spelling and typesetting can differ from modern expectation. Count the printed types. |

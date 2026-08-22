@@ -71,6 +71,7 @@ These are **reinspection prompts, not replacement rules**.
 
 - Read the whole gloss, not isolated letter shapes. Modern Portuguese can expose a suspicious sequence, but it cannot settle it.
 - Preserve `ſ`, historical `u/v` and `i/j`, accents, tildes, abbreviations, capitalization, spacing, and punctuation as printed.
+- Preserve each visible cedilla independently of modern spelling. This dictionary can print `ç` where modern Portuguese would use plain `c`, including before `e` or `i`; confirmed examples include `touçinho`, `Eſclarçeo`, and `açẽdem`. Treat modern spelling only as a prompt to enlarge the glyph, never as grounds for removing the cedilla.
 - Expect spelling variation, including missing or unfamiliar-looking vowels, endings, and accent choices. The project has confirmed printed `Interieção`, `deſiguaes`, `anotomia`, `baxo`, `printuras`, `cercido`, `chouer`, `eſtà`, `pès`, and `de mais` against tempting modernizations. Earlier machine readings `ſonzear` and `delgaça` on f26 were later overturned by explicit human reinspection as `ſongear` and `delgada`.
 - Inventory uncommon marks rather than reading through them: `Poëtas` on `f25` has a real diaeresis, not two paper specks.
 - A tilde can stand for omitted letters as well as nasalization. Do not expand it in Level 1.
