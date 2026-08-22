@@ -17,23 +17,23 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l001` | Bin mizzu. *Agoa pera concertarem o cabe* |  |
 | `c1-l002` | &emsp;*da cabeça dos homẽs.* |  |
 | `c1-l003` | Binpat. Binno cami. *Cabellos das fontes da* |  |
-| `c1-l004` | &emsp;*cabeça. ¶* Binpatuo qezzuru. *Pentear* |  |
+| `c1-l004` | &emsp;*cabeça. ¶* Binpatuo qezzuru. *Pentea* |  |
 | `c1-l005` | &emsp;*os cabellos das fontes.* |  |
-| `c1-l006` | Binpǔ, l, fǔbin. Tayori tayori. *Oppor-* |  |
-| `c1-l007` | &emsp;*tunidade, ocasião.* |  |
-| `c1-l008` | Binro. Tayorino michi. *Comercio, ou cõ-* |  |
+| `c1-l006` | Binpǔ, l, fǔbin. Tayori tayori. *Opor-* |  |
+| `c1-l007` | &emsp;*tunidade, ocaſião.* |  |
+| `c1-l008` | Binro. Tayorino michi. *Comercio, ou cõ* |  |
 | `c1-l009` | &emsp;*municação de recados, ou portador. ¶ Vt,* |  |
-| `c1-l010` | &emsp;Binroga tayuru. *Atalharſe, ou impedir* |  |
+| `c1-l010` | &emsp;Binroga tayuru. *Atalharſe, ou empedir* |  |
 | `c1-l011` | &emsp;*ſe a communicação, & comercio, cami-* |  |
 | `c1-l012` | &emsp;*nho, &c.* |  |
-| `c1-l013` | Binrǒji. *Arêca que em Iapão vzão por me-* |  |
+| `c1-l013` | Binrǒji. *Arèca que em Iapão vzão por me-* |  |
 | `c1-l014` | &emsp;*zinha.* |  |
 | `c1-l015` | Bintat. *Diligẽcia, & habilidade no estudo das* |  |
 | `c1-l016` | &emsp;*letras. ¶* Bintatna. *Homem habil, &* |  |
 | `c1-l017` | &emsp;*de bom engenho.* |  |
 | `c1-l018` | Binxen. Tayorino fune. *Embarcação em q̃* |  |
-| `c1-l019` | &emsp;*algũ vai ſem a fretar por ſi. ¶* Binxen |  |
-| `c1-l020` | &emsp;ſuru. *Ir neſta embarcação por ocasião, ou à* |  |
+| `c1-l019` | &emsp;*algun vai ſem a fretar por ſi. ¶* Binxen |  |
+| `c1-l020` | &emsp;ſuru. *Ir neſta embarcação por ocaſião, ou à* |  |
 | `c1-l021` | &emsp;*ſombra de outros.* |  |
 | `c1-l022` | Binzzura. *Fontes da cabeça.* |  |
 | `c1-l023` | Biǒ. *Prègos belmazes, tachas, ou brochas de* |  |
@@ -43,12 +43,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l027` | &emsp;*panneis groſſos que ſe tem por ſi em pee, de que* |  |
 | `c1-l028` | &emsp;*vzão os Iapoẽs pera ornato das caſas, & pera* |  |
 | `c1-l029` | &emsp;*contra o vento, &c. ¶* Biǒbuuo caye- |  |
-| `c1-l030` | &emsp;ſugi gotocu, vma yori maſſacalamani vo- |  |
-| `c1-l031` | &emsp;chita. *Cabio do caualo de pernas arriba a* |  |
+| `c1-l030` | &emsp;ſuga gotocu, vma yori maſſacaſamani vo- |  |
+| `c1-l031` | &emsp;chita. *Cahio do caualo de pernas arriba a* |  |
 | `c1-l032` | &emsp;*maneira de* Biǒbus *que caem pera traz dan-* |  |
-| `c1-l033` | &emsp;*do cõſigo no chão.* |  |
+| `c1-l033` | &emsp;*do conſigo no chão.* |  |
 | `c1-l034` | Biǒbu caqe. *Instrumento como gancho de* |  |
-| `c1-l035` | &emsp;*pao que tem mão nos* Biǒbus *que não caião.* |  |
+| `c1-l035` | &emsp;*pao que tem mão nos* Biǒbus *que não cayão.* |  |
 | `c1-l036` | Biǒca. Biǒjano iye. *Caſa de doentes.* |  |
 | `c1-l037` | Biǒchǔ. Vazzuraino vchi. *Estando doente,* |  |
 | `c1-l038` | &emsp;*ou em tempo da doença.* |  |
@@ -81,11 +81,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l001` | Biǒdôni. *Vt,* Biǒdôni monouo voſamuru. |  |
 | `c2-l002` | &emsp;*Gouernar com igualdade, & iustiça. ¶* Biǒ- |  |
 | `c2-l003` | &emsp;dôni monouo cubaru. *Repartir algũa* |  |
-| `c2-l004` | &emsp;*couſa igualmente.* |  |
-| `c2-l005` | Biǒdôzucuri. *Certo feitio de arco da tirar.* |  |
+| `c2-l004` | &emsp;*couſa igual mente.* |  |
+| `c2-l005` | Biǒdôzucuri. *Certo feitio de arco datirar.* |  |
 | `c2-l006` | Biǒgan. Vazzurǒ manaco. *Olhos doẽtes.* |  |
 | `c2-l007` | Biǒguen. Yamaj no minacami. *Cauſa da do-* |  |
-| `c2-l008` | &emsp;*ença.* |  |
+| `c2-l008` | &emsp;*doença.* |  |
 | `c2-l009` | Biǒgo. Yamaino nochi. *Depois da doença.* |  |
 | `c2-l010` | Biǒin. *Origem, ou principio da doença.* |  |
 | `c2-l011` | Biǒja. i. Vazzurǒ mono. *Doente, enfermo.* |  |
@@ -99,7 +99,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l019` | Biǒqina. *Doente.* Biǒqini. *Adu.* |  |
 | `c2-l020` | Biǒrǒ. Yamaino tçucare. *Fraqueza, &* |  |
 | `c2-l021` | &emsp;*canſaço da doença.* |  |
-| `c2-l022` | Biǒtai. Vazzurǒ tai. *Corpo doente, enfermo.* |  |
+| `c2-l022` | Biǒtai. Vazzuro tai. *Corpo doente, enfermo.* |  |
 | `c2-l023` | &emsp;*¶* Biǒtai degozaru. *Ser doente, ou* |  |
 | `c2-l024` | &emsp;*enfermo.* |  |
 | `c2-l025` | Biǒxi. Vazzurai xiſuru. *O morrer da do-* |  |
@@ -108,23 +108,23 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l028` | Biǒxit. Yami. *Doença.* |  |
 | `c2-l029` | Biǒxǒ. Yamaino yuca. *Catre, ou cama* |  |
 | `c2-l030` | &emsp;*do doente.* |  |
-| `c2-l031` | Biǒxô. *Sinal, ou effeito donde ſe conhece a do-* |  |
+| `c2-l031` | Biǒxô. *Sinal, ou effeito donde ſe conheçe a do-* |  |
 | `c2-l032` | &emsp;*ença.* |  |
 | `c2-l033` | Biôxo. Facadocoro. *Sepultura, ou lugar* |  |
 | `c2-l034` | &emsp;*de ſepulturas.* |  |
-| `c2-l035` | Biqei. i. Yoi qei. *Fermoſa vista.* |  |
-| `c2-l036` | Biqen. Vtçucuxŭ cauo yoxi. *Rosto fer-* |  |
+| `c2-l035` | Biqei. i. Yoi qei. *Fermoſa viſta.* |  |
+| `c2-l036` | Biqen. Vtçucuxû cauo yoxi. *Rosto fer-* |  |
 | `c2-l037` | &emsp;*moſo, ou fermoſura.* |  |
 | `c2-l038` | Biqen. Itçucuxij inu. *Cão fermoſo.* |  |
 | `c2-l039` | Biqin. *Alicubi.* Fanagami. *Papel de aſ-* |  |
-| `c2-l040` | &emsp;*ſoar os narizes.* |  |
+| `c2-l040` | &emsp;*soar os narizes.* |  |
 | `c2-l041` | Biramecaxi, ſu, aita. *Fazer ondear as bã-* |  |
 | `c2-l042` | &emsp;*deiras, ou fazer bulir papel, abano, &c.* |  |
 | `c2-l043` | Birameqi, u, eita. *Ondearem as bandeiras,* |  |
 | `c2-l044` | &emsp;*papel, ou couſa ſemelhante ao vento, &c.* |  |
 | `c2-l045` | Birampǔ. *Vento que ſoprou no principio do mũ-* |  |
 | `c2-l046` | &emsp;*do, como dizem os gentios de Iapão.* |  |
-| `c2-l047` | Birari xarari. *Modo de andar daqui para lá,* |  |
+| `c2-l047` | Birari xarari. *Modo de andar decà para là,* |  |
 
 ## Signature
 
