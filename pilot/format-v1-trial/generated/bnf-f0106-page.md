@@ -100,7 +100,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l025` | &emsp;*leite. Vt,* Faga chiguchite, l, chiguchita. |  |
 | `c2-l026` | Chigime, uru, eta. *Encolher, ou encrespar.* |  |
 | `c2-l027` | &emsp;*¶* Muuo chigimuru. *Encolherſe.* |  |
-| `c2-l028` | Chigimi. *Certa laya de prata. Iiẽ hũa peça.* |  |
+| `c2-l028` | Chigimi. *Certa laya de prata. Itẽ hũa peça.* |  |
 | `c2-l029` | Chigimi, u, iida. *Encolherſe, ou engru-* |  |
 | `c2-l030` | &emsp;*nharſe. ¶* Binno cami chigŭide. *Ten-* |  |
 | `c2-l031` | &emsp;*do os cabellos das fontes creſpos.* |  |

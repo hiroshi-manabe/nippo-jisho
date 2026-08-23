@@ -14,7 +14,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | Chùv. Bup. Nacani ari. *Eſtar no meo. i.* |  |
+| `c1-l001` | Chùv. Bup. Nacani ari. *eſtar no meo. i.* |  |
 | `c1-l002` | &emsp;*ſem ir a pena, nem a gloria.* |  |
 | `c1-l003` | Chûuǒ. Naca, naca. *Meo. ¶* Ten no |  |
 | `c1-l004` | &emsp;chùuǒ. *Meo do ceo.* |  |
@@ -28,25 +28,25 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l012` | &emsp;*ceſſo da guerra, ou de outra couſa. ¶* Chùxin- |  |
 | `c1-l013` | &emsp;uo môſu, l, ſuru. *Dar eſtas nouas, ou faze-* |  |
 | `c1-l014` | &emsp;*las a ſaber.* |  |
-| `c1-l015` | Chùxin. Tadaxi xinca. *Criado de grandes ſer-* |  |
+| `c1-l015` | Chùxin. Tadaxij xinca. *Criado de grandes ſer-* |  |
 | `c1-l016` | &emsp;*uiços.* |  |
 | `c1-l017` | Chùxǒ. *Premio dos ſeruiços.* |  |
 | `c1-l018` | Chùxocun. *Pena deſcreuer.* |  |
 | `c1-l019` | Chùxu. *Vinho que ſe da na meza.* |  |
-| `c1-l020` | Chùxù. i, chùjù. *Meo do outono, ou* |  |
-| `c1-l021` | &emsp;*oitaua lũa. Vt,* chùxù tengi fogaraca |  |
+| `c1-l020` | Chùxù. l, chùjù. *Meo do outono, ou* |  |
+| `c1-l021` | &emsp;*oitaua lũa. Vt,* chùxù tenqi fogaraca |  |
 | `c1-l022` | &emsp;nari. *A lũa do meo do outono he muito clara.* |  |
 | `c1-l023` | Chùxun, l, Chùjun. Nguatno tçuqino coto. |  |
 | `c1-l024` | &emsp;*Segundo mez, ou lũa, ou meo da prima* |  |
 | `c1-l025` | &emsp;*uera.* |  |
 | `c1-l026` | Chùya. Firu, yoru. *De dia, & de noite.* |  |
 | `c1-l027` | Chùyǒ. *Segunda lũa, ou mez.* |  |
-| `c1-l028` | Chùyô. *Meyo, ou mediocridade nas couſas.* |  |
+| `c1-l028` | Chùyǒ. *Meyo, ou mediocridade nas couſas.* |  |
 | `c1-l029` | &emsp;*Vt,* Banji chùyǒuo mamore. *Em tudo* |  |
 | `c1-l030` | &emsp;*guardar o meo, ou em tudo ſede temperado.* |  |
 | `c1-l031` | &emsp;¶ *Item, Nome de hum liuro da china que* |  |
 | `c1-l032` | &emsp;*trata deſta temperança, & mediocridade.* |  |
-| `c1-l033` | Chùzon. Fotoque *que eſtá no meyo, i. en-* |  |
+| `c1-l033` | Chùzon. Fotoqe *que eſtá no meyo, i. en-* |  |
 | `c1-l034` | &emsp;*tre dous.* |  |
 
 ## Printed alphabetical divider
@@ -68,7 +68,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l041` | &emsp;*Eſtar habituado, ou exercitado. ¶ Item, l,* |  |
 | `c1-l042` | &emsp;gacumonno cǒ uo tçumu. *Ter adquiri-* |  |
 | `c1-l043` | &emsp;*do grande habito de virtude, ou das letras.* |  |
-| `c1-l044` | &emsp;¶ *Item, cǒ ſeruiços grandes que* |  |
+| `c1-l044` | &emsp;¶ *Item, cõ ſeruiços grandes que* |  |
 | `c1-l045` | &emsp;*ſe fazem a algum ſenhor. ¶* Cǒ aru fito. |  |
 
 ## Column 2 running header
@@ -100,13 +100,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l011` | &emsp;*ver, ou julgar a qualidade de cheiro.* |  |
 | `c2-l012` | Cǒacu. Yoxi, axi. *Couſa boa, ou apetitiuel,* |  |
 | `c2-l013` | &emsp;*& ruim, ou que não he apetitiuel.* |  |
-| `c2-l014` | Coai. *Truas pequenas.* |  |
+| `c2-l014` | Coai. *Trutas pequenas.* |  |
 | `c2-l015` | Côan. Nochiuo cangǒru. *Conſideração do* |  |
 | `c2-l016` | &emsp;*futuro.* |  |
-| `c2-l017` | Coaxi. *Eſtouo.* |  |
+| `c2-l017` | Coaxi. *Eſteyo.* |  |
 | `c2-l018` | Coaxi. *Paſſo pequeno. ¶* Coaxini ayu- |  |
 | `c2-l019` | &emsp;mu. *Andar com o paſſo curto.* |  |
-| `c2-l020` | Coba. i. Cococuno vma, l, yebifuno v- |  |
+| `c2-l020` | Coba. i. Cococuno vma, l, yebiſuno v- |  |
 | `c2-l021` | &emsp;ma. *Caualo de hum Reino vezinho ao da* |  |
 | `c2-l022` | &emsp;*China chamado* Coba. |  |
 | `c2-l023` | Cǒba. Yuqu vma. *Caualo que caminha.* |  |
@@ -124,12 +124,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l035` | Coban. *Taboa que poem no fundo das gayolas* |  |
 | `c2-l036` | &emsp;*dos paſſaros.* |  |
 | `c2-l037` | Coban. Fiuo tçugǒ ſenqeno mexiuo ſuru fi- |  |
-| `c2-l038` | &emsp;taqi. *Homem de ſeruiço que nas Terras dos* |  |
-| `c2-l039` | &emsp;*Tẽxus ſerue de cozinheiro.* |  |
+| `c2-l038` | &emsp;taqi. *Homem de ſeruiço que nas Teras dos* |  |
+| `c2-l039` | &emsp;*Ienxus ſerue de cozinheiro.* |  |
 | `c2-l040` | Cobari. *Traue pequena, ou tirante que atra-* |  |
 | `c2-l041` | &emsp;*ueſſa no edificio, ou madeiramento.* |  |
 | `c2-l042` | Cǒbari. *Pao, ou bambu, &c. que ſe mete an-* |  |
-| `c2-l043` | &emsp;*tre algũa couſa que ſe poſerna enxugar pera q̃* |  |
+| `c2-l043` | &emsp;*tre algũa couſa que ſe poem a enxugar pera q̃* |  |
 | `c2-l044` | &emsp;*ſe não pegue hũa parte com outra. ¶* Coba- |  |
 | `c2-l045` | &emsp;riuo cǒ. *Meter eſte pao, ou couſa ſeme-* |  |
 | `c2-l046` | &emsp;*lhante pera eſte effeito. ¶ Item, Por algũ* |  |

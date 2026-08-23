@@ -43,7 +43,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l027` | &emsp;*beça dalgum reino.* |  |
 | `c1-l028` | Cocufù. *Cuſtume do reino.* |  |
 | `c1-l029` | Cocuga. i. Cuquereǒ. *Renda, ou terras* |  |
-| `c1-l030` | &emsp;*que antiguamente tinhão os Cuques. ¶ Item,* |  |
+| `c1-l030` | &emsp;*que antiguamente tinhão os Cuques. ¶ Itẽ,* |  |
 | `c1-l031` | &emsp;Cocugai. Xococuno fuchu. *Cidade prin-* |  |
 | `c1-l032` | &emsp;*cipal de todo reino.* |  |
 | `c1-l033` | Cocuguen. Toqi, caguiri. *Hora, & ter-* |  |
@@ -60,7 +60,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l044` | &emsp;*hum pao que metem por Marco, & limite de* |  |
 | `c1-l045` | &emsp;*baxo da terra entre dous chãos, ou campos.* |  |
 | `c1-l046` | Cocu-in. Curoi voxite. *Marca, ou ſinete* |  |
-| `c1-l047` | &emsp;*cõ tinta para mutar, ou por ſinal. ¶ Item* |  |
+| `c1-l047` | &emsp;*cõ tinta para mutar, ou por ſinal. ¶ Itẽ* |  |
 
 ## Column 2 running header
 

@@ -15,11 +15,11 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c1-l001` | Chôqin. Axitano aſagauo. *Flor chamada* |  |
-| `c1-l002` | &emsp;*Aligauo que logo ſe murcha ſaindo o ſol.* |  |
-| `c1-l003` | Chǒqiŭ. Yumino faru. *O por a corda no arco.* |  |
+| `c1-l002` | &emsp;*Aſagauo que logo ſe murcha ſaindo o ſol.* |  |
+| `c1-l003` | Chǒqiŭ. Yumiuo faru. *O por a corda no arco.* |  |
 | `c1-l004` | Chǒqiŭ. Nagô fiſaxij coto. *Couſa durauel,* |  |
 | `c1-l005` | &emsp;*ou de muitos annos.* |  |
-| `c1-l006` | Chôqua. Coyefuguru. *Exceſſo, ou demaſia* |  |
+| `c1-l006` | Chôqua. Coyeſuguru. *Exceſſo, ou demaſia* |  |
 | `c1-l007` | &emsp;*quer ſeja no comer, & veſtir, ou em outra cou-* |  |
 | `c1-l008` | &emsp;*ſa. S. ¶ Item, He palaura com que* |  |
 | `c1-l009` | &emsp;*louuão, ou encarecẽ algũa couſa. Vt,* Chô- |  |
@@ -31,8 +31,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l015` | Chǒrei. Acaza acaza. *Nome de hũa erua.* |  |
 | `c1-l016` | Chôren. Totonoye neru. *Exercicio, & cuſ-* |  |
 | `c1-l017` | &emsp;*tume, ou habito. Vt,* Chôren ſuru. *Exer-* |  |
-| `c1-l018` | &emsp;*citarſe, ou acoſtumarſe.* |  |
-| `c1-l019` | Chǒri. Votoma. *Cabeça, ou principal aquem* |  |
+| `c1-l018` | &emsp;*citarſe, ou acuſtumarſe.* |  |
+| `c1-l019` | Chǒri. Votona. *Cabeça, ou principal aquem* |  |
 | `c1-l020` | &emsp;*os outros reconhecem.* |  |
 | `c1-l021` | Chǒri. *Os que eſfolão as beſtas mortas, ou bo-* |  |
 | `c1-l022` | &emsp;*is, ou cabeça que tem ſuperintendencia ſobre* |  |
@@ -57,7 +57,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l041` | Chôsainin. *O que faz, ou tempera o comer.* |  |
 | `c1-l042` | Chôsan. Axita mairu. *O ir polla manhaã a to-* |  |
 | `c1-l043` | &emsp;*mar os pontos de meditação. ¶* Boſan. *O ir* |  |
-| `c1-l044` | &emsp;*à tarde dar conta deſtes pontos. ſenxii.* |  |
+| `c1-l044` | &emsp;*à tarde dar conta deſtes pontos. Ienxii.* |  |
 | `c1-l045` | Chotan. Inoxixino qimo. *Figado, ou bofes* |  |
 | `c1-l046` | &emsp;*de porco do mato.* |  |
 | `c1-l047` | Chǒtan. Nagaxi, mijicaxi. *Couſa compri-* |  |
@@ -75,7 +75,7 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c2-l001` | Chôtat. Totonoye taſuru. *O aparelhar,* |  |
 | `c2-l002` | &emsp;*& negociar algũa couſa.* |  |
-| `c2-l003` | Chôtei. *Pateo, ou* Nina *del Rei.* |  |
+| `c2-l003` | Chôtei. *Pateo, ou* Niua *del Rei.* |  |
 | `c2-l004` | Chôteqi. *Inimigo del Rei.* |  |
 | `c2-l005` | Chǒtǒ, l, potius chǒdǒ. Nagai michi. Cami*-* |  |
 | `c2-l006` | &emsp;*nho comprido.* |  |
@@ -110,7 +110,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l035` | Chôxin. Totonoye xinzuru. *Aparelhan-* |  |
 | `c2-l036` | &emsp;*do, ou negociando algũa couſa dala, ou offe-* |  |
 | `c2-l037` | &emsp;*recella. Vt,* Chôxin môſu, l, ſuru. |  |
-| `c2-l038` | Chôxǒ. Manegi xôzuru. i. Fitouo xô- |  |
+| `c2-l038` | Chôxǒ. Maneqi xôzuru. i. Fitouo xô- |  |
 | `c2-l039` | &emsp;dai ſuru. *Receber a peſſoa honrrada em* |  |
 | `c2-l040` | &emsp;*ſua caſa.* |  |
 | `c2-l041` | Chǒxô. Nagai matçu. *Pinheiro comprido,* |  |

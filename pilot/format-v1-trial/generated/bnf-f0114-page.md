@@ -14,7 +14,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | Chùguen. Tadaxi cotoba. *Palauras rectas,* |  |
+| `c1-l001` | Chùguen. Tadaxij cotoba. *Palauras rectas,* |  |
 | `c1-l002` | &emsp;*ou bons conſelhos. ¶* Chùguẽ mimini ſacô. |  |
 | `c1-l003` | &emsp;*Os bõs cõſelhos ſão mal ouuidos.* |  |
 | `c1-l004` | Chũguen. *Homem de eſporas.* |  |
@@ -26,7 +26,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l010` | &emsp;¶ Chùguen rǒjeqiuo ſuru. *Fazer eſta* |  |
 | `c1-l011` | &emsp;*violencia, &c.* |  |
 | `c1-l012` | Chùgui. i. Chùxet. *Seruiço aſſinalado.* |  |
-| `c1-l013` | Chùguin. Tadaxi tçutomũru. *Seruiços grã-* |  |
+| `c1-l013` | Chùguin. Tadaxi tçutomuru. *Seruiços grã-* |  |
 | `c1-l014` | &emsp;*des, ou aſſinalados.* |  |
 | `c1-l015` | Chùguio. Muxi, iuo. *Bicho, & peixe.* |  |
 | `c1-l016` | Chùgo. *O que bebe vinho em mediocre pro-* |  |
@@ -42,7 +42,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l026` | Chùjet. Naca tayuru. *O ceſſar, ou interrom-* |  |
 | `c1-l027` | &emsp;*per algũa couſa. ¶ Item, Quebrada amizade.* |  |
 | `c1-l028` | Chùjin. *Peſſoa de mediocre ſaber, & honr-* |  |
-| `c1-l029` | &emsp;*ra, &c.* |  |
+| `c1-l029` | &emsp;*ra, &c. X.* |  |
 | `c1-l030` | Chùjiqi. i. Firuiy, l, firumexi. *Comer do* |  |
 | `c1-l031` | &emsp;*meo dia.* |  |
 | `c1-l032` | Chùin. i. Tomurai. *Exequias, ou comenda-* |  |
@@ -78,28 +78,28 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l004` | &emsp;*prezente como peças, agulha, &c. por que* |  |
 | `c2-l005` | &emsp;*ſe he caualo, montante,* Tarus, *&* Sacanas |  |
 | `c2-l006` | &emsp;*diz ſe* Mocurocu. |  |
-| `c2-l007` | Chùmǒ. Chùnono anni. *Tea de aranha.* |  |
+| `c2-l007` | Chùmǒ. Cumono anni. *Tea de aranha.* |  |
 | `c2-l008` | Chùna. *Couſa arrezoada, ou mediocre.* |  |
-| `c2-l009` | Chùnichi. *Dias do meo da ſomana em que ſa-* |  |
-| `c2-l010` | &emsp;*zem boas obras, ou rezão pollos defuntos: ſa-* |  |
+| `c2-l009` | Chùnichi. *Dias do meo da ſomana em que fa-* |  |
+| `c2-l010` | &emsp;*zem boas obras, ou rezão pollos defuntos ẽ Ia-* |  |
 | `c2-l011` | &emsp;*pão a que chamão* Figan *que he nos dous Equi-* |  |
 | `c2-l012` | &emsp;*noctios do anno, em Março, & ſetembro.* |  |
 | `c2-l013` | Chùnin. Nacôdo. i. Nacadachi. *Tercei-* |  |
-| `c2-l014` | &emsp;*ro, ou medianeiro que faz, & ou concerta algũas* |  |
+| `c2-l014` | &emsp;*ro, ou medianeiro que faz, ou concerta algũas* |  |
 | `c2-l015` | &emsp;*amizades, caſamento, &c.* |  |
 | `c2-l016` | Chùqi. *Certo offiçio que ha entre os Tẽxus.* |  |
 | `c2-l017` | Chùqin. i. Chùxet. *Seruiços aſſinalados.* |  |
-| `c2-l018` | &emsp;*Vt,* Chùqiuo naguizzuru. *Fazer grã-* |  |
+| `c2-l018` | &emsp;*Vt,* Chùqiuo nuqinzzuru. *Fazer grã-* |  |
 | `c2-l019` | &emsp;*des ſeruiços, & aſſinalados.* |  |
-| `c2-l020` | Chùqua. Miyaco. i. Tatôno Miaco. *Ci-* |  |
+| `c2-l020` | Chùqua. Miyaco. i. Taitôno Miaco. *Ci-* |  |
 | `c2-l021` | &emsp;*dade principal, ou metropole do Reino da Chi-* |  |
 | `c2-l022` | &emsp;*na, tambem ſe aplica ao* Miaco *de Iapão.* |  |
-| `c2-l023` | Chùricu. Vchi xiqi. i. Xeibai. *Iuſtiçar,* |  |
+| `c2-l023` | Chùricu. Vchi, vtçu. i. Xeibai. *Iuſtiçar,* |  |
 | `c2-l024` | &emsp;*ou matar por juſtiça. ¶* Chùricuno ba. |  |
 | `c2-l025` | &emsp;*Lugar, ou campo onde ſe corta a cabeça, &c.* |  |
 | `c2-l026` | Chùriacu. *O cortar a palaura, ou fazer cin-* |  |
-| `c2-l027` | &emsp;*copa no meo. Vt,* Fotǒriqte chùriacu xi- |  |
-| `c2-l028` | &emsp;te Fotogeto yŭ. *Item, Abreuiar, ou* |  |
+| `c2-l027` | &emsp;*copa no meo. Vt,* Fotôriqe chùriacu xi- |  |
+| `c2-l028` | &emsp;te Fotogero yŭ. ¶ *Item, Abreuiar, ou* |  |
 | `c2-l029` | &emsp;*fazer que não ſoem algũas pancadas no meo do* |  |
 | `c2-l030` | &emsp;*tanger, & aſſi em outras couſas.* |  |
 | `c2-l031` | Chùrio. i. xiguachi. *Quarta lũa, ou mez* |  |
@@ -113,7 +113,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l039` | &emsp;*Ordir, ou tramar algũa couſa.* |  |
 | `c2-l040` | Chùſacu. *Meyo, ou interceſſão pera fazer* |  |
 | `c2-l041` | &emsp;*amizades, ou fazer outras couſas.* |  |
-| `c2-l042` | Chùsacunin. *Terceiro que faz eſtas amizades,* |  |
+| `c2-l042` | Chùſacunin. *Terceiro que faz eſtas amizades,* |  |
 | `c2-l043` | &emsp;*ou corretor entre os que comprão, & vendem.* |  |
 | `c2-l044` | Chùtô. Fuyuuo ſaichù. *Meyo do inuerno.* |  |
 | `c2-l045` | Chùtǒ. Nuſumi, nuſumi. *Furto. Vt,* |  |

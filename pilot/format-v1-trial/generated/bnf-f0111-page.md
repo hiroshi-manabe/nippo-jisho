@@ -28,12 +28,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l012` | &emsp;*caſeira, &c.* |  |
 | `c1-l013` | Chôga. Atuyamaino na. *Hũa certa doença.* |  |
 | `c1-l014` | Chôgai. Coyuru caguiri. *Toda a vida.* |  |
-| `c1-l015` | Chôguet. Axitano tçuqij. *Lũa de polla manhaã.* |  |
+| `c1-l015` | Chôguet. Axitano tçuqi. *Lũa de polla manhaã.* |  |
 | `c1-l016` | Chôgui. Totonoyuru gui. *Ardil, ou in-* |  |
 | `c1-l017` | &emsp;*uenção. Vt,* Chôguiuo ſuru. *Fazer ar-* |  |
 | `c1-l018` | &emsp;*dil. ¶* Chôguiuo auaſuru. *Fazer q̃* |  |
-| `c1-l019` | &emsp;*vã to vinho bem.* |  |
-| `c1-l020` | Chôguin. Ngacu guinzuru. i. Xijcauo |  |
+| `c1-l019` | &emsp;*tudo venha bem.* |  |
+| `c1-l020` | Chôguin. Nagacu guinzuru. i. Xijcauo |  |
 | `c1-l021` | &emsp;guinzuru. *Conſiderar cantando verſos da* |  |
 | `c1-l022` | &emsp;*China, & Iapão.* |  |
 | `c1-l023` | Chǒguiǒ. Fari, voconô. Vt, Chǒguiǒ |  |
@@ -59,7 +59,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l043` | Chǒji. Yame todomuru. *Prohibição. Vt,* |  |
 | `c1-l044` | &emsp;Fitono yricaiuo chǒji ſuru. *Prohibir com-* |  |
 | `c1-l045` | &emsp;*pra, & uenda de gente.* |  |
-| `c1-l046` | Chǒji. *Grau de eſpeciaria.* |  |
+| `c1-l046` | Chǒji. *Crauo de eſpeciaria.* |  |
 | `c1-l047` | Chǒji, zuru, ita. *Eſtar entregue & embe-* |  |
 
 ## Column 2 running header
@@ -97,12 +97,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l017` | Chômi. Totonoye aguô. i. Recori ocoto. |  |
 | `c2-l018` | &emsp;*Tempera, ou concerto de comer. ¶* Chô- |  |
 | `c2-l019` | &emsp;miſuru. *Temperar.* |  |
-| `c2-l020` | Chômin. i. Tamiuo aſurucoto. *Apiadar-* |  |
+| `c2-l020` | Chômin. i. Tamiuo aiſurucoto. *Apiadar-* |  |
 | `c2-l021` | &emsp;*ſe, & ter compaixão do pouo.* |  |
 | `c2-l022` | Chômocu. Qinino coto. *Caixas, ou moedas* |  |
 | `c2-l023` | &emsp;*de cobre.* |  |
-| `c2-l024` | Chǒmon. Qiqu, u. *Ouuir. ¶* Dangui- |  |
-| `c2-l025` | &emsp;uo chômõ ſuru. *Ouuir a pregação.* |  |
+| `c2-l024` | Chǒmon. Qiqi, u. *Ouuir. ¶* Dangui- |  |
+| `c2-l025` | &emsp;uo chômon ſuru. *Ouuir a pregação.* |  |
 | `c2-l026` | Chǒnai. Machi vchi. *Dentro da rua.* |  |
 | `c2-l027` | Chǒnen. Nagai toxi. *Muitos annos, ou vi-* |  |
 | `c2-l028` | &emsp;*da comprida. He palaura com que tambem ſe* |  |

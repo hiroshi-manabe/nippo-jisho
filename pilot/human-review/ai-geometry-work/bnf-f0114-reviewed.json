@@ -2,7 +2,7 @@
   "format": "nippo-ai-line-geometry-response",
   "format_version": 1,
   "page": "bnf-f0114",
-  "response_status": "pending_independent_ai_line_review",
+  "response_status": "completed_independent_ai_line_review",
   "default_response_mode": "geometry_and_text",
   "completion_statuses": {
     "geometry_and_text": {
@@ -29,2011 +29,2025 @@
   },
   "transcription_source": {
     "page_file": "pilot/format-v1-trial/level1/bnf-f0114.json",
-    "page_file_sha256": "7abb0834f295b26d82897eacfd298fba8a12fb674a1e597b8e8292c15a848a14"
+    "page_file_sha256": "ff4394c3f5b6c386178969a781b4cf7680f98254be15931697a22315d21ead42"
   },
   "columns": {
     "column-1": {
       "column_box_xyxy": [
+        340,
         300,
-        300,
-        1505,
+        1450,
         3410
       ],
       "zone_ids": [
         "column-1"
       ],
-      "initial_geometry_provenance": "external_ai_width_rechecked",
-      "initial_geometry_reviewed_at": "2026-08-23",
+      "initial_geometry_provenance": "contact_sheet_reviewed",
+      "initial_geometry_reviewed_at": "2026-08-01",
       "geometry_requires_line_by_line_review": true,
       "lines": [
         {
           "id": "c1-l001",
           "centre_y": 470,
           "crop": [
-            300,
+            325,
             418,
-            1205,
+            1140,
             104
           ],
           "context_crop": [
-            300,
+            325,
             305,
-            1205,
+            1140,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
-          "expected_line_version": "sha256:617398d8e77a298e3e0a660087be5eed3d57419d84fd06bb1118468b6b47a383"
+          "observed_text": "Chùguen. Tadaxij cotoba. Palauras rectas,",
+          "match": "mismatch",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:0e04e87ba1eea86c73603f9410336ecce1ee5c59e3139d641991b40c62ae2014",
+          "note": "Direct native-scan reading differs from the canonical Level 1 line; visible scan form is retained."
         },
         {
           "id": "c1-l002",
           "centre_y": 533,
           "crop": [
-            300,
+            325,
             481,
-            1205,
+            1140,
             104
           ],
           "context_crop": [
-            300,
+            325,
             368,
-            1205,
+            1140,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "ou bons conſelhos. ¶ Chùguẽ mimini ſacô.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:7b7e2eb6c61c99695ca743556aa3fa7c233f8bce26f7dee2fe8bf1ba100428ec"
         },
         {
           "id": "c1-l003",
           "centre_y": 596,
           "crop": [
-            300,
+            325,
             544,
-            1205,
+            1140,
             104
           ],
           "context_crop": [
-            300,
+            325,
             431,
-            1205,
+            1140,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Os bõs cõſelhos ſão mal ouuidos.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:d1134ca848a65502c0f5ff21342df3d271cb55a582d8bf6cd0edaa9f1a982ed1"
         },
         {
           "id": "c1-l004",
           "centre_y": 658,
           "crop": [
-            300,
+            325,
             606,
-            1205,
+            1140,
             104
           ],
           "context_crop": [
-            300,
+            325,
             493,
-            1205,
+            1140,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Chũguen. Homem de eſporas.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:36aed091aa1632ce8a159394eb13f10857f0d362c0d8885bd58e0c4e6db8b55b"
         },
         {
           "id": "c1-l005",
           "centre_y": 721,
           "crop": [
-            300,
+            325,
             669,
-            1205,
+            1140,
             104
           ],
           "context_crop": [
-            300,
+            325,
             556,
-            1205,
+            1140,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Chùguen. Eſpaço, ou entre meo. ¶ Chi-",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:8f03e68bcc29b6a841d958f1c5553a051b1d28ef10154c2152bcd55711fa954a"
         },
         {
           "id": "c1-l006",
           "centre_y": 784,
           "crop": [
-            300,
+            325,
             732,
-            1205,
+            1140,
             104
           ],
           "context_crop": [
-            300,
+            325,
             619,
-            1205,
+            1140,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "guen rǒjeqi. Violencia, ou injuria que ſe",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:db8811d634455d34ec5aba9a632160ab34457d6c41cfa02b7756fe49ba0ffc44"
         },
         {
           "id": "c1-l007",
           "centre_y": 847,
           "crop": [
-            300,
+            325,
             795,
-            1205,
+            1140,
             104
           ],
           "context_crop": [
-            300,
+            325,
             682,
-            1205,
+            1140,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "faz ſobre algũa couſa que anda em demanda an-",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:cb0c3649d399dfa0a702204a09cae1c310a03c48e21a14401b9385390b0a4dee"
         },
         {
           "id": "c1-l008",
           "centre_y": 910,
           "crop": [
-            300,
+            325,
             858,
-            1205,
+            1140,
             104
           ],
           "context_crop": [
-            300,
+            325,
             745,
-            1205,
+            1140,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "tes de ſe liquidar, como tomando algũa couſa cõ",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:e88873acdccfe70ae4b5ae8a1692267f7df743d840a01020cc9a3f459077ae85"
         },
         {
           "id": "c1-l009",
           "centre_y": 973,
           "crop": [
-            300,
+            325,
             921,
-            1205,
+            1140,
             104
           ],
           "context_crop": [
-            300,
+            325,
             808,
-            1205,
+            1140,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "ajuda dalguem, antes de ſe dar ſentença, &c.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:b07f24ed73324e7c09abbb4b196e0c6451fe897fef98712ad0898b5aae185845"
         },
         {
           "id": "c1-l010",
           "centre_y": 1035,
           "crop": [
-            300,
+            325,
             983,
-            1205,
+            1140,
             104
           ],
           "context_crop": [
-            300,
+            325,
             870,
-            1205,
+            1140,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "¶ Chùguen rǒjeqiuo ſuru. Fazer eſta",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:89009f742dd108fbdb4b402d7933e1e9d608f3b7d5de4fe4964b93878520d05a"
         },
         {
           "id": "c1-l011",
           "centre_y": 1098,
           "crop": [
-            300,
+            325,
             1046,
-            1205,
+            1140,
             104
           ],
           "context_crop": [
-            300,
+            325,
             933,
-            1205,
+            1140,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "violencia, &c.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:385a29032b3699e08b0572149569c55c51fc79bc4794c8b9600e487307c23b39"
         },
         {
           "id": "c1-l012",
           "centre_y": 1161,
           "crop": [
-            300,
+            325,
             1109,
-            1205,
+            1140,
             104
           ],
           "context_crop": [
-            300,
+            325,
             996,
-            1205,
+            1140,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Chùgui. i. Chùxet. Seruiço aſſinalado.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:096016106048feb9f1be466ce191c22a8f298177a569d757b78c1d9add502d43"
         },
         {
           "id": "c1-l013",
           "centre_y": 1224,
           "crop": [
-            300,
+            325,
             1172,
-            1205,
+            1140,
             104
           ],
           "context_crop": [
-            300,
+            325,
             1059,
-            1205,
+            1140,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
-          "expected_line_version": "sha256:f0ad6a62e9087d9ebbd7b24ef9eee7b3f9fb3e1e9b4e44d5581e8fabc01b618e"
+          "observed_text": "Chùguin. Tadaxi tçutomuru. Seruiços grã-",
+          "match": "mismatch",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:ecccf893f0275cd2a5dc5eb2f4fc12d5d029f53cfcbd3e06c08ddd2fda7bfd0a",
+          "note": "Direct native-scan reading differs from the canonical Level 1 line; visible scan form is retained."
         },
         {
           "id": "c1-l014",
           "centre_y": 1287,
           "crop": [
-            300,
+            325,
             1235,
-            1205,
+            1140,
             104
           ],
           "context_crop": [
-            300,
+            325,
             1122,
-            1205,
+            1140,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "des, ou aſſinalados.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:b716bb26337ade5c981ea4601f5ac130de4ed281894bc75bbd120371e31955ce"
         },
         {
           "id": "c1-l015",
           "centre_y": 1350,
           "crop": [
-            300,
+            325,
             1298,
-            1205,
+            1140,
             104
           ],
           "context_crop": [
-            300,
+            325,
             1185,
-            1205,
+            1140,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Chùguio. Muxi, iuo. Bicho, & peixe.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:0aa7608279782c508ecdda9a791c7ed8219a18f2d6aad7082d19d97b554c9ecc"
         },
         {
           "id": "c1-l016",
           "centre_y": 1412,
           "crop": [
-            300,
+            325,
             1360,
-            1205,
+            1140,
             104
           ],
           "context_crop": [
-            300,
+            325,
             1247,
-            1205,
+            1140,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Chùgo. O que bebe vinho em mediocre pro-",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:debdaa6d8d2a099ba87dd19ae252d04315a682d45b70a09e6d82691c0e5ac169"
         },
         {
           "id": "c1-l017",
           "centre_y": 1475,
           "crop": [
-            300,
+            325,
             1423,
-            1205,
+            1140,
             104
           ],
           "context_crop": [
-            300,
+            325,
             1310,
-            1205,
+            1140,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "porção.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:cd8ccbc23c40f09e246f4978f2ad2b2f2219fb951e117bd903003d5fe1e38e5b"
         },
         {
           "id": "c1-l018",
           "centre_y": 1538,
           "crop": [
-            300,
+            325,
             1486,
-            1205,
+            1140,
             104
           ],
           "context_crop": [
-            300,
+            325,
             1373,
-            1205,
+            1140,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Chùgù. Lugar onde eſta a Rainha. Tambẽ",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:11c0762587290372003c2c2d0ec9ac69398fe7c45f0a9d9cc0c1eaf86f613aa0"
         },
         {
           "id": "c1-l019",
           "centre_y": 1601,
           "crop": [
-            300,
+            325,
             1549,
-            1205,
+            1140,
             104
           ],
           "context_crop": [
-            300,
+            325,
             1436,
-            1205,
+            1140,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "ſe toma polla meſma Rainha.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:b1c202c773b3e4f687a7dba8d493cea181c88520b9144a24c5a80a816b571254"
         },
         {
           "id": "c1-l020",
           "centre_y": 1664,
           "crop": [
-            300,
+            325,
             1612,
-            1205,
+            1140,
             104
           ],
           "context_crop": [
-            300,
+            325,
             1499,
-            1205,
+            1140,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Chùguan. Nacano maqi. Segũda parte das",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:079d918490385d0b977a3b202acf8e0274b324d2ecc1eae49fbf8396b900a619"
         },
         {
           "id": "c1-l021",
           "centre_y": 1727,
           "crop": [
-            300,
+            325,
             1675,
-            1205,
+            1140,
             104
           ],
           "context_crop": [
-            300,
+            325,
             1562,
-            1205,
+            1140,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "tres que contem algum liuro.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:13c097527add4c3cf2d8400cb2ef8ca9e12618bc2e02f01d4160e74c0ee03165"
         },
         {
           "id": "c1-l022",
           "centre_y": 1789,
           "crop": [
-            300,
+            325,
             1737,
-            1205,
+            1140,
             104
           ],
           "context_crop": [
-            300,
+            325,
             1624,
-            1205,
+            1140,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Chùjacu. Latão. ¶ Chùjacumono. Cou-",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:84212d0e40edb9d04aff387f67994eb1323d3a325e56e50132bdffc9174cb1eb"
         },
         {
           "id": "c1-l023",
           "centre_y": 1852,
           "crop": [
-            300,
+            325,
             1800,
-            1205,
+            1140,
             104
           ],
           "context_crop": [
-            300,
+            325,
             1687,
-            1205,
+            1140,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "ſa de latão.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:2c5cae8fafe98235530c33580fe9ce56ebb0411b7bdf083ef2fa019c09ebea53"
         },
         {
           "id": "c1-l024",
           "centre_y": 1915,
           "crop": [
-            300,
+            325,
             1863,
-            1205,
+            1140,
             104
           ],
           "context_crop": [
-            300,
+            325,
             1750,
-            1205,
+            1140,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Chùjacu aye. Certa iguaria que ſe faz com",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:2e7d0ae93d1715e0452f8093c960761999747b9ea9ed37698b2b968dd3088142"
         },
         {
           "id": "c1-l025",
           "centre_y": 1978,
           "crop": [
-            300,
+            325,
             1926,
-            1205,
+            1140,
             104
           ],
           "context_crop": [
-            300,
+            325,
             1813,
-            1205,
+            1140,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "abobora, & moſtarda.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:ffd7967cc61b2691a5714b95ba7a690fc16c5c2e1eea9f2ea458a8bef11498b4"
         },
         {
           "id": "c1-l026",
           "centre_y": 2041,
           "crop": [
-            300,
+            325,
             1989,
-            1205,
+            1140,
             104
           ],
           "context_crop": [
-            300,
+            325,
             1876,
-            1205,
+            1140,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Chùjet. Naca tayuru. O ceſſar, ou interrom-",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:82f8f579cfc4dfa547b8a699200455b95e94991d246e90db6c42c6caf4ca30c4"
         },
         {
           "id": "c1-l027",
           "centre_y": 2103,
           "crop": [
-            300,
+            325,
             2051,
-            1205,
+            1140,
             104
           ],
           "context_crop": [
-            300,
+            325,
             1938,
-            1205,
+            1140,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "per algũa couſa. ¶ Item, Quebrada amizade.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:18e38100b25f8eac5f1bceaac0d3ddefe1383b7b0ae3d549d746d0ad62d6130b"
         },
         {
           "id": "c1-l028",
           "centre_y": 2166,
           "crop": [
-            300,
+            325,
             2114,
-            1205,
+            1140,
             104
           ],
           "context_crop": [
-            300,
+            325,
             2001,
-            1205,
+            1140,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Chùjin. Peſſoa de mediocre ſaber, & honr-",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:bca62cde079da4a2b51b0b8b64062e94c27422bbd9eab8e4e0f41c3054fe64d4"
         },
         {
           "id": "c1-l029",
           "centre_y": 2229,
           "crop": [
-            300,
+            325,
             2177,
-            1205,
+            1140,
             104
           ],
           "context_crop": [
-            300,
+            325,
             2064,
-            1205,
+            1140,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
-          "expected_line_version": "sha256:807e9b391cb8d2aaeb3f9d0f63c59ca919b9322b8dfaca3d2a73c5aa28c774b6"
+          "observed_text": "ra, &c. X.",
+          "match": "mismatch",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:b6aa2758dd9c40ffacc5398348721f9974e8a054df52655792db2311dde53d91",
+          "note": "Direct native-scan reading differs from the canonical Level 1 line; visible scan form is retained."
         },
         {
           "id": "c1-l030",
           "centre_y": 2292,
           "crop": [
-            300,
+            325,
             2240,
-            1205,
+            1140,
             104
           ],
           "context_crop": [
-            300,
+            325,
             2127,
-            1205,
+            1140,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Chùjiqi. i. Firuiy, l, firumexi. Comer do",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:a0c8feb1eca980439596e4b1ace42bc133b61c740d82cd78e95b5d68f452af4d"
         },
         {
           "id": "c1-l031",
           "centre_y": 2355,
           "crop": [
-            300,
+            325,
             2303,
-            1205,
+            1140,
             104
           ],
           "context_crop": [
-            300,
+            325,
             2190,
-            1205,
+            1140,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "meo dia.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:6e09864652573149da03a36ca63c70c4d7e0294162637bbe323e099a52290493"
         },
         {
           "id": "c1-l032",
           "centre_y": 2418,
           "crop": [
-            300,
+            325,
             2366,
-            1205,
+            1140,
             104
           ],
           "context_crop": [
-            300,
+            325,
             2253,
-            1205,
+            1140,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Chùin. i. Tomurai. Exequias, ou comenda-",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:af8320e920b7c86f45eeaa016856ad0db430bc18616d100e14e4e8f3022a8acf"
         },
         {
           "id": "c1-l033",
           "centre_y": 2480,
           "crop": [
-            300,
+            325,
             2428,
-            1205,
+            1140,
             104
           ],
           "context_crop": [
-            300,
+            325,
             2315,
-            1205,
+            1140,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "ção que ſe faz por algum defunto em eſpaço de",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:5992d0c2a3ae9f2389119559ae3462d5c5b751939a45c4410852520028c5ff5e"
         },
         {
           "id": "c1-l034",
           "centre_y": 2543,
           "crop": [
-            300,
+            325,
             2491,
-            1205,
+            1140,
             104
           ],
           "context_crop": [
-            300,
+            325,
             2378,
-            1205,
+            1140,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "49. dias deſpois de o enterrar, l, potius eſte",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:3f2d8aa7625fd5df422018fadd2fe6bd91690f9369059968a210f3eed23ef3ce"
         },
         {
           "id": "c1-l035",
           "centre_y": 2606,
           "crop": [
-            300,
+            325,
             2554,
-            1205,
+            1140,
             104
           ],
           "context_crop": [
-            300,
+            325,
             2441,
-            1205,
+            1140,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "eſpaço de tempo em que ſe fazem eſtas exequias",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:30b8c79f0fb18f5ead3b986ebb98b794a8b032d73896918106f07c2d40bc3f3f"
         },
         {
           "id": "c1-l036",
           "centre_y": 2669,
           "crop": [
-            300,
+            325,
             2617,
-            1205,
+            1140,
             104
           ],
           "context_crop": [
-            300,
+            325,
             2504,
-            1205,
+            1140,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "pello defunto, & elle eſtá como no meo ſem ir",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:3438f4e4445cb8fe4a56373e5eb06cfac1270132b51e17dd197c7309cb022bcc"
         },
         {
           "id": "c1-l037",
           "centre_y": 2732,
           "crop": [
-            300,
+            325,
             2680,
-            1205,
+            1140,
             104
           ],
           "context_crop": [
-            300,
+            325,
             2567,
-            1205,
+            1140,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "a lugar de pena, ou de gloria, como cuidão",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:516059eadb5749f58cf918766d4fc053ead8b63a1605971236bce7bb59cd423b"
         },
         {
           "id": "c1-l038",
           "centre_y": 2795,
           "crop": [
-            300,
+            325,
             2743,
-            1205,
+            1140,
             104
           ],
           "context_crop": [
-            300,
+            325,
             2630,
-            1205,
+            1140,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "os gentios.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:12be15dce9f79fe345ecebdc8c37297cef0c573672068c73631c3d106b32ed6d"
         },
         {
           "id": "c1-l039",
           "centre_y": 2857,
           "crop": [
-            300,
+            325,
             2805,
-            1205,
+            1140,
             104
           ],
           "context_crop": [
-            300,
+            325,
             2692,
-            1205,
+            1140,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Chùjǒ. Meo que ſe chega hum pouco ao",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:30e48f00b78ceadc3455d16ad29063990610750cc2515ec3a2ba1498e8e0b224"
         },
         {
           "id": "c1-l040",
           "centre_y": 2920,
           "crop": [
-            300,
+            325,
             2868,
-            1205,
+            1140,
             104
           ],
           "context_crop": [
-            300,
+            325,
             2755,
-            1205,
+            1140,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "ſupremo.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:07faad5da9799496f104bc340a56b772d003575473509289893c617a70e9b5ad"
         },
         {
           "id": "c1-l041",
           "centre_y": 2983,
           "crop": [
-            300,
+            325,
             2931,
-            1205,
+            1140,
             104
           ],
           "context_crop": [
-            300,
+            325,
             2818,
-            1205,
+            1140,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Chǔjǒ. Certa dignidade de gente em caſa do",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:2ebfa729ca6843f9800d20b487ad4f1464fe5c84dd200b31b9dde0fdc8553c3a"
         },
         {
           "id": "c1-l042",
           "centre_y": 3046,
           "crop": [
-            300,
+            325,
             2994,
-            1205,
+            1140,
             104
           ],
           "context_crop": [
-            300,
+            325,
             2881,
-            1205,
+            1140,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Dairi.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:8dc24958428e5adf9f31a10cac85bb21f93a7a44651b92c060f9930531f413d7"
         },
         {
           "id": "c1-l043",
           "centre_y": 3109,
           "crop": [
-            300,
+            325,
             3057,
-            1205,
+            1140,
             104
           ],
           "context_crop": [
-            300,
+            325,
             2944,
-            1205,
+            1140,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Chùjù. Meo do Outono.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:875ce581f8610212048ddb837c0f04aabd6e86da227848a6cd9072cf879ba036"
         },
         {
           "id": "c1-l044",
           "centre_y": 3172,
           "crop": [
-            300,
+            325,
             3120,
-            1205,
+            1140,
             104
           ],
           "context_crop": [
-            300,
+            325,
             3007,
-            1205,
+            1140,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Chùjun. Meo da prima uera, ou ſegũda lũa.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:78b7936c9659a2262d2706e27f0d37bb322e5c4a4e90a8dbac6c75f95f5b7025"
         },
         {
           "id": "c1-l045",
           "centre_y": 3234,
           "crop": [
-            300,
+            325,
             3182,
-            1205,
+            1140,
             104
           ],
           "context_crop": [
-            300,
+            325,
             3069,
-            1205,
+            1140,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Chùjun. Os dez dias do meo dos mezes de",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:3e02beb316b831d3732bd9979c213f854b1a768f7815a78e071eb835f709cfdc"
         },
         {
           "id": "c1-l046",
           "centre_y": 3297,
           "crop": [
-            300,
+            325,
             3245,
-            1205,
+            1140,
             104
           ],
           "context_crop": [
-            300,
+            325,
             3132,
-            1205,
+            1140,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Iapão.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:d82efeb4177d4a08a8ce00ecf9806365fed9f1466afdb525198f63fe59fea956"
         },
         {
           "id": "c1-l047",
           "centre_y": 3360,
           "crop": [
-            300,
+            325,
             3308,
-            1205,
+            1140,
             104
           ],
           "context_crop": [
-            300,
+            325,
             3195,
-            1205,
+            1140,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Chùmon. Porta principal que eſtá dentro das",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:eb6c47aa084354453c701401073cdbd35fac5a9d8e6461b69a7f5ccd62230aef"
         }
       ]
     },
     "column-2": {
       "column_box_xyxy": [
-        1445,
+        1500,
         300,
-        2651,
+        2590,
         3410
       ],
       "zone_ids": [
         "column-2"
       ],
-      "initial_geometry_provenance": "external_ai_width_rechecked",
-      "initial_geometry_reviewed_at": "2026-08-23",
+      "initial_geometry_provenance": "contact_sheet_reviewed",
+      "initial_geometry_reviewed_at": "2026-08-01",
       "geometry_requires_line_by_line_review": true,
       "lines": [
         {
           "id": "c2-l001",
           "centre_y": 470,
           "crop": [
-            1445,
+            1485,
             418,
-            1206,
+            1120,
             104
           ],
           "context_crop": [
-            1445,
+            1485,
             305,
-            1206,
+            1120,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "caſas deſpois de entrar pella porta de fora.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:93bcd32ac706a2e0a09b99c811a747148683ca3122f835f60b1be5c8fa75aee4"
         },
         {
           "id": "c2-l002",
           "centre_y": 533,
           "crop": [
-            1445,
+            1485,
             481,
-            1206,
+            1120,
             104
           ],
           "context_crop": [
-            1445,
+            1485,
             368,
-            1206,
+            1120,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Chùmon. Rol, ou liuro de apontamentos.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:320bf2cb017501004ccfae9138bbb043c02ea4c9b5fae9e3fb20624476627d3c"
         },
         {
           "id": "c2-l003",
           "centre_y": 596,
           "crop": [
-            1445,
+            1485,
             544,
-            1206,
+            1120,
             104
           ],
           "context_crop": [
-            1445,
+            1485,
             431,
-            1206,
+            1120,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "¶ Item, Rol das couſas que ſe mandão de",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:7e660543de2148e56761368914bb6d4e8fec9fb534dfa16b528879a4842a7171"
         },
         {
           "id": "c2-l004",
           "centre_y": 659,
           "crop": [
-            1445,
+            1485,
             607,
-            1206,
+            1120,
             104
           ],
           "context_crop": [
-            1445,
+            1485,
             494,
-            1206,
+            1120,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "prezente como peças, agulha, &c. por que",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:df98580964125e94dc0ae4a588e735549f551e5186ec57682280873add706a43"
         },
         {
           "id": "c2-l005",
           "centre_y": 722,
           "crop": [
-            1445,
+            1485,
             670,
-            1206,
+            1120,
             104
           ],
           "context_crop": [
-            1445,
+            1485,
             557,
-            1206,
+            1120,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "ſe he caualo, montante, Tarus, & Sacanas",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:29e15593cd41b75eda0ff456004c9046909c3907d3f53d0e0c9d91db6592cfd1"
         },
         {
           "id": "c2-l006",
           "centre_y": 785,
           "crop": [
-            1445,
+            1485,
             733,
-            1206,
+            1120,
             104
           ],
           "context_crop": [
-            1445,
+            1485,
             620,
-            1206,
+            1120,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "diz ſe Mocurocu.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:51eb96fb94286f25697d3f3768785c3da736aa3a5706527ed663bca0ffa9b56f"
         },
         {
           "id": "c2-l007",
           "centre_y": 848,
           "crop": [
-            1445,
+            1485,
             796,
-            1206,
+            1120,
             104
           ],
           "context_crop": [
-            1445,
+            1485,
             683,
-            1206,
+            1120,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
-          "expected_line_version": "sha256:4ee6eaeca7be352b4e0f5260520abbef4d62e09a56b87ca22ed1e88af944d4c9"
+          "observed_text": "Chùmǒ. Cumono anni. Tea de aranha.",
+          "match": "mismatch",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:2eb216cbcc947d1c4ea927e9422455148f6d4034cd6c2c57875a17965696845f",
+          "note": "Direct native-scan reading differs from the canonical Level 1 line; visible scan form is retained."
         },
         {
           "id": "c2-l008",
           "centre_y": 911,
           "crop": [
-            1445,
+            1485,
             859,
-            1206,
+            1120,
             104
           ],
           "context_crop": [
-            1445,
+            1485,
             746,
-            1206,
+            1120,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Chùna. Couſa arrezoada, ou mediocre.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:0ab44c2d1c50c778726f04f28782f2ed4dd1e75c2ed0c50cf37cc63fc6b8ddfb"
         },
         {
           "id": "c2-l009",
           "centre_y": 973,
           "crop": [
-            1445,
+            1485,
             921,
-            1206,
+            1120,
             104
           ],
           "context_crop": [
-            1445,
+            1485,
             808,
-            1206,
+            1120,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
-          "expected_line_version": "sha256:9baa6540ecb1f108780b07f77352ca6ff02d95ce818ba919ee1fc1d8faf78571"
+          "observed_text": "Chùninichi. Dias do meo da ſomana em que fa-",
+          "match": "mismatch",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:40554e566cb1793f4fb46a72c191c9e5913334cd15b0919b779eef216093e93c",
+          "note": "Direct native-scan reading differs from the canonical Level 1 line; visible scan form is retained."
         },
         {
           "id": "c2-l010",
           "centre_y": 1036,
           "crop": [
-            1445,
+            1485,
             984,
-            1206,
+            1120,
             104
           ],
           "context_crop": [
-            1445,
+            1485,
             871,
-            1206,
+            1120,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
-          "expected_line_version": "sha256:1b03c71ddfeef0de4a10e1cda2c46a10673c82a8d58bc3e7f5e3da226602dffd"
+          "observed_text": "zem boas obras, ou rezão pollos defuntos ẽ Ia-",
+          "match": "mismatch",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:b67a2103749ea11f30723a91dca3e6f2dfd52c6d7822576ea026f537ff558050",
+          "note": "Direct native-scan reading differs from the canonical Level 1 line; visible scan form is retained."
         },
         {
           "id": "c2-l011",
           "centre_y": 1099,
           "crop": [
-            1445,
+            1485,
             1047,
-            1206,
+            1120,
             104
           ],
           "context_crop": [
-            1445,
+            1485,
             934,
-            1206,
+            1120,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "pão a que chamão Figan que he nos dous Equi-",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:56a4baea2efde0b44f2980bc42f3fc27d127257cc7e52c5004271a624f301647"
         },
         {
           "id": "c2-l012",
           "centre_y": 1162,
           "crop": [
-            1445,
+            1485,
             1110,
-            1206,
+            1120,
             104
           ],
           "context_crop": [
-            1445,
+            1485,
             997,
-            1206,
+            1120,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "noctios do anno, em Março, & ſetembro.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:004cecba20d291ff44aeae697f80c32796bbf3204d99f872e3449068fb4ed081"
         },
         {
           "id": "c2-l013",
           "centre_y": 1225,
           "crop": [
-            1445,
+            1485,
             1173,
-            1206,
+            1120,
             104
           ],
           "context_crop": [
-            1445,
+            1485,
             1060,
-            1206,
+            1120,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Chùnin. Nacôdo. i. Nacadachi. Tercei-",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:c6c8c786602e9ddc389dca3f5c11a02fb084d6778ef96521b0266e40b03c37b2"
         },
         {
           "id": "c2-l014",
           "centre_y": 1288,
           "crop": [
-            1445,
+            1485,
             1236,
-            1206,
+            1120,
             104
           ],
           "context_crop": [
-            1445,
+            1485,
             1123,
-            1206,
+            1120,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
-          "expected_line_version": "sha256:995033b2c1cd47adce34cb15db9a79c44a9fb80c7832dfb4408b3f34d5c6a82e"
+          "observed_text": "ro, ou medianeiro que faz, ou concerta algũas",
+          "match": "mismatch",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:760c17e21e188dcce8527a2b6c0c9126e2c002b45847fc9bbf41144ae0518845",
+          "note": "Direct native-scan reading differs from the canonical Level 1 line; visible scan form is retained."
         },
         {
           "id": "c2-l015",
           "centre_y": 1351,
           "crop": [
-            1445,
+            1485,
             1299,
-            1206,
+            1120,
             104
           ],
           "context_crop": [
-            1445,
+            1485,
             1186,
-            1206,
+            1120,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "amizades, caſamento, &c.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:4d87461a86611f37b25d749b8ad05e5c243e1a8faa2b77d9e10776e09916e9e5"
         },
         {
           "id": "c2-l016",
           "centre_y": 1414,
           "crop": [
-            1445,
+            1485,
             1362,
-            1206,
+            1120,
             104
           ],
           "context_crop": [
-            1445,
+            1485,
             1249,
-            1206,
+            1120,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
-          "expected_line_version": "sha256:6ad3c4c4da6a79906a507f02c9c05221f0a4341724e1af80c740ced37486f1e6"
+          "observed_text": "Chùqi. Certo officio que ha entre os Ienxus.",
+          "match": "mismatch",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:6ad3c4c4da6a79906a507f02c9c05221f0a4341724e1af80c740ced37486f1e6",
+          "note": "Direct native-scan reading differs from the canonical Level 1 line; visible scan form is retained."
         },
         {
           "id": "c2-l017",
           "centre_y": 1477,
           "crop": [
-            1445,
+            1485,
             1425,
-            1206,
+            1120,
             104
           ],
           "context_crop": [
-            1445,
+            1485,
             1312,
-            1206,
+            1120,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Chùqin. i. Chùxet. Seruiços aſſinalados.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:d825edfe6fa3ac5f908eb50066ead1652eee896e02b9a95bf7c28f17e85a7fef"
         },
         {
           "id": "c2-l018",
           "centre_y": 1540,
           "crop": [
-            1445,
+            1485,
             1488,
-            1206,
+            1120,
             104
           ],
           "context_crop": [
-            1445,
+            1485,
             1375,
-            1206,
+            1120,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
-          "expected_line_version": "sha256:22d4104801d07a3d8f753db57949e1269884ca6c38c9d6c07bed8e088f970161"
+          "observed_text": "Vt, Chùqiuo nuqinzzuru. Fazer grã-",
+          "match": "mismatch",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:6a5039f4b5db65eacec44925426db825958b7b898bebdccbc4a658f4907808fc",
+          "note": "Direct native-scan reading differs from the canonical Level 1 line; visible scan form is retained."
         },
         {
           "id": "c2-l019",
           "centre_y": 1603,
           "crop": [
-            1445,
+            1485,
             1551,
-            1206,
+            1120,
             104
           ],
           "context_crop": [
-            1445,
+            1485,
             1438,
-            1206,
+            1120,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "des ſeruiços, & aſſinalados.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:eef0aa3a8371ec1a847e553fdf04e9cb0043c8d89a8703e2c4a127e98c08b424"
         },
         {
           "id": "c2-l020",
           "centre_y": 1666,
           "crop": [
-            1445,
+            1485,
             1614,
-            1206,
+            1120,
             104
           ],
           "context_crop": [
-            1445,
+            1485,
             1501,
-            1206,
+            1120,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
-          "expected_line_version": "sha256:a89085d6e75ddb7c4615bb3bfae09c7356ef2df97e71bf27d38922f397c6f141"
+          "observed_text": "Chùqua. Miyaco. i. Taitôno Miaco. Ci-",
+          "match": "mismatch",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:15b3bb19cbd000acbdbf721e9bd0bb9528ed18d8fd45554c12380f07a7dc01ae",
+          "note": "Direct native-scan reading differs from the canonical Level 1 line; visible scan form is retained."
         },
         {
           "id": "c2-l021",
           "centre_y": 1729,
           "crop": [
-            1445,
+            1485,
             1677,
-            1206,
+            1120,
             104
           ],
           "context_crop": [
-            1445,
+            1485,
             1564,
-            1206,
+            1120,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "dade principal, ou metropole do Reino da Chi-",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:2509103c5821822c414e66b6b9aa564f62a257d67b2cf418b584c0e6ae800cb9"
         },
         {
           "id": "c2-l022",
           "centre_y": 1792,
           "crop": [
-            1445,
+            1485,
             1740,
-            1206,
+            1120,
             104
           ],
           "context_crop": [
-            1445,
+            1485,
             1627,
-            1206,
+            1120,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "na, tambem ſe aplica ao Miaco de Iapão.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:23e5027a23b0ddd33f64ae53c8c33cf7b2e2eae3c75f938c18e0c6ffdac76c90"
         },
         {
           "id": "c2-l023",
           "centre_y": 1855,
           "crop": [
-            1445,
+            1485,
             1803,
-            1206,
+            1120,
             104
           ],
           "context_crop": [
-            1445,
+            1485,
             1690,
-            1206,
+            1120,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
-          "expected_line_version": "sha256:7e396e9c4c4b93eef75bd1d06da466f115e4dfefa8f094790091bd466cbcc0c5"
+          "observed_text": "Chùricu. Vchi, vtçu. i. Xeibai. Iuſtiçar,",
+          "match": "mismatch",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:ae5a7657685e02b3035894c85fde9c8132c3ec41e8b70d83433c0ea3a1097cd1",
+          "note": "Direct native-scan reading differs from the canonical Level 1 line; visible scan form is retained."
         },
         {
           "id": "c2-l024",
           "centre_y": 1918,
           "crop": [
-            1445,
+            1485,
             1866,
-            1206,
+            1120,
             104
           ],
           "context_crop": [
-            1445,
+            1485,
             1753,
-            1206,
+            1120,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "ou matar por juſtiça. ¶ Chùricuno ba.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:ee9b39b03185617a47c6e0a0cafffc75a7e4cf22f63d1124ce5545d404aa1c8e"
         },
         {
           "id": "c2-l025",
           "centre_y": 1980,
           "crop": [
-            1445,
+            1485,
             1928,
-            1206,
+            1120,
             104
           ],
           "context_crop": [
-            1445,
+            1485,
             1815,
-            1206,
+            1120,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Lugar, ou campo onde ſe corta a cabeça, &c.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:de6d97969e9865fe0b2d3e1d04045d4799722215db608d6c88e5febbda54053f"
         },
         {
           "id": "c2-l026",
           "centre_y": 2043,
           "crop": [
-            1445,
+            1485,
             1991,
-            1206,
+            1120,
             104
           ],
           "context_crop": [
-            1445,
+            1485,
             1878,
-            1206,
+            1120,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Chùriacu. O cortar a palaura, ou fazer cin-",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:9c4de789871476291521300228502939ebaebe3376b29a7746b75e20eef3b010"
         },
         {
           "id": "c2-l027",
           "centre_y": 2106,
           "crop": [
-            1445,
+            1485,
             2054,
-            1206,
+            1120,
             104
           ],
           "context_crop": [
-            1445,
+            1485,
             1941,
-            1206,
+            1120,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
-          "expected_line_version": "sha256:d7177624a51611172018ded0ef22f3dace61dc481a8b96d2e46b26b5ed744554"
+          "observed_text": "copa no meo. Vt, Fotôriqe chùriacu xi-",
+          "match": "mismatch",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:d0d45db5f7f8483733906e1777a4db0bab15a425cef7419ae88223e00a63fbac",
+          "note": "Direct native-scan reading differs from the canonical Level 1 line; visible scan form is retained."
         },
         {
           "id": "c2-l028",
           "centre_y": 2169,
           "crop": [
-            1445,
+            1485,
             2117,
-            1206,
+            1120,
             104
           ],
           "context_crop": [
-            1445,
+            1485,
             2004,
-            1206,
+            1120,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
-          "expected_line_version": "sha256:47bfc41ed12a5587ceb9c24d33466e6cbb56f1583eef747fc91b8e96996efebd"
+          "observed_text": "te Fotogero yŭ. ¶ Item, Abreuiar, ou",
+          "match": "mismatch",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:75e64ec49da3585e14f912517664737df8e97599d5636d0ac1efef0de4849b14",
+          "note": "Direct native-scan reading differs from the canonical Level 1 line; visible scan form is retained."
         },
         {
           "id": "c2-l029",
           "centre_y": 2232,
           "crop": [
-            1445,
+            1485,
             2180,
-            1206,
+            1120,
             104
           ],
           "context_crop": [
-            1445,
+            1485,
             2067,
-            1206,
+            1120,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "fazer que não ſoem algũas pancadas no meo do",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:1f5d73947d67791b395426dd61e14dab59ee1dd48db93ada5b2513c9ba8a4621"
         },
         {
           "id": "c2-l030",
           "centre_y": 2295,
           "crop": [
-            1445,
+            1485,
             2243,
-            1206,
+            1120,
             104
           ],
           "context_crop": [
-            1445,
+            1485,
             2130,
-            1206,
+            1120,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "tanger, & aſſi em outras couſas.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:f6958fa0f7c6e4b8e79cc8cd8731185c02c3612147cc3dbd3b7ec1d8bb54d5ad"
         },
         {
           "id": "c2-l031",
           "centre_y": 2358,
           "crop": [
-            1445,
+            1485,
             2306,
-            1206,
+            1120,
             104
           ],
           "context_crop": [
-            1445,
+            1485,
             2193,
-            1206,
+            1120,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Chùrio. i. xiguachi. Quarta lũa, ou mez",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:2baef22a54794321e18c4ff6f8facb71b7e25d174af6ccd152d65f4e6540202b"
         },
         {
           "id": "c2-l032",
           "centre_y": 2421,
           "crop": [
-            1445,
+            1485,
             2369,
-            1206,
+            1120,
             104
           ],
           "context_crop": [
-            1445,
+            1485,
             2256,
-            1206,
+            1120,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "de Iapão.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:5168352c5581df865c2f2962ddc11895c88738feafac8cc398b3230b0063927d"
         },
         {
           "id": "c2-l033",
           "centre_y": 2484,
           "crop": [
-            1445,
+            1485,
             2432,
-            1206,
+            1120,
             104
           ],
           "context_crop": [
-            1445,
+            1485,
             2319,
-            1206,
+            1120,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Chùriǒ. Ardil, ou boa inuenção, ou diſcurſo",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:e972e85ff4d3823c0b3a5bde9d5c58f593438e98f6790eb7754cd38f31307946"
         },
         {
           "id": "c2-l034",
           "centre_y": 2547,
           "crop": [
-            1445,
+            1485,
             2495,
-            1206,
+            1120,
             104
           ],
           "context_crop": [
-            1445,
+            1485,
             2382,
-            1206,
+            1120,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "ſobre algum bom ardil, ou meo.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:93d603e02c88b68fece4c62e7fbcdc74eef6b47650ef4bda46cf7e003f1700ac"
         },
         {
           "id": "c2-l035",
           "centre_y": 2610,
           "crop": [
-            1445,
+            1485,
             2558,
-            1206,
+            1120,
             104
           ],
           "context_crop": [
-            1445,
+            1485,
             2445,
-            1206,
+            1120,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Chùrǒ. Chùno toxiyori. Velhice mediocre, ou",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:a880512434e5e2f93f638507a277084c488c867f60b85e9ba5dc7924e93e9599"
         },
         {
           "id": "c2-l036",
           "centre_y": 2673,
           "crop": [
-            1445,
+            1485,
             2621,
-            1206,
+            1120,
             104
           ],
           "context_crop": [
-            1445,
+            1485,
             2508,
-            1206,
+            1120,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "idade como de 50. annos pouco mais, ou menos.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:9d0edc23b50790d8cf74ee69638275737e1e1085e98aaee3f799d8b7d243d783"
         },
         {
           "id": "c2-l037",
           "centre_y": 2736,
           "crop": [
-            1445,
+            1485,
             2684,
-            1206,
+            1120,
             104
           ],
           "context_crop": [
-            1445,
+            1485,
             2571,
-            1206,
+            1120,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Chùrǒ. Molheres de mea laya da caſa do Dairi.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:527fe371d9806ea168f49ae31bdaee8488d1082f042b277e8d435c05569c57f8"
         },
         {
           "id": "c2-l038",
           "centre_y": 2799,
           "crop": [
-            1445,
+            1485,
             2747,
-            1206,
+            1120,
             104
           ],
           "context_crop": [
-            1445,
+            1485,
             2634,
-            1206,
+            1120,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Chùſacu. Ardil. Vt, Chùſacuuo meguraſu.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:2cbb697893584008b5bf1d4a182a58d2b62d2d62a83e6df93c1b2c55dba8b73b"
         },
         {
           "id": "c2-l039",
           "centre_y": 2862,
           "crop": [
-            1445,
+            1485,
             2810,
-            1206,
+            1120,
             104
           ],
           "context_crop": [
-            1445,
+            1485,
             2697,
-            1206,
+            1120,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Ordir, ou tramar algũa couſa.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:f04277b5327d3220bc8b315c09a4bffb129154d5858f24f3fd4db01f0d837906"
         },
         {
           "id": "c2-l040",
           "centre_y": 2924,
           "crop": [
-            1445,
+            1485,
             2872,
-            1206,
+            1120,
             104
           ],
           "context_crop": [
-            1445,
+            1485,
             2759,
-            1206,
+            1120,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Chùſacu. Meyo, ou interceſſão pera fazer",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:790d76f36fef27161e2bb31f2056dca3edc40d7c3881c5d1977a9f3bb108edf2"
         },
         {
           "id": "c2-l041",
           "centre_y": 2987,
           "crop": [
-            1445,
+            1485,
             2935,
-            1206,
+            1120,
             104
           ],
           "context_crop": [
-            1445,
+            1485,
             2822,
-            1206,
+            1120,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "amizades, ou fazer outras couſas.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:ffde5709270edada94794bb02ec44f26260602e7fe7fe32356be7d8cceb2202f"
         },
         {
           "id": "c2-l042",
           "centre_y": 3050,
           "crop": [
-            1445,
+            1485,
             2998,
-            1206,
+            1120,
             104
           ],
           "context_crop": [
-            1445,
+            1485,
             2885,
-            1206,
+            1120,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
-          "expected_line_version": "sha256:78e4fd81eb564ce51d3bf65d1ded04439f166db58dd0ab3b730a83303f62adfb"
+          "observed_text": "Chùſacunin. Terceiro que faz eſtas amizades,",
+          "match": "mismatch",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
+          "expected_line_version": "sha256:ad6e89619eabe69beae75fa220d0e69638fac1f297a2efb3bdea498e452e8fab",
+          "note": "Direct native-scan reading differs from the canonical Level 1 line; visible scan form is retained."
         },
         {
           "id": "c2-l043",
           "centre_y": 3113,
           "crop": [
-            1445,
+            1485,
             3061,
-            1206,
+            1120,
             104
           ],
           "context_crop": [
-            1445,
+            1485,
             2948,
-            1206,
+            1120,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "ou corretor entre os que comprão, & vendem.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:744d5456dd94977e40a02be523f19c74e0e0912486498330a5443633c3bafea2"
         },
         {
           "id": "c2-l044",
           "centre_y": 3176,
           "crop": [
-            1445,
+            1485,
             3124,
-            1206,
+            1120,
             104
           ],
           "context_crop": [
-            1445,
+            1485,
             3011,
-            1206,
+            1120,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Chùtô. Fuyuuo ſaichù. Meyo do inuerno.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:edb8e1518382f43acb3465479b62d7d2030487229bf677bfb91c5c94eca93bcb"
         },
         {
           "id": "c2-l045",
           "centre_y": 3239,
           "crop": [
-            1445,
+            1485,
             3187,
-            1206,
+            1120,
             104
           ],
           "context_crop": [
-            1445,
+            1485,
             3074,
-            1206,
+            1120,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Chùtǒ. Nuſumi, nuſumi. Furto. Vt,",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:7608b5e5426ad7eae01e8cbda745e5ea159e0cedc00e72544f5fe1dc15dada94"
         },
         {
           "id": "c2-l046",
           "centre_y": 3302,
           "crop": [
-            1445,
+            1485,
             3250,
-            1206,
+            1120,
             104
           ],
           "context_crop": [
-            1445,
+            1485,
             3137,
-            1206,
+            1120,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Chùtǒſubecarazu. Não furtaras. S.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:186a37b3f489106e0731c6b58d9642337d3de28eb4cf992ce3b779e27e83e9b2"
         },
         {
           "id": "c2-l047",
           "centre_y": 3365,
           "crop": [
-            1445,
+            1485,
             3313,
-            1206,
+            1120,
             104
           ],
           "context_crop": [
-            1445,
+            1485,
             3200,
-            1206,
+            1120,
             330
           ],
-          "observed_text": null,
-          "match": "pending",
-          "assessment": "pending",
-          "geometry_action": "inspect_and_adjust_if_needed",
+          "observed_text": "Chùto. Naca michi. Meo do caminho.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "adjusted",
           "expected_line_version": "sha256:a6f816a96d621dfb3e637bf4c2986005f8a691723b0d0c14aeb324458cbdcda1"
         }
       ]

@@ -18,21 +18,21 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l002` | Chôxǔ. Tçuribune. *Embarcação peſcareza.* |  |
 | `c1-l003` | Chǒya. Nagai yo. *Noite comprida.* |  |
 | `c1-l004` | Chôyei. Axitani ſacôru. *O florecer polla me-* |  |
-| `c1-l005` | &emsp;*nhaã. Vt,* Vqiyono ariſamauà, maco- |  |
-| `c1-l006` | &emsp;toni chôyei horacu. *A maneira do mũ-* |  |
+| `c1-l005` | &emsp;*nhaã. Vt,* Vqiyono ariſamaua, maco- |  |
+| `c1-l006` | &emsp;toni chôyei boracu. *A maneira do mũ-* |  |
 | `c1-l007` | &emsp;*do he como flor de polla manhaã que logo à* |  |
 | `c1-l008` | &emsp;*tarde ſe murcha, & cae.* |  |
-| `c1-l009` | Chôyǒ. Cuguiatno coconocano coto. *No-* |  |
+| `c1-l009` | Chôyǒ. Cuguatno coconocano coto. *No-* |  |
 | `c1-l010` | &emsp;*no dia da nona lũa.* |  |
 | `c1-l011` | Chôyǒ. Aſafi. *Sol de polla manhaã. Vt,* |  |
-| `c1-l012` | &emsp;Chôyǒ uocalazarẽdomo zanxei ficariuo |  |
+| `c1-l012` | &emsp;Chôyǒ uocaſazaredomo zanxei ficariuo |  |
 | `c1-l013` | &emsp;vbauaru. *Ainda que o ſol não he ſaido,* |  |
 | `c1-l014` | &emsp;*todauia ja polla manhaã cedo as eſtrelas que* |  |
-| `c1-l015` | &emsp;*ficão perdem a luz: vſaſe em comparação de* |  |
+| `c1-l015` | &emsp;*ficão perdem a luz. vſaſe em comparação de* |  |
 | `c1-l016` | &emsp;*hum homẽ inſigne, & principal em reſpe-* |  |
 | `c1-l017` | &emsp;*ito de outro ſomenos junto do qual fica aca-* |  |
 | `c1-l018` | &emsp;*nhado, & ſem luſtro.* |  |
-| `c1-l019` | Chǒyǒ. Farunocoto. *Primauera.* |  |
+| `c1-l019` | Chǒyǒ. Farunocoto. *Prima uera.* |  |
 | `c1-l020` | Chǒza. Nagaiza. *O eſtar muito tempo no* |  |
 | `c1-l021` | &emsp;zaxiqi, *ou durar muito tempo o ajuntamen-* |  |
 | `c1-l022` | &emsp;*to do* zaxiqi. |  |
@@ -46,12 +46,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l030` | Chôzzuno co. *Farelos pera lauar as mãos.* |  |
 | `c1-l031` | Chù. Naca. *Meo. ¶* Chùni. *No ar* |  |
 | `c1-l032` | &emsp;¶ Chùni aru. *Eſtar no ar, ou dependu-* |  |
-| `c1-l033` | &emsp;*rado. ¶ Item, Decor. Vt,* Chùni vo- |  |
+| `c1-l033` | &emsp;*rado. ¶ Item, Decôr. Vt,* Chùni vo- |  |
 | `c1-l034` | &emsp;boyuru, l, môſu. *Saber decor, ou dizer* |  |
 | `c1-l035` | &emsp;*de memoria. Melius.* Sorani voboyuru. i. |  |
-| `c1-l036` | &emsp;*Saber decor.* |  |
+| `c1-l036` | &emsp;*Saber decôr.* |  |
 | `c1-l037` | Chù. Vtçu. *Cortar. Vt,* Chùſuru. |  |
-| `c1-l038` | Chù. Xiruxu. *Aſſinalar. ¶ Item, Comen-* |  |
+| `c1-l038` | Chù. Xiruſu. *Aſſinalar. ¶ Item, Comen-* |  |
 | `c1-l039` | &emsp;*to. ¶* Chùſuru. *Comentar, ou grozar.* |  |
 | `c1-l040` | Chù. *Seruiço. ¶* Chù aru fito. *Homẽ* |  |
 | `c1-l041` | &emsp;*que tem feito muito ſeruiço.* |  |
@@ -96,12 +96,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l016` | &emsp;*grilhões dos pés, & hum engenho à maneira* |  |
 | `c2-l017` | &emsp;*de jugo que poem nos peſcoços dos homẽs pera* |  |
 | `c2-l018` | &emsp;*os atormentar.* |  |
-| `c2-l019` | Chùchô. Tachinotorǒ. *Eſtar perplexo ſem* |  |
+| `c2-l019` | Chùchô. Tachimotoriǒ. *Eſtar perplexo ſem* |  |
 | `c2-l020` | &emsp;*ſe determinar.* |  |
 | `c2-l021` | Chùchǒ. Itamu coto. *Dor, ou ſentimento.* |  |
 | `c2-l022` | Chùcô. *Grandes ſeruiços como os que faz hum* |  |
 | `c2-l023` | &emsp;*criado na guerra ao ſenhor. ¶* Chùcôuo |  |
-| `c2-l024` | &emsp;naguizzuru. *Aſſinalarſe em grandes ſeruiços.* |  |
+| `c2-l024` | &emsp;nuqinzzuru. *Aſſinalarſe em grandes ſeruiços.* |  |
 | `c2-l025` | Chùcǒ. *Bom ſeruiço pera com o ſenhor, ou* |  |
 | `c2-l026` | &emsp;*pay, & may.* |  |
 | `c2-l027` | Chùcô. Naca vocoſu. *Tornar a refazer, ou* |  |
@@ -112,19 +112,19 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l032` | Chûdei. *Latão moido, & feito em tinta, ou* |  |
 | `c2-l033` | &emsp;*polme pera pintar.* |  |
 | `c2-l034` | Chùdǒ. *Certa caſa como ermida que eſtá den-* |  |
-| `c2-l035` | &emsp;*tro dalgũ moſteiro, ou Tera.* |  |
+| `c2-l035` | &emsp;*tro dalgum moſteiro, ou Tera.* |  |
 | `c2-l036` | Chûfai. *Vt,* Chûfaino fito. *Peſſoa de mea-* |  |
 | `c2-l037` | &emsp;*ya. i. Que não he muito alta, nem baixa.* |  |
 | `c2-l038` | Chûfan. i. Meo, *ou não eſtar apegado a algũa* |  |
 | `c2-l039` | &emsp;*parte. ¶* Chùfanni iru. *Eſtar como no* |  |
-| `c2-l040` | &emsp;*ar, ou em communidade, nem encoſtado em hũa* |  |
+| `c2-l040` | &emsp;*ar, ou encommunidade, nem encoſtado em hũa* |  |
 | `c2-l041` | &emsp;*parte, nem em outra.* |  |
-| `c2-l042` | Chùfan. i. Chŭjijqi. *Comer do meo dia.* |  |
+| `c2-l042` | Chûfan. i. Chûjiqi. *Comer do meo dia.* |  |
 | `c2-l043` | Chùfo. Xiruxi voguinǒ. i. Chù. *Comen-* |  |
 | `c2-l044` | &emsp;*to, ou groza. Vt,* Fonmonuo chùfo ſu. |  |
 | `c2-l045` | &emsp;*Comentar o original. S.* |  |
 | `c2-l046` | Chûfu. *Seruiços, & deſeruiços.* |  |
-| `c2-l047` | Chùgue. Chùxi togu. i. Chù. *Groza, ou* |  |
+| `c2-l047` | Chùgue. Chùxi toqu. i. Chù. *Groza, ou* |  |
 | `c2-l048` | &emsp;*comẽto.* |  |
 
 ## Printed signature mark

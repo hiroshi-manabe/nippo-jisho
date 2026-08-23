@@ -56,7 +56,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l040` | Cocorououoi. *Homem q̃ ſe affeiçoa facilmente* |  |
 | `c1-l041` | &emsp;*a varias couſas cõ leuidade, & curioſidade.* |  |
 | `c1-l042` | Cocorovi. *Couſa triſte, & que da pena.* |  |
-| `c1-l043` | &emsp;Cocorou. |  |
+| `c1-l043` | &emsp;Cocoroù. |  |
 | `c1-l044` | &emsp;Cocorouſa. |  |
 | `c1-l045` | Cocoroxizzucani. *Adu. Deuagar, ou re-* |  |
 | `c1-l046` | &emsp;*pouzadamente, & à vontade.* |  |

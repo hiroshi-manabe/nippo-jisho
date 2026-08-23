@@ -346,7 +346,11 @@ class PublicReviewRegressionTests(unittest.TestCase):
         ]
         self.assertEqual(
             [page["id"] for page in pages],
-            [f"bnf-f{number:04d}" for number in range(31, 106)],
+            [
+                f"bnf-f{number:04d}"
+                for number in range(31, 121)
+                if number != 116
+            ],
         )
         for page in pages:
             for column in page["columns"].values():

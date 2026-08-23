@@ -45,7 +45,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l029` | Cochǔ. Furui xiruſu. *Comentarios antigos.* |  |
 | `c1-l030` | &emsp;*Item couſa antigua. Vt,* Cochŭna catagui. |  |
 | `c1-l031` | &emsp;*Cuſtume antiguo.* |  |
-| `c1-l032` | Cochù. Tçubono vchi. *Dentro no bouão.* |  |
+| `c1-l032` | Cochù. Tçubono vchi. *Dentro no boyão.* |  |
 | `c1-l033` | &emsp;*Item, Dentro da gayola, ou canaſtrinha.* |  |
 | `c1-l034` | Cocô. Torano cuchi. *Boca de tigre. Vt,* |  |
 | `c1-l035` | &emsp;Cocǒno zanguen. *Grande falſo teſtimu-* |  |
@@ -57,7 +57,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l041` | &emsp;*tem aos ſenhores, ou meſtres.* |  |
 | `c1-l042` | Cǒcǒ. Aqiracana, aqiracana. *Couſa cla-* |  |
 | `c1-l043` | &emsp;*ra, ou reſplandecente. Vt,* Cǒcǒtaru |  |
-| `c1-l044` | &emsp;coromoxib. *Cõdea clara, & que alumia bẽ.* |  |
+| `c1-l044` | &emsp;tomoxibi. *Cãdea clara, & que alumia bẽ.* |  |
 | `c1-l045` | Coco. *Adu. Aqui.* |  |
 | `c1-l046` | Cococaxico. *Adu. Deçá pera lá, ou aqui,* |  |
 | `c1-l047` | &emsp;*& ali.* |  |
@@ -95,21 +95,21 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l015` | &emsp;*Eſte homem.* |  |
 | `c2-l016` | Coconi. *Adu. Aqui,* |  |
 | `c2-l017` | Coconoye. Miyaco. |  |
-| `c2-l018` | Cocoro. *Coração. ¶* Cocoroga mado. |  |
+| `c2-l018` | Cocoro. *Coração. ¶* Cocoroga madô. |  |
 | `c2-l019` | &emsp;*Andar o coração inquieto, & perturbado, ou* |  |
 | `c2-l020` | &emsp;*perplexo. ¶* Cocoroni cacaru. *Ter a-* |  |
 | `c2-l021` | &emsp;*gouro, ou eſcrupulo. ¶* Cocoroni caqu- |  |
 | `c2-l022` | &emsp;ru. *Idem. ¶* Cocoroga ſauagu. *Eſtar* |  |
 | `c2-l023` | &emsp;*inquieto, & perturbado. ¶* Cocorouo ſa- |  |
-| `c2-l024` | &emsp;rau, l, naguiſamuru. *Deſabafar o cora-* |  |
+| `c2-l024` | &emsp;raſu, l, naguiſamuru. *Deſabafar o cora-* |  |
 | `c2-l025` | &emsp;*ção. ¶* Cocorouo tçucuſu. *Por todas as* |  |
 | `c2-l026` | &emsp;*forças. ¶* Cocorouo nadamuru. *Con-* |  |
-| `c2-l027` | &emsp;*ſolar. ¶* Cocorouo vocazumòſu. *Fa-* |  |
+| `c2-l027` | &emsp;*ſolar. ¶* Cocorouo vocazu môſu. *Fa-* |  |
 | `c2-l028` | &emsp;*lar ſem encobrir nada, ou ſem pejo. ¶* Co- |  |
-| `c2-l029` | &emsp;coroga yoru. *Enfraquecerſe, ou renderſe* |  |
-| `c2-l030` | &emsp;*com a perſuaſão dalguem, &c. ¶* Coco- |  |
+| `c2-l029` | &emsp;coroga youaru. *Enfraquecerſe, ou renderſe* |  |
+| `c2-l030` | &emsp;*com a perſuazão dalguem, &c. ¶* Coco- |  |
 | `c2-l031` | &emsp;rouo madouaſu. *Perturbar o coração, ou* |  |
-| `c2-l032` | &emsp;*fazelo perplexo. ¶* Cocorouo cudagu. |  |
+| `c2-l032` | &emsp;*fazelo perplexo. ¶* Cocorouo cudaqu. |  |
 | `c2-l033` | &emsp;*Por diligencia, & cuidado, ou peneirar, &* |  |
 | `c2-l034` | &emsp;*goſtar muito dalgũa couſa q̃ hũ medita profũda-* |  |
 | `c2-l035` | &emsp;*mente.* |  |
@@ -117,11 +117,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l037` | Cocorobaye. *Bõ animo, ou boa vontade. ¶* Co- |  |
 | `c2-l038` | &emsp;corobayeuo ſuru. *Moſtrar boa vontade,* |  |
 | `c2-l039` | &emsp;*ou beneuolencia.* |  |
-| `c2-l040` | Cocorobosogueni. *Adu. Modo de eſtar* |  |
+| `c2-l040` | Cocoroboſogueni. *Adu. Modo de eſtar* |  |
 | `c2-l041` | &emsp;*com triſteza, & com o coração apertado.* |  |
-| `c2-l042` | Cocorobosoi. *Triſte, & affligido.* |  |
-| `c2-l043` | &emsp;Cocorobǒlo. |  |
-| `c2-l044` | &emsp;Cocorobǒloſa. |  |
+| `c2-l042` | Cocoroboſoi. *Triſte, & affligido.* |  |
+| `c2-l043` | &emsp;Cocorobuſô. |  |
+| `c2-l044` | &emsp;Cocoroboſoſa. |  |
 | `c2-l045` | Cocorobucai. *Homem calado, & fundo que* |  |
 | `c2-l046` | &emsp;*não moſtra logo o que tem no coração.* |  |
 | `c2-l047` | Cocorodate. *Vt,* Cocorodateno yoi fito. |  |
