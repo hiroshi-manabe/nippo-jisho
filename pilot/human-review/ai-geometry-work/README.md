@@ -15,6 +15,8 @@ Treat each page as an independent completion unit. A normal `geometry_and_text` 
 
 When a scan exposes a genuine line-count, line-order, or displaced-text problem in the supplied canonical structure, stop adjudicating that page and report the discrepancy precisely. Other pages in the assignment may still be completed independently. The project will repair and regenerate the affected page before asking for a new review.
 
+When a regenerated task contains `review_scope.type: resume_after_lineation_rebase`, preserve every column labelled `completed_preserved` exactly as supplied and review only the columns labelled `pending_regenerated_after_lineation_rebase`. The preserved readings and rectangles are earlier completed work, not canonical hints for the pending column. Return the complete page object after finishing the pending scope.
+
 Use visual judgment. Uniform spacing, identical crop sizes, and mechanically reused rectangles are not goals. A good result may use conservative rule-to-rule width, local vertical overlap, or an exceptional line rectangle when the print requires it.
 
 Preserve what is visibly printed: historical spelling, spacing, diacritics, short and long `s`, punctuation, and line division. Do not modernize, silently repair the language, copy the canonical line as an independent reading, or invent a character merely to complete the task. Uncertainty is valid evidence and should be reported explicitly.

@@ -12,6 +12,8 @@ The normal `default_response_mode` is `geometry_and_text`. A completed response 
 
 Every body-line record must have a non-null `observed_text` and no `pending` value.
 
+A task regenerated after a lineation repair may include a `review_scope` object, completed lines in columns marked `completed_preserved`, and pending lines in columns marked `pending_regenerated_after_lineation_rebase`. Do not reread or alter the preserved columns. Complete the pending columns and return the whole page with the normal completed response statuses.
+
 For each line, allowed values are:
 
 - `match`: `strong`, `partial`, `mismatch`, or `unreadable`;

@@ -14,7 +14,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | &emsp;*entre duas foxiras pera auer dereitas, & aju-* |  |
+| `c1-l001` | &emsp;*entre duas faxiras pera as ter dereitas, & aju-* |  |
 | `c1-l002` | &emsp;*dar a ſoſtentar.* |  |
 | `c1-l003` | Cobaxi, ſu, aita. *Fazer que a couſa ſeja co-* |  |
 | `c1-l004` | &emsp;*bita, ou tenha algũa particularidade, ou graça* |  |
@@ -45,17 +45,17 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l029` | Cobin. *Cabellos das fontes, ou as meſmas fon-* |  |
 | `c1-l030` | &emsp;*tes. ¶* Cobinuo caqu. *Coçar as fontes* |  |
 | `c1-l031` | &emsp;*com pezar, ou deſgoſto dalgũa couſa.* |  |
-| `c1-l032` | Cǒbin. Saijaino tayori. *Bom portador, ou* |  |
+| `c1-l032` | Cǒbin. Saiuaino tayori. *Bom portador, ou* |  |
 | `c1-l033` | &emsp;*oportunidade, & conjunção. S.* |  |
 | `c1-l034` | Cǒbin. Coromaxij, l, yoi tayori. *Men-* |  |
 | `c1-l035` | &emsp;*ſajeiro, ou portador, ou oportunidade.* |  |
 | `c1-l036` | Cobǒ. *Moçozinho rapado que ſerue como* |  |
 | `c1-l037` | &emsp;*Conoro.* |  |
 | `c1-l038` | Cobochi, tçu, otta. *Deſfazer. ¶* Iye- |  |
-| `c1-l039` | &emsp;uo cobutçu. *Deſfazer, ou deſmanſibar* |  |
+| `c1-l039` | &emsp;uo cobutçu. *Deſfazer, ou deſmanbar* |  |
 | `c1-l040` | &emsp;*a caſa.* |  |
 | `c1-l041` | Côbocu. *Certa mezinha.* |  |
-| `c1-l042` | Cobocu. Care qi. *Arvore ja ſeca.* |  |
+| `c1-l042` | Cobecu. Care qi. *Arvore ja ſeca.* |  |
 | `c1-l043` | Cobocu. *Arvore velha.* |  |
 | `c1-l044` | Cobore, uru, eta. *Entornarſe, ou tresbordar.* |  |
 | `c1-l045` | &emsp;¶ Namidaga coboruru. *Caĩrem as lagri-* |  |
@@ -75,49 +75,50 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l001` | Cobore cacari, u, atta. *Eſtar a couſa tres-* |  |
 | `c2-l002` | &emsp;*bordando, & caindo ſobre outra.* |  |
 | `c2-l003` | Coboreuochi, uru, ita. *Trasbordar, ou cair.* |  |
-| `c2-l004` | &emsp;¶ Nanigamo cobôru. *Derramar lagri-* |  |
-| `c2-l005` | &emsp;*mas. ¶* Catanano fauo cobôru. *Fa-* |  |
-| `c2-l006` | &emsp;*zer mossas no corte da* catana. |  |
-| `c2-l007` | Cobǒxi. *Bonzinho, ou Menino rapado.* |  |
-| `c2-l008` | Cobu. *Lobinho, ou carne ſaida pera fora* |  |
-| `c2-l009` | &emsp;*naturalmente.* |  |
-| `c2-l010` | Cobu. *Hũs limos do mar de folha larga que* |  |
-| `c2-l011` | &emsp;*ſe comem.* |  |
-| `c2-l012` | Cobucu. *Hũa taça pequena de* Cha, *ou de* |  |
-| `c2-l013` | &emsp;*mezinha que ſe bebe.* |  |
-| `c2-l014` | Cobucuro. *Bolſinha, ou ſaquinho.* |  |
-| `c2-l015` | Cobujiqirô. *Certa boceta redonda.* |  |
-| `c2-l016` | Cobun. Furui fumi. *Eſcritura antigua.* |  |
-| `c2-l017` | &emsp;¶ *Item name de hum certo liuro de bom eſ-* |  |
-| `c2-l018` | &emsp;*tilo pera compor.* |  |
-| `c2-l019` | Cǒbun. Tegami, fumi. *Carta, ou papel* |  |
-| `c2-l020` | &emsp;*em que ſe notifica algũa couſa certa a alguem.* |  |
-| `c2-l021` | Cǒbun. *Eſcritura de eſtilo alto, & excellente.* |  |
-| `c2-l022` | Cobune. *Embarcação pequena.* |  |
-| `c2-l023` | Cobura. *Barriga da perna.* |  |
-| `c2-l024` | Cobut. Inixiyeno fotoqe. Fotoqe *antiguo.* |  |
-| `c2-l025` | Cǒbut. Yoximono, l, conomu mono. *Cou-* |  |
-| `c2-l026` | &emsp;*ſa boa, ou apeticiuel como couſa que o do-* |  |
-| `c2-l027` | &emsp;*ente apetece, ou que hum folga, & geſta* |  |
-| `c2-l028` | &emsp;*de comer, &c. ¶ Item couſa que he boa* |  |
-| `c2-l029` | &emsp;*pera a ſaude, & não preiudica as mezinhas* |  |
-| `c2-l030` | &emsp;*que hum toma, &c.* |  |
-| `c2-l031` | Cobuxi. *Punho cerrado. ¶* Cobuxide |  |
-| `c2-l032` | &emsp;yamaitru. *Dar de punhadas.* |  |
-| `c2-l033` | Cobuxi. *Certa raiz de erua medicinal.* |  |
-| `c2-l034` | Cǒca. Tacai norimono. *Andas de peſſoa* |  |
-| `c2-l035` | &emsp;*nobre.* |  |
-| `c2-l036` | Côca. Xiriyeno tana. i. Xǒbenjo. *Secre-* |  |
-| `c2-l037` | &emsp;*tas de ourinar. Palaura de molheres.* |  |
-| `c2-l038` | Coca. Furui yta. *Verſos antigos.* |  |
-| `c2-l039` | Cǒcacu. Yuqu marabito. *Peregrino.* |  |
-| `c2-l040` | Cocacu. Qitçune, mujina. *Rapoſa, &* |  |
-| `c2-l041` | &emsp;*outro animal ſemelhante a adibe. ¶* Coca- |  |
-| `c2-l042` | &emsp;cunocauagoromouo caiu xite fantai da ca- |  |
-| `c2-l043` | &emsp;ra fixegu. *O veſtido feito das pelles deſtes* |  |
-| `c2-l044` | &emsp;*animaes ſendo leue defende grãdemente do frio.* |  |
-| `c2-l045` | Cǒcacu. Tacai iye. *Caſa alta, ou edificio no-* |  |
-| `c2-l046` | &emsp;*bre, & alto.* |  |
+| `c2-l004` | Coboxi, ſu, oita. *Entornar, ou derramar.* |  |
+| `c2-l005` | &emsp;¶ Nanigamo cobôru. *Derramar lagri-* |  |
+| `c2-l006` | &emsp;*mas. ¶* Catanano fauo cobôru. *Fa-* |  |
+| `c2-l007` | &emsp;*zer mossas no corte da* catana. |  |
+| `c2-l008` | Cobǒxi. *Bonzinho, ou Menino rapado.* |  |
+| `c2-l009` | Cobu. *Lobinho, ou carne ſaida pera fora* |  |
+| `c2-l010` | &emsp;*naturalmente.* |  |
+| `c2-l011` | Cobu. *Hũs limos do mar de folha larga que* |  |
+| `c2-l012` | &emsp;*ſe comem.* |  |
+| `c2-l013` | Cobucu. *Hũa taça pequena de* Cha, *ou de* |  |
+| `c2-l014` | &emsp;*mezinha que ſe bebe.* |  |
+| `c2-l015` | Cobucuro. *Bolſinha, ou ſaquinho.* |  |
+| `c2-l016` | Cobujiqirô. *Certa boceta redonda.* |  |
+| `c2-l017` | Cobun. Furui fumi. *Eſcritura antigua.* |  |
+| `c2-l018` | &emsp;¶ *Item name de hum certo liuro de bom eſ-* |  |
+| `c2-l019` | &emsp;*tilo pera compor.* |  |
+| `c2-l020` | Cǒbun. Tegami, fumi. *Carta, ou papel* |  |
+| `c2-l021` | &emsp;*em que ſe notifica algũa couſa certa a alguem.* |  |
+| `c2-l022` | Cǒbun. *Eſcritura de eſtilo alto, & excellente.* |  |
+| `c2-l023` | Cobune. *Embarcação pequena.* |  |
+| `c2-l024` | Cobura. *Barriga da perna.* |  |
+| `c2-l025` | Cobut. Inixiyeno fotoqe. Fotoqe *antiguo.* |  |
+| `c2-l026` | Cǒbut. Yoximono, l, conomu mono. *Cou-* |  |
+| `c2-l027` | &emsp;*ſa boa, ou apeticiuel como couſa que o do-* |  |
+| `c2-l028` | &emsp;*ente apetece, ou que hum folga, & geſta* |  |
+| `c2-l029` | &emsp;*de comer, &c. ¶ Item couſa que he boa* |  |
+| `c2-l030` | &emsp;*pera a ſaude, & não preiudica as mezinhas* |  |
+| `c2-l031` | &emsp;*que hum toma, &c.* |  |
+| `c2-l032` | Cobuxi. *Punho cerrado. ¶* Cobuxide |  |
+| `c2-l033` | &emsp;yamaitru. *Dar de punhadas.* |  |
+| `c2-l034` | Cobuxi. *Certa raiz de erua medicinal.* |  |
+| `c2-l035` | Cǒca. Tacai norimono. *Andas de peſſoa* |  |
+| `c2-l036` | &emsp;*nobre.* |  |
+| `c2-l037` | Côca. Xiriyeno tana. i. Xǒbenjo. *Secre-* |  |
+| `c2-l038` | &emsp;*tas de ourinar. Palaura de molheres.* |  |
+| `c2-l039` | Coca. Furui yta. *Verſos antigos.* |  |
+| `c2-l040` | Cǒcacu. Yuqu marabito. *Peregrino.* |  |
+| `c2-l041` | Cocacu. Qitçune, mujina. *Rapoſa, &* |  |
+| `c2-l042` | &emsp;*outro animal ſemelhante a adibe. ¶* Coca- |  |
+| `c2-l043` | &emsp;cunocauagoromouo caiu xite fantai da ca- |  |
+| `c2-l044` | &emsp;ra fixegu. *O veſtido feito das pelles deſtes* |  |
+| `c2-l045` | &emsp;*animaes ſendo leue defende grãdemente do frio.* |  |
+| `c2-l046` | Cǒcacu. Tacai iye. *Caſa alta, ou edificio no-* |  |
+| `c2-l047` | &emsp;*bre, & alto.* |  |
 
 ## Catchword
 
