@@ -255,6 +255,31 @@ def corrected_runs(
             runs[-1]["text"] += character
         else:
             runs.append({**style, "text": character})
+    # Markdown cannot reliably preserve a plain whitespace-only run between
+    # otherwise identical italic (or display) runs: parsing adjacent emphasis
+    # spans absorbs that whitespace into the surrounding typeface. Typeface is
+    # not visible on whitespace, so canonicalize the three runs to one while
+    # retaining all non-typeface layout metadata.
+    index = 1
+    while index < len(runs) - 1:
+        middle = runs[index]
+        left = runs[index - 1]
+        right = runs[index + 1]
+        layout = lambda run: {
+            key: value
+            for key, value in run.items()
+            if key not in {"text", "typeface"}
+        }
+        if (
+            middle["text"].isspace()
+            and left["typeface"] == right["typeface"]
+            and left["typeface"] != "roman"
+            and layout(left) == layout(middle) == layout(right)
+        ):
+            left["text"] += middle["text"] + right["text"]
+            del runs[index : index + 2]
+            continue
+        index += 1
     return runs
 
 

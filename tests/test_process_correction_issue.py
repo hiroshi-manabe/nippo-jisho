@@ -106,6 +106,27 @@ class CorrectionIssueProcessorTests(unittest.TestCase):
             ],
         )
 
+    def test_italic_override_merges_invisible_plain_space_between_italic_runs(self):
+        line = {
+            "id": "c1-l002",
+            "runs": [
+                {"typeface": "italic", "text": "Ou. Vt,"},
+                {"typeface": "roman", "text": " Pedro ca Ioão ca mairetomǒxe."},
+            ],
+        }
+        text, roman_ranges, italic_ranges = parse_correction_notation(
+            "Ou. Vt, {Pedro} ca {Ioão} ca mairetomǒxe."
+        )
+        self.assertEqual(
+            corrected_runs(line, text, roman_ranges, italic_ranges),
+            [
+                {"typeface": "italic", "text": "Ou. Vt, Pedro"},
+                {"typeface": "roman", "text": " ca "},
+                {"typeface": "italic", "text": "Ioão"},
+                {"typeface": "roman", "text": " ca mairetomǒxe."},
+            ],
+        )
+
     def test_export_treats_whitespace_only_italic_run_as_plain_space(self):
         page = {
             "format": "nippo-level1-page",
