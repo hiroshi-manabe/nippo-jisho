@@ -31,7 +31,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l015` | &emsp;*ra de qualquer couſa, ſenaõ neſtes modos de fa-* |  |
 | `c1-l016` | &emsp;*lar. ¶* Tomoxibiuo cacaguru. *A ti-* |  |
 | `c1-l017` | &emsp;*çar, ou eſpeuitar a candea. ¶ Item, Acẽ* |  |
-| `c1-l018` | &emsp;*dea, & polla diante do* Cami *ou* Fotoqe. |  |
+| `c1-l018` | &emsp;*de a, & polla diante do* Cami *ou* Fotoqe. |  |
 | `c1-l019` | &emsp;*¶* Qirumonono ſuſouo cacaguru. *Ar-* |  |
 | `c1-l020` | &emsp;*regaçar, ou aleuantar as fraldas do veſtido.* |  |
 | `c1-l021` | &emsp;*¶* Fôtôuo cacaguru. *Louuar, & engrã-* |  |
@@ -101,7 +101,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l027` | &emsp;*outro. ¶ Itẽ,* Cacani. i. Cayǒ naru, l, cacu |  |
 | `c2-l028` | &emsp;nogotoqu. *Semelhante, ou tal. Vt,* Cacaru |  |
 | `c2-l029` | &emsp;meiuacu. T*riſteza, ouafflição tal como esta.* |  |
-| `c2-l030` | &emsp;*¶ Itẽ, No negatiuo.* Cacaranu. *Couſa q̃ não* |  |
+| `c2-l030` | &emsp;*¶ Itẽ,* Nonegateuo. Cacaranu. *Couſa q̃ não* |  |
 | `c2-l031` | &emsp;*presta pera nada, & q̃ ſe não pode falar* |  |
 | `c2-l032` | &emsp;*nella. Vt,* Cacaranu monogia. *¶ Com* |  |
 | `c2-l033` | &emsp;*os compoſtos ſignifica, começar, ou estar fa-* |  |
