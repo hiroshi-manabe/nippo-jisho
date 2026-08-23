@@ -22,6 +22,12 @@ The later prepared range `f101`–`f237`, `f248`–`f250`, and `f643` contains 1
 
 ## Imported batches
 
+### f116 resumed line-by-line review
+
+The initial f116 return stopped correctly after discovering an omitted physical line between `c2-l003` and the then-current `c2-l004`. The project restored `Coboxi, ſu, oita. Entornar, ou derramar.`, rebased the remaining column-2 IDs through `c2-l047`, preserved the completed first-column evidence, and regenerated a column-2-only resume task. The completed return was imported on 2026-08-24. All 94 body-line rectangles passed exact line-ID, source-hash, bounds, and full-width validation and are recorded as `ai_line_by_line_checked`.
+
+Eight scan-supported textual corrections were applied. These include `Aruore`, `Namidauo coboſu`, historical `moças`, printed `domar`, `goſta`, `yamaituru`, and `antiguos`. On the explicitly uncertain final line of column 1, only the clearly visible `Fazeremſe` was accepted; canonical `mossas` remains pending human adjudication rather than being replaced by the return's uncertain `miças`.
+
 ### f51–f55 line-by-line rereviews
 
 Fresh geometry-and-text returns were imported on 2026-08-19 after the original f52–f55 batch had only bulk-sanity provenance. All 466 body-line rectangles passed exact line-ID and bounds validation plus a complete strip-to-transcription association sweep; the new line-specific rectangles are recorded as `ai_line_by_line_checked`. The returns were based on commit `a945106`, immediately before Issue #47 changed unchecked `ſt` candidates to provisional short `st`. Geometry was therefore imported with explicit transcription-drift acknowledgement after the newer text and all advisory readings were separately adjudicated.

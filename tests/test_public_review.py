@@ -87,21 +87,13 @@ class PublicReviewRegressionTests(unittest.TestCase):
                 record["transcription_source"]["page_file_sha256"],
             )
             seen = set()
-            for column_id, column in record["columns"].items():
+            for column in record["columns"].values():
                 for line in column["lines"]:
                     self.assertNotIn(line["id"], seen)
                     seen.add(line["id"])
-                    preserved_f116 = (
-                        page_id == "bnf-f0116" and column_id == "column-1"
-                    )
-                    if preserved_f116:
-                        self.assertIsNotNone(line["observed_text"])
-                        self.assertNotEqual(line["match"], "pending")
-                        self.assertNotEqual(line["assessment"], "pending")
-                    else:
-                        self.assertIsNone(line["observed_text"])
-                        self.assertEqual(line["match"], "pending")
-                        self.assertEqual(line["assessment"], "pending")
+                    self.assertIsNone(line["observed_text"])
+                    self.assertEqual(line["match"], "pending")
+                    self.assertEqual(line["assessment"], "pending")
                     if line.get("validation_flags"):
                         actual_flags.add(f"{page_id}/{line['id']}")
             line_count += len(seen)
