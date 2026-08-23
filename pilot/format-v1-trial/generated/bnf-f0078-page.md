@@ -31,7 +31,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l015` | &emsp;cu xiranu. *Não ſei nada.* |  |
 | `c1-l016` | Caina. *Braço do cotouelo atee a maõ.* |  |
 | `c1-l017` | Cainai. *Couſa fraca. ¶* Cocoro ga cainǒ- |  |
-| `c1-l018` | &emsp;te. *Estq. Enfraquecendo, ou perden-* |  |
+| `c1-l018` | &emsp;te. *Eſtq. Enfraquecendo, ou perden-* |  |
 | `c1-l019` | &emsp;*do o animo, & coração.* |  |
 | `c1-l020` | Cainai. Vmino vchi. *Dentro no mar.* |  |
 | `c1-l021` | Cainan. Minamino vmi. *Mar do ſul.* |  |
@@ -55,12 +55,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l039` | Cairagui. *Hum certo peixe como lixa cuja pel-* |  |
 | `c1-l040` | &emsp;*le ſerue pera cubrir, & ornar os punhos da* Ca |  |
 | `c1-l041` | &emsp;tana. *¶* Cairaguizzuca. *Punhos da* Ca |  |
-| `c1-l042` | &emsp;tana *concertados, & cubertos com esta pelle.* |  |
+| `c1-l042` | &emsp;tana *concertados, & cubertos com eſta pelle.* |  |
 | `c1-l043` | Cairicu. Vmi cuga. *Mar, & terra, ou por* |  |
 | `c1-l044` | &emsp;*mar, & por terra.* |  |
 | `c1-l045` | Cairiǒ. *Vt,* Cairiǒ manzocu. *Alegria,* |  |
 | `c1-l046` | &emsp;*& contentamento perfeito.* |  |
-| `c1-l047` | Cairiqi. Imaximeno chicara. *Vigor, & for* |  |
+| `c1-l047` | Cairiqi. Imaximeno chicara. *Viger, & for* |  |
 | `c1-l048` | &emsp;*ça da lei.* |  |
 
 ## Column 2 running header
@@ -85,15 +85,15 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l010` | &emsp;*que depois aſſentão algum pao, ou traue à ma-* |  |
 | `c2-l011` | &emsp;*neira de Cumofijigi.* |  |
 | `c2-l012` | Caiſacu. Aratame tçuguru. *Tornar abrir,* |  |
-| `c2-l013` | &emsp;*& cultiuar as terras que estauão deixadas em* |  |
+| `c2-l013` | &emsp;*& cultiuar as terras que eſtauão deixadas em* |  |
 | `c2-l014` | &emsp;*mortorio. ¶ Item,* Firaqi tçuguru. *A-* |  |
 | `c2-l015` | &emsp;*brir, & cultiuar de nouo algũa terra.* |  |
 | `c2-l016` | Caiſaguri, ru, utta. *Palpar leuemente.* |  |
 | `c2-l017` | Caiſama, l, caiſamani. *Az aueſſas. Vt,* |  |
-| `c2-l018` | &emsp;Caiſamani qirimonomo qiru. *Vestir o veſ* |  |
+| `c2-l018` | &emsp;Caiſamani qirimonomo qiru. *Veſtir o veſ* |  |
 | `c2-l019` | &emsp;*tido az aueſſas.* |  |
 | `c2-l020` | Caiſama ro. i. Sacaro. *Remos az aueſſas.* |  |
-| `c2-l021` | &emsp;*i. Postos de proa a popa.* |  |
+| `c2-l021` | &emsp;*i. Poſtos de proa a popa.* |  |
 | `c2-l022` | Caiſan. Yamauo firaqu. *Fundador de algũa* |  |
 | `c2-l023` | &emsp;*ſeita. ¶ Item, O que primeiro edificou al-* |  |
 | `c2-l024` | &emsp;*gũa terra, ermida, &c.* |  |
@@ -102,7 +102,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l027` | Caiſodate, tçuru, eta. *Criar, ou apacentar.* |  |
 | `c2-l028` | &emsp;*Vt,* Fitçujino caiſodatçuru. *Apacentar* |  |
 | `c2-l029` | &emsp;*ouelhas.* |  |
-| `c2-l030` | Caiſoi, ô, ôta. *Estar junto, ou pegado com* |  |
+| `c2-l030` | Caiſoi, ô, ôta. *Eſtar junto, ou pegado com* |  |
 | `c2-l031` | &emsp;*alguem. ¶* Caiſôta fito. *Homem mã* |  |
 | `c2-l032` | &emsp;*ſo, & brando.* |  |
 | `c2-l033` | Caiſoye, uru, eta. *Comprando acrecentar.* |  |
@@ -113,12 +113,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l038` | Caitai. Aratamari cauaru. *Renouarſe, ou* |  |
 | `c2-l039` | &emsp;*mudarſe. S.* |  |
 | `c2-l040` | Caitate, tçuru, eta. *Criar animaes, &c.* |  |
-| `c2-l041` | Caitçu, l, caitçume. *Este, abaixandoo.* |  |
+| `c2-l041` | Caitçu, l, caitçume. *Eſte, abaixandoo.* |  |
 | `c2-l042` | Caitçuburi. *Hum paſſaro do mar.* |  |
 | `c2-l043` | Caitçucami, u, ôda. *Aſſerrar com as unhas.* |  |
-| `c2-l044` | Caitçucuroi, ô, ôta. *Concertar o vestido,* |  |
+| `c2-l044` | Caitçucuroi, ô, ôta. *Concertar o veſtido,* |  |
 | `c2-l045` | &emsp;*&c. Vt,* Yemonuo caitçucurô. *Concertar* |  |
-| `c2-l046` | &emsp;*a dianteira do vestido.* |  |
+| `c2-l046` | &emsp;*a dianteira do veſtido.* |  |
 | `c2-l047` | Caitçuqe. i. Auabi. *Mariſco do mar.* |  |
 
 ## Catchword

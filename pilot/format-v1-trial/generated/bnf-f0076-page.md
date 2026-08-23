@@ -46,19 +46,19 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l030` | Cai. *Ameijoa, ou outro mariſco do mar ſeme* |  |
 | `c1-l031` | &emsp;*lhante. ¶ Item, Buzio que em Iapão ſer-* |  |
 | `c1-l032` | &emsp;*ue como de buzina, ou trombeta. ¶* Cai |  |
-| `c1-l033` | &emsp;uo ſuqu. *Tanger este buzio, ou buzina.* |  |
+| `c1-l033` | &emsp;uo ſuqu. *Tanger eſte buzio, ou buzina.* |  |
 | `c1-l034` | &emsp;*¶* Caiuo naraſu, l, tatçuru. *Idem.* |  |
-| `c1-l035` | &emsp;*¶* Caimo coye. *Som de buzio de Iapão,* |  |
+| `c1-l035` | &emsp;*¶* Caino coye. *Som de buzio de Iapão,* |  |
 | `c1-l036` | &emsp;*ou buzina. ¶* Caiuo ſuqi tatçuru, l, |  |
 | `c1-l037` | &emsp;caino coyeuo tatçuru. *Tanger o buzio, ou* |  |
 | `c1-l038` | &emsp;*buzina. ¶* Caino tama. *Perola, ou* |  |
 | `c1-l039` | &emsp;*aljofre.* |  |
 | `c1-l040` | Cai, Vouô, l, vouoi. *Cubrir, ou couſa q̃ cobre* |  |
 | `c1-l041` | &emsp;*como palco, ſobrecto, toldo, &c. Vt,* Cai |  |
-| `c1-l042` | &emsp;uo ſaſu. *Estender toldo, &c.* |  |
-| `c1-l043` | Cai, l, caiyǔ. *Canjoſita de arroz.* |  |
+| `c1-l042` | &emsp;uo ſaſu. *Eſtender toldo, &c.* |  |
+| `c1-l043` | Cai, l, caiyǔ. *Canjo feita de arroz.* |  |
 | `c1-l044` | Cai. *Proueito, ou remedio. Vt,* Iqite cai |  |
-| `c1-l045` | &emsp;no rai. *Ainda q̃ viua q̃ a proueit? ¶* Mô- |  |
+| `c1-l045` | &emsp;no rai. *Ainda q̃ viua q̃ a proueito? ¶* Mô- |  |
 | `c1-l046` | &emsp;xita caiganai. *Por mais que lho tenha* |  |
 | `c1-l047` | &emsp;*dito não ha remedio.* |  |
 
@@ -77,13 +77,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l003` | Cai, cǒ, ǒta. *Comprar.* |  |
 | `c2-l004` | Cai, ǒ, ǒta. *Por pao lete, meter cunha, &c.* |  |
 | `c2-l005` | &emsp;*¶* Cõbarinocǒ. *Por hum pao aſſi dem-* |  |
-| `c2-l006` | &emsp;*prestado entre duas faxiras pera aster dereitas.* |  |
+| `c2-l006` | &emsp;*preſtado entre duas faxiras pera aſter dereitas.* |  |
 | `c2-l007` | &emsp;*¶ Item, Per met. Nas demandas, ou bri-* |  |
 | `c2-l008` | &emsp;*gas por ſe de hũa banda, & ajudar ao que* |  |
 | `c2-l009` | &emsp;*vai enfraquecendo, ou rendendoſe pera que* |  |
-| `c2-l010` | &emsp;*tenha mão, ou não perda, &c. ¶* Si- |  |
+| `c2-l010` | &emsp;*tenha mão, ou não perdor, &c. ¶* Si- |  |
 | `c2-l011` | &emsp;neto cǒ. *Por pontalete, ou eſpeque pera* |  |
-| `c2-l012` | &emsp;*ſostentar algũa couſa. ¶* Cuſabiuocǒ. |  |
+| `c2-l012` | &emsp;*ſoſtentar algũa couſa. ¶* Cuſabiuocǒ. |  |
 | `c2-l013` | &emsp;*Meter cunha.* |  |
 | `c2-l014` | Cai, ǒ, ǒta. *Criar, ou apacentar gado, ani-* |  |
 | `c2-l015` | &emsp;*mais, & paſſaros, & dar lhes de comer.* |  |
@@ -93,10 +93,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l019` | &emsp;*¶* Yeuo torinicǒ, l, toriuocǒ. *Dar de* |  |
 | `c2-l020` | &emsp;*comer aos paſſaros. ¶* Docuuo cǒ. *Dar* |  |
 | `c2-l021` | &emsp;*peçonha a alguem.* |  |
-| `c2-l022` | Cai an. *Vt,* Cai an gaxei. *Estar a cidade, ou* |  |
+| `c2-l022` | Cai an. *Vt,* Cai an gaxei. *Eſtar acidade, ou* |  |
 | `c2-l023` | &emsp;*o reino em paz, & quieto. S.* |  |
 | `c2-l024` | Cai atçume, ru, eta. *Comprando ajuntar.* |  |
-| `c2-l025` | Caica. Curaini niuto. *Iunto, ou perto dos* |  |
+| `c2-l025` | Caica. Curainoniuto. *Iunto, ou perto dos* |  |
 | `c2-l026` | &emsp;*que ſobem a dignidades, & graos.* |  |
 | `c2-l027` | Caicanaguri, u, utta. *Arepellar, ou arran-* |  |
 | `c2-l028` | &emsp;*car cõ o cabellos, eruas, linhas, fios, &c.* |  |
@@ -110,12 +110,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l036` | Caico. *Bicho de ſeda, ou ſua ſemente no xi-* |  |
 | `c2-l037` | &emsp;*mo dizem tambem,* caigo. |  |
 | `c2-l038` | Caicǒ. Fataqi, u. *Algoz, ou executor da* |  |
-| `c2-l039` | &emsp;*justiça.* |  |
+| `c2-l039` | &emsp;*juſtiça.* |  |
 | `c2-l040` | Caicomi, u, ôda. *Meter dentro. Vt,* Ta- |  |
 | `c2-l041` | &emsp;chinoka couagini caicomu. *Sobrepor* |  |
 | `c2-l042` | &emsp;*montante.* |  |
 | `c2-l043` | Caicorobi, u, ôda. *Cair.* |  |
-| `c2-l044` | Caicumi, u, unda. *Tomar agua, ou outro* |  |
+| `c2-l044` | Caicumi, u, unda. *Tirar agua, ou outro* |  |
 | `c2-l045` | &emsp;*liquor.* |  |
 | `c2-l046` | Caicuri, u, utta. *Enrolar, ou emuoluer, &* |  |
 | `c2-l047` | &emsp;*dar volta a algũa couſa. ¶* Tazzuna- |  |
