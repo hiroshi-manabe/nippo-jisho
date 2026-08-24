@@ -291,6 +291,7 @@ def main() -> int:
     )
     for name in (
         "index.html",
+        "quick-edit.js",
         "app.js",
         "styles.css",
         "reference.css",

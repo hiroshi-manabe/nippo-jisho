@@ -177,6 +177,46 @@ class PublicReviewRegressionTests(unittest.TestCase):
         self.assertIn("event.preventDefault()", app)
         self.assertIn(".character-palette", styles)
 
+    def test_collapsed_line_quick_edits_are_reversible_and_schema_neutral(self):
+        app = (ROOT / "site" / "app.js").read_text(encoding="utf-8")
+        helper = (ROOT / "site" / "quick-edit.js").read_text(encoding="utf-8")
+        document = (ROOT / "site" / "index.html").read_text(encoding="utf-8")
+        styles = (ROOT / "site" / "styles.css").read_text(encoding="utf-8")
+        builder = (ROOT / "scripts" / "build_public_review.py").read_text(encoding="utf-8")
+        workflow = (ROOT / "docs" / "human-review-workflow.md").read_text(encoding="utf-8")
+        self.assertIn('<script src="quick-edit.js"></script>', document)
+        self.assertIn('"quick-edit.js",', builder)
+        self.assertIn("const DELETABLE = new Set([' ', '-', ',', '.'])", helper)
+        self.assertIn("function applyQuickEdit(row, control)", app)
+        self.assertIn('data-quick-action="restore"', app)
+        self.assertIn(".quick-deleted", styles)
+        self.assertIn("copied schema-2 correction JSON", workflow)
+
+        script = r"""
+const q = require('./site/quick-edit.js');
+function equal(actual, expected) {
+  if (JSON.stringify(actual) !== JSON.stringify(expected)) {
+    throw new Error(`${JSON.stringify(actual)} !== ${JSON.stringify(expected)}`);
+  }
+}
+equal([q.nextSForm('s', 's'), q.nextSForm('ſ', 's')], ['ſ', 's']);
+equal([q.nextSForm('ſ', 'ſ'), q.nextSForm('s', 'ſ'), q.nextSForm('f', 'ſ')], ['s', 'f', 'ſ']);
+equal([q.nextSForm('f', 'f'), q.nextSForm('ſ', 'f')], ['ſ', 'f']);
+equal([q.nextVowel('o'), q.nextVowel('õ'), q.nextVowel('ò')], ['õ', 'ò', 'ó']);
+equal(q.replace('[F]oo, bar.', 3, 4, ''), '[F]oo bar.');
+equal(q.replace('[F]oo bar.', 3, 3, ',', null), '[F]oo, bar.');
+equal(q.toggleRoman('Fotoqe', 0), '[F]otoqe');
+equal(q.toggleRoman('[F]otoqe', 0), 'Fotoqe');
+equal(q.align('foo, bar.', 'foo bar.').deletions.map(item => [item.character, item.currentIndex]), [[',', 3]]);
+"""
+        result = subprocess.run(
+            ["node", "-e", script],
+            cwd=ROOT,
+            capture_output=True,
+            text=True,
+        )
+        self.assertEqual(result.returncode, 0, result.stderr)
+
     def test_line_editor_supports_paired_lightweight_typeface_spans(self):
         app = (ROOT / "site" / "app.js").read_text(encoding="utf-8")
         styles = (ROOT / "site" / "styles.css").read_text(encoding="utf-8")

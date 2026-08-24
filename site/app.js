@@ -559,12 +559,83 @@ function styledTypefaceDiff(line, proposal) {
   }).join('');
 }
 
+function lineById(lineId) {
+  return state.currentPage.zones.filter(item => item.kind === 'column').flatMap(item => item.lines).find(item => item.id === lineId);
+}
+
+function originalTypefaces(line) {
+  return line.runs.flatMap(run => Array.from(run.text).map(() => run.typeface));
+}
+
+function isItalicWordInitial(line, baseIndex, character, typefaces) {
+  if (baseIndex === null || typefaces[baseIndex] !== 'italic' || character !== character.toLocaleUpperCase('und') || character === character.toLocaleLowerCase('und')) return false;
+  return baseIndex === 0 || !/\p{L}/u.test(line.text[baseIndex - 1]);
+}
+
+function quickCharacterHTML(character, index, baseIndex, changed, line, proposal, typefaces) {
+  const original = baseIndex === null ? character : line.text[baseIndex];
+  const originalTypeface = baseIndex === null ? (typefaces[Math.max(0, index - 1)] || 'roman') : (typefaces[baseIndex] || 'roman');
+  const explicitTypeface = proposal.characters[index].style;
+  const typeface = explicitTypeface || originalTypeface;
+  let action = '';
+  let title = '';
+  if (isItalicWordInitial(line, baseIndex, character, typefaces)) {
+    action = 'typeface';
+    title = explicitTypeface === 'roman' ? 'Restore the printed italic type' : 'Mark this initial as Roman type';
+  } else if (/[sſf]/u.test(character) && /[sſf]/u.test(original)) {
+    action = 's-form';
+    title = 'Cycle s, long s, and f readings';
+  } else if (NippoQuickEdit.VOWEL_CYCLES.some(cycle => cycle.includes(character.toLocaleLowerCase('und')))) {
+    action = 'vowel';
+    title = 'Cycle accent and tilde forms';
+  } else if (NippoQuickEdit.DELETABLE.has(character)) {
+    action = 'delete';
+    title = character === ' ' ? 'Remove this space' : `Remove ${character}`;
+  }
+  const classes = ['quick-character'];
+  if (action) classes.push('quick-action');
+  if (changed || (explicitTypeface && explicitTypeface !== originalTypeface)) classes.push('quick-changed');
+  const attributes = action ? ` role="button" tabindex="0" data-quick-action="${action}" data-index="${index}" data-original="${escapeHTML(original)}" title="${escapeHTML(title)}"` : '';
+  let output = escapeHTML(character);
+  if (character === ' ') output = '<span class="quick-space"> </span>';
+  if (typeface === 'italic') output = `<em>${output}</em>`;
+  else if (typeface === 'display') output = `<strong>${output}</strong>`;
+  return `<span class="${classes.join(' ')}"${attributes}>${output}</span>`;
+}
+
+function quickDeletedHTML(deletion) {
+  if (!NippoQuickEdit.DELETABLE.has(deletion.character)) return '<span class="quick-omission" aria-label="Deleted text">∅</span>';
+  const label = deletion.character === ' ' ? '␠' : deletion.character;
+  const name = deletion.character === ' ' ? 'space' : deletion.character;
+  return `<span class="quick-deleted" role="button" tabindex="0" data-quick-action="restore" data-index="${deletion.currentIndex}" data-character="${escapeHTML(deletion.character)}" title="Restore ${escapeHTML(name)}" aria-label="Restore deleted ${escapeHTML(name)}">${escapeHTML(label)}</span>`;
+}
+
+function interactiveLineHTML(line, annotatedText) {
+  const proposal = NippoQuickEdit.parse(annotatedText);
+  if (!proposal.valid) return styledVisualDiff(line, annotatedText);
+  const alignment = NippoQuickEdit.align(line.text, proposal.text);
+  const typefaces = originalTypefaces(line);
+  const deletions = new Map();
+  for (const deletion of alignment.deletions) {
+    if (!deletions.has(deletion.currentIndex)) deletions.set(deletion.currentIndex, []);
+    deletions.get(deletion.currentIndex).push(deletion);
+  }
+  let output = '';
+  for (let index = 0; index <= proposal.characters.length; index++) {
+    output += (deletions.get(index) || []).map(quickDeletedHTML).join('');
+    if (index < proposal.characters.length) {
+      output += quickCharacterHTML(proposal.characters[index].character, index, alignment.currentToBase[index], alignment.changed[index], line, proposal, typefaces);
+    }
+  }
+  return output;
+}
+
 function lineHTML(page, line) {
   const edit = pageEdits(page)[line.id];
   const current = edit ? edit.after : line.text;
   const comment = edit?.comment || '';
   const markers = `${edit?.base_changed ? '<span class="review-marker">Base updated</span>' : ''}${edit?.comment_review_needed ? '<span class="review-marker comment-marker">Comment needs review</span>' : ''}${requestsSecondOpinion(edit) ? '<span class="review-marker opinion-marker">Second opinion</span>' : ''}`;
-  return `<article class="line-row ${edit ? 'changed' : ''} ${edit?.base_changed ? 'rebased' : ''}" data-line="${line.id}"><div class="line-head"><code>${line.id}</code>${markers}<button class="context-toggle" type="button" aria-expanded="false">Show context</button></div><button class="line-crop" type="button" style="aspect-ratio:${line.crop[2]}/${line.crop[3]}" data-crop='${JSON.stringify(line.crop)}' data-context='${JSON.stringify(line.context_crop)}' aria-label="Show context for ${line.id}"><img loading="lazy" data-iiif-page alt="" style="width:${page.width / line.crop[2] * 100}%;transform:translate(${-line.crop[0] / page.width * 100}% ,${-line.crop[1] / page.height * 100}%)"></button><div class="line-text-row"><button class="line-text indent-${line.indent}" type="button" data-action="edit">${edit ? styledVisualDiff(line, current) : renderRuns(line.runs)}</button>${comment ? `<button class="comment-preview" type="button" data-action="edit" title="${escapeHTML(comment)}">${escapeHTML(comment)}</button>` : ''}</div></article>`;
+  return `<article class="line-row ${edit ? 'changed' : ''} ${edit?.base_changed ? 'rebased' : ''}" data-line="${line.id}"><div class="line-head"><code>${line.id}</code>${markers}<button class="context-toggle" type="button" aria-expanded="false">Show context</button></div><button class="line-crop" type="button" style="aspect-ratio:${line.crop[2]}/${line.crop[3]}" data-crop='${JSON.stringify(line.crop)}' data-context='${JSON.stringify(line.context_crop)}' aria-label="Show context for ${line.id}"><img loading="lazy" data-iiif-page alt="" style="width:${page.width / line.crop[2] * 100}%;transform:translate(${-line.crop[0] / page.width * 100}% ,${-line.crop[1] / page.height * 100}%)"></button><div class="line-text-row" title="Click beside the text for the full editor"><div class="line-text indent-${line.indent}">${interactiveLineHTML(line, current)}</div>${comment ? `<button class="comment-preview" type="button" data-action="edit" title="${escapeHTML(comment)}">${escapeHTML(comment)}</button>` : ''}</div></article>`;
 }
 
 function setCrop(row, expanded) {
@@ -649,7 +720,7 @@ function useTranscriptionKey(form, key) {
 
 function saveEditor(form) {
   const row = form.closest('.line-row');
-  const line = state.currentPage.zones.filter(item => item.kind === 'column').flatMap(item => item.lines).find(item => item.id === row.dataset.line);
+  const line = lineById(row.dataset.line);
   const after = form.elements.transcription.value;
   const comment = form.elements.comment.value.trim();
   const secondOpinion = form.elements['second-opinion'].checked;
@@ -676,7 +747,7 @@ function openEditor(row) {
     row = [...document.querySelectorAll('.line-row')].find(candidate => candidate.dataset.line === lineId);
     if (!row) return;
   }
-  const line = state.currentPage.zones.filter(item => item.kind === 'column').flatMap(item => item.lines).find(item => item.id === lineId);
+  const line = lineById(lineId);
   const edit = pageEdits(state.currentPage)[lineId];
   const hasStoredOpinion = typeof edit?.second_opinion === 'boolean';
   const secondOpinion = hasStoredOpinion ? edit.second_opinion : Boolean(edit?.comment);
@@ -690,6 +761,63 @@ function openEditor(row) {
   });
   opinionControl.addEventListener('change', () => { opinionControl.dataset.manual = 'true'; });
   row.querySelector('[name="transcription"]').focus();
+}
+
+function replaceRenderedLine(row, line) {
+  row.outerHTML = lineHTML(state.currentPage, line);
+  refreshPageImageUI(state.currentPage);
+}
+
+function applyQuickEdit(row, control) {
+  const selection = window.getSelection?.();
+  if (selection && !selection.isCollapsed) return;
+  const lineId = row.dataset.line;
+  const activeForm = document.querySelector('.edit-form');
+  if (activeForm) {
+    if (!saveEditor(activeForm)) return;
+    renderPageContent();
+    row = [...document.querySelectorAll('.line-row')].find(candidate => candidate.dataset.line === lineId);
+    if (!row) return;
+  }
+  const line = lineById(lineId);
+  const existing = pageEdits(state.currentPage)[lineId];
+  const current = existing?.after || line.text;
+  const index = Number(control.dataset.index);
+  const action = control.dataset.quickAction;
+  let after = current;
+  if (action === 's-form') {
+    const parsed = NippoQuickEdit.parse(current);
+    const character = parsed.characters[index]?.character;
+    after = NippoQuickEdit.replace(current, index, index + 1, NippoQuickEdit.nextSForm(character, control.dataset.original));
+  } else if (action === 'vowel') {
+    const parsed = NippoQuickEdit.parse(current);
+    const character = parsed.characters[index]?.character;
+    after = NippoQuickEdit.replace(current, index, index + 1, NippoQuickEdit.nextVowel(character));
+  } else if (action === 'typeface') {
+    after = NippoQuickEdit.toggleRoman(current, index);
+  } else if (action === 'delete') {
+    after = NippoQuickEdit.replace(current, index, index + 1, '');
+  } else if (action === 'restore') {
+    after = NippoQuickEdit.replace(current, index, index, control.dataset.character, null);
+  }
+  if (after === current) return;
+  const comment = existing?.comment || '';
+  const secondOpinion = Boolean(existing?.second_opinion);
+  if (proposalMatchesLine(line, after) && !comment && !secondOpinion) {
+    delete pageEdits(state.currentPage)[lineId];
+  } else {
+    pageEdits(state.currentPage)[lineId] = {
+      ...existing,
+      before: line.text,
+      after,
+      comment,
+      second_opinion: secondOpinion,
+      second_opinion_manual: Boolean(existing?.second_opinion_manual),
+      base_line_version: line.transcription_version,
+    };
+  }
+  persistEdits(state.currentPage);
+  replaceRenderedLine(row, line);
 }
 
 async function copyText(text) {
@@ -724,13 +852,21 @@ document.addEventListener('click', event => {
     const typefaceButton = event.target.closest('[data-action="typeface-span"]');
     if (typefaceButton) return applyTypefaceSpan(row.querySelector('textarea[name="transcription"]'), typefaceButton.dataset.typeface);
     if (event.target.closest('.context-toggle,.line-crop')) { const button = row.querySelector('.context-toggle'); const expanded = button.getAttribute('aria-expanded') !== 'true'; button.setAttribute('aria-expanded', String(expanded)); button.textContent = expanded ? 'Hide context' : 'Show context'; setCrop(row, expanded); return; }
+    const quickControl = event.target.closest('[data-quick-action]');
+    if (quickControl) return applyQuickEdit(row, quickControl);
     if (event.target.closest('[data-action="edit"]')) return openEditor(row);
+    if (event.target.closest('.line-text-row') && !event.target.closest('.line-text > *')) return openEditor(row);
     if (event.target.closest('[data-action="cancel"]')) { row.querySelector('.edit-form').remove(); return; }
     if (event.target.closest('[data-action="revert"]')) { delete pageEdits(state.currentPage)[row.dataset.line]; persistEdits(state.currentPage); renderPageContent(); return; }
   }
 });
 
 document.addEventListener('keydown', event => {
+  const quickControl = event.target.closest('[data-quick-action]');
+  if (quickControl && (event.key === 'Enter' || event.key === ' ')) {
+    event.preventDefault();
+    return applyQuickEdit(quickControl.closest('.line-row'), quickControl);
+  }
   const area = event.target.closest('.edit-form textarea[name="transcription"]');
   if (!area || event.isComposing || event.ctrlKey || event.metaKey || event.altKey) return;
   if (event.key === 'Enter') {
