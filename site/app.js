@@ -588,6 +588,9 @@ function quickCharacterHTML(character, index, baseIndex, changed, line, proposal
   } else if (/[gq]/iu.test(character) && /[gq]/iu.test(original)) {
     action = 'gq-form';
     title = 'Toggle g and q readings';
+  } else if (/[uv]/u.test(character) && /[uv]/u.test(original)) {
+    action = 'uv-form';
+    title = 'Toggle lowercase u and v readings';
   } else if (NippoQuickEdit.VOWEL_CYCLES.some(cycle => cycle.includes(character.toLocaleLowerCase('und')))) {
     action = 'vowel';
     title = 'Cycle accent and tilde forms';
@@ -796,6 +799,10 @@ function applyQuickEdit(row, control) {
     const parsed = NippoQuickEdit.parse(current);
     const character = parsed.characters[index]?.character;
     after = NippoQuickEdit.replace(current, index, index + 1, NippoQuickEdit.nextGQ(character));
+  } else if (action === 'uv-form') {
+    const parsed = NippoQuickEdit.parse(current);
+    const character = parsed.characters[index]?.character;
+    after = NippoQuickEdit.replace(current, index, index + 1, NippoQuickEdit.nextUV(character));
   } else if (action === 'vowel') {
     const parsed = NippoQuickEdit.parse(current);
     const character = parsed.characters[index]?.character;

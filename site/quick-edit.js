@@ -80,6 +80,12 @@
     return current;
   }
 
+  function nextUV(current) {
+    if (current === 'u') return 'v';
+    if (current === 'v') return 'u';
+    return current;
+  }
+
   function nextVowel(current) {
     const lower = current.toLocaleLowerCase('und');
     const cycle = VOWEL_CYCLES.find(items => items.includes(lower));
@@ -133,5 +139,5 @@
     return {operations, currentToBase, changed, deletions};
   }
 
-  return {VOWEL_CYCLES, DELETABLE, parse, serialize, replace, toggleRoman, nextSForm, nextGQ, nextVowel, align};
+  return {VOWEL_CYCLES, DELETABLE, parse, serialize, replace, toggleRoman, nextSForm, nextGQ, nextUV, nextVowel, align};
 }));
