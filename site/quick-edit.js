@@ -83,7 +83,7 @@
   function nextUV(current, original) {
     if (original !== 'u' && original !== 'v') return current;
     const accents = VOWEL_CYCLES.find(cycle => cycle[0] === 'u').slice(1);
-    const cycle = original === 'v' ? ['v', 'u', ...accents] : ['u', 'v', ...accents];
+    const cycle = original === 'v' ? ['v', 'u'] : ['u', 'v', ...accents];
     const index = cycle.indexOf(current);
     return index < 0 ? current : cycle[(index + 1) % cycle.length];
   }

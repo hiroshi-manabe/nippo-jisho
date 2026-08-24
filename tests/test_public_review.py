@@ -204,7 +204,7 @@ equal([q.nextSForm('ſ', 'ſ'), q.nextSForm('s', 'ſ'), q.nextSForm('f', 'ſ')],
 equal([q.nextSForm('f', 'f'), q.nextSForm('ſ', 'f')], ['ſ', 'f']);
 equal([q.nextGQ('g'), q.nextGQ('q'), q.nextGQ('G'), q.nextGQ('Q')], ['q', 'g', 'Q', 'G']);
 equal(['u', 'v', 'ũ', 'ù', 'ú', 'û', 'ǔ'].map(value => q.nextUV(value, 'u')), ['v', 'ũ', 'ù', 'ú', 'û', 'ǔ', 'u']);
-equal(['v', 'u', 'ũ', 'ù', 'ú', 'û', 'ǔ'].map(value => q.nextUV(value, 'v')), ['u', 'ũ', 'ù', 'ú', 'û', 'ǔ', 'v']);
+equal(['v', 'u'].map(value => q.nextUV(value, 'v')), ['u', 'v']);
 equal([q.nextUV('U', 'U'), q.nextUV('V', 'V')], ['U', 'V']);
 equal([q.nextVowel('o'), q.nextVowel('õ'), q.nextVowel('ò')], ['õ', 'ò', 'ó']);
 equal(q.replace('[F]oo, bar.', 3, 4, ''), '[F]oo bar.');
