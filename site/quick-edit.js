@@ -72,6 +72,14 @@
     return cycles[(index < 0 ? 0 : index + 1) % cycles.length];
   }
 
+  function nextGQ(current) {
+    if (current === 'g') return 'q';
+    if (current === 'q') return 'g';
+    if (current === 'G') return 'Q';
+    if (current === 'Q') return 'G';
+    return current;
+  }
+
   function nextVowel(current) {
     const lower = current.toLocaleLowerCase('und');
     const cycle = VOWEL_CYCLES.find(items => items.includes(lower));
@@ -125,5 +133,5 @@
     return {operations, currentToBase, changed, deletions};
   }
 
-  return {VOWEL_CYCLES, DELETABLE, parse, serialize, replace, toggleRoman, nextSForm, nextVowel, align};
+  return {VOWEL_CYCLES, DELETABLE, parse, serialize, replace, toggleRoman, nextSForm, nextGQ, nextVowel, align};
 }));

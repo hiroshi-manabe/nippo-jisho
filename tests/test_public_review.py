@@ -202,6 +202,7 @@ function equal(actual, expected) {
 equal([q.nextSForm('s', 's'), q.nextSForm('ſ', 's')], ['ſ', 's']);
 equal([q.nextSForm('ſ', 'ſ'), q.nextSForm('s', 'ſ'), q.nextSForm('f', 'ſ')], ['s', 'f', 'ſ']);
 equal([q.nextSForm('f', 'f'), q.nextSForm('ſ', 'f')], ['ſ', 'f']);
+equal([q.nextGQ('g'), q.nextGQ('q'), q.nextGQ('G'), q.nextGQ('Q')], ['q', 'g', 'Q', 'G']);
 equal([q.nextVowel('o'), q.nextVowel('õ'), q.nextVowel('ò')], ['õ', 'ò', 'ó']);
 equal(q.replace('[F]oo, bar.', 3, 4, ''), '[F]oo bar.');
 equal(q.replace('[F]oo bar.', 3, 3, ',', null), '[F]oo, bar.');
