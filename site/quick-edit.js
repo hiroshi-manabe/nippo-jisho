@@ -80,6 +80,18 @@
     return current;
   }
 
+  function nextNM(current) {
+    if (current === 'n') return 'm';
+    if (current === 'm') return 'n';
+    return current;
+  }
+
+  function nextCedilla(current) {
+    if (current === 'c') return 'ç';
+    if (current === 'ç') return 'c';
+    return current;
+  }
+
   function nextUV(current, original) {
     if (original !== 'u' && original !== 'v') return current;
     const accents = VOWEL_CYCLES.find(cycle => cycle[0] === 'u').slice(1);
@@ -141,5 +153,5 @@
     return {operations, currentToBase, changed, deletions};
   }
 
-  return {VOWEL_CYCLES, DELETABLE, parse, serialize, replace, toggleRoman, nextSForm, nextGQ, nextUV, nextVowel, align};
+  return {VOWEL_CYCLES, DELETABLE, parse, serialize, replace, toggleRoman, nextSForm, nextGQ, nextNM, nextCedilla, nextUV, nextVowel, align};
 }));

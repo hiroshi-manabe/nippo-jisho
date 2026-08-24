@@ -588,6 +588,12 @@ function quickCharacterHTML(character, index, baseIndex, changed, line, proposal
   } else if (/[gq]/iu.test(character) && /[gq]/iu.test(original)) {
     action = 'gq-form';
     title = 'Toggle g and q readings';
+  } else if (/[nm]/u.test(character) && /[nm]/u.test(original)) {
+    action = 'nm-form';
+    title = 'Toggle lowercase n and m readings';
+  } else if (/[cç]/u.test(character) && /[cç]/u.test(original)) {
+    action = 'cedilla-form';
+    title = 'Toggle lowercase c and ç readings';
   } else if (/[uv]/u.test(original) && ['u', 'v', 'ũ', 'ù', 'ú', 'û', 'ǔ'].includes(character)) {
     action = 'uv-form';
     title = 'Cycle lowercase u, v, and accented u readings';
@@ -799,6 +805,14 @@ function applyQuickEdit(row, control) {
     const parsed = NippoQuickEdit.parse(current);
     const character = parsed.characters[index]?.character;
     after = NippoQuickEdit.replace(current, index, index + 1, NippoQuickEdit.nextGQ(character));
+  } else if (action === 'nm-form') {
+    const parsed = NippoQuickEdit.parse(current);
+    const character = parsed.characters[index]?.character;
+    after = NippoQuickEdit.replace(current, index, index + 1, NippoQuickEdit.nextNM(character));
+  } else if (action === 'cedilla-form') {
+    const parsed = NippoQuickEdit.parse(current);
+    const character = parsed.characters[index]?.character;
+    after = NippoQuickEdit.replace(current, index, index + 1, NippoQuickEdit.nextCedilla(character));
   } else if (action === 'uv-form') {
     const parsed = NippoQuickEdit.parse(current);
     const character = parsed.characters[index]?.character;

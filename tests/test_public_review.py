@@ -203,6 +203,8 @@ equal([q.nextSForm('s', 's'), q.nextSForm('ſ', 's')], ['ſ', 's']);
 equal([q.nextSForm('ſ', 'ſ'), q.nextSForm('s', 'ſ'), q.nextSForm('f', 'ſ')], ['s', 'f', 'ſ']);
 equal([q.nextSForm('f', 'f'), q.nextSForm('ſ', 'f')], ['ſ', 'f']);
 equal([q.nextGQ('g'), q.nextGQ('q'), q.nextGQ('G'), q.nextGQ('Q')], ['q', 'g', 'Q', 'G']);
+equal([q.nextNM('n'), q.nextNM('m'), q.nextNM('N'), q.nextNM('M')], ['m', 'n', 'N', 'M']);
+equal([q.nextCedilla('c'), q.nextCedilla('ç'), q.nextCedilla('C'), q.nextCedilla('Ç')], ['ç', 'c', 'C', 'Ç']);
 equal(['u', 'v', 'ũ', 'ù', 'ú', 'û', 'ǔ'].map(value => q.nextUV(value, 'u')), ['v', 'ũ', 'ù', 'ú', 'û', 'ǔ', 'u']);
 equal(['v', 'u'].map(value => q.nextUV(value, 'v')), ['u', 'v']);
 equal([q.nextUV('U', 'U'), q.nextUV('V', 'V')], ['U', 'V']);
