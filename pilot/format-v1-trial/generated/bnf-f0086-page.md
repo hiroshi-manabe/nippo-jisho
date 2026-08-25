@@ -22,7 +22,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l006` | &emsp;*grar. ¶* Cane nadouo caquru. *Pezar* |  |
 | `c1-l007` | &emsp;*prata, & outras couſas. ¶* Cotobauo ca |  |
 | `c1-l008` | &emsp;quru. *Falar com alguem. ¶* Monouo |  |
-| `c1-l009` | &emsp;meni caquru. *Mostrar algũa couſa a alguẽ.* |  |
+| `c1-l009` | &emsp;meni caquru. *Moſtrar algũa couſa a alguẽ.* |  |
 | `c1-l010` | &emsp;*¶* Mizzuuo caquru. *Agoar. ¶* Mo- |  |
 | `c1-l011` | &emsp;noni meuo caquru. *Por os olhos em algũa* |  |
 | `c1-l012` | &emsp;*couſa deſejandoa. ¶* Fitoni meuo caqu- |  |
@@ -48,10 +48,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l032` | &emsp;*mo no exercito, &c. ¶* Fagiuo caquru. |  |
 | `c1-l033` | &emsp;*Injuriar a alguem. ¶* Toriuo caquru. |  |
 | `c1-l034` | &emsp;*Botar a rede ſobre paſſaros que ſe aleuantão vo* |  |
-| `c1-l035` | &emsp;*ando. Item, Ajuntandoſe com as raizes de* |  |
+| `c1-l035` | &emsp;*ando. Itẽ, Ajuntandoſe com as raizes de* |  |
 | `c1-l036` | &emsp;*muitos verbos ſignifica ter começada a couſa,* |  |
 | `c1-l037` | &emsp;*& aſſi dizemos. ¶* Xicaqete. *Tendo* |  |
-| `c1-l038` | &emsp;*começado a fazer.* |  |
+| `c1-l038` | &emsp;*começado afazer.* |  |
 | `c1-l039` | Caqe, uru. *Multiplicar, eſpecie de contar.* |  |
 | `c1-l040` | Caqe, uru, eta. *Faltar algũa couſa.* |  |
 | `c1-l041` | Caqeague, uru, eta. *Vt,* Vmauo caqe a- |  |
@@ -72,10 +72,10 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | &emsp;*¶* Caqeauanu aite gia. *Não ſão parelhos* |  |
-| `c2-l002` | &emsp;*estes competidores.* |  |
+| `c2-l001` | &emsp;*¶* Caqeauanu aite gia. *Não ſão parelha* |  |
+| `c2-l002` | &emsp;*eſtes competidores.* |  |
 | `c2-l003` | Caqeaxi. *O ir correndo a redea ſolta. Vt,* |  |
-| `c2-l004` | &emsp;Caqe axini natte yuqu. *Fei. Lib. 4.* |  |
+| `c2-l004` | &emsp;Caqe axini natte yuqu. Fei*. Lib. 4.* |  |
 | `c2-l005` | &emsp;*Hia correndo a redea ſolta.* |  |
 | `c2-l006` | Caqeba. *Carreira de caualos.* |  |
 | `c2-l007` | Caqeban. *Meza alia de Iapão.* |  |
@@ -83,28 +83,28 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l009` | Caqechigaye, uru, eta. *Meterſe a gente de* |  |
 | `c2-l010` | &emsp;*caualo hũa polla outra.* |  |
 | `c2-l011` | Caqechiraxi, ſu, aita. *Acolherſe depreſſa* |  |
-| `c2-l012` | &emsp;*a caualo. ¶* Teqiuo caqe chirafu. *Fa-* |  |
+| `c2-l012` | &emsp;*a caualo. ¶* Teqiuo caqe chiraſu. *Fa-* |  |
 | `c2-l013` | &emsp;*zer eſpalhafato nos inimigos a caualo.* |  |
 | `c2-l014` | Caqecurabe, uru, eta. i. Caqenarabe, uru. |  |
 | `c2-l015` | &emsp;*Correrem dous, ou muitos a par.* |  |
 | `c2-l016` | Caqecurabe, uru, eta. *Pezar algũas couſas* |  |
-| `c2-l017` | &emsp;*cotejandoas.* |  |
+| `c2-l017` | &emsp;*cotejando as.* |  |
 | `c2-l018` | Caqedaxi. *Crecenças do pezo.* |  |
 | `c2-l019` | Caqedaxi, ſu, aita. *Botar, ou arremeçar o* |  |
 | `c2-l020` | &emsp;*caualo pera correr.* |  |
 | `c2-l021` | Caqedaxi, ſu, aita. *Achar mais no pezo do* |  |
 | `c2-l022` | &emsp;*que auia dantes. Vt,* Ichimonme caqe |  |
 | `c2-l023` | &emsp;daita. *Pezei, & achei mais hum maz do q̃* |  |
-| `c2-l024` | &emsp;*estaua dantes.* |  |
+| `c2-l024` | &emsp;*eſtaua dantes.* |  |
 | `c2-l025` | Caqede, zzuru, eta. *Sair a caualo corrẽdo.* |  |
 | `c2-l026` | Caqefaxi. *Eſcada leuadiça. ¶* Tenni ca |  |
 | `c2-l027` | &emsp;qe faxi. *Se diz de couſa que he impoſſiuel* |  |
 | `c2-l028` | &emsp;*como eſcada que não pode chegar ao ceo.* |  |
-| `c2-l029` | Caqefazzuxi, ſu, uita. *Deſencontrarſe cõ alguẽ* |  |
-| `c2-l030` | &emsp;*indo correndo a caualo. ¶ Item, Botar a rede* |  |
+| `c2-l029` | Caqefazzuxi, ſu, uita. *Deſencontrarſe cõalguẽ* |  |
+| `c2-l030` | &emsp;*indo correndo a caualo. ¶ Itẽ, Botar a rede* |  |
 | `c2-l031` | &emsp;*ẽ vão ſobre paſſaros q̃ ſe aleuantaõ voando.* |  |
-| `c2-l032` | Caqefi. *Cano por onde vẽ agoa trazida de longe.* |  |
-| `c2-l033` | Caqefiqi. *O arremeter, & retirarſe. ¶* Xe |  |
+| `c2-l032` | Caqefi. *Cano por onde vẽ agoa trazida delonge.* |  |
+| `c2-l033` | Caqefiqi. *O arremeter, & retirarſe. ¶* Xẽ |  |
 | `c2-l034` | &emsp;giǒdeua caqefiqiga daijina cotogia. *Na* |  |
 | `c2-l035` | &emsp;*batalha o arremeter, & retirarſe a tempo, he* |  |
 | `c2-l036` | &emsp;*couſa em que vai muito.* |  |
@@ -118,7 +118,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l044` | Caqego. *Gaueta.* |  |
 | `c2-l045` | Caqegǒ. *Bolſinha de varios cheiros que tra* |  |
 | `c2-l046` | &emsp;*zem algũs conſigo no ſeo.* |  |
-| `c2-l047` | Caqei. Yoyi yorocobi. *Alegres festas que* |  |
+| `c2-l047` | Caqei. Yoyi yorocobi. *Alegres feſtas que* |  |
 
 ## Catchword
 
