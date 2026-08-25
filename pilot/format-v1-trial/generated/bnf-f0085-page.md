@@ -14,7 +14,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | Canſui. Samui mizzu. *Agoa fria.* |  |
+| `c1-l001` | Canſui. Samui mizzu. *Agoa fria* |  |
 | `c1-l002` | Canſui. i. Canſonto ſuiſon. *Dano que vẽ* |  |
 | `c1-l003` | &emsp;*de muita ſecura, ou muita agoa.* |  |
 | `c1-l004` | Cantan. Canji, naguequ. i. Naguequ. |  |
@@ -24,10 +24,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l008` | &emsp;*deprecações com diligencia, & efficacia.* |  |
 | `c1-l009` | Cantan. Qimo qimo. *Figado.* |  |
 | `c1-l010` | Cantei. Xizzucana niua. *Pateo, ou* Niua |  |
-| `c1-l011` | &emsp;*deſerta, ſolitaria ou, deſhabitada.* |  |
+| `c1-l011` | &emsp;*deſerta, ſolitaria ou, deshabitada.* |  |
 | `c1-l012` | Canten. Samui ſora. *Ar frio, ou tempo* |  |
 | `c1-l013` | &emsp;*frio.* |  |
-| `c1-l014` | Cantet. Canji couoru. *Conſiderar profun-* |  |
+| `c1-l014` | Cantet. Canji touoru. *Conſiderar profun-* |  |
 | `c1-l015` | &emsp;*damente.* |  |
 | `c1-l016` | Canua. Xizzucani cataru. *Praticar deuagar,* |  |
 | `c1-l017` | &emsp;*& à vontade.* |  |
@@ -37,21 +37,21 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l021` | &emsp;*quente.* |  |
 | `c1-l022` | Can vn. Samui cumo. *Nuuem do inuer-* |  |
 | `c1-l023` | &emsp;*no. S.* |  |
-| `c1-l024` | Canuǒ. Xizzucana camome. *Gaiuota que esta* |  |
+| `c1-l024` | Canuǒ. Xizzucana camome. *Gaiuota que eſta* |  |
 | `c1-l025` | &emsp;*quieta nagoa.* |  |
 | `c1-l026` | Canuô. *Vide.* Cannǒ. *Porque na pra-* |  |
 | `c1-l027` | &emsp;*tica ſe diz* Cannǒ. |  |
 | `c1-l028` | Canxa. Cadamaxijmono. i. *Homem malicio* |  |
-| `c1-l029` | &emsp;*ſo, ou reſalçado. Melius.* Canja. |  |
+| `c1-l029` | &emsp;*ſo, ou reſalſado. Melius.* Canja. |  |
 | `c1-l030` | Canxen. Tanino izzumi. *Fonte dos vales.* |  |
 | `c1-l031` | Canxen. Amai izzumi. *Agoa doce.* |  |
-| `c1-l032` | Canxen. Anaxi tanamuge. *Dadiua que ſe* |  |
+| `c1-l032` | Canxen. Anaxi fanamuqe. *Dadiua que ſe* |  |
 | `c1-l033` | &emsp;*dà ao que ſe parte, ou vai pera longe.* |  |
-| `c1-l034` | Canxi. Iamuru cami. i. Fitoni iqenuo yù |  |
+| `c1-l034` | Canxi. Iſamuru cami. i. Fitoni iqenuo yù |  |
 | `c1-l035` | &emsp;fumi. *Carta de conſelhos. S.* |  |
-| `c1-l036` | Canxir. Cauaqi, ximeru. *Secura, & hu-* |  |
+| `c1-l036` | Canxit. Cauaqi, ximeru. *Secura, & hu-* |  |
 | `c1-l037` | &emsp;*midade.* |  |
-| `c1-l038` | Canxǒ. *Nome de hũa mezinha cheiroſa.* |  |
+| `c1-l038` | Canxô. *Nome de hũa mezinha cheiroſa.* |  |
 | `c1-l039` | Canxu. Samui ſaqe. *Vinho frio aſſi ſe vſa* |  |
 | `c1-l040` | &emsp;*no* Cami *por vinho que não he quente.* |  |
 | `c1-l041` | Canxu. Atacacana ſaqe. *Vinho quente. No* |  |
@@ -78,27 +78,27 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | Canyǒ. Qimo mochiiru. i. Xen ichi. *Cou* |  |
+| `c2-l001` | Canyô. Qimo mochiiru. i. Xen ichi. *Cou* |  |
 | `c2-l002` | &emsp;*ſa neceſſaria, & importante.* |  |
-| `c2-l003` | Canyǒna. *Adiect. Idem.* |  |
+| `c2-l003` | Canyôna. *Adiect. Idem.* |  |
 | `c2-l004` | Canza. Xizzucani zaſuru. *Estar quieto, &* |  |
 | `c2-l005` | &emsp;*ſolitario.* |  |
 | `c2-l006` | Canzan. Samui yama. *Monte frio. P.* |  |
 | `c2-l007` | Canzaxi. *Certo ornato que poem as molheres ſo-* |  |
 | `c2-l008` | &emsp;*bre os cabellos da cabeça.* |  |
 | `c2-l009` | Canzǒ. Amaqi cuſa. *Alcaçus.* |  |
-| `c2-l010` | Canzo. *Hũa dignidade, ou officio de Bõzos* |  |
+| `c2-l010` | Canzo. *Hũa dignidade, ou officio de* Bǒzos |  |
 | `c2-l011` | &emsp;*da ſeita dos* Ienxus. |  |
 | `c2-l012` | Cappato. *Adu. Modo de aleuantarſe de* |  |
 | `c2-l013` | &emsp;*preſſa. Vt,* Cappato voqi agaru. *Ale-* |  |
-| `c2-l014` | &emsp;*uantarſe deste modo.* |  |
+| `c2-l014` | &emsp;*uantarſe deſte modo.* |  |
 | `c2-l015` | Cappei. *Soldado armado. S.* |  |
-| `c2-l016` | Cappeqi. Cabeuo auafuru. *Vizinho.* |  |
+| `c2-l016` | Cappeqi. Cabeuo auaſuru. *Vizinho.* |  |
 | `c2-l017` | Cappun. Saqi vaquru. i. Monouo fiqi ſaqu. |  |
 | `c2-l018` | &emsp;*Romper, raſgar.* |  |
 | `c2-l019` | Caqe. *Lugar alto, & ingreme como preci-* |  |
 | `c2-l020` | &emsp;*picio, ou quebrada.* |  |
-| `c2-l021` | Caqe. i. Chǒnacu. *Ardil, ou meo ardiloſo* |  |
+| `c2-l021` | Caqe. i. Chôriacu. *Ardil, ou meo ardiloſo* |  |
 | `c2-l022` | &emsp;*como pera matar alguem, ou dar nos inimigos,* |  |
 | `c2-l023` | &emsp;*&c. ¶* Caqega fazzureta. *Deſman-* |  |
 | `c2-l024` | &emsp;*chouſe, ou ficou em vão o ardil.* |  |
@@ -107,20 +107,20 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l027` | &emsp;*este ſinal antes de ſe entregar toda a paga.* |  |
 | `c2-l028` | &emsp;*¶* Caqexen. *Idem.* |  |
 | `c2-l029` | Caqe. *Aposta. ¶* Caqeni ſuru, l, caqe |  |
-| `c2-l030` | &emsp;ni mairu. *Apostar.* |  |
+| `c2-l030` | &emsp;ni mairu. *Apoſtar.* |  |
 | `c2-l031` | Caqe. *Falta, ou restante que fica por pagar.* |  |
 | `c2-l032` | &emsp;*¶* Caqega aru. *Restar ainda algũa cou-* |  |
 | `c2-l033` | &emsp;*ſa por pagar.* |  |
 | `c2-l034` | Caqe, uru, eta. *Dependurar algũa couſa.* |  |
-| `c2-l035` | &emsp;*¶ contas, goye, nadouo caquru. De-* |  |
+| `c2-l035` | &emsp;*¶ contas,* goyei nadouo caquru*. De-* |  |
 | `c2-l036` | &emsp;*pendurar as contas, imagem, &c.* |  |
 | `c2-l037` | Caqe, uru. *Por. Vt,* Tanomiuo caquru. |  |
 | `c2-l038` | &emsp;*Por a eſperança, ou confiança em alguem.* |  |
 | `c2-l039` | &emsp;*¶* Futamichiuo caquru. *Andar hum ho* |  |
 | `c2-l040` | &emsp;*mem com duas molheres, ou hũa molher com* |  |
-| `c2-l041` | &emsp;*dous homẽs. ¶* Minatoni funuo caqu- |  |
+| `c2-l041` | &emsp;*dous homẽs. ¶* Minatoni funeuo caqu- |  |
 | `c2-l042` | &emsp;ru. *Fazer ſurgir a embarcação no porto.* |  |
-| `c2-l043` | &emsp;*¶* Naſageuo caquru. *Fazer bem, ou ſer* |  |
+| `c2-l043` | &emsp;*¶* Naſaqeuo caquru. *Fazer bem, ou ſer* |  |
 | `c2-l044` | &emsp;*piadoſo pera com alguem. ¶* Fitouo xiri |  |
 | `c2-l045` | &emsp;meni caquru. *Olhar com o rabo do olho, ou* |  |
 | `c2-l046` | &emsp;*de torto em trauez. ¶* Cuji ſatauo caquru. |  |
