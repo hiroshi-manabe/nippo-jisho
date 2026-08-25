@@ -35,7 +35,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l019` | &emsp;*hũ pouco ſeca de condição, & falta, ou curta* |  |
 | `c1-l020` | &emsp;*nos cõprimentos.* |  |
 | `c1-l021` | Catacunaxij. *Idem. Mais vſado. ¶ Item, No* |  |
-| `c1-l022` | &emsp;xino *peſſoa acanhada, & coitada.* |  |
+| `c1-l022` | &emsp;ximo *peſſoa acanhada, & coitada.* |  |
 | `c1-l023` | Catachi. *Figura, ou parecer do rosto. ¶* Mi- |  |
 | `c1-l024` | &emsp;me, catachi yoni ſugureta fito. *Peſſoa* |  |
 | `c1-l025` | &emsp;*de inſigne fermoſura.* |  |
@@ -51,7 +51,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l035` | &emsp;*do nome dalguem. ¶ Item, Aſſemelhar, ou* |  |
 | `c1-l036` | &emsp;*arremedar algũa couſa em parte, & não de* |  |
 | `c1-l037` | &emsp;*todo. Vt,* Niuauo tçucuri tatçuru toqi, |  |
-| `c1-l038` | &emsp;ymi, yamauo catadoru. *Quando ſe faz* |  |
+| `c1-l038` | &emsp;vmi, yamauo catadoru. *Quando ſe faz* |  |
 | `c1-l039` | &emsp;*algũa* Niua *arremedar dalgũa maneira o mar,* |  |
 | `c1-l040` | &emsp;*& os montes.* |  |
 | `c1-l041` | Catafagai. *Hũa aza de paſſaro.* |  |
@@ -101,7 +101,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l020` | &emsp;*outros vestidos cingindo o.* |  |
 | `c2-l021` | Cataguizzuca. *Punho de* Catana *de pao ferro.* |  |
 | `c2-l022` | Catai. *Couſa dura.* |  |
-| `c2-l023` | &emsp;Cataſa. Cato. |  |
+| `c2-l023` | &emsp;Cataſa. Catǒ. |  |
 | `c2-l024` | Catajiqenai. *Palaura de agradecer, ou dar gra-* |  |
 | `c2-l025` | &emsp;*ças por algũa couſa.* |  |
 | `c2-l026` | Catajiqenaſa. *Agradecimento. Vt,* Ama |  |

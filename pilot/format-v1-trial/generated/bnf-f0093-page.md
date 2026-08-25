@@ -14,7 +14,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | Carini. *Adu. De emprestado, ou leuemente.* |  |
+| `c1-l001` | Carini. *Adu. De emprestado, ou leuemẽte.* |  |
 | `c1-l002` | Cariocu. Chicarauo cuuayuru. i. Cǒriocu |  |
 | `c1-l003` | &emsp;*oajudar, ou ajuda.* |  |
 | `c1-l004` | Cariſome. *Adu. Por hum pouco, ou de em-* |  |

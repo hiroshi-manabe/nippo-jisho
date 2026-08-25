@@ -3,11 +3,23 @@
   "format_version": 1,
   "page": "bnf-f0091",
   "response_status": "completed_independent_ai_line_review",
-  "geometry_review_status": "completed",
-  "text_review_status": "not_completed",
-  "observed_text_provenance": "Every visible physical body line was inspected individually as an enlarged isolated crop against the supplied scan, with the complete first and last glyphs and all four crop edges checked. Line centres were re-registered from the scan rather than accepted from the provisional regular grid. observed_text was read afresh from the image before any canonical comparison; OCR was not used for line identification or transcription. A final top-to-bottom sweep of both columns was performed. expected_line_version values are preserved unchanged.",
+  "default_response_mode": "geometry_and_text",
+  "completion_statuses": {
+    "geometry_and_text": {
+      "geometry_review_status": "completed",
+      "text_review_status": "completed"
+    },
+    "geometry_only_fallback": {
+      "geometry_review_status": "completed",
+      "text_review_status": "not_completed"
+    }
+  },
+  "observed_text_provenance": "Must be written independently from each proposed crop before consulting the canonical transcription. Null means that this line has not yet been read.",
   "coordinate_space": "native Gallica master pixels",
   "rectangle_format": "[x, y, width, height]",
+  "geometry_acceptance": "Inspect every isolated crop at full practical size against the full page; confirm complete first and last glyphs and all top/bottom ink; do not infer horizontal completeness from line identity or vertical centering; then sweep each column top-to-bottom for repeated clipping, especially the outer/right edge of column 2. Conservative rule-to-rule width and necessary neighboring-line overlap are allowed.",
+  "text_acceptance": "Read the print independently before consulting the canonical line. Preserve visible historical spelling, spacing, diacritics, and long s; do not normalize, copy the canonical text, or guess merely to complete a field. Returned text is advisory until separately adjudicated against the scan.",
+  "lineation_discrepancy": "If the printed number or order of physical lines differs from the task, do not invent a blank continuation, shift IDs, or renumber the response. Mark the response incomplete and report the first divergence so the canonical lineation can be corrected and the task regenerated.",
   "source": {
     "filename": "f0091.jpg",
     "width": 2672,
@@ -17,1921 +29,2019 @@
   },
   "transcription_source": {
     "page_file": "pilot/format-v1-trial/level1/bnf-f0091.json",
-    "page_file_sha256": "3ed20f214421d854d4b07dd4015181e4b7c1cc7faa8446c654227f233a22b7d7"
+    "page_file_sha256": "b6dbebfd4fc4f3fef97fa2cdd99d46208c0303edbc26dae7f34d1ae00007128b"
   },
   "columns": {
     "column-1": {
       "column_box_xyxy": [
-        180,
+        140,
         300,
-        1220,
+        1265,
         3420
       ],
       "zone_ids": [
         "column-1"
       ],
-      "initial_geometry_provenance": "contact_sheet_reviewed",
-      "initial_geometry_reviewed_at": "2026-08-01",
-      "geometry_requires_line_by_line_review": false,
+      "initial_geometry_provenance": "external_ai_width_rechecked",
+      "initial_geometry_reviewed_at": "2026-08-16",
+      "geometry_requires_line_by_line_review": true,
       "lines": [
         {
           "id": "c1-l001",
           "centre_y": 492,
           "crop": [
-            180,
+            140,
             426,
-            1040,
+            1125,
             132
           ],
           "context_crop": [
-            180,
+            140,
             322,
-            1040,
+            1125,
             340
           ],
           "observed_text": "Curacaua. Pelle da China.",
-          "match": "strong",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:c363486bbb1c53e635cc53c845492a8f9ab059efa99e8405d4dc354b70be1169"
         },
         {
           "id": "c1-l002",
           "centre_y": 552,
           "crop": [
-            180,
+            140,
             486,
-            1040,
+            1125,
             132
           ],
           "context_crop": [
-            180,
+            140,
             382,
-            1040,
+            1125,
             340
           ],
-          "observed_text": "Caracaua. Casca de hũa aruore chamada",
+          "observed_text": "Caracaua. Caſca de hũa aruore chamada",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:67bdc00d205ba15a62e48b2a12ae8965cbf02425dc764b8fdb8cd757347f4683"
         },
         {
           "id": "c1-l003",
           "centre_y": 614,
           "crop": [
-            180,
+            140,
             548,
-            1040,
+            1125,
             132
           ],
           "context_crop": [
-            180,
+            140,
             444,
-            1040,
+            1125,
             340
           ],
-          "observed_text": "lanxõ que dá pimenta em Iapão. No cami",
-          "match": "strong",
+          "observed_text": "lanxó que dá pimenta em Iapão. No cami",
+          "match": "mismatch",
           "assessment": "readable",
-          "expected_line_version": "sha256:5d962557dc842dbdc900daa234f33864dbc21db1489d42f07bf065b422a18214"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:4944e38ebed08cfb8b900a5c7e2c17a000d78714abb941239f59427fcf592671"
         },
         {
           "id": "c1-l004",
           "centre_y": 682,
           "crop": [
-            180,
+            140,
             616,
-            1040,
+            1125,
             132
           ],
           "context_crop": [
-            180,
+            140,
             512,
-            1040,
+            1125,
             340
           ],
-          "observed_text": "se diz lanxônio caua.",
-          "match": "strong",
+          "observed_text": "ſe diz lanxôno caua.",
+          "match": "mismatch",
           "assessment": "readable",
-          "expected_line_version": "sha256:7a0c8a641b9de73ee0266a9908acccffe82586820bf0856223ff11f82fbc3a65"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:6665291e1feea9467faf4fe92fd1c7193fd98f521a55b6634ef0df33d6f8fcfd"
         },
         {
           "id": "c1-l005",
           "centre_y": 735,
           "crop": [
-            180,
+            140,
             669,
-            1040,
+            1125,
             132
           ],
           "context_crop": [
-            180,
+            140,
             565,
-            1040,
+            1125,
             340
           ],
           "observed_text": "Caracha. Hũa cor como a do cha.",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:f9bbd6f5ce9f9282c7c7c65f69a23aed69b9fabcf68cf4c05b7b8cf539686a4f"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:3aa2d75ef704f3b57bdd019d9fdd8e19641cd7262785c3e238eef512699a1332"
         },
         {
           "id": "c1-l006",
           "centre_y": 795,
           "crop": [
-            180,
+            140,
             729,
-            1040,
+            1125,
             132
           ],
           "context_crop": [
-            180,
+            140,
             625,
-            1040,
+            1125,
             340
           ],
-          "observed_text": "Ciraco. Minino china.",
+          "observed_text": "Caraco. Minino china.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:e1691ee3b357abc8c94a32e151a7d697dfe6eed7af64ebd6043c1cb319cb639a"
         },
         {
           "id": "c1-l007",
           "centre_y": 855,
           "crop": [
-            180,
+            140,
             789,
-            1040,
+            1125,
             132
           ],
           "context_crop": [
-            180,
+            140,
             685,
-            1040,
+            1125,
             340
           ],
-          "observed_text": "Caraconoye. Pintura onde pintão estes mini-",
-          "match": "strong",
+          "observed_text": "Caraconoye. Pintura onde pintão eſtes mini-",
+          "match": "mismatch",
           "assessment": "readable",
-          "expected_line_version": "sha256:625bd44edd953f650a050e8bcb52d4532ef6c0ac4dc1b3da879eb1d80c5458bd"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:7987137e9482e4c905243d6a962506a878b657342570b61f4f92b7e5f7063164"
         },
         {
           "id": "c1-l008",
           "centre_y": 916,
           "crop": [
-            180,
+            140,
             850,
-            1040,
+            1125,
             132
           ],
           "context_crop": [
-            180,
+            140,
             746,
-            1040,
+            1125,
             340
           ],
           "observed_text": "nos da China com cabello amarrado no meo",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:53385b4db853e4c4a56865c277aef193ab3299da93c0f3cb20031d0acefb65a6"
         },
         {
           "id": "c1-l009",
           "centre_y": 991,
           "crop": [
-            180,
+            140,
             925,
-            1040,
+            1125,
             132
           ],
           "context_crop": [
-            180,
+            140,
             821,
-            1040,
+            1125,
             340
           ],
           "observed_text": "da cabeça.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:ea2ca6e1b7bd44bda7a0692883ed89e892b67204258e27df6bc46b202df43814"
         },
         {
           "id": "c1-l010",
           "centre_y": 1042,
           "crop": [
-            180,
+            140,
             976,
-            1040,
+            1125,
             132
           ],
           "context_crop": [
-            180,
+            140,
             872,
-            1040,
+            1125,
             340
           ],
-          "observed_text": "Caracotoba. Palavras escuras como da china.",
+          "observed_text": "Caracotoba. Palauras eſcuras como da china.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:375fd04127d439d51e8437ced32adad8dee822e1923a1721238da2272ff773b0"
         },
         {
           "id": "c1-l011",
           "centre_y": 1111,
           "crop": [
-            180,
+            140,
             1045,
-            1040,
+            1125,
             132
           ],
           "context_crop": [
-            180,
+            140,
             941,
-            1040,
+            1125,
             340
           ],
           "observed_text": "vide caragon.",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:4144daf5f6bbf8e753b0dd62401578fedd0b44271b8bdc567cf5fea4da922c9e"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:fa307805770cd15e23a6cea5d20f182360808c94517dfa79ea7a818216c5e4b1"
         },
         {
           "id": "c1-l012",
           "centre_y": 1168,
           "crop": [
-            180,
+            140,
             1102,
-            1040,
+            1125,
             132
           ],
           "context_crop": [
-            180,
+            140,
             998,
-            1040,
+            1125,
             340
           ],
-          "observed_text": "Caracumi, u, unda. Inventar, & edificar",
+          "observed_text": "Caracumi, u, unda. Inuentar, & edificar",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:9c4cba3cc5f8df7f069d710f4ce0549dff3b860b10357d2d52431095ef9c5330"
         },
         {
           "id": "c1-l013",
           "centre_y": 1226,
           "crop": [
-            180,
+            140,
             1160,
-            1040,
+            1125,
             132
           ],
           "context_crop": [
-            180,
+            140,
             1056,
-            1040,
+            1125,
             340
           ],
-          "observed_text": "algũa obra que não he ordinaria. Vi, Fu-",
+          "observed_text": "algũa obra que não he ordinaria. Vt, Fu-",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:4b00ef9393c42d3c769329a3cbfb2a245095f8ad41ccbff939ec275c0f78c096"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:44099d1a3d2fd423e8299417d84ac2d7311c57f2b74e8f022cf623d1a883b89d"
         },
         {
           "id": "c1-l014",
           "centre_y": 1290,
           "crop": [
-            180,
+            140,
             1224,
-            1040,
+            1125,
             132
           ],
           "context_crop": [
-            180,
+            140,
             1120,
-            1040,
+            1125,
             340
           ],
-          "observed_text": "neni xeirõuo caracumi aguru. Aleuan-",
-          "match": "strong",
+          "observed_text": "neni xeirôuo caracumi aguru. Aleuan-",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:2da4ecdabd6037a0bc848a9aca6075ff3a6c47d45270bb1520f0ea2485a65fec"
         },
         {
           "id": "c1-l015",
           "centre_y": 1349,
           "crop": [
-            180,
+            140,
             1283,
-            1040,
+            1125,
             132
           ],
           "context_crop": [
-            180,
+            140,
             1179,
-            1040,
+            1125,
             340
           ],
-          "observed_text": "tar na tune baluarte alto como mastro com",
-          "match": "strong",
+          "observed_text": "tar na fune baluarte alto como maſto com",
+          "match": "mismatch",
           "assessment": "readable",
-          "expected_line_version": "sha256:7658bef883a79dfecd2609c3d0e923c134f8b9ff0b2a285ff6b624e11f8aff4c"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:c476ee86344281d8bbe49664a3be252dc361f25d14e658535dea19b0a88dfeb3"
         },
         {
           "id": "c1-l016",
           "centre_y": 1417,
           "crop": [
-            180,
+            140,
             1351,
-            1040,
+            1125,
             132
           ],
           "context_crop": [
-            180,
+            140,
             1247,
-            1040,
+            1125,
             340
           ],
-          "observed_text": "gauca.",
+          "observed_text": "gauea.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:c771e177e17fffce0f73e2f7a74814c7cd8b405ca5b251c79ea8c4accd5d1795"
         },
         {
           "id": "c1-l017",
           "centre_y": 1471,
           "crop": [
-            180,
+            140,
             1405,
-            1040,
+            1125,
             132
           ],
           "context_crop": [
-            180,
+            140,
             1301,
-            1040,
+            1125,
             340
           ],
           "observed_text": "Caracurenai. Retroz Carmezim da China.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:32347dbe55a04b4ab092de88d76fd31a8534fa1da9a045df285deebf56433b20"
         },
         {
           "id": "c1-l018",
           "centre_y": 1537,
           "crop": [
-            180,
+            140,
             1471,
-            1040,
+            1125,
             132
           ],
           "context_crop": [
-            180,
+            140,
             1367,
-            1040,
+            1125,
             340
           ],
-          "observed_text": "Caracuri, u, utta. Fazer, ou inventar algũa",
+          "observed_text": "Caracuri, u, utta. Fazer, ou inuentar algũa",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:2a3697174769ae8d8c43fa29823c8d0351b6d82285be61adfc1fc20990443735"
         },
         {
           "id": "c1-l019",
           "centre_y": 1597,
           "crop": [
-            180,
+            140,
             1531,
-            1040,
+            1125,
             132
           ],
           "context_crop": [
-            180,
+            140,
             1427,
-            1040,
+            1125,
             340
           ],
-          "observed_text": "cousa artificiosa. ¶ Item, Fazer inven-",
+          "observed_text": "couſa artificioſa. ¶ Item, Fazer inuen-",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:be6d850cabd90f52245990ca328823fb6cf98e755dd854dc440068b851c25a91"
         },
         {
           "id": "c1-l020",
           "centre_y": 1658,
           "crop": [
-            180,
+            140,
             1592,
-            1040,
+            1125,
             132
           ],
           "context_crop": [
-            180,
+            140,
             1488,
-            1040,
+            1125,
             340
           ],
-          "observed_text": "ções, l, concertar de maneira que se unão ou-",
-          "match": "strong",
-          "assessment": "readable",
-          "expected_line_version": "sha256:2faa18de4e0f48dece4165375178f12bf42d9d413285ff2995c0c96239e4f53d"
+          "observed_text": "ções, l, concertar de maneira que ſe unão ou-",
+          "match": "mismatch",
+          "assessment": "uncertain",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:4b6c073e7f7a090b0e119917b2f50e8007ca8a4706fbf0f988edd4b83b83c9fe",
+          "note": "Small glyph between commas after ‘ções’ was read as lowercase l; materially doubtful."
         },
         {
           "id": "c1-l021",
           "centre_y": 1718,
           "crop": [
-            180,
+            140,
             1652,
-            1040,
+            1125,
             132
           ],
           "context_crop": [
-            180,
+            140,
             1548,
-            1040,
+            1125,
             340
           ],
-          "observed_text": "tros com alguem, &c. Vi, Vchiualio",
+          "observed_text": "tros com alguem, &c. Vt, Vchiuauo",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:1e24ec6d2f3deb57967f50805bbccb1fc4a10343a52bc5ef48259dcec5558377"
         },
         {
           "id": "c1-l022",
           "centre_y": 1782,
           "crop": [
-            180,
+            140,
             1716,
-            1040,
+            1125,
             132
           ],
           "context_crop": [
-            180,
+            140,
             1612,
-            1040,
+            1125,
             340
           ],
-          "observed_text": "caracuru. Fazer estas invenções, & ardis",
-          "match": "strong",
+          "observed_text": "caracuru. Fazer eſtas inuenções, & ardis",
+          "match": "mismatch",
           "assessment": "readable",
-          "expected_line_version": "sha256:1920c2c6dfccb5fd4eaa15aac37de8e75885f173d229db9526d3019dac43b476"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:2f598c21fc8a7d7a15c2f6224706343e84246a5cd3e03c694d6b8da43f477ad9"
         },
         {
           "id": "c1-l023",
           "centre_y": 1839,
           "crop": [
-            180,
+            140,
             1773,
-            1040,
+            1125,
             132
           ],
           "context_crop": [
-            180,
+            140,
             1669,
-            1040,
+            1125,
             340
           ],
-          "observed_text": "pera que outros sejão do mesmo parecer.",
+          "observed_text": "pera que outros ſejão do meſmo parecer.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:02834460190ed32ea226a42070f08321df176b047ff06d24d596bd63e5f10f83"
         },
         {
           "id": "c1-l024",
           "centre_y": 1901,
           "crop": [
-            180,
+            140,
             1835,
-            1040,
+            1125,
             132
           ],
           "context_crop": [
-            180,
+            140,
             1731,
-            1040,
+            1125,
             340
           ],
-          "observed_text": "Caraculã. Laures, ou lacarias que se fazem",
-          "match": "strong",
-          "assessment": "readable",
-          "expected_line_version": "sha256:9d183a2a73be6a060b71fa39692ebe53a8e99cf57f13ea77455fc07f96d0ee61"
+          "observed_text": "Caracuſa. Laures, ou laçarias que ſe fazem",
+          "match": "mismatch",
+          "assessment": "uncertain",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:9d183a2a73be6a060b71fa39692ebe53a8e99cf57f13ea77455fc07f96d0ee61",
+          "note": "Second Portuguese gloss word was read visually as ‘Laures’; lettering is materially doubtful."
         },
         {
           "id": "c1-l025",
           "centre_y": 1957,
           "crop": [
-            180,
+            140,
             1891,
-            1040,
+            1125,
             132
           ],
           "context_crop": [
-            180,
+            140,
             1787,
-            1040,
+            1125,
             340
           ],
           "observed_text": "pintadas, ou de releuo.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:55c583d082362b696077453cdd214c43fac0991e48347b08a110086ade7b09aa"
         },
         {
           "id": "c1-l026",
           "centre_y": 2025,
           "crop": [
-            180,
+            140,
             1959,
-            1040,
+            1125,
             132
           ],
           "context_crop": [
-            180,
+            140,
             1855,
-            1040,
+            1125,
             340
           ],
-          "observed_text": "Carada. Corpo morto. Algũas vezes se toma",
+          "observed_text": "Carada. Corpo morto. Algũas vezes ſe toma",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:ef44d2564e012ba3a0166ca79d181547053b5fc5c28caaf7429d683b30bf7378"
         },
         {
           "id": "c1-l027",
           "centre_y": 2085,
           "crop": [
-            180,
+            140,
             2019,
-            1040,
+            1125,
             132
           ],
           "context_crop": [
-            180,
+            140,
             1915,
-            1040,
+            1125,
             340
           ],
           "observed_text": "por corpo viuo. B.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:57eb741eee9c34c6bfb67086234b5a77e89f666dfde9b352a1795dc47dd58825"
         },
         {
           "id": "c1-l028",
           "centre_y": 2151,
           "crop": [
-            180,
+            140,
             2085,
-            1040,
+            1125,
             132
           ],
           "context_crop": [
-            180,
+            140,
             1981,
-            1040,
+            1125,
             340
           ],
-          "observed_text": "Carafiscu. Caixão.",
-          "match": "strong",
+          "observed_text": "Carafiçu. Caixão.",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:eec23e04ef2929b1616aa1dca38f44081d928bf1eee6774061e2c03d4f5a16d8"
         },
         {
           "id": "c1-l029",
           "centre_y": 2212,
           "crop": [
-            180,
+            140,
             2146,
-            1040,
+            1125,
             132
           ],
           "context_crop": [
-            180,
+            140,
             2042,
-            1040,
+            1125,
             340
           ],
-          "observed_text": "Carafixi. Certa figura quadrada, & hum pou-",
-          "match": "strong",
+          "observed_text": "Carafixi. Certa figura quadrada, & hũm pou-",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:f575a03daf6c847952a092137c446e549e261da6623c5ebabb1125ff6a281b94"
         },
         {
           "id": "c1-l030",
           "centre_y": 2274,
           "crop": [
-            180,
+            140,
             2208,
-            1040,
+            1125,
             132
           ],
           "context_crop": [
-            180,
+            140,
             2104,
-            1040,
+            1125,
             340
           ],
           "observed_text": "co comprida.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:dcb928b3674d416e155d60fcfdfc2a8b14e44acc44098dc8826fd7bffed438a3"
         },
         {
           "id": "c1-l031",
           "centre_y": 2332,
           "crop": [
-            180,
+            140,
             2266,
-            1040,
+            1125,
             132
           ],
           "context_crop": [
-            180,
+            140,
             2162,
-            1040,
+            1125,
             340
           ],
-          "observed_text": "Carafune. Navio vazio.",
+          "observed_text": "Carafune. Nauio vazio.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:7fcfe9317ded4289f0d0a39bc19f8723f5f2d80bcac09566f7478559e24522ed"
         },
         {
           "id": "c1-l032",
           "centre_y": 2396,
           "crop": [
-            180,
+            140,
             2330,
-            1040,
+            1125,
             132
           ],
           "context_crop": [
-            180,
+            140,
             2226,
-            1040,
+            1125,
             340
           ],
-          "observed_text": "Caragara. Ad. Escaſamente, ou com mui-",
-          "match": "strong",
+          "observed_text": "Caragara. Ad. Eſcaſamente, ou com mui-",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:72af6f539917a48442f418731401b90b6a0902bfd4bbbe8ff6e480a8acac2093"
         },
         {
           "id": "c1-l033",
           "centre_y": 2455,
           "crop": [
-            180,
+            140,
             2389,
-            1040,
+            1125,
             132
           ],
           "context_crop": [
-            180,
+            140,
             2285,
-            1040,
+            1125,
             340
           ],
-          "observed_text": "to trabalho, & risco. Vi, Caragara ync-",
-          "match": "strong",
+          "observed_text": "to trabalho, & riſco. Vt, Caragara ync-",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:590273b9ad809b831ae3e25e32f6883c9c6cf0cab60d4b8654518fd792cd0e90"
         },
         {
           "id": "c1-l034",
           "centre_y": 2517,
           "crop": [
-            180,
+            140,
             2451,
-            1040,
+            1125,
             132
           ],
           "context_crop": [
-            180,
+            140,
             2347,
-            1040,
+            1125,
             340
           ],
-          "observed_text": "chiuo tafucatta. Escapou com a vida, mas",
+          "observed_text": "chiuo taſucatta. Eſcapou com a vida, mas",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:e231e5d6f81310cf9c5324ace0ffcc1443628d6e1bc70c9686b2c361e849b121"
         },
         {
           "id": "c1-l035",
           "centre_y": 2577,
           "crop": [
-            180,
+            140,
             2511,
-            1040,
+            1125,
             132
           ],
           "context_crop": [
-            180,
+            140,
             2407,
-            1040,
+            1125,
             340
           ],
-          "observed_text": "com muito perigo, & risco.",
+          "observed_text": "com muito perigo, & riſco.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:c09c8a0af95f66241ea7c0600c5f199398768d8fb8fb6857539ba6b1175d6def"
         },
         {
           "id": "c1-l036",
           "centre_y": 2641,
           "crop": [
-            180,
+            140,
             2575,
-            1040,
+            1125,
             132
           ],
           "context_crop": [
-            180,
+            140,
             2471,
-            1040,
+            1125,
             340
           ],
           "observed_text": "Carague, uru, eta. Atar, ou liar fato &c.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:a6407fa4100a74c435bcca7cf6ab49dd7f2da23eeb17296fa5629e73ff985452"
         },
         {
           "id": "c1-l037",
           "centre_y": 2701,
           "crop": [
-            180,
+            140,
             2635,
-            1040,
+            1125,
             132
           ],
           "context_crop": [
-            180,
+            140,
             2531,
-            1040,
+            1125,
             340
           ],
-          "observed_text": "Caraguenaua. Corda de liar fato.",
-          "match": "strong",
+          "observed_text": "Caraguenaua. Córda de liar fato.",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:4fff2c6c7259528c4a652ba1d72b81d0e751c8f75e3d2d717b92dde80f3a29da"
         },
         {
           "id": "c1-l038",
           "centre_y": 2767,
           "crop": [
-            180,
+            140,
             2701,
-            1040,
+            1125,
             132
           ],
           "context_crop": [
-            180,
+            140,
             2597,
-            1040,
+            1125,
             340
           ],
-          "observed_text": "Caragon. i. Caracotoba. Palavras escuras,",
+          "observed_text": "Caragon. i. Caracotoba. Palavras eſcuras,",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:3cdad50f83a3a1c1cdd5dd947ae590fd11e3a8846dae5fad81cfdb842827090a"
         },
         {
           "id": "c1-l039",
           "centre_y": 2829,
           "crop": [
-            180,
+            140,
             2763,
-            1040,
+            1125,
             132
           ],
           "context_crop": [
-            180,
+            140,
             2659,
-            1040,
+            1125,
             340
           ],
-          "observed_text": "& que não se entendem bem. ¶ Caragon",
-          "match": "strong",
+          "observed_text": "& quẽ não ſe entendem bem. ¶ Caragon",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:8fb120cd106e01999e4508a734f56e11e8e0d9e8386202fa2136857cbc1a51db"
         },
         {
           "id": "c1-l040",
           "centre_y": 2890,
           "crop": [
-            180,
+            140,
             2824,
-            1040,
+            1125,
             132
           ],
           "context_crop": [
-            180,
+            140,
             2720,
-            1040,
+            1125,
             340
           ],
-          "observed_text": "uo yũ fito. Homem que usa destas palavras.",
-          "match": "strong",
+          "observed_text": "uo yũ fito. Homem que vſa deſtas palavras.",
+          "match": "mismatch",
           "assessment": "readable",
-          "expected_line_version": "sha256:7f3be1ff230a27da2b887fae10d13691243ee97b660f53a8f8359094ae51f5eb"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:84d35fbb49f1974d74702e0ca88a5d6de7c746fee7722eeeb41efb42a4becac0"
         },
         {
           "id": "c1-l041",
           "centre_y": 2950,
           "crop": [
-            180,
+            140,
             2884,
-            1040,
+            1125,
             132
           ],
           "context_crop": [
-            180,
+            140,
             2780,
-            1040,
+            1125,
             340
           ],
-          "observed_text": "Carai. Cousa que requieima como pimenta, mos-",
-          "match": "strong",
+          "observed_text": "Carai. Couſa querequeima como pimenta, moſ-",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:17259e0ea1b0e333e6bb4d00cabaaf23e2ae4d28c4c36a1ad1b5eb586f343a7f"
         },
         {
           "id": "c1-l042",
           "centre_y": 2999,
           "crop": [
-            180,
+            140,
             2933,
-            1040,
+            1125,
             132
           ],
           "context_crop": [
-            180,
+            140,
             2829,
-            1040,
+            1125,
             340
           ],
           "observed_text": "tarda, &c.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:d5aa6dbbd4c779582befd327fe4238e9fe121ad22c481d62e2b0f412afc022b7"
         },
         {
           "id": "c1-l043",
           "centre_y": 3071,
           "crop": [
-            180,
+            140,
             3005,
-            1040,
+            1125,
             132
           ],
           "context_crop": [
-            180,
+            140,
             2901,
-            1040,
+            1125,
             340
           ],
           "observed_text": "Caraſa. Carõ.",
-          "match": "strong",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:4db0e61bafc435c7c0c29129fb6c3305df2d85f2f59976e0494d9c950ae9941c"
         },
         {
           "id": "c1-l044",
           "centre_y": 3138,
           "crop": [
-            180,
+            140,
             3072,
-            1040,
+            1125,
             132
           ],
           "context_crop": [
-            180,
+            140,
             2968,
-            1040,
+            1125,
             340
           ],
-          "observed_text": "Carai. Narçu qitau. Entrar o verão, ou estio.",
-          "match": "strong",
+          "observed_text": "Carai. Narçu qitau. Entrar o verão, ou eſtio.",
+          "match": "mismatch",
           "assessment": "readable",
-          "expected_line_version": "sha256:c56c1081fa7b592587889dbfc54655104f01967fc1fdac299b78136c1bd26920"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:7acc2dfd91a0e96242baef0e964ce78bb1af542ee4ad39c094d7535b0e4d3413"
         },
         {
           "id": "c1-l045",
           "centre_y": 3202,
           "crop": [
-            180,
+            140,
             3136,
-            1040,
+            1125,
             132
           ],
           "context_crop": [
-            180,
+            140,
             3032,
-            1040,
+            1125,
             340
           ],
-          "observed_text": "Caraixiqi. Huns paos grossos sobre que fechão",
-          "match": "strong",
+          "observed_text": "Caraixiqi. Huns paos groſſos ſobre que ſe hã",
+          "match": "mismatch",
           "assessment": "readable",
-          "expected_line_version": "sha256:550f759e5b6464c32337db668ebef25aa8bbd3d67bbc1bef8f6d7a4d2ad43963"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:992bdb750e1d2e57821f8bd311066165a1c933ed968c80734a1ff9e14e98fc31"
         },
         {
           "id": "c1-l046",
           "centre_y": 3263,
           "crop": [
-            180,
+            140,
             3197,
-            1040,
+            1125,
             132
           ],
           "context_crop": [
-            180,
+            140,
             3093,
-            1040,
+            1125,
             340
           ],
-          "observed_text": "as portas, & assentão as colunas dos portais.",
-          "match": "strong",
+          "observed_text": "as portas, & aſſentão as colũnas dos portais.",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:aeddf949873025e3fcdaa433077b4f7a0eb8c0d7e987555ccd9d4a40ed4d61bc"
         },
         {
           "id": "c1-l047",
           "centre_y": 3329,
           "crop": [
-            180,
+            140,
             3263,
-            1040,
+            1125,
             132
           ],
           "context_crop": [
-            180,
+            140,
             3159,
-            1040,
+            1125,
             340
           ],
-          "observed_text": "Caramaqi, qu, aita. Debar fiado, seda, &c.",
-          "match": "strong",
-          "assessment": "readable",
-          "expected_line_version": "sha256:36b0bd434d5b61842eee267119a551415889139072eff1c14d816e763f8ffcd0"
+          "observed_text": "Caramaqi, qu, aita. Debar fiado, ſeda, &c.",
+          "match": "mismatch",
+          "assessment": "uncertain",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:36b0bd434d5b61842eee267119a551415889139072eff1c14d816e763f8ffcd0",
+          "note": "First gloss word was read as ‘Debar’; following initial in ‘fiado’ is difficult in the scan."
         }
       ]
     },
     "column-2": {
       "column_box_xyxy": [
-        1250,
+        1205,
         300,
-        2310,
+        2422,
         3420
       ],
       "zone_ids": [
         "column-2"
       ],
-      "initial_geometry_provenance": "contact_sheet_reviewed",
-      "initial_geometry_reviewed_at": "2026-08-01",
-      "geometry_requires_line_by_line_review": false,
+      "initial_geometry_provenance": "external_ai_width_rechecked",
+      "initial_geometry_reviewed_at": "2026-08-16",
+      "geometry_requires_line_by_line_review": true,
       "lines": [
         {
           "id": "c2-l001",
           "centre_y": 482,
           "crop": [
-            1250,
+            1205,
             416,
-            1060,
+            1217,
             132
           ],
           "context_crop": [
-            1250,
+            1205,
             312,
-            1060,
+            1217,
             340
           ],
-          "observed_text": "Cara iye. Casa vazia sem fato, & sem gente.",
+          "observed_text": "Cara iye. Caſa vazia ſem fato, & ſem gẽte.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:22ef2c6a2ace31f7e37f3f4ed3ff145a469da3f044de7a27056209e74a3d4127"
         },
         {
           "id": "c2-l002",
           "centre_y": 548,
           "crop": [
-            1250,
+            1205,
             482,
-            1060,
+            1217,
             132
           ],
           "context_crop": [
-            1250,
+            1205,
             378,
-            1060,
+            1217,
             340
           ],
-          "observed_text": "Carame, uru, eta. Amarar homens, &c.",
+          "observed_text": "Carame, uru, eta. Amarrar homens, &c.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:1d65cac65a1918ba358f0c19519c788c54468033d46f53d3206815a850f44ee7"
         },
         {
           "id": "c2-l003",
           "centre_y": 610,
           "crop": [
-            1250,
+            1205,
             544,
-            1060,
+            1217,
             132
           ],
           "context_crop": [
-            1250,
+            1205,
             440,
-            1060,
+            1217,
             340
           ],
-          "observed_text": "Caramecaxi, su, aita. Fazer soar com hum",
-          "match": "strong",
+          "observed_text": "Caramecaxi, ſu, aita. Fazer ſoar com hũm",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:ff95cd5a7f0dbb09d6a94d078c3a13d30e7d6b03022b166c12e007f63204cc2c"
         },
         {
           "id": "c2-l004",
           "centre_y": 674,
           "crop": [
-            1250,
+            1205,
             608,
-            1060,
+            1217,
             132
           ],
           "context_crop": [
-            1250,
+            1205,
             504,
-            1060,
+            1217,
             340
           ],
-          "observed_text": "certo som rouquenho a campainha, ou outra cou-",
+          "observed_text": "certo ſom rouquenho a campainha, ou outra cou",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:0302e18160141853f2616a7921ed16930005d0ac881382581913dc932654e742"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:4125a9d82bc163695d3c79fb636134bf398c0849ce618d962783335e1c928d24"
         },
         {
           "id": "c2-l005",
           "centre_y": 729,
           "crop": [
-            1250,
+            1205,
             663,
-            1060,
+            1217,
             132
           ],
           "context_crop": [
-            1250,
+            1205,
             559,
-            1060,
+            1217,
             340
           ],
-          "observed_text": "sa semelhante.",
+          "observed_text": "ſa ſemelhante.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:690ddead9b864a67a1c834367c9c14528d94a4241535ac442cd431ccf93a399a"
         },
         {
           "id": "c2-l006",
           "centre_y": 793,
           "crop": [
-            1250,
+            1205,
             727,
-            1060,
+            1217,
             132
           ],
           "context_crop": [
-            1250,
+            1205,
             623,
-            1060,
+            1217,
             340
           ],
           "observed_text": "Caramede. Vide, Caramete.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:e8ac6d2a7b43092be9a436b04c225c40aec0869f5216272de6a0547993cc480a"
         },
         {
           "id": "c2-l007",
           "centre_y": 861,
           "crop": [
-            1250,
+            1205,
             795,
-            1060,
+            1217,
             132
           ],
           "context_crop": [
-            1250,
+            1205,
             691,
-            1060,
+            1217,
             340
           ],
           "observed_text": "Carameqi, u, eita. Soar a campainha, ou",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:2c2ef888224f9ff424e7ba914337b06cc6cdbdf364b68a0770c3c573b68270bb"
         },
         {
           "id": "c2-l008",
           "centre_y": 923,
           "crop": [
-            1250,
+            1205,
             857,
-            1060,
+            1217,
             132
           ],
           "context_crop": [
-            1250,
+            1205,
             753,
-            1060,
+            1217,
             340
           ],
-          "observed_text": "cousa semelhante com som rouquenho.",
+          "observed_text": "couſa ſemelhante com ſom rouquenho.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:c69e14de2fc3f1d9abcd5309ef3b33011bbfb4837aa5ff0dd7a3a74f76a504b6"
         },
         {
           "id": "c2-l009",
           "centre_y": 987,
           "crop": [
-            1250,
+            1205,
             921,
-            1060,
+            1217,
             132
           ],
           "context_crop": [
-            1250,
+            1205,
             817,
-            1060,
+            1217,
             340
           ],
-          "observed_text": "Cuamercuue, uru, eta. Prender, ou a-",
-          "match": "strong",
-          "assessment": "readable",
-          "expected_line_version": "sha256:50aa1f5d822cde7fea6ce75c2d26f5a2fc089f405cb6f09c245f238242364e59"
+          "observed_text": "Cuamerçuye, uru, eta. Prender, ou a-",
+          "match": "mismatch",
+          "assessment": "uncertain",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:50aa1f5d822cde7fea6ce75c2d26f5a2fc089f405cb6f09c245f238242364e59",
+          "note": "Headword was difficult; independent reading was ‘Cuamerçuye’."
         },
         {
           "id": "c2-l010",
           "centre_y": 1055,
           "crop": [
-            1250,
+            1205,
             989,
-            1060,
+            1217,
             132
           ],
           "context_crop": [
-            1250,
+            1205,
             885,
-            1060,
+            1217,
             340
           ],
           "observed_text": "marrar.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:5f65dffb3ff204aec18482f540919434c8c8166361cf3379a99dcea6e64536c2"
         },
         {
           "id": "c2-l011",
           "centre_y": 1111,
           "crop": [
-            1250,
+            1205,
             1045,
-            1060,
+            1217,
             132
           ],
           "context_crop": [
-            1250,
+            1205,
             941,
-            1060,
+            1217,
             340
           ],
           "observed_text": "Caramete. Porta da traição da fortaleza. A",
-          "match": "strong",
+          "match": "mismatch",
           "assessment": "readable",
-          "expected_line_version": "sha256:d50d82eb3b49ed46ce839cdfb5582685bf659ac3e57bfe6957c6afe95ef487eb"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:a0ceedb3de022c5bc1585de8804e9f543f7c2af87ce664cc10482ab4defa8e61"
         },
         {
           "id": "c2-l012",
           "centre_y": 1179,
           "crop": [
-            1250,
+            1205,
             1113,
-            1060,
+            1217,
             132
           ],
           "context_crop": [
-            1250,
+            1205,
             1009,
-            1060,
+            1217,
             340
           ],
-          "observed_text": "inda que algũa vez se diga, ou ache nalgum",
+          "observed_text": "inda que algũa vez ſe diga, ou ache nalgum",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:5f48b8ae048fa62956b93fd8847635bf3cd6a5fda6448e95136705efd005e9ca"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:f44fba9625a5bd486dba55c102c4bf92b090354a0dcbefc66cdacc852ed11faa"
         },
         {
           "id": "c2-l013",
           "centre_y": 1234,
           "crop": [
-            1250,
+            1205,
             1168,
-            1060,
+            1217,
             132
           ],
           "context_crop": [
-            1250,
+            1205,
             1064,
-            1060,
+            1217,
             340
           ],
-          "observed_text": "liuro, Caramede, a propria palaura he Ca-",
-          "match": "strong",
+          "observed_text": "liuro, Caramede, a propria palavra he Ca-",
+          "match": "mismatch",
           "assessment": "readable",
-          "expected_line_version": "sha256:b83ee950e021b2bd81564b4d5f95c9c5015098867beee5508af7452752df050d"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:74d2befcf30611b01cbd5b26c0357510c264d3af33fd05555f540270da308fb3"
         },
         {
           "id": "c2-l014",
           "centre_y": 1300,
           "crop": [
-            1250,
+            1205,
             1234,
-            1060,
+            1217,
             132
           ],
           "context_crop": [
-            1250,
+            1205,
             1130,
-            1060,
+            1217,
             340
           ],
           "observed_text": "ramete.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:b2e24f0888dc4b1f94c75c5663a6e3fbee405a2340c33ba53ca88fb1dc9ab499"
         },
         {
           "id": "c2-l015",
           "centre_y": 1356,
           "crop": [
-            1250,
+            1205,
             1290,
-            1060,
+            1217,
             132
           ],
           "context_crop": [
-            1250,
+            1205,
             1186,
-            1060,
+            1217,
             340
           ],
           "observed_text": "Carametori, u, otta. Prender, & amarrar.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:df501e42e9725ba46e1b7569caeb8f9e81d228bae4964ae7c293037d896e5221"
         },
         {
           "id": "c2-l016",
           "centre_y": 1420,
           "crop": [
-            1250,
+            1205,
             1354,
-            1060,
+            1217,
             132
           ],
           "context_crop": [
+            1205,
             1250,
-            1250,
-            1060,
+            1217,
             340
           ],
           "observed_text": "Caramomo. Certo genero de peçegos.",
-          "match": "strong",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:13f732a4d32ce9cc9f3752e8268f660306276dfd41cf8580d4b30f002866a39b"
         },
         {
           "id": "c2-l017",
           "centre_y": 1484,
           "crop": [
-            1250,
+            1205,
             1418,
-            1060,
+            1217,
             132
           ],
           "context_crop": [
-            1250,
+            1205,
             1314,
-            1060,
+            1217,
             340
           ],
-          "observed_text": "Caramono. Cousa da China.",
+          "observed_text": "Caramono. Couſa da China.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:1809442f08e3e1bf82f4fe61f470c366b96d938bd2b365dc7a78d1e716ccbcf9"
         },
         {
           "id": "c2-l018",
           "centre_y": 1552,
           "crop": [
-            1250,
+            1205,
             1486,
-            1060,
+            1217,
             132
           ],
           "context_crop": [
-            1250,
+            1205,
             1382,
-            1060,
+            1217,
             340
           ],
-          "observed_text": "Caramuxiro. Esteira da China.",
-          "match": "strong",
+          "observed_text": "Caramuxiro. Eſteira da China.",
+          "match": "mismatch",
           "assessment": "readable",
-          "expected_line_version": "sha256:a3e0405ab347cf6707a57fd20a92da3d74d361c24dc786e97b3c4afd84d5477c"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:419865124f420521d04dc046560373c0b3f931f961bd27c62a0d205ba30de698"
         },
         {
           "id": "c2-l019",
           "centre_y": 1613,
           "crop": [
-            1250,
+            1205,
             1547,
-            1060,
+            1217,
             132
           ],
           "context_crop": [
-            1250,
+            1205,
             1443,
-            1060,
+            1217,
             340
           ],
-          "observed_text": "Caranaxi. Certa laya de peras deſeição de ca-",
-          "match": "strong",
+          "observed_text": "Caranaxi. Certa laya de peras defeição de ca-",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:f7053a9afd4cf31ee445a526466bbbd7586706ce0f60c1df0a42a6b2d15ad81f"
         },
         {
           "id": "c2-l020",
           "centre_y": 1673,
           "crop": [
-            1250,
+            1205,
             1607,
-            1060,
+            1217,
             132
           ],
           "context_crop": [
-            1250,
+            1205,
             1503,
-            1060,
+            1217,
             340
           ],
-          "observed_text": "bacinhas. ¶ Item, Amesma pereira.",
+          "observed_text": "bacínhas. ¶ Item, Ameſma pereira.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:a70de05a97721a04d34b961c65cba4a0a5c876fde37f978933d98d0d34260571"
         },
         {
           "id": "c2-l021",
           "centre_y": 1739,
           "crop": [
-            1250,
+            1205,
             1673,
-            1060,
+            1217,
             132
           ],
           "context_crop": [
-            1250,
+            1205,
             1569,
-            1060,
+            1217,
             340
           ],
-          "observed_text": "Caraneco. Certa casta de gatos.",
-          "match": "strong",
+          "observed_text": "Caraneco. Certa caſta de gatos.",
+          "match": "mismatch",
           "assessment": "readable",
-          "expected_line_version": "sha256:b273b2d08e7763ea8a6f24ed56adde4d8a68d0f79ed8392794333576650e8f97"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:b75817f313d97e892f8ed63262f08d490f0845ac66dfef05ff878692e3fbca25"
         },
         {
           "id": "c2-l022",
           "centre_y": 1801,
           "crop": [
-            1250,
+            1205,
             1735,
-            1060,
+            1217,
             132
           ],
           "context_crop": [
-            1250,
+            1205,
             1631,
-            1060,
+            1217,
             340
           ],
-          "observed_text": "Caranuxiqi. Certa laya de peças da China.",
-          "match": "strong",
+          "observed_text": "Caranixiqi. Certa laya de peças da china.",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:4538e3457380821a433077ed0d7480369ae15be8e2ade43801cbb585541d3526"
         },
         {
           "id": "c2-l023",
           "centre_y": 1857,
           "crop": [
-            1250,
+            1205,
             1791,
-            1060,
+            1217,
             132
           ],
           "context_crop": [
-            1250,
+            1205,
             1687,
-            1060,
+            1217,
             340
           ],
-          "observed_text": "Cararito. Adu. Modo de soar algũa cousa",
+          "observed_text": "Cararito. Adu. Modo de ſoar algũa couſa",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:7bd35c4516613fd2b904ffb250e1aa8d2cf51e4d604cf2d5a8f11301625af0ca"
         },
         {
           "id": "c2-l024",
           "centre_y": 1918,
           "crop": [
-            1250,
+            1205,
             1852,
-            1060,
+            1217,
             132
           ],
           "context_crop": [
-            1250,
+            1205,
             1748,
-            1060,
+            1217,
             340
           ],
           "observed_text": "junta com outra como pao, ou bambu que dá",
-          "match": "strong",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:4c59a4300a7cf1cfd5ffe4c34f7c6c877bb9e2b48aa5b7ad4f38df9e43d4e791"
         },
         {
           "id": "c2-l025",
           "centre_y": 1978,
           "crop": [
-            1250,
+            1205,
             1912,
-            1060,
+            1217,
             132
           ],
           "context_crop": [
-            1250,
+            1205,
             1808,
-            1060,
+            1217,
             340
           ],
-          "observed_text": "hum no outro, ou seta que toca no arco, &c.",
-          "match": "strong",
+          "observed_text": "hũm no outro, ou ſeta que toca no arco, &c.",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:d3170b9ff37a54209b48f7bb0fc2018fba205793dca88d71d6b0d0b092aa7b6a"
         },
         {
           "id": "c2-l026",
           "centre_y": 2038,
           "crop": [
-            1250,
+            1205,
             1972,
-            1060,
+            1217,
             132
           ],
           "context_crop": [
-            1250,
+            1205,
             1868,
-            1060,
+            1217,
             340
           ],
-          "observed_text": "¶ Item, Modo de secar, & torrar algũa",
+          "observed_text": "¶ Item, Modo de ſecar, & torrar algũa",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:2e3b328bc9c295a3f918a111c7efc47ad567cfb525c8bf8fef51ca03dc428fc4"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:57ceacb2bd67a10734558d866a2f795de8744f1432607589bb2a3816aabbdd87"
         },
         {
           "id": "c2-l027",
           "centre_y": 2100,
           "crop": [
-            1250,
+            1205,
             2034,
-            1060,
+            1217,
             132
           ],
           "context_crop": [
-            1250,
+            1205,
             1930,
-            1060,
+            1217,
             340
           ],
-          "observed_text": "cousa. Vi, Cararito iriaguru. Acaba",
+          "observed_text": "couſa. Vt, Cararito iriaguru. Acabar",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:28594680404f8878dead6f525a702182f2ae6a2410fe3efe441cd3a23cf37a8d"
         },
         {
           "id": "c2-l028",
           "centre_y": 2163,
           "crop": [
-            1250,
+            1205,
             2097,
-            1060,
+            1217,
             132
           ],
           "context_crop": [
-            1250,
+            1205,
             1993,
-            1060,
+            1217,
             340
           ],
-          "observed_text": "de secar, ou torrar.",
+          "observed_text": "de ſecar, ou torrar.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:91ecf28d07587fe4af1c982b9542c276ad86ebd43a869d9682e85e6ed4236ee1"
         },
         {
           "id": "c2-l029",
           "centre_y": 2225,
           "crop": [
-            1250,
+            1205,
             2159,
-            1060,
+            1217,
             132
           ],
           "context_crop": [
-            1250,
+            1205,
             2055,
-            1060,
+            1217,
             340
           ],
-          "observed_text": "Carari cararito. Adu. Modo de soar metal",
+          "observed_text": "Carari cararito. Adu. Modo de ſoar metal",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:3172ba62dbb35f6bdaecb526fd90344869f4d43013bddc993973485fd9d4e181"
         },
         {
           "id": "c2-l030",
           "centre_y": 2287,
           "crop": [
-            1250,
+            1205,
             2221,
-            1060,
+            1217,
             132
           ],
           "context_crop": [
-            1250,
+            1205,
             2117,
-            1060,
+            1217,
             340
           ],
           "observed_text": "como campainha, &c.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:8f3a62919659b50cb1222cbc0e8896dc5f9aebc8979e54c36ab8c5242810f161"
         },
         {
           "id": "c2-l031",
           "centre_y": 2351,
           "crop": [
-            1250,
+            1205,
             2285,
-            1060,
+            1217,
             132
           ],
           "context_crop": [
-            1250,
+            1205,
             2181,
-            1060,
+            1217,
             340
           ],
-          "observed_text": "Caralu. Coruo.",
+          "observed_text": "Caraſu. Coruo.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:d700d139db03ad2f0ebd9366a65ee77ec186951e3a3d1f414ed63b4404f984ac"
         },
         {
           "id": "c2-l032",
           "centre_y": 2415,
           "crop": [
-            1250,
+            1205,
             2349,
-            1060,
+            1217,
             132
           ],
           "context_crop": [
-            1250,
+            1205,
             2245,
-            1060,
+            1217,
             340
           ],
-          "observed_text": "Caralugai. Certo genero de marisco como a",
+          "observed_text": "Caraſugai. Certo genero de mariſco como a-",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:5079da97fef4cbad02dc3a7c9fda7b44e1c861ce070d2796244d8f7317b171f4"
         },
         {
           "id": "c2-l033",
           "centre_y": 2477,
           "crop": [
-            1250,
+            1205,
             2411,
-            1060,
+            1217,
             132
           ],
           "context_crop": [
-            1250,
+            1205,
             2307,
-            1060,
+            1217,
             340
           ],
           "observed_text": "meijoas.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:f5b8bc40c02a5924400921c6e6d1583a948e3ab313843f5540f35d9a62e2db87"
         },
         {
           "id": "c2-l034",
           "centre_y": 2539,
           "crop": [
-            1250,
+            1205,
             2473,
-            1060,
+            1217,
             132
           ],
           "context_crop": [
-            1250,
+            1205,
             2369,
-            1060,
+            1217,
             340
           ],
-          "observed_text": "Caralugaxira. Iuntura dos ossos das pernas tra-",
+          "observed_text": "Caraſugaxira. Iuntura dos oſſos das pernas tra",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:84fd155798ef51e44f576eec542d2cae8ae14e6ff5406a5f85e523b6f2eba98d"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:3dbdb6bbf1704b1901184fb2afa7b96e8f683feed34fead2dae7067ee55206d5"
         },
         {
           "id": "c2-l035",
           "centre_y": 2603,
           "crop": [
-            1250,
+            1205,
             2537,
-            1060,
+            1217,
             132
           ],
           "context_crop": [
-            1250,
+            1205,
             2433,
-            1060,
+            1217,
             340
           ],
           "observed_text": "zeiras do caualo.",
-          "match": "strong",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:0e1c40da78ff9bbc30eedd1c32ff9168f3f94a56171d2f5f243f2d14fbdfae2a"
         },
         {
           "id": "c2-l036",
           "centre_y": 2664,
           "crop": [
-            1250,
+            1205,
             2598,
-            1060,
+            1217,
             132
           ],
           "context_crop": [
-            1250,
+            1205,
             2494,
-            1060,
+            1217,
             340
           ],
-          "observed_text": "Caraluguchinaua. Cobra preta.",
+          "observed_text": "Caraſuguchinaua. Cobra preta.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:1f9c1649b08c4641a98f77b13a8ac8b9ef6efff968e2cfdc6896b30396197a7f"
         },
         {
           "id": "c2-l037",
           "centre_y": 2724,
           "crop": [
-            1250,
+            1205,
             2658,
-            1060,
+            1217,
             132
           ],
           "context_crop": [
-            1250,
+            1205,
             2554,
-            1060,
+            1217,
             340
           ],
-          "observed_text": "Carafumi. Tinta da China. ¶ Item, Per-",
+          "observed_text": "Caraſumi. Tinta da china. ¶ Item, Per-",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:ba7c058922cf42e74076cbfec8a2f0c986146df95bb87ac868043b5763745d4c"
         },
         {
           "id": "c2-l038",
           "centre_y": 2790,
           "crop": [
-            1250,
+            1205,
             2724,
-            1060,
+            1217,
             132
           ],
           "context_crop": [
-            1250,
+            1205,
             2620,
-            1060,
+            1217,
             340
           ],
-          "observed_text": "mes. Certas ouas secas de peixe como trubo.",
-          "match": "strong",
+          "observed_text": "met. Certas ouas ſecas de peixe como trubò.",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:4e682588e473df7e4661d706e5b248972055a69c895da09714c5cd6eff74b0e9"
         },
         {
           "id": "c2-l039",
           "centre_y": 2846,
           "crop": [
-            1250,
+            1205,
             2780,
-            1060,
+            1217,
             132
           ],
           "context_crop": [
-            1250,
+            1205,
             2676,
-            1060,
+            1217,
             340
           ],
-          "observed_text": "Carafumugui. Ioyo.",
-          "match": "strong",
+          "observed_text": "Caraſumugui. Ioyo.",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:6a716ee327f302f53d359abcc9833b9cb33f065b418ebe6e49fdec742c5b9065"
         },
         {
           "id": "c2-l040",
           "centre_y": 2910,
           "crop": [
-            1250,
+            1205,
             2844,
-            1060,
+            1217,
             132
           ],
           "context_crop": [
-            1250,
+            1205,
             2740,
-            1060,
+            1217,
             340
           ],
-          "observed_text": "Carafuuõgui. Hũa certa erua.",
-          "match": "strong",
-          "assessment": "readable",
-          "expected_line_version": "sha256:758f8094418c26487f925ed852605005c5312349c6c7c59c6ed73964fca16486"
+          "observed_text": "Caraſuuõgui. Hũa certa erua.",
+          "match": "mismatch",
+          "assessment": "uncertain",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:758f8094418c26487f925ed852605005c5312349c6c7c59c6ed73964fca16486",
+          "note": "Diacritic over o is faint and was read as tilde-like."
         },
         {
           "id": "c2-l041",
           "centre_y": 2976,
           "crop": [
-            1250,
+            1205,
             2910,
-            1060,
+            1217,
             132
           ],
           "context_crop": [
-            1250,
+            1205,
             2806,
-            1060,
+            1217,
             340
           ],
-          "observed_text": "Carafuvri. Certa laya de pepinos pequenos",
-          "match": "strong",
+          "observed_text": "Caraſuuri. Certa laya de pepinos pequenos",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:70db47b192336de7bc7b07e2ad0498e304ade096ba52b0c05669447c75b0d7f2"
         },
         {
           "id": "c2-l042",
           "centre_y": 3037,
           "crop": [
-            1250,
+            1205,
             2971,
-            1060,
+            1217,
             132
           ],
           "context_crop": [
-            1250,
+            1205,
             2867,
-            1060,
+            1217,
             340
           ],
-          "observed_text": "vermelhos syluestres.",
-          "match": "strong",
+          "observed_text": "vermelhos ſylueſtres.",
+          "match": "mismatch",
           "assessment": "readable",
-          "expected_line_version": "sha256:ea0d4e60cca7f4b4c1b9d3db17b823de38be4a69eae60c809b32731054c49ccb"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:30b299e5c502daf2c24f4db86276e6f61b6fe10eab9be0c95272c777061ea86b"
         },
         {
           "id": "c2-l043",
           "centre_y": 3101,
           "crop": [
-            1250,
+            1205,
             3035,
-            1060,
+            1217,
             132
           ],
           "context_crop": [
-            1250,
+            1205,
             2931,
-            1060,
+            1217,
             340
           ],
           "observed_text": "Carataqe. Cana da China.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:76068b721fb59b65affca3c3f1344d76b75b55bde8c2045b345a128d10dcde08"
         },
         {
           "id": "c2-l044",
           "centre_y": 3165,
           "crop": [
-            1250,
+            1205,
             3099,
-            1060,
+            1217,
             132
           ],
           "context_crop": [
-            1250,
+            1205,
             2995,
-            1060,
+            1217,
             340
           ],
           "observed_text": "Carauani. Adu. Certo modo de atar os ca-",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:1cf9f83c9fd87c91520917337ac5c57c3ca10038583ec222ff33b64d08fed066"
         },
         {
           "id": "c2-l045",
           "centre_y": 3229,
           "crop": [
-            1250,
+            1205,
             3163,
-            1060,
+            1217,
             132
           ],
           "context_crop": [
-            1250,
+            1205,
             3059,
-            1060,
+            1217,
             340
           ],
-          "observed_text": "bellos. Vi, Camiuo carauani vaguru. A-",
+          "observed_text": "bellos. Vt, Camiuo carauani vaguru. A-",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:846d6703506347f408dd4e562c7c6f0b0ffe663a68baaa0835450d5e54d33cba"
         },
         {
           "id": "c2-l046",
           "centre_y": 3289,
           "crop": [
-            1250,
+            1205,
             3223,
-            1060,
+            1217,
             132
           ],
           "context_crop": [
-            1250,
+            1205,
             3119,
-            1060,
+            1217,
             340
           ],
-          "observed_text": "marrar, ou enrodilhar os cabellos desta feição.",
-          "match": "strong",
+          "observed_text": "marrar, ou entrodilhar os cabellos deſta feição.",
+          "match": "mismatch",
           "assessment": "readable",
-          "expected_line_version": "sha256:22f74dc179e057f09c0ebb5fe0d02c0a211f5ac79b31c6a9d2cdde3f614c1b84"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:08f6f34482f0f58f639789f251667e4237d65b0b8b6d417c3ac492b9d9d8b3ca"
         },
         {
           "id": "c2-l047",
           "centre_y": 3353,
           "crop": [
-            1250,
+            1205,
             3287,
-            1060,
+            1217,
             132
           ],
           "context_crop": [
-            1250,
+            1205,
             3183,
-            1060,
+            1217,
             340
           ],
           "observed_text": "Carauori. Teçedura de peças da China.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:d21e7d167e787681329e44dcc6c6125a8508620a0fda6d78f3f90fc95cb19cc1"
         }
       ]
     }
-  },
-  "geometry_acceptance": "Full rule-to-rule column width is retained conservatively; vertical crops overlap neighboring rows where useful to protect accents, ascenders, descenders, and line-end marks. Each normal crop is contained by its context crop."
+  }
 }

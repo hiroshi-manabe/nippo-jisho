@@ -78,20 +78,20 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l004` | &emsp;tçuru. *Caçar.* |  |
 | `c2-l005` | Cari. *Pato brauo.* |  |
 | `c2-l006` | Cari. *Iunta esta raiz do verbo, Caru, a* |  |
-| `c2-l007` | &emsp;*muitos nomes ſubstantiues ſignifica ſer a couſa* |  |
+| `c2-l007` | &emsp;*muitos nomes ſuſtantiuos ſignifica ſer a couſa* |  |
 | `c2-l008` | &emsp;*com que ſe ajunta emprestada. Vt,* Cari |  |
 | `c2-l009` | &emsp;vma. *Caualo emprestado. ¶* Cariyado. |  |
 | `c2-l010` | &emsp;*Caſa emprestada ou alugada.* |  |
 | `c2-l011` | Cari, u, atta. *Tomar emprestado.* |  |
 | `c2-l012` | Cari, ru, atta. *Segar.* |  |
 | `c2-l013` | Cari, u, atta. *Caçar.* |  |
-| `c2-l014` | Cariaqu. *Sincopa que ſe faz comẽdo, ou deixa-* |  |
+| `c2-l014` | Cariaqu. *Sincopa que ſe faz comẽdo, ou deixã-* |  |
 | `c2-l015` | &emsp;*do de pronũciar algũa ſillaba do cabo da palau-* |  |
-| `c2-l016` | &emsp;*ra, ou deixando de dar algũas pancadas do cabo no* |  |
+| `c2-l016` | &emsp;*ra, ou deixãdo de dar algũas pancadas do cabo no* |  |
 | `c2-l017` | &emsp;*tanger, &c.* |  |
 | `c2-l018` | Cariague, uru, eta. *Leuantar vestido, ou* |  |
 | `c2-l019` | &emsp;*arregaçarſe. Vt,* Ixǒuo cariaguru. *B.* |  |
-| `c2-l020` | Cariba. *Lugar de caça.* |  |
+| `c2-l020` | Cariba. *Lugar da caça.* |  |
 | `c2-l021` | Caribito. *Caçador.* |  |
 | `c2-l022` | Caribuxi. P. i. Carini inuru coto. *Dor* |  |
 | `c2-l023` | &emsp;*mir por hum pouco.* |  |
@@ -101,7 +101,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l027` | Caricoto. *Mentiras, como quando hum diz* |  |
 | `c2-l028` | &emsp;*que o ſenhor, ou* Tono *manda tal couſa ſem ſer* |  |
 | `c2-l029` | &emsp;*aſſi. Vt,* Caricotouo yù. *Dizer estas* |  |
-| `c2-l030` | &emsp;*mentiras.* |  |
+| `c2-l030` | &emsp;*mintiras.* |  |
 | `c2-l031` | Carigane. *Pato brauo.* |  |
 | `c2-l032` | Cariguinu. *Huns certos vestidos de* Cugue |  |
 | `c2-l033` | &emsp;*quando vão à caça.* |  |

@@ -42,7 +42,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l026` | Carada. *Corpo morto. Algũas vezes ſe toma* |  |
 | `c1-l027` | &emsp;*por corpo viuo. B.* |  |
 | `c1-l028` | Carafitçu. *Caixão.* |  |
-| `c1-l029` | Carafixi. *Certa figura quadrada, & hum pou-* |  |
+| `c1-l029` | Carafixi. *Certa figura quadrada, & hũm pou-* |  |
 | `c1-l030` | &emsp;*co comprida.* |  |
 | `c1-l031` | Carafune. *Nauio vazio.* |  |
 | `c1-l032` | Caragara. *Ad. Eſcaſſamente, ou com mui-* |  |
@@ -52,15 +52,15 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l036` | Carague, uru, eta. *Atar, ou liar fato &c.* |  |
 | `c1-l037` | Carague naua. *Corda de liar fato.* |  |
 | `c1-l038` | Caragon. i. Caracotoba. *Palauras eſcuras,* |  |
-| `c1-l039` | &emsp;*& que não ſe entendem bem. ¶* Caragon |  |
+| `c1-l039` | &emsp;*& quẽ não ſe entendem bem. ¶* Caragon |  |
 | `c1-l040` | &emsp;uo yù fito. *Homem que vſa destas palauras.* |  |
 | `c1-l041` | Carai. *Couſa que requeima como pimenta, moſ-* |  |
 | `c1-l042` | &emsp;*tarda, &c.* |  |
 | `c1-l043` | &emsp;Caraſa. Carǒ. |  |
 | `c1-l044` | Carai. Natçu qitaru. *Entrar o verão, ou estio.* |  |
 | `c1-l045` | Caraixiqi. *Huns paos groſſos ſobre que ſe chã* |  |
-| `c1-l046` | &emsp;*as portas, & aſſentão as colunas dos portais.* |  |
-| `c1-l047` | Caramaqi, qu, aita. *Debar ſiado, ſeda, &c.* |  |
+| `c1-l046` | &emsp;*as portas, & aſſentão as colũnas dos portais.* |  |
+| `c1-l047` | Caramaqi, qu, aita. *Debar fiado, ſeda, &c.* |  |
 
 ## Column 2 running header
 
@@ -80,7 +80,7 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c2-l001` | Cara iye. *Caſa vazia ſem fato, & ſem gẽte.* |  |
 | `c2-l002` | Carame, uru, eta. *Amarrar homens, &c.* |  |
-| `c2-l003` | Caramecaxi, ſu, aita. *Fazer ſoar com hum* |  |
+| `c2-l003` | Caramecaxi, ſu, aita. *Fazer ſoar com hũm* |  |
 | `c2-l004` | &emsp;*certo ſom rouquenho a campainha, ou outra cou* |  |
 | `c2-l005` | &emsp;*ſa ſemelhante.* |  |
 | `c2-l006` | Caramede. *Vide,* Caramete. |  |
@@ -88,21 +88,21 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l008` | &emsp;*couſa ſemelhante com ſom rouquenho.* |  |
 | `c2-l009` | Carametçuqe, uru, eta. *Prender, ou a-* |  |
 | `c2-l010` | &emsp;*marrar.* |  |
-| `c2-l011` | Caramete. *Porta detraição da fortaleza. A* |  |
+| `c2-l011` | Caramete. *Porta da traição da fortaleza. A* |  |
 | `c2-l012` | &emsp;*inda que algũa vez ſe diga, ou ache nalgum* |  |
 | `c2-l013` | &emsp;*liuro,* Caramede, *a propria palaura he Ca-* |  |
 | `c2-l014` | &emsp;*ramete.* |  |
 | `c2-l015` | Carametori, u, otta. *Prender, & amarrar.* |  |
-| `c2-l016` | Caramomo. *Certo genero de pecegos.* |  |
+| `c2-l016` | Caramomo. *Certo genero de peçegos.* |  |
 | `c2-l017` | Caramono. *Couſa da China.* |  |
 | `c2-l018` | Caramuxiro. *Esteira da China.* |  |
-| `c2-l019` | Caranaxi. *Certa laya de peras desfeição de ca-* |  |
+| `c2-l019` | Caranaxi. *Certa laya de peras defeição de ca-* |  |
 | `c2-l020` | &emsp;*baçinhas. ¶ Item, Ameſma pereira.* |  |
 | `c2-l021` | Caraneco. *Certa casta de gatos.* |  |
 | `c2-l022` | Caranixiqi. *Certa laya de peças da China.* |  |
 | `c2-l023` | Cararito. *Adu. Modo de ſoar algũa couſa* |  |
 | `c2-l024` | &emsp;*junta com outra como pao, ou bambu que dà* |  |
-| `c2-l025` | &emsp;*hum no outro, ou ſeta que toca no arco, &c.* |  |
+| `c2-l025` | &emsp;*hũm no outro, ou ſeta que toca no arco, &c.* |  |
 | `c2-l026` | &emsp;*¶ Item, Modo de ſecar, & torrar algũa* |  |
 | `c2-l027` | &emsp;*couſa. Vt,* Cararito iriaguru. *Acabar* |  |
 | `c2-l028` | &emsp;*de ſecar, ou torrar.* |  |
@@ -112,7 +112,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l032` | Caraſugai. *Certo genero de mariſco como a-* |  |
 | `c2-l033` | &emsp;*meijoas.* |  |
 | `c2-l034` | Caraſugaxira. *Iuntura dos oſſos das pernas tra* |  |
-| `c2-l035` | &emsp;*zeiros do caualo.* |  |
+| `c2-l035` | &emsp;*zeiras do caualo.* |  |
 | `c2-l036` | Caraſuguchinaua. *Cobra preta.* |  |
 | `c2-l037` | Caraſumi. *Tinta da china. ¶ Item, Per-* |  |
 | `c2-l038` | &emsp;*met. Certas ouas ſecas de peixe como truta.* |  |

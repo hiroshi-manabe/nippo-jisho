@@ -22,6 +22,24 @@ The later prepared range `f101`–`f237`, `f248`–`f250`, and `f643` contains 1
 
 ## Imported batches
 
+### f91–f95 line-by-line rereviews
+
+Fresh geometry-and-text returns were imported on 2026-08-25. All 471 body-line
+rectangles passed exact line-ID, source-image, transcription-hash, bounds, and
+context-containment validation and are recorded as
+`ai_line_by_line_checked`. The submitted rectangles were accepted without
+project-side adjustment.
+
+The 230 advisory textual disagreements were adjudicated separately against the
+native scans. Twenty-five clearly supported corrections were applied: 10 on
+f91, 5 on f92, 1 on f93, 6 on f94, and 3 on f95. They include historical
+tilde placement, cedilla and spelling forms, Japanese readings such as `fuſu`,
+`Amayadori`, `ximo`, and `vmi`, and corrections such as `Porta da traição` and
+`Debar fiado`. Modernizations, linguistically impossible Japanese readings,
+unsupported line-end hyphens, and other uncertain observations were rejected.
+Every proposed `st`/`ſt` reclassification was deliberately left unchanged for
+the dedicated human glyph audit.
+
 ### f86–f90 line-by-line rereviews
 
 Fresh geometry-and-text returns were imported on 2026-08-25 after the earlier

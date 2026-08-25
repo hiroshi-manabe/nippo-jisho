@@ -16,9 +16,9 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c1-l001` | Caſanari, u, atta. *Acrecentarſe.* |  |
 | `c1-l002` | Caſanarifuxi, ſu, uita. *Estarem hũs ſobre os* |  |
-| `c1-l003` | &emsp;*outros deitados. Vt,* Sanjunin vomoiuo- |  |
+| `c1-l003` | &emsp;*outros deitados. Vt,* Sanjũnin vomoiuo- |  |
 | `c1-l004` | &emsp;moni fara caqiqitte vyega yyeni caſana- |  |
-| `c1-l005` | &emsp;ri ſuſu. *Taif. Lib. 26. Estauão trinta* |  |
+| `c1-l005` | &emsp;ri fuſu. *Taif. Lib. 26. Estauão trinta* |  |
 | `c1-l006` | &emsp;*que ſe cortarão as barrigas deitados hũs ſobre* |  |
 | `c1-l007` | &emsp;*os outros.* |  |
 | `c1-l008` | Caſanari yuqi, u, uita. *Irſe acrecentando. vt* |  |
@@ -32,20 +32,20 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l016` | Caſaneague, uru, eta. *Acumular. Clar.* |  |
 | `c1-l017` | Caſaneatçume, uru, eta. *Ajũtar, & acumu* |  |
 | `c1-l018` | Caſanegaſane. *Adu. Hũa vez, & outra.* |  |
-| `c1-l019` | Caſane jǒyô. *Banquete que vem hum ſobre* |  |
+| `c1-l019` | Caſane jǒyô. *Banquete que vem hũm ſobre* |  |
 | `c1-l020` | &emsp;*outro no meſmo dia. Vt,* Finſǒno caſane |  |
 | `c1-l021` | &emsp;jǒyô. *Banquete de muitas partes que a cõ-* |  |
 | `c1-l022` | &emsp;*tece em hum meſmo tempo ao* Bǒzo *pobre.* |  |
-| `c1-l023` | Caſanegui. *Vestidos huns ſobre os outros.* |  |
+| `c1-l023` | Caſanegui. *Vestidos hũs ſobre os outros.* |  |
 | `c1-l024` | &emsp;*¶* Caſaneguiuo ſuru. *Vestir vestido ſobre* |  |
 | `c1-l025` | &emsp;*vestido.* |  |
 | `c1-l026` | Caſaneqi, iru, ita. *vestir huns vestidos ſo-* |  |
 | `c1-l027` | &emsp;*bre outros.* |  |
 | `c1-l028` | Caſanete. *Adu. Outra vez.* |  |
-| `c1-l029` | Caſayadori. P. i. Aniayadori. *O aco-* |  |
+| `c1-l029` | Caſayadori. P. i. Amayadori. *O aco-* |  |
 | `c1-l030` | &emsp;*lherſe da chūua emparando ſe de baixo dalgũa* |  |
 | `c1-l031` | &emsp;*aruore, ou flores como de baixo de ſombreiro.* |  |
-| `c1-l032` | Caſù. Metoru coto. *Caçarſe, ou tomar o* |  |
+| `c1-l032` | Caſu. Metoru coto. *Cazarſe, ou tomar o* |  |
 | `c1-l033` | &emsp;*homem molher. S.* |  |
 | `c1-l034` | Caſu. *Couſa que fica depois de eſprimida a ſuſ* |  |
 | `c1-l035` | &emsp;*tancia, como bagaço das vuas, ou que fica do* |  |
