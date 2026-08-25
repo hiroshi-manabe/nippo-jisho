@@ -22,6 +22,20 @@ The later prepared range `f101`–`f237`, `f248`–`f250`, and `f643` contains 1
 
 ## Imported batches
 
+### f86–f90 line-by-line rereviews
+
+Fresh geometry-and-text returns were imported on 2026-08-25 after the earlier
+f86–f100 batch had only width-rechecked bulk provenance and incomplete textual
+review. All 472 body-line rectangles passed exact line-ID, source-image,
+transcription-hash, bounds, and context-containment validation and are recorded
+as `ai_line_by_line_checked`.
+
+The 39 advisory textual differences were adjudicated separately. The scan
+clearly supports f86 `Fagiuo caquru`, which was applied. Thirty-seven proposals
+concern only the unresolved `st`/`ſt` distinction and remain unchanged for the
+dedicated human glyph audit. The f88 proposal `Carpírſe` was not applied because
+the scan shows an ordinary undiacritized `i`.
+
 ### f116 resumed line-by-line review
 
 The initial f116 return stopped correctly after discovering an omitted physical line between `c2-l003` and the then-current `c2-l004`. The project restored `Coboxi, ſu, oita. Entornar, ou derramar.`, rebased the remaining column-2 IDs through `c2-l047`, preserved the completed first-column evidence, and regenerated a column-2-only resume task. The completed return was imported on 2026-08-24. All 94 body-line rectangles passed exact line-ID, source-hash, bounds, and full-width validation and are recorded as `ai_line_by_line_checked`.

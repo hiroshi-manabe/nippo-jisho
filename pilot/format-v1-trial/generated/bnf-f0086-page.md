@@ -45,7 +45,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l029` | &emsp;*ninho. ¶* Coyeuo caquru. *Dar vozes,* |  |
 | `c1-l030` | &emsp;*ſalamear, &c. ¶* Coyauo caquru, l, coya- |  |
 | `c1-l031` | &emsp;gaqeuo ſuru. *Fazer caſinhas, ou tendas co-* |  |
-| `c1-l032` | &emsp;*mo no exercito, &c. ¶* Bagiuo caquru. |  |
+| `c1-l032` | &emsp;*mo no exercito, &c. ¶* Fagiuo caquru. |  |
 | `c1-l033` | &emsp;*Injuriar a alguem. ¶* Toriuo caquru. |  |
 | `c1-l034` | &emsp;*Botar a rede ſobre paſſaros que ſe aleuantão vo* |  |
 | `c1-l035` | &emsp;*ando. Item, Ajuntandoſe com as raizes de* |  |
