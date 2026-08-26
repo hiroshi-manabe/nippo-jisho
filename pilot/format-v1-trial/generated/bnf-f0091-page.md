@@ -16,8 +16,8 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c1-l001` | Caracaua. *Pelle da China.* |  |
 | `c1-l002` | Caracaua. *Caſca de hũa aruore chamada* |  |
-| `c1-l003` | &emsp;tanxǒ *que dà pimenta em Iapão. No* cami |  |
-| `c1-l004` | &emsp;*ſe diz* tanxǒno caua. |  |
+| `c1-l003` | &emsp;ſanxô *que dà pimenta em Iapão. No* cami |  |
+| `c1-l004` | &emsp;*ſe diz* ſanxôno caua. |  |
 | `c1-l005` | Caracha. *Hũa cor como a do* cha. |  |
 | `c1-l006` | Caraco. *Minino china.* |  |
 | `c1-l007` | Caraconoye. *Pintura onde pintão estes mini-* |  |
@@ -27,38 +27,38 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l011` | &emsp;*vide* caragon. |  |
 | `c1-l012` | Caracumi, u, unda. *Inuentar, & edificar* |  |
 | `c1-l013` | &emsp;*algũa obra que não he ordinaria. Vt,* Fu- |  |
-| `c1-l014` | &emsp;neni xeirǒuo caracumi aguru. *Aleuan-* |  |
-| `c1-l015` | &emsp;*tar na* fune *baluarte alto como masto com* |  |
+| `c1-l014` | &emsp;neni xeirôuo caracumi aguru. *Aleuan-* |  |
+| `c1-l015` | &emsp;*tar na* fune *baluarte alto como maſto com* |  |
 | `c1-l016` | &emsp;*gauea.* |  |
 | `c1-l017` | Caracurenai. *Retroz Carmezim da China.* |  |
 | `c1-l018` | Caracuri, u, utta. *Fazer, ou inuentar algũa* |  |
 | `c1-l019` | &emsp;*couſa artificioſa. ¶ Item, Fazer inuen-* |  |
 | `c1-l020` | &emsp;*çoẽs, l, concertar de maneira que ſe unão ou-* |  |
-| `c1-l021` | &emsp;*tros com alguem, &c. Vt,* Vchiuauo |  |
-| `c1-l022` | &emsp;caracuru. *Fazer estas inuenções, & ardis* |  |
-| `c1-l023` | &emsp;*pera que outros ſejão do meſmo parecer.* |  |
+| `c1-l021` | &emsp;*tros com alguem, &c.* V*t,* Vchiuauo |  |
+| `c1-l022` | &emsp;caracuru. *Fazer eſtas inuenções, & ardiis* |  |
+| `c1-l023` | &emsp;*pera que outros ſejão do meſmo pareçer.* |  |
 | `c1-l024` | Caracuſa. *Lauores, ou laçarias que ſe fazem* |  |
 | `c1-l025` | &emsp;*pintadas, ou de releuo.* |  |
 | `c1-l026` | Carada. *Corpo morto. Algũas vezes ſe toma* |  |
 | `c1-l027` | &emsp;*por corpo viuo. B.* |  |
 | `c1-l028` | Carafitçu. *Caixão.* |  |
-| `c1-l029` | Carafixi. *Certa figura quadrada, & hũm pou-* |  |
+| `c1-l029` | Carafixi. *Certa figura quadrada, & hum pou-* |  |
 | `c1-l030` | &emsp;*co comprida.* |  |
 | `c1-l031` | Carafune. *Nauio vazio.* |  |
-| `c1-l032` | Caragara. *Ad. Eſcaſſamente, ou com mui-* |  |
-| `c1-l033` | &emsp;*to trabalho, & riſco. Vt,* Caragara yne- |  |
+| `c1-l032` | Caragara. *Ad. Eſcaſamente, ou com mui-* |  |
+| `c1-l033` | &emsp;*to trabalho, & riſco. Vt,* Caragara yno- |  |
 | `c1-l034` | &emsp;chiuo taſucatta. *Eſcapou com a vida, mas* |  |
 | `c1-l035` | &emsp;*com muito perigo, & riſco.* |  |
 | `c1-l036` | Carague, uru, eta. *Atar, ou liar fato &c.* |  |
 | `c1-l037` | Carague naua. *Corda de liar fato.* |  |
 | `c1-l038` | Caragon. i. Caracotoba. *Palauras eſcuras,* |  |
-| `c1-l039` | &emsp;*& quẽ não ſe entendem bem. ¶* Caragon |  |
-| `c1-l040` | &emsp;uo yù fito. *Homem que vſa destas palauras.* |  |
+| `c1-l039` | &emsp;*& que não ſe entendem bem. ¶* Caragon |  |
+| `c1-l040` | &emsp;uo yù fito. *Homem que vſa deſtas palauras.* |  |
 | `c1-l041` | Carai. *Couſa que requeima como pimenta, moſ-* |  |
 | `c1-l042` | &emsp;*tarda, &c.* |  |
 | `c1-l043` | &emsp;Caraſa. Carǒ. |  |
-| `c1-l044` | Carai. Natçu qitaru. *Entrar o verão, ou estio.* |  |
-| `c1-l045` | Caraixiqi. *Huns paos groſſos ſobre que ſe chã* |  |
+| `c1-l044` | Carai. Natçu qitaru. *Entrar o verão, ou eſtio.* |  |
+| `c1-l045` | Caraixiqi. *Huns paos groſſos ſobre que fechã* |  |
 | `c1-l046` | &emsp;*as portas, & aſſentão as colũnas dos portais.* |  |
 | `c1-l047` | Caramaqi, qu, aita. *Debar fiado, ſeda, &c.* |  |
 
@@ -80,7 +80,7 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c2-l001` | Cara iye. *Caſa vazia ſem fato, & ſem gẽte.* |  |
 | `c2-l002` | Carame, uru, eta. *Amarrar homens, &c.* |  |
-| `c2-l003` | Caramecaxi, ſu, aita. *Fazer ſoar com hũm* |  |
+| `c2-l003` | Caramecaxi, ſu, aita. *Fazer ſoar com hum* |  |
 | `c2-l004` | &emsp;*certo ſom rouquenho a campainha, ou outra cou* |  |
 | `c2-l005` | &emsp;*ſa ſemelhante.* |  |
 | `c2-l006` | Caramede. *Vide,* Caramete. |  |
@@ -95,9 +95,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l015` | Carametori, u, otta. *Prender, & amarrar.* |  |
 | `c2-l016` | Caramomo. *Certo genero de peçegos.* |  |
 | `c2-l017` | Caramono. *Couſa da China.* |  |
-| `c2-l018` | Caramuxiro. *Esteira da China.* |  |
+| `c2-l018` | Caramuxiro. *Eſteira da China.* |  |
 | `c2-l019` | Caranaxi. *Certa laya de peras defeição de ca-* |  |
-| `c2-l020` | &emsp;*baçinhas. ¶ Item, Ameſma pereira.* |  |
+| `c2-l020` | &emsp;*bacinhas. ¶ Item, Ameſma pereira.* |  |
 | `c2-l021` | Caraneco. *Certa casta de gatos.* |  |
 | `c2-l022` | Caranixiqi. *Certa laya de peças da China.* |  |
 | `c2-l023` | Cararito. *Adu. Modo de ſoar algũa couſa* |  |
@@ -114,12 +114,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l034` | Caraſugaxira. *Iuntura dos oſſos das pernas tra* |  |
 | `c2-l035` | &emsp;*zeiras do caualo.* |  |
 | `c2-l036` | Caraſuguchinaua. *Cobra preta.* |  |
-| `c2-l037` | Caraſumi. *Tinta da china. ¶ Item, Per-* |  |
-| `c2-l038` | &emsp;*met. Certas ouas ſecas de peixe como truta.* |  |
-| `c2-l039` | Caraſumugui. *Iojo.* |  |
+| `c2-l037` | Caraſumi. *Tinta da China. ¶ Item, Per-* |  |
+| `c2-l038` | &emsp;*met. Certas ouas ſecas de peixe como trubò.* |  |
+| `c2-l039` | Caraſumugui. *Ioyo.* |  |
 | `c2-l040` | Caraſuuǒgui. *Hũa certa erua.* |  |
 | `c2-l041` | Caraſuvri. *Certa laya de pepinos pequenos* |  |
-| `c2-l042` | &emsp;*vermelhos ſyluestres.* |  |
+| `c2-l042` | &emsp;*vermelhos ſylueſtres.* |  |
 | `c2-l043` | Carataqe. *Cana da China.* |  |
 | `c2-l044` | Carauani. *Adu. Certo modo de atar os ca-* |  |
 | `c2-l045` | &emsp;*bellos. Vt,* Camiuo carauani vaguru. *A-* |  |
