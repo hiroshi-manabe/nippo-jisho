@@ -86,6 +86,21 @@
     return current;
   }
 
+  function nasalizedVowel(character) {
+    return ({a: 'ã', e: 'ẽ', i: 'ĩ', o: 'õ', u: 'ũ'})[character] || null;
+  }
+
+  function nextPostvocalicNasal(current, original, previous, next) {
+    const nasalized = nasalizedVowel(previous);
+    if (!nasalized || (next && /[aeiouáéíóúàèìòùâêîôûãẽĩõũǒǔ]/u.test(next))) {
+      return {kind: 'replace', value: nextNM(current)};
+    }
+    const alternate = nextNM(original);
+    if (current === original) return {kind: 'replace', value: alternate};
+    if (current === alternate) return {kind: 'contract', value: nasalized};
+    return {kind: 'replace', value: current};
+  }
+
   function nextCedilla(current) {
     if (current === 'c') return 'ç';
     if (current === 'ç') return 'c';
@@ -161,5 +176,5 @@
     return {operations, currentToBase, changed, deletions};
   }
 
-  return {VOWEL_CYCLES, DELETABLE, parse, serialize, replace, toggleRoman, nextSForm, nextGQ, nextNM, nextCedilla, nextUV, nextIJ, nextVowel, align};
+  return {VOWEL_CYCLES, DELETABLE, parse, serialize, replace, toggleRoman, nextSForm, nextGQ, nextNM, nextPostvocalicNasal, nextCedilla, nextUV, nextIJ, nextVowel, align};
 }));

@@ -204,6 +204,11 @@ equal([q.nextSForm('ſ', 'ſ'), q.nextSForm('s', 'ſ'), q.nextSForm('f', 'ſ')],
 equal([q.nextSForm('f', 'f'), q.nextSForm('ſ', 'f')], ['ſ', 'f']);
 equal([q.nextGQ('g'), q.nextGQ('q'), q.nextGQ('G'), q.nextGQ('Q')], ['q', 'g', 'Q', 'G']);
 equal([q.nextNM('n'), q.nextNM('m'), q.nextNM('N'), q.nextNM('M')], ['m', 'n', 'N', 'M']);
+equal(q.nextPostvocalicNasal('n', 'n', 'a', 't'), {kind: 'replace', value: 'm'});
+equal(q.nextPostvocalicNasal('m', 'n', 'a', 't'), {kind: 'contract', value: 'ã'});
+equal(q.nextPostvocalicNasal('m', 'm', 'e', 'b'), {kind: 'replace', value: 'n'});
+equal(q.nextPostvocalicNasal('n', 'm', 'e', 'b'), {kind: 'contract', value: 'ẽ'});
+equal(q.nextPostvocalicNasal('n', 'n', 'a', 'i'), {kind: 'replace', value: 'm'});
 equal([q.nextCedilla('c'), q.nextCedilla('ç'), q.nextCedilla('C'), q.nextCedilla('Ç')], ['ç', 'c', 'C', 'Ç']);
 equal(['u', 'v', 'ũ', 'ù', 'ú', 'û', 'ǔ'].map(value => q.nextUV(value, 'u')), ['v', 'ũ', 'ù', 'ú', 'û', 'ǔ', 'u']);
 equal(['v', 'u'].map(value => q.nextUV(value, 'v')), ['u', 'v']);
