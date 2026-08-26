@@ -3,11 +3,23 @@
   "format_version": 1,
   "page": "bnf-f0098",
   "response_status": "completed_independent_ai_line_review",
-  "geometry_review_status": "completed",
-  "text_review_status": "not_completed",
-  "observed_text_provenance": "Every physical body line was visually inspected individually at enlarged isolated-crop scale against the supplied scan before any canonical comparison. Line centres were re-registered from the scan rather than trusted from the provisional regular grid; complete first and last glyphs and all four crop edges were checked. observed_text is an independent image reading; OCR was not used for line identification or transcription. A final top-to-bottom sweep of both columns was performed. expected_line_version values are preserved unchanged.",
+  "default_response_mode": "geometry_and_text",
+  "completion_statuses": {
+    "geometry_and_text": {
+      "geometry_review_status": "completed",
+      "text_review_status": "completed"
+    },
+    "geometry_only_fallback": {
+      "geometry_review_status": "completed",
+      "text_review_status": "not_completed"
+    }
+  },
+  "observed_text_provenance": "Must be written independently from each proposed crop before consulting the canonical transcription. Null means that this line has not yet been read.",
   "coordinate_space": "native Gallica master pixels",
   "rectangle_format": "[x, y, width, height]",
+  "geometry_acceptance": "Inspect every isolated crop at full practical size against the full page; confirm complete first and last glyphs and all top/bottom ink; do not infer horizontal completeness from line identity or vertical centering; then sweep each column top-to-bottom for repeated clipping, especially the outer/right edge of column 2. Conservative rule-to-rule width and necessary neighboring-line overlap are allowed.",
+  "text_acceptance": "Read the print independently before consulting the canonical line. Preserve visible historical spelling, spacing, diacritics, and long s; do not normalize, copy the canonical text, or guess merely to complete a field. Returned text is advisory until separately adjudicated against the scan.",
+  "lineation_discrepancy": "If the printed number or order of physical lines differs from the task, do not invent a blank continuation, shift IDs, or renumber the response. Mark the response incomplete and report the first divergence so the canonical lineation can be corrected and the task regenerated.",
   "source": {
     "filename": "f0098.jpg",
     "width": 2721,
@@ -17,1921 +29,2029 @@
   },
   "transcription_source": {
     "page_file": "pilot/format-v1-trial/level1/bnf-f0098.json",
-    "page_file_sha256": "cb2464051069e7e301f4dc538120c1f1037f02179e94ac31d40b99012ed93f23"
+    "page_file_sha256": "a72ec4b108e899e5522ded1cd5c591b563eb12559da50c2ce56b348c8afa126c"
   },
   "columns": {
     "column-1": {
       "column_box_xyxy": [
-        340,
         300,
-        1450,
+        300,
+        1505,
         3410
       ],
       "zone_ids": [
         "column-1"
       ],
-      "initial_geometry_provenance": "contact_sheet_reviewed",
-      "initial_geometry_reviewed_at": "2026-08-01",
-      "geometry_requires_line_by_line_review": false,
+      "initial_geometry_provenance": "external_ai_width_rechecked",
+      "initial_geometry_reviewed_at": "2026-08-16",
+      "geometry_requires_line_by_line_review": true,
       "lines": [
         {
           "id": "c1-l001",
           "centre_y": 496,
           "crop": [
-            340,
+            300,
             436,
-            1110,
+            1205,
             120
           ],
           "context_crop": [
-            340,
+            300,
             326,
-            1110,
+            1205,
             340
           ],
-          "observed_text": "parte, & peſada da outra, &c. ¶ Item,",
-          "match": "strong",
+          "observed_text": "parte, & peſado da outra, &c. ¶ Item,",
+          "match": "partial",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:92a20347b7632bb63c61144ead44d8a257108f47d79831e2ab4b4136879cdf46"
         },
         {
           "id": "c1-l002",
           "centre_y": 555,
           "crop": [
-            340,
+            300,
             495,
-            1110,
+            1205,
             120
           ],
           "context_crop": [
-            340,
+            300,
             385,
-            1110,
+            1205,
             340
           ],
-          "observed_text": "Permet. Deſiguais em algũa arte, jogo, &c.",
-          "match": "strong",
+          "observed_text": "Permei. Deſiguais em algũa arte, jogo, &c.",
+          "match": "partial",
           "assessment": "readable",
-          "expected_line_version": "sha256:e000e616569c016b211d6aafb79e8b26328f6fb7fcea5a2d442282283abcc706"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:eecfbe01a611fbc6e4b5030fa1d37cbba9cede3b53b5fc0100aa8f5e88d3258d"
         },
         {
           "id": "c1-l003",
           "centre_y": 618,
           "crop": [
-            340,
+            300,
             558,
-            1110,
+            1205,
             120
           ],
           "context_crop": [
-            340,
+            300,
             448,
-            1110,
+            1205,
             340
           ],
           "observed_text": "Catazzu. Cuſpinho. Mas vſaſe ſó neſta fraſe.",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:f0aec2823a166b97bd94eaae5d79036c2c2174bcdc933ed814606c3b8c228061"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:f0d68a4cd082531be6bcdbf08fda350d104428e6606a78288d6914864472cff7"
         },
         {
           "id": "c1-l004",
           "centre_y": 688,
           "crop": [
-            340,
+            300,
             628,
-            1110,
+            1205,
             120
           ],
           "context_crop": [
-            340,
+            300,
             518,
-            1110,
+            1205,
             340
           ],
           "observed_text": "Vt, Catazzuuo nomu. Eſtar affligido,",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:7b8c35f09aacc0519ad35e5c218dd95d6d262393d33103611474dbabf7ea94a6"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:ee67fd994a5c1fed014d45b3333583223ffcda1f2cc2a535284ef2f938fa9cff"
         },
         {
           "id": "c1-l005",
           "centre_y": 739,
           "crop": [
-            340,
+            300,
             679,
-            1110,
+            1205,
             120
           ],
           "context_crop": [
-            340,
+            300,
             569,
-            1110,
+            1205,
             340
           ],
           "observed_text": "& em aperto.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:fb6c53b4694e9c44eaaf65bad9f4281b6449d774bf5b311fb5a0bf30bba366c3"
         },
         {
           "id": "c1-l006",
           "centre_y": 810,
           "crop": [
-            340,
+            300,
             750,
-            1110,
+            1205,
             120
           ],
           "context_crop": [
-            340,
+            300,
             640,
-            1110,
+            1205,
             340
           ],
-          "observed_text": "Catbeõ. Hũa certa doença q̃ cauſa grãde ſede.",
+          "observed_text": "Catbeǒ. Hũa certa doença q̃ cauſa grãde ſede.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:c52e423a6d974845e92e5f72930f1bf7fed16063c72e5b095eb911408359b3f9"
         },
         {
           "id": "c1-l007",
           "centre_y": 873,
           "crop": [
-            340,
+            300,
             813,
-            1110,
+            1205,
             120
           ],
           "context_crop": [
-            340,
+            300,
             703,
-            1110,
+            1205,
             340
           ],
-          "observed_text": "Catçũ, l, catçũua. Hum pouco. ¶ Item,",
-          "match": "strong",
+          "observed_text": "Catçù, l, catçiua. Hum pouco. ¶ Item,",
+          "match": "partial",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:532af1f8a6b45f88288b238ce37b6954007decb60e5409288a1fe379392b9bbf"
         },
         {
           "id": "c1-l008",
           "centre_y": 920,
           "crop": [
-            340,
+            300,
             860,
-            1110,
+            1205,
             120
           ],
           "context_crop": [
-            340,
+            300,
             750,
-            1110,
+            1205,
             340
           ],
-          "observed_text": "Por hũa parte, ou por hũa vez, à hũa, &c.",
+          "observed_text": "Por hũa parte, ou por hũa via, à hũa, &c.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:a554cfa1460337599b1146ace7215dcafff847f15139bcd137fa47c2f0c36ff9"
         },
         {
           "id": "c1-l009",
           "centre_y": 994,
           "crop": [
-            340,
+            300,
             934,
-            1110,
+            1205,
             120
           ],
           "context_crop": [
-            340,
+            300,
             824,
-            1110,
+            1205,
             340
           ],
           "observed_text": "Catçugatçu. i. Sucoxizzutçu. Pouco a pou-",
-          "match": "strong",
+          "match": "partial",
           "assessment": "readable",
-          "expected_line_version": "sha256:014e11f613bdc15b461d6321e251115c14aec13996cbf65856405879d1da8209"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:cb4f1cccf6c07c48d7b8a6952085991691e294fa041ef1847580ef9c8758e861"
         },
         {
           "id": "c1-l010",
           "centre_y": 1053,
           "crop": [
-            340,
+            300,
             993,
-            1110,
+            1205,
             120
           ],
           "context_crop": [
-            340,
+            300,
             883,
-            1110,
+            1205,
             340
           ],
-          "observed_text": "co. Vt, Deqixidai catçugatçu xinjima-",
-          "match": "strong",
+          "observed_text": "co. Vt, Deqixidai catçugatçu xinjiima-",
+          "match": "partial",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:c9cc8a9c194c34948520c812017adc04d87752afff6b25872b2001c9ab7d6561"
         },
         {
           "id": "c1-l011",
           "centre_y": 1116,
           "crop": [
-            340,
+            300,
             1056,
-            1110,
+            1205,
             120
           ],
           "context_crop": [
-            340,
+            300,
             946,
-            1110,
+            1205,
             340
           ],
-          "observed_text": "raxõzu. Aſſi como ſe for fazendo pouco a",
+          "observed_text": "raxǒzu. Aſſi como ſe for fazendo pouco a",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:f86273c64624b92108f00142cc7ebe925e2dfb02741df7103e9d9cd43f8619c8"
         },
         {
           "id": "c1-l012",
           "centre_y": 1163,
           "crop": [
-            340,
+            300,
             1103,
-            1110,
+            1205,
             120
           ],
           "context_crop": [
-            340,
+            300,
             993,
-            1110,
+            1205,
             340
           ],
           "observed_text": "pouco volo darei.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:99603dcad4664ed4c3f4d62850d5edb97f685239efd4ee6eb2f11da90495c278"
         },
         {
           "id": "c1-l013",
           "centre_y": 1237,
           "crop": [
-            340,
+            300,
             1177,
-            1110,
+            1205,
             120
           ],
           "context_crop": [
-            340,
+            300,
             1067,
-            1110,
+            1205,
             340
           ],
-          "observed_text": "Catçugui. Manto de molher. X. Melius",
-          "match": "strong",
-          "assessment": "readable",
-          "expected_line_version": "sha256:0e01946f01ff4d5bfbb183d0fe3295a2c48f7ac8e003a7dbc2fbb2b8bb41b3d6"
+          "observed_text": "Catçugui. Manio de molher. X. Melius",
+          "match": "mismatch",
+          "assessment": "uncertain",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:0e01946f01ff4d5bfbb183d0fe3295a2c48f7ac8e003a7dbc2fbb2b8bb41b3d6",
+          "note": "Independent enlarged-scan reading is materially uncertain at one or more glyphs; the visible reading is retained rather than normalized from the canonical line."
         },
         {
           "id": "c1-l014",
           "centre_y": 1298,
           "crop": [
-            340,
+            300,
             1238,
-            1110,
+            1205,
             120
           ],
           "context_crop": [
-            340,
+            300,
             1128,
-            1110,
+            1205,
             340
           ],
-          "observed_text": "Cazzugi. (criança.",
-          "match": "strong",
-          "assessment": "readable",
-          "expected_line_version": "sha256:72c319eae2cc8760b5199be88ccbefa6a4db73219b8cd6d01ada88bde50787ad"
+          "observed_text": "Cazzugui. criança.",
+          "match": "partial",
+          "assessment": "uncertain",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:72c319eae2cc8760b5199be88ccbefa6a4db73219b8cd6d01ada88bde50787ad",
+          "note": "Independent enlarged-scan reading is materially uncertain at one or more glyphs; the visible reading is retained rather than normalized from the canonical line."
         },
         {
           "id": "c1-l015",
           "centre_y": 1359,
           "crop": [
-            340,
+            300,
             1299,
-            1110,
+            1205,
             120
           ],
           "context_crop": [
-            340,
+            300,
             1189,
-            1110,
+            1205,
             340
           ],
-          "observed_text": "Catçuge. Ama, ou molher que cria algũa",
-          "match": "strong",
+          "observed_text": "Catçuqe. Ama, ou molher que cria algũa",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:10e43e8b35e700c5c7a0d62c7d133cc63782d3479d8fd01eadd83654e4ef4a33"
         },
         {
           "id": "c1-l016",
           "centre_y": 1420,
           "crop": [
-            340,
+            300,
             1360,
-            1110,
+            1205,
             120
           ],
           "context_crop": [
-            340,
+            300,
             1250,
-            1110,
+            1205,
             340
           ],
-          "observed_text": "Catçuge, uru. Amançar, ou domeſticar.",
-          "match": "strong",
+          "observed_text": "Catçuqe, uru. Amançar, ou domeſticar.",
+          "match": "partial",
           "assessment": "readable",
-          "expected_line_version": "sha256:1cafa9d85a92db455c7c02a987c4d4b3ac3517357d16990eb255a472c4a88c3d"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:93447814b12d52429b878c29725fab3eb59c90e62d24b3b1e27ff9cdb8fbe1a4"
         },
         {
           "id": "c1-l017",
           "centre_y": 1469,
           "crop": [
-            340,
+            300,
             1409,
-            1110,
+            1205,
             120
           ],
           "context_crop": [
-            340,
+            300,
             1299,
-            1110,
+            1205,
             340
           ],
-          "observed_text": "Catçura. Hũa laya de molheres q̃ ſobre o ma-",
-          "match": "strong",
+          "observed_text": "Catçura. Hũa laya de molheres q̃ ſobre o mai-",
+          "match": "partial",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:448af5d0351686b9f4225e59da37e7faafc42bbac9caa44db3c8c0559201edd4"
         },
         {
           "id": "c1-l018",
           "centre_y": 1530,
           "crop": [
-            340,
+            300,
             1470,
-            1110,
+            1205,
             120
           ],
           "context_crop": [
-            340,
+            300,
             1360,
-            1110,
+            1205,
             340
           ],
-          "observed_text": "is veſtido trazem hũa Catabira de linho por",
-          "match": "strong",
+          "observed_text": "or veſtido trazem hũa Catabira de linho por",
+          "match": "partial",
           "assessment": "readable",
-          "expected_line_version": "sha256:6672d13ed77e24d6d6c54efbbe0abd6bd89bc4cb7a7ffe455c3afd8d595fc601"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:58ebcae0a78bbd9867c06f9b751a04dcab8e5231737f4827f644ec63b1562333"
         },
         {
           "id": "c1-l019",
           "centre_y": 1604,
           "crop": [
-            340,
+            300,
             1544,
-            1110,
+            1205,
             120
           ],
           "context_crop": [
-            340,
+            300,
             1434,
-            1110,
+            1205,
             340
           ],
-          "observed_text": "cima, & nacabeça muito toucado, as quaes de-",
-          "match": "strong",
+          "observed_text": "cima, & na cabeça muito toucado, as quaes deſ-",
+          "match": "partial",
           "assessment": "readable",
-          "expected_line_version": "sha256:47e616ed9a709a2188cbe61dcf08485f4a66fa861e4924e6e677ebfba82eac03"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:57e68c4055ab8e37db5f840d2901efcf04f4c620a3fa4fa20620cce892da0864"
         },
         {
           "id": "c1-l020",
           "centre_y": 1654,
           "crop": [
-            340,
+            300,
             1594,
-            1110,
+            1205,
             120
           ],
           "context_crop": [
-            340,
+            300,
             1484,
-            1110,
+            1205,
             340
           ],
-          "observed_text": "correm por diuersas partes.",
+          "observed_text": "correm por diuerſas partes.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:f122d4b6c28218e22d0c37af2971f6b37b8e6c58e62f75e4179964718fe60d5d"
         },
         {
           "id": "c1-l021",
           "centre_y": 1728,
           "crop": [
-            340,
+            300,
             1668,
-            1110,
+            1205,
             120
           ],
           "context_crop": [
-            340,
+            300,
             1558,
-            1110,
+            1205,
             340
           ],
-          "observed_text": "Catçure. Adu. De nenhũa qualidade, ou nũ-",
-          "match": "strong",
+          "observed_text": "Catçute. Adu. De nenhuma qualidade, ou nũ-",
+          "match": "partial",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:245376adff6bc40dec5daf9a955061e4ea6bee9f2782ef9ff3e3907c19e7c010"
         },
         {
           "id": "c1-l022",
           "centre_y": 1777,
           "crop": [
-            340,
+            300,
             1717,
-            1110,
+            1205,
             120
           ],
           "context_crop": [
-            340,
+            300,
             1607,
-            1110,
+            1205,
             340
           ],
           "observed_text": "qua, ſempre ſe junta com negatiuos.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:d1c07be662d358498a7813f234766f383436a14b6c5c84e958d05d53bb71216d"
         },
         {
           "id": "c1-l023",
           "centre_y": 1851,
           "crop": [
-            340,
+            300,
             1791,
-            1110,
+            1205,
             120
           ],
           "context_crop": [
-            340,
+            300,
             1681,
-            1110,
+            1205,
             340
           ],
-          "observed_text": "Catçuremonte. Adu. Idem.",
-          "match": "strong",
-          "assessment": "readable",
-          "expected_line_version": "sha256:ca9741a43d61760a550f92dc33bc9bb0b1b0b233b18f506f4ac6e05fccd7291e"
+          "observed_text": "Catçutemõte. Adu. Idem.",
+          "match": "mismatch",
+          "assessment": "uncertain",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:ca9741a43d61760a550f92dc33bc9bb0b1b0b233b18f506f4ac6e05fccd7291e",
+          "note": "Independent enlarged-scan reading is materially uncertain at one or more glyphs; the visible reading is retained rather than normalized from the canonical line."
         },
         {
           "id": "c1-l024",
           "centre_y": 1910,
           "crop": [
-            340,
+            300,
             1850,
-            1110,
+            1205,
             120
           ],
           "context_crop": [
-            340,
+            300,
             1740,
-            1110,
+            1205,
             340
           ],
-          "observed_text": "Catçuua. Conjun. Por hũa parte, ou à hũa",
-          "match": "strong",
+          "observed_text": "Catçuu. Conjun. Por hũa parte, ou à hũa.",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:89d8d6243c2d339b1baeccbdd6482affc7f7712041e768030f7b31535d3d6f55"
         },
         {
           "id": "c1-l025",
           "centre_y": 1969,
           "crop": [
-            340,
+            300,
             1909,
-            1110,
+            1205,
             120
           ],
           "context_crop": [
-            340,
+            300,
             1799,
-            1110,
+            1205,
             340
           ],
           "observed_text": "¶ Item, Por hum pouco.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:5dcefcea3c57791ab2913a616e536175681bcbd5b46ab2409c6e783f9f86b5a8"
         },
         {
           "id": "c1-l026",
           "centre_y": 2032,
           "crop": [
-            340,
+            300,
             1972,
-            1110,
+            1205,
             120
           ],
           "context_crop": [
-            340,
+            300,
             1862,
-            1110,
+            1205,
             340
           ],
-          "observed_text": "Catçuuo. Combalamaz peixe.",
-          "match": "strong",
-          "assessment": "readable",
-          "expected_line_version": "sha256:68b86e0546be8e253a4b9f8f40d5264b14fb7cab67bd6c6f62eea3a23a5ffd49"
+          "observed_text": "Catçuuo. combalamaz peixe.",
+          "match": "partial",
+          "assessment": "uncertain",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:68b86e0546be8e253a4b9f8f40d5264b14fb7cab67bd6c6f62eea3a23a5ffd49",
+          "note": "Independent enlarged-scan reading is materially uncertain at one or more glyphs; the visible reading is retained rather than normalized from the canonical line."
         },
         {
           "id": "c1-l027",
           "centre_y": 2093,
           "crop": [
-            340,
+            300,
             2033,
-            1110,
+            1205,
             120
           ],
           "context_crop": [
-            340,
+            300,
             1923,
-            1110,
+            1205,
             340
           ],
-          "observed_text": "Catçuuoguſa. Erva aſſi chamada.",
-          "match": "strong",
+          "observed_text": "Catçuuoguſa. Erua aſſi chamada.",
+          "match": "partial",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:80661cb522e03c9501f2e1762b05bc386991eb4b0833ff12607ef45d9a492e43"
         },
         {
           "id": "c1-l028",
           "centre_y": 2154,
           "crop": [
-            340,
+            300,
             2094,
-            1110,
+            1205,
             120
           ],
           "context_crop": [
-            340,
+            300,
             1984,
-            1110,
+            1205,
             340
           ],
-          "observed_text": "Catçuuo muxi. Hum bicho que ſe cria no peixe",
-          "match": "strong",
+          "observed_text": "Catçuuomuxi. Hum bicho que ſe cria no peixe",
+          "match": "partial",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:1eb264dfa68e2ae5ed9c587f441e97abc87cb2e45b876039e3fec2b3e2b28e8d"
         },
         {
           "id": "c1-l029",
           "centre_y": 2201,
           "crop": [
-            340,
+            300,
             2141,
-            1110,
+            1205,
             120
           ],
           "context_crop": [
-            340,
+            300,
             2031,
-            1110,
+            1205,
             340
           ],
           "observed_text": "combalamaz.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:135c483157bec9b68686f241e3bd3443e319d694380380dce8837ba2d373821d"
         },
         {
           "id": "c1-l030",
           "centre_y": 2277,
           "crop": [
-            340,
+            300,
             2217,
-            1110,
+            1205,
             120
           ],
           "context_crop": [
-            340,
+            300,
             2107,
-            1110,
+            1205,
             340
           ],
-          "observed_text": "Catçuye, uru, eta. Morrer de fome, ou paſ-",
-          "match": "strong",
+          "observed_text": "Catçuye, uru, eta, Morrer de fome, ou paſ-",
+          "match": "partial",
           "assessment": "readable",
-          "expected_line_version": "sha256:75b35aee867b7fda0670aa1ef9d59d50a4fa1c1a08131c176a74021d25056e6c"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:3d3ea0b5fdb8915a3920d37ebc7adae84afff7fbd48ffe89b4c4b2b82b056dab"
         },
         {
           "id": "c1-l031",
           "centre_y": 2325,
           "crop": [
-            340,
+            300,
             2265,
-            1110,
+            1205,
             120
           ],
           "context_crop": [
-            340,
+            300,
             2155,
-            1110,
+            1205,
             340
           ],
           "observed_text": "ſar grande fome.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:dc9afe7f115ea50aec9b231a1794b8ef2212eefae23618bd3ef672ab157e4e79"
         },
         {
           "id": "c1-l032",
           "centre_y": 2399,
           "crop": [
-            340,
+            300,
             2339,
-            1110,
+            1205,
             120
           ],
           "context_crop": [
-            340,
+            300,
             2229,
-            1110,
+            1205,
             340
           ],
-          "observed_text": "Cate. Mataiotage, ou mantimentos. ¶ Ca-",
-          "match": "strong",
-          "assessment": "readable",
-          "expected_line_version": "sha256:04928246177d100a03d7d058d84936ac342f0119cc0ba7c0e1207f7683b01b75"
+          "observed_text": "Cate. Mantimentoẽs, ou mantimentos. ¶ Ca-",
+          "match": "mismatch",
+          "assessment": "uncertain",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:04928246177d100a03d7d058d84936ac342f0119cc0ba7c0e1207f7683b01b75",
+          "note": "Independent enlarged-scan reading is materially uncertain at one or more glyphs; the visible reading is retained rather than normalized from the canonical line."
         },
         {
           "id": "c1-l033",
           "centre_y": 2460,
           "crop": [
-            340,
+            300,
             2400,
-            1110,
+            1205,
             120
           ],
           "context_crop": [
-            340,
+            300,
             2290,
-            1110,
+            1205,
             340
           ],
-          "observed_text": "teuo tçumu. Ajuntar mantimentos. ¶ Itẽ",
-          "match": "strong",
-          "assessment": "readable",
-          "expected_line_version": "sha256:cc1ff681c33057c6da98f8b97a6efe5bbd1c9f5c31b14fb4b9f1a13ba73850f5"
+          "observed_text": "teuo tçumu. Ajuntar mantimentos. ¶ Ite,",
+          "match": "mismatch",
+          "assessment": "uncertain",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:cc1ff681c33057c6da98f8b97a6efe5bbd1c9f5c31b14fb4b9f1a13ba73850f5",
+          "note": "Independent enlarged-scan reading is materially uncertain at one or more glyphs; the visible reading is retained rather than normalized from the canonical line."
         },
         {
           "id": "c1-l034",
           "centre_y": 2519,
           "crop": [
-            340,
+            300,
             2459,
-            1110,
+            1205,
             120
           ],
           "context_crop": [
-            340,
+            300,
             2349,
-            1110,
+            1205,
             340
           ],
-          "observed_text": "Embarcalos, ou metelos e algũa caſa. ¶ Ca-",
+          "observed_text": "Embarcalos, ou metelos ẽ algũa caſa. ¶ Ca-",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:2967f9e8982d0417d3232c35552bd344315a2b74dcbb509fc1afd1884b0ca458"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:54dda3a5b8f834330f6a44248ea8167fe0738e99741c4e7326728b9ae73d0c4d"
         },
         {
           "id": "c1-l035",
           "centre_y": 2579,
           "crop": [
-            340,
+            300,
             2519,
-            1110,
+            1205,
             120
           ],
           "context_crop": [
-            340,
+            300,
             2409,
-            1110,
+            1205,
             340
           ],
-          "observed_text": "teni tçumaru. Faltarem os mantimentos.",
-          "match": "strong",
-          "assessment": "readable",
-          "expected_line_version": "sha256:98f4be9a26b0aa7e99623568476ee1667e5c97799c5b87817a347e90b7399904"
+          "observed_text": "teni tçumaju. Faltarem os mantimentos.",
+          "match": "mismatch",
+          "assessment": "uncertain",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:98f4be9a26b0aa7e99623568476ee1667e5c97799c5b87817a347e90b7399904",
+          "note": "Independent enlarged-scan reading is materially uncertain at one or more glyphs; the visible reading is retained rather than normalized from the canonical line."
         },
         {
           "id": "c1-l036",
           "centre_y": 2642,
           "crop": [
-            340,
+            300,
             2582,
-            1110,
+            1205,
             120
           ],
           "context_crop": [
-            340,
+            300,
             2472,
-            1110,
+            1205,
             340
           ],
-          "observed_text": "Caten. i. Fenuo cunayuru. Acrecentar hũa",
-          "match": "strong",
-          "assessment": "readable",
-          "expected_line_version": "sha256:82b1ece31dfda7b5832b15e20a084c0a29992611010a2223961af8f91552ca94"
+          "observed_text": "Caten. i. Fenuo cuuayuru. Acrecentar hũ",
+          "match": "mismatch",
+          "assessment": "uncertain",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:82b1ece31dfda7b5832b15e20a084c0a29992611010a2223961af8f91552ca94",
+          "note": "Independent enlarged-scan reading is materially uncertain at one or more glyphs; the visible reading is retained rather than normalized from the canonical line."
         },
         {
           "id": "c1-l037",
           "centre_y": 2703,
           "crop": [
-            340,
+            300,
             2643,
-            1110,
+            1205,
             120
           ],
           "context_crop": [
-            340,
+            300,
             2533,
-            1110,
+            1205,
             340
           ],
           "observed_text": "ponto à letra de Iapão com que ſe lê de outra",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:edde742178ec946fa7187dc176b6ab5c773094111de57649d3010f05010af408"
         },
         {
           "id": "c1-l038",
           "centre_y": 2751,
           "crop": [
-            340,
+            300,
             2691,
-            1110,
+            1205,
             120
           ],
           "context_crop": [
-            340,
+            300,
             2581,
-            1110,
+            1205,
             340
           ],
           "observed_text": "maneira.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:2dfa13df2b3da3cb2104be730c72c95d28a24d915db56e6c1dd517fa02ce9c5c"
         },
         {
           "id": "c1-l039",
           "centre_y": 2827,
           "crop": [
-            340,
+            300,
             2767,
-            1110,
+            1205,
             120
           ],
           "context_crop": [
-            340,
+            300,
             2657,
-            1110,
+            1205,
             340
           ],
-          "observed_text": "Catgõ. Caxizzugi auogu. i. Fitouo mecchi",
-          "match": "strong",
-          "assessment": "readable",
-          "expected_line_version": "sha256:51a942be5b93ddb754aacd084584c5f2e5501609c737f8b791b0e4c2ffa15d1c"
+          "observed_text": "Catgô. Caxizzugi auogu. i. Fitouo mochi",
+          "match": "mismatch",
+          "assessment": "uncertain",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:67f4f9f6097ee9ee80705d6d6fd4b38bc6e193ce9c01ee30cd17821cd1666035",
+          "note": "Independent enlarged-scan reading is materially uncertain at one or more glyphs; the visible reading is retained rather than normalized from the canonical line."
         },
         {
           "id": "c1-l040",
           "centre_y": 2878,
           "crop": [
-            340,
+            300,
             2818,
-            1110,
+            1205,
             120
           ],
           "context_crop": [
-            340,
+            300,
             2708,
-            1110,
+            1205,
             340
           ],
-          "observed_text": "vyamõ. Venerar, & reuerenciar.",
+          "observed_text": "vyamô. Venerar, & reuerenciar.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:ca3e4d9be7e12583a1b07cead77800766af83ccaf4b16d7ed3b3268a96056395"
         },
         {
           "id": "c1-l041",
           "centre_y": 2950,
           "crop": [
-            340,
+            300,
             2890,
-            1110,
+            1205,
             120
           ],
           "context_crop": [
-            340,
+            300,
             2780,
-            1110,
+            1205,
             340
           ],
-          "observed_text": "Catõ. P. Cauano fotori. Borda do rio.",
+          "observed_text": "Catô. P. Cauano fotori. Borda do rio.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:b36e52e57ac5a3fdc3376977bb15e42e015e0ac74c4af4f7b5ca55d949b3b9db"
         },
         {
           "id": "c1-l042",
           "centre_y": 3011,
           "crop": [
-            340,
+            300,
             2951,
-            1110,
+            1205,
             120
           ],
           "context_crop": [
-            340,
+            300,
             2841,
-            1110,
+            1205,
             340
           ],
-          "observed_text": "Catocu. i. Iyeuo yuzuru coto. Herãça.",
-          "match": "strong",
+          "observed_text": "Catocu. i. Iyeno yuzzuru coto. Herança,",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:885df581c06c9a67c72429de72255984695a313eae6fc9098872f947f10152a0"
         },
         {
           "id": "c1-l043",
           "centre_y": 3074,
           "crop": [
-            340,
+            300,
             3014,
-            1110,
+            1205,
             120
           ],
           "context_crop": [
-            340,
+            300,
             2904,
-            1110,
+            1205,
             340
           ],
-          "observed_text": "¶ Catocuuo yiu, l, yqiu. Receber a",
-          "match": "strong",
-          "assessment": "readable",
-          "expected_line_version": "sha256:0f9e9de202de76312dc888e7ae067c6c90a1abf2b45154e92285d0fd75d4597a"
+          "observed_text": "¶ Catocuuo yū, l, yuru. Receber a",
+          "match": "mismatch",
+          "assessment": "uncertain",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:0f9e9de202de76312dc888e7ae067c6c90a1abf2b45154e92285d0fd75d4597a",
+          "note": "Independent enlarged-scan reading is materially uncertain at one or more glyphs; the visible reading is retained rather than normalized from the canonical line."
         },
         {
           "id": "c1-l044",
           "centre_y": 3135,
           "crop": [
-            340,
+            300,
             3075,
-            1110,
+            1205,
             120
           ],
           "context_crop": [
-            340,
+            300,
             2965,
-            1110,
+            1205,
             340
           ],
           "observed_text": "herança, ou herdar a caſa, fato, &c.",
-          "match": "strong",
+          "match": "partial",
           "assessment": "readable",
-          "expected_line_version": "sha256:ab9d96659101cc4f2068b8031f24e7cde3134c3de9d21aadadb3ef6206a0a54b"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:a60454ac54c5186b77af4e5ccf558bca692bb64e7a823156c6fe5e028360e397"
         },
         {
           "id": "c1-l045",
           "centre_y": 3195,
           "crop": [
-            340,
+            300,
             3135,
-            1110,
+            1205,
             120
           ],
           "context_crop": [
-            340,
+            300,
             3025,
-            1110,
+            1205,
             340
           ],
-          "observed_text": "Catõdo. i. Fijiqiuo ſuru. Por ſe da parte de",
-          "match": "strong",
-          "assessment": "readable",
-          "expected_line_version": "sha256:5ad8d6ff3eb57ed450bc5515c45b593aa11f2ea61c2fd68b7fb7d85133fbdc01"
+          "observed_text": "Catòdo. i. Fitojiuo ſuru. Por ſe da parte de",
+          "match": "mismatch",
+          "assessment": "uncertain",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:5ad8d6ff3eb57ed450bc5515c45b593aa11f2ea61c2fd68b7fb7d85133fbdc01",
+          "note": "Independent enlarged-scan reading is materially uncertain at one or more glyphs; the visible reading is retained rather than normalized from the canonical line."
         },
         {
           "id": "c1-l046",
           "centre_y": 3258,
           "crop": [
-            340,
+            300,
             3198,
-            1110,
+            1205,
             120
           ],
           "context_crop": [
-            340,
+            300,
             3088,
-            1110,
+            1205,
             340
           ],
           "observed_text": "alguem, ou procurar por elle. Vt, Nuſubi-",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:4fa23fde87c0e7644e129763b9be07b56512ca33f11050aae74a70082cf2d80d"
         },
         {
           "id": "c1-l047",
           "centre_y": 3323,
           "crop": [
-            340,
+            300,
             3263,
-            1110,
+            1205,
             120
           ],
           "context_crop": [
-            340,
+            300,
             3153,
-            1110,
+            1205,
             340
           ],
-          "observed_text": "teno catõdouſi. Terçar pello ladrão",
-          "match": "strong",
-          "assessment": "readable",
-          "expected_line_version": "sha256:60c41172138503dd762a864b051b885354dd032993ff7e8a8a1145bc1784cdcb"
+          "observed_text": "tono catòdouo ſumi. Terçar pello ladrão",
+          "match": "mismatch",
+          "assessment": "uncertain",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:60c41172138503dd762a864b051b885354dd032993ff7e8a8a1145bc1784cdcb",
+          "note": "Independent enlarged-scan reading is materially uncertain at one or more glyphs; the visible reading is retained rather than normalized from the canonical line."
         }
       ]
     },
     "column-2": {
       "column_box_xyxy": [
-        1500,
+        1445,
         300,
-        2590,
+        2651,
         3410
       ],
       "zone_ids": [
         "column-2"
       ],
-      "initial_geometry_provenance": "contact_sheet_reviewed",
-      "initial_geometry_reviewed_at": "2026-08-01",
-      "geometry_requires_line_by_line_review": false,
+      "initial_geometry_provenance": "external_ai_width_rechecked",
+      "initial_geometry_reviewed_at": "2026-08-16",
+      "geometry_requires_line_by_line_review": true,
       "lines": [
         {
           "id": "c2-l001",
           "centre_y": 481,
           "crop": [
-            1500,
+            1445,
             421,
-            1090,
+            1206,
             120
           ],
           "context_crop": [
-            1500,
+            1445,
             311,
-            1090,
+            1206,
             340
           ],
           "observed_text": "ou fazer as ſuas partes.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:1a2d16c7d8c0b80893f214fdaad3c8b71d5df2665a1d6b7c131e045f0db87049"
         },
         {
           "id": "c2-l002",
           "centre_y": 553,
           "crop": [
-            1500,
+            1445,
             493,
-            1090,
+            1206,
             120
           ],
           "context_crop": [
-            1500,
+            1445,
             383,
-            1090,
+            1206,
             340
           ],
           "observed_text": "Cattai, i. Raijin. Leprozo, ou lazaro.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:e2f94fedeb2c7358e92e7fb4929a5f2e31c485d22aedf6de89d0a5c05c786761"
         },
         {
           "id": "c2-l003",
           "centre_y": 614,
           "crop": [
-            1500,
+            1445,
             554,
-            1090,
+            1206,
             120
           ],
           "context_crop": [
-            1500,
+            1445,
             444,
-            1090,
+            1206,
             340
           ],
           "observed_text": "Catte. Geito, ou feição. ¶ Iyeno catte",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:d9661e14ebf00f56fc7db61e0d2f39e2de11e906a4e97c0c78933024bab80ceb"
         },
         {
           "id": "c2-l004",
           "centre_y": 677,
           "crop": [
-            1500,
+            1445,
             617,
-            1090,
+            1206,
             120
           ],
           "context_crop": [
-            1500,
+            1445,
             507,
-            1090,
+            1206,
             340
           ],
-          "observed_text": "ga yoi. Atraça da caſa, ou feição eſta boa.",
-          "match": "strong",
+          "observed_text": "ga yoi. A traça da caſa, ou feição eſta boa.",
+          "match": "partial",
           "assessment": "readable",
-          "expected_line_version": "sha256:73d80bb5ae3f97b38d25a0a4d1897940fe4953b65868026e1149125a8b923d0c"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:3d19d91aba50062243d538f860cb8b5456ab37d532aa6e934aba951fa41a7f3f"
         },
         {
           "id": "c2-l005",
           "centre_y": 738,
           "crop": [
-            1500,
+            1445,
             678,
-            1090,
+            1206,
             120
           ],
           "context_crop": [
-            1500,
+            1445,
             568,
-            1090,
+            1206,
             340
           ],
-          "observed_text": "¶ Vaga catteni võ yõni xeyo. Fazei",
-          "match": "strong",
+          "observed_text": "¶ Vaga catteni vô yôni xeyo. Fazei",
+          "match": "partial",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:e401f97d34c07cc405ea51711e83a7cc2c3464d3e6baeda6aa9e13505588112e"
         },
         {
           "id": "c2-l006",
           "centre_y": 789,
           "crop": [
-            1500,
+            1445,
             729,
-            1090,
+            1206,
             120
           ],
           "context_crop": [
-            1500,
+            1445,
             619,
-            1090,
+            1206,
             340
           ],
           "observed_text": "de maneira que quadre a meu modo.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:f8807ecae8b2d96fe5051017809a213445dfcc647720341e9d2d49eb2670b917"
         },
         {
           "id": "c2-l007",
           "centre_y": 848,
           "crop": [
-            1500,
+            1445,
             788,
-            1090,
+            1206,
             120
           ],
           "context_crop": [
-            1500,
+            1445,
             678,
-            1090,
+            1206,
             340
           ],
           "observed_text": "Catte. Lugar onde ſe guardão os petrechos, &",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:1973c2295d8165ed647ae8793fe5379aa7ddaa8e5fe220f74d39ff1e2a31a385"
         },
         {
           "id": "c2-l008",
           "centre_y": 911,
           "crop": [
-            1500,
+            1445,
             851,
-            1090,
+            1206,
             120
           ],
           "context_crop": [
-            1500,
+            1445,
             741,
-            1090,
+            1206,
             340
           ],
           "observed_text": "peças do Chanoyu.",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:ae7097e187c9b2319e1509bfe710ee2acc852ed293092713c06f7ecb087a6169"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:c454dd40f4d0a7a0f706f6f78d4f112e84fe079a98b036cf369b0ec990a607a2"
         },
         {
           "id": "c2-l009",
           "centre_y": 985,
           "crop": [
-            1500,
+            1445,
             925,
-            1090,
+            1206,
             120
           ],
           "context_crop": [
-            1500,
+            1445,
             815,
-            1090,
+            1206,
             340
           ],
           "observed_text": "Catte. A mão que puxa polla corda do arco q̃",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:007f71af561fd18bcc7e484cb837df76e241edb4cf722eb157f6498590c908fa"
         },
         {
           "id": "c2-l010",
           "centre_y": 1045,
           "crop": [
-            1500,
+            1445,
             985,
-            1090,
+            1206,
             120
           ],
           "context_crop": [
-            1500,
+            1445,
             875,
-            1090,
+            1206,
             340
           ],
           "observed_text": "he a direita. A outra que tem mão no arco",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:2cc026fe24dc5e614ed3cf7068de2be20b8e83f7501a323b7bfb86551a1085a4"
         },
         {
           "id": "c2-l011",
           "centre_y": 1097,
           "crop": [
-            1500,
+            1445,
             1037,
-            1090,
+            1206,
             120
           ],
           "context_crop": [
-            1500,
+            1445,
             927,
-            1090,
+            1206,
             340
           ],
           "observed_text": "ſe diz Voxite.",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:8e3d1381d4fb3a1abebbd7abc7e0c9957bc4adee67ddec026d89153641af2306"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:fea8bd18a8b7c373a1ecbfb718ced893b3bed45f82ec76446c34ced941cde370"
         },
         {
           "id": "c2-l012",
           "centre_y": 1173,
           "crop": [
-            1500,
+            1445,
             1113,
-            1090,
+            1206,
             120
           ],
           "context_crop": [
-            1500,
+            1445,
             1003,
-            1090,
+            1206,
             340
           ],
-          "observed_text": "Cattõ. Cuzu, fugi. Certo genero de vimes",
+          "observed_text": "Cattô. Cuzu, fugi. Certo genero de vimes",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:de24f6625038eb59e44b0096a7f6d811fc2ced18a3e2c3e23afeb224d716734b"
         },
         {
           "id": "c2-l013",
           "centre_y": 1220,
           "crop": [
-            1500,
+            1445,
             1160,
-            1090,
+            1206,
             120
           ],
           "context_crop": [
-            1500,
+            1445,
             1050,
-            1090,
+            1206,
             340
           ],
           "observed_text": "como era.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:f9afcf2c2fc2a126ac19be56ba423676b970525b29884e6276ca7c1da0acc361"
         },
         {
           "id": "c2-l014",
           "centre_y": 1293,
           "crop": [
-            1500,
+            1445,
             1233,
-            1090,
+            1206,
             120
           ],
           "context_crop": [
-            1500,
+            1445,
             1123,
-            1090,
+            1206,
             340
           ],
-          "observed_text": "Caua. Rio, ou ribeira. ¶ Cauauo vata-",
-          "match": "strong",
+          "observed_text": "Caua. Rio, ou ribeira. ¶ Cauauo wata-",
+          "match": "partial",
           "assessment": "readable",
-          "expected_line_version": "sha256:d23f7a589bd37669d5ac2dba0426095d669d5d9f58ae2295766ed78b1d60be21"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:8ce0ae22fbc62a64db78c2ee9a4b33d7b4ae6837e5e204c615bda2a910c67ba5"
         },
         {
           "id": "c2-l015",
           "centre_y": 1355,
           "crop": [
-            1500,
+            1445,
             1295,
-            1090,
+            1206,
             120
           ],
           "context_crop": [
-            1500,
+            1445,
             1185,
-            1090,
+            1206,
             340
           ],
-          "observed_text": "ru, l, Cauauo coſu, l, vataſu. Paſſar",
-          "match": "strong",
+          "observed_text": "ru, l, Cauauo coſu, l, wataſu. Paſſar",
+          "match": "partial",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:597116e41f2575ae39470a1980159845892067f38b664c66a0d0b71d3c2d7d22"
         },
         {
           "id": "c2-l016",
           "centre_y": 1418,
           "crop": [
-            1500,
+            1445,
             1358,
-            1090,
+            1206,
             120
           ],
           "context_crop": [
-            1500,
+            1445,
             1248,
-            1090,
+            1206,
             340
           ],
           "observed_text": "o rio. ¶ Cauauo xeqitomuru. Repre-",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:e76d9c9462e4dbc499380a2bbc3de21876d10a71de95e0f93e8709b134d9efde"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:7226c60483bc5834b8e606306686518f4de7d8ce90493353aacf5c4fd8abdf35"
         },
         {
           "id": "c2-l017",
           "centre_y": 1466,
           "crop": [
-            1500,
+            1445,
             1406,
-            1090,
+            1206,
             120
           ],
           "context_crop": [
-            1500,
+            1445,
             1296,
-            1090,
+            1206,
             340
           ],
           "observed_text": "zar o rio.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:69d4e578d04817387bf4ade39139db9dc6846ccdb9ed749cc640acaf0bd65a24"
         },
         {
           "id": "c2-l018",
           "centre_y": 1530,
           "crop": [
-            1500,
+            1445,
             1470,
-            1090,
+            1206,
             120
           ],
           "context_crop": [
-            1500,
+            1445,
             1360,
-            1090,
+            1206,
             340
           ],
           "observed_text": "Caua. Pelle, ou couro. ¶ Item, Caſca de",
-          "match": "strong",
+          "match": "partial",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:709b9556016a451ecdd6a42084600ce83d84524332a46791f6e4a821335a57ff"
         },
         {
           "id": "c2-l019",
           "centre_y": 1606,
           "crop": [
-            1500,
+            1445,
             1546,
-            1090,
+            1206,
             120
           ],
           "context_crop": [
-            1500,
+            1445,
             1436,
-            1090,
+            1206,
             340
           ],
           "observed_text": "aruore, fruita, &c.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:a56f3463e2dcf0e542e294206e00e161378716bf3fc2aeac6e1b9884dc10fd35"
         },
         {
           "id": "c2-l020",
           "centre_y": 1665,
           "crop": [
-            1500,
+            1445,
             1605,
-            1090,
+            1206,
             120
           ],
           "context_crop": [
-            1500,
+            1445,
             1495,
-            1090,
+            1206,
             340
           ],
           "observed_text": "Caua araxi. Vento que venta no rio.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:0dacdc9bd52832e7061580197772f95a3f8da3c17b79dd29139c3777eeab90e1"
         },
         {
           "id": "c2-l021",
           "centre_y": 1728,
           "crop": [
-            1500,
+            1445,
             1668,
-            1090,
+            1206,
             120
           ],
           "context_crop": [
-            1500,
+            1445,
             1558,
-            1090,
+            1206,
             340
           ],
           "observed_text": "Cauabacama. Calções de couro.",
-          "match": "strong",
+          "match": "partial",
           "assessment": "readable",
-          "expected_line_version": "sha256:06e34ed526b01ad5f0844d7b851d96692516cf07991e3fad322cafd455470627"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:ac11aa86fffb3729e8c41ac8d9c6611072a32ad2af81440b49612675e0c4cfbe"
         },
         {
           "id": "c2-l022",
           "centre_y": 1791,
           "crop": [
-            1500,
+            1445,
             1731,
-            1090,
+            1206,
             120
           ],
           "context_crop": [
-            1500,
+            1445,
             1621,
-            1090,
+            1206,
             340
           ],
           "observed_text": "Cauabata. Borda do rio.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:042f5bb0747e2f3adc106ddaac19c106169cd2b6a46326a5e3ca73acd011f1a3"
         },
         {
           "id": "c2-l023",
           "centre_y": 1850,
           "crop": [
-            1500,
+            1445,
             1790,
-            1090,
+            1206,
             120
           ],
           "context_crop": [
-            1500,
+            1445,
             1680,
-            1090,
+            1206,
             340
           ],
-          "observed_text": "Cauabei. Idem.",
-          "match": "strong",
-          "assessment": "readable",
-          "expected_line_version": "sha256:b3b51085c2462349bd327fea25911c44f7f7720b3c1cc94e1b73375d5753999f"
+          "observed_text": "Cauaberi. Idem.",
+          "match": "mismatch",
+          "assessment": "uncertain",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:b3b51085c2462349bd327fea25911c44f7f7720b3c1cc94e1b73375d5753999f",
+          "note": "Independent enlarged-scan reading is materially uncertain at one or more glyphs; the visible reading is retained rather than normalized from the canonical line."
         },
         {
           "id": "c2-l024",
           "centre_y": 1907,
           "crop": [
-            1500,
+            1445,
             1847,
-            1090,
+            1206,
             120
           ],
           "context_crop": [
-            1500,
+            1445,
             1737,
-            1090,
+            1206,
             340
           ],
-          "observed_text": "Cauabucuro. Bolſa, ou ſaco de couro.",
-          "match": "strong",
-          "assessment": "readable",
-          "expected_line_version": "sha256:e6c3c38a40aeeb313ff787716185ea53acfeaa4c8fa7065631e64ec8f610fb5e"
+          "observed_text": "Cauabucuro. Bolsa, ou ſaco de couro.",
+          "match": "mismatch",
+          "assessment": "uncertain",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:e6c3c38a40aeeb313ff787716185ea53acfeaa4c8fa7065631e64ec8f610fb5e",
+          "note": "Independent enlarged-scan reading is materially uncertain at one or more glyphs; the visible reading is retained rather than normalized from the canonical line."
         },
         {
           "id": "c2-l025",
           "centre_y": 1967,
           "crop": [
-            1500,
+            1445,
             1907,
-            1090,
+            1206,
             120
           ],
           "context_crop": [
-            1500,
+            1445,
             1797,
-            1090,
+            1206,
             340
           ],
           "observed_text": "Cauabune. Embarcação do rio.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:73ff351963d4254ea7f8533396dc5a55f535590464fd136325c94ef737f63f68"
         },
         {
           "id": "c2-l026",
           "centre_y": 2028,
           "crop": [
-            1500,
+            1445,
             1968,
-            1090,
+            1206,
             120
           ],
           "context_crop": [
-            1500,
+            1445,
             1858,
-            1090,
+            1206,
             340
           ],
           "observed_text": "Cauabuxi. O deitarſe o caualo no rio. Vt,",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:27c6dc2c5761606d4187cbf6b1017bac8f6e221ae300f03e7652b12c108897da"
         },
         {
           "id": "c2-l027",
           "centre_y": 2093,
           "crop": [
-            1500,
+            1445,
             2033,
-            1090,
+            1206,
             120
           ],
           "context_crop": [
-            1500,
+            1445,
             1923,
-            1090,
+            1206,
             340
           ],
           "observed_text": "Cauabuxiuo ſuru vma.",
-          "match": "strong",
+          "match": "partial",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:02e2b5a17e8e957cd423d23420d2b19521d79c066f0098f7757d9abc1726312d"
         },
         {
           "id": "c2-l028",
           "centre_y": 2156,
           "crop": [
-            1500,
+            1445,
             2096,
-            1090,
+            1206,
             120
           ],
           "context_crop": [
-            1500,
+            1445,
             1986,
-            1090,
+            1206,
             340
           ],
           "observed_text": "Cauacaje. Vento do rio.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:a58250b2b5b2e7690f2928f19e875a786e4a8de312919e0250c441049e5704bc"
         },
         {
           "id": "c2-l029",
           "centre_y": 2216,
           "crop": [
-            1500,
+            1445,
             2156,
-            1090,
+            1206,
             120
           ],
           "context_crop": [
-            1500,
+            1445,
             2046,
-            1090,
+            1206,
             340
           ],
           "observed_text": "Cauacami. Cabeça do rio, ou parte ſuperior",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:345f8d5d61939b43dfa9a5f7a27bb4815d7f33d6ce1c17da2138fed461c7108f"
         },
         {
           "id": "c2-l030",
           "centre_y": 2268,
           "crop": [
-            1500,
+            1445,
             2208,
-            1090,
+            1206,
             120
           ],
           "context_crop": [
-            1500,
+            1445,
             2098,
-            1090,
+            1206,
             340
           ],
           "observed_text": "do rio.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:a1686b7e3c1fef63e99737e513a7021e596dc6ae97acd1e07c5b7f3eca15a0ac"
         },
         {
           "id": "c2-l031",
           "centre_y": 2342,
           "crop": [
-            1500,
+            1445,
             2282,
-            1090,
+            1206,
             120
           ],
           "context_crop": [
-            1500,
+            1445,
             2172,
-            1090,
+            1206,
             340
           ],
-          "observed_text": "Cauadachi. i. Suirenuoyeta fito. Homem",
+          "observed_text": "Cauadachi. i. Suirenuo yeta fito. Homem",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:b85353c837808cafbd08cc56f1f19b3b8d07ed5643c5a2ff01b5d30dbee8a427"
         },
         {
           "id": "c2-l032",
           "centre_y": 2403,
           "crop": [
-            1500,
+            1445,
             2343,
-            1090,
+            1206,
             120
           ],
           "context_crop": [
-            1500,
+            1445,
             2233,
-            1090,
+            1206,
             340
           ],
-          "observed_text": "que nada, ou paſſa bem os rios. ¶ Caua-",
+          "observed_text": "que nada, ou paſſa bem os rios. ¶ Cau-",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:33af05e989882c8c540d42316c07a1b10548bdfe15cb99433a4ebaefbc8548b8"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:1cbe987d50690bdb111d5243483b6693641235edcced7775a8eae05e5f168867"
         },
         {
           "id": "c2-l033",
           "centre_y": 2467,
           "crop": [
-            1500,
+            1445,
             2407,
-            1090,
+            1206,
             120
           ],
           "context_crop": [
-            1500,
+            1445,
             2297,
-            1090,
+            1206,
             340
           ],
           "observed_text": "dachiuo ſuru mono. Idem.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:bd1866adf59da7c94a7ccca3e21ed0064130b63d8c88f47f95b04e2b2cf141a6"
         },
         {
           "id": "c2-l034",
           "centre_y": 2528,
           "crop": [
-            1500,
+            1445,
             2468,
-            1090,
+            1206,
             120
           ],
           "context_crop": [
-            1500,
+            1445,
             2358,
-            1090,
+            1206,
             340
           ],
           "observed_text": "Cauagani. Cangrejo do rio.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:4a470cc53279f0bc0b093f3bd93019f95e4777a06e9ed11d7bb4a1d34b61f182"
         },
         {
           "id": "c2-l035",
           "centre_y": 2589,
           "crop": [
-            1500,
+            1445,
             2529,
-            1090,
+            1206,
             120
           ],
           "context_crop": [
-            1500,
+            1445,
             2419,
-            1090,
+            1206,
             340
           ],
-          "observed_text": "Cauagarã. Hũa aue do rio aſſi chamada.",
-          "match": "strong",
-          "assessment": "readable",
-          "expected_line_version": "sha256:43a38d64d66b6a0b701440557a21c539a50876c3552a9d7edbb5ffbedcc9afc4"
+          "observed_text": "Cauagarau. Hũa aue do rio aſſi chamada.",
+          "match": "mismatch",
+          "assessment": "uncertain",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:43a38d64d66b6a0b701440557a21c539a50876c3552a9d7edbb5ffbedcc9afc4",
+          "note": "Independent enlarged-scan reading is materially uncertain at one or more glyphs; the visible reading is retained rather than normalized from the canonical line."
         },
         {
           "id": "c2-l036",
           "centre_y": 2652,
           "crop": [
-            1500,
+            1445,
             2592,
-            1090,
+            1206,
             120
           ],
           "context_crop": [
-            1500,
+            1445,
             2482,
-            1090,
+            1206,
             340
           ],
           "observed_text": "Cauagari. Peſcaria do rio.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:266d0956bb46f0884f573878aa1ee7fd5cecd727f52125af46a18514c4229ffa"
         },
         {
           "id": "c2-l037",
           "centre_y": 2713,
           "crop": [
-            1500,
+            1445,
             2653,
-            1090,
+            1206,
             120
           ],
           "context_crop": [
-            1500,
+            1445,
             2543,
-            1090,
+            1206,
             340
           ],
           "observed_text": "Cauagixa. Alface da ribeira, ou que ſe dá",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:9a4c1995a420d4fad4a9b252cc61c582098c66f181515db316fb918610e4dd00"
         },
         {
           "id": "c2-l038",
           "centre_y": 2764,
           "crop": [
-            1500,
+            1445,
             2704,
-            1090,
+            1206,
             120
           ],
           "context_crop": [
-            1500,
+            1445,
             2594,
-            1090,
+            1206,
             340
           ],
-          "observed_text": "em lugares humidos,",
+          "observed_text": "em lugares humidos.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:a6fc1e0be3ac4a37598b336a45dcaa4a42c726f3813f5c292ae0efdfc1cd55c2"
         },
         {
           "id": "c2-l039",
           "centre_y": 2836,
           "crop": [
-            1500,
+            1445,
             2776,
-            1090,
+            1206,
             120
           ],
           "context_crop": [
-            1500,
+            1445,
             2666,
-            1090,
+            1206,
             340
           ],
-          "observed_text": "Cauago. Certa feição de cangaſtra de couro do",
-          "match": "strong",
+          "observed_text": "Cauago. Certa feição de canaſtro de couro do",
+          "match": "partial",
           "assessment": "readable",
-          "expected_line_version": "sha256:deecd25dac5ab80e5a7014172c7f975417247b456b8d128b286cd40f4f9c95f6"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:9e7bdf4aed274e10fe42aa8696a57fdfcac6ebdcdce6cf8a0edc722eee171fe6"
         },
         {
           "id": "c2-l040",
           "centre_y": 2884,
           "crop": [
-            1500,
+            1445,
             2824,
-            1090,
+            1206,
             120
           ],
           "context_crop": [
-            1500,
+            1445,
             2714,
-            1090,
+            1206,
             340
           ],
           "observed_text": "Iapão.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:8d6d3c957b470509aceec51b988fa3a5c6394302025d2cbf7d604423c2f0e5a2"
         },
         {
           "id": "c2-l041",
           "centre_y": 2960,
           "crop": [
-            1500,
+            1445,
             2900,
-            1090,
+            1206,
             120
           ],
           "context_crop": [
-            1500,
+            1445,
             2790,
-            1090,
+            1206,
             340
           ],
           "observed_text": "Cauagoromo. Veſtido de couro.",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:59158c8268a4b84ce15f4c09401e7b1ef8d9a7afeba3c6068a20cae908f75a12"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:a9e0b85f0c6f7665ab6afb95323ec26101362d7d89308c4e895fe2c6842eb97f"
         },
         {
           "id": "c2-l042",
           "centre_y": 3022,
           "crop": [
-            1500,
+            1445,
             2962,
-            1090,
+            1206,
             120
           ],
           "context_crop": [
-            1500,
+            1445,
             2852,
-            1090,
+            1206,
             340
           ],
           "observed_text": "Cauaguchi. Entrada, ou boca do rio.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:284170eaf665b29f409600b2698c6e3fd9125f2faf2d121be7d69079685f07ea"
         },
         {
           "id": "c2-l043",
           "centre_y": 3083,
           "crop": [
-            1500,
+            1445,
             3023,
-            1090,
+            1206,
             120
           ],
           "context_crop": [
-            1500,
+            1445,
             2913,
-            1090,
+            1206,
             340
           ],
-          "observed_text": "Cauaguinu. Veſtido de pelle,",
+          "observed_text": "Cauaguinu. Veſtido de pelle.",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:f8ab9194af1b88c027088e135203cca125c59713849340b32995cd9d3acd196f"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:76f8b8075f3b41207c71b33ad063dea215bf8472085f5a809ab86cdc20ee548e"
         },
         {
           "id": "c2-l044",
           "centre_y": 3144,
           "crop": [
-            1500,
+            1445,
             3084,
-            1090,
+            1206,
             120
           ],
           "context_crop": [
-            1500,
+            1445,
             2974,
-            1090,
+            1206,
             340
           ],
-          "observed_text": "Cauaguiri. Neuoeiro, ou vapores que ſe ale-",
+          "observed_text": "Cauaguiri. Neuoẽiro, ou vapores que ſe ale-",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:1c90dd46b98535c19cee3b6877a5a4de8fa7402b075c5621168ae3748711f4b8"
         },
         {
           "id": "c2-l045",
           "centre_y": 3192,
           "crop": [
-            1500,
+            1445,
             3132,
-            1090,
+            1206,
             120
           ],
           "context_crop": [
-            1500,
+            1445,
             3022,
-            1090,
+            1206,
             340
           ],
           "observed_text": "uantão do rio.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:a1679b2c6414d862e50880b0fe980d50428ce7b34060d559b1f67e0a04f7353c"
         },
         {
           "id": "c2-l046",
           "centre_y": 3266,
           "crop": [
-            1500,
+            1445,
             3206,
-            1090,
+            1206,
             120
           ],
           "context_crop": [
-            1500,
+            1445,
             3096,
-            1090,
+            1206,
             340
           ],
-          "observed_text": "Cauaguixi. Terra hum pouco alta, ou barroca",
+          "observed_text": "Cauaguixi. Terra hum pouco alta, ou barreira",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:a21b3776a7a85e00f2352d1f849bf4ba9d72d62efc150c144c190f6d8726780e"
         },
         {
           "id": "c2-l047",
           "centre_y": 3315,
           "crop": [
-            1500,
+            1445,
             3255,
-            1090,
+            1206,
             120
           ],
           "context_crop": [
-            1500,
+            1445,
             3145,
-            1090,
+            1206,
             340
           ],
           "observed_text": "que eſta ao longo do rio.",
-          "match": "strong",
+          "match": "partial",
           "assessment": "readable",
-          "expected_line_version": "sha256:ba4cc0221269345b67ef10026c50d535e356c2e0f582968e44e296ab5c5af2f4"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:c0c481a063d024ad2ea400dda88143a733dede0f2a982e23f3f44c181f4aef17"
         }
       ]
     }
-  },
-  "geometry_acceptance": "Normal crops use conservative rule-to-rule column width and 120 native-pixel height, with neighboring-row overlap where useful to protect accents, ascenders, descenders, and line-end marks. Each crop is contained by its context crop. The final short continuation on f0096 column 2 is narrowed horizontally to exclude the unrelated catchword printed at the far right."
+  }
 }

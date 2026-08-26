@@ -208,6 +208,9 @@ equal([q.nextCedilla('c'), q.nextCedilla('ç'), q.nextCedilla('C'), q.nextCedill
 equal(['u', 'v', 'ũ', 'ù', 'ú', 'û', 'ǔ'].map(value => q.nextUV(value, 'u')), ['v', 'ũ', 'ù', 'ú', 'û', 'ǔ', 'u']);
 equal(['v', 'u'].map(value => q.nextUV(value, 'v')), ['u', 'v']);
 equal([q.nextUV('U', 'U'), q.nextUV('V', 'V')], ['U', 'V']);
+equal(['i', 'j', 'ĩ', 'ì', 'í', 'î'].map(value => q.nextIJ(value, 'i')), ['j', 'ĩ', 'ì', 'í', 'î', 'i']);
+equal(['j', 'i'].map(value => q.nextIJ(value, 'j')), ['i', 'j']);
+equal([q.nextIJ('I', 'I'), q.nextIJ('J', 'J')], ['I', 'J']);
 equal([q.nextVowel('o'), q.nextVowel('õ'), q.nextVowel('ò')], ['õ', 'ò', 'ó']);
 equal(q.replace('[F]oo, bar.', 3, 4, ''), '[F]oo bar.');
 equal(q.replace('[F]oo bar.', 3, 3, ',', null), '[F]oo, bar.');

@@ -3,11 +3,23 @@
   "format_version": 1,
   "page": "bnf-f0097",
   "response_status": "completed_independent_ai_line_review",
-  "geometry_review_status": "completed",
-  "text_review_status": "not_completed",
-  "observed_text_provenance": "Every physical body line was visually inspected individually at enlarged isolated-crop scale against the supplied scan before any canonical comparison. Line centres were re-registered from the scan rather than trusted from the provisional regular grid; complete first and last glyphs and all four crop edges were checked. observed_text is an independent image reading; OCR was not used for line identification or transcription. A final top-to-bottom sweep of both columns was performed. expected_line_version values are preserved unchanged.",
+  "default_response_mode": "geometry_and_text",
+  "completion_statuses": {
+    "geometry_and_text": {
+      "geometry_review_status": "completed",
+      "text_review_status": "completed"
+    },
+    "geometry_only_fallback": {
+      "geometry_review_status": "completed",
+      "text_review_status": "not_completed"
+    }
+  },
+  "observed_text_provenance": "Must be written independently from each proposed crop before consulting the canonical transcription. Null means that this line has not yet been read.",
   "coordinate_space": "native Gallica master pixels",
   "rectangle_format": "[x, y, width, height]",
+  "geometry_acceptance": "Inspect every isolated crop at full practical size against the full page; confirm complete first and last glyphs and all top/bottom ink; do not infer horizontal completeness from line identity or vertical centering; then sweep each column top-to-bottom for repeated clipping, especially the outer/right edge of column 2. Conservative rule-to-rule width and necessary neighboring-line overlap are allowed.",
+  "text_acceptance": "Read the print independently before consulting the canonical line. Preserve visible historical spelling, spacing, diacritics, and long s; do not normalize, copy the canonical text, or guess merely to complete a field. Returned text is advisory until separately adjudicated against the scan.",
+  "lineation_discrepancy": "If the printed number or order of physical lines differs from the task, do not invent a blank continuation, shift IDs, or renumber the response. Mark the response incomplete and report the first divergence so the canonical lineation can be corrected and the task regenerated.",
   "source": {
     "filename": "f0097.jpg",
     "width": 2672,
@@ -17,1921 +29,2034 @@
   },
   "transcription_source": {
     "page_file": "pilot/format-v1-trial/level1/bnf-f0097.json",
-    "page_file_sha256": "a88076c679fd2319a789ed345d35feb74ecee8fcd1ada4c3c20ab9fc20121705"
+    "page_file_sha256": "873a3ac6106eca4dd62ed1cf5196657a97d0cd8d34e1983ea95bd8b377352179"
   },
   "columns": {
     "column-1": {
       "column_box_xyxy": [
-        180,
+        140,
         300,
-        1220,
+        1265,
         3420
       ],
       "zone_ids": [
         "column-1"
       ],
-      "initial_geometry_provenance": "contact_sheet_reviewed",
-      "initial_geometry_reviewed_at": "2026-08-01",
-      "geometry_requires_line_by_line_review": false,
+      "initial_geometry_provenance": "external_ai_width_rechecked",
+      "initial_geometry_reviewed_at": "2026-08-16",
+      "geometry_requires_line_by_line_review": true,
       "lines": [
         {
           "id": "c1-l001",
           "centre_y": 437,
           "crop": [
-            180,
+            140,
             377,
-            1040,
+            1125,
             120
           ],
           "context_crop": [
-            180,
+            140,
             300,
-            1040,
+            1125,
             340
           ],
           "observed_text": "Catariigoto. Pratica.",
-          "match": "strong",
-          "assessment": "readable",
-          "expected_line_version": "sha256:7afedaee42fb2f74a952896cd5060dff696b735b64179f918656e7915e2e1c63"
+          "match": "mismatch",
+          "assessment": "uncertain",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:7afedaee42fb2f74a952896cd5060dff696b735b64179f918656e7915e2e1c63",
+          "note": "Independent enlarged-scan reading is materially uncertain at one or more glyphs; the visible reading is retained rather than normalized from the canonical line."
         },
         {
           "id": "c1-l002",
           "centre_y": 497,
           "crop": [
-            180,
+            140,
             437,
-            1040,
+            1125,
             120
           ],
           "context_crop": [
-            180,
+            140,
             327,
-            1040,
+            1125,
             340
           ],
-          "observed_text": "Catari idaxi, ſu, aita. Começar a praticar,",
+          "observed_text": "Catari idaxi, ſu, aita. Começar a praticar",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:916a7589838897a7b9d4e74f530b663ca668b28115243491ae37e8ad53ff226b"
         },
         {
           "id": "c1-l003",
           "centre_y": 558,
           "crop": [
-            180,
+            140,
             498,
-            1040,
+            1125,
             120
           ],
           "context_crop": [
-            180,
+            140,
             388,
-            1040,
+            1125,
             340
           ],
           "observed_text": "ou falar couſas paſſadas. ¶ Cono fito",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:630ba11eb8cc409ab20918ff62869410c83f959e207bdf040f4122e3b736090f"
         },
         {
           "id": "c1-l004",
           "centre_y": 618,
           "crop": [
-            180,
+            140,
             558,
-            1040,
+            1125,
             120
           ],
           "context_crop": [
-            180,
+            140,
             448,
-            1040,
+            1125,
             340
           ],
-          "observed_text": "qiioyete iroirono cotouo catariidaita.",
-          "match": "strong",
-          "assessment": "readable",
-          "expected_line_version": "sha256:0b861e55c24b072f1a0525f3474a3b474ea999d96d5638e2dcab1030b10cd1a3"
+          "observed_text": "quoyete iroirono cotouo catariidaita.",
+          "match": "partial",
+          "assessment": "uncertain",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:0b861e55c24b072f1a0525f3474a3b474ea999d96d5638e2dcab1030b10cd1a3",
+          "note": "Independent enlarged-scan reading is materially uncertain at one or more glyphs; the visible reading is retained rather than normalized from the canonical line."
         },
         {
           "id": "c1-l005",
           "centre_y": 678,
           "crop": [
-            180,
+            140,
             618,
-            1040,
+            1125,
             120
           ],
           "context_crop": [
-            180,
+            140,
             508,
-            1040,
+            1125,
             340
           ],
           "observed_text": "Mon. Eſte homem tomando alento contou",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:cc343ebfc91d8362c0611a111cc88ae0e2b0f03f198cac226484c7a8cd98b6ae"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:82f87dcca1fedd9874b7723e65ae0f06134ee8c0b12b75c90e75510b4399885c"
         },
         {
           "id": "c1-l006",
           "centre_y": 742,
           "crop": [
-            180,
+            140,
             682,
-            1040,
+            1125,
             120
           ],
           "context_crop": [
-            180,
+            140,
             572,
-            1040,
+            1125,
             340
           ],
           "observed_text": "varias couſas. (apratica.",
-          "match": "strong",
-          "assessment": "readable",
-          "expected_line_version": "sha256:95719decad82d07f0c163305e7b0319f6dc7d4019249ff4eac1fadd324995908"
+          "match": "partial",
+          "assessment": "uncertain",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:95719decad82d07f0c163305e7b0319f6dc7d4019249ff4eac1fadd324995908",
+          "note": "Independent enlarged-scan reading is materially uncertain at one or more glyphs; the visible reading is retained rather than normalized from the canonical line."
         },
         {
           "id": "c1-l007",
           "centre_y": 802,
           "crop": [
-            180,
+            140,
             742,
-            1040,
+            1125,
             120
           ],
           "context_crop": [
-            180,
+            140,
             632,
-            1040,
+            1125,
             340
           ],
-          "observed_text": "Catarifiute, tçuru, eta. Deixar, ou acabar",
+          "observed_text": "Catariſute, tçuru, eta. Deixar, ou acabar",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:c93e37c9dcbc99c2ba799704401670065ece103fdba4ed7209888d4dc2eda840"
         },
         {
           "id": "c1-l008",
           "centre_y": 863,
           "crop": [
-            180,
+            140,
             803,
-            1040,
+            1125,
             120
           ],
           "context_crop": [
-            180,
+            140,
             693,
-            1040,
+            1125,
             340
           ],
           "observed_text": "Cataritçurane, uru, eta. Leuar eſtada apratica.",
-          "match": "strong",
-          "assessment": "readable",
-          "expected_line_version": "sha256:b30780a6b65db69f2f6aa4c70b3cabfd494f6000edde060250c8f3202a079e73"
+          "match": "mismatch",
+          "assessment": "uncertain",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:b30780a6b65db69f2f6aa4c70b3cabfd494f6000edde060250c8f3202a079e73",
+          "note": "Independent enlarged-scan reading is materially uncertain at one or more glyphs; the visible reading is retained rather than normalized from the canonical line."
         },
         {
           "id": "c1-l009",
           "centre_y": 923,
           "crop": [
-            180,
+            140,
             863,
-            1040,
+            1125,
             120
           ],
           "context_crop": [
-            180,
+            140,
             753,
-            1040,
+            1125,
             340
           ],
           "observed_text": "Cataritçutaye, uru, eta. Praticar algũa",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:082ce1a6f195ded7d907b8c0052428acd98f23fd8082f1d195e9206bcee2826d"
         },
         {
           "id": "c1-l010",
           "centre_y": 983,
           "crop": [
-            180,
+            140,
             923,
-            1040,
+            1125,
             120
           ],
           "context_crop": [
-            180,
+            140,
             813,
-            1040,
+            1125,
             340
           ],
           "observed_text": "Couſa por deſcendencia como de pais a filhos,",
-          "match": "strong",
+          "match": "partial",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:c32103f4334e549bac892669a6dbebba204fe267031c392a2ccded0d38ce262b"
         },
         {
           "id": "c1-l011",
           "centre_y": 1046,
           "crop": [
-            180,
+            140,
             986,
-            1040,
+            1125,
             120
           ],
           "context_crop": [
-            180,
+            140,
             876,
-            1040,
+            1125,
             340
           ],
           "observed_text": "& filhos a netos, &c.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:6696f44d971f8526f92aa573ceb60d5f4718970c3f5a0678bcee7f7b04fd7900"
         },
         {
           "id": "c1-l012",
           "centre_y": 1106,
           "crop": [
-            180,
+            140,
             1046,
-            1040,
+            1125,
             120
           ],
           "context_crop": [
-            180,
+            140,
             936,
-            1040,
+            1125,
             340
           ],
-          "observed_text": "Cataritçuzzucye, uru, eta. Praticar en",
-          "match": "strong",
-          "assessment": "readable",
-          "expected_line_version": "sha256:1ebc1a42fd3f0e115e6c495c3f00cced4b075f090121b9352d0766560603c242"
+          "observed_text": "Cataritçuzz-uqe, uru, eta. Praticar en",
+          "match": "mismatch",
+          "assessment": "uncertain",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:4b12b7f48578a02304136f4952b023f00c6352d8327dcd3965c64c37bd6a3062",
+          "note": "Independent enlarged-scan reading is materially uncertain at one or more glyphs; the visible reading is retained rather than normalized from the canonical line."
         },
         {
           "id": "c1-l013",
           "centre_y": 1166,
           "crop": [
-            180,
+            140,
             1106,
-            1040,
+            1125,
             120
           ],
           "context_crop": [
-            180,
+            140,
             996,
-            1040,
+            1125,
             340
           ],
-          "observed_text": "fiado. Vi, Coxi cata yucuſuyeno co-",
-          "match": "strong",
+          "observed_text": "fiado. Vt, Coxi cata yucuſuyeno co-",
+          "match": "partial",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:0eae278cbc319042b5b94a38ea3cc0a182beab970e180e6dbad13f8d2feef892"
         },
         {
           "id": "c1-l014",
           "centre_y": 1228,
           "crop": [
-            180,
+            140,
             1168,
-            1040,
+            1125,
             120
           ],
           "context_crop": [
-            180,
+            140,
             1058,
-            1040,
+            1125,
             340
           ],
-          "observed_text": "todomouo cataritçuzzucyete ſamezame-",
-          "match": "strong",
-          "assessment": "readable",
-          "expected_line_version": "sha256:3f2c1adb15917f99c1ac3ed2b6dd8822f3809f55aea6599457a9bc9f82eab506"
+          "observed_text": "todomouo cataritçuzzuqete ſumezume-",
+          "match": "mismatch",
+          "assessment": "uncertain",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:3f2c1adb15917f99c1ac3ed2b6dd8822f3809f55aea6599457a9bc9f82eab506",
+          "note": "Independent enlarged-scan reading is materially uncertain at one or more glyphs; the visible reading is retained rather than normalized from the canonical line."
         },
         {
           "id": "c1-l015",
           "centre_y": 1289,
           "crop": [
-            180,
+            140,
             1229,
-            1040,
+            1125,
             120
           ],
           "context_crop": [
-            180,
+            140,
             1119,
-            1040,
+            1125,
             340
           ],
           "observed_text": "to nacareta. Fei. L. 4. Continuando",
-          "match": "strong",
-          "assessment": "readable",
-          "expected_line_version": "sha256:b9c44bae7c9e4ec1122961331e075ef1b576a7e4bf35489f9fd1391c3ddd0c42"
+          "match": "mismatch",
+          "assessment": "uncertain",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:b9c44bae7c9e4ec1122961331e075ef1b576a7e4bf35489f9fd1391c3ddd0c42",
+          "note": "Independent enlarged-scan reading is materially uncertain at one or more glyphs; the visible reading is retained rather than normalized from the canonical line."
         },
         {
           "id": "c1-l016",
           "centre_y": 1349,
           "crop": [
-            180,
+            140,
             1289,
-            1040,
+            1125,
             120
           ],
           "context_crop": [
-            180,
+            140,
             1179,
-            1040,
+            1125,
             340
           ],
           "observed_text": "apratica do que tinha paſſado, & do que a-",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:34c4ab65fc2af097d2747358c8416d834d120cc021165e5912e6e685b9317d46"
         },
         {
           "id": "c1-l017",
           "centre_y": 1409,
           "crop": [
-            180,
+            140,
             1349,
-            1040,
+            1125,
             120
           ],
           "context_crop": [
-            180,
+            140,
             1239,
-            1040,
+            1125,
             340
           ],
           "observed_text": "uia de acontecer chorou muitas lagrimas.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:84b22ef2bae0a838a61b970a623599ac3b127f4ec657f71c76be8c9b5cd4ffd9"
         },
         {
           "id": "c1-l018",
           "centre_y": 1471,
           "crop": [
-            180,
+            140,
             1411,
-            1040,
+            1125,
             120
           ],
           "context_crop": [
-            180,
+            140,
             1301,
-            1040,
+            1125,
             340
           ],
           "observed_text": "Catariuocoxi, ſu, oita. Tornar apraticar",
-          "match": "strong",
+          "match": "partial",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:7bdf1ac817aacc846781a9346682897c14f66fa55272a019463343223e34e581"
         },
         {
           "id": "c1-l019",
           "centre_y": 1526,
           "crop": [
-            180,
+            140,
             1466,
-            1040,
+            1125,
             120
           ],
           "context_crop": [
-            180,
+            140,
             1356,
-            1040,
+            1125,
             340
           ],
           "observed_text": "o paſſado.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:9697592de3b05e0de0f39f1caa5f43f7a83140bfbb3dadf06051ee868e361cae"
         },
         {
           "id": "c1-l020",
           "centre_y": 1592,
           "crop": [
-            180,
+            140,
             1532,
-            1040,
+            1125,
             120
           ],
           "context_crop": [
-            180,
+            140,
             1422,
-            1040,
+            1125,
             340
           ],
-          "observed_text": "Cataſagari. O eſtar hũa parte mais baixa que",
-          "match": "strong",
+          "observed_text": "Catafagari. O eſtar hũa parte mais baixa que",
+          "match": "mismatch",
           "assessment": "readable",
-          "expected_line_version": "sha256:ee79f027df6bd84a1bce0747a2e35c01613b537765d96cd8dd91bfad4f66a84f"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:fbe6bd416bf3874b363e3ab47dd764160ffa1c25bb2934f3290f9994b830dae6"
         },
         {
           "id": "c1-l021",
           "centre_y": 1645,
           "crop": [
-            180,
+            140,
             1585,
-            1040,
+            1125,
             120
           ],
           "context_crop": [
-            180,
+            140,
             1475,
-            1040,
+            1125,
             340
           ],
           "observed_text": "outra. ¶ Item, Eſtar o veſtido de hũa",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:6c1841368fd88d11402f360ff60169eefb0d1217c33fe33ba56a251b49d43c27"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:716f62aed42b0a97f780412fa0736b4e8e7bf316a99d0d8457de023ce53ef4cd"
         },
         {
           "id": "c1-l022",
           "centre_y": 1705,
           "crop": [
-            180,
+            140,
             1645,
-            1040,
+            1125,
             120
           ],
           "context_crop": [
-            180,
+            140,
             1535,
-            1040,
+            1125,
             340
           ],
           "observed_text": "parte mais baixo, ou comprido.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:325084c4b32c8f1206a7109ec01c7f4cb5b1e75ab35a1d2803c6b20d3382d9df"
         },
         {
           "id": "c1-l023",
           "centre_y": 1767,
           "crop": [
-            180,
+            140,
             1707,
-            1040,
+            1125,
             120
           ],
           "context_crop": [
-            180,
+            140,
             1597,
-            1040,
+            1125,
             340
           ],
-          "observed_text": "Cataſagarina. Couſa deſigual por eſtar hũa",
-          "match": "strong",
+          "observed_text": "Catafagarina. Couſa deſigual por eſtar hũa",
+          "match": "mismatch",
           "assessment": "readable",
-          "expected_line_version": "sha256:1269869ff23acebee6dcadd8e4ee58143a54336f78804db864ea5d79d918ee1c"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:30b7d83af8bf7e4070c3d5fa3a49d41fb7d7ab323d672a25677d258328004cdf"
         },
         {
           "id": "c1-l024",
           "centre_y": 1833,
           "crop": [
-            180,
+            140,
             1773,
-            1040,
+            1125,
             120
           ],
           "context_crop": [
-            180,
+            140,
             1663,
-            1040,
+            1125,
             340
           ],
           "observed_text": "parte mais baixa que outra.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:861d24c65e1de7fc2e077abc5ac8593e337cfcb95661af44061c15fc2e109b11"
         },
         {
           "id": "c1-l025",
           "centre_y": 1893,
           "crop": [
-            180,
+            140,
             1833,
-            1040,
+            1125,
             120
           ],
           "context_crop": [
-            180,
+            140,
             1723,
-            1040,
+            1125,
             340
           ],
-          "observed_text": "Catalãqi. Hũa ponta.",
-          "match": "strong",
+          "observed_text": "Catafaqi. Hũa ponta.",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:2424adf958ea1a209362c9badebab48715ff8f435fed6f9985b528fed321972b"
         },
         {
           "id": "c1-l026",
           "centre_y": 1948,
           "crop": [
-            180,
+            140,
             1888,
-            1040,
+            1125,
             120
           ],
           "context_crop": [
-            180,
+            140,
             1778,
-            1040,
+            1125,
             340
           ],
-          "observed_text": "Catalode. Hũa manga.",
+          "observed_text": "Cataſode. Hũa manga.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:0e76bfbb288ecb168dcb0b6c7b7dfa20629ba76f031c6af8ed3f99d8b8e252ff"
         },
         {
           "id": "c1-l027",
           "centre_y": 2016,
           "crop": [
-            180,
+            140,
             1956,
-            1040,
+            1125,
             120
           ],
           "context_crop": [
-            180,
+            140,
             1846,
-            1040,
+            1125,
             340
           ],
-          "observed_text": "Cataloguizzucuri. Certo medo de fazer ca-",
+          "observed_text": "Cataſoguizzucuri. Certo modo de fazer ca-",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:8d592b1a61457f7b5adca1070e23e148b8440fe61266801dc5d04d0f74c39db3"
         },
         {
           "id": "c1-l028",
           "centre_y": 2067,
           "crop": [
-            180,
+            140,
             2007,
-            1040,
+            1125,
             120
           ],
           "context_crop": [
-            180,
+            140,
             1897,
-            1040,
+            1125,
             340
           ],
           "observed_text": "ſas toſca, & imperfeitamente.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:5f16b70c8ff2f2813440b102550cf9856e5bff821c149fe09d9ddefbbb79553e"
         },
         {
           "id": "c1-l029",
           "centre_y": 2140,
           "crop": [
-            180,
+            140,
             2080,
-            1040,
+            1125,
             120
           ],
           "context_crop": [
-            180,
+            140,
             1970,
-            1040,
+            1125,
             340
           ],
-          "observed_text": "Catatçu. Cuſpinho. Mas não ſe uſa ſe não",
+          "observed_text": "Catatçu. Cuſpinho. Mas não ſe vſa ſe não",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:ff9b18583007512c821c98cfe5c45608ddee1e525ee782429d56edff6389bd3a"
         },
         {
           "id": "c1-l030",
           "centre_y": 2200,
           "crop": [
-            180,
+            140,
             2140,
-            1040,
+            1125,
             120
           ],
           "context_crop": [
-            180,
+            140,
             2030,
-            1040,
+            1125,
             340
           ],
-          "observed_text": "deſta maneira. Vi, Catatçuuo nomu",
+          "observed_text": "deſta maneira. Vt, Catatçuuo nomu",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:ba74d9a894c37ae7b3b6279824e52f6fc7739875ffa29a5de99d19e48e9383a3"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:83936db7b98d67f8a02157738cc355c80e0d8a0977e5e86414410ef1cffcf256"
         },
         {
           "id": "c1-l031",
           "centre_y": 2251,
           "crop": [
-            180,
+            140,
             2191,
-            1040,
+            1125,
             120
           ],
           "context_crop": [
-            180,
+            140,
             2081,
-            1040,
+            1125,
             340
           ],
           "observed_text": "Eſtar em grãde trabalho, & perigo X. Mais",
-          "match": "strong",
+          "match": "partial",
           "assessment": "readable",
-          "expected_line_version": "sha256:f0e329ec026622bd853d67eb67a999f50dddaef8e441eaed7767f3c63c5ad72b"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:8fe65315c9fee3de7ea1a3f323570ea0469a793c94d1e64635b40ed3ed6f4766"
         },
         {
           "id": "c1-l032",
           "centre_y": 2313,
           "crop": [
-            180,
+            140,
             2253,
-            1040,
+            1125,
             120
           ],
           "context_crop": [
-            180,
+            140,
             2143,
-            1040,
+            1125,
             340
           ],
-          "observed_text": "propriamente ſe diz de que eſta cõ cuidado, &",
-          "match": "strong",
-          "assessment": "readable",
-          "expected_line_version": "sha256:d1049dcd5695e6d3de96e9fc9858798085a2fd4f8b62e5f19173805c9a660292"
+          "observed_text": "propriamente ſe diz de que eſta coouidado, &",
+          "match": "mismatch",
+          "assessment": "uncertain",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:878eb533f19767239f3d7db9e006a9a604339fef6807543b94b7a6c79395a235",
+          "note": "Independent enlarged-scan reading is materially uncertain at one or more glyphs; the visible reading is retained rather than normalized from the canonical line."
         },
         {
           "id": "c1-l033",
           "centre_y": 2381,
           "crop": [
-            180,
+            140,
             2321,
-            1040,
+            1125,
             120
           ],
           "context_crop": [
-            180,
+            140,
             2211,
-            1040,
+            1125,
             340
           ],
           "observed_text": "afflição ſobre algũ caſo.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:4b826fee0631b6552773e2b05b25a0a0bffba9930d105427d0959f70b49fbebf"
         },
         {
           "id": "c1-l034",
           "centre_y": 2443,
           "crop": [
-            180,
+            140,
             2383,
-            1040,
+            1125,
             120
           ],
           "context_crop": [
-            180,
+            140,
             2273,
-            1040,
+            1125,
             340
           ],
-          "observed_text": "Cat.tçuburi, l, quaguu. Caracol.",
-          "match": "strong",
-          "assessment": "readable",
-          "expected_line_version": "sha256:df097a95f838f82c9ff1114cabe01a071f21c03165c4d07a47931e01c1326fbb"
+          "observed_text": "Catatçiburi, l, quaguiũ. Caracol.",
+          "match": "mismatch",
+          "assessment": "uncertain",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:df097a95f838f82c9ff1114cabe01a071f21c03165c4d07a47931e01c1326fbb",
+          "note": "Independent enlarged-scan reading is materially uncertain at one or more glyphs; the visible reading is retained rather than normalized from the canonical line."
         },
         {
           "id": "c1-l035",
           "centre_y": 2498,
           "crop": [
-            180,
+            140,
             2438,
-            1040,
+            1125,
             120
           ],
           "context_crop": [
-            180,
+            140,
             2328,
-            1040,
+            1125,
             340
           ],
-          "observed_text": "Catatçuqi. Boyaczinho em que ſe mete Cha",
-          "match": "strong",
-          "assessment": "readable",
-          "expected_line_version": "sha256:32a38180ca37a657165c2f9df85d79fa1b0529a2355e3cbcfa25891f686aafb5"
+          "observed_text": "Catatçuqi. Bojãczinho em que ſe mete Cha",
+          "match": "mismatch",
+          "assessment": "uncertain",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:ab0a4f0e6d2c28980bccaa806a3e4169250203c8cafec08a11b4d1d7bbbaf43f",
+          "note": "Independent enlarged-scan reading is materially uncertain at one or more glyphs; the visible reading is retained rather than normalized from the canonical line."
         },
         {
           "id": "c1-l036",
           "centre_y": 2560,
           "crop": [
-            180,
+            140,
             2500,
-            1040,
+            1125,
             120
           ],
           "context_crop": [
-            180,
+            140,
             2390,
-            1040,
+            1125,
             340
           ],
           "observed_text": "moido pera ſe gaſtar.",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:db9eba936f2cb6a23c77a1c33c269dbfe29af5f02677a32e2aacbc8554338437"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:68943352ef25058414f2c75d47b21d732fb5b3055cbfcf996ad0f20475de411c"
         },
         {
           "id": "c1-l037",
           "centre_y": 2620,
           "crop": [
-            180,
+            140,
             2560,
-            1040,
+            1125,
             120
           ],
           "context_crop": [
-            180,
+            140,
             2450,
-            1040,
+            1125,
             340
           ],
           "observed_text": "Catate. Hũa mão, frecha, &c.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:e031655e31bf9ee6fd80533b3348735c7c42e8305bd437845a75dafc9cfadfb8"
         },
         {
           "id": "c1-l038",
           "centre_y": 2684,
           "crop": [
-            180,
+            140,
             2624,
-            1040,
+            1125,
             120
           ],
           "context_crop": [
-            180,
+            140,
             2514,
-            1040,
+            1125,
             340
           ],
           "observed_text": "Catatoqi. i. Fanji, l, fantoqi. Por hum",
-          "match": "strong",
+          "match": "partial",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:370729d9bbf06ad08aed1d9baf9a59d3818812a29dbea1ecf3c6815fd9a5005d"
         },
         {
           "id": "c1-l039",
           "centre_y": 2748,
           "crop": [
-            180,
+            140,
             2688,
-            1040,
+            1125,
             120
           ],
           "context_crop": [
-            180,
+            140,
             2578,
-            1040,
+            1125,
             340
           ],
-          "observed_text": "pouco, ou meu hora.",
+          "observed_text": "pouco, ou mea hora.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:48a1bd7c2e34c545220cccfc603a7dfcdd7f8bb0935ae54a1d1ce1265941db50"
         },
         {
           "id": "c1-l040",
           "centre_y": 2809,
           "crop": [
-            180,
+            140,
             2749,
-            1040,
+            1125,
             120
           ],
           "context_crop": [
-            180,
+            140,
             2639,
-            1040,
+            1125,
             340
           ],
-          "observed_text": "Catana. Aleijão. ¶ Catauanı naru. Ser",
-          "match": "strong",
+          "observed_text": "Cataua. Aleijão. ¶ Catauaninaru. Ser",
+          "match": "partial",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:05e0bd76c619ab690e1f0191049a25c2a130efd8c7ed96f1c4461cf728058854"
         },
         {
           "id": "c1-l041",
           "centre_y": 2871,
           "crop": [
-            180,
+            140,
             2811,
-            1040,
+            1125,
             120
           ],
           "context_crop": [
-            180,
+            140,
             2701,
-            1040,
+            1125,
             340
           ],
           "observed_text": "aleijado",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:b302c1ab4004c626a3c0882f938d6e92c608ebdcc7d1bd35278fecc32e6de3df"
         },
         {
           "id": "c1-l042",
           "centre_y": 2931,
           "crop": [
-            180,
+            140,
             2871,
-            1040,
+            1125,
             120
           ],
           "context_crop": [
-            180,
+            140,
             2761,
-            1040,
+            1125,
             340
           ],
-          "observed_text": "Cataniaguruma. Carro como aleijado de hũa ſó",
-          "match": "strong",
+          "observed_text": "Cataua guruma. Carro como aleijado de hũa ſó",
+          "match": "partial",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:02a3e98a7f50427a0022f0b386660d21c5b7452d8a06f21b2e0372b1479f2d61"
         },
         {
           "id": "c1-l043",
           "centre_y": 2993,
           "crop": [
-            180,
+            140,
             2933,
-            1040,
+            1125,
             120
           ],
           "context_crop": [
-            180,
+            140,
             2823,
-            1040,
+            1125,
             340
           ],
           "observed_text": "roda que não preſta ja para nada. Acomoda",
-          "match": "strong",
+          "match": "partial",
           "assessment": "readable",
-          "expected_line_version": "sha256:df8fcf0b9b3d2b2f5ac4efb3a39b7c820b8e435ff22945c8fba18450cb37d55f"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:cf133bd767bbfdbfa0f13928263d655c4ab2f7f63b2d3707db3799965a77e97d"
         },
         {
           "id": "c1-l044",
           "centre_y": 3054,
           "crop": [
-            180,
+            140,
             2994,
-            1040,
+            1125,
             120
           ],
           "context_crop": [
-            180,
+            140,
             2884,
-            1040,
+            1125,
             340
           ],
-          "observed_text": "ſe tãmbẽ nos Mais a hum homem que nenhum",
+          "observed_text": "ſe tambẽ nos Mais a hum homem que nenhum",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:40a6b401e3be63db1a03ea2287af5d1ef37cd25404fe131d23d79b7fc42623bd"
         },
         {
           "id": "c1-l045",
           "centre_y": 3114,
           "crop": [
-            180,
+            140,
             3054,
-            1040,
+            1125,
             120
           ],
           "context_crop": [
-            180,
+            140,
             2944,
-            1040,
+            1125,
             340
           ],
           "observed_text": "remedio humano tem, &c.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:9e29f2bcdc93a873bce0c90d30f303418d2547f829e3262984ddee637a467718"
         },
         {
           "id": "c1-l046",
           "centre_y": 3178,
           "crop": [
-            180,
+            140,
             3118,
-            1040,
+            1125,
             120
           ],
           "context_crop": [
-            180,
+            140,
             3008,
-            1040,
+            1125,
             340
           ],
           "observed_text": "Catauana. Peſſoa aleijada.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:e58627187212728e93b1d9063374023cbe2d860d924f959e208b8ecee08d795b"
         },
         {
           "id": "c1-l047",
           "centre_y": 3248,
           "crop": [
-            180,
+            140,
             3188,
-            1040,
+            1125,
             120
           ],
           "context_crop": [
-            180,
+            140,
             3078,
-            1040,
+            1125,
             340
           ],
-          "observed_text": "Catauqi. Hũa ilharga, ou lado.",
+          "observed_text": "Catauaqi. Hũa ilharga, ou lado.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:1a6d8c107cf4eaa29f1ed3b1bb761818fca6d310da424fb197704dd825586dfd"
         }
       ]
     },
     "column-2": {
       "column_box_xyxy": [
-        1250,
+        1205,
         300,
-        2310,
+        2422,
         3420
       ],
       "zone_ids": [
         "column-2"
       ],
-      "initial_geometry_provenance": "contact_sheet_reviewed",
-      "initial_geometry_reviewed_at": "2026-08-01",
-      "geometry_requires_line_by_line_review": false,
+      "initial_geometry_provenance": "external_ai_width_rechecked",
+      "initial_geometry_reviewed_at": "2026-08-16",
+      "geometry_requires_line_by_line_review": true,
       "lines": [
         {
           "id": "c2-l001",
           "centre_y": 439,
           "crop": [
-            1250,
+            1205,
             379,
-            1060,
+            1217,
             120
           ],
           "context_crop": [
-            1250,
+            1205,
             300,
-            1060,
+            1217,
             340
           ],
           "observed_text": "Catauara. Ahũa parte, ou junto dalgũa couſa.",
-          "match": "strong",
+          "match": "partial",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:f07e134fd525d814c65826e69a6807ac8c2e221ca2f43494beeb718017c8d60d"
         },
         {
           "id": "c2-l002",
           "centre_y": 505,
           "crop": [
-            1250,
+            1205,
             445,
-            1060,
+            1217,
             120
           ],
           "context_crop": [
-            1250,
+            1205,
             335,
-            1060,
+            1217,
             340
           ],
           "observed_text": "Vt, Michino catauara. Borda do caminho.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:2280351383ed75040adb00d8bee7932bb9d3c801d358f9a9167be2fc53b8ad36"
         },
         {
           "id": "c2-l003",
           "centre_y": 561,
           "crop": [
-            1250,
+            1205,
             501,
-            1060,
+            1217,
             120
           ],
           "context_crop": [
-            1250,
+            1205,
             391,
-            1060,
+            1217,
             340
           ],
-          "observed_text": "Catauazzucqi, u, uita. Fazerſe alijado.",
+          "observed_text": "Catauazzuqi, u, uita. Fazerſe aleijado.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:7c6960d0f20e9f347c4bcc13eb8279c99c8fabf84b1a411b80714504e1e03e51"
         },
         {
           "id": "c2-l004",
           "centre_y": 614,
           "crop": [
-            1250,
+            1205,
             554,
-            1060,
+            1217,
             120
           ],
           "context_crop": [
-            1250,
+            1205,
             444,
-            1060,
+            1217,
             340
           ],
           "observed_text": "Vſaſe communmente no preterito.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:057d0571ccef248dd474d4a48f178a10995f76716b918ea3e4beb9655eb803a3"
         },
         {
           "id": "c2-l005",
           "centre_y": 689,
           "crop": [
-            1250,
+            1205,
             629,
-            1060,
+            1217,
             120
           ],
           "context_crop": [
-            1250,
+            1205,
             519,
-            1060,
+            1217,
             340
           ],
           "observed_text": "Catauoca. P. Hũa parte, ou banda do ou-",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:9ba15daa1f4109c78f3a2ca68f28b7f268c9d26ea51d06fc18ae9d40ad093469"
         },
         {
           "id": "c2-l006",
           "centre_y": 752,
           "crop": [
-            1250,
+            1205,
             692,
-            1060,
+            1217,
             120
           ],
           "context_crop": [
-            1250,
+            1205,
             582,
-            1060,
+            1217,
             340
           ],
           "observed_text": "teiro.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:263e847efcbd728ebee5b9f79521adf89cc0dfd955aa13352b5f91920703d0d6"
         },
         {
           "id": "c2-l007",
           "centre_y": 801,
           "crop": [
-            1250,
+            1205,
             741,
-            1060,
+            1217,
             120
           ],
           "context_crop": [
-            1250,
+            1205,
             631,
-            1060,
+            1217,
             340
           ],
           "observed_text": "Catauomoi. P. Amor de hũa ſó parte.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:02aa085874d3fee2c459c4668b2dc8ac38dfa5b1f0fb1099038eb03c4b80eb00"
         },
         {
           "id": "c2-l008",
           "centre_y": 870,
           "crop": [
-            1250,
+            1205,
             810,
-            1060,
+            1217,
             120
           ],
           "context_crop": [
-            1250,
+            1205,
             700,
-            1060,
+            1217,
             340
           ],
-          "observed_text": "Catauomoee. Hũa pagina.",
+          "observed_text": "Catauomote. Hũa pagina.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:a114787cdc4f0fde3147d9f6f80b97a88fc6d45d381661b9445756fefc82f1ca"
         },
         {
           "id": "c2-l009",
           "centre_y": 929,
           "crop": [
-            1250,
+            1205,
             869,
-            1060,
+            1217,
             120
           ],
           "context_crop": [
-            1250,
+            1205,
             759,
-            1060,
+            1217,
             340
           ],
-          "observed_text": "Catauonami. P. Ondas que não deixão ras-",
+          "observed_text": "Catauonami. P. Ondas que não deixão raſ-",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:1a861dabb1d6a5c4348d4316320054e3525d137c0c7e1664e47cadbd2de736d2"
         },
         {
           "id": "c2-l010",
           "centre_y": 995,
           "crop": [
-            1250,
+            1205,
             935,
-            1060,
+            1217,
             120
           ],
           "context_crop": [
-            1250,
+            1205,
             825,
-            1060,
+            1217,
             340
           ],
           "observed_text": "to, ou ſinal como as que dão em rocha que não",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:cc33c8d4f5cc6279405928758499941ed7d0edf200d3fee89e9f6a877212bb4c"
         },
         {
           "id": "c2-l011",
           "centre_y": 1049,
           "crop": [
-            1250,
+            1205,
             989,
-            1060,
+            1217,
             120
           ],
           "context_crop": [
-            1250,
+            1205,
             879,
-            1060,
+            1217,
             340
           ],
-          "observed_text": "tem praia.",
+          "observed_text": "tem praya.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:a70b433814258b91d8e82ab6e733019758314d1c84538cf4df3e74be6260cb97"
         },
         {
           "id": "c2-l012",
           "centre_y": 1110,
           "crop": [
-            1250,
+            1205,
             1050,
-            1060,
+            1217,
             120
           ],
           "context_crop": [
-            1250,
+            1205,
             940,
-            1060,
+            1217,
             340
           ],
           "observed_text": "Catauoxi. Vt, Catauoxini ſuru. Dar, ou",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:58372e4b4b5572e48a4b377dc1a54edd1fd9295124eabca0a432fd24ad04966c"
         },
         {
           "id": "c2-l013",
           "centre_y": 1170,
           "crop": [
-            1250,
+            1205,
             1110,
-            1060,
+            1217,
             120
           ],
           "context_crop": [
-            1250,
+            1205,
             1000,
-            1060,
+            1217,
             340
           ],
           "observed_text": "combater com gente de hũa ſó parte ſem auer",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:9fe9c0562faf6572b9077ccf871ac1461480f04275da1692d8bd086d90da1e03"
         },
         {
           "id": "c2-l014",
           "centre_y": 1232,
           "crop": [
-            1250,
+            1205,
             1172,
-            1060,
+            1217,
             120
           ],
           "context_crop": [
-            1250,
+            1205,
             1062,
-            1060,
+            1217,
             340
           ],
           "observed_text": "outra de que ſeja rebatida. ¶ Item, Por",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:8bb6003c87dbebdde892e48a7c51d14b1b3a2a30a3bd77f79f208256ea97dedf"
         },
         {
           "id": "c2-l015",
           "centre_y": 1294,
           "crop": [
-            1250,
+            1205,
             1234,
-            1060,
+            1217,
             120
           ],
           "context_crop": [
-            1250,
+            1205,
             1124,
-            1060,
+            1217,
             340
           ],
           "observed_text": "pezo de hũa parte, & não de outra pera car-",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:2906a0a2c972f67c88bc75665d0763e9a60520194be6a106b02f2c919544d272"
         },
         {
           "id": "c2-l016",
           "centre_y": 1356,
           "crop": [
-            1250,
+            1205,
             1296,
-            1060,
+            1217,
             120
           ],
           "context_crop": [
-            1250,
+            1205,
             1186,
-            1060,
+            1217,
             340
           ],
           "observed_text": "regar, ou eſpremer algũa couſa.",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:dbe867b3fbdb8e373401d2474740e28085b2a0411809afb83440facc866f140f"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:191b83e352156d9594a5514f4a9f02a6615d373b536176c92115576bbdb9e224"
         },
         {
           "id": "c2-l017",
           "centre_y": 1415,
           "crop": [
-            1250,
+            1205,
             1355,
-            1060,
+            1217,
             120
           ],
           "context_crop": [
-            1250,
+            1205,
             1245,
-            1060,
+            1217,
             340
           ],
           "observed_text": "Catauoxina. Parte que foi ſó carregada, ou",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:8f730353e0609c650473228ae7f304067472fc996a293f01e7d822eb5236d418"
         },
         {
           "id": "c2-l018",
           "centre_y": 1475,
           "crop": [
-            1250,
+            1205,
             1415,
-            1060,
+            1217,
             120
           ],
           "context_crop": [
-            1250,
+            1205,
             1305,
-            1060,
+            1217,
             340
           ],
           "observed_text": "eſpremida com algum pezo, & a outra não.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:be4e41797fd2d52e167503843599cfbdc1cd5f86694b67032268d9b4653ae443"
         },
         {
           "id": "c2-l019",
           "centre_y": 1537,
           "crop": [
-            1250,
+            1205,
             1477,
-            1060,
+            1217,
             120
           ],
           "context_crop": [
-            1250,
+            1205,
             1367,
-            1060,
+            1217,
             340
           ],
           "observed_text": "Cataxigataxi. Hũa de duas couſas que ſe contão",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:c27ebde74e8cdb9e0b0027e32c5d18e4fc8fe619cba836c3d80b220729da729b"
         },
         {
           "id": "c2-l020",
           "centre_y": 1597,
           "crop": [
-            1250,
+            1205,
             1537,
-            1060,
+            1217,
             120
           ],
           "context_crop": [
-            1250,
+            1205,
             1427,
-            1060,
+            1217,
             340
           ],
           "observed_text": "por pares como çapato quando diſcrepa. i.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:6c8690efb90ad591dd9df93188922e32b7d80a2345a06bf17b252e80c92c7024"
         },
         {
           "id": "c2-l021",
           "centre_y": 1658,
           "crop": [
-            1250,
+            1205,
             1598,
-            1060,
+            1217,
             120
           ],
           "context_crop": [
-            1250,
+            1205,
             1488,
-            1060,
+            1217,
             340
           ],
           "observed_text": "não he irmão do outro. Vt, Cataxigataxi",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:c08661ec7181f632df329886b7abedf442c10d1c53080a9d651f12f732bdac8e"
         },
         {
           "id": "c2-l022",
           "centre_y": 1718,
           "crop": [
-            1250,
+            1205,
             1658,
-            1060,
+            1217,
             120
           ],
           "context_crop": [
-            1250,
+            1205,
             1548,
-            1060,
+            1217,
             340
           ],
-          "observed_text": "faqui. Calçar hũ çapato meu & outro alheo, ou",
-          "match": "strong",
-          "assessment": "readable",
-          "expected_line_version": "sha256:38d2bf0eedf038f7e69e9379cfe50ec9b6acbe8447632b486429b1f13f97c41f"
+          "observed_text": "fiqu. Calçar hũ çapato meu & outro alheo, ou",
+          "match": "mismatch",
+          "assessment": "uncertain",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:38d2bf0eedf038f7e69e9379cfe50ec9b6acbe8447632b486429b1f13f97c41f",
+          "note": "Independent enlarged-scan reading is materially uncertain at one or more glyphs; the visible reading is retained rather than normalized from the canonical line."
         },
         {
           "id": "c2-l023",
           "centre_y": 1784,
           "crop": [
-            1250,
+            1205,
             1724,
-            1060,
+            1217,
             120
           ],
           "context_crop": [
-            1250,
+            1205,
             1614,
-            1060,
+            1217,
             340
           ],
-          "observed_text": "de outra laya. He palaura baixa, & quêdo",
-          "match": "strong",
-          "assessment": "readable",
-          "expected_line_version": "sha256:80b8cc440035fb51251c0592c67659db66f38ccafe64da5bc3fe6f22ee37ee4c"
+          "observed_text": "de outra laya. He palavra baixa, & quando",
+          "match": "mismatch",
+          "assessment": "uncertain",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:80b8cc440035fb51251c0592c67659db66f38ccafe64da5bc3fe6f22ee37ee4c",
+          "note": "Independent enlarged-scan reading is materially uncertain at one or more glyphs; the visible reading is retained rather than normalized from the canonical line."
         },
         {
           "id": "c2-l024",
           "centre_y": 1846,
           "crop": [
-            1250,
+            1205,
             1786,
-            1060,
+            1217,
             120
           ],
           "context_crop": [
-            1250,
+            1205,
             1676,
-            1060,
+            1217,
             340
           ],
-          "observed_text": "muito ſe vſara em çapatos. A propria",
-          "match": "strong",
-          "assessment": "readable",
-          "expected_line_version": "sha256:ea8d3232d1f5789978d3a48627c31e3daee1984207a3f92ef335b3fc93b4b034"
+          "observed_text": "muito ſe vſa em çapatos. A propria",
+          "match": "mismatch",
+          "assessment": "uncertain",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:ea8d3232d1f5789978d3a48627c31e3daee1984207a3f92ef335b3fc93b4b034",
+          "note": "Independent enlarged-scan reading is materially uncertain at one or more glyphs; the visible reading is retained rather than normalized from the canonical line."
         },
         {
           "id": "c2-l025",
           "centre_y": 1897,
           "crop": [
-            1250,
+            1205,
             1837,
-            1060,
+            1217,
             120
           ],
           "context_crop": [
-            1250,
+            1205,
             1727,
-            1060,
+            1217,
             340
           ],
-          "observed_text": "palaura, & mais geral em couſas de pares,",
-          "match": "strong",
+          "observed_text": "palavra, & mais geral em couſas de pares,",
+          "match": "partial",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:6fa85de6e778964b3323b706a47b47744a35235863c5a3c75dd92fa0c68f1ef1"
         },
         {
           "id": "c2-l026",
           "centre_y": 1967,
           "crop": [
-            1250,
+            1205,
             1907,
-            1060,
+            1217,
             120
           ],
           "context_crop": [
-            1250,
+            1205,
             1797,
-            1060,
+            1217,
             340
           ],
-          "observed_text": "como Tabis, biobus, &c. he Catachiſu.",
-          "match": "strong",
-          "assessment": "readable",
-          "expected_line_version": "sha256:197d35db72194fd2a7ac3ae5fe9629866083df3f9479cede42b834758136a0b7"
+          "observed_text": "como Tabis, biòbus, &c. he Catachigu.",
+          "match": "mismatch",
+          "assessment": "uncertain",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:332a8b7cb425b9d8ed6b7a047cc89afbebf4544314bc6a4671948eeaa0b771d1",
+          "note": "Independent enlarged-scan reading is materially uncertain at one or more glyphs; the visible reading is retained rather than normalized from the canonical line."
         },
         {
           "id": "c2-l027",
           "centre_y": 2027,
           "crop": [
-            1250,
+            1205,
             1967,
-            1060,
+            1217,
             120
           ],
           "context_crop": [
-            1250,
+            1205,
             1857,
-            1060,
+            1217,
             340
           ],
-          "observed_text": "Cataxiji, u, ita. Eſtender hũa ſó manga",
-          "match": "strong",
-          "assessment": "readable",
-          "expected_line_version": "sha256:47f408fe63fb9b80547021c4acc6a970413c5d857bd93d45e1a50c17de883364"
+          "observed_text": "Cataxiji, u, ita. Eſtender hũa ſó manga,",
+          "match": "mismatch",
+          "assessment": "uncertain",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:0912b4bc10b105eaa3164a4fb5bdc34e5ab27bd56b101603091c765a57a40b79",
+          "note": "Independent enlarged-scan reading is materially uncertain at one or more glyphs; the visible reading is retained rather than normalized from the canonical line."
         },
         {
           "id": "c2-l028",
           "centre_y": 2089,
           "crop": [
-            1250,
+            1205,
             2029,
-            1060,
+            1217,
             120
           ],
           "context_crop": [
-            1250,
+            1205,
             1919,
-            1060,
+            1217,
             340
           ],
-          "observed_text": "&c. Vt, Sodeuo cataxije nuru.",
+          "observed_text": "&c. Vt, Sodeuo cataxijte nuru.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:96a37fce2e258b7a9f3cb597a4ecc15b7d85f605ad49e2ea44f2c147bf917cfb"
         },
         {
           "id": "c2-l029",
           "centre_y": 2144,
           "crop": [
-            1250,
+            1205,
             2084,
-            1060,
+            1217,
             120
           ],
           "context_crop": [
-            1250,
+            1205,
             1974,
-            1060,
+            1217,
             340
           ],
           "observed_text": "Eſtendendo a manga dormir ſobre ella, ou dor-",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:d3d5317885a7dc3a3ee63d1f8a2a4f097b79af741cf613619b0bf08befe1d772"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:0620c18835be982728c97bb476385205dc9d5761b79a3dbbc0c1aebb9344885d"
         },
         {
           "id": "c2-l030",
           "centre_y": 2210,
           "crop": [
-            1250,
+            1205,
             2150,
-            1060,
+            1217,
             120
           ],
           "context_crop": [
-            1250,
+            1205,
             2040,
-            1060,
+            1217,
             340
           ],
-          "observed_text": "mir ſobre o braço, ou eſtitado ſobre o coto",
-          "match": "strong",
-          "assessment": "readable",
-          "expected_line_version": "sha256:9cf34ab67fd09ee671126ba310ab9a94f641a89046c39f0e7e5907aae2bdf437"
+          "observed_text": "mir ſobre o braço, ou eſtirado ſobre o coto",
+          "match": "mismatch",
+          "assessment": "uncertain",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:6c769cfabf61528b2bc3442a58b4377d874fcea25cdf99c671d1275b17ab5767",
+          "note": "Independent enlarged-scan reading is materially uncertain at one or more glyphs; the visible reading is retained rather than normalized from the canonical line."
         },
         {
           "id": "c2-l031",
           "centre_y": 2270,
           "crop": [
-            1250,
+            1205,
             2210,
-            1060,
+            1217,
             120
           ],
           "context_crop": [
-            1250,
+            1205,
             2100,
-            1060,
+            1217,
             340
           ],
           "observed_text": "uelo.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:78ffea08a62975bd87a9a196086d7eabc9af42f9e605cec250a4f3aac462bc98"
         },
         {
           "id": "c2-l032",
           "centre_y": 2332,
           "crop": [
-            1250,
+            1205,
             2272,
-            1060,
+            1217,
             120
           ],
           "context_crop": [
-            1250,
+            1205,
             2162,
-            1060,
+            1217,
             340
           ],
-          "observed_text": "Cataya. Suinõuo toru ba. Terreiro onde",
+          "observed_text": "Cataya. Sumǒuo toru ba. Terreiro onde",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:d69a70e920152dbd16477068ee10fe21aa6eb69cd6bfc93ae30d638de0e95421"
         },
         {
           "id": "c2-l033",
           "centre_y": 2396,
           "crop": [
-            1250,
+            1205,
             2336,
-            1060,
+            1217,
             120
           ],
           "context_crop": [
-            1250,
+            1205,
             2226,
-            1060,
+            1217,
             340
           ],
           "observed_text": "ſe luta.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:769887c31028b1796b76e9792b9517b471a65d4d655f7f943473fadf20fa615a"
         },
         {
           "id": "c2-l034",
           "centre_y": 2455,
           "crop": [
-            1250,
+            1205,
             2395,
-            1060,
+            1217,
             120
           ],
           "context_crop": [
-            1250,
+            1205,
             2285,
-            1060,
+            1217,
             340
           ],
-          "observed_text": "Catayamazato. Pouoação dos montes.",
-          "match": "strong",
-          "assessment": "readable",
-          "expected_line_version": "sha256:f923758006ea3e5c270e4aa94347e9955810a7bcfca02ceef6e1192319373072"
+          "observed_text": "Catayamazaro. Pouoação dos montes.",
+          "match": "mismatch",
+          "assessment": "uncertain",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:f923758006ea3e5c270e4aa94347e9955810a7bcfca02ceef6e1192319373072",
+          "note": "Independent enlarged-scan reading is materially uncertain at one or more glyphs; the visible reading is retained rather than normalized from the canonical line."
         },
         {
           "id": "c2-l035",
           "centre_y": 2515,
           "crop": [
-            1250,
+            1205,
             2455,
-            1060,
+            1217,
             120
           ],
           "context_crop": [
-            1250,
+            1205,
             2345,
-            1060,
+            1217,
             340
           ],
-          "observed_text": "Cataye. i. Vaquino yeda. ramo de hũa parte.",
-          "match": "strong",
-          "assessment": "readable",
-          "expected_line_version": "sha256:23ed0142ac07c7e09249533ccb1df47fcf0818cd1eb5c2aecd2488b7bf844c77"
+          "observed_text": "Cataye. i. Vaquno yeda. ramo de hũa parte.",
+          "match": "mismatch",
+          "assessment": "uncertain",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:23ed0142ac07c7e09249533ccb1df47fcf0818cd1eb5c2aecd2488b7bf844c77",
+          "note": "Independent enlarged-scan reading is materially uncertain at one or more glyphs; the visible reading is retained rather than normalized from the canonical line."
         },
         {
           "id": "c2-l036",
           "centre_y": 2577,
           "crop": [
-            1250,
+            1205,
             2517,
-            1060,
+            1217,
             120
           ],
           "context_crop": [
-            1250,
+            1205,
             2407,
-            1060,
+            1217,
             340
           ],
           "observed_text": "Cataye. Vt, Cataye nomono. Gente, ou",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:f34f7e6afcfe96202b0060f6aa73e871d1c32e7ef0b3786cf6ef8a469734da36"
         },
         {
           "id": "c2-l037",
           "centre_y": 2639,
           "crop": [
-            1250,
+            1205,
             2579,
-            1060,
+            1217,
             120
           ],
           "context_crop": [
-            1250,
+            1205,
             2469,
-            1060,
+            1217,
             340
           ],
           "observed_text": "peſſoas de ſeruiço que não ſão das mais altas nẽ",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:199bf5bd7d49ea0b04da5c18313711d660d970cde395b336592c0c9eb4169401"
         },
         {
           "id": "c2-l038",
           "centre_y": 2699,
           "crop": [
-            1250,
+            1205,
             2639,
-            1060,
+            1217,
             120
           ],
           "context_crop": [
-            1250,
+            1205,
             2529,
-            1060,
+            1217,
             340
           ],
           "observed_text": "das mais baixas. ¶ Catayeno nhôbo.",
-          "match": "strong",
+          "match": "mismatch",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:54e60b6ddc43bc8cff8b12a7385ba937e1fa80ee3285de66b8ae7fe315c24019"
         },
         {
           "id": "c2-l039",
           "centre_y": 2764,
           "crop": [
-            1250,
+            1205,
             2704,
-            1060,
+            1217,
             120
           ],
           "context_crop": [
-            1250,
+            1205,
             2594,
-            1060,
+            1217,
             340
           ],
           "observed_text": "Molheres de ſeruiço das ordinarias que não ſão",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:989ae6c78ae03cecbfd3f83251989f3cc451644322753fbc1ec3afa6df722543"
         },
         {
           "id": "c2-l040",
           "centre_y": 2822,
           "crop": [
-            1250,
+            1205,
             2762,
-            1060,
+            1217,
             120
           ],
           "context_crop": [
-            1250,
+            1205,
             2652,
-            1060,
+            1217,
             340
           ],
           "observed_text": "muito baixas.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:c0e902e81e06beca4aa6ae8673b85cf906069ad234d306f33294aa4fa7d535f8"
         },
         {
           "id": "c2-l041",
           "centre_y": 2886,
           "crop": [
-            1250,
+            1205,
             2826,
-            1060,
+            1217,
             120
           ],
           "context_crop": [
-            1250,
+            1205,
             2716,
-            1060,
+            1217,
             340
           ],
-          "observed_text": "Catayori, u, eta. Chegarſe pera hũa parte.",
+          "observed_text": "Catayori, u, otta. Chegarſe pera hũa parte.",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:c202cfd5881f40c22274de314c20df3222c0d1dc5720e4b6d57b7c11260391f1"
         },
         {
           "id": "c2-l042",
           "centre_y": 2946,
           "crop": [
-            1250,
+            1205,
             2886,
-            1060,
+            1217,
             120
           ],
           "context_crop": [
-            1250,
+            1205,
             2776,
-            1060,
+            1217,
             340
           ],
-          "observed_text": "Catazzuri. Deſigualdade de hũa parte da balan-",
-          "match": "strong",
-          "assessment": "readable",
-          "expected_line_version": "sha256:fc8d00a74514e34bb8263a571eefff6adab5cd811685a8c3cadf9e66a0aca1d3"
+          "observed_text": "Catazzui. Deſigualdade de hũa parte da balan-",
+          "match": "mismatch",
+          "assessment": "uncertain",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:9a18d4bf6bbbb2d8fd5ac85983b15e551d31f091fe4d758ecd0ec3f5e49ec0d4",
+          "note": "Independent enlarged-scan reading is materially uncertain at one or more glyphs; the visible reading is retained rather than normalized from the canonical line."
         },
         {
           "id": "c2-l043",
           "centre_y": 3010,
           "crop": [
-            1250,
+            1205,
             2950,
-            1060,
+            1217,
             120
           ],
           "context_crop": [
-            1250,
+            1205,
             2840,
-            1060,
+            1217,
             340
           ],
-          "observed_text": "ça, ou de outra couſa. ¶ Catazzuri ga",
+          "observed_text": "ça, ou de outra couſa. ¶ Catazzuriga",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:0806cd094f41338a17375249e2992e921a0324d0bfec382502c95651e4556bce"
         },
         {
           "id": "c2-l044",
           "centre_y": 3063,
           "crop": [
-            1250,
+            1205,
             3003,
-            1060,
+            1217,
             120
           ],
           "context_crop": [
-            1250,
+            1205,
             2893,
-            1060,
+            1217,
             340
           ],
-          "observed_text": "arucamiyo. Vedeſe ha deſigualdade, quer ſe",
+          "observed_text": "aruca miyo. Vede ſe ha deſigualdade, quer ſe",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:c025cd901b8665162a75eae93444d5a2e0435028a34634eee8e764b62c4e6958"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:9e66b15fc2c923d6e1d260dae5d46a2127a7bbd6e45d685d3a539e9ec2190f2d"
         },
         {
           "id": "c2-l045",
           "centre_y": 3125,
           "crop": [
-            1250,
+            1205,
             3065,
-            1060,
+            1217,
             120
           ],
           "context_crop": [
-            1250,
+            1205,
             2955,
-            1060,
+            1217,
             340
           ],
           "observed_text": "ja de pezo, quer ſeja entre dous que jogão, ou",
           "match": "strong",
           "assessment": "readable",
+          "geometry_action": "accepted_initial",
           "expected_line_version": "sha256:bb19f2aff82b3149dfc9db8186b9a94cf9c68cbb0bc57b7f6a007f321baa79e4"
         },
         {
           "id": "c2-l046",
           "centre_y": 3197,
           "crop": [
-            1250,
+            1205,
             3137,
-            1060,
+            1217,
             120
           ],
           "context_crop": [
-            1250,
+            1205,
             3027,
-            1060,
+            1217,
             340
           ],
-          "observed_text": "ſão deſiguais nalgua arte, &c.",
+          "observed_text": "ſão deſiguais nalgũa arte, &c.",
           "match": "strong",
           "assessment": "readable",
-          "expected_line_version": "sha256:3fae7d54d5098f269b8b08b8aa7d7920dcfd0595b790aaa6942b2b99cd956680"
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:767ec5bdec65cf0b080e93cb375e5ebc8fb525b6b9d1fc9002869931bc297cc9"
         },
         {
           "id": "c2-l047",
           "centre_y": 3257,
           "crop": [
-            1250,
+            1205,
             3197,
-            1060,
+            1217,
             120
           ],
           "context_crop": [
-            1250,
+            1205,
             3087,
-            1060,
+            1217,
             340
           ],
-          "observed_text": "Catazuriina. Couſa deſigual como leue de hũa",
-          "match": "strong",
-          "assessment": "readable",
-          "expected_line_version": "sha256:a582c39c4522f77fd003469c49fd3705ebed4fb7c1542e55e25e24bfba282b75"
+          "observed_text": "Catazzurina. Couſa deſigual como leue de hũa",
+          "match": "mismatch",
+          "assessment": "uncertain",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:a582c39c4522f77fd003469c49fd3705ebed4fb7c1542e55e25e24bfba282b75",
+          "note": "Independent enlarged-scan reading is materially uncertain at one or more glyphs; the visible reading is retained rather than normalized from the canonical line."
         }
       ]
     }
-  },
-  "geometry_acceptance": "Normal crops use conservative rule-to-rule column width and 120 native-pixel height, with neighboring-row overlap where useful to protect accents, ascenders, descenders, and line-end marks. Each crop is contained by its context crop. The final short continuation on f0096 column 2 is narrowed horizontally to exclude the unrelated catchword printed at the far right."
+  }
 }

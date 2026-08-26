@@ -22,6 +22,31 @@ The later prepared range `f101`–`f237`, `f248`–`f250`, and `f643` contains 1
 
 ## Imported batches
 
+### f96–f100 line-by-line rereviews
+
+Fresh geometry-and-text returns were imported on 2026-08-26. All 471 body-line
+rectangles passed exact line-ID, source-image, transcription-hash, bounds, and
+context-containment validation and are recorded as
+`ai_line_by_line_checked`. The submitted rectangles were accepted without
+project-side adjustment.
+
+The 175 advisory textual disagreements were adjudicated separately against the
+native scans. Twenty scan-supported physical-line corrections were applied: 3
+on f96, 2 on f97, 6 on f98, 1 on f99, and 8 on f100. They include Japanese
+forms such as `monouo`, `migaqu`, `Vaquno`, `Cauaberi`, `vma`, `Caxicomatta`,
+and `Caxinoqi`; the split Portuguese `mai-` / `or`; the printed abbreviation
+`q̃do`; and literal tilde placement in `Raã`, `diãte`, and
+`deſcõcertados`. Modernizations, unsupported line-end marks, and uncertain
+readings were rejected. Every proposed `st`/`ſt` reclassification was
+deliberately left unchanged for the dedicated human glyph audit.
+
+The imported reviewed-file SHA-256 values are `23d1664c8f4f73a9a32031621d1c42a6ce592d6201c795b1e92ceb5d8c87ae7d`
+(f96), `6a4a71faf961d39dbaa668a3bddb1747652ff85aa175d72679395d9c56f9f83e`
+(f97), `339e8b148caffcd9e30405d6fcb74b9a0825c8760f9cd47c2f80d382ca92ae17`
+(f98), `0d70581574de3fbc6f750c47ea328a7eaac7e46a7a716d1c1401c7054f8e4e05`
+(f99), and `b65d0fc7afc76121348905c92e44b15a8cd8ea7039c5e6a003a7c8ae32ef7543`
+(f100).
+
 ### f91–f95 line-by-line rereviews
 
 Fresh geometry-and-text returns were imported on 2026-08-25. All 471 body-line

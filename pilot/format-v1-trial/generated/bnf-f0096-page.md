@@ -31,7 +31,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l015` | Catami. *Couſa como peça, &c. Que ſe dei-* |  |
 | `c1-l016` | &emsp;*xa pera memoria, ou lembrança. ¶* Cata- |  |
 | `c1-l017` | &emsp;miuo yaru. *Dar algũa couſa por lembrança,* |  |
-| `c1-l018` | &emsp;*ou memoria. ¶* Catamini noncauo voqu. |  |
+| `c1-l018` | &emsp;*ou memoria. ¶* Catamini monouo voqu. |  |
 | `c1-l019` | &emsp;*Deixar por lembrança, ou memoria algũa couſa.* |  |
 | `c1-l020` | Catami. *Hũa parte, ou ametade do corpo. Vt,* |  |
 | `c1-l021` | &emsp;Catamiga nayeta. *Esta tolhido, ou paralí-* |  |
@@ -53,13 +53,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l037` | &emsp;*turbarſe, ou destruirſe o reino.* |  |
 | `c1-l038` | Catamuqi tachi, tçu, tatta. *Fugir, ou ir* |  |
 | `c1-l039` | &emsp;*de cabeça a baixo o exercito, &c.* |  |
-| `c1-l040` | Catan. Nindai, ǒ. *Leuar carga aos hombros.* |  |
+| `c1-l040` | Catan. Ninai, ǒ. *Leuar carga aos hombros.* |  |
 | `c1-l041` | &emsp;*¶* Catanſuru. *Terçar por alguem.* |  |
 | `c1-l042` | Catana. *Eſpada de Iapão. ¶* Catanauo |  |
 | `c1-l043` | &emsp;vtçu, l, tçucuru. *Fazer* Catanas. *¶* |  |
 | `c1-l044` | &emsp;Catanauo ſayani voſamuru. *Meter a eſpada* |  |
 | `c1-l045` | &emsp;*na bainha. ¶* Catanauo ſaſu. *Cingir* |  |
-| `c1-l046` | &emsp;*eſpada. ¶* Catanauo miguqu. *Alim-* |  |
+| `c1-l046` | &emsp;*eſpada. ¶* Catanauo migaqu. *Alim-* |  |
 | `c1-l047` | &emsp;*par, & aſacalar a eſpada. ¶* Catanauo |  |
 
 ## Column 2 running header

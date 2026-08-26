@@ -46,7 +46,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l030` | Caxen. Vta yerabu. *Eſcolha de verſos.* |  |
 | `c1-l031` | Caxeſaburai. *Fidalgo pobre, & de pouca* |  |
 | `c1-l032` | &emsp;*renda.* |  |
-| `c1-l033` | Caxet. Yoqixet. *Dia festiual. ¶ Item,* |  |
+| `c1-l033` | Caxet. Yoqi xet. *Dia festiual. ¶ Item,* |  |
 | `c1-l034` | &emsp;*Bom tempo.* |  |
 | `c1-l035` | Caxe. Vt, Caxeta fito. *Homem magro,* |  |
 | `c1-l036` | &emsp;*& desfeito. ¶ Item, Permet. Pobre, &* |  |
@@ -77,10 +77,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l003` | &emsp;Caxicô. |  |
 | `c2-l004` | &emsp;Caxicola. |  |
 | `c2-l005` | Caxicomari, u, atta. *Estar em cocaras.* |  |
-| `c2-l006` | &emsp;*¶* Caxicomarta. *No preterito mostrar a al* |  |
+| `c2-l006` | &emsp;*¶* Caxicomatta. *No preterito mostrar a al* |  |
 | `c2-l007` | &emsp;*guem que conſente, & fara o que diz, humil-* |  |
 | `c2-l008` | &emsp;*mente. ¶* Caxicomatte iru. *Estar com* |  |
-| `c2-l009` | &emsp;*reuerencia diante dalguẽ cõ as mãos no chão, &c.* |  |
+| `c2-l009` | &emsp;*reuerencia diãte dalguẽ cõ as mãos no chão, &c.* |  |
 | `c2-l010` | Caxicomari zonji, zuru, ita. *Agradecer,* |  |
 | `c2-l011` | &emsp;*ou mostrar reuerencia, & humildade.* |  |
 | `c2-l012` | Caxigome. *Arroz metido em agua pera amol-* |  |
@@ -92,7 +92,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l018` | Caxin. *Hora boa, ou ditoſa, & bem estreada,* |  |
 | `c2-l019` | &emsp;*ou hora de alegria.* |  |
 | `c2-l020` | Caxinomi. *Bolotas, ou landeas que trauão.* |  |
-| `c2-l021` | Caxinogi. *Aruore que dá esta fruita do mato* |  |
+| `c2-l021` | Caxinoqi. *Aruore que dá esta fruita do mato* |  |
 | `c2-l022` | &emsp;*que he como carualho.* |  |
 | `c2-l023` | Caxiqe, uru, eta. *Ser magro, desfeito, ou* |  |
 | `c2-l024` | &emsp;*esteril. ¶* Fanamo vazzucani, codachi |  |
@@ -104,17 +104,17 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l030` | &emsp;*tar pobre, ou com pouco cabedal, & fato.* |  |
 | `c2-l031` | Caxiqi, u, xijta. *Cozer, ou concertar arroz.* |  |
 | `c2-l032` | &emsp;*Vt,* Fiôrôno nõte mexiuomio caxicami |  |
-| `c2-l033` | &emsp;vchuni vyeta. *Não auendo mantimentos,* |  |
+| `c2-l033` | &emsp;vchini vyeta. *Não auendo mantimentos,* |  |
 | `c2-l034` | &emsp;*quanto não cozião arroz tiue fome.* |  |
-| `c2-l035` | Caxira. *Cabeça. ¶ A ſuezes ſe toma pol* |  |
+| `c2-l035` | Caxira. *Cabeça. ¶ Aſuezes ſe toma pol* |  |
 | `c2-l036` | &emsp;*los cabellos de cabeça. Vt,* Caxira mida |  |
-| `c2-l037` | &emsp;ruru. *Ter os cabellos deſconcertados. ¶* Ca- |  |
+| `c2-l037` | &emsp;ruru. *Ter os cabellos deſcõcertados. ¶* Ca- |  |
 | `c2-l038` | &emsp;xirauo marumuru. *Rapar toda a cabeça* |  |
 | `c2-l039` | &emsp;*fazendoſe* Bôzo, *ou rapado. ¶* Caxirauo |  |
 | `c2-l040` | &emsp;qezuru. *Pentear a cabeça. ¶* Caxi- |  |
 | `c2-l041` | &emsp;rauo ſoru. *Raparſe. ¶* Caxirauo vo |  |
 | `c2-l042` | &emsp;reſu. *Raparſe a primeira vez. ¶* Caxi- |  |
-| `c2-l043` | &emsp;rauo ſuru. *Mouer a cabeça. ¶* Caxi- |  |
+| `c2-l043` | &emsp;rauo furu. *Mouer a cabeça. ¶* Caxi- |  |
 | `c2-l044` | &emsp;rauo yu. *Amarrar os cabellos da cabeça.* |  |
 | `c2-l045` | Caxiragaxira. *Cabeças, ou principaes.* |  |
 | `c2-l046` | Caxira, ijuara. *Palha de arroz q̃ ſe guarda ẽ* |  |

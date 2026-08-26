@@ -100,6 +100,14 @@
     return index < 0 ? current : cycle[(index + 1) % cycle.length];
   }
 
+  function nextIJ(current, original) {
+    if (original !== 'i' && original !== 'j') return current;
+    const accents = VOWEL_CYCLES.find(cycle => cycle[0] === 'i').slice(1);
+    const cycle = original === 'j' ? ['j', 'i'] : ['i', 'j', ...accents];
+    const index = cycle.indexOf(current);
+    return index < 0 ? current : cycle[(index + 1) % cycle.length];
+  }
+
   function nextVowel(current) {
     const lower = current.toLocaleLowerCase('und');
     const cycle = VOWEL_CYCLES.find(items => items.includes(lower));
@@ -153,5 +161,5 @@
     return {operations, currentToBase, changed, deletions};
   }
 
-  return {VOWEL_CYCLES, DELETABLE, parse, serialize, replace, toggleRoman, nextSForm, nextGQ, nextNM, nextCedilla, nextUV, nextVowel, align};
+  return {VOWEL_CYCLES, DELETABLE, parse, serialize, replace, toggleRoman, nextSForm, nextGQ, nextNM, nextCedilla, nextUV, nextIJ, nextVowel, align};
 }));

@@ -100,7 +100,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l020` | &emsp;*por pares como çapato quando diſcrepa. i.* |  |
 | `c2-l021` | &emsp;*não he irmão do outro. Vt,* Cataxigataxi |  |
 | `c2-l022` | &emsp;ſaqu. *Calçar hũ çapato meu & outro alheo, ou* |  |
-| `c2-l023` | &emsp;*de outra laya. He palaura baixa, & que do* |  |
+| `c2-l023` | &emsp;*de outra laya. He palaura baixa, & q̃do* |  |
 | `c2-l024` | &emsp;*muito ſe vſara em çapatos. A propria* |  |
 | `c2-l025` | &emsp;*palaura, & mais geral em couſas de pares,* |  |
 | `c2-l026` | &emsp;*como* Tabis, biǒbus *&c. he* Carachigui. |  |
@@ -112,7 +112,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l032` | Cataya. Sumǒuo toru ba. *Terreiro onde* |  |
 | `c2-l033` | &emsp;*ſe luta.* |  |
 | `c2-l034` | Catayamazato. *Pouoação dos montes.* |  |
-| `c2-l035` | Cataye. i. Vagino yeda. *ramo de hũa parte.* |  |
+| `c2-l035` | Cataye. i. Vaquno yeda. *ramo de hũa parte.* |  |
 | `c2-l036` | Cataye. *Vt,* Cataye nomono. *Gente, ou* |  |
 | `c2-l037` | &emsp;*peſſoas de ſeruiço que não ſão das mais altas nẽ* |  |
 | `c2-l038` | &emsp;*das mais baixas. ¶* Catayeno nhǒbe. |  |

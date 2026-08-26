@@ -116,7 +116,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l036` | Cauazaicu. *Official de couſas que ſe fazem* |  |
 | `c2-l037` | &emsp;*de couro. ¶* Cauazaicuuo ſuru. *Exer-* |  |
 | `c2-l038` | &emsp;*citar este officio.* |  |
-| `c2-l039` | Cauazzu. P. i. Cairu. *Raiz.* |  |
+| `c2-l039` | Cauazzu. P. i. Cairu. *Raã.* |  |
 | `c2-l040` | Cauo. *Rosto. ¶* Cauouo tçuguru. *Con-* |  |
 | `c2-l041` | &emsp;*certar o rosto, ou enfeitarſe.* |  |
 | `c2-l042` | Cauobaxe. *Rosto.* |  |

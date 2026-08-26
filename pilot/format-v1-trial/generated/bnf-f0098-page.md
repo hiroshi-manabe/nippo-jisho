@@ -30,8 +30,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l014` | &emsp;*Cazzugi. (criança.* |  |
 | `c1-l015` | Catçuge. *Ama, ou molher que cria algũo.* |  |
 | `c1-l016` | Catçuge, uru. *Amançar, ou domesticar.* |  |
-| `c1-l017` | Catçura. *Hũa laya de molheres q̃ ſobre o ma-* |  |
-| `c1-l018` | &emsp;*is vestido trazem hũa* Catabira *de linho por* |  |
+| `c1-l017` | Catçura. *Hũa laya de molheres q̃ ſobre o mai-* |  |
+| `c1-l018` | &emsp;*or vestido trazem hũa* Catabira *de linho por* |  |
 | `c1-l019` | &emsp;*cima, & nacabeça muito toucado, as quaes deſ* |  |
 | `c1-l020` | &emsp;*correm por diuerſas partes.* |  |
 | `c1-l021` | Catçute. Adu. *De nenhũa qualidade, ou nũ-* |  |
@@ -46,7 +46,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l030` | Catçuye, uru, eta. *Morrer de fome, ou paſ* |  |
 | `c1-l031` | &emsp;*ſar grande fome.* |  |
 | `c1-l032` | Cate. *Matafotagẽ, ou mantimentos. ¶* Ca- |  |
-| `c1-l033` | &emsp;teuotçumu. *Ajuntar mantimentos, ¶* Iiẽ. |  |
+| `c1-l033` | &emsp;teuo tçumu. *Ajuntar mantimentos, ¶* Iiẽ. |  |
 | `c1-l034` | &emsp;*Embarcalos, ou metelos ẽ algũa caſa. ¶* Ca |  |
 | `c1-l035` | &emsp;teni tçumaru. *Faltarem os mantimentos.* |  |
 | `c1-l036` | Caten. i. Tenuo cuuayuru. *Acrecentar hũ* |  |
@@ -94,11 +94,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l020` | Caua araxi. *Vento que venta no rio.* |  |
 | `c2-l021` | Cauabacama. *Calçoẽs de couro.* |  |
 | `c2-l022` | Cauabata. *Borda do rio.* |  |
-| `c2-l023` | Cauabei. *Idem.* |  |
-| `c2-l024` | Cauabuçuro. *Bolſa, ou ſaco de couro.* |  |
+| `c2-l023` | Cauaberi. *Idem.* |  |
+| `c2-l024` | Cauabucuro. *Bolſa, ou ſaco de couro.* |  |
 | `c2-l025` | Cauabune. *Embarcação do rio.* |  |
 | `c2-l026` | Cauabuxi. *O deitarſe o caualo no rio.* |  |
-| `c2-l027` | &emsp;Cauabuxiuo ſuru yma. |  |
+| `c2-l027` | &emsp;Cauabuxiuo ſuru vma. |  |
 | `c2-l028` | Cauacaje. *Vento do rio.* |  |
 | `c2-l029` | Cauacami. *Cabeça do rio, ou parte ſuperior* |  |
 | `c2-l030` | &emsp;*do rio.* |  |
