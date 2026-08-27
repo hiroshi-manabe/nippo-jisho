@@ -368,6 +368,36 @@ def apply_resolved(line: dict, item: dict) -> None:
     )
 
 
+def pending_ai_task_path(root: Path, page_id: str) -> Path | None:
+    path = root / "pilot" / "human-review" / "ai-geometry-work" / f"{page_id}.json"
+    if not path.exists():
+        return None
+    try:
+        task = load_json(path)
+    except (OSError, json.JSONDecodeError):
+        return None
+    if task.get("response_status") != "pending_independent_ai_line_review":
+        return None
+    return path
+
+
+def refresh_pending_ai_task(root: Path, page_id: str) -> str | None:
+    path = pending_ai_task_path(root, page_id)
+    if path is None:
+        return None
+    run(
+        [
+            "python3",
+            "scripts/export_ai_geometry_example.py",
+            "--page",
+            page_id,
+            "--working",
+        ],
+        root=root,
+    )
+    return str(path.relative_to(root))
+
+
 def validation_commands(root: Path) -> list[list[str]]:
     return [
         [
@@ -383,9 +413,12 @@ def validation_commands(root: Path) -> list[list[str]]:
     ]
 
 
-def regenerate_and_test(root: Path) -> None:
-    for command in validation_commands(root):
+def regenerate_and_test(root: Path, page_id: str | None = None) -> None:
+    commands = validation_commands(root)
+    for index, command in enumerate(commands):
         run(command, root=root)
+        if page_id is not None and index == 2:
+            refresh_pending_ai_task(root, page_id)
 
 
 def prepare(
@@ -403,7 +436,7 @@ def prepare(
         raise IssueProcessingError(f"page {payload['page']} is not transcribed")
     preliminary = {"page_id": page_id(payload["page"])}
     existing_changes = changed_paths(root)
-    allowed_recovery = expected_paths(preliminary) - {
+    allowed_recovery = expected_paths(preliminary, root) - {
         "pilot/human-review/correction-history.json"
     }
     unexpected_existing = existing_changes - allowed_recovery
@@ -451,7 +484,7 @@ def prepare(
     }
     write_json(report_path(issue_number, root), report)
     try:
-        regenerate_and_test(root)
+        regenerate_and_test(root, report["page_id"])
     except IssueProcessingError as error:
         report["status"] = "validation_failed"
         report["validation_error"] = str(error)
@@ -556,15 +589,19 @@ def update_history(report: dict, accepted_lines: list[str], root: Path) -> None:
     write_json(history_path, history)
 
 
-def expected_paths(report: dict) -> set[str]:
+def expected_paths(report: dict, root: Path = ROOT) -> set[str]:
     stem = report["page_id"]
-    return {
+    paths = {
         f"pilot/format-v1-trial/level1-source/{stem}.md",
         f"pilot/format-v1-trial/level1/{stem}.json",
         f"pilot/format-v1-trial/generated/{stem}-page.md",
         "pilot/format-v1-trial/generated/selected-reading-views.md",
         "pilot/human-review/correction-history.json",
     } | set(report.get("additional_paths", []))
+    pending_task = pending_ai_task_path(root, stem)
+    if pending_task is not None:
+        paths.add(str(pending_task.relative_to(root)))
+    return paths
 
 
 def changed_paths(root: Path) -> set[str]:
@@ -646,9 +683,9 @@ def finalize(
     accepted = [item["line"] for item in report["applied_unflagged"]]
     accepted.extend(apply_second_opinion_decisions(report, root))
     update_history(report, accepted, root)
-    regenerate_and_test(root)
+    regenerate_and_test(root, report["page_id"])
     changed = changed_paths(root)
-    unexpected = changed - expected_paths(report)
+    unexpected = changed - expected_paths(report, root)
     if unexpected:
         raise IssueProcessingError(
             "unexpected tracked changes prevent finalization: "
