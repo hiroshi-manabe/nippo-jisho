@@ -83,7 +83,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l009` | &emsp;*veſtidos.* |  |
 | `c2-l010` | Coye goyeni. *Adu. A vozes, ou cõ gritos* |  |
 | `c2-l011` | &emsp;*de cada hum. Vt,* coyegoyeni nanorette vta- |  |
-| `c2-l012` | &emsp;te idetariqeru. *Taiſ. Lib. 23. Nomeandoſe* |  |
+| `c2-l012` | &emsp;te idetariqeru. Taiſ*. Lib. 23. Nomeandoſe* |  |
 | `c2-l013` | &emsp;*cada hum em alta voz, ſahia ferindo, ou dando* |  |
 | `c2-l014` | &emsp;*nos inimigos.* |  |
 | `c2-l015` | Côyei. Nochino ſacaye. *Fauſtos, ou honrras* |  |

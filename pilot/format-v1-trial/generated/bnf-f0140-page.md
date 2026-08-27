@@ -55,7 +55,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l039` | Cuma. *Vço.* |  |
 | `c1-l040` | Cuma. *Neuo a, ou ſombra que encobre a lũa.* |  |
 | `c1-l041` | &emsp;*Vt,* Itamano meuo tçuqicagueua cuma- |  |
-| `c1-l042` | &emsp;moracatta. *Feiq. Lib. 1. A lũa que* |  |
+| `c1-l042` | &emsp;moracatta. Feiq*. Lib. 1. A lũa que* |  |
 | `c1-l043` | &emsp;*entraua por antre as taboas não tinha ſõura nẽ* |  |
 | `c1-l044` | &emsp;*neuo a. ¶ Item, Sombras da pintura. ¶* Cu- |  |
 | `c1-l045` | &emsp;madoriuo ſuru. *Pintar, ou fazer eſtas ſombras.* |  |

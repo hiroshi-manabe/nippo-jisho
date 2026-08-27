@@ -26,7 +26,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l010` | &emsp;Sono focano guiuo nocchi catari mara- |  |
 | `c1-l011` | &emsp;xǒzu. *O reſtante praticarei depois. ¶* Cu- |  |
 | `c1-l012` | &emsp;gue buquãto fobito yori focaua guegiǔ- |  |
-| `c1-l013` | &emsp;ni fito aritomo miyezariqeri. *Tai. Li-* |  |
+| `c1-l013` | &emsp;ni fito aritomo miyezariqeri. Tai*. Li-* |  |
 | `c1-l014` | &emsp;*bro 30. Tirando os nobres aſſi* Cugues *co-* |  |
 | `c1-l015` | &emsp;*mo caualeiros não auia dentro do* Miyaco *gente.* |  |
 | `c1-l016` | Focafoca. *Adu. Impetuoſamente, ou com* |  |
@@ -105,7 +105,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l031` | Focori. *Pj. ¶* Focoriga tatçu. *Aleuãtarſe p.* |  |
 | `c2-l032` | Focori, ru, otta. *Vaãgloriarſe, ou enſo-* |  |
 | `c2-l033` | &emsp;*berbecerſe. Vt,* Nurichicagiuoua chôuõni |  |
-| `c2-l034` | &emsp;focori. *Feiq. Lib. 1. Eſte homem aleuan-* |  |
+| `c2-l034` | &emsp;focori. Feiq*. Lib. 1. Eſte homem aleuan-* |  |
 | `c2-l035` | &emsp;*tandoſe com as merces do Rei. ¶* Man- |  |
 | `c2-l036` | &emsp;gini focoru. *Enſoberbecerſe.* |  |
 | `c2-l037` | Focorobi, uru, ita. *Deſcoſerſe algũa couſa por ſi.* |  |

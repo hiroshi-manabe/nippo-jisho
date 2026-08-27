@@ -100,7 +100,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l026` | &emsp;*¶* Funeuo nauoſu. *Endereitar a embarca-* |  |
 | `c2-l027` | &emsp;*ção, ou virala pera outro rumo. Vt,* Fune- |  |
 | `c2-l028` | &emsp;uo nauoxigeruga, Icamacunamini vchi |  |
-| `c2-l029` | &emsp;cayeſarete, &c. *Taif. Lib. 33. Go-* |  |
+| `c2-l029` | &emsp;cayeſarete, &c. Taif*. Lib. 33. Go-* |  |
 | `c2-l030` | &emsp;*uernarão a outro rumo, porem com as ondas e-* |  |
 | `c2-l031` | &emsp;*contradas que vinhão ſendo virada, & ſoſſo-* |  |
 | `c2-l032` | &emsp;*brada a* Fune. *¶* Funeuo cogu. *Remar* |  |
@@ -112,7 +112,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l038` | Fûnet. *Febre cauſada de vento, ou ar.* |  |
 | `c2-l039` | Fungomi, u, gôda. *Meter o pè. Vt,* Ca- |  |
 | `c2-l040` | &emsp;ta axiuo anano nacaye fungõde iru toide |  |
-| `c2-l041` | &emsp;gozaru. *Mon. Eſtaua com hum pè ja me-* |  |
+| `c2-l041` | &emsp;gozaru. Mon*. Eſtaua com hum pè ja me-* |  |
 | `c2-l042` | &emsp;*tido na coua. i, Perto de morrer. ¶* Do- |  |
 | `c2-l043` | &emsp;roni fungomu. *Eſtar atolado na lama.* |  |
 | `c2-l044` | Funhoi. Cocorono gotoqu narazu. i, Fubẽ- |  |

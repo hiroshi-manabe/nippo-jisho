@@ -116,7 +116,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l042` | &emsp;*¶* Guanauo fodocu. *No* Ximo *comprir o* |  |
 | `c2-l043` | &emsp;*voto. No* Cami *ſe diz,* Guauo aguru. |  |
 | `c2-l044` | Fodoqi. *O deſatar. Vt,* Fitorodoqini fo- |  |
-| `c2-l045` | &emsp;doite tachiuo toridaſu. *Mon. Deſamarran-* |  |
+| `c2-l045` | &emsp;doite tachiuo toridaſu. Mon*. Deſamarran-* |  |
 | `c2-l046` | &emsp;*do, ou deſatando de hũa vez tirou fora o montan-* |  |
 | `c2-l047` | &emsp;*te. ¶ Item, No* Ximo, *Obra, ou ſeruiço.* |  |
 

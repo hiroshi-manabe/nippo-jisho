@@ -18,7 +18,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l002` | Fanecaqe, uru, eta. *Deſcarregar ſobre alguẽ* |  |
 | `c1-l003` | &emsp;*o que hũm tinha à ſua conta, ou ſobre ſi, ou por* |  |
 | `c1-l004` | &emsp;*lhe a culpa. Vt,* Are coſo ſono jucuxiuo- |  |
-| `c1-l005` | &emsp;ba fabetareto fanecaqeôzure. *Fab. Eu* |  |
+| `c1-l005` | &emsp;ba fabetareto fanecaqeôzure. Fab*. Eu* |  |
 | `c1-l006` | &emsp;*importei àquelle que elle he o que comeo os figos* |  |
 | `c1-l007` | &emsp;*maduros.* |  |
 | `c1-l008` | Fanecayexi, ſu, eita. *Tornar, ou virar co-* |  |
@@ -31,7 +31,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l015` | &emsp;*do couces, &c.* |  |
 | `c1-l016` | Fanefazzuxi, ſu, ita. *Tirar, ou deſfazer* |  |
 | `c1-l017` | &emsp;*com pao, ou lauanca. Vt,* Faxinoba fane- |  |
-| `c1-l018` | &emsp;fazzuxi, &c. *Taif. Lib. 20. Deſmanchan-* |  |
+| `c1-l018` | &emsp;fazzuxi, &c. Taif*. Lib. 20. Deſmanchan-* |  |
 | `c1-l019` | &emsp;*do a ponte com meter hum pao como lauanca* |  |
 | `c1-l020` | &emsp;*por baixo, &c.* |  |
 | `c1-l021` | Fanemocco. *Ceſto, ou couſa ſemelhante em* |  |
@@ -43,7 +43,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l027` | &emsp;*alauanca, &c. Vt,* Goxocujinni xi- |  |
 | `c1-l028` | &emsp;temo voxi fataragi gataga dai banja- |  |
 | `c1-l029` | &emsp;cuno ariqenqun yciro fanevocoxi, &c. |  |
-| `c1-l030` | &emsp;*Taif. lib. 23. Cincoenta, ou 60. homeẽs* |  |
+| `c1-l030` | &emsp;Taif*. lib. 23. Cincoenta, ou 60. homeẽs* |  |
 | `c1-l031` | &emsp;*que tinhão dificuldade em mouer hũa grande* |  |
 | `c1-l032` | &emsp;*pedra que alli auia, & finalmente com alauan-* |  |
 | `c1-l033` | &emsp;*cas todos a hũa ſalteando a arrancarão.* |  |

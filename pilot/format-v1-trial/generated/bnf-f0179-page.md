@@ -22,7 +22,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l006` | Faxitana. *Couſa imperfeita, ou que não he in-* |  |
 | `c1-l007` | &emsp;*teira, & perfeita no numero, &c.* |  |
 | `c1-l008` | Faxitanai. *Couſa aſpera, & riſpida. Vt,* |  |
-| `c1-l009` | &emsp;Faxitanai cotogaranj jaru. *Feiq. Lib.* |  |
+| `c1-l009` | &emsp;Faxitanai cotogaranj jaru. Feiq*. Lib.* |  |
 | `c1-l010` | &emsp;*2. Falar aſperamente, ou moſtrar aſpereza* |  |
 | `c1-l011` | &emsp;*nas palauras.* |  |
 | `c1-l012` | &emsp;Faxitanaſa. |  |
@@ -43,7 +43,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l027` | &emsp;*he* Faxxiqi. |  |
 | `c1-l028` | Faxxi, ſuru, ita. *Afaſtar, ou botar fora.* |  |
 | `c1-l029` | &emsp;*Vt,* Connichi yori chǒruino ichimonuo |  |
-| `c1-l030` | &emsp;faſſuruzoto. *Fab. Deſdoje vos exclui-* |  |
+| `c1-l030` | &emsp;faſſuruzoto. Fab*. Deſdoje vos exclui-* |  |
 | `c1-l031` | &emsp;*mos da familia das aues.* |  |
 | `c1-l032` | Faxxi, ſuru, ita. *Mouer, ou excitar. Vt,* |  |
 | `c1-l033` | &emsp;Icariuo faſſuru. *Agaſtarſe. ¶* Icariga |  |

@@ -29,7 +29,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l013` | &emsp;*varias eruas.* |  |
 | `c1-l014` | Chicuten. *Fugir, ou acolherſe eſcondida-* |  |
 | `c1-l015` | &emsp;*mente & deſaparecer. Vt,* Fayacu ſaqi- |  |
-| `c1-l016` | &emsp;atte chicuten xigereba, &c. *Taiſ. Lib.* |  |
+| `c1-l016` | &emsp;atte chicuten xigereba, &c. Taiſ*. Lib.* |  |
 | `c1-l017` | &emsp;*28. Indo depreça diante, & fugindo.* |  |
 | `c1-l018` | Chicuxô. *Beſta ou animal. Vt,* Reinaqi- |  |
 | `c1-l019` | &emsp;ua chicuxôni uonaji. *O que não tem cor-* |  |
@@ -112,7 +112,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l037` | Chijro. *Mil braças, ou muito fundo. Vt,* |  |
 | `c2-l038` | &emsp;Chijrono vmi. *Mar muito fundo.* |  |
 | `c2-l039` | Chijfai. *Couſa pequena.* |  |
-| `c2-l040` | Chijſo. Adu. |  |
+| `c2-l040` | Chijſo. *Adu.* |  |
 | `c2-l041` | Chiji. *Certo officio no moſteiro dos* Bôzos. |  |
 | `c2-l042` | Chijocu. *Afronta, ou injuria. ¶* Chijo- |  |
 | `c2-l043` | &emsp;cuuo caquru, l, xicaquru. *Injuriar, ou* |  |

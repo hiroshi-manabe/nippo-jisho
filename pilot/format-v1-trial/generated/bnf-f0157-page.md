@@ -91,7 +91,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l010` | Dôji, zuru, ita. *Conſentir.* |  |
 | `c2-l011` | Dôji, zuru, ita. *Mudarſe, ou mouerſe. Vt,* |  |
 | `c2-l012` | &emsp;Fucaqi dôxinja nareba, cotoni dôzuru |  |
-| `c2-l013` | &emsp;coto naxi. *Fox. Lib. 4. Sendo ho-* |  |
+| `c2-l013` | &emsp;coto naxi. Fox*. Lib. 4. Sendo ho-* |  |
 | `c2-l014` | &emsp;*mem de grande deuação, & deſprezo do mun-* |  |
 | `c2-l015` | &emsp;*do não ſe abalaua nem mouia com nada.* |  |
 | `c2-l016` | Dôjǒ. Vgoqu coto, xizzucanarucoto. *In-* |  |

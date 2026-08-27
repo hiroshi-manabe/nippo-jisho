@@ -30,7 +30,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l014` | Foreforeto. *Adu. Modo de andar perdido* |  |
 | `c1-l015` | &emsp;*de amores, ou com algũa outra affeição co-* |  |
 | `c1-l016` | &emsp;*mo alienado. Vt,* Voncocoromo faya |  |
-| `c1-l017` | &emsp;foreforeto natte, &c. *Taif. Lib. 18.* |  |
+| `c1-l017` | &emsp;foreforeto natte, &c. Taif*. Lib. 18.* |  |
 | `c1-l018` | &emsp;*Andando com o coração traſportado, &c.* |  |
 | `c1-l019` | Foregoto. *Melius,* Foreta coto. *Paruo-* |  |
 | `c1-l020` | &emsp;*ice, deſbarate.* |  |

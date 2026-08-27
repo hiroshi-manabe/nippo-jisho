@@ -30,7 +30,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l014` | &emsp;*de bruços.* |  |
 | `c1-l015` | Corobi iri, ru, itta. *Caindo entrar. Vt,* |  |
 | `c1-l016` | &emsp;Cauaguixino fuchiga attani corobi irte, |  |
-| `c1-l017` | &emsp;&c. *Feiq. Lib. 3. Caindo dentro de* |  |
+| `c1-l017` | &emsp;&c. Feiq*. Lib. 3. Caindo dentro de* |  |
 | `c1-l018` | &emsp;*hum pègo que eſtaua ao longo de hũa barroca,* |  |
 | `c1-l019` | &emsp;*ou ſerra alta ſobre o rio. ¶ Item,* Corobi |  |
 | `c1-l020` | &emsp;iru. *Eſtar deitado.* |  |
@@ -108,7 +108,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l028` | &emsp;Coſobayũ. |  |
 | `c2-l029` | Coſocu. Furui nori. *Pontos, idas meditações* |  |
 | `c2-l030` | &emsp;*dos Ienxis. Vt,* Amatano coſocuuo ſanje- |  |
-| `c2-l031` | &emsp;rareta. *Mon. Diſcorreo, & meditou* |  |
+| `c2-l031` | &emsp;rareta. Mon*. Diſcorreo, & meditou* |  |
 | `c2-l032` | &emsp;*muitos pontos dos que dão os Ienxis.* |  |
 | `c2-l033` | Coſode. *Veſtido de ſeda, ou* Tçu mugui. |  |
 | `c2-l034` | Coſogue, uru, eta. *Raſpar.* |  |

@@ -129,7 +129,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l040` | Cucai. Curuximino vmi. *Mar de tormen-* |  |
 | `c2-l041` | &emsp;*tos. i. Mundo.* |  |
 | `c2-l042` | Cucchù. Anano uchi. *Dentro na coua. Vt,* |  |
-| `c2-l043` | &emsp;Xixi cucchini ijri naxi. *Xix. Eſtando o* |  |
+| `c2-l043` | &emsp;Xixi cucchini ijri naxi. Xix*. Eſtando o* |  |
 | `c2-l044` | &emsp;*lião na ſua coua, nenhum outro animal ouſa* |  |
 | `c2-l045` | &emsp;*entrar.* |  |
 | `c2-l046` | Cuchi. *Boca. ¶* Cuchiga vô. *Concor-* |  |

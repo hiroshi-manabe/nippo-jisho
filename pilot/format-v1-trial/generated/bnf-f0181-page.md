@@ -108,7 +108,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l025` | &emsp;*que hum tinha.* |  |
 | `c2-l026` | Fei. i, Tçuuamono. *Soldado. Vt,* Feitçu- |  |
 | `c2-l027` | &emsp;caruru toqiniha, xǒ no-i. voconauarezu. |  |
-| `c2-l028` | &emsp;*Xix. Quando os ſoldados eſtão canſados o* |  |
+| `c2-l028` | &emsp;Xix*. Quando os ſoldados eſtão canſados o* |  |
 | `c2-l029` | &emsp;*capitão não tem poder nem brio. S.* |  |
 | `c2-l030` | Fei. *Hũa cana com hũs papeis cortados na põta,* |  |
 | `c2-l031` | &emsp;*conq̃ fazem certas ceremonias diante do* Cami. |  |

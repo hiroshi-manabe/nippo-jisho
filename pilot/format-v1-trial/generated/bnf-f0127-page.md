@@ -51,7 +51,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l035` | Coqe. *Muſgo que nace nas pedras. ¶* Co- |  |
 | `c1-l036` | &emsp;qemuxi. *Hauer muitos moſgos. Vt,* No- |  |
 | `c1-l037` | &emsp;quiniua coqe fucaqu muxite tçugifaye |  |
-| `c1-l038` | &emsp;vtocu narini qeri. *Taiſ. lib. 3. Tendo* |  |
+| `c1-l038` | &emsp;vtocu narini qeri. Taiſ*. lib. 3. Tendo* |  |
 | `c1-l039` | &emsp;*nacido muito muſgo no bordo do telhado ja* |  |
 | `c1-l040` | &emsp;*a lũa não entraua tam clara.* |  |
 | `c1-l041` | Cǒqe. Tadai iye. *Caſa, ou familia nobre.* |  |

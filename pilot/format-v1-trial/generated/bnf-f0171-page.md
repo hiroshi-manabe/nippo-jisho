@@ -118,7 +118,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l037` | Faqicaqe, uru, eta. *Cuſpir ſobre algũa couſa.* |  |
 | `c2-l038` | &emsp;*Vt,* Fitono vyeuo vtçayuru monoua chi- |  |
 | `c2-l039` | &emsp;uo fucunde fitoni faqicaquruto vonaji |  |
-| `c2-l040` | &emsp;cotogia. *Fab. O que acuſa a outros, he co-* |  |
+| `c2-l040` | &emsp;cotogia. Fab*. O que acuſa a outros, he co-* |  |
 | `c2-l041` | &emsp;*mo o que com a boca chea de ſangue coſpe em* |  |
 | `c2-l042` | &emsp;*outro ficãdo elle tambẽ ſujo, & enſangoentado.* |  |
 | `c2-l043` | Faqichiraxi, ſu, aita. *Varrendo eſpalhar.* |  |

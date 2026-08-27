@@ -77,7 +77,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l003` | Daigomi. *Hũa iguaria feita de leite de mui-* |  |
 | `c2-l004` | &emsp;*to goſto.* |  |
 | `c2-l005` | Daigono jǒmi. *Idem. Vt,* Daigono |  |
-| `c2-l006` | &emsp;jǒmi ſenjite docuyacu to naru. *Xix.* |  |
+| `c2-l006` | &emsp;jǒmi ſenjite docuyacu to naru. Xix*.* |  |
 | `c2-l007` | &emsp;*Fazer da mezinha, ou bom manjar, peçonha.* |  |
 | `c2-l008` | Daiguan. Vǒqina negai. *Grandes votos, ou* |  |
 | `c2-l009` | &emsp;*deſejos.* |  |

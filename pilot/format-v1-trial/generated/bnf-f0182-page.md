@@ -22,7 +22,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l006` | Feifeito. *Modo de eſtar a couſa praina. ¶* Fei- |  |
 | `c1-l007` | &emsp;feito xita vmi. *Mar praino, & quieto. Vt,* |  |
 | `c1-l008` | &emsp;Feifeito xitaruno nacani ginuo tari, &c. |  |
-| `c1-l009` | &emsp;*Taif. Lib. 30. Aſſentando o arrayal ẽ* |  |
+| `c1-l009` | &emsp;Taif*. Lib. 30. Aſſentando o arrayal ẽ* |  |
 | `c1-l010` | &emsp;*hum campo largo, & raſo.* |  |
 | `c1-l011` | Feifǒ. *Arte de eſgrima. ¶* Feifǒuo tçu- |  |
 | `c1-l012` | &emsp;cǒ. *Vſar da arte de eſgrima.* |  |
@@ -96,7 +96,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l022` | &emsp;*ſarou, ou eſta ſaã.* |  |
 | `c2-l023` | Femeguri, u, utta. *Deſcorrer de hũa parte* |  |
 | `c2-l024` | &emsp;*pera outra. Vt,* Canata conatauo femegu- |  |
-| `c2-l025` | &emsp;ri maraxita. *Mon. Andei rodeando por* |  |
+| `c2-l025` | &emsp;ri maraxita. Mon*. Andei rodeando por* |  |
 | `c2-l026` | &emsp;*diuerſas partes.* |  |
 | `c2-l027` | Fen. Fotori. *Borda, parte, ou lugar.* |  |
 | `c2-l028` | &emsp;*¶* Cono fen. *Aqui. ¶* Sono fen. *A-* |  |

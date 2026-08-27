@@ -90,7 +90,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l010` | Fuye. *Garganta.* |  |
 | `c2-l011` | Fuye. *Frauta. Vt,* Fuyeuo fuqu. *Tanger* |  |
 | `c2-l012` | &emsp;*a frauta. ¶* Tçuzzumiuo naraxi, fu- |  |
-| `c2-l013` | &emsp;yeuo fuqitatetareba, &c. *Tai. L. 28.* |  |
+| `c2-l013` | &emsp;yeuo fuqitatetareba, &c. Tai*. L. 28.* |  |
 | `c2-l014` | &emsp;*Tangendo o tabaquinho, & a frauta.* |  |
 | `c2-l015` | Fuyeqi. Cauarazu. *Não ſe mudar. ¶* Fu- |  |
 | `c2-l016` | &emsp;yeqina coto. *Couſa immutauel, & per-* |  |

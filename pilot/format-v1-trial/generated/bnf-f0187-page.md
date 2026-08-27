@@ -96,7 +96,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l021` | &emsp;*do rio, ou que alagou os campos. ¶ Item,* |  |
 | `c2-l022` | &emsp;*Eſprayar, ou vazar a maré. Vt,* Vxiro- |  |
 | `c2-l023` | &emsp;uo yamadano doroga ſucǒ, mayeua fi agate, |  |
-| `c2-l024` | &emsp;*&c. Feiq. Lib. 5. Nas coſtas,* |  |
+| `c2-l024` | &emsp;*&c.* Feiq*. Lib. 5. Nas coſtas,* |  |
 | `c2-l025` | &emsp;*o lodo das varzeas do monte era ſumido, por di-* |  |
 | `c2-l026` | &emsp;*ante a maré eſtando vazia, &c.* |  |
 | `c2-l027` | Fiai. Canaximu, auaremu. *Triſteza, &* |  |

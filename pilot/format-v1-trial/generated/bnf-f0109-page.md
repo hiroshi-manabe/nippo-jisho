@@ -25,7 +25,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l009` | Chito. Aduerb. *Hum pouco.* |  |
 | `c1-l010` | Chitô. Iqeno tçutçumi. *Vallo de repre-* |  |
 | `c1-l011` | &emsp;*za, ou de lago dagua.* |  |
-| `c1-l012` | Chitochito. Adu. *Hum poucachinho.* |  |
+| `c1-l012` | Chitochito. *Adu. Hum poucachinho.* |  |
 | `c1-l013` | Chitocu. Xiru tocu. *Qualidades, ou partes* |  |
 | `c1-l014` | &emsp;*de ſaber. i. Saber, ou ſciencia.* |  |
 | `c1-l015` | Chitomeguſa. *Erua de eſtanar o ſangue.* |  |

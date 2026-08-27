@@ -117,7 +117,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l042` | Cotocomacani. *Muito miudamente.* |  |
 | `c2-l043` | Coto conguen. *Cauſa, & raiz dalgũa cou-* |  |
 | `c2-l044` | &emsp;*ſa. ¶* Coto corguenichijchu xidai môxi- |  |
-| `c2-l045` | &emsp;tareba. *Feiq. 4. Contendo per ſua or-* |  |
+| `c2-l045` | &emsp;tareba. Feiq*. 4. Contendo per ſua or-* |  |
 | `c2-l046` | &emsp;*dem cada couſa, & o principio, ou origem* |  |
 | `c2-l047` | &emsp;*de tudo.* |  |
 

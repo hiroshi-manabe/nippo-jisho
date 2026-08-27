@@ -48,7 +48,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l032` | Fumixizzume, uru, eta. *Meter no fundo* |  |
 | `c1-l033` | &emsp;*carregando muito os que ſe embarcão. ¶* Fune- |  |
 | `c1-l034` | &emsp;uo fumixizzumete mina xinarete gozaru. |  |
-| `c1-l035` | &emsp;*Feiq. Lib. 3. Metendo a embarcação* |  |
+| `c1-l035` | &emsp;Feiq*. Lib. 3. Metendo a embarcação* |  |
 | `c1-l036` | &emsp;*no fundo os que ſe embarcarão morrerão todos.* |  |
 | `c1-l037` | Fumiyaburi, u, utta. *Quebrar, ou deſman-* |  |
 | `c1-l038` | &emsp;*char com os pés.* |  |

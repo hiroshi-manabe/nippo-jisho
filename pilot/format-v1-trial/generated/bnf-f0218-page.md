@@ -27,7 +27,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l011` | &emsp;*ou mãy. Vt,* Qinino tameniua fuchino |  |
 | `c1-l012` | &emsp;mito nari, chichino tameniua fucǒno co- |  |
 | `c1-l013` | &emsp;to naru beqinite ſoro aida, &c. Taif. |  |
-| `c1-l014` | &emsp;Lib. 26. *Por quanto pera com o ſenhor* |  |
+| `c1-l014` | &emsp;*Lib. 26. Por quanto pera com o ſenhor* |  |
 | `c1-l015` | &emsp;*era deſleal, & pera com o pay deſobediente,* |  |
 | `c1-l016` | &emsp;*&c. Item, Deſobediencia pera com o ſe-* |  |
 | `c1-l017` | &emsp;*nhor, ou meſtre.* |  |

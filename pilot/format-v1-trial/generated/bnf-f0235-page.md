@@ -42,7 +42,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l026` | Guen. *Sinal, ou effeito dalgũa couſa como de* |  |
 | `c1-l027` | &emsp;*doença que ſara, &c. Vt,* Qiyomori |  |
 | `c1-l028` | &emsp;Xujuno qitǒ nadowo xeraretaredomo, ſo- |  |
-| `c1-l029` | &emsp;no guenga nacatta. *Fei. lib. i. Qiyomori* |  |
+| `c1-l029` | &emsp;no guenga nacatta. Fei*. lib. i. Qiyomori* |  |
 | `c1-l030` | &emsp;*fez varias deprecações, &c. mas não ouue* |  |
 | `c1-l031` | &emsp;*ſinal nem effeito, ou melhoria da doença.* |  |
 | `c1-l032` | Guena. *Particula que ſe ajunta, & poſtpo-* |  |

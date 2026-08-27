@@ -40,7 +40,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l024` | &emsp;*te ſem ceſſar.* |  |
 | `c1-l025` | Fitamono. *Adu. Muito, & continuada-* |  |
 | `c1-l026` | &emsp;*mente. Vt,* Soreni yotte Chriſtão fita- |  |
-| `c1-l027` | &emsp;mononi fanjǒ tçucamatçuru. *Mon. Por* |  |
+| `c1-l027` | &emsp;mononi fanjǒ tçucamatçuru. Mon*. Por* |  |
 | `c1-l028` | &emsp;*iſſo a chriſtandade não fazia ſe não crecer, &* |  |
 | `c1-l029` | &emsp;*dilatarſe.* |  |
 | `c1-l030` | Fitan. Caraximi, naguegu. *Entriſtecerſe,* |  |
@@ -74,7 +74,7 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c2-l001` | Fitaxi, ſu, aita. *Enſopar, ou molhar muito. Vt,* |  |
 | `c2-l002` | &emsp;Yamabato fuxẽ tobi qitatte tçubasauo miz- |  |
-| `c2-l003` | &emsp;zuni fitaite, &c. *Taif. Lib. 29. Vin-* |  |
+| `c2-l003` | &emsp;zuni fitaite, &c. Taif*. Lib. 29. Vin-* |  |
 | `c2-l004` | &emsp;*do voando milhares de pombos trocazes banha-* |  |
 | `c2-l005` | &emsp;*uão as aſas na agoa. ¶* Vmi, cumouo fi- |  |
 | `c2-l006` | &emsp;taſu. *Chegarem as ondas às nuuẽs como ba-* |  |
@@ -106,7 +106,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l032` | &emsp;*eſcrito. S.* |  |
 | `c2-l033` | Fitmet. Canarazu meſſuru. *Deſtruirſe, ou* |  |
 | `c2-l034` | &emsp;*acabarſe. Vt,* Xǒja fitmet. *Os que nacẽ* |  |
-| `c2-l035` | &emsp;*ſem falta acabão. Feiq. Lib. 4.* |  |
+| `c2-l035` | &emsp;*ſem falta acabão.* Feiq*. Lib. 4.* |  |
 | `c2-l036` | Fitǒ. Acai momo. *Flor de peſſegueiro muito* |  |
 | `c2-l037` | &emsp;*vermelha.* |  |
 | `c2-l038` | Fito. *Homem, ou molher.* |  |

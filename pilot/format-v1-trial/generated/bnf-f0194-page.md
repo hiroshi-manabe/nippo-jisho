@@ -44,7 +44,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l028` | &emsp;*mouer o coração.* |  |
 | `c1-l029` | Fiqinaraxi, ſu, aita. *Fazer ſoar os inſtrumẽ-* |  |
 | `c1-l030` | &emsp;*tos, &c. Vt,* Biuano catachiuo tçucuri, |  |
-| `c1-l031` | &emsp;vmano vouo caqe fiqi naraxi, &c. *Fox.* |  |
+| `c1-l031` | &emsp;vmano vouo caqe fiqi naraxi, &c. Fox*.* |  |
 | `c1-l032` | &emsp;*Lib. 4. Fazendo hũa forma de viola, &* |  |
 | `c1-l033` | &emsp;*pondo lhe ſedas de caualo por cordas a fez* |  |
 | `c1-l034` | &emsp;*ſoar.* |  |

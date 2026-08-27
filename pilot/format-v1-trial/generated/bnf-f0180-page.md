@@ -39,7 +39,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l023` | &emsp;*iſſo? No* Cami *ſe diz,* Itçunomani. |  |
 | `c1-l024` | Fazama. *Idem. ¶ Vt,* Vchinimo tçuuai- |  |
 | `c1-l025` | &emsp;monodomo ſima fazamamonǒ michini |  |
-| `c1-l026` | &emsp;chite itta. *Feiq. lib. 1. Entrarão os ſolda-* |  |
+| `c1-l026` | &emsp;chite itta. Feiq*. lib. 1. Entrarão os ſolda-* |  |
 | `c1-l027` | &emsp;*dos dentro de maneira que eſtaua tudo cheo.* |  |
 | `c1-l028` | Fazamari, u, atta. *Eſtar entalado, ou poſto* |  |
 | `c1-l029` | &emsp;*entre duas couſas.* |  *( couſas.* |
@@ -102,7 +102,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l028` | &emsp;*raçado, & como brincando. Vt,* Vnano |  |
 | `c2-l029` | &emsp;axino voyebǒ fodocua tazzunauo curete |  |
 | `c2-l030` | &emsp;ayumaxei, fazzumaba tazzunauo cutte |  |
-| `c2-l031` | &emsp;voyogaxei. *Feiq. Lib. 2. Fazei an-* |  |
+| `c2-l031` | &emsp;voyogaxei. Feiq*. Lib. 2. Fazei an-* |  |
 | `c2-l032` | &emsp;*dar o caualo largando lhe as redeas quanto elle* |  |
 | `c2-l033` | &emsp;*poder, & ſe for muito apreſſado puxando lhe* |  |
 | `c2-l034` | &emsp;*pellas redeas fazey o nadar.* |  |

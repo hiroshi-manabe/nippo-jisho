@@ -30,7 +30,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l014` | Faxearuqi, u, uita. *Correr de cá, pera lá.* |  |
 | `c1-l015` | Faxeauaxe, ſuru, eta. *Fazer encontrar.* |  |
 | `c1-l016` | &emsp;*Vt,* Areni faxeauaxe, coreni faxiauaxe |  |
-| `c1-l017` | &emsp;tatacôta. *Feiq. Lib. 4. Pelejaua en-* |  |
+| `c1-l017` | &emsp;tatacôta. Feiq*. Lib. 4. Pelejaua en-* |  |
 | `c1-l018` | &emsp;*contrandoſe ora com aquelle, ora com eſte.* |  |
 | `c1-l019` | Faxecayeri, u, etta. *Tornarſe de preſſa.* |  |
 | `c1-l020` | Faxetçudoi, ô, ôta. *Vir muita gente con-* |  |

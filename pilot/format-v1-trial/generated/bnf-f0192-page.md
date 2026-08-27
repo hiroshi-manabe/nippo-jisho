@@ -45,7 +45,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l029` | Fiqiatçume, uru, eta. *Puxando ajuntar.* |  |
 | `c1-l030` | Fiqiate, tçuru, eta. *Puxando por ſobre algũa* |  |
 | `c1-l031` | &emsp;*couſa. Vt,* Catanauo nuqidaite, biru fi- |  |
-| `c1-l032` | &emsp;qiateraretareba, &c. *Feiq. Lib. 1.* |  |
+| `c1-l032` | &emsp;qiateraretareba, &c. Feiq*. Lib. 1.* |  |
 | `c1-l033` | &emsp;*Deſembainhando a* Catana *chegou a, & paſ-* |  |
 | `c1-l034` | &emsp;*ſou a pellos cabellos das fontes pera que melhor* |  |
 | `c1-l035` | &emsp;*cortaſſe.* |  |

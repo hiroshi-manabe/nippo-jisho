@@ -86,7 +86,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l005` | Coxiraye, uru, eta. *Concertar, ou aparelhar.* |  |
 | `c2-l006` | Coxirayetate, tçuru, eta. *Acabar de con-* |  |
 | `c2-l007` | &emsp;*certar. ¶* Saraba acai aidani yô coxira- |  |
-| `c2-l008` | &emsp;yetatete vocôzu. *Mon. Ia que aſſi he* |  |
+| `c2-l008` | &emsp;yetatete vocôzu. Mon*. Ia que aſſi he* |  |
 | `c2-l009` | &emsp;*enquanto hà luz deixa deixarei concertado, &* |  |
 | `c2-l010` | &emsp;*acabado bem.* |  |
 | `c2-l011` | Côxit. *Molher viuua.* |  |

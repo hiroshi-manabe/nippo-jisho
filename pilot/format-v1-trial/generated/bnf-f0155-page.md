@@ -14,7 +14,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1a-l001` | &emsp;taca? *Mon. As obras vão ſe pouco mais* |  |
+| `c1a-l001` | &emsp;taca? Mon*. As obras vão ſe pouco mais* |  |
 | `c1a-l002` | &emsp;*ou menos acabando?* |  |
 | `c1a-l003` | Detachi. *Concerto do veſtido.* |  |
 | `c1a-l004` | Detachi. *Comer antes de ſe partir pera fora.* |  |

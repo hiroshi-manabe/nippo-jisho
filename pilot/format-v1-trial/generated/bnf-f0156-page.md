@@ -91,7 +91,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l016` | &emsp;ſu. *Ir em companhia.* |  |
 | `c2-l017` | Dôdo. *Adu. Modo de cair. Vt,* Dôdo |  |
 | `c2-l018` | &emsp;votçuru. *¶* Vmaua coſizauo votte dô- |  |
-| `c2-l019` | &emsp;do ſuru. *Taiſ. Lib. 29. O caualo do-* |  |
+| `c2-l019` | &emsp;do ſuru. Taiſ*. Lib. 29. O caualo do-* |  |
 | `c2-l020` | &emsp;*brando os joelhos deitaſe.* |  |
 | `c2-l021` | Dodomecaxi, ſu, aita. *Fazer traquina-* |  |
 | `c2-l022` | &emsp;*da, ou reboliço.* |  |

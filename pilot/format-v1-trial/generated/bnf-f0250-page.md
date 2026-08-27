@@ -92,7 +92,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l018` | Guſocuxi, ſuru. *Ter, ou leuar cõſigo. Vt,* |  |
 | `c2-l019` | &emsp;Moricata cono vacaguimiuo guſocu xite. |  |
 | `c2-l020` | &emsp;*Leuando eſte homem conſigo o minino principe,* |  |
-| `c2-l021` | &emsp;*ou filho do Cubo. Tait. Lib. 10.* |  |
+| `c2-l021` | &emsp;*ou filho do Cubo.* Tait*. Lib. 10.* |  |
 | `c2-l022` | Guſocuya. *Armeiro, ou o que faz, ou tece* |  |
 | `c2-l023` | &emsp;*as armas. ¶ Item, Caſa onde ſe fazem.* |  |
 | `c2-l024` | Gutacu. *Minha caſa vil.* |  |

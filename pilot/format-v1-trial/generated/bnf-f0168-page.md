@@ -39,7 +39,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l023` | &emsp;*ſeta. ¶ Item, Largar, ou ſoltar paſſaros,* |  |
 | `c1-l024` | &emsp;*& animaes. Vt,* Rôguinno inadomo uo |  |
 | `c1-l025` | &emsp;ichimifacoizzuçũ fanachi auix tareba, |  |
-| `c1-l026` | &emsp;*&c. Taif. Lib. 5. Soltando, & fa-* |  |
+| `c1-l026` | &emsp;*&c.* Taif*. Lib. 5. Soltando, & fa-* |  |
 | `c1-l027` | &emsp;*zendo pellejar de cada exercito cento, ou duzẽ-* |  |
 | `c1-l028` | &emsp;*tos cães, etc. ¶* Ficarino fanatçu. *Reſplan-* |  |
 | `c1-l029` | &emsp;*decer, ou dar claridade, & reſplandor.* |  |

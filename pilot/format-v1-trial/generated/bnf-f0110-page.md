@@ -30,7 +30,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l014` | &emsp;*pancadas, ou açoutes.* |  |
 | `c1-l015` | Chǒchin. Cacagu tomoxibi. *Lanternas q̃* |  |
 | `c1-l016` | &emsp;*ſe leuão na mão quando ſe caminha.* |  |
-| `c1-l017` | Chǒchǒdo. Adu. *Modo de eſpançar.* |  |
+| `c1-l017` | Chǒchǒdo. *Adu. Modo de eſpançar.* |  |
 | `c1-l018` | &emsp;*¶* Chǒchǒdo ytçu. *Dar pancadas em* |  |
 | `c1-l019` | &emsp;*alguem.* |  |
 | `c1-l020` | Chôchôxij. Vt, Chôchôxij fito. *Homẽ* |  |
@@ -104,7 +104,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l030` | &emsp;*conſulta.* |  |
 | `c2-l031` | Chôdan. Tçuriſuru nada. *Lugar onde ſe peſ-* |  |
 | `c2-l032` | &emsp;*ca ao longo da terra. P.* |  |
-| `c2-l033` | Chǒdo. Adu. *Iuſtamente, ou ſem tirar nẽ* |  |
+| `c2-l033` | Chǒdo. *Adu. Iuſtamente, ou ſem tirar nẽ* |  |
 | `c2-l034` | &emsp;*por. ¶ Item, Modo de dar pancadas. Vt,* |  |
 | `c2-l035` | &emsp;Chǒdo ytçu. |  |
 | `c2-l036` | Chǒdǒ. Nagai michi. *Caminho comprido.* |  |

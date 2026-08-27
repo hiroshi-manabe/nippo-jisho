@@ -106,7 +106,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l026` | Fachi fachito. *Adu. Certo modo de ſoar* |  |
 | `c2-l027` | &emsp;*batendo, ou de ſoar algũa couſa ardendo no fo-* |  |
 | `c2-l028` | &emsp;*go como canas quando eſtalão pollos nós, &c.* |  |
-| `c2-l029` | &emsp;¶ Fachifachito vtçu. *Mon. Bater de cer-* |  |
+| `c2-l029` | &emsp;¶ Fachifachito vtçu. Mon*. Bater de cer-* |  |
 | `c2-l030` | &emsp;*to modo teſo, ou rijo.* |  |
 | `c2-l031` | Fachifiraqi. *Pedinte.* |  |
 | `c2-l032` | Fachigicu. *Oito liuros, ou partes que tem o Fo-* |  |

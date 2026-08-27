@@ -91,7 +91,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l011` | Gai. Coroſu. *Vt,* Gaiſuru. *Matar.* |  |
 | `c2-l012` | &emsp;*¶* Gaiuo manequ. *Prouocar, ou buſcar* |  |
 | `c2-l013` | &emsp;*a morte. Vt,* Toriauo yaxinǒte mizzuca- |  |
-| `c2-l014` | &emsp;ra gaiuo maneqi, &c. *Taiſ. Lib. 36.* |  |
+| `c2-l014` | &emsp;ra gaiuo maneqi, &c. Taiſ*. Lib. 36.* |  |
 | `c2-l015` | &emsp;*Crai o coruo, & tirar vos ha o olho, aſſi criã-* |  |
 | `c2-l016` | &emsp;*do ao tigre he grangear a morte.* |  |
 | `c2-l017` | Gai. *Preſunção, ou proprio parecer em que ſe* |  |

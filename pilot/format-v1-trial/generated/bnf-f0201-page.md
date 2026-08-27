@@ -92,7 +92,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l018` | &emsp;*fora, ou caminhar, não ter companhia. B.* |  |
 | `c2-l019` | Fitozzute. *Recado por terceira peſſoa. Vt,* |  |
 | `c2-l020` | &emsp;Fitozzuteni môſumajij cotogiato yǔte, |  |
-| `c2-l021` | &emsp;*&c. Feiq. Lib. 1. Dizendo que era* |  |
+| `c2-l021` | &emsp;*&c.* Feiq*. Lib. 1. Dizendo que era* |  |
 | `c2-l022` | &emsp;*couſa que não auia de dizer por recado.* |  |
 | `c2-l023` | Fitoye. *Couſa ſingella.* |  |
 | `c2-l024` | Fitoye bucuro. *ſaco ſem forro.* |  |

@@ -50,8 +50,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l034` | &emsp;*alegria, miſerza, preſſa, &c.* |  |
 | `c1-l035` | Fumifanachi, tçu, aita. *Lançar com os pés,* |  |
 | `c1-l036` | &emsp;*ou deſcaualgar. Vt,* Mina vmauo fumi fa- |  |
-| `c1-l037` | &emsp;natte, cachidachini natte, &c. *Taif.* |  |
-| `c1-l038` | &emsp;Lib. 26. *Todos deſcaualgando dos caua-* |  |
+| `c1-l037` | &emsp;natte, cachidachini natte, &c. Taif*.* |  |
+| `c1-l038` | &emsp;*Lib. 26. Todos deſcaualgando dos caua-* |  |
 | `c1-l039` | &emsp;*los, & pondo ſe a pee.* |  |
 | `c1-l040` | Fumifazzuxi, ſu, uita. *Por o pee em vão.* |  |
 | `c1-l041` | Fumifiraqi, qu, aita. *Tornar com algũ pee* |  |
@@ -79,7 +79,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l005` | &emsp;*caminho perdido de cà pera là. ¶* Michiuo |  |
 | `c2-l006` | &emsp;fumimayô. *Idem. Vt,* Tǒzai curete |  |
 | `c2-l007` | &emsp;furu yugini michiuo fumimayoite teqigin |  |
-| `c2-l008` | &emsp;yezo mayoi itatari qeri. *Taif. Lib.* |  |
+| `c2-l008` | &emsp;yezo mayoi itatari qeri. Taif*. Lib.* |  |
 | `c2-l009` | &emsp;17. *Eſtando o ceo toldado, & eſcuro, &* |  |
 | `c2-l010` | &emsp;*errando o caminho por cauſa da neue que cho-* |  |
 | `c2-l011` | &emsp;*ueo, foi deſgarrar no arrayal dos inimigos.* |  |
@@ -103,7 +103,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l029` | &emsp;*os eſtribos aleuantandoſe, & dando lugar* |  |
 | `c2-l030` | &emsp;*pera apertar a ſilha. Vt,* Sǒno abumiuo |  |
 | `c2-l031` | &emsp;fumisucaxite tazzunauo vmano cõeçanni |  |
-| `c2-l032` | &emsp;ſurete, &c. *Feiq. Lib. 4. Pondoſe a-* |  |
+| `c2-l032` | &emsp;ſurete, &c. Feiq*. Lib. 4. Pondoſe a-* |  |
 | `c2-l033` | &emsp;*leuantado com os pees ſobre ambos os eſtribos,* |  |
 | `c2-l034` | &emsp;*& lançando as redeas ſobre a coma do caualo.* |  |
 | `c2-l035` | Fumisuye, uru, eta. *Eſtribarſe bem com os* |  |

@@ -39,7 +39,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l023` | Fuqiberi. *Quebras da prata na fundição.* |  |
 | `c1-l024` | Fuqicacari, u, atta. *Dar o vento, ou fogo* |  |
 | `c1-l025` | &emsp;*em algũa couſa. Vt,* Miǒqua tǒzai yori |  |
-| `c1-l026` | &emsp;fuqicacatte. *Taif. Lib. 15. Dando* |  |
+| `c1-l026` | &emsp;fuqicacatte. Taif*. Lib. 15. Dando* |  |
 | `c1-l027` | &emsp;*o incendio aleuantado do Leſte, & Sul.* |  |
 | `c1-l028` | Fuqicaqe, uru, eta. *Dar o vento ſobre algũa* |  |
 | `c1-l029` | &emsp;*couſa, ou aleuantar incendio, &c. Vt,* |  |

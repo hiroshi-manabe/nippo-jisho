@@ -83,7 +83,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l009` | Fuqe, uru, eta. *Fazerſe de muita idade, ou* |  |
 | `c2-l010` | &emsp;*alta noite. Vt,* Miya vǒniacurauo cata- |  |
 | `c2-l011` | &emsp;mugeſaxe tamayeba, fito mina xizzuma- |  |
-| `c2-l012` | &emsp;rite, yo fudeni fuqeni yeri. *Taif. Lib.* |  |
+| `c2-l012` | &emsp;rite, yo fudeni fuqeni yeri. Taif*. Lib.* |  |
 | `c2-l013` | &emsp;18. *A Rainha encoſtandoſe, & aquietan-* |  |
 | `c2-l014` | &emsp;*doſe todos: fezſe quaſi alta noite. ¶* Toxiga |  |
 | `c2-l015` | &emsp;fuqeta. *He ja de muita idade.* |  |

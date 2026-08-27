@@ -50,7 +50,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l034` | &emsp;*lhão a ordidura da ſeda.* |  |
 | `c1-l035` | Chiracaxi, ſu, aita. Melius chiraxi, ſu. |  |
 | `c1-l036` | &emsp;*Eſpalhar, ou derramar.* |  |
-| `c1-l037` | Chirachirato. Adu. *Logo depreſſa. ¶ Item,* |  |
+| `c1-l037` | Chirachirato. *Adu. Logo depreſſa. ¶ Item,* |  |
 | `c1-l038` | &emsp;*Modo de bulir, ou meuer ſe algũa couſa.* |  |
 | `c1-l039` | Chiraxi, ſu, aita. *Eſpalhar. ¶* Fanauo |  |
 | `c1-l040` | &emsp;chiraſu. *Eſpalhar flores, ou fazer algũa cou-* |  |
@@ -77,15 +77,15 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l003` | Chiribame, uru, eta. *Laurar, ou ornar al-* |  |
 | `c2-l004` | &emsp;*gũa couſa cõ ouro, ou prata. ¶* Qinguin- |  |
 | `c2-l005` | &emsp;xippôuo chiribamete, rurioi, betta mi- |  |
-| `c2-l006` | &emsp;yano vchiye mairi, &c. *Feiq. Lib.* |  |
+| `c2-l006` | &emsp;yano vchiye mairi, &c. Feiq*. Lib.* |  |
 | `c2-l007` | &emsp;*4. Entrando dentro na ermida do* Cami *que* |  |
 | `c2-l008` | &emsp;*eſtaua toda cozida em ouro, & prata, & or-* |  |
 | `c2-l009` | &emsp;*nada de pedras precioſas.* |  |
-| `c2-l010` | Chirichirito. Adu. *Modo de correr viua,* |  |
+| `c2-l010` | Chirichirito. *Adu. Modo de correr viua,* |  |
 | `c2-l011` | &emsp;*& ligeiramente. ¶ Item, Modo de gote-* |  |
 | `c2-l012` | &emsp;*jar, ou cair agoa.* |  |
 | `c2-l013` | Chirigami. *Certo papel muito baixo.* |  |
-| `c2-l014` | Chirigiri. Adu. *Modo de ſe eſpalhar per* |  |
+| `c2-l014` | Chirigiri. *Adu. Modo de ſe eſpalhar per* |  |
 | `c2-l015` | &emsp;*diuerſas partes. ¶* Chirigirini naru. *Es-* |  |
 | `c2-l016` | &emsp;*palharſe, & diuidirſe pera varias partes.* |  |
 | `c2-l017` | Chirimidare, ruru, eta. *Eſpalharemſe flores,* |  |
@@ -101,7 +101,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l027` | Chiriuiqi, u, ijta. *Eſtarem folhas, roſas,* |  |
 | `c2-l028` | &emsp;*&c. eſpalhadas no chão, ou eſtar o chão co-* |  |
 | `c2-l029` | &emsp;*mo juncado, & cuberto deſtas couſas.* |  |
-| `c2-l030` | Chirichirito. Adu. *Modo de deſaparecer* |  |
+| `c2-l030` | Chirichirito. *Adu. Modo de deſaparecer* |  |
 | `c2-l031` | &emsp;*às vezes, & tornar aparecer eſtrela, cometa,* |  |
 | `c2-l032` | &emsp;*&c. ¶ Item, Modo de bulir algũa couſa.* |  |
 | `c2-l033` | Chiromecaxi, u, aita. *Fazer bulir, ou* |  |

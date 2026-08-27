@@ -22,7 +22,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l006` | &emsp;uo tataqu. *Palrrar muito. ¶* Cuchiuo |  |
 | `c1-l007` | &emsp;tozzuru. *Fechar a boca. ¶ Item, Ca-* |  |
 | `c1-l008` | &emsp;*larſe. Vt,* Xonin mina xitauo maqi, cu- |  |
-| `c1-l009` | &emsp;chiuo tozzu. *Taiſei. Lib. 1. Todos* |  |
+| `c1-l009` | &emsp;chiuo tozzu. Taiſei*. Lib. 1. Todos* |  |
 | `c1-l010` | &emsp;*ficarão eſpantados, & mudos ſem falar.* |  |
 | `c1-l011` | &emsp;¶ Cuchiga acanu. *Não falar ficando vẽ-* |  |
 | `c1-l012` | &emsp;*cido, ou concluido, &c. ¶* Fitoni cuchi- |  |
@@ -93,7 +93,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l018` | &emsp;ru. *Dar eſtas repoſtas, ou eſcuſas.* |  |
 | `c2-l019` | Cuchiguchini. *Adu. Cada hum com ſua* |  |
 | `c2-l020` | &emsp;*voz. Vt,* Atarino xu maſſô maſſoto cu- |  |
-| `c2-l021` | &emsp;chiguchini môxita. *Mon. Os que eſta-* |  |
+| `c2-l021` | &emsp;chiguchini môxita. Mon*. Os que eſta-* |  |
 | `c2-l022` | &emsp;*uão ali perto todos cada hum por ſi diſſerão que* |  |
 | `c2-l023` | &emsp;*aſſi era.* |  |
 | `c2-l024` | Cuchiguſuri. *Poluara de poluarinho, que ſe po-* |  |

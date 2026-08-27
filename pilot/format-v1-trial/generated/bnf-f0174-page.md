@@ -94,7 +94,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l020` | &emsp;*entre dous Tatamis, &c.* |  |
 | `c2-l021` | Faſamiuoroxi, ſu, oita. *Troſquiar. Vt,* |  |
 | `c2-l022` | &emsp;Amarino xencata naſani facutatuo faſami |  |
-| `c2-l023` | &emsp;voroxi. *Feiq. Lib. 4. Por mais não po-* |  |
+| `c2-l023` | &emsp;voroxi. Feiq*. Lib. 4. Por mais não po-* |  |
 | `c2-l024` | &emsp;*der troſquiou os cabellos brancos.* |  |
 | `c2-l025` | Faſan. Sacazzugiuo cubaru. *Mandar, ou* |  |
 | `c2-l026` | &emsp;*dirigir o* Sacazzuqi *a alguem. Vt,* Go- |  |

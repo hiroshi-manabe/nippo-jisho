@@ -54,7 +54,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l038` | &emsp;xifô ſanbiacu yori fibiqi vatatte, teqi- |  |
 | `c1-l039` | &emsp;tachin achi vechi, cegicomo verete cata- |  |
 | `c1-l040` | &emsp;mugu coto ayaxiqi fedurizo qicoyetari. |  |
-| `c1-l041` | &emsp;*Tair. Lib. 15. A grita dos noſſos, &* |  |
+| `c1-l041` | &emsp;Tair*. Lib. 15. A grita dos noſſos, &* |  |
 | `c1-l042` | &emsp;*dos inimigos ſoando por todas as partes mais* |  |
 | `c1-l043` | &emsp;*de 300. legoas, parecia duuidarmoſe as nu-* |  |
 | `c1-l044` | &emsp;*uẽs cahido, & os exos do ceo quebrandoſe ſe* |  |
@@ -96,7 +96,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l022` | Ficague. *Reſplandor, ou rayo do ſol. Vt,* |  |
 | `c2-l023` | &emsp;Ficague ſaſu. *Entrar, ou dar o rayo do ſol* |  |
 | `c2-l024` | &emsp;*em algũa parte. ¶* Ficague nodocani na- |  |
-| `c2-l025` | &emsp;riyuqu. *Faiq. Lib. 4. Irſe fazendo* |  |
+| `c2-l025` | &emsp;riyuqu. Faiq*. Lib. 4. Irſe fazendo* |  |
 | `c2-l026` | &emsp;*o dia claro, & ſereno como no tempo da pri-* |  |
 | `c2-l027` | &emsp;*ma vera. ¶ Item, Sombra contra os rayos* |  |
 | `c2-l028` | &emsp;*do ſol. Vt,* Ficagueuo ſuru, l, coxira yu- |  |

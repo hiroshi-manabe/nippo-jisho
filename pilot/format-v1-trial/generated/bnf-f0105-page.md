@@ -24,7 +24,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l008` | &emsp;Chicô. |  |
 | `c1-l009` | Chicai, ô, ôta. *Iurar.* |  |
 | `c1-l010` | Chicaigoro. *Ha pouco tempo.* |  |
-| `c1-l011` | Chicaifedo. Adu. *Idem.* |  |
+| `c1-l011` | Chicaifedo. *Adu. Idem.* |  |
 | `c1-l012` | Chicamichi. *Caminho breue, ou atalho.* |  |
 | `c1-l013` | Chicara. *Força. ¶* Chicaraga votçuru. |  |
 | `c1-l014` | &emsp;*Cairem as forças, & o animo, &c. ¶* Chi- |  |
