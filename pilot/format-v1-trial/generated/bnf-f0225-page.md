@@ -95,7 +95,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l021` | &emsp;*& não prudentes.* |  |
 | `c2-l022` | Fuqen. Mizu. *Não ver. Vt,* Mimon fu- |  |
 | `c2-l023` | &emsp;qen. *Couſa que nem vi, nem ouui, nẽ ſei.* |  |
-| `c2-l024` | Fuqeô, l, fuqiô. *Pola manhã cedo, ou an-* |  |
+| `c2-l024` | Fuqeô, l, fuqiô. *Polamenhaã cedo, ou an-* |  |
 | `c2-l025` | &emsp;*te menhaã.* |  |
 | `c2-l026` | Fuqeracaxi, ſu, aita. *Publicar, ou dar mo-* |  |
 | `c2-l027` | &emsp;*ſtra dalgũa couſa que hum tem em eſtima, ou* |  |
