@@ -122,7 +122,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l042` | Chûfan. i. Chûjiqi. *Comer do meo dia.* |  |
 | `c2-l043` | Chùfo. Xiruxi voguinǒ. i. Chù. *Comen-* |  |
 | `c2-l044` | &emsp;*to, ou groza. Vt,* Fonmonuo chùfo ſu. |  |
-| `c2-l045` | &emsp;*Comentar o original. S.* |  |
+| `c2-l045` | &emsp;*Comentar o original.* S*.* |  |
 | `c2-l046` | Chûfu. *Seruiços, & deſeruiços.* |  |
 | `c2-l047` | Chùgue. Chùxi toqu. i. Chù. *Groza, ou* |  |
 | `c2-l048` | &emsp;*comẽto.* |  |

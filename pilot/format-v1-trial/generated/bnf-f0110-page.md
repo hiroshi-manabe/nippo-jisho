@@ -39,7 +39,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l023` | &emsp;*eſquece.* |  |
 | `c1-l024` | Chôcô. i. Teiuôno xinca. *Criado do Rei.* |  |
 | `c1-l025` | Chôcon. Axita cure. *Pola manhaã, & à* |  |
-| `c1-l026` | &emsp;*tarde. P.* |  |
+| `c1-l026` | &emsp;*tarde.* P*.* |  |
 | `c1-l027` | Chocqio. Teiuôno von yuruxi. *Perdão del* |  |
 | `c1-l028` | &emsp;*Rei.* |  |
 | `c1-l029` | Chocu. Micotono ri. *Mandado del Rei.* |  |
@@ -79,7 +79,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l005` | Chocusat. Teiuôno von fumi. *Carta del* |  |
 | `c2-l006` | &emsp;*Rei.* |  |
 | `c2-l007` | Chocutǒ. Teiuôno von fenji. *Reſpoſta del* |  |
-| `c2-l008` | &emsp;*Rei. S.* |  |
+| `c2-l008` | &emsp;*Rei.* S*.* |  |
 | `c2-l009` | Chocuxei. *Iuramento del Rei.* |  |
 | `c2-l010` | Chocuxen. Vôxe notauô. i. Teiuôno vô- |  |
 | `c2-l011` | &emsp;xe. *Mandado del Rei.* |  |
@@ -103,7 +103,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l029` | Chôdan. Totonoye cataru. *Pratica, ou* |  |
 | `c2-l030` | &emsp;*conſulta.* |  |
 | `c2-l031` | Chôdan. Tçuriſuru nada. *Lugar onde ſe peſ-* |  |
-| `c2-l032` | &emsp;*ca ao longo da terra. P.* |  |
+| `c2-l032` | &emsp;*ca ao longo da terra.* P*.* |  |
 | `c2-l033` | Chǒdo. *Adu. Iuſtamente, ou ſem tirar nẽ* |  |
 | `c2-l034` | &emsp;*por. ¶ Item, Modo de dar pancadas. Vt,* |  |
 | `c2-l035` | &emsp;Chǒdo ytçu. |  |

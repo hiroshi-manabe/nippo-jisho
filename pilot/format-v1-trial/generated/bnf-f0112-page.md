@@ -21,7 +21,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l005` | &emsp;*ou de muitos annos.* |  |
 | `c1-l006` | Chôqua. Coyeſuguru. *Exceſſo, ou demaſia* |  |
 | `c1-l007` | &emsp;*quer ſeja no comer, & veſtir, ou em outra cou-* |  |
-| `c1-l008` | &emsp;*ſa. S. ¶ Item, He palaura com que* |  |
+| `c1-l008` | &emsp;*ſa.* S*. ¶ Item, He palaura com que* |  |
 | `c1-l009` | &emsp;*louuão, ou encarecẽ algũa couſa. Vt,* Chô- |  |
 | `c1-l010` | &emsp;qua migotode gozaru. *He couſa muito pe-* |  |
 | `c1-l011` | &emsp;*ra ver.* |  |

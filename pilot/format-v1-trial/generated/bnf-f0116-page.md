@@ -46,7 +46,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l030` | &emsp;*tes. ¶* Cobinuo caqu. *Coçar as fontes* |  |
 | `c1-l031` | &emsp;*com pezar, ou deſgoſto dalgũa couſa.* |  |
 | `c1-l032` | Cǒbin. Saiuaino tayori. *Bom portador, ou* |  |
-| `c1-l033` | &emsp;*oportunidade, & conjunção. S.* |  |
+| `c1-l033` | &emsp;*oportunidade, & conjunção.* S*.* |  |
 | `c1-l034` | Cǒbin. Coromaxij, l, yoi tayori. *Men-* |  |
 | `c1-l035` | &emsp;*ſajeiro, ou portador, ou oportunidade.* |  |
 | `c1-l036` | Cobǒ. *Moçozinho rapado que ſerue como* |  |
@@ -89,7 +89,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l015` | Cobucuro. *Bolſinha, ou ſaquinho.* |  |
 | `c2-l016` | Cobujiqirô. *Certa boceta redonda.* |  |
 | `c2-l017` | Cobun. Furui fumi. *Eſcritura antigua.* |  |
-| `c2-l018` | &emsp;¶ *Item name de hum certo liuro de bom eſ-* |  |
+| `c2-l018` | &emsp;¶ *Item nome de hum certo liuro de bom eſ-* |  |
 | `c2-l019` | &emsp;*tilo pera compor.* |  |
 | `c2-l020` | Cǒbun. Tegami, fumi. *Carta, ou papel* |  |
 | `c2-l021` | &emsp;*em que ſe notifica algũa couſa certa a alguem.* |  |

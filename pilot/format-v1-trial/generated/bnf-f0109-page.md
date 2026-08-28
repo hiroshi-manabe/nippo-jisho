@@ -22,7 +22,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l006` | &emsp;tabi momotabi. *Cem mil vezes.* |  |
 | `c1-l007` | Chitai. Voſocu todocouoru. *Tardança,* |  |
 | `c1-l008` | &emsp;*ou detença.* |  |
-| `c1-l009` | Chito. Aduerb. *Hum pouco.* |  |
+| `c1-l009` | Chito. *Aduerb. Hum pouco.* |  |
 | `c1-l010` | Chitô. Iqeno tçutçumi. *Vallo de repre-* |  |
 | `c1-l011` | &emsp;*za, ou de lago dagua.* |  |
 | `c1-l012` | Chitochito. *Adu. Hum poucachinho.* |  |
@@ -49,7 +49,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l033` | &emsp;*que tem ſaber.* |  |
 | `c1-l034` | Chixiqi. *Meſtre do caminho da virtude.* |  |
 | `c1-l035` | Chixiuo. *Mil vezes tinto. ¶* Cirenaino |  |
-| `c1-l036` | &emsp;chixiuono facamauo tori idaita. *Voi. Ti-* |  |
+| `c1-l036` | &emsp;chixiuono facamauo tori idaita. Voi*. Ti-* |  |
 | `c1-l037` | &emsp;*rando fora hũs calções de cor carmezim muito* |  |
 | `c1-l038` | &emsp;*eſpeſſa.* |  |
 | `c1-l039` | Chixô. Chino vye. *Sobre a terra. ¶* Chi- |  |

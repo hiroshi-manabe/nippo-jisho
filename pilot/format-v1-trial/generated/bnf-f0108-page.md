@@ -17,7 +17,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l001` | &emsp;*Riqueza, ou peça rica.* |  |
 | `c1-l002` | Chingua. Tacara. *Riquezas. Vt,* Chin- |  |
 | `c1-l003` | &emsp;guauo tçumi voqu. *Ter muitas rique-* |  |
-| `c1-l004` | &emsp;*zas juntas. S.* |  |
+| `c1-l004` | &emsp;*zas juntas.* S*.* |  |
 | `c1-l005` | Chingua. Mezzuraxij conomi. *Boa, ou rara* |  |
 | `c1-l006` | &emsp;*fruita. Vt,* Chinguauo bucuſuru. *Comer* |  |
 | `c1-l007` | &emsp;*fruita noua, ou rara.* |  |
@@ -45,10 +45,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l029` | &emsp;*nome, & afamado.* |  |
 | `c1-l030` | Chiqemui. *Sangue que ſae fumegando.* |  |
 | `c1-l031` | Chiqen. Xirinjiu. *O olhar, ou ver dos* |  |
-| `c1-l032` | &emsp;Fotoqes. *Bup.* |  |
+| `c1-l032` | &emsp;Fotoqes. Bup. |  |
 | `c1-l033` | Chiqui. *Hum pao do tear em que emburi-* |  |
 | `c1-l034` | &emsp;*lhão a ordidura da ſeda.* |  |
-| `c1-l035` | Chiracaxi, ſu, aita. Melius chiraxi, ſu. |  |
+| `c1-l035` | Chiracaxi, ſu, aita. *Melius* chiraxi, ſu. |  |
 | `c1-l036` | &emsp;*Eſpalhar, ou derramar.* |  |
 | `c1-l037` | Chirachirato. *Adu. Logo depreſſa. ¶ Item,* |  |
 | `c1-l038` | &emsp;*Modo de bulir, ou meuer ſe algũa couſa.* |  |

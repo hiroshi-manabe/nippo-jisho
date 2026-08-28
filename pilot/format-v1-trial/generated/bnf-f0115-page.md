@@ -41,8 +41,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l025` | &emsp;*uera.* |  |
 | `c1-l026` | Chùya. Firu, yoru. *De dia, & de noite.* |  |
 | `c1-l027` | Chùyǒ. *Segunda lũa, ou mez.* |  |
-| `c1-l028` | Chùyǒ. *Meyo, ou mediocridade nas couſas.* |  |
-| `c1-l029` | &emsp;*Vt,* Banji chùyǒuo mamore. *Em tudo* |  |
+| `c1-l028` | Chùyô. *Meyo, ou mediocridade nas couſas.* |  |
+| `c1-l029` | &emsp;*Vt,* Banji chùyôuo mamore. *Em tudo* |  |
 | `c1-l030` | &emsp;*guardar o meo, ou em tudo ſede temperado.* |  |
 | `c1-l031` | &emsp;¶ *Item, Nome de hum liuro da china que* |  |
 | `c1-l032` | &emsp;*trata deſta temperança, & mediocridade.* |  |

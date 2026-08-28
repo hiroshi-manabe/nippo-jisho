@@ -42,7 +42,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l026` | Chùjet. Naca tayuru. *O ceſſar, ou interrom-* |  |
 | `c1-l027` | &emsp;*per algũa couſa. ¶ Item, Quebrada amizade.* |  |
 | `c1-l028` | Chùjin. *Peſſoa de mediocre ſaber, & honr-* |  |
-| `c1-l029` | &emsp;*ra, &c. X.* |  |
+| `c1-l029` | &emsp;*ra, &c.* X*.* |  |
 | `c1-l030` | Chùjiqi. i. Firuiy, l, firumexi. *Comer do* |  |
 | `c1-l031` | &emsp;*meo dia.* |  |
 | `c1-l032` | Chùin. i. Tomurai. *Exequias, ou comenda-* |  |
@@ -117,7 +117,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l043` | &emsp;*ou corretor entre os que comprão, & vendem.* |  |
 | `c2-l044` | Chùtô. Fuyuuo ſaichù. *Meyo do inuerno.* |  |
 | `c2-l045` | Chùtǒ. Nuſumi, nuſumi. *Furto. Vt,* |  |
-| `c2-l046` | &emsp;Chùtǒſubecarazu. *Não furtaras. S.* |  |
+| `c2-l046` | &emsp;Chùtǒſubecarazu. *Não furtaras.* S*.* |  |
 | `c2-l047` | Chùto. Naca michi. *Meo do caminho.* |  |
 
 ## Catchword

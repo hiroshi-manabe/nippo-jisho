@@ -22,7 +22,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l006` | &emsp;*& que ſabe aparelhar as couſas, & negoci-* |  |
 | `c1-l007` | &emsp;*arſe, &c.* |  |
 | `c1-l008` | Chôfôna. *Couſa proueitoſa, & precioſa.* |  |
-| `c1-l009` | &emsp;Chôfôni. Ad. |  |
+| `c1-l009` | &emsp;Chôfôni. *Ad.* |  |
 | `c1-l010` | Chôfǒraxij. *Peſſoa induſtrioſa pera viuer,* |  |
 | `c1-l011` | &emsp;*ou ganhar ſua vida, como molher de boas mãos* |  |
 | `c1-l012` | &emsp;*caſeira, &c.* |  |
