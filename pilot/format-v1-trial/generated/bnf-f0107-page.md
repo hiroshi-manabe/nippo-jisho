@@ -88,7 +88,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l008` | Chincǒ. Mezzuraxij ſacana. *Couſas ex-* |  |
 | `c2-l009` | &emsp;*quiſitas de comer de peixe, ou carne.* |  |
 | `c2-l010` | Chindai. *Peixe pedra.* |  |
-| `c2-l011` | Chindeqi. Xizzumi voboruru. *Mergulhar-* |  |
+| `c2-l011` | Chindeqi. Xizzumi voboruru. *Mergulhar* |  |
 | `c2-l012` | &emsp;*ſe, & afogarſe. ¶* Acuni chindeqi ſu- |  |
 | `c2-l013` | &emsp;ru. *Eſtar mergulhado na maldade.* |  |
 | `c2-l014` | Chindocu. *Peçonha fina. ¶* Chindocu- |  |
@@ -121,10 +121,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l041` | Chinmiacu. Xizzumu miacu. *Pulſo eſcaço,* |  |
 | `c2-l042` | &emsp;*& fraco.* |  |
 | `c2-l043` | Chinomigo. *Menino de mama.* |  |
-| `c2-l044` | Chinpi. Micanno caua. *Caſca de laranjas pe-* |  |
+| `c2-l044` | Chinpi. Micanno caua. *Caſca de laranjas pe* |  |
 | `c2-l045` | &emsp;*ra mezinhas.* |  |
 | `c2-l046` | Chinpǒ. i. Chinzuru. *Negar.* |  |
-| `c2-l047` | Chinqi. *Couſa noua, & rara. ¶ Item,* |  |
+| `c2-l047` | Chinqi. *Couſa uoua, & rara. ¶ Item,* |  |
 
 ## Catchword
 
