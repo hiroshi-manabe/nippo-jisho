@@ -14,53 +14,53 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | Chocan. *Hum certo comer dôce, que fazem* |  |
-| `c1-l002` | &emsp;*de feijões, açuquere, &c. à ſemelhança de hũ* |  |
+| `c1-l001` | Chocan. *Hum certo comer doce, que fazem* |  |
+| `c1-l002` | &emsp;*de feijoẽs, aſuquere, &c àſemelhança de hũ* |  |
 | `c1-l003` | &emsp;*comer que fazem na China como ſarapatel.* |  |
 | `c1-l004` | Chôcan. Tçurizauo. *Cana de peſcar.* |  |
-| `c1-l005` | Chocca. Mifioroſu. i. Fitouo vare yorimo |  |
+| `c1-l005` | Chocca. Miuoroſu. i. Fitouo vare yorimo |  |
 | `c1-l006` | &emsp;ſagattato miru coto. *O ver a baixando a* |  |
-| `c1-l007` | &emsp;*peſſoa que ſe vê.* |  |
+| `c1-l007` | &emsp;*peſſoa que ſe vè.* |  |
 | `c1-l008` | Choccai. *Mão torta, & encolhida, ou que tẽ* |  |
 | `c1-l009` | &emsp;*os dedos derrubados, & aleijados.* |  |
-| `c1-l010` | Choccan. i. Teiuôno guioyni chigô coto. |  |
-| `c1-l011` | &emsp;*Cair em deſgraça do Rei. Vt,* Choccauo |  |
-| `c1-l012` | &emsp;cõmuru. *Idem.* |  |
+| `c1-l010` | Choccan. i. Teiuǒno guioyni chigǒ coto. |  |
+| `c1-l011` | &emsp;*Cair em deſgraça do Rei. Vt,* Choccãuo |  |
+| `c1-l012` | &emsp;cǒmuru. *Idem.* |  |
 | `c1-l013` | Chǒchacu. Fitouo yamaſuru coto. *O dar* |  |
-| `c1-l014` | &emsp;*pancadas, ou açoutes.* |  |
+| `c1-l014` | &emsp;*pancadas, ou a çoutes.* |  |
 | `c1-l015` | Chǒchin. Cacagu tomoxibi. *Lanternas q̃* |  |
 | `c1-l016` | &emsp;*ſe leuão na mão quando ſe caminha.* |  |
-| `c1-l017` | Chǒchǒdo. *Adu. Modo de eſpançar.* |  |
-| `c1-l018` | &emsp;*¶* Chǒchǒdo ytçu. *Dar pancadas em* |  |
+| `c1-l017` | Chǒchǒdo. *Adu. Modo de eſpancar.* |  |
+| `c1-l018` | &emsp;*¶* Chǒchǒdo vtçu. *Dar pancadas em* |  |
 | `c1-l019` | &emsp;*alguem.* |  |
 | `c1-l020` | Chôchôxij. Vt, Chôchôxij fito. *Homẽ* |  |
 | `c1-l021` | &emsp;*que faz mimos, & agaſalhados no exterior, &* |  |
 | `c1-l022` | &emsp;*em preſença: mas depois não continua, ou ſe* |  |
-| `c1-l023` | &emsp;*eſquece.* |  |
-| `c1-l024` | Chôcô. i. Teiuôno xinca. *Criado do Rei.* |  |
-| `c1-l025` | Chôcon. Axita cure. *Pola manhaã, & à* |  |
+| `c1-l023` | &emsp;*eſqueçe.* |  |
+| `c1-l024` | Chôcô. i. Teiuǒno xinca. *Criado do Rei.* |  |
+| `c1-l025` | Chôcon. Axita cure. *Pollamanhaã, & à-* |  |
 | `c1-l026` | &emsp;*tarde.* P*.* |  |
-| `c1-l027` | Chocqio. Teiuôno von yuruxi. *Perdão del* |  |
+| `c1-l027` | Chocqio. Teiuǒno von yuruxi. *Perdão del* |  |
 | `c1-l028` | &emsp;*Rei.* |  |
 | `c1-l029` | Chocu. Micotono ri. *Mandado del Rei.* |  |
-| `c1-l030` | Chocuan. Teiuôno goxan. *Conſideração* |  |
+| `c1-l030` | Chocuan. Teiuǒno go xian. *Conſideração* |  |
 | `c1-l031` | &emsp;*del Rei.* |  |
 | `c1-l032` | Chocufai. *Copo, ou taça por onde bebe el Rei.* |  |
 | `c1-l033` | Chocufit. *Couſa eſcrita por el Rei.* |  |
 | `c1-l034` | Chocuguen. *Palaura del Rei, ou mandado* |  |
 | `c1-l035` | &emsp;*real.* |  |
-| `c1-l036` | Chocu guanji, l, Chocu guanjo. i. Teiuô- |  |
-| `c1-l037` | &emsp;no taqeiaxurareta tera. *Tera, ou ermida* |  |
+| `c1-l036` | Chocu guanji, l, Chocu guanjo. i. Teiuǒ- |  |
+| `c1-l037` | &emsp;no tateſaxerareta tera. *Tera, ou ermida* |  |
 | `c1-l038` | &emsp;*que edificou el Rei.* |  |
-| `c1-l039` | Chocugiǒ. i. Vôno vôxe. *Palaura, ou* |  |
+| `c1-l039` | Chocugiǒ. i. Vǒno vôxe. *Palaura, ou* |  |
 | `c1-l040` | &emsp;*mandado del Rei.* |  |
 | `c1-l041` | Chocumei. *Palaura, ou mandado del Rei.* |  |
-| `c1-l042` | Chocumen. Teiuôno von yuruxi. *Perdão* |  |
-| `c1-l043` | &emsp;*del Rei. Vt,* Chocumenni azzucaru. *Re-* |  |
+| `c1-l042` | Chocumen. Teiuǒno von yuruxi. *Perdão* |  |
+| `c1-l043` | &emsp;*del Rei. Vt,* Chocumenni azzucaru. *Re* |  |
 | `c1-l044` | &emsp;*ceber perdão del Rei.* |  |
-| `c1-l045` | Chocumõ. Teiuôno touaxeraruru coto. *Pre-* |  |
+| `c1-l045` | Chocumõ. Teiuǒno touaxeraruru coto. *Pre* |  |
 | `c1-l046` | &emsp;*gunta del Rei.* |  |
-| `c1-l047` | Chocumu. Teiuôno yumi. *Sonho del Rei.* |  |
+| `c1-l047` | Chocumu. Teiuǒno yume. *Sonho del Rei.* |  |
 
 ## Column 2 running header
 
