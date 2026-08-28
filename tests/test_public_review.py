@@ -221,6 +221,14 @@ equal(q.replace('[F]oo, bar.', 3, 4, ''), '[F]oo bar.');
 equal(q.replace('[F]oo bar.', 3, 3, ',', null), '[F]oo, bar.');
 equal(q.toggleRoman('Fotoqe', 0), '[F]otoqe');
 equal(q.toggleRoman('[F]otoqe', 0), 'Fotoqe');
+equal(q.uppercasePeriodTokenRange('Ad. Adu. word.', 0), {start: 0, end: 3});
+equal(q.uppercasePeriodTokenRange('Ad. Adu. word.', 4), {start: 4, end: 8});
+equal(q.uppercasePeriodTokenRange('Ad. Adu. word.', 1), null);
+equal(q.uppercasePeriodTokenRange('Word', 0), null);
+equal(q.toggleTypefaceRange('Ad.', 0, 3, ['roman', 'roman', 'roman']), '{Ad.}');
+equal(q.toggleTypefaceRange('{Ad.}', 0, 3, ['roman', 'roman', 'roman']), 'Ad.');
+equal(q.toggleTypefaceRange('S.', 0, 2, ['italic', 'italic']), '[S.]');
+equal(q.toggleTypefaceRange('[S.]', 0, 2, ['italic', 'italic']), 'S.');
 equal(q.align('foo, bar.', 'foo bar.').deletions.map(item => [item.character, item.currentIndex]), [[',', 3]]);
 """
         result = subprocess.run(

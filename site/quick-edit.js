@@ -66,6 +66,28 @@
     return serialize(parsed.characters);
   }
 
+  function uppercasePeriodTokenRange(value, index) {
+    const parsed = parse(value);
+    if (!parsed.valid || !parsed.characters[index]) return null;
+    const character = parsed.characters[index].character;
+    if (!/\p{Lu}/u.test(character) || (index > 0 && /\p{L}/u.test(parsed.characters[index - 1].character))) return null;
+    let end = index + 1;
+    while (end < parsed.characters.length && /\p{L}/u.test(parsed.characters[end].character)) end++;
+    if (parsed.characters[end]?.character !== '.') return null;
+    return {start: index, end: end + 1};
+  }
+
+  function toggleTypefaceRange(value, start, end, originalTypefaces) {
+    const parsed = parse(value);
+    if (!parsed.valid || start < 0 || end > parsed.characters.length || start >= end) return value;
+    const current = parsed.characters[start].style || originalTypefaces[start] || 'roman';
+    const target = current === 'italic' ? 'roman' : 'italic';
+    for (let index = start; index < end; index++) {
+      parsed.characters[index].style = originalTypefaces[index] === target ? null : target;
+    }
+    return serialize(parsed.characters);
+  }
+
   function nextSForm(current, original) {
     const cycles = original === 'ſ' ? ['ſ', 's', 'f'] : (original === 'f' ? ['f', 'ſ'] : ['s', 'ſ']);
     const index = cycles.indexOf(current);
@@ -176,5 +198,5 @@
     return {operations, currentToBase, changed, deletions};
   }
 
-  return {VOWEL_CYCLES, DELETABLE, parse, serialize, replace, toggleRoman, nextSForm, nextGQ, nextNM, nextPostvocalicNasal, nextCedilla, nextUV, nextIJ, nextVowel, align};
+  return {VOWEL_CYCLES, DELETABLE, parse, serialize, replace, toggleRoman, uppercasePeriodTokenRange, toggleTypefaceRange, nextSForm, nextGQ, nextNM, nextPostvocalicNasal, nextCedilla, nextUV, nextIJ, nextVowel, align};
 }));

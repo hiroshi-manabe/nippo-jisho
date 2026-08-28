@@ -581,9 +581,15 @@ function quickCharacterHTML(character, index, baseIndex, changed, line, proposal
   const typeface = explicitTypeface || originalTypeface;
   let action = '';
   let title = '';
+  let extraAttributes = '';
+  const periodToken = NippoQuickEdit.uppercasePeriodTokenRange(proposal.text, index);
   if (nasalRestoration) {
     action = 'nasal-restore';
     title = `Restore ${nasalRestoration.vowel}${nasalRestoration.consonant}`;
+  } else if (periodToken) {
+    action = 'typeface-token';
+    title = 'Toggle this abbreviation between Roman and italic type';
+    extraAttributes = ` data-token-start="${periodToken.start}" data-token-end="${periodToken.end}"`;
   } else if (isItalicWordInitial(line, baseIndex, character, typefaces)) {
     action = 'typeface';
     title = explicitTypeface === 'roman' ? 'Restore the printed italic type' : 'Mark this initial as Roman type';
@@ -620,7 +626,7 @@ function quickCharacterHTML(character, index, baseIndex, changed, line, proposal
   if (action) classes.push('quick-action');
   if (changed || (explicitTypeface && explicitTypeface !== originalTypeface)) classes.push('quick-changed');
   const restorationAttributes = nasalRestoration ? ` data-nasal-vowel="${escapeHTML(nasalRestoration.vowel)}" data-nasal-consonant="${escapeHTML(nasalRestoration.consonant)}"` : '';
-  const attributes = action ? ` role="button" tabindex="0" data-quick-action="${action}" data-index="${index}" data-original="${escapeHTML(original)}"${restorationAttributes} title="${escapeHTML(title)}"` : '';
+  const attributes = action ? ` role="button" tabindex="0" data-quick-action="${action}" data-index="${index}" data-original="${escapeHTML(original)}"${restorationAttributes}${extraAttributes} title="${escapeHTML(title)}"` : '';
   let output = escapeHTML(character);
   if (character === ' ') output = '<span class="quick-space"> </span>';
   if (typeface === 'italic') output = `<em>${output}</em>`;
@@ -861,6 +867,17 @@ function applyQuickEdit(row, control) {
     after = NippoQuickEdit.replace(current, index, index + 1, NippoQuickEdit.nextVowel(character));
   } else if (action === 'typeface') {
     after = NippoQuickEdit.toggleRoman(current, index);
+  } else if (action === 'typeface-token') {
+    const parsed = NippoQuickEdit.parse(current);
+    const alignment = NippoQuickEdit.align(line.text, parsed.text);
+    const typefaces = originalTypefaces(line);
+    const proposalTypefaces = alignment.currentToBase.map((baseIndex, proposalIndex) => {
+      if (baseIndex !== null) return typefaces[baseIndex] || 'roman';
+      const previousBase = alignment.currentToBase[proposalIndex - 1];
+      const nextBase = alignment.currentToBase.slice(proposalIndex + 1).find(candidate => candidate !== null);
+      return typefaces[previousBase ?? nextBase] || 'roman';
+    });
+    after = NippoQuickEdit.toggleTypefaceRange(current, Number(control.dataset.tokenStart), Number(control.dataset.tokenEnd), proposalTypefaces);
   } else if (action === 'delete') {
     after = NippoQuickEdit.replace(current, index, index + 1, '');
     shiftNasalRestorations(index, 1, 0);
