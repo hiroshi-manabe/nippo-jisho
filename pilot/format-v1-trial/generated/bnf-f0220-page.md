@@ -88,7 +88,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l014` | &emsp;*uo miudamente.* |  |
 | `c2-l015` | Fuguna. *Couſa imperfeita, ou falta. ¶* Go- |  |
 | `c2-l016` | &emsp;tai fuguna fito. *Homem aleijado. ¶* Fu- |  |
-| `c2-l017` | &emsp;guna qið. *Liuro a que faltão folhas, ou* |  |
+| `c2-l017` | &emsp;guna qiǒ. *Liuro a que faltão folhas, ou* |  |
 | `c2-l018` | &emsp;*quadernos, &c.* |  |
 | `c2-l019` | Fuguri. *Virga genitalis.* |  |
 | `c2-l020` | Fǔguai. i, Furij fǔzocuno foca. *Contra, ou* |  |

@@ -50,7 +50,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l034` | &emsp;*pulos, &c.* |  |
 | `c1-l035` | Codouoxi. i. Chijſai qiri. *Verruma pe-* |  |
 | `c1-l036` | &emsp;*quenina de Iapão.* |  |
-| `c1-l037` | Cofacu. Tama tama. i. Chiruiciŭ tama. |  |
+| `c1-l037` | Cofacu. Tama tama. i. Chiruiciǔ tama. |  |
 | `c1-l038` | &emsp;*Alambre.* |  |
 | `c1-l039` | Cǒfacu. Atçui, vſui. *Eſpeſſo, & ralo, ou* |  |
 | `c1-l040` | &emsp;*groſſo, & delgado.* |  |

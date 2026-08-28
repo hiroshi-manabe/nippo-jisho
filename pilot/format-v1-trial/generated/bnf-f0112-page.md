@@ -16,8 +16,8 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c1-l001` | Chôqin. Axitano aſagauo. *Flor chamada* |  |
 | `c1-l002` | &emsp;*Aſagauo que logo ſe murcha ſaindo o ſol.* |  |
-| `c1-l003` | Chǒqiŭ. Yumiuo faru. *O por a corda no arco.* |  |
-| `c1-l004` | Chǒqiŭ. Nagô fiſaxij coto. *Couſa durauel,* |  |
+| `c1-l003` | Chǒqiǔ. Yumiuo faru. *O por a corda no arco.* |  |
+| `c1-l004` | Chǒqiǔ. Nagô fiſaxij coto. *Couſa durauel,* |  |
 | `c1-l005` | &emsp;*ou de muitos annos.* |  |
 | `c1-l006` | Chôqua. Coyeſuguru. *Exceſſo, ou demaſia* |  |
 | `c1-l007` | &emsp;*quer ſeja no comer, & veſtir, ou em outra cou-* |  |
@@ -38,7 +38,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l022` | &emsp;*is, ou cabeça que tem ſuperintendencia ſobre* |  |
 | `c1-l023` | &emsp;*os lazaros.* |  |
 | `c1-l024` | Chôriacu. *Ardil.* |  |
-| `c1-l025` | Chǒriŭ. Minaguiri nagaruru. *Corrente do* |  |
+| `c1-l025` | Chǒriǔ. Minaguiri nagaruru. *Corrente do* |  |
 | `c1-l026` | &emsp;*rio com impeto.* |  |
 | `c1-l027` | Chǒrǒ. *Dignidade principal entre os* Bonzos: |  |
 | `c1-l028` | &emsp;*ou* Bonzos *deſta dignidade.* |  |
@@ -98,7 +98,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l023` | &emsp;*dentro nos paſſos del Rei.* |  |
 | `c2-l024` | Chôxen. Tçuribune. *Embarcação peſca-* |  |
 | `c2-l025` | &emsp;*reza.* |  |
-| `c2-l026` | Chôxeqi. Aſa yŭ. *Polla manhaã, & à tarde.* |  |
+| `c2-l026` | Chôxeqi. Aſa yǔ. *Polla manhaã, & à tarde.* |  |
 | `c2-l027` | Chǒxi. Sôriôgo. *Filho morgado.* |  |
 | `c2-l028` | Chôxi. *Vazo de deitar vinho que ſerue no* |  |
 | `c2-l029` | &emsp;zaxiqi. |  |

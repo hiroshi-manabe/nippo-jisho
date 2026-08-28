@@ -37,7 +37,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l021` | Cocufǒ. Cuni, cuni. *Reinos.* |  |
 | `c1-l022` | Cocù fǒcai. *Eſpaço ſem termino como ar q̃ eſta* |  |
 | `c1-l023` | &emsp;*entre ceo, & terra. i. Todo mũdo. Vt,* |  |
-| `c1-l024` | &emsp;Cocù fǒcaina cotouo yŭ. *Dizer varias* |  |
+| `c1-l024` | &emsp;Cocù fǒcaina cotouo yǔ. *Dizer varias* |  |
 | `c1-l025` | &emsp;*couſas ſẽ fundamento, nem ordem, nem razão.* |  |
 | `c1-l026` | Cocufu. Cunino fu. *Cidade principal, ou ca-* |  |
 | `c1-l027` | &emsp;*beça dalgum reino.* |  |

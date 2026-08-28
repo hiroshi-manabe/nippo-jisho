@@ -121,7 +121,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l041` | Cuuaxe, ſuru, eta. *Fazer comer, ou dar de* |  |
 | `c2-l042` | &emsp;*comer a outro.* |  |
 | `c2-l043` | Cuuaxij. *Couſa miuda, ou particular. Vt,* |  |
-| `c2-l044` | &emsp;Cuuaxij cotoueba xizzucani mōſozu. *O* |  |
+| `c2-l044` | &emsp;Cuuaxij cotoueba xizzucani mǒſozu. *O* |  |
 | `c2-l045` | &emsp;*particular direi deuagar.* |  |
 | `c2-l046` | Cuuaxù. *Adu. Miudamente.* |  |
 | `c2-l047` | Cuuaye, uru, eta. *Acrecentar. ¶* Xec- |  |

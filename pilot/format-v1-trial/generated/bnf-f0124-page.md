@@ -57,7 +57,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l041` | Comazarai. *Hum inſtrumento de pao com den-* |  |
 | `c1-l042` | &emsp;*tes de ferro como grade pera tirar as eruas, ou* |  |
 | `c1-l043` | &emsp;*apanhar, & afaſtar o eſterco, &c. No* Xi- |  |
-| `c1-l044` | &emsp;mo *ſe diz* Culacaqı. *¶* Comazarai faz- |  |
+| `c1-l044` | &emsp;mo *ſe diz* Culacaqi. *¶* Comazarai faz- |  |
 | `c1-l045` | &emsp;zure. *Permet. Se diz de gente que preſta* |  |
 | `c1-l046` | &emsp;*pera pouco, ou he como rebotalho, &c.* |  |
 | `c1-l047` | Comazarai fazzure. *Vide* Comazarai. |  |

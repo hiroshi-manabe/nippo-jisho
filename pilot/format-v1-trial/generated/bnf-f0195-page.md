@@ -107,7 +107,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l033` | Fiqiuoroxi, ſu, oita. *Puxando abaixar.* |  |
 | `c2-l034` | Fiqiuotoxi, u, oita. *Puxando derrubar.* |  |
 | `c2-l035` | &emsp;*¶ Item, Deſcontar em contas, &c.* |  |
-| `c2-l036` | Fiqiuqe, uru, eta. *Receber. ¶* Saqeuō |  |
+| `c2-l036` | Fiqiuqe, uru, eta. *Receber. ¶* Saqeuo |  |
 | `c2-l037` | &emsp;fiqiuqete nomu. *Tomando vinho no copo* |  |
 | `c2-l038` | &emsp;*beber.* |  |
 | `c2-l039` | Fiqiùto. *Anẽo. Tambem ſe diz* uſumbôxi, |  |

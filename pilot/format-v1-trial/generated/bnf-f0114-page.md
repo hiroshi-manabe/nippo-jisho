@@ -99,7 +99,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l025` | &emsp;*Lugar, ou campo onde ſe corta a cabeça, &c.* |  |
 | `c2-l026` | Chùriacu. *O cortar a palaura, ou fazer cin-* |  |
 | `c2-l027` | &emsp;*copa no meo. Vt,* Fotôriqe chùriacu xi- |  |
-| `c2-l028` | &emsp;te Fotogero yŭ. ¶ *Item, Abreuiar, ou* |  |
+| `c2-l028` | &emsp;te Fotogero yǔ. ¶ *Item, Abreuiar, ou* |  |
 | `c2-l029` | &emsp;*fazer que não ſoem algũas pancadas no meo do* |  |
 | `c2-l030` | &emsp;*tanger, & aſſi em outras couſas.* |  |
 | `c2-l031` | Chùrio. i. xiguachi. *Quarta lũa, ou mez* |  |

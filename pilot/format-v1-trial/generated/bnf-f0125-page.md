@@ -122,7 +122,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l042` | &emsp;*couſa feita de ouro, & azul. i. Ricamente.* |  |
 | `c2-l043` | Conguat. Imano tçuqi. *Eſte mez.* |  |
 | `c2-l044` | Congi. *Campo azul eſcuro de peças. Vt,* |  |
-| `c2-l045` | &emsp;Congino nixiği. *Peças de borcadilho com* |  |
+| `c2-l045` | &emsp;Congino nixiqi. *Peças de borcadilho com* |  |
 | `c2-l046` | &emsp;*varios lauores em campo azul eſcuro.* |  |
 | `c2-l047` | Con-i. Nengorono cocoro. *Bom coração,* |  |
 | `c2-l048` | &emsp;*& amoroſo.* |  |

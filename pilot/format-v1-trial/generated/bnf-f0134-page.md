@@ -18,7 +18,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l002` | Coxxo, l, cojo. Cônoſajime. *Principio de tẽ-* |  |
 | `c1-l003` | &emsp;*po infinito como eternidade ſeguido tẽ os Iapões.* |  |
 | `c1-l004` | Coya. *Caſa de tintureiro. ¶ Item, O* |  |
-| `c1-l005` | &emsp;*meſmo tintureiro. i.* Scñedono. |  |
+| `c1-l005` | &emsp;*meſmo tintureiro. i.* Somedono. |  |
 | `c1-l006` | Coya. *Caſa onde ſe guarda madeira. ¶ Itẽ,* |  |
 | `c1-l007` | &emsp;*Caſa toſcamente feita onde trabalhão os carpin-* |  |
 | `c1-l008` | &emsp;*teiros, & laurão a madeira. ¶* Coya iri. |  |

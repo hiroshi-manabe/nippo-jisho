@@ -36,7 +36,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l020` | Chǒza. Nagaiza. *O eſtar muito tempo no* |  |
 | `c1-l021` | &emsp;zaxiqi, *ou durar muito tempo o ajuntamen-* |  |
 | `c1-l022` | &emsp;*to do* zaxiqi. |  |
-| `c1-l023` | Chôzan. i. Giŭzan, caſanaru yama. *Mui-* |  |
+| `c1-l023` | Chôzan. i. Giǔzan, caſanaru yama. *Mui-* |  |
 | `c1-l024` | &emsp;*tos montes que pareçem eſtarem hũs ſobre os* |  |
 | `c1-l025` | &emsp;*outros.* |  |
 | `c1-l026` | Chôzzu. Teno mizzu. *Agoa pera as mãos.* |  |

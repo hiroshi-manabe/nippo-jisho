@@ -18,12 +18,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l002` | &emsp;*dar a ſoſtentar.* |  |
 | `c1-l003` | Cobaxi, ſu, aita. *Fazer que a couſa ſeja co-* |  |
 | `c1-l004` | &emsp;*bita, ou tenha algũa particularidade, ou graça* |  |
-| `c1-l005` | &emsp;*differente das outras. ¶* Cobaite yŭ. *Fa-* |  |
+| `c1-l005` | &emsp;*differente das outras. ¶* Cobaite yǔ. *Fa-* |  |
 | `c1-l006` | &emsp;*lar palauras ſelectas, & que os outros ordina-* |  |
 | `c1-l007` | &emsp;*riamente não falão.* |  |
 | `c1-l008` | Cǒbaxij. *Couſa cheiroſa, ou cheirar bem.* |  |
 | `c1-l009` | &emsp;¶ Cǒba xila. |  |
-| `c1-l010` | &emsp;Cǒbaxŭ. |  |
+| `c1-l010` | &emsp;Cǒbaxǔ. |  |
 | `c1-l011` | Cobayai. *Molher que pare, ou emprenha mui-* |  |
 | `c1-l012` | &emsp;*tas vezes, ou facilmente.* |  |
 | `c1-l013` | Cǒbe. *Cabeça. ¶* Cǒbeuo vnatamuru. |  |
@@ -39,7 +39,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l023` | Cobi, uru, ita. *Ter a couſa em ſi algũa gra-* |  |
 | `c1-l024` | &emsp;*ça, ou particularidade que contenta. ¶ Item,* |  |
 | `c1-l025` | &emsp;*Ser* Cobito, *& eſtrauagante em falar pala-* |  |
-| `c1-l026` | &emsp;*uras nouas, & exquiſitas. Vt,* Cobite yŭ. |  |
+| `c1-l026` | &emsp;*uras nouas, & exquiſitas. Vt,* Cobite yǔ. |  |
 | `c1-l027` | &emsp;*Falar eſtas palauras extraordinarias, & ſe-* |  |
 | `c1-l028` | &emsp;*lectas.* |  |
 | `c1-l029` | Cobin. *Cabellos das fontes, ou as meſmas fon-* |  |

@@ -40,10 +40,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l024` | Cochino. *Meu, ou de cá, deſta parte, &c.* |  |
 | `c1-l025` | Cochô. *Borboleta.* |  |
 | `c1-l026` | Côchǔ. Cuchiuo vchi. *Dentro na boca.* |  |
-| `c1-l027` | &emsp;¶ Cǒchŭni nigai, l, amaimono gia. |  |
+| `c1-l027` | &emsp;¶ Cǒchǔni nigai, l, amaimono gia. |  |
 | `c1-l028` | &emsp;*Ser algũa couſa na boca amargoſa, ou doce.* |  |
 | `c1-l029` | Cochǔ. Furui xiruſu. *Comentarios antigos.* |  |
-| `c1-l030` | &emsp;*Item couſa antigua. Vt,* Cochŭna catagui. |  |
+| `c1-l030` | &emsp;*Item couſa antigua. Vt,* Cochǔna catagui. |  |
 | `c1-l031` | &emsp;*Cuſtume antiguo.* |  |
 | `c1-l032` | Cochù. Tçubono vchi. *Dentro no boyão.* |  |
 | `c1-l033` | &emsp;*Item, Dentro da gayola, ou canaſtrinha.* |  |

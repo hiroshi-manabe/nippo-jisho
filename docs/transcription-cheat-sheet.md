@@ -28,6 +28,7 @@ In a correction proposal only, an adjacent `*` immediately before or after a wor
 | one consonant / two | Count the types. Do not supply an expected historical or modern spelling. |
 | `ǒ` / `ô` | Read the mark's direction: caron `ˇ` versus circumflex `ˆ`. They are not interchangeable. |
 | `ǔ` / `û` / `ù` | Preserve the visible shape. Long `u` has no open/closed opposition corresponding to long `o`. |
+| breve or macron lookalikes (`ŭ`, `ŏ`, `ō`) | Treat these Unicode characters as recognition alarms, not substitutes for the dictionary's carons, circumflexes, or graves. Reinspect the scan. Do not extend this rule to a genuinely printed rare form such as `ï` or `ñ`. |
 | tilde / grave | A tilde is wavy; a grave is a single diagonal stroke. On `f13`, read `cà peralà`, not `cã perali`. Compare the letter beneath the mark separately. |
 | tilde over a vowel sequence | Identify the marked vowel from the scan rather than from the expected word. The corpus prints both `algũa` and `alguã`; preserve each occurrence. |
 

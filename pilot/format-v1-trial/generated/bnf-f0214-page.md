@@ -45,7 +45,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l029` | Fotnet. *Ouuir, ou ter algũa febre. ¶* Fot- |  |
 | `c1-l030` | &emsp;net ſuru. *Idem.* |  |
 | `c1-l031` | Fôtô. Norino otenoxibi. *Luz, ou reſplan-* |  |
-| `c1-l032` | &emsp;*dor da lei. ¶* Fôtôuo cacaģuru. *Eſpa-* |  |
+| `c1-l032` | &emsp;*dor da lei. ¶* Fôtôuo cacaguru. *Eſpa-* |  |
 | `c1-l033` | &emsp;*lhar, ou communicar a luz da lei pregandoa,* |  |
 | `c1-l034` | &emsp;*&c. ¶ Item, Acender lume como a lam-* |  |
 | `c1-l035` | &emsp;*pada diante do* Fotoque. |  |

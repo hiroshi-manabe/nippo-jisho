@@ -56,7 +56,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l040` | &emsp;*do de voar do falcão quando cai pera tomar* |  |
 | `c1-l041` | &emsp;*algum paſſaro. ¶ Item, Tomaſe por hum* |  |
 | `c1-l042` | &emsp;*certo modo de eſgrimir, ou cortar com nagui-* |  |
-| `c1-l043` | &emsp;*nata. Vt,* Conofa gayerito yŭ teuo da- |  |
+| `c1-l043` | &emsp;*nata. Vt,* Conofa gayerito yǔ teuo da- |  |
 | `c1-l044` | &emsp;ſu. *Vai de hum talho, ou tempo que ſe* |  |
 | `c1-l045` | &emsp;*chama, Conofagayeri.* |  |
 | `c1-l046` | Conomama. *Adu. Aſſi, ou deſta maneira.* |  |
