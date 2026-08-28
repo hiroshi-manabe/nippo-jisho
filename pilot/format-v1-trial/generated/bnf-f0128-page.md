@@ -83,7 +83,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l008` | &emsp;*eſte, &c.* |  |
 | `c2-l009` | Coren. To, ſudare. *Eſteiras da porta. Vt,* co- |  |
 | `c2-l010` | &emsp;renuo cacaguru. *Aleuantar eſtas eſteiras.* |  |
-| `c2-l011` | Coren. Tama tama. *Hum vazo de criſtal. S.* |  |
+| `c2-l011` | Coren. Tama tama. *Hum vazo de criſtal.* S*.* |  |
 | `c2-l012` | Coreni yotte. *Adu. Por tanto.* |  |
 | `c2-l013` | Cǒreô. i. Mittçuchireô. *Lagartixa.* |  |
 | `c2-l014` | Coreqi. Furui coyomi. *Calendario antiguo,* |  |
@@ -117,7 +117,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l042` | Cǒrô. Tacaqirôcacuno cotonari. *Baileu,* |  |
 | `c2-l043` | &emsp;*ou torre alta, ou caſa de muitos ſobrados.* |  |
 | `c2-l044` | Côro. *Fogãozinho limpo, onde no inuerno ſe* |  |
-| `c2-l045` | &emsp;*aquentan. X.* |  |
+| `c2-l045` | &emsp;*aquentan.* X*.* |  |
 | `c2-l046` | Cǒro. Yuqu michi. *Caminho que ſe anda.* |  |
 | `c2-l047` | Coro. *Tempo. ¶ Atè, Proporção, ou tama-* |  |
 | `c2-l048` | &emsp;*nho, &c.* |  |

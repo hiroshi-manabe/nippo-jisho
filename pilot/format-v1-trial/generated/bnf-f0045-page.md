@@ -109,15 +109,15 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l020` | &emsp;*Não ſaber dalguem, ou dalgũa couſa ſe he boa* |  |
 | `c2-l021` | &emsp;*ou maa.* |  |
 | `c2-l022` | Ayana. i. Yeqi naxi. *Couſa vaã, & ſem* |  |
-| `c2-l023` | &emsp;*proueito. P.* |  |
+| `c2-l023` | &emsp;*proueito.* P*.* |  |
 | `c2-l024` | Ayanaqu. *Aduerb. Sem proueito, ou em* |  |
-| `c2-l025` | &emsp;*vão. P.* |  |
+| `c2-l025` | &emsp;*vão.* P*.* |  |
 | `c2-l026` | Ayanaxi. *P. Couſa inutil.* |  |
 | `c2-l027` | Ayanaxi, ſu. i. Ayauo naſu, l, monuo a- |  |
 | `c2-l028` | &emsp;raſuru. *Pintar, ou ornar com palauras de* |  |
 | `c2-l029` | &emsp;*maneira que hum folgue de ouuir. ¶* Co- |  |
 | `c2-l030` | &emsp;ye ayauo naſu. *Fazer paſſos de garganta,* |  |
-| `c2-l031` | &emsp;*ou, gargantear. S.* |  |
+| `c2-l031` | &emsp;*ou, gargantear.* S*.* |  |
 | `c2-l032` | Ayanicu, P. *Adu. Ao reuez do que homẽ* |  |
 | `c2-l033` | &emsp;*deſeja, ou eſpera.* |  |
 | `c2-l034` | Ayatçuri. *Inuenção, ou artificio.* |  |

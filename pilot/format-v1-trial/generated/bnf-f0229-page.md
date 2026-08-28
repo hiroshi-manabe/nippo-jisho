@@ -17,7 +17,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l001` | Fuxinauame. *Certo feitio, & tecedura de* |  |
 | `c1-l002` | &emsp;*armas.* |  |
 | `c1-l003` | Fuxinqiû. *Hum certo arco pequeno.* |  |
-| `c1-l004` | Fuxiqi. Xirazu. *Não ſaber. Bup.* |  |
+| `c1-l004` | Fuxiqi. Xirazu. *Não ſaber.* Bup*.* |  |
 | `c1-l005` | Fuxiqi. *Aruore caida com tormenta, ou de* |  |
 | `c1-l006` | &emsp;*podre, & velha. ¶ Item, No* Cami, |  |
 | `c1-l007` | &emsp;Fuxiqi. *Aruore, ou pao de muitos noos.* |  |

@@ -52,7 +52,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l036` | Ai cauari, u, atta. *Vide* Cauari, u. |  |
 | `c1-l037` | Ai chicazzuqi, u, ita. *Vide* Chicazzuqi, u. |  |
 | `c1-l038` | Ai chigai, ǒ, ǒta. *Vide* Chigai, ǒ. |  |
-| `c1-l039` | Aichô. i. Chôai. *Mimo, ou afago. S.* |  |
+| `c1-l039` | Aichô. i. Chôai. *Mimo, ou afago.* S*.* |  |
 | `c1-l040` | Ai cocoroye, uru, eta. *Vide* Cocoroye, uru. |  |
 | `c1-l041` | Ai coraye, uru, eta. *Vide* Coraye, uru. |  |
 | `c1-l042` | Ai coxiraye, uru, eta. *Vide* Coxiraye, uru. |  |

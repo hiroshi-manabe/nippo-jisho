@@ -98,7 +98,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l018` | Cotozzuqe, uru, eta. *Mandar algũa en-* |  |
 | `c2-l019` | &emsp;*comenda por alguem. Vt,* Xemete tamaz- |  |
 | `c2-l020` | &emsp;zuſauo naritomo cotozzuqeôzuruuo vô- |  |
-| `c2-l021` | &emsp;xerareta. *Voi. Diſſe que pellomenos que-* |  |
+| `c2-l021` | &emsp;xerareta. Voi*. Diſſe que pellomenos que-* |  |
 | `c2-l022` | &emsp;*ria encomendarlhe hũa carta pera lhe leuar.* |  |
 | `c2-l023` | Cotozzute. *Melius* Cototçute. *Encomendas* |  |
 | `c2-l024` | &emsp;*de palaura. ¶* Cotozzuteuo môſu. *Man-* |  |

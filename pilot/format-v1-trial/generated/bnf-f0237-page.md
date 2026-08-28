@@ -38,8 +38,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l022` | &emsp;*tes, ou de elephante.* |  |
 | `c1-l023` | Guexi. *Superior mediato, ou official que eſta* |  |
 | `c1-l024` | &emsp;*de baixo de outro.* |  |
-| `c1-l025` | Guexi, ſuru, ita. *Bup. Aclararſe, & li-* |  |
-| `c1-l026` | &emsp;*urarſe das paixões cõ as meditações do Bup.* |  |
+| `c1-l025` | Guexi, ſuru, ita. Bup*. Aclararſe, & li-* |  |
+| `c1-l026` | &emsp;*urarſe das paixões cõ as meditações do* Bup*.* |  |
 | `c1-l027` | &emsp;*Vt,* Cocorouo gueſuru. |  |
 | `c1-l028` | Guexinin. *Homem que eſta preſo, ou conde-* |  |
 | `c1-l029` | &emsp;*nado em lugar de outro que he o proprio reo,* |  |
@@ -47,7 +47,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l031` | &emsp;*do. ¶* Guexininuo daſu, l, ſigu. *Dar* |  |
 | `c1-l032` | &emsp;*o reo alguem em ſeu lugar.* |  |
 | `c1-l033` | Guexô. Toqi, qiyuru. *Deſfazerſe. Vt,* |  |
-| `c1-l034` | &emsp;Côri guexôſu. *Deſfazerſe o caramelo. S.* |  |
+| `c1-l034` | &emsp;Côri guexôſu. *Deſfazerſe o caramelo.* S*.* |  |
 | `c1-l035` | Guexǒ. i, Vmare tçugino iyaxij coto. *Bai-* |  |
 | `c1-l036` | &emsp;*xo nacimento. i, Baixa geração.* |  |
 | `c1-l037` | Guexô. *Partes inferiores do corpo. Vt,* |  |
@@ -58,9 +58,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l042` | Guexocu. *Officio baixo. ¶* Guexocu ſu- |  |
 | `c1-l043` | &emsp;ru. *Fazer officio, ou exercicio baixo.* |  |
 | `c1-l044` | Guexxocu. Tçuqino iro. *Cor da lũa, ou* |  |
-| `c1-l045` | &emsp;*aparencia. S.* |  |
+| `c1-l045` | &emsp;*aparencia.* S*.* |  |
 | `c1-l046` | Gueyacu. Xitano yacu. *Officio baixo, ou* |  |
-| `c1-l047` | &emsp;*inferior. X.* |  |
+| `c1-l047` | &emsp;*inferior.* X*.* |  |
 
 ## Column 2 running header
 
@@ -99,7 +99,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l019` | &emsp;*trario, ou ruim. ¶* Guiacufǔga fugu. |  |
 | `c2-l020` | &emsp;*Ventar vento contrario, ou ruim. ¶* Guia- |  |
 | `c2-l021` | &emsp;cufǔninio cunzu. *Cheirar ainda com vento* |  |
-| `c2-l022` | &emsp;*contrario que leua o cheiro a outra parte. S.* |  |
+| `c2-l022` | &emsp;*contrario que leua o cheiro a outra parte.* S*.* |  |
 | `c2-l023` | Guiacugui. Sacaximanogui. *Ruim, ou per-* |  |
 | `c2-l024` | &emsp;*uerſa couſa.* |  |
 | `c2-l025` | Guiacuguiǒ. Sacaximani voconǒ. *Màs* |  |

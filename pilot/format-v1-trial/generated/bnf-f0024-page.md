@@ -31,7 +31,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l015` | Aitagaini. *Aduer. Entre ſi, l, de hum pe-* |  |
 | `c1-l016` | &emsp;*ra outro.* |  |
 | `c1-l017` | Aitai. Tanabiqi, u. *O estenderſe a nuuem,* |  |
-| `c1-l018` | &emsp;*neuoa, &c. S.* |  |
+| `c1-l018` | &emsp;*neuoa, &c.* S*.* |  |
 | `c1-l019` | Aitaixi, ſuru, ita. Aimucǒ. *Estar de fron* |  |
 | `c1-l020` | &emsp;*te hum doutro. ¶* Aitaixite mǒſu. *Fal-* |  |
 | `c1-l021` | &emsp;*lar de rosto arosto.* |  |
@@ -73,7 +73,7 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c2-l001` | Aiuazzurai, ǒ, ǒta. *Vide* Vazzurai, ǒ. |  |
-| `c2-l002` | Aiuo, aixi, nicumi. *Amor, & odio. S.* |  |
+| `c2-l002` | Aiuo, aixi, nicumi. *Amor, & odio.* S*.* |  |
 | `c2-l003` | Aiuoi. *Vt,* Aiuoino matçu. *Pinheiros que* |  |
 | `c2-l004` | &emsp;*juntamente forão plantados, & juntamente cre* |  |
 | `c2-l005` | &emsp;*cerão como huns que estão na arraya do reino* |  |

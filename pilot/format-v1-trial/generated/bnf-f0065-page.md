@@ -35,7 +35,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l019` | &emsp;*& modo de ſaber o bom eſtillo das cartas, &* |  |
 | `c1-l020` | &emsp;*de gouernar a outros. ¶* Buntǒ, butǒni |  |
 | `c1-l021` | &emsp;taxxita fito. *Perfeito na ſciencia & milicia.* |  |
-| `c1-l022` | Bunxei. Cano coye. *Soido de moſquito. P.* |  |
+| `c1-l022` | Bunxei. Cano coye. *Soido de moſquito.* P*.* |  |
 | `c1-l023` | Bunxit. *Modo de engrãdecer, & ornar com* |  |
 | `c1-l024` | &emsp;*palauras, comprimentos, &c. & ſingeleza* |  |
 | `c1-l025` | &emsp;*no falar, & poucos comprimentos. O primei-* |  |

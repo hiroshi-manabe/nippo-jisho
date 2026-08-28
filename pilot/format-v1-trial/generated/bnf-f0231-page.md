@@ -22,7 +22,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l006` | Gacumonja. *Eſtudante, ou letrado.* |  |
 | `c1-l007` | Gacumonjo. *Lugar de eſtudos.* |  |
 | `c1-l008` | Gacumonsǒ. *Erua aſſi chamada boa pera* |  |
-| `c1-l009` | &emsp;*ſarna. X.* |  |
+| `c1-l009` | &emsp;*ſarna.* X*.* |  |
 | `c1-l010` | Gacunin. Gacuno fito. *Muſicos, ou tange-* |  |
 | `c1-l011` | &emsp;*dores de inſtrumentos muſicos.* |  |
 | `c1-l012` | Gacunin. Manabu fito. *Eſtudante.* |  |
@@ -79,7 +79,7 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c2-l001` | &emsp;*rẽ.* |  |
-| `c2-l002` | Gafô. Vaga fô. *Minha ſeita, ou ley. Bup.* |  |
+| `c2-l002` | Gafô. Vaga fô. *Minha ſeita, ou ley.* Bup*.* |  |
 | `c2-l003` | Gagacu. Bup. Vaga ſatori. *Vt,* Gagacu |  |
 | `c2-l004` | &emsp;ſonpuxǒ. *Saber naturalmente ſem aprẽ-* |  |
 | `c2-l005` | &emsp;*der nem diſcorrer como diſſe* Xaca *de ſi.* |  |
@@ -109,7 +109,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l029` | &emsp;firoi gaicacu. *Grande vulto, & aparencia* |  |
 | `c2-l030` | &emsp;*de edificio, cerca, &c.* |  |
 | `c2-l031` | Gaichǔ. *Vt,* Iũnigaichǔ. i, Tçugino v- |  |
-| `c2-l032` | &emsp;chi. *Dentro da hora. S.* |  |
+| `c2-l032` | &emsp;chi. *Dentro da hora.* S*.* |  |
 | `c2-l033` | Gaicot. Xigai fone. *Oſſada de corpo morto.* |  |
 | `c2-l034` | Gaina, l, gaina mono. *Peſſoa liure, & a-* |  |
 | `c2-l035` | &emsp;*miga de ſeu parecer, pouco cortes pera com o ſe-* |  |
@@ -117,7 +117,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l037` | Gaiqi. *Catarrão. ¶* Gaiqiuo ſuru. *Eſ-* |  |
 | `c2-l038` | &emsp;*tar doente de catarrão.* |  |
 | `c2-l039` | Gairi. *Filho de galo da China, & galinha de* |  |
-| `c2-l040` | &emsp;*Iapão. X. ¶* Tòmatu, gairi. *Idẽ. Vide* gayeri. |  |
+| `c2-l040` | &emsp;*Iapão.* X*. ¶* Tòmatu, gairi. *Idẽ. Vide* gayeri. |  |
 | `c2-l041` | Gaisai. Qiua, qiua. *Termo, ou limite.* |  |
 | `c2-l042` | Gaisô. i, Xiuabuqi. *Toſſe.* |  |
 | `c2-l043` | Gaitô. *Encruzilhada.* |  |

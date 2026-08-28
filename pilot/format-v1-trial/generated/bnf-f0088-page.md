@@ -14,7 +14,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | &emsp;iqeôto mina caqeuochiuo xita. *Fab. Fu-* |  |
+| `c1-l001` | &emsp;iqeôto mina caqeuochiuo xita. Fab*. Fu-* |  |
 | `c1-l002` | &emsp;*girão eſcondidamente pera ſaluar a vida.* |  |
 | `c1-l003` | Caqeuochi xi, ſuru, ita. *Fugir ſecretamẽte.* |  |
 | `c1-l004` | Caqeuodoxi. *Pelle ẽ que emburulhão as armas.* |  |

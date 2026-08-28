@@ -18,7 +18,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l002` | Faqimono. *Calçado como çapatos, alparcas* |  |
 | `c1-l003` | &emsp;*de Iapão, &c.* |  |
 | `c1-l004` | Faqinogoi, ô, ôta. *Varrendo alimpar.* |  |
-| `c1-l005` | Faqiô. Vare cagami. *Eſpelho quebrado. S.* |  |
+| `c1-l005` | Faqiô. Vare cagami. *Eſpelho quebrado.* S*.* |  |
 | `c1-l006` | Faqiſoye, uru, eta. *Cingir mais hũa eſpada* |  |
 | `c1-l007` | &emsp;*comprida, ou montante.* |  |
 | `c1-l008` | Faqiſute, uru, eta. *Varrendo lançar fora.* |  |
@@ -55,7 +55,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l039` | &emsp;*diuerſas mãys. ¶* Faragauarino qiôdai. |  |
 | `c1-l040` | &emsp;*Irmãos filhos de diuerſas mãys.* |  |
 | `c1-l041` | Faragome. *Criança que fica no ventre da* |  |
-| `c1-l042` | &emsp;*mãy quando o pay morre. X. ¶* Farago- |  |
+| `c1-l042` | &emsp;*mãy quando o pay morre.* X*. ¶* Farago- |  |
 | `c1-l043` | &emsp;meno tçiqicara teiçega xinda. *Morre* |  |
 | `c1-l044` | &emsp;*olhe o pay ficando, ou ſtendo ainda no ven-* |  |
 | `c1-l045` | &emsp;*tre da mãy. ¶ Item, Criança, ou filho de qual* |  |
@@ -99,7 +99,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l025` | &emsp;faramu. *Eſtar prenhe, ou com o filho na bar-* |  |
 | `c2-l026` | &emsp;*riga. ¶* Mugui, l, inega faramu. *Eſtar* |  |
 | `c2-l027` | &emsp;*o trigo, ou arroz pera eſpigar.* |  |
-| `c2-l028` | Faran. Nami. *Ondas. S.* |  |
+| `c2-l028` | Faran. Nami. *Ondas.* S*.* |  |
 | `c2-l029` | Fararago. *Hũa maneira de grãos como bagos* |  |
 | `c2-l030` | &emsp;*de uuas vermelhas, & luzentes.* |  |
 | `c2-l031` | Fararifararito. *Adu. Modo de correrem as* |  |
@@ -110,7 +110,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l036` | Farauata. *Tripas.* |  |
 | `c2-l037` | Farauobi. *Hũa cinta que poem as molheres* |  |
 | `c2-l038` | &emsp;*prenhes junto da carne pera fazer a barriga pe-* |  |
-| `c2-l039` | &emsp;*quena. X.* |  |
+| `c2-l039` | &emsp;*quena.* X*.* |  |
 | `c2-l040` | Faraxi, ſu, aita. *Aclarar. ¶* Cocciuo |  |
 | `c2-l041` | &emsp;uo faraſu. *Deſataſar. ¶* Fuxiuo fara- |  |
 | `c2-l042` | &emsp;ſu. *Soltar a duuida. ¶* Mayoiuo fara- |  |

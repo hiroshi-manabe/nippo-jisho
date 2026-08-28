@@ -24,9 +24,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l008` | Futçǔ. Tçǔjezu. *Não auer communicação,* |  |
 | `c1-l009` | &emsp;*nem paſſajem. ¶* Farubaru futçǔni ma- |  |
 | `c1-l010` | &emsp;cari ſugui ſoro. *Ha muito que não nos cõ-* |  |
-| `c1-l011` | &emsp;*municamos nem viſitamos. S.* |  |
+| `c1-l011` | &emsp;*municamos nem viſitamos.* S*.* |  |
 | `c1-l012` | Futçu. *Erua com que ſe dão botoens de fogo* |  |
-| `c1-l013` | &emsp;*X. ¶* Futçumochi. *Bolinhos de ar-* |  |
+| `c1-l013` | &emsp;X*. ¶* Futçumochi. *Bolinhos de ar-* |  |
 | `c1-l014` | &emsp;*roz feitos com eſta erua. No* Cami *ſe diz* |  |
 | `c1-l015` | &emsp;Yomogui. |  |
 | `c1-l016` | Futçufutçuto. *Adu. Modo de cortar cerce,* |  |
@@ -80,7 +80,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l005` | &emsp;*& ſem policia, que reſponde, & não tem* |  |
 | `c2-l006` | &emsp;*deuer com nada.* |  |
 | `c2-l007` | Futojiro. i, Xiroi catabira. Catabira *bran-* |  |
-| `c2-l008` | &emsp;*ca. X.* |  |
+| `c2-l008` | &emsp;*ca.* X*.* |  |
 | `c2-l009` | Futome, uru, eta. *Fazer grande, ou mayor.* |  |
 | `c2-l010` | Futon. i, Xiqimono. *Colchão. ¶ Item,* |  |
 | `c2-l011` | &emsp;*Almofadinha que ſe poem ſobre a ſella do* |  |
@@ -116,7 +116,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l041` | &emsp;*unem.* Meuoto fuuagǒni gozaru. *A-* |  |
 | `c2-l042` | &emsp;*quelles caſados não eſtão amigos, nẽ unidos.* |  |
 | `c2-l043` | Fuuana. *Eſtar quebrado na amizade cõ outro.* |  |
-| `c2-l044` | Fǔ vn. Caje, cumo. *Vento, & nuuẽs. S.* |  |
+| `c2-l044` | Fǔ vn. Caje, cumo. *Vento, & nuuẽs.* S*.* |  |
 | `c2-l045` | Fuun. Facobazu. i, Vnnorai. *Deſdita.* |  |
 | `c2-l046` | &emsp;*Vt,* Fuun xigocuna. *Grande moſina, ou* |  |
 | `c2-l047` | &emsp;*deſdita.* |  |

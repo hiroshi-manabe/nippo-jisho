@@ -31,7 +31,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l015` | &emsp;*te, &c.* |  |
 | `c1-l016` | Fiqicudaxi, u, aita. *Abaixar algũa couſa* |  |
 | `c1-l017` | &emsp;*puxando por ella.* |  |
-| `c1-l018` | Fiqida. Melius, Coxifiqi. *Coxo, ou manco.* |  |
+| `c1-l018` | Fiqida. *Melius*, Coxifiqi. *Coxo, ou manco.* |  |
 | `c1-l019` | Fiqidaxi, u, aita. *Tirar fora puxando.* |  |
 | `c1-l020` | Fiqidemono. *Premio, ou dadiua que dà peſ-* |  |
 | `c1-l021` | &emsp;*ſoa mais nobre, ou igual a outra.* |  |

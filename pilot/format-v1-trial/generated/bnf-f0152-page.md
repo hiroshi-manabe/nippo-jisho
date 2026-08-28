@@ -55,7 +55,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l039` | &emsp;*ſe não abrem nem fecham.* |  |
 | `c1-l040` | Danzai. Tçumi aru mononuo qiri ſutçuru |  |
 | `c1-l041` | &emsp;coto. *Sentencciar à morte, ou matar por* |  |
-| `c1-l042` | &emsp;*juſtiça. S.* |  |
+| `c1-l042` | &emsp;*juſtiça.* S*.* |  |
 | `c1-l043` | Daqe. i. Yamano itadagi. *Cume do monte.* |  |
 | `c1-l044` | Daqi, u, aita. *Abraçar, ou ter nos braços.* |  |
 | `c1-l045` | &emsp;*melius.* Idaqi, u. |  |

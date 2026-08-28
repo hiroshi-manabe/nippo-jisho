@@ -36,14 +36,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l020` | Facuro. Xiratçuyu. *Orualho.* |  |
 | `c1-l021` | Facurǒ. Fiacuno xinrǒ. *Muitos trabalhos.* |  |
 | `c1-l022` | Facurǒ. i, mozu. *Hũ paſſarinho que tem o bico* |  |
-| `c1-l023` | &emsp;*como de falcão. S. ¶* Facurǒ nhôjet. |  |
+| `c1-l023` | &emsp;*como de falcão.* S*. ¶* Facurǒ nhôjet. |  |
 | `c1-l024` | &emsp;i, Mozuno ſayezzuru coto. *O cantar eſte* |  |
 | `c1-l025` | &emsp;*paſſarinho.* |  |
 | `c1-l026` | Facuſa. *Doença dos dentes.* |  |
 | `c1-l027` | Facuſui. *Agoa clara.* |  |
 | `c1-l028` | Facutô. Xiroi caxira. i, Xiraga. *Caãs.* |  |
 | `c1-l029` | &emsp;¶ Facutôni voyobu. *Fazerſe branco, l,* |  |
-| `c1-l030` | &emsp;*velho. S.* |  |
+| `c1-l030` | &emsp;*velho.* S*.* |  |
 | `c1-l031` | Facutǒ. Xiroi momo. *Flor branca de peſe-* |  |
 | `c1-l032` | &emsp;*gueiro.* |  |
 | `c1-l033` | Facutocu. i, Firoi toku. *Grandes proueitos.* |  |

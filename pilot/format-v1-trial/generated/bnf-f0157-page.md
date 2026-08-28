@@ -19,7 +19,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l003` | Dôgacu. Vonajicu manabu. *O eſtudar ju-* |  |
 | `c1-l004` | &emsp;*tamente. ¶* Dôgacuno fito. *Condiſ-* |  |
 | `c1-l005` | &emsp;*cipulos.* |  |
-| `c1-l006` | Dǒgacu. *Bup. i,* Satorino michiuo manabu. |  |
+| `c1-l006` | Dǒgacu. Bup*. i,* Satorino michiuo manabu. |  |
 | `c1-l007` | &emsp;*Eſtudo, ou ſciencia do principal, & ſubſtan-* |  |
 | `c1-l008` | &emsp;*tial da lei.* |  |
 | `c1-l009` | Dǒgame. *Tartaruga, ou cagado. No* Ximo |  |

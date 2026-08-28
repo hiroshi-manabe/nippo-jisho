@@ -23,7 +23,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l007` | Ficqiǒ. *Finalmente, ou em conclusão. ¶* Fic- |  |
 | `c1-l008` | &emsp;qiǒ ſuru. *Concluir, ou arrematar.* |  |
 | `c1-l009` | Ficqiǒji, zuru, ita. *Aſomar, ou reſumir.* |  |
-| `c1-l010` | Ficqua. Fudeno fana. *Bom eſtilo. P.* |  |
+| `c1-l010` | Ficqua. Fudeno fana. *Bom eſtilo.* P*.* |  |
 | `c1-l011` | Ficui. *Couſa baixa.* |  |
 | `c1-l012` | &emsp;Ficufa. |  |
 | `c1-l013` | &emsp;Ficu. |  |
@@ -82,7 +82,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l008` | &emsp;voxiyuru. *Enſinar às eſcondidas.* |  |
 | `c2-l009` | Fideri, l, canbat. *Seca cauſada do ſol.* |  |
 | `c2-l010` | Fideri, ru, etta. Vzzuçu. *Eſcozer, laſtejar,* |  |
-| `c2-l011` | &emsp;*ou arder a chaga, queimadura, &c. X. No* |  |
+| `c2-l011` | &emsp;*ou arder a chaga, queimadura, &c.* X*. No* |  |
 | `c2-l012` | &emsp;Cami *ſe diz* firaqi. |  |
 | `c2-l013` | Fidǒ. Michini arazu. *Sem rezão, ou in-* |  |
 | `c2-l014` | &emsp;*juſtiça. ¶* Fidǒuo ſuru, l, camayuru, l, |  |

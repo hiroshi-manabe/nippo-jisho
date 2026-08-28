@@ -94,7 +94,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l019` | &emsp;*forçado que eu.* |  |
 | `c2-l020` | Conomoto. *Pé da aruore.* |  |
 | `c2-l021` | Conori. *Nome de certa eſpecie de falcão.* |  |
-| `c2-l022` | &emsp;*¶ Item, Hum grude que fazem de arroz. X.* |  |
+| `c2-l022` | &emsp;*¶ Item, Hum grude que fazem de arroz.* X*.* |  |
 | `c2-l023` | Côno ximoburi. *Penas de hum certo paſſaro* |  |
 | `c2-l024` | &emsp;*como grou pera frechas.* |  |
 | `c2-l025` | Conoyǒna. *Couſa ſemelhante, ou tal.* |  |

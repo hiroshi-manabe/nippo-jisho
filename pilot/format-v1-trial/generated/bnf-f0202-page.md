@@ -24,7 +24,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l008` | &emsp;*por onde a ferrão pera abrir, ou fechar.* |  |
 | `c1-l009` | Fittô. Fude caxira. *Cabeça da pena. ¶* Fit- |  |
 | `c1-l010` | &emsp;tôni tçucuxigataxi. *Não ſe pode acabar* |  |
-| `c1-l011` | &emsp;*de eſcreuer. S.* |  |
+| `c1-l011` | &emsp;*de eſcreuer.* S*.* |  |
 | `c1-l012` | Fittoqi, u, oita. *Deſatar. ¶* Carague- |  |
 | `c1-l013` | &emsp;nauauo curucuruto fittoita. *Tog. De-* |  |
 | `c1-l014` | &emsp;*ſatou com preſſa, & viueza a corda de a-* |  |
@@ -47,7 +47,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l031` | &emsp;fiuo vtçu. *Ferir fogo com fuzil.* |  |
 | `c1-l032` | Fiuchibucuro. *Bolſa da feição deſte fuzil q̃* |  |
 | `c1-l033` | &emsp;*ſe traz dependurada no cinto.* |  |
-| `c1-l034` | Fiuchicado. *Fuzil, & pederneira. X.* |  |
+| `c1-l034` | Fiuchicado. *Fuzil, & pederneira.* X*.* |  |
 | `c1-l035` | Fiuchino ixi. *Pederneira. No* Ximo *ſe diz* |  |
 | `c1-l036` | &emsp;Cado. |  |
 | `c1-l037` | Fiùgazu. *Vt,* Tacano fiùgazu. *Falcão q̃* |  |

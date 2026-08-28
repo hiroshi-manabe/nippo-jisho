@@ -51,7 +51,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l035` | &emsp;uo ategǒ. *Repartir, ou diuidir a poluora,* |  |
 | `c1-l036` | &emsp;*& muniçoẽs pellos ſoldados.* |  |
 | `c1-l037` | Atenaru fito. *Homem de bom pareçer, ou gen-* |  |
-| `c1-l038` | &emsp;*til homem. P.* |  |
+| `c1-l038` | &emsp;*til homem.* P*.* |  |
 | `c1-l039` | Atetabi, u. i. Atetamauaru. *Dar peſſoa alta* |  |
 | `c1-l040` | &emsp;*a inferior, como officio, renda, &c.* |  |
 | `c1-l041` | Atete. *Particularmente, ou em particular.* |  |

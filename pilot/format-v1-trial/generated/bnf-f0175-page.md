@@ -48,7 +48,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l032` | &emsp;*talagem.* |  |
 | `c1-l033` | Fatagoya. *Eſtalagem, ou venda.* |  |
 | `c1-l034` | Fataita. *Parede de taboas pouco aleuantada.* |  |
-| `c1-l035` | Fatamata. *Alem diſſo. S.* |  |
+| `c1-l035` | Fatamata. *Alem diſſo.* S*.* |  |
 | `c1-l036` | Fatameqi, u, eita. *Andar apreſſado, & ſol-* |  |
 | `c1-l037` | &emsp;*licito ſobre algũa couſa.* |  |
 | `c1-l038` | Fatameqimauari, u, atta. *Andar rodeando* |  |
@@ -118,7 +118,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l038` | &emsp;*primeiras flores. ¶* Fatçu faru. i, Xo- |  |
 | `c2-l039` | &emsp;guat. *Primeiro mes do anno.* |  |
 | `c2-l040` | Fatçu araxi. *Vide,* Fatçu. |  |
-| `c2-l041` | Fatçuburi. *Hũa laya de capacete.* |  *(noua. P.* |
+| `c2-l041` | Fatçuburi. *Hũa laya de capacete.* |  *(noua.* P. |
 | `c2-l042` | Fatçuca, l, fatçucana. i, Mezzuraxij. *Couſa* |  |
 | `c2-l043` | Fatçu coye. *Primeira voz, ou canto dos paſ-* |  |
 | `c2-l044` | &emsp;*ſaros no verão, ou prima vera, mas mais ſe vſa no* |  |

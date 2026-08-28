@@ -54,7 +54,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l038` | &emsp;*mo ramos retorcidos, &c.* |  |
 | `c1-l039` | Cucu. *Vt,* Cucumonmon. *Sentenças.* |  |
 | `c1-l040` | Cucu. *Taboada de contar.* |  |
-| `c1-l041` | Cucù. *Vt,* Cùcù jacujacu. *Bup. i. Fôv.* |  |
+| `c1-l041` | Cucù. *Vt,* Cùcù jacujacu. Bup*. i. Fôv.* |  |
 | `c1-l042` | &emsp;*Hum ſer, ou principio antes das creaturas ſen-* |  |
 | `c1-l043` | &emsp;*ſiueis.* |  |
 | `c1-l044` | Cucume, uru, eta. *Dar de comer metendo o* |  |

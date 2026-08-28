@@ -29,7 +29,11 @@ REFERENCE_LABELS = (
 REFERENCE_RE = re.compile(
     r"(?<![\wſ])(" + "|".join(map(re.escape, REFERENCE_LABELS)) + r")(?=\.)"
 )
-ADVERB_RE = re.compile(r"(?<![\wſ])Adu\.")
+GRAMMATICAL_RE = re.compile(
+    r"(?<![\wſ])(?:Aduerb|Aduer|Adu|Ad)\.|(?<![\wſ])Melius(?![\wſ])"
+)
+USAGE_LABEL_RE = re.compile(r"(?<![\wſ])(?:Bup|Voi|S|X)(?=\.)")
+POETRY_LABEL_RE = re.compile(r"(?<![\wſ])P(?=\.)")
 BOOK_RE = re.compile(r"(?<![\wſ])(?:Lib|lib|L|Li)\.")
 CONTINUED_BOOK_RE = re.compile(r"^(?:Lib|lib)\.\s*(?:[ivxlcdm]+|\d+)\.", re.I)
 
@@ -84,15 +88,32 @@ def rewrite_content(content: str) -> str:
     characters = parse_styles(content)
     text = visible_text(characters)
     references = list(REFERENCE_RE.finditer(text))
+    grammatical = list(GRAMMATICAL_RE.finditer(text))
+    usage_labels = list(USAGE_LABEL_RE.finditer(text))
+    poetry_labels = list(POETRY_LABEL_RE.finditer(text))
     continued_book = CONTINUED_BOOK_RE.match(text)
-    if not ADVERB_RE.search(text) and not references and not continued_book:
+    if not grammatical and not references and not usage_labels and not poetry_labels and not continued_book:
         return content
     original_styles = [italic for _, italic in characters]
 
-    for match in ADVERB_RE.finditer(text):
+    for match in grammatical:
         set_style(characters, match, True)
     for match in references:
         set_style(characters, match, False)
+    for match in usage_labels:
+        set_style(characters, match, False)
+    for match in poetry_labels:
+        # `P.` is upright when it closes or qualifies material already in the
+        # italic apparatus, but can itself be italic when it introduces the
+        # following explanatory form. Preserve the latter case by changing
+        # only a P that has alphabetic text before it in the same italic run.
+        if not original_styles[match.start()]:
+            continue
+        run_start = match.start()
+        while run_start and original_styles[run_start - 1]:
+            run_start -= 1
+        if re.search(r"[A-Za-zſ]", text[run_start : match.start()]):
+            set_style(characters, match, False)
     if references or continued_book:
         for match in BOOK_RE.finditer(text):
             set_style(characters, match, True)

@@ -88,7 +88,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2a-l013` | &emsp;*não cuidar, nem prouer pera o futuro* |  |
 | `c2a-l014` | Buyocu. i. Buxino fomareno qicoyuru co |  |
 | `c2a-l015` | &emsp;to. *O ſer o ſoldado nomeado, & af-* |  |
-| `c2a-l016` | &emsp;*famado. S.* |  |
+| `c2a-l016` | &emsp;*famado.* S*.* |  |
 | `c2a-l017` | Buyôjin. Yôjinnaxi. *O não auer vigia, &* |  |
 | `c2a-l018` | &emsp;*cautela.* |  |
 | `c2a-l019` | Buyǔ. Taqecu iſamu. i. Qenaguena coto. |  |
@@ -117,7 +117,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2b-l004` | &emsp;Ca. Norimono. *Andas, ou* |  |
 | `c2b-l005` | &emsp;*andor. Vt,* Cauo ma- |  |
 | `c2b-l006` | &emsp;guerarete. *Rodeando com as* |  |
-| `c2b-l007` | &emsp;*andas. S. palaura de comprimento que ſe diz* |  |
+| `c2b-l007` | &emsp;*andas.* S*. palaura de comprimento que ſe diz* |  |
 | `c2b-l008` | &emsp;*honrrãdo a peſſoa que veo rodeando, & cõ tra-* |  |
 | `c2b-l009` | &emsp;*balho no* Norimono. |  |
 | `c2b-l010` | Ca. Cǒbaxij. *Cheiro, ou perfume. ¶* Ca- |  |

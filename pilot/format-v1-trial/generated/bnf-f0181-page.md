@@ -56,7 +56,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1b-l011` | &emsp;*em dignidade, &c.* |  |
 | `c1b-l012` | Febi. *Cobra.* |  |
 | `c1b-l013` | Febo. *Hũa doença que vem aos meninos como* |  |
-| `c1b-l014` | &emsp;*ſarampão. X. No* Cami *ſe diz,* Fe- |  |
+| `c1b-l014` | &emsp;*ſarampão.* X*. No* Cami *ſe diz,* Fe- |  |
 | `c1b-l015` | &emsp;nuno. |  |
 | `c1b-l016` | Febo. *Hum bicho.* |  |
 | `c1b-l017` | Fechima. *Hum certo genero de abobaras como* |  |
@@ -69,7 +69,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1b-l024` | &emsp;caçu. *Por eſte encacho. ¶ Item,* Fe- |  |
 | `c1b-l025` | &emsp;co. *Hum circulo de cordas, ou canas ſobre* |  |
 | `c1b-l026` | &emsp;*q̃ poem pedras, & as leuão muitos: ordinaria-* |  |
-| `c1b-l027` | &emsp;*mente ſe diz,* Ixibeco. *X.* |  |
+| `c1b-l027` | &emsp;*mente ſe diz,* Ixibeco. X*.* |  |
 
 ## Column 2 running header
 
@@ -109,7 +109,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l026` | Fei. i, Tçuuamono. *Soldado. Vt,* Feitçu- |  |
 | `c2-l027` | &emsp;caruru toqiniha, xǒ no-i. voconauarezu. |  |
 | `c2-l028` | &emsp;Xix*. Quando os ſoldados eſtão canſados o* |  |
-| `c2-l029` | &emsp;*capitão não tem poder nem brio. S.* |  |
+| `c2-l029` | &emsp;*capitão não tem poder nem brio.* S*.* |  |
 | `c2-l030` | Fei. *Hũa cana com hũs papeis cortados na põta,* |  |
 | `c2-l031` | &emsp;*conq̃ fazem certas ceremonias diante do* Cami. |  |
 | `c2-l032` | Fei. *Parede de barro cuberta de taboas, ou pa-* |  |

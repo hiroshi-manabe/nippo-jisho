@@ -46,7 +46,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l030` | &emsp;*lherſe da chuua emparando ſe de baixo dalgũa* |  |
 | `c1-l031` | &emsp;*aruore, ou flores como de baixo de ſombreiro.* |  |
 | `c1-l032` | Caſu. Metoru coto. *Cazarſe, ou tomar o* |  |
-| `c1-l033` | &emsp;*homem molher. S.* |  |
+| `c1-l033` | &emsp;*homem molher.* S*.* |  |
 | `c1-l034` | Caſu. *Couſa que fica depois de eſprimida a ſuſ* |  |
 | `c1-l035` | &emsp;*tancia, como bagaço das vuas, ou que fica do* |  |
 | `c1-l036` | &emsp;*vinho de Iapão, dazeite, &c. Item,* Fare |  |

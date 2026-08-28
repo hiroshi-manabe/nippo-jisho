@@ -98,7 +98,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l024` | &emsp;*guem, &c. ¶* Saguiyuqu tçuqi, fi- |  |
 | `c2-l025` | &emsp;uomo acaxi cane, curaxi vazzurǒ. *Sõ-* |  |
 | `c2-l026` | &emsp;*tir o tempo comprido polla tristeza, & affli-* |  |
-| `c2-l027` | &emsp;*ção do animo. S.* |  |
+| `c2-l027` | &emsp;*ção do animo.* S*.* |  |
 | `c2-l028` | Acaza. *Hũa erua.* |  |
 | `c2-l029` | Acazzura. *Rosto vermelho.* |  |
 | `c2-l030` | Acazzuqi, u, uita. *Pegarſe a çujidade do* |  |

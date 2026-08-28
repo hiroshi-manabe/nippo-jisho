@@ -89,7 +89,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l015` | &emsp;*malicia do homem não ſe deſcobre facilmente.* |  |
 | `c2-l016` | Cofanji. *Mea hora, ou hum quarto de hora* |  |
 | `c2-l017` | &emsp;*de Iapão.* |  |
-| `c2-l018` | Cofaru. *Veranico de S. Martinho, que he no* |  |
+| `c2-l018` | Cofaru. *Veranico de* S*. Martinho, que he no* |  |
 | `c2-l019` | &emsp;*tempo do Outono.* |  |
 | `c2-l020` | Côfei. *Cuſtumes, ou obras que em menino moſ-* |  |
 | `c2-l021` | &emsp;*trão mais idade, & ſaber do que conuem a me-* |  |

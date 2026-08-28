@@ -29,7 +29,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l013` | &emsp;mauo fuſuru. *Fazer cair, ou deitar o* |  |
 | `c1-l014` | &emsp;*caualo. ¶ Item, Permet. Condenar. Vt,* |  |
 | `c1-l015` | &emsp;Fito tçumini fuſuru. |  |
-| `c1-l016` | Fuxe, uru, eta. *Remendar. X. Vt,* Qi- |  |
+| `c1-l016` | Fuxe, uru, eta. *Remendar.* X*. Vt,* Qi- |  |
 | `c1-l017` | &emsp;rumonouo fuſuru. |  |
 | `c1-l018` | Fuxego. *Hũa maneira de cubertoura com hũs* |  |
 | `c1-l019` | &emsp;*buraquinhos que põe ſobre algum perfumador* |  |
@@ -46,9 +46,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l030` | &emsp;*vento, & ruido dagoa.* |  |
 | `c1-l031` | Fuxei. Vgiyo. *Mundo miſerauel.* |  |
 | `c1-l032` | Fuxen. Nobezu. i, *Não eſcreuer mais, ou* |  |
-| `c1-l033` | &emsp;*não ſe dilatar mais na carta. S.* |  |
+| `c1-l033` | &emsp;*não ſe dilatar mais na carta.* S*.* |  |
 | `c1-l034` | Fuxeri, u, etta. *Jazer, ou deitarſe. ¶ Itẽ,* |  |
-| `c1-l035` | &emsp;*Deſumarſe. X.* |  |
+| `c1-l035` | &emsp;*Deſumarſe.* X*.* |  |
 | `c1-l036` | Fǔxet, l, fǔjet. *Nouas incertas que corrẽ.* |  |
 | `c1-l037` | Fuxet. Tocazu. *Não declarar. Vt,* Ichi- |  |
 | `c1-l038` | &emsp;jifuxet. *Não declarar nem hũa ſó letra.* |  |
@@ -98,7 +98,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l023` | Fuxiquiſa. |  |
 | `c2-l024` | Fuxijen. *Não cuidar na virtude. Vt,* |  |
 | `c2-l025` | &emsp;Fuxijen, fuxiacu. *Não cuidar na virtu-* |  |
-| `c2-l026` | &emsp;*de, nem na maldade. Bup.* |  |
+| `c2-l026` | &emsp;*de, nem na maldade.* Bup*.* |  |
 | `c2-l027` | Fuximarobi, u, ǒda. *Cair redondo.* |  |
 | `c2-l028` | Fuxime. *Rosto carregado, ou ruim ſembran-* |  |
 | `c2-l029` | &emsp;*te como de quem fica conuecido: & enuergonha-* |  |

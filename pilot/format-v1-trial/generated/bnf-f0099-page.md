@@ -59,7 +59,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l043` | &emsp;*trocarſe.* |  |
 | `c1-l044` | Cauari fate, uru, eta. T*rocarſe, ou, mu-* |  |
 | `c1-l045` | &emsp;*darſe totalmente algũa couſa.* |  |
-| `c1-l046` | Cauarigauari. Adu. *A reuezes, ou ora hum* |  |
+| `c1-l046` | Cauarigauari. *Adu. A reuezes, ou ora hum* |  |
 | `c1-l047` | &emsp;*ora outro.* |  |
 
 ## Column 2 running header

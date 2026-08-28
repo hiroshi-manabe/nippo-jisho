@@ -112,7 +112,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l038` | Coxi, ſu, oita. *Ir paſſando por cima de algũa* |  |
 | `c2-l039` | &emsp;*couſa como de ſerra, montes, &c.* |  |
 | `c2-l040` | Côxi, ſuru, ita. *Chamarſe, ou nomearſe al-* |  |
-| `c2-l041` | &emsp;*gũa couſa. S.* |  |
+| `c2-l041` | &emsp;*gũa couſa.* S*.* |  |
 | `c2-l042` | Côxi. Qimi, vatacuxi. *Senhor, & eu. Vt,* |  |
 | `c2-l043` | &emsp;Côxi ſima naqini yotte. *Por eu não ter tẽ-* |  |
 | `c2-l044` | &emsp;*po com as ocupações, & ſeruiço de meu ſenhor,* |  |

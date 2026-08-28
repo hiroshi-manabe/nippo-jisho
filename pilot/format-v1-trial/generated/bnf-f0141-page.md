@@ -99,12 +99,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l019` | Cundocu. i. Cunni yomu. *Explicar em Ia-* |  |
 | `c2-l020` | &emsp;*pão algum liuro.* |  |
 | `c2-l021` | Cundocu. *Ler a carta com reſpeito, & reue-* |  |
-| `c2-l022` | &emsp;*rencia. S.* |  |
+| `c2-l022` | &emsp;*rencia.* S*.* |  |
 | `c2-l023` | Cunebu. *Certa laya de laranjas doçes.* |  |
 | `c2-l024` | Cunguiô. Qimino xiuaza. *Obras feitas* |  |
 | `c2-l025` | &emsp;*polo ſenhor. Vt,* Cunguiǒ fibini facan na- |  |
 | `c2-l026` | &emsp;ri. *As obras, ou feitos do ſenhor cada dia* |  |
-| `c2-l027` | &emsp;*vão milhorando, & proſperando. S.* |  |
+| `c2-l027` | &emsp;*vão milhorando, & proſperando.* S*.* |  |
 | `c2-l028` | Cuni. *Reino. ¶* Cuniuo taſcaguru. *Deſ-* |  |
 | `c2-l029` | &emsp;*truir o reino. ¶* Cuniuo nabicaſu. *Re-* |  |
 | `c2-l030` | &emsp;*der, ou inclinar o reino à ſua parte. ¶* Cu- |  |

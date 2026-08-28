@@ -30,7 +30,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l014` | &emsp;*ſentir, &c. Vt,* Fagamiuo ſuru. |  |
 | `c1-l015` | Fagmi, u, ǒda. *Rir.* |  |
 | `c1-l016` | Fagan. *Vt,* Fagan nixô. *O ſurrirſe hum* |  |
-| `c1-l017` | &emsp;*pouco. Bup.* |  *( tardeira.* |
+| `c1-l017` | &emsp;*pouco.* Bup*.* |  *( tardeira.* |
 | `c1-l018` | Fagane. *Aço.* |  |
 | `c1-l019` | Fagaraxi. i, Caraxino fa. *Folhas de mos-* |  |
 | `c1-l020` | Fagaſumi. *Çujidade dos dentes.* |  |

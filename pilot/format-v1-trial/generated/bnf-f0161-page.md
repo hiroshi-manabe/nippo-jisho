@@ -92,7 +92,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l012` | &emsp;*gente pera a deſtruir.* |  |
 | `c2-l013` | Faccot. Xiroi fone. *Oſſada de defuntos.* |  |
 | `c2-l014` | Faccu. Yatçuno curuximi. *Oito tormentos,* |  |
-| `c2-l015` | &emsp;*ou penas. S.* Xǒcu, rocu, biǒcu, xicu, |  |
+| `c2-l015` | &emsp;*ou penas.* S*.* Xǒcu, rocu, biǒcu, xicu, |  |
 | `c2-l016` | &emsp;albet ritu, vonzoyecu, gufutocu, gojô- |  |
 | `c2-l017` | &emsp;vǒcu. |  |
 | `c2-l018` | Fachi. *Boceta redonda, ou bacia. ¶* Fa- |  |

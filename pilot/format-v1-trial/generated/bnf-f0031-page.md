@@ -16,9 +16,9 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c1-l001` | &emsp;*ou ir diante dalguem moſtrando lhe os paſſos.* |  |
 | `c1-l002` | Annei. i. Xizzucana. *Paz, & quietação* |  |
-| `c1-l003` | &emsp;*exterior. S.* |  |
+| `c1-l003` | &emsp;*exterior.* S*.* |  |
 | `c1-l004` | Annen. *Tranquillidade, & ſoçego inte-* |  |
-| `c1-l005` | &emsp;*rior. S.* |  |
+| `c1-l005` | &emsp;*rior.* S*.* |  |
 | `c1-l006` | Annin. *Miolo do caroço de albicorque.* |  |
 | `c1-l007` | Annon, l, anuon. Yaſuqu vodayaca nari. |  |
 | `c1-l008` | &emsp;*Tranquillidade, & paz. Esta palaura propria* |  |
@@ -48,7 +48,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l032` | &emsp;*rigo. ¶ Item, Succeſſo duuidoſo, & in-* |  |
 | `c1-l033` | &emsp;*certo.* |  |
 | `c1-l034` | Anqiǒ. *Cheiro denoite da flor de hũa aruore* |  |
-| `c1-l035` | &emsp;*como ameixieira. P.* |  |
+| `c1-l035` | &emsp;*como ameixieira.* P*.* |  |
 | `c1-l036` | Anqio, l, anco. Yaſuqu iru. *Quietação,* |  |
 | `c1-l037` | &emsp;*& ſoçego.* |  |
 | `c1-l038` | An raccocu. i. Gocuracu xecai. *Paraiſo de* |  |

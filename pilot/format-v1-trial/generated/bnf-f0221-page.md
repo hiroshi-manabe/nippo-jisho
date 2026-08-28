@@ -14,7 +14,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | &emsp;*ao vento he facil de ſe apagar. S.* |  |
+| `c1-l001` | &emsp;*ao vento he facil de ſe apagar.* S*.* |  |
 | `c1-l002` | Fuji. Toqinarazu. *A deſhoras, ou fora de tẽ-* |  |
 | `c1-l003` | &emsp;*po. ¶* Fujini mairu. *Vir a deſhoras, ou* |  |
 | `c1-l004` | &emsp;*fora de tempo.* |  |
@@ -27,14 +27,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l011` | &emsp;te forobu. *A proſperidade ſem amor, &* |  |
 | `c1-l012` | &emsp;*virtude não durando muito ſe deſtrue.* |  |
 | `c1-l013` | Fujin. Fitono tçuma. *Molher de homem* |  |
-| `c1-l014` | &emsp;*caſado. S.* |  |
+| `c1-l014` | &emsp;*caſado.* S*.* |  |
 | `c1-l015` | Fujin. *Molher do Rey.* |  |
 | `c1-l016` | Fujinxa. i, Auaremino nai mono. *Homẽ* |  |
 | `c1-l017` | &emsp;*ſem piedade, & virtude.* |  |
 | `c1-l018` | Fujit. Macotoni arazu. *Mentira.* |  |
 | `c1-l019` | Fujit. Finarazu. *Dia indeterminado. ¶* Fu- |  |
 | `c1-l020` | &emsp;jitni ſanji ſubexi. *Irei à Terra não determi-* |  |
-| `c1-l021` | &emsp;*nando o dia. S. ¶ Item, Logo, & ſem* |  |
+| `c1-l021` | &emsp;*nando o dia.* S*. ¶ Item, Logo, & ſem* |  |
 | `c1-l022` | &emsp;*detença.* |  |
 | `c1-l023` | Fujiyǔ. Liyǔni arazu. *O não eſtar liure, ou* |  |
 | `c1-l024` | &emsp;*não poder fazer algũa couſa liuremente.* |  |
@@ -75,7 +75,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l001` | Fujun. Xitagauazu. *Fora de ordem, ou deſ-* |  |
 | `c2-l002` | &emsp;*ordem.* |  |
 | `c2-l003` | Fumai. Curacarazu. *Clareza, ou luz co-* |  |
-| `c2-l004` | &emsp;*mo do entendimento, ſaber, &c. S.* |  |
+| `c2-l004` | &emsp;*mo do entendimento, ſaber, &c.* S*.* |  |
 | `c2-l005` | Fumaye. *Fundamento. Vt,* Qiǒmonuo |  |
 | `c2-l006` | &emsp;fumayero xite. *Fazendo fundamento, ou* |  |
 | `c2-l007` | &emsp;*eſtribando na eſcritura.* |  |
@@ -85,7 +85,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l011` | &emsp;*tendidas pera fora ſobre os eſtribos.* |  |
 | `c2-l012` | Fumbatacari, ru, atta. *Alargar as pernas* |  |
 | `c2-l013` | &emsp;*como quando hum atira com o arco.* |  |
-| `c2-l014` | Fumen. Nemurazu. *Não dormir. S.* |  |
+| `c2-l014` | Fumen. Nemurazu. *Não dormir.* S*.* |  |
 | `c2-l015` | Fumet. Metxezu. *Não ſe deſtruir, ou não* |  |
 | `c2-l016` | &emsp;*ſe acabar. ¶* Fuxǒ fumet. *Não na-* |  |
 | `c2-l017` | &emsp;*cer nem morrer.* |  |

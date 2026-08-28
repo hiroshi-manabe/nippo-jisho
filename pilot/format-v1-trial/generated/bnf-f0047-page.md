@@ -116,7 +116,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l028` | Babensǒ. *Hũa erua que ſe vſa ẽ mezinhas.* |  |
 | `c2-l029` | Baburi. *Melius.* Furizunbai. *Funda pera* |  |
 | `c2-l030` | &emsp;*atirar. ¶* Baburide vtçu. *Tirar com* |  |
-| `c2-l031` | &emsp;*funda. X.* |  |
+| `c2-l031` | &emsp;*funda.* X*.* |  |
 | `c2-l032` | Baca. *Deſordem que hum faz por pouco ſaber,* |  |
 | `c2-l033` | &emsp;*ou pouca criação, & cortezia. ¶* Bacauo |  |
 | `c2-l034` | &emsp;yǔ, l, ſuru. *Dizer, ou fazer couſas que* |  |

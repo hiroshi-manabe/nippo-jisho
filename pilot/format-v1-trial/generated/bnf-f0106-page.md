@@ -17,10 +17,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l001` | &emsp;*cipio a teo cabo. ¶* Chicu itni funbet- |  |
 | `c1-l002` | &emsp;xita. *Entendi tudo miudamente, & cada* |  |
 | `c1-l003` | &emsp;*couſa por ſi.* |  |
-| `c1-l004` | Chicuri. Taqeno magaqi, *ſebe de bambus. S.* |  |
+| `c1-l004` | Chicuri. Taqeno magaqi, *ſebe de bambus.* S*.* |  |
 | `c1-l005` | Chicurin. Taqeno fayaxi. *Bambual, ou ca-* |  |
-| `c1-l006` | &emsp;*naueal. S.* |  |
-| `c1-l007` | Chicurito. *Ad*. *Pouco. Vt,* chicurito |  |
+| `c1-l006` | &emsp;*naueal.* S*.* |  |
+| `c1-l007` | Chicurito. *Ad. Pouco. Vt,* chicurito |  |
 | `c1-l008` | &emsp;xita coto. *Couſa pouca.* |  |
 | `c1-l009` | Chicurǒ. Taqecago. *Boceta, ou ceſtinha fei-* |  |
 | `c1-l010` | &emsp;*ta de bambus.* |  |
@@ -34,7 +34,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l018` | Chicuxǒ. *Beſta ou animal. Vt,* Rei naqi- |  |
 | `c1-l019` | &emsp;ua chicuxǒni uonaji. *O que não tem cor-* |  |
 | `c1-l020` | &emsp;*tezia he como hũa beſta.* |  |
-| `c1-l021` | Chicuyen. Taqeno ſono. *Bambual. S.* |  |
+| `c1-l021` | Chicuyen. Taqeno ſono. *Bambual.* S*.* |  |
 | `c1-l022` | Chidon. Nibui chiye. *Fraco ſaber, ou en* |  |
 | `c1-l023` | &emsp;*genho tardo.* |  |
 | `c1-l024` | Chidori. *Hũs paſſarinhos que andão na praya.* |  |

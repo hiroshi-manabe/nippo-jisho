@@ -86,7 +86,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l010` | &emsp;*ſe deixa pera os vindouros.* |  |
 | `c2-l011` | Comemuxi. *Gurgulho, ou bicho do arroz.* |  |
 | `c2-l012` | Cǒmen. Vomoteni mucǒ. *Ver, ou encon-* |  |
-| `c2-l013` | &emsp;*trarſe com alguem. S.* |  |
+| `c2-l013` | &emsp;*trarſe com alguem.* S*.* |  |
 | `c2-l014` | Comen. Cayenamu. *Ter conta conſigo. Vt,* |  |
 | `c2-l015` | &emsp;Nagamiuo comen xite xindaiuo nauoxe. |  |
 | `c2-l016` | &emsp;*Tendo conta com voſco emendai a vida.* |  |
@@ -119,7 +119,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l043` | &emsp;*Tomaſe por couſa leue. ¶* Fenjiyauiqu cǒ |  |
 | `c2-l044` | &emsp;coroua cômǒ yorimo canuxi. *O coração* |  |
 | `c2-l045` | &emsp;*mudauel, & inconſtante, he mais leue que as* |  |
-| `c2-l046` | &emsp;*penas daquelle paſſaro. S.* |  |
+| `c2-l046` | &emsp;*penas daquelle paſſaro.* S*.* |  |
 | `c2-l047` | Como. *Eſteira de palha groſſa, & mal feita.* |  |
 | `c2-l048` | Como. *Hũa erua dagoa doce.* |  |
 

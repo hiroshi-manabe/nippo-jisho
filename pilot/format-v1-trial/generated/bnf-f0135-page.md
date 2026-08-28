@@ -63,7 +63,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1b-l001` | Cu. Curuximi. *Pena, ou tormento. Vt,* |  |
 | `c1b-l002` | &emsp;Cuuo vquru. *Receber tormentos.* |  |
 | `c1b-l003` | Cu. *Sentença, ou dito.* |  |
-| `c1b-l004` | Cu. *Bup. Hũa couſa imperfectiſſima, &* |  |
+| `c1b-l004` | Cu. Bup*. Hũa couſa imperfectiſſima, &* |  |
 | `c1b-l005` | &emsp;*de minimo ſer como materia prima, ou vacuo.* |  |
 | `c1b-l006` | Cubari, u, atta. *Repartir. ¶* Meuo cu- |  |
 | `c1b-l007` | &emsp;baru. *Derramar os olhos por diuerſas partes.* |  |

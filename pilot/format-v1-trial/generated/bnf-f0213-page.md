@@ -76,7 +76,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l001` | &emsp;*Palaura pera louuar a carta eſcrita elegante-* |  |
 | `c2-l002` | &emsp;*mente honrando a peſſoa que eſcreueo.* |  |
 | `c2-l003` | Fôso. *Dignidade de Rey.* |  |
-| `c2-l004` | Fǒsǒ. Cǒbaxij cuſa. *Erua cheiroſa. S.* |  |
+| `c2-l004` | Fǒsǒ. Cǒbaxij cuſa. *Erua cheiroſa.* S*.* |  |
 | `c2-l005` | Fǒsǒ. *Doença de bexigas.* |  |
 | `c2-l006` | Fôsô. Tomano mado. *Freſta que ſe abre na* |  |
 | `c2-l007` | &emsp;Fune *entre as tomas, ou eſteiras com que ſe* |  |

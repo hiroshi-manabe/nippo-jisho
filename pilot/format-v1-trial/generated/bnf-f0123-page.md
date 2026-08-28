@@ -61,7 +61,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l045` | Cǒji. Yoicoto. *Couſa boa, ou proueitoſa.* |  |
 | `c1-l046` | Coji. Furui coto. *Hiſtorias antiguas, ou* |  |
 | `c1-l047` | &emsp;*exemplos, & eſcrituras antiguas.* |  |
-| `c1-l048` | Coji. Furui tera. *Tera antigua, ou velha. P.* |  |
+| `c1-l048` | Coji. Furui tera. *Tera antigua, ou velha.* P*.* |  |
 
 ## Column 2 running header
 
@@ -94,7 +94,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l013` | &emsp;*nho.* |  |
 | `c2-l014` | Cojin. Inixiyeno fito. *Homem antigo.* |  |
 | `c2-l015` | Cǒjin. Sanai ſanaſada. *Palaura com que ſe* |  |
-| `c2-l016` | &emsp;*dão os parabens, ou rogão boas couſas, &c. S.* |  |
+| `c2-l016` | &emsp;*dão os parabens, ou rogão boas couſas, &c.* S*.* |  |
 | `c2-l017` | Côjin. Nochino fito. *Homem vindouro, ou* |  |
 | `c2-l018` | &emsp;*que hade vir depois.* |  |
 | `c2-l019` | Cojiqi. *Pedinte. ¶ Item, No* Ximo *La-* |  |
@@ -103,7 +103,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l022` | Cojiru. *Segundo* Xiru *que ſe dá na meſa.* |  |
 | `c2-l023` | Cojiruuan. *Eſcudelinha que vem com o ſegun-* |  |
 | `c2-l024` | &emsp;*do* Xiru. |  |
-| `c2-l025` | Côjit. Nochino fi. *X. Ao diante, ou em* |  |
+| `c2-l025` | Côjit. Nochino fi. X*. Ao diante, ou em* |  |
 | `c2-l026` | &emsp;*outro tempo ao diante. No* Cami *ſe diz* Go*-* |  |
 | `c2-l027` | &emsp;*nichi.* |  |
 | `c2-l028` | Cǒjit. *Bom dia.* |  |

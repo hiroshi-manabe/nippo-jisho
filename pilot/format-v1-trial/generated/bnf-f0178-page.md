@@ -23,9 +23,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l007` | Faxigueta. *Paos como frechais da ponte ſobre* |  |
 | `c1-l008` | &emsp;*que aſentão os balauſtes.* |  |
 | `c1-l009` | Faxigo, l, faxinoco. *Paos que atrauesſão na* |  |
-| `c1-l010` | &emsp;*eſcada de mão. X.* |  |
+| `c1-l010` | &emsp;*eſcada de mão.* X*.* |  |
 | `c1-l011` | Faxi-j. *O eſtar a hũa parte, ou canto da ca-* |  |
-| `c1-l012` | &emsp;*ſa, varanda, &c. P.* |  |
+| `c1-l012` | &emsp;*ſa, varanda, &c.* P*.* |  |
 | `c1-l013` | Faxin. Fariuo toru. i, Monouo nũ. *Coſer* |  |
 | `c1-l014` | &emsp;*com agulha. ¶* Faxinuo ſuru. *Coſer, ou* |  |
 | `c1-l015` | &emsp;*fazer cuſtura.* |  |
@@ -59,7 +59,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l043` | &emsp;*tourar algũa couſa no fogo. Vt,* Xiuega fa- |  |
 | `c1-l044` | &emsp;xiru. *O ſal centro do fogo ſalta. ¶* Cu- |  |
 | `c1-l045` | &emsp;riga faxiru. *As caſtanhas eſtourão, ou ar-* |  |
-| `c1-l046` | &emsp;*rebentão no fogo. X. ¶* Chiga faxiru. |  |
+| `c1-l046` | &emsp;*rebentão no fogo.* X*. ¶* Chiga faxiru. |  |
 | `c1-l047` | &emsp;*Eſguichar o ſangue. ¶* Catanaga faxiru. |  |
 
 ## Column 2 running header
@@ -72,7 +72,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | &emsp;*Desembainharſe a* Catana *por ſi. X. No* Ca- |  |
+| `c2-l001` | &emsp;*Desembainharſe a* Catana *por ſi.* X*. No* Ca- |  |
 | `c2-l002` | &emsp;mi *ſe diz,* Jayabaxiru. *¶* Chiyeno fa- |  |
 | `c2-l003` | &emsp;xitta monogia. *He homem ſagaz, &* |  |
 | `c2-l004` | &emsp;*agudo. ¶* Faxiru vmani muchi. *Prou.* |  |

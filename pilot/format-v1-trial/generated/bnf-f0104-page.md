@@ -30,7 +30,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l014` | &emsp;*tos diante de hũa taboinha onde està o nome do* |  |
 | `c1-l015` | &emsp;*defunto. ¶* Chatǒuo aguru. *Offerecer* |  |
 | `c1-l016` | &emsp;*eſte* Cha *desta maneira.* |  |
-| `c1-l017` | Chatto. Adu. *Depreſſa.* |  |
+| `c1-l017` | Chatto. *Adu. Depreſſa.* |  |
 | `c1-l018` | Chauan. *Porſolana, ou eſcudela de barro.* |  |
 | `c1-l019` | Chauanbachi. *Bacio grande como de agoa* |  |
 | `c1-l020` | &emsp;*às mãos.* |  |
@@ -98,7 +98,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l024` | &emsp;fude. *Pena danada, ou bota da ponta.* |  |
 | `c2-l025` | Chibô. Chiyeno facaricoto. *Ardil, ou* |  |
 | `c2-l026` | &emsp;*inuenção engenhoſa.* |  |
-| `c2-l027` | Chibochibo. Adu. *Modo de ſalpicar, ou* |  |
+| `c2-l027` | Chibochibo. *Adu. Modo de ſalpicar, ou* |  |
 | `c2-l028` | &emsp;*chouer miudo, &c. ¶ Item modo de bro-* |  |
 | `c2-l029` | &emsp;*tarem, ou nacerem em polinhas, & burbu-* |  |
 | `c2-l030` | &emsp;*lhas, &c. ¶* Chibochibo xitacoto. |  |
@@ -113,12 +113,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l039` | &emsp;*na boca. ¶* Chibuſauo fucumuru. *Me* |  |
 | `c2-l040` | &emsp;*ter a teta na boca, ou dar de mamar.* |  |
 | `c2-l041` | Chicacu. Xiri ſatoru. *Eſpeculação.* Bup*.* |  |
-| `c2-l042` | Chicagicato. *Adu*. *Perto. Vt,* Fitouo |  |
+| `c2-l042` | Chicagicato. *Adu. Perto. Vt,* Fitouo |  |
 | `c2-l043` | &emsp;chicagicato meſu. *Chamar a alguẽ perto.* |  |
 | `c2-l044` | Chicagicaxij. *Couſa propinqua, ou que ha* |  |
 | `c2-l045` | &emsp;*pouco que paſſou.* |  |
-| `c2-l046` | Chicagicaxù. *Aduer*. |  |
-| `c2-l047` | Chicagoro. *Adu*. *Muito, palaura de encare-* |  |
+| `c2-l046` | Chicagicaxù. *Aduer.* |  |
+| `c2-l047` | Chicagoro. *Adu. Muito, palaura de encare-* |  |
 
 ## Catchword
 

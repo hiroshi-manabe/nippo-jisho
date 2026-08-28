@@ -36,7 +36,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l020` | Fubuqidauore. *O cair encontrando com eſte* |  |
 | `c1-l021` | &emsp;*vẽto, & neue. ¶* Fubuqidauoruru vǒ. *Idem.* |  |
 | `c1-l022` | Fuca. Vocarazu. *Não ſer bom, ou não cõ-* |  |
-| `c1-l023` | &emsp;*uir. S.* |  |
+| `c1-l023` | &emsp;*uir.* S*.* |  |
 | `c1-l024` | Fuca. *Peixe tubarão.* |  |
 | `c1-l025` | Fucaberi. *Vt,* Fucaberino tatami, l, mu- |  |
 | `c1-l026` | &emsp;xiro. *Certa laya de Tatamis, ou eſteiras que* |  |
@@ -82,7 +82,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l008` | Fucari. *Lugar fundo, ou pègo do mar.* |  |
 | `c2-l009` | Fucata. *Varzeas da toleiro.* |  |
 | `c2-l010` | Fucatocu. Vbecarazu. *Não ſe entender,* |  |
-| `c2-l011` | &emsp;*ou perceber bem. Bup.* |  |
+| `c2-l011` | &emsp;*ou perceber bem.* Bup*.* |  |
 | `c2-l012` | Fucaxet. Toqu becarazu. *Não ſe poder ex-* |  |
 | `c2-l013` | &emsp;*plicar, ou dizer. Vt,* Fucatocu, fuca- |  |
 | `c2-l014` | &emsp;xetno cotouo ri. *Materia que ſe não pode* |  |
@@ -90,7 +90,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l016` | Fucaxigui. *Couſa profunda, & alta.* |  |
 | `c2-l017` | Fucaxiguina, l, fucaxiguino. *Idem.* |  |
 | `c2-l018` | Fuchi. *Vt,* Fuchi fucqu. *Ignorancia,* |  |
-| `c2-l019` | &emsp;*& carẽcia de diſcurſo, ou meditação. Bup.* |  |
+| `c2-l019` | &emsp;*& carẽcia de diſcurſo, ou meditação.* Bup*.* |  |
 | `c2-l020` | Fuchi. *Paga, ou ſalario. ¶* Fuchiuo ſu- |  |
 | `c2-l021` | &emsp;ru. *Pagar à gente que hum tem à ſua conta,* |  |
 | `c2-l022` | &emsp;*ou ſoſtenta.* |  |

@@ -95,7 +95,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l014` | Fanben. *Certo comer de tofuſu aſſados, & de-* |  |
 | `c2-l015` | &emsp;*pois recozidos em Miſô.* |  |
 | `c2-l016` | Fanberi, u. i, Gozuru, sǒrǒ, &c. *Ser,* |  |
-| `c2-l017` | &emsp;*eſtar, &c. S.* |  |
+| `c2-l017` | &emsp;*eſtar, &c.* S*.* |  |
 | `c2-l018` | Fanbiqi. *A metade de hũa peça de ſeda fina,* |  |
 | `c2-l019` | &emsp;*& delgada chamada* Qinu. |  |
 | `c2-l020` | Fanbun. *A metade.* |  |

@@ -22,7 +22,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l006` | Cuuaye, uru, eta. *Leuar algũa couſa na bo-* |  |
 | `c1-l007` | &emsp;*ca. Vt,* Cuchini nanzouo cuuayuru. |  |
 | `c1-l008` | Cuxajù. *Hũa das ſeitas das oito que vierão de* |  |
-| `c1-l009` | &emsp;*Sião. Bup.* |  |
+| `c1-l009` | &emsp;*Sião.* Bup*.* |  |
 | `c1-l010` | Cuxami. Fana fiqu, l, firu coto. *Eſpirro.* |  |
 | `c1-l011` | Cuxe. *Cuſtume, ou manha.* |  |
 | `c1-l012` | Cuxegoto. *Couſa ruim como crime, &c.* |  |
@@ -85,7 +85,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l011` | &emsp;Cuyaxiſa. |  |
 | `c2-l012` | &emsp;Cuyaxù. |  |
 | `c2-l013` | Cuye. Acazzuita coromo. *Veſtido ſujo.* |  |
-| `c2-l014` | Cuye. *Eſtaca, ou ranchão. X. Cui, he* |  |
+| `c2-l014` | Cuye. *Eſtaca, ou ranchão.* X*. Cui, he* |  |
 | `c2-l015` | &emsp;*mais vniuerſal.* |  |
 | `c2-l016` | Cuye, uru, eta. *Deſfazerſe, ou arruinarſe* |  |
 | `c2-l017` | &emsp;*como terra, ou monte, &c.* |  |
@@ -108,7 +108,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l034` | &emsp;qimonouo cuyuracaſu. *Queimar cheiros,* |  |
 | `c2-l035` | &emsp;*& fazer cheirar.* |  |
 | `c2-l036` | Cuyuraxi, ſu, ita. *Idem.* |  |
-| `c2-l037` | Cùzan. Munaxij yama. *Mõte ſolitario. S.* |  |
+| `c2-l037` | Cùzan. Munaxij yama. *Mõte ſolitario.* S*.* |  |
 | `c2-l038` | Cuzu. *Certa eſpecie de erua cuja raiz ſe come.* |  |
 | `c2-l039` | &emsp;*¶ Item, Farinha que ſe faz deſta raiz.* |  |
 | `c2-l040` | Cuzubacama. *Calções aſſi chamados pera jugar* |  |

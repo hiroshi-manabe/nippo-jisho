@@ -60,7 +60,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l044` | Cami. Camis *que venerão os gentios de Iapão.* |  |
 | `c1-l045` | Cami. *Palaura dos medicos. i. tẽpera da mezi-* |  |
 | `c1-l046` | &emsp;*nha que fazem com acrecentar, ou diminuir* |  |
-| `c1-l047` | &emsp;*algum material. S. A palaura corrente* |  |
+| `c1-l047` | &emsp;*algum material.* S*. A palaura corrente* |  |
 | `c1-l048` | &emsp;*he* caguen. |  |
 
 ## Column 2 running header

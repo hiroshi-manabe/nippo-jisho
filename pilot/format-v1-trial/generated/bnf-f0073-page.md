@@ -49,7 +49,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l033` | &emsp;*ſo penetrou o ſer das couſas, como ſão os* Fo- |  |
 | `c1-l034` | &emsp;toqes. |  |
 | `c1-l035` | Cacuxen. Tabibune. *Embarcação forastei-* |  |
-| `c1-l036` | &emsp;*ra. P.* |  |
+| `c1-l036` | &emsp;*ra.* P*.* |  |
 | `c1-l037` | Cacuxi, ſu, uita. *Eſconder algũa couſa, ou* |  |
 | `c1-l038` | &emsp;*ter em ſegredo.* |  |
 | `c1-l039` | Cacuxi docoro. *Lugar ſecreto, ou em que ſe* |  |

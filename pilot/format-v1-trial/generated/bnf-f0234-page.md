@@ -78,7 +78,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l004` | &emsp;*inferior. ¶ Item, Grao, ou laya de cou-* |  |
 | `c2-l005` | &emsp;*ſa inferior. Vt,* Guedan, chǔdan, |  |
 | `c2-l006` | &emsp;jǒdan. |  |
-| `c2-l007` | Guedat. *Liurar, ou libertar. Bup. O* |  |
+| `c2-l007` | Guedat. *Liurar, ou libertar.* Bup*. O* |  |
 | `c2-l008` | &emsp;*principal ſentido he liberdade a cerca das pai-* |  |
 | `c2-l009` | &emsp;*xões, & vicios.* |  |
 | `c2-l010` | Gueden. i, Zocuxo. *Liuros de couſas hu-* |  |

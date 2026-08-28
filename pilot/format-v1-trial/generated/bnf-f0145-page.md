@@ -80,7 +80,7 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c2-l001` | Curozzuru. *Grou preto.* |  |
 | `c2-l002` | Curubuqi, u, uita. *Eſtar com o peito pera* |  |
-| `c2-l003` | &emsp;*baixo inclinado. X. No* Cami *ſe diz* Vgu- |  |
+| `c2-l003` | &emsp;*baixo inclinado.* X*. No* Cami *ſe diz* Vgu- |  |
 | `c2-l004` | &emsp;biqu. |  |
 | `c2-l005` | Curubuxi, l, axino curubuxi. *Arelhos dos* |  |
 | `c2-l006` | &emsp;*pès. No* Cami *ſe diz* Tçucubuxi. |  |

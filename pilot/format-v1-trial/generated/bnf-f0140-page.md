@@ -26,7 +26,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l010` | &emsp;*tes. ¶* Cujidori ſuru. *Lançar ſortes,* |  |
 | `c1-l011` | &emsp;*ou aueriguar a couſa com ſortes.* |  |
 | `c1-l012` | Cuji. *Bixigas. ¶* Cujiuo ſuru. *Ter bi-* |  |
-| `c1-l013` | &emsp;*xigas. X. Melius* Fǒrǒ, *l,* mogara. *Tão* |  |
+| `c1-l013` | &emsp;*xigas.* X*. Melius* Fǒrǒ, *l,* mogara. *Tão* |  |
 | `c1-l014` | &emsp;*bem no* Cami *diz a gente popular,* votona. |  |
 | `c1-l015` | &emsp;*¶* Votona gotçu ſuru. *Ter bixigas.* |  |
 | `c1-l016` | Cuji. *Direito, ou ſeruiço que impõem o ſe-* |  |

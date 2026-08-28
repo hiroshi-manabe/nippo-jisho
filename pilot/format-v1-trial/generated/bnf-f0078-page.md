@@ -48,7 +48,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l032` | Caiqiǔ. Qidafaxi xina. *Dignidade a q̃ ſe ſo* |  |
 | `c1-l033` | &emsp;*be por graos.* |  |
 | `c1-l034` | Caiqua. Fana firaqu. *Abrirſe a roſa, ou* |  |
-| `c1-l035` | &emsp;*flor. P.* |  |
+| `c1-l035` | &emsp;*flor.* P*.* |  |
 | `c1-l036` | Cairacu. Firaqi votçuru. *Abrirſe, & cair.* |  |
 | `c1-l037` | &emsp;Fanaga cairacu ſuru. *Abrirem as roſas,* |  |
 | `c1-l038` | &emsp;*ou flores, & cairem desfolhando ſe.* |  |
@@ -111,7 +111,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l036` | Caiſui. Vmino mizzu. i. Vxiuo. *Agoa* |  |
 | `c2-l037` | &emsp;*do mar.* |  |
 | `c2-l038` | Caitai. Aratamari cauaru. *Renouarſe, ou* |  |
-| `c2-l039` | &emsp;*mudarſe. S.* |  |
+| `c2-l039` | &emsp;*mudarſe.* S*.* |  |
 | `c2-l040` | Caitate, tçuru, eta. *Criar animaes, &c.* |  |
 | `c2-l041` | Caitçu, l, caitçume. *Eſte, abaixandoo.* |  |
 | `c2-l042` | Caitçuburi. *Hum paſſaro do mar.* |  |

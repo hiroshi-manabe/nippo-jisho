@@ -24,7 +24,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l008` | Firoyen. *Varanda larga.* |  |
 | `c1-l009` | Firu. *De dia, ou a meo dia. ¶* Yoru, firu. |  |
 | `c1-l010` | &emsp;*Dia, & noite.* |  |
-| `c1-l011` | Firu. i, Ninnicu. *Alho. X.* |  |
+| `c1-l011` | Firu. i, Ninnicu. *Alho.* X*.* |  |
 | `c1-l012` | Firu. *Sambixuga.* |  |
 | `c1-l013` | Firugayeri, u, etta. *Dobrarſe, ou virarẽſe* |  |
 | `c1-l014` | &emsp;*as bandeiras, &c. com o vento. ¶ Item,* |  |

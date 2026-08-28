@@ -37,7 +37,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l021` | Boxacu. Cureno ſuzume. *Pardais da tar* |  |
 | `c1-l022` | &emsp;*de. ¶ Vt,* Boxacu taqeni muragaru. |  |
 | `c1-l023` | &emsp;*Os pardais da tarde ſe ajuntão em bandos nos* |  |
-| `c1-l024` | &emsp;*bambus. P.* |  |
+| `c1-l024` | &emsp;*bambus.* P*.* |  |
 | `c1-l025` | Bǒxi caya, chigaya. *Colmo, ou palha de co-* |  |
 | `c1-l026` | &emsp;*brir a caſa. Mas não ſe vſa ordinariamente ſe* |  |
 | `c1-l027` | &emsp;*não nesta ſentença. ¶* Bǒxi qirazu, ſaiten |  |
@@ -84,7 +84,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2a-l010` | &emsp;*Morrer, ou acabar. ¶* Figa boxxita. |  |
 | `c2a-l011` | &emsp;*Poz ſe o ſol.* |  |
 | `c2a-l012` | Bôyû. Tomo tomo. *Companheiro, ou com-* |  |
-| `c2a-l013` | &emsp;*panhia. S.* |  |
+| `c2a-l013` | &emsp;*panhia.* S*.* |  |
 | `c2a-l014` | Bǒzu. Bǒno nuxi. *Religioſo que tem ſella* |  |
 | `c2a-l015` | &emsp;*propria, ou ermida. Item, Qualquer religio* |  |
 | `c2a-l016` | &emsp;*ſo, ou rapado.* |  |

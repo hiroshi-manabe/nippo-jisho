@@ -25,7 +25,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l009` | Fengaye. *Idem. Melius,* Fengai. |  |
 | `c1-l010` | Fengi. Vt, Sucufan fengi. *Terra como ilha* |  |
 | `c1-l011` | &emsp;*comarcia algũa terra firme, & larga como* |  |
-| `c1-l012` | &emsp;*Iapão em comparação da China. S.* |  |
+| `c1-l012` | &emsp;*Iapão em comparação da China.* S*.* |  |
 | `c1-l013` | Fengue. *O transformarſe em outra figura.* |  |
 | `c1-l014` | &emsp;*¶* Fenguen mono. *Couſa transformada* |  |
 | `c1-l015` | &emsp;*como o Diabo em figura de rapoſa, &c.* |  |
@@ -54,9 +54,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l038` | Fenman. Amanecu, michitari. *O eſtar mui-* |  |
 | `c1-l039` | &emsp;*to cheio, & abidate. Vt,* Cono xecaini acu- |  |
 | `c1-l040` | &emsp;ga fenman xite aru. *Eſta eſte mundo cheio* |  |
-| `c1-l041` | &emsp;*de maldade. S.* |  |
+| `c1-l041` | &emsp;*de maldade.* S*.* |  |
 | `c1-l042` | Fenmet. Cayari ſorobu. *Mudança, &* |  |
-| `c1-l043` | &emsp;*deſtruição. S.* |  |
+| `c1-l043` | &emsp;*deſtruição.* S*.* |  |
 | `c1-l044` | Fenmocu. *Demanda, ou negocio de emba-* |  |
 | `c1-l045` | &emsp;*raço, briga, &c. que ſe leuanta entre al-* |  |
 | `c1-l046` | &emsp;*guns. ¶ Item, taboada de liuro.* |  |
@@ -77,7 +77,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l002` | &emsp;*uidos. Vt,* Fenninixite rifiuo tadaſu co- |  |
 | `c2-l003` | &emsp;to canauazu. *Ouuindo com hũa soo* |  |
 | `c2-l004` | &emsp;*orelha não ſe pode julgar, & diſcernir o bem* |  |
-| `c2-l005` | &emsp;*& o mal. S.* |  |
+| `c2-l005` | &emsp;*& o mal.* S*.* |  |
 | `c2-l006` | Fennǒ. Cayexi voſamuru. *Tornar, ou pagar* |  |
 | `c2-l007` | &emsp;*a diuida, &c. principalmente ao ſenhor.* |  |
 | `c2-l008` | Fenoco. *Bolſo dos teſticulos.* |  |
@@ -109,7 +109,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l034` | &emsp;*regrinando.* |  |
 | `c2-l035` | Fensat. *Repoſta da carta. Vt,* Gofensatni |  |
 | `c2-l036` | &emsp;azzucari toru. *Recebi a carta de voſſa mer-* |  |
-| `c2-l037` | &emsp;*cê em repoſta da minha. S.* |  |
+| `c2-l037` | &emsp;*cê em repoſta da minha.* S*.* |  |
 | `c2-l038` | Fentǒ. i, Fenji. *Repoſta. ¶* Fentǒ- |  |
 | `c2-l039` | &emsp;yũ. *Reſponder.* |  |
 | `c2-l040` | Fenxi. Cataicqi. i, Sucuxino aida. *Hũ* |  |

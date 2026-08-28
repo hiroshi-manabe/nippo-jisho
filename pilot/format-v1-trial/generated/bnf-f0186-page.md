@@ -110,7 +110,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l027` | &emsp;*fogo.* Fiuo furu. *Abanar com o fogo, ou* |  |
 | `c2-l028` | &emsp;*tição como pera ver algũa couſa. ¶* Fiuo |  |
 | `c2-l029` | &emsp;furu yǒna tanriojinga. *He agaſtado co-* |  |
-| `c2-l030` | &emsp;*mo ſ, o que ſe abana. X. ¶* Pedroto, |  |
+| `c2-l030` | &emsp;*mo ſ, o que ſe abana.* X*. ¶* Pedroto, |  |
 | `c2-l031` | &emsp;Pauloua fiuo furu. *Pedro, & Paulo eſtão* |  |
 | `c2-l032` | &emsp;*quebrados, ou queremſe mal. ¶* Pedrono |  |
 | `c2-l033` | &emsp;iyeniua figa furu. *Na caſa de Pedro não* |  |
@@ -126,7 +126,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l043` | Fi, iru, ita. Vt, Comeuo firu. *Sacudir,* |  |
 | `c2-l044` | &emsp;*ou modo de joeirar o arroz com ſupo. ¶* Ca- |  |
 | `c2-l045` | &emsp;jega mado uo firu. *O vento faz bulir mui-* |  |
-| `c2-l046` | &emsp;*to a porta. S. ¶* Fanauo firu. *Eſpir-* |  |
+| `c2-l046` | &emsp;*to a porta.* S*. ¶* Fanauo firu. *Eſpir-* |  |
 | `c2-l047` | &emsp;*rar. ¶* Feuo firu. *Deitar ventoſidades.* |  |
 
 ## Catchword

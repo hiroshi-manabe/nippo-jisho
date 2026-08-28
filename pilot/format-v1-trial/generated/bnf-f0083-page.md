@@ -59,7 +59,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l043` | Cangueqi. Xizzucana fima. *O estar deſ-* |  |
 | `c1-l044` | &emsp;*ocupado.* |  |
 | `c1-l045` | Canguet. Samui tçuqi. i. Fuyuno tçuqi. |  |
-| `c1-l046` | &emsp;*Lũa do inuerno. P.* |  |
+| `c1-l046` | &emsp;*Lũa do inuerno.* P*.* |  |
 | `c1-l047` | Cango. Taicǒno cotoba. *Palaura da China.* |  |
 
 ## Column 2 running header

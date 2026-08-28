@@ -81,7 +81,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l006` | &emsp;*dra, ſobre os quais ficão o de mais madeira-* |  |
 | `c2-l007` | &emsp;*mento. ¶* Dodai, l, Iibucuuo fiqu. *Aſſen-* |  |
 | `c2-l008` | &emsp;*tar eſtes paos ſobre as pedras. ¶* Dodaiuo |  |
-| `c2-l009` | &emsp;ſuyuru. *Idem. X.* |  |
+| `c2-l009` | &emsp;ſuyuru. *Idem.* X*.* |  |
 | `c2-l010` | Dodan. i. Tçuchino dan. *Lugar mais alto,* |  |
 | `c2-l011` | &emsp;*ou baileu de terra.* |  |
 | `c2-l012` | Dodei. Tçuchi, doro. *Terra, ou barro.* |  |

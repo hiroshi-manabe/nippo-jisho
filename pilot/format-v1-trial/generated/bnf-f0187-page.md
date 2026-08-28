@@ -39,7 +39,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l023` | &emsp;tanoximi. *Muitos goſtos, & paſſatempos.* |  |
 | `c1-l024` | Fiacuren. Fiacu qitǒ. i, Fiacutabi neru. |  |
 | `c1-l025` | &emsp;*Cem vezes fundido. Vt,* Fiacurenno vǒ- |  |
-| `c1-l026` | &emsp;gon. *Ouro de cem quilates. S.* |  |
+| `c1-l026` | &emsp;gon. *Ouro de cem quilates.* S*.* |  |
 | `c1-l027` | Fiacuſǒ. i, Amatano cuſa. *Cem layas de er-* |  |
 | `c1-l028` | &emsp;*uas que ſe queimão pera mezinha em lugar* |  |
 | `c1-l029` | &emsp;*das quais uſão às vezes da fullugem que eſtà* |  |
@@ -91,7 +91,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l016` | &emsp;*uores.* |  |
 | `c2-l017` | Fiacuzai. Fiacuno tçumi. *Muitos peccados.* |  |
 | `c2-l018` | Fiacuzassui. i, Coniginini vchicudaqu. *Fazer* |  |
-| `c2-l019` | &emsp;*ẽ pedacinhos, ou eſmiuçar. S.* |  |
+| `c2-l019` | &emsp;*ẽ pedacinhos, ou eſmiuçar.* S*.* |  |
 | `c2-l020` | Fi agari, u, atta. *Secarſe, ou ſumirſe a agoa* |  |
 | `c2-l021` | &emsp;*do rio, ou que alagou os campos. ¶ Item,* |  |
 | `c2-l022` | &emsp;*Eſprayar, ou vazar a maré. Vt,* Vxiro- |  |

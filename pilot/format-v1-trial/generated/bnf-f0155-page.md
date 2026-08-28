@@ -116,7 +116,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l027` | Docomo, caxicomo. *Idem.* |  |
 | `c2-l028` | Dôcon. Vonajine. *A meſma raiz, ou* |  |
 | `c2-l029` | &emsp;*principio. Vt,* Tenchi dôcon. *O ceo, &* |  |
-| `c2-l030` | &emsp;*a terra tem o meſmo principio. S.* |  |
+| `c2-l030` | &emsp;*a terra tem o meſmo principio.* S*.* |  |
 | `c2-l031` | Doconimo. *Em toda parte.* |  |
 | `c2-l032` | Docono. *Dedonde ou de que lugar. Vt,* |  |
 | `c2-l033` | &emsp;Docono monoca? *Donde ſois?* |  |
@@ -125,7 +125,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l036` | Docqi. Docuno iqi. *Peçonha, ou qualidade* |  |
 | `c2-l037` | &emsp;*peçonhenta.* |  |
 | `c2-l038` | Docqiǒ. *Ler, ou rezar pello liuro.* |  |
-| `c2-l039` | Docqio. *O eſtar ſoo. S.* |  |
+| `c2-l039` | Docqio. *O eſtar ſoo.* S*.* |  |
 | `c2-l040` | Docquat. *Raiz de hũa certa erua medicinal.* |  |
 | `c2-l041` | Docu. *Peçonha. ¶* Docuuo majiyuru. |  |
 | `c2-l042` | &emsp;*Miſturar peçonha. ¶* Docuuo nuru. *Por* |  |

@@ -114,7 +114,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l039` | Fanano boxi. *Certos veos, ou mantilhas que* |  |
 | `c2-l040` | &emsp;*trazẽ as freiras de Iapão, & Bõzos na cabeça.* |  |
 | `c2-l041` | Fanano ca. *Cheiro das roſas, ou flores.* |  |
-| `c2-l042` | Fanano ſu. *Ventas dos narizes. X.* |  |
+| `c2-l042` | Fanano ſu. *Ventas dos narizes.* X*.* |  |
 | `c2-l043` | Fanaqire vji. *Vide,* Fana. |  |
 | `c2-l044` | Fanare, uru, eta. *Apartaſe, ou deſpegarſe.* |  |
 | `c2-l045` | &emsp;¶ Acuuo fanaruru. *Apartarſe dos pec-* |  |

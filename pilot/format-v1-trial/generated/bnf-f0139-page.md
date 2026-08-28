@@ -121,7 +121,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l041` | &emsp;*decer com a boca como corda do arco, &c.* |  |
 | `c2-l042` | Cui yaburi, ru, utta. *Deſfazer, ou romper* |  |
 | `c2-l043` | &emsp;*algũa couſa com os dentes, ou bico.* |  |
-| `c2-l044` | Cujacu. *Bup. Hum ſer, ou principio an-* |  |
+| `c2-l044` | Cujacu. Bup*. Hum ſer, ou principio an-* |  |
 | `c2-l045` | &emsp;*tes de toda creatura.* |  |
 | `c2-l046` | Cujacu. *Pauão.* |  |
 | `c2-l047` | Cùjen. *Meſa com comer que ſe offerece dian* |  |

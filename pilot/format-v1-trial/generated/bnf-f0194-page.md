@@ -100,7 +100,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l026` | &emsp;*algũa couſa, & eu a tomaſſe primeiro, & aſaſ-* |  |
 | `c2-l027` | &emsp;*taſſe pera minha ilharga, &c.* |  |
 | `c2-l028` | Fiqisobiqi, u, ijta. Meliùs, ficojiri, u. *Le-* |  |
-| `c2-l029` | &emsp;*uar a raſto. X.* |  |
+| `c2-l029` | &emsp;*uar a raſto.* X*.* |  |
 | `c2-l030` | Fiqisoconai, ǒ, ǒta. *Errar no tanger inſ-* |  |
 | `c2-l031` | &emsp;*trumento muſico. ¶ Item, per met. Encami-* |  |
 | `c2-l032` | &emsp;*nhar mal, ou peruerter a alguem.* |  |

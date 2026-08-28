@@ -52,7 +52,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l036` | &emsp;*juntas & acrecentadas huãs ſobre outras. Vt,* |  |
 | `c1-l037` | &emsp;Bangiûno quan. *Muitas portas em nume-* |  |
 | `c1-l038` | &emsp;*ro que hà nos paſſos & entradas que ſe vi-* |  |
-| `c1-l039` | &emsp;*gião. S.* |  |
+| `c1-l039` | &emsp;*gião.* S*.* |  |
 | `c1-l040` | Banchû. Bidǒ. *Vuas.* |  |
 | `c1-l041` | Banjacu. *Pedra muito grande. ¶ Item, Ro* |  |
 | `c1-l042` | &emsp;*cha, ou penedia.* |  |

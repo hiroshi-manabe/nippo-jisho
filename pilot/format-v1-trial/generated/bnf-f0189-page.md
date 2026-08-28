@@ -46,7 +46,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l030` | &emsp;*tempo em que ſe eſcreue, ou toma a pena.* |  |
 | `c1-l031` | &emsp;*Vt,* Ficcani cacuuo môqetari. *Toman-* |  |
 | `c1-l032` | &emsp;*do a pena pera eſcreuer, ocorreu me hũa boa* |  |
-| `c1-l033` | &emsp;*ſentença. S.* |  |
+| `c1-l033` | &emsp;*ſentença.* S*.* |  |
 | `c1-l034` | Ficcacari, u, atta. *Embaraçarſe, ou prender-* |  |
 | `c1-l035` | &emsp;*ſe como no mato, ou ſiluas quando paſſão, ou* |  |
 | `c1-l036` | &emsp;*quando puxão por algum pao, &c. ¶* Qi- |  |
@@ -103,17 +103,17 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l029` | &emsp;qini ficcunde fuita. *Abraçandoſe com o* |  |
 | `c2-l030` | &emsp;*inimigo cahio, ou deitouſe.* |  |
 | `c2-l031` | Fichi, tçuru, chita. *Enſoparſe, ou embeber-* |  |
-| `c2-l032` | &emsp;*ſe em couſa liquida como agoa, &c. P.* |  |
+| `c2-l032` | &emsp;*ſe em couſa liquida como agoa, &c.* P*.* |  |
 | `c2-l033` | Fichiriqi. *Frauta de cana que ſe tange em tem-* |  |
 | `c2-l034` | &emsp;*po de muſica.* |  |
 | `c2-l035` | Fichiriqizuca. *Certa feição de punhos, ou em-* |  |
 | `c2-l036` | &emsp;*punhadura da* Catana. |  |
-| `c2-l037` | Fichô. Tobu chô. *Borboleta que voa. P.* |  |
-| `c2-l038` | Fichô. Tobu tori. *Paſſaro que voa. P.* |  |
+| `c2-l037` | Fichô. Tobu chô. *Borboleta que voa.* P*.* |  |
+| `c2-l038` | Fichô. Tobu tori. *Paſſaro que voa.* P*.* |  |
 | `c2-l039` | Fichù. *Cabellos da barba na parte do beiço de* |  |
 | `c2-l040` | &emsp;*baixo.* |  |
 | `c2-l041` | Ficǒ. i, Vicauo yeizuru. *Modo de ler os* |  |
-| `c2-l042` | &emsp;*verſos, ou* Vtas *de Iapão cantando. P.* |  |
+| `c2-l042` | &emsp;*verſos, ou* Vtas *de Iapão cantando.* P*.* |  |
 | `c2-l043` | Fico. *Biſneto.* |  |
 | `c2-l044` | Ficobaye. *Vergontea que nace ao pè da aruore* |  |
 | `c2-l045` | &emsp;*depois de cortada.* |  |

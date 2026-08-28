@@ -97,7 +97,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l023` | &emsp;*Rei, ou que tem entrada no paço.* |  |
 | `c2-l024` | Cuguizzuqe. *Pregadura de pregos, ou couſa* |  |
 | `c2-l025` | &emsp;*pregada com pregos.* |  |
-| `c2-l026` | Cugô. *Bup.* Tenchi fajimaranu ijenuo yǔ |  |
+| `c2-l026` | Cugô. Bup*.* Tenchi fajimaranu ijenuo yǔ |  |
 | `c2-l027` | &emsp;nari. *Eſpaço que ouue antes de ſe criar o* |  |
 | `c2-l028` | &emsp;*mundo.* |  |
 | `c2-l029` | Cugu. *Aparelhos como meſas, &c. em que* |  |

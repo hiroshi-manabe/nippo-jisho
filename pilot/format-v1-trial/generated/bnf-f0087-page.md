@@ -16,7 +16,7 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c1-l001` | &emsp;*ſe dão no primeiro dia do anno. Vt,* Cai- |  |
 | `c1-l002` | &emsp;nenno caqei chinhôni ſoro. *Dou vos os* |  |
-| `c1-l003` | &emsp;*annos bõs deſte anno nouo. S.* |  |
+| `c1-l003` | &emsp;*annos bõs deſte anno nouo.* S*.* |  |
 | `c1-l004` | Caqei. Natçuno cague. *Viſta no tempo do* |  |
 | `c1-l005` | &emsp;*verão, ou estio.* |  |
 | `c1-l006` | Caqei. Yoqi qei. *Boa vista. Vt,* Caqei |  |

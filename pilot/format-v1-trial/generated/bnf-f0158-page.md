@@ -45,7 +45,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l029` | &emsp;Izzureno fitonaritomo. |  |
 | `c1-l030` | Donqiacu. Nomi, u. *Tragar. ¶* Dai- |  |
 | `c1-l031` | &emsp;ji fitouo donqiacu ſu. *A ſerpente traga* |  |
-| `c1-l032` | &emsp;*homẽs. S.* |  |
+| `c1-l032` | &emsp;*homẽs.* S*.* |  |
 | `c1-l033` | Donqin. *Peças douradinhas da china.* |  |
 | `c1-l034` | Donri. Nibuxi, turudona. i, Donnato, ri- |  |
 | `c1-l035` | &emsp;conna. *Rude, & habil.* |  |

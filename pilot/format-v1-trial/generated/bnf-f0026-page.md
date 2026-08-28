@@ -88,7 +88,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l014` | &emsp;cuni vomomuite xiquauo amanǒ. *Obi-* |  |
 | `c2-l015` | &emsp;*cho do estio ſaltando na candea tem por bom,* |  |
 | `c2-l016` | &emsp;*ou apetece ofogo que o mata.* |  |
-| `c2-l017` | Amanequ. Adu. *Geralmente, ẽ toda a parte.* |  |
+| `c2-l017` | Amanequ. *Adu. Geralmente, ẽ toda a parte.* |  |
 | `c2-l018` | Amanei. *Couſa geral, ou vniuerſal.* |  |
 | `c2-l019` | &emsp;Amaneſa. |  |
 | `c2-l020` | &emsp;Amaneô. |  |

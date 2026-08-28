@@ -50,7 +50,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l034` | Aſaguigoqi. *Eſcudellas de pao toſcas, &* |  |
 | `c1-l035` | &emsp;*mal vruxadas.* |  |
 | `c1-l036` | Aſaguiyome. *Melius.* Aſaqiyome. *Varrer* |  |
-| `c1-l037` | &emsp;*de pola manhaã. Vſa ſe em caſas nobres. P.* |  |
+| `c1-l037` | &emsp;*de pola manhaã. Vſa ſe em caſas nobres.* P*.* |  |
 | `c1-l038` | Aſagotoni. i. Maichô. *Cada manhaã.* |  |
 | `c1-l039` | Aſagouori. *Caramelo de polamanhaã.* |  |
 | `c1-l040` | Aſagumori. *Tempo em neuoado, ou toldado* |  |

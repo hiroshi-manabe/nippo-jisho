@@ -14,7 +14,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` |  | *as obras de peſſoa honrada. S.* |
+| `c1-l001` |  | *as obras de peſſoa honrada.* S*.* |
 | `c1-l002` | Fǒxen. Fuxegui catacǒ. *Reſiſtir, & pe-* |  |
 | `c1-l003` | &emsp;*lejar. Vt,* Fǒxen ſuru. *Vide,* Co- |  |
 | `c1-l004` | &emsp;xen fǒxen. |  |
@@ -49,7 +49,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l033` | &emsp;Foxi. |  |
 | `c1-l034` | Foxijmamani. *Adu. Conforme ao deſejo,* |  |
 | `c1-l035` | &emsp;*ou vontade.* |  |
-| `c1-l036` | Foximecaxi, ſu, aita. *Açular o cão. X.* |  |
+| `c1-l036` | Foximecaxi, ſu, aita. *Açular o cão.* X*.* |  |
 | `c1-l037` | &emsp;*No* Cami *ſe diz,* Qexicaquru. *Vt,* Inu- |  |
 | `c1-l038` | &emsp;uo foximecaſu. |  |
 | `c1-l039` | Foximenuqi. *Hum certo ferrinho que metem* |  |
@@ -72,10 +72,10 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` |  | *ceber eſte beneficio, ou obra de amor. S.* |
+| `c2-l001` |  | *ceber eſte beneficio, ou obra de amor.* S*.* |
 | `c2-l002` | Fôxin. Fotoqeni ſanjinno rocu arito yǔ, |  |
 | `c2-l003` | &emsp;nibammeno na nari. *Vt,* Fôxinno nho- |  |
-| `c2-l004` | &emsp;rai. *Bup.* |  |
+| `c2-l004` | &emsp;rai. Bup*.* |  |
 | `c2-l005` | Foxina. *Nabos ſecos.* |  |
 | `c2-l006` | Foxitçuqe, uru, eta. *Secar ao ſol, ou enxu-* |  |
 | `c2-l007` | &emsp;*gar couſas tintas de cores pera milhor ſe cõra-* |  |
@@ -92,14 +92,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l018` | Foxxi, ſuru, ita. *Deſejar muito. ¶ Item,* |  |
 | `c2-l019` | &emsp;*Cuidar, ou ter pera ſi.* |  |
 | `c2-l020` | Foxxin. *Vt,* Foxxinno nhorai Fotoqeni |  |
-| `c2-l021` | &emsp;ſanjinto yǔ ichibanno na. *Bup.* |  |
+| `c2-l021` | &emsp;ſanjinto yǔ ichibanno na. Bup*.* |  |
 | `c2-l022` | Foxxin. Cocorouo vocoſu. *Deuação.* |  |
 | `c2-l023` | &emsp;*¶ Item, Com deſejo da ſaluação deixar o* |  |
 | `c2-l024` | &emsp;*mundo. Vt,* Foxxin xerareta. *Dirſe hũ* |  |
 | `c2-l025` | &emsp;*do homem que ſe rapou, & deixou o mundo.* |  |
 | `c2-l026` | Foxxinja. *Homem deſejoſo de ſe ſaluar, ou* |  |
 | `c2-l027` | &emsp;*deſprezador do mundo.* |  |
-| `c2-l028` | Foxxǒ. *Bup. Primeiro principio, ou nature-* |  |
+| `c2-l028` | Foxxǒ. Bup*. Primeiro principio, ou nature-* |  |
 | `c2-l029` | &emsp;*za do* Fotoque. |  |
 | `c2-l030` | Foya. *Hũ certo peixe redondo, & vermelho.* |  |
 | `c2-l031` | Foyacu. Voguino cuſuri. *Mezinha que vai* |  |

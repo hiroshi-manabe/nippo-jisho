@@ -83,7 +83,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l003` | Conda, l, Potius Conida. Niuoi vma. *Ca-* |  |
 | `c2-l004` | &emsp;*ualo, ou beſta de carga.* |  |
 | `c2-l005` | Condacu. Majiuari nigoru. *Miſturar algũa* |  |
-| `c2-l006` | &emsp;*couſa boa cõ outra ruim, ou ſem ordem. S.* |  |
+| `c2-l006` | &emsp;*couſa boa cõ outra ruim, ou ſem ordem.* S*.* |  |
 | `c2-l007` | Condei. Coganeno dei. *Ouro moido feito co-* |  |
 | `c2-l008` | &emsp;*mo tinta pera dourar.* |  |
 | `c2-l009` | Cõdô. Majiuari vonaju ſu. *Vnião, ou cõfor-* |  |

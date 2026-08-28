@@ -30,7 +30,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l014` | Cogaina. *Braço deſdo cotouelo atee o ombro.* |  |
 | `c1-l015` | Cǒgan. Mucǒ cauobaxe. *O verſe, ou en-* |  |
 | `c1-l016` | &emsp;*contrarſe. Vt,* Fulaxiqu coganni ataua- |  |
-| `c1-l017` | &emsp;zu foro. *Ha tanto que vos não vi. S.* |  |
+| `c1-l017` | &emsp;zu foro. *Ha tanto que vos não vi.* S*.* |  |
 | `c1-l018` | Côgan. Curenaino cauobaxe. *Bello, ou* |  |
 | `c1-l019` | &emsp;*fermoſo roſto.* |  |
 | `c1-l020` | Cogane. *Ouro.* |  |
@@ -80,7 +80,7 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c2-l001` | Cogaſa. *Sarna miuda.* |  |
 | `c2-l002` | Cogatana. *Caniuete, ou faca.* |  |
-| `c2-l003` | Cogatanabuxe. *X. No* Cami cogatana |  |
+| `c2-l003` | Cogatanabuxe. X*. No* Cami cogatana |  |
 | `c2-l004` | &emsp;*zaxi. Vide infra.* |  |
 | `c2-l005` | Cogatanazaxi. *Lugar do caniuete em hũa par-* |  |
 | `c2-l006` | &emsp;*te da bainha da* Catana. |  |
@@ -116,7 +116,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l036` | &emsp;cogu. |  |
 | `c2-l037` | Cogui, u, oida. *Melius,* Cogi, u. *Tirar* |  |
 | `c2-l038` | &emsp;*a caſca ao linho canemo, ou tirar o grão do eſ-* |  |
-| `c2-l039` | &emsp;*pigado arroz, &c. X.* |  |
+| `c2-l039` | &emsp;*pigado arroz, &c.* X*.* |  |
 | `c2-l040` | Cogui ariqi, u, uita. *Ir a remo de cá pera lá.* |  |
 | `c2-l041` | Cogui idaxi, ſu, aita. *Irſe ſaindo a remo, ou* |  |
 | `c2-l042` | &emsp;*botar a* Fune *remando.* |  |

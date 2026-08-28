@@ -75,7 +75,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2a-l001` | &emsp;*la parte. ¶ Item, Interi. De eſpanto como* |  |
 | `c2a-l002` | &emsp;Areua, *com hum certo ſonſonete.* |  |
 | `c2a-l003` | Aſôgui. *Vt,* Aſôguicô. *Milhares de con-* |  |
-| `c2a-l004` | &emsp;*tos. Bup.* |  |
+| `c2a-l004` | &emsp;*tos.* Bup*.* |  |
 | `c2a-l005` | Aſſon. *Criados, ou vaſalos que immediatamẽ-* |  |
 | `c2a-l006` | &emsp;*te ſeruem a el Rei.* |  |
 | `c2a-l007` | Aſu. Meǒnichi. *Amanhaã.* |  |

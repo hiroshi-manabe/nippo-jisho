@@ -87,10 +87,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l007` | &emsp;*ſe dira de hum homem pobre, & ſem fato.* |  |
 | `c2-l008` | &emsp;*¶* Cajiqebito, l, cajiqeta fito. *Homẽ* |  |
 | `c2-l009` | &emsp;*pobre, & neceſſitado.* |  |
-| `c2-l010` | Cajit. Natçuno fi. *Dias do verão. P.* |  |
+| `c2-l010` | Cajit. Natçuno fi. *Dias do verão.* P*.* |  |
 | `c2-l011` | Cajit. Itomanofi. *Diaẽ q̃ hũ fica liure, & deſo* |  |
 | `c2-l012` | &emsp;*cupado.* |  |
-| `c2-l013` | Cajit. yoi mi. i. yoi conomi. *Boa fruita. P.* |  |
+| `c2-l013` | Cajit. yoi mi. i. yoi conomi. *Boa fruita.* P*.* |  |
 | `c2-l014` | Cama, l, cairu. *Raãs. ¶* Camaquiuin. |  |
 | `c2-l015` | &emsp;*Raã, & minhoca.* |  |
 | `c2-l016` | Cama. *Caldeirão, ou panela de ferro.* |  |

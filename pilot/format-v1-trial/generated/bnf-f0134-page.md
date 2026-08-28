@@ -87,10 +87,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l013` | &emsp;*cada hum em alta voz, ſahia ferindo, ou dando* |  |
 | `c2-l014` | &emsp;*nos inimigos.* |  |
 | `c2-l015` | Côyei. Nochino ſacaye. *Fauſtos, ou honrras* |  |
-| `c2-l016` | &emsp;*futuras. S.* |  |
-| `c2-l017` | Côyê. Côno quemuri. *Perfume de aguila. S.* |  |
+| `c2-l016` | &emsp;*futuras.* S*.* |  |
+| `c2-l017` | Côyê. Côno quemuri. *Perfume de aguila.* S*.* |  |
 | `c2-l018` | Côyen. Vxirono ſono. *Iardim que eſtà de* |  |
-| `c2-l019` | &emsp;*tras da caſa. S.* |  |
+| `c2-l019` | &emsp;*tras da caſa.* S*.* |  |
 | `c2-l020` | Côyen. Tacaqi noqi. *Beiras do Telhado* |  |
 | `c2-l021` | &emsp;*altas.* |  |
 | `c2-l022` | Coyeqi. i. firoi jifi. *Piedade, ou miſericordia* |  |
@@ -107,7 +107,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l033` | Côyu. Abura abura. *Hũa mezinha cheiroſa* |  |
 | `c2-l034` | &emsp;*como unguento.* |  |
 | `c2-l035` | Côyu. Yoi tomodachi. *Boa companhia, ou* |  |
-| `c2-l036` | &emsp;*bons companheiros. S.* |  |
+| `c2-l036` | &emsp;*bons companheiros.* S*.* |  |
 | `c2-l037` | Côyu. Tomoni majiuaru. *Conuerſar com* |  |
 | `c2-l038` | &emsp;*outros.* |  |
 | `c2-l039` | Côyu. Majiuari aſobu. *Recrearſe com ſe-* |  |

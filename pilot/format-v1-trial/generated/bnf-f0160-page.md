@@ -128,7 +128,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l041` | Fabone. *Dentes. ¶* Faboneno tçuyoi fi- |  |
 | `c2-l042` | &emsp;to. *Homem que tem dentes fortes, & rijos.* |  |
 | `c2-l043` | Fabǒqi. *Aſas de paſſaros com que ſacodem* |  |
-| `c2-l044` | &emsp;*o poo.* |  *( dentes. X.* |
+| `c2-l044` | &emsp;*o poo.* |  *( dentes.* X. |
 | `c2-l045` | Faboroxi. *Hũa aruore que he ruim pera os* |  |
 | `c2-l046` | Fabucura. i, *Lugar da frecha õde eſtão as penas.* |  |
 | `c2-l047` | Fabuqi, u, uita. i, Fadatagiuo ſuru, l, to |  |

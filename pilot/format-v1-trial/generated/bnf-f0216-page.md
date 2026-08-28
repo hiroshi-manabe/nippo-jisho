@@ -57,7 +57,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l041` | &emsp;*met. Conſentir hum de ſua liure vontade ſem* |  |
 | `c1-l042` | &emsp;*força em algũa couſa. Vt,* Fozouochiga |  |
 | `c1-l043` | &emsp;xita, l, xeirareta. |  |
-| `c1-l044` | Fozuye. *Ramo de flores, ou roſas. P.* |  |
+| `c1-l044` | Fozuye. *Ramo de flores, ou roſas.* P*.* |  |
 | `c1-l045` | Fozzuna. *Cordas das enxaruas do nauio.* |  |
 
 ## Column 2 running header

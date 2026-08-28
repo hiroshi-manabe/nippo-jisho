@@ -66,7 +66,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1b-l016` | Chaccocu. Cunini tçuqu. *Chegar ao Reino.* |  |
 | `c1b-l017` | &emsp;*¶* Gochaccocu naſareta. T*er chegado ao* |  |
 | `c1b-l018` | &emsp;*Reino algum ſenhor, ou* Tono. |  |
-| `c1b-l019` | Chacinato. *Adu*. *Depreſſa.* |  |
+| `c1b-l019` | Chacinato. *Adu. Depreſſa.* |  |
 | `c1b-l020` | Chacǒ. *ajuntamento doſ que ſe ajuntaõ abeber* |  |
 | `c1b-l021` | &emsp;cha. |  |
 | `c1b-l022` | Chacqe. ſôriǒno iye. *Morgado que erda a* |  |
@@ -88,10 +88,10 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | Chacqito. Adu. *Modo de veſtir ſe, ou a-* |  |
+| `c2-l001` | Chacqito. *Adu. Modo de veſtir ſe, ou a-* |  |
 | `c2-l002` | &emsp;*tauiarſe limpa, & atroſamente.* |  |
 | `c2-l003` | Chacuchacu. *Herdeiro da caſa, ou mòrgado.* |  |
-| `c2-l004` | Chacuchacu. *Adu*. *Apreſſadamente.* |  |
+| `c2-l004` | Chacuchacu. *Adu. Apreſſadamente.* |  |
 | `c2-l005` | Chacufu. Cunino funi tçuqu. *Chegar à ci-* |  |
 | `c2-l006` | &emsp;*dade principal dalgum reino como em Bun-* |  |
 | `c2-l007` | &emsp;*go a* Funai*, &c.* |  |
@@ -103,14 +103,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l013` | &emsp;*gũa couſa depreſſa.* |  |
 | `c2-l014` | Chacunan. Sôriǒ. *Herdeiro, ou mòrgado.* |  |
 | `c2-l015` | Chacunho. *Primeira filha.* |  |
-| `c2-l016` | Chacurito. Adu. *Depreſſa.* |  |
+| `c2-l016` | Chacurito. *Adu. Depreſſa.* |  |
 | `c2-l017` | Chacuſon. Sôriǒ mago. *Neto mòrgado.* |  |
 | `c2-l018` | Chacutçu. Minatoni tçuqu. *Chegar ao porto.* |  |
 | `c2-l019` | Chacutǒ. *Rol em que ſe eſcreuem os nomes* |  |
 | `c2-l020` | &emsp;*dos ſoldados, ou de outra gente. ¶* Chacutǒ |  |
 | `c2-l021` | &emsp;uo tçuquru, l, chacutǒni tçuqu. *Eſcre-* |  |
 | `c2-l022` | &emsp;*uer, ou aſſentar neste rol.* |  |
-| `c2-l023` | Chacuto. *Adu*. *Logo, ou depreſſa.* |  |
+| `c2-l023` | Chacuto. *Adu. Logo, ou depreſſa.* |  |
 | `c2-l024` | Chacuxen. Fune tçuqu. *Chegar o nauio ao* |  |
 | `c2-l025` | &emsp;*porto. Vt,* Chacuxende gozaru. |  |
 | `c2-l026` | Chacuxi. i. Sôriǒ. *Mòrgado.* |  |

@@ -59,7 +59,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l043` | Fiyacu. *Mezinha muito eſtimada, & como* |  |
 | `c1-l044` | &emsp;*eſcondida que logo obra. ¶ Item, Aliquã-* |  |
 | `c1-l045` | &emsp;*do, Mezinha leue, & de pouca ſuſtancia.* |  |
-| `c1-l046` | Fiyai. *Couſa fria, ou fazer frio. X.* |  |
+| `c1-l046` | Fiyai. *Couſa fria, ou fazer frio.* X*.* |  |
 | `c1-l047` | &emsp;Fiyafa. |  |
 | `c1-l048` | &emsp;Fiyô. |  |
 
@@ -85,14 +85,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l010` | &emsp;*tendoa na agoa. O eſfriar ao vento he,* Caza- |  |
 | `c2-l011` | &emsp;ſame, uru. |  |
 | `c2-l012` | Fiyaximono. *Couſa de comer fria, & que* |  |
-| `c2-l013` | &emsp;*refreſca. X. ¶ Item, Aletria cozida fria.* |  |
+| `c2-l013` | &emsp;*refreſca.* X*. ¶ Item, Aletria cozida fria.* |  |
 | `c2-l014` | Fiyaxiru. *Certo* Xiru *frio com algũa miſtura* |  |
 | `c2-l015` | &emsp;*de eruas que ſe come no verão.* |  |
 | `c2-l016` | Fiyayacana. *Couſa fria, & freſca.* |  |
 | `c2-l017` | Fiyazaqe. *Vinho frio.* |  |
 | `c2-l018` | Fiye, uru, eta. *Eſfriarſe, ou ſentir frio.* |  |
 | `c2-l019` | Fiye. *Doença de frio. Vt,* Fiyeno vaz- |  |
-| `c2-l020` | &emsp;zuraǒ. *Adoeçer de frio. X.* |  |
+| `c2-l020` | &emsp;zuraǒ. *Adoeçer de frio.* X*.* |  |
 | `c2-l021` | Fiye. *Hum legume, ou ſemente de cor preta* |  |
 | `c2-l022` | &emsp;*como milho.* |  |
 | `c2-l023` | Fiye. *Carnegão de eſpinha do roſto que ſe pa-* |  |

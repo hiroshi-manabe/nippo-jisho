@@ -109,13 +109,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l035` | &emsp;*¶* Fǒuonuo cǒmuru. *Receber mercês,* |  |
 | `c2-l036` | &emsp;*& fauores.* |  |
 | `c2-l037` | Fouori, ru, otta. *Botar fora, ou lançar de ſi.* |  |
-| `c2-l038` | Foxa. *Feiticeiro. X.* |  |
+| `c2-l038` | Foxa. *Feiticeiro.* X*.* |  |
 | `c2-l039` | Foxa. Voguinai xaſuru. *Refazer, & re-* |  |
 | `c2-l040` | &emsp;*ſoluer com mezinhas, &c.* |  |
 | `c2-l041` | Fôxa. Tacarano curuma. *Carro ornado q̃ ſer-* |  |
 | `c2-l042` | &emsp;*ue de andas.* |  |
 | `c2-l043` | Fǒxei. *Louuor, ou nome afamado. ¶* Bi- |  |
-| `c2-l044` | &emsp;yo fǒxei. *Bom nome, & fama. S.* |  |
+| `c2-l044` | &emsp;yo fǒxei. *Bom nome, & fama.* S*.* |  |
 | `c2-l045` | Fǒxei. Cǒbaxij naſaqe. *Beneficios, ou bo-* |  |
 | `c2-l046` | &emsp;*as obras honrando a peſſoa de quem ſe recebe.* |  |
 | `c2-l047` | &emsp;*Vt,* Gofǒxeini azzucaru. *Receber bo-* |  |

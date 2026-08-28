@@ -106,7 +106,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l032` | Faſan, l, faſu. *O deſmanchar, ou deſfazer as* |  |
 | `c2-l033` | &emsp;*cõtas depois de concluidas, ou baralhar os ten-* |  |
 | `c2-l034` | &emsp;*tos das contas, &c.* |  |
-| `c2-l035` | Faſô. Yabureta mado. *Ianela quebrada. P.* |  |
+| `c2-l035` | Faſô. Yabureta mado. *Ianela quebrada.* P*.* |  |
 | `c2-l036` | Faſon. Yabure ſonzuru. *Quebrarſe o na-* |  |
 | `c2-l037` | &emsp;*uio ou fazer naufragio. Vt,* Funega faſon |  |
 | `c2-l038` | &emsp;xita. *Quebrouſe, ou perdeoſe a embarcação.* |  |
@@ -116,7 +116,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l042` | &emsp;*muito.* |  |
 | `c2-l043` | Faſſan. *O diuidir nas contas. Vide* Giſan. |  |
 | `c2-l044` | Faſſô. *Oito eſtados que teue a vida de* Xaca. |  |
-| `c2-l045` | &emsp;*Bup.* |  |
+| `c2-l045` | &emsp;Bup*.* |  |
 | `c2-l046` | Faſſocu. Axiuo vocoſu. *O partirſe pera a* |  |
 | `c2-l047` | &emsp;*guerra algũa peſſoa nobre.* |  |
 

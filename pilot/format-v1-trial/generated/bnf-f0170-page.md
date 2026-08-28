@@ -96,7 +96,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l022` | &emsp;*parece meo morto. Vide,* Fanxi. |  |
 | `c2-l023` | Fanji. Fantogi. *Mea hora.* |  |
 | `c2-l024` | Fanji, zuru, ita. *Trazer de algũa couſa, ou* |  |
-| `c2-l025` | &emsp;*arrezoar, & declarar. X. ¶ Item, Interpre-* |  |
+| `c2-l025` | &emsp;*arrezoar, & declarar.* X*. ¶ Item, Interpre-* |  |
 | `c2-l026` | &emsp;*tar como ſonhos, &c. Vt,* Yumeuo fanzu- |  |
 | `c2-l027` | &emsp;ru. *¶ Item, Adeuinhar lançando ſor-* |  |
 | `c2-l028` | &emsp;*tes, &c.* |  |

@@ -43,7 +43,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1a-l027` | Ayete. i. Vqegǒte. *Conſentindo, & fazẽ* |  |
 | `c1a-l028` | &emsp;*doſe capaz prohibir algũa couſa, ou propor de a* |  |
 | `c1a-l029` | &emsp;*não fazer. ¶* Ayete xirizoqu coto naca |  |
-| `c1a-l030` | &emsp;re. *Conſentindo não vos aparteis de ahi. S.* |  |
+| `c1a-l030` | &emsp;re. *Conſentindo não vos aparteis de ahi.* S*.* |  |
 | `c1a-l031` | Ayezu. *Iunto com outros verbos na raiz ſigni-* |  |
 | `c1a-l032` | &emsp;*fica não acabar algũa couſa. Vt,* Yomiaye- |  |
 | `c1a-l033` | &emsp;zu. *Não acabando de ler. ¶* Torumo- |  |
@@ -101,8 +101,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l019` | &emsp;*ſas, & flores, ou as excede na fermoſura.* |  |
 | `c2-l020` | Azana. *Nome que hum toma des de minino.* |  |
 | `c2-l021` | &emsp;*¶ Item, Nome proprio, ou primeiro. Vt,* |  |
-| `c2-l022` | &emsp;*S. Paulo* no azanaua *Saulo* to yǔ. *O no-* |  |
-| `c2-l023` | &emsp;*me primeiro de S. Paulo era Saulo.* |  |
+| `c2-l022` | &emsp;S*. Paulo* no azanaua *Saulo* to yǔ. *O no-* |  |
+| `c2-l023` | &emsp;*me primeiro de* S*. Paulo era Saulo.* |  |
 | `c2-l024` | Azaqeri. *Eſcarneo, ou zombaria. ¶* Azaqe- |  |
 | `c2-l025` | &emsp;riuo fuxegu. *Fazer com que não ſeja eſcar-* |  |
 | `c2-l026` | &emsp;*necido.* |  |

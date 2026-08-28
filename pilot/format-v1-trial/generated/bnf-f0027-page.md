@@ -58,7 +58,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l042` | &emsp;*tira pera azul.* |  |
 | `c1-l043` | Amaſoſoqi. *Molinha, ou chuua miuda. Vt,* |  |
 | `c1-l044` | &emsp;Amaſotoqiga ſuru. *Chouiſcar.* |  |
-| `c1-l045` | Amaſsaye. Adu. *Oque mais he, ou alem* |  |
+| `c1-l045` | Amaſsaye. *Adu. Oque mais he, ou alem* |  |
 | `c1-l046` | &emsp;*diſſo, ſobre tudo.* |  |
 | `c1-l047` | Amata. *Muitos.* Fito amata, l, amata- |  |
 
@@ -81,9 +81,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l001` | &emsp;no fito. *Muitos homens.* |  |
 | `c2-l002` | Amatatabi. *Adu. Muitas vezes.* |  |
 | `c2-l003` | Amatçucari. *Pato brauo que vai pello ar.* |  |
-| `c2-l004` | Amatçufi. *Sol do ceo. P.* |  |
+| `c2-l004` | Amatçufi. *Sol do ceo.* P*.* |  |
 | `c2-l005` | Amatçumi ſora. l, Amatçu ſora. i. Vôzora. |  |
-| `c2-l006` | &emsp;*Ceo, ou ar. P.* |  |
+| `c2-l006` | &emsp;*Ceo, ou ar.* P*.* |  |
 | `c2-l007` | Amatçuſora. *Idem.* |  |
 | `c2-l008` | Amateraxi, ſu. P. *Alumiar o ſol, ou a lũa ao ceo.* |  |
 | `c2-l009` | Amauobune. P. *Barco pequeno de peſcadores.* |  |

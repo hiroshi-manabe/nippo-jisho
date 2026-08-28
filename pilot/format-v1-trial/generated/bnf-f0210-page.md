@@ -20,7 +20,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l004` | Fônô. Volante tatematçuru. *Pagar algum* |  |
 | `c1-l005` | &emsp;*rendimento às Teras, ou varelas. ¶* Fô- |  |
 | `c1-l006` | &emsp;nô itaſu. *Idem.* |  |
-| `c1-l007` | Fonobono. *Adu. P. Modo de amanhecer, ou* |  |
+| `c1-l007` | Fonobono. *Adu.* P*. Modo de amanhecer, ou* |  |
 | `c1-l008` | &emsp;*abrir amenhaã. ¶* Yono fonobono aqe- |  |
 | `c1-l009` | &emsp;ni mairǒ. *Irei logo em amanhecendo.* |  |
 | `c1-l010` | Fonocani. *Eſcaſamente. Vt,* Fonocani |  |
@@ -49,7 +49,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l033` | &emsp;*ou receita dalgũa mezinha eſcrita em liuro* |  |
 | `c1-l034` | &emsp;*antigo.* |  |
 | `c1-l035` | Fonpô. Fonno nori. *Propria lei, ou doc-* |  |
-| `c1-l036` | &emsp;*trina. Bup.* |  |
+| `c1-l036` | &emsp;*trina.* Bup*.* |  |
 | `c1-l037` | Fonpu. Motono votto. *Proprio, & legiti-* |  |
 | `c1-l038` | &emsp;*mo marido. Vt,* Fonsai fonpu. *Propria* |  |
 | `c1-l039` | &emsp;*molher, & proprio marido.* |  |
@@ -110,7 +110,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l036` | Fontai. Fonnotai. *Verdadeira, ou propria* |  |
 | `c2-l037` | &emsp;*ſuſtancia.* |  |
 | `c2-l038` | Fon v. Motoyori v, nari. *Couſa que ouue,* |  |
-| `c2-l039` | &emsp;*ou tem ſer deſdo principio. Bup.* |  |
+| `c2-l039` | &emsp;*ou tem ſer deſdo principio.* Bup*.* |  |
 | `c2-l040` | Fonxen. *Caxas, ou moedas de cobre que ſe* |  |
 | `c2-l041` | &emsp;*dão, ou empreſtão ao ganho. i, Cabedal de* |  |
 | `c2-l042` | &emsp;*caxas tirando os ganhos.* |  |

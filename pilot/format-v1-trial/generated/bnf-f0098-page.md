@@ -34,9 +34,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l018` | &emsp;*is vestido trazem hũa* Catabira *de linho por* |  |
 | `c1-l019` | &emsp;*cima, & nacabeça muito toucado, as quaes deſ* |  |
 | `c1-l020` | &emsp;*correm por diuerſas partes.* |  |
-| `c1-l021` | Catçute. Adu. *De nenhũa qualidade, ou nũ-* |  |
+| `c1-l021` | Catçute. *Adu. De nenhũa qualidade, ou nũ-* |  |
 | `c1-l022` | &emsp;*qua, ſempre ſe junta com negatiuos.* |  |
-| `c1-l023` | Catçutemotte. Adu. *Idem.* |  |
+| `c1-l023` | Catçutemotte. *Adu. Idem.* |  |
 | `c1-l024` | Catçùua. *Conjun*. *Por hũa parte, ou à hũa.* |  |
 | `c1-l025` | &emsp;*¶ Item, Por hum pouco.* |  |
 | `c1-l026` | Catçuuo. *Combalamaz peixe.* |  |

@@ -60,7 +60,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l044` | Caxi, ſuru, ita. T*er copula carnal.* |  |
 | `c1-l045` | Caxicamaxij, i. Caximaxij. *Couſa de reuol-* |  |
 | `c1-l046` | &emsp;*ta, ou traquinada.* |  |
-| `c1-l047` | Caxico. Adu. *Ali, ou acolà.* |  |
+| `c1-l047` | Caxico. *Adu. Ali, ou acolà.* |  |
 
 ## Column 2 running header
 

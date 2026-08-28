@@ -22,7 +22,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l006` | Auojitoto. *Hũ certo peſſarinho que canta bem.* |  |
 | `c1-l007` | Auomame. *Certa laya de graõs verdes.* |  |
 | `c1-l008` | Auome, uru, eta. i. Auoideni ſuru. *Co-* |  |
-| `c1-l009` | &emsp;*zer leuemente eruas, &c. X. ¶ Item,* |  |
+| `c1-l009` | &emsp;*zer leuemente eruas, &c.* X*. ¶ Item,* |  |
 | `c1-l010` | &emsp;*Tingir dazul.* |  |
 | `c1-l011` | Auomedachi, tçu, atta. *Brotarem as eruas, ou* |  |
 | `c1-l012` | &emsp;*plantas com verdura, ou folhas nouas.* |  |
@@ -122,7 +122,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2b-l010` | Axenyacu. *Certa mezinha que ſe chama cacho.* |  |
 | `c2b-l011` | Axeri, ru, etta. *Melius.* Aſaru. *Eſgarauata-* |  |
 | `c2b-l012` | &emsp;*rem os paſſaros com o bico, ou pès buſcando o* |  |
-| `c2b-l013` | &emsp;*comer. X.* |  |
+| `c2b-l013` | &emsp;*comer.* X*.* |  |
 | `c2b-l014` | Axi, l, yoxi. *Caniços que nacẽ nas alagoas.* |  |
 | `c2b-l015` | Axi. *Pè de qualquer couſa. ¶* Axiga ta- |  |
 | `c2b-l016` | &emsp;yumu, l, motçururu. *Enfraquecerem os* |  |

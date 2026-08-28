@@ -54,7 +54,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l038` | Curetaqe. *Certa laya de bambus.* |  |
 | `c1-l039` | Curi. *Cozinha de religioſos.* |  |
 | `c1-l040` | Curi. *Caſtanhas.* |  |
-| `c1-l041` | Cùri. *Bup. Suſtãcia ſẽ cor, & corpo. i. eſpũ.* |  |
+| `c1-l041` | Cùri. Bup*. Suſtãcia ſẽ cor, & corpo. i. eſpũ.* |  |
 | `c1-l042` | Cùri. i. Cocù. *Ar.* |  |
 | `c1-l043` | Curi, u, utta. *Correr, ou paſſar algũa couſa* |  |
 | `c1-l044` | &emsp;*como liuro, ou folhas com a mão. ¶ Item,* |  |

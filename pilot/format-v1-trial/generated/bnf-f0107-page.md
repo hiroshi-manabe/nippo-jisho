@@ -97,7 +97,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l017` | Chinguiocu. Mezzuraxij tama. *Pedra* |  |
 | `c2-l018` | &emsp;*precioſa rara.* |  |
 | `c2-l019` | Chingo. Tocoxinayeni mamoru. *Guardar,* |  |
-| `c2-l020` | &emsp;*ou defender como reino, &c. S.* |  |
+| `c2-l020` | &emsp;*ou defender como reino, &c.* S*.* |  |
 | `c2-l021` | Chingiacu. Xizzumi tçuqu. *Estar metido* |  |
 | `c2-l022` | &emsp;*com o coração, & affeição em algũa couſa.* |  |
 | `c2-l023` | &emsp;*Vt,* Acuni chingiacu ſuru. *Eſtar metido,* |  |

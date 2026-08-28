@@ -48,7 +48,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l032` | Feiguiua. *Borda da parede, ou cerca.* |  |
 | `c1-l033` | Feijei. i, Tçunenocoto. *Sempre, ou ordi-* |  |
 | `c1-l034` | &emsp;*nariamente.* Feijeina. *Couſa ordinaria.* |  |
-| `c1-l035` | Feiji. Tçuuamono, votto. *Soldado. S.* |  |
+| `c1-l035` | Feiji. Tçuuamono, votto. *Soldado.* S*.* |  |
 | `c1-l036` | Feiji. Taira vgi. i, Feiqeno ichimon. *Hũa* |  |
 | `c1-l037` | &emsp;*familia nobre antigua de Iapão.* |  |
 | `c1-l038` | Feiji. *Certa laya de bules de vinho feitos de pao.* |  |

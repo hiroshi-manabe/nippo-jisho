@@ -80,7 +80,7 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c2-l001` | &emsp;guru. *Aleuantar grande voz.* |  |
 | `c2-l002` | Daixa. Vǒqina curuma. *Grãde carro.* |  |
-| `c2-l003` | Daixen xecai. *Bup. Grandes mil mundos* |  |
+| `c2-l003` | Daixen xecai. Bup*. Grandes mil mundos* |  |
 | `c2-l004` | &emsp;*como ſe conta que ha nas fabulas do* Buppǒ. |  |
 | `c2-l005` | Daixi. Vǒqina xixǒ. *Grande meſtre.* |  |
 | `c2-l006` | Daixô. Vǒqinari, chijſaxi. *Grande, &* |  |

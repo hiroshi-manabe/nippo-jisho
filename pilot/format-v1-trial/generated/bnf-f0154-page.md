@@ -43,7 +43,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l027` | Demucai, ǒ, ǒta. *Sair ao encontro.* |  |
 | `c1-l028` | Denbacu. Tatarage. *Varzeas, & campos.* |  |
 | `c1-l029` | &emsp;*¶* Dẽbacuuo tçucuru. *Cultiuar os campos.* |  |
-| `c1-l030` | Denbǒ. *Bup.* Noriuo tçutayuru. *O cõ-* |  |
+| `c1-l030` | Denbǒ. Bup*.* Noriuo tçutayuru. *O cõ-* |  |
 | `c1-l031` | &emsp;*municar, ou dar parte a outros da lei, como o* |  |
 | `c1-l032` | &emsp;*meſtre aos diſcipulos.* |  |
 | `c1-l033` | Denbu. i. Fiacuxǒ. *Laurador. ¶* Den- |  |
@@ -77,7 +77,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l003` | &emsp;*ſer enſinado.* |  |
 | `c2-l004` | Denpit. Fudeuo tçutayuru. i. Xoni cotoz- |  |
 | `c2-l005` | &emsp;zute ſuru. *Encomendas por cartas. Vt,* |  |
-| `c2-l006` | &emsp;Denpituo moxiſoro. *S.* |  |
+| `c2-l006` | &emsp;Denpituo moxiſoro. S*.* |  |
 | `c2-l007` | Denqi. Tçutaye xuſu. *Eſcritura, ou li-* |  |
 | `c2-l008` | &emsp;*uro de hiſtoria.* |  |
 | `c2-l009` | Denquǒ. Inabicari. *Relampago.* |  |
@@ -99,7 +99,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l025` | Denxo. Xouo tçutayuru. *Carta que ſe man-* |  |
 | `c2-l026` | &emsp;*da a alguem, ou encomenda pera a encami-* |  |
 | `c2-l027` | &emsp;*nhar pera quem vai.* |  |
-| `c2-l028` | Denye. *Bup.* Coromouo tçutayuru. i. Soxi- |  |
+| `c2-l028` | Denye. Bup*.* Coromouo tçutayuru. i. Soxi- |  |
 | `c2-l029` | &emsp;no yeſatuo atayuru. *O deixar o meſtre ao diſ-* |  |
 | `c2-l030` | &emsp;*cipulo ſeu habito, ou veſtido.* |  |
 | `c2-l031` | Deqi, uru, ita. *Acabarſe, l, eſtar feita a* |  |

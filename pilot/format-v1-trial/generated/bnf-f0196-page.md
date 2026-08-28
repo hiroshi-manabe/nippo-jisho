@@ -18,10 +18,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l002` | Fiqizan. *Diminuir nas contas. Vide,* Giſan. |  |
 | `c1-l003` | Fiqizuri, ru, utta. *Leuar a raſto, ou arraſtar.* |  |
 | `c1-l004` | Fiqua. Vt, Fiquaracuyǒ. *Roſas, & fo-* |  |
-| `c1-l005` | &emsp;*lhas que caem. S.* |  |
+| `c1-l005` | &emsp;*lhas que caem.* S*.* |  |
 | `c1-l006` | Fiquan. *Criado.* |  |
 | `c1-l007` | Fi quan. Canaximi, yorocobi. *Triſteza,* |  |
-| `c1-l008` | &emsp;*& alegria. S.* |  |
+| `c1-l008` | &emsp;*& alegria.* S*.* |  |
 | `c1-l009` | Fira. Vt, Teno fira. *Palma da mão.* |  |
 | `c1-l010` | &emsp;*¶* Catanano fira. *Champa da eſpada.* |  |
 | `c1-l011` | &emsp;*¶* Firauchini ſuru, l, catanano firade v- |  |

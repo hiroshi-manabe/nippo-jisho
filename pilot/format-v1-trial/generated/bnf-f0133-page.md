@@ -54,11 +54,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l038` | Côxin. Yeno ſoco. *Fundo do eſteiro. Vt,* |  |
 | `c1-l039` | &emsp;Côxin tçiquuo xizzumete qijoxi. *O fundo* |  |
 | `c1-l040` | &emsp;*do eſteiro metendo a lũa deiro de ſi, fica limpo,* |  |
-| `c1-l041` | &emsp;*& tranſparente. S.* |  |
+| `c1-l041` | &emsp;*& tranſparente.* S*.* |  |
 | `c1-l042` | Côxin. Cocôno xinca. *Bom criado, & o-* |  |
 | `c1-l043` | &emsp;*bediente.* |  |
 | `c1-l044` | Coxin. Vonorega mi. *Eu, ou minha peſ-* |  |
-| `c1-l045` | &emsp;*ſoa. S.* |  |
+| `c1-l045` | &emsp;*ſoa.* S*.* |  |
 | `c1-l046` | Coxino mono. *Eſpada, ou* Catana *de peſſoa* |  |
 | `c1-l047` | &emsp;*honrrada, & aſſi ſe diz ordinariamente. Vo-* |  |
 | `c1-l048` | &emsp;coxino mono. |  |

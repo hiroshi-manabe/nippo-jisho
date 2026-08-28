@@ -16,10 +16,10 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c1-l001` | Ganyei. *Neuca dos olhos.* |  |
 | `c1-l002` | Ganyô. Cauobaxe, catachi. *Roſto, &* |  |
-| `c1-l003` | &emsp;*figura. S.* |  |
+| `c1-l003` | &emsp;*figura.* S*.* |  |
 | `c1-l004` | Ganzǒ. Fucumi majinaru. *Hũa certa igua-* |  |
 | `c1-l005` | &emsp;*ria de muitos peixes miſturados feitos em* Suxi*-* |  |
-| `c1-l006` | &emsp;*mi. S. ¶ Item, Miſtura de varias* |  |
+| `c1-l006` | &emsp;*mi.* S*. ¶ Item, Miſtura de varias* |  |
 | `c1-l007` | &emsp;*couſas.* |  |
 | `c1-l008` | Gappato. *Adu. Vide,* Gafato. |  |
 | `c1-l009` | Gappi. *Concordar. Vt,* Gappi ſuru. |  |
@@ -31,7 +31,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l015` | &emsp;*que reprehendem, & abatem alguem. Vt,* |  |
 | `c1-l016` | &emsp;Ano gaqimega. *Aquelle triſte, & mala-* |  |
 | `c1-l017` | &emsp;*uenturado, ou faminto, &c.* |  |
-| `c1-l018` | Gaqi. Vye, vyuru. *Fome. S.* |  |
+| `c1-l018` | Gaqi. Vye, vyuru. *Fome.* S*.* |  |
 | `c1-l019` | Gaqidǒ. *Inferno onde ſe tormẽtão com fome* |  |
 | `c1-l020` | &emsp;*as almas.* |  |
 | `c1-l021` | Gara. *Modo, feição: ſempre vai com outro* |  |
@@ -78,7 +78,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | &emsp;*nhas proprias forças. X.* |  |
+| `c2-l001` | &emsp;*nhas proprias forças.* X*.* |  |
 | `c2-l002` | Gatamecaxi, ſu, aita. *Fazer chocalhar, ou* |  |
 | `c2-l003` | &emsp;*ſoar couſas duras, ou ſecas. ¶ Item, Fa-* |  |
 | `c2-l004` | &emsp;*zer ſoar portas, &c.* |  |
@@ -118,7 +118,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l038` | &emsp;xǒqinde aru. *Aquelles não combinão nas* |  |
 | `c2-l039` | &emsp;*naturezas. ¶* Areua vaga gaxxǒqin- |  |
 | `c2-l040` | &emsp;gia. *Aquelle he minha contra peçonha.* |  |
-| `c2-l041` | Gayocu. Gano tçubala. *Aſas de pato. S.* |  |
+| `c2-l041` | Gayocu. Gano tçubala. *Aſas de pato.* S*.* |  |
 | `c2-l042` | Gue. Xita, l, cudaru. *Baixo, ou inferior.* |  |
 | `c2-l043` | Gue. *Sentença, ou verſo como o que diſſe cada* |  |
 | `c2-l044` | &emsp;*Apoſtolo na cõpoſição do Credo, &c. ¶* Ichi- |  |

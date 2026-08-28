@@ -22,7 +22,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l006` | &emsp;caye ſutçuru. Monog*. Dando à bom-* |  |
 | `c1-l007` | &emsp;*ba botauão fora toda a immundicia, & agoa* |  |
 | `c1-l008` | &emsp;*da* Fune. |  |
-| `c1-l009` | Cayette. *Adu*. *Pollo contrario, antes.* |  |
+| `c1-l009` | Cayette. *Adu. Pollo contrario, antes.* |  |
 | `c1-l010` | Cayexi. *Eſterco de paſſaros.* |  |
 | `c1-l011` | Cayexi, u, yeita. *Fazer tornar. ¶ Itẽ,* |  |
 | `c1-l012` | &emsp;*Tornar algũa couſa, ou reſtituila. ¶* Tauo |  |
@@ -40,13 +40,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l024` | &emsp;ga cayeta. *Não podem paſſar as embar-* |  |
 | `c1-l025` | &emsp;*cações.* |  |
 | `c1-l026` | Cayǒna. T*al, desta laya.* |  |
-| `c1-l027` | Cayǒni. Adu. *Aſſi, ou deſta maneira.* |  |
+| `c1-l027` | Cayǒni. *Adu. Aſſi, ou deſta maneira.* |  |
 | `c1-l028` | Cayouaxi, ſu, aita. *Communicarſe. Vt,* Fu- |  |
 | `c1-l029` | &emsp;miuo cayouaſu. *Eſcreuerſe entre ſi.* |  |
 | `c1-l030` | &emsp;*¶* Tçucaiuo cayouaſu. *Mandar recados* |  |
 | `c1-l031` | &emsp;*hum a outro.* |  |
 | `c1-l032` | Cayu. Canja. |  |
-| `c1-l033` | Cayù. Adu. Vt, Cayù gozaru. *Sen-* |  |
+| `c1-l033` | Cayù. *Adu.* Vt, Cayù gozaru. *Sen-* |  |
 | `c1-l034` | &emsp;*tir comechão, ou coçeira.* |  |
 | `c1-l035` | Cayugari, u. *Vem de* Caij. *ter, ou ſentir co-* |  |
 | `c1-l036` | &emsp;*meçhão, ou coçeira.* |  |

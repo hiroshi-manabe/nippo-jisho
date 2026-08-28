@@ -82,7 +82,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l002` | Coſai. Comacani yu coto. *O dizer larga,* |  |
 | `c2-l003` | &emsp;*ou miudamente. ¶* Coſaini voyobazu. |  |
 | `c2-l004` | &emsp;*Não ha pera que arrezoar muito em particu-* |  |
-| `c2-l005` | &emsp;*lar. S.* |  |
+| `c2-l005` | &emsp;*lar.* S*.* |  |
 | `c2-l006` | Coſame. Sotto furu ame. *Chaua miuda, ou* |  |
 | `c2-l007` | &emsp;*pequena.* |  |
 | `c2-l008` | Côſan. Cudari mairu. *Renderſe ao inimi-* |  |
@@ -96,7 +96,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l016` | Coſô. Torano tçume. *Vnhas de tigre.* |  |
 | `c2-l017` | Côſô. Yoi yoſouoi, l, ſugata. *Bom ſembran-* |  |
 | `c2-l018` | &emsp;*te, ou boa aparencia, & ornato. ¶ Item,* |  |
-| `c2-l019` | &emsp;*Boa aparencia de qualquer outra couſa. S.* |  |
+| `c2-l019` | &emsp;*Boa aparencia de qualquer outra couſa.* S*.* |  |
 | `c2-l020` | &emsp;¶ Côſôna, l, côſônaru coto. *Idem.* |  |
 | `c2-l021` | Côſô. Tacaqi ſijiri. Bôzo *honrrado de dig-* |  |
 | `c2-l022` | &emsp;*nidade.* |  |

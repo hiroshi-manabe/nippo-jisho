@@ -52,13 +52,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l036` | &emsp;*uo, ou tolo.* |  |
 | `c1-l037` | Fǒqei. Cǒbaxij megumi. *Beneficios, ou mi-* |  |
 | `c1-l038` | &emsp;*mos, & afabilidade que ſe moſtra a alguem* |  |
-| `c1-l039` | &emsp;*falando com corteſia. S.* |  |
+| `c1-l039` | &emsp;*falando com corteſia.* S*.* |  |
 | `c1-l040` | Fôqen. Tacarano qen. *Eſpada de* Tenxǒdai- |  |
 | `c1-l041` | &emsp;*jin, que he hũa das tres peças prezadas que tẽ* |  |
 | `c1-l042` | &emsp;*o* Dairi. *¶ Item, Eſpada do Rei. i,* |  |
 | `c1-l043` | &emsp;Guioquen. |  |
 | `c1-l044` | Foqet. Chiuo voguino. *O temperar, ou re-* |  |
-| `c1-l045` | &emsp;*fazer o ſangue. S.* |  |
+| `c1-l045` | &emsp;*fazer o ſangue.* S*.* |  |
 | `c1-l046` | Fôqet. Dairi. *Paços reaes.* |  |
 | `c1-l047` | Foqi. *Lugar alto como precipicio. ¶* Foqi |  |
 
@@ -76,7 +76,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l002` | &emsp;*perigoſo.* |  |
 | `c2-l003` | Foqi. Qiuo voguino. *Tomar mezinhas pe-* |  |
 | `c2-l004` | &emsp;*ra o coração, ou pera refazer os eſpiritus vi-* |  |
-| `c2-l005` | &emsp;*taes. S.* |  |
+| `c2-l005` | &emsp;*taes.* S*.* |  |
 | `c2-l006` | Fôqi. Norino fata. *Sinal, ou bandeira da* |  |
 | `c2-l007` | &emsp;*ſeita. ¶* Fôqiuo aguru. *Aleuantar ban-* |  |
 | `c2-l008` | &emsp;*deira dalgũa ſeita, ou lei diuulgandoa.* |  |
@@ -105,7 +105,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l031` | &emsp;aguru. *Aleuantar eſte fogo pera que a gen-* |  |
 | `c2-l032` | &emsp;*te ſe ajunte, & ſe defenda dos inimigos q̃ vẽ.* |  |
 | `c2-l033` | Fôquan. Tacarano camuri. *Coroa rica, &* |  |
-| `c2-l034` | &emsp;*ornada. S.* |  |
+| `c2-l034` | &emsp;*ornada.* S*.* |  |
 | `c2-l035` | Fôquan. *Certa maneira de frauta.* |  |
 | `c2-l036` | Fora. *Cauerna, ou lapa.* |  |
 | `c2-l037` | Fôracu. *Folguedo como auto, bailo, &c. que* |  |

@@ -83,7 +83,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l008` | &emsp;*meſmo Ventre.* |  |
 | `c2-l009` | Cotô. *Bronzo. Vt,* Cotôncemono. *Cou-* |  |
 | `c2-l010` | &emsp;*ſa feita de bronzo.* |  |
-| `c2-l011` | Côtô. Yeno ſotori. *Borda do rio, ou enſeada P.* |  |
+| `c2-l011` | Côtô. Yeno ſotori. *Borda do rio, ou enſeada* P*.* |  |
 | `c2-l012` | Côtô. *Certa dignidade dos cegos. Item, Cer-* |  |
 | `c2-l013` | &emsp;*ta dignidade que o* Dairi *concede aos Bon-* |  |
 | `c2-l014` | &emsp;*zos de* xôdô. |  |
