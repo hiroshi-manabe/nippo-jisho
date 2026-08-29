@@ -22,7 +22,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l006` | &emsp;*ordinaria.* |  |
 | `c1-l007` | &emsp;Cotocotoxiſa. |  |
 | `c1-l008` | &emsp;Cotocotoxũ. |  |
-| `c1-l009` | Côtocu. Atçui tocu. *Grandes proueitos.* |  |
+| `c1-l009` | Cǒtocu. Atçui tocu. *Grandes proueitos.* |  |
 | `c1-l010` | Cotofiqi. *Tangedor do crauo de Iapão.* |  |
 | `c1-l011` | Cotofiqi. *Hum peixe aſſi chamado.* |  |
 | `c1-l012` | Cotofirô. *Larga, & eſpaçoſamente.* |  |
@@ -36,7 +36,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l020` | Cotogotoni. *Adu. Em cada couſa.* |  |
 | `c1-l021` | Cotoguſa. *P. Palaura, ou pratica dalguẽ.* |  |
 | `c1-l022` | Cotonai. *Couſa grande, ou exceſſiua.* |  |
-| `c1-l023` | Cotonô. *Adu.* |  |
+| `c1-l023` | Cotonǒ. *Adu.* |  |
 | `c1-l024` | Cotonaru. l. Cotono focanaru. *Couſa grã-* |  |
 | `c1-l025` | &emsp;*de, ou extraordinaria. ¶ Item, Ser dif-* |  |
 | `c1-l026` | &emsp;*ferente, ou deſſemelhante.* |  |
@@ -54,12 +54,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l038` | Cotori. *Paſſarinho.* |  |
 | `c1-l039` | Cotoriba. Vaxino vo. *Penas do rabo da aguia.* |  |
 | `c1-l040` | Cotoſara. *Adu. Alem diſſo.* |  |
-| `c1-l041` | Cotoſôzôxi. i. Mono ſauagaxij. *Couſa de* |  |
+| `c1-l041` | Cotoſôzǒxi. i. Mono ſauagaxij. *Couſa de* |  |
 | `c1-l042` | &emsp;*perturbação, & reuolta.* |  |
 | `c1-l043` | Cototagai. *Erro no falar.* |  |
 | `c1-l044` | Cototçute, çuru, teta. *Dar emcomendas.* |  |
 | `c1-l045` | Cototçute. *Encomendas. ¶* Cototçute- |  |
-| `c1-l046` | &emsp;uo môſu. *Dar, ou mandar encomendas.* |  |
+| `c1-l046` | &emsp;uo mǒſu. *Dar, ou mandar encomendas.* |  |
 | `c1-l047` | &emsp;¶ Cototçuteni azucaru. *Receber re-* |  |
 
 ## Column 2 running header
@@ -92,16 +92,16 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l012` | Cotoyoxe, ſuru, eta. *Tomar por occaſião, ou* |  |
 | `c2-l013` | &emsp;*achaque. ¶* Fana migaterani coto yo- |  |
 | `c2-l014` | &emsp;xete. *Tomando por occaſião ir ver as flores.* |  |
-| `c2-l015` | Cotoyuyenô. *Adu. Sem perigo.* |  |
+| `c2-l015` | Cotoyuyenǒ. *Adu. Sem perigo.* |  |
 | `c2-l016` | Cotozzucari, ru, atta. *Receber algũa en-* |  |
 | `c2-l017` | &emsp;*comenda pera leuar, ou entregar a alguem.* |  |
 | `c2-l018` | Cotozzuqe, uru, eta. *Mandar algũa en-* |  |
 | `c2-l019` | &emsp;*comenda por alguem. Vt,* Xemete tamaz- |  |
-| `c2-l020` | &emsp;zuſauo naritomo cotozzuqeôzuruuo vô- |  |
+| `c2-l020` | &emsp;zuſauo naritomo cotozzuqeôzuruuo vǒ- |  |
 | `c2-l021` | &emsp;xerareta. Voi*. Diſſe que pellomenos que-* |  |
 | `c2-l022` | &emsp;*ria encomendarlhe hũa carta pera lhe leuar.* |  |
 | `c2-l023` | Cotozzute. *Melius* Cototçute. *Encomendas* |  |
-| `c2-l024` | &emsp;*de palaura. ¶* Cotozzuteuo môſu. *Man-* |  |
+| `c2-l024` | &emsp;*de palaura. ¶* Cotozzuteuo mǒſu. *Man-* |  |
 | `c2-l025` | &emsp;*dar encomendas de palaura, ou dalas.* |  |
 | `c2-l026` | Cotzui. Fone, zui. *Oſſos, & tutanos. Vt,* |  |
 | `c2-l027` | &emsp;Cotzuini touoru, l, teiſuru. *Penetrar* |  |
@@ -117,7 +117,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l037` | &emsp;*met. Couſa trabalhoſa, ou que cauſa pena,* |  |
 | `c2-l038` | &emsp;*& temor.* |  |
 | `c2-l039` | &emsp;Couaſa. |  |
-| `c2-l040` | &emsp;Couô. |  |
+| `c2-l040` | &emsp;Couǒ. |  |
 | `c2-l041` | Couairo. *Metal de voz. ¶* Cano fito |  |
 | `c2-l042` | &emsp;no couairoga yoi. *O metal da voz daquel-* |  |
 | `c2-l043` | &emsp;*le homem he bom. ¶* Cano fiteno coua- |  |

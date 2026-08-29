@@ -18,35 +18,35 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1a-l002` | &emsp;*de armas.* |  |
 | `c1a-l003` | Côzai. *Saber, & Sagacidade. Vt,* Cô- |  |
 | `c1a-l004` | &emsp;zaina fito. *Homem ſagaz, & eſperto.* |  |
-| `c1a-l005` | Cozaixô. *Certa dignidade de homẽs, & mo-* |  |
+| `c1a-l005` | Cozaixǒ. *Certa dignidade de homẽs, & mo-* |  |
 | `c1a-l006` | &emsp;*lheres que ſeruem na caſa do* Dairi. |  |
-| `c1a-l007` | Côzan. Tacai yama. *Monte alto.* |  |
+| `c1a-l007` | Cǒzan. Tacai yama. *Monte alto.* |  |
 | `c1a-l008` | Cozaſa. *Certa laya de erua como caninhas curtas.* |  |
 | `c1a-l009` | Cozauaxi. *Hum genero de figos de Iapão.* |  |
 | `c1a-l010` | Cozaxiqi. *Caſa, ou camara pequena.* |  |
-| `c1a-l011` | Cozô. Curacura. *Gudão, ou logea onde ſe* |  |
+| `c1a-l011` | Cozǒ. Curacura. *Gudão, ou logea onde ſe* |  |
 | `c1a-l012` | &emsp;*guarda fato, &c.* |  |
 | `c1a-l013` | Cozô. *Menino que ſe cria na Tera rapado.* |  |
 | `c1a-l014` | Cozo. *Anno paſſado.* |  |
 | `c1a-l015` | Cozori, u, otta. *Ajuntarſe como em pinha,* |  |
 | `c1a-l016` | &emsp;*& mui apertadamente muita gente, &c.* |  |
 | `c1a-l017` | Cozorifa. *Hũa certa alabarda pequena.* |  |
-| `c1a-l018` | Cozôxi. *Molheres baixas que ſeruem em caſa* |  |
+| `c1a-l018` | Cozǒxi. *Molheres baixas que ſeruem em caſa* |  |
 | `c1a-l019` | &emsp;*do* Dairi. |  |
 | `c1a-l020` | Côzui. Vuoi mizzu. *Grande enchente, ou* |  |
 | `c1a-l021` | &emsp;*diluuio dagua.* |  |
 | `c1a-l022` | Cozuye. *Raminhos do alto da aruore.* |  |
-| `c1a-l023` | Cozzu. *Cagado.* |  |
+| `c1a-l023` | Côzzu. *Cagado.* |  |
 | `c1a-l024` | Cozzuchi. *Martelinho.* |  |
-| `c1a-l025` | Cozzuni. *Palha q̃ eſtà em feixada, & jũta.* |  |
+| `c1a-l025` | Cozzumi. *Palha q̃ eſtà em feixada, & jũta.* |  |
 | `c1a-l026` | Cozzumi, u, unda. *Acumular, ou pôr hũas* |  |
 | `c1a-l027` | &emsp;*couſas ſobre outras. ¶ Item, Cair o caua-* |  |
 | `c1a-l028` | &emsp;*lo embiçando.* |  |
 | `c1a-l029` | Cozzuna. *Corda, ou calaure pequeno.* |  |
 | `c1a-l030` | Cozzuqe. Xiru, *& arroz em eſcudelinhas,* |  |
 | `c1a-l031` | &emsp;*he comer leue feito depreſſa pera algũ hoſpede.* |  |
-| `c1a-l032` | Cozzutai, ô, ôta. *Andar o bugio pellos ra-* |  |
-| `c1a-l033` | &emsp;*mos das aruores. Vt,* Mineni cozzutô ſa- |  |
+| `c1a-l032` | Cozzutai, ǒ, ǒta. *Andar o bugio pellos ra-* |  |
+| `c1a-l033` | &emsp;*mos das aruores. Vt,* Mineni cozzutǒ ſa- |  |
 | `c1a-l034` | &emsp;runo coye. *Voz do bugio que anda corren-* |  |
 | `c1a-l035` | &emsp;*do pellas aruores dos montes.* |  |
 
@@ -63,7 +63,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1b-l001` | Cu. Curuximi. *Pena, ou tormento. Vt,* |  |
 | `c1b-l002` | &emsp;Cuuo vquru. *Receber tormentos.* |  |
 | `c1b-l003` | Cu. *Sentença, ou dito.* |  |
-| `c1b-l004` | Cu. Bup*. Hũa couſa imperfectiſſima, &* |  |
+| `c1b-l004` | Cù. Bup*. Hũa couſa imperfectiſſima, &* |  |
 | `c1b-l005` | &emsp;*de minimo ſer como materia prima, ou vacuo.* |  |
 | `c1b-l006` | Cubari, u, atta. *Repartir. ¶* Meuo cu- |  |
 | `c1b-l007` | &emsp;baru. *Derramar os olhos por diuerſas partes.* |  |
@@ -111,7 +111,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l022` | &emsp;*peſcoço dos cães, ou gatos.* |  |
 | `c2-l023` | Cubixen. *Dinheiro que ſe dà pera eſcapar da* |  |
 | `c2-l024` | &emsp;*morte. Mas não he palaura antiga, & propria.* |  |
-| `c2-l025` | Cubô. Xôgunno coto. *Dignidade de capi-* |  |
+| `c2-l025` | Cubǒ. Xǒgunno coto. *Dignidade de capi-* |  |
 | `c2-l026` | &emsp;*tão principal, ou general de todo Iapão.* |  |
 | `c2-l027` | Cubocana. *Couſa concaua.* |  |
 | `c2-l028` | Cuboi. *Couſa concaua, ou funda. ¶ Item,* |  |
@@ -123,7 +123,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l034` | &emsp;uo cubomuru. *Encouar a palma da mão,* |  |
 | `c2-l035` | &emsp;*ou fazer cõcaua pera tomar algũa couſa nella.* |  |
 | `c2-l036` | Cubomi, u, ôda. *Fazerſe concauo, ou fundo.* |  |
-| `c2-l037` | Cubucu. Munaxij fara. i. Suqi fara. *Barri-* |  |
+| `c2-l037` | Cùbucu. Munaxij fara. i. Suqi fara. *Barri-* |  |
 | `c2-l038` | &emsp;*ga vazia. i. Eſtar em jejum.* |  |
 | `c2-l039` | Cubuqi. *Saco de palha.* |  |
 | `c2-l040` | Cucai. Curuximino vmi. *Mar de tormen-* |  |
@@ -132,7 +132,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l043` | &emsp;Xixi cucchini ijri naxi. Xix*. Eſtando o* |  |
 | `c2-l044` | &emsp;*lião na ſua coua, nenhum outro animal ouſa* |  |
 | `c2-l045` | &emsp;*entrar.* |  |
-| `c2-l046` | Cuchi. *Boca. ¶* Cuchiga vô. *Concor-* |  |
+| `c2-l046` | Cuchi. *Boca. ¶* Cuchiga vǒ. *Concor-* |  |
 | `c2-l047` | &emsp;*dar no que ſe diz. ¶* Cuchi namezzu- |  |
 | `c2-l048` | &emsp;riuo |  |
 

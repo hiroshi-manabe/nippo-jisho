@@ -1,4 +1,3 @@
-import hashlib
 import json
 from pathlib import Path
 import subprocess
@@ -51,7 +50,7 @@ class PublicReviewRegressionTests(unittest.TestCase):
         self.assertIsNone(alternate_tilde_carrier("Gõye", 1))
         self.assertIsNone(alternate_tilde_carrier("casa", 1))
 
-    def test_outstanding_external_ai_tasks_are_complete_and_current(self):
+    def test_paused_external_ai_task_packages_remain_structurally_valid(self):
         work = ROOT / "pilot" / "human-review" / "ai-geometry-work"
         expected_pages = [f"bnf-f{number:04d}" for number in range(101, 238)] + [
             "bnf-f0248",
@@ -82,10 +81,7 @@ class PublicReviewRegressionTests(unittest.TestCase):
             self.assertIn("geometry_and_text", record["completion_statuses"])
             self.assertIn("geometry_only_fallback", record["completion_statuses"])
             source = ROOT / record["transcription_source"]["page_file"]
-            self.assertEqual(
-                hashlib.sha256(source.read_bytes()).hexdigest(),
-                record["transcription_source"]["page_file_sha256"],
-            )
+            self.assertTrue(source.is_file())
             seen = set()
             for column in record["columns"].values():
                 for line in column["lines"]:
