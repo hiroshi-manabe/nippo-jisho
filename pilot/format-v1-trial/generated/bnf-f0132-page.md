@@ -72,39 +72,39 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | Cǒuot. *Altos, & baixos. ¶ Item, No-* |  |
-| `c2-l002` | &emsp;*me de certas horas conforme a conta, & me-* |  |
+| `c2-l001` | Cǒuot. *Altos, & baixos. ¶ Itẽ, No-* |  |
+| `c2-l002` | &emsp;*me de certas horas conforme à conta, & me-* |  |
 | `c2-l003` | &emsp;*dida do tempo de Iapão.* |  |
-| `c2-l004` | Cǒuotnin. *Homẽs altos, & baixos.* |  |
-| `c2-l005` | Côxa. *Carro que vem de traz. ¶* Lèxano |  |
-| `c2-l006` | &emsp;cutçu gayeruuo mite, côxano jimaxime- |  |
-| `c2-l007` | &emsp;toſi. Xixo. *Eſcarmentar em cabeça alhea* |  |
-| `c2-l008` | &emsp;*como o carro que vem de traz ſe acautela ven-* |  |
-| `c2-l009` | &emsp;*do uirarſe o que vai diante.* |  |
-| `c2-l010` | Cǒxa. Tçuyoqi mono. *Peſſoa forte, & eſ-* |  |
+| `c2-l004` | Cǒuotnin. *Homês altos, & baixos.* |  |
+| `c2-l005` | Côxa. *Carro que vem de traz. ¶* Iẽxano |  |
+| `c2-l006` | &emsp;cutçu gayeru uo mite, côxano imaxime- |  |
+| `c2-l007` | &emsp;toſu. Xixo. *Eſcarmentar em cabeça alhea* |  |
+| `c2-l008` | &emsp;*como o carro que uen de traz ſe acautela ven-* |  |
+| `c2-l009` | &emsp;*do uirarſe o que uai diante.* |  |
+| `c2-l010` | Cǒxa. Tçuyoqi mono. *Peſſoa forte, & eſ* |  |
 | `c2-l011` | &emsp;*forçada.* |  |
 | `c2-l012` | Côxa. Côno yttamono. *Peſſoa deſtra, exer-* |  |
 | `c2-l013` | &emsp;*citada, ou experimentada.* |  |
-| `c2-l014` | Cǒxacu. Toqi yauaraguru. *Comẽtar, ou gro-* |  |
-| `c2-l015` | &emsp;*ſar praticado ſobre algũ texto, &c.* |  |
+| `c2-l014` | Cǒxacu. Toqi yauaraguru. *Comẽtar, ou gro* |  |
+| `c2-l015` | &emsp;*ſar praticãdo ſobre algũ texto, &c.* |  |
 | `c2-l016` | Coxegare. *Moço pequeno.* |  |
-| `c2-l017` | Côxei. Nochini vmaruru. *O nacer depois de* |  |
+| `c2-l017` | Côxei. Nochini vmaruru. *O nacer de pois de* |  |
 | `c2-l018` | &emsp;*outro. ¶ Vt,* Côxei uoſorubexi. Xixo. |  |
-| `c2-l019` | &emsp;*Temei, & arreceaiuos do que nace depois de* |  |
+| `c2-l019` | &emsp;*Temei, & arreceaiuos do que nace de pois de* |  |
 | `c2-l020` | &emsp;*uòs porque poruentura ſabera mais, &c.* |  |
 | `c2-l021` | Cǒxei. Atçui naſaqe. *Grande piedade, ou* |  |
 | `c2-l022` | &emsp;*amor.* |  |
-| `c2-l023` | Cǒxen. i. Sanguachi. *Nome de terceira* |  |
+| `c2-l023` | Cǒxen. i. Sanguachi. *Nome de terçeira* |  |
 | `c2-l024` | &emsp;*lũa de Iapão.* |  |
 | `c2-l025` | Coxen fǒxen. *Peleja, ou briga em que ma-* |  |
 | `c2-l026` | &emsp;*tão, ou ferem a alguem, & depois em vingã-* |  |
 | `c2-l027` | &emsp;*ça ſe torna a ferir, ou matar outro.* |  |
 | `c2-l028` | Coxeqi. Furui ato. *Ruinas, ou raſto q̃ ficou* |  |
-| `c2-l029` | &emsp;*de algum edificio, &c. ¶ Item, Raſ-* |  |
+| `c2-l029` | &emsp;*de algum edifiçio, &c. ¶ Item, Raſ-* |  |
 | `c2-l030` | &emsp;*to, ſinal, ou ſepultura de algũ homem inſigne.* |  |
-| `c2-l031` | Cǒxeqi. Veconǒ ato. *Vida, ou obras dal-* |  |
+| `c2-l031` | Cǒxeqi. Voconǒ ato. *Vida, ou obras dal-* |  |
 | `c2-l032` | &emsp;*guem, particularmente exemplo mao, ou bom q̃* |  |
-| `c2-l033` | &emsp;*hum deixa depois de morto.* |  |
+| `c2-l033` | &emsp;*hum deixa de pois de morto.* |  |
 | `c2-l034` | Cǒxet. Yeno yuqi. *Neue de rio, ou eſteiro* |  |
 | `c2-l035` | &emsp;*do mar.* |  |
 | `c2-l036` | Coxi, ſu, oita. *Coar. ¶* Mizzuuo coſu. |  |
@@ -112,12 +112,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l038` | Coxi, ſu, oita. *Ir paſſando por cima de algũa* |  |
 | `c2-l039` | &emsp;*couſa como de ſerra, montes, &c.* |  |
 | `c2-l040` | Cǒxi, ſuru, ita. *Chamarſe, ou nomearſe al-* |  |
-| `c2-l041` | &emsp;*gũa couſa.* S*.* |  |
+| `c2-l041` | &emsp;*gũa couſa. S.* |  |
 | `c2-l042` | Côxi. Qimi, vatacuxi. *Senhor, & eu. Vt,* |  |
-| `c2-l043` | &emsp;Côxi ſima naqini yotte. *Por eu não ter tẽ-* |  |
+| `c2-l043` | &emsp;Côxi ſima naqini yotte. *Por eu não ter tẽ* |  |
 | `c2-l044` | &emsp;*po com as ocupações, & ſeruiço de meu ſenhor,* |  |
 | `c2-l045` | &emsp;*& de minha peſſoa.* |  |
-| `c2-l046` | Coxi. Inixiyeno xi. *Meſtre antiguo.* |  |
+| `c2-l046` | Coxi. Inixiyeno xi. *Mestre antiguo.* |  |
 | `c2-l047` | Côxi. Atçui cami. *Papel aſſi chamado.* |  |
 
 ## Catchword
