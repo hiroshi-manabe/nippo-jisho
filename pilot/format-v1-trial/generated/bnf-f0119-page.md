@@ -84,17 +84,17 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l004` | &emsp;*reino.* |  |
 | `c2-l005` | Cocumo. *Melius,* Cocubo. Cunino fa- |  |
 | `c2-l006` | &emsp;ua. *Mãy del rei.* |  |
-| `c2-l007` | Cocumu. Cuniyorino xomu. *Rendimento,* |  |
+| `c2-l007` | Cocumu. Cuniyorino xomu. *Rendimẽto,* |  |
 | `c2-l008` | &emsp;*ou renda que ſe paga de todo reino.* |  |
 | `c2-l009` | Cocurai. *Hum genero de lepra preta.* |  |
-| `c2-l010` | Cocuri, u, utta. *Eſfregar rijo, ou roçar.* |  |
-| `c2-l011` | Cocusai. *Officio de mandar, ou ordenar al-* |  |
+| `c2-l010` | Cocuri, u, utta. *Esfregar rijo, ou roçar.* |  |
+| `c2-l011` | Cocuſai. *Officio de mandar, ou ordenar al-* |  |
 | `c2-l012` | &emsp;*gũa comarca, ou lugar. Inuſit.* |  |
-| `c2-l013` | Cocuso. *Certa laya de grude feito de* Vruxi, |  |
+| `c2-l013` | Cocuſo. *Certa laya de grude feito de Vruxi*, |  |
 | `c2-l014` | &emsp;*& panos de linho cortados.* |  |
-| `c2-l015` | Cocusot. *Hum nome que ſe em poz antigua-* |  |
-| `c2-l016` | &emsp;*mente a hum homem, como eſtano* Veige *mas* |  |
-| `c2-l017` | &emsp;*não he palaura que ſe vſa, he como dizer ſoão* |  |
+| `c2-l015` | Cocuſot. *Hum nome que ſe em poz antigua-* |  |
+| `c2-l016` | &emsp;*mente a hum homem, como estàno* Feiqe *mas* |  |
+| `c2-l017` | &emsp;*não he palaura que ſe vſa, he como dizer foão* |  |
 | `c2-l018` | &emsp;*preto.* |  |
 | `c2-l019` | Cocuvn. Curui cumo. *Nuuem preta. Vt,* |  |
 | `c2-l020` | &emsp;Cocuvn ſorani tanabiqu. *Eſtenderſe algũa* |  |
@@ -104,26 +104,26 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l024` | &emsp;*nador do reino.* |  |
 | `c2-l025` | Cocuxeqi. Curoi ixi. *Pedra preta.* |  |
 | `c2-l026` | Cocuxi. Cuni tçucaſa. *Viſorei, ou gouer-* |  |
-| `c2-l027` | &emsp;*nador.* |  |
+| `c2-l027` | &emsp;*nador* |  |
 | `c2-l028` | Cocuxi, ſuru, ita. *Contrariarem entre ſi du-* |  |
-| `c2-l029` | &emsp;*as couſas naturalmente, como quente, & frio.* |  |
-| `c2-l030` | &emsp;*Vt,* Cannet cocuſuru. *Aquentura, & fri-* |  |
+| `c2-l029` | &emsp;*as couſas naturalmente, como quẽte, & frio.* |  |
+| `c2-l030` | &emsp;*Vt,* Cannet cocuſuru. *Aquentura, & fri* |  |
 | `c2-l031` | &emsp;*aldade ſão contrarios, ou repugnão.* |  |
 | `c2-l032` | Cocuxiqi. Curoi iro. *Cor preta.* |  |
 | `c2-l033` | Cocuxit. Curoi vruxi. *Verniz preto mui-* |  |
-| `c2-l034` | &emsp;*to fino, ou* Vruxi *preto de Iapão.* |  |
+| `c2-l034` | &emsp;*to fino, ou Vruxi preto de Iapão.* |  |
 | `c2-l035` | Cocuxu. Cunino nuxi. *Senhor de reino.* |  |
-| `c2-l036` | Cocuxu. Cuniuo mamoru mono. *O q̃ guar-* |  |
+| `c2-l036` | Cocuxu. Cuniuo mamoru mono. *O q̃ guar* |  |
 | `c2-l037` | &emsp;*da, & defende o reino.* |  |
-| `c2-l038` | Cocuyacu. *Officio em algum reino.* |  |
-| `c2-l039` | Cocuye. Curoi coromo. *Veſtido, ou habito* |  |
+| `c2-l038` | Cocuyacu. *Officio em algum reino* |  |
+| `c2-l039` | Cocuye. Curoi coromo. *Vestido, ou habito* |  |
 | `c2-l040` | &emsp;*preto.* |  |
 | `c2-l041` | Cocuyen. Cuni miyabiyaca nari. *Reino* |  |
 | `c2-l042` | &emsp;*fertil, & bom.* |  |
 | `c2-l043` | Cocuyen. Curoi qemuri. *Fumo.* |  |
 | `c2-l044` | Cocuyû. Cuni, ſato. *Reino, & pouoação.* |  |
-| `c2-l045` | Cocuzan. Comacani vchicudagu. *Vt,* Co- |  |
-| `c2-l046` | &emsp;cuzanni naſu. *Fazer algũa couſa em pedaços,* |  |
+| `c2-l045` | Cocuzan. Comacani vchicudaqu. *Vt,* Co |  |
+| `c2-l046` | &emsp;cuzanni naſu. *Fazer algũa couſa empedaços,* |  |
 | `c2-l047` | &emsp;*ou em migalhas. No* Ximo *ſe diz* Cocucan. |  |
 
 ## Printed signature mark
