@@ -77,6 +77,17 @@
     return {start: index, end: end + 1};
   }
 
+  function periodTypefaceTokenRange(value, index) {
+    const uppercase = uppercasePeriodTokenRange(value, index);
+    if (uppercase) return uppercase;
+    const parsed = parse(value);
+    if (!parsed.valid || !parsed.characters[index]) return null;
+    const character = parsed.characters[index].character;
+    if (!/\p{Ll}/u.test(character) || (index > 0 && /\p{L}/u.test(parsed.characters[index - 1].character))) return null;
+    if (parsed.characters[index + 1]?.character !== '.') return null;
+    return {start: index, end: index + 2};
+  }
+
   function toggleTypefaceRange(value, start, end, originalTypefaces) {
     const parsed = parse(value);
     if (!parsed.valid || start < 0 || end > parsed.characters.length || start >= end) return value;
@@ -198,5 +209,5 @@
     return {operations, currentToBase, changed, deletions};
   }
 
-  return {VOWEL_CYCLES, DELETABLE, parse, serialize, replace, toggleRoman, uppercasePeriodTokenRange, toggleTypefaceRange, nextSForm, nextGQ, nextNM, nextPostvocalicNasal, nextCedilla, nextUV, nextIJ, nextVowel, align};
+  return {VOWEL_CYCLES, DELETABLE, parse, serialize, replace, toggleRoman, uppercasePeriodTokenRange, periodTypefaceTokenRange, toggleTypefaceRange, nextSForm, nextGQ, nextNM, nextPostvocalicNasal, nextCedilla, nextUV, nextIJ, nextVowel, align};
 }));

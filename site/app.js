@@ -582,7 +582,7 @@ function quickCharacterHTML(character, index, baseIndex, changed, line, proposal
   let action = '';
   let title = '';
   let extraAttributes = '';
-  const periodToken = NippoQuickEdit.uppercasePeriodTokenRange(proposal.text, index);
+  const periodToken = NippoQuickEdit.periodTypefaceTokenRange(proposal.text, index);
   if (nasalRestoration) {
     action = 'nasal-restore';
     title = `Restore ${nasalRestoration.vowel}${nasalRestoration.consonant}`;
