@@ -14,49 +14,49 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | &emsp;¶ Cocubiacu tio vaqimay chu. *Nam diſtin-* |  |
+| `c1-l001` | &emsp;¶ Cocubiacu uo vaqimayenu. *Nam diſtin-* |  |
 | `c1-l002` | &emsp;*guir o preto do branco.* |  |
 | `c1-l003` | Cocubo. Cunino faua. *Mãy do Rei, ou* |  |
-| `c1-l004` | &emsp;*Rainha velha.* |  |
-| `c1-l005` | Cocubuji. Cunino fuchi no tera. *Varela q̃* |  |
-| `c1-l006` | &emsp;*eſtá na cidade principal dalgũ reino.* |  |
+| `c1-l004` | &emsp;*Rainha uelha.* |  |
+| `c1-l005` | Cocubuji. Cunino fuchù no tera. *Varela q̃* |  |
+| `c1-l006` | &emsp;*esta na cidade principal dalgũ reino.* |  |
 | `c1-l007` | Cocuchǔ. Cunino uchi. *Dentro no reino.* |  |
 | `c1-l008` | &emsp;¶ Cocuchǔno tçuuamono. *Soldados de* |  |
-| `c1-l009` | &emsp;*dentro do reino.* |  |
-| `c1-l010` | Cocuchô, i, cocugiô. Qizami yeru. *Eſcul-* |  |
+| `c1-l009` | &emsp;*dentro do reino* |  |
+| `c1-l010` | Cocuchô, i, cocugiô. Qizami yeru. *eſcul-* |  |
 | `c1-l011` | &emsp;*pir, ou abrir, em metal, pao, &c.* |  |
 | `c1-l012` | Cocudan. i. comacani uchicudacu. *Fazer* |  |
 | `c1-l013` | &emsp;*algũa couſa em migalhas. Vt,* Cocudanni |  |
-| `c1-l014` | &emsp;naſu. *No* Cami *ſe diz.* Cocuzanni naſu. |  |
+| `c1-l014` | &emsp;naſu. *No Cami ſe diz.* Cocuzanni naſu. |  |
 | `c1-l015` | Cocudo, cuni, cuni. *Reinos, & terras.* |  |
-| `c1-l016` | &emsp;¶ Cocudouo foroboſu. *Deſtruir reinos,* |  |
+| `c1-l016` | &emsp;¶ Cocudouo foroboſu. *Destruir reinos,* |  |
 | `c1-l017` | &emsp;*& terras.* |  |
 | `c1-l018` | Cocudo. Curoi tçuchi. *Terra preta.* |  |
 | `c1-l019` | Cocufẽzzu. *Certa laya de grãos pretos, ou feijões.* |  |
 | `c1-l020` | Cocufi. Curocaua. *Pelle preta.* |  |
 | `c1-l021` | Cocufǒ. Cuni, cuni. *Reinos.* |  |
 | `c1-l022` | Cocù fǒcai. *Eſpaço ſem termino como ar q̃ eſta* |  |
-| `c1-l023` | &emsp;*entre ceo, & terra. i. Todo mũdo. Vt,* |  |
-| `c1-l024` | &emsp;Cocù fǒcaina cotouo yǔ. *Dizer varias* |  |
+| `c1-l023` | &emsp;*entre ceo, & terra.* i. *Todo mũdo. Vt,* |  |
+| `c1-l024` | &emsp;Cocù fǒcaina cotouo yù. *Dizer varias* |  |
 | `c1-l025` | &emsp;*couſas ſẽ fundamento, nem ordem, nem razão.* |  |
-| `c1-l026` | Cocufu. Cunino fu. *Cidade principal, ou ca-* |  |
+| `c1-l026` | Cocufu. Cunino fu. *Cidade principal, ou ca* |  |
 | `c1-l027` | &emsp;*beça dalgum reino.* |  |
-| `c1-l028` | Cocufù. *Cuſtume do reino.* |  |
+| `c1-l028` | Cocufù. *Custume do reino.* |  |
 | `c1-l029` | Cocuga. i. Cuquereǒ. *Renda, ou terras* |  |
-| `c1-l030` | &emsp;*que antiguamente tinhão os Cuques. ¶ Itẽ,* |  |
-| `c1-l031` | &emsp;Cocugai. Xococuno fuchu. *Cidade prin-* |  |
+| `c1-l030` | &emsp;*que antiguamente tinhão os Cugues. ¶ Itẽ,* |  |
+| `c1-l031` | &emsp;Cocugai. Xococuno fuchù. *Cidade prin* |  |
 | `c1-l032` | &emsp;*cipal de todo reino.* |  |
 | `c1-l033` | Cocuguen. Toqi, caguiri. *Hora, & ter-* |  |
 | `c1-l034` | &emsp;*mino, ou tempo determinado.* |  |
-| `c1-l035` | Cocugun. Cuni, cǒri. *Reino, & parte,* |  |
+| `c1-l035` | Cocugun. Cuni, côri. *Reino, & parte,* |  |
 | `c1-l036` | &emsp;*ou comarca do reino.* |  |
 | `c1-l037` | Cocugiô. i. Yeri qizamu. *Eſculpir, ou abrir* |  |
 | `c1-l038` | &emsp;*em metal, pao, &c.* |  |
-| `c1-l039` | Cocu-i. Cunino cufuxi. i. Tai-i. *Fiſico* |  |
-| `c1-l040` | &emsp;*mór do Rei.* |  |
+| `c1-l039` | Cocu-i. Cunino cuſuxi. i. Tai-i. *Fiſico* |  |
+| `c1-l040` | &emsp;*mòr do Rei.* |  |
 | `c1-l041` | Cocu-i. *Sinal que ſe imprime em algum metal,* |  |
-| `c1-l042` | &emsp;*pao, &c. ¶* Cocu-iuo vtçu. *Impri-* |  |
-| `c1-l043` | &emsp;*mir, ou por eſte ſinal. ¶ Item, Alicubi,* |  |
+| `c1-l042` | &emsp;*pao, &c. ¶* Cocu-i,uo vtçu. *Impri-* |  |
+| `c1-l043` | &emsp;*mir, ou por este ſinal. ¶ Item, Alicubi.* |  |
 | `c1-l044` | &emsp;*hum pao que metem por Marco, & limite de* |  |
 | `c1-l045` | &emsp;*baxo da terra entre dous chãos, ou campos.* |  |
 | `c1-l046` | Cocu-in. Curoi voxite. *Marca, ou ſinete* |  |
