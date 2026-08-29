@@ -125,10 +125,15 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l045` | Cǒqiǒ. Couaqu, tçuyoxi. *Homem forte,* |  |
 | `c2-l046` | &emsp;*& rijo. ¶* Cǒqiǒna. *Idem.* |  |
 | `c2-l047` | Cǒqiǒ. Furufito. *Patria. Vt,* Coqiǒ bõ |  |
-| `c2-l048` | &emsp;ji- |  |
 
 ## Printed signature mark
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `s-l001` | **P 2** |  |
+
+## Catchword
+
+| Physical line | Main position | Far right |
+| --- | --- | --- |
+| `cw-l001` | **ji-** |  |
