@@ -14,7 +14,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | &emsp;*e os* Fotoques, *ou às almas dos defuntos.* |  |
+| `c1-l001` | &emsp;*te do* Fotoqe, *ou às almas dos defuntos.* |  |
 | `c1-l002` | Cujet. i. Cǒjet. *Boca, & lingua.* Cujet |  |
 | `c1-l003` | &emsp;no qiita fito. *Homem que pratica bem, ou* |  |
 | `c1-l004` | &emsp;*eloquentemente.* |  |
@@ -56,7 +56,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l040` | Cuma. *Neuo a, ou ſombra que encobre a lũa.* |  |
 | `c1-l041` | &emsp;*Vt,* Itamano meuo tçuqicagueua cuma- |  |
 | `c1-l042` | &emsp;moracatta. Feiq*. Lib. 1. A lũa que* |  |
-| `c1-l043` | &emsp;*entraua por antre as taboas não tinha ſõura nẽ* |  |
+| `c1-l043` | &emsp;*entraua per antre as taboas não tinha ſõura nẽ* |  |
 | `c1-l044` | &emsp;*neuo a. ¶ Item, Sombras da pintura. ¶* Cu- |  |
 | `c1-l045` | &emsp;madoriuo ſuru. *Pintar, ou fazer eſtas ſombras.* |  |
 | `c1-l046` | Cumabiqi. *Hum peixe grande feio.* |  |
@@ -120,4 +120,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l045` | &emsp;*&c. com hũas faſquias pegadas, & trauadas,* |  |
 | `c2-l046` | &emsp;*ou cruzadas hũas com outras.* |  |
 | `c2-l047` | Cumi iri, u, itta. *Entrar a corda pella carne* |  |
-| `c2-l048` | &emsp;*com* |  |
+
+## Catchword
+
+| Physical line | Main position | Far right |
+| --- | --- | --- |
+| `cw-l001` |  | *com* |

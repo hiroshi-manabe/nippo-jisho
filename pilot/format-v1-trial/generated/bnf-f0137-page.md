@@ -125,10 +125,15 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l045` | Cudari, u, atta. *Decer, ou ir do* Miyaco *a* |  |
 | `c2-l046` | &emsp;*outro lugar.* |  |
 | `c2-l047` | Cudari cacari, u, atta. *Decendo dar, ou cair* |  |
-| `c2-l048` | &emsp;*ſobre* |  |
 
 ## Printed signature
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `s-l001` | **Q 3** |  |
+
+## Catchword
+
+| Physical line | Main position | Far right |
+| --- | --- | --- |
+| `cw-l001` |  | *ſobre* |

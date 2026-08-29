@@ -125,4 +125,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l045` | &emsp;*tes de toda creatura.* |  |
 | `c2-l046` | Cujacu. *Pauão.* |  |
 | `c2-l047` | Cùjen. *Meſa com comer que ſe offerece dian* |  |
-| `c2-l048` |  | *te d* |
+
+## Catchword
+
+| Physical line | Main position | Far right |
+| --- | --- | --- |
+| `cw-l001` |  | *te d.* |
