@@ -19,9 +19,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l003` | Côtai. Nochino yo. *Idades futuras. Vt,* |  |
 | `c1-l004` | &emsp;Côtaini nauo noçoſu, l, aguru. *Deixar* |  |
 | `c1-l005` | &emsp;*fama, ou nome aos vindouros.* |  |
-| `c1-l006` | Côtai. Tacai vtena. *Aſſento, ou trono alto.* |  |
+| `c1-l006` | Cǒtai. Tacai vtena. *Aſſento, ou trono alto.* |  |
 | `c1-l007` | Côtama. i. Yamabico. *Eco dos montes.* |  |
-| `c1-l008` | Cotan. Torano qimo. *Boſes, ou figado de* |  |
+| `c1-l008` | Cotan. Torano qimo. *Bofes, ou figado de* |  |
 | `c1-l009` | &emsp;*tigre.* |  |
 | `c1-l010` | Cotatçu. *Certa cubertura feita de pao que ſe* |  |
 | `c1-l011` | &emsp;*poem ſobre hum fogão, pera ſe aquentarem no* |  |
@@ -33,7 +33,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l017` | &emsp;*de hũa parte, ou membro em outro.* |  |
 | `c1-l018` | Cotçutçumi. *Hũs papeis em que emburulhão* |  |
 | `c1-l019` | &emsp;*varios cheiros.* |  |
-| `c1-l020` | Cotdô. Fonenodô. i. Foneuo veſtimuru dô. |  |
+| `c1-l020` | Cotdǒ. Fonenodǒ. i. Foneuo veſtimuru dô. |  |
 | `c1-l021` | &emsp;*Carneiro, ou caſa onde ſe enterra a eſpada de cor-* |  |
 | `c1-l022` | &emsp;*pos mortos.* |  |
 | `c1-l023` | Cote. *Certo modo de amarrar homẽs pellos col-* |  |
@@ -42,8 +42,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l026` | &emsp;*pellos collos das mãos.* |  |
 | `c1-l027` | Cote. *Braçelete de armas.* |  |
 | `c1-l028` | Cote. *Colher de barrar as paredes.* |  |
-| `c1-l029` | Côtei. Tacaqi, l, fiqixi. *Alto, & baixo.* |  |
-| `c1-l030` | Côten. Tacai ten. *Ceo alto.* |  |
+| `c1-l029` | Cǒtei. Tacaqi, l, fiqixi. *Alto, & baixo.* |  |
+| `c1-l030` | Cǒten. Tacai ten. *Ceo alto.* |  |
 | `c1-l031` | Côtenno boxet. *Oitaua, & ultima viſta q̃* |  |
 | `c1-l032` | &emsp;*he o chouuer da neue em hum certo lugar celebre* |  |
 | `c1-l033` | &emsp;*da China.* |  |
@@ -83,14 +83,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l008` | &emsp;*meſmo Ventre.* |  |
 | `c2-l009` | Cotô. *Bronzo. Vt,* Cotôncemono. *Cou-* |  |
 | `c2-l010` | &emsp;*ſa feita de bronzo.* |  |
-| `c2-l011` | Côtô. Yeno ſotori. *Borda do rio, ou enſeada* P*.* |  |
+| `c2-l011` | Côtǒ. Yeno ſotori. *Borda do rio, ou enſeada* P*.* |  |
 | `c2-l012` | Côtô. *Certa dignidade dos cegos. Item, Cer-* |  |
 | `c2-l013` | &emsp;*ta dignidade que o* Dairi *concede aos Bon-* |  |
 | `c2-l014` | &emsp;*zos de* xôdô. |  |
-| `c2-l015` | Côtô. *Obſeruancia de regras na policia. Vt,* |  |
-| `c2-l016` | &emsp;Côtôna fito. *Homem obſeruante, &* |  |
+| `c2-l015` | Côtǒ. *Obſeruancia de regras na policia. Vt,* |  |
+| `c2-l016` | &emsp;Côtǒna fito. *Homem obſeruante, &* |  |
 | `c2-l017` | &emsp;*regular nas leis de policia.* |  |
-| `c2-l018` | Côtô. *Pecegueiro de flor vermelha.* |  |
+| `c2-l018` | Côtǒ. *Pecegueiro de flor vermelha.* |  |
 | `c2-l019` | Coto. *Couſa, ou palaura.* |  |
 | `c2-l020` | Coto. *Crauo de tanger de Iapão.* |  |
 | `c2-l021` | Cotoba. *Palaura. ¶* Cotobauo cauaſu. |  |

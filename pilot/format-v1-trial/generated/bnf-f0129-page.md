@@ -14,10 +14,10 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | Côrô. *Vſubice, & experiencia. ¶* Côrô |  |
+| `c1-l001` | Corǒ. *Vſubice, & experiencia. ¶* Corǒ |  |
 | `c1-l002` | &emsp;no jin. *Homem antigo, & experimentado.* |  |
-| `c1-l003` | Côro. *Perſunador.* |  |
-| `c1-l004` | Côrô. Tora, vôcame. *Tigre, & lobo.* |  |
+| `c1-l003` | Cǒro. *Perſunador.* |  |
+| `c1-l004` | Corǒ. Tora, vôcame. *Tigre, & lobo.* |  |
 | `c1-l005` | Corobacaxi, ſu, aita. *Fazer correr como bo-* |  |
 | `c1-l006` | &emsp;*la, ou pedra por monte a baxo. ¶ Item,* |  |
 | `c1-l007` | &emsp;*Fazer cair, ou derribar.* |  |
@@ -41,7 +41,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l025` | &emsp;*veſtido.* |  |
 | `c1-l026` | Coromogaye. *P. O mudar o habito, ou veſ-* |  |
 | `c1-l027` | &emsp;*tidono eſtio.* |  |
-| `c1-l028` | Coron. *Contenda de palauras.* |  |
+| `c1-l028` | Côron. *Contenda de palauras.* |  |
 | `c1-l029` | Coronobi. *Vt,* Coronobiru. *Palaura de* |  |
 | `c1-l030` | &emsp;*liuro. Eſtèder o corpo, ou eſpreguiçar ſe. A pa-* |  |
 | `c1-l031` | &emsp;*laura corrente he.* Nobiuo ſuru. |  |
@@ -56,7 +56,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l040` | &emsp;*gue. i. Chorar muito, & com grande dor.* |  |
 | `c1-l041` | &emsp;¶ Côruini xizzumu. *Chorar, & pran-* |  |
 | `c1-l042` | &emsp;*tear com grande dor, & triſteza.* |  |
-| `c1-l043` | Côſacu. Tagayexi tçucuru. *Lauar vár-* |  |
+| `c1-l043` | Cǒſacu. Tagayexi tçucuru. *Lauar vár-* |  |
 | `c1-l044` | &emsp;*zeas, ou cultiuar os campos.* |  |
 | `c1-l045` | Coſacu. *Obra antigua.* |  |
 | `c1-l046` | Coſacuna. *Diz ſe de hum menino que faz* |  |
@@ -78,31 +78,31 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | Côſacunin. *Laurador.* |  |
+| `c2-l001` | Cǒſacunin. *Laurador.* |  |
 | `c2-l002` | Coſai. Comacani yu coto. *O dizer larga,* |  |
 | `c2-l003` | &emsp;*ou miudamente. ¶* Coſaini voyobazu. |  |
 | `c2-l004` | &emsp;*Não ha pera que arrezoar muito em particu-* |  |
 | `c2-l005` | &emsp;*lar.* S*.* |  |
 | `c2-l006` | Coſame. Sotto furu ame. *Chaua miuda, ou* |  |
 | `c2-l007` | &emsp;*pequena.* |  |
-| `c2-l008` | Côſan. Cudari mairu. *Renderſe ao inimi-* |  |
-| `c2-l009` | &emsp;*go. ¶* Côſan ſuru. *Rendendoſe pedir* |  |
+| `c2-l008` | Cǒſan. Cudari mairu. *Renderſe ao inimi-* |  |
+| `c2-l009` | &emsp;*go. ¶* Cǒſan ſuru. *Rendendoſe pedir* |  |
 | `c2-l010` | &emsp;*miſericordia à parte dos inimigos.* |  |
-| `c2-l011` | Côſar. Tacaſi ſuiriô. *Conjeitura falando de peſ-* |  |
+| `c2-l011` | Cǒſar. Tacaſi ſuiriô. *Conjeitura falando de peſ-* |  |
 | `c2-l012` | &emsp;*ſoa nobre.* |  |
-| `c2-l013` | Côſat. Taca ſuda. *Lei, ou prohibição que ſe* |  |
+| `c2-l013` | Cǒſat. Taca ſuda. *Lei, ou prohibição que ſe* |  |
 | `c2-l014` | &emsp;*poem eſcrita nos caminhos.* |  |
-| `c2-l015` | Coſô. Care cuſa. *Erva ſeca.* |  |
-| `c2-l016` | Coſô. Torano tçume. *Vnhas de tigre.* |  |
-| `c2-l017` | Côſô. Yoi yoſouoi, l, ſugata. *Bom ſembran-* |  |
+| `c2-l015` | Coſǒ. Care cuſa. *Erva ſeca.* |  |
+| `c2-l016` | Coſǒ. Torano tçume. *Vnhas de tigre.* |  |
+| `c2-l017` | Cǒſǒ. Yoi yoſouoi, l, ſugata. *Bom ſembran-* |  |
 | `c2-l018` | &emsp;*te, ou boa aparencia, & ornato. ¶ Item,* |  |
 | `c2-l019` | &emsp;*Boa aparencia de qualquer outra couſa.* S*.* |  |
-| `c2-l020` | &emsp;¶ Côſôna, l, côſônaru coto. *Idem.* |  |
-| `c2-l021` | Côſô. Tacaqi ſijiri. Bôzo *honrrado de dig-* |  |
+| `c2-l020` | &emsp;¶ Cǒſǒna, l, côſǒnaru coto. *Idem.* |  |
+| `c2-l021` | Cǒſô. Tacaqi ſijiri. Bôzo *honrrado de dig-* |  |
 | `c2-l022` | &emsp;*nidade.* |  |
 | `c2-l023` | Coſo. *Adu. Antes, l, Potius. As ve-* |  |
 | `c2-l024` | &emsp;*zes ſe vſa ſomente por elegancia. Vt,* Ca- |  |
-| `c2-l025` | &emsp;tajiqenô coſo gozare. |  |
+| `c2-l025` | &emsp;tajiqenǒ coſo gozare. |  |
 | `c2-l026` | Coſobai, l, coſobai. *O ter, ou ſentir coſegas.* |  |
 | `c2-l027` | &emsp;Coſobaiſa. |  |
 | `c2-l028` | &emsp;Coſobayũ. |  |
@@ -113,7 +113,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l033` | Coſode. *Veſtido de ſeda, ou* Tçu mugui. |  |
 | `c2-l034` | Coſogue, uru, eta. *Raſpar.* |  |
 | `c2-l035` | Coſoguri, uru, utta. *Fazer coſegas.* |  |
-| `c2-l036` | Côſon. Yenomura. *Pouoação que eſtà na en-* |  |
+| `c2-l036` | Cǒſon. Yenomura. *Pouoação que eſtà na en-* |  |
 | `c2-l037` | &emsp;*ſeada, ou braço do mar.* |  |
 | `c2-l038` | Coſu. *P. iudare. Eſteiras de janela.* |  |
 | `c2-l039` | Coſui. Mizzuumino mizzu. i. Mizzu vmi. |  |
