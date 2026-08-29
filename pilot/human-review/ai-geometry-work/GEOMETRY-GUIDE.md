@@ -1,6 +1,8 @@
-# External-AI geometry guide
+# Legacy external-AI geometry guide
 
-The goal is not a regular grid. The goal is an isolated image from which the complete assigned physical line can actually be read.
+This document records the acceptance rules used by the external-AI workflow retired on 2026-08-30. It is preserved to explain historical return files and imported provenance, not as an active assignment.
+
+The goal was not a regular grid. The goal was an isolated image from which the complete assigned physical line could actually be read.
 
 Initial rectangles are proposals reconstructed by the existing project process and may be horizontally or vertically wrong. A line can be correctly identified while its first or last glyph remains outside the rectangle. The f31 return demonstrated this failure in column 2: many right-hand endings were clipped even though its vertical positions were useful.
 

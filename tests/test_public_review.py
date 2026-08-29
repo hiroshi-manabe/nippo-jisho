@@ -50,51 +50,26 @@ class PublicReviewRegressionTests(unittest.TestCase):
         self.assertIsNone(alternate_tilde_carrier("Gõye", 1))
         self.assertIsNone(alternate_tilde_carrier("casa", 1))
 
-    def test_paused_external_ai_task_packages_remain_structurally_valid(self):
+    def test_legacy_external_ai_archive_has_inputs_for_every_return(self):
         work = ROOT / "pilot" / "human-review" / "ai-geometry-work"
-        expected_pages = [f"bnf-f{number:04d}" for number in range(101, 238)] + [
-            "bnf-f0248",
-            "bnf-f0249",
-            "bnf-f0250",
-            "bnf-f0643",
-        ]
-        expected_flags = {
-            "bnf-f0149/c1b-l001",
-            "bnf-f0153/c1b-l001",
-            "bnf-f0155/c1b-l001",
-            "bnf-f0160/c1f-l001",
-            "bnf-f0181/c1b-l001",
-            "bnf-f0186/c1b-l001",
-            "bnf-f0204/c1b-l001",
-            "bnf-f0216/c2b-l001",
-            "bnf-f0230/c1b-l001",
+        returned = sorted(
+            work.glob("bnf-f[0-9][0-9][0-9][0-9]-*.json")
+        )
+        self.assertTrue(returned)
+        returned_pages = {path.name[:9] for path in returned}
+        self.assertEqual(
+            returned_pages,
+            {f"bnf-f{number:04d}" for number in range(31, 126)},
+        )
+        base_pages = {
+            path.stem
+            for path in work.glob("bnf-f[0-9][0-9][0-9][0-9].json")
         }
-        line_count = 0
-        actual_flags = set()
-        for page_id in expected_pages:
+        self.assertEqual(base_pages, returned_pages)
+        for page_id in returned_pages:
             record = json.loads((work / f"{page_id}.json").read_text(encoding="utf-8"))
             self.assertEqual(record["page"], page_id)
             self.assertEqual(record["default_response_mode"], "geometry_and_text")
-            self.assertEqual(
-                record["response_status"], "pending_independent_ai_line_review"
-            )
-            self.assertIn("geometry_and_text", record["completion_statuses"])
-            self.assertIn("geometry_only_fallback", record["completion_statuses"])
-            source = ROOT / record["transcription_source"]["page_file"]
-            self.assertTrue(source.is_file())
-            seen = set()
-            for column in record["columns"].values():
-                for line in column["lines"]:
-                    self.assertNotIn(line["id"], seen)
-                    seen.add(line["id"])
-                    self.assertIsNone(line["observed_text"])
-                    self.assertEqual(line["match"], "pending")
-                    self.assertEqual(line["assessment"], "pending")
-                    if line.get("validation_flags"):
-                        actual_flags.add(f"{page_id}/{line['id']}")
-            line_count += len(seen)
-        self.assertEqual(line_count, 13_253)
-        self.assertEqual(actual_flags, expected_flags)
 
     def test_geometry_only_import_requires_explicit_opt_in(self):
         review = ROOT / "pilot" / "human-review" / "ai-geometry-work" / "bnf-f0042-reviewed.json"

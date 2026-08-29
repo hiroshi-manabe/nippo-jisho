@@ -1,6 +1,6 @@
-# External-AI response format
+# Legacy external-AI response format
 
-This reference defines how to record the result. The assignment and its acceptance standard are in [README.md](README.md); visual crop decisions are covered by [GEOMETRY-GUIDE.md](GEOMETRY-GUIDE.md).
+This frozen reference defines the response format used by the external-AI workflow retired on 2026-08-30. It remains solely to interpret archived task and return files. The former assignment and its archival boundary are in [README.md](README.md); visual crop decisions are covered by [GEOMETRY-GUIDE.md](GEOMETRY-GUIDE.md).
 
 ## Default mode
 
@@ -40,7 +40,7 @@ Expected line IDs are stable references. Do not renumber them, silently shift th
 
 The response pins both the source image and canonical transcription with hashes. Do not edit those hashes. If the canonical text changes while a review is in progress, the project must rebase or regenerate the task before import.
 
-The prepared base-task collection covers `f31`–`f237`, `f248`–`f250`, and `f643`. A base JSON file remains after review and therefore does not indicate that a page is still pending.
+The preserved base-task collection covers `f31`–`f125`, exactly the pages for which a returned review artifact exists. A base JSON file is archived as the input to that historical return and does not indicate pending work. Unused prepared tasks outside this range were deleted at retirement.
 
 ## Examples
 
@@ -49,4 +49,4 @@ Use the [example guide](../ai-geometry-examples/README.md) to keep two distinct 
 - [`bnf-f0053-reviewed.json`](bnf-f0053-reviewed.json) is the recommended model for real independent reading, visible disagreement, explicit uncertainty, and exceptional crop judgment;
 - [`../ai-geometry-examples/bnf-f0030.json`](../ai-geometry-examples/bnf-f0030.json) is only the current structural and coordinate specimen. Its readings were copied from the canonical transcription and are not review evidence.
 
-The f53 return predates the explicit `geometry_review_status`, `text_review_status`, and `geometry_action` fields. New work must still supply every field required by this document; do not reproduce that legacy omission.
+The f53 return predates the explicit `geometry_review_status`, `text_review_status`, and `geometry_action` fields. That omission is part of the archived record; this document no longer defines a live submission path.

@@ -1,6 +1,6 @@
 # External-AI import and provenance log
 
-This is project-maintainer documentation. It is not part of the external reviewer’s normal assignment.
+The external-AI workflow was retired on 2026-08-30. This is frozen project-maintainer provenance for the returned and imported work; it is not a current assignment or queue.
 
 ## Import policy
 
@@ -16,9 +16,9 @@ If the canonical transcription changed after a completed response was prepared, 
 
 ## Task-record coverage
 
-Base task records are retained for `f31`–`f237`, `f248`–`f250`, and `f643`, including returned and imported pages. The complete set contains 211 pages and 19,825 body lines. At preparation time, each task had exact page coverage, unique line IDs, current source-image and transcription hashes, in-bounds rectangles, null independent readings, and pending judgments.
+Base task records are retained for `f31`–`f125`, the 95 pages for which at least one returned review artifact exists. At preparation time, each task had exact page coverage, unique line IDs, source-image and transcription hashes, in-bounds rectangles, null independent readings, and pending judgments. These base records are preserved because they are the inputs against which the returns must be interpreted.
 
-The later prepared range `f101`–`f237`, `f248`–`f250`, and `f643` contains 141 pages and 13,253 body lines. A file’s presence does not establish its current workflow state; consult its response status, reviewed variants, and import history.
+Every returned variant is retained, including incomplete, rejected, superseded, and resumed files. Unused prepared base tasks outside `f31`–`f125` were deleted at retirement instead of being carried as a stale future queue. A file’s archived `pending` status describes its historical state and does not represent current work.
 
 ## Imported batches
 
@@ -99,7 +99,7 @@ dourar.`, above the `Cõdô...cõfor-` row; it is not a separate body line. The
 canonical record now preserves the mark and word as named far-right spans on
 `c2-l008`, removes the fictitious row, and rebases column 2 to 47 physical line
 IDs. The completed column-1 evidence is preserved in the resumed response;
-regenerated column 2 remains pending external line-by-line review.
+regenerated column 2 remained incomplete when the external workflow was retired. Any future correction must proceed through the current project-side or human-review workflow rather than resuming this frozen task.
 
 The completed reviewed-file SHA-256 values are
 `7b9e71d79a26ee7c7240ae04d6126e701da7e14b1e93e21e6025b2a1d07ee767`

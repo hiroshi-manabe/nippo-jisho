@@ -1,6 +1,6 @@
 # Project Status
 
-Last updated: 2026-08-04
+Last updated: 2026-08-30
 
 ## Current phase
 
@@ -11,6 +11,8 @@ The transcription-format pilot is complete. The project adopted Level 1 Markdown
 The detailed purpose, method, and completion criteria are defined in the [Transcription-Format Pilot](docs/transcription-format-pilot.md).
 
 The complete native-resolution Gallica image sequence has been acquired and checksum-verified. The result is recorded in [Acquisition Summary](sources/acquisition-summary.yaml). A separate [Cloudflare scan-image mirror](docs/image-mirror.md) publishes every native leaf together with 1000px and 2200px derivatives for stable review-interface delivery; Gallica remains the canonical source and numbering authority. Image delivery does not change the transcription pilot’s current checkpoint.
+
+The external-AI geometry-and-text delegation experiment is formally retired. Returned reviews, superseded returns, matching task inputs for `f31`–`f125`, and the protocol/import documentation remain as a [legacy provenance archive](pilot/human-review/ai-geometry-work/README.md). Unused prepared assignments and image ZIPs outside that returned-review range were deleted. New pages now use project-side line-by-line transcription and geometry capture; later human correction continues through the public review interface and GitHub Issues.
 
 The first timed second-pass trial is complete. The [Tiled Visual Review Pilot](docs/tiled-visual-review.md) now records overlapping quarter-column and sixth-column views as a workable review method, and the page-level evidence is preserved in the [bnf-f0248 Second Visual Pass](pilot/second-pass/bnf-f0248.md). A revised [Pilot Diacritic Audit](pilot/diacritic-audit.md) distinguishes 30 carons, five genuine circumflexes, one grave accent, and one unmarked form among 37 flagged occurrences across two frozen pages.
 
