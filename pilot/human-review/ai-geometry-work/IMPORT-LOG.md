@@ -79,6 +79,36 @@ concern only the unresolved `st`/`ſt` distinction and remain unchanged for the
 dedicated human glyph audit. The f88 proposal `Carpírſe` was not applied because
 the scan shows an ordinary undiacritized `i`.
 
+### f121–f125 line-by-line reviews
+
+Fresh geometry-and-text returns for f121–f124 were imported on 2026-08-29.
+All 380 body-line rectangles passed exact line-ID, source-image, bounds, and
+context-containment validation and are recorded as `ai_line_by_line_checked`.
+The f123 return correctly found that both provisional columns were associated
+roughly one printed row too low and supplied line-specific corrected vertical
+rectangles. The other three completed pages retained their proposed geometry.
+The f121, f123, and f124 geometry was imported with explicit transcription-drift
+acknowledgement because separately adjudicated canonical text had changed since
+task creation; exact current line coverage was unchanged. The advisory textual
+differences were predominantly explicitly uncertain readings and were not used
+to overwrite the newer canonical text.
+
+The f125 return correctly stopped at a genuine lineation discrepancy. The scan
+prints `(midade.` at the far right of the same physical row as `mo tinta pera
+dourar.`, above the `Cõdô...cõfor-` row; it is not a separate body line. The
+canonical record now preserves the mark and word as named far-right spans on
+`c2-l008`, removes the fictitious row, and rebases column 2 to 47 physical line
+IDs. The completed column-1 evidence is preserved in the resumed response;
+regenerated column 2 remains pending external line-by-line review.
+
+The completed reviewed-file SHA-256 values are
+`7b9e71d79a26ee7c7240ae04d6126e701da7e14b1e93e21e6025b2a1d07ee767`
+(f121), `4738a9957a2f006f9428189efdbbcbeebc76462af6e170abafa43d112ec65180`
+(f122), `224a4b82eb125106cb39ad69e918e5f929af22e4bc344f5a890767e0535c3594`
+(f123), and `3b98efc49981cb72f48dee74b14dcada01b66f7eb65ed0aca14de4afefab0905`
+(f124). The f125 resumed task hash is
+`61d44617f38c499fe6e73a674b09ec413c9b3aee5dc907640712afb068c37171`.
+
 ### f116 resumed line-by-line review
 
 The initial f116 return stopped correctly after discovering an omitted physical line between `c2-l003` and the then-current `c2-l004`. The project restored `Coboxi, ſu, oita. Entornar, ou derramar.`, rebased the remaining column-2 IDs through `c2-l047`, preserved the completed first-column evidence, and regenerated a column-2-only resume task. The completed return was imported on 2026-08-24. All 94 body-line rectangles passed exact line-ID, source-hash, bounds, and full-width validation and are recorded as `ai_line_by_line_checked`.

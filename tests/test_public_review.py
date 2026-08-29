@@ -97,7 +97,7 @@ class PublicReviewRegressionTests(unittest.TestCase):
                     if line.get("validation_flags"):
                         actual_flags.add(f"{page_id}/{line['id']}")
             line_count += len(seen)
-        self.assertEqual(line_count, 13_254)
+        self.assertEqual(line_count, 13_253)
         self.assertEqual(actual_flags, expected_flags)
 
     def test_geometry_only_import_requires_explicit_opt_in(self):
@@ -414,7 +414,7 @@ equal(q.align('foo, bar.', 'foo bar.').deletions.map(item => [item.character, it
         ]
         self.assertEqual(
             [page["id"] for page in pages],
-            [f"bnf-f{number:04d}" for number in range(31, 121)],
+            [f"bnf-f{number:04d}" for number in range(31, 126)],
         )
         for page in pages:
             for column in page["columns"].values():
@@ -467,6 +467,20 @@ equal(q.align('foo, bar.', 'foo bar.').deletions.map(item => [item.character, it
         }
         self.assertEqual(len([line for line in line_ids if line.startswith("c1-")]), 47)
         self.assertNotIn("c1-l048", line_ids)
+
+    def test_f125_displaced_continuation_is_not_a_fictitious_line(self):
+        record = json.loads(
+            (ROOT / "pilot" / "format-v1-trial" / "level1" / "bnf-f0125.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        column = next(zone for zone in record["zones"] if zone["id"] == "column-2")
+        self.assertEqual(len(column["lines"]), 47)
+        displaced_line = next(line for line in column["lines"] if line["id"] == "c2-l008")
+        displaced = [run for run in displaced_line["runs"] if run.get("placement") == "far-right"]
+        self.assertEqual([run.get("span_id") for run in displaced], ["mark", "word"])
+        self.assertEqual("".join(run["text"] for run in displaced), " (midade.")
+        self.assertEqual(column["lines"][-1]["id"], "c2-l047")
 
     def test_transcription_versions_and_rebase_controls(self):
         app = (ROOT / "site" / "app.js").read_text(encoding="utf-8")

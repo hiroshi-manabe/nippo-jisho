@@ -85,47 +85,46 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l005` | Condacu. Majiuari nigoru. *Miſturar algũa* |  |
 | `c2-l006` | &emsp;*couſa boa cõ outra ruim, ou ſem ordem.* S*.* |  |
 | `c2-l007` | Condei. Coganeno dei. *Ouro moido feito co-* |  |
-| `c2-l008` | &emsp;*mo tinta pera dourar.* |  |
+| `c2-l008` | &emsp;*mo tinta pera dourar.* |  *(midade.* |
 | `c2-l009` | Cõdô. Majiuari vonaju ſu. *Vnião, ou cõfor-* |  |
-| `c2-l010` | &emsp;*midade.* |  |
-| `c2-l011` | Condǒ. *Certa capella, ou ermida aſſi chamada.* |  |
-| `c2-l012` | Condo. Imano tabi. *Eſta vez. ¶ Item,* |  |
-| `c2-l013` | &emsp;*Depois, ou ao diante.* |  |
-| `c2-l014` | Cone, uru, eta. *Amaſſar como barro, pão,* |  |
-| `c2-l015` | &emsp;*&c. Vt,* Tçuchiuo conuru. *Amaſſar barro.* |  |
-| `c2-l016` | Cǒnen. Yuqu toxi. *Annos, ou idade q̃ vai* |  |
-| `c2-l017` | &emsp;*paſſando.* |  |
-| `c2-l018` | Cônen, l, Gonen. Nochino toxi. *Anno q̃* |  |
-| `c2-l019` | &emsp;*vem, ou idade futura.* |  |
-| `c2-l020` | Coneri. *Certa laya de figos bõs de Iapão.* |  |
-| `c2-l021` | Conguen. Ne, moto. *Raiz, & tronco.* |  |
-| `c2-l022` | &emsp;i. *Principio.* |  |
-| `c2-l023` | Conguentan. *Certa mezinha pera quando ſo-* |  |
-| `c2-l024` | &emsp;*be o ſangue à cabeça.* |  |
-| `c2-l025` | Congǒ. Cogane couaxi. *Subſtancia immor-* |  |
-| `c2-l026` | &emsp;*tal como materia prima, ou eſpiritu. Vt,* Cõ- |  |
-| `c2-l027` | &emsp;gǒno Xotaito yuua fini ittemo yaqezũ, |  |
-| `c2-l028` | &emsp;mizzuni ittemo voborenu mono nari. |  |
-| `c2-l029` | &emsp;*A natureza deſta ſubſtancia he que ainda que* |  |
-| `c2-l030` | &emsp;*entre no fogo não ſe queima, & na agoa não* |  |
-| `c2-l031` | &emsp;*ſe afoga. ¶* Congǒ ſuye. *Idem.* |  |
-| `c2-l032` | Congǒ. *Çapatos de palha.* |  |
-| `c2-l033` | Congon. Cogane, xirocane. *Ouro, & pra-* |  |
-| `c2-l034` | &emsp;*ta. Vt,* Congondǒ, l, congon ruri. *Por* |  |
-| `c2-l035` | &emsp;*que* Congon *ſomente não ſe vſa ſem mais al-* |  |
-| `c2-l036` | &emsp;*gũa compoſição.* |  |
-| `c2-l037` | Congǒdǒ. Cogane, xirocane, acagane. *Ou-* |  |
-| `c2-l038` | &emsp;*ro, prata, & cobre.* |  |
-| `c2-l039` | Congon ruri. Cogane, xirocane, auoi ta- |  |
-| `c2-l040` | &emsp;ma. *Ouro, prata, pedras precioſas azues.* |  |
-| `c2-l041` | &emsp;¶ Congon ruriuo xita monogia. *He* |  |
-| `c2-l042` | &emsp;*couſa feita de ouro, & azul. i. Ricamente.* |  |
-| `c2-l043` | Conguat. Imano tçuqi. *Eſte mez.* |  |
-| `c2-l044` | Congi. *Campo azul eſcuro de peças. Vt,* |  |
-| `c2-l045` | &emsp;Congino nixiqi. *Peças de borcadilho com* |  |
-| `c2-l046` | &emsp;*varios lauores em campo azul eſcuro.* |  |
-| `c2-l047` | Con-i. Nengorono cocoro. *Bom coração,* |  |
-| `c2-l048` | &emsp;*& amoroſo.* |  |
+| `c2-l010` | Condǒ. *Certa capella, ou ermida aſſi chamada.* |  |
+| `c2-l011` | Condo. Imano tabi. *Eſta vez. ¶ Item,* |  |
+| `c2-l012` | &emsp;*Depois, ou ao diante.* |  |
+| `c2-l013` | Cone, uru, eta. *Amaſſar como barro, pão,* |  |
+| `c2-l014` | &emsp;*&c. Vt,* Tçuchiuo conuru. *Amaſſar barro.* |  |
+| `c2-l015` | Cǒnen. Yuqu toxi. *Annos, ou idade q̃ vai* |  |
+| `c2-l016` | &emsp;*paſſando.* |  |
+| `c2-l017` | Cônen, l, Gonen. Nochino toxi. *Anno q̃* |  |
+| `c2-l018` | &emsp;*vem, ou idade futura.* |  |
+| `c2-l019` | Coneri. *Certa laya de figos bõs de Iapão.* |  |
+| `c2-l020` | Conguen. Ne, moto. *Raiz, & tronco.* |  |
+| `c2-l021` | &emsp;i. *Principio.* |  |
+| `c2-l022` | Conguentan. *Certa mezinha pera quando ſo-* |  |
+| `c2-l023` | &emsp;*be o ſangue à cabeça.* |  |
+| `c2-l024` | Congǒ. Cogane couaxi. *Subſtancia immor-* |  |
+| `c2-l025` | &emsp;*tal como materia prima, ou eſpiritu. Vt,* Cõ- |  |
+| `c2-l026` | &emsp;gǒno Xotaito yuua fini ittemo yaqezũ, |  |
+| `c2-l027` | &emsp;mizzuni ittemo voborenu mono nari. |  |
+| `c2-l028` | &emsp;*A natureza deſta ſubſtancia he que ainda que* |  |
+| `c2-l029` | &emsp;*entre no fogo não ſe queima, & na agoa não* |  |
+| `c2-l030` | &emsp;*ſe afoga. ¶* Congǒ ſuye. *Idem.* |  |
+| `c2-l031` | Congǒ. *Çapatos de palha.* |  |
+| `c2-l032` | Congon. Cogane, xirocane. *Ouro, & pra-* |  |
+| `c2-l033` | &emsp;*ta. Vt,* Congondǒ, l, congon ruri. *Por* |  |
+| `c2-l034` | &emsp;*que* Congon *ſomente não ſe vſa ſem mais al-* |  |
+| `c2-l035` | &emsp;*gũa compoſição.* |  |
+| `c2-l036` | Congǒdǒ. Cogane, xirocane, acagane. *Ou-* |  |
+| `c2-l037` | &emsp;*ro, prata, & cobre.* |  |
+| `c2-l038` | Congon ruri. Cogane, xirocane, auoi ta- |  |
+| `c2-l039` | &emsp;ma. *Ouro, prata, pedras precioſas azues.* |  |
+| `c2-l040` | &emsp;¶ Congon ruriuo xita monogia. *He* |  |
+| `c2-l041` | &emsp;*couſa feita de ouro, & azul. i. Ricamente.* |  |
+| `c2-l042` | Conguat. Imano tçuqi. *Eſte mez.* |  |
+| `c2-l043` | Congi. *Campo azul eſcuro de peças. Vt,* |  |
+| `c2-l044` | &emsp;Congino nixiqi. *Peças de borcadilho com* |  |
+| `c2-l045` | &emsp;*varios lauores em campo azul eſcuro.* |  |
+| `c2-l046` | Con-i. Nengorono cocoro. *Bom coração,* |  |
+| `c2-l047` | &emsp;*& amoroſo.* |  |
 
 ## Printed signature mark
 

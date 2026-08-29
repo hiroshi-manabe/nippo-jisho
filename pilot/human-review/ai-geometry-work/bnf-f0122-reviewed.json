@@ -1,0 +1,2074 @@
+{
+  "format": "nippo-ai-line-geometry-response",
+  "format_version": 1,
+  "page": "bnf-f0122",
+  "response_status": "completed_independent_ai_line_review",
+  "default_response_mode": "geometry_and_text",
+  "completion_statuses": {
+    "geometry_and_text": {
+      "geometry_review_status": "completed",
+      "text_review_status": "completed"
+    },
+    "geometry_only_fallback": {
+      "geometry_review_status": "completed",
+      "text_review_status": "not_completed"
+    }
+  },
+  "observed_text_provenance": "Every assigned physical body line that remains alignable to a stable task ID was read independently from the enlarged native scan before canonical comparison. Visible historical spelling, spacing, diacritics, long s, punctuation, and line division are preserved; uncertain glyphs and visible disagreements are retained rather than normalized.",
+  "coordinate_space": "native Gallica master pixels",
+  "rectangle_format": "[x, y, width, height]",
+  "geometry_acceptance": "Inspect every isolated crop at full practical size against the full page; confirm complete first and last glyphs and all top/bottom ink; do not infer horizontal completeness from line identity or vertical centering; then sweep each column top-to-bottom for repeated clipping, especially the outer/right edge of column 2. Conservative rule-to-rule width and necessary neighboring-line overlap are allowed.",
+  "text_acceptance": "Read the print independently before consulting the canonical line. Preserve visible historical spelling, spacing, diacritics, and long s; do not normalize, copy the canonical text, or guess merely to complete a field. Returned text is advisory until separately adjudicated against the scan.",
+  "lineation_discrepancy": "If the printed number or order of physical lines differs from the task, do not invent a blank continuation, shift IDs, or renumber the response. Mark the response incomplete and report the first divergence so the canonical lineation can be corrected and the task regenerated.",
+  "source": {
+    "filename": "f0122.jpg",
+    "width": 2721,
+    "height": 3893,
+    "sha256": "508d02473d7a2a637cb1a4367aa21bbcbfb0c758ce3a2d9020262e4a2a738513",
+    "gallica_url": "https://gallica.bnf.fr/ark:/12148/bpt6k852354j/f122.item"
+  },
+  "transcription_source": {
+    "page_file": "pilot/format-v1-trial/level1/bnf-f0122.json",
+    "page_file_sha256": "53c64311d79d2371b71f10a98c04222404a6bba7629f8a21363af9b485b9c8aa"
+  },
+  "columns": {
+    "column-1": {
+      "column_box_xyxy": [
+        340,
+        300,
+        1450,
+        3440
+      ],
+      "zone_ids": [
+        "column-1"
+      ],
+      "initial_geometry_provenance": "contact_sheet_reviewed",
+      "initial_geometry_reviewed_at": "2026-08-01",
+      "geometry_requires_line_by_line_review": true,
+      "lines": [
+        {
+          "id": "c1-l001",
+          "centre_y": 470,
+          "crop": [
+            340,
+            420,
+            1110,
+            100
+          ],
+          "context_crop": [
+            340,
+            300,
+            1110,
+            340
+          ],
+          "observed_text": "ſuadir aos outros como pera algũ folguedo, feſ-",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:5640a401bbec5a21886929e2779ef42114adf319fc64504774f3009d1ee685f0"
+        },
+        {
+          "id": "c1-l002",
+          "centre_y": 533,
+          "crop": [
+            340,
+            484,
+            1110,
+            98
+          ],
+          "context_crop": [
+            340,
+            363,
+            1110,
+            340
+          ],
+          "observed_text": "ta, &c. ¶ Aſobino côguiôuo ſuru.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:7d9578c9e1ec7dfc33503bd92adbff8c0e2175569403fbc73d987f071bab21f3"
+        },
+        {
+          "id": "c1-l003",
+          "centre_y": 596,
+          "crop": [
+            340,
+            546,
+            1110,
+            100
+          ],
+          "context_crop": [
+            340,
+            426,
+            1110,
+            340
+          ],
+          "observed_text": "Ex.itar pera algum folguedo, com fazerſe cõ-",
+          "match": "partial",
+          "assessment": "uncertain",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:75d2a3de6e9cbd832df2723db0892dba2cdcf89279e4a15deb83412e3f8844d6",
+          "note": "One or more glyphs or diacritics remain materially uncertain in the enlarged scan; observed_text preserves the independent visual reading without normalization."
+        },
+        {
+          "id": "c1-l004",
+          "centre_y": 659,
+          "crop": [
+            340,
+            610,
+            1110,
+            98
+          ],
+          "context_crop": [
+            340,
+            489,
+            1110,
+            340
+          ],
+          "observed_text": "mo cabeça, ou mordomo delle, &c.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:9ec10fa32e12e02eb4abd9e8e5605171249b888f85cd5fcc25029cc8fc12fa41"
+        },
+        {
+          "id": "c1-l005",
+          "centre_y": 722,
+          "crop": [
+            340,
+            672,
+            1110,
+            100
+          ],
+          "context_crop": [
+            340,
+            552,
+            1110,
+            340
+          ],
+          "observed_text": "Côguiô. Official de mãos como carpinteiro",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:a8cd416b2d39673995d7cd75960f068ab9e97d41966dd1fc31667b54933e8bb9"
+        },
+        {
+          "id": "c1-l006",
+          "centre_y": 786,
+          "crop": [
+            340,
+            736,
+            1110,
+            100
+          ],
+          "context_crop": [
+            340,
+            616,
+            1110,
+            340
+          ],
+          "observed_text": "caixeiro, &c.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:82ba608de3149ed58b6d67e63c85afeb8245936a9853dac9a7f6b21311cca75c"
+        },
+        {
+          "id": "c1-l007",
+          "centre_y": 849,
+          "crop": [
+            340,
+            800,
+            1110,
+            98
+          ],
+          "context_crop": [
+            340,
+            679,
+            1110,
+            340
+          ],
+          "observed_text": "Côguio. Yeno vuo. Peixe de enſeada.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:f4170723f28627dd61b6655110042892caabdfde29f28b797a7214b35b796c2a"
+        },
+        {
+          "id": "c1-l008",
+          "centre_y": 912,
+          "crop": [
+            340,
+            862,
+            1110,
+            100
+          ],
+          "context_crop": [
+            340,
+            742,
+            1110,
+            340
+          ],
+          "observed_text": "Coguiti, u, itta. Regatear no preço. Me-",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:9ce68b1e37890dfc97f4491f470497b49280ff47d40846d2701beac2ba101ac7"
+        },
+        {
+          "id": "c1-l009",
+          "centre_y": 975,
+          "crop": [
+            340,
+            926,
+            1110,
+            98
+          ],
+          "context_crop": [
+            340,
+            805,
+            1110,
+            340
+          ],
+          "observed_text": "lius. Nguiri, ru.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:8180be4b71ce36532631887435bbd85d304190ea876620c8c80e8bfad9badfe8"
+        },
+        {
+          "id": "c1-l010",
+          "centre_y": 1038,
+          "crop": [
+            340,
+            988,
+            1110,
+            100
+          ],
+          "context_crop": [
+            340,
+            868,
+            1110,
+            340
+          ],
+          "observed_text": "Coguitçuqi, u, uita. Ficar algũa couſa tor-",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:84e33a1f59e0b0ec6738f8317314a44fbf8c33f4a91c17c73dc12a2dcd5fc945"
+        },
+        {
+          "id": "c1-l011",
+          "centre_y": 1101,
+          "crop": [
+            340,
+            1052,
+            1110,
+            98
+          ],
+          "context_crop": [
+            340,
+            931,
+            1110,
+            340
+          ],
+          "observed_text": "rada, & pegada na panella ao fogo.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:bb6635bd900eb2b90926755dac5d8d932b16929ab30609d83b1bc8b7cfe5ca29"
+        },
+        {
+          "id": "c1-l012",
+          "centre_y": 1164,
+          "crop": [
+            340,
+            1114,
+            1110,
+            100
+          ],
+          "context_crop": [
+            340,
+            994,
+            1110,
+            340
+          ],
+          "observed_text": "Coguite. Remeiro.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:91588339e662974dfe706923f21218f9b4310a99e36f7520f50b362050e181a6"
+        },
+        {
+          "id": "c1-l013",
+          "centre_y": 1227,
+          "crop": [
+            340,
+            1178,
+            1110,
+            98
+          ],
+          "context_crop": [
+            340,
+            1057,
+            1110,
+            340
+          ],
+          "observed_text": "Coguiyoxe, ſuru, eta. Chegar a embarca-",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:f4ec34cac73350bbdeb5fafbefc905bd85baece3eae08d5244b87d55fbcf3057"
+        },
+        {
+          "id": "c1-l014",
+          "centre_y": 1290,
+          "crop": [
+            340,
+            1240,
+            1110,
+            100
+          ],
+          "context_crop": [
+            340,
+            1120,
+            1110,
+            340
+          ],
+          "observed_text": "ção remando.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:356b3e4d7bd967015d3b39c278e0d556a5867a6ec20476a5dc30b5c904458d4e"
+        },
+        {
+          "id": "c1-l015",
+          "centre_y": 1354,
+          "crop": [
+            340,
+            1304,
+            1110,
+            100
+          ],
+          "context_crop": [
+            340,
+            1184,
+            1110,
+            340
+          ],
+          "observed_text": "Cogo. Cojinno go. Sentença de algũ antigo.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:f28771b1180e62fa7d6002965ec5f1137a928ba3f3efda8972c8c085f2489c9b"
+        },
+        {
+          "id": "c1-l016",
+          "centre_y": 1417,
+          "crop": [
+            340,
+            1368,
+            1110,
+            98
+          ],
+          "context_crop": [
+            340,
+            1247,
+            1110,
+            340
+          ],
+          "observed_text": "Cogori. Hum certo conſerto como conſerua de",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:8b2978f287da794a09ba9cc766fd042925e49e60dd9888bc2b2e6f361716fd6b"
+        },
+        {
+          "id": "c1-l017",
+          "centre_y": 1480,
+          "crop": [
+            340,
+            1430,
+            1110,
+            100
+          ],
+          "context_crop": [
+            340,
+            1310,
+            1110,
+            340
+          ],
+          "observed_text": "peixe encaramelado que ſe faz no inuerno co-",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:2b58881a0983f2725fc91fb0b1c58d5e480f530d5496dcc13f907797d1d6c149"
+        },
+        {
+          "id": "c1-l018",
+          "centre_y": 1543,
+          "crop": [
+            340,
+            1494,
+            1110,
+            98
+          ],
+          "context_crop": [
+            340,
+            1373,
+            1110,
+            340
+          ],
+          "observed_text": "zido com miſo.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:7067a3ff6a745585fab4707ea0be17e1367fab68804f45666c41dce68ddab366"
+        },
+        {
+          "id": "c1-l019",
+          "centre_y": 1606,
+          "crop": [
+            340,
+            1556,
+            1110,
+            100
+          ],
+          "context_crop": [
+            340,
+            1436,
+            1110,
+            340
+          ],
+          "observed_text": "Cogoxi. Certa tecedura de hũas liſtras ao com-",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:5d445ad7f3ad5af4c4cc05aa6bcbe1f08e47a71bc78f245738c2ce5e5a954899"
+        },
+        {
+          "id": "c1-l020",
+          "centre_y": 1669,
+          "crop": [
+            340,
+            1620,
+            1110,
+            98
+          ],
+          "context_crop": [
+            340,
+            1499,
+            1110,
+            340
+          ],
+          "observed_text": "prido, & atrauesſadas.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:bda84031572299a7d864de7e6fa6698a81b64c8a8979d1ae1ab1b257123718bb"
+        },
+        {
+          "id": "c1-l021",
+          "centre_y": 1732,
+          "crop": [
+            340,
+            1682,
+            1110,
+            100
+          ],
+          "context_crop": [
+            340,
+            1562,
+            1110,
+            340
+          ],
+          "observed_text": "Cogoye. Voz baixa. Vt, Cogoyeni nat-",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:36cd528d5f0e9f2352879bae75b2db15a941dcf62505493ffbdf99814bf4405c"
+        },
+        {
+          "id": "c1-l022",
+          "centre_y": 1795,
+          "crop": [
+            340,
+            1746,
+            1110,
+            98
+          ],
+          "context_crop": [
+            340,
+            1625,
+            1110,
+            340
+          ],
+          "observed_text": "te môſu. Falar baixo.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:990f0aef5e9e5d09d162521241e399c644b6f62d4c1c4ec2c62d0fceb722189b"
+        },
+        {
+          "id": "c1-l023",
+          "centre_y": 1858,
+          "crop": [
+            340,
+            1808,
+            1110,
+            100
+          ],
+          "context_crop": [
+            340,
+            1688,
+            1110,
+            340
+          ],
+          "observed_text": "Cogoye, uru, eta. Enregelarſe com frio",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:4c201c1017c009bc0ef88358e4389ecd0f828d4cd975e2814da163ebdcafb84f"
+        },
+        {
+          "id": "c1-l024",
+          "centre_y": 1922,
+          "crop": [
+            340,
+            1872,
+            1110,
+            100
+          ],
+          "context_crop": [
+            340,
+            1752,
+            1110,
+            340
+          ],
+          "observed_text": "Vt, Axi, te cogoyeta. Eſtarem os pes, &",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:88411d48fdbdb0bf19e81efc6a8cfb1895e4b26aff4100c43a1df66851789da7"
+        },
+        {
+          "id": "c1-l025",
+          "centre_y": 1985,
+          "crop": [
+            340,
+            1936,
+            1110,
+            98
+          ],
+          "context_crop": [
+            340,
+            1815,
+            1110,
+            340
+          ],
+          "observed_text": "mãos enregeladas com frio.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:67771b1bff83e1b53295e946dd171e35e529b0260acbeed167bc511ad81b3e4f"
+        },
+        {
+          "id": "c1-l026",
+          "centre_y": 2048,
+          "crop": [
+            340,
+            1998,
+            1110,
+            100
+          ],
+          "context_crop": [
+            340,
+            1878,
+            1110,
+            340
+          ],
+          "observed_text": "Cogoyeni. Adu. Em voz baixa.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:2fe0e10a71b119c90beee87e31a91965a5d4173a62ef35731e9009b793b49d98"
+        },
+        {
+          "id": "c1-l027",
+          "centre_y": 2111,
+          "crop": [
+            340,
+            2062,
+            1110,
+            98
+          ],
+          "context_crop": [
+            340,
+            1941,
+            1110,
+            340
+          ],
+          "observed_text": "Côguai. Cuchino foca. i. Tagom. O fa-",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:eef0887ffc21293647d433f6b245ea93e72b356eb5fe8032607b0f1235ea3fad"
+        },
+        {
+          "id": "c1-l028",
+          "centre_y": 2174,
+          "crop": [
+            340,
+            2124,
+            1110,
+            100
+          ],
+          "context_crop": [
+            340,
+            2004,
+            1110,
+            340
+          ],
+          "observed_text": "lar a outros. Côguai anubecarazu. Não",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:ea5b945d6ea5645ba1f78651351f63d9aa6ab30a5bcec114dec211f88dd07c1b"
+        },
+        {
+          "id": "c1-l029",
+          "centre_y": 2237,
+          "crop": [
+            340,
+            2188,
+            1110,
+            98
+          ],
+          "context_crop": [
+            340,
+            2067,
+            1110,
+            340
+          ],
+          "observed_text": "faleis, ou digais a outro.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:ff0a2688e6d91b85aeb4af8e48a8e7b87a838984e8ae5abc6502324d4835f0ff"
+        },
+        {
+          "id": "c1-l030",
+          "centre_y": 2300,
+          "crop": [
+            340,
+            2250,
+            1110,
+            100
+          ],
+          "context_crop": [
+            340,
+            2130,
+            1110,
+            340
+          ],
+          "observed_text": "Coguchi. Bocado pequeno. ¶ Coguchi ni",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:027163e7101550983fc8bbfe1c54ba312422a7487b6b4f2e5d6650661d98bd05"
+        },
+        {
+          "id": "c1-l031",
+          "centre_y": 2363,
+          "crop": [
+            340,
+            2314,
+            1110,
+            98
+          ],
+          "context_crop": [
+            340,
+            2193,
+            1110,
+            340
+          ],
+          "observed_text": "cù. Comer tomando pequenos bocados.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:2f8dfdf1943b696ba015c367da4450aa4b7e49fe78a57570b9e07eed49cecb98"
+        },
+        {
+          "id": "c1-l032",
+          "centre_y": 2426,
+          "crop": [
+            340,
+            2376,
+            1110,
+            100
+          ],
+          "context_crop": [
+            340,
+            2256,
+            1110,
+            340
+          ],
+          "observed_text": "Coguchi. Torano cuchi. Batalha, ou encõ-",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:de668b13e190ae54363881a6d490c02420c4caaa675e1aa70f2b540659cff001"
+        },
+        {
+          "id": "c1-l033",
+          "centre_y": 2489,
+          "crop": [
+            340,
+            2440,
+            1110,
+            99
+          ],
+          "context_crop": [
+            340,
+            2319,
+            1110,
+            340
+          ],
+          "observed_text": "tro perigozo da guerra.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:ec5f107a41a55f9ebce44c2fc3345a89e2e4104914c48fedb87fe7e6a6bd0198"
+        },
+        {
+          "id": "c1-l034",
+          "centre_y": 2553,
+          "crop": [
+            340,
+            2503,
+            1110,
+            99
+          ],
+          "context_crop": [
+            340,
+            2383,
+            1110,
+            340
+          ],
+          "observed_text": "Coguitocu. Armas dos mẽbros tirado o corpo.",
+          "match": "partial",
+          "assessment": "uncertain",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:352bc8097322866d5c4fe2e440e6fec927de3401f49147b98f930347cf32f561",
+          "note": "One or more glyphs or diacritics remain materially uncertain in the enlarged scan; observed_text preserves the independent visual reading without normalization."
+        },
+        {
+          "id": "c1-l035",
+          "centre_y": 2616,
+          "crop": [
+            340,
+            2566,
+            1110,
+            100
+          ],
+          "context_crop": [
+            340,
+            2446,
+            1110,
+            340
+          ],
+          "observed_text": "Coguitui. Meizinha feita em pços.",
+          "match": "partial",
+          "assessment": "uncertain",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:ac73992d2b508bf8adb61c9a8e1866347c086f18d7c8e3ae9c5055863f720dbf",
+          "note": "One or more glyphs or diacritics remain materially uncertain in the enlarged scan; observed_text preserves the independent visual reading without normalization."
+        },
+        {
+          "id": "c1-l036",
+          "centre_y": 2679,
+          "crop": [
+            340,
+            2630,
+            1110,
+            98
+          ],
+          "context_crop": [
+            340,
+            2509,
+            1110,
+            340
+          ],
+          "observed_text": "Côgi. Chijai michi. Ruas, ou traueças",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:297d22dbc923ff365379812fd4388839a3da6a929aa74720aeb265e2524a390c"
+        },
+        {
+          "id": "c1-l037",
+          "centre_y": 2742,
+          "crop": [
+            340,
+            2692,
+            1110,
+            100
+          ],
+          "context_crop": [
+            340,
+            2572,
+            1110,
+            340
+          ],
+          "observed_text": "eſtreitas.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:4a376389b7051084465573e4df6deec5726748e541f0f9a6bfbe16d76b2ebc56"
+        },
+        {
+          "id": "c1-l038",
+          "centre_y": 2805,
+          "crop": [
+            340,
+            2756,
+            1110,
+            98
+          ],
+          "context_crop": [
+            340,
+            2635,
+            1110,
+            340
+          ],
+          "observed_text": "Cegi, zzuru, l, cogi aguru. A leuitar pe-",
+          "match": "partial",
+          "assessment": "uncertain",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:a22bef8f75080cd24618f7523ee355a5b7b84784a7ad1a449b6607ccef3d836c",
+          "note": "One or more glyphs or diacritics remain materially uncertain in the enlarged scan; observed_text preserves the independent visual reading without normalization."
+        },
+        {
+          "id": "c1-l039",
+          "centre_y": 2868,
+          "crop": [
+            340,
+            2818,
+            1110,
+            100
+          ],
+          "context_crop": [
+            340,
+            2698,
+            1110,
+            340
+          ],
+          "observed_text": "dra, ou outro peſo com lauança metendo de",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:cbd918d4122c346ea8ed68e179d5f727a8fe6d3548c5f240104a65210c6c34c2"
+        },
+        {
+          "id": "c1-l040",
+          "centre_y": 2931,
+          "crop": [
+            340,
+            2882,
+            1110,
+            98
+          ],
+          "context_crop": [
+            340,
+            2761,
+            1110,
+            340
+          ],
+          "observed_text": "baixo algũa cunha, pao, ou pedra ſobre que es-",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:414eb2c88320bf10968dafaf388f4682302528b4ce78a25bfac2389cc4a7b957"
+        },
+        {
+          "id": "c1-l041",
+          "centre_y": 2994,
+          "crop": [
+            340,
+            2944,
+            1110,
+            100
+          ],
+          "context_crop": [
+            340,
+            2824,
+            1110,
+            340
+          ],
+          "observed_text": "tribe a alauanca. ¶ Cogi fanaxi, ſu,",
+          "match": "partial",
+          "assessment": "uncertain",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:0ff2d5a78021ad603afc25c80bc5794a3da36f855646b6095766639d5fab8866",
+          "note": "One or more glyphs or diacritics remain materially uncertain in the enlarged scan; observed_text preserves the independent visual reading without normalization."
+        },
+        {
+          "id": "c1-l042",
+          "centre_y": 3057,
+          "crop": [
+            340,
+            3008,
+            1110,
+            99
+          ],
+          "context_crop": [
+            340,
+            2887,
+            1110,
+            340
+          ],
+          "observed_text": "Metendo algum pao, ou alauanca entre du-",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:bfe2117adf54cbaac005a125058bde21c5b68d8afd911244e9fab01c56d36fd1"
+        },
+        {
+          "id": "c1-l043",
+          "centre_y": 3121,
+          "crop": [
+            340,
+            3071,
+            1110,
+            99
+          ],
+          "context_crop": [
+            340,
+            2951,
+            1110,
+            340
+          ],
+          "observed_text": "as colũnas, taboas, &c. ſeparar hũa da outra.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:7686739da92ee6fcf300d14dad0eab775a5719fcd95db47da99466b6ac57d7cb"
+        },
+        {
+          "id": "c1-l044",
+          "centre_y": 3184,
+          "crop": [
+            340,
+            3134,
+            1110,
+            100
+          ],
+          "context_crop": [
+            340,
+            3014,
+            1110,
+            340
+          ],
+          "observed_text": "Côgiqi. Preço alto. ¶ Côgiqina coto.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:f528d3636f39c6e9920b1349b8b09bd34533c914a5dbabc3200a139d99aa7de6"
+        },
+        {
+          "id": "c1-l045",
+          "centre_y": 3247,
+          "crop": [
+            340,
+            3198,
+            1110,
+            98
+          ],
+          "context_crop": [
+            340,
+            3077,
+            1110,
+            340
+          ],
+          "observed_text": "Couſa cara, ou de alto preço.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:1858d5474fc114d5019d71a77322eed4cd9b5885fffe882cbbc1b413e4ef409f"
+        },
+        {
+          "id": "c1-l046",
+          "centre_y": 3310,
+          "crop": [
+            340,
+            3260,
+            1110,
+            100
+          ],
+          "context_crop": [
+            340,
+            3140,
+            1110,
+            300
+          ],
+          "observed_text": "Cogii. Cauino qono iia. Teſto, ou tigela de",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:eff6ce57f336af13b63e85ccc7ef3b08eccb061f283a0eb013edb2153c2a6bea"
+        },
+        {
+          "id": "c1-l047",
+          "centre_y": 3373,
+          "crop": [
+            340,
+            3324,
+            1110,
+            98
+          ],
+          "context_crop": [
+            340,
+            3203,
+            1110,
+            237
+          ],
+          "observed_text": "barro pequena que ſerue de copo.",
+          "match": "partial",
+          "assessment": "uncertain",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:a99eb185cdd5925e3eab31d8b51465094c2e41a22226c2154d03820deb6c581c",
+          "note": "One or more glyphs or diacritics remain materially uncertain in the enlarged scan; observed_text preserves the independent visual reading without normalization."
+        }
+      ]
+    },
+    "column-2": {
+      "column_box_xyxy": [
+        1500,
+        300,
+        2590,
+        3490
+      ],
+      "zone_ids": [
+        "column-2"
+      ],
+      "initial_geometry_provenance": "contact_sheet_reviewed",
+      "initial_geometry_reviewed_at": "2026-08-01",
+      "geometry_requires_line_by_line_review": true,
+      "lines": [
+        {
+          "id": "c2-l001",
+          "centre_y": 470,
+          "crop": [
+            1500,
+            420,
+            1090,
+            100
+          ],
+          "context_crop": [
+            1500,
+            300,
+            1090,
+            340
+          ],
+          "observed_text": "Coi. Amor, ou ſaudades ruins. ¶ Coi-",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:97eac3b6d1ead831c7dcde1b044edfd056114f614c35393d680d2ba4951f533a"
+        },
+        {
+          "id": "c2-l002",
+          "centre_y": 533,
+          "crop": [
+            1500,
+            484,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1500,
+            363,
+            1090,
+            340
+          ],
+          "observed_text": "uo ſuru. Ter amor, ou ſaudades laſciuas.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:5ef3d651f0a6f918f503bd09cb3551dd0126b4143c341021a56f6ccc46dd8566"
+        },
+        {
+          "id": "c2-l003",
+          "centre_y": 596,
+          "crop": [
+            1500,
+            546,
+            1090,
+            100
+          ],
+          "context_crop": [
+            1500,
+            426,
+            1090,
+            340
+          ],
+          "observed_text": "Coi, côri, coita. Amar ſenſualmente. ¶ Fi-",
+          "match": "partial",
+          "assessment": "uncertain",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:150bb889d355c73724a8d4e50d1042cffe3a6bd2b612fe46bfde4e45a9cef1bc",
+          "note": "One or more glyphs or diacritics remain materially uncertain in the enlarged scan; observed_text preserves the independent visual reading without normalization."
+        },
+        {
+          "id": "c2-l004",
+          "centre_y": 659,
+          "crop": [
+            1500,
+            610,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1500,
+            489,
+            1090,
+            340
+          ],
+          "observed_text": "touo coiteua, varui. Amar a algũẽ ſenſual",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:663a7ca720e200731b5d6efeda8913710ae9970fd710bde05f9233a64abdbced"
+        },
+        {
+          "id": "c2-l005",
+          "centre_y": 722,
+          "crop": [
+            1500,
+            672,
+            1090,
+            100
+          ],
+          "context_crop": [
+            1500,
+            552,
+            1090,
+            340
+          ],
+          "observed_text": "mente he ruim couſa. ¶ Iiẽ, Amar, ou ter",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:e02f3e1dd550caf3e42dd4a472df1c8540366df62445f5bab02451af1f540232"
+        },
+        {
+          "id": "c2-l006",
+          "centre_y": 785,
+          "crop": [
+            1500,
+            736,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1500,
+            615,
+            1090,
+            340
+          ],
+          "observed_text": "ſaudades dalgum amigo, parente, &c.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:e57bb984840d2460f4dd6fdcbfc15e71cc734728126f3e3d4155e0ad84f35120"
+        },
+        {
+          "id": "c2-l007",
+          "centre_y": 848,
+          "crop": [
+            1500,
+            798,
+            1090,
+            100
+          ],
+          "context_crop": [
+            1500,
+            678,
+            1090,
+            340
+          ],
+          "observed_text": "Coi. Hum peixe do rio como barbo.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:7e44576a1b7852d126ceca59a912a1f2a8fa070ac71fa9a61793aca5961e958a"
+        },
+        {
+          "id": "c2-l008",
+          "centre_y": 911,
+          "crop": [
+            1500,
+            862,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1500,
+            741,
+            1090,
+            340
+          ],
+          "observed_text": "Coi. Pao, ou aruore onde o falcão pouſa",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:7e7a0009a3dd153e1214b5847052ecba64380b2dea085d80b1442de9a354d89b"
+        },
+        {
+          "id": "c2-l009",
+          "centre_y": 974,
+          "crop": [
+            1500,
+            924,
+            1090,
+            100
+          ],
+          "context_crop": [
+            1500,
+            804,
+            1090,
+            340
+          ],
+          "observed_text": "Coi. Couſa eſpeſſa, ou groſſa.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:ff0db493ba8f6ded5fb3164c570bf616902fe3a4b6678c0fc8ab24c24870801f"
+        },
+        {
+          "id": "c2-l010",
+          "centre_y": 1037,
+          "crop": [
+            1500,
+            988,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1500,
+            867,
+            1090,
+            340
+          ],
+          "observed_text": "Cô. Coſa.",
+          "match": "partial",
+          "assessment": "uncertain",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:27734a4925beaa2fa06f6a21e6b940aa5b9d55edbacdb1a33629883d3894117e",
+          "note": "One or more glyphs or diacritics remain materially uncertain in the enlarged scan; observed_text preserves the independent visual reading without normalization."
+        },
+        {
+          "id": "c2-l011",
+          "centre_y": 1100,
+          "crop": [
+            1500,
+            1050,
+            1090,
+            100
+          ],
+          "context_crop": [
+            1500,
+            930,
+            1090,
+            340
+          ],
+          "observed_text": "Coi, ô, ôta. Pedir.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:c80a912bddec7ec802f6a35d1765dc0a063b6e8a2cb3a991f481affc2bf960a5"
+        },
+        {
+          "id": "c2-l012",
+          "centre_y": 1163,
+          "crop": [
+            1500,
+            1114,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1500,
+            993,
+            1090,
+            340
+          ],
+          "observed_text": "Cô. i. Tacai curai. Dignidade alta.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:440ec49c1123f229e1b5d91be8fd94ce4ba55dbf8a2edd63432b498ee0707fc6"
+        },
+        {
+          "id": "c2-l013",
+          "centre_y": 1225,
+          "crop": [
+            1500,
+            1176,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1500,
+            1055,
+            1090,
+            340
+          ],
+          "observed_text": "Coi ariqi, u, uita. Andar pedindo.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:bad18f54d2658fb46215151e8bf993087cddad74b48976fbd0c3f0cac2d5b3fa"
+        },
+        {
+          "id": "c2-l014",
+          "centre_y": 1288,
+          "crop": [
+            1500,
+            1238,
+            1090,
+            100
+          ],
+          "context_crop": [
+            1500,
+            1118,
+            1090,
+            340
+          ],
+          "observed_text": "Coi alagui Azul claro eſpeſſo.",
+          "match": "partial",
+          "assessment": "uncertain",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:4020b3ea4eeab5ea44347eb40311f7405305cf8f1be5d8a4a7fc01b734400086",
+          "note": "One or more glyphs or diacritics remain materially uncertain in the enlarged scan; observed_text preserves the independent visual reading without normalization."
+        },
+        {
+          "id": "c2-l015",
+          "centre_y": 1351,
+          "crop": [
+            1500,
+            1302,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1500,
+            1181,
+            1090,
+            340
+          ],
+          "observed_text": "Coi caje. Saudades, ou amor carnal.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:fb310273c53bfcd47ef3f4646c6844fd549a14c5df22b31978b3b197e2e9e07d"
+        },
+        {
+          "id": "c2-l016",
+          "centre_y": 1414,
+          "crop": [
+            1500,
+            1364,
+            1090,
+            100
+          ],
+          "context_crop": [
+            1500,
+            1244,
+            1090,
+            340
+          ],
+          "observed_text": "Coi canaximi, u, nda. Ter grande triſte-",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:3e210403aee3c485894d50d42f62e6b5428cc340655158dc776378b3205b3c65"
+        },
+        {
+          "id": "c2-l017",
+          "centre_y": 1477,
+          "crop": [
+            1500,
+            1428,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1500,
+            1307,
+            1090,
+            340
+          ],
+          "observed_text": "za cauſada de ſaudades, ou amor.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:0ef807769efb81112844a34a0d073c2019a46008365b56a5bebb9605af301856"
+        },
+        {
+          "id": "c2-l018",
+          "centre_y": 1540,
+          "crop": [
+            1500,
+            1490,
+            1090,
+            100
+          ],
+          "context_crop": [
+            1500,
+            1370,
+            1090,
+            340
+          ],
+          "observed_text": "Coi caqe, uru, eta. Pedir, ou ter começa-",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:8c6f072c96a2e839f4f75925553d2f616c73a9b820aa9edb7f61a2bf0b79cab3"
+        },
+        {
+          "id": "c2-l019",
+          "centre_y": 1603,
+          "crop": [
+            1500,
+            1554,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1500,
+            1433,
+            1090,
+            340
+          ],
+          "observed_text": "do de pedir algũa couſa.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:142f541ecb622b8faed6137ad87a3e4e024128ae70f192277ade19bd5e3d0b5c"
+        },
+        {
+          "id": "c2-l020",
+          "centre_y": 1666,
+          "crop": [
+            1500,
+            1616,
+            1090,
+            100
+          ],
+          "context_crop": [
+            1500,
+            1496,
+            1090,
+            340
+          ],
+          "observed_text": "Coicaqi. Cor de figos de Iapão intenſa.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:5cbe7e957d3ad3aa77a64f87f629c65e8ca65037ba5eb798dd86198c99f97035"
+        },
+        {
+          "id": "c2-l021",
+          "centre_y": 1729,
+          "crop": [
+            1500,
+            1680,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1500,
+            1559,
+            1090,
+            340
+          ],
+          "observed_text": "Coi cayexi, ſu, eita. Tornar a pedir.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:cf764f5c18113ef11057994122b04550cbd74223dde8040aae304c71c59c1185"
+        },
+        {
+          "id": "c2-l022",
+          "centre_y": 1792,
+          "crop": [
+            1500,
+            1742,
+            1090,
+            100
+          ],
+          "context_crop": [
+            1500,
+            1622,
+            1090,
+            340
+          ],
+          "observed_text": "Coicogare, ruru, eta. Andar aceſo de amo-",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:1a02a8391e4e518d85890e2567eac17ad176c94ae8f7448468de4ca60a7eccf7"
+        },
+        {
+          "id": "c2-l023",
+          "centre_y": 1855,
+          "crop": [
+            1500,
+            1806,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1500,
+            1685,
+            1090,
+            340
+          ],
+          "observed_text": "res ſenſuaes.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:053e5f14aa8441fb9ec68ba20e440ede8c11009d6256bc11092d48e35cacfd5d"
+        },
+        {
+          "id": "c2-l024",
+          "centre_y": 1918,
+          "crop": [
+            1500,
+            1868,
+            1090,
+            100
+          ],
+          "context_crop": [
+            1500,
+            1748,
+            1090,
+            340
+          ],
+          "observed_text": "Coicunaxi, ſu, aita. Paſſar os dias, & as",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:c82b759e3ccd826245d44c36a191e304cf2d003a1fcd6f9de288c8543990f3d5"
+        },
+        {
+          "id": "c2-l025",
+          "centre_y": 1981,
+          "crop": [
+            1500,
+            1932,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1500,
+            1811,
+            1090,
+            340
+          ],
+          "observed_text": "noites com amor, & ſaudades.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:284e3a9dc6ec1531d55b4967acb970477ff796079ef4b883f0c18092d4abe514"
+        },
+        {
+          "id": "c2-l026",
+          "centre_y": 2044,
+          "crop": [
+            1500,
+            1994,
+            1090,
+            100
+          ],
+          "context_crop": [
+            1500,
+            1874,
+            1090,
+            340
+          ],
+          "observed_text": "Coicurenai. Vermelho, muito intenſo.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:f22adef64b484c53ff34fd795de265f10a22df55c5a8efad3909d96ed67979e3"
+        },
+        {
+          "id": "c2-l027",
+          "centre_y": 2107,
+          "crop": [
+            1500,
+            2058,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1500,
+            1937,
+            1090,
+            340
+          ],
+          "observed_text": "Coide. Remeiros. A propria palaura he Co-",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:16c21c2b39d1dba2fbe8040770a51117a2bbfdf81e7ae2ac0db032c65051df9b"
+        },
+        {
+          "id": "c2-l028",
+          "centre_y": 2170,
+          "crop": [
+            1500,
+            2120,
+            1090,
+            100
+          ],
+          "context_crop": [
+            1500,
+            2000,
+            1090,
+            340
+          ],
+          "observed_text": "guite.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:687ee1f1f2c350fe2fa217c2ce2a52a1a17041867d9b74cb666c81bea122e537"
+        },
+        {
+          "id": "c2-l029",
+          "centre_y": 2233,
+          "crop": [
+            1500,
+            2184,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1500,
+            2063,
+            1090,
+            340
+          ],
+          "observed_text": "Coi fuſube. Cor muito defumada como de pelle",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:4f53917633975ff6add590911f4f912c911c5328d42afc62e92afc6ecab22824"
+        },
+        {
+          "id": "c2-l030",
+          "centre_y": 2296,
+          "crop": [
+            1500,
+            2246,
+            1090,
+            100
+          ],
+          "context_crop": [
+            1500,
+            2126,
+            1090,
+            340
+          ],
+          "observed_text": "cortida, & defumada.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:cb53901630e335b7deafb97a6d18e710a61bed50af645e561ccd2ae89db51e4d"
+        },
+        {
+          "id": "c2-l031",
+          "centre_y": 2359,
+          "crop": [
+            1500,
+            2310,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1500,
+            2189,
+            1090,
+            340
+          ],
+          "observed_text": "Coimotome, uru, eta. Alcançar pedindo,",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:bfe4580e48ba5b62ca74493e4e07a68a01549c4be082d3ede7934650400d9364"
+        },
+        {
+          "id": "c2-l032",
+          "centre_y": 2422,
+          "crop": [
+            1500,
+            2372,
+            1090,
+            100
+          ],
+          "context_crop": [
+            1500,
+            2252,
+            1090,
+            340
+          ],
+          "observed_text": "ou pedindo buſcar.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:9181e7d80177a6bc8063697079153b2399e32fa8e28012127c64543b8e39666f"
+        },
+        {
+          "id": "c2-l033",
+          "centre_y": 2485,
+          "crop": [
+            1500,
+            2436,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1500,
+            2315,
+            1090,
+            340
+          ],
+          "observed_text": "Coimoyegui. Cor verde, & eſcura.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:742832cd52751f6a879cfa9b7a10e43a081bdd89518dd0d9489e3e9ec399c655"
+        },
+        {
+          "id": "c2-l034",
+          "centre_y": 2548,
+          "crop": [
+            1500,
+            2498,
+            1090,
+            100
+          ],
+          "context_crop": [
+            1500,
+            2378,
+            1090,
+            340
+          ],
+          "observed_text": "Coimuraſaqi. Roxo muito intenſo.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:b7176da99a8cc89e0a11fc6a4c1ad801128dd9217fe139045aa090e95684fc65"
+        },
+        {
+          "id": "c2-l035",
+          "centre_y": 2611,
+          "crop": [
+            1500,
+            2562,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1500,
+            2441,
+            1090,
+            340
+          ],
+          "observed_text": "Côin. Fuchinotame. Deſcendentes.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:ffdac7639e32b31e5dabaffafe30cf0c7d1775638e2a300e06c0771ab6919d9e"
+        },
+        {
+          "id": "c2-l036",
+          "centre_y": 2674,
+          "crop": [
+            1500,
+            2624,
+            1090,
+            99
+          ],
+          "context_crop": [
+            1500,
+            2504,
+            1090,
+            340
+          ],
+          "observed_text": "Côin. Fitocadoi. Chamara alguẽ, & leua-",
+          "match": "partial",
+          "assessment": "uncertain",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:8fcd91afe1d3b227bfe535684978885247222ad7466082b87dc249b8faa9e3aa",
+          "note": "One or more glyphs or diacritics remain materially uncertain in the enlarged scan; observed_text preserves the independent visual reading without normalization."
+        },
+        {
+          "id": "c2-l037",
+          "centre_y": 2736,
+          "crop": [
+            1500,
+            2687,
+            1090,
+            99
+          ],
+          "context_crop": [
+            1500,
+            2566,
+            1090,
+            340
+          ],
+          "observed_text": "cõſigo enganado, ou furtado.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:311c374d4c362894cf7d705f026d30393bff70b9d9e5e62e85626be730fea58a"
+        },
+        {
+          "id": "c2-l038",
+          "centre_y": 2799,
+          "crop": [
+            1500,
+            2750,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1500,
+            2629,
+            1090,
+            340
+          ],
+          "observed_text": "Côin. Nochino votezzure. Viſita, ou re-",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:892a23ffc9aa16cdfdc6a26259e4afc018b8b805ea404c293b05fb41af0499f5"
+        },
+        {
+          "id": "c2-l039",
+          "centre_y": 2862,
+          "crop": [
+            1500,
+            2812,
+            1090,
+            100
+          ],
+          "context_crop": [
+            1500,
+            2692,
+            1090,
+            340
+          ],
+          "observed_text": "cado pera o diante.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:fbba245bbb6b09ddbe5a312caa8919c1e6c9dc57459f32773d333f571707c599"
+        },
+        {
+          "id": "c2-l040",
+          "centre_y": 2925,
+          "crop": [
+            1500,
+            2876,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1500,
+            2755,
+            1090,
+            340
+          ],
+          "observed_text": "Coinegai, ô, ta. Deſeiar muito.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:4fbf0c0de1fd3de4c66fbb7d6bdfcaef69a1533588710e81fef4e6d481068971"
+        },
+        {
+          "id": "c2-l041",
+          "centre_y": 2988,
+          "crop": [
+            1500,
+            2938,
+            1090,
+            100
+          ],
+          "context_crop": [
+            1500,
+            2818,
+            1090,
+            340
+          ],
+          "observed_text": "Coinegauacuna. Oxalà, ou praza a Deos",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:a0aec888150af8667ca8704485ccdb5e49fe2e61dcd819aab985b9e2a8a74f2f"
+        },
+        {
+          "id": "c2-l042",
+          "centre_y": 3051,
+          "crop": [
+            1500,
+            3002,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1500,
+            2881,
+            1090,
+            340
+          ],
+          "observed_text": "que aſſi ſeja, &c.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:422518ee0f33b41a6e0a622b836575c02bc7e9c847cd152d795632ebb22cf754"
+        },
+        {
+          "id": "c2-l043",
+          "centre_y": 3114,
+          "crop": [
+            1500,
+            3064,
+            1090,
+            100
+          ],
+          "context_crop": [
+            1500,
+            2944,
+            1090,
+            340
+          ],
+          "observed_text": "Coino qeguirino xiru. Hũ certo caldo, ou xiru",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:bc0f80442e23b5dfe244428d4ec205211b1078e7e25765cfd20470426582a565"
+        },
+        {
+          "id": "c2-l044",
+          "centre_y": 3177,
+          "crop": [
+            1500,
+            3128,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1500,
+            3007,
+            1090,
+            340
+          ],
+          "observed_text": "de peixe Coi, juntamente com a eſcama.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:4168ee29bb530f419b2a6f4cdc8875cc23b1fa68307dedb92072919eba52fdd1"
+        },
+        {
+          "id": "c2-l045",
+          "centre_y": 3240,
+          "crop": [
+            1500,
+            3190,
+            1090,
+            100
+          ],
+          "context_crop": [
+            1500,
+            3070,
+            1090,
+            340
+          ],
+          "observed_text": "Côiqi. Mizo, mizo. Rego, ou cano, por",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:e45b73ca0ddd3336ef66f76ce79a101d2a778924ca808561d110c3727416883b"
+        },
+        {
+          "id": "c2-l046",
+          "centre_y": 3303,
+          "crop": [
+            1500,
+            3254,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1500,
+            3133,
+            1090,
+            340
+          ],
+          "observed_text": "onde corre agua.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:957d572d4b20ecead6c03fecb63aaa9ad87f43a6c8b0c6173576e6aa9fd9ffd0"
+        },
+        {
+          "id": "c2-l047",
+          "centre_y": 3366,
+          "crop": [
+            1500,
+            3316,
+            1090,
+            100
+          ],
+          "context_crop": [
+            1500,
+            3196,
+            1090,
+            294
+          ],
+          "observed_text": "Coitçu. i. Coinemono. Eſte, a baixãdo.",
+          "match": "partial",
+          "assessment": "uncertain",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:0c31fb13de3732a0b0bb95c278e7eb142099e1fe625b78cb1059f0256faa5606",
+          "note": "One or more glyphs or diacritics remain materially uncertain in the enlarged scan; observed_text preserves the independent visual reading without normalization."
+        },
+        {
+          "id": "c2-l048",
+          "centre_y": 3429,
+          "crop": [
+            1500,
+            3380,
+            1090,
+            98
+          ],
+          "context_crop": [
+            1500,
+            3259,
+            1090,
+            231
+          ],
+          "observed_text": "Coitçume. Idẽ.",
+          "match": "strong",
+          "assessment": "readable",
+          "geometry_action": "accepted_initial",
+          "expected_line_version": "sha256:2b7ad805fec583428e4a4c3a75a56db55c47af3270dec231b7d73452e99ab187"
+        }
+      ]
+    }
+  }
+}
