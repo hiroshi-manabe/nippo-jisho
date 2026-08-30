@@ -346,6 +346,25 @@ equal(q.align('foo, bar.', 'foo bar.').deletions.map(item => [item.character, it
         self.assertEqual(column["lines"]["c2-l024"]["crop"], [1500, 1878, 1120, 100])
         self.assertEqual(column["lines"]["c2-l047"]["crop"], [1500, 3350, 1120, 100])
 
+    def test_f135_bottom_right_fragment_is_the_catchword(self):
+        page = json.loads(
+            (ROOT / "pilot" / "format-v1-trial" / "level1" / "bnf-f0135.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        zones = {zone["id"]: zone for zone in page["zones"]}
+        self.assertEqual(zones["column-2"]["lines"][-1]["id"], "c2-l047")
+        self.assertEqual(zones["catchword"]["lines"][0]["id"], "cw-l001")
+        self.assertEqual(zones["catchword"]["lines"][0]["runs"][0]["text"], "riuo")
+
+        geometry = json.loads(
+            (ROOT / "pilot" / "human-review" / "line-geometry.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        geometry_page = next(item for item in geometry["pages"] if item["id"] == "bnf-f0135")
+        self.assertNotIn("c2-l048", geometry_page["columns"]["column-2"]["lines"])
+
     def test_manually_corrected_columns_reach_past_the_right_rule(self):
         record = json.loads(
             (ROOT / "pilot" / "human-review" / "line-geometry.json").read_text(

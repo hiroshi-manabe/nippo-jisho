@@ -134,7 +134,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l045` | &emsp;*entrar.* |  |
 | `c2-l046` | Cuchi. *Boca. ¶* Cuchiga vǒ. *Concor-* |  |
 | `c2-l047` | &emsp;*dar no que ſe diz. ¶* Cuchi namezzu- |  |
-| `c2-l048` | &emsp;riuo |  |
+
+## Catchword
+
+| Physical line | Main position | Far right |
+| --- | --- | --- |
+| `cw-l001` | **riuo** |  |
 
 ## Printed signature
 
