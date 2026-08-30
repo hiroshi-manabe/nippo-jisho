@@ -93,16 +93,16 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l019` | &emsp;*rendas dalgum ſenhor.* |  |
 | `c2-l020` | Cuyô. Coconotçuno foxi. *Hũas noue eſtrel-* |  |
 | `c2-l021` | &emsp;*las que hà no ceo.* |  |
-| `c2-l022` | Cuyǒ. *Chamar Bonzos a comer, & dar lhes eſ-* |  |
+| `c2-l022` | Cuyǒ. *Chamar* Bonzos *a comer, & dar lhes eſ-* |  |
 | `c2-l023` | &emsp;*molas pera celebrar algum offiçio, ou dedicação* |  |
 | `c2-l024` | &emsp;*dalgum templo, collocação de idolo, &c.* |  |
-| `c2-l025` | Cuyǒ. *Officios como dedicação do templo, Fo-* |  |
-| `c2-l026` | &emsp;*toque, &c. ¶* Dǒno cuyǒuo ſuru. *Ce-* |  |
+| `c2-l025` | Cuyǒ. *Officios como dedicação do templo,* Fo- |  |
+| `c2-l026` | &emsp;toque*, &c. ¶* Dǒno cuyǒuo ſuru. *Ce-* |  |
 | `c2-l027` | &emsp;*lebrar a dedicação dalgum templo.* |  |
-| `c2-l028` | Cuyǒji, zuru, ita. *Chamar Bonzos a comer* |  |
+| `c2-l028` | Cuyǒji, zuru, ita. *Chamar* Bonzos *a comer* |  |
 | `c2-l029` | &emsp;*para fazerem algũ officio. ¶* Sǒuo cuyǒ- |  |
 | `c2-l030` | &emsp;zuru. *Idem. ¶* Fotoqcuo cuyǒzuru. |  |
-| `c2-l031` | &emsp;*Fazer diante de Fotoqe algum officios, ou a-* |  |
+| `c2-l031` | &emsp;*Fazer diante de* Fotoqe *algum officios, ou a-* |  |
 | `c2-l032` | &emsp;*preſentar lhe comer, &c.* |  |
 | `c2-l033` | Cuyuracaxi, ſu, aita. *Fazer cheirar. ¶* Ta- |  |
 | `c2-l034` | &emsp;qimonouo cuyuracaſu. *Queimar cheiros,* |  |

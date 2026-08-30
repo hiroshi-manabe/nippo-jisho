@@ -24,12 +24,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l008` | &emsp;xa. *Forte, & animoſo ſoldado.* |  |
 | `c1-l009` | Daicǒna. *Forte, & eſforçado.* |  |
 | `c1-l010` | Daicocu. *Certos cunhos de hũa laya de prata.* |  |
-| `c1-l011` | Daicocu. *Cami das riquezas. ¶ Item,* |  |
+| `c1-l011` | Daicocu. Cami *das riquezas. ¶ Item,* |  |
 | `c1-l012` | &emsp;*Nome de hũa certa praua que tem os cunhos, ou* |  |
 | `c1-l013` | &emsp;*ſinal deſte cami.* |  |
 | `c1-l014` | Daicocuden. *Hũas certas caſas que eſtão den-* |  |
 | `c1-l015` | &emsp;*tro do paço do Dairi.* |  |
-| `c1-l016` | Daicǒji. *Certas laranjas doces, como Cunebus.* |  |
+| `c1-l016` | Daicǒji. *Certas laranjas doces, como* Cunebus. |  |
 | `c1-l017` | Daicon. Vǒqina ne. *Rabão.* |  |
 | `c1-l018` | Daicon voroxi. *Ralo pera ralar rabão.* |  |
 | `c1-l019` | Daicu. *Carpinteiro.* |  |
@@ -47,7 +47,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l031` | &emsp;*ração.* |  |
 | `c1-l032` | Daifan. Vǒqina mexi. *Grande porção de* |  |
 | `c1-l033` | &emsp;*arroz cozido como pera trabalhadores, &c.* |  |
-| `c1-l034` | Daifannha. *Hum liuro dos de Xaca.* |  |
+| `c1-l034` | Daifannha. *Hum liuro dos de* Xaca. |  |
 | `c1-l035` | Daifi. *Grande miſericordia, ou compaixão.* |  |
 | `c1-l036` | Daifiǒ. i. Xubiǒ. *Frecheiro de grandes* |  |
 | `c1-l037` | &emsp;*forças.* |  |
@@ -98,7 +98,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l024` | &emsp;*¶* Daijimo nai. *Não importa.* |  |
 | `c2-l025` | Daiji, daifi. *Grande miſericordia, & com-* |  |
 | `c2-l026` | &emsp;*paixão.* |  |
-| `c2-l027` | Daijin. Votodo Cugue que tem dignidade ẽ |  |
+| `c2-l027` | Daijin. Votodo Cugue *que tem dignidade ẽ* |  |
 | `c2-l028` | &emsp;*caſa do Dairi.* |  |
 | `c2-l029` | Daijina, l, daijino. *Grande couſa, ou de im-* |  |
 | `c2-l030` | &emsp;*portancia.* |  |

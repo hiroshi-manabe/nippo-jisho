@@ -81,7 +81,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l001` | &emsp;*cima pera baixo. Vt,* Niuacani acuſù fu- |  |
 | `c2-l002` | &emsp;qi qitatte funeuo tachimachi cutçuga- |  |
 | `c2-l003` | &emsp;yeſǒro xita. *Vindo de repente hum vento* |  |
-| `c2-l004` | &emsp;*ruim eſteue pera ſoſobrar logo a Fune. ¶* Cu- |  |
+| `c2-l004` | &emsp;*ruim eſteue pera ſoſobrar logo a* Fune*. ¶* Cu- |  |
 | `c2-l005` | &emsp;niuo cutçugayeſu. *Reuoluer, & pertur-* |  |
 | `c2-l006` | &emsp;*bar o reino.* |  |
 | `c2-l007` | Cutçugo. *Boçal que poem na boca das beſtas* |  |
