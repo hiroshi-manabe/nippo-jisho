@@ -95,7 +95,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l021` | &emsp;ru. *Pagar à gente que hum tem à ſua conta,* |  |
 | `c2-l022` | &emsp;*ou ſoſtenta.* |  |
 | `c2-l023` | Fuchi. *Pègo do rio.* |  |
-| `c2-l024` | Fuchi. *Hum ferro que cinge a* Catana *entre o* |  |
+| `c2-l024` | Fuchi. *Hum ferro que cinge a Catana entre o* |  |
 | `c2-l025` | &emsp;*punho, & os cabos.* |  |
 | `c2-l026` | Fuchi. *Faſquias, ou paos ſemelhantes que poẽ* |  |
 | `c2-l027` | &emsp;*em no bocal, ou borda dalgũa couſa. ¶* Fu- |  |

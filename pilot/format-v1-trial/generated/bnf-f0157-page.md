@@ -43,12 +43,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l027` | Dogi. Tçuchi, tçuchi. *Chão, ou terra.* |  |
 | `c1-l028` | Dôgin. *Vt,* Vaquǒ dôgin. Ficaritoya u- |  |
 | `c1-l029` | &emsp;rague, chirimi majiuaru coto. *Dizſe do* |  |
-| `c1-l030` | &emsp;Fotoque *que temperaria a luz, & reſplandor* |  |
+| `c1-l030` | &emsp;*Fotoque que temperaria a luz, & reſplandor* |  |
 | `c1-l031` | &emsp;*de ſua ſubſtancia ſe miſturou com o corpo immũ-* |  |
 | `c1-l032` | &emsp;*do dos homens: o q̃ ſe pode acomodar a Chriſ-* |  |
 | `c1-l033` | &emsp;*to noſſo ſenhor na encarnação.* |  |
 | `c1-l034` | Dogiǒ. *Enterrar ſe viuo debaixo da terra pe-* |  |
-| `c1-l035` | &emsp;*ra alli morrer como coſtumão alguns* bonzos. |  |
+| `c1-l035` | &emsp;*ra alli morrer como coſtumão alguns bonzos.* |  |
 | `c1-l036` | Dogiǒ. *Nome de hũ peixinho que ha nos char-* |  |
 | `c1-l037` | &emsp;*cos, ou varzeas de agoa.* |  |
 | `c1-l038` | Doi. *Vallo de terra.* |  |
@@ -59,9 +59,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l043` | &emsp;*lha que ſerue de barreira em caſa pera ſe exerci-* |  |
 | `c1-l044` | &emsp;*tar com o arco. Melius.* Dôyui. |  |
 | `c1-l045` | Dô ittai. *Hũa meſma ſubſtancia.* |  |
-| `c1-l046` | Dǒja. Iye iye. *Templo, ou paços do* Dairi. |  |
+| `c1-l046` | Dǒja. Iye iye. *Templo, ou paços do Dairi.* |  |
 | `c1-l047` | &emsp;*¶* Dǒja. Buccacu. *Templo dos Idolos, ou* |  |
-| `c1-l048` | &emsp;Fotoques. |  |
+| `c1-l048` | &emsp;*Fotoques.* |  |
 
 ## Column 2 running header
 
@@ -97,11 +97,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l016` | Dôjǒ. Vgoqu coto, xizzucanarucoto. *In-* |  |
 | `c2-l017` | &emsp;*quietação, & ſoſſego.* |  |
 | `c2-l018` | Dôjucu. *Moços, ou gente rapada que ſeruem* |  |
-| `c2-l019` | &emsp;*aos* Bonzos *nas Teras.* |  |
+| `c2-l019` | &emsp;*aos Bonzos nas Teras.* |  |
 | `c2-l020` | Dômaru. *Certa feição de armas que ſe fechão* |  |
 | `c2-l021` | &emsp;*por hũa ilharga.* |  |
 | `c2-l022` | Dômei. *Nome do meſmo official aberto no* |  |
-| `c2-l023` | &emsp;*ferro das* Catanas. *¶ Item, Mezinha* |  |
+| `c2-l023` | &emsp;*ferro das Catanas. ¶ Item, Mezinha* |  |
 | `c2-l024` | &emsp;*do meſmo nome, & eſpecie que a outra que ſe* |  |
 | `c2-l025` | &emsp;*deu primeiro.* |  |
 | `c2-l026` | Dômiǒ. Vonajina. *O meſmo nome, ou al-* |  |

@@ -54,7 +54,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l038` | Donſu. *Damaſcos, peças da china.* |  |
 | `c1-l039` | Dontǒ. Nibui catana. i, Qirenu catana. |  |
 | `c1-l040` | &emsp;*Eſpada que corta mal. Vt,* Donto foneuo |  |
-| `c1-l041` | &emsp;qirazu. *A ruim* Catana *não corta os oſſos,* |  |
+| `c1-l041` | &emsp;qirazu. *A ruim Catana não corta os oſſos,* |  |
 | `c1-l042` | &emsp;*Aplicaſe tambem à homem rude que não chega* |  |
 | `c1-l043` | &emsp;*ao uiuo na reprenſão, &c.* |  |
 | `c1-l044` | Donxei, l, donxeina. *Rude, & necio.* |  |

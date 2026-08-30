@@ -38,10 +38,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l022` | Dôtet. Acagane, cutogane. *Cobre, &* |  |
 | `c1-l023` | &emsp;*ferro.* |  |
 | `c1-l024` | Dǒtǒ. *Templos, & torres de madeira dentro* |  |
-| `c1-l025` | &emsp;*das quaes eſtão* Fotoques. |  |
+| `c1-l025` | &emsp;*das quaes eſtão Fotoques.* |  |
 | `c1-l026` | Dǒtocu. Dǒuo vru. *Perfeito nas couſas, ou a* |  |
-| `c1-l027` | &emsp;*meditações do* Buppô. *¶ Item, Perfeição* |  |
-| `c1-l028` | &emsp;*nas couſas do* Buppô, *& virtude, ou exerci-* |  |
+| `c1-l027` | &emsp;*meditações do Buppô. ¶ Item, Perfeição* |  |
+| `c1-l028` | &emsp;*nas couſas do Buppô, & virtude, ou exerci-* |  |
 | `c1-l029` | &emsp;*cio della. ¶* Dǒtocu tomoni ſonauaru. |  |
 | `c1-l030` | &emsp;*Ter em ſi ambas eſtas partes.* |  |
 | `c1-l031` | Dotto. *Adu. Modo de rir, ou gritarem* |  |
@@ -55,12 +55,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l039` | &emsp;*meiro, ou que vai em romaria.* |  |
 | `c1-l040` | Dôxa. Vonaji curuma. *O meſmo carro.* |  |
 | `c1-l041` | Dǒxa. Buppôno ſatoriuo yeta fito. *Exer-* |  |
-| `c1-l042` | &emsp;*citado nas meditações do* Buppô. |  |
+| `c1-l042` | &emsp;*citado nas meditações do Buppô.* |  |
 | `c1-l043` | Dôxacu. Acagane, ſuzu. *Cobre, & eſ-* |  |
 | `c1-l044` | &emsp;*tanho.* |  |
 | `c1-l045` | Dôxen. Vonaji fune. *A meſma embarca-* |  |
-| `c1-l046` | &emsp;*ção. ¶* Dôxeni ſuru. *Ir na meſma* Fu- |  |
-| `c1-l047` | &emsp;ne *embarcado.* |  |
+| `c1-l046` | &emsp;*ção. ¶* Dôxeni ſuru. *Ir na meſma Fu-* |  |
+| `c1-l047` | &emsp;*ne embarcado.* |  |
 
 ## Column 2 running header
 
@@ -103,7 +103,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l023` | &emsp;*vigor, & ſubſtancia.* |  |
 | `c2-l024` | Dôxǒ. Vonaji yuca. *O meſmo leito, ou* |  |
 | `c2-l025` | &emsp;*cama.* |  |
-| `c2-l026` | Dôxǒjin. Vonajicu xǒzuru cami. Cami *q̃* |  |
+| `c2-l026` | Dôxǒjin. Vonajicu xǒzuru cami. *Cami q̃* |  |
 | `c2-l027` | &emsp;*juntamente nace com alguem, & lhe aſſiſte em* |  |
 | `c2-l028` | &emsp;*quanto viue a maneira do Anjo da guarda, o* |  |
 | `c2-l029` | &emsp;*qual tẽ por officio fazer a ſaber ao Rey dos dia-* |  |

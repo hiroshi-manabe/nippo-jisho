@@ -22,7 +22,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l006` | &emsp;*papel pegadas no parede com ſuas faſquias ao* |  |
 | `c1-l007` | &emsp;*redor de pao uruxado de preto, pera que res-* |  |
 | `c1-l008` | &emsp;*pondão às de mais portas de papel que eſtão no* |  |
-| `c1-l009` | &emsp;Zaxiqi, *& ſe correm, ou abrem, & fechão.* |  |
+| `c1-l009` | &emsp;*Zaxiqi, & ſe correm, ou abrem, & fechão.* |  |
 | `c1-l010` | Fariyaburi, uru, utta. *Raſgar, quebrar.* |  |
 | `c1-l011` | Farô. Nami. *Ondas.* |  |
 | `c1-l012` | Faru. *Prima vera.* |  |
@@ -49,7 +49,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l033` | Faſami. *Tiſouras, ou troquez, &c.* |  |
 | `c1-l034` | Faſami, u, ôda. *Apertar, ou tomar algũa* |  |
 | `c1-l035` | &emsp;*couſa entre duas como quem toma com tiſouras.* |  |
-| `c1-l036` | &emsp;¶ Sicanauo faſamu. *Tomar a* Sacana |  |
+| `c1-l036` | &emsp;¶ Sicanauo faſamu. *Tomar a Sacana* |  |
 | `c1-l037` | &emsp;*com as Faxis. ¶* Qurumono nadouo taqe- |  |
 | `c1-l038` | &emsp;ni faſamu. *Meter o veſtido atraueſſado entre* |  |
 | `c1-l039` | &emsp;*hũa cana aberta pello meo, ou entre duas canas,* |  |
@@ -83,7 +83,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l009` | &emsp;*apertão certas peças de Iapão.* |  |
 | `c2-l010` | Faſamimono. *Couſa que ſe aferra cõ troquez,* |  |
 | `c2-l011` | &emsp;*ou dous paos, &c. & particularmente ſigni-* |  |
-| `c2-l012` | &emsp;*fica a* Sacana *que ſe toma com as Faxis.* |  |
+| `c2-l012` | &emsp;*fica a Sacana que ſe toma com as Faxis.* |  |
 | `c2-l013` | &emsp;*¶ Item, Hum papel que poem por aluo me-* |  |
 | `c2-l014` | &emsp;*tido entre hũm bambu rachado.* |  |
 | `c2-l015` | Faſamiqiri, u, itta. *Cortar com tiſouras,* |  |
@@ -97,7 +97,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l023` | &emsp;voroxi. Feiq*. Lib. 4. Por mais não po-* |  |
 | `c2-l024` | &emsp;*der troſquiou os cabellos brancos.* |  |
 | `c2-l025` | Faſan. Sacazzugiuo cubaru. *Mandar, ou* |  |
-| `c2-l026` | &emsp;*dirigir o* Sacazzuqi *a alguem. Vt,* Go- |  |
+| `c2-l026` | &emsp;*dirigir o Sacazzuqi a alguem. Vt,* Go- |  |
 | `c2-l027` | &emsp;faſan are. *A quem quereis que ſe dê o Sa-* |  |
 | `c2-l028` | &emsp;cazzuqi. |  |
 | `c2-l029` | Faſan. *O interceder, ou aueriguar o preço en-* |  |
@@ -115,7 +115,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l041` | Faſſaina mono. *Molher que falla, ou palra* |  |
 | `c2-l042` | &emsp;*muito.* |  |
 | `c2-l043` | Faſſan. *O diuidir nas contas. Vide* Giſan. |  |
-| `c2-l044` | Faſſô. *Oito eſtados que teue a vida de* Xaca. |  |
+| `c2-l044` | Faſſô. *Oito eſtados que teue a vida de Xaca.* |  |
 | `c2-l045` | &emsp;Bup*.* |  |
 | `c2-l046` | Faſſocu. Axiuo vocoſu. *O partirſe pera a* |  |
 | `c2-l047` | &emsp;*guerra algũa peſſoa nobre.* |  |

@@ -18,7 +18,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l002` | Ganyô. Cauobaxe, catachi. *Roſto, &* |  |
 | `c1-l003` | &emsp;*figura.* S*.* |  |
 | `c1-l004` | Ganzǒ. Fucumi majinaru. *Hũa certa igua-* |  |
-| `c1-l005` | &emsp;*ria de muitos peixes miſturados feitos em* Suxi*-* |  |
+| `c1-l005` | &emsp;*ria de muitos peixes miſturados feitos em Suxi-* |  |
 | `c1-l006` | &emsp;*mi.* S*. ¶ Item, Miſtura de varias* |  |
 | `c1-l007` | &emsp;*couſas.* |  |
 | `c1-l008` | Gappato. *Adu. Vide,* Gafato. |  |

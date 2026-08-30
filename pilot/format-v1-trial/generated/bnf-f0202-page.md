@@ -36,7 +36,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l020` | Fiuada. *Caſca de hũa aruore como acipreſte.* |  |
 | `c1-l021` | Fiuadabuqi. *O telhar com eſta caſca, ou cor-* |  |
 | `c1-l022` | &emsp;*tiça. ¶* Fiuadabuqino iye. *Caſa telha-* |  |
-| `c1-l023` | &emsp;*da deſtas caſcas, ou cortiça de* Finoqi. |  |
+| `c1-l023` | &emsp;*da deſtas caſcas, ou cortiça de Finoqi.* |  |
 | `c1-l024` | Fiuadairo. *Cor que tira para preto ſobre ver-* |  |
 | `c1-l025` | &emsp;*melho.* |  |
 | `c1-l026` | Fiuare, ruru, eta. *Fender, ou abrir algũa cou-* |  |
@@ -102,7 +102,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l028` | &emsp;*to rijamente, ou apertadamente. Vt,* Fixi- |  |
 | `c2-l029` | &emsp;fixito vtaruru. *Ser eſpancado rijamente.* |  |
 | `c2-l030` | &emsp;*¶* Zaxiquini fixifixito nami iru. *Eſtarẽ* |  |
-| `c2-l031` | &emsp;*todos no* Zaxiqui *aſſentados por ordem, & a-* |  |
+| `c2-l031` | &emsp;*todos no Zaxiqui aſſentados por ordem, & a-* |  |
 | `c2-l032` | &emsp;*pertados.* |  |
 | `c2-l033` | Fixigue, uru, eta. *Quebrarſe, ou eſmiu-* |  |
 | `c2-l034` | &emsp;*çarſe.* |  |

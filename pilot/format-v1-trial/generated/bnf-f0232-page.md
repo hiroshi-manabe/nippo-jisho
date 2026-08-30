@@ -79,7 +79,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l004` | Ganpi. *Hũa flor vermelha. ¶ Item, A* |  |
 | `c2-l005` | &emsp;*erua que dà eſta flor.* |  |
 | `c2-l006` | Ganpi. Torinocono ruy. *Certa laya de pa-* |  |
-| `c2-l007` | &emsp;*pel* Torinoco. |  |
+| `c2-l007` | &emsp;*pel Torinoco.* |  |
 | `c2-l008` | Ganqe. Meno vazzurai. *Doença dos olhos.* |  |
 | `c2-l009` | Ganqen. Manaco miru. *O ver dos olhos.* |  |
 | `c2-l010` | Ganqi. *Todos os viuentes ſenſitiuos. Vt,* |  |

@@ -49,7 +49,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l033` | Docuro. Xaicǒbe. *Caueira.* |  |
 | `c1-l034` | Docusǒ. Docuno cuſa. *Erua peçonhenta.* |  |
 | `c1-l035` | Docuson. Fitori tattoxi. *Nome, ou atribu-* |  |
-| `c1-l036` | &emsp;*to que ſe dà a* Xaca. |  |
+| `c1-l036` | &emsp;*to que ſe dà a Xaca.* |  |
 | `c1-l037` | Docusui. Docuno mizzu. *Agoa peçonhẽta.* |  |
 | `c1-l038` | Docut. Tçuchino ana. *Coua feita na terra.* |  |
 | `c1-l039` | Docuxin. Fitori mi. *Eu ſó, ou peſſoa ſó, &* |  |

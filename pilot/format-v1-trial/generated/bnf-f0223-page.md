@@ -108,7 +108,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l034` | Funadǒgu. *Aparelhos, ou perechos do nauio.* |  |
 | `c2-l035` | Funadome. *O deter as embarcações q̃ nenhuma* |  |
 | `c2-l036` | &emsp;*ſaya do porto. ¶* Funadomede aru. *A-* |  |
-| `c2-l037` | &emsp;*uer eſta prohibição do* Tono, *&c. que não ſa-* |  |
+| `c2-l037` | &emsp;*uer eſta prohibição do Tono, &c. que não ſa-* |  |
 | `c2-l038` | &emsp;*ya embarcação do porto.* |  |
 | `c2-l039` | Funagacoi. i, Funeuo cacǒ coto. *Concerto* |  |
 | `c2-l040` | &emsp;*da embarcação pera que ſe não tome dos inimi-* |  |
@@ -118,7 +118,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l044` | &emsp;*mo quãdo hum eſtaua na embarcação. ¶* Fu- |  |
 | `c2-l045` | &emsp;nagocochiga aru, l, funagocuchide goza- |  |
 | `c2-l046` | &emsp;ru. *Eſtar ainda de pois de deſembarcado como* |  |
-| `c2-l047` | &emsp;*enjoado, ou atouado da* Fune. |  |
+| `c2-l047` | &emsp;*enjoado, ou atouado da Fune.* |  |
 
 ## Printed page number
 

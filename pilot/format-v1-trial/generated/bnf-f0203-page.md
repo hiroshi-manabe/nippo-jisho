@@ -14,7 +14,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` |  | *¶ Item, Modo de eſtar no* Zaxiqui *muita gẽ-* |
+| `c1-l001` |  | *¶ Item, Modo de eſtar no Zaxiqui muita gẽ-* |
 | `c1-l002` | &emsp;*te apertada, &c.* |  |
 | `c1-l003` | Fixiuo. *Certo manjar q̃ ſe faz de grãos, trigo* |  |
 | `c1-l004` | &emsp;*ſal, &c. muito peſado, & moido. ¶* Fo- |  |
@@ -25,7 +25,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l009` | Fixiuo. *Marè que vaza, ou vazia. ¶* Fi- |  |
 | `c1-l010` | &emsp;xiuoni naru. *Vazar a marè.* |  |
 | `c1-l011` | Fixizzuru. *Cana, ou grelo da erua que ſe cha-* |  |
-| `c1-l012` | &emsp;*ma* Fixi. |  |
+| `c1-l012` | &emsp;*ma Fixi.* |  |
 | `c1-l013` | Fixo. *Eſcritura, ou liuro de ſegredos. ¶ Itẽ,* |  |
 | `c1-l014` | &emsp;*Segredo. ¶* Monouo fixoſuru. *Eſcon-* |  |
 | `c1-l015` | &emsp;*der algũa couſa.* |  |
@@ -86,7 +86,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l011` | &emsp;ſame, uru. |  |
 | `c2-l012` | Fiyaximono. *Couſa de comer fria, & que* |  |
 | `c2-l013` | &emsp;*refreſca.* X*. ¶ Item, Aletria cozida fria.* |  |
-| `c2-l014` | Fiyaxiru. *Certo* Xiru *frio com algũa miſtura* |  |
+| `c2-l014` | Fiyaxiru. *Certo Xiru frio com algũa miſtura* |  |
 | `c2-l015` | &emsp;*de eruas que ſe come no verão.* |  |
 | `c2-l016` | Fiyayacana. *Couſa fria, & freſca.* |  |
 | `c2-l017` | Fiyazaqe. *Vinho frio.* |  |
@@ -98,7 +98,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l023` | Fiye. *Carnegão de eſpinha do roſto que ſe pa-* |  |
 | `c2-l024` | &emsp;*rece com eſta ſemente. ¶ Item, A meſma* |  |
 | `c2-l025` | &emsp;*eſpinha do roſto.* |  |
-| `c2-l026` | Fiyegai. *Melius,* fiyenocai. Canja *feita daquelle* |  |
+| `c2-l026` | Fiyegai. *Melius,* fiyenocai. *Canja feita daquelle* |  |
 | `c2-l027` | &emsp;*legume como milho preto.* |  |
 | `c2-l028` | Fiyeiy. *Arroz cozido frio.* |  |
 | `c2-l029` | Fiyemono. *Couſa naturalmente fria como co-* |  |

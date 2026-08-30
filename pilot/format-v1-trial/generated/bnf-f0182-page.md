@@ -18,7 +18,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l002` | &emsp;*¶ Item, Permet: Ficar vencido, ou con-* |  |
 | `c1-l003` | &emsp;*cluido na diſputa.* |  |
 | `c1-l004` | Feifacu. i, Fei. *Hũs papeis retalhados q̃ ſer-* |  |
-| `c1-l005` | &emsp;*uem em hũa certa ceremonia diante do* Cami. |  |
+| `c1-l005` | &emsp;*uem em hũa certa ceremonia diante do Cami.* |  |
 | `c1-l006` | Feifeito. *Modo de eſtar a couſa praina. ¶* Fei- |  |
 | `c1-l007` | &emsp;feito xita vmi. *Mar praino, & quieto. Vt,* |  |
 | `c1-l008` | &emsp;Feifeito xitaruno nacani ginuo tari, &c. |  |
@@ -106,7 +106,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l032` | Fen. *Maneira de conſoante que nas letras de* |  |
 | `c2-l033` | &emsp;*Iapão, & China ſe poem no principio, ou da* |  |
 | `c2-l034` | &emsp;*parte eſquerda: a letra que ſe poem da parte* |  |
-| `c2-l035` | &emsp;*direita ſe chama* Tçucuri, *cõ q̃ ſe forma hũa le-* |  |
+| `c2-l035` | &emsp;*direita ſe chama Tçucuri, cõ q̃ ſe forma hũa le-* |  |
 | `c2-l036` | &emsp;*tra perfeita, q̃ reſponde a hũa ſyllaba noſſa, ou* |  |
 | `c2-l037` | &emsp;*vocabulo.* |  |
 | `c2-l038` | Fenamo. *Certa doença que vem aos meninos co-* |  |

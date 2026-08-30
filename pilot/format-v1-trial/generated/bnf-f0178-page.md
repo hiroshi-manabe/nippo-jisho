@@ -53,7 +53,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l037` | &emsp;*na cozinha, & per onde eſcorre agoa.* |  |
 | `c1-l038` | Faxiri, u, itta. *Correr. ¶ Item, Fugir* |  |
 | `c1-l039` | &emsp;*do ſeruiço do ſenhor, acolherſe da guerra, &c.* |  |
-| `c1-l040` | &emsp;*¶ Item, Ir a* Fune *à vela. Vt,* Funega |  |
+| `c1-l040` | &emsp;*¶ Item, Ir a Fune à vela. Vt,* Funega |  |
 | `c1-l041` | &emsp;faxiru. *¶* Vmaga faxitta. *Morreo o* |  |
 | `c1-l042` | &emsp;*caualo. ¶ Item,* Faxiru. *Saltar, ou eſ-* |  |
 | `c1-l043` | &emsp;*tourar algũa couſa no fogo. Vt,* Xiuega fa- |  |
@@ -72,7 +72,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | &emsp;*Desembainharſe a* Catana *por ſi.* X*. No* Ca- |  |
+| `c2-l001` | &emsp;*Desembainharſe a Catana por ſi.* X*. No* Ca- |  |
 | `c2-l002` | &emsp;mi *ſe diz,* Jayabaxiru. *¶* Chiyeno fa- |  |
 | `c2-l003` | &emsp;xitta monogia. *He homem ſagaz, &* |  |
 | `c2-l004` | &emsp;*agudo. ¶* Faxiru vmani muchi. *Prou.* |  |
@@ -115,7 +115,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l041` | Faxita. *Reſto que fica da conta, ou numero im-* |  |
 | `c2-l042` | &emsp;*perfeito, & falto daquelle que he ordinario,* |  |
 | `c2-l043` | &emsp;*como ſe faltaſſem 10. ou 20. folhas de pa-* |  |
-| `c2-l044` | &emsp;*pel pera cento que tem hũa mão de* Torimeco: |  |
+| `c2-l044` | &emsp;*pel pera cento que tem hũa mão de Torimeco:* |  |
 | `c2-l045` | &emsp;*aquelle numero imperfeito, & falto ſe dirá* |  |
 | `c2-l046` | &emsp;Iſſocuno faxita. |  |
 | `c2-l047` | Faxita. *Vide,* Faxit. nereno. |  |

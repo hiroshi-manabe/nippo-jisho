@@ -19,7 +19,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l003` | Firomi. i, Firoi tocoro. *Lugar largo, &* |  |
 | `c1-l004` | &emsp;*eſpaçoſo.* |  |
 | `c1-l005` | Fironiua. *Patio largo.* |  |
-| `c1-l006` | Firosuguyaqiba. *Aço de* Catana *que vai con-* |  |
+| `c1-l006` | Firosuguyaqiba. *Aço de Catana que vai con-* |  |
 | `c1-l007` | &emsp;*tinuando como vea larga, & comprida.* |  |
 | `c1-l008` | Firoyen. *Varanda larga.* |  |
 | `c1-l009` | Firu. *De dia, ou a meo dia. ¶* Yoru, firu. |  |
@@ -100,7 +100,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l026` | &emsp;*que da no capacete, ou peito darmas, &c.* |  |
 | `c2-l027` | Fissabaqi, u, aita. *Ordenar, ou adminiſtrar* |  |
 | `c2-l028` | &emsp;*a caſa, &c. ¶ Item, Menear liuremen-* |  |
-| `c2-l029` | &emsp;*te, & com deſtreza as armas como* Catana, |  |
+| `c2-l029` | &emsp;*te, & com deſtreza as armas como Catana,* |  |
 | `c2-l030` | &emsp;Naguinata, &c. *¶* Irouo fissabaqu. |  |
 | `c2-l031` | &emsp;*Deſempeçar, & amanhar bem o fio das linhas.* |  |
 | `c2-l032` | Fissague, uru, eta. *Leuar algũa couſa depen-* |  |

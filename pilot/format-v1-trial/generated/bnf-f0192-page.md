@@ -15,7 +15,7 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c1-l001` |  | *como papel, &c. ¶* Cha, comugui na- |
-| `c1-l002` | &emsp;douo fiqu. *Moer* cha, *trigo, &c.* |  |
+| `c1-l002` | &emsp;douo fiqu. *Moer cha, trigo, &c.* |  |
 | `c1-l003` | &emsp;*¶* Xbu, ſuminadouo fiqu. *Dar pincella-* |  |
 | `c1-l004` | &emsp;*da com ſumo de figos de Iapão, tinta, &c.* |  |
 | `c1-l005` | &emsp;*¶* Cuſauo fiqu. *Arrancar eruas com a mão.* |  |
@@ -46,7 +46,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l030` | Fiqiate, tçuru, eta. *Puxando por ſobre algũa* |  |
 | `c1-l031` | &emsp;*couſa. Vt,* Catanauo nuqidaite, biru fi- |  |
 | `c1-l032` | &emsp;qiateraretareba, &c. Feiq*. Lib. 1.* |  |
-| `c1-l033` | &emsp;*Deſembainhando a* Catana *chegou a, & paſ-* |  |
+| `c1-l033` | &emsp;*Deſembainhando a Catana chegou a, & paſ-* |  |
 | `c1-l034` | &emsp;*ſou a pellos cabellos das fontes pera que melhor* |  |
 | `c1-l035` | &emsp;*cortaſſe.* |  |
 | `c1-l036` | Fiqiauaxe. *Abertura, ou juntura das armas.* |  |
@@ -111,7 +111,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l037` | Fiqicayexi, u, eita. *Puxando virar, ou tor-* |  |
 | `c2-l038` | &emsp;*nar algũa couſa pera tras.* |  |
 | `c2-l039` | Fiqicazzuqi, u, uita. *Puxando cubrirſe.* |  |
-| `c2-l040` | Fiqicha. Cha *moido.* |  |
+| `c2-l040` | Fiqicha. *Cha moido.* |  |
 | `c2-l041` | Fiqichigaye, uru, eta. *Por a parte dian-* |  |
 | `c2-l042` | &emsp;*teira do veſtido ſobre a outra eſquerda às a-* |  |
 | `c2-l043` | &emsp;*ueſſas do que cuſtumão os Iapões. Vt,* Qi- |  |

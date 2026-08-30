@@ -20,7 +20,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l004` | &emsp;*lhe falta algũa parte, &c.* |  |
 | `c1-l005` | Fanpû. Xirami. *Piolho.* |  |
 | `c1-l006` | Fanqi. Iyno vtçuamono. *Eſcudella, ou* |  |
-| `c1-l007` | &emsp;Goqi *de arroz.* |  |
+| `c1-l007` | &emsp;*Goqi de arroz.* |  |
 | `c1-l008` | Fanqiôjin. *Meo doudo.* |  |
 | `c1-l009` | Fanqiû. *Certo arco pequeno, ou beſta de atirar.* |  |
 | `c1-l010` | Fanqui. Xiguei fana. *Flores, ou fullas mui-* |  |
@@ -47,7 +47,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l031` | Fanxi. i, Nacarajini. *Meo morto: quando ſe a-* |  |
 | `c1-l032` | &emsp;*junta com Fajô ſe diz,* Fanji fanjô. *Vt ſupra.* |  |
 | `c1-l033` | Fanxi. *Carta aſſinada em branco. ¶ Item,* |  |
-| `c1-l034` | &emsp;*No Chûgocu papel em que o* Yacata *eſcreue* |  |
+| `c1-l034` | &emsp;*No Chûgocu papel em que o Yacata eſcreue* |  |
 | `c1-l035` | &emsp;*cartas.* |  |
 | `c1-l036` | Fanxû. Focage bune. *Embarcação à vella.* |  |
 | `c1-l037` | Fanxucqe. *Hum paſſaro como coruo que tem* |  |
@@ -59,7 +59,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l043` | Fanza. i, Zano fanbun. *Mea ſala, ou mea* |  |
 | `c1-l044` | &emsp;*camara. ¶* Fanzauo vaqete fitouo iſi- |  |
 | `c1-l045` | &emsp;s. *Fazer aſſentar a alguem, dandolhe* |  |
-| `c1-l046` | &emsp;*meo* Zaxiqi. |  |
+| `c1-l046` | &emsp;*meo Zaxiqi.* |  |
 | `c1-l047` | Fanzacu. Nacara tçucuru. *Obra mea feita,* |  |
 | `c1-l048` | &emsp;*ou imperfeita.* |  |
 
@@ -110,11 +110,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l029` | &emsp;qu. *Dizer ſentenças.* Quôguenuo fa- |  |
 | `c2-l030` | &emsp;qu. *Dizer fanfarrices, ou roncas.* |  |
 | `c2-l031` | Faqi, u, aita. *Calçar. Vt,* Tabiuo faqu. |  |
-| `c2-l032` | &emsp;*Calçar os* Tabis. *¶* Tachiuo faqu. *Cin-* |  |
+| `c2-l032` | &emsp;*Calçar os Tabis. ¶* Tachiuo faqu. *Cin-* |  |
 | `c2-l033` | &emsp;*gir montante.* |  |
 | `c2-l034` | Faqiacu. Yaburu. *Deſtruição.* |  |
 | `c2-l035` | Faqiague, uru, eta. *Subir calçado como a o* |  |
-| `c2-l036` | &emsp;Zaxigi, *ou varanda, &c.* |  |
+| `c2-l036` | &emsp;*Zaxigi, ou varanda, &c.* |  |
 | `c2-l037` | Faqicaqe, uru, eta. *Cuſpir ſobre algũa couſa.* |  |
 | `c2-l038` | &emsp;*Vt,* Fitono vyeuo vtçayuru monoua chi- |  |
 | `c2-l039` | &emsp;uo fucunde fitoni faqicaquruto vonaji |  |

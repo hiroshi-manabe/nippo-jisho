@@ -53,7 +53,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l037` | &emsp;*ou eſcreueo.* S*.* |  |
 | `c1-l038` | Fômot. *Eſmola q̃ ſe dá por reſpeito de propagar* |  |
 | `c1-l039` | &emsp;*a lei, aleuantar Igrejas, &c.* |  |
-| `c1-l040` | Fômu. *Certo officio entre os* Bǒzos. |  |
+| `c1-l040` | Fômu. *Certo officio entre os Bǒzos.* |  |
 | `c1-l041` | Fomura. *Chamas de fogo. ¶* Fomurauo |  |
 | `c1-l042` | &emsp;meyasu. *Encolerizarſe, ou acenderſe em* |  |
 | `c1-l043` | &emsp;*colera.* |  |
@@ -98,9 +98,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l024` | &emsp;*eſtado, & renda.* |  |
 | `c2-l025` | Fonbun. *Primeiro principio.* Bup*.* |  |
 | `c2-l026` | Fonbut. Fonno Fotoqe. *Primeiro, & pro-* |  |
-| `c2-l027` | &emsp;*prio* Fotoque. |  |
+| `c2-l027` | &emsp;*prio Fotoque.* |  |
 | `c2-l028` | Fonchi. Fonno chiye. *Verdadeiro ſaber do* |  |
-| `c2-l029` | &emsp;*que ſe fala no* Buppǒ. |  |
+| `c2-l029` | &emsp;*que ſe fala no Buppǒ.* |  |
 | `c2-l030` | Fonchi. Motono riǒchi. *Renda propria q̃* |  |
 | `c2-l031` | &emsp;*hum tinha dantes. ¶* Fonchiye cayeru. |  |
 | `c2-l032` | &emsp;*Tornar a ſua propria renda.* |  |
@@ -113,7 +113,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l039` | &emsp;*a arte de medicina. ¶* Fondǒuo ſuru. *E-* |  |
 | `c2-l040` | &emsp;*xercitar a medicina.* |  |
 | `c2-l041` | Fondǒ. *Igreja matriz, ou principal em reſpeito* |  |
-| `c2-l042` | &emsp;*dalgũas ermidas, ou capelas, ou* Zinjas. |  |
+| `c2-l042` | &emsp;*dalgũas ermidas, ou capelas, ou Zinjas.* |  |
 | `c2-l043` | Fone. *Oſſo. ¶* Foneuo vuu. *Por mui-* |  |
 | `c2-l044` | &emsp;*ta diligencia com trabalho.* |  |
 | `c2-l045` | Fone. *Armação do abano, ſombreiro, Eibuxi,* |  |

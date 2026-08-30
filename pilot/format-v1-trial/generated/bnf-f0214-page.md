@@ -19,15 +19,15 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l003` | Fossǒjù. *Certa ſeita que veo da China.* |  |
 | `c1-l004` | Fossu. *Hũa maneira de vara com que tan-* |  |
 | `c1-l005` | &emsp;*gem os bois, ou caualos que puxão pello carro.* |  |
-| `c1-l006` | &emsp;*¶ Item, Certa vara de que vſão os* Lenxus |  |
+| `c1-l006` | &emsp;*¶ Item, Certa vara de que vſão os Lenxus* |  |
 | `c1-l007` | &emsp;*em ſuas ceremonias.* |  |
 | `c1-l008` | Fota. *Pao grande, ou aruore caida no chão,* |  |
 | `c1-l009` | &emsp;*& podre.* |  |
-| `c1-l010` | Fotade. *Flor da erua chamada* Tade. |  |
+| `c1-l010` | Fotade. *Flor da erua chamada Tade.* |  |
 | `c1-l011` | Fôtai. i, Fachi. *Abelha.* |  |
 | `c1-l012` | Fotaru. *Cagalume.* |  |
 | `c1-l013` | Fotategai. *Certo genero de lapas, cuja caſca* |  |
-| `c1-l014` | &emsp;*ſerue de vieira pera tirar* Xiru, *ou caldo da* |  |
+| `c1-l014` | &emsp;*ſerue de vieira pera tirar Xiru, ou caldo da* |  |
 | `c1-l015` | &emsp;*panella.* |  |
 | `c1-l016` | Fotebara. *Eſpaço, ou lugar no meo da barriga* |  |
 | `c1-l017` | &emsp;*do homem.* |  |
@@ -48,7 +48,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l032` | &emsp;*dor da lei. ¶* Fôtôuo cacaguru. *Eſpa-* |  |
 | `c1-l033` | &emsp;*lhar, ou communicar a luz da lei pregandoa,* |  |
 | `c1-l034` | &emsp;*&c. ¶ Item, Acender lume como a lam-* |  |
-| `c1-l035` | &emsp;*pada diante do* Fotoque. |  |
+| `c1-l035` | &emsp;*pada diante do Fotoque.* |  |
 | `c1-l036` | Fotobacaxi, ſu, aita. *Abrandar, ou amo-* |  |
 | `c1-l037` | &emsp;*lecer algũa couſa metendoa na agoa, &c.* |  |
 | `c1-l038` | Fotobi, uru, ita. *Amolecer, ou abrandarſe* |  |
@@ -76,7 +76,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l002` | Fotondo. i, Voyoso. *Pola môr parte, ou* |  |
 | `c2-l003` | &emsp;*mais frequentemente.* |  |
 | `c2-l004` | Fotoqenoza. *Certa erua. ¶ Item, Aſ-* |  |
-| `c2-l005` | &emsp;*ſento, ou trono do* Fotoque *que he à maneira* |  |
+| `c2-l005` | &emsp;*ſento, ou trono do Fotoque que he à maneira* |  |
 | `c2-l006` | &emsp;*de flor do golſão.* |  |
 | `c2-l007` | Fotori. *Borda de algũa couſa, ou junto, &c.* |  |
 | `c2-l008` | &emsp;*¶* Michino fotori. *Borda, ou junto do* |  |

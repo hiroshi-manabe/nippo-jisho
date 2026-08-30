@@ -31,7 +31,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l015` | Cuniuaqe. *Diuiſão dos reinos.* |  |
 | `c1-l016` | Cuniùdo. *Os naturaes do reino.* |  |
 | `c1-l017` | Cuni xu. *Os principaes do reino. Palaura que* |  |
-| `c1-l018` | &emsp;*corre em* Bungo. *¶ Item, Os do reino.* |  |
+| `c1-l018` | &emsp;*corre em Bungo. ¶ Item, Os do reino.* |  |
 | `c1-l019` | Cunizacai. *Termo, ou arraya do reino.* |  |
 | `c1-l020` | Cunizzucuxi. *Reinos pintados em mapa, ou* |  |
 | `c1-l021` | &emsp;*eſcritos de letra.* |  |

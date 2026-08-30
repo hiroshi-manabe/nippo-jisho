@@ -33,8 +33,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l017` | &emsp;*diſcipulos.* |  |
 | `c1-l018` | Gacutô. *Cabeça, ou principal em couſas de* |  |
 | `c1-l019` | &emsp;*muſica, ou inſtrumentos muſicos. ¶ Item,* |  |
-| `c1-l020` | &emsp;*Cabeça, ou ſuperior principal entre os* Bonzos |  |
-| `c1-l021` | &emsp;*chamados* Xǒdǒ. |  |
+| `c1-l020` | &emsp;*Cabeça, ou ſuperior principal entre os Bonzos* |  |
+| `c1-l021` | &emsp;*chamados Xǒdǒ.* |  |
 | `c1-l022` | Gacutocu. Manabi uru. *O ter aprendido,* |  |
 | `c1-l023` | &emsp;*ou recebido doutrina, &c.* |  |
 | `c1-l024` | Gacuxa. *Letrado, ou ſabio.* |  |
@@ -82,7 +82,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l002` | Gafô. Vaga fô. *Minha ſeita, ou ley.* Bup*.* |  |
 | `c2-l003` | Gagacu. Bup. Vaga ſatori. *Vt,* Gagacu |  |
 | `c2-l004` | &emsp;ſonpuxǒ. *Saber naturalmente ſem aprẽ-* |  |
-| `c2-l005` | &emsp;*der nem diſcorrer como diſſe* Xaca *de ſi.* |  |
+| `c2-l005` | &emsp;*der nem diſcorrer como diſſe Xaca de ſi.* |  |
 | `c2-l006` | Gagan. i, Ieni. *Caixas.* |  |
 | `c2-l007` | Gagari. *Certa feição de ſerra de carpinteiros* |  |
 | `c2-l008` | &emsp;*com que abrem algum pao ao comprido.* |  |

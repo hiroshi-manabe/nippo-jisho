@@ -44,11 +44,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l028` | &emsp;*¶* Gofucuuo cudaſaruru. *Dar o Rey,* |  |
 | `c1-l029` | &emsp;*ou outro ſenhor algum veſtido.* |  |
 | `c1-l030` | Fucu. Saiuai. *Proſperidade, & riquezas,* |  |
-| `c1-l031` | &emsp;*que ſe pedem aos* Camis, *ou* Fotoques. *Vt,* |  |
+| `c1-l031` | &emsp;*que ſe pedem aos Camis, ou Fotoques. Vt,* |  |
 | `c1-l032` | &emsp;Fucuuo cǒ, l, inoru. *Pedir, ou fazer depre-* |  |
 | `c1-l033` | &emsp;*cações por bens temporaes.* |  |
 | `c1-l034` | Fucu, l, fucutǒ. *Hum certo peixe que ſe co-* |  |
-| `c1-l035` | &emsp;*me em* Xiru *tirada a peçonha que tem.* |  |
+| `c1-l035` | &emsp;*me em Xiru tirada a peçonha que tem.* |  |
 | `c1-l036` | Fucubiǒ. i, Farano yamai. *Certa doença* |  |
 | `c1-l037` | &emsp;*com que incha a barriga, & ſe torna a côr* |  |
 | `c1-l038` | &emsp;*do roſto verde, & amarella.* |  |

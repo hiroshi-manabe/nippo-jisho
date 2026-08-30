@@ -46,7 +46,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l030` | Cufǒ. *Regras pera ſaber fazer certos verſos,* |  |
 | `c1-l031` | &emsp;*ou compor ſentenças.* |  |
 | `c1-l032` | Cufõno jǒdo. Cocorotçuno xina. *Paraiſo de* |  |
-| `c1-l033` | &emsp;Amida, *onde há nove graos, ou lugares de* |  |
+| `c1-l033` | &emsp;*Amida, onde há nove graos, ou lugares de* |  |
 | `c1-l034` | &emsp;*gloria. ¶* Cufon jǒdoni itaru. *Emtrar* |  |
 | `c1-l035` | &emsp;*neſta gloria.* |  |
 | `c1-l036` | Cufù. *Conſideração.* Cufù ſuru. *Medi-* |  |
@@ -60,7 +60,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l044` | &emsp;*&c. ¶* Cugaiuo yamuru. *Deixar de cor-* |  |
 | `c1-l045` | &emsp;*rer com eſtas couſas, & negocios publicos.* |  |
 | `c1-l046` | Cugaigoto. *Couſas, ou negocios publicos.* |  |
-| `c1-l047` | Cugue. *Familias dos* Cugues *que ſeruẽ ao* Dairi |  |
+| `c1-l047` | Cugue. *Familias dos Cugues que ſeruẽ ao Dairi* |  |
 
 ## Column 2 running header
 
@@ -92,7 +92,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l018` | &emsp;*Paſſar fazendo grande penitencia, ou ſofrendo* |  |
 | `c2-l019` | &emsp;*grandes trabalhos, & afflições pella ſaluação.* |  |
 | `c2-l020` | Cuguiǒ. Qimi qimi. *Os que aſsiſtem junto* |  |
-| `c2-l021` | &emsp;*do* Dairi, *& ſão ſeus conſelheiros.* |  |
+| `c2-l021` | &emsp;*do Dairi, & ſão ſeus conſelheiros.* |  |
 | `c2-l022` | Cuguiǒ tenjǒbito. *Os grandes da corte do* |  |
 | `c2-l023` | &emsp;*Rei, ou que tem entrada no paço.* |  |
 | `c2-l024` | Cuguizzuqe. *Pregadura de pregos, ou couſa* |  |
@@ -101,8 +101,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l027` | &emsp;nari. *Eſpaço que ouue antes de ſe criar o* |  |
 | `c2-l028` | &emsp;*mundo.* |  |
 | `c2-l029` | Cugu. *Aparelhos como meſas, &c. em que* |  |
-| `c2-l030` | &emsp;*ſe poem, & offerecem algũa couſa aos* Camis, |  |
-| `c2-l031` | &emsp;*&* Fotoques. |  |
+| `c2-l030` | &emsp;*ſe poem, & offerecem algũa couſa aos Camis,* |  |
+| `c2-l031` | &emsp;*& Fotoques.* |  |
 | `c2-l032` | Cugu. *Hũa erua de que ſe fazem cordas del-* |  |
 | `c2-l033` | &emsp;*gadas. ¶* Cugunaua. *Corda deſta erua.* |  |
 | `c2-l034` | Cugu-i. i. Facuchô. *Cizne.* |  |
@@ -116,7 +116,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l042` | &emsp;*ou inclinarſe pera a parte de diante (Scil.) he* |  |
 | `c2-l043` | &emsp;*entortarſe, ou empenarſe pera de traz. ¶* Ca- |  |
 | `c2-l044` | &emsp;tana ga cugũda. *Eſtar torta, ou dobrada a* |  |
-| `c2-l045` | &emsp;Catana *para parte de diante.* |  |
+| `c2-l045` | &emsp;*Catana para parte de diante.* |  |
 | `c2-l046` | Cuguri, u, utta. *Paſſar por algum lugar eſ-* |  |
 | `c2-l047` | &emsp;*treito, & pequeno abaixandoſe.* |  |
 

@@ -24,7 +24,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l008` | &emsp;ruru. *Condenar, ou ſer condenado a morte,* |  |
 | `c1-l009` | &emsp;*ou juſtiçado.* |  |
 | `c1-l010` | Guenquan. *Entrada, ou porta do caminho por* |  |
-| `c1-l011` | &emsp;*onde vão ao* Chanoyu. *¶ Item, Porta in-* |  |
+| `c1-l011` | &emsp;*onde vão ao Chanoyu. ¶ Item, Porta in-* |  |
 | `c1-l012` | &emsp;*terior por onde ſe entra em caſa dalguem.* |  |
 | `c1-l013` | Guenquan. Arauaruru cuda, ſuiyǒno noco- |  |
 | `c1-l014` | &emsp;ru guiuo yǔ. *Reſtante das contas.* |  |
@@ -39,7 +39,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l023` | Guenson. Feri, ſonzuru. *Diminuição, &* |  |
 | `c1-l024` | &emsp;*perda como de fazenda, &c.* S*.* |  |
 | `c1-l025` | Guentan. Xǒguachino axita. *Primeira* |  |
-| `c1-l026` | &emsp;*manhaã do* Xǒguachi. S*.* |  |
+| `c1-l026` | &emsp;*manhaã do Xǒguachi.* S*.* |  |
 | `c1-l027` | Guẽtǒ. *Eſte mundo, ou vida preſente & futura.* |  |
 | `c1-l028` | &emsp;*¶* Guentǒ rixeno vongouo auogu ta- |  |
 | `c1-l029` | &emsp;tem tçuru. *Pedir a proteição deſte mundo,* |  |
@@ -82,7 +82,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l007` | Gueôtai. *Vide,* Guiôtai. |  |
 | `c2-l008` | Gueôxǒ. *Vide,* Guiôxǒ. |  |
 | `c2-l009` | Gueppacu. Tçuqi, xemaru. i, Tçugino fa- |  |
-| `c2-l010` | &emsp;re. *Fim dos meſes que he* Xiualu. |  |
+| `c2-l010` | &emsp;re. *Fim dos meſes que he Xiualu.* |  |
 | `c2-l011` | Gueqicon. *Vide,* Guecon. |  |
 | `c2-l012` | Gueqifa. Sacaxima nami. *Ondas aleuanta-* |  |
 | `c2-l013` | &emsp;*das que vem por proa.* |  |
@@ -107,7 +107,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l032` | Guequan. *Melius,* Caquan. i, Fiqij cue- |  |
 | `c2-l033` | &emsp;rai. *Dignidade baixa. Vt,* Jǒquan gue- |  |
 | `c2-l034` | &emsp;quan. *Suprema, & infima dignidade.* |  |
-| `c2-l035` | Gueracu. *Decer, ou vir do* Miyaco *pera outra* |  |
+| `c2-l035` | Gueracu. *Decer, ou vir do Miyaco pera outra* |  |
 | `c2-l036` | &emsp;*parte.* |  |
 | `c2-l037` | Gueriacu. *Potiùs,* Cariacu. Xitauo ria- |  |
 | `c2-l038` | &emsp;culu. *O abreuiar, ou deixar de tocar cer-* |  |

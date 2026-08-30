@@ -32,12 +32,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l016` | &emsp;mono, &c. |  |
 | `c1-l017` | Fucusaguinu. *Sendal, ou pedaço de peça del-* |  |
 | `c1-l018` | &emsp;*gada, & branda pera a limpar algũas peças* |  |
-| `c1-l019` | &emsp;*delicadas, & bem vruxadas como o* Natçume |  |
-| `c1-l020` | &emsp;*do* Chanoyu, *&c.* |  |
+| `c1-l019` | &emsp;*delicadas, & bem vruxadas como o Natçume* |  |
+| `c1-l020` | &emsp;*do Chanoyu, &c.* |  |
 | `c1-l021` | Fucusana fito. *Permet. Homem brãdo, & facil.* |  |
-| `c1-l022` | Fucusamiso. Miſo *delido.* |  |
+| `c1-l022` | Fucusamiso. *Miſo delido.* |  |
 | `c1-l023` | Fucusamono. *Pano brãdo, & macio pera a* |  |
-| `c1-l024` | &emsp;*limpar os vaſos do* Cha. |  |
+| `c1-l024` | &emsp;*limpar os vaſos do Cha.* |  |
 | `c1-l025` | Fucutacu. *O florecer muito em riquezas.* |  |
 | `c1-l026` | Fucutçǔ. Farano itami. *Dor de barriga, ou* |  |
 | `c1-l027` | &emsp;*eſtamago.* |  |
@@ -97,15 +97,15 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l023` | &emsp;*pay, auos, &c.* |  |
 | `c2-l024` | Fudan. Tayezu. i, Itçumo. *Sempre.* |  |
 | `c2-l025` | Fudancǒ. *Certa caſca de aruore, ou folhas de* |  |
-| `c2-l026` | &emsp;*loureiro, &c. que ſe queimão diante do* Foto- |  |
-| `c2-l027` | &emsp;que *como cheiro, & juntamente ſeruem de relo-* |  |
+| `c2-l026` | &emsp;*loureiro, &c. que ſe queimão diante do Foto-* |  |
+| `c2-l027` | &emsp;*que como cheiro, & juntamente ſeruem de relo-* |  |
 | `c2-l028` | &emsp;*jio, por que ſe vão queimando, & gaſtando pou-* |  |
 | `c2-l029` | &emsp;*co a pouco.* |  |
 | `c2-l030` | Fudan, jǒgiǔ. *Sempre, & ſem ceſſar.* |  |
 | `c2-l031` | Fudaracu. *Paraiſo de Quãuon, o qual dizem* |  |
 | `c2-l032` | &emsp;*os gentios eſtar pera parte do Sul. ¶* Fu- |  |
 | `c2-l033` | &emsp;daracuni vataru. *Embarcarſe pera eſte pa-* |  |
-| `c2-l034` | &emsp;*raiſo o que fazem algũs* Bonzos *metendoſe em* |  |
+| `c2-l034` | &emsp;*raiſo o que fazem algũs Bonzos metendoſe em* |  |
 | `c2-l035` | &emsp;*hũa embarcação bem paramentada, & orna-* |  |
 | `c2-l036` | &emsp;*da, & carregada de pedras donde ſe botão ao* |  |
 | `c2-l037` | &emsp;*mar, & ſe afogão.* |  |

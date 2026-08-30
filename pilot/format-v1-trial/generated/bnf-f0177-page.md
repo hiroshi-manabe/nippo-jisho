@@ -23,9 +23,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l007` | Faxeai, uǒ, uǒta. *Encontraremſe algũs cõ* |  |
 | `c1-l008` | &emsp;*preſſa.* |  |
 | `c1-l009` | Faxeatçumari, u, atta. *Ajuntarſe de preſſa.* |  |
-| `c1-l010` | Faxeague, uru, eta. *Dar a* Fune *ſobre algũa* |  |
+| `c1-l010` | Faxeague, uru, eta. *Dar a Fune ſobre algũa* |  |
 | `c1-l011` | &emsp;*pedra, ou em algum baxo, &c. Vt,* Fune |  |
-| `c1-l012` | &emsp;uo xeni faxeagueta. *Deu a* Fune *em hũa* |  |
+| `c1-l012` | &emsp;uo xeni faxeagueta. *Deu a Fune em hũa* |  |
 | `c1-l013` | &emsp;*reſtinga.* |  |
 | `c1-l014` | Faxearuqi, u, uita. *Correr de cá, pera lá.* |  |
 | `c1-l015` | Faxeauaxe, ſuru, eta. *Fazer encontrar.* |  |

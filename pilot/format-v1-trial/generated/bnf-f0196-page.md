@@ -58,7 +58,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l042` | &emsp;Firǒ. |  |
 | `c1-l043` | Firajǒ. *Fortaleza que eſta em terra praina.* |  |
 | `c1-l044` | Firamecaxi, ſu, aita. *Fazer reluzir, ou re-* |  |
-| `c1-l045` | &emsp;*ſplandecer bulindo como arma,* Catana, *&c.* |  |
+| `c1-l045` | &emsp;*ſplandecer bulindo como arma, Catana, &c.* |  |
 | `c1-l046` | &emsp;*¶* Vǒguiuo firamecaſu. *Menear, & vi-* |  |
 | `c1-l047` | &emsp;*rar o abano.* |  |
 
@@ -95,7 +95,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l021` | &emsp;uo firaqu. *Abrir os olhos. ¶* Fuxinuo |  |
 | `c2-l022` | &emsp;firaqu. *Soltar a duuida. ¶* Fanaga fi- |  |
 | `c2-l023` | &emsp;raqu. *Abrir a roſa. ¶* Fachiuo firaqu. |  |
-| `c2-l024` | &emsp;*Pedir eſmola, propriamente ſe diz de* Bonzos, |  |
+| `c2-l024` | &emsp;*Pedir eſmola, propriamente ſe diz de Bonzos,* |  |
 | `c2-l025` | &emsp;*ou religioſos. ¶* Diouo fanni, l, fangui- |  |
 | `c2-l026` | &emsp;ni firaqu. *Imprimir liuros. ¶* Qiyeno |  |
 | `c2-l027` | &emsp;mayuuo firaqu. *Alegrarſe muito.* |  |
@@ -116,7 +116,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l042` | &emsp;*uor no canto, bailo, pregação, &c. & reti-* |  |
 | `c2-l043` | &emsp;*rarſe, ou aquietarſe a ſeu tempo.* |  |
 | `c2-l044` | Firaqiauaxe, uru, eta. *Deſencontrarſe cõ as* |  |
-| `c2-l045` | &emsp;Catanas *nos golpes, ou talhos da eſgrima.* |  |
+| `c2-l045` | &emsp;*Catanas nos golpes, ou talhos da eſgrima.* |  |
 | `c2-l046` | Firaqido. *Porta que ſe abre ſobre couceira.* |  |
 | `c2-l047` | Firaqiuacare, uru, eta. *Retirarſe, & diui-* |  |
 | `c2-l048` | &emsp;*dirſe.* |  |

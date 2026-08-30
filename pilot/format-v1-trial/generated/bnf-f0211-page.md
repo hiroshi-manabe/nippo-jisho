@@ -53,9 +53,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l037` | Fǒqei. Cǒbaxij megumi. *Beneficios, ou mi-* |  |
 | `c1-l038` | &emsp;*mos, & afabilidade que ſe moſtra a alguem* |  |
 | `c1-l039` | &emsp;*falando com corteſia.* S*.* |  |
-| `c1-l040` | Fôqen. Tacarano qen. *Eſpada de* Tenxǒdai- |  |
+| `c1-l040` | Fôqen. Tacarano qen. *Eſpada de Tenxǒdai-* |  |
 | `c1-l041` | &emsp;*jin, que he hũa das tres peças prezadas que tẽ* |  |
-| `c1-l042` | &emsp;*o* Dairi. *¶ Item, Eſpada do Rei. i,* |  |
+| `c1-l042` | &emsp;*o Dairi. ¶ Item, Eſpada do Rei. i,* |  |
 | `c1-l043` | &emsp;Guioquen. |  |
 | `c1-l044` | Foqet. Chiuo voguino. *O temperar, ou re-* |  |
 | `c1-l045` | &emsp;*fazer o ſangue.* S*.* |  |
@@ -109,7 +109,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l035` | Fôquan. *Certa maneira de frauta.* |  |
 | `c2-l036` | Fora. *Cauerna, ou lapa.* |  |
 | `c2-l037` | Fôracu. *Folguedo como auto, bailo, &c. que* |  |
-| `c2-l038` | &emsp;*ſe faz diante dos* Camis, *&* Fotoques, *ou por* |  |
+| `c2-l038` | &emsp;*ſe faz diante dos Camis, & Fotoques, ou por* |  |
 | `c2-l039` | &emsp;*reſpeito dalgum defunto ja de muito tempo.* |  |
 | `c2-l040` | Fôracu ſuru. *Fazer eſte folguedo.* |  |
 | `c2-l041` | Foragai. i, Forano cai. *Buzio com que cha-* |  |

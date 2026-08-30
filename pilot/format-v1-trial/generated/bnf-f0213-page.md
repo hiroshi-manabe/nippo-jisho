@@ -44,7 +44,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l028` | Foromeqi, u, eita. *Deſapegarſe o arroz,* |  |
 | `c1-l029` | &emsp;*&c. que não he viſcoſo, ou esboroarſe, ou eſ-* |  |
 | `c1-l030` | &emsp;*miuçarſe algũa couſa.* |  |
-| `c1-l031` | Foromiso. *Certa laya de* Miſo. |  |
+| `c1-l031` | Foromiso. *Certa laya de Miſo.* |  |
 | `c1-l032` | Fôron. Norino ronzuru. *Diſputa acerca das* |  |
 | `c1-l033` | &emsp;*leis.* |  |
 | `c1-l034` | Foroqe, uru, eta. *Quebrarſe, ou esboroarſe.* |  |
@@ -79,7 +79,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l004` | Fǒsǒ. Cǒbaxij cuſa. *Erua cheiroſa.* S*.* |  |
 | `c2-l005` | Fǒsǒ. *Doença de bexigas.* |  |
 | `c2-l006` | Fôsô. Tomano mado. *Freſta que ſe abre na* |  |
-| `c2-l007` | &emsp;Fune *entre as tomas, ou eſteiras com que ſe* |  |
+| `c2-l007` | &emsp;*Fune entre as tomas, ou eſteiras com que ſe* |  |
 | `c2-l008` | &emsp;*cobre.* |  |
 | `c2-l009` | Foso. *No* Cami *ſe diz* ſeſo. *Embigo.* |  |
 | `c2-l010` | Fosoai. *Lugar eſtreito entre duas caſas como* |  |

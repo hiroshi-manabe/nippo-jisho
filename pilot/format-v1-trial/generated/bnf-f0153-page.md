@@ -35,7 +35,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1a-l019` | &emsp;*como em briga, ou contenda, &c. ¶* V- |  |
 | `c1a-l020` | &emsp;mauo daſu. *Fazer correr o caualo ſoltamen-* |  |
 | `c1a-l021` | &emsp;*te. ¶* Tencadono vmauo daſaxeraru. |  |
-| `c1a-l022` | &emsp;*O ſenhor da* Tenca *ſe parte pera a guerra. ¶* V- |  |
+| `c1a-l022` | &emsp;*O ſenhor da Tenca ſe parte pera a guerra. ¶* V- |  |
 | `c1a-l023` | &emsp;maga qiuo daſu. *Tomar o caualo brio* |  |
 | `c1a-l024` | &emsp;*como quando começa a correr, &c. ¶* Fauo |  |
 | `c1a-l025` | &emsp;daſu. *Agaſtarſe, ou moſtrar os dentes cõ ira.* |  |

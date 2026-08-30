@@ -17,8 +17,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l001` | Dôza. *O partirſe o general, ou ſenhor que go-* |  |
 | `c1-l002` | &emsp;*uerna todo Iapão pera a guerra. Vt,* Go- |  |
 | `c1-l003` | &emsp;dôza nalaruru. |  |
-| `c1-l004` | Dôza. Vonaji za. *O meſmo* Zaxiqi, *ou o* |  |
-| `c1-l005` | &emsp;*meſmo lugar, ou aſſento do* Zaxiqi. |  |
+| `c1-l004` | Dôza. Vonaji za. *O meſmo Zaxiqi, ou o* |  |
+| `c1-l005` | &emsp;*meſmo lugar, ou aſſento do Zaxiqi.* |  |
 | `c1-l006` | Dôzai. Vonaji tçumi. *O meſmo peccado.* |  |
 | `c1-l007` | Dozǒ. Tçuchigura. *Gudão, ou logeas.* |  |
 | `c1-l008` | Dǒzocu. Xucqeto, zaige. *Religioſos, &* |  |
@@ -61,7 +61,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1f-l008` | &emsp;*dalfaces, nabos, &c.* |  |
 | `c1f-l009` | Fa. *Corte, ou gume de eſpada, &c. ¶* Ca- |  |
 | `c1f-l010` | &emsp;canano faga coboruru. *Fazeremſe mõças* |  |
-| `c1f-l011` | &emsp;*na* Catana *quebrandoſe algũs pedacinhos.* |  |
+| `c1f-l011` | &emsp;*na Catana quebrandoſe algũs pedacinhos.* |  |
 | `c1f-l012` | Fa. *Pena de paſſaro. Vt,* Fauo xexeru, l, |  |
 | `c1f-l013` | &emsp;fajexeri ſuru. *Depenicaremſe os paſſaros.* |  |
 | `c1f-l014` | Fa. *Dentes. ¶* Faga iru, l, ita. *Botare-* |  |
@@ -100,18 +100,18 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l013` | &emsp;iranu. *Não cabem os liuros neſta caxa.* |  |
 | `c2-l014` | &emsp;¶ Tecani fabacaru fodono toga gia. *He* |  |
 | `c2-l015` | &emsp;*peccado muito graue, & enorme de que eſta a* |  |
-| `c2-l016` | &emsp;Tenca *chea.* |  |
+| `c2-l016` | &emsp;*Tenca chea.* |  |
 | `c2-l017` | Fabami, u, ôda. *Inchar algũa parte do corpo.* |  |
 | `c2-l018` | Fabaqi. *Hũas meas calças que ſe cuſtumão em* |  |
 | `c2-l019` | &emsp;*Iapão pera caminhar que não chegão mais que* |  |
 | `c2-l020` | &emsp;*té o artelho.* |  |
 | `c2-l021` | Fabaqi. *Hum ferro, ou cobre preto que tem* |  |
-| `c2-l022` | &emsp;*a* Catana *abaixo do punho como guardas.* |  |
-| `c2-l023` | Fabaqimoto. *Certo lugar na* Catana *apar do* |  |
+| `c2-l022` | &emsp;*a Catana abaixo do punho como guardas.* |  |
+| `c2-l023` | Fabaqimoto. *Certo lugar na Catana apar do* |  |
 | `c2-l024` | &emsp;*punho.* |  |
 | `c2-l025` | Fabari. *Area da praya groſſa miſturada com* |  |
 | `c2-l026` | &emsp;*algũs ſeixinhos. No* Cami *ſe diz,* Araſuna. |  |
-| `c2-l027` | Fabayai. *Vt,* Fabayai catana. Catana *q̃* |  |
+| `c2-l027` | Fabayai. *Vt,* Fabayai catana. *Catana q̃* |  |
 | `c2-l028` | &emsp;*corta muito, ou tem bom fio pera cortar &c.* |  |
 | `c2-l029` | Fabi. *Primeira parte do corpo q̃ ſe começa a* |  |
 | `c2-l030` | &emsp;*formar, ou coalhar no ventre, ou nos ouos do* |  |
@@ -123,7 +123,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l036` | &emsp;*aruore, erua, &c. ¶ Itẽ, Per met. Propagar-* |  |
 | `c2-l037` | &emsp;*ſe, & florecer a familia, lei, virtude &c.* |  |
 | `c2-l038` | Fabiqi, u, ijta. i, Catanano Fauo fiqu. *Deſ-* |  |
-| `c2-l039` | &emsp;*botar o corte da* Catana, *ou danar lhe o fio pe-* |  |
+| `c2-l039` | &emsp;*botar o corte da Catana, ou danar lhe o fio pe-* |  |
 | `c2-l040` | &emsp;*ra que não corte.* |  |
 | `c2-l041` | Fabone. *Dentes. ¶* Faboneno tçuyoi fi- |  |
 | `c2-l042` | &emsp;to. *Homem que tem dentes fortes, & rijos.* |  |

@@ -110,7 +110,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l030` | &emsp;*to modo teſo, ou rijo.* |  |
 | `c2-l031` | Fachifiraqi. *Pedinte.* |  |
 | `c2-l032` | Fachigicu. *Oito liuros, ou partes que tem o Fo-* |  |
-| `c2-l033` | &emsp;*geqiǒ que eſcreueo* Xaca. |  |
+| `c2-l033` | &emsp;*geqiǒ que eſcreueo Xaca.* |  |
 | `c2-l034` | Fachiguire, uru, eta. *Abrirſe, ou gretar o* |  |
 | `c2-l035` | &emsp;*melão, &c. ¶ Item, Fazeremſe gretas nas* |  |
 | `c2-l036` | &emsp;*mãos, ou na carne com frio, ou doença.* |  |

@@ -14,7 +14,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | Fôbucu. *Veſtido de* Bǒzos, *ou religioſos, ou* |  |
+| `c1-l001` | Fôbucu. *Veſtido de Bǒzos, ou religioſos, ou* |  |
 | `c1-l002` | &emsp;*veſtidos de que vſão em ſeus officios, & ſo-* |  |
 | `c1-l003` | &emsp;*lennidades.* |  |
 | `c1-l004` | Fobucuro. *Bolſo da vela quãdo vai cõ vento.* |  |
@@ -27,8 +27,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l011` | &emsp;xǒzu. *O reſtante praticarei depois. ¶* Cu- |  |
 | `c1-l012` | &emsp;gue buquãto fobito yori focaua guegiǔ- |  |
 | `c1-l013` | &emsp;ni fito aritomo miyezariqeri. Tai*. Li-* |  |
-| `c1-l014` | &emsp;*bro 30. Tirando os nobres aſſi* Cugues *co-* |  |
-| `c1-l015` | &emsp;*mo caualeiros não auia dentro do* Miyaco *gente.* |  |
+| `c1-l014` | &emsp;*bro 30. Tirando os nobres aſſi Cugues co-* |  |
+| `c1-l015` | &emsp;*mo caualeiros não auia dentro do Miyaco gente.* |  |
 | `c1-l016` | Focafoca. *Adu. Impetuoſamente, ou com* |  |
 | `c1-l017` | &emsp;*força. Vt,* Focafocato tçuyi touoſu. |  |
 | `c1-l018` | &emsp;*Modo de traſpaſſar com adaga, ou lança furio-* |  |
@@ -54,7 +54,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l038` | Foccocu. Qitano cuni. *Reinos da parte* |  |
 | `c1-l039` | &emsp;*do Norte.* |  |
 | `c1-l040` | Foccu. i, Iydaſu fajimeno cu. *Primeira ſe-* |  |
-| `c1-l041` | &emsp;*tença das* Vtas, *ou verſos que ſe enfião, & cõ-* |  |
+| `c1-l041` | &emsp;*tença das Vtas, ou verſos que ſe enfião, & cõ-* |  |
 | `c1-l042` | &emsp;*tinuão tè cento.* |  |
 | `c1-l043` | Fochifochito. *Adu. Modo de cairem cou-* |  |
 | `c1-l044` | &emsp;*ſas miudas, ou modo de ſoar algũa couſa que ſe* |  |
@@ -115,7 +115,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l041` | &emsp;nuǔ. *Coſer o que eſta deſcoſido.* |  |
 | `c2-l042` | Focosaqi. *Ponta do dardo, ou lança. ¶ Item,* |  |
 | `c2-l043` | &emsp;*Ponta da fiſga.* |  |
-| `c2-l044` | Focqe. *Liuro de* Xaca *chamado Foquequiǒ. Itẽ,* |  |
+| `c2-l044` | Focqe. *Liuro de Xaca chamado Foquequiǒ. Itẽ,* |  |
 | `c2-l045` | &emsp;*Seita dos Focquexus.* |  |
 | `c2-l046` | Focqen. *Certa laya de peças delgadas da* |  |
 | `c2-l047` | &emsp;*China.* |  |

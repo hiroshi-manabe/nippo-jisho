@@ -104,7 +104,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l020` | Fǒbai. *Companheiro.* |  |
 | `c2-l021` | Fobaxira. *Maſto. ¶* Fobaxirauo tatçu- |  |
 | `c2-l022` | &emsp;ru, l, voxitatçuru. *Aleuantar o maſto.* |  |
-| `c2-l023` | Fǒben. *Ardil, ou modo de enſinar o* Fotoque |  |
+| `c2-l023` | Fǒben. *Ardil, ou modo de enſinar o Fotoque* |  |
 | `c2-l024` | &emsp;*com a doutrina apparente pera que o pouo ſe affei-* |  |
 | `c2-l025` | &emsp;*çoe, poſto que em ſecreto tenha, & enſine ou-* |  |
 | `c2-l026` | &emsp;*tra couſa.* |  |

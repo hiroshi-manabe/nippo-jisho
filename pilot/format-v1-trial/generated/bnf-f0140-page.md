@@ -14,7 +14,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | &emsp;*te do* Fotoqe, *ou às almas dos defuntos.* |  |
+| `c1-l001` | &emsp;*te do Fotoqe, ou às almas dos defuntos.* |  |
 | `c1-l002` | Cujet. i. Cǒjet. *Boca, & lingua.* Cujet |  |
 | `c1-l003` | &emsp;no qiita fito. *Homem que pratica bem, ou* |  |
 | `c1-l004` | &emsp;*eloquentemente.* |  |

@@ -16,7 +16,7 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c1-l001` | &emsp;*molher: palaura de molheres.* |  |
 | `c1-l002` | Futauoqi. *Couſa em que ſe poem a cobertura,* |  |
-| `c1-l003` | &emsp;*ou teſto do caldeirão, ou panella do* Chanoyu. |  |
+| `c1-l003` | &emsp;*ou teſto do caldeirão, ou panella do Chanoyu.* |  |
 | `c1-l004` | Futçǔ. Amanecu touoru. *Vniuerſalmente,* |  |
 | `c1-l005` | &emsp;*ou pella mòr parte. ¶* Futçǔna fitode nai. |  |
 | `c1-l006` | &emsp;*Não he qualquer homem, ou dos ordi-* |  |

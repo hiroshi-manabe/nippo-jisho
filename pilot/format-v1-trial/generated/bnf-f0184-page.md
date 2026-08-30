@@ -18,7 +18,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l002` | Fenxô. *Melius,* Fenjô. Vt, Quǒmǒ fen- |  |
 | `c1-l003` | &emsp;jô. Bup*.* Amanecu teraſu. *Alumi-* |  |
 | `c1-l004` | &emsp;*ar tudo, como cuidão os gentios que alumia o* |  |
-| `c1-l005` | &emsp;Fotoque. |  |
+| `c1-l005` | &emsp;*Fotoque.* |  |
 | `c1-l006` | Fenxǒ. Tanagocorouo cayeſu. i, Monoga |  |
 | `c1-l007` | &emsp;yagate cauaru. *Mudarẽſe, ou trocarẽſe de preſ-* |  |
 | `c1-l008` | &emsp;*ſa as couſas como ſe vira a palma da mão.* |  |
@@ -35,7 +35,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l019` | &emsp;*dições que na letra de Iapão começao, ou aca-* |  |
 | `c1-l020` | &emsp;*bão em,* eu, *poſto que no pronunciar mais ſe* |  |
 | `c1-l021` | &emsp;*chegão a,* i, *que a,* e, *como ſe ve neſta di-* |  |
-| `c1-l022` | &emsp;*ção,* Fiô: *os do* Cami *tambem aſſi pronuncião.* |  |
+| `c1-l022` | &emsp;*ção,* Fiô: *os do Cami tambem aſſi pronuncião.* |  |
 | `c1-l023` | &emsp;*Mas diſto no prologo ſe dará mais copioſamen-* |  |
 | `c1-l024` | &emsp;*te razão.* |  |
 | `c1-l025` | Feô, l, fiô. Tauara. *Fardo.* |  |

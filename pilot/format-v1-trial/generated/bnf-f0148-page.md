@@ -47,7 +47,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l031` | Cuxizaxi. *O eſpetar. ¶* Fitouo cuxiza- |  |
 | `c1-l032` | &emsp;xini ſuru. *Iuſtiçar a alguem eſpetando.* |  |
 | `c1-l033` | Cùxo. Munaxij tocoro. *Lugar vazio.* |  |
-| `c1-l034` | Cuxǒjin. Tomoni xǒzuru Cami. Cami, |  |
+| `c1-l034` | Cuxǒjin. Tomoni xǒzuru Cami. *Cami,* |  |
 | `c1-l035` | &emsp;*ou Diabo que naſce juntamente com alguem, &* |  |
 | `c1-l036` | &emsp;*lhe aſſiſte em quanto viue, cujo officio he denũ-* |  |
 | `c1-l037` | &emsp;*ciar ao Rei dos Diabos todas as couſas mal fei-* |  |
@@ -93,16 +93,16 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l019` | &emsp;*rendas dalgum ſenhor.* |  |
 | `c2-l020` | Cuyô. Coconotçuno foxi. *Hũas noue eſtrel-* |  |
 | `c2-l021` | &emsp;*las que hà no ceo.* |  |
-| `c2-l022` | Cuyǒ. *Chamar* Bonzos *a comer, & dar lhes eſ-* |  |
+| `c2-l022` | Cuyǒ. *Chamar Bonzos a comer, & dar lhes eſ-* |  |
 | `c2-l023` | &emsp;*molas pera celebrar algum offiçio, ou dedicação* |  |
 | `c2-l024` | &emsp;*dalgum templo, collocação de idolo, &c.* |  |
-| `c2-l025` | Cuyǒ. *Officios como dedicação do templo,* Fo- |  |
-| `c2-l026` | &emsp;toque, *&c. ¶* Dǒno cuyǒuo ſuru. *Ce-* |  |
+| `c2-l025` | Cuyǒ. *Officios como dedicação do templo, Fo-* |  |
+| `c2-l026` | &emsp;*toque, &c. ¶* Dǒno cuyǒuo ſuru. *Ce-* |  |
 | `c2-l027` | &emsp;*lebrar a dedicação dalgum templo.* |  |
-| `c2-l028` | Cuyǒji, zuru, ita. *Chamar* Bonzos *a comer* |  |
+| `c2-l028` | Cuyǒji, zuru, ita. *Chamar Bonzos a comer* |  |
 | `c2-l029` | &emsp;*para fazerem algũ officio. ¶* Sǒuo cuyǒ- |  |
 | `c2-l030` | &emsp;zuru. *Idem. ¶* Fotoqcuo cuyǒzuru. |  |
-| `c2-l031` | &emsp;*Fazer diante de* Fotoqe *algum officios, ou a-* |  |
+| `c2-l031` | &emsp;*Fazer diante de Fotoqe algum officios, ou a-* |  |
 | `c2-l032` | &emsp;*preſentar lhe comer, &c.* |  |
 | `c2-l033` | Cuyuracaxi, ſu, aita. *Fazer cheirar. ¶* Ta- |  |
 | `c2-l034` | &emsp;qimonouo cuyuracaſu. *Queimar cheiros,* |  |
@@ -114,8 +114,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l040` | Cuzubacama. *Calções aſſi chamados pera jugar* |  |
 | `c2-l041` | &emsp;*a pella.* |  |
 | `c2-l042` | Cuzucazzura. *Hũa laya de erua.* |  |
-| `c2-l043` | Cuzumochi. Mochis *feitos da farinha da raiz* |  |
-| `c2-l044` | &emsp;*daquella* Cazzura. |  |
+| `c2-l043` | Cuzumochi. *Mochis feitos da farinha da raiz* |  |
+| `c2-l044` | &emsp;*daquella Cazzura.* |  |
 | `c2-l045` | Cuzuya. *Caſa de palha.* |  |
 | `c2-l046` | Cuzzu. *Limaduras, ou pòs de ferro, ou pao* |  |
 | `c2-l047` | &emsp;*que ſe ſerra, &c.* |  |

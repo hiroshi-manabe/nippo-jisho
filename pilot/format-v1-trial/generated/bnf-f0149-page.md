@@ -117,7 +117,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l025` | &emsp;Sucazzùqi, *&c.* |  |
 | `c2-l026` | Daibacu. Seuada. *inſtit. Melius* Vǒmugui. |  |
 | `c2-l027` | Daibandocoro. *Certa caſa, ou camara que eſ-* |  |
-| `c2-l028` | &emsp;*tà nos paços do* Dairi. |  |
+| `c2-l028` | &emsp;*tà nos paços do Dairi.* |  |
 | `c2-l029` | Daiben. *Eſterco humano. Vt,* Daibenuo |  |
 | `c2-l030` | &emsp;ſuru. *Fazer ſuas neceſſidades.* |  |
 | `c2-l031` | Daibenjo. *Secretas.* |  |
@@ -132,11 +132,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l040` | &emsp;*volumes menores. ¶* Daibuno xojacu. |  |
 | `c2-l041` | &emsp;*Idem.* |  |
 | `c2-l042` | Daibut. Vǒqina Fotoqe. *Grande Idolo, ou* |  |
-| `c2-l043` | &emsp;Fotoque. |  |
-| `c2-l044` | Daicacu. *Dignidade de certo* Fotoqe. |  |
+| `c2-l043` | &emsp;*Fotoque.* |  |
+| `c2-l044` | Daicacu. *Dignidade de certo Fotoqe.* |  |
 | `c2-l045` | Daicai. Vǒqina vmi. *Mar largo. ¶ Item,* |  |
 | `c2-l046` | &emsp;*Nome de hum certo boyãoſinho como meo pu-* |  |
-| `c2-l047` | &emsp;*caro de* cha. |  |
+| `c2-l047` | &emsp;*caro de cha.* |  |
 
 ## Signature
 

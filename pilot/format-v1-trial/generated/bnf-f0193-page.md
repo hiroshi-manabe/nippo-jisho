@@ -80,7 +80,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l005` | &emsp;*no chão.* |  |
 | `c2-l006` | Fiqigairu. i, Vacufiqi. *Manduco.* |  |
 | `c2-l007` | Fiqigui. *Pao com que fazem andar à roda,* |  |
-| `c2-l008` | &emsp;*a mó de moer* cha, *farinha, &c.* |  |
+| `c2-l008` | &emsp;*a mó de moer cha, farinha, &c.* |  |
 | `c2-l009` | Fiqiguiri. *Hũa laya de verruma grande de que* |  |
 | `c2-l010` | &emsp;*uſão os carpinteiros de nauios.* |  |
 | `c2-l011` | Fiqiguxi, ſuru, ita. *Leuar conſigo gente.* |  |

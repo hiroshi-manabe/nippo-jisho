@@ -18,6 +18,27 @@ Language supplied candidates but did not determine typeface by itself. The audit
 
 This is a high-coverage machine pre-review, not a declaration that these pages are human-checked. Typeface distinctions can be unusually subtle, line crops can omit a divided continuation, and a lexically Japanese word can exceptionally be printed in italic. Later human review should therefore treat these corrections as scan-supported working data and may override them occurrence by occurrence.
 
+## Follow-up audit from f137 onward
+
+Later human review showed that the exception noted above becomes a substantial local
+pattern in the latter part of the prepared corpus. A dedicated enlarged-scan pass
+therefore revisited all 376 runs that this audit had changed from italic to roman on
+`f137`–`f237`. It restored **264 runs on 83 pages** to printed italic and retained
+**112 runs** as upright roman.
+
+The distinction is functional rather than a word-family normalization. Japanese and
+Japan-specific nouns used inside Portuguese prose are frequently italic here, including
+many occurrences of `Catana`, `Fune`, `Chanoyu`, `Dairi`, `Camis`, `Fotoque(s)`, and
+similar terms. Directly quoted Japanese examples, cross-references after `Vide`, and
+register formulae such as `No Cami ſe diz` and `No Ximo ſe diz` ordinarily remain
+roman. Every decision was made occurrence by occurrence against the native scan; the
+same lexical item can consequently retain different typeface in different syntactic
+uses.
+
+This follow-up supersedes the earlier audit's typeface decisions for those 376 runs.
+It does not alter their documentary characters, spacing, punctuation, lineation, or
+geometry.
+
 ## Verification
 
 After the edits, every changed physical line was compared mechanically with its pre-audit form after removing Markdown typeface delimiters. All 765 pairs contain identical documentary text; only run boundaries differ. The complete Level 1 source compiles successfully to all 229 prepared compact records.

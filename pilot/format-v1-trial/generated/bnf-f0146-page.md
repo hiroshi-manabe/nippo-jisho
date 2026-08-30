@@ -49,7 +49,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l033` | Cusamacura. *O ir fora da terra, ou eſtar auſẽ-* |  |
 | `c1-l034` | &emsp;*te de caſa.* P*.* |  |
 | `c1-l035` | Cusamochi, l, *Potius,* Cuſano mochi. *Cer-* |  |
-| `c1-l036` | &emsp;*tos* Mochis *verdes que fazem com hũa erua.* |  |
+| `c1-l036` | &emsp;*tos Mochis verdes que fazem com hũa erua.* |  |
 | `c1-l037` | Cusamura. *Lugar onde ha muita erua.* |  |
 | `c1-l038` | Cusa muxiro. *Eſteira feita de eruas. ¶ Item,* |  |
 | `c1-l039` | &emsp;*P. Eſtar fora de caſa.* |  |

@@ -22,7 +22,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l006` | &emsp;ru. *Dar ſemelhante eſmola.* |  |
 | `c1-l007` | Fuxe. *Remendo. ¶* Fuxeuo ſuru. *Re-* |  |
 | `c1-l008` | &emsp;*mendar. No* Cami *ſe diz.* Tçuguiuo ſuru. |  |
-| `c1-l009` | Fuxe. *Lugar na* Catana *onde ſe mete a Cõga-* |  |
+| `c1-l009` | Fuxe. *Lugar na Catana onde ſe mete a Cõga-* |  |
 | `c1-l010` | &emsp;*tana, ou outro inſtrumento de ferro. Vt,* |  |
 | `c1-l011` | &emsp;Cogatana buxe, l, cõgai buxe. |  |
 | `c1-l012` | Fuxe, uru, eta. *Fazer deitar. Vt,* V- |  |

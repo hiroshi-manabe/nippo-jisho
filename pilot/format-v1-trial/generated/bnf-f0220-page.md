@@ -17,7 +17,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l001` | Fudeyui. *O que faz, ou cõcerta penas de Iapão.* |  |
 | `c1-l002` | Fudô. Vgocazu. *Não ſe mouer. Vt,* Fu- |  |
 | `c1-l003` | &emsp;dô fuſen. *Não ſe mouer nem ſe mudar.* |  |
-| `c1-l004` | &emsp;S*. ¶ Item,* Fudô, *Nome de hum* Fotoque. |  |
+| `c1-l004` | &emsp;S*. ¶ Item,* Fudô, *Nome de hum Fotoque.* |  |
 | `c1-l005` | Fudô. *Vt,* Xidai fudô. *Ordem ſem pro-* |  |
 | `c1-l006` | &emsp;*porção, & concerto.* |  |
 | `c1-l007` | Fǔdocuxu. *Inchaço que procede de ruim ar.* |  |

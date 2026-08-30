@@ -89,7 +89,7 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c2-l001` | &emsp;*muitos juntos em cima, ou dentro dos paços.* |  |
 | `c2-l002` | &emsp;*& tambem à porta em baixo, ou no pateo.* |  |
-| `c2-l003` | Dǒca. i. Buppǒno vta. *Verſo do* Buppǒ. |  |
+| `c2-l003` | Dǒca. i. Buppǒno vta. *Verſo do Buppǒ.* |  |
 | `c2-l004` | Dôcacu. Iye. *Caſas dalgum ſenhor.* |  |
 | `c2-l005` | Doccacu. *Hũa maneira de teſto de barro, que* |  |
 | `c2-l006` | &emsp;*poem ao derrador dalgũa candea pera não dar* |  |

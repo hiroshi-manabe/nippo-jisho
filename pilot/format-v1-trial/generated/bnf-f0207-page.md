@@ -18,11 +18,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l002` | &emsp;*¶ Item, Poſſibilidade, ou poſſe.* |  |
 | `c1-l003` | Fǒfacuxi. *Hum certo liuro q̃ enſina a eſcreuer.* |  |
 | `c1-l004` | Fǒfan. *Arroz cozido com outros comeres* |  |
-| `c1-l005` | &emsp;*miudamente cortados ſobre que botão* Xiru, *&* |  |
+| `c1-l005` | &emsp;*miudamente cortados ſobre que botão Xiru, &* |  |
 | `c1-l006` | &emsp;*comem.* |  |
 | `c1-l007` | Fôfei. *Papelinhos retalhados, & pegados* |  |
 | `c1-l008` | &emsp;*na ponta de hum pao que com certas ceremoni-* |  |
-| `c1-l009` | &emsp;*as ſe offerecem diante dos* Camis. |  |
+| `c1-l009` | &emsp;*as ſe offerecem diante dos Camis.* |  |
 | `c1-l010` | Fôfen. Fome, ſoxiru. *O falar ſobre alguem* |  |
 | `c1-l011` | &emsp;*louuando, ou murmurando. ¶* Cano fi- |  |
 | `c1-l012` | &emsp;tono vyeni fôfen yoi, l, varui. *Sobre* |  |
@@ -53,7 +53,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l037` | &emsp;*ſe aleuanta, ou abaixa. ¶* Fogaſauo mo- |  |
 | `c1-l038` | &emsp;tçu. *Por, ou leuar a vela em certa altura.* |  |
 | `c1-l039` | Fogaxi, u, aita. *Furar, ou abrir buraco.* X*.* |  |
-| `c1-l040` | Fôgiǒ. *Certa caſa, ou* Zaxiqui *que ha nas va-* |  |
+| `c1-l040` | Fôgiǒ. *Certa caſa, ou Zaxiqui que ha nas va-* |  |
 | `c1-l041` | &emsp;*relas como refeitorio onde comem. ¶* Fô- |  |
 | `c1-l042` | &emsp;giǒno xit. *Caſa, ou cubiculo que ha den-* |  |
 | `c1-l043` | &emsp;*tro da varela.* |  |
@@ -94,9 +94,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l020` | &emsp;*doutrina.* |  |
 | `c2-l021` | Foi. *Certa laya de veſtido de nono compri-* |  |
 | `c2-l022` | &emsp;*do de mangas largas como de Chinas, que veſ-* |  |
-| `c2-l023` | &emsp;*tem por cima os que acompanhão aos* Cugues. |  |
+| `c2-l023` | &emsp;*tem por cima os que acompanhão aos Cugues.* |  |
 | `c2-l024` | Foi. *Certos nonas groſſos da Corea.* |  |
-| `c2-l025` | Fôin. *Certa dignidade de* Bǒzos, *ou rapados.* |  |
+| `c2-l025` | Fôin. *Certa dignidade de Bǒzos, ou rapados.* |  |
 | `c2-l026` | Foinai. *Couſa de que ſe tem magoa, ou peſar,* |  |
 | `c2-l027` | &emsp;*ou ſaudades.* |  |
 | `c2-l028` | Fǒiqi. *Reino.* S*.* |  |
@@ -104,14 +104,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l030` | &emsp;*eſpanar eſcudelas, meſas, &c.* |  |
 | `c2-l031` | Fǒit. *Crueza. ¶* Fǒit jagen, l, gendǒ |  |
 | `c2-l032` | &emsp;fǒit. *Idem.* |  |
-| `c2-l033` | Foitǒ. i, Cate. *Mantimento. Palaura de* Bǒzos, |  |
+| `c2-l033` | Foitǒ. i, Cate. *Mantimento. Palaura de Bǒzos,* |  |
 | `c2-l034` | &emsp;*&c. ¶* Foitǒ ſuru. *Pedir mantimento* |  |
 | `c2-l035` | &emsp;*de porta ẽ porta. ¶* Iuureini foitǒ. *Modo de* |  |
 | `c2-l036` | &emsp;*pedir. i, Eſmola pera hũ peregrino.* |  |
 | `c2-l037` | Fôja. Mucui mucǔ. *Retribuição. ¶* Vô- |  |
 | `c2-l038` | &emsp;uo fôja ſuru. *Retribuir, ou reſponder aos* |  |
 | `c2-l039` | &emsp;*beneficios.* |  |
-| `c2-l040` | Fôji. *Officios ſolennes que fazem os* Bǒzos. |  |
+| `c2-l040` | Fôji. *Officios ſolennes que fazem os Bǒzos.* |  |
 | `c2-l041` | Fôji, uru, ita. *Retribuir. ¶* Gouon- |  |
 | `c2-l042` | &emsp;uo fôzuru. *Pagar os beneficios, ou retri-* |  |
 | `c2-l043` | &emsp;*buir.* |  |

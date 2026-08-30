@@ -76,7 +76,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l002` | &emsp;*barcalo, ou caualgalo, ſubilo, &c.* |  |
 | `c2-l003` | Fiqinuqi, u, uita. *Arrancar como aruores,* |  |
 | `c2-l004` | &emsp;*&c. ¶ Item, Arrancar, ou leuar do mon-* |  |
-| `c2-l005` | &emsp;*tante,* Catana, *&c.* |  |
+| `c2-l005` | &emsp;*tante, Catana, &c.* |  |
 | `c2-l006` | Fiqio. i, Dorinai coto. *Sem rezão, ou ſem* |  |
 | `c2-l007` | &emsp;*juſtiça.* |  |
 | `c2-l008` | Fiqiô. Vide. Fiqeô. |  |

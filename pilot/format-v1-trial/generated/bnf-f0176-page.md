@@ -23,7 +23,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l007` | &emsp;fatçu. |  |
 | `c1-l008` | Fatçune. *A prima voz do paſſaro na prima* |  |
 | `c1-l009` | &emsp;*vera como do roxinol, ou gallinha do mato,* |  |
-| `c1-l010` | &emsp;*ou do* Fototoguiſu *no verão. ¶* Fatçune- |  |
+| `c1-l010` | &emsp;*ou do Fototoguiſu no verão. ¶* Fatçune- |  |
 | `c1-l011` | &emsp;uo daſu. *Cantarem a primeira vez os paſſaros* |  |
 | `c1-l012` | &emsp;*na prima vera, ou verão.* |  |
 | `c1-l013` | Fatçuqi. i, Fachiguachi. *Oitaua lũa.* S*.* |  |
@@ -31,7 +31,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l015` | &emsp;*meira vez à caça do falcão.* P*.* |  |
 | `c1-l016` | Fatçuuo. *Primicias de qualquer couſa, fruita* |  |
 | `c1-l017` | &emsp;*primeira, &c.* |  |
-| `c1-l018` | Fatdaixù. *Certo liuro de verſos, ou* vtas |  |
+| `c1-l018` | Fatdaixù. *Certo liuro de verſos, ou vtas* |  |
 | `c1-l019` | &emsp;*de Iapão.* |  |
 | `c1-l020` | Fatdô. *Apreſſarſe, ou menearſe com preſſa.* |  |
 | `c1-l021` | &emsp;*Vt,* Fatdô ſuru. |  |
@@ -94,14 +94,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l020` | &emsp;Fattato aqireta. *Eſpantouſe derepente.* |  |
 | `c2-l021` | Fattçuqe. *Cruz & crucificação ao modo de Iapão.* |  |
 | `c2-l022` | Fatten. Yatçuno ten. *Oito ceos de que ſe tra-* |  |
-| `c2-l023` | &emsp;*ta no* Buppô. *¶ Item, Hũs pontinhos,* |  |
+| `c2-l023` | &emsp;*ta no Buppô. ¶ Item, Hũs pontinhos,* |  |
 | `c2-l024` | &emsp;*ou riſcas que ſe poem no principio dalgũa eſcri-* |  |
 | `c2-l025` | &emsp;*tura como ſinaes que o diabo teme.* |  |
 | `c2-l026` | Fatto. i, Nori. *Leis, ordenações, &c.* |  |
 | `c2-l027` | Fattǒ. *Montinho de pedras, como tumulo que* |  |
 | `c2-l028` | &emsp;*fazem ſobre as couas dos defuntos.* |  |
 | `c2-l029` | Fattǒ. *Lugar alto como pulpito.* |  |
-| `c2-l030` | Fattocu. *Certo* Dôbucu *ſingello que ſe veſte* |  |
+| `c2-l030` | Fattocu. *Certo Dôbucu ſingello que ſe veſte* |  |
 | `c2-l031` | &emsp;*por cima do outro veſtido.* |  |
 | `c2-l032` | Faua. *Mãy.* |  |
 | `c2-l033` | Faſago. *Idem. Falando com honra, &* |  |

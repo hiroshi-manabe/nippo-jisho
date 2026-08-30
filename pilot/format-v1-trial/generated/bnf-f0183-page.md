@@ -16,7 +16,7 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c1-l001` | Fendo. i, Catainaca. *Aldea, ou arrabal-* |  |
 | `c1-l002` | &emsp;*des. ¶* Fendo fennai. *Aldea, ou arra-* |  |
-| `c1-l003` | &emsp;*baldes em reſpeito da* Miyaco. |  |
+| `c1-l003` | &emsp;*baldes em reſpeito da Miyaco.* |  |
 | `c1-l004` | Fendô. Fenji vgoqu. *Mudança, & variedade.* |  |
 | `c1-l005` | &emsp;*¶ Item, Alteração, ou perturbação.* |  |
 | `c1-l006` | Fengai. *O faltar na promeſſa. Vt,* Yacuſo- |  |
@@ -41,7 +41,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l025` | &emsp;*trajo, &c. Vt,* Fǒzuan yamibuxino |  |
 | `c1-l026` | &emsp;ſugatani fenji Fotoecuuo ſaite cudaraxe- |  |
 | `c1-l027` | &emsp;raruru. *Tog. Fonzuandono veſtindoſe em* |  |
-| `c1-l028` | &emsp;*trajos de* Yamibuxi *deceo pera as partes do* |  |
+| `c1-l028` | &emsp;*trajos de Yamibuxi deceo pera as partes do* |  |
 | `c1-l029` | &emsp;*Norte. ¶* Yacuſocuuo fenzuru. *Que-* |  |
 | `c1-l030` | &emsp;*brar a promeſſa. ¶* Cocoroga fenzuru. |  |
 | `c1-l031` | &emsp;*Mudar a vontade, ou propoſito. ¶* Irouo |  |
@@ -50,7 +50,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l034` | &emsp;*peſſoa nobre.* |  |
 | `c1-l035` | Fenjo. *Repoſta por carta.* |  |
 | `c1-l036` | Fenjô. Vt, Quǒmǒ fenjô. *O alumiar o* |  |
-| `c1-l037` | &emsp;Fotoque *todas as couſas.* |  |
+| `c1-l037` | &emsp;*Fotoque todas as couſas.* |  |
 | `c1-l038` | Fenman. Amanecu, michitari. *O eſtar mui-* |  |
 | `c1-l039` | &emsp;*to cheio, & abidate. Vt,* Cono xecaini acu- |  |
 | `c1-l040` | &emsp;ga fenman xite aru. *Eſta eſte mundo cheio* |  |
@@ -104,7 +104,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l029` | &emsp;*ter termo, nem fim.* |  |
 | `c2-l030` | Fensan. *O peregrinar por diuerſas partes, ou* |  |
 | `c2-l031` | &emsp;*andar de terra ẽ terra fazẽdo certos exercicios* |  |
-| `c2-l032` | &emsp;*como fazem os Bõzos chamados* Yegueſos. |  |
+| `c2-l032` | &emsp;*como fazem os Bõzos chamados Yegueſos.* |  |
 | `c2-l033` | Fensanzô. *Bõzos que andão deſta maneira pe-* |  |
 | `c2-l034` | &emsp;*regrinando.* |  |
 | `c2-l035` | Fensat. *Repoſta da carta. Vt,* Gofensatni |  |
