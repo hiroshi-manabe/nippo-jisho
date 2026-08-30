@@ -77,10 +77,16 @@ def main() -> int:
     parser.add_argument("--last", type=int, required=True)
     parser.add_argument("--group-size", type=int, default=8)
     parser.add_argument("--master-dir", type=Path, default=root / ".cache/sources/bnf-gallica/master")
+    parser.add_argument(
+        "--geometry",
+        type=Path,
+        default=root / "pilot/human-review/line-geometry.json",
+        help="geometry file to audit (useful for checking a regenerated draft before replacing canonical data)",
+    )
     parser.add_argument("--output", type=Path, default=root / ".cache/line-geometry-semantic-audit")
     args = parser.parse_args()
 
-    geometry = {page["id"]: page for page in load_json(root / "pilot/human-review/line-geometry.json")["pages"]}
+    geometry = {page["id"]: page for page in load_json(args.geometry)["pages"]}
     tiles = {page["id"]: page for page in load_json(root / "pilot/tile-config-v1-trial.json")["pages"]}
     calibrations = {page["id"]: page for page in load_json(root / "pilot/human-review/line-calibration.json")["pages"]}
     for leaf in range(args.first, args.last + 1):
