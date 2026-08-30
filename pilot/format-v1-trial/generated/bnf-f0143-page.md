@@ -18,7 +18,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l002` | Cùqio. *Vazio, ou vão.* |  |
 | `c1-l003` | Cùqiona. *Vt,* Cùqiona vtçuuamono. |  |
 | `c1-l004` | &emsp;*Vazo ſem nada, ou vazio.* |  |
-| `c1-l005` | Cùqua. *Vuer diuerſas couſas, ou entolſarſe* |  |
+| `c1-l005` | Cùqua. *O uer diuerſas couſas, ou entolſarſe* |  |
 | `c1-l006` | &emsp;*lhe que as uê com doença, ou treualio, &c.* |  |
 | `c1-l007` | Cuqua. Niga vri. *Melão amargozo.* |  |
 | `c1-l008` | Cuqua. *Tormentos.* |  |

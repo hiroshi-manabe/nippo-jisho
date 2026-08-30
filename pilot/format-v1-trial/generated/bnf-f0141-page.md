@@ -106,9 +106,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l026` | &emsp;ri. *As obras, ou feitos do ſenhor cada dia* |  |
 | `c2-l027` | &emsp;*vão milhorando, & proſperando.* S*.* |  |
 | `c2-l028` | Cuni. *Reino. ¶* Cuniuo taſcaguru. *Deſ-* |  |
-| `c2-l029` | &emsp;*truir o reino. ¶* Cuniuo nabicaſu. *Re-* |  |
+| `c2-l029` | &emsp;*truir o reino. ¶* Cuniuo nabicaſu. *Rẽ-* |  |
 | `c2-l030` | &emsp;*der, ou inclinar o reino à ſua parte. ¶* Cu- |  |
-| `c2-l031` | &emsp;niga xizzumaru. *Aquitarſe o reino.* |  |
+| `c2-l031` | &emsp;niga xizzumaru. *Aquietarſe o reino.* |  |
 | `c2-l032` | &emsp;*¶* Cunino araſoi. *Contenderem dous, ou* |  |
 | `c2-l033` | &emsp;*mais ſobre o reino. ¶* Cuniuo motçu. |  |
 | `c2-l034` | &emsp;*Ter Reino, ou Reinar.* |  |

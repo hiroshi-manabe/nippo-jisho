@@ -36,7 +36,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l020` | Cure. *Atarde depois do ſol poſto.* |  |
 | `c1-l021` | Cure, uru, eta. *Eſcurecerſe. ¶* Nami- |  |
 | `c1-l022` | &emsp;dani mega cururu. *Eſcureceremſe, ou ce-* |  |
-| `c1-l023` | &emsp;*garem os olhos de chorar. ¶* Tacarahĩ |  |
+| `c1-l023` | &emsp;*garem os olhos de chorar. ¶* Tacarani |  |
 | `c1-l024` | &emsp;mega cururu. *Eſtar cego, ou não cuidar* |  |
 | `c1-l025` | &emsp;*em mais que nas riquezas. ¶* Faru, na- |  |
 | `c1-l026` | &emsp;tçu, aqi, fi, toxiga cururu. *Acabarſe* |  |
@@ -44,8 +44,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l028` | &emsp;*no, &c.* |  |
 | `c1-l029` | Cure, uru, eta. *Dar peſſoa alta abaixo.* |  |
 | `c1-l030` | Curegata. *Sobre atarde, ou depois de ſol poſto.* |  |
-| `c1-l031` | Curegure. *Hũa vez, & outra. i.* Cayesu |  |
-| `c1-l032` | &emsp;gayesu. |  |
+| `c1-l031` | Curegure. *Hũa vez, & outra. i.* Cayeſu |  |
+| `c1-l032` | &emsp;gayeſu. |  |
 | `c1-l033` | Curenai. *Cor vermelha, como crameſim.* |  |
 | `c1-l034` | Curenaisugi. *Liſtras vermelhas como de* |  |
 | `c1-l035` | &emsp;*crameſim.* |  |
