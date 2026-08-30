@@ -35,6 +35,8 @@ Daily linguistic review now begins with the compact [Transcription Cheat Sheet](
 
 The project has also acquired NINJAL's CC BY 4.0 [Nippo Jisho Headword Data](docs/headword-data.md), a 32,878-record external reference for post-checkpoint coverage validation and provisional entry scaffolding.
 
+The private [experimental recognition engine](docs/ocr-model.md) turns reviewed `f13`–`f150` line images into a page-disjoint training benchmark and a book-specific TrOCR model for producing human-reviewable draft transcriptions.
+
 ## Working principles
 
 - **Evidence remains visible.** Every reading should point back to its page and location in the source.

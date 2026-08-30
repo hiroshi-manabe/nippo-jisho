@@ -1,0 +1,57 @@
+{
+  "format": "nippo-ocr-experiment-result",
+  "format_version": 1,
+  "model": "microsoft/trocr-small-printed",
+  "adaptation": "decoder fine-tuning with frozen vision encoder",
+  "parameters": 61596672,
+  "dataset_split": "f13-f150-split.json",
+  "training": {
+    "device": "mps",
+    "seed": 1603,
+    "epochs": 3,
+    "batch_size": 8,
+    "learning_rate": 0.00001,
+    "encoder_frozen_epochs": 3,
+    "max_token_length": 48,
+    "elapsed_seconds": 3846.6621530056,
+    "best_epoch": 3,
+    "best_sampled_development_loss": 1.3453140780329704
+  },
+  "complete_evaluation": {
+    "development": {
+      "pages": 14,
+      "lines": 1320,
+      "characters": 43391,
+      "character_errors": 8628,
+      "character_error_rate": 0.19884307805766172,
+      "exact_lines": 64,
+      "exact_line_rate": 0.048484848484848485,
+      "loss": 1.3443343007420918
+    },
+    "test": {
+      "pages": 14,
+      "lines": 1314,
+      "characters": 42216,
+      "character_errors": 7048,
+      "character_error_rate": 0.1669509190828122,
+      "exact_lines": 61,
+      "exact_line_rate": 0.04642313546423135,
+      "loss": 1.087166850107262
+    }
+  },
+  "post_training_exploration": {
+    "page": 151,
+    "lines": 94,
+    "characters": 2972,
+    "character_errors": 940,
+    "character_error_rate": 0.3162853297442799,
+    "exact_lines": 2,
+    "note": "Outside the declared benchmark. A tighter midpoint-bounded vertical crop raised CER to 0.370121 and was rejected because the model was trained on the canonical overlapping crops."
+  },
+  "artifact": ".cache/ocr-model/runs/trocr-small-v1/best",
+  "artifact_tracked": false,
+  "weights": {
+    "file": "model.safetensors",
+    "sha256": "ee938170a97d75162ce7a35aae44881c30c834a7fe4e8a517f9f410ebffd6a13"
+  }
+}

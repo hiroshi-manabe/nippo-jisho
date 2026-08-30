@@ -1,0 +1,20 @@
+{
+  "format": "nippo-ocr-page-split",
+  "format_version": 1,
+  "source_page_range": [13, 150],
+  "seed": 1603,
+  "method": "Python random.Random seeded shuffle; 10% rounded dev and test sets",
+  "train": "all pages in the inclusive source range except the listed dev and test pages",
+  "dev": [16, 20, 29, 57, 61, 63, 66, 70, 71, 73, 85, 101, 118, 133],
+  "test": [31, 34, 37, 39, 77, 82, 90, 105, 113, 134, 135, 139, 142, 147],
+  "page_counts": {
+    "train": 110,
+    "dev": 14,
+    "test": 14
+  },
+  "line_counts": {
+    "train": 10296,
+    "dev": 1320,
+    "test": 1314
+  }
+}
