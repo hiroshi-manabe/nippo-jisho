@@ -119,4 +119,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l045` | &emsp;voroſu. *Pizar mezinhas, ou moelas em* |  |
 | `c2-l046` | &emsp;*gral. ¶* Cuſuriga qicu. T*er a mezi-* |  |
 | `c2-l047` | &emsp;*nha effeito, ou obrar. ¶* Cuſuriuo gua- |  |
-| `c2-l048` | &emsp;zuru. |  |
+
+## Catchword
+
+| Physical line | Main position | Far right |
+| --- | --- | --- |
+| `cw-l001` | **zuru.** |  |
