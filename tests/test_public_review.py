@@ -333,6 +333,17 @@ equal(q.align('foo, bar.', 'foo bar.').deletions.map(item => [item.character, it
         self.assertEqual(column["visual_review"], "text_image_sanity_checked")
         self.assertEqual(column["lines"]["c2-l041"]["crop"], [1535, 2938, 1091, 122])
 
+    def test_f138_column_2_final_line_descenders_are_not_clipped(self):
+        record = json.loads(
+            (ROOT / "pilot" / "human-review" / "line-geometry.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        page = next(page for page in record["pages"] if page["id"] == "bnf-f0138")
+        column = page["columns"]["column-2"]
+        self.assertEqual(column["visual_review"], "line_by_line_reverified")
+        self.assertEqual(column["lines"]["c2-l047"]["crop"], [1500, 3320, 1120, 130])
+
     def test_manually_corrected_columns_reach_past_the_right_rule(self):
         record = json.loads(
             (ROOT / "pilot" / "human-review" / "line-geometry.json").read_text(
