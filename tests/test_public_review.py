@@ -342,7 +342,9 @@ equal(q.align('foo, bar.', 'foo bar.').deletions.map(item => [item.character, it
         page = next(page for page in record["pages"] if page["id"] == "bnf-f0138")
         column = page["columns"]["column-2"]
         self.assertEqual(column["visual_review"], "line_by_line_reverified")
-        self.assertEqual(column["lines"]["c2-l047"]["crop"], [1500, 3320, 1120, 130])
+        self.assertEqual(column["lines"]["c2-l001"]["crop"], [1500, 405, 1120, 100])
+        self.assertEqual(column["lines"]["c2-l024"]["crop"], [1500, 1878, 1120, 100])
+        self.assertEqual(column["lines"]["c2-l047"]["crop"], [1500, 3350, 1120, 100])
 
     def test_manually_corrected_columns_reach_past_the_right_rule(self):
         record = json.loads(
