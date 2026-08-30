@@ -125,4 +125,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l045` | &emsp;*particular direi deuagar.* |  |
 | `c2-l046` | Cuuaxù. *Adu. Miudamente.* |  |
 | `c2-l047` | Cuuaye, uru, eta. *Acrecentar. ¶* Xec- |  |
-| `c2-l048` |  | canuo |
+
+## Catchword
+
+| Physical line | Main position | Far right |
+| --- | --- | --- |
+| `cw-l001` | **canuo** |  |
