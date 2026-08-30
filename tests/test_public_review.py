@@ -196,16 +196,22 @@ equal(q.uppercasePeriodTokenRange('Ad. Adu. word.', 0), {start: 0, end: 3});
 equal(q.uppercasePeriodTokenRange('Ad. Adu. word.', 4), {start: 4, end: 8});
 equal(q.uppercasePeriodTokenRange('Ad. Adu. word.', 1), null);
 equal(q.uppercasePeriodTokenRange('Word', 0), null);
-equal(q.periodTypefaceTokenRange('i. l. word.', 0), {start: 0, end: 2});
-equal(q.periodTypefaceTokenRange('i. l. word.', 3), {start: 3, end: 5});
-equal(q.periodTypefaceTokenRange('i. l. word.', 1), null);
-equal(q.periodTypefaceTokenRange('word.', 0), null);
+equal(q.typefaceTokenRange('i. l. word.', 0), {start: 0, end: 2});
+equal(q.typefaceTokenRange('i. l. word.', 3), {start: 3, end: 5});
+equal(q.typefaceTokenRange('i. l. word.', 1), null);
+equal(q.typefaceTokenRange('word.', 0), null);
+equal(q.typefaceTokenRange('i, l, word', 0), {start: 0, end: 1});
+equal(q.typefaceTokenRange('i, l, word', 3), {start: 3, end: 4});
+equal(q.typefaceTokenRange('word l', 5), {start: 5, end: 6});
+equal(q.typefaceTokenRange('word', 3), null);
 equal(q.toggleTypefaceRange('Ad.', 0, 3, ['roman', 'roman', 'roman']), '{Ad.}');
 equal(q.toggleTypefaceRange('{Ad.}', 0, 3, ['roman', 'roman', 'roman']), 'Ad.');
 equal(q.toggleTypefaceRange('S.', 0, 2, ['italic', 'italic']), '[S.]');
 equal(q.toggleTypefaceRange('[S.]', 0, 2, ['italic', 'italic']), 'S.');
 equal(q.toggleTypefaceRange('i.', 0, 2, ['roman', 'roman']), '{i.}');
 equal(q.toggleTypefaceRange('{i.}', 0, 2, ['roman', 'roman']), 'i.');
+equal(q.toggleTypefaceRange('l', 0, 1, ['roman']), '{l}');
+equal(q.toggleTypefaceRange('{l}', 0, 1, ['roman']), 'l');
 equal(q.align('foo, bar.', 'foo bar.').deletions.map(item => [item.character, item.currentIndex]), [[',', 3]]);
 """
         result = subprocess.run(

@@ -582,14 +582,14 @@ function quickCharacterHTML(character, index, baseIndex, changed, line, proposal
   let action = '';
   let title = '';
   let extraAttributes = '';
-  const periodToken = NippoQuickEdit.periodTypefaceTokenRange(proposal.text, index);
+  const typefaceToken = NippoQuickEdit.typefaceTokenRange(proposal.text, index);
   if (nasalRestoration) {
     action = 'nasal-restore';
     title = `Restore ${nasalRestoration.vowel}${nasalRestoration.consonant}`;
-  } else if (periodToken) {
+  } else if (typefaceToken) {
     action = 'typeface-token';
-    title = 'Toggle this abbreviation between Roman and italic type';
-    extraAttributes = ` data-token-start="${periodToken.start}" data-token-end="${periodToken.end}"`;
+    title = 'Toggle this token between Roman and italic type';
+    extraAttributes = ` data-token-start="${typefaceToken.start}" data-token-end="${typefaceToken.end}"`;
   } else if (isItalicWordInitial(line, baseIndex, character, typefaces)) {
     action = 'typeface';
     title = explicitTypeface === 'roman' ? 'Restore the printed italic type' : 'Mark this initial as Roman type';
