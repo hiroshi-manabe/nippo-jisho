@@ -19,25 +19,25 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l003` | &emsp;*reino. Vide* Xichi. |  |
 | `c1-l004` | Cunimoto. *Patria, ou reino onde hum naceo,* |  |
 | `c1-l005` | &emsp;*ou reino que hum tem, ou poſſue.* |  |
-| `c1-l006` | Cuninami. *Comum cuſtume q̃ corre no reino.* |  |
-| `c1-l007` | Cunin. *Official que manda, ou ordena aos ou-* |  |
+| `c1-l006` | Cuninami. *Comum custume q̃ corre no reino.* |  |
+| `c1-l007` | Cunin. *Official que manda, ou ordena aos ou* |  |
 | `c1-l008` | &emsp;*tros, o que hão de fazer, &c.* |  |
 | `c1-l009` | Cuninarai. *Cuſtume do reino.* |  |
-| `c1-l010` | Cuni qiǒdan. *Differença das linguas, ou mo-* |  |
+| `c1-l010` | Cuni qiǒdan. *Differença das linguas, ou mo* |  |
 | `c1-l011` | &emsp;*do de falar de cada reino a inda que todos vni-* |  |
 | `c1-l012` | &emsp;*uerſalmente falem a meſma lingua.* |  |
-| `c1-l013` | Cuni saburai. *Os nobres do reino.* |  |
-| `c1-l014` | Cuni sato. *Reinos, & lugares.* |  |
+| `c1-l013` | Cuni ſaburai. *Os nobres do reino.* |  |
+| `c1-l014` | Cuni ſato. *Reinos, & lugares.* |  |
 | `c1-l015` | Cuniuaqe. *Diuiſão dos reinos.* |  |
 | `c1-l016` | Cuniùdo. *Os naturaes do reino.* |  |
 | `c1-l017` | Cuni xu. *Os principaes do reino. Palaura que* |  |
-| `c1-l018` | &emsp;*corre em Bungo. ¶ Item, Os do reino.* |  |
+| `c1-l018` | &emsp;*corre em Bungo. ¶ Itẽ, Os do reino.* |  |
 | `c1-l019` | Cunizacai. *Termo, ou arraya do reino.* |  |
 | `c1-l020` | Cunizzucuxi. *Reinos pintados em mapa, ou* |  |
 | `c1-l021` | &emsp;*eſcritos de letra.* |  |
 | `c1-l022` | Cunjen. Qimino maye. *Diante do ſenhor.* |  |
-| `c1-l023` | Cunji, zuru, ita. *Recender. Vt,* Tayi- |  |
-| `c1-l024` | &emsp;monoga cunzuru. *Cheirar, ou recender eſ-* |  |
+| `c1-l023` | Cunji, zuru, ita. *Recender Vt,* Taqi |  |
+| `c1-l024` | &emsp;monoga cunzuru. *Cheirar, ou recender eſ* |  |
 | `c1-l025` | &emsp;*te perfume de Iapão.* |  |
 | `c1-l026` | Cunju. Muragari, atçumaru. *Ajuntamen-* |  |
 | `c1-l027` | &emsp;*to de gente. ¶* Cunju ſuru. *Ajuntarſe* |  |
@@ -51,13 +51,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l035` | Cunǒ. Curuximi nayamu. *Tormento, ou* |  |
 | `c1-l036` | &emsp;*afflição.* |  |
 | `c1-l037` | Cunô. *Dar razão, ou eſcuſas compridas, &* |  |
-| `c1-l038` | &emsp;*eſcuſadas. ¶* Cunôgamaxij fico. i. Cu- |  |
-| `c1-l039` | &emsp;nôuo yũ fito. *Homem que diz muitas* |  |
+| `c1-l038` | &emsp;*eſcuſadas. ¶* Cunôgamaxij fico. i. Cu |  |
+| `c1-l039` | &emsp;nôuo yǔ fito. *Homem que diz muitas* |  |
 | `c1-l040` | &emsp;*couſas, ou dà muitas razões, & eſcuſas não* |  |
-| `c1-l041` | &emsp;*ſe ſatisfazendo. ¶* Cunôni voychanu. |  |
+| `c1-l041` | &emsp;*ſe ſatisfazendo. ¶* Cunôni voyobanu. |  |
 | `c1-l042` | &emsp;*Não he neceſſario mais palauras, &c.* |  |
 | `c1-l043` | Cunogui, l, Cunugui. *Hũa aruore aſſi cha-* |  |
-| `c1-l044` | &emsp;*mada com.to boa pera fazer caruão.* |  |
+| `c1-l044` | &emsp;*mada do mato boa pera fazer caruão.* |  |
 | `c1-l045` | Cunpen. Qimino fotori. *O ſeruir de perto* |  |
 | `c1-l046` | &emsp;*ao ſenhor.* |  |
 | `c1-l047` | Cunpǒ. Qimino fǒ. *Lei do ſenhor. Vt,* |  |
@@ -72,7 +72,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | &emsp;Cunpǒuo ſumuqu coto nacare. *Não va-* |  |
+| `c2-l001` | &emsp;Cunpǒuo ſomuqu coto nacare. *Não va* |  |
 | `c2-l002` | &emsp;*des contra as leis do ſenhor.* |  |
 | `c2-l003` | Cunpu. Qimi tçuma. *Senhora molher caſada.* |  |
 | `c2-l004` | Cunpù. Cǒbaxij caje. *Vento que traz algũ* |  |
@@ -83,7 +83,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l009` | Cunroccǒ. *Beijoim.* |  |
 | `c2-l010` | Cuntacu. i. Qimino megumi. *Beneficios* |  |
 | `c2-l011` | &emsp;*do ſenhor.* |  |
-| `c2-l012` | Cuntai. *Cinji douro, & hũa maneira de veſtido.* |  |
+| `c2-l012` | Cuntai. *Cinjidouro, & hũa maneira de veſtido.* |  |
 | `c2-l013` | Cunten. *Certos ſinaes, ou pontos pera ler as* |  |
 | `c2-l014` | &emsp;*letras da China ao modo de Iapão.* |  |
 | `c2-l015` | Cuntocu. Qimino ſaiuai. *Abilidade, &* |  |
@@ -101,7 +101,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l027` | Cunyacu. *Hũa mezinha cheiroſa.* |  |
 | `c2-l028` | Cunyacu. Yoi yacuxu. *Bons materiaes de* |  |
 | `c2-l029` | &emsp;*mezinhas.* |  |
-| `c2-l030` | Cunye. Nuǒ coromo. *Veſtido cheiroſo.* |  |
+| `c2-l030` | Cunye. Nuô coromo. *Vestido cheiroſo.* |  |
 | `c2-l031` | Cunye. Qimi coromo. *Veſtido do ſenhor.* |  |
 | `c2-l032` | Cunyecǒ. Ixǒuo cauoracaſu coto. *Cheiro de* |  |
 | `c2-l033` | &emsp;*perfumar o veſtido.* |  |
@@ -115,8 +115,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l041` | &emsp;*fechada que ſe moſtra aos mininos enganando* |  |
 | `c2-l042` | &emsp;*os, como que lhe querem dar algũa couſa.* |  |
 | `c2-l043` | Cùqet. Munaxij ana. *Cauerna, ou gruta.* |  |
-| `c2-l044` | Cuqi. *Talo, ou grelo de eruas, &c. ¶ Item,* |  |
+| `c2-l044` | Cuqi. *Talo, ou grelo de eruas, &c. ¶ Itẽ,* |  |
 | `c2-l045` | &emsp;Torino cuqi. *Cano da pena de paſſaro.* |  |
-| `c2-l046` | Cuqiǒ. Quamari, ru. *Conſumarſe, ou a-* |  |
-| `c2-l047` | &emsp;*perfeiçoarſe. Vt,* Cuqiǒno jǒzu. *Per-* |  |
-| `c2-l048` |  | *ſei* |
+| `c2-l046` | Cuqiǒ. Qiuamari, ru. *Conſumarſe, ou a-* |  |
+| `c2-l047` | &emsp;*perfeiçoarſe. Vt,* Cuqiǒno jǒzu. *Pes-* |  |
+| `c2-l048` |  | *ſoa* |
