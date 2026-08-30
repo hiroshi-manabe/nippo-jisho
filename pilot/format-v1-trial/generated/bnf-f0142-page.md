@@ -119,4 +119,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l045` | &emsp;Torino cuqi. *Cano da pena de paſſaro.* |  |
 | `c2-l046` | Cuqiǒ. Qiuamari, ru. *Conſumarſe, ou a-* |  |
 | `c2-l047` | &emsp;*perfeiçoarſe. Vt,* Cuqiǒno jǒzu. *Pes-* |  |
-| `c2-l048` |  | *ſoa* |
+
+## Catchword
+
+| Physical line | Main position | Far right |
+| --- | --- | --- |
+| `cw-l001` | **ſoa** |  |
