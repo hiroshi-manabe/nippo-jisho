@@ -126,10 +126,15 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l045` | &emsp;rito taguiru. *Feruer a agoa de maneira q̃* |  |
 | `c2-l046` | &emsp;*ſe reuolua de baixo para cima.* |  |
 | `c2-l047` | Curatçubo. *Parte da ſella que està entre o* |  |
-| `c2-l048` | &emsp;*meo,* |  |
 
 ## Printed signature
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `s-l001` | **R 2** |  |
+
+## Catchword
+
+| Physical line | Main position | Far right |
+| --- | --- | --- |
+| `cw-l001` | **meo,** |  |
