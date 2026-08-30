@@ -75,45 +75,45 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l001` | &emsp;*eſta inclinação, & reuerencia.* |  |
 | `c2-l002` | Cuyacu. Qimino yacu. *Seruiço por obri-* |  |
 | `c2-l003` | &emsp;*gação feito em certos dias ao ſenhor.* |  |
-| `c2-l004` | Cuyami, u, ǒda. *Ter pezar, ou arrepen-* |  |
-| `c2-l005` | &emsp;*derſe. ¶* Togauo cuyamu. *Ter dor* |  |
+| `c2-l004` | Cuyami, u, ǒda. T*er pezar, ou arrepen-* |  |
+| `c2-l005` | &emsp;*derſe. ¶* Togauo cuyamu. T*er dor* |  |
 | `c2-l006` | &emsp;*dos peccados.* |  |
 | `c2-l007` | Cuyaxi, ſu, aita. *Fazer cair, ou deſfazer* |  |
 | `c2-l008` | &emsp;*torrões grandes, ou terra, &c.* |  |
-| `c2-l009` | Cuyaxij. *Couſa de que ſe tem dor, ou pezar,* |  |
+| `c2-l009` | Cuyaxij. *Couſa de que ſe tem dor, ou pezar.* |  |
 | `c2-l010` | &emsp;*ou ter dor, & pezar.* |  |
 | `c2-l011` | &emsp;Cuyaxiſa. |  |
 | `c2-l012` | &emsp;Cuyaxù. |  |
-| `c2-l013` | Cuye. Acazzuita coromo. *Veſtido ſujo.* |  |
-| `c2-l014` | Cuye. *Eſtaca, ou ranchão.* X*. Cui, he* |  |
+| `c2-l013` | Cuye. Acazzuita coromo. *Veſtido çujo.* |  |
+| `c2-l014` | Cuye. *Estaca, ou tanchão.* X*. Cui, he* |  |
 | `c2-l015` | &emsp;*mais vniuerſal.* |  |
 | `c2-l016` | Cuye, uru, eta. *Deſfazerſe, ou arruinarſe* |  |
 | `c2-l017` | &emsp;*como terra, ou monte, &c.* |  |
 | `c2-l018` | Cuyô. *Caixas, ou arroz que ſe arrecada das* |  |
 | `c2-l019` | &emsp;*rendas dalgum ſenhor.* |  |
-| `c2-l020` | Cuyô. Coconotçuno foxi. *Hũas noue eſtrel-* |  |
+| `c2-l020` | Cuyô. Coconotçuno foxi. *Hũas noue estrel-* |  |
 | `c2-l021` | &emsp;*las que hà no ceo.* |  |
 | `c2-l022` | Cuyǒ. *Chamar* Bonzos *a comer, & dar lhes eſ-* |  |
 | `c2-l023` | &emsp;*molas pera celebrar algum offiçio, ou dedicação* |  |
 | `c2-l024` | &emsp;*dalgum templo, collocação de idolo, &c.* |  |
 | `c2-l025` | Cuyǒ. *Officios como dedicação do templo,* Fo- |  |
-| `c2-l026` | &emsp;toque*, &c. ¶* Dǒno cuyǒuo ſuru. *Ce-* |  |
+| `c2-l026` | &emsp;toque*,* &c*. ¶* Dǒno cuyǒuo ſuru. *Ce* |  |
 | `c2-l027` | &emsp;*lebrar a dedicação dalgum templo.* |  |
 | `c2-l028` | Cuyǒji, zuru, ita. *Chamar* Bonzos *a comer* |  |
-| `c2-l029` | &emsp;*para fazerem algũ officio. ¶* Sǒuo cuyǒ- |  |
-| `c2-l030` | &emsp;zuru. *Idem. ¶* Fotoqcuo cuyǒzuru. |  |
-| `c2-l031` | &emsp;*Fazer diante de* Fotoqe *algum officios, ou a-* |  |
+| `c2-l029` | &emsp;*para fazerem algũ officio. ¶* Sóuo cuyǒ |  |
+| `c2-l030` | &emsp;ſuru. *Idem. ¶* Fotoqeuo cuyǒzuru. |  |
+| `c2-l031` | &emsp;*Fazer diante do* Fotoqe *alguns officios, ou a* |  |
 | `c2-l032` | &emsp;*preſentar lhe comer, &c.* |  |
-| `c2-l033` | Cuyuracaxi, ſu, aita. *Fazer cheirar. ¶* Ta- |  |
+| `c2-l033` | Cuyuracaxi, ſu, aita. *Fazer cheirar. ¶* Ta |  |
 | `c2-l034` | &emsp;qimonouo cuyuracaſu. *Queimar cheiros,* |  |
 | `c2-l035` | &emsp;*& fazer cheirar.* |  |
 | `c2-l036` | Cuyuraxi, ſu, ita. *Idem.* |  |
-| `c2-l037` | Cùzan. Munaxij yama. *Mõte ſolitario.* S*.* |  |
+| `c2-l037` | Cùzan. Munaxij yama. *Mõte ſolitario. S.* |  |
 | `c2-l038` | Cuzu. *Certa eſpecie de erua cuja raiz ſe come.* |  |
 | `c2-l039` | &emsp;*¶ Item, Farinha que ſe faz deſta raiz.* |  |
 | `c2-l040` | Cuzubacama. *Calções aſſi chamados pera jugar* |  |
 | `c2-l041` | &emsp;*a pella.* |  |
-| `c2-l042` | Cuzucazzura. *Hũa laya de erua.* |  |
+| `c2-l042` | Cuzucazzura. *Hũa laya de era.* |  |
 | `c2-l043` | Cuzumochi. *Mochis feitos da farinha da raiz* |  |
 | `c2-l044` | &emsp;*daquella Cazzura.* |  |
 | `c2-l045` | Cuzuya. *Caſa de palha.* |  |
