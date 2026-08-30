@@ -1,0 +1,71 @@
+{
+  "format": "nippo-clean-ocr-dataset-result",
+  "format_version": 1,
+  "source_pages": {
+    "first": 13,
+    "last": 150,
+    "pages": 138,
+    "candidate_lines": 12930,
+    "characters": 426077
+  },
+  "visual_isolation": {
+    "accepted_candidates": 8547,
+    "rejected_candidates": 4383,
+    "acceptance_rate": 0.6610208816705336
+  },
+  "correspondence_validation": {
+    "accepted_pairs": 8049,
+    "rejected_target_lines": 4881,
+    "acceptance_rate": 0.6225058004640371,
+    "shifted_pairs": 52,
+    "shift_distribution": {
+      "-1": 29,
+      "0": 7997,
+      "1": 23
+    },
+    "probe_model": ".cache/ocr-model/runs/trocr-small-v1/best",
+    "maximum_probe_character_error_rate": 0.32,
+    "automatic_acceptance_character_error_rate": 0.12,
+    "minimum_ambiguous_match_margin": 0.08
+  },
+  "accepted_pairs": {
+    "characters": 294709,
+    "character_coverage": 0.6916801423216931,
+    "distinct_characters": 92,
+    "source_distinct_characters": 94,
+    "source_singletons_not_retained": [
+      "7",
+      "æ"
+    ],
+    "pages": 138,
+    "minimum_pairs_per_page": 12,
+    "median_pairs_per_page": 62.0,
+    "maximum_pairs_per_page": 85
+  },
+  "page_disjoint_split": {
+    "train": {
+      "pages": 110,
+      "pairs": 6402
+    },
+    "development": {
+      "pages": 14,
+      "pairs": 820
+    },
+    "test": {
+      "pages": 14,
+      "pairs": 827
+    }
+  },
+  "integrity": {
+    "unique_target_ids": 8049,
+    "unique_source_images": 8049,
+    "missing_images": 0,
+    "checksum_mismatches": 0,
+    "split_page_overlap": 0,
+    "randomly_audited_accepted_pairs": 100,
+    "separately_audited_shifted_pairs": 52,
+    "visual_audit_result": "passed"
+  },
+  "artifact": ".cache/ocr-model/clean-lines-v1",
+  "artifact_tracked": false
+}

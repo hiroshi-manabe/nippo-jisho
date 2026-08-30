@@ -106,6 +106,11 @@ distribution learned during training, so that change was rejected. A future
 version should generate OCR-specific isolated crops and retrain on them rather
 than changing inference alone.
 
+That follow-up [clean isolated-line dataset](clean-ocr-pairs.md)
+conservatively retains 8,049 image–text pairs and routes visually difficult
+material back to the established general-purpose visual-AI workflow rather
+than requiring one specialist model to handle every page condition.
+
 ## Using the engine
 
 Recognize one or more already-cropped physical line images:
