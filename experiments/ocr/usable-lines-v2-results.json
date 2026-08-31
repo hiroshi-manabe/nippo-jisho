@@ -15,10 +15,10 @@
     "provisional_acceptance_rate": 0.9992266047950503
   },
   "correspondence_validation": {
-    "accepted_pairs": 12519,
-    "rejected_target_lines": 411,
-    "acceptance_rate": 0.9682134570765661,
-    "rejection_rate": 0.03178654292343387,
+    "accepted_pairs": 12368,
+    "rejected_target_lines": 562,
+    "acceptance_rate": 0.9565351894818253,
+    "rejection_rate": 0.04346481051817479,
     "shifted_pairs": 233,
     "probe_model": ".cache/ocr-model/runs/trocr-small-v1/best",
     "maximum_shifted_pair_character_error_rate": 0.45,
@@ -40,11 +40,16 @@
   },
   "positional_rescue_validation": {
     "candidate_pairs": 730,
+    "core_ocr_validated_pairs": 579,
+    "core_ocr_rejected_pairs": 151,
     "maximum_text_length": 12,
     "maximum_absolute_skew_degrees": 1.2,
     "maximum_skew_residual_pixels": 10,
     "accepted_immediate_target_neighbours_required": true,
     "image_region_source": "native scan between canonical neighbour-centre midpoints",
+    "horizontal_crop": "strongest central-row ink cluster with intra-line gap preservation",
+    "maximum_core_probe_character_error_rate": 0.6,
+    "core_probe_checkpoint": ".cache/ocr-model/runs/trocr-isolated-core-v1/best",
     "deterministic_random_sample": 100,
     "visually_correct_in_sample": 100,
     "audit": "experiments/ocr/positional-rescue-v1-audit.json"
@@ -54,40 +59,40 @@
     "recovered": 3607,
     "visually_confirmed": 8,
     "kraken_rectified": 125,
-    "positionally_anchored": 730,
+    "positionally_anchored": 579,
     "strict_baseline_fallback_images": 16
   },
   "accepted_pairs": {
-    "characters": 415991,
-    "character_coverage": 0.9763282223635634,
+    "characters": 414920,
+    "character_coverage": 0.9738145921981238,
     "distinct_characters": 93,
     "source_distinct_characters": 94,
     "source_singletons_not_retained": [
       "æ"
     ],
     "pages": 138,
-    "minimum_pairs_per_page": 59,
-    "median_pairs_per_page": 93.0,
+    "minimum_pairs_per_page": 57,
+    "median_pairs_per_page": 92.0,
     "maximum_pairs_per_page": 96
   },
   "page_disjoint_split": {
     "train": {
       "pages": 110,
-      "pairs": 9966
+      "pairs": 9843
     },
     "development": {
       "pages": 14,
-      "pairs": 1265
+      "pairs": 1252
     },
     "test": {
       "pages": 14,
-      "pairs": 1288
+      "pairs": 1273
     }
   },
   "integrity": {
-    "unique_target_ids": 12519,
-    "unique_source_images": 12519,
-    "unique_rejected_target_ids": 411,
+    "unique_target_ids": 12368,
+    "unique_source_images": 12368,
+    "unique_rejected_target_ids": 562,
     "target_partition_size": 12930,
     "accepted_rejected_target_overlap": 0,
     "missing_images": 0,
@@ -103,6 +108,6 @@
     "visual_audit_result": "passed"
   },
   "artifact": ".cache/ocr-model/usable-lines-v2",
-  "artifact_size": "478M",
+  "artifact_size": "463M",
   "artifact_tracked": false
 }

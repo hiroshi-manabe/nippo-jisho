@@ -1,0 +1,128 @@
+{
+  "format": "nippo-trocr-isolated-ablation-result",
+  "format_version": 1,
+  "base_model": "microsoft/trocr-small-printed",
+  "source_pages": [13, 150],
+  "seed": 1603,
+  "training": {
+    "epochs": 3,
+    "learning_rate": 0.00001,
+    "batch_size": 8,
+    "maximum_length": 48,
+    "encoder_frozen_epochs": 3,
+    "parameters": 61596672,
+    "device": "mps"
+  },
+  "datasets": {
+    "core_training_lines": 9406,
+    "full_training_lines": 9843,
+    "additional_positionally_anchored_training_lines": 437,
+    "shared_core_development_lines": 1177,
+    "ordinary_test_lines": 1206,
+    "positionally_anchored_test_lines": 67,
+    "combined_test_lines": 1273
+  },
+  "positional_crop_preflight": {
+    "initial_wide_crop_median_pixels": 710,
+    "initial_full_run_aborted_at_batch": 400,
+    "initial_full_run_mean_loss_at_abort": 10.163525009155274,
+    "corrected_validated_crop_median_pixels": 193,
+    "proposal_lines": 730,
+    "core_ocr_validated_lines": 579,
+    "core_ocr_rejected_lines": 151,
+    "random_validated_crops_visually_audited": 100,
+    "visually_correct_in_sample": 100
+  },
+  "core_model": {
+    "run": ".cache/ocr-model/runs/trocr-isolated-core-v1",
+    "elapsed_seconds": 3775.221606016159,
+    "best_epoch": 3,
+    "best_development_loss": 0.8925528860575443,
+    "development": {
+      "lines": 1177,
+      "characters": 41293,
+      "character_errors": 4812,
+      "character_error_rate": 0.11653306855883563,
+      "exact_lines": 87,
+      "exact_line_rate": 0.07391673746813934
+    },
+    "ordinary_test": {
+      "lines": 1206,
+      "characters": 40880,
+      "character_errors": 4467,
+      "character_error_rate": 0.10927103718199609,
+      "exact_lines": 100,
+      "exact_line_rate": 0.08291873963515754
+    },
+    "positionally_anchored_test": {
+      "lines": 67,
+      "characters": 541,
+      "character_errors": 101,
+      "character_error_rate": 0.1866913123844732,
+      "exact_lines": 20,
+      "exact_line_rate": 0.29850746268656714
+    },
+    "combined_test": {
+      "lines": 1273,
+      "characters": 41421,
+      "character_errors": 4568,
+      "character_error_rate": 0.11028222399266073,
+      "exact_lines": 120,
+      "exact_line_rate": 0.09426551453260015
+    }
+  },
+  "full_model": {
+    "run": ".cache/ocr-model/runs/trocr-isolated-full-v1",
+    "elapsed_seconds": 4527.287365913391,
+    "best_epoch": 3,
+    "best_development_loss": 0.9449339233137466,
+    "development": {
+      "lines": 1177,
+      "characters": 41293,
+      "character_errors": 5017,
+      "character_error_rate": 0.1214975903906231,
+      "exact_lines": 75,
+      "exact_line_rate": 0.0637213254035684
+    },
+    "ordinary_test": {
+      "lines": 1206,
+      "characters": 40880,
+      "character_errors": 4845,
+      "character_error_rate": 0.11851761252446184,
+      "exact_lines": 87,
+      "exact_line_rate": 0.07213930348258707
+    },
+    "positionally_anchored_test": {
+      "lines": 67,
+      "characters": 541,
+      "character_errors": 51,
+      "character_error_rate": 0.09426987060998152,
+      "exact_lines": 36,
+      "exact_line_rate": 0.5373134328358209
+    },
+    "combined_test": {
+      "lines": 1273,
+      "characters": 41421,
+      "character_errors": 4896,
+      "character_error_rate": 0.11820091258057507,
+      "exact_lines": 123,
+      "exact_line_rate": 0.09662215239591516
+    }
+  },
+  "provenance_routed_result": {
+    "ordinary_model": "core",
+    "positionally_anchored_model": "full",
+    "lines": 1273,
+    "characters": 41421,
+    "character_errors": 4518,
+    "character_error_rate": 0.1090751068298689,
+    "exact_lines": 136,
+    "exact_line_rate": 0.10683424980361352
+  },
+  "decision": {
+    "best_single_model": "core",
+    "default_checkpoint": ".cache/ocr-model/runs/trocr-isolated-core-v1/best",
+    "positionally_anchored_checkpoint": ".cache/ocr-model/runs/trocr-isolated-full-v1/best",
+    "policy": "Use the core checkpoint by default. Use the full checkpoint only for crops carrying positionally-anchored provenance. Do not replace the core checkpoint with the full checkpoint globally."
+  }
+}

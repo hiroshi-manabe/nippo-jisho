@@ -37,26 +37,39 @@ def main() -> int:
     evidence = json.loads(args.evidence.read_text(encoding="utf-8"))
     if evidence.get("result") != "passed" or not evidence.get("sample_size"):
         raise ValueError("positional rescue requires a passed visual sample audit")
-    candidates_path = args.candidates / "candidates.jsonl"
+    candidates_path = args.candidates / "validated-candidates.jsonl"
     candidates = load_jsonl(candidates_path)
     if evidence["candidate_count"] != len(candidates):
         raise ValueError("candidate count differs from the audited build")
     candidate_sha256 = hashlib.sha256(candidates_path.read_bytes()).hexdigest()
-    if evidence.get("candidates_sha256") != candidate_sha256:
+    if evidence.get("validated_candidates_sha256") != candidate_sha256:
         raise ValueError("candidate manifest differs from the audited build")
     sampled_ids = evidence.get("sample_ids", [])
     if len(sampled_ids) != evidence["sample_size"]:
         raise ValueError("audit sample IDs do not match the recorded sample size")
 
     existing = load_jsonl(args.dataset / "aligned-pairs.jsonl")
-    existing_ids = {record["id"] for record in existing}
+    existing_by_id = {record["id"]: record for record in existing}
     rejected = load_jsonl(args.dataset / "alignment-rejected.jsonl")
     rejected_ids = {record["id"] for record in rejected if record.get("text")}
+    all_candidates = load_jsonl(args.candidates / "candidates.jsonl")
+    validation_rejected = load_jsonl(
+        args.candidates / "validation-rejected.jsonl"
+    )
+    candidate_by_id = {record["id"]: record for record in all_candidates}
+    candidate_by_id.update({record["id"]: record for record in candidates})
+    candidate_by_id.update(
+        {record["id"]: record for record in validation_rejected}
+    )
+    validated_ids = {record["id"] for record in candidates}
+    invalid_ids = set(candidate_by_id) - validated_ids
     additions = []
     for candidate in candidates:
-        if candidate["id"] in existing_ids:
-            continue
-        if candidate["id"] not in rejected_ids:
+        existing_record = existing_by_id.get(candidate["id"])
+        if (
+            existing_record is None
+            and candidate["id"] not in rejected_ids
+        ):
             raise ValueError(f"candidate is not a rejected target: {candidate['id']}")
         source = args.candidates / candidate["image"]
         relative = (
@@ -86,7 +99,12 @@ def main() -> int:
         additions.append(pair)
 
     combined = sorted(
-        existing + additions,
+        [
+            record
+            for record in existing
+            if record.get("quality_tier") != "positionally-anchored"
+        ]
+        + additions,
         key=lambda record: (
             record["page_id"],
             record["column"],
@@ -94,12 +112,38 @@ def main() -> int:
             record["block_index"],
         ),
     )
-    added_ids = {record["id"] for record in additions}
     remaining = [
         record
         for record in rejected
-        if not (record["id"] in added_ids and record.get("text"))
+        if not (record["id"] in candidate_by_id and record.get("text"))
     ]
+    raw = load_jsonl(args.dataset / "pairs.jsonl") + load_jsonl(
+        args.dataset / "rejected.jsonl"
+    )
+    raw_by_id = {record["id"]: record for record in raw if record.get("text")}
+    for identifier in sorted(invalid_ids):
+        candidate = candidate_by_id[identifier]
+        base = raw_by_id.get(identifier, candidate)
+        remaining.append(
+            {
+                **base,
+                "text": candidate["text"],
+                "reasons": ["positional_crop_recognition_mismatch"],
+                "positional_probe_recognition": candidate.get(
+                    "positional_probe_recognition"
+                ),
+                "positional_probe_cer": candidate.get("positional_probe_cer"),
+            }
+        )
+    remaining.sort(
+        key=lambda record: (
+            record["page_id"],
+            record["column"],
+            record["block"],
+            record["block_index"],
+            not bool(record.get("text")),
+        )
+    )
     write_jsonl(args.dataset / "aligned-pairs.jsonl", combined)
     write_jsonl(args.dataset / "alignment-rejected.jsonl", remaining)
     for split in ("train", "dev", "test"):
@@ -139,7 +183,13 @@ def main() -> int:
     print(
         json.dumps(
             {
-                "added": len(additions),
+                "added": sum(
+                    record["id"] not in existing_by_id for record in additions
+                ),
+                "refreshed": sum(
+                    record["id"] in existing_by_id for record in additions
+                ),
+                "returned_to_rejected": len(invalid_ids),
                 "accepted": len(combined),
                 "rejected": summary["candidate_lines"] - len(combined),
             },

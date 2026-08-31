@@ -12,7 +12,10 @@ import torch
 from transformers import TrOCRProcessor, VisionEncoderDecoderModel
 
 from build_ocr_dataset import ROOT, prepare_crop, trim_horizontal
-from train_nippo_trocr import DEFAULT_OUTPUT, decode_text, device_for
+from train_nippo_trocr import decode_text, device_for
+
+
+DEFAULT_RUN = ROOT / ".cache" / "ocr-model" / "runs" / "trocr-isolated-core-v1"
 
 
 def preprocess_line(image: Image.Image, *, height: int, max_width: int) -> Image.Image:
@@ -118,7 +121,7 @@ def parser() -> argparse.ArgumentParser:
     result = argparse.ArgumentParser(description=__doc__)
     result.add_argument("images", nargs="*", type=Path)
     result.add_argument("--page", type=int)
-    result.add_argument("--run", type=Path, default=DEFAULT_OUTPUT)
+    result.add_argument("--run", type=Path, default=DEFAULT_RUN)
     result.add_argument("--checkpoint", type=Path)
     result.add_argument("--output", type=Path)
     result.add_argument("--device", default="auto")

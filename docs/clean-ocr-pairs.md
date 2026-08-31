@@ -148,19 +148,20 @@ The final corpus has five provenance tiers:
 - `kraken-rectified`: 125 pairs recovered by the independently generated
   Kraken baseline polygons and individually checked in a complete contact-sheet
   audit;
-- `positionally-anchored`: 730 short lines recropped from the native scan
+- `positionally-anchored`: 579 short lines recropped from the native scan
   between the canonical centres of two already accepted immediate neighbours.
-  These have ordinary geometry and passed a deterministic 100-item random
-  visual audit, but were not individually inspected.
+  These have ordinary geometry, passed a core-model correspondence gate, and
+  passed a deterministic 100-item random visual audit, but were not
+  individually inspected.
 
 | Stage | Accepted lines | Share of 12,930 candidates |
 | --- | ---: | ---: |
 | Provisional visual isolation | 12,920 | 99.92% |
-| Final image–text correspondence | **12,519** | **96.82%** |
+| Final image–text correspondence | **12,368** | **95.65%** |
 
-The final rejection rate is **3.18%**. The set contains 9,966 training, 1,265
-development, and 1,288 test pairs on the unchanged page-disjoint split, and it
-retains 415,991 of 426,077 characters (97.63%). All identifiers, images, and
+The final rejection rate is **4.35%**. The set contains 9,843 training, 1,252
+development, and 1,273 test pairs on the unchanged page-disjoint split, and it
+retains 414,920 of 426,077 characters (97.38%). All identifiers, images, and
 checksums pass integrity checks. Visual auditing covered 100 random recovered
 pairs, 100 random all-tier pairs, the existing 233 sequence-shifted pairs, all
 16 baseline fallbacks, all eight original explicit visual accepts, and every
@@ -220,26 +221,31 @@ and
 Most remaining rejections were short, regular lines. Their canonical centres
 were often correct even when the ink-band selector had attached the saved crop
 to an adjacent row. Reusing or shifting those saved tight crops therefore
-failed visual checks. The successful rescue instead returns to the native scan
-and cuts the target between the midpoint to the preceding line and the midpoint
-to the following line.
+failed visual checks. The rescue instead returns to the native scan, cuts the
+target between the midpoint to the preceding line and the midpoint to the
+following line, and then trims horizontally to the strongest central-row ink
+cluster while preserving large intra-line spaces.
 
 The rule is deliberately narrow: the target has at most 12 characters, both
 immediate neighbours in its physical block are already accepted, absolute
 measured skew is at most 1.2 degrees, baseline residual is at most 10 pixels,
 and none of the hard duplicate, spacing, or implausible-height flags is present.
-The candidate set is reproducible and bound to its audit by a SHA-256 digest:
+These rules produce 730 proposals. The core isolated-line model, trained
+without any of them, then reads each proposed crop; the 579 crops with CER at
+or below 60% continue, while 151 return to the rejected pool. The validated
+set is reproducible and bound to its audit by a SHA-256 digest:
 
 ```sh
 .cache/ocr-model/venv-arm64/bin/python scripts/build_positional_rescue.py
+.cache/ocr-model/venv-arm64/bin/python scripts/validate_positional_rescue.py
 .cache/ocr-model/venv-arm64/bin/python scripts/apply_positional_rescue.py
 ```
 
-This produced 730 candidates. A deterministic random sample of 100 was read
-against contact sheets; all 100 crops contained the stated line. The observed
-sample error was zero, but that does not amount to individual verification of
-all 730 pairs. They consequently retain their own `positionally-anchored`
-provenance and no fabricated OCR score. The tracked audit record is
+A deterministic random sample of 100 validated crops was read against contact
+sheets; all 100 contained the complete stated line. The observed sample error
+was zero, but that does not amount to individual verification of all 579 pairs.
+They consequently retain their own `positionally-anchored` provenance and the
+actual probe reading rather than a fabricated score. The tracked audit record is
 [`experiments/ocr/positional-rescue-v1-audit.json`](../experiments/ocr/positional-rescue-v1-audit.json).
 
 ## Interpretation

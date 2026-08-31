@@ -75,8 +75,8 @@ def parser() -> argparse.ArgumentParser:
     result.add_argument(
         "--splits",
         nargs="+",
-        choices=("train", "dev", "test"),
         default=("dev", "test"),
+        help="manifest basenames to evaluate (default: dev test)",
     )
     result.add_argument("--device", default="auto")
     result.add_argument("--batch-size", type=int, default=16)

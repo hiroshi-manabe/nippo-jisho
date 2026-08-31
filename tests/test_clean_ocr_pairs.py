@@ -124,6 +124,20 @@ class CleanOcrPairTests(unittest.TestCase):
         record["reasons"] = ["duplicate_geometry"]
         self.assertFalse(build_positional_rescue.ordinary_geometry(record))
 
+    def test_positional_rescue_trims_to_strong_central_cluster(self):
+        image = Image.new("L", (240, 48), 245)
+        pixels = image.load()
+        for x in range(60, 121):
+            for y in range(15, 35):
+                if x % 5 < 3:
+                    pixels[x, y] = 20
+        for y in range(48):
+            pixels[5, y] = 10
+            pixels[230, y] = 10
+        trimmed = build_positional_rescue.trim_target_horizontal(image)
+        self.assertLess(trimmed.width, 100)
+        self.assertGreaterEqual(trimmed.width, 80)
+
 
 if __name__ == "__main__":
     unittest.main()

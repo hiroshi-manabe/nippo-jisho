@@ -10,6 +10,7 @@ import json
 from pathlib import Path
 import random
 
+import numpy as np
 from PIL import Image
 
 from build_clean_ocr_pairs import (
@@ -52,6 +53,44 @@ def ordinary_geometry(record: dict) -> bool:
     )
 
 
+def trim_target_horizontal(line: Image.Image, padding: int = 12) -> Image.Image:
+    """Keep the strongest central-row ink cluster, excluding column rules."""
+    pixels = np.asarray(line.convert("L"))
+    top = max(0, line.height // 6)
+    bottom = min(line.height, line.height - line.height // 6)
+    band = pixels[top:bottom]
+    counts = np.count_nonzero(band < 100, axis=0)
+    active = np.flatnonzero((counts >= 2) & (counts <= band.shape[0] * 0.75))
+    if not active.size:
+        return line
+
+    runs: list[tuple[int, int]] = []
+    start = previous = int(active[0])
+    for column in active[1:]:
+        column = int(column)
+        if column > previous + 1:
+            runs.append((start, previous + 1))
+            start = column
+        previous = column
+    runs.append((start, previous + 1))
+
+    clusters: list[tuple[int, int]] = []
+    for start, stop in runs:
+        if clusters and start - clusters[-1][1] <= 56:
+            clusters[-1] = (clusters[-1][0], stop)
+        else:
+            clusters.append((start, stop))
+    start, stop = max(
+        clusters,
+        key=lambda bounds: int(counts[bounds[0] : bounds[1]].sum()),
+    )
+    left = max(0, start - padding)
+    right = min(line.width, stop + padding)
+    if right - left < 32:
+        return line
+    return line.crop((left, 0, right, line.height))
+
+
 def parser() -> argparse.ArgumentParser:
     result = argparse.ArgumentParser(description=__doc__)
     result.add_argument("--dataset", type=Path, default=HIGH_RECALL_OUTPUT)
@@ -70,9 +109,16 @@ def main() -> int:
     accepted_records = load_jsonl(args.dataset / "aligned-pairs.jsonl")
     accepted_ids = {record["id"] for record in accepted_records}
     rejected_records = load_jsonl(args.dataset / "alignment-rejected.jsonl")
-    rejected = {
+    targets = {
         record["id"]: record for record in rejected_records if record.get("text")
     }
+    targets.update(
+        {
+            record["id"]: record
+            for record in accepted_records
+            if record.get("quality_tier") == "positionally-anchored"
+        }
+    )
     raw = load_jsonl(args.dataset / "pairs.jsonl") + load_jsonl(
         args.dataset / "rejected.jsonl"
     )
@@ -88,7 +134,7 @@ def main() -> int:
     proposals: list[tuple[dict, dict, dict, dict]] = []
     for group in groups.values():
         for index, current in enumerate(group):
-            target = rejected.get(current["id"])
+            target = targets.get(current["id"])
             if (
                 target is None
                 or len(target["text"]) > args.maximum_text_length
@@ -142,15 +188,31 @@ def main() -> int:
                     height=args.height,
                     max_width=args.max_width,
                 )
+                image = trim_target_horizontal(image)
                 relative = (
                     Path("images") / page_id / f"{current['line_id']}.png"
                 )
                 output_path = args.output / relative
                 output_path.parent.mkdir(parents=True, exist_ok=True)
                 image.save(output_path, format="PNG", optimize=True)
+                target_fields = {
+                    key: target[key]
+                    for key in (
+                        "id",
+                        "page_id",
+                        "line_id",
+                        "column",
+                        "block",
+                        "block_index",
+                        "split",
+                        "text",
+                        "review_crop",
+                    )
+                    if key in target
+                }
                 candidates.append(
                     {
-                        **target,
+                        **target_fields,
                         "image": relative.as_posix(),
                         "source_crop": [x, top, width, bottom - top],
                         "isolation_window": [x, top, width, bottom - top],
