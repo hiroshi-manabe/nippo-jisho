@@ -101,6 +101,12 @@ For now:
 - rerun the complete order sweep when a materially larger corrected corpus is
   available.
 
+The subsequent [OCR and N-gram fusion experiment](o-mark-ocr-fusion.md) did not
+improve this limitation. On the OCR checkpoint's untouched test pages, the
+2-gram alone reached 71.04%, while calibrated fusion reached 69.40%. Even the
+best agreement subset consisted entirely of `ǒ` predictions. The existing
+line recognizer therefore supplies no reliable complementary `ô`/`ǒ` evidence.
+
 ## Reproduction
 
 The evaluator requires the KenLM Python binding and the `lmplz` executable. It

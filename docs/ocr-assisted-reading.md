@@ -81,6 +81,15 @@ page-level ten-fold validation over `f13`–`f151` reached only 70.72% overall a
 68.68% on unseen word signatures. Its score may order candidates for review;
 it must not silently change Level 1.
 
+A leakage-controlled [OCR/N-gram fusion experiment](o-mark-ocr-fusion.md)
+confirmed that the present line recognizer should not participate in the
+`ô`/`ǒ` decision. On its untouched test pages, N-gram alone reached 71.04%,
+whereas page-calibrated fusion reached 69.40%. Higher-resolution inputs,
+blank-image prior subtraction, hard agreement, and an asymmetric override rule
+all failed to produce a balanced generalizable gain. OCR may still raise a
+possible-mark or crop-instability prompt; enlarged scan inspection determines
+the mark.
+
 ## Evidence-fusion procedure
 
 For each prepared page:

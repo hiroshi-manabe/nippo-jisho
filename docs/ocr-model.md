@@ -184,6 +184,13 @@ pages reduced the general estimate to 70.72%. The order sweep still selected
 the 2-gram, narrowly ahead of the 5-gram at 70.12%. The model is weak linguistic
 evidence layered after mark detection, not a replacement for scan inspection.
 
+The follow-up [OCR/N-gram fusion evaluation](o-mark-ocr-fusion.md) found no
+generalizable benefit from combining the current line-decoder accent score with
+the N-gram. On the OCR checkpoint's untouched test pages, N-gram alone scored
+71.04% and calibrated fusion 69.40%. This negative result applies specifically
+to circumflex-versus-caron classification; it does not revoke the separate
+feature-level uses of OCR for division marks, spacing, or base-letter pairs.
+
 ## Using the engine
 
 Recognize one or more already-cropped physical line images:
