@@ -63,7 +63,7 @@ missing or otherwise garbled character.
 | ampersand | 8/8 in both routes | Retain as promising evidence, but do not generalize from this small count alone. |
 | `c` / `ç` | 58/71 and 60/71 exact; conditional choice 96.7% and 95.2% | Generate a reinspection candidate; do not make it a default replacement yet. |
 | `n` / `m` | 176/216 exact in both routes; conditional choice 93.1% and 94.1% | Generate a reinspection candidate only. |
-| marked `o` (`ô`, `ǒ`, and related forms) | only 28/48 and 26/48 exact overall | Do not prioritize an isolated OCR accent reading. Give weight to a repeated, internally consistent token pattern such as the f151 `Vôqina` family. |
+| marked `o` (`ô`, `ǒ`, and related forms) | only 28/48 and 26/48 exact overall; a separate held-out character N-gram experiment chose `ô` versus `ǒ` correctly in 43/46 cases | Do not let OCR infer the presence of a mark. Once a mark is visually established, use the N-gram score as linguistic evidence and enlarge low-margin cases. |
 | tilde presence or carrier | `quẽtura`, `dizẽ`, and `feijoẽs` were lost or materially misread | Do not let line OCR decide tilde placement. Use it only to raise a possible-mark flag. |
 | pilcrow | 6/7 and 5/7 exact, with additional false detections | Retain the scan-led reading. |
 | roman / italic type | not represented by the recognizer | OCR supplies no evidence. |
@@ -72,6 +72,14 @@ These rates measure one out-of-range page after human correction. They do not
 license blind substitution. In particular, the strong repeated `Vôqina`
 result does not contradict the poor page-wide marked-`o` rate: recurrence is
 part of the evidence.
+
+The [marked-`o` character N-gram experiment](o-mark-ngram.md) separates two
+questions that line OCR had conflated. Vision must first establish that a mark
+exists; conditional on that fact, the selected 2-gram language model chose
+`ô` versus `ǒ` in 43/46 held-out f151 occurrences and got all 20 members of the
+`Vôqina`/`Vôyubi` family correct. Its confidence cutoff is not yet independently
+validated, so the score currently changes review priority rather than silently
+changing Level 1.
 
 ## Evidence-fusion procedure
 
