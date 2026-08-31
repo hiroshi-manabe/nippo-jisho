@@ -7,12 +7,19 @@ import argparse
 from collections import Counter, defaultdict
 import json
 from pathlib import Path
+import shutil
 
 from PIL import Image
 import torch
 from transformers import TrOCRProcessor, VisionEncoderDecoderModel
 
-from build_clean_ocr_pairs import DEFAULT_OUTPUT, ROOT, audit_sheet, write_json
+from build_clean_ocr_pairs import (
+    DEFAULT_OUTPUT,
+    HIGH_RECALL_SOFT_FLAGS,
+    ROOT,
+    audit_sheet,
+    write_json,
+)
 from build_ocr_dataset import DEFAULT_OUTPUT as DEFAULT_RECOGNITION_DATASET
 from train_nippo_trocr import DEFAULT_OUTPUT as DEFAULT_RUN
 from train_nippo_trocr import decode_text, device_for, edit_distance
@@ -34,8 +41,7 @@ def load_records(root: Path) -> list[dict]:
     )
 
 
-@torch.inference_mode()
-def recognize(records: list[dict], args: argparse.Namespace) -> None:
+def load_recognizer(args: argparse.Namespace) -> tuple:
     checkpoint = args.checkpoint or args.run / "best"
     processor = TrOCRProcessor.from_pretrained(checkpoint, use_fast=False)
     model = VisionEncoderDecoderModel.from_pretrained(checkpoint)
@@ -43,9 +49,38 @@ def recognize(records: list[dict], args: argparse.Namespace) -> None:
     model.decoder.config._attn_implementation = "eager"
     device = device_for(args.device)
     model.to(device).eval()
+    return processor, model, device
+
+
+@torch.inference_mode()
+def recognize(
+    records: list[dict], args: argparse.Namespace, runtime: tuple | None = None
+) -> tuple:
+    cache = {}
+    if args.prediction_cache and args.prediction_cache.exists():
+        with args.prediction_cache.open(encoding="utf-8") as stream:
+            for line in stream:
+                if line.strip():
+                    cached = json.loads(line)
+                    cache[cached["id"]] = cached["recognition"]
+    processor, model, device = runtime or load_recognizer(args)
     for record in records:
-        record["recognition"] = ""
-    eligible = [record for record in records if not record.get("reasons")]
+        record["recognition"] = cache.get(record["id"], "")
+    eligible = [
+        record
+        for record in records
+        if not record.get("reasons") and record["id"] not in cache
+    ]
+    if cache:
+        reused = sum(
+            not record.get("reasons") and record["id"] in cache
+            for record in records
+        )
+        print(f"reused {reused} cached recognitions", flush=True)
+    cache_stream = None
+    if args.prediction_cache:
+        args.prediction_cache.parent.mkdir(parents=True, exist_ok=True)
+        cache_stream = args.prediction_cache.open("a", encoding="utf-8")
     for start in range(0, len(eligible), args.batch_size):
         batch = eligible[start : start + args.batch_size]
         images = []
@@ -61,9 +96,147 @@ def recognize(records: list[dict], args: argparse.Namespace) -> None:
         )
         for record, prediction in zip(batch, decoded):
             record["recognition"] = decode_text(prediction)
+            if cache_stream:
+                cache_stream.write(
+                    json.dumps(
+                        {"id": record["id"], "recognition": record["recognition"]},
+                        ensure_ascii=False,
+                    )
+                    + "\n"
+                )
+        if cache_stream:
+            cache_stream.flush()
         completed = min(len(eligible), start + len(batch))
         if args.log_every and completed % args.log_every < args.batch_size:
             print(f"recognized {completed}/{len(eligible)}", flush=True)
+    if cache_stream:
+        cache_stream.close()
+    return processor, model, device
+
+
+@torch.inference_mode()
+def recognize_flagged_crops(
+    records: list[dict], args: argparse.Namespace, runtime: tuple
+) -> None:
+    for record in records:
+        record["crop_recognition"] = None
+    if args.alignment_policy != "high-recall":
+        return
+    cache = {}
+    if args.crop_prediction_cache and args.crop_prediction_cache.exists():
+        with args.crop_prediction_cache.open(encoding="utf-8") as stream:
+            for line in stream:
+                if line.strip():
+                    cached = json.loads(line)
+                    cache[cached["sha256"]] = cached["recognition"]
+    eligible = [
+        record
+        for record in records
+        if not record.get("reasons")
+        and (
+            HIGH_RECALL_SOFT_FLAGS.intersection(record.get("quality_flags", []))
+            or normalized_distance(record["text"], record["recognition"])
+            > args.crop_validation_probe_cer
+        )
+    ]
+    for record in eligible:
+        if record["sha256"] in cache:
+            record["crop_recognition"] = cache[record["sha256"]]
+    pending = [
+        record for record in eligible if record["crop_recognition"] is None
+    ]
+    print(
+        f"reused {len(eligible) - len(pending)} cached crop recognitions",
+        flush=True,
+    )
+    cache_stream = None
+    if args.crop_prediction_cache:
+        args.crop_prediction_cache.parent.mkdir(parents=True, exist_ok=True)
+        cache_stream = args.crop_prediction_cache.open("a", encoding="utf-8")
+    processor, model, device = runtime
+    for start in range(0, len(pending), args.batch_size):
+        batch = pending[start : start + args.batch_size]
+        images = []
+        for record in batch:
+            with Image.open(args.dataset / record["image"]) as source:
+                images.append(source.convert("RGB"))
+        pixels = processor(images=images, return_tensors="pt").pixel_values.to(device)
+        generated = model.generate(pixels, max_length=args.max_length, num_beams=1)
+        decoded = processor.batch_decode(
+            generated,
+            skip_special_tokens=True,
+            clean_up_tokenization_spaces=False,
+        )
+        for record, prediction in zip(batch, decoded):
+            record["crop_recognition"] = decode_text(prediction)
+            if cache_stream:
+                cache_stream.write(
+                    json.dumps(
+                        {
+                            "sha256": record["sha256"],
+                            "recognition": record["crop_recognition"],
+                        },
+                        ensure_ascii=False,
+                    )
+                    + "\n"
+                )
+        if cache_stream:
+            cache_stream.flush()
+        completed = min(len(pending), start + len(batch))
+        if args.log_every and completed % args.log_every < args.batch_size:
+            print(f"crop-recognized {completed}/{len(pending)}", flush=True)
+    if cache_stream:
+        cache_stream.close()
+
+
+def baseline_pairs(root: Path | None) -> dict[str, dict]:
+    if root is None or not (root / "aligned-pairs.jsonl").exists():
+        return {}
+    with (root / "aligned-pairs.jsonl").open(encoding="utf-8") as stream:
+        records = (json.loads(line) for line in stream if line.strip())
+        return {record["id"]: record for record in records}
+
+
+def baseline_fallback_pair(
+    pair: dict, baseline: dict, *, baseline_root: Path, dataset_root: Path
+) -> dict:
+    """Reuse a previously audited image when a new expanded crop is less certain."""
+    source = baseline_root / baseline["image"]
+    relative_image = Path("baseline-images") / Path(baseline["image"]).relative_to(
+        "images"
+    )
+    destination = dataset_root / relative_image
+    destination.parent.mkdir(parents=True, exist_ok=True)
+    shutil.copyfile(source, destination)
+    result = {
+        **pair,
+        "image": str(relative_image),
+        "source_crop": baseline["source_crop"],
+        "isolation_window": baseline["isolation_window"],
+        "review_crop": baseline["review_crop"],
+        "metrics": baseline["metrics"],
+        "quality_flags": [],
+        "width": baseline["width"],
+        "height": baseline["height"],
+        "sha256": baseline["sha256"],
+        "recognition": baseline["recognition"],
+        "recognition_cer": baseline["recognition_cer"],
+        "crop_recognition": None,
+        "crop_recognition_cer": None,
+        "alignment_margin": baseline["alignment_margin"],
+        "alignment_displacement": baseline["alignment_displacement"],
+        "source_candidate_id": baseline["source_candidate_id"],
+        "baseline_fallback": True,
+        "quality_tier": "strict",
+    }
+    result.pop("reasons", None)
+    return result
+
+
+def visual_accepts(path: Path | None) -> set[str]:
+    if path is None:
+        return set()
+    return set(json.loads(path.read_text(encoding="utf-8"))["pairs"])
 
 
 def normalized_distance(reference: str, hypothesis: str) -> float:
@@ -129,6 +302,8 @@ def match_margin(reference: dict, candidates: list[dict], selected: int) -> floa
 
 
 def align(records: list[dict], args: argparse.Namespace) -> tuple[list[dict], list[dict]]:
+    baseline = baseline_pairs(args.baseline_dataset)
+    confirmed = visual_accepts(args.visual_accepts)
     groups: dict[tuple[str, str, str], list[dict]] = defaultdict(list)
     for record in records:
         groups[(record["page_id"], record["column"], record["block"])].append(record)
@@ -154,17 +329,31 @@ def align(records: list[dict], args: argparse.Namespace) -> tuple[list[dict], li
             candidate = candidates[candidate_index]
             distance = normalized_distance(reference["text"], candidate["recognition"])
             margin = match_margin(reference, candidates, candidate_index)
+            crop_recognition = candidate.get("crop_recognition")
+            crop_distance = (
+                normalized_distance(reference["text"], crop_recognition)
+                if crop_recognition is not None
+                else None
+            )
             reasons = list(candidate.get("reasons", []))
             displacement = candidate_index - reference_index
             if not reasons:
-                if distance > args.maximum_cer:
-                    reasons.append("recognition_mismatch")
-                if abs(displacement) > args.maximum_displacement:
-                    reasons.append("excessive_alignment_displacement")
-                if distance > args.automatic_cer and (
-                    margin is None or margin < args.minimum_margin
-                ):
-                    reasons.append("ambiguous_text_alignment")
+                if args.alignment_policy == "high-recall":
+                    needs_crop_check = crop_recognition is not None
+                    if needs_crop_check and (
+                        crop_distance is None
+                        or crop_distance > args.maximum_crop_cer
+                    ):
+                        reasons.append("isolated_crop_recognition_mismatch")
+                if args.alignment_policy == "strict" or displacement != 0:
+                    if distance > args.maximum_cer:
+                        reasons.append("recognition_mismatch")
+                    if abs(displacement) > args.maximum_displacement:
+                        reasons.append("excessive_alignment_displacement")
+                    if distance > args.automatic_cer and (
+                        margin is None or margin < args.minimum_margin
+                    ):
+                        reasons.append("ambiguous_text_alignment")
             pair = {
                 **reference,
                 "image": candidate["image"],
@@ -172,21 +361,58 @@ def align(records: list[dict], args: argparse.Namespace) -> tuple[list[dict], li
                 "isolation_window": candidate["isolation_window"],
                 "review_crop": candidate["review_crop"],
                 "metrics": candidate["metrics"],
+                "quality_flags": candidate.get("quality_flags", []),
                 "width": candidate["width"],
                 "height": candidate["height"],
                 "sha256": candidate["sha256"],
                 "recognition": candidate["recognition"],
                 "recognition_cer": distance,
+                "crop_recognition": crop_recognition,
+                "crop_recognition_cer": crop_distance,
                 "alignment_margin": margin,
                 "alignment_displacement": displacement,
                 "source_candidate_id": candidate["id"],
             }
             pair.pop("reasons", None)
             reasons = list(dict.fromkeys(reasons))
+            baseline_record = baseline.get(reference["id"])
+            strict_baseline_match = (
+                baseline_record is not None
+                and baseline_record["source_candidate_id"] == candidate["id"]
+            )
+            if (
+                reasons
+                and args.alignment_policy == "high-recall"
+                and strict_baseline_match
+            ):
+                pair = baseline_fallback_pair(
+                    pair,
+                    baseline_record,
+                    baseline_root=args.baseline_dataset,
+                    dataset_root=args.dataset,
+                )
+                reasons = []
+            visually_confirmed = (
+                reference["id"] in confirmed
+                and reasons == ["isolated_crop_recognition_mismatch"]
+            )
+            if visually_confirmed:
+                reasons = []
+                pair["visual_accept"] = True
             if reasons:
                 pair["reasons"] = reasons
                 rejected.append(pair)
             else:
+                if args.alignment_policy == "high-recall":
+                    pair["quality_tier"] = (
+                        "visually-confirmed"
+                        if visually_confirmed
+                        else (
+                            "strict"
+                            if strict_baseline_match
+                            else "recovered"
+                        )
+                    )
                 accepted.append(pair)
         for index, reference in enumerate(references):
             if index not in matched_references:
@@ -235,17 +461,41 @@ def write_results(
         "acceptance_rate_from_all_candidates": len(accepted)
         / max(1, summary["candidate_lines"]),
         "accepted_by_split": dict(Counter(record["split"] for record in accepted)),
+        "accepted_by_quality_tier": dict(
+            Counter(record.get("quality_tier", "unclassified") for record in accepted)
+        ),
+        "baseline_fallback_pairs": sum(
+            bool(record.get("baseline_fallback")) for record in accepted
+        ),
+        "visually_confirmed_pairs": sum(
+            bool(record.get("visual_accept")) for record in accepted
+        ),
         "rejection_reasons": dict(reason_counts.most_common()),
         "maximum_recognition_cer": args.maximum_cer,
         "automatic_acceptance_cer": args.automatic_cer,
         "minimum_ambiguous_match_margin": args.minimum_margin,
         "maximum_sequence_displacement": args.maximum_displacement,
+        "alignment_policy": args.alignment_policy,
+        "maximum_isolated_crop_cer": args.maximum_crop_cer,
+        "crop_validation_probe_cer": args.crop_validation_probe_cer,
+        "visual_accepts": relative_display_path(args.visual_accepts.resolve())
+        if args.visual_accepts
+        else None,
     }
     write_json(args.dataset / "summary.json", summary)
     rng = __import__("random").Random(args.seed)
     accepted_sample = rng.sample(accepted, min(args.audit_lines, len(accepted)))
     rejected_sample = rng.sample(rejected, min(args.audit_lines, len(rejected)))
-    for name, sample in (("aligned", accepted_sample), ("alignment-rejected", rejected_sample)):
+    recovered = [
+        record for record in accepted if record.get("quality_tier") == "recovered"
+    ]
+    recovered_sample = rng.sample(recovered, min(args.audit_lines, len(recovered)))
+    samples = (
+        ("aligned", accepted_sample),
+        ("recovered", recovered_sample),
+        ("alignment-rejected", rejected_sample),
+    )
+    for name, sample in samples:
         for index in range(0, len(sample), 20):
             audit_sheet(
                 sample[index : index + 20],
@@ -275,12 +525,21 @@ def parser() -> argparse.ArgumentParser:
     )
     result.add_argument("--run", type=Path, default=DEFAULT_RUN)
     result.add_argument("--checkpoint", type=Path)
+    result.add_argument("--prediction-cache", type=Path)
+    result.add_argument("--crop-prediction-cache", type=Path)
+    result.add_argument("--baseline-dataset", type=Path)
+    result.add_argument("--visual-accepts", type=Path)
+    result.add_argument(
+        "--alignment-policy", choices=("strict", "high-recall"), default="strict"
+    )
     result.add_argument("--device", default="auto")
     result.add_argument("--batch-size", type=int, default=16)
     result.add_argument("--max-length", type=int, default=48)
     result.add_argument("--gap-cost", type=float, default=0.55)
     result.add_argument("--position-cost", type=float, default=0.015)
     result.add_argument("--maximum-cer", type=float, default=0.32)
+    result.add_argument("--maximum-crop-cer", type=float, default=0.60)
+    result.add_argument("--crop-validation-probe-cer", type=float, default=0.50)
     result.add_argument("--automatic-cer", type=float, default=0.12)
     result.add_argument("--minimum-margin", type=float, default=0.08)
     result.add_argument("--maximum-displacement", type=int, default=3)
@@ -293,7 +552,8 @@ def parser() -> argparse.ArgumentParser:
 def main() -> int:
     args = parser().parse_args()
     records = load_records(args.dataset)
-    recognize(records, args)
+    runtime = recognize(records, args)
+    recognize_flagged_crops(records, args, runtime)
     accepted, rejected = align(records, args)
     summary = write_results(accepted, rejected, args)
     print(json.dumps(summary["alignment"], ensure_ascii=False, indent=2))

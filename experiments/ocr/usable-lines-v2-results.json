@@ -1,0 +1,84 @@
+{
+  "format": "nippo-clean-ocr-dataset-result",
+  "format_version": 2,
+  "profile": "high-recall",
+  "source_pages": {
+    "first": 13,
+    "last": 150,
+    "pages": 138,
+    "candidate_lines": 12930,
+    "characters": 426077
+  },
+  "visual_isolation": {
+    "provisional_candidates": 12920,
+    "hard_rejections": 10,
+    "provisional_acceptance_rate": 0.9992266047950503
+  },
+  "correspondence_validation": {
+    "accepted_pairs": 11653,
+    "rejected_target_lines": 1277,
+    "acceptance_rate": 0.9012374323279195,
+    "rejection_rate": 0.0987625676720805,
+    "shifted_pairs": 164,
+    "probe_model": ".cache/ocr-model/runs/trocr-small-v1/best",
+    "maximum_shifted_pair_character_error_rate": 0.45,
+    "automatic_shifted_pair_character_error_rate": 0.2,
+    "minimum_ambiguous_match_margin": 0.02,
+    "maximum_sequence_displacement": 3,
+    "maximum_isolated_crop_character_error_rate": 0.6,
+    "crop_validation_probe_character_error_rate": 0.5
+  },
+  "quality_tiers": {
+    "strict": 8049,
+    "recovered": 3596,
+    "visually_confirmed": 8,
+    "strict_baseline_fallback_images": 16
+  },
+  "accepted_pairs": {
+    "characters": 407634,
+    "character_coverage": 0.9567143966935554,
+    "distinct_characters": 92,
+    "source_distinct_characters": 94,
+    "source_singletons_not_retained": [
+      "7",
+      "æ"
+    ],
+    "pages": 138,
+    "minimum_pairs_per_page": 54,
+    "median_pairs_per_page": 86.0,
+    "maximum_pairs_per_page": 94
+  },
+  "page_disjoint_split": {
+    "train": {
+      "pages": 110,
+      "pairs": 9277
+    },
+    "development": {
+      "pages": 14,
+      "pairs": 1177
+    },
+    "test": {
+      "pages": 14,
+      "pairs": 1199
+    }
+  },
+  "integrity": {
+    "unique_target_ids": 11653,
+    "unique_source_images": 11653,
+    "unique_rejected_target_ids": 1277,
+    "target_partition_size": 12930,
+    "accepted_rejected_target_overlap": 0,
+    "missing_images": 0,
+    "checksum_mismatches": 0,
+    "split_page_overlap": 0,
+    "randomly_audited_recovered_pairs": 100,
+    "randomly_audited_all_tier_pairs": 100,
+    "separately_audited_shifted_pairs": 164,
+    "separately_audited_baseline_fallback_pairs": 16,
+    "separately_audited_visual_accepts": 8,
+    "visual_audit_result": "passed"
+  },
+  "artifact": ".cache/ocr-model/usable-lines-v2",
+  "artifact_size": "472M",
+  "artifact_tracked": false
+}

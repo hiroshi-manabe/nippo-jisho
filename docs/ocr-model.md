@@ -106,10 +106,11 @@ distribution learned during training, so that change was rejected. A future
 version should generate OCR-specific isolated crops and retrain on them rather
 than changing inference alone.
 
-That follow-up [clean isolated-line dataset](clean-ocr-pairs.md)
-conservatively retains 8,049 image–text pairs and routes visually difficult
-material back to the established general-purpose visual-AI workflow rather
-than requiring one specialist model to handle every page condition.
+That follow-up [clean isolated-line dataset](clean-ocr-pairs.md) now has two
+reproducible profiles. The conservative version retains 8,049 image–text
+pairs; the evidence-gated high-recall version retains 11,653 pairs (90.12% of
+the source lines) while continuing to route the remaining visually difficult
+material back to the established general-purpose visual-AI workflow.
 
 ## Using the engine
 

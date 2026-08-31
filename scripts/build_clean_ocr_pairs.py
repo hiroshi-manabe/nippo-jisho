@@ -20,6 +20,14 @@ from build_ocr_dataset import ROOT, line_texts, load_json, trim_horizontal
 
 
 DEFAULT_OUTPUT = ROOT / ".cache" / "ocr-model" / "clean-lines-v1"
+HIGH_RECALL_OUTPUT = ROOT / ".cache" / "ocr-model" / "usable-lines-v2"
+HIGH_RECALL_SOFT_FLAGS = {
+    "target_band_at_crop_edge",
+    "implausible_target_band_height",
+    "implausible_text_ink_ratio",
+    "target_band_mismatch",
+    "irregular_baseline",
+}
 GEOMETRY_PATH = ROOT / "pilot" / "human-review" / "line-geometry.json"
 LEVEL1 = ROOT / "pilot" / "format-v1-trial" / "level1"
 SCANS = ROOT / "build" / "nippo-jisho-images" / "scans" / "native"
@@ -65,6 +73,7 @@ def isolated_crop(
     fallback_gap: float,
     source_height: int,
     padding: int,
+    respect_review_crop: bool = True,
 ) -> list[int]:
     """Bound the target near neighbour midpoints inside the review crop."""
     x, original_y, width, original_height = line["crop"]
@@ -77,8 +86,11 @@ def isolated_crop(
         bottom = round(centre + fallback_gap / 2 + padding)
     else:
         bottom = round((centre + following["centre_y"]) / 2 + padding)
-    top = max(0, original_y, top)
-    bottom = min(source_height, original_y + original_height, bottom)
+    top = max(0, top)
+    bottom = min(source_height, bottom)
+    if respect_review_crop:
+        top = max(original_y, top)
+        bottom = min(original_y + original_height, bottom)
     return [x, top, width, max(1, bottom - top)]
 
 
@@ -139,8 +151,63 @@ def row_segments(active: np.ndarray, *, maximum_gap: int = 2) -> list[tuple[int,
     return segments
 
 
+def metric_reasons(
+    metrics: dict,
+    *,
+    image_height: int,
+    center_tolerance: float = 0.22,
+    band_height_range: tuple[int, int] = (10, 70),
+    character_pitch_range: tuple[int, int] = (3, 90),
+    maximum_skew: float = 1.2,
+    maximum_skew_residual: float = 10,
+    require_measurable_skew: bool = True,
+) -> list[str]:
+    target_segment = metrics["target_band"]
+    reasons = []
+    if (
+        target_segment is None
+        or metrics["target_dark_pixels"] < 80
+        or metrics["peak_smoothed_row_ink"] < 30
+    ):
+        reasons.append("insufficient_ink")
+    if target_segment and (
+        target_segment[0] == 0 or target_segment[1] == image_height
+    ):
+        reasons.append("target_band_at_crop_edge")
+    if target_segment and (
+        abs(metrics["target_band_center"] - metrics["target_center_y"])
+        > image_height * center_tolerance
+    ):
+        reasons.append("target_band_mismatch")
+    if not (
+        band_height_range[0]
+        <= metrics["target_band_height"]
+        <= band_height_range[1]
+    ):
+        reasons.append("implausible_target_band_height")
+    if not (
+        character_pitch_range[0]
+        <= metrics["character_pitch"]
+        <= character_pitch_range[1]
+    ):
+        reasons.append("implausible_text_ink_ratio")
+    if metrics["skew_degrees"] is None:
+        if require_measurable_skew:
+            reasons.append("skew_unmeasurable")
+    elif abs(metrics["skew_degrees"]) > maximum_skew:
+        reasons.append("excessive_skew")
+    residual = metrics["skew_residual"]
+    if residual is not None and residual > maximum_skew_residual:
+        reasons.append("irregular_baseline")
+    return reasons
+
+
 def visual_metrics(
-    image: Image.Image, text: str, *, target_center_y: float
+    image: Image.Image,
+    text: str,
+    *,
+    target_center_y: float,
+    high_recall: bool = False,
 ) -> tuple[dict, list[str], tuple[int, int] | None]:
     gray = ImageOps.autocontrast(image.convert("L"), cutoff=0.2)
     array = np.asarray(gray)
@@ -227,23 +294,17 @@ def visual_metrics(
         "skew_residual": skew_residual,
         "skew_bins": skew_bins,
     }
-    reasons = []
-    if target_segment is None or target_dark_pixels < 80 or peak < 30:
-        reasons.append("insufficient_ink")
-    if target_segment and (target_segment[0] == 0 or target_segment[1] == image.height):
-        reasons.append("target_band_at_crop_edge")
-    if target_segment and abs(band_centre - target_center_y) > image.height * 0.22:
-        reasons.append("target_band_mismatch")
-    if not 10 <= band_height <= 70:
-        reasons.append("implausible_target_band_height")
-    if not 3 <= metrics["character_pitch"] <= 90:
-        reasons.append("implausible_text_ink_ratio")
-    if skew is None:
-        reasons.append("skew_unmeasurable")
-    elif abs(skew) > 1.2:
-        reasons.append("excessive_skew")
-    if skew_residual is not None and skew_residual > 10:
-        reasons.append("irregular_baseline")
+    settings = {}
+    if high_recall:
+        settings = {
+            "center_tolerance": 0.42,
+            "band_height_range": (6, 110),
+            "character_pitch_range": (1, 180),
+            "maximum_skew": 5.0,
+            "maximum_skew_residual": 18,
+            "require_measurable_skew": False,
+        }
+    reasons = metric_reasons(metrics, image_height=image.height, **settings)
     return metrics, reasons, target_segment
 
 
@@ -308,6 +369,10 @@ def audit_sheet(
 
 
 def build(args: argparse.Namespace) -> dict:
+    high_recall = args.profile == "high-recall"
+    vertical_padding = 32 if high_recall else args.vertical_padding
+    band_padding = 12 if high_recall else args.band_padding
+    crop_height_range = (30, 180) if high_recall else (42, 105)
     geometry_pages = {page["id"]: page for page in load_json(GEOMETRY_PATH)["pages"]}
     page_splits = split_map(args.first_page, args.last_page)
     accepted: list[dict] = []
@@ -352,7 +417,10 @@ def build(args: argparse.Namespace) -> dict:
                             following["centre_y"] - line["centre_y"] if following else None
                         )
                         for gap in (previous_gap, following_gap):
-                            if gap is not None and not 35 <= gap <= 100:
+                            minimum_gap, maximum_gap = (
+                                (20, 140) if high_recall else (35, 100)
+                            )
+                            if gap is not None and not minimum_gap <= gap <= maximum_gap:
                                 reasons.append("irregular_local_spacing")
                                 break
                         crop = isolated_crop(
@@ -361,9 +429,10 @@ def build(args: argparse.Namespace) -> dict:
                             following,
                             fallback_gap=fallback_gap,
                             source_height=scan.height,
-                            padding=args.vertical_padding,
+                            padding=vertical_padding,
+                            respect_review_crop=not high_recall,
                         )
-                        if not 42 <= crop[3] <= 105:
+                        if not crop_height_range[0] <= crop[3] <= crop_height_range[1]:
                             reasons.append("implausible_crop_height")
                         isolation_window_crop = list(crop)
                         x, y, width, height = crop
@@ -372,13 +441,23 @@ def build(args: argparse.Namespace) -> dict:
                             isolation_window,
                             text,
                             target_center_y=line["centre_y"] - y,
+                            high_recall=high_recall,
                         )
+                        strict_reasons = metric_reasons(
+                            metrics, image_height=isolation_window.height
+                        )
+                        if high_recall:
+                            visual_reasons = [
+                                reason
+                                for reason in visual_reasons
+                                if reason not in HIGH_RECALL_SOFT_FLAGS
+                            ]
                         reasons.extend(visual_reasons)
                         reasons = list(dict.fromkeys(reasons))
                         if target_band:
                             band_top, band_bottom = target_band
-                            refined_top = max(0, band_top - args.band_padding)
-                            refined_bottom = min(height, band_bottom + args.band_padding)
+                            refined_top = max(0, band_top - band_padding)
+                            refined_bottom = min(height, band_bottom + band_padding)
                             crop = [
                                 x,
                                 y + refined_top,
@@ -408,6 +487,11 @@ def build(args: argparse.Namespace) -> dict:
                             "isolation_window": isolation_window_crop,
                             "review_crop": line["crop"],
                             "metrics": metrics,
+                            "quality_flags": (
+                                list(dict.fromkeys(strict_reasons))
+                                if high_recall
+                                else []
+                            ),
                             **image_info,
                         }
                         if reasons:
@@ -431,7 +515,8 @@ def build(args: argparse.Namespace) -> dict:
     )
     summary = {
         "format": "nippo-clean-ocr-pairs",
-        "format_version": 1,
+        "format_version": 2 if high_recall else 1,
+        "profile": args.profile,
         "source_page_range": [args.first_page, args.last_page],
         "candidate_lines": len(accepted) + len(rejected),
         "accepted_lines": len(accepted),
@@ -440,14 +525,22 @@ def build(args: argparse.Namespace) -> dict:
         "accepted_by_split": dict(Counter(record["split"] for record in accepted)),
         "rejection_reasons": dict(reason_counts.most_common()),
         "criteria": {
-            "vertical_boundaries": "neighbour-centre midpoints within canonical review crop",
-            "vertical_padding": args.vertical_padding,
-            "target_band_padding": args.band_padding,
-            "crop_height_range": [42, 105],
-            "maximum_absolute_skew_degrees": 1.2,
-            "maximum_skew_residual_pixels": 10,
+            "vertical_boundaries": (
+                "neighbour-centre midpoints in the source scan"
+                if high_recall
+                else "neighbour-centre midpoints within canonical review crop"
+            ),
+            "vertical_padding": vertical_padding,
+            "target_band_padding": band_padding,
+            "crop_height_range": list(crop_height_range),
+            "maximum_absolute_skew_degrees": 5.0 if high_recall else 1.2,
+            "maximum_skew_residual_pixels": 18 if high_recall else 10,
             "minimum_blank_edge_pixels": 1,
-            "character_pitch_range": [3, 90],
+            "character_pitch_range": [1, 180] if high_recall else [3, 90],
+            "review_crop_vertical_boundaries_enforced": not high_recall,
+            "soft_flags_requiring_crop_recognition": (
+                sorted(HIGH_RECALL_SOFT_FLAGS) if high_recall else []
+            ),
         },
     }
     write_json(args.output / "summary.json", summary)
@@ -483,6 +576,9 @@ def build(args: argparse.Namespace) -> dict:
 def parser() -> argparse.ArgumentParser:
     result = argparse.ArgumentParser(description=__doc__)
     result.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
+    result.add_argument(
+        "--profile", choices=("conservative", "high-recall"), default="conservative"
+    )
     result.add_argument("--first-page", type=int, default=13)
     result.add_argument("--last-page", type=int, default=150)
     result.add_argument("--vertical-padding", type=int, default=10)
@@ -496,6 +592,8 @@ def parser() -> argparse.ArgumentParser:
 
 def main() -> int:
     args = parser().parse_args()
+    if args.profile == "high-recall" and args.output == DEFAULT_OUTPUT:
+        args.output = HIGH_RECALL_OUTPUT
     args.output.mkdir(parents=True, exist_ok=True)
     summary = build(args)
     print(json.dumps(summary, ensure_ascii=False, indent=2))
