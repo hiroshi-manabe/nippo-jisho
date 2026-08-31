@@ -8,6 +8,7 @@ from PIL import Image
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 import build_clean_ocr_pairs  # noqa: E402
+import apply_kraken_supplement  # noqa: E402
 
 
 class CleanOcrPairTests(unittest.TestCase):
@@ -70,6 +71,45 @@ class CleanOcrPairTests(unittest.TestCase):
         )
         self.assertIn("skew_unmeasurable", strict_reasons)
         self.assertEqual(recall_reasons, [])
+
+    def test_normalized_line_is_idempotent_at_model_height(self):
+        array = np.full((67, 260), 255, dtype=np.uint8)
+        array[20:48, 40:215] = 0
+        once = build_clean_ocr_pairs.normalized_line(
+            Image.fromarray(array), height=48, max_width=1024
+        )
+        twice = build_clean_ocr_pairs.normalized_line(
+            once, height=48, max_width=1024
+        )
+        self.assertEqual(once.size, twice.size)
+        np.testing.assert_array_equal(np.asarray(once), np.asarray(twice))
+
+    def test_kraken_supplement_preserves_identity_and_replaces_geometry(self):
+        base = {
+            "id": "bnf-f0013/c1-l001",
+            "text": "A NOME",
+            "review_crop": [1, 2, 3, 4],
+            "reasons": ["isolated_crop_recognition_mismatch"],
+        }
+        match = {
+            "kraken_crop": [10, 20, 30, 40],
+            "kraken_baseline": [[10, 50], [40, 50]],
+            "kraken_boundary": [[10, 20], [40, 60]],
+            "kraken_width": 300,
+            "kraken_height": 48,
+            "kraken_sha256": "abc",
+            "recognition": "A NOME",
+            "recognition_cer": 0.0,
+            "alignment_displacement": 1,
+            "kraken_candidate_id": "bnf-f0013/column-1-k001",
+        }
+        pair = apply_kraken_supplement.supplemental_pair(
+            base, match, "kraken-images/bnf-f0013/c1-l001.png"
+        )
+        self.assertEqual(pair["id"], base["id"])
+        self.assertEqual(pair["source_crop"], match["kraken_crop"])
+        self.assertEqual(pair["quality_tier"], "kraken-rectified")
+        self.assertNotIn("reasons", pair)
 
 
 if __name__ == "__main__":

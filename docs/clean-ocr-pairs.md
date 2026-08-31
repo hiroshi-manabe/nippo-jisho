@@ -72,7 +72,11 @@ reproduced from the native scans and reviewed transcription.
 The high-recall build is written separately to
 `.cache/ocr-model/usable-lines-v2`. It has the same manifest layout plus a
 `quality_tier` on every final pair and a `baseline-images/` directory for the
-small number of conservative crops reused as fallbacks.
+small number of conservative crops reused as fallbacks. Saved line images are
+trimmed once more after resizing; this makes normalization idempotent in the
+recognizer's actual 48-pixel coordinate system. Without that final trim, 2,548
+of 12,930 saved images changed width when the recognizer preprocessed them a
+second time, and some otherwise legible lines produced unrelated readings.
 
 ## Version 1 yield
 
@@ -131,33 +135,80 @@ recognition probe on the actual isolated training image. This second check
 caught a real wrong-line pair during development and prevented it from
 entering the final corpus.
 
-The final corpus has three provenance tiers:
+The final corpus has four provenance tiers:
 
 - `strict`: the 8,049 pairs accepted by version 1; when a newly expanded crop
   is less certain, the audited version-1 crop is copied into the version-2
   artifact instead (16 pairs);
-- `recovered`: 3,596 additional pairs accepted by the relaxed visual rules and
+- `recovered`: 3,607 additional pairs accepted by the relaxed visual rules and
   the correspondence checks;
 - `visually-confirmed`: eight otherwise complete pairs whose isolated-crop OCR
   score was poor but whose scan crops were individually inspected and recorded
-  in a tracked allowlist.
+  in a tracked allowlist;
+- `kraken-rectified`: 125 pairs recovered by the independently generated
+  Kraken baseline polygons and individually checked in a complete contact-sheet
+  audit.
 
 | Stage | Accepted lines | Share of 12,930 candidates |
 | --- | ---: | ---: |
 | Provisional visual isolation | 12,920 | 99.92% |
-| Final image–text correspondence | **11,653** | **90.12%** |
+| Final image–text correspondence | **11,789** | **91.18%** |
 
-The final rejection rate is **9.88%**. The set contains 9,277 training, 1,177
-development, and 1,199 test pairs on the unchanged page-disjoint split, and it
-retains 407,634 of 426,077 characters (95.67%). All identifiers, images, and
+The final rejection rate is **8.82%**. The set contains 9,406 training, 1,177
+development, and 1,206 test pairs on the unchanged page-disjoint split, and it
+retains 410,272 of 426,077 characters (96.29%). All identifiers, images, and
 checksums pass integrity checks. Visual auditing covered 100 random recovered
-pairs, 100 random all-tier pairs, every one of the 164 sequence-shifted pairs,
-all 16 baseline fallbacks, and all eight explicit visual accepts; no wrong-line
-association remained in those audits.
+pairs, 100 random all-tier pairs, the existing 164 sequence-shifted pairs, all
+16 baseline fallbacks, all eight original explicit visual accepts, and every
+one of the 125 Kraken supplemental pairs. No wrong-line association remained
+in those audits.
 
 These audits estimate gross line-association quality, not diplomatic
 transcription correctness. The complete aggregate record is
 [`experiments/ocr/usable-lines-v2-results.json`](../experiments/ocr/usable-lines-v2-results.json).
+
+## Existing line segmenter benchmark
+
+Kraken 5.2.9's bundled neural `blla.mlmodel` was tested on 15 representative
+pages spanning preliminary matter, ordinary columns, structural transitions,
+and later pages. The test deliberately used Kraken only to propose image
+regions. Project geometry and reviewed text remained the source of canonical
+line identity and order.
+
+Kraken's native polygon extraction matters. Reducing a curved polygon to a
+rectangular bounding box often admits fragments of neighbouring rows;
+`kraken.lib.segmentation.extract_polygons` instead straightens the baseline and
+masks the detected line. The reproducible local sequence is:
+
+```sh
+# First produce baseline JSON for each selected native scan with Kraken's
+# neural segmenter, for example: kraken -i SCAN OUTPUT.json segment -bl
+.cache/ocr-model/venv-kraken/bin/python scripts/extract_kraken_lines.py
+
+.cache/ocr-model/venv-arm64/bin/python \
+  scripts/benchmark_kraken_segmentation.py
+
+.cache/ocr-model/venv-arm64/bin/python \
+  scripts/apply_kraken_supplement.py
+```
+
+The 1,373-line comparison aligned 1,369 canonical lines (99.71%). With the
+same book-specific recognizer used as a crop-quality probe, median CER fell
+from 13.89% for the current crops to 11.54% for Kraken's rectified crops;
+Kraken was better on 722 pairs, tied on 222, and worse on 425. Of 158 current
+rejections on those pages, 125 Kraken crops passed the 60% probe threshold and
+then passed complete human-readable contact-sheet inspection. Those 125 were
+added with explicit `kraken-rectified` provenance.
+
+This does **not** justify replacing canonical geometry with Kraken output:
+four canonical lines were unmatched, 56 extra body candidates remained, and
+the existing crop was better for a substantial minority. The adopted policy
+is therefore supplemental: use Kraken's neural polygons to recover or propose
+clean crops, align them monotonically to canonical lines, and require evidence
+before merging. Aggregate benchmark details and the audited allowlist are in
+[`experiments/ocr/kraken-line-segmentation-v1-results.json`](../experiments/ocr/kraken-line-segmentation-v1-results.json)
+and
+[`experiments/ocr/kraken-line-segmentation-v1-visual-accepts.json`](../experiments/ocr/kraken-line-segmentation-v1-visual-accepts.json).
 
 ## Interpretation
 

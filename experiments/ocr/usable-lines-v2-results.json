@@ -15,11 +15,11 @@
     "provisional_acceptance_rate": 0.9992266047950503
   },
   "correspondence_validation": {
-    "accepted_pairs": 11653,
-    "rejected_target_lines": 1277,
-    "acceptance_rate": 0.9012374323279195,
-    "rejection_rate": 0.0987625676720805,
-    "shifted_pairs": 164,
+    "accepted_pairs": 11789,
+    "rejected_target_lines": 1141,
+    "acceptance_rate": 0.9117556071152358,
+    "rejection_rate": 0.08824439288476411,
+    "shifted_pairs": 233,
     "probe_model": ".cache/ocr-model/runs/trocr-small-v1/best",
     "maximum_shifted_pair_character_error_rate": 0.45,
     "automatic_shifted_pair_character_error_rate": 0.2,
@@ -28,30 +28,40 @@
     "maximum_isolated_crop_character_error_rate": 0.6,
     "crop_validation_probe_character_error_rate": 0.5
   },
+  "kraken_supplemental_validation": {
+    "benchmark_pages": 15,
+    "benchmark_canonical_lines": 1373,
+    "aligned_lines": 1369,
+    "maximum_crop_character_error_rate": 0.6,
+    "potential_recoveries_visually_inspected": 125,
+    "supplemental_pairs_accepted": 125,
+    "canonical_identity_and_order_source": "project Level 1 text and geometry",
+    "image_region_source": "Kraken 5.2.9 blla.mlmodel rectified polygon"
+  },
   "quality_tiers": {
     "strict": 8049,
-    "recovered": 3596,
+    "recovered": 3607,
     "visually_confirmed": 8,
+    "kraken_rectified": 125,
     "strict_baseline_fallback_images": 16
   },
   "accepted_pairs": {
-    "characters": 407634,
-    "character_coverage": 0.9567143966935554,
-    "distinct_characters": 92,
+    "characters": 410272,
+    "character_coverage": 0.9629057658592226,
+    "distinct_characters": 93,
     "source_distinct_characters": 94,
     "source_singletons_not_retained": [
-      "7",
       "æ"
     ],
     "pages": 138,
-    "minimum_pairs_per_page": 54,
-    "median_pairs_per_page": 86.0,
-    "maximum_pairs_per_page": 94
+    "minimum_pairs_per_page": 56,
+    "median_pairs_per_page": 87.0,
+    "maximum_pairs_per_page": 95
   },
   "page_disjoint_split": {
     "train": {
       "pages": 110,
-      "pairs": 9277
+      "pairs": 9406
     },
     "development": {
       "pages": 14,
@@ -59,13 +69,13 @@
     },
     "test": {
       "pages": 14,
-      "pairs": 1199
+      "pairs": 1206
     }
   },
   "integrity": {
-    "unique_target_ids": 11653,
-    "unique_source_images": 11653,
-    "unique_rejected_target_ids": 1277,
+    "unique_target_ids": 11789,
+    "unique_source_images": 11789,
+    "unique_rejected_target_ids": 1141,
     "target_partition_size": 12930,
     "accepted_rejected_target_overlap": 0,
     "missing_images": 0,
@@ -73,12 +83,13 @@
     "split_page_overlap": 0,
     "randomly_audited_recovered_pairs": 100,
     "randomly_audited_all_tier_pairs": 100,
-    "separately_audited_shifted_pairs": 164,
+    "separately_audited_shifted_pairs": 233,
     "separately_audited_baseline_fallback_pairs": 16,
-    "separately_audited_visual_accepts": 8,
+    "separately_audited_visual_accepts": 133,
+    "fully_audited_kraken_supplemental_pairs": 125,
     "visual_audit_result": "passed"
   },
   "artifact": ".cache/ocr-model/usable-lines-v2",
-  "artifact_size": "472M",
+  "artifact_size": "462M",
   "artifact_tracked": false
 }

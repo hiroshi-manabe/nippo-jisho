@@ -312,7 +312,11 @@ def normalized_line(image: Image.Image, *, height: int, max_width: int) -> Image
     line = ImageOps.autocontrast(image.convert("L"), cutoff=0.2)
     line = trim_horizontal(line)
     width = min(max_width, max(1, round(line.width * height / line.height)))
-    return line.resize((width, height), Image.Resampling.LANCZOS)
+    line = line.resize((width, height), Image.Resampling.LANCZOS)
+    # Rescaling can change whether a dense column rule or faint edge ink is
+    # classified as content. Trim once more in the exact coordinate system
+    # consumed by the recognizer so saved images are preprocessing-idempotent.
+    return trim_horizontal(line)
 
 
 def save_line(image: Image.Image, path: Path, *, height: int, max_width: int) -> dict:

@@ -1,0 +1,152 @@
+{
+  "format": "nippo-kraken-line-segmentation-benchmark",
+  "format_version": 1,
+  "pages": [
+    13,
+    18,
+    24,
+    31,
+    46,
+    58,
+    68,
+    83,
+    96,
+    110,
+    123,
+    125,
+    136,
+    143,
+    150
+  ],
+  "kraken_version": "5.2.9",
+  "kraken_model": "bundled blla.mlmodel",
+  "line_extraction": "kraken.lib.segmentation.extract_polygons",
+  "canonical_lines": 1373,
+  "kraken_body_candidates": 1425,
+  "aligned_pairs": 1369,
+  "unmatched_canonical_lines": 4,
+  "unmatched_kraken_candidates": 56,
+  "line_alignment_recall": 0.9970866715222141,
+  "crop_recognition": {
+    "mean_current_cer": 0.42527290691519587,
+    "mean_kraken_cer": 0.1567695901115053,
+    "median_current_cer": 0.1388888888888889,
+    "median_kraken_cer": 0.11538461538461539,
+    "kraken_better": 722,
+    "equal": 222,
+    "current_better": 425,
+    "kraken_at_or_below_usable_cer": 1320
+  },
+  "currently_rejected_lines_on_benchmark_pages": 158,
+  "potentially_recovered_rejections": 125,
+  "per_page": {
+    "bnf-f0013": {
+      "canonical_lines": 68,
+      "kraken_body_candidates": 73,
+      "aligned_pairs": 68,
+      "mean_kraken_crop_cer": 0.17437597867526444
+    },
+    "bnf-f0018": {
+      "canonical_lines": 92,
+      "kraken_body_candidates": 97,
+      "aligned_pairs": 92,
+      "mean_kraken_crop_cer": 0.17138572839153024
+    },
+    "bnf-f0024": {
+      "canonical_lines": 94,
+      "kraken_body_candidates": 96,
+      "aligned_pairs": 94,
+      "mean_kraken_crop_cer": 0.14965943099921336
+    },
+    "bnf-f0031": {
+      "canonical_lines": 90,
+      "kraken_body_candidates": 95,
+      "aligned_pairs": 90,
+      "mean_kraken_crop_cer": 0.1060474060552276
+    },
+    "bnf-f0046": {
+      "canonical_lines": 91,
+      "kraken_body_candidates": 93,
+      "aligned_pairs": 91,
+      "mean_kraken_crop_cer": 0.14059164825052423
+    },
+    "bnf-f0058": {
+      "canonical_lines": 92,
+      "kraken_body_candidates": 94,
+      "aligned_pairs": 92,
+      "mean_kraken_crop_cer": 0.2271034111530421
+    },
+    "bnf-f0068": {
+      "canonical_lines": 89,
+      "kraken_body_candidates": 97,
+      "aligned_pairs": 87,
+      "mean_kraken_crop_cer": 0.19817248665683046
+    },
+    "bnf-f0083": {
+      "canonical_lines": 95,
+      "kraken_body_candidates": 96,
+      "aligned_pairs": 95,
+      "mean_kraken_crop_cer": 0.1442516086803292
+    },
+    "bnf-f0096": {
+      "canonical_lines": 95,
+      "kraken_body_candidates": 97,
+      "aligned_pairs": 94,
+      "mean_kraken_crop_cer": 0.14879158994718739
+    },
+    "bnf-f0110": {
+      "canonical_lines": 94,
+      "kraken_body_candidates": 97,
+      "aligned_pairs": 94,
+      "mean_kraken_crop_cer": 0.22025498876394564
+    },
+    "bnf-f0123": {
+      "canonical_lines": 95,
+      "kraken_body_candidates": 99,
+      "aligned_pairs": 94,
+      "mean_kraken_crop_cer": 0.14541463023963913
+    },
+    "bnf-f0125": {
+      "canonical_lines": 94,
+      "kraken_body_candidates": 100,
+      "aligned_pairs": 94,
+      "mean_kraken_crop_cer": 0.1631107825410606
+    },
+    "bnf-f0136": {
+      "canonical_lines": 95,
+      "kraken_body_candidates": 99,
+      "aligned_pairs": 95,
+      "mean_kraken_crop_cer": 0.1084418999381053
+    },
+    "bnf-f0143": {
+      "canonical_lines": 95,
+      "kraken_body_candidates": 97,
+      "aligned_pairs": 95,
+      "mean_kraken_crop_cer": 0.11119883743506695
+    },
+    "bnf-f0150": {
+      "canonical_lines": 94,
+      "kraken_body_candidates": 95,
+      "aligned_pairs": 94,
+      "mean_kraken_crop_cer": 0.15096129798381613
+    }
+  },
+  "visual_audit": {
+    "potential_recovery_crops_inspected": 125,
+    "accepted": 125,
+    "rejected": 0,
+    "result": "passed"
+  },
+  "adoption": {
+    "role": "supplemental line isolation; canonical line IDs, order, and text remain project data",
+    "supplemental_pairs_added": 125,
+    "corpus_accepted_pairs_after_merge": 11789,
+    "corpus_rejected_target_lines_after_merge": 1141,
+    "corpus_rejection_rate_after_merge": 0.08824439288476411
+  },
+  "artifacts": {
+    "segmentation": ".cache/ocr-model/kraken-segmentation-v1",
+    "benchmark": ".cache/ocr-model/kraken-line-benchmark-v1",
+    "tracked": false
+  }
+}

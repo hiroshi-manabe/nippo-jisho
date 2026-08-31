@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 from collections import Counter, defaultdict
+from functools import lru_cache
 import json
 from pathlib import Path
 import shutil
@@ -239,12 +240,18 @@ def visual_accepts(path: Path | None) -> set[str]:
     return set(json.loads(path.read_text(encoding="utf-8"))["pairs"])
 
 
+@lru_cache(maxsize=None)
 def normalized_distance(reference: str, hypothesis: str) -> float:
     return edit_distance(reference, hypothesis) / max(1, len(reference))
 
 
 def sequence_alignment(
-    references: list[dict], candidates: list[dict], *, gap_cost: float, position_cost: float
+    references: list[dict],
+    candidates: list[dict],
+    *,
+    gap_cost: float,
+    position_cost: float,
+    maximum_displacement: int,
 ) -> list[tuple[int | None, int | None]]:
     rows, columns = len(references), len(candidates)
     costs = [[0.0] * (columns + 1) for _ in range(rows + 1)]
@@ -257,9 +264,13 @@ def sequence_alignment(
         steps[0][column] = "candidate_gap"
     for row in range(1, rows + 1):
         for column in range(1, columns + 1):
-            match = costs[row - 1][column - 1] + normalized_distance(
-                references[row - 1]["text"], candidates[column - 1]["recognition"]
-            ) + position_cost * abs((row - 1) - (column - 1))
+            displacement = abs((row - 1) - (column - 1))
+            match = float("inf")
+            if displacement <= maximum_displacement:
+                match = costs[row - 1][column - 1] + normalized_distance(
+                    references[row - 1]["text"],
+                    candidates[column - 1]["recognition"],
+                ) + position_cost * displacement
             options = (
                 (match, "match"),
                 (costs[row - 1][column] + gap_cost, "reference_gap"),
@@ -317,6 +328,7 @@ def align(records: list[dict], args: argparse.Namespace) -> tuple[list[dict], li
             candidates,
             gap_cost=args.gap_cost,
             position_cost=args.position_cost,
+            maximum_displacement=args.maximum_displacement,
         )
         matched_references: set[int] = set()
         matched_candidates: set[int] = set()
