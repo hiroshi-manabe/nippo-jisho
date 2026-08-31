@@ -4,7 +4,7 @@
 
 This is a working quality-control guide for direct visual transcription of the *Nippo Jisho*. It records source-specific reading cautions discovered during the transcription-format pilot. It is not yet the version 1 transcription specification, a complete account of Jesuit romanization, or authority to normalize the printed text.
 
-For production use, begin with the compact [Transcription Cheat Sheet](transcription-cheat-sheet.md). The fuller linguistic explanations, confidence distinctions, and bibliography are maintained in the [Historical Language Notes](historical-language-notes.md). This guide remains the project evidence trail for scan-adjudicated errors and workflow safeguards.
+For production use, begin with the compact [Transcription Cheat Sheet](transcription-cheat-sheet.md). The fuller linguistic explanations, confidence distinctions, and bibliography are maintained in the [Historical Language Notes](historical-language-notes.md). When book-specific OCR is available, use it only through the feature-level priorities in the [Provisional OCR-Assisted Reading Policy](ocr-assisted-reading.md). This guide remains the project evidence trail for scan-adjudicated errors and workflow safeguards.
 
 The scan remains decisive. Historical Japanese, Portuguese spelling, morphology, and expected dictionary structure may indicate where to look again, but they must not silently replace visible evidence.
 
@@ -17,7 +17,8 @@ For every passage:
 3. Enlarge any locally difficult or suspicious span, regardless of the default size used for routine transcription, and compare nearby specimens of the same type when useful.
 4. Return to the surrounding lines to test the enlarged reading in context.
 5. During first-pass transcription, mark materially unresolved uncertainty instead of repairing an implausible form from memory or linguistic expectation.
-6. During Issue adjudication, reverse the evidential order to counter anchoring: analyse the human proposal linguistically before viewing the old disputed reading, then use the scan to discriminate the resulting hypotheses. A compatible image plus materially stronger linguistic coherence supports acceptance; retaining the old form requires positive contrary visual evidence.
+6. If calibrated OCR exists, align it to the visual draft and use only locally supported feature evidence. Prefer high-performing choices such as a complete-edge line-division decision or a cleanly aligned `s`/`ſ`, `q`/`g`, `u`/`v`, or `i`/`j`; do not promote an isolated character from garbled output. Repeated equivalent disagreements deserve a page-level reinspection.
+7. During Issue adjudication, reverse the evidential order to counter anchoring: analyse the human proposal linguistically before viewing the old disputed reading, then use the scan to discriminate the resulting hypotheses. A compatible image plus materially stronger linguistic coherence supports acceptance; retaining the old form requires positive contrary visual evidence.
 
 No spelling rule in this guide licenses automatic substitution. The original printing and the Jesuit transcription system both contain variation, anomalous spellings, and errors.
 

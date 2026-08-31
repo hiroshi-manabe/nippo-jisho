@@ -39,6 +39,91 @@
       "lines_at_or_below_60_percent_cer": 93
     }
   },
+  "post_human_feature_calibration": {
+    "canonical_commit": "64fcba7",
+    "correction_issue": 158,
+    "method": "Align the stored outputs of the same TrOCR checkpoint on canonical rectangular and Kraken-rectified line images with the human-corrected 94-line transcription. Alternative glyphs were normalized only while establishing alignment; the reported exact and within-group choices retain their diplomatic Unicode forms. The two routes are correlated geometry variants, not independent recognizer votes.",
+    "line_final_hyphen": {
+      "printed_positive": 16,
+      "canonical_rectangles": {
+        "true_positive": 15,
+        "false_negative": 1,
+        "false_positive": 1,
+        "true_negative": 77
+      },
+      "kraken_rectified": {
+        "true_positive": 15,
+        "false_negative": 1,
+        "false_positive": 0,
+        "true_negative": 78
+      }
+    },
+    "features": {
+      "space": {
+        "reference_occurrences": 392,
+        "canonical_rectangles": {"exact": 389, "missing_or_other": 3, "extra": 5},
+        "kraken_rectified": {"exact": 385, "missing_or_other": 7, "extra": 10}
+      },
+      "period_or_comma": {
+        "reference_occurrences": 214,
+        "canonical_rectangles": {"exact": 205, "other_member": 5, "missing_or_other": 4, "extra": 0},
+        "kraken_rectified": {"exact": 205, "other_member": 5, "missing_or_other": 4, "extra": 1}
+      },
+      "short_s_or_long_s": {
+        "reference_occurrences": 92,
+        "reference_short_s": 37,
+        "reference_long_s": 55,
+        "canonical_rectangles": {"exact": 79, "opposite_allograph": 0, "missing_or_other": 13, "extra_s_form": 31},
+        "kraken_rectified": {"exact": 83, "opposite_allograph": 0, "missing_or_other": 9, "extra_s_form": 19}
+      },
+      "q_or_g": {
+        "reference_occurrences": 86,
+        "canonical_rectangles": {"exact": 81, "other_member": 1, "missing_or_other": 4, "extra": 3},
+        "kraken_rectified": {"exact": 78, "other_member": 0, "missing_or_other": 8, "extra": 3}
+      },
+      "u_or_v": {
+        "reference_occurrences": 142,
+        "canonical_rectangles": {"exact": 125, "other_member": 0, "missing_or_other": 17, "extra": 21},
+        "kraken_rectified": {"exact": 127, "other_member": 0, "missing_or_other": 15, "extra": 14}
+      },
+      "i_or_j": {
+        "reference_occurrences": 217,
+        "canonical_rectangles": {"exact": 192, "other_member": 0, "missing_or_other": 25, "extra": 33},
+        "kraken_rectified": {"exact": 203, "other_member": 4, "missing_or_other": 10, "extra": 27}
+      },
+      "c_or_cedilla": {
+        "reference_occurrences": 71,
+        "canonical_rectangles": {"exact": 58, "other_member": 2, "missing_or_other": 11, "extra": 10},
+        "kraken_rectified": {"exact": 60, "other_member": 3, "missing_or_other": 8, "extra": 9}
+      },
+      "n_or_m": {
+        "reference_occurrences": 216,
+        "canonical_rectangles": {"exact": 176, "other_member": 13, "missing_or_other": 27, "extra": 17},
+        "kraken_rectified": {"exact": 176, "other_member": 11, "missing_or_other": 29, "extra": 9}
+      },
+      "printed_capital": {
+        "reference_occurrences": 180,
+        "canonical_rectangles": {"exact": 171, "case_flip": 3, "missing_or_other": 6},
+        "kraken_rectified": {"exact": 175, "case_flip": 2, "missing_or_other": 3}
+      },
+      "marked_o": {
+        "reference_occurrences": 48,
+        "canonical_rectangles": {"exact": 28, "wrong_o_family_form": 18, "missing_or_other": 2},
+        "kraken_rectified": {"exact": 26, "wrong_o_family_form": 22, "missing_or_other": 0}
+      },
+      "ampersand": {
+        "reference_occurrences": 8,
+        "canonical_rectangles": {"exact": 8},
+        "kraken_rectified": {"exact": 8}
+      },
+      "pilcrow": {
+        "reference_occurrences": 7,
+        "canonical_rectangles": {"exact": 6, "missing_or_other": 1, "extra": 2},
+        "kraken_rectified": {"exact": 5, "missing_or_other": 2, "extra": 1}
+      }
+    },
+    "interpretation": "Use OCR as locally aligned feature evidence, not as a replacement line. Prefer high-performing choices only when the surrounding token is recognizable; promote repeated equivalent disagreements such as Vôqina to a page-level reinspection. Do not let isolated accents, tilde carriers, pilcrows, or unavailable typeface evidence control the default reading."
+  },
   "scan_confirmed_corrections": [
     {
       "lines": [

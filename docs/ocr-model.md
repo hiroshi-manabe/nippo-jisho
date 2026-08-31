@@ -167,6 +167,15 @@ roman/italic boundary error after `Bup.`. The tracked measurements and
 correction evidence are in
 [`experiments/ocr/f0151-post-training-pilot-results.json`](../experiments/ocr/f0151-post-training-pilot-results.json).
 
+Human Issue 158 subsequently supplied a corrected f151 reference against which
+the stored OCR outputs could be evaluated by diplomatic feature rather than
+only whole-line edit distance. The resulting
+[Provisional OCR-Assisted Reading Policy](ocr-assisted-reading.md) defines when
+line-final marks, spaces, punctuation, `s`/`ſ`, and selected base-letter pairs
+may improve the pre-human default reading, and records the categories—especially
+isolated accents, tilde carriers, and typeface—for which line OCR must not be
+treated as decisive.
+
 ## Using the engine
 
 Recognize one or more already-cropped physical line images:
@@ -192,7 +201,8 @@ belong in Git.
 ## Deliberate limitations
 
 The first engine recognizes physical lines independently. It does not emit
-roman/italic Markdown, model neighbouring-line or dictionary-entry context, or
-resolve typographic ambiguities such as short-`s` versus long-`ſ` reliably
-enough to remove human review. Those are better treated as later rescoring or
-specialized passes after the line recognizer has supplied a strong draft.
+roman/italic Markdown or model neighbouring-line or dictionary-entry context.
+Whole-line output remains far too inaccurate to remove human review. Some
+locally aligned alternatives, including short-`s` versus long-`ſ`, are useful
+as feature-level evidence under the calibrated policy; extracting a character
+from an otherwise garbled word is not.

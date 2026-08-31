@@ -35,7 +35,7 @@ Daily linguistic review now begins with the compact [Transcription Cheat Sheet](
 
 The project has also acquired NINJAL's CC BY 4.0 [Nippo Jisho Headword Data](docs/headword-data.md), a 32,878-record external reference for post-checkpoint coverage validation and provisional entry scaffolding.
 
-The private [experimental recognition engine](docs/ocr-model.md) turns reviewed `f13`–`f150` line images into a page-disjoint training benchmark and a book-specific TrOCR model for producing human-reviewable draft transcriptions.
+The private [experimental recognition engine](docs/ocr-model.md) turns reviewed `f13`–`f150` line images into a page-disjoint training benchmark and a book-specific TrOCR model. Its outputs improve pre-human reading through the calibrated [OCR-Assisted Reading Policy](docs/ocr-assisted-reading.md), which uses locally aligned feature evidence rather than treating inaccurate whole-line OCR as a replacement transcription.
 
 ## Working principles
 
