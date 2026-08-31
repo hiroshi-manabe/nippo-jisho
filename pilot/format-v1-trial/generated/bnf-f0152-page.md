@@ -24,7 +24,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l008` | Danguixa. *Pregador.* |  |
 | `c1-l009` | Dango. *Certos bolinhos compridos de farinha* |  |
 | `c1-l010` | &emsp;*de arroz.* |  |
-| `c1-l011` | Dangio. Tachi nezoqu. *Cortando apartar.* |  |
+| `c1-l011` | Dangio. Tachi nozoqu. *Cortando apartar.* |  |
 | `c1-l012` | Dani. *Adu.* Siye. *Se. Vt,* Coreda- |  |
 | `c1-l013` | &emsp;nimo. *Se ainda iſto que fara, &c.* |  |
 | `c1-l014` | Danjet. Tayuru. *Faltar algũa couſa, ou ceſ-* |  |
@@ -54,9 +54,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l038` | Danxen. *Hũa laya de abanos redondos, que* |  |
 | `c1-l039` | &emsp;*ſe não abrem nem fecham.* |  |
 | `c1-l040` | Danzai. Tçumi aru mononuo qiri ſutçuru |  |
-| `c1-l041` | &emsp;coto. *Sentencciar à morte, ou matar por* |  |
-| `c1-l042` | &emsp;*juſtiça.* S*.* |  |
-| `c1-l043` | Daqe. i. Yamano itadagi. *Cume do monte.* |  |
+| `c1-l041` | &emsp;coto. *Sentençiar à morte, ou matar por* |  |
+| `c1-l042` | &emsp;*juſtiça.* S. |  |
+| `c1-l043` | Daqe. i, Yamano itadagi. *Cume do monte.* |  |
 | `c1-l044` | Daqi, u, aita. *Abraçar, ou ter nos braços.* |  |
 | `c1-l045` | &emsp;*melius.* Idaqi, u. |  |
 | `c1-l046` | Daqi ague, uru, eta. *Tomando nos braços* |  |
@@ -109,15 +109,15 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l035` | Darumi, u, unda. *Diſſimular, ou eſtar re-* |  |
 | `c2-l036` | &emsp;*falçado pera enganar. ¶ Vt,* Darumi |  |
 | `c2-l037` | &emsp;qitte iuareta. i. Damari qitte. *Falou* |  |
-| `c2-l038` | &emsp;*eſtando totalmente diſſimulado, & reſolhado.* |  |
+| `c2-l038` | &emsp;*eſtando totalmente diſſimulado, & refolhado.* |  |
 | `c2-l039` | Dasai. *Certa dignidade.* |  |
 | `c2-l040` | Datai. *Tamanho, ou quantidade dalgũa cou-* |  |
 | `c2-l041` | &emsp;*ſa. ¶ Item. Meneo, gaſto, &c. Vt,* |  |
-| `c2-l042` | &emsp;Cono terano dataiua voſbitataxij. *O ne-* |  |
-| `c2-l043` | &emsp;*gocio, gaſto, ou meneo deſta Tera he mui grã-* |  |
+| `c2-l042` | &emsp;Cono terano dataiua vobitataxij. *O ne-* |  |
+| `c2-l043` | &emsp;*gocio, gaſto, ou meneo deſta* Tera *he mui grã-* |  |
 | `c2-l044` | &emsp;*de. ¶* Datai na tei. *Maneira de couſa* |  |
 | `c2-l045` | &emsp;*grande, & extraordinaria.* |  |
-| `c2-l046` | Datçuma. *O maior eſtremo das contas dos* |  |
+| `c2-l046` | Datçuma. *O mòr eſtremo das contas dos* |  |
 | `c2-l047` | &emsp;*Gentios.* |  |
 
 ## Catchword
