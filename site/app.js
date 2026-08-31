@@ -864,7 +864,7 @@ function applyQuickEdit(row, control) {
   } else if (action === 'vowel') {
     const parsed = NippoQuickEdit.parse(current);
     const character = parsed.characters[index]?.character;
-    after = NippoQuickEdit.replace(current, index, index + 1, NippoQuickEdit.nextVowel(character));
+    after = NippoQuickEdit.replace(current, index, index + 1, NippoQuickEdit.nextVowel(character, control.dataset.original));
   } else if (action === 'typeface') {
     after = NippoQuickEdit.toggleRoman(current, index);
   } else if (action === 'typeface-token') {

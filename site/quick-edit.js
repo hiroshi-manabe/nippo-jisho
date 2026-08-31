@@ -157,10 +157,20 @@
     return index < 0 ? current : cycle[(index + 1) % cycle.length];
   }
 
-  function nextVowel(current) {
-    const lower = current.toLocaleLowerCase('und');
+  function vowelCycleForOriginal(original) {
+    const lower = original.toLocaleLowerCase('und');
     const cycle = VOWEL_CYCLES.find(items => items.includes(lower));
-    if (!cycle) return current;
+    if (!cycle) return null;
+    const pairedMarks = ({'ǒ': 'ô', 'ô': 'ǒ', 'ǔ': 'û', 'û': 'ǔ'});
+    const paired = pairedMarks[lower];
+    if (!paired) return cycle;
+    return [lower, paired, ...cycle.filter(item => item !== lower && item !== paired)];
+  }
+
+  function nextVowel(current, original = current) {
+    const lower = current.toLocaleLowerCase('und');
+    const cycle = vowelCycleForOriginal(original);
+    if (!cycle || !cycle.includes(lower)) return current;
     const next = cycle[(cycle.indexOf(lower) + 1) % cycle.length];
     return current === current.toLocaleUpperCase('und') ? next.toLocaleUpperCase('und') : next;
   }
@@ -210,5 +220,5 @@
     return {operations, currentToBase, changed, deletions};
   }
 
-  return {VOWEL_CYCLES, DELETABLE, parse, serialize, replace, toggleRoman, uppercasePeriodTokenRange, typefaceTokenRange, toggleTypefaceRange, nextSForm, nextGQ, nextNM, nextPostvocalicNasal, nextCedilla, nextUV, nextIJ, nextVowel, align};
+  return {VOWEL_CYCLES, DELETABLE, parse, serialize, replace, toggleRoman, uppercasePeriodTokenRange, typefaceTokenRange, toggleTypefaceRange, nextSForm, nextGQ, nextNM, nextPostvocalicNasal, nextCedilla, nextUV, nextIJ, vowelCycleForOriginal, nextVowel, align};
 }));
