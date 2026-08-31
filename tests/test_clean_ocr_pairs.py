@@ -9,6 +9,7 @@ from PIL import Image
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 import build_clean_ocr_pairs  # noqa: E402
 import apply_kraken_supplement  # noqa: E402
+import build_positional_rescue  # noqa: E402
 
 
 class CleanOcrPairTests(unittest.TestCase):
@@ -110,6 +111,18 @@ class CleanOcrPairTests(unittest.TestCase):
         self.assertEqual(pair["source_crop"], match["kraken_crop"])
         self.assertEqual(pair["quality_tier"], "kraken-rectified")
         self.assertNotIn("reasons", pair)
+
+    def test_positional_rescue_requires_ordinary_geometry(self):
+        record = {
+            "metrics": {"skew_degrees": 0.5, "skew_residual": 3},
+            "reasons": [],
+        }
+        self.assertTrue(build_positional_rescue.ordinary_geometry(record))
+        record["metrics"]["skew_degrees"] = 2.0
+        self.assertFalse(build_positional_rescue.ordinary_geometry(record))
+        record["metrics"]["skew_degrees"] = 0.5
+        record["reasons"] = ["duplicate_geometry"]
+        self.assertFalse(build_positional_rescue.ordinary_geometry(record))
 
 
 if __name__ == "__main__":

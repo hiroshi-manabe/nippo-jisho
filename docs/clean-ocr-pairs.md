@@ -135,7 +135,7 @@ recognition probe on the actual isolated training image. This second check
 caught a real wrong-line pair during development and prevented it from
 entering the final corpus.
 
-The final corpus has four provenance tiers:
+The final corpus has five provenance tiers:
 
 - `strict`: the 8,049 pairs accepted by version 1; when a newly expanded crop
   is less certain, the audited version-1 crop is copied into the version-2
@@ -147,21 +147,26 @@ The final corpus has four provenance tiers:
   in a tracked allowlist;
 - `kraken-rectified`: 125 pairs recovered by the independently generated
   Kraken baseline polygons and individually checked in a complete contact-sheet
-  audit.
+  audit;
+- `positionally-anchored`: 730 short lines recropped from the native scan
+  between the canonical centres of two already accepted immediate neighbours.
+  These have ordinary geometry and passed a deterministic 100-item random
+  visual audit, but were not individually inspected.
 
 | Stage | Accepted lines | Share of 12,930 candidates |
 | --- | ---: | ---: |
 | Provisional visual isolation | 12,920 | 99.92% |
-| Final image–text correspondence | **11,789** | **91.18%** |
+| Final image–text correspondence | **12,519** | **96.82%** |
 
-The final rejection rate is **8.82%**. The set contains 9,406 training, 1,177
-development, and 1,206 test pairs on the unchanged page-disjoint split, and it
-retains 410,272 of 426,077 characters (96.29%). All identifiers, images, and
+The final rejection rate is **3.18%**. The set contains 9,966 training, 1,265
+development, and 1,288 test pairs on the unchanged page-disjoint split, and it
+retains 415,991 of 426,077 characters (97.63%). All identifiers, images, and
 checksums pass integrity checks. Visual auditing covered 100 random recovered
-pairs, 100 random all-tier pairs, the existing 164 sequence-shifted pairs, all
+pairs, 100 random all-tier pairs, the existing 233 sequence-shifted pairs, all
 16 baseline fallbacks, all eight original explicit visual accepts, and every
-one of the 125 Kraken supplemental pairs. No wrong-line association remained
-in those audits.
+one of the 125 Kraken supplemental pairs. It also covered a deterministic
+random sample of 100 positionally anchored pairs; all 100 showed their stated
+target line. No wrong-line association remained in those audits.
 
 These audits estimate gross line-association quality, not diplomatic
 transcription correctness. The complete aggregate record is
@@ -209,6 +214,33 @@ before merging. Aggregate benchmark details and the audited allowlist are in
 [`experiments/ocr/kraken-line-segmentation-v1-results.json`](../experiments/ocr/kraken-line-segmentation-v1-results.json)
 and
 [`experiments/ocr/kraken-line-segmentation-v1-visual-accepts.json`](../experiments/ocr/kraken-line-segmentation-v1-visual-accepts.json).
+
+## Positional rescue of short rejected lines
+
+Most remaining rejections were short, regular lines. Their canonical centres
+were often correct even when the ink-band selector had attached the saved crop
+to an adjacent row. Reusing or shifting those saved tight crops therefore
+failed visual checks. The successful rescue instead returns to the native scan
+and cuts the target between the midpoint to the preceding line and the midpoint
+to the following line.
+
+The rule is deliberately narrow: the target has at most 12 characters, both
+immediate neighbours in its physical block are already accepted, absolute
+measured skew is at most 1.2 degrees, baseline residual is at most 10 pixels,
+and none of the hard duplicate, spacing, or implausible-height flags is present.
+The candidate set is reproducible and bound to its audit by a SHA-256 digest:
+
+```sh
+.cache/ocr-model/venv-arm64/bin/python scripts/build_positional_rescue.py
+.cache/ocr-model/venv-arm64/bin/python scripts/apply_positional_rescue.py
+```
+
+This produced 730 candidates. A deterministic random sample of 100 was read
+against contact sheets; all 100 crops contained the stated line. The observed
+sample error was zero, but that does not amount to individual verification of
+all 730 pairs. They consequently retain their own `positionally-anchored`
+provenance and no fabricated OCR score. The tracked audit record is
+[`experiments/ocr/positional-rescue-v1-audit.json`](../experiments/ocr/positional-rescue-v1-audit.json).
 
 ## Interpretation
 

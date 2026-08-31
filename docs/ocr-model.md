@@ -108,7 +108,7 @@ than changing inference alone.
 
 That follow-up [clean isolated-line dataset](clean-ocr-pairs.md) now has two
 reproducible profiles. The conservative version retains 8,049 image–text
-pairs; the evidence-gated high-recall version retains 11,789 pairs (91.18% of
+pairs; the evidence-gated high-recall version retains 12,519 pairs (96.82% of
 the source lines) while continuing to route the remaining visually difficult
 material back to the established general-purpose visual-AI workflow.
 
