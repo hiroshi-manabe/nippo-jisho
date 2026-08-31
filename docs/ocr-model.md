@@ -141,6 +141,32 @@ routing policy are recorded in
 `--run .cache/ocr-model/runs/trocr-isolated-full-v1` only for a crop already
 marked `positionally-anchored`.
 
+## First post-training page pilot
+
+`f151`, the out-of-range page on which version 1 had reached 31.63% CER, was
+used as the first real application of the isolated-line engine. The comparison
+first exposed a canonical geometry defect rather than a recognition defect:
+both columns' first body-line centres were recorded at y=420, while an
+independent Kraken pass placed the first 47 ordered body baselines at y=464 and
+y=470. The old overlapping rectangles made the intended lines visible to a
+human but associated several short lines more strongly with a neighbour.
+
+After the 94 stable line IDs were remapped to the detected baselines and every
+new review rectangle was checked on complete contact sheets, the core model
+reached 13.36% aggregate CER on the corrected canonical review rectangles.
+Kraken's independently rectified line polygons aligned all 94 lines and reduced
+aggregate CER to **10.09%** (14 exact lines); 93 of 94 lines were at or below
+the existing 60% usable-draft threshold. The remaining failure was a correctly
+cropped short line that the recognizer simply misread, so it did not justify a
+geometry change.
+
+The OCR differences then served as a review queue, not replacements for the
+transcription. Enlarged scan inspection recovered the printed division
+`actu-` / `almente.` where Level 1 had `actua-` / `lmente.`, and found a
+roman/italic boundary error after `Bup.`. The tracked measurements and
+correction evidence are in
+[`experiments/ocr/f0151-post-training-pilot-results.json`](../experiments/ocr/f0151-post-training-pilot-results.json).
+
 ## Using the engine
 
 Recognize one or more already-cropped physical line images:

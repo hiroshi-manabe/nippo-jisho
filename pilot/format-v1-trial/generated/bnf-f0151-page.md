@@ -31,8 +31,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l015` | &emsp;*em lugar do ſenhor. ¶ Item, Feitor, ou o q̃* |  |
 | `c1-l016` | &emsp;*adminiſtra algũa renda, &c.* |  |
 | `c1-l017` | Daiquanxocu, l, Potius Daiquanxiqi. *Of-* |  |
-| `c1-l018` | &emsp;*ficio do que gouerna em lugar do ſenhor actua-* |  |
-| `c1-l019` | &emsp;*lmente.* |  |
+| `c1-l018` | &emsp;*ficio do que gouerna em lugar do ſenhor actu-* |  |
+| `c1-l019` | &emsp;*almente.* |  |
 | `c1-l020` | Dairi. Vǒ vchi. *Paços del Rei. As vezes* |  |
 | `c1-l021` | &emsp;*ſe toma pello meſmo Rei.* |  |
 | `c1-l022` | Dairiqi. Vǒqina chicara. *Grandes forças.* |  |
@@ -80,7 +80,7 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c2-l001` | &emsp;guru. *Aleuantar grande voz.* |  |
 | `c2-l002` | Daixa. Vǒqina curuma. *Grãde carro.* |  |
-| `c2-l003` | Daixen xecai. Bup*. Grandes mil mundos* |  |
+| `c2-l003` | Daixen xecai. Bup. *Grandes mil mundos* |  |
 | `c2-l004` | &emsp;*como ſe conta que ha nas fabulas do Buppǒ.* |  |
 | `c2-l005` | Daixi. Vǒqina xixǒ. *Grande meſtre.* |  |
 | `c2-l006` | Daixô. Vǒqinari, chijſaxi. *Grande, &* |  |

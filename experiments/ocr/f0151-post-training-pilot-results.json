@@ -1,0 +1,68 @@
+{
+  "format": "nippo-f0151-post-training-ocr-pilot",
+  "format_version": 1,
+  "page_id": "bnf-f0151",
+  "run_date": "2026-08-31",
+  "body_lines": 94,
+  "characters": 2972,
+  "model": {
+    "base_model": "microsoft/trocr-small-printed",
+    "checkpoint": ".cache/ocr-model/runs/trocr-isolated-core-v1/best"
+  },
+  "geometry_diagnosis": {
+    "previous_column_1_first_center_y": 420,
+    "previous_column_2_first_center_y": 420,
+    "corrected_column_1_first_center_y": 464,
+    "corrected_column_2_first_center_y": 470,
+    "corrected_column_1_last_center_y": 3281,
+    "corrected_column_2_last_center_y": 3306,
+    "evidence": "Kraken 5.2.9 detected exactly 47 ordered body baselines in each column after headers, the printed page number, a small duplicate fragment, and furniture were excluded; every resulting canonical review rectangle was then checked on a complete line contact sheet."
+  },
+  "recognition": {
+    "canonical_review_rectangles": {
+      "aligned_lines": 94,
+      "character_errors": 397,
+      "character_error_rate": 0.1335800807537012,
+      "mean_line_character_error_rate": 0.1508785294876498,
+      "exact_lines": 2,
+      "lines_at_or_below_60_percent_cer": 94
+    },
+    "kraken_rectified_lines": {
+      "body_candidates": 98,
+      "aligned_lines": 94,
+      "unmatched_canonical_lines": 0,
+      "unmatched_candidates": 4,
+      "character_errors": 300,
+      "character_error_rate": 0.1009421265141319,
+      "mean_line_character_error_rate": 0.1074861760389065,
+      "exact_lines": 14,
+      "lines_at_or_below_60_percent_cer": 93
+    }
+  },
+  "scan_confirmed_corrections": [
+    {
+      "lines": [
+        "c1-l018",
+        "c1-l019"
+      ],
+      "before": [
+        "actua-",
+        "lmente."
+      ],
+      "after": [
+        "actu-",
+        "almente."
+      ],
+      "reason": "The print divides actualmente after actu-; OCR disagreement exposed the omitted initial a on the continuation, and enlargement confirmed both sides of the physical break."
+    },
+    {
+      "lines": [
+        "c2-l003"
+      ],
+      "before": "Bup*. Grandes mil mundos*",
+      "after": "Bup. *Grandes mil mundos*",
+      "reason": "The period belongs to the upright Bup abbreviation; the italic Portuguese gloss begins with Grandes."
+    }
+  ],
+  "decision": "Keep the corrected canonical geometry. Use the core OCR checkpoint as a draft generator, preferring independently rectified line images when available. OCR differences remain diagnostic only and require renewed scan inspection before changing Level 1."
+}
