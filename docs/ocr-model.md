@@ -179,10 +179,10 @@ treated as decisive.
 A subsequent [character N-gram experiment](o-mark-ngram.md) addresses one of
 those weak visual features without pretending to improve the pixels. Given a
 visually established marked `o`, a page-held-out KenLM lattice chose `ô` versus
-`ǒ` correctly in 43/46 f151 cases. An order sweep through 5-grams selected the
-2-gram on current data; longer contexts overfit the still-small diplomatic
-corpus. The model is therefore linguistic evidence layered after mark
-detection, not a replacement for it.
+`ǒ` correctly in 43/46 f151 cases, but page-level ten-fold validation over 139
+pages reduced the general estimate to 70.72%. The order sweep still selected
+the 2-gram, narrowly ahead of the 5-gram at 70.12%. The model is weak linguistic
+evidence layered after mark detection, not a replacement for scan inspection.
 
 ## Using the engine
 

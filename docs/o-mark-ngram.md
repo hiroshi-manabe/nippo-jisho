@@ -16,7 +16,7 @@ explicit character token. The corpus contains Roman-type runs only, so an
 italic Portuguese context cannot silently influence a Japanese Roman-type
 choice.
 
-## Held-out experiment
+## Single-page held-out pilot
 
 The model was trained on canonical Level 1 data from `f13`–`f150`; `f151` was
 excluded completely and used only after its human correction Issue had been
@@ -45,21 +45,55 @@ higher-order observations can still receive enough weight to hurt this small
 conditional task. Exploratory singleton pruning of the 5-gram model did not
 reverse the ranking. The currently selected model is therefore the 2-gram;
 orders through five remain in the evaluation so that the choice can be retested
-as reviewed data grows.
+as reviewed data grows. This single page is strongly biased toward the repeated
+`Vôqina` family and must not be read as a general accuracy estimate.
+
+## Page-level ten-fold cross-validation
+
+To measure that bias, pages `f13`–`f151` were shuffled with fixed seed `1603`
+and partitioned into ten folds. Each fold withheld 13 or 14 complete physical
+pages—roughly one tenth of the available pages—and trained on all the others.
+No line from a test page appeared in that fold's training corpus. Across the
+139 pages, the test folds contain 2,152 marked-`o` occurrences: 1,425 `ǒ` and
+727 `ô`.
+
+| Method | Correct | Accuracy |
+| --- | ---: | ---: |
+| fold-specific majority `ǒ` | 1,425/2,152 | 66.22% |
+| memorized word signature, majority fallback | 1,472/2,152 | 68.40% |
+| character 2-gram | **1,522/2,152** | **70.72%** |
+| character 3-gram | 1,473/2,152 | 68.45% |
+| character 4-gram | 1,486/2,152 | 69.05% |
+| character 5-gram | 1,509/2,152 | 70.12% |
+
+The ten 2-gram fold scores range from 64.14% to 77.61%. Only 578 test
+occurrences had a word signature seen in the corresponding training fold; the
+model reached 76.30% on those. The other 1,574 occurrences were unseen word
+signatures and reached only 68.68%. This confirms that the 93.48% f151 result
+was dominated by its repeated local vocabulary. The N-gram still adds evidence
+beyond memorizing complete words, but the general gain is modest: 4.50
+percentage points over the majority baseline and 2.32 points over the
+word-signature baseline.
+
+The order ranking also becomes much less decisive: the 5-gram is only 0.60
+points below the 2-gram. The 2-gram remains the empirical winner, but the
+present evidence supports neither a strong claim about optimal order nor an
+automatic accent decision.
 
 ## Confidence and proposed use
 
 The model returns the log10 score difference between the two complete
-candidates. On this one held-out page, requiring an absolute margin of 0.6
-retained 25/46 choices and all 25 were correct. This threshold is a
-**post-hoc diagnostic on f151**, not an independently validated guarantee. A
-second human-corrected held-out page is required before it becomes a default
-automation rule.
+candidates. On f151 alone, requiring an absolute margin of 0.6 retained 25/46
+choices and all 25 were correct. The broader cross-validation does not sustain
+that apparent calibration: the same cutoff retains 731/2,152 choices (33.97%
+coverage) at 78.66% accuracy. Even a margin of 1.0 reaches only 83.80% accuracy
+at 10.04% coverage. A score margin is therefore useful for ranking uncertainty,
+not for licensing automatic changes.
 
 For now:
 
-- use the selected 2-gram result to prioritize `ô` versus `ǒ` during the
-  pre-human reading pass;
+- use the selected 2-gram result only as a weak candidate-ordering cue during
+  the pre-human reading pass;
 - preserve both candidate scores and route a low-margin choice to enlarged
   scan inspection;
 - never use this model to infer that an accent exists;
@@ -80,8 +114,12 @@ python scripts/evaluate_o_mark_ngram.py \
   --output experiments/ocr/f0151-o-mark-ngram-results.json
 ```
 
-The complete tracked result is
+The single-page tracked result is
 [`experiments/ocr/f0151-o-mark-ngram-results.json`](../experiments/ocr/f0151-o-mark-ngram-results.json).
+The page-level cross-validation is reproduced with
+`scripts/cross_validate_o_mark_ngram.py`; its aggregate and per-fold results
+are tracked in
+[`experiments/ocr/f0013-f0151-o-mark-ngram-cross-validation.json`](../experiments/ocr/f0013-f0151-o-mark-ngram-cross-validation.json).
 Generated corpus and ARPA files remain under ignored `.cache/`; the tracked
 script is the model recipe, and the result file fixes the exact selection and
 validation evidence.

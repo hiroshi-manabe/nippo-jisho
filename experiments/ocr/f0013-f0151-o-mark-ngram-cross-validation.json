@@ -1,0 +1,3079 @@
+{
+  "format": "nippo-o-mark-page-cross-validation",
+  "format_version": 1,
+  "assumption": "The visual system has located a marked o; choose only circumflex ô versus caron ǒ.",
+  "page_start": 13,
+  "page_end": 151,
+  "page_count": 139,
+  "fold_count": 10,
+  "seed": 1603,
+  "split_unit": "physical page",
+  "training_majority_baseline": {
+    "occurrences": 2152,
+    "correct": 1425,
+    "accuracy": 0.6621747211895911
+  },
+  "word_signature_baseline": {
+    "occurrences": 2152,
+    "correct": 1472,
+    "accuracy": 0.6840148698884758,
+    "confusion": {
+      "ô->ô": 92,
+      "ô->ǒ": 635,
+      "ǒ->ô": 45,
+      "ǒ->ǒ": 1380
+    },
+    "by_word_signature": {
+      "seen": {
+        "occurrences": 578,
+        "correct": 432,
+        "accuracy": 0.7474048442906575
+      },
+      "unseen": {
+        "occurrences": 1574,
+        "correct": 1040,
+        "accuracy": 0.6607369758576874
+      }
+    }
+  },
+  "orders": [
+    {
+      "order": 2,
+      "forced_site": {
+        "occurrences": 2152,
+        "correct": 1522,
+        "accuracy": 0.7072490706319703,
+        "confusion": {
+          "ô->ô": 285,
+          "ô->ǒ": 442,
+          "ǒ->ô": 188,
+          "ǒ->ǒ": 1237
+        },
+        "by_word_signature": {
+          "seen": {
+            "occurrences": 578,
+            "correct": 441,
+            "accuracy": 0.7629757785467128
+          },
+          "unseen": {
+            "occurrences": 1574,
+            "correct": 1081,
+            "accuracy": 0.6867852604828463
+          }
+        }
+      },
+      "confidence_curve": [
+        {
+          "minimum_absolute_margin_log10": 0.0,
+          "retained": 2152,
+          "coverage": 1.0,
+          "correct": 1522,
+          "accuracy": 0.7072490706319703
+        },
+        {
+          "minimum_absolute_margin_log10": 0.2,
+          "retained": 1795,
+          "coverage": 0.8341078066914498,
+          "correct": 1320,
+          "accuracy": 0.7353760445682451
+        },
+        {
+          "minimum_absolute_margin_log10": 0.3,
+          "retained": 1611,
+          "coverage": 0.7486059479553904,
+          "correct": 1197,
+          "accuracy": 0.7430167597765364
+        },
+        {
+          "minimum_absolute_margin_log10": 0.6,
+          "retained": 731,
+          "coverage": 0.3396840148698885,
+          "correct": 575,
+          "accuracy": 0.786593707250342
+        },
+        {
+          "minimum_absolute_margin_log10": 1.0,
+          "retained": 216,
+          "coverage": 0.10037174721189591,
+          "correct": 181,
+          "accuracy": 0.8379629629629629
+        }
+      ],
+      "error_count": 630
+    },
+    {
+      "order": 3,
+      "forced_site": {
+        "occurrences": 2152,
+        "correct": 1473,
+        "accuracy": 0.6844795539033457,
+        "confusion": {
+          "ô->ô": 331,
+          "ô->ǒ": 396,
+          "ǒ->ô": 283,
+          "ǒ->ǒ": 1142
+        },
+        "by_word_signature": {
+          "seen": {
+            "occurrences": 578,
+            "correct": 434,
+            "accuracy": 0.7508650519031141
+          },
+          "unseen": {
+            "occurrences": 1574,
+            "correct": 1039,
+            "accuracy": 0.6601016518424396
+          }
+        }
+      },
+      "confidence_curve": [
+        {
+          "minimum_absolute_margin_log10": 0.0,
+          "retained": 2152,
+          "coverage": 1.0,
+          "correct": 1473,
+          "accuracy": 0.6844795539033457
+        },
+        {
+          "minimum_absolute_margin_log10": 0.2,
+          "retained": 1721,
+          "coverage": 0.7997211895910781,
+          "correct": 1254,
+          "accuracy": 0.7286461359674608
+        },
+        {
+          "minimum_absolute_margin_log10": 0.3,
+          "retained": 1544,
+          "coverage": 0.7174721189591078,
+          "correct": 1156,
+          "accuracy": 0.7487046632124352
+        },
+        {
+          "minimum_absolute_margin_log10": 0.6,
+          "retained": 1108,
+          "coverage": 0.5148698884758365,
+          "correct": 867,
+          "accuracy": 0.7824909747292419
+        },
+        {
+          "minimum_absolute_margin_log10": 1.0,
+          "retained": 584,
+          "coverage": 0.27137546468401486,
+          "correct": 478,
+          "accuracy": 0.8184931506849316
+        }
+      ],
+      "error_count": 679
+    },
+    {
+      "order": 4,
+      "forced_site": {
+        "occurrences": 2152,
+        "correct": 1486,
+        "accuracy": 0.6905204460966543,
+        "confusion": {
+          "ô->ô": 368,
+          "ô->ǒ": 359,
+          "ǒ->ô": 307,
+          "ǒ->ǒ": 1118
+        },
+        "by_word_signature": {
+          "seen": {
+            "occurrences": 578,
+            "correct": 448,
+            "accuracy": 0.7750865051903114
+          },
+          "unseen": {
+            "occurrences": 1574,
+            "correct": 1038,
+            "accuracy": 0.6594663278271918
+          }
+        }
+      },
+      "confidence_curve": [
+        {
+          "minimum_absolute_margin_log10": 0.0,
+          "retained": 2152,
+          "coverage": 1.0,
+          "correct": 1486,
+          "accuracy": 0.6905204460966543
+        },
+        {
+          "minimum_absolute_margin_log10": 0.2,
+          "retained": 1866,
+          "coverage": 0.8671003717472119,
+          "correct": 1341,
+          "accuracy": 0.7186495176848875
+        },
+        {
+          "minimum_absolute_margin_log10": 0.3,
+          "retained": 1722,
+          "coverage": 0.800185873605948,
+          "correct": 1260,
+          "accuracy": 0.7317073170731707
+        },
+        {
+          "minimum_absolute_margin_log10": 0.6,
+          "retained": 1309,
+          "coverage": 0.608271375464684,
+          "correct": 1027,
+          "accuracy": 0.7845683728036669
+        },
+        {
+          "minimum_absolute_margin_log10": 1.0,
+          "retained": 831,
+          "coverage": 0.3861524163568773,
+          "correct": 679,
+          "accuracy": 0.8170878459687124
+        }
+      ],
+      "error_count": 666
+    },
+    {
+      "order": 5,
+      "forced_site": {
+        "occurrences": 2152,
+        "correct": 1509,
+        "accuracy": 0.7012081784386617,
+        "confusion": {
+          "ô->ô": 394,
+          "ô->ǒ": 333,
+          "ǒ->ô": 310,
+          "ǒ->ǒ": 1115
+        },
+        "by_word_signature": {
+          "seen": {
+            "occurrences": 578,
+            "correct": 477,
+            "accuracy": 0.8252595155709342
+          },
+          "unseen": {
+            "occurrences": 1574,
+            "correct": 1032,
+            "accuracy": 0.6556543837357052
+          }
+        }
+      },
+      "confidence_curve": [
+        {
+          "minimum_absolute_margin_log10": 0.0,
+          "retained": 2152,
+          "coverage": 1.0,
+          "correct": 1509,
+          "accuracy": 0.7012081784386617
+        },
+        {
+          "minimum_absolute_margin_log10": 0.2,
+          "retained": 1820,
+          "coverage": 0.845724907063197,
+          "correct": 1339,
+          "accuracy": 0.7357142857142858
+        },
+        {
+          "minimum_absolute_margin_log10": 0.3,
+          "retained": 1685,
+          "coverage": 0.7829925650557621,
+          "correct": 1271,
+          "accuracy": 0.7543026706231454
+        },
+        {
+          "minimum_absolute_margin_log10": 0.6,
+          "retained": 1298,
+          "coverage": 0.6031598513011153,
+          "correct": 1037,
+          "accuracy": 0.7989214175654854
+        },
+        {
+          "minimum_absolute_margin_log10": 1.0,
+          "retained": 927,
+          "coverage": 0.43076208178438663,
+          "correct": 782,
+          "accuracy": 0.8435814455231931
+        }
+      ],
+      "error_count": 643
+    }
+  ],
+  "selected_order": 2,
+  "folds": [
+    {
+      "fold": 1,
+      "test_pages": [
+        14,
+        20,
+        33,
+        36,
+        49,
+        62,
+        64,
+        75,
+        80,
+        82,
+        105,
+        106,
+        124,
+        146
+      ],
+      "test_occurrences": 155,
+      "test_marked_o_counts": {
+        "ǒ": 107,
+        "ô": 48
+      },
+      "orders": [
+        {
+          "order": 2,
+          "forced_site": {
+            "occurrences": 155,
+            "correct": 111,
+            "accuracy": 0.7161290322580646,
+            "confusion": {
+              "ô->ô": 8,
+              "ô->ǒ": 40,
+              "ǒ->ô": 4,
+              "ǒ->ǒ": 103
+            },
+            "by_word_signature": {
+              "seen": {
+                "occurrences": 41,
+                "correct": 33,
+                "accuracy": 0.8048780487804879
+              },
+              "unseen": {
+                "occurrences": 114,
+                "correct": 78,
+                "accuracy": 0.6842105263157895
+              }
+            }
+          },
+          "confidence_curve": [
+            {
+              "minimum_absolute_margin_log10": 0.0,
+              "retained": 155,
+              "coverage": 1.0,
+              "correct": 111,
+              "accuracy": 0.7161290322580646
+            },
+            {
+              "minimum_absolute_margin_log10": 0.2,
+              "retained": 141,
+              "coverage": 0.9096774193548387,
+              "correct": 103,
+              "accuracy": 0.7304964539007093
+            },
+            {
+              "minimum_absolute_margin_log10": 0.3,
+              "retained": 128,
+              "coverage": 0.8258064516129032,
+              "correct": 95,
+              "accuracy": 0.7421875
+            },
+            {
+              "minimum_absolute_margin_log10": 0.6,
+              "retained": 68,
+              "coverage": 0.43870967741935485,
+              "correct": 51,
+              "accuracy": 0.75
+            },
+            {
+              "minimum_absolute_margin_log10": 1.0,
+              "retained": 13,
+              "coverage": 0.08387096774193549,
+              "correct": 11,
+              "accuracy": 0.8461538461538461
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "forced_site": {
+            "occurrences": 155,
+            "correct": 112,
+            "accuracy": 0.7225806451612903,
+            "confusion": {
+              "ô->ô": 17,
+              "ô->ǒ": 31,
+              "ǒ->ô": 12,
+              "ǒ->ǒ": 95
+            },
+            "by_word_signature": {
+              "seen": {
+                "occurrences": 41,
+                "correct": 32,
+                "accuracy": 0.7804878048780488
+              },
+              "unseen": {
+                "occurrences": 114,
+                "correct": 80,
+                "accuracy": 0.7017543859649122
+              }
+            }
+          },
+          "confidence_curve": [
+            {
+              "minimum_absolute_margin_log10": 0.0,
+              "retained": 155,
+              "coverage": 1.0,
+              "correct": 112,
+              "accuracy": 0.7225806451612903
+            },
+            {
+              "minimum_absolute_margin_log10": 0.2,
+              "retained": 118,
+              "coverage": 0.7612903225806451,
+              "correct": 92,
+              "accuracy": 0.7796610169491526
+            },
+            {
+              "minimum_absolute_margin_log10": 0.3,
+              "retained": 109,
+              "coverage": 0.7032258064516129,
+              "correct": 85,
+              "accuracy": 0.7798165137614679
+            },
+            {
+              "minimum_absolute_margin_log10": 0.6,
+              "retained": 92,
+              "coverage": 0.5935483870967742,
+              "correct": 76,
+              "accuracy": 0.8260869565217391
+            },
+            {
+              "minimum_absolute_margin_log10": 1.0,
+              "retained": 51,
+              "coverage": 0.32903225806451614,
+              "correct": 43,
+              "accuracy": 0.8431372549019608
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "forced_site": {
+            "occurrences": 155,
+            "correct": 114,
+            "accuracy": 0.7354838709677419,
+            "confusion": {
+              "ô->ô": 20,
+              "ô->ǒ": 28,
+              "ǒ->ô": 13,
+              "ǒ->ǒ": 94
+            },
+            "by_word_signature": {
+              "seen": {
+                "occurrences": 41,
+                "correct": 33,
+                "accuracy": 0.8048780487804879
+              },
+              "unseen": {
+                "occurrences": 114,
+                "correct": 81,
+                "accuracy": 0.7105263157894737
+              }
+            }
+          },
+          "confidence_curve": [
+            {
+              "minimum_absolute_margin_log10": 0.0,
+              "retained": 155,
+              "coverage": 1.0,
+              "correct": 114,
+              "accuracy": 0.7354838709677419
+            },
+            {
+              "minimum_absolute_margin_log10": 0.2,
+              "retained": 145,
+              "coverage": 0.9354838709677419,
+              "correct": 109,
+              "accuracy": 0.7517241379310344
+            },
+            {
+              "minimum_absolute_margin_log10": 0.3,
+              "retained": 134,
+              "coverage": 0.864516129032258,
+              "correct": 103,
+              "accuracy": 0.7686567164179104
+            },
+            {
+              "minimum_absolute_margin_log10": 0.6,
+              "retained": 109,
+              "coverage": 0.7032258064516129,
+              "correct": 88,
+              "accuracy": 0.8073394495412844
+            },
+            {
+              "minimum_absolute_margin_log10": 1.0,
+              "retained": 63,
+              "coverage": 0.4064516129032258,
+              "correct": 52,
+              "accuracy": 0.8253968253968254
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "forced_site": {
+            "occurrences": 155,
+            "correct": 117,
+            "accuracy": 0.7548387096774194,
+            "confusion": {
+              "ô->ô": 25,
+              "ô->ǒ": 23,
+              "ǒ->ô": 15,
+              "ǒ->ǒ": 92
+            },
+            "by_word_signature": {
+              "seen": {
+                "occurrences": 41,
+                "correct": 36,
+                "accuracy": 0.8780487804878049
+              },
+              "unseen": {
+                "occurrences": 114,
+                "correct": 81,
+                "accuracy": 0.7105263157894737
+              }
+            }
+          },
+          "confidence_curve": [
+            {
+              "minimum_absolute_margin_log10": 0.0,
+              "retained": 155,
+              "coverage": 1.0,
+              "correct": 117,
+              "accuracy": 0.7548387096774194
+            },
+            {
+              "minimum_absolute_margin_log10": 0.2,
+              "retained": 139,
+              "coverage": 0.896774193548387,
+              "correct": 109,
+              "accuracy": 0.7841726618705036
+            },
+            {
+              "minimum_absolute_margin_log10": 0.3,
+              "retained": 129,
+              "coverage": 0.832258064516129,
+              "correct": 103,
+              "accuracy": 0.7984496124031008
+            },
+            {
+              "minimum_absolute_margin_log10": 0.6,
+              "retained": 101,
+              "coverage": 0.6516129032258065,
+              "correct": 86,
+              "accuracy": 0.8514851485148515
+            },
+            {
+              "minimum_absolute_margin_log10": 1.0,
+              "retained": 77,
+              "coverage": 0.4967741935483871,
+              "correct": 65,
+              "accuracy": 0.8441558441558441
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "fold": 2,
+      "test_pages": [
+        25,
+        31,
+        32,
+        37,
+        54,
+        55,
+        61,
+        89,
+        91,
+        92,
+        93,
+        94,
+        108,
+        144
+      ],
+      "test_occurrences": 144,
+      "test_marked_o_counts": {
+        "ǒ": 95,
+        "ô": 49
+      },
+      "orders": [
+        {
+          "order": 2,
+          "forced_site": {
+            "occurrences": 144,
+            "correct": 98,
+            "accuracy": 0.6805555555555556,
+            "confusion": {
+              "ô->ô": 17,
+              "ô->ǒ": 32,
+              "ǒ->ô": 14,
+              "ǒ->ǒ": 81
+            },
+            "by_word_signature": {
+              "seen": {
+                "occurrences": 33,
+                "correct": 28,
+                "accuracy": 0.8484848484848485
+              },
+              "unseen": {
+                "occurrences": 111,
+                "correct": 70,
+                "accuracy": 0.6306306306306306
+              }
+            }
+          },
+          "confidence_curve": [
+            {
+              "minimum_absolute_margin_log10": 0.0,
+              "retained": 144,
+              "coverage": 1.0,
+              "correct": 98,
+              "accuracy": 0.6805555555555556
+            },
+            {
+              "minimum_absolute_margin_log10": 0.2,
+              "retained": 118,
+              "coverage": 0.8194444444444444,
+              "correct": 87,
+              "accuracy": 0.7372881355932204
+            },
+            {
+              "minimum_absolute_margin_log10": 0.3,
+              "retained": 108,
+              "coverage": 0.75,
+              "correct": 79,
+              "accuracy": 0.7314814814814815
+            },
+            {
+              "minimum_absolute_margin_log10": 0.6,
+              "retained": 50,
+              "coverage": 0.3472222222222222,
+              "correct": 42,
+              "accuracy": 0.84
+            },
+            {
+              "minimum_absolute_margin_log10": 1.0,
+              "retained": 14,
+              "coverage": 0.09722222222222222,
+              "correct": 11,
+              "accuracy": 0.7857142857142857
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "forced_site": {
+            "occurrences": 144,
+            "correct": 102,
+            "accuracy": 0.7083333333333334,
+            "confusion": {
+              "ô->ô": 23,
+              "ô->ǒ": 26,
+              "ǒ->ô": 16,
+              "ǒ->ǒ": 79
+            },
+            "by_word_signature": {
+              "seen": {
+                "occurrences": 33,
+                "correct": 26,
+                "accuracy": 0.7878787878787878
+              },
+              "unseen": {
+                "occurrences": 111,
+                "correct": 76,
+                "accuracy": 0.6846846846846847
+              }
+            }
+          },
+          "confidence_curve": [
+            {
+              "minimum_absolute_margin_log10": 0.0,
+              "retained": 144,
+              "coverage": 1.0,
+              "correct": 102,
+              "accuracy": 0.7083333333333334
+            },
+            {
+              "minimum_absolute_margin_log10": 0.2,
+              "retained": 111,
+              "coverage": 0.7708333333333334,
+              "correct": 85,
+              "accuracy": 0.7657657657657657
+            },
+            {
+              "minimum_absolute_margin_log10": 0.3,
+              "retained": 100,
+              "coverage": 0.6944444444444444,
+              "correct": 81,
+              "accuracy": 0.81
+            },
+            {
+              "minimum_absolute_margin_log10": 0.6,
+              "retained": 74,
+              "coverage": 0.5138888888888888,
+              "correct": 63,
+              "accuracy": 0.8513513513513513
+            },
+            {
+              "minimum_absolute_margin_log10": 1.0,
+              "retained": 33,
+              "coverage": 0.22916666666666666,
+              "correct": 30,
+              "accuracy": 0.9090909090909091
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "forced_site": {
+            "occurrences": 144,
+            "correct": 102,
+            "accuracy": 0.7083333333333334,
+            "confusion": {
+              "ô->ô": 25,
+              "ô->ǒ": 24,
+              "ǒ->ô": 18,
+              "ǒ->ǒ": 77
+            },
+            "by_word_signature": {
+              "seen": {
+                "occurrences": 33,
+                "correct": 25,
+                "accuracy": 0.7575757575757576
+              },
+              "unseen": {
+                "occurrences": 111,
+                "correct": 77,
+                "accuracy": 0.6936936936936937
+              }
+            }
+          },
+          "confidence_curve": [
+            {
+              "minimum_absolute_margin_log10": 0.0,
+              "retained": 144,
+              "coverage": 1.0,
+              "correct": 102,
+              "accuracy": 0.7083333333333334
+            },
+            {
+              "minimum_absolute_margin_log10": 0.2,
+              "retained": 125,
+              "coverage": 0.8680555555555556,
+              "correct": 94,
+              "accuracy": 0.752
+            },
+            {
+              "minimum_absolute_margin_log10": 0.3,
+              "retained": 114,
+              "coverage": 0.7916666666666666,
+              "correct": 88,
+              "accuracy": 0.7719298245614035
+            },
+            {
+              "minimum_absolute_margin_log10": 0.6,
+              "retained": 75,
+              "coverage": 0.5208333333333334,
+              "correct": 63,
+              "accuracy": 0.84
+            },
+            {
+              "minimum_absolute_margin_log10": 1.0,
+              "retained": 53,
+              "coverage": 0.3680555555555556,
+              "correct": 46,
+              "accuracy": 0.8679245283018868
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "forced_site": {
+            "occurrences": 144,
+            "correct": 104,
+            "accuracy": 0.7222222222222222,
+            "confusion": {
+              "ô->ô": 25,
+              "ô->ǒ": 24,
+              "ǒ->ô": 16,
+              "ǒ->ǒ": 79
+            },
+            "by_word_signature": {
+              "seen": {
+                "occurrences": 33,
+                "correct": 28,
+                "accuracy": 0.8484848484848485
+              },
+              "unseen": {
+                "occurrences": 111,
+                "correct": 76,
+                "accuracy": 0.6846846846846847
+              }
+            }
+          },
+          "confidence_curve": [
+            {
+              "minimum_absolute_margin_log10": 0.0,
+              "retained": 144,
+              "coverage": 1.0,
+              "correct": 104,
+              "accuracy": 0.7222222222222222
+            },
+            {
+              "minimum_absolute_margin_log10": 0.2,
+              "retained": 125,
+              "coverage": 0.8680555555555556,
+              "correct": 95,
+              "accuracy": 0.76
+            },
+            {
+              "minimum_absolute_margin_log10": 0.3,
+              "retained": 113,
+              "coverage": 0.7847222222222222,
+              "correct": 91,
+              "accuracy": 0.8053097345132744
+            },
+            {
+              "minimum_absolute_margin_log10": 0.6,
+              "retained": 74,
+              "coverage": 0.5138888888888888,
+              "correct": 60,
+              "accuracy": 0.8108108108108109
+            },
+            {
+              "minimum_absolute_margin_log10": 1.0,
+              "retained": 53,
+              "coverage": 0.3680555555555556,
+              "correct": 44,
+              "accuracy": 0.8301886792452831
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "fold": 3,
+      "test_pages": [
+        17,
+        24,
+        39,
+        43,
+        47,
+        51,
+        76,
+        87,
+        118,
+        119,
+        128,
+        129,
+        140,
+        143
+      ],
+      "test_occurrences": 204,
+      "test_marked_o_counts": {
+        "ǒ": 150,
+        "ô": 54
+      },
+      "orders": [
+        {
+          "order": 2,
+          "forced_site": {
+            "occurrences": 204,
+            "correct": 139,
+            "accuracy": 0.6813725490196079,
+            "confusion": {
+              "ô->ô": 21,
+              "ô->ǒ": 33,
+              "ǒ->ô": 32,
+              "ǒ->ǒ": 118
+            },
+            "by_word_signature": {
+              "seen": {
+                "occurrences": 76,
+                "correct": 62,
+                "accuracy": 0.8157894736842105
+              },
+              "unseen": {
+                "occurrences": 128,
+                "correct": 77,
+                "accuracy": 0.6015625
+              }
+            }
+          },
+          "confidence_curve": [
+            {
+              "minimum_absolute_margin_log10": 0.0,
+              "retained": 204,
+              "coverage": 1.0,
+              "correct": 139,
+              "accuracy": 0.6813725490196079
+            },
+            {
+              "minimum_absolute_margin_log10": 0.2,
+              "retained": 167,
+              "coverage": 0.8186274509803921,
+              "correct": 122,
+              "accuracy": 0.7305389221556886
+            },
+            {
+              "minimum_absolute_margin_log10": 0.3,
+              "retained": 161,
+              "coverage": 0.7892156862745098,
+              "correct": 118,
+              "accuracy": 0.7329192546583851
+            },
+            {
+              "minimum_absolute_margin_log10": 0.6,
+              "retained": 52,
+              "coverage": 0.2549019607843137,
+              "correct": 34,
+              "accuracy": 0.6538461538461539
+            },
+            {
+              "minimum_absolute_margin_log10": 1.0,
+              "retained": 20,
+              "coverage": 0.09803921568627451,
+              "correct": 13,
+              "accuracy": 0.65
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "forced_site": {
+            "occurrences": 204,
+            "correct": 136,
+            "accuracy": 0.6666666666666666,
+            "confusion": {
+              "ô->ô": 22,
+              "ô->ǒ": 32,
+              "ǒ->ô": 36,
+              "ǒ->ǒ": 114
+            },
+            "by_word_signature": {
+              "seen": {
+                "occurrences": 76,
+                "correct": 63,
+                "accuracy": 0.8289473684210527
+              },
+              "unseen": {
+                "occurrences": 128,
+                "correct": 73,
+                "accuracy": 0.5703125
+              }
+            }
+          },
+          "confidence_curve": [
+            {
+              "minimum_absolute_margin_log10": 0.0,
+              "retained": 204,
+              "coverage": 1.0,
+              "correct": 136,
+              "accuracy": 0.6666666666666666
+            },
+            {
+              "minimum_absolute_margin_log10": 0.2,
+              "retained": 160,
+              "coverage": 0.7843137254901961,
+              "correct": 116,
+              "accuracy": 0.725
+            },
+            {
+              "minimum_absolute_margin_log10": 0.3,
+              "retained": 152,
+              "coverage": 0.7450980392156863,
+              "correct": 110,
+              "accuracy": 0.7236842105263158
+            },
+            {
+              "minimum_absolute_margin_log10": 0.6,
+              "retained": 91,
+              "coverage": 0.44607843137254904,
+              "correct": 61,
+              "accuracy": 0.6703296703296703
+            },
+            {
+              "minimum_absolute_margin_log10": 1.0,
+              "retained": 38,
+              "coverage": 0.18627450980392157,
+              "correct": 26,
+              "accuracy": 0.6842105263157895
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "forced_site": {
+            "occurrences": 204,
+            "correct": 126,
+            "accuracy": 0.6176470588235294,
+            "confusion": {
+              "ô->ô": 18,
+              "ô->ǒ": 36,
+              "ǒ->ô": 42,
+              "ǒ->ǒ": 108
+            },
+            "by_word_signature": {
+              "seen": {
+                "occurrences": 76,
+                "correct": 60,
+                "accuracy": 0.7894736842105263
+              },
+              "unseen": {
+                "occurrences": 128,
+                "correct": 66,
+                "accuracy": 0.515625
+              }
+            }
+          },
+          "confidence_curve": [
+            {
+              "minimum_absolute_margin_log10": 0.0,
+              "retained": 204,
+              "coverage": 1.0,
+              "correct": 126,
+              "accuracy": 0.6176470588235294
+            },
+            {
+              "minimum_absolute_margin_log10": 0.2,
+              "retained": 178,
+              "coverage": 0.8725490196078431,
+              "correct": 112,
+              "accuracy": 0.6292134831460674
+            },
+            {
+              "minimum_absolute_margin_log10": 0.3,
+              "retained": 169,
+              "coverage": 0.8284313725490197,
+              "correct": 110,
+              "accuracy": 0.650887573964497
+            },
+            {
+              "minimum_absolute_margin_log10": 0.6,
+              "retained": 127,
+              "coverage": 0.6225490196078431,
+              "correct": 95,
+              "accuracy": 0.7480314960629921
+            },
+            {
+              "minimum_absolute_margin_log10": 1.0,
+              "retained": 58,
+              "coverage": 0.28431372549019607,
+              "correct": 43,
+              "accuracy": 0.7413793103448276
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "forced_site": {
+            "occurrences": 204,
+            "correct": 137,
+            "accuracy": 0.6715686274509803,
+            "confusion": {
+              "ô->ô": 23,
+              "ô->ǒ": 31,
+              "ǒ->ô": 36,
+              "ǒ->ǒ": 114
+            },
+            "by_word_signature": {
+              "seen": {
+                "occurrences": 76,
+                "correct": 67,
+                "accuracy": 0.881578947368421
+              },
+              "unseen": {
+                "occurrences": 128,
+                "correct": 70,
+                "accuracy": 0.546875
+              }
+            }
+          },
+          "confidence_curve": [
+            {
+              "minimum_absolute_margin_log10": 0.0,
+              "retained": 204,
+              "coverage": 1.0,
+              "correct": 137,
+              "accuracy": 0.6715686274509803
+            },
+            {
+              "minimum_absolute_margin_log10": 0.2,
+              "retained": 172,
+              "coverage": 0.8431372549019608,
+              "correct": 119,
+              "accuracy": 0.6918604651162791
+            },
+            {
+              "minimum_absolute_margin_log10": 0.3,
+              "retained": 165,
+              "coverage": 0.8088235294117647,
+              "correct": 117,
+              "accuracy": 0.7090909090909091
+            },
+            {
+              "minimum_absolute_margin_log10": 0.6,
+              "retained": 135,
+              "coverage": 0.6617647058823529,
+              "correct": 106,
+              "accuracy": 0.7851851851851852
+            },
+            {
+              "minimum_absolute_margin_log10": 1.0,
+              "retained": 100,
+              "coverage": 0.49019607843137253,
+              "correct": 86,
+              "accuracy": 0.86
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "fold": 4,
+      "test_pages": [
+        18,
+        35,
+        63,
+        68,
+        77,
+        83,
+        104,
+        107,
+        136,
+        137,
+        138,
+        139,
+        142,
+        149
+      ],
+      "test_occurrences": 201,
+      "test_marked_o_counts": {
+        "ǒ": 141,
+        "ô": 60
+      },
+      "orders": [
+        {
+          "order": 2,
+          "forced_site": {
+            "occurrences": 201,
+            "correct": 156,
+            "accuracy": 0.7761194029850746,
+            "confusion": {
+              "ô->ô": 21,
+              "ô->ǒ": 39,
+              "ǒ->ô": 6,
+              "ǒ->ǒ": 135
+            },
+            "by_word_signature": {
+              "seen": {
+                "occurrences": 53,
+                "correct": 41,
+                "accuracy": 0.7735849056603774
+              },
+              "unseen": {
+                "occurrences": 148,
+                "correct": 115,
+                "accuracy": 0.777027027027027
+              }
+            }
+          },
+          "confidence_curve": [
+            {
+              "minimum_absolute_margin_log10": 0.0,
+              "retained": 201,
+              "coverage": 1.0,
+              "correct": 156,
+              "accuracy": 0.7761194029850746
+            },
+            {
+              "minimum_absolute_margin_log10": 0.2,
+              "retained": 188,
+              "coverage": 0.9353233830845771,
+              "correct": 145,
+              "accuracy": 0.7712765957446809
+            },
+            {
+              "minimum_absolute_margin_log10": 0.3,
+              "retained": 168,
+              "coverage": 0.835820895522388,
+              "correct": 130,
+              "accuracy": 0.7738095238095238
+            },
+            {
+              "minimum_absolute_margin_log10": 0.6,
+              "retained": 83,
+              "coverage": 0.4129353233830846,
+              "correct": 70,
+              "accuracy": 0.8433734939759037
+            },
+            {
+              "minimum_absolute_margin_log10": 1.0,
+              "retained": 40,
+              "coverage": 0.19900497512437812,
+              "correct": 35,
+              "accuracy": 0.875
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "forced_site": {
+            "occurrences": 201,
+            "correct": 145,
+            "accuracy": 0.7213930348258707,
+            "confusion": {
+              "ô->ô": 27,
+              "ô->ǒ": 33,
+              "ǒ->ô": 23,
+              "ǒ->ǒ": 118
+            },
+            "by_word_signature": {
+              "seen": {
+                "occurrences": 53,
+                "correct": 40,
+                "accuracy": 0.7547169811320755
+              },
+              "unseen": {
+                "occurrences": 148,
+                "correct": 105,
+                "accuracy": 0.7094594594594594
+              }
+            }
+          },
+          "confidence_curve": [
+            {
+              "minimum_absolute_margin_log10": 0.0,
+              "retained": 201,
+              "coverage": 1.0,
+              "correct": 145,
+              "accuracy": 0.7213930348258707
+            },
+            {
+              "minimum_absolute_margin_log10": 0.2,
+              "retained": 175,
+              "coverage": 0.8706467661691543,
+              "correct": 131,
+              "accuracy": 0.7485714285714286
+            },
+            {
+              "minimum_absolute_margin_log10": 0.3,
+              "retained": 150,
+              "coverage": 0.746268656716418,
+              "correct": 112,
+              "accuracy": 0.7466666666666667
+            },
+            {
+              "minimum_absolute_margin_log10": 0.6,
+              "retained": 115,
+              "coverage": 0.572139303482587,
+              "correct": 90,
+              "accuracy": 0.782608695652174
+            },
+            {
+              "minimum_absolute_margin_log10": 1.0,
+              "retained": 67,
+              "coverage": 0.3333333333333333,
+              "correct": 54,
+              "accuracy": 0.8059701492537313
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "forced_site": {
+            "occurrences": 201,
+            "correct": 154,
+            "accuracy": 0.7661691542288557,
+            "confusion": {
+              "ô->ô": 33,
+              "ô->ǒ": 27,
+              "ǒ->ô": 20,
+              "ǒ->ǒ": 121
+            },
+            "by_word_signature": {
+              "seen": {
+                "occurrences": 53,
+                "correct": 42,
+                "accuracy": 0.7924528301886793
+              },
+              "unseen": {
+                "occurrences": 148,
+                "correct": 112,
+                "accuracy": 0.7567567567567568
+              }
+            }
+          },
+          "confidence_curve": [
+            {
+              "minimum_absolute_margin_log10": 0.0,
+              "retained": 201,
+              "coverage": 1.0,
+              "correct": 154,
+              "accuracy": 0.7661691542288557
+            },
+            {
+              "minimum_absolute_margin_log10": 0.2,
+              "retained": 181,
+              "coverage": 0.900497512437811,
+              "correct": 146,
+              "accuracy": 0.8066298342541437
+            },
+            {
+              "minimum_absolute_margin_log10": 0.3,
+              "retained": 166,
+              "coverage": 0.8258706467661692,
+              "correct": 135,
+              "accuracy": 0.8132530120481928
+            },
+            {
+              "minimum_absolute_margin_log10": 0.6,
+              "retained": 135,
+              "coverage": 0.6716417910447762,
+              "correct": 112,
+              "accuracy": 0.8296296296296296
+            },
+            {
+              "minimum_absolute_margin_log10": 1.0,
+              "retained": 92,
+              "coverage": 0.4577114427860697,
+              "correct": 82,
+              "accuracy": 0.8913043478260869
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "forced_site": {
+            "occurrences": 201,
+            "correct": 158,
+            "accuracy": 0.7860696517412935,
+            "confusion": {
+              "ô->ô": 39,
+              "ô->ǒ": 21,
+              "ǒ->ô": 22,
+              "ǒ->ǒ": 119
+            },
+            "by_word_signature": {
+              "seen": {
+                "occurrences": 53,
+                "correct": 46,
+                "accuracy": 0.8679245283018868
+              },
+              "unseen": {
+                "occurrences": 148,
+                "correct": 112,
+                "accuracy": 0.7567567567567568
+              }
+            }
+          },
+          "confidence_curve": [
+            {
+              "minimum_absolute_margin_log10": 0.0,
+              "retained": 201,
+              "coverage": 1.0,
+              "correct": 158,
+              "accuracy": 0.7860696517412935
+            },
+            {
+              "minimum_absolute_margin_log10": 0.2,
+              "retained": 174,
+              "coverage": 0.8656716417910447,
+              "correct": 144,
+              "accuracy": 0.8275862068965517
+            },
+            {
+              "minimum_absolute_margin_log10": 0.3,
+              "retained": 160,
+              "coverage": 0.7960199004975125,
+              "correct": 139,
+              "accuracy": 0.86875
+            },
+            {
+              "minimum_absolute_margin_log10": 0.6,
+              "retained": 140,
+              "coverage": 0.6965174129353234,
+              "correct": 122,
+              "accuracy": 0.8714285714285714
+            },
+            {
+              "minimum_absolute_margin_log10": 1.0,
+              "retained": 91,
+              "coverage": 0.4527363184079602,
+              "correct": 86,
+              "accuracy": 0.945054945054945
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "fold": 5,
+      "test_pages": [
+        22,
+        46,
+        48,
+        56,
+        65,
+        66,
+        73,
+        84,
+        86,
+        88,
+        100,
+        112,
+        114,
+        115
+      ],
+      "test_occurrences": 256,
+      "test_marked_o_counts": {
+        "ô": 96,
+        "ǒ": 160
+      },
+      "orders": [
+        {
+          "order": 2,
+          "forced_site": {
+            "occurrences": 256,
+            "correct": 173,
+            "accuracy": 0.67578125,
+            "confusion": {
+              "ô->ô": 42,
+              "ô->ǒ": 54,
+              "ǒ->ô": 29,
+              "ǒ->ǒ": 131
+            },
+            "by_word_signature": {
+              "seen": {
+                "occurrences": 66,
+                "correct": 51,
+                "accuracy": 0.7727272727272727
+              },
+              "unseen": {
+                "occurrences": 190,
+                "correct": 122,
+                "accuracy": 0.6421052631578947
+              }
+            }
+          },
+          "confidence_curve": [
+            {
+              "minimum_absolute_margin_log10": 0.0,
+              "retained": 256,
+              "coverage": 1.0,
+              "correct": 173,
+              "accuracy": 0.67578125
+            },
+            {
+              "minimum_absolute_margin_log10": 0.2,
+              "retained": 226,
+              "coverage": 0.8828125,
+              "correct": 158,
+              "accuracy": 0.6991150442477876
+            },
+            {
+              "minimum_absolute_margin_log10": 0.3,
+              "retained": 194,
+              "coverage": 0.7578125,
+              "correct": 138,
+              "accuracy": 0.711340206185567
+            },
+            {
+              "minimum_absolute_margin_log10": 0.6,
+              "retained": 88,
+              "coverage": 0.34375,
+              "correct": 68,
+              "accuracy": 0.7727272727272727
+            },
+            {
+              "minimum_absolute_margin_log10": 1.0,
+              "retained": 34,
+              "coverage": 0.1328125,
+              "correct": 27,
+              "accuracy": 0.7941176470588235
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "forced_site": {
+            "occurrences": 256,
+            "correct": 175,
+            "accuracy": 0.68359375,
+            "confusion": {
+              "ô->ô": 50,
+              "ô->ǒ": 46,
+              "ǒ->ô": 35,
+              "ǒ->ǒ": 125
+            },
+            "by_word_signature": {
+              "seen": {
+                "occurrences": 66,
+                "correct": 48,
+                "accuracy": 0.7272727272727273
+              },
+              "unseen": {
+                "occurrences": 190,
+                "correct": 127,
+                "accuracy": 0.6684210526315789
+              }
+            }
+          },
+          "confidence_curve": [
+            {
+              "minimum_absolute_margin_log10": 0.0,
+              "retained": 256,
+              "coverage": 1.0,
+              "correct": 175,
+              "accuracy": 0.68359375
+            },
+            {
+              "minimum_absolute_margin_log10": 0.2,
+              "retained": 200,
+              "coverage": 0.78125,
+              "correct": 147,
+              "accuracy": 0.735
+            },
+            {
+              "minimum_absolute_margin_log10": 0.3,
+              "retained": 178,
+              "coverage": 0.6953125,
+              "correct": 135,
+              "accuracy": 0.7584269662921348
+            },
+            {
+              "minimum_absolute_margin_log10": 0.6,
+              "retained": 123,
+              "coverage": 0.48046875,
+              "correct": 96,
+              "accuracy": 0.7804878048780488
+            },
+            {
+              "minimum_absolute_margin_log10": 1.0,
+              "retained": 61,
+              "coverage": 0.23828125,
+              "correct": 50,
+              "accuracy": 0.819672131147541
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "forced_site": {
+            "occurrences": 256,
+            "correct": 181,
+            "accuracy": 0.70703125,
+            "confusion": {
+              "ô->ô": 58,
+              "ô->ǒ": 38,
+              "ǒ->ô": 37,
+              "ǒ->ǒ": 123
+            },
+            "by_word_signature": {
+              "seen": {
+                "occurrences": 66,
+                "correct": 56,
+                "accuracy": 0.8484848484848485
+              },
+              "unseen": {
+                "occurrences": 190,
+                "correct": 125,
+                "accuracy": 0.6578947368421053
+              }
+            }
+          },
+          "confidence_curve": [
+            {
+              "minimum_absolute_margin_log10": 0.0,
+              "retained": 256,
+              "coverage": 1.0,
+              "correct": 181,
+              "accuracy": 0.70703125
+            },
+            {
+              "minimum_absolute_margin_log10": 0.2,
+              "retained": 210,
+              "coverage": 0.8203125,
+              "correct": 152,
+              "accuracy": 0.7238095238095238
+            },
+            {
+              "minimum_absolute_margin_log10": 0.3,
+              "retained": 192,
+              "coverage": 0.75,
+              "correct": 143,
+              "accuracy": 0.7447916666666666
+            },
+            {
+              "minimum_absolute_margin_log10": 0.6,
+              "retained": 143,
+              "coverage": 0.55859375,
+              "correct": 114,
+              "accuracy": 0.7972027972027972
+            },
+            {
+              "minimum_absolute_margin_log10": 1.0,
+              "retained": 69,
+              "coverage": 0.26953125,
+              "correct": 58,
+              "accuracy": 0.8405797101449275
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "forced_site": {
+            "occurrences": 256,
+            "correct": 171,
+            "accuracy": 0.66796875,
+            "confusion": {
+              "ô->ô": 50,
+              "ô->ǒ": 46,
+              "ǒ->ô": 39,
+              "ǒ->ǒ": 121
+            },
+            "by_word_signature": {
+              "seen": {
+                "occurrences": 66,
+                "correct": 55,
+                "accuracy": 0.8333333333333334
+              },
+              "unseen": {
+                "occurrences": 190,
+                "correct": 116,
+                "accuracy": 0.6105263157894737
+              }
+            }
+          },
+          "confidence_curve": [
+            {
+              "minimum_absolute_margin_log10": 0.0,
+              "retained": 256,
+              "coverage": 1.0,
+              "correct": 171,
+              "accuracy": 0.66796875
+            },
+            {
+              "minimum_absolute_margin_log10": 0.2,
+              "retained": 206,
+              "coverage": 0.8046875,
+              "correct": 146,
+              "accuracy": 0.7087378640776699
+            },
+            {
+              "minimum_absolute_margin_log10": 0.3,
+              "retained": 187,
+              "coverage": 0.73046875,
+              "correct": 133,
+              "accuracy": 0.7112299465240641
+            },
+            {
+              "minimum_absolute_margin_log10": 0.6,
+              "retained": 134,
+              "coverage": 0.5234375,
+              "correct": 101,
+              "accuracy": 0.753731343283582
+            },
+            {
+              "minimum_absolute_margin_log10": 1.0,
+              "retained": 88,
+              "coverage": 0.34375,
+              "correct": 73,
+              "accuracy": 0.8295454545454546
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "fold": 6,
+      "test_pages": [
+        13,
+        15,
+        30,
+        34,
+        41,
+        58,
+        85,
+        98,
+        102,
+        103,
+        113,
+        125,
+        127,
+        147
+      ],
+      "test_occurrences": 205,
+      "test_marked_o_counts": {
+        "ǒ": 130,
+        "ô": 75
+      },
+      "orders": [
+        {
+          "order": 2,
+          "forced_site": {
+            "occurrences": 205,
+            "correct": 143,
+            "accuracy": 0.697560975609756,
+            "confusion": {
+              "ô->ô": 30,
+              "ô->ǒ": 45,
+              "ǒ->ô": 17,
+              "ǒ->ǒ": 113
+            },
+            "by_word_signature": {
+              "seen": {
+                "occurrences": 53,
+                "correct": 41,
+                "accuracy": 0.7735849056603774
+              },
+              "unseen": {
+                "occurrences": 152,
+                "correct": 102,
+                "accuracy": 0.6710526315789473
+              }
+            }
+          },
+          "confidence_curve": [
+            {
+              "minimum_absolute_margin_log10": 0.0,
+              "retained": 205,
+              "coverage": 1.0,
+              "correct": 143,
+              "accuracy": 0.697560975609756
+            },
+            {
+              "minimum_absolute_margin_log10": 0.2,
+              "retained": 168,
+              "coverage": 0.8195121951219512,
+              "correct": 118,
+              "accuracy": 0.7023809523809523
+            },
+            {
+              "minimum_absolute_margin_log10": 0.3,
+              "retained": 162,
+              "coverage": 0.7902439024390244,
+              "correct": 114,
+              "accuracy": 0.7037037037037037
+            },
+            {
+              "minimum_absolute_margin_log10": 0.6,
+              "retained": 72,
+              "coverage": 0.35121951219512193,
+              "correct": 54,
+              "accuracy": 0.75
+            },
+            {
+              "minimum_absolute_margin_log10": 1.0,
+              "retained": 19,
+              "coverage": 0.09268292682926829,
+              "correct": 17,
+              "accuracy": 0.8947368421052632
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "forced_site": {
+            "occurrences": 205,
+            "correct": 136,
+            "accuracy": 0.6634146341463415,
+            "confusion": {
+              "ô->ô": 29,
+              "ô->ǒ": 46,
+              "ǒ->ô": 23,
+              "ǒ->ǒ": 107
+            },
+            "by_word_signature": {
+              "seen": {
+                "occurrences": 53,
+                "correct": 41,
+                "accuracy": 0.7735849056603774
+              },
+              "unseen": {
+                "occurrences": 152,
+                "correct": 95,
+                "accuracy": 0.625
+              }
+            }
+          },
+          "confidence_curve": [
+            {
+              "minimum_absolute_margin_log10": 0.0,
+              "retained": 205,
+              "coverage": 1.0,
+              "correct": 136,
+              "accuracy": 0.6634146341463415
+            },
+            {
+              "minimum_absolute_margin_log10": 0.2,
+              "retained": 173,
+              "coverage": 0.8439024390243902,
+              "correct": 124,
+              "accuracy": 0.7167630057803468
+            },
+            {
+              "minimum_absolute_margin_log10": 0.3,
+              "retained": 161,
+              "coverage": 0.7853658536585366,
+              "correct": 118,
+              "accuracy": 0.7329192546583851
+            },
+            {
+              "minimum_absolute_margin_log10": 0.6,
+              "retained": 113,
+              "coverage": 0.551219512195122,
+              "correct": 87,
+              "accuracy": 0.7699115044247787
+            },
+            {
+              "minimum_absolute_margin_log10": 1.0,
+              "retained": 60,
+              "coverage": 0.2926829268292683,
+              "correct": 49,
+              "accuracy": 0.8166666666666667
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "forced_site": {
+            "occurrences": 205,
+            "correct": 141,
+            "accuracy": 0.6878048780487804,
+            "confusion": {
+              "ô->ô": 35,
+              "ô->ǒ": 40,
+              "ǒ->ô": 24,
+              "ǒ->ǒ": 106
+            },
+            "by_word_signature": {
+              "seen": {
+                "occurrences": 53,
+                "correct": 43,
+                "accuracy": 0.8113207547169812
+              },
+              "unseen": {
+                "occurrences": 152,
+                "correct": 98,
+                "accuracy": 0.6447368421052632
+              }
+            }
+          },
+          "confidence_curve": [
+            {
+              "minimum_absolute_margin_log10": 0.0,
+              "retained": 205,
+              "coverage": 1.0,
+              "correct": 141,
+              "accuracy": 0.6878048780487804
+            },
+            {
+              "minimum_absolute_margin_log10": 0.2,
+              "retained": 183,
+              "coverage": 0.8926829268292683,
+              "correct": 129,
+              "accuracy": 0.7049180327868853
+            },
+            {
+              "minimum_absolute_margin_log10": 0.3,
+              "retained": 172,
+              "coverage": 0.8390243902439024,
+              "correct": 121,
+              "accuracy": 0.7034883720930233
+            },
+            {
+              "minimum_absolute_margin_log10": 0.6,
+              "retained": 141,
+              "coverage": 0.6878048780487804,
+              "correct": 109,
+              "accuracy": 0.7730496453900709
+            },
+            {
+              "minimum_absolute_margin_log10": 1.0,
+              "retained": 100,
+              "coverage": 0.4878048780487805,
+              "correct": 81,
+              "accuracy": 0.81
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "forced_site": {
+            "occurrences": 205,
+            "correct": 144,
+            "accuracy": 0.7024390243902439,
+            "confusion": {
+              "ô->ô": 43,
+              "ô->ǒ": 32,
+              "ǒ->ô": 29,
+              "ǒ->ǒ": 101
+            },
+            "by_word_signature": {
+              "seen": {
+                "occurrences": 53,
+                "correct": 47,
+                "accuracy": 0.8867924528301887
+              },
+              "unseen": {
+                "occurrences": 152,
+                "correct": 97,
+                "accuracy": 0.6381578947368421
+              }
+            }
+          },
+          "confidence_curve": [
+            {
+              "minimum_absolute_margin_log10": 0.0,
+              "retained": 205,
+              "coverage": 1.0,
+              "correct": 144,
+              "accuracy": 0.7024390243902439
+            },
+            {
+              "minimum_absolute_margin_log10": 0.2,
+              "retained": 183,
+              "coverage": 0.8926829268292683,
+              "correct": 130,
+              "accuracy": 0.7103825136612022
+            },
+            {
+              "minimum_absolute_margin_log10": 0.3,
+              "retained": 170,
+              "coverage": 0.8292682926829268,
+              "correct": 122,
+              "accuracy": 0.7176470588235294
+            },
+            {
+              "minimum_absolute_margin_log10": 0.6,
+              "retained": 129,
+              "coverage": 0.6292682926829268,
+              "correct": 101,
+              "accuracy": 0.7829457364341085
+            },
+            {
+              "minimum_absolute_margin_log10": 1.0,
+              "retained": 100,
+              "coverage": 0.4878048780487805,
+              "correct": 82,
+              "accuracy": 0.82
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "fold": 7,
+      "test_pages": [
+        27,
+        29,
+        42,
+        57,
+        59,
+        67,
+        69,
+        74,
+        116,
+        117,
+        120,
+        134,
+        135,
+        141
+      ],
+      "test_occurrences": 251,
+      "test_marked_o_counts": {
+        "ǒ": 184,
+        "ô": 67
+      },
+      "orders": [
+        {
+          "order": 2,
+          "forced_site": {
+            "occurrences": 251,
+            "correct": 188,
+            "accuracy": 0.749003984063745,
+            "confusion": {
+              "ô->ô": 23,
+              "ô->ǒ": 44,
+              "ǒ->ô": 19,
+              "ǒ->ǒ": 165
+            },
+            "by_word_signature": {
+              "seen": {
+                "occurrences": 44,
+                "correct": 35,
+                "accuracy": 0.7954545454545454
+              },
+              "unseen": {
+                "occurrences": 207,
+                "correct": 153,
+                "accuracy": 0.7391304347826086
+              }
+            }
+          },
+          "confidence_curve": [
+            {
+              "minimum_absolute_margin_log10": 0.0,
+              "retained": 251,
+              "coverage": 1.0,
+              "correct": 188,
+              "accuracy": 0.749003984063745
+            },
+            {
+              "minimum_absolute_margin_log10": 0.2,
+              "retained": 196,
+              "coverage": 0.7808764940239044,
+              "correct": 154,
+              "accuracy": 0.7857142857142857
+            },
+            {
+              "minimum_absolute_margin_log10": 0.3,
+              "retained": 174,
+              "coverage": 0.6932270916334662,
+              "correct": 136,
+              "accuracy": 0.7816091954022989
+            },
+            {
+              "minimum_absolute_margin_log10": 0.6,
+              "retained": 102,
+              "coverage": 0.4063745019920319,
+              "correct": 81,
+              "accuracy": 0.7941176470588235
+            },
+            {
+              "minimum_absolute_margin_log10": 1.0,
+              "retained": 7,
+              "coverage": 0.027888446215139442,
+              "correct": 7,
+              "accuracy": 1.0
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "forced_site": {
+            "occurrences": 251,
+            "correct": 180,
+            "accuracy": 0.7171314741035857,
+            "confusion": {
+              "ô->ô": 18,
+              "ô->ǒ": 49,
+              "ǒ->ô": 22,
+              "ǒ->ǒ": 162
+            },
+            "by_word_signature": {
+              "seen": {
+                "occurrences": 44,
+                "correct": 35,
+                "accuracy": 0.7954545454545454
+              },
+              "unseen": {
+                "occurrences": 207,
+                "correct": 145,
+                "accuracy": 0.7004830917874396
+              }
+            }
+          },
+          "confidence_curve": [
+            {
+              "minimum_absolute_margin_log10": 0.0,
+              "retained": 251,
+              "coverage": 1.0,
+              "correct": 180,
+              "accuracy": 0.7171314741035857
+            },
+            {
+              "minimum_absolute_margin_log10": 0.2,
+              "retained": 218,
+              "coverage": 0.8685258964143426,
+              "correct": 161,
+              "accuracy": 0.7385321100917431
+            },
+            {
+              "minimum_absolute_margin_log10": 0.3,
+              "retained": 206,
+              "coverage": 0.8207171314741036,
+              "correct": 156,
+              "accuracy": 0.7572815533980582
+            },
+            {
+              "minimum_absolute_margin_log10": 0.6,
+              "retained": 152,
+              "coverage": 0.6055776892430279,
+              "correct": 120,
+              "accuracy": 0.7894736842105263
+            },
+            {
+              "minimum_absolute_margin_log10": 1.0,
+              "retained": 69,
+              "coverage": 0.2749003984063745,
+              "correct": 59,
+              "accuracy": 0.855072463768116
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "forced_site": {
+            "occurrences": 251,
+            "correct": 177,
+            "accuracy": 0.7051792828685259,
+            "confusion": {
+              "ô->ô": 23,
+              "ô->ǒ": 44,
+              "ǒ->ô": 30,
+              "ǒ->ǒ": 154
+            },
+            "by_word_signature": {
+              "seen": {
+                "occurrences": 44,
+                "correct": 34,
+                "accuracy": 0.7727272727272727
+              },
+              "unseen": {
+                "occurrences": 207,
+                "correct": 143,
+                "accuracy": 0.6908212560386473
+              }
+            }
+          },
+          "confidence_curve": [
+            {
+              "minimum_absolute_margin_log10": 0.0,
+              "retained": 251,
+              "coverage": 1.0,
+              "correct": 177,
+              "accuracy": 0.7051792828685259
+            },
+            {
+              "minimum_absolute_margin_log10": 0.2,
+              "retained": 216,
+              "coverage": 0.8605577689243028,
+              "correct": 157,
+              "accuracy": 0.7268518518518519
+            },
+            {
+              "minimum_absolute_margin_log10": 0.3,
+              "retained": 202,
+              "coverage": 0.8047808764940239,
+              "correct": 150,
+              "accuracy": 0.7425742574257426
+            },
+            {
+              "minimum_absolute_margin_log10": 0.6,
+              "retained": 157,
+              "coverage": 0.6254980079681275,
+              "correct": 124,
+              "accuracy": 0.7898089171974523
+            },
+            {
+              "minimum_absolute_margin_log10": 1.0,
+              "retained": 97,
+              "coverage": 0.38645418326693226,
+              "correct": 80,
+              "accuracy": 0.8247422680412371
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "forced_site": {
+            "occurrences": 251,
+            "correct": 183,
+            "accuracy": 0.7290836653386454,
+            "confusion": {
+              "ô->ô": 27,
+              "ô->ǒ": 40,
+              "ǒ->ô": 28,
+              "ǒ->ǒ": 156
+            },
+            "by_word_signature": {
+              "seen": {
+                "occurrences": 44,
+                "correct": 38,
+                "accuracy": 0.8636363636363636
+              },
+              "unseen": {
+                "occurrences": 207,
+                "correct": 145,
+                "accuracy": 0.7004830917874396
+              }
+            }
+          },
+          "confidence_curve": [
+            {
+              "minimum_absolute_margin_log10": 0.0,
+              "retained": 251,
+              "coverage": 1.0,
+              "correct": 183,
+              "accuracy": 0.7290836653386454
+            },
+            {
+              "minimum_absolute_margin_log10": 0.2,
+              "retained": 218,
+              "coverage": 0.8685258964143426,
+              "correct": 164,
+              "accuracy": 0.7522935779816514
+            },
+            {
+              "minimum_absolute_margin_log10": 0.3,
+              "retained": 200,
+              "coverage": 0.796812749003984,
+              "correct": 153,
+              "accuracy": 0.765
+            },
+            {
+              "minimum_absolute_margin_log10": 0.6,
+              "retained": 148,
+              "coverage": 0.5896414342629482,
+              "correct": 120,
+              "accuracy": 0.8108108108108109
+            },
+            {
+              "minimum_absolute_margin_log10": 1.0,
+              "retained": 99,
+              "coverage": 0.3944223107569721,
+              "correct": 87,
+              "accuracy": 0.8787878787878788
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "fold": 8,
+      "test_pages": [
+        23,
+        26,
+        44,
+        45,
+        70,
+        71,
+        72,
+        78,
+        79,
+        81,
+        96,
+        111,
+        123,
+        126
+      ],
+      "test_occurrences": 228,
+      "test_marked_o_counts": {
+        "ǒ": 157,
+        "ô": 71
+      },
+      "orders": [
+        {
+          "order": 2,
+          "forced_site": {
+            "occurrences": 228,
+            "correct": 162,
+            "accuracy": 0.7105263157894737,
+            "confusion": {
+              "ô->ô": 33,
+              "ô->ǒ": 38,
+              "ǒ->ô": 28,
+              "ǒ->ǒ": 129
+            },
+            "by_word_signature": {
+              "seen": {
+                "occurrences": 63,
+                "correct": 44,
+                "accuracy": 0.6984126984126984
+              },
+              "unseen": {
+                "occurrences": 165,
+                "correct": 118,
+                "accuracy": 0.7151515151515152
+              }
+            }
+          },
+          "confidence_curve": [
+            {
+              "minimum_absolute_margin_log10": 0.0,
+              "retained": 228,
+              "coverage": 1.0,
+              "correct": 162,
+              "accuracy": 0.7105263157894737
+            },
+            {
+              "minimum_absolute_margin_log10": 0.2,
+              "retained": 172,
+              "coverage": 0.7543859649122807,
+              "correct": 128,
+              "accuracy": 0.7441860465116279
+            },
+            {
+              "minimum_absolute_margin_log10": 0.3,
+              "retained": 162,
+              "coverage": 0.7105263157894737,
+              "correct": 121,
+              "accuracy": 0.7469135802469136
+            },
+            {
+              "minimum_absolute_margin_log10": 0.6,
+              "retained": 76,
+              "coverage": 0.3333333333333333,
+              "correct": 62,
+              "accuracy": 0.8157894736842105
+            },
+            {
+              "minimum_absolute_margin_log10": 1.0,
+              "retained": 29,
+              "coverage": 0.12719298245614036,
+              "correct": 27,
+              "accuracy": 0.9310344827586207
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "forced_site": {
+            "occurrences": 228,
+            "correct": 144,
+            "accuracy": 0.631578947368421,
+            "confusion": {
+              "ô->ô": 36,
+              "ô->ǒ": 35,
+              "ǒ->ô": 49,
+              "ǒ->ǒ": 108
+            },
+            "by_word_signature": {
+              "seen": {
+                "occurrences": 63,
+                "correct": 43,
+                "accuracy": 0.6825396825396826
+              },
+              "unseen": {
+                "occurrences": 165,
+                "correct": 101,
+                "accuracy": 0.6121212121212121
+              }
+            }
+          },
+          "confidence_curve": [
+            {
+              "minimum_absolute_margin_log10": 0.0,
+              "retained": 228,
+              "coverage": 1.0,
+              "correct": 144,
+              "accuracy": 0.631578947368421
+            },
+            {
+              "minimum_absolute_margin_log10": 0.2,
+              "retained": 175,
+              "coverage": 0.7675438596491229,
+              "correct": 122,
+              "accuracy": 0.6971428571428572
+            },
+            {
+              "minimum_absolute_margin_log10": 0.3,
+              "retained": 143,
+              "coverage": 0.6271929824561403,
+              "correct": 109,
+              "accuracy": 0.7622377622377622
+            },
+            {
+              "minimum_absolute_margin_log10": 0.6,
+              "retained": 92,
+              "coverage": 0.40350877192982454,
+              "correct": 76,
+              "accuracy": 0.8260869565217391
+            },
+            {
+              "minimum_absolute_margin_log10": 1.0,
+              "retained": 47,
+              "coverage": 0.20614035087719298,
+              "correct": 41,
+              "accuracy": 0.8723404255319149
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "forced_site": {
+            "occurrences": 228,
+            "correct": 151,
+            "accuracy": 0.6622807017543859,
+            "confusion": {
+              "ô->ô": 37,
+              "ô->ǒ": 34,
+              "ǒ->ô": 43,
+              "ǒ->ǒ": 114
+            },
+            "by_word_signature": {
+              "seen": {
+                "occurrences": 63,
+                "correct": 45,
+                "accuracy": 0.7142857142857143
+              },
+              "unseen": {
+                "occurrences": 165,
+                "correct": 106,
+                "accuracy": 0.6424242424242425
+              }
+            }
+          },
+          "confidence_curve": [
+            {
+              "minimum_absolute_margin_log10": 0.0,
+              "retained": 228,
+              "coverage": 1.0,
+              "correct": 151,
+              "accuracy": 0.6622807017543859
+            },
+            {
+              "minimum_absolute_margin_log10": 0.2,
+              "retained": 191,
+              "coverage": 0.8377192982456141,
+              "correct": 137,
+              "accuracy": 0.7172774869109948
+            },
+            {
+              "minimum_absolute_margin_log10": 0.3,
+              "retained": 176,
+              "coverage": 0.7719298245614035,
+              "correct": 130,
+              "accuracy": 0.7386363636363636
+            },
+            {
+              "minimum_absolute_margin_log10": 0.6,
+              "retained": 129,
+              "coverage": 0.5657894736842105,
+              "correct": 100,
+              "accuracy": 0.7751937984496124
+            },
+            {
+              "minimum_absolute_margin_log10": 1.0,
+              "retained": 93,
+              "coverage": 0.40789473684210525,
+              "correct": 73,
+              "accuracy": 0.7849462365591398
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "forced_site": {
+            "occurrences": 228,
+            "correct": 157,
+            "accuracy": 0.6885964912280702,
+            "confusion": {
+              "ô->ô": 44,
+              "ô->ǒ": 27,
+              "ǒ->ô": 44,
+              "ǒ->ǒ": 113
+            },
+            "by_word_signature": {
+              "seen": {
+                "occurrences": 63,
+                "correct": 52,
+                "accuracy": 0.8253968253968254
+              },
+              "unseen": {
+                "occurrences": 165,
+                "correct": 105,
+                "accuracy": 0.6363636363636364
+              }
+            }
+          },
+          "confidence_curve": [
+            {
+              "minimum_absolute_margin_log10": 0.0,
+              "retained": 228,
+              "coverage": 1.0,
+              "correct": 157,
+              "accuracy": 0.6885964912280702
+            },
+            {
+              "minimum_absolute_margin_log10": 0.2,
+              "retained": 183,
+              "coverage": 0.8026315789473685,
+              "correct": 138,
+              "accuracy": 0.7540983606557377
+            },
+            {
+              "minimum_absolute_margin_log10": 0.3,
+              "retained": 169,
+              "coverage": 0.7412280701754386,
+              "correct": 131,
+              "accuracy": 0.7751479289940828
+            },
+            {
+              "minimum_absolute_margin_log10": 0.6,
+              "retained": 123,
+              "coverage": 0.5394736842105263,
+              "correct": 104,
+              "accuracy": 0.8455284552845529
+            },
+            {
+              "minimum_absolute_margin_log10": 1.0,
+              "retained": 100,
+              "coverage": 0.43859649122807015,
+              "correct": 88,
+              "accuracy": 0.88
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "fold": 9,
+      "test_pages": [
+        16,
+        28,
+        38,
+        40,
+        52,
+        60,
+        90,
+        95,
+        99,
+        110,
+        121,
+        130,
+        132,
+        145
+      ],
+      "test_occurrences": 251,
+      "test_marked_o_counts": {
+        "ǒ": 156,
+        "ô": 95
+      },
+      "orders": [
+        {
+          "order": 2,
+          "forced_site": {
+            "occurrences": 251,
+            "correct": 161,
+            "accuracy": 0.6414342629482072,
+            "confusion": {
+              "ô->ô": 28,
+              "ô->ǒ": 67,
+              "ǒ->ô": 23,
+              "ǒ->ǒ": 133
+            },
+            "by_word_signature": {
+              "seen": {
+                "occurrences": 66,
+                "correct": 39,
+                "accuracy": 0.5909090909090909
+              },
+              "unseen": {
+                "occurrences": 185,
+                "correct": 122,
+                "accuracy": 0.6594594594594595
+              }
+            }
+          },
+          "confidence_curve": [
+            {
+              "minimum_absolute_margin_log10": 0.0,
+              "retained": 251,
+              "coverage": 1.0,
+              "correct": 161,
+              "accuracy": 0.6414342629482072
+            },
+            {
+              "minimum_absolute_margin_log10": 0.2,
+              "retained": 217,
+              "coverage": 0.8645418326693227,
+              "correct": 140,
+              "accuracy": 0.6451612903225806
+            },
+            {
+              "minimum_absolute_margin_log10": 0.3,
+              "retained": 192,
+              "coverage": 0.7649402390438247,
+              "correct": 132,
+              "accuracy": 0.6875
+            },
+            {
+              "minimum_absolute_margin_log10": 0.6,
+              "retained": 86,
+              "coverage": 0.3426294820717131,
+              "correct": 68,
+              "accuracy": 0.7906976744186046
+            },
+            {
+              "minimum_absolute_margin_log10": 1.0,
+              "retained": 23,
+              "coverage": 0.09163346613545817,
+              "correct": 18,
+              "accuracy": 0.782608695652174
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "forced_site": {
+            "occurrences": 251,
+            "correct": 165,
+            "accuracy": 0.6573705179282868,
+            "confusion": {
+              "ô->ô": 38,
+              "ô->ǒ": 57,
+              "ǒ->ô": 29,
+              "ǒ->ǒ": 127
+            },
+            "by_word_signature": {
+              "seen": {
+                "occurrences": 66,
+                "correct": 43,
+                "accuracy": 0.6515151515151515
+              },
+              "unseen": {
+                "occurrences": 185,
+                "correct": 122,
+                "accuracy": 0.6594594594594595
+              }
+            }
+          },
+          "confidence_curve": [
+            {
+              "minimum_absolute_margin_log10": 0.0,
+              "retained": 251,
+              "coverage": 1.0,
+              "correct": 165,
+              "accuracy": 0.6573705179282868
+            },
+            {
+              "minimum_absolute_margin_log10": 0.2,
+              "retained": 187,
+              "coverage": 0.7450199203187251,
+              "correct": 123,
+              "accuracy": 0.6577540106951871
+            },
+            {
+              "minimum_absolute_margin_log10": 0.3,
+              "retained": 169,
+              "coverage": 0.6733067729083665,
+              "correct": 113,
+              "accuracy": 0.6686390532544378
+            },
+            {
+              "minimum_absolute_margin_log10": 0.6,
+              "retained": 115,
+              "coverage": 0.4581673306772908,
+              "correct": 84,
+              "accuracy": 0.7304347826086957
+            },
+            {
+              "minimum_absolute_margin_log10": 1.0,
+              "retained": 69,
+              "coverage": 0.2749003984063745,
+              "correct": 50,
+              "accuracy": 0.7246376811594203
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "forced_site": {
+            "occurrences": 251,
+            "correct": 162,
+            "accuracy": 0.6454183266932271,
+            "confusion": {
+              "ô->ô": 43,
+              "ô->ǒ": 52,
+              "ǒ->ô": 37,
+              "ǒ->ǒ": 119
+            },
+            "by_word_signature": {
+              "seen": {
+                "occurrences": 66,
+                "correct": 44,
+                "accuracy": 0.6666666666666666
+              },
+              "unseen": {
+                "occurrences": 185,
+                "correct": 118,
+                "accuracy": 0.6378378378378379
+              }
+            }
+          },
+          "confidence_curve": [
+            {
+              "minimum_absolute_margin_log10": 0.0,
+              "retained": 251,
+              "coverage": 1.0,
+              "correct": 162,
+              "accuracy": 0.6454183266932271
+            },
+            {
+              "minimum_absolute_margin_log10": 0.2,
+              "retained": 224,
+              "coverage": 0.8924302788844621,
+              "correct": 152,
+              "accuracy": 0.6785714285714286
+            },
+            {
+              "minimum_absolute_margin_log10": 0.3,
+              "retained": 204,
+              "coverage": 0.8127490039840638,
+              "correct": 140,
+              "accuracy": 0.6862745098039216
+            },
+            {
+              "minimum_absolute_margin_log10": 0.6,
+              "retained": 151,
+              "coverage": 0.601593625498008,
+              "correct": 110,
+              "accuracy": 0.7284768211920529
+            },
+            {
+              "minimum_absolute_margin_log10": 1.0,
+              "retained": 97,
+              "coverage": 0.38645418326693226,
+              "correct": 73,
+              "accuracy": 0.7525773195876289
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "forced_site": {
+            "occurrences": 251,
+            "correct": 162,
+            "accuracy": 0.6454183266932271,
+            "confusion": {
+              "ô->ô": 41,
+              "ô->ǒ": 54,
+              "ǒ->ô": 35,
+              "ǒ->ǒ": 121
+            },
+            "by_word_signature": {
+              "seen": {
+                "occurrences": 66,
+                "correct": 42,
+                "accuracy": 0.6363636363636364
+              },
+              "unseen": {
+                "occurrences": 185,
+                "correct": 120,
+                "accuracy": 0.6486486486486487
+              }
+            }
+          },
+          "confidence_curve": [
+            {
+              "minimum_absolute_margin_log10": 0.0,
+              "retained": 251,
+              "coverage": 1.0,
+              "correct": 162,
+              "accuracy": 0.6454183266932271
+            },
+            {
+              "minimum_absolute_margin_log10": 0.2,
+              "retained": 217,
+              "coverage": 0.8645418326693227,
+              "correct": 147,
+              "accuracy": 0.6774193548387096
+            },
+            {
+              "minimum_absolute_margin_log10": 0.3,
+              "retained": 205,
+              "coverage": 0.8167330677290837,
+              "correct": 143,
+              "accuracy": 0.697560975609756
+            },
+            {
+              "minimum_absolute_margin_log10": 0.6,
+              "retained": 166,
+              "coverage": 0.6613545816733067,
+              "correct": 119,
+              "accuracy": 0.7168674698795181
+            },
+            {
+              "minimum_absolute_margin_log10": 1.0,
+              "retained": 113,
+              "coverage": 0.450199203187251,
+              "correct": 85,
+              "accuracy": 0.7522123893805309
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "fold": 10,
+      "test_pages": [
+        19,
+        21,
+        50,
+        53,
+        97,
+        101,
+        109,
+        122,
+        131,
+        133,
+        148,
+        150,
+        151
+      ],
+      "test_occurrences": 257,
+      "test_marked_o_counts": {
+        "ǒ": 145,
+        "ô": 112
+      },
+      "orders": [
+        {
+          "order": 2,
+          "forced_site": {
+            "occurrences": 257,
+            "correct": 191,
+            "accuracy": 0.7431906614785992,
+            "confusion": {
+              "ô->ô": 62,
+              "ô->ǒ": 50,
+              "ǒ->ô": 16,
+              "ǒ->ǒ": 129
+            },
+            "by_word_signature": {
+              "seen": {
+                "occurrences": 83,
+                "correct": 67,
+                "accuracy": 0.8072289156626506
+              },
+              "unseen": {
+                "occurrences": 174,
+                "correct": 124,
+                "accuracy": 0.7126436781609196
+              }
+            }
+          },
+          "confidence_curve": [
+            {
+              "minimum_absolute_margin_log10": 0.0,
+              "retained": 257,
+              "coverage": 1.0,
+              "correct": 191,
+              "accuracy": 0.7431906614785992
+            },
+            {
+              "minimum_absolute_margin_log10": 0.2,
+              "retained": 202,
+              "coverage": 0.7859922178988327,
+              "correct": 165,
+              "accuracy": 0.8168316831683168
+            },
+            {
+              "minimum_absolute_margin_log10": 0.3,
+              "retained": 162,
+              "coverage": 0.6303501945525292,
+              "correct": 134,
+              "accuracy": 0.8271604938271605
+            },
+            {
+              "minimum_absolute_margin_log10": 0.6,
+              "retained": 54,
+              "coverage": 0.21011673151750973,
+              "correct": 45,
+              "accuracy": 0.8333333333333334
+            },
+            {
+              "minimum_absolute_margin_log10": 1.0,
+              "retained": 17,
+              "coverage": 0.06614785992217899,
+              "correct": 15,
+              "accuracy": 0.8823529411764706
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "forced_site": {
+            "occurrences": 257,
+            "correct": 178,
+            "accuracy": 0.6926070038910506,
+            "confusion": {
+              "ô->ô": 71,
+              "ô->ǒ": 41,
+              "ǒ->ô": 38,
+              "ǒ->ǒ": 107
+            },
+            "by_word_signature": {
+              "seen": {
+                "occurrences": 83,
+                "correct": 63,
+                "accuracy": 0.7590361445783133
+              },
+              "unseen": {
+                "occurrences": 174,
+                "correct": 115,
+                "accuracy": 0.6609195402298851
+              }
+            }
+          },
+          "confidence_curve": [
+            {
+              "minimum_absolute_margin_log10": 0.0,
+              "retained": 257,
+              "coverage": 1.0,
+              "correct": 178,
+              "accuracy": 0.6926070038910506
+            },
+            {
+              "minimum_absolute_margin_log10": 0.2,
+              "retained": 204,
+              "coverage": 0.7937743190661478,
+              "correct": 153,
+              "accuracy": 0.75
+            },
+            {
+              "minimum_absolute_margin_log10": 0.3,
+              "retained": 176,
+              "coverage": 0.6848249027237354,
+              "correct": 137,
+              "accuracy": 0.7784090909090909
+            },
+            {
+              "minimum_absolute_margin_log10": 0.6,
+              "retained": 141,
+              "coverage": 0.5486381322957199,
+              "correct": 114,
+              "accuracy": 0.8085106382978723
+            },
+            {
+              "minimum_absolute_margin_log10": 1.0,
+              "retained": 89,
+              "coverage": 0.3463035019455253,
+              "correct": 76,
+              "accuracy": 0.8539325842696629
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "forced_site": {
+            "occurrences": 257,
+            "correct": 178,
+            "accuracy": 0.6926070038910506,
+            "confusion": {
+              "ô->ô": 76,
+              "ô->ǒ": 36,
+              "ǒ->ô": 43,
+              "ǒ->ǒ": 102
+            },
+            "by_word_signature": {
+              "seen": {
+                "occurrences": 83,
+                "correct": 66,
+                "accuracy": 0.7951807228915663
+              },
+              "unseen": {
+                "occurrences": 174,
+                "correct": 112,
+                "accuracy": 0.6436781609195402
+              }
+            }
+          },
+          "confidence_curve": [
+            {
+              "minimum_absolute_margin_log10": 0.0,
+              "retained": 257,
+              "coverage": 1.0,
+              "correct": 178,
+              "accuracy": 0.6926070038910506
+            },
+            {
+              "minimum_absolute_margin_log10": 0.2,
+              "retained": 213,
+              "coverage": 0.8287937743190662,
+              "correct": 153,
+              "accuracy": 0.7183098591549296
+            },
+            {
+              "minimum_absolute_margin_log10": 0.3,
+              "retained": 193,
+              "coverage": 0.7509727626459144,
+              "correct": 140,
+              "accuracy": 0.7253886010362695
+            },
+            {
+              "minimum_absolute_margin_log10": 0.6,
+              "retained": 142,
+              "coverage": 0.5525291828793775,
+              "correct": 112,
+              "accuracy": 0.7887323943661971
+            },
+            {
+              "minimum_absolute_margin_log10": 1.0,
+              "retained": 109,
+              "coverage": 0.42412451361867703,
+              "correct": 91,
+              "accuracy": 0.8348623853211009
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "forced_site": {
+            "occurrences": 257,
+            "correct": 176,
+            "accuracy": 0.6848249027237354,
+            "confusion": {
+              "ô->ô": 77,
+              "ô->ǒ": 35,
+              "ǒ->ô": 46,
+              "ǒ->ǒ": 99
+            },
+            "by_word_signature": {
+              "seen": {
+                "occurrences": 83,
+                "correct": 66,
+                "accuracy": 0.7951807228915663
+              },
+              "unseen": {
+                "occurrences": 174,
+                "correct": 110,
+                "accuracy": 0.632183908045977
+              }
+            }
+          },
+          "confidence_curve": [
+            {
+              "minimum_absolute_margin_log10": 0.0,
+              "retained": 257,
+              "coverage": 1.0,
+              "correct": 176,
+              "accuracy": 0.6848249027237354
+            },
+            {
+              "minimum_absolute_margin_log10": 0.2,
+              "retained": 203,
+              "coverage": 0.7898832684824902,
+              "correct": 147,
+              "accuracy": 0.7241379310344828
+            },
+            {
+              "minimum_absolute_margin_log10": 0.3,
+              "retained": 187,
+              "coverage": 0.7276264591439688,
+              "correct": 139,
+              "accuracy": 0.7433155080213903
+            },
+            {
+              "minimum_absolute_margin_log10": 0.6,
+              "retained": 148,
+              "coverage": 0.5758754863813229,
+              "correct": 118,
+              "accuracy": 0.7972972972972973
+            },
+            {
+              "minimum_absolute_margin_log10": 1.0,
+              "retained": 106,
+              "coverage": 0.41245136186770426,
+              "correct": 86,
+              "accuracy": 0.8113207547169812
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
