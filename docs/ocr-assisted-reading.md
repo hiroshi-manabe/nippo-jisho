@@ -123,7 +123,13 @@ the mark.
 
 For each prepared page:
 
-1. Verify the common physical-line geometry and render both line variants.
+1. Verify the common physical-line geometry and render both line variants. As
+   a rejection check, compare even imperfect OCR with the assigned
+   transcription and its immediate neighbors: if the crop resembles an
+   adjacent line more closely, or adjacent crops return substantially the same
+   row, the geometry has failed and must be corrected before transcription
+   work continues. OCR need not resolve every glyph to establish this kind of
+   row mismatch.
 2. Produce the transcriber's visual draft and both OCR strings without using
    an external running-text transcription as diplomatic authority.
 3. Align each OCR string to the draft. Treat the two crop results as a geometry
