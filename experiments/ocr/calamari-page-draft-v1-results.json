@@ -1,0 +1,169 @@
+{
+  "experiment": "calamari-page-drafts-v1",
+  "drafting": {
+    "inputs": [
+      "native page scan"
+    ],
+    "excluded_until_comparison": [
+      "existing transcription",
+      "canonical line geometry",
+      "human review state"
+    ],
+    "segmentation": "Kraken 5.2.9 bundled blla.mlmodel",
+    "recognition": ".cache/ocr-model/runs/calamari-antiqua-book-codec-v1/best.ckpt",
+    "line_image": {
+      "method": "72-pixel native-scan band centred on blind Kraken baseline",
+      "normalized_height": 48,
+      "maximum_normalized_width": 1024
+    },
+    "draft_format": "nippo-ocr-page-draft version 1",
+    "omitted_from_draft": [
+      "typeface spans",
+      "indentation",
+      "furniture roles",
+      "canonical Level 1 line IDs"
+    ]
+  },
+  "reviewed_benchmark": {
+    "pages": [
+      31,
+      34,
+      37,
+      39,
+      77,
+      82,
+      90,
+      105,
+      113,
+      134,
+      135,
+      139,
+      142,
+      147
+    ],
+    "split": "page-disjoint Calamari test pages",
+    "alignment": "monotonic scan position; OCR text excluded",
+    "canonical_body_lines": 1314,
+    "matched_body_lines": 1312,
+    "line_detection_recall": 0.9984779299847792,
+    "unmatched_canonical_lines": [
+      "bnf-f0113/c1-l037",
+      "bnf-f0135/c2-l047"
+    ],
+    "extra_detections_inside_body_band": 78,
+    "recognition": {
+      "lines": 1312,
+      "characters": 42150,
+      "character_errors": 949,
+      "character_error_rate": 0.022514827995255043,
+      "exact_lines": 769,
+      "exact_line_rate": 0.5861280487804879,
+      "median_line_character_error_rate": 0.0,
+      "catastrophic_lines_over_50_percent_cer": 2,
+      "terminal_hyphen": {
+        "reference_positive": 202,
+        "true_positive": 171,
+        "false_negative": 31,
+        "reference_negative": 1110,
+        "true_negative": 1106,
+        "false_positive": 4
+      },
+      "marked_vowel": {
+        "reference": 673,
+        "exact": 567,
+        "same_base_wrong_mark": 86,
+        "missing_or_other": 20
+      },
+      "tilde_vowel": {
+        "reference": 341,
+        "exact": 313,
+        "same_base_wrong_mark": 18,
+        "missing_or_other": 10
+      }
+    }
+  },
+  "f161_f170_unreviewed_comparison": {
+    "pages": [
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170
+    ],
+    "alignment": "monotonic OCR/current-text alignment after independent draft generation",
+    "interpretation": "disagreement, not accuracy; the current data are human-unchecked",
+    "current_body_lines": 943,
+    "matched_body_lines": 943,
+    "line_detection_recall": 1.0,
+    "extra_detections_inside_body_band": 11,
+    "disagreement": {
+      "characters": 31837,
+      "character_edits": 1519,
+      "character_edit_rate": 0.04771178188899708,
+      "exact_lines": 327,
+      "exact_line_rate": 0.34676564156945916,
+      "median_line_character_edit_rate": 0.02702702702702703,
+      "lines_over_50_percent_edit_rate": 5
+    },
+    "most_common_strict_substitutions": [
+      {
+        "current": "F",
+        "ocr": "r",
+        "count": 46
+      },
+      {
+        "current": "ſ",
+        "ocr": "s",
+        "count": 39
+      },
+      {
+        "current": ",",
+        "ocr": ".",
+        "count": 23
+      },
+      {
+        "current": "F",
+        "ocr": "C",
+        "count": 22
+      },
+      {
+        "current": "g",
+        "ocr": "q",
+        "count": 19
+      },
+      {
+        "current": "ô",
+        "ocr": "ǒ",
+        "count": 18
+      },
+      {
+        "current": "F",
+        "ocr": "B",
+        "count": 17
+      }
+    ],
+    "geometry_conflicts_over_20_pixels": [
+      {
+        "line_id": "bnf-f0161/c1-l033",
+        "saved_centre_y": 2312,
+        "draft_candidate_id": "column-1-k035",
+        "draft_baseline_y": 2346.5,
+        "difference": 34.5,
+        "current_text": "Facanaiſa.",
+        "ocr_text": "Facanaſa."
+      }
+    ]
+  },
+  "artifacts": {
+    "script": "scripts/prepare_calamari_page_drafts.py",
+    "local_root": ".cache/ocr-model/calamari-page-drafts-v1",
+    "local_drafts": ".cache/ocr-model/calamari-page-drafts-v1/drafts",
+    "local_detailed_comparison": ".cache/ocr-model/calamari-page-drafts-v1/comparison.json"
+  },
+  "conclusion": "Suitable for provisional page initialization and geometry diagnostics, but not unattended canonical Level 1 output."
+}

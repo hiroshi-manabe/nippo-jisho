@@ -37,6 +37,8 @@ The project has also acquired NINJAL's CC BY 4.0 [Nippo Jisho Headword Data](doc
 
 The private [experimental recognition engine](docs/ocr-model.md) turns reviewed `f13`–`f150` line images into a page-disjoint training benchmark. Its selected book-specific Calamari model reaches 3.30% diplomatic character error on untouched test pages, improving substantially on the earlier TrOCR experiments while still requiring scan-based human review. The calibrated [OCR-Assisted Reading Policy](docs/ocr-assisted-reading.md) uses locally aligned feature evidence rather than treating whole-line OCR as an authority.
 
+The experimental [Calamari Page-Draft Pipeline](docs/calamari-page-drafts.md) now tests that recognizer in a genuinely page-first setting: blind line segmentation, native-scan line crops, raw OCR drafts, and a comparison layer that is opened only after inference. Its first f161–f170 trial is diagnostic output, not a replacement for the human-review workflow.
+
 ## Working principles
 
 - **Evidence remains visible.** Every reading should point back to its page and location in the source.
