@@ -59,7 +59,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l043` | &emsp;*ao uiuo na reprenſão, &c.* |  |
 | `c1-l044` | Donxei, l, donxeina. *Rude, & necio.* |  |
 | `c1-l045` | Doppito. *Adu. Modo de fazer traquina-* |  |
-| `c1-l046` | &emsp;*da. Vt,* Doppito vameite touo.u. *Paſ-* |  |
+| `c1-l046` | &emsp;*da. Vt,* Doppito vameite touo, u. *Paſ-* |  |
 | `c1-l047` | &emsp;*ſar fazendo malinaca.* |  |
 
 ## Column 2 running header

@@ -24,7 +24,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1a-l008` | Daxi. *Vt,* Forono daxi. *Maneira de pe-* |  |
 | `c1a-l009` | &emsp;*nacho, ou ornato que poem os que vão pera a* |  |
 | `c1a-l010` | &emsp;*guerra ſobre hum enchimento que leuão às coſtas* |  |
-| `c1a-l011` | &emsp;*de ſeda como diuifa. ¶* Veno daxi. *Mo-* |  |
+| `c1a-l011` | &emsp;*de ſeda como diuifa. ¶* Iyeno daxi. *Mo-* |  |
 | `c1a-l012` | &emsp;*do de varanda que ſe faz ſaida hũ pouco fora* |  |
 | `c1a-l013` | &emsp;*da caſa. ¶* Xirono daxi. *Lugar forte* |  |
 | `c1a-l014` | &emsp;*que ſe faz hum pouco fora da fortaleza.* |  |
@@ -43,7 +43,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1a-l027` | &emsp;*cembalamaz.* |  |
 | `c1a-l028` | Daxi auaxe, ſuru, xeta. *Porem muitos, ou* |  |
 | `c1a-l029` | &emsp;*darem algũa couſa ſaindo cada hum com ſeu* |  |
-| `c1a-l030` | &emsp;*pouco. ¶* Tçuuamououo daxi auaſuru. |  |
+| `c1a-l030` | &emsp;*pouco. ¶* Tçuuamonouo daxi auaſuru. |  |
 | `c1a-l031` | &emsp;*Fazer ſair gente de peleja de muitas partes.* |  |
 | `c1a-l032` | Daximono. *Couſa que ſe tira, ou poem fora.* |  |
 | `c1a-l033` | &emsp;*¶* Forono daximono. *Certa diuifa, ou* |  |
@@ -103,7 +103,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l014` | &emsp;*ſo ſoldado morreo. ¶ Item, Formãoſe com* |  |
 | `c2-l015` | &emsp;*eſta particula outros modos de falar. Vt,* Co- |  |
 | `c2-l016` | &emsp;no vyedeua naniuo xǒca? *Alem diſto q̃ po-* |  |
-| `c2-l017` | &emsp;*ſſo mais fazer, &c. ¶ Item,* De, i, E- |  |
+| `c2-l017` | &emsp;*ſſo mais fazer, &c. ¶ Item,* De. i, E- |  |
 | `c2-l018` | &emsp;ya. *Vt,* De nhǒ, &c. *Eya durmamos.* |  |
 | `c2-l019` | &emsp;*No* Cami *ſe diz, & melius* Ide. |  |
 | `c2-l020` | De, zzuru, eta. *Sair. Melius,* Ide, izzu- |  |

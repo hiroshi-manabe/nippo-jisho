@@ -23,7 +23,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l007` | &emsp;gacumon ſuru. *Eſtudar hũ ſó. ¶* Do- |  |
 | `c1-l008` | &emsp;cugacu catǒni xite eſqi ſucunaxi. *O q̃* |  |
 | `c1-l009` | &emsp;*eſtuda ſó canſa, & aprende pouco.* |  |
-| `c1-l010` | Docugai. i. Docunite corosu. *Matar com* |  |
+| `c1-l010` | Docugai. i. Docunite coroſu. *Matar com* |  |
 | `c1-l011` | &emsp;*peçonha. Vt,* Docugaito ſuru. |  |
 | `c1-l012` | Docuguin. Fitori guinzuru. *Cantar hum ſó* |  |
 | `c1-l013` | &emsp;*como meditando o que canta. ¶ Item, cõ-* |  |
@@ -42,7 +42,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l026` | &emsp;*Inferno.* |  |
 | `c1-l027` | Docuracu. Fitori tanoximu. *Gozarſe hum* |  |
 | `c1-l028` | &emsp;*ſó. ¶* Docuracuna fito. *Homem que elle* |  |
-| `c1-l029` | &emsp;*ſó ſe goza, & de alegra ſem communicar o pra-* |  |
+| `c1-l029` | &emsp;*ſó ſe goza, & alegra ſem communicar o pra-* |  |
 | `c1-l030` | &emsp;*zer aos outros.* |  |
 | `c1-l031` | Docuriù. Docuno tatçu. *Lagarto peço-* |  |
 | `c1-l032` | &emsp;*nhento.* |  |
@@ -56,8 +56,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l040` | &emsp;*deſemparada ſem abrigo, & fauor de outros.* |  |
 | `c1-l041` | Docuxo. Xono yomu. *O ler eſcrituras, ou* |  |
 | `c1-l042` | &emsp;*liuros.* |  |
-| `c1-l043` | Docuxǒ. Te fitotçu, l, catate. *Hũa ſco-* |  |
-| `c1-l044` | &emsp;*mão, ou ſalmada mão. ¶* Docuxǒ mi- |  |
+| `c1-l043` | Docuxǒ. Te fitotçu, l, catate. *Hũa ſo* |  |
+| `c1-l044` | &emsp;*mão, ou palma da mão. ¶* Docuxǒ mi- |  |
 | `c1-l045` | &emsp;darini narazu. *Quando hum quer dous não* |  |
 | `c1-l046` | &emsp;*pellejão. Aſsi com hũa mão, por mais que* |  |
 | `c1-l047` | &emsp;*ſe moua no ar, não ſoa ſem bater na outra ſal-* |  |
@@ -91,7 +91,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l016` | &emsp;ſu. *Ir em companhia.* |  |
 | `c2-l017` | Dôdo. *Adu. Modo de cair. Vt,* Dôdo |  |
 | `c2-l018` | &emsp;votçuru. *¶* Vmaua coſizauo votte dô- |  |
-| `c2-l019` | &emsp;do ſuru. Taiſ*. Lib. 29. O caualo do-* |  |
+| `c2-l019` | &emsp;do ſuru. Taif*. Lib. 29. O caualo do-* |  |
 | `c2-l020` | &emsp;*brando os joelhos deitaſe.* |  |
 | `c2-l021` | Dodomecaxi, ſu, aita. *Fazer traquina-* |  |
 | `c2-l022` | &emsp;*da, ou reboliço.* |  |
