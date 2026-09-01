@@ -243,7 +243,7 @@ equal(q.align('foo, bar.', 'foo bar.').deletions.map(item => [item.character, it
         self.assertEqual(
             counts,
             {
-                "bnf-f0154": 0,
+                "bnf-f0154": 8,
                 "bnf-f0155": 3,
                 "bnf-f0156": 9,
                 "bnf-f0157": 13,
@@ -289,12 +289,14 @@ equal(q.align('foo, bar.', 'foo bar.').deletions.map(item => [item.character, it
             f155_lines["c1a-l007"]["machine_suggestions"],
             ["ocr_terminal_hyphen"],
         )
-        self.assertFalse(
-            any(
-                "machine_suggestions" in line
-                for zone in pages["bnf-f0154"]["zones"]
-                for line in zone["lines"]
-            )
+        f154_lines = {
+            line["id"]: line
+            for zone in pages["bnf-f0154"]["zones"]
+            for line in zone["lines"]
+        }
+        self.assertEqual(
+            f154_lines["c1-l014"]["machine_suggestions"],
+            ["ocr_terminal_hyphen"],
         )
 
     def test_line_editor_supports_paired_lightweight_typeface_spans(self):

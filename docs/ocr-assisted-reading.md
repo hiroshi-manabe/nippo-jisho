@@ -48,11 +48,13 @@ repeated. Leaving the deletion in place submits an ordinary schema-2
 `before`/`after` correction. Neither the OCR evidence nor its internal marker
 changes the Issue format or the canonical transcription without human review.
 
-The first generated batch contains 34 proposals: none on `f154`, 3 on `f155`,
-9 on `f156`, 13 on `f157`, 1 on `f158`, 5 on `f159`, and 3 on `f160`. The empty
-`f154` result is deliberate: its OCR omissions did not recognize enough of the
-assigned line to qualify as local evidence. The reproducible evidence and raw
-route strings are recorded in
+The corrected first batch contains 42 proposals: 8 on `f154`, 3 on `f155`, 9
+on `f156`, 13 on `f157`, 1 on `f158`, 5 on `f159`, and 3 on `f160`. The first
+`f154` run had produced no proposals because its inherited crops were displaced
+from their assigned physical rows. After all 94 body-line crops were realigned
+and visually checked, the same qualification rule admitted eight locally
+aligned disagreements. The reproducible evidence and raw route strings are
+recorded in
 [`ocr-hyphen-suggestions.json`](../pilot/human-review/ocr-hyphen-suggestions.json).
 
 ## Shared geometry, separate renderings
