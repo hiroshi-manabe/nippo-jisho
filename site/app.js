@@ -1,5 +1,5 @@
-const state = { corpus: null, byLeaf: new Map(), currentPage: null, unit: 'page', edits: {}, submissions: {}, workspacesLoaded: new Set(), staleDraft: null };
-const WORKSPACE_SCHEMA = 3;
+const state = { corpus: null, byLeaf: new Map(), currentPage: null, unit: 'page', edits: {}, suggestionDismissals: {}, submissions: {}, workspacesLoaded: new Set(), staleDraft: null };
+const WORKSPACE_SCHEMA = 4;
 const previewImageCache = new Map();
 const hdImageCache = new Map();
 const hdFailures = new Map();
@@ -204,8 +204,39 @@ function editStorageKey(page) { return `nippo-edits:${page.page_id}`; }
 function submissionStorageKey(page) { return `nippo-submission:${page.page_id}`; }
 
 function saveWorkspace(page) {
-  localStorage.setItem(editStorageKey(page), JSON.stringify({schema: WORKSPACE_SCHEMA, transcription_version: page.transcription_version, edits: state.edits[page.page_id]}));
+  localStorage.setItem(editStorageKey(page), JSON.stringify({schema: WORKSPACE_SCHEMA, transcription_version: page.transcription_version, edits: state.edits[page.page_id], dismissed_suggestions: [...(state.suggestionDismissals[page.page_id] || [])]}));
   localStorage.setItem(submissionStorageKey(page), JSON.stringify({schema: WORKSPACE_SCHEMA, transcription_version: page.transcription_version, status: state.submissions[page.page_id].status}));
+}
+
+function suggestionDismissalKey(line, kind) {
+  return `${line.id}:${kind}:${line.transcription_version}`;
+}
+
+function dismissMachineSuggestion(page, line, kind) {
+  if (!kind) return;
+  state.suggestionDismissals[page.page_id].add(suggestionDismissalKey(line, kind));
+}
+
+function seedMachineSuggestions(page) {
+  const edits = state.edits[page.page_id];
+  const dismissed = state.suggestionDismissals[page.page_id];
+  for (const line of page.zones.flatMap(zone => zone.lines)) {
+    if (edits[line.id]) continue;
+    for (const kind of line.machine_suggestions || []) {
+      if (dismissed.has(suggestionDismissalKey(line, kind))) continue;
+      if (kind === 'ocr_terminal_hyphen' && line.text.endsWith('-')) {
+        edits[line.id] = {
+          before: line.text,
+          after: line.text.slice(0, -1),
+          comment: '',
+          second_opinion: false,
+          second_opinion_manual: false,
+          base_line_version: line.transcription_version,
+          machine_suggestion: kind,
+        };
+      }
+    }
+  }
 }
 
 function requestsSecondOpinion(edit) {
@@ -319,6 +350,11 @@ function loadPageWorkspace(page) {
   const storedVersion = isEnvelope ? storedEdits.transcription_version : page.transcription_version;
   const versionChanged = Boolean(storedVersion && page.transcription_version && storedVersion !== page.transcription_version);
   state.edits[page.page_id] = edits;
+  state.suggestionDismissals[page.page_id] = new Set(
+    isEnvelope && Array.isArray(storedEdits.dismissed_suggestions)
+      ? storedEdits.dismissed_suggestions
+      : []
+  );
   state.submissions[page.page_id] = {status};
   state.workspacesLoaded.add(page.page_id);
   if (versionChanged) {
@@ -329,10 +365,12 @@ function loadPageWorkspace(page) {
       state.submissions[page.page_id] = {status: 'draft'};
     }
     if (Object.keys(orphaned).length) {
+      seedMachineSuggestions(page);
       state.staleDraft = {page, version: storedVersion, edits: orphaned};
       queueMicrotask(showStaleDraftWarning);
       return;
     }
+    seedMachineSuggestions(page);
     saveWorkspace(page);
     return;
   }
@@ -341,6 +379,7 @@ function loadPageWorkspace(page) {
     const line = lines.get(lineId);
     if (line && !edit.base_line_version && edit.before === line.text) edit.base_line_version = line.transcription_version;
   }
+  seedMachineSuggestions(page);
   if (!isEnvelope || storedEdits.schema !== WORKSPACE_SCHEMA || storedSubmission?.schema !== WORKSPACE_SCHEMA) saveWorkspace(page);
 }
 
@@ -634,14 +673,19 @@ function quickCharacterHTML(character, index, baseIndex, changed, line, proposal
   return `<span class="${classes.join(' ')}"${attributes}>${output}</span>`;
 }
 
-function quickDeletedHTML(deletion) {
+function quickDeletedHTML(deletion, machineSuggestion, line) {
   if (!NippoQuickEdit.DELETABLE.has(deletion.character)) return '<span class="quick-omission" aria-label="Deleted text">∅</span>';
   const label = deletion.character === ' ' ? '␠' : deletion.character;
   const name = deletion.character === ' ' ? 'space' : deletion.character;
-  return `<span class="quick-deleted" role="button" tabindex="0" data-quick-action="restore" data-index="${deletion.currentIndex}" data-character="${escapeHTML(deletion.character)}" title="Restore ${escapeHTML(name)}" aria-label="Restore deleted ${escapeHTML(name)}">${escapeHTML(label)}</span>`;
+  const suggested = machineSuggestion === 'ocr_terminal_hyphen'
+    && deletion.character === '-'
+    && deletion.beforeIndex === line.text.length - 1;
+  const classes = `quick-deleted${suggested ? ' quick-suggested' : ''}`;
+  const title = suggested ? 'Restore hyphen · OCR suggested that no mark is printed' : `Restore ${name}`;
+  return `<span class="${classes}" role="button" tabindex="0" data-quick-action="restore" data-index="${deletion.currentIndex}" data-character="${escapeHTML(deletion.character)}" title="${escapeHTML(title)}" aria-label="Restore deleted ${escapeHTML(name)}">${escapeHTML(label)}</span>`;
 }
 
-function interactiveLineHTML(line, annotatedText, nasalRestorations = []) {
+function interactiveLineHTML(line, annotatedText, nasalRestorations = [], machineSuggestion = null) {
   const proposal = NippoQuickEdit.parse(annotatedText);
   if (!proposal.valid) return styledVisualDiff(line, annotatedText);
   const alignment = NippoQuickEdit.align(line.text, proposal.text);
@@ -654,7 +698,7 @@ function interactiveLineHTML(line, annotatedText, nasalRestorations = []) {
   }
   let output = '';
   for (let index = 0; index <= proposal.characters.length; index++) {
-    output += (deletions.get(index) || []).map(quickDeletedHTML).join('');
+    output += (deletions.get(index) || []).map(deletion => quickDeletedHTML(deletion, machineSuggestion, line)).join('');
     if (index < proposal.characters.length) {
       output += quickCharacterHTML(proposal.characters[index].character, index, alignment.currentToBase[index], alignment.changed[index], line, proposal, typefaces, restorations.get(index));
     }
@@ -666,8 +710,8 @@ function lineHTML(page, line) {
   const edit = pageEdits(page)[line.id];
   const current = edit ? edit.after : line.text;
   const comment = edit?.comment || '';
-  const markers = `${edit?.base_changed ? '<span class="review-marker">Base updated</span>' : ''}${edit?.comment_review_needed ? '<span class="review-marker comment-marker">Comment needs review</span>' : ''}${requestsSecondOpinion(edit) ? '<span class="review-marker opinion-marker">Second opinion</span>' : ''}`;
-  return `<article class="line-row ${edit ? 'changed' : ''} ${edit?.base_changed ? 'rebased' : ''}" data-line="${line.id}"><div class="line-head"><code>${line.id}</code>${markers}<button class="context-toggle" type="button" aria-expanded="false">Show context</button></div><button class="line-crop" type="button" style="aspect-ratio:${line.crop[2]}/${line.crop[3]}" data-crop='${JSON.stringify(line.crop)}' data-context='${JSON.stringify(line.context_crop)}' aria-label="Show context for ${line.id}"><img loading="lazy" data-iiif-page alt="" style="width:${page.width / line.crop[2] * 100}%;transform:translate(${-line.crop[0] / page.width * 100}% ,${-line.crop[1] / page.height * 100}%)"></button><div class="line-text-row" title="Click beside the text for the full editor"><div class="line-text indent-${line.indent}">${interactiveLineHTML(line, current, edit?.nasal_restorations)}</div>${comment ? `<button class="comment-preview" type="button" data-action="edit" title="${escapeHTML(comment)}">${escapeHTML(comment)}</button>` : ''}</div></article>`;
+  const markers = `${edit?.machine_suggestion === 'ocr_terminal_hyphen' ? '<span class="review-marker suggestion-marker">OCR: no hyphen</span>' : ''}${edit?.base_changed ? '<span class="review-marker">Base updated</span>' : ''}${edit?.comment_review_needed ? '<span class="review-marker comment-marker">Comment needs review</span>' : ''}${requestsSecondOpinion(edit) ? '<span class="review-marker opinion-marker">Second opinion</span>' : ''}`;
+  return `<article class="line-row ${edit ? 'changed' : ''} ${edit?.machine_suggestion ? 'suggested' : ''} ${edit?.base_changed ? 'rebased' : ''}" data-line="${line.id}"><div class="line-head"><code>${line.id}</code>${markers}<button class="context-toggle" type="button" aria-expanded="false">Show context</button></div><button class="line-crop" type="button" style="aspect-ratio:${line.crop[2]}/${line.crop[3]}" data-crop='${JSON.stringify(line.crop)}' data-context='${JSON.stringify(line.context_crop)}' aria-label="Show context for ${line.id}"><img loading="lazy" data-iiif-page alt="" style="width:${page.width / line.crop[2] * 100}%;transform:translate(${-line.crop[0] / page.width * 100}% ,${-line.crop[1] / page.height * 100}%)"></button><div class="line-text-row" title="Click beside the text for the full editor"><div class="line-text indent-${line.indent}">${interactiveLineHTML(line, current, edit?.nasal_restorations, edit?.machine_suggestion)}</div>${comment ? `<button class="comment-preview" type="button" data-action="edit" title="${escapeHTML(comment)}">${escapeHTML(comment)}</button>` : ''}</div></article>`;
 }
 
 function setCrop(row, expanded) {
@@ -765,8 +809,10 @@ function saveEditor(form) {
   }
   const existing = pageEdits(state.currentPage)[line.id];
   const nasalRestorations = existing?.after === after ? existing.nasal_restorations : undefined;
-  if (proposalMatchesLine(line, after) && !comment && !secondOpinion) delete pageEdits(state.currentPage)[line.id];
-  else pageEdits(state.currentPage)[line.id] = {before: line.text, after, comment, second_opinion: secondOpinion, second_opinion_manual: secondOpinionManual, base_line_version: line.transcription_version, ...(nasalRestorations?.length ? {nasal_restorations: nasalRestorations} : {})};
+  const matchesLine = proposalMatchesLine(line, after);
+  if (matchesLine) dismissMachineSuggestion(state.currentPage, line, existing?.machine_suggestion);
+  if (matchesLine && !comment && !secondOpinion) delete pageEdits(state.currentPage)[line.id];
+  else pageEdits(state.currentPage)[line.id] = {before: line.text, after, comment, second_opinion: secondOpinion, second_opinion_manual: secondOpinionManual, base_line_version: line.transcription_version, ...(!matchesLine && existing?.machine_suggestion ? {machine_suggestion: existing.machine_suggestion} : {}), ...(nasalRestorations?.length ? {nasal_restorations: nasalRestorations} : {})};
   persistEdits(state.currentPage);
   return true;
 }
@@ -892,6 +938,7 @@ function applyQuickEdit(row, control) {
   const comment = existing?.comment || '';
   const secondOpinion = Boolean(existing?.second_opinion);
   if (proposalMatchesLine(line, after) && !comment && !secondOpinion) {
+    dismissMachineSuggestion(state.currentPage, line, existing?.machine_suggestion);
     delete pageEdits(state.currentPage)[lineId];
   } else {
     pageEdits(state.currentPage)[lineId] = {
@@ -946,7 +993,7 @@ document.addEventListener('click', event => {
     if (event.target.closest('[data-action="edit"]')) return openEditor(row);
     if (event.target.closest('.line-text-row') && !event.target.closest('.line-text > *')) return openEditor(row);
     if (event.target.closest('[data-action="cancel"]')) { row.querySelector('.edit-form').remove(); return; }
-    if (event.target.closest('[data-action="revert"]')) { delete pageEdits(state.currentPage)[row.dataset.line]; persistEdits(state.currentPage); renderPageContent(); return; }
+    if (event.target.closest('[data-action="revert"]')) { const line = lineById(row.dataset.line); const edit = pageEdits(state.currentPage)[row.dataset.line]; dismissMachineSuggestion(state.currentPage, line, edit?.machine_suggestion); delete pageEdits(state.currentPage)[row.dataset.line]; persistEdits(state.currentPage); renderPageContent(); return; }
   }
 });
 
@@ -981,7 +1028,7 @@ $('#previous').addEventListener('click', () => showPage(state.currentPage.leaf -
 $('#next').addEventListener('click', () => showPage(state.currentPage.leaf + 1, state.unit));
 function go() { const leaf = Number($('#leaf-input').value); if (state.byLeaf.has(leaf)) showPage(leaf, state.unit); }
 $('#go').addEventListener('click', go); $('#leaf-input').addEventListener('keydown', event => { if (event.key === 'Enter') go(); });
-$('#discard-all').addEventListener('click', () => { if (!confirm('Discard all proposed corrections for this page?')) return; state.edits[state.currentPage.page_id] = {}; persistSubmission(state.currentPage, 'draft'); persistEdits(state.currentPage, true); renderPageContent(); });
+$('#discard-all').addEventListener('click', () => { if (!confirm('Discard all proposed corrections for this page?')) return; for (const [lineId, edit] of Object.entries(pageEdits(state.currentPage))) dismissMachineSuggestion(state.currentPage, lineById(lineId), edit.machine_suggestion); state.edits[state.currentPage.page_id] = {}; persistSubmission(state.currentPage, 'draft'); persistEdits(state.currentPage, true); renderPageContent(); });
 $('#submit').addEventListener('click', submitCorrections);
 $('#submit-not-yet').addEventListener('click', () => persistSubmission(state.currentPage, 'draft'));
 $('#mark-submitted').addEventListener('click', () => persistSubmission(state.currentPage, 'submitted'));

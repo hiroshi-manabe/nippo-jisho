@@ -100,7 +100,13 @@ def transcription_version(zones: list[dict]) -> str:
     )
 
 
-def processed_page(page: dict, config: dict, review: dict, geometry: dict) -> dict:
+def processed_page(
+    page: dict,
+    config: dict,
+    review: dict,
+    geometry: dict,
+    machine_suggestions: dict[str, dict],
+) -> dict:
     columns = geometry.get("columns", {})
     if not columns:
         raise RuntimeError(f"missing reviewed geometry for {page['id']}")
@@ -149,6 +155,13 @@ def processed_page(page: dict, config: dict, review: dict, geometry: dict) -> di
             output_line["transcription_version"] = content_hash(
                 transcription_line_data(output_line)
             )
+            suggestion = machine_suggestions.get(line["id"])
+            if (
+                suggestion
+                and suggestion.get("source_text") == output_line["text"]
+                and output_line["text"].endswith("-")
+            ):
+                output_line["machine_suggestions"] = [suggestion["kind"]]
             if zone["kind"] == "column":
                 if line["id"] not in explicit_lines:
                     raise RuntimeError(f"missing explicit geometry for {page['id']}/{line['id']}")
@@ -233,6 +246,15 @@ def main() -> int:
     corrections = {page["id"]: page for page in correction_record["pages"]}
     geometry_record = load_json(root / "pilot/human-review/line-geometry.json")
     geometries = {page["id"]: page for page in geometry_record["pages"]}
+    suggestion_record = load_json(
+        root / "pilot/human-review/ocr-hyphen-suggestions.json"
+    )
+    machine_suggestions = {
+        page["id"]: {
+            suggestion["line"]: suggestion for suggestion in page["suggestions"]
+        }
+        for page in suggestion_record["pages"]
+    }
     level1_dir = root / "pilot/format-v1-trial/level1"
     pages = []
     for image_record in image_records:
@@ -261,6 +283,7 @@ def main() -> int:
                     config.get(page_id, {}),
                     reviews.get(page_id, {}),
                     geometries.get(page_id, {}),
+                    machine_suggestions.get(page_id, {}),
                 )
             )
             page["source"] = f"https://github.com/{args.repository}/blob/{commit}/pilot/format-v1-trial/level1-source/{page_id}.md"

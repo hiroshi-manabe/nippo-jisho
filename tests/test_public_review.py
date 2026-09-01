@@ -227,6 +227,76 @@ equal(q.align('foo, bar.', 'foo bar.').deletions.map(item => [item.character, it
         )
         self.assertEqual(result.returncode, 0, result.stderr)
 
+    def test_qualified_ocr_hyphen_suggestions_seed_reversible_edits(self):
+        suggestions = json.loads(
+            (
+                ROOT
+                / "pilot"
+                / "human-review"
+                / "ocr-hyphen-suggestions.json"
+            ).read_text(encoding="utf-8")
+        )
+        counts = {
+            page["id"]: len(page["suggestions"])
+            for page in suggestions["pages"]
+        }
+        self.assertEqual(
+            counts,
+            {
+                "bnf-f0154": 0,
+                "bnf-f0155": 3,
+                "bnf-f0156": 9,
+                "bnf-f0157": 13,
+                "bnf-f0158": 1,
+                "bnf-f0159": 5,
+                "bnf-f0160": 3,
+            },
+        )
+        app = (ROOT / "site" / "app.js").read_text(encoding="utf-8")
+        styles = (ROOT / "site" / "styles.css").read_text(encoding="utf-8")
+        workflow = (ROOT / "docs" / "human-review-workflow.md").read_text(
+            encoding="utf-8"
+        )
+        self.assertIn("function seedMachineSuggestions(page)", app)
+        self.assertIn("dismissed_suggestions", app)
+        self.assertIn("OCR: no hyphen", app)
+        self.assertIn("quick-suggested", styles)
+        self.assertIn("ordinary correction", workflow)
+
+        with tempfile.TemporaryDirectory() as directory:
+            result = subprocess.run(
+                [
+                    "python3",
+                    str(ROOT / "scripts" / "build_public_review.py"),
+                    "--output",
+                    directory,
+                ],
+                cwd=ROOT,
+                capture_output=True,
+                text=True,
+            )
+            self.assertEqual(result.returncode, 0, result.stderr)
+            corpus = json.loads(
+                (Path(directory) / "corpus.json").read_text(encoding="utf-8")
+            )
+        pages = {page["page_id"]: page for page in corpus["pages"]}
+        f155_lines = {
+            line["id"]: line
+            for zone in pages["bnf-f0155"]["zones"]
+            for line in zone["lines"]
+        }
+        self.assertEqual(
+            f155_lines["c1a-l007"]["machine_suggestions"],
+            ["ocr_terminal_hyphen"],
+        )
+        self.assertFalse(
+            any(
+                "machine_suggestions" in line
+                for zone in pages["bnf-f0154"]["zones"]
+                for line in zone["lines"]
+            )
+        )
+
     def test_line_editor_supports_paired_lightweight_typeface_spans(self):
         app = (ROOT / "site" / "app.js").read_text(encoding="utf-8")
         styles = (ROOT / "site" / "styles.css").read_text(encoding="utf-8")
@@ -501,7 +571,7 @@ equal(q.align('foo, bar.', 'foo bar.').deletions.map(item => [item.character, it
         document = (ROOT / "site" / "index.html").read_text(encoding="utf-8")
         builder = (ROOT / "scripts" / "build_public_review.py").read_text(encoding="utf-8")
         self.assertIn('"transcription_version": transcription_version(zones)', builder)
-        self.assertIn("const WORKSPACE_SCHEMA = 3", app)
+        self.assertIn("const WORKSPACE_SCHEMA = 4", app)
         self.assertIn("function reconcileEdits(page, edits)", app)
         self.assertIn("comment_review_needed", app)
         self.assertIn("base_line_version", app)

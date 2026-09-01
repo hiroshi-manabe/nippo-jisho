@@ -28,6 +28,33 @@ transcriber investigates plausible readings, not what Level 1 is allowed to
 record. Later explicit human scan confirmation supersedes every machine
 preference.
 
+## Reversible terminal-hyphen proposals
+
+Beginning with the `f154`–`f160` review batch, a narrowly qualified OCR
+disagreement may initialize an ordinary review edit. The canonical line must
+end in `-`; at least one current-geometry OCR route must omit that final mark;
+and the same route must recognize the surrounding line at or above 0.65
+normalized character similarity after a possible terminal punctuation
+confusion is set aside. Garbled or neighboring-row OCR does not qualify. The
+normal review crop and a conservative isolated crop use the same checkpoint,
+so agreement between them measures geometry stability rather than supplying
+independent votes.
+
+An eligible line opens with the hyphen provisionally deleted and a visible
+`OCR: no hyphen` marker. The deletion marker remains at the original position;
+clicking it restores the printed-hyphen hypothesis. A restoration is remembered
+for that exact line version, including across reloads, so the suggestion is not
+repeated. Leaving the deletion in place submits an ordinary schema-2
+`before`/`after` correction. Neither the OCR evidence nor its internal marker
+changes the Issue format or the canonical transcription without human review.
+
+The first generated batch contains 34 proposals: none on `f154`, 3 on `f155`,
+9 on `f156`, 13 on `f157`, 1 on `f158`, 5 on `f159`, and 3 on `f160`. The empty
+`f154` result is deliberate: its OCR omissions did not recognize enough of the
+assigned line to qualify as local evidence. The reproducible evidence and raw
+route strings are recorded in
+[`ocr-hyphen-suggestions.json`](../pilot/human-review/ocr-hyphen-suggestions.json).
+
 ## Shared geometry, separate renderings
 
 Each stable physical-line ID should ultimately have one verified source-image

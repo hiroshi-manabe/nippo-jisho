@@ -1,0 +1,679 @@
+{
+  "format": "nippo-ocr-hyphen-suggestions",
+  "format_version": 1,
+  "generated_from_commit": "2994131f03416b9f56e1a364d663082be10c7f87",
+  "page_range": [
+    154,
+    160
+  ],
+  "minimum_local_similarity": 0.65,
+  "policy": "A missing terminal hyphen is proposed only when at least one OCR route omits it and recognizes the surrounding physical line above the local similarity threshold. Routes from the same checkpoint are geometry tests, not independent votes. Every proposal remains reversible human-review data.",
+  "pages": [
+    {
+      "id": "bnf-f0154",
+      "suggestions": []
+    },
+    {
+      "id": "bnf-f0155",
+      "suggestions": [
+        {
+          "line": "c1a-l007",
+          "kind": "ocr_terminal_hyphen",
+          "source_text": "Detachi ſumaxi, u, aita. Veſtirſe, ou or-",
+          "suggested_after": "Detachi ſumaxi, u, aita. Veſtirſe, ou or",
+          "evidence": [
+            {
+              "route": "canonical_review_crop",
+              "recognized": "Detachi ſumaxi, ¶ ¶, aita. Verſaſe, ou ore",
+              "similarity": 0.8095,
+              "terminal_hyphen": false
+            },
+            {
+              "route": "isolated_conservative_crop",
+              "recognized": "Detachi ſumaxi, u, aita. Verſaſe, ou orore",
+              "similarity": 0.8333,
+              "terminal_hyphen": false
+            }
+          ]
+        },
+        {
+          "line": "c1b-l025",
+          "kind": "ocr_terminal_hyphen",
+          "source_text": "Dobumeqi, qu, ita. Chacalhar, ou ſoar a-",
+          "suggested_after": "Dobumeqi, qu, ita. Chacalhar, ou ſoar a",
+          "evidence": [
+            {
+              "route": "canonical_review_crop",
+              "recognized": "Dol umoqi, qu, ita. Chocallhar, ou ſoar a",
+              "similarity": 0.878,
+              "terminal_hyphen": false
+            }
+          ]
+        },
+        {
+          "line": "c2-l046",
+          "kind": "ocr_terminal_hyphen",
+          "source_text": "gar a peçonha com contra peçonha. ¶ Do-",
+          "suggested_after": "gar a peçonha com contra peçonha. ¶ Do",
+          "evidence": [
+            {
+              "route": "canonical_review_crop",
+              "recognized": "gar apigonha com contra proinha. ¶ U2-1",
+              "similarity": 0.7436,
+              "terminal_hyphen": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bnf-f0156",
+      "suggestions": [
+        {
+          "line": "c1-l004",
+          "kind": "ocr_terminal_hyphen",
+          "source_text": "Docudachi. Guardar o dente a boca de come-",
+          "suggested_after": "Docudachi. Guardar o dente a boca de come",
+          "evidence": [
+            {
+              "route": "canonical_review_crop",
+              "recognized": "De cuidachi. Guiro. tciente a boca de come-",
+              "similarity": 0.7442,
+              "terminal_hyphen": true
+            },
+            {
+              "route": "isolated_conservative_crop",
+              "recognized": "Decudachi. Guide. ¶ Cecente a boca de comer",
+              "similarity": 0.7674,
+              "terminal_hyphen": false
+            }
+          ]
+        },
+        {
+          "line": "c2-l006",
+          "kind": "ocr_terminal_hyphen",
+          "source_text": "dra, ſobre os quais ficão o de mais madeira-",
+          "suggested_after": "dra, ſobre os quais ficão o de mais madeira",
+          "evidence": [
+            {
+              "route": "canonical_review_crop",
+              "recognized": "bra, ſobre os quais fucão o de mais n.",
+              "similarity": 0.7907,
+              "terminal_hyphen": false
+            },
+            {
+              "route": "isolated_conservative_crop",
+              "recognized": "bra, ſobre os quais fucao o de mais m.",
+              "similarity": 0.7907,
+              "terminal_hyphen": false
+            }
+          ]
+        },
+        {
+          "line": "c2-l007",
+          "kind": "ocr_terminal_hyphen",
+          "source_text": "mento. ¶ Dodai, l, Iibucuuo fiqu. Aſſen-",
+          "suggested_after": "mento. ¶ Dodai, l, Iibucuuo fiqu. Aſſen",
+          "evidence": [
+            {
+              "route": "canonical_review_crop",
+              "recognized": "mento. ¶ Dudai, l, Libucuuo fiqu. Aqe",
+              "similarity": 0.8718,
+              "terminal_hyphen": false
+            },
+            {
+              "route": "isolated_conservative_crop",
+              "recognized": "mento. ¶ Dodai.",
+              "similarity": 0.359,
+              "terminal_hyphen": false
+            }
+          ]
+        },
+        {
+          "line": "c2-l015",
+          "kind": "ocr_terminal_hyphen",
+          "source_text": "Ir em companhia. ¶ Dôdǒſuru, l, mǒ-",
+          "suggested_after": "Ir em companhia. ¶ Dôdǒſuru, l, mǒ",
+          "evidence": [
+            {
+              "route": "canonical_review_crop",
+              "recognized": "Ir em compunha. ¶ Dodoſuru, l, mǒ.",
+              "similarity": 0.8824,
+              "terminal_hyphen": false
+            },
+            {
+              "route": "isolated_conservative_crop",
+              "recognized": "Er em companhia. ¶ Dodoſuru, l, mǒ.",
+              "similarity": 0.9118,
+              "terminal_hyphen": false
+            }
+          ]
+        },
+        {
+          "line": "c2-l018",
+          "kind": "ocr_terminal_hyphen",
+          "source_text": "votçuru. ¶ Vmaua coſizauo votte dô-",
+          "suggested_after": "votçuru. ¶ Vmaua coſizauo votte dô",
+          "evidence": [
+            {
+              "route": "canonical_review_crop",
+              "recognized": "votçura. ¶ Vmaua cofizano votre do",
+              "similarity": 0.8529,
+              "terminal_hyphen": false
+            },
+            {
+              "route": "isolated_conservative_crop",
+              "recognized": "Vorçura. ¶ Vmaua conzauo votre doô",
+              "similarity": 0.7941,
+              "terminal_hyphen": false
+            }
+          ]
+        },
+        {
+          "line": "c2-l019",
+          "kind": "ocr_terminal_hyphen",
+          "source_text": "do ſuru. Taif. Lib. 29. O caualo do-",
+          "suggested_after": "do ſuru. Taif. Lib. 29. O caualo do",
+          "evidence": [
+            {
+              "route": "canonical_review_crop",
+              "recognized": "do fuſuſa. Tarſ. Lib. ¶ zel o caualo do",
+              "similarity": 0.6923,
+              "terminal_hyphen": false
+            },
+            {
+              "route": "isolated_conservative_crop",
+              "recognized": "do fuſuſa. Tarf. Lib. 29. O caualo do",
+              "similarity": 0.8649,
+              "terminal_hyphen": false
+            }
+          ]
+        },
+        {
+          "line": "c2-l025",
+          "kind": "ocr_terminal_hyphen",
+          "source_text": "Dôfai, l, Tôfai. Vonaji tomogara. Compa-",
+          "suggested_after": "Dôfai, l, Tôfai. Vonaji tomogara. Compa",
+          "evidence": [
+            {
+              "route": "canonical_review_crop",
+              "recognized": "Dôfai, l, Tofai. vonaji tom.gara. Compe",
+              "similarity": 0.8974,
+              "terminal_hyphen": false
+            },
+            {
+              "route": "isolated_conservative_crop",
+              "recognized": "Dôfai, l, Tofai. vonaji tom.gara. Compa",
+              "similarity": 0.9231,
+              "terminal_hyphen": false
+            }
+          ]
+        },
+        {
+          "line": "c2-l030",
+          "kind": "ocr_terminal_hyphen",
+          "source_text": "Dôfen. Vonaji rei. O meſmo modo, ou cou-",
+          "suggested_after": "Dôfen. Vonaji rei. O meſmo modo, ou cou",
+          "evidence": [
+            {
+              "route": "canonical_review_crop",
+              "recognized": "Dorem. Venajitei. O meſno mido, ou cou",
+              "similarity": 0.7949,
+              "terminal_hyphen": false
+            },
+            {
+              "route": "isolated_conservative_crop",
+              "recognized": "Doren. Venajarei. O meſno mcão, ou con",
+              "similarity": 0.7692,
+              "terminal_hyphen": false
+            }
+          ]
+        },
+        {
+          "line": "c2-l039",
+          "kind": "ocr_terminal_hyphen",
+          "source_text": "Dôfit. Vonaji fude. A meſma letra, ou a-",
+          "suggested_after": "Dôfit. Vonaji fude. A meſma letra, ou a",
+          "evidence": [
+            {
+              "route": "canonical_review_crop",
+              "recognized": "Dǒ fit. Venaji ſude. Ameſmalalera, ou a-",
+              "similarity": 0.775,
+              "terminal_hyphen": true
+            },
+            {
+              "route": "isolated_conservative_crop",
+              "recognized": "Dǒ fiti. Vonaji ſude. Ameſmalaſerra, ou ao",
+              "similarity": 0.7619,
+              "terminal_hyphen": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bnf-f0157",
+      "suggestions": [
+        {
+          "line": "c1-l003",
+          "kind": "ocr_terminal_hyphen",
+          "source_text": "Dôgacu. Vonajicu manabu. O eſtudar ju-",
+          "suggested_after": "Dôgacu. Vonajicu manabu. O eſtudar ju",
+          "evidence": [
+            {
+              "route": "canonical_review_crop",
+              "recognized": "Dôgaǒu. Vonai cu manabu. O eſtudaria.",
+              "similarity": 0.8378,
+              "terminal_hyphen": false
+            },
+            {
+              "route": "isolated_conservative_crop",
+              "recognized": "Dôzacu. Vontaj cu manabu. O eſtuoaria.",
+              "similarity": 0.8108,
+              "terminal_hyphen": false
+            }
+          ]
+        },
+        {
+          "line": "c1-l007",
+          "kind": "ocr_terminal_hyphen",
+          "source_text": "Eſtudo, ou ſciencia do principal, & ſubſtan-",
+          "suggested_after": "Eſtudo, ou ſciencia do principal, & ſubſtan",
+          "evidence": [
+            {
+              "route": "canonical_review_crop",
+              "recognized": "Enado, ou ſciencia do princ pal, & ſubitas-",
+              "similarity": 0.8372,
+              "terminal_hyphen": true
+            },
+            {
+              "route": "isolated_conservative_crop",
+              "recognized": "Eſtado, ou ſcien.is do princ. pal, & ſubitas",
+              "similarity": 0.8409,
+              "terminal_hyphen": false
+            }
+          ]
+        },
+        {
+          "line": "c1-l028",
+          "kind": "ocr_terminal_hyphen",
+          "source_text": "Dôgin. Vt, Vaquǒ dôgin. Ficaritoya u-",
+          "suggested_after": "Dôgin. Vt, Vaquǒ dôgin. Ficaritoya u",
+          "evidence": [
+            {
+              "route": "canonical_review_crop",
+              "recognized": "Doçu. Vt. Vaquǒ dogini. Ficarino yaua",
+              "similarity": 0.7027,
+              "terminal_hyphen": false
+            },
+            {
+              "route": "isolated_conservative_crop",
+              "recognized": "Doçin. Vt, Vaquo dogir. Ficarino yaua",
+              "similarity": 0.7568,
+              "terminal_hyphen": false
+            }
+          ]
+        },
+        {
+          "line": "c1-l031",
+          "kind": "ocr_terminal_hyphen",
+          "source_text": "de ſua ſubſtancia ſe miſturou com o corpo immũ-",
+          "suggested_after": "de ſua ſubſtancia ſe miſturou com o corpo immũ",
+          "evidence": [
+            {
+              "route": "canonical_review_crop",
+              "recognized": "de ſua ſubistancia ſe miſturau com o corpo imimis",
+              "similarity": 0.8776,
+              "terminal_hyphen": false
+            },
+            {
+              "route": "isolated_conservative_crop",
+              "recognized": "de ſua ſuſũstarc a ſe miſſturux com o corpo immi-",
+              "similarity": 0.7959,
+              "terminal_hyphen": true
+            }
+          ]
+        },
+        {
+          "line": "c1-l036",
+          "kind": "ocr_terminal_hyphen",
+          "source_text": "Dogiǒ. Nome de hũ peixinho que ha nos char-",
+          "suggested_after": "Dogiǒ. Nome de hũ peixinho que ha nos char",
+          "evidence": [
+            {
+              "route": "canonical_review_crop",
+              "recognized": "Deqiǒ. Nome de hũ peixinho que ba nos abuye",
+              "similarity": 0.814,
+              "terminal_hyphen": false
+            },
+            {
+              "route": "isolated_conservative_crop",
+              "recognized": "DOGiǒ. Nome de ba peixinho que baa nos abare",
+              "similarity": 0.7955,
+              "terminal_hyphen": false
+            }
+          ]
+        },
+        {
+          "line": "c2-l013",
+          "kind": "ocr_terminal_hyphen",
+          "source_text": "coto naxi. Fox. Lib. 4. Sendo ho-",
+          "suggested_after": "coto naxi. Fox. Lib. 4. Sendo ho",
+          "evidence": [
+            {
+              "route": "canonical_review_crop",
+              "recognized": "coto naxi. Fox. Lib. ¶ Semdo to",
+              "similarity": 0.875,
+              "terminal_hyphen": false
+            }
+          ]
+        },
+        {
+          "line": "c2-l014",
+          "kind": "ocr_terminal_hyphen",
+          "source_text": "mem de grande deuação, & deſprezo do mun-",
+          "suggested_after": "mem de grande deuação, & deſprezo do mun",
+          "evidence": [
+            {
+              "route": "canonical_review_crop",
+              "recognized": "mem de grande deuação. & deſprezo do ma",
+              "similarity": 0.925,
+              "terminal_hyphen": false
+            }
+          ]
+        },
+        {
+          "line": "c2-l016",
+          "kind": "ocr_terminal_hyphen",
+          "source_text": "Dôjǒ. Vgoqu coto, xizzucanarucoto. In-",
+          "suggested_after": "Dôjǒ. Vgoqu coto, xizzucanarucoto. In",
+          "evidence": [
+            {
+              "route": "canonical_review_crop",
+              "recognized": "Dôjǒ. Vgoqu coto, xizzucanarucoto. Im",
+              "similarity": 0.973,
+              "terminal_hyphen": false
+            },
+            {
+              "route": "isolated_conservative_crop",
+              "recognized": "Dojo. Vgoqu coto, xizzucanarucoto. Im",
+              "similarity": 0.9189,
+              "terminal_hyphen": false
+            }
+          ]
+        },
+        {
+          "line": "c2-l028",
+          "kind": "ocr_terminal_hyphen",
+          "source_text": "Domeqi, qu, eita. Fazer grande traquina-",
+          "suggested_after": "Domeqi, qu, eita. Fazer grande traquina",
+          "evidence": [
+            {
+              "route": "canonical_review_crop",
+              "recognized": "Dǒmoji, qu. eita. Fuze/ grande traquina",
+              "similarity": 0.8462,
+              "terminal_hyphen": false
+            }
+          ]
+        },
+        {
+          "line": "c2-l030",
+          "kind": "ocr_terminal_hyphen",
+          "source_text": "mo nagueni de neite ſaqeuo nomu. Tan-",
+          "suggested_after": "mo nagueni de neite ſaqeuo nomu. Tan",
+          "evidence": [
+            {
+              "route": "canonical_review_crop",
+              "recognized": "mo nagueri de ncute laqcuo nou.uni. Tam",
+              "similarity": 0.7436,
+              "terminal_hyphen": false
+            },
+            {
+              "route": "isolated_conservative_crop",
+              "recognized": "mo naguchi dentte laqeuo nouti. Tan",
+              "similarity": 0.75,
+              "terminal_hyphen": false
+            }
+          ]
+        },
+        {
+          "line": "c2-l032",
+          "kind": "ocr_terminal_hyphen",
+          "source_text": "reſpeito do ſenhor preſente fazendo traqui-",
+          "suggested_after": "reſpeito do ſenhor preſente fazendo traqui",
+          "evidence": [
+            {
+              "route": "canonical_review_crop",
+              "recognized": "rſpreito do ſeubor preſante fazendo vraquio",
+              "similarity": 0.8372,
+              "terminal_hyphen": false
+            }
+          ]
+        },
+        {
+          "line": "c2-l039",
+          "kind": "ocr_terminal_hyphen",
+          "source_text": "geração. Vt, Dômon, dôxǒno fito na-",
+          "suggested_after": "geração. Vt, Dômon, dôxǒno fito na",
+          "evidence": [
+            {
+              "route": "canonical_review_crop",
+              "recognized": "genação. Vt, Dômon, doxo ro fito na",
+              "similarity": 0.8571,
+              "terminal_hyphen": false
+            },
+            {
+              "route": "isolated_conservative_crop",
+              "recognized": "genago. Vt, Dômon, doxo o fito na",
+              "similarity": 0.8235,
+              "terminal_hyphen": false
+            }
+          ]
+        },
+        {
+          "line": "c2-l040",
+          "kind": "ocr_terminal_hyphen",
+          "source_text": "ri. He homem da meſma ſeita, & da meſ-",
+          "suggested_after": "ri. He homem da meſma ſeita, & da meſ",
+          "evidence": [
+            {
+              "route": "canonical_review_crop",
+              "recognized": "n. He homem da mi ſmu ſcu a, & da mes",
+              "similarity": 0.7568,
+              "terminal_hyphen": false
+            },
+            {
+              "route": "isolated_conservative_crop",
+              "recognized": "xt. He homem da me ſma ſeita, & da mes",
+              "similarity": 0.8947,
+              "terminal_hyphen": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bnf-f0158",
+      "suggestions": [
+        {
+          "line": "c1-l002",
+          "kind": "ocr_terminal_hyphen",
+          "source_text": "Dônan. Vonaji nangui. O Meſmo peri-",
+          "suggested_after": "Dônan. Vonaji nangui. O Meſmo peri",
+          "evidence": [
+            {
+              "route": "canonical_review_crop",
+              "recognized": "Dôuan. Vontaji naggui. O Meſmo peri.",
+              "similarity": 0.9143,
+              "terminal_hyphen": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bnf-f0159",
+      "suggestions": [
+        {
+          "line": "c1-l006",
+          "kind": "ocr_terminal_hyphen",
+          "source_text": "cuuo tomoniſuru. Buppô. Condiſcipu-",
+          "suggested_after": "cuuo tomoniſuru. Buppô. Condiſcipu",
+          "evidence": [
+            {
+              "route": "canonical_review_crop",
+              "recognized": "¶iuuo tomoriſuru. Bupperǒ. Condſcipe-",
+              "similarity": 0.7568,
+              "terminal_hyphen": true
+            },
+            {
+              "route": "isolated_conservative_crop",
+              "recognized": "cuuo tomoniſuru. Buepǒ. Condificipue",
+              "similarity": 0.8611,
+              "terminal_hyphen": false
+            }
+          ]
+        },
+        {
+          "line": "c1-l009",
+          "kind": "ocr_terminal_hyphen",
+          "source_text": "Doſǒ. Tçuchini ſômuru. Enterrar o defun-",
+          "suggested_after": "Doſǒ. Tçuchini ſômuru. Enterrar o defun",
+          "evidence": [
+            {
+              "route": "canonical_review_crop",
+              "recognized": "Dasǒ. Tçuchini fômura. Enteirar o deſome",
+              "similarity": 0.775,
+              "terminal_hyphen": false
+            },
+            {
+              "route": "isolated_conservative_crop",
+              "recognized": "Dosǒ. Tçuchini fômuru. Enterrar o deſime",
+              "similarity": 0.85,
+              "terminal_hyphen": false
+            }
+          ]
+        },
+        {
+          "line": "c2-l030",
+          "kind": "ocr_terminal_hyphen",
+          "source_text": "bos todos os bens, & boas obras que em ſua vi-",
+          "suggested_after": "bos todos os bens, & boas obras que em ſua vi",
+          "evidence": [
+            {
+              "route": "canonical_review_crop",
+              "recognized": "bostancia os bens, & boas obrias que em ſua uit-",
+              "similarity": 0.7917,
+              "terminal_hyphen": true
+            },
+            {
+              "route": "isolated_conservative_crop",
+              "recognized": "bos todos os bens, & boas obit as que em ſua vẽ",
+              "similarity": 0.9149,
+              "terminal_hyphen": false
+            }
+          ]
+        },
+        {
+          "line": "c2-l035",
+          "kind": "ocr_terminal_hyphen",
+          "source_text": "Doyô. Certa conjunção de tempo que ha na deſ-",
+          "suggested_after": "Doyô. Certa conjunção de tempo que ha na deſ",
+          "evidence": [
+            {
+              "route": "canonical_review_crop",
+              "recognized": "Doyô. Certa conjunção de tempo que ha na deſ",
+              "similarity": 1.0,
+              "terminal_hyphen": false
+            },
+            {
+              "route": "isolated_conservative_crop",
+              "recognized": "Doyô. Certa conjunção de tempo que ha ma deſ",
+              "similarity": 0.9773,
+              "terminal_hyphen": false
+            }
+          ]
+        },
+        {
+          "line": "c2-l047",
+          "kind": "ocr_terminal_hyphen",
+          "source_text": "palha que ſe tem em caſa pera ſe exercitar ne-",
+          "suggested_after": "palha que ſe tem em caſa pera ſe exercitar ne",
+          "evidence": [
+            {
+              "route": "canonical_review_crop",
+              "recognized": "palha que ſe tem em caſa pera ſc exerchar ne.",
+              "similarity": 0.9333,
+              "terminal_hyphen": false
+            },
+            {
+              "route": "isolated_conservative_crop",
+              "recognized": "paſha que ſe tem em caſa pera ſe excordar me-",
+              "similarity": 0.8222,
+              "terminal_hyphen": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bnf-f0160",
+      "suggestions": [
+        {
+          "line": "c1f-l014",
+          "kind": "ocr_terminal_hyphen",
+          "source_text": "Fa. Dentes. ¶ Faga iru, l, ita. Botare-",
+          "suggested_after": "Fa. Dentes. ¶ Faga iru, l, ita. Botare",
+          "evidence": [
+            {
+              "route": "canonical_review_crop",
+              "recognized": "& penter. ¶ Figa iru, lita, Botane",
+              "similarity": 0.7368,
+              "terminal_hyphen": false
+            }
+          ]
+        },
+        {
+          "line": "c1f-l022",
+          "kind": "ocr_terminal_hyphen",
+          "source_text": "muru, l, careuo eçuguru. Fazer os den-",
+          "suggested_after": "muru, l, careuo eçuguru. Fazer os den",
+          "evidence": [
+            {
+              "route": "canonical_review_crop",
+              "recognized": "mora, l, careão eçuquni. Fazer os der",
+              "similarity": 0.8108,
+              "terminal_hyphen": false
+            },
+            {
+              "route": "isolated_conservative_crop",
+              "recognized": "muru, l, careuo eçuquru. Fazer os den",
+              "similarity": 0.973,
+              "terminal_hyphen": false
+            }
+          ]
+        },
+        {
+          "line": "c2-l038",
+          "kind": "ocr_terminal_hyphen",
+          "source_text": "Fabiqi, u, ijta. i, Catanano Fauo fiqu. Deſ-",
+          "suggested_after": "Fabiqi, u, ijta. i, Catanano Fauo fiqu. Deſ",
+          "evidence": [
+            {
+              "route": "canonical_review_crop",
+              "recognized": "Pabiqi, u, ljiga. l. Catanino fuuo ſçu. Deſ",
+              "similarity": 0.7209,
+              "terminal_hyphen": false
+            },
+            {
+              "route": "isolated_conservative_crop",
+              "recognized": "Pabiqi, u, ſita. l, Catanano ſauo fçu. Deſ",
+              "similarity": 0.8372,
+              "terminal_hyphen": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
