@@ -82,6 +82,60 @@ For new pages, transcription and UI-geometry capture are one operation:
 
 The crop used as transcription evidence is therefore preserved instead of being reconstructed later. Subsequent checking may still improve it, but a separate bulk geometry pass should not normally be necessary.
 
+### OCR-first candidate geometry
+
+When ordered Level 1 line texts already exist but their rectangles are absent or
+untrustworthy, initialize geometry without consulting the saved rectangles.
+Run an independent neural line segmenter on the native page, rectify every
+detected polygon, recognize each strip with the book-specific OCR model, and
+align those noisy strings monotonically to the transcription's document order.
+Headers, catchwords, and split fragments remain extra candidates that the
+alignment may skip. The transcription supplies line identity and sequence; OCR
+supplies correspondence evidence, not diplomatic text.
+
+Production column boxes, line centres, crops, and context crops must remain
+unopened until the proposed associations and rectangles have been serialized.
+They may then be compared with the proposal as benchmark evidence. This makes
+"treat the old geometry as untrusted" an enforceable data boundary rather than
+an instruction to discount coordinates after they have already anchored the
+result.
+
+The first blind benchmark used `f147`, `f151`, the skewed `f154`, and the
+previously troublesome `f157`. It aligned all 377 body lines from 396 blind
+segmenter candidates, left 19 furniture or split-fragment candidates unused,
+and produced no unmatched body line or OCR-to-neighbour conflict. Median
+relaxed line CER was 10.0%; that is adequate for correspondence even though it
+is not adequate diplomatic transcription. Reproducible code and aggregate
+results are in
+[`align_page_geometry_ocr_first.py`](../scripts/align_page_geometry_ocr_first.py)
+and
+[`ocr-first-geometry-v1-results.json`](../experiments/ocr/ocr-first-geometry-v1-results.json).
+
+The benchmark is reproduced by first writing Kraken native segmentation JSON
+for the chosen scans, rectifying it in the isolated Kraken environment, and
+then running the aligner in the OCR environment:
+
+```sh
+for number in 0147 0151 0154 0157; do
+  .cache/ocr-model/venv-kraken/bin/kraken \
+    -i build/nippo-jisho-images/scans/native/f${number}.jpg \
+    .cache/ocr-first-geometry-v1/segmentation/f${number}.json segment -bl
+done
+.cache/ocr-model/venv-kraken/bin/python scripts/extract_kraken_lines.py \
+  --pages 147 151 154 157 \
+  --kraken .cache/ocr-first-geometry-v1/segmentation \
+  --output .cache/ocr-first-geometry-v1/extracted
+.cache/ocr-model/venv-arm64/bin/python \
+  scripts/align_page_geometry_ocr_first.py --pages 147 151 154 157
+```
+
+This method is now the preferred **initializer** for an already-transcribed
+page. It does not confer geometry-review status. Its output still has to pass
+every item in the acceptance routine below, at full browser-review scale, and
+must be manually adjusted wherever a polygon split, displaced fragment,
+diacritic, rule edge, or slanted baseline makes the rectangular review crop
+incomplete.
+
 ### Acceptance routine
 
 For either case, the final requirements are:

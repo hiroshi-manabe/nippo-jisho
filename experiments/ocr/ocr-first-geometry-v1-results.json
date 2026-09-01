@@ -1,0 +1,90 @@
+{
+  "format": "nippo-ocr-first-geometry-benchmark-summary",
+  "format_version": 1,
+  "date": "2026-09-02",
+  "pages": [
+    147,
+    151,
+    154,
+    157
+  ],
+  "inference_inputs": [
+    "native scan",
+    "independent Kraken 5.2.9 blla.mlmodel segmentation",
+    "ordered Level 1 line text",
+    "book-specific trocr-isolated-core-v1 recognition"
+  ],
+  "excluded_from_inference": [
+    "production column boxes",
+    "production line centres",
+    "production crop rectangles",
+    "production context rectangles"
+  ],
+  "aggregate": {
+    "body_lines": 377,
+    "blind_candidates": 396,
+    "matched_body_lines": 377,
+    "unmatched_body_lines": 0,
+    "unused_candidates": 19,
+    "ocr_to_immediate_neighbor_conflicts": 0,
+    "mean_relaxed_cer": 0.12357394097263154,
+    "median_relaxed_cer": 0.1,
+    "production_centre_comparison": {
+      "median_absolute_difference_pixels": 3,
+      "p95_absolute_difference_pixels": 12,
+      "within_production_neighbor_midpoints": 374,
+      "compared": 377
+    }
+  },
+  "per_page": {
+    "bnf-f0147": {
+      "body_lines": 94,
+      "blind_candidates": 97,
+      "matched": 94,
+      "neighbor_conflicts": 0,
+      "mean_relaxed_cer": 0.0910890220037397,
+      "median_relaxed_cer": 0.08957219251336898
+    },
+    "bnf-f0151": {
+      "body_lines": 94,
+      "blind_candidates": 101,
+      "matched": 94,
+      "neighbor_conflicts": 0,
+      "mean_relaxed_cer": 0.09779864497373894,
+      "median_relaxed_cer": 0.07846153846153847
+    },
+    "bnf-f0154": {
+      "body_lines": 94,
+      "blind_candidates": 100,
+      "matched": 94,
+      "neighbor_conflicts": 0,
+      "mean_relaxed_cer": 0.13531123084877597,
+      "median_relaxed_cer": 0.11764705882352941
+    },
+    "bnf-f0157": {
+      "body_lines": 95,
+      "blind_candidates": 98,
+      "matched": 95,
+      "neighbor_conflicts": 0,
+      "mean_relaxed_cer": 0.16960715106330693,
+      "median_relaxed_cer": 0.13636363636363635
+    }
+  },
+  "rendered_audit": {
+    "contact_sheets": 16,
+    "row_association_overview": "passed",
+    "detailed_samples": [
+      "bnf-f0147/column-1-001-025",
+      "bnf-f0154/column-1-001-025",
+      "bnf-f0154/column-1-026-047",
+      "bnf-f0157/column-1-001-025",
+      "bnf-f0157/column-2-001-025"
+    ],
+    "note": "Overview inspection establishes the experiment's line associations, not production geometry acceptance. Every full-size browser crop is still required before canonical import."
+  },
+  "decision": {
+    "status": "adopt_as_preferred_initializer",
+    "canonical_geometry_replaced": false,
+    "reason": "The blind method recovered every benchmark line and corrected known row-association failures, but project policy requires a separate full-size per-line crop audit before production replacement."
+  }
+}

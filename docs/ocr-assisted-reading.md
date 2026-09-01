@@ -72,6 +72,18 @@ Record a geometry version or hash with OCR output. A changed physical-line
 region invalidates only the affected recognition. Do not maintain unrelated UI
 and OCR notions of which source row belongs to a line.
 
+For candidate geometry, OCR may be used earlier and more aggressively than it
+is used for transcription. The blind initializer in
+[`align_page_geometry_ocr_first.py`](../scripts/align_page_geometry_ocr_first.py)
+never reads production rectangles while inferring: it segments the native scan,
+recognizes rectified strips, and uses noisy text only to align those strips to
+the ordered Level 1 lines. Production geometry is opened afterward solely for
+benchmarking. On `f147`, `f151`, `f154`, and `f157`, this recovered all 377 body
+associations from 396 candidates with no OCR-to-immediate-neighbour conflict.
+The distinction is important: 10.0% median relaxed line error is poor source
+text but strong line-identity evidence. The resulting rectangles remain drafts
+until every browser crop passes the ordinary visual acceptance routine.
+
 ## Initial f151 calibration
 
 The figures below compare 94 body lines with the transcription after human
