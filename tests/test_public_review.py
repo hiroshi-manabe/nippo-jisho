@@ -295,10 +295,7 @@ equal(q.align('foo, bar.', 'foo bar.').deletions.map(item => [item.character, it
             for zone in pages["bnf-f0154"]["zones"]
             for line in zone["lines"]
         }
-        self.assertEqual(
-            f154_lines["c1-l014"]["machine_suggestions"],
-            ["ocr_terminal_hyphen"],
-        )
+        self.assertNotIn("machine_suggestions", f154_lines["c1-l014"])
 
     def test_line_editor_supports_paired_lightweight_typeface_spans(self):
         app = (ROOT / "site" / "app.js").read_text(encoding="utf-8")
