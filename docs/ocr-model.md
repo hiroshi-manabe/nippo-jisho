@@ -1,9 +1,10 @@
 # Experimental Nippo Jisho recognition engine
 
 This project has a private, book-specific line recognizer trained from the
-reviewed transcriptions and native Gallica scans. It produces a useful first
-draft for human correction; it is not an authority and never replaces review
-against the scan.
+reviewed transcriptions and native Gallica scans. The selected recognizer is a
+Calamari model adapted from a 15th–16th-century Antiqua checkpoint. It produces
+a high-quality first draft for human correction; it is not an authority and
+never replaces review against the scan.
 
 ## Dataset and benchmark
 
@@ -38,7 +39,7 @@ local baseline. Even with approximate monotonic-alignment warm-up, its best
 small experiment remained around 88% test character error rate. It is retained
 as experimental code, but it is not the working engine.
 
-The useful model fine-tunes `microsoft/trocr-small-printed`. The pretrained
+The first useful model fine-tuned `microsoft/trocr-small-printed`. The pretrained
 vision encoder is frozen for the initial three-epoch run while the decoder
 adapts to the book's typography, historical Portuguese, and romanized Japanese.
 Two implementation details are important:
@@ -191,9 +192,129 @@ the N-gram. On the OCR checkpoint's untouched test pages, N-gram alone scored
 to circumflex-versus-caron classification; it does not revoke the separate
 feature-level uses of OCR for division marks, spacing, or base-letter pairs.
 
+## Selected Calamari Antiqua model
+
+TrOCR is no longer the best default recognizer. Its processor resizes every
+line to a square input, whereas Calamari preserves the long line's aspect ratio
+and applies a convolutional/BiLSTM CTC recognizer from left to right. More
+importantly, the experimental Calamari model repository provides a five-member
+`deep3_antiqua-15-16-cent` family pretrained on historical print and already
+containing a distinct long `ſ` class.
+
+The engine-neutral benchmark exporter converts the adopted clean-pair corpus
+to adjacent line-image/ground-truth files without changing the frozen
+page-disjoint split. It contains 9,843 training lines from 110 pages, 1,252
+development lines from 14 pages, and 1,273 test lines from 14 pages:
+
+```sh
+python3 scripts/export_line_ocr_benchmark.py
+```
+
+The selected run warm-started member `0` of the historical family, used the
+predefined `deep3` network, and trained at 48-pixel line height. Calamari keeps
+every character from a loaded model by default; that would retain hundreds of
+irrelevant multilingual classes. `--codec.keep_loaded false` instead aligned
+the pretrained output layer to this corpus's 93 observed characters plus the
+CTC blank while retaining weights for shared characters.
+
+On native Apple Silicon, TensorFlow's CPU implementation was substantially
+faster for this BiLSTM workload than the Metal plug-in. The recorded run used
+Python 3.9 and [`requirements-ocr-calamari.txt`](../requirements-ocr-calamari.txt):
+
+```sh
+arch -arm64 /usr/bin/python3 -m venv .cache/ocr-model/venv-calamari-arm64
+arch -arm64 .cache/ocr-model/venv-calamari-arm64/bin/python -m pip install \
+  -r requirements-ocr-calamari.txt
+
+git clone --filter=blob:none --sparse \
+  https://github.com/Calamari-OCR/calamari_models_experimental \
+  .cache/ocr-model/calamari_models_experimental
+git -C .cache/ocr-model/calamari_models_experimental checkout \
+  f1c35b48c8d01c0c8309a31b8e523d0b1f6eecdb
+git -C .cache/ocr-model/calamari_models_experimental sparse-checkout set \
+  deep3_antiqua-15-16-cent
+
+.cache/ocr-model/venv-calamari-arm64/bin/calamari-train \
+  --trainer.output_dir \
+    .cache/ocr-model/runs/calamari-antiqua-book-codec-v1 \
+  --warmstart.model \
+    .cache/ocr-model/calamari_models_experimental/deep3_antiqua-15-16-cent/0.ckpt \
+  --network deep3 \
+  --train.images '.cache/ocr-model/engine-benchmark-v1/train/*.png' \
+  --val.images '.cache/ocr-model/engine-benchmark-v1/dev/*.png' \
+  --trainer.epochs 20 --early_stopping.n_to_go 4 \
+  --early_stopping.upper_threshold 0.03 \
+  --trainer.random_seed 1603 --trainer.progress_bar_mode 2 \
+  --learning_rate.lr 0.0001 \
+  --train.batch_size 32 --val.batch_size 32 \
+  --train.num_processes 2 --val.num_processes 2 \
+  --data.line_height 48 --codec.keep_loaded false
+```
+
+Epoch 7 was selected at 4.85% Calamari validation CER. An independent exact
+Unicode evaluation measured 4.86% on development and **3.30% on the untouched
+test split**, compared with 10.91% for the earlier provenance-routed TrOCR
+configuration. This is a 69.8% relative reduction in test errors.
+
+| Split | Lines | Character error rate | Exact lines | Median line CER |
+| --- | ---: | ---: | ---: | ---: |
+| Development | 1,252 | 4.86% | 607 (48.48%) | 2.27% |
+| Test | 1,273 | **3.30%** | 733 (57.58%) | **0.00%** |
+
+The result is diplomatic: it does not fold case, whitespace, punctuation,
+diacritics, or short `s`/long `ſ`. On test data, 1,437 of 1,514 reference
+`s`/`ſ` characters were exactly correct, and only seven were confused with the
+other member of that pair. Tilde-bearing vowels were exact in 297 of 328
+instances. Accents remain weaker overall: marked vowels were exact in 535 of
+652 instances. Line-final hyphens had 160 true positives, 42 false negatives,
+and six false positives, so the model must not decide divisions silently.
+
+The complete aggregate record is
+[`experiments/ocr/calamari-antiqua-v1-results.json`](../experiments/ocr/calamari-antiqua-v1-results.json).
+Model weights and generated predictions remain ignored local artifacts at
+`.cache/ocr-model/runs/calamari-antiqua-book-codec-v1`.
+
+Calamari was selected after considering recognizers with genuinely different
+failure modes. A compact Kraken VGSL model trained from scratch converged too
+slowly and remained far behind after its first epoch. Kraken 7's PP-OCRv6 has a
+strong multilingual historical base, but its CTC training loss is not supported
+natively on Apple Metal and requires CPU fallback. Tesseract's modern
+Portuguese/Latin models mishandled historical glyphs; the dedicated Latin OCR
+historical model preserved `ſ` better but remained materially weaker in the
+initial line sample. CATMuS-Print Large is an excellent 16th-century Western
+European Kraken base, but its published NFKD vocabulary does not retain `ſ` as
+a distinct output class. Because Calamari crossed the target on an untouched
+test set, more expensive PyLaia, PaddleOCR, and multi-model voting experiments
+were not needed for version 1.
+
+Generate and collect predictions from the selected checkpoint as follows:
+
+```sh
+.cache/ocr-model/venv-calamari-arm64/bin/calamari-predict \
+  --checkpoint \
+    .cache/ocr-model/runs/calamari-antiqua-book-codec-v1/best.ckpt \
+  --data.images '.cache/ocr-model/engine-benchmark-v1/test/*.png' \
+  --output_dir .cache/ocr-model/runs/calamari-antiqua-book-codec-v1/predictions \
+  --verbose false --pipeline.batch_size 32 --pipeline.num_processes 2
+
+python3 scripts/collect_calamari_predictions.py \
+  --records .cache/ocr-model/engine-benchmark-v1/records.jsonl \
+  --split test \
+  --prediction-dir \
+    .cache/ocr-model/runs/calamari-antiqua-book-codec-v1/predictions \
+  --output .cache/ocr-model/runs/calamari-antiqua-book-codec-v1/test-predictions.jsonl
+
+python3 scripts/evaluate_line_ocr_predictions.py \
+  --references .cache/ocr-model/engine-benchmark-v1/records.jsonl \
+  --predictions \
+    .cache/ocr-model/runs/calamari-antiqua-book-codec-v1/test-predictions.jsonl \
+  --split test
+```
+
 ## Using the engine
 
-Recognize one or more already-cropped physical line images:
+The following commands document the earlier TrOCR engine, which remains useful
+for comparisons. Recognize one or more already-cropped physical line images:
 
 ```sh
 arch -arm64 .cache/ocr-model/venv-arm64/bin/python \
@@ -215,9 +336,10 @@ belong in Git.
 
 ## Deliberate limitations
 
-The first engine recognizes physical lines independently. It does not emit
+The recognition engines treat physical lines independently. They do not emit
 roman/italic Markdown or model neighbouring-line or dictionary-entry context.
-Whole-line output remains far too inaccurate to remove human review. Some
-locally aligned alternatives, including short-`s` versus long-`ſ`, are useful
-as feature-level evidence under the calibrated policy; extracting a character
-from an otherwise garbled word is not.
+Even the selected model remains too inaccurate to remove human review,
+especially for isolated accents, tilde carriers, typeface, and line-final
+division marks. Locally aligned alternatives are useful as feature-level
+evidence under the calibrated policy; extracting a character from an otherwise
+garbled word is not.

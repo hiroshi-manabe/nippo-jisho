@@ -1,0 +1,69 @@
+{
+  "experiment": "calamari-antiqua-book-codec-v1",
+  "benchmark": {
+    "source": ".cache/ocr-model/usable-lines-v2",
+    "export": ".cache/ocr-model/engine-benchmark-v1",
+    "normalization": "NFC",
+    "page_disjoint": true,
+    "splits": {
+      "train": { "pages": 110, "lines": 9843 },
+      "dev": { "pages": 14, "lines": 1252 },
+      "test": { "pages": 14, "lines": 1273 }
+    }
+  },
+  "pretrained_model": {
+    "repository": "https://github.com/Calamari-OCR/calamari_models_experimental",
+    "commit": "f1c35b48c8d01c0c8309a31b8e523d0b1f6eecdb",
+    "checkpoint": "deep3_antiqua-15-16-cent/0.ckpt",
+    "license": "MIT"
+  },
+  "training": {
+    "selected_epoch": 7,
+    "random_seed": 1603,
+    "learning_rate": 0.0001,
+    "batch_size": 32,
+    "line_height": 48,
+    "network": "deep3",
+    "keep_loaded_codec": false,
+    "output_classes_including_ctc_blank": 94,
+    "data_augmentation": false
+  },
+  "selection": {
+    "calamari_validation_cer": 0.04848369210958481,
+    "independent_validation_cer": 0.04860299205459187
+  },
+  "test": {
+    "lines": 1273,
+    "characters": 41421,
+    "character_errors": 1366,
+    "character_error_rate": 0.03297844088747254,
+    "exact_lines": 733,
+    "exact_line_rate": 0.5758051846032993,
+    "median_line_character_error_rate": 0.0,
+    "catastrophic_lines_over_50_percent_cer": 6,
+    "terminal_hyphen": {
+      "reference_positive": 202,
+      "true_positive": 160,
+      "false_negative": 42,
+      "reference_negative": 1071,
+      "true_negative": 1065,
+      "false_positive": 6
+    },
+    "feature_exact": {
+      "short_s_or_long_s": { "reference": 1514, "exact": 1437, "other_member": 7 },
+      "q_or_g": { "reference": 827, "exact": 811, "other_member": 1 },
+      "u_or_v": { "reference": 2644, "exact": 2568, "other_member": 2 },
+      "i_or_j": { "reference": 2226, "exact": 2119, "other_member": 4 },
+      "c_or_cedilla": { "reference": 1428, "exact": 1382, "other_member": 4 },
+      "n_or_m": { "reference": 2610, "exact": 2520, "other_member": 33 },
+      "period_or_comma": { "reference": 2952, "exact": 2887, "other_member": 24 },
+      "marked_vowel": { "reference": 652, "exact": 535, "same_base_wrong_mark": 83 },
+      "tilde_vowel": { "reference": 328, "exact": 297, "same_base_wrong_mark": 18 }
+    }
+  },
+  "comparison": {
+    "trocr_isolated_routed_test_cer": 0.1091,
+    "relative_test_error_reduction": 0.697722815875595
+  },
+  "model_artifact": ".cache/ocr-model/runs/calamari-antiqua-book-codec-v1/best.ckpt"
+}
