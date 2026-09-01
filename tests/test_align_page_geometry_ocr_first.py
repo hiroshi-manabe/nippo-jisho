@@ -9,6 +9,7 @@ sys.path.insert(0, str(ROOT / "scripts"))
 from align_page_geometry_ocr_first import (  # noqa: E402
     comparison_text,
     ordered_targets,
+    rescue_sandwiched_gaps,
     sequence_alignment,
     split_candidates,
 )
@@ -63,6 +64,18 @@ class OcrFirstGeometryTests(unittest.TestCase):
             maximum_displacement=4,
         )
         self.assertEqual(alignment, [(None, 0), (0, 1), (1, 2)])
+
+    def test_sandwiched_garbled_line_is_positionally_rescued(self):
+        alignment = [(0, 0), (1, None), (None, 1), (2, 2)]
+        result, rescued = rescue_sandwiched_gaps(alignment, 3, 3)
+        self.assertEqual(result, [(0, 0), (1, 1), (2, 2)])
+        self.assertEqual(rescued, [(1, 1)])
+
+    def test_multiple_gap_is_not_positionally_rescued(self):
+        alignment = [(0, 0), (1, None), (2, None), (None, 1), (None, 2), (3, 3)]
+        result, rescued = rescue_sandwiched_gaps(alignment, 4, 4)
+        self.assertEqual(result, alignment)
+        self.assertEqual(rescued, [])
 
 
 if __name__ == "__main__":

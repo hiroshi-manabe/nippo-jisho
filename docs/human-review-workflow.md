@@ -136,6 +136,23 @@ must be manually adjusted wherever a polygon split, displaced fragment,
 diacritic, rule edge, or slanted baseline makes the rectangular review crop
 incomplete.
 
+The first production-scale trial applied the initializer to `f161`–`f170`.
+It matched all 943 body lines from 990 blind candidates and left 47 furniture
+or fragment candidates unused. One very short, badly recognized row,
+`f164/c2-l007` (`ros ſae.`), was initially left unmatched. It was accepted only
+because exactly one candidate lay between its already matched immediate
+neighbors and the native scan confirmed the complete text in that strip. This
+defines the sole positional rescue rule: one missing reference, one unused
+candidate, and matched immediate neighbors on both sides. Multiple-row gaps,
+edge gaps, or more than one candidate still stop automatic import. The same
+scan check accepted f164's final `tas folhas.` association despite its garbled
+OCR. Aggregate evidence is recorded in
+[`ocr-first-geometry-f161-f170-results.json`](../experiments/ocr/ocr-first-geometry-f161-f170-results.json).
+
+The imported columns retain the conservative `contact_sheet_reviewed` state;
+the OCR initializer and overview audit do not upgrade them to
+`line_by_line_reverified`.
+
 ### Acceptance routine
 
 For either case, the final requirements are:

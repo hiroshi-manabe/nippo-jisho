@@ -167,6 +167,62 @@ def sequence_alignment(
     return list(reversed(alignment))
 
 
+def rescue_sandwiched_gaps(
+    alignment: list[tuple[int | None, int | None]],
+    reference_count: int,
+    candidate_count: int,
+) -> tuple[list[tuple[int | None, int | None]], list[tuple[int, int]]]:
+    """Match a single OCR-garbled row uniquely enclosed by two good matches."""
+    matches = {
+        reference: candidate
+        for reference, candidate in alignment
+        if reference is not None and candidate is not None
+    }
+    unmatched_references = {
+        reference
+        for reference, candidate in alignment
+        if reference is not None and candidate is None
+    }
+    unmatched_candidates = {
+        candidate
+        for reference, candidate in alignment
+        if reference is None and candidate is not None
+    }
+    rescued = []
+    for reference in sorted(unmatched_references):
+        if reference - 1 not in matches or reference + 1 not in matches:
+            continue
+        left = matches[reference - 1]
+        right = matches[reference + 1]
+        candidate = left + 1
+        if right == candidate + 1 and candidate in unmatched_candidates:
+            matches[reference] = candidate
+            unmatched_references.remove(reference)
+            unmatched_candidates.remove(candidate)
+            rescued.append((reference, candidate))
+
+    rebuilt = []
+    next_reference = 0
+    next_candidate = 0
+    for reference, candidate in sorted(matches.items()):
+        while next_reference < reference:
+            rebuilt.append((next_reference, None))
+            next_reference += 1
+        while next_candidate < candidate:
+            rebuilt.append((None, next_candidate))
+            next_candidate += 1
+        rebuilt.append((reference, candidate))
+        next_reference = reference + 1
+        next_candidate = candidate + 1
+    while next_reference < reference_count:
+        rebuilt.append((next_reference, None))
+        next_reference += 1
+    while next_candidate < candidate_count:
+        rebuilt.append((None, next_candidate))
+        next_candidate += 1
+    return rebuilt, rescued
+
+
 def polygon_bbox(line: dict, image_size: tuple[int, int]) -> list[int]:
     points = line.get("boundary") or line["baseline"]
     xs = [point[0] for point in points]
@@ -342,6 +398,7 @@ def benchmark_page(
     targets: dict[str, list[dict]],
     candidates: dict[str, list[dict]],
     alignments: dict[str, list[tuple[int | None, int | None]]],
+    positional_rescues: dict[str, list[tuple[int, int]]],
 ) -> dict:
     matched = []
     unmatched_targets = []
@@ -432,6 +489,15 @@ def benchmark_page(
         "matched": len(matched),
         "unmatched_targets": unmatched_targets,
         "unmatched_candidates": unmatched_candidates,
+        "positional_rescues": [
+            {
+                "column": column,
+                "line_id": targets[column][reference]["id"],
+                "candidate_id": candidates[column][candidate]["id"],
+            }
+            for column, rescues in positional_rescues.items()
+            for reference, candidate in rescues
+        ],
         "neighbor_conflicts": neighbor_conflicts,
         "mean_relaxed_cer": statistics.mean(
             record["recognition_cer_relaxed"] for record in matched
@@ -502,16 +568,23 @@ def main() -> int:
 
     inferred_records = []
     for page_id, image_size, targets, candidates in page_records:
-        alignments = {
-            column: sequence_alignment(
+        alignments = {}
+        positional_rescues = {}
+        for column in targets:
+            alignment = sequence_alignment(
                 targets[column],
                 candidates[column],
                 gap_cost=args.gap_cost,
                 position_cost=args.position_cost,
                 maximum_displacement=args.maximum_displacement,
             )
-            for column in targets
-        }
+            alignment, rescues = rescue_sandwiched_gaps(
+                alignment,
+                len(targets[column]),
+                len(candidates[column]),
+            )
+            alignments[column] = alignment
+            positional_rescues[column] = rescues
         inferred = geometry_for_matches(
             page_id=page_id,
             image_size=image_size,
@@ -520,7 +593,14 @@ def main() -> int:
             alignments=alignments,
         )
         inferred_records.append(
-            (page_id, targets, candidates, alignments, inferred)
+            (
+                page_id,
+                targets,
+                candidates,
+                alignments,
+                positional_rescues,
+                inferred,
+            )
         )
 
     # Production geometry is intentionally not opened until every proposed
@@ -530,7 +610,14 @@ def main() -> int:
     }
     geometry_pages = []
     reports = {}
-    for page_id, targets, candidates, alignments, inferred in inferred_records:
+    for (
+        page_id,
+        targets,
+        candidates,
+        alignments,
+        positional_rescues,
+        inferred,
+    ) in inferred_records:
         geometry_pages.append(inferred)
         reports[page_id] = benchmark_page(
             inferred,
@@ -538,6 +625,7 @@ def main() -> int:
             targets,
             candidates,
             alignments,
+            positional_rescues,
         )
         print(
             f"{page_id}: {reports[page_id]['matched']}/{reports[page_id]['targets']} "

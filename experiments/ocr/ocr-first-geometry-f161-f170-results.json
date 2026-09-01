@@ -1,0 +1,59 @@
+{
+  "format": "nippo-ocr-first-geometry-benchmark-summary",
+  "format_version": 1,
+  "date": "2026-09-02",
+  "pages": [161, 162, 163, 164, 165, 166, 167, 168, 169, 170],
+  "aggregate": {
+    "body_lines": 943,
+    "blind_candidates": 990,
+    "matched_body_lines": 943,
+    "unmatched_body_lines": 0,
+    "unused_candidates": 47,
+    "positional_rescues": 1,
+    "scan_confirmed_neighbor_warnings": 2,
+    "mean_relaxed_cer": 0.1449724095635466,
+    "median_relaxed_cer": 0.11428571428571428,
+    "production_centre_comparison": {
+      "median_absolute_difference_pixels": 18.5,
+      "p95_absolute_difference_pixels": 51,
+      "within_production_neighbor_midpoints": 686,
+      "compared": 943
+    }
+  },
+  "per_page": {
+    "bnf-f0161": {"body_lines": 94, "candidates": 99, "matched": 94, "unused": 5, "median_relaxed_cer": 0.1},
+    "bnf-f0162": {"body_lines": 94, "candidates": 98, "matched": 94, "unused": 4, "median_relaxed_cer": 0.1111111111111111},
+    "bnf-f0163": {"body_lines": 94, "candidates": 98, "matched": 94, "unused": 4, "median_relaxed_cer": 0.10714285714285714},
+    "bnf-f0164": {"body_lines": 94, "candidates": 99, "matched": 94, "unused": 5, "positional_rescues": 1, "scan_confirmed_neighbor_warnings": 2, "median_relaxed_cer": 0.17267080745341615},
+    "bnf-f0165": {"body_lines": 94, "candidates": 98, "matched": 94, "unused": 4, "median_relaxed_cer": 0.10912698412698413},
+    "bnf-f0166": {"body_lines": 94, "candidates": 98, "matched": 94, "unused": 4, "median_relaxed_cer": 0.09375},
+    "bnf-f0167": {"body_lines": 94, "candidates": 100, "matched": 94, "unused": 6, "median_relaxed_cer": 0.125},
+    "bnf-f0168": {"body_lines": 96, "candidates": 100, "matched": 96, "unused": 4, "median_relaxed_cer": 0.1111111111111111},
+    "bnf-f0169": {"body_lines": 95, "candidates": 99, "matched": 95, "unused": 4, "median_relaxed_cer": 0.1111111111111111},
+    "bnf-f0170": {"body_lines": 94, "candidates": 101, "matched": 94, "unused": 7, "median_relaxed_cer": 0.14285714285714285}
+  },
+  "adjudicated_warnings": [
+    {
+      "id": "bnf-f0164/c2-l007",
+      "reason": "single sandwiched positional rescue after unusable OCR",
+      "scan_result": "the isolated native-scan row clearly reads ros ſae."
+    },
+    {
+      "id": "bnf-f0164/c2-l047",
+      "reason": "OCR string scored closer to the preceding long line",
+      "scan_result": "the final isolated native-scan row clearly reads tas folhas."
+    }
+  ],
+  "geometry_review": {
+    "complete_contact_sheet_overviews": 10,
+    "column_sheets": 40,
+    "warning_crops_inspected_at_native_scale": 2,
+    "assigned_status": "contact_sheet_reviewed",
+    "note": "This batch establishes candidate row association and usable column coverage. It does not claim line_by_line_reverified status."
+  },
+  "decision": {
+    "status": "imported_as_canonical_candidate_geometry",
+    "method": "blind_segmentation_ocr_alignment",
+    "text_changed": false
+  }
+}
