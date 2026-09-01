@@ -28,11 +28,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l012` | Feqiguiocu. Tama, tama. *Pedras precioſas.* |  |
 | `c1-l013` | Feqira. Midorino tçuta. *Certa erua verde,* |  |
 | `c1-l014` | &emsp;*& viçoſa.* |  |
-| `c1-l015` | Feqiracu. *Ceo, ou ar.* S*.* |  |
-| `c1-l016` | Feqirano ten. *Ceo claro, & fermoſo.* S*.* |  |
+| `c1-l015` | Feqiracu. *Ceo, ou ar. S.* |  |
+| `c1-l016` | Feqirano ten. *Ceo claro, & fermoſo. S.* |  |
 | `c1-l017` | Feqireqi. Conaximi. *Triſteza. Vt,* Fe- |  |
 | `c1-l018` | &emsp;qireqi xixô ſu. *Ter grande dor, & tri-* |  |
-| `c1-l019` | &emsp;*ſteza.* S*.* |  |
+| `c1-l019` | &emsp;*ſteza. S.* |  |
 | `c1-l020` | Feqiri. i, Ferigiri. *Repartimento. ¶* Fe- |  |
 | `c1-l021` | &emsp;qiriuo ſuru. *Fazer eſte repartimento na* |  |
 | `c1-l022` | &emsp;*caſa, ou diuiſão.* |  |
@@ -41,24 +41,24 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l025` | &emsp;*ou monte ingreme.* |  |
 | `c1-l026` | Feqiſǒ. Cabeno cuſa. *Eruaſinha que nace na* |  |
 | `c1-l027` | &emsp;*parede de barro que logo ſe ſeca. Tomaſe por* |  |
-| `c1-l028` | &emsp;*couſa breue, & de pouca dura.* S*.* |  |
+| `c1-l028` | &emsp;*couſa breue, & de pouca dura. S.* |  |
 | `c1-l029` | Feqisǒ. Midorino cuſa. *Eruas freſcas, &* |  |
-| `c1-l030` | &emsp;*verdes.* S*.* |  |
+| `c1-l030` | &emsp;*verdes. S.* |  |
 | `c1-l031` | Feqitai. Cabeno coqe. *Muſgos da pare-* |  |
-| `c1-l032` | &emsp;*de.* S*.* |  |
+| `c1-l032` | &emsp;*de. S.* |  |
 | `c1-l033` | Feqitan. Midorino fuchi. *Pêgo furdo que* |  |
-| `c1-l034` | &emsp;*parece verde por ſer muito fundo.* S*.* |  |
+| `c1-l034` | &emsp;*parece verde por ſer muito fundo. S.* |  |
 | `c1-l035` | Feqiten. Ceo. Vt, Feqitenno xeixucu. |  |
-| `c1-l036` | &emsp;*Eſtrelas do ceo, &c.* S*.* |  |
+| `c1-l036` | &emsp;*Eſtrelas do ceo, &c. S.* |  |
 | `c1-l037` | Feqitǒ. Midorino momo. i, Xiroi momo. |  |
-| `c1-l038` | &emsp;*Peſegueiro de flores brancas.* S*.* |  |
+| `c1-l038` | &emsp;*Peſegueiro de flores brancas. S.* |  |
 | `c1-l039` | Feqixo. *Prohibição eſcrita em papel pegado* |  |
 | `c1-l040` | &emsp;*na parede, ou dependurado.* |  |
 | `c1-l041` | Feqixǒ. Cabeno vye. *Na ſuperficie da pa-* |  |
 | `c1-l042` | &emsp;*rede. ¶* Cuchi feqixǒni caqu. *Não* |  |
-| `c1-l043` | &emsp;*ſe pode dizer nem explicar.* S*.* |  |
+| `c1-l043` | &emsp;*ſe pode dizer nem explicar. S.* |  |
 | `c1-l044` | Feqixô. Midorino matçu. *Pinheiro verde,* |  |
-| `c1-l045` | &emsp;*& freſco.* S*.* |  |
+| `c1-l045` | &emsp;*& freſco. S.* |  |
 | `c1-l046` | Fera. *Caixa com que amaſſão, & affeiçoão gru-* |  |
 | `c1-l047` | &emsp;*de. ¶* Ferauo tçuqǒ. *Buſcar algũa* |  |
 

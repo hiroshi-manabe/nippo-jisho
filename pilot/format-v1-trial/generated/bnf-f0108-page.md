@@ -17,7 +17,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l001` | &emsp;*Riqueza, ou peça rica.* |  |
 | `c1-l002` | Chinqua. Tacara. *Riquezas. Vt,* Chin |  |
 | `c1-l003` | &emsp;quauo tçumi voqu. T*er muitas rique-* |  |
-| `c1-l004` | &emsp;*zas juntas.* S*.* |  |
+| `c1-l004` | &emsp;*zas juntas. S.* |  |
 | `c1-l005` | Chinqua. Mezzuraxijconomi. *Boa, ou rara* |  |
 | `c1-l006` | &emsp;*fruita. Vt,* Chinqua uo bucuſuru. *Comer* |  |
 | `c1-l007` | &emsp;*fruita noua, ou rara.* |  |

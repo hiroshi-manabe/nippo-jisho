@@ -14,7 +14,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` |  | *as obras de peſſoa honrada.* S*.* |
+| `c1-l001` |  | *as obras de peſſoa honrada. S.* |
 | `c1-l002` | Fǒxen. Fuxegui catacǒ. *Reſiſtir, & pe-* |  |
 | `c1-l003` | &emsp;*lejar. Vt,* Fǒxen ſuru. *Vide,* Co- |  |
 | `c1-l004` | &emsp;xen fǒxen. |  |
@@ -72,7 +72,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` |  | *ceber eſte beneficio, ou obra de amor.* S*.* |
+| `c2-l001` |  | *ceber eſte beneficio, ou obra de amor. S.* |
 | `c2-l002` | Fôxin. Fotoqeni ſanjinno rocu arito yǔ, |  |
 | `c2-l003` | &emsp;nibammeno na nari. *Vt,* Fôxinno nho- |  |
 | `c2-l004` | &emsp;rai. Bup*.* |  |

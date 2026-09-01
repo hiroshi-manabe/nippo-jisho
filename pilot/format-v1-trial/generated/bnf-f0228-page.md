@@ -46,7 +46,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l030` | &emsp;*vento, & ruido dagoa.* |  |
 | `c1-l031` | Fuxei. Vgiyo. *Mundo miſerauel.* |  |
 | `c1-l032` | Fuxen. Nobezu. i, *Não eſcreuer mais, ou* |  |
-| `c1-l033` | &emsp;*não ſe dilatar mais na carta.* S*.* |  |
+| `c1-l033` | &emsp;*não ſe dilatar mais na carta. S.* |  |
 | `c1-l034` | Fuxeri, u, etta. *Jazer, ou deitarſe. ¶ Itẽ,* |  |
 | `c1-l035` | &emsp;*Deſumarſe.* X*.* |  |
 | `c1-l036` | Fǔxet, l, fǔjet. *Nouas incertas que corrẽ.* |  |

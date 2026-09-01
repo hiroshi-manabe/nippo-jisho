@@ -77,7 +77,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l003` | &emsp;*& venda, &c.* |  |
 | `c2-l004` | Fiqen. Firaqi miru. *Abrindo ver, ou ler.* |  |
 | `c2-l005` | &emsp;*Vt,* Gojǒ fiqen môxi ſoro. *Li voſſa* |  |
-| `c2-l006` | &emsp;*carta.* S*.* |  |
+| `c2-l006` | &emsp;*carta. S.* |  |
 | `c2-l007` | Fiqen. Vt, Qen fiqen. *Couſas viſiueis,* |  |
 | `c2-l008` | &emsp;*& inuiſiueis.* Bup*.* |  |
 | `c2-l009` | Fiqeô, l, fiqiô. *Vileza, ou baixeza em cuſ-* |  |

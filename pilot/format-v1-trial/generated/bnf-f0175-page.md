@@ -48,7 +48,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l032` | &emsp;*talagem.* |  |
 | `c1-l033` | Fatagoya. *Eſtalagem, ou venda.* |  |
 | `c1-l034` | Fataita. *Parede de taboas pouco aleuantada.* |  |
-| `c1-l035` | Fatamata. *Alem diſſo.* S*.* |  |
+| `c1-l035` | Fatamata. *Alem diſſo. S.* |  |
 | `c1-l036` | Fatameqi, u, eita. *Andar apreſſado, & ſol-* |  |
 | `c1-l037` | &emsp;*licito ſobre algũa couſa.* |  |
 | `c1-l038` | Fatameqimauari, u, atta. *Andar rodeando* |  |

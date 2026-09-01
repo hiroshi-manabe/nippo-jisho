@@ -31,7 +31,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l015` | &emsp;*ao fogo.* |  |
 | `c1-l016` | Faxiyague, ru, eta. *Idem.* |  |
 | `c1-l017` | Faxizzume. *Principio, ou entrada da ponte.* |  |
-| `c1-l018` | Faxǒ. Nanino vye. *Em cima das ondas.* S*.* |  |
+| `c1-l018` | Faxǒ. Nanino vye. *Em cima das ondas. S.* |  |
 | `c1-l019` | Faxxen. Vt, Doyǒ faxxen. *Certas con-* |  |
 | `c1-l020` | &emsp;*junções, ou conſtellações de tempos q̃ concorẽ* |  |
 | `c1-l021` | &emsp;*por vezes no anno, as quais os Iapões obſer-* |  |

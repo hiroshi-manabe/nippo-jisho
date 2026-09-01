@@ -89,7 +89,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l015` | &emsp;*gonha. ¶ Item, Ter pejo, ou vergonha.* |  |
 | `c2-l016` | &emsp;Fazzucaxiſa. |  |
 | `c2-l017` | &emsp;Fazzucaxǔ. *¶* Fazzucaxǐ vomô. |  |
-| `c2-l018` | &emsp;*Ter vergonha.* |  *( tro.* S. |
+| `c2-l018` | &emsp;*Ter vergonha.* |  *( tro. S.* |
 | `c2-l019` | Fazzucaxime, uru, eta. *Enuergonhar a ou-* |  |
 | `c2-l020` | Fazzumacaxi, ſu, aita. *Deter o folego, Vt,* |  |
 | `c2-l021` | &emsp;Iqiuo fazzumacaſu. *Deter o folego, ou dei-* |  |

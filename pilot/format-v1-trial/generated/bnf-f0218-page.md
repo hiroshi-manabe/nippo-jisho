@@ -32,7 +32,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l016` | &emsp;*&c. Item, Deſobediencia pera com o ſe-* |  |
 | `c1-l017` | &emsp;*nhor, ou meſtre.* |  |
 | `c1-l018` | Fucǒ. Saiuai narazu. *Desdita, ou pouca* |  |
-| `c1-l019` | &emsp;*ventura.* S*.* |  |
+| `c1-l019` | &emsp;*ventura. S.* |  |
 | `c1-l020` | Fucǒna. *Deſobediente ao pay, ou mãy, ou ao* |  |
 | `c1-l021` | &emsp;*ſenhor, & meſtre.* |  |
 | `c1-l022` | Fucqi. Tomi tattoxi. *Proſperidade, abun-* |  |

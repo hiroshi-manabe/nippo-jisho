@@ -17,7 +17,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l001` | Fojiro. *Hum paſſarinho aſſi chamado.* |  |
 | `c1-l002` | Fǒjo. Cǒbaxij taſuque. *Ajuda, ou fauor* |  |
 | `c1-l003` | &emsp;*falando com reſpeito. Vt,* Gufojoni azzuca- |  |
-| `c1-l004` | &emsp;rubecu ſoro. *Peço vos que me ajudeis.* S*.* |  |
+| `c1-l004` | &emsp;rubecu ſoro. *Peço vos que me ajudeis. S.* |  |
 | `c1-l005` | Fǒjǒ. Fôuǒno xiro. *Corte. I, cidade prin-* |  |
 | `c1-l006` | &emsp;*cipal del Rei.* |  |
 | `c1-l007` | Fǒjǒye. *Certa ceremonia gentilica que ſe faz* |  |
@@ -33,7 +33,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l017` | &emsp;*a alguẽ.* |  |
 | `c1-l018` | Fomedocoro. *Couſa, & occaſião de louuar* |  |
 | `c1-l019` | &emsp;*algũa couſa.* |  |
-| `c1-l020` | Fǒmei. Cubaxijna. *Louuor, & honra.* S*.* |  |
+| `c1-l020` | Fǒmei. Cubaxijna. *Louuor, & honra. S.* |  |
 | `c1-l021` | Fǒmen. Cubaxij yuruxi, i, vô yuruxi. *Per-* |  |
 | `c1-l022` | &emsp;*dão de peſſoa alta, & nobre.* |  |
 | `c1-l023` | Fomeqi, u, eita. *Fazer grande quentura,* |  |
@@ -47,10 +47,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l031` | Fômon. Norino mondǒ. *Diſputa acerca das* |  |
 | `c1-l032` | &emsp;*leis.* |  |
 | `c1-l033` | Fômon. Norino cado. *Seita, ou inſtituto* |  |
-| `c1-l034` | &emsp;*differente.* S*.* |  |
+| `c1-l034` | &emsp;*differente. S.* |  |
 | `c1-l035` | Fǒmon. Cubaxij tǒ. *O perguntar, ou vi-* |  |
 | `c1-l036` | &emsp;*ſitar por carta, honrando a peſſoa que viſitou,* |  |
-| `c1-l037` | &emsp;*ou eſcreueo.* S*.* |  |
+| `c1-l037` | &emsp;*ou eſcreueo. S.* |  |
 | `c1-l038` | Fômot. *Eſmola q̃ ſe dá por reſpeito de propagar* |  |
 | `c1-l039` | &emsp;*a lei, aleuantar Igrejas, &c.* |  |
 | `c1-l040` | Fômu. *Certo officio entre os Bǒzos.* |  |

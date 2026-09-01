@@ -79,7 +79,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l005` | Chocusat. Teiuôno von fumi. *Carta del* |  |
 | `c2-l006` | &emsp;*Rei.* |  |
 | `c2-l007` | Chocutǒ. Teiuôno von fenji. *Reſpoſta del* |  |
-| `c2-l008` | &emsp;*Rei.* S*.* |  |
+| `c2-l008` | &emsp;*Rei. S.* |  |
 | `c2-l009` | Chocuxei. *Iuramento del Rei.* |  |
 | `c2-l010` | Chocuxen. Vôxe notauô. i. Teiuôno vô- |  |
 | `c2-l011` | &emsp;xe. *Mandado del Rei.* |  |

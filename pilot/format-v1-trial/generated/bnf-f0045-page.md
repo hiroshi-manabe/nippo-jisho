@@ -117,7 +117,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l028` | &emsp;raſuru. *Pintar, ou ornar com palauras de* |  |
 | `c2-l029` | &emsp;*maneira que hum folgue de ouuir. ¶* Co- |  |
 | `c2-l030` | &emsp;ye ayauo naſu. *Fazer paſſos de garganta,* |  |
-| `c2-l031` | &emsp;*ou, gargantear.* S*.* |  |
+| `c2-l031` | &emsp;*ou, gargantear. S.* |  |
 | `c2-l032` | Ayanicu, P. *Adu. Ao reuez do que homẽ* |  |
 | `c2-l033` | &emsp;*deſeja, ou eſpera.* |  |
 | `c2-l034` | Ayatçuri. *Inuenção, ou artificio.* |  |

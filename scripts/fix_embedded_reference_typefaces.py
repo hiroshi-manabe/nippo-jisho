@@ -32,7 +32,8 @@ REFERENCE_RE = re.compile(
 GRAMMATICAL_RE = re.compile(
     r"(?<![\wſ])(?:Aduerb|Aduer|Adu|Ad)\.|(?<![\wſ])Melius(?![\wſ])"
 )
-USAGE_LABEL_RE = re.compile(r"(?<![\wſ])(?:Bup|Voi|S|X)(?=\.)")
+USAGE_LABEL_RE = re.compile(r"(?<![\wſ])(?:Bup|Voi|X)(?=\.)")
+STANDALONE_S_RE = re.compile(r"(?<![\wſ])S\.(?![\wſ])")
 POETRY_LABEL_RE = re.compile(r"(?<![\wſ])P(?=\.)")
 BOOK_RE = re.compile(r"(?<![\wſ])(?:Lib|lib|L|Li)\.")
 CONTINUED_BOOK_RE = re.compile(r"^(?:Lib|lib)\.\s*(?:[ivxlcdm]+|\d+)\.", re.I)
@@ -84,15 +85,21 @@ def serialize(characters: list[list[str | bool]]) -> str:
     return "".join(output)
 
 
-def rewrite_content(content: str) -> str:
+def rewrite_content(
+    content: str,
+    *,
+    apply_standalone_s: bool = True,
+    only_standalone_s: bool = False,
+) -> str:
     characters = parse_styles(content)
     text = visible_text(characters)
-    references = list(REFERENCE_RE.finditer(text))
-    grammatical = list(GRAMMATICAL_RE.finditer(text))
-    usage_labels = list(USAGE_LABEL_RE.finditer(text))
-    poetry_labels = list(POETRY_LABEL_RE.finditer(text))
-    continued_book = CONTINUED_BOOK_RE.match(text)
-    if not grammatical and not references and not usage_labels and not poetry_labels and not continued_book:
+    standalone_s = list(STANDALONE_S_RE.finditer(text)) if apply_standalone_s else []
+    references = [] if only_standalone_s else list(REFERENCE_RE.finditer(text))
+    grammatical = [] if only_standalone_s else list(GRAMMATICAL_RE.finditer(text))
+    usage_labels = [] if only_standalone_s else list(USAGE_LABEL_RE.finditer(text))
+    poetry_labels = [] if only_standalone_s else list(POETRY_LABEL_RE.finditer(text))
+    continued_book = None if only_standalone_s else CONTINUED_BOOK_RE.match(text)
+    if not standalone_s and not grammatical and not references and not usage_labels and not poetry_labels and not continued_book:
         return content
     original_styles = [italic for _, italic in characters]
 
@@ -102,6 +109,8 @@ def rewrite_content(content: str) -> str:
         set_style(characters, match, False)
     for match in usage_labels:
         set_style(characters, match, False)
+    for match in standalone_s:
+        set_style(characters, match, True)
     for match in poetry_labels:
         # `P.` is upright when it closes or qualifies material already in the
         # italic apparatus, but can itself be italic when it introduces the
@@ -130,7 +139,7 @@ def page_number(path: Path) -> int:
     return int(path.stem.removeprefix("bnf-f"))
 
 
-def process(path: Path, *, apply: bool) -> int:
+def process(path: Path, *, apply: bool, only_standalone_s: bool = False) -> int:
     original = path.read_text(encoding="utf-8")
     output: list[str] = []
     changed = 0
@@ -141,7 +150,11 @@ def process(path: Path, *, apply: bool) -> int:
             output.append(line)
             continue
         prefix, content = body.split("] ", 1)
-        rewritten = rewrite_content(content)
+        rewritten = rewrite_content(
+            content,
+            apply_standalone_s=prefix.startswith("[c"),
+            only_standalone_s=only_standalone_s,
+        )
         new_line = f"{prefix}] {rewritten}{ending}"
         changed += new_line != line
         output.append(new_line)
@@ -153,6 +166,11 @@ def process(path: Path, *, apply: bool) -> int:
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--from-page", type=int, default=105)
+    parser.add_argument(
+        "--only-standalone-s",
+        action="store_true",
+        help="change only standalone body-text S. tokens to italic",
+    )
     parser.add_argument("--apply", action="store_true")
     args = parser.parse_args()
 
@@ -161,7 +179,11 @@ def main() -> int:
     for path in sorted(SOURCE_ROOT.glob("bnf-f*.md")):
         if page_number(path) < args.from_page:
             continue
-        count = process(path, apply=args.apply)
+        count = process(
+            path,
+            apply=args.apply,
+            only_standalone_s=args.only_standalone_s,
+        )
         if count:
             changed_files += 1
             changed_lines += count

@@ -24,7 +24,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l008` | &emsp;*por onde a ferrão pera abrir, ou fechar.* |  |
 | `c1-l009` | Fittô. Fude caxira. *Cabeça da pena. ¶* Fit- |  |
 | `c1-l010` | &emsp;tôni tçucuxigataxi. *Não ſe pode acabar* |  |
-| `c1-l011` | &emsp;*de eſcreuer.* S*.* |  |
+| `c1-l011` | &emsp;*de eſcreuer. S.* |  |
 | `c1-l012` | Fittoqi, u, oita. *Deſatar. ¶* Carague- |  |
 | `c1-l013` | &emsp;nauauo curucuruto fittoita. *Tog. De-* |  |
 | `c1-l014` | &emsp;*ſatou com preſſa, & viueza a corda de a-* |  |

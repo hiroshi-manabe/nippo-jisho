@@ -94,7 +94,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l013` | &emsp;*nho.* |  |
 | `c2-l014` | Cojin. Inixiyeno fito. *Homem antigo.* |  |
 | `c2-l015` | Cǒjin. Sanai ſanaſada. *Palaura com que ſe* |  |
-| `c2-l016` | &emsp;*dão os parabens, ou rogão boas couſas, &c.* S*.* |  |
+| `c2-l016` | &emsp;*dão os parabens, ou rogão boas couſas, &c. S.* |  |
 | `c2-l017` | Côjin. Nochino fito. *Homem vindouro, ou* |  |
 | `c2-l018` | &emsp;*que hade vir depois.* |  |
 | `c2-l019` | Cojiqi. *Pedinte. ¶ Item, No* Ximo *La-* |  |

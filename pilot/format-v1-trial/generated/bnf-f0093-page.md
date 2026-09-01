@@ -83,7 +83,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l003` | &emsp;Carugaruxiſa. |  |
 | `c2-l004` | &emsp;Carugaruxù. |  |
 | `c2-l005` | Carugayuyeni. *Adu. Por eſta cauſa, por* |  |
-| `c2-l006` | &emsp;*tanto, ou ſendo aſſi.* S*.* |  |
+| `c2-l006` | &emsp;*tanto, ou ſendo aſſi. S.* |  |
 | `c2-l007` | Carugueni. *Adu. Leuemente.* |  |
 | `c2-l008` | Carui. *Couſa leue. ¶ Item, Peſſoa de pou-* |  |
 | `c2-l009` | &emsp;*co ſizo.* |  |

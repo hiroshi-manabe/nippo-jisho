@@ -51,7 +51,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l035` | &emsp;*repoſta a peſſoas honradas, &c.* |  |
 | `c1-l036` | Faitǒ. Cubari, atçuru. *Repartição.* |  |
 | `c1-l037` | Faitǒ. *Repoſta com reuerencia a peſſoa nobre.* |  |
-| `c1-l038` | Faiu. i, Sacazzugi. *Copo, ou taça.* S*.* |  |
+| `c1-l038` | Faiu. i, Sacazzugi. *Copo, ou taça. S.* |  |
 | `c1-l039` | Faiuatari, u, atta. *Eſtenderſe, ou paſſar de* |  |
 | `c1-l040` | &emsp;*hũa parte a outra como era, ou erua de latada q̃* |  |
 | `c1-l041` | &emsp;*paſſa de hũ pao a outro. Itẽ, Eſtẽderſe o bicho,* |  |

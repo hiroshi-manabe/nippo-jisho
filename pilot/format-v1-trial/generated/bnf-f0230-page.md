@@ -107,7 +107,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l021` | &emsp;*¶* Voqina gacai. *Grande machina de o-* |  |
 | `c2-l022` | &emsp;*bra, caſas, &c.* |  |
 | `c2-l023` | Gaccai. *Grandes letras, ou larga, & profun-* |  |
-| `c2-l024` | &emsp;*da ſciencia.* S*.* |  |
+| `c2-l024` | &emsp;*da ſciencia. S.* |  |
 | `c2-l025` | Gaccô. *Lugar de eſtudos como vniuerſidade.* |  |
 | `c2-l026` | Gachi. *Pola mor parte, ou frequentemente.* |  |
 | `c2-l027` | &emsp;*Vſaſe ſempre depois de outros nomes. Vt,* |  |
@@ -118,7 +118,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l032` | &emsp;*que os outros algũa couſa.* |  |
 | `c2-l033` | Gacu. Manabu. *Eſtudo. ¶* Gacu ſuru. |  |
 | `c2-l034` | &emsp;*Eſtudar.* |  |
-| `c2-l035` | Gacu. Voca. *Outeiroſinho, ou morro.* S*.* |  |
+| `c2-l035` | Gacu. Voca. *Outeiroſinho, ou morro. S.* |  |
 | `c2-l036` | Gacu. *Muſica. ¶* Gacuuo ſôſuru. *Tã-* |  |
 | `c2-l037` | &emsp;*ger inſtrumentos muſicos, ou deſcantar.* |  |
 | `c2-l038` | Gacu. *Titulo eſcrito em taboa, ou rotolo.* |  |
@@ -127,7 +127,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l041` | Gacudô. Manabu michi. *Artes, ou ſci-* |  |
 | `c2-l042` | &emsp;*encias.* |  |
 | `c2-l043` | Gacufen. Vccano fotori. *Borda do outeiro,* |  |
-| `c2-l044` | &emsp;*ou morro.* S*.* |  |
+| `c2-l044` | &emsp;*ou morro. S.* |  |
 | `c2-l045` | Gacuguei. *Sciencias, & artes.* |  |
 | `c2-l046` | Gacuguiô. Manaqi voconô. *Sciencias, &* |  |
 | `c2-l047` | &emsp;*virtudes, ou penitencias.* |  |

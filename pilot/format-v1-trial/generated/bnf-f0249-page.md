@@ -22,7 +22,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l006` | Gu-i. Vorocana cocoro. i, Vaga zonbun. |  |
 | `c1-l007` | &emsp;*Meu parecer falando deſi humildemente.* |  |
 | `c1-l008` | Gu ichi. *Cinco, & as nos dados.* |  |
-| `c1-l009` | Gǔjen. Tamatama. *Raro.* S. |  |
+| `c1-l009` | Gǔjen. Tamatama. *Raro. S.* |  |
 | `c1-l010` | Gujǒ. i, Vaga fumi. *Minha carta falando* |  |
 | `c1-l011` | &emsp;*com humildade.* |  |
 | `c1-l012` | Gumai. Vorocani, curaxi. i, guchi. *Ig-* |  |
@@ -48,15 +48,15 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l032` | Gunchô. Muragaru tori. *Bando de paſſaros.* |  |
 | `c1-l033` | &emsp;*Vt,* Gunchǒ ſayezzuru coto mimini michi |  |
 | `c1-l034` | &emsp;tari. *O bando de paſſaros faz grande traqui-* |  |
-| `c1-l035` | &emsp;*nada nos ouuidos cantando.* S. |  |
+| `c1-l035` | &emsp;*nada nos ouuidos cantando. S.* |  |
 | `c1-l036` | Gunchǔ. Icuſano chǔxet. *Seruiço feito na* |  |
-| `c1-l037` | &emsp;*guerra.* S. |  |
+| `c1-l037` | &emsp;*guerra. S.* |  |
 | `c1-l038` | Gunchǔ. Icuſano naca. *Dentro na guerra, ou* |  |
 | `c1-l039` | &emsp;*batalha.* |  |
 | `c1-l040` | Gunchǔ. Couorino naca. *Meo da comarca,* |  |
 | `c1-l041` | &emsp;*ou parte do reino.* |  |
 | `c1-l042` | Guncô. Icuſano chǔcǒ. *Seruiços feitos na* |  |
-| `c1-l043` | &emsp;*guerra.* S. |  |
+| `c1-l043` | &emsp;*guerra. S.* |  |
 | `c1-l044` | Guncocu. *Terras, & reinos. Vt,* Gunco- |  |
 | `c1-l045` | &emsp;cuuo mauaru. *Correr muitas terras, &* |  |
 | `c1-l046` | &emsp;*reinos.* |  |
@@ -74,7 +74,7 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c2-l001` | Gundô. Muragari vgoqu. *Mouerſe muita* |  |
-| `c2-l002` | &emsp;*gente junta.* S. |  |
+| `c2-l002` | &emsp;*gente junta. S.* |  |
 | `c2-l003` | Gunen. Motomuru. *Alcançar, ou buſcar* |  |
 | `c2-l004` | &emsp;*com o deſejo.* |  |
 | `c2-l005` | Gungin. Icuſano gin. *Exercito, ou arrayal.* |  |
@@ -83,7 +83,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l008` | &emsp;*nos que ſe chama, Gǒ.* |  |
 | `c2-l009` | Gunguio. Muragaru vuo. *Cardume de pei-* |  |
 | `c2-l010` | &emsp;*xes. Vt,* Gunguio namini vcamu. *O* |  |
-| `c2-l011` | &emsp;*cardume de peixe anda ao lume dagoa.* S. |  |
+| `c2-l011` | &emsp;*cardume de peixe anda ao lume dagoa. S.* |  |
 | `c2-l012` | Gunguiocu. Muragaru tama. *Muitas pedras* |  |
 | `c2-l013` | &emsp;*precioſas juntas.* |  |
 | `c2-l014` | Guni. *Dous, & cinco nos dados.* |  |
@@ -98,7 +98,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l023` | Gunjen. Icuſano maye. *Antes da guerra.* |  |
 | `c2-l024` | &emsp;*Vt,* Gunjenni cateuo facaru. *Antes da* |  |
 | `c2-l025` | &emsp;*guerra lançar conta ao mantimento que he neceſ-* |  |
-| `c2-l026` | &emsp;*ſario pera tanta gente.* S. |  |
+| `c2-l026` | &emsp;*ſario pera tanta gente. S.* |  |
 | `c2-l027` | Gunjin. i, Icuſagami. *Marte, ou Cami da* |  |
 | `c2-l028` | &emsp;*guerra.* |  *(o homem.* |
 | `c2-l029` | Gunjǒ. *Todos os viuentes ſenſitiuos tirando* |  |
@@ -114,12 +114,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l039` | &emsp;*quinas à maneira dos cinco pontos dos dados.* |  |
 | `c2-l040` | Gunpacu. Icuſano macu. *Certas cortinas q̃* |  |
 | `c2-l041` | &emsp;*com adiuiſa de cada hum ſe eſtendem nos ran-* |  |
-| `c2-l042` | &emsp;*chos onde ſe aloja o exercito.* S. |  |
+| `c2-l042` | &emsp;*chos onde ſe aloja o exercito. S.* |  |
 | `c2-l043` | Gunpen. Icuſano fotori. *Iunto do arrayal.* |  |
 | `c2-l044` | Gunpi. Muragari tobu. *Bando de paſſaros q̃* |  |
-| `c2-l045` | &emsp;*voão juntos.* S. |  |
+| `c2-l045` | &emsp;*voão juntos. S.* |  |
 | `c2-l046` | Gunpǒ. Gun, couori. *Partes, ou comarcas* |  |
-| `c2-l047` | &emsp;*do reino.* S. |  |
+| `c2-l047` | &emsp;*do reino. S.* |  |
 
 ## Printed gathering signature
 

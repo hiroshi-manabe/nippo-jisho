@@ -54,7 +54,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l038` | Guenbutxa. *Fotoque que deſpacha depreſſa,* |  |
 | `c1-l039` | &emsp;*& ouue as petições, ou dà logo premio, ou* |  |
 | `c1-l040` | &emsp;*caſtigo.* |  |
-| `c1-l041` | Guencan. Qibixij ſamuxi. *Grande frio.* S*.* |  |
+| `c1-l041` | Guencan. Qibixij ſamuxi. *Grande frio. S.* |  |
 | `c1-l042` | Guengiû. *Iuſtiça, & ſeueridade. ¶* Guẽ- |  |
 | `c1-l043` | &emsp;giûni xǒbatuo voconǒ. *Dar premio, ou* |  |
 | `c1-l044` | &emsp;*caſtigo recta, & ſeueramente.* |  |
@@ -91,7 +91,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l011` | &emsp;*tude, & marauilhoſas.* |  |
 | `c2-l012` | Guenje. *Eſte mundo.* |  |
 | `c2-l013` | Guenjen. Mayeni arauaruru. *Aparecer* |  |
-| `c2-l014` | &emsp;*diante.* S*.* |  |
+| `c2-l014` | &emsp;*diante. S.* |  |
 | `c2-l015` | Guenji. Minamoto vgi. *Hũa geração nome-* |  |
 | `c2-l016` | &emsp;*ada, & antiga em Iapão.* |  |
 | `c2-l017` | Guenji. *Hũs certos liuros poeticos de hiſ-* |  |
@@ -114,14 +114,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l034` | Guenmu. Maboroxi yume. *Sonho vão, ou* |  |
 | `c2-l035` | &emsp;*que dura pouco.* Bup*.* |  |
 | `c2-l036` | Guen, ni, bi, jet, xin, y. *Seis ſentidos que* |  |
-| `c2-l037` | &emsp;*poem os Chinas, & Iapões.* S*. ¶* Ma- |  |
+| `c2-l037` | &emsp;*poem os Chinas, & Iapões. S. ¶* Ma- |  |
 | `c2-l038` | &emsp;naco, mimi, fana, xita, mi, cocoro. |  |
 | `c2-l039` | &emsp;*Ver, ouuir, cheirar, goſtar, palpar, ſenti-* |  |
 | `c2-l040` | &emsp;*do comum.* |  |
 | `c2-l041` | Guen ni cô. Manaco, mimi, cuchi. *Olhos,* |  |
 | `c2-l042` | &emsp;*orelhas, & boca.* |  |
 | `c2-l043` | Guennin. Maboroxino fito. *Natureza hu-* |  |
-| `c2-l044` | &emsp;*mana miſerauel, & de pouca dura.* S*.* |  |
+| `c2-l044` | &emsp;*mana miſerauel, & de pouca dura. S.* |  |
 | `c2-l045` | Guenpu. Cayeri tçugu. *O tornar a ſua* |  |
 | `c2-l046` | &emsp;*renda, ou eſtado primeiro. Vt,* Guenpu |  |
 | `c2-l047` | &emsp;xerareta. |  |

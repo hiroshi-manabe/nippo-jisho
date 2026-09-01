@@ -103,7 +103,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l029` | Fitjet. Fude, xita. i, Bunxǒ. *Eſcritura,* |  |
 | `c2-l030` | &emsp;*ou falar por eſcrito. ¶* Fitjetni tçucuxi |  |
 | `c2-l031` | &emsp;gataxi. *Não ſe pode eſplicar por pena, ou* |  |
-| `c2-l032` | &emsp;*eſcrito.* S*.* |  |
+| `c2-l032` | &emsp;*eſcrito. S.* |  |
 | `c2-l033` | Fitmet. Canarazu meſſuru. *Deſtruirſe, ou* |  |
 | `c2-l034` | &emsp;*acabarſe. Vt,* Xǒja fitmet. *Os que nacẽ* |  |
 | `c2-l035` | &emsp;*ſem falta acabão.* Feiq*. Lib. 4.* |  |

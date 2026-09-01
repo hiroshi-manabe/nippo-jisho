@@ -88,7 +88,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l013` | Cagacu. Xitayori manabu. *O aprender co-* |  |
 | `c2-l014` | &emsp;*meçando por baxos principios algũa couſa. Vt,* |  |
 | `c2-l015` | &emsp;Cagacu xite xǒ taſſu. *Aprender deſdo* |  |
-| `c2-l016` | &emsp;*mais baxo, pera vir aſaber couſas altas.* S*.* |  |
+| `c2-l016` | &emsp;*mais baxo, pera vir aſaber couſas altas. S.* |  |
 | `c2-l017` | Cagaguinu. *Peças de ſeda que ſe fazem bo-* |  |
 | `c2-l018` | &emsp;*as no reino de* Caga*.* |  |
 | `c2-l019` | Cagamari, aru, atta. *Encolherſe, ou do-* |  |

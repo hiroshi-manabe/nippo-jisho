@@ -75,7 +75,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l001` |  | *letrando. Vt,* Fochifochito yomu, l, fo- |
 | `c2-l002` | &emsp;xifoxito yomu. |  |
 | `c2-l003` | Fôchô. i, Fôuô. *Paſſaro do ſol.* |  |
-| `c2-l004` | Fǒchǒ. *Inchar. Vt,* Fǒchǒſuru. S*.* |  |
+| `c2-l004` | Fǒchǒ. *Inchar. Vt,* Fǒchǒſuru. *S.* |  |
 | `c2-l005` | Fǒchǒ. *Manchil, ou cutelo de trinchar, &* |  |
 | `c2-l006` | &emsp;*cortar na cozinha. ¶* Fǒchǒ ſuru. *Cor-* |  |
 | `c2-l007` | &emsp;*tar, ou trinchar com eſte inſtrumento.* |  |

@@ -46,7 +46,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l030` | &emsp;*tempo em que ſe eſcreue, ou toma a pena.* |  |
 | `c1-l031` | &emsp;*Vt,* Ficcani cacuuo môqetari. *Toman-* |  |
 | `c1-l032` | &emsp;*do a pena pera eſcreuer, ocorreu me hũa boa* |  |
-| `c1-l033` | &emsp;*ſentença.* S*.* |  |
+| `c1-l033` | &emsp;*ſentença. S.* |  |
 | `c1-l034` | Ficcacari, u, atta. *Embaraçarſe, ou prender-* |  |
 | `c1-l035` | &emsp;*ſe como no mato, ou ſiluas quando paſſão, ou* |  |
 | `c1-l036` | &emsp;*quando puxão por algum pao, &c. ¶* Qi- |  |

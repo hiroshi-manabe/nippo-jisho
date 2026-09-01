@@ -108,7 +108,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l033` | &emsp;*quẽte.* |  |
 | `c2-l034` | Candan. Xizzucani cataru. *Praticar de va-* |  |
 | `c2-l035` | &emsp;*gar & à vontade. vt,* Candanuo toguru. |  |
-| `c2-l036` | &emsp;*Idem.* S*.* |  |
+| `c2-l036` | &emsp;*Idem. S.* |  |
 | `c2-l037` | Canden. Xizzucana iye. *Caſa ſolitaria.* |  |
 | `c2-l038` | Candǒ. Cangaye ataru. i. Fitono qini chi |  |
 | `c2-l039` | &emsp;gǒ. *Quebrar com alguem na amizade, ou* |  |

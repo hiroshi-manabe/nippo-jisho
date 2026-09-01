@@ -99,7 +99,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l024` | Ganrui. Manacono namida. *Lagrima dos* |  |
 | `c2-l025` | &emsp;*olhos.* |  |
 | `c2-l026` | Gansat. i, Fumi. *Carta. ¶* Goganſat- |  |
-| `c2-l027` | &emsp;ni azzucari ſoro. *Recebi a voſſa carta.* S*.* |  |
+| `c2-l027` | &emsp;ni azzucari ſoro. *Recebi a voſſa carta. S.* |  |
 | `c2-l028` | Gansǒ. Manacono catachi. *Figura, ou fei-* |  |
 | `c2-l029` | &emsp;*ção dos olhos.* |  |
 | `c2-l030` | Gansǒ. Qixuno cuſa. *Eruas da penedia da* |  |
@@ -114,7 +114,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l039` | Ganxǒ. Iuauono vye. *Em cima da penedia,* |  |
 | `c2-l040` | &emsp;*ou rochedo.* |  |
 | `c2-l041` | Ganxǒ. Manacono vye. *Em cima dos olhos.* |  |
-| `c2-l042` | Ganxo. *Carta.* S*.* |  |
+| `c2-l042` | Ganxo. *Carta. S.* |  |
 | `c2-l043` | Ganxocu. Cauchaxe iro. *Roſto, ou cor do* |  |
 | `c2-l044` | &emsp;*roſto. Vt,* Ganxocuni yemiuo fucumu. |  |
 | `c2-l045` | &emsp;*Ter alegria, ou moſtrala no roſto. ¶* Gã- |  |

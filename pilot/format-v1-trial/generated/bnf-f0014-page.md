@@ -81,7 +81,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l007` | Aburaqiri, u. *Vide* Aburaguiru. |  |
 | `c2-l008` | Aburaſaxi, ſu, aita. *Vntar com azeite, ou* |  |
 | `c2-l009` | &emsp;*vnto. ¶* Curumani abura ſaſu. *Vn-* |  |
-| `c2-l010` | &emsp;*tar o exo do carro.* S*. ¶* Aburauo ſaſu. i, |  |
+| `c2-l010` | &emsp;*tar o exo do carro. S. ¶* Aburauo ſaſu. i, |  |
 | `c2-l011` | &emsp;Aburauo tçugu. *Botar azeite como na cã* |  |
 | `c2-l012` | &emsp;*dea, &c.* |  |
 | `c2-l013` | Aburaſaxi, i, Abura tçugui. *Vaſo com que* |  |
@@ -96,7 +96,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l022` | Aburaya. *Caſa onde ſe vende, ou faz azei-* |  |
 | `c2-l023` | &emsp;*te. ¶ Itẽ, Improprie oq̃ vẽde, ou faz azeite.* |  |
 | `c2-l024` | Aburazaxi, ſu, aita. *Vntar com azeite, ou* |  |
-| `c2-l025` | &emsp;*vnto.* S*.* |  |
+| `c2-l025` | &emsp;*vnto. S.* |  |
 | `c2-l026` | Aburazzuqi, u, uita. *Pegarſe o ſuor, ou gor* |  |
 | `c2-l027` | &emsp;*dura do corpo no veſtido, &c. ¶ Itẽ, Ali* |  |
 | `c2-l028` | &emsp;*quando permet. Estar pegado, & embebido* |  |

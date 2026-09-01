@@ -97,7 +97,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l023` | &emsp;*as armas. ¶ Item, Caſa onde ſe fazem.* |  |
 | `c2-l024` | Gutacu. *Minha caſa vil.* |  |
 | `c2-l025` | Gutocu. i, Tocu ſonauaru. *Ter em ſi grã-* |  |
-| `c2-l026` | &emsp;*des virtudes, ou partes, & qualidades.* S. |  |
+| `c2-l026` | &emsp;*des virtudes, ou partes, & qualidades. S.* |  |
 | `c2-l027` | Guuacu. Vorocani madǒ. *Errar ignorante-* |  |
 | `c2-l028` | &emsp;*mente.* |  |
 | `c2-l029` | Guxa. Vorocana mono. *Homem ignoran-* |  |

@@ -40,7 +40,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l024` | &emsp;*aſſi pronunciaſe* Fôgu, *papeis borrados, &c.* |  |
 | `c1-l025` | Fongocu. Motono cuni. *Proprio Reino* |  |
 | `c1-l026` | &emsp;*onde hum naceo.* |  |
-| `c1-l027` | Fonguai. *Comprazerſe, & alegrarſe.* S*.* |  |
+| `c1-l027` | Fonguai. *Comprazerſe, & alegrarſe. S.* |  |
 | `c1-l028` | &emsp;*Vt,* Fonguaini zonji ſoro. *Alegro me,* |  |
 | `c1-l029` | &emsp;*& folgo muito. ¶ Item, Deſejo, ou von-* |  |
 | `c1-l030` | &emsp;*tade. Vt,* Fonguaini canǒ. *Comprir os* |  |

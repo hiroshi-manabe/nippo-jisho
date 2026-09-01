@@ -84,6 +84,7 @@
     if (!parsed.valid || !parsed.characters[index]) return null;
     const character = parsed.characters[index].character;
     if (!/\p{Ll}/u.test(character) || (index > 0 && /\p{L}/u.test(parsed.characters[index - 1].character))) return null;
+    if (character === 'a') return null;
     const next = parsed.characters[index + 1]?.character;
     if (/\p{L}/u.test(next || '')) return null;
     return {start: index, end: index + (next === '.' ? 2 : 1)};

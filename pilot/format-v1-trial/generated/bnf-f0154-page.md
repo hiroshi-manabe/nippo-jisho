@@ -77,7 +77,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l003` | &emsp;*ſer enſinado.* |  |
 | `c2-l004` | Denpit. Fudeuo tçutayuru. i. Xoni cotoz- |  |
 | `c2-l005` | &emsp;zute ſuru. *Encomendas por cartas. Vt,* |  |
-| `c2-l006` | &emsp;Denpituo moxiſoro. S*.* |  |
+| `c2-l006` | &emsp;Denpituo moxiſoro. *S.* |  |
 | `c2-l007` | Denqi. Tçutaye xuſu. *Eſcritura, ou li-* |  |
 | `c2-l008` | &emsp;*uro de hiſtoria.* |  |
 | `c2-l009` | Denquǒ. Inabicari. *Relampago.* |  |

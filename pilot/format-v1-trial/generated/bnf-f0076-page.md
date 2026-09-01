@@ -94,7 +94,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l020` | &emsp;*comer aos paſſaros. ¶* Docuuo cǒ. *Dar* |  |
 | `c2-l021` | &emsp;*peçonha a alguem.* |  |
 | `c2-l022` | Cai an. *Vt,* Cai an gaxei. *Eſtar acidade, ou* |  |
-| `c2-l023` | &emsp;*o reino em paz, & quieto.* S*.* |  |
+| `c2-l023` | &emsp;*o reino em paz, & quieto. S.* |  |
 | `c2-l024` | Cai atçume, ru, eta. *Comprando ajuntar.* |  |
 | `c2-l025` | Caica. Curainomoto. *Iunto, ou perto dos* |  |
 | `c2-l026` | &emsp;*que ſobem a dignidades, & graos.* |  |

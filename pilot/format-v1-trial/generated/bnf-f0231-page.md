@@ -109,7 +109,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l029` | &emsp;firoi gaicacu. *Grande vulto, & aparencia* |  |
 | `c2-l030` | &emsp;*de edificio, cerca, &c.* |  |
 | `c2-l031` | Gaichǔ. *Vt,* Iũnigaichǔ. i, Tçugino v- |  |
-| `c2-l032` | &emsp;chi. *Dentro da hora.* S*.* |  |
+| `c2-l032` | &emsp;chi. *Dentro da hora. S.* |  |
 | `c2-l033` | Gaicot. Xigai fone. *Oſſada de corpo morto.* |  |
 | `c2-l034` | Gaina, l, gaina mono. *Peſſoa liure, & a-* |  |
 | `c2-l035` | &emsp;*miga de ſeu parecer, pouco cortes pera com o ſe-* |  |

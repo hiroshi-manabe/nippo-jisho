@@ -22,7 +22,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l006` | Funi. Futatçu narazu. *Não auer dous, ou* |  |
 | `c1-l007` | &emsp;*ſer hũa ſó couſa.* |  |
 | `c1-l008` | Funicu. Cuſaritaru xiximura. *Carne po-* |  |
-| `c1-l009` | &emsp;*dre.* S*.* |  |
+| `c1-l009` | &emsp;*dre. S.* |  |
 | `c1-l010` | Funin. *Dignidade que dão Rey, ou outro ſe-* |  |
 | `c1-l011` | &emsp;*nhor grande por algum ſeruiço. ¶* Funin |  |
 | `c1-l012` | &emsp;uo daſaruru. *Dar eſta dignidade, ou grao.* |  |
@@ -34,7 +34,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l018` | Funmiǒni. *Adu. Claramente.* |  |
 | `c1-l019` | Funnobi, uru, ita. *Eſtender os pés como quã-* |  |
 | `c1-l020` | &emsp;*do hum ſe eſpreguiça.* |  |
-| `c1-l021` | Funnu. Icari, icaru. *Indignarſe.* S*.* |  |
+| `c1-l021` | Funnu. Icari, icaru. *Indignarſe. S.* |  |
 | `c1-l022` | Funô, l, munô. *Não ter artes, nem habi-* |  |
 | `c1-l023` | &emsp;*lidades.* |  |
 | `c1-l024` | Funôna. *Idem.* |  |
@@ -45,16 +45,16 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l029` | &emsp;*lão da farinha aſſados em panella, ou tacho.* |  |
 | `c1-l030` | Funpǒ. Cǒbaxij, cǒbaxij. *Couſa cheiroſa,* |  |
 | `c1-l031` | &emsp;*ou o cheirar muito. Vt,* Reiqio xiqirini |  |
-| `c1-l032` | &emsp;funpǒ ſu. *O excellente cheiro recẽde muito.* S*.* |  |
+| `c1-l032` | &emsp;funpǒ ſu. *O excellente cheiro recẽde muito. S.* |  |
 | `c1-l033` | Funpun. Maguire, maguiruru. *O trauarſe,* |  |
 | `c1-l034` | &emsp;*& miſturarſe algũa multidão de couſas entre ſi.* |  |
 | `c1-l035` | &emsp;*Vt,* Funpuntaru yuqi. *Neue que cae mui-* |  |
 | `c1-l036` | &emsp;*ta miſturada hũa com outra.* |  |
 | `c1-l037` | Funpun. Cǒbaxixi, cǒbaxixi. *Cheiro ſua-* |  |
-| `c1-l038` | &emsp;*ue, ou eſpalharſe o cheiro.* S*.* |  |
+| `c1-l038` | &emsp;*ue, ou eſpalharſe o cheiro. S.* |  |
 | `c1-l039` | Funqi. Funo vtçuuamono. *Vaſo, ou ſeruiço.* |  |
 | `c1-l040` | Funran. Maguire, midaruru. *Perturbação,* |  |
-| `c1-l041` | &emsp;*ou contrariedade de qualidades, &c.* S*.* |  |
+| `c1-l041` | &emsp;*ou contrariedade de qualidades, &c. S.* |  |
 | `c1-l042` | &emsp;*¶ Item, Miſtura, & perturbação como de* |  |
 | `c1-l043` | &emsp;*moſquitos, abelhas, &c.* |  |
 | `c1-l044` | Funsui. Funno mizzu. *Agoa do eſterco.* |  |

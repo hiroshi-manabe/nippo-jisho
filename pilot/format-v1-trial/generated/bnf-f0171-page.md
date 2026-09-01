@@ -24,7 +24,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l008` | Fanqiôjin. *Meo doudo.* |  |
 | `c1-l009` | Fanqiû. *Certo arco pequeno, ou beſta de atirar.* |  |
 | `c1-l010` | Fanqui. Xiguei fana. *Flores, ou fullas mui-* |  |
-| `c1-l011` | &emsp;*to juntas, & vaſtas.* S*.* |  |
+| `c1-l011` | &emsp;*to juntas, & vaſtas. S.* |  |
 | `c1-l012` | Fanriû. Ichirino fanbun. *Meo grão de tri-* |  |
 | `c1-l013` | &emsp;*go, ou arroz, &c.* |  |
 | `c1-l014` | Fansan. Sacazzaqi nacara. *Meo copo de* |  |

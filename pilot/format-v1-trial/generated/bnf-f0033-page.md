@@ -61,7 +61,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1b-l019` | &emsp;*Ioeira rala, ou çiranda.* |  |
 | `c1b-l020` | Aracajime. *Adu. Dante mão. ¶ Itẽ,* |  |
 | `c1b-l021` | &emsp;*Palaura de auiſar, ou fazer cauidar a outro* |  |
-| `c1b-l022` | &emsp;*como* Camayete, l, cayeſugayeſu. S. |  |
+| `c1b-l022` | &emsp;*como* Camayete, l, cayeſugayeſu. *S.* |  |
 | `c1b-l023` | Aracan. Bup. *Hũa dignidade que he diſpo-* |  |
 | `c1b-l024` | &emsp;*ſição pera ſer* Fotoqe. |  |
 | `c1b-l025` | Aracane. *Metal toſco, & por fundir como ſe* |  |

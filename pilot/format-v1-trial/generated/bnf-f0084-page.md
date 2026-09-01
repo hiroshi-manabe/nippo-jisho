@@ -41,7 +41,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l025` | &emsp;Camis, *&* Fotoque*s algũa obra dos homens,* |  |
 | `c1-l026` | &emsp;*& agradar lhe. ¶ Item, O comprirem,* |  |
 | `c1-l027` | &emsp;*ou ouuirem ſuas petiçoẽs, & votos. Pode ſe* |  |
-| `c1-l028` | &emsp;*aplicar a Deos N.* S*., & aos ſanctos.* |  |
+| `c1-l028` | &emsp;*aplicar a Deos N. S., & aos ſanctos.* |  |
 | `c1-l029` | Cannozǒ. *Baço.* |  |
 | `c1-l030` | Cannuxi. *Hum dos principais como cabeça q̃* |  |
 | `c1-l031` | &emsp;*ſerue aos* Cami*s*. |  |
@@ -79,9 +79,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l004` | Canpǔ. Samui caje. *Vento frio.* |  |
 | `c2-l005` | Canqei. Samui tani. *vale frio.* |  |
 | `c2-l006` | Canqei. Samui neya. *Camara de dormir* |  |
-| `c2-l007` | &emsp;*fria.* S*.* |  |
-| `c2-l008` | Canqei. Xizzucana qei. *Viſta quieta.* S*.* |  |
-| `c2-l009` | Canqen. Miru miru. *Ver.* S*.* |  |
+| `c2-l007` | &emsp;*fria. S.* |  |
+| `c2-l008` | Canqei. Xizzucana qei. *Viſta quieta. S.* |  |
+| `c2-l009` | Canqen. Miru miru. *Ver. S.* |  |
 | `c2-l010` | Canqi. T*empo frio.* |  |
 | `c2-l011` | Canqi. Qiuo cangayuru. i. Fitono qini |  |
 | `c2-l012` | &emsp;chigǒ. *Deſgraça. ¶* Canqiuo cǒmuru. |  |

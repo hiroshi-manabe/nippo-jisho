@@ -35,7 +35,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l019` | Arauani. *Adu. Claramente, ou a olhos viſtos.* |  |
 | `c1-l020` | Arauare, ruru, eta. *Manifestarſe, declararſe,* |  |
 | `c1-l021` | &emsp;*aparecer. ¶* Foni arauaruru. *Permet.* |  |
-| `c1-l022` | &emsp;*Deſcobrirſe na obra, ou effeito.* S*.* |  |
+| `c1-l022` | &emsp;*Deſcobrirſe na obra, ou effeito. S.* |  |
 | `c1-l023` | Arauarete. *Aduer. Manifestamente, ou a* |  |
 | `c1-l024` | &emsp;*viſta de todos.* |  |
 | `c1-l025` | Arauaxi, ſu, ita. *Manifestar, ou declarar.* |  |

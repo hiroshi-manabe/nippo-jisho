@@ -86,7 +86,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l012` | &emsp;*ras. Vt,* Fô-i mini amaru. *Abun-* |  |
 | `c2-l013` | &emsp;*dar em riquezas, & honras.* |  |
 | `c2-l014` | Fǒ-i. Cobaxij cocoro. *Bom coração, ou* |  |
-| `c2-l015` | &emsp;*boa, & amoroſa vontade, ou obra de amor.* S*.* |  |
+| `c2-l015` | &emsp;*boa, & amoroſa vontade, ou obra de amor. S.* |  |
 | `c2-l016` | Fô-i. Norino ixei. *Efficacia, ou força da* |  |
 | `c2-l017` | &emsp;*lei. ¶* Fô-iuo ſuru. *Moſtrar eſta effi-* |  |
 | `c2-l018` | &emsp;*cacia, & força da lei.* |  |
@@ -99,7 +99,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l025` | Fôin. *Certa dignidade de Bǒzos, ou rapados.* |  |
 | `c2-l026` | Foinai. *Couſa de que ſe tem magoa, ou peſar,* |  |
 | `c2-l027` | &emsp;*ou ſaudades.* |  |
-| `c2-l028` | Fǒiqi. *Reino.* S*.* |  |
+| `c2-l028` | Fǒiqi. *Reino. S.* |  |
 | `c2-l029` | Foiqin. *Pano, ou toalha de alimpar, &* |  |
 | `c2-l030` | &emsp;*eſpanar eſcudelas, meſas, &c.* |  |
 | `c2-l031` | Fǒit. *Crueza. ¶* Fǒit jagen, l, gendǒ |  |
@@ -119,7 +119,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l045` | &emsp;*por peſſoa, ou carta honrando ao q̃ viſitou, ou* |  |
 | `c2-l046` | &emsp;*mandou recado. Vt,* Fǒjin catajigenacu |  |
 | `c2-l047` | &emsp;meriẽ ſoro. *Agradeço muito a viſita de voſſa* |  |
-| `c2-l048` | &emsp;*mercè.* S*.* |  |
+| `c2-l048` | &emsp;*mercè. S.* |  |
 
 ## Printed page number
 

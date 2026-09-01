@@ -29,7 +29,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l013` | &emsp;Bireǒga ſagatta. *Andar algũa parte do* |  |
 | `c1-l014` | &emsp;*veſtido rota, & deper urada.* |  |
 | `c1-l015` | Bireǒ. Sucoxi ſuzuxi. *Freſco do eſtio que* |  |
-| `c1-l016` | &emsp;*ſerue pera paſſar a calma.* S. |  |
+| `c1-l016` | &emsp;*ſerue pera paſſar a calma. S.* |  |
 | `c1-l017` | Biriocu. Chicara ſucunaxi. *Poucas, ou* |  |
 | `c1-l018` | &emsp;*fracas forças.* |  |
 | `c1-l019` | Birô. *Deſcortezia, mao enſino.* |  |
@@ -95,7 +95,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2a-l021` | Bixi. Sucoxino cocorozaxi. *Hũa pequena* |  |
 | `c2a-l022` | &emsp;*mostra de amor. ¶ Vt,* Bixiuo araua |  |
 | `c2a-l023` | &emsp;ſu. *Mostrar algum pequeno amor, ou boa* |  |
-| `c2a-l024` | &emsp;*vontade.* S. |  |
+| `c2a-l024` | &emsp;*vontade. S.* |  |
 | `c2a-l025` | Bixô. Sucoxi, *ij*. *Couſa pouca, ou pouquidade.* |  |
 | `c2a-l026` | Bixôna. *Couſa pouca.* |  |
 | `c2a-l027` | Bixôni. *Adu.* |  |

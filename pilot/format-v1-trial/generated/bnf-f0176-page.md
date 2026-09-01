@@ -26,7 +26,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l010` | &emsp;*ou do Fototoguiſu no verão. ¶* Fatçune- |  |
 | `c1-l011` | &emsp;uo daſu. *Cantarem a primeira vez os paſſaros* |  |
 | `c1-l012` | &emsp;*na prima vera, ou verão.* |  |
-| `c1-l013` | Fatçuqi. i, Fachiguachi. *Oitaua lũa.* S*.* |  |
+| `c1-l013` | Fatçuqi. i, Fachiguachi. *Oitaua lũa. S.* |  |
 | `c1-l014` | Fatçutorigari, l, fatçutogari. *O ſair a pri-* |  |
 | `c1-l015` | &emsp;*meira vez à caça do falcão.* P*.* |  |
 | `c1-l016` | Fatçuuo. *Primicias de qualquer couſa, fruita* |  |
@@ -44,7 +44,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l028` | Fatefa. *Remate, ou cabo de algũa couſa.* |  |
 | `c1-l029` | Fatei. Nami, ſoco. *De baixo das ondas. Vt,* |  |
 | `c1-l030` | &emsp;Fateini xizzumu. *Fundirſe de baixo das* |  |
-| `c1-l031` | &emsp;*ondas.* S*.* |  |
+| `c1-l031` | &emsp;*ondas. S.* |  |
 | `c1-l032` | Fatexi. *Fim, ou termo.* |  |
 | `c1-l033` | Fatgicu. *Melius,* fachigicu. *Oito liuros, ou* |  |
 | `c1-l034` | &emsp;*partes do Foqueqiy.* |  |

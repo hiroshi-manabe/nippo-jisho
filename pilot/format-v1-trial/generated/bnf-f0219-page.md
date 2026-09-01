@@ -51,13 +51,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l035` | &emsp;no tacarauo cazǒruga gotoxi. *Ainda q̃* |  |
 | `c1-l036` | &emsp;*aprenda, & lea ſe ſe não repete, & eſtuda* |  |
 | `c1-l037` | &emsp;*não aproueita nada: he como o que conta as ri-* |  |
-| `c1-l038` | &emsp;*quezas de ſeu vizinho. ¶* S. rani mono- |  |
+| `c1-l038` | &emsp;*quezas de ſeu vizinho. ¶ S.* rani mono- |  |
 | `c1-l039` | &emsp;uo fucuſuru. *Paſſar algũa couſa polla memo-* |  |
 | `c1-l040` | &emsp;*ria ſem ver liuro.* |  |
 | `c1-l041` | Fucuxi, ſuru, ita. *Paſſarſe a outro, ou dei-* |  |
 | `c1-l042` | &emsp;*tarſe de ſua parte: comummente ſe lhe ajunta,* |  |
 | `c1-l043` | &emsp;Qi, curu. *Vt,* Qibucu ſuru. |  |
-| `c1-l044` | Fucuxin. Coçorono vchi. *Dẽtro do coração.* S*.* |  |
+| `c1-l044` | Fucuxin. Coçorono vchi. *Dẽtro do coração. S.* |  |
 | `c1-l045` | Fucuxǒgun. i, Soyedaixǒ. *Sotocapitão.* |  |
 | `c1-l046` | Fucuxǔ. *Porro hua erua como alho.* |  |
 | `c1-l047` | Fucuye. *Veſtido.* |  |
@@ -113,8 +113,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l039` | &emsp;*de Quanuon.* |  |
 | `c2-l040` | Fude. *Pena. ¶* Fudeuo yǔ. *Fazer pe-* |  |
 | `c2-l041` | &emsp;*nas de Iapão. ¶* Fudeuo ſaxiuoqu. *A-* |  |
-| `c2-l042` | &emsp;*cabar de eſcreuer.* S*. ¶* Fudeuo ſomu- |  |
-| `c2-l043` | &emsp;ru. *Eſcreuer.* S*.* |  |
+| `c2-l042` | &emsp;*cabar de eſcreuer. S. ¶* Fudeuo ſomu- |  |
+| `c2-l043` | &emsp;ru. *Eſcreuer. S.* |  |
 | `c2-l044` | Fudeqi. *Couſa mal feita, ou que não ſabio* |  |
 | `c2-l045` | &emsp;*bem acabada.* |  |
 | `c2-l046` | Fudeqina. *Couſa imperfeita, ou mal acabada.* |  |

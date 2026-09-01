@@ -111,7 +111,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l036` | Caiſui. Vmino mizzu. i. Vxiuo. *Agoa* |  |
 | `c2-l037` | &emsp;*do mar.* |  |
 | `c2-l038` | Caitai. Aratamari cauaru. *Renouarſe, ou* |  |
-| `c2-l039` | &emsp;*mudarſe.* S*.* |  |
+| `c2-l039` | &emsp;*mudarſe. S.* |  |
 | `c2-l040` | Caitate, tçuru, eta. *Criar animaes, &c.* |  |
 | `c2-l041` | Caitçu, l, caitçume. *Eſte, abaixandoo.* |  |
 | `c2-l042` | Caitçuburi. *Hum paſſaro do mar.* |  |

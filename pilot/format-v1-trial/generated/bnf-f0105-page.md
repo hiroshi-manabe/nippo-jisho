@@ -123,7 +123,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l043` | &emsp;*miudos, & desfiados.* |  |
 | `c2-l044` | Chicugi. Taqeno tçuye. *Bordão de bãbu.* |  |
 | `c2-l045` | Chicuin. Taqeno cague. *Sombra de* |  |
-| `c2-l046` | &emsp;*banbus.* S*.* |  |
+| `c2-l046` | &emsp;*banbus. S.* |  |
 | `c2-l047` | Chicujt. Ichichiuo toguru. *Tudo do pri* |  |
 
 ## Printed signature

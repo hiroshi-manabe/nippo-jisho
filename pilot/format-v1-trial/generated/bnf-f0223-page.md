@@ -59,7 +59,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l043` | Fumonjina. *Peſſoa que não ſabe ler, nem eſ-* |  |
 | `c1-l044` | &emsp;*creuer as letras da china, & outras exquiſitas.* |  |
 | `c1-l045` | Fumonjini. *Adu.* |  |
-| `c1-l046` | Fumot. Voimono, l, xacu nor. *Diuídas.* S*.* |  |
+| `c1-l046` | Fumot. Voimono, l, xacu nor. *Diuídas. S.* |  |
 | `c1-l047` | Fumoto. *Pè de ſerra, ou monte.* |  |
 
 ## Column 2 running header

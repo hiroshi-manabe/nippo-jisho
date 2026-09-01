@@ -84,7 +84,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2a-l010` | &emsp;*Morrer, ou acabar. ¶* Figa boxxita. |  |
 | `c2a-l011` | &emsp;*Poz ſe o ſol.* |  |
 | `c2a-l012` | Bôyû. Tomo tomo. *Companheiro, ou com-* |  |
-| `c2a-l013` | &emsp;*panhia.* S*.* |  |
+| `c2a-l013` | &emsp;*panhia. S.* |  |
 | `c2a-l014` | Bǒzu. Bǒno nuxi. *Religioſo que tem ſella* |  |
 | `c2a-l015` | &emsp;*propria, ou ermida. Item, Qualquer religio* |  |
 | `c2a-l016` | &emsp;*ſo, ou rapado.* |  |

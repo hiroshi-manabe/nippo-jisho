@@ -115,7 +115,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l041` | Fôxa. Tacarano curuma. *Carro ornado q̃ ſer-* |  |
 | `c2-l042` | &emsp;*ue de andas.* |  |
 | `c2-l043` | Fǒxei. *Louuor, ou nome afamado. ¶* Bi- |  |
-| `c2-l044` | &emsp;yo fǒxei. *Bom nome, & fama.* S*.* |  |
+| `c2-l044` | &emsp;yo fǒxei. *Bom nome, & fama. S.* |  |
 | `c2-l045` | Fǒxei. Cǒbaxij naſaqe. *Beneficios, ou bo-* |  |
 | `c2-l046` | &emsp;*as obras honrando a peſſoa de quem ſe recebe.* |  |
 | `c2-l047` | &emsp;*Vt,* Gofǒxeini azzucaru. *Receber bo-* |  |

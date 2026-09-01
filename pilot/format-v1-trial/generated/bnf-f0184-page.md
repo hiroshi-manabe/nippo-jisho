@@ -78,14 +78,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l004` | &emsp;*pinturas.* |  |
 | `c2-l005` | Feôji, l, fiôji ſioxigoto. *Semelhança, ou* |  |
 | `c2-l006` | &emsp;*figura dalgũa couſa que ſe ha de fazer. ¶* Fiô |  |
-| `c2-l007` | &emsp;ji, feôzô. *Idem.* S*.* |  |
+| `c2-l007` | &emsp;ji, feôzô. *Idem. S.* |  |
 | `c2-l008` | Feǒji, l, fiǒji tçuuamono votoco. *Soldados.* |  |
 | `c2-l009` | Feômot, l, fiômot. Tauara mono. *Fardos* |  |
 | `c2-l010` | &emsp;*de arroz, trigo &c. Vt,* Curani fiômotuo |  |
 | `c2-l011` | &emsp;voſame voqu. *Enceleirar, ou meter em* |  |
 | `c2-l012` | &emsp;*caſa fardos de arroz, trigo, &c.* |  |
 | `c2-l013` | Feôqi, l, fiôqi, xet cot. Vreucuxij ſadaye. |  |
-| `c2-l014` | &emsp;*Corpo, ou membros muito delicados.* S*.* |  |
+| `c2-l014` | &emsp;*Corpo, ou membros muito delicados. S.* |  |
 | `c2-l015` | Feôri. *Vide,* Fiôri, fiôrimon, &c. |  |
 | `c2-l016` | Feôrin, l, fiôrin. Couori, ua. i, Tçugui |  |
 | `c2-l017` | &emsp;ſua. |  |

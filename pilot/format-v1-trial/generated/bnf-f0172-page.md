@@ -18,7 +18,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l002` | Faqimono. *Calçado como çapatos, alparcas* |  |
 | `c1-l003` | &emsp;*de Iapão, &c.* |  |
 | `c1-l004` | Faqinogoi, ô, ôta. *Varrendo alimpar.* |  |
-| `c1-l005` | Faqiô. Vare cagami. *Eſpelho quebrado.* S*.* |  |
+| `c1-l005` | Faqiô. Vare cagami. *Eſpelho quebrado. S.* |  |
 | `c1-l006` | Faqiſoye, uru, eta. *Cingir mais hũa eſpada* |  |
 | `c1-l007` | &emsp;*comprida, ou montante.* |  |
 | `c1-l008` | Faqiſute, uru, eta. *Varrendo lançar fora.* |  |
@@ -99,7 +99,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l025` | &emsp;faramu. *Eſtar prenhe, ou com o filho na bar-* |  |
 | `c2-l026` | &emsp;*riga. ¶* Mugui, l, inega faramu. *Eſtar* |  |
 | `c2-l027` | &emsp;*o trigo, ou arroz pera eſpigar.* |  |
-| `c2-l028` | Faran. Nami. *Ondas.* S*.* |  |
+| `c2-l028` | Faran. Nami. *Ondas. S.* |  |
 | `c2-l029` | Fararago. *Hũa maneira de grãos como bagos* |  |
 | `c2-l030` | &emsp;*de uuas vermelhas, & luzentes.* |  |
 | `c2-l031` | Fararifararito. *Adu. Modo de correrem as* |  |

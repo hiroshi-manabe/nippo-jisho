@@ -126,7 +126,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l043` | Fi, iru, ita. Vt, Comeuo firu. *Sacudir,* |  |
 | `c2-l044` | &emsp;*ou modo de joeirar o arroz com ſupo. ¶* Ca- |  |
 | `c2-l045` | &emsp;jega mado uo firu. *O vento faz bulir mui-* |  |
-| `c2-l046` | &emsp;*to a porta.* S*. ¶* Fanauo firu. *Eſpir-* |  |
+| `c2-l046` | &emsp;*to a porta. S. ¶* Fanauo firu. *Eſpir-* |  |
 | `c2-l047` | &emsp;*rar. ¶* Feuo firu. *Deitar ventoſidades.* |  |
 
 ## Catchword

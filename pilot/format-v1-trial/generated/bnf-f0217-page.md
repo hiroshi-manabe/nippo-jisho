@@ -36,7 +36,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l020` | Fubuqidauore. *O cair encontrando com eſte* |  |
 | `c1-l021` | &emsp;*vẽto, & neue. ¶* Fubuqidauoruru vǒ. *Idem.* |  |
 | `c1-l022` | Fuca. Vocarazu. *Não ſer bom, ou não cõ-* |  |
-| `c1-l023` | &emsp;*uir.* S*.* |  |
+| `c1-l023` | &emsp;*uir. S.* |  |
 | `c1-l024` | Fuca. *Peixe tubarão.* |  |
 | `c1-l025` | Fucaberi. *Vt,* Fucaberino tatami, l, mu- |  |
 | `c1-l026` | &emsp;xiro. *Certa laya de Tatamis, ou eſteiras que* |  |

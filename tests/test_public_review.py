@@ -208,6 +208,7 @@ equal(q.typefaceTokenRange('word.', 0), null);
 equal(q.typefaceTokenRange('i, l, word', 0), {start: 0, end: 1});
 equal(q.typefaceTokenRange('i, l, word', 3), {start: 3, end: 4});
 equal(q.typefaceTokenRange('word l', 5), {start: 5, end: 6});
+equal(q.typefaceTokenRange('a, l', 0), null);
 equal(q.typefaceTokenRange('word', 3), null);
 equal(q.toggleTypefaceRange('Ad.', 0, 3, ['roman', 'roman', 'roman']), '{Ad.}');
 equal(q.toggleTypefaceRange('{Ad.}', 0, 3, ['roman', 'roman', 'roman']), 'Ad.');
