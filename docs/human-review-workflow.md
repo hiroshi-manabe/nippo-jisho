@@ -33,15 +33,15 @@ Column views also form one continuous review sequence over all reviewable materi
 Unchanged rows remain compact. Clicking the transcription opens an editor containing:
 
 - the editable transcription;
-- an optional comment;
-- a **Request second opinion** checkbox;
+- an optional durable line note;
+- an optional **Message to AI**;
 - **OK** and **Cancel** actions.
 
-**OK** confirms the local proposal and collapses the editor. Pressing **Enter** in the transcription field does the same thing: each record represents one physical printed line, so a newline is not valid transcription content. Enter remains available normally in the separate comment field. IME composition is exempt so that confirming composed input does not close the editor. Opening another line has the same save-and-collapse effect on the active editor before the new one opens, so moving through the page cannot silently discard typed text or comments. **Cancel** remains the explicit way to discard changes made during that editing session. A changed row can be reopened, and a **Revert** action restores the repository text.
+**OK** confirms the local proposal and collapses the editor. Pressing **Enter** in the transcription field does the same thing: each record represents one physical printed line, so a newline is not valid transcription content. Enter remains available normally in the note and message fields. IME composition is exempt so that confirming composed input does not close the editor. Opening another line has the same save-and-collapse effect on the active editor before the new one opens, so moving through the page cannot silently discard typed text, notes, or messages. **Cancel** remains the explicit way to discard changes made during that editing session. A changed row can be reopened, and a **Revert** action restores the repository text and durable note.
 
-Typing a comment selects **Request second opinion** automatically, because a comment usually identifies a distinction that deserves discussion. The reader may clear the checkbox afterward when the comment is only provenance or an already-settled human observation. That explicit choice persists when the row is reopened. A checked row receives a compact marker after **OK** so the page-level review state remains visible.
+The durable note belongs to the Level 1 line annotation and may record linguistic reasoning, uncertainty, damage, or another lasting observation. The Message to AI belongs only to the review workspace and correction Issue. Any nonempty message requires AI inspection; there is no separate second-opinion checkbox. The processor mechanically applies settled rows, pauses on messaged rows, and never promotes a temporary message into the durable note without an explicit note change.
 
-In compact form, a comment uses the horizontal space remaining to the right of the usually short transcription. A comment that does not fit is truncated with an ellipsis, with its complete text available on click or focus. On narrow screens it moves below the transcription. The comment should remain visually secondary to the source text.
+In compact form, the durable note uses the horizontal space remaining to the right of the usually short transcription. A note that does not fit is truncated with an ellipsis, with its complete text available on click or focus. A temporary message receives a distinct AI-attention marker. On narrow screens these annotations move below the transcription and remain visually secondary to the source text.
 
 ## Transcription reference panel
 
@@ -212,11 +212,11 @@ Any change that affects the public review interface—including crop geometry, g
 
 ## Automatic kana guide
 
-The column review provides an optional **Kana guide** toggle that renders likely Japanese spans mechanically in katakana beneath the Level 1 transcription. The preference persists in that browser. This is a non-authoritative reading layer, not a new transcription field. It is generated in the browser from upright roman-type runs, with explicit handling for common dictionary spellings such as `q`, `tç`, `x`, initial `v`, and intervocalic `u`. Portuguese italic text and recognized editorial labels are excluded. Unsupported or ambiguous tokens are left unconverted rather than silently guessed.
+Every prepared human or general-AI review line carries a read-only `reading_hint`, generated during the public-review build from the exact baseline transcription. It pairs each detected upright Japanese phrase with a mechanical katakana rendering, for example `Facuran/ハクラン, Firoqu miru/ヒロク ミル`. This is a mandatory review aid, not a new transcription field. The generator explicitly handles common dictionary spellings such as `q`, `tç`, `x`, initial `v`, and intervocalic `u`; Portuguese italic text and recognized editorial labels are excluded. Failure is displayed explicitly rather than silently hiding the guide.
 
 The guide is intended to make Japanese linguistic checking faster. An implausible output can flag likely `q/g` confusions, omitted or substituted letters, bad word boundaries, impossible inflectional forms, and some mistaken long-vowel marks. It is not reliable evidence for typeface, physical spacing, line-division signs, punctuation, or graphic allographs such as long and short `s`. A suspicious kana result starts renewed linguistic and scan review; it never edits Level 1, enters correction JSON, or substitutes for visual confirmation.
 
-Because the guide is fully derived, its output is not stored in canonical page records and does not affect the transcription version. This keeps Level 1 diplomatic and human-readable while providing in the interface the same provisional kana conversion that an experienced reviewer would otherwise perform mentally. Reviewed Japanese-script restoration, kanji selection, segmentation, and translation remain Stage 3 work.
+Because the guide is fully derived, its output is not stored in canonical Markdown or interchange records, is not editable, and does not affect the transcription version or Issue payload. It is regenerated after accepted textual changes on the next build; live JavaScript regeneration from an unsaved edit is deliberately unnecessary. This keeps Level 1 diplomatic and human-readable while providing in the interface the same provisional kana conversion that an experienced reviewer would otherwise perform mentally. Reviewed Japanese-script restoration, kanji selection, segmentation, and translation remain Stage 3 work.
 
 ## GitHub Issue submission
 
@@ -226,7 +226,7 @@ The Issue body must not be placed in a GitHub `issues/new` query parameter. GitH
 
 The submission flow is therefore:
 
-1. Serialize the confirmed page corrections as readable schema-2 JSON, marking only requested second-opinion rows with `"second_opinion": true`.
+1. Serialize the confirmed page corrections as readable schema-3 JSON. Durable annotation changes use `note_after`; temporary requests use `message`.
 2. Copy the complete payload to the clipboard.
 3. Open a short GitHub Issue URL containing only the template selection and a page-specific title.
 4. Ask the reader to paste the copied payload at the marked location in the Issue body.
@@ -238,7 +238,7 @@ Each local page workspace records a transcription version derived only from the 
 
 The page version is only a trigger for line-level reconciliation. Every saved edit also records the content version of its stable physical-line ID. Unchanged edited lines retain their proposals silently, even when another line on the page changed. If the current repository text equals a saved proposal, that textual correction is removed as already incorporated. Otherwise a changed edited line is automatically rebased: its current repository text becomes the new `before`, its saved proposal remains the `after`, and the row receives a persistent **Base updated** marker. A page notice reports the number of affected rows. Confirming a highlighted row with **OK** clears its marker; rebasing any submitted row returns the workspace to draft status.
 
-A comment is an annotation whose continued relevance cannot be decided by text equality. When its line changes, the comment is preserved and marked **Comment needs review** until the reviewer confirms the row. If an incorporated textual correction still has a comment, it becomes a comment-only record on the current text. A pre-existing comment-only record is likewise rebased with both `before` and `after` set to the current text, so it cannot accidentally become a proposal to restore the earlier reading. Submitted comments are treated the same way because repository text alone does not show that their reasoning has been preserved elsewhere.
+A durable note is canonical annotation whose continued relevance cannot be decided by text equality. When its line changes, a locally edited note is preserved and marked **Note needs review** until the reviewer confirms the row. A temporary message is likewise preserved across rebasing but never becomes canonical data.
 
 Only a missing stable line ID prevents automatic rebasing. In that exceptional case, unaffected edits are retained while a blocking warning lets the reviewer copy and then discard the orphaned records. Pre-versioning browser data is migrated once against the first version-aware corpus rather than being discarded without a known comparison point. This is deliberately simple optimistic concurrency control; the browser never attempts to synthesize a textual merge.
 
@@ -250,7 +250,7 @@ A representative payload is:
 
 ```json
 {
-  "schema": 2,
+  "schema": 3,
   "page": "f17",
   "base_commit": "abc1234",
   "base_transcription_version": "sha256:0123456789abcdef…",
@@ -259,16 +259,17 @@ A representative payload is:
       "line": "c1-l026",
       "before": "Acuni toingiacu ſuru.",
       "after": "Acuni tongiacu ſuru.",
-      "comment": "Japanese 頓着 supports tongiacu.",
-      "second_opinion": true
+      "note_before": "",
+      "note_after": "Japanese 頓着 supports tongiacu.",
+      "message": "Please verify the damaged g/q shape."
     }
   ]
 }
 ```
 
-`before` protects against silently applying a correction to a line that has subsequently changed. In schema 2, an absent or false `second_opinion` means that the human reviewer has settled the exact correction and asks for mechanical application. A true value asks the machine reviewer to investigate that item independently. The automated processor accepts schema 2 only and returns an error for schema 1; no new schema-1 submission is expected.
+`before` and `note_before` protect against silently applying a correction to text or durable annotation that has subsequently changed. In schema 3, an absent or empty `message` means that the human reviewer has settled the exact correction and asks for mechanical application. A nonempty message requires AI inspection. The processor retains schema-2 compatibility for already-created Issues, treating an old `comment` as a temporary message and `second_opinion: true` as requiring inspection, but the interface creates schema 3 only.
 
-Issue processing is deliberately two-stage. First validate the page, base version, line IDs, `before` values, and correction notation, then mechanically apply all unflagged schema-2 changes to the working tree. Do not reopen their glyph judgments merely because machine vision would have read them differently. Next, perform the detailed linguistic-first and visual review below only for `second_opinion: true` items. Do not commit, push, or close the Issue until the flagged set is settled. If no items are flagged, the validated mechanical application may proceed directly through tests, commit, deployment, and Issue closure.
+Issue processing is deliberately two-stage. First validate the page, base version, line IDs, text, notes, and correction notation, then mechanically apply every schema-3 change without a message. Do not reopen those glyph judgments merely because machine vision would have read them differently. Next, perform the detailed linguistic-first and visual review below only for rows carrying a message. Do not commit, push, or close the Issue until that set is settled. If no messages are present, the validated mechanical application may proceed directly through tests, commit, deployment, and Issue closure.
 
 ### Automated Issue processor
 
