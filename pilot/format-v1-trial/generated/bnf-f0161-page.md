@@ -19,9 +19,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l003` | Fabuqi, u, ita. *Repartir.* Zaiuo fabuqu. |  |
 | `c1-l004` | &emsp;*Repartir as riquezas.* |  |
 | `c1-l005` | Fabure, uru, eta. *Voarem as aues como* |  |
-| `c1-l006` | &emsp;*gaiuoras, &c. ſobre a agoa, l, eſtando pou-* |  |
+| `c1-l006` | &emsp;*gaiuotas, &c. ſobre a agoa, l, eſtando pou-* |  |
 | `c1-l007` | &emsp;*ſadas baterem com as aſas, & chapejarem* |  |
-| `c1-l008` | &emsp;*na agca.* |  |
+| `c1-l008` | &emsp;*na agoa.* |  |
 | `c1-l009` | Fabute, ru, eta. *Moſtrarſe arrufado, ou de* |  |
 | `c1-l010` | &emsp;*ruim ſembrante, &c.* |  |
 | `c1-l011` | Faca. *Vt,* Facagayuqu, *l*, mairu. *Ir a* |  |
@@ -38,9 +38,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l022` | &emsp;*ou não ſe faz couſa de importancia.* |  |
 | `c1-l023` | Facadocoro. *Adro, ou cimiterio.* |  |
 | `c1-l024` | Facague. *Sombra das aſas principalmente* |  |
-| `c1-l025` | &emsp;*do falcão. ¶ Item ſombra das folhas das* |  |
+| `c1-l025` | &emsp;*do falcão. ¶ Item, ſombra das folhas das* |  |
 | `c1-l026` | &emsp;*aruores.* |  |
-| `c1-l027` | Facague. *Desdentado. No Cami ſe diz,* |  |
+| `c1-l027` | Facague. *Deſdentado. No Cami ſe diz,* |  |
 | `c1-l028` | &emsp;facaqe, l, fanuqe. |  |
 | `c1-l029` | Facai, Imaximeuo yaburu. *Quebrar a ley* |  |
 | `c1-l030` | &emsp;*ou prohibição.* |  |
@@ -53,8 +53,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l037` | Facari. *Medida, ou hũa certa balançaſinha* |  |
 | `c1-l038` | &emsp;*que tem hum ſò peſo que mudão pera diuerſas* |  |
 | `c1-l039` | &emsp;*partes a que chamão Dachem.* |  |
-| `c1-l040` | racari, u, atta. *Medir, ou peſar. ¶ Item,* |  |
-| `c1-l041` | &emsp;*Permet.* I*ulgar, ou conjecturar.* |  |
+| `c1-l040` | Facari, u, atta. *Medir, ou peſar. ¶ Item,* |  |
+| `c1-l041` | &emsp;*Per met. Iulgar, ou conjecturar.* |  |
 | `c1-l042` | Facaricoto. *Ardil, ou inuenção. ¶* Fa- |  |
 | `c1-l043` | &emsp;caricotouo meguraſu. *Vrdir algũa couſa* |  |
 | `c1-l044` | &emsp;*como traição, &c.* |  |
@@ -98,7 +98,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l018` | Fachi. *Boceta redonda, ou bacia. ¶* Fa- |  |
 | `c2-l019` | &emsp;chiuo firaqu. *Pedir eſmola.* |  |
 | `c2-l020` | Fachi. *Caſco da cabeça. Vt,* Cǒbeno fa- |  |
-| `c2-l021` | &emsp;cmi. ¶ Cabutono fachi. *Caſco do ca-* |  |
+| `c2-l021` | &emsp;chi. ¶ Cabutono fachi. *Caſco do ca-* |  |
 | `c2-l022` | &emsp;*pacete.* |  |
 | `c2-l023` | Fachi. *Abelha.* |  |
 | `c2-l024` | Fachibocu. i, Come. *Arroz.* |  |
@@ -112,7 +112,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l032` | Fachigicu. *Oito liuros, ou partes que tem o* Fo- |  |
 | `c2-l033` | &emsp;qeqiǒ *que eſcreueo* Xaca*.* |  |
 | `c2-l034` | Fachiguire, uru, eta. *Abrirſe, ou gretar o* |  |
-| `c2-l035` | &emsp;*melaõ, &c. ¶ Item, Fazeremſe gretas nas* |  |
+| `c2-l035` | &emsp;*melão, &c. ¶ Item, Fazeremſe gretas nas* |  |
 | `c2-l036` | &emsp;*mãos, ou na carne com frio, ou doença.* |  |
 | `c2-l037` | Fachimaqi. *Pano da cabeça.* |  |
 | `c2-l038` | Fachimecaxi, u, aita. *Fazer ſoar, ou es-* |  |
