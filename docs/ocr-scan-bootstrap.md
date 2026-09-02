@@ -8,9 +8,10 @@ cannot start a page from the scan alone. `scripts/bootstrap_ocr_level1.py`
 tests the missing earlier stage: it constructs a machine-provisional Level 1
 candidate without opening the target page's transcription or geometry.
 
-This is an initializer, not an automatic publication path. Its output retains
-`physical_lineation_checked: false`, and the script never writes canonical
-Level 1 or public-review data.
+This is an initializer, not an automatic promotion path. Its output retains
+`physical_lineation_checked: false`, and the generator never writes canonical
+Level 1 data. A separate site-build step may expose the packages as explicitly
+machine-provisional review material.
 
 ## Inputs and inference
 
@@ -72,8 +73,8 @@ The passing run created candidate packages for `f238`–`f247`. It recovered
 940 provisional body rows and one internal heading. The machine also retained
 eight ambiguous bottom fragments outside body flow and recorded its inferred
 entry-initial repairs. These files are preserved under
-`pilot/ocr-bootstrap/f0238-f0247/` but are deliberately absent from the
-canonical corpus and public review UI.
+`pilot/ocr-bootstrap/f0238-f0247/`. They remain absent from the canonical
+corpus but are exposed in the public UI under a distinct provisional state.
 
 Representative source crops from `f238`, `f242`, and `f247` were visually
 checked after generation. The selected rows contain the intended complete
@@ -109,7 +110,8 @@ page identifier, requires exact body-text/geometry ID agreement, and rejects
 any candidate that falsely claims visually checked physical lineation. Its
 manifest distinguishes ordinary candidates, quarantined candidates, and
 inference failures. Materialization still does not modify the canonical Level
-1 corpus or public review data.
+1 corpus. The public-site builder reads the materialized packages in place and
+labels them as provisional; it does not copy them into the canonical tree.
 
 The 2026-09-02 bulk run generated all 392 requested leaves with no inference
 failures. It preserved 36,745 provisional body rows, 112 internal-heading

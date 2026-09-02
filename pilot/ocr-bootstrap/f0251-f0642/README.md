@@ -19,4 +19,6 @@ quarantines with reasons, failures, totals, and the benchmark gate.
 
 Every candidate retains `physical_lineation_checked: false`. Promotion still
 requires complete visual confirmation of physical rows, page furniture, enlarged
-initials, crop readability, and the diplomatic transcription.
+initials, crop readability, and the diplomatic transcription. The candidates are
+visible and editable in the public review UI, but that exposure is not promotion;
+structural quarantines remain separately marked with their recorded reasons.

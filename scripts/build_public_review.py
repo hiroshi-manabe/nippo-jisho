@@ -19,6 +19,16 @@ import markdown
 ARK = "ark:/12148/bpt6k852354j"
 IMAGE_BASE_URL = "https://nippo-jisho-images.pages.dev"
 REVIEW_UNITS = ("column-1", "column-2", "furniture")
+REVIEWED_GEOMETRY_STATES = {
+    "contact_sheet_reviewed",
+    "captured_during_transcription",
+    "ai_line_by_line_checked",
+    "ai_bulk_geometry_sanity_checked",
+    "external_ai_width_rechecked",
+    "line_by_line_reverified",
+    "text_image_sanity_checked",
+}
+OCR_PROVISIONAL_GEOMETRY_STATE = "ocr_bootstrap_unreviewed"
 
 
 def load_json(path: Path) -> dict:
@@ -106,23 +116,17 @@ def processed_page(
     review: dict,
     geometry: dict,
     machine_suggestions: dict[str, dict],
+    *,
+    allowed_geometry_states: set[str] | None = None,
 ) -> dict:
+    allowed_geometry_states = allowed_geometry_states or REVIEWED_GEOMETRY_STATES
     columns = geometry.get("columns", {})
     if not columns:
         raise RuntimeError(f"missing reviewed geometry for {page['id']}")
     unreviewed = [
         column_id
         for column_id, column in columns.items()
-        if column.get("visual_review")
-        not in {
-            "contact_sheet_reviewed",
-            "captured_during_transcription",
-            "ai_line_by_line_checked",
-            "ai_bulk_geometry_sanity_checked",
-            "external_ai_width_rechecked",
-            "line_by_line_reverified",
-            "text_image_sanity_checked",
-        }
+        if column.get("visual_review") not in allowed_geometry_states
     ]
     if unreviewed:
         raise RuntimeError(
@@ -189,13 +193,29 @@ def processed_page(
     }
 
 
+def ocr_candidate_sources(root: Path) -> dict[str, Path]:
+    """Return only materialized review candidates, never controls or references."""
+    sources: dict[str, Path] = {}
+    for directory in (
+        root / "pilot" / "ocr-bootstrap" / "f0238-f0247",
+        root / "pilot" / "ocr-bootstrap" / "f0251-f0642" / "pages",
+    ):
+        if not directory.exists():
+            continue
+        for path in sorted(directory.glob("bnf-f[0-9][0-9][0-9][0-9].json")):
+            if path.stem in sources:
+                raise RuntimeError(f"duplicate OCR candidate for {path.stem}")
+            sources[path.stem] = path
+    return sources
+
+
 def render_reference(source: Path, title: str) -> str:
     body = markdown.markdown(
         source.read_text(encoding="utf-8"), extensions=["tables", "sane_lists"]
     )
     body = body.replace('href="historical-language-notes.md"', 'href="historical-notes.html"')
     body = body.replace('href="transcription-cheat-sheet.md"', 'href="cheat-sheet.html"')
-    return f"<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width'><title>{html.escape(title)}</title><link rel='stylesheet' href='reference.css'></head><body>{body}</body></html>"
+    return f"<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width'><title>{html.escape(title)}</title><link rel='stylesheet' href='../reference.css'></head><body>{body}</body></html>"
 
 
 def vowel_unit(character: str) -> tuple[str, str]:
@@ -256,6 +276,7 @@ def main() -> int:
         for page in suggestion_record["pages"]
     }
     level1_dir = root / "pilot/format-v1-trial/level1"
+    candidate_sources = ocr_candidate_sources(root)
     pages = []
     for image_record in image_records:
         leaf = image_record["leaf"]
@@ -287,6 +308,50 @@ def main() -> int:
                 )
             )
             page["source"] = f"https://github.com/{args.repository}/blob/{commit}/pilot/format-v1-trial/level1-source/{page_id}.md"
+            page.update(
+                {
+                    "data_state": "canonical_level1",
+                    "machine_provisional": False,
+                    "source_label": "Source Markdown",
+                    "structural_review_required": False,
+                }
+            )
+        elif page_id in candidate_sources:
+            candidate_path = candidate_sources[page_id]
+            candidate = load_json(candidate_path)
+            if candidate.get("id") != page_id or candidate["page"].get("id") != page_id:
+                raise RuntimeError(f"candidate identity mismatch in {candidate_path}")
+            if candidate["page"].get("review", {}).get("physical_lineation_checked") is not False:
+                raise RuntimeError(f"OCR candidate {page_id} must remain visually unchecked")
+            assessment = candidate.get("audit", {}).get("bulk_assessment") or {}
+            page.update(
+                processed_page(
+                    candidate["page"],
+                    config.get(page_id, {}),
+                    reviews.get(page_id, {}),
+                    candidate["geometry"],
+                    machine_suggestions.get(page_id, {}),
+                    allowed_geometry_states={OCR_PROVISIONAL_GEOMETRY_STATE},
+                )
+            )
+            relative_candidate = candidate_path.relative_to(root).as_posix()
+            page.update(
+                {
+                    "data_state": "machine_provisional",
+                    "machine_provisional": True,
+                    "source": f"https://github.com/{args.repository}/blob/{commit}/{relative_candidate}",
+                    "source_label": "Candidate JSON",
+                    "provisional_classification": assessment.get(
+                        "classification", "initial_batch"
+                    ),
+                    "provisional_queue_eligible": assessment.get(
+                        "eligible_for_provisional_review_queue"
+                    ),
+                    "provisional_reasons": assessment.get("reasons", []),
+                    "structural_review_required": assessment.get("classification")
+                    == "quarantine",
+                }
+            )
         else:
             page.update(
                 {
@@ -296,7 +361,11 @@ def main() -> int:
                     "zones": [],
                     "review": {},
                     "source": None,
+                    "source_label": None,
                     "transcription_version": None,
+                    "data_state": "scan_only",
+                    "machine_provisional": False,
+                    "structural_review_required": False,
                 }
             )
         pages.append(page)

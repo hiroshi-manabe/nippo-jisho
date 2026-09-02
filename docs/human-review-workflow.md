@@ -4,7 +4,7 @@
 
 The public review interface should make scan comparison easy without claiming that a page has become definitively correct. Most lines will receive no correction, so the ordinary view must stay compact. When a reader does find a problem, the interface should capture a precise, inspectable proposal that can be discussed and applied through GitHub.
 
-This document specifies the intended next iteration of the existing [dictionary-wide review interface](../pilot/human-review/README.md). It is a design decision, not yet a description of every implemented control.
+This document specifies the behavior and rationale of the current [dictionary-wide review interface](../pilot/human-review/README.md). Experimental or future-facing sections are marked where they do not yet describe a deployed control.
 
 ## Two complementary views
 
@@ -13,12 +13,14 @@ This document specifies the intended next iteration of the existing [dictionary-
 The front page presents all acquired leaves as a responsive thumbnail grid in Gallica order. Each page card shows:
 
 - the `f` identifier and scan thumbnail;
-- the processing state, such as `unprocessed` or `transcription available`;
+- the data state: canonical Level 1, machine-provisional OCR, or scan only;
 - the number of applied correction Issues;
 - the number of distinct lines corrected;
 - optionally, the most recent correction date.
 
-The badges report activity, not quality. A page with no corrections is not thereby verified, and a page with many corrections is not necessarily worse. Clicking a card opens the page review view. Page order is the default; filters for unprocessed, transcribed, and corrected pages and an optional recently-corrected order may be added without changing the underlying record.
+The badges report provenance and activity, not quality. A page with no corrections is not thereby verified, and a page with many corrections is not necessarily worse. Clicking a card opens the page review view. Page order is the default; filters separate all reviewable pages, canonical pages, provisional candidates, structural quarantines, scan-only pages, and pages with corrections.
+
+Machine-provisional candidates remain editable because review is their purpose, but they must never be visually conflated with canonical Level 1. Their cards and page badges use a distinct amber state, every candidate page states that its lineation and geometry remain unchecked, and structurally quarantined candidates also show their recorded reason. Display and correction do not change `physical_lineation_checked: false` or move the package into the canonical tree.
 
 ### Page review
 
@@ -26,7 +28,7 @@ The page view retains full-page and column context, but the physical line is the
 
 The sticky page-navigation bar includes an explicit **← All pages** button. The project title also returns to the overview, but it is not the sole or implicit way out of an individual page.
 
-Column views also form one continuous review sequence over the transcribed corpus: a page's column 1 is followed by its column 2, then by column 1 of the next transcribed page. **Previous column** and **Next column** controls appear above the line list and repeat after its final line, where the reviewer naturally decides whether to continue. Moving between columns opens the target at its beginning rather than retaining the previous column's scroll position. Full-page, furniture, and unprocessed views do not show these controls; the ordinary page arrows remain independent.
+Column views also form one continuous review sequence over all reviewable material: a page's column 1 is followed by its column 2, then by column 1 of the next canonical or provisional page. **Previous column** and **Next column** controls appear above the line list and repeat after its final line, where the reviewer naturally decides whether to continue. Moving between columns opens the target at its beginning rather than retaining the previous column's scroll position. Full-page, furniture, and scan-only views do not show these controls; the ordinary page arrows remain independent.
 
 Unchanged rows remain compact. Clicking the transcription opens an editor containing:
 
@@ -268,9 +270,9 @@ The normal first action for a correction Issue is:
 python3 scripts/process_correction_issue.py process ISSUE_NUMBER
 ```
 
-The command takes an explicit Issue number; it never selects an Issue implicitly. It fetches the single schema-2 payload, verifies that the Issue is open and its base commit exists, validates every stable line ID and `before` value, resolves lightweight `*word`, `[roman]`, and `{italic}` notation, and applies all unflagged changes to the compact Level 1 source. A page-version mismatch caused by unrelated lines is reported but does not defeat exact line-level validation. Unknown lines, changed `before` text, ambiguous notation, multiple payload blocks, and schema 1 are hard errors. Existing large-initial, far-right, and other run metadata is retained through textual edits.
+The command takes an explicit Issue number; it never selects an Issue implicitly. It fetches the single schema-2 payload, verifies that the Issue is open and its base commit exists, validates every stable line ID and `before` value, resolves lightweight `*word`, `[roman]`, and `{italic}` notation, and applies all unflagged changes to the page's editable source. Canonical pages update compact Level 1 Markdown; machine-provisional pages update their candidate package in place and remain provisional. A page-version mismatch caused by unrelated lines is reported but does not defeat exact line-level validation. Unknown lines, changed `before` text, ambiguous notation, multiple payload blocks, and schema 1 are hard errors. Existing large-initial, far-right, and other run metadata is retained through textual edits.
 
-After application, the processor writes its report before validation, recompiles the interchange JSON, regenerates verification views, rebuilds the public review artifact, and runs the complete test suite. A validation failure leaves the Issue open, records `validation_failed` and the error in the report, and permits a repeat invocation to recognize the already-applied unflagged targets rather than applying them twice. If no second opinion was requested, it updates correction history, stages only the expected page-derived files, commits, pushes `main`, waits for the Pages workflow, verifies the deployed commit and correction record, comments on the Issue, and closes it. A failure before deployed verification leaves the Issue open.
+After application, the processor writes its report before validation, recompiles canonical interchange JSON and views when applicable, rebuilds the public review artifact, and runs the complete test suite. A validation failure leaves the Issue open, records `validation_failed` and the error in the report, and permits a repeat invocation to recognize the already-applied unflagged targets rather than applying them twice. If no second opinion was requested, it updates correction history, stages only the expected canonical or candidate source files, commits, pushes `main`, waits for the Pages workflow, verifies the deployed commit and correction record, comments on the Issue, and closes it. A failure before deployed verification leaves the Issue open.
 
 If one or more changes contain `second_opinion: true`, the processor applies and validates only the unflagged subset, writes `build/correction-issues/issue-N.json`, prints its path, and exits with status 3. No history update, commit, push, deployment, or Issue closure occurs. Each flagged item begins with `"decision": "pending"`. After the linguistic-first and visual review, the machine reviewer records one of:
 

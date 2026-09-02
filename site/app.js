@@ -187,12 +187,32 @@ function correctionLabel(page) {
   return `${issues} Issue${issues === 1 ? '' : 's'} · ${lines} corrected line${lines === 1 ? '' : 's'}`;
 }
 
+function pageStateLabel(page) {
+  if (page.data_state === 'machine_provisional') {
+    return page.structural_review_required ? 'OCR provisional · structural review' : 'OCR provisional';
+  }
+  if (page.data_state === 'canonical_level1' || page.processed) return 'Level 1 transcription';
+  return 'Unprocessed';
+}
+
+function pageStateClass(page) {
+  if (page.data_state === 'machine_provisional') return 'provisional';
+  if (page.data_state === 'canonical_level1' || page.processed) return 'good';
+  return '';
+}
+
 function renderGrid() {
   const filter = $('#filter').value;
   const sort = $('#sort').value;
-  let pages = state.corpus.pages.filter(page => filter === 'all' || (filter === 'processed' && page.processed) || (filter === 'unprocessed' && !page.processed) || (filter === 'corrected' && page.corrections.issues_applied));
+  let pages = state.corpus.pages.filter(page => filter === 'all'
+    || (filter === 'processed' && page.processed)
+    || (filter === 'canonical' && page.data_state === 'canonical_level1')
+    || (filter === 'provisional' && page.data_state === 'machine_provisional')
+    || (filter === 'quarantine' && page.structural_review_required)
+    || (filter === 'unprocessed' && !page.processed)
+    || (filter === 'corrected' && page.corrections.issues_applied));
   if (sort === 'recent') pages.sort((a, b) => String(b.corrections.last_applied || '').localeCompare(String(a.corrections.last_applied || '')) || a.leaf - b.leaf);
-  $('#page-grid').innerHTML = pages.map(page => `<button class="page-card" type="button" data-leaf="${page.leaf}"><img loading="lazy" src="${page.thumbnail}" alt="Thumbnail of Gallica ${page.view}"><span class="card-copy"><span class="card-title">${page.view}${page.corrections.issues_applied ? `<span class="mini-badge">${page.corrections.issues_applied} issue${page.corrections.issues_applied === 1 ? '' : 's'}</span>` : ''}</span><span class="card-state">${page.processed ? 'Transcription available' : 'Unprocessed'}${page.corrections.distinct_lines ? ` · ${page.corrections.distinct_lines} lines corrected` : ''}</span></span></button>`).join('');
+  $('#page-grid').innerHTML = pages.map(page => `<button class="page-card ${pageStateClass(page)}" type="button" data-leaf="${page.leaf}"><img loading="lazy" src="${page.thumbnail}" alt="Thumbnail of Gallica ${page.view}"><span class="card-copy"><span class="card-title">${page.view}${page.corrections.issues_applied ? `<span class="mini-badge">${page.corrections.issues_applied} issue${page.corrections.issues_applied === 1 ? '' : 's'}</span>` : ''}</span><span class="card-state">${pageStateLabel(page)}${page.corrections.distinct_lines ? ` · ${page.corrections.distinct_lines} lines corrected` : ''}</span></span></button>`).join('');
 }
 
 function storageJSON(key) {
@@ -447,8 +467,18 @@ function showPage(leaf, unit = 'page', update = true) {
   $('#next').disabled = leaf === 651;
   $('#page-kicker').textContent = page.printed_page ? `Printed page ${page.printed_page}` : 'Gallica leaf';
   $('#page-title').textContent = `${page.view} · ${({'page':'Full page','column-1':'Column 1','column-2':'Column 2','furniture':'Page furniture'})[state.unit]}`;
-  $('#page-meta').textContent = page.processed ? `${page.page_id} · Level 1 ${page.status.replaceAll('_', ' ')}` : `${page.page_id} · transcription not yet processed`;
-  $('#page-badges').innerHTML = `<span class="badge ${page.processed ? 'good' : ''}">${page.processed ? 'Transcription available' : 'Unprocessed'}</span><span class="badge">${correctionLabel(page)}</span>${page.corrections.last_applied ? `<span class="badge">Latest ${escapeHTML(page.corrections.last_applied)}</span>` : ''}`;
+  $('#page-meta').textContent = page.data_state === 'machine_provisional'
+    ? `${page.page_id} · machine-provisional OCR · physical lineation not yet checked`
+    : page.processed ? `${page.page_id} · Level 1 ${page.status.replaceAll('_', ' ')}` : `${page.page_id} · transcription not yet processed`;
+  $('#page-badges').innerHTML = `<span class="badge ${pageStateClass(page)}">${pageStateLabel(page)}</span><span class="badge">${correctionLabel(page)}</span>${page.corrections.last_applied ? `<span class="badge">Latest ${escapeHTML(page.corrections.last_applied)}</span>` : ''}`;
+  const notice = $('#provisional-notice');
+  notice.classList.toggle('hidden', page.data_state !== 'machine_provisional');
+  if (page.data_state === 'machine_provisional') {
+    const detail = page.structural_review_required
+      ? ` This page is structurally quarantined: ${(page.provisional_reasons || []).map(reason => escapeHTML(reason)).join('; ') || 'its line structure needs direct review'}.`
+      : ' Its rows, crops, typefaces, and text still require direct comparison with the scan.';
+    notice.innerHTML = `<strong>Machine-provisional candidate.</strong> This is editable review material, not canonical Level 1 data.${detail}`;
+  }
   [...document.querySelectorAll('#view-tabs button')].forEach(button => { button.classList.toggle('active', button.dataset.unit === state.unit); button.disabled = !page.processed && button.dataset.unit !== 'page'; });
   renderPageContent();
   updateSubmitBar();
@@ -515,7 +545,7 @@ function renderPageContent() {
     const lines = zonesFor(page, state.unit).filter(item => item.kind === 'column').flatMap(item => item.lines);
     $('#page-content').innerHTML = `<div class="line-list">${lineImageStatus(page)}${lines.map(line => lineHTML(page, line)).join('')}${columnNavigationHTML('column-nav-bottom')}</div>`;
   } else {
-    $('#page-content').innerHTML = `<div class="page-comparison">${scanPane(page)}<section class="text-pane"><div class="pane-toolbar"><strong>${page.processed ? 'Level 1 transcription' : 'Transcription'}</strong>${page.source ? `<a class="push" href="${page.source}" target="_blank" rel="noreferrer">Source Markdown</a>` : ''}</div><div class="continuous-text">${continuousHTML(page, state.unit)}</div></section></div>`;
+    $('#page-content').innerHTML = `<div class="page-comparison">${scanPane(page)}<section class="text-pane"><div class="pane-toolbar"><strong>${pageStateLabel(page)}</strong>${page.source ? `<a class="push" href="${page.source}" target="_blank" rel="noreferrer">${escapeHTML(page.source_label || 'Source data')}</a>` : ''}</div><div class="continuous-text">${continuousHTML(page, state.unit)}</div></section></div>`;
   }
   updateColumnNavigation();
   refreshPageImageUI(page);
@@ -1057,7 +1087,10 @@ window.addEventListener('popstate', route);
 
 fetch('corpus.json').then(response => { if (!response.ok) throw new Error('Could not load corpus'); return response.json(); }).then(corpus => {
   state.corpus = corpus; state.byLeaf = new Map(corpus.pages.map(page => [page.leaf, page]));
-  const processed = corpus.pages.filter(page => page.processed).length; const corrected = corpus.pages.filter(page => page.corrections.issues_applied).length;
-  $('#summary').innerHTML = `<div><strong>${corpus.pages.length}</strong><span>acquired leaves</span></div><div><strong>${processed}</strong><span>transcribed</span></div><div><strong>${corrected}</strong><span>with applied Issues</span></div>`;
+  const canonical = corpus.pages.filter(page => page.data_state === 'canonical_level1').length;
+  const provisional = corpus.pages.filter(page => page.data_state === 'machine_provisional').length;
+  const scanOnly = corpus.pages.filter(page => !page.processed).length;
+  const corrected = corpus.pages.filter(page => page.corrections.issues_applied).length;
+  $('#summary').innerHTML = `<div><strong>${canonical}</strong><span>canonical Level 1</span></div><div><strong>${provisional}</strong><span>OCR provisional</span></div><div><strong>${scanOnly}</strong><span>scan only</span></div><div><strong>${corrected}</strong><span>with applied Issues</span></div>`;
   $('#repository-link').href = `https://github.com/${corpus.repository}`; $('#reference-version').textContent = `Reference ${corpus.reference_version}`; $('#reference-frame').src = 'reference/cheat-sheet.html'; route();
 }).catch(error => { $('#page-grid').innerHTML = `<p>${escapeHTML(error.message)}</p>`; });

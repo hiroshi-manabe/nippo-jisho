@@ -295,6 +295,69 @@ def compiled_path(root: Path, view: str) -> Path:
     return root / "pilot" / "format-v1-trial" / "level1" / f"{page_id(view)}.json"
 
 
+def candidate_path(root: Path, view: str) -> Path | None:
+    stem = page_id(view)
+    for path in (
+        root / "pilot" / "ocr-bootstrap" / "f0238-f0247" / f"{stem}.json",
+        root
+        / "pilot"
+        / "ocr-bootstrap"
+        / "f0251-f0642"
+        / "pages"
+        / f"{stem}.json",
+    ):
+        if path.exists():
+            return path
+    return None
+
+
+def load_editable_page(root: Path, view: str) -> tuple[dict, dict]:
+    """Load canonical Markdown or, when absent, a provisional OCR package."""
+    markdown = source_path(root, view)
+    compiled = compiled_path(root, view)
+    if markdown.exists() and compiled.exists():
+        return parse_markdown(markdown), {
+            "source_kind": "canonical_markdown",
+            "source_path": markdown.relative_to(root).as_posix(),
+        }
+    candidate = candidate_path(root, view)
+    if candidate is None:
+        raise IssueProcessingError(f"page {view} has no reviewable transcription")
+    package = load_json(candidate)
+    if package.get("format") != "nippo-ocr-level1-bootstrap-candidate":
+        raise IssueProcessingError(f"invalid OCR candidate package {candidate}")
+    if package.get("id") != page_id(view) or package.get("page", {}).get("id") != page_id(view):
+        raise IssueProcessingError(f"OCR candidate identity mismatch in {candidate}")
+    return package["page"], {
+        "source_kind": "ocr_candidate",
+        "source_path": candidate.relative_to(root).as_posix(),
+    }
+
+
+def save_editable_page(root: Path, storage: dict, page: dict) -> None:
+    path = root / storage["source_path"]
+    if storage["source_kind"] == "canonical_markdown":
+        path.write_text(export_markdown(page), encoding="utf-8")
+        return
+    if storage["source_kind"] != "ocr_candidate":
+        raise IssueProcessingError(
+            f"unknown editable source kind {storage['source_kind']!r}"
+        )
+    package = load_json(path)
+    package["page"] = page
+    write_json(path, package)
+
+
+def storage_from_report(report: dict) -> dict:
+    return {
+        "source_kind": report.get("source_kind", "canonical_markdown"),
+        "source_path": report.get(
+            "source_path",
+            f"pilot/format-v1-trial/level1-source/{report['page_id']}.md",
+        ),
+    }
+
+
 def current_transcription_version(page: dict) -> str:
     zones = []
     for zone in page["zones"]:
@@ -397,11 +460,11 @@ def prepare(
     issue = fetch_issue(issue_number, repository)
     payload = extract_payload(issue["body"])
     validate_base_commit(root, payload["base_commit"])
-    markdown_path = source_path(root, payload["page"])
-    json_path = compiled_path(root, payload["page"])
-    if not markdown_path.exists() or not json_path.exists():
-        raise IssueProcessingError(f"page {payload['page']} is not transcribed")
-    preliminary = {"page_id": page_id(payload["page"])}
+    page, storage = load_editable_page(root, payload["page"])
+    preliminary = {
+        "page_id": page_id(payload["page"]),
+        **storage,
+    }
     existing_changes = changed_paths(root)
     allowed_recovery = expected_paths(preliminary, root) - {
         "pilot/human-review/correction-history.json"
@@ -412,7 +475,6 @@ def prepare(
             "tracked worktree changes exist outside this Issue's recoverable files: "
             + ", ".join(sorted(unexpected_existing))
         )
-    page = parse_markdown(markdown_path)
     current_version = current_transcription_version(page)
     lines = line_map(page)
     applied: list[dict] = []
@@ -431,7 +493,7 @@ def prepare(
         else:
             apply_resolved(line, item)
             applied.append({**item, "recovered": already_prepared})
-    markdown_path.write_text(export_markdown(page), encoding="utf-8")
+    save_editable_page(root, storage, page)
     report = {
         "format": "nippo-correction-issue-report",
         "format_version": 1,
@@ -440,6 +502,7 @@ def prepare(
         "repository": repository,
         "page": payload["page"],
         "page_id": page_id(payload["page"]),
+        **storage,
         "base_commit": payload["base_commit"],
         "submitted_transcription_version": payload["base_transcription_version"],
         "current_transcription_version_at_prepare": current_version,
@@ -464,8 +527,12 @@ def prepare(
 
 
 def apply_second_opinion_decisions(report: dict, root: Path) -> list[str]:
-    markdown_path = source_path(root, report["page"])
-    page = parse_markdown(markdown_path)
+    storage = storage_from_report(report)
+    page, resolved_storage = load_editable_page(root, report["page"])
+    if resolved_storage != storage:
+        raise IssueProcessingError(
+            "the page's editable source changed while second-opinion review was pending"
+        )
     lines = line_map(page)
     accepted: list[str] = []
     pending: list[str] = []
@@ -509,7 +576,7 @@ def apply_second_opinion_decisions(report: dict, root: Path) -> list[str]:
         raise IssueProcessingError(
             "second-opinion decisions still pending: " + ", ".join(pending)
         )
-    markdown_path.write_text(export_markdown(page), encoding="utf-8")
+    save_editable_page(root, storage, page)
     return accepted
 
 
@@ -558,13 +625,20 @@ def update_history(report: dict, accepted_lines: list[str], root: Path) -> None:
 
 def expected_paths(report: dict, root: Path = ROOT) -> set[str]:
     stem = report["page_id"]
-    paths = {
-        f"pilot/format-v1-trial/level1-source/{stem}.md",
-        f"pilot/format-v1-trial/level1/{stem}.json",
-        f"pilot/format-v1-trial/generated/{stem}-page.md",
-        "pilot/format-v1-trial/generated/selected-reading-views.md",
-        "pilot/human-review/correction-history.json",
-    } | set(report.get("additional_paths", []))
+    if report.get("source_kind", "canonical_markdown") == "ocr_candidate":
+        paths = {
+            report["source_path"],
+            "pilot/human-review/correction-history.json",
+        }
+    else:
+        paths = {
+            f"pilot/format-v1-trial/level1-source/{stem}.md",
+            f"pilot/format-v1-trial/level1/{stem}.json",
+            f"pilot/format-v1-trial/generated/{stem}-page.md",
+            "pilot/format-v1-trial/generated/selected-reading-views.md",
+            "pilot/human-review/correction-history.json",
+        }
+    paths |= set(report.get("additional_paths", []))
     return paths
 
 

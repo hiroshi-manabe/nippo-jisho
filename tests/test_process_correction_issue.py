@@ -19,6 +19,101 @@ from scripts.compile_level1_markdown import export_markdown, parse_markdown
 
 
 class CorrectionIssueProcessorTests(unittest.TestCase):
+    def test_prepare_can_apply_an_unflagged_edit_to_an_ocr_candidate(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            candidate = (
+                root
+                / "pilot"
+                / "ocr-bootstrap"
+                / "f0251-f0642"
+                / "pages"
+                / "bnf-f0251.json"
+            )
+            candidate.parent.mkdir(parents=True)
+            page = {
+                "format": "nippo-level1-page",
+                "format_version": 1,
+                "id": "bnf-f0251",
+                "review": {
+                    "origin": "independent_ocr_scan_bootstrap",
+                    "physical_lineation_checked": False,
+                    "status": "visual_draft",
+                },
+                "zones": [
+                    {
+                        "id": "column-1",
+                        "kind": "column",
+                        "label": "Column 1",
+                        "lines": [
+                            {
+                                "id": "c1-l001",
+                                "runs": [
+                                    {"typeface": "roman", "text": "Alpha."},
+                                    {"typeface": "italic", "text": " Firſt line."},
+                                ],
+                            }
+                        ],
+                    }
+                ],
+            }
+            candidate.write_text(
+                json.dumps(
+                    {
+                        "format": "nippo-ocr-level1-bootstrap-candidate",
+                        "format_version": 1,
+                        "id": "bnf-f0251",
+                        "page": page,
+                        "geometry": {},
+                        "audit": {},
+                    }
+                ),
+                encoding="utf-8",
+            )
+            payload = {
+                "schema": 2,
+                "page": "f251",
+                "base_commit": "abc",
+                "base_transcription_version": "sha256:old",
+                "changes": [
+                    {
+                        "line": "c1-l001",
+                        "before": "Alpha. Firſt line.",
+                        "after": "Alpha. Firſt lines.",
+                    }
+                ],
+            }
+            issue = {
+                "number": 251,
+                "url": "https://example.test/issues/251",
+                "body": f"```json\n{json.dumps(payload)}\n```",
+            }
+            with (
+                mock.patch(
+                    "scripts.process_correction_issue.validate_base_commit"
+                ),
+                mock.patch(
+                    "scripts.process_correction_issue.fetch_issue", return_value=issue
+                ),
+                mock.patch("scripts.process_correction_issue.regenerate_and_test"),
+                mock.patch(
+                    "scripts.process_correction_issue.changed_paths", return_value=set()
+                ),
+            ):
+                report = prepare(251, root=root, repository="example/test")
+            updated = json.loads(candidate.read_text(encoding="utf-8"))
+            updated_text = "".join(
+                run["text"]
+                for run in updated["page"]["zones"][0]["lines"][0]["runs"]
+            )
+            self.assertEqual(updated_text, "Alpha. Firſt lines.")
+            self.assertEqual(report["source_kind"], "ocr_candidate")
+            self.assertEqual(
+                report["source_path"],
+                "pilot/ocr-bootstrap/f0251-f0642/pages/bnf-f0251.json",
+            )
+            self.assertEqual(report["status"], "ready_to_finalize")
+
     def test_schema_one_is_rejected(self):
         with self.assertRaisesRegex(IssueProcessingError, "only schema 2"):
             validate_payload(

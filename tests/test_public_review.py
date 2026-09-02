@@ -11,6 +11,61 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class PublicReviewRegressionTests(unittest.TestCase):
+    def test_public_corpus_exposes_ocr_candidates_without_promoting_them(self):
+        with tempfile.TemporaryDirectory() as directory:
+            result = subprocess.run(
+                [
+                    "python3",
+                    str(ROOT / "scripts" / "build_public_review.py"),
+                    "--output",
+                    directory,
+                ],
+                cwd=ROOT,
+                capture_output=True,
+                text=True,
+            )
+            self.assertEqual(result.returncode, 0, result.stderr)
+            corpus = json.loads(
+                (Path(directory) / "corpus.json").read_text(encoding="utf-8")
+            )
+            reference = (
+                Path(directory) / "reference" / "cheat-sheet.html"
+            ).read_text(encoding="utf-8")
+        pages = {page["page_id"]: page for page in corpus["pages"]}
+        self.assertIn("href='../reference.css'", reference)
+        states = [page["data_state"] for page in corpus["pages"]]
+        self.assertEqual(states.count("canonical_level1"), 229)
+        self.assertEqual(states.count("machine_provisional"), 402)
+        self.assertEqual(states.count("scan_only"), 20)
+
+        initial = pages["bnf-f0238"]
+        self.assertTrue(initial["processed"])
+        self.assertTrue(initial["machine_provisional"])
+        self.assertEqual(initial["provisional_classification"], "initial_batch")
+        self.assertEqual(initial["source_label"], "Candidate JSON")
+
+        ordinary = pages["bnf-f0251"]
+        self.assertEqual(ordinary["status"], "visual_draft")
+        self.assertEqual(ordinary["provisional_classification"], "ordinary_two_column")
+        self.assertFalse(ordinary["structural_review_required"])
+        self.assertTrue(
+            all(
+                line.get("crop") and line.get("context_crop")
+                for zone in ordinary["zones"]
+                if zone["kind"] == "column"
+                for line in zone["lines"]
+            )
+        )
+
+        quarantined = pages["bnf-f0376"]
+        self.assertTrue(quarantined["structural_review_required"])
+        self.assertIn("page:internal_heading_lines=10", quarantined["provisional_reasons"])
+
+        canonical_control = pages["bnf-f0248"]
+        self.assertEqual(canonical_control["data_state"], "canonical_level1")
+        self.assertFalse(canonical_control["machine_provisional"])
+        self.assertEqual(canonical_control["source_label"], "Source Markdown")
+
     def test_external_ai_assignment_stays_concise_and_links_references(self):
         work = ROOT / "pilot" / "human-review" / "ai-geometry-work"
         readme = (work / "README.md").read_text(encoding="utf-8")

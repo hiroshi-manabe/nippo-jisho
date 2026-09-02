@@ -26,11 +26,11 @@
   <main>
     <section id="overview" class="overview">
       <div class="overview-heading">
-        <div><p class="eyebrow">Vocabulario da Lingoa de Iapam · 1603–1604</p><h1>Review the dictionary, leaf by leaf.</h1><p>Every acquired page is visible. Transcribed pages can be compared line by line and proposed corrections can be sent through GitHub.</p></div>
+        <div><p class="eyebrow">Vocabulario da Lingoa de Iapam · 1603–1604</p><h1>Review the dictionary, leaf by leaf.</h1><p>Every acquired page is visible. Canonical Level 1 pages and clearly marked machine-provisional OCR candidates can be compared with the scan and corrected through GitHub.</p></div>
         <div class="summary" id="summary"></div>
       </div>
       <div class="overview-controls">
-        <label>Show <select id="filter"><option value="all">All pages</option><option value="processed">Transcribed</option><option value="unprocessed">Unprocessed</option><option value="corrected">With corrections</option></select></label>
+        <label>Show <select id="filter"><option value="all">All pages</option><option value="processed">All reviewable</option><option value="canonical">Canonical Level 1</option><option value="provisional">OCR provisional</option><option value="quarantine">Structural review needed</option><option value="unprocessed">Scan only</option><option value="corrected">With corrections</option></select></label>
         <label>Order <select id="sort"><option value="page">Page order</option><option value="recent">Recently corrected</option></select></label>
       </div>
       <div id="page-grid" class="page-grid" aria-live="polite"></div>
@@ -48,6 +48,7 @@
         <button type="button" data-unit="furniture">Furniture</button>
       </nav>
       <nav id="column-nav-top" class="column-nav column-nav-inline hidden" aria-label="Column review navigation"></nav>
+      <aside class="provisional-notice hidden" id="provisional-notice"></aside>
       <div id="rebase-notice" class="rebase-notice hidden" role="status">
         <strong>Saved corrections updated</strong>
         <span id="rebase-notice-text"></span>
