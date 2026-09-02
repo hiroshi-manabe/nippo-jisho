@@ -8,6 +8,8 @@ The design priority is faithful, readable, and efficient Level 1 work. Later str
 
 Level 1 may be read with the full help of historical Japanese, Jesuit romanization, and Portuguese context. Those perspectives belong in later review passes and can identify a likely visual error, but every resulting correction must be confirmed against the scan. What remains outside Level 1 is the added analysis—morpheme boundaries, normalized Japanese, grammatical interpretation, and translation—not the knowledge used to read the type.
 
+An automatic kana rendering of probable Japanese spans is therefore permitted as a **derived review aid**, but it is not Level 1 data. It must not be written into the compact Markdown or generated page JSON, submitted as a correction, or used to change the diplomatic transcription silently. Its purpose is to externalize a reader's mental conversion and expose implausible romanized forms for renewed comparison with the scan. The rendering may be regenerated or improved at any time without creating a new Level 1 version.
+
 ## Source of truth and generated data
 
 Human editors work in `pilot/format-v1-trial/level1-source/*.md`. The compiler validates these files and generates `level1/*.json` for machine interchange and the existing page renderer. The JSON is not edited independently.

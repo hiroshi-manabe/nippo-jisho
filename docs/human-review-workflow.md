@@ -210,6 +210,14 @@ A geometry-only external review remains importable after transcription-only chan
 
 Any change that affects the public review interface—including crop geometry, generated corpus data, reference material shown by the interface, or UI code—is not complete when it is merely committed locally. It must be pushed to `main`, the GitHub Pages workflow must finish successfully, and the affected public view must be reopened at the deployed reference commit. This deployment check is part of the UI-change workflow, not a separate optional publication step.
 
+## Automatic kana guide
+
+A future review aid may render likely Japanese spans mechanically in kana beside or beneath the Level 1 transcription. This is a non-authoritative reading layer, not a new transcription field. It should normally be generated at site-build time or in the browser from the current Level 1 text, with a small explicit exception table where the dictionary's romanization cannot be handled by general rules. It must be visibly labelled **Automatic kana guide** and may show alternatives or uncertainty rather than inventing a single certain reading.
+
+The guide is intended to make Japanese linguistic checking faster. An implausible output can flag likely `q/g` confusions, omitted or substituted letters, bad word boundaries, impossible inflectional forms, and some mistaken long-vowel marks. It is not reliable evidence for typeface, physical spacing, line-division signs, punctuation, or graphic allographs such as long and short `s`. A suspicious kana result starts renewed linguistic and scan review; it never edits Level 1, enters correction JSON, or substitutes for visual confirmation.
+
+Because the guide is fully derived, its output is not stored in canonical page records and does not affect the transcription version. This keeps Level 1 diplomatic and human-readable while providing in the interface the same provisional kana conversion that an experienced reviewer would otherwise perform mentally. Reviewed Japanese-script restoration, kanji selection, segmentation, and translation remain Stage 3 work.
+
 ## GitHub Issue submission
 
 The interface prepares corrections page by page. A submission contains only rows whose edits have been confirmed with **OK**. Before submission, the reader can inspect the collected changes.
