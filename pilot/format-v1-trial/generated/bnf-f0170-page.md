@@ -42,7 +42,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l026` | Fanevocoxi, ſu, oita. *Arrancar pedras cõ* |  |
 | `c1-l027` | &emsp;*alauanca, &c. Vt,* Gorocujũnin xi- |  |
 | `c1-l028` | &emsp;temo voxi fataraqi gataqi dai banja- |  |
-| `c1-l029` | &emsp;cuno ariqeiuuo ycitǒ fanevocoxi, &c. |  |
+| `c1-l029` | &emsp;cuno ariqeruuo ycitǒ fanevocoxi, &c. |  |
 | `c1-l030` | &emsp;Taif*. lib. 23. Cincoenta, ou 60. homeẽs* |  |
 | `c1-l031` | &emsp;*que tinhão dificuldade em mouer hũa grande* |  |
 | `c1-l032` | &emsp;*pedra que alli auia, & finalmente com alauã-* |  |
@@ -78,7 +78,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l004` | Fanguet. Nacatazzuqi. *Lũa mea chea.* |  |
 | `c2-l005` | &emsp;*¶ Item, hũa mea lũa q̃ poem os Iapões ſobre* |  |
 | `c2-l006` | &emsp;*os capacetes, & nas pontas das lanças.* |  |
-| `c2-l007` | Fangui. *Emprenſa, ou impreſſão. Vt,* Fa- |  |
+| `c2-l007` | Fangui. *Emprenſa, ou impreſſão. Vt,* Fã- |  |
 | `c2-l008` | &emsp;guini ſuru, l, fanni ſuritçuguru. *Im-* |  |
 | `c2-l009` | &emsp;*primir.* |  |
 | `c2-l010` | Fanguin. *Meo cate.* |  |

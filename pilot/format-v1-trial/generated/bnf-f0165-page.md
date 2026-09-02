@@ -26,13 +26,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l010` | &emsp;*ſaya com algũa manha, ou mouimento ruim* |  |
 | `c1-l011` | &emsp;*com lhe apertar o freo, &c.* |  |
 | `c1-l012` | Fagure, ruru, eta. *Ficar corrido, ou enuer-* |  |
-| `c1-l013` | &emsp;*gonhado. Vt,* Mairi fagurete iemi maira- |  |
+| `c1-l013` | &emsp;*gonhado. Vt,* Mairi fagurete iyeni maira- |  |
 | `c1-l014` | &emsp;nu. *Não vir a viſitar a alguem com vergo-* |  |
 | `c1-l015` | &emsp;*nha por ter tardado, & não vir a tempo.* |  |
 | `c1-l016` | Fai. Vogamu. *Venerar, ou adorar: mas não* |  |
 | `c1-l017` | &emsp;*ſe vſa ſenão com, xi, ſuru. Vt,* Faiſu- |  |
 | `c1-l018` | &emsp;ru. *Venerar, ou adorar.* |  |
-| `c1-l019` | Fai. i, Faino zǒ. *Boſes.* |  |
+| `c1-l019` | Fai. i, Faino zǒ. *Bofes.* |  |
 | `c1-l020` | Fai. *Raizes tenras de golfão.* |  |
 | `c1-l021` | Fai. *Cinza.* |  |
 | `c1-l022` | Fai. *Moſcas.* |  |

@@ -42,7 +42,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l026` | Fanaxi, ſu, aita. *Deſpegar, ou apartar.* |  |
 | `c1-l027` | &emsp;¶ Yauo fanaſu. *Atirar com frecha.* |  |
 | `c1-l028` | &emsp;¶ Teppǒuo fanaſu, l, vtçu. *Deſparar* |  |
-| `c1-l029` | &emsp;*à eſpingarda, &c. ¶* Tori, qedomono |  |
+| `c1-l029` | &emsp;*à eſpingarda, &c. ¶* Tori, qedamono |  |
 | `c1-l030` | &emsp;uo fanaſu. *Largar, ou ſoltar paſſaros, ou a-* |  |
 | `c1-l031` | &emsp;*nimaes.* |  |
 | `c1-l032` | Fanaxi, ſu, aita. *Praticar. Vt,* Nochini go- |  |
@@ -92,7 +92,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l011` | &emsp;*de cera, ou vimes que metem pollas ventas dos* |  |
 | `c2-l012` | &emsp;*narizes aos bois.* |  |
 | `c2-l013` | Fanbacama. *Hũa maneira de calçoẽs curtos.* |  |
-| `c2-l014` | Fanben. *Certo comer de tõfus aſſados, & de-* |  |
+| `c2-l014` | Fanben. *Certo comer de tǒfus aſſados, & de-* |  |
 | `c2-l015` | &emsp;*pois cozidos em Miſô.* |  |
 | `c2-l016` | Fanberi, u. i, Gozuru, sǒrǒ, &c. *Ser,* |  |
 | `c2-l017` | &emsp;*eſtar, &c. S.* |  |

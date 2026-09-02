@@ -20,9 +20,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l004` | Facuju. Cayano qi. *Certa aruore que tem as fo-* |  |
 | `c1-l005` | &emsp;*lhas como de acipreſte.* |  |
 | `c1-l006` | Facuma. i, Cami. *Papel.* |  |
-| `c1-l007` | Facumai. i, Xirozzuguino come. *Arroz* |  |
+| `c1-l007` | Facumai. i, Xirozzuqino come. *Arroz* |  |
 | `c1-l008` | &emsp;*branco, ou pilado.* |  |
-| `c1-l009` | Facumei. Ayiraca. *Clareza, & euidencia.* |  |
+| `c1-l009` | Facumei. Aqiraca. *Clareza, & euidencia.* |  |
 | `c1-l010` | Facumei. *Vida curta, & de pouca dura.* |  |
 | `c1-l011` | Facuracu. *Alueitar.* |  |
 | `c1-l012` | Facuran. Firoqu miru. *Grande estudo, ou* |  |
@@ -32,7 +32,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l016` | &emsp;*he,* Quacuran. |  |
 | `c1-l017` | Facurǒ. Xiranami. *Ondas brancas da eſcuma* |  |
 | `c1-l018` | &emsp;*com que quebrão.* |  |
-| `c1-l019` | Facuro. Xirafagui. *Garça branca.* |  |
+| `c1-l019` | Facuro. Xiraſagui. *Garça branca.* |  |
 | `c1-l020` | Facuro. Xiratçuyu. *Orualho.* |  |
 | `c1-l021` | Facurǒ. Fiacuno xinrǒ. *Muitos trabalhos.* |  |
 | `c1-l022` | Facurǒ. i, mozu. *Hũ paſſarinho que tem o bico* |  |

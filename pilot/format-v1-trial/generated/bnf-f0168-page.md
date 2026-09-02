@@ -41,7 +41,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l025` | &emsp;ichinifiacqizzutçu fanachi auaxtareba, |  |
 | `c1-l026` | &emsp;*&c.* Taif*. Lib. 5. Soltando, & fa-* |  |
 | `c1-l027` | &emsp;*zendo pellejar de cada exercito cento, ou duzẽ* |  |
-| `c1-l028` | &emsp;*tos caẽs, ete. ¶* Ficariuo fanatçu. *Reſplã-* |  |
+| `c1-l028` | &emsp;*tos caẽs, &c. ¶* Ficariuo fanatçu. *Reſplã-* |  |
 | `c1-l029` | &emsp;*decer, ou dar claridade, & reſplandor.* |  |
 | `c1-l030` | Fanachicaqe, ru, eta. *Atirar com frecha.* |  |
 | `c1-l031` | &emsp;¶ Inuuo fanachi caquru. *Soltar, & açular cães.* |  |
@@ -85,7 +85,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l010` | Fanagi. *Sangue dos narizes. Vt,* Fanagi |  |
 | `c2-l011` | &emsp;ga taru. *Sair, ou correr ſãgue dos narizes.* |  |
 | `c2-l012` | Fanagoye. *Voz fanhoſa.* |  |
-| `c2-l013` | Fanaguri, l, pǒiǔs, Fanazzuru. *Hũ cir-* |  |
+| `c2-l013` | Fanaguri, l, potiùs, Fanazzuru. *Hũ cir-* |  |
 | `c2-l014` | &emsp;*culo de pao, de cera, ou vimes que mete pell-* |  |
 | `c2-l015` | &emsp;*as ventas dos narizes dos bois em Iapão furã-* |  |
 | `c2-l016` | &emsp;*do lhas.* |  |

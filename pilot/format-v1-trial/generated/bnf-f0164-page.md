@@ -113,7 +113,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l039` | Faguire. *Abertura que tem a Catana no fer-* |  |
 | `c2-l040` | &emsp;*ro atraueſſado, que na eſpada ſe diz,* Sada. |  |
 | `c2-l041` | Faguitori, u, otta. *Deſpir, ou deſpojar. Vt,* |  |
-| `c2-l042` | &emsp;Nuſubitõdomo ga midare itte, cazucazuuo |  |
+| `c2-l042` | &emsp;Nuſubitodomo ga midare itte, cazucazuuo |  |
 | `c2-l043` | &emsp;coſode domo uo faguitoru. *Entrando os* |  |
 | `c2-l044` | &emsp;*ladrões de tropel apanharão muitos veſtidos* |  |
 | `c2-l045` | &emsp;*ricos.* |  |

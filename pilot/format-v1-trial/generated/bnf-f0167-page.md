@@ -44,7 +44,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l028` | Famauogui. *Hũa erua dagoa doce como ca-* |  |
 | `c1-l029` | &emsp;*niços.* |  |
 | `c1-l030` | Famaxe, uru, eta. *Dar de comer a bois, & beſ-* |  |
-| `c1-l031` | &emsp;*tas. ¶* Vmaui cutçuuauo famaſuru. |  |
+| `c1-l031` | &emsp;*tas. ¶* Vmani cutçuuauo famaſuru. |  |
 | `c1-l032` | &emsp;*Por o freo ao cauallo.* |  |
 | `c1-l033` | Famayumi. *Hum arcozinho pequeno com que* |  |
 | `c1-l034` | &emsp;*atirão os meninos. Vide,* Fama. |  |
@@ -87,7 +87,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l007` | Famo. *Nome de hum peixe.* |  |
 | `c2-l008` | Famǒdo. *O que vai mariſcar à praya.* |  |
 | `c2-l009` | &emsp;¶ *Item, O que trabalha nas marinhas.* |  |
-| `c2-l010` | Famuqi, u, uita. i, Mucai, cõ. *Encontrar-* |  |
+| `c2-l010` | Famuqi, u, uita. i, Mucai, cǒ. *Encontrar-* |  |
 | `c2-l011` | &emsp;*ſe na guerra.* |  |
 | `c2-l012` | Famure, ruru, eta. *Baterem os paſſaros, ou* |  |
 | `c2-l013` | &emsp;*darem com as aſas na agoa.* |  |
