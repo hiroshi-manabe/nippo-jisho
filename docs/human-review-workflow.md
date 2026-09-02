@@ -58,7 +58,7 @@ The collapsed changed row highlights the difference between the repository text 
 - it may use a simple character- or word-level algorithm;
 - an awkward comparison may fall back to highlighting a whole word or line;
 - the generated diff is not stored or submitted;
-- only the original text, proposed text, and optional comment are evidence.
+- only the original and proposed text, durable note change, and optional AI message are evidence.
 
 A pale background and darker accent should preserve the legibility of small letters and diacritics better than solid red text alone.
 
@@ -222,7 +222,7 @@ Because the guide is fully derived, its output is not stored in canonical Markdo
 
 The interface prepares corrections page by page. A submission contains only rows whose edits have been confirmed with **OK**. Before submission, the reader can inspect the collected changes.
 
-The Issue body must not be placed in a GitHub `issues/new` query parameter. GitHub documents query prefilling but does not promise a usable maximum URL length, and realistic multi-correction payloads can exceed browser, intermediary, or server limits. Compact JSON reduces the risk but does not remove it, especially when comments contain Japanese text.
+The Issue body must not be placed in a GitHub `issues/new` query parameter. GitHub documents query prefilling but does not promise a usable maximum URL length, and realistic multi-correction payloads can exceed browser, intermediary, or server limits. Compact JSON reduces the risk but does not remove it, especially when notes or messages contain Japanese text.
 
 The submission flow is therefore:
 
@@ -234,7 +234,7 @@ The submission flow is therefore:
 
 After the Issue composer opens, the review tab changes to ask whether the Issue was actually submitted. Confirming this does not delete the local draft: it changes the bar to a compact **Marked as submitted** state with a **Submit again** escape hatch. Choosing **Not yet**, editing any line, or explicitly submitting again returns the page to draft state. This local state is persisted per page so returning to or reloading the review tab does not make the submission ambiguous.
 
-Each local page workspace records a transcription version derived only from the ordered line IDs, transcription text, and typeface runs. Scan crops, thumbnails, correction-history badges, metadata, and interface code do not affect this version. When repository text changes, saved edits based on the earlier transcription must not be restored onto the new lines as though they were current.
+Each local page workspace records a review-baseline version derived only from the ordered line IDs, transcription text, typeface runs, and durable notes. Generated readings, scan crops, thumbnails, correction-history badges, other metadata, and interface code do not affect this version. When repository text or notes change, saved edits based on the earlier baseline must not be restored as though they were current.
 
 The page version is only a trigger for line-level reconciliation. Every saved edit also records the content version of its stable physical-line ID. Unchanged edited lines retain their proposals silently, even when another line on the page changed. If the current repository text equals a saved proposal, that textual correction is removed as already incorporated. Otherwise a changed edited line is automatically rebased: its current repository text becomes the new `before`, its saved proposal remains the `after`, and the row receives a persistent **Base updated** marker. A page notice reports the number of affected rows. Confirming a highlighted row with **OK** clears its marker; rebasing any submitted row returns the workspace to draft status.
 
@@ -279,11 +279,11 @@ The normal first action for a correction Issue is:
 python3 scripts/process_correction_issue.py process ISSUE_NUMBER
 ```
 
-The command takes an explicit Issue number; it never selects an Issue implicitly. It fetches the single schema-2 payload, verifies that the Issue is open and its base commit exists, validates every stable line ID and `before` value, resolves lightweight `*word`, `[roman]`, and `{italic}` notation, and applies all unflagged changes to the page's editable source. Canonical pages update compact Level 1 Markdown; machine-provisional pages update their candidate package in place and remain provisional. A page-version mismatch caused by unrelated lines is reported but does not defeat exact line-level validation. Unknown lines, changed `before` text, ambiguous notation, multiple payload blocks, and schema 1 are hard errors. Existing large-initial, far-right, and other run metadata is retained through textual edits.
+The command takes an explicit Issue number; it never selects an Issue implicitly. It fetches one schema-2 or schema-3 payload, verifies that the Issue is open and its base commit exists, validates every stable line ID and baseline value, resolves lightweight `*word`, `[roman]`, and `{italic}` notation, and applies all unmessaged changes to the page's editable source. Canonical pages update compact Level 1 Markdown; machine-provisional pages update their candidate package in place and remain provisional. Unknown lines, changed baseline text or notes, ambiguous notation, multiple payload blocks, and schema 1 are hard errors. Existing layout metadata is retained through textual edits.
 
-After application, the processor writes its report before validation, recompiles canonical interchange JSON and views when applicable, rebuilds the public review artifact, and runs the complete test suite. A validation failure leaves the Issue open, records `validation_failed` and the error in the report, and permits a repeat invocation to recognize the already-applied unflagged targets rather than applying them twice. If no second opinion was requested, it updates correction history, stages only the expected canonical or candidate source files, commits, pushes `main`, waits for the Pages workflow, verifies the deployed commit and correction record, comments on the Issue, and closes it. A failure before deployed verification leaves the Issue open.
+After application, the processor writes its report before validation, recompiles canonical interchange JSON and views when applicable, rebuilds the public review artifact, and runs the complete test suite. A validation failure leaves the Issue open and permits a repeat invocation to recognize already-applied targets. If no AI message is present, it updates correction history, commits, pushes `main`, verifies deployment, comments on the Issue, and closes it. A failure before deployed verification leaves the Issue open.
 
-If one or more changes contain `second_opinion: true`, the processor applies and validates only the unflagged subset, writes `build/correction-issues/issue-N.json`, prints its path, and exits with status 3. No history update, commit, push, deployment, or Issue closure occurs. Each flagged item begins with `"decision": "pending"`. After the linguistic-first and visual review, the machine reviewer records one of:
+If one or more schema-3 changes contain a nonempty `message`, the processor applies and validates only the unmessaged subset, writes `build/correction-issues/issue-N.json`, prints its path, and exits with status 3. No history update, commit, push, deployment, or Issue closure occurs. Each messaged item begins with `"decision": "pending"`. Schema-2 `second_opinion` items follow the same compatibility path. After review, the machine reviewer records one of:
 
 - `"accept"`: apply the submitted form exactly;
 - `"reject"`: retain the existing line;
@@ -312,7 +312,7 @@ Review therefore proceeds in this order:
 
 This is evidence-weighting, not silent normalization. An unmistakably printed anomaly remains literal Level 1 text even when its intended word is certain. Linguistic priority governs hypothesis formation and ambiguous evidence; it does not authorize replacing clear type with an expected form.
 
-An explicit human pre-confirmation attached to a second-opinion item is already an adjudication, not merely supporting commentary. When the comment states that the reviewer has inspected the relevant feature and records the resulting decision—for example, confirming that a visibly slanted Japanese word is nevertheless roman type—the machine skips that stated visual check and applies the exact submitted correction. It must not reopen the same distinction merely because it is difficult for machine vision. A comment that only supplies context, a hypothesis, or a reason to inspect the scan follows the ordinary second-opinion procedure. In the UI, a reader who intends the former may also clear the automatically selected checkbox and submit the item as human-settled.
+An explicit human pre-confirmation in a Message to AI is already an adjudication, not merely supporting commentary. When the message states that the reviewer has inspected the relevant feature and records the resulting decision—for example, confirming that a visibly slanted Japanese word is nevertheless roman type—the machine skips that stated visual check and applies the exact submitted correction. It must not reopen the same distinction merely because it is difficult for machine vision. A message that only supplies context, a hypothesis, or a reason to inspect the scan follows the ordinary review procedure.
 
 The machine reviewer accepts and applies every proposal supported by this combined linguistic-first and visual test. A proposal it cannot substantiate is provisionally rejected and marked **Human re-check required**. Here, *rejected* means only *not independently verified by the machine reviewer*; it does not mean that the proposal has been proved incorrect. The machine must state the positive contrary evidence or the exact unresolved distinction rather than merely report that the old reading still looks possible.
 

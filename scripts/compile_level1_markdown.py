@@ -19,6 +19,7 @@ ZONE_RE = re.compile(r"^## ([a-z0-9-]+) \[([a-z0-9_-]+)\] (.+)$")
 LINE_RE = re.compile(
     r"^\[([a-z0-9-]+)(?: (>|>>))?(?: initial=([2-9][0-9]*))?\] (.*)$"
 )
+LINE_NOTE_RE = re.compile(r"^\[([a-z0-9-]+) (note|note\+)\] ?(.*)$")
 SPAN_RE = re.compile(r"^\{([a-z0-9_-]+)\}(.*)$")
 
 REQUIRED_METADATA = {
@@ -181,6 +182,7 @@ def parse_markdown(path: Path) -> dict:
 
     current_zone = None
     line_ids: set[str] = set()
+    line_records: dict[str, dict] = {}
     span_ids: set[tuple[str, str]] = set()
     for line_number, line in enumerate(lines[metadata_end + 1 :], start=metadata_end + 2):
         if not line:
@@ -200,6 +202,20 @@ def parse_markdown(path: Path) -> dict:
             if "note" in current_zone:
                 raise fail(path, line_number, "a zone may contain only one note")
             current_zone["note"] = line[2:]
+            continue
+        note_match = LINE_NOTE_RE.match(line)
+        if note_match:
+            line_id, note_kind, note = note_match.groups()
+            if line_id not in line_records:
+                raise fail(path, line_number, "line note must follow its physical line")
+            if note_kind == "note+" and "note" not in line_records[line_id]:
+                raise fail(path, line_number, f"note continuation for {line_id!r} has no first line")
+            if note_kind == "note" and "note" in line_records[line_id]:
+                raise fail(path, line_number, f"duplicate note for {line_id!r}")
+            if note_kind == "note+":
+                line_records[line_id]["note"] += "\n" + note
+            else:
+                line_records[line_id]["note"] = note
             continue
         match = LINE_RE.match(line)
         if not match:
@@ -250,6 +266,7 @@ def parse_markdown(path: Path) -> dict:
                 span_ids.add(key)
         record["runs"] = runs
         current_zone.setdefault("lines", []).append(record)
+        line_records[line_id] = record
 
     if not page["zones"] or not line_ids:
         raise Level1MarkdownError(f"{path}: no page zones or physical lines")
@@ -342,6 +359,10 @@ def export_markdown(page: dict) -> str:
                         rendered = rendered.lstrip(" ")
                     content += f" || {label}{rendered}"
             output.append(f"[{line['id']}{flag}{initial_flag}] {content}")
+            if line.get("note"):
+                note_lines = line["note"].replace("\r\n", "\n").replace("\r", "\n").split("\n")
+                output.append(f"[{line['id']} note] {note_lines[0]}")
+                output.extend(f"[{line['id']} note+] {part}" for part in note_lines[1:])
         output.append("")
     return "\n".join(output).rstrip() + "\n"
 

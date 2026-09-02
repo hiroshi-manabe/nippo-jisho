@@ -37,6 +37,13 @@ class PublicReviewRegressionTests(unittest.TestCase):
         self.assertEqual(states.count("canonical_level1"), 229)
         self.assertEqual(states.count("machine_provisional"), 402)
         self.assertEqual(states.count("scan_only"), 20)
+        self.assertTrue(
+            all(
+                line.get("reading_hint_status") in {"available", "unavailable", "not_applicable"}
+                for page in corpus["pages"] if page["processed"]
+                for zone in page["zones"] for line in zone["lines"]
+            )
+        )
 
         initial = pages["bnf-f0238"]
         self.assertTrue(initial["processed"])
@@ -208,52 +215,26 @@ class PublicReviewRegressionTests(unittest.TestCase):
         self.assertIn("event.preventDefault()", app)
         self.assertIn(".character-palette", styles)
 
-    def test_automatic_kana_guide_is_derived_and_dictionary_aware(self):
-        app = (ROOT / "site" / "app.js").read_text(encoding="utf-8")
-        document = (ROOT / "site" / "index.html").read_text(encoding="utf-8")
-        builder = (ROOT / "scripts" / "build_public_review.py").read_text(encoding="utf-8")
-        self.assertIn('<script src="kana-guide.js"></script>', document)
-        self.assertIn('id="kana-guide-toggle"', document)
-        self.assertIn('NippoKanaGuide.convertRuns(line.runs)', app)
-        self.assertIn('"kana-guide.js",', builder)
+    def test_automatic_kana_guide_is_build_generated_and_dictionary_aware(self):
+        from scripts.kana_reading import reading_hint, transliterate_token
 
-        script = r"""
-const k = require('./site/kana-guide.js');
-const actual = {
-  aqiraca: k.transliterateToken('Aqiraca'),
-  fanauo: k.transliterateToken('Fanauo'),
-  kutsuua: k.transliterateToken('cutçuuauo'),
-  initialV: k.transliterateToken('Vmani'),
-  longO: k.transliterateToken('Vôqina'),
-  finalJ: k.transliterateToken('canaxij'),
-  uppercasePortuguese: k.transliterateToken('NOME'),
-  label: k.transliterateToken('Vt'),
-  runs: k.convertRuns([
-    {typeface: 'roman', text: 'Aqiraca. '},
-    {typeface: 'italic', text: 'Couſa clara. '},
-    {typeface: 'roman', text: 'Vt, Faiqen.'},
-  ]),
-};
-console.log(JSON.stringify(actual));
-"""
-        result = subprocess.run(
-            ["node", "-e", script], cwd=ROOT, capture_output=True, text=True
-        )
-        self.assertEqual(result.returncode, 0, result.stderr)
+        self.assertEqual(transliterate_token("Aqiraca"), "アキラカ")
+        self.assertEqual(transliterate_token("Fanauo"), "ハナヲ")
+        self.assertEqual(transliterate_token("cutçuuauo"), "クツワヲ")
+        self.assertEqual(transliterate_token("Vmani"), "ウマニ")
+        self.assertEqual(transliterate_token("Vôqina"), "オゥキナ")
+        self.assertEqual(transliterate_token("canaxij"), "カナシイ")
+        self.assertIsNone(transliterate_token("Vt"))
         self.assertEqual(
-            json.loads(result.stdout),
-            {
-                "aqiraca": "アキラカ",
-                "fanauo": "ハナヲ",
-                "kutsuua": "クツワヲ",
-                "initialV": "ウマニ",
-                "longO": "オゥキナ",
-                "finalJ": "カナシイ",
-                "uppercasePortuguese": None,
-                "label": None,
-                "runs": "アキラカ. ハイケン.",
-            },
+            reading_hint([
+                {"typeface": "roman", "text": "Facuran. Firoqu miru. "},
+                {"typeface": "italic", "text": "Grande estudo, ou"},
+            ]),
+            "Facuran/ハクラン, Firoqu miru/ヒロク ミル",
         )
+        app = (ROOT / "site" / "app.js").read_text(encoding="utf-8")
+        self.assertIn("line.reading_hint", app)
+        self.assertIn("Automatic reading unavailable", app)
 
     def test_collapsed_line_quick_edits_are_reversible_and_schema_neutral(self):
         app = (ROOT / "site" / "app.js").read_text(encoding="utf-8")
@@ -455,20 +436,19 @@ equal(q.align('foo, bar.', 'foo bar.').deletions.map(item => [item.character, it
         self.assertIn("if (saveEditor(area.form)) renderPageContent()", app)
         self.assertIn("Pressing **Enter** in the transcription field", workflow)
 
-    def test_correction_submission_supports_opt_in_second_opinions(self):
+    def test_correction_submission_separates_notes_and_ai_messages(self):
         app = (ROOT / "site" / "app.js").read_text(encoding="utf-8")
         styles = (ROOT / "site" / "styles.css").read_text(encoding="utf-8")
         workflow = (ROOT / "docs" / "human-review-workflow.md").read_text(
             encoding="utf-8"
         )
-        self.assertIn('name="second-opinion"', app)
-        self.assertIn("function requestsSecondOpinion(edit)", app)
-        self.assertIn("opinionControl.checked = Boolean(commentArea.value.trim())", app)
-        self.assertIn("opinionControl.dataset.manual = 'true'", app)
-        self.assertIn("second_opinion: true", app)
-        self.assertIn("{ schema: 2, page: page.view", app)
-        self.assertIn(".second-opinion-toggle", styles)
-        self.assertIn("mechanically apply all unflagged schema-2 changes", workflow)
+        self.assertIn('name="note"', app)
+        self.assertIn('name="message"', app)
+        self.assertNotIn('name="second-opinion"', app)
+        self.assertIn("note_before", app)
+        self.assertIn("note_after", app)
+        self.assertIn("{ schema: 3, page: page.view", app)
+        self.assertIn("Any nonempty message requires AI inspection", workflow)
 
     def test_page_view_has_explicit_overview_control(self):
         app = (ROOT / "site" / "app.js").read_text(encoding="utf-8")
@@ -691,7 +671,7 @@ equal(q.align('foo, bar.', 'foo bar.').deletions.map(item => [item.character, it
         document = (ROOT / "site" / "index.html").read_text(encoding="utf-8")
         builder = (ROOT / "scripts" / "build_public_review.py").read_text(encoding="utf-8")
         self.assertIn('"transcription_version": transcription_version(zones)', builder)
-        self.assertIn("const WORKSPACE_SCHEMA = 4", app)
+        self.assertIn("const WORKSPACE_SCHEMA = 5", app)
         self.assertIn("function reconcileEdits(page, edits)", app)
         self.assertIn("comment_review_needed", app)
         self.assertIn("base_line_version", app)

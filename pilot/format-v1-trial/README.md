@@ -152,6 +152,7 @@ The external page displayed neighboring text as unavoidable context. No neighbor
 - All 229 complete pages can be read directly as Markdown while compiling back to the complete 22,379-line machine representation.
 - The 209 authoring files occupy 27,142 lines and 1,118,697 bytes.
 - Ordinary physical lines require only a stable ID and their visible text; Markdown emphasis records typeface without explicit run objects.
+- An optional durable annotation follows its line as `[LINE-ID note] text`; additional paragraphs or lines use `[LINE-ID note+] text`. These notes are canonical and editable, unlike build-generated `reading_hint` values.
 - Only `(grande.` and `(o homem.` need named sub-line spans in the current sample, so exceptional machinery remains exceptional.
 - Stable physical-line identifiers provide adequate targets for later structure.
 - Typeface runs preserve evidence without labelling a span as a headword or definition at Level 1.

@@ -3,6 +3,7 @@ import json
 from pathlib import Path
 import subprocess
 import sys
+import tempfile
 import unittest
 
 
@@ -22,6 +23,19 @@ def load_module():
 
 
 class Level1MarkdownTests(unittest.TestCase):
+    def test_durable_line_notes_round_trip_without_entering_text_runs(self):
+        module = load_module()
+        page = json.loads((JSON_DIR / "bnf-f0163.json").read_text(encoding="utf-8"))
+        line = next(line for zone in page["zones"] for line in zone.get("lines", []) if line["id"] == "c1-l012")
+        line["note"] = "The reading is mechanically useful.\nIt remains provisional."
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "page.md"
+            path.write_text(module.export_markdown(page), encoding="utf-8")
+            parsed = module.parse_markdown(path)
+        parsed_line = next(line for zone in parsed["zones"] for line in zone.get("lines", []) if line["id"] == "c1-l012")
+        self.assertEqual(parsed_line["note"], line["note"])
+        self.assertEqual(parsed_line["runs"], line["runs"])
+
     def test_human_checked_is_a_supported_production_status(self):
         module = load_module()
         self.assertIn("human_checked", module.ALLOWED_STATUSES)

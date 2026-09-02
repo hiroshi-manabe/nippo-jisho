@@ -87,9 +87,9 @@ def extract_payload(body: str) -> dict:
 
 
 def validate_payload(payload: dict) -> None:
-    if payload.get("schema") != 2:
+    if payload.get("schema") not in {2, 3}:
         raise IssueProcessingError(
-            f"unsupported correction schema {payload.get('schema')!r}; only schema 2 is accepted"
+            f"unsupported correction schema {payload.get('schema')!r}; schemas 2 and 3 are accepted"
         )
     for field in ("page", "base_commit", "base_transcription_version"):
         if not isinstance(payload.get(field), str) or not payload[field]:
@@ -117,6 +117,11 @@ def validate_payload(payload: dict) -> None:
             raise IssueProcessingError(
                 f"change {index} has a non-boolean second_opinion"
             )
+        for field in ("note_before", "note_after", "message"):
+            if field in change and not isinstance(change[field], str):
+                raise IssueProcessingError(f"change {index} has a non-string {field}")
+        if payload["schema"] == 3 and "note_after" in change and "note_before" not in change:
+            raise IssueProcessingError(f"change {index} changes a note without note_before")
 
 
 def resolve_tilde_markers(value: str) -> str:
@@ -430,11 +435,19 @@ def validate_base_commit(root: Path, commit: str) -> None:
 
 def apply_change(line: dict, change: dict) -> tuple[dict, bool]:
     current = line_text(line)
+    current_note = line.get("note", "")
     target, roman_ranges, italic_ranges = parse_correction_notation(change["after"])
     if current not in {change["before"], target}:
         raise IssueProcessingError(
             f"{change['line']} before mismatch: expected {change['before']!r} "
             f"or prepared target {target!r}, found {current!r}"
+        )
+    note_before = change.get("note_before", current_note)
+    note_after = change.get("note_after", note_before)
+    if current_note not in {note_before, note_after}:
+        raise IssueProcessingError(
+            f"{change['line']} note_before mismatch: expected {note_before!r} "
+            f"or prepared target {note_after!r}, found {current_note!r}"
         )
     return (
         {
@@ -444,9 +457,12 @@ def apply_change(line: dict, change: dict) -> tuple[dict, bool]:
             "resolved_after": target,
             "roman_ranges": roman_ranges,
             "italic_ranges": italic_ranges,
+            "note_before": note_before,
+            "note_after": note_after,
+            **({"message": change["message"]} if change.get("message") else {}),
             **({"comment": change["comment"]} if change.get("comment") else {}),
         },
-        current == target,
+        current == target and current_note == note_after,
     )
 
 
@@ -457,6 +473,10 @@ def apply_resolved(line: dict, item: dict) -> None:
         item["roman_ranges"],
         item.get("italic_ranges", []),
     )
+    if item.get("note_after"):
+        line["note"] = item["note_after"]
+    else:
+        line.pop("note", None)
 
 
 def validation_commands(root: Path) -> list[list[str]]:
@@ -512,7 +532,8 @@ def prepare(
         if line is None:
             raise IssueProcessingError(f"unknown line {change['line']!r}")
         item, already_prepared = apply_change(line, change)
-        if change.get("second_opinion", False):
+        needs_review = bool(change.get("message") or change.get("comment") or change.get("second_opinion", False))
+        if needs_review:
             if already_prepared and item["resolved_after"] != item["before"]:
                 raise IssueProcessingError(
                     f"flagged {change['line']} was modified before second-opinion review"

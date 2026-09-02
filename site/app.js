@@ -1,5 +1,5 @@
-const state = { corpus: null, byLeaf: new Map(), currentPage: null, unit: 'page', edits: {}, suggestionDismissals: {}, submissions: {}, workspacesLoaded: new Set(), staleDraft: null, knownRomanTerms: new Set(), staleBaseline: null, kanaGuide: localStorage.getItem('nippo-kana-guide') === 'shown' };
-const WORKSPACE_SCHEMA = 4;
+const state = { corpus: null, byLeaf: new Map(), currentPage: null, unit: 'page', edits: {}, suggestionDismissals: {}, submissions: {}, workspacesLoaded: new Set(), staleDraft: null, knownRomanTerms: new Set(), staleBaseline: null };
+const WORKSPACE_SCHEMA = 5;
 const previewImageCache = new Map();
 const hdImageCache = new Map();
 const hdFailures = new Map();
@@ -291,9 +291,9 @@ function seedMachineSuggestions(page) {
         edits[line.id] = {
           before: line.text,
           after: line.text.slice(0, -1),
-          comment: '',
-          second_opinion: false,
-          second_opinion_manual: false,
+          note_before: line.note || '',
+          note_after: line.note || '',
+          message: '',
           base_line_version: line.transcription_version,
           machine_suggestion: kind,
         };
@@ -302,13 +302,9 @@ function seedMachineSuggestions(page) {
   }
 }
 
-function requestsSecondOpinion(edit) {
-  return edit?.second_opinion ?? Boolean(edit?.comment);
-}
-
 function staleDraftPayload(stale) {
-  const changes = Object.entries(stale.edits).map(([line, edit]) => ({line, before: edit.before, after: edit.after, ...(edit.comment ? {comment: edit.comment} : {}), ...(requestsSecondOpinion(edit) ? {second_opinion: true} : {})}));
-  return JSON.stringify({schema: 2, page: stale.page.view, base_transcription_version: stale.version, changes}, null, 2);
+  const changes = Object.entries(stale.edits).map(([line, edit]) => ({line, before: edit.before, after: edit.after, note_before: edit.note_before || '', note_after: edit.note_after || '', ...(edit.message || edit.comment ? {message: edit.message || edit.comment} : {})}));
+  return JSON.stringify({schema: 3, page: stale.page.view, base_transcription_version: stale.version, changes}, null, 2);
 }
 
 function showStaleDraftWarning() {
@@ -387,15 +383,15 @@ function reconcileEdits(page, edits) {
     const reviewFlags = {
       base_line_version: line.transcription_version,
       base_changed: true,
-      ...(edit.comment ? {comment_review_needed: true} : {}),
+      ...(edit.note_after !== undefined || edit.message || edit.comment ? {comment_review_needed: true} : {}),
     };
     if (proposalMatchesLine(line, edit.after)) {
-      if (edit.comment) reconciled[lineId] = {...rebasedEdit, before: line.text, after: line.text, ...reviewFlags};
+      if (edit.note_after !== undefined || edit.message || edit.comment) reconciled[lineId] = {...rebasedEdit, before: line.text, after: line.text, note_before: line.note || '', ...reviewFlags};
       continue;
     }
     const proposal = parseTypefaceNotation(edit.after);
     if (proposal.valid && edit.before === proposal.text && proposal.romanRanges.length === 0 && proposal.italicRanges.length === 0) {
-      if (edit.comment) reconciled[lineId] = {...rebasedEdit, before: line.text, after: line.text, ...reviewFlags};
+      if (edit.note_after !== undefined || edit.message || edit.comment) reconciled[lineId] = {...rebasedEdit, before: line.text, after: line.text, note_before: line.note || '', ...reviewFlags};
       continue;
     }
     reconciled[lineId] = {...rebasedEdit, before: line.text, ...reviewFlags};
@@ -409,6 +405,14 @@ function loadPageWorkspace(page) {
   const storedSubmission = storageJSON(submissionStorageKey(page));
   const isEnvelope = storedEdits?.schema >= 2 && storedEdits.edits && typeof storedEdits.edits === 'object';
   const edits = isEnvelope ? storedEdits.edits : (storedEdits && typeof storedEdits === 'object' ? storedEdits : {});
+  for (const edit of Object.values(edits)) {
+    if (edit.message === undefined && edit.comment) edit.message = edit.comment;
+    if (edit.note_before === undefined) edit.note_before = '';
+    if (edit.note_after === undefined) edit.note_after = edit.note_before;
+    delete edit.comment;
+    delete edit.second_opinion;
+    delete edit.second_opinion_manual;
+  }
   const status = storedSubmission?.status || 'draft';
   const storedVersion = isEnvelope ? storedEdits.transcription_version : page.transcription_version;
   const versionChanged = Boolean(storedVersion && page.transcription_version && storedVersion !== page.transcription_version);
@@ -539,9 +543,9 @@ function renderRuns(runs) {
 }
 
 function kanaGuideHTML(line) {
-  if (!state.kanaGuide) return '';
-  const kana = NippoKanaGuide.convertRuns(line.runs);
-  return kana ? `<div class="kana-guide" aria-label="Automatic kana guide"><span>Automatic</span>${escapeHTML(kana)}</div>` : '';
+  if (line.reading_hint_status === 'not_applicable') return '';
+  const hint = line.reading_hint || 'Automatic reading unavailable';
+  return `<div class="kana-guide ${line.reading_hint ? '' : 'unavailable'}" aria-label="Automatic kana guide"><span>Automatic reading</span>${escapeHTML(hint)}</div>`;
 }
 
 function zonesFor(page, unit) {
@@ -597,9 +601,6 @@ function renderPageContent() {
     $('#page-content').innerHTML = `<div class="page-comparison">${scanPane(page)}<section class="text-pane"><div class="pane-toolbar"><strong>${pageStateLabel(page)}</strong>${page.source ? `<a class="push" href="${page.source}" target="_blank" rel="noreferrer">${escapeHTML(page.source_label || 'Source data')}</a>` : ''}</div><div class="continuous-text">${continuousHTML(page, state.unit)}</div></section></div>`;
   }
   updateColumnNavigation();
-  $('#kana-guide-toggle').classList.toggle('active', state.kanaGuide);
-  $('#kana-guide-toggle').setAttribute('aria-pressed', String(state.kanaGuide));
-  $('#kana-guide-toggle').disabled = !page.processed;
   refreshPageImageUI(page);
 }
 
@@ -787,9 +788,10 @@ function interactiveLineHTML(line, annotatedText, nasalRestorations = [], machin
 function lineHTML(page, line) {
   const edit = pageEdits(page)[line.id];
   const current = edit ? edit.after : line.text;
-  const comment = edit?.comment || '';
-  const markers = `${edit?.machine_suggestion === 'ocr_terminal_hyphen' ? '<span class="review-marker suggestion-marker">OCR: no hyphen</span>' : ''}${edit?.base_changed ? '<span class="review-marker">Base updated</span>' : ''}${edit?.comment_review_needed ? '<span class="review-marker comment-marker">Comment needs review</span>' : ''}${requestsSecondOpinion(edit) ? '<span class="review-marker opinion-marker">Second opinion</span>' : ''}`;
-  return `<article class="line-row ${edit ? 'changed' : ''} ${edit?.machine_suggestion ? 'suggested' : ''} ${edit?.base_changed ? 'rebased' : ''}" data-line="${line.id}"><div class="line-head"><code>${line.id}</code>${markers}<button class="context-toggle" type="button" aria-expanded="false">Show context</button></div><button class="line-crop" type="button" style="aspect-ratio:${line.crop[2]}/${line.crop[3]}" data-crop='${JSON.stringify(line.crop)}' data-context='${JSON.stringify(line.context_crop)}' aria-label="Show context for ${line.id}"><img loading="lazy" data-iiif-page alt="" style="width:${page.width / line.crop[2] * 100}%;transform:translate(${-line.crop[0] / page.width * 100}% ,${-line.crop[1] / page.height * 100}%)"></button><div class="line-text-row" title="Click beside the text for the full editor"><div class="line-transcription"><div class="line-text indent-${line.indent}">${interactiveLineHTML(line, current, edit?.nasal_restorations, edit?.machine_suggestion)}</div>${kanaGuideHTML(line)}</div>${comment ? `<button class="comment-preview" type="button" data-action="edit" title="${escapeHTML(comment)}">${escapeHTML(comment)}</button>` : ''}</div></article>`;
+  const note = edit?.note_after ?? line.note ?? '';
+  const message = edit?.message || '';
+  const markers = `${edit?.machine_suggestion === 'ocr_terminal_hyphen' ? '<span class="review-marker suggestion-marker">OCR: no hyphen</span>' : ''}${edit?.base_changed ? '<span class="review-marker">Base updated</span>' : ''}${edit?.comment_review_needed ? '<span class="review-marker comment-marker">Note needs review</span>' : ''}${message ? '<span class="review-marker opinion-marker">Message to AI</span>' : ''}`;
+  return `<article class="line-row ${edit ? 'changed' : ''} ${edit?.machine_suggestion ? 'suggested' : ''} ${edit?.base_changed ? 'rebased' : ''}" data-line="${line.id}"><div class="line-head"><code>${line.id}</code>${markers}<button class="context-toggle" type="button" aria-expanded="false">Show context</button></div><button class="line-crop" type="button" style="aspect-ratio:${line.crop[2]}/${line.crop[3]}" data-crop='${JSON.stringify(line.crop)}' data-context='${JSON.stringify(line.context_crop)}' aria-label="Show context for ${line.id}"><img loading="lazy" data-iiif-page alt="" style="width:${page.width / line.crop[2] * 100}%;transform:translate(${-line.crop[0] / page.width * 100}% ,${-line.crop[1] / page.height * 100}%)"></button><div class="line-text-row" title="Click beside the text for the full editor"><div class="line-transcription"><div class="line-text indent-${line.indent}">${interactiveLineHTML(line, current, edit?.nasal_restorations, edit?.machine_suggestion)}</div>${kanaGuideHTML(line)}</div>${note ? `<button class="comment-preview" type="button" data-action="edit" title="${escapeHTML(note)}">${escapeHTML(note)}</button>` : ''}</div></article>`;
 }
 
 function setCrop(row, expanded) {
@@ -876,9 +878,8 @@ function saveEditor(form) {
   const row = form.closest('.line-row');
   const line = lineById(row.dataset.line);
   const after = form.elements.transcription.value;
-  const comment = form.elements.comment.value.trim();
-  const secondOpinion = form.elements['second-opinion'].checked;
-  const secondOpinionManual = form.elements['second-opinion'].dataset.manual === 'true';
+  const noteAfter = form.elements.note.value.trim();
+  const message = form.elements.message.value.trim();
   const proposal = parseTypefaceNotation(after);
   if (!proposal.valid) {
     toast(proposal.error);
@@ -889,8 +890,9 @@ function saveEditor(form) {
   const nasalRestorations = existing?.after === after ? existing.nasal_restorations : undefined;
   const matchesLine = proposalMatchesLine(line, after);
   if (matchesLine) dismissMachineSuggestion(state.currentPage, line, existing?.machine_suggestion);
-  if (matchesLine && !comment && !secondOpinion) delete pageEdits(state.currentPage)[line.id];
-  else pageEdits(state.currentPage)[line.id] = {before: line.text, after, comment, second_opinion: secondOpinion, second_opinion_manual: secondOpinionManual, base_line_version: line.transcription_version, ...(!matchesLine && existing?.machine_suggestion ? {machine_suggestion: existing.machine_suggestion} : {}), ...(nasalRestorations?.length ? {nasal_restorations: nasalRestorations} : {})};
+  const noteBefore = line.note || '';
+  if (matchesLine && noteAfter === noteBefore && !message) delete pageEdits(state.currentPage)[line.id];
+  else pageEdits(state.currentPage)[line.id] = {before: line.text, after, note_before: noteBefore, note_after: noteAfter, message, base_line_version: line.transcription_version, ...(!matchesLine && existing?.machine_suggestion ? {machine_suggestion: existing.machine_suggestion} : {}), ...(nasalRestorations?.length ? {nasal_restorations: nasalRestorations} : {})};
   persistEdits(state.currentPage);
   return true;
 }
@@ -907,17 +909,8 @@ function openEditor(row) {
   }
   const line = lineById(lineId);
   const edit = pageEdits(state.currentPage)[lineId];
-  const hasStoredOpinion = typeof edit?.second_opinion === 'boolean';
-  const secondOpinion = hasStoredOpinion ? edit.second_opinion : Boolean(edit?.comment);
-  const opinionManual = hasStoredOpinion && edit?.second_opinion_manual;
-  row.insertAdjacentHTML('beforeend', `<form class="edit-form"><div class="transcription-editor"><textarea name="transcription" aria-label="Revised transcription">${escapeHTML(edit?.after || line.text)}</textarea>${paletteHTML()}</div><div class="comment-editor"><textarea name="comment" aria-label="Comment" placeholder="Optional comment">${escapeHTML(edit?.comment || '')}</textarea><label class="second-opinion-toggle"><input type="checkbox" name="second-opinion" ${secondOpinion ? 'checked' : ''} data-manual="${opinionManual ? 'true' : 'false'}"> <span>Request second opinion</span></label></div><div class="edit-actions"><button type="button" data-action="cancel">Cancel</button>${edit ? '<button type="button" data-action="revert">Revert</button>' : ''}<button class="primary" type="submit">OK</button></div></form>`);
+  row.insertAdjacentHTML('beforeend', `<form class="edit-form"><div class="transcription-editor"><textarea name="transcription" aria-label="Revised transcription">${escapeHTML(edit?.after || line.text)}</textarea>${paletteHTML()}</div><div class="comment-editor"><textarea name="note" aria-label="Durable note" placeholder="Durable line note">${escapeHTML(edit?.note_after ?? line.note ?? '')}</textarea><textarea name="message" aria-label="Message to AI" placeholder="Message to AI (always reviewed)">${escapeHTML(edit?.message || '')}</textarea></div><div class="edit-actions"><button type="button" data-action="cancel">Cancel</button>${edit ? '<button type="button" data-action="revert">Revert</button>' : ''}<button class="primary" type="submit">OK</button></div></form>`);
   const form = row.querySelector('.edit-form');
-  const commentArea = form.elements.comment;
-  const opinionControl = form.elements['second-opinion'];
-  commentArea.addEventListener('input', () => {
-    if (opinionControl.dataset.manual !== 'true') opinionControl.checked = Boolean(commentArea.value.trim());
-  });
-  opinionControl.addEventListener('change', () => { opinionControl.dataset.manual = 'true'; });
   row.querySelector('[name="transcription"]').focus();
 }
 
@@ -1011,9 +1004,10 @@ function applyQuickEdit(row, control) {
     shiftNasalRestorations(index, 1, 2);
   }
   if (after === current) return;
-  const comment = existing?.comment || '';
-  const secondOpinion = Boolean(existing?.second_opinion);
-  if (proposalMatchesLine(line, after) && !comment && !secondOpinion) {
+  const noteBefore = line.note || '';
+  const noteAfter = existing?.note_after ?? noteBefore;
+  const message = existing?.message || '';
+  if (proposalMatchesLine(line, after) && noteAfter === noteBefore && !message) {
     dismissMachineSuggestion(state.currentPage, line, existing?.machine_suggestion);
     delete pageEdits(state.currentPage)[lineId];
   } else {
@@ -1021,9 +1015,9 @@ function applyQuickEdit(row, control) {
       ...existing,
       before: line.text,
       after,
-      comment,
-      second_opinion: secondOpinion,
-      second_opinion_manual: Boolean(existing?.second_opinion_manual),
+      note_before: noteBefore,
+      note_after: noteAfter,
+      message,
       base_line_version: line.transcription_version,
       nasal_restorations: nasalRestorations.length ? nasalRestorations : undefined,
     };
@@ -1043,8 +1037,8 @@ async function submitCorrections() {
     toast('This page has a newer baseline. Reload it before submitting.');
     return;
   }
-  const changes = Object.entries(pageEdits(page)).map(([line, edit]) => ({ line, before: edit.before, after: edit.after, ...(edit.comment ? {comment: edit.comment} : {}), ...(requestsSecondOpinion(edit) ? {second_opinion: true} : {}) }));
-  const payload = JSON.stringify({ schema: 2, page: page.view, base_commit: state.corpus.commit, base_transcription_version: page.transcription_version, changes }, null, 2);
+  const changes = Object.entries(pageEdits(page)).map(([line, edit]) => ({ line, before: edit.before, after: edit.after, note_before: edit.note_before || '', note_after: edit.note_after || '', ...(edit.message ? {message: edit.message} : {}) }));
+  const payload = JSON.stringify({ schema: 3, page: page.view, base_commit: state.corpus.commit, base_transcription_version: page.transcription_version, changes }, null, 2);
   const issueURL = `https://github.com/${state.corpus.repository}/issues/new?template=transcription-correction.md&title=${encodeURIComponent(`[${page.view}] Transcription corrections`)}`;
   const issueWindow = window.open('about:blank', '_blank');
   const copied = await copyText(payload);
@@ -1060,12 +1054,6 @@ document.addEventListener('click', event => {
   if (event.target.closest('[data-action="retry-hd"]')) return queueHD(state.currentPage, false);
   const card = event.target.closest('.page-card'); if (card) return showPage(Number(card.dataset.leaf));
   const tab = event.target.closest('#view-tabs button[data-unit]'); if (tab) return showPage(state.currentPage.leaf, tab.dataset.unit);
-  if (event.target.closest('#kana-guide-toggle')) {
-    state.kanaGuide = !state.kanaGuide;
-    localStorage.setItem('nippo-kana-guide', state.kanaGuide ? 'shown' : 'hidden');
-    renderPageContent();
-    return;
-  }
   const columnButton = event.target.closest('[data-column-leaf][data-column-unit]');
   if (columnButton) { showPage(Number(columnButton.dataset.columnLeaf), columnButton.dataset.columnUnit); window.scrollTo(0, 0); return; }
   const row = event.target.closest('.line-row');

@@ -16,6 +16,11 @@ import unicodedata
 
 import markdown
 
+try:
+    from scripts.kana_reading import reading_hint
+except ModuleNotFoundError:  # Direct execution places scripts/ on sys.path.
+    from kana_reading import reading_hint
+
 
 ARK = "ark:/12148/bpt6k852354j"
 IMAGE_BASE_URL = "https://nippo-jisho-images.pages.dev"
@@ -123,6 +128,7 @@ def transcription_line_data(line: dict) -> dict:
     return {
         "id": line["id"],
         "text": line["text"],
+        "note": line.get("note", ""),
         "runs": [
             {
                 key: run[key]
@@ -142,7 +148,7 @@ def content_hash(value: object) -> str:
 
 
 def transcription_version(zones: list[dict]) -> str:
-    """Hash only the ordered text and style information a correction targets."""
+    """Hash the ordered canonical line text, style, and durable notes."""
     return content_hash(
         [transcription_line_data(line) for zone in zones for line in zone["lines"]]
     )
@@ -188,11 +194,20 @@ def processed_page(
         span = zone_config.get("line_span_percent", [5.8, 95.8])
         overrides = zone_config.get("line_crop_overrides", {})
         for index, line in enumerate(zone.get("lines", [])):
+            generated_reading = reading_hint(line["runs"])
+            has_roman_words = any(
+                run.get("typeface") == "roman"
+                and re.search(r"[A-Za-zÀ-žǍ-ǔſç]", run.get("text", ""))
+                for run in line["runs"]
+            )
             output_line = {
                 "id": line["id"],
                 "indent": line.get("indent", 0),
                 "runs": line["runs"],
                 "text": "".join(run["text"] for run in line["runs"]),
+                "reading_hint": generated_reading,
+                "reading_hint_status": "available" if generated_reading else ("unavailable" if has_roman_words else "not_applicable"),
+                **({"note": line["note"]} if line.get("note") else {}),
             }
             output_line["transcription_version"] = content_hash(
                 transcription_line_data(output_line)
@@ -440,7 +455,6 @@ def main() -> int:
     for name in (
         "index.html",
         "quick-edit.js",
-        "kana-guide.js",
         "app.js",
         "styles.css",
         "reference.css",

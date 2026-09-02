@@ -71,7 +71,7 @@ class CorrectionIssueProcessorTests(unittest.TestCase):
                 encoding="utf-8",
             )
             payload = {
-                "schema": 2,
+                "schema": 3,
                 "page": "f251",
                 "base_commit": "abc",
                 "base_transcription_version": "sha256:old",
@@ -80,6 +80,8 @@ class CorrectionIssueProcessorTests(unittest.TestCase):
                         "line": "c1-l001",
                         "before": "Alpha. Firſt line.",
                         "after": "Alpha. Firſt lines.",
+                        "note_before": "",
+                        "note_after": "A durable test annotation.",
                     }
                 ],
             }
@@ -107,6 +109,10 @@ class CorrectionIssueProcessorTests(unittest.TestCase):
                 for run in updated["page"]["zones"][0]["lines"][0]["runs"]
             )
             self.assertEqual(updated_text, "Alpha. Firſt lines.")
+            self.assertEqual(
+                updated["page"]["zones"][0]["lines"][0]["note"],
+                "A durable test annotation.",
+            )
             self.assertEqual(report["source_kind"], "ocr_candidate")
             self.assertEqual(
                 report["source_path"],
@@ -115,7 +121,7 @@ class CorrectionIssueProcessorTests(unittest.TestCase):
             self.assertEqual(report["status"], "ready_to_finalize")
 
     def test_schema_one_is_rejected(self):
-        with self.assertRaisesRegex(IssueProcessingError, "only schema 2"):
+        with self.assertRaisesRegex(IssueProcessingError, "schemas 2 and 3"):
             validate_payload(
                 {
                     "schema": 1,
@@ -421,7 +427,7 @@ status: scan_confirmed
                 encoding="utf-8",
             )
             payload = {
-                "schema": 2,
+                "schema": 3,
                 "page": "f14",
                 "base_commit": "abc",
                 "base_transcription_version": "sha256:old",
@@ -430,12 +436,16 @@ status: scan_confirmed
                         "line": "c1-l001",
                         "before": "Alpha. First line.",
                         "after": "Alpha. First lines.",
+                        "note_before": "",
+                        "note_after": "",
                     },
                     {
                         "line": "c1-l002",
                         "before": "Beta. Second line.",
                         "after": "Beta. Second lines.",
-                        "second_opinion": True,
+                        "note_before": "",
+                        "note_after": "",
+                        "message": "Please inspect this line.",
                     },
                 ],
             }
