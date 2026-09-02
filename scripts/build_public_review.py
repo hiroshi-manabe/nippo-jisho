@@ -9,6 +9,7 @@ import html
 import json
 import os
 from pathlib import Path
+import re
 import shutil
 import subprocess
 import unicodedata
@@ -42,6 +43,43 @@ def git_commit(root: Path) -> str:
     return subprocess.check_output(
         ["git", "rev-parse", "HEAD"], cwd=root, text=True
     ).strip()
+
+
+def git_file_revisions(root: Path, paths: list[Path]) -> dict[str, tuple[str, str]]:
+    relatives = [path.relative_to(root).as_posix() for path in paths]
+    output = subprocess.check_output(
+        ["git", "log", "--format=@@%H%x09%cI", "--name-only", "--", *relatives],
+        cwd=root,
+        text=True,
+    )
+    revisions: dict[str, tuple[str, str]] = {}
+    revision: tuple[str, str] | None = None
+    for line in output.splitlines():
+        if line.startswith("@@"):
+            revision = tuple(line[2:].split("\t", 1))
+        elif line and revision and line in relatives and line not in revisions:
+            revisions[line] = revision
+    missing = sorted(set(relatives) - revisions.keys())
+    if missing:
+        raise RuntimeError(f"no Git revision found for {', '.join(missing)}")
+    return revisions
+
+
+def embedded_roman_terms(pages: list[dict]) -> list[str]:
+    """Words proven upright after italic text in canonical dictionary lines."""
+    terms: set[str] = set()
+    for page in pages:
+        if page.get("data_state") != "canonical_level1":
+            continue
+        for zone in page.get("zones", []):
+            for line in zone.get("lines", []):
+                saw_italic = False
+                for run in line.get("runs", []):
+                    if run["typeface"] == "italic":
+                        saw_italic = True
+                    elif run["typeface"] == "roman" and saw_italic:
+                        terms.update(re.findall(r"[^\W\d_]+", run["text"], re.UNICODE))
+    return sorted(term for term in terms if len(term) > 1)
 
 
 def tile_configuration(path: Path) -> dict[str, dict]:
@@ -277,6 +315,11 @@ def main() -> int:
     }
     level1_dir = root / "pilot/format-v1-trial/level1"
     candidate_sources = ocr_candidate_sources(root)
+    revision_paths = [
+        root / "pilot" / "format-v1-trial" / "level1-source" / source.name.replace(".json", ".md")
+        for source in level1_dir.glob("bnf-f*.json")
+    ] + list(candidate_sources.values())
+    revisions = git_file_revisions(root, revision_paths)
     pages = []
     for image_record in image_records:
         leaf = image_record["leaf"]
@@ -298,6 +341,8 @@ def main() -> int:
         }
         source = level1_dir / f"{page_id}.json"
         if source.exists():
+            revision_path = root / "pilot" / "format-v1-trial" / "level1-source" / f"{page_id}.md"
+            baseline_commit, baseline_updated_at = revisions[revision_path.relative_to(root).as_posix()]
             page.update(
                 processed_page(
                     load_json(source),
@@ -314,10 +359,14 @@ def main() -> int:
                     "machine_provisional": False,
                     "source_label": "Source Markdown",
                     "structural_review_required": False,
+                    "ai_checked": (root / "pilot" / "production-review" / f"{page_id}.md").exists(),
+                    "baseline_commit": baseline_commit,
+                    "baseline_updated_at": baseline_updated_at,
                 }
             )
         elif page_id in candidate_sources:
             candidate_path = candidate_sources[page_id]
+            baseline_commit, baseline_updated_at = revisions[candidate_path.relative_to(root).as_posix()]
             candidate = load_json(candidate_path)
             if candidate.get("id") != page_id or candidate["page"].get("id") != page_id:
                 raise RuntimeError(f"candidate identity mismatch in {candidate_path}")
@@ -350,6 +399,9 @@ def main() -> int:
                     "provisional_reasons": assessment.get("reasons", []),
                     "structural_review_required": assessment.get("classification")
                     == "quarantine",
+                    "ai_checked": False,
+                    "baseline_commit": baseline_commit,
+                    "baseline_updated_at": baseline_updated_at,
                 }
             )
         else:
@@ -366,6 +418,9 @@ def main() -> int:
                     "data_state": "scan_only",
                     "machine_provisional": False,
                     "structural_review_required": False,
+                    "ai_checked": False,
+                    "baseline_commit": None,
+                    "baseline_updated_at": None,
                 }
             )
         pages.append(page)
@@ -375,6 +430,7 @@ def main() -> int:
         "repository": args.repository,
         "commit": commit,
         "reference_version": commit[:7],
+        "known_roman_terms": embedded_roman_terms(pages),
         "pages": pages,
     }
     (output / "corpus.json").write_text(

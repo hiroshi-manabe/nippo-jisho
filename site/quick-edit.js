@@ -59,31 +59,22 @@
     return serialize(parsed.characters);
   }
 
-  function toggleRoman(value, index) {
-    const parsed = parse(value);
-    if (!parsed.valid || !parsed.characters[index]) return value;
-    parsed.characters[index].style = parsed.characters[index].style === 'roman' ? null : 'roman';
-    return serialize(parsed.characters);
-  }
-
-  function uppercasePeriodTokenRange(value, index) {
+  function knownTypefaceTokenRange(value, index, knownTerms) {
     const parsed = parse(value);
     if (!parsed.valid || !parsed.characters[index]) return null;
-    const character = parsed.characters[index].character;
-    if (!/\p{Lu}/u.test(character) || (index > 0 && /\p{L}/u.test(parsed.characters[index - 1].character))) return null;
+    if (!/\p{L}/u.test(parsed.characters[index].character)) return null;
+    let start = index;
     let end = index + 1;
+    while (start > 0 && /\p{L}/u.test(parsed.characters[start - 1].character)) start--;
     while (end < parsed.characters.length && /\p{L}/u.test(parsed.characters[end].character)) end++;
-    if (parsed.characters[end]?.character !== '.') return null;
-    return {start: index, end: end + 1};
+    return knownTerms.has(parsed.text.slice(start, end)) ? {start, end} : null;
   }
 
   function typefaceTokenRange(value, index) {
-    const uppercase = uppercasePeriodTokenRange(value, index);
-    if (uppercase) return uppercase;
     const parsed = parse(value);
     if (!parsed.valid || !parsed.characters[index]) return null;
     const character = parsed.characters[index].character;
-    if (!/\p{Ll}/u.test(character) || (index > 0 && /\p{L}/u.test(parsed.characters[index - 1].character))) return null;
+    if (!/\p{L}/u.test(character) || (index > 0 && /\p{L}/u.test(parsed.characters[index - 1].character))) return null;
     if (character === 'a') return null;
     const next = parsed.characters[index + 1]?.character;
     if (/\p{L}/u.test(next || '')) return null;
@@ -221,5 +212,5 @@
     return {operations, currentToBase, changed, deletions};
   }
 
-  return {VOWEL_CYCLES, DELETABLE, parse, serialize, replace, toggleRoman, uppercasePeriodTokenRange, typefaceTokenRange, toggleTypefaceRange, nextSForm, nextGQ, nextNM, nextPostvocalicNasal, nextCedilla, nextUV, nextIJ, vowelCycleForOriginal, nextVowel, align};
+  return {VOWEL_CYCLES, DELETABLE, parse, serialize, replace, knownTypefaceTokenRange, typefaceTokenRange, toggleTypefaceRange, nextSForm, nextGQ, nextNM, nextPostvocalicNasal, nextCedilla, nextUV, nextIJ, vowelCycleForOriginal, nextVowel, align};
 }));

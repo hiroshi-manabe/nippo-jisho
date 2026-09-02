@@ -65,6 +65,11 @@ class PublicReviewRegressionTests(unittest.TestCase):
         self.assertEqual(canonical_control["data_state"], "canonical_level1")
         self.assertFalse(canonical_control["machine_provisional"])
         self.assertEqual(canonical_control["source_label"], "Source Markdown")
+        checked = pages["bnf-f0162"]
+        self.assertTrue(checked["ai_checked"])
+        self.assertRegex(checked["baseline_commit"], r"^[0-9a-f]{40}$")
+        self.assertIn("T", checked["baseline_updated_at"])
+        self.assertIn("Fotoqe", corpus["known_roman_terms"])
 
     def test_external_ai_assignment_stays_concise_and_links_references(self):
         work = ROOT / "pilot" / "human-review" / "ai-geometry-work"
@@ -250,12 +255,10 @@ equal(['û', 'ǔ', 'u', 'ũ', 'ù', 'ú'].map(value => q.nextVowel(value, 'û'))
 equal([q.nextVowel('Ǒ', 'Ǒ'), q.nextVowel('Ô', 'Ô')], ['Ô', 'Ǒ']);
 equal(q.replace('[F]oo, bar.', 3, 4, ''), '[F]oo bar.');
 equal(q.replace('[F]oo bar.', 3, 3, ',', null), '[F]oo, bar.');
-equal(q.toggleRoman('Fotoqe', 0), '[F]otoqe');
-equal(q.toggleRoman('[F]otoqe', 0), 'Fotoqe');
-equal(q.uppercasePeriodTokenRange('Ad. Adu. word.', 0), {start: 0, end: 3});
-equal(q.uppercasePeriodTokenRange('Ad. Adu. word.', 4), {start: 4, end: 8});
-equal(q.uppercasePeriodTokenRange('Ad. Adu. word.', 1), null);
-equal(q.uppercasePeriodTokenRange('Word', 0), null);
+const knownRoman = new Set(['Fotoqe', 'Dairi']);
+equal(q.knownTypefaceTokenRange('do Fotoqe.', 3, knownRoman), {start: 3, end: 9});
+equal(q.knownTypefaceTokenRange('do Fotoqe.', 7, knownRoman), {start: 3, end: 9});
+equal(q.knownTypefaceTokenRange('do Unknown.', 4, knownRoman), null);
 equal(q.typefaceTokenRange('i. l. word.', 0), {start: 0, end: 2});
 equal(q.typefaceTokenRange('i. l. word.', 3), {start: 3, end: 5});
 equal(q.typefaceTokenRange('i. l. word.', 1), null);
@@ -265,8 +268,9 @@ equal(q.typefaceTokenRange('i, l, word', 3), {start: 3, end: 4});
 equal(q.typefaceTokenRange('word l', 5), {start: 5, end: 6});
 equal(q.typefaceTokenRange('a, l', 0), null);
 equal(q.typefaceTokenRange('word', 3), null);
-equal(q.toggleTypefaceRange('Ad.', 0, 3, ['roman', 'roman', 'roman']), '{Ad.}');
-equal(q.toggleTypefaceRange('{Ad.}', 0, 3, ['roman', 'roman', 'roman']), 'Ad.');
+equal(q.typefaceTokenRange('S. X. a.', 0), {start: 0, end: 2});
+equal(q.typefaceTokenRange('S. X. a.', 3), {start: 3, end: 5});
+equal(q.typefaceTokenRange('S. X. a.', 6), null);
 equal(q.toggleTypefaceRange('S.', 0, 2, ['italic', 'italic']), '[S.]');
 equal(q.toggleTypefaceRange('[S.]', 0, 2, ['italic', 'italic']), 'S.');
 equal(q.toggleTypefaceRange('i.', 0, 2, ['roman', 'roman']), '{i.}');
@@ -282,6 +286,20 @@ equal(q.align('foo, bar.', 'foo bar.').deletions.map(item => [item.character, it
             text=True,
         )
         self.assertEqual(result.returncode, 0, result.stderr)
+
+    def test_page_status_and_known_roman_typeface_controls_are_data_driven(self):
+        app = (ROOT / "site" / "app.js").read_text(encoding="utf-8")
+        helper = (ROOT / "site" / "quick-edit.js").read_text(encoding="utf-8")
+        builder = (ROOT / "scripts" / "build_public_review.py").read_text(encoding="utf-8")
+        styles = (ROOT / "site" / "styles.css").read_text(encoding="utf-8")
+        self.assertIn("function renderReviewStatus(page)", app)
+        self.assertIn("function checkCorpusFreshness()", app)
+        self.assertIn("knownTypefaceTokenRange", app)
+        self.assertNotIn("isItalicWordInitial", app)
+        self.assertNotIn("uppercasePeriodTokenRange", helper)
+        self.assertIn("known_roman_terms", builder)
+        self.assertIn("baseline_updated_at", builder)
+        self.assertIn(".review-status", styles)
 
     def test_qualified_ocr_hyphen_suggestions_seed_reversible_edits(self):
         suggestions = json.loads(

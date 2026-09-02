@@ -1,4 +1,4 @@
-const state = { corpus: null, byLeaf: new Map(), currentPage: null, unit: 'page', edits: {}, suggestionDismissals: {}, submissions: {}, workspacesLoaded: new Set(), staleDraft: null };
+const state = { corpus: null, byLeaf: new Map(), currentPage: null, unit: 'page', edits: {}, suggestionDismissals: {}, submissions: {}, workspacesLoaded: new Set(), staleDraft: null, knownRomanTerms: new Set(), staleBaseline: null };
 const WORKSPACE_SCHEMA = 4;
 const previewImageCache = new Map();
 const hdImageCache = new Map();
@@ -181,10 +181,53 @@ function showOverview(update = true) {
   renderGrid();
 }
 
-function correctionLabel(page) {
+function issueCountLabel(page) {
   const issues = page.corrections.issues_applied || 0;
-  const lines = page.corrections.distinct_lines || 0;
-  return `${issues} Issue${issues === 1 ? '' : 's'} · ${lines} corrected line${lines === 1 ? '' : 's'}`;
+  return issues ? `${issues} issue${issues === 1 ? '' : 's'} applied` : 'No issues applied';
+}
+
+function reviewStageLabel(page) {
+  if (!page.processed) return 'Scan only';
+  return page.ai_checked ? 'AI checked' : 'Machine draft';
+}
+
+function shortBaselineDate(page) {
+  if (!page.baseline_updated_at) return '';
+  return new Intl.DateTimeFormat(undefined, {month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit'}).format(new Date(page.baseline_updated_at));
+}
+
+function renderReviewStatus(page) {
+  const stale = state.staleBaseline?.pageId === page.page_id;
+  const summary = stale
+    ? `${page.view} · Baseline changed`
+    : [page.view, reviewStageLabel(page), shortBaselineDate(page), issueCountLabel(page)].filter(Boolean).join(' · ');
+  const fullDate = page.baseline_updated_at ? new Date(page.baseline_updated_at).toLocaleString() : 'Not available';
+  const commit = page.baseline_commit || state.corpus.commit;
+  const commitLink = commit ? `https://github.com/${state.corpus.repository}/commit/${commit}` : null;
+  const changedLines = page.corrections.distinct_lines || 0;
+  $('#page-badges').innerHTML = `<details class="review-status ${stale ? 'stale' : ''}"><summary>${escapeHTML(summary)}</summary><div class="review-status-details"><dl><div><dt>Review stage</dt><dd>${escapeHTML(reviewStageLabel(page))}</dd></div><div><dt>Baseline updated</dt><dd>${escapeHTML(fullDate)}</dd></div><div><dt>Baseline commit</dt><dd>${commitLink ? `<a href="${commitLink}" target="_blank" rel="noreferrer"><code>${escapeHTML(commit.slice(0, 7))}</code></a>` : 'Not available'}</dd></div><div><dt>Human corrections</dt><dd>${escapeHTML(issueCountLabel(page))} · ${changedLines} corrected line${changedLines === 1 ? '' : 's'}</dd></div></dl>${stale ? '<p>A newer transcription for this page is available. Reload to rebase locally saved edits onto it.</p><button type="button" data-action="reload-baseline">Reload current baseline</button>' : ''}</div></details>`;
+}
+
+async function checkCorpusFreshness() {
+  if (!state.corpus || !state.currentPage) return true;
+  try {
+    const response = await fetch(`corpus.json?fresh=${Date.now()}`, {cache: 'no-store'});
+    if (!response.ok) return true;
+    const latest = await response.json();
+    if (latest.commit === state.corpus.commit) return true;
+    const latestPage = latest.pages.find(page => page.page_id === state.currentPage.page_id);
+    if (latestPage?.transcription_version !== state.currentPage.transcription_version) {
+      state.staleBaseline = {pageId: state.currentPage.page_id, commit: latest.commit};
+      renderReviewStatus(state.currentPage);
+      return false;
+    }
+    state.currentPage.corrections = latestPage?.corrections || state.currentPage.corrections;
+    state.staleBaseline = null;
+    renderReviewStatus(state.currentPage);
+    return true;
+  } catch (_) {
+    return true;
+  }
 }
 
 function pageStateLabel(page) {
@@ -470,7 +513,7 @@ function showPage(leaf, unit = 'page', update = true) {
   $('#page-meta').textContent = page.data_state === 'machine_provisional'
     ? `${page.page_id} · machine-provisional OCR · physical lineation not yet checked`
     : page.processed ? `${page.page_id} · Level 1 ${page.status.replaceAll('_', ' ')}` : `${page.page_id} · transcription not yet processed`;
-  $('#page-badges').innerHTML = `<span class="badge ${pageStateClass(page)}">${pageStateLabel(page)}</span><span class="badge">${correctionLabel(page)}</span>${page.corrections.last_applied ? `<span class="badge">Latest ${escapeHTML(page.corrections.last_applied)}</span>` : ''}`;
+  renderReviewStatus(page);
   const notice = $('#provisional-notice');
   notice.classList.toggle('hidden', page.data_state !== 'machine_provisional');
   if (page.data_state === 'machine_provisional') {
@@ -638,11 +681,6 @@ function originalTypefaces(line) {
   return line.runs.flatMap(run => Array.from(run.text).map(() => run.typeface));
 }
 
-function isItalicWordInitial(line, baseIndex, character, typefaces) {
-  if (baseIndex === null || typefaces[baseIndex] !== 'italic' || character !== character.toLocaleUpperCase('und') || character === character.toLocaleLowerCase('und')) return false;
-  return baseIndex === 0 || !/\p{L}/u.test(line.text[baseIndex - 1]);
-}
-
 function quickCharacterHTML(character, index, baseIndex, changed, line, proposal, typefaces, nasalRestoration) {
   const original = baseIndex === null ? character : line.text[baseIndex];
   const originalTypeface = baseIndex === null ? (typefaces[Math.max(0, index - 1)] || 'roman') : (typefaces[baseIndex] || 'roman');
@@ -651,7 +689,11 @@ function quickCharacterHTML(character, index, baseIndex, changed, line, proposal
   let action = '';
   let title = '';
   let extraAttributes = '';
-  const typefaceToken = NippoQuickEdit.typefaceTokenRange(proposal.text, index);
+  const knownToken = NippoQuickEdit.knownTypefaceTokenRange(proposal.text, index, state.knownRomanTerms);
+  const knownTokenIsEmbedded = knownToken && baseIndex !== null && (
+    originalTypeface === 'italic' || typefaces.slice(0, baseIndex).includes('italic')
+  );
+  const typefaceToken = knownTokenIsEmbedded ? knownToken : NippoQuickEdit.typefaceTokenRange(proposal.text, index);
   if (nasalRestoration) {
     action = 'nasal-restore';
     title = `Restore ${nasalRestoration.vowel}${nasalRestoration.consonant}`;
@@ -659,9 +701,6 @@ function quickCharacterHTML(character, index, baseIndex, changed, line, proposal
     action = 'typeface-token';
     title = 'Toggle this token between Roman and italic type';
     extraAttributes = ` data-token-start="${typefaceToken.start}" data-token-end="${typefaceToken.end}"`;
-  } else if (isItalicWordInitial(line, baseIndex, character, typefaces)) {
-    action = 'typeface';
-    title = explicitTypeface === 'roman' ? 'Restore the printed italic type' : 'Mark this initial as Roman type';
   } else if (/[sſf]/u.test(character) && /[sſf]/u.test(original)) {
     action = 's-form';
     title = 'Cycle s, long s, and f readings';
@@ -941,8 +980,6 @@ function applyQuickEdit(row, control) {
     const parsed = NippoQuickEdit.parse(current);
     const character = parsed.characters[index]?.character;
     after = NippoQuickEdit.replace(current, index, index + 1, NippoQuickEdit.nextVowel(character, control.dataset.original));
-  } else if (action === 'typeface') {
-    after = NippoQuickEdit.toggleRoman(current, index);
   } else if (action === 'typeface-token') {
     const parsed = NippoQuickEdit.parse(current);
     const alignment = NippoQuickEdit.align(line.text, parsed.text);
@@ -993,6 +1030,10 @@ async function copyText(text) {
 
 async function submitCorrections() {
   const page = state.currentPage;
+  if (!await checkCorpusFreshness()) {
+    toast('This page has a newer baseline. Reload it before submitting.');
+    return;
+  }
   const changes = Object.entries(pageEdits(page)).map(([line, edit]) => ({ line, before: edit.before, after: edit.after, ...(edit.comment ? {comment: edit.comment} : {}), ...(requestsSecondOpinion(edit) ? {second_opinion: true} : {}) }));
   const payload = JSON.stringify({ schema: 2, page: page.view, base_commit: state.corpus.commit, base_transcription_version: page.transcription_version, changes }, null, 2);
   const issueURL = `https://github.com/${state.corpus.repository}/issues/new?template=transcription-correction.md&title=${encodeURIComponent(`[${page.view}] Transcription corrections`)}`;
@@ -1005,6 +1046,7 @@ async function submitCorrections() {
 }
 
 document.addEventListener('click', event => {
+  if (event.target.closest('[data-action="reload-baseline"]')) return window.location.reload();
   if (event.target.closest('[data-action="retry-preview"]')) return updatePageImages(state.currentPage.leaf);
   if (event.target.closest('[data-action="retry-hd"]')) return queueHD(state.currentPage, false);
   const card = event.target.closest('.page-card'); if (card) return showPage(Number(card.dataset.leaf));
@@ -1084,9 +1126,13 @@ function setReference(open) { $('#reference-panel').classList.toggle('open', ope
 $('#reference-toggle').addEventListener('click', () => setReference(!$('#reference-panel').classList.contains('open'))); $('#reference-close').addEventListener('click', () => setReference(false));
 document.querySelectorAll('[data-reference]').forEach(button => button.addEventListener('click', () => { document.querySelectorAll('[data-reference]').forEach(item => item.classList.toggle('active', item === button)); $('#reference-frame').src = `reference/${button.dataset.reference}.html`; }));
 window.addEventListener('popstate', route);
+document.addEventListener('visibilitychange', () => {
+  if (document.visibilityState === 'visible' && state.currentPage) void checkCorpusFreshness();
+});
 
-fetch('corpus.json').then(response => { if (!response.ok) throw new Error('Could not load corpus'); return response.json(); }).then(corpus => {
+fetch(`corpus.json?fresh=${Date.now()}`, {cache: 'no-store'}).then(response => { if (!response.ok) throw new Error('Could not load corpus'); return response.json(); }).then(corpus => {
   state.corpus = corpus; state.byLeaf = new Map(corpus.pages.map(page => [page.leaf, page]));
+  state.knownRomanTerms = new Set(corpus.known_roman_terms || []);
   const canonical = corpus.pages.filter(page => page.data_state === 'canonical_level1').length;
   const provisional = corpus.pages.filter(page => page.data_state === 'machine_provisional').length;
   const scanOnly = corpus.pages.filter(page => !page.processed).length;
