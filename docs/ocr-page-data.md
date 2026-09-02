@@ -82,5 +82,28 @@ hyphens, long/short *s*, diacritic identity and placement, unusual capitals,
 typeface boundaries, and damaged or displaced text. General visual inspection
 and then human comparison remain required.
 
+## Generic-AI fusion trial on f162–f170
+
+After the human correction of f161, pages f162–f170 received a fresh
+generic-AI pass that treated the independent OCR draft and the earlier visual
+draft as competing evidence rather than choosing either source wholesale. On
+f161, the earlier visual draft matched 59 of 99 physical lines exactly and had
+a 1.86% character error rate against the human-corrected page; the independent
+OCR draft matched 53 lines and had a 2.98% character error rate. A simple
+feature-aware hybrid improved that comparison to 62 exact lines and a 1.76%
+character error rate. This small benchmark motivated the evidence-weighting
+rule in [the OCR-assisted reading policy](ocr-assisted-reading.md), but is not
+a general accuracy estimate.
+
+For f162–f170, NINJAL and linguistic context were used to recover headword
+identity, Japanese morphology, and coherent Portuguese where OCR produced a
+different reading. Locally aligned OCR was preferentially retained for
+reading-neutral diplomatic details such as `s`/`ſ`, a physical terminal
+hyphen, spacing, punctuation, and accent placement, unless enlarged scan
+inspection contradicted it. Every physical line was then compared with its
+scan crop, and these pages are now `scan_confirmed` while human review remains
+pending. The trial confirms that OCR is most useful as local typographic
+evidence; it is not yet a dependable source for complete lexical readings.
+
 The concise reproducibility record is
 [`experiments/ocr/ocr-page-data-f161-f237-results.json`](../experiments/ocr/ocr-page-data-f161-f237-results.json).
