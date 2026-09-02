@@ -81,6 +81,53 @@ line and both column rules where available. This sample is evidence that the
 crop construction is plausible, not a substitute for the required all-line
 visual geometry gate.
 
+## Dictionary-wide mechanical generation
+
+The bulk run extends the same independent path to the previously unstructured
+dictionary leaves `f251`–`f642`. Existing structured pages are not regenerated
+or overwritten merely because their human review is incomplete. `f248`–`f250`
+are frozen under `pilot/ocr-bootstrap/reference-f0248-f0250/` and regenerated
+only as near-range controls; the exceptional final leaf `f643` retains its
+existing hand-structured data.
+
+The bulk command has two deliberately separate decisions:
+
+1. generate a self-contained candidate for every requested scan, retaining
+   OCR evidence even when the page is structurally unusual; and
+2. classify the candidate as an ordinary two-column leaf or quarantine it for
+   structural review.
+
+The ordinary-page check considers per-column row counts and spacing, column
+width, text/geometry line-ID equality, internal-heading count, running-header
+evidence, and constrained alphabet-section continuity. Failure does not delete
+or normalize a candidate. It records the exact reasons in
+`audit.bulk_assessment` and keeps that leaf outside the ordinary review queue.
+
+`scripts/materialize_ocr_bootstrap_batch.py` is the repository boundary. It
+refuses a failed held-out benchmark, verifies each native-scan checksum and
+page identifier, requires exact body-text/geometry ID agreement, and rejects
+any candidate that falsely claims visually checked physical lineation. Its
+manifest distinguishes ordinary candidates, quarantined candidates, and
+inference failures. Materialization still does not modify the canonical Level
+1 corpus or public review data.
+
+The 2026-09-02 bulk run generated all 392 requested leaves with no inference
+failures. It preserved 36,745 provisional body rows, 112 internal-heading
+rows, and 341 uncertain bottom fragments. The conservative classifier placed
+366 leaves in the ordinary two-column queue and quarantined 26: 25 because
+their running header was not securely recognized, and `f376` because its
+genuine N/adverb/P/Q transition produced ten internal display-heading rows.
+The complete result is under `pilot/ocr-bootstrap/f0251-f0642/`.
+
+The 14-page held-out set contained 1,278 canonical body rows. The bulk run
+matched 1,277, missed one, and proposed five extras: 99.92% recall and 99.61%
+precision. Indentation accuracy was 97.89%, roman/italic accuracy on matching
+characters was 96.44%, and diplomatic character accuracy was 97.14%. The
+three frozen near-range controls `f248`–`f250` each had exact body-row counts
+with no missing or extra rows; their character accuracies were 98.86%, 97.61%,
+and 96.64%. The full report is preserved in
+`experiments/ocr/scan-bootstrap-bulk-v1-results.json`.
+
 ## Known limitations and promotion gate
 
 The body-line result is strong enough to make dictionary-wide candidate
@@ -117,3 +164,19 @@ Use `--skip-ocr` only when the matching raw drafts already exist in the output
 directory. A failed gate exits non-zero and still leaves the diagnostic
 candidate packages and report for inspection; canonical files remain
 unchanged in either case.
+
+For an inclusive bulk range, use:
+
+```sh
+python3 scripts/bootstrap_ocr_level1.py \
+  --page-range 251 642 \
+  --benchmark-pages 14 18 47 68 103 115 135 149 160 230 237 248 249 250 \
+  --continue-on-page-error \
+  --output .cache/ocr-model/scan-bootstrap-bulk-v1
+```
+
+After inspecting the report, preserve a passing batch with:
+
+```sh
+python3 scripts/materialize_ocr_bootstrap_batch.py
+```

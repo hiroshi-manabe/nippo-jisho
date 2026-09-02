@@ -11,3 +11,14 @@ promotion into `pilot/format-v1-trial/` or the public review interface.
 
 Method, benchmark figures, limitations, and promotion requirements are in
 [`docs/ocr-scan-bootstrap.md`](../../docs/ocr-scan-bootstrap.md).
+
+The `reference-f0248-f0250` directory freezes the existing near-range pages
+before dictionary-wide generation. Bulk candidates are preserved in their own
+range directory with a manifest that distinguishes ordinary pages from
+structural quarantines; neither set is canonical merely because it exists.
+
+The completed `f0251-f0642` batch contains all 392 requested leaves: 366
+ordinary two-column candidates and 26 quarantines, with no inference failures.
+Together with `f0238-f0247`, scan-first candidate data now exists for all 402
+previously unstructured dictionary leaves in `f238`–`f642` other than the
+already structured controls `f248`–`f250`.

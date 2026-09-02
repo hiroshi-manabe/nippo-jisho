@@ -14,7 +14,7 @@ The complete native-resolution Gallica image sequence has been acquired and chec
 
 The external-AI geometry-and-text delegation experiment is formally retired. Returned reviews, superseded returns, matching task inputs for `f31`–`f125`, and the protocol/import documentation remain as a [legacy provenance archive](pilot/human-review/ai-geometry-work/README.md). Unused prepared assignments and image ZIPs outside that returned-review range were deleted. New pages now use project-side line-by-line transcription and geometry capture; later human correction continues through the public review interface and GitHub Issues.
 
-A first [scan-first Level 1 bootstrap](docs/ocr-scan-bootstrap.md) now covers the structural step that the OCR-to-Level-1 bridge could not perform. Eleven held-out pages comprising 997 canonical body rows were inferred before their transcription or geometry was opened; the result reached 99.90% body-row recall, 99.50% precision, 97.49% indentation accuracy, 96.37% roman/italic accuracy, and 96.98% diplomatic character accuracy. The passing run preserved 940 body-row candidates for `f238`–`f247` under [`pilot/ocr-bootstrap/`](pilot/ocr-bootstrap/). They remain outside the canonical corpus because page-number/header separation, enlarged initials, all-line crop readability, and the readings themselves still require visual review.
+A [scan-first Level 1 bootstrap](docs/ocr-scan-bootstrap.md) now covers the structural step that the OCR-to-Level-1 bridge could not perform. The dictionary-wide run generated all 392 requested candidates for `f251`–`f642`, comprising 36,745 provisional body rows, with no inference failures. Its 14-page held-out comparison reached 99.92% body-row recall, 99.61% precision, 97.89% indentation accuracy, 96.44% roman/italic accuracy, and 97.14% diplomatic character accuracy. The conservative bulk classifier places 366 leaves in the ordinary queue and quarantines 26; the earlier run also preserves 940 body-row candidates for `f238`–`f247`. All remain outside the canonical corpus because page-number/header separation, enlarged initials, all-line crop readability, and the readings themselves still require visual review.
 
 An audited [OCR-to-Level-1 bridge](docs/ocr-page-data.md) now constructs provisional text for structured human-unreviewed pages while protecting reviewed pages and retaining stable zones, physical-line IDs, typeface scaffolding, displaced fragments, and browser geometry. Its first application covered all 7,261 body lines on `f161`–`f237`: 4,212 readings changed, 3,009 already agreed exactly, 17 high-change OCR readings were quarantined, and 23 structural rows were deliberately preserved. The resulting pages remain `visual_draft`; the OCR baseline improves initialization but does not replace general visual inspection or human comparison.
 
@@ -112,7 +112,7 @@ The initial site exposed a browser-positioning defect and the inadequacy of even
 
 ## Current objective
 
-Visually adjudicate the scan-first `f238`–`f247` candidates before promoting them to the structured corpus, while human checking proceeds independently on `f17`–`f237` and the corrected `f16` and `f15` columns await recheck. The immediate objective is repeatable quality control supporting:
+Visually adjudicate the scan-first candidates for `f238`–`f247` and `f251`–`f642`, starting with the 366 ordinary bulk leaves and handling the 26 structural quarantines separately, before promotion to the structured corpus. Human checking proceeds independently on `f17`–`f237`, while the corrected `f16` and `f15` columns await recheck. The immediate objective is repeatable quality control supporting:
 
 1. A page-oriented reading and verification view
 2. Efficient source-faithful editing in physical order
@@ -136,7 +136,7 @@ Visually adjudicate the scan-first `f238`–`f247` candidates before promoting t
 
 ## Production progress
 
-The Level 1 corpus contains 229 complete pages and 22,380 physical lines. `f14` is human-checked; sequential `f15` and `f16` have both been corrected after human comparison and their columns await recheck; `f17`–`f160` are scan-confirmed drafts awaiting human comparison; and `f161`–`f237` are OCR-initialized visual drafts awaiting both general visual inspection and human comparison. `f249` and `f250` retain the earlier production `scan_confirmed` status but should be re-evaluated against the revised procedure. The other 422 acquired leaves appear as `unprocessed` in the review UI.
+The canonical Level 1 corpus contains 229 complete pages and 22,380 physical lines. `f14` is human-checked; sequential `f15` and `f16` have both been corrected after human comparison and their columns await recheck; `f17`–`f160` are scan-confirmed drafts awaiting human comparison; and `f161`–`f237` are OCR-initialized visual drafts awaiting both general visual inspection and human comparison. `f249` and `f250` retain the earlier production `scan_confirmed` status but should be re-evaluated against the revised procedure. Separately, 402 scan-first page candidates now cover `f238`–`f247` and `f251`–`f642`; they remain outside the canonical corpus and therefore still appear as `unprocessed` in the public review UI until their visual lineation and geometry gates are completed.
 
 ## Next phase
 

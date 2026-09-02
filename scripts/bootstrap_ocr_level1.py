@@ -392,6 +392,15 @@ def resolve_heading_letter(reading: str | None, previous: str | None) -> str | N
     """
     if previous == "G" and reading == "C":
         return "G"
+    if previous and reading and previous in MAIN_LETTER_ORDER:
+        index = MAIN_LETTER_ORDER.index(previous)
+        following = (
+            MAIN_LETTER_ORDER[index + 1]
+            if index + 1 < len(MAIN_LETTER_ORDER)
+            else None
+        )
+        if reading not in {previous, following}:
+            return previous
     return reading
 
 
@@ -993,6 +1002,51 @@ def aggregate_benchmarks(pages: list[dict]) -> dict:
     }
 
 
+def ordinary_two_column_assessment(package: dict) -> dict:
+    """Conservatively classify a candidate for the ordinary review queue."""
+    reasons = []
+    columns = package["audit"]["columns"]
+    total_body = 0
+    for column in ("column-1", "column-2"):
+        audit = columns[column]
+        body_count = audit["body_lines"]
+        total_body += body_count
+        if not 35 <= body_count <= 52:
+            reasons.append(f"{column}:body_lines={body_count}")
+        spacing = audit["line_spacing"]
+        if not 40 <= spacing <= 85:
+            reasons.append(f"{column}:line_spacing={spacing}")
+        geometry = package["geometry"]["columns"][column]
+        geometry_width = geometry["box"][2] - geometry["box"][0]
+        if geometry_width < 700:
+            reasons.append(f"{column}:narrow_geometry={geometry_width}")
+        if len(geometry["lines"]) != body_count:
+            reasons.append(f"{column}:geometry_line_mismatch")
+    if not 75 <= total_body <= 102:
+        reasons.append(f"page:body_lines={total_body}")
+    headings = sum(
+        value["internal_heading_lines"] for value in columns.values()
+    )
+    if headings > 6:
+        reasons.append(f"page:internal_heading_lines={headings}")
+    expected = package["audit"].get("expected_main_letter")
+    if expected not in MAIN_LETTER_ORDER:
+        reasons.append("page:no_secure_main_letter")
+    header_letters = [
+        heading_letter(line_text(line))
+        for zone in package["page"]["zones"]
+        if zone.get("kind") == "running_header"
+        for line in zone.get("lines", [])
+    ]
+    if not any(header_letters):
+        reasons.append("page:no_recognizable_running_header")
+    return {
+        "classification": "ordinary_two_column" if not reasons else "quarantine",
+        "eligible_for_provisional_review_queue": not reasons,
+        "reasons": reasons,
+    }
+
+
 def prepare_raw(pages: list[int], args: argparse.Namespace) -> None:
     command = [
         sys.executable,
@@ -1014,7 +1068,14 @@ def prepare_raw(pages: list[int], args: argparse.Namespace) -> None:
 
 def parser() -> argparse.ArgumentParser:
     result = argparse.ArgumentParser(description=__doc__)
-    result.add_argument("--pages", nargs="+", type=int, default=DEFAULT_PAGES)
+    result.add_argument("--pages", nargs="+", type=int)
+    result.add_argument(
+        "--page-range",
+        nargs=2,
+        type=int,
+        metavar=("FIRST", "LAST"),
+        help="inclusive target range; mutually exclusive with --pages",
+    )
     result.add_argument(
         "--benchmark-pages", nargs="*", type=int, default=DEFAULT_BENCHMARK_PAGES
     )
@@ -1024,6 +1085,11 @@ def parser() -> argparse.ArgumentParser:
     result.add_argument("--fresh-segmentation", action="store_true")
     result.add_argument("--fresh-recognition", action="store_true")
     result.add_argument("--segmentation-workers", type=int, default=3)
+    result.add_argument(
+        "--continue-on-page-error",
+        action="store_true",
+        help="quarantine target inference failures instead of aborting the run",
+    )
     return result
 
 
@@ -1031,7 +1097,15 @@ def main() -> int:
     args = parser().parse_args()
     args.output = args.output.resolve()
     args.output.mkdir(parents=True, exist_ok=True)
-    targets = sorted(set(args.pages))
+    if args.pages and args.page_range:
+        raise SystemExit("--pages and --page-range are mutually exclusive")
+    if args.page_range:
+        first, last = args.page_range
+        if first > last:
+            raise SystemExit("--page-range FIRST must not exceed LAST")
+        targets = list(range(first, last + 1))
+    else:
+        targets = sorted(set(args.pages or DEFAULT_PAGES))
     benchmarks = sorted(set(args.benchmark_pages))
     all_pages = sorted(set(targets) | set(benchmarks))
     if not args.skip_ocr:
@@ -1047,6 +1121,7 @@ def main() -> int:
     candidate_dir = args.output / "candidates"
     candidate_dir.mkdir(parents=True, exist_ok=True)
     inferred: dict[int, dict] = {}
+    target_failures = []
     for number in benchmarks:
         draft = load_json(raw_drafts / f"{page_id(number)}.json")
         _, _, package, _ = infer_page(
@@ -1057,7 +1132,17 @@ def main() -> int:
     previous_letter = previous_section_letter(min(targets))
     for number in targets:
         draft = load_json(raw_drafts / f"{page_id(number)}.json")
-        _, _, package, previous_letter = infer_page(draft, model, previous_letter)
+        try:
+            _, _, package, next_letter = infer_page(draft, model, previous_letter)
+        except Exception as error:
+            if not args.continue_on_page_error:
+                raise
+            target_failures.append(
+                {"page": number, "error": f"{type(error).__name__}: {error}"}
+            )
+            continue
+        package["audit"]["bulk_assessment"] = ordinary_two_column_assessment(package)
+        previous_letter = next_letter
         write_json(candidate_dir / f"{page_id(number)}.json", package)
         inferred[number] = package
 
@@ -1095,6 +1180,8 @@ def main() -> int:
     )
     target_summary = []
     for number in targets:
+        if number not in inferred:
+            continue
         package = inferred[number]
         columns = package["audit"]["columns"]
         target_summary.append(
@@ -1110,6 +1197,7 @@ def main() -> int:
                 "initial_repairs": sum(
                     len(value["initial_repairs"]) for value in columns.values()
                 ),
+                "bulk_assessment": package["audit"]["bulk_assessment"],
             }
         )
     report = {
@@ -1134,16 +1222,19 @@ def main() -> int:
         "gate": {**gate, "passed": passed},
         "benchmark": {"aggregate": aggregate, "pages": benchmark_results},
         "targets": target_summary,
+        "target_failures": target_failures,
     }
     write_json(args.output / "report.json", report)
     print(
-        f"Wrote {len(all_pages)} scan-first candidate packages; benchmark body-row "
+        f"Wrote {len(inferred)} of {len(all_pages)} scan-first candidate packages; benchmark body-row "
         f"recall {aggregate['body_line_recall']:.2%}, precision "
         f"{aggregate['body_line_precision']:.2%}, indent "
         f"{aggregate['indent_accuracy']:.2%}, typeface "
         f"{aggregate['typeface_accuracy_on_matching_characters']:.2%}, text "
         f"{aggregate['character_accuracy']:.2%}."
     )
+    if target_failures:
+        print(f"Quarantined {len(target_failures)} target inference failures.")
     print(f"Safety gate: {'passed' if passed else 'failed'}; canonical files unchanged.")
     return 0 if passed else 2
 

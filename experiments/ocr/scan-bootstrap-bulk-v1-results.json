@@ -1,0 +1,5396 @@
+{
+  "format": "nippo-ocr-level1-bootstrap-report",
+  "format_version": 1,
+  "method": {
+    "target_inference_inputs": [
+      "native scan",
+      "independent Kraken row detections",
+      "independent Calamari text",
+      "roman/italic language model trained on structured pages through f160",
+      "preceding page's main alphabet section as sequential context"
+    ],
+    "target_inference_excludes": [
+      "target page transcription",
+      "target page canonical geometry",
+      "target page review state"
+    ],
+    "benchmark_opened": "only after all candidate packages were serialized",
+    "canonical_application": "blocked pending visual lineation and geometry review"
+  },
+  "gate": {
+    "minimum_body_line_recall": 0.985,
+    "minimum_body_line_precision": 0.975,
+    "minimum_indent_accuracy": 0.9,
+    "minimum_typeface_accuracy": 0.95,
+    "minimum_character_accuracy": 0.94,
+    "passed": true
+  },
+  "benchmark": {
+    "aggregate": {
+      "pages": 14,
+      "canonical_body_lines": 1278,
+      "predicted_body_lines": 1282,
+      "matched_body_lines": 1277,
+      "body_line_recall": 0.9992175273865415,
+      "body_line_precision": 0.9960998439937597,
+      "missing_body_lines": 1,
+      "extra_body_lines": 5,
+      "indent_accuracy": 0.9788566953797964,
+      "typeface_characters": 35011,
+      "typeface_accuracy_on_matching_characters": 0.9643826226043244,
+      "character_error_rate": 0.028625999761251044,
+      "character_accuracy": 0.971374000238749,
+      "heading_count_exact_columns": 27,
+      "heading_count_columns": 28
+    },
+    "pages": [
+      {
+        "page_id": "bnf-f0014",
+        "columns": {
+          "column-1": {
+            "canonical_body_lines": 47,
+            "predicted_body_lines": 47,
+            "matched": 47,
+            "missing": 0,
+            "extra": 0,
+            "centre_offset": 3
+          },
+          "column-2": {
+            "canonical_body_lines": 47,
+            "predicted_body_lines": 47,
+            "matched": 47,
+            "missing": 0,
+            "extra": 0,
+            "centre_offset": -2
+          }
+        },
+        "matched": 94,
+        "missing": 0,
+        "extra": 0,
+        "indent_correct": 93,
+        "typeface_characters": 2636,
+        "typeface_correct": 2530,
+        "matching_text_characters": 2636,
+        "reference_text_characters": 3174,
+        "text_edit_distance": 68,
+        "canonical_heading_lines": {
+          "column-1": 0,
+          "column-2": 0
+        },
+        "predicted_heading_lines": {
+          "column-1": 0,
+          "column-2": 0
+        },
+        "indent_accuracy": 0.9893617021276596,
+        "typeface_accuracy_on_matching_characters": 0.9597875569044007,
+        "character_error_rate": 0.02142407057340895,
+        "character_accuracy": 0.978575929426591
+      },
+      {
+        "page_id": "bnf-f0018",
+        "columns": {
+          "column-1": {
+            "canonical_body_lines": 47,
+            "predicted_body_lines": 47,
+            "matched": 47,
+            "missing": 0,
+            "extra": 0,
+            "centre_offset": 4.5
+          },
+          "column-2": {
+            "canonical_body_lines": 45,
+            "predicted_body_lines": 45,
+            "matched": 45,
+            "missing": 0,
+            "extra": 0,
+            "centre_offset": 18.5
+          }
+        },
+        "matched": 92,
+        "missing": 0,
+        "extra": 0,
+        "indent_correct": 90,
+        "typeface_characters": 2313,
+        "typeface_correct": 2214,
+        "matching_text_characters": 2313,
+        "reference_text_characters": 2817,
+        "text_edit_distance": 128,
+        "canonical_heading_lines": {
+          "column-1": 0,
+          "column-2": 1
+        },
+        "predicted_heading_lines": {
+          "column-1": 0,
+          "column-2": 1
+        },
+        "indent_accuracy": 0.9782608695652174,
+        "typeface_accuracy_on_matching_characters": 0.9571984435797666,
+        "character_error_rate": 0.04543840965566205,
+        "character_accuracy": 0.954561590344338
+      },
+      {
+        "page_id": "bnf-f0047",
+        "columns": {
+          "column-1": {
+            "canonical_body_lines": 41,
+            "predicted_body_lines": 42,
+            "matched": 41,
+            "missing": 0,
+            "extra": 1,
+            "centre_offset": 4
+          },
+          "column-2": {
+            "canonical_body_lines": 47,
+            "predicted_body_lines": 47,
+            "matched": 47,
+            "missing": 0,
+            "extra": 0,
+            "centre_offset": 10
+          }
+        },
+        "matched": 88,
+        "missing": 0,
+        "extra": 1,
+        "indent_correct": 86,
+        "typeface_characters": 2546,
+        "typeface_correct": 2475,
+        "matching_text_characters": 2546,
+        "reference_text_characters": 3011,
+        "text_edit_distance": 60,
+        "canonical_heading_lines": {
+          "column-1": 4,
+          "column-2": 0
+        },
+        "predicted_heading_lines": {
+          "column-1": 4,
+          "column-2": 0
+        },
+        "indent_accuracy": 0.9772727272727273,
+        "typeface_accuracy_on_matching_characters": 0.9721131186174391,
+        "character_error_rate": 0.019926934573231483,
+        "character_accuracy": 0.9800730654267685
+      },
+      {
+        "page_id": "bnf-f0068",
+        "columns": {
+          "column-1": {
+            "canonical_body_lines": 48,
+            "predicted_body_lines": 48,
+            "matched": 48,
+            "missing": 0,
+            "extra": 0,
+            "centre_offset": -1.0
+          },
+          "column-2": {
+            "canonical_body_lines": 41,
+            "predicted_body_lines": 42,
+            "matched": 41,
+            "missing": 0,
+            "extra": 1,
+            "centre_offset": 0
+          }
+        },
+        "matched": 89,
+        "missing": 0,
+        "extra": 1,
+        "indent_correct": 85,
+        "typeface_characters": 2284,
+        "typeface_correct": 2212,
+        "matching_text_characters": 2284,
+        "reference_text_characters": 2748,
+        "text_edit_distance": 136,
+        "canonical_heading_lines": {
+          "column-1": 0,
+          "column-2": 3
+        },
+        "predicted_heading_lines": {
+          "column-1": 0,
+          "column-2": 3
+        },
+        "indent_accuracy": 0.9550561797752809,
+        "typeface_accuracy_on_matching_characters": 0.968476357267951,
+        "character_error_rate": 0.049490538573508006,
+        "character_accuracy": 0.950509461426492
+      },
+      {
+        "page_id": "bnf-f0103",
+        "columns": {
+          "column-1": {
+            "canonical_body_lines": 46,
+            "predicted_body_lines": 47,
+            "matched": 46,
+            "missing": 0,
+            "extra": 1,
+            "centre_offset": 1
+          },
+          "column-2": {
+            "canonical_body_lines": 47,
+            "predicted_body_lines": 47,
+            "matched": 47,
+            "missing": 0,
+            "extra": 0,
+            "centre_offset": 3.5
+          }
+        },
+        "matched": 93,
+        "missing": 0,
+        "extra": 1,
+        "indent_correct": 91,
+        "typeface_characters": 2450,
+        "typeface_correct": 2369,
+        "matching_text_characters": 2450,
+        "reference_text_characters": 2957,
+        "text_edit_distance": 121,
+        "canonical_heading_lines": {
+          "column-1": 1,
+          "column-2": 0
+        },
+        "predicted_heading_lines": {
+          "column-1": 1,
+          "column-2": 0
+        },
+        "indent_accuracy": 0.978494623655914,
+        "typeface_accuracy_on_matching_characters": 0.9669387755102041,
+        "character_error_rate": 0.04091985120054109,
+        "character_accuracy": 0.9590801487994589
+      },
+      {
+        "page_id": "bnf-f0115",
+        "columns": {
+          "column-1": {
+            "canonical_body_lines": 45,
+            "predicted_body_lines": 45,
+            "matched": 45,
+            "missing": 0,
+            "extra": 0,
+            "centre_offset": 4
+          },
+          "column-2": {
+            "canonical_body_lines": 47,
+            "predicted_body_lines": 47,
+            "matched": 47,
+            "missing": 0,
+            "extra": 0,
+            "centre_offset": 2.5
+          }
+        },
+        "matched": 92,
+        "missing": 0,
+        "extra": 0,
+        "indent_correct": 88,
+        "typeface_characters": 2498,
+        "typeface_correct": 2404,
+        "matching_text_characters": 2498,
+        "reference_text_characters": 3035,
+        "text_edit_distance": 84,
+        "canonical_heading_lines": {
+          "column-1": 0,
+          "column-2": 0
+        },
+        "predicted_heading_lines": {
+          "column-1": 1,
+          "column-2": 0
+        },
+        "indent_accuracy": 0.9565217391304348,
+        "typeface_accuracy_on_matching_characters": 0.9623698959167334,
+        "character_error_rate": 0.027677100494233938,
+        "character_accuracy": 0.9723228995057661
+      },
+      {
+        "page_id": "bnf-f0135",
+        "columns": {
+          "column-1": {
+            "canonical_body_lines": 45,
+            "predicted_body_lines": 45,
+            "matched": 45,
+            "missing": 0,
+            "extra": 0,
+            "centre_offset": 1
+          },
+          "column-2": {
+            "canonical_body_lines": 47,
+            "predicted_body_lines": 46,
+            "matched": 46,
+            "missing": 1,
+            "extra": 0,
+            "centre_offset": -12
+          }
+        },
+        "matched": 91,
+        "missing": 1,
+        "extra": 0,
+        "indent_correct": 89,
+        "typeface_characters": 2545,
+        "typeface_correct": 2480,
+        "matching_text_characters": 2545,
+        "reference_text_characters": 3045,
+        "text_edit_distance": 74,
+        "canonical_heading_lines": {
+          "column-1": 1,
+          "column-2": 0
+        },
+        "predicted_heading_lines": {
+          "column-1": 1,
+          "column-2": 0
+        },
+        "indent_accuracy": 0.978021978021978,
+        "typeface_accuracy_on_matching_characters": 0.9744597249508841,
+        "character_error_rate": 0.024302134646962233,
+        "character_accuracy": 0.9756978653530378
+      },
+      {
+        "page_id": "bnf-f0149",
+        "columns": {
+          "column-1": {
+            "canonical_body_lines": 41,
+            "predicted_body_lines": 43,
+            "matched": 41,
+            "missing": 0,
+            "extra": 2,
+            "centre_offset": 5
+          },
+          "column-2": {
+            "canonical_body_lines": 47,
+            "predicted_body_lines": 47,
+            "matched": 47,
+            "missing": 0,
+            "extra": 0,
+            "centre_offset": -0.5
+          }
+        },
+        "matched": 88,
+        "missing": 0,
+        "extra": 2,
+        "indent_correct": 84,
+        "typeface_characters": 2368,
+        "typeface_correct": 2281,
+        "matching_text_characters": 2368,
+        "reference_text_characters": 2832,
+        "text_edit_distance": 151,
+        "canonical_heading_lines": {
+          "column-1": 3,
+          "column-2": 0
+        },
+        "predicted_heading_lines": {
+          "column-1": 3,
+          "column-2": 0
+        },
+        "indent_accuracy": 0.9545454545454546,
+        "typeface_accuracy_on_matching_characters": 0.9632601351351351,
+        "character_error_rate": 0.053319209039548024,
+        "character_accuracy": 0.946680790960452
+      },
+      {
+        "page_id": "bnf-f0160",
+        "columns": {
+          "column-1": {
+            "canonical_body_lines": 41,
+            "predicted_body_lines": 41,
+            "matched": 41,
+            "missing": 0,
+            "extra": 0,
+            "centre_offset": -8.33
+          },
+          "column-2": {
+            "canonical_body_lines": 47,
+            "predicted_body_lines": 47,
+            "matched": 47,
+            "missing": 0,
+            "extra": 0,
+            "centre_offset": 14.5
+          }
+        },
+        "matched": 88,
+        "missing": 0,
+        "extra": 0,
+        "indent_correct": 86,
+        "typeface_characters": 2557,
+        "typeface_correct": 2453,
+        "matching_text_characters": 2557,
+        "reference_text_characters": 3107,
+        "text_edit_distance": 108,
+        "canonical_heading_lines": {
+          "column-1": 4,
+          "column-2": 0
+        },
+        "predicted_heading_lines": {
+          "column-1": 4,
+          "column-2": 0
+        },
+        "indent_accuracy": 0.9772727272727273,
+        "typeface_accuracy_on_matching_characters": 0.959327336722722,
+        "character_error_rate": 0.03476021886063727,
+        "character_accuracy": 0.9652397811393627
+      },
+      {
+        "page_id": "bnf-f0230",
+        "columns": {
+          "column-1": {
+            "canonical_body_lines": 40,
+            "predicted_body_lines": 40,
+            "matched": 40,
+            "missing": 0,
+            "extra": 0,
+            "centre_offset": -25.0
+          },
+          "column-2": {
+            "canonical_body_lines": 47,
+            "predicted_body_lines": 47,
+            "matched": 47,
+            "missing": 0,
+            "extra": 0,
+            "centre_offset": -49
+          }
+        },
+        "matched": 87,
+        "missing": 0,
+        "extra": 0,
+        "indent_correct": 86,
+        "typeface_characters": 2396,
+        "typeface_correct": 2300,
+        "matching_text_characters": 2396,
+        "reference_text_characters": 2809,
+        "text_edit_distance": 43,
+        "canonical_heading_lines": {
+          "column-1": 4,
+          "column-2": 0
+        },
+        "predicted_heading_lines": {
+          "column-1": 4,
+          "column-2": 0
+        },
+        "indent_accuracy": 0.9885057471264368,
+        "typeface_accuracy_on_matching_characters": 0.9599332220367279,
+        "character_error_rate": 0.015307938768244928,
+        "character_accuracy": 0.9846920612317551
+      },
+      {
+        "page_id": "bnf-f0237",
+        "columns": {
+          "column-1": {
+            "canonical_body_lines": 47,
+            "predicted_body_lines": 47,
+            "matched": 47,
+            "missing": 0,
+            "extra": 0,
+            "centre_offset": -49
+          },
+          "column-2": {
+            "canonical_body_lines": 47,
+            "predicted_body_lines": 47,
+            "matched": 47,
+            "missing": 0,
+            "extra": 0,
+            "centre_offset": -48.5
+          }
+        },
+        "matched": 94,
+        "missing": 0,
+        "extra": 0,
+        "indent_correct": 93,
+        "typeface_characters": 2766,
+        "typeface_correct": 2649,
+        "matching_text_characters": 2766,
+        "reference_text_characters": 3242,
+        "text_edit_distance": 16,
+        "canonical_heading_lines": {
+          "column-1": 0,
+          "column-2": 0
+        },
+        "predicted_heading_lines": {
+          "column-1": 0,
+          "column-2": 0
+        },
+        "indent_accuracy": 0.9893617021276596,
+        "typeface_accuracy_on_matching_characters": 0.9577006507592191,
+        "character_error_rate": 0.004935225169648365,
+        "character_accuracy": 0.9950647748303516
+      },
+      {
+        "page_id": "bnf-f0248",
+        "columns": {
+          "column-1": {
+            "canonical_body_lines": 47,
+            "predicted_body_lines": 47,
+            "matched": 47,
+            "missing": 0,
+            "extra": 0,
+            "centre_offset": -2.5
+          },
+          "column-2": {
+            "canonical_body_lines": 45,
+            "predicted_body_lines": 45,
+            "matched": 45,
+            "missing": 0,
+            "extra": 0,
+            "centre_offset": -2
+          }
+        },
+        "matched": 92,
+        "missing": 0,
+        "extra": 0,
+        "indent_correct": 90,
+        "typeface_characters": 2535,
+        "typeface_correct": 2405,
+        "matching_text_characters": 2535,
+        "reference_text_characters": 2984,
+        "text_edit_distance": 34,
+        "canonical_heading_lines": {
+          "column-1": 0,
+          "column-2": 1
+        },
+        "predicted_heading_lines": {
+          "column-1": 0,
+          "column-2": 1
+        },
+        "indent_accuracy": 0.9782608695652174,
+        "typeface_accuracy_on_matching_characters": 0.9487179487179487,
+        "character_error_rate": 0.011394101876675604,
+        "character_accuracy": 0.9886058981233244
+      },
+      {
+        "page_id": "bnf-f0249",
+        "columns": {
+          "column-1": {
+            "canonical_body_lines": 48,
+            "predicted_body_lines": 48,
+            "matched": 48,
+            "missing": 0,
+            "extra": 0,
+            "centre_offset": 1.91
+          },
+          "column-2": {
+            "canonical_body_lines": 47,
+            "predicted_body_lines": 47,
+            "matched": 47,
+            "missing": 0,
+            "extra": 0,
+            "centre_offset": 2
+          }
+        },
+        "matched": 95,
+        "missing": 0,
+        "extra": 0,
+        "indent_correct": 95,
+        "typeface_characters": 2587,
+        "typeface_correct": 2507,
+        "matching_text_characters": 2587,
+        "reference_text_characters": 3090,
+        "text_edit_distance": 74,
+        "canonical_heading_lines": {
+          "column-1": 0,
+          "column-2": 0
+        },
+        "predicted_heading_lines": {
+          "column-1": 0,
+          "column-2": 0
+        },
+        "indent_accuracy": 1.0,
+        "typeface_accuracy_on_matching_characters": 0.9690761499806726,
+        "character_error_rate": 0.02394822006472492,
+        "character_accuracy": 0.976051779935275
+      },
+      {
+        "page_id": "bnf-f0250",
+        "columns": {
+          "column-1": {
+            "canonical_body_lines": 47,
+            "predicted_body_lines": 47,
+            "matched": 47,
+            "missing": 0,
+            "extra": 0,
+            "centre_offset": 2.5
+          },
+          "column-2": {
+            "canonical_body_lines": 47,
+            "predicted_body_lines": 47,
+            "matched": 47,
+            "missing": 0,
+            "extra": 0,
+            "centre_offset": 3
+          }
+        },
+        "matched": 94,
+        "missing": 0,
+        "extra": 0,
+        "indent_correct": 94,
+        "typeface_characters": 2530,
+        "typeface_correct": 2485,
+        "matching_text_characters": 2530,
+        "reference_text_characters": 3034,
+        "text_edit_distance": 102,
+        "canonical_heading_lines": {
+          "column-1": 0,
+          "column-2": 0
+        },
+        "predicted_heading_lines": {
+          "column-1": 0,
+          "column-2": 0
+        },
+        "indent_accuracy": 1.0,
+        "typeface_accuracy_on_matching_characters": 0.9822134387351779,
+        "character_error_rate": 0.03361898483849703,
+        "character_accuracy": 0.966381015161503
+      }
+    ]
+  },
+  "targets": [
+    {
+      "page": 251,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 33,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 252,
+      "body_lines": 93,
+      "heading_lines": 1,
+      "uncertain_bottom_rows": 0,
+      "initial_repairs": 2,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 253,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 18,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 254,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 11,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 255,
+      "body_lines": 93,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 10,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 256,
+      "body_lines": 90,
+      "heading_lines": 2,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 23,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 257,
+      "body_lines": 90,
+      "heading_lines": 2,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 23,
+      "bulk_assessment": {
+        "classification": "quarantine",
+        "eligible_for_provisional_review_queue": false,
+        "reasons": [
+          "page:no_recognizable_running_header"
+        ]
+      }
+    },
+    {
+      "page": 258,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 12,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 259,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 9,
+      "bulk_assessment": {
+        "classification": "quarantine",
+        "eligible_for_provisional_review_queue": false,
+        "reasons": [
+          "page:no_recognizable_running_header"
+        ]
+      }
+    },
+    {
+      "page": 260,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 16,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 261,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 6,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 262,
+      "body_lines": 93,
+      "heading_lines": 1,
+      "uncertain_bottom_rows": 0,
+      "initial_repairs": 22,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 263,
+      "body_lines": 90,
+      "heading_lines": 2,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 10,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 264,
+      "body_lines": 91,
+      "heading_lines": 2,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 25,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 265,
+      "body_lines": 92,
+      "heading_lines": 1,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 5,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 266,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 13,
+      "bulk_assessment": {
+        "classification": "quarantine",
+        "eligible_for_provisional_review_queue": false,
+        "reasons": [
+          "page:no_recognizable_running_header"
+        ]
+      }
+    },
+    {
+      "page": 267,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 7,
+      "bulk_assessment": {
+        "classification": "quarantine",
+        "eligible_for_provisional_review_queue": false,
+        "reasons": [
+          "page:no_recognizable_running_header"
+        ]
+      }
+    },
+    {
+      "page": 268,
+      "body_lines": 90,
+      "heading_lines": 2,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 5,
+      "bulk_assessment": {
+        "classification": "quarantine",
+        "eligible_for_provisional_review_queue": false,
+        "reasons": [
+          "page:no_recognizable_running_header"
+        ]
+      }
+    },
+    {
+      "page": 269,
+      "body_lines": 92,
+      "heading_lines": 1,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 12,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 270,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 31,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 271,
+      "body_lines": 96,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 0,
+      "initial_repairs": 9,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 272,
+      "body_lines": 93,
+      "heading_lines": 1,
+      "uncertain_bottom_rows": 0,
+      "initial_repairs": 12,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 273,
+      "body_lines": 92,
+      "heading_lines": 1,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 20,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 274,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 12,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 275,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 8,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 276,
+      "body_lines": 92,
+      "heading_lines": 1,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 11,
+      "bulk_assessment": {
+        "classification": "quarantine",
+        "eligible_for_provisional_review_queue": false,
+        "reasons": [
+          "page:no_recognizable_running_header"
+        ]
+      }
+    },
+    {
+      "page": 277,
+      "body_lines": 92,
+      "heading_lines": 1,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 15,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 278,
+      "body_lines": 93,
+      "heading_lines": 1,
+      "uncertain_bottom_rows": 0,
+      "initial_repairs": 4,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 279,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 8,
+      "bulk_assessment": {
+        "classification": "quarantine",
+        "eligible_for_provisional_review_queue": false,
+        "reasons": [
+          "page:no_recognizable_running_header"
+        ]
+      }
+    },
+    {
+      "page": 280,
+      "body_lines": 92,
+      "heading_lines": 1,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 10,
+      "bulk_assessment": {
+        "classification": "quarantine",
+        "eligible_for_provisional_review_queue": false,
+        "reasons": [
+          "page:no_recognizable_running_header"
+        ]
+      }
+    },
+    {
+      "page": 281,
+      "body_lines": 92,
+      "heading_lines": 1,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 15,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 282,
+      "body_lines": 92,
+      "heading_lines": 1,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 8,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 283,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 0,
+      "initial_repairs": 13,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 284,
+      "body_lines": 93,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 0,
+      "initial_repairs": 12,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 285,
+      "body_lines": 91,
+      "heading_lines": 2,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 6,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 286,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 22,
+      "bulk_assessment": {
+        "classification": "quarantine",
+        "eligible_for_provisional_review_queue": false,
+        "reasons": [
+          "page:no_recognizable_running_header"
+        ]
+      }
+    },
+    {
+      "page": 287,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 0,
+      "initial_repairs": 16,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 288,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 26,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 289,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 15,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 290,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 0,
+      "initial_repairs": 29,
+      "bulk_assessment": {
+        "classification": "quarantine",
+        "eligible_for_provisional_review_queue": false,
+        "reasons": [
+          "page:no_recognizable_running_header"
+        ]
+      }
+    },
+    {
+      "page": 291,
+      "body_lines": 91,
+      "heading_lines": 2,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 6,
+      "bulk_assessment": {
+        "classification": "quarantine",
+        "eligible_for_provisional_review_queue": false,
+        "reasons": [
+          "page:no_recognizable_running_header"
+        ]
+      }
+    },
+    {
+      "page": 292,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 22,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 293,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 5,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 294,
+      "body_lines": 91,
+      "heading_lines": 2,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 7,
+      "bulk_assessment": {
+        "classification": "quarantine",
+        "eligible_for_provisional_review_queue": false,
+        "reasons": [
+          "page:no_recognizable_running_header"
+        ]
+      }
+    },
+    {
+      "page": 295,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 20,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 296,
+      "body_lines": 96,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 27,
+      "bulk_assessment": {
+        "classification": "quarantine",
+        "eligible_for_provisional_review_queue": false,
+        "reasons": [
+          "page:no_recognizable_running_header"
+        ]
+      }
+    },
+    {
+      "page": 297,
+      "body_lines": 87,
+      "heading_lines": 4,
+      "uncertain_bottom_rows": 0,
+      "initial_repairs": 13,
+      "bulk_assessment": {
+        "classification": "quarantine",
+        "eligible_for_provisional_review_queue": false,
+        "reasons": [
+          "page:no_recognizable_running_header"
+        ]
+      }
+    },
+    {
+      "page": 298,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 5,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 299,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 0,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 300,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 17,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 301,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 31,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 302,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 46,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 303,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 40,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 304,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 43,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 305,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 38,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 306,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 37,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 307,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 37,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 308,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 38,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 309,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 38,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 310,
+      "body_lines": 96,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 0,
+      "initial_repairs": 41,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 311,
+      "body_lines": 92,
+      "heading_lines": 1,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 53,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 312,
+      "body_lines": 93,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 30,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 313,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 40,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 314,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 0,
+      "initial_repairs": 34,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 315,
+      "body_lines": 96,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 0,
+      "initial_repairs": 38,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 316,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 46,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 317,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 32,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 318,
+      "body_lines": 94,
+      "heading_lines": 1,
+      "uncertain_bottom_rows": 0,
+      "initial_repairs": 43,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 319,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 36,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 320,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 39,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 321,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 47,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 322,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 0,
+      "initial_repairs": 42,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 323,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 45,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 324,
+      "body_lines": 96,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 0,
+      "initial_repairs": 45,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 325,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 39,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 326,
+      "body_lines": 94,
+      "heading_lines": 1,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 40,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 327,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 38,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 328,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 44,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 329,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 37,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 330,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 36,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 331,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 0,
+      "initial_repairs": 43,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 332,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 36,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 333,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 34,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 334,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 40,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 335,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 44,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 336,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 44,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 337,
+      "body_lines": 92,
+      "heading_lines": 1,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 34,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 338,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 30,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 339,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 35,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 340,
+      "body_lines": 96,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 0,
+      "initial_repairs": 41,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 341,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 41,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 342,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 38,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 343,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 33,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 344,
+      "body_lines": 79,
+      "heading_lines": 4,
+      "uncertain_bottom_rows": 0,
+      "initial_repairs": 20,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 345,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 5,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 346,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 0,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 347,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 3,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 348,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 3,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 349,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 4,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 350,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 3,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 351,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 1,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 352,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 5,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 353,
+      "body_lines": 96,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 0,
+      "initial_repairs": 1,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 354,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 1,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 355,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 0,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 356,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 2,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 357,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 0,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 358,
+      "body_lines": 92,
+      "heading_lines": 1,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 0,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 359,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 1,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 360,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 2,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 361,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 2,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 362,
+      "body_lines": 93,
+      "heading_lines": 1,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 1,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 363,
+      "body_lines": 92,
+      "heading_lines": 1,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 3,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 364,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 0,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 365,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 2,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 366,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 0,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 367,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 1,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 368,
+      "body_lines": 92,
+      "heading_lines": 1,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 0,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 369,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 1,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 370,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 3,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 371,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 0,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 372,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 17,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 373,
+      "body_lines": 93,
+      "heading_lines": 1,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 0,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 374,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 0,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 375,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 0,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 376,
+      "body_lines": 76,
+      "heading_lines": 10,
+      "uncertain_bottom_rows": 0,
+      "initial_repairs": 8,
+      "bulk_assessment": {
+        "classification": "quarantine",
+        "eligible_for_provisional_review_queue": false,
+        "reasons": [
+          "page:internal_heading_lines=10"
+        ]
+      }
+    },
+    {
+      "page": 377,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 10,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 378,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 12,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 379,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 12,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 380,
+      "body_lines": 92,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 9,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 381,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 15,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 382,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 3,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 383,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 0,
+      "initial_repairs": 3,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 384,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 0,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 385,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 7,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 386,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 3,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 387,
+      "body_lines": 92,
+      "heading_lines": 1,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 11,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 388,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 2,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 389,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 3,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 390,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 5,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 391,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 6,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 392,
+      "body_lines": 96,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 2,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 393,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 0,
+      "initial_repairs": 2,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 394,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 0,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 395,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 16,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 396,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 0,
+      "initial_repairs": 7,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 397,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 1,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 398,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 38,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 399,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 43,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 400,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 41,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 401,
+      "body_lines": 96,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 34,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 402,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 47,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 403,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 29,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 404,
+      "body_lines": 92,
+      "heading_lines": 1,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 34,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 405,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 43,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 406,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 34,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 407,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 44,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 408,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 42,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 409,
+      "body_lines": 93,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 41,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 410,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 49,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 411,
+      "body_lines": 87,
+      "heading_lines": 4,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 18,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 412,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 4,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 413,
+      "body_lines": 93,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 12,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 414,
+      "body_lines": 92,
+      "heading_lines": 1,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 5,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 415,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 2,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 416,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 2,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 417,
+      "body_lines": 92,
+      "heading_lines": 1,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 0,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 418,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 3,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 419,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 6,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 420,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 3,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 421,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 3,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 422,
+      "body_lines": 93,
+      "heading_lines": 1,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 2,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 423,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 1,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 424,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 4,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 425,
+      "body_lines": 92,
+      "heading_lines": 1,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 4,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 426,
+      "body_lines": 88,
+      "heading_lines": 4,
+      "uncertain_bottom_rows": 0,
+      "initial_repairs": 11,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 427,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 15,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 428,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 1,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 429,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 9,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 430,
+      "body_lines": 92,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 2,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 431,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 7,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 432,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 1,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 433,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 3,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 434,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 0,
+      "initial_repairs": 2,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 435,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 10,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 436,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 0,
+      "initial_repairs": 0,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 437,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 5,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 438,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 10,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 439,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 17,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 440,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 0,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 441,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 15,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 442,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 0,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 443,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 1,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 444,
+      "body_lines": 93,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 10,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 445,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 1,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 446,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 0,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 447,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 4,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 448,
+      "body_lines": 96,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 0,
+      "initial_repairs": 11,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 449,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 4,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 450,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 7,
+      "bulk_assessment": {
+        "classification": "quarantine",
+        "eligible_for_provisional_review_queue": false,
+        "reasons": [
+          "page:no_recognizable_running_header"
+        ]
+      }
+    },
+    {
+      "page": 451,
+      "body_lines": 93,
+      "heading_lines": 1,
+      "uncertain_bottom_rows": 0,
+      "initial_repairs": 4,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 452,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 2,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 453,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 6,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 454,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 0,
+      "initial_repairs": 0,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 455,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 8,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 456,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 1,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 457,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 5,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 458,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 0,
+      "initial_repairs": 1,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 459,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 12,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 460,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 4,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 461,
+      "body_lines": 92,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 26,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 462,
+      "body_lines": 88,
+      "heading_lines": 4,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 0,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 463,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 16,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 464,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 3,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 465,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 4,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 466,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 2,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 467,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 5,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 468,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 1,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 469,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 6,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 470,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 4,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 471,
+      "body_lines": 91,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 7,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 472,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 3,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 473,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 12,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 474,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 6,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 475,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 0,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 476,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 3,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 477,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 3,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 478,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 1,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 479,
+      "body_lines": 92,
+      "heading_lines": 1,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 12,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 480,
+      "body_lines": 97,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 11,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 481,
+      "body_lines": 93,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 5,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 482,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 1,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 483,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 6,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 484,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 8,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 485,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 13,
+      "bulk_assessment": {
+        "classification": "quarantine",
+        "eligible_for_provisional_review_queue": false,
+        "reasons": [
+          "page:no_recognizable_running_header"
+        ]
+      }
+    },
+    {
+      "page": 486,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 3,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 487,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 16,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 488,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 22,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 489,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 6,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 490,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 10,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 491,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 20,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 492,
+      "body_lines": 96,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 6,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 493,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 7,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 494,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 3,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 495,
+      "body_lines": 92,
+      "heading_lines": 1,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 62,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 496,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 31,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 497,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 5,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 498,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 0,
+      "initial_repairs": 8,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 499,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 11,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 500,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 9,
+      "bulk_assessment": {
+        "classification": "quarantine",
+        "eligible_for_provisional_review_queue": false,
+        "reasons": [
+          "page:no_recognizable_running_header"
+        ]
+      }
+    },
+    {
+      "page": 501,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 8,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 502,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 23,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 503,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 30,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 504,
+      "body_lines": 92,
+      "heading_lines": 1,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 20,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 505,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 6,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 506,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 16,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 507,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 20,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 508,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 6,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 509,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 2,
+      "bulk_assessment": {
+        "classification": "quarantine",
+        "eligible_for_provisional_review_queue": false,
+        "reasons": [
+          "page:no_recognizable_running_header"
+        ]
+      }
+    },
+    {
+      "page": 510,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 6,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 511,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 0,
+      "initial_repairs": 16,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 512,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 11,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 513,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 20,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 514,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 14,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 515,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 11,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 516,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 7,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 517,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 18,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 518,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 4,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 519,
+      "body_lines": 93,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 14,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 520,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 1,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 521,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 9,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 522,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 14,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 523,
+      "body_lines": 89,
+      "heading_lines": 3,
+      "uncertain_bottom_rows": 0,
+      "initial_repairs": 13,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 524,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 1,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 525,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 1,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 526,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 2,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 527,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 5,
+      "bulk_assessment": {
+        "classification": "quarantine",
+        "eligible_for_provisional_review_queue": false,
+        "reasons": [
+          "page:no_recognizable_running_header"
+        ]
+      }
+    },
+    {
+      "page": 528,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 3,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 529,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 2,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 530,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 0,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 531,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 0,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 532,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 0,
+      "initial_repairs": 18,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 533,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 2,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 534,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 0,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 535,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 4,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 536,
+      "body_lines": 94,
+      "heading_lines": 2,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 7,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 537,
+      "body_lines": 93,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 0,
+      "initial_repairs": 6,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 538,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 0,
+      "initial_repairs": 0,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 539,
+      "body_lines": 93,
+      "heading_lines": 1,
+      "uncertain_bottom_rows": 0,
+      "initial_repairs": 4,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 540,
+      "body_lines": 91,
+      "heading_lines": 1,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 1,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 541,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 1,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 542,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 0,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 543,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 4,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 544,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 0,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 545,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 19,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 546,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 2,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 547,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 3,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 548,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 1,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 549,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 0,
+      "initial_repairs": 1,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 550,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 0,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 551,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 2,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 552,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 0,
+      "initial_repairs": 0,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 553,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 6,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 554,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 16,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 555,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 1,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 556,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 0,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 557,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 1,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 558,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 2,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 559,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 3,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 560,
+      "body_lines": 96,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 3,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 561,
+      "body_lines": 92,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 1,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 562,
+      "body_lines": 93,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 0,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 563,
+      "body_lines": 93,
+      "heading_lines": 1,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 32,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 564,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 0,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 565,
+      "body_lines": 94,
+      "heading_lines": 1,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 9,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 566,
+      "body_lines": 93,
+      "heading_lines": 1,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 7,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 567,
+      "body_lines": 92,
+      "heading_lines": 1,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 2,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 568,
+      "body_lines": 93,
+      "heading_lines": 1,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 1,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 569,
+      "body_lines": 92,
+      "heading_lines": 1,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 15,
+      "bulk_assessment": {
+        "classification": "quarantine",
+        "eligible_for_provisional_review_queue": false,
+        "reasons": [
+          "page:no_recognizable_running_header"
+        ]
+      }
+    },
+    {
+      "page": 570,
+      "body_lines": 85,
+      "heading_lines": 5,
+      "uncertain_bottom_rows": 0,
+      "initial_repairs": 3,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 571,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 23,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 572,
+      "body_lines": 94,
+      "heading_lines": 1,
+      "uncertain_bottom_rows": 0,
+      "initial_repairs": 8,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 573,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 20,
+      "bulk_assessment": {
+        "classification": "quarantine",
+        "eligible_for_provisional_review_queue": false,
+        "reasons": [
+          "page:no_recognizable_running_header"
+        ]
+      }
+    },
+    {
+      "page": 574,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 5,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 575,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 6,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 576,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 3,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 577,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 10,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 578,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 17,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 579,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 16,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 580,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 11,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 581,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 12,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 582,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 10,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 583,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 8,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 584,
+      "body_lines": 93,
+      "heading_lines": 1,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 3,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 585,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 0,
+      "initial_repairs": 9,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 586,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 8,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 587,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 21,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 588,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 1,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 589,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 19,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 590,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 6,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 591,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 12,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 592,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 4,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 593,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 20,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 594,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 12,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 595,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 15,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 596,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 6,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 597,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 27,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 598,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 0,
+      "initial_repairs": 2,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 599,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 15,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 600,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 8,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 601,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 6,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 602,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 22,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 603,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 17,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 604,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 11,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 605,
+      "body_lines": 94,
+      "heading_lines": 1,
+      "uncertain_bottom_rows": 0,
+      "initial_repairs": 15,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 606,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 6,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 607,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 10,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 608,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 3,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 609,
+      "body_lines": 92,
+      "heading_lines": 1,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 15,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 610,
+      "body_lines": 93,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 0,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 611,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 0,
+      "initial_repairs": 12,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 612,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 0,
+      "initial_repairs": 5,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 613,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 13,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 614,
+      "body_lines": 88,
+      "heading_lines": 4,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 9,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 615,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 0,
+      "initial_repairs": 3,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 616,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 9,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 617,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 31,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 618,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 6,
+      "bulk_assessment": {
+        "classification": "quarantine",
+        "eligible_for_provisional_review_queue": false,
+        "reasons": [
+          "page:no_recognizable_running_header"
+        ]
+      }
+    },
+    {
+      "page": 619,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 12,
+      "bulk_assessment": {
+        "classification": "quarantine",
+        "eligible_for_provisional_review_queue": false,
+        "reasons": [
+          "page:no_recognizable_running_header"
+        ]
+      }
+    },
+    {
+      "page": 620,
+      "body_lines": 96,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 0,
+      "initial_repairs": 7,
+      "bulk_assessment": {
+        "classification": "quarantine",
+        "eligible_for_provisional_review_queue": false,
+        "reasons": [
+          "page:no_recognizable_running_header"
+        ]
+      }
+    },
+    {
+      "page": 621,
+      "body_lines": 93,
+      "heading_lines": 1,
+      "uncertain_bottom_rows": 0,
+      "initial_repairs": 17,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 622,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 9,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 623,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 16,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 624,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 17,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 625,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 23,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 626,
+      "body_lines": 93,
+      "heading_lines": 1,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 22,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 627,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 11,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 628,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 6,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 629,
+      "body_lines": 93,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 15,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 630,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 31,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 631,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 17,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 632,
+      "body_lines": 93,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 18,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 633,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 12,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 634,
+      "body_lines": 93,
+      "heading_lines": 1,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 6,
+      "bulk_assessment": {
+        "classification": "quarantine",
+        "eligible_for_provisional_review_queue": false,
+        "reasons": [
+          "page:no_recognizable_running_header"
+        ]
+      }
+    },
+    {
+      "page": 635,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 3,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 636,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 0,
+      "initial_repairs": 11,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 637,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 20,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 638,
+      "body_lines": 88,
+      "heading_lines": 4,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 14,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 639,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 44,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 640,
+      "body_lines": 92,
+      "heading_lines": 1,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 27,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 641,
+      "body_lines": 93,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 46,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    },
+    {
+      "page": 642,
+      "body_lines": 92,
+      "heading_lines": 1,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 40,
+      "bulk_assessment": {
+        "classification": "ordinary_two_column",
+        "eligible_for_provisional_review_queue": true,
+        "reasons": []
+      }
+    }
+  ],
+  "target_failures": []
+}

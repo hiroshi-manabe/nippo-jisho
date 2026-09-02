@@ -39,7 +39,7 @@ The private [experimental recognition engine](docs/ocr-model.md) turns reviewed 
 
 The [Calamari Page-Draft Pipeline](docs/calamari-page-drafts.md) tests that recognizer in a genuinely page-first setting: blind line segmentation, native-scan line crops, raw OCR drafts, and a comparison layer opened only after inference. The audited [OCR-to-Level-1 bridge](docs/ocr-page-data.md) now uses those independent drafts as the provisional reading baseline for human-unreviewed f161–f237 while retaining stable structure, browser geometry, explicit quarantines, and mandatory human review.
 
-The experimental [Scan-first Level 1 Bootstrap](docs/ocr-scan-bootstrap.md) now tests the missing step for leaves with no existing structure. Across eleven held-out pages it reconstructs 99.90% of body rows at 99.50% precision, with 96.98% diplomatic character accuracy. It has produced explicitly unreviewed candidate packages for f238–f247; page furniture, enlarged initials, complete line geometry, and the transcription itself remain mandatory visual-review gates before those candidates can enter the canonical corpus.
+The experimental [Scan-first Level 1 Bootstrap](docs/ocr-scan-bootstrap.md) now supplies the missing step for leaves with no existing structure. Its dictionary-wide run generated all 392 requested candidates for f251–f642 and passed a 14-page held-out gate at 99.92% body-row recall, 99.61% precision, and 97.14% diplomatic character accuracy. Together with the earlier f238–f247 batch, all previously unstructured dictionary leaves in that span now have self-contained machine-provisional page data. Page furniture, enlarged initials, complete line geometry, and the transcription itself remain mandatory visual-review gates before those candidates can enter the canonical corpus.
 
 ## Working principles
 
@@ -55,4 +55,4 @@ The completed [Transcription-Format Pilot](docs/transcription-format-pilot.md) s
 
 ## Current status
 
-The project is currently in **Level 1 production validation**. The format has been adopted, `f14` has completed human review, and sequential structured transcription now runs through `f237`; f161–f237 use a reproducible independent-OCR baseline and remain pending human correction. See [Project Status](STATUS.md) for the current focus.
+The project is currently in **Level 1 production validation**. The format has been adopted, `f14` has completed human review, sequential canonical transcription runs through `f237`, and machine-provisional scan-first candidates now cover the remaining ordinary dictionary span through `f642`. See [Project Status](STATUS.md) for the current focus and the distinction between generated candidates and reviewed canonical pages.
