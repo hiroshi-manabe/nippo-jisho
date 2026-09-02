@@ -32,7 +32,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l016` | Fagan. *Vt,* Fagan nixô. *O ſurrirſe hum* |  |
 | `c1-l017` | &emsp;*pouco.* Bup*.* |  *( tardeira.* |
 | `c1-l018` | Fagane. *Aço.* |  |
-| `c1-l019` | Fagaraxi. i, Caraxino fa. *Folhas de mor-* |  |
+| `c1-l019` | Fagaraxi. i, Caraxino fa. *Folhas de mos-* |  |
 | `c1-l020` | Fagaſumi. *Çujidade dos dentes.* |  |
 | `c1-l021` | Fagata. *Dentada, ou ſinal de mordedura.* |  |
 | `c1-l022` | Fagaxe, uru, eta. *Fazer eſfolar.* |  |
@@ -47,7 +47,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l031` | Fagi, zzuru, ita. *Ter vergonha. ¶* Fito- |  |
 | `c1-l032` | &emsp;uo fazzuru. *Ter vergonha, ou pejo dal-* |  |
 | `c1-l033` | &emsp;*guem.* |  |
-| `c1-l034` | Fagifagini. *Aduer. i,* Fazzucaxũ. *Ver-* |  |
+| `c1-l034` | Fagifagini. *Aduer. i,* Fazzucaxù. *Ver-* |  |
 | `c1-l035` | &emsp;*gonhoſamente.* |  |
 | `c1-l036` | Fagigauaxij. *Ter pejo, ou vergonha.* |  |
 | `c1-l037` | Fagixime, uru, eta. *Enuergonhar a outro.* |  |
@@ -80,7 +80,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l006` | &emsp;*do fogo por onde o vento dos folles dos ferrei-* |  |
 | `c2-l007` | &emsp;*ros ſae.* |  |
 | `c2-l008` | Fague. *Vt,* Fague yama. *Monte eſcalua-* |  |
-| `c2-l009` | &emsp;*do. ¶ Item,* Fague. *Peſado.* |  |
+| `c2-l009` | &emsp;*do. ¶ Item,* Fague. *Pelado.* |  |
 | `c2-l010` | Fague, uru, eta. *Eſtar o monte eſcaluado.* |  |
 | `c2-l011` | &emsp;*¶ Item, Pelarſe por doença. Vt,* Atama |  |
 | `c2-l012` | &emsp;no qega faguru. *Cairem os cabellos da ca-* |  |

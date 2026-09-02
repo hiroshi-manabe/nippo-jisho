@@ -14,7 +14,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | &emsp;¶ Fanauo cũzuru. *Offerecer roſas ao Ido-* |  |
+| `c1-l001` | &emsp;¶ Fanauo cǔzuru. *Offerecer roſas ao Ido-* |  |
 | `c1-l002` | &emsp;*lo. ¶* Fanauo chiguiru. *Colher roſas,* |  |
 | `c1-l003` | &emsp;*ou flores ſem pè. ¶* Fanaga firaqu. *A-* |  |
 | `c1-l004` | &emsp;*brir a roſa. ¶* Fanaga focoroburu. *Co-* |  |
@@ -102,7 +102,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l027` | Fanami. *Ver flores por recreação. Vt,* Fa- |  |
 | `c2-l028` | &emsp;namini mairu. *Ir ver as flores, ou roſas.* |  |
 | `c2-l029` | &emsp;¶ Fanamigaterani quru fito. *Homem q̃* |  |
-| `c2-l030` | &emsp;*vem com ocaſião de ir ver as flores, oucomo* |  |
+| `c2-l030` | &emsp;*vem com ocaſião de ir ver as flores, ou como* |  |
 | `c2-l031` | &emsp;*quem vai ver as flores.* |  |
 | `c2-l032` | Fanamuqe. *Dadiua que ſe da ao que vai pera* |  |
 | `c2-l033` | &emsp;*longe.* |  |

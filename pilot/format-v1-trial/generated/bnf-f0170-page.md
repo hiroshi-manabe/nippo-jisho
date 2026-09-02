@@ -35,12 +35,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l019` | &emsp;*do a ponte com meter hum pao como lauanca* |  |
 | `c1-l020` | &emsp;*por baixo, &c.* |  |
 | `c1-l021` | Fane mocco. *Ceſto, ou couſa ſemelhante em* |  |
-| `c1-l022` | &emsp;*q̃ a carretão terra, pedras, &c. & ſe ſacode,* |  |
+| `c1-l022` | &emsp;*q̃ acarretão terra, pedras, &c. & ſe ſacode,* |  |
 | `c1-l023` | &emsp;*ou pincha pera ſe deſpejar.* |  |
 | `c1-l024` | Fanetçurube. *Balde com que tirão agua do* |  |
 | `c1-l025` | &emsp;*poço, ou do rio, ou mar à maneira de cainte.* |  |
 | `c1-l026` | Fanevocoxi, ſu, oita. *Arrancar pedras cõ* |  |
-| `c1-l027` | &emsp;*alauanca, &c. Vt,* Gorocujũnin xi- |  |
+| `c1-l027` | &emsp;*alauanca, &c. Vt,* Gorocujùnin xi- |  |
 | `c1-l028` | &emsp;temo voxi fataraqi gataqi dai banja- |  |
 | `c1-l029` | &emsp;cuno ariqeruuo ycitǒ fanevocoxi, &c. |  |
 | `c1-l030` | &emsp;Taif*. lib. 23. Cincoenta, ou 60. homeẽs* |  |
@@ -101,7 +101,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l027` | &emsp;ru. *¶ Item, Adeuinhar lançando ſor-* |  |
 | `c2-l028` | &emsp;*tes, &c.* |  |
 | `c2-l029` | Fanjin. Mino fanbun. *A metade do corpo.* |  |
-| `c2-l030` | &emsp;*Vt,* Chibude fanjin canauanu. *Não po* |  |
+| `c2-l030` | &emsp;*Vt,* Chùbude fanjin canauanu. *Não po* |  |
 | `c2-l031` | &emsp;*der menear meo corpo por doença de parleſia.* |  |
 | `c2-l032` | Fanjit. *A metade de hũ dia.* |  |
 | `c2-l033` | Fanjǒ. Xigueri ſacayuru. *Multiplicação.* |  |

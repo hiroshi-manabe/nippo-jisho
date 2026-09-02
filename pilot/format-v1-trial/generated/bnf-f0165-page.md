@@ -91,7 +91,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l011` | Fai. l, fainoqi. *Hũa aruore de que fazem* |  |
 | `c2-l012` | &emsp;*os Faxis com que comem em Iapão, & que* |  |
 | `c2-l013` | &emsp;*metem entre as duas canas do arco.* |  |
-| `c2-l014` | Faifi. Vogami firaqu. i, Faigen. *Ler car-* |  |
+| `c2-l014` | Faifi. Vogami firaqu. i, Faiqen. *Ler car-* |  |
 | `c2-l015` | &emsp;*tas com reuerencia.* |  |
 | `c2-l016` | Faifocu. Yabure niguru. i, Gunginga cuz- |  |
 | `c2-l017` | &emsp;zururu. *Deſtruirſe, & fugir o exercito.* |  |
