@@ -1,4 +1,4 @@
-const state = { corpus: null, byLeaf: new Map(), currentPage: null, unit: 'page', edits: {}, suggestionDismissals: {}, submissions: {}, workspacesLoaded: new Set(), staleDraft: null, knownRomanTerms: new Set(), staleBaseline: null };
+const state = { corpus: null, byLeaf: new Map(), currentPage: null, unit: 'page', edits: {}, suggestionDismissals: {}, submissions: {}, workspacesLoaded: new Set(), staleDraft: null, knownRomanTerms: new Set(), staleBaseline: null, kanaGuide: localStorage.getItem('nippo-kana-guide') === 'shown' };
 const WORKSPACE_SCHEMA = 4;
 const previewImageCache = new Map();
 const hdImageCache = new Map();
@@ -538,6 +538,12 @@ function renderRuns(runs) {
   }).join('');
 }
 
+function kanaGuideHTML(line) {
+  if (!state.kanaGuide) return '';
+  const kana = NippoKanaGuide.convertRuns(line.runs);
+  return kana ? `<div class="kana-guide" aria-label="Automatic kana guide"><span>Automatic</span>${escapeHTML(kana)}</div>` : '';
+}
+
 function zonesFor(page, unit) {
   if (unit === 'page') return page.zones;
   if (unit === 'column-1' || unit === 'column-2') {
@@ -591,6 +597,9 @@ function renderPageContent() {
     $('#page-content').innerHTML = `<div class="page-comparison">${scanPane(page)}<section class="text-pane"><div class="pane-toolbar"><strong>${pageStateLabel(page)}</strong>${page.source ? `<a class="push" href="${page.source}" target="_blank" rel="noreferrer">${escapeHTML(page.source_label || 'Source data')}</a>` : ''}</div><div class="continuous-text">${continuousHTML(page, state.unit)}</div></section></div>`;
   }
   updateColumnNavigation();
+  $('#kana-guide-toggle').classList.toggle('active', state.kanaGuide);
+  $('#kana-guide-toggle').setAttribute('aria-pressed', String(state.kanaGuide));
+  $('#kana-guide-toggle').disabled = !page.processed;
   refreshPageImageUI(page);
 }
 
@@ -780,7 +789,7 @@ function lineHTML(page, line) {
   const current = edit ? edit.after : line.text;
   const comment = edit?.comment || '';
   const markers = `${edit?.machine_suggestion === 'ocr_terminal_hyphen' ? '<span class="review-marker suggestion-marker">OCR: no hyphen</span>' : ''}${edit?.base_changed ? '<span class="review-marker">Base updated</span>' : ''}${edit?.comment_review_needed ? '<span class="review-marker comment-marker">Comment needs review</span>' : ''}${requestsSecondOpinion(edit) ? '<span class="review-marker opinion-marker">Second opinion</span>' : ''}`;
-  return `<article class="line-row ${edit ? 'changed' : ''} ${edit?.machine_suggestion ? 'suggested' : ''} ${edit?.base_changed ? 'rebased' : ''}" data-line="${line.id}"><div class="line-head"><code>${line.id}</code>${markers}<button class="context-toggle" type="button" aria-expanded="false">Show context</button></div><button class="line-crop" type="button" style="aspect-ratio:${line.crop[2]}/${line.crop[3]}" data-crop='${JSON.stringify(line.crop)}' data-context='${JSON.stringify(line.context_crop)}' aria-label="Show context for ${line.id}"><img loading="lazy" data-iiif-page alt="" style="width:${page.width / line.crop[2] * 100}%;transform:translate(${-line.crop[0] / page.width * 100}% ,${-line.crop[1] / page.height * 100}%)"></button><div class="line-text-row" title="Click beside the text for the full editor"><div class="line-text indent-${line.indent}">${interactiveLineHTML(line, current, edit?.nasal_restorations, edit?.machine_suggestion)}</div>${comment ? `<button class="comment-preview" type="button" data-action="edit" title="${escapeHTML(comment)}">${escapeHTML(comment)}</button>` : ''}</div></article>`;
+  return `<article class="line-row ${edit ? 'changed' : ''} ${edit?.machine_suggestion ? 'suggested' : ''} ${edit?.base_changed ? 'rebased' : ''}" data-line="${line.id}"><div class="line-head"><code>${line.id}</code>${markers}<button class="context-toggle" type="button" aria-expanded="false">Show context</button></div><button class="line-crop" type="button" style="aspect-ratio:${line.crop[2]}/${line.crop[3]}" data-crop='${JSON.stringify(line.crop)}' data-context='${JSON.stringify(line.context_crop)}' aria-label="Show context for ${line.id}"><img loading="lazy" data-iiif-page alt="" style="width:${page.width / line.crop[2] * 100}%;transform:translate(${-line.crop[0] / page.width * 100}% ,${-line.crop[1] / page.height * 100}%)"></button><div class="line-text-row" title="Click beside the text for the full editor"><div class="line-transcription"><div class="line-text indent-${line.indent}">${interactiveLineHTML(line, current, edit?.nasal_restorations, edit?.machine_suggestion)}</div>${kanaGuideHTML(line)}</div>${comment ? `<button class="comment-preview" type="button" data-action="edit" title="${escapeHTML(comment)}">${escapeHTML(comment)}</button>` : ''}</div></article>`;
 }
 
 function setCrop(row, expanded) {
@@ -1050,7 +1059,13 @@ document.addEventListener('click', event => {
   if (event.target.closest('[data-action="retry-preview"]')) return updatePageImages(state.currentPage.leaf);
   if (event.target.closest('[data-action="retry-hd"]')) return queueHD(state.currentPage, false);
   const card = event.target.closest('.page-card'); if (card) return showPage(Number(card.dataset.leaf));
-  const tab = event.target.closest('#view-tabs button'); if (tab) return showPage(state.currentPage.leaf, tab.dataset.unit);
+  const tab = event.target.closest('#view-tabs button[data-unit]'); if (tab) return showPage(state.currentPage.leaf, tab.dataset.unit);
+  if (event.target.closest('#kana-guide-toggle')) {
+    state.kanaGuide = !state.kanaGuide;
+    localStorage.setItem('nippo-kana-guide', state.kanaGuide ? 'shown' : 'hidden');
+    renderPageContent();
+    return;
+  }
   const columnButton = event.target.closest('[data-column-leaf][data-column-unit]');
   if (columnButton) { showPage(Number(columnButton.dataset.columnLeaf), columnButton.dataset.columnUnit); window.scrollTo(0, 0); return; }
   const row = event.target.closest('.line-row');

@@ -208,6 +208,53 @@ class PublicReviewRegressionTests(unittest.TestCase):
         self.assertIn("event.preventDefault()", app)
         self.assertIn(".character-palette", styles)
 
+    def test_automatic_kana_guide_is_derived_and_dictionary_aware(self):
+        app = (ROOT / "site" / "app.js").read_text(encoding="utf-8")
+        document = (ROOT / "site" / "index.html").read_text(encoding="utf-8")
+        builder = (ROOT / "scripts" / "build_public_review.py").read_text(encoding="utf-8")
+        self.assertIn('<script src="kana-guide.js"></script>', document)
+        self.assertIn('id="kana-guide-toggle"', document)
+        self.assertIn('NippoKanaGuide.convertRuns(line.runs)', app)
+        self.assertIn('"kana-guide.js",', builder)
+
+        script = r"""
+const k = require('./site/kana-guide.js');
+const actual = {
+  aqiraca: k.transliterateToken('Aqiraca'),
+  fanauo: k.transliterateToken('Fanauo'),
+  kutsuua: k.transliterateToken('cutçuuauo'),
+  initialV: k.transliterateToken('Vmani'),
+  longO: k.transliterateToken('Vôqina'),
+  finalJ: k.transliterateToken('canaxij'),
+  uppercasePortuguese: k.transliterateToken('NOME'),
+  label: k.transliterateToken('Vt'),
+  runs: k.convertRuns([
+    {typeface: 'roman', text: 'Aqiraca. '},
+    {typeface: 'italic', text: 'Couſa clara. '},
+    {typeface: 'roman', text: 'Vt, Faiqen.'},
+  ]),
+};
+console.log(JSON.stringify(actual));
+"""
+        result = subprocess.run(
+            ["node", "-e", script], cwd=ROOT, capture_output=True, text=True
+        )
+        self.assertEqual(result.returncode, 0, result.stderr)
+        self.assertEqual(
+            json.loads(result.stdout),
+            {
+                "aqiraca": "アキラカ",
+                "fanauo": "ハナヲ",
+                "kutsuua": "クツワヲ",
+                "initialV": "ウマニ",
+                "longO": "オゥキナ",
+                "finalJ": "カナシイ",
+                "uppercasePortuguese": None,
+                "label": None,
+                "runs": "アキラカ. ハイケン.",
+            },
+        )
+
     def test_collapsed_line_quick_edits_are_reversible_and_schema_neutral(self):
         app = (ROOT / "site" / "app.js").read_text(encoding="utf-8")
         helper = (ROOT / "site" / "quick-edit.js").read_text(encoding="utf-8")

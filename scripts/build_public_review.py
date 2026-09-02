@@ -440,6 +440,7 @@ def main() -> int:
     for name in (
         "index.html",
         "quick-edit.js",
+        "kana-guide.js",
         "app.js",
         "styles.css",
         "reference.css",
