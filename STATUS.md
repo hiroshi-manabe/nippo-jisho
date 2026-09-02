@@ -14,6 +14,8 @@ The complete native-resolution Gallica image sequence has been acquired and chec
 
 The external-AI geometry-and-text delegation experiment is formally retired. Returned reviews, superseded returns, matching task inputs for `f31`–`f125`, and the protocol/import documentation remain as a [legacy provenance archive](pilot/human-review/ai-geometry-work/README.md). Unused prepared assignments and image ZIPs outside that returned-review range were deleted. New pages now use project-side line-by-line transcription and geometry capture; later human correction continues through the public review interface and GitHub Issues.
 
+A first [scan-first Level 1 bootstrap](docs/ocr-scan-bootstrap.md) now covers the structural step that the OCR-to-Level-1 bridge could not perform. Eleven held-out pages comprising 997 canonical body rows were inferred before their transcription or geometry was opened; the result reached 99.90% body-row recall, 99.50% precision, 97.49% indentation accuracy, 96.37% roman/italic accuracy, and 96.98% diplomatic character accuracy. The passing run preserved 940 body-row candidates for `f238`–`f247` under [`pilot/ocr-bootstrap/`](pilot/ocr-bootstrap/). They remain outside the canonical corpus because page-number/header separation, enlarged initials, all-line crop readability, and the readings themselves still require visual review.
+
 An audited [OCR-to-Level-1 bridge](docs/ocr-page-data.md) now constructs provisional text for structured human-unreviewed pages while protecting reviewed pages and retaining stable zones, physical-line IDs, typeface scaffolding, displaced fragments, and browser geometry. Its first application covered all 7,261 body lines on `f161`–`f237`: 4,212 readings changed, 3,009 already agreed exactly, 17 high-change OCR readings were quarantined, and 23 structural rows were deliberately preserved. The resulting pages remain `visual_draft`; the OCR baseline improves initialization but does not replace general visual inspection or human comparison.
 
 The first timed second-pass trial is complete. The [Tiled Visual Review Pilot](docs/tiled-visual-review.md) now records overlapping quarter-column and sixth-column views as a workable review method, and the page-level evidence is preserved in the [bnf-f0248 Second Visual Pass](pilot/second-pass/bnf-f0248.md). A revised [Pilot Diacritic Audit](pilot/diacritic-audit.md) distinguishes 30 carons, five genuine circumflexes, one grave accent, and one unmarked form among 37 flagged occurrences across two frozen pages.
@@ -110,7 +112,7 @@ The initial site exposed a browser-positioning defect and the inadequacy of even
 
 ## Current objective
 
-Use the reproducible OCR initializer for new structured pages from `f238`, while human checking proceeds independently on `f17`–`f237` and the corrected `f16` and `f15` columns await recheck. The immediate objective is repeatable quality control supporting:
+Visually adjudicate the scan-first `f238`–`f247` candidates before promoting them to the structured corpus, while human checking proceeds independently on `f17`–`f237` and the corrected `f16` and `f15` columns await recheck. The immediate objective is repeatable quality control supporting:
 
 1. A page-oriented reading and verification view
 2. Efficient source-faithful editing in physical order

@@ -39,6 +39,8 @@ The private [experimental recognition engine](docs/ocr-model.md) turns reviewed 
 
 The [Calamari Page-Draft Pipeline](docs/calamari-page-drafts.md) tests that recognizer in a genuinely page-first setting: blind line segmentation, native-scan line crops, raw OCR drafts, and a comparison layer opened only after inference. The audited [OCR-to-Level-1 bridge](docs/ocr-page-data.md) now uses those independent drafts as the provisional reading baseline for human-unreviewed f161–f237 while retaining stable structure, browser geometry, explicit quarantines, and mandatory human review.
 
+The experimental [Scan-first Level 1 Bootstrap](docs/ocr-scan-bootstrap.md) now tests the missing step for leaves with no existing structure. Across eleven held-out pages it reconstructs 99.90% of body rows at 99.50% precision, with 96.98% diplomatic character accuracy. It has produced explicitly unreviewed candidate packages for f238–f247; page furniture, enlarged initials, complete line geometry, and the transcription itself remain mandatory visual-review gates before those candidates can enter the canonical corpus.
+
 ## Working principles
 
 - **Evidence remains visible.** Every reading should point back to its page and location in the source.

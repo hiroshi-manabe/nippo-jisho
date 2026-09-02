@@ -1,0 +1,583 @@
+{
+  "format": "nippo-ocr-level1-bootstrap-report",
+  "format_version": 1,
+  "method": {
+    "target_inference_inputs": [
+      "native scan",
+      "independent Kraken row detections",
+      "independent Calamari text",
+      "roman/italic language model trained on structured pages through f160",
+      "preceding page's main alphabet section as sequential context"
+    ],
+    "target_inference_excludes": [
+      "target page transcription",
+      "target page canonical geometry",
+      "target page review state"
+    ],
+    "benchmark_opened": "only after all candidate packages were serialized",
+    "canonical_application": "blocked pending visual lineation and geometry review"
+  },
+  "gate": {
+    "minimum_body_line_recall": 0.985,
+    "minimum_body_line_precision": 0.975,
+    "minimum_indent_accuracy": 0.9,
+    "minimum_typeface_accuracy": 0.95,
+    "minimum_character_accuracy": 0.94,
+    "passed": true
+  },
+  "benchmark": {
+    "aggregate": {
+      "pages": 11,
+      "canonical_body_lines": 997,
+      "predicted_body_lines": 1001,
+      "matched_body_lines": 996,
+      "body_line_recall": 0.9989969909729187,
+      "body_line_precision": 0.995004995004995,
+      "missing_body_lines": 1,
+      "extra_body_lines": 5,
+      "indent_accuracy": 0.9748995983935743,
+      "typeface_characters": 27359,
+      "typeface_accuracy_on_matching_characters": 0.9637413648159655,
+      "character_error_rate": 0.030173597339597888,
+      "character_accuracy": 0.9698264026604021,
+      "heading_count_exact_columns": 21,
+      "heading_count_columns": 22
+    },
+    "pages": [
+      {
+        "page_id": "bnf-f0014",
+        "columns": {
+          "column-1": {
+            "canonical_body_lines": 47,
+            "predicted_body_lines": 47,
+            "matched": 47,
+            "missing": 0,
+            "extra": 0,
+            "centre_offset": 3
+          },
+          "column-2": {
+            "canonical_body_lines": 47,
+            "predicted_body_lines": 47,
+            "matched": 47,
+            "missing": 0,
+            "extra": 0,
+            "centre_offset": -2
+          }
+        },
+        "matched": 94,
+        "missing": 0,
+        "extra": 0,
+        "indent_correct": 93,
+        "typeface_characters": 2636,
+        "typeface_correct": 2530,
+        "matching_text_characters": 2636,
+        "reference_text_characters": 3174,
+        "text_edit_distance": 68,
+        "canonical_heading_lines": {
+          "column-1": 0,
+          "column-2": 0
+        },
+        "predicted_heading_lines": {
+          "column-1": 0,
+          "column-2": 0
+        },
+        "indent_accuracy": 0.9893617021276596,
+        "typeface_accuracy_on_matching_characters": 0.9597875569044007,
+        "character_error_rate": 0.02142407057340895,
+        "character_accuracy": 0.978575929426591
+      },
+      {
+        "page_id": "bnf-f0018",
+        "columns": {
+          "column-1": {
+            "canonical_body_lines": 47,
+            "predicted_body_lines": 47,
+            "matched": 47,
+            "missing": 0,
+            "extra": 0,
+            "centre_offset": 4.5
+          },
+          "column-2": {
+            "canonical_body_lines": 45,
+            "predicted_body_lines": 45,
+            "matched": 45,
+            "missing": 0,
+            "extra": 0,
+            "centre_offset": 18.5
+          }
+        },
+        "matched": 92,
+        "missing": 0,
+        "extra": 0,
+        "indent_correct": 90,
+        "typeface_characters": 2313,
+        "typeface_correct": 2214,
+        "matching_text_characters": 2313,
+        "reference_text_characters": 2817,
+        "text_edit_distance": 128,
+        "canonical_heading_lines": {
+          "column-1": 0,
+          "column-2": 1
+        },
+        "predicted_heading_lines": {
+          "column-1": 0,
+          "column-2": 1
+        },
+        "indent_accuracy": 0.9782608695652174,
+        "typeface_accuracy_on_matching_characters": 0.9571984435797666,
+        "character_error_rate": 0.04543840965566205,
+        "character_accuracy": 0.954561590344338
+      },
+      {
+        "page_id": "bnf-f0047",
+        "columns": {
+          "column-1": {
+            "canonical_body_lines": 41,
+            "predicted_body_lines": 42,
+            "matched": 41,
+            "missing": 0,
+            "extra": 1,
+            "centre_offset": 4
+          },
+          "column-2": {
+            "canonical_body_lines": 47,
+            "predicted_body_lines": 47,
+            "matched": 47,
+            "missing": 0,
+            "extra": 0,
+            "centre_offset": 10
+          }
+        },
+        "matched": 88,
+        "missing": 0,
+        "extra": 1,
+        "indent_correct": 86,
+        "typeface_characters": 2546,
+        "typeface_correct": 2475,
+        "matching_text_characters": 2546,
+        "reference_text_characters": 3011,
+        "text_edit_distance": 60,
+        "canonical_heading_lines": {
+          "column-1": 4,
+          "column-2": 0
+        },
+        "predicted_heading_lines": {
+          "column-1": 4,
+          "column-2": 0
+        },
+        "indent_accuracy": 0.9772727272727273,
+        "typeface_accuracy_on_matching_characters": 0.9721131186174391,
+        "character_error_rate": 0.019926934573231483,
+        "character_accuracy": 0.9800730654267685
+      },
+      {
+        "page_id": "bnf-f0068",
+        "columns": {
+          "column-1": {
+            "canonical_body_lines": 48,
+            "predicted_body_lines": 48,
+            "matched": 48,
+            "missing": 0,
+            "extra": 0,
+            "centre_offset": -1.0
+          },
+          "column-2": {
+            "canonical_body_lines": 41,
+            "predicted_body_lines": 42,
+            "matched": 41,
+            "missing": 0,
+            "extra": 1,
+            "centre_offset": 0
+          }
+        },
+        "matched": 89,
+        "missing": 0,
+        "extra": 1,
+        "indent_correct": 85,
+        "typeface_characters": 2284,
+        "typeface_correct": 2212,
+        "matching_text_characters": 2284,
+        "reference_text_characters": 2748,
+        "text_edit_distance": 136,
+        "canonical_heading_lines": {
+          "column-1": 0,
+          "column-2": 3
+        },
+        "predicted_heading_lines": {
+          "column-1": 0,
+          "column-2": 3
+        },
+        "indent_accuracy": 0.9550561797752809,
+        "typeface_accuracy_on_matching_characters": 0.968476357267951,
+        "character_error_rate": 0.049490538573508006,
+        "character_accuracy": 0.950509461426492
+      },
+      {
+        "page_id": "bnf-f0103",
+        "columns": {
+          "column-1": {
+            "canonical_body_lines": 46,
+            "predicted_body_lines": 47,
+            "matched": 46,
+            "missing": 0,
+            "extra": 1,
+            "centre_offset": 1
+          },
+          "column-2": {
+            "canonical_body_lines": 47,
+            "predicted_body_lines": 47,
+            "matched": 47,
+            "missing": 0,
+            "extra": 0,
+            "centre_offset": 3.5
+          }
+        },
+        "matched": 93,
+        "missing": 0,
+        "extra": 1,
+        "indent_correct": 91,
+        "typeface_characters": 2450,
+        "typeface_correct": 2369,
+        "matching_text_characters": 2450,
+        "reference_text_characters": 2957,
+        "text_edit_distance": 121,
+        "canonical_heading_lines": {
+          "column-1": 1,
+          "column-2": 0
+        },
+        "predicted_heading_lines": {
+          "column-1": 1,
+          "column-2": 0
+        },
+        "indent_accuracy": 0.978494623655914,
+        "typeface_accuracy_on_matching_characters": 0.9669387755102041,
+        "character_error_rate": 0.04091985120054109,
+        "character_accuracy": 0.9590801487994589
+      },
+      {
+        "page_id": "bnf-f0115",
+        "columns": {
+          "column-1": {
+            "canonical_body_lines": 45,
+            "predicted_body_lines": 45,
+            "matched": 45,
+            "missing": 0,
+            "extra": 0,
+            "centre_offset": 4
+          },
+          "column-2": {
+            "canonical_body_lines": 47,
+            "predicted_body_lines": 47,
+            "matched": 47,
+            "missing": 0,
+            "extra": 0,
+            "centre_offset": 2.5
+          }
+        },
+        "matched": 92,
+        "missing": 0,
+        "extra": 0,
+        "indent_correct": 88,
+        "typeface_characters": 2498,
+        "typeface_correct": 2404,
+        "matching_text_characters": 2498,
+        "reference_text_characters": 3035,
+        "text_edit_distance": 84,
+        "canonical_heading_lines": {
+          "column-1": 0,
+          "column-2": 0
+        },
+        "predicted_heading_lines": {
+          "column-1": 1,
+          "column-2": 0
+        },
+        "indent_accuracy": 0.9565217391304348,
+        "typeface_accuracy_on_matching_characters": 0.9623698959167334,
+        "character_error_rate": 0.027677100494233938,
+        "character_accuracy": 0.9723228995057661
+      },
+      {
+        "page_id": "bnf-f0135",
+        "columns": {
+          "column-1": {
+            "canonical_body_lines": 45,
+            "predicted_body_lines": 45,
+            "matched": 45,
+            "missing": 0,
+            "extra": 0,
+            "centre_offset": 1
+          },
+          "column-2": {
+            "canonical_body_lines": 47,
+            "predicted_body_lines": 46,
+            "matched": 46,
+            "missing": 1,
+            "extra": 0,
+            "centre_offset": -12
+          }
+        },
+        "matched": 91,
+        "missing": 1,
+        "extra": 0,
+        "indent_correct": 89,
+        "typeface_characters": 2545,
+        "typeface_correct": 2480,
+        "matching_text_characters": 2545,
+        "reference_text_characters": 3045,
+        "text_edit_distance": 74,
+        "canonical_heading_lines": {
+          "column-1": 1,
+          "column-2": 0
+        },
+        "predicted_heading_lines": {
+          "column-1": 1,
+          "column-2": 0
+        },
+        "indent_accuracy": 0.978021978021978,
+        "typeface_accuracy_on_matching_characters": 0.9744597249508841,
+        "character_error_rate": 0.024302134646962233,
+        "character_accuracy": 0.9756978653530378
+      },
+      {
+        "page_id": "bnf-f0149",
+        "columns": {
+          "column-1": {
+            "canonical_body_lines": 41,
+            "predicted_body_lines": 43,
+            "matched": 41,
+            "missing": 0,
+            "extra": 2,
+            "centre_offset": 5
+          },
+          "column-2": {
+            "canonical_body_lines": 47,
+            "predicted_body_lines": 47,
+            "matched": 47,
+            "missing": 0,
+            "extra": 0,
+            "centre_offset": -0.5
+          }
+        },
+        "matched": 88,
+        "missing": 0,
+        "extra": 2,
+        "indent_correct": 84,
+        "typeface_characters": 2368,
+        "typeface_correct": 2281,
+        "matching_text_characters": 2368,
+        "reference_text_characters": 2832,
+        "text_edit_distance": 151,
+        "canonical_heading_lines": {
+          "column-1": 3,
+          "column-2": 0
+        },
+        "predicted_heading_lines": {
+          "column-1": 3,
+          "column-2": 0
+        },
+        "indent_accuracy": 0.9545454545454546,
+        "typeface_accuracy_on_matching_characters": 0.9632601351351351,
+        "character_error_rate": 0.053319209039548024,
+        "character_accuracy": 0.946680790960452
+      },
+      {
+        "page_id": "bnf-f0160",
+        "columns": {
+          "column-1": {
+            "canonical_body_lines": 41,
+            "predicted_body_lines": 41,
+            "matched": 41,
+            "missing": 0,
+            "extra": 0,
+            "centre_offset": -8.33
+          },
+          "column-2": {
+            "canonical_body_lines": 47,
+            "predicted_body_lines": 47,
+            "matched": 47,
+            "missing": 0,
+            "extra": 0,
+            "centre_offset": 14.5
+          }
+        },
+        "matched": 88,
+        "missing": 0,
+        "extra": 0,
+        "indent_correct": 86,
+        "typeface_characters": 2557,
+        "typeface_correct": 2453,
+        "matching_text_characters": 2557,
+        "reference_text_characters": 3107,
+        "text_edit_distance": 108,
+        "canonical_heading_lines": {
+          "column-1": 4,
+          "column-2": 0
+        },
+        "predicted_heading_lines": {
+          "column-1": 4,
+          "column-2": 0
+        },
+        "indent_accuracy": 0.9772727272727273,
+        "typeface_accuracy_on_matching_characters": 0.959327336722722,
+        "character_error_rate": 0.03476021886063727,
+        "character_accuracy": 0.9652397811393627
+      },
+      {
+        "page_id": "bnf-f0230",
+        "columns": {
+          "column-1": {
+            "canonical_body_lines": 40,
+            "predicted_body_lines": 40,
+            "matched": 40,
+            "missing": 0,
+            "extra": 0,
+            "centre_offset": -25.0
+          },
+          "column-2": {
+            "canonical_body_lines": 47,
+            "predicted_body_lines": 47,
+            "matched": 47,
+            "missing": 0,
+            "extra": 0,
+            "centre_offset": -49
+          }
+        },
+        "matched": 87,
+        "missing": 0,
+        "extra": 0,
+        "indent_correct": 86,
+        "typeface_characters": 2396,
+        "typeface_correct": 2300,
+        "matching_text_characters": 2396,
+        "reference_text_characters": 2809,
+        "text_edit_distance": 43,
+        "canonical_heading_lines": {
+          "column-1": 4,
+          "column-2": 0
+        },
+        "predicted_heading_lines": {
+          "column-1": 4,
+          "column-2": 0
+        },
+        "indent_accuracy": 0.9885057471264368,
+        "typeface_accuracy_on_matching_characters": 0.9599332220367279,
+        "character_error_rate": 0.015307938768244928,
+        "character_accuracy": 0.9846920612317551
+      },
+      {
+        "page_id": "bnf-f0237",
+        "columns": {
+          "column-1": {
+            "canonical_body_lines": 47,
+            "predicted_body_lines": 47,
+            "matched": 47,
+            "missing": 0,
+            "extra": 0,
+            "centre_offset": -49
+          },
+          "column-2": {
+            "canonical_body_lines": 47,
+            "predicted_body_lines": 47,
+            "matched": 47,
+            "missing": 0,
+            "extra": 0,
+            "centre_offset": -48.5
+          }
+        },
+        "matched": 94,
+        "missing": 0,
+        "extra": 0,
+        "indent_correct": 93,
+        "typeface_characters": 2766,
+        "typeface_correct": 2649,
+        "matching_text_characters": 2766,
+        "reference_text_characters": 3242,
+        "text_edit_distance": 16,
+        "canonical_heading_lines": {
+          "column-1": 0,
+          "column-2": 0
+        },
+        "predicted_heading_lines": {
+          "column-1": 0,
+          "column-2": 0
+        },
+        "indent_accuracy": 0.9893617021276596,
+        "typeface_accuracy_on_matching_characters": 0.9577006507592191,
+        "character_error_rate": 0.004935225169648365,
+        "character_accuracy": 0.9950647748303516
+      }
+    ]
+  },
+  "targets": [
+    {
+      "page": 238,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 20
+    },
+    {
+      "page": 239,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 27
+    },
+    {
+      "page": 240,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 7
+    },
+    {
+      "page": 241,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 0,
+      "initial_repairs": 26
+    },
+    {
+      "page": 242,
+      "body_lines": 92,
+      "heading_lines": 1,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 10
+    },
+    {
+      "page": 243,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 0,
+      "initial_repairs": 29
+    },
+    {
+      "page": 244,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 5
+    },
+    {
+      "page": 245,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 5
+    },
+    {
+      "page": 246,
+      "body_lines": 95,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 8
+    },
+    {
+      "page": 247,
+      "body_lines": 94,
+      "heading_lines": 0,
+      "uncertain_bottom_rows": 1,
+      "initial_repairs": 7
+    }
+  ]
+}
