@@ -280,6 +280,34 @@ def corrected_runs(
             del runs[index : index + 2]
             continue
         index += 1
+    # A named far-right cell has one stable span ID and the compact Markdown
+    # format represents it as one typeface run. If a typeface-only correction
+    # excludes an invisible leading or trailing space, absorb that space into
+    # the visible neighbor rather than serializing the same span ID twice.
+    index = 0
+    while index < len(runs) - 1:
+        left = runs[index]
+        right = runs[index + 1]
+        left_style = {
+            key: value for key, value in left.items() if key not in {"text", "typeface"}
+        }
+        right_style = {
+            key: value for key, value in right.items() if key not in {"text", "typeface"}
+        }
+        if (
+            left.get("span_id")
+            and left.get("span_id") == right.get("span_id")
+            and left_style == right_style
+        ):
+            if left["text"].isspace():
+                right["text"] = left["text"] + right["text"]
+                del runs[index]
+                continue
+            if right["text"].isspace():
+                left["text"] += right["text"]
+                del runs[index + 1]
+                continue
+        index += 1
     return runs
 
 

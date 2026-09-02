@@ -222,6 +222,35 @@ class CorrectionIssueProcessorTests(unittest.TestCase):
             ],
         )
 
+    def test_typeface_override_keeps_named_far_right_span_serializable(self):
+        line = {
+            "id": "c2-l044",
+            "runs": [
+                {"typeface": "italic", "text": "o poo."},
+                {
+                    "typeface": "roman",
+                    "text": " X.",
+                    "placement": "far-right",
+                    "span_id": "usage",
+                },
+            ],
+        }
+        text, roman_ranges, italic_ranges = parse_correction_notation(
+            "o poo. {X.}"
+        )
+        self.assertEqual(
+            corrected_runs(line, text, roman_ranges, italic_ranges),
+            [
+                {"typeface": "italic", "text": "o poo."},
+                {
+                    "typeface": "italic",
+                    "text": " X.",
+                    "placement": "far-right",
+                    "span_id": "usage",
+                },
+            ],
+        )
+
     def test_export_treats_whitespace_only_italic_run_as_plain_space(self):
         page = {
             "format": "nippo-level1-page",
