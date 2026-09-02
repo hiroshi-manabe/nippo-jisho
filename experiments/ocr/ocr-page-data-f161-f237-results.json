@@ -1,0 +1,54 @@
+{
+  "experiment": "ocr-page-data-f161-f237-v1",
+  "date": "2026-09-02",
+  "scope": {
+    "first_page": 161,
+    "last_page": 237,
+    "pages": 77,
+    "body_lines": 7261,
+    "human_review": "pending"
+  },
+  "method": {
+    "segmentation": "Kraken 5.2.9 bundled blla.mlmodel",
+    "recognition": "Calamari book-specific antiquatype model",
+    "checkpoint": ".cache/ocr-model/runs/calamari-antiqua-book-codec-v1/best.ckpt",
+    "independence": "Raw drafts are written before current transcription and saved geometry are opened",
+    "association": "Post-inference text/order alignment to stable physical-line IDs, checked against scan position",
+    "typeface": "Character-alignment projection from existing structural data",
+    "geometry": "Existing browser-review rectangles retained",
+    "quarantine_threshold": 0.35
+  },
+  "application": {
+    "matched_and_applied_or_exact": 7221,
+    "changed_lines": 4212,
+    "exact_lines": 3009,
+    "unmatched_lines": 0,
+    "rectified_route_lines": 20,
+    "saved_geometry_fallback_lines": 7,
+    "quarantined_lines": 17,
+    "preserved_structural_lines": 23,
+    "structural_review_required_pages": 0
+  },
+  "raw_reviewed_benchmark": {
+    "pages": [14, 18, 47, 68, 103, 115, 135, 149, 160],
+    "canonical_body_lines": 816,
+    "detected_body_lines": 814,
+    "line_detection_recall": 0.9975490196078431,
+    "character_error_rate": 0.07822338830584707,
+    "exact_line_rate": 0.5036855036855037,
+    "qualification": "The aggregate is inflated by a position-only comparison failure at f160's internal section transition; the other eight pages range from 1.26% to 4.54% CER."
+  },
+  "previous_provisional_text_comparison": {
+    "interpretation": "Disagreement, not accuracy, because f161-f237 had not been human checked",
+    "matched_lines": 7253,
+    "character_edit_rate": 0.03724389456081316,
+    "exact_line_rate": 0.4138976975044809
+  },
+  "artifacts": {
+    "builder": "scripts/build_ocr_page_data.py",
+    "raw_draft_builder": "scripts/prepare_calamari_page_drafts.py",
+    "application_manifest": "pilot/human-review/ocr-page-baseline.json",
+    "local_detailed_audit": ".cache/ocr-model/ocr-page-data-v1/page-data-audit-preapply.json"
+  },
+  "conclusion": "Suitable as a provisional baseline for human-unreviewed structured pages; human scan review remains mandatory."
+}

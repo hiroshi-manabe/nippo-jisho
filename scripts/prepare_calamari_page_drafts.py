@@ -14,6 +14,7 @@ from __future__ import annotations
 
 import argparse
 from collections import Counter
+from concurrent.futures import ThreadPoolExecutor
 import hashlib
 import json
 from pathlib import Path
@@ -162,10 +163,15 @@ def split_candidates(segmentation: dict, image_size: tuple[int, int]) -> dict[st
 
 def ensure_segmentations(page_numbers: list[int], args: argparse.Namespace) -> None:
     args.segmentation.mkdir(parents=True, exist_ok=True)
+    pending = []
     for number in page_numbers:
         output = args.segmentation / f"f{number:04d}.json"
         if output.exists() and not args.fresh_segmentation:
             continue
+        pending.append(number)
+
+    def segment(number: int) -> None:
+        output = args.segmentation / f"f{number:04d}.json"
         scan = args.scans / f"f{number:04d}.jpg"
         if not scan.exists():
             raise FileNotFoundError(scan)
@@ -175,6 +181,12 @@ def ensure_segmentations(page_numbers: list[int], args: argparse.Namespace) -> N
             ),
             check=True,
         )
+
+    # Each Kraken invocation owns one independent page and output file.  A
+    # small process pool avoids making dictionary-wide initialization needlessly
+    # serial while keeping memory use bounded on ordinary laptops.
+    with ThreadPoolExecutor(max_workers=args.segmentation_workers) as executor:
+        list(executor.map(segment, pending))
 
 
 def ensure_extracted(page_numbers: list[int], args: argparse.Namespace) -> None:
@@ -271,6 +283,21 @@ def run_calamari(records: list[dict], args: argparse.Namespace) -> None:
     expected_manifest = {
         record["prepared_image"]: record["prepared_sha256"] for record in records
     }
+    expected_prepared_names = {
+        Path(record["prepared_image"]).name for record in records
+    }
+    expected_prediction_names = {
+        path.name for path in prediction_paths.values()
+    }
+    # Both Calamari inputs are directory globs. Remove stale intermediates from
+    # earlier page selections so a smaller rerun cannot silently recognize and
+    # retain rows outside its manifest.
+    for path in args.prepared.glob("*.png"):
+        if path.name not in expected_prepared_names:
+            path.unlink()
+    for path in args.predictions.glob("*.pred.txt"):
+        if path.name not in expected_prediction_names:
+            path.unlink()
     manifest_path = args.predictions / "manifest.json"
     stored_manifest = load_json(manifest_path) if manifest_path.exists() else None
     cache_is_current = (
@@ -710,6 +737,7 @@ def parser() -> argparse.ArgumentParser:
     result.add_argument("--scan-band-height", type=int, default=72)
     result.add_argument("--batch-size", type=int, default=32)
     result.add_argument("--num-processes", type=int, default=2)
+    result.add_argument("--segmentation-workers", type=int, default=3)
     result.add_argument("--fresh-segmentation", action="store_true")
     result.add_argument("--fresh-recognition", action="store_true")
     return result

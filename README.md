@@ -37,7 +37,7 @@ The project has also acquired NINJAL's CC BY 4.0 [Nippo Jisho Headword Data](doc
 
 The private [experimental recognition engine](docs/ocr-model.md) turns reviewed `f13`–`f150` line images into a page-disjoint training benchmark. Its selected book-specific Calamari model reaches 3.30% diplomatic character error on untouched test pages, improving substantially on the earlier TrOCR experiments while still requiring scan-based human review. The calibrated [OCR-Assisted Reading Policy](docs/ocr-assisted-reading.md) uses locally aligned feature evidence rather than treating whole-line OCR as an authority.
 
-The experimental [Calamari Page-Draft Pipeline](docs/calamari-page-drafts.md) now tests that recognizer in a genuinely page-first setting: blind line segmentation, native-scan line crops, raw OCR drafts, and a comparison layer that is opened only after inference. Its first f161–f170 trial is diagnostic output, not a replacement for the human-review workflow.
+The [Calamari Page-Draft Pipeline](docs/calamari-page-drafts.md) tests that recognizer in a genuinely page-first setting: blind line segmentation, native-scan line crops, raw OCR drafts, and a comparison layer opened only after inference. The audited [OCR-to-Level-1 bridge](docs/ocr-page-data.md) now uses those independent drafts as the provisional reading baseline for human-unreviewed f161–f237 while retaining stable structure, browser geometry, explicit quarantines, and mandatory human review.
 
 ## Working principles
 
@@ -53,4 +53,4 @@ The completed [Transcription-Format Pilot](docs/transcription-format-pilot.md) s
 
 ## Current status
 
-The project is currently in **Level 1 production validation**. The format has been adopted, `f14` has completed human review, and sequential scan-confirmed transcription now runs through `f237`; later human correction remains an expected part of the workflow. See [Project Status](STATUS.md) for the current focus.
+The project is currently in **Level 1 production validation**. The format has been adopted, `f14` has completed human review, and sequential structured transcription now runs through `f237`; f161–f237 use a reproducible independent-OCR baseline and remain pending human correction. See [Project Status](STATUS.md) for the current focus.

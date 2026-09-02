@@ -1,18 +1,20 @@
 # Project Status
 
-Last updated: 2026-08-30
+Last updated: 2026-09-02
 
 ## Current phase
 
 **Level 1 format adopted — sequential production validation**
 
-The transcription-format pilot is complete. The project adopted Level 1 Markdown format version 1 after a six-page corpus test and a timed two-page simulation on previously untranscribed consecutive pages. Sequential Stage 1 production now includes `f15`–`f237`, following human confirmation of the revised `f14`; normal bounded drafting is being scaled while independent human correction remains essential.
+The transcription-format pilot is complete. The project adopted Level 1 Markdown format version 1 after a six-page corpus test and a timed two-page simulation on previously untranscribed consecutive pages. Sequential Stage 1 production now includes `f15`–`f237`, following human confirmation of the revised `f14`; normal bounded drafting is being scaled while independent human correction remains essential. The still-unreviewed `f161`–`f237` readings have now been reinitialized from independent book-specific OCR rather than inherited visual drafts.
 
 The detailed purpose, method, and completion criteria are defined in the [Transcription-Format Pilot](docs/transcription-format-pilot.md).
 
 The complete native-resolution Gallica image sequence has been acquired and checksum-verified. The result is recorded in [Acquisition Summary](sources/acquisition-summary.yaml). A separate [Cloudflare scan-image mirror](docs/image-mirror.md) publishes every native leaf together with 1000px and 2200px derivatives for stable review-interface delivery; Gallica remains the canonical source and numbering authority. Image delivery does not change the transcription pilot’s current checkpoint.
 
 The external-AI geometry-and-text delegation experiment is formally retired. Returned reviews, superseded returns, matching task inputs for `f31`–`f125`, and the protocol/import documentation remain as a [legacy provenance archive](pilot/human-review/ai-geometry-work/README.md). Unused prepared assignments and image ZIPs outside that returned-review range were deleted. New pages now use project-side line-by-line transcription and geometry capture; later human correction continues through the public review interface and GitHub Issues.
+
+An audited [OCR-to-Level-1 bridge](docs/ocr-page-data.md) now constructs provisional text for structured human-unreviewed pages while protecting reviewed pages and retaining stable zones, physical-line IDs, typeface scaffolding, displaced fragments, and browser geometry. Its first application covered all 7,261 body lines on `f161`–`f237`: 4,212 readings changed, 3,009 already agreed exactly, 17 high-change OCR readings were quarantined, and 23 structural rows were deliberately preserved. The resulting pages remain `visual_draft`; the OCR baseline improves initialization but does not replace general visual inspection or human comparison.
 
 The first timed second-pass trial is complete. The [Tiled Visual Review Pilot](docs/tiled-visual-review.md) now records overlapping quarter-column and sixth-column views as a workable review method, and the page-level evidence is preserved in the [bnf-f0248 Second Visual Pass](pilot/second-pass/bnf-f0248.md). A revised [Pilot Diacritic Audit](pilot/diacritic-audit.md) distinguishes 30 carons, five genuine circumflexes, one grave accent, and one unmarked form among 37 flagged occurrences across two frozen pages.
 
@@ -108,7 +110,7 @@ The initial site exposed a browser-positioning defect and the inadequacy of even
 
 ## Current objective
 
-Continue normal bounded drafting from `f238`, while human checking proceeds independently on `f17`–`f237` and the corrected `f16` and `f15` columns await recheck. The immediate objective is repeatable quality control supporting:
+Use the reproducible OCR initializer for new structured pages from `f238`, while human checking proceeds independently on `f17`–`f237` and the corrected `f16` and `f15` columns await recheck. The immediate objective is repeatable quality control supporting:
 
 1. A page-oriented reading and verification view
 2. Efficient source-faithful editing in physical order
@@ -132,7 +134,7 @@ Continue normal bounded drafting from `f238`, while human checking proceeds inde
 
 ## Production progress
 
-The Level 1 corpus contains 229 complete pages and 22,380 physical lines. `f14` is human-checked; sequential `f15` and `f16` have both been corrected after human comparison and their columns await recheck; `f17`–`f237` are scan-confirmed and await human comparison. `f249` and `f250` retain the earlier production `scan_confirmed` status but should be re-evaluated against the revised procedure. The other 422 acquired leaves appear as `unprocessed` in the review UI.
+The Level 1 corpus contains 229 complete pages and 22,380 physical lines. `f14` is human-checked; sequential `f15` and `f16` have both been corrected after human comparison and their columns await recheck; `f17`–`f160` are scan-confirmed drafts awaiting human comparison; and `f161`–`f237` are OCR-initialized visual drafts awaiting both general visual inspection and human comparison. `f249` and `f250` retain the earlier production `scan_confirmed` status but should be re-evaluated against the revised procedure. The other 422 acquired leaves appear as `unprocessed` in the review UI.
 
 ## Next phase
 

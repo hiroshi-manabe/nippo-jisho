@@ -25,16 +25,17 @@ opened. Comparison happens afterward:
 
 - reviewed benchmark pages use monotonic scan-position alignment, with OCR text
   excluded from row association;
-- f161–f170 use monotonic text/order alignment only after the independent draft
-  exists, because their current text and geometry are both still unreviewed.
+- human-unreviewed target pages use monotonic text/order alignment only after
+  the independent draft exists. The existing text may help recover stable
+  physical-line IDs, but it never enters recognition.
 
 The latter is a disagreement measurement, not an accuracy score. The complete
 local comparison retains every aligned reading and every unmatched detection.
 
 ## Reproduction
 
-The default command processes the fourteen page-disjoint OCR test pages and
-f161–f170:
+The default command remains the original fourteen page-disjoint OCR test pages
+and f161–f170 diagnostic trial:
 
 ```sh
 python3 scripts/prepare_calamari_page_drafts.py
@@ -83,10 +84,17 @@ typeface remains absent, extra detections remain, two benchmark rows were
 missed, terminal hyphens and marked vowels still need targeted checking, and
 the new F-section glyph distribution is partly out of the training domain.
 
-The intended route is therefore:
+The production bridge now implements the following route:
 
 1. generate the independent page draft;
-2. let general-purpose visual AI inspect the scan and reconcile structure,
-   typeface, and difficult readings;
-3. publish the resulting page to the existing human review interface;
-4. treat human corrections as the final authority and future training data.
+2. associate its physical rows with stable IDs only after inference;
+3. retain the existing structural and browser-geometry evidence, quarantine
+   suspicious replacements, and validate the compact Level 1 result;
+4. let general-purpose visual AI inspect difficult readings and structure;
+5. publish the provisional page to the existing human review interface;
+6. treat human corrections as the final authority and future training data.
+
+The implementation, safeguards, f161–f237 application, and newer benchmark are
+documented in [OCR-initialized Level 1 page data](ocr-page-data.md). The first
+f161–f170 trial remains useful historical evidence, but is no longer the latest
+application result.
