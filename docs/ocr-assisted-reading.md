@@ -28,6 +28,31 @@ transcriber investigates plausible readings, not what Level 1 is allowed to
 record. Later explicit human scan confirmation supersedes every machine
 preference.
 
+### Weight evidence by what the disagreement represents
+
+Do not give OCR or linguistic expectation one undifferentiated priority. First
+classify the disputed feature:
+
+- For a **graphemic or lexical choice that can change the reading**, such as
+  `f` versus `ſ`, use the complete Japanese or Portuguese word, morphology,
+  gloss, neighboring entries, and relevant NINJAL headword evidence to form the
+  leading hypothesis. OCR is supporting evidence here, because a locally
+  plausible glyph error can create a different word. Reinspect the enlarged
+  scan for that hypothesis and retain an unmistakably printed anomaly.
+- For a **diplomatic distinction that ordinarily leaves the reading
+  unchanged**, such as short `s` versus long `ſ`, the presence of a physical
+  line-end hyphen, or exact printed spacing and punctuation, give a locally
+  aligned OCR result greater presumptive weight. Linguistic normalization has
+  little or no power to recover these choices and can easily erase genuine
+  typography. Keep the OCR form unless the complete scan supplies positive
+  contrary evidence.
+
+This is a rebuttable ordering rule, not automatic substitution. OCR receives
+no such presumption when its crop is clipped, assigned to the wrong row, or its
+surrounding token is garbled. NINJAL can support headword identity and lexical
+sequence, but its normalized spelling cannot adjudicate `s`/`ſ`, line-end
+division marks, spacing, or other diplomatic detail.
+
 ## Reversible terminal-hyphen proposals
 
 Beginning with the `f154`–`f160` review batch, a narrowly qualified OCR
@@ -149,9 +174,10 @@ For each prepared page:
 4. Extract atomic alternatives only where the surrounding token or line is
    recognizable. Record the line ID, geometry version, feature, OCR proposal,
    and which rendering supported it.
-5. Apply the feature-specific priorities above to the **default reading**.
-   Disagreement, low local alignment, or a weak feature becomes an explicit
-   enlargement prompt rather than an automatic change.
+5. Classify each disagreement as meaning-bearing or primarily diplomatic, then
+   apply the evidence-weighting rule and feature-specific priorities above to
+   the **default reading**. Disagreement, low local alignment, or a weak feature
+   becomes an explicit enlargement prompt rather than an automatic change.
 6. Cluster repeated equivalent disagreements across the page. A stable
    recurring pattern may outweigh a mistaken existing transcription even when
    isolated instances of that feature are unreliable.

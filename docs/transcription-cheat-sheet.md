@@ -6,6 +6,16 @@ This is the short, daily-use layer of the project's linguistic reference. It sup
 
 **Let linguistic knowledge tell you where to look again; let the enlarged scan decide what to write.** The printing contains variation, anomalies, and errors. A plausible Japanese or Portuguese form is not permission to repair the source.
 
+When revising an OCR-based draft, distinguish two kinds of disagreement. For a
+letter choice that can change the word—especially `f` versus `ſ`—lead with the
+Japanese or Portuguese reading, the bilingual context, and relevant NINJAL
+headword evidence, then verify that hypothesis in the scan. For a primarily
+diplomatic choice that normally leaves the reading unchanged—especially short
+`s` versus long `ſ`, a physical line-end hyphen, spacing, or punctuation—retain
+the locally aligned OCR form by default and change it only on positive scan
+evidence. This preference does not rescue garbled OCR or incomplete crops, and
+the scan remains authoritative in both classes.
+
 For a human correction Issue, use a stricter anti-anchoring order: hide or mentally discard the current reading; first parse the proposed Japanese and Portuguese in context; list the plausible forms; only then inspect the scan. The proposal leads when it is linguistically coherent and the image is compatible. Keep the old reading only with positive contrary visual evidence, not because it remains possible on a second look. Clear printed anomalies still remain literal. If machine review produces a third, qualified form rather than the exact submitted correction, stop for human confirmation instead of silently applying it.
 
 In a correction proposal only, an adjacent `*` immediately before or after a word with one tilde and one unambiguous adjacent-vowel alternative means “move the tilde to the other vowel; change nothing else”: `*mãos` or `mãos*` → `maõs`; `*dalguã` or `dalguã*` → `dalgũa`. Remove the marker when applying the correction. Write the intended form explicitly if more than two carriers are plausible or the word contains multiple tildes.
