@@ -101,7 +101,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l027` | &emsp;ru. *¶ Item, Adeuinhar lançando ſor-* |  |
 | `c2-l028` | &emsp;*tes, &c.* |  |
 | `c2-l029` | Fanjin. Mino fanbun. *A metade do corpo.* |  |
-| `c2-l030` | &emsp;*Vt,* Chùbude fanjin canauanu. *Não po* |  |
+| `c2-l030` | &emsp;*Vt,* Chǔbude fanjin canauanu. *Não po* |  |
 | `c2-l031` | &emsp;*der menear meo corpo por doença de parleſia.* |  |
 | `c2-l032` | Fanjit. *A metade de hũ dia.* |  |
 | `c2-l033` | Fanjǒ. Xigueri ſacayuru. *Multiplicação.* |  |
