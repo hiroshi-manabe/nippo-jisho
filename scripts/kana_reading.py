@@ -78,7 +78,13 @@ def transliterate_token(token: str) -> str | None:
             if index == 0 and vowel_at(text, index + 1): index += 1; continue
             if index == 0: output.append("ウ"); index += 1; continue
             consonant, index = "w", index + 1
-        elif text[index] in ROWS: consonant, index = text[index], index + 1
+        elif text[index] in ROWS:
+            consonant, index = text[index], index + 1
+            # As in contemporary Portuguese spelling, the u in Japanese
+            # ``gue``/``gui`` is normally orthographic rather than a separate
+            # vowel: Xiraſagui is *shirasagi*, not *shirasagui*.
+            if consonant == "g" and index + 1 < len(text) and text[index] == "u" and text[index + 1] in "ie":
+                index += 1
         elif (vowel := vowel_at(text, index)):
             output.extend((VOWELS[vowel[0]], vowel[1])); index += 1; continue
         else:
