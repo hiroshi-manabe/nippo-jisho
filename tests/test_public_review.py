@@ -502,6 +502,19 @@ equal(q.align('foo, bar.', 'foo bar.').deletions.map(item => [item.character, it
         self.assertIn("{ schema: 3, page: page.view", app)
         self.assertIn("Any nonempty message requires AI inspection", workflow)
 
+    def test_collapsed_lines_show_messages_and_copy_full_references(self):
+        app = (ROOT / "site" / "app.js").read_text(encoding="utf-8")
+        styles = (ROOT / "site" / "styles.css").read_text(encoding="utf-8")
+        self.assertIn('class="annotation-preview message-preview"', app)
+        self.assertIn("<span>Message to AI</span>", app)
+        self.assertIn("<span>Comment</span>", app)
+        self.assertIn('data-copy-line-reference=', app)
+        self.assertIn("const reference = `${page.view}/${line.id}`", app)
+        self.assertIn("async function copyLineReference(control)", app)
+        self.assertIn("void copyLineReference(referenceButton)", app)
+        self.assertIn(".message-preview", styles)
+        self.assertIn(".copy-line-reference", styles)
+
     def test_page_view_has_explicit_overview_control(self):
         app = (ROOT / "site" / "app.js").read_text(encoding="utf-8")
         document = (ROOT / "site" / "index.html").read_text(encoding="utf-8")

@@ -28,6 +28,12 @@ The page view retains full-page and column context, but the physical line is the
 
 The sticky page-navigation bar includes an explicit **← All pages** button. The project title also returns to the overview, but it is not the sole or implicit way out of an individual page.
 
+Every displayed physical-line ID has a compact copy control beside it.  The
+control copies the page-qualified stable reference, such as
+`f126/c2-l039`, so a reviewer can cite the location in chat or research notes
+without reconstructing the leaf number manually.  It is available in both the
+column cards and the continuous page view and does not open the line editor.
+
 Column views also form one continuous review sequence over all reviewable material: a page's column 1 is followed by its column 2, then by column 1 of the next canonical or provisional page. **Previous column** and **Next column** controls appear above the line list and repeat after its final line, where the reviewer naturally decides whether to continue. Moving between columns opens the target at its beginning rather than retaining the previous column's scroll position. Full-page, furniture, and scan-only views do not show these controls; the ordinary page arrows remain independent.
 
 Unchanged rows remain compact. Clicking the transcription opens an editor containing:
@@ -41,7 +47,7 @@ Unchanged rows remain compact. Clicking the transcription opens an editor contai
 
 The durable note belongs to the Level 1 line annotation and may record linguistic reasoning, uncertainty, damage, or another lasting observation. The Message to AI belongs only to the review workspace and correction Issue. Any nonempty message requires AI inspection; there is no separate second-opinion checkbox. The processor mechanically applies settled rows, pauses on messaged rows, and never promotes a temporary message into the durable note without an explicit note change.
 
-In compact form, the durable note occupies its own full-width row below the transcription and wraps normally. This keeps both the diplomatic line and a substantial linguistic note readable without opening the editor. The note remains a button that opens the complete editor. A temporary message receives a distinct AI-attention marker, and the annotation remains visually secondary to the source text.
+In compact form, the durable note occupies its own full-width row below the transcription and wraps normally. This keeps both the diplomatic line and a substantial linguistic note readable without opening the editor. The note remains a button that opens the complete editor. A temporary message is also shown while the editor is collapsed, in its own separately labelled row rather than being reduced to an attention marker or merged with the durable note. Both rows remain visually secondary to the source text, and either reopens the complete editor.
 
 ## Transcription reference panel
 
