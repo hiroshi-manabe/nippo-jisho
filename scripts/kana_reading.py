@@ -51,6 +51,7 @@ def transliterate_token(token: str) -> str | None:
     output: list[str] = []
     index = 0
     while index < len(text):
+        orthographic_u_after_g = False
         if text.startswith("qua", index):
             output.append("クヮ")
             index += 3
@@ -116,6 +117,7 @@ def transliterate_token(token: str) -> str | None:
             # vowel: Xiraſagui is *shirasagi*, not *shirasagui*.
             if consonant == "g" and index + 1 < len(text) and text[index] == "u" and text[index + 1] in "ie":
                 index += 1
+                orthographic_u_after_g = True
         elif (vowel := vowel_at(text, index)):
             output.extend((VOWELS[vowel[0]], vowel[1])); index += 1; continue
         else:
@@ -134,7 +136,10 @@ def transliterate_token(token: str) -> str | None:
                 # Jesuit ``gi`` before another vowel represents the
                 # historical voiced palatal series, as in ``cotogia``
                 # (ことぢゃ), rather than modern Hepburn-style gi + a/u/o.
-                base = "ヂ" if consonant == "g" else ROWS[consonant][1]
+                # Plain ``gio`` belongs to the historical voiced palatal
+                # series represented here as ヂョ, but Portuguese-style
+                # ``guio`` has an orthographic silent u and represents ギョ.
+                base = "ヂ" if consonant == "g" and not orthographic_u_after_g else ROWS[consonant][1]
                 output.extend((base, small, following[1])); index += 2; continue
         vowel = vowel_at(text, index)
         if not vowel:
@@ -155,15 +160,33 @@ def transliterate_token(token: str) -> str | None:
 
 def reading_tokens(text: str) -> list[str]:
     tokens = TOKEN_RE.findall(text)
-    return [
-        token for token in tokens
-        if re.sub(r"[^a-z]", "", normalized(token)) not in LABELS
-    ]
+    result: list[str] = []
+    for index, token in enumerate(tokens):
+        key = re.sub(r"[^a-z]", "", normalized(token))
+        # In the attested ``guio i. i.`` sequence, the first standalone i is
+        # the final mora of Japanese *gyoi* (御衣); the second i. is the
+        # dictionary abbreviation and falls in the next period-delimited
+        # phrase.  Keep only the narrowly contextual Japanese occurrence.
+        japanese_gyoi_i = (
+            key == "i"
+            and index > 0
+            and normalized(tokens[index - 1]).endswith("guio")
+        )
+        if key not in LABELS or japanese_gyoi_i:
+            result.append(token)
+    return result
 
 
 def phrase_hint(text: str) -> str | None:
     tokens = reading_tokens(text)
-    readings = [transliterate_token(token) for token in tokens]
+    readings = [
+        "イ"
+        if normalized(token) == "i"
+        and index > 0
+        and normalized(tokens[index - 1]).endswith("guio")
+        else transliterate_token(token)
+        for index, token in enumerate(tokens)
+    ]
     if not tokens or any(reading is None for reading in readings):
         return None
     phrase = " ".join(tokens)

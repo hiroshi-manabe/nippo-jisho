@@ -245,6 +245,7 @@ class PublicReviewRegressionTests(unittest.TestCase):
         self.assertEqual(transliterate_token("Iixet"), "イイセッ")
         self.assertEqual(transliterate_token("Quǒguenuo"), "クオゥゲンヲ")
         self.assertEqual(transliterate_token("cotogia"), "コトヂャ")
+        self.assertEqual(transliterate_token("guio"), "ギョ")
         self.assertIsNone(transliterate_token("i"))
         self.assertIsNone(transliterate_token("Vt"))
         self.assertIsNone(reading_hint([{"typeface": "roman", "text": "i."}]))
@@ -261,6 +262,12 @@ class PublicReviewRegressionTests(unittest.TestCase):
         self.assertEqual(
             reading_hint([{"typeface": "roman", "text": "i, Cami."}]),
             "Cami/カミ",
+        )
+        self.assertEqual(
+            reading_hint([
+                {"typeface": "roman", "text": "Conriôno guio i. i. Vǒno gofucu."},
+            ]),
+            "Conriôno guio i/コンリョゥノ ギョ イ, Vǒno gofucu/オゥノ ゴフク",
         )
         self.assertEqual(
             reading_hint([
