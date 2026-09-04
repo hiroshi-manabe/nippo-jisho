@@ -41,7 +41,7 @@ Unchanged rows remain compact. Clicking the transcription opens an editor contai
 
 The durable note belongs to the Level 1 line annotation and may record linguistic reasoning, uncertainty, damage, or another lasting observation. The Message to AI belongs only to the review workspace and correction Issue. Any nonempty message requires AI inspection; there is no separate second-opinion checkbox. The processor mechanically applies settled rows, pauses on messaged rows, and never promotes a temporary message into the durable note without an explicit note change.
 
-In compact form, the durable note uses the horizontal space remaining to the right of the usually short transcription. A note that does not fit is truncated with an ellipsis, with its complete text available on click or focus. A temporary message receives a distinct AI-attention marker. On narrow screens these annotations move below the transcription and remain visually secondary to the source text.
+In compact form, the durable note occupies its own full-width row below the transcription and wraps normally. This keeps both the diplomatic line and a substantial linguistic note readable without opening the editor. The note remains a button that opens the complete editor. A temporary message receives a distinct AI-attention marker, and the annotation remains visually secondary to the source text.
 
 ## Transcription reference panel
 
