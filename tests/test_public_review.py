@@ -253,6 +253,14 @@ class PublicReviewRegressionTests(unittest.TestCase):
             ]),
             "Facuran/ハクラン, Firoqu miru/ヒロク ミル",
         )
+        self.assertEqual(
+            reading_hint([
+                {"typeface": "roman", "text": "qu."},
+                {"typeface": "italic", "text": " Cuſpir. ¶"},
+                {"typeface": "roman", "text": " Goncu, l, cuuo fa-"},
+            ], leading_roman_continuation=True),
+            "Goncu cuuo fa/ゴンク クヲ ハ",
+        )
         app = (ROOT / "site" / "app.js").read_text(encoding="utf-8")
         self.assertIn("line.reading_hint", app)
         self.assertIn("Automatic reading unavailable", app)

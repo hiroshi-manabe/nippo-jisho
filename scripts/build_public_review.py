@@ -194,7 +194,20 @@ def processed_page(
         span = zone_config.get("line_span_percent", [5.8, 95.8])
         overrides = zone_config.get("line_crop_overrides", {})
         for index, line in enumerate(zone.get("lines", [])):
-            generated_reading = reading_hint(line["runs"])
+            previous_line = zone["lines"][index - 1] if index else None
+            previous_runs = previous_line.get("runs", []) if previous_line else []
+            current_runs = line.get("runs", [])
+            leading_roman_continuation = bool(
+                previous_runs
+                and current_runs
+                and previous_runs[-1].get("typeface") == "roman"
+                and current_runs[0].get("typeface") == "roman"
+                and previous_runs[-1].get("text", "").rstrip().endswith("-")
+            )
+            generated_reading = reading_hint(
+                current_runs,
+                leading_roman_continuation=leading_roman_continuation,
+            )
             has_roman_words = any(
                 run.get("typeface") == "roman"
                 and re.search(r"[A-Za-zÀ-žǍ-ǔſç]", run.get("text", ""))
