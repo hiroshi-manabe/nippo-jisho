@@ -39,6 +39,12 @@ The private [experimental recognition engine](docs/ocr-model.md) turns reviewed 
 
 The [Calamari Page-Draft Pipeline](docs/calamari-page-drafts.md) tests that recognizer in a genuinely page-first setting: blind line segmentation, native-scan line crops, raw OCR drafts, and a comparison layer opened only after inference. The audited [OCR-to-Level-1 bridge](docs/ocr-page-data.md) now uses those independent drafts as the provisional reading baseline for human-unreviewed f161–f237 while retaining stable structure, browser geometry, explicit quarantines, and mandatory human review.
 
+The [dictionary-wide OCR layout evidence plan](docs/ocr-layout-evidence.md)
+preserves raw baselines, polygons, recognition, and scan provenance separately
+from both Level 1 text and human-review rectangles.  It is the reproducible
+input to the geometry-improvement campaign, especially for `f171`–`f237` and
+older reconstructed geometry.
+
 The experimental [Scan-first Level 1 Bootstrap](docs/ocr-scan-bootstrap.md) now supplies the missing step for leaves with no existing structure. Its dictionary-wide run generated all 392 requested candidates for f251–f642 and passed a 14-page held-out gate at 99.92% body-row recall, 99.61% precision, and 97.14% diplomatic character accuracy. Together with the earlier f238–f247 batch, all previously unstructured dictionary leaves in that span now have self-contained machine-provisional page data. Page furniture, enlarged initials, complete line geometry, and the transcription itself remain mandatory visual-review gates before those candidates can enter the canonical corpus.
 
 ## Working principles
