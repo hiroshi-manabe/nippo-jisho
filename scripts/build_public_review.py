@@ -17,9 +17,9 @@ import unicodedata
 import markdown
 
 try:
-    from scripts.kana_reading import reading_hint
+    from scripts.kana_reading import reading_hint, reading_hint_applicable
 except ModuleNotFoundError:  # Direct execution places scripts/ on sys.path.
-    from kana_reading import reading_hint
+    from kana_reading import reading_hint, reading_hint_applicable
 
 
 ARK = "ark:/12148/bpt6k852354j"
@@ -196,11 +196,7 @@ def processed_page(
         overrides = zone_config.get("line_crop_overrides", {})
         for index, line in enumerate(zone.get("lines", [])):
             generated_reading = reading_hint(line["runs"])
-            has_roman_words = any(
-                run.get("typeface") == "roman"
-                and re.search(r"[A-Za-zÀ-žǍ-ǔſç]", run.get("text", ""))
-                for run in line["runs"]
-            )
+            has_roman_words = reading_hint_applicable(line["runs"])
             output_line = {
                 "id": line["id"],
                 "indent": line.get("indent", 0),

@@ -216,7 +216,11 @@ class PublicReviewRegressionTests(unittest.TestCase):
         self.assertIn(".character-palette", styles)
 
     def test_automatic_kana_guide_is_build_generated_and_dictionary_aware(self):
-        from scripts.kana_reading import reading_hint, transliterate_token
+        from scripts.kana_reading import (
+            reading_hint,
+            reading_hint_applicable,
+            transliterate_token,
+        )
 
         self.assertEqual(transliterate_token("Aqiraca"), "アキラカ")
         self.assertEqual(transliterate_token("Fanauo"), "ハナヲ")
@@ -244,6 +248,16 @@ class PublicReviewRegressionTests(unittest.TestCase):
         self.assertIsNone(transliterate_token("i"))
         self.assertIsNone(transliterate_token("Vt"))
         self.assertIsNone(reading_hint([{"typeface": "roman", "text": "i."}]))
+        self.assertFalse(
+            reading_hint_applicable([
+                {"typeface": "italic", "text": "¶ Itẽ, Hum grude que fazem de arroz."},
+                {"typeface": "roman", "text": " X"},
+                {"typeface": "italic", "text": "."},
+            ])
+        )
+        self.assertTrue(
+            reading_hint_applicable([{"typeface": "roman", "text": "i, Cami."}])
+        )
         self.assertEqual(
             reading_hint([{"typeface": "roman", "text": "i, Cami."}]),
             "Cami/カミ",

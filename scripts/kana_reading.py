@@ -153,12 +153,16 @@ def transliterate_token(token: str) -> str | None:
     return "".join(output) or None
 
 
-def phrase_hint(text: str) -> str | None:
+def reading_tokens(text: str) -> list[str]:
     tokens = TOKEN_RE.findall(text)
-    tokens = [
+    return [
         token for token in tokens
         if re.sub(r"[^a-z]", "", normalized(token)) not in LABELS
     ]
+
+
+def phrase_hint(text: str) -> str | None:
+    tokens = reading_tokens(text)
     readings = [transliterate_token(token) for token in tokens]
     if not tokens or any(reading is None for reading in readings):
         return None
@@ -176,3 +180,13 @@ def reading_hint(runs: list[dict]) -> str | None:
             if phrase and (hint := phrase_hint(phrase)):
                 hints.append(hint)
     return ", ".join(hints) or None
+
+
+def reading_hint_applicable(runs: list[dict]) -> bool:
+    """Return whether roman runs contain anything other than known labels."""
+    return any(
+        reading_tokens(phrase.strip(" ,;:-"))
+        for run in runs
+        if run.get("typeface") == "roman"
+        for phrase in re.split(r"[.¶]+", run.get("text", ""))
+    )
