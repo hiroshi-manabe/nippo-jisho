@@ -88,10 +88,20 @@ def transliterate_token(token: str) -> str | None:
             if index + 1 == len(text): output.append("イ"); index += 1; continue
             consonant, index = "j", index + 1
         elif text[index] == "v":
-            if index == 0 and vowel_at(text, index + 1): index += 1; continue
-            if index == 0 or not vowel_at(text, index + 1):
-                output.append("ウ"); index += 1; continue
-            consonant, index = "w", index + 1
+            if index == 0 and (following := vowel_at(text, index + 1)):
+                # Initial ``v`` is not uniform in the Jesuit spelling. Before
+                # ``a`` it represents the surviving /w/ of forms such as
+                # ``vare`` and ``vaqete``; before ``o`` it normally belongs to
+                # forms such as ``vonaji`` and is not rendered as /w/.
+                if following[0] == "a":
+                    consonant, index = "w", index + 1
+                else:
+                    index += 1
+                    continue
+            else:
+                if index == 0 or not vowel_at(text, index + 1):
+                    output.append("ウ"); index += 1; continue
+                consonant, index = "w", index + 1
         elif text[index] in ROWS:
             consonant, index = text[index], index + 1
             # As in contemporary Portuguese spelling, the u in Japanese

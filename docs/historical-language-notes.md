@@ -99,6 +99,8 @@ Kishimoto's study of `-ia` similarly shows why an identical letter sequence cann
 
 **Jesuit-print pattern, strongly useful.** In their quantitative study of the 1596 *Contemptus mundi*, Takahashi and Osterkamp show that lowercase `u` and `v` can represent the same Japanese /u, w/ material. Initial or potentially morpheme-initial position tends to take `v`, while internal position takes `u`; particles such as `uo` and `ua` retain `u` because they are treated as dependent on what precedes them (2025: 49–50). Compounds can retain a morpheme's initial `v`, though exceptions occur.
 
+The generated kana guide must therefore interpret rather than simply delete initial `v`. In particular, initial `va-` represents `wa-` in forms such as `vaqete` ワケテ, `Vaga` ワガ, and `Varui` ワルイ. Initial `vo-` commonly belongs to forms such as `vonaji` オナジ and must not be converted mechanically to `wo-`; initial `v` before a consonant supplies the vowel in forms such as `vgoqu` ウゴク. These are reading-guide rules only: Level 1 always preserves the printed `v`.
+
 This explains why Japanese knowledge correctly flags `vgogu` as suspicious and makes printed `vgoqu` intelligible. It also explains why modern phonetic intuition alone cannot choose between `u` and `v`. The exact scan and the word's internal structure must both be checked.
 
 The dictionary-wide extent of this pattern still needs a dedicated inventory; it should not be promoted to an automatic rule from a different Jesuit book.
