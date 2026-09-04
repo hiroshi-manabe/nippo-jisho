@@ -20,23 +20,23 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l004` | &emsp;*lhe falta algũa parte, &c.* |  |
 | `c1-l005` | Fanpû. Xirami. *Pioulho.* |  |
 | `c1-l006` | Fanqi. Iyno vtçuuamono. *Eſcudela, ou* |  |
-| `c1-l007` | &emsp;*Goqi de arroz.* |  |
+| `c1-l007` | &emsp;Goqi *de arroz.* |  |
 | `c1-l008` | Fanqiǒjin. *Meo doudo.* |  |
-| `c1-l009` | Fanqiǔ. *Certo arco pequeno, ou beſta de atirar.* |  |
+| `c1-l009` | Fanqiǔ. *Certo arco pequeno, ou bèſta de atirar.* |  |
 | `c1-l010` | Fanqua. Xiguei fana. *Flores, ou fullas mui-* |  |
-| `c1-l011` | &emsp;*to jũtas, & baſtas.* S. |  |
+| `c1-l011` | &emsp;*to jũtas, & baſtas. S.* |  |
 | `c1-l012` | Fanriǔ. Ichiriǔno fanbun. *Meo grão de tri-* |  |
 | `c1-l013` | &emsp;*go, ou arroz, &c.* |  |
-| `c1-l014` | Fanſan. Sicazzoqi nacara. *Meo copo de* |  |
+| `c1-l014` | Fanſan. Sacazzuqi nacara. *Meo copo de* |  |
 | `c1-l015` | &emsp;*vinho.* |  |
-| `c1-l016` | Fansǒ. *Ferida feita como buſtella, ou ſarna.* |  |
+| `c1-l016` | Fansǒ. *Ferida feita como bustella, ou ſarna.* |  |
 | `c1-l017` | Fanta. Xiguequ vouoi. *Muitos negocios, ou* |  |
 | `c1-l018` | &emsp;*muitas occupaçoẽs. ¶* Gofanta naredo- |  |
 | `c1-l019` | &emsp;mo. *Ainda que tenhais muito que fazer to-* |  |
 | `c1-l020` | &emsp;*da via, &c.* X. |  |
 | `c1-l021` | Fanten. Nacazora. *Mea região do àr.* |  |
 | `c1-l022` | Fantǒ, l, tochǔ. *Meo do caminho, ou no* |  |
-| `c1-l023` | &emsp;*caminho. ou* |  *Ou* |
+| `c1-l023` | &emsp;*caminho. ou* |  |
 | `c1-l024` | Fanuqedori. *Paſſaro ſem penas das aſas,* |  |
 | `c1-l025` | &emsp;*ſem aſas.* |  |
 | `c1-l026` | Fanxen. *Mea caixa, que he a metade de hũa* |  |
@@ -45,9 +45,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l029` | &emsp;*Vt,* Fãxen cajeni macaſuru. *A embarca-* |  |
 | `c1-l030` | &emsp;*ção que vai à vella entregaſe ao vento.* |  |
 | `c1-l031` | Fanxi. i, Nacarajini. *Meo morto: quãdo ſe a* |  |
-| `c1-l032` | &emsp;*jũta com Fãjǒ ſe diz,* Fanji fanjǒ *vt ſuprà.* |  |
+| `c1-l032` | &emsp;*jũta com* Fãjǒ *ſe diz,* Fanji fanjǒ *vt ſuprà.* |  |
 | `c1-l033` | Fanxi. *Carta aſſinada em branco. ¶ Item,* |  |
-| `c1-l034` | &emsp;*No Chùgocu papel em que o Yacata eſcreue* |  |
+| `c1-l034` | &emsp;*No* Chûgocu *papel em que o* Yacata *eſcreue* |  |
 | `c1-l035` | &emsp;*cartas.* |  |
 | `c1-l036` | Fanxǔ. Focaqe bune. *Embarcação à vella.* |  |
 | `c1-l037` | Fanxucqe. *Hum paſſaro como coruo que tem* |  |
@@ -58,8 +58,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l042` | &emsp;*perar, ou multiplicarſe algũa familia, &c.* |  |
 | `c1-l043` | Fanza. i, Zano fanbun. *Mea ſala, ou mea* |  |
 | `c1-l044` | &emsp;*camara. ¶* Fanzauo vaqete fitouo iſu. |  |
-| `c1-l045` | &emsp;S. *Fazer aſſentar a alguem, dandolhe* |  |
-| `c1-l046` | &emsp;*meo Zaxiqi.* |  |
+| `c1-l045` | &emsp;*S. Fazer aſſentar a alguem, dandolhe* |  |
+| `c1-l046` | &emsp;*meo* Zaxiqi*.* |  |
 | `c1-l047` | Fanzacu. Nacara tçucuru. *Obra mea feita,* |  |
 | `c1-l048` | &emsp;*ou imperfeita.* |  |
 
@@ -88,7 +88,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l007` | &emsp;qegaſu. *Sendo meo ſecular he çujar o trajo* |  |
 | `c2-l008` | &emsp;*de religioſo.* |  |
 | `c2-l009` | Fanzocu. i, Iſſocuno fanbun. *Meo feixe* |  |
-| `c2-l010` | &emsp;*de lenha, ou mea reſma de pãpel, &c.* |  |
+| `c2-l010` | &emsp;*de lenha, ou mea reſma de papel, &c.* |  |
 | `c2-l011` | Fappato. *Adu. Modo de ſe eſpalhar algũa* |  |
 | `c2-l012` | &emsp;*couſa como cheiro, &c.* |  |
 | `c2-l013` | Fappi. *Veſtidos que ſeruem em auto.* |  |
@@ -114,7 +114,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l033` | &emsp;*gir montante.* |  |
 | `c2-l034` | Faqiacu. Yaburu. *Deſtruição.* |  |
 | `c2-l035` | Faqiague, uru, eta. *Subir calçado como a o* |  |
-| `c2-l036` | &emsp;*zaxiqi, ou varanda, &c.* |  |
+| `c2-l036` | &emsp;*Zaxiqi, ou varanda, &c.* |  |
 | `c2-l037` | Faqicaqe, uru, eta. *Cuſpir ſobre algũa couſa.* |  |
 | `c2-l038` | &emsp;*Vt,* Fitono vyeuo vttayuru monoua chi- |  |
 | `c2-l039` | &emsp;uo fucunde fitoni faqicaquruto vonaji |  |
