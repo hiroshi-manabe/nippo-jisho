@@ -46,7 +46,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l030` | &emsp;*velho. S.* |  |
 | `c1-l031` | Facutǒ. Xiroi momo. *Flor branca de peſe-* |  |
 | `c1-l032` | &emsp;*gueiro.* |  |
-| `c1-l033` | Facutocu. i, Firoi toku. *Grandes proueitos.* |  |
+| `c1-l033` | Facutocu. i, Firoi tocu. *Grandes proueitos.* |  |
 | `c1-l034` | &emsp;*Vt,* Xeqigacuniua facutocu nari. *No* |  |
 | `c1-l035` | &emsp;*continuo, & grãde estudo ha grãdes proueitos.* |  |
 | `c1-l036` | Facuvn. Xiroi cumo. *Nuuem branca.* |  |
@@ -80,7 +80,7 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c2-l001` | Facuxu. Xiroi ſaqe. i, Nigori ſaqe. *Vi-* |  |
 | `c2-l002` | &emsp;*nho branco turuo de Iapão.* |  |
-| `c2-l003` | Facuya. *Caſa, onde ſe vendem folhas dou-* |  |
+| `c2-l003` | Facuya. *Caſa onde ſe vendem folhas dou-* |  |
 | `c2-l004` | &emsp;*ro, ou de prata.* |  |
 | `c2-l005` | Facuye. Vſui qirumono. i, *Pouco vestido, ou* |  |
 | `c2-l006` | &emsp;*ſingello.* |  |
@@ -90,23 +90,23 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l010` | Facuyô. Xiroi fitçuji. *Ouelha branca.* |  |
 | `c2-l011` | Fada. i, Fadaye. *Superficie da carne, ou cor-* |  |
 | `c2-l012` | &emsp;*po humano. ¶* Fadauo yuruſu. *Deſcui-* |  |
-| `c2-l013` | &emsp;*darſe, Melius,* Cocorouo yuruſu. ¶ Fa- |  |
+| `c2-l013` | &emsp;*darſe, Meliùs,* Cocorouo yuruſu. ¶ Fa- |  |
 | `c2-l014` | &emsp;dato fadauo auaſuru. *Ter ajuntamento o* |  |
 | `c2-l015` | &emsp;*homem com molher. As vezes,* Fadauo a- |  |
-| `c2-l016` | &emsp;uaſuru: *ſe diz dos que ſe unem, & eſtão ami-* |  |
+| `c2-l016` | &emsp;uaſuru: *ſe diz dos que ſe vnem, & eſtão ami* |  |
 | `c2-l017` | &emsp;*gos, mas não he muito vſado nem proprio.* |  |
 | `c2-l018` | Fadabacama. *Calçoẽs interiores, como ci-* |  |
 | `c2-l019` | &emsp;*roulas.* |  |
 | `c2-l020` | Fadacajiro. *Fortaleza nua. i, Sem vallos, nẽ* |  |
 | `c2-l021` | &emsp;*muros, &c.* |  |
-| `c2-l022` | Fadacajironi. *Adu. Vt,* Fadacajironi nat- |  |
+| `c2-l022` | Fadacajironi. *Adu. Vt,* Fadacajironi nat |  |
 | `c2-l023` | &emsp;ta. *Ficou a fortaleza desbaratada ſem muros,* |  |
 | `c2-l024` | &emsp;*vallos, &c.* |  |
-| `c2-l025` | Fadacana. *Eſtar nũ, ou deſpido.* |  |
+| `c2-l025` | Fadacana. *Eſtar nù, ou deſpido.* |  |
 | `c2-l026` | Fadacani. *Adu. Vt,* Fadacani naru. *Fi-* |  |
-| `c2-l027` | &emsp;*car nũ. ¶* Fadacani naſu. *Deſpir a outro de* |  |
-| `c2-l028` | &emsp;*todo. ¶ Item, Roubalo, & deſpojallo.* |  |
-| `c2-l029` | Fadacatabira. *Camiſa ao modo de Iapão aber-* |  |
+| `c2-l027` | &emsp;*car nù. ¶* Fadacani naſu. *Deſpir a outro de* |  |
+| `c2-l028` | &emsp;*todo. ¶ Item, Roubalo, & deſpojalo.* |  |
+| `c2-l029` | Fadacatabira. *Camiſa ao modo de Iapão aber* |  |
 | `c2-l030` | &emsp;*ta por diante branca, ou de outras cores.* |  |
 | `c2-l031` | Fadaca vma. *Caualo em oſſo. ¶* Fadaca |  |
 | `c2-l032` | &emsp;vmani vchinoru. *Caualgar no caualo em oſſo.* |  |
@@ -121,8 +121,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l041` | Fadareni. *Vt,* Fadareni furu yuqi. *Mo-* |  |
 | `c2-l042` | &emsp;*do de eſtarem as folhas das aruores, ou eruas* |  |
 | `c2-l043` | &emsp;*inclinadas com a neue que cabio.* |  |
-| `c2-l044` | Fadauobi. *Encaſto. ¶* Fadauobiuo ſuru. |  |
-| `c2-l045` | &emsp;*Encaſtarſe.* |  |
+| `c2-l044` | Fadauobi. *Encacho. ¶* Fadauobiuo ſuru. |  |
+| `c2-l045` | &emsp;*Encacharſe.* |  |
 | `c2-l046` | Fadaxi. *Deſcalço. Vt,* Fadaxini ayumu. |  |
 | `c2-l047` | &emsp;*Andar com os pes deſcalços.* |  |
 
