@@ -76,7 +76,8 @@ def transliterate_token(token: str) -> str | None:
             consonant, index = "j", index + 1
         elif text[index] == "v":
             if index == 0 and vowel_at(text, index + 1): index += 1; continue
-            if index == 0: output.append("ウ"); index += 1; continue
+            if index == 0 or not vowel_at(text, index + 1):
+                output.append("ウ"); index += 1; continue
             consonant, index = "w", index + 1
         elif text[index] in ROWS:
             consonant, index = text[index], index + 1

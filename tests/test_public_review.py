@@ -228,6 +228,7 @@ class PublicReviewRegressionTests(unittest.TestCase):
         self.assertEqual(transliterate_token("Fague"), "ハゲ")
         self.assertEqual(transliterate_token("Xeqigacuniua"), "セキガクニワ")
         self.assertEqual(transliterate_token("Fadauobiuo"), "ハダヲビヲ")
+        self.assertEqual(transliterate_token("Facuvn"), "ハクウン")
         self.assertIsNone(transliterate_token("i"))
         self.assertIsNone(transliterate_token("Vt"))
         self.assertIsNone(reading_hint([{"typeface": "roman", "text": "i."}]))
