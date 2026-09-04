@@ -93,6 +93,11 @@ def transliterate_token(token: str) -> str | None:
             output.append("ッ"); index += 1
         if index < len(text) and text[index] == "i" and consonant in "kgnhbpmr":
             following = vowel_at(text, index + 1)
+            # In sequences such as niua and biuo, the following u begins a
+            # separate ua/uo spelling; it is not the palatalizing vowel of
+            # nia/niu/nio.
+            if following and vowel_at(text, index + 2):
+                following = None
             small = {"a": "ャ", "u": "ュ", "o": "ョ"}.get(following[0] if following else "")
             if small:
                 output.extend((ROWS[consonant][1], small, following[1])); index += 2; continue
@@ -100,7 +105,7 @@ def transliterate_token(token: str) -> str | None:
         if not vowel:
             return None
         special = {
-            "sh": {"a": "シャ", "i": "シ", "u": "シュ", "e": "シェ", "o": "ショ"},
+            "sh": {"a": "シャ", "i": "シ", "u": "シュ", "e": "セ", "o": "ショ"},
             "ch": {"a": "チャ", "i": "チ", "u": "チュ", "e": "チェ", "o": "チョ"},
             "j": {"a": "ジャ", "i": "ジ", "u": "ジュ", "e": "ジェ", "o": "ジョ"},
             "ny": {"a": "ニャ", "i": "ニ", "u": "ニュ", "e": "ニェ", "o": "ニョ"},
