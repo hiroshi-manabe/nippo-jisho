@@ -258,8 +258,8 @@ class PublicReviewRegressionTests(unittest.TestCase):
                 {"typeface": "roman", "text": "qu."},
                 {"typeface": "italic", "text": " Cuſpir. ¶"},
                 {"typeface": "roman", "text": " Goncu, l, cuuo fa-"},
-            ], leading_roman_continuation=True),
-            "Goncu cuuo fa/ゴンク クヲ ハ",
+            ]),
+            "qu/ク, Goncu cuuo fa/ゴンク クヲ ハ",
         )
         app = (ROOT / "site" / "app.js").read_text(encoding="utf-8")
         self.assertIn("line.reading_hint", app)

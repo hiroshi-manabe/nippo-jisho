@@ -155,21 +155,13 @@ def phrase_hint(text: str) -> str | None:
     return f"{phrase}/{' '.join(readings)}"
 
 
-def reading_hint(runs: list[dict], *, leading_roman_continuation: bool = False) -> str | None:
+def reading_hint(runs: list[dict]) -> str | None:
     hints: list[str] = []
-    skipped_leading_fragment = not leading_roman_continuation
     for run in runs:
         if run.get("typeface") != "roman":
             continue
         for phrase in re.split(r"[.¶]+", run.get("text", "")):
             phrase = phrase.strip(" ,;:-")
-            if phrase and not skipped_leading_fragment:
-                # A physical line can begin with the remainder of a Roman-type
-                # Japanese word divided at the preceding line end (for example
-                # ``fa-`` + ``qu.``).  Without the preceding fragment this is
-                # not an independent reading and should not be presented as one.
-                skipped_leading_fragment = True
-                continue
             if phrase and (hint := phrase_hint(phrase)):
                 hints.append(hint)
     return ", ".join(hints) or None
