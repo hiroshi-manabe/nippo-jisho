@@ -56,6 +56,7 @@ These are **reinspection prompts, not replacement rules**.
 | `ji` / `gi`; `zu` / `zzu` | intended yotsugana distinctions | Contemporary sources also confuse them. Never regularize from etymology alone. |
 | initial or morpheme-initial `v`; internal `u` | often positional variants for Japanese /u, w/ | Thus `vgoqu` is plausible while particles appear in forms such as `uo`; preserve the actual letter and spacing. |
 | doubled letters or mixed clusters such as `cq` | may signal gemination | Jesuit spelling also preserves kana-influenced or exceptional forms. Inspect, do not automatically simplify. |
+| bare `t` before a consonant or word end | Sino-Japanese checked coda (入声), conventionally shown as small ッ in the generated kana guide | Do not expand it to `tçu`; small ッ is a display convention and does not assert identity with every modern sokuon. `Nhôjet` is ニョゥゼッ, 饒舌. |
 | `eô` / `iô` and related spellings | competing, partly kana-influenced notation can occur | The dictionary's own key tells readers to search under both `E` and `I`. |
 
 ### Vowel marks

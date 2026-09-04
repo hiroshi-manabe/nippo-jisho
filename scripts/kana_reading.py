@@ -63,12 +63,17 @@ def transliterate_token(token: str) -> str | None:
             output.extend((ROWS["w"][INDEX[following[0]]], following[1]))
             index += 2
             continue
-        if text[index] == "n" and (index + 1 == len(text) or not vowel_at(text, index + 1)):
+        if text[index] == "n" and not text.startswith("nh", index) and (index + 1 == len(text) or not vowel_at(text, index + 1)):
             output.append("ン")
             index += 1
             continue
         consonant = ""
         if text.startswith("tç", index): consonant, index = "t", index + 2
+        elif text[index] == "t" and not vowel_at(text, index + 1):
+            # Sino-Japanese checked -t is written as a bare coda in Jesuit
+            # romanization. Small ッ is an editorial display convention for
+            # that closed syllable, not a claim of ordinary modern gemination.
+            output.append("ッ"); index += 1; continue
         elif text.startswith("zz", index): consonant, index = "z", index + 2
         elif text.startswith("nh", index): consonant, index = "ny", index + 2
         elif text.startswith("ch", index): consonant, index = "ch", index + 2
@@ -116,7 +121,7 @@ def transliterate_token(token: str) -> str | None:
         special = {
             "sh": {"a": "シャ", "i": "シ", "u": "シュ", "e": "セ", "o": "ショ"},
             "ch": {"a": "チャ", "i": "チ", "u": "チュ", "e": "チェ", "o": "チョ"},
-            "j": {"a": "ジャ", "i": "ジ", "u": "ジュ", "e": "ジェ", "o": "ジョ"},
+            "j": {"a": "ジャ", "i": "ジ", "u": "ジュ", "e": "ゼ", "o": "ジョ"},
             "ny": {"a": "ニャ", "i": "ニ", "u": "ニュ", "e": "ニェ", "o": "ニョ"},
         }
         rendered = special.get(consonant, {}).get(vowel[0])
