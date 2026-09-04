@@ -19,9 +19,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l003` | Faritçucai. *O ſangrar beſtas. Vt,* Fari- |  |
 | `c1-l004` | &emsp;tçucaiuo itaſu. |  |
 | `c1-l005` | Faritçuqe. *Hũa maneira de portas de paſta de* |  |
-| `c1-l006` | &emsp;*papel pegadas no parede com ſuas faſquias ao* |  |
+| `c1-l006` | &emsp;*papel pegadas na parede com ſuas faſquias ao* |  |
 | `c1-l007` | &emsp;*redor de pao vruxado de preto, pera que res-* |  |
-| `c1-l008` | &emsp;*pondão às de mais portas de papel que eſſão n* |  |
+| `c1-l008` | &emsp;*pondão às de mais portas de papel que eſtão no* |  |
 | `c1-l009` | &emsp;*zaxiqi, & ſe correm, ou abrem, & fechão.* |  |
 | `c1-l010` | Fariyaburi, uru, utta. *Raſgar, quebrar.* |  |
 | `c1-l011` | Farǒ. Nami. *Ondas.* |  |
@@ -37,13 +37,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l021` | Farucaje. *Vento da prima vera.* |  |
 | `c1-l022` | Farucana, l, farucano. *Couſa diſtante, ou* |  |
 | `c1-l023` | &emsp;*longe. Vt,* Farucano michi. *Caminho* |  |
-| `c1-l024` | &emsp;*comprido, ou distante.* |  |
+| `c1-l024` | &emsp;*comprido, ou diſtante.* |  |
 | `c1-l025` | &emsp;Farucani. *Adu.* |  |
 | `c1-l026` | &emsp;Faruqeſa. *P.* |  |
 | `c1-l027` | Faruco. *Bichos de ſeda da prima vera.* |  |
 | `c1-l028` | Farugo. *Filho nacido de cão, ou animal ſeme-* |  |
 | `c1-l029` | &emsp;*lhante na prima vera.* |  |
-| `c1-l030` | Farugonia. *Cauallo que na prima vera brinca.* |  |
+| `c1-l030` | Farugoma. *Cauallo que na prima vera brinca,* |  |
 | `c1-l031` | &emsp;*ou anda com o cio.* |  |
 | `c1-l032` | Faruſame. *Chuua da prima vera.* |  |
 | `c1-l033` | Faſami. *Tiſouras, ou troquez, &c.* |  |
@@ -52,7 +52,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l036` | &emsp;¶ Sacanauo faſamu. *Tomar a Sacana* |  |
 | `c1-l037` | &emsp;*com as Faxis. ¶* Qirumono nadouo taqe |  |
 | `c1-l038` | &emsp;ni faſamu. *Meter o vestido atraueſado entre* |  |
-| `c1-l039` | &emsp;*bũa cana aberta pello meo, ou ẽtre duas canas,* |  |
+| `c1-l039` | &emsp;*hũa cana aberta pello meo, ou ẽtre duas canas,* |  |
 | `c1-l040` | &emsp;*ou paos. ¶ Permet.* Vma ippiqiuo fa- |  |
 | `c1-l041` | &emsp;ſamu. *Ter caualo em que hum poſſa caual-* |  |
 | `c1-l042` | &emsp;*gar. Vt,* Vma ippiqi faſamu fodono fi- |  |
@@ -75,35 +75,35 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l001` | &emsp;*mento a alguem entalando lhe os pès entre ta-* |  |
 | `c2-l002` | &emsp;*boas, ou paus. ¶ Item,* Faſamu. *Tro* |  |
 | `c2-l003` | &emsp;*quiar.* |  |
-| `c2-l004` | Faſamibaco. *Caixa que ſe leua fechada cõ alga* |  |
-| `c2-l005` | &emsp;*vestido dentro às coſtas atraueſada em hũ pa* |  |
+| `c2-l004` | Faſamibaco. *Caixa que ſe leua fechada cõ algũ* |  |
+| `c2-l005` | &emsp;*veſtido dentro às coſtas atraueſada em hũ pao.* |  |
 | `c2-l006` | Faſamidaqe. *Cana em que leuão às costas al-* |  |
 | `c2-l007` | &emsp;*gum veſtido, ou outra couſa.* |  |
 | `c2-l008` | Faſami ita. *Taboas entre as quaes dobrão, &* |  |
 | `c2-l009` | &emsp;*apertão certas peças de Iapão.* |  |
-| `c2-l010` | Faſamimono. *Couſa que ſe aferra cõtroquez,* |  |
-| `c2-l011` | &emsp;*ou dous paos, &c. & particular mente ſigni* |  |
+| `c2-l010` | Faſamimono. *Couſa que ſe aferra cõ troquez,* |  |
+| `c2-l011` | &emsp;*ou dous paos, &c. & particularmente ſigni-* |  |
 | `c2-l012` | &emsp;*fica a Sacana que ſe toma com as Faxis.* |  |
 | `c2-l013` | &emsp;*¶ Item, Hum papel que poem por aluo me-* |  |
 | `c2-l014` | &emsp;*tido entre hum bambu rachado.* |  |
-| `c2-l015` | Faſamiqiri, u, itta. *Cortar com tifouras,* |  |
+| `c2-l015` | Faſamiqiri, u, itta. *Cortar com tiſouras,* |  |
 | `c2-l016` | &emsp;*troquez, &c.* |  |
-| `c2-l017` | Faſamitate, ru, eta. *Meter, ou por algũa* |  |
+| `c2-l017` | Faſamitate, ru, eta. *Meter, ou pòr algũa* |  |
 | `c2-l018` | &emsp;*couſa entre duas apertada. Item, Por al-* |  |
 | `c2-l019` | &emsp;*gũa couſa aleuantada entre duas como adaga* |  |
 | `c2-l020` | &emsp;*entredous Tatamis, &c.* |  |
-| `c2-l021` | Faſaminoroxi, ſu, oita. *Troſquiar. Vt,* |  |
+| `c2-l021` | Faſamiuoroxi, ſu, oita. *Troſquiar. Vt,* |  |
 | `c2-l022` | &emsp;Amarino xencata naſani facuratuo faſami |  |
-| `c2-l023` | &emsp;voroſu. Feiq*. Lib. ¶. Por mais não po-* |  |
+| `c2-l023` | &emsp;voroſu. Feiq*. Lib. 4. Por mais não po-* |  |
 | `c2-l024` | &emsp;*der troſquiou os cabelos brancos.* |  |
 | `c2-l025` | Faſan. Sacazzuqiuo cubaru. *Mandar, ou* |  |
-| `c2-l026` | &emsp;*dirigir o Sacazztqi a alguem. Vt,* Go- |  |
-| `c2-l027` | &emsp;faſan are. *A quem quereis que ſede o Sa-* |  |
+| `c2-l026` | &emsp;*dirigir o Sacazzuqi a alguem. Vt,* Go- |  |
+| `c2-l027` | &emsp;faſan are. *A quem quereis que ſe de o Sa-* |  |
 | `c2-l028` | &emsp;cazzuqi. |  |
 | `c2-l029` | Faſan. *O interceder, ou aueriguar opreço en-* |  |
-| `c2-l030` | &emsp;*tre os que comprão, & zẽdem. Vt,* Faſas |  |
+| `c2-l030` | &emsp;*tre os que comprão, & vẽdem. Vt,* Faſan |  |
 | `c2-l031` | &emsp;ſuru. *Fazer eſte officio de corretor.* |  |
-| `c2-l032` | Faſan, i, faſuru. *O deſmanchar, ou des fazer a* |  |
+| `c2-l032` | Faſan, i, faſuru. *O deſmanchar, ou deſfazer as* |  |
 | `c2-l033` | &emsp;*cõtas depois de concluidas, ou baralhar os ten-* |  |
 | `c2-l034` | &emsp;*tos das contas. &c.* |  |
 | `c2-l035` | Faſǒ. Yabureta mado. *Ianela quebrada.* P*.* |  |
