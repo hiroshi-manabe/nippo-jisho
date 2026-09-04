@@ -63,6 +63,13 @@ def transliterate_token(token: str) -> str | None:
             output.extend((ROWS["w"][INDEX[following[0]]], following[1]))
             index += 2
             continue
+        if text[index] == "n" and text.startswith("nu", index) and vowel_at(text, index + 2):
+            # In forms such as ``Quǒguenuo``, the n closes the preceding
+            # Japanese word and ``uo`` is the following particle: -n-uo,
+            # not the syllables nu-o.
+            output.append("ン")
+            index += 1
+            continue
         if text[index] == "n" and not text.startswith("nh", index) and (index + 1 == len(text) or not vowel_at(text, index + 1)):
             output.append("ン")
             index += 1
@@ -124,7 +131,11 @@ def transliterate_token(token: str) -> str | None:
                 following = None
             small = {"a": "ャ", "u": "ュ", "o": "ョ"}.get(following[0] if following else "")
             if small:
-                output.extend((ROWS[consonant][1], small, following[1])); index += 2; continue
+                # Jesuit ``gi`` before another vowel represents the
+                # historical voiced palatal series, as in ``cotogia``
+                # (ことぢゃ), rather than modern Hepburn-style gi + a/u/o.
+                base = "ヂ" if consonant == "g" else ROWS[consonant][1]
+                output.extend((base, small, following[1])); index += 2; continue
         vowel = vowel_at(text, index)
         if not vowel:
             return None
