@@ -91,3 +91,30 @@ complete edge evidence, and correct physical-line association.  The geometry
 record notes the OCR-evidence version used for the proposal and preserves any
 manual override.  This makes later reprocessing possible without erasing why
 the current rectangle was accepted.
+
+## First completed run
+
+The 2026-09-05 run archived all 630 leaves in `f13`–`f642`, comprising 62,750
+raw detections.  The compressed committed archive is approximately 20 MB.
+The initial canonical comparison covered all 21,126 body lines on `f13`–`f237`.
+
+The `f161`–`f170` control confirmed the method's diagnostic value: the ten
+pages that had already received OCR-first geometry produced only 41 flagged
+rows, compared with 5,921 initially flagged rows on `f171`–`f237`.  A
+conflict-free first campaign therefore replaced geometry—not text—for 5,371
+lines on 57 pages in `f171`–`f237`.  Every proposed column was rendered into a
+contact sheet; numerical containment checks and representative high-drift,
+split-zone, early, middle, and late sheets were inspected.  These columns keep
+the conservative `contact_sheet_reviewed` state and do not claim
+`line_by_line_reverified` status.
+
+Ten pages remain deliberately unchanged because OCR alignment exposed missing
+rows, merged rows, displaced fragments, or neighbor conflicts: `f189`, `f190`,
+`f195`, `f200`, `f207`, `f213`, `f215`, `f217`, `f220`, and `f231`.  Their raw
+evidence and exact conflict inventories are preserved in the campaign report.
+
+For `f13`–`f160`, the first campaign generated 106 conflict-free proposals and
+quarantined 42 structurally ambiguous pages.  These proposals have not been
+applied: this range contains extensive manual geometry history, so its OCR
+results are an audit queue rather than permission to replace reviewed
+rectangles wholesale.

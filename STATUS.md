@@ -18,6 +18,16 @@ A [scan-first Level 1 bootstrap](docs/ocr-scan-bootstrap.md) now covers the stru
 
 An audited [OCR-to-Level-1 bridge](docs/ocr-page-data.md) now constructs provisional text for structured human-unreviewed pages while protecting reviewed pages and retaining stable zones, physical-line IDs, typeface scaffolding, displaced fragments, and browser geometry. Its first application covered all 7,261 body lines on `f161`–`f237`: 4,212 readings changed, 3,009 already agreed exactly, 17 high-change OCR readings were quarantined, and 23 structural rows were deliberately preserved. The resulting pages remain `visual_draft`; the OCR baseline improves initialization but does not replace general visual inspection or human comparison.
 
+A separate [dictionary-wide OCR layout evidence layer](docs/ocr-layout-evidence.md)
+now preserves all 62,750 Kraken detections, baselines, boundaries, OCR bands,
+and raw Calamari readings on the 630 leaves `f13`–`f642`, with native-scan and
+model checksums.  It does not modify Level 1 text.  Its first geometry campaign
+applied conflict-free OCR-derived rectangles to 5,371 lines on 57 pages in
+`f171`–`f237`, retaining conservative `contact_sheet_reviewed` provenance;
+ten structurally ambiguous pages remain untouched.  The `f13`–`f160` audit has
+106 conflict-free proposals and 42 quarantines, but no older reviewed geometry
+has been bulk-replaced.
+
 The first timed second-pass trial is complete. The [Tiled Visual Review Pilot](docs/tiled-visual-review.md) now records overlapping quarter-column and sixth-column views as a workable review method, and the page-level evidence is preserved in the [bnf-f0248 Second Visual Pass](pilot/second-pass/bnf-f0248.md). A revised [Pilot Diacritic Audit](pilot/diacritic-audit.md) distinguishes 30 carons, five genuine circumflexes, one grave accent, and one unmarked form among 37 flagged occurrences across two frozen pages.
 
 The first controlled [Wikisource comparison](pilot/wikisource-comparison/bnf-f0014.md) is also complete. Wikisource supplied four new scan-confirmed corrections in the selected zones, agreed with two corrections already made independently, and contained several errors and structural omissions of its own. Only five of the 653 PDF pages currently contain contributed Wikisource text, none proofread or validated. Routine use has therefore been rejected; external transcription is reserved for exceptional unresolved cases after independent review. The frozen independent files were not rewritten.
