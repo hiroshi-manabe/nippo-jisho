@@ -51,6 +51,14 @@ def transliterate_token(token: str) -> str | None:
     output: list[str] = []
     index = 0
     while index < len(text):
+        if text.startswith("qua", index):
+            output.append("クヮ")
+            index += 3
+            continue
+        if text.startswith("gua", index):
+            output.append("グヮ")
+            index += 3
+            continue
         if text[index] == "u" and (following := vowel_at(text, index + 1)):
             output.extend((ROWS["w"][INDEX[following[0]]], following[1]))
             index += 2
