@@ -6,7 +6,7 @@ import re
 import unicodedata
 
 
-LABELS = {"ad", "adu", "aduer", "aduerb", "alicubi", "bup", "fab", "fei", "feiq", "fox", "item", "lib", "melius", "mon", "nome", "p", "permet", "s", "tac", "taif", "ut", "vt", "voi", "x", "xix"}
+LABELS = {"ad", "adu", "aduer", "aduerb", "alicubi", "bup", "fab", "fei", "feiq", "fox", "i", "item", "lib", "melius", "mon", "nome", "p", "permet", "s", "tac", "taif", "ut", "vt", "voi", "x", "xix"}
 VOWELS = {"a": "ア", "i": "イ", "u": "ウ", "e": "エ", "o": "オ"}
 ROWS = {
     "k": "カキクケコ", "g": "ガギグゲゴ", "s": "サシスセソ", "z": "ザジズゼゾ",
@@ -115,6 +115,10 @@ def transliterate_token(token: str) -> str | None:
 
 def phrase_hint(text: str) -> str | None:
     tokens = TOKEN_RE.findall(text)
+    tokens = [
+        token for token in tokens
+        if re.sub(r"[^a-z]", "", normalized(token)) not in LABELS
+    ]
     readings = [transliterate_token(token) for token in tokens]
     if not tokens or any(reading is None for reading in readings):
         return None
