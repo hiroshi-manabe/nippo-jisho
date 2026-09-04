@@ -86,7 +86,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l012` | Fanguiri. i, Yonchacama. *Hũs meos calço-* |  |
 | `c2-l013` | &emsp;*ẽs de Iapão que traz a gente baixa.* |  |
 | `c2-l014` | Fanguiri. *Tina larga, & baixa que ſerue pera* |  |
-| `c2-l015` | &emsp;*o vinho. ¶ &c.* |  |
+| `c2-l015` | &emsp;*o vinho.* |  *( &c.* |
 | `c2-l016` | Fangiô. *Meo Tatami, mea mão de papel.* |  |
 | `c2-l017` | Fangiǒ. i, Xechôno fanbun. *Meo pão de* |  |
 | `c2-l018` | &emsp;*tinta, mea folha de papel, &c.* |  |

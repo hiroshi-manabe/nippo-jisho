@@ -20,7 +20,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l004` | &emsp;*as mãos, como quem ſobe a algũ lugar ingreme* |  |
 | `c1-l005` | &emsp;*como fortaleza, &c. ¶ Item, Trepar, &* |  |
 | `c1-l006` | &emsp;*ſubir da era por algũa aruore, ou parede, &c.* |  |
-| `c1-l007` | Faino zǒ. *Boſes.* |  |
+| `c1-l007` | Faino zǒ. *Bofes.* |  |
 | `c1-l008` | Faiqen. Vogami, miru. *Ler a carta com* |  |
 | `c1-l009` | &emsp;*reuerencia. ¶* Gojǒuo faiqen tçucama- |  |
 | `c1-l010` | &emsp;tçutta. *Vt, ou li a carta de voſſa mercè.* |  |
