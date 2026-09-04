@@ -1,6 +1,6 @@
 # Project Status
 
-Last updated: 2026-09-02
+Last updated: 2026-09-05
 
 ## Current phase
 
@@ -25,8 +25,14 @@ model checksums.  It does not modify Level 1 text.  Its first geometry campaign
 applied conflict-free OCR-derived rectangles to 5,371 lines on 57 pages in
 `f171`–`f237`, retaining conservative `contact_sheet_reviewed` provenance;
 ten structurally ambiguous pages remain untouched.  The `f13`–`f160` audit has
-106 conflict-free proposals and 42 quarantines, but no older reviewed geometry
-has been bulk-replaced.
+106 conflict-free proposals and 42 quarantines rather than authorizing a bulk
+replacement of older reviewed geometry.  A later targeted audit traced the
+visible `f109` drift to whole-column linear calibration and repaired 1,079
+lines in 23 consistently displaced columns on 20 pages.  Every repaired
+column now clears the same signed-offset check; only the already quarantined
+structural exceptions remain.  Geometry acceptance now explicitly requires
+the target row to be the primary readable content, not merely present inside
+an overlapping crop.
 
 The first timed second-pass trial is complete. The [Tiled Visual Review Pilot](docs/tiled-visual-review.md) now records overlapping quarter-column and sixth-column views as a workable review method, and the page-level evidence is preserved in the [bnf-f0248 Second Visual Pass](pilot/second-pass/bnf-f0248.md). A revised [Pilot Diacritic Audit](pilot/diacritic-audit.md) distinguishes 30 carons, five genuine circumflexes, one grave accent, and one unmarked form among 37 flagged occurrences across two frozen pages.
 

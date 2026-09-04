@@ -33,6 +33,7 @@ REVIEWED_GEOMETRY_STATES = {
     "external_ai_width_rechecked",
     "line_by_line_reverified",
     "text_image_sanity_checked",
+    "targeted_ocr_contact_sheet_reviewed",
 }
 OCR_PROVISIONAL_GEOMETRY_STATE = "ocr_bootstrap_unreviewed"
 

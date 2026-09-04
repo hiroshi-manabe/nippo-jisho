@@ -1,0 +1,79 @@
+{
+  "format": "nippo-targeted-geometry-repair-campaign",
+  "format_version": 1,
+  "targets": [
+    "bnf-f0018:column-2",
+    "bnf-f0021:column-2",
+    "bnf-f0029:column-2",
+    "bnf-f0031:column-1",
+    "bnf-f0058:column-2",
+    "bnf-f0059:column-2",
+    "bnf-f0106:column-2",
+    "bnf-f0109:column-1",
+    "bnf-f0109:column-2",
+    "bnf-f0123:column-2",
+    "bnf-f0131:column-2",
+    "bnf-f0136:column-1",
+    "bnf-f0137:column-1",
+    "bnf-f0138:column-1",
+    "bnf-f0139:column-1",
+    "bnf-f0139:column-2",
+    "bnf-f0141:column-1",
+    "bnf-f0142:column-2",
+    "bnf-f0143:column-2",
+    "bnf-f0145:column-1",
+    "bnf-f0156:column-1",
+    "bnf-f0158:column-1",
+    "bnf-f0158:column-2"
+  ],
+  "proposed_pages": [
+    "bnf-f0018",
+    "bnf-f0021",
+    "bnf-f0029",
+    "bnf-f0031",
+    "bnf-f0058",
+    "bnf-f0059",
+    "bnf-f0106",
+    "bnf-f0109",
+    "bnf-f0123",
+    "bnf-f0131",
+    "bnf-f0136",
+    "bnf-f0137",
+    "bnf-f0138",
+    "bnf-f0139",
+    "bnf-f0141",
+    "bnf-f0142",
+    "bnf-f0143",
+    "bnf-f0145",
+    "bnf-f0156",
+    "bnf-f0158"
+  ],
+  "excluded_pages": [],
+  "interpolated_lines": [
+    {
+      "id": "bnf-f0031",
+      "column": "column-1",
+      "line": "c1-l037"
+    },
+    {
+      "id": "bnf-f0031",
+      "column": "column-1",
+      "line": "c1-l039"
+    },
+    {
+      "id": "bnf-f0031",
+      "column": "column-1",
+      "line": "c1-l046"
+    },
+    {
+      "id": "bnf-f0109",
+      "column": "column-1",
+      "line": "c1-l039"
+    }
+  ],
+  "policy": {
+    "canonical_text_modified": false,
+    "unmatched_lines_interpolated_only_from_adjacent_matches": true,
+    "visual_review_required_before_application": true
+  }
+}

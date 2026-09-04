@@ -118,3 +118,36 @@ quarantined 42 structurally ambiguous pages.  These proposals have not been
 applied: this range contains extensive manual geometry history, so its OCR
 results are an audit queue rather than permission to replace reviewed
 rectangles wholesale.
+
+## Targeted repair of systematic offsets
+
+The 2026-09-05 follow-up began with a visible failure on `f109`.  Both columns
+had been represented by a single linear vertical calibration.  A correction
+to the lower part of column 2 had previously been expressed by changing the
+endpoint of that calibration, which displaced earlier rows as well.  Because
+the review rectangles were taller than the line pitch, the intended text
+could remain somewhere in a crop even when the neighboring row occupied its
+visual focus.  A check for mere presence or partial readability was therefore
+not strong enough.
+
+The follow-up audited `f13`–`f237` against the archived OCR baselines and
+selected columns only when at least twenty close text matches showed a
+consistent signed displacement.  Moderate cases were included after direct
+contact-sheet inspection.  It then applied explicit per-line rectangles to
+1,079 lines in 23 columns on 20 pages: `f18`, `f21`, `f29`, `f31`, `f58`,
+`f59`, `f106`, `f109`, `f123`, `f131`, `f136`–`f139`, `f141`–`f143`, `f145`,
+`f156`, and `f158`.  Four lines without a safe direct OCR match were placed by
+interpolation between their nearest matched physical neighbors (`f31`
+`c1-l037`, `c1-l039`, and `c1-l046`; `f109` `c1-l039`).  The immutable
+proposal and exact application report are preserved in
+`pilot/ocr-layout-evidence/v1/campaign-systematic-offset-repair/`.
+
+All 23 repaired columns subsequently cleared the same systematic-offset
+audit.  The remaining high-displacement results belong only to the previously
+quarantined structural pages in the `f171`–`f237` campaign; they were not
+silently altered.
+
+For future geometry review, the target physical line must be the primary,
+focused, fully readable content of its crop.  Seeing the target somewhere in
+an overlapping band is not sufficient.  Neighboring text may remain as useful
+context, but it must not obscure which physical row the card represents.

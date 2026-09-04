@@ -515,8 +515,8 @@ equal(q.align('foo, bar.', 'foo bar.').deletions.map(item => [item.character, it
         )
         page = next(page for page in record["pages"] if page["id"] == "bnf-f0018")
         line = page["columns"]["column-2"]["lines"]["c2a-l018"]
-        self.assertEqual(line["centre_y"], 1498)
-        self.assertEqual(line["crop"], [1581, 1438, 1041, 120])
+        self.assertEqual(line["centre_y"], 1516)
+        self.assertEqual(line["crop"], [1550, 1443, 1109, 123])
 
     def test_f24_folgar_descender_is_not_clipped(self):
         record = json.loads(
@@ -612,9 +612,12 @@ equal(q.align('foo, bar.', 'foo bar.').deletions.map(item => [item.character, it
         for number in range(25, 31):
             with self.subTest(page=number):
                 page = pages[f"bnf-f{number:04d}"]
-                for column in page["columns"].values():
+                for column_id, column in page["columns"].items():
                     self.assertEqual(
-                        column["visual_review"], "text_image_sanity_checked"
+                        column["visual_review"],
+                        "targeted_ocr_contact_sheet_reviewed"
+                        if number == 29 and column_id == "column-2"
+                        else "text_image_sanity_checked",
                     )
 
     def test_external_ai_geometry_has_complete_horizontal_coverage(self):
@@ -639,7 +642,11 @@ equal(q.align('foo, bar.', 'foo bar.').deletions.map(item => [item.character, it
                 if horizontal_review:
                     self.assertIn(
                         column["visual_review"],
-                        {"external_ai_width_rechecked", "ai_line_by_line_checked"},
+                        {
+                            "external_ai_width_rechecked",
+                            "ai_line_by_line_checked",
+                            "targeted_ocr_contact_sheet_reviewed",
+                        },
                     )
                     self.assertEqual(
                         horizontal_review["status"],
@@ -648,7 +655,11 @@ equal(q.align('foo, bar.', 'foo bar.').deletions.map(item => [item.character, it
                 else:
                     self.assertIn(
                         column["visual_review"],
-                        {"ai_bulk_geometry_sanity_checked", "ai_line_by_line_checked"},
+                        {
+                            "ai_bulk_geometry_sanity_checked",
+                            "ai_line_by_line_checked",
+                            "targeted_ocr_contact_sheet_reviewed",
+                        },
                     )
                 left, _, right, _ = column["box"]
                 for line in column["lines"].values():
@@ -904,8 +915,14 @@ equal(q.align('foo, bar.', 'foo bar.').deletions.map(item => [item.character, it
             470,
         )
         for page in reviewed_pages.values():
-            for column in page["columns"].values():
-                self.assertEqual(column["visual_review"], "ai_line_by_line_checked")
+            for column_id, column in page["columns"].items():
+                if page["id"] in {"bnf-f0058", "bnf-f0059"} and column_id == "column-2":
+                    self.assertEqual(
+                        column["visual_review"], "targeted_ocr_contact_sheet_reviewed"
+                    )
+                    self.assertEqual(column["prior_visual_review"], "ai_line_by_line_checked")
+                else:
+                    self.assertEqual(column["visual_review"], "ai_line_by_line_checked")
                 self.assertRegex(
                     column["review_source"],
                     r"bnf-f00(?:56|57|58|59|60)-reviewed\.json$",
