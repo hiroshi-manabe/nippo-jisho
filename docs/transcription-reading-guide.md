@@ -28,6 +28,17 @@ Level 1 is a reasoned diplomatic transcription, not a linguistically blind descr
 
 Production review should separate the following perspectives so that expectation does not silently become evidence:
 
+For a general-AI review, these perspectives are organized operationally as a
+commented contextual reading followed by a fresh whole-page pass.  During the
+first pass, attach concise durable notes especially to suspicious words,
+recording the plausible interpretation and the visual or linguistic evidence
+needed to settle it.  Do not add formulaic comments to obvious lines.  After
+the final line, restart at the beginning and inspect the entire page again;
+the existing transcription and first-pass notes remain hypotheses, not an
+answer key.  This second pass is mandatory even when the first pass produced
+no correction candidates.  The detailed note and OCR-evidence policy is
+defined in the [General-AI commented page review](human-review-workflow.md#general-ai-commented-page-review).
+
 1. **Initial visual pass:** record the apparent print in physical order without consulting an external transcription.
 2. **Every-line enlarged alignment:** align every physical line with an enlarged scan tile, not only lines already thought difficult. Point through the source and transcription token by token, including short grammatical words and spaces; then make a second character-level sweep in reverse line order so semantic expectation cannot carry the reading. Check line coverage, word division, typeface, capitalization, spacing, punctuation, and abbreviations while the scan and transcription are adjacent. Isolate both column edges as their own visual surface: lexical continuation on the next line is not evidence that a division mark was printed.
 3. **Japanese and romanization pass:** actively parse the Japanese forms and examples, including particles and inflectional endings, and test them against historical Japanese morphology, syntax, and source-specific spelling patterns. Use implausibility to flag passages for reinspection.

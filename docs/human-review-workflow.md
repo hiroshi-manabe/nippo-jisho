@@ -210,6 +210,44 @@ A geometry-only external review remains importable after transcription-only chan
 
 Any change that affects the public review interface—including crop geometry, generated corpus data, reference material shown by the interface, or UI code—is not complete when it is merely committed locally. It must be pushed to `main`, the GitHub Pages workflow must finish successfully, and the affected public view must be reopened at the deployed reference commit. This deployment check is part of the UI-change workflow, not a separate optional publication step.
 
+## General-AI commented page review
+
+Before a page is handed to the human reviewer, the general-AI review uses two
+separate complete passes.
+
+1. **Commented contextual reading:** read every physical line against its scan
+   crop, considering the Japanese, Jesuit romanization, Portuguese, and the
+   bilingual relationship while proceeding through the page.  Add a concise
+   durable note wherever an interpretation, historical form, source anomaly,
+   unresolved distinction, or likely error candidate will help the later human
+   review.  Suspicious words receive particular attention: the note should say
+   what is suspicious, give the plausible reading or interpretation, and name
+   the evidence that would decide it.  Obvious lines do not need boilerplate
+   commentary, and a plausible explanation must never silently normalize the
+   diplomatic transcription.
+2. **Fresh whole-page pass:** after reaching the end, return to the beginning
+   and inspect every line once more.  Treat the first-pass transcription and
+   notes as provisional rather than as authority.  Look specifically for
+   omissions and wrong-line associations, Japanese forms that fail to parse,
+   incoherent Portuguese, misleading word boundaries or typeface, diacritics,
+   `s`/`ſ`/`f`, punctuation, spacing, and terminal line-division signs.  A new
+   finding is corrected only when compatible with the scan; its note is then
+   updated if the reasoning remains useful.
+
+The durable note produced here is part of the canonical line annotation and is
+shown to the human reviewer.  It is distinct from the temporary **Message to
+AI** field used by the human reviewer when submitting a correction.  Comments
+should preserve useful reasoning and genuine doubt, not become a transcript of
+routine internal deliberation.
+
+During both passes, OCR is strongest evidence for locally aligned but
+linguistically arbitrary graphic features, such as the position or identity of
+a diacritic, line-end punctuation, and short versus long `s`.  Linguistic and
+lexical evidence carries more weight when the alternatives change the Japanese
+or Portuguese analysis, especially for headword identity and morphology.  The
+balance selects reinspection hypotheses; the scan remains the Level 1
+authority.
+
 ## Automatic kana guide
 
 Every prepared human or general-AI review line carries a read-only `reading_hint`, generated during the public-review build from the exact baseline transcription. It pairs each detected upright Japanese phrase with a mechanical katakana rendering, for example `Facuran/ハクラン, Firoqu miru/ヒロク ミル`. This is a mandatory review aid, not a new transcription field. The generator explicitly handles common dictionary spellings such as `q`, `tç`, `x`, initial `v`, intervocalic `u`, labialized `qua`/`gua` (`Quacuran` → クヮクラン), and the silent orthographic `u` in `gue`/`gui` (`Xiraſagui` → シラサギ); Portuguese italic text and recognized editorial labels are excluded. Failure is displayed explicitly rather than silently hiding the guide.
