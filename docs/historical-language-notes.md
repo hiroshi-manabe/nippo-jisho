@@ -44,10 +44,16 @@ The key also uses `Gu-i` to show that vocalic `i` is a separate syllable rather 
 and consonantal `I` above. The earlier review note incorrectly called the
 initial anomalous; a familiar sound can have an unfamiliar printed spelling.
 
-Preserve `Ienuo` in Level 1. The derived kana guide recognizes this attested
-phrase contextually, without a global initial `I` → `J` substitution. Other
-instances require their own lexical and bilingual interpretation; this example
-alone does not establish that every `Ie-` sequence is consonantal.
+Preserve printed `I` in Level 1. The derived kana guide recognizes an explicit
+lexical set (`Ien`, `Ienno`, `Ienuo`, `Iengo`, `Ieni`, `Ienino`, `Ientai`),
+independently of the next word. Earlier examples include f20/c2-l024
+`Ienuo aguru` (膳を上ぐる), f41/c1-l032 `Iengo` (前後, glossing `Atoſaqi`),
+and f111/c2-l022 `Ienino coto` (銭のこと, in a definition mentioning coins).
+The f169/c1-l002 `Ientai` similarly reads ゼンタイ (全体), not イエンタイ.
+The former phrase-only exception for `Ienuo cubaru` missed these cases.
+This is not a global initial `I` → `J` or `Ie` → ゼ substitution: vocalic
+forms such as `Iye`, `Iua`, and `Iuauo` retain their readings. New lexical
+forms still require contextual interpretation before extending the set.
 
 ### 1.2 Register and domain labels
 

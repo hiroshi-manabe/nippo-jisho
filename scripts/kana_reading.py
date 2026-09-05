@@ -24,6 +24,10 @@ MARKED = {
 }
 NASAL = {"ã": "a", "ĩ": "i", "ũ": "u", "ẽ": "e", "õ": "o"}
 TOKEN_RE = re.compile(r"[A-Za-zÀ-žǍ-ǔſç]+")
+# Attested Japanese lexical forms with consonantal I/J, not a global Ie rule.
+# f20/f165: 膳; f41: 前後; f111: 銭; f169: 全体.
+# Include the separately attested Ien/Ienno, but do not infer arbitrary suffixes.
+CONSONANTAL_I_FORMS = {"ien", "ienno", "ienuo", "iengo", "ieni", "ienino", "ientai"}
 
 
 def normalized(value: str) -> str:
@@ -48,6 +52,8 @@ def transliterate_token(token: str) -> str | None:
     if not token or key in LABELS:
         return None
     text = normalized(token).replace("ſ", "s")
+    if text in CONSONANTAL_I_FORMS:
+        text = "j" + text[1:]
     output: list[str] = []
     index = 0
     while index < len(text):
@@ -200,19 +206,12 @@ def reading_tokens(text: str) -> list[str]:
 
 def phrase_hint(text: str) -> str | None:
     tokens = reading_tokens(text)
-    # Attested consonantal I/J variation: Ienuo cubaru under Faijen (膳を配る).
-    # Keep the diplomatic spelling in the label. Do not turn every initial
-    # I into J: vocalic I and other Japanese spellings also occur.
-    reading_forms = list(tokens)
-    for index, token in enumerate(tokens[:-1]):
-        if normalized(token) == "ienuo" and normalized(tokens[index + 1]) == "cubaru":
-            reading_forms[index] = "Jenuo"
     readings = [
         "イ"
         if normalized(token) == "i"
         and index > 0
         and normalized(tokens[index - 1]).endswith("guio")
-        else transliterate_token(reading_forms[index])
+        else transliterate_token(token)
         for index, token in enumerate(tokens)
     ]
     if not tokens or all(reading is None for reading in readings):

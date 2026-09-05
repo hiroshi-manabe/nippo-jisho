@@ -310,13 +310,24 @@ class PublicReviewRegressionTests(unittest.TestCase):
         self.assertIn("line.reading_hint", app)
         self.assertIn("Automatic reading unavailable", app)
 
-    def test_kana_consonantal_i_is_contextual_and_preserves_source_label(self):
-        from scripts.kana_reading import phrase_hint
+    def test_kana_consonantal_i_is_lexically_scoped_and_preserves_source_label(self):
+        from scripts.kana_reading import phrase_hint, transliterate_token
 
         self.assertEqual(phrase_hint("Ienuo cubaru"), "Ienuo cubaru/ゼンヲ クバル")
         self.assertEqual(phrase_hint("Jenuo cubaru"), "Jenuo cubaru/ゼンヲ クバル")
-        self.assertEqual(phrase_hint("Ienuo"), "Ienuo/イエンヲ")
+        self.assertEqual(phrase_hint("Ienuo"), "Ienuo/ゼンヲ")
+        self.assertEqual(phrase_hint("Ienuo aguru"), "Ienuo aguru/ゼンヲ アグル")
+        self.assertEqual(phrase_hint("Ienino coto"), "Ienino coto/ゼニノ コト")
+        for token, expected in [("Iengo", "ゼンゴ"), ("Ientai", "ゼンタイ"),
+                                ("Ien", "ゼン"), ("Ienno", "ゼンノ"),
+                                ("Ieni", "ゼニ"), ("ienuo", "ゼンヲ")]:
+            with self.subTest(token=token):
+                self.assertEqual(transliterate_token(token), expected)
+                self.assertEqual(phrase_hint(token), f"{token}/{expected}")
         self.assertEqual(phrase_hint("Iye"), "Iye/イエ")
+        self.assertEqual(phrase_hint("Iua"), "Iua/イワ")
+        self.assertEqual(phrase_hint("Iuauo"), "Iuauo/イワヲ")
+        self.assertEqual(phrase_hint("Ie"), "Ie/イエ")
 
     def test_kana_fragment_does_not_hide_neighboring_readable_words(self):
         from scripts.kana_reading import reading_hint
