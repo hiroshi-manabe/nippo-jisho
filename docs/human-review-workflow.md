@@ -225,13 +225,17 @@ separate complete passes.
 
 1. **Commented contextual reading:** read every physical line against its scan
    crop, considering the Japanese, Jesuit romanization, Portuguese, and the
-   bilingual relationship while proceeding through the page.  Add a concise
-   durable note wherever an interpretation, historical form, source anomaly,
-   unresolved distinction, or likely error candidate will help the later human
-   review.  Suspicious words receive particular attention: the note should say
+   bilingual relationship while proceeding through the page. Write a
+   substantive English durable note for **every body line**, including short,
+   apparently obvious, and continuation lines. Explain the Japanese meaning
+   or morphology, the Portuguese sense, or how the fragment connects with
+   neighboring lines, as appropriate. Use the generated kana guide as a
+   reference, but do not merely copy it as the note. Write these comments
+   during the reading pass, not as filler added after declaring review complete.
+   Suspicious words receive particular attention: the note should say
    what is suspicious, give the plausible reading or interpretation, and name
-   the evidence that would decide it.  Obvious lines do not need boilerplate
-   commentary, and a plausible explanation must never silently normalize the
+   the evidence that would decide it. Boilerplate such as “checked” does not
+   satisfy this requirement. A plausible explanation must never silently normalize the
    diplomatic transcription.
 2. **Fresh whole-page pass:** after reaching the end, return to the beginning
    and inspect every line once more.  Treat the first-pass transcription and
@@ -241,6 +245,16 @@ separate complete passes.
    `s`/`ſ`/`f`, punctuation, spacing, and terminal line-division signs.  A new
    finding is corrected only when compatible with the scan; its note is then
    updated if the reasoning remains useful.
+
+Before declaring this commented review complete, check that every body-line ID
+has a nonempty, substantive English note and that the fresh whole-page pass
+has been completed. Include displaced body fragments; running headers, page
+numbers, signatures, and catchwords do not require routine commentary. Report
+any missing body-line notes as unfinished work, with their IDs, rather than
+silently exempting them. Note coverage is a necessary completion check, not
+proof of accurate reading: empty filler and mechanically duplicated notes do
+not establish review. An older “AI checked” label alone does not establish
+completion of this stricter procedure.
 
 The durable note produced here is part of the canonical line annotation and is
 shown to the human reviewer.  It is distinct from the temporary **Message to

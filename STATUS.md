@@ -2,6 +2,22 @@
 
 Last updated: 2026-09-05
 
+## Commented-review follow-up
+
+The [general-AI commented review](docs/human-review-workflow.md#general-ai-commented-page-review)
+now explicitly requires substantive English notes on every body line, followed
+by a fresh whole-page pass and a note-coverage check. The existing f164–f170
+and f172–f180 annotations do not meet that requirement: the published snapshot
+had 46 notes on f164, two on f165, one each on f166–f167, and none on f168–f170
+or f172–f180. These pages need a commentary follow-up; existing review labels
+must not be taken as evidence that this procedure was completed.
+
+The user has submitted f164 corrections and suspects that sparse commentary
+contributed to missed errors. That causal explanation remains unverified.
+Any follow-up must respect the latest Issue corrections and human decisions,
+not reuse an outdated baseline. This entry records pending work, not a claim
+that the Issue or the page has been re-reviewed.
+
 ## Current phase
 
 **Level 1 format adopted — sequential production validation**
