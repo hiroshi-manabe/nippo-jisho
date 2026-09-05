@@ -302,7 +302,7 @@ The Issue body must not be placed in a GitHub `issues/new` query parameter. GitH
 
 The submission flow is therefore:
 
-1. Serialize the confirmed page corrections as readable schema-3 JSON. Durable annotation changes use `note_after`; temporary requests use `message`.
+1. Serialize the confirmed page corrections as readable schema-3 JSON. Include `note_before` and `note_after` only when the durable annotation changes, even when the transcription changes. Omit both for an unchanged annotation; omission preserves the existing note. An explicit `note_after: ""` deletes the note and must include `note_before`. Temporary requests use the independent `message` field. The same rule applies to each page in a combined submission.
 2. Copy the complete payload to the clipboard.
 3. Open a short GitHub Issue URL containing only the template selection and a page-specific title.
 4. Ask the reader to paste the copied JSON directly into the initially empty Issue body. The template retains the automatic title and correction label but supplies no prose, code-block wrapper, or formatted preview. The application script accepts plain JSON as well as the fenced JSON used by earlier Issues.

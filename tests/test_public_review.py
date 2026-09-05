@@ -416,6 +416,38 @@ equal(q.align('foo, bar.', 'foo bar.').deletions.map(item => [item.character, it
         self.assertIn("baseline_updated_at", builder)
         self.assertIn(".review-status", styles)
 
+    def test_submission_omits_unchanged_durable_notes(self):
+        script = r"""
+const fs = require('fs'), vm = require('vm'), assert = require('assert');
+const app = fs.readFileSync('site/app.js', 'utf8');
+const helper = app.slice(app.indexOf('function correctionChange('), app.indexOf('async function submitSelectedPages('));
+const edits = {
+  unchanged: {before:'a', after:'b', note_before:'Keep me', note_after:'Keep me', message:'Please check'},
+  modified: {before:'a', after:'a', note_before:'Old', note_after:'New'},
+  deleted: {before:'a', after:'b', note_before:'Delete me', note_after:''},
+  empty: {before:'a', after:'b', note_before:'', note_after:''},
+  missing: {before:'a', after:'b'},
+  absentAfter: {before:'a', after:'b', note_before:'Keep me'},
+  added: {before:'a', after:'a', note_before:'', note_after:'Added'},
+};
+const context = {pageEdits:()=>edits, state:{corpus:{commit:'abc'}}};
+vm.createContext(context); vm.runInContext(helper, context);
+const payload = JSON.parse(JSON.stringify(context.correctionPayload({view:'f1',transcription_version:'v1'})));
+const changes = Object.fromEntries(payload.changes.map(c=>[c.line,c]));
+for (const key of ['unchanged','empty','missing','absentAfter']) {
+  assert(!('note_before' in changes[key])); assert(!('note_after' in changes[key]));
+}
+assert.equal(changes.unchanged.message, 'Please check');
+assert.equal(changes.modified.note_after, 'New');
+assert.equal(changes.deleted.note_before, 'Delete me');
+assert.equal(changes.deleted.note_after, '');
+assert.equal(changes.added.note_after, 'Added');
+assert(app.includes('const records = pages.map(correctionPayload)'));
+assert(app.includes('JSON.stringify(correctionPayload(page), null, 2)'));
+"""
+        result = subprocess.run(["node", "-e", script], cwd=ROOT, capture_output=True, text=True)
+        self.assertEqual(result.returncode, 0, result.stderr)
+
     def test_status_position_tracks_wrapped_navigation_height(self):
         script = r"""
 const fs = require('fs');
@@ -558,7 +590,7 @@ assert(!/\.review-status\{[^}]*bottom:/.test(css));
         self.assertNotIn('name="second-opinion"', app)
         self.assertIn("note_before", app)
         self.assertIn("note_after", app)
-        self.assertIn("{ schema: 3, page: page.view", app)
+        self.assertRegex(app, r"\{\s*schema: 3, page: page\.view")
         self.assertIn("Any nonempty message requires AI inspection", workflow)
 
     def test_collapsed_lines_show_messages_and_copy_full_references(self):

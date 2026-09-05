@@ -19,6 +19,18 @@ from scripts.compile_level1_markdown import export_markdown, parse_markdown
 
 
 class CorrectionIssueProcessorTests(unittest.TestCase):
+    def test_omitted_note_is_preserved_and_explicit_empty_note_is_deleted(self):
+        from scripts.process_correction_issue import apply_change, apply_resolved
+        for fields, expected in [({}, "Existing note"),
+                                 ({"note_before": "Existing note", "note_after": ""}, None),
+                                 ({"note_before": "Existing note", "note_after": "New note"}, "New note")]:
+            with self.subTest(fields=fields):
+                line = {"id": "c1-l001", "runs": [{"typeface": "roman", "text": "Alpha."}], "note": "Existing note"}
+                item, _ = apply_change(line, {"line": line["id"], "before": "Alpha.", "after": "Beta.", **fields})
+                apply_resolved(line, item)
+                self.assertEqual(line.get("note"), expected)
+                self.assertEqual("".join(run["text"] for run in line["runs"]), "Beta.")
+
     def test_batch_validates_all_pages_then_applies_and_finalizes_per_page(self):
         import copy
         from scripts.process_correction_issue import write_json

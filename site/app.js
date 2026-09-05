@@ -1071,8 +1071,18 @@ async function copyLineReference(control) {
   else prompt('Copy this line reference:', reference);
 }
 
+function correctionChange(line, edit) {
+  const beforeNote = edit.note_before ?? '';
+  const afterNote = edit.note_after ?? beforeNote;
+  return {
+    line, before: edit.before, after: edit.after,
+    ...(afterNote !== beforeNote ? {note_before: beforeNote, note_after: afterNote} : {}),
+    ...(edit.message ? {message: edit.message} : {}),
+  };
+}
+
 function correctionPayload(page) {
-  const changes = Object.entries(pageEdits(page)).map(([line, edit]) => ({ line, before: edit.before, after: edit.after, note_before: edit.note_before || '', note_after: edit.note_after || '', ...(edit.message ? {message: edit.message} : {}) }));
+  const changes = Object.entries(pageEdits(page)).map(([line, edit]) => correctionChange(line, edit));
   return {schema: 3, page: page.view, base_commit: state.corpus.commit, base_transcription_version: page.transcription_version, changes};
 }
 
@@ -1116,8 +1126,7 @@ async function submitCorrections() {
     toast('This page has a newer baseline. Reload it before submitting.');
     return;
   }
-  const changes = Object.entries(pageEdits(page)).map(([line, edit]) => ({ line, before: edit.before, after: edit.after, note_before: edit.note_before || '', note_after: edit.note_after || '', ...(edit.message ? {message: edit.message} : {}) }));
-  const payload = JSON.stringify({ schema: 3, page: page.view, base_commit: state.corpus.commit, base_transcription_version: page.transcription_version, changes }, null, 2);
+  const payload = JSON.stringify(correctionPayload(page), null, 2);
   const issueURL = `https://github.com/${state.corpus.repository}/issues/new?template=transcription-correction.md&title=${encodeURIComponent(`[${page.view}] Transcription corrections`)}`;
   const issueWindow = window.open('about:blank', '_blank');
   const copied = await copyText(payload);
