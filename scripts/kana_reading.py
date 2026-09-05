@@ -65,11 +65,18 @@ def transliterate_token(token: str) -> str | None:
             output.extend((ROWS["w"][INDEX[following[0]]], following[1]))
             index += 2
             continue
-        if text[index] == "n" and text.startswith("nu", index) and vowel_at(text, index + 2):
+        if (text.startswith("nu", index) and vowel_at(text, index + 2)
+                and not (text.startswith("nuu", index) and vowel_at(text, index + 3))):
             # In forms such as ``Quǒguenuo``, the n closes the preceding
             # Japanese word and ``uo`` is the following particle: -n-uo,
-            # not the syllables nu-o.
+            # not the syllables nu-o. But nu + ua/uo keeps its own vowel:
+            # Inuuo = inu-uo, not in-u-uo.
             output.append("ン")
+            index += 1
+            continue
+        if text.startswith("cq", index):
+            # Mixed c/q spellings represent the same doubled k sound.
+            output.append("ッ")
             index += 1
             continue
         if text[index] == "n" and not text.startswith("nh", index) and (index + 1 == len(text) or not vowel_at(text, index + 1)):
@@ -127,7 +134,11 @@ def transliterate_token(token: str) -> str | None:
             return None
         if index < len(text) and text[index] == consonant and len(consonant) == 1:
             output.append("ッ"); index += 1
-        if index < len(text) and text[index] == "i" and consonant in "kgnhbpmr":
+        if (index < len(text) and consonant in "kgnhbpmr"
+                and (text[index] == "i" or
+                     (text[index] == "e" and text[index + 1:index + 2] in ("ǒ", "ô")))):
+            # eǒ/eô also mark palatalized long-o syllables (Reǒginno).
+            # Hints intentionally merge the open/closed long-o distinction.
             following = vowel_at(text, index + 1)
             # In sequences such as niua and biuo, the following u begins a
             # separate ua/uo spelling; it is not the palatalizing vowel of
