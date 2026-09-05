@@ -394,6 +394,33 @@ equal(q.align('foo, bar.', 'foo bar.').deletions.map(item => [item.character, it
         self.assertIn("baseline_updated_at", builder)
         self.assertIn(".review-status", styles)
 
+    def test_status_position_tracks_wrapped_navigation_height(self):
+        script = r"""
+const fs = require('fs');
+const vm = require('vm');
+const assert = require('assert');
+const app = fs.readFileSync('site/app.js', 'utf8');
+const helper = app.match(/function updateTopbarHeight\(\) \{[\s\S]*?\n\}/)[0];
+let height = 52;
+const properties = {};
+const context = {document: {
+  querySelector: () => ({getBoundingClientRect: () => ({height})}),
+  documentElement: {style: {setProperty: (key, value) => properties[key] = value}}
+}};
+vm.createContext(context);
+vm.runInContext(helper, context);
+context.updateTopbarHeight();
+assert.equal(properties['--topbar-height'], '52px');
+height = 106;
+context.updateTopbarHeight();
+assert.equal(properties['--topbar-height'], '106px');
+const css = fs.readFileSync('site/styles.css', 'utf8');
+assert(css.includes('top:calc(var(--topbar-height, 6.5rem) + .5rem)'));
+assert(!/\.review-status\{[^}]*bottom:/.test(css));
+"""
+        result = subprocess.run(["node", "-e", script], cwd=ROOT, capture_output=True, text=True)
+        self.assertEqual(result.returncode, 0, result.stderr)
+
     def test_qualified_ocr_hyphen_suggestions_seed_reversible_edits(self):
         suggestions = json.loads(
             (

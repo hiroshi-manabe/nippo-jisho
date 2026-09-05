@@ -1229,6 +1229,17 @@ $('#stale-draft-dialog').addEventListener('cancel', event => event.preventDefaul
 function setReference(open) { $('#reference-panel').classList.toggle('open', open); $('#reference-panel').setAttribute('aria-hidden', String(!open)); $('#reference-toggle').setAttribute('aria-expanded', String(open)); }
 $('#reference-toggle').addEventListener('click', () => setReference(!$('#reference-panel').classList.contains('open'))); $('#reference-close').addEventListener('click', () => setReference(false));
 document.querySelectorAll('[data-reference]').forEach(button => button.addEventListener('click', () => { document.querySelectorAll('[data-reference]').forEach(item => item.classList.toggle('active', item === button)); $('#reference-frame').src = `reference/${button.dataset.reference}.html`; }));
+// The navigation wraps on tablets and changes height when a page is opened.
+// Keep the floating baseline timestamp below it, including after rotation.
+function updateTopbarHeight() {
+  const height = document.querySelector('.topbar').getBoundingClientRect().height;
+  document.documentElement.style.setProperty('--topbar-height', `${height}px`);
+}
+updateTopbarHeight();
+if ('ResizeObserver' in window) {
+  new ResizeObserver(updateTopbarHeight).observe(document.querySelector('.topbar'));
+}
+window.addEventListener('resize', updateTopbarHeight);
 window.addEventListener('popstate', route);
 document.addEventListener('visibilitychange', () => {
   if (document.visibilityState === 'visible' && state.currentPage) void checkCorpusFreshness();
