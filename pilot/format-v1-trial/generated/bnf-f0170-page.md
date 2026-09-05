@@ -19,7 +19,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l003` | &emsp;*o que hum tinha à ſua conta, ou ſobre ſi, ou por* |  |
 | `c1-l004` | &emsp;*lhe a culpa. Vt,* Are coſo ſono jucuxiuo- |  |
 | `c1-l005` | &emsp;ba tabetareto fanecaqeôzure. Fab*. Eu* |  |
-| `c1-l006` | &emsp;*importei àquelle que elle he o que comeo os figos* |  |
+| `c1-l006` | &emsp;*imporei àquelle que elle he o que comeo os figos* |  |
 | `c1-l007` | &emsp;*maduros.* |  |
 | `c1-l008` | Fanecayexi, ſu, eita. *Tornar, ou virar co-* |  |
 | `c1-l009` | &emsp;*mo vingandoſe. ¶ Item, Virar de baixo* |  |
@@ -43,13 +43,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l027` | &emsp;*alauanca, &c. Vt,* Gorocujùnin xi- |  |
 | `c1-l028` | &emsp;temo voxi fataraqi gataqi dai banja- |  |
 | `c1-l029` | &emsp;cuno ariqeruuo ycitǒ fanevocoxi, &c. |  |
-| `c1-l030` | &emsp;Taif*. lib. 23. Cincoenta, ou 60. homeẽs* |  |
+| `c1-l030` | &emsp;Tai*. lib. 23. Cincoenta, ou 60. homeẽs* |  |
 | `c1-l031` | &emsp;*que tinhão dificuldade em mouer hũa grande* |  |
 | `c1-l032` | &emsp;*pedra que alli auia, & finalmente com alauã-* |  |
 | `c1-l033` | &emsp;*cas todos a hũa ſalteando a arrãcarão.* |  |
 | `c1-l034` | Faneuotoxi, ſu, ita. *Derrubar o cauallo dan-* |  |
-| `c1-l035` | &emsp;*do couces ao que eſta em cima. ¶* Cabe- |  |
-| `c1-l036` | &emsp;çuo faneuotoſu. *Dar com a cabeça fora a* |  |
+| `c1-l035` | &emsp;*do couces ao que eſta em cima. ¶* Cobe- |  |
+| `c1-l036` | &emsp;uo faneuotoſu. *Dar com a cabeça fora a* |  |
 | `c1-l037` | &emsp;*alguem cortandolha.* |  |
 | `c1-l038` | Faneyaburi, u, utta. *Quebrar, ou deſtruir* |  |
 | `c1-l039` | &emsp;*algũa couſa com os pès, pao, &c.* |  |
@@ -75,15 +75,15 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l001` | Fangonxô. Mexino nochino cane. *Sino q̃* |  |
 | `c2-l002` | &emsp;*tãgem de pois de comer.* |  |
 | `c2-l003` | Fangue. *Certa mezinha.* |  |
-| `c2-l004` | Fanguet. Nacatazzuqi. *Lũa mea chea.* |  |
+| `c2-l004` | Fanguet. Nacarazzuqi. *Lũa mea chea.* |  |
 | `c2-l005` | &emsp;*¶ Item, hũa mea lũa q̃ poem os Iapões ſobre* |  |
 | `c2-l006` | &emsp;*os capacetes, & nas pontas das lanças.* |  |
 | `c2-l007` | Fangui. *Emprenſa, ou impreſſão. Vt,* Fã- |  |
-| `c2-l008` | &emsp;guini ſuru, l, fanni ſuritçuguru. *Im-* |  |
+| `c2-l008` | &emsp;guini ſuru, l, fanni ſuritçuquru. *Im-* |  |
 | `c2-l009` | &emsp;*primir.* |  |
 | `c2-l010` | Fanguin. *Meo cate.* |  |
 | `c2-l011` | Fanguiǒ. i, Fan. *Sinal, ou ſello.* |  |
-| `c2-l012` | Fanguiri. i, Yonchacama. *Hũs meos calço-* |  |
+| `c2-l012` | Fanguiri. i, Yonobacama. *Hũs meos calço-* |  |
 | `c2-l013` | &emsp;*ẽs de Iapão que traz a gente baixa.* |  |
 | `c2-l014` | Fanguiri. *Tina larga, & baixa que ſerue pera* |  |
 | `c2-l015` | &emsp;*o vinho.* |  *( &c.* |
@@ -107,18 +107,18 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l033` | Fanjǒ. Xigueri ſacayuru. *Multiplicação.* |  |
 | `c2-l034` | &emsp;*Vt,* Xiſon fanjǒ ſuru. *Crecer a geração, ou* |  |
 | `c2-l035` | &emsp;*multiplicar.* |  |
-| `c2-l036` | Fanjǒ. Nacara iquiru. *Eſtar meo viuo. Vt,* |  |
+| `c2-l036` | Fanjǒ. Nacara iquru. *Eſtar meo viuo. Vt,* |  |
 | `c2-l037` | &emsp;Fanji fanjǒ. *Meo morto.* |  |
 | `c2-l038` | Fanmai. Mexino come. *Mantimento de* |  |
 | `c2-l039` | &emsp;*arroz.* |  |
 | `c2-l040` | Fanmichi. *Mea legua.* |  |
-| `c2-l041` | Fanmo. Xigueri, u. *Couſa eſpeſſa como are-* |  |
+| `c2-l041` | Fanmo. Xigueri, u. *Couſa eſpeſſa como er-* |  |
 | `c2-l042` | &emsp;*uas, ou ramos daruores.* |  |
 | `c2-l043` | Fanmonxen. *Mea caxa, ou a metade de hũa* |  |
 | `c2-l044` | &emsp;*moeda baixa de cobre.* |  |
 | `c2-l045` | Fannen. Toxino fanbun. *Meo anno.* |  |
 | `c2-l046` | Fanoji. *Certas riſcas, ou veas redondas que ſe* |  |
-| `c2-l047` | &emsp;*fazem nas bilhas, & em outras couſas.* |  |
+| `c2-l047` | &emsp;*fazem nas telhas, & em outras couſas.* |  |
 
 ## Catchword
 

@@ -35,7 +35,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l019` | Fanatçumi. *O colher flores. Vt,* Fanatçu- |  |
 | `c1-l020` | &emsp;miuo ſuru. |  |
 | `c1-l021` | Fanatçuqini. *Adu. De roſto a roſto, ou* |  |
-| `c1-l022` | &emsp;*de peito. ¶* Fanatçuqini yuqiau. *En-* |  |
+| `c1-l022` | &emsp;*de peito. ¶* Fanatçuqini yuqiuǒ. *En-* |  |
 | `c1-l023` | &emsp;*contrarſe de roſto a roſto.* |  |
 | `c1-l024` | Fanauo. *Cabreſtilho dos çapatos, ou alparcas* |  |
 | `c1-l025` | &emsp;*de Iapão que ſe encaixa entre os dedos dos pes.* |  |
@@ -89,17 +89,17 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l008` | &emsp;*& luzido.* |  |
 | `c2-l009` | Fanazono. *Iardim de flores.* |  |
 | `c2-l010` | Fanazzuri. i, Fanaguri. *Hũ circulo de pao-* |  |
-| `c2-l011` | &emsp;*de cera, ou vimes que metem pollas ventas dos* |  |
+| `c2-l011` | &emsp;*de era, ou vimes que metem pollas ventas dos* |  |
 | `c2-l012` | &emsp;*narizes aos bois.* |  |
 | `c2-l013` | Fanbacama. *Hũa maneira de calçoẽs curtos.* |  |
 | `c2-l014` | Fanben. *Certo comer de tǒfus aſſados, & de-* |  |
 | `c2-l015` | &emsp;*pois cozidos em Miſô.* |  |
-| `c2-l016` | Fanberi, u. i, Gozuru, sǒrǒ, &c. *Ser,* |  |
+| `c2-l016` | Fanberi, u. i, Gozaru, sǒrǒ, &c. *Ser,* |  |
 | `c2-l017` | &emsp;*eſtar, &c. S.* |  |
 | `c2-l018` | Fanbiqi. *A metade de hũa peça de ſeda fina,* |  |
 | `c2-l019` | &emsp;*& delgada chamada Qinu.* |  |
 | `c2-l020` | Fanbun. *A metade.* |  |
-| `c2-l021` | Fancai. *Vt,* Fincai fancô. Fanbun firaqi, |  |
+| `c2-l021` | Fancai. *Vt,* Fancai fancô. Fanbun firaqi, |  |
 | `c2-l022` | &emsp;fanbunua fuſagatte aru coto. *Eſtar meo* |  |
 | `c2-l023` | &emsp;*aberto, & meo fechado.* |  |
 | `c2-l024` | Fanchicu. Madara naru taqe. *Certa laya de* |  |
@@ -108,7 +108,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l027` | &emsp;ni mucǒ, l, tçuqu. *Porſe à meſa.* |  |
 | `c2-l028` | Fandan. Cotouari, u. *Arrezoar como ſo-* |  |
 | `c2-l029` | &emsp;*bre algũa demãda, &c. ou determinar, &* |  |
-| `c2-l030` | &emsp;*reſoluar como juiz.* |  |
+| `c2-l030` | &emsp;*reſoluer como juiz.* |  |
 | `c2-l031` | Fandan. *A metade de hũa varzea, peça, can-* |  |
 | `c2-l032` | &emsp;*ga, & de outras couſas que ſe contão por Ittan,* |  |
 | `c2-l033` | &emsp;*nitan, &c.* |  |

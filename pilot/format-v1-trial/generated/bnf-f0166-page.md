@@ -23,7 +23,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l007` | Faino zǒ. *Bofes.* |  |
 | `c1-l008` | Faiqen. Vogami, miru. *Ler a carta com* |  |
 | `c1-l009` | &emsp;*reuerencia. ¶* Gojǒuo faiqen tçucama- |  |
-| `c1-l010` | &emsp;tçutta. *Vt, ou li a carta de voſſa mercè.* |  |
+| `c1-l010` | &emsp;tçutta. *Vi, ou li a carta de voſſa mercè.* |  |
 | `c1-l011` | Faiqiacu. Sutaruru. *Desfazer, ou deſtruir.* |  |
 | `c1-l012` | &emsp;*Vt,* Faiqiacu ſuru. |  |
 | `c1-l013` | Faiquai. i, Vôrai ſuru coto. *Correr terras,* |  |
@@ -101,7 +101,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l027` | Fajime. *Começo, ou principio.* |  |
 | `c2-l028` | Fajime, uru, eta. *Começar. Ajuntaſe às rai-* |  |
 | `c2-l029` | &emsp;*zes de muitos verbos. Vt,* Yomifajimuru. |  |
-| `c2-l030` | &emsp;*Começar a ler.* Caqufajimuru. *Come-* |  |
+| `c2-l030` | &emsp;*Começar a ler.* Caqifajimuru. *Come-* |  |
 | `c2-l031` | &emsp;*çar a eſcreuer, &c.* |  |
 | `c2-l032` | Fajimete. *A primeira vez. Vt,* Fajime- |  |
 | `c2-l033` | &emsp;te vǒ meni cacaru. *Eſta he a primeira vez* |  |

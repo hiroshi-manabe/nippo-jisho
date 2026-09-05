@@ -33,11 +33,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l017` | Fanabuſa. *Roſa, ou flor como borla.* |  |
 | `c1-l018` | Fanabuye. *Cano por õde reſfolegão os narizes.* |  |
 | `c1-l019` | Fanacago. *Ceſto de roſas, ou flores.* |  |
-| `c1-l020` | Fanachi. i, Couan, l, mitçume. *Cana meãa* |  |
+| `c1-l020` | Fanachi. i, Couan, l, mitçuname. *Cana meãa* |  |
 | `c1-l021` | &emsp;*por onde ſe bebe.* |  |
 | `c1-l022` | Fanachi, tçu, aita. *Deſparar, ou atirar com* |  |
 | `c1-l023` | &emsp;*ſeta. ¶ Item, Largar, ou ſoltar paſſaros,* |  |
-| `c1-l024` | &emsp;*& animaes. Vt,* Rǒginno inudomouo |  |
+| `c1-l024` | &emsp;*& animaes. Vt,* Reǒginno inudomouo |  |
 | `c1-l025` | &emsp;ichinifiacqizzutçu fanachi auaxtareba, |  |
 | `c1-l026` | &emsp;*&c.* Taif*. Lib. 5. Soltando, & fa-* |  |
 | `c1-l027` | &emsp;*zendo pellejar de cada exercito cento, ou duzẽ* |  |
@@ -47,14 +47,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l031` | &emsp;¶ Inuuo fanachi caquru. *Soltar, & açular cães.* |  |
 | `c1-l032` | Fanachigai, l, fanaxigai. *Paſſaro, ou ani-* |  |
 | `c1-l033` | &emsp;*mal que ſe cria ſolto, & fora da gayola, &c.* |  |
-| `c1-l034` | &emsp;Vide fanaxigai. |  |
+| `c1-l034` | &emsp;*Vide* fanaxigai. |  |
 | `c1-l035` | Fanada. *Papel tinto de azul com hũa fulla* |  |
 | `c1-l036` | &emsp;*que ſe chama Fanagara. No* cami *ſe diz.* A- |  |
 | `c1-l037` | &emsp;uobana. |  |
 | `c1-l038` | Fanafadaxij. *Couſa grande, & terribel, como* |  |
 | `c1-l039` | &emsp;*ira, luxo, &c.* |  |
 | `c1-l040` | &emsp;Fanafadaxijſa. |  |
-| `c1-l041` | &emsp;Fanafadaxij. |  |
+| `c1-l041` | &emsp;Fanafadaxǔ. |  |
 | `c1-l042` | Fanaga. *Bom cheiro, particularmente de Cha.* |  |
 | `c1-l043` | &emsp;¶ *Per met.* Ano fitono fanaga ga nuqe- |  |
 | `c1-l044` | &emsp;ta. *Ia eſte homem não contenta como primei-* |  |
@@ -86,7 +86,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l011` | &emsp;ga taru. *Sair, ou correr ſãgue dos narizes.* |  |
 | `c2-l012` | Fanagoye. *Voz fanhoſa.* |  |
 | `c2-l013` | Fanaguri, l, potiùs, Fanazzuru. *Hũ cir-* |  |
-| `c2-l014` | &emsp;*culo de pao, de cera, ou vimes que mete pell-* |  |
+| `c2-l014` | &emsp;*culo de pao, de era, ou vimes que mete pell-* |  |
 | `c2-l015` | &emsp;*as ventas dos narizes dos bois em Iapão furã-* |  |
 | `c2-l016` | &emsp;*do lhas.* |  |
 | `c2-l017` | Fanai. *Vt,* Fanai fito. *Homem que logo* |  |
@@ -106,7 +106,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l031` | &emsp;*quem vai ver as flores.* |  |
 | `c2-l032` | Fanamuqe. *Dadiua que ſe da ao que vai pera* |  |
 | `c2-l033` | &emsp;*longe.* |  |
-| `c2-l034` | Fananegi. *Argola com que apertão os beiços às* |  |
+| `c2-l034` | Fananegi. *Aziar com que apertão os beiços às* |  |
 | `c2-l035` | &emsp;*beſtas pera ter mão nellas, & as ſujeitar.* |  |
 | `c2-l036` | Fanano aca. *Sugidade, ou ranho dos narizes.* |  |
 | `c2-l037` | Fanano ana. *Ventas dos narizes: no* Ximo *ſe* |  |

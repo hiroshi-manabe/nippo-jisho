@@ -6,17 +6,21 @@ Last updated: 2026-09-05
 
 The [general-AI commented review](docs/human-review-workflow.md#general-ai-commented-page-review)
 now explicitly requires substantive English notes on every body line, followed
-by a fresh whole-page pass and a note-coverage check. The existing f164–f170
-and f172–f180 annotations do not meet that requirement: the published snapshot
-had 46 notes on f164, two on f165, one each on f166–f167, and none on f168–f170
-or f172–f180. These pages need a commentary follow-up; existing review labels
-must not be taken as evidence that this procedure was completed.
+by a fresh whole-page pass and a note-coverage check. On 2026-09-05, f165–f170
+completed this follow-up: 567 body lines have individual English notes (94, 94,
+94, 96, 95, and 94 respectively), and every line received the separate second
+scan pass. The review changed 25 body lines, including typeface corrections;
+unresolved damaged or anomalous readings are identified in the notes.
 
-The user has submitted f164 corrections and suspects that sparse commentary
-contributed to missed errors. That causal explanation remains unverified.
-Any follow-up must respect the latest Issue corrections and human decisions,
-not reuse an outdated baseline. This entry records pending work, not a claim
-that the Issue or the page has been re-reviewed.
+The f164 and f172–f180 annotations still need a commentary follow-up: the
+earlier snapshot had 46 notes on f164 and none on f172–f180. Existing review
+labels must not be taken as evidence that the stricter procedure was completed.
+
+The f164 corrections from Issue #173 have been applied. The user's suspicion
+that sparse commentary contributed to missed errors remains a hypothesis,
+not a demonstrated causal result. Any further review must respect those human
+decisions and the latest baseline. This batch does not change human-review
+counts or claim that any page is error-free.
 
 ## Current phase
 

@@ -113,7 +113,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l033` | &emsp;*rer o ranho dos narizes: mas fana perſi não ſe* |  |
 | `c2-l034` | &emsp;*toma por ranho. ¶* Fanauo ſoroyuru. *Eſ-* |  |
 | `c2-l035` | &emsp;*tarem muitos caualos juntos. ¶* Fanaqire- |  |
-| `c2-l036` | &emsp;vji. *Vaca forra. i,* Peſſoa que anda liure, |  |
+| `c2-l036` | &emsp;vji. *Vaca forra. i, Peſſoa que anda liure,* |  |
 | `c2-l037` | &emsp;*& à vontade como vaca q̃ ſe lhe cortou a põ-* |  |
 | `c2-l038` | &emsp;*ta do beiço por onde eſtaua amarrada.* |  |
 | `c2-l039` | Fana. *Roſa, ou flor. ¶* Fanaga chiru. |  |

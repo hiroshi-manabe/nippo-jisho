@@ -43,7 +43,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l027` | Fai aruqi, u, ita. *Ir de gatinhas, ou raſteiro* |  |
 | `c1-l028` | &emsp;*pollo chão.* |  |
 | `c1-l029` | Faiban. *Hũa taboinha ſobre que poem o copo.* |  |
-| `c1-l030` | Faibun. Rǒjeqi. *Deſordem, & pertur-* |  |
+| `c1-l030` | Faiban. Rǒjeqi. *Deſordem, & pertur-* |  |
 | `c1-l031` | &emsp;*bação que fica no Zaxiqi, depois de muito* |  |
 | `c1-l032` | &emsp;*beber.* |  |
 | `c1-l033` | Faibun. Cubari, vaquru. *Repartição.* |  |
