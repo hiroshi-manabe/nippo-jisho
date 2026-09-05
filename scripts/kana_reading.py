@@ -81,8 +81,8 @@ def transliterate_token(token: str) -> str | None:
             output.append("ン")
             index += 1
             continue
-        if text.startswith("cq", index):
-            # Mixed c/q spellings represent the same doubled k sound.
+        if text.startswith(("cq", "cc"), index):
+            # cc and mixed c/q spellings represent the same doubled k sound.
             output.append("ッ")
             index += 1
             continue
