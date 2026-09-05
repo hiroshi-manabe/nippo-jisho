@@ -51,8 +51,13 @@ independently of the next word. Earlier examples include f20/c2-l024
 and f111/c2-l022 `Ienino coto` (銭のこと, in a definition mentioning coins).
 The f169/c1-l002 `Ientai` similarly reads ゼンタイ (全体), not イエンタイ.
 The f123/c2-l001 `Iitai`, beside `Cobami, jiſuru`, reads ジタイ (辞退).
-The derived converter includes this attested consonantal `Ii` form explicitly;
-it does not globally replace vocalic `ii`. The diplomatic spelling is unchanged.
+The derived converter treats **word-initial `Ii` as `Ji`**, rather than keeping
+`Iitai` as a lexical exception. Other current transcription examples include
+f63 `Iiguiuo`, f117 `Iiji`, f126 `Iiyoni`, f156 `Iibucu`/`Iibucuuo`, and
+f248 `Iin`. This rule is case-insensitive and changes only the derived reading,
+not the diplomatic spelling. Internal `ii` in `mochiiru`, `catariidaita`, and
+`curiidaſu` remains vocalic: those examples do not demonstrate ambiguity in
+initial `Ii`. The f167 gloss `Iy` for `Fan` (飯) retains イイ.
 The former phrase-only exception for `Ienuo cubaru` missed these cases.
 This is not a global initial `I` → `J` or `Ie` → ゼ substitution: vocalic
 forms such as `Iye`, `Iua`, and `Iuauo` retain their readings. New lexical

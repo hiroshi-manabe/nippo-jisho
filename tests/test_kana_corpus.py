@@ -7,11 +7,20 @@ from scripts.kana_reading import transliterate_token
 
 
 class KanaCorpusTests(unittest.TestCase):
-    def test_attested_iitai_has_consonantal_initial_i(self):
-        for token in ['Iitai', 'iitai', 'Jitai']:
-            self.assertEqual(transliterate_token(token), 'ジタイ')
-        # Do not reinterpret arbitrary initial ii as consonantal.
-        self.assertEqual(transliterate_token('ii'), 'イイ')
+    def test_initial_ii_is_consonantal(self):
+        cases = {'Iitai': 'ジタイ', 'iitai': 'ジタイ', 'Jitai': 'ジタイ',
+                 'Iiguiuo': 'ジギヲ', 'Iiji': 'ジジ', 'Iiyoni': 'ジヨニ',
+                 'Iibucu': 'ジブク', 'Iibucuuo': 'ジブクヲ', 'Iin': 'ジン'}
+        for token, expected in cases.items():
+            with self.subTest(token=token):
+                self.assertEqual(transliterate_token(token), expected)
+
+    def test_internal_ii_and_vocalic_iy_are_unchanged(self):
+        for token, expected in [('mochiiru', 'モチイル'),
+                                ('catariidaita', 'カタリイダイタ'),
+                                ('curiidaſu', 'クリイダス'), ('Iy', 'イイ')]:
+            with self.subTest(token=token):
+                self.assertEqual(transliterate_token(token), expected)
 
     def test_attested_spelling_patterns(self):
         cases = json.loads((Path(__file__).parent / 'fixtures/kana-corpus-cases.json').read_text())
