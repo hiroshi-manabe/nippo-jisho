@@ -70,6 +70,14 @@
     return knownTerms.has(parsed.text.slice(start, end)) ? {start, end} : null;
   }
 
+  const CITATION_LABELS = new Set(['Fab', 'Fei', 'Feiq', 'Fox', 'Mon', 'Tac', 'Taif', 'Taiſ', 'Tair', 'Tait', 'Faiq', 'Xix', 'Yax']);
+
+  function citationTypefaceTokenRange(value, index) {
+    const range = knownTypefaceTokenRange(value, index, CITATION_LABELS);
+    if (!range || parse(value).characters[range.end]?.character !== '.') return null;
+    return {start: range.start, end: range.end + 1};
+  }
+
   function typefaceTokenRange(value, index, originalCharacter) {
     const parsed = parse(value);
     if (!parsed.valid || !parsed.characters[index]) return null;
@@ -216,5 +224,5 @@
     return {operations, currentToBase, changed, deletions};
   }
 
-  return {VOWEL_CYCLES, DELETABLE, parse, serialize, replace, knownTypefaceTokenRange, typefaceTokenRange, toggleTypefaceRange, nextSForm, nextGQ, nextNM, nextPostvocalicNasal, nextCedilla, nextUV, nextIJ, vowelCycleForOriginal, nextVowel, align};
+  return {VOWEL_CYCLES, DELETABLE, parse, serialize, replace, knownTypefaceTokenRange, citationTypefaceTokenRange, typefaceTokenRange, toggleTypefaceRange, nextSForm, nextGQ, nextNM, nextPostvocalicNasal, nextCedilla, nextUV, nextIJ, vowelCycleForOriginal, nextVowel, align};
 }));

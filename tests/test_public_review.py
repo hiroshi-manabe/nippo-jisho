@@ -270,6 +270,7 @@ class PublicReviewRegressionTests(unittest.TestCase):
         self.assertEqual(transliterate_token("guio"), "ギョ")
         self.assertIsNone(transliterate_token("i"))
         self.assertIsNone(transliterate_token("Vt"))
+        self.assertIsNone(transliterate_token("Yax"))
         self.assertIsNone(reading_hint([{"typeface": "roman", "text": "i."}]))
         self.assertFalse(
             reading_hint_applicable([
@@ -402,6 +403,18 @@ equal(q.typefaceTokenRange('i, l, word', 0), {start: 0, end: 1});
 equal(q.typefaceTokenRange('i, l, word', 3), {start: 3, end: 4});
 equal(q.typefaceTokenRange('word l', 5), {start: 5, end: 6});
 equal(q.typefaceTokenRange('a, l', 0), null);
+for (const label of ['Yax.', 'Taif.', 'Feiq.', 'Taiſ.']) {
+  for (let i = 0; i < label.length - 1; i++) {
+    equal(q.citationTypefaceTokenRange(label, i), {start: 0, end: label.length});
+  }
+  equal(q.citationTypefaceTokenRange(label, label.length - 1), null);
+  const styles = Array(label.length).fill('italic');
+  const toggled = q.toggleTypefaceRange(label, 0, label.length, styles);
+  equal(toggled, '[' + label + ']');
+  equal(q.toggleTypefaceRange(toggled, 0, label.length, styles), label);
+}
+equal(q.citationTypefaceTokenRange('Fazzukaxu.', 0), null);
+equal(q.citationTypefaceTokenRange('Yax', 0), null);
 for (const vowel of ['à', 'á', 'ã', 'è', 'é', 'ẽ', 'ì', 'ĩ', 'ô', 'ǒ', 'õ', 'ù', 'ũ', 'ǔ', 'À']) {
   equal(q.typefaceTokenRange(vowel + '.', 0), null);
   equal(q.typefaceTokenRange(vowel.normalize('NFD')[0] + '.', 0, vowel), null);

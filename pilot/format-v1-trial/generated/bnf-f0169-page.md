@@ -84,7 +84,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l003` | &emsp;*ſtroſa, &c.* |  |
 | `c2-l004` | Fanayacani. *Adu. Galantemente, ou lu-* |  |
 | `c2-l005` | &emsp;*zida, & luſtroſamente. ¶* Sono fitono |  |
-| `c2-l006` | &emsp;xǒzocu ichidãto fanayacani miyeta. *Yax.* |  |
+| `c2-l006` | &emsp;xǒzocu ichidãto fanayacani miyeta. Yax. |  |
 | `c2-l007` | &emsp;*O veſtido daquelle homem parecia mui galante,* |  |
 | `c2-l008` | &emsp;*& luzido.* |  |
 | `c2-l009` | Fanazono. *Iardim de flores.* |  |

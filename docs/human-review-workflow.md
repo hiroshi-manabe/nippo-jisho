@@ -410,6 +410,16 @@ This prior does not authorize automatic acceptance or normalization. The scan re
 
 ## Transcription-character input
 
+Known citation labels (`Fab.`, `Fei.`, `Feiq.`, `Fox.`, `Mon.`, `Tac.`,
+`Taif.` and recorded variants `Taiſ.`, `Tair.`, `Tait.`, `Faiq.`, plus
+`Xix.` and `Yax.`) toggle Roman/italic when any letter is clicked, regardless
+of their current typeface. The toggle includes the terminal period; clicking
+the period itself retains punctuation deletion. This explicit label list does
+not restore the old blanket capitalized-word rule. During AI review, inspect
+citation-label typeface separately from the surrounding Portuguese; Roman
+type is common but is not a license to normalize every occurrence. The
+human-confirmed f169/c2-l006 `Yax.` is Roman and is excluded from kana hints.
+
 Quick-edit exception: standalone accented vowels such as `à`, `ẽ`, `ǒ`, and
 `ũ` use accent cycling, not the one-letter Roman/italic toggle. This remains
 true when an originally accented vowel cycles back to its plain form. Plain
