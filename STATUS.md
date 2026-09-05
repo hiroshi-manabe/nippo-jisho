@@ -4,6 +4,11 @@ Last updated: 2026-09-05
 
 ## Commented-review follow-up
 
+The review UI now distinguishes **AI reviewed with commentary** using the
+explicit per-page [completion registry](pilot/human-review/commentary-reviews.json).
+It currently covers f165–f170 and f172–f180, not every page through f180.
+Human correction-Issue counts remain separate.
+
 The [general-AI commented review](docs/human-review-workflow.md#general-ai-commented-page-review)
 now explicitly requires substantive English notes on every body line, followed
 by a fresh whole-page pass and a note-coverage check. On 2026-09-05, f165–f170

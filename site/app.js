@@ -205,6 +205,7 @@ function issueCountLabel(page) {
 
 function reviewStageLabel(page) {
   if (!page.processed) return 'Scan only';
+  if (page.commentary_review) return 'AI reviewed with commentary';
   return page.ai_checked ? 'AI checked' : 'Machine draft';
 }
 
@@ -251,7 +252,7 @@ function pageStateLabel(page) {
   if (page.data_state === 'machine_provisional') {
     return page.structural_review_required ? 'OCR provisional · structural review' : 'OCR provisional';
   }
-  if (page.data_state === 'canonical_level1' || page.processed) return 'Level 1 transcription';
+  if (page.data_state === 'canonical_level1' || page.processed) return reviewStageLabel(page);
   return 'Unprocessed';
 }
 

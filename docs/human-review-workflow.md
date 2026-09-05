@@ -218,6 +218,23 @@ Any change that affects the public review interface—including crop geometry, g
 
 ## General-AI commented page review
 
+The explicit **AI reviewed with commentary** stage is recorded per page in
+`pilot/human-review/commentary-reviews.json`, with the completion date, procedure
+version, and evidence commit. Register a page only after both complete passes
+below and the note-coverage check. Comments alone, a production-review file,
+or a page number below the latest reviewed page do not qualify it. The overview
+and page status show this stage beyond **AI checked**; applied human-Issue counts
+remain independent. This is a completed-work checkpoint, not a claim of perfect
+accuracy. Later human corrections do not erase it, and this metadata does not
+change the transcription baseline or discard saved edits. If the page is later
+replaced wholesale with an unreviewed transcription, remove its registration
+until the procedure is repeated.
+
+The initial registrations cover f165–f170 and f172–f180. f163 and f171 have
+commentary but lack explicit evidence of a subsequent complete second pass;
+they are not promoted retrospectively on that basis. f164 remains unfinished
+under the stricter commentary procedure.
+
 During this review, identify Japanese terms embedded in Portuguese explanations whose typeface the human may want to change. Add the page ID, line ID, exact current plain `source_text`, and a `terms` list to `pilot/human-review/typeface-toggle-terms.json` (see f164 for examples). Do this regardless of whether the term is currently roman or italic. Do not mark ordinary Japanese headwords, Japanese synonyms introduced by `i,`, or Japanese examples merely because italic text precedes them. The public builder enables whole-word clicking only on matching marked lines. If the canonical line text changes, refresh the annotation after checking its context; until then the old annotation is inactive. These controls do not change transcription versions or Issue payloads.
 
 Before a page is handed to the human reviewer, the general-AI review uses two

@@ -297,6 +297,7 @@ def main() -> int:
     reviews = {page["id"]: page["units"] for page in review_record["pages"]}
     correction_record = load_json(root / "pilot/human-review/correction-history.json")
     corrections = {page["id"]: page for page in correction_record["pages"]}
+    commentary_reviews = load_json(root / "pilot/human-review/commentary-reviews.json")["pages"]
     geometry_record = load_json(root / "pilot/human-review/line-geometry.json")
     geometries = {page["id"]: page for page in geometry_record["pages"]}
     suggestion_record = load_json(
@@ -418,6 +419,11 @@ def main() -> int:
                     "baseline_updated_at": None,
                 }
             )
+        page["commentary_review"] = commentary_reviews.get(page_id)
+        if page["commentary_review"]:
+            if not page.get("processed") or page.get("machine_provisional"):
+                raise ValueError(f"Commentary review registered for noncanonical page {page_id}")
+            page["ai_checked"] = True
         pages.append(page)
     toggle_pages = load_json(root / "pilot/human-review/typeface-toggle-terms.json")["pages"]
     for page in pages:

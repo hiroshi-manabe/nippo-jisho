@@ -11,6 +11,21 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class PublicReviewRegressionTests(unittest.TestCase):
+    def test_commentary_stage_is_explicit_and_separate_from_human_counts(self):
+        script = r"""
+const fs = require('fs'), vm = require('vm'), assert = require('assert');
+const app = fs.readFileSync('site/app.js', 'utf8');
+const source = app.slice(app.indexOf('function reviewStageLabel('), app.indexOf('function shortBaselineDate('));
+const context = {}; vm.createContext(context); vm.runInContext(source, context);
+const label = context.reviewStageLabel;
+assert.equal(label({processed: false}), 'Scan only');
+assert.equal(label({processed: true, ai_checked: false}), 'Machine draft');
+assert.equal(label({processed: true, ai_checked: true, notes: ['many notes'], corrections: {issues_applied: 3}}), 'AI checked');
+assert.equal(label({processed: true, commentary_review: {completed_at: '2026-09-05'}, corrections: {issues_applied: 0}}), 'AI reviewed with commentary');
+"""
+        result = subprocess.run(["node", "-e", script], cwd=ROOT, capture_output=True, text=True)
+        self.assertEqual(result.returncode, 0, result.stderr)
+
     def test_public_corpus_exposes_ocr_candidates_without_promoting_them(self):
         with tempfile.TemporaryDirectory() as directory:
             result = subprocess.run(
