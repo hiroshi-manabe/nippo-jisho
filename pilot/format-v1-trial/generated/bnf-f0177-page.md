@@ -23,19 +23,19 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l007` | Faxeai, uǒ, uota. *Encontraremſe algũs cõ* |  |
 | `c1-l008` | &emsp;*preſſa.* |  |
 | `c1-l009` | Faxeatçumari, u, atta. *Ajuntarſe de preſſa.* |  |
-| `c1-l010` | Faxeague, uru, eta. *Dar a fune ſobre algũa* |  |
+| `c1-l010` | Faxeague, uru, eta. *Dar a Fune ſobre algũa* |  |
 | `c1-l011` | &emsp;*pedra, ou em algum baixo, &c. Vt,* Fune |  |
-| `c1-l012` | &emsp;uo xeni faxeagueta. *Deu a Fune em hũa* |  |
+| `c1-l012` | &emsp;uo xeni faxeagueta. *Deu a* Fune *em hũa* |  |
 | `c1-l013` | &emsp;*restinga.* |  |
-| `c1-l014` | Faxearuqi, u, uita. *Correr de cà, pera la.* |  |
+| `c1-l014` | Faxearuqi, u, uita. *Correr de cà, pera là.* |  |
 | `c1-l015` | Faxeauaxe, ſuru, eta. *Fazer encontrar.* |  |
 | `c1-l016` | &emsp;*Vt,* Areni faxeauaxe, coreni ſaxiauaxe |  |
-| `c1-l017` | &emsp;tatacǒta. Feiq*. Lib. 4. Pelejaua en* |  |
+| `c1-l017` | &emsp;tatacǒta. Feiq. *Lib. 4. Pelejaua en* |  |
 | `c1-l018` | &emsp;*contrandoſe ora com aquelle, ora com eſte.* |  |
 | `c1-l019` | Faxecayeri, u, etta. *Tornarſe de preſſa.* |  |
 | `c1-l020` | Faxetçudoi, ô, ôta. *Vir muita gente con-* |  |
 | `c1-l021` | &emsp;*tinuando.* |  |
-| `c1-l022` | Faxechigai, ǒ, ǒta. *Correndo deſencontrarſe.* |  |
+| `c1-l022` | Faxechigai, ǒ, ǒta. *Correndo deſencõtrarſe.* |  |
 | `c1-l023` | Faxechiri, u, itta. *Eſpalharſe muita gente* |  |
 | `c1-l024` | &emsp;*com preſſa.* |  |
 | `c1-l025` | Faxecudari, u, atta. *Decer de preſſa.* |  |
@@ -91,7 +91,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l011` | &emsp;*aſſi com preſſa.* |  |
 | `c2-l012` | Faxi. *Dous paoſinhos com que comẽ os Iapoẽs.* |  |
 | `c2-l013` | Faxi. *Bico de paſſaro.* |  |
-| `c2-l014` | Faxi. *Borda, ou calo de algũa couſa.* |  |
+| `c2-l014` | Faxi. *Borda, ou cabo de algũa couſa.* |  |
 | `c2-l015` | Faxi. *Eſcada.* |  |
 | `c2-l016` | Faxi. *Ponte. ¶* Faxiuo vataſu. *Fazer,* |  |
 | `c2-l017` | &emsp;*ou atraueſar a ponte no rio. ¶* Faxiuo fi- |  |
@@ -106,15 +106,15 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l026` | Faxibaxi. *Bordas, ou cabos dalgũa couſa.* |  |
 | `c2-l027` | &emsp;¶ Zaixono faxibaxi. *Arrabaldes do lu-* |  |
 | `c2-l028` | &emsp;*gar. ¶ Item, Pouco. Vt,* Faxibaxiuo |  |
-| `c2-l029` | &emsp;qijia, l, vqecamauatta. *Ouui leuemente,* |  |
+| `c2-l029` | &emsp;qijta, l, vqecamauatta. *Ouui leuemente,* |  |
 | `c2-l030` | &emsp;*ou pouco do que paſſou* |  |
 | `c2-l031` | Faxibune. *Embarcação pequena como man-* |  |
 | `c2-l032` | &emsp;*chua, ou batelinho.* |  |
-| `c2-l033` | Faxica. *Surampão. ¶* Faxicauo ſuru. |  |
+| `c2-l033` | Faxica. *Sarampão. ¶* Faxicauo ſuru. |  |
 | `c2-l034` | &emsp;*Ter ſarampão.* |  |
 | `c2-l035` | Faxica, l, nogui. *Pragana de trigo, ou arroz* |  |
 | `c2-l036` | Faxicai. *Couſa aſpera, & deſabrida como veſ-* |  |
-| `c2-l037` | &emsp;*tido, rolleiro ſobre a carne nua, &c. ¶ Item,* |  |
+| `c2-l037` | &emsp;*tido groſſeiro ſobre a carne nua, &c. ¶ Itẽ,* |  |
 | `c2-l038` | &emsp;*Couſa facil de quebrar como ferro fraco, &* |  |
 | `c2-l039` | &emsp;*quebradiço. ¶ Per met.* Faxicai fito. |  |
 | `c2-l040` | &emsp;*Homem que da facilmente no coração de outro* |  |

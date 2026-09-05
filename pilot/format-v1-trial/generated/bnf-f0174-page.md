@@ -14,15 +14,15 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | &emsp;*do dom papel algũa couſa, ou com peça fi-* |  |
+| `c1-l001` | &emsp;*do com papel algũa couſa, ou com peça fi-* |  |
 | `c1-l002` | &emsp;*na, &c.* |  |
 | `c1-l003` | Faritçucai. *O ſangrar beſtas. Vt,* Fari- |  |
 | `c1-l004` | &emsp;tçucaiuo itaſu. |  |
 | `c1-l005` | Faritçuqe. *Hũa maneira de portas de paſta de* |  |
-| `c1-l006` | &emsp;*papel pegadas na parede com ſuas faſquias ao* |  |
+| `c1-l006` | &emsp;*papel pegadas no parede com ſuas faſquias ao* |  |
 | `c1-l007` | &emsp;*redor de pao vruxado de preto, pera que res-* |  |
 | `c1-l008` | &emsp;*pondão às de mais portas de papel que eſtão no* |  |
-| `c1-l009` | &emsp;*zaxiqi, & ſe correm, ou abrem, & fechão.* |  |
+| `c1-l009` | &emsp;*Zaxiqi, & ſe correm, ou abrem, & fechão.* |  |
 | `c1-l010` | Fariyaburi, uru, utta. *Raſgar, quebrar.* |  |
 | `c1-l011` | Farǒ. Nami. *Ondas.* |  |
 | `c1-l012` | Faru. *Prima vera.* |  |
@@ -39,7 +39,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l023` | &emsp;*longe. Vt,* Farucano michi. *Caminho* |  |
 | `c1-l024` | &emsp;*comprido, ou diſtante.* |  |
 | `c1-l025` | &emsp;Farucani. *Adu.* |  |
-| `c1-l026` | &emsp;Faruqeſa. *P.* |  |
+| `c1-l026` | &emsp;Faruqeſa. P. |  |
 | `c1-l027` | Faruco. *Bichos de ſeda da prima vera.* |  |
 | `c1-l028` | Farugo. *Filho nacido de cão, ou animal ſeme-* |  |
 | `c1-l029` | &emsp;*lhante na prima vera.* |  |
@@ -73,7 +73,7 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c2-l001` | &emsp;*mento a alguem entalando lhe os pès entre ta-* |  |
-| `c2-l002` | &emsp;*boas, ou paus. ¶ Item,* Faſamu. *Tro* |  |
+| `c2-l002` | &emsp;*boas, ou paos. ¶ Item,* Faſamu. *Troſ-* |  |
 | `c2-l003` | &emsp;*quiar.* |  |
 | `c2-l004` | Faſamibaco. *Caixa que ſe leua fechada cõ algũ* |  |
 | `c2-l005` | &emsp;*veſtido dentro às coſtas atraueſada em hũ pao.* |  |
@@ -93,20 +93,20 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l019` | &emsp;*gũa couſa aleuantada entre duas como adaga* |  |
 | `c2-l020` | &emsp;*entredous Tatamis, &c.* |  |
 | `c2-l021` | Faſamiuoroxi, ſu, oita. *Troſquiar. Vt,* |  |
-| `c2-l022` | &emsp;Amarino xencata naſani facuratuo faſami |  |
-| `c2-l023` | &emsp;voroſu. Feiq*. Lib. 4. Por mais não po-* |  |
+| `c2-l022` | &emsp;Amarino xencata naſani facutatuo faſami |  |
+| `c2-l023` | &emsp;voroſu. Feiq. *Lib. 4. Por mais não po-* |  |
 | `c2-l024` | &emsp;*der troſquiou os cabelos brancos.* |  |
 | `c2-l025` | Faſan. Sacazzuqiuo cubaru. *Mandar, ou* |  |
 | `c2-l026` | &emsp;*dirigir o Sacazzuqi a alguem. Vt,* Go- |  |
 | `c2-l027` | &emsp;faſan are. *A quem quereis que ſe de o Sa-* |  |
-| `c2-l028` | &emsp;cazzuqi. |  |
+| `c2-l028` | &emsp;*cazzuqi.* |  |
 | `c2-l029` | Faſan. *O interceder, ou aueriguar opreço en-* |  |
 | `c2-l030` | &emsp;*tre os que comprão, & vẽdem. Vt,* Faſan |  |
 | `c2-l031` | &emsp;ſuru. *Fazer eſte officio de corretor.* |  |
 | `c2-l032` | Faſan, i, faſuru. *O deſmanchar, ou deſfazer as* |  |
 | `c2-l033` | &emsp;*cõtas depois de concluidas, ou baralhar os ten-* |  |
 | `c2-l034` | &emsp;*tos das contas. &c.* |  |
-| `c2-l035` | Faſǒ. Yabureta mado. *Ianela quebrada.* P*.* |  |
+| `c2-l035` | Faſǒ. Yabureta mado. *Ianela quebrada.* P. |  |
 | `c2-l036` | Faſon. Yabure ſonzuru. *Quebrarſe o na-* |  |
 | `c2-l037` | &emsp;*uio ou fazer naufragio. Vt,* Funega faſon |  |
 | `c2-l038` | &emsp;xita. *Quebrouſe, ou perdeoſe a embarcação.* |  |
@@ -115,9 +115,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l041` | Faſſaina mono. *Molher que falla, ou palra* |  |
 | `c2-l042` | &emsp;*muito.* |  |
 | `c2-l043` | Faſsan. *O diuidirnas contas. Vide* Giſan. |  |
-| `c2-l044` | Faſǒ. *Oito eſtados que teue a vida de Xaca-* |  |
-| `c2-l045` | &emsp;Bup*.* |  |
-| `c2-l046` | Faſſocu. Axino vocoſu. *O partirſe pera a* |  |
+| `c2-l044` | Faſsǒ. *Oito eſtados que teue a vida de* Xaca- |  |
+| `c2-l045` | &emsp;Bup. |  |
+| `c2-l046` | Faſſocu. Axiuo vocoſu. *O partirſe pera a* |  |
 | `c2-l047` | &emsp;*guerra algũa peſſoa nobre.* |  |
 
 ## Catchword

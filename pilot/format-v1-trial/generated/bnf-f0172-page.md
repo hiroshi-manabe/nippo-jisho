@@ -40,13 +40,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l024` | &emsp;¶ Faraga tomaru, *eſtancarem as camaras.* |  |
 | `c1-l025` | Faraate, l, faramaqi. *Armas.* |  |
 | `c1-l026` | Faraca. *Hum certo peixe.* |  |
-| `c1-l027` | Faracara. *P. i, qiǒdai. Irmão, ou Irmãa.* |  |
+| `c1-l027` | Faracara. *P.* i, qiǒdai. *Irmão, ou Irmãa.* |  |
 | `c1-l028` | Faracudari. *Camaras.* |  |
 | `c1-l029` | Faradachi. *Agaſtamento.* |  |
 | `c1-l030` | Faradachi, u, atta. *Agaſtarſe.* |  |
-| `c1-l031` | Farafarato. *Adu. Modo de chouer, ou torre-* |  |
+| `c1-l031` | Farafarato. *Adu. Modo de chouer, ou corre-* |  |
 | `c1-l032` | &emsp;*rem as lagrimas, ou de derrubar, & cortar* |  |
-| `c1-l033` | &emsp;*muito poios inimigos. Vt,* Teqiuo fara- |  |
+| `c1-l033` | &emsp;*muito polos inimigos. Vt,* Teqiuo fara- |  |
 | `c1-l034` | &emsp;farato qirifuxete, &c. *Cortando, & der-* |  |
 | `c1-l035` | &emsp;*rubando inimigos.* |  |
 | `c1-l036` | Faragaqe. *Cinta, ou corda com que cingem,* |  |
@@ -56,11 +56,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l040` | &emsp;*Irmãos filhos de diuerſas mãys.* |  |
 | `c1-l041` | Faragome. *Criança que fica no ventre da* |  |
 | `c1-l042` | &emsp;*mãy quando o pay morre.* X*. ¶* Farago- |  |
-| `c1-l043` | &emsp;meno toqicara terega xinda. *Morre-* |  |
+| `c1-l043` | &emsp;meno toqicara tetega xinda. *Morre-* |  |
 | `c1-l044` | &emsp;*olhe o pay ficando, ou eſtando ainda no ven-* |  |
 | `c1-l045` | &emsp;*tre da mãy. ¶ Item, Criança, ou filho de qual* |  |
 | `c1-l046` | &emsp;*quer animal que fica no ventre da mãy morta.* |  |
-| `c1-l047` | Faragomiori. *Corçozinho que eſta na barriga* |  |
+| `c1-l047` | Faragomori. *Corçozinho que eſta na barriga* |  |
 
 ## Column 2 running header
 
@@ -78,11 +78,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l004` | &emsp;tariuo farǒ. *Ir com grande fauſto. ¶* A- |  |
 | `c2-l005` | &emsp;cuuo farǒ. *Botar de ſi os peccados. ¶* Te- |  |
 | `c2-l006` | &emsp;mayeuo farǒ. *Iuſtificarſe de algũa couſa,* |  |
-| `c2-l007` | &emsp;*ou çafarſe de cõtas, &c.* Farai catano fanyǒ. |  |
+| `c2-l007` | &emsp;*ou çafarſe de cõtas, &c.* Farai catano ſanyô. |  |
 | `c2-l008` | &emsp;*Contas do que hum tem deſpendido, por or-* |  |
 | `c2-l009` | &emsp;*dem, ou commiſão do ſenhor.* |  |
 | `c2-l010` | Faraiguiri. *O cortar tudo ſem ter deuer que ſe* |  |
-| `c2-l011` | &emsp;*ſeja molher, minino, religioſo, &c. Vt,* Farai- |  |
+| `c2-l011` | &emsp;*ja molher, minino, religioſo, &c. Vt,* Farai- |  |
 | `c2-l012` | &emsp;guiriuo ſuru. |  |
 | `c2-l013` | Farainoqe, uru, eta. *Botar de ſi, ou lan-* |  |
 | `c2-l014` | &emsp;*çar fora.* |  |
@@ -93,7 +93,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l019` | Farameqi, u, eita. *Fazerſe traquinada, ou* |  |
 | `c2-l020` | &emsp;*ruido. ¶ Item, Eſtarem algũas couſas mal* |  |
 | `c2-l021` | &emsp;*cozidas, & deſunidas como grãos de arroz,* |  |
-| `c2-l022` | &emsp;*gergelaca, &c. ¶* Mexiga faramequ. |  |
+| `c2-l022` | &emsp;*gergelada, &c. ¶* Mexiga faramequ. |  |
 | `c2-l023` | &emsp;*Eſtar o arroz mal cozido deſta maneira.* |  |
 | `c2-l024` | Farami, u, ǒda. *Emprenhar. ¶* Couo |  |
 | `c2-l025` | &emsp;faramu. *Eſtar prenhe, ou com o filho na bar-* |  |
@@ -111,8 +111,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l037` | Farauobi. *Hũa cinta que poem as molheres* |  |
 | `c2-l038` | &emsp;*prenhes junto da carne pera fazer a barriga pe-* |  |
 | `c2-l039` | &emsp;*quena.* X*.* |  |
-| `c2-l040` | Faraxi, ſu, aita. *Aclarar. ¶* Cocoru |  |
-| `c2-l041` | &emsp;uo faraſu. *Deſabaſar. ¶* Fuxiuo fara- |  |
+| `c2-l040` | Faraxi, ſu, aita. *Aclarar. ¶* Cocoro |  |
+| `c2-l041` | &emsp;uo faraſu. *Deſabafar. ¶* Fuxiuo fara- |  |
 | `c2-l042` | &emsp;ſu. *Soltar a duuida. ¶* Mayoiuo fara- |  |
 | `c2-l043` | &emsp;ſu. *Botar fora o erro. ¶* Qizzucaiuo |  |
 | `c2-l044` | &emsp;faraſu. *Botar de ſi os cuidados, ou tristeza.* |  |

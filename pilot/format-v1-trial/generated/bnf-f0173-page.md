@@ -32,10 +32,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l016` | Farema. i, Faruru aida. *Eſpaço em que eſ-* |  |
 | `c1-l017` | &emsp;*clarece o tempo, ou deixa de chouer. ¶* Fa- |  |
 | `c1-l018` | &emsp;rema naqu furu. *Chouer de continuo ſem a-* |  |
-| `c1-l019` | &emsp;*aclarar o tempo.* |  |
+| `c1-l019` | &emsp;*clarar o tempo.* |  |
 | `c1-l020` | Faremono. *Inchaço, ou poſtema.* |  |
 | `c1-l021` | Farena. *Couſa publica, ou festiual.* |  |
-| `c1-l022` | Faret. Talure ſaquru. *Abrirſe a terra, &c.* |  |
+| `c1-l022` | Faret. Yabure ſaquru. *Abrirſe a terra, &c.* |  |
 | `c1-l023` | &emsp;*Vt,* Daigi futatçuni faret xita. *A terra* |  |
 | `c1-l024` | &emsp;*abrioſe, ou fendeoſe em duas partes.* |  |
 | `c1-l025` | Fareuatari, u, tatta. *Eſclarecer o tempo por* |  |
@@ -50,15 +50,15 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l034` | &emsp;neru. *Meter certas agulhas, ou alfenetes por* |  |
 | `c1-l035` | &emsp;*algũas partes do corpo por meizinha. ¶* Fa- |  |
 | `c1-l036` | &emsp;riuo tçucǒ. *Dar lancetada como quando ſan-* |  |
-| `c1-l037` | &emsp;*grao caualos. ¶ Item,* Fari. *Aguilhaã* |  |
+| `c1-l037` | &emsp;*graõ caualos. ¶ Item,* Fari. *Aguilhaõ* |  |
 | `c1-l038` | &emsp;*de abelhas, bichos, &c.* |  |
 | `c1-l039` | Fari. Tama. *Hũa pedra precioſa.* |  |
-| `c1-l040` | Fari. *Traues, ou vigas. No* cami *ſe diz,* |  |
+| `c1-l040` | Fari. *Traues, ou vigas. No cami ſe diz,* |  |
 | `c1-l041` | &emsp;Vtçubari. |  |
 | `c1-l042` | Fari, u, atta. *Eſtender, ou eſtirar. ¶* Qi- |  |
 | `c1-l043` | &emsp;nuuo faru. *Estender peças de ſeda delgadas.* |  |
 | `c1-l044` | &emsp;¶ Yumiuo faru. *Por a corda no arco.* |  |
-| `c1-l045` | &emsp;Butaiuo faru. *Fazer teatro pera autos* |  |
+| `c1-l045` | &emsp;¶ Butaiuo faru. *Fazer teatro pera autos* |  |
 | `c1-l046` | &emsp;*&c. ¶* Meuo mifaru. *Eſtar com os o-* |  |
 | `c1-l047` | &emsp;*lhos fitos. ¶* Figiuo faru. *Por as mãos* |  |
 
@@ -85,7 +85,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l005` | &emsp;¶ Xǒji, andon, tôro, caracaſa nadouo |  |
 | `c2-l006` | &emsp;faru. *Cobrir de papel certas portas como adu-* |  |
 | `c2-l007` | &emsp;*fas, lanternas, ſombreiros, &c. pegandoo* |  |
-| `c2-l008` | &emsp;*com certo grude. ¶* Acamauo faru. *Dar* |  |
+| `c2-l008` | &emsp;*com certo grude. ¶* Atamauo faru. *Dar* |  |
 | `c2-l009` | &emsp;*pãcadas cõ a mão, ou punhadas na cabeça. ¶* Me |  |
 | `c2-l010` | &emsp;uo fatte vodoſu. *Ameaçar regalando os o-* |  |
 | `c2-l011` | &emsp;*lhos. ¶* Mayeuo faru. *Abrir as abas do* |  |

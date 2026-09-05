@@ -21,11 +21,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l005` | Faſune. *Certas buſtellas da cabeça.* |  |
 | `c1-l006` | Fata, l, fataqe. *Campo que ſe laura, ou ſe-* |  |
 | `c1-l007` | &emsp;*mea de trigo, grãos, &c.* |  |
-| `c1-l008` | Fata. *Borra de qualquer couſa.* |  |
+| `c1-l008` | Fata. *Borda de qualquer couſa.* |  |
 | `c1-l009` | Fata. *Tear. ¶ Item, liços de tear.* |  |
 | `c1-l010` | Fata. *Bandeira. ¶* Fatauo maqu. *En-* |  |
-| `c1-l011` | &emsp;*rolar a bandeira. ¶* Fitauo aguru. *Ar-* |  |
-| `c1-l012` | &emsp;*uirar a bandeira. ¶* Fatauo ſaſu. *Le-* |  |
+| `c1-l011` | &emsp;*rolar a bandeira. ¶* Fatauo aguru. *Ar-* |  |
+| `c1-l012` | &emsp;*uorar a bandeira. ¶* Fatauo ſaſu. *Le-* |  |
 | `c1-l013` | &emsp;*uar a bandeira na cinta. ¶* Fataſaxi. *O* |  |
 | `c1-l014` | &emsp;*que leua a bandeira. ¶* Fatazauo. *Cana* |  |
 | `c1-l015` | &emsp;*ou haſtea em que ſe enrola a bandeira.* |  |
@@ -43,14 +43,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l027` | &emsp;*ſe, ou aparecerem as pontas das bandeiras no* |  |
 | `c1-l028` | &emsp;*arrayal.* |  |
 | `c1-l029` | Fatago. *Comida de eſtalagem. ¶* Fatagouo |  |
-| `c1-l030` | &emsp;cù. *Comer em eſtalagem.* |  |
+| `c1-l030` | &emsp;cǔ. *Comer em eſtalagem.* |  |
 | `c1-l031` | Fatagoxen. *O que ſe paga polla comida na eſ-* |  |
 | `c1-l032` | &emsp;*talagem.* |  |
 | `c1-l033` | Fatagoya. *Estalagem, ou venda.* |  |
 | `c1-l034` | Fataita. *Parede de taboas pouco aleuantada.* |  |
 | `c1-l035` | Fatamata. *Alem diſſo. S.* |  |
 | `c1-l036` | Fatameqi, u, eita. *Andar apreſſado, & ſol* |  |
-| `c1-l037` | &emsp;*ſicito ſobre algũa couſa.* |  |
+| `c1-l037` | &emsp;*licito ſobre algũa couſa.* |  |
 | `c1-l038` | Fatameqimauari, u, atta. *Andar rodeando* |  |
 | `c1-l039` | &emsp;*com preſſa, & fadiga.* |  |
 | `c1-l040` | Fatamono. *Tear.* |  |
@@ -59,7 +59,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l043` | Fataqe. *Quintal, orta, campo, onde ſe ſemea* |  |
 | `c1-l044` | &emsp;*qualquer couſa tirando arroz.* |  |
 | `c1-l045` | Fataqe, uru, eta. *Vt,* Te axiuo fataqu- |  |
-| `c1-l046` | &emsp;ni *Estender as mãos, & abrir as pernas.* |  |
+| `c1-l046` | &emsp;ru. *Estender as mãos, & abrir as pernas.* |  |
 | `c1-l047` | Fataqegasa. *Hũas buſtellas brancas.* |  |
 
 ## Column 2 running header
@@ -82,7 +82,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l002` | &emsp;*lejar, &c.* |  |
 | `c2-l003` | Fataracaxi, ſu, aita. *Vſar, ou exercitar.* |  |
 | `c2-l004` | &emsp;¶ Chiyeuo fataracaſu. *Vſar, & exerci-* |  |
-| `c2-l005` | &emsp;*tar o ſaber. ¶* Cachiuo fataracaſu. *Fa-* |  |
+| `c2-l005` | &emsp;*tar o ſaber. ¶* Cuchiuo fataracaſu. *Fa-* |  |
 | `c2-l006` | &emsp;*lar, ou exercitar a lingua.* |  |
 | `c2-l007` | Fataraqi, u, aita. *Trabalhar. ¶ Itẽ, Pelejar.* |  |
 | `c2-l008` | &emsp;¶ Cocorono fataraita fito. *Viuo, induſ-* |  |
@@ -102,8 +102,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l022` | &emsp;fataſu, *Acabar de eſcreuer algũa couſa, &c.* |  |
 | `c2-l023` | Fatazauo. *Haſtea da bandeira.* |  |
 | `c2-l024` | Fatbǒ. Vocori qizaſu. i, Moye izzuru. |  |
-| `c2-l025` | &emsp;*Nacer como eruas, trigo, &c. ¶* |  *fora.* |
-| `c2-l026` | Fatbu. *Bapp.* Farǒ coto. *O botar, ou ſacudir* |  |
+| `c2-l025` | &emsp;*Nacer como eruas, trigo, &c.* |  *( fora.* |
+| `c2-l026` | Fatbu. Bapp. Farǒ coto. *O botar, ou ſacudir* |  |
 | `c2-l027` | Fatçu, l, Fatçumono. *Primicias de qualquer* |  |
 | `c2-l028` | &emsp;*couſa, como fruita primeira, &c. ¶ Itẽ,* |  |
 | `c2-l029` | &emsp;*A primeira vez que ſe faz algũa couſa, ou a* |  |
@@ -118,13 +118,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l038` | &emsp;*primeiras flores. ¶* Fatçu faru. i, Xo- |  |
 | `c2-l039` | &emsp;guat. *Primeiro mes do anno.* |  |
 | `c2-l040` | Fatçu araxi. *Vide,* Fatçu. |  |
-| `c2-l041` | Fatçuburi. *Hũa laya de capacete. Inoua. P.* |  *(noua.* P. |
+| `c2-l041` | Fatçuburi. *Hũa laya de capacete.* |  *(noua.* P. |
 | `c2-l042` | Fatçuca, l, fatçucana. i, Mezzuraxij. *Couſa* |  |
 | `c2-l043` | Fatçu coye. *Primeira voz, ou canto dos paſ-* |  |
 | `c2-l044` | &emsp;*ſaros no verão, ou prima vera, mas mais vſado* |  |
 | `c2-l045` | &emsp;*he,* Fatçune. |  |
-| `c2-l046` | Fatçufana. *Vide* fatçu. |  |
-| `c2-l047` | Fatçufaru. *Vide ſupra* fatçu. |  |
+| `c2-l046` | Fatçufana. *Vide fatçu.* |  |
+| `c2-l047` | Fatçufaru. *Vide ſupra fatçu.* |  |
 
 ## Signature
 

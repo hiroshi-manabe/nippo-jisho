@@ -15,14 +15,14 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c1-l001` | Faxitaca. *Hũa laya de falcões.* |  |
-| `c1-l002` | Faxitamono. *Conta imperfeita, ou falta pera* |  |
+| `c1-l002` | Faxitamono. *Couſa imperfeita, ou falta pera* |  |
 | `c1-l003` | &emsp;*algum numero, ou obra, &c.* |  |
 | `c1-l004` | Faxitamono, l, faxita. *Certa laya de molhe-* |  |
 | `c1-l005` | &emsp;*res baixas que ſeruem em caſa dos ſenhores.* |  |
 | `c1-l006` | Faxitana. *Couſa imperfeita, ou que não he in-* |  |
 | `c1-l007` | &emsp;*teira, & perfeita no numero, &c.* |  |
 | `c1-l008` | Faxitanai. *Couſa aſpera, & riſpida. Vt,* |  |
-| `c1-l009` | &emsp;Faxitanai cotogarani naru. Feiq*. Lib.* |  |
+| `c1-l009` | &emsp;Faxitanai cotogarani naru. Feiq. *Lib.* |  |
 | `c1-l010` | &emsp;*2. Falar aſperamente, ou moſtrar aſpereza* |  |
 | `c1-l011` | &emsp;*nas palauras.* |  |
 | `c1-l012` | &emsp;Faxitanaſa. |  |
@@ -31,30 +31,30 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l015` | &emsp;*ao fogo.* |  |
 | `c1-l016` | Faxiyague, ru, eta. *Idem.* |  |
 | `c1-l017` | Faxizzume. *Principio, ou entrada da ponte.* |  |
-| `c1-l018` | Faxǒ. Namino vye. *Em cima das ondas. S.* |  |
-| `c1-l019` | Faxxen. Vt, Doyǒ faxxen. *Certas con-* |  |
-| `c1-l020` | &emsp;*ſunçoes, ou constellações de tempos q̃ concorrẽ* |  |
+| `c1-l018` | Faxǒ. Namino vye. *Em cima das õdas. S.* |  |
+| `c1-l019` | Faxxen. *Vt,* Doyǒ faxxen. *Certas con-* |  |
+| `c1-l020` | &emsp;*junções, ou constellações de tempos q̃ concorrẽ* |  |
 | `c1-l021` | &emsp;*por vezes no anno, as quais os Iapões obſer-* |  |
 | `c1-l022` | &emsp;*uão pera fazer algũa couſa, ou deixar de a* |  |
 | `c1-l023` | &emsp;*fazer.* |  |
-| `c1-l024` | Faxxenmai. *Hum pequeno pao que ſe quei-* |  |
+| `c1-l024` | Faxxenmai. *Hum pequeno de pao que ſe quei-* |  |
 | `c1-l025` | &emsp;*ma diante do Idolo cõ certas cerimonias.* |  |
 | `c1-l026` | Faxxeqi. *Lei, ou prohibição: a propria palaura* |  |
 | `c1-l027` | &emsp;*he* Faxxiqi. |  |
 | `c1-l028` | Faxxi, ſuru, ita. *Afaſtar, ou botar fora.* |  |
 | `c1-l029` | &emsp;*Vt,* Connichi yori chôruino ichimonuo |  |
-| `c1-l030` | &emsp;faſſuruzoto. Fab*. Deſdoje vos exclui-* |  |
+| `c1-l030` | &emsp;faſſuruzoto. Fab. *Deſdoje vos exclui-* |  |
 | `c1-l031` | &emsp;*mos da familia das aues.* |  |
 | `c1-l032` | Faxxi, ſuru, ita. *Mouer, ou excitar. Vt,* |  |
-| `c1-l033` | &emsp;icariuo faſſuru. *Agaſtarſe. ¶* Icariga |  |
+| `c1-l033` | &emsp;Icariuo faſſuru. *Agaſtarſe. ¶* Icariga |  |
 | `c1-l034` | &emsp;faſſuru. *Idem. ¶* Gongouo faſſuru. |  |
 | `c1-l035` | &emsp;*Começar a falar. ¶* Coyeuo faſſuru. |  |
 | `c1-l036` | &emsp;*Deitar a voz.* |  |
 | `c1-l037` | Faxxiqi. Fatto, nori. *Ley, ou prohibição.* |  |
 | `c1-l038` | Faxxito. *Adu. Modo de dar a frecha, ou* |  |
-| `c1-l039` | &emsp;*de dar pancara, &c.* |  |
-| `c1-l040` | Faxxù. *As oito ſeitas que ha em Iapão. ſ.* |  |
-| `c1-l041` | &emsp;Faſſǒ, ſanron, cuxa, jǒjit, nixù, qe- |  |
+| `c1-l039` | &emsp;*de dar pancada, &c.* |  |
+| `c1-l040` | Faxxù. *As oito ſeitas que ha em Iapão: ſ.* |  |
+| `c1-l041` | &emsp;Faſſǒ, ſanron, cuxa, jǒjit, rixù, qe- |  |
 | `c1-l042` | &emsp;gon, tendai, xingon. |  |
 | `c1-l043` | Faxxun. *Oitenta annos.* |  |
 | `c1-l044` | Faya. *Adu. Ia.* |  |
@@ -79,7 +79,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l005` | Fayabuſa. *Certa laya de falcão.* |  |
 | `c2-l006` | Fayacuchi. *O que fala de preſſa.* |  |
 | `c2-l007` | Fayacuchini. *Aduerb. Vt,* Fayacuchini |  |
-| `c2-l008` | &emsp;monouo yù. *Falar de preſſa.* |  |
+| `c2-l008` | &emsp;monouo yǔ. *Falar de preſſa.* |  |
 | `c2-l009` | Fayafaya. *Adu. De preſſa, de preſſa.* |  |
 | `c2-l010` | Fayafune. *Embarcação ligeira.* |  |
 | `c2-l011` | Fayagaqi. *Eſcriuão que eſcreue de preſſa.* |  |
@@ -88,9 +88,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l014` | Fayama. *Mato pequeno, ou de poucas aruores.* |  |
 | `c2-l015` | &emsp;*O contrario he,* Xigueyama. |  |
 | `c2-l016` | Fayamari, u, atta. *Fazerſe algũa couſa de preſ-* |  |
-| `c2-l017` | &emsp;*ſa, ou antes do tẽpo determinado, ou anticiparſe* |  |
-| `c2-l018` | &emsp;*o tempo dalgũa feſta, cõuite, &c.* X*. No* Cami |  |
-| `c2-l019` | &emsp;*ſediz,* Toricoſu. |  |
+| `c2-l017` | &emsp;*ſa, ou ãtes do tẽpo determinado, ou anticiparſe* |  |
+| `c2-l018` | &emsp;*o tẽpo dalgũa feſta, cõuite, &c.* X. *No Cami* |  |
+| `c2-l019` | &emsp;*ſediz, Toricoſu.* |  |
 | `c2-l020` | Fayame, uru, eta. *Apreſſar, ou dar preſſa.* |  |
 | `c2-l021` | &emsp;*¶* Vmauo fayamuru. *Fazer andar de* |  |
 | `c2-l022` | &emsp;*preſſa o caualo.* |  |
@@ -110,7 +110,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l036` | &emsp;*nimoſo, & forte, & que acomete dos pri-* |  |
 | `c2-l037` | &emsp;*meiros.* |  |
 | `c2-l038` | Fayate. *Refega de vento rijo. ¶* Fayate |  |
-| `c2-l039` | &emsp;mivǒ. *Encontrar com eſta refega, ou pè* |  |
+| `c2-l039` | &emsp;ni vǒ. *Encontrar com eſta refega, ou pè* |  |
 | `c2-l040` | &emsp;*de vento.* |  |
 | `c2-l041` | Fayauaza. *Obra apreſſada, ou ligeireza, &* |  |
 | `c2-l042` | &emsp;*deſtreza de mãos.* |  |

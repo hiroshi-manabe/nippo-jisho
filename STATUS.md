@@ -12,9 +12,18 @@ completed this follow-up: 567 body lines have individual English notes (94, 94,
 scan pass. The review changed 25 body lines, including typeface corrections;
 unresolved damaged or anomalous readings are identified in the notes.
 
-The f164 and f172–f180 annotations still need a commentary follow-up: the
-earlier snapshot had 46 notes on f164 and none on f172–f180. Existing review
-labels must not be taken as evidence that the stricter procedure was completed.
+On 2026-09-05, f172–f180 also completed the stricter procedure: all 848 body
+lines have substantive English contextual notes, and every individual line
+crop received a separate second scan pass after commentary. The review used
+the generated kana guide and NINJAL headword reference, corrected Japanese
+and Portuguese readings and typeface, and retained explicit doubts where the
+print did not justify normalization. The existing crop coordinates were
+retained after checking row identity, readable letters, and right-edge context.
+Embedded Japanese terms have refreshed typeface-toggle annotations.
+
+The f164 annotations still need a commentary follow-up: the earlier snapshot
+had 46 notes. Existing review labels must not be taken as evidence that the
+stricter procedure was completed.
 
 The f164 corrections from Issue #173 have been applied. The user's suspicion
 that sparse commentary contributed to missed errors remains a hypothesis,
