@@ -66,8 +66,13 @@ needs attention; the page remains unapplied and unverified as a whole.
 `extension-decisions.json` and `extension-coverage.json` in the campaign directory
 record this checkpoint. Pending entries are deliberately not applied. The
 original pilot ledger remains authoritative for f121–f145; pending entries in
-the extension ledger do not revoke that earlier inspection. Outside the pilot,
-193 pages still await completed visual review. Do not describe the extension
+the extension ledger do not revoke that earlier inspection.
+
+The subsequent f181–f185 commentary review inspected all ten columns' individual
+crops again, retaining nine columns unchanged and enlarging the owning crop of
+the f181 initial. Its two former body rows that are actually catchwords are
+recorded separately in the notes; no stable IDs were renumbered. Outside the pilot,
+188 pages still await completed visual review. Do not describe the extension
 as finished.
 
 `scripts/render_clipping_campaign.py` renders actual individual proposed crops

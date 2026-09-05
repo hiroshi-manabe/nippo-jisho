@@ -13,7 +13,9 @@ The [coverage ledger](pilot/ocr-layout-evidence/v1/campaign-line-clipping/covera
 records every column and the explicitly retained weak OCR matches. The wider
 f13–f237 extension is in progress. The full automated audit is complete;
 additional individual-crop inspections and 447 rectangle adjustments have
-been applied for f13–f14 and f146–f150. Outside the completed pilot, 193 pages
+been applied for f13–f14 and f146–f150. The f181–f185 commentary review also
+verified all ten columns and enlarged the complete-initial crop on f181.
+Outside the completed pilot, 188 pages
 still require completed visual inspection. See the campaign document and its
 separate extension ledger; unverified proposals have not been published.
 
@@ -21,7 +23,7 @@ separate extension ledger; unverified proposals have not been published.
 
 The review UI now distinguishes **AI reviewed with commentary** using the
 explicit per-page [completion registry](pilot/human-review/commentary-reviews.json).
-It currently covers f165–f170 and f172–f180, not every page through f180.
+It currently covers f165–f170 and f172–f185, not every page through f185.
 Human correction-Issue counts remain separate.
 
 The [general-AI commented review](docs/human-review-workflow.md#general-ai-commented-page-review)
@@ -40,6 +42,15 @@ and Portuguese readings and typeface, and retained explicit doubts where the
 print did not justify normalization. The existing crop coordinates were
 retained after checking row identity, readable letters, and right-edge context.
 Embedded Japanese terms have refreshed typeface-toggle annotations.
+
+On 2026-09-06, f181–f185 completed the same commentary-and-second-pass
+procedure. All 470 body lines have individual English notes (92, 95, 95,
+94, 94). The review used the kana hints, compared NINJAL headword identities
+after reading, and inspected every individual crop again against the scan.
+It repaired Japanese and Portuguese OCR errors while retaining explicit
+uncertainty on worn print. The `hum` and `lhos,` catchwords on f183/f185
+were moved to furniture without changing their stable IDs. Human review
+remains pending; commentary completion is not an error-free certification.
 
 The f164 annotations still need a commentary follow-up: the earlier snapshot
 had 46 notes. Existing review labels must not be taken as evidence that the
