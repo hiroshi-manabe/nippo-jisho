@@ -93,7 +93,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l019` | &emsp;*gũa couſa aleuantada entre duas como adaga* |  |
 | `c2-l020` | &emsp;*entredous Tatamis, &c.* |  |
 | `c2-l021` | Faſamiuoroxi, ſu, oita. *Troſquiar. Vt,* |  |
-| `c2-l022` | &emsp;Amarino xencata naſani facutatuo faſami |  |
+| `c2-l022` | &emsp;Amarino xencata naſani facufatuo faſami |  |
 | `c2-l023` | &emsp;voroſu. Feiq. *Lib. 4. Por mais não po-* |  |
 | `c2-l024` | &emsp;*der troſquiou os cabelos brancos.* |  |
 | `c2-l025` | Faſan. Sacazzuqiuo cubaru. *Mandar, ou* |  |
