@@ -475,6 +475,7 @@ def apply_change(line: dict, change: dict) -> tuple[dict, bool]:
             "note_before": note_before,
             "note_after": note_after,
             **({"message": change["message"]} if change.get("message") else {}),
+            **({"second_opinion": True} if change.get("second_opinion") else {}),
             **({"comment": change["comment"]} if change.get("comment") else {}),
         },
         current == target and current_note == note_after,

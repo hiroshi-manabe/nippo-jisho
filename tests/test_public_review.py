@@ -429,6 +429,7 @@ const edits = {
   missing: {before:'a', after:'b'},
   absentAfter: {before:'a', after:'b', note_before:'Keep me'},
   added: {before:'a', after:'a', note_before:'', note_after:'Added'},
+  silent: {before:'a', after:'a', note_before:'Keep', note_after:'Keep', second_opinion:true},
 };
 const context = {pageEdits:()=>edits, state:{corpus:{commit:'abc'}}};
 vm.createContext(context); vm.runInContext(helper, context);
@@ -442,6 +443,10 @@ assert.equal(changes.modified.note_after, 'New');
 assert.equal(changes.deleted.note_before, 'Delete me');
 assert.equal(changes.deleted.note_after, '');
 assert.equal(changes.added.note_after, 'Added');
+assert.equal(changes.silent.second_opinion, true);
+assert(!('message' in changes.silent));
+assert(!('note_after' in changes.silent));
+assert(!('second_opinion' in changes.unchanged));
 assert(app.includes('const records = pages.map(correctionPayload)'));
 assert(app.includes('JSON.stringify(correctionPayload(page), null, 2)'));
 """
@@ -587,7 +592,9 @@ assert(!/\.review-status\{[^}]*bottom:/.test(css));
         )
         self.assertIn('name="note"', app)
         self.assertIn('name="message"', app)
-        self.assertNotIn('name="second-opinion"', app)
+        self.assertIn('name="second-opinion"', app)
+        self.assertIn('Second opinion requested', app)
+        self.assertNotIn('delete edit.second_opinion;', app)
         self.assertIn("note_before", app)
         self.assertIn("note_after", app)
         self.assertRegex(app, r"\{\s*schema: 3, page: page\.view")

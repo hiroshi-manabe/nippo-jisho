@@ -61,10 +61,12 @@ class CorrectionIssueProcessorTests(unittest.TestCase):
                     prepare(9, root=root)
                 writer.assert_not_called()
                 records[1]["changes"][0]["line"] = "c1-l001"
-                records[1]["changes"][0]["message"] = "Check this"
+                records[1]["changes"][0]["second_opinion"] = True
+                records[1]["changes"][0]["after"] = "Alpha."
                 issue["body"] = json.dumps(payload)
                 report = prepare(9, root=root)
                 self.assertEqual(report["status"], "awaiting_second_opinion")
+                self.assertTrue(report["pages"][1]["second_opinions"][0]["second_opinion"])
                 self.assertEqual(stored["f14"]["zones"][0]["lines"][0]["runs"][0]["text"], "Beta.")
                 self.assertEqual(stored["f15"]["zones"][0]["lines"][0]["runs"][0]["text"], "Alpha.")
                 with self.assertRaisesRegex(IssueProcessingError, "f15/c1-l001"):

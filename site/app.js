@@ -338,7 +338,7 @@ function seedMachineSuggestions(page) {
 }
 
 function staleDraftPayload(stale) {
-  const changes = Object.entries(stale.edits).map(([line, edit]) => ({line, before: edit.before, after: edit.after, note_before: edit.note_before || '', note_after: edit.note_after || '', ...(edit.message || edit.comment ? {message: edit.message || edit.comment} : {})}));
+  const changes = Object.entries(stale.edits).map(([line, edit]) => ({line, before: edit.before, after: edit.after, note_before: edit.note_before || '', note_after: edit.note_after || '', ...(edit.second_opinion ? {second_opinion: true} : {}), ...(edit.message || edit.comment ? {message: edit.message || edit.comment} : {})}));
   return JSON.stringify({schema: 3, page: stale.page.view, base_transcription_version: stale.version, changes}, null, 2);
 }
 
@@ -418,15 +418,15 @@ function reconcileEdits(page, edits) {
     const reviewFlags = {
       base_line_version: line.transcription_version,
       base_changed: true,
-      ...(edit.note_after !== undefined || edit.message || edit.comment ? {comment_review_needed: true} : {}),
+      ...(edit.note_after !== undefined || edit.message || edit.comment || edit.second_opinion ? {comment_review_needed: true} : {}),
     };
     if (proposalMatchesLine(line, edit.after)) {
-      if (edit.note_after !== undefined || edit.message || edit.comment) reconciled[lineId] = {...rebasedEdit, before: line.text, after: line.text, note_before: line.note || '', ...reviewFlags};
+      if (edit.note_after !== undefined || edit.message || edit.comment || edit.second_opinion) reconciled[lineId] = {...rebasedEdit, before: line.text, after: line.text, note_before: line.note || '', ...reviewFlags};
       continue;
     }
     const proposal = parseTypefaceNotation(edit.after);
     if (proposal.valid && edit.before === proposal.text && proposal.romanRanges.length === 0 && proposal.italicRanges.length === 0) {
-      if (edit.note_after !== undefined || edit.message || edit.comment) reconciled[lineId] = {...rebasedEdit, before: line.text, after: line.text, note_before: line.note || '', ...reviewFlags};
+      if (edit.note_after !== undefined || edit.message || edit.comment || edit.second_opinion) reconciled[lineId] = {...rebasedEdit, before: line.text, after: line.text, note_before: line.note || '', ...reviewFlags};
       continue;
     }
     reconciled[lineId] = {...rebasedEdit, before: line.text, ...reviewFlags};
@@ -445,7 +445,7 @@ function loadPageWorkspace(page) {
     if (edit.note_before === undefined) edit.note_before = '';
     if (edit.note_after === undefined) edit.note_after = edit.note_before;
     delete edit.comment;
-    delete edit.second_opinion;
+    edit.second_opinion = Boolean(edit.second_opinion || edit.second_opinion_manual);
     delete edit.second_opinion_manual;
   }
   const status = storedSubmission?.status || 'draft';
@@ -822,7 +822,7 @@ function lineHTML(page, line) {
   const current = edit ? edit.after : line.text;
   const note = edit?.note_after ?? line.note ?? '';
   const message = edit?.message || '';
-  const markers = `${edit?.machine_suggestion === 'ocr_terminal_hyphen' ? '<span class="review-marker suggestion-marker">OCR: no hyphen</span>' : ''}${edit?.base_changed ? '<span class="review-marker">Base updated</span>' : ''}${edit?.comment_review_needed ? '<span class="review-marker comment-marker">Note needs review</span>' : ''}${message ? '<span class="review-marker opinion-marker">Message to AI</span>' : ''}`;
+  const markers = `${edit?.machine_suggestion === 'ocr_terminal_hyphen' ? '<span class="review-marker suggestion-marker">OCR: no hyphen</span>' : ''}${edit?.base_changed ? '<span class="review-marker">Base updated</span>' : ''}${edit?.comment_review_needed ? '<span class="review-marker comment-marker">Note needs review</span>' : ''}${edit?.second_opinion ? '<span class="review-marker opinion-marker">Second opinion requested</span>' : ''}${message ? '<span class="review-marker opinion-marker">Message to AI</span>' : ''}`;
   const reference = `${page.view}/${line.id}`;
   const annotations = `${note ? `<button class="annotation-preview comment-preview" type="button" data-action="edit" title="${escapeHTML(note)}"><span>Comment</span>${escapeHTML(note)}</button>` : ''}${message ? `<button class="annotation-preview message-preview" type="button" data-action="edit" title="${escapeHTML(message)}"><span>Message to AI</span>${escapeHTML(message)}</button>` : ''}`;
   return `<article class="line-row ${edit ? 'changed' : ''} ${edit?.machine_suggestion ? 'suggested' : ''} ${edit?.base_changed ? 'rebased' : ''}" data-line="${line.id}"><div class="line-head"><code>${line.id}</code><button class="copy-line-reference" type="button" data-copy-line-reference="${escapeHTML(reference)}" title="Copy ${escapeHTML(reference)}" aria-label="Copy full line reference">⧉</button>${markers}<button class="context-toggle" type="button" aria-expanded="false">Show context</button></div><button class="line-crop" type="button" style="aspect-ratio:${line.crop[2]}/${line.crop[3]}" data-crop='${JSON.stringify(line.crop)}' data-context='${JSON.stringify(line.context_crop)}' aria-label="Show context for ${line.id}"><img loading="lazy" data-iiif-page alt="" style="width:${page.width / line.crop[2] * 100}%;transform:translate(${-line.crop[0] / page.width * 100}% ,${-line.crop[1] / page.height * 100}%)"></button><div class="line-text-row" title="Click beside the text for the full editor"><div class="line-transcription"><div class="line-text indent-${line.indent}">${interactiveLineHTML(line, current, edit?.nasal_restorations, edit?.machine_suggestion)}</div>${kanaGuideHTML(line)}</div>${annotations ? `<div class="line-annotations">${annotations}</div>` : ''}</div></article>`;
@@ -914,6 +914,7 @@ function saveEditor(form) {
   const after = form.elements.transcription.value;
   const noteAfter = form.elements.note.value.trim();
   const message = form.elements.message.value.trim();
+  const secondOpinion = form.elements['second-opinion'].checked;
   const proposal = parseTypefaceNotation(after);
   if (!proposal.valid) {
     toast(proposal.error);
@@ -925,8 +926,8 @@ function saveEditor(form) {
   const matchesLine = proposalMatchesLine(line, after);
   if (matchesLine) dismissMachineSuggestion(state.currentPage, line, existing?.machine_suggestion);
   const noteBefore = line.note || '';
-  if (matchesLine && noteAfter === noteBefore && !message) delete pageEdits(state.currentPage)[line.id];
-  else pageEdits(state.currentPage)[line.id] = {before: line.text, after, note_before: noteBefore, note_after: noteAfter, message, base_line_version: line.transcription_version, ...(!matchesLine && existing?.machine_suggestion ? {machine_suggestion: existing.machine_suggestion} : {}), ...(nasalRestorations?.length ? {nasal_restorations: nasalRestorations} : {})};
+  if (matchesLine && noteAfter === noteBefore && !message && !secondOpinion) delete pageEdits(state.currentPage)[line.id];
+  else pageEdits(state.currentPage)[line.id] = {before: line.text, after, note_before: noteBefore, note_after: noteAfter, message, second_opinion: secondOpinion, base_line_version: line.transcription_version, ...(!matchesLine && existing?.machine_suggestion ? {machine_suggestion: existing.machine_suggestion} : {}), ...(nasalRestorations?.length ? {nasal_restorations: nasalRestorations} : {})};
   persistEdits(state.currentPage);
   return true;
 }
@@ -943,7 +944,7 @@ function openEditor(row) {
   }
   const line = lineById(lineId);
   const edit = pageEdits(state.currentPage)[lineId];
-  row.insertAdjacentHTML('beforeend', `<form class="edit-form"><div class="transcription-editor"><textarea name="transcription" aria-label="Revised transcription">${escapeHTML(edit?.after || line.text)}</textarea>${paletteHTML()}</div><div class="comment-editor"><textarea name="note" aria-label="Durable note" placeholder="Durable line note">${escapeHTML(edit?.note_after ?? line.note ?? '')}</textarea><textarea name="message" aria-label="Message to AI" placeholder="Message to AI (always reviewed)">${escapeHTML(edit?.message || '')}</textarea></div><div class="edit-actions"><button type="button" data-action="cancel">Cancel</button>${edit ? '<button type="button" data-action="revert">Revert</button>' : ''}<button class="primary" type="submit">OK</button></div></form>`);
+  row.insertAdjacentHTML('beforeend', `<form class="edit-form"><div class="transcription-editor"><textarea name="transcription" aria-label="Revised transcription">${escapeHTML(edit?.after || line.text)}</textarea>${paletteHTML()}</div><div class="comment-editor"><textarea name="note" aria-label="Durable note" placeholder="Durable line note">${escapeHTML(edit?.note_after ?? line.note ?? '')}</textarea><textarea name="message" aria-label="Message to AI" placeholder="Message to AI (always reviewed)">${escapeHTML(edit?.message || '')}</textarea><label class="second-opinion-toggle"><input type="checkbox" name="second-opinion" ${edit?.second_opinion ? 'checked' : ''}>Request a second opinion (message optional)</label></div><div class="edit-actions"><button type="button" data-action="cancel">Cancel</button>${edit ? '<button type="button" data-action="revert">Revert</button>' : ''}<button class="primary" type="submit">OK</button></div></form>`);
   const form = row.querySelector('.edit-form');
   row.querySelector('[name="transcription"]').focus();
 }
@@ -1041,7 +1042,7 @@ function applyQuickEdit(row, control) {
   const noteBefore = line.note || '';
   const noteAfter = existing?.note_after ?? noteBefore;
   const message = existing?.message || '';
-  if (proposalMatchesLine(line, after) && noteAfter === noteBefore && !message) {
+  if (proposalMatchesLine(line, after) && noteAfter === noteBefore && !message && !existing?.second_opinion) {
     dismissMachineSuggestion(state.currentPage, line, existing?.machine_suggestion);
     delete pageEdits(state.currentPage)[lineId];
   } else {
@@ -1078,6 +1079,7 @@ function correctionChange(line, edit) {
     line, before: edit.before, after: edit.after,
     ...(afterNote !== beforeNote ? {note_before: beforeNote, note_after: afterNote} : {}),
     ...(edit.message ? {message: edit.message} : {}),
+    ...(edit.second_opinion ? {second_opinion: true} : {}),
   };
 }
 
