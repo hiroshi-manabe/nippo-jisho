@@ -52,6 +52,7 @@ def transliterate_token(token: str) -> str | None:
     index = 0
     while index < len(text):
         orthographic_u_after_g = False
+        doubled_z = False
         if text.startswith("qua", index):
             output.append("クヮ")
             index += 3
@@ -82,7 +83,9 @@ def transliterate_token(token: str) -> str | None:
             # romanization. Small ッ is an editorial display convention for
             # that closed syllable, not a claim of ordinary modern gemination.
             output.append("ッ"); index += 1; continue
-        elif text.startswith("zz", index): consonant, index = "z", index + 2
+        elif text.startswith("zz", index):
+            consonant, index = "z", index + 2
+            doubled_z = True
         elif text.startswith("nh", index): consonant, index = "ny", index + 2
         elif text.startswith("ch", index): consonant, index = "ch", index + 2
         elif text[index] == "x": consonant, index = "sh", index + 1
@@ -151,6 +154,9 @@ def transliterate_token(token: str) -> str | None:
             "ny": {"a": "ニャ", "i": "ニ", "u": "ニュ", "e": "ニェ", "o": "ニョ"},
         }
         rendered = special.get(consonant, {}).get(vowel[0])
+        if doubled_z and vowel[0] == "u":
+            # Preserve the printed yotsugana distinction: zzu = ヅ, zu = ズ.
+            rendered = "ヅ"
         if consonant == "g" and vowel[0] == "i" and not orthographic_u_after_g:
             # Bare gi belongs to the voiced palatal series (Fagi = はぢ).
             # Portuguese-style gui retains hard g (Fagui = はぎ).
