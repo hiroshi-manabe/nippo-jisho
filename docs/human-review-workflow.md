@@ -272,6 +272,10 @@ authority.
 
 ## Automatic kana guide
 
+Use the [corpus-based converter checks](kana-converter-testing.md) when extending
+conversion rules. Mechanical coverage and linguistic correctness are separate
+measures; preserve uncertain source spellings rather than forcing conversion.
+
 The four *yotsugana* spellings remain distinct in hints: `ji` → ジ, `gi` → ヂ, `zu` → ズ, and `zzu` → ヅ (for example, `mizzu` → ミヅ). Follow the actual printed spelling, including historical inconsistencies, rather than restoring an expected etymological form. This affects generated hints only. The correspondence is documented in [Kishimoto Emi's study of the manuscript Portuguese–Japanese dictionary, opening transcription table](https://repository.kulib.kyoto-u.ac.jp/bitstream/2433/137262/1/kkr00001_001b.pdf).
 
 Every prepared human or general-AI review line carries a read-only `reading_hint`, generated during the public-review build from the exact baseline transcription. It pairs each detected upright Japanese phrase with a mechanical katakana rendering, for example `Facuran/ハクラン, Firoqu miru/ヒロク ミル`. This is a mandatory review aid, not a new transcription field. The generator explicitly handles common dictionary spellings such as `q`, `tç`, `x`, initial `v`, intervocalic `u`, labialized `qua`/`gua` (`Quacuran` → クヮクラン), and the silent orthographic `u` in `gue`/`gui` (`Xiraſagui` → シラサギ); Portuguese italic text and recognized editorial labels are excluded. Failure is displayed explicitly rather than silently hiding the guide.

@@ -60,6 +60,16 @@ def transliterate_token(token: str) -> str | None:
     while index < len(text):
         orthographic_u_after_g = False
         doubled_z = False
+        if (text[index] == "y" and not vowel_at(text, index + 1)
+                and text[index + 1:index + 2] != "y"):
+            # Vocalic y: taguy, ytçucuximi; retain consonantal ya/yu/yo.
+            output.append("イ"); index += 1; continue
+        if (text[index] == "j" and index > 0 and vowel_at(text, index - 1)
+                and not vowel_at(text, index + 1) and text[index + 1:index + 2] != "j"):
+            # Long i/j is also used internally: ijta, qijta, Chijſai.
+            output.append("イ"); index += 1; continue
+        if text[index] == "m" and text[index + 1:index + 2] in ("b", "p"):
+            output.append("ン"); index += 1; continue
         if text.startswith("qua", index):
             output.append("クヮ")
             index += 3
@@ -81,8 +91,8 @@ def transliterate_token(token: str) -> str | None:
             output.append("ン")
             index += 1
             continue
-        if text.startswith(("cq", "cc"), index):
-            # cc and mixed c/q spellings represent the same doubled k sound.
+        if text.startswith(("cq", "cc", "xx"), index):
+            # cc/cq double k; xx doubles sh (Bexxo = ベッショ).
             output.append("ッ")
             index += 1
             continue
