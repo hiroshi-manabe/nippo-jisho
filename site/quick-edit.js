@@ -70,10 +70,14 @@
     return knownTerms.has(parsed.text.slice(start, end)) ? {start, end} : null;
   }
 
-  function typefaceTokenRange(value, index) {
+  function typefaceTokenRange(value, index, originalCharacter) {
     const parsed = parse(value);
     if (!parsed.valid || !parsed.characters[index]) return null;
     const character = parsed.characters[index].character;
+    // Accented vowels are accent controls, including after cycling back to
+    // a plain vowel. Keep ordinary standalone abbreviation letters eligible.
+    const accentedVowel = value => /^[aeiou][\u0300-\u036f]+$/iu.test((value || '').normalize('NFD'));
+    if (accentedVowel(character) || accentedVowel(originalCharacter)) return null;
     if (!/\p{L}/u.test(character) || (index > 0 && /\p{L}/u.test(parsed.characters[index - 1].character))) return null;
     if (character === 'a') return null;
     const next = parsed.characters[index + 1]?.character;

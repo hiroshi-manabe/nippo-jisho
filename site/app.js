@@ -735,7 +735,7 @@ function quickCharacterHTML(character, index, baseIndex, changed, line, proposal
   let title = '';
   let extraAttributes = '';
   const markedToken = NippoQuickEdit.knownTypefaceTokenRange(proposal.text, index, new Set(line.typeface_toggle_terms || []));
-  const typefaceToken = markedToken || NippoQuickEdit.typefaceTokenRange(proposal.text, index);
+  const typefaceToken = markedToken || NippoQuickEdit.typefaceTokenRange(proposal.text, index, original);
   if (nasalRestoration) {
     action = 'nasal-restore';
     title = `Restore ${nasalRestoration.vowel}${nasalRestoration.consonant}`;

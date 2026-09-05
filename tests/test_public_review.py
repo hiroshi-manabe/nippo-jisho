@@ -402,6 +402,10 @@ equal(q.typefaceTokenRange('i, l, word', 0), {start: 0, end: 1});
 equal(q.typefaceTokenRange('i, l, word', 3), {start: 3, end: 4});
 equal(q.typefaceTokenRange('word l', 5), {start: 5, end: 6});
 equal(q.typefaceTokenRange('a, l', 0), null);
+for (const vowel of ['à', 'á', 'ã', 'è', 'é', 'ẽ', 'ì', 'ĩ', 'ô', 'ǒ', 'õ', 'ù', 'ũ', 'ǔ', 'À']) {
+  equal(q.typefaceTokenRange(vowel + '.', 0), null);
+  equal(q.typefaceTokenRange(vowel.normalize('NFD')[0] + '.', 0, vowel), null);
+}
 equal(q.typefaceTokenRange('word', 3), null);
 equal(q.typefaceTokenRange('S. X. a.', 0), {start: 0, end: 2});
 equal(q.typefaceTokenRange('S. X. a.', 3), {start: 3, end: 5});
