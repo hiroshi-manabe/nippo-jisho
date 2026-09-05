@@ -49,5 +49,30 @@ centres and column boxes, and saves the compact coverage record. The review
 decisions must be recorded after actual image inspection, never generated from
 the OCR score. Local audit/proposal sheets are disposable derived files.
 
-The intended extension to f13–f237 remains pending; this pilot is not evidence
-that columns outside f121–f145 have passed the new campaign.
+## Extension checkpoint — 2026-09-06
+
+The extension covers f13–f237. A fresh automated audit covers all 225 pages
+(21,125 body rows), but this is not a claim of completed visual review.
+The audit alignment now permits skipping long runs of marginal handwriting
+detections: the previous fixed 12-row displacement limit could force body text
+onto unrelated OCR detections. A synthetic regression test covers that failure.
+
+Additional completed individual-crop inspections: f13–f14 and f146–f150
+(14 columns). These yielded 447 adjusted rectangles, with text and IDs unchanged.
+The oversized initial A on f13 and D on f149 required manual expansion and
+re-rendering. f15 column 1 has been inspected, but its oversized initial still
+needs attention; the page remains unapplied and unverified as a whole.
+
+`extension-decisions.json` and `extension-coverage.json` in the campaign directory
+record this checkpoint. Pending entries are deliberately not applied. The
+original pilot ledger remains authoritative for f121–f145; pending entries in
+the extension ledger do not revoke that earlier inspection. Outside the pilot,
+193 pages still await completed visual review. Do not describe the extension
+as finished.
+
+`scripts/render_clipping_campaign.py` renders actual individual proposed crops
+beside their text. The application command supports `--reviewed-only` and
+`--coverage-output` to publish a verified checkpoint without overwriting the
+pilot ledger. Before a later application, regenerate proposals against current
+geometry and preserve the explicit manual crop decisions. Never mechanically
+mark pending pages reviewed.

@@ -4,9 +4,19 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
 from prepare_clipping_campaign import fingerprint, propose
+from audit_ocr_layout_geometry import align_audit_rows
 
 
 class ClippingProposalTests(unittest.TestCase):
+    def test_extra_marginal_detections_do_not_force_wrong_rows(self):
+        texts = ['alpha first body row', 'bravo second body row', 'charlie last body row']
+        references = [{'text': t} for t in texts]
+        candidates = [{'recognition': 'unrelated marginal scribble'} for _ in range(18)]
+        candidates += [{'recognition': t} for t in texts]
+        matches = [(i, j) for i, j in align_audit_rows(references, candidates)
+                   if i is not None and j is not None]
+        self.assertEqual(matches, [(0, 18), (1, 19), (2, 20)])
+
     def setUp(self):
         self.line = {'crop': [20, 40, 100, 30], 'centre_y': 55,
                      'context_crop': [20, 10, 100, 100]}

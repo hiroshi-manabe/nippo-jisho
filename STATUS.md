@@ -1,6 +1,6 @@
 # Project Status
 
-Last updated: 2026-09-05
+Last updated: 2026-09-06
 
 ## Line-clipping repair pilot
 
@@ -11,7 +11,11 @@ repaired/verified, 12 checked/unchanged, none unresolved. There are 1,572
 adjusted crops on 23 pages; transcription and stable IDs are unchanged.
 The [coverage ledger](pilot/ocr-layout-evidence/v1/campaign-line-clipping/coverage.json)
 records every column and the explicitly retained weak OCR matches. The wider
-f13–f237 extension remains pending.
+f13–f237 extension is in progress. The full automated audit is complete;
+additional individual-crop inspections and 447 rectangle adjustments have
+been applied for f13–f14 and f146–f150. Outside the completed pilot, 193 pages
+still require completed visual inspection. See the campaign document and its
+separate extension ledger; unverified proposals have not been published.
 
 ## Commented-review follow-up
 

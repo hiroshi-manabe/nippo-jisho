@@ -26,6 +26,9 @@ def main():
     parser.add_argument('--proposal-dir', type=Path, required=True)
     parser.add_argument('--decisions', type=Path, required=True)
     parser.add_argument('--apply', action='store_true')
+    parser.add_argument('--reviewed-only', action='store_true',
+                        help='Apply only explicitly reviewed pages; retain pending coverage.')
+    parser.add_argument('--coverage-output', type=Path)
     args = parser.parse_args()
     proposals = read(args.proposal_dir / 'proposal.json')
     evidence = read(args.proposal_dir / 'coverage.json')
@@ -40,9 +43,12 @@ def main():
         raise SystemExit('Proposal range does not cover the complete pilot')
     for column in evidence['columns']:
         leaf = int(column['page'].split('f')[-1])
+        if args.reviewed_only and leaf not in decisions['reviewed_pages']:
+            continue
         for line in column['lines']:
             key = f"{leaf}:{column['column']}:{line['id']}"
-            if line['disposition'] == 'manual_alignment_required' and not decisions['notes'].get(key):
+            if line['disposition'] == 'manual_alignment_required' and not (
+                    decisions['notes'].get(key) or decisions['notes'].get(f"{leaf}:{column['column']}:*")):
                 raise SystemExit(f'Manual alignment decision missing: {key}')
     columns = []
     seen = set()
@@ -50,6 +56,13 @@ def main():
     for proposed in proposals['pages']:
         page_id = proposed['id']
         leaf = int(page_id.split('f')[-1])
+        if args.reviewed_only and leaf not in decisions['reviewed_pages']:
+            for name, value in proposed['columns'].items():
+                columns.append({'page': page_id, 'column': name,
+                                'status': 'pending_visual_review',
+                                'line_count': len(value['lines']), 'changed_crop_count': 0})
+                seen.add((page_id, name))
+            continue
         old_page = geometry[page_id]
         if fingerprint(old_page) != evidence['baselines'][page_id]:
             raise SystemExit(f'Stale proposal: {page_id}; regenerate and recheck')
@@ -100,14 +113,16 @@ def main():
         raise SystemExit('Coverage ledger mismatch')
     result = {'format': 'nippo-clipping-campaign-coverage', 'reviewed_at': today,
               'range': decisions['pilot_range'], 'scope': 'body columns only',
-              'status': 'pilot_complete', 'unresolved_columns': [], 'columns': columns}
+              'status': 'in_progress' if any(c['status'] == 'pending_visual_review' for c in columns) else 'pilot_complete',
+              'unresolved_columns': [f"{c['page']}/{c['column']}" for c in columns
+                                     if c['status'] == 'pending_visual_review'], 'columns': columns}
     print(f"{len(columns)} columns; {sum(c['line_count'] for c in columns)} lines; "
           f"{sum(c['changed_crop_count'] for c in columns)} adjusted crops")
     if args.apply:
         write(paths[0], documents[0])
         write_compact_pages(paths[1], documents[1])
         write(paths[2], documents[2])
-        write(args.decisions.parent / 'coverage.json', result)
+        write(args.coverage_output or args.decisions.parent / 'coverage.json', result)
         print('Applied reviewed geometry without changing transcription.')
     else:
         print('Dry run; pass --apply to save.')

@@ -82,6 +82,14 @@ def targets_for_geometry(page: dict, geometry_page: dict) -> dict[str, list[dict
     return result
 
 
+def align_audit_rows(references, candidates):
+    """Allow marginal detections to be skipped without exhausting an index band."""
+    return sequence_alignment(
+        references, candidates, gap_cost=0.55, position_cost=0.005,
+        maximum_displacement=max(len(references), len(candidates)),
+    )
+
+
 def audit_page(number: int, evidence_root: Path, geometry_page: dict) -> dict:
     identifier = f"bnf-f{number:04d}"
     page = load_json(LEVEL1 / f"{identifier}.json")
@@ -102,13 +110,7 @@ def audit_page(number: int, evidence_root: Path, geometry_page: dict) -> dict:
         candidates = column_candidates(evidence, column)
         result["targets"] += len(references)
         result["candidates"] += len(candidates)
-        alignment = sequence_alignment(
-            references,
-            candidates,
-            gap_cost=0.55,
-            position_cost=0.005,
-            maximum_displacement=12,
-        )
+        alignment = align_audit_rows(references, candidates)
         alignment, rescues = rescue_sandwiched_gaps(
             alignment, len(references), len(candidates)
         )
