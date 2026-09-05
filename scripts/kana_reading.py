@@ -151,6 +151,10 @@ def transliterate_token(token: str) -> str | None:
             "ny": {"a": "ニャ", "i": "ニ", "u": "ニュ", "e": "ニェ", "o": "ニョ"},
         }
         rendered = special.get(consonant, {}).get(vowel[0])
+        if consonant == "g" and vowel[0] == "i" and not orthographic_u_after_g:
+            # Bare gi belongs to the voiced palatal series (Fagi = はぢ).
+            # Portuguese-style gui retains hard g (Fagui = はぎ).
+            rendered = "ヂ"
         if rendered is None:
             rendered = ROWS[consonant][INDEX[vowel[0]]]
         output.append(rendered)
