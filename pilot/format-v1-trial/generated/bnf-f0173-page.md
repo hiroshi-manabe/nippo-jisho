@@ -18,7 +18,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l002` | &emsp;*neuoa, vapores, &c. ¶* Cocoroga faru- |  |
 | `c1-l003` | &emsp;ru. *Deſabafar o coração. ¶* Tenqiga |  |
 | `c1-l004` | &emsp;faruru. *Aclarar o tempo.* |  |
-| `c1-l005` | Fare, uru, eta. *Inchar. ¶* Te axiga fa- |  |
+| `c1-l005` | Fare, uru, eta. *Incbar. ¶* Te axiga fa- |  |
 | `c1-l006` | &emsp;ruru. *Incharem as mãos, & pès.* |  |
 | `c1-l007` | Farebareto. *Modo deſe aſerenar o tempo. Vt,* |  |
 | `c1-l008` | &emsp;Tenqiga farebareto natta. *Aclarouſe, &* |  |
@@ -27,7 +27,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l011` | &emsp;fǒchacu ſuru. |  |
 | `c1-l012` | Faregamaxij. *Couſa feſtiual, ou de concur-* |  |
 | `c1-l013` | &emsp;*ſo, &c.* |  |
-| `c1-l014` | Faregui. *Veſtido de feſta, ou pera ſair em-* |  |
+| `c1-l014` | Faregui. *Vestido de feſta, ou pera ſair em-* |  |
 | `c1-l015` | &emsp;*publico.* |  |
 | `c1-l016` | Farema. i, Faruru aida. *Eſpaço em que eſ-* |  |
 | `c1-l017` | &emsp;*clarece o tempo, ou deixa de chouer. ¶* Fa- |  |
@@ -45,7 +45,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l029` | &emsp;*deſabafada.* |  |
 | `c1-l030` | Fareyuqi, u, uita. *Ir aclarando o tempo, &c.* |  |
 | `c1-l031` | &emsp;*Vt,* Aſaguirino fare yuqu mamani. *Aſſi* |  |
-| `c1-l032` | &emsp;*como ſe hia desfazẽdo a neuoa de pollamenhaã.* |  |
+| `c1-l032` | &emsp;*como ſe hia des*f*azẽdo a neuoa de pollamenhaã.* |  |
 | `c1-l033` | Fari. *Agulha, ou lanceta. ¶* Fariuo fi- |  |
 | `c1-l034` | &emsp;neru. *Meter certas agulhas, ou alfenetes por* |  |
 | `c1-l035` | &emsp;*algũas partes do corpo por meizinha. ¶* Fa- |  |
@@ -55,11 +55,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l039` | Fari. Tama. *Hũa pedra precioſa.* |  |
 | `c1-l040` | Fari. *Traues, ou vigas. No cami ſe diz,* |  |
 | `c1-l041` | &emsp;Vtçubari. |  |
-| `c1-l042` | Fari, u, atta. *Eſtender, ou eſtirar. ¶* Qi- |  |
+| `c1-l042` | Fari, u, atta. *Eſtender, ou estirar. ¶* Qi- |  |
 | `c1-l043` | &emsp;nuuo faru. *Estender peças de ſeda delgadas.* |  |
 | `c1-l044` | &emsp;¶ Yumiuo faru. *Por a corda no arco.* |  |
 | `c1-l045` | &emsp;¶ Butaiuo faru. *Fazer teatro pera autos* |  |
-| `c1-l046` | &emsp;*&c. ¶* Meuo mifaru. *Eſtar com os o-* |  |
+| `c1-l046` | &emsp;*&c. ¶* Meuo mifaru. *Estar com os o* |  |
 | `c1-l047` | &emsp;*lhos fitos. ¶* Figiuo faru. *Por as mãos* |  |
 
 ## Column 2 running header
@@ -80,7 +80,7 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c2-l001` | &emsp;*nas ilhargas com os cotouelos aleuantados. i,* |  |
 | `c2-l002` | &emsp;*Moſtrarſe farfante. ¶* Iǒuo faru. *Ser* |  |
-| `c2-l003` | &emsp;*pertinaz. ¶* Faraga faru. *Inchara bar-* |  |
+| `c2-l003` | &emsp;*pertinaz. ¶* Faraga faru. *Inchar a bar-* |  |
 | `c2-l004` | &emsp;*riga. ¶* Amiuo faru. *Estender a rede.* |  |
 | `c2-l005` | &emsp;¶ Xǒji, andon, tôro, caracaſa nadouo |  |
 | `c2-l006` | &emsp;faru. *Cobrir de papel certas portas como adu-* |  |
@@ -116,7 +116,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l036` | &emsp;*¶ Item, Fazer ſoar o veſtido que tem forro* |  |
 | `c2-l037` | &emsp;*encanjado, & teſo.* |  |
 | `c2-l038` | Farimeqi, qu, eita. *Soarem as couſas ditas* |  |
-| `c2-l039` | &emsp;*acima.* |  |
+| `c2-l039` | &emsp;*a cima.* |  |
 | `c2-l040` | Farino mimi. *Fundo dagulha. ¶* Farino |  |
 | `c2-l041` | &emsp;mimiuo touoſu. *Enfiar agulha.* |  |
 | `c2-l042` | Farino mimizu. *Idem, quod* Farino mimi. |  |
@@ -124,7 +124,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l044` | Fariſaqi, qu, aita. *Raſgar, ou deſpedaçar.* |  |
 | `c2-l045` | &emsp;Atamaga fariſacuyǒni itai. *Doe me a cabe* |  |
 | `c2-l046` | &emsp;*ça que parece que maquebraõ, ou eſpedaçaõ.* |  |
-| `c2-l047` | Faritate, uru, eta. *Cobrir de todo grudan-* |  |
+| `c2-l047` | Faritate, uru, eta. *Cobrir de todo grudan* |  |
 
 ## Signature
 

@@ -30,13 +30,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l014` | &emsp;*ou mais curto.* |  |
 | `c1-l015` | Fara. *Campo raſo.* |  |
 | `c1-l016` | Fara. *Barriga.* Farauo tatçuru. *Agas-* |  |
-| `c1-l017` | &emsp;*taſe. ¶* Faraga tatçu. *Idem. ¶* Fa- |  |
-| `c1-l018` | &emsp;rauo qiri, l, caqiqiru, l, ſuru. *Cortar* |  |
+| `c1-l017` | &emsp;*tarſe. ¶* Faraga tatçu. *Idem. ¶* Fa- |  |
+| `c1-l018` | &emsp;rauo qiru, l, caqiqiru, l, ſuru. *Cortar* |  |
 | `c1-l019` | &emsp;*a barriga, ou matarſe. ¶* Farauo meſa- |  |
-| `c1-l020` | &emsp;iuru. *Cortar a barriga peſſoa nobre, ou ma-* |  |
+| `c1-l020` | &emsp;ruru. *Cortar a barriga peſſoa nobre, ou ma-* |  |
 | `c1-l021` | &emsp;*tarſe com ſuas proprias mãos. ¶* Faraga |  |
 | `c1-l022` | &emsp;iru, l, farauo ſuyuru. *Aplacarſe a ira.* |  |
-| `c1-l023` | &emsp;¶ Faraga cudau. *Andar de camaras.* |  |
+| `c1-l023` | &emsp;¶ Faraga cudaru. *Andar de camaras.* |  |
 | `c1-l024` | &emsp;¶ Faraga tomaru, *eſtancarem as camaras.* |  |
 | `c1-l025` | Faraate, l, faramaqi. *Armas.* |  |
 | `c1-l026` | Faraca. *Hum certo peixe.* |  |
@@ -55,7 +55,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l039` | &emsp;*diuerſas mãys. ¶* Faragauarino qiǒdai. |  |
 | `c1-l040` | &emsp;*Irmãos filhos de diuerſas mãys.* |  |
 | `c1-l041` | Faragome. *Criança que fica no ventre da* |  |
-| `c1-l042` | &emsp;*mãy quando o pay morre.* X*. ¶* Farago- |  |
+| `c1-l042` | &emsp;*mãy quando o pay morre. X. ¶* Farago- |  |
 | `c1-l043` | &emsp;meno toqicara tetega xinda. *Morre-* |  |
 | `c1-l044` | &emsp;*olhe o pay ficando, ou eſtando ainda no ven-* |  |
 | `c1-l045` | &emsp;*tre da mãy. ¶ Item, Criança, ou filho de qual* |  |
@@ -76,11 +76,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l002` | Farai, ǒ, ǒta. *Sacudir, ou botar fora. Vt,* |  |
 | `c2-l003` | &emsp;Chiri focoriuo farǒ. *Sacudir o poo. ¶* A- |  |
 | `c2-l004` | &emsp;tariuo farǒ. *Ir com grande fauſto. ¶* A- |  |
-| `c2-l005` | &emsp;cuuo farǒ. *Botar de ſi os peccados. ¶* Te- |  |
+| `c2-l005` | &emsp;cuuo farǒ. *Botar deſi os peccados. ¶* Te- |  |
 | `c2-l006` | &emsp;mayeuo farǒ. *Iuſtificarſe de algũa couſa,* |  |
 | `c2-l007` | &emsp;*ou çafarſe de cõtas, &c.* Farai catano ſanyô. |  |
 | `c2-l008` | &emsp;*Contas do que hum tem deſpendido, por or-* |  |
-| `c2-l009` | &emsp;*dem, ou commiſão do ſenhor.* |  |
+| `c2-l009` | &emsp;*dem, ou commiſſão do ſenhor.* |  |
 | `c2-l010` | Faraiguiri. *O cortar tudo ſem ter deuer que ſe* |  |
 | `c2-l011` | &emsp;*ja molher, minino, religioſo, &c. Vt,* Farai- |  |
 | `c2-l012` | &emsp;guiriuo ſuru. |  |
@@ -94,7 +94,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l020` | &emsp;*ruido. ¶ Item, Eſtarem algũas couſas mal* |  |
 | `c2-l021` | &emsp;*cozidas, & deſunidas como grãos de arroz,* |  |
 | `c2-l022` | &emsp;*gergelada, &c. ¶* Mexiga faramequ. |  |
-| `c2-l023` | &emsp;*Eſtar o arroz mal cozido deſta maneira.* |  |
+| `c2-l023` | &emsp;*Estar o arroz mal cozido deſta maneira.* |  |
 | `c2-l024` | Farami, u, ǒda. *Emprenhar. ¶* Couo |  |
 | `c2-l025` | &emsp;faramu. *Eſtar prenhe, ou com o filho na bar-* |  |
 | `c2-l026` | &emsp;*riga. ¶* Mugui, l, inega faramu. *Eſtar* |  |
@@ -109,7 +109,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l035` | Fararito. *Adu. De todo, ou totalmente.* |  |
 | `c2-l036` | Farauata. *Tripas.* |  |
 | `c2-l037` | Farauobi. *Hũa cinta que poem as molheres* |  |
-| `c2-l038` | &emsp;*prenhes junto da carne pera fazer a barriga pe-* |  |
+| `c2-l038` | &emsp;*prenhes junto da carne pera fazer a barriga pe* |  |
 | `c2-l039` | &emsp;*quena.* X*.* |  |
 | `c2-l040` | Faraxi, ſu, aita. *Aclarar. ¶* Cocoro |  |
 | `c2-l041` | &emsp;uo faraſu. *Deſabafar. ¶* Fuxiuo fara- |  |
@@ -117,7 +117,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l043` | &emsp;ſu. *Botar fora o erro. ¶* Qizzucaiuo |  |
 | `c2-l044` | &emsp;faraſu. *Botar de ſi os cuidados, ou tristeza.* |  |
 | `c2-l045` | &emsp;¶ Nozomiuo faraſu. *Comprir os deſejos.* |  |
-| `c2-l046` | Faraya. *Certo aluaçade.* |  |
+| `c2-l046` | Faraya. *Certo aluayade.* |  |
 | `c2-l047` | Fare. *Couſa publica, ou onde ha concurſo de* |  |
 | `c2-l048` | &emsp;*gente.* |  |
 
