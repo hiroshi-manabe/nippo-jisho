@@ -1072,6 +1072,33 @@ async function copyLineReference(control) {
   else prompt('Copy this line reference:', reference);
 }
 
+function markSubmissionOpened(pages, batch) {
+  for (const page of pages) persistSubmission(page, 'awaiting');
+  if (batch) {
+    localStorage.setItem('nippo-batch-awaiting', JSON.stringify(pages.map(page => page.leaf)));
+    selectionMode = false;
+    selectedLeaves.clear();
+    renderGrid();
+  }
+}
+
+async function openCorrectionSubmission(pages, payload, url, batch = false) {
+  // Both callers finish their baseline checks before opening a tab or copying.
+  const issueWindow = window.open('about:blank', '_blank');
+  const copied = await copyText(payload);
+  if (copied && issueWindow) {
+    issueWindow.location = url;
+    markSubmissionOpened(pages, batch);
+    toast('Correction JSON copied. Paste it into the Issue.');
+    return;
+  }
+  if (issueWindow) issueWindow.close();
+  prepareSubmission(pages, payload, url, batch);
+  $('#submission-copy-status').textContent = copied
+    ? 'JSON copied, but the browser blocked the new tab. Use Open Issue below.'
+    : 'Automatic copy failed. Use Copy JSON below, or copy the visible JSON manually.';
+}
+
 function prepareSubmission(pages, payload, url, batch = false) {
   const dialog = $('#submission-dialog');
   const area = $('#submission-json');
@@ -1089,14 +1116,11 @@ function prepareSubmission(pages, payload, url, batch = false) {
     if (!copied) { area.focus(); area.select(); area.setSelectionRange(0, area.value.length); }
   };
   $('#submission-open').onclick = () => {
-    window.open(url, '_blank');
-    for (const page of pages) persistSubmission(page, 'awaiting');
-    if (batch) {
-      localStorage.setItem('nippo-batch-awaiting', JSON.stringify(pages.map(page => page.leaf)));
-      selectionMode = false;
-      selectedLeaves.clear();
-      renderGrid();
+    if (!window.open(url, '_blank')) {
+      $('#submission-copy-status').textContent = 'The browser blocked the Issue tab. Allow pop-ups for this site and try again.';
+      return;
     }
+    markSubmissionOpened(pages, batch);
     // Leave the JSON available when returning from GitHub.
   };
   $('#submission-cancel').onclick = () => dialog.close();
@@ -1137,7 +1161,7 @@ async function submitSelectedPages() {
     const payload = JSON.stringify({schema: 4, pages: records}, null, 2);
     const title = pages.length <= 8 ? `[${pages.map(p => p.view).join(', ')}] Transcription corrections` : `[${pages[0].view}–${pages.at(-1).view}, ${pages.length} pages] Transcription corrections`;
     const url = `https://github.com/${state.corpus.repository}/issues/new?template=transcription-correction.md&title=${encodeURIComponent(title)}`;
-    prepareSubmission(pages, payload, url, true);
+    await openCorrectionSubmission(pages, payload, url, true);
   } catch (error) {
     alert(error.message);
   }
@@ -1151,7 +1175,7 @@ async function submitCorrections() {
   }
   const payload = JSON.stringify(correctionPayload(page), null, 2);
   const issueURL = `https://github.com/${state.corpus.repository}/issues/new?template=transcription-correction.md&title=${encodeURIComponent(`[${page.view}] Transcription corrections`)}`;
-  prepareSubmission([page], payload, issueURL);
+  await openCorrectionSubmission([page], payload, issueURL);
 }
 
 document.addEventListener('click', event => {
