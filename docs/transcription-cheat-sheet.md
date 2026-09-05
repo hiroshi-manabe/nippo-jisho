@@ -36,6 +36,7 @@ In a correction proposal only, an adjacent `*` immediately before or after a wor
 | `g` / `q` | Test the Japanese form, then compare enlarged glyphs. `gue`/`gui` and `qe`/`qi` are normal patterns. |
 | `n` / `u`, `m` / `u`, `i` / `l` | Use the word and gloss to locate the problem, but decide from enlarged strokes in the same typeface; upright and italic forms may differ sharply. |
 | one consonant / two | Count the types. Do not supply an expected historical or modern spelling. |
+| consonantal `I` / `J` | An unfamiliar initial may be a spelling variant, not an error: f165 `Ienuo cubaru` reads ゼンヲ クバル (膳を配る). Preserve printed `I`; do not apply a global replacement. See [the contextual example](historical-language-notes.md#11a-consonantal-i-and-j-a-review-example). |
 | `ǒ` / `ô` | Read the mark's direction: caron `ˇ` versus circumflex `ˆ`. They are not interchangeable. |
 | `ǔ` / `û` / `ù` | Preserve the visible shape. Long `u` has no open/closed opposition corresponding to long `o`. |
 | breve or macron lookalikes (`ŭ`, `ŏ`, `ō`) | Treat these Unicode characters as recognition alarms, not substitutes for the dictionary's carons, circumflexes, or graves. Reinspect the scan. Do not extend this rule to a genuinely printed rare form such as `ï` or `ñ`. |

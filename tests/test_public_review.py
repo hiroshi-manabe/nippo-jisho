@@ -301,6 +301,14 @@ class PublicReviewRegressionTests(unittest.TestCase):
         self.assertIn("line.reading_hint", app)
         self.assertIn("Automatic reading unavailable", app)
 
+    def test_kana_consonantal_i_is_contextual_and_preserves_source_label(self):
+        from scripts.kana_reading import phrase_hint
+
+        self.assertEqual(phrase_hint("Ienuo cubaru"), "Ienuo cubaru/ゼンヲ クバル")
+        self.assertEqual(phrase_hint("Jenuo cubaru"), "Jenuo cubaru/ゼンヲ クバル")
+        self.assertEqual(phrase_hint("Ienuo"), "Ienuo/イエンヲ")
+        self.assertEqual(phrase_hint("Iye"), "Iye/イエ")
+
     def test_kana_fragment_does_not_hide_neighboring_readable_words(self):
         from scripts.kana_reading import reading_hint
 

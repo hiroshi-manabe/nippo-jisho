@@ -36,6 +36,19 @@ This is valuable for coverage review and ambiguous headwords, but it is not a li
 
 The key also uses `Gu-i` to show that vocalic `i` is a separate syllable rather than part of `gui`. A printed hyphen can therefore be linguistic rather than a line-break repair; preserve it before interpreting it.
 
+### 1.1a Consonantal `I` and `J`: a review example
+
+**Project observation, human-confirmed (f165/c2-l034).** Under `Faijen`,
+`Ienuo cubaru` means 膳を配る: `Ien` functions as `Jen`, giving the reading
+ゼンヲ クバル. This is compatible with the key's distinction between vocalic
+and consonantal `I` above. The earlier review note incorrectly called the
+initial anomalous; a familiar sound can have an unfamiliar printed spelling.
+
+Preserve `Ienuo` in Level 1. The derived kana guide recognizes this attested
+phrase contextually, without a global initial `I` → `J` substitution. Other
+instances require their own lexical and bilingual interpretation; this example
+alone does not establish that every `Ie-` sequence is consonantal.
+
 ### 1.2 Register and domain labels
 
 **Dictionary-specific.** The key explains `X.`, `alicubi`, `P.`, `S.`, `Bup.`, and final `B.` as regional, restricted, poetic, written, Buddhist, and low-register labels respectively. It also explains that comparisons with *Cami* usage may be stated in prose. These labels are strong clues to the function of surrounding text, especially where roman and italic types are difficult to distinguish.

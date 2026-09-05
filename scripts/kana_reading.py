@@ -189,12 +189,19 @@ def reading_tokens(text: str) -> list[str]:
 
 def phrase_hint(text: str) -> str | None:
     tokens = reading_tokens(text)
+    # Attested consonantal I/J variation: Ienuo cubaru under Faijen (膳を配る).
+    # Keep the diplomatic spelling in the label. Do not turn every initial
+    # I into J: vocalic I and other Japanese spellings also occur.
+    reading_forms = list(tokens)
+    for index, token in enumerate(tokens[:-1]):
+        if normalized(token) == "ienuo" and normalized(tokens[index + 1]) == "cubaru":
+            reading_forms[index] = "Jenuo"
     readings = [
         "イ"
         if normalized(token) == "i"
         and index > 0
         and normalized(tokens[index - 1]).endswith("guio")
-        else transliterate_token(token)
+        else transliterate_token(reading_forms[index])
         for index, token in enumerate(tokens)
     ]
     if not tokens or all(reading is None for reading in readings):
