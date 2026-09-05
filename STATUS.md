@@ -2,6 +2,17 @@
 
 Last updated: 2026-09-05
 
+## Line-clipping repair pilot
+
+The [new clipping campaign](docs/clipping-repair-campaign.md) has covered all
+50 body columns of f121–f145, including columns missed by the earlier
+systematic-offset selection. Its 2,362 crops are accounted for: 38 columns
+repaired/verified, 12 checked/unchanged, none unresolved. There are 1,572
+adjusted crops on 23 pages; transcription and stable IDs are unchanged.
+The [coverage ledger](pilot/ocr-layout-evidence/v1/campaign-line-clipping/coverage.json)
+records every column and the explicitly retained weak OCR matches. The wider
+f13–f237 extension remains pending.
+
 ## Commented-review follow-up
 
 The review UI now distinguishes **AI reviewed with commentary** using the

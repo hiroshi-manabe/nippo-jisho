@@ -738,9 +738,16 @@ assert(!/\.review-status\{[^}]*bottom:/.test(css));
         page = next(page for page in record["pages"] if page["id"] == "bnf-f0138")
         column = page["columns"]["column-2"]
         self.assertEqual(column["visual_review"], "line_by_line_reverified")
-        self.assertEqual(column["lines"]["c2-l001"]["crop"], [1500, 405, 1120, 100])
-        self.assertEqual(column["lines"]["c2-l024"]["crop"], [1500, 1878, 1120, 100])
-        self.assertEqual(column["lines"]["c2-l047"]["crop"], [1500, 3350, 1120, 100])
+        # Further complete-glyph repairs may expand these verified regions.
+        for line_id, verified in (("c2-l001", [1500, 405, 1120, 100]),
+                                  ("c2-l024", [1500, 1878, 1120, 100]),
+                                  ("c2-l047", [1500, 3350, 1120, 100])):
+            x, y, w, h = column["lines"][line_id]["crop"]
+            a, b, c, d = verified
+            self.assertLessEqual(x, a)
+            self.assertLessEqual(y, b)
+            self.assertGreaterEqual(x + w, a + c)
+            self.assertGreaterEqual(y + h, b + d)
 
     def test_f135_bottom_right_fragment_is_the_catchword(self):
         page = json.loads(
@@ -848,12 +855,23 @@ assert(!/\.review-status\{[^}]*bottom:/.test(css));
                         column["visual_review"],
                         {
                             "ai_bulk_geometry_sanity_checked",
+                            "line_by_line_reverified",
                             "ai_line_by_line_checked",
                             "targeted_ocr_contact_sheet_reviewed",
                         },
                     )
                 left, _, right, _ = column["box"]
                 for line in column["lines"].values():
+                    if column.get("geometry_method") == "ocr_clipping_proposal_visual_crop_verification":
+                        # Individually verified expansion need not give every
+                        # row the same horizontal start/end as the column union.
+                        x, _, w, _ = line["crop"]
+                        cx, _, cw, _ = line["context_crop"]
+                        self.assertGreaterEqual(x, left)
+                        self.assertLessEqual(x + w, right)
+                        self.assertLessEqual(cx, x)
+                        self.assertGreaterEqual(cx + cw, x + w)
+                        continue
                     if line.get("crop_scope") == "displaced_fragment":
                         # A separately addressed fragment can be isolated from
                         # unrelated text to its left; full context remains.

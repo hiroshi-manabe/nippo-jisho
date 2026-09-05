@@ -27,6 +27,9 @@ The complete high-resolution source cache can be obtained with the resumable pro
 
 The current high-resolution reading experiment is described in [Tiled Visual Review](docs/tiled-visual-review.md).
 
+The [line-clipping repair campaign](docs/clipping-repair-campaign.md) records the
+new complete-column coverage audit, beginning with the f121–f145 pilot.
+
 The adopted [Level 1 page-transcription format](docs/page-transcription-format-v1-candidate.md) and its [229-page corpus](pilot/format-v1-trial/README.md) now cover 22,380 physical lines. The [compact Level 1 Markdown format](docs/level1-markdown-candidate.md) is the human-readable authoring form and regenerates the validated machine representation. Adoption evidence and timing are recorded in the [f249–f250 production simulation](pilot/production-simulation/f0249-f0250.md); sequential production reports now run from [`f15`](pilot/production-review/bnf-f0015.md) through [`f237`](pilot/production-review/bnf-f0237.md).
 
 The [dictionary-wide human review interface](pilot/human-review/README.md) navigates all 651 acquired Gallica leaves and distinguishes 229 canonical Level 1 pages, 402 editable machine-provisional OCR candidates, and 20 scan-only leaves. Provisional display never promotes a candidate or claims that its physical lineation has been checked. The public implementation follows the [Human Review and Correction Workflow](docs/human-review-workflow.md): a thumbnail overview, compact line editing, adaptive complete-glyph crops from one mirrored Gallica page image, an in-context two-level transcription reference, clipboard-to-Issue submission, and correction-history measures that do not claim final verification.
