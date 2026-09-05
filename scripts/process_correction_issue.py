@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Apply schema-2 transcription Issues and finalize settled submissions."""
+"""Apply single-page and multi-page transcription Issues."""
 
 from __future__ import annotations
 
@@ -89,9 +89,22 @@ def extract_payload(body: str) -> dict:
 
 
 def validate_payload(payload: dict) -> None:
+    if payload.get("schema") == 4:
+        pages = payload.get("pages")
+        if not isinstance(pages, list) or not pages:
+            raise IssueProcessingError("pages must be a non-empty list")
+        seen = set()
+        for page in pages:
+            if not isinstance(page, dict) or page.get("schema") != 3:
+                raise IssueProcessingError("batch pages must be schema-3 objects")
+            validate_payload(page)
+            if page["page"] in seen:
+                raise IssueProcessingError(f"duplicate page {page['page']!r}")
+            seen.add(page["page"])
+        return
     if payload.get("schema") not in {2, 3}:
         raise IssueProcessingError(
-            f"unsupported correction schema {payload.get('schema')!r}; schemas 2 and 3 are accepted"
+            f"unsupported correction schema {payload.get('schema')!r}; schemas 2, 3 and 4 are accepted"
         )
     for field in ("page", "base_commit", "base_transcription_version"):
         if not isinstance(payload.get(field), str) or not payload[field]:
@@ -509,6 +522,12 @@ def prepare(
 ) -> dict:
     issue = fetch_issue(issue_number, repository)
     payload = extract_payload(issue["body"])
+    if payload["schema"] == 4:
+        return prepare_batch(issue_number, issue, payload, root, repository)
+    return prepare_page(issue_number, issue, payload, root, repository)
+
+
+def prepare_page(issue_number, issue, payload, root, repository, *, defer=False, allowed_paths=None):
     validate_base_commit(root, payload["base_commit"])
     page, storage = load_editable_page(root, payload["page"])
     preliminary = {
@@ -519,7 +538,7 @@ def prepare(
     allowed_recovery = expected_paths(preliminary, root) - {
         "pilot/human-review/correction-history.json"
     }
-    unexpected_existing = existing_changes - allowed_recovery
+    unexpected_existing = existing_changes - (allowed_paths or allowed_recovery)
     if unexpected_existing:
         raise IssueProcessingError(
             "tracked worktree changes exist outside this Issue's recoverable files: "
@@ -544,7 +563,6 @@ def prepare(
         else:
             apply_resolved(line, item)
             applied.append({**item, "recovered": already_prepared})
-    save_editable_page(root, storage, page)
     report = {
         "format": "nippo-correction-issue-report",
         "format_version": 1,
@@ -563,6 +581,9 @@ def prepare(
         "second_opinions": pending,
         "status": "validating",
     }
+    if defer:
+        return report, storage, page
+    save_editable_page(root, storage, page)
     write_json(report_path(issue_number, root), report)
     try:
         regenerate_and_test(root)
@@ -573,6 +594,34 @@ def prepare(
         raise
     report["status"] = "awaiting_second_opinion" if pending else "ready_to_finalize"
     report.pop("validation_error", None)
+    write_json(report_path(issue_number, root), report)
+    return report
+
+
+def prepare_batch(issue_number, issue, payload, root, repository):
+    allowed = set()
+    for entry in payload["pages"]:
+        _, storage = load_editable_page(root, entry["page"])
+        allowed |= expected_paths({"page_id": page_id(entry["page"]), **storage}, root)
+    allowed.discard("pilot/human-review/correction-history.json")
+    # Validate and resolve every page in memory before writing any page.
+    plans = [prepare_page(issue_number, issue, entry, root, repository,
+                          defer=True, allowed_paths=allowed) for entry in payload["pages"]]
+    report = {"format": "nippo-correction-issue-report", "format_version": 2,
+              "issue": issue_number, "issue_url": issue["url"], "repository": repository,
+              "page": ", ".join(entry["page"] for entry in payload["pages"]),
+              "pages": [plan[0] for plan in plans], "status": "validating"}
+    for child, storage, page in plans:
+        save_editable_page(root, storage, page)
+        child["status"] = "awaiting_second_opinion" if child["second_opinions"] else "ready_to_finalize"
+    write_json(report_path(issue_number, root), report)
+    try:
+        regenerate_and_test(root)
+    except IssueProcessingError as error:
+        report.update(status="validation_failed", validation_error=str(error))
+        write_json(report_path(issue_number, root), report)
+        raise
+    report["status"] = "awaiting_second_opinion" if any(p["second_opinions"] for p in report["pages"]) else "ready_to_finalize"
     write_json(report_path(issue_number, root), report)
     return report
 
@@ -675,6 +724,8 @@ def update_history(report: dict, accepted_lines: list[str], root: Path) -> None:
 
 
 def expected_paths(report: dict, root: Path = ROOT) -> set[str]:
+    if "pages" in report:
+        return set().union(*(expected_paths(page, root) for page in report["pages"])) | set(report.get("additional_paths", []))
     stem = report["page_id"]
     if report.get("source_kind", "canonical_markdown") == "ocr_candidate":
         paths = {
@@ -739,6 +790,10 @@ def wait_for_deployment(commit: str, repository: str, root: Path) -> str:
 
 
 def verify_deployment(report: dict, commit: str, pages_url: str) -> None:
+    if "pages" in report:
+        for page in report["pages"]:
+            verify_deployment(page, commit, pages_url)
+        return
     with urlopen(pages_url, timeout=30) as response:
         corpus = json.load(response)
     if corpus.get("commit") != commit:
@@ -769,9 +824,18 @@ def finalize(
     report = load_json(path)
     if report.get("status") not in {"ready_to_finalize", "awaiting_second_opinion"}:
         raise IssueProcessingError(f"report status is {report.get('status')!r}")
-    accepted = [item["line"] for item in report["applied_unflagged"]]
-    accepted.extend(apply_second_opinion_decisions(report, root))
-    update_history(report, accepted, root)
+    children = report.get("pages", [report])
+    pending = [f"{child['page']}/{item['line']}" for child in children
+               for item in child["second_opinions"] if item.get("decision", "pending") == "pending"]
+    if pending:
+        raise IssueProcessingError("second-opinion decisions still pending: " + ", ".join(pending))
+    accepted = []
+    for child in children:
+        lines = [item["line"] for item in child["applied_unflagged"]]
+        lines.extend(apply_second_opinion_decisions(child, root))
+        update_history(child, lines, root)
+        child["accepted_lines"] = lines
+        accepted.extend([f"{child['page']}/{line}" for line in lines] if "pages" in report else lines)
     regenerate_and_test(root)
     changed = changed_paths(root)
     unexpected = changed - expected_paths(report, root)
@@ -808,7 +872,7 @@ def finalize(
     verify_deployment(report, commit, pages_url)
     note = (
         f"Applied {len(accepted)} human-confirmed correction(s) in commit "
-        f"{commit[:7]}. Schema-2 notation was resolved before writing Level 1 text. "
+        f"{commit[:7]}. Correction notation was resolved before writing Level 1 text. "
         "Tests and the deployed corpus verification passed."
     )
     run(
@@ -838,10 +902,13 @@ def finalize(
 def process_issue(args: argparse.Namespace) -> int:
     report = prepare(args.issue, repository=args.repository)
     path = report_path(args.issue)
-    if report["second_opinions"]:
+    children = report.get("pages", [report])
+    pending_count = sum(len(p["second_opinions"]) for p in children)
+    applied_count = sum(len(p["applied_unflagged"]) for p in children)
+    if pending_count:
         print(
-            f"Applied {len(report['applied_unflagged'])} unflagged change(s); "
-            f"{len(report['second_opinions'])} second opinion(s) await review."
+            f"Applied {applied_count} unflagged change(s); "
+            f"{pending_count} second opinion(s) await review."
         )
         print(path)
         return 3

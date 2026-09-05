@@ -268,6 +268,10 @@ Because the guide is fully derived, its output is not stored in canonical Markdo
 
 ## GitHub Issue submission
 
+The overview's **Select pages to submit** mode turns page cards into multi-select buttons. Only pages with locally saved corrections can be selected; cards show their saved correction count and submitted status. **Submit selected pages** checks every selected baseline, copies one combined JSON payload, and opens a single empty Issue with an automatically generated title. The overview then asks whether that combined Issue was submitted and updates the included pages together. Existing single-page submission remains available.
+
+Combined submissions use `{"schema": 4, "pages": [...]}`, where each element is a complete schema-3 page payload with its own page identifier, baseline commit, transcription version, and changes. Duplicate pages are invalid. The processor resolves and validates all included pages before writing any of them, applies unflagged changes, and keeps page-specific pending review decisions in the preparation report. It closes the single Issue only after all pages are settled, records that Issue separately in each page's history, and verifies every included page after deployment. Plain JSON and older fenced payloads are both accepted.
+
 The interface prepares corrections page by page. A submission contains only rows whose edits have been confirmed with **OK**. Before submission, the reader can inspect the collected changes.
 
 The Issue body must not be placed in a GitHub `issues/new` query parameter. GitHub documents query prefilling but does not promise a usable maximum URL length, and realistic multi-correction payloads can exceed browser, intermediary, or server limits. Compact JSON reduces the risk but does not remove it, especially when notes or messages contain Japanese text.

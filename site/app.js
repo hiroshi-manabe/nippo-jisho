@@ -1,5 +1,22 @@
 const state = { corpus: null, byLeaf: new Map(), currentPage: null, unit: 'page', edits: {}, suggestionDismissals: {}, submissions: {}, workspacesLoaded: new Set(), staleDraft: null, knownRomanTerms: new Set(), staleBaseline: null };
 const WORKSPACE_SCHEMA = 5;
+let selectionMode = false;
+const selectedLeaves = new Set();
+
+function savedCorrectionCount(page) {
+  const saved = state.edits[page.page_id] || storageJSON(editStorageKey(page))?.edits || {};
+  return Object.keys(saved).length;
+}
+
+function renderBatchControls() {
+  $('#selection-toggle').setAttribute('aria-pressed', String(selectionMode));
+  $('#selection-toggle').textContent = selectionMode ? 'Cancel selection' : 'Select pages to submit';
+  $('#selection-count').classList.toggle('hidden', !selectionMode);
+  $('#selection-count').textContent = `${selectedLeaves.size} pages selected`;
+  $('#submit-selected').classList.toggle('hidden', !selectionMode);
+  $('#submit-selected').disabled = !selectedLeaves.size;
+  $('#batch-confirmation').classList.toggle('hidden', !storageJSON('nippo-batch-awaiting')?.length);
+}
 const previewImageCache = new Map();
 const hdImageCache = new Map();
 const hdFailures = new Map();
@@ -245,6 +262,7 @@ function pageStateClass(page) {
 }
 
 function renderGrid() {
+  renderBatchControls();
   const filter = $('#filter').value;
   const sort = $('#sort').value;
   let pages = state.corpus.pages.filter(page => filter === 'all'
@@ -256,6 +274,23 @@ function renderGrid() {
     || (filter === 'corrected' && page.corrections.issues_applied));
   if (sort === 'recent') pages.sort((a, b) => String(b.corrections.last_applied || '').localeCompare(String(a.corrections.last_applied || '')) || a.leaf - b.leaf);
   $('#page-grid').innerHTML = pages.map(page => `<button class="page-card ${pageStateClass(page)}" type="button" data-leaf="${page.leaf}"><img loading="lazy" src="${page.thumbnail}" alt="Thumbnail of Gallica ${page.view}"><span class="card-copy"><span class="card-title">${page.view}${page.corrections.issues_applied ? `<span class="mini-badge">${page.corrections.issues_applied} issue${page.corrections.issues_applied === 1 ? '' : 's'}</span>` : ''}</span><span class="card-state">${pageStateLabel(page)}${page.corrections.distinct_lines ? ` · ${page.corrections.distinct_lines} lines corrected` : ''}</span></span></button>`).join('');
+  decorateSelectionCards();
+}
+
+function decorateSelectionCards() {
+  for (const card of document.querySelectorAll('#page-grid [data-leaf]')) {
+    const page = state.byLeaf.get(Number(card.dataset.leaf));
+    const count = savedCorrectionCount(page);
+    if (selectionMode) {
+      card.disabled = !count;
+      card.setAttribute('aria-pressed', String(selectedLeaves.has(page.leaf)));
+      card.classList.toggle('selected', selectedLeaves.has(page.leaf));
+    }
+    if (count) {
+      const status = state.submissions[page.page_id]?.status || storageJSON(submissionStorageKey(page))?.status;
+      card.querySelector('.card-copy').insertAdjacentHTML('beforeend', `<span class="card-state">${count} saved correction${count === 1 ? '' : 's'}${status === 'submitted' ? ' · Submitted' : ''}</span>`);
+    }
+  }
 }
 
 function storageJSON(key) {
@@ -1039,6 +1074,45 @@ async function copyLineReference(control) {
   else prompt('Copy this line reference:', reference);
 }
 
+function correctionPayload(page) {
+  const changes = Object.entries(pageEdits(page)).map(([line, edit]) => ({ line, before: edit.before, after: edit.after, note_before: edit.note_before || '', note_after: edit.note_after || '', ...(edit.message ? {message: edit.message} : {}) }));
+  return {schema: 3, page: page.view, base_commit: state.corpus.commit, base_transcription_version: page.transcription_version, changes};
+}
+
+async function submitSelectedPages() {
+  const pages = [...selectedLeaves].sort((a, b) => a - b).map(leaf => state.byLeaf.get(leaf));
+  if (!pages.length) return;
+  const issueWindow = window.open('about:blank', '_blank');
+  try {
+    const response = await fetch(`corpus.json?fresh=${Date.now()}`, {cache: 'no-store'});
+    if (!response.ok) throw new Error('Could not check the current baseline. Please try again.');
+    const latest = await response.json();
+    const stale = pages.filter(page => latest.pages.find(p => p.page_id === page.page_id)?.transcription_version !== page.transcription_version);
+    if (stale.length) throw new Error(`Newer data for ${stale.map(p => p.view).join(', ')}. Reload and review those pages before submitting.`);
+    for (const page of pages) {
+      const stored = storageJSON(editStorageKey(page));
+      if (stored?.transcription_version && stored.transcription_version !== page.transcription_version) throw new Error(`Open ${page.view} to review its updated baseline before submitting.`);
+    }
+    const records = pages.map(correctionPayload);
+    if (records.some(record => !record.changes.length)) throw new Error('A selected page has no saved corrections. Please select again.');
+    const payload = JSON.stringify({schema: 4, pages: records}, null, 2);
+    const title = pages.length <= 8 ? `[${pages.map(p => p.view).join(', ')}] Transcription corrections` : `[${pages[0].view}–${pages.at(-1).view}, ${pages.length} pages] Transcription corrections`;
+    const url = `https://github.com/${state.corpus.repository}/issues/new?template=transcription-correction.md&title=${encodeURIComponent(title)}`;
+    const copied = await copyText(payload);
+    if (!copied) prompt('Copy this correction JSON, then paste it into the Issue:', payload);
+    for (const page of pages) persistSubmission(page, 'awaiting');
+    localStorage.setItem('nippo-batch-awaiting', JSON.stringify(pages.map(p => p.leaf)));
+    if (issueWindow) issueWindow.location = url; else window.location.href = url;
+    selectionMode = false;
+    selectedLeaves.clear();
+    renderGrid();
+    toast('Combined correction JSON copied. Paste it into the Issue.');
+  } catch (error) {
+    if (issueWindow) issueWindow.close();
+    alert(error.message);
+  }
+}
+
 async function submitCorrections() {
   const page = state.currentPage;
   if (!await checkCorpusFreshness()) {
@@ -1060,7 +1134,15 @@ document.addEventListener('click', event => {
   if (event.target.closest('[data-action="reload-baseline"]')) return window.location.reload();
   if (event.target.closest('[data-action="retry-preview"]')) return updatePageImages(state.currentPage.leaf);
   if (event.target.closest('[data-action="retry-hd"]')) return queueHD(state.currentPage, false);
-  const card = event.target.closest('.page-card'); if (card) return showPage(Number(card.dataset.leaf));
+  const card = event.target.closest('.page-card');
+  if (card) {
+    const leaf = Number(card.dataset.leaf);
+    if (!selectionMode) return showPage(leaf);
+    if (selectedLeaves.has(leaf)) selectedLeaves.delete(leaf);
+    else selectedLeaves.add(leaf);
+    renderGrid();
+    return;
+  }
   const tab = event.target.closest('#view-tabs button[data-unit]'); if (tab) return showPage(state.currentPage.leaf, tab.dataset.unit);
   const columnButton = event.target.closest('[data-column-leaf][data-column-unit]');
   if (columnButton) { showPage(Number(columnButton.dataset.columnLeaf), columnButton.dataset.columnUnit); window.scrollTo(0, 0); return; }
@@ -1115,6 +1197,18 @@ function go() { const leaf = Number($('#leaf-input').value); if (state.byLeaf.ha
 $('#go').addEventListener('click', go); $('#leaf-input').addEventListener('keydown', event => { if (event.key === 'Enter') go(); });
 $('#discard-all').addEventListener('click', () => { if (!confirm('Discard all proposed corrections for this page?')) return; for (const [lineId, edit] of Object.entries(pageEdits(state.currentPage))) dismissMachineSuggestion(state.currentPage, lineById(lineId), edit.machine_suggestion); state.edits[state.currentPage.page_id] = {}; persistSubmission(state.currentPage, 'draft'); persistEdits(state.currentPage, true); renderPageContent(); });
 $('#submit').addEventListener('click', submitCorrections);
+$('#selection-toggle').addEventListener('click', () => { selectionMode = !selectionMode; selectedLeaves.clear(); renderGrid(); });
+$('#submit-selected').addEventListener('click', submitSelectedPages);
+for (const [id, status] of [['batch-submitted', 'submitted'], ['batch-not-yet', 'draft']]) {
+  $(`#${id}`).addEventListener('click', () => {
+    for (const leaf of storageJSON('nippo-batch-awaiting') || []) {
+      const page = state.byLeaf.get(leaf);
+      if (page && pageSubmission(page).status === 'awaiting') persistSubmission(page, status);
+    }
+    localStorage.removeItem('nippo-batch-awaiting');
+    renderGrid();
+  });
+}
 $('#submit-not-yet').addEventListener('click', () => persistSubmission(state.currentPage, 'draft'));
 $('#mark-submitted').addEventListener('click', () => persistSubmission(state.currentPage, 'submitted'));
 $('#submit-again').addEventListener('click', () => { persistSubmission(state.currentPage, 'draft'); void submitCorrections(); });

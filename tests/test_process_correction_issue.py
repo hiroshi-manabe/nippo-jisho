@@ -19,6 +19,53 @@ from scripts.compile_level1_markdown import export_markdown, parse_markdown
 
 
 class CorrectionIssueProcessorTests(unittest.TestCase):
+    def test_batch_validates_all_pages_then_applies_and_finalizes_per_page(self):
+        import copy
+        from scripts.process_correction_issue import write_json
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            original = {"zones": [{"lines": [{"id": "c1-l001", "runs": [{"typeface": "roman", "text": "Alpha."}]}]}]}
+            records = [{"schema": 3, "page": f"f{n}", "base_commit": "abc",
+                        "base_transcription_version": "old", "changes": [{"line": "c1-l001", "before": "Alpha.", "after": "Beta."}]} for n in (14, 15)]
+            payload = {"schema": 4, "pages": records}
+            issue = {"url": "https://example.test/9", "body": json.dumps(payload)}
+            stored = {p["page"]: copy.deepcopy(original) for p in records}
+            def load(root, view):
+                return copy.deepcopy(stored[view]), {"source_kind": "canonical_markdown", "source_path": view}
+            def save(root, storage, page):
+                stored[storage["source_path"]] = copy.deepcopy(page)
+            with (mock.patch("scripts.process_correction_issue.fetch_issue", return_value=issue),
+                  mock.patch("scripts.process_correction_issue.validate_base_commit"),
+                  mock.patch("scripts.process_correction_issue.load_editable_page", side_effect=load),
+                  mock.patch("scripts.process_correction_issue.save_editable_page", side_effect=save) as writer,
+                  mock.patch("scripts.process_correction_issue.current_transcription_version", return_value="old"),
+                  mock.patch("scripts.process_correction_issue.changed_paths", return_value=set()),
+                  mock.patch("scripts.process_correction_issue.regenerate_and_test"),
+                  mock.patch("scripts.process_correction_issue.storage_from_report", side_effect=lambda p: {"source_kind": p["source_kind"], "source_path": p["source_path"]}),
+                  mock.patch("scripts.process_correction_issue.update_history") as history):
+                records[1]["changes"][0]["line"] = "missing"
+                issue["body"] = json.dumps(payload)
+                with self.assertRaisesRegex(IssueProcessingError, "unknown line"):
+                    prepare(9, root=root)
+                writer.assert_not_called()
+                records[1]["changes"][0]["line"] = "c1-l001"
+                records[1]["changes"][0]["message"] = "Check this"
+                issue["body"] = json.dumps(payload)
+                report = prepare(9, root=root)
+                self.assertEqual(report["status"], "awaiting_second_opinion")
+                self.assertEqual(stored["f14"]["zones"][0]["lines"][0]["runs"][0]["text"], "Beta.")
+                self.assertEqual(stored["f15"]["zones"][0]["lines"][0]["runs"][0]["text"], "Alpha.")
+                with self.assertRaisesRegex(IssueProcessingError, "f15/c1-l001"):
+                    finalize(9, root=root, local_only=True)
+                history.assert_not_called()
+                report["pages"][1]["second_opinions"][0]["decision"] = "accept"
+                write_json(report_path(9, root), report)
+                result = finalize(9, root=root, local_only=True)
+                self.assertEqual(result["accepted_lines"], ["f14/c1-l001", "f15/c1-l001"])
+                self.assertEqual(history.call_count, 2)
+            with self.assertRaisesRegex(IssueProcessingError, "duplicate page"):
+                validate_payload({"schema": 4, "pages": [records[0], records[0]]})
+
     def test_prepare_can_apply_an_unflagged_edit_to_an_ocr_candidate(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
@@ -121,7 +168,7 @@ class CorrectionIssueProcessorTests(unittest.TestCase):
             self.assertEqual(report["status"], "ready_to_finalize")
 
     def test_schema_one_is_rejected(self):
-        with self.assertRaisesRegex(IssueProcessingError, "schemas 2 and 3"):
+        with self.assertRaisesRegex(IssueProcessingError, "unsupported correction schema 1"):
             validate_payload(
                 {
                     "schema": 1,
