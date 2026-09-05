@@ -454,7 +454,6 @@ equal(q.align('foo, bar.', 'foo bar.').deletions.map(item => [item.character, it
         app = (ROOT / "site" / "app.js").read_text(encoding="utf-8")
         styles = (ROOT / "site" / "styles.css").read_text(encoding="utf-8")
         workflow = (ROOT / "docs" / "human-review-workflow.md").read_text(encoding="utf-8")
-        issue_template = (ROOT / ".github" / "ISSUE_TEMPLATE" / "transcription-correction.md").read_text(encoding="utf-8")
         self.assertIn("function parseTypefaceNotation(value)", app)
         self.assertIn("function proposalMatchesLine(line, annotatedText)", app)
         self.assertIn("function styledTypefaceDiff(line, proposal)", app)
@@ -465,8 +464,6 @@ equal(q.align('foo, bar.', 'foo bar.').deletions.map(item => [item.character, it
         self.assertIn(".typeface-span-key", styles)
         self.assertIn("`[Fotoqe]`", workflow)
         self.assertIn("`{P.}`", workflow)
-        self.assertIn("`[Fotoqe]`", issue_template)
-        self.assertIn("`{P.}`", issue_template)
 
     def test_opening_another_line_saves_the_active_editor(self):
         app = (ROOT / "site" / "app.js").read_text(encoding="utf-8")

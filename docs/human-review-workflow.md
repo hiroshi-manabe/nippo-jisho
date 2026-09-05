@@ -277,7 +277,7 @@ The submission flow is therefore:
 1. Serialize the confirmed page corrections as readable schema-3 JSON. Durable annotation changes use `note_after`; temporary requests use `message`.
 2. Copy the complete payload to the clipboard.
 3. Open a short GitHub Issue URL containing only the template selection and a page-specific title.
-4. Ask the reader to paste the copied payload at the marked location in the Issue body.
+4. Ask the reader to paste the copied JSON directly into the initially empty Issue body. The template retains the automatic title and correction label but supplies no prose, code-block wrapper, or formatted preview. The application script accepts plain JSON as well as the fenced JSON used by earlier Issues.
 5. Retain the local draft until the reader explicitly clears it.
 
 After the Issue composer opens, the review tab changes to ask whether the Issue was actually submitted. Confirming this does not delete the local draft: it changes the bar to a compact **Marked as submitted** state with a **Submit again** escape hatch. Choosing **Not yet**, editing any line, or explicitly submitting again returns the page to draft state. This local state is persisted per page so returning to or reloading the review tab does not make the submission ambiguous.

@@ -74,14 +74,16 @@ def report_path(issue_number: int, root: Path = ROOT) -> Path:
 
 def extract_payload(body: str) -> dict:
     blocks = re.findall(r"```json\s*\n(.*?)\n```", body, re.DOTALL)
-    if len(blocks) != 1:
+    if len(blocks) > 1:
         raise IssueProcessingError(
             f"expected exactly one fenced JSON payload, found {len(blocks)}"
         )
     try:
-        payload = json.loads(blocks[0])
+        payload = json.loads(blocks[0] if blocks else body.strip())
     except json.JSONDecodeError as error:
         raise IssueProcessingError(f"invalid correction JSON: {error}") from error
+    if not isinstance(payload, dict):
+        raise IssueProcessingError("correction JSON must be an object")
     validate_payload(payload)
     return payload
 

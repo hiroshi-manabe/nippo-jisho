@@ -132,7 +132,7 @@ class CorrectionIssueProcessorTests(unittest.TestCase):
                 }
             )
 
-    def test_payload_requires_exactly_one_json_block(self):
+    def test_payload_accepts_plain_json_or_one_json_block(self):
         payload = {
             "schema": 2,
             "page": "f14",
@@ -142,8 +142,13 @@ class CorrectionIssueProcessorTests(unittest.TestCase):
         }
         body = f"Before\n```json\n{json.dumps(payload)}\n```\nAfter"
         self.assertEqual(extract_payload(body), payload)
+        self.assertEqual(extract_payload("\n" + json.dumps(payload) + "\n"), payload)
         with self.assertRaisesRegex(IssueProcessingError, "exactly one"):
             extract_payload(body + "\n```json\n{}\n```")
+        with self.assertRaisesRegex(IssueProcessingError, "must be an object"):
+            extract_payload("[]")
+        with self.assertRaisesRegex(IssueProcessingError, "invalid correction JSON"):
+            extract_payload(json.dumps(payload) + "\n" + json.dumps(payload))
 
     def test_lightweight_notation_resolves_without_leaking_markers(self):
         text, roman_ranges, italic_ranges = parse_correction_notation(
