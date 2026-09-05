@@ -273,7 +273,7 @@ assert.equal(label({processed: true, commentary_review: {completed_at: '2026-09-
         self.assertEqual(transliterate_token("facufatuo"), "ハクハッヲ")
         self.assertEqual(transliterate_token("facufat"), "ハクハッ")
         self.assertEqual(transliterate_token("tçu"), "ツ")
-        self.assertEqual(transliterate_token("Iixet"), "イイセッ")
+        self.assertEqual(transliterate_token("Iixet"), "ジセッ")
         self.assertEqual(transliterate_token("Quǒguenuo"), "クオゥゲンヲ")
         self.assertEqual(transliterate_token("Inuuo"), "イヌヲ")
         self.assertEqual(transliterate_token("Inu"), "イヌ")
