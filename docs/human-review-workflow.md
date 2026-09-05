@@ -298,7 +298,7 @@ Because the guide is fully derived, its output is not stored in canonical Markdo
 
 ## GitHub Issue submission
 
-The overview's **Select pages to submit** mode turns page cards into multi-select buttons. Only pages with locally saved corrections can be selected; cards show their saved correction count and submitted status. **Submit selected pages** checks every selected baseline, copies one combined JSON payload, and opens a single empty Issue with an automatically generated title. The overview then asks whether that combined Issue was submitted and updates the included pages together. Existing single-page submission remains available.
+The overview's **Select pages to submit** mode turns page cards into multi-select buttons. Only pages with locally saved corrections can be selected; cards show their saved correction count and submitted status. **Submit selected pages** checks every selected baseline and shows one combined JSON payload in a dialog with the selected page names. The reader uses **Copy JSON**, then **Open Issue**, to open a single empty Issue with an automatically generated title. The overview then asks whether that combined Issue was submitted and updates the included pages together. Existing single-page submission uses the same copy dialog.
 
 Combined submissions use `{"schema": 4, "pages": [...]}`, where each element is a complete schema-3 page payload with its own page identifier, baseline commit, transcription version, and changes. Duplicate pages are invalid. The processor resolves and validates all included pages before writing any of them, applies unflagged changes, and keeps page-specific pending review decisions in the preparation report. It closes the single Issue only after all pages are settled, records that Issue separately in each page's history, and verifies every included page after deployment. Plain JSON and older fenced payloads are both accepted.
 
@@ -309,8 +309,8 @@ The Issue body must not be placed in a GitHub `issues/new` query parameter. GitH
 The submission flow is therefore:
 
 1. Serialize the confirmed page corrections as readable schema-3 JSON. Include `note_before` and `note_after` only when the durable annotation changes, even when the transcription changes. Omit both for an unchanged annotation; omission preserves the existing note. An explicit `note_after: ""` deletes the note and must include `note_before`. Temporary requests use the independent `message` field. The same rule applies to each page in a combined submission.
-2. Copy the complete payload to the clipboard.
-3. Open a short GitHub Issue URL containing only the template selection and a page-specific title.
+2. Show the complete payload in a read-only selectable textarea. **Copy JSON** copies it on a fresh user click, after the asynchronous baseline check, without first opening another tab. If browser permissions deny copying, show an explicit failure and leave the JSON selected for manual copying. Do not claim copying succeeded on the failure path.
+3. **Open Issue** opens a short GitHub Issue URL containing only the template selection and a page-specific title. Keep the JSON dialog available when returning from GitHub; the reader should verify the pasted page list matches the dialog.
 4. Ask the reader to paste the copied JSON directly into the initially empty Issue body. The template retains the automatic title and correction label but supplies no prose, code-block wrapper, or formatted preview. The application script accepts plain JSON as well as the fenced JSON used by earlier Issues.
 5. Retain the local draft until the reader explicitly clears it.
 

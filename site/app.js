@@ -1072,6 +1072,37 @@ async function copyLineReference(control) {
   else prompt('Copy this line reference:', reference);
 }
 
+function prepareSubmission(pages, payload, url, batch = false) {
+  const dialog = $('#submission-dialog');
+  const area = $('#submission-json');
+  area.value = payload;
+  $('#submission-summary').textContent = `${pages.map(page => page.view).join(', ')} — ${pages.length} page(s)`;
+  $('#submission-copy-status').textContent = 'Ready to copy.';
+  // Copy gets its own user gesture, after the asynchronous baseline check.
+  // Keep the complete payload visible for manual copying if permission fails.
+  $('#submission-copy').onclick = async () => {
+    area.focus(); area.select(); area.setSelectionRange(0, area.value.length);
+    const copied = await copyText(payload);
+    $('#submission-copy-status').textContent = copied
+      ? 'Copied. Open the Issue and paste the JSON; check that its pages match the list above.'
+      : 'Automatic copy failed. Select and copy the JSON above manually before opening the Issue.';
+    if (!copied) { area.focus(); area.select(); area.setSelectionRange(0, area.value.length); }
+  };
+  $('#submission-open').onclick = () => {
+    window.open(url, '_blank');
+    for (const page of pages) persistSubmission(page, 'awaiting');
+    if (batch) {
+      localStorage.setItem('nippo-batch-awaiting', JSON.stringify(pages.map(page => page.leaf)));
+      selectionMode = false;
+      selectedLeaves.clear();
+      renderGrid();
+    }
+    // Leave the JSON available when returning from GitHub.
+  };
+  $('#submission-cancel').onclick = () => dialog.close();
+  if (!dialog.open) dialog.showModal();
+}
+
 function correctionChange(line, edit) {
   const beforeNote = edit.note_before ?? '';
   const afterNote = edit.note_after ?? beforeNote;
@@ -1091,7 +1122,6 @@ function correctionPayload(page) {
 async function submitSelectedPages() {
   const pages = [...selectedLeaves].sort((a, b) => a - b).map(leaf => state.byLeaf.get(leaf));
   if (!pages.length) return;
-  const issueWindow = window.open('about:blank', '_blank');
   try {
     const response = await fetch(`corpus.json?fresh=${Date.now()}`, {cache: 'no-store'});
     if (!response.ok) throw new Error('Could not check the current baseline. Please try again.');
@@ -1107,17 +1137,8 @@ async function submitSelectedPages() {
     const payload = JSON.stringify({schema: 4, pages: records}, null, 2);
     const title = pages.length <= 8 ? `[${pages.map(p => p.view).join(', ')}] Transcription corrections` : `[${pages[0].view}–${pages.at(-1).view}, ${pages.length} pages] Transcription corrections`;
     const url = `https://github.com/${state.corpus.repository}/issues/new?template=transcription-correction.md&title=${encodeURIComponent(title)}`;
-    const copied = await copyText(payload);
-    if (!copied) prompt('Copy this correction JSON, then paste it into the Issue:', payload);
-    for (const page of pages) persistSubmission(page, 'awaiting');
-    localStorage.setItem('nippo-batch-awaiting', JSON.stringify(pages.map(p => p.leaf)));
-    if (issueWindow) issueWindow.location = url; else window.location.href = url;
-    selectionMode = false;
-    selectedLeaves.clear();
-    renderGrid();
-    toast('Combined correction JSON copied. Paste it into the Issue.');
+    prepareSubmission(pages, payload, url, true);
   } catch (error) {
-    if (issueWindow) issueWindow.close();
     alert(error.message);
   }
 }
@@ -1130,12 +1151,7 @@ async function submitCorrections() {
   }
   const payload = JSON.stringify(correctionPayload(page), null, 2);
   const issueURL = `https://github.com/${state.corpus.repository}/issues/new?template=transcription-correction.md&title=${encodeURIComponent(`[${page.view}] Transcription corrections`)}`;
-  const issueWindow = window.open('about:blank', '_blank');
-  const copied = await copyText(payload);
-  persistSubmission(page, 'awaiting');
-  if (issueWindow) issueWindow.location = issueURL; else window.location.href = issueURL;
-  if (copied) toast('Correction JSON copied. Paste it into the Issue.');
-  else { prompt('Copy this correction JSON, then paste it into the Issue:', payload); toast('Clipboard unavailable; the payload was displayed.'); }
+  prepareSubmission([page], payload, issueURL);
 }
 
 document.addEventListener('click', event => {

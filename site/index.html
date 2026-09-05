@@ -89,6 +89,18 @@
       <button id="discard-stale-draft" class="primary" type="button">Discard orphaned corrections</button>
     </div>
   </dialog>
+  <dialog id="submission-dialog" class="stale-draft-dialog">
+    <h2>Copy corrections</h2>
+    <p id="submission-summary"></p>
+    <p>Copy the JSON below, then open the Issue and paste it into the body.</p>
+    <textarea id="submission-json" readonly aria-label="Correction JSON" rows="10" style="width:100%;box-sizing:border-box;font-size:16px"></textarea>
+    <p id="submission-copy-status" role="status">Ready to copy.</p>
+    <div class="dialog-actions">
+      <button id="submission-copy" type="button">Copy JSON</button>
+      <button id="submission-open" class="primary" type="button">Open Issue</button>
+      <button id="submission-cancel" type="button">Cancel</button>
+    </div>
+  </dialog>
   <div id="toast" class="toast hidden" role="status"></div>
   <script src="quick-edit.js"></script>
   <script src="app.js"></script>
