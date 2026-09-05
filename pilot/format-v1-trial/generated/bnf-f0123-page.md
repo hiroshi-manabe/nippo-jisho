@@ -34,9 +34,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l018` | &emsp;*de amores apos alguem.* |  |
 | `c1-l019` | Coixiqi. *Vide* coixij. |  |
 | `c1-l020` | Coixitai, ǒ, ǒta, l, coixinobi, u. *Andar* |  |
-| `c1-l021` | &emsp;*de amores apos alguem.* |  |
+| `c1-l021` | &emsp;*de amores apos alguem.* |  *( des.* |
 | `c1-l022` | Coixiya. *Interjeição do q̃ ama, ou tem ſauda-* |  |
-| `c1-l023` | &emsp;*des.* |  |
 | `c1-l024` | Coiye, l, xôqe. *Caſa pequena.* |  |
 | `c1-l025` | Coiyoxe, ſuru, eta. *Pedindo a couſa faze-* |  |
 | `c1-l026` | &emsp;*la chegar, ou trazer aſſi.* |  |
