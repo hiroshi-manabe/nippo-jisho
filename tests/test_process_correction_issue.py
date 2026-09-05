@@ -19,6 +19,43 @@ from scripts.compile_level1_markdown import export_markdown, parse_markdown
 
 
 class CorrectionIssueProcessorTests(unittest.TestCase):
+    def test_oldest_issue_query_is_creation_ordered_and_limited(self):
+        from scripts.process_correction_issue import oldest_open_issue
+        with mock.patch("scripts.process_correction_issue.run", return_value='[{"number": 42}]') as run:
+            self.assertEqual(oldest_open_issue("owner/repo"), 42)
+        command = run.call_args.args[0]
+        self.assertEqual(command[command.index("--search") + 1], "sort:created-asc")
+        self.assertEqual(command[command.index("--limit") + 1], "1")
+
+    def test_process_without_number_handles_empty_queue(self):
+        from scripts.process_correction_issue import main
+        with (mock.patch("sys.argv", ["processor", "process"]),
+              mock.patch("scripts.process_correction_issue.oldest_open_issue", return_value=None),
+              mock.patch("scripts.process_correction_issue.prepare") as prepare_mock):
+            self.assertEqual(main(), 0)
+            prepare_mock.assert_not_called()
+
+    def test_process_selects_only_one_issue_and_stops_for_review(self):
+        from scripts.process_correction_issue import main
+        for arguments, expected in [(["process"], 42), (["process", "17"], 17)]:
+            with (mock.patch("sys.argv", ["processor", *arguments]),
+                  mock.patch("scripts.process_correction_issue.oldest_open_issue", return_value=42) as oldest,
+                  mock.patch("scripts.process_correction_issue.prepare", return_value={
+                      "second_opinions": [{}], "applied_unflagged": []}) as prepare_mock,
+                  mock.patch("scripts.process_correction_issue.finalize") as finalize_mock):
+                self.assertEqual(main(), 3)
+                self.assertEqual(prepare_mock.call_count, 1)
+                self.assertEqual(prepare_mock.call_args.args[0], expected)
+                self.assertEqual(oldest.call_count, int(len(arguments) == 1))
+                finalize_mock.assert_not_called()
+
+    def test_finalize_still_requires_issue_number(self):
+        from scripts.process_correction_issue import main
+        with mock.patch("sys.argv", ["processor", "finalize"]):
+            with self.assertRaises(SystemExit) as error:
+                main()
+            self.assertEqual(error.exception.code, 2)
+
     def test_omitted_note_is_preserved_and_explicit_empty_note_is_deleted(self):
         from scripts.process_correction_issue import apply_change, apply_resolved
         for fields, expected in [({}, "Existing note"),

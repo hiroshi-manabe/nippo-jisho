@@ -417,6 +417,15 @@ def current_transcription_version(page: dict) -> str:
     return transcription_version(zones)
 
 
+def oldest_open_issue(repository: str) -> int | None:
+    issues = json.loads(run(
+        ["gh", "issue", "list", "--repo", repository, "--state", "open",
+         "--search", "sort:created-asc", "--limit", "1", "--json", "number"],
+        capture=True,
+    ))
+    return issues[0]["number"] if issues else None
+
+
 def fetch_issue(issue_number: int, repository: str) -> dict:
     raw = run(
         [
@@ -901,6 +910,12 @@ def finalize(
 
 
 def process_issue(args: argparse.Namespace) -> int:
+    if args.issue is None:
+        args.issue = oldest_open_issue(args.repository)
+        if args.issue is None:
+            print("No open issues to process.")
+            return 0
+        print(f"Selected oldest open Issue #{args.issue}.")
     report = prepare(args.issue, repository=args.repository)
     path = report_path(args.issue)
     children = report.get("pages", [report])
@@ -935,7 +950,11 @@ def main() -> int:
     subparsers = parser.add_subparsers(dest="command", required=True)
     for name, handler in (("process", process_issue), ("finalize", finalize_issue)):
         command = subparsers.add_parser(name)
-        command.add_argument("issue", type=int)
+        if name == "process":
+            command.add_argument("issue", type=int, nargs="?",
+                                 help="issue number (default: oldest open issue)")
+        else:
+            command.add_argument("issue", type=int)
         command.add_argument("--repository", default=REPOSITORY)
         command.add_argument("--pages-url", default=PAGES_URL)
         command.add_argument(
