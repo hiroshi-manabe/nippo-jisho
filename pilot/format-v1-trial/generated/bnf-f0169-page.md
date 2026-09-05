@@ -34,15 +34,15 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l018` | &emsp;*de ramalhete.* |  |
 | `c1-l019` | Fanatçumi. *O colher flores. Vt,* Fanatçu- |  |
 | `c1-l020` | &emsp;miuo ſuru. |  |
-| `c1-l021` | Fanatçuqini. *Adu. De roſto a roſto, ou* |  |
-| `c1-l022` | &emsp;*de peito. ¶* Fanatçuqini yuqiuǒ. *En-* |  |
-| `c1-l023` | &emsp;*contrarſe de roſto a roſto.* |  |
-| `c1-l024` | Fanauo. *Cabreſtilho dos çapatos, ou alparcas* |  |
-| `c1-l025` | &emsp;*de Iapão que ſe encaixa entre os dedos dos pes.* |  |
+| `c1-l021` | Fanatçuqini. *Adu. De rosto a roſto, ou* |  |
+| `c1-l022` | &emsp;*de perto. ¶* Fanatçuqini yuqiuǒ. *En-* |  |
+| `c1-l023` | &emsp;*contrarſe de rosto a roſto.* |  |
+| `c1-l024` | Fanauo. *Cabrestilho dos çapatos, ou alparcas* |  |
+| `c1-l025` | &emsp;*de Iapão que ſe encaxa entre os dedos dos pes.* |  |
 | `c1-l026` | Fanaxi, ſu, aita. *Deſpegar, ou apartar.* |  |
 | `c1-l027` | &emsp;¶ Yauo fanaſu. *Atirar com frecha.* |  |
-| `c1-l028` | &emsp;¶ Teppǒuo fanaſu, l, vtçu. *Deſparar* |  |
-| `c1-l029` | &emsp;*à eſpingarda, &c. ¶* Tori, qedamono |  |
+| `c1-l028` | &emsp;¶ Teppôuo fanaſu, l, vtçu. *Deſparar* |  |
+| `c1-l029` | &emsp;*a eſpingarda, &c. ¶* Tori, qedamono |  |
 | `c1-l030` | &emsp;uo fanaſu. *Largar, ou ſoltar paſſaros, ou a-* |  |
 | `c1-l031` | &emsp;*nimaes.* |  |
 | `c1-l032` | Fanaxi, ſu, aita. *Praticar. Vt,* Nochini go- |  |
@@ -57,7 +57,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l041` | &emsp;*da gayola, &c.* |  |
 | `c1-l042` | Fanaxiſute, tçuru, eta. *Deſparar eſpingar-* |  |
 | `c1-l043` | &emsp;*da, ou arco, ſem apontar a nada. ¶* Tebi- |  |
-| `c1-l044` | &emsp;Yano cuſuriuo fanaxi ſutçuru. *Deſparar* |  |
+| `c1-l044` | &emsp;yano cuſuriuo fanaxi ſutçuru. *Deſparar* |  |
 | `c1-l045` | &emsp;*ſem atirar de propoſito pera não ter a poluora* |  |
 | `c1-l046` | &emsp;*muito tempo dentro da eſpingarda.* |  |
 | `c1-l047` | Fanaxite. *Homem que pratica bem, & com* |  |
@@ -83,37 +83,37 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l002` | Fanayacana. *Couſa fermoſa, galante, & lu-* |  |
 | `c2-l003` | &emsp;*ſtroſa, &c.* |  |
 | `c2-l004` | Fanayacani. *Adu. Galantemente, ou lu-* |  |
-| `c2-l005` | &emsp;*zida, & luſtroſamente. ¶* Sono fitono |  |
+| `c2-l005` | &emsp;*zida, & lustroſamente. ¶* Sono fitono |  |
 | `c2-l006` | &emsp;xǒzocu ichidãto fanayacani miyeta. Yax. |  |
-| `c2-l007` | &emsp;*O veſtido daquelle homem parecia mui galante,* |  |
+| `c2-l007` | &emsp;*O vestido daquelle homem parecia mui galante,* |  |
 | `c2-l008` | &emsp;*& luzido.* |  |
 | `c2-l009` | Fanazono. *Iardim de flores.* |  |
-| `c2-l010` | Fanazzuri. i, Fanaguri. *Hũ circulo de pao-* |  |
+| `c2-l010` | Fanazzuri. i, Fanaguri. *Hum circulo de pao-* |  |
 | `c2-l011` | &emsp;*de era, ou vimes que metem pollas ventas dos* |  |
 | `c2-l012` | &emsp;*narizes aos bois.* |  |
 | `c2-l013` | Fanbacama. *Hũa maneira de calçoẽs curtos.* |  |
 | `c2-l014` | Fanben. *Certo comer de tǒfus aſſados, & de-* |  |
-| `c2-l015` | &emsp;*pois cozidos em Miſô.* |  |
+| `c2-l015` | &emsp;*pois cozidos em Miſò.* |  |
 | `c2-l016` | Fanberi, u. i, Gozaru, sǒrǒ, &c. *Ser,* |  |
 | `c2-l017` | &emsp;*eſtar, &c. S.* |  |
 | `c2-l018` | Fanbiqi. *A metade de hũa peça de ſeda fina,* |  |
-| `c2-l019` | &emsp;*& delgada chamada Qinu.* |  |
+| `c2-l019` | &emsp;*& delgada chamada* Qinu*.* |  |
 | `c2-l020` | Fanbun. *A metade.* |  |
-| `c2-l021` | Fancai. *Vt,* Fancai fancô. Fanbun firaqi, |  |
-| `c2-l022` | &emsp;fanbunua fuſagatte aru coto. *Eſtar meo* |  |
+| `c2-l021` | Fancai. *Vt,* Fancai fancǒ. Fanbun firaqi, |  |
+| `c2-l022` | &emsp;fanbunua fuſagatte aru coto. *Estar meo* |  |
 | `c2-l023` | &emsp;*aberto, & meo fechado.* |  |
 | `c2-l024` | Fanchicu. Madara naru taqe. *Certa laya de* |  |
 | `c2-l025` | &emsp;*bambus de varias cores.* |  |
 | `c2-l026` | Fandai. *Meſa alta de comer. Vt,* Fandai- |  |
-| `c2-l027` | &emsp;ni mucǒ, l, tçuqu. *Porſe à meſa.* |  |
+| `c2-l027` | &emsp;ni mucǒ, *l*, tçuqu. *Porſe à meſa.* |  |
 | `c2-l028` | Fandan. Cotouari, u. *Arrezoar como ſo-* |  |
-| `c2-l029` | &emsp;*bre algũa demãda, &c. ou determinar, &* |  |
+| `c2-l029` | &emsp;*bre algũa demãda, &c. ou determinar. &* |  |
 | `c2-l030` | &emsp;*reſoluer como juiz.* |  |
 | `c2-l031` | Fandan. *A metade de hũa varzea, peça, can-* |  |
-| `c2-l032` | &emsp;*ga, & de outras couſas que ſe contão por Ittan,* |  |
-| `c2-l033` | &emsp;*nitan, &c.* |  |
+| `c2-l032` | &emsp;*ga, & de outras couſas que ſe contão por* Ittan*,* |  |
+| `c2-l033` | &emsp;nitan*, &c.* |  |
 | `c2-l034` | Fandô. *Hum vaſo de metal em que tem agoa* |  |
-| `c2-l035` | &emsp;*pera o Chanoyu, ou outros vſos. As vezes* |  |
+| `c2-l035` | &emsp;*pera o* Chanoyu*, ou outros vſos. As vezes* |  |
 | `c2-l036` | &emsp;*ainda que ſeja de barro ſe diz,* Fandô. |  |
 | `c2-l037` | Fane. *Aſas de paſſaro.* |  |
 | `c2-l038` | Fane. *Lama que ſalta por de tras nos veſtidos* |  |
