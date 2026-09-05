@@ -28,7 +28,8 @@ TOKEN_RE = re.compile(r"[A-Za-zÀ-žǍ-ǔſç]+")
 # Attested Japanese lexical forms with consonantal I/J, not a global Ie rule.
 # f20/f165: 膳; f41: 前後; f111: 銭; f169: 全体.
 # Include the separately attested Ien/Ienno, but do not infer arbitrary suffixes.
-CONSONANTAL_I_FORMS = {"ien", "ienno", "ienuo", "iengo", "ieni", "ienino", "ientai"}
+CONSONANTAL_I_FORMS = {"ien", "ienno", "ienuo", "iengo", "ieni", "ienino", "ientai", "iitai"}
+# f123/c2-l001: Iitai (辞退), alongside Cobami, jiſuru; Ii represents ji here.
 
 
 def normalized(value: str) -> str:

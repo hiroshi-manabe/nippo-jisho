@@ -50,6 +50,9 @@ independently of the next word. Earlier examples include f20/c2-l024
 `Ienuo aguru` (膳を上ぐる), f41/c1-l032 `Iengo` (前後, glossing `Atoſaqi`),
 and f111/c2-l022 `Ienino coto` (銭のこと, in a definition mentioning coins).
 The f169/c1-l002 `Ientai` similarly reads ゼンタイ (全体), not イエンタイ.
+The f123/c2-l001 `Iitai`, beside `Cobami, jiſuru`, reads ジタイ (辞退).
+The derived converter includes this attested consonantal `Ii` form explicitly;
+it does not globally replace vocalic `ii`. The diplomatic spelling is unchanged.
 The former phrase-only exception for `Ienuo cubaru` missed these cases.
 This is not a global initial `I` → `J` or `Ie` → ゼ substitution: vocalic
 forms such as `Iye`, `Iua`, and `Iuauo` retain their readings. New lexical
