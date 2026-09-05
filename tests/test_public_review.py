@@ -834,6 +834,7 @@ assert(!/\.review-status\{[^}]*bottom:/.test(css));
                         column["visual_review"],
                         {
                             "external_ai_width_rechecked",
+                            "line_by_line_reverified",
                             "ai_line_by_line_checked",
                             "targeted_ocr_contact_sheet_reviewed",
                         },
@@ -853,7 +854,13 @@ assert(!/\.review-status\{[^}]*bottom:/.test(css));
                     )
                 left, _, right, _ = column["box"]
                 for line in column["lines"].values():
-                    self.assertEqual(line["crop"][0], left)
+                    if line.get("crop_scope") == "displaced_fragment":
+                        # A separately addressed fragment can be isolated from
+                        # unrelated text to its left; full context remains.
+                        self.assertGreaterEqual(line["crop"][0], left)
+                        self.assertLess(line["crop"][0], right)
+                    else:
+                        self.assertEqual(line["crop"][0], left)
                     self.assertEqual(line["crop"][0] + line["crop"][2], right)
                     self.assertEqual(line["context_crop"][0], left)
                     self.assertEqual(
