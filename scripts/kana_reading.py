@@ -197,8 +197,15 @@ def phrase_hint(text: str) -> str | None:
         else transliterate_token(token)
         for index, token in enumerate(tokens)
     ]
-    if not tokens or any(reading is None for reading in readings):
+    if not tokens or all(reading is None for reading in readings):
         return None
+    if any(reading is None for reading in readings):
+        # A damaged token or a physical line-end fragment must not hide the
+        # readable words beside it. Do not guess how the fragment continues.
+        return ", ".join(
+            f"{token}/{reading if reading is not None else '[unconverted]'}"
+            for token, reading in zip(tokens, readings)
+        )
     phrase = " ".join(tokens)
     return f"{phrase}/{' '.join(readings)}"
 

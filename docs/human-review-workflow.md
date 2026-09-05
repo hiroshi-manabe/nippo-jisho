@@ -276,6 +276,12 @@ The four *yotsugana* spellings remain distinct in hints: `ji` → ジ, `gi` → 
 
 Every prepared human or general-AI review line carries a read-only `reading_hint`, generated during the public-review build from the exact baseline transcription. It pairs each detected upright Japanese phrase with a mechanical katakana rendering, for example `Facuran/ハクラン, Firoqu miru/ヒロク ミル`. This is a mandatory review aid, not a new transcription field. The generator explicitly handles common dictionary spellings such as `q`, `tç`, `x`, initial `v`, intervocalic `u`, labialized `qua`/`gua` (`Quacuran` → クヮクラン), and the silent orthographic `u` in `gue`/`gui` (`Xiraſagui` → シラサギ); Portuguese italic text and recognized editorial labels are excluded. Failure is displayed explicitly rather than silently hiding the guide.
 
+If only part of a phrase can be converted, keep the readable words visible and
+mark each failed token as `[unconverted]` rather than hiding the entire phrase.
+For example, `Gunginga cuz-` yields `Gunginga/グンヂンガ, cuz/[unconverted]`;
+the fragment is not completed by guessing the next physical line. A wholly
+unconvertible phrase still uses the existing unavailable-reading behavior.
+
 Standalone editorial abbreviations inside Roman-type Japanese material, including `i` and Latin `l` (*vel*, “or”), are excluded without suppressing the surrounding Japanese reading. A visible fragment of a Roman-type Japanese word divided across physical lines is still rendered mechanically on each line: for example, the second-line `qu` of `fa-` + `qu` is shown as `qu/ク`. The accompanying note or transcription context, rather than the reading hint itself, records that it is not an independent word.
 
 The mechanical guide also recognizes common boundaries and historical spellings that cannot be recovered by converting each apparent syllable independently. Thus `-nuo` is segmented as word-final `-n` plus particle `uo` when a vowel follows the `u` (`Quǒguenuo` → `クオゥゲンヲ`), and Jesuit `gi` before another vowel is rendered with the historical voiced palatal series (`cotogia` → `コトヂャ`, modern コトジャ).

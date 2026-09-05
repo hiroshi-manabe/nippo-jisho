@@ -301,6 +301,20 @@ class PublicReviewRegressionTests(unittest.TestCase):
         self.assertIn("line.reading_hint", app)
         self.assertIn("Automatic reading unavailable", app)
 
+    def test_kana_fragment_does_not_hide_neighboring_readable_words(self):
+        from scripts.kana_reading import reading_hint
+
+        self.assertEqual(
+            reading_hint([{"typeface": "roman", "text": "i, Gunginga cuz-"}]),
+            "Gunginga/グンヂンガ, cuz/[unconverted]",
+        )
+        self.assertEqual(
+            reading_hint([{"typeface": "roman", "text": "cuz Gunginga"}]),
+            "cuz/[unconverted], Gunginga/グンヂンガ",
+        )
+        self.assertIsNone(reading_hint([{"typeface": "roman", "text": "cuz-"}]))
+        self.assertIsNone(reading_hint([{"typeface": "italic", "text": "Gunginga cuz-"}]))
+
     def test_collapsed_line_quick_edits_are_reversible_and_schema_neutral(self):
         app = (ROOT / "site" / "app.js").read_text(encoding="utf-8")
         helper = (ROOT / "site" / "quick-edit.js").read_text(encoding="utf-8")
