@@ -76,7 +76,10 @@ class PublicReviewRegressionTests(unittest.TestCase):
         self.assertTrue(checked["ai_checked"])
         self.assertRegex(checked["baseline_commit"], r"^[0-9a-f]{40}$")
         self.assertIn("T", checked["baseline_updated_at"])
-        self.assertIn("Fotoqe", corpus["known_roman_terms"])
+        f164 = next(page for page in corpus["pages"] if page["page_id"] == "bnf-f0164")
+        lines = {line["id"]: line for zone in f164["zones"] for line in zone["lines"]}
+        self.assertEqual(lines["c1-l042"]["typeface_toggle_terms"], ["Fagoita"])
+        self.assertNotIn("typeface_toggle_terms", lines["c1-l034"])
 
     def test_external_ai_assignment_stays_concise_and_links_references(self):
         work = ROOT / "pilot" / "human-review" / "ai-geometry-work"
@@ -381,7 +384,7 @@ equal(q.align('foo, bar.', 'foo bar.').deletions.map(item => [item.character, it
         self.assertIn("knownTypefaceTokenRange", app)
         self.assertNotIn("isItalicWordInitial", app)
         self.assertNotIn("uppercasePeriodTokenRange", helper)
-        self.assertIn("known_roman_terms", builder)
+        self.assertIn("typeface_toggle_terms", builder)
         self.assertIn("baseline_updated_at", builder)
         self.assertIn(".review-status", styles)
 

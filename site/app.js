@@ -1,4 +1,4 @@
-const state = { corpus: null, byLeaf: new Map(), currentPage: null, unit: 'page', edits: {}, suggestionDismissals: {}, submissions: {}, workspacesLoaded: new Set(), staleDraft: null, knownRomanTerms: new Set(), staleBaseline: null };
+const state = { corpus: null, byLeaf: new Map(), currentPage: null, unit: 'page', edits: {}, suggestionDismissals: {}, submissions: {}, workspacesLoaded: new Set(), staleDraft: null, staleBaseline: null };
 const WORKSPACE_SCHEMA = 5;
 let selectionMode = false;
 const selectedLeaves = new Set();
@@ -734,11 +734,8 @@ function quickCharacterHTML(character, index, baseIndex, changed, line, proposal
   let action = '';
   let title = '';
   let extraAttributes = '';
-  const knownToken = NippoQuickEdit.knownTypefaceTokenRange(proposal.text, index, state.knownRomanTerms);
-  const knownTokenIsEmbedded = knownToken && baseIndex !== null && (
-    originalTypeface === 'italic' || typefaces.slice(0, baseIndex).includes('italic')
-  );
-  const typefaceToken = knownTokenIsEmbedded ? knownToken : NippoQuickEdit.typefaceTokenRange(proposal.text, index);
+  const markedToken = NippoQuickEdit.knownTypefaceTokenRange(proposal.text, index, new Set(line.typeface_toggle_terms || []));
+  const typefaceToken = markedToken || NippoQuickEdit.typefaceTokenRange(proposal.text, index);
   if (nasalRestoration) {
     action = 'nasal-restore';
     title = `Restore ${nasalRestoration.vowel}${nasalRestoration.consonant}`;
@@ -1239,7 +1236,6 @@ document.addEventListener('visibilitychange', () => {
 
 fetch(`corpus.json?fresh=${Date.now()}`, {cache: 'no-store'}).then(response => { if (!response.ok) throw new Error('Could not load corpus'); return response.json(); }).then(corpus => {
   state.corpus = corpus; state.byLeaf = new Map(corpus.pages.map(page => [page.leaf, page]));
-  state.knownRomanTerms = new Set(corpus.known_roman_terms || []);
   const canonical = corpus.pages.filter(page => page.data_state === 'canonical_level1').length;
   const provisional = corpus.pages.filter(page => page.data_state === 'machine_provisional').length;
   const scanOnly = corpus.pages.filter(page => !page.processed).length;

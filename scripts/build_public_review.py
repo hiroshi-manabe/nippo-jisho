@@ -71,23 +71,6 @@ def git_file_revisions(root: Path, paths: list[Path]) -> dict[str, tuple[str, st
     return revisions
 
 
-def embedded_roman_terms(pages: list[dict]) -> list[str]:
-    """Words proven upright after italic text in canonical dictionary lines."""
-    terms: set[str] = set()
-    for page in pages:
-        if page.get("data_state") != "canonical_level1":
-            continue
-        for zone in page.get("zones", []):
-            for line in zone.get("lines", []):
-                saw_italic = False
-                for run in line.get("runs", []):
-                    if run["typeface"] == "italic":
-                        saw_italic = True
-                    elif run["typeface"] == "roman" and saw_italic:
-                        terms.update(re.findall(r"[^\W\d_]+", run["text"], re.UNICODE))
-    return sorted(term for term in terms if len(term) > 1)
-
-
 def tile_configuration(path: Path) -> dict[str, dict]:
     config = load_json(path)
     result: dict[str, dict] = {}
@@ -436,13 +419,21 @@ def main() -> int:
                 }
             )
         pages.append(page)
+    toggle_pages = load_json(root / "pilot/human-review/typeface-toggle-terms.json")["pages"]
+    for page in pages:
+        annotations = toggle_pages.get(page["page_id"], {})
+        for zone in page.get("zones", []):
+            for line in zone.get("lines", []):
+                annotation = annotations.get(line["id"])
+                if annotation and annotation["source_text"] == line["text"]:
+                    words = set(re.findall(r"[^\W\d_]+", line["text"], re.UNICODE))
+                    line["typeface_toggle_terms"] = [term for term in annotation["terms"] if term in words]
     payload = {
         "format": "nippo-public-review-corpus",
         "format_version": 1,
         "repository": args.repository,
         "commit": commit,
         "reference_version": commit[:7],
-        "known_roman_terms": embedded_roman_terms(pages),
         "pages": pages,
     }
     (output / "corpus.json").write_text(
