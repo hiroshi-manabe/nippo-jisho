@@ -16,7 +16,7 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c1-l001` | Faguiximi. *O ranger os dentes apertandoos cõ* |  |
 | `c1-l002` | &emsp;*ira. Vt,* Faguiximiuo ſuru. |  |
-| `c1-l003` | Faguqi. *Linguas. ¶ Item, Penas de paſ-* |  |
+| `c1-l003` | Faguqi. *Iingiuas. ¶ Item, Penas de paſ-* |  |
 | `c1-l004` | &emsp;*ſaros.* |  |
 | `c1-l005` | Faguracaxi, ſu, aita. *Ir à mão, & repren-* |  |
 | `c1-l006` | &emsp;*der a alguem que eſta pera dizer, ou fazer al-* |  |
@@ -30,20 +30,20 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l014` | &emsp;nu. *Não vir a viſitar a alguem com vergo-* |  |
 | `c1-l015` | &emsp;*nha por ter tardado, & não vir a tempo.* |  |
 | `c1-l016` | Fai. Vogamu. *Venerar, ou adorar: mas não* |  |
-| `c1-l017` | &emsp;*ſe vſa ſenão com, xi, ſuru. Vt,* Faiſu- |  |
+| `c1-l017` | &emsp;*ſe vſa ſe não com,* xi*,* ſuru*. Vt,* Faiſu- |  |
 | `c1-l018` | &emsp;ru. *Venerar, ou adorar.* |  |
 | `c1-l019` | Fai. i, Faino zǒ. *Bofes.* |  |
 | `c1-l020` | Fai. *Raizes tenras de golfão.* |  |
 | `c1-l021` | Fai. *Cinza.* |  |
 | `c1-l022` | Fai. *Moſcas.* |  |
-| `c1-l023` | Fai, ǒ, ǒta. *Andar de gatinhas, ou raſtei-* |  |
+| `c1-l023` | Fai, ǒ, ǒta. *Andar de gatinhas, ou rastei-* |  |
 | `c1-l024` | &emsp;*ro pello chão como os bichos, &c. ¶ Item,* |  |
 | `c1-l025` | &emsp;*Trepar, ou dilatarſe a era, ou outra erua ſeme-* |  |
 | `c1-l026` | &emsp;*lhante.* |  |
 | `c1-l027` | Fai aruqi, u, ita. *Ir de gatinhas, ou raſteiro* |  |
 | `c1-l028` | &emsp;*pollo chão.* |  |
 | `c1-l029` | Faiban. *Hũa taboinha ſobre que poem o copo.* |  |
-| `c1-l030` | Faiban. Rǒjeqi. *Deſordem, & pertur-* |  |
+| `c1-l030` | Faiban. Rǒjeqi. *Deſordem, & pertur* |  |
 | `c1-l031` | &emsp;*bação que fica no Zaxiqi, depois de muito* |  |
 | `c1-l032` | &emsp;*beber.* |  |
 | `c1-l033` | Faibun. Cubari, vaquru. *Repartição.* |  |
@@ -52,14 +52,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l036` | &emsp;*pera o pay, ou mãy, &c. ¶ Item, Subir* |  |
 | `c1-l037` | &emsp;*a era, ou outra erua ſemelhante polla aruore,* |  |
 | `c1-l038` | &emsp;*ſebe, &c.* |  |
-| `c1-l039` | Faicai. *Certo genero de verſos, ou cantigas im-* |  |
+| `c1-l039` | Faicai. *Certo genero de verſos, ou cantigas im* |  |
 | `c1-l040` | &emsp;*perfeitas que hum faz, ou muitos juntos, vſan-* |  |
 | `c1-l041` | &emsp;*do de palauras ordinarias, & pouco polidas.* |  |
 | `c1-l042` | Faichǔ. Sacazzuqino vchi. *Dentro no copo,* |  |
 | `c1-l043` | &emsp;*ou taça.* |  |
 | `c1-l044` | Faicocu. Yaburetaru cuni. *Reino deſtruido.* |  |
 | `c1-l045` | Faidate. *Armas que cobrem as pernas de cima* |  |
-| `c1-l046` | &emsp;*até os joelhos.* |  |
+| `c1-l046` | &emsp;*atè os joelhos.* |  |
 | `c1-l047` | Faide, zzuru, eta. *Sair de gatinhas.* |  |
 
 ## Column 2 running header
@@ -87,7 +87,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l007` | &emsp;*randas, &c.* |  |
 | `c2-l008` | Faje. *Bate, ou arroz torrado, & arrebentado.* |  |
 | `c2-l009` | &emsp;¶ Momi fajeni natta. *O arroz eſta ja* |  |
-| `c2-l010` | &emsp;*arrebentado, ou com o âmago ſaido pera fora.* |  |
+| `c2-l010` | &emsp;*arrebentado, ou com o àmago ſaido pera fora.* |  |
 | `c2-l011` | Fai. l, fainoqi. *Hũa aruore de que fazem* |  |
 | `c2-l012` | &emsp;*os Faxis com que comem em Iapão, & que* |  |
 | `c2-l013` | &emsp;*metem entre as duas canas do arco.* |  |
@@ -99,22 +99,22 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l019` | &emsp;*rar algũa finta, ou fazer pagar algũa couſa.* |  |
 | `c2-l020` | &emsp;*&c. ¶* Faifuuo iruru. *Dar eſta pro-* |  |
 | `c2-l021` | &emsp;*uiſão, ou papel pera eſte effeito.* |  |
-| `c2-l022` | Faiga. *Ir ao paço do Rei em certo tempo de feſ-* |  |
-| `c2-l023` | &emsp;*ta a viſitalo.* |  |
+| `c2-l022` | Faiga. *Ir ao paço do Rei em certo tempo de fes-* |  |
+| `c2-l023` | &emsp;*ta a uiſitalo.* |  |
 | `c2-l024` | Faiga. Vogami yorocobu. *Reuerenciar a-* |  |
 | `c2-l025` | &emsp;*legrandoſe.* |  |
 | `c2-l026` | Faigacu. Sutaretaru gacumon. *Eſtudo, ou* |  |
 | `c2-l027` | &emsp;*letras eſquecidas ja, & deixadas. ¶* Fai- |  |
 | `c2-l028` | &emsp;gacu ſuru. *Eſquecerſe do que hum tem* |  |
 | `c2-l029` | &emsp;*aprendido.* |  |
-| `c2-l030` | Faigan. Cambaxeuo vogamu. i, vǒ meni |  |
+| `c2-l030` | Faigan. Cambaxeuo vogamu. i, võ meni |  |
 | `c2-l031` | &emsp;cacaru. *Venerar vendo peſſoa nobre.* |  |
 | `c2-l032` | Faigun. Icuſa yabururu. i, Ginga cuzzu- |  |
 | `c2-l033` | &emsp;ruru. *Deſtruirſe o exercito.* |  |
 | `c2-l034` | Faijen. Ienuo cubaru. *Opor as meſas de* |  |
 | `c2-l035` | &emsp;*Iapão por ordem no Zaxiqi.* |  |
 | `c2-l036` | Fai iri, u, itta. *Entrar de gatinhas.* |  |
-| `c2-l037` | Faiji. Vogami tçucayuru. *Seruiço q̃ ſe faz,* |  |
+| `c2-l037` | Faiji. Vogami tçucayuru. *Seruiço q̃ ſe faz* |  |
 | `c2-l038` | &emsp;*com reuerencia a peſſoa honrada.* |  |
 | `c2-l039` | Faijǒ. Vogami, tatematçuru. *Offerecer, ou* |  |
 | `c2-l040` | &emsp;*dar a peſſoa nobre algũa couſa.* |  |
@@ -124,7 +124,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l044` | &emsp;*nhas, ou ir trepãdo a era polla aruore em roda.* |  |
 | `c2-l045` | &emsp;¶ *Aliquando,* Permet. *Andar apos al-* |  |
 | `c2-l046` | &emsp;*guem com liſonjas pera auer algũa couſa delle.* |  |
-| `c2-l047` | Faimǒ. i, Xinnenxi ſauagu. *Eſquecerſe per-* |  |
+| `c2-l047` | Faimǒ. i, Xitnenxi ſauagu. *Eſquecerſe per-* |  |
 
 ## Signature
 
