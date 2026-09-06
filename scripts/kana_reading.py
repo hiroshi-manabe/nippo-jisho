@@ -24,7 +24,9 @@ MARKED = {
     "ò": ("o", "ォ"), "ó": ("o", "ォ"), "ô": ("o", "ゥ"), "ǒ": ("o", "ゥ"),
 }
 NASAL = {"ã": "a", "ĩ": "i", "ũ": "u", "ẽ": "e", "õ": "o"}
-TOKEN_RE = re.compile(r"[A-Za-zÀ-žǍ-ǔſç]+")
+# ẽ (U+1EBD) lies outside the Latin ranges above; keep all supported nasal
+# vowels in a word instead of splitting e.g. Fẽbẽ into F and b.
+TOKEN_RE = re.compile(r"[A-Za-zÀ-žǍ-ǔſç" + "".join(NASAL) + r"]+")
 # Attested Japanese lexical forms with consonantal I/J, not a global Ie rule.
 # f20/f165: 膳; f41: 前後; f111: 銭; f169: 全体.
 # Include the separately attested Ien/Ienno, but do not infer arbitrary suffixes.
@@ -203,7 +205,7 @@ def transliterate_token(token: str) -> str | None:
 
 
 def reading_tokens(text: str) -> list[str]:
-    tokens = TOKEN_RE.findall(text)
+    tokens = TOKEN_RE.findall(unicodedata.normalize("NFC", text))
     result: list[str] = []
     for index, token in enumerate(tokens):
         key = normalized(token)

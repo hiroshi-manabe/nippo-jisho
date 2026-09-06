@@ -3,10 +3,22 @@ import json
 from pathlib import Path
 import unittest
 
-from scripts.kana_reading import transliterate_token, phrase_hint, reading_hint_applicable
+from scripts.kana_reading import transliterate_token, phrase_hint, reading_hint, reading_hint_applicable
 
 
 class KanaCorpusTests(unittest.TestCase):
+    def test_nasal_vowels_survive_word_splitting(self):
+        for token, expected in [('Fã', 'ハン'), ('Fĩ', 'ヒン'),
+                                ('Fũ', 'フン'), ('Fẽ', 'ヘン'), ('Fõ', 'ホン'),
+                                ('Fẽbẽ', 'ヘンベン')]:
+            with self.subTest(token=token):
+                self.assertEqual(phrase_hint(token), f'{token}/{expected}')
+        self.assertEqual(phrase_hint('Fe\u0303be\u0303'), 'Fẽbẽ/ヘンベン')
+        self.assertEqual(reading_hint([
+            {'typeface': 'italic', 'text': 'Vt, '},
+            {'typeface': 'roman', 'text': 'Fẽbẽ ſurù.'},
+        ]), 'Fẽbẽ ſurù/ヘンベン スルゥ')
+
     def test_accented_words_do_not_collide_with_labels(self):
         for token in ['xǔ', 'Xǔ', 'xu\u030c', 'xû']:
             with self.subTest(token=token):
