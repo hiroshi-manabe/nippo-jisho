@@ -25,12 +25,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l009` | &emsp;*parte das eſpadoas que doe, ou està leſa.* |  |
 | `c1-l010` | Feqigan. *Hum liuro da China de certas medi-* |  |
 | `c1-l011` | &emsp;*taçoẽs.* |  |
-| `c1-l012` | Feqiguiocu. Tama, tama. *Pe dras precioſas.* |  |
+| `c1-l012` | Feqiguiocu. Tama, tama. *Pedras precioſas.* |  |
 | `c1-l013` | Feqira. Midorino tçuta. *Certa era verde,* |  |
 | `c1-l014` | &emsp;*& viçoſa.* |  |
-| `c1-l015` | Feqiracu. *Ceo, ou ar. S.* |  |
+| `c1-l015` | Feqiracu. *Ceo, ou àr. S.* |  |
 | `c1-l016` | Feqirano ten. *Ceo claro, & fermoſo. S.* |  |
-| `c1-l017` | Feqireqi. Canàximi. *Tristeza. Vt,* Fe- |  |
+| `c1-l017` | Feqireqi. Canaximi. *Tristeza. Vt,* Fe- |  |
 | `c1-l018` | &emsp;qireqi xǔxǒ ſu. *Ter grande dòr, & tri-* |  |
 | `c1-l019` | &emsp;*ſteza. S.* |  |
 | `c1-l020` | Feqiri. i, Feriqiri. *Repartimento. ¶* Fe- |  |
@@ -38,7 +38,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l022` | &emsp;*caſa, ou diuiſão.* |  |
 | `c1-l023` | Feqiri, u, itta. i, Feriqiriuo ſuru. |  |
 | `c1-l024` | Feqiriù banjin. *Couſa mui alta como rocha,* |  |
-| `c1-l025` | &emsp;*ou monteingreme.* |  |
+| `c1-l025` | &emsp;*ou monte ingreme.* |  |
 | `c1-l026` | Feqiſǒ. Cabeno cuſa. *Eruaſinha que nace na* |  |
 | `c1-l027` | &emsp;*parede de barro que logo ſe ſeca. Tomaſe por* |  |
 | `c1-l028` | &emsp;*couſa breue, & de pouca dura. S.* |  |
@@ -52,7 +52,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l036` | &emsp;*Eſtrelas do ceo, &c. S.* |  |
 | `c1-l037` | Feqitǒ. Midorino momo. i, Xiroi momo. |  |
 | `c1-l038` | &emsp;*Peſegueiro de flores brancas. S.* |  |
-| `c1-l039` | Feqixo. *Proibição eſcrita em papel pegado* |  |
+| `c1-l039` | Feqixo. *Prohibição eſcrita em papel pegado* |  |
 | `c1-l040` | &emsp;*na parede, ou dependurado.* |  |
 | `c1-l041` | Feqixǒ. Cabeno vye. *Na ſuperficie da pa-* |  |
 | `c1-l042` | &emsp;*rede. ¶* Cuchi feqixǒni caqu. *Não* |  |
@@ -74,7 +74,7 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c2-l001` |  | *occaſião, ou achaque pera deixar a obra que* |
 | `c2-l002` | &emsp;*lhe eſta encarregada, &c. Alicubi. ¶* Fe- |  |
-| `c2-l003` | &emsp;rauo faru. *Adulterar.* X*.* |  |
+| `c2-l003` | &emsp;rauo faru. *Adulterar. X.* |  |
 | `c2-l004` | Feraxi, u, aita. *Diminuir, ou ir gaſtando.* |  |
 | `c2-l005` | &emsp;Vt, Ninjuuo feraſu. *Diminuir a gente.* Fi- |  |
 | `c2-l006` | &emsp;touo feraſu. *Deſfazer em outro. Ajuntaſe* |  |
@@ -103,7 +103,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l029` | &emsp;*imbigo das crianças. ¶* Feſono vouo qi- |  |
 | `c2-l030` | &emsp;ru, l, tçugu. *Cortar eſta tripa.* |  |
 | `c2-l031` | Feſubi. *Fulugem que eſtà pegada na panella de* |  |
-| `c2-l032` | &emsp;*ferro.* X*. No* Cami *ſe diz* Nabeſumi. |  |
+| `c2-l032` | &emsp;*ferro.* X*. No Cami ſe diz* Nabeſumi. |  |
 | `c2-l033` | Feta. *Borda do mar, ou de outra couſa. ¶* Fe- |  |
 | `c2-l034` | &emsp;tauo noru. *Nauegar ao longo da terra.* |  |
 | `c2-l035` | &emsp;*¶ Itẽ, Aquella folha que eſta pegadano pè,* |  |
@@ -111,14 +111,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l037` | &emsp;tauo toru. *Tirar eſta folha, ou caſca dos* |  |
 | `c2-l038` | &emsp;*figos.* |  |
 | `c2-l039` | Feta. *Deſengenhoſo, ou chambão.* |  |
-| `c2-l040` | Fetafetato, l, fetato. *Adu. Modo de ca-* |  |
+| `c2-l040` | Fetafetato, *l*, fetato. *Adu. Modo de ca-* |  |
 | `c2-l041` | &emsp;*ir, ou daralgũa couſa larga de chãpa. Vt,* |  |
 | `c2-l042` | &emsp;Fetato tauoruru, l, tçuqu. *Cair, ou dar* |  |
 | `c2-l043` | &emsp;*pancada deſta maneira.* |  |
 | `c2-l044` | Fetano caua. *Peſſoa pouco deſtra, ou desma* |  |
 | `c2-l045` | &emsp;*zelada.* |  |
 | `c2-l046` | Fetçucuxi, ſu. *Eſtender o fio todo. ¶ Itẽ,* |  |
-| `c2-l047` | &emsp;*Permet. Acabar de paſſar, ou ſofrer traba.* |  |
+| `c2-l047` | &emsp;*Per met. Acabar de paſſar, ou ſofrer traba-* |  |
 
 ## Printed page number
 

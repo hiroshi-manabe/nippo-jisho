@@ -20,8 +20,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l004` | &emsp;*ar tudo, como cuidão os gentios que alumia o* |  |
 | `c1-l005` | &emsp;*Fotoque.* |  |
 | `c1-l006` | Fenxǒ. Tanagocorouo cayeſu. i, Monoga |  |
-| `c1-l007` | &emsp;yagate cauaru. *Mudarẽ ſe, ou trocarẽſe de preſ* |  |
-| `c1-l008` | &emsp;*ſaas couſas como ſe vira a palma da mão.* |  |
+| `c1-l007` | &emsp;yagate cauaru. *Mudarẽſe, ou trocarẽſe de preſ* |  |
+| `c1-l008` | &emsp;*ſa as couſas como ſe vira a palma da mão.* |  |
 | `c1-l009` | Fenxu. *O dizer mal, ou deſdanhar da couſa* |  |
 | `c1-l010` | &emsp;*que hum aborrece.* |  |
 | `c1-l011` | Fenyacu. Tevchi vodoru. *Dançar, ou bai-* |  |
@@ -35,7 +35,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l019` | &emsp;*diçoẽs que na letra de Iapão começão, ou a ca-* |  |
 | `c1-l020` | &emsp;*bão em,* eu, *posto que no pronunciar mais ſe* |  |
 | `c1-l021` | &emsp;*chegão a,* i, *que a,* e, *como ſe ve neſta di-* |  |
-| `c1-l022` | &emsp;*ção,* Fiô: *os do Cami tambem aſſi pronucião.* |  |
+| `c1-l022` | &emsp;*ção,* Fiô: *os do* Cami *tambem aſſi pronucião.* |  |
 | `c1-l023` | &emsp;*Mas disto no prologo ſe darà mais copioſamen-* |  |
 | `c1-l024` | &emsp;*te razão.* |  |
 | `c1-l025` | Feô, l, fiô. Tauara. *Fardo.* |  |
@@ -76,20 +76,20 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l002` | Feôgu, l, fiôgu. *Aparelhos como pedaços* |  |
 | `c2-l003` | &emsp;*de peça, &c. pera o ornato das imagens, ou-* |  |
 | `c2-l004` | &emsp;*pinturas.* |  |
-| `c2-l005` | Feôji, l, fiôji fioxigoto. *Semelhança, ou* |  |
+| `c2-l005` | Feôji, l, fiôji fiòxigoto. *Semelhança, ou* |  |
 | `c2-l006` | &emsp;*figura dalgũa couſa que ſe ha de fazer. ¶* Fiô |  |
 | `c2-l007` | &emsp;ji, feôzǒ. *Idem. S.* |  |
-| `c2-l008` | Feǒji, l, fiǒji tçuuamono votoco. *Solda dos* |  |
-| `c2-l009` | Feǒmot, l, fiômot. Tauara mono. *Fardo* |  |
+| `c2-l008` | Feǒji, l, fiǒji tçuuamono votoco. *Soldados* |  |
+| `c2-l009` | Feǒmot, l, fiômot. Tauara mono. *Fardos* |  |
 | `c2-l010` | &emsp;*de arroz, trigo &c. Vt,* Curani fiômotuo |  |
 | `c2-l011` | &emsp;voſame voqu. *Enceleirar, ou meter em* |  |
 | `c2-l012` | &emsp;*caſa fardos de arroz, trigo, &c.* |  |
-| `c2-l013` | Feôqi, l, fiôqi, xet cot. Vtçucuxij fadaye |  |
+| `c2-l013` | Feôqi, l, fiòqi, xet cot. Vtçucuxij fadaye |  |
 | `c2-l014` | &emsp;*Corpo, ou membros muito delicados. S.* |  |
 | `c2-l015` | Feôri. *Vide,* Fiôri, fiôrimono, &c. |  |
 | `c2-l016` | Feôrin, l, fiôrin. Couori, va. i, Tçuqi. |  |
 | `c2-l017` | &emsp;*Lũa. S.* |  |
-| `c2-l018` | Feôſo, l, fiôſo. *Hũa doença das mãos cõque* |  |
+| `c2-l018` | Feôſo, l, fiôſo. *Hũa doença das mãos cõ que* |  |
 | `c2-l019` | &emsp;*inchão os dedos: no* Ximo *ſe diz* Motobu. |  |
 | `c2-l020` | Feôtan, l, fiôtan. *Cabaças.* |  |
 | `c2-l021` | Feôtei, l, fiôtei. Couorino ſoco. *De baixo* |  |
@@ -101,18 +101,18 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l027` | Feôxet, l, fiôxet. Couori, yuqi. *Carame-* |  |
 | `c2-l028` | &emsp;*lo, & neue. Vt,* Feôxet imada qiyezu. |  |
 | `c2-l029` | &emsp;*Ainda ſe não deſfez o caramelo, & a neue.* |  |
-| `c2-l030` | Feôxet, l, fiôxet. i, Yuqiuo furu tei. *Mo* |  |
+| `c2-l030` | Feôxet, l, fiôxet. i, Yuqino furu tei. *Mo* |  |
 | `c2-l031` | &emsp;*do de chouer neue que ſe parece com roſas que* |  |
 | `c2-l032` | &emsp;*ſe eſpalhão.* |  |
 | `c2-l033` | Feǒxi, l, fiǒxi. *Cumpainhas, ou caſcaueis* |  |
 | `c2-l034` | &emsp;*que poem nos caualos de carga.* |  |
-| `c2-l035` | Feǒxi, l, fiôxi. *Guarnição, ou encaderna-* |  |
+| `c2-l035` | Feǒxi, l, fiǒxi. *Guarnição, ou encaderna-* |  |
 | `c2-l036` | &emsp;*ção de papel, que fazem nos liuros da China,* |  |
-| `c2-l037` | &emsp;*ou Iapão. ¶* Feǒxiuo ſuru, caquru, l, |  |
+| `c2-l037` | &emsp;*ou Iapão. ¶* Feôxiuo ſuru, caquru, l, |  |
 | `c2-l038` | &emsp;qiſuru. *Fazer esta guarnição, ou enca-* |  |
 | `c2-l039` | &emsp;*dernação.* |  |
 | `c2-l040` | Feǒxi, l, fiǒxi. *Compaſſo da muſica, & in-* |  |
-| `c2-l041` | &emsp;*ſtrumentos. ¶* Feǒxiga ſorô, l, vǒ. *Ira* |  |
+| `c2-l041` | &emsp;*ſtrumentos. ¶* Feǒxiga ſorô, l, vǒ. *Ir a* |  |
 | `c2-l042` | &emsp;*muſica ordenada, & compaſſada. ¶* Feǒ- |  |
 | `c2-l043` | &emsp;xiga chigǒ, l, ſorouanu. *Diſcrepar, ou* |  |
 | `c2-l044` | &emsp;*deſentoar na muſica. ¶* Feǒxini cacatte |  |

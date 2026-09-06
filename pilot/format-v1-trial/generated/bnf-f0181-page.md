@@ -14,7 +14,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1a-l001` |  | *com a comunidade.* |
+| `c1a-l001` |  | *com a cõmunidade.* |
 | `c1a-l002` | Fazzuxi, ſu, uita. *Deſpegar, ou apartar hũa* |  |
 | `c1a-l003` | &emsp;*couſa doutra: ajuntaſe eſte verbo às raizes de* |  |
 | `c1a-l004` | &emsp;*muitos outros. Vt,* Mǒxi fazzuſu. *Errar* |  |
@@ -29,7 +29,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1a-l013` | Fazzuye. *Aſas que ſeruem aos paſſaros como* |  |
 | `c1a-l014` | &emsp;*de bordão quando eſtão canſados, principalmẽte* |  |
 | `c1a-l015` | &emsp;*ſe diz, dos falcoẽs. ¶* Fazzuyeuo tçu- |  |
-| `c1a-l016` | &emsp;qu. *Deſcanſaro paſſaro ſobre as aſas quã-* |  |
+| `c1a-l016` | &emsp;qu. *Deſcanſar o paſſaro ſobre as aſas quã-* |  |
 | `c1a-l017` | &emsp;*do està canſado, ou com fome. ¶* Fazzu- |  |
 | `c1a-l018` | &emsp;yeni ſugaru. *Idem.* |  |
 
@@ -43,12 +43,12 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1b-l001` | FE. *Proado nauio.* |  |
+| `c1b-l001` | FE. *Proa do nauio.* |  |
 | `c1b-l002` | &emsp;Fe. *Traque, ou ventoſidade. ¶* Feuo |  |
 | `c1b-l003` | &emsp;firu. *Dar traques. B.* |  |
 | `c1b-l004` | Fe, uru, l, feru, eta. *Paſſar. Vt,* Toxi, |  |
 | `c1b-l005` | &emsp;tçuqi. fi, jidaiuo furu. *Paſſar em annos,* |  |
-| `c1b-l006` | &emsp;*meſes, dias, & idades. ¶* Houo feru. |  |
+| `c1b-l006` | &emsp;*meſes, dias, & idades. ¶* Itouo feru. |  |
 | `c1b-l007` | &emsp;*Estender os fios no tear. ¶* Fodouo feru. |  |
 | `c1b-l008` | &emsp;*Paſſar algum tempo. ¶* Annaiuo feru, |  |
 | `c1b-l009` | &emsp;*Dar recado, ou fazer a ſaber a alguem.* |  |
@@ -57,7 +57,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1b-l012` | Febi. *Cobra.* |  |
 | `c1b-l013` | Febo. *Hũa doença que vem aos meninos como* |  |
 | `c1b-l014` | &emsp;*ſarampão.* X*. No* Cami *ſe diz,* Fe- |  |
-| `c1b-l015` | &emsp;nano. |  |
+| `c1b-l015` | &emsp;namo. |  |
 | `c1b-l016` | Febo. *Hum bicho.* |  |
 | `c1b-l017` | Fechima. *Hum certo genero de abobaras como* |  |
 | `c1b-l018` | &emsp;*cogombros.* |  |
@@ -66,7 +66,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1b-l021` | &emsp;*do corpo, &c.* |  |
 | `c1b-l022` | Feco. *Encacho. B. Apropria palaura he* |  |
 | `c1b-l023` | &emsp;Xitauobi, l, fadano vobi. *¶* Fecouo |  |
-| `c1b-l024` | &emsp;cacu. *Por eſte encacho. ¶ Item,* Fe- |  |
+| `c1b-l024` | &emsp;caqu. *Por eſte encacho. ¶ Item,* Fe- |  |
 | `c1b-l025` | &emsp;co. *Hum circulo de cordas. ou canas ſobre* |  |
 | `c1b-l026` | &emsp;*q̃ poem pedras, & as leuão muitos: ordinaria* |  |
 | `c1b-l027` | &emsp;*mente ſe diz.* Ixibeco. X*.* |  |
@@ -85,7 +85,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l002` | Fedatari, u, atta. *Estar apartado, & di-* |  |
 | `c2-l003` | &emsp;*uidido.* |  |
 | `c2-l004` | Fedate. *Diuiſão, ou apartamento. ¶* Fe- |  |
-| `c2-l005` | &emsp;dateuo ſuru. *Fazer apartamento. ¶ Itẽ-* |  |
+| `c2-l005` | &emsp;dateuo ſuru. *Fazer apartamento. ¶ Itẽ.* |  |
 | `c2-l006` | &emsp;*Fazer diferença de hum, & de outro em fauo-* |  |
 | `c2-l007` | &emsp;*recer, &c.* |  |
 | `c2-l008` | Fedate, tçuru, eta. *Apartar, ou alongar.* |  |
@@ -99,33 +99,33 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l016` | Fefe. i, *Muliebria.* |  |
 | `c2-l017` | Fegue, uru, eta. *Deſpegarſe, ou deſgrudarſe.* |  |
 | `c2-l018` | Fegui. *Hũas taboinhas quadradas ſobre que po* |  |
-| `c2-l019` | &emsp;*emo Sacazzuqi, cũ algũa iguario.* |  |
-| `c2-l020` | Fegui, u, eida. *Deſpegar, abrir, ou fender.* |  |
+| `c2-l019` | &emsp;*em o* Sacazzuqi*, cu algũa iguario.* |  |
+| `c2-l020` | Fegui, u, eida. *Deſapegar, abrir, ou fender.* |  |
 | `c2-l021` | &emsp;*¶ Item,* Itauo fegu. *Fender, ou abrir ta* |  |
 | `c2-l022` | &emsp;*boas como fazem às taboinhas com que telhão as* |  |
 | `c2-l023` | &emsp;*caſas. ¶ Item, Diminuir. Vt,* Chi- |  |
-| `c2-l024` | &emsp;guiôuo fegu. *Diminuir a renda, ou terras* |  |
+| `c2-l024` | &emsp;guiǒuo fegu. *Diminuir a renda, ou terras* |  |
 | `c2-l025` | &emsp;*que hum tinha.* |  |
-| `c2-l026` | Fei. i, Tçuuamono. *Soldado. Vt,* Feitçu- |  |
+| `c2-l026` | Fei. i, Tçuuamono. *Soldado. Vt,* Fei tçu- |  |
 | `c2-l027` | &emsp;caruru toqinba, xǒ no i. voconauarezu. |  |
 | `c2-l028` | &emsp;Xix. *Quando os ſoldados eſtão canſados o* |  |
 | `c2-l029` | &emsp;*capitão não tem poder nem brio. S.* |  |
-| `c2-l030` | Fei. *Hua cana com hũs papeis cortados na põta,* |  |
-| `c2-l031` | &emsp;*conq̃ fazem certas ceremonias diante do cami.* |  |
+| `c2-l030` | Fei. *Hũa cana com hũs papeis cortados na põta,* |  |
+| `c2-l031` | &emsp;*conq̃ fazem certas ceremonias diante do Cami.* |  |
 | `c2-l032` | Fei. *Parede de barro cuberta de taboas, ou pa-* |  |
 | `c2-l033` | &emsp;*lha com que cercão a caſa, ou algum chão.* |  |
 | `c2-l034` | &emsp;*¶* Feiuo tçucuru, l, ſuru. *Aleuantar, ou* |  |
 | `c2-l035` | &emsp;*fazer eſta cerca, ou parede. ¶* Feino te- |  |
-| `c2-l036` | &emsp;jin auaſuru. *Cercar a fortaleza com eſta* |  |
+| `c2-l036` | &emsp;uo auaſuru. *Cercar a fortaleza com eſta* |  |
 | `c2-l037` | &emsp;*parede.* |  |
 | `c2-l038` | Fei an. Tairacani yaſuxi. i, Anuon. *Paz,* |  |
 | `c2-l039` | &emsp;*& quietação.* |  |
 | `c2-l040` | Feibaxira. *Eſteos de pao da parede da cerca.* |  |
-| `c2-l041` | Feica. Mifaxino moto. *Ao pee da eſcada do-* |  |
-| `c2-l042` | &emsp;*Dairi, aos degraos da qual ſe ſobe conforme a* |  |
+| `c2-l041` | Feica. Mifaxino moto. *Ao pee da eſcada do* |  |
+| `c2-l042` | &emsp;Dairi*, aos degraos da qual ſe ſobe conforme a* |  |
 | `c2-l043` | &emsp;*dignidade de cada hum.* |  |
 | `c2-l044` | Feicai. Tegaxe, axigaxe. *Algemas, & gri-* |  |
-| `c2-l045` | &emsp;*lhoes. ¶* Feicaino xemeuo cuuayuru. *A-* |  |
+| `c2-l045` | &emsp;*lhoẽs. ¶* Feicaino xemeuo cuuayuru. *A-* |  |
 | `c2-l046` | &emsp;*tormentar com ferros nas mãos, & nos pès.* |  |
 | `c2-l047` | Feicai. Togi firaqu. *Fechar, & abrir.* |  |
 
