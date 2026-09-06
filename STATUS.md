@@ -15,7 +15,9 @@ f13–f237 extension is in progress. The full automated audit is complete;
 additional individual-crop inspections and 447 rectangle adjustments have
 been applied for f13–f14 and f146–f150. The f181–f185 commentary review also
 verified all ten columns and enlarged the complete-initial crop on f181.
-Outside the completed pilot, 188 pages
+The f186–f190 review verified another ten columns and applied 188 adjusted
+rectangles, including manual corrections to the initial on f186 and the final
+body fragment on f189. Outside the completed pilot, 183 pages
 still require completed visual inspection. See the campaign document and its
 separate extension ledger; unverified proposals have not been published.
 
@@ -23,7 +25,7 @@ separate extension ledger; unverified proposals have not been published.
 
 The review UI now distinguishes **AI reviewed with commentary** using the
 explicit per-page [completion registry](pilot/human-review/commentary-reviews.json).
-It currently covers f165–f170 and f172–f185, not every page through f185.
+It currently covers f165–f170 and f172–f190, not every page through f190.
 Human correction-Issue counts remain separate.
 
 The [general-AI commented review](docs/human-review-workflow.md#general-ai-commented-page-review)
@@ -51,6 +53,16 @@ It repaired Japanese and Portuguese OCR errors while retaining explicit
 uncertainty on worn print. The `hum` and `lhos,` catchwords on f183/f185
 were moved to furniture without changing their stable IDs. Human review
 remains pending; commentary completion is not an error-free certification.
+
+On 2026-09-06, f186–f190 completed both passes, with individual contextual
+English notes on all 471 body lines (92, 96, 94, 95, 94). Kana hints and
+post-reading NINJAL comparisons helped expose Japanese OCR errors; Portuguese
+wording and typeface were also reviewed. Every isolated body crop was inspected
+again, and embedded Japanese/citation-label toggle annotations were refreshed.
+Worn readings remain explicitly provisional in their notes. The bottom-right
+`argu-` on f190 cannot be matched to f191's opening: the next available scan
+starts `tem outra no coração` and is numbered 92. This sequence discontinuity
+is recorded without inventing the absent continuation.
 
 The f164 annotations still need a commentary follow-up: the earlier snapshot
 had 46 notes. Existing review labels must not be taken as evidence that the
