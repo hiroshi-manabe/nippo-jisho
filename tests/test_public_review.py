@@ -11,6 +11,42 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class PublicReviewRegressionTests(unittest.TestCase):
+    def test_selection_sweep_reconciles_unopened_pages_and_prunes_selection(self):
+        script = r"""
+const fs = require('fs'), vm = require('vm'), assert = require('assert');
+const app = fs.readFileSync('site/app.js', 'utf8');
+const pages = [1,2,3,4].map(leaf => ({leaf, page_id: `p${leaf}`, processed: true, transcription_version: 'v2', zones: [{lines: [{id: 'line', text: 'new', note: 'note', transcription_version: 'v2', runs: [{typeface: 'roman', text: 'new'}]}]}]}));
+const storage = new Map();
+const edit = {before: 'old', after: 'new', note_before: 'note', note_after: 'note', base_line_version: 'v1'};
+storage.set('e:p1', {schema: 5, transcription_version: 'v1', edits: {line: edit}, dismissed_suggestions: ['keep']});
+storage.set('e:p2', {schema: 5, transcription_version: 'v1', edits: {line: {...edit, second_opinion: true}}});
+storage.set('e:p3', {schema: 5, transcription_version: 'v1', edits: {missing: edit}});
+const state = {corpus: {pages}, byLeaf: new Map(pages.map(p => [p.leaf,p])), edits: {}, submissions: {}, suggestionDismissals: {}};
+const selectedLeaves = new Set([1,2,3]);
+const saved = [];
+const context = {state, selectedLeaves, structuredClone, storageJSON: key => storage.get(key), editStorageKey: p => `e:${p.page_id}`, submissionStorageKey: p => `s:${p.page_id}`, saveWorkspace: p => {saved.push(p.page_id); storage.set(`e:${p.page_id}`, {schema:5, transcription_version:p.transcription_version, edits:structuredClone(state.edits[p.page_id])});}};
+vm.createContext(context);
+vm.runInContext(app.slice(app.indexOf('function savedCorrectionCount('), app.indexOf('function renderBatchControls(')) + app.slice(app.indexOf('function pageLineMap('), app.indexOf('function loadPageWorkspace(')), context);
+const orphans = context.reconcileSavedWorkspaces();
+assert.deepEqual(saved, ['p1','p2']); // untouched pages are not initialized
+assert.equal(orphans[0].page_id, 'p3');
+assert.equal(context.savedCorrectionCount(pages[0]), 0);
+assert.equal(selectedLeaves.has(1), false);
+assert.equal(selectedLeaves.has(2), true);
+assert.equal(state.edits.p2.line.second_opinion, true);
+assert.equal(state.edits.p2.line.comment_review_needed, true);
+assert.equal(state.suggestionDismissals.p1.has('keep'), true);
+assert.equal(storage.get('e:p3').transcription_version, 'v1');
+assert.equal(storage.get('e:p3').edits.missing.after, 'new');
+// A later sweep must check in-memory edits too, rather than a loaded-page cache.
+state.edits.p2.line = {...edit, before:'new', base_line_version:'v2'};
+context.reconcileSavedWorkspaces([pages[1]]);
+assert.equal(selectedLeaves.has(2), false);
+assert.equal(context.savedCorrectionCount(pages[1]), 0);
+"""
+        result = subprocess.run(["node", "-e", script], cwd=ROOT, capture_output=True, text=True)
+        self.assertEqual(result.returncode, 0, result.stderr)
+
     def test_rebase_clears_incorporated_edits_but_keeps_pending_annotations(self):
         script = r"""
 const fs = require('fs'), vm = require('vm'), assert = require('assert');

@@ -348,6 +348,16 @@ Outstanding messages and second-opinion requests are always retained. Remove
 the entire saved row only when neither a text correction nor pending annotation
 remains; explicit typeface proposals must match the new typeface as well as text.
 
+Entering overview selection mode traverses pages with saved work and performs
+this reconciliation against the loaded corpus before displaying counts and
+enabling page selection. It saves the cleaned workspaces without loading scans
+or initializing machine suggestions for untouched pages. Batch submission repeats
+the sweep and drops selected pages with no remaining work. Pending annotations
+remain selectable. Missing line IDs preserve the original workspace and require
+opening that page for the existing recovery dialog; they are never discarded by
+the sweep. The pre-submission server-version check still refuses an outdated
+loaded corpus and asks for a reload.
+
 Only a missing stable line ID prevents automatic rebasing. In that exceptional case, unaffected edits are retained while a blocking warning lets the reviewer copy and then discard the orphaned records. Pre-versioning browser data is migrated once against the first version-aware corpus rather than being discarded without a known comparison point. This is deliberately simple optimistic concurrency control; the browser never attempts to synthesize a textual merge.
 
 Edited rows must continue to render the original Level 1 typeface runs. Diff highlighting is an additional visual layer; it must not flatten italic Portuguese and roman Japanese into one style.

@@ -8,6 +8,44 @@ function savedCorrectionCount(page) {
   return Object.keys(saved).length;
 }
 
+function reconcileSavedWorkspaces(pages = state.corpus.pages) {
+  const orphanedPages = [];
+  for (const page of pages) {
+    if (!page.processed) continue;
+    const stored = storageJSON(editStorageKey(page));
+    const saved = state.edits[page.page_id] || stored?.edits || stored;
+    if (!saved || !Object.keys(saved).length) continue;
+    const edits = structuredClone(saved);
+    for (const edit of Object.values(edits)) {
+      if (edit.message === undefined && edit.comment) edit.message = edit.comment;
+      edit.note_before ??= '';
+      edit.note_after ??= edit.note_before;
+      edit.second_opinion = Boolean(edit.second_opinion || edit.second_opinion_manual);
+      delete edit.comment;
+      delete edit.second_opinion_manual;
+    }
+    const {reconciled, orphaned} = reconcileEdits(page, edits);
+    // Keep the complete original workspace recoverable through the page dialog.
+    if (Object.keys(orphaned).length) {
+      orphanedPages.push(page);
+      continue;
+    }
+    state.edits[page.page_id] = reconciled;
+    state.suggestionDismissals[page.page_id] ??= new Set(stored?.dismissed_suggestions || []);
+    state.submissions[page.page_id] ??= {status: storageJSON(submissionStorageKey(page))?.status || 'draft'};
+    if (!Object.keys(reconciled).length || Object.values(reconciled).some(edit => edit.base_changed)) {
+      state.submissions[page.page_id] = {status: 'draft'};
+    }
+    saveWorkspace(page);
+    // Do not seed suggestions or load scans for pages merely traversed here.
+  }
+  for (const leaf of selectedLeaves) {
+    const page = state.byLeaf.get(leaf);
+    if (!page || !savedCorrectionCount(page)) selectedLeaves.delete(leaf);
+  }
+  return orphanedPages;
+}
+
 function renderBatchControls() {
   $('#selection-toggle').setAttribute('aria-pressed', String(selectionMode));
   $('#selection-toggle').textContent = selectionMode ? 'Cancel selection' : 'Select pages to submit';
@@ -1161,7 +1199,9 @@ function correctionPayload(page) {
 }
 
 async function submitSelectedPages() {
-  const pages = [...selectedLeaves].sort((a, b) => a - b).map(leaf => state.byLeaf.get(leaf));
+  reconcileSavedWorkspaces();
+  renderGrid();
+  let pages = [...selectedLeaves].sort((a, b) => a - b).map(leaf => state.byLeaf.get(leaf));
   if (!pages.length) return;
   try {
     const response = await fetch(`corpus.json?fresh=${Date.now()}`, {cache: 'no-store'});
@@ -1169,10 +1209,11 @@ async function submitSelectedPages() {
     const latest = await response.json();
     const stale = pages.filter(page => latest.pages.find(p => p.page_id === page.page_id)?.transcription_version !== page.transcription_version);
     if (stale.length) throw new Error(`Newer data for ${stale.map(p => p.view).join(', ')}. Reload and review those pages before submitting.`);
-    for (const page of pages) {
-      const stored = storageJSON(editStorageKey(page));
-      if (stored?.transcription_version && stored.transcription_version !== page.transcription_version) throw new Error(`Open ${page.view} to review its updated baseline before submitting.`);
-    }
+    const orphaned = reconcileSavedWorkspaces(pages);
+    renderGrid();
+    if (orphaned.length) throw new Error(`Open ${orphaned.map(p => p.view).join(', ')} to review saved corrections whose line IDs are no longer present.`);
+    pages = pages.filter(page => selectedLeaves.has(page.leaf));
+    if (!pages.length) return;
     const records = pages.map(correctionPayload);
     if (records.some(record => !record.changes.length)) throw new Error('A selected page has no saved corrections. Please select again.');
     const payload = JSON.stringify({schema: 4, pages: records}, null, 2);
@@ -1262,7 +1303,12 @@ function go() { const leaf = Number($('#leaf-input').value); if (state.byLeaf.ha
 $('#go').addEventListener('click', go); $('#leaf-input').addEventListener('keydown', event => { if (event.key === 'Enter') go(); });
 $('#discard-all').addEventListener('click', () => { if (!confirm('Discard all proposed corrections for this page?')) return; for (const [lineId, edit] of Object.entries(pageEdits(state.currentPage))) dismissMachineSuggestion(state.currentPage, lineById(lineId), edit.machine_suggestion); state.edits[state.currentPage.page_id] = {}; persistSubmission(state.currentPage, 'draft'); persistEdits(state.currentPage, true); renderPageContent(); });
 $('#submit').addEventListener('click', submitCorrections);
-$('#selection-toggle').addEventListener('click', () => { selectionMode = !selectionMode; selectedLeaves.clear(); renderGrid(); });
+$('#selection-toggle').addEventListener('click', () => {
+  selectionMode = !selectionMode;
+  selectedLeaves.clear();
+  if (selectionMode) reconcileSavedWorkspaces();
+  renderGrid();
+});
 $('#submit-selected').addEventListener('click', submitSelectedPages);
 for (const [id, status] of [['batch-submitted', 'submitted'], ['batch-not-yet', 'draft']]) {
   $(`#${id}`).addEventListener('click', () => {
