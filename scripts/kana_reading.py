@@ -49,7 +49,9 @@ def vowel_at(text: str, index: int) -> tuple[str, str] | None:
 
 
 def transliterate_token(token: str) -> str | None:
-    key = re.sub(r"[^a-z]", "", normalized(token))
+    # Compare the complete spelling: deleting accented letters makes xǔ
+    # collide with the editorial label X and silently loses Japanese text.
+    key = normalized(token)
     if not token or key in LABELS:
         return None
     text = normalized(token).replace("ſ", "s")
@@ -204,7 +206,7 @@ def reading_tokens(text: str) -> list[str]:
     tokens = TOKEN_RE.findall(text)
     result: list[str] = []
     for index, token in enumerate(tokens):
-        key = re.sub(r"[^a-z]", "", normalized(token))
+        key = normalized(token)
         # In the attested ``guio i. i.`` sequence, the first standalone i is
         # the final mora of Japanese *gyoi* (御衣); the second i. is the
         # dictionary abbreviation and falls in the next period-delimited

@@ -3,10 +3,22 @@ import json
 from pathlib import Path
 import unittest
 
-from scripts.kana_reading import transliterate_token
+from scripts.kana_reading import transliterate_token, phrase_hint, reading_hint_applicable
 
 
 class KanaCorpusTests(unittest.TestCase):
+    def test_accented_words_do_not_collide_with_labels(self):
+        for token in ['xǔ', 'Xǔ', 'xu\u030c', 'xû']:
+            with self.subTest(token=token):
+                self.assertEqual(transliterate_token(token), 'シュゥ')
+        self.assertEqual(phrase_hint('xǔ gozatte'), 'xǔ gozatte/シュゥ ゴザッテ')
+        self.assertTrue(reading_hint_applicable([{'typeface': 'roman', 'text': 'xǔ'}]))
+        for label in ['X', 'x', 'i', 'S', 'Feiq']:
+            with self.subTest(label=label):
+                self.assertIsNone(transliterate_token(label))
+                self.assertIsNone(phrase_hint(label))
+                self.assertFalse(reading_hint_applicable([{'typeface': 'roman', 'text': label}]))
+
     def test_initial_ii_is_consonantal(self):
         cases = {'Iitai': 'ジタイ', 'iitai': 'ジタイ', 'Jitai': 'ジタイ',
                  'Iiguiuo': 'ジギヲ', 'Iiji': 'ジジ', 'Iiyoni': 'ジヨニ',
