@@ -119,4 +119,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l045` | &emsp;chini fazzururu. *Errar o caminho. ¶* Fat- |  |
 | `c2-l046` | &emsp;toni fazzururu. *Não guardar a lei.* Fito- |  |
 | `c2-l047` | &emsp;namini fazzururu. *Ser ſingular, ou não ir* |  |
+
+## Catchword
+
+| Physical line | Main position | Far right |
+| --- | --- | --- |
 | `c2-l048` |  | *com* |
