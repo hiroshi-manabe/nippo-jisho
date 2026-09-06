@@ -57,9 +57,15 @@ def transliterate_token(token: str) -> str | None:
     if not token or key in LABELS:
         return None
     text = normalized(token).replace("ſ", "s")
-    # Initial Ii is consonantal Ji (Iitai, Iiguiuo, Iiji, Iibucu).
-    # This does not affect internal vowel ii (mochiiru) or Iy (飯).
-    if text.startswith("ii") or text in CONSONANTAL_I_FORMS:
+    # Capital I also supplies J before other vowels (Iacǒno, Iun, Iô).
+    # Preserve the established vowel forms Ie and Iu + vowel (Iua = i-wa),
+    # alongside Iy and internal ii. Lowercase lexical exceptions stay scoped.
+    capital_consonantal_i = (
+        token.startswith("I") and vowel_at(text, 1)
+        and text != "ie"
+        and not (text.startswith("iu") and vowel_at(text, 2))
+    )
+    if capital_consonantal_i or text.startswith("ii") or text in CONSONANTAL_I_FORMS:
         text = "j" + text[1:]
     output: list[str] = []
     index = 0

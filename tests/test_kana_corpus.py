@@ -7,6 +7,16 @@ from scripts.kana_reading import transliterate_token, phrase_hint, reading_hint,
 
 
 class KanaCorpusTests(unittest.TestCase):
+    def test_capital_i_as_j_before_different_vowels(self):
+        for token, kana in [('Iacǒno', 'ジャコゥノ'), ('Iitai', 'ジタイ'),
+                            ('Iun', 'ジュン'), ('Ienxùs', None),
+                            ('Ienxǔ', 'ゼンシュゥ'), ('Iô', 'ジョゥ'),
+                            ('Ie', 'イエ'), ('Iua', 'イワ'),
+                            ('Iuauo', 'イワヲ'), ('Iye', 'イエ')]:
+            with self.subTest(token=token):
+                self.assertEqual(transliterate_token(token), kana)
+        self.assertEqual(phrase_hint('Iacǒno feſo'), 'Iacǒno feſo/ジャコゥノ ヘソ')
+
     def test_initial_v_before_u_keeps_its_mora(self):
         for token, kana in [('vuo', 'ウヲ'), ('Vuo', 'ウヲ'),
                             ('uo', 'ヲ'), ('vma', 'ウマ'),

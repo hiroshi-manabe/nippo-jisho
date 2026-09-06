@@ -59,6 +59,13 @@ compatibility check, not validation of those provisional source texts.
 
 ## Expected-reading tests
 
+Capital `I` before a vowel can represent consonantal `J`, not just before `i`
+or in the earlier `Ien` word list: f185/c2-l026 `Iacǒno` (麝香の) therefore
+renders ジャコゥノ. The converter applies this capital-I rule across vowel
+qualities, including marked vowels. Existing vocalic `Ie`, `Iu` followed by a
+vowel (`Iua`, イワ), and `Iy` remain exempt. This is a reading-hint convention,
+not a change to the printed I, and unusual forms still require contextual review.
+
 `tests/fixtures/kana-corpus-cases.json` retains 37 source-referenced examples
 as converter fixtures. These test how a specified spelling is rendered, not
 whether that spelling must forever remain in the diplomatic transcription.
