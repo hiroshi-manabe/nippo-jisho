@@ -60,7 +60,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l044` | Facubai. Xiroi vme. *Flores brancas de certas* |  |
 | `c1-l045` | &emsp;*ameixeiras.* |  |
 | `c1-l046` | Facuban. Vſugure. i, Curecacaru jibũ. *Ao* |  |
-| `c1-l047` | &emsp;*por do ſol, ou à tarde de pois do ſol posto.* |  |
+| `c1-l047` | &emsp;*por do ſol, ou àtarde de pois do ſol posto.* |  |
 
 ## Column 2 running header
 
@@ -87,7 +87,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l013` | &emsp;*ãs. Vt,* Ichiya facufat. *Prouerb. Que* |  |
 | `c2-l014` | &emsp;*teue principio de hum homem que em hũa noite* |  |
 | `c2-l015` | &emsp;*embranqueceo dos cabellos com angustia, &* |  |
-| `c2-l016` | &emsp;*cuidados. Diz ſe de hum homem que eſta poſto* |  |
+| `c2-l016` | &emsp;*cuidados. Diz ſe de hum homem que eſta posto* |  |
 | `c2-l017` | &emsp;*em grande aperto, cuidado, & fadiga.* |  |
 | `c2-l018` | Facufenzzu. *Certa laya de grãos de Iapão.* |  |
 | `c2-l019` | Facufeqi. Xiracabe. *Parede branca, ou cayada.* |  |
@@ -106,7 +106,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l032` | &emsp;ga ſuixǒni vcabu. *O pato branco anda ſo-* |  |
 | `c2-l033` | &emsp;*bre a agoa.* |  |
 | `c2-l034` | Facugacu. Firoqu manabu. *Grandes letras,* |  |
-| `c2-l035` | &emsp;*ou longo eſtudo. Vt,* Facugacuno fito. *Grã-* |  |
+| `c2-l035` | &emsp;*ou longo estudo Vt,* Facugacuno fito. *Grã-* |  |
 | `c2-l036` | &emsp;*de letrado.* |  |
 | `c2-l037` | Facugan. Xiroi manaco. i, Niramu. *Ver* |  |
 | `c2-l038` | &emsp;*com olhos agaſtados.* |  |
