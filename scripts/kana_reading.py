@@ -138,6 +138,12 @@ def transliterate_token(token: str) -> str | None:
                 # forms such as ``vonaji`` and is not rendered as /w/.
                 if following[0] == "a":
                     consonant, index = "w", index + 1
+                elif text[index + 1] == "u":
+                    # In vuo (fish), initial v supplies ウ and the following
+                    # uo supplies ヲ. Do not collapse the two into plain uo.
+                    output.append("ウ")
+                    index += 1
+                    continue
                 else:
                     index += 1
                     continue

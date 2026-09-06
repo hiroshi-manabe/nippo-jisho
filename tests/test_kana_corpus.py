@@ -7,6 +7,14 @@ from scripts.kana_reading import transliterate_token, phrase_hint, reading_hint,
 
 
 class KanaCorpusTests(unittest.TestCase):
+    def test_initial_v_before_u_keeps_its_mora(self):
+        for token, kana in [('vuo', 'ウヲ'), ('Vuo', 'ウヲ'),
+                            ('uo', 'ヲ'), ('vma', 'ウマ'),
+                            ('vaqete', 'ワケテ'), ('vonaji', 'オナジ')]:
+            with self.subTest(token=token):
+                self.assertEqual(transliterate_token(token), kana)
+        self.assertEqual(phrase_hint('vuo curuximu'), 'vuo curuximu/ウヲ クルシム')
+
     def test_nasal_vowels_survive_word_splitting(self):
         for token, expected in [('Fã', 'ハン'), ('Fĩ', 'ヒン'),
                                 ('Fũ', 'フン'), ('Fẽ', 'ヘン'), ('Fõ', 'ホン'),
