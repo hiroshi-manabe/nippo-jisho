@@ -1,3 +1,5 @@
+from contextlib import redirect_stderr, redirect_stdout
+import io
 import json
 from pathlib import Path
 import tempfile
@@ -29,7 +31,8 @@ class CorrectionIssueProcessorTests(unittest.TestCase):
 
     def test_process_without_number_handles_empty_queue(self):
         from scripts.process_correction_issue import main
-        with (mock.patch("sys.argv", ["processor", "process"]),
+        with (redirect_stdout(io.StringIO()),
+              mock.patch("sys.argv", ["processor", "process"]),
               mock.patch("scripts.process_correction_issue.oldest_open_issue", return_value=None),
               mock.patch("scripts.process_correction_issue.prepare") as prepare_mock):
             self.assertEqual(main(), 0)
@@ -38,7 +41,8 @@ class CorrectionIssueProcessorTests(unittest.TestCase):
     def test_process_selects_only_one_issue_and_stops_for_review(self):
         from scripts.process_correction_issue import main
         for arguments, expected in [(["process"], 42), (["process", "17"], 17)]:
-            with (mock.patch("sys.argv", ["processor", *arguments]),
+            with (redirect_stdout(io.StringIO()),
+                  mock.patch("sys.argv", ["processor", *arguments]),
                   mock.patch("scripts.process_correction_issue.oldest_open_issue", return_value=42) as oldest,
                   mock.patch("scripts.process_correction_issue.prepare", return_value={
                       "second_opinions": [{}], "applied_unflagged": []}) as prepare_mock,
@@ -51,10 +55,12 @@ class CorrectionIssueProcessorTests(unittest.TestCase):
 
     def test_finalize_still_requires_issue_number(self):
         from scripts.process_correction_issue import main
-        with mock.patch("sys.argv", ["processor", "finalize"]):
+        with (redirect_stderr(io.StringIO()) as stderr,
+              mock.patch("sys.argv", ["processor", "finalize"])):
             with self.assertRaises(SystemExit) as error:
                 main()
             self.assertEqual(error.exception.code, 2)
+            self.assertIn("the following arguments are required: issue", stderr.getvalue())
 
     def test_omitted_note_is_preserved_and_explicit_empty_note_is_deleted(self):
         from scripts.process_correction_issue import apply_change, apply_resolved
