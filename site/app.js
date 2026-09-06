@@ -410,24 +410,35 @@ function reconcileEdits(page, edits) {
     const lineChanged = edit.base_line_version
       ? edit.base_line_version !== line.transcription_version
       : edit.before !== line.text;
+    const currentNote = line.note || '';
+    const pendingNote = edit.note_after !== undefined
+      && edit.note_after !== (edit.note_before || '')
+      && edit.note_after !== currentNote;
+    const pendingAnnotation = pendingNote || edit.message || edit.comment || edit.second_opinion;
+    // Also clean up records retained by an earlier reconciliation version.
+    if (proposalMatchesLine(line, edit.after) && !pendingAnnotation) continue;
     if (!lineChanged) {
       reconciled[lineId] = {...edit, base_line_version: line.transcription_version};
       continue;
     }
     const rebasedEdit = {...edit};
     delete rebasedEdit.nasal_restorations;
+    // Stored notes are also baseline snapshots, not necessarily local edits.
+    rebasedEdit.note_before = currentNote;
+    rebasedEdit.note_after = pendingNote ? edit.note_after : currentNote;
+    delete rebasedEdit.comment_review_needed;
     const reviewFlags = {
       base_line_version: line.transcription_version,
       base_changed: true,
-      ...(edit.note_after !== undefined || edit.message || edit.comment || edit.second_opinion ? {comment_review_needed: true} : {}),
+      ...(pendingAnnotation ? {comment_review_needed: true} : {}),
     };
     if (proposalMatchesLine(line, edit.after)) {
-      if (edit.note_after !== undefined || edit.message || edit.comment || edit.second_opinion) reconciled[lineId] = {...rebasedEdit, before: line.text, after: line.text, note_before: line.note || '', ...reviewFlags};
+      if (pendingAnnotation) reconciled[lineId] = {...rebasedEdit, before: line.text, after: line.text, ...reviewFlags};
       continue;
     }
     const proposal = parseTypefaceNotation(edit.after);
     if (proposal.valid && edit.before === proposal.text && proposal.romanRanges.length === 0 && proposal.italicRanges.length === 0) {
-      if (edit.note_after !== undefined || edit.message || edit.comment || edit.second_opinion) reconciled[lineId] = {...rebasedEdit, before: line.text, after: line.text, note_before: line.note || '', ...reviewFlags};
+      if (pendingAnnotation) reconciled[lineId] = {...rebasedEdit, before: line.text, after: line.text, ...reviewFlags};
       continue;
     }
     reconciled[lineId] = {...rebasedEdit, before: line.text, ...reviewFlags};
@@ -460,7 +471,12 @@ function loadPageWorkspace(page) {
   );
   state.submissions[page.page_id] = {status};
   state.workspacesLoaded.add(page.page_id);
-  if (versionChanged) {
+  const currentLines = pageLineMap(page);
+  const hasIncorporatedText = Object.entries(edits).some(([id, edit]) => {
+    const line = currentLines.get(id);
+    return line && proposalMatchesLine(line, edit.after);
+  });
+  if (versionChanged || hasIncorporatedText) {
     const {reconciled, orphaned} = reconcileEdits(page, edits);
     state.edits[page.page_id] = reconciled;
     const hasRebasedEdits = Object.values(reconciled).some(edit => edit.base_changed);

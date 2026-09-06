@@ -339,6 +339,15 @@ The page version is only a trigger for line-level reconciliation. Every saved ed
 
 A durable note is canonical annotation whose continued relevance cannot be decided by text equality. When its line changes, a locally edited note is preserved and marked **Note needs review** until the reviewer confirms the row. A temporary message is likewise preserved across rebasing but never becomes canonical data.
 
+On a baseline update, an already-incorporated text proposal is cleared silently
+unless independent work remains. An unchanged saved note is only a baseline
+snapshot: adopt the current canonical note rather than keeping the row alive.
+A locally edited note that already equals the new canonical note is likewise
+incorporated. Otherwise preserve the local note edit and flag it for review.
+Outstanding messages and second-opinion requests are always retained. Remove
+the entire saved row only when neither a text correction nor pending annotation
+remains; explicit typeface proposals must match the new typeface as well as text.
+
 Only a missing stable line ID prevents automatic rebasing. In that exceptional case, unaffected edits are retained while a blocking warning lets the reviewer copy and then discard the orphaned records. Pre-versioning browser data is migrated once against the first version-aware corpus rather than being discarded without a known comparison point. This is deliberately simple optimistic concurrency control; the browser never attempts to synthesize a textual merge.
 
 Edited rows must continue to render the original Level 1 typeface runs. Diff highlighting is an additional visual layer; it must not flatten italic Portuguese and roman Japanese into one style.

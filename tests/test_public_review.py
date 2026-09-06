@@ -11,6 +11,43 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class PublicReviewRegressionTests(unittest.TestCase):
+    def test_rebase_clears_incorporated_edits_but_keeps_pending_annotations(self):
+        script = r"""
+const fs = require('fs'), vm = require('vm'), assert = require('assert');
+const app = fs.readFileSync('site/app.js', 'utf8');
+const source = app.slice(app.indexOf('function pageLineMap('), app.indexOf('function loadPageWorkspace('));
+const context = {}; vm.createContext(context); vm.runInContext(source, context);
+const line = {id: 'c1-l001', text: 'new', note: 'new note', transcription_version: 'v2', runs: [{text: 'new', typeface: 'roman'}]};
+const page = {zones: [{lines: [line]}]};
+const base = {before: 'old', after: 'new', note_before: 'old note', note_after: 'old note', base_line_version: 'v1'};
+const reconcile = edit => context.reconcileEdits(page, {'c1-l001': edit}).reconciled;
+// The migrated workspace always supplies note_after, even when never edited.
+assert.equal(Object.keys(reconcile(base)).length, 0);
+assert.equal(Object.keys(reconcile({...base, before: 'new', base_line_version: 'v2', base_changed: true})).length, 0);
+assert.equal(Object.keys(reconcile({...base, note_after: 'new note'})).length, 0);
+assert.equal(Object.keys(reconcile({...base, after: '[new]'})).length, 0);
+for (const extra of [{message: 'Please check'}, {second_opinion: true}, {note_after: 'my independent note'}]) {
+  const edit = reconcile({...base, ...extra})['c1-l001'];
+  assert.equal(edit.before, 'new'); assert.equal(edit.after, 'new');
+  assert.equal(edit.note_before, 'new note');
+  assert.equal(edit.note_after, extra.note_after || 'new note');
+  assert.equal(edit.comment_review_needed, true);
+  for (const [key, value] of Object.entries(extra)) assert.equal(edit[key], value);
+}
+// Do not discard a requested italic change merely because plain text matches.
+assert.equal(reconcile({...base, after: '{new}'})['c1-l001'].after, '{new}');
+assert.equal(reconcile({...base, after: 'different'})['c1-l001'].after, 'different');
+// Comment-only work must adopt upstream text, not restore the old text.
+const comment = reconcile({...base, after: 'old', message: 'Check this'})['c1-l001'];
+assert.equal(comment.after, 'new'); assert.equal(comment.message, 'Check this');
+const mixed = context.reconcileEdits(page, {'c1-l001': base, missing: base});
+assert.equal(Object.keys(mixed.reconciled).length, 0);
+assert.equal(mixed.orphaned.missing.after, 'new');
+assert.equal(reconcile({...base, base_line_version: 'v2', after: 'local'})['c1-l001'].after, 'local');
+"""
+        result = subprocess.run(["node", "-e", script], cwd=ROOT, capture_output=True, text=True)
+        self.assertEqual(result.returncode, 0, result.stderr)
+
     def test_commentary_stage_is_explicit_and_separate_from_human_counts(self):
         script = r"""
 const fs = require('fs'), vm = require('vm'), assert = require('assert');
