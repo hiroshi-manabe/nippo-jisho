@@ -39,13 +39,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l023` | Faxiradate. *O aleuantar as colunas de pao* |  |
 | `c1-l024` | &emsp;*no lugar do edificio, ou caſas. Vt,* Faxira- |  |
 | `c1-l025` | &emsp;dateuo ſuru. |  |
-| `c1-l026` | Faxiragacuxi. *Algũa guernição, ou pintura* |  |
+| `c1-l026` | Faxiragacuxi. *Algũa guarnição, ou pintura* |  |
 | `c1-l027` | &emsp;*que ſe dependura na colunna pera a encobrir,* |  |
 | `c1-l028` | &emsp;*& ornar.* |  |
 | `c1-l029` | Faxirayoxe. *Pao que ſe prèga ao comprido na* |  |
-| `c1-l030` | &emsp;*ombreira da porta peraque entre a porta, & a* |  |
+| `c1-l030` | &emsp;*ombreira da porta pera que entre a porta, & a* |  |
 | `c1-l031` | &emsp;*ombreira não fique eſpaço aberto pera poder* |  |
-| `c1-l032` | &emsp;*ver, ou meter os dẽdos. No Cami ſe diz.* |  |
+| `c1-l032` | &emsp;*ver, ou meter os dedos. No Cami ſe diz,* |  |
 | `c1-l033` | &emsp;Toyoxe. |  |
 | `c1-l034` | Faxiri. *Canas darremeſo. Vt,* Faxiriuo |  |
 | `c1-l035` | &emsp;tçuqi idaſu. *Arremeſar canas.* |  |
@@ -56,7 +56,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l040` | &emsp;*¶ Item, Ir a Fune à vela. Vt,* Funega |  |
 | `c1-l041` | &emsp;faxiru. *¶* Vmaga faxitta. *Morreo o* |  |
 | `c1-l042` | &emsp;*caualo. ¶ Item,* Faxiru. *Saltar, ou eſ-* |  |
-| `c1-l043` | &emsp;*tourar algũà couſa no fogo. Vt,* Xiuo ga fa- |  |
+| `c1-l043` | &emsp;*tourar algũà couſa no fogo. Vt,* Xiuoga fa- |  |
 | `c1-l044` | &emsp;xiru. *O ſal dentro do fogo ſalta. ¶* Cu- |  |
 | `c1-l045` | &emsp;riga faxiru. *As caſtanhas eſtourão, ou ar-* |  |
 | `c1-l046` | &emsp;*rebentão no fogo.* X. *¶* Chiga faxiru. |  |
@@ -72,7 +72,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | &emsp;*Deſembainharſe a Catana por ſi.* X. *No Ca-* |  |
+| `c2-l001` | &emsp;*Deſembainharſe a Catana por ſi. X. No Ca-* |  |
 | `c2-l002` | &emsp;*mi ſe diz, ſayabaxiru. ¶* Chiyeno fa- |  |
 | `c2-l003` | &emsp;xitta monogia. *He homem ſagaz, &* |  |
 | `c2-l004` | &emsp;*agudo. ¶* Faxiru vmani muchi. *Prou.* |  |
@@ -84,7 +84,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l010` | Faxiricayeri, u, etta. *Tornarſe correndo.* |  |
 | `c2-l011` | Faxirichiri, u, itta. *Correr eſpalhandoſe.* |  |
 | `c2-l012` | Faxiri cogura. *Vt,* Faxiri cogurauo ſuru. |  |
-| `c2-l013` | &emsp;*Correrem dous a par, ou muitos juntos.* |  |
+| `c2-l013` | &emsp;*Correrem dous apar, ou muitos juntos.* |  |
 | `c2-l014` | Faxiricorobi, u, ôda. *Correndo cair.* |  |
 | `c2-l015` | Faxiricoye, uru, eta. *Paſſar por cima dal-* |  |
 | `c2-l016` | &emsp;*gũa couſa correndo.* |  |
@@ -116,7 +116,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l042` | &emsp;*perfeito, & falto daquelle que he ordinario,* |  |
 | `c2-l043` | &emsp;*como ſe faltaſſem 10. ou 20. folhas de pa-* |  |
 | `c2-l044` | &emsp;*pel pera cento que tem hua mão de* Torinoco: |  |
-| `c2-l045` | &emsp;*aquelle numero imperfeito, & falto ſe dirà* |  |
+| `c2-l045` | &emsp;*aquelle numero imperfeito, & falto ſe diria* |  |
 | `c2-l046` | &emsp;iſsocuno faxita. |  |
 | `c2-l047` | Faxita. *Vide,* Faxit. mono. |  |
 

@@ -15,19 +15,19 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c1-l001` | Fauoto. *Soido, ou eſtrondo das aſas do paſſaro.* |  |
-| `c1-l002` | Faxe, ſuru, eta, i. Faxiri, u. *Correr: ajun-* |  |
-| `c1-l003` | &emsp;*taſe eſta raiz a muitos verbos como ſe vera a-* |  |
-| `c1-l004` | &emsp;*baixo, & da algũa força ao verbo ſignificando* |  |
+| `c1-l002` | Faxe, ſuru, eta, i. Faxiri, u. *Correr: ajun* |  |
+| `c1-l003` | &emsp;*taſe esta raiz a muitos verbos como ſe vera a* |  |
+| `c1-l004` | &emsp;*baixo, & dà algũa força ao verbo ſignificando* |  |
 | `c1-l005` | &emsp;*presteza. ¶ Item, Fazer correr. Vt,* |  |
 | `c1-l006` | &emsp;Vmauo faſuru. *Fazer correr o caualo.* |  |
-| `c1-l007` | Faxeai, uǒ, uota. *Encontraremſe algũs cõ* |  |
+| `c1-l007` | Faxeai, uǒ, uǒta. *Encontraremſe algũs cõ* |  |
 | `c1-l008` | &emsp;*preſſa.* |  |
 | `c1-l009` | Faxeatçumari, u, atta. *Ajuntarſe de preſſa.* |  |
 | `c1-l010` | Faxeague, uru, eta. *Dar a Fune ſobre algũa* |  |
 | `c1-l011` | &emsp;*pedra, ou em algum baixo, &c. Vt,* Fune |  |
 | `c1-l012` | &emsp;uo xeni faxeagueta. *Deu a* Fune *em hũa* |  |
 | `c1-l013` | &emsp;*restinga.* |  |
-| `c1-l014` | Faxearuqi, u, uita. *Correr de cà, pera là.* |  |
+| `c1-l014` | Faxearuqi, u, uita. *Correr de cà, pera lá.* |  |
 | `c1-l015` | Faxeauaxe, ſuru, eta. *Fazer encontrar.* |  |
 | `c1-l016` | &emsp;*Vt,* Areni faxeauaxe, coreni ſaxiauaxe |  |
 | `c1-l017` | &emsp;tatacǒta. Feiq. *Lib. 4. Pelejaua en* |  |
@@ -81,7 +81,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l001` | Faxeſugui, uru, ita. *Paſſar auãte de preſſa.* |  |
 | `c2-l002` | Faxeſuſumi, u, unda. *Ir a diante.* |  |
 | `c2-l003` | Faxetauoxi, ſu, oita. *Derrubar correndo.* |  |
-| `c2-l004` | &emsp;*Vt,* Tacaguixi yori vmauo faxetauoxite, &c. |  |
+| `c2-l004` | &emsp;*Vt,* Tacaguixi yori vmauo faxetauoxite, *&c.* |  |
 | `c2-l005` | &emsp;*Derrubou, ou deitou em baxo o caualo corren-* |  |
 | `c2-l006` | &emsp;*do de cima de hũa rocha, ou lugar ingreme.* |  |
 | `c2-l007` | Faxetçuqi, u, uita. *Chegar correndo.* |  |
@@ -98,7 +98,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l018` | &emsp;qu. *Tirar a ponte. ¶* Faxiuo vataru. |  |
 | `c2-l019` | &emsp;*Paſſar a ponte. ¶* Faxiuo caquru. *Ar-* |  |
 | `c2-l020` | &emsp;*mar, ou por ponte.* |  |
-| `c2-l021` | Faxi, ſuru. *Deſmãchar as cõtas feitas. Vide,* Faſã- |  |
+| `c2-l021` | Faxi, ſuru. *Deſmãchar as cõtas feitas. Vide,* Faſã. |  |
 | `c2-l022` | Faxibami. *Hũa certa fruita.* |  |
 | `c2-l023` | Faxibami. *Taboinhas que ſe metem, & en-* |  |
 | `c2-l024` | &emsp;*caxão em outras nas bordas como em meſas,* |  |
@@ -106,13 +106,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l026` | Faxibaxi. *Bordas, ou cabos dalgũa couſa.* |  |
 | `c2-l027` | &emsp;¶ Zaixono faxibaxi. *Arrabaldes do lu-* |  |
 | `c2-l028` | &emsp;*gar. ¶ Item, Pouco. Vt,* Faxibaxiuo |  |
-| `c2-l029` | &emsp;qijta, l, vqecamauatta. *Ouui leuemente,* |  |
+| `c2-l029` | &emsp;qijta, l, vqetamauatta. *Ouui leuemente,* |  |
 | `c2-l030` | &emsp;*ou pouco do que paſſou* |  |
 | `c2-l031` | Faxibune. *Embarcação pequena como man-* |  |
 | `c2-l032` | &emsp;*chua, ou batelinho.* |  |
 | `c2-l033` | Faxica. *Sarampão. ¶* Faxicauo ſuru. |  |
 | `c2-l034` | &emsp;*Ter ſarampão.* |  |
-| `c2-l035` | Faxica, l, nogui. *Pragana de trigo, ou arroz* |  |
+| `c2-l035` | Faxica, l, nogui. *Pragana de trigo, ou arroz.* |  |
 | `c2-l036` | Faxicai. *Couſa aſpera, & deſabrida como veſ-* |  |
 | `c2-l037` | &emsp;*tido groſſeiro ſobre a carne nua, &c. ¶ Itẽ,* |  |
 | `c2-l038` | &emsp;*Couſa facil de quebrar como ferro fraco, &* |  |
@@ -122,7 +122,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l042` | &emsp;*brandura. ¶ Item, Homem agudo, & ve-* |  |
 | `c2-l043` | &emsp;*loz no entender, & fallar leuemente.* |  |
 | `c2-l044` | Faxicai qi. *Pao que quebra facilmente.* |  |
-| `c2-l045` | Faxigacari. *Lugar no theatro que eſta de bai-* |  |
+| `c2-l045` | Faxigacari. *Lugar no theatro que eſta de bai* |  |
 | `c2-l046` | &emsp;*xo de hum arco por onde ſaem as figuras a pu-* |  |
 | `c2-l047` | &emsp;*blico.* |  |
 

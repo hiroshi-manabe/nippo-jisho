@@ -14,7 +14,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | Faxitaca. *Hũa laya de falcões.* |  |
+| `c1-l001` | Faxitaca. *Hũa laya de falcoẽs.* |  |
 | `c1-l002` | Faxitamono. *Couſa imperfeita, ou falta pera* |  |
 | `c1-l003` | &emsp;*algum numero, ou obra, &c.* |  |
 | `c1-l004` | Faxitamono, l, faxita. *Certa laya de molhe-* |  |
@@ -89,7 +89,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l015` | &emsp;*O contrario he,* Xigueyama. |  |
 | `c2-l016` | Fayamari, u, atta. *Fazerſe algũa couſa de preſ-* |  |
 | `c2-l017` | &emsp;*ſa, ou ãtes do tẽpo determinado, ou anticiparſe* |  |
-| `c2-l018` | &emsp;*o tẽpo dalgũa feſta, cõuite, &c.* X. *No Cami* |  |
+| `c2-l018` | &emsp;*o tẽpo dalgũa feſta, cõuite, &c. X. No Cami* |  |
 | `c2-l019` | &emsp;*ſediz, Toricoſu.* |  |
 | `c2-l020` | Fayame, uru, eta. *Apreſſar, ou dar preſſa.* |  |
 | `c2-l021` | &emsp;*¶* Vmauo fayamuru. *Fazer andar de* |  |
@@ -98,7 +98,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l024` | &emsp;*posta. Vt,* Fayamichiuo noru. *Idem.* |  |
 | `c2-l025` | Fayaracaxi, ſu, aita. *Fazer correr algum* |  |
 | `c2-l026` | &emsp;*cuſtume, arte, &c.* |  |
-| `c2-l027` | Fayari, ru, atta. *Correr algum cuſtume, ar-* |  |
+| `c2-l027` | Fayari, ru, atta. *Correr algum custume, ar-* |  |
 | `c2-l028` | &emsp;*te, &c.* |  |
 | `c2-l029` | Fayari, u, atta. *Correr o rio com grande im-* |  |
 | `c2-l030` | &emsp;*peto. ¶ Item, Ser apreſſado, & arrebata-* |  |
@@ -109,15 +109,15 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l035` | Fayarimono, l, fayattamono. *Soldado a-* |  |
 | `c2-l036` | &emsp;*nimoſo, & forte, & que acomete dos pri-* |  |
 | `c2-l037` | &emsp;*meiros.* |  |
-| `c2-l038` | Fayate. *Refega de vento rijo. ¶* Fayate |  |
-| `c2-l039` | &emsp;ni vǒ. *Encontrar com eſta refega, ou pè* |  |
+| `c2-l038` | Fayate. *Refèga de vento rijo. ¶* Fayate |  |
+| `c2-l039` | &emsp;ni vǒ. *Encontrar com esta refèga, ou pè* |  |
 | `c2-l040` | &emsp;*de vento.* |  |
 | `c2-l041` | Fayauaza. *Obra apreſſada, ou ligeireza, &* |  |
 | `c2-l042` | &emsp;*deſtreza de mãos.* |  |
 | `c2-l043` | Fayauchi. *Correo.* |  |
 | `c2-l044` | Fayavma. *Caualo ligeiro. ¶* Faya vmauo |  |
-| `c2-l045` | &emsp;tatçuru, l, yaru. *Mandar pella posta.* |  |
-| `c2-l046` | Fayaxi. *Canauial, ou lugar de muitas aruores* |  |
+| `c2-l045` | &emsp;tatçuru, *l* yaru. *Mandar pella posta.* |  |
+| `c2-l046` | Fayaxi. *Canaueal, ou lugar de muitas aruores* |  |
 | `c2-l047` | &emsp;*juntas como boſque.* |  |
 
 ## Printed page number

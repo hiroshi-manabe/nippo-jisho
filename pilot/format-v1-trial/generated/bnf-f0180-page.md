@@ -23,11 +23,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l007` | Fayaxi, u, aita. *Cortar, ou trinchar. Pala-* |  |
 | `c1-l008` | &emsp;*ura de molheres.* |  |
 | `c1-l009` | Fayaximono. *Bailo juntamente com canto de* |  |
-| `c1-l010` | &emsp;*muitos que vão andando jũta mẽte. ¶* Fayaxi |  |
+| `c1-l010` | &emsp;*muitos que vaõ andando jũta mẽte. ¶* Fayaxi |  |
 | `c1-l011` | &emsp;monouo ſuru. *Fazer eſte bailo, ou canto* |  |
 | `c1-l012` | &emsp;*por feſta, ou alegria derepente.* |  |
 | `c1-l013` | Faye. Yaburi coboſu. *Deſtruição. ¶* Faye- |  |
-| `c1-l014` | &emsp;ni voyobu. *deſtruirſe algũa couſa.* |  |
+| `c1-l014` | &emsp;ni voyobu. *destruirſe algũa couſa.* |  |
 | `c1-l015` | Faye. *Hum peixe.* |  |
 | `c1-l016` | Faye, uru, eta. *Eſtender, ou eſtirar. Vt,* |  |
 | `c1-l017` | &emsp;Xiqimonouo fayuru. *Estender alcati-* |  |
@@ -39,7 +39,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l023` | &emsp;*iſto? No Cami ſe diz, Itçunomani.* |  |
 | `c1-l024` | Fazama. *Idem. ¶ Vt,* Vchinimo tçuua- |  |
 | `c1-l025` | &emsp;monodomo fima fazamamonǒ michimi- |  |
-| `c1-l026` | &emsp;chite itta. Feiq. *lib. 1. Entrarão os ſolda-* |  |
+| `c1-l026` | &emsp;chite itta. Feiq. *lib. 1. Entraraõ os ſolda-* |  |
 | `c1-l027` | &emsp;*dos dentro de maneira que eſtaua tudo cheo.* |  |
 | `c1-l028` | Fazamari, u, atta. *Estar entalado, ou poſto* |  |
 | `c1-l029` | &emsp;*entre duas couſas.* |  *( couſas.* |
@@ -78,9 +78,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l004` | &emsp;*nas com certas liſtras atraueſſadas, & pondoa* |  |
 | `c2-l005` | &emsp;*na cinta de maneira q̃ ficaſe alta, & eminẽte.* |  |
 | `c2-l006` | Fazumaqi. *Parte da ſeta junto da mauça que* |  |
-| `c2-l007` | &emsp;*cuſtumão apertar, & emburulhar cõ fio.* |  |
+| `c2-l007` | &emsp;*custumão apertar, & emburulhar cõ fio.* |  |
 | `c2-l008` | Fazuſaxi. *Certo caniuete com que abrem a mau-* |  |
-| `c2-l009` | &emsp;*ça do arco pera meter a corda. ¶ Itẽ, Qual-* |  |
+| `c2-l009` | &emsp;*ça do arco pera meter a corda. ¶ Itẽ, Qual* |  |
 | `c2-l010` | &emsp;*quer caniuete, ou faca pequena de ponta aguda.* |  |
 | `c2-l011` | Fazzu. *Mezinha pera fazer camaras.* |  |
 | `c2-l012` | Fazzucaxigari, u, atta. *Ter pejo, ou ver-* |  |
@@ -95,10 +95,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l021` | &emsp;Iqiuo fazzumacaſu. *Deter o folego, ou dei-* |  |
 | `c2-l022` | &emsp;*xar de reſpirar.* |  |
 | `c2-l023` | Fazzumi, u, unda. *Deterſe o folego, ou não* |  |
-| `c2-l024` | &emsp;*poder reſfolegar, abafado, &c. Vt,* Iqiga |  |
+| `c2-l024` | &emsp;*poder resfolegar, abafado, &c. Vt,* Iqiga |  |
 | `c2-l025` | &emsp;fazzumu. |  |
-| `c2-l026` | Fazzumi, u, unda. *Pular a pela. Vt,* Ma- |  |
-| `c2-l027` | &emsp;riga fazzumu. *¶ Item, Ir o caualo aluo-* |  |
+| `c2-l026` | Fazzumi, u, unda. *Pular a pela. Vt, Ma-* |  |
+| `c2-l027` | &emsp;*riga* fazzumu. *¶ Item, Ir o caualo aluo-* |  |
 | `c2-l028` | &emsp;*raçado, & como brincando. Vt,* Vmano |  |
 | `c2-l029` | &emsp;axino voyobǒ fodoua tazzunauo curete |  |
 | `c2-l030` | &emsp;ayumaxei, fazzumaba tazzunauo cutte |  |
