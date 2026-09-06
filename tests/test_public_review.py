@@ -11,6 +11,30 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class PublicReviewRegressionTests(unittest.TestCase):
+    def test_local_tilde_markers_resolve_once_and_reconcile(self):
+        script = r"""
+const fs = require('fs'), vm = require('vm'), assert = require('assert');
+const app = fs.readFileSync('site/app.js', 'utf8');
+const context = {}; vm.createContext(context);
+vm.runInContext(app.slice(app.indexOf('function pageLineMap('), app.indexOf('function loadPageWorkspace(')), context);
+const resolve = context.resolveTildeMarkers;
+for (const [before, after] of [['*alguã','algũa'], ['algũa*','alguã'], ['não*','naõ'], ['*naõ','não'], ['[alguã*], {*não}.','[algũa], {naõ}.'], ['*ALGUÃ','ALGŨA'], ['*algu'+'a\u0303','algũa']]) {
+  assert.equal(resolve(before), after);
+  assert.equal(resolve(after), after); // Never swap twice on later saves.
+}
+for (const value of ['word*', '*ã', '*aão', '*ãõ', '*q̃', '*alguã*', '**alguã', '*']) assert.equal(resolve(value), value);
+const page = {zones: [{lines: [{id:'x', text:'algũa', note:'note', transcription_version:'v2', runs:[{text:'algũa', typeface:'roman'}]}]}]};
+const base = {before:'alguã', after:'*alguã', base_line_version:'v1', note_before:'note', note_after:'note', nasal_restorations:[{index:1}]};
+assert.equal(Object.keys(context.reconcileEdits(page, {x:base}).reconciled).length, 0);
+assert.equal(base.after, '*alguã'); // Reconciliation does not mutate source records.
+const retained = context.reconcileEdits(page, {x:{...base, message:'Check this'}}).reconciled.x;
+assert.equal(retained.after, 'algũa'); assert.equal(retained.message, 'Check this');
+assert.equal(retained.nasal_restorations, undefined);
+assert.equal(context.reconcileEdits(page, {x:{...base, after:'*word'}}).reconciled.x.after, '*word');
+"""
+        result = subprocess.run(["node", "-e", script], cwd=ROOT, capture_output=True, text=True)
+        self.assertEqual(result.returncode, 0, result.stderr)
+
     def test_selection_sweep_reconciles_unopened_pages_and_prunes_selection(self):
         script = r"""
 const fs = require('fs'), vm = require('vm'), assert = require('assert');

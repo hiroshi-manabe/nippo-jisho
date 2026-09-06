@@ -341,6 +341,7 @@ function editStorageKey(page) { return `nippo-edits:${page.page_id}`; }
 function submissionStorageKey(page) { return `nippo-submission:${page.page_id}`; }
 
 function saveWorkspace(page) {
+  for (const edit of Object.values(state.edits[page.page_id] || {})) normalizeSavedTildeMarkers(edit);
   localStorage.setItem(editStorageKey(page), JSON.stringify({schema: WORKSPACE_SCHEMA, transcription_version: page.transcription_version, edits: state.edits[page.page_id], dismissed_suggestions: [...(state.suggestionDismissals[page.page_id] || [])]}));
   localStorage.setItem(submissionStorageKey(page), JSON.stringify({schema: WORKSPACE_SCHEMA, transcription_version: page.transcription_version, status: state.submissions[page.page_id].status}));
 }
@@ -394,6 +395,34 @@ function pageLineMap(page) {
   return new Map(page.zones.flatMap(zone => zone.lines).map(line => [line.id, line]));
 }
 
+function resolveTildeMarkers(value) {
+  return value.replace(/\*([\p{L}\p{M}]+)|([\p{L}\p{M}]+)\*/gu, (match, prefix, suffix, offset, source) => {
+    if (source[offset - 1] === '*' || source[offset + match.length] === '*') return match;
+    const units = (prefix || suffix).normalize('NFD').match(/\p{L}\p{M}*/gu) || [];
+    const carriers = units.map((unit, index) => unit.includes('\u0303') ? index : -1).filter(index => index >= 0);
+    if (carriers.length !== 1) return match;
+    const marked = carriers[0];
+    const vowel = index => index >= 0 && index < units.length && /^[aeiou]/i.test(units[index]);
+    if (!vowel(marked)) return match;
+    let left = marked, right = marked + 1;
+    while (vowel(left - 1)) left--;
+    while (vowel(right)) right++;
+    if (right - left !== 2) return match;
+    const destination = marked === left ? left + 1 : left;
+    units[marked] = units[marked].replace('\u0303', '');
+    units[destination] += '\u0303';
+    return units.join('').normalize('NFC');
+  });
+}
+
+function normalizeSavedTildeMarkers(edit) {
+  const resolved = resolveTildeMarkers(edit.after);
+  if (resolved !== edit.after) {
+    edit.after = resolved;
+    delete edit.nasal_restorations; // Character offsets may have changed.
+  }
+}
+
 function parseTypefaceNotation(value) {
   let text = '';
   let open = null;
@@ -439,7 +468,9 @@ function reconcileEdits(page, edits) {
   const lines = pageLineMap(page);
   const reconciled = {};
   const orphaned = {};
-  for (const [lineId, edit] of Object.entries(edits)) {
+  for (const [lineId, original] of Object.entries(edits)) {
+    const edit = {...original};
+    normalizeSavedTildeMarkers(edit);
     const line = lines.get(lineId);
     if (!line) {
       orphaned[lineId] = edit;
@@ -490,7 +521,9 @@ function loadPageWorkspace(page) {
   const storedSubmission = storageJSON(submissionStorageKey(page));
   const isEnvelope = storedEdits?.schema >= 2 && storedEdits.edits && typeof storedEdits.edits === 'object';
   const edits = isEnvelope ? storedEdits.edits : (storedEdits && typeof storedEdits === 'object' ? storedEdits : {});
+  const hadTildeMarkers = Object.values(edits).some(edit => edit.after.includes('*'));
   for (const edit of Object.values(edits)) {
+    normalizeSavedTildeMarkers(edit);
     if (edit.message === undefined && edit.comment) edit.message = edit.comment;
     if (edit.note_before === undefined) edit.note_before = '';
     if (edit.note_after === undefined) edit.note_after = edit.note_before;
@@ -514,7 +547,7 @@ function loadPageWorkspace(page) {
     const line = currentLines.get(id);
     return line && proposalMatchesLine(line, edit.after);
   });
-  if (versionChanged || hasIncorporatedText) {
+  if (versionChanged || hasIncorporatedText || hadTildeMarkers) {
     const {reconciled, orphaned} = reconcileEdits(page, edits);
     state.edits[page.page_id] = reconciled;
     const hasRebasedEdits = Object.values(reconciled).some(edit => edit.base_changed);
@@ -877,7 +910,8 @@ function lineHTML(page, line) {
   const current = edit ? edit.after : line.text;
   const note = edit?.note_after ?? line.note ?? '';
   const message = edit?.message || '';
-  const markers = `${edit?.machine_suggestion === 'ocr_terminal_hyphen' ? '<span class="review-marker suggestion-marker">OCR: no hyphen</span>' : ''}${edit?.base_changed ? '<span class="review-marker">Base updated</span>' : ''}${edit?.comment_review_needed ? '<span class="review-marker comment-marker">Note needs review</span>' : ''}${edit?.second_opinion ? '<span class="review-marker opinion-marker">Second opinion requested</span>' : ''}${message ? '<span class="review-marker opinion-marker">Message to AI</span>' : ''}`;
+  const tildeWarning = current.includes('*') ? '<span class="review-marker comment-marker">Unresolved tilde marker: edit spelling explicitly</span>' : '';
+  const markers = `${tildeWarning}${edit?.machine_suggestion === 'ocr_terminal_hyphen' ? '<span class="review-marker suggestion-marker">OCR: no hyphen</span>' : ''}${edit?.base_changed ? '<span class="review-marker">Base updated</span>' : ''}${edit?.comment_review_needed ? '<span class="review-marker comment-marker">Note needs review</span>' : ''}${edit?.second_opinion ? '<span class="review-marker opinion-marker">Second opinion requested</span>' : ''}${message ? '<span class="review-marker opinion-marker">Message to AI</span>' : ''}`;
   const reference = `${page.view}/${line.id}`;
   const annotations = `${note ? `<button class="annotation-preview comment-preview" type="button" data-action="edit" title="${escapeHTML(note)}"><span>Comment</span>${escapeHTML(note)}</button>` : ''}${message ? `<button class="annotation-preview message-preview" type="button" data-action="edit" title="${escapeHTML(message)}"><span>Message to AI</span>${escapeHTML(message)}</button>` : ''}`;
   return `<article class="line-row ${edit ? 'changed' : ''} ${edit?.machine_suggestion ? 'suggested' : ''} ${edit?.base_changed ? 'rebased' : ''}" data-line="${line.id}"><div class="line-head"><code>${line.id}</code><button class="copy-line-reference" type="button" data-copy-line-reference="${escapeHTML(reference)}" title="Copy ${escapeHTML(reference)}" aria-label="Copy full line reference">⧉</button>${markers}<button class="context-toggle" type="button" aria-expanded="false">Show context</button></div><button class="line-crop" type="button" style="aspect-ratio:${line.crop[2]}/${line.crop[3]}" data-crop='${JSON.stringify(line.crop)}' data-context='${JSON.stringify(line.context_crop)}' aria-label="Show context for ${line.id}"><img loading="lazy" data-iiif-page alt="" style="width:${page.width / line.crop[2] * 100}%;transform:translate(${-line.crop[0] / page.width * 100}% ,${-line.crop[1] / page.height * 100}%)"></button><div class="line-text-row" title="Click beside the text for the full editor"><div class="line-transcription"><div class="line-text indent-${line.indent}">${interactiveLineHTML(line, current, edit?.nasal_restorations, edit?.machine_suggestion)}</div>${kanaGuideHTML(line)}</div>${annotations ? `<div class="line-annotations">${annotations}</div>` : ''}</div></article>`;
@@ -966,7 +1000,7 @@ function useTranscriptionKey(form, key) {
 function saveEditor(form) {
   const row = form.closest('.line-row');
   const line = lineById(row.dataset.line);
-  const after = form.elements.transcription.value;
+  const after = resolveTildeMarkers(form.elements.transcription.value);
   const noteAfter = form.elements.note.value.trim();
   const message = form.elements.message.value.trim();
   const secondOpinion = form.elements['second-opinion'].checked;
