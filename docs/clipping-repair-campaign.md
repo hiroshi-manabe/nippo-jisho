@@ -78,7 +78,12 @@ columns. It applied 188 changed rectangles (five columns repaired/verified,
 five checked/unchanged). The enlarged F on f186 and the final Catana. on f189
 required manual changes followed by isolated-crop verification. Weak matches
 for short lines were adjudicated from the image, not automatically reassigned.
-Outside the pilot, 183 pages still await completed visual review. Do not
+The f191–f195 commentary review subsequently inspected all 473 former body
+crops twice and applied 91 changed rectangles. Two of these rows, the far-right
+de peſ. on f194 and do. on f195, are catchwords matching the next pages and
+were reclassified without renumbering; 471 rows remain body text. The geometry
+ledger retains the inspected row IDs, including these two furniture records.
+Outside the pilot, 178 pages still await completed visual review. Do not
 describe the extension as finished.
 
 `scripts/render_clipping_campaign.py` renders actual individual proposed crops

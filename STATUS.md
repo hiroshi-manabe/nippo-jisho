@@ -17,7 +17,8 @@ been applied for f13–f14 and f146–f150. The f181–f185 commentary review al
 verified all ten columns and enlarged the complete-initial crop on f181.
 The f186–f190 review verified another ten columns and applied 188 adjusted
 rectangles, including manual corrections to the initial on f186 and the final
-body fragment on f189. Outside the completed pilot, 183 pages
+body fragment on f189. The f191–f195 review verified ten more columns and
+applied 91 adjusted rectangles. Outside the completed pilot, 178 pages
 still require completed visual inspection. See the campaign document and its
 separate extension ledger; unverified proposals have not been published.
 
@@ -25,7 +26,7 @@ separate extension ledger; unverified proposals have not been published.
 
 The review UI now distinguishes **AI reviewed with commentary** using the
 explicit per-page [completion registry](pilot/human-review/commentary-reviews.json).
-It currently covers f165–f170 and f172–f190, not every page through f190.
+It currently covers f165–f170 and f172–f195, not every page through f195.
 Human correction-Issue counts remain separate.
 
 The [general-AI commented review](docs/human-review-workflow.md#general-ai-commented-page-review)
@@ -63,6 +64,17 @@ Worn readings remain explicitly provisional in their notes. The bottom-right
 `argu-` on f190 cannot be matched to f191's opening: the next available scan
 starts `tem outra no coração` and is numbered 92. This sequence discontinuity
 is recorded without inventing the absent continuation.
+
+On 2026-09-06, f191–f195 completed the same procedure: all 471 body lines
+(94, 94, 95, 94, 94) have individual English notes, with generated kana hints,
+post-reading NINJAL diagnostics and a fresh second scan pass over every crop.
+Japanese and Portuguese errors were corrected without normalizing uncertain
+print. The second pass also reversed two first-pass readings after enlargement:
+Ienphoninno became Iennhoninno, whereas expected cuſe was returned to printed
+cuxe. Embedded Japanese and citation labels have typeface-toggle annotations.
+The de peſ. and do. catchwords on f194/f195 were separated from body text,
+retaining stable IDs and documenting their following-page matches. Human
+review remains pending.
 
 The f164 annotations still need a commentary follow-up: the earlier snapshot
 had 46 notes. Existing review labels must not be taken as evidence that the
