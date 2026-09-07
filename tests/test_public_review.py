@@ -11,6 +11,26 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class PublicReviewRegressionTests(unittest.TestCase):
+    def test_submission_message_cleanup_uses_payload_snapshot(self):
+        script = r"""
+const fs = require('fs'), vm = require('vm'), assert = require('assert');
+const app = fs.readFileSync('site/app.js', 'utf8');
+const context = {}; vm.createContext(context);
+vm.runInContext(app.slice(app.indexOf('function clearSubmittedMessages('), app.indexOf('function markSubmissionOpened(')), context);
+const edits = {a:{message:'sent', after:'change', note_after:'durable'}, b:{message:'new'}, c:{message:'not submitted'}, d:{second_opinion:true}};
+context.clearSubmittedMessages(edits, {a:'sent', b:'old', missing:'sent'});
+assert.equal(edits.a.message, undefined);
+assert.equal(edits.a.after, 'change');
+assert.equal(edits.a.note_after, 'durable');
+assert.equal(edits.b.message, 'new');
+assert.equal(edits.c.message, 'not submitted');
+assert.equal(edits.d.second_opinion, true);
+context.clearSubmittedMessages(edits, {});
+assert.equal(edits.b.message, 'new');
+"""
+        result = subprocess.run(["node", "-e", script], cwd=ROOT, capture_output=True, text=True)
+        self.assertEqual(result.returncode, 0, result.stderr)
+
     def test_local_tilde_markers_resolve_once_and_reconcile(self):
         script = r"""
 const fs = require('fs'), vm = require('vm'), assert = require('assert');

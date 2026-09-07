@@ -301,6 +301,7 @@ function pageStateClass(page) {
 }
 
 function renderGrid() {
+  reconcileSavedWorkspaces();
   renderBatchControls();
   const filter = $('#filter').value;
   const sort = $('#sort').value;
@@ -320,6 +321,7 @@ function decorateSelectionCards() {
   for (const card of document.querySelectorAll('#page-grid [data-leaf]')) {
     const page = state.byLeaf.get(Number(card.dataset.leaf));
     const count = savedCorrectionCount(page);
+    card.classList.toggle('has-local-changes', count > 0);
     if (selectionMode) {
       card.disabled = !count;
       card.setAttribute('aria-pressed', String(selectedLeaves.has(page.leaf)));
@@ -327,7 +329,7 @@ function decorateSelectionCards() {
     }
     if (count) {
       const status = state.submissions[page.page_id]?.status || storageJSON(submissionStorageKey(page))?.status;
-      card.querySelector('.card-copy').insertAdjacentHTML('beforeend', `<span class="card-state">${count} saved correction${count === 1 ? '' : 's'}${status === 'submitted' ? ' · Submitted' : ''}</span>`);
+      card.querySelector('.card-copy').insertAdjacentHTML('beforeend', `<span class="card-state local-changes-label">● ${count} local change${count === 1 ? '' : 's'}${status === 'submitted' ? ' · Submitted' : ''}</span>`);
     }
   }
 }
@@ -584,6 +586,13 @@ function pageSubmission(page) {
 }
 
 function persistSubmission(page, status) {
+  if (status === 'submitted') {
+    const key = `nippo-submission-messages:${page.page_id}`;
+    clearSubmittedMessages(pageEdits(page), storageJSON(key) || {});
+    localStorage.removeItem(key);
+    const {reconciled, orphaned} = reconcileEdits(page, pageEdits(page));
+    state.edits[page.page_id] = {...reconciled, ...orphaned};
+  }
   state.submissions[page.page_id] = {status};
   saveWorkspace(page);
   updateSubmitBar();
@@ -1161,7 +1170,23 @@ async function copyLineReference(control) {
   else prompt('Copy this line reference:', reference);
 }
 
-function markSubmissionOpened(pages, batch) {
+function clearSubmittedMessages(edits, messages) {
+  for (const [id, message] of Object.entries(messages)) {
+    if (message && edits[id]?.message === message) {
+      delete edits[id].message;
+      delete edits[id].comment;
+    }
+  }
+}
+
+function markSubmissionOpened(pages, batch, payload) {
+  const data = JSON.parse(payload);
+  const records = data.schema === 4 ? data.pages : [data];
+  for (const page of pages) {
+    const record = records.find(record => record.page === page.view);
+    const messages = Object.fromEntries((record?.changes || []).filter(change => change.message).map(change => [change.line, change.message]));
+    localStorage.setItem(`nippo-submission-messages:${page.page_id}`, JSON.stringify(messages));
+  }
   for (const page of pages) persistSubmission(page, 'awaiting');
   if (batch) {
     localStorage.setItem('nippo-batch-awaiting', JSON.stringify(pages.map(page => page.leaf)));
@@ -1177,7 +1202,7 @@ async function openCorrectionSubmission(pages, payload, url, batch = false) {
   const copied = await copyText(payload);
   if (copied && issueWindow) {
     issueWindow.location = url;
-    markSubmissionOpened(pages, batch);
+    markSubmissionOpened(pages, batch, payload);
     toast('Correction JSON copied. Paste it into the Issue.');
     return;
   }
@@ -1209,7 +1234,7 @@ function prepareSubmission(pages, payload, url, batch = false) {
       $('#submission-copy-status').textContent = 'The browser blocked the Issue tab. Allow pop-ups for this site and try again.';
       return;
     }
-    markSubmissionOpened(pages, batch);
+    markSubmissionOpened(pages, batch, payload);
     // Leave the JSON available when returning from GitHub.
   };
   $('#submission-cancel').onclick = () => dialog.close();
@@ -1348,14 +1373,19 @@ for (const [id, status] of [['batch-submitted', 'submitted'], ['batch-not-yet', 
   $(`#${id}`).addEventListener('click', () => {
     for (const leaf of storageJSON('nippo-batch-awaiting') || []) {
       const page = state.byLeaf.get(leaf);
-      if (page && pageSubmission(page).status === 'awaiting') persistSubmission(page, status);
+      if (page && (pageSubmission(page).status === 'awaiting' || storageJSON(`nippo-submission-messages:${page.page_id}`))) persistSubmission(page, status);
     }
     localStorage.removeItem('nippo-batch-awaiting');
     renderGrid();
   });
 }
 $('#submit-not-yet').addEventListener('click', () => persistSubmission(state.currentPage, 'draft'));
-$('#mark-submitted').addEventListener('click', () => persistSubmission(state.currentPage, 'submitted'));
+$('#mark-submitted').addEventListener('click', () => {
+  const form = document.querySelector('.edit-form');
+  if (form && !saveEditor(form)) return;
+  persistSubmission(state.currentPage, 'submitted');
+  renderPageContent();
+});
 $('#submit-again').addEventListener('click', () => { persistSubmission(state.currentPage, 'draft'); void submitCorrections(); });
 $('#copy-stale-draft').addEventListener('click', async () => {
   if (!state.staleDraft) return;

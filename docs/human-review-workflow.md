@@ -1,5 +1,20 @@
 # Human Review and Correction Workflow
 
+## Local work visibility and submitted messages
+
+The overview reconciles saved corrections with the current baseline before
+counting them. Pages with remaining local changes have an amber border and
+background plus a local-change label; selection keeps its separate green outline.
+Incorporated changes do not keep a page highlighted.
+
+Confirming **Submitted**, for one page or a batch, clears AI messages included
+in the prepared Issue payload that are still identical locally. Copying JSON or
+opening GitHub alone does not clear them. The snapshot survives reloads; newer
+or unsubmitted messages are retained. Durable comments, text corrections and
+explicit second-opinion requests are not cleared by this cleanup. A message-only
+record disappears if nothing else remains after baseline comparison. Older
+submissions without a message snapshot are left untouched rather than guessed.
+
 ## Purpose
 
 The public review interface should make scan comparison easy without claiming that a page has become definitively correct. Most lines will receive no correction, so the ordinary view must stay compact. When a reader does find a problem, the interface should capture a precise, inspectable proposal that can be discussed and applied through GitHub.
