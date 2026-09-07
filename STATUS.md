@@ -1,6 +1,6 @@
 # Project Status
 
-Last updated: 2026-09-06
+Last updated: 2026-09-07
 
 ## Line-clipping repair pilot
 
@@ -18,7 +18,9 @@ verified all ten columns and enlarged the complete-initial crop on f181.
 The f186–f190 review verified another ten columns and applied 188 adjusted
 rectangles, including manual corrections to the initial on f186 and the final
 body fragment on f189. The f191–f195 review verified ten more columns and
-applied 91 adjusted rectangles. Outside the completed pilot, 178 pages
+applied 91 adjusted rectangles. The f196–f200 review verified ten more columns
+and applied 94 adjusted rectangles, including wider left margins on f200.
+Outside the completed pilot, 173 pages
 still require completed visual inspection. See the campaign document and its
 separate extension ledger; unverified proposals have not been published.
 
@@ -26,7 +28,7 @@ separate extension ledger; unverified proposals have not been published.
 
 The review UI now distinguishes **AI reviewed with commentary** using the
 explicit per-page [completion registry](pilot/human-review/commentary-reviews.json).
-It currently covers f165–f170 and f172–f195, not every page through f195.
+It currently covers f165–f170 and f172–f200, not every page through f200.
 Human correction-Issue counts remain separate.
 
 The [general-AI commented review](docs/human-review-workflow.md#general-ai-commented-page-review)
@@ -75,6 +77,16 @@ cuxe. Embedded Japanese and citation labels have typeface-toggle annotations.
 The de peſ. and do. catchwords on f194/f195 were separated from body text,
 retaining stable IDs and documenting their following-page matches. Human
 review remains pending.
+
+On 2026-09-07, f196–f200 completed the same procedure. All 470 body lines
+(94 per page) have individual English notes. Generated kana hints and
+post-reading NINJAL comparisons were consulted, and every actual proposed
+crop was reread in a separate second pass. Japanese and Portuguese OCR
+errors were repaired, with doubtful print explicitly retained in notes.
+The second pass corrected Riunuo, nadono, yǔcotoua and Chùni, among others.
+All five bottom-right catchwords were checked against the following scans
+and separated from body text without changing stable IDs. Typeface-toggle
+annotations were refreshed. Human review remains pending.
 
 The f164 annotations still need a commentary follow-up: the earlier snapshot
 had 46 notes. Existing review labels must not be taken as evidence that the
