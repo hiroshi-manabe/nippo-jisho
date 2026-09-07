@@ -22,18 +22,18 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l006` | &emsp;*giando ſem ter deuer com lhe caber, ou não* |  |
 | `c1-l007` | &emsp;*caber ſua vez.* |  |
 | `c1-l008` | Fibana. *Roſa de fogo, ou foguete.* Fi |  |
-| `c1-l009` | &emsp;banauo chiraite tatacǒ. *Pellear rija mente* |  |
-| `c1-l010` | Fibara. *Lugar de certas aruores como aci* |  |
+| `c1-l009` | &emsp;banauo chiraite tatacǒ. *Pellejar rija mente* |  |
+| `c1-l010` | F bara. *Lugar de certas aruores como aci* |  |
 | `c1-l011` | &emsp;*preſtes.* |  |
 | `c1-l012` | Fibari. *Calhandra.* |  |
 | `c1-l013` | Fibarigue. *Caualo de cor de calhandra.* |  |
 | `c1-l014` | Fibaſami. *Serpe da eſpingarda.* |  |
 | `c1-l015` | Fibaxi. *Dous ferros compridos como eſpetinhos* |  |
-| `c1-l016` | &emsp;*com que tomaõ o fogo, cu o atiçaõ.* |  |
-| `c1-l017` | Fibaxita. Ichinichi tararu. *Dia imperfeito,* |  |
+| `c1-l016` | &emsp;*com que tomaõ o fogo, ou o atiçaõ.* |  |
+| `c1-l017` | Fibaxita. Ichinichi taranu. *Dia imperfeito,* |  |
 | `c1-l018` | &emsp;*ou que lhe falta pera ſer inteiro.* |  |
 | `c1-l019` | Fibi. i, *Gretas de frio. Vt* Fibiga qiruru. |  |
-| `c1-l020` | &emsp;*Gretarem as maõs, pès, &c. com frio.* |  |
+| `c1-l020` | &emsp;*Grearem as maõs, pès, &c. com frio.* |  |
 | `c1-l021` | Fibicaxe, ſuru, xeta. *Fazer retumbar, ou* |  |
 | `c1-l022` | &emsp;*ſoar. Vt,* Raidenga cumouo fibicaſu. |  |
 | `c1-l023` | &emsp;*O trouaõ faz retumbar as nuuens.* |  |
@@ -52,12 +52,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l036` | Fibiqiuatari, u, atta. *Retun bar, ou ſoar* |  |
 | `c1-l037` | &emsp;*muito longe. Vt,* Micatato teqino coye |  |
 | `c1-l038` | &emsp;xifǒ ſanbiacu yorini fibiqi vatatte, tẽmo |  |
-| `c1-l039` | &emsp;tachimachi vochi, cogicu mo vorete cata- |  |
+| `c1-l039` | &emsp;tachimachi vochi, cogicumo vorete cata- |  |
 | `c1-l040` | &emsp;muqucato ayaxiqi fodonizo qicoyetari. |  |
-| `c1-l041` | &emsp;Taif*. Lib. 15. A grita dos noſſos, &* |  |
+| `c1-l041` | &emsp;Taif*. Lib. 16. A grita dos noſſos, &* |  |
 | `c1-l042` | &emsp;*dos inimigos ſoando por todas as partes, mais* |  |
 | `c1-l043` | &emsp;*de 300. legoas, parecia duuidarmos ſe as nu-* |  |
-| `c1-l044` | &emsp;*uẽs cabião, & os exos do ceo quebrandoſe ſe* |  |
+| `c1-l044` | &emsp;*uẽs cahião, & os exos do ceo quebrandoſe ſe* |  |
 | `c1-l045` | &emsp;*inclinauão com o grande eſtrondo.* |  |
 | `c1-l046` | Fibiraqi, u. l, fibiraqi itami, u. *Arder, ou* |  |
 | `c1-l047` | &emsp;*eſcozer algũa ferida com dor.* |  |
@@ -72,7 +72,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | Fibiǔ. Vt, Cotobano fibiǔ. *Falta, ou er-* |  |
+| `c2-l001` | Fibiǔ. *Vt*, Cotobano fibiǔ. *Falta, ou er-* |  |
 | `c2-l002` | &emsp;*ro no falar. ¶ Item, Modo, ou geito do* |  |
 | `c2-l003` | &emsp;*falar, pollo qual ſe entende algũa couſa de que* |  |
 | `c2-l004` | &emsp;*ſe duuida.* |  |
@@ -92,15 +92,15 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l018` | &emsp;*la com fogo.* |  |
 | `c2-l019` | Fibucuro. *Cobertura de papel pera as lanter-* |  |
 | `c2-l020` | &emsp;*nas, ou que poem ſobre os candieiros.* |  |
-| `c2-l021` | Fibun. *Sem razão, ou injuſtiça.* |  |
+| `c2-l021` | Fibun. *Sem razão, ou injustiça.* |  |
 | `c2-l022` | Ficague. *Reſplandor, ou rayo do ſol. Vt,* |  |
-| `c2-l023` | &emsp;Ficague ſaſu. *Entrar, ou dar o rayo do ſol* |  |
+| `c2-l023` | &emsp;F cague ſaſu. *Entrar, ou dar o rayo do ſol* |  |
 | `c2-l024` | &emsp;*em algũa parte. ¶* Ficague nodocani na- |  |
 | `c2-l025` | &emsp;riyuqu Feiq*. Lib. 4. Irſe fazendo* |  |
 | `c2-l026` | &emsp;*o dia claro, & ſereno como no tempo da pri-* |  |
 | `c2-l027` | &emsp;*ma vera. ¶ Item, Sombra contra os rayos* |  |
 | `c2-l028` | &emsp;*do ſol. Vt.* Ficagueuo ſuru, l, coxirayu- |  |
-| `c2-l029` | &emsp;ru. *Fazer ſombra, ou toldo pera ſe de fender* |  |
+| `c2-l029` | &emsp;ru. *Fazer ſombra, ou toldo pera ſe defender* |  |
 | `c2-l030` | &emsp;*do ſol.* |  |
 | `c2-l031` | Ficai. i, Tocoro. *Hũas raizes amargoſas* |  |
 | `c2-l032` | &emsp;*como cinouraſinhas amarelas que ſeruem de* |  |

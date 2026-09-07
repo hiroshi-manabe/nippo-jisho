@@ -18,8 +18,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l002` | &emsp;*ridade.* |  |
 | `c1-l003` | Ficaricacayaqi, u, aita. *Reſplandecer mui-* |  |
 | `c1-l004` | &emsp;*to. Vt,* Teqino meniua ficari cacayaqu |  |
-| `c1-l005` | &emsp;azayacanaru yoroiuo qi, &c. *I. Parte* |  |
-| `c1-l006` | &emsp;Goſag. *Veſtindo hũas armas muiluzidas q̃* |  |
+| `c1-l005` | &emsp;azayacanaru yoroiuo qi, &c. *1. Parte* |  |
+| `c1-l006` | &emsp;Goſag. *Veſtindo hũas armas mui luzidas q̃* |  |
 | `c1-l007` | &emsp;*reluzião nos olhos dos inimigos.* |  |
 | `c1-l008` | Ficarimono. *Exhalação aceſa que aparece de* |  |
 | `c1-l009` | &emsp;*noite, ou outra claridade como de ralampa-* |  |
@@ -103,17 +103,17 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l029` | &emsp;qini ficcunde fuita. *Abraçandoſe com o* |  |
 | `c2-l030` | &emsp;*inimigo cahio, ou deitouſe.* |  |
 | `c2-l031` | Fichi, tçuru, chita. *Enſoparſe, ou embeber-* |  |
-| `c2-l032` | &emsp;*ſe em couſa liquida como agoa, &c.* P*.* |  |
+| `c2-l032` | &emsp;*ſe em couſa liquida como agoa, &c. P.* |  |
 | `c2-l033` | Fichiriqi. *Frauta de cana que ſe tange em tem* |  |
 | `c2-l034` | &emsp;*po de muſica.* |  |
 | `c2-l035` | Fichiriqizuca. *Certa feição de punhos, ou em-* |  |
 | `c2-l036` | &emsp;*punhadura da Catana.* |  |
-| `c2-l037` | Fichô. Tobu chô. *Borboleta que voa.* P*.* |  |
-| `c2-l038` | Fichô. Tobu tori. *Paſſaro que voa.* P*.* |  |
+| `c2-l037` | Fichô. Tobu chô. *Borboleta que voa. P.* |  |
+| `c2-l038` | Fichô. Tobu tori. *Paſſaro que voa. P.* |  |
 | `c2-l039` | Fichù. *Cabelos da barba na parte do beiço de* |  |
 | `c2-l040` | &emsp;*baxo.* |  |
 | `c2-l041` | Ficǒ. i, Vacauo yeizuru. *Modo de ler os* |  |
-| `c2-l042` | &emsp;*verſos, ou Vtas de Iapão cantando.* P*.* |  |
+| `c2-l042` | &emsp;*verſos, ou Vtas de Iapão cantando. P.* |  |
 | `c2-l043` | Fico. *Biſneto.* |  |
 | `c2-l044` | Ficobaye. *Vergontea que nace ao pè da aruore* |  |
 | `c2-l045` | &emsp;*depois de cortada.* |  |

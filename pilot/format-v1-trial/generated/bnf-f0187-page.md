@@ -52,15 +52,15 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l036` | &emsp;*rão ſe muitas idades, & tempos.* |  |
 | `c1-l037` | Fiacuxe. Fiacuno yo. *Cem idades de certo* |  |
 | `c1-l038` | &emsp;*numero de annos cada idade, que ſe contão,* |  |
-| `c1-l039` | &emsp;ixxe, nice. *¶ Item, Couſa antiga.* |  |
+| `c1-l039` | &emsp;*ixxe, nixe*. *¶ Item, Couſa antiga.* |  |
 | `c1-l040` | Fiacuxen. Fiacutabi tatacǒ. *Cem bata-* |  |
 | `c1-l041` | &emsp;*lhas. Vt,* Fiacuxen fiacuxô funho ichi- |  |
 | `c1-l042` | &emsp;nin. Xix. *Mais val ter hũa vez paciencia* |  |
 | `c1-l043` | &emsp;*que vencer em batalha cem vezes.* |  |
 | `c1-l044` | Fiacuxen. Fiacuno caua. *Muitos Rios.* |  |
-| `c1-l045` | Fiacuxet. *Muitos nôs, ou junturas.* |  |
+| `c1-l045` | Fiacuxet. *Muitos nòs, ou junturas.* |  |
 | `c1-l046` | Fiacuxi. *Cem, ou muitas mortes.* |  |
-| `c1-l047` | Fiacuxi. *Muitos oficios, cargos, ou digni-* |  |
+| `c1-l047` | Fiacuxi. *Muitos officios, cargos, ou digni-* |  |
 | `c1-l048` | &emsp;*dades.* |  |
 
 ## Column 2 running header
@@ -75,7 +75,7 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c2-l001` | Fiacuxin. Momono cocoro. *Varios pare-* |  |
 | `c2-l002` | &emsp;*ceres, ou diuerſos corações.* |  |
-| `c2-l003` | Fiacuxô. Vt, Fiacuxen Fiacuxô. i, Fia- |  |
+| `c2-l003` | Fiacuxô. *Vt*, Fiacuxen Fiacuxô. i, Fia- |  |
 | `c2-l004` | &emsp;cutabi catçu. *Vencer cem vezes, ou mui-* |  |
 | `c2-l005` | &emsp;*tas vezes.* |  |
 | `c2-l006` | Fiacuxǒ. *Laurador.* |  |
@@ -90,13 +90,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l015` | Fiacuyô. Fiacuno fa. *Muitas folhas de ar-* |  |
 | `c2-l016` | &emsp;*uores.* |  |
 | `c2-l017` | Fiacuzai. Fiacuno tçumi. *Muitos peccados.* |  |
-| `c2-l018` | Fiacuzaſſui. i, Co miginni vchicudaqu. *Fazer* |  |
-| `c2-l019` | &emsp;*ẽpedaçinhos, ou eſmiuçar. S.* |  |
+| `c2-l018` | Fiacuzaſſui. i, Comiginni vchicudaqu. *Fazer* |  |
+| `c2-l019` | &emsp;*ẽ pedaçinhos, ou eſmiuçar. S.* |  |
 | `c2-l020` | Fi agari, u, atta. *Secarſe, ou ſumirſe a agoa* |  |
 | `c2-l021` | &emsp;*do rio, ou que alagou os campos. ¶ Item,* |  |
 | `c2-l022` | &emsp;*Eſprayar, ou vazar a marè. Vt,* Vxiro- |  |
 | `c2-l023` | &emsp;ua yamadano doroga fucǒ, mayeua fi agat- |  |
-| `c2-l024` | &emsp;te, *&c.* Feiq. *Lib. 5. Nas coſtas,* |  |
+| `c2-l024` | &emsp;te, &c*.* Feiq. *Lib. 5. Nas coſtas,* |  |
 | `c2-l025` | &emsp;*o lodo das varzeas do monte era fundo, por di-* |  |
 | `c2-l026` | &emsp;*ante a marè eſtando vazia, &c.* |  |
 | `c2-l027` | Fiai. Canaximu, auaremu. *Triſteza, &* |  |
@@ -116,7 +116,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l041` | Fiba. Tobu vma. *Caualo de ſalto, ou ligeiro.* |  |
 | `c2-l042` | Fiba. i, Finoqino fa. *Folhas de hũa aruore* |  |
 | `c2-l043` | &emsp;*como accipreſte.* |  |
-| `c2-l044` | Fibacari. *Certa cobra pintada. No* Ximo, *ſe diz* |  |
+| `c2-l044` | Fibacari. *Certa cobra pintada. No Ximo*, *ſe diz* |  |
 | `c2-l045` | &emsp;Fifacari. |  |
 | `c2-l046` | Fibachi. *Fogareiro.* |  |
 | `c2-l047` | Fibaco. *Braſeiro de pao fechado pera aquen* |  |

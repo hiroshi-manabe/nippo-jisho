@@ -14,7 +14,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1a-l001` |  | *lhos, &c. Vt,* Nanguicǔuo fetçucuſu. |
+| `c1a-l001` |  | *lhos, &c. Vt,* Nanguiǒuo fetçucuſu. |
 | `c1a-l002` | &emsp;*Paſſar muitos trabalhos, penitencias, &c.* |  |
 | `c1a-l003` | Fetçui. *Aſſento que fazem de barro como for* |  |
 | `c1a-l004` | &emsp;*nalha, ou fogaõ ſobre que eſſentão as panellas* |  |
@@ -29,7 +29,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1a-l013` | Feuazzurai, ǒ, ǒta. i, Fecanuru. Vt, Ito |  |
 | `c1a-l014` | &emsp;uo feuazurǒ. *Estender o fio com dificulda-* |  |
 | `c1a-l015` | &emsp;*de pera depois ſe debar.* |  |
-| `c1a-l016` | Fauo. *Cordel que amarrão nas peczes do fal-* |  |
+| `c1a-l016` | Fauo. *Cordel que amarrão nas peozes do fal-* |  |
 | `c1a-l017` | &emsp;*cão, ou gauião com oqual puxão por elle quando* |  |
 | `c1a-l018` | &emsp;*ſe aparta muito, ou quer fugir.* |  |
 | `c1a-l019` | Fexi. i, Voxi. *Peſo que poem pera abaixar,* |  |
@@ -54,22 +54,22 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c1b-l001` | Fi. Curaberu. *Igualar. Vſaſe ſempre com* |  |
-| `c1b-l002` | &emsp;X, ſuru. Vt, Fiſuru. *Comparar, ou cotejar.* |  |
+| `c1b-l002` | &emsp;Xi, ſuru. *Vt*, Fiſuru. *Comparar, ou cotejar.* |  |
 | `c1b-l003` | Fi. Cacuſu. *Iſconder. Vſaſe com,* Xi, ſu- |  |
-| `c1b-l004` | &emsp;ru. Vt, Fiſuru. |  |
+| `c1b-l004` | &emsp;ru. *Vt*, Fiſuru. |  |
 | `c1b-l005` | Fi. Arazu. i, Ayamari. *Falta, ou ſem razão.* |  |
 | `c1b-l006` | &emsp;*¶* Fitouo fini votoſu. *Iulgar, ou conde-* |  |
-| `c1b-l007` | &emsp;*nar a alguem dalgũa falta, ou ſem rezão.* |  |
+| `c1b-l007` | &emsp;*nar a alguem dalgũa falta, ou ſem razão.* |  |
 | `c1b-l008` | Fi, l, fino zǒ. *Estamago.* |  |
 | `c1b-l009` | Fi. *Sol. ¶* Fini ſaraſu. *Curar pannos* |  |
 | `c1b-l010` | &emsp;*de linho ao ſol. ¶* Fini mucǒ. *Virarſe* |  |
-| `c1b-l011` | &emsp;*pera o ſol. ¶* Figatacai. *Não ſer a in-* |  |
+| `c1b-l011` | &emsp;*pera o ſol. ¶* Figa tacai. *Não ſer a in-* |  |
 | `c1b-l012` | &emsp;*da tarde, ou ir o ſol alto. ¶* Figa teru. |  |
 | `c1b-l013` | &emsp;*Fazer o ſol claro. ¶* Figa xecaiuo teraſu. |  |
 | `c1b-l014` | &emsp;*Alumiar o ſol o mundo. ¶* Figa taquru. |  |
 | `c1b-l015` | &emsp;*Ser tarde depois de amanhecer, ou antes do meo* |  |
 | `c1b-l016` | &emsp;*dia. ¶* Figa cumoru. *Eſcurecerſe o ſol* |  |
-| `c1b-l017` | &emsp;*com nuiẽs. ¶* Figa bat zuru. *Paſſar de* |  |
+| `c1b-l017` | &emsp;*com nuuẽs. ¶* Figa banzuru. *Paſſar de* |  |
 
 ## Column 2 running header
 
@@ -111,7 +111,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l028` | &emsp;*tição como pera ver algũa couſa. ¶* Fiuo |  |
 | `c2-l029` | &emsp;furu yǒna tanriojin gia. *He agaſtado co-* |  |
 | `c2-l030` | &emsp;*mo fogo que ſe abana.* X*. ¶* Pedroto, |  |
-| `c2-l031` | &emsp;Paulaua fiuo furu. *Pedro, & Paulo estão* |  |
+| `c2-l031` | &emsp;Pauloua fiuo furu. *Pedro, & Paulo estão* |  |
 | `c2-l032` | &emsp;*quebrados, ou queremſe mal. ¶* Pedrono |  |
 | `c2-l033` | &emsp;iyeniua figa furu. *Na caſa de Pedro não* |  |
 | `c2-l034` | &emsp;*ha nada, ou he pobre.* |  |
@@ -120,12 +120,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l037` | Fi. *Lançadeira de tear.* |  |
 | `c2-l038` | Fi, iru, ita. *Secarſe, ou enxugarſe ¶* Xi- |  |
 | `c2-l039` | &emsp;uoga firu. *Vazar a marè. ¶* Cotaba- |  |
-| `c2-l040` | &emsp;ga finu vchini fitogaqita. *Ainda bẽ não* |  |
+| `c2-l040` | &emsp;ga finu vchini fitoga qita. *Ainda bẽ não* |  |
 | `c2-l041` | &emsp;*tinha a cabado de falar, quando veo aquelle* |  |
 | `c2-l042` | &emsp;*homem.* |  |
 | `c2-l043` | Fi, iru, ita. Vt, Comeuo firu. *Sacudir,* |  |
 | `c2-l044` | &emsp;*ou modo de joeirar o arroz com ſupo. ¶* Ca- |  |
-| `c2-l045` | &emsp;jega madouo fiu. *O vento faz bulir mui-* |  |
+| `c2-l045` | &emsp;jega madouo firu. *O vento faz bulir mui-* |  |
 | `c2-l046` | &emsp;*to a porta. S. ¶* Fanauo firu. *Eſpir* |  |
 | `c2-l047` | &emsp;*rar. ¶* Feuo firu. *Deitar ventoſidades.* |  |
 
