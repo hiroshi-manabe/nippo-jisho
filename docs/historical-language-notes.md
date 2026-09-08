@@ -195,6 +195,8 @@ The same 2025 study demonstrates that capitalization, word-final letter shapes, 
 
 The lowercase but independent `aburamono` entry is therefore not paradoxical. Capitalization is one clue among several; entry typeface, punctuation, alphabetical position, and a complete Portuguese gloss establish the structural boundary. Level 1 preserves lowercase print, while a later layer records the entry.
 
+**Project review guidance (2026-09-08): `Vt.` typeface.** The user reports that `Vt.` is frequently italic, yet AI transcription sometimes records visibly italic instances as roman. Review it with italic as the initial expectation and check against nearby letterforms. This is a practical prior based on observed corrections, not a quantified distribution or a universal typographic rule. Clearly roman instances remain roman; do not alter the letters or punctuation merely to match an expected form.
+
 ### 3.3 Long `ſ`
 
 Long `ſ` is not simply `f`, and in Japanese romanized prints its distribution may itself mark continuation inside a word. Chiba's survey argues that round `s` and long `ſ` have functional distributions rather than being random allographs, though type collision with following diacritics also affects the choice (2008: 27–36). In Portuguese glosses, long `ſ` is also an ordinary early-print allograph.
