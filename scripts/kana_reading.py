@@ -177,10 +177,13 @@ def transliterate_token(token: str) -> str | None:
             # eǒ/eô also mark palatalized long-o syllables (Reǒginno).
             # Hints intentionally merge the open/closed long-o distinction.
             following = vowel_at(text, index + 1)
-            # In sequences such as niua and biuo, the following u begins a
-            # separate ua/uo spelling; it is not the palatalizing vowel of
-            # nia/niu/nio.
-            if text[index + 1:index + 2] == "u" and vowel_at(text, index + 2):
+            # Unmarked riu/qiu/etc. have separate vowels (Riun = リウン).
+            # Marked riǔ/riû/etc. retain the long contracted syllable.
+            # Bare giu belongs to the voiced palatal series, unlike guiu;
+            # keep that rule, but still separate gi + ua/uo.
+            if (text[index + 1:index + 2] == "u"
+                    and (consonant != "g" or orthographic_u_after_g
+                         or vowel_at(text, index + 2))):
                 following = None
             small = {"a": "ャ", "u": "ュ", "o": "ョ"}.get(following[0] if following else "")
             if small:

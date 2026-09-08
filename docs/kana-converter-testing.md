@@ -6,6 +6,14 @@ prove linguistic correctness. Do not alter Level 1 to make a hint look better.
 
 ## Repeatable sweep
 
+The 2026-09-09 rule separates unmarked `riu`, `qiu`, `niu`, `fiu`,
+`biu`, `piu`, `miu`, and `guiu` into イ + ウ sequences (`Riun` → リウン;
+`Riunuo` → リウンヲ). Marked long vowels retain contracted readings
+(`riǔ`/`riû` → リュゥ). This is not a global replacement of `iu`:
+`xu`, `ju`, and bare `giu` retain their palatal-series rules. Short
+o-series contractions remain distinct from separate vowels (`rio` → リョ,
+`riuo` → リヲ). Tests cover both sides of these boundaries. Level 1 is unchanged.
+
 After building the public corpus, run:
 
 ```sh

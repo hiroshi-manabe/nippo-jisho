@@ -7,6 +7,20 @@ from scripts.kana_reading import transliterate_token, phrase_hint, reading_hint,
 
 
 class KanaCorpusTests(unittest.TestCase):
+    def test_unmarked_iu_is_separate_vowels(self):
+        for token, expected in [('Riun', 'リウン'), ('Riunuo', 'リウンヲ'),
+                                ('qiu', 'キウ'), ('niu', 'ニウ'),
+                                ('fiu', 'ヒウ'), ('biu', 'ビウ'),
+                                ('piu', 'ピウ'), ('miu', 'ミウ'),
+                                ('guiu', 'ギウ'), ('riu', 'リウ'),
+                                ('riǔ', 'リュゥ'), ('riû', 'リュゥ'),
+                                ('qiǔ', 'キュゥ'), ('qiû', 'キュゥ'),
+                                ('xu', 'シュ'), ('ju', 'ジュ'), ('giu', 'ヂュ'),
+                                ('rio', 'リョ'), ('qio', 'キョ'),
+                                ('riuo', 'リヲ'), ('qiuo', 'キヲ')]:
+            with self.subTest(token=token):
+                self.assertEqual(transliterate_token(token), expected)
+
     def test_palatalized_long_o_before_object_particle(self):
         for token, expected in [('Qiǒuo', 'キョゥヲ'), ('Qiôuo', 'キョゥヲ'),
                                 ('niua', 'ニワ'), ('biuo', 'ビヲ')]:
