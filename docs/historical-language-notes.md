@@ -179,6 +179,10 @@ Several patterns are especially useful during the Japanese pass:
 
 The dictionary frequently gives multiple principal forms after a Japanese word, separated by commas: examples include `Ague,ru,eta` and `Abaqi,u,aita`. Such patterns allow a reviewer to notice that an apparent letter sequence would produce an implausible verb or particle construction. That is how `tçutomemo` led back to printed `tçutomeuo`, `vgogu` to `vgoqu`, and `inacu` to `macu`.
 
+**サ行四段イ音便: `mauaite`, not an anomalous modern `mawaxite` (2026-09-09).** At `f197/c1-l005`, `mauaite` represents マワイテ, the historical te-form of 回す. It should be understood positively as historical morphology, not merely tolerated as a spelling that falls short of modern マワシテ. NINJAL's headword data records `Mauaxi,su,aita.` (153c06, [scan f310](https://gallica.bnf.fr/ark:/12148/bpt6k852354j/f310.item)): the abbreviated principal forms expand to マワシ・マワス・マワイタ. The same data records `Caqemauaxi,su,aita.`, `Caqimauaxi,su,aita.`, and `Fiqimauaxi,su,aita.`. This supports the corresponding -イテ form in the running example. The f197 line comment is intentionally left unchanged at the user's request; this reference supplies the corrected linguistic framing.
+
+The broader phenomenon is historical サ行四段イ音便, not loss of a letter through damage. [Research discussing サ行四段イ音便 in the dictionary and Amakusa texts](https://pu-kumamoto.repo.nii.ac.jp/record/2001095/files/4003_ikeda_33_49.pdf) treats its distribution across verbs and forms. For review, check the entry's principal forms and context rather than imposing modern -シテ/-シタ, but do not turn this into a universal replacement for every サ行 verb. Preserve actual variant forms in Level 1.
+
 The resulting Level 1 text still records only the printed sequence. Identifying a stem, expanding an abbreviation, segmenting `uo` as a particle, supplying kanji or kana, and describing an inflection belong to later analysis.
 
 ## 3. Spacing, segmentation, and typography

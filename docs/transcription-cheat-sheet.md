@@ -72,6 +72,8 @@ These are **reinspection prompts, not replacement rules**.
 
 ## Spacing, case, and word structure
 
+- Expect historical **サ行四段イ音便**: `mauaite` is マワイテ (回して), an ordinary historical inflection, not a defective spelling of modern マワシテ. The headword `Mauaxi,su,aita.` supplies マワシ・マワス・マワイタ. Consult the printed principal forms before judging an unfamiliar ending; do not assume every サ行 verb behaves identically. See [morphology notes](historical-language-notes.md#28-morphology-is-part-of-level-1-review-not-level-1-data).
+
 - Copy the printed space before analysing a particle or morpheme boundary. Later Jesuit prints often attach particles, but the practice is not perfectly consistent.
 - For a narrow disputed gap, compare it with both interletter gaps and secure word spaces on the same line. OCR agreement is only a prompt: on f26, `Decer do ceo` retains a real but tight space.
 - When semantics predicts an emendation, require a same-typeface comparator before accepting it autonomously, but do not mistake machine visual confidence for final authority. On f26, the machine initially retained `galamiuo` and `bichintos`; enlarged human reinspection established the lexically expected `garamiuo` and `bichinhos` by explicit override. On f27, the scan prints anomalous `Bilho de ſaude` rather than tempting `Bicho` or likely intended `Milho`, and two expected `sora` forms use a dotted `i` while the next line supplies a secure long-`ſ` control.
