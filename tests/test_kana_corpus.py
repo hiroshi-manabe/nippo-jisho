@@ -7,6 +7,12 @@ from scripts.kana_reading import transliterate_token, phrase_hint, reading_hint,
 
 
 class KanaCorpusTests(unittest.TestCase):
+    def test_palatalized_long_o_before_object_particle(self):
+        for token, expected in [('Qiǒuo', 'キョゥヲ'), ('Qiôuo', 'キョゥヲ'),
+                                ('niua', 'ニワ'), ('biuo', 'ビヲ')]:
+            with self.subTest(token=token):
+                self.assertEqual(transliterate_token(token), expected)
+
     def test_capital_i_as_j_before_different_vowels(self):
         for token, kana in [('Iacǒno', 'ジャコゥノ'), ('Iitai', 'ジタイ'),
                             ('Iun', 'ジュン'), ('Ienxùs', None),

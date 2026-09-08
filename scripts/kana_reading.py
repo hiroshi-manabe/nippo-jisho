@@ -180,7 +180,7 @@ def transliterate_token(token: str) -> str | None:
             # In sequences such as niua and biuo, the following u begins a
             # separate ua/uo spelling; it is not the palatalizing vowel of
             # nia/niu/nio.
-            if following and vowel_at(text, index + 2):
+            if text[index + 1:index + 2] == "u" and vowel_at(text, index + 2):
                 following = None
             small = {"a": "ャ", "u": "ュ", "o": "ョ"}.get(following[0] if following else "")
             if small:
