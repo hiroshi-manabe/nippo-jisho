@@ -26,7 +26,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l010` | Fiqi, u, ijta. *Diminuir nas contas o contrario* |  |
 | `c1-l011` | &emsp;*de multiplicar. ¶ Item, Deſcontar nas di-* |  |
 | `c1-l012` | &emsp;*uidas, &c. Meliùs,* Saxifiqi. |  |
-| `c1-l013` | Fiqi, u, ijta. *Serrar. Vt,* Quo fiqu. |  |
+| `c1-l013` | Fiqi, u, ijta. *Serrar. Vt,* Qiuo fiqu. |  |
 | `c1-l014` | &emsp;*Serrar pao, ou aruore. ¶ Item, Fazer* |  |
 | `c1-l015` | &emsp;*ao torno. ¶* Iuzuuo fiqu. *Fazer contas* |  |
 | `c1-l016` | &emsp;*ao torno.* |  |
@@ -53,13 +53,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l037` | Fiqiauaxe. *Certa laya de papel.* |  |
 | `c1-l038` | Fiqiauaxe. *Interceſão.* |  |
 | `c1-l039` | Fiqiauaxe, ſuru, eta. *Puxando ajuntar duas* |  |
-| `c1-l040` | &emsp;*couſas. ¶ Vt,* Sǒfôuo fiqiauaxete rifi |  |
+| `c1-l040` | &emsp;*couſas. ¶ Vt,* Sǒfǒuo fiqiauaxete rifi |  |
 | `c1-l041` | &emsp;uo qeſſuru. *Ajuntando ambas as partes* |  |
-| `c1-l042` | &emsp;*julgar, ou determinar a justiça, & injustiça.* |  |
+| `c1-l042` | &emsp;*julgar, ou determinar a justiça, & injuſtiça.* |  |
 | `c1-l043` | &emsp;*¶ Item, Combinar, ou conferir. Vt,* Mi- |  |
 | `c1-l044` | &emsp;guino cotouariuo fiqiauaxete quai zuruni. |  |
 | `c1-l045` | &emsp;*Ponderando, & cotejando as razoẽs a cima* |  |
-| `c1-l046` | &emsp;*ditas. ¶* Niuo fiqi auaſuru. *Compor, &* |  |
+| `c1-l046` | &emsp;*ditas. ¶* Niuo fiqiauaſuru. *Compor, &* |  |
 | `c1-l047` | &emsp;*concertar o fato de maneira que peſe igualmẽ* |  |
 
 ## Column 2 running header
@@ -81,9 +81,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l007` | Fiqicaburi, u, utta. *Cobrirſe com algũa* |  |
 | `c2-l008` | &emsp;*couſa puxandoa peraſi.* |  |
 | `c2-l009` | Fiqicacari, u, l, Ficcacari, u, atta. *Emba-* |  |
-| `c2-l010` | &emsp;*raçarſe com algũa couſa. ¶* Dǒbucu na- |  |
-| `c2-l011` | &emsp;do ibarani fiqi cacatta. *Prendeoſe o* Dǒ |  |
-| `c2-l012` | &emsp;bucu, *&c. nas ſyluas, ou eſpinhos.* |  |
+| `c2-l010` | &emsp;*raçarſe com algũa couſa. ¶* Dôbucu na- |  |
+| `c2-l011` | &emsp;do ibarani fiqi cacatta. *Prendeoſe o Dǒ* |  |
+| `c2-l012` | &emsp;*bucu*, *&c. nas ſyluas, ou eſpinhos.* |  |
 | `c2-l013` | Fiqicacuxi, u, uita. *Puxando eſconder.* |  |
 | `c2-l014` | Fiqicagame, uru, eta. *Dobrar, ou entor-* |  |
 | `c2-l015` | &emsp;*tar. Vt,* Axiuo fiqi cagamuru. *Dobrar,* |  |
@@ -105,15 +105,15 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l031` | &emsp;*clinar a alguem.* |  |
 | `c2-l032` | Fiqicaye, uru, eta. *Trocar, ou mudar. Per* |  |
 | `c2-l033` | &emsp;*met.* Xindaiuo fiqi cayuru. *Mudar a vida.* |  |
-| `c2-l034` | &emsp;*¶ Item, Mudar o traio como fazẽ as figu* |  |
-| `c2-l035` | &emsp;*ras no auto. Itẽ. Empreſtar. i,* Tori cayuru. |  |
+| `c2-l034` | &emsp;*¶ Item, Mudar o trajo como fazẽ as figu-* |  |
+| `c2-l035` | &emsp;*ras no auto. Itẽ, Empreſtar. i,* Tori cayuru. |  |
 | `c2-l036` | Fiqicayete. *Pollo contrario.* |  |
 | `c2-l037` | Fiqicayexi, u, eita. *Puxando virar, ou tor-* |  |
 | `c2-l038` | &emsp;*nar algũa couſa pera tras.* |  |
 | `c2-l039` | Fiqicazzuqi, u, uita. *Puxando cubrirſe.* |  |
 | `c2-l040` | Fiqicha. *Cha moido.* |  |
 | `c2-l041` | Fiqichigaye, uru, eta. *Por a parte dian-* |  |
-| `c2-l042` | &emsp;*teira do veſtido ſobre a outra eſquerda as a-* |  |
+| `c2-l042` | &emsp;*teira do veſtido ſobre a outra eſquerda às a-* |  |
 | `c2-l043` | &emsp;*ueſſas do que cuſtumão os Iapões. Vt,* Qi- |  |
 | `c2-l044` | &emsp;rumonouo fiqi chigayuru. |  |
 | `c2-l045` | Fiqichiguiri, u, itta. *Puxando arrancar,* |  |

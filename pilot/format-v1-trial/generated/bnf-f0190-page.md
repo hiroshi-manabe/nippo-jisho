@@ -83,7 +83,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l009` | Fideri, l, canbat. *Seca cauſada do ſol.* |  |
 | `c2-l010` | Fideri, ru, etta. Vzzuqu. *Eſcozer, latejar,* |  |
 | `c2-l011` | &emsp;*ou arder a chaga, queimadura, &c. X. No* |  |
-| `c2-l012` | &emsp;*Cami ſe diz firaqi*. |  |
+| `c2-l012` | &emsp;*Cami ſe diz fiiraqi*. |  |
 | `c2-l013` | Fidǒ. Michini arazu. *Sem rezão, ou in-* |  |
 | `c2-l014` | &emsp;*juſtiça. ¶* Fidǒuo ſuru, l, camayuru, l, |  |
 | `c2-l015` | &emsp;voconǒ. *Fazer injuſtiça, & ſem rezão.* |  |

@@ -25,9 +25,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l009` | &emsp;rǒuo comuru. *Meter mantimentos, ou vi-* |  |
 | `c1-l010` | &emsp;*tualhas na fortaleza.* |  |
 | `c1-l011` | Fiǒron, l, feǒron. Facari ronzuru. *Diſputa.* |  |
-| `c1-l012` | Fiǒſot, l, feǒſot. Tçuuamonono fiqu iru. |  |
+| `c1-l012` | Fiǒſot, l, feǒſot. Tçuuamonono fiqi iru. |  |
 | `c1-l013` | &emsp;*Soldados, ou gente de guerra.* |  |
-| `c1-l014` | Fiǒteqi, l, feǒteqi. *Liuro que trata da arte* |  |
+| `c1-l014` | Fiǒteqi, *l*, feǒteqi. *Liuro que trata da arte* |  |
 | `c1-l015` | &emsp;*militar.* |  |
 | `c1-l016` | Fiǒxa, l, feǒxa. Tçuuamonono curuma. |  |
 | `c1-l017` | &emsp;*Carro do fato, &c. dos ſoldados, ou carrua-* |  |
@@ -44,9 +44,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l028` | &emsp;*Por eſta guarnição, ou encadernação no liuro.* |  |
 | `c1-l029` | Fiǒxigui, l, feǒxigui. *Dous paos com que* |  |
 | `c1-l030` | &emsp;*batem hum no outro em lugar de campainha* |  |
-| `c1-l031` | &emsp;*nas* teras. |  |
+| `c1-l031` | &emsp;*nas teras*. |  |
 | `c1-l032` | Fiǒxo, l, feǒxo. Tçuuamonono xo. *Li-* |  |
-| `c1-l033` | &emsp;*uro que trata da arte militar, ou militia.* |  |
+| `c1-l033` | &emsp;*uro que trata da arte militar, ou milicia.* |  |
 | `c1-l034` | Fiǒxǒ, l,feǒxǒ. Tçuuamonono taixǒ. *Ca* |  |
 | `c1-l035` | &emsp;*pitão dos ſoldados.* |  |
 | `c1-l036` | Fippacu. Xemari, u. i, Nangui. *Perigo,* |  |
@@ -54,7 +54,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l038` | &emsp;*contrar com trabalhos, & apertos.* |  |
 | `c1-l039` | Fippari, u, atta. *Eſtirar puxando.* |  |
 | `c1-l040` | Fippegui. *Hũas taboinhas quadradas ſobre que* |  |
-| `c1-l041` | &emsp;*poem* Sacazzuqui*, ou algũa iguaria, &c. no* |  |
+| `c1-l041` | &emsp;*poem Sacazzuqui, ou algũa iguaria, &c. no* |  |
 | `c1-l042` | &emsp;Ximo *ſe diz* Fegui. |  |
 | `c1-l043` | Fippǒ. Fudeno nori i, Monono caqiyǒ. |  |
 | `c1-l044` | &emsp;*Modo de eſcreuer, ou talho de letras. ¶* Fu |  |
@@ -116,7 +116,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l042` | &emsp;*troco da vida que lhe ſaluarão. ¶* Cubixẽ |  |
 | `c2-l043` | &emsp;uo ficaſuru. *Fazer pagar eſta pena impoſta,* |  |
 | `c2-l044` | &emsp;*&c. ¶* Nichǒno yumiuo fiqu. *Ser* |  |
-| `c2-l045` | &emsp;*tredo, ou fazer traição. ¶* Coto, biuauo |  |
+| `c2-l045` | &emsp;*trèdo, ou fazer traição. ¶* Coto, biuauo |  |
 | `c2-l046` | &emsp;fiqu. *Tanger crauo, ou viola. ¶* Nori |  |
 | `c2-l047` | &emsp;uo fiqu. *Por grude delido em algũa couſa* |  |
 

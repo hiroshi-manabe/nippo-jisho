@@ -26,11 +26,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l010` | &emsp;*Deſaparecerem as aues quando as ſeguem por* |  |
 | `c1-l011` | &emsp;*cauſa dalgum monte, ou ſerra que eſtà dian-* |  |
 | `c1-l012` | &emsp;*te principalmente ſe diz das gallinhas do* |  |
-| `c1-l013` | &emsp;*mato. Item, No* Ximo *ſe diz de gente que* |  |
+| `c1-l013` | &emsp;*mato. Item, No Ximo ſe diz de gente que* |  |
 | `c1-l014` | &emsp;*ſe encobre, ou deſaparece com algum mon-* |  |
 | `c1-l015` | &emsp;*te, &c.* |  |
 | `c1-l016` | Fiqicudaxi, u. aita. *Abaixar algũa couſa* |  |
-| `c1-l017` | &emsp;*puxando porella.* |  |
+| `c1-l017` | &emsp;*puxando por ella.* |  |
 | `c1-l018` | Fiqida. *Meliùs*, Coxifiqi. *Coxo, ou manco.* |  |
 | `c1-l019` | Fiqidaxi, u, aita. *Tirar fora puxando.* |  |
 | `c1-l020` | Fiqidemono. *Premio, ou dadiua que dà peſ-* |  |
@@ -52,13 +52,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l036` | Fiqifataqe, uru, eta. *Abrir, & eſtender.* |  |
 | `c1-l037` | &emsp;*Vt,* Xuſocuuo fiqi fataquru. *Abrir, &* |  |
 | `c1-l038` | &emsp;*alargar as mãos, & pès. ¶* Qino yeda, |  |
-| `c1-l039` | &emsp;bunmauaxi, nadouo fiqifataquru. *Eſtẽ* |  |
+| `c1-l039` | &emsp;bunmauaxi, nadouo fiqifataquru. *Eſtẽ-* |  |
 | `c1-l040` | &emsp;*der, & a largar ramos de aruore, abrir o com* |  |
 | `c1-l041` | &emsp;*paſſo, &c.* |  |
 | `c1-l042` | Fiqifazzuxi, ſu, uita. *Deſencaixar a cou-* |  |
 | `c1-l043` | &emsp;*ſa de ſeu lugar como pee de banco, deſarmar pa-* |  |
 | `c1-l044` | &emsp;*nos darmar, &c. ¶ Item, Permet* |  |
-| `c1-l045` | &emsp;*Apartarſe, ou eſcapularſe de algũa par-* |  |
+| `c1-l045` | &emsp;*Apartarſe, ou eſcapulirſe de algũa par-* |  |
 | `c1-l046` | &emsp;*te, &c.* |  |
 | `c1-l047` | Fiqifiraqi, u, aita. *Abrir com algũa força* |  |
 | `c1-l048` | &emsp;*ou puxando.* |  |

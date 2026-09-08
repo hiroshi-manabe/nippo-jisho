@@ -20,14 +20,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l004` | Fiqitate, uru, eta. *Aleuantar a alguẽ pu-* |  |
 | `c1-l005` | &emsp;*xandoo, ou tomandoo pello braço. ¶* Vareto |  |
 | `c1-l006` | &emsp;cocorouo fiqitatçuru. *Tomar animo, ou* |  |
-| `c1-l007` | &emsp;*esforçarſe. ¶* Fitouo fiqitatçuru. *Fa-* |  |
+| `c1-l007` | &emsp;*eſforçarſe. ¶* Fitouo fiqitatçuru. *Fa-* |  |
 | `c1-l008` | &emsp;*uorecer a alguem aleuantandoo, & fazendo* |  |
 | `c1-l009` | &emsp;*o homem dandolhe eſtado, &c.* |  |
 | `c1-l010` | Fiqitauome, uru, eta. *Puxando inclinar,* |  |
 | `c1-l011` | &emsp;*ou abaixar como ramo de aruore, &c.* |  |
 | `c1-l012` | Fiqitçucuroi, ô, ôta. *Compor, ou ataui-* |  |
 | `c1-l013` | &emsp;*ar. Vt,* Tomonǒ monodomouo itçu- |  |
-| `c1-l014` | &emsp;mo yorino fiqi tçucurôte. *Veſtindo, &* |  |
+| `c1-l014` | &emsp;mo yorimo fiqi tçucurôte. *Veſtindo, &* |  |
 | `c1-l015` | &emsp;*atauiando aos que acompanhauão melhor que* |  |
 | `c1-l016` | &emsp;*nunca.* |  |
 | `c1-l017` | Fiqitçume, uru, eta. *Enteſar, ou embeber* |  |
@@ -46,7 +46,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l030` | Fiqitçure, ruru, eta. *Leuar a alguẽ conſigo.* |  |
 | `c1-l031` | Fiqitçuri, ru, utta. *Eſtar encolhido algum* |  |
 | `c1-l032` | &emsp;*neruo, &c. ¶ Item, Eſtar o veſtido en* |  |
-| `c1-l033` | &emsp;*gorruuinhado, & apunhado por eſtar mal coſi* |  |
+| `c1-l033` | &emsp;*gorruuinhado, & apanhado por eſtar mal coſi* |  |
 | `c1-l034` | &emsp;*do ou mal alinhauado. ¶ Item, Puxar, ou leuar* |  |
 | `c1-l035` | &emsp;*puxando.* |  |
 | `c1-l036` | Fiqitçutçumi, u, ũda. *Enuoluer, ou cobrir.* |  |
@@ -57,7 +57,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l041` | &emsp;*gũa couſo.* |  |
 | `c1-l042` | Fiqitori, u, otta. i, Fittori, u. *Recolher* |  |
 | `c1-l043` | &emsp;*o exercito &c,. ¶* Ninjuuo fiqitoru. |  |
-| `c1-l044` | &emsp;*Recolher, ou retirar agente. ¶ Item reti-* |  |
+| `c1-l044` | &emsp;*Recolher, ou retirar a gente. ¶ Item reti-* |  |
 | `c1-l045` | &emsp;*rarſe, ou recolherſe.* |  |
 | `c1-l046` | Fiqitouoxi, u, oita. *Puxando fazer paſſar.* |  |
 | `c1-l047` | Fiqiǔ. *Lugar ſecreto, & que ſabem poucos* |  |
@@ -72,7 +72,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` |  | *onde ſe dão botões de fogo que logo aproueitão* |
+| `c2-l001` |  | *onde ſe daõ botoẽs de fogo que logo aproueitaõ* |
 | `c2-l002` | &emsp;*pera algũa dor, dõença, &c. ¶* Fiqiù |  |
 | `c2-l003` | &emsp;uo ſuru. *Dar botoẽs de fogo neſte lugar.* |  |
 | `c2-l004` | Fiqiuacare, uru, eta. *Apartarẽſe dous,* |  |
@@ -83,7 +83,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l009` | &emsp;*como nuuem, ou neuoa que paſſa por algum* |  |
 | `c2-l010` | &emsp;*monte, &c.* |  |
 | `c2-l011` | Fiqiuataxi. *Certo concerto de comer que ſe* |  |
-| `c2-l012` | &emsp;*uſa em feſtas como vodas, &c.* |  |
+| `c2-l012` | &emsp;*vſa em feſtas como vodas, &c.* |  |
 | `c2-l013` | Fiqiuataxi, u, aita. *Paſſar algũa couſa por* |  |
 | `c2-l014` | &emsp;*algum lugar. Vt,* Fitono teuo totte ca- |  |
 | `c2-l015` | &emsp;uauo fiqiuataſu. *Tomando a alguẽ pella* |  |
@@ -93,7 +93,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l019` | &emsp;*juſtiçar, ou por à vergonha, &c. Vt,* Fi- |  |
 | `c2-l020` | &emsp;touo fiqiuataſu. *Idem. ¶* Qiǒno |  |
 | `c2-l021` | &emsp;jimenuo fiqiuataſu. *Declarar o literal,* |  |
-| `c2-l022` | &emsp;*ou ſuperficial ſomente dalgum liuro, ou dar* |  |
+| `c2-l022` | &emsp;*ou ſuperficial ſòmente dalgum liuro, ou dar* |  |
 | `c2-l023` | &emsp;*hũa viſta ao liuro decorrida.* |  |
 | `c2-l024` | Fiqiuocoxi. *Erua aſſi chamada.* |  |
 | `c2-l025` | Fiqiuocoxi, u, oita. *Eſpertar, & aleuan-* |  |
