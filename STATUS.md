@@ -72,8 +72,9 @@ On 2026-09-06, f191–f195 completed the same procedure: all 471 body lines
 post-reading NINJAL diagnostics and a fresh second scan pass over every crop.
 Japanese and Portuguese errors were corrected without normalizing uncertain
 print. The second pass also reversed two first-pass readings after enlargement:
-Ienphoninno became Iennhoninno, whereas expected cuſe was returned to printed
-cuxe. Embedded Japanese and citation labels have typeface-toggle annotations.
+Ienphoninno became Iennhoninno, whereas mistaken cuſe was returned to printed
+cuxe (regular historical spelling of くせ, not an anomaly; commentary corrected
+on 2026-09-08). Embedded Japanese and citation labels have typeface-toggle annotations.
 The de peſ. and do. catchwords on f194/f195 were separated from body text,
 retaining stable IDs and documenting their following-page matches. Human
 review remains pending.

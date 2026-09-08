@@ -98,6 +98,10 @@ The following are reading cues rather than modern transliterations:
 | `f` | often corresponds to a modern h-row sound | Do not modernize to `h`; distinguish it from long `ſ`. |
 | `ji` / `gi`, `zu` / `zzu` | intended yotsugana distinctions | Morita documents substantial confusion in both the *Vocabulario* and *Arte* (2024: 123). |
 
+**Regular `xe` / `je`, not anomalous modern `se` / `ze`.** The Jesuit series are `sa, xi, su, xe, so` and `za, ji, zu, je, zo`: `xe` and `je` correspond to セ and ゼ, with historical pronunciation roughly シェ and ジェ. The romanization table in [“写本『葡日辞書』における「Y」の使用”](https://repository.kulib.kyoto-u.ac.jp/dspace/bitstream/2433/137262/1/kkr00001_001b.pdf) explicitly gives these correspondences and relates the manuscript's practice to the *Vocabulario*. The [Waseda study's comparison of 日葡辞書 spellings and Chinese transcriptions](https://waseda.repo.nii.ac.jp/record/1029/files/Honbun-6940.pdf) also gives `xe / je(ge)` and discusses the postalveolar interpretation. These are broad historical reading cues, not a claim that every speaker had precisely the same realization.
+
+**Project correction (2026-09-08):** `f194/c2-l042` prints `cuxe`, くせ (癖). The former review note wrongly called this anomalous and treated `cuſe` as semantically expected. That was modern-pronunciation bias: ordinary historical `xe` already supplies the intended word. A kana hint using セ/ゼ does not imply that Level 1 should contain `s`/`z`; retain the actual spelling, including genuine variants, rather than mechanically normalizing in either direction.
+
 ### 2.3 What the headword data says about `q`
 
 **External checkpoint, not scan authority.** A case-insensitive count over the 32,878 romanized headword strings in NINJAL version 202510 gives:
