@@ -71,8 +71,9 @@ and 1,780 test lines. All 17,631 source body lines are accounted for: 17,541
 19 validation, and 19 test pages; no page spans multiple splits. File hashes,
 current canonical references, style targets, and crop-width constraints passed
 `scripts/validate_ocr_retraining_dataset.py`.
-The first controlled comparison is in progress; no new model has yet been selected
-or claimed superior. The original black-exterior plain run stopped after its
+The plain run is complete and the style-aware run is in progress; no final
+model choice or final-test result has yet been reported. The original
+black-exterior plain run stopped after its
 first saved checkpoint (validation CER 6.52%) when the controlled crop probe
 below identified a substantially better input representation. It is retained
 as a diagnostic, not represented as a completed paired comparison.
@@ -123,8 +124,16 @@ The full comparable runs are `calamari-plain-v2d` and `calamari-styled-v2d`,
 both using the corrected full-extent paper-white dataset. Earlier diagnostic
 runs are retained locally but are not claimed as completed final models.
 On this dataset, the old model's full validation CER is 5.7974%, with 555/1,784
-exact lines and five lines over 50% CER. New-model and final-test results are
-still pending.
+exact lines and five lines over 50% CER.
+
+The completed plain run selected **epoch 12**. Its independent validation CER
+is **1.5476%** (914/59,061 characters), with **1,232/1,784 exact lines** and one
+line over 50% CER. CER is 1.6927% on the older validation pages and 1.1507% on
+the newer subset. It reads 45/48 `ß` instances, 43/46 `ſſ` sequences, and 3/3
+`ſs` sequences exactly. Terminal-hyphen false negatives/positives are 26/12,
+versus the old model's 54/40. These are validation results, not final-test
+results. The full record is `calamari-plain-v2d/dev-evaluation.json` under the
+local run directory. Style-aware and final-test results are still pending.
 
 One saved **epoch-seven diagnostic snapshot**, not the final selection, was
 independently decoded on all 1,784 validation lines while training continued.
@@ -147,8 +156,10 @@ aggregate or silently relabel the human-reviewed references to match the model.
 On this eight-core/16 GB host the two trainers contended for CPU and ran slower
 together. The production runs therefore execute sequentially. The already
 started styled trainer was suspended in memory (not restarted) while the plain
-run finishes; `scripts/sequence_ocr_training.py` verifies process identities and
-resumes it automatically. Its waiting time must not be interpreted as training
+run finished; `scripts/sequence_ocr_training.py` verified process identities and
+resumed it automatically after the plain runner completed successfully. The
+styled process was independently confirmed running afterward. Its waiting
+time must not be interpreted as training
 compute time when comparing run durations. Reproduction can simply run the
 plain command followed by the styled command.
 
