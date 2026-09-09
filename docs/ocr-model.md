@@ -6,6 +6,11 @@ Calamari model adapted from a 15th–16th-century Antiqua checkpoint. It produce
 a high-quality first draft for human correction; it is not an authority and
 never replaces review against the scan.
 
+The [corrected f13–f200 retraining experiment](ocr-retraining-v2.md) compares
+updated plain-text recognition with explicit Roman/italic character labels.
+It is in progress; the selected model described below remains the existing
+default until the new checkpoints have been evaluated.
+
 ## Dataset and benchmark
 
 `scripts/build_ocr_dataset.py` matches the compact Level 1 text for `f13`–`f150`
