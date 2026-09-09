@@ -7,18 +7,26 @@ from scripts.kana_reading import transliterate_token, phrase_hint, reading_hint,
 
 
 class KanaCorpusTests(unittest.TestCase):
-    def test_gvi_and_attested_gui_hiatus(self):
+    def test_gvi_and_default_gui_reading(self):
         for token, expected in [('tagvi', 'タグイ'), ('Tagvi', 'タグイ'),
                                 ('tagviuo', 'タグイヲ'), ('Vôgvi', 'オゥグイ'),
                                 ('Cusurigvi', 'クスリグイ'), ('Rogvi', 'ログイ'),
                                 ('Tçumamigvi', 'ツマミグイ'),
-                                ('Amayegui', 'アマエグイ'), ('Iaregui', 'ジャレグイ'),
-                                ('iaregui', 'ジャレグイ'),
+                                ('Amayegui', 'アマエギ'), ('Iaregui', 'ジャレギ'),
+                                ('iaregui', 'イアレギ'),
                                 ('Xiraſagui', 'シラサギ'), ('Catagui', 'カタギ'),
                                 ('guio', 'ギョ'), ('giu', 'ヂュ')]:
             with self.subTest(token=token):
                 self.assertEqual(transliterate_token(token), expected)
         self.assertEqual(phrase_hint('Narucono tagvi'), 'Narucono tagvi/ナルコノ タグイ')
+
+    def test_initial_ie_rule_without_word_list(self):
+        for token, expected in [('ien', 'ゼン'), ('iengo', 'ゼンゴ'),
+                                ('ientai', 'ゼンタイ'), ('ienbu', 'ゼンブ'),
+                                ('iengi', 'ゼンヂ'), ('ie', 'イエ'),
+                                ('Ie', 'イエ'), ('miye', 'ミエ')]:
+            with self.subTest(token=token):
+                self.assertEqual(transliterate_token(token), expected)
 
     def test_unmarked_iu_is_separate_vowels(self):
         for token, expected in [('Riun', 'リウン'), ('Riunuo', 'リウンヲ'),

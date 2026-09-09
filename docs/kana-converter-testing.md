@@ -7,12 +7,19 @@ prove linguistic correctness. Do not alter Level 1 to make a hint look better.
 ## Repeatable sweep
 
 `gvi` explicitly preserves グイ (`Tagvi`, `Cusurigvi`, `Tçumamigvi`),
-whereas ordinary `gui` defaults to ギ. Exact lexical exceptions `Amayegui`
-and `Iaregui` follow the NINJAL headword readings アマエグイ and ジャレグイ;
-they do not generalize to arbitrary suffixes. The dictionary's introductory
+whereas ordinary `gui` defaults to ギ. Rare lexical exceptions such as
+`Amayegui` and `Iaregui` are intentionally not encoded. The dictionary's introductory
 instructions explicitly describe the disambiguating use of `v`, as discussed
 by [Kishimoto](https://repository.kulib.kyoto-u.ac.jp/dspace/bitstream/2433/137270/1/kkr00002_001b.pdf).
 Tests protect ordinary ギ and ギョ readings as well as `gvi` followed by `uo`.
+
+Prefer general spelling rules over individual-word exceptions: this is an
+approximate review aid, not a lexical dictionary. Initial `ie` before a
+consonant maps to ゼ regardless of case, replacing the former `ien` word list.
+The NINJAL headword check found 146 matching entries, all with initial ゼ.
+Standalone `ie` remains イエ. The special handling of `guio i` is removed:
+isolated `i` is filtered as a label consistently, even when it is actually
+part of Japanese. These known limitations do not justify changing Level 1.
 
 The 2026-09-09 rule separates unmarked `riu`, `qiu`, `niu`, `fiu`,
 `biu`, `piu`, `miu`, and `guiu` into イ + ウ sequences (`Riun` → リウン;

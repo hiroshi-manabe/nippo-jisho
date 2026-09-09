@@ -428,7 +428,7 @@ assert.equal(label({processed: true, commentary_review: {completed_at: '2026-09-
             reading_hint([
                 {"typeface": "roman", "text": "Conriôno guio i. i. Vǒno gofucu."},
             ]),
-            "Conriôno guio i/コンリョゥノ ギョ イ, Vǒno gofucu/オゥノ ゴフク",
+            "Conriôno guio/コンリョゥノ ギョ, Vǒno gofucu/オゥノ ゴフク",
         )
         self.assertEqual(
             reading_hint([

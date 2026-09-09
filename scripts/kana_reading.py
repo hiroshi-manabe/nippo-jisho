@@ -27,13 +27,6 @@ NASAL = {"ã": "a", "ĩ": "i", "ũ": "u", "ẽ": "e", "õ": "o"}
 # ẽ (U+1EBD) lies outside the Latin ranges above; keep all supported nasal
 # vowels in a word instead of splitting e.g. Fẽbẽ into F and b.
 TOKEN_RE = re.compile(r"[A-Za-zÀ-žǍ-ǔſç" + "".join(NASAL) + r"]+")
-# Attested Japanese lexical forms with consonantal I/J, not a global Ie rule.
-# f20/f165: 膳; f41: 前後; f111: 銭; f169: 全体.
-# Include the separately attested Ien/Ienno, but do not infer arbitrary suffixes.
-CONSONANTAL_I_FORMS = {"ien", "ienno", "ienuo", "iengo", "ieni", "ienino", "ientai"}
-# NINJAL headwords: plain gui exceptionally represents グイ in these words.
-# Exact lexical exceptions, not a change to ordinary gui = ギ.
-GUI_HIATUS_FORMS = {"amayegui": "アマエグイ", "iaregui": "ジャレグイ"}
 
 
 def normalized(value: str) -> str:
@@ -59,18 +52,20 @@ def transliterate_token(token: str) -> str | None:
     key = normalized(token)
     if not token or key in LABELS:
         return None
-    if key in GUI_HIATUS_FORMS:
-        return GUI_HIATUS_FORMS[key]
     text = normalized(token).replace("ſ", "s")
     # Capital I also supplies J before other vowels (Iacǒno, Iun, Iô).
     # Preserve the established vowel forms Ie and Iu + vowel (Iua = i-wa),
-    # alongside Iy and internal ii. Lowercase lexical exceptions stay scoped.
+    # alongside Iy and internal ii. Initial ie + consonant is consonantal
+    # regardless of case; standalone ie retains its vowel reading.
     capital_consonantal_i = (
         token.startswith("I") and vowel_at(text, 1)
         and text != "ie"
         and not (text.startswith("iu") and vowel_at(text, 2))
     )
-    if capital_consonantal_i or text.startswith("ii") or text in CONSONANTAL_I_FORMS:
+    initial_ie_before_consonant = (
+        text.startswith("ie") and len(text) > 2 and not vowel_at(text, 2)
+    )
+    if capital_consonantal_i or text.startswith("ii") or initial_ie_before_consonant:
         text = "j" + text[1:]
     output: list[str] = []
     index = 0
@@ -232,33 +227,12 @@ def transliterate_token(token: str) -> str | None:
 
 def reading_tokens(text: str) -> list[str]:
     tokens = TOKEN_RE.findall(unicodedata.normalize("NFC", text))
-    result: list[str] = []
-    for index, token in enumerate(tokens):
-        key = normalized(token)
-        # In the attested ``guio i. i.`` sequence, the first standalone i is
-        # the final mora of Japanese *gyoi* (御衣); the second i. is the
-        # dictionary abbreviation and falls in the next period-delimited
-        # phrase.  Keep only the narrowly contextual Japanese occurrence.
-        japanese_gyoi_i = (
-            key == "i"
-            and index > 0
-            and normalized(tokens[index - 1]).endswith("guio")
-        )
-        if key not in LABELS or japanese_gyoi_i:
-            result.append(token)
-    return result
+    return [token for token in tokens if normalized(token) not in LABELS]
 
 
 def phrase_hint(text: str) -> str | None:
     tokens = reading_tokens(text)
-    readings = [
-        "イ"
-        if normalized(token) == "i"
-        and index > 0
-        and normalized(tokens[index - 1]).endswith("guio")
-        else transliterate_token(token)
-        for index, token in enumerate(tokens)
-    ]
+    readings = [transliterate_token(token) for token in tokens]
     if not tokens or all(reading is None for reading in readings):
         return None
     if any(reading is None for reading in readings):
