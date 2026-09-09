@@ -2,6 +2,18 @@
 
 Last updated: 2026-09-10
 
+## f201–f205 commented AI review
+
+The first five pages after the human-reviewed range have completed the
+commentary-and-second-pass procedure on the refreshed OCR v2 text. All 470
+body lines (94, 94, 95, 93, 94) have substantive English notes. Each isolated
+native-scan crop was inspected during the first reading and again in a separate
+second pass, with generated kana and post-reading NINJAL diagnostics. The
+existing rectangles include the target letters and right-edge context and
+were retained. The f201 and f202 catchwords were moved out of body text without
+renumbering their IDs. Damaged readings and qualified inferences are called out
+in the line notes. These pages are ready for human review, not certified final.
+
 ## OCR v2 refresh of human-unreviewed pages
 
 The [v2 styled OCR refresh](docs/ocr-v2-page-refresh.md) has updated all 439
@@ -31,7 +43,9 @@ rectangles, including manual corrections to the initial on f186 and the final
 body fragment on f189. The f191–f195 review verified ten more columns and
 applied 91 adjusted rectangles. The f196–f200 review verified ten more columns
 and applied 94 adjusted rectangles, including wider left margins on f200.
-Outside the completed pilot, 173 pages
+The f201–f205 review verified another ten columns individually, retaining their
+rectangles and recording the two catchword classifications separately.
+Outside the completed pilot, 168 pages
 still require completed visual inspection. See the campaign document and its
 separate extension ledger; unverified proposals have not been published.
 
@@ -39,7 +53,7 @@ separate extension ledger; unverified proposals have not been published.
 
 The review UI now distinguishes **AI reviewed with commentary** using the
 explicit per-page [completion registry](pilot/human-review/commentary-reviews.json).
-It currently covers f165–f170 and f172–f200, not every page through f200.
+It currently covers f165–f170 and f172–f205, not every page through f205.
 Human correction-Issue counts remain separate.
 
 The [general-AI commented review](docs/human-review-workflow.md#general-ai-commented-page-review)
