@@ -144,3 +144,38 @@ displaced material. Thus the automatic dataset audit is not a guarantee of
 perfect segmentation. Keep this known mismatch in the frozen comparison;
 do not silently remove difficult validation examples after inspecting errors.
 It is a candidate for a later dataset revision, not a canonical-text correction.
+
+## Reproduction and delivery
+
+The native Calamari environment is described in [OCR model](ocr-model.md).
+Dataset extraction additionally requires the existing native Kraken environment.
+Use fresh output directories: the dataset and training runners deliberately
+refuse to overwrite an experiment. From the repository root:
+
+```sh
+arch -arm64 .cache/ocr-model/venv-kraken-arm64/bin/python \
+  scripts/build_ocr_retraining_dataset.py
+python3 scripts/validate_ocr_retraining_dataset.py
+python3 scripts/run_ocr_retraining.py --mode plain \
+  --output .cache/ocr-model/runs/calamari-plain-v2d
+python3 scripts/run_ocr_retraining.py --mode styled \
+  --output .cache/ocr-model/runs/calamari-styled-v2d
+```
+
+Run the last two commands sequentially on this host. They train, save the best
+validation checkpoint, and produce independent `dev-evaluation.json` files;
+they do not evaluate test pages. Freeze the chosen runs and selection rationale
+before generating test predictions. Evaluate those with
+`scripts/evaluate_ocr_retraining.py --split test`, adding `--styled` only for
+the encoded model.
+
+`scripts/package_ocr_model.py` requires a completed matching run, final test
+evaluation, and selection record. It copies the SavedModel and codec, dataset
+summary/audit, validation/test results, and upstream license notice into a fresh
+local package. The manifest records file hashes, training-record fingerprint,
+and original checkpoint provenance. It does not publish weights or scan images.
+`scripts/recognize_nippo_calamari.py` consumes the package and isolated line
+images, returning ordinary text plus Roman/italic runs for the styled model.
+Its `--prepared` option is for benchmark images that already have exactly the
+training preprocessing; ordinary rectified inputs receive the shared full-extent
+preprocessing. Neither tool edits canonical transcription files.

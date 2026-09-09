@@ -7,6 +7,8 @@ from pathlib import Path
 import shutil
 import subprocess
 
+ROOT = Path(__file__).resolve().parents[1]
+
 
 def main():
     p = argparse.ArgumentParser(description=__doc__)
@@ -16,6 +18,8 @@ def main():
     p.add_argument('--mode',choices=['plain','styled'],required=True)
     p.add_argument('--evaluation',type=Path,required=True)
     p.add_argument('--selection',type=Path,required=True)
+    p.add_argument('--upstream-repository',type=Path,
+        default=ROOT/'.cache/ocr-model/calamari_models_experimental')
     args=p.parse_args()
     if args.output.exists():
         raise ValueError('Package destination already exists')
@@ -28,6 +32,17 @@ def main():
     if evaluation['styled'] != (args.mode == 'styled'):
         raise ValueError('Evaluation mode does not match package mode')
     selection=json.loads(args.selection.read_text())
+    experiment=json.loads((args.run/'experiment.json').read_text())
+    if experiment['status']!='dev_ready' or experiment['mode']!=args.mode:
+        raise ValueError('A completed run with matching mode is required')
+    dataset=Path(experiment['dataset'])
+    if not dataset.is_absolute():
+        dataset=ROOT/dataset
+    for source in (dataset/'summary.json',dataset/'audit.json',args.upstream_repository/'LICENSE'):
+        if not source.is_file():
+            raise FileNotFoundError(source)
+    upstream_commit=subprocess.check_output(
+        ['git','-C',str(args.upstream_repository),'rev-parse','HEAD'],text=True).strip()
     args.output.mkdir(parents=True)
     shutil.copytree(checkpoint,args.output/'best.ckpt')
     shutil.copy2(args.run/'best.ckpt.json',args.output/'best.ckpt.json')
@@ -36,6 +51,9 @@ def main():
     for name in ('experiment.json','dev-evaluation.json'):
         if (args.run/name).is_file():
             shutil.copy2(args.run/name,args.output/name)
+    shutil.copy2(dataset/'summary.json',args.output/'dataset-summary.json')
+    shutil.copy2(dataset/'audit.json',args.output/'dataset-audit.json')
+    shutil.copy2(args.upstream_repository/'LICENSE',args.output/'UPSTREAM-LICENSE.txt')
     files={str(f.relative_to(args.output)):hashlib.sha256(f.read_bytes()).hexdigest()
            for f in sorted(args.output.rglob('*')) if f.is_file()}
     model={'format':'nippo-calamari-model-package','format_version':1,'name':args.name,
@@ -46,6 +64,10 @@ def main():
         'line_height':48,'max_width':4096,'normalization':'NFC',
         'style_encoding':'italic nonspace BMP character + U+F0000' if args.mode=='styled' else None,
         'whitespace_style':'unclassified','file_sha256':files,
+        'upstream':{'repository':'https://github.com/Calamari-OCR/calamari_models_experimental',
+            'commit':upstream_commit,'initial_checkpoint':'deep3_antiqua-15-16-cent/0.ckpt',
+            'license_notice':'UPSTREAM-LICENSE.txt'},
+        'training_records_sha256':hashlib.sha256((dataset/'records.jsonl').read_bytes()).hexdigest(),
         'selection':selection}
     (args.output/'model.json').write_text(json.dumps(model,ensure_ascii=False,indent=2)+'\n')
     print(args.output)
