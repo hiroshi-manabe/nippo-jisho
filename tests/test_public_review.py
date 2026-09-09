@@ -340,7 +340,7 @@ assert.equal(label({processed: true, commentary_review: {completed_at: '2026-09-
         app = (ROOT / "site" / "app.js").read_text(encoding="utf-8")
         styles = (ROOT / "site" / "styles.css").read_text(encoding="utf-8")
         for key, character in {
-            "1": "ſ", "2": "ç", "3": "◌̃", "4": "◌̀", "5": "◌́",
+            "0": "ß", "1": "ſ", "2": "ç", "3": "◌̃", "4": "◌̀", "5": "◌́",
             "6": "ǒ", "7": "ǔ", "8": "ô", "9": "û",
         }.items():
             self.assertIn(f"'{key}': {{label: '{character}'", app)
@@ -349,6 +349,22 @@ assert.equal(label({processed: true, commentary_review: {completed_at: '2026-09-
         self.assertIn("Literal digits", app)
         self.assertIn("event.preventDefault()", app)
         self.assertIn(".character-palette", styles)
+
+    def test_ligature_palette_button_precedes_long_s_and_inserts(self):
+        script = r"""
+const fs = require('fs'), vm = require('vm'), assert = require('assert');
+const app = fs.readFileSync('site/app.js', 'utf8');
+const context = {}; vm.createContext(context);
+vm.runInContext(app.slice(app.indexOf('const TRANSCRIPTION_KEYS ='), app.indexOf('function saveEditor(')), context);
+const html = context.paletteHTML();
+assert(html.indexOf('data-character-key="0"') < html.indexOf('data-character-key="1"'));
+assert(html.includes('<span>ß</span><kbd>0</kbd>'));
+let inserted;
+context.replaceSelection = (area, text) => { inserted = text; };
+context.useTranscriptionKey({elements: {transcription: {}}}, '0');
+assert.equal(inserted, 'ß');
+"""
+        subprocess.run(["node", "-e", script], cwd=ROOT, check=True)
 
     def test_automatic_kana_guide_is_build_generated_and_dictionary_aware(self):
         from scripts.kana_reading import (

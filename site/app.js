@@ -937,6 +937,7 @@ function setCrop(row, expanded) {
 }
 
 const TRANSCRIPTION_KEYS = {
+  '0': {label: 'ß', insert: 'ß'},
   '1': {label: 'ſ', insert: 'ſ'},
   '2': {label: 'ç', insert: 'ç'},
   '3': {label: '◌̃', mark: '\u0303', name: 'tilde'},
