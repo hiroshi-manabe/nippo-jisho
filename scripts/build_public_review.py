@@ -452,6 +452,8 @@ def main() -> int:
         "app.js",
         "styles.css",
         "reference.css",
+        "ss-review.html",
+        "ss-review.js",
         ".nojekyll",
     ):
         shutil.copy2(root / "site" / name, output / name)

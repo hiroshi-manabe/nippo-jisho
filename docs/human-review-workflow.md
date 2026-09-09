@@ -1,5 +1,7 @@
 # Human Review and Correction Workflow
 
+Temporary campaign: [italic ß versus two long s through f200](italic-double-s-review.md).
+
 ## Local work visibility and submitted messages
 
 The overview reconciles saved corrections with the current baseline before

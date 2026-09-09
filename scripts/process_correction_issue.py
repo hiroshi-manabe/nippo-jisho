@@ -72,7 +72,7 @@ def report_path(issue_number: int, root: Path = ROOT) -> Path:
     return root / "build" / "correction-issues" / f"issue-{issue_number}.json"
 
 
-def extract_payload(body: str) -> dict:
+def extract_payload(body: str, root: Path = ROOT) -> dict:
     blocks = re.findall(r"```json\s*\n(.*?)\n```", body, re.DOTALL)
     if len(blocks) > 1:
         raise IssueProcessingError(
@@ -84,6 +84,15 @@ def extract_payload(body: str) -> dict:
         raise IssueProcessingError(f"invalid correction JSON: {error}") from error
     if not isinstance(payload, dict):
         raise IssueProcessingError("correction JSON must be an object")
+    if payload.get('format') == 'nippo-italic-ss-review':
+        try:
+            try:
+                from .expand_ss_review import expand
+            except ImportError:
+                from expand_ss_review import expand
+            payload = expand(payload, load_json(root / 'site/assets/ss-review/candidates.json'))
+        except (ValueError, KeyError, OSError) as error:
+            raise IssueProcessingError(str(error)) from error
     validate_payload(payload)
     return payload
 
@@ -531,7 +540,7 @@ def prepare(
     repository: str = REPOSITORY,
 ) -> dict:
     issue = fetch_issue(issue_number, repository)
-    payload = extract_payload(issue["body"])
+    payload = extract_payload(issue["body"], root)
     if payload["schema"] == 4:
         return prepare_batch(issue_number, issue, payload, root, repository)
     return prepare_page(issue_number, issue, payload, root, repository)
