@@ -58,8 +58,10 @@ The probability identity has a numeric regression test, and a 32-line training
 smoke successfully copied 161 outputs and saved a checkpoint. `--style-init
 random` retains stock Calamari initialization for a future controlled ablation.
 
-Weights and generated datasets remain local under `.cache/ocr-model/`;
-reproducible code and final aggregate results belong in Git.
+Training checkpoints and generated datasets remain local under
+`.cache/ocr-model/`. Finished production packages are copied into the separate
+Git-ignored `models/local/` directory; reproducible code and final aggregate
+results belong in Git. Neither location is automatically published.
 
 ## Current status
 
