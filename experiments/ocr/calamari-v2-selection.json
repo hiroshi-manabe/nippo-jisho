@@ -1,0 +1,216 @@
+{
+  "format": "nippo-ocr-release-selection",
+  "frozen_at_utc": "2026-09-09T20:24:19.373047+00:00",
+  "final_test_used_for_selection": false,
+  "dataset": ".cache/ocr-model/retraining-v2d",
+  "training_records_sha256": "a43abd1231c02870fb58e88d6af3d76d625c6f184f7ee988fd897358bcb74035",
+  "models": {
+    "plain": {
+      "run": ".cache/ocr-model/runs/calamari-plain-v2d",
+      "epoch": 12,
+      "checkpoint_sha256": {
+        "best.ckpt.json": "50f4dca0537ec8c98168e38c224b56db3d257e5be88a619ada3072937e3d2094",
+        "best.ckpt/fingerprint.pb": "bd789824b1540fc76d9db2db1bbbf0b2c51ef96652a517cb9e7394300aae83dc",
+        "best.ckpt/keras_metadata.pb": "7f665782cf4047582087536a00bee9c0c61b89413d5c06a8c2a994eb151ba395",
+        "best.ckpt/saved_model.pb": "213da9c2e8c531e5983a846310718bd1afe6acf325f12255014cea50cbf08ab2",
+        "best.ckpt/variables/variables.data-00000-of-00001": "ae7b8803a5d6e567010439d2bdb7fa84661c669e326a66f33641039476fc6353",
+        "best.ckpt/variables/variables.index": "90b4d72402c889b6eb9e0caf7b916a016b0d37c238636e0deb105b15d99257e9"
+      },
+      "dev_text_cer": 0.015475525304346354,
+      "dev_exact_lines": 1232
+    },
+    "styled": {
+      "run": ".cache/ocr-model/runs/calamari-styled-v2d",
+      "epoch": 12,
+      "checkpoint_sha256": {
+        "best.ckpt.json": "11fa3ff54752e0c3bd580c19b61802a69e218c0239c3f506a5002af63e172e44",
+        "best.ckpt/fingerprint.pb": "a9c841948c37be522a941f17480235ba3cf05fe12ea23e88c3b9eda78b9ef6a1",
+        "best.ckpt/keras_metadata.pb": "af14703981a471ecb2064b875771a49bcf1e72aff356f8bc0da07c80cc200965",
+        "best.ckpt/saved_model.pb": "0bcacd65d56ba66b530feab1fed04d6dc5dc88d437b330b9990ea21bdc18ea32",
+        "best.ckpt/variables/variables.data-00000-of-00001": "358a2cf6353b5702fed5dde0981a87d1873bb931c26328e14c3e29cbc092ac29",
+        "best.ckpt/variables/variables.index": "cfa6bb58c9a94bd29db86129d0d539a52628ae1a565dd8bd1f82d8e1b6f16e98"
+      },
+      "dev_text_cer": 0.016389834239176445,
+      "dev_exact_lines": 1205,
+      "dev_combined_cer": 0.020317976329557577,
+      "dev_style_accuracy": 0.9953394937725994
+    }
+  },
+  "recommendation": {
+    "text_only": "plain",
+    "typeface_aware_drafts": "styled"
+  },
+  "rationale": "Both epoch-12 best validation checkpoints are retained. Styled adds Roman/italic output with 99.53% accuracy conditional on correct nonspace text, at an additional 54 text errors over 59061 validation characters. Plain remains the text-only choice. No extension beyond the planned 12 epochs, word-wide style smoothing, language-model postprocessing, or test-driven tuning. Existing page-generation defaults and canonical data are unchanged.",
+  "dev_paired_comparison": {
+    "split": "dev",
+    "pages": [
+      {
+        "id": "bnf-f0016",
+        "lines": 94,
+        "characters": 3024,
+        "plain_errors": 28,
+        "styled_errors": 24
+      },
+      {
+        "id": "bnf-f0020",
+        "lines": 94,
+        "characters": 3183,
+        "plain_errors": 63,
+        "styled_errors": 68
+      },
+      {
+        "id": "bnf-f0029",
+        "lines": 93,
+        "characters": 3148,
+        "plain_errors": 58,
+        "styled_errors": 70
+      },
+      {
+        "id": "bnf-f0057",
+        "lines": 94,
+        "characters": 3011,
+        "plain_errors": 70,
+        "styled_errors": 80
+      },
+      {
+        "id": "bnf-f0061",
+        "lines": 94,
+        "characters": 3125,
+        "plain_errors": 32,
+        "styled_errors": 33
+      },
+      {
+        "id": "bnf-f0063",
+        "lines": 94,
+        "characters": 3012,
+        "plain_errors": 64,
+        "styled_errors": 75
+      },
+      {
+        "id": "bnf-f0066",
+        "lines": 92,
+        "characters": 2782,
+        "plain_errors": 123,
+        "styled_errors": 123
+      },
+      {
+        "id": "bnf-f0070",
+        "lines": 94,
+        "characters": 3521,
+        "plain_errors": 58,
+        "styled_errors": 64
+      },
+      {
+        "id": "bnf-f0071",
+        "lines": 94,
+        "characters": 3200,
+        "plain_errors": 47,
+        "styled_errors": 45
+      },
+      {
+        "id": "bnf-f0073",
+        "lines": 94,
+        "characters": 3079,
+        "plain_errors": 27,
+        "styled_errors": 28
+      },
+      {
+        "id": "bnf-f0085",
+        "lines": 94,
+        "characters": 3005,
+        "plain_errors": 23,
+        "styled_errors": 28
+      },
+      {
+        "id": "bnf-f0101",
+        "lines": 94,
+        "characters": 3179,
+        "plain_errors": 80,
+        "styled_errors": 78
+      },
+      {
+        "id": "bnf-f0118",
+        "lines": 95,
+        "characters": 3020,
+        "plain_errors": 17,
+        "styled_errors": 21
+      },
+      {
+        "id": "bnf-f0133",
+        "lines": 95,
+        "characters": 2955,
+        "plain_errors": 42,
+        "styled_errors": 45
+      },
+      {
+        "id": "bnf-f0165",
+        "lines": 94,
+        "characters": 3227,
+        "plain_errors": 39,
+        "styled_errors": 40
+      },
+      {
+        "id": "bnf-f0171",
+        "lines": 95,
+        "characters": 3108,
+        "plain_errors": 32,
+        "styled_errors": 31
+      },
+      {
+        "id": "bnf-f0179",
+        "lines": 94,
+        "characters": 2918,
+        "plain_errors": 17,
+        "styled_errors": 16
+      },
+      {
+        "id": "bnf-f0180",
+        "lines": 93,
+        "characters": 3349,
+        "plain_errors": 48,
+        "styled_errors": 50
+      },
+      {
+        "id": "bnf-f0195",
+        "lines": 93,
+        "characters": 3215,
+        "plain_errors": 46,
+        "styled_errors": 49
+      }
+    ],
+    "all": {
+      "method": "paired page bootstrap",
+      "draws": 10000,
+      "seed": 1603,
+      "difference": "styled text CER minus plain text CER",
+      "estimate": 0.0009143089348300909,
+      "percentile_95_interval": [
+        0.000306346477866467,
+        0.0015801277694712519
+      ]
+    },
+    "old_range": {
+      "method": "paired page bootstrap",
+      "draws": 10000,
+      "seed": 1603,
+      "difference": "styled text CER minus plain text CER",
+      "estimate": 0.0011562297659790954,
+      "percentile_95_interval": [
+        0.0003722921562696326,
+        0.0019678659073019402
+      ]
+    },
+    "new_range": {
+      "method": "paired page bootstrap",
+      "draws": 10000,
+      "seed": 1603,
+      "difference": "styled text CER minus plain text CER",
+      "estimate": 0.00025289245748245557,
+      "percentile_95_interval": [
+        -0.00019634792852935403,
+        0.0006832722529349649
+      ]
+    }
+  },
+  "test_policy": "Evaluate these exact checkpoints and the previous model on identical 1780 held-out line images; report all 19 pages and the five newer holdout pages separately. Do not alter selection based on test results."
+}
