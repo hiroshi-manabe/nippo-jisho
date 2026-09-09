@@ -55,9 +55,11 @@ reproducible code and final aggregate results belong in Git.
 
 The frozen dataset contains 13,982 training, 1,784 validation, and 1,780 test
 lines. It excludes 83 uncertain correspondences and two display-type lines.
-The first controlled comparison is running; no new model has yet been selected
-or claimed superior. The full plain and styled runs use output directories
-`calamari-plain-v2b` and `calamari-styled-v2b` under `.cache/ocr-model/runs`.
+The first controlled comparison is in progress; no new model has yet been selected
+or claimed superior. The original black-exterior plain run stopped after its
+first saved checkpoint (validation CER 6.52%) when the controlled crop probe
+below identified a substantially better input representation. It is retained
+as a diagnostic, not represented as a completed paired comparison.
 Each has a maximum of 12 epochs and patience of three validation evaluations.
 The existing deployed model is also evaluated on the same validation images
 and corrected references, rather than comparing incompatible historical scores.
@@ -69,7 +71,15 @@ used too small a private-use range and was discarded from comparison before
 training; the corrected frozen dataset is `.cache/ocr-model/retraining-v2b`.
 
 Visual crop spot checks identified the black exterior mask used by Kraken's
-polygon extraction. Both initial runs share it, as did the earlier isolated
-pipeline. If validation errors justify a crop experiment, test a paper-colored
-exterior mask with the original polygon retained; do not erase border-connected
-ink heuristically or silently change only inference preprocessing.
+polygon extraction. A systematic 95-line validation sample spanning all 19 dev
+pages compared the old model on identical polygons with black versus paper-white
+exteriors. CER fell from 464/3,265 (14.21%) to 300/3,265 (9.19%), and exact lines
+rose from 8 to 27. This validates the first targeted improvement without using
+test scores. The same corrected references and polygons are re-extracted for
+both full models in `.cache/ocr-model/retraining-v2-white`.
+
+`scripts/reextract_ocr_retraining.py` inverts image intensities before Kraken
+extraction (which pads with zero) and inverts back afterwards. It thus gives a
+paper-white exterior without guessing which border-connected pixels are ink.
+It preserves line identities, reference hashes, splits and polygons. Training
+and inference must use the same convention.

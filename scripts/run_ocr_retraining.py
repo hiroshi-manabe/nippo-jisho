@@ -13,7 +13,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 def main():
     p = argparse.ArgumentParser(description=__doc__)
-    p.add_argument('--dataset', type=Path, default=ROOT / '.cache/ocr-model/retraining-v2b')
+    p.add_argument('--dataset', type=Path, default=ROOT / '.cache/ocr-model/retraining-v2-white')
     p.add_argument('--mode', choices=['plain', 'styled'], required=True)
     p.add_argument('--output', type=Path, required=True)
     p.add_argument('--epochs', type=int, default=12)
@@ -25,6 +25,9 @@ def main():
     records = args.dataset / 'records.jsonl'
     if not records.exists():
         raise ValueError('Dataset has not finished building')
+    summary = json.loads((args.dataset / 'summary.json').read_text())
+    if summary.get('complete_training_dataset') is False or not all(summary['lines'].get(s) for s in ('train','dev','test')):
+        raise ValueError('A complete frozen training/validation/test dataset is required')
     args.output.mkdir(parents=True)
     binary = ROOT / '.cache/ocr-model/venv-calamari-arm64/bin'
     checkpoint = ROOT / '.cache/ocr-model/runs/calamari-antiqua-book-codec-v1/best.ckpt'

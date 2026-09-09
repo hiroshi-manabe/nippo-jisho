@@ -7,6 +7,29 @@ from build_ocr_retraining_dataset import styled_text, encode, decode, page_split
 
 
 class RetrainingTests(unittest.TestCase):
+    def test_inference_decodes_runs_without_exposing_private_labels(self):
+        from recognize_nippo_calamari import decode_prediction
+        text = 'Fotoqe. Itẽ, paßa.'
+        styles = ['roman'] * 8 + ['italic'] * (len(text)-8)
+        result = decode_prediction(encode(text, styles), True)
+        self.assertEqual(result['text'], text)
+        self.assertEqual(result['runs'], [
+            {'text': 'Fotoqe. ', 'typeface': 'roman'},
+            {'text': 'Itẽ, paßa.', 'typeface': 'italic'},
+        ])
+        self.assertNotIn('runs', decode_prediction(text, False))
+
+    def test_short_runs_and_boundaries_are_measured(self):
+        from evaluate_ocr_retraining import score
+        text = 'Ab i. cd'
+        styles = ['roman']*3 + ['italic']*3 + ['roman']*2
+        record={'id':'test','text':text,'styles':styles,'encoded':encode(text,styles)}
+        result=score([record],[record['encoded']],True)
+        boundary=result['style']['boundaries_on_correct_characters']
+        self.assertEqual(boundary['true_positive'], 2)
+        self.assertEqual(boundary['false_negative'], 0)
+        self.assertEqual(result['style']['short_runs_up_to_three_nonspace_characters']['exact_text_and_style'],3)
+
     def test_text_and_style_errors_are_separated(self):
         from evaluate_ocr_retraining import score
         text = 'aſß'

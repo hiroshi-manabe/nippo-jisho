@@ -74,7 +74,7 @@ def score(records, outputs, styled):
 
 def main():
     p = argparse.ArgumentParser(description=__doc__)
-    p.add_argument('--dataset', type=Path, default=Path('.cache/ocr-model/retraining-v2b'))
+    p.add_argument('--dataset', type=Path, default=Path('.cache/ocr-model/retraining-v2-white'))
     p.add_argument('--predictions', type=Path, required=True)
     p.add_argument('--styled', action='store_true')
     p.add_argument('--split', choices=['dev','test'], default='dev')
