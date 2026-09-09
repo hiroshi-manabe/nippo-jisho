@@ -131,3 +131,16 @@ run finishes; `scripts/sequence_ocr_training.py` verifies process identities and
 resumes it automatically. Its waiting time must not be interpreted as training
 compute time when comparing run durations. Reproduction can simply run the
 plain command followed by the styled command.
+
+### Residual dataset limitations
+
+Inspecting the five worst old-model validation lines found one remaining bad
+pair: `f66/c1-l019` (`couſas.`) has a small right-margin detection instead of the
+word visible toward the left of the source column. Width plausibility and
+full-band text agreement do not prove that a short line's polygon is correct.
+The other four inspected crops (`f57/c1-l047`, `f63/c1-l048`, `f66/c2-l001`, and
+`f101/c1-l017`) visibly contain their text, although some are faint or have
+displaced material. Thus the automatic dataset audit is not a guarantee of
+perfect segmentation. Keep this known mismatch in the frozen comparison;
+do not silently remove difficult validation examples after inspecting errors.
+It is a candidate for a later dataset revision, not a canonical-text correction.
