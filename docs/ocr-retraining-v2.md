@@ -124,6 +124,19 @@ On this dataset, the old model's full validation CER is 5.7974%, with 555/1,784
 exact lines and five lines over 50% CER. New-model and final-test results are
 still pending.
 
+One saved **epoch-seven diagnostic snapshot**, not the final selection, was
+independently decoded on all 1,784 validation lines while training continued.
+Its corpus CER is 1.7643% (1,042/59,061 characters), versus 5.7974% for the old
+model. Exact lines rose from 555 to 1,163; lines over 50% CER fell from five to
+one. It recognized 44/48 `ß` instances, 43/46 literal `ſſ` sequences, and all
+three `ſs` sequences. Terminal-hyphen false negatives/positives fell from 54/40
+to 28/14. Marked-vowel exact matches rose from 614/911 to 818/911. However,
+direct short-/long-s substitutions stayed almost unchanged (27 versus 28),
+despite fewer missing or otherwise misread s characters. This is evidence of
+substantial but uneven improvement, not a claim that all glyph distinctions
+are solved. The snapshot and results are retained in
+`.cache/ocr-model/runs/calamari-plain-v2d-epoch7-diagnostic/`.
+
 On this eight-core/16 GB host the two trainers contended for CPU and ran slower
 together. The production runs therefore execute sequentially. The already
 started styled trainer was suspended in memory (not restarted) while the plain
