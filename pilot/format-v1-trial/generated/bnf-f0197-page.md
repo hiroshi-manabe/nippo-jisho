@@ -53,7 +53,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l037` | Firetna. *Idem. ¶* Firetna fito. *Ho-* |  |
 | `c1-l038` | &emsp;*mem baixo, ou de eſpiritus baixos.* |  |
 | `c1-l039` | Firô. Firaqi arauaſu. i, Xujinno mayeni mo |  |
-| `c1-l040` | &emsp;nouo môſu. *Falar, ou propor ao ſenhor, ou* |  |
+| `c1-l040` | &emsp;nouo mǒſu. *Falar, ou propor ao ſenhor, ou* |  |
 | `c1-l041` | &emsp;*apeſſoa nobre. ¶* Firôſuru. *Idem.* |  |
 | `c1-l042` | Firǒ. Tçucare, itazzugauaxij. *Canſaço.* |  |
 | `c1-l043` | &emsp;*¶* Firǒxita. *Eſtou canſado, & desfeito.* |  |
@@ -72,30 +72,30 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` |  | *blico, ou de muita gente. ¶* Firobaye de- |
+| `c2-l001` |  | *blico, ou de muita gente. ¶* Firobaye de |
 | `c2-l002` | &emsp;tçuqeta fito. *Homem cuſtumado a ſair em* |  |
 | `c2-l003` | &emsp;*publico, ou ajuntamento de gente.* |  |
 | `c2-l004` | Firobiroto. *Adu. Muito largo. ¶* Fi- |  |
 | `c2-l005` | &emsp;robiroto xita coto. *Couſa muito larga, &* |  |
 | `c2-l006` | &emsp;*eſtendida.* |  |
 | `c2-l007` | Firobuta. *Cubertura larga como taboleiro em* |  |
-| `c2-l008` | &emsp;*qu poem veſtidos, ou outras couſas.* |  |
+| `c2-l008` | &emsp;*que poem veſtidos, ou outras couſas.* |  |
 | `c2-l009` | Firocu. Cacuxi, xiruſu. i, Daijino rocu. |  |
 | `c2-l010` | &emsp;*Liuro de grandes ſegredos, ou miſterios.* |  |
 | `c2-l011` | Firogari, ru, atta. *Alargarſe, l, eſtẽderſe.* |  |
 | `c2-l012` | &emsp;*¶ Permet.* Cuchiga firogaru, l, ſuboru. |  |
 | `c2-l013` | &emsp;*Abrirſe a boca, ou fecharſe na pronunciaçaõ* |  |
-| `c2-l014` | &emsp;*dalgũas palauras. Vt,* Mǒ to yǔcotoua firo- |  |
+| `c2-l014` | &emsp;*dalgũas palauras. Vt,* Mǒ toyǔcotoua firo- |  |
 | `c2-l015` | &emsp;garu, Mô to yǔcotoua ſuboru. |  |
 | `c2-l016` | Firogue, uru, eta. *Alargar, l, eſtender.* |  |
 | `c2-l017` | Firoi. *Couſa larga, ou eſpaçoſa. ¶* Firoi |  |
-| `c2-l018` | &emsp;cocoro ,l, qi. *Condiçao liberal.* |  |
+| `c2-l018` | &emsp;cocoro ,l, qi. *Condição liberal.* |  |
 | `c2-l019` | &emsp;Firoſa. |  |
 | `c2-l020` | &emsp;Firô. |  |
 | `c2-l021` | Firoi, ô, ôta. *Apanhar algũa couſa do chão.* |  |
 | `c2-l022` | &emsp;*¶* Taqiguiuo firô. *Apanhar lenha.* |  |
 | `c2-l023` | &emsp;*¶* Conomiuo firô. *Apanhar fruita do* |  |
-| `c2-l024` | &emsp;*chao. ¶ Item, Achar a caſo algũa couſa.* |  |
+| `c2-l024` | &emsp;*chão. ¶ Item, Achar a caſo algũa couſa.* |  |
 | `c2-l025` | &emsp;*Vt,* Canenadouo firô. *Achar a caſo pra* |  |
 | `c2-l026` | &emsp;*ta, ou outra couſa.* |  |
 | `c2-l027` | Firoiatçume, uru, eta. *Ajuntar apanhando* |  |

@@ -50,9 +50,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l034` | Firumi, u, unda. *Afroxar, ou acouardarſe.* |  |
 | `c1-l035` | Firune. *O dormir polla ſesta.* |  |
 | `c1-l036` | Firunuſubito. *Ladrão dedia. i, deſaforado.* |  |
-| `c1-l037` | Fiſabiſato. i, Fiſaxǔ. *Ha muito tempo, ou* |  |
+| `c1-l037` | Fiſabiſato. i, Fiſaxǔ. *Hà muito tempo, ou* |  |
 | `c1-l038` | &emsp;*auendo muito tempo.* |  |
-| `c1-l039` | Fiſacata. P. *He palaura que entra em com-* |  |
+| `c1-l039` | Fiſacata. *P. He palaura que entra em com-* |  |
 | `c1-l040` | &emsp;*poſição com outras, quer dizer ceo, ou couſa* |  |
 | `c1-l041` | &emsp;*do ceo. Vt,* Fiſacatano tçuqino ficari, |  |
 | `c1-l042` | &emsp;&c. *Claridade da lũa do ceo.* |  |
@@ -80,12 +80,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l006` | Fisǒ. *Estima. ¶* Monouo fisǒ ſuru. *Eſ-* |  |
 | `c2-l007` | &emsp;*timar, ou prezar muito algũa couſa. ¶* Go- |  |
 | `c2-l008` | &emsp;fisǒna mononaredomo, cudaſareyo. *A-* |  |
-| `c2-l009` | &emsp;*inda que ſeja couſa que eſtimaes muito, daima.* |  |
+| `c2-l009` | &emsp;*inda que ſeja couſa que eſtimais muito, daima.* |  |
 | `c2-l010` | Fisǒ. *Roſalgar.* |  |
 | `c2-l011` | Fiſocana. *Couſa ſecreta.* |  |
 | `c2-l012` | Fiſocani. *Adu. Secretamente.* |  |
 | `c2-l013` | Fisǒden. *Nome de hum ceo.* |  |
-| `c2-l014` | Fiſofifisǒ. *Nome de outro ceo.* |  |
+| `c2-l014` | Fiſofifi*s*ǒ. *Nome de outro ceo.* |  |
 | `c2-l015` | Fiſome, uru, eta. *A quietar. ¶* Sanco |  |
 | `c2-l016` | &emsp;uo fiſomete qiqu. *Ouuir com grande attẽ-* |  |
 | `c2-l017` | &emsp;*ção, ou quietação. ¶* Mayuuo fiſomuru. |  |
@@ -104,18 +104,18 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l030` | &emsp;*Naguinata, &c. ¶* Itouo fiſsabaqu. |  |
 | `c2-l031` | &emsp;*Deſempeçar, & amanhar bem o fio das linhas.* |  |
 | `c2-l032` | Fiſſague, uru, eta. *Leuar algũa couſa depen* |  |
-| `c2-l033` | &emsp;*durada na mão. ¶* Chùni monouo fiſſaguru. |  |
+| `c2-l033` | &emsp;*durada na mão. ¶* Chǔni monouo fiſſaguru. |  |
 | `c2-l034` | &emsp;*Ter dependurada algũa couſa da mão no ar.* |  |
 | `c2-l035` | Fiſſaqi, u, aita. i, fiqiſaqi, u. *Raſgar* |  |
 | `c2-l036` | &emsp;*com força, ou deſpedaçar.* |  |
 | `c2-l037` | Fiſſobame, uru, eta. *Puxando virar como* |  |
 | `c2-l038` | &emsp;*caualo, &c.* |  |
 | `c2-l039` | Fiſſocu. *Estar eſcondido, ou encerrado, ou* |  |
-| `c2-l040` | &emsp;*retraido não ſaindo a publico. Vt,* Fiſſocu |  |
+| `c2-l040` | &emsp;*retraido não ſaindo a publico. Vt,* Fiſsocu |  |
 | `c2-l041` | &emsp;ſuru. |  |
-| `c2-l042` | Fiſſoroye, uru. eta. *Ajuntar, ou por por or-* |  |
+| `c2-l042` | Fiſſoroye, uru. eta. *Ajuntar, ou pòr por or-* |  |
 | `c2-l043` | &emsp;*dem como gente em fieira, &c.* |  |
-| `c2-l044` | Fiſſucume, uru, eta. *Forçar, ou conſtrãger,* |  |
+| `c2-l044` | Fiſsucume, uru, eta. *Forçar, ou conſtrãger,* |  |
 | `c2-l045` | Fiſſuguri, u, utta. *Eſcolher o milhor.* |  |
 | `c2-l046` | Fiſsui. Canarazu votoroyuru. *Ir empejorã* |  |
 | `c2-l047` | &emsp;*do: não ſe vſa ſe não composto. Vt,* Xǒxa |  |

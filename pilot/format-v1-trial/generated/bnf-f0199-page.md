@@ -35,7 +35,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l019` | &emsp;*testa ſobre algum veo que amarrão na cabeça* |  |
 | `c1-l020` | &emsp;*pera nelle tomarem as frechas.* |  |
 | `c1-l021` | Fitajeme. *O atormentar, ou por em aperto ſem* |  |
-| `c1-l022` | &emsp;*ceſar. Vt,* Xirouo fitajemeni xemuru. |  |
+| `c1-l022` | &emsp;*ceſſar. Vt,* Xirouo fitajemeni xemuru. |  |
 | `c1-l023` | &emsp;*Ter de cerco a fortaleza combatendoa rijamen* |  |
 | `c1-l024` | &emsp;*te ſem ceſſar.* |  |
 | `c1-l025` | Fitamono. *Adu. Muito, & continuada-* |  |
@@ -53,7 +53,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l037` | &emsp;uagu. |  |
 | `c1-l038` | Fitaſura,l, fitaſurani. *Adu. Modo de ro* |  |
 | `c1-l039` | &emsp;*gar com humildade, & importunação.* |  |
-| `c1-l040` | Fitatare. *Hum veſtido que vſão os Cũgues, &* |  |
+| `c1-l040` | Fitatare. *Hum vestido que vſão os Cũgues, &* |  |
 | `c1-l041` | &emsp;*ſoldados por cima das armas.* |  |
 | `c1-l042` | Fitato. *Adu. i,* Fitafitato. *Modo de* |  |
 | `c1-l043` | &emsp;*eſtar pegado, ou de estar continuamente junto,* |  |
@@ -74,7 +74,7 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c2-l001` | Fitaxi, ſu, aita. *Enſopar, ou molhar muito. Vt,* |  |
 | `c2-l002` | &emsp;Yamabato ſuxẽ tõbi qitatte tçubaſauo miz |  |
-| `c2-l003` | &emsp;zuni fitaite, *&c.* Taif. *Lib. 29. Vin-* |  |
+| `c2-l003` | &emsp;zuni fitaite, &c. Taif. *Lib. 29. Vin-* |  |
 | `c2-l004` | &emsp;*do voando milhares de pombos trocazes banha* |  |
 | `c2-l005` | &emsp;*uão as aſas na agoa. ¶* Vmi, cumouo fi- |  |
 | `c2-l006` | &emsp;taſu. *Chegarem as ondas às nuuẽs como ba-* |  |
@@ -116,8 +116,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l042` | &emsp;*praziuel na conuerſação.* |  |
 | `c2-l043` | Fitoauaxe. *Hum encontro. ¶* Fitoauaxe |  |
 | `c2-l044` | &emsp;mo xeide nigueta fitogia. *He homem que* |  |
-| `c2-l045` | &emsp;*fugio ſem ter hum ſo encontro com alguem.* |  |
-| `c2-l046` | &emsp;*¶* Fitoauaxemo auaxenu torigia. *Hega* |  |
+| `c2-l045` | &emsp;*fugio ſem ter hum ſò encontro com alguem.* |  |
+| `c2-l046` | &emsp;*¶* Fitoauaxemo auaxenu torigia. *He ga* |  |
 | `c2-l047` | &emsp;*lo que o não farão encontrar com outro: mas não* |  |
 
 ## Printed page number

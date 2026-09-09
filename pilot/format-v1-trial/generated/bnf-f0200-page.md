@@ -19,7 +19,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l003` | &emsp;*¶* Fitobanarenaru ſumaiuo ſuru. *Habi-* |  |
 | `c1-l004` | &emsp;*tar em deſerto, ou apartado dos homẽs, &c.* |  |
 | `c1-l005` | Fitobito. *Homẽs.* |  |
-| `c1-l006` | Fitobitoxij, l, fitoraxij. *Homem que he* |  |
+| `c1-l006` | Fitobitoxij, l, fitor*a*xij. *Homem que he* |  |
 | `c1-l007` | &emsp;*propriamente homem no ſaber, corteſias, &c.* |  |
 | `c1-l008` | Fitobõ. *Hum bacio, ou prato de pao com fruita,* |  |
 | `c1-l009` | &emsp;*ou outra couſa que ſe manda de preſente.* |  |
@@ -31,7 +31,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l015` | &emsp;*De hũa laya junto com eſte verbo,* Naru, *no* |  |
 | `c1-l016` | &emsp;*negatiuo. Vt,* Fitocatanaranu vomoigia. |  |
 | `c1-l017` | &emsp;*São varios, & diuerſos cuidados, ou penſa-* |  |
-| `c1-l018` | &emsp;*mentostriſtes.* |  |
+| `c1-l018` | &emsp;*mentos triſtes.* |  |
 | `c1-l019` | Fitodama. *Exalação aceſa que aparece no ar à* |  |
 | `c1-l020` | &emsp;*maneira de bolla em ſinal de alguem auer de* |  |
 | `c1-l021` | &emsp;*morrer logo como cuidão os gentios.* |  |
@@ -78,7 +78,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l004` | Fitogara. *Feição, ou compoſtura de homem.* |  |
 | `c2-l005` | Fitogatachi. *Figura, ou feição de homem.* |  |
 | `c2-l006` | &emsp;*Vt,* Fitogatachimonai. *Não tem jà figu-* |  |
-| `c2-l007` | &emsp;*ra de homem por eſtarmuito magro, ou des* |  |
+| `c2-l007` | &emsp;*ra de homem por eſtar muito magro, ou des* |  |
 | `c2-l008` | &emsp;*feito, ou todo cortado, &c.* |  |
 | `c2-l009` | Fitogocochi. *Coração, ou ſentido humano.* |  |
 | `c2-l010` | &emsp;*Vt,* Xiniitte fitogocochimo nacatta. |  |
@@ -92,11 +92,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l018` | &emsp;*¶ Item, Os dias atras.* |  |
 | `c2-l019` | Fitoigi, l, fifitoigi. *Caminho de hum dia, ou* |  |
 | `c2-l020` | &emsp;*hũa jornada.* |  |
-| `c2-l021` | Fitojichi. *Reſens. ¶* Fitojichiuo toru. |  |
-| `c2-l022` | &emsp;*Tomar reſens. ¶* Fitojichiuo idaſu. |  |
-| `c2-l023` | &emsp;*Dar reſens. ¶* Fitojichiuo cayeſu. *Tor-* |  |
-| `c2-l024` | &emsp;*nar os reſens.* Fitojichiuo ſutçuru. *Não* |  |
-| `c2-l025` | &emsp;*ter deuer com os reſens deixando os catiuar, ou* |  |
+| `c2-l021` | Fitojichi. *Refens. ¶* Fitojichiuo toru. |  |
+| `c2-l022` | &emsp;*Tomar refens. ¶* Fitojichiuo idaſu. |  |
+| `c2-l023` | &emsp;*Dar refens. ¶* Fitojichiuo cayeſu. *Tor-* |  |
+| `c2-l024` | &emsp;*nar os refens.* Fitojichiuo ſutçuru. *Não* |  |
+| `c2-l025` | &emsp;*ter deuer com os refens deixando os catiuar, ou* |  |
 | `c2-l026` | &emsp;*matar, &c.* |  |
 | `c2-l027` | Fitoiqi. *Hum folego. Vt,* Fitoiqini mo- |  |
 | `c2-l028` | &emsp;nouo ſuru. *Fazer hũa couſa de hum fole-* |  |
