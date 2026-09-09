@@ -1,5 +1,14 @@
 # Local OCR models
 
+Completed packages (2026-09-10):
+
+- `local/nippo-calamari-v2-plain`: text-only, 1.255% final test character error.
+- `local/nippo-calamari-v2-styled`: text and Roman/italic runs, 1.312% text error;
+  99.644% style accuracy conditional on correct non-space text.
+
+Matching `.zip` archives sit alongside these directories. Archive CRCs and
+every archived file were verified against the unpacked packages.
+
 Finished model packages belong in `local/`, separate from temporary training
 runs and datasets under `.cache/ocr-model/`. The binary packages are deliberately
 Git-ignored and are not automatically published. Back up `local/` when preserving

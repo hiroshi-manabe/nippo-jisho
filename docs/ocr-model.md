@@ -6,10 +6,14 @@ Calamari model adapted from a 15th–16th-century Antiqua checkpoint. It produce
 a high-quality first draft for human correction; it is not an authority and
 never replaces review against the scan.
 
-The [corrected f13–f200 retraining experiment](ocr-retraining-v2.md) compares
-updated plain-text recognition with explicit Roman/italic character labels.
-It is in progress; the selected model described below remains the existing
-default until the new checkpoints have been evaluated.
+The [completed corrected f13–f200 retraining](ocr-retraining-v2.md) delivers
+new plain and Roman/italic-aware models. Final test text error is 1.255% and
+1.312%, respectively; the styled model also has 99.644% typeface accuracy on
+correctly read non-space characters. Production packages are in
+`models/local/nippo-calamari-v2-plain` and `models/local/nippo-calamari-v2-styled`.
+Use the package inference command in that report. Existing page-generation
+defaults have not been switched automatically. The remainder of this document
+records the earlier models, datasets and reproduction procedures.
 
 ## Dataset and benchmark
 

@@ -1,0 +1,1441 @@
+{
+  "format": "nippo-ocr-v2-final-results",
+  "selection": "calamari-v2-selection.json",
+  "selection_commit": "d9dd648",
+  "dataset_audit": {
+    "format": "nippo-ocr-dataset-audit",
+    "source_body_lines": 17631,
+    "retained": 17541,
+    "excluded": 90,
+    "unaccounted": 0,
+    "split_lines": {
+      "train": 13977,
+      "dev": 1784,
+      "test": 1780
+    },
+    "split_pages": {
+      "train": 150,
+      "dev": 19,
+      "test": 19
+    },
+    "glyph_counts": {
+      "ß": 488,
+      "ſ": 12259,
+      "s": 9542,
+      "ẽ": 705,
+      "ǒ": 1892,
+      "ô": 1038
+    },
+    "hashes_and_labels_verified": true,
+    "page_disjoint": true
+  },
+  "training_records_sha256": "a43abd1231c02870fb58e88d6af3d76d625c6f184f7ee988fd897358bcb74035",
+  "models": {
+    "old": {
+      "checkpoint_sha256": {
+        "best.ckpt.json": "24b923395cdd378e4fdd27522d63450c29ed9a5e07e2ff4b4767b0eebb67387a",
+        "best.ckpt/fingerprint.pb": "9c7d270efcac65f39f6251cb07322bef122984686aadf0bf4837020f50d62a66",
+        "best.ckpt/keras_metadata.pb": "061db440643e498ee2c0dee99eb380f448d4f822d4065bb0ef223ae03ae2a4ae",
+        "best.ckpt/saved_model.pb": "6a6001d18012237c865a0cf1b31f80796088e8de7996ced53ccbe3082ccbcb57",
+        "best.ckpt/variables/variables.data-00000-of-00001": "c2d3faca988c805366a2f192e60c9b8e6057f9e3a3d2318c0b1104c28c05cb39",
+        "best.ckpt/variables/variables.index": "bcc96c2fbbcd607d72023e14e8f03dfc0bad6d0ff333f2d50cb27f38a880c5b0"
+      },
+      "dev": {
+        "evaluation_sha256": "c5055417045210850b8fd3573ffe7b18413d7b4fa6e9115904c0ee170f2c7e56",
+        "all": {
+          "text": {
+            "lines": 1784,
+            "characters": 59061,
+            "character_errors": 3424,
+            "character_error_rate": 0.05797395912700428,
+            "exact_lines": 555,
+            "exact_line_rate": 0.31109865470852016,
+            "catastrophic_lines_over_50_percent_cer": 5,
+            "terminal_hyphen": {
+              "reference_positive": 329,
+              "true_positive": 275,
+              "false_negative": 54,
+              "reference_negative": 1455,
+              "true_negative": 1415,
+              "false_positive": 40
+            },
+            "features": {
+              "short_s_or_long_s": {
+                "reference": 2102,
+                "exact": 1962,
+                "other_member": 27,
+                "missing_or_other": 113
+              },
+              "q_or_g": {
+                "reference": 1356,
+                "exact": 1302,
+                "other_member": 1,
+                "missing_or_other": 53
+              },
+              "u_or_v": {
+                "reference": 3602,
+                "exact": 3398,
+                "other_member": 1,
+                "missing_or_other": 203
+              },
+              "i_or_j": {
+                "reference": 2999,
+                "exact": 2836,
+                "other_member": 4,
+                "missing_or_other": 159
+              },
+              "c_or_cedilla": {
+                "reference": 2286,
+                "exact": 2134,
+                "other_member": 19,
+                "missing_or_other": 133
+              },
+              "n_or_m": {
+                "reference": 3574,
+                "exact": 3360,
+                "other_member": 57,
+                "missing_or_other": 157
+              },
+              "period_or_comma": {
+                "reference": 4004,
+                "exact": 3719,
+                "other_member": 54,
+                "missing_or_other": 231
+              },
+              "marked_vowel": {
+                "reference": 911,
+                "exact": 614,
+                "same_base_wrong_mark": 199,
+                "missing_or_other": 98
+              },
+              "tilde_vowel": {
+                "reference": 499,
+                "exact": 401,
+                "same_base_wrong_mark": 57,
+                "missing_or_other": 41
+              }
+            }
+          },
+          "glyphs": {
+            "ß": {
+              "reference": 48,
+              "exact": 0
+            },
+            "ſ": {
+              "reference": 1259,
+              "exact": 1201
+            },
+            "s": {
+              "reference": 843,
+              "exact": 761
+            },
+            "ô": {
+              "reference": 77,
+              "exact": 45
+            },
+            "ǒ": {
+              "reference": 210,
+              "exact": 135
+            },
+            "ũ": {
+              "reference": 125,
+              "exact": 103
+            },
+            "ã": {
+              "reference": 253,
+              "exact": 232
+            }
+          },
+          "double_s": {
+            "ß": {
+              "reference": 48,
+              "exact": 0,
+              "as_ſſ": 39,
+              "missing_or_other": 9
+            },
+            "ſſ": {
+              "reference": 46,
+              "exact": 44,
+              "missing_or_other": 2
+            },
+            "ſs": {
+              "reference": 3,
+              "exact": 2,
+              "missing_or_other": 1
+            }
+          }
+        },
+        "old_range": {
+          "text": {
+            "lines": 1315,
+            "characters": 43244,
+            "character_errors": 2649,
+            "character_error_rate": 0.06125705300157247,
+            "exact_lines": 377,
+            "exact_line_rate": 0.28669201520912546,
+            "catastrophic_lines_over_50_percent_cer": 5
+          }
+        },
+        "new_range": {
+          "text": {
+            "lines": 469,
+            "characters": 15817,
+            "character_errors": 775,
+            "character_error_rate": 0.04899791363722577,
+            "exact_lines": 178,
+            "exact_line_rate": 0.3795309168443497,
+            "catastrophic_lines_over_50_percent_cer": 0
+          }
+        }
+      },
+      "test": {
+        "evaluation_sha256": "9768a08439cb08ff1d980a86a8f4db1d5da9281515e23c03f1e67273f3d8e17a",
+        "all": {
+          "text": {
+            "lines": 1780,
+            "characters": 57931,
+            "character_errors": 2398,
+            "character_error_rate": 0.041394072258376345,
+            "exact_lines": 693,
+            "exact_line_rate": 0.38932584269662923,
+            "catastrophic_lines_over_50_percent_cer": 3,
+            "terminal_hyphen": {
+              "reference_positive": 274,
+              "true_positive": 231,
+              "false_negative": 43,
+              "reference_negative": 1506,
+              "true_negative": 1464,
+              "false_positive": 42
+            },
+            "features": {
+              "short_s_or_long_s": {
+                "reference": 2067,
+                "exact": 1994,
+                "other_member": 11,
+                "missing_or_other": 62
+              },
+              "q_or_g": {
+                "reference": 1188,
+                "exact": 1164,
+                "other_member": 4,
+                "missing_or_other": 20
+              },
+              "u_or_v": {
+                "reference": 3518,
+                "exact": 3402,
+                "other_member": 4,
+                "missing_or_other": 112
+              },
+              "i_or_j": {
+                "reference": 3236,
+                "exact": 3089,
+                "other_member": 7,
+                "missing_or_other": 140
+              },
+              "c_or_cedilla": {
+                "reference": 1933,
+                "exact": 1842,
+                "other_member": 14,
+                "missing_or_other": 77
+              },
+              "n_or_m": {
+                "reference": 3654,
+                "exact": 3519,
+                "other_member": 43,
+                "missing_or_other": 92
+              },
+              "period_or_comma": {
+                "reference": 4089,
+                "exact": 3910,
+                "other_member": 52,
+                "missing_or_other": 127
+              },
+              "marked_vowel": {
+                "reference": 898,
+                "exact": 679,
+                "same_base_wrong_mark": 141,
+                "missing_or_other": 78
+              },
+              "tilde_vowel": {
+                "reference": 487,
+                "exact": 425,
+                "same_base_wrong_mark": 27,
+                "missing_or_other": 35
+              }
+            }
+          },
+          "glyphs": {
+            "ß": {
+              "reference": 44,
+              "exact": 0
+            },
+            "ſ": {
+              "reference": 1192,
+              "exact": 1158
+            },
+            "s": {
+              "reference": 875,
+              "exact": 836
+            },
+            "ô": {
+              "reference": 75,
+              "exact": 49
+            },
+            "ǒ": {
+              "reference": 160,
+              "exact": 126
+            },
+            "ũ": {
+              "reference": 136,
+              "exact": 122
+            },
+            "ã": {
+              "reference": 254,
+              "exact": 228
+            }
+          },
+          "double_s": {
+            "ß": {
+              "reference": 44,
+              "exact": 0,
+              "missing_or_other": 17,
+              "as_ſſ": 27
+            },
+            "ſſ": {
+              "reference": 20,
+              "exact": 17,
+              "missing_or_other": 3
+            },
+            "ſs": {
+              "reference": 4,
+              "exact": 3,
+              "as_ſſ": 1
+            }
+          }
+        },
+        "old_range": {
+          "text": {
+            "lines": 1310,
+            "characters": 42101,
+            "character_errors": 1763,
+            "character_error_rate": 0.0418754898933517,
+            "exact_lines": 522,
+            "exact_line_rate": 0.3984732824427481,
+            "catastrophic_lines_over_50_percent_cer": 3
+          }
+        },
+        "new_range": {
+          "text": {
+            "lines": 470,
+            "characters": 15830,
+            "character_errors": 635,
+            "character_error_rate": 0.04011370814908402,
+            "exact_lines": 171,
+            "exact_line_rate": 0.3638297872340426,
+            "catastrophic_lines_over_50_percent_cer": 0
+          }
+        }
+      }
+    },
+    "plain": {
+      "checkpoint_sha256": {
+        "best.ckpt.json": "50f4dca0537ec8c98168e38c224b56db3d257e5be88a619ada3072937e3d2094",
+        "best.ckpt/fingerprint.pb": "bd789824b1540fc76d9db2db1bbbf0b2c51ef96652a517cb9e7394300aae83dc",
+        "best.ckpt/keras_metadata.pb": "7f665782cf4047582087536a00bee9c0c61b89413d5c06a8c2a994eb151ba395",
+        "best.ckpt/saved_model.pb": "213da9c2e8c531e5983a846310718bd1afe6acf325f12255014cea50cbf08ab2",
+        "best.ckpt/variables/variables.data-00000-of-00001": "ae7b8803a5d6e567010439d2bdb7fa84661c669e326a66f33641039476fc6353",
+        "best.ckpt/variables/variables.index": "90b4d72402c889b6eb9e0caf7b916a016b0d37c238636e0deb105b15d99257e9"
+      },
+      "dev": {
+        "evaluation_sha256": "dc6412d5d851d971c8128a8b9b8b4a6e7dfdc993d0673453de68f002553edf28",
+        "all": {
+          "text": {
+            "lines": 1784,
+            "characters": 59061,
+            "character_errors": 914,
+            "character_error_rate": 0.015475525304346354,
+            "exact_lines": 1232,
+            "exact_line_rate": 0.6905829596412556,
+            "catastrophic_lines_over_50_percent_cer": 1,
+            "terminal_hyphen": {
+              "reference_positive": 329,
+              "true_positive": 303,
+              "false_negative": 26,
+              "reference_negative": 1455,
+              "true_negative": 1443,
+              "false_positive": 12
+            },
+            "features": {
+              "short_s_or_long_s": {
+                "reference": 2102,
+                "exact": 2028,
+                "other_member": 28,
+                "missing_or_other": 46
+              },
+              "q_or_g": {
+                "reference": 1356,
+                "exact": 1348,
+                "other_member": 0,
+                "missing_or_other": 8
+              },
+              "u_or_v": {
+                "reference": 3602,
+                "exact": 3536,
+                "other_member": 1,
+                "missing_or_other": 65
+              },
+              "i_or_j": {
+                "reference": 2999,
+                "exact": 2950,
+                "other_member": 0,
+                "missing_or_other": 49
+              },
+              "c_or_cedilla": {
+                "reference": 2286,
+                "exact": 2246,
+                "other_member": 9,
+                "missing_or_other": 31
+              },
+              "n_or_m": {
+                "reference": 3574,
+                "exact": 3532,
+                "other_member": 13,
+                "missing_or_other": 29
+              },
+              "period_or_comma": {
+                "reference": 4004,
+                "exact": 3956,
+                "other_member": 23,
+                "missing_or_other": 25
+              },
+              "marked_vowel": {
+                "reference": 911,
+                "exact": 832,
+                "same_base_wrong_mark": 63,
+                "missing_or_other": 16
+              },
+              "tilde_vowel": {
+                "reference": 499,
+                "exact": 473,
+                "same_base_wrong_mark": 16,
+                "missing_or_other": 10
+              }
+            }
+          },
+          "glyphs": {
+            "ß": {
+              "reference": 48,
+              "exact": 45
+            },
+            "ſ": {
+              "reference": 1259,
+              "exact": 1223
+            },
+            "s": {
+              "reference": 843,
+              "exact": 805
+            },
+            "ô": {
+              "reference": 77,
+              "exact": 74
+            },
+            "ǒ": {
+              "reference": 210,
+              "exact": 183
+            },
+            "ũ": {
+              "reference": 125,
+              "exact": 119
+            },
+            "ã": {
+              "reference": 253,
+              "exact": 244
+            }
+          },
+          "double_s": {
+            "ß": {
+              "reference": 48,
+              "exact": 45,
+              "missing_or_other": 3
+            },
+            "ſſ": {
+              "reference": 46,
+              "exact": 43,
+              "missing_or_other": 3
+            },
+            "ſs": {
+              "reference": 3,
+              "exact": 3
+            }
+          }
+        },
+        "old_range": {
+          "text": {
+            "lines": 1315,
+            "characters": 43244,
+            "character_errors": 732,
+            "character_error_rate": 0.016927203773933957,
+            "exact_lines": 871,
+            "exact_line_rate": 0.6623574144486692,
+            "catastrophic_lines_over_50_percent_cer": 1
+          }
+        },
+        "new_range": {
+          "text": {
+            "lines": 469,
+            "characters": 15817,
+            "character_errors": 182,
+            "character_error_rate": 0.01150660681545173,
+            "exact_lines": 361,
+            "exact_line_rate": 0.7697228144989339,
+            "catastrophic_lines_over_50_percent_cer": 0
+          }
+        }
+      },
+      "test": {
+        "evaluation_sha256": "4b2fddc76eb8384924c281bbe333c33be7f0be737c72b852046be3ed4885a3fd",
+        "all": {
+          "text": {
+            "lines": 1780,
+            "characters": 57931,
+            "character_errors": 727,
+            "character_error_rate": 0.012549412231792996,
+            "exact_lines": 1288,
+            "exact_line_rate": 0.7235955056179775,
+            "catastrophic_lines_over_50_percent_cer": 0,
+            "terminal_hyphen": {
+              "reference_positive": 274,
+              "true_positive": 249,
+              "false_negative": 25,
+              "reference_negative": 1506,
+              "true_negative": 1504,
+              "false_positive": 2
+            },
+            "features": {
+              "short_s_or_long_s": {
+                "reference": 2067,
+                "exact": 2032,
+                "other_member": 7,
+                "missing_or_other": 28
+              },
+              "q_or_g": {
+                "reference": 1188,
+                "exact": 1182,
+                "other_member": 2,
+                "missing_or_other": 4
+              },
+              "u_or_v": {
+                "reference": 3518,
+                "exact": 3485,
+                "other_member": 3,
+                "missing_or_other": 30
+              },
+              "i_or_j": {
+                "reference": 3236,
+                "exact": 3181,
+                "other_member": 4,
+                "missing_or_other": 51
+              },
+              "c_or_cedilla": {
+                "reference": 1933,
+                "exact": 1911,
+                "other_member": 6,
+                "missing_or_other": 16
+              },
+              "n_or_m": {
+                "reference": 3654,
+                "exact": 3611,
+                "other_member": 19,
+                "missing_or_other": 24
+              },
+              "period_or_comma": {
+                "reference": 4089,
+                "exact": 4038,
+                "other_member": 25,
+                "missing_or_other": 26
+              },
+              "marked_vowel": {
+                "reference": 898,
+                "exact": 838,
+                "same_base_wrong_mark": 43,
+                "missing_or_other": 17
+              },
+              "tilde_vowel": {
+                "reference": 487,
+                "exact": 464,
+                "same_base_wrong_mark": 12,
+                "missing_or_other": 11
+              }
+            }
+          },
+          "glyphs": {
+            "ß": {
+              "reference": 44,
+              "exact": 42
+            },
+            "ſ": {
+              "reference": 1192,
+              "exact": 1169
+            },
+            "s": {
+              "reference": 875,
+              "exact": 863
+            },
+            "ô": {
+              "reference": 75,
+              "exact": 72
+            },
+            "ǒ": {
+              "reference": 160,
+              "exact": 151
+            },
+            "ũ": {
+              "reference": 136,
+              "exact": 132
+            },
+            "ã": {
+              "reference": 254,
+              "exact": 245
+            }
+          },
+          "double_s": {
+            "ß": {
+              "reference": 44,
+              "exact": 42,
+              "missing_or_other": 2
+            },
+            "ſſ": {
+              "reference": 20,
+              "exact": 18,
+              "as_ß": 1,
+              "missing_or_other": 1
+            },
+            "ſs": {
+              "reference": 4,
+              "exact": 4
+            }
+          }
+        },
+        "old_range": {
+          "text": {
+            "lines": 1310,
+            "characters": 42101,
+            "character_errors": 556,
+            "character_error_rate": 0.01320633714163559,
+            "exact_lines": 944,
+            "exact_line_rate": 0.7206106870229008,
+            "catastrophic_lines_over_50_percent_cer": 0
+          }
+        },
+        "new_range": {
+          "text": {
+            "lines": 470,
+            "characters": 15830,
+            "character_errors": 171,
+            "character_error_rate": 0.01080227416298168,
+            "exact_lines": 344,
+            "exact_line_rate": 0.7319148936170212,
+            "catastrophic_lines_over_50_percent_cer": 0
+          }
+        }
+      }
+    },
+    "styled": {
+      "checkpoint_sha256": {
+        "best.ckpt.json": "11fa3ff54752e0c3bd580c19b61802a69e218c0239c3f506a5002af63e172e44",
+        "best.ckpt/fingerprint.pb": "a9c841948c37be522a941f17480235ba3cf05fe12ea23e88c3b9eda78b9ef6a1",
+        "best.ckpt/keras_metadata.pb": "af14703981a471ecb2064b875771a49bcf1e72aff356f8bc0da07c80cc200965",
+        "best.ckpt/saved_model.pb": "0bcacd65d56ba66b530feab1fed04d6dc5dc88d437b330b9990ea21bdc18ea32",
+        "best.ckpt/variables/variables.data-00000-of-00001": "358a2cf6353b5702fed5dde0981a87d1873bb931c26328e14c3e29cbc092ac29",
+        "best.ckpt/variables/variables.index": "cfa6bb58c9a94bd29db86129d0d539a52628ae1a565dd8bd1f82d8e1b6f16e98"
+      },
+      "dev": {
+        "evaluation_sha256": "92dd28ea1df5fb37b023f7cb07c2b5f710214ebf3e472ef0345ff07893e54973",
+        "all": {
+          "text": {
+            "lines": 1784,
+            "characters": 59061,
+            "character_errors": 968,
+            "character_error_rate": 0.016389834239176445,
+            "exact_lines": 1205,
+            "exact_line_rate": 0.6754484304932735,
+            "catastrophic_lines_over_50_percent_cer": 1,
+            "terminal_hyphen": {
+              "reference_positive": 329,
+              "true_positive": 305,
+              "false_negative": 24,
+              "reference_negative": 1455,
+              "true_negative": 1445,
+              "false_positive": 10
+            },
+            "features": {
+              "short_s_or_long_s": {
+                "reference": 2102,
+                "exact": 2023,
+                "other_member": 28,
+                "missing_or_other": 51
+              },
+              "q_or_g": {
+                "reference": 1356,
+                "exact": 1348,
+                "other_member": 0,
+                "missing_or_other": 8
+              },
+              "u_or_v": {
+                "reference": 3602,
+                "exact": 3534,
+                "other_member": 1,
+                "missing_or_other": 67
+              },
+              "i_or_j": {
+                "reference": 2999,
+                "exact": 2944,
+                "other_member": 0,
+                "missing_or_other": 55
+              },
+              "c_or_cedilla": {
+                "reference": 2286,
+                "exact": 2239,
+                "other_member": 9,
+                "missing_or_other": 38
+              },
+              "n_or_m": {
+                "reference": 3574,
+                "exact": 3532,
+                "other_member": 14,
+                "missing_or_other": 28
+              },
+              "period_or_comma": {
+                "reference": 4004,
+                "exact": 3946,
+                "other_member": 27,
+                "missing_or_other": 31
+              },
+              "marked_vowel": {
+                "reference": 911,
+                "exact": 830,
+                "same_base_wrong_mark": 69,
+                "missing_or_other": 12
+              },
+              "tilde_vowel": {
+                "reference": 499,
+                "exact": 469,
+                "same_base_wrong_mark": 22,
+                "missing_or_other": 8
+              }
+            }
+          },
+          "glyphs": {
+            "ß": {
+              "reference": 48,
+              "exact": 44
+            },
+            "ſ": {
+              "reference": 1259,
+              "exact": 1221
+            },
+            "s": {
+              "reference": 843,
+              "exact": 802
+            },
+            "ô": {
+              "reference": 77,
+              "exact": 73
+            },
+            "ǒ": {
+              "reference": 210,
+              "exact": 183
+            },
+            "ũ": {
+              "reference": 125,
+              "exact": 120
+            },
+            "ã": {
+              "reference": 253,
+              "exact": 243
+            }
+          },
+          "double_s": {
+            "ß": {
+              "reference": 48,
+              "exact": 44,
+              "missing_or_other": 3,
+              "as_ſſ": 1
+            },
+            "ſſ": {
+              "reference": 46,
+              "exact": 42,
+              "missing_or_other": 4
+            },
+            "ſs": {
+              "reference": 3,
+              "exact": 3
+            }
+          },
+          "style": {
+            "conditional_on_correct_nonspace_characters": true,
+            "characters": 49780,
+            "accuracy": 0.9953394937725994,
+            "confusion": {
+              "roman->roman": 16467,
+              "italic->italic": 33081,
+              "roman->italic": 114,
+              "italic->roman": 118
+            },
+            "boundaries_on_correct_characters": {
+              "true_negative": 45888,
+              "true_positive": 1347,
+              "unscorable_text_error": 1403,
+              "false_positive": 105,
+              "false_negative": 62
+            },
+            "short_runs_up_to_three_nonspace_characters": {
+              "reference": 172,
+              "exact_text_and_style": 133
+            },
+            "words_observed_in_both_styles_in_training": {
+              "reference": 1462,
+              "text_exact": 1428,
+              "text_and_style_exact": 1408
+            },
+            "letters_only": {
+              "characters": 44953,
+              "accuracy": 0.9957956087469134,
+              "confusion": {
+                "roman->roman": 14554,
+                "italic->italic": 30210,
+                "roman->italic": 91,
+                "italic->roman": 98
+              }
+            }
+          },
+          "combined": {
+            "lines": 1784,
+            "characters": 59061,
+            "character_errors": 1200,
+            "character_error_rate": 0.020317976329557577,
+            "exact_lines": 1165,
+            "exact_line_rate": 0.6530269058295964
+          }
+        },
+        "old_range": {
+          "text": {
+            "lines": 1315,
+            "characters": 43244,
+            "character_errors": 782,
+            "character_error_rate": 0.01808343353991305,
+            "exact_lines": 839,
+            "exact_line_rate": 0.6380228136882129,
+            "catastrophic_lines_over_50_percent_cer": 1
+          },
+          "style": {
+            "accuracy": 0.9943395707965818,
+            "characters": 36393,
+            "conditional_on_correct_nonspace_characters": true
+          },
+          "combined": {
+            "lines": 1315,
+            "characters": 43244,
+            "character_errors": 988,
+            "character_error_rate": 0.022847100175746926,
+            "exact_lines": 804,
+            "exact_line_rate": 0.6114068441064638
+          }
+        },
+        "new_range": {
+          "text": {
+            "lines": 469,
+            "characters": 15817,
+            "character_errors": 186,
+            "character_error_rate": 0.011759499272934185,
+            "exact_lines": 366,
+            "exact_line_rate": 0.7803837953091685,
+            "catastrophic_lines_over_50_percent_cer": 0
+          },
+          "style": {
+            "accuracy": 0.9980578172854262,
+            "characters": 13387,
+            "conditional_on_correct_nonspace_characters": true
+          },
+          "combined": {
+            "lines": 469,
+            "characters": 15817,
+            "character_errors": 212,
+            "character_error_rate": 0.013403300246570146,
+            "exact_lines": 361,
+            "exact_line_rate": 0.7697228144989339
+          }
+        }
+      },
+      "test": {
+        "evaluation_sha256": "474248fe523ed24730b002ab506dffa7ab16b11e8878deafe573dd053c83bc2f",
+        "all": {
+          "text": {
+            "lines": 1780,
+            "characters": 57931,
+            "character_errors": 760,
+            "character_error_rate": 0.013119055428009183,
+            "exact_lines": 1266,
+            "exact_line_rate": 0.7112359550561798,
+            "catastrophic_lines_over_50_percent_cer": 0,
+            "terminal_hyphen": {
+              "reference_positive": 274,
+              "true_positive": 250,
+              "false_negative": 24,
+              "reference_negative": 1506,
+              "true_negative": 1501,
+              "false_positive": 5
+            },
+            "features": {
+              "short_s_or_long_s": {
+                "reference": 2067,
+                "exact": 2031,
+                "other_member": 7,
+                "missing_or_other": 29
+              },
+              "q_or_g": {
+                "reference": 1188,
+                "exact": 1182,
+                "other_member": 2,
+                "missing_or_other": 4
+              },
+              "u_or_v": {
+                "reference": 3518,
+                "exact": 3481,
+                "other_member": 3,
+                "missing_or_other": 34
+              },
+              "i_or_j": {
+                "reference": 3236,
+                "exact": 3183,
+                "other_member": 4,
+                "missing_or_other": 49
+              },
+              "c_or_cedilla": {
+                "reference": 1933,
+                "exact": 1906,
+                "other_member": 6,
+                "missing_or_other": 21
+              },
+              "n_or_m": {
+                "reference": 3654,
+                "exact": 3617,
+                "other_member": 18,
+                "missing_or_other": 19
+              },
+              "period_or_comma": {
+                "reference": 4089,
+                "exact": 4034,
+                "other_member": 27,
+                "missing_or_other": 28
+              },
+              "marked_vowel": {
+                "reference": 898,
+                "exact": 831,
+                "same_base_wrong_mark": 51,
+                "missing_or_other": 16
+              },
+              "tilde_vowel": {
+                "reference": 487,
+                "exact": 466,
+                "same_base_wrong_mark": 12,
+                "missing_or_other": 9
+              }
+            }
+          },
+          "glyphs": {
+            "ß": {
+              "reference": 44,
+              "exact": 40
+            },
+            "ſ": {
+              "reference": 1192,
+              "exact": 1168
+            },
+            "s": {
+              "reference": 875,
+              "exact": 863
+            },
+            "ô": {
+              "reference": 75,
+              "exact": 71
+            },
+            "ǒ": {
+              "reference": 160,
+              "exact": 146
+            },
+            "ũ": {
+              "reference": 136,
+              "exact": 132
+            },
+            "ã": {
+              "reference": 254,
+              "exact": 246
+            }
+          },
+          "double_s": {
+            "ß": {
+              "reference": 44,
+              "exact": 40,
+              "missing_or_other": 4
+            },
+            "ſſ": {
+              "reference": 20,
+              "exact": 18,
+              "as_ß": 1,
+              "missing_or_other": 1
+            },
+            "ſs": {
+              "reference": 4,
+              "exact": 3,
+              "missing_or_other": 1
+            }
+          },
+          "style": {
+            "conditional_on_correct_nonspace_characters": true,
+            "characters": 49123,
+            "accuracy": 0.9964375139954808,
+            "confusion": {
+              "italic->italic": 32461,
+              "roman->roman": 16487,
+              "roman->italic": 111,
+              "italic->roman": 64
+            },
+            "boundaries_on_correct_characters": {
+              "true_negative": 45331,
+              "unscorable_text_error": 1114,
+              "true_positive": 1365,
+              "false_positive": 73,
+              "false_negative": 87
+            },
+            "short_runs_up_to_three_nonspace_characters": {
+              "reference": 181,
+              "exact_text_and_style": 136
+            },
+            "words_observed_in_both_styles_in_training": {
+              "reference": 1421,
+              "text_exact": 1396,
+              "text_and_style_exact": 1384
+            },
+            "letters_only": {
+              "characters": 44337,
+              "accuracy": 0.997113020727609,
+              "confusion": {
+                "italic->italic": 29692,
+                "roman->roman": 14517,
+                "roman->italic": 79,
+                "italic->roman": 49
+              }
+            }
+          },
+          "combined": {
+            "lines": 1780,
+            "characters": 57931,
+            "character_errors": 934,
+            "character_error_rate": 0.01612262864442181,
+            "exact_lines": 1206,
+            "exact_line_rate": 0.6775280898876405
+          }
+        },
+        "old_range": {
+          "text": {
+            "lines": 1310,
+            "characters": 42101,
+            "character_errors": 571,
+            "character_error_rate": 0.01356262321560058,
+            "exact_lines": 933,
+            "exact_line_rate": 0.7122137404580152,
+            "catastrophic_lines_over_50_percent_cer": 0
+          },
+          "style": {
+            "accuracy": 0.9957956106174847,
+            "characters": 35677,
+            "conditional_on_correct_nonspace_characters": true
+          },
+          "combined": {
+            "lines": 1310,
+            "characters": 42101,
+            "character_errors": 720,
+            "character_error_rate": 0.01710173155031947,
+            "exact_lines": 884,
+            "exact_line_rate": 0.6748091603053435
+          }
+        },
+        "new_range": {
+          "text": {
+            "lines": 470,
+            "characters": 15830,
+            "character_errors": 189,
+            "character_error_rate": 0.011939355653821856,
+            "exact_lines": 333,
+            "exact_line_rate": 0.7085106382978723,
+            "catastrophic_lines_over_50_percent_cer": 0
+          },
+          "style": {
+            "accuracy": 0.9981407109921167,
+            "characters": 13446,
+            "conditional_on_correct_nonspace_characters": true
+          },
+          "combined": {
+            "lines": 470,
+            "characters": 15830,
+            "character_errors": 214,
+            "character_error_rate": 0.013518635502210993,
+            "exact_lines": 322,
+            "exact_line_rate": 0.6851063829787234
+          }
+        }
+      }
+    }
+  },
+  "dev_comparison": {
+    "split": "dev",
+    "pages": [
+      {
+        "id": "bnf-f0016",
+        "lines": 94,
+        "characters": 3024,
+        "plain_errors": 28,
+        "styled_errors": 24
+      },
+      {
+        "id": "bnf-f0020",
+        "lines": 94,
+        "characters": 3183,
+        "plain_errors": 63,
+        "styled_errors": 68
+      },
+      {
+        "id": "bnf-f0029",
+        "lines": 93,
+        "characters": 3148,
+        "plain_errors": 58,
+        "styled_errors": 70
+      },
+      {
+        "id": "bnf-f0057",
+        "lines": 94,
+        "characters": 3011,
+        "plain_errors": 70,
+        "styled_errors": 80
+      },
+      {
+        "id": "bnf-f0061",
+        "lines": 94,
+        "characters": 3125,
+        "plain_errors": 32,
+        "styled_errors": 33
+      },
+      {
+        "id": "bnf-f0063",
+        "lines": 94,
+        "characters": 3012,
+        "plain_errors": 64,
+        "styled_errors": 75
+      },
+      {
+        "id": "bnf-f0066",
+        "lines": 92,
+        "characters": 2782,
+        "plain_errors": 123,
+        "styled_errors": 123
+      },
+      {
+        "id": "bnf-f0070",
+        "lines": 94,
+        "characters": 3521,
+        "plain_errors": 58,
+        "styled_errors": 64
+      },
+      {
+        "id": "bnf-f0071",
+        "lines": 94,
+        "characters": 3200,
+        "plain_errors": 47,
+        "styled_errors": 45
+      },
+      {
+        "id": "bnf-f0073",
+        "lines": 94,
+        "characters": 3079,
+        "plain_errors": 27,
+        "styled_errors": 28
+      },
+      {
+        "id": "bnf-f0085",
+        "lines": 94,
+        "characters": 3005,
+        "plain_errors": 23,
+        "styled_errors": 28
+      },
+      {
+        "id": "bnf-f0101",
+        "lines": 94,
+        "characters": 3179,
+        "plain_errors": 80,
+        "styled_errors": 78
+      },
+      {
+        "id": "bnf-f0118",
+        "lines": 95,
+        "characters": 3020,
+        "plain_errors": 17,
+        "styled_errors": 21
+      },
+      {
+        "id": "bnf-f0133",
+        "lines": 95,
+        "characters": 2955,
+        "plain_errors": 42,
+        "styled_errors": 45
+      },
+      {
+        "id": "bnf-f0165",
+        "lines": 94,
+        "characters": 3227,
+        "plain_errors": 39,
+        "styled_errors": 40
+      },
+      {
+        "id": "bnf-f0171",
+        "lines": 95,
+        "characters": 3108,
+        "plain_errors": 32,
+        "styled_errors": 31
+      },
+      {
+        "id": "bnf-f0179",
+        "lines": 94,
+        "characters": 2918,
+        "plain_errors": 17,
+        "styled_errors": 16
+      },
+      {
+        "id": "bnf-f0180",
+        "lines": 93,
+        "characters": 3349,
+        "plain_errors": 48,
+        "styled_errors": 50
+      },
+      {
+        "id": "bnf-f0195",
+        "lines": 93,
+        "characters": 3215,
+        "plain_errors": 46,
+        "styled_errors": 49
+      }
+    ],
+    "all": {
+      "method": "paired page bootstrap",
+      "draws": 10000,
+      "seed": 1603,
+      "difference": "styled text CER minus plain text CER",
+      "estimate": 0.0009143089348300909,
+      "percentile_95_interval": [
+        0.000306346477866467,
+        0.0015801277694712519
+      ]
+    },
+    "old_range": {
+      "method": "paired page bootstrap",
+      "draws": 10000,
+      "seed": 1603,
+      "difference": "styled text CER minus plain text CER",
+      "estimate": 0.0011562297659790954,
+      "percentile_95_interval": [
+        0.0003722921562696326,
+        0.0019678659073019402
+      ]
+    },
+    "new_range": {
+      "method": "paired page bootstrap",
+      "draws": 10000,
+      "seed": 1603,
+      "difference": "styled text CER minus plain text CER",
+      "estimate": 0.00025289245748245557,
+      "percentile_95_interval": [
+        -0.00019634792852935403,
+        0.0006832722529349649
+      ]
+    }
+  },
+  "test_comparison": {
+    "split": "test",
+    "pages": [
+      {
+        "id": "bnf-f0031",
+        "lines": 90,
+        "characters": 2913,
+        "plain_errors": 27,
+        "styled_errors": 33
+      },
+      {
+        "id": "bnf-f0034",
+        "lines": 94,
+        "characters": 2932,
+        "plain_errors": 51,
+        "styled_errors": 49
+      },
+      {
+        "id": "bnf-f0037",
+        "lines": 94,
+        "characters": 2933,
+        "plain_errors": 25,
+        "styled_errors": 27
+      },
+      {
+        "id": "bnf-f0039",
+        "lines": 94,
+        "characters": 3084,
+        "plain_errors": 16,
+        "styled_errors": 17
+      },
+      {
+        "id": "bnf-f0077",
+        "lines": 94,
+        "characters": 3086,
+        "plain_errors": 55,
+        "styled_errors": 55
+      },
+      {
+        "id": "bnf-f0082",
+        "lines": 96,
+        "characters": 2864,
+        "plain_errors": 71,
+        "styled_errors": 74
+      },
+      {
+        "id": "bnf-f0090",
+        "lines": 94,
+        "characters": 3104,
+        "plain_errors": 32,
+        "styled_errors": 32
+      },
+      {
+        "id": "bnf-f0105",
+        "lines": 94,
+        "characters": 2931,
+        "plain_errors": 65,
+        "styled_errors": 68
+      },
+      {
+        "id": "bnf-f0113",
+        "lines": 93,
+        "characters": 3120,
+        "plain_errors": 47,
+        "styled_errors": 50
+      },
+      {
+        "id": "bnf-f0134",
+        "lines": 94,
+        "characters": 2954,
+        "plain_errors": 28,
+        "styled_errors": 33
+      },
+      {
+        "id": "bnf-f0135",
+        "lines": 91,
+        "characters": 3009,
+        "plain_errors": 26,
+        "styled_errors": 29
+      },
+      {
+        "id": "bnf-f0139",
+        "lines": 94,
+        "characters": 3213,
+        "plain_errors": 33,
+        "styled_errors": 32
+      },
+      {
+        "id": "bnf-f0142",
+        "lines": 94,
+        "characters": 3023,
+        "plain_errors": 49,
+        "styled_errors": 43
+      },
+      {
+        "id": "bnf-f0147",
+        "lines": 94,
+        "characters": 2935,
+        "plain_errors": 31,
+        "styled_errors": 29
+      },
+      {
+        "id": "bnf-f0152",
+        "lines": 94,
+        "characters": 3148,
+        "plain_errors": 49,
+        "styled_errors": 52
+      },
+      {
+        "id": "bnf-f0176",
+        "lines": 94,
+        "characters": 2983,
+        "plain_errors": 18,
+        "styled_errors": 21
+      },
+      {
+        "id": "bnf-f0182",
+        "lines": 94,
+        "characters": 3216,
+        "plain_errors": 20,
+        "styled_errors": 28
+      },
+      {
+        "id": "bnf-f0196",
+        "lines": 94,
+        "characters": 3218,
+        "plain_errors": 44,
+        "styled_errors": 49
+      },
+      {
+        "id": "bnf-f0200",
+        "lines": 94,
+        "characters": 3265,
+        "plain_errors": 40,
+        "styled_errors": 39
+      }
+    ],
+    "all": {
+      "method": "paired page bootstrap",
+      "draws": 10000,
+      "seed": 1603,
+      "difference": "styled text CER minus plain text CER",
+      "estimate": 0.0005696431962161883,
+      "percentile_95_interval": [
+        0.00008638114817822159,
+        0.0010325245224574084
+      ]
+    },
+    "old_range": {
+      "method": "paired page bootstrap",
+      "draws": 10000,
+      "seed": 1603,
+      "difference": "styled text CER minus plain text CER",
+      "estimate": 0.00035628607396498896,
+      "percentile_95_interval": [
+        -0.00018967234103086918,
+        0.0008766941522130604
+      ]
+    },
+    "new_range": {
+      "method": "paired page bootstrap",
+      "draws": 10000,
+      "seed": 1603,
+      "difference": "styled text CER minus plain text CER",
+      "estimate": 0.001137081490840177,
+      "percentile_95_interval": [
+        0.00030938679537157354,
+        0.001927141613825687
+      ]
+    }
+  },
+  "verification": {
+    "dataset_hashes_labels_and_page_split": true,
+    "frozen_checkpoint_hashes_match_packages": true,
+    "package_files_sha256_verified": true,
+    "package_inference_matches_five_saved_dev_predictions_each": true,
+    "internal_style_labels_absent_from_inference_json": true,
+    "canonical_text_and_geometry_changed": false
+  }
+}

@@ -1,5 +1,106 @@
 # Corrected f13–f200 OCR retraining
 
+## Completed release — 2026-09-10
+
+Both production models are trained, evaluated and packaged locally:
+
+- `models/local/nippo-calamari-v2-plain`: preferred when only text is needed.
+- `models/local/nippo-calamari-v2-styled`: preferred when the draft also needs
+  Roman/italic runs. It has a small text-accuracy cost, not identical accuracy.
+
+Both selected checkpoints are from epoch 12. The decision and checkpoint hashes
+were [frozen before testing](../experiments/ocr/calamari-v2-selection.json)
+in commit `d9dd648`. No tuning, selection change or postprocessing followed
+inspection of the test results. [Machine-readable results](../experiments/ocr/calamari-v2-results.json)
+contain aggregate metrics, page comparisons and provenance. Full evaluations
+are included in the local packages.
+
+### Final test: 19 pages, 1,780 lines, 57,931 characters
+
+| Metric | Previous model | New plain | New styled |
+| --- | ---: | ---: | ---: |
+| Text character error rate | 4.139% | **1.255%** | 1.312% |
+| Text character errors | 2,398 | 727 | 760 |
+| Exactly correct text lines | 693 | 1,288 | 1,266 |
+| Lines over 50% text error | 3 | 0 | 0 |
+| Roman/italic accuracy on correct non-space characters | — | — | 99.644% |
+| Combined character/typeface error rate | — | — | 1.612% |
+
+The previous model is evaluated on the same new crops and corrected references;
+its older published score is not the comparison baseline. The styled model adds
+33 text errors over plain, or 0.057 percentage points. The paired page-bootstrap
+95% interval for this difference is +0.009 to +0.103 percentage points. This is
+descriptive uncertainty on these pages, not a guarantee about later sections.
+
+The five newly held-out pages (f152, f176, f182, f196, f200) contain 470 lines
+and 15,830 characters. Their text CER is 4.011% / 1.080% / 1.194% for
+previous/plain/styled respectively. Styled typeface accuracy is 99.814% on
+correctly read non-space characters. The other fourteen test pages have
+historical project results and are therefore not wholly new to the project,
+although none were used to optimize these runs.
+
+### Useful improvements and remaining weaknesses
+
+On the full test set:
+
+- Extra terminal hyphens fell from 42 to 2 (plain) or 5 (styled); missed
+  terminal hyphens fell from 43 to 25 or 24. These are not solved completely.
+- Correct marked vowels increased from 679/898 to 838/898 or 831/898.
+- Direct `s`/`ſ` swaps fell from 11 to 7 for either new model. All other
+  losses or misreadings of these characters are counted separately.
+- `ß` was exact in 42/44 plain and 40/44 styled cases; literal `ſſ` in 18/20
+  for both. The four `ſs` examples are too few for a strong claim.
+- Styled accuracy is conditional on text being correct: 175 wrong typefaces
+  among 49,123 aligned, correctly read non-space characters. It does not credit
+  misread or missing text as correct style; combined error measures both.
+- Short font runs remain harder: only 136/181 runs of at most three non-space
+  characters have exact text and style. Of scorable font transitions, 1,365
+  are found, 87 missed and 73 spurious; 1,114 adjacent-character comparisons
+  are unscorable because of text errors.
+- For words seen in both typefaces in training, 1,396/1,421 test occurrences
+  have exact text and 1,384 have exact text plus style. This subset includes
+  ordinary vocabulary, not only Japanese loanwords or abbreviations.
+
+Validation text CER was 5.797% / 1.548% / 1.639%, with styled font accuracy
+99.534%. The release recommendation follows validation, not the final test.
+No blanket word-wide style smoothing is used: human annotations include real
+within-word font changes. The models were trained on f13–f200; accuracy farther
+into the dictionary has not been established by this benchmark.
+
+### Using the packages
+
+The existing native Calamari environment is required. For isolated, rectified
+line images (not whole pages):
+
+```sh
+python3 scripts/recognize_nippo_calamari.py \
+  --model models/local/nippo-calamari-v2-styled \
+  --output /path/to/predictions.json /path/to/line.png
+```
+
+Use the `-plain` package for text only. Default preprocessing preserves the
+whole rectified line, adjusts contrast and scales to 48 pixels high. Use
+`--prepared` only for images already given the identical training preprocessing.
+Polygon exteriors should be paper-white. The styled output contains ordinary
+Unicode text and explicit `roman`/`italic` runs, never internal private labels.
+Whitespace is attached to neighboring runs for serialization, not classified.
+
+Package hashes and selection fingerprints were verified. Five independent
+package-inference examples per model exactly reproduced the saved validation
+predictions, including a mixed Roman/italic line containing `ß`. The full
+dataset audit was rerun successfully. Canonical text and geometry were not
+modified. Existing page-generation commands still use their previous defaults;
+switching them to these packages is a separate integration step, especially
+because they must also adopt the shared full-extent image preprocessing.
+
+The packages are Git-ignored local deliverables, not temporary training caches.
+They include checkpoints, codec, provenance, evaluations and upstream license;
+matching ZIP archives alongside them were verified byte-for-byte against the
+packages. The normal (non-`--prepared`) inference path was also smoke-tested.
+The 13 retraining tests and two shared OCR-evaluator tests pass. Back up the
+packages independently. No model weights or source scans are published by
+the accompanying code/documentation commit.
+
 ## Experiment contract
 
 Compare a newly trained plain-text Calamari model with a style-aware variant,
@@ -71,14 +172,14 @@ and 1,780 test lines. All 17,631 source body lines are accounted for: 17,541
 19 validation, and 19 test pages; no page spans multiple splits. File hashes,
 current canonical references, style targets, and crop-width constraints passed
 `scripts/validate_ocr_retraining_dataset.py`.
-The plain run is complete and the style-aware run is in progress; no final
-model choice or final-test result has yet been reported. The original
+Both runs are complete; final results and the frozen selection are above.
+The following records the development experiments. The original
 black-exterior plain run stopped after its
 first saved checkpoint (validation CER 6.52%) when the controlled crop probe
 below identified a substantially better input representation. It is retained
 as a diagnostic, not represented as a completed paired comparison.
-Each has a maximum of 12 epochs and patience of three validation evaluations.
-The existing deployed model is also evaluated on the same validation images
+Each had a maximum of 12 epochs and patience of three validation evaluations.
+The existing deployed model was also evaluated on the same validation images
 and corrected references, rather than comparing incompatible historical scores.
 
 A 32-training-line / 16-validation-line smoke run successfully saved a styled
