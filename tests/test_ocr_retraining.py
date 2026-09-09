@@ -7,6 +7,19 @@ from build_ocr_retraining_dataset import styled_text, encode, decode, page_split
 
 
 class RetrainingTests(unittest.TestCase):
+    def test_paired_page_comparison_preserves_matching_pages(self):
+        from compare_ocr_retraining import bootstrap_difference
+        identical=[{'characters':100,'plain_errors':2,'styled_errors':2},
+                   {'characters':50,'plain_errors':10,'styled_errors':10}]
+        same=bootstrap_difference(identical,draws=100)
+        self.assertEqual(same['estimate'],0)
+        self.assertEqual(same['percentile_95_interval'],[0,0])
+        worse=[{'characters':100,'plain_errors':2,'styled_errors':12},
+               {'characters':50,'plain_errors':1,'styled_errors':6}]
+        result=bootstrap_difference(worse,draws=100)
+        self.assertAlmostEqual(result['estimate'],.1)
+        self.assertEqual(result['percentile_95_interval'],[.1,.1])
+
     def test_style_initialization_preserves_character_probability_mass(self):
         import numpy as np
         from train_styled_calamari import duplicate_logits

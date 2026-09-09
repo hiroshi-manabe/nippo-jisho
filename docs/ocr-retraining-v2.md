@@ -169,6 +169,14 @@ before generating test predictions. Evaluate those with
 `scripts/evaluate_ocr_retraining.py --split test`, adding `--styled` only for
 the encoded model.
 
+`scripts/compare_ocr_retraining.py` compares the decoded text predictions and
+adds a paired page-bootstrap interval for styled-minus-plain CER. It resamples
+whole pages because lines on one page share typography and scan conditions;
+the exact same sampled pages contribute to both models. Report the newer
+holdout subset separately, while recognizing that five pages give limited
+evidence about the rest of the dictionary. Use development predictions for
+selection; test comparisons are reporting only, not another tuning round.
+
 `scripts/package_ocr_model.py` requires a completed matching run, final test
 evaluation, and selection record. It copies the SavedModel and codec, dataset
 summary/audit, validation/test results, and upstream license notice into a fresh
