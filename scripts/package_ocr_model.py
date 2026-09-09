@@ -10,6 +10,22 @@ import subprocess
 ROOT = Path(__file__).resolve().parents[1]
 
 
+def checkpoint_hashes(run):
+    files = [run/'best.ckpt.json', *sorted((run/'best.ckpt').rglob('*'))]
+    return {str(f.relative_to(run)): hashlib.sha256(f.read_bytes()).hexdigest()
+            for f in files if f.is_file()}
+
+
+def verify_selection(selection, run, mode, dataset):
+    """Do not package a checkpoint different from the pre-test decision."""
+    selected = selection['models'][mode]
+    if selected['checkpoint_sha256'] != checkpoint_hashes(run):
+        raise ValueError('Checkpoint differs from frozen selection')
+    fingerprint = hashlib.sha256((dataset/'records.jsonl').read_bytes()).hexdigest()
+    if selection['training_records_sha256'] != fingerprint:
+        raise ValueError('Dataset differs from frozen selection')
+
+
 def main():
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument('--run',type=Path,required=True)
@@ -38,6 +54,7 @@ def main():
     dataset=Path(experiment['dataset'])
     if not dataset.is_absolute():
         dataset=ROOT/dataset
+    verify_selection(selection, args.run, args.mode, dataset)
     for source in (dataset/'summary.json',dataset/'audit.json',args.upstream_repository/'LICENSE'):
         if not source.is_file():
             raise FileNotFoundError(source)

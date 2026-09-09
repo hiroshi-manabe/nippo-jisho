@@ -7,6 +7,23 @@ from build_ocr_retraining_dataset import styled_text, encode, decode, page_split
 
 
 class RetrainingTests(unittest.TestCase):
+    def test_packaging_rejects_checkpoint_changes_after_selection(self):
+        import hashlib
+        import tempfile
+        from package_ocr_model import checkpoint_hashes, verify_selection
+        with tempfile.TemporaryDirectory() as temp:
+            root=Path(temp)
+            (root/'best.ckpt').mkdir()
+            (root/'best.ckpt/saved_model.pb').write_bytes(b'checkpoint')
+            (root/'best.ckpt.json').write_text('{}')
+            (root/'records.jsonl').write_text('records')
+            selection={'models':{'plain':{'checkpoint_sha256':checkpoint_hashes(root)}},
+                       'training_records_sha256':hashlib.sha256(b'records').hexdigest()}
+            verify_selection(selection,root,'plain',root)
+            (root/'best.ckpt/saved_model.pb').write_bytes(b'changed')
+            with self.assertRaisesRegex(ValueError,'Checkpoint differs'):
+                verify_selection(selection,root,'plain',root)
+
     def test_paired_page_comparison_preserves_matching_pages(self):
         from compare_ocr_retraining import bootstrap_difference
         identical=[{'characters':100,'plain_errors':2,'styled_errors':2},
