@@ -42,6 +42,12 @@ def load_json(path: Path) -> dict:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+def is_fresh_machine_draft(document: dict) -> bool:
+    review = document.get("review", {})
+    return (review.get("origin") == "calamari_v2_machine_provisional"
+            and review.get("status") == "visual_draft")
+
+
 def git_commit(root: Path) -> str:
     override = os.environ.get("GITHUB_SHA")
     if override:
@@ -336,12 +342,15 @@ def main() -> int:
             ),
         }
         source = level1_dir / f"{page_id}.json"
+        fresh_machine_draft = False
         if source.exists():
+            canonical = load_json(source)
+            fresh_machine_draft = is_fresh_machine_draft(canonical)
             revision_path = root / "pilot" / "format-v1-trial" / "level1-source" / f"{page_id}.md"
             baseline_commit, baseline_updated_at = revisions[revision_path.relative_to(root).as_posix()]
             page.update(
                 processed_page(
-                    load_json(source),
+                    canonical,
                     config.get(page_id, {}),
                     reviews.get(page_id, {}),
                     geometries.get(page_id, {}),
@@ -355,7 +364,8 @@ def main() -> int:
                     "machine_provisional": False,
                     "source_label": "Source Markdown",
                     "structural_review_required": False,
-                    "ai_checked": (root / "pilot" / "production-review" / f"{page_id}.md").exists(),
+                    "ai_checked": (root / "pilot" / "production-review" / f"{page_id}.md").exists()
+                    and not fresh_machine_draft,
                     "baseline_commit": baseline_commit,
                     "baseline_updated_at": baseline_updated_at,
                 }
@@ -419,7 +429,7 @@ def main() -> int:
                     "baseline_updated_at": None,
                 }
             )
-        page["commentary_review"] = commentary_reviews.get(page_id)
+        page["commentary_review"] = None if fresh_machine_draft else commentary_reviews.get(page_id)
         if page["commentary_review"]:
             if not page.get("processed") or page.get("machine_provisional"):
                 raise ValueError(f"Commentary review registered for noncanonical page {page_id}")

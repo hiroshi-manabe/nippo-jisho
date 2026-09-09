@@ -15,6 +15,10 @@ Use the package inference command in that report. Existing page-generation
 defaults have not been switched automatically. The remainder of this document
 records the earlier models, datasets and reproduction procedures.
 
+For applying the new styled model to human-unreviewed page data, use the
+[protected, resumable v2 refresh](ocr-v2-page-refresh.md), not the older
+page-generation defaults below.
+
 ## Dataset and benchmark
 
 `scripts/build_ocr_dataset.py` matches the compact Level 1 text for `f13`–`f150`

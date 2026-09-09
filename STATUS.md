@@ -1,6 +1,17 @@
 # Project Status
 
-Last updated: 2026-09-07
+Last updated: 2026-09-10
+
+## OCR v2 refresh of human-unreviewed pages
+
+The [v2 styled OCR refresh](docs/ocr-v2-page-refresh.md) has updated all 439
+eligible pages (f201–f247 and f251–f642). It accepted 40,944 newly recognized
+body lines and retained 225 uncertain/special lines with explicit reasons.
+The 188 human-corrected pages f13–f200, the early f248–f250 trial references,
+and exceptional f643 remain unchanged. Stable IDs, furniture and UI geometry
+are preserved. Replacement text is a machine draft, not covered by any earlier
+AI check. The full integrity audit, compact-corpus validation and site build
+passed. See the linked report for backups, exceptions and repeatable commands.
 
 ## Line-clipping repair pilot
 
