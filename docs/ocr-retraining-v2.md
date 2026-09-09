@@ -136,6 +136,11 @@ despite fewer missing or otherwise misread s characters. This is evidence of
 substantial but uneven improvement, not a claim that all glyph distinctions
 are solved. The snapshot and results are retained in
 `.cache/ocr-model/runs/calamari-plain-v2d-epoch7-diagnostic/`.
+The s-swap total is strongly clustered: 19/28 occur on f66, including 14
+Roman headwords in the `Busa-`/`Bus-` sequence. Across the whole validation set,
+only seven swaps are immediately before `t`; five are other italic contexts
+and 16 other Roman contexts. Do not extrapolate a broad `st` failure from this
+aggregate or silently relabel the human-reviewed references to match the model.
 
 On this eight-core/16 GB host the two trainers contended for CPU and ran slower
 together. The production runs therefore execute sequentially. The already
