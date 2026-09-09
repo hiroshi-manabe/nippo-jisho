@@ -51,6 +51,7 @@ def main():
         raise SystemExit(result.returncode)
     meta['status'] = 'predicting_dev'
     record()
+    (args.output / 'dev-predictions').mkdir(parents=True, exist_ok=True)
     command = ['arch', '-arm64', str(binary / 'calamari-predict'), '--checkpoint',
         str(args.output / 'best.ckpt'), '--data.images', str(args.dataset / args.mode / 'dev/*.png'),
         '--output_dir', str(args.output / 'dev-predictions'), '--verbose', 'false',
