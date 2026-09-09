@@ -52,8 +52,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l036` | &emsp;*quenina de Iapão.* |  |
 | `c1-l037` | Cofacu. Tama tama. i. Chiruoſû tama. |  |
 | `c1-l038` | &emsp;*Alambre.* |  |
-| `c1-l039` | Cǒfacu. Atçui, vſui. *Eſpeſſo, & ralo, ou* |  |
-| `c1-l040` | &emsp;*groſſo, & delgado.* |  |
+| `c1-l039` | Cǒfacu. Atçui, vſui. *Eſpeßo, & ralo, ou* |  |
+| `c1-l040` | &emsp;*großo, & delgado.* |  |
 | `c1-l041` | Côfacu Curenai, xiroxi. *Vermelho, &* |  |
 | `c1-l042` | &emsp;*branco.* |  |
 | `c1-l043` | Côfai. Suataretaruuo vocoſu. *Renouar,* |  |
@@ -97,7 +97,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l023` | &emsp;*couſas ſendo menino que excedem o ſaber da* |  |
 | `c2-l024` | &emsp;*quella idade. ¶ Item, Dizer algũas cou-* |  |
 | `c2-l025` | &emsp;*ſas liuremente, ou deſmandandoſe.* |  |
-| `c2-l026` | Côfeina. *Peſſoa que faz, ou diz couſas ſe* |  |
+| `c2-l026` | Côfeina. *Peßoa que faz, ou diz couſas ſe* |  |
 | `c2-l027` | &emsp;*melhantes.* |  |
 | `c2-l028` | Cofeqi. Furuicuxe. *Mao habito, & anti-* |  |
 | `c2-l029` | &emsp;*go, ou ruim cuſtume ja velho.* |  |

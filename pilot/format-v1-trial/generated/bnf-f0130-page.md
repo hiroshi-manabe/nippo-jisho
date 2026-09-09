@@ -19,7 +19,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l003` | Côtai. Nochino yo. *Idades futuras. Vt,* |  |
 | `c1-l004` | &emsp;Côtaini nauo nocoſu, l, aguru. *Deixar* |  |
 | `c1-l005` | &emsp;*fama, ou nome aos vindouros.* |  |
-| `c1-l006` | Cǒtai. Tacai vtena. *Aſſento, ou trono alto.* |  |
+| `c1-l006` | Cǒtai. Tacai vtena. *Aßento, ou trono alto.* |  |
 | `c1-l007` | Cotama. i. Yamabico. *Eco dos montes.* |  |
 | `c1-l008` | Cotan. Torano qimo. *Bofes, ou figado de* |  |
 | `c1-l009` | &emsp;*tigre.* |  |
@@ -34,7 +34,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l018` | Cotçutçumi. *Hũs papeis em que emburulhão* |  |
 | `c1-l019` | &emsp;*varios cheiros.* |  |
 | `c1-l020` | Cotdǒ. Fonenodǒ. i. Foneuo veſtimuru dǒ. |  |
-| `c1-l021` | &emsp;*Carneiro, ou caſa õde ſe enterra a oſſada de cor* |  |
+| `c1-l021` | &emsp;*Carneiro, ou caſa õde ſe enterra a oßada de cor* |  |
 | `c1-l022` | &emsp;*pos mortos.* |  |
 | `c1-l023` | Cote. *Certo modo de amarrar homẽs pellos col-* |  |
 | `c1-l024` | &emsp;*los das mãos. ¶* Tacate coteni xibaru. |  |
@@ -56,12 +56,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l040` | &emsp;*nos hombros atè meo braço.* |  |
 | `c1-l041` | Cotgai. Fone xigai. *Oſſos, & corpo morto.* |  |
 | `c1-l042` | Cotgainin. i. Cotjiqi ſuru mono. *Pedinte.* |  |
-| `c1-l043` | Cotgara. *Feição, ou compoſtura da peſſoa.* |  |
+| `c1-l043` | Cotgara. *Feição, ou compoſtura da peßoa.* |  |
 | `c1-l044` | Cotjento xite. *De ſubito, ou ſem mais de-* |  |
 | `c1-l045` | &emsp;*tença.* |  |
 | `c1-l046` | Cotjiqi. Xocuuo cô. *Pedinte.* |  |
 | `c1-l047` | Cotnen. Tachimachi xicanari. *Logo de re* |  |
-| `c1-l048` | &emsp;*pente, ou a ceſſohoras.* |  |
+| `c1-l048` | &emsp;*pente, ou a ceßohoras.* |  |
 
 ## Column 2 running header
 
@@ -76,7 +76,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l001` | Cotnicu. Fone, xiximura. *Oſſos, & car-* |  |
 | `c2-l002` | &emsp;*ne. ¶* Cotnicuno nozomi. *Deſejos* |  |
 | `c2-l003` | &emsp;*da carne.* |  |
-| `c2-l004` | &emsp;¶ Cotnicudôfǒ. *Da meſma carne oſſos, &* |  |
+| `c2-l004` | &emsp;¶ Cotnicudôfǒ. *Da meſma carne oßos, &* |  |
 | `c2-l005` | &emsp;*caſta. Vt,* Cotnicu dôſǒno ninguen. |  |
 | `c2-l006` | &emsp;*Homem da meſma maſſa, & natureza.* |  |
 | `c2-l007` | &emsp;¶ Cotnicu dôſǒno qiǒdai. *Irmãos do* |  |
@@ -104,7 +104,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l029` | Cotoba datacai. *Contenda de palauras.* |  |
 | `c2-l030` | Cotobagoxi. *O interromper ao que esta falan* |  |
 | `c2-l031` | &emsp;*do. Vt,* Vocotobagoxi naredomo. *A* |  |
-| `c2-l032` | &emsp;*inda que ſeja cortar o fio da pratica de voſſa* |  |
+| `c2-l032` | &emsp;*inda que ſeja cortar o fio da pratica de voßa* |  |
 | `c2-l033` | &emsp;*merçe. No Cami*, *& mais geralmẽte ſe diz.* |  |
 | `c2-l034` | &emsp;Vocotoba nacaba naredomo. *Idem.* |  |
 | `c2-l035` | Cotobatçuqi. *Modo de falar, ou ſom das pa-* |  |

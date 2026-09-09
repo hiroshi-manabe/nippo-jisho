@@ -51,9 +51,9 @@ A repeated ornamental band is printed above the title; it contains no lexical te
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c1-l020` | Aba. *Lugar como ceuadouro onde ſe deita, ou* |  |
-| `c1-l021` | &emsp;*arma rede aos paſſaros. ¶ Item, Lugar* |  |
+| `c1-l021` | &emsp;*arma rede aos paßaros. ¶ Item, Lugar* |  |
 | `c1-l022` | &emsp;*onde tirão a rede do peixe.* |  |
-| `c1-l023` | Abaqemono. *Peſſoa indiſcreta, & deza-* |  |
+| `c1-l023` | Abaqemono. *Peßoa indiſcreta, & deza-* |  |
 | `c1-l024` | &emsp;*tentada no fallar, &c.* |  |
 | `c1-l025` | Abaqi, u, aita. *Comummente ſe vſa no* |  |
 | `c1-l026` | &emsp;*negatiuo por não caber. ¶ Vt,* Cono nin |  |
@@ -85,7 +85,7 @@ A repeated ornamental band is printed above the title; it contains no lexical te
 | `c2-l013` | &emsp;re. uru. *Ser deſordenado, ou deſmancha-* |  |
 | `c2-l014` | &emsp;*do como os meninos no brincar, &c. ¶* Co- |  |
 | `c2-l015` | &emsp;no varanbega abarete tamaranu. *Não* |  |
-| `c2-l016` | &emsp;*ha poderſe valer cõ eſte menino que aſſi brin* |  |
+| `c2-l016` | &emsp;*ha poderſe valer cõ eſte menino que aßi brin* |  |
 | `c2-l017` | &emsp;*ca, & ſe deſordena ¶* Abareta fito, l, |  |
 | `c2-l018` | &emsp;abaramono. *Homem mal criado, & deſ-* |  |
 | `c2-l019` | &emsp;*concertado, & impetuoſo, &c. ¶* Ne- |  |

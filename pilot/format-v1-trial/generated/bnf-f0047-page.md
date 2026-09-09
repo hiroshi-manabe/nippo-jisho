@@ -15,11 +15,11 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c1a-l001` | &emsp;*poſito. ¶* Tçucaini azzucaru. *Receber* |  |
-| `c1a-l002` | &emsp;*recado de peſſoa honrrada. ¶* Gojǒni azzu |  |
-| `c1a-l003` | &emsp;caru. *Receber carta de peſſoa honrrada.* |  |
+| `c1a-l002` | &emsp;*recado de peßoa honrrada. ¶* Gojǒni azzu |  |
+| `c1a-l003` | &emsp;caru. *Receber carta de peßoa honrrada.* |  |
 | `c1a-l004` | &emsp;*¶* Ximexi azzucaru. *Ser auizado dalgũa* |  |
 | `c1a-l005` | &emsp;*couſa.* |  |
-| `c1a-l006` | Azzucaribito. *Peſſoa depoſitada.* |  |
+| `c1a-l006` | Azzucaribito. *Peßoa depoſitada.* |  |
 | `c1a-l007` | Azzucarite. *Oq̃ toma em depoſito algũa couſa.* |  |
 | `c1a-l008` | Azzucariǔdo. *Idem.* |  |
 | `c1a-l009` | Azzuchi. *Barreira pera tirar ao aluo.* |  |
@@ -108,7 +108,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l020` | &emsp;*manchado nas palauras, & mais acçoẽs.* |  |
 | `c2-l021` | Babameqi, u, eita. *Fazer traquinada, ou* |  |
 | `c2-l022` | &emsp;*estrondo o caualo.* |  |
-| `c2-l023` | Babamixe. *O paſſear o caualo a carreira antes* |  |
+| `c2-l023` | Babamixe. *O paßear o caualo a carreira antes* |  |
 | `c2-l024` | &emsp;*que corra.* |  |
 | `c2-l025` | Babato ſuru. i. Babamequ. |  |
 | `c2-l026` | Babazuye. *Termo, ou parte inferior da car* |  |

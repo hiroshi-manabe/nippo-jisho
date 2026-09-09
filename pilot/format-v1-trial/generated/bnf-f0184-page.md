@@ -35,7 +35,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l019` | &emsp;*diçoẽs que na letra de Iapão começão, ou a ca-* |  |
 | `c1-l020` | &emsp;*bão em,* eu, *posto que no pronunciar mais ſe* |  |
 | `c1-l021` | &emsp;*chegão a,* i, *que a,* e, *como ſe ve neſta di-* |  |
-| `c1-l022` | &emsp;*ção,* Fiô: *os do* Cami *tambem aſſi pronucião.* |  |
+| `c1-l022` | &emsp;*ção,* Fiô: *os do* Cami *tambem aßi pronucião.* |  |
 | `c1-l023` | &emsp;*Mas disto no prologo ſe darà mais copioſamen-* |  |
 | `c1-l024` | &emsp;*te razão.* |  |
 | `c1-l025` | Feô, l, fiô. Tauara. *Fardo.* |  |

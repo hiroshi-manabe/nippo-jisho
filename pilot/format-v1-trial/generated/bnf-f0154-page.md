@@ -53,7 +53,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l037` | Dendǒ. Iye iye. *Templo, ou* Tera. *¶ Itẽ,* |  |
 | `c1-l038` | &emsp;*Paços, ou caſas grandes do Dairi.* |  |
 | `c1-l039` | Dengacu. *Bõzos bailadores. ¶ Item,* T*ǒ* |  |
-| `c1-l040` | &emsp;*fus com Miſo eſpetados, & aſſados.* |  |
+| `c1-l040` | &emsp;*fus com Miſo eſpetados, & aßados.* |  |
 | `c1-l041` | Dengo, l, dengon. i. Cototçute. *Enco-* |  |
 | `c1-l042` | &emsp;*mendas que ſe dão de palaura.* |  |
 | `c1-l043` | Dengõ. Cotobauo tçutayuru. *Vide,* Dẽgo. |  |

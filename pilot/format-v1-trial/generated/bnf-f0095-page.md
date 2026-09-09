@@ -35,9 +35,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l019` | &emsp;*hũ pouco ſeca de condição, & falta, ou curta* |  |
 | `c1-l020` | &emsp;*nos cõprimẽtos.* |  |
 | `c1-l021` | Catacunaxij. *Idem. Mais uſado. ¶ Itẽ, No* |  |
-| `c1-l022` | &emsp;ximo *peſſoa acanhada, & coitada.* |  |
+| `c1-l022` | &emsp;ximo *peßoa acanhada, & coitada.* |  |
 | `c1-l023` | Catachi. *Figura, ou parecer do roſto. ¶* Mi- |  |
-| `c1-l024` | &emsp;me, catachi yoni ſugureta fito. *Peſſoa* |  |
+| `c1-l024` | &emsp;me, catachi yoni ſugureta fito. *Peßoa* |  |
 | `c1-l025` | &emsp;*de inſigne fermoſura.* |  |
 | `c1-l026` | Catachigu. *Hũa de duas couſas queſe contão* |  |
 | `c1-l027` | &emsp;*por pares como hum çapato, hum bude, &c.* |  |

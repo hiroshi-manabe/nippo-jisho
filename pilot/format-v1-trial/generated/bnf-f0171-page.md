@@ -46,7 +46,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l030` | &emsp;*ção que vai à vella entregaſe ao vento.* |  |
 | `c1-l031` | Fanxi. i, Nacarajini. *Meo morto: quãdo ſe a* |  |
 | `c1-l032` | &emsp;*jũta com* Fãjǒ *ſe diz,* Fanji fanjǒ *vt ſuprà.* |  |
-| `c1-l033` | Fanxi. *Carta aſſinada em branco. ¶ Item,* |  |
+| `c1-l033` | Fanxi. *Carta aßinada em branco. ¶ Item,* |  |
 | `c1-l034` | &emsp;*No* Chûgocu *papel em que o* Yacata *eſcreue* |  |
 | `c1-l035` | &emsp;*cartas.* |  |
 | `c1-l036` | Fanxǔ. Focaqe bune. *Embarcação à vella.* |  |
@@ -58,7 +58,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l042` | &emsp;*perar, ou multiplicarſe algũa familia, &c.* |  |
 | `c1-l043` | Fanza. i, Zano fanbun. *Mea ſala, ou mea* |  |
 | `c1-l044` | &emsp;*camara. ¶* Fanzauo vaqete fitouo iſu. |  |
-| `c1-l045` | &emsp;*S. Fazer aſſentar a alguem, dandolhe* |  |
+| `c1-l045` | &emsp;*S. Fazer aßentar a alguem, dandolhe* |  |
 | `c1-l046` | &emsp;*meo* Zaxiqi*.* |  |
 | `c1-l047` | Fanzacu. Nacara tçucuru. *Obra mea feita,* |  |
 | `c1-l048` | &emsp;*ou imperfeita.* |  |

@@ -49,7 +49,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l033` | Cùxo. Munaxij tocoro. *Lugar vazio.* |  |
 | `c1-l034` | Cuxǒjin. Tomoni xǒzuru Cami. *Cami,* |  |
 | `c1-l035` | &emsp;*ou Diabo que naſce juntamente com alguem, &* |  |
-| `c1-l036` | &emsp;*lhe aſſiſte em quanto viue, cujo officio he denũ-* |  |
+| `c1-l036` | &emsp;*lhe aßiſte em quanto viue, cujo officio he denũ-* |  |
 | `c1-l037` | &emsp;*ciar ao Rei dos Diabos todas as couſas mal fei-* |  |
 | `c1-l038` | &emsp;*tas, ou peccados que faz neſta vida, o qual os eſ-* |  |
 | `c1-l039` | &emsp;*creue em hũa lamina de ferro, como cuidão os* |  |
@@ -111,7 +111,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l037` | Cùzan. Munaxij yama. *Mõte ſolitario. S.* |  |
 | `c2-l038` | Cuzu. *Certa eſpecie de erua cuja raiz ſe come.* |  |
 | `c2-l039` | &emsp;*¶ Item, Farinha que ſe faz deſta raiz.* |  |
-| `c2-l040` | Cuzubacama. *Calções aſſi chamados pera jugar* |  |
+| `c2-l040` | Cuzubacama. *Calções aßi chamados pera jugar* |  |
 | `c2-l041` | &emsp;*a pella.* |  |
 | `c2-l042` | Cuzucazzura. *Hũa laya de era.* |  |
 | `c2-l043` | Cuzumochi. *Mochis feitos da farinha da raiz* |  |

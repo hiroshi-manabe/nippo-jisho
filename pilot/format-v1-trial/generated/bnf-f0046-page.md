@@ -47,7 +47,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1a-l031` | Ayezu. *Iunto com outros verbos na raiz ſigni-* |  |
 | `c1a-l032` | &emsp;*fica não acabar algũa couſa. Vt,* Yomiaye- |  |
 | `c1a-l033` | &emsp;zu. *Não acabando de ler. ¶* Torumo- |  |
-| `c1a-l034` | &emsp;nomo toriayezu. *Com preſſa não acabar* |  |
+| `c1a-l034` | &emsp;nomo toriayezu. *Com preßa não acabar* |  |
 | `c1a-l035` | &emsp;*de tomar. i. Eſtar com preſſa, & perturbação.* |  |
 | `c1a-l036` | &emsp;*¶* Toriayezuni tçucamatçuru. *Fazer al* |  |
 | `c1a-l037` | &emsp;*gũa couſa como banquete, &c. ſem aparelho,* |  |

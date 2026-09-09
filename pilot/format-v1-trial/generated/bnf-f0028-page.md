@@ -31,9 +31,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l015` | &emsp;yori cudaru vrono megumi. *Influencias* |  |
 | `c1-l016` | &emsp;*da chuua, & orualho que caem do ceo. ¶* A- |  |
 | `c1-l017` | &emsp;mega xita. *De baixo do ceo.* |  |
-| `c1-l018` | Ame. *Certa agoamel groſſa, ou alfeloa que ſe* |  |
+| `c1-l018` | Ame. *Certa agoamel großa, ou alfeloa que ſe* |  |
 | `c1-l019` | &emsp;*faz em Iapão de trigo, & outras couſas.* |  |
-| `c1-l020` | Amedori. *Hum paſſaro domar.* |  |
+| `c1-l020` | Amedori. *Hum paßaro domar.* |  |
 | `c1-l021` | Amegata. *Certa laya de alfeloas de trigo, &* |  |
 | `c1-l022` | &emsp;*outras couſas feitas em talhadas.* |  |
 | `c1-l023` | Ameiro. *Cor como loura daquella agoame* |  |
@@ -78,19 +78,19 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | &emsp;miuo vtçu. *Tomar paſſaros com rede de* |  |
+| `c2-l001` | &emsp;miuo vtçu. *Tomar paßaros com rede de* |  |
 | `c2-l002` | &emsp;*tomabo. ¶* Amiuo caſu. *Deitar rede* |  |
 | `c2-l003` | &emsp;*de meijoada. ¶* Amiuo faru. *Armar* |  |
 | `c2-l004` | &emsp;*rede no campo pera tomar codornizes, ou ou-* |  |
-| `c2-l005` | &emsp;*tros paſſaros. ¶* Amiuo tçuq cabuſuru. |  |
-| `c2-l006` | &emsp;*Botar a rede ſobre alguns paſſaros como* Qujís, |  |
+| `c2-l005` | &emsp;*tros paßaros. ¶* Amiuo tçuq cabuſuru. |  |
+| `c2-l006` | &emsp;*Botar a rede ſobre alguns paßaros como* Qujís, |  |
 | `c2-l007` | &emsp;*que vão voando. ¶* Tçuqiami. *Rede* |  |
-| `c2-l008` | &emsp;*com que cobrem, ou dão ſobre alguns paſſaros.* |  |
+| `c2-l008` | &emsp;*com que cobrem, ou dão ſobre alguns paßaros.* |  |
 | `c2-l009` | Ami. *Certo pexeſinho miudo como camaroẽs.* |  |
 | `c2-l010` | &emsp;*¶* Amino xiuocara. *Conſerua, ou ſal-* |  |
 | `c2-l011` | &emsp;*moura destes pexinhos, ou camaroẽs.* |  |
 | `c2-l012` | Amiba. *Lugar como ceuadouro onde ſe arma,* |  |
-| `c2-l013` | &emsp;*ou lança rede pera tomar peixes, ou paſſaros.* |  |
+| `c2-l013` | &emsp;*ou lança rede pera tomar peixes, ou paßaros.* |  |
 | `c2-l014` | &emsp;*¶ Item, Lugar onde puxão, & tirão a rede* |  |
 | `c2-l015` | &emsp;*com peixe.* |  |
 | `c2-l016` | Amidare. *Esteiras ralas que ſe poem diante das* |  |

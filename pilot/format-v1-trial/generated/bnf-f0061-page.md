@@ -112,9 +112,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l032` | &emsp;*cação que os* Ienxǔs *dão.* |  |
 | `c2-l033` | Boſat. Taſuqe, uru. *Dignidade de menos* |  |
 | `c2-l034` | &emsp;*que* Fotoqe. |  |
-| `c2-l035` | Bǒsǒ. Chigaya. *Erua aſſi chamada.* |  |
+| `c2-l035` | Bǒsǒ. Chigaya. *Erua aßi chamada.* |  |
 | `c2-l036` | Botai. Fauano fara. *Ventre da mãy.* |  |
-| `c2-l037` | Botan. *Erua, ou roſa aſſi chamada.* |  |
+| `c2-l037` | Botan. *Erua, ou roſa aßi chamada.* |  |
 | `c2-l038` | Botbot. Fucaxi fucaxi. *Couſa profunda.* |  |
 | `c2-l039` | Botdeqi. Xizzumi, voboruru. *O afogarſe.* |  |
 | `c2-l040` | Boten. Cureno ſora. *Tempo do ſol poſto, ou* |  |

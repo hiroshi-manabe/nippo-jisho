@@ -16,7 +16,7 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c1-l001` | &emsp;*ſentarſe em alto como em cadeira, banco, &c.* |  |
 | `c1-l002` | &emsp;*¶ Item,* Vocoxiuo caqeſaxeraruru. *Vir,* |  |
-| `c1-l003` | &emsp;*ou entrar peſſoa honrrada em caſa dalguem.* |  |
+| `c1-l003` | &emsp;*ou entrar peßoa honrrada em caſa dalguem.* |  |
 | `c1-l004` | &emsp;*¶* Fiuo caquru. *Por, ou pegar fogo.* |  |
 | `c1-l005` | &emsp;*¶* Qeuo caquru. *Fazer riſcas, ou re-* |  |
 | `c1-l006` | &emsp;*grar. ¶* Cane nadouo caquru. *Pezar* |  |
@@ -50,7 +50,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l034` | &emsp;*Botar a rede ſobre paſſaros que ſe aleuantão vo* |  |
 | `c1-l035` | &emsp;*ando. Itẽ, Ajuntandoſe com as raizes de* |  |
 | `c1-l036` | &emsp;*muitos verbos ſignifica ter começada a couſa,* |  |
-| `c1-l037` | &emsp;*& aſſi dizemos. ¶* Xicaqete. *Tendo* |  |
+| `c1-l037` | &emsp;*& aßi dizemos. ¶* Xicaqete. *Tendo* |  |
 | `c1-l038` | &emsp;*começado afazer.* |  |
 | `c1-l039` | Caqe, uru. *Multiplicar, eſpecie de contar.* |  |
 | `c1-l040` | Caqe, uru, eta. *Faltar algũa couſa.* |  |
@@ -98,7 +98,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l024` | &emsp;*eſtaua dantes.* |  |
 | `c2-l025` | Caqede, zzuru, eta. *Sair a caualo corrẽdo.* |  |
 | `c2-l026` | Caqefaxi. *Eſcada leuadiça. ¶* Tenni ca |  |
-| `c2-l027` | &emsp;qe faxi. *Se diz de couſa que he impoſſiuel* |  |
+| `c2-l027` | &emsp;qe faxi. *Se diz de couſa que he impoßiuel* |  |
 | `c2-l028` | &emsp;*como eſcada que não pode chegar ao ceo.* |  |
 | `c2-l029` | Caqefazzuxi, ſu, uita. *Deſencontrarſe cõalguẽ* |  |
 | `c2-l030` | &emsp;*indo correndo a caualo. ¶ Itẽ, Botar a rede* |  |

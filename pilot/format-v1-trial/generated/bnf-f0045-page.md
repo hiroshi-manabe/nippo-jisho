@@ -18,7 +18,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1a-l002` | &emsp;*dar ao pè çepello. Vt,* Axiricoguiuo ſuru. |  |
 | `c1a-l003` | &emsp;*Idem.* |  |
 | `c1a-l004` | Axi ſuzume, l, Yoxiuara ſuzume. *Hum* |  |
-| `c1a-l005` | &emsp;*paſſaro mayor que pardal de cor cinzenta.* |  |
+| `c1a-l005` | &emsp;*paßaro mayor que pardal de cor cinzenta.* |  |
 | `c1a-l006` | Axita. i. Aſa. *Polamanhaã.* |  |
 | `c1a-l007` | Axitacagumo. *Hũa eſpecie de aranhas de* |  |
 | `c1a-l008` | &emsp;*pees muito compridos.* |  |

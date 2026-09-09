@@ -24,8 +24,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l008` | Aimaqe, uru, eta. *Vide* Maqe, uru. |  |
 | `c1-l009` | Aimatçuri, u, utta. *Vide* Matçuri, u. |  |
 | `c1-l010` | Aimei. i. Auaremi naqu. *Chorar com triste-* |  |
-| `c1-l011` | &emsp;*za, ou compaſſiuamente, propriamente ſe diz* |  |
-| `c1-l012` | &emsp;*de paſſaros, ou animaes.* |  |
+| `c1-l011` | &emsp;*za, ou compaßiuamente, propriamente ſe diz* |  |
+| `c1-l012` | &emsp;*de paßaros, ou animaes.* |  |
 | `c1-l013` | Aimin. Auaremi, u. *Piedade, & compai-* |  |
 | `c1-l014` | &emsp;*xão. ¶* Aimin, l, airenuo taruru, l, cu |  |
 | `c1-l015` | &emsp;uayuru. *Ter piedade, ou miſericordia.* |  |
@@ -118,7 +118,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l044` | Aiſomuqi, u, uita. *Vide* Somuqi, qu. |  |
 | `c2-l045` | Aisǒraxij. *Affabil, benigno, & apraziuel.* |  |
 | `c2-l046` | &emsp;*¶* Aisoraxij cotobauo caquru. *Dizer* |  |
-| `c2-l047` | &emsp;*palauras brandas, & compaſſiuas. ¶* Fi ouo |  |
+| `c2-l047` | &emsp;*palauras brandas, & compaßiuas. ¶* Fi ouo |  |
 
 ## Signature
 

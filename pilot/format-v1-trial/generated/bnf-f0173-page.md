@@ -44,7 +44,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l028` | &emsp;*&c. ¶ Item, Couſa patente, deſcuberta, &* |  |
 | `c1-l029` | &emsp;*deſabafada.* |  |
 | `c1-l030` | Fareyuqi, u, uita. *Ir aclarando o tempo, &c.* |  |
-| `c1-l031` | &emsp;*Vt,* Aſaguirino fare yuqu mamani. *Aſſi* |  |
+| `c1-l031` | &emsp;*Vt,* Aſaguirino fare yuqu mamani. *Aßi* |  |
 | `c1-l032` | &emsp;*como ſe hia des*f*azẽdo a neuoa de pollamenhaã.* |  |
 | `c1-l033` | Fari. *Agulha, ou lanceta. ¶* Fariuo fi- |  |
 | `c1-l034` | &emsp;neru. *Meter certas agulhas, ou alfenetes por* |  |

@@ -111,7 +111,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l037` | &emsp;*no freo.* |  |
 | `c2-l038` | Aixiraidocoro. *Hoſpedaria, ou lugar onde ſe* |  |
 | `c2-l039` | &emsp;*agaſalhão os hoſpedes, poſto q̃ não ha lugar pro-* |  |
-| `c2-l040` | &emsp;*prio q̃ aſſi ſe chame.* |  |
+| `c2-l040` | &emsp;*prio q̃ aßi ſe chame.* |  |
 | `c2-l041` | Aixiri, u, itta. *Vide* Xiri, u. |  |
 | `c2-l042` | Aixirizoqi, u, oita. *Vide* Xirizoqi, u. |  |
 | `c2-l043` | Aixiro. *Padraſto,ou forte que fazem os inimi-* |  |

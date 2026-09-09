@@ -25,7 +25,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l009` | &emsp;*vt,* chùxi qireyaſuxi. *Os fios da tea* |  |
 | `c1-l010` | &emsp;*daranha quebram ſe facilmente.* |  |
 | `c1-l011` | Chùxin. *Dar nouas ao ſenhor do arrayal, do ſuc-* |  |
-| `c1-l012` | &emsp;*ceſſo da gerra, ou de outra couſa. ¶* Chùxin |  |
+| `c1-l012` | &emsp;*ceßo da gerra, ou de outra couſa. ¶* Chùxin |  |
 | `c1-l013` | &emsp;uo mǒſu, l, ſuru. *Dar eſtas nouas, ou fazè* |  |
 | `c1-l014` | &emsp;*las a ſaber.* |  |
 | `c1-l015` | Chùxin. Tadaxijxinca. *Criado de grandes ſer-* |  |
@@ -63,7 +63,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l036` | &emsp;*Vt,* Qimini chùfucacu, bumoni cǒ |  |
 | `c1-l037` | &emsp;aru fito. *Homem de ſeruiços pera com o* |  |
 | `c1-l038` | &emsp;*ſenhor, & obediente aos pais.* |  |
-| `c1-l039` | Cô. *Hum certo paſſaro grande.* |  |
+| `c1-l039` | Cô. *Hum certo paßaro grande.* |  |
 | `c1-l040` | Cô. *Exercicio, ou habito. Vt,* Côga itta. |  |
 | `c1-l041` | &emsp;*Eſtar habituado, ou exercitado. ¶* Ien, l, |  |
 | `c1-l042` | &emsp;gacumonno cô uo tçumu. *Ter acquiri* |  |
@@ -105,7 +105,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l016` | &emsp;*futuro.* |  |
 | `c2-l017` | Coaxi. *Esteyo.* |  |
 | `c2-l018` | Coaxi. *Paſſo pequeno. ¶* Coaxini ayu- |  |
-| `c2-l019` | &emsp;mu. *Andar com o paſſo curto.* |  |
+| `c2-l019` | &emsp;mu. *Andar com o paßo curto.* |  |
 | `c2-l020` | Coba. i. Cococuno vma, l, yebiſuno v- |  |
 | `c2-l021` | &emsp;ma. *Caualo de hum Reino vezinho ao da* |  |
 | `c2-l022` | &emsp;*China chamado.* Coba. |  |

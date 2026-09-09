@@ -84,12 +84,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l003` | &emsp;vnauo caqe noqeôto xita. *Vendo os ini* |  |
 | `c2-l004` | &emsp;*migos fez, pollos afaſtar.* |  |
 | `c2-l005` | Caqenuge, uru, eta. *Romper a caualo, ou* |  |
-| `c2-l006` | &emsp;*paſſar pollo meo dos inimigos. Vt,* Ginno |  |
+| `c2-l006` | &emsp;*paßar pollo meo dos inimigos. Vt,* Ginno |  |
 | `c2-l007` | &emsp;nacauo icchǒ bacari caqenuqeta. *Rompeo,* |  |
 | `c2-l008` | &emsp;*& entrou pello meo do arrayal tanto como cõ* |  |
 | `c2-l009` | &emsp;*primento de hũa rua.* |  |
 | `c2-l010` | Caqerare, uru, eta. *Eſte verbo com* Guioi, |  |
-| `c2-l011` | &emsp;*quer dizer receber algũa peſſoa honrrada em* |  |
+| `c2-l011` | &emsp;*quer dizer receber algũa peßoa honrrada em* |  |
 | `c2-l012` | &emsp;*ſua caſa, ou receber della algũa couſa. Vt,* |  |
 | `c2-l013` | &emsp;Guioini caqeraruru. *¶* Sono *contas* uo |  |
 | `c2-l014` | &emsp;guioini caqerarei. *Fazeime merce deſſas* |  |
@@ -97,7 +97,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l016` | Caqeri, ru, etta. *Voar. Vt,* Sorauo caqeru. |  |
 | `c2-l017` | Caqeſuzuri. *Eſcritorio, ou caixinha com ga-* |  |
 | `c2-l018` | &emsp;*uetas.* |  |
-| `c2-l019` | Caqeſugui, uru, ita. *Paſſar a diante a caua* |  |
+| `c2-l019` | Caqeſugui, uru, ita. *Paßar a diante a caua* |  |
 | `c2-l020` | &emsp;*lo. Vt,* Teqiuo caqeſuguru. *Paſſar* |  |
 | `c2-l021` | &emsp;*correndo a caualo pellos inimigos.* |  |
 | `c2-l022` | Caqeſuye, uru, eta. *Fazer parar o caualo* |  |
@@ -112,11 +112,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l031` | &emsp;*alguem como ao que ſe quer ir, &c.* |  |
 | `c2-l032` | Caqetori. *Paſſaro que anda voando. Vt,* |  |
 | `c2-l033` | &emsp;Caqetoriuo ita. *Deu com frecha, ou pelou-* |  |
-| `c2-l034` | &emsp;*ro no paſſaro que hia voando.* |  |
+| `c2-l034` | &emsp;*ro no paßaro que hia voando.* |  |
 | `c2-l035` | Caqetori, ru, otta. T*omar, ou ferrar com* |  |
 | `c2-l036` | &emsp;*farpão, ou gancho. Vt,* Cumadenite caqe- |  |
 | `c2-l037` | &emsp;toru. *Ferrar, ou tomar com farpão.* |  |
-| `c2-l038` | Caqetouoxi, ſu, oita. *Paſſar a caualo algũ* |  |
+| `c2-l038` | Caqetouoxi, ſu, oita. *Paßar a caualo algũ* |  |
 | `c2-l039` | &emsp;*lugar, gente, &c. Vt,* Xenginni ſuſumi- |  |
 | `c2-l040` | &emsp;taru teqiuo caqetouoxi, &c. Taif*. Liu.* |  |
 | `c2-l041` | &emsp;*26. Paſſando diante dos inimigos que hião* |  |

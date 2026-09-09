@@ -30,7 +30,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l014` | &emsp;moyouoſu. *Entriſtecerſe muito. ¶* Cana- |  |
 | `c1-l015` | &emsp;ximi qimoni meizuru. *Penetrar a tristeza* |  |
 | `c1-l016` | &emsp;*muito a alguem. ¶* Canaximimini ama- |  |
-| `c1-l017` | &emsp;ru. T*er grandiſſima tristeza.* |  |
+| `c1-l017` | &emsp;ru. T*er grandißima tristeza.* |  |
 | `c1-l018` | Canaximi, u, ùda. *Entriſtecerſe.* |  |
 | `c1-l019` | Canaxiqi. *Safra, ou bigorna de ferrei-* |  |
 | `c1-l020` | &emsp;*ro. B.* |  |
@@ -87,7 +87,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l012` | Canca. Xizzucana fima. *Estar deſocupado.* |  |
 | `c2-l013` | Canchicu. Carano taqe. *Canas da China, de* |  |
 | `c2-l014` | &emsp;*que ſe fazem frautas.* |  |
-| `c2-l015` | Canchicuno yôgiô. *Frauta aſſi chamada.* |  |
+| `c2-l015` | Canchicuno yôgiô. *Frauta aßi chamada.* |  |
 | `c2-l016` | Canchô. *Reino da China.* |  |
 | `c2-l017` | Canchù. Samui naca. *Nome do frio. A* |  |
 | `c2-l018` | &emsp;*propria palaura que corre he Cangiù.* |  |
@@ -100,7 +100,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l025` | &emsp;*frio. ¶* Cancuni xemeraiuru. *Ser a* |  |
 | `c2-l026` | &emsp;*tormentado do frio.* |  |
 | `c2-l027` | Cancu. Amaxi nigaxi. *Doçe, & amargo.* |  |
-| `c2-l028` | Cancuchô. *Hum paſſaro q̃ de noite ſe queixa, &* |  |
+| `c2-l028` | Cancuchô. *Hum paßaro q̃ de noite ſe queixa, &* |  |
 | `c2-l029` | &emsp;*magoa com frio, & pollamanhaã em vendo o* |  |
 | `c2-l030` | &emsp;*ſol ſe eſquece.* |  |
 | `c2-l031` | Canda. T*orto, ou cego de hum olho.* |  |

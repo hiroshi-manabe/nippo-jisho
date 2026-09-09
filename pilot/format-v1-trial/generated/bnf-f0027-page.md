@@ -27,8 +27,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l011` | &emsp;*& no fim conforme a diuerſas ſignificaçoẽs.* |  |
 | `c1-l012` | &emsp;*Vt,* Amari ſamuy. *Faz muito frio. ¶* A- |  |
 | `c1-l013` | &emsp;mari ficui. *He muito baixo destatura* |  |
-| `c1-l014` | &emsp;*¶ Item, Paſſante,ou mais. Vt,* Sannen a- |  |
-| `c1-l015` | &emsp;mari. *Paſſante de tres annos,ou mais de tres* |  |
+| `c1-l014` | &emsp;*¶ Item, Paßante,ou mais. Vt,* Sannen a- |  |
+| `c1-l015` | &emsp;mari. *Paßante de tres annos,ou mais de tres* |  |
 | `c1-l016` | &emsp;*annos. ¶* Yorocobino amarini. *Polla* |  |
 | `c1-l017` | &emsp;*muita alegria, ou contentamento, &c. ¶* Mi- |  |
 | `c1-l018` | &emsp;ni amari catajigenai. *Agradeço muito em* |  |
@@ -37,7 +37,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l021` | &emsp;mini amaru. *Ter muitos peccados. ¶* Yo- |  |
 | `c1-l022` | &emsp;rocobi mini amaru. *Alegrarſe exceſsiua-* |  |
 | `c1-l023` | &emsp;*mente. ¶* Teni amaru fito. *Homẽ que* |  |
-| `c1-l024` | &emsp;*não ha quem poſſa com elle. ¶* Teni amaru |  |
+| `c1-l024` | &emsp;*não ha quem poßa com elle. ¶* Teni amaru |  |
 | `c1-l025` | &emsp;vma. *Cauallo deſenfreado, ou que não obe-* |  |
 | `c1-l026` | &emsp;*deçe ao freo. ¶* Teni amaru catana. *Ter-* |  |
 | `c1-l027` | &emsp;*çado com que hum não pode porſer comprido,ou* |  |
@@ -45,12 +45,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l029` | &emsp;*ſa que não ſe pode alcançar, com a conſide-* |  |
 | `c1-l030` | &emsp;*ração. ¶* Fiuono meni amaru mono. *Ho-* |  |
 | `c1-l031` | &emsp;*mem eſcandaloſo, & de ruim exemplo.* |  |
-| `c1-l032` | Amarimono. *Peſſoa indomauel, como moço* |  |
+| `c1-l032` | Amarimono. *Peßoa indomauel, como moço* |  |
 | `c1-l033` | &emsp;*muito traueſo.* |  |
 | `c1-l034` | Amarina, l, Amarino. *Couſa exceſsiua, & ſo-* |  |
 | `c1-l035` | &emsp;*beja. ¶* Amarino cotoni. *Por mais não* |  |
 | `c1-l036` | &emsp;*poder, ou não auer outro remedio. ¶ Item,* |  |
-| `c1-l037` | &emsp;*Sobre tudo iſſo, ou ainda mais.* |  |
+| `c1-l037` | &emsp;*Sobre tudo ißo, ou ainda mais.* |  |
 | `c1-l038` | Amarini. *Adu. Vide* Amari. |  |
 | `c1-l039` | Amaſagaru fi, l, Amaſacaru fi. P. *Sol que vai* |  |
 | `c1-l040` | &emsp;*declinando, ou pondoſe.* |  |
@@ -59,7 +59,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l043` | Amaſoſoqi. *Molinha, ou chuua miuda. Vt,* |  |
 | `c1-l044` | &emsp;Amaſotoqiga ſuru. *Chouiſcar.* |  |
 | `c1-l045` | Amaſsaye. *Adu. Oque mais he, ou alem* |  |
-| `c1-l046` | &emsp;*diſſo, ſobre tudo.* |  |
+| `c1-l046` | &emsp;*dißo, ſobre tudo.* |  |
 | `c1-l047` | Amata. *Muitos.* Fito amata, l, amata- |  |
 
 ## Column 2 running header

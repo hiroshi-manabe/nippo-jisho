@@ -14,7 +14,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | &emsp;*turbando ſe como diante de algũa peſſoa de reſ-* |  |
+| `c1-l001` | &emsp;*turbando ſe como diante de algũa peßoa de reſ-* |  |
 | `c1-l002` | &emsp;*peito. Vt,* Faimǒ tçucamatçutta. |  |
 | `c1-l003` | Fainobori, u, otta. *Trepar pegando ſe com* |  |
 | `c1-l004` | &emsp;*as mãos, como quem ſobe a algũ lugar ingreme* |  |
@@ -50,7 +50,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l034` | &emsp;*ſobreſcritos das cartas, ou Vtas que vão em* |  |
 | `c1-l035` | &emsp;*repoſta a peſſoas honradas, &c.* |  |
 | `c1-l036` | Faitǒ. Cubari, atçuru. *Repartição.* |  |
-| `c1-l037` | Faitǒ. *Repoſta com reuerencia a peſſoa nobre.* |  |
+| `c1-l037` | Faitǒ. *Repoſta com reuerencia a peßoa nobre.* |  |
 | `c1-l038` | Fai u. i, Sacazzuqi. *Copo, ou taça. S.* |  |
 | `c1-l039` | Faiuatari, u, atta. *Eſtenderſe, ou paſſar de* |  |
 | `c1-l040` | &emsp;*hũa parte a outra como era, ou erua de latada q̃* |  |

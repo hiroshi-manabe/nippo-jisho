@@ -54,7 +54,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l038` | Faneyaburi, u, utta. *Quebrar, ou deſtruir* |  |
 | `c1-l039` | &emsp;*algũa couſa com os pès, pao, &c.* |  |
 | `c1-l040` | Fangacu. *Meo do eſtudo. ¶* Fangacuna |  |
-| `c1-l041` | &emsp;mono. *Peſſoa q̃ ainda eſta no meio de ſeus* |  |
+| `c1-l041` | &emsp;mono. *Peßoa q̃ ainda eſta no meio de ſeus* |  |
 | `c1-l042` | &emsp;*eſtudos, ou imperfeito, ſem ter acabado.* |  |
 | `c1-l043` | Fangai. *Camarote, ou bili de nauio.* |  |
 | `c1-l044` | Fangocu. *A metade do reino.* |  |

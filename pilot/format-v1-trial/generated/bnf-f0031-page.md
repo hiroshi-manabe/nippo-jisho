@@ -14,7 +14,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | &emsp;*ou ir diante dalguem moſtrando lhe os paſſos.* |  |
+| `c1-l001` | &emsp;*ou ir diante dalguem moſtrando lhe os paßos.* |  |
 | `c1-l002` | Annei. i. Xizzucana. *Paz, & quietação* |  |
 | `c1-l003` | &emsp;*exterior. S.* |  |
 | `c1-l004` | Annen. *Tranquillidade, & ſoçego inte-* |  |
@@ -22,8 +22,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l006` | Annin. *Miolo do caroço de albicorque.* |  |
 | `c1-l007` | Annon, l, anuon. Yaſuqu vodayaca nari. |  |
 | `c1-l008` | &emsp;*Tranquillidade, & paz. Esta palaura propria* |  |
-| `c1-l009` | &emsp;*mente he,* Anuon, *& aſſi ſe eſcreue, mas por q̃* |  |
-| `c1-l010` | &emsp;*ſe pronuncia,* Annon, *por iſſo a pomos aqui.* |  |
+| `c1-l009` | &emsp;*mente he,* Anuon, *& aßi ſe eſcreue, mas por q̃* |  |
+| `c1-l010` | &emsp;*ſe pronuncia,* Annon, *por ißo a pomos aqui.* |  |
 | `c1-l011` | Ano. Pron. *Aquelle, ou aquella.* |  |
 | `c1-l012` | Ano cata. Pron. *Aquelle, ou aquella parte.* |  |
 | `c1-l013` | Ano fǒ. Pron. *Idem.* |  |
@@ -31,7 +31,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l015` | Ano tçure. *Daquella laya, ou maneira.* |  |
 | `c1-l016` | Ano yo, l, nochino yo. *Outra vida.* |  |
 | `c1-l017` | Anpu. Yaſuxiya inaya. *Certeza, & incer-* |  |
-| `c1-l018` | &emsp;*teza do ſucceſſo da couſa, ou ſucceſſo duuidoſo* |  |
+| `c1-l018` | &emsp;*teza do ſucceßo da couſa, ou ſucceßo duuidoſo* |  |
 | `c1-l019` | &emsp;*& incerto. ¶ Item, Verdade, ou falſi-,* |  |
 | `c1-l020` | &emsp;*dade da couſa. ¶* Anpuni macaſuru. *En* |  |
 | `c1-l021` | &emsp;*tregarſe à ventura. ¶* Anpuuo qeſsuru ,l, |  |
@@ -39,13 +39,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l023` | &emsp;*negocio, ou por hũa, ou por outra parte.* |  |
 | `c1-l024` | &emsp;*¶* Cono caxxenno anpuua facarigatai. |  |
 | `c1-l025` | &emsp;*He difficil de ſaber a certeza, ou incerteza* |  |
-| `c1-l026` | &emsp;*do ſucceſſo desta batalha.* |  |
+| `c1-l026` | &emsp;*do ſucceßo desta batalha.* |  |
 | `c1-l027` | Anqei. Curai neya. *Caſa de dormir eſcura.* |  |
 | `c1-l028` | Anqei. *Eſcuridade.* |  |
 | `c1-l029` | Anqet. Curai ana. *Buraco, ou coua eſcura.* |  |
 | `c1-l030` | Anqet dǒ. *Caminho pera o inferno.* |  |
 | `c1-l031` | Anqi. Yaſuxi, ayauxi. *Seguridade, & pe-* |  |
-| `c1-l032` | &emsp;*rigo. ¶ Item, Succeſſo duuidoſo, & in-* |  |
+| `c1-l032` | &emsp;*rigo. ¶ Item, Succeßo duuidoſo, & in-* |  |
 | `c1-l033` | &emsp;*certo.* |  |
 | `c1-l034` | Anqiǒ. *Cheiro denoite da flor de hũa aruore* |  |
 | `c1-l035` | &emsp;*como ameixieira.* P*.* |  |

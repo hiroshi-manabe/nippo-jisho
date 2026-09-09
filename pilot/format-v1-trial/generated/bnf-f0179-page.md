@@ -59,7 +59,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l043` | Faxxun. *Oitenta annos.* |  |
 | `c1-l044` | Faya. *Adu. Ia.* |  |
 | `c1-l045` | Fayabaxiri. *Correo. ¶ Item, O ir, ou* |  |
-| `c1-l046` | &emsp;*correr de preſſa.* |  |
+| `c1-l046` | &emsp;*correr de preßa.* |  |
 | `c1-l047` | Fayabaya. *Adu. De preſſa.* |  |
 
 ## Column 2 running header
@@ -77,13 +77,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l003` | &emsp;Fayabayaxù. |  |
 | `c2-l004` | Fayabumi. *Carta apreſſada.* |  |
 | `c2-l005` | Fayabuſa. *Certa laya de falcão.* |  |
-| `c2-l006` | Fayacuchi. *O que fala de preſſa.* |  |
+| `c2-l006` | Fayacuchi. *O que fala de preßa.* |  |
 | `c2-l007` | Fayacuchini. *Aduerb. Vt,* Fayacuchini |  |
 | `c2-l008` | &emsp;monouo yǔ. *Falar de preſſa.* |  |
-| `c2-l009` | Fayafaya. *Adu. De preſſa, de preſſa.* |  |
+| `c2-l009` | Fayafaya. *Adu. De preßa, de preſſa.* |  |
 | `c2-l010` | Fayafune. *Embarcação ligeira.* |  |
 | `c2-l011` | Fayagaqi. *Eſcriuão que eſcreue de preſſa.* |  |
-| `c2-l012` | Fayai. *Couſa apreſſada, ou ligeira.* |  |
+| `c2-l012` | Fayai. *Couſa apreßada, ou ligeira.* |  |
 | `c2-l013` | &emsp;Fayaſa. Fayǒ. |  |
 | `c2-l014` | Fayama. *Mato pequeno, ou de poucas aruores.* |  |
 | `c2-l015` | &emsp;*O contrario he,* Xigueyama. |  |
@@ -91,9 +91,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l017` | &emsp;*ſa, ou ãtes do tẽpo determinado, ou anticiparſe* |  |
 | `c2-l018` | &emsp;*o tẽpo dalgũa feſta, cõuite, &c. X. No Cami* |  |
 | `c2-l019` | &emsp;*ſediz, Toricoſu.* |  |
-| `c2-l020` | Fayame, uru, eta. *Apreſſar, ou dar preſſa.* |  |
+| `c2-l020` | Fayame, uru, eta. *Apreßar, ou dar preßa.* |  |
 | `c2-l021` | &emsp;*¶* Vmauo fayamuru. *Fazer andar de* |  |
-| `c2-l022` | &emsp;*preſſa o caualo.* |  |
+| `c2-l022` | &emsp;*preßa o caualo.* |  |
 | `c2-l023` | Fayamichi. *Correo. ¶ Item, O ir polla* |  |
 | `c2-l024` | &emsp;*posta. Vt,* Fayamichiuo noru. *Idem.* |  |
 | `c2-l025` | Fayaracaxi, ſu, aita. *Fazer correr algum* |  |

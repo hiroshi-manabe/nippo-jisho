@@ -19,7 +19,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l003` | Auoideni ſuru. *Cozer eruas deſta maneira.* |  |
 | `c1-l004` | Auoi zzucuri. Catana*, ou montante feito* |  |
 | `c1-l005` | &emsp;*por hum official inſigne chamado* Auoi. |  |
-| `c1-l006` | Auojitoto. *Hũ certo peſſarinho que canta bem.* |  |
+| `c1-l006` | Auojitoto. *Hũ certo peßarinho que canta bem.* |  |
 | `c1-l007` | Auomame. *Certa laya de graõs verdes.* |  |
 | `c1-l008` | Auome, uru, eta. i. Auoideni ſuru. *Co-* |  |
 | `c1-l009` | &emsp;*zer leuemente eruas, &c.* X*. ¶ Item,* |  |

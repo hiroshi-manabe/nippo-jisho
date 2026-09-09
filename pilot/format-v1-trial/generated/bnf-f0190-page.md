@@ -53,7 +53,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l037` | &emsp;*em que ſe faz o Cha à parte eſquerda põdo* |  |
 | `c1-l038` | &emsp;*o hoſpede à direita.* |  |
 | `c1-l039` | Fidariguicchǒ. *Eſquerdo, ou canhoto. B.* |  |
-| `c1-l040` | Fidariguiqi. *Peſſoa eſquerda.* |  |
+| `c1-l040` | Fidariguiqi. *Peßoa eſquerda.* |  |
 | `c1-l041` | Fidari maye. *Veſtir o veſtido com a parte di-* |  |
 | `c1-l042` | &emsp;*anteira ſobre a eſquerda, que he ao contrario do* |  |
 | `c1-l043` | &emsp;*que cuſtumaõ os Iapoẽs.* |  |
@@ -72,7 +72,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` |  | *ſegunda, ou terceira peſſoa.* |
+| `c2-l001` |  | *ſegunda, ou terceira peßoa.* |
 | `c2-l002` | Fidaxi. *Alimpaduras do arroz, Cha, &c.* |  |
 | `c2-l003` | Fidaxi, ſu, aita. *Ioeirar, ou ſacudir de ma-* |  |
 | `c2-l004` | &emsp;*neira que cayaõ as palhas, poo, &c.* |  |

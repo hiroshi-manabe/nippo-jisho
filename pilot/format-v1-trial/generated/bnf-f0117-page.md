@@ -32,7 +32,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l016` | &emsp;*Estar habituado, & calificado ẽ algũa couſa.* |  |
 | `c1-l017` | Coccocu. Toqitoqi. *Cada hora, ou cada* |  |
 | `c1-l018` | &emsp;*quarto. ¶* Iiji coccocuni. *Cada ho-* |  |
-| `c1-l019` | &emsp;*ra, & cada quarto. i. Sempre, & cada paſſo.* |  |
+| `c1-l019` | &emsp;*ra, & cada quarto. i. Sempre, & cada paßo.* |  |
 | `c1-l020` | Cocha. Furui cha. Cha *velho.* |  |
 | `c1-l021` | Cochi. *Adu. Aquí.* |  |
 | `c1-l022` | Cochi. *Vento leste.* |  |
@@ -49,7 +49,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l033` | &emsp;*Item, Dentro da gayola, ou canaſtrinha.* |  |
 | `c1-l034` | Cocô. Torano cuchi. *Boca de tigre. Vt,* |  |
 | `c1-l035` | &emsp;Cocôno zanguen. *Grande falſo testimu-* |  |
-| `c1-l036` | &emsp;*nho como ſe caiſſe nos dentes do tigre.* |  |
+| `c1-l036` | &emsp;*nho como ſe caiße nos dentes do tigre.* |  |
 | `c1-l037` | Cǒcǒ. Itçucuximi, u. *Obediencia filial.* |  |
 | `c1-l038` | &emsp;¶ Cǒcǒuo itaſu, l, tçucuſu. *Ser muito* |  |
 | `c1-l039` | &emsp;*obediente pera cõ ſeu pay, & may. As vezes* |  |
@@ -79,7 +79,7 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c2-l001` | Cocochi. *Modo, ou feição. Vt,* Guenzã |  |
-| `c2-l002` | &emsp;no cocochi ſuru. *Fazer como que ouiſſe, ou* |  |
+| `c2-l002` | &emsp;no cocochi ſuru. *Fazer como que ouiße, ou* |  |
 | `c2-l003` | &emsp;*encontraſſe. ¶* Funagocochi. *Enjoamen-* |  |
 | `c2-l004` | &emsp;*to da* Fune. *¶* Rei naranu cocochi. *In-* |  |
 | `c2-l005` | &emsp;*diſpoſição extra ordinaria.* |  |

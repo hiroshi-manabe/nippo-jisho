@@ -36,7 +36,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l020` | &emsp;*aes, & fazer delles mezinha. ¶* Camiſo- |  |
 | `c1-l021` | &emsp;riuo auaſuru. *¶ Afiar as naualhas.* |  |
 | `c1-l022` | &emsp;*¶* Xubi, l, fazu no auaſuru. *Concodar o* |  |
-| `c1-l023` | &emsp;*principio, & o fim, ou comprir a promeſſa.* |  |
+| `c1-l023` | &emsp;*principio, & o fim, ou comprir a promeßa.* |  |
 | `c1-l024` | &emsp;*¶* Niuatorino auaſuru. *Fazer peleiar os* |  |
 | `c1-l025` | &emsp;*galos. ¶* Toqiuo auaſuru. *Reſponder* |  |
 | `c1-l026` | &emsp;*com grita ao exercito, ou outra gente que primei-* |  |
@@ -84,10 +84,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l010` | &emsp;*¶ Item,* Cha *muito verde na cor.* |  |
 | `c2-l011` | Auochi, tçu, otta. *Abanar como com estei-* |  |
 | `c2-l012` | &emsp;*ra, taboa, &c. Item, Dar com as pernas ao* |  |
-| `c2-l013` | &emsp;*caualo. Itẽ, Adejarẽ, ou baterẽ os paſſaros* |  |
+| `c2-l013` | &emsp;*caualo. Itẽ, Adejarẽ, ou baterẽ os paßaros* |  |
 | `c2-l014` | &emsp;*com as azas. Itẽ, Fazer meneos com as mãos,* |  |
 | `c2-l015` | &emsp;*ou outra couſa como quem abana.* |  |
-| `c2-l016` | Auocubi. *Marreca, paſſaro dagoa macho que* |  |
+| `c2-l016` | Auocubi. *Marreca, paßaro dagoa macho que* |  |
 | `c2-l017` | &emsp;*tem o peſcoço azul.* |  |
 | `c2-l018` | Auocuſa. *Erua verde.* |  |
 | `c2-l019` | Auoda. *Hũa maneira de catre como pauiolla,* |  |

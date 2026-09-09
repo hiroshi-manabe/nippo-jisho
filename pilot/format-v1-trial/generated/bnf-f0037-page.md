@@ -19,7 +19,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l003` | &emsp;*de polamanhaã.* |  |
 | `c1-l004` | Aſade. *Ferida leue. Vt,* Aſadeuo vǒ. *Ser* |  |
 | `c1-l005` | &emsp;*ferido leuemente.* |  |
-| `c1-l006` | Aſafanadana. *Peſſoa varia, & mudauel.* |  |
+| `c1-l006` | Aſafanadana. *Peßoa varia, & mudauel.* |  |
 | `c1-l007` | Aſafanadani. *Aduer.* |  |
 | `c1-l008` | Aſafara. *Estamago de quem esta em jejũ po-* |  |
 | `c1-l009` | &emsp;*lamanhaã.* |  |
@@ -78,7 +78,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | &emsp;yama. *Mato pouco eſpeſſo.* |  |
+| `c2-l001` | &emsp;yama. *Mato pouco eſpeßo.* |  |
 | `c2-l002` | &emsp;Aſaſa. |  |
 | `c2-l003` | &emsp;Aſǒ. |  |
 | `c2-l004` | Aſaichi. *Feira que ſe faz polamanhaã.* |  |

@@ -29,12 +29,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l013` | Ane muſume. *Filha mais velha.* |  |
 | `c1-l014` | Angi, l, anchi. *Opor imagẽs, ou couſa ſe-* |  |
 | `c1-l015` | &emsp;*melhante no altar.* |  |
-| `c1-l016` | Augiǔ. Yaſuqu ſumu. *Aſſento em algum lu-* |  |
+| `c1-l016` | Augiǔ. Yaſuqu ſumu. *Aßento em algum lu-* |  |
 | `c1-l017` | &emsp;*gar, dignidade, &c. ¶* Angiǔ ſuru. *To* |  |
-| `c1-l018` | &emsp;*mar aſſento, ou ſer morador em algũa parte.* |  |
-| `c1-l019` | &emsp;*¶ Item, Ser aſſentado em algum cargo, offi-* |  |
+| `c1-l018` | &emsp;*mar aßento, ou ſer morador em algũa parte.* |  |
+| `c1-l019` | &emsp;*¶ Item, Ser aßentado em algum cargo, offi-* |  |
 | `c1-l020` | &emsp;*cio, &c.* |  |
-| `c1-l021` | Angiǔ. *No* Cami *ſe diz* Anno vchi. *Aſſi* |  |
+| `c1-l021` | Angiǔ. *No* Cami *ſe diz* Anno vchi. *Aßi* |  |
 | `c1-l022` | &emsp;*como cuidaua, ou cuido. ¶* Angiǔnagara, |  |
 | `c1-l023` | &emsp;l, anno gotocu, l, anno vchi. *Como eu* |  |
 | `c1-l024` | &emsp;*cuidaua.* |  |
@@ -84,15 +84,15 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l010` | Anjin. *O eſſencial em que conſiste o modo da* |  |
 | `c2-l011` | &emsp;*ſaluação de cada ſeita, que cada hum em ſi con-* |  |
 | `c2-l012` | &emsp;*cebe, & aprende. ¶* Core vaga xǔno |  |
-| `c2-l013` | &emsp;anjin nari. *i. Eſte he o aluo, ou eſſencial de* |  |
-| `c2-l014` | &emsp;*noſſa lei. ¶ Item, O deſcançar o coração* |  |
+| `c2-l013` | &emsp;anjin nari. *i. Eſte he o aluo, ou eßencial de* |  |
+| `c2-l014` | &emsp;*noßa lei. ¶ Item, O deſcançar o coração* |  |
 | `c2-l015` | &emsp;*ſem duuidar.* |  |
 | `c2-l016` | Anjit. Yuori iye. *Choupana, ou choça de* |  |
-| `c2-l017` | &emsp;*peſſoa que deixou o mundo. ¶* Anjituo mu- |  |
+| `c2-l017` | &emsp;*peßoa que deixou o mundo. ¶* Anjituo mu- |  |
 | `c2-l018` | &emsp;ſubu. *Fazer esta choupana.* |  |
 | `c2-l019` | Anji tçuzzuqe, ru, eta. *Fazer diſcurſo.* |  |
 | `c2-l020` | &emsp;*¶* Mucaxi imano cotouo anji tçuzzuqu- |  |
-| `c2-l021` | &emsp;ru. *Deſcorrer, ou lembrarſe do paſſado, &* |  |
+| `c2-l021` | &emsp;ru. *Deſcorrer, ou lembrarſe do paßado, &* |  |
 | `c2-l022` | &emsp;*preſente.* |  |
 | `c2-l023` | Anji vazzurai, ǒ, ǒta. *Estar perplexo, ou* |  |
 | `c2-l024` | &emsp;*penſatiuo.* |  |
@@ -112,7 +112,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l038` | &emsp;*das. ¶* Annaiuo mǒſu. *Fazer a ſaber,* |  |
 | `c2-l039` | &emsp;*ou dar recado.* |  |
 | `c2-l040` | Annai qenmi. *O inquirir, ou deſcobrir o que* |  |
-| `c2-l041` | &emsp;*paſſa. ¶ Vt,* Annai qẽmino tameni ma- |  |
+| `c2-l041` | &emsp;*paßa. ¶ Vt,* Annai qẽmino tameni ma- |  |
 | `c2-l042` | &emsp;itta. *Foi pera ſaber, ou deſcobrir, ou foi* |  |
 | `c2-l043` | &emsp;*por eſpia.* |  |
 | `c2-l044` | Annaixa. *Guia, ou o que ſabe as entradas,* |  |

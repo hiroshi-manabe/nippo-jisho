@@ -94,7 +94,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l020` | Catanogotocu. *Adu. Mediocre, ou arrazo-* |  |
 | `c2-l021` | &emsp;*adamente.* |  |
 | `c2-l022` | Catanori. *Huns limos domar.* |  |
-| `c2-l023` | Catanori. *Certo grude, ou polme groſſo de* |  |
+| `c2-l023` | Catanori. *Certo grude, ou polme großo de* |  |
 | `c2-l024` | &emsp;*arroz, de que vſão os tintureiros.* |  |
 | `c2-l025` | Cataqi. *Inimigo.* Voyano cataqi. *Inimi-* |  |
 | `c2-l026` | &emsp;*go que matou ao pai. ¶* Cataqiuo toru. |  |

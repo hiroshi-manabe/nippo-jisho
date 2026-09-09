@@ -15,7 +15,7 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c1-l001` | &emsp;bem. *¶* Fincuuo xinoide tenno tano- |  |
-| `c1-l002` | &emsp;ximini cayeſumaita. *Paſſando trabalhos* |  |
+| `c1-l002` | &emsp;ximini cayeſumaita. *Paßando trabalhos* |  |
 | `c1-l003` | &emsp;*de pobreza cõuerteos bem nos deleites do ceo.* |  |
 | `c1-l004` | Cayeſute, tçuru. *Botar fora como agoa da* |  |
 | `c1-l005` | &emsp;*bomba. &c* Funeno acauo cumi ague |  |
@@ -23,7 +23,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l007` | &emsp;*ba botauão fora toda a immundicia, & agoa* |  |
 | `c1-l008` | &emsp;*da* Fune. |  |
 | `c1-l009` | Cayette. *Adu. Pollo contrario, antes.* |  |
-| `c1-l010` | Cayexi. *Eſterco de paſſaros.* |  |
+| `c1-l010` | Cayexi. *Eſterco de paßaros.* |  |
 | `c1-l011` | Cayexi, u, yeita. *Fazer tornar. ¶ Itẽ,* |  |
 | `c1-l012` | &emsp;*Tornar algũa couſa, ou reſtituila. ¶* Tauo |  |
 | `c1-l013` | &emsp;cayeſu. *Cauar, ou laurar as varzeas.* |  |
@@ -40,7 +40,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l024` | &emsp;ga cayeta. *Não podem paſſar as embar-* |  |
 | `c1-l025` | &emsp;*cações.* |  |
 | `c1-l026` | Cayǒna. T*al, desta laya.* |  |
-| `c1-l027` | Cayǒni. *Adu. Aſſi, ou deſta maneira.* |  |
+| `c1-l027` | Cayǒni. *Adu. Aßi, ou deſta maneira.* |  |
 | `c1-l028` | Cayouaxi, ſu, aita. *Communicarſe. Vt,* Fu- |  |
 | `c1-l029` | &emsp;miuo cayouaſu. *Eſcreuerſe entre ſi.* |  |
 | `c1-l030` | &emsp;*¶* Tçucaiuo cayouaſu. *Mandar recados* |  |
@@ -79,7 +79,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l005` | Cazamucai. *O por ſe de fronte do vento.* |  |
 | `c2-l006` | Cazaqiri. *Cabo, ou pontas delgadas das pe-* |  |
 | `c2-l007` | &emsp;*nas das auez. ¶* Cazaqiriuo xigocu. *Deſ-* |  |
-| `c2-l008` | &emsp;*penar estas pẽnas aos paſſaros pera que não vo* |  |
+| `c2-l008` | &emsp;*penar estas pẽnas aos paßaros pera que não vo* |  |
 | `c2-l009` | &emsp;*em muito. ¶ Item,* Cazaqiri. *Hũa ma-* |  |
 | `c2-l010` | &emsp;*neira de catauento, ou grimpa.* |  |
 | `c2-l011` | Cazari, u, atta. *Ornar, ou armar.* |  |

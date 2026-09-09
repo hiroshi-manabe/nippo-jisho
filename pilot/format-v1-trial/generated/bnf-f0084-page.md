@@ -28,15 +28,15 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l012` | &emsp;*q̃ ficão depois de açepilhar algũ pao, ou taboa.* |  |
 | `c1-l013` | Cannagui. *Homẽs que ſeruem aos* Camis. |  |
 | `c1-l014` | Cannan. Cataxi cataxi. *Perigos. Vt,* Cã |  |
-| `c1-l015` | &emsp;nãuo xinogu. *Paſſar trabalhos, & perigos.* |  |
+| `c1-l015` | &emsp;nãuo xinogu. *Paßar trabalhos, & perigos.* |  |
 | `c1-l016` | Cannet. Samuxi, atçuxi. *Frio, & quente.* |  |
-| `c1-l017` | &emsp;*¶* Cannetuo xinogu. *Paſſar, ou ſofrer* |  |
+| `c1-l017` | &emsp;*¶* Cannetuo xinogu. *Paßar, ou ſofrer* |  |
 | `c1-l018` | &emsp;*frios, & calmas.* |  |
 | `c1-l019` | Cannicu. *Carne ſeca ao ſol, como taſalhos.* |  |
 | `c1-l020` | Cannichi. *Dia aſiago, ou de ruim agouro.* |  |
 | `c1-l021` | Cannin. Coraye xinobu. *Paciencia. ¶* Cã- |  |
 | `c1-l022` | &emsp;nin ſuru. *Sofrer, ou ter paciencia.* |  |
-| `c1-l023` | Cannô, l, cãnôna. *Peſſoadeſtra em algũa couſa.* |  |
+| `c1-l023` | Cannô, l, cãnôna. *Peßoadeſtra em algũa couſa.* |  |
 | `c1-l024` | Cannǒ. Canji voſamuru. *O aceitarem os* |  |
 | `c1-l025` | &emsp;Camis, *&* Fotoque*s algũa obra dos homens,* |  |
 | `c1-l026` | &emsp;*& agradar lhe. ¶ Item, O comprirem,* |  |

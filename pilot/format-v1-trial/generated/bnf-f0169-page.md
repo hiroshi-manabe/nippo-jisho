@@ -46,14 +46,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l030` | &emsp;uo fanaſu. *Largar, ou ſoltar paſſaros, ou a-* |  |
 | `c1-l031` | &emsp;*nimaes.* |  |
 | `c1-l032` | Fanaxi, ſu, aita. *Praticar. Vt,* Nochini go- |  |
-| `c1-l033` | &emsp;zatte fanaſaxerarei. *Venha voſſa mercè* |  |
+| `c1-l033` | &emsp;zatte fanaſaxerarei. *Venha voßa mercè* |  |
 | `c1-l034` | &emsp;*de pois, & pratique.* |  |
 | `c1-l035` | Fanaxicaqe, uru, eta. *Soltar o cão pera to-* |  |
 | `c1-l036` | &emsp;*mar a caça, &c. ¶ Item, Deſparar eſpin-* |  |
 | `c1-l037` | &emsp;*garda, bombarda, &c.* |  |
 | `c1-l038` | Fanaxigai, l, potiùs, fanachigai. *Paſſaro,* |  |
 | `c1-l039` | &emsp;*ou animal que ſe cria fora da gayola ſolto.* |  |
-| `c1-l040` | &emsp;¶ Fanaxigaini ſuru. *Criar aſſi ſolto fora* |  |
+| `c1-l040` | &emsp;¶ Fanaxigaini ſuru. *Criar aßi ſolto fora* |  |
 | `c1-l041` | &emsp;*da gayola, &c.* |  |
 | `c1-l042` | Fanaxiſute, tçuru, eta. *Deſparar eſpingar-* |  |
 | `c1-l043` | &emsp;*da, ou arco, ſem apontar a nada. ¶* Tebi- |  |
@@ -92,7 +92,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l011` | &emsp;*de era, ou vimes que metem pollas ventas dos* |  |
 | `c2-l012` | &emsp;*narizes aos bois.* |  |
 | `c2-l013` | Fanbacama. *Hũa maneira de calçoẽs curtos.* |  |
-| `c2-l014` | Fanben. *Certo comer de tǒfus aſſados, & de-* |  |
+| `c2-l014` | Fanben. *Certo comer de tǒfus aßados, & de-* |  |
 | `c2-l015` | &emsp;*pois cozidos em Miſò.* |  |
 | `c2-l016` | Fanberi, u. i, Gozaru, sǒrǒ, &c. *Ser,* |  |
 | `c2-l017` | &emsp;*eſtar, &c. S.* |  |

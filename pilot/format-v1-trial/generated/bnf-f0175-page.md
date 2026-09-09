@@ -30,7 +30,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l014` | &emsp;*que leua a bandeira. ¶* Fatazauo. *Cana* |  |
 | `c1-l015` | &emsp;*ou haſtea em que ſe enrola a bandeira.* |  |
 | `c1-l016` | Fatabari. *Largura de taboa, peça, &c.* |  |
-| `c1-l017` | &emsp;*¶ Item, Poſſe, ou faculdade. ¶* Fata- |  |
+| `c1-l017` | &emsp;*¶ Item, Poße, ou faculdade. ¶* Fata- |  |
 | `c1-l018` | &emsp;barimo nai *m*igia. *Não tenho poſſe, nem fa-* |  |
 | `c1-l019` | &emsp;*to, nem parentes, &c.* |  |
 | `c1-l020` | Fatacari, u, atta. *Estar em pè com as pernas* |  |
@@ -49,7 +49,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l033` | Fatagoya. *Estalagem, ou venda.* |  |
 | `c1-l034` | Fataita. *Parede de taboas pouco aleuantada.* |  |
 | `c1-l035` | Fatamata. *Alem diſſo. S.* |  |
-| `c1-l036` | Fatameqi, u, eita. *Andar apreſſado, & ſol* |  |
+| `c1-l036` | Fatameqi, u, eita. *Andar apreßado, & ſol* |  |
 | `c1-l037` | &emsp;*licito ſobre algũa couſa.* |  |
 | `c1-l038` | Fatameqimauari, u, atta. *Andar rodeando* |  |
 | `c1-l039` | &emsp;*com preſſa, & fadiga.* |  |
@@ -111,7 +111,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l031` | &emsp;*Vt,* Miacoye maitta cotoua ima fatçude |  |
 | `c2-l032` | &emsp;gozaru. *Eſta he a primeira vez q̃ vim ao* |  |
 | `c2-l033` | &emsp;*Miaco. ¶* Fatçugan. *Os primeiros pa-* |  |
-| `c2-l034` | &emsp;*tos brauos q̃ ſe tomão, & aſſi de todas as ma-* |  |
+| `c2-l034` | &emsp;*tos brauos q̃ ſe tomão, & aßi de todas as ma-* |  |
 | `c2-l035` | &emsp;*is couſas. ¶* Fatçu araxi. i, Xichi |  |
 | `c2-l036` | &emsp;guatno caje. *Primeiro vento que venta no* |  |
 | `c2-l037` | &emsp;*principio do Outono. ¶* Fatçufana. *As* |  |

@@ -18,7 +18,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l002` | Chaqin. *Paninhos com que ſe alimpa a porſo* |  |
 | `c1-l003` | &emsp;*lana do* Cha. |  |
 | `c1-l004` | Chaqin. *Certa bandeirinha com hum ſinal que* |  |
-| `c1-l005` | &emsp;*ſe aleuantaua nas embarcaçoẽs em certos paſſos* |  |
+| `c1-l005` | &emsp;*ſe aleuantaua nas embarcaçoẽs em certos paßos* |  |
 | `c1-l006` | &emsp;*em ſinal de não auerem de pagar portagem,* |  |
 | `c1-l007` | &emsp;*&c.* X*.* |  |
 | `c1-l008` | Chatate. *O que concerta o* Cha *na porſolana* |  |
@@ -30,13 +30,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l014` | &emsp;*tos diante de hũa taboinha onde està o nome do* |  |
 | `c1-l015` | &emsp;*defunto. ¶* Chatǒuo aguru. *Offerecer* |  |
 | `c1-l016` | &emsp;*eſte* Cha *desta maneira.* |  |
-| `c1-l017` | Chatto. *Adu. Depreſſa.* |  |
+| `c1-l017` | Chatto. *Adu. Depreßa.* |  |
 | `c1-l018` | Chauan. *Porſolana, ou eſcudela de barro.* |  |
 | `c1-l019` | Chauanbachi. *Bacio grande como de agoa* |  |
 | `c1-l020` | &emsp;*às mãos.* |  |
 | `c1-l021` | Chauanzara. *Pires, ou ſalſeiras da China.* |  |
 | `c1-l022` | Chauoqe. *Balde de agoa q̃ ſerue no* Chanoyu. |  |
-| `c1-l023` | Chavri. *Peſſoa que vende o* Cha. |  |
+| `c1-l023` | Chavri. *Peßoa que vende o* Cha. |  |
 | `c1-l024` | Chauſu. *Mǒ em que moem o* Cha. |  |
 | `c1-l025` | Chaxen. *Eſ ouinha de bambu, cõ que ſe meſ-* |  |
 | `c1-l026` | &emsp;*tura o* Cha *com agoa quente na porſolana.* |  |
@@ -86,9 +86,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l012` | &emsp;*ſangue pollo chão.* |  |
 | `c2-l013` | Chian. i. Cuchina coto. *Pouco ſaber, ou* |  |
 | `c2-l014` | &emsp;*ignorancia.* |  |
-| `c2-l015` | Chiban. Chino ſan. *Aſſinado feito com* |  |
+| `c2-l015` | Chiban. Chino ſan. *Aßinado feito com* |  |
 | `c2-l016` | &emsp;*o ſangue. ¶* Chibanuo ſuyuru. *Por* |  |
-| `c2-l017` | &emsp;*ſeu ſinal, ou aſſinarſe com ſangue.* |  |
+| `c2-l017` | &emsp;*ſeu ſinal, ou aßinarſe com ſangue.* |  |
 | `c2-l018` | Chibana. *Certa erua que tem hum miolo brã-* |  |
 | `c2-l019` | &emsp;*co que comem os meninos.* |  |
 | `c2-l020` | Chibi, iru, l, uru, ita. *Danarſe, ou fazer* |  |
@@ -116,7 +116,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l042` | Chicagicato. *Adu. Perto. Vt,* Fitouo |  |
 | `c2-l043` | &emsp;chicagicato meſu. *Chamar a alguẽ perto.* |  |
 | `c2-l044` | Chicagicaxij. *Couſa propinqua, ou que ha* |  |
-| `c2-l045` | &emsp;*pouco que paſſou.* |  |
+| `c2-l045` | &emsp;*pouco que paßou.* |  |
 | `c2-l046` | Chicagicaxù. *Aduer.* |  |
 | `c2-l047` | Chicagoro. *Adu. Muito, palaura de encare-* |  |
 

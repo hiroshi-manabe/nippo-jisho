@@ -93,7 +93,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l019` | Acuguiacu. *Maldades. ¶* Acuguiacu butǒ. |  |
 | `c2-l020` | &emsp;*Maldade, ou deſaforamento. ¶* Acu- |  |
 | `c2-l021` | &emsp;guiacu butǒnaru mono. *Peſſoa de grã-* |  |
-| `c2-l022` | &emsp;*des vicios diſſolutos, &c.* |  |
+| `c2-l022` | &emsp;*des vicios dißolutos, &c.* |  |
 | `c2-l023` | Acuguio. Axij vuo. *Ruim peixe, ou que* |  |
 | `c2-l024` | &emsp;*faz mal.* |  |
 | `c2-l025` | Acuguiǒ. Axij voconai. *Ruins obras.* |  |

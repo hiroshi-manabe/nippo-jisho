@@ -56,7 +56,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l040` | Curi. *Castanhas.* |  |
 | `c1-l041` | Cùri. Bup*. Sustãcia ſẽ cor, & corpo. i. eſpũ.* |  |
 | `c1-l042` | Cùri. i. Cocù. *Ar.* |  |
-| `c1-l043` | Curi, u, utta. *Correr, ou paſſar algũa couſa* |  |
+| `c1-l043` | Curi, u, utta. *Correr, ou paßar algũa couſa* |  |
 | `c1-l044` | &emsp;*como liuro, ou folhas com amão. ¶ Item,* |  |
 | `c1-l045` | &emsp;*Furar, ou fazer redondo, & liſo algum buraco* |  |
 | `c1-l046` | &emsp;*com ferro, &c. ¶* Tçunauo curu. *Ica-* |  |
@@ -111,7 +111,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l037` | Curiya. *Cozinha.* |  |
 | `c2-l038` | Curǒ. Curuximi, tçucaruru. *i. Trabalhos, &* |  |
 | `c2-l039` | &emsp;*tormentos. ¶* Curǒuo ſuru, l, xinogu. |  |
-| `c2-l040` | &emsp;*Paſſar trabalhos.* |  |
+| `c2-l040` | &emsp;*Paßar trabalhos.* |  |
 | `c2-l041` | Curo. *Cor de caualo murzelo que tem os pellos* |  |
 | `c2-l042` | &emsp;*de dentro das orelhas tambem pretos.* |  |
 | `c2-l043` | Curo. *Vt,* Tano curo. *Campo que eſta ao lon* |  |

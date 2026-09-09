@@ -57,10 +57,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l041` | &emsp;yega caruru. *Enrrouqueçer. ¶* Coyeuo |  |
 | `c1-l042` | &emsp;toroyuru. *Aleuantarem todos a voz em hũ* |  |
 | `c1-l043` | &emsp;*tom. ¶* Coyeuo nomu. *Afligirſe.* |  |
-| `c1-l044` | &emsp;¶ Coye ayauo naſu. *Fazer paſſos de gar* |  |
+| `c1-l044` | &emsp;¶ Coye ayauo naſu. *Fazer paßos de gar* |  |
 | `c1-l045` | &emsp;*ganta, ou gargantear.* |  |
 | `c1-l046` | Coye, uru, eta. *Engordar.* |  |
-| `c1-l047` | Coye, uru, eta. *Paſſar por cima de algũa* |  |
+| `c1-l047` | Coye, uru, eta. *Paßar por cima de algũa* |  |
 
 ## Column 2 running header
 

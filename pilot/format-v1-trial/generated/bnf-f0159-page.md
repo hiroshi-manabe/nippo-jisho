@@ -91,7 +91,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l011` | &emsp;*ou deixar o mundo, & recolherſe, &c.* |  |
 | `c2-l012` | Dôxin. Vonaji cocoro. *Conſentimento.* |  |
 | `c2-l013` | &emsp;¶ Dôxin ſuru. *Conſentir.* |  |
-| `c2-l014` | Dǒxinja. *Peſſoa deuota, & deſejoſa de ſua* |  |
+| `c2-l014` | Dǒxinja. *Peßoa deuota, & deſejoſa de ſua* |  |
 | `c2-l015` | &emsp;*ſaluação, ou q̃ ſe conuerte, & deixa o mũdo.* |  |
 | `c2-l016` | Doxi uchi. *Matar ao de ſua banda cuidando* |  |
 | `c2-l017` | &emsp;*ſer inimigo.* |  |
@@ -104,7 +104,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l024` | Dôxǒ. Vonaji yuca. *O meſmo leito, ou* |  |
 | `c2-l025` | &emsp;*cama.* |  |
 | `c2-l026` | Dôxǒjin. Vonajicu xǒzuru cami. *Cami q̃* |  |
-| `c2-l027` | &emsp;*juntamente nace com alguem, & lhe aſſiſte em* |  |
+| `c2-l027` | &emsp;*juntamente nace com alguem, & lhe aßiſte em* |  |
 | `c2-l028` | &emsp;*quanto viue a maneira do Anjo da guarda, o* |  |
 | `c2-l029` | &emsp;*qual tẽ por officio fazer a ſaber ao Rey dos dia* |  |
 | `c2-l030` | &emsp;*bos todos os bens, & boas obras que em ſua ui-* |  |

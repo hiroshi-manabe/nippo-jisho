@@ -60,7 +60,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l044` | &emsp;*barrela.* |  |
 | `c1-l045` | Fiſague. *Hum vaſo de pao pera dar agoa co-* |  |
 | `c1-l046` | &emsp;*mo gumil.* |  |
-| `c1-l047` | Fiſagui. *Hũa aruore aſſi chamada.* |  |
+| `c1-l047` | Fiſagui. *Hũa aruore aßi chamada.* |  |
 
 ## Column 2 running header
 

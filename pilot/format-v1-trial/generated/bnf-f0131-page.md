@@ -24,10 +24,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l008` | &emsp;Cotocotoxù. |  |
 | `c1-l009` | Cǒtocu. Atçui tocu. *Grandes proueitos.* |  |
 | `c1-l010` | Cotofiqi. *Tangedor do crauo de Iapão.* |  |
-| `c1-l011` | Cotofiqi. *Hum peixe aſſi chamado.* |  |
+| `c1-l011` | Cotofiqi. *Hum peixe aßi chamado.* |  |
 | `c1-l012` | Cotofirô. *Larga, & eſpaçoſamente.* |  |
 | `c1-l013` | Cotofiroi. *Couſa muito eſpaçoſa, & larga.* |  |
-| `c1-l014` | Cotofuri, u, rita. *Enuelhecer, ou paſſar o tẽ-* |  |
+| `c1-l014` | Cotofuri, u, rita. *Enuelhecer, ou paßar o tẽ-* |  |
 | `c1-l015` | &emsp;*po, & ſazão da couſa.* |  |
 | `c1-l016` | Cotogi. i. Coma. *Caualete ſobre que eſtirão,* |  |
 | `c1-l017` | &emsp;*& caualgão as cordas do crauo, ou viola de* |  |
@@ -35,7 +35,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l019` | Cotogotoqu. *Tudo ſem ficar nada.* |  |
 | `c1-l020` | Cotogotoni. *Adu. Em cada couſa.* |  |
 | `c1-l021` | Cotoguſa. *P. Palaura, ou pratica dalguẽ.* |  |
-| `c1-l022` | Cotonai. *Couſa grande, ou exceſſiua.* |  |
+| `c1-l022` | Cotonai. *Couſa grande, ou exceßiua.* |  |
 | `c1-l023` | Cotonǒ. *Adu.* |  |
 | `c1-l024` | Cotonaru. *l.* Cotono focanaru. *Couſa grã* |  |
 | `c1-l025` | &emsp;*de, ou extraordinaria. ¶ Item, Ser dif-* |  |
@@ -53,7 +53,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l037` | Cotonofocano. *Grande couſa.* |  |
 | `c1-l038` | Cotori. *Paſſarinho. (aguia.* |  |
 | `c1-l039` | Cotoriba. Vaxino vo. *Penas do rabo da* |  |
-| `c1-l040` | Cotoſara. *Adu. Alem diſſo.* |  |
+| `c1-l040` | Cotoſara. *Adu. Alem dißo.* |  |
 | `c1-l041` | Cotoſôzǒxi. i. Monoſauagaxij. *Couſa de* |  |
 | `c1-l042` | &emsp;*perturbação, & reuolta.* |  |
 | `c1-l043` | Cototagai. *Erro nofalar.* |  |
@@ -105,7 +105,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l025` | &emsp;*dar encomendas de palaura, ou dalas.* |  |
 | `c2-l026` | Cotzui. Fone, zui. *Oſſos, & tutanos. Vt,* |  |
 | `c2-l027` | &emsp;Cotzuini touoru, l, teſſuru. *Penetrar* |  |
-| `c2-l028` | &emsp;*tèos oſſos, & tutanos.* |  |
+| `c2-l028` | &emsp;*tèos oßos, & tutanos.* |  |
 | `c2-l029` | Coua. *Interjec. Do que ſe eſpanta. Vt,* Co- |  |
 | `c2-l030` | &emsp;ua ſomo aſamaxiya. *O que couſa tão laſti-* |  |
 | `c2-l031` | &emsp;*moſa. Não ſeuſa porſi ſò ſem outra palaura.* |  |

@@ -34,9 +34,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l018` | &emsp;*não pera caſa. ¶ Item, O partirſe pera* |  |
 | `c1-l019` | &emsp;*as tais partes ſẽ tornar logo. ¶* Cadode, l, |  |
 | `c1-l020` | &emsp;cadoide yoi, l, axij. *Ser aſaida boa, bem,* |  |
-| `c1-l021` | &emsp;*ou mal estreada conforme ao ſuceſſo que tem* |  |
+| `c1-l021` | &emsp;*ou mal estreada conforme ao ſuceßo que tem* |  |
 | `c1-l022` | &emsp;*nodia emque ſaem, ou ſe partem deueras, &* |  |
-| `c1-l023` | &emsp;*aſſi ſe acertão de encontrar algũa peſſoa a que* |  |
+| `c1-l023` | &emsp;*aßi ſe acertão de encontrar algũa peßoa a que* |  |
 | `c1-l024` | &emsp;*tem odio, &c. dizem* cadoideuo xinauoi |  |
 | `c1-l025` | &emsp;te mairo. *Quero ir me emendar, ou mi-* |  |
 | `c1-l026` | &emsp;*lhorar esta ſaida, o q̃ fazem tornando ſe pera* |  |

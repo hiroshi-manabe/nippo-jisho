@@ -25,7 +25,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1a-l009` | &emsp;yeba fanayacani detachi ſumaite, &c. |  |
 | `c1a-l010` | &emsp;*Parecendo lhe que aquelle dia auia de morrer* |  |
 | `c1a-l011` | &emsp;*veſtioſe, & ornouſe lindamente.* |  |
-| `c1a-l012` | Detamono. *Vide ſuprà* Demono. *Peſſoa* |  |
+| `c1a-l012` | Detamono. *Vide ſuprà* Demono. *Peßoa* |  |
 | `c1a-l013` | &emsp;*atreuida, & que ſe entremete muito.* |  |
 | `c1a-l014` | Dexi. *Diſcipulo.* |  |
 

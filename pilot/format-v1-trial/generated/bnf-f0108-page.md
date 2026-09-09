@@ -50,7 +50,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l034` | &emsp;*lhão a ordidura da ſeda.* |  |
 | `c1-l035` | Chiracaxi, ſu, aita. *Melius* chiraxi, ſu. |  |
 | `c1-l036` | &emsp;*Eſpalhar, ou derramar.* |  |
-| `c1-l037` | Chirachirato. *Adu. Logo depreſſa. ¶ Item,* |  |
+| `c1-l037` | Chirachirato. *Adu. Logo depreßa. ¶ Item,* |  |
 | `c1-l038` | &emsp;*Modo de bulir, ou mouer ſe algũa couſa.* |  |
 | `c1-l039` | Chiraxi, ſu, aita. *Eſpalhar. ¶* Fanauo |  |
 | `c1-l040` | &emsp;chiraſu. *Eſpalhar flores, ou fazer algũa cou-* |  |
@@ -113,12 +113,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l039` | Chiſacu. Voſocu tçucuru. *Lauoura, ou* |  |
 | `c2-l040` | &emsp;*cultivação feita tarde.* |  |
 | `c2-l041` | Chiſan. Voſocu mairu. *Vinda, ou ida tarde.* |  |
-| `c2-l042` | Chiſan. Faxe mairu. *Ida, ou vinda apreſſada.* |  |
+| `c2-l042` | Chiſan. Faxe mairu. *Ida, ou vinda apreßada.* |  |
 | `c2-l043` | Chiſato. Xenno ſato. *Mil lugares, ou mil* |  |
 | `c2-l044` | &emsp;*legoas, ou muito longe.* |  |
 | `c2-l045` | Chiſô. Vaxiru. *Fauor, & Agazalhado.* |  |
 | `c2-l046` | Chiſocu. Voſoicoto, ſumiyacana coto. *Va-* |  |
-| `c2-l047` | &emsp;*gar, & preſſa.* |  |
+| `c2-l047` | &emsp;*gar, & preßa.* |  |
 
 ## Catchword
 

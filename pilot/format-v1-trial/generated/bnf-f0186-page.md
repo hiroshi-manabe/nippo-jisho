@@ -16,7 +16,7 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c1a-l001` |  | *lhos, &c. Vt,* Nanguiǒuo fetçucuſu. |
 | `c1a-l002` | &emsp;*Paſſar muitos trabalhos, penitencias, &c.* |  |
-| `c1a-l003` | Fetçui. *Aſſento que fazem de barro como for* |  |
+| `c1a-l003` | Fetçui. *Aßento que fazem de barro como for* |  |
 | `c1a-l004` | &emsp;*nalha, ou fogaõ ſobre que eſſentão as panellas* |  |
 | `c1a-l005` | &emsp;*de ferro na cozinha.* |  |
 | `c1a-l006` | Fetçurai, ǒ, ǒta. *Contemporizar, ou liſõ-* |  |
@@ -87,7 +87,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l004` | &emsp;*Eſperar pollo dia, ou conjunção. ¶* Fiuo ſa- |  |
 | `c2-l005` | &emsp;damuru. *Determinar o dia. ¶* Youo fi |  |
 | `c2-l006` | &emsp;ni tçugu. *Ajuntar as noites aos dias. i,* |  |
-| `c2-l007` | &emsp;*darſe preſſa de dia, & de noite, como ẽ cami-* |  |
+| `c2-l007` | &emsp;*darſe preßa de dia, & de noite, como ẽ cami-* |  |
 | `c2-l008` | &emsp;*nhar, ou em outra couſa. ¶* Fiuo ſugo- |  |
 | `c2-l009` | &emsp;ſu, l, *potiùs,* Curaſu. *Paſſar o dia.* |  |
 | `c2-l010` | &emsp;*¶* Figa cururu. *Fazerſe noite.* |  |
@@ -97,7 +97,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l014` | &emsp;*¶* Figa moyuru. *Acenderſe o fogo, ou* |  |
 | `c2-l015` | &emsp;*fazer o fogo grande labareda. ¶* Figa qi- |  |
 | `c2-l016` | &emsp;yuru. *Apagarſe o fogo. ¶ Item, Per-* |  |
-| `c2-l017` | &emsp;*met. Morrer, ou acabarſe algũa peſſoa princi-* |  |
+| `c2-l017` | &emsp;*met. Morrer, ou acabarſe algũa peßoa princi-* |  |
 | `c2-l018` | &emsp;*pal que era o que ſostentaua a caſa. ¶* Figa |  |
 | `c2-l019` | &emsp;moyetatçu. *Atiçarſe o fogo, ou acenderſe.* |  |
 | `c2-l020` | &emsp;*¶* Fi, l, fibanauo chiraſu. *Pelejar va-* |  |

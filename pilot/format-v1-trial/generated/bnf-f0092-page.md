@@ -100,7 +100,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l026` | &emsp;*tempo.* |  |
 | `c2-l027` | Caricoto. *Mentiras, como quando hum diz* |  |
 | `c2-l028` | &emsp;*que o ſenhor, ou* Tono *manda tal couſa ſem ſer* |  |
-| `c2-l029` | &emsp;*aſſi. Vt,* Caricotouo yǔ. *Dizer eſtas* |  |
+| `c2-l029` | &emsp;*aßi. Vt,* Caricotouo yǔ. *Dizer eſtas* |  |
 | `c2-l030` | &emsp;*mintiras.* |  |
 | `c2-l031` | Carigane. *Pato brauo.* |  |
 | `c2-l032` | Cariguinu. *Huns certos vestidos de* Cugue |  |
@@ -112,7 +112,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l038` | Carimatagara. *Certa laya de frechas deſte fer-* |  |
 | `c2-l039` | &emsp;*ro de duas pontas.* |  |
 | `c2-l040` | Carimecaxi, ſu, aita. *Fazer ruido cõ os dẽ-* |  |
-| `c2-l041` | &emsp;*tes quebrando oſſos, couſas duras como biſcou* |  |
+| `c2-l041` | &emsp;*tes quebrando oßos, couſas duras como biſcou* |  |
 | `c2-l042` | &emsp;*to, &c.* |  |
 | `c2-l043` | Carimeqi, u, eita. *Soar entre os dentes, quã-* |  |
 | `c2-l044` | &emsp;*do ſe maſtiga pepino, rabão, biſcouto, &c.* |  |

@@ -16,7 +16,7 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c1-l001` | Catarigoto. *Pratica.* |  |
 | `c1-l002` | Catari idaxi, ſu, aita. *Começar a praticar,* |  |
-| `c1-l003` | &emsp;*ou falar couſas paſſadas. ¶* Cono fito |  |
+| `c1-l003` | &emsp;*ou falar couſas paßadas. ¶* Cono fito |  |
 | `c1-l004` | &emsp;qiuoyete iroirono cotouo catariidaita. |  |
 | `c1-l005` | &emsp;Mon*. Eſte homem tomando alento contou* |  |
 | `c1-l006` | &emsp;*varias couſas. (apratica.* |  |
@@ -29,10 +29,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l013` | &emsp;*fiado. Vt,* Coxi cata yucuſuyeno co- |  |
 | `c1-l014` | &emsp;todomouo cataritçuzzuqete ſamezame- |  |
 | `c1-l015` | &emsp;to nacareta. Fei*. L. 4. Continuando* |  |
-| `c1-l016` | &emsp;*apratica do que tinha paſſado, & do que a-* |  |
+| `c1-l016` | &emsp;*apratica do que tinha paßado, & do que a-* |  |
 | `c1-l017` | &emsp;*uia de acontecer chorou muitas lagrimas.* |  |
 | `c1-l018` | Catariuocoxi, ſu, oita. *Tornar apraticar* |  |
-| `c1-l019` | &emsp;*o paſſado.* |  |
+| `c1-l019` | &emsp;*o paßado.* |  |
 | `c1-l020` | Cataſagari. *O estar hũa parte mais bai*x*a que* |  |
 | `c1-l021` | &emsp;*outra. ¶ Item, Eſtar o veſtido de hũa* |  |
 | `c1-l022` | &emsp;*parte mais baixo, ou comprido.* |  |
@@ -114,7 +114,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l034` | Catayamazato. *Pouoação dos montes.* |  |
 | `c2-l035` | Cataye. i. Vaquno yeda. *ramo de hua parte.* |  |
 | `c2-l036` | Cataye. *Vt,* Cataye nomono. *Gente, ou* |  |
-| `c2-l037` | &emsp;*peſſoas de ſeruiço que não ſão das mais altas nẽ* |  |
+| `c2-l037` | &emsp;*peßoas de ſeruiço que não ſão das mais altas nẽ* |  |
 | `c2-l038` | &emsp;*das mais baixas. ¶* Catayeno nhôbo. |  |
 | `c2-l039` | &emsp;*Molheres de ſeruiço das ordinarias que não ſão* |  |
 | `c2-l040` | &emsp;*muito baixas.* |  |

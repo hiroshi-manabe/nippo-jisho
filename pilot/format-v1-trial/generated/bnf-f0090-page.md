@@ -21,8 +21,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l005` | Caqitate, uru, eta. *Atiçar o candieiro, &c.* |  |
 | `c1-l006` | &emsp;*Vt,* Tomoxibiuo caqitatete. *Atiçãdo o* |  |
 | `c1-l007` | &emsp;*candieiro, ou alampada, &c.* |  |
-| `c1-l008` | Caqitaye, uru, eta. *Ceſſar de eſcreuer.* |  |
-| `c1-l009` | &emsp;*¶* Caqitayete votozzuremo naxi. *Ceſſã-* |  |
+| `c1-l008` | Caqitaye, uru, eta. *Ceßar de eſcreuer.* |  |
+| `c1-l009` | &emsp;*¶* Caqitayete votozzuremo naxi. *Ceßã-* |  |
 | `c1-l010` | &emsp;*do as cartas nem nouas hà.* |  |
 | `c1-l011` | Caqitçucauaxi, ſu, aita. *Mandar por eſcrito.* |  |
 | `c1-l012` | Caqitçucuxi, ſu, uita. *Eſcreuer tudo, ou eſ* |  |

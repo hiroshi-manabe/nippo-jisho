@@ -34,7 +34,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l018` | Caqidaxi, ſu, aita. T*irar algũa couſa aos hõ-* |  |
 | `c1-l019` | &emsp;*bros, ou nas mãos. Vt,* Ano biǒbuuo |  |
 | `c1-l020` | &emsp;caqidaxe. T*irai fora aquelle* biǒbu. |  |
-| `c1-l021` | Caqidouori. *Erua aſſi chamada. No* cami |  |
+| `c1-l021` | Caqidouori. *Erua aßi chamada. No* cami |  |
 | `c1-l022` | &emsp;*ſe diz* Caqidouoxi. |  |
 | `c1-l023` | Caqifuxe, uru, eta. T*omando a alguem* |  |
 | `c1-l024` | &emsp;*nas mãos deitalo. Vt,* Fizano vyeni ca- |  |
@@ -84,7 +84,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l004` | Caqinauoxi, ſu, oita. *Tornar a eſcreuer mi* |  |
 | `c2-l005` | &emsp;*lhor o mal eſcrito.* |  |
 | `c2-l006` | Caqinaxi, ſu, aita. *Eſcreuer de maneira que* |  |
-| `c2-l007` | &emsp;*pareça aſſi, ou aſſi. Vt,* Itçuuarino macoto |  |
+| `c2-l007` | &emsp;*pareça aßi, ou aßi. Vt,* Itçuuarino macoto |  |
 | `c2-l008` | &emsp;no yǒni caqinaxite. *Eſc*r*endo a mintira* |  |
 | `c2-l009` | &emsp;*de maneira que parecia verdade.* |  |
 | `c2-l010` | Caqine. *Raiz, ou pè da ſebe.* |  |

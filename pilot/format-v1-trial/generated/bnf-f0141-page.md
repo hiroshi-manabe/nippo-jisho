@@ -34,10 +34,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l018` | &emsp;*uens.* |  |
 | `c1-l019` | Cumode. *Hũa certa laçada, ou figura a ma* |  |
 | `c1-l020` | &emsp;*neira de aſpa com outra taboa, ou peça atra-* |  |
-| `c1-l021` | &emsp;*ueſſada.* |  |
+| `c1-l021` | &emsp;*ueßada.* |  |
 | `c1-l022` | Cumofigiqi, l, cumono figiqi. *Remate q̃* |  |
 | `c1-l023` | &emsp;*ſe aſſenta ſobre as colũnas de madeira como ca-* |  |
-| `c1-l024` | &emsp;*pitel ſobre que aſſentão depois algũa traue,* |  |
+| `c1-l024` | &emsp;*pitel ſobre que aßentão depois algũa traue,* |  |
 | `c1-l025` | &emsp;*ou pao.* |  |
 | `c1-l026` | Cumogata. *Couſa feita a maneira de nuuem.* |  |
 | `c1-l027` | Cumoi. *Ar, ou lugar das nuuẽs. ¶ Itẽ,* |  |

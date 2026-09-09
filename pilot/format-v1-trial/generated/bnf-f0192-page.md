@@ -48,7 +48,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l032` | &emsp;qiateraretareba, &c. Feiq. *Lib. 1.* |  |
 | `c1-l033` | &emsp;*Deſembainhando a Catana chegou a, & pal-* |  |
 | `c1-l034` | &emsp;*ſou a pellos cabellos das fontes pera que melhor* |  |
-| `c1-l035` | &emsp;*cortaſſe.* |  |
+| `c1-l035` | &emsp;*cortaße.* |  |
 | `c1-l036` | Fiqiauaxe. *Abertura, ou juntura das armas.* |  |
 | `c1-l037` | Fiqiauaxe. *Certa laya de papel.* |  |
 | `c1-l038` | Fiqiauaxe. *Interceſão.* |  |

@@ -48,7 +48,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l032` | &emsp;*do a pena pera eſcreuer, ocorreo me hũa boa* |  |
 | `c1-l033` | &emsp;*ſentença. S.* |  |
 | `c1-l034` | Ficcacari, u, atta. *Embaraçarſe, ou prender* |  |
-| `c1-l035` | &emsp;*ſe como no mato, ou ſiluas quando paſſão, ou* |  |
+| `c1-l035` | &emsp;*ſe como no mato, ou ſiluas quando paßão, ou* |  |
 | `c1-l036` | &emsp;*quando puxão por algum pao, &c. ¶* Qi- |  |
 | `c1-l037` | &emsp;rumonoga cuguini ficcacatta. *Prendeoſe* |  |
 | `c1-l038` | &emsp;*me, ou ficou o vestido pegado em hum prègo.* |  |
@@ -59,7 +59,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l043` | Ficcaqe, uru, eta. *Puxar, ou enteſar como* |  |
 | `c1-l044` | &emsp;*arco pera por a ſeta. Vt,* Machiuo cobu- |  |
 | `c1-l045` | &emsp;xi ficcaqe. *Embebendo o arco de maneira* |  |
-| `c1-l046` | &emsp;*que chegaſſe o ferro da ſeta aos dedos da mão q̃* |  |
+| `c1-l046` | &emsp;*que chegaße o ferro da ſeta aos dedos da mão q̃* |  |
 | `c1-l047` | &emsp;*aferrão no arco. ¶* Nauauo cubini ficca- |  |
 
 ## Column 2 running header
@@ -80,7 +80,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l006` | &emsp;*to. ¶ Item, Permet.* Acu, l, acuxinuo |  |
 | `c2-l007` | &emsp;ficcayuru. *Deixar a maldade, ou trocar o ru-* |  |
 | `c2-l008` | &emsp;*im coração em bom.* |  |
-| `c2-l009` | Ficcayeri, eru, etta. *Retirarſe com preſſa,* |  |
+| `c2-l009` | Ficcayeri, eru, etta. *Retirarſe com preßa,* |  |
 | `c2-l010` | &emsp;*ou tornar atras.* |  |
 | `c2-l011` | Ficcayexi, ſu, eita. *Refrear, ou retirar pe* |  |
 | `c2-l012` | &emsp;*ra tras. ¶* Vmauo ficcayeſu, l, vma |  |
@@ -109,7 +109,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l035` | Fichiriqizuca. *Certa feição de punhos, ou em-* |  |
 | `c2-l036` | &emsp;*punhadura da Catana.* |  |
 | `c2-l037` | Fichô. Tobu chô. *Borboleta que voa. P.* |  |
-| `c2-l038` | Fichô. Tobu tori. *Paſſaro que voa. P.* |  |
+| `c2-l038` | Fichô. Tobu tori. *Paßaro que voa. P.* |  |
 | `c2-l039` | Fichù. *Cabelos da barba na parte do beiço de* |  |
 | `c2-l040` | &emsp;*baxo.* |  |
 | `c2-l041` | Ficǒ. i, Vacauo yeizuru. *Modo de ler os* |  |

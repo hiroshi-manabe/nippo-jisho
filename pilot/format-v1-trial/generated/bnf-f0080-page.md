@@ -46,7 +46,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l030` | &emsp;*emparão os que combatem algũa fortaleza.* |  |
 | `c1-l031` | Cameno futa. *Hum vazo em que vazão agoa* |  |
 | `c1-l032` | &emsp;*no* Chanoyu *como* Mizzucoboxi. |  |
-| `c1-l033` | Cameno vo. *O derradeiro oſſo da trazeira que* |  |
+| `c1-l033` | Cameno vo. *O derradeiro oßo da trazeira que* |  |
 | `c1-l034` | &emsp;*he o cabo do eſpinhaço.* |  |
 | `c1-l035` | Cami. *Cabellos da cabeça. ¶* Camiga ta- |  |
 | `c1-l036` | &emsp;tçu. *Arrepiarem ſe os cabellos. ¶* Ca- |  |
@@ -79,7 +79,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l004` | &emsp;ra auauo camu. *Eſcumar o caualo polla* |  |
 | `c2-l005` | &emsp;*boca. ¶ Item,* Cami, u. *Comer. ¶* Xi- |  |
 | `c2-l006` | &emsp;xi fitouo camu. *O lião come o homem.* |  |
-| `c2-l007` | Cami, u, ǒda. *Vt,* Fanauo camu. *Aſſoarſe.* |  |
+| `c2-l007` | Cami, u, ǒda. *Vt,* Fanauo camu. *Aßoarſe.* |  |
 | `c2-l008` | Camiai, ǒ, ǒta. *Morderſe hũ ao outro. vt,* |  |
 | `c2-l009` | &emsp;Ynuga camiyǒta. *Os caẽs morderão ſe huns* |  |
 | `c2-l010` | &emsp;*aos outros.* |  |
@@ -114,10 +114,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l039` | Camiyo. *Idade, ou tẽpo dos* Camis *de Iapão.* |  |
 | `c2-l040` | Camiyori. *Papel trocido pera atar algũa cou* |  |
 | `c2-l041` | &emsp;*ſa em lugar de fio. Melius.* Cǒyori. |  |
-| `c2-l042` | Camo. *Hum paſſaro do mar, como marreca.* |  |
+| `c2-l042` | Camo. *Hum paßaro do mar, como marreca.* |  |
 | `c2-l043` | Camogutçu. *Çapatos altos pera jugar apella* |  |
 | `c2-l044` | &emsp;*com os pees ao cuſtume de Iapão.* |  |
-| `c2-l045` | Camoi. *Traueſſa de cima por onde correm as* |  |
+| `c2-l045` | Camoi. *Traueßa de cima por onde correm as* |  |
 | `c2-l046` | &emsp;*portas de Iapão.* |  |
 | `c2-l047` | Camoji. *Cabelleira poſtiça de molheres.* |  |
 

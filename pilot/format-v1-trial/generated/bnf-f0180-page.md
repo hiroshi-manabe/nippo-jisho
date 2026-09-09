@@ -46,7 +46,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l030` | Fazame, uru. *Entalar, ou meter entre duas* |  |
 | `c1-l031` | Fazu. *Concerto. Vt,* Fazuuo auaſuru. *Com-* |  |
 | `c1-l032` | &emsp;*prir a promeſſa, & concerto. ¶* Fazuga |  |
-| `c1-l033` | &emsp;chigǒ. *Diſcrepar do concerto, ou promeſſa.* |  |
+| `c1-l033` | &emsp;chigǒ. *Diſcrepar do concerto, ou promeßa.* |  |
 | `c1-l034` | &emsp;*¶ Item,* Fazuuo auaſuru. *Fazer de peſ-* |  |
 | `c1-l035` | &emsp;*ſoa, ou como ſe eſpera delle na guerra, &c.* |  |
 | `c1-l036` | &emsp;*¶* Fazuno auanu fito. *Homem que não* |  |
@@ -56,7 +56,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l040` | Fazu. *Mauça do arco. Vt,* Fazuuo tçu- |  |
 | `c1-l041` | &emsp;gu. *Fazer a mauça doutra cana, corno, &c.* |  |
 | `c1-l042` | &emsp;*¶* Fazuuo ſaſu. *Fazer a mauça das fre-* |  |
-| `c1-l043` | &emsp;*chas com que as aſſentão na corda do arco.* |  |
+| `c1-l043` | &emsp;*chas com que as aßentão na corda do arco.* |  |
 | `c1-l044` | &emsp;*¶* Fazumaqiuo ſuru. *Apertar com fio* |  |
 | `c1-l045` | &emsp;*junto da mauça da frecha.* |  |
 | `c1-l046` | Fazudacani. *Adu. Modo de por a aljaua* |  |
@@ -104,7 +104,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l030` | &emsp;ayumaxei, fazzumaba tazzunauo cutte |  |
 | `c2-l031` | &emsp;voyogaxei. Feiq. *Lib. 2. Fazei an-* |  |
 | `c2-l032` | &emsp;*dar o caualo largando lhe as redeas quanto elle* |  |
-| `c2-l033` | &emsp;*poder, & ſe for muito apreſſado puxando lhe* |  |
+| `c2-l033` | &emsp;*poder, & ſe for muito apreßado puxando lhe* |  |
 | `c2-l034` | &emsp;*pellas redeas fazey o nadar.* |  |
 | `c2-l035` | Fazzuna. *Loro do cabreſto com que amarrão o* |  |
 | `c2-l036` | &emsp;*cauallo na eſtrebaria.* |  |

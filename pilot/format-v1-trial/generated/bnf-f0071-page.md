@@ -15,13 +15,13 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c1-l001` | Cacarixi nochiua. *Adu.* i*.* Cacu arixi no |  |
-| `c1-l002` | &emsp;chiua. *Depois diſto, & ſendo aſſi, &c. S.* |  |
+| `c1-l002` | &emsp;chiua. *Depois diſto, & ſendo aßi, &c. S.* |  |
 | `c1-l003` | Cacariyǒ. *Pezar algũa couſa igualmente cõ* |  |
 | `c1-l004` | &emsp;*outra, ou estar o pezo juſto.* |  |
 | `c1-l005` | Cacaru. *Adiect. i.* Cayǒnaru, l*,* cacuno |  |
 | `c1-l006` | &emsp;gotocu naru. *Desta laya, ou deſta maneira.* |  |
 | `c1-l007` | &emsp;*¶* Cacaru tocoroni. i. Cacunogotoqu |  |
-| `c1-l008` | &emsp;aru tocoroni. *Adu. ſendo aſſi.* |  |
+| `c1-l008` | &emsp;aru tocoroni. *Adu. ſendo aßi.* |  |
 | `c1-l009` | Cacauari, u, atta. T*er deuer, ou entender cõ* |  |
 | `c1-l010` | &emsp;*algũa couſa. Vt,* Mononi cacauaru. *En-* |  |
 | `c1-l011` | &emsp;*tender com algũa couſa. ¶ Item,* T*ocar,* |  |
@@ -85,7 +85,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l004` | Cachi, tçu, atta. *Vençer na guerra, demanda,* |  |
 | `c2-l005` | &emsp;*contenda, &c. ¶ Itẽ, Ganhar nojogo, apoſ-* |  |
 | `c2-l006` | &emsp;*ta, &c. ¶* Catçuni noru. *Emſoberueçer* |  |
-| `c2-l007` | &emsp;*ſe cõ a vitoria, ou bom ſucceſſo, &c.* |  |
+| `c2-l007` | &emsp;*ſe cõ a vitoria, ou bom ſucceßo, &c.* |  |
 | `c2-l008` | Cachi, tçu, atta. *Varejar, ou dar com vara,* |  |
 | `c2-l009` | &emsp;*ou pao, lança, &c. ¶* Conomiuo cachi |  |
 | `c2-l010` | &emsp;votoſu. *Varejar, ou derrubar com vara* |  |
@@ -109,7 +109,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l028` | Cachiguri. *Caſtanhas piladas, ou ſecas ao ſol.* |  |
 | `c2-l029` | Cachi iro. *O pareçer que vençe, ou moſtras* |  |
 | `c2-l030` | &emsp;*de vençer. ¶* Cachi irona. *Idem. Vt,* Mi |  |
-| `c2-l031` | &emsp;cata cachi ironi gozaru. *Os da noſſa parte* |  |
+| `c2-l031` | &emsp;cata cachi ironi gozaru. *Os da noßa parte* |  |
 | `c2-l032` | &emsp;*pareçe, ou tem geito de vençer.* |  |
 | `c2-l033` | Cachimaqe. *Ganho, & perda, vençer, &* |  |
 | `c2-l034` | &emsp;*ſer vençido.* | *(nha.* |

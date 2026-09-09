@@ -28,7 +28,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l012` | Cuchizzuqi, u, uita. *Começar a dizer, ou* |  |
 | `c1-l013` | &emsp;*pronunciar algũas palauras que dantes não po-* |  |
 | `c1-l014` | &emsp;*dia, como o q̃ aprẽdẽdo algũa oração em latim* |  |
-| `c1-l015` | &emsp;*começaſſe amaſtigar as palauras q̃ dãtes não* |  |
+| `c1-l015` | &emsp;*começaße amaſtigar as palauras q̃ dãtes não* |  |
 | `c1-l016` | &emsp;*podia. ¶ Item, Começar alguẽ a comer pou* |  |
 | `c1-l017` | &emsp;*co a pouco, tendo dantes fastio. Vt,* Xocu- |  |
 | `c1-l018` | &emsp;ni cuchizzuita. *Ia começo a comer algũa* |  |
@@ -58,7 +58,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l042` | &emsp;*Hum ſer, ou principio antes das creaturas ſen-* |  |
 | `c1-l043` | &emsp;*ſiueis.* |  |
 | `c1-l044` | Cucume, uru, eta. *Dar de comer metendo o* |  |
-| `c1-l045` | &emsp;*na boca aſſi de meninos como de paſſaros, &c.* |  |
+| `c1-l045` | &emsp;*na boca aßi de meninos como de paſſaros, &c.* |  |
 | `c1-l046` | Cucumi. *Engonço do freo na parte que ſe me-* |  |
 | `c1-l047` | &emsp;*te na boca.* |  |
 
@@ -107,7 +107,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l027` | Cùdai. *Eſpaço, ou ſustancia que he fora dos* |  |
 | `c2-l028` | &emsp;*elementos, & ceo.* |  |
 | `c2-l029` | Cudan. *Couſa paſſada, ou dita a cima. Vt,* |  |
-| `c2-l030` | &emsp;Cudanno gotoxi. *Aſſi como està dito a* |  |
+| `c2-l030` | &emsp;Cudanno gotoxi. *Aßi como està dito a* |  |
 | `c2-l031` | &emsp;*traz. ¶* Cudanno fito. *Homẽ do qual* |  |
 | `c2-l032` | &emsp;*ſe falou a traz.* |  |
 | `c2-l033` | Cudaqe, uru, eta. *Esmiuçarſe. ¶* Migin |  |

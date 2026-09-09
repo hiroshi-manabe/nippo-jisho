@@ -19,7 +19,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l003` | Chǒqiù. Yumiuo faru. *O por a corda no arco.* |  |
 | `c1-l004` | Chǒqiù. Nagǒ fiſaxij coto. *Couſa durauel,* |  |
 | `c1-l005` | &emsp;*ou de muitos annos.* |  |
-| `c1-l006` | Chôqua. Coye ſuguru. *Exceſſo, ou demaſia* |  |
+| `c1-l006` | Chôqua. Coye ſuguru. *Exceßo, ou demaſia* |  |
 | `c1-l007` | &emsp;*quer ſeja no comer, & veſtir, ou em outra cou* |  |
 | `c1-l008` | &emsp;*ſa. S. ¶ Item, He palaura com que* |  |
 | `c1-l009` | &emsp;*louuão, ou encarecẽ algũa couſa. Vt,* Chô- |  |
@@ -85,7 +85,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l010` | &emsp;*dalgũa imagem, de eſcritorio, &c.* |  |
 | `c2-l011` | Chôuon. Teiuǒno gouon. *Beneficios que* |  |
 | `c2-l012` | &emsp;*faz el Rei.* |  |
-| `c2-l013` | Chôuot. Coye, coyuru. *Paſſar, ou exceder.* |  |
+| `c2-l013` | Chôuot. Coye, coyuru. *Paßar, ou exceder.* |  |
 | `c2-l014` | Chôxe. yoni coruyu. *Ser excellente, ou* |  |
 | `c2-l015` | &emsp;*inſigne entre os outros. ¶* Chôxeno fi- |  |
 | `c2-l016` | &emsp;guai. *Voto que* Amida *fez de ſa*l*uar os* |  |
@@ -93,9 +93,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l018` | Chǒxei. Nagaqu iquru. *Vida comprida.* |  |
 | `c2-l019` | &emsp;*Vt,* Chǒxei furǒ. *Longa vida ſem en* |  |
 | `c2-l020` | &emsp;*uelhecer.* |  |
-| `c2-l021` | Chôxei. Torino coye. *Voz do paſſaro.* |  |
+| `c2-l021` | Chôxei. Torino coye. *Voz do paßaro.* |  |
 | `c2-l022` | Chôxeiden. *Nome de hũa caſa, que està* |  |
-| `c2-l023` | &emsp;*dentro nos paſſos del Rei.* |  |
+| `c2-l023` | &emsp;*dentro nos paßos del Rei.* |  |
 | `c2-l024` | Chôxen. Tçuribune. *Embarcação peſca-* |  |
 | `c2-l025` | &emsp;*reza.* |  |
 | `c2-l026` | Chôxeqi. Aſa yǔ. *Pollamenhaã, & à tarde.* |  |
@@ -111,7 +111,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l036` | &emsp;*do, ou negociando algũa couſa dala, ou offe-* |  |
 | `c2-l037` | &emsp;*recella. Vt,* Chôxin mǒſu, l, ſuru. |  |
 | `c2-l038` | Chôxǒ. Maneqi xǒzuru. i. Fitouo xǒ- |  |
-| `c2-l039` | &emsp;dai ſuru. *Receber a peſſoa honrrada em* |  |
+| `c2-l039` | &emsp;dai ſuru. *Receber a peßoa honrrada em* |  |
 | `c2-l040` | &emsp;*ſua caſa.* |  |
 | `c2-l041` | Chǒxô. Nagai matçu. *Pinheiro comprido,* |  |
 | `c2-l042` | &emsp;*ou grande.* |  |

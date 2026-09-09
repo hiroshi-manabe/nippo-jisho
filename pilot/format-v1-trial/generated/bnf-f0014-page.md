@@ -104,18 +104,18 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l030` | &emsp;*clinação.* |  |
 | `c2-l031` | Aburazzutçu. *Canudo, ou cana em que ſe tẽ* |  |
 | `c2-l032` | &emsp;*o azeite.* |  |
-| `c2-l033` | Abure, ruru, eta. *Aſſarſe.* |  |
+| `c2-l033` | Abure, ruru, eta. *Aßarſe.* |  |
 | `c2-l034` | Aburemono. *Homem audaz, & que naõ tẽ* |  |
 | `c2-l035` | &emsp;*deuer com nada, nem eſtima a vida, &c.* |  |
-| `c2-l036` | Aburi, ru, utta. *Aſſar. ¶* Miuo aburu. |  |
+| `c2-l036` | Aburi, ru, utta. *Aßar. ¶* Miuo aburu. |  |
 | `c2-l037` | &emsp;*Aquẽtarſe ao fogo. ¶* Teuo aburu. |  |
 | `c2-l038` | &emsp;*Aquentar as mãos ao fogo. ¶* Fide monouo |  |
-| `c2-l039` | &emsp;aburu. *Aſſar algũa couſa ao fogo. ¶* Qi- |  |
+| `c2-l039` | &emsp;aburu. *Aßar algũa couſa ao fogo. ¶* Qi- |  |
 | `c2-l040` | &emsp;rumono nadouo fide aburi cauaraguru. |  |
 | `c2-l041` | &emsp;*Enxugar veſtido,ou outra couſa ao fogo. ¶* Cu- |  |
 | `c2-l042` | &emsp;ſuri, l, chauo aburu. *Torrar algũa me-* |  |
 | `c2-l043` | &emsp;*zinha, ou* cha*, &c.* |  |
-| `c2-l044` | Aburicaraxi, ſu, aita. *Aſſar, & ſecar.* |  |
+| `c2-l044` | Aburicaraxi, ſu, aita. *Aßar, & ſecar.* |  |
 | `c2-l045` | Aburicauaragaxi, ſu, ita. *Idem.* |  |
 | `c2-l046` | Aburicauacaſu. *Idem.* |  |
 | `c2-l047` | Aburicauarague, uru, eta. *Idem.* |  |

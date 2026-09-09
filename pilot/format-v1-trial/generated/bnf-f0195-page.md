@@ -59,7 +59,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l043` | &emsp;*o exercito &c,. ¶* Ninjuuo fiqitoru. |  |
 | `c1-l044` | &emsp;*Recolher, ou retirar a gente. ¶ Item reti-* |  |
 | `c1-l045` | &emsp;*rarſe, ou recolherſe.* |  |
-| `c1-l046` | Fiqitouoxi, u, oita. *Puxando fazer paſſar.* |  |
+| `c1-l046` | Fiqitouoxi, u, oita. *Puxando fazer paßar.* |  |
 | `c1-l047` | Fiqiǔ. *Lugar ſecreto, & que ſabem poucos* |  |
 
 ## Column 2 running header
@@ -87,7 +87,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l013` | Fiqiuataxi, u, aita. *Paſſar algũa couſa por* |  |
 | `c2-l014` | &emsp;*algum lugar. Vt,* Fitono teuo totte ca- |  |
 | `c2-l015` | &emsp;uauo fiqiuataſu. *Tomando a alguẽ pella* |  |
-| `c2-l016` | &emsp;*mão fazello paſſar o rio. ¶ Item, atra-* |  |
+| `c2-l016` | &emsp;*mão fazello paßar o rio. ¶ Item, atra-* |  |
 | `c2-l017` | &emsp;*ueſar, ou eſtender algũa taboa, pao, &c.* |  |
 | `c2-l018` | &emsp;*¶ Item, Leuar em carretas pellas ruas a* |  |
 | `c2-l019` | &emsp;*juſtiçar, ou por à vergonha, &c. Vt,* Fi- |  |
@@ -95,7 +95,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l021` | &emsp;jimenuo fiqiuataſu. *Declarar o literal,* |  |
 | `c2-l022` | &emsp;*ou ſuperficial ſòmente dalgum liuro, ou dar* |  |
 | `c2-l023` | &emsp;*hũa viſta ao liuro decorrida.* |  |
-| `c2-l024` | Fiqiuocoxi. *Erua aſſi chamada.* |  |
+| `c2-l024` | Fiqiuocoxi. *Erua aßi chamada.* |  |
 | `c2-l025` | Fiqiuocoxi, u, oita. *Eſpertar, & aleuan-* |  |
 | `c2-l026` | &emsp;*tar ao que eſta dormindo. ¶ Item, Per-* |  |
 | `c2-l027` | &emsp;*met. Tornar a aleuantar, ou renouar o que es-* |  |

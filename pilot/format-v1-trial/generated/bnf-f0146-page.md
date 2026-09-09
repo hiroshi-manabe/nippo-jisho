@@ -38,7 +38,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l022` | Cuſacaqi. *Sacho com dentes abertos. No* Ca- |  |
 | `c1-l023` | &emsp;mi *ſe diz* Sarai. |  |
 | `c1-l024` | Cuſacari. *O que ſega, ou corta erua.* |  |
-| `c1-l025` | Cuſagui. *Hũa aruore aſſi chamada. ¶* Cu |  |
+| `c1-l025` | Cuſagui. *Hũa aruore aßi chamada. ¶* Cu |  |
 | `c1-l026` | &emsp;ſaguino fa. *Folhas deſta aruore, as quaes co* |  |
 | `c1-l027` | &emsp;*zidas, & ſecas ſe comem.* |  |
 | `c1-l028` | Cuſaguiri, u. i Cuſauo nagu. *Cortar, ou* |  |
@@ -58,7 +58,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l042` | Cuſanomi. *Fruita que nace das eruas.* |  |
 | `c1-l043` | Cuſano mochi. *Vide,* Cuſamochi. |  |
 | `c1-l044` | Cuſanoto. *P. Caſa de palha, ou choupana.* |  |
-| `c1-l045` | Cuſano vǒ. *Erva aſſi chamada.* |  |
+| `c1-l045` | Cuſano vǒ. *Erva aßi chamada.* |  |
 | `c1-l046` | Cuſaqi. *Eruas, & aruores.* |  |
 | `c1-l047` | Cuſaracaxi, ſu, aita. *Fazer, ou deixar apo-* |  |
 
@@ -73,7 +73,7 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c2-l001` | &emsp;*drecer. ¶ Permet.* Qiuo cuſaracaſu. |  |
-| `c2-l002` | &emsp;*Queimar o ſangue, ou moleſtar aſſi, ou a outro.* |  |
+| `c2-l002` | &emsp;*Queimar o ſangue, ou moleſtar aßi, ou a outro.* |  |
 | `c2-l003` | Cuſare, uru, eta. *Começar a podrecer, ou* |  |
 | `c2-l004` | &emsp;*danarſe.* x*.* |  |
 | `c2-l005` | Cuſari. *Cadea.* Coganeno cuſari. *Cadea* |  |

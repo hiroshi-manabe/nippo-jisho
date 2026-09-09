@@ -90,8 +90,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l001` | &emsp;*trei com Pedro no caminho. ¶ Item, A-* |  |
 | `c2-l002` | &emsp;*juntaſe a eſtes verbos. ſ.* Aru, vogiaru, go |  |
 | `c2-l003` | &emsp;zaru, voriaru, nai, ſoro, &c. *Vt,* Sǒ |  |
-| `c2-l004` | &emsp;de gozaru. *Aſſi he.* Sǒdeua nai. *Não* |  |
-| `c2-l005` | &emsp;*he aſſi, &c. ¶ Ajuntando ſignifica, por.* |  |
+| `c2-l004` | &emsp;de gozaru. *Aßi he.* Sǒdeua nai. *Não* |  |
+| `c2-l005` | &emsp;*he aßi, &c. ¶ Ajuntando ſignifica, por.* |  |
 | `c2-l006` | &emsp;Vôſacazzuyide nomu. *Beber por grande* |  |
 | `c2-l007` | &emsp;*copo. ¶ Item, Com.* Varetaga chica- |  |
 | `c2-l008` | &emsp;radena fiqi aguegatai. *Com minhas forças* |  |

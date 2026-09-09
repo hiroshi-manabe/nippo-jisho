@@ -20,7 +20,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l004` | Chôcan. Tçurizauo. *Cana de peſcar.* |  |
 | `c1-l005` | Chocca. Miuoroſu. i. Fitouo vare yorimo |  |
 | `c1-l006` | &emsp;ſagattato miru coto. *O ver a baixando a* |  |
-| `c1-l007` | &emsp;*peſſoa que ſe vè.* |  |
+| `c1-l007` | &emsp;*peßoa que ſe vè.* |  |
 | `c1-l008` | Choccai. *Mão torta, & encolhida, ou que tẽ* |  |
 | `c1-l009` | &emsp;*os dedos derrubados, & aleijados.* |  |
 | `c1-l010` | Choccan. i. Teiuǒno guioyni chigǒ coto. |  |

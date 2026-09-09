@@ -43,7 +43,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l027` | Caino tama. *Aljofre.* |  |
 | `c1-l028` | Cainuqi, u, uita. *Enganar.* |  |
 | `c1-l029` | Caiqi. *Tafeta.* |  |
-| `c1-l030` | Caiqi. *Peſſoa que deu principio à algũa ſeita,* |  |
+| `c1-l030` | Caiqi. *Peßoa que deu principio à algũa ſeita,* |  |
 | `c1-l031` | &emsp;*ou doctrina.* |  |
 | `c1-l032` | Caiqiǔ. Qidafaxi xina. *Dignidade a q̃ ſe ſo* |  |
 | `c1-l033` | &emsp;*be por graos.* |  |

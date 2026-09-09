@@ -41,7 +41,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l025` | &emsp;*ẽtẽde, ou penetra por via de diſcurſo, &c.* |  |
 | `c1-l026` | Cacutai. Betno tai. *Suſtancia differente, ou* |  |
 | `c1-l027` | &emsp;*distinta.* |  |
-| `c1-l028` | Cacute, l, cacuteua. *Adu. Sendo aſſi, deſ* |  |
+| `c1-l028` | Cacute, l, cacuteua. *Adu. Sendo aßi, deſ* |  |
 | `c1-l029` | &emsp;*ta maneira, &c.* |  |
 | `c1-l030` | Cacuuon. *Nome de hum certo tom, ou toa-* |  |
 | `c1-l031` | &emsp;*da da voz.* |  |
@@ -92,11 +92,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l012` | &emsp;*&c. ¶* Cadauo ſuru. *Ter priguiça, ou* |  |
 | `c2-l013` | &emsp;*fazer com priguiça, & negligencia as couſas.* |  |
 | `c2-l014` | Cadamaxij. *Vt,* Cadamaxij fito. *Homẽ* |  |
-| `c2-l015` | &emsp;*maliçioſo, ou que diſſimula, & finge algũa* |  |
+| `c2-l015` | &emsp;*maliçioſo, ou que dißimula, & finge algũa* |  |
 | `c2-l016` | &emsp;*couſa.* |  |
 | `c2-l017` | Cadami, u, dǒda. *Deixar de fazer algũa cou-* |  |
 | `c2-l018` | &emsp;*ſa por priguiça.* |  |
-| `c2-l019` | Cadana, l, Cadano mono. *Peſſoa que falta* |  |
+| `c2-l019` | Cadana, l, Cadano mono. *Peßoa que falta* |  |
 | `c2-l020` | &emsp;*no que deue por negligençia. ¶* Cadana- |  |
 | `c2-l021` | &emsp;corouo ſuru. *Fazer falta, ou ſer negligen-* |  |
 | `c2-l022` | &emsp;*te no que deue.* |  |

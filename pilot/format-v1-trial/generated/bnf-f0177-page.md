@@ -21,7 +21,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l005` | &emsp;*presteza. ¶ Item, Fazer correr. Vt,* |  |
 | `c1-l006` | &emsp;Vmauo faſuru. *Fazer correr o caualo.* |  |
 | `c1-l007` | Faxeai, uǒ, uǒta. *Encontraremſe algũs cõ* |  |
-| `c1-l008` | &emsp;*preſſa.* |  |
+| `c1-l008` | &emsp;*preßa.* |  |
 | `c1-l009` | Faxeatçumari, u, atta. *Ajuntarſe de preſſa.* |  |
 | `c1-l010` | Faxeague, uru, eta. *Dar a Fune ſobre algũa* |  |
 | `c1-l011` | &emsp;*pedra, ou em algum baixo, &c. Vt,* Fune |  |
@@ -37,30 +37,30 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l021` | &emsp;*tinuando.* |  |
 | `c1-l022` | Faxechigai, ǒ, ǒta. *Correndo deſencõtrarſe.* |  |
 | `c1-l023` | Faxechiri, u, itta. *Eſpalharſe muita gente* |  |
-| `c1-l024` | &emsp;*com preſſa.* |  |
+| `c1-l024` | &emsp;*com preßa.* |  |
 | `c1-l025` | Faxecudari, u, atta. *Decer de preſſa.* |  |
 | `c1-l026` | Faxecuuauari, u, atta. *Correndo meterſe ẽ-* |  |
 | `c1-l027` | &emsp;*tre outros.* |  |
 | `c1-l028` | Faxefuſagari, u, atta. *Tapar, ou impedir al-* |  |
 | `c1-l029` | &emsp;*gum lugar correndo.* |  |
 | `c1-l030` | Faxei. Namino coye. *Som das ondas.* |  |
-| `c1-l031` | Faxeiri, iru, itta. *Entrar depreſſa.* |  |
-| `c1-l032` | Faxemairi, iru, itta. *Ir, ou vir de preſſa.* |  |
-| `c1-l033` | Faxemauari, u, atta. *Rodear cõ preſſa.* |  |
+| `c1-l031` | Faxeiri, iru, itta. *Entrar depreßa.* |  |
+| `c1-l032` | Faxemairi, iru, itta. *Ir, ou vir de preßa.* |  |
+| `c1-l033` | Faxemauari, u, atta. *Rodear cõ preßa.* |  |
 | `c1-l034` | Faxemeguri, u, utta. *Rodear indo de cà* |  |
 | `c1-l035` | &emsp;*pera là correndo.* |  |
-| `c1-l036` | Faxemucai, ǒ, ǒta. *Encontrarſe de preſſa.* |  |
+| `c1-l036` | Faxemucai, ǒ, ǒta. *Encontrarſe de preßa.* |  |
 | `c1-l037` | Faxen. Yabureta fune. *Embarcaçaõ quebrada,* |  |
 | `c1-l038` | &emsp;*ou deſfeita.* |  |
-| `c1-l039` | Faxenarabi, u, ǒda. *Irem iguaes com preſſa* |  |
+| `c1-l039` | Faxenarabi, u, ǒda. *Irem iguaes com preßa* |  |
 | `c1-l040` | &emsp;*como funes, &c.* |  |
-| `c1-l041` | Faxenobori, u, otta. *Subir de preſſa.* |  |
-| `c1-l042` | Faxenobi, u, onda, l, bita. *Correndo paſſar* |  |
+| `c1-l041` | Faxenobori, u, otta. *Subir de preßa.* |  |
+| `c1-l042` | Faxenobi, u, onda, l, bita. *Correndo paßar* |  |
 | `c1-l043` | &emsp;*diante.* |  |
-| `c1-l044` | Faxenuqe, uru, eta. *Paſſar diante de outro* |  |
+| `c1-l044` | Faxenuqe, uru, eta. *Paßar diante de outro* |  |
 | `c1-l045` | &emsp;*correndo.* |  |
 | `c1-l046` | Faxeſanji, uru, ita. *Vir correndo, ou com-* |  |
-| `c1-l047` | &emsp;*preſſa.* |  |
+| `c1-l047` | &emsp;*preßa.* |  |
 
 ## Column 2 running header
 
@@ -78,7 +78,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | Faxeſugui, uru, ita. *Paſſar auãte de preſſa.* |  |
+| `c2-l001` | Faxeſugui, uru, ita. *Paßar auãte de preßa.* |  |
 | `c2-l002` | Faxeſuſumi, u, unda. *Ir a diante.* |  |
 | `c2-l003` | Faxetauoxi, ſu, oita. *Derrubar correndo.* |  |
 | `c2-l004` | &emsp;*Vt,* Tacaguixi yori vmauo faxetauoxite, *&c.* |  |
@@ -88,7 +88,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l008` | Faxetouori, u, otta. *Paſſar correndo.* |  |
 | `c2-l009` | Faxeuocure, uru, eta. *Ficar a tras corrẽdo.* |  |
 | `c2-l010` | Faxeyoxe, ſuru, eta. *Chegar algũa couſa* |  |
-| `c2-l011` | &emsp;*aſſi com preſſa.* |  |
+| `c2-l011` | &emsp;*aßi com preſſa.* |  |
 | `c2-l012` | Faxi. *Dous paoſinhos com que comẽ os Iapoẽs.* |  |
 | `c2-l013` | Faxi. *Bico de paſſaro.* |  |
 | `c2-l014` | Faxi. *Borda, ou cabo de algũa couſa.* |  |

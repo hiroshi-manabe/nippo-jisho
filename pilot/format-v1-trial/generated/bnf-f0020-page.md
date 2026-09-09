@@ -16,7 +16,7 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c1-l001` | &emsp;*Ser tirada a alguem a renda, officio, &c.* |  |
 | `c1-l002` | &emsp;*Vt,* Chiguiǒ, yacu agatta. *¶ Item, Ser* |  |
-| `c1-l003` | &emsp;*offerecido, ou vir ter a mãos de peſſoa nobre.* |  |
+| `c1-l003` | &emsp;*offerecido, ou vir ter a mãos de peßoa nobre.* |  |
 | `c1-l004` | &emsp;*Vt,* Vyeſama ye xinmotga agatta, cata- |  |
 | `c1-l005` | &emsp;naga agatta, &c. *Foi offerecido ao ſe-* |  |
 | `c1-l006` | &emsp;*nhor hum preſente, hũa Catana, &c.* |  |
@@ -96,18 +96,18 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l022` | &emsp;*¶ Permet.* Gacumõ nadono irouo aguru. |  |
 | `c2-l023` | &emsp;*Medrar, ou melhorarſe no estudo, &c.* |  |
 | `c2-l024` | &emsp;*¶* Ienuo aguru. *Tirar as mezas, ou por* |  |
-| `c2-l025` | &emsp;*as mezas, ou dar de comer a peſſoa nobre.* |  |
+| `c2-l025` | &emsp;*as mezas, ou dar de comer a peßoa nobre.* |  |
 | `c2-l026` | &emsp;*¶* Xeqiuo aguru. *Tirar as portagens,* |  |
-| `c2-l027` | &emsp;*& vigias dos paſſos. ¶* Fatauo aguru. |  |
+| `c2-l027` | &emsp;*& vigias dos paßos. ¶* Fatauo aguru. |  |
 | `c2-l028` | &emsp;*Aleuantar, ou aruorar a bandeira. ¶* Cu |  |
 | `c2-l029` | &emsp;raini aguru. *Aleuantar a dignidade.* |  |
 | `c2-l030` | &emsp;*¶ Item,* Ague, ru. *Offerecer, ou dar a* |  |
-| `c2-l031` | &emsp;*peſſoa alta. ¶ Item, Renunciar. Vt,* Ya- |  |
+| `c2-l031` | &emsp;*peßoa alta. ¶ Item, Renunciar. Vt,* Ya- |  |
 | `c2-l032` | &emsp;cuuo aguru. *Renunciar, ou deixar o* |  |
 | `c2-l033` | &emsp;*officio. ¶* Chiguiǒuo aguru. *Renũ-* |  |
 | `c2-l034` | &emsp;*ciar, ou engeitar a renda ao ſenhor. ¶ Itẽ,* |  |
-| `c2-l035` | &emsp;*Acabar, ou ceſſar dalgũa couſa. ¶ Vt,* |  |
-| `c2-l036` | &emsp;Fuxinuo aguru. *Acabar, ou ceſſar da o-* |  |
+| `c2-l035` | &emsp;*Acabar, ou ceßar dalgũa couſa. ¶ Vt,* |  |
+| `c2-l036` | &emsp;Fuxinuo aguru. *Acabar, ou ceßar da o-* |  |
 | `c2-l037` | &emsp;*bra. ¶* Tefonuo aguru. *Acabar de* |  |
 | `c2-l038` | &emsp;*aprẽder algũa materia, ou treslado deſcreuer.* |  |
 | `c2-l039` | Ague axi. *Pee que ſe leuanta, & poem ſo-* |  |

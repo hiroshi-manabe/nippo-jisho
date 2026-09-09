@@ -121,7 +121,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l041` | Coſunoto. *P.* i. Sudareno foca. *Fora das* |  |
 | `c2-l042` | &emsp;*esteiras. (B.* |  |
 | `c2-l043` | Coſuqidaxi, ſu, aita. i. Voidafu. *Botar fora.* |  |
-| `c2-l044` | Cot. Fone. *Oſſos.* |  |
+| `c2-l044` | Cot. Fone. *Oßos.* |  |
 | `c2-l045` | Cota. Vouoimi, vouoxi. *Muito em quan* |  |
 | `c2-l046` | &emsp;*tidade.* |  |
 | `c2-l047` | Cotaca. *Falcão pequeno.* |  |

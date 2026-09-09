@@ -21,7 +21,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l005` | Coxi. *Andas. Vt,* Coxiuo caqu. *Le-* |  |
 | `c1-l006` | &emsp;*uar as andas aos hombros. ¶* Coxiuo caqi |  |
 | `c1-l007` | &emsp;yoſuru. *Chegar as andas. ¶* Coxini me |  |
-| `c1-l008` | &emsp;ſaruru. *Meterſe algũa peſſoa nobre nas* |  |
+| `c1-l008` | &emsp;ſaruru. *Meterſe algũa peßoa nobre nas* |  |
 | `c1-l009` | &emsp;*ãdas.* |  |
 | `c1-l010` | Coxi. *Cinta, ou cadeiras.* |  |
 | `c1-l011` | Coxiaqe. *Vt,* Coxiaqeno qimono. *Qui* |  |
@@ -60,7 +60,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l044` | Coxin. Vonorega mi. *Eu, ou minha peſ-* |  |
 | `c1-l045` | &emsp;*ſoa. S.* |  |
 | `c1-l046` | Coxino mono. *Eſpada, ou Catana de peſſoa* |  |
-| `c1-l047` | &emsp;*honrrada, & aſſi ſe diz ordinariamente.* Vo- |  |
+| `c1-l047` | &emsp;*honrrada, & aßi ſe diz ordinariamente.* Vo- |  |
 | `c1-l048` | &emsp;coxino mono. |  |
 
 ## Column 2 running header
@@ -86,7 +86,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l005` | Coxiraye, uru, eta. *Concertar, ou aparelhar.* |  |
 | `c2-l006` | Coxirayetate, tçuru, eta. *Acabar de con-* |  |
 | `c2-l007` | &emsp;*certar. ¶* Saraba acai aidani yô coxira- |  |
-| `c2-l008` | &emsp;yeta tete vocǒzu. Mon*. Ia que aſſi he* |  |
+| `c2-l008` | &emsp;yeta tete vocǒzu. Mon*. Ia que aßi he* |  |
 | `c2-l009` | &emsp;*enquanto hà luz dedia deixarei concertado, &* |  |
 | `c2-l010` | &emsp;*acabado bem.* |  |
 | `c2-l011` | Côxit. *Molher viuua.* |  |

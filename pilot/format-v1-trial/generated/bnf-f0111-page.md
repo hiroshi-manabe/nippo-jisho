@@ -18,12 +18,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l002` | &emsp;*& precioſa, ou proueitoſa.* |  |
 | `c1-l003` | Chôfǒ. *O concertar, ou aparelhar. Vt,* |  |
 | `c1-l004` | &emsp;Sacanauo chôfǒſuru. *Aparelhar* ſacana. |  |
-| `c1-l005` | &emsp;*¶* Chôfǒno yoifito. *Peſſoa induſtrioſa,* |  |
+| `c1-l005` | &emsp;*¶* Chôfǒno yoifito. *Peßoa induſtrioſa,* |  |
 | `c1-l006` | &emsp;*& que ſabe aparelhar as couſas, & negoci-* |  |
 | `c1-l007` | &emsp;*arſe, &c.* |  |
 | `c1-l008` | Chôfôna. *Couſa proueitoſa, & precioſa.* |  |
 | `c1-l009` | &emsp;Chôfôni. *Ad.* |  |
-| `c1-l010` | Chôfǒraxij. *Peſſoa induſtrioſa pera viuer,* |  |
+| `c1-l010` | Chôfǒraxij. *Peßoa induſtrioſa pera viuer,* |  |
 | `c1-l011` | &emsp;*ou ganhar ſua vida, como molher de boas mãos* |  |
 | `c1-l012` | &emsp;*caſeira, &c.* |  |
 | `c1-l013` | Chôga. *A*ru yamaino na. *Hũa certa doença.* |  |
@@ -88,7 +88,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l008` | &emsp;*¶ Item, per met, couſa ſuprema, & excel-* |  |
 | `c2-l009` | &emsp;*lente.* |  |
 | `c2-l010` | Chǒju. Qiqu xu. *Auditorio, ouuintes.* |  |
-| `c2-l011` | Chôjù. Tori qedamono. *Paſſaros, & ani-* |  |
+| `c2-l011` | Chôjù. Tori qedamono. *Paßaros, & ani-* |  |
 | `c2-l012` | &emsp;*maes.* |  |
 | `c2-l013` | Chojut. i. Xirenguno coto. *Compor certa* |  |
 | `c2-l014` | &emsp;*laya de verſos.* |  |

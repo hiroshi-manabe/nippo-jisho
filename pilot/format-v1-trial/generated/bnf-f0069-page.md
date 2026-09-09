@@ -78,15 +78,15 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | &emsp;*couſa, ou em querer reſponder mais depreſſa,* |  |
+| `c2-l001` | &emsp;*couſa, ou em querer reſponder mais depreßa,* |  |
 | `c2-l002` | &emsp;*& açodadamente do que conuem. ¶* Ca- |  |
-| `c2-l003` | &emsp;buita fito, l, cabuqimono. *Peſſoa que* |  |
+| `c2-l003` | &emsp;buita fito, l, cabuqimono. *Peßoa que* |  |
 | `c2-l004` | &emsp;*ſe deſmanda muito, ou toma mais licença do* |  |
-| `c2-l005` | &emsp;*que lhe dão, ou que reſponde depreſſa, & a-* |  |
+| `c2-l005` | &emsp;*que lhe dão, ou que reſponde depreßa, & a-* |  |
 | `c2-l006` | &emsp;*codadamente, ou ſe alegra mais do que con-* |  |
 | `c2-l007` | &emsp;*uem ainda bem não ouue as nouas, &c.* |  |
 | `c2-l008` | Cabuqi. *Hum certo pao como architraue que* |  |
-| `c2-l009` | &emsp;*aſſentão ſobre os portais.* |  |
+| `c2-l009` | &emsp;*aßentão ſobre os portais.* |  |
 | `c2-l010` | Cabuqimon. *Certa feição de portais da rua.* |  |
 | `c2-l011` | Cabura. *Nabo. ¶* Caburauo fiqu. *Co-* |  |
 | `c2-l012` | &emsp;*lher, l, arrancar nabos. ¶* I*tem, As ve-* |  |

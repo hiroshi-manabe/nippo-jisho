@@ -32,7 +32,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l016` | Butǒ. Buxino michi. *Arte, ou ſciencia* |  |
 | `c1-l017` | &emsp;*militar.* |  |
 | `c1-l018` | Butocu. Buxinotocu. *Boa fortuna, ou* |  |
-| `c1-l019` | &emsp;*ſucceſſo do ſoldado.* |  |
+| `c1-l019` | &emsp;*ſucceßo do ſoldado.* |  |
 | `c1-l020` | Butǒjin. Michinaqi fito. *Homem deſal-* |  |
 | `c1-l021` | &emsp;*mado, ou deſaforado.* |  |
 | `c1-l022` | &emsp;Butǒni. |  |
@@ -44,19 +44,19 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l028` | But rai. Fotoqe *qitaru. Vinda do fotoqe*. |  |
 | `c1-l029` | But reô. Fotoqeno ſatori. *O entender o* fo- |  |
 | `c1-l030` | &emsp;toqe *o ultimo fim, ou couſas altas por con-* |  |
-| `c1-l031` | &emsp;*templação, ou outra peſſoa que por este cami-* |  |
+| `c1-l031` | &emsp;*templação, ou outra peßoa que por este cami-* |  |
 | `c1-l032` | &emsp;*nho ſe quer fazer* fotoqe. |  |
 | `c1-l033` | Butrio. Fotoqeno micocoro. *Coração, ou* |  |
 | `c1-l034` | &emsp;*interior do* fotoqe. |  |
 | `c1-l035` | Butriqi. Fotoqeno chicara. *Forças, ou* |  |
 | `c1-l036` | &emsp;*virtude do* totoqe. |  |
-| `c1-l037` | Buttai. Fotoqeno tai. *Subſtancia, ou peſſoa* |  |
+| `c1-l037` | Buttai. Fotoqeno tai. *Subſtancia, ou peßoa* |  |
 | `c1-l038` | &emsp;*do* fotoqe. *¶ Item, Figura, ou estatua* |  |
 | `c1-l039` | &emsp;*do* fotoqe. |  |
 | `c1-l040` | Butten. Fotoqe ten. Fotoqe, *& outros* |  |
 | `c1-l041` | &emsp;*idolos comprehendidos de baixo de ten ¶* |  |
 | `c1-l042` | &emsp;Buttenni ſomuqu. *Offender os* fotoqes, |  |
-| `c1-l043` | &emsp;*& eſſes idolos, ou moradores do ceo.* |  |
+| `c1-l043` | &emsp;*& eßes idolos, ou moradores do ceo.* |  |
 | `c1-l044` | Butteqi. Fotoqeno teqi. *Inimigo do* fotoqe. |  |
 | `c1-l045` | Buto. *Certos bolinhos de arroz.* |  |
 | `c1-l046` | Buttô. Fotoqeno tomoxibi. i. Butjenno tô |  |
@@ -88,7 +88,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l008` | &emsp;*ou liança com o* fotoqe. |  |
 | `c2-l009` | Butza. Fotoqeno za. *Aſſento, ou lugar em* |  |
 | `c2-l010` | &emsp;*que eſta o* Fotoqe. *Tomaſe ja polla flor do gol-* |  |
-| `c2-l011` | &emsp;*fão, em que dizem que o* Fotoqe *esta aſſẽtado.* |  |
+| `c2-l011` | &emsp;*fão, em que dizem que o* Fotoqe *esta aßẽtado.* |  |
 | `c2-l012` | Butzaixe. *Tempo que o* Fotoqe *eſteue no* |  |
 | `c2-l013` | &emsp;*mundo.* |  |
 | `c2-l014` | Butzaixo. *Lugar onde està o* Fotoqe. |  |

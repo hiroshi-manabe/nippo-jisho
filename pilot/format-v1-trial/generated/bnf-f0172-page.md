@@ -80,7 +80,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l006` | &emsp;mayeuo farǒ. *Iuſtificarſe de algũa couſa,* |  |
 | `c2-l007` | &emsp;*ou çafarſe de cõtas, &c.* Farai catano ſanyô. |  |
 | `c2-l008` | &emsp;*Contas do que hum tem deſpendido, por or-* |  |
-| `c2-l009` | &emsp;*dem, ou commiſſão do ſenhor.* |  |
+| `c2-l009` | &emsp;*dem, ou commißão do ſenhor.* |  |
 | `c2-l010` | Faraiguiri. *O cortar tudo ſem ter deuer que ſe* |  |
 | `c2-l011` | &emsp;*ja molher, minino, religioſo, &c. Vt,* Farai- |  |
 | `c2-l012` | &emsp;guiriuo ſuru. |  |

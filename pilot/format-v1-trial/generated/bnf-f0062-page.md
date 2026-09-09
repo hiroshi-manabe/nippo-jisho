@@ -103,7 +103,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2b-l002` | &emsp;*ſignifica não ſer, não auer, & ſe ajunta com* |  |
 | `c2b-l003` | &emsp;*nomes* Coyes*. Vt,* Buin, munen, &c. |  |
 | `c2b-l004` | Bu. Taqeqi. *Feroçidade, ou arte militar.* |  |
-| `c2b-l005` | &emsp;*Poſto que ſe vſa aſſi muy raramente em mone* |  |
+| `c2b-l005` | &emsp;*Poſto que ſe vſa aßi muy raramente em mone* |  |
 | `c2b-l006` | &emsp;*ſyllabo. ¶* Buuo araſô. *Contender aquẽ* |  |
 | `c2b-l007` | &emsp;*he milhor ſoldado, ou mais deſtro na miliçia.* |  |
 | `c2b-l008` | &emsp;*¶* Buuo taxinamu. *Procurar de ſe eſme-* |  |

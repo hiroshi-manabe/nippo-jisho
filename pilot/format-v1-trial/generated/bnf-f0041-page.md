@@ -18,7 +18,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l002` | &emsp;*mo ſoldados que fazẽ inſultos, &c. ¶* Ta- |  |
 | `c1-l003` | &emsp;tçu torimo atouo nigoſanu. *Prou. Quã-* |  |
 | `c1-l004` | &emsp;*doſe hum aparta de hum lugar, deixalo bem* |  |
-| `c1-l005` | &emsp;*concertado, como paſſaro que aleuãtandoſe da* |  |
+| `c1-l005` | &emsp;*concertado, como paßaro que aleuãtandoſe da* |  |
 | `c1-l006` | &emsp;*agoa a deixa limpa. ¶* Atouo tçucuru. |  |
 | `c1-l007` | &emsp;*Deixar rasto de ſi. ¶* Atouo tçuquru, l, |  |
 | `c1-l008` | &emsp;atouo tçuguete yuqu. *Ir de traz no alcãçe* |  |
@@ -41,7 +41,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l025` | Atocata. *Vt,* Atocatamo nai coto. *Couſa de* |  |
 | `c1-l026` | &emsp;*que ſe naõ ſabe parte nẽ raſto. i. naõ tem* |  |
 | `c1-l027` | &emsp;*nenhũa noticia.* |  |
-| `c1-l028` | Atome. *Socceſſor, ou herdeiro. ¶ Item, He-* |  |
+| `c1-l028` | Atome. *Socceßor, ou herdeiro. ¶ Item, He-* |  |
 | `c1-l029` | &emsp;*rança. ¶* Atomeuo vqetoru. *Tomar* |  |
 | `c1-l030` | &emsp;*entrega da herança.* |  |
 | `c1-l031` | Atoniguiuai. *Vide ſupra,* Ato. |  |
@@ -49,17 +49,17 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l033` | &emsp;*cedente, & conſequente. ¶* Ato ſaqicara |  |
 | `c1-l034` | &emsp;qicoyuru. *Entenderſe do que fica atraz, &* |  |
 | `c1-l035` | &emsp;*vai a diante.* |  |
-| `c1-l036` | Atotçugui. *Herdeiro, ou ſocceſſor.* |  |
+| `c1-l036` | Atotçugui. *Herdeiro, ou ſocceßor.* |  |
 | `c1-l037` | Atoxiqi. *Bens, ou fazenda que fica em herãça.* |  |
 | `c1-l038` | Atoya macura. *Pès, & cabeçeira. ¶ Vt,* |  |
 | `c1-l039` | &emsp;Atoya macurani tachiyorite. *Chegandoſe* |  |
 | `c1-l040` | &emsp;*aos pès ou a cabeçeira.* |  |
 | `c1-l041` | Atqet. *Vide* Acqet. |  |
 | `c1-l042` | Atqi. *Vide* Acqi. |  |
-| `c1-l043` | Attori. *Hum certo paſſarinho. Vt,* Attorino |  |
+| `c1-l043` | Attori. *Hum certo paßarinho. Vt,* Attorino |  |
 | `c1-l044` | &emsp;fini vochica yǒni futamequ. *Prou. Pollo* |  |
 | `c1-l045` | &emsp;*ſobreſalto, & toruaçaõ naõ ſe ſaber dar a cõ-* |  |
-| `c1-l046` | &emsp;*ſelho perturbandoſe como eſte paſſarinho quãdo* |  |
+| `c1-l046` | &emsp;*ſelho perturbandoſe como eſte paßarinho quãdo* |  |
 | `c1-l047` | &emsp;*cae no fogo.* |  |
 
 ## Column 2 running header
@@ -117,13 +117,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l037` | &emsp;Auatataxiſa. |  |
 | `c2-l038` | &emsp;Auatatax*ù*. |  |
 | `c2-l039` | Auate, tçuru, teta. *Perturbarſe com grande* |  |
-| `c2-l040` | &emsp;*preſſa, ou estar perturbado. ¶* Monouo |  |
-| `c2-l041` | &emsp;auateteſuru. *Fazer algũa couſa apreſſada,* |  |
+| `c2-l040` | &emsp;*preßa, ou estar perturbado. ¶* Monouo |  |
+| `c2-l041` | &emsp;auateteſuru. *Fazer algũa couſa apreßada,* |  |
 | `c2-l042` | &emsp;*ou perturbadamente.* |  |
 | `c2-l043` | Auate fatameqi, u, eita. *Perturbarſe açoda* |  |
 | `c2-l044` | &emsp;*damente.* |  |
 | `c2-l045` | Auateguini. *Adu.* i. Auatatax*ù* qirutei. *Cõ* |  |
-| `c2-l046` | &emsp;*perturbação, & preſſa no vestir, armarſe, &c.* |  |
+| `c2-l046` | &emsp;*perturbação, & preßa no vestir, armarſe, &c.* |  |
 | `c2-l047` | Auateſauagui, u, aida. *Apreſarſe com pertur* |  |
 
 ## Signature

@@ -83,7 +83,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l004` | Banxû. Aqino cure. i. *Fim do Outono* |  |
 | `c2-l005` | &emsp;*que he na nona lũa.* |  |
 | `c2-l006` | Banxucqe, l, Fanxucqe. *Hum certo* |  |
-| `c2-l007` | &emsp;*paſſaro preto que anda nos rios.* |  |
+| `c2-l007` | &emsp;*paßaro preto que anda nos rios.* |  |
 | `c2-l008` | Banxucqe. *Depois de velho fazerſe religioſo.* |  |
 | `c2-l009` | Banxun. Faruno cure. *Fim da primauera* |  |
 | `c2-l010` | &emsp;*que he na terceira lũa.* |  |
@@ -115,10 +115,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l036` | &emsp;*¶* Baqega miyeta, l, arauareta. *Deſcobrio* |  |
 | `c2-l037` | &emsp;*ſe ja que era rapoſa, ou adibe, &c tranſ-* |  |
 | `c2-l038` | &emsp;*formado noutra figura. ¶ Item, Permet.* |  |
-| `c2-l039` | &emsp;*Engano, ou diſſimulação com que hum engana a* |  |
+| `c2-l039` | &emsp;*Engano, ou dißimulação com que hum engana a* |  |
 | `c2-l040` | &emsp;*outro como o que ſe faz uirtuoſo, ou religioſo* |  |
 | `c2-l041` | &emsp;*ſendo mao, & ſecular, &c. ¶* Baqega |  |
-| `c2-l042` | &emsp;arauareta. *Deſcobrioſe o engano, ou diſſimu* |  |
+| `c2-l042` | &emsp;arauareta. *Deſcobrioſe o engano, ou dißimu* |  |
 | `c2-l043` | &emsp;*lação, &c.* |  |
 | `c2-l044` | Baqebaqexij. i. Baqeraxij. *Couſa que pa-* |  |
 | `c2-l045` | &emsp;*rece como transformada, & contra feita, ou* |  |

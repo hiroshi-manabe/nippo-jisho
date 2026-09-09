@@ -54,7 +54,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l038` | &emsp;uo caqu. *Tirar a cinza do lar, ou fo*g*ão,* |  |
 | `c1-l039` | &emsp;*&c. ¶* Fauo caqu. *Colher, ou tomar* |  |
 | `c1-l040` | &emsp;*as folhas. ¶* Torino fauo caqu. *Cor-* |  |
-| `c1-l041` | &emsp;*tar as azas ao paſſaro pera que não fuja.* |  |
+| `c1-l041` | &emsp;*tar as azas ao paßaro pera que não fuja.* |  |
 | `c1-l042` | &emsp;*¶* Cubiuo caqu, l, caqiuotoſu. *Cortar* |  |
 | `c1-l043` | &emsp;*a cabeça com o corte da* catana *pera ſi aferrã* |  |
 | `c1-l044` | &emsp;*dolhe dos cabellos. ¶* Camino faxiuo ca |  |
@@ -74,7 +74,7 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c2-l001` | &emsp;*mente ſe poẽ ẽ ablatiuo a couſa que falta. Vt,* |  |
 | `c2-l002` | &emsp;Camini cotouo caita. *Faltoume papel.* |  |
-| `c2-l003` | Caqi, u. *Leuarem duas, ou mais peſſoas algũa* |  |
+| `c2-l003` | Caqi, u. *Leuarem duas, ou mais peßoas algũa* |  |
 | `c2-l004` | &emsp;*couſa aos hombros, ou nas mãos. ¶* Co- |  |
 | `c2-l005` | &emsp;xi nadouo caqu. *Leuar* norimono, *ou* |  |
 | `c2-l006` | &emsp;*outra couſa aos hombros.* |  |
@@ -88,9 +88,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l014` | &emsp;caqu. *fazer caniçada por onde ſe anda* |  |
 | `c2-l015` | &emsp;*& ſobre que poem os* tatamis*.* |  |
 | `c2-l016` | Caqi, u. *Ajuntandolhe* vra*, quer dizer pa-* |  |
-| `c2-l017` | &emsp;*ſſar, ou traſpaſſar com ſeta. Vt,* Vrauo |  |
+| `c2-l017` | &emsp;*ßar, ou traſpaßar com ſeta. Vt,* Vrauo |  |
 | `c2-l018` | &emsp;caita yameua itçu tocorode atta. Feiq*.* |  |
-| `c2-l019` | &emsp;*Lib. 2. Os ſi*n*ais das ſetas que paſſarão de* |  |
+| `c2-l019` | &emsp;*Lib. 2. Os ſi*n*ais das ſetas que paßarão de* |  |
 | `c2-l020` | &emsp;*parte aparte erão cinco lugares.* |  |
 | `c2-l021` | Caqiague, uru, eta. *Aleuantar. Vt,* Fu- |  |
 | `c2-l022` | &emsp;qi itauo Caqi aguru. *Aleuantar com* |  |

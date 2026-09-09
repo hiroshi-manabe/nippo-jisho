@@ -32,7 +32,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l016` | &emsp;*tras, & milicia, que ſão duas artes.* |  |
 | `c1-l017` | Bun. vaquru, l, vacatçu. *Diuiſão, parte,* |  |
 | `c1-l018` | &emsp;*quinhão, &c. ¶ Item, Ser outro, ou dif-* |  |
-| `c1-l019` | &emsp;*ferente. ¶* Soreua bunde gozaru. *Iſſo* |  |
+| `c1-l019` | &emsp;*ferente. ¶* Soreua bunde gozaru. *Ißo* |  |
 | `c1-l020` | &emsp;*he differente, ou outro por ſi. ¶ Item, Poſ* |  |
 | `c1-l021` | &emsp;*ſe, ou forças. Vt,* Bunni, l, Bun- |  |
 | `c1-l022` | &emsp;zaini ſuguita furumai. *Conuite que* |  |
@@ -79,7 +79,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l005` | Bunguei. Fumino guei. *Arte de ſaber eſcre* |  |
 | `c2-l006` | &emsp;*uer, & notar bem cartas.* |  |
 | `c2-l007` | Bunguen. Cagiriuo vaquru monono fodo |  |
-| `c2-l008` | &emsp;rai. *Poſſibilidade, ou quantidade das cou-* |  |
+| `c2-l008` | &emsp;rai. *Poßibilidade, ou quantidade das cou-* |  |
 | `c2-l009` | &emsp;*ſas, ou fato que hum tem. ¶ Item,* Bun |  |
 | `c2-l010` | &emsp;guen. *Riqueza.* |  |
 | `c2-l011` | Bunguiri. *Hum canudo em que cabe hũa car-* |  |
@@ -108,7 +108,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l034` | Bunmǒ. Ca, abu. *Moſquito, & abeſpa.* |  |
 | `c2-l035` | Bunpit. Fumi, fude. *Carta, & pena.* |  |
 | `c2-l036` | &emsp;*¶* Bunpitni taxxita fito. *Home deſtro* |  |
-| `c2-l037` | &emsp;*em eſcreuer cartas, aſſi por via do estillo como* |  |
+| `c2-l037` | &emsp;*em eſcreuer cartas, aßi por via do estillo como* |  |
 | `c2-l038` | &emsp;*de letra.* |  |
 | `c2-l039` | Bunpǒ. Fumino fatto. *Regras, ou precei-* |  |
 | `c2-l040` | &emsp;*tos pera ſaber bem eſcreuer cartas.* |  |

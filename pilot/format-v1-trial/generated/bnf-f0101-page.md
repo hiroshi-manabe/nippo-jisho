@@ -98,7 +98,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l018` | Cayeri, ſu, etta. *Tornarſe.* |  |
 | `c2-l019` | Cayeri. *Tornada.* |  |
 | `c2-l020` | Cayeri, ru, etta. *Nacirem, ou ſairem os* |  |
-| `c2-l021` | &emsp;*pintãos, ou paſſaros da caſca. Vt,* Caigo, l, |  |
+| `c2-l021` | &emsp;*pintãos, ou paßaros da caſca. Vt,* Caigo, l, |  |
 | `c2-l022` | &emsp;tamagoga cayetta. *Sairem os pintãos, ou* |  |
 | `c2-l023` | &emsp;*paſſarinhos dos ouos.* |  |
 | `c2-l024` | Cayeracaxi, ſu, aita. Vt Caigo, l, tamagouo |  |

@@ -31,7 +31,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1a-l015` | Betto. *Nome de hũa certa dignidade. ¶ Itẽ,* |  |
 | `c1a-l016` | &emsp;*Homem que he como cabeça, ou official prin-* |  |
 | `c1a-l017` | &emsp;*cipal nalgũa pouoação.* |  |
-| `c1a-l018` | Betyô. Bechino yô. *Outra neceſſidade.* |  |
+| `c1a-l018` | Betyô. Bechino yô. *Outra neceßidade.* |  |
 | `c1a-l019` | Betyǔ. Bechino tomo. *Outra companhia* |  |
 | `c1a-l020` | Bexxi. Bechino cami. i. Bexxo, l, bechi |  |
 | `c1a-l021` | &emsp;no fumi. *Outra carta. ¶ Item, Outro* |  |
@@ -115,12 +115,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l025` | Biacuxi. *Certa aruoreſinha que ſe pranta nas* |  |
 | `c2-l026` | &emsp;*niuas do Iapão, que tẽ a folha como da lecrim.* |  |
 | `c2-l027` | Biacuxin. *Hũa aruor ezinha das niuas muito* |  |
-| `c2-l028` | &emsp;*eſpeſſa, como aciprestre.* |  |
+| `c2-l028` | &emsp;*eſpeßa, como aciprestre.* |  |
 | `c2-l029` | Biacuxiqi. Xiroi iro. *Cor branca.* |  |
 | `c2-l030` | Biacuye. *O estar em corpo ſem calções os* |  |
 | `c2-l031` | &emsp;*ſeculares, & ſem* Coromo *os* Bǒzos *como* |  |
 | `c2-l032` | &emsp;*quem esta mal deſposto, deſconcertado no ves* |  |
-| `c2-l033` | &emsp;*tido. ¶* Biacuyede iru. *Estar aſſi* |  |
+| `c2-l033` | &emsp;*tido. ¶* Biacuyede iru. *Estar aßi* |  |
 | `c2-l034` | &emsp;*mal composto, & atauiado.* |  |
 | `c2-l035` | Biacuzǒ. Xiroizǒ. *Elefante branco.* |  |
 | `c2-l036` | Biacuzzuqu. *Certa mezinha.* |  |

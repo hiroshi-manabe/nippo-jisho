@@ -24,7 +24,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l008` | Amabico. i, Cotama. *Eco que reſulta da* |  |
 | `c1-l009` | &emsp;*voz. ¶* Amabicoga cotayuru. *Soar o* |  |
 | `c1-l010` | &emsp;*eco.* |  |
-| `c1-l011` | Amaboxi. *Figos de Iapão meos paſſados, & a-* |  |
+| `c1-l011` | Amaboxi. *Figos de Iapão meos paßados, & a-* |  |
 | `c1-l012` | &emsp;*inda molles.* |  |
 | `c1-l013` | Amabiyori. *Tempo que eſtà pera chouer.* |  |
 | `c1-l014` | Amacaqeri, qeru, qetta. P. *voar pollos* |  |
@@ -36,7 +36,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l020` | Amadare, l, amatare. *Goteiras que caem das* |  |
 | `c1-l021` | &emsp;*beiras do teihado.* |  |
 | `c1-l022` | Amadari. *Idem.* |  |
-| `c1-l023` | Amadori. *Hum paſſaro que não tem pès.* |  |
+| `c1-l023` | Amadori. *Hum paßaro que não tem pès.* |  |
 | `c1-l024` | Amafada. *Caſca delgada interior da aruore.* |  |
 | `c1-l025` | Amagami. *Papel azeitado pera contra chuua.* |  |
 | `c1-l026` | Amagarami. *Troça q̃ eſtà no masto. ¶* Ama- |  |

@@ -14,7 +14,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | Chiſu. *Hum animal aſſi chamado.* |  |
+| `c1-l001` | Chiſu. *Hum animal aßi chamado.* |  |
 | `c1-l002` | Chiſugi. *Veas do ſangue.* |  |
 | `c1-l003` | Chiſui. Iqeno mizzu. *Agua da lagoa, ou* |  |
 | `c1-l004` | &emsp;*de tanque.* |  |
@@ -51,7 +51,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l035` | Chixiuo. *Mil vezes tinto. ¶* Curenaino |  |
 | `c1-l036` | &emsp;chixiuono facamauo tori idaita. Voi*. Ti-* |  |
 | `c1-l037` | &emsp;*rando fora hũs calções de cor carmezim muito* |  |
-| `c1-l038` | &emsp;*eſpeſſa.* |  |
+| `c1-l038` | &emsp;*eſpeßa.* |  |
 | `c1-l039` | Chixǒ. Chino vye. *Sobre a terra. ¶* Chi |  |
 | `c1-l040` | &emsp;xǒni firefuſu. *Eſtar deitado de bruços ſo-* |  |
 | `c1-l041` | &emsp;*bre a terra.* |  |

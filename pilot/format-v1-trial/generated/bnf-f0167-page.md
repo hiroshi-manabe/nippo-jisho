@@ -26,10 +26,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l010` | Famabô. *Hũa certa aruorezinha, ou erua* |  |
 | `c1-l011` | &emsp;*grande da praya que he boa pera lauatorio dos* |  |
 | `c1-l012` | &emsp;*pès chamada Nigunde na India.* |  |
-| `c1-l013` | Famabutçu. *Erua aſſi chamada. No* cami |  |
+| `c1-l013` | Famabutçu. *Erua aßi chamada. No* cami |  |
 | `c1-l014` | &emsp;*ſediz,* Cauara yomogui. |  |
 | `c1-l015` | Famachi. *Hum certo peixe do mar.* |  |
-| `c1-l016` | Famachidori. *Maſſarico, paſſaro que anda* |  |
+| `c1-l016` | Famachidori. *Maßarico, paßaro que anda* |  |
 | `c1-l017` | &emsp;*pollas prayas.* |  |
 | `c1-l018` | Famaguiua. *Borda da praya.* |  |
 | `c1-l019` | Famaguri. *Ameijoas.* |  |
@@ -57,7 +57,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l041` | &emsp;Vmecuſa. |  |
 | `c1-l042` | Famet. Yabure foroburu. *Deſtruição.* |  |
 | `c1-l043` | Fami. *Comer de animaes como de bois, ou ca-* |  |
-| `c1-l044` | &emsp;*uallos, & paſſaros.* |  |
+| `c1-l044` | &emsp;*uallos, & paßaros.* |  |
 | `c1-l045` | Fami. i, Cutçuuano cucumi. *Parte do freo,* |  |
 | `c1-l046` | &emsp;*ou ferro que entra na boca do cauallo.* |  |
 | `c1-l047` | Fami, u, ǒda. *Comer aues, animais, pei-* |  |
@@ -99,7 +99,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l019` | &emsp;*palaura. Vt,* Fanbun. *A metade.* |  |
 | `c2-l020` | &emsp;¶ Fitotçu fan. *Hum, & meo.* |  |
 | `c2-l021` | Fan. *Sinal de cartas, &c. ¶* Fanuo ſu- |  |
-| `c2-l022` | &emsp;yuru. *Por ſeu ſinal, ou aſſinarſe.* |  |
+| `c2-l022` | &emsp;yuru. *Por ſeu ſinal, ou aßinarſe.* |  |
 | `c2-l023` | Fan. *Emprenſa, ou impreſſão. ¶* Fanni fi- |  |
 | `c2-l024` | &emsp;raqu, ſuru, qizamu, vocoſu, ſuritçuqu- |  |
 | `c2-l025` | &emsp;ru. *Imprimir.* |  |
@@ -113,7 +113,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l033` | &emsp;*rer o ranho dos narizes: mas fana perſi não ſe* |  |
 | `c2-l034` | &emsp;*toma por ranho. ¶* Fanauo ſoroyuru. *Eſ-* |  |
 | `c2-l035` | &emsp;*tarem muitos caualos juntos. ¶* Fanaqire- |  |
-| `c2-l036` | &emsp;vji. *Vaca forra. i, Peſſoa que anda liure,* |  |
+| `c2-l036` | &emsp;vji. *Vaca forra. i, Peßoa que anda liure,* |  |
 | `c2-l037` | &emsp;*& à vontade como vaca q̃ ſe lhe cortou a põ-* |  |
 | `c2-l038` | &emsp;*ta do beiço por onde eſtaua amarrada.* |  |
 | `c2-l039` | Fana. *Roſa, ou flor. ¶* Fanaga chiru. |  |

@@ -94,13 +94,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2a-l020` | &emsp;*materia dos* Xingoxǔs. |  |
 | `c2a-l021` | Ajica. *Cesto de canas, ou bambus, ou canaſ-* |  |
 | `c2a-l022` | &emsp;*trinha.* |  |
-| `c2a-l023` | Ajiro. *Hũa laya de esteiras groſſas tecidas* |  |
+| `c2a-l023` | Ajiro. *Hũa laya de esteiras großas tecidas* |  |
 | `c2a-l024` | &emsp;*de canas, ou bambus que de pendurão das por-* |  |
 | `c2a-l025` | &emsp;*tas, ou janellas. ¶* Ajirocaqe. *O que* |  |
 | `c2a-l026` | &emsp;*faz estas esteiras, ou obra ſemelhante. ¶ Itẽ,* |  |
 | `c2a-l027` | Ajiro. *Hum instrumento de canas com que* |  |
 | `c2a-l028` | &emsp;*detem, & tomão o peixe na corrente dalgum* |  |
-| `c2a-l029` | &emsp;*rio como naça, &c. ¶ Item, Paſſo, ou ca-* |  |
+| `c2a-l029` | &emsp;*rio como naça, &c. ¶ Item, Paßo, ou ca-* |  |
 | `c2a-l030` | &emsp;*neiro cercado de bambus em que entra opexe* |  |
 | `c2a-l031` | &emsp;*com a enchente da mare. ¶ Itẽm, Lugar onde* |  |
 | `c2a-l032` | &emsp;*ſe deita, ou puxa a rede, arma naça, &c.* |  |

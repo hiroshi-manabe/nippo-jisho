@@ -31,7 +31,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l015` | Araitade, zzuru. *Vt,* Funeuo arai |  |
 | `c1-l016` | &emsp;tazzuru, l, ſuritazzuru. *Aquentar a* Fu |  |
 | `c1-l017` | &emsp;ne *com fogo, & depois lauala, & esfregala.* |  |
-| `c1-l018` | Araito. *Seda groſſa, ou do lancão.* |  |
+| `c1-l018` | Araito. *Seda großa, ou do lancão.* |  |
 | `c1-l019` | Araiuotoxi, ſu, ita. *Tirar a nodoa, ou çu-* |  |
 | `c1-l020` | &emsp;*jidade lauando.* |  |
 | `c1-l021` | Arai yone. *Arroz ja pilado, & lauado, que* |  |
@@ -56,7 +56,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l040` | Arami. Catana *noua, ou feita de pouco tẽpo.* |  |
 | `c1-l041` | Aramono. *Homem cruel, & aſpero. ¶ Itẽ,* |  |
 | `c1-l042` | &emsp;*Na carga de nauios, ou em mercadoria,* |  |
-| `c1-l043` | &emsp;Aramono, *he fazenda groſſa, pezada,* |  |
+| `c1-l043` | &emsp;Aramono, *he fazenda großa, pezada,* |  |
 | `c1-l044` | &emsp;*& de pouco preço como ſapão, chumbo, &c.* |  |
 | `c1-l045` | Aramuxa. *Soldado esforçado, ou feroz.* |  |
 | `c1-l046` | Aranami. *Ondas brauas.* |  |

@@ -74,7 +74,7 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c2-l001` | Fitogamaxij. *Oparecer homem, ou varão nas* |  |
 | `c2-l002` | &emsp;*obras, corteſias, &c. às vezes ſe toma por* |  |
-| `c2-l003` | &emsp;*moſtrarſe muito homẽ com algũ exceſſo, &c.* |  |
+| `c2-l003` | &emsp;*moſtrarſe muito homẽ com algũ exceßo, &c.* |  |
 | `c2-l004` | Fitogara. *Feição, ou compoſtura de homem.* |  |
 | `c2-l005` | Fitogatachi. *Figura, ou feição de homem.* |  |
 | `c2-l006` | &emsp;*Vt,* Fitogatachimonai. *Não tem jà figu-* |  |

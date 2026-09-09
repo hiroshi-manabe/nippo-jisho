@@ -33,7 +33,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l017` | &emsp;*ordinariamẽte ſe vſa ſò pera cõ o pay, & mestre.* |  |
 | `c1-l018` | Bucôſa. *Pouca experiencia, ou nenhum exerci-* |  |
 | `c1-l019` | &emsp;*cio, ou habito.* |  |
-| `c1-l020` | Bucotna. i. Iiguiuo xiranu mono. *Peſſoa* |  |
+| `c1-l020` | Bucotna. i. Iiguiuo xiranu mono. *Peßoa* |  |
 | `c1-l021` | &emsp;*ruſtica, & que não ſabe as leis da policia.* |  |
 | `c1-l022` | Bucqe. *Couſas pertencentes a* fotoqe. |  |
 | `c1-l023` | Bucqei. Fotoqeni mǒzzuru, l, mairu. *Ir* |  |

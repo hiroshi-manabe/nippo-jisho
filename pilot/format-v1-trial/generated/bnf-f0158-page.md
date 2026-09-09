@@ -24,7 +24,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l008` | Donchi. Nibui chiye. *Engenho tardo, &* |  |
 | `c1-l009` | &emsp;*groſſeiro.* |  |
 | `c1-l010` | Donchi. Nibuxi, voſoxi. *Idem.* |  |
-| `c1-l011` | Donchô. Nibui tori. *Paſſaro paruo, ou deſ-* |  |
+| `c1-l011` | Donchô. Nibui tori. *Paßaro paruo, ou deſ-* |  |
 | `c1-l012` | &emsp;*mazelado. Vt,* Donchô roni ſinu. *O* |  |
 | `c1-l013` | &emsp;*paſſaro tardo, ou rude estaa ſempre pouſa-* |  |
 | `c1-l014` | &emsp;*do nas caninhas, ou caniços da lagoa.* |  |
@@ -49,7 +49,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l033` | Donqin. *Peças douradinhas da china.* |  |
 | `c1-l034` | Donri. Nibuxi, ſurudona. i, Donnato, ri- |  |
 | `c1-l035` | &emsp;conna. *Rude, & habil.* |  |
-| `c1-l036` | Donſacu. *Obra feita toſca, & groſſeiramẽ-* |  |
+| `c1-l036` | Donſacu. *Obra feita toſca, & großeiramẽ-* |  |
 | `c1-l037` | &emsp;*te. ¶* Donſacuna vta. *Verſo mal cõpoſto.* |  |
 | `c1-l038` | Donſu. *Damaſcos, peças da china.* |  |
 | `c1-l039` | Dontǒ. Nibui catana. i, Qirenu catana. |  |
@@ -108,7 +108,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l034` | &emsp;mayô. *Andar errado no caminho. ¶* Do- |  |
 | `c2-l035` | &emsp;rouo fuſagu. *Tapar todos os caminhos.* |  |
 | `c2-l036` | Doromeqi, qu, eita, l, dorodoroto ſuru. *Fa* |  |
-| `c2-l037` | &emsp;*zer traquinada como quãdo paſſaõ muitos pol-* |  |
+| `c2-l037` | &emsp;*zer traquinada como quãdo paßaõ muitos pol-* |  |
 | `c2-l038` | &emsp;*la varanda ſoalhada de taboas, &c.* |  |
 | `c2-l039` | Doro doroto. *Aduer. Modo de ſoar, ou fa-* |  |
 | `c2-l040` | &emsp;*zer traquinada.* |  |

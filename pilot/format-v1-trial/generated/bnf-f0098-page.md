@@ -24,7 +24,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l008` | &emsp;*Por hũa parte, ou por hũa via, à hũa, &c.* |  |
 | `c1-l009` | Catçugatçu. i. Sucoxizzutçu. *Pouco a pou* |  |
 | `c1-l010` | &emsp;*co. ¶ Vt,* Deqixidai catçugatçu xinjima- |  |
-| `c1-l011` | &emsp;raxôzu. *Aſſi como ſe for fazendo pouco a* |  |
+| `c1-l011` | &emsp;raxôzu. *Aßi como ſe for fazendo pouco a* |  |
 | `c1-l012` | &emsp;*pouco volo darei.* |  |
 | `c1-l013` | Catçugui. *Manto de molher.* X*. Melius* |  |
 | `c1-l014` | &emsp;Cazzuqi*. (criança.* |  |
@@ -40,7 +40,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l024` | Catçùua. *Conjun*. *Por hũa parte, ou à hũa.* |  |
 | `c1-l025` | &emsp;*¶ Item, Por hum pouco.* |  |
 | `c1-l026` | Catçuuo. *Combalamaz peixe.* |  |
-| `c1-l027` | Catçuuoguſa. *Erua aſſi chamada.* |  |
+| `c1-l027` | Catçuuoguſa. *Erua aßi chamada.* |  |
 | `c1-l028` | Catçuuomuxi. *Hum bicho que ſe cria no peixe* |  |
 | `c1-l029` | &emsp;*combalamaz.* |  |
 | `c1-l030` | Catçuye, uru, eta. *Morrer de fome, ou paſ* |  |
@@ -106,7 +106,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l032` | &emsp;*que nada, ou paſſa bem os rios. ¶* Caua |  |
 | `c2-l033` | &emsp;dachiuo ſuru mono. *Idem.* |  |
 | `c2-l034` | Cauagani. *Cangrejo do rio.* |  |
-| `c2-l035` | Cauagaraſu. *Hũa aue do rio aſſi chamada.* |  |
+| `c2-l035` | Cauagaraſu. *Hũa aue do rio aßi chamada.* |  |
 | `c2-l036` | Cauagari. *Peſcaria do rio.* |  |
 | `c2-l037` | Cauagixa. *Alface da ribeira, ou que ſe dà* |  |
 | `c2-l038` | &emsp;*em lugares humidos.* |  |

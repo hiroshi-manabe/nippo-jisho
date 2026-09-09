@@ -122,9 +122,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l032` | Benjetna. *Eloquente, & copioſo no falar.* |  |
 | `c2-l033` | Benjetxa. *Idem.* |  |
 | `c2-l034` | Benji, zuru, ita. Yôuo benzuru. *Apare-* |  |
-| `c2-l035` | &emsp;*lhar as couſas de que hum tem neceſſidade, ou* |  |
+| `c2-l035` | &emsp;*lhar as couſas de que hum tem neceßidade, ou* |  |
 | `c2-l036` | &emsp;*fazer ſeus negocios. ¶* Daixôuo benzu- |  |
-| `c2-l037` | &emsp;ru. *Fazer, ou cumprir ſuas neceſſidades* |  |
+| `c2-l037` | &emsp;ru. *Fazer, ou cumprir ſuas neceßidades* |  |
 | `c2-l038` | &emsp;*naturaes.* |  |
 | `c2-l039` | Benisaqi. i. Fôſaqi. *Maçaã do roſto.* |  |
 | `c2-l040` | Benitaqe. *Certa laya de cogumellos vermelhos.* |  |

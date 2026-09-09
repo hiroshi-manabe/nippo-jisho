@@ -20,7 +20,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l004` | &emsp;bocaſu. *Engrenhar os cabelos.* |  |
 | `c1-l005` | Boboqe, uru, eta. *Aleuantarſe como fri-* |  |
 | `c1-l006` | &emsp;*za, ou pelo de papel, &c.* |  |
-| `c1-l007` | Bǒbǒtaru tei. *Modo de muita eſpeſſura, ou* |  |
+| `c1-l007` | Bǒbǒtaru tei. *Modo de muita eſpeßura, ou* |  |
 | `c1-l008` | &emsp;*viço das eruas, ou de estar algum lugar in-* |  |
 | `c1-l009` | &emsp;*culto, & baſto com eruas, &c. ¶* Bǒbǒ |  |
 | `c1-l010` | &emsp;taru caixǒ. *Mar largo, & comprido.* |  |
@@ -29,7 +29,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l013` | Bǒbǒtoxite. *Adu. Modo de estar trans* |  |
 | `c1-l014` | &emsp;*portado, ou ſolitario. ¶ Item, Modo de* |  |
 | `c1-l015` | &emsp;*vista ao lõge, ou de couſa larga, & comprida.* |  |
-| `c1-l016` | &emsp;*¶ Item, Modo da eſpeſſura das eruas muito* |  |
+| `c1-l016` | &emsp;*¶ Item, Modo da eſpeßura das eruas muito* |  |
 | `c1-l017` | &emsp;*crecidas.* |  |
 | `c1-l018` | Bǒbuxe. *O derrubar a alguem com obastão,* |  |
 | `c1-l019` | &emsp;*ou bordão dandolhe pancada.* |  |
@@ -54,7 +54,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l038` | &emsp;*tem filho.* |  |
 | `c1-l039` | Bǒcocu. Forobitaru cuni. *Reino deſtrui-* |  |
 | `c1-l040` | &emsp;*do, & aſolado.* |  |
-| `c1-l041` | Bǒcen. *Almas perdidas que paſſarão ja deſta* |  |
+| `c1-l041` | Bǒcen. *Almas perdidas que paßarão ja deſta* |  |
 | `c1-l042` | &emsp;*vida.* |  |
 | `c1-l043` | Bocu. *Pao toſco, em que eſtão pegadas algũas* |  |
 | `c1-l044` | &emsp;*aruorezinhas, ou eruas à maneira de ilheozi* |  |
@@ -97,10 +97,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l017` | &emsp;*ou de outro gado.* |  |
 | `c2-l018` | Bocujin. Vranǒ fito. *Feiticeiro, ou o que* |  |
 | `c2-l019` | &emsp;*bota ſortes, & adeuinha.* |  |
-| `c2-l020` | Bocujǒ. *Dar o* ſacazzuqi *a peſſoa mais al-* |  |
+| `c2-l020` | Bocujǒ. *Dar o* ſacazzuqi *a peßoa mais al-* |  |
 | `c2-l021` | &emsp;*ta. ¶* Bocujǒ itaſu, l, mǒſu. *Man-* |  |
 | `c2-l022` | &emsp;*dir, ou dar o* ſacazzuqi *a alguem. Falando* |  |
-| `c2-l023` | &emsp;*com reſpeito da peſſoa.* |  |
+| `c2-l023` | &emsp;*com reſpeito da peßoa.* |  |
 | `c2-l024` | Bocujũ. i. Guenindomo. *Criados, & ſeruos.* |  |
 | `c2-l025` | Bocujǔ. Sumino xiru, l, ſuritaru ſumi. *Tĩta mo* |  |
 | `c2-l026` | &emsp;*ida liquida, como a que esta nos tinteiros de* |  |

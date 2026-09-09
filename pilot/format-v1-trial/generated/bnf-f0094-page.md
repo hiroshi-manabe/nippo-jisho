@@ -27,7 +27,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l011` | &emsp;*couſas enfadonhas.* |  |
 | `c1-l012` | Caſane, uru, eta. *Acrecentar. Vt,* Sono |  |
 | `c1-l013` | &emsp;vyeni mata yoroi ſanriǒ caſanete zaccuto |  |
-| `c1-l014` | &emsp;qi. *Alem diſſo vestindo em cima tres cor-* |  |
+| `c1-l014` | &emsp;qi. *Alem dißo vestindo em cima tres cor-* |  |
 | `c1-l015` | &emsp;*pos darmas.* |  |
 | `c1-l016` | Caſaneague, uru, eta. *Acumular. (lar.* |  |
 | `c1-l017` | Caſaneatçume, uru, eta. *Aiũtar, & acumu* |  |

@@ -43,7 +43,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l027` | &emsp;raruru. *Tog. Fonguandono veſtindoſe em* |  |
 | `c1-l028` | &emsp;*trajos de Yamabuxi deceo pera as partes do* |  |
 | `c1-l029` | &emsp;*Norte. ¶* Yacuſocuuo fenzuru. *Que-* |  |
-| `c1-l030` | &emsp;*brar a promeſſa. ¶* Cocoroga fenzuru. |  |
+| `c1-l030` | &emsp;*brar a promeßa. ¶* Cocoroga fenzuru. |  |
 | `c1-l031` | &emsp;M*udar a vontade, ou propoſito. ¶* Irouo |  |
 | `c1-l032` | &emsp;fenzuru. *Mudar a cor do roſto* |  |
 | `c1-l033` | Fenjǒ. Cayexi tatematçuru. *Reſponder a* |  |
@@ -108,7 +108,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l033` | Fenſanzô. *Bõzos que andão desta maneira pe-* |  |
 | `c2-l034` | &emsp;*regrinando.* |  |
 | `c2-l035` | Fenſat. *Repoſta da carta. Vt,* Gofenſatni |  |
-| `c2-l036` | &emsp;azzucari ſoro. *Recebi a carta de voſſa mer-* |  |
+| `c2-l036` | &emsp;azzucari ſoro. *Recebi a carta de voßa mer-* |  |
 | `c2-l037` | &emsp;*cè em reposta da minha. S.* |  |
 | `c2-l038` | Fentǒ. i, Fenji. *Repoſta. ¶* Fentǒ. |  |
 | `c2-l039` | &emsp;yǔ. *Reſponder.* |  |
@@ -117,7 +117,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l042` | &emsp;*go, ou ſem tardança.* |  |
 | `c2-l043` | Fenxin. Cayexi mairaſuru. *Pagar o que* |  |
 | `c2-l044` | &emsp;*ſe tomou ẽprestado particularmente ao ſenhor,* |  |
-| `c2-l045` | &emsp;*ou a outra peſſoa honrada, ou do meſmo teor.* |  |
+| `c2-l045` | &emsp;*ou a outra peßoa honrada, ou do meſmo teor.* |  |
 | `c2-l046` | &emsp;*Não ſe dira de arroz, dinheiro, &c. mas de* |  |
 | `c2-l047` | &emsp;*couſas que ſe tornão as meſmas numero como de* |  |
 

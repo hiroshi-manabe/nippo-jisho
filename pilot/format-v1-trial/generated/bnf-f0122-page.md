@@ -80,12 +80,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l006` | &emsp;*ſaudades dalgum amigo, parente, &c.* |  |
 | `c2-l007` | Coi. *Hum peixe do rio como barbo.* |  |
 | `c2-l008` | Coi. *Pao, ou aruore onde o falcão pouſa* |  |
-| `c2-l009` | Coi. *Couſa eſpeſſa, ou groſſa.* |  |
+| `c2-l009` | Coi. *Couſa eſpeßa, ou großa.* |  |
 | `c2-l010` | &emsp;Cô Coſa. |  |
 | `c2-l011` | Coi, ô, ôta. *Pedir.* |  |
 | `c2-l012` | Cǒ-i. Tacai curai. *Dignidade alta.* |  |
 | `c2-l013` | Coi ariqi, u, uita. *Andar pedindo.* |  |
-| `c2-l014` | Coi aſagui. *Azul claro eſpeſſo.* |  |
+| `c2-l014` | Coi aſagui. *Azul claro eſpeßo.* |  |
 | `c2-l015` | Coi caje. *Saudades, ou amor carnal.* |  |
 | `c2-l016` | Coi canaximi, u, ùda. *Ter grande triſte-* |  |
 | `c2-l017` | &emsp;*za cauſada de ſaudades, ou amor.* |  |
@@ -95,7 +95,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l021` | Coi cayexi, ſu, eita. T*ornar apedir.* |  |
 | `c2-l022` | Coicogare, ruru, eta. *Andar aceſo de amo-* |  |
 | `c2-l023` | &emsp;*res ſenſuaes.* |  |
-| `c2-l024` | Coicuraxi, ſu, aita. *Paſſar os dias, & as* |  |
+| `c2-l024` | Coicuraxi, ſu, aita. *Paßar os dias, & as* |  |
 | `c2-l025` | &emsp;*noites com amor, & ſaudades.* |  |
 | `c2-l026` | Coicurenai. *Vermelho, muito intenſo.* |  |
 | `c2-l027` | Coide. *Remeiros. A propria palaura he Co-* |  |
@@ -113,7 +113,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l039` | &emsp;*cado pera o diante.* |  |
 | `c2-l040` | Coinegai, ǒ, ta. *Deſeiar muito.* |  |
 | `c2-l041` | Coinegauacuua. *Oxalà, ou praza a Deos* |  |
-| `c2-l042` | &emsp;*que aſſi ſeja, &c.* |  |
+| `c2-l042` | &emsp;*que aßi ſeja, &c.* |  |
 | `c2-l043` | Coino qeguirino xiru. *Hũ certo caldo, ou* xiru |  |
 | `c2-l044` | &emsp;*de peixe Coi, juntamente com a eſcama.* |  |
 | `c2-l045` | Côiqi. Mizo, mizo. *Rego, ou cano, por* |  |

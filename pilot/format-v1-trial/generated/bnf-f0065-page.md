@@ -17,9 +17,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l001` | Bunri. Vaqe, fanaruru. *Apartamento.* |  |
 | `c1-l002` | Bunriǒ. Vaquru caguiri. *Parte, quantida-* |  |
 | `c1-l003` | &emsp;*de, pezo, medida, limite, &c. ¶ Item,* |  |
-| `c1-l004` | &emsp;*Renda propria de cada hum. ¶ Itẽ, Poſſi* |  |
+| `c1-l004` | &emsp;*Renda propria de cada hum. ¶ Itẽ, Poßi* |  |
 | `c1-l005` | &emsp;*bilidade, & forças. Vt,* Bunriǒni xita- |  |
-| `c1-l006` | &emsp;gate. *Conforme a poſſibilidade.* |  |
+| `c1-l006` | &emsp;gate. *Conforme a poßibilidade.* |  |
 | `c1-l007` | Bunſan. Vacatçu, chiru. *O diuidirſe, &* |  |
 | `c1-l008` | &emsp;*eſpalharſe. Vt,* Xidai bunſan ſuru. *Quã-* |  |
 | `c1-l009` | &emsp;*do hum morre reſoluerſe o corpo nos quatro e-* |  |
@@ -48,7 +48,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l032` | &emsp;bô fodozo? *Aquelle homem em que grao* |  |
 | `c1-l033` | &emsp;*eſtarà desta arte de eſcreuer, ou notar car-* |  |
 | `c1-l034` | &emsp;*tas, &c.* |  |
-| `c1-l035` | Bunzai. Qiuauo vacatçu. i. Fodorai. *Poſſi* |  |
+| `c1-l035` | Bunzai. Qiuauo vacatçu. i. Fodorai. *Poßi* |  |
 | `c1-l036` | &emsp;*bilidade de cada hum, quantidade, parte, por-* |  |
 | `c1-l037` | &emsp;*ção, &c.* |  |
 | `c1-l038` | Buppô. Fotoqeno nori. *Leis, ou doutrina* |  |
@@ -113,7 +113,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l033` | Burari burari. i. Burabura. *Adu. Modo* |  |
 | `c2-l034` | &emsp;*de estar dependurada a couſa no ar, ou de bu-* |  |
 | `c2-l035` | &emsp;*lir de cà pera là. ¶* Burari burarito xite |  |
-| `c2-l036` | &emsp;arucuru. *Andar aſſi froxo, & ſem fazer* |  |
+| `c2-l036` | &emsp;arucuru. *Andar aßi froxo, & ſem fazer* |  |
 | `c2-l037` | &emsp;*couſa de importançia de cà pera là.* |  |
 | `c2-l038` | Burei. Vyamai naxi. *Deſcortezia, mao, ou* |  |
 | `c2-l039` | &emsp;*pouco enſino.* |  |

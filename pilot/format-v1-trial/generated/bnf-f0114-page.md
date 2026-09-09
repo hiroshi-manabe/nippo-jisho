@@ -25,9 +25,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l009` | &emsp;*ajuda dalguem, antes de ſe dar ſentença, &c.* |  |
 | `c1-l010` | &emsp;¶ Chùguen rǒjeqiuo ſuru. *Fazer eſta* |  |
 | `c1-l011` | &emsp;*violencia, &c.* |  |
-| `c1-l012` | Chùgui. i. Chùxet. *Seruiço aſſinalado.* |  |
+| `c1-l012` | Chùgui. i. Chùxet. *Seruiço aßinalado.* |  |
 | `c1-l013` | Chùguin. Tadaxù tçutomuru. *Seruiços grã-* |  |
-| `c1-l014` | &emsp;*des, ou aſſinalados.* |  |
+| `c1-l014` | &emsp;*des, ou aßinalados.* |  |
 | `c1-l015` | Chùguio. Muxi, iuo. *Bicho, & peixe.* |  |
 | `c1-l016` | Chùgo. *O que bebe vinho em mediocre pro-* |  |
 | `c1-l017` | &emsp;*porção.* |  |
@@ -39,7 +39,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l023` | &emsp;*ſa de latão.* |  |
 | `c1-l024` | Chùjacu aye. *Certa iguaria que ſe faz com* |  |
 | `c1-l025` | &emsp;*abobara, & moſtarda.* |  |
-| `c1-l026` | Chùjet. Naca tayuru. *O ceſſar, ou interrõ-* |  |
+| `c1-l026` | Chùjet. Naca tayuru. *O ceßar, ou interrõ-* |  |
 | `c1-l027` | &emsp;*per algũa couſa. ¶ Item, Quebra damizade.* |  |
 | `c1-l028` | Chùjin. *Peſſoa de mediocre ſaber, & honr-* |  |
 | `c1-l029` | &emsp;*ra, &c.* X*.* |  |
@@ -88,9 +88,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l014` | &emsp;*ro, ou medianeiro que faz, ou concerta algũas* |  |
 | `c2-l015` | &emsp;*amizades, caſamento, &c.* |  |
 | `c2-l016` | Chùqi. *Certo offiçio que ha entre os Tenxus.* |  |
-| `c2-l017` | Chùqin. i. Chùxet. *Seruiços aſſinalados.* |  |
+| `c2-l017` | Chùqin. i. Chùxet. *Seruiços aßinalados.* |  |
 | `c2-l018` | &emsp;*Vt,* Chùqinuo nuqinzzuru. *Fazer grã-* |  |
-| `c2-l019` | &emsp;*des ſeruiços, & aſſinalados.* |  |
+| `c2-l019` | &emsp;*des ſeruiços, & aßinalados.* |  |
 | `c2-l020` | Chùqua. Miyaco. i. Taitǒno Miaco. *Ci-* |  |
 | `c2-l021` | &emsp;*dade prĩcipal, ou metropole do Reino da Chi-* |  |
 | `c2-l022` | &emsp;*na, tambem ſe aplica ao* Miaco *de Iapão.* |  |
@@ -101,7 +101,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l027` | &emsp;*copa no meo. Vt,* Fotǒriqe chùriacu xi- |  |
 | `c2-l028` | &emsp;te Fotoqeto yù. ¶ *Itẽ, Abreuiar, ou* |  |
 | `c2-l029` | &emsp;*fazer que não ſoem algũas pãcadas no meo do* |  |
-| `c2-l030` | &emsp;*tanger, & aſſi em outras couſas.* |  |
+| `c2-l030` | &emsp;*tanger, & aßi em outras couſas.* |  |
 | `c2-l031` | Chùrio. i. xiguachi. *Quarta lũa, ou mez* |  |
 | `c2-l032` | &emsp;*de Iapão.* |  |
 | `c2-l033` | Chùriǒ. *Ardil, ou boa inuenção, ou diſcurſo* |  |
@@ -111,7 +111,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l037` | Chùrǒ. *Molheres de mea laya da caſa do* Dairi. |  |
 | `c2-l038` | Chùſacu. *Ardil. Vt,* Chuſacuuo meguraſu. |  |
 | `c2-l039` | &emsp;*Ordir, outramar algũa couſa.* |  |
-| `c2-l040` | Chùſacu. *Meyo, ou interceſſaõ pera fazer* |  |
+| `c2-l040` | Chùſacu. *Meyo, ou interceßaõ pera fazer* |  |
 | `c2-l041` | &emsp;*amizades, ou fazer outras couſas.* |  |
 | `c2-l042` | Chùſacunin. *Terceiro que faz eſtas amizades,* |  |
 | `c2-l043` | &emsp;*ou corretor entre os que compraõ, & uendem.* |  |

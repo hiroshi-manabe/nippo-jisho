@@ -109,13 +109,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l022` | &emsp;*a Catana abaixo do punho como guardas.* |  |
 | `c2-l023` | Fabaqimoto. *Certo lugar na Catana apar do* |  |
 | `c2-l024` | &emsp;*punho.* |  |
-| `c2-l025` | Fabari. *Area da praya groſſa miſturada com* |  |
+| `c2-l025` | Fabari. *Area da praya großa miſturada com* |  |
 | `c2-l026` | &emsp;*algũs ſeixinhos. No Cami ſe diz,* Araſuna. |  |
 | `c2-l027` | Fabayai. *Vt,* Fabayai catana. Catana *q̃* |  |
 | `c2-l028` | &emsp;*corta muito, ou tem bom fio pera cortar &c.* |  |
 | `c2-l029` | Fabi. *Primeira parte do corpo q̃ ſe começa a* |  |
 | `c2-l030` | &emsp;*formar, ou coalhar no ventre, ou nos ouos do* |  |
-| `c2-l031` | &emsp;*paſſaro, &c. ¶ Item, Principio de algũa* |  |
+| `c2-l031` | &emsp;*paßaro, &c. ¶ Item, Principio de algũa* |  |
 | `c2-l032` | &emsp;*couſa. Vt,* Cotobano fabi. *Começo, ou* |  |
 | `c2-l033` | &emsp;*principio das palauras, ou do falar.* |  |
 | `c2-l034` | Fabicori, u, otta. *Nacerem muitas eruas, ou* |  |
@@ -127,7 +127,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l040` | &emsp;*ra que não corte.* |  |
 | `c2-l041` | Fabone. *Dentes. ¶* Faboneno tçuyoi fi- |  |
 | `c2-l042` | &emsp;to. *Homem que tem dentes fortes, & rijos.* |  |
-| `c2-l043` | Fabǒqi. *Aſas de paſſaros com que ſacodem* |  |
+| `c2-l043` | Fabǒqi. *Aſas de paßaros com que ſacodem* |  |
 | `c2-l044` | &emsp;*o poo.* |  *( dentes. X.* |
 | `c2-l045` | Faboroxi. *Hũa aruore que he ruim pera os* |  |
 | `c2-l046` | Fabucura. i, *Lugar da frecha õde eſtã as penas.* |  |

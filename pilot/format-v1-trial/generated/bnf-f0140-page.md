@@ -92,7 +92,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l017` | &emsp;*¶* Cumi ſuru. *Fazerſe em hum corpo, ou li-* |  |
 | `c2-l018` | &emsp;*arſe entreſi.* |  |
 | `c2-l019` | Cumi, u, unda. *Tecer amaneira de quem faz* |  |
-| `c2-l020` | &emsp;*trança, paſſamane &c. ¶ Item, Vir abra-* |  |
+| `c2-l020` | &emsp;*trança, paßamane &c. ¶ Item, Vir abra-* |  |
 | `c2-l021` | &emsp;*ços, ou trauar demãos. ¶* Teuo cumũ. *Tra-* |  |
 | `c2-l022` | &emsp;*uar os braços, ou as maõs ſoo cõ ſigo. ¶* T*e-* |  |
 | `c2-l023` | &emsp;uo tori cumu. *Trauar as mãos quando lutão* |  |

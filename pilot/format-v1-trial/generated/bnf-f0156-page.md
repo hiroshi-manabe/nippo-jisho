@@ -76,10 +76,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l001` | Docuyacu. Docuno cuſuri. i. Docu. *Pe-* |  |
 | `c2-l002` | &emsp;*çonha.* |  |
 | `c2-l003` | Docuza. Fitori zaſuru. *Eſtar ſò.* |  |
-| `c2-l004` | Dodai. i. Iibucu. *Paos q̃ aſſẽtão eſtendidos ſo-* |  |
+| `c2-l004` | Dodai. i. Iibucu. *Paos q̃ aßẽtão eſtendidos ſo-* |  |
 | `c2-l005` | &emsp;*bre as pedras fũdamẽtais, ou paredes de pe-* |  |
 | `c2-l006` | &emsp;*dra, ſobre os quais fũdão o de mais m...ra-* |  |
-| `c2-l007` | &emsp;*mento. ¶* Dodai, l, Iibucuuo fiqu. *Aſſẽ* |  |
+| `c2-l007` | &emsp;*mento. ¶* Dodai, l, Iibucuuo fiqu. *Aßẽ* |  |
 | `c2-l008` | &emsp;*tar eſtes paos ſobre as pedras. ¶* Dodaiuo |  |
 | `c2-l009` | &emsp;ſuyuru. *Idem.* X*.* |  |
 | `c2-l010` | Dodan. i. Tçuchino dan. *Lugar mais alto,* |  |

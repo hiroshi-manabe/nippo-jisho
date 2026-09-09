@@ -44,7 +44,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l028` | Coppei. i. Cofei. *Vt,* Coppeinamono. *Peſ-* |  |
 | `c1-l029` | &emsp;*ſoa que moſtra mais ſaber do que a idade pe-* |  |
 | `c1-l030` | &emsp;*de, ou he mais liure do que conuem.* |  |
-| `c1-l031` | Coppi. Fone caua. *Oſſos, & pelle.* |  |
+| `c1-l031` | Coppi. Fone caua. *Oßos, & pelle.* |  |
 | `c1-l032` | Coppǒ. *Leis, Cuſtumes, & corteſias. ¶* Rei |  |
 | `c1-l033` | &emsp;gui coppǒuo yocu xittafito. H*omem* |  |
 | `c1-l034` | &emsp;*que ſabe bem as leis de policia cuſtumes, &c.* |  |
@@ -83,7 +83,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l003` | Cǒqei. Atçui megumi. i. Fucai gouon. |  |
 | `c2-l004` | &emsp;*Beneficios grandes.* |  |
 | `c2-l005` | Coqe muxi, u, uita. *Nacerem muitos mus-* |  |
-| `c2-l006` | &emsp;*gos juntos, & eſpeſſos.* |  |
+| `c2-l006` | &emsp;*gos juntos, & eſpeßos.* |  |
 | `c2-l007` | Coqẽ. *Carta de venda dalgũas caſas, chão &c.* |  |
 | `c2-l008` | Côqen. Vxiro mi. *Protector, ou aſiſtente* |  |
 | `c2-l009` | &emsp;*que està por guarda, & defenção dalgũa peſ-* |  |

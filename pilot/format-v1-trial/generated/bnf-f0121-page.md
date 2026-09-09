@@ -34,7 +34,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l018` | Côgan. Curenaino cauobaxe. *Bello, ou* |  |
 | `c1-l019` | &emsp;*fermoſo roſto.* |  |
 | `c1-l020` | Cogane. *Ouro.* |  |
-| `c1-l021` | Coganeguſa. *Erua aſſi chamada.* |  |
+| `c1-l021` | Coganeguſa. *Erua aßi chamada.* |  |
 | `c1-l022` | Coganeguſari. *Cadea de ouro.* |  |
 | `c1-l023` | Cogane menuqi. *Hũas como boninas, ou chapas* |  |
 | `c1-l024` | &emsp;*de ouro que poem nos cabos da Catana por* |  |

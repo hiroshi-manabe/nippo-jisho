@@ -56,7 +56,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l040` | Ai cocoroye, uru, eta. *Vide* Cocoroye, uru. |  |
 | `c1-l041` | Ai coraye, uru, eta. *Vide* Coraye, uru. |  |
 | `c1-l042` | Ai coxiraye, uru, eta. *Vide* Coxiraye, uru. |  |
-| `c1-l043` | Ai cuchi. *O agradar hũa peſſoa a outra, ou* |  |
+| `c1-l043` | Ai cuchi. *O agradar hũa peßoa a outra, ou* |  |
 | `c1-l044` | &emsp;*ſer conforme a ſeu modo. Vt,* Pedroto Ioãoua |  |
 | `c1-l045` | &emsp;aicuchi de gozaru. *Pedro, & Ioão cõ-* |  |
 | `c1-l046` | &emsp;*binão entreſi. ¶ Item,* Aicuchi. *Certa par-* |  |
@@ -80,14 +80,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l006` | &emsp;*Enquanto estiue no* Miyaco. *¶* Tôriǔno |  |
 | `c2-l007` | &emsp;aida. *Em quanto me detiue. ¶* Fitotoqi |  |
 | `c2-l008` | &emsp;no aida. *Por eſpaço de hũa hora. ¶* Co- |  |
-| `c2-l009` | &emsp;no aida. *Estes dias atras, ou paſſados.* |  |
+| `c2-l009` | &emsp;no aida. *Estes dias atras, ou paßados.* |  |
 | `c2-l010` | &emsp;*¶ Item, Interuallo, ou eſpaço de lugar. Vt,* |  |
 | `c2-l011` | &emsp;Ichirino ida. *Eſpaço de hũa legoa. ¶ Itẽ,* |  |
 | `c2-l012` | &emsp;*Entre, ou no meo.* Voya, cono aida. *En-* |  |
 | `c2-l013` | &emsp;*tre pay, & filho, l, entre parentes. ¶ Itẽ,* |  |
 | `c2-l014` | &emsp;*Por quanto, na eſcritura. Vt,* Mairi sǒro |  |
 | `c2-l015` | &emsp;aida, l, mǒxi qeru aida. *Por quanto fui,* |  |
-| `c2-l016` | &emsp;*ou diſſe.* |  |
+| `c2-l016` | &emsp;*ou diße.* |  |
 | `c2-l017` | Ai dexi. *Condiſcipulos.* |  |
 | `c2-l018` | Aidori. *O tomar, ou prender com ajuda de* |  |
 | `c2-l019` | &emsp;*outros. ¶* Ai dori ſuru. *Tomar desta ma-* |  |

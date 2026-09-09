@@ -14,7 +14,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | &emsp;zu iuano xitauo cuguru. *Paſſar a agoa por* |  |
+| `c1-l001` | &emsp;zu iuano xitauo cuguru. *Paßar a agoa por* |  |
 | `c1-l002` | &emsp;*de baixo das pedras. ¶* Funega namiuo |  |
 | `c1-l003` | &emsp;cuguru. *Vir a embarcação como por de bai-* |  |
 | `c1-l004` | &emsp;*xo dagoa com as grandes ondas que a cobrem* |  |
@@ -101,7 +101,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l021` | &emsp;mu, l, fumi tatçuru. *Meter eſtrepe pelo* |  |
 | `c2-l022` | &emsp;*pee. ¶* Cuijeuo fuminuqu. *Trespaſ-* |  |
 | `c2-l023` | &emsp;*ſar os pès com algum eſtrepe.* |  |
-| `c2-l024` | Cuina. *Hũa aue aſſi chamada.* |  |
+| `c2-l024` | Cuina. *Hũa aue aßi chamada.* |  |
 | `c2-l025` | Cuinocoxi, ſu, oita. *Deixar algũa couſa* |  |
 | `c2-l026` | &emsp;*por comer.* |  |
 | `c2-l027` | Cuinuqi, u, uita. *Arrancar com os dentes,* |  |
@@ -115,7 +115,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l035` | &emsp;*reganhar os dentes.* |  |
 | `c2-l036` | Cuitçuqi, u, uita. *Morder.* |  |
 | `c2-l037` | Cuitome, uru, eta. *Deter com os dentes.* |  |
-| `c2-l038` | Cuitouoxi, ſu, oita. *Paſſar o bicho o pano,* |  |
+| `c2-l038` | Cuitouoxi, ſu, oita. *Paßar o bicho o pano,* |  |
 | `c2-l039` | &emsp;*ou papel comendoo.* |  |
 | `c2-l040` | Cuiximexi, ſu, eita. *Molhar, ou hume-* |  |
 | `c2-l041` | &emsp;*decer com a boca como corda do arco, &c.* |  |

@@ -58,7 +58,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l042` | Caje. *vento. ¶ Item, Elemento do ar. Vt,* |  |
 | `c1-l043` | &emsp;Tçuchi, Mizzu, Caje, Fi. *¶ Itẽ, Ar,* |  |
 | `c1-l044` | &emsp;*ou vento frio, ou frialdade. Vt,* Cajeuo fi |  |
-| `c1-l045` | &emsp;qu. *Eſtar traſpaſſado do vento, ou doente* |  |
+| `c1-l045` | &emsp;qu. *Eſtar traſpaßado do vento, ou doente* |  |
 | `c1-l046` | &emsp;*do vento, ou ar. ¶* Chaga caje fiqu. Cu |  |
 | `c1-l047` | &emsp;ſurini cajegafiqu, &c. *Danarſe o* Cha, |  |
 
@@ -86,7 +86,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l006` | &emsp;*estar magro, & desfeito. ¶ Item, Permet.* |  |
 | `c2-l007` | &emsp;*ſe dira de hum homem pobre, & ſem fato.* |  |
 | `c2-l008` | &emsp;*¶* Cajiqebito, l, cajiqeta fito. *Homẽ* |  |
-| `c2-l009` | &emsp;*pobre, & neceſſitado.* |  |
+| `c2-l009` | &emsp;*pobre, & neceßitado.* |  |
 | `c2-l010` | Cajit. Natçuno fi. *Dias do verão.* P*.* |  |
 | `c2-l011` | Cajit. Itomanofi. *Diaẽ q̃ hũ fica liure, & deſo* |  |
 | `c2-l012` | &emsp;*cupado.* |  |

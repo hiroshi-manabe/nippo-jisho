@@ -22,7 +22,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l006` | Feifeito. *Modo de eſtar a couſa praina. ¶* Fei- |  |
 | `c1-l007` | &emsp;feito xita vmi. *Mar praino, & quieto. Vt,* |  |
 | `c1-l008` | &emsp;Feifeito xitaruno nacani ginuo fari, &c. |  |
-| `c1-l009` | &emsp;Taif*. Lib. 30. Aſſentando o arrayal ẽ* |  |
+| `c1-l009` | &emsp;Taif*. Lib. 30. Aßentando o arrayal ẽ* |  |
 | `c1-l010` | &emsp;*hum campo largo, & raſo.* |  |
 | `c1-l011` | Feifǒ. *Arte de eſgrima. ¶* Feifǒuo tçu- |  |
 | `c1-l012` | &emsp;cǒ. *Vſar da arte de eſgrima.* |  |
@@ -100,14 +100,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l026` | &emsp;*diuerſas partes.* |  |
 | `c2-l027` | Fen. Fotori. *Borda, parte, ou lugar.* |  |
 | `c2-l028` | &emsp;*¶* Cono fen. *Aqui. ¶* Sono fen. *A-* |  |
-| `c2-l029` | &emsp;*hi, neſſe lugar.* |  |
+| `c2-l029` | &emsp;*hi, neße lugar.* |  |
 | `c2-l030` | Fen. Amu. *Capitulo, parte, ou paragrapho* |  |
 | `c2-l031` | &emsp;*dalgũa eſcritura, liuro, &c.* |  |
 | `c2-l032` | Fen. *Maneira de conſoãte que nas letras de* |  |
 | `c2-l033` | &emsp;*Iapão, & China ſe poem no principio, ou da* |  |
 | `c2-l034` | &emsp;*parte eſquerda: a letra que ſe poem da parte* |  |
 | `c2-l035` | &emsp;*direita ſe chama* Tçucuri*, cõ q̃ ſe forma hũa le* |  |
-| `c2-l036` | &emsp;*tra perfeita, q̃ reſponde a hũa ſyllaba noſſa, ou* |  |
+| `c2-l036` | &emsp;*tra perfeita, q̃ reſponde a hũa ſyllaba noßa, ou* |  |
 | `c2-l037` | &emsp;*vocabulo.* |  |
 | `c2-l038` | Fenamo. *Certa doença que vem aos meninos co* |  |
 | `c2-l039` | &emsp;*mo ſarampão, a que no* Ximo *chamão,* Febo. |  |

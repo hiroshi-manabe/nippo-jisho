@@ -45,10 +45,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1b-l002` | Da. Votçuru. *Vt,* Daſuru. |  |
 | `c1b-l003` | &emsp;*Cair.* |  |
 | `c1b-l004` | Dabaqeta. *Vt,* Dabaqe- |  |
-| `c1b-l005` | &emsp;ta mono. *Peſſoa deſcompos-* |  |
+| `c1b-l005` | &emsp;ta mono. *Peßoa deſcompos-* |  |
 | `c1b-l006` | &emsp;*ta, & deſordenada em ſuas ac-* |  |
 | `c1b-l007` | &emsp;*ções. ¶* Dabaqeta xitacu, l, detachi. |  |
-| `c1b-l008` | &emsp;*Veſtido que não diz à peſſoa antes he disfor-* |  |
+| `c1b-l008` | &emsp;*Veſtido que não diz à peßoa antes he disfor-* |  |
 | `c1b-l009` | &emsp;*me, & deſproporcionado. ¶* Dabaqeta goyei. |  |
 | `c1b-l010` | &emsp;*Imagem pintada que tem algũa desproporção,* |  |
 | `c1b-l011` | &emsp;*ou disformidade, ou estã ja mea çafada, &c.* |  |
@@ -119,7 +119,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l027` | Daibandocoro. *Certa caſa, ou camara que eſ-* |  |
 | `c2-l028` | &emsp;*tà nos paços do Dairi.* |  |
 | `c2-l029` | Daiben. *Esterco humano. Vt,* Daibenuo |  |
-| `c2-l030` | &emsp;ſuru. *Fazer ſuas neceſſidades.* |  |
+| `c2-l030` | &emsp;ſuru. *Fazer ſuas neceßidades.* |  |
 | `c2-l031` | Daibenjo. *Secretas.* |  |
 | `c2-l032` | Daibiacuxǒ. *Laurador rico.* |  |
 | `c2-l033` | Daibon. Vôqini vocaſu. *Grande peccado.* |  |

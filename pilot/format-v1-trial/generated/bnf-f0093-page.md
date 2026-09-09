@@ -39,7 +39,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l023` | Carixǒzocu. *Vestidos de caça, ou de caminho.* |  |
 | `c1-l024` | Cariya. *Caſa empreſtada.* |  |
 | `c1-l025` | Cariyado. *Idem.* |  |
-| `c1-l026` | Cariyaſu. *Hũa erua aſſi chamada que ſerue* |  |
+| `c1-l026` | Cariyaſu. *Hũa erua aßi chamada que ſerue* |  |
 | `c1-l027` | &emsp;*para tingir de hũa cor que tira para verde,* |  |
 | `c1-l028` | &emsp;*& amarelo.* |  |
 | `c1-l029` | Carizzuye. *Bordão que leuão os caçadores* |  |
@@ -58,7 +58,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l042` | &emsp;*teiros na ponta da linha, ou cordel comque* |  |
 | `c1-l043` | &emsp;*fazem as riſcas na madeira. ¶ Item, No* |  |
 | `c1-l044` | &emsp;cami *ſe toma porhũa cruzeta que ſe faz de* |  |
-| `c1-l045` | &emsp;*dous paos ſobreque aſſentão barças de vinho,* |  |
+| `c1-l045` | &emsp;*dous paos ſobreque aßentão barças de vinho,* |  |
 | `c1-l046` | &emsp;*& as amarrão pera leuar às coſtas, ou aos* |  |
 | `c1-l047` | &emsp;*hombros.* |  |
 
@@ -83,7 +83,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l003` | &emsp;Carugaruxiſa. |  |
 | `c2-l004` | &emsp;Carugaruxù. |  |
 | `c2-l005` | Carugayuyeni. *Adu. Por eſta cauſa, por* |  |
-| `c2-l006` | &emsp;*tanto, ou ſendo aſſi. S.* |  |
+| `c2-l006` | &emsp;*tanto, ou ſendo aßi. S.* |  |
 | `c2-l007` | Carugueni. *Adu. Leuemente.* |  |
 | `c2-l008` | Carui. *Couſa leue. ¶ Item, Peſſoa de pou-* |  |
 | `c2-l009` | &emsp;*co ſizo.* |  |

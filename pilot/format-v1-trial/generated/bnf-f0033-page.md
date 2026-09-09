@@ -21,7 +21,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1a-l005` | &emsp;*uerb. Os biǒbus, & mercadores não podem* |  |
 | `c1a-l006` | &emsp;*estar direitos. i. Sempre o mercador he la-* |  |
 | `c1a-l007` | &emsp;*drão, ou mente.* |  |
-| `c1a-l008` | Aqiza. *Aſſento, ou lugar daſala, ou Zaxiqi* |  |
+| `c1a-l008` | Aqiza. *Aßento, ou lugar daſala, ou Zaxiqi* |  |
 | `c1a-l009` | &emsp;*deſpejado.* |  |
 | `c1a-l010` | Aqiya, l, aqi iye. *Caſa vazia, ou deſ-* |  |
 | `c1a-l011` | &emsp;*pejada.* |  |
@@ -48,7 +48,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1b-l006` | &emsp;*Interieção de compaixão, alegria, &c. i.* |  |
 | `c1b-l007` | &emsp;Ara. |  |
 | `c1b-l008` | Ara arato. *Aduerb. Modo de bater na porta* |  |
-| `c1b-l009` | &emsp;*rijo, & apreſſadamente. ¶* Ara arato qi- |  |
+| `c1b-l009` | &emsp;*rijo, & apreßadamente. ¶* Ara arato qi- |  |
 | `c1b-l010` | &emsp;zamu. *Cortar algũa couſa em pedaços groſ-* |  |
 | `c1b-l011` | &emsp;*ſos. ¶* Ara arato cudaqu. *Quebrar, ou* |  |
 | `c1b-l012` | &emsp;*desfazer em pedaçinhos não muito miudos.* |  |
@@ -89,7 +89,7 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c2-l001` | &emsp;ta. *polla mòr parte negociei, ou aparelhei.* |  |
 | `c2-l002` | Aracaua. i. Tçucuranu caua. *Pele por cortir.* |  |
-| `c2-l003` | Aracomo. *Hũa esteira groſſa, & toſca de* |  |
+| `c2-l003` | Aracomo. *Hũa esteira großa, & toſca de* |  |
 | `c2-l004` | &emsp;*palha.* |  |
 | `c2-l005` | Aradachi, tçu. *Embrauecerſe, ou exaſperarſe.* |  |
 | `c2-l006` | Aradate, tçuru. *Exaſperar, ou fazer brauo,* |  |
@@ -100,7 +100,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l011` | Arafada. *Carão da carne aſpero.* |  |
 | `c2-l012` | Arafa. i. Araiſo. *Costa braua, ou lugar on-* |  |
 | `c2-l013` | &emsp;*de as ondas do mar batem rijo.* |  |
-| `c2-l014` | Arafiǒgui. *Conſulta feita aſſi leuemente, aſpe-* |  |
+| `c2-l014` | Arafiǒgui. *Conſulta feita aßi leuemente, aſpe-* |  |
 | `c2-l015` | &emsp;*ra, & reſolutamente.* |  |
 | `c2-l016` | Arafitogami. i. Fitoni tçuqitararu cami. |  |
 | `c2-l017` | &emsp;Cami, *ou alma perdida que entra em alguem,* |  |
@@ -114,19 +114,19 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l025` | Aragui. *Couſa aſpera, & riſpida. ¶* Ara- |  |
 | `c2-l026` | &emsp;guiuo daſu. *Exaſperar, & ſair com pala-* |  |
 | `c2-l027` | &emsp;*uras aſperas.* |  |
-| `c2-l028` | Araguiri. *O cortar groſſeiramente, ou desbaſ-* |  |
+| `c2-l028` | Araguiri. *O cortar großeiramente, ou desbaſ-* |  |
 | `c2-l029` | &emsp;*tar o groſſo. Vt,* Araguiri ſuru. *Idem.* |  |
 | `c2-l030` | &emsp;*¶ Item, Permet. O irem os ſoldados que* |  |
 | `c2-l031` | &emsp;*primeiro arremetem aos inimigos cortando, &* |  |
 | `c2-l032` | &emsp;*ferindo, &c.* |  |
 | `c2-l033` | Arai. *Couſa groſſeira, ou mal moida, como a-* |  |
-| `c2-l034` | &emsp;*rea groſſa, farinha com rolão, & pòs mal moi-* |  |
+| `c2-l034` | &emsp;*rea großa, farinha com rolão, & pòs mal moi-* |  |
 | `c2-l035` | &emsp;*dos, &c. ¶* Arai co. *Farinha, ou pòs* |  |
 | `c2-l036` | &emsp;*mal moidos, & groſſos. ¶ Item, Couſa* |  |
 | `c2-l037` | &emsp;*aſpera, & que não he maſia. ¶* Arai ixǒ. |  |
 | `c2-l038` | &emsp;*Vestido aſpero. ¶ Item, Couſa rala. Vt,* |  |
 | `c2-l039` | &emsp;Arai furui. *Peneira rala. ¶* Arai nu- |  |
-| `c2-l040` | &emsp;no. *Teada de linho canemo groſſeira, &* |  |
+| `c2-l040` | &emsp;no. *Teada de linho canemo großeira, &* |  |
 | `c2-l041` | &emsp;*rala.* |  |
 | `c2-l042` | &emsp;Araſa. |  |
 | `c2-l043` | &emsp;Arǒ. |  |

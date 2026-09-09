@@ -53,7 +53,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l031` | &emsp;*no fim das cartas.* |  |
 | `c1-l032` | Anadori. *Eſcarneo, zombaria.* |  |
 | `c1-l033` | Anadori, ru, otta. *Zombar, ou eſcarnecer.* |  |
-| `c1-l034` | Anadorimono. *Couſa, ou peſſoa de quem ſe* |  |
+| `c1-l034` | Anadorimono. *Couſa, ou peßoa de quem ſe* |  |
 | `c1-l035` | &emsp;*zomba, ou moteja.* |  |
 | `c1-l036` | Anagachi, l, anagachini. i. Xiguirini. *Por* |  |
 | `c1-l037` | &emsp;*força, ou em todo caſo, ou importunamente.* |  |
@@ -78,7 +78,7 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c2-l001` | Anagi. *Doença de certas almorreimas.* |  |
 | `c2-l002` | Anaji. *Oesnoroeſte. ¶* Anajiuo conomu |  |
-| `c2-l003` | &emsp;Acaxinadi. *A paſſajem diante de Acaxi pe* |  |
+| `c2-l003` | &emsp;Acaxinadi. *A paßajem diante de Acaxi pe* |  |
 | `c2-l004` | &emsp;*de oesnoroeſte por que ſerue pera ir, & vir* |  |
 | `c2-l005` | &emsp;*neſta paragem.* |  |
 | `c2-l006` | Anamata. *Couas de antre os dedos.* |  |
@@ -88,7 +88,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l010` | &emsp;*paixão.* |  |
 | `c2-l011` | An an. *Grande eſcuridade.* |  |
 | `c2-l012` | Anata. *Adu. Là, ou naquella parte.* |  |
-| `c2-l013` | Anata. *Aquelles, ou eſſes.* |  |
+| `c2-l013` | Anata. *Aquelles, ou eßes.* |  |
 | `c2-l014` | Anata conata. *Decà pera là.* |  |
 | `c2-l015` | Anaura. *Sola do pè.* |  |
 | `c2-l016` | Anazzuri, uru, utta. *Melius,* Anadoru. |  |
@@ -110,7 +110,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l032` | Anchǔ, l, angiǔ. Yuorino vchi. *Dentro* |  |
 | `c2-l033` | &emsp;*na choupana de homẽs que deixão o mundo.* |  |
 | `c2-l034` | Ancǒ, l, angǒ. *Hum peixe de rio que tẽ pès* |  |
-| `c2-l035` | &emsp;*¶ Item, Hum paſſaro dagoa como garça.* |  |
+| `c2-l035` | &emsp;*¶ Item, Hum paßaro dagoa como garça.* |  |
 | `c2-l036` | &emsp;*¶* Ancǒno tçuni muxeta yǒna fito. |  |
 | `c2-l037` | &emsp;*Prouerb. Homem estupido, & paruo que* |  |
 | `c2-l038` | &emsp;*està com aboca aberta às moſcas, como aquelle* |  |

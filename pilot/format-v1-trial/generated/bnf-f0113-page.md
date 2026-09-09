@@ -101,7 +101,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l021` | Chùchǒ. Itamu coto. *Dor, ou ſentimento.* |  |
 | `c2-l022` | Chùcô. *Grandes ſeruiços como os que faz hum* |  |
 | `c2-l023` | &emsp;*criado na guerra ao ſenhor. ¶* Chùcôuo |  |
-| `c2-l024` | &emsp;nuqinzzuru. *Aſſinalarſe ẽ grandes ſeruiços.* |  |
+| `c2-l024` | &emsp;nuqinzzuru. *Aßinalarſe ẽ grandes ſeruiços.* |  |
 | `c2-l025` | Chùcǒ. *Bom ſeruiço pera com o ſenhor, ou* |  |
 | `c2-l026` | &emsp;*pay, & may.* |  |
 | `c2-l027` | Chùcô. Naca vocoſu. *Tornar a refazer, ou* |  |

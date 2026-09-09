@@ -38,7 +38,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l022` | Cauarabuqi. *O telhar com telhas de barro.* |  |
 | `c1-l023` | Cauaracaxi, ſu, aita, l, potius, Cauacaxi, |  |
 | `c1-l024` | &emsp;ſu. *Enxugar couſas molhadas, ou humidas.* |  |
-| `c1-l025` | Cauara fiua. *Hum paſſarinho aſſi chamado de* |  |
+| `c1-l025` | Cauara fiua. *Hum paßarinho aßi chamado de* |  |
 | `c1-l026` | &emsp;*cor amarela.* |  |
 | `c1-l027` | Cauarague. *Caualo de cor brãca tirado a coma,* |  |
 | `c1-l028` | &emsp;*& o rabo que tem preto.* |  |
@@ -106,7 +106,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l026` | &emsp;*mar prata, arroz, &c. ao cambio, como* |  |
 | `c2-l027` | &emsp;*quando hum toma prata no* Miyaco *pera a pa-* |  |
 | `c2-l028` | &emsp;*gar em* Nagaſaqi*.* |  |
-| `c2-l029` | Cauaxebi. *Hũa aue aſſi chamada.* |  |
+| `c2-l029` | Cauaxebi. *Hũa aue aßi chamada.* |  |
 | `c2-l030` | Cauaya. *Secretas.* |  |
 | `c2-l031` | Cauaya. *Caſa do corrieiro, ou çapateiro que* |  |
 | `c2-l032` | &emsp;*faz* Tabis. *¶ Item, O meſmo official.* |  |

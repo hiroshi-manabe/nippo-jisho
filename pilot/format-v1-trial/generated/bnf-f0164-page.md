@@ -16,7 +16,7 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c1-l001` | Fadaye. *Carão, ou ſuperficie da carne.* |  |
 | `c1-l002` | Fafa, l, faua. *Mãy.* |  |
-| `c1-l003` | Fafachô, l, fauachô. *Hũa aue aſſi chamada.* |  |
+| `c1-l003` | Fafachô, l, fauachô. *Hũa aue aßi chamada.* |  |
 | `c1-l004` | Fafô. Noriuo yaburu. *Quebrar a ley. Vt.* |  |
 | `c1-l005` | &emsp;F fôno tomogaraua gigocuni votçuru. *Os* |  |
 | `c1-l006` | &emsp;*quebrantadores da ley vão ao Inferno.* |  |

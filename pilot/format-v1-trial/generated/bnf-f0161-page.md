@@ -15,7 +15,7 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c1-l001` | &emsp;rino fauo naraſu. *Baterem, ou ſacudirẽ* |  |
-| `c1-l002` | &emsp;*os paſſaros as aſas.* |  |
+| `c1-l002` | &emsp;*os paßaros as aſas.* |  |
 | `c1-l003` | Fabuqi, u, ita. *Repartir.* Zaiuo fabuqu. |  |
 | `c1-l004` | &emsp;*Repartir as riquezas.* |  |
 | `c1-l005` | Fabure, uru, eta. *Voarem as aues como* |  |

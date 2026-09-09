@@ -94,7 +94,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l020` | &emsp;*muito perigoſa.* |  |
 | `c2-l021` | Faxiri jde, uru, eta. *Sair correndo.* |  |
 | `c2-l022` | Faxiri gidameqi, u, eita. *Correr com grãde* |  |
-| `c2-l023` | &emsp;*rebuliço, ou preſſa.* |  |
+| `c2-l023` | &emsp;*rebuliço, ou preßa.* |  |
 | `c2-l024` | Faxirimai. *Priuado de algum ſenhor grande* |  |
 | `c2-l025` | &emsp;*que tudo faz, & a tudo acode com preſteza.* |  |
 | `c2-l026` | Faxirimai, ǒ, ǒta. *Seruir com presteza.* |  |
@@ -114,7 +114,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l040` | Faxiriyori, u, otta. *Chegarſe correndo.* |  |
 | `c2-l041` | Faxita. *Reſto que fica da conta, ou numero im-* |  |
 | `c2-l042` | &emsp;*perfeito, & falto daquelle que he ordinario,* |  |
-| `c2-l043` | &emsp;*como ſe faltaſſem 10. ou 20. folhas de pa-* |  |
+| `c2-l043` | &emsp;*como ſe faltaßem 10. ou 20. folhas de pa-* |  |
 | `c2-l044` | &emsp;*pel pera cento que tem hua mão de* Torinoco: |  |
 | `c2-l045` | &emsp;*aquelle numero imperfeito, & falto ſe diria* |  |
 | `c2-l046` | &emsp;iſsocuno faxita. |  |

@@ -52,7 +52,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l036` | Canxit. Cauaqi, ximeru. *Secura, & hu-* |  |
 | `c1-l037` | &emsp;*midade.* |  |
 | `c1-l038` | Canxô. *Nome de hũa mezinha cheiroſa.* |  |
-| `c1-l039` | Canxu. Samui ſaqe. *Vinho frio aſſi ſe vſa* |  |
+| `c1-l039` | Canxu. Samui ſaqe. *Vinho frio aßi ſe vſa* |  |
 | `c1-l040` | &emsp;*no* Cami *por vinho que não he quente.* |  |
 | `c1-l041` | Canxu. Atacacana ſaqe. *Vinho quente. No* |  |
 | `c1-l042` | &emsp;Cami *ſe diz* Canno ſaqe. |  |
@@ -79,7 +79,7 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c2-l001` | Canyô. Qimo mochiiru. i. Xen ichi. *Cou* |  |
-| `c2-l002` | &emsp;*ſa neceſſaria, & importante.* |  |
+| `c2-l002` | &emsp;*ſa neceßaria, & importante.* |  |
 | `c2-l003` | Canyôna. *Adiect. Idem.* |  |
 | `c2-l004` | Canza. Xizzucani zaſuru. *Estar quieto, &* |  |
 | `c2-l005` | &emsp;*ſolitario.* |  |

@@ -32,7 +32,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l016` | &emsp;*mo, tenção, &c.* |  |
 | `c1-l017` | Cocoromoto. *Peito, ou boca do eſtamago.* |  |
 | `c1-l018` | Cocoromotonai. *Estar ſuſpenſo, ou duuidoſo,* |  |
-| `c1-l019` | &emsp;*& com arreceo dalgum ruim ſucceſſo, &c.* |  |
+| `c1-l019` | &emsp;*& com arreceo dalgum ruim ſucceßo, &c.* |  |
 | `c1-l020` | Cocoromotonaſa. *Perplexidade, & duuida.* |  |
 | `c1-l021` | Cocoromotonǒ. *Adu. Perplexa, ou duuido-* |  |
 | `c1-l022` | &emsp;*ſamente. ¶* Cocoromotonǒ zonzuru. |  |
@@ -40,7 +40,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l024` | &emsp;*de, ou vida dalguem que eſtà abſente, &c.* |  |
 | `c1-l025` | Cocoromutçucaxij. *Couſa que perturba, &* |  |
 | `c1-l026` | &emsp;*enfada.* |  |
-| `c1-l027` | Cocoronagai. *Peſſoa deſcanſada que ſofre, &* |  |
+| `c1-l027` | Cocoronagai. *Peßoa deſcanſada que ſofre, &* |  |
 | `c1-l028` | &emsp;*eſpera muito.* |  |
 | `c1-l029` | Cocoronicù. *Adu. Modo de duuidar, ou eſtar* |  |
 | `c1-l030` | &emsp;*ſolicito.* |  |
@@ -113,7 +113,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l038` | &emsp;*começar a entender algũa couſa que dantes não* |  |
 | `c2-l039` | &emsp;*entendia como algum liuro, &c.* |  |
 | `c2-l040` | Cocot. Torano fone. *Oſſo de tigre.* |  |
-| `c2-l041` | Cocot. Careta fone. *Oſſos ſecos.* |  |
+| `c2-l041` | Cocot. Careta fone. *Oßos ſecos.* |  |
 | `c2-l042` | Cǒcot. *Hum oſſo junto do pulſo que està ma-* |  |
 | `c2-l043` | &emsp;*is eminente.* |  |
 | `c2-l044` | Cocu. Come. *Arroz.* |  |

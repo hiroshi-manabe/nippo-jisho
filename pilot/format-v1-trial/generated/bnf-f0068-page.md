@@ -26,7 +26,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l010` | &emsp;nauaru. *Ser aleuantado em dignidade de* |  |
 | `c1-l011` | &emsp;Cubǒ, *ou de capitão da milicia.* |  |
 | `c1-l012` | Buxǒ. Xǒ naxi. *Priguiça, deleixamento.* |  |
-| `c1-l013` | Buxǒna. *Peſſoa priguiçoſa, froxa, &c.* |  |
+| `c1-l013` | Buxǒna. *Peßoa priguiçoſa, froxa, &c.* |  |
 | `c1-l014` | &emsp;*¶* Buxǒna qi, taqe. *Pao, ou bãbu fraco.* |  |
 | `c1-l015` | &emsp;Buxǒni. |  |
 | `c1-l016` | &emsp;Buxǒſa. |  |
@@ -118,7 +118,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2b-l005` | &emsp;*andor. Vt,* Cauo ma- |  |
 | `c2b-l006` | &emsp;guerarete. *Rodeando com as* |  |
 | `c2b-l007` | &emsp;*andas. S. palaura de comprimento que ſe diz* |  |
-| `c2b-l008` | &emsp;*honrrãdo a peſſoa que veo rodeando, & cõ tra-* |  |
+| `c2b-l008` | &emsp;*honrrãdo a peßoa que veo rodeando, & cõ tra-* |  |
 | `c2b-l009` | &emsp;*balho no* Norimono. |  |
 | `c2b-l010` | Ca. Cǒbaxij. *Cheiro, ou perfume. ¶* Ca- |  |
 | `c2b-l011` | &emsp;ga vtçuru. *Tomar algũa couſa, ou cheiro de* |  |

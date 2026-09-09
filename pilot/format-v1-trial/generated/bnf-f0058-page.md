@@ -29,7 +29,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l013` | &emsp;Bireǒga ſagatta. *Andar algũa parte do* |  |
 | `c1-l014` | &emsp;*veſtido rota, & deper urada.* |  |
 | `c1-l015` | Bireǒ. Sucoxi ſuzuxi. *Freſco do eſtio que* |  |
-| `c1-l016` | &emsp;*ſerue pera paſſar a calma. S.* |  |
+| `c1-l016` | &emsp;*ſerue pera paßar a calma. S.* |  |
 | `c1-l017` | Biriocu. Chicara ſucunaxi. *Poucas, ou* |  |
 | `c1-l018` | &emsp;*fracas forças.* |  |
 | `c1-l019` | Birô. *Deſcortezia, mao enſino.* |  |
@@ -77,7 +77,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2a-l003` | Biua. *Viola. ¶* Biuauo tanzuru, l, fiqu. |  |
 | `c2a-l004` | &emsp;T*anger a viola. ¶* Biuauo xiraburu. *Tẽ* |  |
 | `c2a-l005` | &emsp;*perar a viola.* |  |
-| `c2a-l006` | Biua. *Hũa aruore aſſi chamada. ¶ Item,* |  |
+| `c2a-l006` | Biua. *Hũa aruore aßi chamada. ¶ Item,* |  |
 | `c2a-l007` | &emsp;*A fruita deſta aruore.* |  |
 | `c2a-l008` | Biuabôxi. i. Zatô. *Cego rapado.* |  |
 | `c2a-l009` | Biuano cô. *Certas taboas delgadas que ſeruẽ* |  |

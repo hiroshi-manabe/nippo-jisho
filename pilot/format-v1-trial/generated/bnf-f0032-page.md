@@ -75,7 +75,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l001` | &emsp;*Arrebentar a postema por ſi. ¶* Aqinaino |  |
 | `c2-l002` | &emsp;cuchiga aita. *Começarſe a mercancia.* |  |
 | `c2-l003` | Aqibito. *Mercador.* |  |
-| `c2-l004` | Aqibocori. *Erua aſſi chamada.* |  |
+| `c2-l004` | Aqibocori. *Erua aßi chamada.* |  |
 | `c2-l005` | Aqicaje. *Vento do Outono.* |  |
 | `c2-l006` | Aqidari, ru, atta. i. Tannu ſuru. *Auer ẽ* |  |
 | `c2-l007` | &emsp;*abundancia, & fartura. ¶* Aqidaranu, |  |

@@ -29,7 +29,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l013` | &emsp;nimo. *Se ainda iſto que fara, &c.* |  |
 | `c1-l014` | Danjet. Tayuru. *Faltar algũa couſa, ou ceſ* |  |
 | `c1-l015` | &emsp;*ſar. Vt,* Gacumon danjet xita. *Os eſ-* |  |
-| `c1-l016` | &emsp;*tudos ceſſarão, ou acabarão.* |  |
+| `c1-l016` | &emsp;*tudos ceßarão, ou acabarão.* |  |
 | `c1-l017` | Danjet. Tachi qiru. *Cortar. ¶ Permet.* |  |
 | `c1-l018` | &emsp;Acunenuo danjet ſuru. *Cortar, ou deſtru-* |  |
 | `c1-l019` | &emsp;*ir, & botar fora os maos penſamentos.* |  |
@@ -43,7 +43,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l027` | Danju. Saqeuo tatçu. *Não beber vinho por* |  |
 | `c1-l028` | &emsp;*voto, ou por outro reſpeito.* |  |
 | `c1-l029` | Danmet. Taye, meſſuru. *Destruição.* |  |
-| `c1-l030` | Danna. *Fregueſes, ou deuotos, & profeſſores* |  |
+| `c1-l030` | Danna. *Fregueſes, ou deuotos, & profeßores* |  |
 | `c1-l031` | &emsp;*dalgũa ſeita. ¶ Item, Permet. Fregue* |  |
 | `c1-l032` | &emsp;*zes dalgum official que continuão com elle em o* |  |
 | `c1-l033` | &emsp;*bra, que lhe encomendão, &c.* |  |
@@ -109,7 +109,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l035` | Darumi, u, unda. *Diſsimular, ou eſtar re-* |  |
 | `c2-l036` | &emsp;*falçado pera enganar. ¶ Vt,* Darumi |  |
 | `c2-l037` | &emsp;qitte iuareta. i. Damari qitte. *Falou* |  |
-| `c2-l038` | &emsp;*eſtando totalmente diſſimulado, & refolhado.* |  |
+| `c2-l038` | &emsp;*eſtando totalmente dißimulado, & refolhado.* |  |
 | `c2-l039` | Dasai. *Certa dignidade.* |  |
 | `c2-l040` | Datai. T*amanho, ou quantidade dalgũa cou-* |  |
 | `c2-l041` | &emsp;*ſa. ¶ Item. Meneo, gaſto, &c. Vt,* |  |

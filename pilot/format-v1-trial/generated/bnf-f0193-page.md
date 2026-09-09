@@ -54,7 +54,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l038` | &emsp;*alargar as mãos, & pès. ¶* Qino yeda, |  |
 | `c1-l039` | &emsp;bunmauaxi, nadouo fiqifataquru. *Eſtẽ-* |  |
 | `c1-l040` | &emsp;*der, & a largar ramos de aruore, abrir o com* |  |
-| `c1-l041` | &emsp;*paſſo, &c.* |  |
+| `c1-l041` | &emsp;*paßo, &c.* |  |
 | `c1-l042` | Fiqifazzuxi, ſu, uita. *Deſencaixar a cou-* |  |
 | `c1-l043` | &emsp;*ſa de ſeu lugar como pee de banco, deſarmar pa-* |  |
 | `c1-l044` | &emsp;*nos darmar, &c. ¶ Item, Permet* |  |

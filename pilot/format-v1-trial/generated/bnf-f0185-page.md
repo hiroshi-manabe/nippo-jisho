@@ -118,7 +118,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l044` | Fetano caua. *Peſſoa pouco deſtra, ou desma* |  |
 | `c2-l045` | &emsp;*zelada.* |  |
 | `c2-l046` | Fetçucuxi, ſu. *Eſtender o fio todo. ¶ Itẽ,* |  |
-| `c2-l047` | &emsp;*Per met. Acabar de paſſar, ou ſofrer traba-* |  |
+| `c2-l047` | &emsp;*Per met. Acabar de paßar, ou ſofrer traba-* |  |
 
 ## Printed page number
 

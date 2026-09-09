@@ -20,7 +20,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l004` | &emsp;de vtçu. *Iugar a eſcola, ou vſar de boleo* |  |
 | `c1-l005` | &emsp;*desta maneira.* |  |
 | `c1-l006` | Buriocu. Chicaranaxi. i. fin. *Pobreza,* |  |
-| `c1-l007` | &emsp;*& pouca poſſe. ¶* Buriocu xenban na- |  |
+| `c1-l007` | &emsp;*& pouca poße. ¶* Buriocu xenban na- |  |
 | `c1-l008` | &emsp;xi. *He ſumma pobreza.* |  |
 | `c1-l009` | Buriocujin. *Pobre.* |  |
 | `c1-l010` | Buriocuna. *Idem.* |  |
@@ -52,12 +52,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l036` | Busso. Fotoqe foxi. Fotoqe, *& ſeus ſo-* |  |
 | `c1-l037` |  | *(ceſſores.* |
 | `c1-l038` | Bussô. Mono itçuuaxi. *Perturbação,* |  |
-| `c1-l039` | &emsp;*& preſſa.* |  |
+| `c1-l039` | &emsp;*& preßa.* |  |
 | `c1-l040` | Buta. Vyeno inoxixi. *Porco criado em caſa.* |  |
 | `c1-l041` | Butai. Maino vten. *Teatro, onde repre-* |  |
 | `c1-l042` | &emsp;*ſentão autos, &c. ¶* Butaiuo ſuru. *Fa-* |  |
 | `c1-l043` | &emsp;*zer eſte theatro.* |  |
-| `c1-l044` | Butai fai, l, Butai faina. *Peſſoa deſmaze-* |  |
+| `c1-l044` | Butai fai, l, Butai faina. *Peßoa deſmaze-* |  |
 | `c1-l045` | &emsp;*lada, ou deſconcertada na compoſição, ou esta* |  |
 | `c1-l046` | &emsp;*tura do corpo.* |  |
 | `c1-l047` | Butaxinami. *Pouco resguardo, & cautella,* |  |

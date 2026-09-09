@@ -60,7 +60,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l044` | Bijacu. Sucoxi youaxi. *Fraqueza, ou pou-* |  |
 | `c1-l045` | &emsp;*cas forças em peſſoas de pouca* i*dade.* |  |
 | `c1-l046` | Bijacuna. *Peſſoa de pouca idade, forças fracas* |  |
-| `c1-l047` | Bijin. Itçucuxij fito. *Peſſoa bem parecida,* |  |
+| `c1-l047` | Bijin. Itçucuxij fito. *Peßoa bem parecida,* |  |
 
 ## Column 2 running header
 

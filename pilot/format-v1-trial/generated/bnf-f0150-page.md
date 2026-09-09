@@ -42,7 +42,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l026` | &emsp;*trada publica.* |  |
 | `c1-l027` | Daidocoro. *Cozinha de peſſoas ſeculares.* |  |
 | `c1-l028` | Daifa. *Porção, ou certa quantidade que ſe* |  |
-| `c1-l029` | &emsp;*dà a hũa peſſoa de arroz pera comer.* |  |
+| `c1-l029` | &emsp;*dà a hũa peßoa de arroz pera comer.* |  |
 | `c1-l030` | &emsp;*¶* Daifauo voroſu. *Dar eſta porção, ou* |  |
 | `c1-l031` | &emsp;*ração.* |  |
 | `c1-l032` | Daifan. Vôqina mexi. *Grande porção de* |  |

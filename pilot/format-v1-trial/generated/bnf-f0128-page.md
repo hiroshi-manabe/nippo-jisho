@@ -47,8 +47,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l031` | Côrai. Nochini qitaru. *Vir depois.* |  |
 | `c1-l032` | Cǒraiberi. *Debrum do* Tatami *feito de certo* |  |
 | `c1-l033` | &emsp;*nono pintado que vem da Còrea.* |  |
-| `c1-l034` | Cǒran. *Ver peſſoa alta. Vt,* Cǒranni ſo- |  |
-| `c1-l035` | &emsp;nayuru. *Apreſentar, ou moſtrar a peſſoa* |  |
+| `c1-l034` | Cǒran. *Ver peßoa alta. Vt,* Cǒranni ſo- |  |
+| `c1-l035` | &emsp;nayuru. *Apreſentar, ou moſtrar a peßoa* |  |
 | `c1-l036` | &emsp;*nobre.* |  |
 | `c1-l037` | Cǒran. Tacai vobaxima. *Encosto, ou ba-* |  |
 | `c1-l038` | &emsp;*lauſtes.* |  |
@@ -78,7 +78,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l003` | Coraye, uru, eta. *Sofrer.* |  |
 | `c2-l004` | Corayecane, uru, eta. *Não poder ſofrer.* |  |
 | `c2-l005` | Core. *Pron. Iſto. l,* eſte. |  |
-| `c2-l006` | Corefodo. *Adu. Tanto como iſſo.* |  |
+| `c2-l006` | Corefodo. *Adu. Tanto como ißo.* |  |
 | `c2-l007` | Corefodono. *Tal, qual, l, Tanto, como* |  |
 | `c2-l008` | &emsp;*este, &c.* |  |
 | `c2-l009` | Coren. To, ſudare. *Eſteiras da porta. Vt,* co- |  |

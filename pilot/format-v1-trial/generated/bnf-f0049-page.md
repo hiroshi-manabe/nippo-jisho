@@ -112,14 +112,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l032` | &emsp;*gião. ¶* Banchǒni tçuqu. *Estar eſcri-* |  |
 | `c2-l033` | &emsp;*to no rol da vigia.* |  |
 | `c2-l034` | Bancǒ. Yorozzuno ſaiuai. *Todos os bons* |  |
-| `c2-l035` | &emsp;*ſuçeſſos, ou proſperidades.* |  |
+| `c2-l035` | &emsp;*ſuçeßos, ou proſperidades.* |  |
 | `c2-l036` | Bancô. *Todas as rozas & flores vermelhas.* |  |
 | `c2-l037` | Banco. *Antiguamente.* |  |
 | `c2-l038` | Bancocu. Yorozzuno cuni. *Todos os reinos.* |  |
 | `c2-l039` | Bandai. Yorozzuno yo. *Todas as idades.* |  |
 | `c2-l040` | Banden. i. Vocuteda. *Varzea que da frui-* |  |
 | `c2-l041` | &emsp;*to ſorodio, ou ſe ſega tarde.* |  |
-| `c2-l042` | Bandori. *Paſſaro que vigia.* |  |
+| `c2-l042` | Bandori. *Paßaro que vigia.* |  |
 | `c2-l043` | Bangacu. Voſoi gacumon. *O aprender* |  |
 | `c2-l044` | &emsp;*tarde, ou ja de muita idade. Vt,* Bangacu |  |
 | `c2-l045` | &emsp;ua rǒxite cô naxi. *O estudo tomado tarde* |  |

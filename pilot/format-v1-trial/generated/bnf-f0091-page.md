@@ -58,8 +58,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l042` | &emsp;*tarda, &c.* |  |
 | `c1-l043` | &emsp;Caraſa. Carǒ. |  |
 | `c1-l044` | Carai. Natçu qitaru. *Entrar o verão, ou eſtio.* |  |
-| `c1-l045` | Caraixiqi. *Huns paos groſſos ſobre que fechã* |  |
-| `c1-l046` | &emsp;*as portas, & aſſentão as colũnas dos portais.* |  |
+| `c1-l045` | Caraixiqi. *Huns paos großos ſobre que fechã* |  |
+| `c1-l046` | &emsp;*as portas, & aßentão as colũnas dos portais.* |  |
 | `c1-l047` | Caramaqi, qu, aita. *Debar fiado, ſeda, &c.* |  |
 
 ## Column 2 running header
@@ -111,7 +111,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l031` | Caraſu. *Coruo.* |  |
 | `c2-l032` | Caraſugai. *Certo genero de mariſco como a-* |  |
 | `c2-l033` | &emsp;*meijoas.* |  |
-| `c2-l034` | Caraſugaxira. *Iuntura dos oſſos das pernas tra* |  |
+| `c2-l034` | Caraſugaxira. *Iuntura dos oßos das pernas tra* |  |
 | `c2-l035` | &emsp;*zeiras do caualo.* |  |
 | `c2-l036` | Caraſuguchinaua. *Cobra preta.* |  |
 | `c2-l037` | Caraſumi. *Tinta da China. ¶ Item, Per-* |  |

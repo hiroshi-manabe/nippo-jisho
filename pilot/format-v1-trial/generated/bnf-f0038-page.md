@@ -16,7 +16,7 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c1-l001` | Aſari, ru, atta. *Buſcarem os paſſaros ſeu co-* |  |
 | `c1-l002` | &emsp;*mer eſgarauatando com os pès, ou com o bico.* |  |
-| `c1-l003` | &emsp;*¶ Vt,* Mizzutorino aſaru. *Os paſſaros* |  |
+| `c1-l003` | &emsp;*¶ Vt,* Mizzutorino aſaru. *Os paßaros* |  |
 | `c1-l004` | &emsp;*dagoa buſcão ſeu comer. Não ſe dira dos paſ* |  |
 | `c1-l005` | &emsp;*ſarinhos, mas das galinhas,* Qijis, *&c.* |  |
 | `c1-l006` | &emsp;*¶ Item, Permet. No* Ximo *reuoluer com* |  |
@@ -40,7 +40,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l024` | Aſazzuqe. *Vt,* Aſazzuqeno cǒnomono. |  |
 | `c1-l025` | &emsp;*Rabão, ou melão, ou outra couſa ſalgada pe-* |  |
 | `c1-l026` | &emsp;*ra logo ſe comer.* |  |
-| `c1-l027` | Aſobaſare, uru, eta. *Fazer peſſoa nobre, ou* |  |
+| `c1-l027` | Aſobaſare, uru, eta. *Fazer peßoa nobre, ou* |  |
 | `c1-l028` | &emsp;*honrrada algũa couſa, ler, eſcreuer, a tirar com* |  |
 | `c1-l029` | &emsp;*arco, &c. Vt,* Teuo aſobaſaruru. *Eſ-* |  |
 | `c1-l030` | &emsp;*creuer. ¶* Yumiuo aſobaſaruru. *Tirar* |  |
@@ -98,7 +98,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2b-l002` | &emsp;zuru. *Vingarſe dos males que lhe fizeraõ.* |  |
 | `c2b-l003` | &emsp;*¶* Fitoni atauo naſu. *Fazer mal, ou dano a* |  |
 | `c2b-l004` | &emsp;*outro. ¶* Atano catagi. *Imigo prejudicial.* |  |
-| `c2b-l005` | Ata aburi. *O aſſar carne, &c. ẽ fogo muito* |  |
+| `c2b-l005` | Ata aburi. *O aßar carne, &c. ẽ fogo muito* |  |
 | `c2b-l006` | &emsp;*forte.* |  |
 | `c2b-l007` | Atabara. *Dor repentina da barriga. ¶* A- |  |
 | `c2b-l008` | &emsp;tabarauo tatçuru. *Agastarſe de repente.* |  |
@@ -109,7 +109,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2b-l013` | &emsp;*forte, mas pouco a pouco aquentai.* |  |
 | `c2b-l014` | Atacataqi. *Inimigo mao, & prejudicial.* |  |
 | `c2b-l015` | Atacamo. *Palaura pera dizer algũa compa-* |  |
-| `c2b-l016` | &emsp;*raçaõ, ou ſemelhãça, Vt, aſſi como, &c. ¶* A- |  |
+| `c2b-l016` | &emsp;*raçaõ, ou ſemelhãça, Vt, aßi como, &c. ¶* A- |  |
 | `c2b-l017` | &emsp;tacamo deichǔno fachiſuno gotoxi. *He* |  |
 | `c2b-l018` | &emsp;*como dizer, que a flor do golfaõ naçe no meo* |  |
 | `c2b-l019` | &emsp;*da lama.* |  |
@@ -122,7 +122,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2b-l026` | &emsp;tamauo futte iyagaru. *Dando à cabeça, recu-* |  |
 | `c2b-l027` | &emsp;*ſar algũa couſa, ou dizer que naõ.* |  |
 | `c2b-l028` | Atamagachina fito. *Homẽ algũ tanto preſun-* |  |
-| `c2b-l029` | &emsp;*tuoſo, & atreuido aſſi ẽ fazer como dizer al-* |  |
+| `c2b-l029` | &emsp;*tuoſo, & atreuido aßi ẽ fazer como dizer al-* |  |
 | `c2b-l030` | &emsp;*guã couſa por ſua cabeça.* |  |
 | `c2b-l031` | Ataqe. *Nome de embarcações grandes.* |  |
 | `c2b-l032` | Atara. i. Voximu bexi. *Couſa de q̃ tenho doo,* |  |

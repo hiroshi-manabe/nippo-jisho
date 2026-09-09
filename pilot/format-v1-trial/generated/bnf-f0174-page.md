@@ -58,7 +58,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l042` | &emsp;*gar. Vt,* Vma ippiqi faſamu fodono fi- |  |
 | `c1-l043` | &emsp;tode gozaru. *He homem baſtante pera ter* |  |
 | `c1-l044` | &emsp;*hum cauallo, ou caualgar em cauallo. ¶* Fa- |  |
-| `c1-l045` | &emsp;nauo fasǒde iru. *Eſtar diſſimulado ſem re-* |  |
+| `c1-l045` | &emsp;nauo fasǒde iru. *Eſtar dißimulado ſem re-* |  |
 | `c1-l046` | &emsp;*ſponder, nem ter deuer com o que lhe perguntão.* |  |
 | `c1-l047` | &emsp;¶ Axiuo fasǒde fitouo itamuru. *Dar tor-* |  |
 

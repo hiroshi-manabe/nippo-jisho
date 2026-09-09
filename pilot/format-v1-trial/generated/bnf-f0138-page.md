@@ -18,7 +18,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l002` | &emsp;*cido dalgũa parte.* |  |
 | `c1-l003` | Cudariſaca. *Decida, ou, ladeira abaxo.* |  |
 | `c1-l004` | Cudari tçuqi, u, uita. *Decendo chegar.* |  |
-| `c1-l005` | Cudaſare, uru, eta. *Dar peſſoa alta abaixa.* |  |
+| `c1-l005` | Cudaſare, uru, eta. *Dar peßoa alta abaixa.* |  |
 | `c1-l006` | &emsp;*¶ Item ſignifica comer, & beber falando* |  |
 | `c1-l007` | &emsp;*deſi, com reſpeito dalguem.* |  |
 | `c1-l008` | Cudaxi. *Purga. ¶* Cudaxiuo tçucǒ. *Tomar* |  |
@@ -91,7 +91,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l017` | &emsp;*tencia. Vt,* Nanguiǒ cuguiǒuo xinogu. |  |
 | `c2-l018` | &emsp;*Paſſar fazendo grande penitencia, ou ſofrendo* |  |
 | `c2-l019` | &emsp;*grandes trabalhos, & aflições pella ſaluação.* |  |
-| `c2-l020` | Cuguiǒ. Qimi qimi. *Os que aſſiſtem junto* |  |
+| `c2-l020` | Cuguiǒ. Qimi qimi. *Os que aßiſtem junto* |  |
 | `c2-l021` | &emsp;*do* Dairi*, & ſão ſeus conſelheiros.* |  |
 | `c2-l022` | Cuguiǒ tenjǒbito. *Os grandes da corte do* |  |
 | `c2-l023` | &emsp;*Rei, ou que tem entrada no paço.* |  |

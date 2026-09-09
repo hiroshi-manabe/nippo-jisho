@@ -92,7 +92,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l017` | Chigù. Ai, uǒ. *Vnião, ou amizade. ¶* Fi- |  |
 | `c2-l018` | &emsp;toto chigù ſuru. *Vnirſe, ou fazerſe ami-* |  |
 | `c2-l019` | &emsp;*go com alguem.* |  |
-| `c2-l020` | Chiguan. Vorocanari, catacunaxi. *Peſſoa* |  |
+| `c2-l020` | Chiguan. Vorocanari, catacunaxi. *Peßoa* |  |
 | `c2-l021` | &emsp;*neſcia, & ignorante. Vt,* Chiguanno can |  |
 | `c2-l022` | &emsp;*Idem.* |  |
 | `c2-l023` | Chiguchite, l, chiguchita. *Verbo defect.* |  |

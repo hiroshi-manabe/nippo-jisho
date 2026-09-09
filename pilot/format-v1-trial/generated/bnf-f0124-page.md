@@ -27,7 +27,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l011` | Comabuye. *Certa frauta.* |  |
 | `c1-l012` | Comacana. *Couſa miuda.* |  |
 | `c1-l013` | Comacani. *Adu. Miudamente.* |  |
-| `c1-l014` | Comadori. *Hum paſſarinho aſſi chamado.* |  |
+| `c1-l014` | Comadori. *Hum paſſarinho aßi chamado.* |  |
 | `c1-l015` | Comagoma. *Adu. Miudamente.* |  |
 | `c1-l016` | Comagomato. I*dem.* |  |
 | `c1-l017` | Comagomaxij. *Couſa muito miuda.* |  |
@@ -53,7 +53,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l037` | &emsp;*mantimentos na fortaleza. ¶* Cuguiga |  |
 | `c1-l038` | &emsp;vorecomatta. *O prègo quebrando ſe ficou* |  |
 | `c1-l039` | &emsp;*metido dentro parte delle.* |  |
-| `c1-l040` | Comatçunagui. *Erua aſſi chamada.* |  |
+| `c1-l040` | Comatçunagui. *Erua aßi chamada.* |  |
 | `c1-l041` | Comazarai. *Hum instrumento de pao com dẽ-* |  |
 | `c1-l042` | &emsp;*tes de ferro como grade pera tirar as eruas, ou* |  |
 | `c1-l043` | &emsp;*apanhar, & afastar o eſterco, &c. No Xi* |  |
@@ -119,7 +119,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l043` | &emsp;*Tomaſe por couſa leue. ¶* Fenji yaſuqi co- |  |
 | `c2-l044` | &emsp;coroua cômôyorimo caruxi. *O coração* |  |
 | `c2-l045` | &emsp;*mudauel, & inconſtante, he mais leue que as* |  |
-| `c2-l046` | &emsp;*penas daquelle paſſaro. S.* |  |
+| `c2-l046` | &emsp;*penas daquelle paßaro. S.* |  |
 | `c2-l047` | Como. *Esteira de palha groſſa, & mal feita.* |  |
 | `c2-l048` | Como. *Hũa erua dagoa doçe.* |  |
 

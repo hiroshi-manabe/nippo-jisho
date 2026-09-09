@@ -96,7 +96,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l022` | &emsp;*carne muito alua.* |  |
 | `c2-l023` | Facufo. Fiacuno ayumi. *Cem paſſos. Vt,* |  |
 | `c2-l024` | &emsp;Teqiuo vôcoto facufoni ſuguizu. *O ir a* |  |
-| `c2-l025` | &emsp;*pos o inimigo não ſeja mais de cem paſſos.* |  |
+| `c2-l025` | &emsp;*pos o inimigo não ſeja mais de cem paßos.* |  |
 | `c2-l026` | Facufu. Xiroi nuno. *Pano de linho de Iapão* |  |
 | `c2-l027` | &emsp;*curado ao ſol.* |  |
 | `c2-l028` | Facufucu. Vſui ſaiuai. i, Binbôna coto. *Po-* |  |

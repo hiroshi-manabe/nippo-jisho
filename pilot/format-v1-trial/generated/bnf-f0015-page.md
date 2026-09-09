@@ -17,16 +17,16 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l001` | &emsp;Aburico. *Grelhas. ¶ Item, Hum instru-* |  |
 | `c1-l002` | &emsp;*mento tecido de canas em q̃ torrão* cha*, &* |  |
 | `c1-l003` | &emsp;*outras couſas.* |  |
-| `c1-l004` | Aburicobu. *Certos limos do mar largos aſſa-* |  |
+| `c1-l004` | Aburicobu. *Certos limos do mar largos aßa-* |  |
 | `c1-l005` | &emsp;*dos.* B*.* |  |
-| `c1-l006` | Aburicogaxi, ſu, aita. *Torrar aſſando, l,* |  |
-| `c1-l007` | &emsp;*aſſar de maneira q̃ fique eſturrado o q̃ ſe aſſa.* |  |
+| `c1-l006` | Aburicogaxi, ſu, aita. *Torrar aßando, l,* |  |
+| `c1-l007` | &emsp;*aßar de maneira q̃ fique eſturrado o q̃ ſe aßa.* |  |
 | `c1-l008` | Aburifaxiyagaxi, ſu, aita. *Deſecar ao* |  |
 | `c1-l009` | &emsp;*fogo como,* Cha *meſinhas, &c. ou enxugar* |  |
 | `c1-l010` | Aburifoxi, ſu, oita. *Enxugar algũa couſa* |  |
 | `c1-l011` | &emsp;*ao fogo.* |  |
-| `c1-l012` | Aburimochi. *Bolos darroz aſſados.* |  |
-| `c1-l013` | Aburimono. *Couſa aſſada.* |  |
+| `c1-l012` | Aburimochi. *Bolos darroz aßados.* |  |
+| `c1-l013` | Aburimono. *Couſa aßada.* |  |
 
 ## Column 1 internal section heading
 
@@ -68,7 +68,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l042` | &emsp;*¶* Acano fadacani naru. *Ficar nu.* |  |
 | `c1-l043` | &emsp;*¶ Item, Per met. Ficar nu, & deſpojado* |  |
 | `c1-l044` | &emsp;*do fato, &c.* |  |
-| `c1-l045` | Acafadacana. *Peſſoa nua. ¶ Per met.* |  |
+| `c1-l045` | Acafadacana. *Peßoa nua. ¶ Per met.* |  |
 | `c1-l046` | Acafadacani naſareta. *Tornarão lhe* |  |
 
 ## Column 2 running header and printed page number
@@ -98,7 +98,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l015` | Acagaxira. *Cabellos vermelhos, l, ruiuos da* |  |
 | `c2-l016` | &emsp;*cabeça. ¶ Itẽ, Huns rabos de vacas ver-* |  |
 | `c2-l017` | &emsp;*melhos, que chamão comballas que poem na* |  |
-| `c2-l018` | &emsp;*cimeira do capacete. ¶ Item, Hum paſſa-* |  |
+| `c2-l018` | &emsp;*cimeira do capacete. ¶ Item, Hum paßa-* |  |
 | `c2-l019` | &emsp;*ro dagoa.* |  |
 | `c2-l020` | Acagi. *Campo vermelho empeças. Vt* Aca- |  |
 | `c2-l021` | &emsp;gino nixiqi. *Peça como brocadilho que* |  |

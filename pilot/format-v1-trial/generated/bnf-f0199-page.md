@@ -16,13 +16,13 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c1-l001` | &emsp;fiſſuino cotouari. *Acerca dos que florecẽ,* |  |
 | `c1-l002` | &emsp;*& proſperão mas logo desfalecem, ou deſcaẽ.* |  |
-| `c1-l003` | Fiſucaxina. *Peſſoa colerica, &riſpida.* |  |
-| `c1-l004` | Fiſui. *Hum paſſarinho aſſi chamado de varias* |  |
+| `c1-l003` | Fiſucaxina. *Peßoa colerica, &riſpida.* |  |
+| `c1-l004` | Fiſui. *Hum paßarinho aßi chamado de varias* |  |
 | `c1-l005` | &emsp;*cores.* |  |
 | `c1-l006` | Fiſuino canzaxi. *Certo toucado, & ornato da* |  |
 | `c1-l007` | &emsp;*cabeça, ou cabelos de molheres nobres.* |  |
 | `c1-l008` | Fita. i Narucono tagvi. *Certa taramela pe* |  |
-| `c1-l009` | &emsp;*ra eſpantar os paſſaros, & outros animaes das* |  |
+| `c1-l009` | &emsp;*ra eſpantar os paßaros, & outros animaes das* |  |
 | `c1-l010` | &emsp;*ſearas.* |  |
 | `c1-l011` | Fitaca. *Francelho lagarteiro.* |  |
 | `c1-l012` | Fitacabuto. *Soldados armados.* |  |
@@ -35,13 +35,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l019` | &emsp;*testa ſobre algum veo que amarrão na cabeça* |  |
 | `c1-l020` | &emsp;*pera nelle tomarem as frechas.* |  |
 | `c1-l021` | Fitajeme. *O atormentar, ou por em aperto ſem* |  |
-| `c1-l022` | &emsp;*ceſſar. Vt,* Xirouo fitajemeni xemuru. |  |
+| `c1-l022` | &emsp;*ceßar. Vt,* Xirouo fitajemeni xemuru. |  |
 | `c1-l023` | &emsp;*Ter de cerco a fortaleza combatendoa rijamen* |  |
-| `c1-l024` | &emsp;*te ſem ceſſar.* |  |
+| `c1-l024` | &emsp;*te ſem ceßar.* |  |
 | `c1-l025` | Fitamono. *Adu. Muito, & continuada-* |  |
 | `c1-l026` | &emsp;*mente. Vt,* Soreni yotte Chriſtão fita- |  |
 | `c1-l027` | &emsp;mononi fanjǒ tçucamatçuru. Mon*. Por* |  |
-| `c1-l028` | &emsp;*iſſo a Chriſtãodade não fazia ſe não crecer, &* |  |
+| `c1-l028` | &emsp;*ißo a Chriſtãodade não fazia ſe não crecer, &* |  |
 | `c1-l029` | &emsp;*dilatarſe.* |  |
 | `c1-l030` | Fitan. Canaximi, naguequ. *Entristecerſe,* |  |
 | `c1-l031` | &emsp;*& afligirſe.* |  |

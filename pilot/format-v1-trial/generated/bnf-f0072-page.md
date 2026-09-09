@@ -60,7 +60,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l044` | &emsp;*go não poder reter o comer.* |  |
 | `c1-l045` | Cacu. *Taboinha quadrada ſobre que poem o* |  |
 | `c1-l046` | &emsp;Sacazzuqi. |  |
-| `c1-l047` | Cacu. *Adu. Aſſi, ou desta maneira.* |  |
+| `c1-l047` | Cacu. *Adu. Aßi, ou desta maneira.* |  |
 
 ## Column 2 running header
 
@@ -112,7 +112,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l038` | Cacunogotocuno. *Couſa ſemelhante, ou tal.* |  |
 | `c2-l039` | &emsp;*Vt,* Cacunogotocuno teitaracu. *Eſpe* |  |
 | `c2-l040` | &emsp;*ctaculo deſta maneira, ou tal.* |  |
-| `c2-l041` | Cacunogotocuni. *Adu. Aſſi, ou desta* |  |
+| `c2-l041` | Cacunogotocuni. *Adu. Aßi, ou desta* |  |
 | `c2-l042` | &emsp;*maneira.* |  |
 | `c2-l043` | Cacuno voxiqi. *Bandeja de pao quadrada,* |  |
 | `c2-l044` | &emsp;*ou de cantos com pees, & ſem elles.* |  |

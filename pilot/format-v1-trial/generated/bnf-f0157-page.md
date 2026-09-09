@@ -46,7 +46,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l030` | &emsp;Fotoque *que temperando a luz, & reſplandor* |  |
 | `c1-l031` | &emsp;*de ſua ſubstancia ſe miſturou com o corpo immũ* |  |
 | `c1-l032` | &emsp;*do dos homens: o q̃ ſe pode acomodar a Chriſ-* |  |
-| `c1-l033` | &emsp;*to noſſo ſenhor na encarnação.* |  |
+| `c1-l033` | &emsp;*to noßo ſenhor na encarnação.* |  |
 | `c1-l034` | Dogiǒ. *Enterrar ſe viuo debaixo da terra pe-* |  |
 | `c1-l035` | &emsp;*ra alli morrer como coſtumão alguns bonzos.* |  |
 | `c1-l036` | Dogiǒ. *Nome de hũ peixinho que ha nos char-* |  |

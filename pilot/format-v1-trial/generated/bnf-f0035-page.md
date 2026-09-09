@@ -18,17 +18,17 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l002` | &emsp;*uada. ¶ Item, Couſa manifesta, & ſabida.* |  |
 | `c1-l003` | Aratani. *Adu. De nouo. ¶ Item, Mani-* |  |
 | `c1-l004` | &emsp;*festamente.* |  |
-| `c1-l005` | Aratçuchi. *Terra groſſeira, ou miſturada cõ* |  |
+| `c1-l005` | Aratçuchi. *Terra großeira, ou miſturada cõ* |  |
 | `c1-l006` | &emsp;*pedras antes de a concertarem pera barrar.* |  |
 | `c1-l007` | Arate. *Gente de refreſco que ſocede à canſada* |  |
 | `c1-l008` | &emsp;*na guerra, ou em outras obras & trabalho.* |  |
 | `c1-l009` | &emsp;*¶* Arateuo ire cayuru. *Meter gente de* |  |
 | `c1-l010` | &emsp;*refreſco.* |  |
 | `c1-l011` | Aratengu. *Diabo cruel, & que faz mal.* |  |
-| `c1-l012` | Arato. P*edra groſſa de amolar em que pri-* |  |
+| `c1-l012` | Arato. P*edra großa de amolar em que pri-* |  |
 | `c1-l013` | &emsp;*meiro a fião aferramenta peralhe dar de pois* |  |
 | `c1-l014` | &emsp;*ofio em outra mais fina.* |  |
-| `c1-l015` | Aratori. *Paſſaro brauo, que não esta ainda* |  |
+| `c1-l015` | Aratori. *Paßaro brauo, que não esta ainda* |  |
 | `c1-l016` | &emsp;*domestico.* |  |
 | `c1-l017` | Arauana, l, araua naru. *Couſa clara, &* |  |
 | `c1-l018` | &emsp;*deſcuberta.* |  |

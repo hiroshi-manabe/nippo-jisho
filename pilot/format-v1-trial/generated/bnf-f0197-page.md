@@ -22,7 +22,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l006` | &emsp;Toſ. *Arremete ſem temor meneando a ala-* |  |
 | `c1-l007` | &emsp;*barda, & dando voltas com ella.* |  |
 | `c1-l008` | Firarifirarito. *Adu. Modo de ſe ver, ou deſapa-* |  |
-| `c1-l009` | &emsp;*recer a couſa de preſſa como abano que ſe arre-* |  |
+| `c1-l009` | &emsp;*recer a couſa de preßa como abano que ſe arre-* |  |
 | `c1-l010` | &emsp;*meſſa, &c.* |  |
 | `c1-l011` | Firata, l, firada. *Embarcação larga, & bai* |  |
 | `c1-l012` | &emsp;*xa como Fune do rio.* |  |
@@ -33,13 +33,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l017` | &emsp;*douro largo. ¶ Item, O dar de pancha cõ* |  |
 | `c1-l018` | &emsp;*a Catana.* |  |
 | `c1-l019` | Firazaya. *Bainha larga.* |  |
-| `c1-l020` | Firazzuqe. *O chegar a embarcação atraueſſa-* |  |
+| `c1-l020` | Firazzuqe. *O chegar a embarcação atraueßa-* |  |
 | `c1-l021` | &emsp;*da. Vt,* Firazzuqeni xeyo. *Chegai* |  |
 | `c1-l022` | &emsp;*perto a Fune de ilharga.* |  |
 | `c1-l023` | Firazzuqeno vobi. *Cinto, ou cingidouro de* |  |
 | `c1-l024` | &emsp;*molher muito largo.* |  |
 | `c1-l025` | Firazzutçumi. *Maneira de lençol de linho ca* |  |
-| `c1-l026` | &emsp;*nemo groſſo pera emburilhar as camas, &c.* |  |
+| `c1-l026` | &emsp;*nemo großo pera emburilhar as camas, &c.* |  |
 | `c1-l027` | Firefuxi, ſu, uita. *Deitarſe debruços.* |  |
 | `c1-l028` | Firei. Reini arazu. *Sem deuida ceremonia,* |  |
 | `c1-l029` | &emsp;*ou corteſia. Vt,* Xinua fireiuo vqezu. |  |
@@ -54,7 +54,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l038` | &emsp;*mem baixo, ou de eſpiritus baixos.* |  |
 | `c1-l039` | Firô. Firaqi arauaſu. i, Xujinno mayeni mo |  |
 | `c1-l040` | &emsp;nouo mǒſu. *Falar, ou propor ao ſenhor, ou* |  |
-| `c1-l041` | &emsp;*apeſſoa nobre. ¶* Firôſuru. *Idem.* |  |
+| `c1-l041` | &emsp;*apeßoa nobre. ¶* Firôſuru. *Idem.* |  |
 | `c1-l042` | Firǒ. Tçucare, itazzugauaxij. *Canſaço.* |  |
 | `c1-l043` | &emsp;*¶* Firǒxita. *Eſtou canſado, & desfeito.* |  |
 | `c1-l044` | &emsp;*¶. Item, Permet. Se diz de hum homem que* |  |
@@ -106,7 +106,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l032` | Firǒjin. *Pobre, & deſfeito de fato, alfa-* |  |
 | `c2-l033` | &emsp;*yas, &c.* |  |
 | `c2-l034` | Firôjǒ. i, Atejǒ, l, tçuqejǒ. *Carta que* |  |
-| `c2-l035` | &emsp;*vai encaminhada a peſſoa que hade falar, apreſẽ* |  |
+| `c2-l035` | &emsp;*vai encaminhada a peßoa que hade falar, apreſẽ* |  |
 | `c2-l036` | &emsp;*tar eſta carta, &c. posto q̃ por reuerencia não* |  |
 | `c2-l037` | &emsp;*vai direitamente dirigida ao ſenhor, ou a peſ-* |  |
 | `c2-l038` | &emsp;*ſoa principal.* |  |

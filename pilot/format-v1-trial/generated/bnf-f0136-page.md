@@ -45,11 +45,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l029` | Cuchibaxiri, ru, itta. *Falar muito, & deſ* |  |
 | `c1-l030` | &emsp;*ordenadamente o indemoninhado. ¶ Itẽ, Fa-* |  |
 | `c1-l031` | &emsp;*lar hum ſem ordem, & o que não deue.* |  |
-| `c1-l032` | Cuchibaya. *O que fala depreſſa naturalmẽte.* |  |
+| `c1-l032` | Cuchibaya. *O que fala depreßa naturalmẽte.* |  |
 | `c1-l033` | Cuchibayai. *Idem.* |  |
 | `c1-l034` | Cuchibayana. *O que fala muito depreſſa.* |  |
 | `c1-l035` | Cuchibayani. *Adu. Vt,* Cuchibayani |  |
-| `c1-l036` | &emsp;monouo yù. *Falar depreſſa, & expedi-* |  |
+| `c1-l036` | &emsp;monouo yù. *Falar depreßa, & expedi-* |  |
 | `c1-l037` | &emsp;*tamente.* |  |
 | `c1-l038` | Cuchibiǒxi. *Compaço, ou modo compaçado* |  |
 | `c1-l039` | &emsp;*no falar.* |  |
@@ -95,18 +95,18 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l020` | &emsp;*voz. Vt,* Atarino xu maſsô maſsoto cu- |  |
 | `c2-l021` | &emsp;chiguchini mǒxita. Mon*. Os que eſta-* |  |
 | `c2-l022` | &emsp;*uão alì perto todos cada hum por ſi diſſerão que* |  |
-| `c2-l023` | &emsp;*aſſi era.* |  |
+| `c2-l023` | &emsp;*aßi era.* |  |
 | `c2-l024` | Cuchiguſuri. *Poluara de poluarinho, que ſe po* |  |
 | `c2-l025` | &emsp;*em na boca da eſcoua.* |  |
-| `c2-l026` | Cuchimamena. *Peſſoa amiga de falar muito,* |  |
+| `c2-l026` | Cuchimamena. *Peßoa amiga de falar muito,* |  |
 | `c2-l027` | &emsp;*ou que ſe naõ pode ter que naõ fale.* |  |
 | `c2-l028` | Cuchimane. *O arremedar o falar de alguem.* |  |
 | `c2-l029` | &emsp;*Vt,* fitono cuchi maneuo ſuru. |  |
-| `c2-l030` | Cuchi naguſami. *O falar por paſſa tempo. Vt,* |  |
+| `c2-l030` | Cuchi naguſami. *O falar por paßa tempo. Vt,* |  |
 | `c2-l031` | &emsp;cuchi naguſamini yù. *Falar por recreação* |  |
-| `c2-l032` | &emsp;*ſem neceſſidade.* |  |
+| `c2-l032` | &emsp;*ſem neceßidade.* |  |
 | `c2-l033` | Cuchinaua. *Cobra.* |  |
-| `c2-l034` | Cuchinaxi. *Hũa fruita aſſi chamada que ſer-* |  |
+| `c2-l034` | Cuchinaxi. *Hũa fruita aßi chamada que ſer-* |  |
 | `c2-l035` | &emsp;*ue de mezinha. ¶ Item, A meſma aruore* |  |
 | `c2-l036` | &emsp;*zinha que dà eſta fruita. ¶* Cuchinaxino |  |
 | `c2-l037` | &emsp;fana. *A flor deſta aruorezinha.* |  |
@@ -118,7 +118,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l043` | &emsp;*Falar muito, ou palrrar. Mas não ſe uſa em* |  |
 | `c2-l044` | &emsp;*todos os tempos.* |  |
 | `c2-l045` | Cuchiuaqi. *Cantos da boca.* |  |
-| `c2-l046` | Cuchiuomoi. *Peſſoa peſada, & curta no fa-* |  |
+| `c2-l046` | Cuchiuomoi. *Peßoa peſada, & curta no fa-* |  |
 | `c2-l047` | &emsp;*lar, ou q̃ fala pouco. Vt,* Cuchivomoi fito. |  |
 
 ## Catchword

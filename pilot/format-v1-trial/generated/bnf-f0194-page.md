@@ -38,7 +38,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l022` | Fiqimuſubi, u, unda. *Atar hũa couſa com* |  |
 | `c1-l023` | &emsp;*outra. ¶* Yuoriuo fiqimuſubu. *Fazer* |  |
 | `c1-l024` | &emsp;*choupana.* |  |
-| `c1-l025` | Fiqin. Tobu tori. *Paſſaro que voa.* |  |
+| `c1-l025` | Fiqin. Tobu tori. *Paßaro que voa.* |  |
 | `c1-l026` | Fiqinabiqe, uru, eta. *Dobrar, ou inclinar.* |  |
 | `c1-l027` | &emsp;*¶* Cocorouo fiqinabiquru. *Dobrar, &* |  |
 | `c1-l028` | &emsp;*mouer o coração.* |  |
@@ -80,7 +80,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l006` | Fiqio. i, Dǒrinai coto. *Sem rezão, ou ſem* |  |
 | `c2-l007` | &emsp;*justiça.* |  |
 | `c2-l008` | Fiqiô. *Vide.* Fiqeô. |  |
-| `c2-l009` | Fiqiocu. *Paſſos de garganta, ou quebros da* |  |
+| `c2-l009` | Fiqiocu. *Paßos de garganta, ou quebros da* |  |
 | `c2-l010` | &emsp;*voz particulares, ou certas delicadezas como* |  |
 | `c2-l011` | &emsp;*fanteſias no tanger. ¶* Fiqiocuuo tçucu- |  |
 | `c2-l012` | &emsp;ſu. *Eſmerarſe na arte de cantar, ou tanger* |  |
@@ -108,7 +108,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l034` | &emsp;*ou outra couſa.* |  |
 | `c2-l035` | Fiqiſute, tçuru, eta. *Arrancando botar* |  |
 | `c2-l036` | &emsp;*fora.* |  |
-| `c2-l037` | Fiqiſuye, uru, eta. *Puxando por, ou aſſen-* |  |
+| `c2-l037` | Fiqiſuye, uru, eta. *Puxando por, ou aßen-* |  |
 | `c2-l038` | &emsp;*tar a alguem como preſo, ou malfeitor em algũ* |  |
 | `c2-l039` | &emsp;*lugar pera o matar, &c.* |  |
 | `c2-l040` | Fiqitachi, u, atta. *Por ſe em feição de ſe aco* |  |

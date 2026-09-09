@@ -14,7 +14,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | &emsp;cujǒ ſuru. *Manifeſtar, ou cõfeſſar aber-* |  |
+| `c1-l001` | &emsp;cujǒ ſuru. *Manifeſtar, ou cõfeßar aber-* |  |
 | `c1-l002` | &emsp;*tamente.* |  |
 | `c1-l003` | Facujù. *Cem animaes.* |  |
 | `c1-l004` | Facuju. Cayano qi. *Certa aruore que tem as fo-* |  |
@@ -35,7 +35,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l019` | Facuro. Xiraſagui. *Garça branca.* |  |
 | `c1-l020` | Facuro. Xiratçuyu. *Orualho.* |  |
 | `c1-l021` | Facurǒ. Fiacuno xinrǒ. *Muitos trabalhos.* |  |
-| `c1-l022` | Facurǒ. i, mozu. *Hũ paſſarinho que tem o bico* |  |
+| `c1-l022` | Facurǒ. i, mozu. *Hũ paßarinho que tem o bico* |  |
 | `c1-l023` | &emsp;*como de falcão. S. ¶* Facuro nhôjet. |  |
 | `c1-l024` | &emsp;i, Mozuno ſayezzuru coto. *O cantar eſte* |  |
 | `c1-l025` | &emsp;*paſſarinho.* |  |
@@ -109,7 +109,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l029` | Fadacatabira. *Camiſa ao modo de Iapão aber* |  |
 | `c2-l030` | &emsp;*ta por diante branca, ou de outras cores.* |  |
 | `c2-l031` | Fadaca vma. *Caualo em oſſo. ¶* Fadaca |  |
-| `c2-l032` | &emsp;vmani vchinoru. *Caualgar no caualo em oſſo.* |  |
+| `c2-l032` | &emsp;vmani vchinoru. *Caualgar no caualo em oßo.* |  |
 | `c2-l033` | Fadagui. *Vestido junto à carne que ordinaria-* |  |
 | `c2-l034` | &emsp;*mente he Auaxe.* |  |
 | `c2-l035` | Fadaqe. *Eſpaço entre o arco, & corda.* |  |

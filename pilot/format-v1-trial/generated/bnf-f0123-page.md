@@ -38,7 +38,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l022` | Coixiya. *Interjeição do q̃ ama, ou tem ſauda-* |  |
 | `c1-l024` | Coiye, l, xôqe. *Caſa pequena.* |  |
 | `c1-l025` | Coiyoxe, ſuru, eta. *Pedindo a couſa faze-* |  |
-| `c1-l026` | &emsp;*la chegar, ou trazer aſſi.* |  |
+| `c1-l026` | &emsp;*la chegar, ou trazer aßi.* |  |
 | `c1-l027` | Coiyuruxi, ſu, uita. *Auer perdão pera al-* |  |
 | `c1-l028` | &emsp;*guem, ou liuralo intercedendo por elle.* |  |
 | `c1-l029` | Cǒjei. i. Atçui naſaqe. *Grande amor, &* |  |
@@ -106,7 +106,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l026` | &emsp;*outro tempo ao diante. No Cami ſe diz* Go*-* |  |
 | `c2-l027` | &emsp;nichi. |  |
 | `c2-l028` | Cǒjit. *Bom dia.* |  |
-| `c2-l029` | Cojita. *Lingoèta q̃ tẽ os paſſaros de baixo da* |  |
+| `c2-l029` | Cojita. *Lingoèta q̃ tẽ os paßaros de baixo da* |  |
 | `c2-l030` | &emsp;*lingua commũa. ¶ Item, Hũa como lin-* |  |
 | `c2-l031` | &emsp;*guaſinha que naçe por doença de baixo da lin-* |  |
 | `c2-l032` | &emsp;*goa dos homẽs.* |  |

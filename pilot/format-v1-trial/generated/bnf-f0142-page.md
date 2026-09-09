@@ -18,7 +18,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l002` | Cunijichi. *Refens que ſe dão da parte dalgũ* |  |
 | `c1-l003` | &emsp;*reino. Vide* Xichi. |  |
 | `c1-l004` | Cunimoto. *Patria, ou reino onde hum naceo,* |  |
-| `c1-l005` | &emsp;*ou reino que hum tem, ou poſſue.* |  |
+| `c1-l005` | &emsp;*ou reino que hum tem, ou poßue.* |  |
 | `c1-l006` | Cuninami. *Comum custume q̃ corre no reino.* |  |
 | `c1-l007` | Cunin. *Official que manda, ou ordena aos ou* |  |
 | `c1-l008` | &emsp;*tros, o que hão de fazer, &c.* |  |
@@ -55,8 +55,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l039` | &emsp;nôuo yǔ fito. *Homem que diz muitas* |  |
 | `c1-l040` | &emsp;*couſas, ou dà muitas razões, & eſcuſas não* |  |
 | `c1-l041` | &emsp;*ſe ſatisfazendo. ¶* Cunôni voyobanu. |  |
-| `c1-l042` | &emsp;*Não he neceſſario mais palauras, &c.* |  |
-| `c1-l043` | Cunogui, l, Cunugui. *Hũa aruore aſſi cha-* |  |
+| `c1-l042` | &emsp;*Não he neceßario mais palauras, &c.* |  |
+| `c1-l043` | Cunogui, l, Cunugui. *Hũa aruore aßi cha-* |  |
 | `c1-l044` | &emsp;*mada do mato boa pera fazer caruão.* |  |
 | `c1-l045` | Cunpen. Qimino fotori. *O ſeruir de perto* |  |
 | `c1-l046` | &emsp;*ao ſenhor.* |  |

@@ -30,7 +30,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l014` | &emsp;*toma, &c. Si dana dizſe* Qinmot. *Se não* |  |
 | `c1-l015` | &emsp;*dana,* Cǒmot. |  |
 | `c1-l016` | Comozzutçumi. *Couſa enfardelada em es-* |  |
-| `c1-l017` | &emsp;*teira groſſa.* |  |
+| `c1-l017` | &emsp;*teira großa.* |  |
 | `c1-l018` | Comugui. Xôbacu. T*rigo.* |  |
 | `c1-l019` | Comuguino co. *Farinha de trigo.* |  |
 | `c1-l020` | Comuguiuara. *Palha de trigo.* |  |
@@ -54,8 +54,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l038` | Conaxi. *Mortificação, ou aperto. ¶* Co- |  |
 | `c1-l039` | &emsp;toba gonaxi. *O mortificar de palaura.* |  |
 | `c1-l040` | Conaxi, ſu, aita. *Apertar, ou mortificar.* |  |
-| `c1-l041` | &emsp;¶ Tçuchiuo conaſu. *Amaſſar barro.* |  |
-| `c1-l042` | &emsp;Muguino co uo conaſu. *Amaſſar pão.* |  |
+| `c1-l041` | &emsp;¶ Tçuchiuo conaſu. *Amaßar barro.* |  |
+| `c1-l042` | &emsp;Muguino co uo conaſu. *Amaßar pão.* |  |
 | `c1-l043` | Conban. Qeǒnocure. *Esta tarde deſte dia.* |  |
 | `c1-l044` | Conbǒ. Nengoroni nozomu. *Pedir perdão,* |  |
 | `c1-l045` | &emsp;*ou miſericordia ſogeitando ſe.* |  |
@@ -87,13 +87,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l007` | Condei. Coganeno dei. *Ouro moido feito co-* |  |
 | `c2-l008` | &emsp;*mo tinta pera dourar.* |  *(midade.* |
 | `c2-l009` | Cõdô. Majiuari vonajù ſu. *Vnião, ou cõfor-* |  |
-| `c2-l010` | Condǒ. *Certa capella, ou ermida aſſi chamada.* |  |
+| `c2-l010` | Condǒ. *Certa capella, ou ermida aßi chamada.* |  |
 | `c2-l011` | Condo. Imano tabi. *Esta vez. ¶ Item,* |  |
 | `c2-l012` | &emsp;*Deſpois, ou ao diante.* |  |
 | `c2-l013` | Cone, uru, eta. *Amaſſar como barro, pão,* |  |
-| `c2-l014` | &emsp;*&c. Vt,* Tçuchiuo conuru. *Amaſſar barro.* |  |
+| `c2-l014` | &emsp;*&c. Vt,* Tçuchiuo conuru. *Amaßar barro.* |  |
 | `c2-l015` | Cǒnen. Yuqu toxi. *Annos, ou idade q̃ vai* |  |
-| `c2-l016` | &emsp;*paſſando.* |  |
+| `c2-l016` | &emsp;*paßando.* |  |
 | `c2-l017` | Cônen, l, Gonen. Nochino toxi. *Anno q̃* |  |
 | `c2-l018` | &emsp;*vem, ou idade futura.* |  |
 | `c2-l019` | Coneri. *Certa laya de figos bõs de Iapão.* |  |

@@ -16,7 +16,7 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c1-l001` | &emsp;uo caicuru. *Dar volta, ou emburilhar* |  |
 | `c1-l002` | &emsp;*as redeas na mão. ¶* Itouo caicuru. *De* |  |
-| `c1-l003` | &emsp;*bar, ou ajuntar depreſſa ofio ẽ nouelo. ¶ Itẽ* |  |
+| `c1-l003` | &emsp;*bar, ou ajuntar depreßa ofio ẽ nouelo. ¶ Itẽ* |  |
 | `c1-l004` | &emsp;F*urar. Vt,* tage, l, qiuo caicuru. *Abrir algũ* |  |
 | `c1-l005` | &emsp;*buraco com faca, ou outra couſa em bambu,* |  |
 | `c1-l006` | &emsp;*ou pao.* |  |
@@ -110,7 +110,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l030` | &emsp;Firogari. *O pronunçiar abrindo a boca, ou* |  |
 | `c2-l031` | &emsp;*fechando a. ¶* Cuchiuo caigǒga yoi. |  |
 | `c2-l032` | &emsp;T*er boa pronunçiação.* |  |
-| `c2-l033` | Caigo. *Ouos de galinha, ou paſſaro. ¶ Itẽ,* |  |
+| `c2-l033` | Caigo. *Ouos de galinha, ou paßaro. ¶ Itẽ,* |  |
 | `c2-l034` | &emsp;*No* Ximo, *bicho de ſeda.* |  |
 | `c2-l035` | Caigu. Vmano dǒgu. *Arreos, & apare-* |  |
 | `c2-l036` | &emsp;*lhos do caualo.* |  |

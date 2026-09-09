@@ -24,7 +24,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l008` | Fatçune. *A prima voz do paſſaro na prima* |  |
 | `c1-l009` | &emsp;*vera como do roxinol, ou gallinha do mato,* |  |
 | `c1-l010` | &emsp;*ou do Fototoguiſu no verão. ¶* Fatçune- |  |
-| `c1-l011` | &emsp;uo daſu. *Cantarem a primeira vez os paſſaros* |  |
+| `c1-l011` | &emsp;uo daſu. *Cantarem a primeira vez os paßaros* |  |
 | `c1-l012` | &emsp;*na prima vera, ou verão.* |  |
 | `c1-l013` | Fatçuqi. i, Fachiguachi. *Oitaua lũa. S.* |  |
 | `c1-l014` | Fatçutorigari, l, fatçutogari. *O ſair a pri-* |  |
@@ -73,7 +73,7 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c2-l001` | Fatǒ. Nami, xima. *Ondas, & ilhas. Vt,* |  |
-| `c2-l002` | &emsp;Fatǒuo xinogu. *Paſſar mares, & ilhas* |  |
+| `c2-l002` | &emsp;Fatǒuo xinogu. *Paßar mares, & ilhas* |  |
 | `c2-l003` | &emsp;*com trabalho.* |  |
 | `c2-l004` | Fato. *Pomba, ou pombo.* |  |
 | `c2-l005` | Fato. *Cais, ou lugar acommodado pera deſ-* |  |

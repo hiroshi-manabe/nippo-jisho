@@ -76,14 +76,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l002` | &emsp;*Ser terceiro em algũa couſa, como na compra,* |  |
 | `c2-l003` | &emsp;*& venda, &c.* |  |
 | `c2-l004` | Fiqen. Firaqi miru. *Abrindo ver, ou ler.* |  |
-| `c2-l005` | &emsp;*Vt,* Gojǒ fiqen mǒxi ſoro. *Li voſſa* |  |
+| `c2-l005` | &emsp;*Vt,* Gojǒ fiqen mǒxi ſoro. *Li voßa* |  |
 | `c2-l006` | &emsp;*carta. S.* |  |
 | `c2-l007` | Fiqen. *Vt,* Qen fiqen. *Couſas viſiueis,* |  |
 | `c2-l008` | &emsp;*& inuiſiueis.* Bup. |  |
 | `c2-l009` | Fiqeô, l, fiqiô. *Vileza, ou baixeza em cuſ-* |  |
 | `c2-l010` | &emsp;*tumes, &c. Vt,* Fiqeô ſuru. *Fazer* |  |
 | `c2-l011` | &emsp;*baixeza.* |  |
-| `c2-l012` | Fiqeôna, l, fiqiôna. *Peſſoa vil, & de pou* |  |
+| `c2-l012` | Fiqeôna, l, fiqiôna. *Peßoa vil, & de pou* |  |
 | `c2-l013` | &emsp;*co primor, & honra em algũa obra que faz.* |  |
 | `c2-l014` | &emsp;*¶* Fiqeôna coto. *Couſa vil, ou baixa.* |  |
 | `c2-l015` | Fiqi, u, ijta. *Puxar. ¶* Funeuo fiqu. |  |

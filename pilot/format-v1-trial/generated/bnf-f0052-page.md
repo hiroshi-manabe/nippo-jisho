@@ -74,7 +74,7 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c2-l001` | &emsp;*ſoar couſa que ſe bate, &c.* |  |
 | `c2-l002` | Batameqi, u, eita. *Soarem as azas dos* |  |
-| `c2-l003` | &emsp;*paſſaros quando voão, ou dão com ellas nochão.* |  |
+| `c2-l003` | &emsp;*paßaros quando voão, ou dão com ellas nochão.* |  |
 | `c2-l004` | &emsp;*¶ Item, Soar a couſa batida, &c.* |  |
 | `c2-l005` | Batatçuqi, qu. *Idem.* |  |
 | `c2-l006` | Batei. Vmano ſizzume. *Cascosou vnhas* |  |

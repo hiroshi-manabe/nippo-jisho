@@ -15,7 +15,7 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c1-l001` | &emsp;Atara fito, &c. *Homem que deſejaua que* |  |
-| `c1-l002` | &emsp;*não morreſe, ou ſe não foſſe, &c.* |  |
+| `c1-l002` | &emsp;*não morreſe, ou ſe não foße, &c.* |  |
 | `c1-l003` | Ataraxij. *Couſa noua.* |  |
 | `c1-l004` | &emsp;Ataraxiſa. |  |
 | `c1-l005` | &emsp;Ataraxǔ. |  |
@@ -84,7 +84,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l004` | &emsp;*Aplicar, ou dar mezinha aodoente.* |  |
 | `c2-l005` | Atayete. *Oque dà, ou faz merçe dalgũa couſa.* |  |
 | `c2-l006` | Atçù. *Adu. Quente.* |  |
-| `c2-l007` | Atçù. *Adu. Groſſo, ou eſpeſſo. ¶ Itẽ, Muito. Vt,* |  |
+| `c2-l007` | Atçù. *Adu. Großo, ou eſpeßo. ¶ Itẽ, Muito. Vt,* |  |
 | `c2-l008` | &emsp;Xǒuo atçǔ ſuru. *Fazer muitos beneficios.* |  |
 | `c2-l009` | Atçuatçuto. *Adu. Cõ muita, & notauel groſ-* |  |
 | `c2-l010` | &emsp;*ſura. ¶ Item, Muito quente.* |  |
@@ -100,18 +100,18 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l020` | &emsp;tçucǒ, tede atçucǒ, axide atçucǒ, &c. |  |
 | `c2-l021` | &emsp;*Tratar com a boca, mãos, ou pès.* |  |
 | `c2-l022` | Atçufai. *Cinza quente.* |  |
-| `c2-l023` | Atçugami. *Hũa laya de papel groſſo.* |  |
+| `c2-l023` | Atçugami. *Hũa laya de papel großo.* |  |
 | `c2-l024` | Atçugan. *Vinho muito quente.* |  |
 | `c2-l025` | Atçugui. *Vestidos, hũs ſobre os outros, ou* |  |
 | `c2-l026` | &emsp;*dobrados. ¶* Atçuguiſuru. *Vestir ves-* |  |
 | `c2-l027` | &emsp;*tidos dobrados.* |  |
 | `c2-l028` | Atçui. *Couſa quente.* |  |
-| `c2-l029` | Atçui. *Couſa groſſa, ou eſpeſſa.* |  |
+| `c2-l029` | Atçui. *Couſa großa, ou eſpeßa.* |  |
 | `c2-l030` | &emsp;Atçù. |  |
 | `c2-l031` | &emsp;Atçuſa. |  |
 | `c2-l032` | Atçuita. *Certa laya de peças de ſeda feitas* |  |
 | `c2-l033` | &emsp;*em Iapão, como damaſcos.* |  |
-| `c2-l034` | Atçuita. *Taboa groſſa.* |  |
+| `c2-l034` | Atçuita. *Taboa großa.* |  |
 | `c2-l035` | Atçumari. *Ajuntamento.* |  |
 | `c2-l036` | Atçumari, u, atta. *Ajuntarſe.* |  |
 | `c2-l037` | Atçume, uru, eta. *Ajuntar.* |  |

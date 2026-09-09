@@ -23,7 +23,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l007` | Axiba. *Lugar, ou estançia. ¶* Teqiga axi- |  |
 | `c1-l008` | &emsp;bauo toru. *Tomar a estancia, ou arrayal dos* |  |
 | `c1-l009` | &emsp;*inimigos. ¶* Axibano yoitocoro. *Lu-* |  |
-| `c1-l010` | &emsp;*gar bom para estar, paſſear, &c.* |  |
+| `c1-l010` | &emsp;*gar bom para estar, paßear, &c.* |  |
 | `c1-l011` | Axibayana, l, axibayai. *Ligeiro dos pès* |  |
 | `c1-l012` | &emsp;*que caminha bem.* |  |
 | `c1-l013` | &emsp;Axibayani. |  |
@@ -47,7 +47,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l031` | Axida. *Tamancos, ou chiripos.* |  |
 | `c1-l032` | Axidachi. *Lugar onde ſe poem, ou firmão os* |  |
 | `c1-l033` | &emsp;*pès. ¶* Axidachino yoi tocoro. *Lu-* |  |
-| `c1-l034` | &emsp;*gar bom para paſſear homens, ou cauallos.* |  |
+| `c1-l034` | &emsp;*gar bom para paßear homens, ou cauallos.* |  |
 | `c1-l035` | Axidamari. *Lugar emque pode estribar opè* |  |
 | `c1-l036` | &emsp;*quando imos por lugares estreitos, ou ingremes,* |  |
 | `c1-l037` | &emsp;*&c. Item, lugar onde os imigos podem estar,* |  |
@@ -76,7 +76,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l002` | &emsp;*¶* Axigagiuo ſuru. *Idem.* |  |
 | `c2-l003` | Axigaru. *Soldados ligeiros que na batalha vão* |  |
 | `c2-l004` | &emsp;*na vãguarda, & de quando em quãdo dão* |  |
-| `c2-l005` | &emsp;*aſſaltos nos imigos, ou vão a deſcubrir o cãpo.* |  |
+| `c2-l005` | &emsp;*aßaltos nos imigos, ou vão a deſcubrir o cãpo.* |  |
 | `c2-l006` | Axigatame. *Couſa em que estribão, ou ſe* |  |
 | `c2-l007` | &emsp;*fortificão os pès de banco, ou de couſa ſeme-* |  |
 | `c2-l008` | &emsp;*lhante como* Faxira*, &c.* |  |
@@ -116,7 +116,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l043` | Axino ura. *Sola dos pès.* |  |
 | `c2-l044` | Axinoya. *Caſa de colmo, ou de canicos.* |  |
 | `c2-l045` | Axiqe. *Doença dos pès do falcaõ. Itẽ, Doença* |  |
-| `c2-l046` | &emsp;*dos pès deoutros paſſaros de gayolla.* |  |
+| `c2-l046` | &emsp;*dos pès deoutros paßaros de gayolla.* |  |
 | `c2-l047` | Axiqiqi. *Destro, ou ligeiro, & forte dos pès.* |  |
 | `c2-l048` | &emsp;*Diz ſe de homẽs, & cauallos que andão bem.* |  |
 

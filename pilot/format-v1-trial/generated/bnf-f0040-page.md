@@ -15,7 +15,7 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c1-l001` | &emsp;*no* Myaco catana. |  |
-| `c1-l002` | Atçuyo. *Papel* Torinoco *groſſo.* |  |
+| `c1-l002` | Atçuyo. *Papel* Torinoco *großo.* |  |
 | `c1-l003` | Atçuyu. i. Atçuiyu. *Agoa muito quẽte.* |  |
 | `c1-l004` | Ate. *Pao, ou couſa ſemelhante que ſe poẽ de* |  |
 | `c1-l005` | &emsp;*baixo doutro pao pera o cortar, &c. ¶ Item,* |  |
@@ -31,7 +31,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l015` | &emsp;*alguem. ¶* Tçuyeuo atçuru. *Dar com* |  |
 | `c1-l016` | &emsp;*vara, ou açoutar. ¶* Mini atete xen- |  |
 | `c1-l017` | &emsp;gocuuo toru. *Ter mil* Gocus *de renda a-* |  |
-| `c1-l018` | &emsp;*plicada aſſi.* |  |
+| `c1-l018` | &emsp;*plicada aßi.* |  |
 | `c1-l019` | Ate, tçuru, eta. *Aplicar, ordenar, dirigir.* |  |
 | `c1-l020` | &emsp;*¶* Fitoni yacuuo atçuru, l, ateuoconǒ. |  |
 | `c1-l021` | &emsp;*Dar officio a alguem, ou aplicar lho. ¶* Ta, |  |
@@ -52,7 +52,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l036` | &emsp;*& muniçoẽs pellos ſoldados.* |  |
 | `c1-l037` | Atenaru fito. *Homem de bom pareçer, ou gen-* |  |
 | `c1-l038` | &emsp;*til homem.* P*.* |  |
-| `c1-l039` | Atetabi, u. i. Atetamauaru. *Dar peſſoa alta* |  |
+| `c1-l039` | Atetabi, u. i. Atetamauaru. *Dar peßoa alta* |  |
 | `c1-l040` | &emsp;*a inferior, como officio, renda, &c.* |  |
 | `c1-l041` | Atete. *Particularmente, ou em particular.* |  |
 | `c1-l042` | &emsp;*Vt,* Mini ateteno cataqide gozaru. *He* |  |
@@ -100,16 +100,16 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l026` | &emsp;xiquo yuzzuru. *Fazer a alguem ſeu* |  |
 | `c2-l027` | &emsp;*herdeiro. ¶* Atouo tçugu. *Soceder em* |  |
 | `c2-l028` | &emsp;*lugar de outro no officio, herança, &c.* |  |
-| `c2-l029` | &emsp;*¶* Atouo vqetoru. *Tomar poſſe da herança,* |  |
+| `c2-l029` | &emsp;*¶* Atouo vqetoru. *Tomar poße da herança,* |  |
 | `c2-l030` | &emsp;*ou ſoceder em lugar doutro. ¶* Ato nigui- |  |
 | `c2-l031` | &emsp;uaxi, l, ato niguiuai. *Vt,* Ato niguiuaiſu- |  |
 | `c2-l032` | &emsp;ru. *Fazerẽ feſta como beberete, &c. os pa-* |  |
-| `c2-l033` | &emsp;*rẽtes, & amigos por reſpeito da peſſoa que eſta* |  |
+| `c2-l033` | &emsp;*rẽtes, & amigos por reſpeito da peßoa que eſta* |  |
 | `c2-l034` | &emsp;*auſente, ou he ido longe pera que torne em* |  |
 | `c2-l035` | &emsp;*paz, & proſperamente. ¶* Atouo tazzu- |  |
 | `c2-l036` | &emsp;nuru. *Ir pergũtãdo embuſca dalguẽ.* Fitono |  |
 | `c2-l037` | &emsp;atono vôte mairu. *Ir em buſca dalguẽ pellos* |  |
-| `c2-l038` | &emsp;*paſſos, & pouſadas por onde vai. ¶* Ato ta- |  |
+| `c2-l038` | &emsp;*paßos, & pouſadas por onde vai. ¶* Ato ta- |  |
 | `c2-l039` | &emsp;yuru. *Acabarſe algũa couſa, ou pereçer* |  |
 | `c2-l040` | &emsp;*demaneira que naõ fique raſto. Itẽ, Extinguirẽ* |  |
 | `c2-l041` | &emsp;*ſe os herdeiros. ¶* Atouo tatçuru. *Fazer* |  |

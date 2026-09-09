@@ -93,7 +93,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l019` | &emsp;*dea. ¶* Aburafiuo acaſu. *Acender* |  |
 | `c2-l020` | &emsp;*candea de azeite. ¶* Fuxinuo acaſu. |  |
 | `c2-l021` | &emsp;*Declarar a duuida.* |  |
-| `c2-l022` | Acaxicane, uru, eta. *Paſſar anoite, ou tẽ-* |  |
+| `c2-l022` | Acaxicane, uru, eta. *Paßar anoite, ou tẽ-* |  |
 | `c2-l023` | &emsp;*po com difficuldade como eſperando por al-* |  |
 | `c2-l024` | &emsp;*guem, &c. ¶* Saguiyuqu tçuqi, fi- |  |
 | `c2-l025` | &emsp;uomo acaxi cane, curaxi vazzurǒ. *Sõ-* |  |

@@ -36,7 +36,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l020` | &emsp;*muitos, & varios goſtos.* |  |
 | `c1-l021` | Fiacunari. *Cabacinhas pequenas.* |  |
 | `c1-l022` | Fiacuracu. Fiacuno tanoximi. i, Xujuno |  |
-| `c1-l023` | &emsp;tanoximi. *Muitos goſtos, & paſſatempos.* |  |
+| `c1-l023` | &emsp;tanoximi. *Muitos goſtos, & paßatempos.* |  |
 | `c1-l024` | Fiacuren. Fiacu qitǒ. i, Fiacutabi neru. |  |
 | `c1-l025` | &emsp;*Cem vezes fundido. Vt,* Fiacurenno vǒ- |  |
 | `c1-l026` | &emsp;gon. *Ouro de cem quilates. S.* |  |
