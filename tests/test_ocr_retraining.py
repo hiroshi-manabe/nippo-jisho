@@ -7,6 +7,38 @@ from build_ocr_retraining_dataset import styled_text, encode, decode, page_split
 
 
 class RetrainingTests(unittest.TestCase):
+    def test_ligature_sequence_confusions_are_reported(self):
+        from evaluate_ocr_retraining import score
+        r={'id':'test','text':'paßa paſſa'}
+        result=score([r],['paſſa paßa'],False)
+        self.assertEqual(result['double_s']['ß']['as_ſſ'],1)
+        self.assertEqual(result['double_s']['ſſ']['as_ß'],1)
+
+    def test_margin_and_fragment_polygons_are_not_full_line_pairs(self):
+        from build_ocr_retraining_dataset import full_text_candidates
+        def c(x,width):
+            return {'centre':[x+width/2,100], 'boundary':[[x,50],[x+width,50],[x+width,120],[x,120]],
+                    'recognition':'A'*40}
+        dust, fragment, full = c(30,20),c(220,180),c(220,1000)
+        self.assertEqual(full_text_candidates([dust,fragment,full],{'box':[140,0,1300,4000]}),[full])
+
+    def test_insertions_do_not_count_as_exact_short_runs(self):
+        from evaluate_ocr_retraining import score
+        r={'id':'test','text':'Ab','styles':['roman']*2,'encoded':'Ab'}
+        result=score([r],['Acb'],True)
+        self.assertEqual(result['style']['short_runs_up_to_three_nonspace_characters']['exact_text_and_style'],0)
+
+    def test_dual_style_vocabulary_and_word_score(self):
+        from evaluate_ocr_retraining import dual_style_words, score
+        records=[{'id':str(i),'text':'Fotoqe','styles':[style]*6,
+                  'encoded':encode('Fotoqe',[style]*6)}
+                 for i,style in enumerate(['roman','italic'])]
+        words=dual_style_words(records)
+        self.assertEqual(words, {'fotoqe'})
+        result=score(records,['Fotoqe','Fotoqe'],True,words)
+        self.assertEqual(result['style']['words_observed_in_both_styles_in_training'],
+                         {'reference':2,'text_exact':2,'text_and_style_exact':1})
+
     def test_inference_decodes_runs_without_exposing_private_labels(self):
         from recognize_nippo_calamari import decode_prediction
         text = 'Fotoqe. Itẽ, paßa.'

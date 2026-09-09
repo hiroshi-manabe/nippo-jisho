@@ -11,10 +11,11 @@ import hashlib
 import json
 from pathlib import Path
 import random
+import statistics
 import subprocess
 import unicodedata
 
-from PIL import Image
+from PIL import Image, ImageOps
 from audit_ocr_layout_geometry import (
     EVIDENCE, GEOMETRY, LEVEL1, read_evidence, targets_for_geometry,
     column_candidates, align_audit_rows, normalized_distance,
@@ -66,6 +67,21 @@ def page_splits():
     return {n: 'test' if n in test else 'dev' if n in dev else 'train' for n in range(13, 201)}
 
 
+def full_text_candidates(candidates, column_geometry):
+    """Do not pair full-band recognition with a margin speck's tiny polygon."""
+    left, _, right, _ = column_geometry['box']
+    tolerance = .03 * (right-left)
+    in_body = [c for c in candidates if left-tolerance <= c['centre'][0] <= right+tolerance]
+    def width(c):
+        xs=[p[0] for p in c['boundary']]
+        return max(xs)-min(xs)
+    def length(c):
+        return len(c['recognition'].replace(' ',''))
+    pitches=[width(c)/length(c) for c in in_body if length(c)>=20 and width(c)>.5*(right-left)]
+    minimum_pitch=.55*statistics.median(pitches) if pitches else 8
+    return [c for c in in_body if length(c)<8 or width(c)/max(1,length(c))>=minimum_pitch]
+
+
 def build(output):
     from kraken.containers import BaselineLine, Segmentation
     from kraken.lib.segmentation import extract_polygons
@@ -82,7 +98,7 @@ def build(output):
         evidence = read_evidence(pid, EVIDENCE)
         selected = []
         for column, refs in targets_for_geometry(page, geometry[pid]).items():
-            candidates = column_candidates(evidence, column)
+            candidates = full_text_candidates(column_candidates(evidence, column), geometry[pid]['columns'][column])
             for ri, ci in align_audit_rows(refs, candidates):
                 if ri is None:
                     continue
@@ -109,12 +125,19 @@ def build(output):
             script_detection=False, lines=[BaselineLine(id=r['id'], baseline=c['baseline'], boundary=c['boundary'])
                                           for r,c,*_ in selected])
         with Image.open(scan_path) as scan:
-            for (image, line), (ref, candidate, text, styles, target) in zip(extract_polygons(scan.convert('RGB'), seg), selected):
+            for (image, line), (ref, candidate, text, styles, target) in zip(extract_polygons(ImageOps.invert(scan.convert('RGB')), seg), selected):
                 assert line.id == ref['id']
+                prepared = normalized_line(ImageOps.invert(image), height=48, max_width=4096)
+                required = max(len(text)+sum(a==b for a,b in zip(text,text[1:])),
+                               len(target)+sum(a==b for a,b in zip(target,target[1:])))
+                if prepared.width < 4*required:
+                    excluded.append({'page':pid,'line':ref['id'],'reason':'crop_too_narrow_for_ctc',
+                                     'width':prepared.width,'required_ctc_steps':required})
+                    continue
                 stem = f'{pid}__{line.id}'
                 image_path = output / 'images' / (stem + '.png')
                 image_path.parent.mkdir(exist_ok=True)
-                normalized_line(image, height=48, max_width=4096).save(image_path)
+                prepared.save(image_path)
                 for mode, truth in [('plain', text), ('styled', target)]:
                     folder = output / mode / split
                     folder.mkdir(parents=True, exist_ok=True)
@@ -126,6 +149,8 @@ def build(output):
                     'split': split, 'text': text, 'styles': styles, 'encoded': target,
                     'image': str(image_path.relative_to(output)), 'candidate_id': candidate['id'],
                     'boundary': candidate['boundary'], 'baseline': candidate['baseline'],
+                    'width': prepared.width, 'height': prepared.height,
+                    'exterior': 'paper-white',
                     'image_sha256': hashlib.sha256(image_path.read_bytes()).hexdigest(),
                     'reference_sha256': hashlib.sha256(json.dumps(lines[line.id], ensure_ascii=False).encode()).hexdigest()})
         print(pid, split, len(selected), flush=True)
@@ -134,7 +159,8 @@ def build(output):
         'splits': {s: [n for n,v in splits.items() if v==s] for s in ('train','dev','test')},
         'lines': dict(Counter(r['split'] for r in records)), 'excluded': excluded,
         'encoding': 'Italic non-whitespace character code point + U+F0000; NFC; spaces unstyled',
-        'crop': 'Preserved Kraken polygons rectified, 48 px height, aspect ratio preserved',
+        'crop': 'Full-text Kraken polygons rectified with paper-white exterior, 48 px height',
+        'complete_training_dataset': True,
         'canonical_modified': False}
     (output / 'summary.json').write_text(json.dumps(summary, ensure_ascii=False, indent=2)+'\n')
     print(summary['lines'], 'excluded', len(excluded))
@@ -142,5 +168,5 @@ def build(output):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--output', type=Path, default=ROOT / '.cache/ocr-model/retraining-v2b')
+    parser.add_argument('--output', type=Path, default=ROOT / '.cache/ocr-model/retraining-v2c')
     build(parser.parse_args().output)

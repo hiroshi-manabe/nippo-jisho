@@ -13,7 +13,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 def main():
     p = argparse.ArgumentParser(description=__doc__)
-    p.add_argument('--dataset', type=Path, default=ROOT / '.cache/ocr-model/retraining-v2-white')
+    p.add_argument('--dataset', type=Path, default=ROOT / '.cache/ocr-model/retraining-v2c')
     p.add_argument('--mode', choices=['plain', 'styled'], required=True)
     p.add_argument('--output', type=Path, required=True)
     p.add_argument('--epochs', type=int, default=12)
