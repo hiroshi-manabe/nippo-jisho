@@ -31,6 +31,9 @@ TOKEN_RE = re.compile(r"[A-Za-zÀ-žǍ-ǔſç" + "".join(NASAL) + r"]+")
 # f20/f165: 膳; f41: 前後; f111: 銭; f169: 全体.
 # Include the separately attested Ien/Ienno, but do not infer arbitrary suffixes.
 CONSONANTAL_I_FORMS = {"ien", "ienno", "ienuo", "iengo", "ieni", "ienino", "ientai"}
+# NINJAL headwords: plain gui exceptionally represents グイ in these words.
+# Exact lexical exceptions, not a change to ordinary gui = ギ.
+GUI_HIATUS_FORMS = {"amayegui": "アマエグイ", "iaregui": "ジャレグイ"}
 
 
 def normalized(value: str) -> str:
@@ -56,6 +59,8 @@ def transliterate_token(token: str) -> str | None:
     key = normalized(token)
     if not token or key in LABELS:
         return None
+    if key in GUI_HIATUS_FORMS:
+        return GUI_HIATUS_FORMS[key]
     text = normalized(token).replace("ſ", "s")
     # Capital I also supplies J before other vowels (Iacǒno, Iun, Iô).
     # Preserve the established vowel forms Ie and Iu + vowel (Iua = i-wa),
@@ -72,6 +77,12 @@ def transliterate_token(token: str) -> str | None:
     while index < len(text):
         orthographic_u_after_g = False
         doubled_z = False
+        if text.startswith("gvi", index):
+            # The dictionary's key explicitly distinguishes Tagvi from gui
+            # read as ギ: v preserves the pronounced /u/ in グイ.
+            output.append("グイ")
+            index += 3
+            continue
         if (text[index] == "y" and not vowel_at(text, index + 1)
                 and text[index + 1:index + 2] != "y"):
             # Vocalic y: taguy, ytçucuximi; retain consonantal ya/yu/yo.

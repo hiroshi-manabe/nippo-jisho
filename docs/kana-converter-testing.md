@@ -6,6 +6,14 @@ prove linguistic correctness. Do not alter Level 1 to make a hint look better.
 
 ## Repeatable sweep
 
+`gvi` explicitly preserves グイ (`Tagvi`, `Cusurigvi`, `Tçumamigvi`),
+whereas ordinary `gui` defaults to ギ. Exact lexical exceptions `Amayegui`
+and `Iaregui` follow the NINJAL headword readings アマエグイ and ジャレグイ;
+they do not generalize to arbitrary suffixes. The dictionary's introductory
+instructions explicitly describe the disambiguating use of `v`, as discussed
+by [Kishimoto](https://repository.kulib.kyoto-u.ac.jp/dspace/bitstream/2433/137270/1/kkr00002_001b.pdf).
+Tests protect ordinary ギ and ギョ readings as well as `gvi` followed by `uo`.
+
 The 2026-09-09 rule separates unmarked `riu`, `qiu`, `niu`, `fiu`,
 `biu`, `piu`, `miu`, and `guiu` into イ + ウ sequences (`Riun` → リウン;
 `Riunuo` → リウンヲ). Marked long vowels retain contracted readings

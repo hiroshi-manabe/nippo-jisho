@@ -7,6 +7,19 @@ from scripts.kana_reading import transliterate_token, phrase_hint, reading_hint,
 
 
 class KanaCorpusTests(unittest.TestCase):
+    def test_gvi_and_attested_gui_hiatus(self):
+        for token, expected in [('tagvi', 'タグイ'), ('Tagvi', 'タグイ'),
+                                ('tagviuo', 'タグイヲ'), ('Vôgvi', 'オゥグイ'),
+                                ('Cusurigvi', 'クスリグイ'), ('Rogvi', 'ログイ'),
+                                ('Tçumamigvi', 'ツマミグイ'),
+                                ('Amayegui', 'アマエグイ'), ('Iaregui', 'ジャレグイ'),
+                                ('iaregui', 'ジャレグイ'),
+                                ('Xiraſagui', 'シラサギ'), ('Catagui', 'カタギ'),
+                                ('guio', 'ギョ'), ('giu', 'ヂュ')]:
+            with self.subTest(token=token):
+                self.assertEqual(transliterate_token(token), expected)
+        self.assertEqual(phrase_hint('Narucono tagvi'), 'Narucono tagvi/ナルコノ タグイ')
+
     def test_unmarked_iu_is_separate_vowels(self):
         for token, expected in [('Riun', 'リウン'), ('Riunuo', 'リウンヲ'),
                                 ('qiu', 'キウ'), ('niu', 'ニウ'),
