@@ -143,6 +143,16 @@ and style accuracy on correctly read non-space characters 86.7167%. There are
 predictions often switch typeface inside a word. This is an early checkpoint,
 not a selected production model or evidence of final typeface performance.
 
+The training references themselves contain **135 mixed-typeface tokens among
+77,644 contiguous letter/combining-mark tokens**. Examples include Roman stems
+with an italic final `s` (`xǔs`, `Camis`), differently styled initial capitals,
+and a few interior changes. These are facts about the frozen annotations,
+not a new visual adjudication of each printed example. Some may reflect genuine
+typographic distinctions and some may need later human review. Therefore do
+not impose blanket one-typeface-per-word smoothing merely to remove fragmented
+predictions; retain per-character style information and evaluate against the
+unchanged references.
+
 One saved **epoch-seven diagnostic snapshot**, not the final selection, was
 independently decoded on all 1,784 validation lines while training continued.
 Its corpus CER is 1.7643% (1,042/59,061 characters), versus 5.7974% for the old
