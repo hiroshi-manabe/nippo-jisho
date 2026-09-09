@@ -38,7 +38,8 @@ def main():
                     im = Image.open(ROOT/f'build/nippo-jisho-images/scans/native/f{p["leaf"]:04}.jpg')
                 x,y,w,h = line['crop']
                 if p['leaf'] == 71 and line['id'] == 'c2-l031':
-                    y += h * 0.85
+                    y += h * 0.25
+                    h *= 1.5
                 sx,sy = im.width/p['width'], im.height/p['height']
                 crop = im.crop((round(x*sx),round(y*sy),round((x+w)*sx),round((y+h)*sy)))
                 name = f'f{p["leaf"]}-{line["id"]}.webp'
