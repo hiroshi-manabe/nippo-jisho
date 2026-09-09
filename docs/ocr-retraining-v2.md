@@ -123,3 +123,11 @@ runs are retained locally but are not claimed as completed final models.
 On this dataset, the old model's full validation CER is 5.7974%, with 555/1,784
 exact lines and five lines over 50% CER. New-model and final-test results are
 still pending.
+
+On this eight-core/16 GB host the two trainers contended for CPU and ran slower
+together. The production runs therefore execute sequentially. The already
+started styled trainer was suspended in memory (not restarted) while the plain
+run finishes; `scripts/sequence_ocr_training.py` verifies process identities and
+resumes it automatically. Its waiting time must not be interpreted as training
+compute time when comparing run durations. Reproduction can simply run the
+plain command followed by the styled command.
