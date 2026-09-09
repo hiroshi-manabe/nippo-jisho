@@ -13,7 +13,7 @@ import tempfile
 import unicodedata
 
 from PIL import Image
-from build_clean_ocr_pairs import normalized_line
+from ocr_line_images import prepare_rectified_line
 from build_ocr_retraining_dataset import decode
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -69,7 +69,7 @@ def main():
                 if args.prepared:
                     image.save(destination)
                 else:
-                    normalized_line(image,height=48,max_width=4096).save(destination)
+                    prepare_rectified_line(image,height=48,max_width=4096).save(destination)
         command = [str(args.calamari), '--checkpoint', str((args.model/model['checkpoint']).resolve()),
             '--data.images',str(work/'line-*.png'), '--output_dir',str(output),
             '--verbose','false','--pipeline.batch_size','32','--pipeline.num_processes','2']

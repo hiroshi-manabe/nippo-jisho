@@ -62,7 +62,7 @@ def audit(dataset):
 
 if __name__=='__main__':
     p=argparse.ArgumentParser(description=__doc__)
-    p.add_argument('--dataset',type=Path,default=ROOT/'.cache/ocr-model/retraining-v2c')
+    p.add_argument('--dataset',type=Path,default=ROOT/'.cache/ocr-model/retraining-v2d')
     args=p.parse_args()
     result=audit(args.dataset)
     (args.dataset/'audit.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')

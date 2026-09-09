@@ -10,7 +10,7 @@ import hashlib
 import json
 from pathlib import Path
 from PIL import Image, ImageOps
-from build_clean_ocr_pairs import normalized_line
+from ocr_line_images import prepare_rectified_line
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -49,7 +49,7 @@ def main():
                 assert line.id==r['line_id']
                 destination = args.output/r['image']
                 destination.parent.mkdir(parents=True,exist_ok=True)
-                normalized_line(ImageOps.invert(image),height=48,max_width=4096).save(destination)
+                prepare_rectified_line(ImageOps.invert(image),height=48,max_width=4096).save(destination)
                 for mode, text in [('plain', r['text']), ('styled', r['encoded'])]:
                     folder = args.output/mode/r['split']
                     folder.mkdir(parents=True,exist_ok=True)

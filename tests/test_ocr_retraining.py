@@ -7,6 +7,34 @@ from build_ocr_retraining_dataset import styled_text, encode, decode, page_split
 
 
 class RetrainingTests(unittest.TestCase):
+    def test_style_initialization_preserves_character_probability_mass(self):
+        import numpy as np
+        from train_styled_calamari import duplicate_logits
+        old=['','a','ſ']; new=['','a','ſ',chr(0xF0000+ord('a')),chr(0xF0000+ord('ſ'))]
+        kernel=np.array([[1.,2.,3.],[4.,5.,6.]])
+        bias=np.array([.5,1.,-.5])
+        initialized=np.zeros((2,5)); initialized[:,-1]=kernel[:,-1]
+        ibias=np.zeros(5); ibias[-1]=bias[-1]
+        k,b,n=duplicate_logits(kernel,bias,initialized,ibias,old,new)
+        self.assertEqual(n,4)
+        x=np.array([.2,.3])
+        old_prob=np.exp(x@kernel+bias);old_prob/=old_prob.sum()
+        new_prob=np.exp(x@k+b);new_prob/=new_prob.sum()
+        np.testing.assert_allclose(old_prob,[new_prob[0]+new_prob[2],new_prob[1]+new_prob[3],new_prob[4]])
+
+    def test_dark_paper_does_not_cause_horizontal_text_trimming(self):
+        from PIL import Image, ImageDraw
+        from ocr_line_images import prepare_rectified_line
+        image=Image.new('L',(1000,100),255)
+        draw=ImageDraw.Draw(image)
+        draw.rectangle((0,10,999,90),fill=150)
+        draw.rectangle((20,25,30,75),fill=0)
+        draw.rectangle((900,25,910,75),fill=0)
+        result=prepare_rectified_line(image)
+        self.assertEqual(result.size,(480,48))
+        self.assertLess(result.getpixel((12,24)),100)
+        self.assertLess(result.getpixel((434,24)),100)
+
     def test_ligature_sequence_confusions_are_reported(self):
         from evaluate_ocr_retraining import score
         r={'id':'test','text':'paßa paſſa'}

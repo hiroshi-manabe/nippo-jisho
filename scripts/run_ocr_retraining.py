@@ -13,12 +13,13 @@ ROOT = Path(__file__).resolve().parents[1]
 
 def main():
     p = argparse.ArgumentParser(description=__doc__)
-    p.add_argument('--dataset', type=Path, default=ROOT / '.cache/ocr-model/retraining-v2c')
+    p.add_argument('--dataset', type=Path, default=ROOT / '.cache/ocr-model/retraining-v2d')
     p.add_argument('--mode', choices=['plain', 'styled'], required=True)
     p.add_argument('--output', type=Path, required=True)
     p.add_argument('--epochs', type=int, default=12)
     p.add_argument('--lr', type=float, default=.0001)
     p.add_argument('--seed', type=int, default=1603)
+    p.add_argument('--style-init', choices=['duplicate','random'], default='duplicate')
     args = p.parse_args()
     if args.output.exists():
         raise ValueError('Choose a fresh run directory; existing runs are never overwritten')
@@ -40,8 +41,11 @@ def main():
         '--learning_rate.lr', str(args.lr), '--train.batch_size', '32', '--val.batch_size', '32',
         '--train.num_processes', '2', '--val.num_processes', '2',
         '--data.line_height', '48', '--codec.keep_loaded', 'false']
+    if args.mode=='styled' and args.style_init=='duplicate':
+        command[2:3]=[str(binary/'python'),str(ROOT/'scripts/train_styled_calamari.py')]
     meta = {'command': command, 'started': time.time(), 'mode': args.mode,
-        'dataset': str(args.dataset), 'final_test_used': False, 'status': 'training'}
+        'dataset': str(args.dataset), 'final_test_used': False, 'status': 'training',
+        'style_initialization':args.style_init if args.mode=='styled' else None}
     def record():
         (args.output / 'experiment.json').write_text(json.dumps(meta, indent=2)+'\n')
     record()

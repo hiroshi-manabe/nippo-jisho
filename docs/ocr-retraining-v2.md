@@ -48,14 +48,24 @@ hashes, split membership, and exclusions in ignored local artifacts.
 `scripts/run_ocr_retraining.py` runs one controlled experiment and predicts only
 the validation split. It refuses to overwrite a run directory.
 
+The styled run uses `scripts/train_styled_calamari.py` to initialize each
+Roman/italic variant from the corresponding pretrained letter's output weights.
+If both variants exist, subtracting log(2) from both biases preserves their
+combined initial letter probability; the CTC blank remains unchanged. This
+avoids making the style-aware model relearn the alphabet merely because its
+labels are new. Unknown characters retain Calamari's normal initialization.
+The probability identity has a numeric regression test, and a 32-line training
+smoke successfully copied 161 outputs and saved a checkpoint. `--style-init
+random` retains stock Calamari initialization for a future controlled ablation.
+
 Weights and generated datasets remain local under `.cache/ocr-model/`;
 reproducible code and final aggregate results belong in Git.
 
 ## Current status
 
-The audited dataset (`retraining-v2c`) contains 13,848 training, 1,755 validation,
-and 1,764 test lines. All 17,631 source body lines are accounted for: 17,367
-(98.50%) retained and 264 excluded with recorded reasons. There are 150 training,
+The audited dataset (`retraining-v2d`) contains 13,977 training, 1,784 validation,
+and 1,780 test lines. All 17,631 source body lines are accounted for: 17,541
+(99.49%) retained and 90 excluded with recorded reasons. There are 150 training,
 19 validation, and 19 test pages; no page spans multiple splits. File hashes,
 current canonical references, style targets, and crop-width constraints passed
 `scripts/validate_ocr_retraining_dataset.py`.
@@ -98,6 +108,18 @@ before sequence alignment, then checks whether both target encodings have
 enough image width for CTC. It does not equate full-band recognition agreement
 with proof that the detection polygon contains the whole line.
 
-The full comparable runs are `calamari-plain-v2c` and `calamari-styled-v2c`,
-both using the corrected paper-white dataset. Earlier diagnostic runs are
-retained locally but are not claimed as completed final models.
+Inspection of remaining worst validation errors exposed a second pixel-level
+problem. The old horizontal trim treats dense dark columns as rules; on dark
+paper surrounded by a white polygon mask, this can discard most of the actual
+text. For example, f20/c1-l020 retained only the ending `Itẽ, Aldea,` despite
+having a full-width source polygon. `scripts/ocr_line_images.py` now preserves
+the complete rectified extent and only adjusts contrast and scale. Dataset
+generation and inference share that function. Synthetic dark-paper regression
+tests and enlarged before/after crops verify the fix.
+
+The full comparable runs are `calamari-plain-v2d` and `calamari-styled-v2d`,
+both using the corrected full-extent paper-white dataset. Earlier diagnostic
+runs are retained locally but are not claimed as completed final models.
+On this dataset, the old model's full validation CER is 5.7974%, with 555/1,784
+exact lines and five lines over 50% CER. New-model and final-test results are
+still pending.

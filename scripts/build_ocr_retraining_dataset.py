@@ -20,7 +20,7 @@ from audit_ocr_layout_geometry import (
     EVIDENCE, GEOMETRY, LEVEL1, read_evidence, targets_for_geometry,
     column_candidates, align_audit_rows, normalized_distance,
 )
-from build_clean_ocr_pairs import normalized_line
+from ocr_line_images import prepare_rectified_line
 
 ROOT = Path(__file__).resolve().parents[1]
 OFFSET = 0xF0000
@@ -127,7 +127,7 @@ def build(output):
         with Image.open(scan_path) as scan:
             for (image, line), (ref, candidate, text, styles, target) in zip(extract_polygons(ImageOps.invert(scan.convert('RGB')), seg), selected):
                 assert line.id == ref['id']
-                prepared = normalized_line(ImageOps.invert(image), height=48, max_width=4096)
+                prepared = prepare_rectified_line(ImageOps.invert(image), height=48, max_width=4096)
                 required = max(len(text)+sum(a==b for a,b in zip(text,text[1:])),
                                len(target)+sum(a==b for a,b in zip(target,target[1:])))
                 if prepared.width < 4*required:
@@ -159,7 +159,7 @@ def build(output):
         'splits': {s: [n for n,v in splits.items() if v==s] for s in ('train','dev','test')},
         'lines': dict(Counter(r['split'] for r in records)), 'excluded': excluded,
         'encoding': 'Italic non-whitespace character code point + U+F0000; NFC; spaces unstyled',
-        'crop': 'Full-text Kraken polygons rectified with paper-white exterior, 48 px height',
+        'crop': 'Full-text Kraken polygons rectified with paper-white exterior, full extent preserved, 48 px height',
         'complete_training_dataset': True,
         'canonical_modified': False}
     (output / 'summary.json').write_text(json.dumps(summary, ensure_ascii=False, indent=2)+'\n')
@@ -168,5 +168,5 @@ def build(output):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--output', type=Path, default=ROOT / '.cache/ocr-model/retraining-v2c')
+    parser.add_argument('--output', type=Path, default=ROOT / '.cache/ocr-model/retraining-v2d')
     build(parser.parse_args().output)
