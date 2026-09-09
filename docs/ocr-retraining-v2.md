@@ -135,6 +135,14 @@ versus the old model's 54/40. These are validation results, not final-test
 results. The full record is `calamari-plain-v2d/dev-evaluation.json` under the
 local run directory. Style-aware and final-test results are still pending.
 
+An independent **first-epoch styled diagnostic**, retained in
+`calamari-styled-v2d-epoch1-diagnostic/`, separates the initial annotation-learning
+cost from recognition: text CER is 3.0934%, combined text/style CER 14.1007%,
+and style accuracy on correctly read non-space characters 86.7167%. There are
+5,572 Roman-to-italic mistakes versus 940 italic-to-Roman mistakes; initial
+predictions often switch typeface inside a word. This is an early checkpoint,
+not a selected production model or evidence of final typeface performance.
+
 One saved **epoch-seven diagnostic snapshot**, not the final selection, was
 independently decoded on all 1,784 validation lines while training continued.
 Its corpus CER is 1.7643% (1,042/59,061 characters), versus 5.7974% for the old
