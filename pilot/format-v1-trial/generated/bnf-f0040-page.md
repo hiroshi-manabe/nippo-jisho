@@ -31,7 +31,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l015` | &emsp;*alguem. ¶* Tçuyeuo atçuru. *Dar com* |  |
 | `c1-l016` | &emsp;*vara, ou açoutar. ¶* Mini atete xen- |  |
 | `c1-l017` | &emsp;gocuuo toru. *Ter mil* Gocus *de renda a-* |  |
-| `c1-l018` | &emsp;*plicada aßi.* |  |
+| `c1-l018` | &emsp;*plicada aſsi.* |  |
 | `c1-l019` | Ate, tçuru, eta. *Aplicar, ordenar, dirigir.* |  |
 | `c1-l020` | &emsp;*¶* Fitoni yacuuo atçuru, l, ateuoconǒ. |  |
 | `c1-l021` | &emsp;*Dar officio a alguem, ou aplicar lho. ¶* Ta, |  |

@@ -120,7 +120,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l030` | Biacuye. *O estar em corpo ſem calções os* |  |
 | `c2-l031` | &emsp;*ſeculares, & ſem* Coromo *os* Bǒzos *como* |  |
 | `c2-l032` | &emsp;*quem esta mal deſposto, deſconcertado no ves* |  |
-| `c2-l033` | &emsp;*tido. ¶* Biacuyede iru. *Estar aßi* |  |
+| `c2-l033` | &emsp;*tido. ¶* Biacuyede iru. *Estar aſsi* |  |
 | `c2-l034` | &emsp;*mal composto, & atauiado.* |  |
 | `c2-l035` | Biacuzǒ. Xiroizǒ. *Elefante branco.* |  |
 | `c2-l036` | Biacuzzuqu. *Certa mezinha.* |  |

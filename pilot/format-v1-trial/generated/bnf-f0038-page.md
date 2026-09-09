@@ -98,7 +98,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2b-l002` | &emsp;zuru. *Vingarſe dos males que lhe fizeraõ.* |  |
 | `c2b-l003` | &emsp;*¶* Fitoni atauo naſu. *Fazer mal, ou dano a* |  |
 | `c2b-l004` | &emsp;*outro. ¶* Atano catagi. *Imigo prejudicial.* |  |
-| `c2b-l005` | Ata aburi. *O aßar carne, &c. ẽ fogo muito* |  |
+| `c2b-l005` | Ata aburi. *O aſsar carne, &c. ẽ fogo muito* |  |
 | `c2b-l006` | &emsp;*forte.* |  |
 | `c2b-l007` | Atabara. *Dor repentina da barriga. ¶* A- |  |
 | `c2b-l008` | &emsp;tabarauo tatçuru. *Agastarſe de repente.* |  |
