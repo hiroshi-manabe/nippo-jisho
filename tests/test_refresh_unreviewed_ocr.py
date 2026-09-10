@@ -1,6 +1,9 @@
+import json
 import sys
 from pathlib import Path
+from tempfile import TemporaryDirectory
 import unittest
+from unittest.mock import patch
 
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
 from refresh_unreviewed_ocr import associate, protected_pages
@@ -8,11 +11,40 @@ from build_public_review import is_fresh_machine_draft
 
 
 class RefreshTests(unittest.TestCase):
-    def test_historical_human_pages_are_protected(self):
-        protected=protected_pages()
-        self.assertTrue(all(f'bnf-f{n:04d}' in protected for n in range(13,201)))
-        self.assertTrue(all(f'bnf-f{n:04d}' in protected for n in (248,249,250)))
-        self.assertNotIn('bnf-f0201',protected)
+    def test_human_protection_uses_review_evidence_not_page_numbers(self):
+        # Isolate this test from the growing production correction history.
+        with TemporaryDirectory() as directory:
+            root = Path(directory)
+            review = root / 'pilot/human-review'
+            review.mkdir(parents=True)
+            history = review / 'correction-history.json'
+            pages = [
+                {'id': 'bnf-f0201', 'issues_applied': 0, 'issues': []},
+                {'id': 'bnf-f0202', 'issues_applied': 1},
+                {'id': 'bnf-f0203', 'issues': [{'number': 1}]},
+            ]
+            history.write_text(json.dumps({'pages': pages}))
+            (review / 'review-status.json').write_text(json.dumps({'pages': [
+                {'id': 'bnf-f0201', 'units': {'column-1': {'status': 'pending'},
+                                            'column-2': {}}},
+                {'id': 'bnf-f0204', 'units': {'column-1': {'status': 'in_progress'}}},
+            ]}))
+            reference = root / 'pilot/ocr-bootstrap/reference-f0248-f0250/nested'
+            reference.mkdir(parents=True)
+            (reference / 'bnf-f0248.json').write_text('{}')
+
+            with patch('refresh_unreviewed_ocr.ROOT', root):
+                self.assertEqual(protected_pages(), {
+                    'bnf-f0202': 'human_correction_history',
+                    'bnf-f0203': 'human_correction_history',
+                    'bnf-f0204': 'human_review_unit_touched',
+                    'bnf-f0248': 'early_human_trial_reference',
+                })
+                # Applying an Issue must protect a previously eligible page.
+                pages[0]['issues_applied'] = 1
+                history.write_text(json.dumps({'pages': pages}))
+                self.assertEqual(protected_pages()['bnf-f0201'],
+                                 'human_correction_history')
 
     def test_duplicate_candidate_is_not_forced_into_two_lines(self):
         refs=[{'id':f'l{i}','runs':[{'text':'same word','typeface':'roman'}]} for i in range(2)]
