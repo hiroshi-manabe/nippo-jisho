@@ -2,6 +2,17 @@
 
 Last updated: 2026-09-10
 
+## f206–f210 commented AI review
+
+The next five refreshed OCR v2 pages have completed the same procedure: 471
+body lines (94, 95, 94, 94, 94), each with a substantive English comment and
+a separate second scan pass. Kana hints and post-reading NINJAL diagnostics
+supported the linguistic checks. Both f207 columns were widened to include
+the right rule, with additional vertical padding where needed; every final
+crop was inspected. The f209 catchword cipal is now furniture, with its stable
+ID retained. Uncertain readings remain qualified in the comments. Human review
+is still pending.
+
 ## f201–f205 commented AI review
 
 The first five pages after the human-reviewed range have completed the
@@ -45,7 +56,8 @@ applied 91 adjusted rectangles. The f196–f200 review verified ten more columns
 and applied 94 adjusted rectangles, including wider left margins on f200.
 The f201–f205 review verified another ten columns individually, retaining their
 rectangles and recording the two catchword classifications separately.
-Outside the completed pilot, 168 pages
+The f206–f210 review verified ten more columns and adjusted all 95 f207 crops.
+Outside the completed pilot, 163 pages
 still require completed visual inspection. See the campaign document and its
 separate extension ledger; unverified proposals have not been published.
 
@@ -53,7 +65,7 @@ separate extension ledger; unverified proposals have not been published.
 
 The review UI now distinguishes **AI reviewed with commentary** using the
 explicit per-page [completion registry](pilot/human-review/commentary-reviews.json).
-It currently covers f165–f170 and f172–f205, not every page through f205.
+It currently covers f165–f170 and f172–f210, not every page through f210.
 Human correction-Issue counts remain separate.
 
 The [general-AI commented review](docs/human-review-workflow.md#general-ai-commented-page-review)
