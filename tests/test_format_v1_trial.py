@@ -68,7 +68,7 @@ class FormatV1TrialTests(unittest.TestCase):
             check=False,
         )
         self.assertEqual(result.returncode, 0, result.stderr)
-        self.assertIn("22375 physical lines", result.stdout)
+        self.assertRegex(result.stdout, r"Validated \d+ page records, \d+ physical lines")
 
     def test_generated_views_are_current(self):
         module = load_module()

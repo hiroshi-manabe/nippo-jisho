@@ -1,6 +1,17 @@
 # Project Status
 
-Last updated: 2026-09-10
+Last updated: 2026-09-11
+
+## f211–f215 commented AI review
+
+All 471 body lines (94, 94, 94, 94, 95) have substantive individual English
+comments and have received a separate second scan pass, with kana hints and
+post-reading NINJAL diagnostics. Both columns of f213 and f215 were realigned
+to preserved OCR evidence, widened, and individually inspected. The duplicate
+leis. on f213 was removed; its displaced original remains on its physical row.
+The final items on f211, f213 and f214 are now catchwords, with stable IDs
+retained. Ambiguous or damaged readings remain qualified in the comments.
+These five pages are ready for human review.
 
 ## f206–f210 commented AI review
 
@@ -57,7 +68,9 @@ and applied 94 adjusted rectangles, including wider left margins on f200.
 The f201–f205 review verified another ten columns individually, retaining their
 rectangles and recording the two catchword classifications separately.
 The f206–f210 review verified ten more columns and adjusted all 95 f207 crops.
-Outside the completed pilot, 163 pages
+The f211–f215 review verified ten more columns and rebuilt the 189 body crops
+on f213 and f215; three obsolete catchword rectangles were removed.
+Outside the completed pilot, 158 pages
 still require completed visual inspection. See the campaign document and its
 separate extension ledger; unverified proposals have not been published.
 
@@ -65,7 +78,7 @@ separate extension ledger; unverified proposals have not been published.
 
 The review UI now distinguishes **AI reviewed with commentary** using the
 explicit per-page [completion registry](pilot/human-review/commentary-reviews.json).
-It currently covers f165–f170 and f172–f210, not every page through f210.
+It currently covers f165–f170 and f172–f215, not every page through f215.
 Human correction-Issue counts remain separate.
 
 The [general-AI commented review](docs/human-review-workflow.md#general-ai-commented-page-review)

@@ -19,7 +19,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l003` | Fore, ruru, eta. *Ser deſtampado, ou cadu* |  |
 | `c1-l004` | &emsp;*car. Vt,* Voini foruru. *Caducar com* |  |
 | `c1-l005` | &emsp;*a velhice. ¶ Item, Eſtar embebido, ou* |  |
-| `c1-l006` | &emsp;*transſormado em algũa couſa que hum muito* |  |
+| `c1-l006` | &emsp;*transformado em algũa couſa que hum muito* |  |
 | `c1-l007` | &emsp;*ama, ou a que tem inclinação. Vt,* Fitoni |  |
 | `c1-l008` | &emsp;foruru. *Andar com o ſentido, & amor* |  |
 | `c1-l009` | &emsp;*trãſportado em alguem. ¶* Coni foruru. *Ter* |  |
@@ -30,10 +30,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l014` | Foreforeto. *Adu. Modo de andar perdido* |  |
 | `c1-l015` | &emsp;*de amores, ou com alguã outra affeição co-* |  |
 | `c1-l016` | &emsp;*mo alienado. Vt,* Voncocoromo faya |  |
-| `c1-l017` | &emsp;foreforeto natte, &c. Taif*. Lib. 1*B*.* |  |
+| `c1-l017` | &emsp;foreforeto natte, *&c.* Taif. *Lib. 18.* |  |
 | `c1-l018` | &emsp;*Andando com o coração trãsportado, &c.* |  |
 | `c1-l019` | Foregoto. *Meliùs,* Foreta coto. *Paruo-* |  |
-| `c1-l020` | &emsp;*ice, deſtarate.* |  |
+| `c1-l020` | &emsp;*ice, deſbarate.* |  |
 | `c1-l021` | Fǒrei. *Ley, ou cuſtume ordinario. ¶* Fǒ- |  |
 | `c1-l022` | &emsp;reini ſuguita coto. *Couſa que excede, ou* |  |
 | `c1-l023` | &emsp;*vai fora do cuſtume, ou modo ordinario.* |  |
@@ -48,7 +48,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l032` | &emsp;*juizo por doença de ar, &c. ¶* Foreqega |  |
 | `c1-l033` | &emsp;ſaita, l, tçuita. *Vir, ou chegar aſer* |  |
 | `c1-l034` | &emsp;*deſtampado o velho, ou leſo no juizo por al* |  |
-| `c1-l035` | &emsp;*gũa doença dear, parleſta, &c.* |  |
+| `c1-l035` | &emsp;*gũa doença dear, parleſia, &c.* |  |
 | `c1-l036` | Fǒri. Norino cotouari. *Razoens daley.* |  |
 | `c1-l037` | Fori. Caua. *¶* Foriuo foru. *Fazer ca-* |  |
 | `c1-l038` | &emsp;*ua. ¶* Foriuo vmuru. *Entulhar a caua.* |  |
@@ -56,9 +56,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l040` | Fori, ru, otta. *Cauar, ou minar.* |  |
 | `c1-l041` | Foriague, uru, eta. *Fazer obra de releuo.* |  |
 | `c1-l042` | &emsp;*¶ Item, Acabar de cauar, ou de fazer* |  |
-| `c1-l043` | &emsp;*algũa caua, ou outra obra a enxada. ou aca-* |  |
+| `c1-l043` | &emsp;*algũa caua, ou outra obra a enxada: ou aca-* |  |
 | `c1-l044` | &emsp;*bar deabrir, ou fazer obra de releuo.* |  |
-| `c1-l045` | Fortaqe, uru, eta. *Cauando abrir, ou es-* |  |
+| `c1-l045` | Foriaqe, uru, eta. *Cauando abrir, ou es-* |  |
 | `c1-l046` | &emsp;*baracar.* |  |
 | `c1-l047` | Foricayexi, ſu, eita. *Cauando virar a ter-* |  |
 
@@ -84,11 +84,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l010` | &emsp;*como hũa peça de Chanoyu, &c.* |  |
 | `c2-l011` | Foriire, uru, eta. *Cauando meter dentro, ou* |  |
 | `c2-l012` | &emsp;*enterrar.* |  |
-| `c2-l013` | Forimauaxi, ſu, aita. *Cauar em rada.* |  |
+| `c2-l013` | Forimauaxi, ſu, aita. *Cauar em roda.* |  |
 | `c2-l014` | Forimecaxi, ſu, aita. *Fazer trincar nos den-* |  |
 | `c2-l015` | &emsp;*tes, ou ſoar algũa couſa como obreas, ou paſ-* |  |
 | `c2-l016` | &emsp;*ſarinhos que ſe comem com os oßos, &c.* |  |
-| `c2-l017` | Forimeqi, u, eita. T*rincarem, ou ſoarem-* |  |
+| `c2-l017` | Forimeqi, u, eita. *Trincarem, ou ſoarem* |  |
 | `c2-l018` | &emsp;*nos dentes couſas ſemelhantes.* |  |
 | `c2-l019` | Forimono. *Eſcultura, ou obra de releuo. ¶* Fo- |  |
 | `c2-l020` | &emsp;rimonouo ſuru. *Eſculpir, ou fazer obra* |  |
@@ -97,7 +97,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l023` | &emsp;*diuulgar a ley, ou doutrina do Fotoque.* |  |
 | `c2-l024` | Forinoqe, uru, eta. *Cauando afastar.* |  |
 | `c2-l025` | Fôriǒ. *Quantidade, ou termo. Vt,* Qiri |  |
-| `c2-l026` | &emsp;roriǒga nai. *Não tem fim nem limite, ou* |  |
+| `c2-l026` | &emsp;foriǒga nai. *Não tem fim nem limite, ou* |  |
 | `c2-l027` | &emsp;*he infinito.* |  |
 | `c2-l028` | Fôriqi. Norino chicara. *Força, ou efficacia* |  |
 | `c2-l029` | &emsp;*da ley.* |  |
@@ -105,8 +105,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l031` | &emsp;*do, & impedindo o caminho.* |  |
 | `c2-l032` | Foriqiri. *Caua, ou maneira de coua aberta que* |  |
 | `c2-l033` | &emsp;*eſtã nos caminhos pera não paßar gẽte, ou bestas.* |  |
-| `c2-l034` | Foriſucaxi, ſu, aita. *Eſoulpir, ou abrir de* |  |
-| `c2-l035` | &emsp;*maneira que paſſe de parte a parte.* |  |
+| `c2-l034` | Foriſucaxi, ſu, aita. *Eſculpir, ou abrir de* |  |
+| `c2-l035` | &emsp;*maneira que paße de parte a parte.* |  |
 | `c2-l036` | Foriſute, tçuru, eta. *Cauando botar fora.* |  |
 | `c2-l037` | Foritauoxi, ſu, oita. *Cauando, ou minando* |  |
 | `c2-l038` | &emsp;*derrubar como aruores, caſas, &c.* |  |
@@ -115,13 +115,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l041` | &emsp;ritodoquru. *Cauando chegar tè certa parte.* |  |
 | `c2-l042` | Foritouoxi, ſu, oita. *Minando paßar da ou* |  |
 | `c2-l043` | &emsp;*tra banda, ou abrindo com ferro furar.* |  |
-| `c2-l044` | Fôrſù. Norino nagare. *Ramo, ou inſtituto* |  |
-| `c2-l045` | &emsp;*particalar dalgũa ſeita.* |  |
+| `c2-l044` | Fôriù. Norino nagare. *Ramo, ou inſtituto* |  |
+| `c2-l045` | &emsp;*particular dalgũa ſeita.* |  |
 | `c2-l046` | Forivmaya. *Estrebaria de lauradores cauada* |  |
-| `c2-l047` | &emsp;*por bamco, ou ſem tabaado, & c.* |  |
+| `c2-l047` | &emsp;*por baixo, ou ſem tabuado, & c.* |  |
 
 ## Catchword
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `cw-l001` | **Fori.** |  |
+| `cw-l001` | **Fori-** |  |

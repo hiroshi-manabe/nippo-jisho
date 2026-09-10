@@ -16,7 +16,7 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c1-l001` |  | ſu. i, izzuru. *Sair como pera aguerra,* |
 | `c1-l002` | &emsp;*&c.* |  |
-| `c1-l003` | Fofrǒjù. *Certa ſeita que veo da china.* |  |
+| `c1-l003` | Foſsǒjù. *Certa ſeita que veo da China.* |  |
 | `c1-l004` | Foſſu. *Hũa maneira de vara com que tan-* |  |
 | `c1-l005` | &emsp;*gem os bois, ou caualos que puxão pello carro.* |  |
 | `c1-l006` | &emsp;*¶ Item, Certa vara de que vſão os Ienxus* |  |
@@ -39,26 +39,26 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l023` | Fotguanxin. Negaiuo vocoſu cocoro. *Co-* |  |
 | `c1-l024` | &emsp;*ração pio, & deuoto.* |  |
 | `c1-l025` | Fotjo. Farai nozoqu. *Lançar fora, ou ſacu-* |  |
-| `c1-l026` | &emsp;*dir como po, &c. ¶ Item, Permet.* |  |
-| `c1-l027` | &emsp;Varuunozomiuo fotjo ſuru. *Botar, ou ſa-* |  |
+| `c1-l026` | &emsp;*dir como poo, &c. ¶ Item, Permet.* |  |
+| `c1-l027` | &emsp;Varu nozomiuo fotjo ſuru. *Botar, ou ſa-* |  |
 | `c1-l028` | &emsp;*cudir fora ruins deſejos.* |  |
-| `c1-l029` | Fotnet. *O vir, ou ter algũa ſebre. ¶* Fot- |  |
+| `c1-l029` | Fotnet. *O vir, ou ter algũa febre. ¶* Fot- |  |
 | `c1-l030` | &emsp;net ſuru. *Idem.* |  |
-| `c1-l031` | Fôtǒ. Norino tomoxibi. *Luz, ou reſplan-* |  |
-| `c1-l032` | &emsp;*dor da lei. ¶* Fǒtôuo cacaguru. *Eſpa-* |  |
+| `c1-l031` | Fôtô. Norino tomoxibi. *Luz, ou reſplan-* |  |
+| `c1-l032` | &emsp;*dor da lei. ¶* Fôtôuo cacaguru. *Eſpa-* |  |
 | `c1-l033` | &emsp;*lhar, ou communicar a luz da lei prègando a,* |  |
 | `c1-l034` | &emsp;*&c. ¶ Item, Acender lume como a lam-* |  |
 | `c1-l035` | &emsp;*pada diante do Fotoque.* |  |
-| `c1-l036` | Fotobacaxi, ſu, iita. *Abrandar, ou amo-* |  |
+| `c1-l036` | Fotobacaxi, ſu, aita. *Abrandar, ou amo-* |  |
 | `c1-l037` | &emsp;*lecer algũa couſa metendoa na agoa, &c.* |  |
-| `c1-l038` | Fotobi, uru, ita. *Amolecer, ou abrandas ſe* |  |
+| `c1-l038` | Fotobi, uru, ita. *Amolecer, ou abrandarſe* |  |
 | `c1-l039` | &emsp;*algũa couſa na agua. &c.* |  |
-| `c1-l040` | Fotocuri. *Erua aßrchamada.* |  |
-| `c1-l041` | Fotofototo. *Adu. Modo de ſoer a janela,* |  |
+| `c1-l040` | Fotocuri. *Erua aßi chamada.* |  |
+| `c1-l041` | Fotofototo. *Adu. Modo de ſoar a janela,* |  |
 | `c1-l042` | &emsp;*ou porta, &c. quando ſe bate a ella. Vt* |  |
 | `c1-l043` | &emsp;Fotofototo touo vtçu. *Bater na porta dã-* |  |
 | `c1-l044` | &emsp;*do pancadas.* |  |
-| `c1-l045` | Fotogui. *Boyão, ou jarra. Vt,* Fotoguin o |  |
+| `c1-l045` | Fotogui. *Boyão, ou jarra. Vt,* Fotoguiuo |  |
 | `c1-l046` | &emsp;comutte cabeni mucǒga gotoxi. *A-* |  |
 | `c1-l047` | &emsp;*maneira de hum que eſta virado pera apare-* |  |
 
@@ -76,21 +76,21 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l002` | Fotondo. i, Voyoſo. *Pola mor parte, ou* |  |
 | `c2-l003` | &emsp;*mais frequentemente.* |  |
 | `c2-l004` | Fotoqenoza. *Certa erua. ¶ Item, Aſ-* |  |
-| `c2-l005` | &emsp;*ſento, ou trono do Fotoque que be à maneira* |  |
+| `c2-l005` | &emsp;*ſento, ou trono do Fotoque que he à maneira* |  |
 | `c2-l006` | &emsp;*de flor do golfão.* |  |
 | `c2-l007` | Fotori. *Borda de algũa couſa, ou junto, &c.* |  |
 | `c2-l008` | &emsp;*¶* Michino fotori. *Borda, ou junto do* |  |
 | `c2-l009` | &emsp;*caminho.* |  |
 | `c2-l010` | Fototoguiſu. *Hum paſſaro aßi chamado que* |  |
-| `c2-l011` | &emsp;*canta com voz triſte, & ſandeſa.* |  |
+| `c2-l011` | &emsp;*canta com voz triſte, & ſaudoſa.* |  |
 | `c2-l012` | Fotouori, u, otta. *Ter febre. vſaſe comun-* |  |
 | `c2-l013` | &emsp;*mente em febre de mininos.* |  |
-| `c2-l014` | Fotouoriqe. *Donça de febres de mininos.* |  |
+| `c2-l014` | Fotouoriqe. *Doença de febres de mininos.* |  |
 | `c2-l015` | &emsp;*¶* Fotouoriqeni gozaru. *Eſtar doente* |  |
 | `c2-l016` | &emsp;*de febres.* |  |
 | `c2-l017` | Fotro teiqiǔ. *O chorar derramando lagrimas.* |  |
 | `c2-l018` | Fottai. *O raparſe, ou fazerſe rapado como* |  |
-| `c2-l019` | &emsp;*ſe coſtuma em lapão. ¶ Item, Peßoa que ſe* |  |
+| `c2-l019` | &emsp;*ſe coſtuma em Iapão. ¶ Item, Peßoa que ſe* |  |
 | `c2-l020` | &emsp;*rapa, ou deixa o mundo. ¶* Fottai ſuru. |  |
 | `c2-l021` | &emsp;*Raparſe, ou fazerſe rapado.* |  |
 | `c2-l022` | Fottan. *Intimo do coração. ¶* Fottan yo- |  |
@@ -102,21 +102,26 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l028` | Fǒuǒ. *Rei velho que renunciou ja o reino no* |  |
 | `c2-l029` | &emsp;*filho.* |  |
 | `c2-l030` | Fôuǒ. *Paſſaro do ſol.* |  |
-| `c2-l031` | Fôuon. Vonuo fozuru. *O retribuir benefi-* |  |
+| `c2-l031` | Fôuon. Vonuo fôzuru. *O retribuir benefi-* |  |
 | `c2-l032` | &emsp;*cios. ¶* Fôuonni tçucayuru. *Seruir ẽ* |  |
-| `c2-l033` | &emsp;*ſatisſação dos beneficios recebidos.* |  |
+| `c2-l033` | &emsp;*ſatisfação dos beneficios recebidos.* |  |
 | `c2-l034` | Fǒuon. Cǒbaxij megumi. *Beneficios.* |  |
 | `c2-l035` | &emsp;*¶* Fǒuonuo cǒmuru. *Receber mercès,* |  |
 | `c2-l036` | &emsp;*& fauores.* |  |
 | `c2-l037` | Fouori, ru, otta. *Botar fora, ou lançar de ſi.* |  |
-| `c2-l038` | Foxa. *Feiticeiro.* X*.* |  |
+| `c2-l038` | Foxa. *Feiticeiro.* X. |  |
 | `c2-l039` | Foxa. Voguinai xaſuru. *Refazer, & re-* |  |
 | `c2-l040` | &emsp;*ſoluer com mezinhas, &c.* |  |
-| `c2-l041` | Fǒxa. Tacarano curuma. *Carro ornado q̃ ſer* |  |
+| `c2-l041` | Fôxa. Tacarano curuma. *Carro ornado q̃ ſer* |  |
 | `c2-l042` | &emsp;*ue de andas.* |  |
-| `c2-l043` | Fôxei. *Louuor, ou neme afamado. ¶* Bi- |  |
+| `c2-l043` | Fǒxei. *Louuor, ou nome afamado. ¶* Bi- |  |
 | `c2-l044` | &emsp;yo fǒxei. *Bom nome, & fama. S.* |  |
 | `c2-l045` | Fǒxei. Cǒbaxij naſaqe. *Beneficios, ou bo-* |  |
 | `c2-l046` | &emsp;*as obras honrando a peßoa de quem ſe recebẽ.* |  |
-| `c2-l047` | &emsp;*Vt,* Gofǒxeini zzzucaru. *Receber bo-* |  |
-| `c2-l048` | &emsp;*as* |  |
+| `c2-l047` | &emsp;*Vt,* Gofǒxeini azzucaru. *Receber bo-* |  |
+
+## Catchword
+
+| Physical line | Main position | Far right |
+| --- | --- | --- |
+| `c2-l048` | *as* |  |

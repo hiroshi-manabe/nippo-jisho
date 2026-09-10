@@ -27,7 +27,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l011` | &emsp;*no, &c. ¶ Item, Permet.* Fitono xin- |  |
 | `c1-l012` | &emsp;daiga foroburu. *Destruirſe o eſtado dalguẽ.* |  |
 | `c1-l013` | Forobiuxe, ſuru, eta. *Destruirſe algũa couſa* |  |
-| `c1-l014` | &emsp;*ſem ficar nada, ou acaba ſe.* |  |
+| `c1-l014` | &emsp;*ſem ficar nada, ou acabarſe.* |  |
 | `c1-l015` | Foroboxi, ſu, oita. *Deſtruir, ou desfazer.* |  |
 | `c1-l016` | Fôrocu. Tacara, tacara. *Riquezas.* |  |
 | `c1-l017` | Fôrocu. *Panela de barro.* |  |
@@ -35,33 +35,32 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l019` | Foroforoto. *Adu. Modo deſe deſenrolar,* |  |
 | `c1-l020` | &emsp;*ou deſennouelar algum fio, ou deſe ſoltarem os* |  |
 | `c1-l021` | &emsp;*cabelos, ou deſe deſapegar a era daruore, &c.* |  |
-| `c1-l022` | &emsp;*¶ Item, Modo de ſe quebrar, ou esbor oar al* |  |
-| `c1-l023` | &emsp;*gũa couſo como parede de barro, &c. ¶* Na- |  |
+| `c1-l022` | &emsp;*¶ Item, Modo de ſe quebrar, ou esboroar al* |  |
+| `c1-l023` | &emsp;*gũa couſa como parede de barro, &c. ¶* Na- |  |
 | `c1-l024` | &emsp;midaga foroforoto vochita. *Cairão lhe as* |  |
 | `c1-l025` | &emsp;*lagrimas em fio. ¶* Cazzura foroforoto |  |
-| `c1-l026` | &emsp;toqi firogaroba. *Deſamarrandoſe, &* |  |
+| `c1-l026` | &emsp;toqi firogareba. *Deſamarrandoſe, &* |  |
 | `c1-l027` | &emsp;*eſtendendoſe a era.* |  |
-| `c1-l028` | Foromeqi, u, eita. *Deſapegarſe o arroz.* |  |
-| `c1-l029` | &emsp;*&c. que não he viſcoſo, ou eſboroarſe, ou eſ-* |  |
-| `c1-l030` | &emsp;*miuçarſe algũa coula.* |  |
+| `c1-l028` | Foromeqi, u, eita. *Deſapegarſe o arroz,* |  |
+| `c1-l029` | &emsp;*&c. que não he viſcoſo, ou eſboroarſe, ou eſ* |  |
+| `c1-l030` | &emsp;*miuçarſe algũa couſa.* |  |
 | `c1-l031` | Foromiſo. *Certa laya de Miſo. (leis.* |  |
 | `c1-l032` | Fôron. Noriuo ronzuru. *Diſputa a cerca das* |  |
-| `c1-l033` | &emsp;*leis.* |  |
 | `c1-l034` | Foroqe, uru, eta. *Quebrarſe, ou esboroar ſe.* |  |
 | `c1-l035` | &emsp;*¶* Foroqeta nari. *Modo, ou feição de* |  |
 | `c1-l036` | &emsp;*hum andar mal vestido, ou roto.* |  |
-| `c1-l037` | Fororifororito. *Adu. Modo deſe desfu-* |  |
-| `c1-l038` | &emsp;*zer, ou eshoroar algũa couſa. ¶ Itẽ, Mo* |  |
+| `c1-l037` | Fororifororito. *Adu. Modo deſe desfa-* |  |
+| `c1-l038` | &emsp;*zer, ou esboroar algũa couſa. ¶ Itẽ, Mo* |  |
 | `c1-l039` | &emsp;*do de cairem as lagrimas dos olhos.* |  |
 | `c1-l040` | Fororito. *Idem. ¶* Fororito dǒxinga vo- |  |
-| `c1-l041` | &emsp;cotta. *Mouerſe tenramente a deuação.* |  |
+| `c1-l041` | &emsp;cotta. *Mouerſe tenramente à deuação.* |  |
 | `c1-l042` | Fororo. *Eſtrepito das aſas da galinha do ma-* |  |
 | `c1-l043` | &emsp;*to. ¶* Fororouo vtçu. *Fazer aquelle eſtre* |  |
-| `c1-l044` | &emsp;*pito, ou ſom o Quiji quando bate as aſas.* |  |
+| `c1-l044` | &emsp;*pito, ou ſom o* Quiji *quando bate as aſas.* |  |
 | `c1-l045` | Foſa. *Certa dignidade.* |  |
 | `c1-l046` | Foſano qenpei. i, Foſa. |  |
-| `c1-l047` | Foſaqi. *Maçaãs do roſto.* |  |
-| `c1-l048` | Fǒſat. Cǒbai i, ſuca. i, Fǒcan, l, fôbocu. |  |
+| `c1-l047` | Fôſaqi. *Maçaãs do roſto.* |  |
+| `c1-l048` | Fǒſat. Cǒbaxij fuda. i, Fǒcan, l, fǒbocu. |  |
 
 ## Column 2 running header
 
@@ -86,7 +85,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l011` | &emsp;*azinhaga, &c.* |  |
 | `c2-l012` | Foſobiqi. *Corda de linho.* |  |
 | `c2-l013` | Foſocubi. *Peſcoço.* |  |
-| `c2-l014` | Foſofibo, l, foſonbono ito. *Seda ſem ati-* |  |
+| `c2-l014` | Foſofibo, l, foſofibono ito. *Seda ſem ati-* |  |
 | `c2-l015` | &emsp;*lho, boa, & feita em fardo de Iapão.* |  |
 | `c2-l016` | Foſogoxi. *Cinta, ou lugar por onde cingem* |  |
 | `c2-l017` | &emsp;*o cinto.* |  |
@@ -96,7 +95,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l021` | &emsp;*nha, &c.* |  |
 | `c2-l022` | &emsp;Foſoſa. |  |
 | `c2-l023` | &emsp;Foſô. |  |
-| `c2-l024` | Foſoiri. *Ladrãoſinho, ou ladrão eſcãdido.* |  |
+| `c2-l024` | Foſoiri. *Ladrãoſinho, ou ladrão eſcõdido.* |  |
 | `c2-l025` | Foſomari, u, atta. *Adelgaçarſe.* |  |
 | `c2-l026` | Foſome, uru, eta. *Adelgaçar, ou fazer* |  |
 | `c2-l027` | &emsp;*pequeno. ¶* Cuchiuo foſomuru. *Fazer* |  |
@@ -106,21 +105,26 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l031` | Foſomichi. *Caminho eſtreito.* |  |
 | `c2-l032` | Foſomono. *Ouro.* |  |
 | `c2-l033` | Foſonagai. *Couſa delgada, & comprida.* |  |
-| `c2-l034` | Foſonouo, l, feſonouo. T*ripa que traz* |  |
+| `c2-l034` | Foſonouo, l, feſonouo. *Tripa que traz* |  |
 | `c2-l035` | &emsp;*o menino no embigo quando nace.* |  |
 | `c2-l036` | Foſoſugi, l, foſoſugina. *Couſa comprida* |  |
 | `c2-l037` | &emsp;*& eſtreita. Vt,* Foſoſugina catana. *Ca-* |  |
 | `c2-l038` | &emsp;*tana de folha eſtreita.* |  |
 | `c2-l039` | Foſoutçubo. *Aljaua pequena.* |  |
 | `c2-l040` | Foſoya. *Seta pequena: communmente ſe vſa* |  |
-| `c2-l041` | &emsp;*falando hum deji humildemente apoucando* |  |
+| `c2-l041` | &emsp;*falando hum deſi humildemente apoucando* |  |
 | `c2-l042` | &emsp;*a ſua ſeta, &c.* |  |
 | `c2-l043` | Fǒſun. *Quantidade, ou medida de meo dedo em* |  |
 | `c2-l044` | &emsp;*quadro.* |  |
-| `c2-l045` | Foſtǒ. *Hũa certa Seita.* |  |
-| `c2-l046` | Foſſocu. Nori, nori. *Leis, ou or denaçoẽs.* |  |
-| `c2-l047` | Foſocu. l, *p*otiù*s*, faſſocu. Axiuo voco- |  |
-| `c2-l048` | &emsp;ſu. |  |
+| `c2-l045` | Foſſǒ. *Hũa certa Seita.* |  |
+| `c2-l046` | Foſſocu. Nori, nori. *Leis, ou ordenaçoẽs.* |  |
+| `c2-l047` | Foſſocu. l, *potiùs,* faſſocu. Axiuo voco- |  |
+
+## Catchword
+
+| Physical line | Main position | Far right |
+| --- | --- | --- |
+| `c2-l048` | ſu. |  |
 
 ## Printed page number
 
