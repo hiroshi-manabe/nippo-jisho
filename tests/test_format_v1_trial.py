@@ -4,6 +4,8 @@ from pathlib import Path
 import subprocess
 import sys
 import unittest
+import tempfile
+from unittest import mock
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -20,6 +22,27 @@ def load_module():
 
 
 class FormatV1TrialTests(unittest.TestCase):
+    def test_selected_render_preserves_other_page_views(self):
+        module = load_module()
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / 'level1').mkdir()
+            for pid in ('page-a', 'page-b'):
+                (root / 'level1' / (pid + '.json')).write_text(json.dumps({'id': pid}))
+            (root / 'level2').mkdir()
+            (root / 'level2/selected-structure.json').write_text('{}')
+            output = root / 'generated'
+            output.mkdir()
+            (output / 'page-b-page.md').write_text('keep existing preview')
+            with (mock.patch.object(module, 'validate_page', return_value={}),
+                  mock.patch.object(module, 'validate_structure'),
+                  mock.patch.object(module, 'render_page', side_effect=lambda p: p['id']),
+                  mock.patch.object(module, 'render_sequences', return_value='shared'),
+                  mock.patch.object(sys, 'argv', ['render', str(root), '--pages', 'page-a'])):
+                self.assertEqual(module.main(), 0)
+            self.assertEqual((output / 'page-a-page.md').read_text(), 'page-a')
+            self.assertEqual((output / 'page-b-page.md').read_text(), 'keep existing preview')
+
     def test_f13_internal_heading_is_furniture_not_body_text(self):
         page = json.loads(
             (TRIAL / "level1" / "bnf-f0013.json").read_text(encoding="utf-8")

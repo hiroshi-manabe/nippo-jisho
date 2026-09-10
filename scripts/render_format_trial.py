@@ -246,6 +246,8 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("trial_dir", type=Path)
     parser.add_argument("--check", action="store_true", help="validate without writing views")
+    parser.add_argument("--pages", nargs="*", default=None,
+                        help="write only these page IDs; an empty list writes no page views")
     args = parser.parse_args()
     trial_dir = args.trial_dir.resolve()
     try:
@@ -266,10 +268,18 @@ def main() -> int:
         structure = load_json(structure_path)
         validate_structure(structure, registry, structure_path)
 
+        selected = None if args.pages is None else set(args.pages)
+        if selected is not None:
+            unknown = selected - {page['id'] for page in pages}
+            if unknown:
+                raise TrialFormatError(f"unknown requested pages: {sorted(unknown)}")
+
         if not args.check:
             output_dir = trial_dir / "generated"
             output_dir.mkdir(parents=True, exist_ok=True)
             for page in pages:
+                if selected is not None and page['id'] not in selected:
+                    continue
                 (output_dir / f"{page['id']}-page.md").write_text(
                     render_page(page), encoding="utf-8"
                 )

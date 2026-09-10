@@ -513,7 +513,11 @@ def apply_resolved(line: dict, item: dict) -> None:
         line.pop("note", None)
 
 
-def validation_commands(root: Path) -> list[list[str]]:
+def validation_commands(root: Path, report: dict) -> list[list[str]]:
+    canonical_pages = sorted({
+        child['page_id'] for child in report.get('pages', [report])
+        if child.get('source_kind', 'canonical_markdown') != 'ocr_candidate'
+    })
     return [
         [
             "python3",
@@ -522,14 +526,15 @@ def validation_commands(root: Path) -> list[list[str]]:
             "pilot/format-v1-trial/level1-source",
             "pilot/format-v1-trial/level1",
         ],
-        ["python3", "scripts/render_format_trial.py", "pilot/format-v1-trial"],
+        ["python3", "scripts/render_format_trial.py", "pilot/format-v1-trial",
+         *(["--pages", *canonical_pages] if canonical_pages else ["--check"])],
         ["python3", "scripts/build_public_review.py"],
         ["python3", "-m", "unittest", "discover", "-s", "tests"],
     ]
 
 
-def regenerate_and_test(root: Path) -> None:
-    for command in validation_commands(root):
+def regenerate_and_test(root: Path, report: dict) -> None:
+    for command in validation_commands(root, report):
         run(command, root=root)
 
 
@@ -605,7 +610,7 @@ def prepare_page(issue_number, issue, payload, root, repository, *, defer=False,
     save_editable_page(root, storage, page)
     write_json(report_path(issue_number, root), report)
     try:
-        regenerate_and_test(root)
+        regenerate_and_test(root, report)
     except IssueProcessingError as error:
         report["status"] = "validation_failed"
         report["validation_error"] = str(error)
@@ -635,7 +640,7 @@ def prepare_batch(issue_number, issue, payload, root, repository):
         child["status"] = "awaiting_second_opinion" if child["second_opinions"] else "ready_to_finalize"
     write_json(report_path(issue_number, root), report)
     try:
-        regenerate_and_test(root)
+        regenerate_and_test(root, report)
     except IssueProcessingError as error:
         report.update(status="validation_failed", validation_error=str(error))
         write_json(report_path(issue_number, root), report)
@@ -855,7 +860,7 @@ def finalize(
         update_history(child, lines, root)
         child["accepted_lines"] = lines
         accepted.extend([f"{child['page']}/{line}" for line in lines] if "pages" in report else lines)
-    regenerate_and_test(root)
+    regenerate_and_test(root, report)
     changed = changed_paths(root)
     unexpected = changed - expected_paths(report, root)
     if unexpected:

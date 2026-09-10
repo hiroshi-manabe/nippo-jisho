@@ -21,6 +21,17 @@ from scripts.compile_level1_markdown import export_markdown, parse_markdown
 
 
 class CorrectionIssueProcessorTests(unittest.TestCase):
+    def test_preview_generation_is_scoped_to_canonical_issue_pages(self):
+        from scripts.process_correction_issue import validation_commands
+        report = {'pages': [
+            {'page_id': 'bnf-f0202'}, {'page_id': 'bnf-f0201'},
+            {'page_id': 'bnf-f0300', 'source_kind': 'ocr_candidate'},
+        ]}
+        command = validation_commands(Path('.'), report)[1]
+        self.assertEqual(command[3:], ['--pages', 'bnf-f0201', 'bnf-f0202'])
+        candidate = {'page_id': 'bnf-f0300', 'source_kind': 'ocr_candidate'}
+        self.assertEqual(validation_commands(Path('.'), candidate)[1][3:], ['--check'])
+
     def test_oldest_issue_query_is_creation_ordered_and_limited(self):
         from scripts.process_correction_issue import oldest_open_issue
         with mock.patch("scripts.process_correction_issue.run", return_value='[{"number": 42}]') as run:

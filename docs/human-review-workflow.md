@@ -434,6 +434,16 @@ python3 scripts/process_correction_issue.py finalize ISSUE_NUMBER
 
 Finalization refuses unresolved decisions, validates rejected and accepted lines against the prepared base, and then follows the same generation, testing, publication, deployed-verification, and closure sequence. `--local-only` exercises either path through local generation and tests without Git or GitHub writes; it is intended for development and regression testing, not ordinary Issue processing.
 
+Page-preview generation is limited to the canonical pages in the Issue; the
+renderer still validates the full corpus and refreshes the shared selected
+reading view. Candidate-only Issues validate those views without rewriting
+them. This prevents stale previews on unrelated pages from becoming unexpected
+changes during processing. If interruption occurs after correction history has
+been written, resume the existing report with `finalize ISSUE_NUMBER`, not
+`process`: preparation intentionally rejects pre-existing history changes.
+Unrelated edits remain protected by the worktree guard and must be dealt with
+separately, not added wholesale to the Issue's allowed paths.
+
 Tests must not freeze a particular reading from the evolving diplomatic transcription as though it were a permanent software invariant. Text changes are preserved by Git history, correction provenance, and Issue records. Tests instead protect parsing, round trips, stable addressing, structural metadata, geometry validity, correction-history consistency, and publication behavior. Features that transform correction text or typography use synthetic fixtures. A newly accepted reading should therefore not require a corpus-content assertion to be rewritten.
 
 Second-opinion adjudication is deliberately asymmetric. A human correction receives a strong corrective prior because it normally reports a discrepancy found while comparing the scan with the published text, whereas the existing transcription is usually the machine reader's own earlier visual judgment. Showing that old judgment during a second visual pass creates anchoring: the machine can reproduce its first interpretation without adding independent evidence.
