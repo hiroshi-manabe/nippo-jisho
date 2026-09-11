@@ -164,6 +164,28 @@ class ExternalReviewTests(unittest.TestCase):
         self.assertEqual(review.category('ã', 'a'), 'diacritics')
         self.assertEqual(review.distance('abc', 'adc'), 1)
 
+    def test_complete_batches_and_remainder(self):
+        for n in range(216, 223):
+            path = self.root / review.SOURCE / f'bnf-f{n:04}.md'
+            path.parent.mkdir(parents=True, exist_ok=True)
+            path.write_bytes(MD)
+        dest = self.root / 'packages'
+        with patch.object(review, 'ROOT', self.root), patch.object(review, 'human_protected', return_value={}), \
+             patch.object(review, 'package') as pack, patch.object(review, 'git', return_value=b'abc'):
+            review.batches(argparse.Namespace(start=216, end=222, size=3, output=dest))
+            self.assertEqual([c.args[0].pages for c in pack.call_args_list], [[216,217,218], [219,220,221]])
+        self.assertEqual(json.loads((dest / 'batch-index.json').read_bytes())['omitted'][0]['pages'], [222])
+
+    def test_batch_skips_protected_group_without_regrouping(self):
+        for n in range(216, 222):
+            path = self.root / review.SOURCE / f'bnf-f{n:04}.md'
+            path.parent.mkdir(parents=True, exist_ok=True)
+            path.write_bytes(MD)
+        with patch.object(review, 'ROOT', self.root), patch.object(review, 'human_protected', return_value={'bnf-f0217': 'human'}), \
+             patch.object(review, 'package') as pack, patch.object(review, 'git', return_value=b'abc'):
+            review.batches(argparse.Namespace(start=216, end=221, size=3, output=self.root / 'packages'))
+            self.assertEqual([c.args[0].pages for c in pack.call_args_list], [[219,220,221]])
+
     def test_real_evaluation_package_smoke(self):
         path = SCRIPTS.parent / 'exports/external-review/ready/evaluation-f0202-f0203-f0204-fa1b73ca-input.zip'
         if not path.exists():

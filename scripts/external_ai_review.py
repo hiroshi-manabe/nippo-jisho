@@ -186,6 +186,42 @@ def structure(page):
     return p
 
 
+def batches(args):
+    """Package complete consecutive batches; report rather than hide omissions."""
+    if args.start < 1 or args.end < args.start or args.size < 1:
+        raise ValueError('Invalid batch range or size')
+    candidates = list(range(args.start, args.end + 1))
+    protected = human_protected()
+    plans, omitted = [], []
+    for offset in range(0, len(candidates), args.size):
+        group = candidates[offset:offset + args.size]
+        if len(group) != args.size:
+            omitted.append({'pages': group, 'reason': 'Incomplete final batch; held for later'})
+            continue
+        reasons = []
+        for n in group:
+            pid = f'bnf-f{n:04}'
+            path = ROOT / SOURCE / f'{pid}.md'
+            if not path.exists():
+                reasons.append(f'{pid}: unsupported noncanonical page')
+            elif pid in protected or parse(path.read_bytes())['review']['status'] == 'human_checked':
+                reasons.append(f'{pid}: human-protected')
+        if reasons:
+            omitted.append({'pages': group, 'reason': '; '.join(reasons)})
+        else:
+            plans.append(group)
+    if (args.output / 'batch-index.json').exists():
+        raise ValueError('Batch index already exists; use a new output directory')
+    for group in plans:
+        package(argparse.Namespace(evaluation=False, pages=group, output=args.output))
+    args.output.mkdir(parents=True, exist_ok=True)
+    (args.output / 'batch-index.json').write_bytes(encoded({'schema': 1,
+        'baseline_commit': git('rev-parse', 'HEAD').decode().strip(),
+        'batches': plans, 'omitted': omitted,
+        'input_archives': sorted(p.name for p in args.output.glob('*-input.zip'))}))
+    print(f'{len(plans)} complete batches; omitted: {omitted}')
+
+
 def validate(input_path, result_path, require_ready=False):
     incoming, result = read_zip(input_path), read_zip(result_path)
     m, r = json.loads(incoming['manifest.json']), json.loads(result['result.json'])
@@ -391,6 +427,11 @@ def main():
     pack.add_argument('--evaluation', action='store_true')
     pack.add_argument('--pages', type=int, nargs='+')
     pack.add_argument('--output', type=Path, required=True)
+    batch = sub.add_parser('batches')
+    batch.add_argument('--start', type=int, required=True)
+    batch.add_argument('--end', type=int, required=True)
+    batch.add_argument('--size', type=int, default=3)
+    batch.add_argument('--output', type=Path, required=True)
     for name in ('validate', 'evaluate', 'apply'):
         s = sub.add_parser(name)
         s.add_argument('input', type=Path)

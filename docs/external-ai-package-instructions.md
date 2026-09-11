@@ -27,6 +27,11 @@ on reduced attachment previews. No access to our image server is needed.
    reports including line IDs. Empty lists mean none. `typeface_terms` maps body
    line IDs to exact substrings: Japanese words embedded in Portuguese or
    citation labels for human whole-word font toggling, not ordinary headwords.
+   Do not mark Japanese synonyms after `i,`, standalone Japanese example
+   sentences, or their individual words and fragments. Mere proximity to
+   Portuguese text is not enough: the Japanese term must occur *within a
+   Portuguese explanation* (for example Fotoque in an otherwise Portuguese
+   sentence). Citation labels may also be marked. An empty mapping is valid.
 6. ZIP the output directory's contents at the root: `result.json` and `pages/`.
    Name it `PACKAGE-ID-result.zip`, substituting the manifest's package ID.
    Do not include scans, input files, or a parent directory. Do not manufacture

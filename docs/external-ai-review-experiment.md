@@ -61,6 +61,16 @@ canonical pages. It refuses pages with human correction history or human status.
 The first version supports compact canonical pages only; other pages stop rather
 than being silently promoted.
 
+For self-contained consecutive three-page packages:
+
+`python3 scripts/external_ai_review.py batches --start 216 --end 237 --size 3 --output exports/external-review/production-f0216-f0236`
+
+This creates seven full batches through f236. The incomplete f237 remainder is
+explicitly listed as held in `batch-index.json`. Unsupported or human-protected
+groups are listed as omitted, not silently regrouped. Every ZIP includes the
+f201 example, full references and native images; send each ZIP independently.
+Keep returned `PACKAGE-ID-result.zip` beside its corresponding input ZIP.
+
 `python3 scripts/external_ai_review.py apply INPUT.zip RESULT.zip`
 
 requires a clean tracked worktree, a production package, unchanged baselines and
