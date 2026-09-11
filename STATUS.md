@@ -2,8 +2,10 @@
 
 ## External review schema 2 — structural authority delegated
 
-The f216–f218 return remains unapplied for later local integration. It reports
-missing body rows and furniture corrections that the old contract withheld.
+The f216–f218 return is now integrated, including two missing body rows on f216,
+the final Idem row on f217, and the reported header/catchword corrections.
+These structural additions were checked against native scans. External comments
+and nonblocking reading uncertainties are preserved; this is not human approval.
 New schema-2 packages allow the reviewer to make those edits directly with
 explicit before/after ID accounting. Chosen-reading caveats are nonblocking;
 explicit decision requests still stop import. Geometry is rebuilt from resulting
@@ -11,7 +13,7 @@ zones and checked through the UI renderer. The six remaining batches, f219–f23
 are regenerated in `exports/external-review/production-v2-f0219-f0236/`.
 Use those packages instead of the previous schema-1 inputs for those pages.
 
-Last updated: 2026-09-11
+Last updated: 2026-09-12
 
 ## External review experiment — handoff ready, evaluation pending
 

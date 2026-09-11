@@ -1,0 +1,158 @@
+{
+  "schema": 2,
+  "package_id": "production-f0216-f0217-f0218-b5c24c84-local-structural-integration",
+  "input_manifest_sha256": "9e7b36c298401643d9b8180d709310fbb4db608fd3a4e2c237d1ec9c51185be2",
+  "reviewer": "GPT-6 Astra Pro (OpenAI); external scan-based AI review, 2026-09-11; not human approval or local integration.",
+  "pages": {
+    "bnf-f0216": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c1-l001: Foyejini is the preferred reading, supported by residual ink, Japanese morphology and the supplied NINJAL lexical aid; the n before final i is severely worn.",
+        "c1-l042: Fozoucchiga is retained provisionally. The headword suggests Fozouochiga, but the relevant round glyph is open/abraded; do not silently regularize the example without human adjudication.",
+        "c1-l045: enxarcias is preferred for the rigging term; the worn middle c/i sequence is not wholly secure against a literal enxartias-like reading.",
+        "After c1-l037, first missing row: monouo yǔ is the contextual reading, but the initial m is damaged and appears n-like. See the separate structural report."
+      ],
+      "structural_changes": [
+        {
+          "before": [],
+          "after": [
+            "c1-l037a",
+            "c1-l037b"
+          ],
+          "reason": "Two omitted physical rows inserted between c1-l037 and c1-l038 without renumbering."
+        },
+        {
+          "before": [
+            "h2-l001"
+          ],
+          "after": [
+            "h2-l001"
+          ],
+          "reason": "Reported furniture correction confirmed against native scan."
+        }
+      ],
+      "typeface_terms": {
+        "c1-l033": [
+          "Ximo"
+        ],
+        "c1-l034": [
+          "Cami",
+          "Fi-"
+        ],
+        "c1-l035": [
+          "uchibucuro",
+          "qinchacu"
+        ]
+      },
+      "legacy_structural_report": [
+        "PENDING — c1-l037 -> c1-l038: two physical body rows are absent from both the Markdown ID inventory and the geometry inventory. Do not join these existing lines directly and do not renumber later IDs. Proposed first inserted row (new stable ID to be assigned locally), native crop [295,2730,1165,119]: monouo yǔ. *Falar liuremente ſem pejo, &* . English note: Completes Fǒzonmonǒ monouo yǔ, speaking without respectful reserve; the Portuguese says speaking freely without embarrassment. Initial m is damaged. Proposed second inserted row, crop [295,2794,1165,119]: *reſpeito da peſoa de que ſe falla. ¶* Fǒzon . English note: Completes the absence of respect for the person spoken about, then begins Fǒzon uo voqu, the positive reserve example continued at c1-l038. Both rows were inspected in native context during both passes; insertion is withheld to preserve the supplied ID contract.",
+        "PENDING FURNITURE — h2-l001: the native running header reads F ANTES DO V., whereas the supplied furniture text is F ANTES DO O. The furniture record has been left unchanged under this contract; authorize the O -> V correction during local structural integration."
+      ],
+      "decision_requests": []
+    },
+    "bnf-f0217": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c1-l012: rumer is retained provisionally from the aligned draft. The meaning calls for rumor, but the worn glyph remains e-like; a literal printing anomaly cannot be excluded.",
+        "c1-l028: Aduero. is the visible grammatical label and is retained, rather than expanded or normalized to a modern abbreviation.",
+        "c2-l014: cotouari restores the almost erased a between u and r on Japanese morphological/contextual evidence and slight residual ink; that individual glyph is not securely legible.",
+        "c2-l018: fucaqu is preferred for the lack-of-awareness expression; the a is worn, while the q descender is visible."
+      ],
+      "structural_changes": [
+        {
+          "before": [],
+          "after": [
+            "c1-l048"
+          ],
+          "reason": "Omitted final Idem body row restored."
+        },
+        {
+          "before": [
+            "cw-l001"
+          ],
+          "after": [
+            "cw-l001"
+          ],
+          "reason": "Reported furniture correction confirmed against native scan."
+        }
+      ],
+      "typeface_terms": {
+        "c1-l026": [
+          "Tatamis"
+        ],
+        "c2-l024": [
+          "Catana"
+        ],
+        "c2-l042": [
+          "Chinmiacu"
+        ]
+      },
+      "legacy_structural_report": [
+        "PENDING — after c1-l047: a further physical body row, *Idem.*, is printed at the foot of column 1 but absent from the supplied Markdown and crop-ID inventories. Proposed native crop [190,3317,1105,114]. English note: Idem refers the preceding Teqiginni fucairiuo suru example back to the definition of penetrating deeply into the enemy's position. The row was read in both complete visual passes; assign a new stable ID locally without renumbering existing rows. No insertion has been made under this contract.",
+        "PENDING FURNITURE — cw-l001: the catchword is Fuchǔ, matching the first headword on f218; the final u and its caron are worn but present. The supplied furniture Fuchi has been left unchanged; authorize the correction during local structural integration."
+      ],
+      "decision_requests": []
+    },
+    "bnf-f0218": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c1-l035: Xiru is retained wholly italic, but the capital X has an ambiguous slope in this copy. The embedded whole word is flagged for human typeface adjudication.",
+        "c2-l007: Fucumadai is a clear literal reading, retained despite the alphabetical context and the supplied NINJAL lexical aid suggesting Fucumedai. Treat this as a possible printing anomaly, not permission to silently emend the headword.",
+        "c2-l018: Vra- restores a severely worn r. Residual ink, the continuation miuo and the resentment gloss support Vramiuo, but the individual damaged glyph remains less secure than the word identification.",
+        "c2-l021: Iqidouoriuo is preferred after native enlargement; the first o after d survives mainly as a lower remnant. The contemporary Amakusa Heike independently attests iqidouori, as cited in the line note, but does not certify this damaged glyph.",
+        "c2-l028: Páouo is retained provisionally with an acute-like mark above a. An abbreviated or damaged nasal mark cannot be excluded; do not normalize it to Pãouo without human adjudication.",
+        "c2-l043: Suco is retained provisionally because the worn vowel is u-like. Saco fits the bag definition, but whether this is damaged a or a literal printing anomaly remains unresolved."
+      ],
+      "structural_changes": [
+        {
+          "before": [
+            "cw-l001"
+          ],
+          "after": [
+            "cw-l001"
+          ],
+          "reason": "Reported furniture correction confirmed against native scan."
+        }
+      ],
+      "typeface_terms": {
+        "c1-l013": [
+          "Taif."
+        ],
+        "c1-l031": [
+          "Camis",
+          "Fotoques"
+        ],
+        "c1-l035": [
+          "Xiru"
+        ],
+        "c2-l004": [
+          "Cu-"
+        ],
+        "c2-l005": [
+          "cume"
+        ],
+        "c2-l029": [
+          "Mangiùs"
+        ],
+        "c2-l044": [
+          "Vofu-"
+        ],
+        "c2-l045": [
+          "curo"
+        ]
+      },
+      "legacy_structural_report": [
+        "PENDING FURNITURE — cw-l001: the native catchword reads Fucu- with a terminal hyphen, whereas the supplied furniture reads Fucu. The furniture record has been left unchanged under this contract; authorize adding the hyphen during local structural integration. The running header h1-l001 was also checked and genuinely reads F ANTES DO O.; no header correction is proposed on this page."
+      ],
+      "decision_requests": []
+    }
+  },
+  "original_result_sha256": "794285e1626c03b3341271e9991b189658fb48e384d59d26eaff7b083ba58274",
+  "local_integration": "Original external text accepted; reported missing rows and furniture inspected and integrated locally. No claim of an additional full local review."
+}
