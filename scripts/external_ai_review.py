@@ -104,7 +104,7 @@ def package(args):
     files, private = {}, {}
     geo_all = json.loads(snapshot(base, GEOMETRY))
     geos = {p['id']: p for p in geo_all['pages']}
-    manifest = {'schema': 1, 'package_id': pid, 'mode': 'evaluation' if evaluation else 'production',
+    manifest = {'schema': 2, 'package_id': pid, 'mode': 'evaluation' if evaluation else 'production',
                 'baseline_commit': base, 'pages': {}, 'files': {}}
     for n in ([201] + targets):
         page_id = f'bnf-f{n:04}'
@@ -162,9 +162,9 @@ def package(args):
     manifest['files'] = {n: sha(d) for n, d in files.items() if not n.startswith('result-template/')}
     mb = encoded(manifest)
     files['manifest.json'] = mb
-    files['result-template/result.json'] = encoded({'schema': 1, 'package_id': pid, 'input_manifest_sha256': sha(mb),
+    files['result-template/result.json'] = encoded({'schema': 2, 'package_id': pid, 'input_manifest_sha256': sha(mb),
         'reviewer': '', 'pages': {p: {'first_pass': False, 'second_pass': False, 'crops_inspected': False,
-          'uncertainties': [], 'structural_changes': [], 'typeface_terms': {}} for p in manifest['pages']}})
+          'uncertainties': [], 'decision_requests': [], 'structural_changes': [], 'typeface_terms': {}} for p in manifest['pages']}})
     dest = args.output / f'{pid}-input.zip'
     write_zip(dest, files)
     if evaluation:
@@ -225,7 +225,7 @@ def batches(args):
 def validate(input_path, result_path, require_ready=False):
     incoming, result = read_zip(input_path), read_zip(result_path)
     m, r = json.loads(incoming['manifest.json']), json.loads(result['result.json'])
-    if m['schema'] != 1 or r['schema'] != 1 or r['package_id'] != m['package_id'] or r['input_manifest_sha256'] != sha(incoming['manifest.json']):
+    if m['schema'] not in (1, 2) or r['schema'] != m['schema'] or r['package_id'] != m['package_id'] or r['input_manifest_sha256'] != sha(incoming['manifest.json']):
         raise ValueError('Result does not match input manifest')
     if m['mode'] not in ('evaluation', 'production') or not m['pages'] or any(not re.fullmatch(r'bnf-f[0-9]{4}', pid) for pid in m['pages']):
         raise ValueError('Invalid package mode or page IDs')
@@ -244,7 +244,7 @@ def validate(input_path, result_path, require_ready=False):
         if old['id'] != pid or old['review']['status'] == 'human_checked':
             raise ValueError(f'{pid}: wrong page identity or human-checked input')
         info = r['pages'][pid]
-        if structure(old) != structure(new):
+        if m['schema'] == 1 and structure(old) != structure(new):
             raise ValueError(f'{pid}: structural/metadata/furniture change needs adjudication')
         for key in ('uncertainties', 'structural_changes'):
             if not isinstance(info.get(key), list):
@@ -252,15 +252,22 @@ def validate(input_path, result_path, require_ready=False):
         for key in ('first_pass', 'second_pass', 'crops_inspected'):
             if info.get(key) is not True:
                 raise ValueError(f'{pid}: incomplete {key}')
-        if require_ready and (info['uncertainties'] or info['structural_changes']):
+        if m['schema'] == 2:
+            validate_structure_v2(old, new, info)
+            if not isinstance(info.get('decision_requests'), list):
+                raise ValueError(f'{pid}: decision_requests must be a list')
+        blocked = (info['uncertainties'] or info['structural_changes']) if m['schema'] == 1 else info['decision_requests']
+        if require_ready and blocked:
             raise ValueError(f'{pid}: unresolved reports need a decision')
         for lid, line in lines(new, True).items():
             if not isinstance(line.get('note'), str) or not line['note'].strip():
                 raise ValueError(f'{pid}/{lid}: missing commentary')
         geom = json.loads(result[f'pages/{pid}.geometry.json'])
         before = json.loads(incoming[spec['input_prefix'] + '/geometry.json'])
-        if geom['source_size'] != before['source_size'] or set(geom['crops']) != set(before['crops']):
+        if geom['source_size'] != before['source_size'] or (m['schema'] == 1 and set(geom['crops']) != set(before['crops'])):
             raise ValueError(f'{pid}: geometry identity mismatch')
+        if m['schema'] == 2 and not set(geom['crops']) <= set(lines(new)):
+            raise ValueError(f'{pid}: orphan geometry IDs')
         if not set(lines(new, True)) <= set(geom['crops']):
             raise ValueError(f'{pid}: body crop missing')
         width, height = geom['source_size']
@@ -275,6 +282,74 @@ def validate(input_path, result_path, require_ready=False):
                 raise ValueError(f'{pid}: invalid typeface terms')
         pages[pid] = (new, geom)
     return m, r, pages
+
+
+def validate_structure_v2(old, new, info):
+    """Require explicit ID accounting without adjudicating the reader's decisions."""
+    if {k:v for k,v in old.items() if k != 'zones'} != {k:v for k,v in new.items() if k != 'zones'}:
+        raise ValueError('Source identity and review metadata are immutable')
+    for page in (old, new):
+        zone_ids = [z['id'] for z in page['zones']]
+        if len(zone_ids) != len(set(zone_ids)):
+            raise ValueError('Duplicate zone IDs')
+        allowed = {'catchword', 'column', 'display_title', 'internal_heading',
+                   'later_copy_mark', 'page_number', 'printer_ornament',
+                   'running_header', 'section_divider', 'section_heading',
+                   'signature', 'terminus'}
+        if any(z['kind'] not in allowed for z in page['zones']):
+            raise ValueError('Unsupported zone kind; explicit format extension needed')
+    before, after = lines(old), lines(new)
+    accounted_before, accounted_after = set(), set()
+    for change in info['structural_changes']:
+        if not isinstance(change, dict) or not isinstance(change.get('reason'), str) or not change['reason'].strip():
+            raise ValueError('Structural changes require before/after ID lists and a reason')
+        for key, inventory, accounted in [('before', before, accounted_before), ('after', after, accounted_after)]:
+            ids = change.get(key)
+            if not isinstance(ids, list) or any(not isinstance(lid, str) for lid in ids) or len(ids) != len(set(ids)) or not set(ids) <= set(inventory):
+                raise ValueError('Invalid structural ID mapping')
+            accounted.update(ids)
+        if not change['before'] and not change['after']:
+            raise ValueError('Empty structural change')
+    if not (set(before)-set(after)) <= accounted_before or not (set(after)-set(before)) <= accounted_after:
+        raise ValueError('Unaccounted added or removed line IDs')
+    def identities(page):
+        result = {}
+        for zone in page['zones']:
+            for l in zone['lines']:
+                layouts = [{k:v for k,v in run.items() if k not in ('text','typeface')} for run in l['runs']]
+                layouts = [v for i,v in enumerate(layouts) if not i or v != layouts[i-1]]
+                result[l['id']] = (zone['id'], zone['kind'], l.get('indent',0), layouts)
+        return result
+    a,b = identities(old),identities(new)
+    for lid in set(before)&set(after):
+        furniture_changed = lid not in lines(old, True) and before[lid]['runs'] != after[lid]['runs']
+        if (a[lid] != b[lid] or furniture_changed) and not (lid in accounted_before and lid in accounted_after):
+            raise ValueError(f'{lid}: undeclared movement, layout or furniture change')
+    # Compare order after removing declared targets; untouched IDs cannot drift.
+    if [lid for lid in before if lid not in accounted_before] != [lid for lid in after if lid not in accounted_after]:
+        raise ValueError('Undeclared line reordering')
+
+
+def integrated_geometry(previous, page, result):
+    """Rebuild membership and context crops from the actual resulting body zones."""
+    out = copy.deepcopy(previous)
+    out['columns'] = {}
+    width, height = result['source_size']
+    for zone in page['zones']:
+        if zone['kind'] != 'column' or not zone['lines']:
+            continue
+        records = {}
+        for line in zone['lines']:
+            lid = line['id']; x,y,w,h = result['crops'][lid]
+            top, bottom = max(0,y-h), min(height,y+2*h)
+            records[lid] = {'crop': [x,y,w,h], 'context_crop': [x,top,w,bottom-top], 'centre_y': y+h/2}
+        boxes = [l['crop'] for l in records.values()]
+        out['columns'][zone['id']] = {
+            'box': [min(b[0] for b in boxes), min(b[1] for b in boxes),
+                    max(b[0]+b[2] for b in boxes), max(b[1]+b[3] for b in boxes)],
+            'lines': records, 'visual_review': 'external_line_by_line_review',
+            'reviewed_at': datetime.now(timezone.utc).date().isoformat()}
+    return out
 
 
 def distance(a, b):
@@ -333,8 +408,9 @@ def evaluate(args):
                     'external_difference_category': category(values['external'], values['human']) if values['external'] is not None and values['human'] is not None else 'line_inventory',
                     'runs': {label: v.get(lid, {}).get('runs') for label, v in versions.items()}})
         input_geometry = json.loads(input_files[m['pages'][pid]['input_prefix'] + '/geometry.json'])
-        changed_crops = {lid: {'input': input_geometry['crops'][lid], 'external': box}
-                         for lid, box in geom['crops'].items() if box != input_geometry['crops'][lid]}
+        changed_crops = {lid: {'input': input_geometry['crops'].get(lid), 'external': geom['crops'].get(lid)}
+                         for lid in set(geom['crops']) | set(input_geometry['crops'])
+                         if geom['crops'].get(lid) != input_geometry['crops'].get(lid)}
         reference_geometry = {label: json.loads(refs[f'{label}/{pid}.geometry.json'])
                               for label in ('local', 'human') if f'{label}/{pid}.geometry.json' in refs}
         report['pages'][pid] = {'scores': scores, 'differences': diffs,
@@ -368,13 +444,7 @@ def apply(args):
         if parse(writes[f'{SOURCE}/{pid}.md']) != page:
             raise ValueError(f'{pid}: Markdown round-trip changed the page')
         writes[f'{COMPILED}/{pid}.json'] = encoded(page)
-        for col in lookup[pid]['columns'].values():
-            for lid, line in col['lines'].items():
-                line['crop'] = geo['crops'][lid]
-                line['centre_y'] = line['crop'][1] + line['crop'][3] / 2
-                line.pop('context_crop', None)
-            col['visual_review'] = 'external_line_by_line_review'
-            col['reviewed_at'] = datetime.now(timezone.utc).date().isoformat()
+        lookup[pid].update(integrated_geometry(lookup[pid], page, geo))
         registry['pages'][pid] = {'completed_at': datetime.now(timezone.utc).date().isoformat(),
           'procedure': 'commentary_and_second_pass_v1', 'reviewer': r['reviewer'],
           'provenance': 'external', 'input_manifest_sha256': r['input_manifest_sha256'],

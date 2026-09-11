@@ -54,8 +54,12 @@ requirement. Full-page context resolves displaced fragments and catchwords.
 
 Keep stable IDs; do not renumber to hide a missing or displaced row. Check page
 furniture as well as text; furniture does not need routine line commentary.
-Report structural changes separately if the interchange format cannot express
-them safely. Mark Japanese words embedded in Portuguese and citation labels
+The schema-2 external interchange delegates structural correction to the reviewer:
+return corrected Markdown and crops with explicit before/after ID mappings and
+reasons. Preserve unaffected IDs and account for removed material. Chosen readings
+may carry nonblocking uncertainty notes; request intervention only when a usable
+choice cannot be delivered. Schema-1 legacy packages remain restricted.
+Mark Japanese words embedded in Portuguese and citation labels
 for optional whole-word typeface toggling, irrespective of current font. Do not
 mark ordinary Japanese headwords solely because they are Japanese.
 

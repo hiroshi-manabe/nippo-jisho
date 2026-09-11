@@ -164,6 +164,84 @@ class ExternalReviewTests(unittest.TestCase):
         self.assertEqual(review.category('ã', 'a'), 'diacritics')
         self.assertEqual(review.distance('abc', 'adc'), 1)
 
+    def v2(self):
+        m = json.loads(self.inputs['manifest.json']); m['schema'] = 2
+        self.inputs['manifest.json'] = review.encoded(m)
+        self.input.unlink()
+        review.write_zip(self.input, self.inputs)
+        self.result['schema'] = 2
+        self.result['input_manifest_sha256'] = review.sha(self.inputs['manifest.json'])
+        self.result['pages'][self.pid]['decision_requests'] = []
+
+    def insert_row(self):
+        self.outputs[f'pages/{self.pid}.md'] += b'[c1-l001a] *Idem.*\n[c1-l001a note] Refers back to the preceding gloss.\n'
+        self.geom['crops']['c1-l001a'] = [0,20,100,20]
+        self.outputs[f'pages/{self.pid}.geometry.json'] = review.encoded(self.geom)
+
+    def test_v2_insertion_and_renderer(self):
+        self.v2(); self.insert_row()
+        self.result['pages'][self.pid]['structural_changes'] = [{'before': [], 'after': ['c1-l001a'], 'reason': 'Missing row recovered.'}]
+        _,_,pages = self.check()
+        page,geo = pages[self.pid]
+        integrated = review.integrated_geometry(self.geometry,page,geo)
+        from build_public_review import processed_page
+        rendered = processed_page(page,{}, {}, integrated, {})
+        self.assertEqual(len(rendered['zones'][0]['lines']),2)
+        self.assertIn('context_crop',rendered['zones'][0]['lines'][1])
+
+    def test_v2_unaccounted_insertion(self):
+        self.v2(); self.insert_row()
+        with self.assertRaisesRegex(ValueError,'Unaccounted'):
+            self.check()
+
+    def test_v2_nonblocking_uncertainty(self):
+        self.v2()
+        self.result['pages'][self.pid]['uncertainties'] = ['Worn letter; chosen reading retained.']
+        self.check()
+
+    def test_v2_decision_request_blocks(self):
+        self.v2()
+        self.result['pages'][self.pid]['decision_requests'] = ['Cannot determine page identity.']
+        with self.assertRaisesRegex(ValueError,'unresolved'):
+            self.check()
+
+    def test_v2_move_to_furniture(self):
+        self.v2(); self.insert_row()
+        self.outputs[f'pages/{self.pid}.md'] = self.outputs[f'pages/{self.pid}.md'].replace(b'[c1-l001a]', b'\n## catch [catchword] Catchword\n\n[c1-l001a]')
+        self.result['pages'][self.pid]['structural_changes'] = [{'before': [], 'after':['c1-l001a'], 'reason':'New catchword.'}]
+        _,_,pages=self.check(); page,geo=pages[self.pid]
+        integrated=review.integrated_geometry(self.geometry,page,geo)
+        self.assertEqual(set(integrated['columns']['column-1']['lines']),{'c1-l001'})
+
+    def test_v2_orphan_crop(self):
+        self.v2()
+        self.geom['crops']['unknown']=[0,0,10,10]
+        self.outputs[f'pages/{self.pid}.geometry.json']=review.encoded(self.geom)
+        with self.assertRaisesRegex(ValueError,'orphan'):
+            self.check()
+
+    def test_v2_changed_source_rejected(self):
+        self.v2()
+        self.outputs[f'pages/{self.pid}.md']=self.outputs[f'pages/{self.pid}.md'].replace(b'view: f216',b'view: f217')
+        with self.assertRaisesRegex(ValueError,'immutable'):
+            self.check()
+
+    def test_v2_merge_mapping(self):
+        old=review.parse(MD)
+        new=review.parse(self.outputs[f'pages/{self.pid}.md'])
+        old['zones'][0]['lines'].append({'id':'c1-l002','runs':[{'text':'Continuation.','typeface':'roman'}]})
+        review.validate_structure_v2(old,new,{'structural_changes':[{'before':['c1-l001','c1-l002'],'after':['c1-l001'],'reason':'One physical row; continuation merged into retained ID.'}]})
+        with self.assertRaisesRegex(ValueError,'Unaccounted'):
+            review.validate_structure_v2(old,new,{'structural_changes':[]})
+
+    def test_v2_header_correction_requires_declaration(self):
+        old=review.parse(MD);new=review.parse(MD)
+        for page,text in [(old,'O.'),(new,'V.')]:
+            page['zones'].append({'id':'header','kind':'running_header','label':'Header','lines':[{'id':'h1-l001','runs':[{'typeface':'display','text':text}]}]})
+        with self.assertRaisesRegex(ValueError,'undeclared'):
+            review.validate_structure_v2(old,new,{'structural_changes':[]})
+        review.validate_structure_v2(old,new,{'structural_changes':[{'before':['h1-l001'],'after':['h1-l001'],'reason':'Scan reads V.'}]})
+
     def test_complete_batches_and_remainder(self):
         for n in range(216, 223):
             path = self.root / review.SOURCE / f'bnf-f{n:04}.md'

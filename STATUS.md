@@ -1,5 +1,16 @@
 # Project Status
 
+## External review schema 2 — structural authority delegated
+
+The f216–f218 return remains unapplied for later local integration. It reports
+missing body rows and furniture corrections that the old contract withheld.
+New schema-2 packages allow the reviewer to make those edits directly with
+explicit before/after ID accounting. Chosen-reading caveats are nonblocking;
+explicit decision requests still stop import. Geometry is rebuilt from resulting
+zones and checked through the UI renderer. The six remaining batches, f219–f236,
+are regenerated in `exports/external-review/production-v2-f0219-f0236/`.
+Use those packages instead of the previous schema-1 inputs for those pages.
+
 Last updated: 2026-09-11
 
 ## External review experiment — handoff ready, evaluation pending

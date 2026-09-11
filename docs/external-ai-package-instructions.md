@@ -16,15 +16,25 @@ on reduced attachment previews. No access to our image server is needed.
    The initial kana readings are fallible and may become stale after edits;
    reason from the revised Japanese rather than preserving a bad hint.
 4. Copy `result-template/` to a working output directory. Edit its page Markdown
-   and geometry files. Return the complete pages, not patches. Metadata, stable
-   IDs, zones, indentation, placement and furniture must remain unchanged in
-   this first contract. Report necessary structural changes separately instead
-   of concealing them by renumbering. A page with a structural problem can be
-   returned as pending; it will not be imported automatically.
+   and geometry files. Return the complete corrected pages, not patches. Under
+   schema 2 you may correct furniture, placement, zones and physical lineation,
+   including adding missing rows, moving catchwords, and splitting/merging rows.
+   Make the changes in the Markdown and geometry, not merely in a prose report.
+   Keep source/review metadata unchanged and preserve all unaffected IDs. Use
+   fresh IDs such as `c1-l037a` for insertions; never renumber later rows.
+   Every structural edit requires a `structural_changes` object with `before`
+   and `after` ID lists and an explanatory `reason`. Insertions have empty
+   `before`; removals have empty `after` and must explain why nothing is lost.
+   Moves, furniture text corrections and indentation changes use the same ID
+   in both lists. Splits/merges map the involved IDs; explain where text went.
 5. In `result.json`, retain schema, package ID and input hash. Fill in reviewer
    identity (model/version if known), and set pass booleans to true only for
-   completed work. `uncertainties` and `structural_changes` are lists of readable
-   reports including line IDs. Empty lists mean none. `typeface_terms` maps body
+   completed work. `uncertainties` records nonblocking caveats about readings you
+   have chosen and incorporated. Use `decision_requests` ONLY when you cannot
+   deliver a usable choice without intervention; this blocks automatic import.
+   An applied structural correction or ordinary damaged glyph is not itself a
+   reason to stop. Keep useful uncertainties in the corresponding line notes
+   as well, so the human sees them. Empty lists mean none. `typeface_terms` maps body
    line IDs to exact substrings: Japanese words embedded in Portuguese or
    citation labels for human whole-word font toggling, not ordinary headwords.
    Do not mark Japanese synonyms after `i,`, standalone Japanese example
@@ -40,8 +50,19 @@ on reduced attachment previews. No access to our image server is needed.
 ## Output details
 
 Geometry is `{ "source_size": [width,height], "crops": { "c1-l001": [x,y,w,h] } }`
-in native pixels; origin top-left. Keep the complete crop-ID inventory and
-dimensions. Include full glyphs and right-edge context, allowing overlap.
+in native pixels; origin top-left. Keep dimensions unchanged. Supply a crop for
+every resulting body line, including additions. Remove crops for deleted IDs;
+furniture crops are optional. Include full glyphs and right-edge context,
+allowing overlap. Membership follows the returned Markdown zones, not ID prefixes.
+
+Example structural records:
+
+```json
+[
+  {"before": [], "after": ["c1-l037a", "c1-l037b"], "reason": "Two missing physical rows inserted after c1-l037; later IDs unchanged."},
+  {"before": ["cw-l001"], "after": ["cw-l001"], "reason": "Corrected the catchword from the scan."}
+]
+```
 
 Add notes after their physical lines, for example:
 

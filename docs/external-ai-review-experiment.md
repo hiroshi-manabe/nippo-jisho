@@ -28,7 +28,34 @@ add another full AI review. The shared procedure remains authoritative for both.
    requested. Preserve a before snapshot and Git parent for rollback. Checkpoint:
    the user reviews the live pages normally and assesses actual correction work.
 
-## Contract v1 (conservative first implementation)
+## Contract v2 — delegated structural review
+
+The f216–f218 schema-1 return exposed missing physical rows on f216 and f217,
+plus header/catchword corrections on all three pages. Those changes were withheld
+solely because of the original contract. This return is preserved for separate
+local integration; it is not automatically upgraded or applied by this change.
+
+New packages use schema 2. Full resulting Markdown is authoritative for physical
+zone membership and order. The external reviewer may correct furniture, move
+lines, alter placement, insert omitted rows, and split/merge/remove records.
+Every structural edit has `{before: [IDs], after: [IDs], reason: "..."}`; IDs
+unaffected by an edit must remain stable. All inserted/removed IDs must be
+accounted for, all resulting body lines need comments and valid native crops,
+and source identity/review metadata remain immutable. Explicit mappings and the
+Git diff preserve traceability; no semantic rereview is required for import.
+
+`uncertainties` is nonblocking documentation of the reviewer's chosen reading.
+`decision_requests` blocks application only when intervention is genuinely needed.
+Applied structural edits do not block. The importer rebuilds body geometry by
+zone, generates context crops, removes obsolete membership, regenerates the UI,
+and retains snapshots and receipts. Old schema-1 files retain their original
+strict rules; there is no silent conversion.
+
+The remaining f219–f236 packages are regenerated in
+`exports/external-review/production-v2-f0219-f0236/`. Use these instead of the
+original schema-1 packages. Keep the f216–f218 input/result pair unchanged.
+
+## Legacy contract v1 (for existing returns only)
 
 Input ZIP contains `manifest.json`, `README.md`, `references/`, `example/`,
 `targets/`, and a `result-template/`. Return the template contents **at ZIP root**
@@ -58,7 +85,7 @@ but can still be evaluated. No schema downgrade or partial silent application.
 
 Later, `package --pages 216 217 --output exports/external-review` freezes live
 canonical pages. It refuses pages with human correction history or human status.
-The first version supports compact canonical pages only; other pages stop rather
+Both versions support compact canonical pages only; other pages stop rather
 than being silently promoted.
 
 For self-contained consecutive three-page packages:

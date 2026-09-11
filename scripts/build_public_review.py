@@ -26,6 +26,7 @@ ARK = "ark:/12148/bpt6k852354j"
 IMAGE_BASE_URL = "https://nippo-jisho-images.pages.dev"
 REVIEW_UNITS = ("column-1", "column-2", "furniture")
 REVIEWED_GEOMETRY_STATES = {
+    "external_line_by_line_review",
     "contact_sheet_reviewed",
     "captured_during_transcription",
     "ai_line_by_line_checked",
