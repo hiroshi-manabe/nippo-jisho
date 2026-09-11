@@ -149,8 +149,8 @@ def parse_markdown(path: Path) -> dict:
     digest = metadata["sha256"]
     if len(digest) != 64 or any(character not in "0123456789abcdef" for character in digest):
         raise Level1MarkdownError(f"{path}: invalid source SHA-256")
-    if metadata["lineation"] != "checked":
-        raise Level1MarkdownError(f"{path}: lineation must be 'checked'")
+    if metadata["lineation"] not in ("checked", "unchecked"):
+        raise Level1MarkdownError(f"{path}: lineation must be 'checked' or 'unchecked'")
     if metadata["status"] not in ALLOWED_STATUSES:
         raise Level1MarkdownError(
             f"{path}: unsupported review status {metadata['status']!r}"
@@ -172,7 +172,7 @@ def parse_markdown(path: Path) -> dict:
             "wikisource_used_for_this_trial": parse_bool(
                 metadata["wikisource"], path, lines.index(f"wikisource: {metadata['wikisource']}") + 1
             ),
-            "physical_lineation_checked": True,
+            "physical_lineation_checked": metadata["lineation"] == "checked",
             "status": metadata["status"],
         },
         "zones": [],
@@ -304,7 +304,7 @@ def export_markdown(page: dict) -> str:
         f"scope: {page['scope']}",
         f"origin: {review['origin']}",
         f"wikisource: {str(review['wikisource_used_for_this_trial']).lower()}",
-        "lineation: checked",
+        "lineation: " + ("checked" if review['physical_lineation_checked'] else "unchecked"),
         f"status: {review['status']}",
     ]
     if "external_check_scope" in review:

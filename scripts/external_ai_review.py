@@ -90,6 +90,49 @@ def human_protected():
     return protected_pages()
 
 
+def interchange_equivalent(a, b):
+    # Markdown assigns inter-run spaces to the following font span. Preserve
+    # every character and every nonspace glyph's style/layout, not space fonts.
+    def fingerprint(page):
+        p = copy.deepcopy(page)
+        for line in lines(p).values():
+            runs = line['runs']
+            line['runs'] = {'text': plain(line), 'glyphs': [
+                (c, {k:v for k,v in run.items() if k != 'text'})
+                for run in runs for c in run['text'] if not c.isspace()]}
+        return p
+    return fingerprint(a) == fingerprint(b)
+
+
+def baseline(pid, ref=None):
+    """Resolve canonical first, otherwise the exact materialized candidate."""
+    paths = [f'{SOURCE}/{pid}.md', f'pilot/ocr-bootstrap/f0238-f0247/{pid}.json',
+             f'pilot/ocr-bootstrap/f0251-f0642/pages/{pid}.json']
+    if ref:
+        available = set(git('ls-tree', '-r', '--name-only', ref, '--', *paths).decode().splitlines())
+        read = lambda p: snapshot(ref, p)
+    else:
+        available = {p for p in paths if (ROOT / p).exists()}
+        read = lambda p: (ROOT / p).read_bytes()
+    selected = next((p for p in paths if p in available), None)
+    if selected is None:
+        raise ValueError(f'{pid}: no supported source')
+    raw = read(selected)
+    if selected.endswith('.md'):
+        page = parse(raw)
+        geo = next(p for p in json.loads(read(GEOMETRY))['pages'] if p['id'] == pid)
+        kind = 'canonical'
+    else:
+        candidate = json.loads(raw)
+        if candidate.get('id') != pid or candidate.get('format') != 'nippo-ocr-level1-bootstrap-candidate':
+            raise ValueError(f'{pid}: invalid provisional wrapper')
+        page, geo = candidate['page'], candidate['geometry']
+        kind = 'provisional'
+    if page['id'] != pid or geo['id'] != pid:
+        raise ValueError(f'{pid}: mismatched baseline identity')
+    return selected, raw, page, geo, kind
+
+
 def package(args):
     evaluation = args.evaluation
     targets = [202, 203, 204] if evaluation else args.pages
@@ -109,9 +152,7 @@ def package(args):
     for n in ([201] + targets):
         page_id = f'bnf-f{n:04}'
         ref = 'fa1b73ca' if n == 201 else base
-        md = snapshot(ref, f'{SOURCE}/{page_id}.md')
-        page = parse(md)
-        geometry = geos[page_id] if n != 201 else next(p for p in json.loads(snapshot(ref, GEOMETRY))['pages'] if p['id'] == page_id)
+        source_path, md, page, geometry, source_kind = baseline(page_id, ref)
         prefix = 'example/input' if n == 201 else f'targets/{page_id}'
         # Pre-existing notes may predate the refreshed OCR and must not be mistaken
         # for a completed review. Remove them from input only, not baseline hashes.
@@ -119,6 +160,10 @@ def package(args):
         for line in lines(draft).values():
             line.pop('note', None)
         files[f'{prefix}/page.md'] = export_markdown(draft).encode()
+        if not interchange_equivalent(parse(files[f'{prefix}/page.md']), draft):
+            raise ValueError(f'{page_id}: source cannot round-trip through interchange Markdown')
+        if source_kind == 'provisional':
+            files[f'{prefix}/original-candidate.json'] = md
         files[f'{prefix}/geometry.json'] = encoded({'source_size': geometry['source_size'], 'crops': crops(geometry)})
         files[f'{prefix}/reading-hints.json'] = encoded({lid: reading_hint(l['runs']) for lid, l in lines(draft, True).items()})
         image_path = ROOT / f'build/nippo-jisho-images/scans/native/f{n:04}.jpg'
@@ -140,7 +185,8 @@ def package(args):
             if page_id in human_protected() or page['review']['status'] == 'human_checked':
                 raise ValueError(f'Human-protected page: {page_id}')
         manifest['pages'][page_id] = {'source_sha256': sha(md), 'geometry_sha256': sha(encoded(geometry)),
-                                     'input_prefix': prefix}
+                                     'input_prefix': prefix, 'source_path': source_path, 'source_kind': source_kind,
+                                     'registry_geometry_sha256': sha(encoded(geos[page_id])) if page_id in geos else None}
         files[f'result-template/pages/{page_id}.md'] = files[f'{prefix}/page.md']
         files[f'result-template/pages/{page_id}.geometry.json'] = files[f'{prefix}/geometry.json']
         if evaluation:
@@ -201,10 +247,12 @@ def batches(args):
         reasons = []
         for n in group:
             pid = f'bnf-f{n:04}'
-            path = ROOT / SOURCE / f'{pid}.md'
-            if not path.exists():
-                reasons.append(f'{pid}: unsupported noncanonical page')
-            elif pid in protected or parse(path.read_bytes())['review']['status'] == 'human_checked':
+            try:
+                _,_,page,_,_ = baseline(pid)
+            except ValueError as exc:
+                reasons.append(str(exc))
+                continue
+            if pid in protected or page['review']['status'] == 'human_checked':
                 reasons.append(f'{pid}: human-protected')
         if reasons:
             omitted.append({'pages': group, 'reason': '; '.join(reasons)})
@@ -295,7 +343,7 @@ def validate_structure_v2(old, new, info):
         allowed = {'catchword', 'column', 'display_title', 'internal_heading',
                    'later_copy_mark', 'page_number', 'printer_ornament',
                    'running_header', 'section_divider', 'section_heading',
-                   'signature', 'terminus'}
+                   'signature', 'terminus', 'unclassified_furniture'}
         if any(z['kind'] not in allowed for z in page['zones']):
             raise ValueError('Unsupported zone kind; explicit format extension needed')
     before, after = lines(old), lines(new)
@@ -433,13 +481,26 @@ def apply(args):
     lookup = {p['id']: p for p in geometry['pages']}
     protected_ids = human_protected()
     for pid, spec in m['pages'].items():
-        if pid in protected_ids or sha((ROOT / f'{SOURCE}/{pid}.md').read_bytes()) != spec['source_sha256'] or sha(encoded(lookup[pid])) != spec['geometry_sha256']:
+        path, raw, current, current_geo, kind = baseline(pid)
+        if (pid in protected_ids or current['review']['status'] == 'human_checked'
+                or path != spec.get('source_path', f'{SOURCE}/{pid}.md')
+                or kind != spec.get('source_kind', 'canonical')
+                or sha(raw) != spec['source_sha256'] or sha(encoded(current_geo)) != spec['geometry_sha256']):
             raise ValueError(f'{pid}: stale or human-protected baseline')
+        if 'registry_geometry_sha256' in spec and spec['registry_geometry_sha256'] != (sha(encoded(lookup[pid])) if pid in lookup else None):
+            raise ValueError(f'{pid}: changed geometry registry')
+        if kind == 'provisional':
+            if (ROOT / f'{COMPILED}/{pid}.json').exists():
+                raise ValueError(f'{pid}: canonical output already exists')
+            if pid not in lookup:
+                lookup[pid] = copy.deepcopy(current_geo)
+                geometry['pages'].append(lookup[pid])
     writes = {}
     registry = json.loads((ROOT / REGISTRY).read_bytes())
     terms = json.loads((ROOT / TERMS).read_bytes())
     for pid, (page, geo) in pages.items():
         page['review']['status'] = 'context_reviewed'
+        page['review']['physical_lineation_checked'] = True
         writes[f'{SOURCE}/{pid}.md'] = export_markdown(page).encode()
         if parse(writes[f'{SOURCE}/{pid}.md']) != page:
             raise ValueError(f'{pid}: Markdown round-trip changed the page')

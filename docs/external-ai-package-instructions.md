@@ -3,6 +3,14 @@
 Extract this ZIP locally. The native JPEGs are the working images: do not rely
 on reduced attachment previews. No access to our image server is needed.
 
+Some targets originate as OCR-provisional candidates. Their input Markdown says
+`lineation: unchecked`; keep that metadata unchanged in the return. Completion
+is declared through the pass flags; the importer sets checked status only after
+validation. `original-candidate.json`, when included, preserves the full original
+wrapper/audit. Its previous warnings are context, not evidence that layout was
+reviewed. Inspect headings, furniture, enlarged initials, transitions and omitted
+rows along with ordinary text. Use the same schema-2 structural authority.
+
 1. Read `references/shared-ai-review-procedure.md` and the compact Markdown
    format. Consult the cheat sheet and historical-language notes while reading;
    NINJAL is an attributed lexical aid, not a substitute transcription.

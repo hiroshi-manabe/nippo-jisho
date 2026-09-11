@@ -12,6 +12,14 @@ An automatic kana rendering of probable Japanese spans is therefore permitted as
 
 ## Source of truth and generated data
 
+External-review interchange can also represent provisional candidates with
+`lineation: unchecked`, preserving `physical_lineation_checked: false` through
+export/parse. This does not certify them or publish them as canonical pages.
+After a complete validated review the importer sets lineation checked and
+creates canonical Markdown/JSON, retaining the original provisional wrapper.
+Inter-run space font ownership may be normalized by Markdown; visible text and
+all non-space glyph typography/layout must remain unchanged during conversion.
+
 Human editors work in `pilot/format-v1-trial/level1-source/*.md`. The compiler validates these files and generates `level1/*.json` for machine interchange and the existing page renderer. The JSON is not edited independently.
 
 Run from the repository root:

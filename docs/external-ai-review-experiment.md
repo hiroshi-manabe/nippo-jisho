@@ -85,8 +85,27 @@ but can still be evaluated. No schema downgrade or partial silent application.
 
 Later, `package --pages 216 217 --output exports/external-review` freezes live
 canonical pages. It refuses pages with human correction history or human status.
-Both versions support compact canonical pages only; other pages stop rather
-than being silently promoted.
+Schema 2 also supports materialized OCR candidates in
+`pilot/ocr-bootstrap/f0238-f0247/` and `pilot/ocr-bootstrap/f0251-f0642/pages/`.
+Canonical Markdown takes precedence when it exists. The manifest fingerprints
+the exact source path, source kind, full source bytes, candidate geometry, and
+any existing registry geometry. Packaging is read-only: it produces unchecked
+interchange Markdown and includes the original candidate. Unknown/unrepresentable
+formats stop rather than silently losing fields. Only space-font ownership may
+normalize; text and nonspace typography/layout are checked for equivalence.
+
+Import rechecks that exact source and protection status, refuses intervening
+canonical records, and creates canonical Markdown/JSON plus reviewed geometry.
+The original candidate remains byte-identical in place and in the input backup.
+The existing UI selects the canonical record first, so the page is not duplicated.
+Failed builds remove new canonical files and restore registry state. A Git revert
+of a published promotion restores provisional selection. Canonical source and
+geometry changes remain protected by the same stale-baseline checks.
+
+The first provisional pilot is **f241–f243**, with f242's visually confirmed
+G ANTES DO V. → G ANTES DO O. transition and enlarged initial. The package is
+under `exports/external-review/provisional-pilot-f0241-f0243/`. No pilot source
+is promoted until the external reviewer returns a complete, valid result.
 
 For self-contained consecutive three-page packages:
 

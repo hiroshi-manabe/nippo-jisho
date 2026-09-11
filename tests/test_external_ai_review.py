@@ -242,6 +242,69 @@ class ExternalReviewTests(unittest.TestCase):
             review.validate_structure_v2(old,new,{'structural_changes':[]})
         review.validate_structure_v2(old,new,{'structural_changes':[{'before':['h1-l001'],'after':['h1-l001'],'reason':'Scan reads V.'}]})
 
+    def setup_provisional(self):
+        self.v2(); self.setup_repo()
+        for folder,suffix in [(review.SOURCE,'.md'),(review.COMPILED,'.json')]:
+            (self.root/folder/(self.pid+suffix)).unlink()
+        self.candidate_path=f'pilot/ocr-bootstrap/f0238-f0247/{self.pid}.json'
+        page=review.parse(MD); page['review']['physical_lineation_checked']=False
+        candidate={'format':'nippo-ocr-level1-bootstrap-candidate','id':self.pid,'page':page,'geometry':self.geometry}
+        self.candidate_bytes=review.encoded(candidate)
+        path=self.root/self.candidate_path;path.parent.mkdir(parents=True,exist_ok=True);path.write_bytes(self.candidate_bytes)
+        (self.root/review.GEOMETRY).write_bytes(review.encoded({'pages':[]}))
+        self.inputs['targets/page.md']=review.export_markdown(page).encode()
+        self.outputs[f'pages/{self.pid}.md']=self.inputs['targets/page.md']+b'[c1-l001 note] A person is explained by the Portuguese homem.\n'
+        m=json.loads(self.inputs['manifest.json'])
+        m['files']['targets/page.md']=review.sha(self.inputs['targets/page.md'])
+        m['pages'][self.pid].update(source_kind='provisional',source_path=self.candidate_path,
+            source_sha256=review.sha(self.candidate_bytes),registry_geometry_sha256=None)
+        self.inputs['manifest.json']=review.encoded(m)
+        self.result['input_manifest_sha256']=review.sha(self.inputs['manifest.json'])
+        self.input.unlink();review.write_zip(self.input,self.inputs)
+
+    def test_provisional_promotion_and_ui(self):
+        self.setup_provisional();self.save()
+        with patch.object(review,'ROOT',self.root),patch.object(review,'human_protected',return_value={}), \
+             patch.object(review,'git',side_effect=lambda *a:b'' if a[0]=='status' else b'abc'),patch.object(review.subprocess,'run'):
+            review.apply(argparse.Namespace(input=self.input,result=self.output,publish=False))
+            self.assertEqual(review.baseline(self.pid)[4],'canonical')
+        page=json.loads((self.root/review.COMPILED/(self.pid+'.json')).read_bytes())
+        self.assertTrue(page['review']['physical_lineation_checked'])
+        self.assertEqual((self.root/self.candidate_path).read_bytes(),self.candidate_bytes)
+        from build_public_review import processed_page
+        g=json.loads((self.root/review.GEOMETRY).read_bytes())['pages'][0]
+        self.assertTrue(processed_page(page,{}, {},g,{})['processed'])
+
+    def test_provisional_failed_build_removes_promotion(self):
+        self.setup_provisional();self.save()
+        with patch.object(review,'ROOT',self.root),patch.object(review,'human_protected',return_value={}), \
+             patch.object(review,'git',side_effect=lambda *a:b'' if a[0]=='status' else b'abc'),patch.object(review.subprocess,'run',side_effect=RuntimeError('failed build')):
+            with self.assertRaises(RuntimeError):review.apply(argparse.Namespace(input=self.input,result=self.output,publish=False))
+            self.assertEqual(review.baseline(self.pid)[4],'provisional')
+        self.assertFalse((self.root/review.COMPILED/(self.pid+'.json')).exists())
+        self.assertEqual((self.root/self.candidate_path).read_bytes(),self.candidate_bytes)
+        self.assertEqual(json.loads((self.root/review.GEOMETRY).read_bytes())['pages'],[])
+
+    def test_unchecked_roundtrip_and_style_preservation(self):
+        p=review.parse(MD);p['review']['physical_lineation_checked']=False
+        self.assertEqual(review.parse(review.export_markdown(p).encode()),p)
+        q=review.parse(MD)
+        self.assertFalse(review.interchange_equivalent(p,q))
+
+    def test_provisional_stale_source(self):
+        self.setup_provisional();self.save()
+        (self.root/self.candidate_path).write_bytes(self.candidate_bytes+b'\n')
+        with patch.object(review,'ROOT',self.root),patch.object(review,'human_protected',return_value={}),patch.object(review,'git',return_value=b''):
+            with self.assertRaisesRegex(ValueError,'stale'):
+                review.apply(argparse.Namespace(input=self.input,result=self.output,publish=False))
+
+    def test_provisional_intervening_canonical(self):
+        self.setup_provisional();self.save()
+        (self.root/review.COMPILED/(self.pid+'.json')).write_bytes(b'{}')
+        with patch.object(review,'ROOT',self.root),patch.object(review,'human_protected',return_value={}),patch.object(review,'git',return_value=b''):
+            with self.assertRaisesRegex(ValueError,'already exists'):
+                review.apply(argparse.Namespace(input=self.input,result=self.output,publish=False))
+
     def test_complete_batches_and_remainder(self):
         for n in range(216, 223):
             path = self.root / review.SOURCE / f'bnf-f{n:04}.md'
@@ -249,6 +312,7 @@ class ExternalReviewTests(unittest.TestCase):
             path.write_bytes(MD)
         dest = self.root / 'packages'
         with patch.object(review, 'ROOT', self.root), patch.object(review, 'human_protected', return_value={}), \
+             patch.object(review, 'baseline', return_value=('',MD,review.parse(MD),{},'canonical')), \
              patch.object(review, 'package') as pack, patch.object(review, 'git', return_value=b'abc'):
             review.batches(argparse.Namespace(start=216, end=222, size=3, output=dest))
             self.assertEqual([c.args[0].pages for c in pack.call_args_list], [[216,217,218], [219,220,221]])
@@ -260,6 +324,7 @@ class ExternalReviewTests(unittest.TestCase):
             path.parent.mkdir(parents=True, exist_ok=True)
             path.write_bytes(MD)
         with patch.object(review, 'ROOT', self.root), patch.object(review, 'human_protected', return_value={'bnf-f0217': 'human'}), \
+             patch.object(review, 'baseline', return_value=('',MD,review.parse(MD),{},'canonical')), \
              patch.object(review, 'package') as pack, patch.object(review, 'git', return_value=b'abc'):
             review.batches(argparse.Namespace(start=216, end=221, size=3, output=self.root / 'packages'))
             self.assertEqual([c.args[0].pages for c in pack.call_args_list], [[219,220,221]])

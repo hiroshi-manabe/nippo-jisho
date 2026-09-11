@@ -1,5 +1,16 @@
 # Project Status
 
+## Provisional-page external-review pilot
+
+Packaging/import now supports materialized OCR-provisional records as well as
+canonical Markdown. The f241–f243 pilot includes f242's section transition and
+enlarged initial. Input conversion keeps lineation unchecked; validated import
+creates canonical records while retaining original candidates for rollback.
+The site selects the canonical page without adding a duplicate. Promotion and
+failed-build rollback tests pass. The pilot input is in
+`exports/external-review/provisional-pilot-f0241-f0243/`; it is not yet reviewed
+or applied. Existing page data remains unchanged by this extension.
+
 ## External review schema 2 — structural authority delegated
 
 The f216–f218 return is now integrated, including two missing body rows on f216,
