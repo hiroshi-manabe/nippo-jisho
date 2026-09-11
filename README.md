@@ -1,5 +1,9 @@
 # Nippo Jisho Project
 
+The current [external AI review experiment](docs/external-ai-review-experiment.md)
+uses the [shared review procedure](docs/shared-ai-review-procedure.md), with a
+blind historical evaluation before any live imports.
+
 This project aims to create a reusable, openly available edition of the *Vocabulario da Lingoa de Iapam* (1603–1604), commonly known in Japanese as the *Nippo Jisho* (日葡辞書).
 
 The current page-by-page transcription and correction interface is published at [Nippo Jisho · Human Review](https://hiroshi-manabe.github.io/nippo-jisho/).

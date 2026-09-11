@@ -1,0 +1,195 @@
+import argparse
+import json
+from pathlib import Path
+import sys
+import tempfile
+import unittest
+from unittest.mock import patch
+
+SCRIPTS = Path(__file__).resolve().parents[1] / 'scripts'
+sys.path.insert(0, str(SCRIPTS))
+import external_ai_review as review
+
+MD = '''---
+format: nippo-level1-markdown
+version: 1
+id: bnf-f0216
+source: BnF Gallica
+view: f216
+url: https://gallica.bnf.fr/ark:/12148/bpt6k852354j/f216.item
+sha256: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+scope: full_dictionary_text_and_furniture
+origin: calamari_v2_machine_provisional
+wikisource: false
+lineation: checked
+status: visual_draft
+---
+
+## column-1 [column] Column 1
+
+[c1-l001] Fito. *Homem.*
+'''.encode()
+
+
+class ExternalReviewTests(unittest.TestCase):
+    def setUp(self):
+        self.temp = tempfile.TemporaryDirectory()
+        self.root = Path(self.temp.name)
+        self.pid = 'bnf-f0216'
+        self.geometry = {'id': self.pid, 'source_size': [100, 200], 'columns': {
+            'column-1': {'lines': {'c1-l001': {'crop': [0, 0, 100, 20]}}}}}
+        self.geom = {'source_size': [100, 200], 'crops': {'c1-l001': [0, 0, 100, 20]}}
+        self.inputs = {'targets/page.md': MD, 'targets/geometry.json': review.encoded(self.geom)}
+        m = {'schema': 1, 'package_id': 'test', 'mode': 'production', 'baseline_commit': 'abc',
+             'pages': {self.pid: {'input_prefix': 'targets', 'source_sha256': review.sha(MD),
+                 'geometry_sha256': review.sha(review.encoded(self.geometry))}},
+             'files': {k: review.sha(v) for k, v in self.inputs.items()}}
+        self.inputs['manifest.json'] = review.encoded(m)
+        self.result = {'schema': 1, 'package_id': 'test', 'input_manifest_sha256': review.sha(self.inputs['manifest.json']),
+            'reviewer': 'Test reviewer', 'pages': {self.pid: {'first_pass': True, 'second_pass': True,
+            'crops_inspected': True, 'uncertainties': [], 'structural_changes': [], 'typeface_terms': {}}}}
+        self.outputs = {f'pages/{self.pid}.md': MD + b'[c1-l001 note] Fito is a person; the Portuguese gloss is homem.\n',
+                        f'pages/{self.pid}.geometry.json': review.encoded(self.geom)}
+        self.input = self.root / 'input.zip'
+        self.output = self.root / 'result.zip'
+        review.write_zip(self.input, self.inputs)
+
+    def tearDown(self):
+        self.temp.cleanup()
+
+    def save(self):
+        self.outputs['result.json'] = review.encoded(self.result)
+        review.write_zip(self.output, self.outputs)
+
+    def check(self):
+        self.save()
+        return review.validate(self.input, self.output, True)
+
+    def test_valid_and_roundtrip(self):
+        _, _, pages = self.check()
+        page = pages[self.pid][0]
+        self.assertEqual(review.parse(review.export_markdown(page).encode()), page)
+
+    def test_wrong_manifest(self):
+        self.result['input_manifest_sha256'] = 'bad'
+        with self.assertRaisesRegex(ValueError, 'manifest'):
+            self.check()
+
+    def test_missing_pass(self):
+        self.result['pages'][self.pid]['second_pass'] = False
+        with self.assertRaisesRegex(ValueError, 'incomplete'):
+            self.check()
+
+    def test_missing_note(self):
+        self.outputs[f'pages/{self.pid}.md'] = MD
+        with self.assertRaisesRegex(ValueError, 'commentary'):
+            self.check()
+
+    def test_bad_crop(self):
+        self.geom['crops']['c1-l001'] = [0, 0, 101, 20]
+        self.outputs[f'pages/{self.pid}.geometry.json'] = review.encoded(self.geom)
+        with self.assertRaisesRegex(ValueError, 'outside'):
+            self.check()
+
+    def test_structure(self):
+        self.outputs[f'pages/{self.pid}.md'] = self.outputs[f'pages/{self.pid}.md'].replace(b'c1-l001', b'c1-l002')
+        with self.assertRaisesRegex(ValueError, 'structural'):
+            self.check()
+
+    def test_typeface_change_allowed(self):
+        self.outputs[f'pages/{self.pid}.md'] = self.outputs[f'pages/{self.pid}.md'].replace(b'Fito. *Homem.*', b'*Fito.* Homem.')
+        self.check()
+
+    def test_pending_blocks_application(self):
+        self.result['pages'][self.pid]['uncertainties'] = ['c1-l001: unclear']
+        with self.assertRaisesRegex(ValueError, 'unresolved'):
+            self.check()
+
+    def setup_repo(self):
+        for p, data in {f'{review.SOURCE}/{self.pid}.md': MD,
+                        f'{review.COMPILED}/{self.pid}.json': review.encoded(review.parse(MD)),
+                        review.GEOMETRY: review.encoded({'pages': [self.geometry]}),
+                        review.REGISTRY: review.encoded({'pages': {}}),
+                        review.TERMS: review.encoded({'pages': {}})}.items():
+            dest = self.root / p
+            dest.parent.mkdir(parents=True, exist_ok=True)
+            dest.write_bytes(data)
+
+    def test_apply_and_rollback(self):
+        self.save()
+        self.setup_repo()
+        args = argparse.Namespace(input=self.input, result=self.output, publish=False)
+        with patch.object(review, 'ROOT', self.root), patch.object(review, 'human_protected', return_value={}), \
+             patch.object(review, 'git', side_effect=lambda *a: b'' if a[0] == 'status' else b'abc'), \
+             patch.object(review.subprocess, 'run', side_effect=RuntimeError('build failed')):
+            with self.assertRaisesRegex(RuntimeError, 'build failed'):
+                review.apply(args)
+        self.assertEqual((self.root / review.SOURCE / f'{self.pid}.md').read_bytes(), MD)
+        self.assertFalse((self.root / 'pilot/external-review/imports/test.json').exists())
+
+    def test_apply_success(self):
+        self.save()
+        self.setup_repo()
+        args = argparse.Namespace(input=self.input, result=self.output, publish=False)
+        with patch.object(review, 'ROOT', self.root), patch.object(review, 'human_protected', return_value={}), \
+             patch.object(review, 'git', side_effect=lambda *a: b'' if a[0] == 'status' else b'abc'), \
+             patch.object(review.subprocess, 'run') as run:
+            review.apply(args)
+            self.assertEqual(run.call_count, 2)
+        compiled = json.loads((self.root / review.COMPILED / f'{self.pid}.json').read_bytes())
+        self.assertEqual(compiled, review.parse((self.root / review.SOURCE / f'{self.pid}.md').read_bytes()))
+        self.assertEqual(compiled['review']['status'], 'context_reviewed')
+
+    def test_stale_stops_before_write(self):
+        self.save()
+        self.setup_repo()
+        path = self.root / review.SOURCE / f'{self.pid}.md'
+        path.write_bytes(MD + b'\n')
+        with patch.object(review, 'ROOT', self.root), patch.object(review, 'human_protected', return_value={}), \
+             patch.object(review, 'git', return_value=b''):
+            with self.assertRaisesRegex(ValueError, 'stale'):
+                review.apply(argparse.Namespace(input=self.input, result=self.output, publish=False))
+        self.assertEqual(path.read_bytes(), MD + b'\n')
+
+    def test_protected_stops(self):
+        self.save()
+        self.setup_repo()
+        with patch.object(review, 'ROOT', self.root), patch.object(review, 'human_protected', return_value={self.pid: 'human'}), \
+             patch.object(review, 'git', return_value=b''):
+            with self.assertRaisesRegex(ValueError, 'protected'):
+                review.apply(argparse.Namespace(input=self.input, result=self.output, publish=False))
+
+    def test_categories(self):
+        self.assertEqual(review.category('ſt', 'st'), 'long_short_s')
+        self.assertEqual(review.category('ã', 'a'), 'diacritics')
+        self.assertEqual(review.distance('abc', 'adc'), 1)
+
+    def test_real_evaluation_package_smoke(self):
+        path = SCRIPTS.parent / 'exports/external-review/ready/evaluation-f0202-f0203-f0204-fa1b73ca-input.zip'
+        if not path.exists():
+            self.skipTest('Local evaluation archive not generated')
+        incoming = review.read_zip(path)
+        m = json.loads(incoming['manifest.json'])
+        output = {k.removeprefix('result-template/'): v for k, v in incoming.items() if k.startswith('result-template/')}
+        result = json.loads(output['result.json'])
+        result['reviewer'] = 'SYNTHETIC PIPELINE TEST, NOT A REVIEW'
+        for pid, info in result['pages'].items():
+            info.update(first_pass=True, second_pass=True, crops_inspected=True)
+            page = review.parse(output[f'pages/{pid}.md'])
+            for line in review.lines(page, True).values():
+                line['note'] = 'Synthetic pipeline fixture only; no visual review performed.'
+            output[f'pages/{pid}.md'] = review.export_markdown(page).encode()
+        output['result.json'] = review.encoded(result)
+        result_path = self.root / 'synthetic.zip'
+        review.write_zip(result_path, output)
+        review.validate(path, result_path)
+        evaluator = path.with_name(path.name.replace('-input.zip', '-EVALUATOR-DO-NOT-SEND.zip'))
+        report = self.root / 'report.json'
+        review.evaluate(argparse.Namespace(input=path, result=result_path, evaluator=evaluator, output=report))
+        self.assertEqual(set(json.loads(report.read_bytes())['pages']), set(m['pages']))
+        with self.assertRaisesRegex(ValueError, 'Evaluation results'):
+            review.apply(argparse.Namespace(input=path, result=result_path, publish=False))
+
+
+if __name__ == '__main__':
+    unittest.main()

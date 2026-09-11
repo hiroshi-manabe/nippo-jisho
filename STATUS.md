@@ -2,6 +2,22 @@
 
 Last updated: 2026-09-11
 
+## External review experiment — handoff ready, evaluation pending
+
+The [new outsourcing plan](docs/external-ai-review-experiment.md) and
+[shared review procedure](docs/shared-ai-review-procedure.md) are documented.
+The blind f202–f204 package includes f201's OCR/reviewed worked example, native
+JPEGs, saved OCR layout evidence, kana hints, historical reference documents and
+page-specific attributed NINJAL data. The human/local target answers are held
+separately, not sent to the external reviewer.
+
+Local deliverables are under `exports/external-review/ready/` (ignored generated
+artifacts). Send only the `*-input.zip`; retain `*-EVALUATOR-DO-NOT-SEND.zip`.
+`scripts/external_ai_review.py` packages, validates, compares and imports later
+production results; publishing is opt-in and imports retain rollback snapshots.
+No external result has been received or applied. The importer is initially
+limited to canonical compact-Markdown pages and stops on structural changes.
+
 ## f211–f215 commented AI review
 
 All 471 body lines (94, 94, 94, 94, 95) have substantive individual English

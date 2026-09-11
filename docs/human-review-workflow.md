@@ -235,6 +235,11 @@ Any change that affects the public review interface—including crop geometry, g
 
 ## General-AI commented page review
 
+The [shared AI review procedure](shared-ai-review-procedure.md) makes the input
+hierarchy, crop acceptance, reference use and integration boundary explicit for
+both local and external reviewers. The [external review experiment](external-ai-review-experiment.md)
+defines the separately evaluated outsourcing trial.
+
 The explicit **AI reviewed with commentary** stage is recorded per page in
 `pilot/human-review/commentary-reviews.json`, with the completion date, procedure
 version, and evidence commit. Register a page only after both complete passes
