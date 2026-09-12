@@ -1,5 +1,26 @@
 # Project Status
 
+## f219–f230 local commented AI review — 2026-09-12
+
+All twelve pages have completed the shared commentary-and-second-pass procedure:
+1,124 body lines, each with an individual English review comment, direct native-
+scan inspection and a separate second visual pass. Generated kana hints and
+post-reading NINJAL comparisons supported the Japanese/Portuguese checks; uncertain
+readings are qualified rather than silently normalized. The finished pages are
+committed and published for human review, not marked human-approved.
+
+All actual line crops were checked. Both columns of f220 were realigned (94
+rectangles), and f230's decorated initial now has a six-row overlapping crop;
+the other inspected body rectangles were retained. Headers, catchwords and the
+F-to-G section transition were checked separately. The existing missing-leaf
+warning at f227 remains in its production review.
+
+**Next local review: f231.** No partial review of f231 is being presented as
+complete. The existing external-review packages for **f219–f230 are now stale**
+relative to these local corrections and must not be imported over them unchanged.
+The f231–f236 packages are unaffected by this review run. No external packages
+were regenerated as part of the local review.
+
 ## Provisional-page external-review pilot
 
 Packaging/import now supports materialized OCR-provisional records as well as
@@ -22,7 +43,8 @@ explicit before/after ID accounting. Chosen-reading caveats are nonblocking;
 explicit decision requests still stop import. Geometry is rebuilt from resulting
 zones and checked through the UI renderer. The six remaining batches, f219–f236,
 are regenerated in `exports/external-review/production-v2-f0219-f0236/`.
-Use those packages instead of the previous schema-1 inputs for those pages.
+Use those packages instead of the previous schema-1 inputs for those pages,
+subject to the later local-review/stale-package warning above.
 
 Last updated: 2026-09-12
 
