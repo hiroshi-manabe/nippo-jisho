@@ -10,6 +10,18 @@ import build_image_mirror  # noqa: E402
 
 
 class BuildImageMirrorTests(unittest.TestCase):
+    def test_repeated_link_and_replacement_preserve_old_source(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory)
+            first,second,destination=root/'first',root/'second',root/'output'
+            first.write_bytes(b'original')
+            second.write_bytes(b'replacement')
+            build_image_mirror.link_or_copy(first,destination)
+            build_image_mirror.link_or_copy(first,destination)
+            build_image_mirror.link_or_copy(second,destination)
+            self.assertEqual(first.read_bytes(),b'original')
+            self.assertEqual(destination.read_bytes(),b'replacement')
+
     def test_variant_dimensions_preserve_aspect_ratio(self):
         self.assertEqual(build_image_mirror.variant_dimensions(3000, 4200, 1000), (1000, 1400))
         self.assertEqual(build_image_mirror.variant_dimensions(800, 1200, 1000), (800, 1200))

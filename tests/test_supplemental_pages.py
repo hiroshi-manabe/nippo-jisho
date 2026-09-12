@@ -9,6 +9,23 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class SupplementalPagesTests(unittest.TestCase):
+    def test_structural_preparation_and_column_scale(self):
+        registry=json.loads((ROOT/'sources/supplemental-pages.json').read_text())['pages']
+        self.assertEqual(len(registry),28)
+        geometry={p['id']:p for p in json.loads((ROOT/'pilot/human-review/line-geometry.json').read_text())['pages']}
+        for record in registry:
+            page=json.loads((ROOT/f"pilot/format-v1-trial/level1/{record['id']}.json").read_text())
+            self.assertEqual(sum(z['kind']=='running_header' for z in page['zones']),2)
+            ids=[l['id'] for z in page['zones'] for l in z['lines']]
+            self.assertEqual(len(ids),len(set(ids)))
+            self.assertFalse(page['review']['physical_lineation_checked'])
+            for column in geometry[record['id']]['columns'].values():
+                widths={l['crop'][2] for l in column['lines'].values()}
+                self.assertEqual(len(widths),1)
+                self.assertGreater(min(widths),900)
+        pilot=json.loads((ROOT/'pilot/format-v1-trial/level1/bodleian-f0110r.json').read_text())
+        self.assertTrue(any(z['kind']=='running_header' and any(l['id']=='c1-l001' for l in z['lines']) for z in pilot['zones']))
+
     def test_crops_use_bounded_xywh(self):
         geometry = json.loads((ROOT/'pilot/human-review/line-geometry.json').read_text())
         for page in geometry['pages']:

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Segment and recognize the four gap supplements. Never marks AI review done.
+"""Segment, recognize and structurally prepare all acquired gap supplements.
 
 Run with the project's Kraken Python. Existing output is protected unless
 --replace-draft is explicitly supplied; never use it after human corrections.
@@ -9,6 +9,7 @@ import hashlib
 import json
 from pathlib import Path
 import subprocess
+import shutil
 from PIL import Image, ImageOps
 from kraken.containers import Segmentation
 from kraken.lib.segmentation import extract_polygons
@@ -17,8 +18,7 @@ from compile_level1_markdown import export_markdown
 
 ROOT = Path(__file__).resolve().parents[1]
 WORK = ROOT / '.cache/ocr-model/bodleian-supplements'
-SOURCE = ROOT / '.cache/sources/bodleian/pilot-110-111'
-SIDES = ('110r', '110v', '111r', '111v')
+SOURCE = ROOT / '.cache/sources/bodleian/supplements'
 OBJECT = 'https://digital.bodleian.ox.ac.uk/objects/462146c4-dadb-4aa5-b324-2d45e30e5ddd/'
 
 
@@ -32,13 +32,35 @@ def main():
     parser.add_argument('--replace-draft', action='store_true')
     args = parser.parse_args()
     WORK.mkdir(parents=True, exist_ok=True)
-    all_records = []
-    for side in SIDES:
-        pid = f'bodleian-f0{side}'
+    sources = json.loads((ROOT/'sources/bodleian-supplement-sources.json').read_text())['pages']
+    sides = [s['printed_page'] for s in sources]
+    history = json.loads((ROOT/'pilot/human-review/correction-history.json').read_text())
+    protected = {p['id'] for p in history['pages']}
+    for source in sources:
+        pid = source['id']
+        target = ROOT/f'pilot/format-v1-trial/level1-source/{pid}.md'
+        if pid in protected:
+            raise ValueError(f'Refusing to replace human-corrected {pid}')
+        if target.exists():
+            existing = json.loads((ROOT/f'pilot/format-v1-trial/level1/{pid}.json').read_text())
+            if existing['review'].get('origin') != 'calamari_v2_machine_provisional' or existing['review'].get('status') != 'visual_draft':
+                raise ValueError(f'Refusing to replace reviewed {pid}')
+            backup = WORK/'before-structural-preparation'/target.name
+            backup.parent.mkdir(parents=True, exist_ok=True)
+            if not backup.exists():
+                shutil.copy2(target, backup)
+    for side in sides:
+        pid = f'bodleian-f{int(side[:-1]):04d}{side[-1]}'
         target = ROOT / f'pilot/format-v1-trial/level1-source/{pid}.md'
         if target.exists() and not args.replace_draft:
             raise ValueError(f'Refusing to replace existing {pid}')
-        scan = SOURCE / f'{side}-native.jpg'
+        scan = SOURCE / f'{pid}.jpg'
+        source = next(s for s in sources if s['id']==pid)
+        if hashlib.sha256(scan.read_bytes()).hexdigest() != source['sha256']:
+            raise ValueError(f'Source checksum changed: {pid}')
+        if (WORK/f'{pid}-lines.json').exists():
+            # Existing detection order is also the published stable-ID order.
+            continue
         seg_path = WORK / f'{pid}-segmentation.json'
         if not seg_path.exists():
             subprocess.run(['arch', '-arm64', str(ROOT / '.cache/ocr-model/venv-kraken-arm64/bin/kraken'),
@@ -62,20 +84,25 @@ def main():
                                 'boundary': line.boundary, 'baseline': line.baseline})
         records.sort(key=lambda r: (r['column'], r['y']))
         save(WORK / f'{pid}-lines.json', records)
-        all_records.extend(records)
-    predictions = WORK / 'predictions.json'
-    if not predictions.exists():
-        subprocess.run(['python3', str(ROOT/'scripts/recognize_nippo_calamari.py'),
-                        *[r['image'] for r in all_records], '--prepared',
-                        '--model', str(ROOT/'models/local/nippo-calamari-v2-styled'),
-                        '--output', str(predictions)], check=True)
-    by_image = {r['image']: r for r in json.loads(predictions.read_text())['lines']}
+    legacy = WORK/'predictions.json'
+    by_image = {r['image']:r for r in json.loads(legacy.read_text())['lines']} if legacy.exists() else {}
+    for source in sources:
+        pid = source['id']
+        records = json.loads((WORK/f'{pid}-lines.json').read_text())
+        missing = [r['image'] for r in records if r['image'] not in by_image]
+        if missing:
+            predictions = WORK/f'{pid}-predictions.json'
+            if not predictions.exists():
+                subprocess.run(['python3', str(ROOT/'scripts/recognize_nippo_calamari.py'),
+                                *missing, '--prepared', '--model', str(ROOT/'models/local/nippo-calamari-v2-styled'),
+                                '--output', str(predictions)], check=True)
+            by_image.update({r['image']:r for r in json.loads(predictions.read_text())['lines']})
+        print('recognized', pid, flush=True)
     geometry_path = ROOT/'pilot/human-review/line-geometry.json'
     geometry = json.loads(geometry_path.read_text())
-    supplemental = []
-    for side in SIDES:
-        pid = f'bodleian-f0{side}'
-        scan = SOURCE / f'{side}-native.jpg'
+    for side in sides:
+        pid = f'bodleian-f{int(side[:-1]):04d}{side[-1]}'
+        scan = SOURCE / f'{pid}.jpg'
         with Image.open(scan) as image:
             width, height = image.size
         page = {'format': 'nippo-level1-page', 'format_version': 1, 'id': pid,
@@ -104,16 +131,14 @@ def main():
                     'context_crop': [context[0], context[1], context[2]-context[0], context[3]-context[1]]}
             page['zones'].append(zone)
             geo['columns'][zone['id']] = g
+        from structure_bodleian_supplement import structure_page
+        page, geo = structure_page(page, geo, rows)
         save(ROOT/f'pilot/format-v1-trial/level1/{pid}.json', page)
         (ROOT/f'pilot/format-v1-trial/level1-source/{pid}.md').write_text(export_markdown(page))
         geometry['pages'] = [g for g in geometry['pages'] if g['id'] != pid] + [geo]
-        supplemental.append({'id': pid, 'leaf': pid, 'view': pid, 'width': width, 'height': height,
-                             'printed_page': side, 'insert_after': 'bnf-f0226',
-                             'source_url': OBJECT, 'source_credit': 'Bodleian Library, Arch. B d.13. Photo: © Bodleian Libraries, University of Oxford. CC BY-NC 4.0.',
-                             'image_stem': f'supplements/{pid}'})
         print(pid, len(rows), 'machine-only lines', flush=True)
     save(geometry_path, geometry)
-    save(ROOT/'sources/supplemental-pages.json', {'pages': supplemental})
+    save(ROOT/'sources/supplemental-pages.json', {'pages': sources})
 
 
 if __name__ == '__main__':

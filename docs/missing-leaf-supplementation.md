@@ -1,11 +1,72 @@
-# Missing-leaf supplementation pilot
+# Missing-leaf supplementation
 
 ## Status — 2026-09-12
 
-Four **OCR-only, AI-unreviewed** drafts now cover printed folios **110–111**.
-Their distinct IDs are inserted between f226 and f227 in public reading order;
-existing Gallica IDs and text are unchanged. The replacement images are a different physical
-witness, not recovered photographs of the Paris copy.
+All seven gaps are prepared as **OCR-only, AI-unreviewed** supplements,
+including replacement of the original four-page pilot's simplified structure.
+The minimum standard is the ordinary f251 automated preparation, not f231's
+earlier visual checking. Existing Gallica IDs and text stay unchanged. These
+images represent a different physical witness, not recovered Paris photographs.
+
+The completed preparation retains **2,763 detected lines/fragments across 28
+sides**. All source images are available on the Cloudflare mirror. Sampled
+top/middle/bottom crops from both columns of one recto per gap were inspected;
+this is a preparation sanity check, not an exhaustive line-reading review.
+The 223r internal heading is separated even though OCR misreads its lettering.
+
+## Common preparation standard
+
+Use the ordinary automated structural inference for all 28 sides: separate
+running headers, internal headings, column text and provisional furniture.
+This does **not** establish final physical lineation or constitute the commented
+AI review. Keep every detected fragment, including ambiguous bottom material;
+do not resolve a catchword versus displaced continuation merely by its position.
+
+`structure_bodleian_supplement.py` adapts the Bodleian source frame to the shared
+`bootstrap_ocr_level1.infer_column` implementation. The source's rulers and
+facing-page slivers require different header windows and column bands. Rectified
+OCR fragments are not whole-column duplicate readings: disable duplicate-row
+collapse for them. Preserve their original styled OCR text and stable IDs.
+
+Display crops use a consistent full-column width and the detected polygon's
+vertical extent plus padding. OCR's tight/rectified recognition image is retained
+separately; short fragments must not be enlarged to fill a full display row.
+Native segmentation, baseline polygons, rectified images and predictions remain
+cached for later review. These geometric defaults are provisional, not a promise
+that every crop has already been read by an AI or human.
+
+No detailed linguistic review, reading commentary or final review pass is part
+of this preparation. Review status stays machine-only/AI-unreviewed. Canonical
+Markdown storage is an editing mechanism, not evidence of greater reliability.
+
+## Complete source mapping
+
+The seven four-side source contact sheets were inspected for printed recto
+numbers, signatures and layout. The neighboring Gallica rectos were also checked
+to confirm that each insertion bridges the corresponding missing folio pair.
+Versos follow their explicitly labelled rectos in the Bodleian manifest.
+
+| Printed folios (r/v for each) | Bodleian signatures | Insert between Gallica views |
+| --- | --- | --- |
+| 90–91 | Z2r–Z3v | f190 / f191 |
+| 110–111 | Ee2r–Ee3v | f226 / f227 |
+| 158–159 | Rr2r–Rr3v | f318 / f319 |
+| 222–223 | Kkk2r–Kkk3v | f442 / f443 |
+| 234–235 | Nnn2r–Nnn3v | f462 / f463 |
+| 286–287 | c2r–c3v | f562 / f563 |
+| 310–311 | i2r–i3v | f606 / f607 |
+
+IDs use `bodleian-f0090r` etc. Existing pilot line IDs remain unchanged even
+when a line moves out of the body zone; no Gallica page is renumbered.
+
+`python3 scripts/acquire_bodleian_supplements.py` resolves unique signature labels,
+downloads and fully decodes all images, and records source URLs, actual dimensions
+and hashes in `sources/bodleian-supplement-sources.json`. Run
+`scripts/prepare_bodleian_supplements.py` in the Kraken environment to recognize
+and prepare them (`--replace-draft` explicitly replaces unreviewed drafts).
+Human-corrected supplements are protected from replacement. Earlier pilot
+Markdown is also retained in Git and backed up in the ignored OCR cache.
+`scripts/inspect_bodleian_supplements.py` recreates the source contact sheets.
 
 ## Scope and evidence
 
@@ -96,9 +157,10 @@ existing schemas, accepting the new identifier in the `page` field.
 `scripts/prepare_bodleian_supplements.py` uses fresh Kraken baselines/polygons,
 rectified line images and the packaged styled Calamari v2 model. Run it in the
 Kraken environment. It generated 99, 97, 98 and 98 detected lines respectively.
-The machine-only records retain headers and bottom fragments in their detected
-column sequence: **furniture classification and physical lineation still need
-review**. No language correction, NINJAL intervention, commentary review or
+The original pilot retained headers and bottom fragments in its body sequence.
+That shortcut is superseded by the common structural preparation above;
+**final furniture interpretation and physical lineation still need review**.
+No language correction, NINJAL intervention, commentary review or
 second visual pass was performed, as requested. Raw segmentation, extracted
 lines and predictions remain in `.cache/ocr-model/bodleian-supplements/`.
 
@@ -120,5 +182,5 @@ remain untracked; neither route depends on live IIIF requests while reading.
 
 1. When requested, conduct the shared commented AI review and second pass,
    including lineation, furniture and actual crop readability.
-2. Map and visually verify the other six gaps separately. The 110–111 pilot
-   does not establish their exact canvas mappings or scan quality.
+2. Preserve the distinction between verified source mapping, automated structural
+   preparation, and later detailed review. None substitutes for the others.

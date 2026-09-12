@@ -7,6 +7,7 @@ import argparse
 from concurrent.futures import ThreadPoolExecutor
 import json
 import os
+import re
 from pathlib import Path
 import shutil
 
@@ -26,6 +27,11 @@ def variant_dimensions(width: int, height: int, target_width: int) -> tuple[int,
 
 
 def link_or_copy(source: Path, destination: Path) -> None:
+    if destination.exists():
+        if os.path.samefile(source, destination):
+            return
+        # Never overwrite through a hard link to a previous source image.
+        destination.unlink()
     destination.parent.mkdir(parents=True, exist_ok=True)
     try:
         os.link(source, destination)
@@ -98,13 +104,13 @@ def write_support_files(output: Path, pages: list[dict[str, object]]) -> None:
     )
 
 
-def add_supplements(root: Path, output: Path) -> None:
-    registry = root / 'sources/supplemental-pages.json'
+def add_supplements(root: Path, output: Path, registry: Path | None = None) -> None:
+    registry = registry or root / 'sources/supplemental-pages.json'
     if not registry.exists():
         return
     pages = json.loads(registry.read_text())['pages']
     for page in pages:
-        source = root / '.cache/sources/bodleian/pilot-110-111' / f"{page['printed_page']}-native.jpg"
+        source = root / page['cache_path'] if page.get('cache_path') else root / '.cache/sources/bodleian/pilot-110-111' / f"{page['printed_page']}-native.jpg"
         stem = output / page['image_stem']
         link_or_copy(source, Path(str(stem)+'-full.jpg'))
         for size in SIZES:
@@ -119,7 +125,8 @@ def add_supplements(root: Path, output: Path) -> None:
     manifest['supplements'] = pages
     manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2)+'\n')
     index = output / 'index.html'
-    index.write_text(index.read_text().replace('</body>',
+    content = re.sub(r'<p>Supplemental images:.*?</p>', '', index.read_text(), flags=re.S)
+    index.write_text(content.replace('</body>',
         '<p>Supplemental images: Bodleian Library, Arch. B d.13. Photo: © Bodleian Libraries, University of Oxford. '
         '<a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>. '
         '<a href="https://digital.bodleian.ox.ac.uk/objects/462146c4-dadb-4aa5-b324-2d45e30e5ddd/">Bodleian source</a>.</p></body>'))

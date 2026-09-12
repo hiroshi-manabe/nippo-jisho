@@ -84,11 +84,11 @@ The roles are therefore:
 
 Other surviving copies may be consulted when the canonical copy is incomplete, damaged, or ambiguous. Text or images from another copy must never be inserted silently. The relevant page record must identify the witness and explain why it was used.
 
-The [missing-leaf supplementation pilot](missing-leaf-supplementation.md)
-identifies four Bodleian image sides for Paris's missing folios 110–111,
-with independently verified joins and a separate-source ID proposal. These
-now have separate OCR-only drafts in public reading order. They remain
-AI-unreviewed and retain their Bodleian source attribution.
+The [missing-leaf supplementation plan](missing-leaf-supplementation.md)
+maps 28 Bodleian image sides for all seven Paris gaps. These use separate-source
+IDs and the ordinary automated OCR/structural preparation standard. Source
+identification is not linguistic review: the drafts remain AI-unreviewed and
+retain their Bodleian source attribution.
 
 ## External headword data
 

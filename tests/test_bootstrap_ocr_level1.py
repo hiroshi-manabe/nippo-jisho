@@ -18,6 +18,26 @@ from bootstrap_ocr_level1 import (  # noqa: E402
 
 
 class BootstrapOcrLevel1Tests(unittest.TestCase):
+    def test_supplement_adapter_preserves_fragments_text_styles_and_ids(self):
+        from structure_bodleian_supplement import structure_page
+        page={'id':'bodleian-f0110r','zones':[]}
+        rows=[]
+        for col in (1,2):
+            lines=[]
+            for index,(y,text) in enumerate([(570,'F ANTES DO V.'),(650,'Foo.'),(710,'Part one'),(710,'Part two'),(770,'bar')],1):
+                line={'id':f'c{col}-l{index:03d}','runs':[{'typeface':'italic' if index%2 else 'roman','text':text}]}
+                lines.append(line)
+                x=400 if col==1 else 1500
+                rows.append({'column':col,'y':y,'baseline':[[x,y],[x+200,y]],
+                             'boundary':[[x,y-40],[x+200,y-40],[x+200,y+8],[x,y+8]]})
+            page['zones'].append({'id':f'column-{col}','kind':'column','lines':lines})
+        original={line['id']:line['runs'] for z in page['zones'] for line in z['lines']}
+        result,geo=structure_page(page,{'source_size':[3511,4000],'columns':{}},rows)
+        self.assertEqual({l['id']:l['runs'] for z in result['zones'] for l in z['lines']},original)
+        self.assertEqual(sum(z['kind']=='running_header' for z in result['zones']),2)
+        self.assertEqual(len(geo['columns']['column-1']['lines']),4)
+        self.assertEqual(len({l['crop'][2] for l in geo['columns']['column-1']['lines'].values()}),1)
+
     @staticmethod
     def ordinary_package(column_width=900, body_lines=45):
         lines = [
@@ -84,6 +104,7 @@ class BootstrapOcrLevel1Tests(unittest.TestCase):
     def test_display_heading_requires_display_like_capitals(self):
         self.assertTrue(display_heading("DOS VOCABVLOS QVE CO-"))
         self.assertTrue(display_heading("G ANTES DO A."))
+        self.assertTrue(display_heading("S ANmesDO O."))
         self.assertFalse(display_heading("antes de correr a carreira."))
         self.assertFalse(display_heading("Cachi. Pollamòr parte, ou frequentemente."))
 

@@ -1,6 +1,6 @@
 # Cloudflare scan-image mirror
 
-The four Bodleian gap supplements are served by this Cloudflare deployment
+The Bodleian gap supplements are served by this Cloudflare deployment
 under `supplements/`, with full images, 1000px/2200px derivatives and thumbnails.
 Their CC BY-NC 4.0 credit remains separate from the Gallica credit below.
 They were initially bundled with GitHub Pages while authentication was expired;

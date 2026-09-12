@@ -314,15 +314,16 @@ def display_heading(text: str) -> bool:
         or "ANTESD" in compact
         or "POLLALETRA" in compact
         or compact.startswith("TRA")
+        or re.fullmatch(r"[A-Z]AN[A-Z]{1,4}DO[A-Z]", compact) is not None
     )
     return ratio >= 0.88 or (ratio >= 0.45 and specific)
 
 
-def header_row(rows: list[dict], page_height: int) -> dict:
+def header_row(rows: list[dict], page_height: int, window=(0.065, 0.14)) -> dict:
     candidates = [
         row
         for row in rows
-        if page_height * 0.065 <= row["centre_y"] <= page_height * 0.14
+        if page_height * window[0] <= row["centre_y"] <= page_height * window[1]
     ]
     if not candidates:
         raise RuntimeError("no top-of-page row suitable for a running header")
@@ -433,6 +434,8 @@ def repair_entry_initial(text: str, expected: str | None, indent: int) -> tuple[
 def crop_for_row(row: dict, source_size: list[int]) -> tuple[list[int], list[int]]:
     page_width, page_height = source_size
     candidate = row["chosen_candidate"]
+    if "ui_crop" in candidate:
+        return candidate["ui_crop"], candidate["ui_context_crop"]
     left, _, width, _ = candidate["ocr_crop"]
     left = max(0, left - 16)
     right = min(page_width, left + width + 32)
@@ -456,8 +459,8 @@ def infer_column(
     start_expected_letter = expected_letter
     source_size = draft["source"]["source_size"]
     page_height = source_size[1]
-    rows = cluster_rows(draft["columns"][column]["lines"])
-    header = header_row(rows, page_height)
+    rows = cluster_rows(draft["columns"][column]["lines"], tolerance=draft.get("row_tolerance", 20.0))
+    header = header_row(rows, page_height, draft.get("header_window", (0.065, 0.14)))
     following = [
         row
         for row in rows
@@ -466,6 +469,7 @@ def infer_column(
     spacing = median_spacing(following)
     first_y = following[0]["centre_y"]
     cutoff = min(page_height * 0.895, first_y + 47.45 * spacing)
+    cutoff = draft["columns"][column].get("body_cutoff_y", cutoff)
     flow = [row for row in following if row["centre_y"] <= cutoff]
     bottom = [row for row in following if row["centre_y"] > cutoff]
     headings = {id(row) for row in flow if display_heading(row["text"])}
@@ -503,7 +507,7 @@ def infer_column(
         counter += 1
         identifier = f"c{1 if column == 'column-1' else 2}-l{counter:03d}"
         indent = int(row_left_offset(row) >= threshold)
-        text, repair = repair_entry_initial(row["text"], active_letter, indent)
+        text, repair = (row["text"], None) if draft.get("preserve_ocr") else repair_entry_initial(row["text"], active_letter, indent)
         if repair:
             repairs.append({"line_id": identifier, "change": repair, "ocr": row["text"], "text": text})
         runs, uncertain_words = model.runs(text, indent=indent)

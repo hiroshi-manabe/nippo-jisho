@@ -51,9 +51,9 @@ def build_supplement_images(root: Path, output: Path, supplements: list[dict]) -
     }
     for page in supplements:
         side = page['printed_page']
-        cached = root / '.cache/sources/bodleian/pilot-110-111' / f'{side}-native.jpg'
+        cached = root / page['cache_path'] if page.get('cache_path') else root / '.cache/sources/bodleian/pilot-110-111' / f'{side}-native.jpg'
         if not cached.exists():
-            url = f'https://iiif.bodleian.ox.ac.uk/iiif/image/{uuids[side]}/full/full/0/default.jpg'
+            url = page.get('image_url') or f'https://iiif.bodleian.ox.ac.uk/iiif/image/{uuids[side]}/full/full/0/default.jpg'
             with urlopen(url, timeout=180) as response:
                 data = response.read()
             cached.parent.mkdir(parents=True, exist_ok=True)
