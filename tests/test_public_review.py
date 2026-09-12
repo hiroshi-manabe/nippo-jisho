@@ -174,7 +174,7 @@ assert.equal(label({processed: true, commentary_review: {completed_at: '2026-09-
         for page in supplements:
             for key in ('thumbnail', 'iiif_preview', 'iiif', 'iiif_highres'):
                 self.assertTrue(page[key].startswith('https://nippo-jisho-images.pages.dev/supplements/'))
-            self.assertFalse(page['ai_checked'])
+            self.assertEqual(page['ai_checked'], bool(page.get('commentary_review')))
         self.assertTrue(
             all(
                 line.get("reading_hint_status") in {"available", "unavailable", "not_applicable"}

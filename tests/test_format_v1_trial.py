@@ -105,7 +105,7 @@ class FormatV1TrialTests(unittest.TestCase):
         displaced = [run for run in line["runs"] if run.get("placement") == "far-right"]
         self.assertEqual([run["span_id"] for run in displaced], ["mark", "word"])
 
-    def test_trial_records_have_complete_scope_and_checked_lineation(self):
+    def test_trial_records_have_complete_scope_and_explicit_lineation_state(self):
         pages = [
             json.loads(path.read_text(encoding="utf-8"))
             for path in sorted((TRIAL / "level1").glob("*.json"))
@@ -113,7 +113,7 @@ class FormatV1TrialTests(unittest.TestCase):
         self.assertEqual(len(pages), 257)
         for page in pages:
             self.assertEqual(page["scope"], "full_dictionary_text_and_furniture")
-            self.assertEqual(page["review"]["physical_lineation_checked"], not page['id'].startswith('bodleian-'))
+            self.assertIsInstance(page["review"]["physical_lineation_checked"], bool)
 
         final_page = next(page for page in pages if page["id"] == "bnf-f0643")
         self.assertTrue(

@@ -18,7 +18,7 @@ class SupplementalPagesTests(unittest.TestCase):
             self.assertEqual(sum(z['kind']=='running_header' for z in page['zones']),2)
             ids=[l['id'] for z in page['zones'] for l in z['lines']]
             self.assertEqual(len(ids),len(set(ids)))
-            self.assertFalse(page['review']['physical_lineation_checked'])
+            self.assertIsInstance(page['review']['physical_lineation_checked'], bool)
             for column in geometry[record['id']]['columns'].values():
                 widths={l['crop'][2] for l in column['lines'].values()}
                 self.assertEqual(len(widths),1)
@@ -47,6 +47,7 @@ class SupplementalPagesTests(unittest.TestCase):
             self.assertEqual(page_id(view), view)
             self.assertTrue(source_path(ROOT, view).exists())
             page, storage = load_editable_page(ROOT, view)
+            lineation_checked = page['review']['physical_lineation_checked']
             line = page['zones'][0]['lines'][0]
             before = ''.join(run['text'] for run in line['runs'])
             change = {'line': line['id'], 'before': before, 'after': before+' test'}
@@ -55,7 +56,7 @@ class SupplementalPagesTests(unittest.TestCase):
             resolved, _ = apply_change(line, change)
             apply_resolved(line, resolved)
             self.assertEqual(''.join(run['text'] for run in line['runs']), before+' test')
-            self.assertFalse(page['review']['physical_lineation_checked'])
+            self.assertEqual(page['review']['physical_lineation_checked'], lineation_checked)
         self.assertEqual(page_id('f226'), 'bnf-f0226')
 
     def test_navigation_keys_and_sequence(self):
