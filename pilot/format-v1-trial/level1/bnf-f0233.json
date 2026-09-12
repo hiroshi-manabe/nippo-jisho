@@ -13,7 +13,7 @@
     "origin": "calamari_v2_machine_provisional",
     "wikisource_used_for_this_trial": false,
     "physical_lineation_checked": true,
-    "status": "visual_draft"
+    "status": "context_reviewed"
   },
   "zones": [
     {
@@ -36,6 +36,7 @@
       "id": "column-1",
       "kind": "column",
       "label": "Column 1",
+      "note": "Lexical cross-check: NINJAL, Entry Words Data of Nippojisho, version 202510, Hideyuki Ohshima and Taichi Aida, supplied package subset; CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Dataset: https://www2.ninjal.ac.jp/textdb_dataset/en/nipp/index.html. The scan, not the lexical index or generated kana hints, determines the diplomatic text.",
       "lines": [
         {
           "id": "c1-l001",
@@ -48,7 +49,8 @@
               "typeface": "italic",
               "text": " Neuoa dos olhos."
             }
-          ]
+          ],
+          "note": "Ganyei denotes a haze or film over the eyes; the Portuguese reads Neuoa, not a modernized névoa. This is the entry anticipated by the preceding page's separate Gan- catchword."
         },
         {
           "id": "c1-l002",
@@ -61,7 +63,8 @@
               "typeface": "italic",
               "text": " Roſto, &"
             }
-          ]
+          ],
+          "note": "Cauobaxe and catachi give facial appearance and form, matching the Portuguese rosto. The circumflex in Ganyô and the two Japanese synonyms are retained; the gloss continues below."
         },
         {
           "id": "c1-l003",
@@ -69,22 +72,28 @@
           "runs": [
             {
               "typeface": "italic",
-              "text": "figura. S."
+              "text": "figura."
+            },
+            {
+              "typeface": "roman",
+              "text": " S."
             }
-          ]
+          ],
+          "note": "Figura completes the preceding definition of facial appearance. S. is an upright usage label, not part of the italic gloss; the irregular ink to its right does not form another textual line."
         },
         {
           "id": "c1-l004",
           "runs": [
             {
               "typeface": "roman",
-              "text": "Canzǒ. Fucumi majinaru."
+              "text": "Ganzǒ. Fucumi majiuaru."
             },
             {
               "typeface": "italic",
               "text": " Hũa certa igua"
             }
-          ]
+          ],
+          "note": "Ganzǒ is the mixture entry, with fucumi majiuaru expressing inclusion and intermixture. The damaged letter after maji is read as u rather than OCR n: its remaining stems, the verb majiwaru, and the mixed-fish gloss agree. The initial is G, and igua continues as ria without an added hyphen."
         },
         {
           "id": "c1-l005",
@@ -92,9 +101,10 @@
           "runs": [
             {
               "typeface": "italic",
-              "text": "ria de muitos pexes miſturidos feitos em Saxi-"
+              "text": "ria de muitos pexes miſturados feitos em Saxi-"
             }
-          ]
+          ],
+          "note": "Ria completes iguaria: a dish of several kinds of fish mixed and prepared as sashimi. The scan supports miſturados rather than miſturidos. The embedded Japanese Saxi- is actually italic here and breaks at the printed hyphen."
         },
         {
           "id": "c1-l006",
@@ -102,9 +112,18 @@
           "runs": [
             {
               "typeface": "italic",
-              "text": "mi. S. ¶ Item, Meſtura de varias"
+              "text": "mi."
+            },
+            {
+              "typeface": "roman",
+              "text": " S."
+            },
+            {
+              "typeface": "italic",
+              "text": " ¶ Item, Miſtura de varias"
             }
-          ]
+          ],
+          "note": "Italic mi completes Saxi-mi, followed by the upright S. label. The next sense begins with Miſtura, whose narrow i is visible rather than OCR e, and extends the meaning to a mixture of different things."
         },
         {
           "id": "c1-l007",
@@ -114,7 +133,8 @@
               "typeface": "italic",
               "text": "couſas."
             }
-          ]
+          ],
+          "note": "Couſas completes the general mixture sense of Ganzǒ. This short continuation is a full physical body row, distinct from the next headword."
         },
         {
           "id": "c1-l008",
@@ -131,14 +151,15 @@
               "typeface": "roman",
               "text": " Gafato."
             }
-          ]
+          ],
+          "note": "Gappato is labelled an adverb and referred to Gafato, the preceding entry for an unexpected or sudden occurrence. The cross-reference remains roman, while Adu. Vide is italic."
         },
         {
           "id": "c1-l009",
           "runs": [
             {
               "typeface": "roman",
-              "text": "Ganpi."
+              "text": "Gappi."
             },
             {
               "typeface": "italic",
@@ -148,7 +169,8 @@
               "typeface": "roman",
               "text": " Gappi ſuru."
             }
-          ]
+          ],
+          "note": "The headword is Gappi, not OCR Ganpi: both p descenders can be seen and the example repeats the same form. Gappi ſuru means to agree or correspond, as the Portuguese explains across the next line."
         },
         {
           "id": "c1-l010",
@@ -158,20 +180,22 @@
               "typeface": "italic",
               "text": "Quadrar, ou ter correſpondencia."
             }
-          ]
+          ],
+          "note": "The example Gappi ſuru is translated as fitting or having correspondence. The historical correſpondencia spelling is preserved, with no new entry implied by this indented continuation."
         },
         {
           "id": "c1-l011",
           "runs": [
             {
               "typeface": "roman",
-              "text": "Guqi."
+              "text": "Gaqi."
             },
             {
               "typeface": "italic",
               "text": " Almas famintas que eſtão no Inferno ſe"
             }
-          ]
+          ],
+          "note": "Gaqi is gaki, the hungry spirits described in the Portuguese, not OCR Guqi. The final ſe is the beginning of ſegundo on the next row; no terminal hyphen is supplied where none is printed."
         },
         {
           "id": "c1-l012",
@@ -181,7 +205,8 @@
               "typeface": "italic",
               "text": "gundo a opinião dos gentios. ¶ Item, Per"
             }
-          ]
+          ],
+          "note": "Gundo completes ſegundo and attributes this description to the beliefs of the people the dictionary calls gentios. Per begins the metaphorical-usage label completed by met. below; both fragments remain on their physical rows."
         },
         {
           "id": "c1-l013",
@@ -189,9 +214,10 @@
           "runs": [
             {
               "typeface": "italic",
-              "text": "met. Peßoa eſtaimada, magra, & deffeita,"
+              "text": "met. Peßoa eſfaimada, magra, & deſfeita,"
             }
-          ]
+          ],
+          "note": "The figurative sense is a hungry, thin, wasted person. Reinspection distinguishes eſfaimada from OCR eſtaimada and the first long ſ in deſfeita from f; both readings agree with the linked description of hunger."
         },
         {
           "id": "c1-l014",
@@ -201,7 +227,8 @@
               "typeface": "italic",
               "text": "& deſcorada. ¶ Item, He palaura com"
             }
-          ]
+          ],
+          "note": "The description adds a pale or discoloured appearance, then begins another usage of the word as an insult. The historical deſcorada and He are retained rather than modernized."
         },
         {
           "id": "c1-l015",
@@ -211,7 +238,8 @@
               "typeface": "italic",
               "text": "que reprendem, & abatem alguem. Vt,"
             }
-          ]
+          ],
+          "note": "This continues the explanation that Gaqi can rebuke and belittle someone, and introduces a Japanese example. The ampersand and final Vt, remain in the italic Portuguese apparatus."
         },
         {
           "id": "c1-l016",
@@ -225,7 +253,8 @@
               "typeface": "italic",
               "text": " Aquelle triste, & mala-"
             }
-          ]
+          ],
+          "note": "Ano gaqimega is the contemptuous expression illustrated by the Portuguese description of a wretched person. The supplied st treatment in triste is retained, and the printed mala- continues below."
         },
         {
           "id": "c1-l017",
@@ -235,7 +264,8 @@
               "typeface": "italic",
               "text": "venturado, ou faminto, &c."
             }
-          ]
+          ],
+          "note": "Venturado completes malaventurado, followed by the alternative meaning faminto, hungry. The printed line break and concluding &c. are preserved."
         },
         {
           "id": "c1-l018",
@@ -246,9 +276,14 @@
             },
             {
               "typeface": "italic",
-              "text": " Fome. S."
+              "text": " Fome."
+            },
+            {
+              "typeface": "roman",
+              "text": " S."
             }
-          ]
+          ],
+          "note": "This separate Gaqi entry gives hunger, with Vye and vyuru corresponding to hunger and being hungry. The gloss Fome is italic but its S. label is upright; it is not merged with the preceding spirits entry."
         },
         {
           "id": "c1-l019",
@@ -261,7 +296,8 @@
               "typeface": "italic",
               "text": " Inferno onde a tormentão com fome"
             }
-          ]
+          ],
+          "note": "Gaqidǒ is the hungry-ghost realm, explained as a hell in which souls are tormented with hunger. The scan's a tormentão spacing is retained as printed rather than silently joining the Portuguese verb."
         },
         {
           "id": "c1-l020",
@@ -271,7 +307,8 @@
               "typeface": "italic",
               "text": "as almas."
             }
-          ]
+          ],
+          "note": "As almas supplies the object of tormentão in the preceding line. This brief continuation completes Gaqidǒ before the unrelated suffix Gara begins."
         },
         {
           "id": "c1-l021",
@@ -284,7 +321,8 @@
               "typeface": "italic",
               "text": " Modo, feição: ſempre vai com outro"
             }
-          ]
+          ],
+          "note": "Gara expresses a manner or character and is explained as occurring with another noun. The colon and long ſ in ſempre are retained; the construction continues below."
         },
         {
           "id": "c1-l022",
@@ -300,9 +338,10 @@
             },
             {
               "typeface": "italic",
-              "text": " Modo, ou fer"
+              "text": " Modo, ou fei"
             }
-          ]
+          ],
+          "note": "Tocorogara illustrates a place's character. The last letters are fei, not OCR fer, beginning feição across the following physical row without an invented hyphen."
         },
         {
           "id": "c1-l023",
@@ -310,21 +349,14 @@
           "runs": [
             {
               "typeface": "italic",
-              "text": "ção do lugar. No Cami ſe d"
-            },
-            {
-              "typeface": "roman",
-              "text": "i"
-            },
-            {
-              "typeface": "italic",
-              "text": "z."
+              "text": "ção do lugar. No Cami ſe diz."
             },
             {
               "typeface": "roman",
               "text": " Tocorocara."
             }
-          ]
+          ],
+          "note": "Ção completes feição do lugar. The explanation says that in Cami the form is Tocorocara; Cami is embedded in the Portuguese and is visibly italic here, whereas the cited alternative is roman. The spurious split italic span inside diz is removed."
         },
         {
           "id": "c1-l024",
@@ -342,7 +374,8 @@
               "typeface": "italic",
               "text": " Tempo, ou conjunção de tẽ"
             }
-          ]
+          ],
+          "note": "Iibungara gives a time or conjunction of circumstances. The initial Ii spelling is preserved, and the Portuguese tẽ is the nasal abbreviation continuing with po on the next line."
         },
         {
           "id": "c1-l025",
@@ -352,7 +385,8 @@
               "typeface": "italic",
               "text": "po em que ha algum trabalho, ou particulari-"
             }
-          ]
+          ],
+          "note": "Po completes tẽpo. The definition specifies a time involving some difficulty or particular circumstance; particulari- retains its visible dividing hyphen."
         },
         {
           "id": "c1-l026",
@@ -362,7 +396,8 @@
               "typeface": "italic",
               "text": "dade, &c."
             }
-          ]
+          ],
+          "note": "Dade completes particularidade and closes the Iibungara explanation. The short continuation and its &c. are retained as their own body row."
         },
         {
           "id": "c1-l027",
@@ -375,7 +410,8 @@
               "typeface": "italic",
               "text": " Adu. Modo de ſoarem cam-"
             }
-          ]
+          ],
+          "note": "Garagarato is the rattling or clattering adverb. The explanation introduces the sound of bells and related objects; the faint internal letters remain consistent with Garagarato, and cam- continues below."
         },
         {
           "id": "c1-l028",
@@ -385,20 +421,22 @@
               "typeface": "italic",
               "text": "painhas, caſcaueis, trebelhos, nozes, &c."
             }
-          ]
+          ],
+          "note": "Painhas completes campainhas, followed by rattles, small objects and nuts as sources of the sound. The original caſcaueis and trebelhos are retained rather than replaced by modern vocabulary."
         },
         {
           "id": "c1-l029",
           "runs": [
             {
               "typeface": "roman",
-              "text": "Caramecaxi, u, aita."
+              "text": "Garamecaxi, u, aita."
             },
             {
               "typeface": "italic",
               "text": " Fazer ſoar eſtas cou-"
             }
-          ]
+          ],
+          "note": "Garamecaxi is the causative entry for making these things rattle. The scan has initial G, not C, but visibly prints u in the conjugational sequence; that anomalous ending is retained instead of supplying the grammatically expected ſu. Cou- continues on the next row."
         },
         {
           "id": "c1-l030",
@@ -406,9 +444,10 @@
           "runs": [
             {
               "typeface": "italic",
-              "text": "ſas, ou cauſar qual juer outra traquinada."
+              "text": "ſas, ou cauſar qualquer outra traquinada."
             }
-          ]
+          ],
+          "note": "The definition adds causing any other disturbance or clatter. Qualquer is one printed word, not OCR qual juer; the historical traquinada is retained, and ſas completes couſas from above."
         },
         {
           "id": "c1-l031",
@@ -421,7 +460,8 @@
               "typeface": "italic",
               "text": " Soarem, ou fazerẽ tra-"
             }
-          ]
+          ],
+          "note": "Garameqi is the corresponding intransitive verb for sounding or making a disturbance. Its u, eita sequence is retained; fazerẽ keeps its nasal mark and tra- continues below."
         },
         {
           "id": "c1-l032",
@@ -431,7 +471,8 @@
               "typeface": "italic",
               "text": "quinada ratos, &c. ¶ Item, Soarem cam"
             }
-          ]
+          ],
+          "note": "Quinada completes traquinada, with rats as the first example. A further sense concerns bells and similar objects; the ending cam has no added hyphen because the scan does not clearly print one."
         },
         {
           "id": "c1-l033",
@@ -441,7 +482,8 @@
               "typeface": "italic",
               "text": "painhas, trebelhos, caſcaueis, nozes, &c."
             }
-          ]
+          ],
+          "note": "Painhas completes the repeated reference to campainhas. The sequence of trebelhos, caſcaueis and nozes supplies further rattling objects, closing the intransitive Garameqi entry."
         },
         {
           "id": "c1-l034",
@@ -454,7 +496,8 @@
               "typeface": "italic",
               "text": " Templo grande."
             }
-          ]
+          ],
+          "note": "Garan denotes a large temple or temple establishment. The short Portuguese definition and the headword's initial G are clearly separate from the surrounding sound-symbolic entries."
         },
         {
           "id": "c1-l035",
@@ -467,7 +510,8 @@
               "typeface": "italic",
               "text": " Adu. Modo de ſoar algũa couſa"
             }
-          ]
+          ],
+          "note": "Gararito is another adverb describing how an object sounds. The mark in algũa is retained, and its illustrative comparison with bells continues below."
         },
         {
           "id": "c1-l036",
@@ -477,7 +521,8 @@
               "typeface": "italic",
               "text": "como campainha, caſcaueis, &c."
             }
-          ]
+          ],
+          "note": "This completes Gararito with the sound of a bell or rattles. The supplied historical spelling caſcaueis and the final &c. remain unchanged."
         },
         {
           "id": "c1-l037",
@@ -490,20 +535,22 @@
               "typeface": "italic",
               "text": " Adu. Idem."
             }
-          ]
+          ],
+          "note": "The reduplicated Gararigararito is labelled an adverb with the same meaning as Gararito. The repeated sequence is preserved in full rather than collapsed into the shorter headword."
         },
         {
           "id": "c1-l038",
           "runs": [
             {
               "typeface": "roman",
-              "text": "Gareubu."
+              "text": "Garenbu."
             },
             {
               "typeface": "italic",
               "text": " Vuas do mato q̃ cõmũmente chama-"
             }
-          ]
+          ],
+          "note": "Garenbu names wild grapes. Enlarging the damaged letter before b shows the surviving upper/right stroke of n rather than a joined lower bowl of u; the supplied NINJAL index also identifies Garenbu. Vuas, q̃ and cõmũmente retain their historical spelling and abbreviations, with chama- continuing below."
         },
         {
           "id": "c1-l039",
@@ -525,7 +572,8 @@
               "typeface": "roman",
               "text": " Cami Yabu-"
             }
-          ]
+          ],
+          "note": "Mos completes chamamos; the explanation gives garebo, an alternative Gara, and the Cami name Yabu-budo. The different printed fonts are retained: garebo and alicubi are italic, Gara and Cami are roman, and Yabu- ends at the visible hyphen."
         },
         {
           "id": "c1-l040",
@@ -535,7 +583,8 @@
               "typeface": "roman",
               "text": "budo."
             }
-          ]
+          ],
+          "note": "Budo completes Yabu-budo, the regional name embedded in the preceding Portuguese explanation. The roman continuation is kept on its own printed row, without supplying an unprinted vowel-length mark."
         },
         {
           "id": "c1-l041",
@@ -548,7 +597,8 @@
               "typeface": "italic",
               "text": " Adu. Modo de ſoar couſa du-"
             }
-          ]
+          ],
+          "note": "Garigarito describes a hard crunching sound. The Portuguese explicitly begins to qualify the sounding object as dura, with du- retaining its printed division."
         },
         {
           "id": "c1-l042",
@@ -558,7 +608,8 @@
               "typeface": "italic",
               "text": "ra, & q̃ trinca nos dentes."
             }
-          ]
+          ],
+          "note": "Ra completes dura, and the gloss specifies something that crunches between the teeth. The q̃ abbreviation remains as printed rather than expanded to que."
         },
         {
           "id": "c1-l043",
@@ -571,7 +622,8 @@
               "typeface": "italic",
               "text": " Tomar algũa couſa por força,"
             }
-          ]
+          ],
+          "note": "Gariǒji describes forcibly taking something while asserting ownership, as the continuation explains. The scan supports the headword and zuru despite local weak inking; the long-o mark is retained as supplied."
         },
         {
           "id": "c1-l044",
@@ -579,9 +631,10 @@
           "runs": [
             {
               "typeface": "italic",
-              "text": "& repunando outros inſiſindo que he ſua, ou"
+              "text": "& repunando outros inſiſtindo que he ſua, ou"
             }
-          ]
+          ],
+          "note": "The definition adds opposition from others and insistence that the thing is one's own. The scan supports inſiſtindo rather than OCR inſiſindo; repunando and he retain their historical printed forms."
         },
         {
           "id": "c1-l045",
@@ -591,7 +644,8 @@
               "typeface": "italic",
               "text": "lhes pertence."
             }
-          ]
+          ],
+          "note": "This completes the possessive claim made by the person taking the object. The plural lhes is preserved as printed, not adjusted to a modern paraphrase of the entry."
         },
         {
           "id": "c1-l046",
@@ -604,7 +658,8 @@
               "typeface": "italic",
               "text": " Proprias forças."
             }
-          ]
+          ],
+          "note": "Gariqi means one's own strength. The explanatory Japanese would be understood as waga chikara, but this copy visibly reads Vaga hi ara with the consonants not legible; the defective printed sequence is retained rather than silently reconstructed."
         },
         {
           "id": "c1-l047",
@@ -616,13 +671,14 @@
             },
             {
               "typeface": "roman",
-              "text": " Cariqide tçucamaçurô."
+              "text": " Gariqide tçucamaçurǒ."
             },
             {
               "typeface": "italic",
-              "text": " Fareicõ mi"
+              "text": " Farei cõ mi"
             }
-          ]
+          ],
+          "note": "The example means doing it by one's own strength. Initial G and the visible caron in tçucamaçurǒ replace OCR C and circumflex; Farei cõ is visibly separated, and mi continues as nhas at the top of column 2 without an invented hyphen."
         }
       ]
     },
@@ -673,13 +729,10 @@
             },
             {
               "typeface": "roman",
-              "text": " X"
-            },
-            {
-              "typeface": "italic",
-              "text": "."
+              "text": " X."
             }
-          ]
+          ],
+          "note": "Nhas completes minhas from the bottom of column 1, closing the translation of Gariqide tçucamaçurǒ. The X. label is wholly upright rather than leaving its period in a stray italic span."
         },
         {
           "id": "c2-l002",
@@ -692,7 +745,8 @@
               "typeface": "italic",
               "text": " Fazer chocalhar, ou"
             }
-          ]
+          ],
+          "note": "Gatamecaxi is the causative verb for making something rattle. Unlike the anomalous u printed in Garamecaxi, this row visibly supplies ſu, aita; the Portuguese alternatives continue below."
         },
         {
           "id": "c2-l003",
@@ -702,7 +756,8 @@
               "typeface": "italic",
               "text": "ſoar couſas duras, ou ſecas. ¶ Item, Fa-"
             }
-          ]
+          ],
+          "note": "The objects made to sound are hard or dry things. A further sense begins with Fa-, whose printed hyphen divides Fazer at the next physical row."
         },
         {
           "id": "c2-l004",
@@ -712,7 +767,8 @@
               "typeface": "italic",
               "text": "zer ſoar portas, &c."
             }
-          ]
+          ],
+          "note": "Zer completes Fazer, adding the making of doors and similar things sound. The historical long ſ in ſoar and final &c. are retained."
         },
         {
           "id": "c2-l005",
@@ -725,7 +781,8 @@
               "typeface": "italic",
               "text": " Fazerem traquinada, ou"
             }
-          ]
+          ],
+          "note": "Gatameqi gives the corresponding intransitive clattering or rattling. The u, eita conjugational sequence is distinct from the causative entry above, and the definition carries into the next row."
         },
         {
           "id": "c2-l006",
@@ -739,7 +796,8 @@
               "typeface": "roman",
               "text": " Votogaiga ga-"
             }
-          ]
+          ],
+          "note": "The Portuguese refers back to the same sounding objects, then introduces Votogaiga gatamequ, the jaw or chin chattering. The Japanese verb is physically divided after ga- at the visible hyphen."
         },
         {
           "id": "c2-l007",
@@ -753,7 +811,8 @@
               "typeface": "italic",
               "text": " Soarem os queixos quando hũ tre-"
             }
-          ]
+          ],
+          "note": "Tamequ completes gatamequ. The translation explains jaws chattering when someone trembles, with hũ retaining its nasal abbreviation and tre- continuing on the next row."
         },
         {
           "id": "c2-l008",
@@ -765,9 +824,10 @@
             },
             {
               "typeface": "roman",
-              "text": " Gatagatato ſuru."
+              "text": " Gatagatato ſuru,"
             }
-          ]
+          ],
+          "note": "Me completes treme, specifying cold as the cause. Gatagatato ſuru supplies an equivalent sound-symbolic expression; the small terminal mark has a visible descending tail and is transcribed as the printed comma."
         },
         {
           "id": "c2-l009",
@@ -777,7 +837,8 @@
               "typeface": "italic",
               "text": "idem."
             }
-          ]
+          ],
+          "note": "Lowercase idem assigns Gatagatato ſuru the same meaning as the jaw-chattering example. The brief gloss occupies its own body row and is not part of the next headword."
         },
         {
           "id": "c2-l010",
@@ -798,7 +859,8 @@
               "typeface": "italic",
               "text": " Com oca-"
             }
-          ]
+          ],
+          "note": "Gatera is illustrated by Qenbutgaterani, going to look at something while taking the opportunity to do so. The Japanese historical Qenbut spelling is retained; oca- begins the Portuguese ocasião across the line break."
         },
         {
           "id": "c2-l011",
@@ -806,9 +868,10 @@
           "runs": [
             {
               "typeface": "italic",
-              "text": "ſũão de ir ver: não ſe vſa eſta palaura por ſi ſe"
+              "text": "ſião de ir ver: não ſe vſa eſta palaura por ſi ſe"
             }
-          ]
+          ],
+          "note": "The opening ſião completes ocasião: the scan shows the dotted i and the tilde over a, not OCR ſũão. The explanation says Gatera is not used by itself, and the final ſe continues as ſenão below."
         },
         {
           "id": "c2-l012",
@@ -818,7 +881,8 @@
               "typeface": "italic",
               "text": "não com outras."
             }
-          ]
+          ],
+          "note": "Não completes ſenão, specifying use together with other words. No hyphen or new sentence is inserted into the printed cross-line construction."
         },
         {
           "id": "c2-l013",
@@ -831,7 +895,8 @@
               "typeface": "italic",
               "text": " O ajuntar, ou vnir."
             }
-          ]
+          ],
+          "note": "Gattai denotes joining or uniting, with Taiuo auaſuru expressing bringing bodies together. The historical spellings auaſuru and vnir are preserved."
         },
         {
           "id": "c2-l014",
@@ -849,7 +914,8 @@
               "typeface": "italic",
               "text": " Eſ-"
             }
-          ]
+          ],
+          "note": "The example describes sharing a united intention or mind. Dôxinno carries the visible circumflex, vomoiuo retains its historical onset, and Eſ- begins the Portuguese Eſtar below."
         },
         {
           "id": "c2-l015",
@@ -859,14 +925,15 @@
               "typeface": "italic",
               "text": "tar vnido no coração, & vontade com outro."
             }
-          ]
+          ],
+          "note": "Tar completes Eſtar, translating the example as being united with another in heart and will. The original vnido and conjunction punctuation are retained."
         },
         {
           "id": "c2-l016",
           "runs": [
             {
               "typeface": "roman",
-              "text": "Catten."
+              "text": "Gatten."
             },
             {
               "typeface": "italic",
@@ -876,7 +943,8 @@
               "typeface": "roman",
               "text": " Gatten itaita,"
             }
-          ]
+          ],
+          "note": "The headword is Gatten, with a visible G rather than OCR C. It denotes understanding, and Gatten itaita is the first example, followed by a printed comma connecting it to the next expression."
         },
         {
           "id": "c2-l017",
@@ -890,7 +958,8 @@
               "typeface": "italic",
               "text": " Tenho entendido."
             }
-          ]
+          ],
+          "note": "The second example is translated as having understood. The scan really prints gaetenni, with e after ga, rather than the expected gattenni; this apparent printing anomaly is deliberately retained."
         },
         {
           "id": "c2-l018",
@@ -908,7 +977,8 @@
               "typeface": "italic",
               "text": " A"
             }
-          ]
+          ],
+          "note": "A further sense is approval or assent, with the alternative tenuo auaſuru. The isolated italic A starts Aprouar on the next row; no missing hyphen is invented."
         },
         {
           "id": "c2-l019",
@@ -918,7 +988,8 @@
               "typeface": "italic",
               "text": "prouar, ou conſentir em algũa couſa aßinando,"
             }
-          ]
+          ],
+          "note": "Prouar completes Aprouar, defining consent with a signature as one possibility. Algũa and aßinando retain their printed nasal and doubled-s forms."
         },
         {
           "id": "c2-l020",
@@ -928,7 +999,8 @@
               "typeface": "italic",
               "text": "ou ſem ſe aßinar."
             }
-          ]
+          ],
+          "note": "This adds that consent may also be given without signing. The two separate ſe forms and aßinar close the approval sense, not a new entry."
         },
         {
           "id": "c2-l021",
@@ -941,7 +1013,8 @@
               "typeface": "italic",
               "text": " Pato, & outro paſſa-"
             }
-          ]
+          ],
+          "note": "Gauô groups Ga and voxidori, birds glossed here as a duck and another colourful bird. The circumflex and voxidori spelling are preserved; paſſa- continues below rather than being expanded within this row."
         },
         {
           "id": "c2-l022",
@@ -951,7 +1024,8 @@
               "typeface": "italic",
               "text": "ro de varias cores."
             }
-          ]
+          ],
+          "note": "Ro completes paſſaro and describes the second bird as having various colours. The row completes the bird entry before Gaxi begins."
         },
         {
           "id": "c2-l023",
@@ -964,7 +1038,8 @@
               "typeface": "italic",
               "text": " Morrer de fome."
             }
-          ]
+          ],
+          "note": "Gaxi is death by starvation, explained by the Japanese Vye, xiſuru and Portuguese Morrer de fome. The comma in the Japanese paraphrase is retained rather than recast as modern prose."
         },
         {
           "id": "c2-l024",
@@ -982,7 +1057,8 @@
               "typeface": "italic",
               "text": " Chegar a morrer de"
             }
-          ]
+          ],
+          "note": "Gaxini voyobu describes reaching the point of death from hunger. The Portuguese phrase remains incomplete until fome on the following physical row."
         },
         {
           "id": "c2-l025",
@@ -992,7 +1068,8 @@
               "typeface": "italic",
               "text": "fome."
             }
-          ]
+          ],
+          "note": "Fome completes the translation of Gaxini voyobu. This single-word continuation is retained as body text with its own crop, not mistaken for furniture or a separate headword."
         },
         {
           "id": "c2-l026",
@@ -1005,7 +1082,8 @@
               "typeface": "italic",
               "text": " Ajuntar como materiaes"
             }
-          ]
+          ],
+          "note": "Gaxxi means combining or joining, with ſuru and xita giving the verb's forms. The first example concerns combining ingredients or materials, as specified below; the paired x letters are retained."
         },
         {
           "id": "c2-l027",
@@ -1015,7 +1093,8 @@
               "typeface": "italic",
               "text": "de mezinhas, &c. ¶ Itẽ, Permet. V-"
             }
-          ]
+          ],
+          "note": "The materials are those used for mezinhas, remedies, followed by a figurative sense. The print's Itẽ abbreviation and joined Permet. are retained; V- is the beginning of Vnirſe, not a standalone label."
         },
         {
           "id": "c2-l028",
@@ -1025,20 +1104,22 @@
               "typeface": "italic",
               "text": "nirſe na amizade."
             }
-          ]
+          ],
+          "note": "Nirſe completes Vnirſe, giving the figurative meaning of uniting in friendship. The historical initial V stays in the previous physical row."
         },
         {
           "id": "c2-l029",
           "runs": [
             {
               "typeface": "roman",
-              "text": "Cuxxǒ. Tanagocorouo auaſuru."
+              "text": "Gaxxǒ. Tanagocorouo auaſuru."
             },
             {
               "typeface": "italic",
               "text": " Ajuntar"
             }
-          ]
+          ],
+          "note": "The headword is Gaxxǒ, not OCR Cuxxǒ: the G and a are visible, and Tanagocorouo auaſuru describes bringing the palms together. The definition of joining the hands continues below."
         },
         {
           "id": "c2-l030",
@@ -1052,7 +1133,8 @@
               "typeface": "roman",
               "text": " Chǒqi gaxxǒ xi-"
             }
-          ]
+          ],
+          "note": "The gesture is joining the hands in worship. Chǒqi gaxxǒ xite introduces kneeling with the palms joined; the supplied long-o marks and the printed xi- division are retained."
         },
         {
           "id": "c2-l031",
@@ -1066,7 +1148,8 @@
               "typeface": "italic",
               "text": " Pondoſe de joelhos, & com as mãos ale"
             }
-          ]
+          ],
+          "note": "Te completes xite, followed by the translation of kneeling and holding the hands raised. Ale begins aleuantadas across the next row without an added hyphen."
         },
         {
           "id": "c2-l032",
@@ -1076,7 +1159,8 @@
               "typeface": "italic",
               "text": "uantadas."
             }
-          ]
+          ],
+          "note": "Uantadas completes the historical form aleuantadas. This continuation closes the worship-gesture example before the separate architectural Gaxxǒ entry."
         },
         {
           "id": "c2-l033",
@@ -1089,7 +1173,8 @@
               "typeface": "italic",
               "text": " Hũs paos altos da caſa co-"
             }
-          ]
+          ],
+          "note": "This homonymous Gaxxǒ is glossed by Saſu and refers to high structural timbers of a house. The i, synonym label is retained, and co- begins the comparison completed below."
         },
         {
           "id": "c2-l034",
@@ -1099,7 +1184,8 @@
               "typeface": "italic",
               "text": "mo aſnas."
             }
-          ]
+          ],
+          "note": "Mo completes como aſnas, comparing the timbers to roof trusses or their members. The long ſ in aſnas is preserved; it is not the adjective altas or a new Japanese word."
         },
         {
           "id": "c2-l035",
@@ -1112,7 +1198,8 @@
               "typeface": "italic",
               "text": " Comeres que não combinão entre"
             }
-          ]
+          ],
+          "note": "Gaxxǒqin denotes foods said not to combine well. The definition continues across the next line; this is the dictionary's historical dietary description, not a modern recommendation."
         },
         {
           "id": "c2-l036",
@@ -1122,7 +1209,8 @@
               "typeface": "italic",
               "text": "ſi, ou que fazem mal aquem os come juntos."
             }
-          ]
+          ],
+          "note": "The foods are said to disagree with one another or harm someone eating them together. The printed aquem remains joined, and the gloss is kept as a report of the source's wording."
         },
         {
           "id": "c2-l037",
@@ -1130,13 +1218,14 @@
           "runs": [
             {
               "typeface": "italic",
-              "text": "Permet."
+              "text": "¶ Permet."
             },
             {
               "typeface": "roman",
               "text": " Cano fitoto, ano fitoua gax-"
             }
-          ]
+          ],
+          "note": "The clearly printed pilcrow, omitted by OCR, introduces a metaphorical application to people. Cano fitoto, ano fitoua begins a sentence about incompatible natures, and gax- continues the compound on the next row."
         },
         {
           "id": "c2-l038",
@@ -1150,7 +1239,8 @@
               "typeface": "italic",
               "text": " Aquelles não combinão nas"
             }
-          ]
+          ],
+          "note": "Xǒqinde aru completes gaxxǒqinde aru. The translation states that those people do not agree in their natures, whose final noun follows below; the roman example and italic gloss remain distinct."
         },
         {
           "id": "c2-l039",
@@ -1164,7 +1254,8 @@
               "typeface": "roman",
               "text": " Areua vaga gaxxǒqin"
             }
-          ]
+          ],
+          "note": "Naturezas closes the first metaphorical example. The new sentence Areua vaga gaxxǒqin introduces someone incompatible with the speaker; its copula follows on the next row."
         },
         {
           "id": "c2-l040",
@@ -1178,7 +1269,8 @@
               "typeface": "italic",
               "text": " Aquelle he minha contra peçonha."
             }
-          ]
+          ],
+          "note": "Gia completes the Japanese sentence. The Portuguese metaphor contra peçonha is retained literally as printed; the context is personal incompatibility, not instructions involving poison."
         },
         {
           "id": "c2-l041",
@@ -1189,9 +1281,14 @@
             },
             {
               "typeface": "italic",
-              "text": " Aſas de pato. S."
+              "text": " Aſas de pato."
+            },
+            {
+              "typeface": "roman",
+              "text": " S."
             }
-          ]
+          ],
+          "note": "Gayocu is explained by Gano tçubaſa and the Portuguese wings of a duck. The final S. is upright, outside the italic definition, and the original ç and long ſ are retained."
         },
         {
           "id": "c2-l042",
@@ -1204,7 +1301,8 @@
               "typeface": "italic",
               "text": " Baixo, ou inferior."
             }
-          ]
+          ],
+          "note": "This Gue means low or inferior, with Xita and cudaru as the Japanese explanation. It begins the Gue sequence without an extra section heading or enlarged initial; the printed running header above still reads G ANTES DO A."
         },
         {
           "id": "c2-l043",
@@ -1217,7 +1315,8 @@
               "typeface": "italic",
               "text": " Sentença, ou verſo como o que diße cada"
             }
-          ]
+          ],
+          "note": "The separate Gue means a sentence or verse. The Portuguese starts an analogy involving what each apostle said; the historical diße remains unchanged."
         },
         {
           "id": "c2-l044",
@@ -1225,13 +1324,14 @@
           "runs": [
             {
               "typeface": "italic",
-              "text": "Aposholo na cõpoſiçã do credo, &c. ¶"
+              "text": "Apoſtolo na cõpoſição do credo, &c. ¶"
             },
             {
               "typeface": "roman",
               "text": " Ichi"
             }
-          ]
+          ],
+          "note": "The word is Apoſtolo, not OCR Aposholo, with a tall joined st cluster provisionally rendered ſt. The faint right curve after çã supports final o in cõpoſição; the analogy concerns the composition of the creed. Ichi begins a roman Japanese example continued below."
         },
         {
           "id": "c2-l045",
@@ -1245,7 +1345,8 @@
               "typeface": "italic",
               "text": " Hũa ſentença, ou hum verſo."
             }
-          ]
+          ],
+          "note": "Gue completes Ichi gue, one sentence or one verse. The source alternates Hũa and hum here; both are retained, and the weak nasal mark in Hũa is not regularized away."
         },
         {
           "id": "c2-l046",
@@ -1258,7 +1359,8 @@
               "typeface": "italic",
               "text": " Decerſe do caua-"
             }
-          ]
+          ],
+          "note": "Gueba is dismounting, explained by Vma yori voruru. The historical voruru and Decerſe remain as printed, and caua- carries the Portuguese word for horse to the next row."
         },
         {
           "id": "c2-l047",
@@ -1266,9 +1368,18 @@
           "runs": [
             {
               "typeface": "italic",
-              "text": "lo diãte de peßoa de reſpeito, ou dalgũa Tera por"
+              "text": "lo diãte de peßoa de reſpeito, ou dalgũa"
+            },
+            {
+              "typeface": "roman",
+              "text": " Tera"
+            },
+            {
+              "typeface": "italic",
+              "text": " por"
             }
-          ]
+          ],
+          "note": "Lo completes caualo: the rider dismounts before a respected person or a Tera as courtesy. The embedded Japanese Tera is visibly roman within the italic Portuguese; diãte and dalgũa preserve their nasal marks."
         },
         {
           "id": "c2-l048",
@@ -1278,7 +1389,8 @@
               "typeface": "italic",
               "text": "corteſia."
             }
-          ]
+          ],
+          "note": "Corteſia completes the reason for dismounting. The separate signature F f 3 and far-right Gue- catchword are page furniture on the same horizontal band, not continuations of this body line."
         }
       ]
     },
@@ -1307,8 +1419,9 @@
           "id": "cw-l001",
           "runs": [
             {
-              "typeface": "display",
-              "text": "Gue-"
+              "typeface": "roman",
+              "text": "Gue-",
+              "placement": "far-right"
             }
           ]
         }

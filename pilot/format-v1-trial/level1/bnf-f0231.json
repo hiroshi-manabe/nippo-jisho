@@ -13,7 +13,7 @@
     "origin": "calamari_v2_machine_provisional",
     "wikisource_used_for_this_trial": false,
     "physical_lineation_checked": true,
-    "status": "visual_draft"
+    "status": "context_reviewed"
   },
   "zones": [
     {
@@ -36,19 +36,21 @@
       "id": "column-1",
       "kind": "column",
       "label": "Column 1",
+      "note": "Lexical cross-check: NINJAL, Entry Words Data of Nippojisho, version 202510, Hideyuki Ohshima and Taichi Aida, supplied package subset; CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Dataset: https://www2.ninjal.ac.jp/textdb_dataset/en/nipp/index.html. The scan, not the lexical index or generated kana hints, determines the diplomatic text.",
       "lines": [
         {
           "id": "c1-l001",
           "runs": [
             {
               "typeface": "roman",
-              "text": "Gacuguiǒ?. Manabu xiuaza."
+              "text": "Gacuguiǒ. Manabu xiuaza."
             },
             {
               "typeface": "italic",
               "text": " Obra de aprẽ"
             }
-          ]
+          ],
+          "note": "Gakugyo is the activity of learning, expressed by manabu shiwaza. The stray, vertically distorted ink after the long-o type is not a secure question mark; the reading Gacuguiǒ agrees with the supplied NINJAL index. Aprẽ continues as der below without a supplied hyphen."
         },
         {
           "id": "c1-l002",
@@ -58,33 +60,36 @@
               "typeface": "italic",
               "text": "der, ou eſtudar."
             }
-          ]
+          ],
+          "note": "Der completes aprẽder, 'to learn'; estudar offers 'to study' as the alternative. The isolated marks at the far right are not a second text fragment."
         },
         {
           "id": "c1-l003",
           "runs": [
             {
               "typeface": "roman",
-              "text": "Cracuji. Manabu votto."
+              "text": "Gacuji. Manabu votto."
             },
             {
               "typeface": "italic",
               "text": " Letrado."
             }
-          ]
+          ],
+          "note": "Gacuji denotes a learned man, matching both manabu votto and letrado. The damaged initial is G, not the OCR sequence Cr; the printed votto is retained rather than normalized."
         },
         {
           "id": "c1-l004",
           "runs": [
             {
               "typeface": "roman",
-              "text": "Giacumon. Bunuo manabu."
+              "text": "Gacumon. Bunuo manabu."
             },
             {
               "typeface": "italic",
               "text": " Eſtudo de letras,"
             }
-          ]
+          ],
+          "note": "Gakumon is study or learning; bun wo manabu explains studying letters. The scan gives Gacumon, without the spurious i of Giacumon."
         },
         {
           "id": "c1-l005",
@@ -94,7 +99,8 @@
               "typeface": "italic",
               "text": "ou ſciencia."
             }
-          ]
+          ],
+          "note": "Ou sciencia completes the gloss with 'or knowledge/science'; this is a continuation of Gacumon, not a separate entry."
         },
         {
           "id": "c1-l006",
@@ -107,7 +113,8 @@
               "typeface": "italic",
               "text": " Eſtudante, ou letrado."
             }
-          ]
+          ],
+          "note": "Gakumonja is a student or learned person. The Portuguese preserves both stages or senses rather than restricting the word to a modern professional scholar."
         },
         {
           "id": "c1-l007",
@@ -120,7 +127,8 @@
               "typeface": "italic",
               "text": " Lugar de eſtudos."
             }
-          ]
+          ],
+          "note": "Gakumonjo is a place for study. The final jo distinguishes the location from the preceding person-word in ja."
         },
         {
           "id": "c1-l008",
@@ -133,7 +141,8 @@
               "typeface": "italic",
               "text": " Erua aßi chamada boa pera"
             }
-          ]
+          ],
+          "note": "Gakumonso names an herb described as useful for the ailment specified below. The open long-o mark and the printed ß in aßi are retained; no botanical species is inferred."
         },
         {
           "id": "c1-l009",
@@ -145,13 +154,10 @@
             },
             {
               "typeface": "roman",
-              "text": " X"
-            },
-            {
-              "typeface": "italic",
-              "text": "."
+              "text": " X."
             }
-          ]
+          ],
+          "note": "Sarna identifies the herb's stated use against scabies or a similar skin complaint. X. is the dictionary's regional label and is upright, not part of the italic disease name."
         },
         {
           "id": "c1-l010",
@@ -164,7 +170,8 @@
               "typeface": "italic",
               "text": " Muſicos, ou tange-"
             }
-          ]
+          ],
+          "note": "This Gacunin is a musician, explained by gaku no hito. The Portuguese tange- continues into the word for players of instruments."
         },
         {
           "id": "c1-l011",
@@ -174,7 +181,8 @@
               "typeface": "italic",
               "text": "dores de inſtrumentos muſicos."
             }
-          ]
+          ],
+          "note": "Dores completes tangedores: players of musical instruments. It belongs to the musical Gacunin rather than the next homographic entry."
         },
         {
           "id": "c1-l012",
@@ -187,20 +195,22 @@
               "typeface": "italic",
               "text": " Eſtudante."
             }
-          ]
+          ],
+          "note": "The second Gacunin is a learner or student, explicitly distinguished by manabu hito. The separate physical entry is retained despite identical headword spelling."
         },
         {
           "id": "c1-l013",
           "runs": [
             {
               "typeface": "roman",
-              "text": "GCacuqi. Gacuno vtçuuamono."
+              "text": "Gacuqi. Gacuno vtçuuamono."
             },
             {
               "typeface": "italic",
               "text": " Inſtrumen-"
             }
-          ]
+          ],
+          "note": "Gakuki is a musical instrument; gaku no utsuwamono supplies the Japanese paraphrase. The extra OCR C in GCacuqi has no independent type in the scan."
         },
         {
           "id": "c1-l014",
@@ -214,7 +224,8 @@
               "typeface": "roman",
               "text": " Gacuqiuo totonoyuru."
             }
-          ]
+          ],
+          "note": "To completes instrumento. The example gakuki wo totonoyuru concerns putting instruments in tune or order, as the next line confirms."
         },
         {
           "id": "c1-l015",
@@ -224,7 +235,8 @@
               "typeface": "italic",
               "text": "Temperar inſtrumentos muſicos."
             }
-          ]
+          ],
+          "note": "Temperar means tuning the musical instruments here, not tempering materials. It translates the Japanese example on the preceding row."
         },
         {
           "id": "c1-l016",
@@ -237,7 +249,8 @@
               "typeface": "italic",
               "text": " Eſtudantes con-"
             }
-          ]
+          ],
+          "note": "Gacurio denotes fellow students, with manabu tomo explaining companions in study. No long-vowel mark is supplied to the printed headword."
         },
         {
           "id": "c1-l017",
@@ -247,7 +260,8 @@
               "typeface": "italic",
               "text": "diſcipulos."
             }
-          ]
+          ],
+          "note": "Discipulos completes condiscipulos, fellow pupils. This short line finishes the preceding gloss."
         },
         {
           "id": "c1-l018",
@@ -260,7 +274,8 @@
               "typeface": "italic",
               "text": " Cabeça, ou principal em couſas de"
             }
-          ]
+          ],
+          "note": "Gakuto is the head or chief in the musical activities specified below. Its printed circumflex is distinct from the carons elsewhere on the page."
         },
         {
           "id": "c1-l019",
@@ -270,7 +285,8 @@
               "typeface": "italic",
               "text": "muſica, ou inſtrumentos muſicos. ¶ Item,"
             }
-          ]
+          ],
+          "note": "Completes the musical-leadership sense and introduces a second sense. Item begins the explanation of leadership among Buddhist clerics rather than another Japanese headword."
         },
         {
           "id": "c1-l020",
@@ -280,7 +296,8 @@
               "typeface": "italic",
               "text": "Cabeça, ou ſuperior principal entre os Bonzos"
             }
-          ]
+          ],
+          "note": "The second sense is the chief or principal superior among a named group of Buddhist clerics. The group-name is deferred to the next physical line."
         },
         {
           "id": "c1-l021",
@@ -294,7 +311,8 @@
               "typeface": "roman",
               "text": " Xǒdǒ."
             }
-          ]
+          ],
+          "note": "Xǒdǒ is embedded in the Portuguese phrase 'called Xǒdǒ' and is printed upright. Both long-o marks appear as carons; the Japanese term is recorded for optional whole-word typeface review."
         },
         {
           "id": "c1-l022",
@@ -307,7 +325,8 @@
               "typeface": "italic",
               "text": " O ter aprendido,"
             }
-          ]
+          ],
+          "note": "Gakutoku is having acquired learning, paraphrased by manabi uru. The gloss emphasizes attainment rather than simply the ongoing act of study."
         },
         {
           "id": "c1-l023",
@@ -317,7 +336,8 @@
               "typeface": "italic",
               "text": "ou recebido doutrina, &c."
             }
-          ]
+          ],
+          "note": "The alternative is having received instruction or doctrine. This continues the acquired-learning sense of Gacutocu."
         },
         {
           "id": "c1-l024",
@@ -330,7 +350,8 @@
               "typeface": "italic",
               "text": " Letrado, ou ſabio."
             }
-          ]
+          ],
+          "note": "Gakusha is a learned or wise person. The printed x is the ordinary Jesuit spelling here and does not call for modernization."
         },
         {
           "id": "c1-l025",
@@ -343,7 +364,8 @@
               "typeface": "italic",
               "text": " Idem."
             }
-          ]
+          ],
+          "note": "Gacuxǒ is assigned the same meaning as Gacuxa by Idem. The visible caron is preserved without assimilating it to the neighboring Gacutô circumflex."
         },
         {
           "id": "c1-l026",
@@ -356,7 +378,8 @@
               "typeface": "italic",
               "text": " Aprender, &"
             }
-          ]
+          ],
+          "note": "Gakushu combines learning with practice; the paraphrase manabi shusuru is completed semantically by the next Portuguese row."
         },
         {
           "id": "c1-l027",
@@ -366,7 +389,8 @@
               "typeface": "italic",
               "text": "por por obra."
             }
-          ]
+          ],
+          "note": "Por por obra means 'put into practice': the first por functions as the verb and the second as the preposition. The repeated printed word is meaningful historical Portuguese, not an OCR duplication to delete."
         },
         {
           "id": "c1-l028",
@@ -379,7 +403,8 @@
               "typeface": "italic",
               "text": " Caſa onde ſe reueſtẽ,"
             }
-          ]
+          ],
+          "note": "Gakuya is the place where performers dress. The abbreviated reueſtẽ is preserved, including its tilde, rather than expanded to a modern spelling."
         },
         {
           "id": "c1-l029",
@@ -389,7 +414,8 @@
               "typeface": "italic",
               "text": "ou donde ſaem as figuras do auto."
             }
-          ]
+          ],
+          "note": "The same room is described as the place from which the play's characters or performers emerge. This makes the theatrical, backstage meaning explicit."
         },
         {
           "id": "c1-l030",
@@ -402,7 +428,8 @@
               "typeface": "italic",
               "text": " Condiſcipulos no"
             }
-          ]
+          ],
+          "note": "Gakuyu again denotes companions in study. The small mark over final u remains faint after both scan passes; the supplied caron reading Gacuyǔ is retained rather than substituted with an unmarked vowel."
         },
         {
           "id": "c1-l031",
@@ -410,9 +437,10 @@
           "runs": [
             {
               "typeface": "italic",
-              "text": "eſtado."
+              "text": "eſtudo."
             }
-          ]
+          ],
+          "note": "Estudo completes 'fellow pupils in study'. The scan supports u, not the OCR's a in eſtado; the latter would change the meaning to a state or condition."
         },
         {
           "id": "c1-l032",
@@ -425,7 +453,8 @@
               "typeface": "italic",
               "text": " Contenda ou porfia em algũa duuida,"
             }
-          ]
+          ],
+          "note": "Gadocu describes a dispute or stubborn contention over a doubt or question. The tilde is placed over u in algũa, as printed."
         },
         {
           "id": "c1-l033",
@@ -435,7 +464,8 @@
               "typeface": "italic",
               "text": "& opinião com outro inſiſtindo cada hum com"
             }
-          ]
+          ],
+          "note": "The dispute is with another person, each insisting on his own opinion. The sentence continues into the manner of that insistence below."
         },
         {
           "id": "c1-l034",
@@ -449,7 +479,8 @@
               "typeface": "roman",
               "text": " Gadocuni ſuru."
             }
-          ]
+          ],
+          "note": "Each person maintains his view spiritedly or obstinately. Gadocuni suru exemplifies behaving in this contentious fashion; Vt belongs to the italic apparatus."
         },
         {
           "id": "c1-l035",
@@ -462,20 +493,22 @@
               "typeface": "italic",
               "text": " Excellente poeta."
             }
-          ]
+          ],
+          "note": "Gafacu is here an excellent poet, explained as someone skilled in poetry. The damaged internal i in Xijcano is compatible with the supplied reading; the entry must not be reinterpreted from a modern painter-related sense of gahaku."
         },
         {
           "id": "c1-l036",
           "runs": [
             {
               "typeface": "roman",
-              "text": "Cafameqi, u, eita."
+              "text": "Gafameqi, u, eita."
             },
             {
               "typeface": "italic",
               "text": " Modo de ſe mouer, ou"
             }
-          ]
+          ],
+          "note": "Gafameqi describes moving in the hasty, noisy fashion explained below. The headword begins G, not C; the abbreviated principal forms remain unexpanded."
         },
         {
           "id": "c1-l037",
@@ -485,7 +518,8 @@
               "typeface": "italic",
               "text": "fazer algũa couſa com preßa, & eſtrondo, ou"
             }
-          ]
+          ],
+          "note": "The action is performed with haste and noise. The scan's preßa is retained rather than replaced by a modern spelling or a conjectured alternative s-sequence."
         },
         {
           "id": "c1-l038",
@@ -495,7 +529,8 @@
               "typeface": "italic",
               "text": "deſatentadamente."
             }
-          ]
+          ],
+          "note": "Desatentadamente adds heedless or distracted action to the preceding description. It is a complete short continuation, not an independent adverb entry."
         },
         {
           "id": "c1-l039",
@@ -508,7 +543,8 @@
               "typeface": "italic",
               "text": " Adu. Modo de cair de ſubito, ou"
             }
-          ]
+          ],
+          "note": "Gafato is labeled an adverb and introduces sudden falling or movement. Adu. belongs to the italic Portuguese apparatus."
         },
         {
           "id": "c1-l040",
@@ -518,7 +554,8 @@
               "typeface": "italic",
               "text": "de ſe aleuantar, ou de fazer algũa couſa que ſe"
             }
-          ]
+          ],
+          "note": "The scope includes getting up or performing an unexpected action. The relative clause continues on the next row."
         },
         {
           "id": "c1-l041",
@@ -526,13 +563,14 @@
           "runs": [
             {
               "typeface": "italic",
-              "text": "nãoreſperaua, & de repente. Vt,"
+              "text": "nãoeſperaua, & de repente. Vt,"
             },
             {
               "typeface": "roman",
-              "text": " Garato"
+              "text": " Gafato"
             }
-          ]
+          ],
+          "note": "The action is unexpected and sudden. The scan supports Gafato, not the OCR's Garato; the closely printed nãoeſperaua is kept joined rather than given an editorial word-space."
         },
         {
           "id": "c1-l042",
@@ -550,7 +588,8 @@
               "typeface": "roman",
               "text": " Gafato vo-"
             }
-          ]
+          ],
+          "note": "Vochita completes the example 'fell suddenly'. The next example begins with Gafato vo- and its visible dividing hyphen is retained."
         },
         {
           "id": "c1-l043",
@@ -564,7 +603,8 @@
               "typeface": "italic",
               "text": " Aleuantouſe ſubitamente. ¶ Itẽ,"
             }
-          ]
+          ],
+          "note": "Qita completes voqita, 'got up', and the Portuguese explicitly translates sudden rising. Itẽ introduces an additional sense and retains the abbreviation tilde."
         },
         {
           "id": "c1-l044",
@@ -574,7 +614,8 @@
               "typeface": "italic",
               "text": "Modo de diſcrepar, ou faltar em algũa promeſ"
             }
-          ]
+          ],
+          "note": "The additional sense concerns failing or departing from a promise or expectation. Promeſ continues into ſa below; no unseen line-end hyphen is supplied."
         },
         {
           "id": "c1-l045",
@@ -584,7 +625,8 @@
               "typeface": "italic",
               "text": "ſa, ou outra couſa que hum eſperaua. Vt,"
             }
-          ]
+          ],
+          "note": "Completes promessa and extends the sense to anything someone expected. Vt introduces the Japanese example on the next line."
         },
         {
           "id": "c1-l046",
@@ -598,7 +640,8 @@
               "typeface": "italic",
               "text": " Fora do que cuidaua diſ-"
             }
-          ]
+          ],
+          "note": "Gafato chigǒta describes an outcome differing unexpectedly from what one supposed. The clear caron in chigǒta and the printed division diſ- are preserved."
         },
         {
           "id": "c1-l047",
@@ -608,7 +651,8 @@
               "typeface": "italic",
               "text": "crepou."
             }
-          ]
+          ],
+          "note": "Crepou completes discrepou, 'differed' or 'failed to agree'. It ends the column's Gafato entry; there is no further body fragment below it."
         }
       ]
     },
@@ -650,21 +694,11 @@
       "label": "Column 2",
       "lines": [
         {
-          "id": "c2-l001",
-          "indent": 1,
-          "runs": [
-            {
-              "typeface": "italic",
-              "text": "rẽ."
-            }
-          ]
-        },
-        {
           "id": "c2-l002",
           "runs": [
             {
               "typeface": "roman",
-              "text": "Gafǒ. Vaga fô."
+              "text": "Gafô. Vaga fô."
             },
             {
               "typeface": "italic",
@@ -674,7 +708,8 @@
               "typeface": "roman",
               "text": " Bup."
             }
-          ]
+          ],
+          "note": "Gafô is one's own religious teaching or sect, explained by waga ho. Both visible o-marks are circumflexes; Bup. is an upright Buddhist-domain label."
         },
         {
           "id": "c2-l003",
@@ -691,7 +726,8 @@
               "typeface": "roman",
               "text": " Gaga-"
             }
-          ]
+          ],
+          "note": "Gagacu denotes one's own enlightenment or understanding, paraphrased by waga satori. The Buddhist label is upright and the example is physically divided after Gaga-."
         },
         {
           "id": "c2-l004",
@@ -705,7 +741,8 @@
               "typeface": "italic",
               "text": " Saber naturalmente ſem aprẽ"
             }
-          ]
+          ],
+          "note": "Cu completes Gagacu. The example is explained as knowing naturally without learning; the printed fonpuxǒ is retained, with the final caron, rather than normalized from Buddhist terminology."
         },
         {
           "id": "c2-l005",
@@ -713,9 +750,18 @@
           "runs": [
             {
               "typeface": "italic",
-              "text": "der nem diſcorrer como diße Xaca de ſi."
+              "text": "der nem diſcorrer como diße"
+            },
+            {
+              "typeface": "roman",
+              "text": " Xaca"
+            },
+            {
+              "typeface": "italic",
+              "text": " de ſi."
             }
-          ]
+          ],
+          "note": "Completes aprender and adds 'without reasoning, as Xaca said of himself'. Xaca is a Japanese name embedded within Portuguese and is set upright; it is not an independent headword."
         },
         {
           "id": "c2-l006",
@@ -728,7 +774,8 @@
               "typeface": "italic",
               "text": " Caixas."
             }
-          ]
+          ],
+          "note": "Gagan is equated with Ieni, money or cash; Portuguese caixas here refers to the coins, not modern packing boxes. Initial consonantal I in Ieni is retained."
         },
         {
           "id": "c2-l007",
@@ -741,7 +788,8 @@
               "typeface": "italic",
               "text": " Certa feição de ſerra de carpinteiros"
             }
-          ]
+          ],
+          "note": "Gagari names a particular form of carpenter's saw. The following row supplies the direction in which it cuts the timber."
         },
         {
           "id": "c2-l008",
@@ -751,7 +799,8 @@
               "typeface": "italic",
               "text": "com que abrem algum pao ao comprido."
             }
-          ]
+          ],
+          "note": "The saw is used to open or split a piece of wood lengthwise. This is the functional continuation of the Gagari definition."
         },
         {
           "id": "c2-l009",
@@ -772,7 +821,8 @@
               "typeface": "italic",
               "text": " Ro-"
             }
-          ]
+          ],
+          "note": "The example describes a lofty, steep rock; Gagataru qualifies ganjeqi rather than naming the rock itself. Ro- begins the Portuguese rochedo."
         },
         {
           "id": "c2-l010",
@@ -782,7 +832,8 @@
               "typeface": "italic",
               "text": "chedo muito alto, & ingreme."
             }
-          ]
+          ],
+          "note": "Completes rochedo, 'a very high and steep rocky mass'. The description fixes the sense of the preceding Japanese expression."
         },
         {
           "id": "c2-l011",
@@ -803,7 +854,8 @@
               "typeface": "italic",
               "text": " Matar."
             }
-          ]
+          ],
+          "note": "Gai is explained by korosu, 'kill', and Gaisuru supplies the verbal use. The long s in Coroſu and Gaiſuru is retained rather than confused with f."
         },
         {
           "id": "c2-l012",
@@ -821,7 +873,8 @@
               "typeface": "italic",
               "text": " Prouocar, ou buſcar"
             }
-          ]
+          ],
+          "note": "Gai wo maneku means inviting harm or death. The Portuguese begins 'provoke or seek', with its object continuing on the next row."
         },
         {
           "id": "c2-l013",
@@ -835,7 +888,8 @@
               "typeface": "roman",
               "text": " Torauo yaxinǒte mizzuca"
             }
-          ]
+          ],
+          "note": "The object is death. The example begins 'raising a tiger, oneself...' and preserves the historical form yaxinǒte and the division of mizzucara across rows."
         },
         {
           "id": "c2-l014",
@@ -843,13 +897,14 @@
           "runs": [
             {
               "typeface": "roman",
-              "text": "ra gaiuo maneqi, &c. Taif"
+              "text": "ra gaiuo maneqi, &c. Taif."
             },
             {
               "typeface": "italic",
-              "text": ". Lib. 36."
+              "text": " Lib. 36."
             }
-          ]
+          ],
+          "note": "Ra completes mizzucara; the example describes bringing harm upon oneself. Taif. is the upright citation label, while Lib. 36. is italic bibliographic apparatus."
         },
         {
           "id": "c2-l015",
@@ -857,9 +912,10 @@
           "runs": [
             {
               "typeface": "italic",
-              "text": "Criai o coruo, & tirar vos ha o olho, aßi criãp"
+              "text": "Criai o coruo, & tirar vos ha o olho, aßi criã"
             }
-          ]
+          ],
+          "note": "The Portuguese compares the tiger example to raising a crow that will take out one's eye. Criã continues as do below; the OCR's final p has no printed letter to support it."
         },
         {
           "id": "c2-l016",
@@ -869,7 +925,8 @@
               "typeface": "italic",
               "text": "do ao tigre he grangear a morte."
             }
-          ]
+          ],
+          "note": "Completes criando and explains that raising the tiger is procuring one's own death. The printed grangear is retained without modernizing its spelling."
         },
         {
           "id": "c2-l017",
@@ -882,7 +939,8 @@
               "typeface": "italic",
               "text": " Preſunção, ou proprio parecer em que hũ"
             }
-          ]
+          ],
+          "note": "This separate Gai means presumption or the personal judgment in which someone trusts. It is not the killing-related entry above; hũ retains the abbreviation tilde."
         },
         {
           "id": "c2-l018",
@@ -900,7 +958,8 @@
               "typeface": "italic",
               "text": " Or-"
             }
-          ]
+          ],
+          "note": "The example describes arranging matters according to one's own judgment. Or- begins ordenar and Vt remains italic."
         },
         {
           "id": "c2-l019",
@@ -910,7 +969,8 @@
               "typeface": "italic",
               "text": "denar, ou fazer algũa couſa por ſeu proprio pa"
             }
-          ]
+          ],
+          "note": "Completes ordenar and explains doing something by one's own opinion. Pa continues into parecer without adding an unprinted dividing hyphen."
         },
         {
           "id": "c2-l020",
@@ -918,9 +978,10 @@
           "runs": [
             {
               "typeface": "italic",
-              "text": "recer, & vontade"
+              "text": "recer, & vontade."
             }
-          ]
+          ],
+          "note": "Completes parecer and adds personal will. The final point visible after vontade is restored."
         },
         {
           "id": "c2-l021",
@@ -931,9 +992,10 @@
             },
             {
               "typeface": "italic",
-              "text": " Cadamão."
+              "text": " Cadarrão."
             }
-          ]
+          ],
+          "note": "Gaibyo is a coughing or catarrhal illness, paraphrased by shiwabuki no yamai. The Portuguese reads Cadarrão, not OCR Cadamão; the doubled r and historical d are retained."
         },
         {
           "id": "c2-l022",
@@ -945,13 +1007,14 @@
             },
             {
               "typeface": "roman",
-              "text": " Ghibiǒuo vocoſu."
+              "text": " Gaibiǒuo vocoſu."
             },
             {
               "typeface": "italic",
               "text": " Começar ater catar-"
             }
-          ]
+          ],
+          "note": "Gaibyo wo okosu means beginning to develop the illness. The headword is repeated with ai, not OCR Ghibiǒuo; the printed ater remains joined and catar- carries a visible hyphen."
         },
         {
           "id": "c2-l023",
@@ -967,9 +1030,10 @@
             },
             {
               "typeface": "italic",
-              "text": " Eftar doen-"
+              "text": " Eſtar doen-"
             }
-          ]
+          ],
+          "note": "Ro completes catarro, followed by an example meaning to suffer from the illness. Eſtar has long s, not the meaning-destroying OCR f; doen- continues below."
         },
         {
           "id": "c2-l024",
@@ -979,7 +1043,8 @@
               "typeface": "italic",
               "text": "te de catarro."
             }
-          ]
+          ],
+          "note": "Completes doente de catarro, 'ill with catarrh'. It translates the preceding vazzurǒ example."
         },
         {
           "id": "c2-l025",
@@ -1000,7 +1065,8 @@
               "typeface": "italic",
               "text": " Com cuidado,"
             }
-          ]
+          ],
+          "note": "Gaibun is an adverb equated with zuibun and glossed as acting with care. Adu. is italic apparatus, whereas the Japanese synonym and its i, marker remain upright."
         },
         {
           "id": "c2-l026",
@@ -1010,7 +1076,8 @@
               "typeface": "italic",
               "text": "& diligencia."
             }
-          ]
+          ],
+          "note": "Adds diligence to the adverbial gloss. The short continuation belongs to Gaibun."
         },
         {
           "id": "c2-l027",
@@ -1023,7 +1090,8 @@
               "typeface": "italic",
               "text": " Mostra, aparencia como de grandes"
             }
-          ]
+          ],
+          "note": "Gaikaku denotes an impressive outward appearance or scale, illustrated by large structures below. The provisional short-s spelling in Mostra is retained rather than globally reclassifying its st type."
         },
         {
           "id": "c2-l028",
@@ -1037,7 +1105,8 @@
               "typeface": "roman",
               "text": " Vôqina, l,"
             }
-          ]
+          ],
+          "note": "The gloss lists works, houses and enclosures. The example begins with the alternatives 'large' and, on the next row, 'wide'; l is the alternative marker, not a Japanese word."
         },
         {
           "id": "c2-l029",
@@ -1049,9 +1118,10 @@
             },
             {
               "typeface": "italic",
-              "text": " Grande vulio, & aparencia"
+              "text": " Grande vulto, & aparencia"
             }
-          ]
+          ],
+          "note": "Hiroi gaikaku completes the example of great extent or imposing appearance. The Portuguese is vulto, not OCR vulio; the t is supported by the scan and the architectural context."
         },
         {
           "id": "c2-l030",
@@ -1061,14 +1131,15 @@
               "typeface": "italic",
               "text": "de edificio, cerca, &c."
             }
-          ]
+          ],
+          "note": "Specifies that the bulk or appearance belongs to a building, enclosure and similar structures. This completes Gaicacu rather than introducing another noun."
         },
         {
           "id": "c2-l031",
           "runs": [
             {
               "typeface": "roman",
-              "text": "Gaichù."
+              "text": "Gaichǔ."
             },
             {
               "typeface": "italic",
@@ -1078,7 +1149,8 @@
               "typeface": "roman",
               "text": " Iǔnigaichǔ. i, Toqino v-"
             }
-          ]
+          ],
+          "note": "Gaichǔ is illustrated by a time-related expression and paraphrased as toki no uchi. The final mark in the headword is a caron; the first marked u in Iǔnigaichǔ is faint and remains a nonblocking graphic uncertainty."
         },
         {
           "id": "c2-l032",
@@ -1090,9 +1162,14 @@
             },
             {
               "typeface": "italic",
-              "text": " Dentro da hora. S."
+              "text": " Dentro da hora."
+            },
+            {
+              "typeface": "roman",
+              "text": " S."
             }
-          ]
+          ],
+          "note": "Chi completes uchi, 'within'; the Portuguese gives 'within the hour'. S. is the upright written-register label, not part of the italic translation."
         },
         {
           "id": "c2-l033",
@@ -1103,9 +1180,10 @@
             },
             {
               "typeface": "italic",
-              "text": " Offada de corpo morto."
+              "text": " Oſſada de corpo morto."
             }
-          ]
+          ],
+          "note": "Gaikot denotes the bones of a dead body. Oſſada has two long-s types, not two f letters; the bare final t of the Japanese headword is preserved."
         },
         {
           "id": "c2-l034",
@@ -1118,7 +1196,8 @@
               "typeface": "italic",
               "text": " Peßoa liure, & a-"
             }
-          ]
+          ],
+          "note": "Gaina or gaina mono describes a free, self-willed person. The Portuguese a- begins amiga on the next row; the alternatives stay within one entry."
         },
         {
           "id": "c2-l035",
@@ -1128,7 +1207,8 @@
               "typeface": "italic",
               "text": "miga de ſeu parecer, pouco cortes pera com o ſe"
             }
-          ]
+          ],
+          "note": "The person favors his own opinion and shows little courtesy toward the people listed next. Se continues into senhor without an invented hyphen."
         },
         {
           "id": "c2-l036",
@@ -1138,7 +1218,8 @@
               "typeface": "italic",
               "text": "nhor, pay, mãy, &c."
             }
-          ]
+          ],
+          "note": "Completes senhor and lists lord, father and mother as those toward whom courtesy is lacking. Historical pay and mãy are retained."
         },
         {
           "id": "c2-l037",
@@ -1159,7 +1240,8 @@
               "typeface": "italic",
               "text": " Eſ-"
             }
-          ]
+          ],
+          "note": "Gaiqi is again catarrh, with an example of having the illness. The Portuguese division Eſ- is visible and the long s is kept."
         },
         {
           "id": "c2-l038",
@@ -1169,7 +1251,8 @@
               "typeface": "italic",
               "text": "tar doente de cadarrão."
             }
-          ]
+          ],
+          "note": "Completes estar doente de cadarrão, being ill with catarrh. The repeated d spelling is preserved rather than normalized to modern catarro."
         },
         {
           "id": "c2-l039",
@@ -1182,7 +1265,8 @@
               "typeface": "italic",
               "text": " Filho de galo da China, & galinha de"
             }
-          ]
+          ],
+          "note": "Gairi denotes offspring of a Chinese cock and a Japanese hen. The gloss continues with the hen's origin on the next physical row."
         },
         {
           "id": "c2-l040",
@@ -1194,11 +1278,11 @@
             },
             {
               "typeface": "roman",
-              "text": " X"
+              "text": " X."
             },
             {
               "typeface": "italic",
-              "text": ". ¶"
+              "text": " ¶"
             },
             {
               "typeface": "roman",
@@ -1206,13 +1290,14 @@
             },
             {
               "typeface": "italic",
-              "text": " Idẽ Vi"
+              "text": " Idẽ Vide"
             },
             {
               "typeface": "roman",
-              "text": "de gayeri."
+              "text": " gayeri."
             }
-          ]
+          ],
+          "note": "Completes the parentage and gives the regional label X. The cross-reference directs the reader to gayeri; Idẽ Vide is italic, while the Japanese reference target is upright and marked for optional whole-word typeface review."
         },
         {
           "id": "c2-l041",
@@ -1225,20 +1310,22 @@
               "typeface": "italic",
               "text": " Termo, ou limite."
             }
-          ]
+          ],
+          "note": "Gaisai denotes a boundary or limit, paraphrased by the repeated kiwa. The repetition is printed and is not collapsed."
         },
         {
           "id": "c2-l042",
           "runs": [
             {
               "typeface": "roman",
-              "text": "Gaiſô. i. Xuabuqi."
+              "text": "Gaiſô. i, Xuabuqi."
             },
             {
               "typeface": "italic",
               "text": " Toſſe."
             }
-          ]
+          ],
+          "note": "Gaiso is a cough. The scan supports the printed Xuabuqi, even though the longer Xiuabuqi appears above; no vowel is supplied to harmonize the two forms."
         },
         {
           "id": "c2-l043",
@@ -1251,7 +1338,8 @@
               "typeface": "italic",
               "text": " Encruzilhada."
             }
-          ]
+          ],
+          "note": "Gaito is glossed as a crossroads. The closed long-o mark is kept distinct from the neighboring caroned forms."
         },
         {
           "id": "c2-l044",
@@ -1264,7 +1352,8 @@
               "typeface": "italic",
               "text": " Matar."
             }
-          ]
+          ],
+          "note": "Gaixi gives the verb meaning 'kill' with abbreviated principal forms. The comma-separated forms belong to one entry and remain unexpanded."
         },
         {
           "id": "c2-l045",
@@ -1277,7 +1366,8 @@
               "typeface": "italic",
               "text": " Coração cruel, &"
             }
-          ]
+          ],
+          "note": "Gaishin is a cruel or murderous heart, paraphrased by korosu kokoro. The Portuguese description continues below."
         },
         {
           "id": "c2-l046",
@@ -1295,7 +1385,8 @@
               "typeface": "italic",
               "text": " Mo-"
             }
-          ]
+          ],
+          "note": "The heart is also described as treacherous. Gaishin wo okosu begins an example of manifesting this cruel intention; Mo- starts mostrar-se."
         },
         {
           "id": "c2-l047",
@@ -1309,7 +1400,23 @@
               "typeface": "roman",
               "text": " Gaixinuo"
             }
-          ]
+          ],
+          "note": "Completes mostrar-se cruel and adds hatred. Gaixinuo begins a second example whose continuation was omitted from the baseline and is restored as c2-l047a."
+        },
+        {
+          "id": "c2-l047a",
+          "indent": 1,
+          "runs": [
+            {
+              "typeface": "roman",
+              "text": "ſaxifaſamu, , l, fucumu."
+            },
+            {
+              "typeface": "italic",
+              "text": " Ter odio, &"
+            }
+          ],
+          "note": "The restored final body row completes Gaixinuo with the alternatives sashihasamu and fukumu, harboring a murderous intention. The enlarged scan shows two separate commas after ſaxifaſamu, both retained. The Portuguese gloss continues on f232; the lower-right coração is a separate catchword."
         }
       ]
     },
@@ -1338,8 +1445,9 @@
           "id": "cw-l001",
           "runs": [
             {
-              "typeface": "display",
-              "text": "coração"
+              "typeface": "italic",
+              "text": "coração",
+              "placement": "far-right"
             }
           ]
         }

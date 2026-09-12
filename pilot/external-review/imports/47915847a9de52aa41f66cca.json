@@ -1,0 +1,138 @@
+{
+  "schema": 2,
+  "package_id": "production-f0231-f0232-f0233-fa0928e8",
+  "input_manifest_sha256": "89bc388e58e14b65d47a4f6f6b8bcd943d588266c6a5533d982ecab4440f9857",
+  "reviewer": "GPT-6 Astra Pro (OpenAI)",
+  "pages": {
+    "bnf-f0231": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c1-l001: Gacuguiǒ is adopted. Vertically distorted ink beside the long-o type is not treated as the OCR question mark; the lexical identification agrees with the supplied NINJAL index.",
+        "c1-l030: The small vowel mark in Gacuyǔ is faint; the supplied caron reading is retained after reinspection.",
+        "c1-l035: The internal i in Xijcano is worn but compatible with the supplied reading, which is retained.",
+        "c2-l031: The first marked u in Iǔnigaichǔ remains faint; the chosen caron is retained rather than regularized.",
+        "c2-l042: Printed Xuabuqi is retained despite the longer Xiuabuqi elsewhere on the page; no harmonizing vowel is inserted.",
+        "Existing st/ſt expansions remain provisional under the package’s separate specialist typography policy; no global allograph normalization has been made."
+      ],
+      "decision_requests": [],
+      "structural_changes": [
+        {
+          "before": [
+            "c2-l001"
+          ],
+          "after": [],
+          "reason": "Removed the OCR-only fragment rẽ.: no corresponding physical row exists. The right column starts with Gafô at c2-l002; the stray irregular ink beside c1-l002 is not a second printed text fragment. No printed dictionary text is discarded."
+        },
+        {
+          "before": [],
+          "after": [
+            "c2-l047a"
+          ],
+          "reason": "Inserted the omitted final right-column body row after c2-l047: ſaxifaſamu, , l, fucumu. Ter odio, &. It completes the Gaixinuo example and continues on f232. A native-pixel crop is supplied. Existing body crops were also reanchored and widened to cover their complete assigned rows; unaffected IDs are unchanged."
+        },
+        {
+          "before": [
+            "cw-l001"
+          ],
+          "after": [
+            "cw-l001"
+          ],
+          "reason": "Kept coração as a separate catchword, applied far-right placement (>>), and represented its printed italic type rather than display type. It is not appended to the restored body line."
+        }
+      ],
+      "typeface_terms": {
+        "c1-l021": [
+          "Xǒdǒ"
+        ],
+        "c2-l005": [
+          "Xaca"
+        ],
+        "c2-l014": [
+          "Taif."
+        ],
+        "c2-l040": [
+          "gayeri"
+        ]
+      }
+    },
+    "bnf-f0232": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c1-l003: The scan appears to print xire in Gajento xire, although xite is contextually expected. The supplied xire is retained as a possible printing anomaly.",
+        "c1-l033: The short final mark after Gã is faint. The supplied hyphen is retained rather than replaced speculatively with a full stop.",
+        "c1-l034: ganaitaiſu remains joined; the narrow internal gap does not securely support insertion of a word boundary.",
+        "c2-l026: The n/ſ group of Ganſat is damaged; the chosen reading, without the OCR’s extra i, is supported by the surviving strokes and Goganſat on the same line.",
+        "c2-l028: The vowel mark in Gansǒ is abraded. The supplied caron is retained.",
+        "Existing st/ſt expansions remain provisional under the package’s separate specialist typography policy; no global allograph normalization has been made."
+      ],
+      "decision_requests": [],
+      "structural_changes": [
+        {
+          "before": [],
+          "after": [
+            "c2-l047a"
+          ],
+          "reason": "Inserted the omitted final right-column body row dos olhos. after c2-l047, completing the Ganxocu definition. Added its native-pixel crop without renumbering any existing line. Gan- at the far right is separate catchword furniture."
+        },
+        {
+          "before": [
+            "cw-l001"
+          ],
+          "after": [
+            "cw-l001"
+          ],
+          "reason": "Applied far-right placement (>>) to the separate Gan- catchword and represented its ordinary roman type rather than display type."
+        }
+      ],
+      "typeface_terms": {
+        "c2-l007": [
+          "Torinoco"
+        ]
+      }
+    },
+    "bnf-f0233": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c1-l004: Fucumi majiuaru is adopted. The letter after maji is damaged; its surviving stems and the Japanese verb support u rather than the OCR n.",
+        "c1-l029: Garamecaxi, u, aita. retains the visibly printed u, although ſu would be expected in this causative conjugation.",
+        "c1-l038: Garenbu is adopted after enlargement of the damaged letter before b; the surviving upper/right stroke supports n. The supplied NINJAL headword independently agrees.",
+        "c1-l046: Vaga hi ara. is retained as the legible defective sequence. The Japanese is understood as waga chikara, but the missing consonants are not silently supplied.",
+        "c2-l017: gaetenni is retained as printed rather than normalized to the expected gattenni.",
+        "c2-l044: The final o in cõpoſição is recovered from its faint right curve. The tall joined st cluster in Apoſtolo is provisionally represented as ſt, subject to the package’s separate specialist typography review."
+      ],
+      "decision_requests": [],
+      "structural_changes": [
+        {
+          "before": [
+            "cw-l001"
+          ],
+          "after": [
+            "cw-l001"
+          ],
+          "reason": "Kept Gue- as separate catchword furniture, applied far-right placement (>>), and represented its ordinary roman type rather than display type. The nearby corteſia. remains the final body row and F f 3 remains the separate signature."
+        }
+      ],
+      "typeface_terms": {
+        "c1-l008": [
+          "Gafato"
+        ],
+        "c1-l023": [
+          "Cami"
+        ],
+        "c1-l039": [
+          "Gara",
+          "Cami"
+        ],
+        "c2-l047": [
+          "Tera"
+        ]
+      }
+    }
+  }
+}
