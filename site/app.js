@@ -1,4 +1,10 @@
 const state = { corpus: null, byLeaf: new Map(), currentPage: null, unit: 'page', edits: {}, suggestionDismissals: {}, submissions: {}, workspacesLoaded: new Set(), staleDraft: null, staleBaseline: null };
+function pageKey(value) { return /^f?\d+$/.test(String(value)) ? Number(String(value).replace(/^f/, '')) : value; }
+function adjacentPage(offset) {
+  const index = state.corpus.pages.indexOf(state.currentPage);
+  const page = state.corpus.pages[index + offset];
+  if (page) showPage(page.leaf, state.unit);
+}
 const WORKSPACE_SCHEMA = 5;
 let selectionMode = false;
 const selectedLeaves = new Set();
@@ -219,8 +225,8 @@ function toast(message) {
 }
 
 function route() {
-  const match = location.hash.match(/^#f(\d+)(?::(page|column-1|column-2|furniture))?$/);
-  if (match && state.byLeaf.has(Number(match[1]))) showPage(Number(match[1]), match[2] || 'page', false);
+  const match = location.hash.match(/^#(f\d+|bodleian-f\d{4}[rv])(?::(page|column-1|column-2|furniture))?$/);
+  if (match && state.byLeaf.has(pageKey(match[1]))) showPage(pageKey(match[1]), match[2] || 'page', false);
   else showOverview(false);
 }
 
@@ -312,14 +318,14 @@ function renderGrid() {
     || (filter === 'quarantine' && page.structural_review_required)
     || (filter === 'unprocessed' && !page.processed)
     || (filter === 'corrected' && page.corrections.issues_applied));
-  if (sort === 'recent') pages.sort((a, b) => String(b.corrections.last_applied || '').localeCompare(String(a.corrections.last_applied || '')) || a.leaf - b.leaf);
-  $('#page-grid').innerHTML = pages.map(page => `<button class="page-card ${pageStateClass(page)}" type="button" data-leaf="${page.leaf}"><img loading="lazy" src="${page.thumbnail}" alt="Thumbnail of Gallica ${page.view}"><span class="card-copy"><span class="card-title">${page.view}${page.corrections.issues_applied ? `<span class="mini-badge">${page.corrections.issues_applied} issue${page.corrections.issues_applied === 1 ? '' : 's'}</span>` : ''}</span><span class="card-state">${pageStateLabel(page)}${page.corrections.distinct_lines ? ` · ${page.corrections.distinct_lines} lines corrected` : ''}</span></span></button>`).join('');
+  if (sort === 'recent') pages.sort((a, b) => String(b.corrections.last_applied || '').localeCompare(String(a.corrections.last_applied || '')) || a.reading_order - b.reading_order);
+  $('#page-grid').innerHTML = pages.map(page => `<button class="page-card ${pageStateClass(page)}" type="button" data-leaf="${page.leaf}"><img loading="lazy" src="${page.thumbnail}" alt="Thumbnail of ${page.view}"><span class="card-copy"><span class="card-title">${page.view}${page.corrections.issues_applied ? `<span class="mini-badge">${page.corrections.issues_applied} issue${page.corrections.issues_applied === 1 ? '' : 's'}</span>` : ''}</span><span class="card-state">${pageStateLabel(page)}${page.corrections.distinct_lines ? ` · ${page.corrections.distinct_lines} lines corrected` : ''}</span></span></button>`).join('');
   decorateSelectionCards();
 }
 
 function decorateSelectionCards() {
   for (const card of document.querySelectorAll('#page-grid [data-leaf]')) {
-    const page = state.byLeaf.get(Number(card.dataset.leaf));
+    const page = state.byLeaf.get(pageKey(card.dataset.leaf));
     const count = savedCorrectionCount(page);
     card.classList.toggle('has-local-changes', count > 0);
     if (selectionMode) {
@@ -641,14 +647,15 @@ function showPage(leaf, unit = 'page', update = true) {
   $('#overview').classList.add('hidden');
   $('#page-view').classList.remove('hidden');
   $('#page-nav').classList.remove('hidden');
-  $('#leaf-input').value = leaf;
-  $('#previous').disabled = leaf === 1;
-  $('#next').disabled = leaf === 651;
+  $('#leaf-input').value = page.view;
+  $('#previous').disabled = page === state.corpus.pages[0];
+  $('#next').disabled = page === state.corpus.pages.at(-1);
   $('#page-kicker').textContent = page.printed_page ? `Printed page ${page.printed_page}` : 'Gallica leaf';
   $('#page-title').textContent = `${page.view} · ${({'page':'Full page','column-1':'Column 1','column-2':'Column 2','furniture':'Page furniture'})[state.unit]}`;
   $('#page-meta').textContent = page.data_state === 'machine_provisional'
     ? `${page.page_id} · machine-provisional OCR · physical lineation not yet checked`
     : page.processed ? `${page.page_id} · Level 1 ${page.status.replaceAll('_', ' ')}` : `${page.page_id} · transcription not yet processed`;
+  if (page.supplemental) $('#page-meta').textContent += ` · Supplement for missing Paris leaves · ${page.source_credit}`;
   renderReviewStatus(page);
   const notice = $('#provisional-notice');
   notice.classList.toggle('hidden', page.data_state !== 'machine_provisional');
@@ -662,7 +669,7 @@ function showPage(leaf, unit = 'page', update = true) {
   renderPageContent();
   updateSubmitBar();
   showStaleDraftWarning();
-  if (update) history.pushState(null, '', `#f${leaf}:${state.unit}`);
+  if (update) history.pushState(null, '', `#${page.view}:${state.unit}`);
 }
 
 function renderRuns(runs) {
@@ -717,11 +724,11 @@ function continuousHTML(page, unit) {
 }
 
 function scanPane(page) {
-  return `<section class="scan-pane"><div class="pane-toolbar"><strong>Source scan</strong><span class="push scan-status">Loading preview…</span><button class="preview-retry hidden" type="button" data-action="retry-preview">Retry preview</button><button class="hd-retry hidden" type="button" data-action="retry-hd">Retry HD</button><span>Source gallica.bnf.fr / BnF</span><a href="${page.gallica}" target="_blank" rel="noreferrer">Open original</a></div><div class="scan-frame"><img data-iiif-page alt=""></div></section>`;
+  return `<section class="scan-pane"><div class="pane-toolbar"><strong>Source scan</strong><span class="push scan-status">Loading preview…</span><button class="preview-retry hidden" type="button" data-action="retry-preview">Retry preview</button><button class="hd-retry hidden" type="button" data-action="retry-hd">Retry HD</button><span><span>${escapeHTML(page.source_credit || "Source gallica.bnf.fr / BnF")}</span></span><a href="${page.gallica}" target="_blank" rel="noreferrer">Open original</a></div><div class="scan-frame"><img data-iiif-page alt=""></div></section>`;
 }
 
 function lineImageStatus(page) {
-  return `<div class="line-image-status"><span class="scan-status">Loading preview from image mirror…</span><button class="preview-retry hidden" type="button" data-action="retry-preview">Retry preview</button><button class="hd-retry hidden" type="button" data-action="retry-hd">Retry HD</button><span class="push">Source gallica.bnf.fr / BnF</span><a href="${page.gallica}" target="_blank" rel="noreferrer">Open original</a></div>`;
+  return `<div class="line-image-status"><span class="scan-status">Loading preview from image mirror…</span><button class="preview-retry hidden" type="button" data-action="retry-preview">Retry preview</button><button class="hd-retry hidden" type="button" data-action="retry-hd">Retry HD</button><span class="push"><span>${escapeHTML(page.source_credit || "Source gallica.bnf.fr / BnF")}</span></span><a href="${page.gallica}" target="_blank" rel="noreferrer">Open original</a></div>`;
 }
 
 function renderPageContent() {
@@ -1261,7 +1268,7 @@ function correctionPayload(page) {
 async function submitSelectedPages() {
   reconcileSavedWorkspaces();
   renderGrid();
-  let pages = [...selectedLeaves].sort((a, b) => a - b).map(leaf => state.byLeaf.get(leaf));
+  let pages = [...selectedLeaves].map(leaf => state.byLeaf.get(leaf)).sort((a, b) => a.reading_order - b.reading_order);
   if (!pages.length) return;
   try {
     const response = await fetch(`corpus.json?fresh=${Date.now()}`, {cache: 'no-store'});
@@ -1302,7 +1309,7 @@ document.addEventListener('click', event => {
   if (event.target.closest('[data-action="retry-hd"]')) return queueHD(state.currentPage, false);
   const card = event.target.closest('.page-card');
   if (card) {
-    const leaf = Number(card.dataset.leaf);
+    const leaf = pageKey(card.dataset.leaf);
     if (!selectionMode) return showPage(leaf);
     if (selectedLeaves.has(leaf)) selectedLeaves.delete(leaf);
     else selectedLeaves.add(leaf);
@@ -1311,7 +1318,7 @@ document.addEventListener('click', event => {
   }
   const tab = event.target.closest('#view-tabs button[data-unit]'); if (tab) return showPage(state.currentPage.leaf, tab.dataset.unit);
   const columnButton = event.target.closest('[data-column-leaf][data-column-unit]');
-  if (columnButton) { showPage(Number(columnButton.dataset.columnLeaf), columnButton.dataset.columnUnit); window.scrollTo(0, 0); return; }
+  if (columnButton) { showPage(pageKey(columnButton.dataset.columnLeaf), columnButton.dataset.columnUnit); window.scrollTo(0, 0); return; }
   const referenceButton = event.target.closest('[data-copy-line-reference]');
   if (referenceButton) { void copyLineReference(referenceButton); return; }
   const row = event.target.closest('.line-row');
@@ -1357,9 +1364,9 @@ document.addEventListener('submit', event => {
 $('#home').addEventListener('click', () => showOverview());
 $('#back-to-overview').addEventListener('click', () => showOverview());
 $('#filter').addEventListener('change', renderGrid); $('#sort').addEventListener('change', renderGrid);
-$('#previous').addEventListener('click', () => showPage(state.currentPage.leaf - 1, state.unit));
-$('#next').addEventListener('click', () => showPage(state.currentPage.leaf + 1, state.unit));
-function go() { const leaf = Number($('#leaf-input').value); if (state.byLeaf.has(leaf)) showPage(leaf, state.unit); }
+$('#previous').addEventListener('click', () => adjacentPage(-1));
+$('#next').addEventListener('click', () => adjacentPage(1));
+function go() { const leaf = pageKey($('#leaf-input').value.trim()); if (state.byLeaf.has(leaf)) showPage(leaf, state.unit); }
 $('#go').addEventListener('click', go); $('#leaf-input').addEventListener('keydown', event => { if (event.key === 'Enter') go(); });
 $('#discard-all').addEventListener('click', () => { if (!confirm('Discard all proposed corrections for this page?')) return; for (const [lineId, edit] of Object.entries(pageEdits(state.currentPage))) dismissMachineSuggestion(state.currentPage, lineById(lineId), edit.machine_suggestion); state.edits[state.currentPage.page_id] = {}; persistSubmission(state.currentPage, 'draft'); persistEdits(state.currentPage, true); renderPageContent(); });
 $('#submit').addEventListener('click', submitCorrections);

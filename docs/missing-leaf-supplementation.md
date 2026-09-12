@@ -2,9 +2,9 @@
 
 ## Status — 2026-09-12
 
-Source-identification pilot complete for printed folios **110–111** (four
-sides). No canonical transcription, geometry, existing ID, or public reading
-order has been changed. The replacement images are a different physical
+Four **OCR-only, AI-unreviewed** drafts now cover printed folios **110–111**.
+Their distinct IDs are inserted between f226 and f227 in public reading order;
+existing Gallica IDs and text are unchanged. The replacement images are a different physical
 witness, not recovered photographs of the Paris copy.
 
 ## Scope and evidence
@@ -85,16 +85,35 @@ Do not put these images under the Gallica credit or imply their image license
 is the project's transcription license. No public image mirror was changed
 during this pilot.
 
-## Integration work still to do
+## OCR-only integration — 2026-09-12
 
-1. Make the page model and reading-order index accept source-specific IDs;
-   preserve all existing Gallica URLs and human-correction references.
-2. Add four source-labelled page records, deriving geometry afresh from the
-   Bodleian images (they include rulers, adjacent-page slivers and different
-   margins). Do not copy Gallica coordinates or scale the entire scan to fit.
-3. Generate OCR, conduct the shared commented AI review and second pass, then
-   present the result for human review. Mark each page as a Bodleian supplement.
-4. Deploy only after verifying navigation, issue submission, reading hints,
-   image attribution and the joins in the actual UI.
-5. Map and visually verify the other six gaps separately. The 110–111 pilot
+`sources/supplemental-pages.json` supplies explicit reading-order anchors and
+source metadata. The interface uses that order for page/column navigation and
+batch submission, while old `#f226` links remain valid. New routes use, for
+example, `#bodleian-f0110r`. Single and batch correction payloads retain their
+existing schemas, accepting the new identifier in the `page` field.
+
+`scripts/prepare_bodleian_supplements.py` uses fresh Kraken baselines/polygons,
+rectified line images and the packaged styled Calamari v2 model. Run it in the
+Kraken environment. It generated 99, 97, 98 and 98 detected lines respectively.
+The machine-only records retain headers and bottom fragments in their detected
+column sequence: **furniture classification and physical lineation still need
+review**. No language correction, NINJAL intervention, commentary review or
+second visual pass was performed, as requested. Raw segmentation, extracted
+lines and predictions remain in `.cache/ocr-model/bodleian-supplements/`.
+
+Draft Markdown is stored in the normal Level 1 directory to support ordinary
+corrections, but status is `visual_draft`, lineation is `unchecked`, geometry is
+`ocr_bootstrap_unreviewed`, and AI review is false. The regular issue processor
+can apply changes without promoting any of those review statuses. Re-running
+the OCR preparation refuses to overwrite existing drafts by default.
+
+The mirror builder includes separately credited `supplements/` image assets;
+the public builder needs only the checked-in registry, text and geometry.
+
+## Subsequent review and expansion
+
+1. When requested, conduct the shared commented AI review and second pass,
+   including lineation, furniture and actual crop readability.
+2. Map and visually verify the other six gaps separately. The 110–111 pilot
    does not establish their exact canvas mappings or scan quality.

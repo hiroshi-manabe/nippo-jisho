@@ -7,8 +7,11 @@ covering the four sides absent between Gallica f226 and f227. All four survey
 images have been checked and both joins match. Source-specific IDs, attribution,
 acquisition and remaining integration work are recorded in the
 [supplementation plan](docs/missing-leaf-supplementation.md).
-This is a source-acquisition pilot, not four completed transcriptions or a
-change to public navigation. The next ordinary local review remains f231.
+The four sides now have styled Calamari v2 OCR drafts (392 detected lines),
+with fresh Kraken geometry and ordinary human correction support. They are
+inserted between f226 and f227 with Bodleian-specific IDs. No AI review has
+been performed; furniture/lineation are still provisional. The next ordinary
+local review remains f231.
 
 ## f219–f230 local commented AI review — 2026-09-12
 

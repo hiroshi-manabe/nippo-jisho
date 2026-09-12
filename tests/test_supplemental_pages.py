@@ -1,0 +1,45 @@
+import json
+from pathlib import Path
+import subprocess
+import unittest
+
+from scripts.process_correction_issue import validate_payload, page_id, source_path, load_editable_page, apply_change, apply_resolved
+
+ROOT = Path(__file__).resolve().parents[1]
+
+
+class SupplementalPagesTests(unittest.TestCase):
+    def test_ids_and_ordinary_correction_path(self):
+        for record in json.loads((ROOT/'sources/supplemental-pages.json').read_text())['pages']:
+            view = record['id']
+            self.assertEqual(page_id(view), view)
+            self.assertTrue(source_path(ROOT, view).exists())
+            page, storage = load_editable_page(ROOT, view)
+            line = page['zones'][0]['lines'][0]
+            before = ''.join(run['text'] for run in line['runs'])
+            change = {'line': line['id'], 'before': before, 'after': before+' test'}
+            validate_payload({'schema': 3, 'page': view, 'base_commit': 'test',
+                              'base_transcription_version': 'test', 'changes': [change]})
+            resolved, _ = apply_change(line, change)
+            apply_resolved(line, resolved)
+            self.assertEqual(''.join(run['text'] for run in line['runs']), before+' test')
+            self.assertFalse(page['review']['physical_lineation_checked'])
+        self.assertEqual(page_id('f226'), 'bnf-f0226')
+
+    def test_navigation_keys_and_sequence(self):
+        script = r"""
+const fs=require('fs'),vm=require('vm'),assert=require('assert');
+const source=fs.readFileSync('site/app.js','utf8');
+const context={}; vm.createContext(context);
+vm.runInContext(source.slice(source.indexOf('function pageKey'),source.indexOf('function adjacentPage')),context);
+assert.equal(context.pageKey('f226'),226);
+assert.equal(context.pageKey('226'),226);
+assert.equal(context.pageKey('bodleian-f0110r'),'bodleian-f0110r');
+const pages=[{leaf:226},{leaf:'bodleian-f0110r'},{leaf:'bodleian-f0110v'},{leaf:227}];
+context.state={corpus:{pages},currentPage:pages[1],unit:'column-1'};
+context.showPage=(leaf,unit)=>{context.result=[leaf,unit]};
+vm.runInContext(source.slice(source.indexOf('function adjacentPage'),source.indexOf('\n}',source.indexOf('function adjacentPage'))+2),context);
+context.adjacentPage(-1); assert.deepEqual(context.result,[226,'column-1']);
+context.adjacentPage(1); assert.deepEqual(context.result,['bodleian-f0110v','column-1']);
+"""
+        subprocess.run(['node','-e',script],cwd=ROOT,check=True)

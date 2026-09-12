@@ -33,13 +33,13 @@ def link_or_copy(source: Path, destination: Path) -> None:
         shutil.copy2(source, destination)
 
 
-def prepare_variant(source: Path, destination: Path, target_width: int, force: bool) -> None:
+def prepare_variant(source: Path, destination: Path, target_width: int, force: bool, transpose: bool = True) -> None:
     if destination.exists() and not force:
         return
     destination.parent.mkdir(parents=True, exist_ok=True)
     temporary = destination.with_suffix(".tmp.jpg")
     with Image.open(source) as image:
-        image = ImageOps.exif_transpose(image).convert("RGB")
+        image = (ImageOps.exif_transpose(image) if transpose else image).convert("RGB")
         target = variant_dimensions(*image.size, target_width)
         if target != image.size:
             image = image.resize(target, Image.Resampling.LANCZOS)
@@ -98,6 +98,33 @@ def write_support_files(output: Path, pages: list[dict[str, object]]) -> None:
     )
 
 
+def add_supplements(root: Path, output: Path) -> None:
+    registry = root / 'sources/supplemental-pages.json'
+    if not registry.exists():
+        return
+    pages = json.loads(registry.read_text())['pages']
+    for page in pages:
+        source = root / '.cache/sources/bodleian/pilot-110-111' / f"{page['printed_page']}-native.jpg"
+        stem = output / page['image_stem']
+        link_or_copy(source, Path(str(stem)+'-full.jpg'))
+        for size in SIZES:
+            # IIIF pixels are already upright. Their compressed XMP is not
+            # UTF-8 EXIF orientation data; preserve the full original file.
+            prepare_variant(source, Path(str(stem)+f'-{size}.jpg'), size, True, transpose=False)
+        with Image.open(source) as image:
+            image.thumbnail((240, 300))
+            image.save(str(stem)+'-thumb.webp', 'WEBP', quality=80)
+    manifest_path = output / 'manifest.json'
+    manifest = json.loads(manifest_path.read_text())
+    manifest['supplements'] = pages
+    manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2)+'\n')
+    index = output / 'index.html'
+    index.write_text(index.read_text().replace('</body>',
+        '<p>Supplemental images: Bodleian Library, Arch. B d.13. Photo: © Bodleian Libraries, University of Oxford. '
+        '<a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>. '
+        '<a href="https://digital.bodleian.ox.ac.uk/objects/462146c4-dadb-4aa5-b324-2d45e30e5ddd/">Bodleian source</a>.</p></body>'))
+
+
 def main() -> int:
     root = Path(__file__).resolve().parents[1]
     parser = argparse.ArgumentParser(description=__doc__)
@@ -142,6 +169,7 @@ def main() -> int:
                 args.output / "scans" / str(size) / source.name,
             )
     write_support_files(args.output, pages)
+    add_supplements(root, args.output)
     print(f"Prepared {len(pages)} pages in {args.output}")
     return 0
 

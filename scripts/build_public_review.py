@@ -299,6 +299,10 @@ def main() -> int:
     output.mkdir(parents=True)
     commit = git_commit(root)
     image_records = load_json(root / "pilot/human-review/page-images.json")["pages"]
+    supplements = load_json(root / "sources/supplemental-pages.json")["pages"]
+    image_records = [item for record in image_records for item in (
+        [record] + [s for s in supplements if s["insert_after"] == f"bnf-f{record['leaf']:04d}"]
+    )]
     config = tile_configuration(root / "pilot/tile-config-v1-trial.json")
     review_record = load_json(root / "pilot/human-review/review-status.json")
     reviews = {page["id"]: page["units"] for page in review_record["pages"]}
@@ -320,23 +324,27 @@ def main() -> int:
     candidate_sources = ocr_candidate_sources(root)
     revision_paths = [
         root / "pilot" / "format-v1-trial" / "level1-source" / source.name.replace(".json", ".md")
-        for source in level1_dir.glob("bnf-f*.json")
+        for source in level1_dir.glob("*.json")
     ] + list(candidate_sources.values())
     revisions = git_file_revisions(root, revision_paths)
     pages = []
     for image_record in image_records:
         leaf = image_record["leaf"]
-        view = f"f{leaf}"
-        page_id = f"bnf-f{leaf:04d}"
+        supplement = isinstance(leaf, str)
+        view = image_record["view"] if supplement else f"f{leaf}"
+        page_id = image_record["id"] if supplement else f"bnf-f{leaf:04d}"
+        stem = image_record["image_stem"] if supplement else f"scans/{{size}}/f{leaf:04d}"
         page = {
             **image_record,
             "view": view,
             "page_id": page_id,
-            "thumbnail": f"assets/thumbnails/f{leaf:04d}.webp",
-            "iiif_preview": f"{IMAGE_BASE_URL}/scans/1000/f{leaf:04d}.jpg",
-            "iiif": f"{IMAGE_BASE_URL}/scans/2200/f{leaf:04d}.jpg",
-            "iiif_highres": f"{IMAGE_BASE_URL}/scans/native/f{leaf:04d}.jpg",
-            "gallica": f"https://gallica.bnf.fr/{ARK}/{view}.item",
+            "thumbnail": f"{IMAGE_BASE_URL}/{stem}-thumb.webp" if supplement else f"assets/thumbnails/f{leaf:04d}.webp",
+            "iiif_preview": f"{IMAGE_BASE_URL}/{stem}-1000.jpg" if supplement else f"{IMAGE_BASE_URL}/{stem.format(size='1000')}.jpg",
+            "iiif": f"{IMAGE_BASE_URL}/{stem}-2200.jpg" if supplement else f"{IMAGE_BASE_URL}/{stem.format(size='2200')}.jpg",
+            "iiif_highres": f"{IMAGE_BASE_URL}/{stem}-full.jpg" if supplement else f"{IMAGE_BASE_URL}/{stem.format(size='native')}.jpg",
+            "gallica": image_record["source_url"] if supplement else f"https://gallica.bnf.fr/{ARK}/{view}.item",
+            "supplemental": supplement,
+            "reading_order": len(pages),
             "corrections": corrections.get(
                 page_id,
                 {"id": page_id, "issues_applied": 0, "distinct_lines": 0},
@@ -356,6 +364,7 @@ def main() -> int:
                     reviews.get(page_id, {}),
                     geometries.get(page_id, {}),
                     machine_suggestions.get(page_id, {}),
+                    allowed_geometry_states=(REVIEWED_GEOMETRY_STATES | {OCR_PROVISIONAL_GEOMETRY_STATE}) if supplement else None,
                 )
             )
             page["source"] = f"https://github.com/{args.repository}/blob/{commit}/pilot/format-v1-trial/level1-source/{page_id}.md"
@@ -431,6 +440,8 @@ def main() -> int:
                 }
             )
         page["commentary_review"] = None if fresh_machine_draft else commentary_reviews.get(page_id)
+        if supplement:
+            page["printed_page"] = image_record["printed_page"]
         if page["commentary_review"]:
             if not page.get("processed") or page.get("machine_provisional"):
                 raise ValueError(f"Commentary review registered for noncanonical page {page_id}")

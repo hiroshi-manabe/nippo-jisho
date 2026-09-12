@@ -118,7 +118,7 @@ def validate_payload(payload: dict) -> None:
     for field in ("page", "base_commit", "base_transcription_version"):
         if not isinstance(payload.get(field), str) or not payload[field]:
             raise IssueProcessingError(f"missing or invalid {field!r}")
-    if not re.fullmatch(r"f[1-9][0-9]*", payload["page"]):
+    if not re.fullmatch(r"(?:f[1-9][0-9]*|bodleian-f[0-9]{4}[rv])", payload["page"]):
         raise IssueProcessingError(f"invalid page identifier {payload['page']!r}")
     changes = payload.get("changes")
     if not isinstance(changes, list) or not changes:
@@ -341,6 +341,8 @@ def corrected_runs(
 
 
 def page_id(view: str) -> str:
+    if re.fullmatch(r"bodleian-f[0-9]{4}[rv]", view):
+        return view
     return f"bnf-f{int(view[1:]):04d}"
 
 

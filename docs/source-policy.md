@@ -87,7 +87,8 @@ Other surviving copies may be consulted when the canonical copy is incomplete, d
 The [missing-leaf supplementation pilot](missing-leaf-supplementation.md)
 identifies four Bodleian image sides for Paris's missing folios 110–111,
 with independently verified joins and a separate-source ID proposal. These
-have not yet been inserted into the public edition.
+now have separate OCR-only drafts in public reading order. They remain
+AI-unreviewed and retain their Bodleian source attribution.
 
 ## External headword data
 
