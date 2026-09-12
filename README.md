@@ -29,6 +29,9 @@ The [Source and Image Policy](docs/source-policy.md) defines the Gallica/BnF cop
 
 The complete high-resolution source cache can be obtained with the resumable procedure in [Gallica Source Acquisition](docs/source-acquisition.md).
 
+The [missing-leaf supplementation pilot](docs/missing-leaf-supplementation.md)
+identifies Bodleian scans for printed folios 110–111, absent from the Paris copy.
+
 The current high-resolution reading experiment is described in [Tiled Visual Review](docs/tiled-visual-review.md).
 
 The [line-clipping repair campaign](docs/clipping-repair-campaign.md) records the

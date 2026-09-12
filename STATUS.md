@@ -1,5 +1,15 @@
 # Project Status
 
+## Missing-leaf source pilot — 2026-09-12
+
+Located and visually identified Bodleian Arch. B d.13 folios 110r–111v,
+covering the four sides absent between Gallica f226 and f227. All four survey
+images have been checked and both joins match. Source-specific IDs, attribution,
+acquisition and remaining integration work are recorded in the
+[supplementation plan](docs/missing-leaf-supplementation.md).
+This is a source-acquisition pilot, not four completed transcriptions or a
+change to public navigation. The next ordinary local review remains f231.
+
 ## f219–f230 local commented AI review — 2026-09-12
 
 All twelve pages have completed the shared commentary-and-second-pass procedure:

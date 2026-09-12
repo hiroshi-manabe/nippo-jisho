@@ -84,6 +84,11 @@ The roles are therefore:
 
 Other surviving copies may be consulted when the canonical copy is incomplete, damaged, or ambiguous. Text or images from another copy must never be inserted silently. The relevant page record must identify the witness and explain why it was used.
 
+The [missing-leaf supplementation pilot](missing-leaf-supplementation.md)
+identifies four Bodleian image sides for Paris's missing folios 110–111,
+with independently verified joins and a separate-source ID proposal. These
+have not yet been inserted into the public edition.
+
 ## External headword data
 
 NINJAL's CC BY 4.0 [*Entry Words Data of Nippojisho*, version 202510](headword-data.md) is an approved external reference. It may be used after an independent visual checkpoint for coverage checking, error detection, and provisional entry scaffolding. Because it is based on the Bodleian copy and includes later editorial fields and normalization, it is not a substitute for the Gallica scan or the project's diplomatic transcription.
