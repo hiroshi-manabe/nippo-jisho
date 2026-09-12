@@ -185,7 +185,10 @@ def package(args):
             image.verify()
         evidence_path = f'pilot/ocr-layout-evidence/v1/pages/{page_id}.json.gz'
         if page_id not in supplements:
-            files[f'{prefix}/ocr-layout.json.gz'] = snapshot(ref, evidence_path)
+            if git('ls-tree', '--name-only', ref, '--', evidence_path).strip():
+                files[f'{prefix}/ocr-layout.json.gz'] = snapshot(ref, evidence_path)
+            else:
+                files[f'{prefix}/ocr-layout-unavailable.txt'] = b'No separate OCR-layout evidence archive exists for this page. Use the supplied native scan and draft geometry; inspect every crop as usual.\n'
         else:
             evidence = ROOT / f'.cache/ocr-model/bodleian-supplements/{page_id}-lines.json'
             files[f'{prefix}/ocr-layout.json'] = evidence.read_bytes()

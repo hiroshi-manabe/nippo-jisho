@@ -130,7 +130,11 @@ def cycle():
                 save(path, ledger)
         save(path, ledger)
         summary = {k: v['status'] for k, v in ledger['jobs'].items()}
-        save(STATE / 'status.json', {'jobs': summary, 'paused': ledger.get('paused'), 'discovery_error': ledger.get('discovery_error')})
+        questions_path = ROOT / 'pilot/human-review/pending-questions.json'
+        questions = json.loads(questions_path.read_text())['pages'] if questions_path.exists() else {}
+        pending = {pid: len([q for q in items if q.get('status') == 'pending']) for pid, items in questions.items()}
+        pending = {pid: count for pid, count in pending.items() if count}
+        save(STATE / 'status.json', {'jobs': summary, 'pending_questions': pending, 'paused': ledger.get('paused'), 'discovery_error': ledger.get('discovery_error')})
         print(json.dumps({'jobs': summary, 'paused': ledger.get('paused'), 'discovery_error': ledger.get('discovery_error')}, indent=2))
 
 

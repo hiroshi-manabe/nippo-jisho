@@ -902,9 +902,9 @@ def finalize(
     workflow_run = wait_for_deployment(commit, report["repository"], root)
     verify_deployment(report, commit, pages_url)
     note = (
-        f"Applied {len(accepted)} human-confirmed correction(s) in commit "
+        f"Applied {len(accepted)} submitted correction(s) in commit "
         f"{commit[:7]}. Correction notation was resolved before writing Level 1 text. "
-        "Tests and the deployed corpus verification passed."
+        "Tests and the deployed corpus verification passed. Any deferred second-opinion requests remain in the page's pending-question records; closure means applied, not AI-endorsed."
     )
     run(
         [
