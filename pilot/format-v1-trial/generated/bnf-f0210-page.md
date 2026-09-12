@@ -15,7 +15,7 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c1-l001` |  | *cipal, & cabeça em algum feito, ou obra;* |
-| `c1-l002` | &emsp;*principalmente ruim* |  |
+| `c1-l002` | &emsp;*principalmente ruim.* |  |
 | `c1-l003` | Fonno. *Couſa propria, ou verdadeira.* |  |
 | `c1-l004` | Fônô. Voſame tatematçuru. *Pagar algum* |  |
 | `c1-l005` | &emsp;*rendimento às Teras, ou varelas. ¶* Fô- |  |
@@ -51,12 +51,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l035` | Fonpô. Fonno nori. *Propria lei, ou doc-* |  |
 | `c1-l036` | &emsp;*trina. Bup.* |  |
 | `c1-l037` | Fonpu. Motono votto. *Proprio, & legiti-* |  |
-| `c1-l038` | &emsp;*mo marido. Vt,* Fon ſai fonpu. *Propria* |  |
+| `c1-l038` | &emsp;*mo marido. Vt,* Fonſai fonpu. *Propria* |  |
 | `c1-l039` | &emsp;*molher, & proprio marido.* |  |
 | `c1-l040` | Fonpu. *Saber, & ſer de homem ordinario.* |  |
 | `c1-l041` | &emsp;*¶* Fonpuna fitogia. *He homem que não* |  |
 | `c1-l042` | &emsp;*he paruo, nem deſaſiſado.* |  |
-| `c1-l043` | Fonpucu. Fonno fara. *Verdadeira, & pro* |  |
+| `c1-l043` | Fonpucu. Fonnofara. *Verdadeira, & pro-* |  |
 | `c1-l044` | &emsp;*pria molher. ¶* Fonpucuno cogia. *He* |  |
 | `c1-l045` | &emsp;*filho legitimo.* |  |
 | `c1-l046` | Fonpucu. Motoni cayeru. *Vide* Fonbucu. |  |
@@ -78,7 +78,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l004` | &emsp;*Vendo eſtas linhas, ou pontos conjeiturar ſo-* |  |
 | `c2-l005` | &emsp;*bre a vida, cuſtumes, &c dalguem.* |  |
 | `c2-l006` | Fonqen. *Primeira carta de venda que tinha* |  |
-| `c2-l007` | &emsp;*oque comprou as caſas, & a dà alem do.* V- |  |
+| `c2-l007` | &emsp;*oque comprou as caſas, & a dà àlem do.* V- |  |
 | `c2-l008` | &emsp;riqen, *a aquelle que as compra delle: & ſe he* |  |
 | `c2-l009` | &emsp;*outra carta mais antigua ſe diz* Coqen. |  |
 | `c2-l010` | Fonqi. Motouo xiruſu. *Eſcritura, ou his-* |  |
@@ -88,13 +88,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l014` | Fonriǒ. Fonno chiguiǒ. *Propria renda,* |  |
 | `c2-l015` | &emsp;*ou terras, & herdade.* |  |
 | `c2-l016` | Fonſacu. Fonno ſacu. *Obra do proprio,* |  |
-| `c2-l017` | &emsp;*& affamado official, que não he contrafeita,* |  |
+| `c2-l017` | &emsp;*& affamado official, que não he contra feita,* |  |
 | `c2-l018` | &emsp;*nem arremedada.* |  |
 | `c2-l019` | Fonſai. Fonno tçuma. *Propria eſpoſa, ou mo* |  |
 | `c2-l020` | &emsp;*lher legitima, & principal.* |  |
 | `c2-l021` | Fonſô. *Agaſalhado. Vt,* Tôzaini fon- |  |
 | `c2-l022` | &emsp;ſô ſuru. *Fazer grande agaſalhado andã-* |  |
-| `c2-l023` | &emsp;*do ſolicito, & mouendoſe compreſſa: no meo* |  |
+| `c2-l023` | &emsp;*do ſolicito, & mouendoſe com preſſa: no meo* |  |
 | `c2-l024` | &emsp;*do conuite ſe diz às vezes louuando.* Coto |  |
 | `c2-l025` | &emsp;nai gofonſô degozaru. *Grande agaſalha-* |  |
 | `c2-l026` | &emsp;*do nos faz o ſenhor, &c.* |  |
@@ -112,12 +112,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l038` | Fon v. Motoyori v, nari. *Couſa que ouue,* |  |
 | `c2-l039` | &emsp;*ou tem ſer deſdo principio. Bup.* |  |
 | `c2-l040` | Fonxen. *Caxas, ou moedas de cobre que ſe* |  |
-| `c2-l041` | &emsp;*dão, ou empreſtão ao ganho. i, Cabedal de* |  |
+| `c2-l041` | &emsp;*dão, ou empreſtão ao ganho.* i*, Cabedal de* |  |
 | `c2-l042` | &emsp;*caxas tirando os ganhos.* |  |
 | `c2-l043` | Fonxeqi. *Pedra principal, & mais alta que* |  |
 | `c2-l044` | &emsp;*ſe poem nas Niuas.* |  |
 | `c2-l045` | Fonxet. Fonnoxet. *Vide* Fonjet. *Nouas cer-* |  |
-| `c2-l046` | &emsp;*tas. ¶ Item, Opinião certa, ou doctri-* |  |
+| `c2-l046` | &emsp;*tas. ¶* I*tem, Opinião certa, ou doctri-* |  |
 | `c2-l047` | &emsp;*na, &c.* |  |
 
 ## Catchword

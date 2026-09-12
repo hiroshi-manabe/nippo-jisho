@@ -16,7 +16,7 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c1-l001` |  | ſu. i, izzuru. *Sair como pera aguerra,* |
 | `c1-l002` | &emsp;*&c.* |  |
-| `c1-l003` | Foſsǒjù. *Certa ſeita que veo da China.* |  |
+| `c1-l003` | Foſ*s*ǒjù. *Certa ſeita que veo da China.* |  |
 | `c1-l004` | Foſſu. *Hũa maneira de vara com que tan-* |  |
 | `c1-l005` | &emsp;*gem os bois, ou caualos que puxão pello carro.* |  |
 | `c1-l006` | &emsp;*¶ Item, Certa vara de que vſão os Ienxus* |  |
@@ -40,7 +40,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l024` | &emsp;*ração pio, & deuoto.* |  |
 | `c1-l025` | Fotjo. Farai nozoqu. *Lançar fora, ou ſacu-* |  |
 | `c1-l026` | &emsp;*dir como poo, &c. ¶ Item, Permet.* |  |
-| `c1-l027` | &emsp;Varu nozomiuo fotjo ſuru. *Botar, ou ſa-* |  |
+| `c1-l027` | &emsp;Varui nozomiuo fotjo ſuru. *Botar, ou ſa-* |  |
 | `c1-l028` | &emsp;*cudir fora ruins deſejos.* |  |
 | `c1-l029` | Fotnet. *O vir, ou ter algũa febre. ¶* Fot- |  |
 | `c1-l030` | &emsp;net ſuru. *Idem.* |  |
@@ -59,7 +59,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l043` | &emsp;Fotofototo touo vtçu. *Bater na porta dã-* |  |
 | `c1-l044` | &emsp;*do pancadas.* |  |
 | `c1-l045` | Fotogui. *Boyão, ou jarra. Vt,* Fotoguiuo |  |
-| `c1-l046` | &emsp;comutte cabeni mucǒga gotoxi. *A-* |  |
+| `c1-l046` | &emsp;cǒmutte cabeni mucǒga gotoxi. *A-* |  |
 | `c1-l047` | &emsp;*maneira de hum que eſta virado pera apare-* |  |
 
 ## Column 2 running header
@@ -73,7 +73,7 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c2-l001` |  | *de com hũa jarra metida na cabeça.* |
-| `c2-l002` | Fotondo. i, Voyoſo. *Pola mor parte, ou* |  |
+| `c2-l002` | Fotondo. i, Voyoſo. *Pola mòr parte, ou* |  |
 | `c2-l003` | &emsp;*mais frequentemente.* |  |
 | `c2-l004` | Fotoqenoza. *Certa erua. ¶ Item, Aſ-* |  |
 | `c2-l005` | &emsp;*ſento, ou trono do Fotoque que he à maneira* |  |
@@ -109,7 +109,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l035` | &emsp;*¶* Fǒuonuo cǒmuru. *Receber mercès,* |  |
 | `c2-l036` | &emsp;*& fauores.* |  |
 | `c2-l037` | Fouori, ru, otta. *Botar fora, ou lançar de ſi.* |  |
-| `c2-l038` | Foxa. *Feiticeiro.* X. |  |
+| `c2-l038` | Foxa. *Feiticeiro. X.* |  |
 | `c2-l039` | Foxa. Voguinai xaſuru. *Refazer, & re-* |  |
 | `c2-l040` | &emsp;*ſoluer com mezinhas, &c.* |  |
 | `c2-l041` | Fôxa. Tacarano curuma. *Carro ornado q̃ ſer* |  |

@@ -53,7 +53,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l037` | Fǒdaina. *Peſſoa vil nos cuſtumes, & policia.* |  |
 | `c1-l038` | Fôdan. *Pregação da lei. ¶* Fôdanuo |  |
 | `c1-l039` | &emsp;ſuru. *Prègar a lei.* Apoſtolo tachiua |  |
-| `c1-l040` | &emsp;govoqiteuo gofôdan n. ſareta. *Os A-* |  |
+| `c1-l040` | &emsp;govoqiteuo gofôdan naſareta. *Os A-* |  |
 | `c1-l041` | &emsp;*poſtolos prègarão alei de Deos.* |  |
 | `c1-l042` | Fǒdate. *Colunna, ou eſteo de pao que ſerue* |  |
 | `c1-l043` | &emsp;*como de hũa das ombreiras da porta.* |  |
@@ -72,7 +72,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` |  | *pao: poſto q̃ às vezestẽ hũa argola de ferro q̃* |
+| `c2-l001` |  | *pao: poſto q̃ às vezes tẽ hũa argola de ferro q̃* |
 | `c2-l002` | &emsp;*metem por hum pè. (o Cami.* |  |
 | `c2-l003` | Fôden. *Oratorio, ou capella ſeparada onde eſtà* |  |
 | `c2-l004` | Fôdô. *Bandeira da lei. ¶* Fôdôuo ta- |  |
@@ -82,7 +82,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l008` | &emsp;*&c. Tem eſtes modos de falar. ¶* Chica- |  |
 | `c2-l009` | &emsp;rani, l, chicarano voyobu fodo. *Quã-* |  |
 | `c2-l010` | &emsp;*to puder, ou abrangerem as forças. ¶* Co- |  |
-| `c2-l011` | &emsp;re fodo. *Tanto como iſto. ¶* Cono fo- |  |
+| `c2-l011` | &emsp;re fodo. *Tanto como isto. ¶* Cono fo- |  |
 | `c2-l012` | &emsp;do. *Eſtes dias atras. ¶* Nanbô fodo? |  |
 | `c2-l013` | &emsp;*Quanto, ou quanto tempo ha? ¶* Fodo fe- |  |
 | `c2-l014` | &emsp;te. *Paßado algum tempo. ¶* Fodo chi- |  |
@@ -90,7 +90,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l016` | &emsp;*gar. ¶* Fodo touoi. *Ha muito tempo,* |  |
 | `c2-l017` | &emsp;*ou he muito longe. ¶ Ajuntãdo lhe a par-* |  |
 | `c2-l018` | &emsp;*ticula,* No*, fica adiectiuo. Vt,* Vocaita |  |
-| `c2-l019` | &emsp;fodono togauo yuruxi tamaye. *Perdoai* |  |
+| `c2-l019` | &emsp;fodono togauo yuruxi *t*amaye. *Perdoai* |  |
 | `c2-l020` | &emsp;*me todos os peccados que tenho cometido.* |  |
 | `c2-l021` | Fôdo, l, tôdo. *Adu. Totalmente, ou de* |  |
 | `c2-l022` | &emsp;*todo. ¶* Fôdo cutabireta. *Estar total-* |  |
@@ -103,7 +103,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l029` | &emsp;Iifiuo fodocoſu. *Dar eſmola. ¶* Men- |  |
 | `c2-l030` | &emsp;bocuo fodocoſu. *Alcançar hõra, ou nome.* |  |
 | `c2-l031` | Fodofodoni. *Adu. Conforme a faculdade,* |  |
-| `c2-l032` | &emsp;*ou poßibilidade de cada hũ. Vt,* Fodofo doni |  |
+| `c2-l032` | &emsp;*ou poßibilidade de cada hũ. Vt,* Fodofodoni |  |
 | `c2-l033` | &emsp;xitagatte. i, bũzaini xitagatte. *Cõforme a* |  |
 | `c2-l034` | &emsp;*poßibilidade.* |  |
 | `c2-l035` | Fodoni. *Adu. Por quanto, ou por tanto.* |  |
@@ -116,8 +116,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l042` | &emsp;*¶* Guanuo fodoqu. *No Ximo comprir o* |  |
 | `c2-l043` | &emsp;*voto. No Cami ſe diz,* Guanuo aguru. |  |
 | `c2-l044` | Fodoqi. *O deſatar. Vt,* Fitofodoqini fo- |  |
-| `c2-l045` | &emsp;doite tachiuo toridaſu. Mon. *Deſamarran* |  |
-| `c2-l046` | &emsp;*do, ou deſatando dehũa vez tirou fora o montã* |  |
+| `c2-l045` | &emsp;doite tachiuo toriidaſu. Mon. *Deſamarran* |  |
+| `c2-l046` | &emsp;*do, ou deſatando de hũa vez tirou fora o montã* |  |
 | `c2-l047` | &emsp;*te. ¶ Item, No Ximo, Obra, ou ſeruiço.* |  |
 
 ## Catchword

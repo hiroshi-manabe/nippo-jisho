@@ -24,7 +24,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l008` | &emsp;xiqiùdo. *Idem.* |  |
 | `c1-l009` | Fonxǒ. *Verdadeiro juizo. ¶* Fonxǒuo |  |
 | `c1-l010` | &emsp;vxinǒ. *Perder o juizo, ou eſmorecer.* |  |
-| `c1-l011` | &emsp;*¶* Fonxǒninaru. *Tornar em ſi. ¶ Item,* |  |
+| `c1-l011` | &emsp;*¶* Fonxǒni naru. *Tornar em ſi. ¶ Item,* |  |
 | `c1-l012` | &emsp;*Suſtancia como eſpiritu de que ſe falla no* |  |
 | `c1-l013` | &emsp;*Buppô.* |  |
 | `c1-l014` | Fonxocu. *Primeiro offiçio, ou dignidade.* |  |
@@ -35,7 +35,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l019` | Fonza. *Vide.* Fonzanoxu. |  |
 | `c1-l020` | Fonzan. *Serra, ou monte principal onde vão* |  |
 | `c1-l021` | &emsp;*os gentios em romaria.* |  |
-| `c1-l022` | Fonzanoxu, l, fonzaxu. *Gente, ou cria-* |  |
+| `c1-l022` | Fonzanoxu, *l*, fonzaxu. *Gente, ou cria-* |  |
 | `c1-l023` | &emsp;*dos antigos que ha muito tempo ſeruem a al-* |  |
 | `c1-l024` | &emsp;*gum ſenhor. ¶* Xinzaxu. *Os que ha pouco* |  |
 | `c1-l025` | &emsp;*tempo começarão a ſeruir a algum ſenhor.* |  |
@@ -54,8 +54,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l038` | &emsp;*mos, & afabilidade que ſe mostra a alguem* |  |
 | `c1-l039` | &emsp;*falando com corteſia. S.* |  |
 | `c1-l040` | Fôqen. Tacaranoqen. *Eſpada de* Tenxǒdai- |  |
-| `c1-l041` | &emsp;jin, *que he hua das tres peças prezadas que tẽ* |  |
-| `c1-l042` | &emsp;*o* Dairi. *¶ Item, Eſpada do Rei. i,* |  |
+| `c1-l041` | &emsp;jin, *que he hũa das tres peças prezadas que tẽ* |  |
+| `c1-l042` | &emsp;*o* D*air*i. *¶ Item, Eſpada do Rei. i,* |  |
 | `c1-l043` | &emsp;Guioqen. |  |
 | `c1-l044` | Foqet. Chiuo voguinǒ. *O temperar, ou re-* |  |
 | `c1-l045` | &emsp;*fazer o ſangue. S.* |  |
@@ -74,7 +74,7 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c2-l001` |  | cara votçuru. *Cair deste lugar alto, &* |
 | `c2-l002` | &emsp;*perigoſo.* |  |
-| `c2-l003` | Foqi. Qiuo voguinǒ. *Tomar mezinhas pe* |  |
+| `c2-l003` | Foq*i*. Qiuo voguinǒ. *Tomar mezinhas pe* |  |
 | `c2-l004` | &emsp;*ra o coração, ou pera refazer os eſpiritus vi-* |  |
 | `c2-l005` | &emsp;*taes. S.* |  |
 | `c2-l006` | Fôqi. Norino fata. *Sinal, ou bandeira da* |  |

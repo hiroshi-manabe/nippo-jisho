@@ -46,7 +46,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l030` | &emsp;*miuçarſe algũa couſa.* |  |
 | `c1-l031` | Foromiſo. *Certa laya de Miſo. (leis.* |  |
 | `c1-l032` | Fôron. Noriuo ronzuru. *Diſputa a cerca das* |  |
-| `c1-l034` | Foroqe, uru, eta. *Quebrarſe, ou esboroar ſe.* |  |
+| `c1-l034` | Fo*r*oqe, uru, eta. *Quebrarſe, ou esboroarſe.* |  |
 | `c1-l035` | &emsp;*¶* Foroqeta nari. *Modo, ou feição de* |  |
 | `c1-l036` | &emsp;*hum andar mal vestido, ou roto.* |  |
 | `c1-l037` | Fororifororito. *Adu. Modo deſe desfa-* |  |
@@ -56,7 +56,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l041` | &emsp;cotta. *Mouerſe tenramente à deuação.* |  |
 | `c1-l042` | Fororo. *Eſtrepito das aſas da galinha do ma-* |  |
 | `c1-l043` | &emsp;*to. ¶* Fororouo vtçu. *Fazer aquelle eſtre* |  |
-| `c1-l044` | &emsp;*pito, ou ſom o* Quiji *quando bate as aſas.* |  |
+| `c1-l044` | &emsp;*pito, ou ſom o Quiji quando bate as aſas.* |  |
 | `c1-l045` | Foſa. *Certa dignidade.* |  |
 | `c1-l046` | Foſano qenpei. i, Foſa. |  |
 | `c1-l047` | Fôſaqi. *Maçaãs do roſto.* |  |
@@ -77,7 +77,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l003` | Fôſo. *Dignidade de Rey.* |  |
 | `c2-l004` | Fǒſǒ. Cǒbaxij cuſa. *Erua cheiroſa. S.* |  |
 | `c2-l005` | Fǒſǒ. *Doença de bexigas.* |  |
-| `c2-l006` | Fôſô. Tomano mado. *Freſta que ſe abre na* |  |
+| `c2-l006` | Fôſô. Tomano ma*d*o. *Freſta que ſe abre na* |  |
 | `c2-l007` | &emsp;*Fune entre as tomas, ou eſteiras com que ſe* |  |
 | `c2-l008` | &emsp;*cobre.* |  |
 | `c2-l009` | Foſo. *No Cami ſe diz feſo. Embigo.* |  |
@@ -99,13 +99,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l025` | Foſomari, u, atta. *Adelgaçarſe.* |  |
 | `c2-l026` | Foſome, uru, eta. *Adelgaçar, ou fazer* |  |
 | `c2-l027` | &emsp;*pequeno. ¶* Cuchiuo foſomuru. *Fazer* |  |
-| `c2-l028` | &emsp;*a boca pequena como quẽ quer aſuuiar. ¶ Itẽ,* |  |
+| `c2-l028` | &emsp;*a boca pequena como quẽ quer aſuuiar. ¶* I*tẽ,* |  |
 | `c2-l029` | &emsp;*per met.* Cuchiuo foſomuru. *Aper-* |  |
 | `c2-l030` | &emsp;*tar a mão não dando tanto como primeiro.* |  |
 | `c2-l031` | Foſomichi. *Caminho eſtreito.* |  |
 | `c2-l032` | Foſomono. *Ouro.* |  |
 | `c2-l033` | Foſonagai. *Couſa delgada, & comprida.* |  |
-| `c2-l034` | Foſonouo, l, feſonouo. *Tripa que traz* |  |
+| `c2-l034` | Fo*ſ*onouo, l, feſonouo. T*ripa que traz* |  |
 | `c2-l035` | &emsp;*o menino no embigo quando nace.* |  |
 | `c2-l036` | Foſoſugi, l, foſoſugina. *Couſa comprida* |  |
 | `c2-l037` | &emsp;*& eſtreita. Vt,* Foſoſugina catana. *Ca-* |  |

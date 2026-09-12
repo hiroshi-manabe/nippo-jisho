@@ -26,18 +26,18 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l010` | &emsp;*do, & de boas feiçoẽs como ſe o fizerão ao tor* |  |
 | `c1-l011` | &emsp;*no como hum deſeja.* |  |
 | `c1-l012` | Fone tçugai. *Iunturas dos oßos.* |  |
-| `c1-l013` | Fongacu. Bup. *Ser, ou ſuſtancia do primeiro* |  |
-| `c1-l014` | &emsp;*principio, ou Fotoque ãtes deſe misturar no cor-* |  |
+| `c1-l013` | Fongacu Bup. *Ser, ou ſuſtancia do primeiro* |  |
+| `c1-l014` | &emsp;*principio, ou Fotoque ãtes deſe miſturar no cor-* |  |
 | `c1-l015` | &emsp;*po, & viuer, &c.* |  |
 | `c1-l016` | Fongi. Bup. *Primeira ſubſtancia, ou Fotoque* |  |
-| `c1-l017` | &emsp;*antes de ſefazer Cami & ſer venerado nalgũa* |  |
+| `c1-l017` | &emsp;*antes de ſe fazer Cami & ſer venerado nalgũa* |  |
 | `c1-l018` | &emsp;*ermida. ¶* Fongi ſuixacu. *Idem.* |  |
 | `c1-l019` | Fongin. Fonno gin. *Proprio exercito, onde* |  |
-| `c1-l020` | &emsp;*eſta o principal capitão, ou general.* |  |
+| `c1-l020` | &emsp;*eſta o principal capitaõ, ou general.* |  |
 | `c1-l021` | Fongo. *Texto, ou autoridade de algum texto.* |  |
 | `c1-l022` | &emsp;*Vt,* Fongouo fiqu. *Alegar texto, &c.* |  |
 | `c1-l023` | Fongo. *Vide* Fôgu *: porque aindaque ſe eſcreue* |  |
-| `c1-l024` | &emsp;*aßi pronunciaſe* Fôgu*, papeisborrados, &c.* |  |
+| `c1-l024` | &emsp;*aßi pronunciaſe* Fôgu*, papeis borrados, &c.* |  |
 | `c1-l025` | Fongocu. Motono cuni. *Proprio Reino* |  |
 | `c1-l026` | &emsp;*onde hum naceo.* |  |
 | `c1-l027` | Fonguai. *Comprazerſe, & alegrarſe. S.* |  |
@@ -54,7 +54,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l038` | &emsp;*gouerna em ſeu lugar.* |  |
 | `c1-l039` | Fonguannin. *Vide,* Fonguan. |  |
 | `c1-l040` | Fonguen. Moto, minamoto. *Principio.* |  |
-| `c1-l041` | Fongueqi. *Traição. ¶* Fongueqino vo- |  |
+| `c1-l041` | Fongueqi. *Traição. ¶* Fongueqiuo vo- |  |
 | `c1-l042` | &emsp;coſu. *Armar traição.* |  |
 | `c1-l043` | Fongui. i, Fonno coto. *Propria, ou legi-* |  |
 | `c1-l044` | &emsp;*tima couſa. ¶ Item, Couſa antigua, & q̃* |  |
@@ -72,7 +72,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | Fonguiǒ. *Proprio texto, ou liuro da ley eſẽ-* |  |
+| `c2-l001` | Fonguiǒ. *Proprio texto, ou liuro da ley eßẽ-* |  |
 | `c2-l002` | &emsp;*cial, &c.* |  |
 | `c2-l003` | Fon-i. Fonno cocoro. *Proprio ſentido, ou* |  |
 | `c2-l004` | &emsp;*propria razão. ¶* Fon-iuo ſomuqu. *Deſ* |  |
@@ -89,7 +89,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l015` | &emsp;*¶ Item, Verdadeiras nouas. Na pratica* |  |
 | `c2-l016` | &emsp;*ſe vſa,* Fonxet. Fixet, *he o contrario.* |  |
 | `c2-l017` | Fonji. *Principal Igreja, ou matriz.* |  |
-| `c2-l018` | Fonjin. Conbonuo xin. *Primeiro principio de* |  |
+| `c2-l018` | Fonjin. Conbonno xin. *Primeiro principio de* |  |
 | `c2-l019` | &emsp;*q̃ ſe trata no Buppô. ¶ Item, Proprio ſer,* |  |
 | `c2-l020` | &emsp;*& juizo. ¶* Fonjinuo vxinǒ. *Per-* |  |
 | `c2-l021` | &emsp;*der o juizo, ou eſtar fora de ſi cõ bebedice, &c.* |  |
@@ -101,8 +101,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l027` | &emsp;*com* Go. *Vt,* Gofonjo. *¶* Gofonjo |  |
 | `c2-l028` | &emsp;no cura. *Sella que fez hum official inſigne* |  |
 | `c2-l029` | &emsp;*por nome* Ixedono *que a qualquer caualo qua* |  |
-| `c2-l030` | &emsp;*dra. ¶ Item, No Cami,* Fonjo. *Se-* |  |
-| `c2-l031` | &emsp;*nhorio a quem pagam o foro dalgum chão,* |  |
+| `c2-l030` | &emsp;*dra. ¶* I*tem, No Cami,* Fonjo. *Se-* |  |
+| `c2-l031` | &emsp;*nhorio aquem pagam o foro dalgum chão,* |  |
 | `c2-l032` | &emsp;*ou caſas.* |  |
 | `c2-l033` | Fonjo. Moto, fajime. *Primeiro principio.* |  |
 | `c2-l034` | Fonmaru. *Fortaleza, ou castello principal, &* |  |
