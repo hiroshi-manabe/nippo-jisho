@@ -537,6 +537,17 @@ These measures show accumulated human attention without asserting that review is
 Chat remains useful for ambiguous readings and allows the reviewer to quote a stable line reference and current text. The web editor does not replace that discussion; it supplies a lightweight way to assemble unambiguous corrections and hand them to the same adjudication process. GitHub Issues make the public, asynchronous version of that loop durable and traceable.
 # Application and follow-up separation (2026-09-12)
 
+## Explicit no-change review
+
+The page's “Reviewed — no changes needed” button submits schema 3 with
+`changes: []` and `reviewed_no_changes: true`, after explicit confirmation.
+Multi-page selection also permits editable pages without corrections and confirms
+their names before submission. Empty changes without this flag are rejected.
+The processor requires the current transcription version, records the Issue in
+the existing correction history with zero changed lines, and follows normal
+publication/closure. This increases the Issue count, not the corrected-line count;
+it does not introduce a new review stage or certify perfection.
+
 This section supersedes the older stop-before-closure instructions below.
 `process` now applies the submitted text even when a message or second opinion
 is attached. It preserves the request, original text and baseline in

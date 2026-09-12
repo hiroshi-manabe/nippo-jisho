@@ -47,7 +47,7 @@ function reconcileSavedWorkspaces(pages = state.corpus.pages) {
   }
   for (const leaf of selectedLeaves) {
     const page = state.byLeaf.get(leaf);
-    if (!page || !savedCorrectionCount(page)) selectedLeaves.delete(leaf);
+    if (!page?.processed || page.review_blocked) selectedLeaves.delete(leaf);
   }
   return orphanedPages;
 }
@@ -335,7 +335,7 @@ function decorateSelectionCards() {
     const count = savedCorrectionCount(page);
     card.classList.toggle('has-local-changes', count > 0);
     if (selectionMode) {
-      card.disabled = !count;
+      card.disabled = !page.processed || page.review_blocked;
       card.setAttribute('aria-pressed', String(selectedLeaves.has(page.leaf)));
       card.classList.toggle('selected', selectedLeaves.has(page.leaf));
     }
@@ -620,14 +620,17 @@ function updateSubmitBar() {
   if (!state.currentPage) return;
   const count = Object.keys(pageEdits(state.currentPage)).length;
   $('#submit-bar').classList.toggle('hidden', count === 0);
+  $('#submit-no-changes').classList.toggle('hidden', count !== 0 || !state.currentPage.processed || state.currentPage.review_blocked);
   $('#change-count').textContent = `${count} proposed line correction${count === 1 ? '' : 's'}`;
   const status = pageSubmission(state.currentPage).status;
+  if (!count && status !== 'draft') $('#submit-bar').classList.remove('hidden');
+  if (status !== 'draft') $('#submit-no-changes').classList.add('hidden');
   $('#submit-question').classList.toggle('hidden', status !== 'awaiting');
   $('#submitted-label').classList.toggle('hidden', status !== 'submitted');
   $('#submit-not-yet').classList.toggle('hidden', status !== 'awaiting');
   $('#mark-submitted').classList.toggle('hidden', status !== 'awaiting');
   $('#submit-again').classList.toggle('hidden', status !== 'submitted');
-  $('#submit').classList.toggle('hidden', status !== 'draft');
+  $('#submit').classList.toggle('hidden', status !== 'draft' || count === 0);
   updateRebaseNotice();
 }
 
@@ -1293,7 +1296,7 @@ function correctionChange(line, edit) {
 
 function correctionPayload(page) {
   const changes = Object.entries(pageEdits(page)).map(([line, edit]) => correctionChange(line, edit));
-  return {schema: 3, page: page.view, base_commit: state.corpus.commit, base_transcription_version: page.transcription_version, changes};
+  return {schema: 3, page: page.view, base_commit: state.corpus.commit, base_transcription_version: page.transcription_version, changes, ...(!changes.length ? {reviewed_no_changes: true} : {})};
 }
 
 async function submitSelectedPages() {
@@ -1315,7 +1318,8 @@ async function submitSelectedPages() {
     pages = pages.filter(page => selectedLeaves.has(page.leaf));
     if (!pages.length) return;
     const records = pages.map(correctionPayload);
-    if (records.some(record => !record.changes.length)) throw new Error('A selected page has no saved corrections. Please select again.');
+    const empty = records.filter(record => !record.changes.length);
+    if (empty.length && !confirm(`Record ${empty.map(record => record.page).join(', ')} as reviewed with no changes needed?`)) return;
     const payload = JSON.stringify({schema: 4, pages: records}, null, 2);
     const title = pages.length <= 8 ? `[${pages.map(p => p.view).join(', ')}] Transcription corrections` : `[${pages[0].view}–${pages.at(-1).view}, ${pages.length} pages] Transcription corrections`;
     const url = `https://github.com/${state.corpus.repository}/issues/new?template=transcription-correction.md&title=${encodeURIComponent(title)}`;
@@ -1328,6 +1332,7 @@ async function submitSelectedPages() {
 async function submitCorrections() {
   if (state.currentPage.review_blocked) return toast('This page is read-only pending review.');
   const page = state.currentPage;
+  if (!Object.keys(pageEdits(page)).length && !confirm(`Record ${page.view} as reviewed with no changes needed?`)) return;
   if (!await checkCorpusFreshness()) {
     toast('This page has a newer baseline. Reload it before submitting.');
     return;
@@ -1404,6 +1409,7 @@ function go() { const leaf = pageKey($('#leaf-input').value.trim()); if (state.b
 $('#go').addEventListener('click', go); $('#leaf-input').addEventListener('keydown', event => { if (event.key === 'Enter') go(); });
 $('#discard-all').addEventListener('click', () => { if (!confirm('Discard all proposed corrections for this page?')) return; for (const [lineId, edit] of Object.entries(pageEdits(state.currentPage))) dismissMachineSuggestion(state.currentPage, lineById(lineId), edit.machine_suggestion); state.edits[state.currentPage.page_id] = {}; persistSubmission(state.currentPage, 'draft'); persistEdits(state.currentPage, true); renderPageContent(); });
 $('#submit').addEventListener('click', submitCorrections);
+$('#submit-no-changes').addEventListener('click', submitCorrections);
 $('#selection-toggle').addEventListener('click', () => {
   selectionMode = !selectionMode;
   selectedLeaves.clear();

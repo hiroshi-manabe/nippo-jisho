@@ -92,7 +92,7 @@ const orphans = context.reconcileSavedWorkspaces();
 assert.deepEqual(saved, ['p1','p2']); // untouched pages are not initialized
 assert.equal(orphans[0].page_id, 'p3');
 assert.equal(context.savedCorrectionCount(pages[0]), 0);
-assert.equal(selectedLeaves.has(1), false);
+assert.equal(selectedLeaves.has(1), true); // eligible for explicit no-change review
 assert.equal(selectedLeaves.has(2), true);
 assert.equal(state.edits.p2.line.second_opinion, true);
 assert.equal(state.edits.p2.line.comment_review_needed, true);
@@ -102,7 +102,7 @@ assert.equal(storage.get('e:p3').edits.missing.after, 'new');
 // A later sweep must check in-memory edits too, rather than a loaded-page cache.
 state.edits.p2.line = {...edit, before:'new', base_line_version:'v2'};
 context.reconcileSavedWorkspaces([pages[1]]);
-assert.equal(selectedLeaves.has(2), false);
+assert.equal(selectedLeaves.has(2), true);
 assert.equal(context.savedCorrectionCount(pages[1]), 0);
 """
         result = subprocess.run(["node", "-e", script], cwd=ROOT, capture_output=True, text=True)

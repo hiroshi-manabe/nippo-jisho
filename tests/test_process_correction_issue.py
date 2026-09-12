@@ -21,6 +21,29 @@ from scripts.compile_level1_markdown import export_markdown, parse_markdown
 
 
 class CorrectionIssueProcessorTests(unittest.TestCase):
+    def test_explicit_empty_review_counts_issue_not_lines(self):
+        payload = {'schema': 3, 'page': 'f14', 'base_commit': 'abc',
+                   'base_transcription_version': 'sha256:abc', 'changes': []}
+        with self.assertRaises(IssueProcessingError):
+            validate_payload(payload)
+        payload['reviewed_no_changes'] = True
+        validate_payload(payload)
+        validate_payload({'schema': 4, 'pages': [payload]})
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            path = root / 'pilot/human-review/correction-history.json'
+            path.parent.mkdir(parents=True)
+            path.write_text('{"pages": []}')
+            report = {'page_id': 'bnf-f0014', 'issue': 999, 'issue_url': 'https://example.org/999',
+                      'reviewed_no_changes': True, 'base_commit': 'abc', 'submitted_transcription_version': 'sha256:abc'}
+            update_history(report, [], root)
+            update_history(report, [], root)
+            page = json.loads(path.read_text())['pages'][0]
+            self.assertEqual(page['issues_applied'], 1)
+            self.assertEqual(page['distinct_lines'], 0)
+            self.assertEqual(page['accepted_edits'], 0)
+            self.assertTrue(page['issues'][0]['reviewed_no_changes'])
+
     def test_preview_generation_is_scoped_to_canonical_issue_pages(self):
         from scripts.process_correction_issue import validation_commands
         report = {'pages': [

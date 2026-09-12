@@ -121,8 +121,13 @@ def validate_payload(payload: dict) -> None:
     if not re.fullmatch(r"(?:f[1-9][0-9]*|bodleian-f[0-9]{4}[rv])", payload["page"]):
         raise IssueProcessingError(f"invalid page identifier {payload['page']!r}")
     changes = payload.get("changes")
-    if not isinstance(changes, list) or not changes:
-        raise IssueProcessingError("changes must be a non-empty list")
+    if not isinstance(changes, list):
+        raise IssueProcessingError("changes must be a list")
+    no_changes = payload.get('reviewed_no_changes', False)
+    if type(no_changes) is not bool or (no_changes and (changes or payload['schema'] != 3)):
+        raise IssueProcessingError('reviewed_no_changes requires schema 3 and empty changes')
+    if not changes and not no_changes:
+        raise IssueProcessingError('Empty changes require explicit reviewed_no_changes: true')
     seen: set[str] = set()
     for index, change in enumerate(changes, start=1):
         if not isinstance(change, dict):
@@ -576,6 +581,8 @@ def prepare_page(issue_number, issue, payload, root, repository, *, defer=False,
             + ", ".join(sorted(unexpected_existing))
         )
     current_version = current_transcription_version(page)
+    if payload.get('reviewed_no_changes') and current_version != payload['base_transcription_version']:
+        raise IssueProcessingError('No-change review refers to an older transcription; reload and review the current page')
     lines = line_map(page)
     applied: list[dict] = []
     pending: list[dict] = []
@@ -610,6 +617,7 @@ def prepare_page(issue_number, issue, payload, root, repository, *, defer=False,
         != payload["base_transcription_version"],
         "applied_unflagged": applied,
         "second_opinions": pending,
+        "reviewed_no_changes": payload.get('reviewed_no_changes', False),
         "status": "validating",
     }
     if defer:
@@ -744,6 +752,10 @@ def update_history(report: dict, accepted_lines: list[str], root: Path) -> None:
         "applied_at": date.today().isoformat(),
         "lines": accepted_lines,
     }
+    if report.get('reviewed_no_changes'):
+        issue_record['reviewed_no_changes'] = True
+        issue_record['base_commit'] = report['base_commit']
+        issue_record['base_transcription_version'] = report['submitted_transcription_version']
     page["issues"].append(issue_record)
     page["issues_applied"] = len(page["issues"])
     page["accepted_edits"] = sum(len(item["lines"]) for item in page["issues"])
