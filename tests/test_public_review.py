@@ -183,9 +183,12 @@ assert.equal(label({processed: true, commentary_review: {completed_at: '2026-09-
         pages = {page["page_id"]: page for page in corpus["pages"]}
         self.assertIn("href='../reference.css'", reference)
         states = [page["data_state"] for page in corpus["pages"]]
-        self.assertEqual(states.count("canonical_level1"), 257)
-        self.assertEqual(states.count("machine_provisional"), 402)
-        self.assertEqual(states.count("scan_only"), 20)
+        from scripts.build_public_review import ocr_candidate_sources
+        canonical_ids = {p.stem for p in (ROOT / 'pilot/format-v1-trial/level1').glob('*.json')}
+        candidate_ids = set(ocr_candidate_sources(ROOT)) - canonical_ids
+        self.assertEqual({p['page_id'] for p in corpus['pages'] if p['data_state'] == 'canonical_level1'}, canonical_ids)
+        self.assertEqual({p['page_id'] for p in corpus['pages'] if p['data_state'] == 'machine_provisional'}, candidate_ids)
+        self.assertEqual({p['page_id'] for p in corpus['pages'] if p['data_state'] == 'scan_only'}, set(pages) - canonical_ids - candidate_ids)
         supplements = [page for page in corpus['pages'] if page.get('supplemental')]
         self.assertEqual(len(supplements), 28)
         for page in supplements:

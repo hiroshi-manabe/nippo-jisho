@@ -110,7 +110,9 @@ class FormatV1TrialTests(unittest.TestCase):
             json.loads(path.read_text(encoding="utf-8"))
             for path in sorted((TRIAL / "level1").glob("*.json"))
         ]
-        self.assertEqual(len(pages), 257)
+        self.assertTrue(pages)
+        self.assertEqual({page['id'] for page in pages},
+                         {path.stem for path in (TRIAL / 'level1-source').glob('*.md')})
         for page in pages:
             self.assertEqual(page["scope"], "full_dictionary_text_and_furniture")
             self.assertIsInstance(page["review"]["physical_lineation_checked"], bool)
