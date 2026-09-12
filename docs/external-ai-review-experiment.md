@@ -118,7 +118,8 @@ This creates seven full batches through f236 and a one-page f237 remainder.
 Unsupported or human-protected
 groups are listed as omitted, not silently regrouped. Every ZIP includes the
 f201 example, full references and native images; send each ZIP independently.
-Keep returned `PACKAGE-ID-result.zip` beside its corresponding input ZIP.
+Put returned `PACKAGE-ID-result.zip` in `exports/external-review/incoming/`
+for automatic processing. Keep input ZIPs in their package folders.
 
 `python3 scripts/external_ai_review.py apply INPUT.zip RESULT.zip`
 

@@ -549,6 +549,10 @@ def apply(args):
         writes[f'{COMPILED}/{pid}.json'] = encoded(page)
         writes[f'pilot/format-v1-trial/generated/{pid}-page.md'] = render_page(page).encode()
         lookup[pid].update(integrated_geometry(lookup[pid], page, geo))
+        if problems:
+            for column in lookup[pid]['columns'].values():
+                column['visual_review'] = 'external_review_incomplete'
+                column.pop('reviewed_at', None)
         registry['pages'][pid] = {'completed_at': datetime.now(timezone.utc).date().isoformat(),
           'procedure': 'commentary_and_second_pass_v1', 'reviewer': r['reviewer'],
           'provenance': 'external', 'input_manifest_sha256': r['input_manifest_sha256'],

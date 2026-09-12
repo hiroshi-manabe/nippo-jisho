@@ -53,6 +53,10 @@ Supplemental batches use bodleian-f0090r's original draft and current corrected
 result; ordinary batches retain the frozen f201 example. Packages are self-contained.
 The batch index records selection/omissions; old packages remain historical, and
 stale returns are refused rather than overwriting newer work.
+Use `--resume` only to continue an interrupted generation into the same folder;
+existing matching batches are reused after source and geometry fingerprint checks.
+The September 12 supply is in `exports/external-review/remaining-20260912/`:
+407 ordinary pages (136 batches) and 27 supplemental pages (nine batches).
 
 ## Resolving pending questions
 
