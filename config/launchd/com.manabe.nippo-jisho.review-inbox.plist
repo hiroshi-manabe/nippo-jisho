@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key><string>com.manabe.nippo-jisho.review-inbox</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/Users/manabe/.local/share/mise/installs/python/3.13/bin/python3</string>
+    <string>/Users/manabe/Software/nippo-jisho/scripts/review_inbox.py</string>
+  </array>
+  <key>WorkingDirectory</key><string>/Users/manabe/Software/nippo-jisho</string>
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>PATH</key><string>/Users/manabe/.local/share/mise/installs/python/3.13/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+    <key>PYTHONUNBUFFERED</key><string>1</string>
+    <key>GIT_TERMINAL_PROMPT</key><string>0</string>
+    <key>GIT_SSH_COMMAND</key><string>/usr/bin/ssh -oBatchMode=yes</string>
+  </dict>
+  <key>StartInterval</key><integer>300</integer>
+  <key>RunAtLoad</key><true/>
+  <key>StandardOutPath</key><string>/Users/manabe/Software/nippo-jisho/exports/review-inbox/launchd.stdout.log</string>
+  <key>StandardErrorPath</key><string>/Users/manabe/Software/nippo-jisho/exports/review-inbox/launchd.stderr.log</string>
+</dict>
+</plist>
