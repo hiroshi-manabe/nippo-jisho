@@ -6,8 +6,11 @@ Research cache only: this does not alter canonical text or public navigation.
 import argparse
 import hashlib
 import json
+from io import BytesIO
 from pathlib import Path
 from urllib.request import urlopen
+
+from PIL import Image
 
 MANIFEST = "https://iiif.bodleian.ox.ac.uk/iiif/manifest/462146c4-dadb-4aa5-b324-2d45e30e5ddd.json"
 PAGES = [("110r", "fol. Ee2r"), ("110v", "fol. Ee2v"),
@@ -17,7 +20,7 @@ PAGES = [("110r", "fol. Ee2r"), ("110v", "fol. Ee2v"),
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--width", type=int, default=1800,
-                        help="Image width; 0 requests native resolution")
+                        help="Image width; 0 requests the service's full image")
     args = parser.parse_args()
     if args.width < 0:
         parser.error("width must be nonnegative")
@@ -45,6 +48,9 @@ def main():
             payload = response.read()
         if not payload.startswith(b"\xff\xd8") or not payload.endswith(b"\xff\xd9"):
             raise ValueError(f"Incomplete/non-JPEG response for {folio}")
+        with Image.open(BytesIO(payload)) as decoded:
+            decoded.load()
+            width, height = decoded.size
         target.write_bytes(payload)
         records.append({"proposed_page_id": f"bodleian-f{folio.zfill(5)}",
                         "printed_folio_side": folio, "canvas_label": label,
@@ -52,6 +58,7 @@ def main():
                         "file": str(target.relative_to(root)),
                         "native_width": resource["width"],
                         "native_height": resource["height"],
+                        "downloaded_width": width, "downloaded_height": height,
                         "sha256": hashlib.sha256(payload).hexdigest()})
     (dest / f"acquisition-{variant}.json").write_text(json.dumps({
         "manifest": MANIFEST, "attribution": manifest.get("attribution"),

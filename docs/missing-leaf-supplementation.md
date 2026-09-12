@@ -59,11 +59,19 @@ erasing the fact that the Paris witness itself is incomplete.
 ## Acquisition and attribution
 
 Run `python3 scripts/download_bodleian_gap_pilot.py` for 1800px survey images,
-or add `--width 0` for native-resolution images. The script resolves unique
-signature labels, checks JPEG boundaries and writes a checksum/provenance
+or add `--width 0` to request the service's full image. The script resolves unique
+signature labels, decodes the JPEGs and writes a checksum/provenance
 record. Downloads and manifest snapshots go to the ignored directory
 `.cache/sources/bodleian/pilot-110-111/`. Failed downloads must not be treated
-as completed acquisitions. Full image decoding is still required before OCR.
+as completed acquisitions.
+
+Both variants were downloaded successfully. **The full-image response is
+4000 pixels high**, not the approximately 8500-pixel height declared in the
+manifest: actual sizes are 3511×4000 for rectos and 3509×4000 for versos.
+All four full-image files were fully decoded successfully. The cache suffix
+`-native.jpg` records the full-resolution request, not a guarantee that the
+server delivered its underlying master. Do not label these files as native
+master scans; investigate the service's resolution limit before needing more.
 
 The object's manifest supplies **CC BY-NC 4.0** attribution; see
 [Digital Bodleian terms](https://digital.bodleian.ox.ac.uk/terms/).
