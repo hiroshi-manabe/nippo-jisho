@@ -13,6 +13,7 @@ import re
 import shutil
 import subprocess
 import unicodedata
+from datetime import datetime, timezone
 from urllib.request import urlopen
 from PIL import Image
 
@@ -111,6 +112,13 @@ def git_file_revisions(root: Path, paths: list[Path]) -> dict[str, tuple[str, st
         elif line and revision and line in relatives and line not in revisions:
             revisions[line] = revision
     missing = sorted(set(relatives) - revisions.keys())
+    if missing and os.environ.get("NIPPO_PRECOMMIT_BUILD") == "1" and not os.environ.get("GITHUB_ACTIONS"):
+        # Validation of newly promoted candidates precedes their first commit.
+        # Never invent a historical revision; deployed builds remain strict.
+        for path in missing:
+            timestamp = datetime.fromtimestamp((root / path).stat().st_mtime, timezone.utc).isoformat()
+            revisions[path] = ("uncommitted", timestamp)
+        missing = []
     if missing:
         raise RuntimeError(f"no Git revision found for {', '.join(missing)}")
     return revisions

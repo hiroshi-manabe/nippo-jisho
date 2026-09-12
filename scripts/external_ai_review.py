@@ -4,6 +4,7 @@ import argparse
 import copy
 import hashlib
 import json
+import os
 import re
 import subprocess
 import sys
@@ -15,6 +16,7 @@ from pathlib import Path
 
 from compile_level1_markdown import parse_markdown, export_markdown, Level1MarkdownError
 from kana_reading import reading_hint
+from render_format_trial import render_page
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = 'pilot/format-v1-trial/level1-source'
@@ -505,6 +507,7 @@ def apply(args):
         if parse(writes[f'{SOURCE}/{pid}.md']) != page:
             raise ValueError(f'{pid}: Markdown round-trip changed the page')
         writes[f'{COMPILED}/{pid}.json'] = encoded(page)
+        writes[f'pilot/format-v1-trial/generated/{pid}-page.md'] = render_page(page).encode()
         lookup[pid].update(integrated_geometry(lookup[pid], page, geo))
         registry['pages'][pid] = {'completed_at': datetime.now(timezone.utc).date().isoformat(),
           'procedure': 'commentary_and_second_pass_v1', 'reviewer': r['reviewer'],
@@ -536,7 +539,8 @@ def apply(args):
             (ROOT / path).parent.mkdir(parents=True, exist_ok=True)
             (ROOT / path).write_bytes(data)
         subprocess.run([sys.executable, 'scripts/compile_level1_markdown.py', 'compile', SOURCE, COMPILED, '--check'], cwd=ROOT, check=True)
-        subprocess.run([sys.executable, 'scripts/build_public_review.py'], cwd=ROOT, check=True)
+        subprocess.run([sys.executable, 'scripts/build_public_review.py'], cwd=ROOT, check=True,
+                       env={**os.environ, 'NIPPO_PRECOMMIT_BUILD': '1'})
     except Exception:
         for p, data in originals.items():
             if data is None:

@@ -3,6 +3,7 @@ from pathlib import Path
 import subprocess
 import tempfile
 import unittest
+from unittest.mock import patch
 
 from scripts.build_public_review import alternate_tilde_carrier, transcription_version
 
@@ -11,6 +12,22 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class PublicReviewRegressionTests(unittest.TestCase):
+    def test_new_pages_have_explicit_precommit_revisions_only_in_local_validation(self):
+        from scripts.build_public_review import git_file_revisions
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            source = root / 'new.md'
+            source.write_text('new page')
+            with patch('scripts.build_public_review.subprocess.check_output', return_value=''):
+                with patch.dict('os.environ', {}, clear=True):
+                    with self.assertRaises(RuntimeError):
+                        git_file_revisions(root, [source])
+                with patch.dict('os.environ', {'NIPPO_PRECOMMIT_BUILD': '1'}, clear=True):
+                    self.assertEqual(git_file_revisions(root, [source])['new.md'][0], 'uncommitted')
+                with patch.dict('os.environ', {'NIPPO_PRECOMMIT_BUILD': '1', 'GITHUB_ACTIONS': 'true'}, clear=True):
+                    with self.assertRaises(RuntimeError):
+                        git_file_revisions(root, [source])
+
     def test_submission_message_cleanup_uses_payload_snapshot(self):
         script = r"""
 const fs = require('fs'), vm = require('vm'), assert = require('assert');
