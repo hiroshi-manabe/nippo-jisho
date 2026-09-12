@@ -22,37 +22,37 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l006` | &emsp;ru. *Dar ſemelhante eſmola.* |  |
 | `c1-l007` | Fuxe. *Remendo. ¶* Fuxeuo ſuru. *Re-* |  |
 | `c1-l008` | &emsp;*mendar. No Cami ſe diz.* Tçuguiuo ſuru. |  |
-| `c1-l009` | Fuxe *Lagar na Catana ende ſe mete a Cõga-* |  |
+| `c1-l009` | Fuxe. *Lugar na Catana onde ſe mete a Cõga-* |  |
 | `c1-l010` | &emsp;*tana, ou outro inſtrumento de ferro. Vt,* |  |
-| `c1-l011` | &emsp;Cogatana buxe, l, cǒgaibuxe. |  |
-| `c1-l012` | Fuxe, uru, eta. *Fazer deitar. Vt,* V*-* |  |
+| `c1-l011` | &emsp;Cogatana buxe, l, cǒgai buxe. |  |
+| `c1-l012` | Fuxe, uru, eta. *Fazer deitar. Vt,* V- |  |
 | `c1-l013` | &emsp;mauo fuſuru. *Fazer cair, ou deitar o* |  |
 | `c1-l014` | &emsp;*caualo. ¶ Item, Permet. Condenar. Vt,* |  |
 | `c1-l015` | &emsp;Fitouo tçumini fuſuru. |  |
-| `c1-l016` | Fuxe, uru, eta. *Remendar.* X*. Vt,* Qi- |  |
+| `c1-l016` | Fuxe, uru, eta. *Remendar. X. Vt,* Qi- |  |
 | `c1-l017` | &emsp;rumonouo fuſuru. |  |
 | `c1-l018` | Fuxego. *Hũa maneira de cubertoura com hũs* |  |
 | `c1-l019` | &emsp;*buraquinhos que poẽ ſobre algum perfumador* |  |
 | `c1-l020` | &emsp;*polla qual ſae o cheiro.* |  |
-| `c1-l021` | Fuxegui, u, eida. *Reſiſtir, ou de ſenderſe.* |  |
+| `c1-l021` | Fuxegui, u, eida. *Reſiſtir, ou defenderſe.* |  |
 | `c1-l022` | &emsp;*¶* Teqiuo fuxegu. *Defenderſe dos ini-* |  |
-| `c1-l023` | &emsp;*migos. ¶* Tentaçamuo fuxegu. *Reſu-* |  |
+| `c1-l023` | &emsp;*migos. ¶* Tentaçamuo fuxegu. *Reſis-* |  |
 | `c1-l024` | &emsp;*tir à tentação.* |  |
-| `c1-l025` | Fuxeguiai, ǒ, ǒta. *Reſiſtirde ambas as par-* |  |
+| `c1-l025` | Fuxeguiai, ǒ, ǒta. *Reſiſtir de ambas as par-* |  |
 | `c1-l026` | &emsp;*tes, ou pelejarem muitos entreſi.* |  |
-| `c1-l027` | Fuxeguitatacai, ǒ, ǒta. *Reſiſtir pelejõdo.* |  |
+| `c1-l027` | Fuxeguitatacai, ǒ, ǒta. *Reſiſtir pelejãdo.* |  |
 | `c1-l028` | Fǔxei. Cajeno coye. *Soido, ou eſtrepito do* |  |
-| `c1-l029` | &emsp;*vento. Vt,* Fǔxoi ſuivon. *Soido do* |  |
+| `c1-l029` | &emsp;*vento. Vt,* Fǔxei ſuivon. *Soido do* |  |
 | `c1-l030` | &emsp;*vento, & ruido dagoa.* |  |
-| `c1-l031` | Fuxei. Vqiyo. *Mundo miſer auel.* |  |
-| `c1-l032` | Fuxen. Nobezuiai, *Não eſcreuer mais, ou* |  |
+| `c1-l031` | Fuxei. Vqiyo. *Mundo miſerauel.* |  |
+| `c1-l032` | Fuxen. Nobezu. *i, Não eſcreuer mais, ou* |  |
 | `c1-l033` | &emsp;*não ſe dilatar mais na carta. S.* |  |
-| `c1-l034` | Fuxeri, u, xeua.. *Iazer, ou deitarſe. ¶ Itẽ,* |  |
-| `c1-l035` | &emsp;*Defumarſe.* X*.* |  |
+| `c1-l034` | Fuxeri, u, etta. *Iazer, ou deitarſe. ¶ Itẽ,* |  |
+| `c1-l035` | &emsp;*Defumarſe. X.* |  |
 | `c1-l036` | Fǔxet, l, fǔjet. *Nouas incertas que corrẽ.* |  |
 | `c1-l037` | Fuxet. Tocazu. *Não declarar. Vt,* Ichi- |  |
 | `c1-l038` | &emsp;ji fuxet. *Não declarar nem hũa ſò letra.* |  |
-| `c1-l039` | &emsp;B*up.* |  |
+| `c1-l039` | &emsp;*Bup.* |  |
 | `c1-l040` | Fuxi. Chichi, co. *Pay, & filho. ¶* Go- |  |
 | `c1-l041` | &emsp;fuxino aidani. *Entre o pay, & o filho* |  |
 | `c1-l042` | &emsp;*falando com reſpeito.* |  |
@@ -60,7 +60,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l044` | &emsp;*Vt,* Fuxifumet. *Idem. ¶* Fuxi fu- |  |
 | `c1-l045` | &emsp;metno tai. *Suſtancia immortal.* |  |
 | `c1-l046` | Fuxi. *Toada de canto. ¶* Fuxiuo tçu- |  |
-| `c1-l047` | &emsp;qiru. *Dur toada, ou por em canto algũ-* |  |
+| `c1-l047` | &emsp;qiru. *Dar toada, ou por em canto algũa* |  |
 | `c1-l048` | &emsp;*couſa.* |  |
 
 ## Column 2 running header
@@ -73,7 +73,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | Fuxi. *Nòs dos dedos, bambis, aruores, &c.* |  |
+| `c2-l001` | Fuxi. *Nòs dos dedos, bambùs, aruores, &c.* |  |
 | `c2-l002` | Fuxi. *Hũa certa fruita pera fazer tinta pre-* |  |
 | `c2-l003` | &emsp;*ta pera os dentes.* |  |
 | `c2-l004` | Fuxi, ſu, xita, uita. *Deitarſe. ¶* Auonoqini |  |
@@ -86,7 +86,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l011` | &emsp;*ou animal.* |  |
 | `c2-l012` | Fuxifacaxe. *Toada de muſica, ou inſtrumen-* |  |
 | `c2-l013` | &emsp;*tos ẽ que ora ſe apreßão, ora tardão com o tõ.* |  |
-| `c2-l014` | Fuxigui. Vomoi tacarazu. *Couſa maraui-* |  |
+| `c2-l014` | Fuxigui. Vomoi facarazu. *Couſa maraui-* |  |
 | `c2-l015` | &emsp;*lhoſa, & repentina. Vt,* Fuxigui ideqi- |  |
 | `c2-l016` | &emsp;taru. *Aconteceo couſa milagroſa, &* |  |
 | `c2-l017` | &emsp;*não eſperada.* |  |
@@ -98,7 +98,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l023` | Fuxiguiſa. |  |
 | `c2-l024` | Fuxijen. *Não cuidar na virtude. Vt,* |  |
 | `c2-l025` | &emsp;Fuxijen, fuxiacu. *Não cuidar na virtu-* |  |
-| `c2-l026` | &emsp;*de, nem na maldade.* Bu*pe.* bu |  |
+| `c2-l026` | &emsp;*de, nem na maldade. Bup.* |  |
 | `c2-l027` | Fuximarobi, u, ǒda. *Cair redondo.* |  |
 | `c2-l028` | Fuxime. *Rosto carregado, ou ruim ſembrã* |  |
 | `c2-l029` | &emsp;*te como de quẽ fica conuẽcido, & enuergonha-* |  |

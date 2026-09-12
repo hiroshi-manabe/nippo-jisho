@@ -14,14 +14,14 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1a-l001` | FFzocu. *Cuſtume do reino, ou noção, cida-* |  |
+| `c1a-l001` | Fǔzocu. *Cuſtume do reino, ou nação, cida-* |  |
 | `c1a-l002` | &emsp;*de, &c.* |  |
 | `c1a-l003` | Fuzonbun. *Parecer inconſiderado, ou impru-* |  |
 | `c1a-l004` | &emsp;*dencia. ¶* Fuzonbunna mono. *Peſ-* |  |
 | `c1a-l005` | &emsp;*soa imprudente.* |  |
 | `c1a-l006` | Fuzuqi. *Paa comprida calçada de ferro de que* |  |
 | `c1a-l007` | &emsp;*vſão os lauradores, ou os que fazem vallos.* |  |
-| `c1a-l008` | &emsp;x*. No Cami ſe diz, Suqi.* |  |
+| `c1a-l008` | &emsp;X. *No Cami ſe diz,* Suqi. |  |
 | `c1a-l009` | Fuzzucuri, u, utta. *Inuentar. ¶ Item,* |  |
 | `c1a-l010` | &emsp;*Cortar, & cercear papel. Vt,* Camiuo fuz |  |
 | `c1a-l011` | &emsp;zucuru, l, qiriſoroyuru. *¶ Itẽ, Tra-* |  |
@@ -32,7 +32,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `tg-l001` | **DOS VOCABVLOS QVE CO-** |  |
+| `tg-l001` | **DOS VOCABVLOS QVE CO** |  |
 | `tg-l002` | **MEÇAM POLLA LE-** |  |
 | `tg-l003` | **TRA, G.** |  |
 
@@ -46,9 +46,9 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1b-l001` | Bzmo A. *He particula de Nomi-* |  |
+| `c1b-l001` | GA. *He particula de Nomi-* |  |
 | `c1b-l002` | &emsp;*natiuo falando humilmente.* |  |
-| `c1b-l003` | &emsp;*u* Bitoga maicta. *Veo* |  |
+| `c1b-l003` | &emsp;*Vt,* Fitoga maitta. *Veo* |  |
 | `c1b-l004` | &emsp;*hum homem. ¶* Soregaxi |  |
 | `c1b-l005` | &emsp;ga mairǒzuru. *Eu irei.* |  |
 | `c1b-l006` | &emsp;*¶ Item, He particula de ge* |  |
@@ -57,7 +57,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1b-l009` | &emsp;*Pospoſta esta particula aos verbos ſignifica às* |  |
 | `c1b-l010` | &emsp;*vezes, mas, porem, &c. Vt,* Vomeni |  |
 | `c1b-l011` | &emsp;cacarǒtote maittaga, ſaxiuǒ cotoga go- |  |
-| `c1b-l012` | &emsp;zatte, &c. *Vim para vos ver, porem ſo-* |  |
+| `c1b-l012` | &emsp;zatte, *&c. Vim para vos ver, porem ſo-* |  |
 | `c1b-l013` | &emsp;*breuindo hum negocio, &c. ¶ Item, Tem* |  |
 | `c1b-l014` | &emsp;*força de infinitiuo. Vt,* Cǔtaga yoi. *He* |  |
 | `c1b-l015` | &emsp;*bom ter comido. ¶ Item, De accuſatiuo.* |  |
@@ -65,14 +65,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1b-l017` | &emsp;*ouuir o principio das couſas do Feique. Tẽ ou* |  |
 | `c1b-l018` | &emsp;*tros modos de falar menos principais os quaes* |  |
 | `c1b-l019` | &emsp;*ſe podem ver na arte.* |  |
-| `c1b-l020` | Ga. *Brio, coragem, ou parecer, & opinão.* |  |
+| `c1b-l020` | Ga. *Brio, coragem, ou parecer, & opinião.* |  |
 | `c1b-l021` | &emsp;*¶* Gauo voru. *Quebrar de ſua preſunção,* |  |
 | `c1b-l022` | &emsp;*ou brio. ¶ Item,* Gauo voru, *per met.* |  |
 | `c1b-l023` | &emsp;*eſpantarſe, ou ficar frio de ver algũa couſa* |  |
 | `c1b-l024` | &emsp;*inſolita. ¶* Gauo fucai, l, tçuyoi fito. |  |
 | `c1b-l025` | &emsp;*Homem de grande brio, & eſpiritos. ¶* Ga |  |
-| `c1b-l026` | &emsp;uo tatçuru. *Ter teſo em ſua opinjão, ou* |  |
-| `c1b-l027` | &emsp;*juizo. ¶* Gauo daſù. *Mosthrar brio, &* |  |
+| `c1b-l026` | &emsp;uo tatçuru. *Ter teſo em ſua opinião, ou* |  |
+| `c1b-l027` | &emsp;*juizo. ¶* Gauo daſu. *Mostrar brio, &* |  |
 
 ## Column 2 running header
 
@@ -97,38 +97,38 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l011` | Gabun. i, Vaga zonbun. *Proprio parecer* |  |
 | `c2-l012` | &emsp;*ou juizo. ¶* Gabunuo tatçuru. *Ter* |  |
 | `c2-l013` | &emsp;*mão em ſeu parecer, & juizo. ¶ Item,* |  |
-| `c2-l014` | &emsp;*Poßte, ou faculdade.* |  |
+| `c2-l014` | &emsp;*Poße, ou faculdade.* |  |
 | `c2-l015` | Gabutçucaxi, ſu, aita. *Fazer balancear* |  |
 | `c2-l016` | &emsp;*a Fune.* |  |
 | `c2-l017` | Gabutçuqi, u, uita. *Idem, quod* Gabu- |  |
 | `c2-l018` | &emsp;mequ. |  |
 | `c2-l019` | Gabugabuto ſuru. *Idem.* |  |
 | `c2-l020` | Gacai. *Aparencia de obras, ou edificios.* |  |
-| `c2-l021` | &emsp;Vôqina gacai. *Grande machina de o-* |  |
+| `c2-l021` | &emsp;*¶* Vôqina gacai. *Grande machina de o-* |  |
 | `c2-l022` | &emsp;*bra, caſas, &c.* |  |
 | `c2-l023` | Gaccai. *Grandes letras, ou larga, & profun* |  |
 | `c2-l024` | &emsp;*da ſciencia. S.* |  |
-| `c2-l025` | Gaccǒ. *Lugar de eſtados como vniuerſidade.* |  |
-| `c2-l026` | Cachi. *Pollamòr parte, ou frequentemente.* |  |
+| `c2-l025` | Gaccǒ. *Lugar de eſtudos como vniuerſidade.* |  |
+| `c2-l026` | Gachi. *Pollamòr parte, ou frequentemente.* |  |
 | `c2-l027` | &emsp;*Vſaſe ſempre depois de outros nomes. Vt,* |  |
 | `c2-l028` | &emsp;Vazzuraigachini gozaru. *Estar frequente* |  |
 | `c2-l029` | &emsp;*mente doente. ¶* Yudangachina mono. |  |
 | `c2-l030` | &emsp;*Peßoa communmente deſcuidada. ¶* Tori- |  |
 | `c2-l031` | &emsp;gachini ſuru. *Tomar a ventajadamẽte mais* |  |
 | `c2-l032` | &emsp;*que os outros algũa couſa.* |  |
-| `c2-l033` | Gacu. Manabu. *Eſtudo. ¶* Gucu ſuru. |  |
+| `c2-l033` | Gacu. Manabu. *Eſtudo. ¶* Gacu ſuru. |  |
 | `c2-l034` | &emsp;*Estudar.* |  |
 | `c2-l035` | Gacu. Voca. *Outeiroſinho, ou morro. S.* |  |
-| `c2-l036` | Gacu. *Muſica. ¶* Gacuuo ſôſuru. *Tz-* |  |
+| `c2-l036` | Gacu. *Muſica. ¶* Gacuuo ſôſuru. *Tã-* |  |
 | `c2-l037` | &emsp;*ger inſtrumentos muſicos, ou deſcantar.* |  |
 | `c2-l038` | Gacu. *Titolo eſcrito em taboa, ou rotolo.* |  |
-| `c2-l039` | &emsp;Gacuuo vtçu. *Por, ou pegar eſte* |  |
+| `c2-l039` | &emsp;*¶* Gacuuo vtçu. *Por, ou pegar eſte* |  |
 | `c2-l040` | &emsp;*titulo, ou rotolo em algũa parte.* |  |
 | `c2-l041` | Gacudǒ. Manabu michi. *Artes, ou ſci-* |  |
 | `c2-l042` | &emsp;*encias.* |  |
 | `c2-l043` | Gacufen. Vocano fotori. *Borda do outeiro,* |  |
 | `c2-l044` | &emsp;*ou morro. S.* |  |
-| `c2-l045` | Cacuguei. *Scienci as, & aftes.* |  |
+| `c2-l045` | Cacuguei. *Sciencias, & artes.* |  |
 | `c2-l046` | Gacuguiǒ. Manabi voconǒ. *Sciencias, &* |  |
 | `c2-l047` | &emsp;*virtudes, ou penitencias.* |  |
 

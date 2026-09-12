@@ -18,31 +18,31 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l002` | Futauoqi. *Couſa em que ſe poem acobertura,* |  |
 | `c1-l003` | &emsp;*ou teſto do caldeirão, ou panela do Chanoyu.* |  |
 | `c1-l004` | Futçǔ. Amanecu touoru. *Vniuerſalmente,* |  |
-| `c1-l005` | &emsp;*ou pella mir parte. ¶* Futçǔna fitode nai. |  |
+| `c1-l005` | &emsp;*ou pella mor parte. ¶* Futçǔna fitode nai. |  |
 | `c1-l006` | &emsp;*Não he qualquer homem, ou dos ordi-* |  |
 | `c1-l007` | &emsp;*narios.* |  |
-| `c1-l008` | Futçǔ. Tçǔjezu. *Não auer com municação,* |  |
+| `c1-l008` | Futçǔ. Tçǔjezu. *Não auer communicação,* |  |
 | `c1-l009` | &emsp;*nem paſajem. ¶* Farubaru futçǔni ma- |  |
 | `c1-l010` | &emsp;cari ſugui ſoro. *Ha muito que não nos cõ-* |  |
 | `c1-l011` | &emsp;*municamos nem viſitamos. S.* |  |
 | `c1-l012` | Futçu. *Erua com que ſe dão botoens de fogo* |  |
-| `c1-l013` | &emsp;X*. ¶* Futçumochi. *Bolinhos de ar-* |  |
+| `c1-l013` | &emsp;*X. ¶* Futçumochi. *Bolinhos de ar-* |  |
 | `c1-l014` | &emsp;*roz feitos com esta erua. No Cami ſe diz* |  |
-| `c1-l015` | &emsp;Y*omogui.* |  |
-| `c1-l016` | Futçifutçuto. *Adu. Modo de cortar cerce,* |  |
+| `c1-l015` | &emsp;*Yomogui.* |  |
+| `c1-l016` | Futçufutçuto. *Adu. Modo de cortar cerce,* |  |
 | `c1-l017` | &emsp;*ou modo de reſpõder reſolutamente, &c.* |  |
 | `c1-l018` | Futçugǒ. Tçugǒxezu. *Não quadrar hũa* |  |
 | `c1-l019` | &emsp;*couſa com outra.* |  |
 | `c1-l020` | Futçumochi. *Vide futçu.* |  |
-| `c1-l021` | Futçuqi. *P*. Xichiguat. *7. Lũa.* |  |
+| `c1-l021` | Futçuqi. *P.* Xichiguat. *7. Lũa.* |  |
 | `c1-l022` | Futçuto. *Adu. Modo de cortar cerce, ou* |  |
 | `c1-l023` | &emsp;*de reſponder reſolutamente.* |  |
-| `c1-l024` | Fute, tçuru, eta. *Obstinarſe, ounão lhe dar* |  |
-| `c1-l025` | &emsp;*de nada. ¶* Furete tru. *Estar como* |  |
-| `c1-l026` | &emsp;*ooſtinado, & pertinaz ſem ter deuer com* |  |
+| `c1-l024` | Fute, tçuru, eta. *Obstinarſe, ou não lhe dar* |  |
+| `c1-l025` | &emsp;*de nada. ¶* Futete iru. *Estar como* |  |
+| `c1-l026` | &emsp;*obſtinado, & pertinaz ſem ter deuer com* |  |
 | `c1-l027` | &emsp;*conſelho, nem com nada.* |  |
-| `c1-l028` | Fǔtei. *Modo, ou cuſtume que corre. ¶* Xi. |  |
-| `c1-l029` | &emsp;jùno fitemi xitagatte. *Conforme ao cui-* |  |
+| `c1-l028` | Fǔtei. *Modo, ou cuſtume que corre. ¶* Xǔ |  |
+| `c1-l029` | &emsp;jùno fǔteini xitagatte. *Conforme ao cus-* |  |
 | `c1-l030` | &emsp;*tume, & modo de cada ſeita.* |  |
 | `c1-l031` | Futen. *Amaneqi ſora. i,* Ten. *Ceo vni-* |  |
 | `c1-l032` | &emsp;*uerſal, & que cerca tudo.* |  |
@@ -50,7 +50,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l034` | Futeqina. *Audaz, & altiuo. ¶* Fute- |  |
 | `c1-l035` | &emsp;qina coto. *Couſa de atreuimento, & al-* |  |
 | `c1-l036` | &emsp;*tiuez.* |  |
-| `c1-l037` | Futn. i, Futto. *Adu. Derepente, ou fora* |  |
+| `c1-l037` | Futo. i, Futto. *Adu. Derepente, ou fora* |  |
 | `c1-l038` | &emsp;*do que ſe cuidaua.* |  |
 | `c1-l039` | Futǒ. *Pouca policia, & primor.* |  |
 | `c1-l040` | Futobara, l, futofara. *Barriga de caualo.* |  |
@@ -60,8 +60,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l044` | Futocuxin. Cocoroyezu. *O não entender,* |  |
 | `c1-l045` | &emsp;*ou não ſe fazer capaz. ¶ Algũas vezes* |  |
 | `c1-l046` | &emsp;*ſe toma per deſarrezoado. Vt,* Dai futo- |  |
-| `c1-l047` | &emsp;cuxinna yatçu. *Ouro, & deſarrezoado* |  |
-| `c1-l048` | &emsp;*oião.* |  |
+| `c1-l047` | &emsp;cuxinna yatçu. *Duro, & deſarrezoado* |  |
+| `c1-l048` | &emsp;*vilão.* |  |
 
 ## Column 2 running header
 
@@ -79,11 +79,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l004` | Futǒjin. l, futǒna mono. *Homem baixo,* |  |
 | `c2-l005` | &emsp;*& ſem policia, que reſponde, & não tem* |  |
 | `c2-l006` | &emsp;*deuer com nada.* |  |
-| `c2-l007` | Futo jiro. i. Xioi catabira. *Catabira bran-* |  |
-| `c2-l008` | &emsp;*ca.* X*.* |  |
+| `c2-l007` | Futojiro. i, Xiroi catabira. *Catabira bran-* |  |
+| `c2-l008` | &emsp;*ca. X.* |  |
 | `c2-l009` | Futome, uru, eta. *Fazer grande, ou mayor.* |  |
 | `c2-l010` | Futon. i, Xiqimono. *Colchão. ¶ Item,* |  |
-| `c2-l011` | &emsp;*Almoſadinha que ſe poem ſobre a ſela do* |  |
+| `c2-l011` | &emsp;*Almoſadinha que ſe poem ſobre a ſella do* |  |
 | `c2-l012` | &emsp;*caualo.* |  |
 | `c2-l013` | Futǒna. *Homem ruſtico, & mal criado, ou* |  |
 | `c2-l014` | &emsp;*que tem pouco medo, & vergonha por mais* |  |
@@ -104,7 +104,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l029` | &emsp;tei icaita. *O vinho, arroz, &c. està* |  |
 | `c2-l030` | &emsp;*acabado.* |  |
 | `c2-l031` | Futto. *Adu. Derepente, ou inſperadamente.* |  |
-| `c2-l032` | Fu-v. Caje, ame. *Vento, chuua.* |  |
+| `c2-l032` | Fǔ-v. Caje, ame. *Vento, chuua.* |  |
 | `c2-l033` | Fuua. Yauaragazu. i, Varui naca. *Inimi-* |  |
 | `c2-l034` | &emsp;*zade. ¶* Fuuani naru. *Quebrarſe a* |  |
 | `c2-l035` | &emsp;*amizade.* |  |
@@ -116,10 +116,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l041` | &emsp;*vnem.* Meuoto fuuagǒni gozaru. *A-* |  |
 | `c2-l042` | &emsp;*quelles caſados não estão amigos, nẽ vnidos.* |  |
 | `c2-l043` | Fuuana. *Estar quebrado na amizade cõ outro.* |  |
-| `c2-l044` | Fǔvn. Caje, cumo. *Vento, & nuuẽs. S.* |  |
+| `c2-l044` | Fǔ vn. Caje, cumo. *Vento, & nuuẽs. S.* |  |
 | `c2-l045` | Fuun. Facobazu. i, Vnno nai. *Deſdita.* |  |
 | `c2-l046` | &emsp;*Vt,* Fuun xigocuna. *Grande mofina, ou* |  |
-| `c2-l047` | &emsp;*dedita.* |  |
+| `c2-l047` | &emsp;*deſdita.* |  |
 
 ## Printed page number
 

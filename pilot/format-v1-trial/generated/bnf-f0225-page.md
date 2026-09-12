@@ -14,8 +14,8 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | Funhoina. *Peſtoa pobre, & falta do neceßa-* |  |
-| `c1-l002` | &emsp;*rio, ou de poder, & babilidade, ou arte pera* |  |
+| `c1-l001` | Funhoina. *Peſſoa pobre, & falta do neceßa-* |  |
+| `c1-l002` | &emsp;*rio, ou de poder, & habilidade, ou arte pera* |  |
 | `c1-l003` | &emsp;*fazer algũa couſa.* |  |
 | `c1-l004` | &emsp;Funhoini. |  |
 | `c1-l005` | &emsp;Funhoiſa. |  |
@@ -30,7 +30,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l014` | &emsp;*cia do Fotoque que ẽ varias partes ſẽdo o meſ* |  |
 | `c1-l015` | &emsp;*mo ſe manifeſta de diuerſas maneiras.* |  |
 | `c1-l016` | Funmiǒ. *Clareza.* |  |
-| `c1-l017` | Funmiǒna. *Couſa clura, & manifesta.* |  |
+| `c1-l017` | Funmiǒna. *Couſa clara, & manifesta.* |  |
 | `c1-l018` | Funmiǒni. *Adu. Claramente.* |  |
 | `c1-l019` | Funnobi, uru, ita. *Eſtender os pès como quã* |  |
 | `c1-l020` | &emsp;*do hum ſe eſpriguiça.* |  |
@@ -43,7 +43,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l027` | &emsp;*Certo grude que ſe faz deſtes limos.* |  |
 | `c1-l028` | Funoyaqi. *Certos bolinhos que fazem do ro-* |  |
 | `c1-l029` | &emsp;*lão da farinha aſados em panela, ou tacho.* |  |
-| `c1-l030` | Funpǒ. Cǒbaxij, côbaxij. *Couſa cheiroſa,* |  |
+| `c1-l030` | Funpǒ. Cǒbaxij, cǒbaxij. *Couſa cheiroſa,* |  |
 | `c1-l031` | &emsp;*ou o cheirar muito. Vt,* Reiqio xiqirini |  |
 | `c1-l032` | &emsp;funpǒ ſu. *O excelente cheiro recẽde muito. S.* |  |
 | `c1-l033` | Funpun. Maguire, maguiruru. *O trauarſe,* |  |
@@ -54,12 +54,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l038` | &emsp;*ue, ou eſpalharſe o cheiro. S.* |  |
 | `c1-l039` | Funqi. Funo vtçuuamono. *Vaſo, ou ſeruiço.* |  |
 | `c1-l040` | Funran. Maguire, midaruru. *Perturbação,* |  |
-| `c1-l041` | &emsp;*ou contrartedade de qualidades, &c. S.* |  |
+| `c1-l041` | &emsp;*ou contrariedade de qualidades, &c. S.* |  |
 | `c1-l042` | &emsp;*¶ Item, Mistura, & perturbação como de* |  |
 | `c1-l043` | &emsp;*moſquitos, abelhas, &c.* |  |
 | `c1-l044` | Funſui. Funno mizzu. *Agoa do esterco.* |  |
 | `c1-l045` | Funto. *Eſterco de homem, & animaes.* |  |
-| `c1-l046` | &emsp;*Item, Esterco, & terra.* |  |
+| `c1-l046` | &emsp;*¶ Item, Esterco, & terra.* |  |
 | `c1-l047` | Funxit. Midare vxinǒ. *Perderſe algũa cou-* |  |
 
 ## Column 2 running header
@@ -81,9 +81,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l007` | Fuqe. *Lamaçal, ou atoleiro. ¶* Fuqeni fa- |  |
 | `c2-l008` | &emsp;maru. *A tolar no lamaçal.* |  |
 | `c2-l009` | Fuqe, uru, eta. *Fazerſe de muita idade, ou* |  |
-| `c2-l010` | &emsp;*alta noite. Vt,* Miya vǒmacurauo cata- |  |
+| `c2-l010` | &emsp;*alta noite. Vt,* Miya võmacurauo cata- |  |
 | `c2-l011` | &emsp;muqeſaxe tamayeba, fito mina xizzuma |  |
-| `c2-l012` | &emsp;rite, yo ſudeni fuqeni qeri. Taif*. Lib.* |  |
+| `c2-l012` | &emsp;rite, yo ſudeni fuqeni qeri. Taif. *Lib.* |  |
 | `c2-l013` | &emsp;*18*. *A Rainha encostandoſe, & aquietan-* |  |
 | `c2-l014` | &emsp;*doſe todos: fezſe quaſi alta noite. ¶* Toxiga |  |
 | `c2-l015` | &emsp;fuqeta. *He ja de muita idade.* |  |
@@ -91,7 +91,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l017` | &emsp;*gar, boa viſta, &c.* |  |
 | `c2-l018` | Fuqen. Caxicocarazu. *Não prudente. Não* |  |
 | `c2-l019` | &emsp;*ſe vſa per ſi ſe não cõ o affirmatiuo juntamen-* |  |
-| `c2-l020` | &emsp;*te. Vt,* Qen, fuqetomoni. *Prudentes,* |  |
+| `c2-l020` | &emsp;*te. Vt,* Qen, fuqẽtomoni. *Prudentes,* |  |
 | `c2-l021` | &emsp;*& não prudentes.* |  |
 | `c2-l022` | Fuqen. Mizu. *Não ver. Vt,* Mimon fu- |  |
 | `c2-l023` | &emsp;qen. *Couſa que nem vi, nem ouui, nẽ ſei.* |  |
@@ -103,13 +103,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l029` | Fuqeri, ru, etta. *Gloriarſe, ou deleitarſe ẽ* |  |
 | `c2-l030` | &emsp;*vicios, &c. Vt,* Acuni fuqeru. *Estar* |  |
 | `c2-l031` | &emsp;*com deleitação na maldade. ¶* Miuo fuqe- |  |
-| `c2-l032` | &emsp;ru. *Cloriarſe, & preſumir de ſi. ¶* Ta- |  |
+| `c2-l032` | &emsp;ru. *Gloriarſe, & preſumir de ſi. ¶* Ta- |  |
 | `c2-l033` | &emsp;cara, l, yocuni fuqeru. *Deleitarſe, ou eſ* |  |
 | `c2-l034` | &emsp;*tar metido nas riquezas, ou na cobiça. ¶ Itẽ,* |  |
 | `c2-l035` | &emsp;Fuqeri, ru. *Dar mostra dalgũa couſa pre-* |  |
 | `c2-l036` | &emsp;*zada como de hum boyão, Catana, &c. Vt,* |  |
 | `c2-l037` | &emsp;Cudaſaretaru monouo fitobitoni fuqeri |  |
-| `c2-l038` | &emsp;mǒxi ſoro. *Aquillo que me deſtes aſoalho* |  |
+| `c2-l038` | &emsp;mǒxi ſoro. *Aquillo que me deſtes aſoalhoo* |  |
 | `c2-l039` | &emsp;*& mostrò a todos. ¶* Chauanuo fuqeru. |  |
 | `c2-l040` | &emsp;*Dar moſtras dalgũa boa Chauan.* |  |
 | `c2-l041` | Fuqi. *Hũa erua que tem grandes folhas, &* |  |
@@ -118,7 +118,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l044` | Fǔqi. *Certa doença contagioſa de febres rijas.* |  |
 | `c2-l045` | Fuqi, qu, uita. *Vt,* Caneuo fuqu. *Fun* |  |
 | `c2-l046` | &emsp;*dir metal.* |  |
-| `c2-l047` | Fuqi, u, uita. *Vt,* Vuo, l, vrocouo ſuqu. |  |
+| `c2-l047` | Fuqi, u, uita. *Vt,* Vuo, l, vrocouo fuqu. |  |
 
 ## Printed page number
 

@@ -18,14 +18,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l002` | Fuji. Toqinarazu. *Adeshoras, ou fora de tẽ-* |  |
 | `c1-l003` | &emsp;*po. ¶* Fujini mairu. *Vir adeshoras, ou* |  |
 | `c1-l004` | &emsp;*fora de tempo.* |  |
-| `c1-l005` | Fiji. *Fio de papel torcido com que fechão as* |  |
+| `c1-l005` | Fǔji. *Fio de papel torcido com que fechão as* |  |
 | `c1-l006` | &emsp;*cartas.* |  |
 | `c1-l007` | Fǔji, zuru, ita. *Fechar cartas. ¶ Item,* |  |
-| `c1-l008` | &emsp;*Pòr ſiral, ou mutrar.* |  |
+| `c1-l008` | &emsp;*Pòr ſinal, ou mutrar.* |  |
 | `c1-l009` | Fujin. Iinnarazu. *Deshumanidade, ou mal-* |  |
 | `c1-l010` | &emsp;*dade. ¶* Fujinno tomiua fiſaxicarazu xi- |  |
-| `c1-l011` | &emsp;te forobu. *A proſperida de ſem amor, &* |  |
-| `c1-l012` | &emsp;*virtude não durando muito ſe cestrue.* |  |
+| `c1-l011` | &emsp;te forobu. *A proſperidade ſem amor, &* |  |
+| `c1-l012` | &emsp;*virtude não durando muito ſe destrue.* |  |
 | `c1-l013` | Fujin. Fitono tçuma. *Molher de homem* |  |
 | `c1-l014` | &emsp;*caſado. S.* |  |
 | `c1-l015` | Fujin. *Molher do Rey.* |  |
@@ -33,12 +33,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l017` | &emsp;*ſem piedade, & virtude.* |  |
 | `c1-l018` | Fujit. Macotoni arazu. *Mentira.* |  |
 | `c1-l019` | Fujit. Finarazu. *Dia indeterminado. ¶* Fu- |  |
-| `c1-l020` | &emsp;jitni ſanji ſubexi. *Irei à Tera não de termi* |  |
+| `c1-l020` | &emsp;jitni ſanji ſubexi. *Irei à* Tera *não de termi* |  |
 | `c1-l021` | &emsp;*nando o dia. S. ¶ Item, Logo, & ſem* |  |
 | `c1-l022` | &emsp;*detença.* |  |
-| `c1-l023` | Fiujiyǔ. Iiyǔni arazu. *O não estar liure, ou* |  |
+| `c1-l023` | Fujiyǔ. Iiyǔni arazu. *O não estar liure, ou* |  |
 | `c1-l024` | &emsp;*não poder fazer algũa couſa liuremente.* |  |
-| `c1-l025` | Fujiyina. *Couſanão liure, ou o não poder fa* |  |
+| `c1-l025` | Fujiyǔna. *Couſa não liure, ou o não poder fa* |  |
 | `c1-l026` | &emsp;*zer algũa couſa.* |  |
 | `c1-l027` | &emsp;Fujiyǔni. *Adu.* |  |
 | `c1-l028` | Fujǒ. Qiyocarazu. *Immundicia.* |  |
@@ -60,7 +60,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l044` | &emsp;*concluir.* |  |
 | `c1-l045` | Fujumon. *Eſcritura que lem os Bonzos por os* |  |
 | `c1-l046` | &emsp;*defuntos de ſuas boas obras, antes de começar* |  |
-| `c1-l047` | &emsp;*aprega ão, ou de pois de acabar.* |  |
+| `c1-l047` | &emsp;*apregação, ou de pois de acabar.* |  |
 
 ## Column 2 running header
 
@@ -77,19 +77,19 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l003` | Fumai. Curacarazu. *Clareza, ou luz co-* |  |
 | `c2-l004` | &emsp;*mo do entendimento, ſaber, &c. S.* |  |
 | `c2-l005` | Fumaye. *Fundamento. Vt,* Qiǒmonuo |  |
-| `c2-l006` | &emsp;fumiyero xite. *Fazendo fundamento, ou* |  |
+| `c2-l006` | &emsp;fumayeto xite. *Fazendo fundamento, ou* |  |
 | `c2-l007` | &emsp;*eſtribando na eſcritura.* |  |
-| `c2-l008` | Fumaye, uru, eta. *Etribarſe, ou por os pès* |  |
+| `c2-l008` | Fumaye, uru, eta. *Eſtribarſe, ou por os pès* |  |
 | `c2-l009` | &emsp;*em algũa couſa.* |  |
 | `c2-l010` | Fumbari, ru, atta. *Porſe com as pernas es-* |  |
 | `c2-l011` | &emsp;*tendidas pera fora ſobre os eſtribos.* |  |
-| `c2-l012` | Fumbacacari, ru, atta. *Alargar as pernas* |  |
+| `c2-l012` | Fumbatacari, ru, atta. *Alargar as pernas* |  |
 | `c2-l013` | &emsp;*como quando hum atira com o arco.* |  |
-| `c2-l014` | Fuimen. Nemurazu. *Não dormir. S.* |  |
-| `c2-l015` | Fiumet. Metxezu. *Não ſe deſtruir, ou não* |  |
+| `c2-l014` | Fumen. Nemurazu. *Não dormir. S.* |  |
+| `c2-l015` | Fumet. Metxezu. *Não ſe deſtruir, ou não* |  |
 | `c2-l016` | &emsp;*ſe acabar. ¶* Fuxǒ fumet. *Não na-* |  |
 | `c2-l017` | &emsp;*cer nem morrer.* |  |
-| `c2-l018` | Fǔmi. i, Yoi agiuai. *Bom goſto, ouſobor.* |  |
+| `c2-l018` | Fǔmi. i, Yoi agiuai. *Bom goſto, ou ſabor.* |  |
 | `c2-l019` | &emsp;*¶* Fùmiga yoi. *Ser o goſto, ou ſabor* |  |
 | `c2-l020` | &emsp;*bom. ¶* Fùmiuo fucumu. *Ter bom* |  |
 | `c2-l021` | &emsp;*goſto.* |  |
@@ -106,8 +106,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l032` | &emsp;yamano yuqiuo vaqete. *Caminhando por* |  |
 | `c2-l033` | &emsp;*cima das pedras ao longo da rocha que não e-* |  |
 | `c2-l034` | &emsp;*ra cuſtumado andar, & rompendo pella ne-* |  |
-| `c2-l035` | &emsp;*ue dos montes mnltiplicados hũs ſobre os ou-* |  |
-| `c2-l036` | &emsp;*tros. ¶* Fatarauo fumu. *Fundir me.* |  |
+| `c2-l035` | &emsp;*ue dos montes multiplicados hũs ſobre os ou-* |  |
+| `c2-l036` | &emsp;*tros. ¶* Tatarauo fumu. *Fundir me.* |  |
 | `c2-l037` | &emsp;*tal, ou ferro aleuantando hũa certa maneira* |  |
 | `c2-l038` | &emsp;*de folles com os pès. ¶* Carauſuuo fu- |  |
 | `c2-l039` | &emsp;mu. *Pilar arroz com pilão que ſe aleuan-* |  |

@@ -36,10 +36,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l020` | Fuqiaraxi, ſu, aita. *Ventar rijo. Vt,* Ca- |  |
 | `c1-l021` | &emsp;jega fuqi araſu. |  |
 | `c1-l022` | Fuqiare, uru, eta. *Idem.* |  |
-| `c1-l023` | Fuqiberi. *Quebras da prata na fundiçãc.* |  |
+| `c1-l023` | Fuqiberi. *Quebras da prata na fundição.* |  |
 | `c1-l024` | Fuqicacari, u, atta. *Dar o vento, ou fogo* |  |
 | `c1-l025` | &emsp;*em algũa couſa. Vt,* Miǒqua tôzai yori |  |
-| `c1-l026` | &emsp;fuqicacatte. Taif*. Lib. 15*. *Dando* |  |
+| `c1-l026` | &emsp;fuqicacatte. Taif. *Lib. 15. Dando* |  |
 | `c1-l027` | &emsp;*o incendio aleuantado do Leste, & Sul.* |  |
 | `c1-l028` | Fuqicaqe, uru, eta. *Dar o ventoſobre algũa* |  |
 | `c1-l029` | &emsp;*couſa, ou aleuantar incendio, &c. Vt,* |  |
@@ -48,19 +48,19 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l032` | Fuqicaraxi, ſu, aita. *Secar o vento algũa* |  |
 | `c1-l033` | &emsp;*couſa. Vt,* Cuſa, qiuo fuqicaraſu. *Se* |  |
 | `c1-l034` | &emsp;*car o vento as eruas, & aruores.* |  |
-| `c1-l035` | Fuqicayexi, ſu, cita. *Virar o vento algũa* |  |
+| `c1-l035` | Fuqicayexi, ſu, eita. *Virar o vento algũa* |  |
 | `c1-l036` | &emsp;*couſa.* |  |
-| `c1-l037` | Fuqicudaqi, qu, aita. *Ouebrar o vẽto algũa* |  |
+| `c1-l037` | Fuqicudaqi, qu, aita. *Quebrar o vẽto algũa* |  |
 | `c1-l038` | &emsp;*couſa. Vt,* Taifùga cozuyeuo fuqicudai- |  |
-| `c1-l039` | &emsp;te, naguiſani iſayouo tobaſuru. *Quebrã-* |  |
+| `c1-l039` | &emsp;te, naguiſani iſagouo tobaſuru. *Quebrã-* |  |
 | `c1-l040` | &emsp;*do o vẽto os raminhos de cima dos cumes das* |  |
-| `c1-l041` | &emsp;*aruores, & fuzendo ſaltar as areas da praya.* |  |
+| `c1-l041` | &emsp;*aruores, & fazendo ſaltar as areas da praya.* |  |
 | `c1-l042` | Fuqicudaxi, ſu, aita. i, Fuqiuoroſu. *Ve-* |  |
 | `c1-l043` | &emsp;*tar de cima pera baixo.* |  |
-| `c1-l044` | Fuqicuzzuxi, Iu, uita. *Deſtruir o vento al-* |  |
+| `c1-l044` | Fuqicuzzuxi, ſu, uita. *Deſtruir o vento al-* |  |
 | `c1-l045` | &emsp;*gua couſa.* |  |
-| `c1-l046` | Faqide, zzuru, eta. *Começar a ſair ſarna,* |  |
-| `c1-l047` | &emsp;*ou o ſa ſemelhante. Vt,* Caſaga fuqiz. |  |
+| `c1-l046` | Fuqide, zzuru, eta. *Começar a ſair ſarna,* |  |
+| `c1-l047` | &emsp;*ou couſa ſemelhante. Vt,* Caſaga fuqiz- |  |
 | `c1-l048` | &emsp;zuru. |  |
 
 ## Column 2 running header
@@ -77,11 +77,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l002` | &emsp;*rar o vento algũa couſa.* |  |
 | `c2-l003` | Fuqifarai, ǒ, ǒta. *Eſpalhar o vento algũa* |  |
 | `c2-l004` | &emsp;*couſa, ou leuar tudo.* |  |
-| `c2-l005` | Bǔqifucutacu. *Riquezas, & proſperidades.* |  |
+| `c2-l005` | Fǔqifucutacu. *Riquezas, & proſperidades.* |  |
 | `c2-l006` | Fuqigayexi. *Vento que ſopra em contrario do* |  |
 | `c2-l007` | &emsp;*outro.* |  |
 | `c2-l008` | Fuqigayexi. *Abas do capacete.* |  |
-| `c2-l009` | Fuqidaxi, ſu, aita. *Botar fora aſoprando* |  |
+| `c2-l009` | Fuqiidaxi, ſu, aita. *Botar fora aſoprando* |  |
 | `c2-l010` | &emsp;*algũa couſa. ¶ Item, Deſbrochar com* |  |
 | `c2-l011` | &emsp;*rijo não podendo terſe.* |  |
 | `c2-l012` | Fuqijde, zzuru, eta. *Começar de ventar.* |  |
@@ -98,12 +98,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l023` | &emsp;*embarcação, &c.* |  |
 | `c2-l024` | Fuqimucai, ǒ, ǒta. *Ventar vento contrario.* |  |
 | `c2-l025` | Fuqin, l, fuiqin. *Melius,* Foiqin. *Pano* |  |
-| `c2-l026` | &emsp;*de alimpar os go quis, meſas, &c.* |  |
+| `c2-l026` | &emsp;*de alimpar os goquis, meſas, &c.* |  |
 | `c2-l027` | Fuqinabiqe, uru, eta. *Abaixar o vento* |  |
 | `c2-l028` | &emsp;*as plantas, eruas, &c.* |  |
 | `c2-l029` | Fuqinagaxi. *Certas bandeiras à maneira de* |  |
 | `c2-l030` | &emsp;*ſacos furados por onde paſſa o vento.* |  |
-| `c2-l031` | Fuqin agaxi, ſu, aita. *Eſtender o vento al-* |  |
+| `c2-l031` | Fuqinagaxi, ſu, aita. *Eſtender o vento al-* |  |
 | `c2-l032` | &emsp;*gua couſa. Vt,* Caje fatauo fuqinagaſu. |  |
 | `c2-l033` | &emsp;*O vento deſenrola, & estende as bandeiras* |  |
 | `c2-l034` | Fuqiſamaxi, ſu, aita. *Aſoprando eſfriar.* |  |
@@ -117,6 +117,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l042` | &emsp;*uantar, ou eſpertar o fogo, &c.* |  |
 | `c2-l043` | Fuqitachi, tçu, atta. *Aleuantarſe a feruu-* |  |
 | `c2-l044` | &emsp;*ra, ou eſcumo dalgũa couſa que ſe coze.* |  |
-| `c2-l045` | Fiqitçume, uru, eta. *Ventar, & cominu-* |  |
+| `c2-l045` | Fiqitçume, uru, eta. *Ventar, & continu-* |  |
 | `c2-l046` | &emsp;*ar algum vento da meſma maneira.* |  |
-| `c2-l047` | Fiqiaçuqe, uru, cua. *Fazer o vento che-* |  |
+| `c2-l047` | Fuqitçuqe, uru, eta. *Fazer o vento che-* |  |
+
+## Catchword
+
+| Physical line | Main position | Far right |
+| --- | --- | --- |
+| `cw-l001` | *gar* |  |

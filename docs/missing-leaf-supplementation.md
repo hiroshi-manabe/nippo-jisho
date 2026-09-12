@@ -108,8 +108,13 @@ corrections, but status is `visual_draft`, lineation is `unchecked`, geometry is
 can apply changes without promoting any of those review statuses. Re-running
 the OCR preparation refuses to overwrite existing drafts by default.
 
-The mirror builder includes separately credited `supplements/` image assets;
-the public builder needs only the checked-in registry, text and geometry.
+The mirror builder can include separately credited `supplements/` image assets.
+Cloudflare deployment authentication was unavailable during this integration,
+so the public builder bundles these four images and derivatives into the
+GitHub Pages artifact instead. It obtains missing cache files through IIIF and
+requires their SHA-256 and dimensions to match the canonical source metadata.
+Images remain untracked; ordinary Gallica images still use Cloudflare. This
+avoids a live IIIF dependency while reading and does not require a new service.
 
 ## Subsequent review and expansion
 

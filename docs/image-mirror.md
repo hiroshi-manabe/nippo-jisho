@@ -1,5 +1,12 @@
 # Cloudflare scan-image mirror
 
+The four Bodleian gap supplements are currently bundled with the GitHub Pages
+UI under `supplements/`, not served from this Cloudflare deployment. The public
+builder downloads missing source files and verifies their recorded checksums;
+no JPEGs are committed. The mirror builder also supports these assets, but
+Cloudflare authentication was unavailable when they were first published.
+Their CC BY-NC 4.0 credit remains separate from the Gallica credit below.
+
 The public review interface remains on GitHub Pages. Its scan images are served
 separately by the Direct Upload Cloudflare Pages project
 [`nippo-jisho-images.pages.dev`](https://nippo-jisho-images.pages.dev/). This

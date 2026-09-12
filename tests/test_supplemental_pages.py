@@ -9,6 +9,21 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class SupplementalPagesTests(unittest.TestCase):
+    def test_crops_use_bounded_xywh(self):
+        geometry = json.loads((ROOT/'pilot/human-review/line-geometry.json').read_text())
+        for page in geometry['pages']:
+            if not page['id'].startswith('bodleian-'):
+                continue
+            width, height = page['source_size']
+            for column in page['columns'].values():
+                for line in column['lines'].values():
+                    for key in ('crop', 'context_crop'):
+                        x, y, w, h = line[key]
+                        self.assertGreater(w, 0)
+                        self.assertGreater(h, 0)
+                        self.assertLessEqual(x+w, width)
+                        self.assertLessEqual(y+h, height)
+
     def test_ids_and_ordinary_correction_path(self):
         for record in json.loads((ROOT/'sources/supplemental-pages.json').read_text())['pages']:
             view = record['id']

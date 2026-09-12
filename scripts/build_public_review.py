@@ -13,6 +13,8 @@ import re
 import shutil
 import subprocess
 import unicodedata
+from urllib.request import urlopen
+from PIL import Image
 
 import markdown
 
@@ -37,6 +39,42 @@ REVIEWED_GEOMETRY_STATES = {
     "targeted_ocr_contact_sheet_reviewed",
 }
 OCR_PROVISIONAL_GEOMETRY_STATE = "ocr_bootstrap_unreviewed"
+
+
+def build_supplement_images(root: Path, output: Path, supplements: list[dict]) -> None:
+    """Bundle the small supplement set in Pages; masters stay outside Git."""
+    uuids = {
+        '110r': 'a32c467d-3e63-4aed-9a66-4c6196e67e8f',
+        '110v': '8f401794-f118-42db-b921-5bd59188d019',
+        '111r': 'ddda9e3c-ba68-49a3-bb90-124326b91ed2',
+        '111v': '9c250a70-e1bb-493d-8ef4-3efc0f72e6d8',
+    }
+    for page in supplements:
+        side = page['printed_page']
+        cached = root / '.cache/sources/bodleian/pilot-110-111' / f'{side}-native.jpg'
+        if not cached.exists():
+            url = f'https://iiif.bodleian.ox.ac.uk/iiif/image/{uuids[side]}/full/full/0/default.jpg'
+            with urlopen(url, timeout=180) as response:
+                data = response.read()
+            cached.parent.mkdir(parents=True, exist_ok=True)
+            cached.write_bytes(data)
+        document = load_json(root / f"pilot/format-v1-trial/level1/{page['id']}.json")
+        if hashlib.sha256(cached.read_bytes()).hexdigest() != document['source']['master_sha256']:
+            raise ValueError(f"Supplement source changed: {page['id']}")
+        stem = output / page['image_stem']
+        stem.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(cached, str(stem)+'-full.jpg')
+        with Image.open(cached) as original:
+            original.load()
+            if original.size != (page['width'], page['height']):
+                raise ValueError(f"Supplement dimensions changed: {page['id']}")
+            for size in (1000, 2200, 240):
+                image = original.convert('RGB')
+                image.thumbnail((size, round(size*page['height']/page['width'])))
+                if size == 240:
+                    image.save(str(stem)+'-thumb.webp', 'WEBP', quality=80)
+                else:
+                    image.save(str(stem)+f'-{size}.jpg', 'JPEG', quality=90)
 
 
 def load_json(path: Path) -> dict:
@@ -300,6 +338,7 @@ def main() -> int:
     commit = git_commit(root)
     image_records = load_json(root / "pilot/human-review/page-images.json")["pages"]
     supplements = load_json(root / "sources/supplemental-pages.json")["pages"]
+    build_supplement_images(root, output, supplements)
     image_records = [item for record in image_records for item in (
         [record] + [s for s in supplements if s["insert_after"] == f"bnf-f{record['leaf']:04d}"]
     )]
@@ -338,10 +377,10 @@ def main() -> int:
             **image_record,
             "view": view,
             "page_id": page_id,
-            "thumbnail": f"{IMAGE_BASE_URL}/{stem}-thumb.webp" if supplement else f"assets/thumbnails/f{leaf:04d}.webp",
-            "iiif_preview": f"{IMAGE_BASE_URL}/{stem}-1000.jpg" if supplement else f"{IMAGE_BASE_URL}/{stem.format(size='1000')}.jpg",
-            "iiif": f"{IMAGE_BASE_URL}/{stem}-2200.jpg" if supplement else f"{IMAGE_BASE_URL}/{stem.format(size='2200')}.jpg",
-            "iiif_highres": f"{IMAGE_BASE_URL}/{stem}-full.jpg" if supplement else f"{IMAGE_BASE_URL}/{stem.format(size='native')}.jpg",
+            "thumbnail": f"{stem}-thumb.webp" if supplement else f"assets/thumbnails/f{leaf:04d}.webp",
+            "iiif_preview": f"{stem}-1000.jpg" if supplement else f"{IMAGE_BASE_URL}/{stem.format(size='1000')}.jpg",
+            "iiif": f"{stem}-2200.jpg" if supplement else f"{IMAGE_BASE_URL}/{stem.format(size='2200')}.jpg",
+            "iiif_highres": f"{stem}-full.jpg" if supplement else f"{IMAGE_BASE_URL}/{stem.format(size='native')}.jpg",
             "gallica": image_record["source_url"] if supplement else f"https://gallica.bnf.fr/{ARK}/{view}.item",
             "supplemental": supplement,
             "reading_order": len(pages),

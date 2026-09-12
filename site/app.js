@@ -658,7 +658,11 @@ function showPage(leaf, unit = 'page', update = true) {
   if (page.supplemental) $('#page-meta').textContent += ` · Supplement for missing Paris leaves · ${page.source_credit}`;
   renderReviewStatus(page);
   const notice = $('#provisional-notice');
-  notice.classList.toggle('hidden', page.data_state !== 'machine_provisional');
+  const unreviewedSupplement = page.supplemental && !page.ai_checked;
+  notice.classList.toggle('hidden', page.data_state !== 'machine_provisional' && !unreviewedSupplement);
+  if (unreviewedSupplement) {
+    notice.textContent = 'Bodleian supplement · OCR only. AI review has not been performed. Text, typefaces, line crops and furniture classification are provisional; normal corrections can be submitted.';
+  }
   if (page.data_state === 'machine_provisional') {
     const detail = page.structural_review_required
       ? ` This page is structurally quarantined: ${(page.provisional_reasons || []).map(reason => escapeHTML(reason)).join('; ') || 'its line structure needs direct review'}.`

@@ -166,7 +166,7 @@ assert.equal(label({processed: true, commentary_review: {completed_at: '2026-09-
         pages = {page["page_id"]: page for page in corpus["pages"]}
         self.assertIn("href='../reference.css'", reference)
         states = [page["data_state"] for page in corpus["pages"]]
-        self.assertEqual(states.count("canonical_level1"), 229)
+        self.assertEqual(states.count("canonical_level1"), 233)
         self.assertEqual(states.count("machine_provisional"), 402)
         self.assertEqual(states.count("scan_only"), 20)
         self.assertTrue(

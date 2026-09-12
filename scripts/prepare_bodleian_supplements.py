@@ -98,7 +98,10 @@ def main():
                 crop = [max(0, int(min(xs))-15), max(0, int(min(ys))-12),
                         min(width, int(max(xs))+20), min(height, int(max(ys))+12)]
                 context = [crop[0], max(0,crop[1]-80), crop[2], min(height,crop[3]+80)]
-                g['lines'][lid] = {'crop': crop, 'context_crop': context}
+                # Public geometry uses x/y/width/height, not opposite corners.
+                g['lines'][lid] = {
+                    'crop': [crop[0], crop[1], crop[2]-crop[0], crop[3]-crop[1]],
+                    'context_crop': [context[0], context[1], context[2]-context[0], context[3]-context[1]]}
             page['zones'].append(zone)
             geo['columns'][zone['id']] = g
         save(ROOT/f'pilot/format-v1-trial/level1/{pid}.json', page)
