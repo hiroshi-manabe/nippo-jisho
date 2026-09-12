@@ -21,7 +21,7 @@ status: scan_confirmed
 
 [c1-l002 >] *argumenta, ou fala ſem ordem, & ſem meto*
 [c1-l002 note] This completes the proverb Figacuxa ronguini maqezu on Gallica f190: the ill-informed disputant argues without order or method. The next row completes metodo; no additional hyphen is supplied here.
-[c1-l003 >] *do de letras. i, ſem logica, não ha ficar vẽcido*
+[c1-l003 >] *do de letras. i, ſem logica, não ha ficar vẽcido.*
 [c1-l003 note] Sem logica explains the lack of scholarly method: such a disputant will not be defeated on those terms. The explanatory i belongs to the Portuguese passage; preserve the nasal abbreviation in vẽcido.
 [c1-l004] Figacuxi. i, Fino vouoi. *Antepairo pe-*
 [c1-l004 note] Higakushi is a sunshade, explained as hi no ooi, a covering against the sun. The historical vouoi spelling is retained rather than replaced with a modernized romanization; the Portuguese antepairo likewise describes a screen or shelter.
@@ -57,9 +57,9 @@ status: scan_confirmed
 [c1-l019 note] Higanzakura is a cherry tree flowering at higan. Cereijeira is the Portuguese tree name; the weak e after j was read as c by OCR. The printed flo- joins rece below: retain florece rather than modernizing it to floresce.
 [c1-l020 >] *rece na prima vera, naquelles dias do* Figan.
 [c1-l020 note] The flowering occurs in spring on those higan days. Figan is visibly roman within the italic Portuguese explanation and is an embedded Japanese term, not another headword.
-[c1-l021] Figaqi. *Paredes, ou cercas feitas com a caſcas*
+[c1-l021] Figaqi. *Paredes, ou cercas feitas com a caſca,*
 [c1-l021 note] Higaki denotes walls or fences made from bark. The apparently mismatched a caſcas is preserved as printed rather than grammatically repaired to as caſcas.
-[c1-l022 >] *ou cortiça de hũa aruore con o acipreste.*
+[c1-l022 >] *ou cortiça de hua aruore con o acipreste.*
 [c1-l022 note] The bark comes from a tree compared with a cypress. Hũa replaces the OCR haa. The printed comparison reads con o, although como o would be expected Portuguese; do not silently regularize that local sequence.
 [c1-l023] Figaqi. *Certa diuiſa pintada no veſtido, ou ex-*
 [c1-l023 note] This higaki is a decorative device, painted on clothing or impressed on swords. It is a separate sense from the physical fence, even if the motif may be related.
@@ -79,7 +79,7 @@ status: scan_confirmed
 [c1-l030 note] Higasa is a sunshade or parasol. The long ſ in the Japanese headword remains distinct from f; the meaning matches the Portuguese protection against the sun.
 [c1-l031] Figaxi. *Oriente.*
 [c1-l031 note] Higashi means east. The historical xi corresponds to shi; the compact Portuguese gloss is complete on this row.
-[c1-l032] Figaximuqi. *Pera o oriente. Vt,* Figaxi
+[c1-l032] Figaximuqi. *Pera o oriente. Vt,* F*i*g*a*xi
 [c1-l032 note] Higashimuki means facing east. The example begins Figaxi and continues muqini iru below; do not manufacture a new headword or insert a missing syllable at that physical break.
 [c1-l033 >] muqini iru. *Estar virado pera o oriente.*
 [c1-l033 note] Higaxi muqini iru means to be facing east. The crop supports Estar, with the s/t group, rather than OCR Ettar; the change restores the Portuguese infinitive without modernizing the surrounding spelling.
@@ -154,7 +154,7 @@ status: scan_confirmed
 [c2-l017 note] Cotouelo completes co- and the explanation of sleeping on one's elbow. The row contains only this Portuguese continuation.
 [c2-l018] Figigaſa ame. *P.* i. Niuacana ame. *Chu-*
 [c2-l018 note] Hijigasa ame, marked poetic by italic P., is explained as niwaka na ame, a sudden shower. The elbow-as-umbrella image is explained below; the Latin i is not a Japanese syllable.
-[c2-l019 >] *ua repentina que paſſa logo em quanto ſe hum*
+[c2-l019 >] *ua repentina que paſsa logo em quanto ſe hum*
 [c2-l019 note] The shower passes quickly while someone shields themselves. The visible long-s group supports paſſa, not OCR paſca; this is also the verb required by the Portuguese sentence.
 [c2-l020 >] *cobre com o braço, ou manga do braço.*
 [c2-l020 note] One shelters under an arm or sleeve, explaining the poetic compound hijigasa. This description is an interpretation supplied by the dictionary itself, not a modern speculative etymology.
@@ -188,7 +188,7 @@ status: scan_confirmed
 [c2-l034 note] Hiiragi is a woodland tree. The lexical identification is consistent with holly-like hiiragi, but the Portuguese gives only the broad tree description.
 [c2-l035] Fijragui, u, ida. *Arder, ou latejar chaga,*
 [c2-l035 note] The verb hiiragu concerns a wound burning or throbbing, not the tree in the preceding entry. The inflectional abbreviations must be read with the verb's stem, not as independent words.
-[c2-l036 >] *que madura, &c. No Cami ſe diz, fijraqu.*
+[c2-l036 >] *queimadura, &c. No Cami ſe diz, fijraqu.*
 [c2-l036 note] The wound is ripening or coming to a head. The regional alternative fijraqu has a visible r, not OCR c; both Cami and fijraqu are printed italic here despite being Japanese words.
 [c2-l037] Fijru. *Borboleta que ſae do bicho da ſeda.*
 [c2-l037 note] Hiiru names the moth emerging from the silkworm. The scan restores the weak r in the headword and the damaged Portuguese borboleta and bicho; the gloss identifies an insect, not an ordinary verb ending in -iru.
@@ -204,7 +204,7 @@ status: scan_confirmed
 [c2-l042 note] Together with Fi- above, this reads fijiniſuru, to die of hunger. The beginning of this row is not a standalone jini headword.
 [c2-l043] Fijiqi. *Huns certos limos do mar.*
 [c2-l043 note] Hijiki is described as a kind of marine growth or seaweed. Limos do mar provides the expected sense; qi represents ki, not a q followed by an omitted Portuguese-style u.
-[c2-l044] Fijiri. *Vt,* Coyafijiri. *Bonzos qe an-*
+[c2-l044] Fijiri. *Vt,* Coyafijiri. *Bonzos que an-*
 [c2-l044 note] Hijiri is illustrated by Koya-hijiri, itinerant Buddhist religious figures. Preserve qe as printed rather than inserting u solely to produce the more familiar Portuguese que.
 [c2-l045 >] *dão peregrinando com huns ceſtos, ou modo*
 [c2-l045 note] They travel on pilgrimage with baskets, or things like baskets. The weak u in huns and o in modo are read with the intact surrounding letters and phrase, rather than preserving OCR's unmotivated gap in modo.
