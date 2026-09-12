@@ -554,6 +554,11 @@ def prepare(
 
 
 def prepare_page(issue_number, issue, payload, root, repository, *, defer=False, allowed_paths=None):
+    question_path = root / 'pilot/human-review/pending-questions.json'
+    if question_path.exists():
+        questions = load_json(question_path)['pages'].get(page_id(payload['page']), [])
+        if any(q.get('status') == 'pending' and q.get('blocks_editing') for q in questions):
+            raise IssueProcessingError('Page is read-only pending resolution of external-review problems')
     validate_base_commit(root, payload["base_commit"])
     page, storage = load_editable_page(root, payload["page"])
     preliminary = {
@@ -937,6 +942,24 @@ def process_issue(args: argparse.Namespace) -> int:
     children = report.get("pages", [report])
     pending_count = sum(len(p["second_opinions"]) for p in children)
     applied_count = sum(len(p["applied_unflagged"]) for p in children)
+    if pending_count:
+        relative = "pilot/human-review/pending-questions.json"
+        questions_path = ROOT / relative
+        questions = load_json(questions_path) if questions_path.exists() else {"pages": {}}
+        for child in children:
+            records = questions['pages'].setdefault(child['page_id'], [])
+            for item in child['second_opinions']:
+                key = f"issue-{args.issue}/{item['line']}"
+                if not any(record['id'] == key for record in records):
+                    records.append({'id': key, 'status': 'pending', 'kind': 'second_opinion',
+                                    'issue': args.issue, 'base_commit': child['base_commit'],
+                                    'request': dict(item)})
+                item['decision'] = 'accept'
+        report.setdefault('additional_paths', []).append(relative)
+        write_json(questions_path, questions)
+        write_json(path, report)
+        print(f"Preserved {pending_count} second-opinion request(s) for later review; applying submitted text.")
+        pending_count = 0
     if pending_count:
         print(
             f"Applied {applied_count} unflagged change(s); "

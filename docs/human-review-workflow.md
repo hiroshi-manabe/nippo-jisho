@@ -535,3 +535,16 @@ These measures show accumulated human attention without asserting that review is
 ## Relationship to conversational review
 
 Chat remains useful for ambiguous readings and allows the reviewer to quote a stable line reference and current text. The web editor does not replace that discussion; it supplies a lightweight way to assemble unambiguous corrections and hand them to the same adjudication process. GitHub Issues make the public, asynchronous version of that loop durable and traceable.
+# Application and follow-up separation (2026-09-12)
+
+This section supersedes the older stop-before-closure instructions below.
+`process` now applies the submitted text even when a message or second opinion
+is attached. It preserves the request, original text and baseline in
+`pilot/human-review/pending-questions.json`, publishes and closes the application
+Issue. Closure means applied, not that the AI has agreed or finished the requested
+review. Pending requests remain visible in the page UI for a later interactive
+review. The legacy `finalize` path remains available for older preparation reports.
+
+External review problems similarly survive import; affected pages are read-only
+until their blocking requests are resolved. Technical validation failures still
+stop that item. See [review inbox operations](review-inbox.md).

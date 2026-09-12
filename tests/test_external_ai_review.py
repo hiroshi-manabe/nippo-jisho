@@ -151,6 +151,21 @@ class ExternalReviewTests(unittest.TestCase):
                 review.apply(argparse.Namespace(input=self.input, result=self.output, publish=False))
         self.assertEqual(path.read_bytes(), MD + b'\n')
 
+    def test_incomplete_return_imports_with_durable_block(self):
+        self.result['pages'][self.pid]['first_pass'] = False
+        self.result['pages'][self.pid]['uncertainties'] = ['Need human judgment']
+        self.outputs[f'pages/{self.pid}.md'] = MD
+        self.save()
+        self.setup_repo()
+        with patch.object(review, 'ROOT', self.root), patch.object(review, 'human_protected', return_value={}), \
+             patch.object(review, 'git', side_effect=lambda *a: b'' if a[0] == 'status' else b'abc'), \
+             patch.object(review.subprocess, 'run'):
+            review.apply(argparse.Namespace(input=self.input, result=self.output, publish=False))
+        questions = json.loads((self.root / 'pilot/human-review/pending-questions.json').read_text())
+        self.assertTrue(questions['pages'][self.pid][0]['blocks_editing'])
+        self.assertNotIn(self.pid, json.loads((self.root / review.REGISTRY).read_text())['pages'])
+        self.assertEqual(json.loads((self.root / review.COMPILED / f'{self.pid}.json').read_text())['review']['status'], 'visual_draft')
+
     def test_protected_stops(self):
         self.save()
         self.setup_repo()
@@ -315,8 +330,8 @@ class ExternalReviewTests(unittest.TestCase):
              patch.object(review, 'baseline', return_value=('',MD,review.parse(MD),{},'canonical')), \
              patch.object(review, 'package') as pack, patch.object(review, 'git', return_value=b'abc'):
             review.batches(argparse.Namespace(start=216, end=222, size=3, output=dest))
-            self.assertEqual([c.args[0].pages for c in pack.call_args_list], [[216,217,218], [219,220,221]])
-        self.assertEqual(json.loads((dest / 'batch-index.json').read_bytes())['omitted'][0]['pages'], [222])
+            self.assertEqual([c.args[0].pages for c in pack.call_args_list], [[216,217,218], [219,220,221], [222]])
+        self.assertEqual(json.loads((dest / 'batch-index.json').read_bytes())['omitted'], [])
 
     def test_batch_skips_protected_group_without_regrouping(self):
         for n in range(216, 222):

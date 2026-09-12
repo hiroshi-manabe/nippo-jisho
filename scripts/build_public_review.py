@@ -498,6 +498,11 @@ def main() -> int:
                 raise ValueError(f"Commentary review registered for noncanonical page {page_id}")
             page["ai_checked"] = True
         pages.append(page)
+    question_path = root / "pilot/human-review/pending-questions.json"
+    questions = load_json(question_path)["pages"] if question_path.exists() else {}
+    for page in pages:
+        page['pending_questions'] = [q for q in questions.get(page['page_id'], []) if q.get('status') == 'pending']
+        page['review_blocked'] = any(q.get('blocks_editing') for q in page['pending_questions'])
     toggle_pages = load_json(root / "pilot/human-review/typeface-toggle-terms.json")["pages"]
     for page in pages:
         annotations = toggle_pages.get(page["page_id"], {})

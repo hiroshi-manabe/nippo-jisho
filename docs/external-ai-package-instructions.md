@@ -14,8 +14,9 @@ rows along with ordinary text. Use the same schema-2 structural authority.
 1. Read `references/shared-ai-review-procedure.md` and the compact Markdown
    format. Consult the cheat sheet and historical-language notes while reading;
    NINJAL is an attributed lexical aid, not a substitute transcription.
-2. Inspect `example/input/` and `example/reviewed/`: f201 shows the draft and
-   an actual reviewed result. This is an example, not an infallible answer key.
+2. Inspect `example/input/` and `example/reviewed/`: ordinary packages use f201;
+   supplemental packages use the human-corrected bodleian-f0090r. Each shows a
+   draft and an actual reviewed result, not an infallible answer key.
    Its historical review-status metadata is not an instruction to alter target
    metadata; the local importer sets the review stage after validation.
 3. For each `targets/` page, follow the shared two-pass procedure. Read all lines
@@ -39,7 +40,8 @@ rows along with ordinary text. Use the same schema-2 structural authority.
    identity (model/version if known), and set pass booleans to true only for
    completed work. `uncertainties` records nonblocking caveats about readings you
    have chosen and incorporated. Use `decision_requests` ONLY when you cannot
-   deliver a usable choice without intervention; this blocks automatic import.
+   deliver a usable choice without intervention; this makes the imported page
+   read-only until the request is resolved, rather than blocking other imports.
    An applied structural correction or ordinary damaged glyph is not itself a
    reason to stop. Keep useful uncertainties in the corresponding line notes
    as well, so the human sees them. Empty lists mean none. `typeface_terms` maps body
@@ -53,7 +55,10 @@ rows along with ordinary text. Use the same schema-2 structural authority.
 6. ZIP the output directory's contents at the root: `result.json` and `pages/`.
    Name it `PACKAGE-ID-result.zip`, substituting the manifest's package ID.
    Do not include scans, input files, or a parent directory. Do not manufacture
-   completed artifacts if you run out of time: report which pages are pending.
+   completed artifacts if you run out of time: leave completion flags false,
+   retain the complete usable baseline files with any completed edits, and put
+   remaining problems in `decision_requests`. Such pages import as read-only,
+   not as completed reviews. Never invent missing text or crops to pass validation.
 
 ## Output details
 
@@ -84,4 +89,9 @@ square/curly-bracket shortcuts and tilde-moving asterisks are NOT this format.
 Do not add kana to the canonical text. The importer regenerates it later.
 
 Native scans: Source gallica.bnf.fr / Bibliothèque nationale de France.
+Supplemental scans: Bodleian Libraries, CC BY-NC 4.0; see each page's `source.txt`.
+Supplemental leaf IDs are not Gallica view numbers. Their packages include the
+full NINJAL lexical index because the missing leaves cannot be selected by Gallica
+URLs. Preserve supplemental IDs exactly. Both sources use the same review and
+structural-correction contract.
 NINJAL attribution and license are supplied separately in `references/`.

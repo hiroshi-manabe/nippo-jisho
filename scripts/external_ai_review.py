@@ -137,7 +137,7 @@ def baseline(pid, ref=None):
 
 def package(args):
     evaluation = args.evaluation
-    targets = [202, 203, 204] if evaluation else args.pages
+    targets = [normalize_page_id(n) for n in ([202, 203, 204] if evaluation else args.pages)]
     if not targets or len(targets) != len(set(targets)):
         raise ValueError('Supply unique target pages')
     base = git('rev-parse', 'fa1b73ca' if evaluation else 'HEAD').decode().strip()
@@ -145,17 +145,25 @@ def package(args):
     human = git('rev-parse', 'a6b22a76').decode().strip()
     if not evaluation and git('status', '--porcelain', '--untracked-files=no').strip():
         raise ValueError('Production packaging requires a clean tracked worktree')
-    pid = ('evaluation' if evaluation else 'production') + '-' + '-'.join(f'f{n:04}' for n in targets) + '-' + base[:8]
+    supplemental = all(n.startswith('bodleian-') for n in targets)
+    if any(n.startswith('bodleian-') for n in targets) and not supplemental:
+        raise ValueError('Keep ordinary and supplemental targets in separate packages')
+    example = 'bodleian-f0090r' if supplemental else 'bnf-f0201'
+    example_base = 'acef736d' if supplemental else 'fa1b73ca'
+    example_review = base if supplemental else reviewed
+    pid = ('evaluation' if evaluation else 'production') + '-' + '-'.join(n.removeprefix('bnf-') for n in targets) + '-' + base[:8]
     files, private = {}, {}
     geo_all = json.loads(snapshot(base, GEOMETRY))
     geos = {p['id']: p for p in geo_all['pages']}
     manifest = {'schema': 2, 'package_id': pid, 'mode': 'evaluation' if evaluation else 'production',
-                'baseline_commit': base, 'pages': {}, 'files': {}}
-    for n in ([201] + targets):
-        page_id = f'bnf-f{n:04}'
-        ref = 'fa1b73ca' if n == 201 else base
-        source_path, md, page, geometry, source_kind = baseline(page_id, ref)
-        prefix = 'example/input' if n == 201 else f'targets/{page_id}'
+                'baseline_commit': base, 'example_page': example, 'pages': {}, 'files': {}}
+    supplements = {p['id']: p for p in json.loads((ROOT / 'sources/supplemental-pages.json').read_bytes())['pages']}
+    for page_id_value in ([example] + targets):
+        is_example = page_id_value == example
+        ref = example_base if is_example else base
+        source_path, md, page, geometry, source_kind = baseline(page_id_value, ref)
+        page_id = page_id_value
+        prefix = 'example/input' if is_example else f'targets/{page_id}'
         # Pre-existing notes may predate the refreshed OCR and must not be mistaken
         # for a completed review. Remove them from input only, not baseline hashes.
         draft = copy.deepcopy(page)
@@ -168,7 +176,7 @@ def package(args):
             files[f'{prefix}/original-candidate.json'] = md
         files[f'{prefix}/geometry.json'] = encoded({'source_size': geometry['source_size'], 'crops': crops(geometry)})
         files[f'{prefix}/reading-hints.json'] = encoded({lid: reading_hint(l['runs']) for lid, l in lines(draft, True).items()})
-        image_path = ROOT / f'build/nippo-jisho-images/scans/native/f{n:04}.jpg'
+        image_path = ROOT / (supplements[page_id]['cache_path'] if page_id in supplements else f'build/nippo-jisho-images/scans/native/{page_id.removeprefix("bnf-")}.jpg')
         files[f'{prefix}/scan.jpg'] = image_path.read_bytes()
         from PIL import Image
         with Image.open(image_path) as image:
@@ -176,11 +184,16 @@ def package(args):
                 raise ValueError(f'{page_id}: scan/geometry dimensions differ')
             image.verify()
         evidence_path = f'pilot/ocr-layout-evidence/v1/pages/{page_id}.json.gz'
-        files[f'{prefix}/ocr-layout.json.gz'] = snapshot(ref, evidence_path)
-        files[f'{prefix}/source.txt'] = f'Source gallica.bnf.fr / Bibliothèque nationale de France\n{page["source"]["url"]}\nNative JPEG bytes; do not use reduced chat previews.\n'.encode()
-        if n == 201:
-            files['example/reviewed/page.md'] = snapshot(reviewed, f'{SOURCE}/{page_id}.md')
-            rg = next(p for p in json.loads(snapshot(reviewed, GEOMETRY))['pages'] if p['id'] == page_id)
+        if page_id not in supplements:
+            files[f'{prefix}/ocr-layout.json.gz'] = snapshot(ref, evidence_path)
+        else:
+            evidence = ROOT / f'.cache/ocr-model/bodleian-supplements/{page_id}-lines.json'
+            files[f'{prefix}/ocr-layout.json'] = evidence.read_bytes()
+        credit = supplements[page_id]['source_credit'] if page_id in supplements else 'Source gallica.bnf.fr / Bibliothèque nationale de France'
+        files[f'{prefix}/source.txt'] = f'{credit}\n{page["source"]["url"]}\nNative JPEG bytes; do not use reduced chat previews.\n'.encode()
+        if is_example:
+            files['example/reviewed/page.md'] = snapshot(example_review, f'{SOURCE}/{page_id}.md')
+            rg = next(p for p in json.loads(snapshot(example_review, GEOMETRY))['pages'] if p['id'] == page_id)
             files['example/reviewed/geometry.json'] = encoded({'source_size': rg['source_size'], 'crops': crops(rg)})
             continue
         if not evaluation:
@@ -201,7 +214,10 @@ def package(args):
     files['references/shared-ai-review-procedure.md'] = (ROOT / 'docs/shared-ai-review-procedure.md').read_bytes()
     dataset = ROOT / '.cache/external/ninjal-headwords/202510/unpacked/ew-nippo-202510/ew-nippo-202510.txt'
     rows = dataset.read_text().splitlines()
-    selected = [r for r in rows[1:] if any(f'/f{n}.item' in r for n in [201] + targets)]
+    # Gallica references cannot identify missing Bodleian leaves. Supply the
+    # complete small lexical index for supplemental batches, without pretending
+    # that their leaf numbers are Gallica views.
+    selected = rows[1:] if supplemental else [r for r in rows[1:] if any(f'/f{int(n[-4:])}.item' in r for n in [example] + targets)]
     files['references/ninjal-headwords.tsv'] = ('\n'.join([rows[0]] + selected) + '\n').encode()
     files['references/ninjal-attribution.txt'] = b'Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi Aida, version 202510. CC BY 4.0. Page subset only. https://www2.ninjal.ac.jp/textdb_dataset/en/nipp/index.html https://creativecommons.org/licenses/by/4.0/\n'
     files['README.md'] = (ROOT / 'docs/external-ai-package-instructions.md').read_bytes()
@@ -234,6 +250,15 @@ def structure(page):
     return p
 
 
+def normalize_page_id(value):
+    value = str(value)
+    if value.isdigit():
+        value = f'bnf-f{int(value):04}'
+    if not re.fullmatch(r'(?:bnf-f[0-9]{4}|bodleian-f[0-9]{4}[rv])', value):
+        raise ValueError(f'Invalid page ID: {value}')
+    return value
+
+
 def batches(args):
     """Package complete consecutive batches; report rather than hide omissions."""
     if args.start < 1 or args.end < args.start or args.size < 1:
@@ -243,9 +268,6 @@ def batches(args):
     plans, omitted = [], []
     for offset in range(0, len(candidates), args.size):
         group = candidates[offset:offset + args.size]
-        if len(group) != args.size:
-            omitted.append({'pages': group, 'reason': 'Incomplete final batch; held for later'})
-            continue
         reasons = []
         for n in group:
             pid = f'bnf-f{n:04}'
@@ -272,12 +294,12 @@ def batches(args):
     print(f'{len(plans)} complete batches; omitted: {omitted}')
 
 
-def validate(input_path, result_path, require_ready=False):
+def validate(input_path, result_path, require_ready=False, allow_review_problems=False):
     incoming, result = read_zip(input_path), read_zip(result_path)
     m, r = json.loads(incoming['manifest.json']), json.loads(result['result.json'])
     if m['schema'] not in (1, 2) or r['schema'] != m['schema'] or r['package_id'] != m['package_id'] or r['input_manifest_sha256'] != sha(incoming['manifest.json']):
         raise ValueError('Result does not match input manifest')
-    if m['mode'] not in ('evaluation', 'production') or not m['pages'] or any(not re.fullmatch(r'bnf-f[0-9]{4}', pid) for pid in m['pages']):
+    if m['mode'] not in ('evaluation', 'production') or not m['pages'] or any(not re.fullmatch(r'(?:bnf-f[0-9]{4}|bodleian-f[0-9]{4}[rv])', pid) for pid in m['pages']):
         raise ValueError('Invalid package mode or page IDs')
     for n, digest in m['files'].items():
         if sha(incoming[n]) != digest:
@@ -300,7 +322,9 @@ def validate(input_path, result_path, require_ready=False):
             if not isinstance(info.get(key), list):
                 raise ValueError(f'{pid}: {key} must be a list')
         for key in ('first_pass', 'second_pass', 'crops_inspected'):
-            if info.get(key) is not True:
+            if type(info.get(key)) is not bool:
+                raise ValueError(f'{pid}: invalid completion flag {key}')
+            if info.get(key) is not True and not allow_review_problems:
                 raise ValueError(f'{pid}: incomplete {key}')
         if m['schema'] == 2:
             validate_structure_v2(old, new, info)
@@ -310,7 +334,7 @@ def validate(input_path, result_path, require_ready=False):
         if require_ready and blocked:
             raise ValueError(f'{pid}: unresolved reports need a decision')
         for lid, line in lines(new, True).items():
-            if not isinstance(line.get('note'), str) or not line['note'].strip():
+            if (not isinstance(line.get('note'), str) or not line['note'].strip()) and not allow_review_problems:
                 raise ValueError(f'{pid}/{lid}: missing commentary')
         geom = json.loads(result[f'pages/{pid}.geometry.json'])
         before = json.loads(incoming[spec['input_prefix'] + '/geometry.json'])
@@ -472,7 +496,7 @@ def evaluate(args):
 
 
 def apply(args):
-    m, r, pages = validate(args.input, args.result, require_ready=True)
+    m, r, pages = validate(args.input, args.result, allow_review_problems=True)
     if m['mode'] != 'production':
         raise ValueError('Evaluation results cannot be applied')
     if args.publish and git('branch', '--show-current').decode().strip() != 'main':
@@ -500,9 +524,22 @@ def apply(args):
     writes = {}
     registry = json.loads((ROOT / REGISTRY).read_bytes())
     terms = json.loads((ROOT / TERMS).read_bytes())
+    question_path = 'pilot/human-review/pending-questions.json'
+    questions = json.loads((ROOT / question_path).read_bytes()) if (ROOT / question_path).exists() else {'pages': {}}
     for pid, (page, geo) in pages.items():
-        page['review']['status'] = 'context_reviewed'
-        page['review']['physical_lineation_checked'] = True
+        info = r['pages'][pid]
+        problems = list(info.get('decision_requests', []))
+        problems += [f'Incomplete {key}' for key in ('first_pass', 'second_pass', 'crops_inspected') if info.get(key) is not True]
+        if any(not line.get('note', '').strip() for line in lines(page, True).values()):
+            problems.append('Missing body commentary')
+        if m['schema'] == 1:
+            problems += info.get('uncertainties', []) + info.get('structural_changes', [])
+        if problems:
+            questions['pages'].setdefault(pid, []).append({'id': 'external-' + sha(args.result.read_bytes())[:24],
+                'kind': 'external_review', 'status': 'pending', 'blocks_editing': True,
+                'package_id': m['package_id'], 'base_commit': m['baseline_commit'], 'reports': problems})
+        page['review']['status'] = 'visual_draft' if problems else 'context_reviewed'
+        page['review']['physical_lineation_checked'] = not problems
         writes[f'{SOURCE}/{pid}.md'] = export_markdown(page).encode()
         if parse(writes[f'{SOURCE}/{pid}.md']) != page:
             raise ValueError(f'{pid}: Markdown round-trip changed the page')
@@ -513,10 +550,13 @@ def apply(args):
           'procedure': 'commentary_and_second_pass_v1', 'reviewer': r['reviewer'],
           'provenance': 'external', 'input_manifest_sha256': r['input_manifest_sha256'],
           'baseline_commit': m['baseline_commit'], 'result_sha256': sha(args.result.read_bytes())}
+        if problems:
+            registry['pages'].pop(pid, None)
         terms['pages'][pid] = {lid: {'source_text': plain(lines(page)[lid]), 'terms': ts}
                               for lid, ts in r['pages'][pid].get('typeface_terms', {}).items()}
     writes[GEOMETRY], writes[REGISTRY] = encoded(geometry), encoded(registry)
     writes[TERMS] = encoded(terms)
+    writes[question_path] = encoded(questions)
     # An input package ID is untrusted metadata, never a filesystem path.
     receipt_name = sha(m['package_id'].encode())[:24]
     receipt_path = f'pilot/external-review/imports/{receipt_name}.json'
@@ -560,7 +600,7 @@ def main():
     sub = p.add_subparsers(dest='command', required=True)
     pack = sub.add_parser('package')
     pack.add_argument('--evaluation', action='store_true')
-    pack.add_argument('--pages', type=int, nargs='+')
+    pack.add_argument('--pages', nargs='+')
     pack.add_argument('--output', type=Path, required=True)
     batch = sub.add_parser('batches')
     batch.add_argument('--start', type=int, required=True)

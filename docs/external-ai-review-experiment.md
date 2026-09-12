@@ -45,8 +45,11 @@ and source identity/review metadata remain immutable. Explicit mappings and the
 Git diff preserve traceability; no semantic rereview is required for import.
 
 `uncertainties` is nonblocking documentation of the reviewer's chosen reading.
-`decision_requests` blocks application only when intervention is genuinely needed.
-Applied structural edits do not block. The importer rebuilds body geometry by
+`decision_requests` records intervention needed after import. Usable returned
+data is imported even with these requests, incomplete pass flags, or missing
+commentary, but affected pages become read-only pending interactive resolution.
+See [the automated inbox](review-inbox.md). Technical schema, crop and stale-base
+failures still prevent import. Applied structural edits do not block. The importer rebuilds body geometry by
 zone, generates context crops, removes obsolete membership, regenerates the UI,
 and retains snapshots and receipts. Old schema-1 files retain their original
 strict rules; there is no silent conversion.
@@ -111,8 +114,8 @@ For self-contained consecutive three-page packages:
 
 `python3 scripts/external_ai_review.py batches --start 216 --end 237 --size 3 --output exports/external-review/production-f0216-f0236`
 
-This creates seven full batches through f236. The incomplete f237 remainder is
-explicitly listed as held in `batch-index.json`. Unsupported or human-protected
+This creates seven full batches through f236 and a one-page f237 remainder.
+Unsupported or human-protected
 groups are listed as omitted, not silently regrouped. Every ZIP includes the
 f201 example, full references and native images; send each ZIP independently.
 Keep returned `PACKAGE-ID-result.zip` beside its corresponding input ZIP.
@@ -120,7 +123,7 @@ Keep returned `PACKAGE-ID-result.zip` beside its corresponding input ZIP.
 `python3 scripts/external_ai_review.py apply INPUT.zip RESULT.zip`
 
 requires a clean tracked worktree, a production package, unchanged baselines and
-geometry, and complete results. It builds the public UI but does not commit or
+geometry, and technically usable results. It builds the public UI but does not commit or
 push unless `--publish` is supplied. On failure, restore only snapshotted files;
 never reset unrelated work. The backup records the previous HEAD. After a
 published import, rollback with `git revert IMPORT-COMMIT`, rebuild and push.

@@ -278,6 +278,10 @@ async function checkCorpusFreshness() {
     const latest = await response.json();
     if (latest.commit === state.corpus.commit) return true;
     const latestPage = latest.pages.find(page => page.page_id === state.currentPage.page_id);
+    if (latestPage?.review_blocked) {
+      state.currentPage.review_blocked = true;
+      return false;
+    }
     if (latestPage?.transcription_version !== state.currentPage.transcription_version) {
       state.staleBaseline = {pageId: state.currentPage.page_id, commit: latest.commit};
       renderReviewStatus(state.currentPage);
@@ -293,6 +297,7 @@ async function checkCorpusFreshness() {
 }
 
 function pageStateLabel(page) {
+  if (page.review_blocked) return 'Review problem · read-only';
   if (page.data_state === 'machine_provisional') {
     return page.structural_review_required ? 'OCR provisional · structural review' : 'OCR provisional';
   }
@@ -301,6 +306,7 @@ function pageStateLabel(page) {
 }
 
 function pageStateClass(page) {
+  if (page.review_blocked) return 'review-blocked';
   if (page.data_state === 'machine_provisional') return 'provisional';
   if (page.data_state === 'canonical_level1' || page.processed) return 'good';
   return '';
@@ -657,6 +663,24 @@ function showPage(leaf, unit = 'page', update = true) {
     : page.processed ? `${page.page_id} · Level 1 ${page.status.replaceAll('_', ' ')}` : `${page.page_id} · transcription not yet processed`;
   if (page.supplemental) $('#page-meta').textContent += ` · Supplement for missing Paris leaves · ${page.source_credit}`;
   renderReviewStatus(page);
+  document.querySelector('#pending-review-notice')?.remove();
+  if (page.pending_questions?.length) {
+    const warning = document.createElement('section');
+    warning.id = 'pending-review-notice';
+    warning.className = 'pending-review-notice';
+    const title = document.createElement('strong');
+    title.textContent = page.review_blocked ? 'Review problem — read-only until resolved' : 'Pending second opinions (submitted text applied)';
+    warning.append(title);
+    for (const question of page.pending_questions) {
+      const detail = document.createElement('details');
+      const summary = document.createElement('summary');
+      summary.textContent = question.id;
+      const content = document.createElement('pre');
+      content.textContent = JSON.stringify(question.request || question.reports, null, 2);
+      detail.append(summary, content); warning.append(detail);
+    }
+    $('#page-meta').after(warning);
+  }
   const notice = $('#provisional-notice');
   const unreviewedSupplement = page.supplemental && !page.ai_checked;
   notice.classList.toggle('hidden', page.data_state !== 'machine_provisional' && !unreviewedSupplement);
@@ -1019,6 +1043,7 @@ function useTranscriptionKey(form, key) {
 }
 
 function saveEditor(form) {
+  if (state.currentPage.review_blocked) return false;
   const row = form.closest('.line-row');
   const line = lineById(row.dataset.line);
   const after = resolveTildeMarkers(form.elements.transcription.value);
@@ -1043,6 +1068,7 @@ function saveEditor(form) {
 }
 
 function openEditor(row) {
+  if (state.currentPage.review_blocked) return toast('Resolve the external-review problem before editing this page.');
   const lineId = row.dataset.line;
   const activeForm = document.querySelector('.edit-form');
   if (activeForm) {
@@ -1065,6 +1091,7 @@ function replaceRenderedLine(row, line) {
 }
 
 function applyQuickEdit(row, control) {
+  if (state.currentPage.review_blocked) return toast('This page is read-only pending review.');
   const selection = window.getSelection?.();
   if (selection && !selection.isCollapsed) return;
   const lineId = row.dataset.line;
@@ -1274,10 +1301,12 @@ async function submitSelectedPages() {
   renderGrid();
   let pages = [...selectedLeaves].map(leaf => state.byLeaf.get(leaf)).sort((a, b) => a.reading_order - b.reading_order);
   if (!pages.length) return;
+  if (pages.some(page => page.review_blocked)) return toast('A selected page has an unresolved review problem and is read-only.');
   try {
     const response = await fetch(`corpus.json?fresh=${Date.now()}`, {cache: 'no-store'});
     if (!response.ok) throw new Error('Could not check the current baseline. Please try again.');
     const latest = await response.json();
+    if (pages.some(page => latest.pages.find(p => p.page_id === page.page_id)?.review_blocked)) throw new Error('A selected page is now read-only pending review. Reload before proceeding.');
     const stale = pages.filter(page => latest.pages.find(p => p.page_id === page.page_id)?.transcription_version !== page.transcription_version);
     if (stale.length) throw new Error(`Newer data for ${stale.map(p => p.view).join(', ')}. Reload and review those pages before submitting.`);
     const orphaned = reconcileSavedWorkspaces(pages);
@@ -1297,6 +1326,7 @@ async function submitSelectedPages() {
 }
 
 async function submitCorrections() {
+  if (state.currentPage.review_blocked) return toast('This page is read-only pending review.');
   const page = state.currentPage;
   if (!await checkCorpusFreshness()) {
     toast('This page has a newer baseline. Reload it before submitting.');

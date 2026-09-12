@@ -49,20 +49,27 @@ class CorrectionIssueProcessorTests(unittest.TestCase):
             self.assertEqual(main(), 0)
             prepare_mock.assert_not_called()
 
-    def test_process_selects_only_one_issue_and_stops_for_review(self):
+    def test_process_selects_one_issue_and_preserves_review_request(self):
         from scripts.process_correction_issue import main
         for arguments, expected in [(["process"], 42), (["process", "17"], 17)]:
-            with (redirect_stdout(io.StringIO()),
+            with (tempfile.TemporaryDirectory() as tmp,
+                  redirect_stdout(io.StringIO()),
+                  mock.patch('scripts.process_correction_issue.ROOT', Path(tmp)),
                   mock.patch("sys.argv", ["processor", *arguments]),
                   mock.patch("scripts.process_correction_issue.oldest_open_issue", return_value=42) as oldest,
                   mock.patch("scripts.process_correction_issue.prepare", return_value={
-                      "second_opinions": [{}], "applied_unflagged": []}) as prepare_mock,
-                  mock.patch("scripts.process_correction_issue.finalize") as finalize_mock):
-                self.assertEqual(main(), 3)
+                      'page_id': 'bnf-f0201', 'base_commit': 'abc',
+                      "second_opinions": [{'line': 'c1-l001', 'message': 'Check this'}], "applied_unflagged": []}) as prepare_mock,
+                  mock.patch("scripts.process_correction_issue.finalize", return_value={'accepted_lines': ['c1-l001'], 'status': 'closed'}) as finalize_mock):
+                self.assertEqual(main(), 0)
                 self.assertEqual(prepare_mock.call_count, 1)
                 self.assertEqual(prepare_mock.call_args.args[0], expected)
                 self.assertEqual(oldest.call_count, int(len(arguments) == 1))
-                finalize_mock.assert_not_called()
+                finalize_mock.assert_called_once()
+                questions = json.loads((Path(tmp) / 'pilot/human-review/pending-questions.json').read_text())
+                request = questions['pages']['bnf-f0201'][0]
+                self.assertEqual(request['status'], 'pending')
+                self.assertEqual(request['request']['message'], 'Check this')
 
     def test_finalize_still_requires_issue_number(self):
         from scripts.process_correction_issue import main
