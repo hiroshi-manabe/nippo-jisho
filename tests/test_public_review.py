@@ -169,6 +169,12 @@ assert.equal(label({processed: true, commentary_review: {completed_at: '2026-09-
         self.assertEqual(states.count("canonical_level1"), 233)
         self.assertEqual(states.count("machine_provisional"), 402)
         self.assertEqual(states.count("scan_only"), 20)
+        supplements = [page for page in corpus['pages'] if page.get('supplemental')]
+        self.assertEqual(len(supplements), 4)
+        for page in supplements:
+            for key in ('thumbnail', 'iiif_preview', 'iiif', 'iiif_highres'):
+                self.assertTrue(page[key].startswith('https://nippo-jisho-images.pages.dev/supplements/'))
+            self.assertFalse(page['ai_checked'])
         self.assertTrue(
             all(
                 line.get("reading_hint_status") in {"available", "unavailable", "not_applicable"}

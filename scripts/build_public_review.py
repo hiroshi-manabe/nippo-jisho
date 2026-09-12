@@ -326,6 +326,8 @@ def main() -> int:
     root = Path(__file__).resolve().parents[1]
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--output", type=Path, default=root / "build" / "human-review")
+    parser.add_argument("--bundle-supplements", action="store_true",
+                        help="Fallback: bundle supplemental images instead of using Cloudflare")
     parser.add_argument(
         "--repository",
         default=os.environ.get("GITHUB_REPOSITORY", "hiroshi-manabe/nippo-jisho"),
@@ -338,7 +340,8 @@ def main() -> int:
     commit = git_commit(root)
     image_records = load_json(root / "pilot/human-review/page-images.json")["pages"]
     supplements = load_json(root / "sources/supplemental-pages.json")["pages"]
-    build_supplement_images(root, output, supplements)
+    if args.bundle_supplements:
+        build_supplement_images(root, output, supplements)
     image_records = [item for record in image_records for item in (
         [record] + [s for s in supplements if s["insert_after"] == f"bnf-f{record['leaf']:04d}"]
     )]
@@ -373,14 +376,15 @@ def main() -> int:
         view = image_record["view"] if supplement else f"f{leaf}"
         page_id = image_record["id"] if supplement else f"bnf-f{leaf:04d}"
         stem = image_record["image_stem"] if supplement else f"scans/{{size}}/f{leaf:04d}"
+        supplement_stem = stem if args.bundle_supplements else f"{IMAGE_BASE_URL}/{stem}"
         page = {
             **image_record,
             "view": view,
             "page_id": page_id,
-            "thumbnail": f"{stem}-thumb.webp" if supplement else f"assets/thumbnails/f{leaf:04d}.webp",
-            "iiif_preview": f"{stem}-1000.jpg" if supplement else f"{IMAGE_BASE_URL}/{stem.format(size='1000')}.jpg",
-            "iiif": f"{stem}-2200.jpg" if supplement else f"{IMAGE_BASE_URL}/{stem.format(size='2200')}.jpg",
-            "iiif_highres": f"{stem}-full.jpg" if supplement else f"{IMAGE_BASE_URL}/{stem.format(size='native')}.jpg",
+            "thumbnail": f"{supplement_stem}-thumb.webp" if supplement else f"assets/thumbnails/f{leaf:04d}.webp",
+            "iiif_preview": f"{supplement_stem}-1000.jpg" if supplement else f"{IMAGE_BASE_URL}/{stem.format(size='1000')}.jpg",
+            "iiif": f"{supplement_stem}-2200.jpg" if supplement else f"{IMAGE_BASE_URL}/{stem.format(size='2200')}.jpg",
+            "iiif_highres": f"{supplement_stem}-full.jpg" if supplement else f"{IMAGE_BASE_URL}/{stem.format(size='native')}.jpg",
             "gallica": image_record["source_url"] if supplement else f"https://gallica.bnf.fr/{ARK}/{view}.item",
             "supplemental": supplement,
             "reading_order": len(pages),

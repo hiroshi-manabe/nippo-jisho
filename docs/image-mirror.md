@@ -1,11 +1,12 @@
 # Cloudflare scan-image mirror
 
-The four Bodleian gap supplements are currently bundled with the GitHub Pages
-UI under `supplements/`, not served from this Cloudflare deployment. The public
-builder downloads missing source files and verifies their recorded checksums;
-no JPEGs are committed. The mirror builder also supports these assets, but
-Cloudflare authentication was unavailable when they were first published.
+The four Bodleian gap supplements are served by this Cloudflare deployment
+under `supplements/`, with full images, 1000px/2200px derivatives and thumbnails.
 Their CC BY-NC 4.0 credit remains separate from the Gallica credit below.
+They were initially bundled with GitHub Pages while authentication was expired;
+that fallback remains available via `build_public_review.py --bundle-supplements`.
+The default public build no longer downloads or bundles these images. No JPEGs
+are committed to Git.
 
 The public review interface remains on GitHub Pages. Its scan images are served
 separately by the Direct Upload Cloudflare Pages project
