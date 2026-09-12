@@ -336,8 +336,6 @@
     "bnf-f0217/column-2",
     "bnf-f0218/column-1",
     "bnf-f0218/column-2",
-    "bnf-f0230/column-1",
-    "bnf-f0230/column-2",
     "bnf-f0231/column-1",
     "bnf-f0231/column-2",
     "bnf-f0232/column-1",
@@ -3892,16 +3890,26 @@
     {
       "page": "bnf-f0230",
       "column": "column-1",
-      "status": "pending_visual_review",
+      "status": "repaired_verified",
       "line_count": 40,
-      "changed_crop_count": 0
+      "changed_crop_count": 1,
+      "verification": "Every individual crop inspected in two passes.",
+      "notes": {
+        "*": "All individual crops inspected in a commented scan pass and separate second pass; assigned text, full glyphs and right-rule context checked. 1 rectangles corrected using preserved OCR evidence and manual adjustments."
+      },
+      "geometry_fingerprint": "362003edb0321cbc4fa2554df8d20d9f89d32b4bf80ca2823d00bdeb676a3891"
     },
     {
       "page": "bnf-f0230",
       "column": "column-2",
-      "status": "pending_visual_review",
+      "status": "checked_unchanged",
       "line_count": 47,
-      "changed_crop_count": 0
+      "changed_crop_count": 0,
+      "verification": "Every individual crop inspected in two passes.",
+      "notes": {
+        "*": "All individual crops inspected in a commented scan pass and separate second pass; assigned text, full glyphs and right-rule context checked. Existing rectangles retained."
+      },
+      "geometry_fingerprint": "1d6fac3efa2cc551cb513113d6429deb527fb028ddd53fcaf2e4e33feabfdeff"
     },
     {
       "page": "bnf-f0231",
