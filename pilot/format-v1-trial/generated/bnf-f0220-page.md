@@ -23,7 +23,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l007` | Fǔdocuxu. *Inchaço que procede de ruim ar.* |  |
 | `c1-l008` | Fudôna. Vonaji carazu. *Couſa deſigual,* |  |
 | `c1-l009` | &emsp;*ou ſem ordem. ¶* Fudôna fuxi, coye. |  |
-| `c1-l010` | &emsp;*Toada, vozes, &c. des ordenadas.* |  |
+| `c1-l010` | &emsp;T*oada, vozes, &c. des ordenadas.* |  |
 | `c1-l011` | &emsp;Fudôni. *Aduer.* |  |
 | `c1-l012` | Fǔfa. Caje, nami. *Vento, & ondas. ¶* Fǔ- |  |
 | `c1-l013` | &emsp;fauo xinogu. *Paſſar, ou ſofrer tẽpeſtades.* |  |
@@ -38,7 +38,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l022` | Fǔfu. Votto, me. *Marido, & Molher.* |  |
 | `c1-l023` | Fǔfu qeôquai. *Ajuntamento de marido, &* |  |
 | `c1-l024` | &emsp;*molher.* |  |
-| `c1-l025` | Fǔga. i, Xijcano michi. *Poeſia, ou arte de* |  |
+| `c1-l025` | Fǔga. i, Xijcano michi. *Poëſia, ou arte de* |  |
 | `c1-l026` | &emsp;*compor verſos.* |  |
 | `c1-l027` | Fugainai. *Não ter animo, & eficacia pera* |  |
 | `c1-l028` | &emsp;*fazer algũa couſa. Vt,* Fugainai mono. |  |
@@ -49,13 +49,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l033` | Fuguen. Ferazu, votoroyezu. *Não ſe de-* |  |
 | `c1-l034` | &emsp;*minuir, & empejorar. Vt,* Fuzǒfuguen. |  |
 | `c1-l035` | &emsp;*Naõ crecer, nem diminuir.* |  |
-| `c1-l036` | Fuguenzǒ. *Certa eſpecie de cereijeira.* |  |
+| `c1-l036` | Fuguenzǒ. *Certa eſpecie de eereijeira.* |  |
 | `c1-l037` | Fuguet. Caje, tçuqi. *Vento, & lũa.* |  |
 | `c1-l038` | Fǔgui. i. Catagui. *Coſtume.* |  |
 | `c1-l039` | Fugui. *Nome de vinho bom.* |  |
-| `c1-l040` | Fugui. *Falta, ou deſordem.* X*. ¶* Fu- |  |
+| `c1-l040` | Fugui. *Falta, ou deſordem. X. ¶* Fu- |  |
 | `c1-l041` | &emsp;guiuo camayuru. *Ser deſobediente, ou* |  |
-| `c1-l042` | &emsp;*malcriado pera com o ſenhor.* |  |
+| `c1-l042` | &emsp;*mal criado pera com o ſenhor.* |  |
 | `c1-l043` | Fugui. i, fa ari. *Agudeas, ou formigas q̃ voaõ.* |  |
 | `c1-l044` | Fuguina. *Culpauel, ou falto.* |  |
 | `c1-l045` | Fuguini. *Adu.* |  |
@@ -91,7 +91,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l017` | &emsp;guna qiǒ. *Liuro aque faltão folhas, ou* |  |
 | `c2-l018` | &emsp;*quadernos, &c.* |  |
 | `c2-l019` | Fuguri. *Virga genitalis.* |  |
-| `c2-l020` | Fùguai. i, Furiǔ fǔzocuno foca. *Contra, ou-* |  |
+| `c2-l020` | Fùguai. i, Furiǔ fǔzocuno foca. *Contra, ou* |  |
 | `c2-l021` | &emsp;*fora do cuſtume.* |  |
 | `c2-l022` | Fugi. *Erua como de latada que dà flores.* |  |
 | `c2-l023` | Fugibacama. *Hũa certa erua.* |  |
@@ -105,10 +105,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l031` | Fugiǒ. Sadamarazu. *Incerteza.* |  |
 | `c2-l032` | Fugiô. Totonouarazu. *Inquietação de pen-* |  |
 | `c2-l033` | &emsp;*ſamentos ſenſuaes. ¶* Fugiôna mono |  |
-| `c2-l034` | &emsp;*Homem perturbado de penſamentos ſenſuaes* |  |
-| `c2-l035` | Fǔgiǔ. Cajeno naca. *Meo da região do ar* |  |
+| `c2-l034` | &emsp;*Homem perturbado de penſamentos ſenſuaes.* |  |
+| `c2-l035` | Fǔgiǔ. Cajeno naca. *Meo da região do ar.* |  |
 | `c2-l036` | Fuigo. *Foles de ferreiro, ou ouriues.* |  |
-| `c2-l037` | Fuin. Tanoximazu. *Caſtidade. ¶* Fuini |  |
+| `c2-l037` | Fuin. Tanoximazu. *Caſtidade. ¶* Fuin |  |
 | `c2-l038` | &emsp;ſuru, l, tamotçu. *Guardar caſtidade.* |  |
 | `c2-l039` | Fûja. Yocoximano caje. *Ruim vento que pe* |  |
 | `c2-l040` | &emsp;*netrou, ou que cauſou doença a alguem.* |  |

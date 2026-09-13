@@ -14,7 +14,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | Fucurobi, uru, ita. *Melius,* Focorobij. |  |
+| `c1-l001` | Fucurobi, uru, ita. *Meliùs,* Focorobi. |  |
 | `c1-l002` | &emsp;*Vide ſuprà.* |  |
 | `c1-l003` | Fucurocu. Saiuai tamamono. *Riquezas,* |  |
 | `c1-l004` | &emsp;*& bens. Vt,* Fucurocu mini amaru. *Ter* |  |
@@ -37,11 +37,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l021` | Fucuſana fito. *Permet. Homem brãdo, &facil.* |  |
 | `c1-l022` | Fucuſamiſo. *Miſo delido.* |  |
 | `c1-l023` | Fucuſamono. *Pano brãdo, & macio pera a-* |  |
-| `c1-l024` | &emsp;*limpar os vaſes do Cha.* |  |
+| `c1-l024` | &emsp;*limpar os vaſos do Cha.* |  |
 | `c1-l025` | Fucutacu. *O florecer muito em riquezas.* |  |
 | `c1-l026` | Fucutçǔ. Farano itami. *Dor de barriga, ou* |  |
-| `c1-l027` | &emsp;*estumago.* |  |
-| `c1-l028` | Fucutǒ. *Peixe aſsi chamado. Vide,* Fucu. |  |
+| `c1-l027` | &emsp;*estamago.* |  |
+| `c1-l028` | Fucutǒ. *Peixe aßi chamado. Vide,* Fucu. |  |
 | `c1-l029` | Fucutocu. Saiuai ſaiuai. *Boa dita, & for-* |  |
 | `c1-l030` | &emsp;*tuna proſpera. ¶* Fucutocuni vmareta fi- |  |
 | `c1-l031` | &emsp;to. *Homẽ q̃ naceo bẽ afortunado, & ditoſo.* |  |
@@ -78,7 +78,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l004` | Fucuyǔni. *Adu. Proſperamente, ou com* |  |
 | `c2-l005` | &emsp;*abundancia, & fortuna.* |  |
 | `c2-l006` | Fucuzǒ. *Cobrir, & eſconder. ¶* Fucu- |  |
-| `c2-l007` | &emsp;zǒnonǒ monouo yǔ. *Falar tudo ſem dei* |  |
+| `c2-l007` | &emsp;zǒmonǒ monouo yǔ. *Falar tudo ſem dei* |  |
 | `c2-l008` | &emsp;*xar, nem encobrir nada.* |  |
 | `c2-l009` | Fuda. *Taboinhas em que ſe eſcreuem prohibiçõ-* |  |
 | `c2-l010` | &emsp;*es, ou nomes de peßoas, &c.* |  |
@@ -113,7 +113,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l039` | &emsp;*de Quanuon.* |  |
 | `c2-l040` | Fude. *Pena. ¶* Fudeuo yǔ. *Fazer pe-* |  |
 | `c2-l041` | &emsp;*nas de Iapão. ¶* Fudeuo ſaxiuoqu. *A-* |  |
-| `c2-l042` | &emsp;*cabar de eſcreuer. S. ¶* Fudeuo ſomu. |  |
+| `c2-l042` | &emsp;*cabar de eſcreuer. S. ¶* Fudeuo ſomu- |  |
 | `c2-l043` | &emsp;ru. *Eſcreuer. S.* |  |
 | `c2-l044` | Fudeqi. *Couſa mal feita, ou que não ſahio* |  |
 | `c2-l045` | &emsp;*bem acabada.* |  |

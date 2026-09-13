@@ -36,7 +36,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l020` | Fumicoye, uru, eta. *Paſſar per cima de* |  |
 | `c1-l021` | &emsp;*algũa couſa. ¶* Fitouo fumicoyete to- |  |
 | `c1-l022` | &emsp;uoru. *Paſſar por cima da gente.* |  |
-| `c1-l023` | Fumicucumi, u, ùda. *Vt,* Facamauo fu- |  |
+| `c1-l023` | Fumicucumi, u, ũda. *Vt,* Facamauo fu- |  |
 | `c1-l024` | &emsp;micucumu. *Meter as pontas dos calçoẽs de* |  |
 | `c1-l025` | &emsp;*baixo dos pès para os cobrir.* |  |
 | `c1-l026` | Fumicudaqi, u, aita. *Eſmiuçar com os pès.* |  |
@@ -47,7 +47,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l031` | Fumido. *Lugar que ſe piſa, ou onde ſe poem* |  |
 | `c1-l032` | &emsp;*os pès. ¶* Axino fumidouo voboyezu. |  |
 | `c1-l033` | &emsp;*Não ſentir hum onde tem os pès com grande* |  |
-| `c1-l034` | &emsp;*alegria, triſteza, preſa, &c.* |  |
+| `c1-l034` | &emsp;*alegria, triſteza, preßa, &c.* |  |
 | `c1-l035` | Fumifanachi, tçu, aita. *Lançar com os pees,* |  |
 | `c1-l036` | &emsp;*ou deſcaualgar. Vt,* Mina vmauo fumifa- |  |
 | `c1-l037` | &emsp;natte, cachidachini natte, &c. Taif. |  |
@@ -57,10 +57,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l041` | Fumifiraqi, qu, aita. *Tornar com algu pee* |  |
 | `c1-l042` | &emsp;*a tras como na eſgrima, &c. ¶* Abumi- |  |
 | `c1-l043` | &emsp;uo fumi firaqu. *Afaſtar o pee com o eſtri-* |  |
-| `c1-l044` | &emsp;*bo pera hũa parte quando ſe vira, ou faz vol* |  |
+| `c1-l044` | &emsp;*bo pera hũa parte quando ſe vira, ou faz vol-* |  |
 | `c1-l045` | &emsp;*tar o caualo.* |  |
 | `c1-l046` | Fumifixigui, u, ida. *Quebrar algũa couſa cõ* |  |
-| `c1-l047` | &emsp;*os pes.* |  |
+| `c1-l047` | &emsp;*os pees.* |  |
 
 ## Column 2 running header
 
@@ -87,8 +87,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l013` | &emsp;Fitono fumimononi naru. *Ser piſado.* |  |
 | `c2-l014` | &emsp;*i, Deſprezado dos outros.* |  |
 | `c2-l015` | Fuminaraxi, ſu, aita. *Piſando fazer ſo-* |  |
-| `c2-l016` | &emsp;*ar com os pes taboas, &c. ¶ Item, A-* |  |
-| `c2-l017` | &emsp;*prainar com os pèes. Vt,* Tçuchiuo fu- |  |
+| `c2-l016` | &emsp;*ar com os pès taboas, &c. ¶ Item, A-* |  |
+| `c2-l017` | &emsp;*prainar com os pees. Vt,* Tçuchiuo fu- |  |
 | `c2-l018` | &emsp;minaraſu. *Fazer a terra plaina cõ ospès.* |  |
 | `c2-l019` | Fuminijiri, u, itta. *Eſfregar, ou ro-* |  |
 | `c2-l020` | &emsp;*çar ospès.* |  |
@@ -109,8 +109,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l035` | Fumiſuye, uru, eta. *Eſtribarſe bem com os* |  |
 | `c2-l036` | &emsp;*pès. Vt,* Axiuo fumiſuyuru. *Idem.* |  |
 | `c2-l037` | Fumitate, tçuru, eta. *Eſtribar com opè, ou* |  |
-| `c2-l038` | &emsp;*aſſentar ope. Vt,* Axiuo fumitatçuru. |  |
-| `c2-l039` | &emsp;*Idẽ. ¶* Cui, l, iguiuo fumitatçuru. *Meter,* |  |
+| `c2-l038` | &emsp;*aſsentar opee. Vt,* Axiuo fumitatçuru. |  |
+| `c2-l039` | &emsp;I*dẽ. ¶* Cui, l, iguiuo fumitatçuru. *Meter,* |  |
 | `c2-l040` | &emsp;*algum eſtrepe, ou eſpinho polopè. ¶* To- |  |
 | `c2-l041` | &emsp;riuo fumitatçuru. *Aleuantar os paſſaros* |  |
 | `c2-l042` | &emsp;*andando à caça.* |  |
@@ -118,7 +118,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l044` | Fumitçubuxi, ſu, uita. *Eſborrachar piſan-* |  |
 | `c2-l045` | &emsp;*do como ouos, fruita madura, &c. ¶ Item,* |  |
 | `c2-l046` | &emsp;*Permet.* Fitouo fumitçubuſu. *Deſtruir,* |  |
-| `c2-l047` | &emsp;*& des fazer a alguem, palaura de rõcaceres,* |  |
+| `c2-l047` | &emsp;*& des fazer a alguem, palaura de rõcadores,* |  |
 
 ## Catchword
 

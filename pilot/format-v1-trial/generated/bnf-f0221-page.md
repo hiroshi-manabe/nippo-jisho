@@ -33,7 +33,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l017` | &emsp;*ſem piedade, & virtude.* |  |
 | `c1-l018` | Fujit. Macotoni arazu. *Mentira.* |  |
 | `c1-l019` | Fujit. Finarazu. *Dia indeterminado. ¶* Fu- |  |
-| `c1-l020` | &emsp;jitni ſanji ſubexi. *Irei à* Tera *não de termi* |  |
+| `c1-l020` | &emsp;jitni ſanji ſubexi. *Irei à Tera não determi* |  |
 | `c1-l021` | &emsp;*nando o dia. S. ¶ Item, Logo, & ſem* |  |
 | `c1-l022` | &emsp;*detença.* |  |
 | `c1-l023` | Fujiyǔ. Iiyǔni arazu. *O não estar liure, ou* |  |
@@ -60,7 +60,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l044` | &emsp;*concluir.* |  |
 | `c1-l045` | Fujumon. *Eſcritura que lem os Bonzos por os* |  |
 | `c1-l046` | &emsp;*defuntos de ſuas boas obras, antes de começar* |  |
-| `c1-l047` | &emsp;*apregação, ou de pois de acabar.* |  |
+| `c1-l047` | &emsp;*a prègação, ou de pois de acabar.* |  |
 
 ## Column 2 running header
 
@@ -106,8 +106,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l032` | &emsp;yamano yuqiuo vaqete. *Caminhando por* |  |
 | `c2-l033` | &emsp;*cima das pedras ao longo da rocha que não e-* |  |
 | `c2-l034` | &emsp;*ra cuſtumado andar, & rompendo pella ne-* |  |
-| `c2-l035` | &emsp;*ue dos montes multiplicados hũs ſobre os ou-* |  |
-| `c2-l036` | &emsp;*tros. ¶* Tatarauo fumu. *Fundir me.* |  |
+| `c2-l035` | &emsp;*ue dos montes mnltiplicados hũs ſobre os ou-* |  |
+| `c2-l036` | &emsp;*tros. ¶* Tatarauo fumu. *Fundir me-* |  |
 | `c2-l037` | &emsp;*tal, ou ferro aleuantando hũa certa maneira* |  |
 | `c2-l038` | &emsp;*de folles com os pès. ¶* Carauſuuo fu- |  |
 | `c2-l039` | &emsp;mu. *Pilar arroz com pilão que ſe aleuan-* |  |
