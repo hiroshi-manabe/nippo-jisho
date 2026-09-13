@@ -1,0 +1,204 @@
+{
+  "schema": 2,
+  "package_id": "production-f0237-f0238-f0239-fa0928e8",
+  "input_manifest_sha256": "2378ed88e36267900bc572cb0d72eec351a500182b2dac87095d4f8f3749b61d",
+  "reviewer": "GPT-6 Astra Pro (OpenAI); external scan-grounded two-pass review",
+  "pages": {
+    "bnf-f0237": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c1-l004: Hũs and Iapão are chosen through weak nasal marks and damaged type; the surviving ink supports these readings but is incomplete.",
+        "c1-l006: The source label is read as Bur., with an r-shaped last letter, and is not silently regularized to Bup.; the unusual label is documented in the line note.",
+        "c1-l012: The impression appears to print fiho without l. That anomaly is retained, not normalized to filho.",
+        "c1-l017: The small Vt marker retains an upright V and italic t/comma as in the aligned draft; its mixed typeface is less secure than the surrounding text.",
+        "c2-l008 and c2-l009: No final period is supplied after couſa, and no comma is retained after cinco; the positions contain only minute or diffuse marks, unlike nearby clear punctuation.",
+        "c2-l018: Guiacufǔ is the chosen reading. The caron has a weak, fragmentary left arm; comparison is with the actual repeated marks on this page, not automatic long-vowel normalization.",
+        "pn-l001: The first digit of 117 is damaged or overprinted; the chosen page number agrees with the surviving numerals and the following numbered recto."
+      ],
+      "decision_requests": [],
+      "structural_changes": [
+        {
+          "before": [
+            "c1-l008"
+          ],
+          "after": [
+            "c1-l008"
+          ],
+          "reason": "Represented the visibly indented Guetquǒ row with placement >. The stable body ID and complete native crop are unchanged."
+        },
+        {
+          "before": [
+            "cw-l001"
+          ],
+          "after": [
+            "cw-l001"
+          ],
+          "reason": "Corrected Guiane to the printed catchword Guianet, represented its ordinary roman type, and placed it at the far right. The following page starts with Guianet."
+        }
+      ],
+      "typeface_terms": {
+        "c1-l001": [
+          "Chanoyu"
+        ],
+        "c1-l006": [
+          "Bur."
+        ],
+        "c1-l025": [
+          "Bup."
+        ],
+        "c1-l034": [
+          "S."
+        ],
+        "c1-l045": [
+          "S."
+        ],
+        "c1-l047": [
+          "X."
+        ],
+        "c2-l003": [
+          "Ximo"
+        ],
+        "c2-l004": [
+          "Qeyô"
+        ],
+        "c2-l007": [
+          "Zaxiqui"
+        ],
+        "c2-l008": [
+          "Coto"
+        ],
+        "c2-l022": [
+          "S."
+        ]
+      }
+    },
+    "bnf-f0238": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c1-l001 and c1-l002: The n in Guianet and a in Guibaſǒ are weakly printed; the selected forms follow surviving strokes and the entry sequence, with the supplied NINJAL index used only as lexical corroboration.",
+        "c1-l003: Fula is the chosen unusual printed flower term; it is not replaced with modern flor or folha.",
+        "c1-l025: Determinarçoens retains the apparently extra r visible in the impression.",
+        "c1-l030–c1-l031: The physical text mu- / ta is retained as printed, without supplying i to make muita.",
+        "c1-l036: The final mark in Guijù is faint and retained as a grave, without homogenizing long-u accents.",
+        "c2-l011: Gosto is chosen over OCR gesto, but the first vowel is severely abraded. The line note explains the surviving-ink and parallel-gloss support.",
+        "c2-l013: Vialactea is chosen through a weakened ct sequence; the joined spelling is retained rather than modernized."
+      ],
+      "decision_requests": [],
+      "structural_changes": [
+        {
+          "before": [
+            "h1-l001"
+          ],
+          "after": [
+            "h1-l001"
+          ],
+          "reason": "Corrected the running header from Gi ANTES DO I. to G ANTES DO I.; the apparent extra i is part of the broken capital G."
+        },
+        {
+          "before": [
+            "h2-l001"
+          ],
+          "after": [
+            "h2-l001"
+          ],
+          "reason": "Restored the visible word separation ANTES DO in the second running header."
+        },
+        {
+          "before": [
+            "u2b-l001"
+          ],
+          "after": [
+            "u2b-l001"
+          ],
+          "reason": "Reclassified the provisional bottom-furniture row as a catchword, corrected ba. to ta., retained the italic Portuguese type and marked far-right placement. It anticipates the first syllable of f239 and is not body text."
+        }
+      ],
+      "typeface_terms": {
+        "c1-l044": [
+          "Ichǒ"
+        ],
+        "c2-l041": [
+          "S."
+        ],
+        "c2-l046": [
+          "S."
+        ]
+      }
+    },
+    "bnf-f0239": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c1-l003: Voconai includes a faint final i whose surviving trace is compatible with the Japanese synonym; the source is worn at that position.",
+        "c1-l005: Obra is the chosen Portuguese reading, but much of b is missing from the impression; the compatible remnant and the work/occupation context support it.",
+        "sg-l001: The final numeral in G g 2 is heavily inked. It is read as 2 from its top and foot, not retained as the OCR's B-like noise."
+      ],
+      "decision_requests": [],
+      "structural_changes": [
+        {
+          "before": [
+            "h1-l001"
+          ],
+          "after": [
+            "h1-l001"
+          ],
+          "reason": "Restored the printed word separation G ANTES DO V. in the first running header, preserving the source's V."
+        },
+        {
+          "before": [
+            "h2-l001"
+          ],
+          "after": [
+            "h2-l001",
+            "pn-l001"
+          ],
+          "reason": "Split the conflated header/page-number record: h2-l001 now holds G ANTES DO V. and the fresh pn-l001 holds the separately printed 118. The OCR suffix IiB. represented that page number, not header text."
+        },
+        {
+          "before": [
+            "u2b-l001"
+          ],
+          "after": [
+            "sg-l001",
+            "u2b-l001"
+          ],
+          "reason": "Separated the misclassified footer record BGuio. into the independently printed G g 2 signature and Guio- catchword, restoring the signature text lost in OCR. The fresh sg-l001 holds the display signature; u2b-l001 is preserved for the roman catchword at the far right."
+        }
+      ],
+      "typeface_terms": {
+        "c1-l015": [
+          "S."
+        ],
+        "c1-l018": [
+          "S."
+        ],
+        "c1-l028": [
+          "S."
+        ],
+        "c2-l016": [
+          "S."
+        ],
+        "c2-l017": [
+          "S."
+        ],
+        "c2-l023": [
+          "S."
+        ],
+        "c2-l031": [
+          "Dairi"
+        ],
+        "c2-l036": [
+          "S."
+        ],
+        "c2-l038": [
+          "S."
+        ]
+      }
+    }
+  }
+}
