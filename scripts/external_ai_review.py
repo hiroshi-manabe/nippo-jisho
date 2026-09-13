@@ -89,7 +89,25 @@ def write_zip(path, files):
 
 def human_protected():
     from refresh_unreviewed_ocr import protected_pages
-    return protected_pages()
+    protected = dict(protected_pages())
+    # Authorized 2026-09-13: these archived trial snapshots are comparison
+    # material, not completed human reviews. Do not relax OCR refresh protection.
+    history = json.loads((ROOT / 'pilot/human-review/correction-history.json').read_bytes())['pages']
+    statuses = json.loads((ROOT / 'pilot/human-review/review-status.json').read_bytes())['pages']
+    return trial_review_protection(protected, history, statuses)
+
+
+def trial_review_protection(protected, history, statuses):
+    protected = dict(protected)
+    for pid in ('bnf-f0248', 'bnf-f0249', 'bnf-f0250'):
+        if protected.get(pid) != 'early_human_trial_reference':
+            continue
+        protected.pop(pid)
+        if any(p['id'] == pid and (p.get('issues_applied') or p.get('issues')) for p in history):
+            protected[pid] = 'human_correction_history'
+        if any(p['id'] == pid and any(u.get('status') not in ('pending', None) for u in p['units'].values()) for p in statuses):
+            protected[pid] = 'human_review_unit_touched'
+    return protected
 
 
 def interchange_equivalent(a, b):

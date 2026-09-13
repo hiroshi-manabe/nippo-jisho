@@ -1,5 +1,15 @@
 # External AI review experiment, 2026-09
 
+## f248–f250 trial-page exception (2026-09-13)
+
+The user authorized normal external review of these three current drafts.
+Their archived pre-bootstrap copies contain isolated early human corrections,
+not completed human page reviews. External packaging/import ignores only their
+`early_human_trial_reference` safeguard. New Issue history, touched human review
+units, human-checked source status and stale baselines remain protected. The
+archive and bulk OCR-refresh safeguards are unchanged. Include the ordinary
+f201 example and do not treat the trial readings as unconditionally authoritative.
+
 Goal: replace the expensive local page-reading pass with external review, not
 add another full AI review. The shared procedure remains authoritative for both.
 

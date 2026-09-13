@@ -32,6 +32,16 @@ status: visual_draft
 
 
 class ExternalReviewTests(unittest.TestCase):
+    def test_trial_archive_exception_keeps_new_human_protection(self):
+        original = {f'bnf-f{n:04}': 'early_human_trial_reference' for n in (248, 249, 250, 251)}
+        result = review.trial_review_protection(original,
+            [{'id': 'bnf-f0249', 'issues_applied': 1}],
+            [{'id': 'bnf-f0250', 'units': {'column-1': {'status': 'checked'}}}])
+        self.assertNotIn('bnf-f0248', result)
+        self.assertEqual(result['bnf-f0249'], 'human_correction_history')
+        self.assertEqual(result['bnf-f0250'], 'human_review_unit_touched')
+        self.assertIn('bnf-f0251', result)
+
     def setUp(self):
         self.temp = tempfile.TemporaryDirectory()
         self.root = Path(self.temp.name)
