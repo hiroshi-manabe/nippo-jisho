@@ -1,0 +1,228 @@
+{
+  "schema": 2,
+  "package_id": "production-f0252-f0253-f0254-fa0928e8",
+  "input_manifest_sha256": "c9e7956b49c06ba371f410e0f518d2c8f14b62d529fec9071863cc9acdd06105",
+  "reviewer": "GPT-6 Astra Pro (OpenAI), external scan-grounded transcription review",
+  "pages": {
+    "bnf-f0252": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c1-l013: Guaſsuiga tomaru is the selected reading. The first s and parts of tomaru are worn; the second s is visibly short. The neighboring headword and the cessation gloss support word identity, not forced allograph normalization.",
+        "c1-l021: Fotoque is legible but its font boundary is less distinct. The existing italic span is retained; the whole embedded term is marked for human typeface review.",
+        "c2-l030, c2-l032 and c2-l038: the anomalous printed u principal parts are preserved rather than regularized from expected Japanese morphology."
+      ],
+      "decision_requests": [],
+      "structural_changes": [
+        {
+          "before": [
+            "h1-l001"
+          ],
+          "after": [
+            "h1-l001"
+          ],
+          "reason": "Moved the misclassified opening Guaratçucaxi entry from running-header furniture to the beginning of column-1-part-1; recovered Roman headword and italic gloss, added a body crop and substantive note. Its continuation remains c1-l001."
+        },
+        {
+          "before": [],
+          "after": [
+            "h1-l001a"
+          ],
+          "reason": "Inserted the actual omitted running header G ANTES DO I. above the first entry, with a fresh ID; the existing h1-l001 ID remains attached to its original entry text."
+        },
+        {
+          "before": [
+            "s1-01-l001"
+          ],
+          "after": [
+            "s1-01-l001"
+          ],
+          "reason": "Restored the visible separation DO I. in the internal alphabetical section heading."
+        },
+        {
+          "before": [
+            "c1-l028"
+          ],
+          "after": [
+            "c1-l028"
+          ],
+          "reason": "Restored the omitted enlarged G and following capital I in GI; marked initial=2 and removed the erroneous whole-line indentation. Enlarged this crop to include the complete G across two physical rows; the neighboring row ID is unchanged."
+        },
+        {
+          "before": [
+            "c2-l003",
+            "c2-l004"
+          ],
+          "after": [
+            "c2-l003",
+            "c2-l004"
+          ],
+          "reason": "Marked both existing continuation rows as indented to match the scan; neither their order nor their physical-line association changed."
+        },
+        {
+          "before": [],
+          "after": [
+            "cw-l001"
+          ],
+          "reason": "Inserted the omitted Roman bottom-right catchword Gijin. in a catchword zone, separate from the last body row."
+        }
+      ],
+      "typeface_terms": {
+        "c1-l008": [
+          "Xix."
+        ],
+        "c1-l021": [
+          "Fotoque"
+        ],
+        "c1-l025": [
+          "Teras"
+        ],
+        "c1-l043": [
+          "Ienxũs"
+        ],
+        "c2-l043": [
+          "Machi"
+        ],
+        "c2-l044": [
+          "Gigue"
+        ]
+      }
+    },
+    "bnf-f0253": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c1-l043: Dairi is chosen from the faint surviving i between a and r and the procession context; this letter is less secure than the surrounding text.",
+        "c2-l007: Giqidãni mǒſozuru retains an unmarked second o in the damaged verb; no expected long-vowel mark is supplied without secure visible evidence.",
+        "u2b-l001: the catchword is transcribed literally as daa, with two a forms, rather than harmonized to the following page's dà; the worn final forms remain a caveat."
+      ],
+      "decision_requests": [],
+      "structural_changes": [
+        {
+          "before": [
+            "h1-l001"
+          ],
+          "after": [
+            "h1-l001"
+          ],
+          "reason": "Corrected the running-header spacing from DOI. to DO I. as printed."
+        },
+        {
+          "before": [
+            "h2-l001"
+          ],
+          "after": [
+            "h2-l001",
+            "pn-l001"
+          ],
+          "reason": "Separated the conflated running header and page number into their proper zones. The complete visible page number is 125., not OCR 12.; header text remains under h2-l001 and the number has fresh ID pn-l001."
+        },
+        {
+          "before": [
+            "c1-l035"
+          ],
+          "after": [
+            "c1-l035"
+          ],
+          "reason": "Encoded the parenthesis and exercito. as named far-right segments of this physical row. Although exercito completes the sense of c1-l036, its printed placement is on c1-l035; it was not moved into reading-order prose."
+        },
+        {
+          "before": [
+            "u2b-l001"
+          ],
+          "after": [
+            "sig-l001",
+            "u2b-l001"
+          ],
+          "reason": "Resolved conflated provisional bottom furniture into the gathering signature I i under fresh ID sig-l001 and the separate far-right italic catchword daa under the preserved u2b-l001 ID. Replaced the provisional zone with signature and catchword zones; no body text was removed."
+        }
+      ],
+      "typeface_terms": {
+        "c1-l001": [
+          "Camis"
+        ],
+        "c1-l003": [
+          "Zaxiquis",
+          "Tatamis"
+        ],
+        "c1-l004": [
+          "Cami",
+          "Yoxejiqij"
+        ],
+        "c1-l042": [
+          "Cũgues"
+        ],
+        "c1-l043": [
+          "Dairi"
+        ],
+        "c2-l020": [
+          "Tonos"
+        ],
+        "c2-l029": [
+          "Xaca"
+        ],
+        "c2-l030": [
+          "Foqeqiǒ"
+        ],
+        "c2-l032": [
+          "Foqeqiǒ"
+        ],
+        "c2-l042": [
+          "Cami"
+        ],
+        "c2-l043": [
+          "tißǒ"
+        ]
+      }
+    },
+    "bnf-f0254": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c1-l002: the first t in Giqitot is abraded. Its surviving bar and lower turn, the garment gloss, and the supplied NINJAL headword support the chosen reading over OCR Giqicot.",
+        "c2-l022: iccagiô and nicagiô are selected from dotted i and worn c forms, supported by the one/two counting combinations. Some c outlines are reduced to horizontal remnants.",
+        "c2-l026: Giobanuo is intentionally left without an accent in this example because the isolated trace above o does not securely establish one, despite the marked headword Giǒban.",
+        "c2-l039: the final u and caron in Giochǔ are poorly inked. The small angled trace and the supplied lexical identification support the selected accented reading."
+      ],
+      "decision_requests": [],
+      "structural_changes": [
+        {
+          "before": [
+            "h2-l001"
+          ],
+          "after": [
+            "h2-l001"
+          ],
+          "reason": "Read the worn final running-header letter as capital I, consistently with its visible stem and the other alphabetical headings; corrected the lowercase OCR i."
+        },
+        {
+          "before": [
+            "u2b-l001"
+          ],
+          "after": [
+            "u2b-l001"
+          ],
+          "reason": "Reclassified provisional bottom furniture as a far-right catchword and corrected Go- to the visible Roman Gio.; the original ID is retained."
+        }
+      ],
+      "typeface_terms": {
+        "c1-l038": [
+          "Go"
+        ],
+        "c2-l009": [
+          "Fotoque"
+        ],
+        "c2-l011": [
+          "Go"
+        ],
+        "c2-l041": [
+          "Camis",
+          "Fotoques"
+        ]
+      }
+    }
+  }
+}
