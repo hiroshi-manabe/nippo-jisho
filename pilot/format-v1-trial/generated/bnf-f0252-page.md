@@ -20,8 +20,8 @@ Lexical reference: the supplied NINJAL Entry Words Data of Nippojisho, version 2
 | `c1-l001` | &emsp;*ou ruido.* |  |
 | `c1-l002` | Guaratçuqi, qu, uita. *Fazerſe estrondo,* |  |
 | `c1-l003` | &emsp;*ou ruido.* |  |
-| `c1-l004` | Guareô. Yeni caita reô. *Lagarto pintado.* S. |  |
-| `c1-l005` | Guareô. Fuſu reô. *Lagarto q̃ eſtà deitado.* S. |  |
+| `c1-l004` | Guareô. Yeni caita reô. *Lagarto pintado. S.* |  |
+| `c1-l005` | Guareô. Fuſu reô. *Lagarto q̃ eſtà deitado. S.* |  |
 | `c1-l006` | Guariacu. Cauara, tçubute. *Telhas, & pe-* |  |
 | `c1-l007` | &emsp;*dras. Vt,* Meixuuo xirazareba cayette |  |
 | `c1-l008` | &emsp;guariacuto naſu. Xix. *Não conhecen-* |  |
@@ -70,7 +70,7 @@ Lexical reference: the supplied NINJAL Entry Words Data of Nippojisho, version 2
 | `c1-l040` | Giacu. *Vt,* Giacuſuru. *Eſtar affeiçoado de* |  |
 | `c1-l041` | &emsp;*maſiadamente a algũa couſa.* |  |
 | `c1-l042` | Giacugo. *Certo ponto, ou ſentença que dão os* |  |
-| `c1-l043` | &emsp;*Ienxũs a cerca da meditação precedente.* |  |
+| `c1-l043` | &emsp;*Ienxùs a cerca da meditação precedente.* |  |
 | `c1-l044` | Giacuxin. *Coração afeiçoado, ou afeição grã* |  |
 | `c1-l045` | &emsp;*de de algũa couſa.* |  |
 
