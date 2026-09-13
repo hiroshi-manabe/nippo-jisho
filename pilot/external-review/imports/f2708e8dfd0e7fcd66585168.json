@@ -1,0 +1,158 @@
+{
+  "schema": 2,
+  "package_id": "production-f0258-f0259-f0260-fa0928e8",
+  "input_manifest_sha256": "68c982a1cc8dc51df9f106b25b39fe96076e4ad57f06367ef4e48716c04943b0",
+  "reviewer": "GPT-6 Astra Pro",
+  "pages": {
+    "bnf-f0258": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c1-l024: Icarigoye is adopted from the faint surviving letters and anger gloss; the medial r is weak in this impression.",
+        "c2-l020: embarcação is adopted; the medial rc area is abraded, but its traces and the nautical definition support that word.",
+        "u2b-l001: The isolated bottom S. is preserved as unclassified furniture. Its function is uncertain, and it has not been conjecturally assigned to a signature or to the body definition."
+      ],
+      "decision_requests": [],
+      "structural_changes": [
+        {
+          "before": [
+            "h2-l001"
+          ],
+          "after": [
+            "h2-l001"
+          ],
+          "reason": "Corrected the running header from the native scan to I ANTES DO C., restoring misrecognized letters or word spacing."
+        },
+        {
+          "before": [
+            "u2b-l001"
+          ],
+          "after": [
+            "u2b-l001",
+            "cw-l001"
+          ],
+          "reason": "Split the OCR-merged bottom furniture 8.coboſu into an isolated italic S. (retained as unclassified furniture) and the separate far-right roman catchword coboſu. No visible material is discarded; the latter continues Ame ic- across the page turn."
+        }
+      ],
+      "typeface_terms": {
+        "c1-l043": [
+          "Mon."
+        ]
+      }
+    },
+    "bnf-f0259": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c1-l013: Monjenni ichi is adopted in the faded example; the vowel after j and the small final i remain less clear than surrounding type. The chosen reading is discussed in the line note.",
+        "c1-l027: Homẽ is adopted with a faint nasal abbreviation and separated from inſigne; the top of the final vowel is weak."
+      ],
+      "decision_requests": [],
+      "structural_changes": [
+        {
+          "before": [
+            "h1-l001"
+          ],
+          "after": [
+            "h1-l001"
+          ],
+          "reason": "Corrected the running header from the native scan to I ANTES DO C., restoring misrecognized letters or word spacing."
+        },
+        {
+          "before": [
+            "h2-l001"
+          ],
+          "after": [
+            "h2-l001",
+            "pn-l001"
+          ],
+          "reason": "Separated the upper-right printed page number 128. from the running header; corrected the header to I ANTES DO C. without renumbering existing rows."
+        },
+        {
+          "before": [
+            "u2b-l001"
+          ],
+          "after": [
+            "u2b-l001"
+          ],
+          "reason": "Reclassified the bottom word corpo as a far-right catchword and corrected display styling to the printed italic; the same word starts the following page."
+        }
+      ],
+      "typeface_terms": {
+        "c1-l002": [
+          "Fox."
+        ],
+        "c1-l006": [
+          "iccô"
+        ],
+        "c1-l031": [
+          "Goqui"
+        ]
+      }
+    },
+    "bnf-f0260": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c1-l006: bou obra is retained because the final vowel of bou looks u-like in this impression; it is not silently emended to boa obra.",
+        "c1-l013: The visible separated form Ichijiq uo is retained; the expected additional i is not supplied without a surviving glyph.",
+        "c2-l010/c2-l012: futçǔ and futçǔno use carons for the damaged u marks. Ichimõ in l012 is read with a nasal tilde rather than a caron.",
+        "c2-l015: xiraru is retained for its r-like printed glyph even though the negative gloss would normally lead one to expect xiranu.",
+        "c2-l021: couſe is adopted for the e-like final vowel of the printed noun; the normal couſa has not been substituted."
+      ],
+      "decision_requests": [],
+      "structural_changes": [
+        {
+          "before": [
+            "h1-l001"
+          ],
+          "after": [
+            "h1-l001"
+          ],
+          "reason": "Corrected the running header from the native scan to I ANTES DO C., restoring misrecognized letters or word spacing."
+        },
+        {
+          "before": [
+            "h2-l001"
+          ],
+          "after": [
+            "h2-l001"
+          ],
+          "reason": "Corrected the running header from the native scan to I ANTES DO C., restoring misrecognized letters or word spacing."
+        },
+        {
+          "before": [
+            "u2b-l001"
+          ],
+          "after": [
+            "u2b-l001"
+          ],
+          "reason": "Reclassified Ichira- as the far-right catchword and replaced OCR display styling with roman; retained its printed terminal hyphen."
+        }
+      ],
+      "typeface_terms": {
+        "c1-l040": [
+          "Ichirin"
+        ],
+        "c1-l041": [
+          "Ichimô"
+        ],
+        "c1-l042": [
+          "Ichifot"
+        ],
+        "c1-l043": [
+          "Ixxi"
+        ],
+        "c2-l001": [
+          "Xix."
+        ],
+        "c2-l040": [
+          "Yacata"
+        ]
+      }
+    }
+  }
+}
