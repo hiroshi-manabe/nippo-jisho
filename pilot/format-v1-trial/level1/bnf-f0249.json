@@ -13,7 +13,7 @@
     "origin": "direct_from_scan",
     "wikisource_used_for_this_trial": false,
     "physical_lineation_checked": true,
-    "status": "scan_confirmed"
+    "status": "context_reviewed"
   },
   "zones": [
     {
@@ -26,16 +26,18 @@
           "runs": [
             {
               "typeface": "display",
-              "text": "G ANTES DO V."
+              "text": "A ANTES DO V."
             }
           ]
         }
-      ]
+      ],
+      "note": "The typeset running header begins with A, not G. A pale handwritten G at its left appears to correct this printing error; that later mark is recorded here as a copy annotation, not substituted into the printed header."
     },
     {
       "id": "column-1",
       "kind": "column",
       "label": "Column 1",
+      "note": "Lexical cross-check: the supplied NINJAL Entry Words Data of Nippojisho, version 202510 (Hideyuki Ohshima; assisting developer Taichi Aida), CC BY 4.0, https://www2.ninjal.ac.jp/textdb_dataset/en/nipp/index.html, was consulted after independent scan reading. It is an attributed lexical aid; the BnF scan governs the transcription and the English notes are reviewer-authored.",
       "lines": [
         {
           "id": "c1-l001",
@@ -48,7 +50,8 @@
               "typeface": "italic",
               "text": " Arroz cozido. He pala-"
             }
-          ]
+          ],
+          "note": "Gugo is equated with meshi, cooked rice. The gloss begins a usage restriction with He pala-; the preceding page's Gugo- is only its catchword and is not added to this headword."
         },
         {
           "id": "c1-l002",
@@ -58,7 +61,8 @@
               "typeface": "italic",
               "text": "ura de molheres."
             }
-          ]
+          ],
+          "note": "Ura completes palaura, followed by de molheres. The dictionary describes this rice-word as women's vocabulary; that historical register attribution is retained."
         },
         {
           "id": "c1-l003",
@@ -71,7 +75,8 @@
               "typeface": "italic",
               "text": " Renda que tem o Dairi particular"
             }
-          ]
+          ],
+          "note": "Gugoriǒ denotes the Dairi's specially assigned revenue for his table. Dairi is a Japanese title inside a Portuguese sentence, not an additional headword."
         },
         {
           "id": "c1-l004",
@@ -81,7 +86,8 @@
               "typeface": "italic",
               "text": "pera arroz de ſua meſa."
             }
-          ]
+          ],
+          "note": "The revenue specifically supplies rice for the ruler's table. This completes the connection between Gugoriǒ and the preceding word for cooked rice."
         },
         {
           "id": "c1-l005",
@@ -94,7 +100,8 @@
               "typeface": "italic",
               "text": " Ignorancia."
             }
-          ]
+          ],
+          "note": "Guguan is glossed simply as ignorance. The guan spelling is retained without expanding or modernizing the historical syllable sequence."
         },
         {
           "id": "c1-l006",
@@ -103,7 +110,8 @@
               "typeface": "roman",
               "text": "Gu-i. Vorocana cocoro. i, Vaga zonbun."
             }
-          ]
+          ],
+          "note": "Gu-i, literally a foolish mind or intention, is explained by waga zonbun, one's own opinion. The internal hyphen distinguishes separate gu and i syllables and must not be discarded as a line-end mark."
         },
         {
           "id": "c1-l007",
@@ -113,7 +121,8 @@
               "typeface": "italic",
               "text": "Meu parecer falando deſi humildemente."
             }
-          ]
+          ],
+          "note": "The Portuguese makes Gu-i a humble expression for my opinion. Deſi remains the printed spelling and spacing; the meaning is self-deprecation rather than condemnation of another person's view."
         },
         {
           "id": "c1-l008",
@@ -126,7 +135,8 @@
               "typeface": "italic",
               "text": " Cinco, & as nos dados."
             }
-          ]
+          ],
+          "note": "Gu ichi names five and an ace on dice. Portuguese as denotes the one-pip face; this is a dice combination rather than the ordinary Japanese counting sequence."
         },
         {
           "id": "c1-l009",
@@ -137,9 +147,14 @@
             },
             {
               "typeface": "italic",
-              "text": " Raro. S."
+              "text": " Raro."
+            },
+            {
+              "typeface": "roman",
+              "text": " S."
             }
-          ]
+          ],
+          "note": "Gǔjen is paired with tamatama and glossed raro, rarely or occasionally. S. marks written usage; the caron belongs over u, not over either vowel of the Japanese synonym."
         },
         {
           "id": "c1-l010",
@@ -152,7 +167,8 @@
               "typeface": "italic",
               "text": " Minha carta falando"
             }
-          ]
+          ],
+          "note": "Gujǒ is waga fumi, my letter. The Portuguese begins the explanation of the humble speaking convention, which is completed below."
         },
         {
           "id": "c1-l011",
@@ -162,7 +178,8 @@
               "typeface": "italic",
               "text": "com humildade."
             }
-          ]
+          ],
+          "note": "Com humildade completes the self-deprecating register note for Gujǒ. It is not a separate sense of carta."
         },
         {
           "id": "c1-l012",
@@ -175,7 +192,8 @@
               "typeface": "italic",
               "text": " Ig-"
             }
-          ]
+          ],
+          "note": "Gumai is explained by orokani, kurashi and the synonym guchi, ignorance. Ig- starts the Portuguese noun on the next row; the punctuation between the Japanese paraphrase and synonym is preserved."
         },
         {
           "id": "c1-l013",
@@ -185,7 +203,8 @@
               "typeface": "italic",
               "text": "norancia."
             }
-          ]
+          ],
+          "note": "Norancia completes Ig-norancia. This is the continuation of Gumai's gloss and contains no omitted Japanese headword."
         },
         {
           "id": "c1-l014",
@@ -198,7 +217,8 @@
               "typeface": "italic",
               "text": " Hũa certa fruita."
             }
-          ]
+          ],
+          "note": "Gumi is described only as a certain fruit. The source's generic botanical statement is retained without importing a species name into either the transcription or the definition."
         },
         {
           "id": "c1-l015",
@@ -211,20 +231,22 @@
               "typeface": "italic",
               "text": " Ignorancia."
             }
-          ]
+          ],
+          "note": "Gumô is another word for guchi, ignorance. The marked long o and the independent entry are retained despite the repeated Portuguese gloss."
         },
         {
           "id": "c1-l016",
           "runs": [
             {
               "typeface": "roman",
-              "text": "Gun. Iculã."
+              "text": "Gun. Icuſa."
             },
             {
               "typeface": "italic",
               "text": " Não ſe vſa perſi ſoo, ſe não cõ-"
             }
-          ]
+          ],
+          "note": "Gun is explained by Icuſa, warfare or an army. The damaged long-s shoulder appears detached above the following a; Icuſa, rather than the draft's Iculã, is the chosen reading from the surviving stem, shoulder and warfare context. This is a nonblocking glyph uncertainty. The following restriction says gun is used in compounds, not alone."
         },
         {
           "id": "c1-l017",
@@ -242,7 +264,8 @@
               "typeface": "italic",
               "text": " Certo nu-"
             }
-          ]
+          ],
+          "note": "Poſto completes cõ-poſto. Ichigun and nigun illustrate one and two military units, with the Portuguese explanation of their personnel continuing below."
         },
         {
           "id": "c1-l018",
@@ -252,7 +275,8 @@
               "typeface": "italic",
               "text": "mero de gente que tem hum eſquadrão, dous,"
             }
-          ]
+          ],
+          "note": "Mero completes numero: the gloss concerns the number of people in one squadron, two, and so on. Its wording does not prescribe a fixed troop strength."
         },
         {
           "id": "c1-l019",
@@ -270,7 +294,8 @@
               "typeface": "italic",
               "text": " Soldados."
             }
-          ]
+          ],
+          "note": "After closing the numerical examples, Gunbiǒ is introduced with the gloss soldiers. It remains on the same physical row after a paragraph mark."
         },
         {
           "id": "c1-l020",
@@ -283,7 +308,8 @@
               "typeface": "italic",
               "text": " Hũa parte, ou comarca do rei-"
             }
-          ]
+          ],
+          "note": "The next Gun is the administrative district, paraphrased as kôri in the historical spelling Couori. Rei- begins reino in the Portuguese geographical definition."
         },
         {
           "id": "c1-l021",
@@ -297,7 +323,8 @@
               "typeface": "roman",
               "text": " Ichigun, ni-"
             }
-          ]
+          ],
+          "note": "No completes reino. The entry again restricts use to combinations such as Ichigun and ni-gun; those forms are examples of counting districts."
         },
         {
           "id": "c1-l022",
@@ -311,7 +338,8 @@
               "typeface": "italic",
               "text": " &c."
             }
-          ]
+          ],
+          "note": "Gun completes nigun, followed by &c. The row is an example continuation, not a third independent Gun headword."
         },
         {
           "id": "c1-l023",
@@ -324,7 +352,8 @@
               "typeface": "italic",
               "text": " Fazer bulir, ou me-"
             }
-          ]
+          ],
+          "note": "Gunamecaxi gives the transitive verb for making something move or stir. Its ſu and aita principal forms are preserved as historical morphology; me- begins menear below."
         },
         {
           "id": "c1-l024",
@@ -332,9 +361,10 @@
           "runs": [
             {
               "typeface": "italic",
-              "text": "near algũa couſa como membro q̃ eſtá como mor-"
+              "text": "near algũa couſa como membro q̃ eſtá como mor"
             }
-          ]
+          ],
+          "note": "Near completes menear. The example is a limb that is almost lifeless or slack; the scan has no visible hyphen after mor, so the original unmarked division before tal is retained."
         },
         {
           "id": "c1-l025",
@@ -344,7 +374,8 @@
               "typeface": "italic",
               "text": "tal, froxo, &c."
             }
-          ]
+          ],
+          "note": "Tal completes mortal from the unhyphenated preceding row; froxo adds slack or weak. These adjectives explain the sort of limb movement meant by Gunamecaxi."
         },
         {
           "id": "c1-l026",
@@ -357,7 +388,8 @@
               "typeface": "italic",
               "text": " Bulirſe, ou mouerſe de-"
             }
-          ]
+          ],
+          "note": "Gunameqi is the corresponding intransitive action, moving or stirring in that manner. The principal forms u and eita are retained without modernizing the inflection."
         },
         {
           "id": "c1-l027",
@@ -369,13 +401,14 @@
             },
             {
               "typeface": "roman",
-              "text": " ¶ Gunagunato furu."
+              "text": " ¶ Gunagunato ſuru."
             },
             {
               "typeface": "italic",
               "text": " Idẽ."
             }
-          ]
+          ],
+          "note": "The phrase Gunagunato ſuru gives the same action with an expressive adverb. The scan shows long s without an f crossbar, correcting furu; Idẽ abbreviates the repeated gloss."
         },
         {
           "id": "c1-l028",
@@ -388,7 +421,8 @@
               "typeface": "italic",
               "text": " Agoureiro da guerra, que diz o dia"
             }
-          ]
+          ],
+          "note": "Gunbai is described here as a military diviner who chooses an auspicious day. The source defines a person, not the modern familiar object sense of the commander's fan."
         },
         {
           "id": "c1-l029",
@@ -398,20 +432,22 @@
               "typeface": "italic",
               "text": "em que ſe ha de partir, dar batalha, &c."
             }
-          ]
+          ],
+          "note": "The diviner chooses when to depart or fight a battle. This completes the role described under Gunbai, with the original &c. left unexpanded."
         },
         {
           "id": "c1-l030",
           "runs": [
             {
               "typeface": "roman",
-              "text": "Gunbiǒ. Icuſano tçuuanomono."
+              "text": "Gunbiǒ. Icuſano tçuuamono."
             },
             {
               "typeface": "italic",
               "text": " Soldados, ou"
             }
-          ]
+          ],
+          "note": "Gunbiǒ is ikusa no tsuwamono, soldiers or warriors. Enlargement shows tçuuamono, without the extra no in the draft tçuuanomono; the Portuguese confirms the military-personnel sense."
         },
         {
           "id": "c1-l031",
@@ -421,7 +457,8 @@
               "typeface": "italic",
               "text": "gente de guerra."
             }
-          ]
+          ],
+          "note": "Gente de guerra completes the gloss soldiers or fighting people. It is continuing Portuguese text rather than another Japanese synonym."
         },
         {
           "id": "c1-l032",
@@ -434,7 +471,8 @@
               "typeface": "italic",
               "text": " Bando de paſſaros."
             }
-          ]
+          ],
+          "note": "Gunchô is a flock of birds, paraphrased as muragaru tori. The circumflex is visible in the headword; the revised crop also restores the full left edge of the capital G."
         },
         {
           "id": "c1-l033",
@@ -446,9 +484,10 @@
             },
             {
               "typeface": "roman",
-              "text": " Gunchǒ ſayezzuru coto mimini michi"
+              "text": " Gunchô ſayezzuru coto mimini michi"
             }
-          ]
+          ],
+          "note": "The example describes a flock's chirping filling the ears. The scan repeats Gunchô with a circumflex, not the draft's caron; michi continues into tari below."
         },
         {
           "id": "c1-l034",
@@ -460,9 +499,10 @@
             },
             {
               "typeface": "italic",
-              "text": " O bando de paſſaros faz grande traqui-"
+              "text": " O bando de paſſaros faz grande traqui"
             }
-          ]
+          ],
+          "note": "Tari completes michitari, being filled. Portuguese traqui continues without a printed hyphen into nada; the absent terminal mark is not supplied merely because the word is divided."
         },
         {
           "id": "c1-l035",
@@ -470,9 +510,14 @@
           "runs": [
             {
               "typeface": "italic",
-              "text": "nada nos ouuidos cantando. S."
+              "text": "nada nos ouuidos cantando."
+            },
+            {
+              "typeface": "roman",
+              "text": " S."
             }
-          ]
+          ],
+          "note": "Nada completes traquinada, the noisy bustle of singing birds in the ears. S. is the separate written-usage label, not part of the italic translation."
         },
         {
           "id": "c1-l036",
@@ -485,7 +530,8 @@
               "typeface": "italic",
               "text": " Seruiço feito na"
             }
-          ]
+          ],
+          "note": "This Gunchǔ means loyal service in war, explained by ikusa no chǔxet. Final t is a checked ending in the Japanese synonym, not an incomplete Portuguese word."
         },
         {
           "id": "c1-l037",
@@ -493,9 +539,14 @@
           "runs": [
             {
               "typeface": "italic",
-              "text": "guerra. S."
+              "text": "guerra."
+            },
+            {
+              "typeface": "roman",
+              "text": " S."
             }
-          ]
+          ],
+          "note": "Guerra completes the war-service definition. The independent S. marks the expression as written usage and is kept outside the italic gloss."
         },
         {
           "id": "c1-l038",
@@ -508,7 +559,8 @@
               "typeface": "italic",
               "text": " Dentro na guerra, ou"
             }
-          ]
+          ],
+          "note": "A second Gunchǔ means within a war or battle, from ikusa no naka. It is a separate homophone rather than a continuation of the loyal-service meaning."
         },
         {
           "id": "c1-l039",
@@ -518,7 +570,8 @@
               "typeface": "italic",
               "text": "batalha."
             }
-          ]
+          ],
+          "note": "Batalha completes the alternative Portuguese wording for war or battle. This short continuation belongs to the second Gunchǔ entry."
         },
         {
           "id": "c1-l040",
@@ -531,7 +584,8 @@
               "typeface": "italic",
               "text": " Meo da comarca,"
             }
-          ]
+          ],
+          "note": "A third Gunchǔ is the interior of a district, paraphrased as kôri no naka in the printed Couorino form. The administrative sense of gun is distinct from the military sense above."
         },
         {
           "id": "c1-l041",
@@ -541,20 +595,22 @@
               "typeface": "italic",
               "text": "ou parte do reino."
             }
-          ]
+          ],
+          "note": "Ou parte do reino completes the district description. The entry concerns location within an administrative region, not service rendered to it."
         },
         {
           "id": "c1-l042",
           "runs": [
             {
               "typeface": "roman",
-              "text": "Guncô. Icuſano chǔcǒ."
+              "text": "Guncô. Icuſano chǔcô."
             },
             {
               "typeface": "italic",
               "text": " Seruiços feitos na"
             }
-          ]
+          ],
+          "note": "Guncô denotes services in war, explained by ikusa no chǔcô. Both final o marks are circumflexes in the scan; the draft's caron in chǔcǒ is corrected."
         },
         {
           "id": "c1-l043",
@@ -562,9 +618,14 @@
           "runs": [
             {
               "typeface": "italic",
-              "text": "guerra. S."
+              "text": "guerra."
+            },
+            {
+              "typeface": "roman",
+              "text": " S."
             }
-          ]
+          ],
+          "note": "Guerra completes the definition of military services. The following S. is the upright written-register label and remains distinct from the Portuguese sentence."
         },
         {
           "id": "c1-l044",
@@ -581,7 +642,8 @@
               "typeface": "roman",
               "text": " Gunco-"
             }
-          ]
+          ],
+          "note": "Guncocu denotes lands and kingdoms. The example begins Gunco-, with a visible terminal hyphen, and continues as the object of mauaru below."
         },
         {
           "id": "c1-l045",
@@ -595,7 +657,8 @@
               "typeface": "italic",
               "text": " Correr muitas terras, &"
             }
-          ]
+          ],
+          "note": "Guncocu wo mawaru means travelling through many lands and kingdoms. The physical split Gunco-cuuo is retained rather than joining the original lines."
         },
         {
           "id": "c1-l046",
@@ -605,7 +668,8 @@
               "typeface": "italic",
               "text": "reinos."
             }
-          ]
+          ],
+          "note": "Reinos completes the travel example's Portuguese list. This is a body continuation, not a column catchword."
         },
         {
           "id": "c1-l047",
@@ -616,9 +680,10 @@
             },
             {
               "typeface": "italic",
-              "text": " Feitor dalgũa comar-"
+              "text": " Feitor dalgũa comar"
             }
-          ]
+          ],
+          "note": "Gundai is a district administrator, paraphrased as kôri no dai. The print ends at comar without a hyphen; the crop is widened leftward to include the whole headword and outer-rule context."
         },
         {
           "id": "c1-l048",
@@ -628,7 +693,8 @@
               "typeface": "italic",
               "text": "ca do reino."
             }
-          ]
+          ],
+          "note": "Ca completes comarca from the preceding row, finishing the description of an administrator for a district of the kingdom. This is the last body row of column 1."
         }
       ]
     },
@@ -646,7 +712,7 @@
             },
             {
               "typeface": "display",
-              "text": "123",
+              "text": "123.",
               "placement": "far-right"
             }
           ]
@@ -669,7 +735,8 @@
               "typeface": "italic",
               "text": " Mouerſe muita"
             }
-          ]
+          ],
+          "note": "Gundô is collective movement, paraphrased as muragari ugoku. The final consonant in vgoqu is q, matching the historical spelling of ugoku rather than introducing another g."
         },
         {
           "id": "c2-l002",
@@ -677,9 +744,14 @@
           "runs": [
             {
               "typeface": "italic",
-              "text": "gente junta. S."
+              "text": "gente junta."
+            },
+            {
+              "typeface": "roman",
+              "text": " S."
             }
-          ]
+          ],
+          "note": "Many people moving together completes the definition. S. is the separate written-usage label, not part of the italic phrase gente junta."
         },
         {
           "id": "c2-l003",
@@ -692,7 +764,8 @@
               "typeface": "italic",
               "text": " Alcançar, ou buſcar"
             }
-          ]
+          ],
+          "note": "Gunen is glossed by motomuru, seeking or desiring to attain something. The Portuguese alternative buſcar takes its qualifying phrase on the next row."
         },
         {
           "id": "c2-l004",
@@ -702,7 +775,8 @@
               "typeface": "italic",
               "text": "com o deſejo."
             }
-          ]
+          ],
+          "note": "Com o deſejo specifies pursuit in desire. This completes the definition rather than asserting that the desired object has already been obtained."
         },
         {
           "id": "c2-l005",
@@ -715,20 +789,22 @@
               "typeface": "italic",
               "text": " Exercito, ou arrayal."
             }
-          ]
+          ],
+          "note": "Gungin is ikusa no jin, an army or military camp. The spelling gin is retained as printed, rather than normalized to the neighboring Gunjin form with a different meaning."
         },
         {
           "id": "c2-l006",
           "runs": [
             {
               "typeface": "roman",
-              "text": "Gungǒ. Couoriro gǒ."
+              "text": "Gungǒ. Couorito gǒ."
             },
             {
               "typeface": "italic",
               "text": " Comarca, ou parte"
             }
-          ]
+          ],
+          "note": "Gungǒ is paraphrased as Couorito gǒ, kôri and gô. The scan's t replaces the draft's r; the following Portuguese distinguishes two levels of territorial division, supporting the conjunction to."
         },
         {
           "id": "c2-l007",
@@ -736,9 +812,18 @@
           "runs": [
             {
               "typeface": "italic",
-              "text": "do reino que ſe chama, Gun, & outra parte ſome-"
+              "text": "do reino que ſe chama,"
+            },
+            {
+              "typeface": "roman",
+              "text": " Gun,"
+            },
+            {
+              "typeface": "italic",
+              "text": " & outra parte ſome"
             }
-          ]
+          ],
+          "note": "The larger district is called Gun, a Japanese term visibly embedded in the Portuguese explanation. The row ends at ſome without a hyphen; the comparison with the smaller division continues below."
         },
         {
           "id": "c2-l008",
@@ -746,9 +831,14 @@
           "runs": [
             {
               "typeface": "italic",
-              "text": "nos que ſe chama, Gǒ."
+              "text": "nos que ſe chama,"
+            },
+            {
+              "typeface": "roman",
+              "text": " Gǒ."
             }
-          ]
+          ],
+          "note": "Nos completes ſomenos, describing the smaller territorial division called Gǒ. Gǒ is visibly upright within the Portuguese sentence, and its caron is retained."
         },
         {
           "id": "c2-l009",
@@ -761,7 +851,8 @@
               "typeface": "italic",
               "text": " Cardume de pei-"
             }
-          ]
+          ],
+          "note": "Gunguio is a school of fish, explained by muragaru uo. The initial vuo is the historical spelling of fish, and pei- begins Portuguese peixes below."
         },
         {
           "id": "c2-l010",
@@ -779,7 +870,8 @@
               "typeface": "italic",
               "text": " O"
             }
-          ]
+          ],
+          "note": "Xes completes peixes. The example describes the school floating or moving at the surface of the waves; its Portuguese translation begins with O at the row end."
         },
         {
           "id": "c2-l011",
@@ -787,9 +879,14 @@
           "runs": [
             {
               "typeface": "italic",
-              "text": "cardume de peixe anda ao lume dagoa. S."
+              "text": "cardume de peixe anda ao lume dagoa."
+            },
+            {
+              "typeface": "roman",
+              "text": " S."
             }
-          ]
+          ],
+          "note": "The fish are at the water's surface, ao lume dagoa. The final S. is a written-register label, and the historical joined dagoa is preserved."
         },
         {
           "id": "c2-l012",
@@ -802,7 +899,8 @@
               "typeface": "italic",
               "text": " Muitas pedras"
             }
-          ]
+          ],
+          "note": "Gunguiocu denotes gathered jewels, paraphrased as muragaru tama. The Portuguese expression muitas pedras continues into preciosas on the next row."
         },
         {
           "id": "c2-l013",
@@ -812,7 +910,8 @@
               "typeface": "italic",
               "text": "precioſas juntas."
             }
-          ]
+          ],
+          "note": "Precioſas juntas completes the description of many precious stones together. This is a continuation of the collective jewel-name entry."
         },
         {
           "id": "c2-l014",
@@ -825,7 +924,8 @@
               "typeface": "italic",
               "text": " Dous, & cinco nos dados."
             }
-          ]
+          ],
+          "note": "Guni names the two-and-five combination on dice. Its short gloss is a gaming use, distinct from the expressions with gu and the particle ni on the preceding page."
         },
         {
           "id": "c2-l015",
@@ -838,7 +938,8 @@
               "typeface": "italic",
               "text": " Ignorante. Vt,"
             }
-          ]
+          ],
+          "note": "Gunin is an ignorant or foolish person, explained by orokana hito. Vt introduces the proverbial insect-and-fire comparison below."
         },
         {
           "id": "c2-l016",
@@ -852,7 +953,8 @@
               "typeface": "italic",
               "text": " O"
             }
-          ]
+          ],
+          "note": "The fool is likened to a summer insect flying into a fire. The printed Japanese sentence, including fini for hi ni, remains intact rather than being replaced with a modernized proverb."
         },
         {
           "id": "c2-l017",
@@ -862,7 +964,8 @@
               "typeface": "italic",
               "text": "neſcio he como a borboleta do eſtio, que che-"
             }
-          ]
+          ],
+          "note": "Portuguese describes a summer butterfly approaching the fire. Che- begins chegandoſe, and the insect's action continues below."
         },
         {
           "id": "c2-l018",
@@ -872,7 +975,8 @@
               "typeface": "italic",
               "text": "gandoſe ao fogo voando, ſe queima. Enten-"
             }
-          ]
+          ],
+          "note": "The flying insect approaches the fire and burns itself. Enten- begins the source's explanation of how the comparison is to be understood."
         },
         {
           "id": "c2-l019",
@@ -882,7 +986,8 @@
               "typeface": "italic",
               "text": "deſe de hum cobiçoſo, ladrão, &c. que ain-"
             }
-          ]
+          ],
+          "note": "Deſe completes Entendeſe. The source applies the comparison to a greedy person or thief, with ain- starting ainda across the break."
         },
         {
           "id": "c2-l020",
@@ -892,7 +997,8 @@
               "typeface": "italic",
               "text": "da que ſabe, que o ande matar, toda via furta."
             }
-          ]
+          ],
+          "note": "Da completes ainda: the thief steals despite knowing he will be killed. Ande and toda via retain the source's historical spelling and spacing rather than being rewritten as modern Portuguese."
         },
         {
           "id": "c2-l021",
@@ -905,7 +1011,8 @@
               "typeface": "italic",
               "text": " Gente de guerra, ou multidão de ſol-"
             }
-          ]
+          ],
+          "note": "Gunjei denotes fighting people or a multitude of soldiers. The final ſol- begins soldados and has a visible line-end mark."
         },
         {
           "id": "c2-l022",
@@ -915,7 +1022,8 @@
               "typeface": "italic",
               "text": "dados."
             }
-          ]
+          ],
+          "note": "Dados completes ſoldados. This short row finishes Gunjei's collective-military definition; no separate Japanese entry begins here."
         },
         {
           "id": "c2-l023",
@@ -928,7 +1036,8 @@
               "typeface": "italic",
               "text": " Antes da guerra."
             }
-          ]
+          ],
+          "note": "Gunjen means before a war, explained by ikusa no mae. The example that follows concerns preparations before fighting, not a location at the front of a formation."
         },
         {
           "id": "c2-l024",
@@ -946,7 +1055,8 @@
               "typeface": "italic",
               "text": " Antes da"
             }
-          ]
+          ],
+          "note": "Gunjenni kate wo hakaru means calculating provisions before war. The Portuguese translation starts Antes da and continues with the necessary food supply below."
         },
         {
           "id": "c2-l025",
@@ -954,9 +1064,10 @@
           "runs": [
             {
               "typeface": "italic",
-              "text": "guerra lançar conta ao mantimento que he neceſ-"
+              "text": "guerra lançar conta ao mantimento que he neceſ"
             }
-          ]
+          ],
+          "note": "The example concerns calculating the food necessary for the army before war. Neceſ continues into ſario without a visible terminal hyphen; no hyphen is supplied from the expected word."
         },
         {
           "id": "c2-l026",
@@ -964,9 +1075,14 @@
           "runs": [
             {
               "typeface": "italic",
-              "text": "ſario pera tanta gente. S."
+              "text": "ſario pera tanta gente."
+            },
+            {
+              "typeface": "roman",
+              "text": " S."
             }
-          ]
+          ],
+          "note": "Sario completes neceſſario, followed by enough provisions for so many people. S. is the written-usage label, distinct from the italic translation."
         },
         {
           "id": "c2-l027",
@@ -979,7 +1095,8 @@
               "typeface": "italic",
               "text": " Marte, ou Cami da"
             }
-          ]
+          ],
+          "note": "Gunjin is ikusa-gami, a war deity, compared by the Portuguese compiler to Mars. Cami is a Japanese noun embedded in the Portuguese phrase Cami da guerra, rather than a second headword."
         },
         {
           "id": "c2-l028",
@@ -1001,7 +1118,8 @@
               "span_id": "word",
               "placement": "far-right"
             }
-          ]
+          ],
+          "note": "Guerra completes the war-deity gloss. The parenthesis and o homem at the right belong semantically to the next entry's exclusion of humans, but their displaced physical position is preserved."
         },
         {
           "id": "c2-l029",
@@ -1014,7 +1132,8 @@
               "typeface": "italic",
               "text": " Todos os viuentes ſenſitiuos tirando"
             }
-          ]
+          ],
+          "note": "Gunjǒ is defined as all sentient living beings except humans. The excluded o homem is printed at the previous row's right edge, already represented by named displaced spans rather than silently moved here."
         },
         {
           "id": "c2-l030",
@@ -1027,7 +1146,8 @@
               "typeface": "italic",
               "text": " Cortinas que ſeruem no exercito eſ-"
             }
-          ]
+          ],
+          "note": "Gunmacu denotes military curtains or screens. The Portuguese describes their use in an army, with eſ- beginning eſtendidas on the next row."
         },
         {
           "id": "c2-l031",
@@ -1041,7 +1161,8 @@
               "typeface": "roman",
               "text": " ¶ Gunma-"
             }
-          ]
+          ],
+          "note": "The screens are stretched out bearing a painted emblem. Gunma- then begins the Japanese example, preserving the visible hyphen at the edge."
         },
         {
           "id": "c2-l032",
@@ -1055,7 +1176,8 @@
               "typeface": "italic",
               "text": " Eſtender eſtas cortinas."
             }
-          ]
+          ],
+          "note": "Cuuo faru completes gunmaku wo haru, stretching out the military screens. The Portuguese repeats the action with eſtender eſtas cortinas."
         },
         {
           "id": "c2-l033",
@@ -1068,21 +1190,19 @@
               "typeface": "italic",
               "text": " Dentro de hum"
             }
-          ]
+          ],
+          "note": "Gunnai means inside a district, paraphrased as kôri no uchi. The Portuguese construction Dentro de hum takes its district noun on the next row."
         },
         {
           "id": "c2-l034",
           "indent": 1,
           "runs": [
             {
-              "typeface": "roman",
-              "text": "Gun. i,"
-            },
-            {
               "typeface": "italic",
-              "text": " Certa comarca do reino."
+              "text": "Gun. i, Certa comarca do reino."
             }
-          ]
+          ],
+          "note": "Gun completes the Portuguese phrase inside a Gun, followed by an explanation of the district. In this occurrence Gun and the explanatory i are visibly italic; the embedded term is nevertheless marked for optional human font review."
         },
         {
           "id": "c2-l035",
@@ -1095,7 +1215,8 @@
               "typeface": "italic",
               "text": " Certa laya de peles."
             }
-          ]
+          ],
+          "note": "This Gunome is a kind of hide or leather. The gloss does not specify the processing method or animal, so neither is supplied."
         },
         {
           "id": "c2-l036",
@@ -1110,23 +1231,33 @@
             },
             {
               "typeface": "roman",
-              "text": " ¶ Itẽ,"
+              "text": " ¶"
+            },
+            {
+              "typeface": "italic",
+              "text": " Itẽ,"
             }
-          ]
+          ],
+          "note": "The separate Gunome denotes the five pips on dice. Itẽ is the Portuguese editorial word Item, not Japanese iten; its italic type and abbreviation mark are retained."
         },
         {
           "id": "c2-l037",
           "indent": 1,
           "runs": [
             {
+              "typeface": "italic",
+              "text": "Permet."
+            },
+            {
               "typeface": "roman",
-              "text": "Permei. Gunomeni monouo ſuru."
+              "text": " Gunomeni monouo ſuru."
             },
             {
               "typeface": "italic",
               "text": " Fazer"
             }
-          ]
+          ],
+          "note": "Permet. introduces a figurative extension of the dice pattern; the scan supports final t rather than the draft's i. Gunomeni monouo ſuru illustrates making something in that pattern."
         },
         {
           "id": "c2-l038",
@@ -1136,7 +1267,8 @@
               "typeface": "italic",
               "text": "algũa couſa com lauor, ou pintura de cinco"
             }
-          ]
+          ],
+          "note": "The object has worked or painted ornament with five points. This is the Portuguese explanation of the Gunome-pattern example, continued below."
         },
         {
           "id": "c2-l039",
@@ -1146,7 +1278,8 @@
               "typeface": "italic",
               "text": "quinas à maneira dos cinco pontos dos dados."
             }
-          ]
+          ],
+          "note": "The five points are arranged like the five pips of a die. The comparison completes the design description without imposing a modern technical decorative term."
         },
         {
           "id": "c2-l040",
@@ -1159,7 +1292,8 @@
               "typeface": "italic",
               "text": " Certas cortinas q̃"
             }
-          ]
+          ],
+          "note": "Gunpacu, explained by ikusa no maku, is another military-screen word. The abbreviated q̃ introduces the relative clause describing these curtains."
         },
         {
           "id": "c2-l041",
@@ -1169,7 +1303,8 @@
               "typeface": "italic",
               "text": "com adiuiſa de cada hum ſe eſtendem nos ran-"
             }
-          ]
+          ],
+          "note": "Each screen bears its owner's emblem and is extended in the quarters. The abrasion within cada does not prevent reading the word; the line-end ran- is visibly divided before chos."
         },
         {
           "id": "c2-l042",
@@ -1177,9 +1312,14 @@
           "runs": [
             {
               "typeface": "italic",
-              "text": "chos onde ſe aloja o exercito. S."
+              "text": "chos onde ſe aloja o exercito."
+            },
+            {
+              "typeface": "roman",
+              "text": " S."
             }
-          ]
+          ],
+          "note": "Chos completes ranchos, where the army lodges. S. is the separate written-register label following the completed definition."
         },
         {
           "id": "c2-l043",
@@ -1192,7 +1332,8 @@
               "typeface": "italic",
               "text": " Iunto do arrayal."
             }
-          ]
+          ],
+          "note": "Gunpen is the vicinity of the military camp, paraphrased as ikusa no hotori. The Portuguese junto do arrayal confirms the locative sense."
         },
         {
           "id": "c2-l044",
@@ -1205,7 +1346,8 @@
               "typeface": "italic",
               "text": " Bando de paſſaros q̃"
             }
-          ]
+          ],
+          "note": "Gunpi describes a flock in flight, explained by muragari tobu. The abbreviated q̃ introduces the relative clause on the following row."
         },
         {
           "id": "c2-l045",
@@ -1213,9 +1355,14 @@
           "runs": [
             {
               "typeface": "italic",
-              "text": "voão juntos. S."
+              "text": "voão juntos."
+            },
+            {
+              "typeface": "roman",
+              "text": " S."
             }
-          ]
+          ],
+          "note": "The birds fly together, completing the flock definition. S. is the written-use label rather than an italic part of the sentence."
         },
         {
           "id": "c2-l046",
@@ -1228,7 +1375,8 @@
               "typeface": "italic",
               "text": " Partes, ou comarcas"
             }
-          ]
+          ],
+          "note": "Gunpǒ is explained by Gun and couori as parts or districts. These are Japanese synonyms, not terms syntactically embedded in the Portuguese gloss."
         },
         {
           "id": "c2-l047",
@@ -1236,9 +1384,14 @@
           "runs": [
             {
               "typeface": "italic",
-              "text": "do reino. S."
+              "text": "do reino."
+            },
+            {
+              "typeface": "roman",
+              "text": " S."
             }
-          ]
+          ],
+          "note": "Do reino completes the district definition, with S. marking written use. The signature and lower-right Gun- below this row are page furniture, not additional body lines."
         }
       ]
     },

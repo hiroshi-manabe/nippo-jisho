@@ -13,7 +13,7 @@
     "origin": "direct_from_scan",
     "wikisource_used_for_this_trial": false,
     "physical_lineation_checked": true,
-    "status": "trial_reviewed"
+    "status": "context_reviewed"
   },
   "zones": [
     {
@@ -36,9 +36,11 @@
       "id": "column-1",
       "kind": "column",
       "label": "Column 1",
+      "note": "Lexical cross-check: the supplied NINJAL Entry Words Data of Nippojisho, version 202510 (Hideyuki Ohshima; assisting developer Taichi Aida), CC BY 4.0, https://www2.ninjal.ac.jp/textdb_dataset/en/nipp/index.html, was consulted after independent scan reading. It is an attributed lexical aid; the BnF scan governs the transcription and the English notes are reviewer-authored.",
       "lines": [
         {
           "id": "c1-l001",
+          "indent": 1,
           "runs": [
             {
               "typeface": "roman",
@@ -52,7 +54,8 @@
               "typeface": "roman",
               "text": " ¶ Goxǒ"
             }
-          ]
+          ],
+          "note": "Gosho wo tasukaru is glossed as being saved; this continues an entry from the preceding page. The paragraph mark introduces another example beginning Goxǒ, not a new headword. The visibly indented opening row is now marked as a continuation."
         },
         {
           "id": "c1-l002",
@@ -66,7 +69,8 @@
               "typeface": "italic",
               "text": " Fazer obras,"
             }
-          ]
+          ],
+          "note": "Bodai no tsutome wo nasu completes the example about performing religious works or exercises for enlightenment. The Portuguese translation starts with fazer obras and continues below."
         },
         {
           "id": "c1-l003",
@@ -76,7 +80,8 @@
               "typeface": "italic",
               "text": "& exercicios, que ſeruem pera a outra vida,"
             }
-          ]
+          ],
+          "note": "The exercises are said to serve the next life. This continues the Portuguese translation of the religious practice above, rather than supplying a separate definition."
         },
         {
           "id": "c1-l004",
@@ -90,7 +95,8 @@
               "typeface": "roman",
               "text": " ¶ Conjǒ goxǒ tomoni."
             }
-          ]
+          ],
+          "note": "Saluação completes the translation. Conjo gosho tomoni then pairs the present and future lives; the two carons and the example's physical placement are retained."
         },
         {
           "id": "c1-l005",
@@ -100,7 +106,8 @@
               "typeface": "italic",
               "text": "Neſta, & na outra vida, ou no temporal,"
             }
-          ]
+          ],
+          "note": "The Portuguese renders the example as in this life and the next, or in temporal matters and the spiritual sphere. The last contrast continues onto the following row."
         },
         {
           "id": "c1-l006",
@@ -110,7 +117,8 @@
               "typeface": "italic",
               "text": "& eſpiritual."
             }
-          ]
+          ],
+          "note": "E espiritual completes temporal e espiritual. Although short, this is an independent physical continuation line and not a heading or catchword."
         },
         {
           "id": "c1-l007",
@@ -123,7 +131,8 @@
               "typeface": "italic",
               "text": " Cinco eſpecies de"
             }
-          ]
+          ],
+          "note": "This separate Goxǒ is the five hindrances, explained by itsutsu no sawari. The Portuguese begins a definition of five kinds of impediment, distinct from the preceding next-life sense."
         },
         {
           "id": "c1-l008",
@@ -133,7 +142,8 @@
               "typeface": "italic",
               "text": "impedimentos que tem as molheres pera certas"
             }
-          ]
+          ],
+          "note": "The gloss attributes those impediments to women within the Buddhist doctrine being described. This is the dictionary's historical description, not an assertion of the reviewer's beliefs."
         },
         {
           "id": "c1-l009",
@@ -141,31 +151,25 @@
           "runs": [
             {
               "typeface": "italic",
-              "text": "couſas da ſaluação como pera ſe fazerem"
-            },
-            {
-              "typeface": "roman",
-              "text": " Foto-"
+              "text": "couſas da ſaluação como pera ſe fazerem Foto-"
             }
-          ]
+          ],
+          "note": "The definition specifies impediments to religious attainment, including becoming a Buddha. Foto- is the beginning of the Japanese term within the Portuguese explanation, continued on the next row; it is printed in italic."
         },
         {
           "id": "c1-l010",
           "indent": 1,
           "runs": [
             {
-              "typeface": "roman",
-              "text": "ques,"
-            },
-            {
               "typeface": "italic",
-              "text": " &c."
+              "text": "ques, &c."
             },
             {
               "typeface": "roman",
               "text": " Bup."
             }
-          ]
+          ],
+          "note": "Ques completes the divided Foto-ques, with a Portuguese plural ending. Ques remains in italic with the Portuguese gloss, whereas Bup. is upright and labels Buddhist terminology."
         },
         {
           "id": "c1-l011",
@@ -178,21 +182,19 @@
               "typeface": "italic",
               "text": " Paços do Cubǒ, ou Rey que tem feito"
             }
-          ]
+          ],
+          "note": "Gosho denotes the palace of the Cubǒ or of a ruler who has retired. Cubǒ is a Japanese title embedded in the Portuguese gloss; the retirement construction continues below."
         },
         {
           "id": "c1-l012",
           "indent": 1,
           "runs": [
             {
-              "typeface": "roman",
-              "text": "Inquio."
-            },
-            {
               "typeface": "italic",
-              "text": " ¶ Item, O meſmo Cubǒ."
+              "text": "Inquio. ¶ Item, O meſmo Cubǒ."
             }
-          ]
+          ],
+          "note": "The italic Inquio completes ter feito Inquio, referring to retirement. The second sense applies the palace designation to the Cubǒ himself, so this row contains two embedded Japanese terms rather than new headwords."
         },
         {
           "id": "c1-l013",
@@ -205,7 +207,8 @@
               "typeface": "italic",
               "text": " Lugar excellentiſſimo como"
             }
-          ]
+          ],
+          "note": "Gosho zensho names an exceptionally excellent place. The Portuguese superlative is followed by a comparison on the next row; jenxo is the regular historical spelling for zensho, not an anomalous j."
         },
         {
           "id": "c1-l014",
@@ -215,7 +218,8 @@
               "typeface": "italic",
               "text": "paraiſo."
             }
-          ]
+          ],
+          "note": "Paraiſo completes the comparison with paradise. The short italic continuation belongs to Goxǒ jenxo and has not been promoted to an independent entry."
         },
         {
           "id": "c1-l015",
@@ -228,7 +232,8 @@
               "typeface": "italic",
               "text": " Vinho falando com reſpeito."
             }
-          ]
+          ],
+          "note": "Goshu is respectful language for sake, paraphrased as on sake. Portuguese vinho is the dictionary's beverage gloss; it does not require the Japanese referent to be grape wine."
         },
         {
           "id": "c1-l016",
@@ -241,7 +246,8 @@
               "typeface": "italic",
               "text": " Embaraços,"
             }
-          ]
+          ],
+          "note": "Gossho is explained by akugo no sawari, impediments arising from evil deeds. The double x and the distinct vowel marks are retained rather than assimilating this entry to Goxǒ above."
         },
         {
           "id": "c1-l017",
@@ -251,7 +257,8 @@
               "typeface": "italic",
               "text": "ou impedimentos que nacem do peccado."
             }
-          ]
+          ],
+          "note": "The impediments arise from sin, completing the Portuguese definition of Goxxǒ. Nacem is retained as printed rather than modernized to nascem."
         },
         {
           "id": "c1-l018",
@@ -264,7 +271,8 @@
               "typeface": "italic",
               "text": " Mea noite."
             }
-          ]
+          ],
+          "note": "Goya is paired with yahan and glossed as midnight. Yafan uses the ordinary historical f for the h-row sound; it is not an f/long-s recognition error."
         },
         {
           "id": "c1-l019",
@@ -277,7 +285,8 @@
               "typeface": "italic",
               "text": " Imagem pintada, falando"
             }
-          ]
+          ],
+          "note": "Goyei, paraphrased as mikage, denotes a painted image mentioned reverentially. The register qualification continues below, so the row does not merely define any painting."
         },
         {
           "id": "c1-l020",
@@ -291,7 +300,8 @@
               "typeface": "roman",
               "text": " Miyei."
             }
-          ]
+          ],
+          "note": "The gloss specifies respectful usage and gives Miyei as the Cami-region form. Cami is embedded in Portuguese, and Miyei is the word named by the Portuguese reporting clause."
         },
         {
           "id": "c1-l021",
@@ -304,7 +314,8 @@
               "typeface": "italic",
               "text": " Grande, & poderoſa"
             }
-          ]
+          ],
+          "note": "Gǒyen is a strong connection or powerful friendship, paraphrased as tsuyoi en. The following example concerns relying on an influential ally, rather than friendship in a purely emotional sense."
         },
         {
           "id": "c1-l022",
@@ -318,7 +329,8 @@
               "typeface": "roman",
               "text": " Gǒyẽuo motte tanomu."
             }
-          ]
+          ],
+          "note": "Gǒyẽuo motte tanomu means appealing through a strong connection. The abbreviation tilde belongs over e in yẽ, distinct from the caron over the headword's long o; Vt is italic."
         },
         {
           "id": "c1-l023",
@@ -328,7 +340,8 @@
               "typeface": "italic",
               "text": "Rogar algum amigo mais forte, & poderoſo"
             }
-          ]
+          ],
+          "note": "The Portuguese explains requesting help from a stronger, more powerful friend. This supplies the practical sense of the Japanese example begun above."
         },
         {
           "id": "c1-l024",
@@ -338,7 +351,8 @@
               "typeface": "italic",
               "text": "pera que com ſeu fauor vença algũa demanda,"
             }
-          ]
+          ],
+          "note": "The friend's favour is sought to prevail in a claim or dispute. The printed algũa is retained with the tilde over u, and the purpose clause continues below."
         },
         {
           "id": "c1-l025",
@@ -348,7 +362,8 @@
               "typeface": "italic",
               "text": "ou, poſſa contra o competidor, &c."
             }
-          ]
+          ],
+          "note": "The alternative outcome is prevailing against a competitor. This completes the strong-patron example; the source's punctuation is not regularized to modern prose conventions."
         },
         {
           "id": "c1-l026",
@@ -361,7 +376,8 @@
               "typeface": "italic",
               "text": " Neceſſidade, ou negocio de peſſoa"
             }
-          ]
+          ],
+          "note": "This Goyô is a need or business belonging to a respected person. Its honorific interpretation is completed by honrada on the following row."
         },
         {
           "id": "c1-l027",
@@ -371,7 +387,8 @@
               "typeface": "italic",
               "text": "honrada."
             }
-          ]
+          ],
+          "note": "Honrada modifies peſſoa from the previous row. It supplies the social distinction in the definition, rather than forming a separate gloss."
         },
         {
           "id": "c1-l028",
@@ -384,7 +401,8 @@
               "typeface": "italic",
               "text": " Folha que tem em ſi cin-"
             }
-          ]
+          ],
+          "note": "The next Goyô is five leaves, explicitly paraphrased as itsutsu no ha. It is a separate homophonous entry; cin- begins Portuguese cinco across the physical break."
         },
         {
           "id": "c1-l029",
@@ -402,7 +420,8 @@
               "typeface": "italic",
               "text": " Pinheiro que"
             }
-          ]
+          ],
+          "note": "Co completes cinco. Goyôno matçu is the example of the five-leaved pine; its Portuguese description continues on the next row without changing the printed Japanese spelling."
         },
         {
           "id": "c1-l030",
@@ -412,7 +431,8 @@
               "typeface": "italic",
               "text": "tem as folhas de cinco pernas cada hũa."
             }
-          ]
+          ],
+          "note": "The pine's leaves are described as having five branches or divisions apiece. This is the source's botanical description, not a modern species identification."
         },
         {
           "id": "c1-l031",
@@ -425,7 +445,8 @@
               "typeface": "italic",
               "text": " Aſſento, ou lugar onde eſta aſſentada"
             }
-          ]
+          ],
+          "note": "Goza first denotes a seat or the place where someone is seated. The social qualification belongs to the next row, and the unaccented eſta is preserved."
         },
         {
           "id": "c1-l032",
@@ -435,7 +456,8 @@
               "typeface": "italic",
               "text": "algũa peſſoa nobre."
             }
-          ]
+          ],
+          "note": "The seated person is noble, completing the honorific sense of Goza. The nasal abbreviation in algũa remains unexpanded."
         },
         {
           "id": "c1-l033",
@@ -452,7 +474,8 @@
               "typeface": "roman",
               "text": " X."
             }
-          ]
+          ],
+          "note": "A separate Goza is a sleeping mat. X. marks the regional usage described by the dictionary's key, not an additional Japanese syllable."
         },
         {
           "id": "c1-l034",
@@ -465,7 +488,8 @@
               "typeface": "italic",
               "text": " Fune capitaina, ou onde vai o ſe-"
             }
-          ]
+          ],
+          "note": "Gozabune is a principal or lord's vessel. Fune is a Japanese word embedded in the Portuguese phrase Fune capitaina; ſe- begins senhor on the next row."
         },
         {
           "id": "c1-l035",
@@ -475,7 +499,8 @@
               "typeface": "italic",
               "text": "nhor, ou outra peſſoa principal."
             }
-          ]
+          ],
+          "note": "Nhor completes senhor, followed by an alternative reference to another important person. This finishes the vessel definition rather than beginning a new item."
         },
         {
           "id": "c1-l036",
@@ -488,7 +513,8 @@
               "typeface": "italic",
               "text": " Tatami mais alto em q̃ eſtá al-"
             }
-          ]
+          ],
+          "note": "Gozadatami is a raised tatami for an important lord. Tatami occurs within the Portuguese explanation, and q̃ is a printed abbreviation that remains unexpanded."
         },
         {
           "id": "c1-l037",
@@ -510,7 +536,8 @@
               "span_id": "word",
               "placement": "far-right"
             }
-          ]
+          ],
+          "note": "The main text completes algũ senhor principal in Gozadatami. The isolated parenthesis and grande at the right are displaced material belonging with the next entry's senhor; their exceptional physical placement is preserved rather than joining them editorially."
         },
         {
           "id": "c1-l038",
@@ -523,7 +550,8 @@
               "typeface": "italic",
               "text": " Lugar onde eſtá algum ſenhor"
             }
-          ]
+          ],
+          "note": "Gozadocoro denotes a place occupied by a great lord. The adjective grande is physically printed at the preceding row's right edge, already represented by the named displaced spans."
         },
         {
           "id": "c1-l039",
@@ -536,7 +564,8 @@
               "typeface": "italic",
               "text": " Ir, vir, eſtar, ou ſer, peſſoa"
             }
-          ]
+          ],
+          "note": "Gozari, gozaru, gozatta supplies respectful verbs for going, coming, being, or existing. The listed principal forms and broad historical usage are preserved, without restricting the entry to the modern auxiliary."
         },
         {
           "id": "c1-l040",
@@ -546,7 +575,8 @@
               "typeface": "italic",
               "text": "honrada."
             }
-          ]
+          ],
+          "note": "Honrada qualifies the person who goes, comes, or is present. This finishes the preceding honorific verb gloss."
         },
         {
           "id": "c1-l041",
@@ -559,7 +589,8 @@
               "typeface": "italic",
               "text": " Lugar onde eſtá alguem. Fa-"
             }
-          ]
+          ],
+          "note": "Gozaridocoro is the place where someone is. Fa- begins the following qualification falando com honra across the line break."
         },
         {
           "id": "c1-l042",
@@ -569,7 +600,8 @@
               "typeface": "italic",
               "text": "lando com honra."
             }
-          ]
+          ],
+          "note": "Lando completes falando, making the expression explicitly respectful. The short continuation belongs to Gozaridocoro, not to the following anatomical entry."
         },
         {
           "id": "c1-l043",
@@ -582,7 +614,8 @@
               "typeface": "italic",
               "text": " Cinco partes que ha nas entranhas. v."
             }
-          ]
+          ],
+          "note": "Gozǒ introduces five internal organs. The abbreviation v. g. is divided between this row and the next and remains in its printed physical positions."
         },
         {
           "id": "c1-l044",
@@ -604,7 +637,8 @@
               "typeface": "roman",
               "text": " Xin, l,"
             }
-          ]
+          ],
+          "note": "G. completes v. g.; Can and cannozǒ are glossed as spleen, followed by Xin. The source's organ assignment is retained even though kan normally identifies the liver; this is not silently corrected as transcription."
         },
         {
           "id": "c1-l045",
@@ -626,7 +660,8 @@
               "typeface": "italic",
               "text": " Figa-"
             }
-          ]
+          ],
+          "note": "Xinnozǒ is the heart. Fi and finozǒ are then assigned Figa-do, liver, contrary to the usual identification of hi as spleen; the printed translation is preserved and its continuation kept separate."
         },
         {
           "id": "c1-l046",
@@ -636,7 +671,8 @@
               "typeface": "italic",
               "text": "do, & não eſtamago como por erro ſepos na"
             }
-          ]
+          ],
+          "note": "Do completes Figado. The source explicitly says not stomach, as mistakenly entered under F; this editorial correction within the original is transcribed, not replaced with modern anatomical terminology."
         },
         {
           "id": "c1-l047",
@@ -658,7 +694,8 @@
               "typeface": "roman",
               "text": " Iin,"
             }
-          ]
+          ],
+          "note": "The F-reference is completed, followed by Fai/fainozǒ for lungs and Iin for the next organ. The initial capital I has consonantal j value here, giving jin; the item continues at the top of column 2."
         }
       ]
     },
@@ -695,7 +732,8 @@
               "typeface": "italic",
               "text": " Rins."
             }
-          ]
+          ],
+          "note": "Jinnozǒ and Rins complete the kidney item begun with Iin at the bottom of column 1. The short row is continuing body text, not a heading."
         },
         {
           "id": "c2a-l002",
@@ -708,7 +746,8 @@
               "typeface": "italic",
               "text": " Entranhas, em que entrão a-"
             }
-          ]
+          ],
+          "note": "Gozǒroppu is the viscera, including the five previously listed organs. The a- at the end starts aquellas, and the definition extends over the next two rows."
         },
         {
           "id": "c2a-l003",
@@ -718,7 +757,8 @@
               "typeface": "italic",
               "text": "quellas cinco partes, & outras particulares co-"
             }
-          ]
+          ],
+          "note": "Quellas completes aquellas; the gloss adds other particular internal parts. Co- begins the following como, retaining the original line division."
         },
         {
           "id": "c2a-l004",
@@ -728,7 +768,8 @@
               "typeface": "italic",
               "text": "mo tripa meſaraica, bixiga, eſtamago, &c."
             }
-          ]
+          ],
+          "note": "Mo completes como, followed by mesenteric intestine, bladder, and stomach. The historical forms meſaraica, bixiga, and eſtamago are left as printed."
         },
         {
           "id": "c2a-l005",
@@ -741,7 +782,8 @@
               "typeface": "italic",
               "text": " Cabeça do boy, ou"
             }
-          ]
+          ],
+          "note": "Gozzu is ushi no kashira, the head of an ox or cow. The initial V in Vxino has the vocalic value of u; the alternative female animal continues below."
         },
         {
           "id": "c2a-l006",
@@ -751,7 +793,8 @@
               "typeface": "italic",
               "text": "vaca. ¶ Item, Diabo, ou algoz do Infer-"
             }
-          ]
+          ],
+          "note": "Vaca completes the literal cattle-head sense. A second sense is a demon or executioner of hell; Infer-no is divided between physical rows."
         },
         {
           "id": "c2a-l007",
@@ -761,7 +804,8 @@
               "typeface": "italic",
               "text": "no que aparece aos danados com cabeça de boy."
             }
-          ]
+          ],
+          "note": "The infernal executioner appears to the damned with an ox's head. This completes the second sense of Gozzu rather than introducing another creature's name."
         },
         {
           "id": "c2a-l008",
@@ -779,7 +823,8 @@
               "typeface": "italic",
               "text": " Quatro"
             }
-          ]
+          ],
+          "note": "The example lists Gozzu, mezzu, afǒ, and raxet as four infernal figures. Final t in raxet is a historical checked ending and should not be expanded to a modern syllable."
         },
         {
           "id": "c2a-l009",
@@ -789,7 +834,8 @@
               "typeface": "italic",
               "text": "figuras de algozes que ha no Inferno como cui-"
             }
-          ]
+          ],
+          "note": "The Portuguese calls these figures executioners in hell. Cui- begins cuidão on the following row; the statement is explicitly framed as the belief of the people described."
         },
         {
           "id": "c2a-l010",
@@ -799,7 +845,8 @@
               "typeface": "italic",
               "text": "dão os gentios."
             }
-          ]
+          ],
+          "note": "Dão completes cuidão os gentios. This finishes both the entry and the pre-section column zone; the internal G ANTES DO V heading follows outside the body text."
         }
       ]
     },
@@ -841,7 +888,8 @@
               "typeface": "italic",
               "text": " Não ſe vſa perſi, ſe não"
             }
-          ]
+          ],
+          "note": "The new section begins GV, gu, explained by dǒgu, equipment or implements. The enlarged G spans two physical rows; the supplied owning crop includes the whole initial, and the generated hint's isolated V must not replace the full headword."
         },
         {
           "id": "c2b-l002",
@@ -855,7 +903,8 @@
               "typeface": "roman",
               "text": " Guni taranu."
             }
-          ]
+          ],
+          "note": "The entry says gu is used in the following expressions rather than alone. Guni taranu introduces the example of a set or outfit lacking a needed piece; Vt is italic."
         },
         {
           "id": "c2b-l003",
@@ -865,7 +914,8 @@
               "typeface": "italic",
               "text": "Faltar algũa peça das que ſão neceſſarias pera"
             }
-          ]
+          ],
+          "note": "The Portuguese explains that some necessary component is missing. The object being equipped or furnished is specified on the next row, so this line is a continuation of the example's translation."
         },
         {
           "id": "c2b-l004",
@@ -879,7 +929,8 @@
               "typeface": "roman",
               "text": " Guni auanu dǒgu."
             }
-          ]
+          ],
+          "note": "The first translation ends with equipment or an outfit. Guni auanu dǒgu then illustrates a component that does not match the rest of a set."
         },
         {
           "id": "c2b-l005",
@@ -889,7 +940,8 @@
               "typeface": "italic",
               "text": "Peça que não diz com as de mais da meſma"
             }
-          ]
+          ],
+          "note": "The Portuguese describes a piece that does not agree with the others. De mais remains two words as printed; the comparison is completed by laya below."
         },
         {
           "id": "c2b-l006",
@@ -903,7 +955,8 @@
               "typeface": "roman",
               "text": " Guni tarǒta, l, tatta, l, famat-"
             }
-          ]
+          ],
+          "note": "Laya completes the description of the same sort or set. The next example supplies tarǒta, tatta, and famat-ta as alternatives; the caron and the divided final alternative are preserved."
         },
         {
           "id": "c2b-l007",
@@ -913,7 +966,8 @@
               "typeface": "roman",
               "text": "ta mono nareba, tori fanaſu coto naranu."
             }
-          ]
+          ],
+          "note": "Ta completes famatta. The clause says that, because the item belongs to or fits the set, it cannot be detached; tori fanaſu is the historical spelling for taking apart."
         },
         {
           "id": "c2b-l008",
@@ -923,7 +977,8 @@
               "typeface": "italic",
               "text": "Sendo peça, ou petrecho dũa meſma eſquipa-"
             }
-          ]
+          ],
+          "note": "The Portuguese restates the condition: being a piece or implement of one outfit. Dũa is an abbreviated form, and eſquipa- continues into the next row."
         },
         {
           "id": "c2b-l009",
@@ -933,7 +988,8 @@
               "typeface": "italic",
               "text": "ção, não ſe pode tirar, ou apartar."
             }
-          ]
+          ],
+          "note": "Ção completes eſquipação, followed by the consequence that the component cannot be removed or separated. This closes the long first Gu entry."
         },
         {
           "id": "c2b-l010",
@@ -946,7 +1002,8 @@
               "typeface": "italic",
               "text": " As vezes ſe vſa por tintas de cores pe-"
             }
-          ]
+          ],
+          "note": "This Gu can mean coloured pigments. The gloss explicitly says it is sometimes used in this sense, and pe- begins pera across the break."
         },
         {
           "id": "c2b-l011",
@@ -954,13 +1011,18 @@
           "runs": [
             {
               "typeface": "italic",
-              "text": "ra pintar. i,"
+              "text": "ra pintar."
             },
             {
               "typeface": "roman",
+              "text": " i,"
+            },
+            {
+              "typeface": "italic",
               "text": " Yenogu."
             }
-          ]
+          ],
+          "note": "Ra completes pera pintar, followed by upright i and the italic synonym Yenogu. The synonym after i is not a Japanese word syntactically embedded in Portuguese, so it is not separately marked for font toggling."
         },
         {
           "id": "c2b-l012",
@@ -973,7 +1035,8 @@
               "typeface": "italic",
               "text": " Aparelhos com que fazem ramalhetes"
             }
-          ]
+          ],
+          "note": "A further Gu denotes implements used to make bouquets. The objects used in the bouquets are supplied by the next physical line."
         },
         {
           "id": "c2b-l013",
@@ -983,7 +1046,8 @@
               "typeface": "italic",
               "text": "de roſas, ou flores."
             }
-          ]
+          ],
+          "note": "Roses or flowers complete the bouquet-making definition. No narrower identification of the particular equipment is supplied by the source."
         },
         {
           "id": "c2b-l014",
@@ -1000,7 +1064,8 @@
               "typeface": "roman",
               "text": " Gubuno fito."
             }
-          ]
+          ],
+          "note": "Gubu is accompanying or attending. Gubuno fito introduces the attendant or accompanying person, whose translation follows below."
         },
         {
           "id": "c2b-l015",
@@ -1018,7 +1083,8 @@
               "typeface": "italic",
               "text": " A-"
             }
-          ]
+          ],
+          "note": "The attendant is a person who accompanies; Gubuſuru then supplies the verb construction. The printed nasal abbreviation in acõpanha and the final A- are retained."
         },
         {
           "id": "c2b-l016",
@@ -1028,7 +1094,8 @@
               "typeface": "italic",
               "text": "companhar."
             }
-          ]
+          ],
+          "note": "Companhar completes A-companhar, the translation of Gubuſuru. It is a real continuation row despite containing only the rest of one Portuguese word."
         },
         {
           "id": "c2b-l017",
@@ -1041,7 +1108,8 @@
               "typeface": "italic",
               "text": " Rudeza, ou pouco entendimento, &"
             }
-          ]
+          ],
+          "note": "Gucan denotes dullness or lack of understanding. It has no vowel mark and is distinct from the later botanical Gǔcon entry."
         },
         {
           "id": "c2b-l018",
@@ -1051,7 +1119,8 @@
               "typeface": "italic",
               "text": "ſaber."
             }
-          ]
+          ],
+          "note": "Saber completes pouco entendimento, & saber. The definition concerns limited understanding and knowledge, not roughness of a physical object."
         },
         {
           "id": "c2b-l019",
@@ -1064,7 +1133,8 @@
               "typeface": "italic",
               "text": " Hum peixe domar."
             }
-          ]
+          ],
+          "note": "Guchi, alternatively cuchi, is a sea fish. The joined domar is retained from the print, and the brief gloss alone does not establish a precise species."
         },
         {
           "id": "c2b-l020",
@@ -1081,7 +1151,8 @@
               "typeface": "roman",
               "text": " Guchi gudon."
             }
-          ]
+          ],
+          "note": "The homographic Guchi means ignorance; Guchi gudon illustrates a compound expression with the same semantic field. This is separate from the fish-name entry."
         },
         {
           "id": "c2b-l021",
@@ -1091,7 +1162,8 @@
               "typeface": "italic",
               "text": "Ignorancia, & rudeza."
             }
-          ]
+          ],
+          "note": "Ignorance and dullness translate Guchi gudon. The line is a continuation of the example, not a fresh headword."
         },
         {
           "id": "c2b-l022",
@@ -1104,7 +1176,8 @@
               "typeface": "italic",
               "text": " Ignorancia, ou pouco ſaber."
             }
-          ]
+          ],
+          "note": "Guchimuchi denotes ignorance or little knowledge. Its mu element is retained rather than reducing it to the shorter Guchi entry."
         },
         {
           "id": "c2b-l023",
@@ -1117,7 +1190,8 @@
               "typeface": "italic",
               "text": " Ignorante, ſem ſaber."
             }
-          ]
+          ],
+          "note": "Guchina is the adjectival form, ignorant or without knowledge. The na ending agrees with the predicate-like Portuguese gloss."
         },
         {
           "id": "c2b-l024",
@@ -1130,20 +1204,22 @@
               "typeface": "italic",
               "text": " Adu."
             }
-          ]
+          ],
+          "note": "Guchini is marked only Adu., identifying its adverbial function. The original supplies no further Portuguese definition, and none is invented in the transcription."
         },
         {
           "id": "c2b-l025",
           "runs": [
             {
               "typeface": "roman",
-              "text": "Gǔcon. Faluno ne."
+              "text": "Gǔcon. Faſuno ne."
             },
             {
               "typeface": "italic",
               "text": " Raiz do golfão."
             }
-          ]
+          ],
+          "note": "Gǔcon is lotus root, paraphrased as hasu no ne. The scan shows Faſuno, with long s rather than the draft's l; the caron over u and the separate ne are retained. Portuguese golfão is kept without forcing a modern botanical equivalence."
         },
         {
           "id": "c2b-l026",
@@ -1156,7 +1232,8 @@
               "typeface": "italic",
               "text": " Rudeza, ou ig-"
             }
-          ]
+          ],
+          "note": "Gudon is explained by orokani nibushi, foolish and dull, and glossed as dullness or ignorance. The initial V of Vorocani represents the historical spelling, not an added consonant in the reading."
         },
         {
           "id": "c2b-l027",
@@ -1166,7 +1243,8 @@
               "typeface": "italic",
               "text": "norancia."
             }
-          ]
+          ],
+          "note": "Norancia completes ig-norancia. This physical continuation finishes the definition of Gudon rather than duplicating Guchi above."
         },
         {
           "id": "c2b-l028",
@@ -1179,7 +1257,8 @@
               "typeface": "italic",
               "text": " Rude, & ignorante."
             }
-          ]
+          ],
+          "note": "Gudonna is the adjectival form, dull and ignorant. The doubled n belongs to the printed form and is not simplified."
         },
         {
           "id": "c2b-l029",
@@ -1189,7 +1268,8 @@
               "typeface": "roman",
               "text": "Gudonni."
             }
-          ]
+          ],
+          "note": "Gudonni is the related adverbial form. It is printed on its own indented row without an explicit Portuguese gloss; that brevity is preserved."
         },
         {
           "id": "c2b-l030",
@@ -1199,7 +1279,8 @@
               "typeface": "roman",
               "text": "Gudonſa."
             }
-          ]
+          ],
+          "note": "Gudonſa is the nominal form for dullness or degree of dullness. The indented unglossed row and the long s are retained, without adding a grammatical label to the original."
         },
         {
           "id": "c2b-l031",
@@ -1212,7 +1293,8 @@
               "typeface": "italic",
               "text": " Peſſoas de"
             }
-          ]
+          ],
+          "note": "Gufai is paraphrased as orokana tomogara, foolish companions or people. The Portuguese definition begins peſſoas de and continues below."
         },
         {
           "id": "c2b-l032",
@@ -1222,7 +1304,8 @@
               "typeface": "italic",
               "text": "pouco ſaber."
             }
-          ]
+          ],
+          "note": "Pouco saber completes the description as people of little knowledge. This is the final part of Gufai's gloss, not a separate lexical item."
         },
         {
           "id": "c2b-l033",
@@ -1235,7 +1318,8 @@
               "typeface": "italic",
               "text": " Diabo."
             }
-          ]
+          ],
+          "note": "Gufin is equated with Tengu and translated as a devil. Tengu is a Japanese synonym, while the religious characterization belongs to the Portuguese source."
         },
         {
           "id": "c2b-l034",
@@ -1248,7 +1332,8 @@
               "typeface": "italic",
               "text": " Carta, ou eſcritura"
             }
-          ]
+          ],
+          "note": "Gufit is orokana fude, a self-deprecating expression for one's writing. Its final t is preserved as a checked ending; carta ou eſcritura introduces the letter or written work."
         },
         {
           "id": "c2b-l035",
@@ -1258,7 +1343,8 @@
               "typeface": "italic",
               "text": "minha, humilhandome."
             }
-          ]
+          ],
+          "note": "Minha, humilhandome makes the self-reference and humble register explicit. The lower-right Gugo- lies below this completed body line and remains the catchword for the next page."
         }
       ]
     },

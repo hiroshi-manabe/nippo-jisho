@@ -12,9 +12,11 @@ Scope: `full_dictionary_text_and_furniture`
 
 ## Column 1
 
+Lexical cross-check: the supplied NINJAL Entry Words Data of Nippojisho, version 202510 (Hideyuki Ohshima; assisting developer Taichi Aida), CC BY 4.0, https://www2.ninjal.ac.jp/textdb_dataset/en/nipp/index.html, was consulted after independent scan reading. It is an attributed lexical aid; the BnF scan governs the transcription and the English notes are reviewer-authored.
+
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | Goxǒuo taſucaru. *Saluarſe.* ¶ Goxǒ |  |
+| `c1-l001` | &emsp;Goxǒuo taſucaru. *Saluarſe.* ¶ Goxǒ |  |
 | `c1-l002` | &emsp;bodaino tçutomeuo naſu. *Fazer obras,* |  |
 | `c1-l003` | &emsp;*& exercicios, que ſeruem pera a outra vida,* |  |
 | `c1-l004` | &emsp;*ou ſaluação.* ¶ Conjǒ goxǒ tomoni. |  |
@@ -22,10 +24,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l006` | &emsp;*& eſpiritual.* |  |
 | `c1-l007` | Goxǒ. Itçutçuno ſauari. *Cinco eſpecies de* |  |
 | `c1-l008` | &emsp;*impedimentos que tem as molheres pera certas* |  |
-| `c1-l009` | &emsp;*couſas da ſaluação como pera ſe fazerem* Foto- |  |
-| `c1-l010` | &emsp;ques, *&c.* Bup. |  |
+| `c1-l009` | &emsp;*couſas da ſaluação como pera ſe fazerem Foto-* |  |
+| `c1-l010` | &emsp;*ques, &c.* Bup. |  |
 | `c1-l011` | Goxo. *Paços do Cubǒ, ou Rey que tem feito* |  |
-| `c1-l012` | &emsp;Inquio. *¶ Item, O meſmo Cubǒ.* |  |
+| `c1-l012` | &emsp;*Inquio. ¶ Item, O meſmo Cubǒ.* |  |
 | `c1-l013` | Goxǒ jenxo. *Lugar excellentiſſimo como* |  |
 | `c1-l014` | &emsp;*paraiſo.* |  |
 | `c1-l015` | Goxu. Von ſaqe. *Vinho falando com reſpeito.* |  |
@@ -103,7 +105,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2b-l008` | &emsp;*Sendo peça, ou petrecho dũa meſma eſquipa-* |  |
 | `c2b-l009` | &emsp;*ção, não ſe pode tirar, ou apartar.* |  |
 | `c2b-l010` | Gu. *As vezes ſe vſa por tintas de cores pe-* |  |
-| `c2b-l011` | &emsp;*ra pintar. i,* Yenogu. |  |
+| `c2b-l011` | &emsp;*ra pintar.* i, *Yenogu.* |  |
 | `c2b-l012` | Gu. *Aparelhos com que fazem ramalhetes* |  |
 | `c2b-l013` | &emsp;*de roſas, ou flores.* |  |
 | `c2b-l014` | Gubu. *Acompanhar. ¶* Gubuno fito. |  |
@@ -117,7 +119,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2b-l022` | Guchimuchi. *Ignorancia, ou pouco ſaber.* |  |
 | `c2b-l023` | Guchina. *Ignorante, ſem ſaber.* |  |
 | `c2b-l024` | Guchini. *Adu.* |  |
-| `c2b-l025` | Gǔcon. Faluno ne. *Raiz do golfão.* |  |
+| `c2b-l025` | Gǔcon. Faſuno ne. *Raiz do golfão.* |  |
 | `c2b-l026` | Gudon. Vorocani nibuxi. *Rudeza, ou ig-* |  |
 | `c2b-l027` | &emsp;*norancia.* |  |
 | `c2b-l028` | Gudonna. *Rude, & ignorante.* |  |

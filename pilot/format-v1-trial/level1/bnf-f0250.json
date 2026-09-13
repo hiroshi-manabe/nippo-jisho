@@ -13,7 +13,7 @@
     "origin": "direct_from_scan",
     "wikisource_used_for_this_trial": false,
     "physical_lineation_checked": true,
-    "status": "scan_confirmed"
+    "status": "context_reviewed"
   },
   "zones": [
     {
@@ -36,6 +36,7 @@
       "id": "column-1",
       "kind": "column",
       "label": "Column 1",
+      "note": "Lexical cross-check: the supplied NINJAL Entry Words Data of Nippojisho, version 202510 (Hideyuki Ohshima; assisting developer Taichi Aida), CC BY 4.0, https://www2.ninjal.ac.jp/textdb_dataset/en/nipp/index.html, was consulted after independent scan reading. It is an attributed lexical aid; the BnF scan governs the transcription and the English notes are reviewer-authored.",
       "lines": [
         {
           "id": "c1-l001",
@@ -48,7 +49,8 @@
               "typeface": "italic",
               "text": " Enxame de a-"
             }
-          ]
+          ],
+          "note": "Gunpô is a swarm of bees, paraphrased as muragaru hachi. The circumflex distinguishes this printed headword from the preceding page's Gunpǒ; a- starts abelhas across the break."
         },
         {
           "id": "c1-l002",
@@ -58,7 +60,8 @@
               "typeface": "italic",
               "text": "belhas."
             }
-          ]
+          ],
+          "note": "Belhas completes abelhas, finishing the bee-swarm definition. The short row is continuing body text, not a separate entry."
         },
         {
           "id": "c1-l003",
@@ -71,7 +74,8 @@
               "typeface": "italic",
               "text": " Liuro de hi-"
             }
-          ]
+          ],
+          "note": "Gunqi is a book recording war histories. The scan distinctly prints i, cuſauo, although the expected explanatory phrase is ikusa wo shirusu sho; that anomalous separation is preserved rather than silently inserting an initial I into cuſauo."
         },
         {
           "id": "c1-l004",
@@ -81,7 +85,8 @@
               "typeface": "italic",
               "text": "ſtorias de guerras."
             }
-          ]
+          ],
+          "note": "Storias completes hi-ſtorias, followed by de guerras. The Portuguese establishes the military-history sense of the preceding Japanese phrase despite its printed initial anomaly."
         },
         {
           "id": "c1-l005",
@@ -94,7 +99,8 @@
               "typeface": "italic",
               "text": " Aleuantamento de"
             }
-          ]
+          ],
+          "note": "The next Gunqi is the outbreak or rising of war, paraphrased as ikusa okoru. Initial v in vocoru is retained as historical orthography, not interpreted as a modern v sound."
         },
         {
           "id": "c1-l006",
@@ -104,7 +110,8 @@
               "typeface": "italic",
               "text": "guerra."
             }
-          ]
+          ],
+          "note": "Guerra completes aleuantamento de guerra. This finishes the second Gunqi definition, distinct from the preceding book-name sense."
         },
         {
           "id": "c1-l007",
@@ -115,9 +122,10 @@
             },
             {
               "typeface": "italic",
-              "text": " O eſtarẽ muitos juntos."
+              "text": " O eſtarẽ muitos jũtos."
             }
-          ]
+          ],
+          "note": "Gunqio is many people being together, muragari iru. The scan abbreviates both eſtarẽ and jũtos; the latter replaces the draft's expanded juntos without changing its meaning."
         },
         {
           "id": "c1-l008",
@@ -128,9 +136,10 @@
             },
             {
               "typeface": "italic",
-              "text": " Virẽ muitos juntos."
+              "text": " Virẽ muitos jũtos."
             }
-          ]
+          ],
+          "note": "Gunrai means many coming together, muragari kitaru. Virẽ and jũtos preserve the printed nasal abbreviations; the draft's unabridged juntos is corrected to the visible form."
         },
         {
           "id": "c1-l009",
@@ -143,7 +152,8 @@
               "typeface": "italic",
               "text": " Exercito q̃ anda fora."
             }
-          ]
+          ],
+          "note": "Gunrio is an army travelling or operating away, paraphrased as ikusa no tabi. The Portuguese q̃ abbreviation remains unexpanded."
         },
         {
           "id": "c1-l010",
@@ -156,7 +166,8 @@
               "typeface": "italic",
               "text": " Canſaço da guerra."
             }
-          ]
+          ],
+          "note": "Gunrǒ is weariness from war, explained by ikusa tsukaruru. The Japanese intransitive wording and the Portuguese noun can differ grammatically without requiring a transcription correction."
         },
         {
           "id": "c1-l011",
@@ -169,17 +180,23 @@
               "typeface": "italic",
               "text": " Viuentes ſenſiti-"
             }
-          ]
+          ],
+          "note": "Gunrui denotes classes or groups of sentient beings, paraphrased as muragaru tagui. Senſiti- begins the divided Portuguese adjective on the next row."
         },
         {
           "id": "c1-l012",
           "indent": 1,
           "runs": [
             {
+              "typeface": "italic",
+              "text": "uos."
+            },
+            {
               "typeface": "roman",
-              "text": "uos. i, Gunjǒ."
+              "text": " i, Gunjǒ."
             }
-          ]
+          ],
+          "note": "Uos completes ſenſitiuos and remains italic; i introduces the Japanese synonym Gunjǒ. That synonym is not a term syntactically embedded in a Portuguese sentence."
         },
         {
           "id": "c1-l013",
@@ -192,7 +209,8 @@
               "typeface": "italic",
               "text": " Cozinha do ex-"
             }
-          ]
+          ],
+          "note": "Gunſǒ is the army's kitchen, explained by ikusa no kamado. The scan retains the historical ex-ercito division and the long s in the headword."
         },
         {
           "id": "c1-l014",
@@ -202,7 +220,8 @@
               "typeface": "italic",
               "text": "ercito."
             }
-          ]
+          ],
+          "note": "Ercito completes exercito. This is the continuation of the kitchen gloss, not another military term."
         },
         {
           "id": "c1-l015",
@@ -215,7 +234,8 @@
               "typeface": "italic",
               "text": " Cabeça de hũa"
             }
-          ]
+          ],
+          "note": "Gunxi is the chief of a district, paraphrased as kôri no tsukasa. The Portuguese begins the administrative definition with cabeça de hũa."
         },
         {
           "id": "c1-l016",
@@ -225,7 +245,8 @@
               "typeface": "italic",
               "text": "parte do reino."
             }
-          ]
+          ],
+          "note": "Parte do reino completes the jurisdiction of that official. The district sense of the first element is distinct from gun meaning an army."
         },
         {
           "id": "c1-l017",
@@ -238,7 +259,8 @@
               "typeface": "italic",
               "text": " Muitos cria-"
             }
-          ]
+          ],
+          "note": "Gunxin is a gathering of retainers, muragaru shinka. The Portuguese many servants or retainers is divided cria-dos between this row and the next."
         },
         {
           "id": "c1-l018",
@@ -248,7 +270,8 @@
               "typeface": "italic",
               "text": "dos juntos."
             }
-          ]
+          ],
+          "note": "Dos completes criados, followed by juntos. This occurrence spells juntos in full, unlike the abbreviated jũtos in the earlier collective-motion entries."
         },
         {
           "id": "c1-l019",
@@ -261,7 +284,8 @@
               "typeface": "italic",
               "text": " Liuro q̃ trata de guerras."
             }
-          ]
+          ],
+          "note": "Gũxo is a book about war, paraphrased as ikusa no sho. The tilde in the headword abbreviates the nasal; it is not normalized to an explicit n."
         },
         {
           "id": "c1-l020",
@@ -274,7 +298,8 @@
               "typeface": "italic",
               "text": " Rebanho de"
             }
-          ]
+          ],
+          "note": "Gunyǒ is a flock of sheep, muragaru hitsuji. The Portuguese rebanho de takes its animal noun on the following row."
         },
         {
           "id": "c1-l021",
@@ -284,7 +309,8 @@
               "typeface": "italic",
               "text": "ouelhas."
             }
-          ]
+          ],
+          "note": "Ouelhas completes the sheep-flock definition. Historical u/v spelling is retained rather than modernized to ovelhas."
         },
         {
           "id": "c1-l022",
@@ -297,7 +323,8 @@
               "typeface": "italic",
               "text": " Folguedo de mui-"
             }
-          ]
+          ],
+          "note": "Gunyǔ is collective recreation, explained by muragari asobu. Mui- begins muitos; the caron over u is distinct from the preceding entry's marked o."
         },
         {
           "id": "c1-l023",
@@ -307,7 +334,8 @@
               "typeface": "italic",
               "text": "tos juntos."
             }
-          ]
+          ],
+          "note": "Tos completes muitos, followed by juntos, finishing the description of people enjoying themselves together. The row remains separate despite its brevity."
         },
         {
           "id": "c1-l024",
@@ -320,7 +348,8 @@
               "typeface": "italic",
               "text": " Quadrilha de"
             }
-          ]
+          ],
+          "note": "Gunzocu is a band of thieves, paraphrased as muragaru zoku. The Portuguese quadrilha de introduces the people identified on the next row."
         },
         {
           "id": "c1-l025",
@@ -330,7 +359,8 @@
               "typeface": "italic",
               "text": "ladrões."
             }
-          ]
+          ],
+          "note": "Ladrões completes quadrilha de ladrões, a thieves' band. The brief continuation remains its own physical row."
         },
         {
           "id": "c1-l026",
@@ -343,7 +373,8 @@
               "typeface": "italic",
               "text": " Flor de golfão."
             }
-          ]
+          ],
+          "note": "Gǔqua is the lotus flower, paraphrased as hasu no hana. The long s in Faſu is visible, and the Portuguese golfão is retained without replacing it with a modern taxonomic label."
         },
         {
           "id": "c1-l027",
@@ -356,7 +387,8 @@
               "typeface": "italic",
               "text": " Tormento de frio que ha no Inferno. Não"
             }
-          ]
+          ],
+          "note": "Guren denotes a torment of cold in hell. The Portuguese describes a religious concept and begins a restriction on the word's use at the end of the row."
         },
         {
           "id": "c1-l028",
@@ -370,7 +402,8 @@
               "typeface": "roman",
               "text": " Guren dai"
             }
-          ]
+          ],
+          "note": "The word is said to occur in combinations rather than alone. The example begins Guren dai guren, with the second part continued on the next row."
         },
         {
           "id": "c1-l029",
@@ -382,9 +415,10 @@
             },
             {
               "typeface": "italic",
-              "text": " &c. Eſtan-"
+              "text": " &c. Eſtan"
             }
-          ]
+          ],
+          "note": "The example describes being enclosed in the ice of the infernal torments. Togirarete is retained in the source's spelling; Eſtan continues without a visible terminal hyphen into do below."
         },
         {
           "id": "c1-l030",
@@ -392,9 +426,10 @@
           "runs": [
             {
               "typeface": "italic",
-              "text": "do enrrejeitados com os grandes frios do Inferno."
+              "text": "do enrejeiados com os grandes frios do Inferno."
             }
-          ]
+          ],
+          "note": "Do completes Eſtando; the people are stiffened by the great cold of hell. The second pass resolves enrejeiados with one r after n and no t, correcting the draft's enrrejeitados. This unusual printed form is retained rather than normalized to a modern Portuguese equivalent."
         },
         {
           "id": "c1-l031",
@@ -407,7 +442,8 @@
               "typeface": "italic",
               "text": " Homem baixo."
             }
-          ]
+          ],
+          "note": "Guret describes a low or inferior person, paraphrased as orokani otoru. The final t is a historical checked ending, not a letter missing from the Portuguese gloss."
         },
         {
           "id": "c1-l032",
@@ -425,7 +461,8 @@
               "typeface": "italic",
               "text": " Homem ignorante,"
             }
-          ]
+          ],
+          "note": "Guret na hito is an example of the adjectival construction, an ignorant or low person. The abraded t in fito is recoverable from its remnants and the surrounding word, so the complete reading is retained."
         },
         {
           "id": "c1-l033",
@@ -435,7 +472,8 @@
               "typeface": "italic",
               "text": "ou baixo."
             }
-          ]
+          ],
+          "note": "Ou baixo completes the alternative description of the person. This finishes Guret's example rather than adding another headword."
         },
         {
           "id": "c1-l034",
@@ -456,7 +494,8 @@
               "typeface": "italic",
               "text": " Modo"
             }
-          ]
+          ],
+          "note": "Gurigurito illustrates a tactile sensation through Gurigurito ſuru. Modo introduces a description of how an object feels, not an additional Japanese word."
         },
         {
           "id": "c1-l035",
@@ -464,9 +503,10 @@
           "runs": [
             {
               "typeface": "italic",
-              "text": "de ſentir algũa couſa que bole dentro dalgum va-"
+              "text": "de ſentir algũa couſa que bole dentro dalgum va"
             }
-          ]
+          ],
+          "note": "The first sense is feeling something move inside a vessel. Va continues into ſo without a printed hyphen; the full right edge confirms that the draft's terminal mark was not present."
         },
         {
           "id": "c1-l036",
@@ -476,7 +516,8 @@
               "typeface": "italic",
               "text": "ſo palpando com a mão como noz, &c."
             }
-          ]
+          ],
+          "note": "So completes vaſo; the object is felt with the hand, like a nut. The comparison is the source's own and is not expanded into a modern physical explanation."
         },
         {
           "id": "c1-l037",
@@ -486,7 +527,8 @@
               "typeface": "italic",
               "text": "¶ Item, Modo de ſe ſentir algum caroço"
             }
-          ]
+          ],
+          "note": "A second sense concerns feeling a hard lump. The paragraph marker and Item introduce that extension within the same entry."
         },
         {
           "id": "c1-l038",
@@ -496,7 +538,8 @@
               "typeface": "italic",
               "text": "na carne como principio de inchaço, &c."
             }
-          ]
+          ],
+          "note": "The lump is in the flesh, as at the beginning of a swelling. This completes the tactile definition of Gurigurito, not a diagnostic claim by the reviewer."
         },
         {
           "id": "c1-l039",
@@ -509,7 +552,8 @@
               "typeface": "italic",
               "text": " Dentro de minha"
             }
-          ]
+          ],
+          "note": "Guriǒ is a humble reference to one's own territory, paraphrased as waga ryônai. Both printed carons are retained, and the Portuguese possessive phrase continues below."
         },
         {
           "id": "c1-l040",
@@ -519,20 +563,22 @@
               "typeface": "italic",
               "text": "herdade, ou terras falando humildemente."
             }
-          ]
+          ],
+          "note": "Herdade ou terras gives estate or lands, explicitly qualified as humble speech. This completes the first-person territorial expression."
         },
         {
           "id": "c1-l041",
           "runs": [
             {
               "typeface": "roman",
-              "text": "Gurǒ. Vorocani vuitari."
+              "text": "Gurǒ. Vorocani voitari."
             },
             {
               "typeface": "italic",
               "text": " Eu velho falando"
             }
-          ]
+          ],
+          "note": "Gurǒ is a humble self-reference by an old man. Voitari is the preferred reading of the abraded sequence, corresponding to aged; the damaged top of o had been read as u in the draft's vuitari."
         },
         {
           "id": "c1-l042",
@@ -542,7 +588,8 @@
               "typeface": "italic",
               "text": "com humildade."
             }
-          ]
+          ],
+          "note": "Com humildade completes the speaking-register qualification. The definition is self-deprecating, not a general pejorative label for all elderly people."
         },
         {
           "id": "c1-l043",
@@ -555,7 +602,8 @@
               "typeface": "italic",
               "text": " Adu. Modo de rodear,"
             }
-          ]
+          ],
+          "note": "Gururigururito is an adverb for going around or turning repeatedly. The repeated Japanese form and the italic Adu. label are preserved."
         },
         {
           "id": "c1-l044",
@@ -565,7 +613,8 @@
               "typeface": "italic",
               "text": "ou andar às voltas."
             }
-          ]
+          ],
+          "note": "Ou andar às voltas completes the circular-motion definition. The accent on às belongs to the Portuguese preposition-and-article form."
         },
         {
           "id": "c1-l045",
@@ -582,7 +631,8 @@
               "typeface": "roman",
               "text": " Gururito"
             }
-          ]
+          ],
+          "note": "Gururito is a related adverb with the same meaning. Vt introduces an example beginning on this row and continuing into the circle-forming construction below."
         },
         {
           "id": "c1-l046",
@@ -590,13 +640,14 @@
           "runs": [
             {
               "typeface": "roman",
-              "text": "curumazzuni mauoru."
+              "text": "curumazani nauoru."
             },
             {
               "typeface": "italic",
-              "text": " Mucayſe, ou porſe"
+              "text": " Mudarſe, ou porſe"
             }
-          ]
+          ],
+          "note": "The preferred reading is curumazani nauoru, taking one's place in a circle. The worn first consonant of nauoru is less secure than the rest; the two-stem remnant and the Portuguese Mudarſe support this reading over draft mauoru. Mudarſe replaces the incoherent Mucayſe, and curumazani has one z and a before ni."
         },
         {
           "id": "c1-l047",
@@ -606,7 +657,8 @@
               "typeface": "italic",
               "text": "em roda de gente."
             }
-          ]
+          ],
+          "note": "Em roda de gente completes the instruction to take a place in a circle of people. This confirms the seating or positioning sense of the preceding Japanese example rather than requiring simple walking around."
         }
       ]
     },
@@ -636,9 +688,10 @@
           "runs": [
             {
               "typeface": "roman",
-              "text": "Guſacu. Vorocani tçucuru. i, Vaga tçucuri"
+              "text": "Guſacu. Vorocani tçucuru. i, Vaga tçucut"
             }
-          ]
+          ],
+          "note": "Guſacu denotes one's own work in humble language. The paraphrase ends Vaga tçucut, whose final t is visible and continues into ta mono below; the draft's tçucuri would not reproduce the printed past-tense form."
         },
         {
           "id": "c2-l002",
@@ -652,7 +705,8 @@
               "typeface": "italic",
               "text": " Obra minha humilhandome."
             }
-          ]
+          ],
+          "note": "Ta mono completes waga tsukutta mono, a thing I made. The Portuguese obra minha humilhandome supplies the humble first-person sense of Guſacu."
         },
         {
           "id": "c2-l003",
@@ -665,7 +719,8 @@
               "typeface": "italic",
               "text": " Minha carta, &c."
             }
-          ]
+          ],
+          "note": "Guſat is a humble term for one's letter, equated with waga fumi. The checked final t is retained, and the speaking-register qualification follows below."
         },
         {
           "id": "c2-l004",
@@ -675,7 +730,8 @@
               "typeface": "italic",
               "text": "Falando modeſtamente."
             }
-          ]
+          ],
+          "note": "Falando modeſtamente completes the qualification of the letter-name. The printed historical type and spelling are retained without adding an expanded grammatical label."
         },
         {
           "id": "c2-l005",
@@ -688,7 +744,8 @@
               "typeface": "italic",
               "text": " Eu religioſo, &c."
             }
-          ]
+          ],
+          "note": "Guſô is orokana hijiri, a humble self-reference by a religious person. The Portuguese Eu religioſo expresses that first-person use rather than identifying a particular individual."
         },
         {
           "id": "c2-l006",
@@ -698,7 +755,8 @@
               "typeface": "italic",
               "text": "Falando modeſtamente."
             }
-          ]
+          ],
+          "note": "Falando modeſtamente again supplies the modest register. It belongs to Guſô's gloss and remains a separate physical continuation."
         },
         {
           "id": "c2-l007",
@@ -711,7 +769,8 @@
               "typeface": "italic",
               "text": " Meu filho. Falando"
             }
-          ]
+          ],
+          "note": "This Guſocu is one's own son, paraphrased as waga ko. The Portuguese register qualification begins with Falando and continues below."
         },
         {
           "id": "c2-l008",
@@ -719,9 +778,10 @@
           "runs": [
             {
               "typeface": "italic",
-              "text": "humildemente."
+              "text": "humilmente."
             }
-          ]
+          ],
+          "note": "Humilmente is the spelling visible in the scan, without the draft's added de. It completes the humble-speaking note for the son sense."
         },
         {
           "id": "c2-l009",
@@ -738,7 +798,8 @@
               "typeface": "roman",
               "text": " ¶ Guſocuuo vo-"
             }
-          ]
+          ],
+          "note": "The next Guſocu is a suit of armour. The example begins Guſocuuo vo-, with the verb for lacing armour continuing below."
         },
         {
           "id": "c2-l010",
@@ -746,13 +807,14 @@
           "runs": [
             {
               "typeface": "roman",
-              "text": "doſu, l, vedoxitatçuru."
+              "text": "doſu, l, vodoxitatçuru."
             },
             {
               "typeface": "italic",
               "text": " Fazer, ou te-"
             }
-          ]
+          ],
+          "note": "Doſu completes vodoſu, lacing the armour, followed by the alternative vodoxitatçuru. The worn second vowel of the alternative is read as o in light of its rounded remnant and the repeated odoshi construction; the Portuguese describes making or weaving armour."
         },
         {
           "id": "c2-l011",
@@ -764,13 +826,14 @@
             },
             {
               "typeface": "roman",
-              "text": " ¶ Guſocuno qetuo fiqu."
+              "text": " ¶ Guſocuno qeuo fiqu."
             },
             {
               "typeface": "italic",
               "text": " En-"
             }
-          ]
+          ],
+          "note": "The next example is Guſocuno qeuo fiqu, drawing or threading the armour's lacing. The scan reads qeuo without the draft's inserted t; En- begins the Portuguese explanation of joining the plates."
         },
         {
           "id": "c2-l012",
@@ -780,7 +843,8 @@
               "typeface": "italic",
               "text": "cadear, & ajuntar as laminas das armas entre"
             }
-          ]
+          ],
+          "note": "Cadear completes encadear, followed by joining the armour's plates together. This explains the construction method rather than a separate weapon."
         },
         {
           "id": "c2-l013",
@@ -790,7 +854,8 @@
               "typeface": "italic",
               "text": "ſi por huns buracos que tem, com fio, ou retros,"
             }
-          ]
+          ],
+          "note": "The plates are joined through their holes with thread or twisted silk cord. Retros is preserved as printed, without supplying a modern accent."
         },
         {
           "id": "c2-l014",
@@ -804,7 +869,8 @@
               "typeface": "roman",
               "text": " ¶ Guſocuuo"
             }
-          ]
+          ],
+          "note": "Leather straps are another joining material. Guſocuuo begins a further Japanese example after the paragraph mark, continued on the next row."
         },
         {
           "id": "c2-l015",
@@ -822,7 +888,8 @@
               "typeface": "roman",
               "text": " Guſocu."
             }
-          ]
+          ],
+          "note": "Qiru completes gusoku wo kiru, putting on armour. A new sense of Guſocu is then introduced with Item and explained below."
         },
         {
           "id": "c2-l016",
@@ -832,7 +899,8 @@
               "typeface": "italic",
               "text": "Inſtrumentos, ou petrechos que ſeruem diante"
             }
-          ]
+          ],
+          "note": "The additional sense is implements or equipment used in front of a sacred image. The object of diante is given on the next row."
         },
         {
           "id": "c2-l017",
@@ -840,9 +908,10 @@
           "runs": [
             {
               "typeface": "italic",
-              "text": "do Fotoque como caſtiças, perfumador, &c."
+              "text": "do Fotoque como caſtiçal, perfumador, &c."
             }
-          ]
+          ],
+          "note": "Fotoque is the Japanese term embedded in the Portuguese description of altar equipment, including a candlestick and an incense burner. The final tall l resolves caſtiçal, correcting draft caſtiças; this is a scan-based singular reading, not modernization."
         },
         {
           "id": "c2-l018",
@@ -855,7 +924,8 @@
               "typeface": "italic",
               "text": " Ter, ou leuar cõſigo. Vt,"
             }
-          ]
+          ],
+          "note": "Guſocuxi, suru means having or taking someone along. The Portuguese nasal abbreviation in cõſigo is preserved, and Vt introduces the historical example."
         },
         {
           "id": "c2-l019",
@@ -865,7 +935,8 @@
               "typeface": "roman",
               "text": "Moricata cono vacaguimiuo guſocu xite."
             }
-          ]
+          ],
+          "note": "Morikata takes this young lord along with him. The proper name and the phrase wakagimi wo gusoku shite belong to the standalone Japanese example, not to the embedded-term font mapping."
         },
         {
           "id": "c2-l020",
@@ -875,7 +946,8 @@
               "typeface": "italic",
               "text": "Leuando eſte homem conſigo o minino principe,"
             }
-          ]
+          ],
+          "note": "The Portuguese identifies the accompanying man and the young prince he takes with him. Minino is the source's historical spelling, not corrected to modern menino."
         },
         {
           "id": "c2-l021",
@@ -883,17 +955,18 @@
           "runs": [
             {
               "typeface": "italic",
-              "text": "ou filho do Cubo."
+              "text": "ou filho do Cubò."
             },
             {
               "typeface": "roman",
-              "text": " Tait"
+              "text": " Tait."
             },
             {
               "typeface": "italic",
-              "text": ". Lib. 10."
+              "text": " Lib. 10."
             }
-          ]
+          ],
+          "note": "The young lord is alternatively described as the Cubò's son. The source label reads Tait., with a t-shaped final letter, followed by italic Lib. 10.; the label is retained without expanding or silently regularizing it to the expected title abbreviation."
         },
         {
           "id": "c2-l022",
@@ -906,7 +979,8 @@
               "typeface": "italic",
               "text": " Armeiro, ou o que faz, ou tece"
             }
-          ]
+          ],
+          "note": "Guſocuya is an armourer, one who makes or laces armour. The relative clause continues on the following row."
         },
         {
           "id": "c2-l023",
@@ -916,7 +990,8 @@
               "typeface": "italic",
               "text": "as armas. ¶ Item, Caſa onde ſe fazem."
             }
-          ]
+          ],
+          "note": "After completing the armourer sense, Item gives the workshop where the armour is made. Both senses remain within this entry and on their printed rows."
         },
         {
           "id": "c2-l024",
@@ -929,7 +1004,8 @@
               "typeface": "italic",
               "text": " Minha caſa vil."
             }
-          ]
+          ],
+          "note": "Gutacu is a humble reference to one's own house. Vil expresses the self-deprecating register of the source rather than a judgement about the actual dwelling."
         },
         {
           "id": "c2-l025",
@@ -942,7 +1018,8 @@
               "typeface": "italic",
               "text": " Ter em ſi grã-"
             }
-          ]
+          ],
+          "note": "Gutocu is explained by toku sonawaru, possessing virtues or qualities. Grã- starts grandes across the line break and retains its abbreviation mark."
         },
         {
           "id": "c2-l026",
@@ -950,22 +1027,28 @@
           "runs": [
             {
               "typeface": "italic",
-              "text": "des virtudes, ou partes, & qualidades. S."
+              "text": "des virtudes, ou partes, & qualidades."
+            },
+            {
+              "typeface": "roman",
+              "text": " S."
             }
-          ]
+          ],
+          "note": "Des completes grandes; the definition concerns virtues, abilities and qualities possessed by someone. The terminal S. is a separate usage label in roman type."
         },
         {
           "id": "c2-l027",
           "runs": [
             {
               "typeface": "roman",
-              "text": "Guuacu. Vorocani madǒ."
+              "text": "Guuacu. Vorocani madô."
             },
             {
               "typeface": "italic",
-              "text": " Errar ignorante-"
+              "text": " Errar ignorante"
             }
-          ]
+          ],
+          "note": "Guuacu is to err through ignorance, paraphrased as orokani madou. The mark over the final vowel of madô is a circumflex, not the draft caron. Ignorante continues into mente without a visible hyphen; the complete right-edge context supports removing the draft's terminal mark."
         },
         {
           "id": "c2-l028",
@@ -975,7 +1058,8 @@
               "typeface": "italic",
               "text": "mente."
             }
-          ]
+          ],
+          "note": "Mente completes ignorantemente, describing the manner of the error. This short row belongs to Guuacu rather than the following person-name entry."
         },
         {
           "id": "c2-l029",
@@ -988,7 +1072,8 @@
               "typeface": "italic",
               "text": " Homem ignoran-"
             }
-          ]
+          ],
+          "note": "Guxa is an ignorant person, paraphrased as orokana mono. Ignoran- continues into te below, with the printed hyphen retained."
         },
         {
           "id": "c2-l030",
@@ -998,16 +1083,18 @@
               "typeface": "italic",
               "text": "te, & rudo."
             }
-          ]
+          ],
+          "note": "Te completes ignorante and is followed by rudo, finishing the description of an ignorant, unrefined person. Historical rudo is retained rather than normalized."
         },
         {
           "id": "c2-l031",
           "runs": [
             {
               "typeface": "roman",
-              "text": "Guxet. Voroca nari, tçutanaxi. i, Sorega-"
+              "text": "Guxet. Voroca nari, tçutanaxi. i, Sorega"
             }
-          ]
+          ],
+          "note": "Guxet here is a humble self-designation, with synonyms for being foolish or unskilful. Sorega continues into xi without a printed hyphen, yielding the first-person expression soregashi."
         },
         {
           "id": "c2-l032",
@@ -1019,22 +1106,24 @@
             },
             {
               "typeface": "italic",
-              "text": " Eu vil. ¶ Item, Peſſoa vil, & rude."
+              "text": " Eu vil. ¶ Itẽ, Peſſoa vil, & rude."
             }
-          ]
+          ],
+          "note": "Xi completes Soregaxi. The entry then adds the general sense of a low or rude person; the source abbreviates Item as Itẽ, retaining the nasal stroke."
         },
         {
           "id": "c2-l033",
           "runs": [
             {
               "typeface": "roman",
-              "text": "Guxer. Vorocani tçqu."
+              "text": "Guxet. Vorocani toqu."
             },
             {
               "typeface": "italic",
-              "text": " Fraudar, ou pre-"
+              "text": " Fraticar, ou pre-"
             }
-          ]
+          ],
+          "note": "This second Guxet concerns speaking or expounding badly, as the following pre-gar gloss confirms. The scan supports final t, not draft r, and toqu with an abraded o rather than tçqu. The Portuguese is read Fraticar: its initial is F-like, apparently a misprint for praticar; that anomaly is retained rather than silently corrected, and the damaged word remains a nonblocking uncertainty."
         },
         {
           "id": "c2-l034",
@@ -1044,20 +1133,22 @@
               "typeface": "italic",
               "text": "gar mal, ou ignorantemente."
             }
-          ]
+          ],
+          "note": "Gar completes pregar, to preach or expound, qualified as badly or ignorantly. This continuation supports the speech-related interpretation of the preceding Japanese toqu and rules out the draft's unrelated fraud gloss."
         },
         {
           "id": "c2-l035",
           "runs": [
             {
               "typeface": "roman",
-              "text": "Gǔxet. l, Faluno neno fuxi."
+              "text": "Gǔxet. i, Faſuno neno fuxi."
             },
             {
               "typeface": "italic",
               "text": " Nò da-"
             }
-          ]
+          ],
+          "note": "Gǔxet is the joint or node of a lotus root, hasu no ne no fushi. The damaged long s in Faſuno is read in context, as in the other lotus entries. Reinspection resolves the short stem and faint dot of the equivalence label as i, correcting the draft l. Its dot and the long-s shoulder are worn, so their readings remain nonblocking caveats."
         },
         {
           "id": "c2-l036",
@@ -1067,20 +1158,22 @@
               "typeface": "italic",
               "text": "raiz do golfão que ſerue de mezinha."
             }
-          ]
+          ],
+          "note": "The root node is said to serve as a medicine. This is the historical dictionary's account, not a present-day treatment recommendation; the physical da-/raiz division is retained."
         },
         {
           "id": "c2-l037",
           "runs": [
             {
               "typeface": "roman",
-              "text": "Gǔxi. Faluno ito."
+              "text": "Gǔxi. Faſuno ito."
             },
             {
               "typeface": "italic",
               "text": " Fios da raiz do golfão."
             }
-          ]
+          ],
+          "note": "Gǔxi denotes the fibres of a lotus root, paraphrased as hasu no ito. Faſuno contains a damaged long s rather than the draft's l; golfão is retained as the source's plant designation without taxonomic modernization."
         },
         {
           "id": "c2-l038",
@@ -1093,7 +1186,8 @@
               "typeface": "italic",
               "text": " Cinco, & quatro nos dados."
             }
-          ]
+          ],
+          "note": "This Guxi is a throw of five and four at dice. It is distinct from the following verbal entry even though the unmarked headword spelling is the same."
         },
         {
           "id": "c2-l039",
@@ -1106,7 +1200,8 @@
               "typeface": "italic",
               "text": " Leuar conſigo. ¶ Item,"
             }
-          ]
+          ],
+          "note": "The verb Guxi, suru, ita means taking someone along. Item introduces an additional sense, continued on the next row; the three printed conjugation forms remain together."
         },
         {
           "id": "c2-l040",
@@ -1120,7 +1215,8 @@
               "typeface": "roman",
               "text": " Xiqixinuo gu-"
             }
-          ]
+          ],
+          "note": "The additional sense is possessing something. Xiqixinuo gu- begins an example about having a physical body; it is a standalone Japanese example, not an embedded Portuguese term."
         },
         {
           "id": "c2-l041",
@@ -1134,7 +1230,8 @@
               "typeface": "italic",
               "text": " Ter corpo."
             }
-          ]
+          ],
+          "note": "Suru completes guſuru across the line break, and Ter corpo supplies the meaning of having a body. The short continuation is retained as an independent physical row."
         },
         {
           "id": "c2-l042",
@@ -1147,7 +1244,8 @@
               "typeface": "italic",
               "text": " Meu pay falando"
             }
-          ]
+          ],
+          "note": "This Guxin is one's father, expressed humbly and paraphrased as orokana oya. Meu pay supplies the first-person relationship, while the register qualification continues below."
         },
         {
           "id": "c2-l043",
@@ -1157,20 +1255,30 @@
               "typeface": "italic",
               "text": "humilmente."
             }
-          ]
+          ],
+          "note": "Humilmente completes the speaking-register qualification for the father term. The spelling without de is what this row actually prints."
         },
         {
           "id": "c2-l044",
           "runs": [
             {
               "typeface": "roman",
-              "text": "Guxin. Vorocana mi. i, Vagami."
+              "text": "Guxin. Vorocana"
+            },
+            {
+              "typeface": "italic",
+              "text": " mi."
+            },
+            {
+              "typeface": "roman",
+              "text": " i, Vagami."
             },
             {
               "typeface": "italic",
               "text": " Eu vil,"
             }
-          ]
+          ],
+          "note": "The next Guxin refers humbly to oneself, paraphrased as orokana mi and waga mi. The scan switches to italic for mi, despite its being a Japanese synonym. These Japanese synonyms are not words embedded within a Portuguese sentence and are therefore not marked as typeface-toggle terms."
         },
         {
           "id": "c2-l045",
@@ -1180,7 +1288,8 @@
               "typeface": "italic",
               "text": "&c. humilhandome."
             }
-          ]
+          ],
+          "note": "Humilhandome completes the self-deprecating qualification of Eu vil. It explains the speaker's modest stance rather than asserting an objective lack of worth."
         },
         {
           "id": "c2-l046",
@@ -1193,7 +1302,8 @@
               "typeface": "italic",
               "text": " Coração baixo,"
             }
-          ]
+          ],
+          "note": "The final Guxin is a low or foolish heart or mind, paraphrased as orokana kokoro. Coração baixo begins the Portuguese description, completed below."
         },
         {
           "id": "c2-l047",
@@ -1203,7 +1313,8 @@
               "typeface": "italic",
               "text": "& de pouco ſaber."
             }
-          ]
+          ],
+          "note": "E de pouco saber adds the lack-of-knowledge qualification, completing this distinct sense of Guxin. The catchword below is separate furniture, not a continuation of the definition; it reads Gǔyǒ with two carons."
         }
       ]
     },
@@ -1217,7 +1328,7 @@
           "runs": [
             {
               "typeface": "roman",
-              "text": "Gǔyô.",
+              "text": "Gǔyǒ.",
               "placement": "far-right"
             }
           ]
