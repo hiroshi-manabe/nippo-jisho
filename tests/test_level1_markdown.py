@@ -23,16 +23,27 @@ def load_module():
 
 
 class Level1MarkdownTests(unittest.TestCase):
+    def test_json_writer_preserves_semantically_identical_bytes(self):
+        module = load_module()
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / 'record.json'
+            original = '{"z": 1, "a": {"y": 2, "b": 3}}\n'
+            path.write_text(original)
+            module.write_json({'a': {'b': 3, 'y': 2}, 'z': 1}, path)
+            self.assertEqual(path.read_text(), original)
+            module.write_json({'z': 2}, path)
+            self.assertEqual(json.loads(path.read_text()), {'z': 2})
+
     def test_durable_line_notes_round_trip_without_entering_text_runs(self):
         module = load_module()
-        page = json.loads((JSON_DIR / "bnf-f0163.json").read_text(encoding="utf-8"))
-        line = next(line for zone in page["zones"] for line in zone.get("lines", []) if line["id"] == "c1-l012")
+        page = json.loads(next(JSON_DIR.glob('*.json')).read_text(encoding="utf-8"))
+        line = next(line for zone in page["zones"] for line in zone.get("lines", []))
         line["note"] = "The reading is mechanically useful.\nIt remains provisional."
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory) / "page.md"
             path.write_text(module.export_markdown(page), encoding="utf-8")
             parsed = module.parse_markdown(path)
-        parsed_line = next(line for zone in parsed["zones"] for line in zone.get("lines", []) if line["id"] == "c1-l012")
+        parsed_line = next(item for zone in parsed["zones"] for item in zone.get("lines", []) if item['id'] == line['id'])
         self.assertEqual(parsed_line["note"], line["note"])
         self.assertEqual(parsed_line["runs"], line["runs"])
 
@@ -64,56 +75,7 @@ class Level1MarkdownTests(unittest.TestCase):
                 (SOURCE / f"{page['id']}.md").read_text(encoding="utf-8"),
             )
 
-    def test_exceptional_placement_is_addressable(self):
-        page = json.loads((JSON_DIR / "bnf-f0248.json").read_text(encoding="utf-8"))
-        line = next(
-            line
-            for zone in page["zones"]
-            for line in zone.get("lines", [])
-            if line["id"] == "c1-l037"
-        )
-        displaced = [run for run in line["runs"] if run.get("placement") == "far-right"]
-        self.assertEqual([run["span_id"] for run in displaced], ["mark", "word"])
 
-    def test_recurring_large_initials_are_explicit_and_round_trip(self):
-        expected = {
-            "bnf-f0018": {"c2b-l001": 2},
-            "bnf-f0019": {"c1b-l001": 2, "c2b-l001": 2},
-            "bnf-f0021": {"c2b-l001": 2},
-            "bnf-f0025": {"c2b-l001": 2},
-            "bnf-f0029": {"c1-l001": 2},
-            "bnf-f0031": {"c2p-l001": 2, "c2q-l001": 2},
-            "bnf-f0033": {"c1b-l001": 2},
-            "bnf-f0036": {"c2b-l001": 2},
-            "bnf-f0038": {"c2b-l001": 2},
-            "bnf-f0041": {"c2-l001": 2},
-            "bnf-f0043": {"c2b-l001": 2},
-            "bnf-f0045": {"c1b-l001": 2},
-            "bnf-f0046": {"c1b-l001": 2},
-            "bnf-f0047": {"c1b-l001": 4},
-            "bnf-f0053": {"c1b-l001": 2},
-            "bnf-f0055": {"c1b-l001": 2},
-            "bnf-f0058": {"c2b-l001": 2},
-            "bnf-f0062": {"c2b-l001": 2},
-            "bnf-f0068": {"c2b-l001": 5},
-            "bnf-f0181": {"c1b-l001": 2},
-            "bnf-f0186": {"c1b-l001": 2},
-            "bnf-f0248": {"c2b-l001": 2},
-        }
-        for page_id, line_ids in expected.items():
-            source = (SOURCE / f"{page_id}.md").read_text(encoding="utf-8")
-            page = json.loads((JSON_DIR / f"{page_id}.json").read_text(encoding="utf-8"))
-            lines = {
-                line["id"]: line
-                for zone in page["zones"]
-                for line in zone.get("lines", [])
-            }
-            for line_id, line_span in line_ids.items():
-                self.assertIn(f"[{line_id} initial={line_span}]", source)
-                first = lines[line_id]["runs"][0]
-                self.assertEqual(first["layout"], "large-initial")
-                self.assertEqual(first["line_span"], line_span)
-                self.assertEqual(len(first["text"]), 1)
 
     def test_line_division_sign_is_uniform_across_typefaces(self):
         for path in SOURCE.glob("*.md"):

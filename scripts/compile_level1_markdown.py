@@ -368,6 +368,10 @@ def export_markdown(page: dict) -> str:
 
 
 def write_json(page: dict, path: Path) -> None:
+    # Object key order is not content. Avoid unrelated tracked changes when an
+    # importer serialized the same record in a different insertion order.
+    if path.exists() and json.loads(path.read_text(encoding="utf-8")) == page:
+        return
     path.write_text(json.dumps(page, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 

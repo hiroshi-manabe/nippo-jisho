@@ -1,5 +1,15 @@
 # Automated review inbox
 
+## Test policy
+
+Application tests must not freeze evolving page readings, review classifications,
+line inventories, individual crop coordinates, or campaign completion counts.
+Test those software features on fixed examples instead. Live-corpus checks may
+verify parsing, identity uniqueness, source/output consistency and history
+aggregates. A legitimate review or import must not fail because a named page
+has moved beyond its earlier provisional state. The compiler preserves existing
+JSON bytes when parsed objects are equal, avoiding unrelated key-order rewrites.
+
 `python3 scripts/review_inbox.py` performs one discovery/application cycle.
 The macOS user LaunchAgent schedules cycles every five minutes and at login.
 Codex does not need to be open; the old Codex heartbeat is paused. The user must

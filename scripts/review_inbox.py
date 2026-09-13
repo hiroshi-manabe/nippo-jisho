@@ -76,6 +76,11 @@ def cycle():
             return
         path = STATE / 'ledger.json'
         ledger = json.loads(path.read_text()) if path.exists() else {'jobs': {}, 'observed': {}}
+        # Clear a resolved pause even if every discovered item was already
+        # attempted. This does not retry any failed job.
+        if (not run('git', 'status', '--porcelain', '--untracked-files=no').strip()
+                and run('git', 'rev-list', '--count', '@{upstream}..HEAD').strip() == '0'):
+            ledger.pop('paused', None)
         # A crash after recording an attempt never silently repeats external writes.
         for job in ledger['jobs'].values():
             if job['status'] == 'running':

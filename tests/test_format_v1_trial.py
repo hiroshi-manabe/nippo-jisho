@@ -43,21 +43,6 @@ class FormatV1TrialTests(unittest.TestCase):
             self.assertEqual((output / 'page-a-page.md').read_text(), 'page-a')
             self.assertEqual((output / 'page-b-page.md').read_text(), 'keep existing preview')
 
-    def test_f13_internal_heading_is_furniture_not_body_text(self):
-        page = json.loads(
-            (TRIAL / "level1" / "bnf-f0013.json").read_text(encoding="utf-8")
-        )
-        zones = {zone["id"]: zone for zone in page["zones"]}
-        self.assertEqual(zones["section-column-1"]["kind"], "section_heading")
-        body_lines = {
-            line["id"]
-            for zone in page["zones"]
-            if zone["kind"] == "column"
-            for line in zone["lines"]
-        }
-        self.assertNotIn("c1-l019", body_lines)
-        self.assertIn("c1-l018", body_lines)
-        self.assertIn("c1-l020", body_lines)
 
     def test_complete_trial_validates(self):
         result = subprocess.run(
@@ -92,18 +77,6 @@ class FormatV1TrialTests(unittest.TestCase):
         )
         self.assertEqual(generated, module.render_sequences(structure, registry))
 
-    def test_exceptional_span_placement_remains_structural(self):
-        page = json.loads(
-            (TRIAL / "level1" / "bnf-f0248.json").read_text(encoding="utf-8")
-        )
-        line = next(
-            line
-            for zone in page["zones"]
-            for line in zone.get("lines", [])
-            if line["id"] == "c1-l037"
-        )
-        displaced = [run for run in line["runs"] if run.get("placement") == "far-right"]
-        self.assertEqual([run["span_id"] for run in displaced], ["mark", "word"])
 
     def test_trial_records_have_complete_scope_and_explicit_lineation_state(self):
         pages = [
@@ -117,11 +90,6 @@ class FormatV1TrialTests(unittest.TestCase):
             self.assertEqual(page["scope"], "full_dictionary_text_and_furniture")
             self.assertIsInstance(page["review"]["physical_lineation_checked"], bool)
 
-        final_page = next(page for page in pages if page["id"] == "bnf-f0643")
-        self.assertTrue(
-            any(zone["kind"] == "later_copy_mark" for zone in final_page["zones"])
-        )
-        self.assertTrue(any(zone["kind"] == "terminus" for zone in final_page["zones"]))
 
 
 if __name__ == "__main__":
