@@ -41,7 +41,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l025` | &emsp;*premer as vuas com ospès.* |  |
 | `c1-l026` | Fumixidaqi, u, aita. *Piſar o veſtido com-* |  |
 | `c1-l027` | &emsp;*prido, que arroja, & ſemete de baixo dos pès.* |  |
-| `c1-l028` | Fumixitaqi, qu, aita. *Piſar com os pès co-* |  |
+| `c1-l028` | Fumixitaqi, qu, aita. *Piſar com ospès co-* |  |
 | `c1-l029` | &emsp;*mo erua, & couſas ſemelhantes. ¶ Item,* |  |
 | `c1-l030` | &emsp;*Piſar, & amarlotar com ospès veſtido, &c.* |  |
 | `c1-l031` | &emsp;*que eſta no chão.* |  |
@@ -59,8 +59,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l043` | Fumonjina. *Peßoa que não ſabe ler, nem eſ-* |  |
 | `c1-l044` | &emsp;*creuer as letras da China, & outras exquiſitas.* |  |
 | `c1-l045` | Fumonjini. *Adu.* |  |
-| `c1-l046` | Fumot. Voimono, l, xacu not. *Diuidas. S.* |  |
-| `c1-l047` | Fumoto. *Pède ſerra, ou monte.* |  |
+| `c1-l046` | Fumot. Voimono, l, xacumot. *Diuidas. S.* |  |
+| `c1-l047` | Fumoto. *Pè de ſerra, ou monte.* |  |
 
 ## Column 2 running header
 
@@ -83,19 +83,19 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l009` | &emsp;*embarcarſe, & recolherſe em algũa caſa,* |  |
 | `c2-l010` | &emsp;*ou lugar.* |  |
 | `c2-l011` | Funa aſobi. *Folguedo por mar, ou por rio.* |  |
-| `c2-l012` | Funaba. *Porto, ou ſurgidouro. No* Cami *ſe* |  |
+| `c2-l012` | Funaba. *Porto, ou ſurgidouro. No Cami ſe* |  |
 | `c2-l013` | &emsp;*diz,* Funatçuqi. *¶* Funaba, l, funatçu- |  |
 | `c2-l014` | &emsp;qino yoi tocoro. *Bom lugar pera ſurgir, ou* |  |
 | `c2-l015` | &emsp;*ancorar, ou bom porto.* |  |
 | `c2-l016` | Funabari. *Bancos da galè, ou outra embarca-* |  |
 | `c2-l017` | &emsp;*ção onde ſe aßentão pera remar. ¶ Itẽ, Fei* |  |
-| `c2-l018` | &emsp;*chos. i, paos atraueſados onde ſe encoſtão na* |  |
+| `c2-l018` | &emsp;*chos.* i*, paos atraueſados onde ſe encoſtão na* |  |
 | `c2-l019` | &emsp;*embarcação.* |  |
 | `c2-l020` | Funabata. *Borda do nauio, ou embarcação.* |  |
 | `c2-l021` | Funabaxi. *Ponte feita de embarcaçoẽs.* |  |
 | `c2-l022` | &emsp;*¶* Funabaxiuo caquru. *Fazer ponte de* |  |
 | `c2-l023` | &emsp;*embarcaçoẽs liadas hũas com outras.* |  |
-| `c2-l024` | Funabin. *Portador por mar, ou occaſião de* Fu |  |
+| `c2-l024` | Funabin. *Portador por mar, ou occaſião de Fu* |  |
 | `c2-l025` | &emsp;*ne que ſe offerece.* |  |
 | `c2-l026` | Funabito. *Marinheiros, ou homẽs do mar.* |  |
 | `c2-l027` | Funacague. *Sombra, ou aparencia de embar-* |  |
@@ -108,7 +108,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l034` | Funadǒgu. *Aparelhos, ou petrechos do nauio.* |  |
 | `c2-l035` | Funadome. *O deter as embarcaçoẽs q̃ nenhũa* |  |
 | `c2-l036` | &emsp;*ſaya do porto. ¶* Funadomede aru. *A-* |  |
-| `c2-l037` | &emsp;*uer esta prohibição do* Tono, *&c. que não ſa-* |  |
+| `c2-l037` | &emsp;*uer esta prohibição do Tono*, *&c. que não ſa-* |  |
 | `c2-l038` | &emsp;*ya embarcação do porto.* |  |
 | `c2-l039` | Funagacoi. i, Funeuo cacǒ coto. *Concerto* |  |
 | `c2-l040` | &emsp;*da embarcação pera que ſe não tome dos inimi* |  |
