@@ -25,7 +25,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l009` | &emsp;no guiǒuo naſu. *Mortificar a carne guar-* |  |
 | `c1-l010` | &emsp;*dando caſtidade.* |  |
 | `c1-l011` | Fubucuro. *Saquinho de cartas.* |  |
-| `c1-l012` | Fǔbun. *i,* Xejono ſata. *Fama, ou rumer q̃* |  |
+| `c1-l012` | Fǔbun. *i,* Xejǒno ſata. *Fama, ou rumor q̃* |  |
 | `c1-l013` | &emsp;*corre no pouo. ¶* Fǔbun ſuru. *Soar, ou* |  |
 | `c1-l014` | &emsp;*correr fama.* |  |
 | `c1-l015` | Fubuqi, u, uita. *Ventar com neue.* |  |
@@ -33,10 +33,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l017` | &emsp;buqini fucaruru, l, fubuqini vǒ. *Encõ-* |  |
 | `c1-l018` | &emsp;*trar com eſte vento. ¶* Fubuqiga ſuru. |  |
 | `c1-l019` | &emsp;*Ventar, & chouer neue.* |  |
-| `c1-l020` | Fubuqidauore. *O cair encontrando com eſte* |  |
+| `c1-l020` | Fubuqidauore. *O cair encontrando com este* |  |
 | `c1-l021` | &emsp;*vẽto, & neue. ¶* Fubuqidauoreni vǒ. *Idẽ,* |  |
 | `c1-l022` | Fuca. Yocarazu. *Não ſer bom, ou não cõ* |  |
-| `c1-l023` | &emsp;*uir.* S. |  |
+| `c1-l023` | &emsp;*uir. S.* |  |
 | `c1-l024` | Fuca. *Peixe tubarão.* |  |
 | `c1-l025` | Fucaberi. *Vt,* Fucaberino tatami, l, mu |  |
 | `c1-l026` | &emsp;xiro. *Certa laya de Tatamis, ou eſteiras que* |  |
@@ -45,11 +45,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l029` | &emsp;*intimamente.* |  |
 | `c1-l030` | Fucabucaxij. *Couſa profunda.* |  |
 | `c1-l031` | &emsp;Fucabucaxiſa. |  |
-| `c1-l032` | &emsp;Fucabucaxǒ. |  |
-| `c1-l033` | Fucacu. *Infamia, ou deshonra, ou deſaſtre* |  |
+| `c1-l032` | &emsp;Fucabucaxǔ. |  |
+| `c1-l033` | Fucacu. *Infamia, ou deshonra, ou deſastre* |  |
 | `c1-l034` | &emsp;*por não ſe preparar dantes. ¶* Fucacuuo |  |
 | `c1-l035` | &emsp;caqu. *Infamarſe, ou ficar leſo, ou com al-* |  |
-| `c1-l036` | &emsp;*gum deſaſtre, &c.* |  |
+| `c1-l036` | &emsp;*gum deſastre, &c.* |  |
 | `c1-l037` | Fucacujin. *Peßoa inconſiderada, ou que errou,* |  |
 | `c1-l038` | &emsp;*ou lhe aconteceo algum deſaſtre por pouco apa-* |  |
 | `c1-l039` | &emsp;*relho, ou inconſideração.* |  |
@@ -95,7 +95,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l020` | Fuchi. *Pàga, ou ſalario. ¶* Fuchiuo ſu- |  |
 | `c2-l021` | &emsp;ru. *Pagar à gente que hum tem à ſua conta,* |  |
 | `c2-l022` | &emsp;*ou ſoſtenta.* |  |
-| `c2-l023` | Fuchi. *Pego do rio.* |  |
+| `c2-l023` | Fuchi. *Pègo do rio.* |  |
 | `c2-l024` | Fuchi. *Hum ferro que cinge a Catana entre o* |  |
 | `c2-l025` | &emsp;*punho, & os cabos.* |  |
 | `c2-l026` | Fuchi. *Faſquias, ou paos ſemelhantes que po-* |  |

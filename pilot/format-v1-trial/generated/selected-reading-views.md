@@ -30,7 +30,7 @@ Goyô. Neceſſidade, ou negocio de peſſoa honrada.
 
 ## f248 Gǔcon, Gudon, and Gudonſa readings
 
-Gǔcon. Faluno ne. Raiz do golfão.
+Gǔcon. Faſuno ne. Raiz do golfão.
 Gudon. Vorocani nibuxi. Rudeza, ou ignorancia.
 Gudonſa.
 

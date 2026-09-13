@@ -52,14 +52,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l036` | Fǒzon. Cǒbaxù zonzuru. *Reſpeito, ou pe-* |  |
 | `c1-l037` | &emsp;*jo em falar algũa couſa. ¶* Fǒzonmonǒ |  |
 | `c1-l037a` | &emsp;monouo yǔ. *Falar liuremente ſem pejo, &* |  |
-| `c1-l037b` | &emsp;*reſpeito da peſoa de que ſe falla. ¶* Fǒzon |  |
+| `c1-l037b` | &emsp;*reſpeito da peßoa de que ſe falla. ¶* Fǒzon |  |
 | `c1-l038` | &emsp;uo voqu. *Ter eſte pejo, & reſpeito, &c.* |  |
 | `c1-l039` | Fozouochi, l, fozouochino vri. *Melão ja* |  |
-| `c1-l040` | &emsp;*maduro q̃ per ſi da o pee. ¶ Item, Per-* |  |
+| `c1-l040` | &emsp;*maduro q̃ per ſi dà o pee. ¶ Item, Per-* |  |
 | `c1-l041` | &emsp;*met. Conſentir hum de ſua liure vontade ſem* |  |
 | `c1-l042` | &emsp;*força em algũa couſa. Vt,* Fozoucchiga |  |
 | `c1-l043` | &emsp;xita, l, xerareta. |  |
-| `c1-l044` | Fozuye. *Ramo de flores, ou roſas.* P. |  |
+| `c1-l044` | Fozuye. *Ramo de flores, ou roſas. P.* |  |
 | `c1-l045` | Fozzuna. *Cordas das enxarcias do nauio.* |  |
 
 ## Column 2 running header
@@ -74,7 +74,7 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c2a-l001` | Fôzzuqi. *Hũa erua aßi chamada.* |  |
 | `c2a-l002` | Fôzzuye. *O encoſtar o roſto na mão. ¶* Fôz- |  |
-| `c2a-l003` | &emsp;zuyeuo tçuqu. *Encoſtar aface ſobre a mão.* |  |
+| `c2a-l003` | &emsp;zuyeuo tçuqu. *Encoſtar a face ſobre a mão.* |  |
 
 ## Internal section heading
 
@@ -87,11 +87,11 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c2b-l001` | FV. Xiruxi. *Mutra, ou ſinal. ¶* Fu- |  |
-| `c2b-l002` | &emsp;uo tçuquru, l, naſu. *Por ſinal, ou* |  |
+| `c2b-l002` | &emsp;uo tçuquru, l, *na*ſu. *Por ſinal, ou* |  |
 | `c2b-l003` | &emsp;*mutrar.* |  |
 | `c2b-l004` | Fǔ. *Cuſtume. Vt,* Fǔno yoi fito. *Ho-* |  |
 | `c2b-l005` | &emsp;*mem de bons cuſtumes.* |  |
-| `c2b-l006` | Fu. *Dita, ou fortuna. ¶* Funo yoi l, |  |
+| `c2b-l006` | Fu. *Dìta, ou fortuna. ¶* Funo yoi, l, |  |
 | `c2b-l007` | &emsp;varui fito. *Homem ditoſo, ou mal afor-* |  |
 | `c2b-l008` | &emsp;*tunado* |  |
 | `c2b-l009` | Fu. *Bolinhos pequenos feitos de ſemeas, ou fa-* |  |
@@ -104,7 +104,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2b-l016` | &emsp;*uão as cartas.* |  |
 | `c2b-l017` | Fuben. Tarauazu. *Falta, ou mingua quer no* |  |
 | `c2b-l018` | &emsp;*ſaber, quer nas riquezas, & fato.* |  |
-| `c2b-l019` | Fubenjin, l, fubenxa. *Pobre.* |  |
+| `c2b-l019` | Fubenjin, *l*, fubenxa. *Pobre.* |  |
 | `c2b-l020` | Fubenna. *Idem.* |  |
 | `c2b-l021` | Fubenna. i, Benno canauanu fito. *Homẽ* |  |
 | `c2b-l022` | &emsp;*de pouca eloquencia, & que ſe não ſabe bem* |  |
@@ -126,7 +126,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2b-l038` | Fǔbin. Cajeno tayori. *Portador que ſe of-* |  |
 | `c2b-l039` | &emsp;*ferece.* |  |
 | `c2b-l040` | Fubinna. *Couſa miſerauel, coitada, &c. vel* |  |
-| `c2b-l041` | &emsp;*peſoa miſerauel, & que cauſa compaixão.* |  |
+| `c2b-l041` | &emsp;*peßoa miſerauel, & que cauſa compaixão.* |  |
 | `c2b-l042` | &emsp;Fubinni. |  |
 | `c2b-l043` | &emsp;Fubinſa. |  |
 
