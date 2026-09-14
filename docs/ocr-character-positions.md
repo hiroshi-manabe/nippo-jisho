@@ -77,3 +77,28 @@ offset and opacity (default opaque) persist in browser local storage. Settings
 are collapsed by default and can be reset. Local corrections do not change the
 aligned baseline text; editing and submission remain unchanged. There is no
 character-highlighting interaction. No scheduler integration is enabled.
+
+## Original-scan mapping experiment
+
+`map_f230_alignment_to_scan.py` runs in the Kraken environment. It replays
+extraction using saved boundaries/baselines, checks the prepared images against
+all 85 saved crops pixel-for-pixel, and reuses the content-dependent trimming
+box on floating-point x/y coordinate fields. A constant field excludes pixels
+blended with polygon padding. Local affine fits map character anchors and glyph
+axes back to native coordinates, including three piecewise-warped lines.
+The supplemental c1b-l003 uses its known rectangular crop transform.
+
+Results stay in `.cache/ocr-model/character-positions-v1/f230-native-mapping.json`.
+`build_native_alignment_pilot.py` creates
+`exports/character-alignment/f230-native.html` from ordinary canonical scan
+rectangles. This is a separate experiment, not a production UI replacement.
+Glyph shapes, baseline estimates and CTC positions remain approximate; local
+affine fits are not an exact inverse warp of each complete letter outline.
+
+The original-scan mapping is now used by f230's production optional display.
+The original `.line-crop` stays in place, including its existing image loading
+and context toggle. A pointer-transparent SVG layer follows the current crop
+rectangle and uses mapped character axes; it does not intercept editing.
+Whitespace is shown as `␣` only in this layer. Browser settings are unchanged.
+The earlier rectified-image production description above describes the initial
+implementation, now superseded. No periodic generation has been enabled.
