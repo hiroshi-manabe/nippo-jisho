@@ -1,0 +1,43 @@
+<!doctype html>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>f230 · Character alignment pilot</title>
+<style>
+body{margin:0;background:#f4f1e9;color:#25251f;font:17px system-ui}header{position:sticky;top:0;background:#fffef5f5;padding:14px 22px;z-index:2;border-bottom:1px solid #aaa}h1{font-size:21px;margin:0 0 6px}p{margin:5px 0;font-size:14px}main{max-width:1050px;margin:auto;padding:20px}article{background:white;padding:16px;margin-bottom:18px;border:1px solid #ddd;border-radius:7px}.scan{position:relative;width:100%;margin:10px 0}.scan img{width:100%;display:block}.mark{position:absolute;top:0;bottom:0;background:#00a4d52e;border:2px solid #008eb4;box-sizing:border-box;pointer-events:none;display:none}.mark.uncertain{background:#efaf2333;border-color:#b97400}.text{font:25px/1.65 Georgia,serif;overflow-wrap:anywhere}.char{cursor:pointer;padding:0;border:0;background:none;color:inherit;font:inherit;white-space:pre}.char.uncertain{text-decoration:underline dotted #b97400;text-underline-offset:5px}.char.active{background:#b3e8f4}.char:focus-visible{outline:2px solid #007e9e}details{font-size:14px;margin-top:10px;color:#666}.id{font-size:14px;color:#666}.unavailable{color:#ad5800}#status{min-height:20px}label{font-size:14px}
+</style>
+<style>
+.overlay{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;overflow:visible;opacity:.55}.overlay text{fill:#006bff;font-family:Georgia,serif}.overlay text.uncertain{fill:#c04400}.controls{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin:10px 0}.controls label{display:flex;align-items:center;gap:5px}.controls input[type=range]{width:100px}.controls button{padding:5px 10px}.overlay-hidden .overlay{display:none}
+</style>
+<header><h1>f230 · Character alignment pilot</h1><p>Aligned transcription below the scan. Orange indicates uncertain alignment.</p><p id="summary"></p><p id="status">Read-only experiment · saved OCR crops, not the current review UI geometry.</p></header><main id="rows"></main>
+<script>
+const data=/*DATA*/;
+const controls=document.createElement('div');controls.className='controls';
+controls.innerHTML='<label><input id="overlay-on" type="checkbox" checked>Aligned text</label><label>Opacity <input id="opacity" type="range" min="0" max="100" value="100"></label><label>Size <input id="size" type="range" min="12" max="32" value="26"></label><label>Above ↔ below <input id="vertical" type="range" min="-40" max="40" value="40" title="Offset from the scanned text baseline; zero overlays the scan"></label><label>Left/right <input id="horizontal" type="range" min="-12" max="12" value="0"></label><button id="peek">Hold to see scan only</button>';
+document.querySelector('header').append(controls);
+const overlays=[];
+function refreshOverlay(){document.body.classList.toggle('overlay-hidden',!document.querySelector('#overlay-on').checked);for(const svg of overlays){svg.style.opacity=document.querySelector('#opacity').value/100;const dy=Number(document.querySelector('#vertical').value),size=Number(document.querySelector('#size').value);svg.querySelector('g').setAttribute('transform',`translate(${document.querySelector('#horizontal').value} ${dy})`);svg.querySelector('g').setAttribute('font-size',size);const scan=svg.parentElement,scale=scan.getBoundingClientRect().height/48;scan.style.marginTop=(10+Math.max(0,-dy)*scale)+'px';scan.style.marginBottom=(10+Math.max(0,dy+size*.25)*scale)+'px';}}
+controls.querySelectorAll('input').forEach(x=>x.addEventListener('input',refreshOverlay));
+const peek=document.querySelector('#peek');peek.onpointerdown=e=>{peek.setPointerCapture(e.pointerId);document.body.classList.add('overlay-hidden');};peek.onpointerup=peek.onpointercancel=refreshOverlay;
+peek.onkeydown=e=>{if(e.key===' '){e.preventDefault();document.body.classList.add('overlay-hidden');}};peek.onkeyup=refreshOverlay;peek.onblur=refreshOverlay;
+const maxWidth=Math.max(...data.rows.map(r=>r.image_width||0));
+document.querySelector('#summary').textContent=`${data.stats.lines} lines with positions; ${data.stats.missing_lines||0} missing. ${data.stats.matched||0} matching characters, ${data.stats.uncertain||0} uncertain. Baseline ${data.baseline_sha256.slice(0,12)}.`;
+for(const row of data.rows){
+ const article=document.createElement('article');
+ const id=document.createElement('div');id.className='id';id.textContent=`${data.page}/${row.id}`;article.append(id);
+ if(!row.image){const p=document.createElement('p');p.className='unavailable';p.textContent='No saved OCR crop for this line; alignment unavailable.';article.append(p);const t=document.createElement('p');t.textContent=row.text;article.append(t);document.querySelector('#rows').append(article);continue;}
+ const scan=document.createElement('div');scan.className='scan';scan.style.width=(row.image_width/maxWidth*100)+'%';const img=new Image();img.src=row.image;img.alt=row.id+' saved OCR crop';scan.append(img);article.append(scan);
+ const ns='http://www.w3.org/2000/svg';const svg=document.createElementNS(ns,'svg');svg.classList.add('overlay');svg.setAttribute('viewBox',`0 0 ${row.image_width} 48`);svg.setAttribute('aria-hidden','true');const group=document.createElementNS(ns,'g');group.setAttribute('font-size','32');svg.append(group);scan.append(svg);overlays.push(svg);
+ const text=document.createElement('div');text.className='text';let index=0;
+ for(const run of row.runs){const span=document.createElement('span');if(run.typeface==='italic')span.style.fontStyle='italic';
+ span.textContent=run.text;
+ for(const char of run.text){const n=index++;const a=row.alignment[n];
+ if(!/\s/.test(char)){const glyph=document.createElementNS(ns,'text');glyph.textContent=char;glyph.setAttribute('y','35');glyph.setAttribute('text-anchor','middle');glyph.setAttribute('font-style',run.typeface==='italic'?'italic':'normal');glyph.classList.add(a.kind);
+ // A replacement group has only one span. Distribute its characters within
+ // that span rather than superimposing all of them at the same point.
+ let start=n,end=n+1;if(a.kind==='uncertain'){while(start>0&&JSON.stringify(row.alignment[start-1])===JSON.stringify(a))start--;while(end<row.alignment.length&&JSON.stringify(row.alignment[end])===JSON.stringify(a))end++;}
+ glyph.setAttribute('x',((a.left+a.width*(n-start+.5)/(end-start))*row.image_width/100).toFixed(2));group.append(glyph);}
+ }
+ text.append(span);}article.append(text);const details=document.createElement('details');const summary=document.createElement('summary');summary.textContent='Underlying OCR text';details.append(summary,document.createTextNode(row.ocr));article.append(details);document.querySelector('#rows').append(article);
+}
+const observer=new ResizeObserver(refreshOverlay);overlays.forEach(svg=>observer.observe(svg.parentElement));
+refreshOverlay();
+</script>

@@ -5,6 +5,7 @@ Input lines must already be segmented/rectified. This program does not guess
 page layout, edit canonical files, or turn model predictions into human review.
 """
 import argparse
+import hashlib
 import json
 import os
 from pathlib import Path
@@ -49,6 +50,7 @@ def main():
     p.add_argument('--model', type=Path, required=True, help='Packaged directory containing model.json')
     p.add_argument('--output', type=Path, required=True)
     p.add_argument('--prepared', action='store_true', help='Inputs already have the training preprocessing')
+    p.add_argument('--positions', action='store_true', help='Retain raw character spans in prepared-image coordinates')
     p.add_argument('--calamari', type=Path, default=ROOT / '.cache/ocr-model/venv-calamari-arm64/bin/calamari-predict')
     args = p.parse_args()
     model = json.loads((args.model/'model.json').read_text())
@@ -63,16 +65,24 @@ def main():
         work = Path(temporary)
         output = work/'predictions'
         output.mkdir()
+        image_metadata = []
         for i,path in enumerate(args.images):
             destination = work/f'line-{i:06d}.png'
             with Image.open(path) as image:
+                source_size = list(image.size)
                 if args.prepared:
-                    image.save(destination)
+                    prepared = image.copy()
                 else:
-                    prepare_rectified_line(image,height=48,max_width=4096).save(destination)
+                    prepared = prepare_rectified_line(image,height=48,max_width=4096)
+                prepared.save(destination)
+                image_metadata.append({'source_size': source_size,
+                    'prepared_size': list(prepared.size),
+                    'source_sha256': hashlib.sha256(path.read_bytes()).hexdigest()})
         command = [str(args.calamari), '--checkpoint', str((args.model/model['checkpoint']).resolve()),
             '--data.images',str(work/'line-*.png'), '--output_dir',str(output),
             '--verbose','false','--pipeline.batch_size','32','--pipeline.num_processes','2']
+        if args.positions:
+            command += ['--extended_prediction_data', 'true', '--extended_prediction_data_format', 'json']
         if 'arm64' in str(args.calamari) and os.uname().sysname=='Darwin':
             command = ['arch','-arm64',*command]
         log_path = work/'predict.log'
@@ -84,7 +94,17 @@ def main():
         records = []
         for i,path in enumerate(args.images):
             raw = (output/f'line-{i:06d}.pred.txt').read_text().rstrip('\r\n')
-            records.append({'image':str(path.resolve()), **decode_prediction(raw,model['mode']=='styled')})
+            record = {'image':str(path.resolve()), **decode_prediction(raw,model['mode']=='styled')}
+            if args.positions:
+                extended = json.loads((output/f'line-{i:06d}.json').read_text())
+                # Keep raw model labels, alternatives, and spans without claiming
+                # a one-to-one mapping to NFC or human-corrected text.
+                extended['line_path'] = str(path.resolve())
+                record['position_evidence'] = {**image_metadata[i],
+                    'coordinate_space': 'prepared_line_image',
+                    'kind': 'horizontal_ctc_spans_not_tight_glyph_boxes',
+                    'raw': extended}
+            records.append(record)
     document = {'format':'nippo-calamari-line-predictions','model':model['name'],
         'mode':model['mode'],'review_status':'machine-provisional','lines':records}
     args.output.parent.mkdir(parents=True,exist_ok=True)
