@@ -105,10 +105,18 @@ Pre-commit failures restore the prior asset; failed pushes require publication
 recovery as with other jobs. Existing validated f230 data is preserved until its
 baseline changes.
 
-The initial general generator uses native line rectangles directly, without
-deskewing, and only publishes lines with OCR/text agreement at least 0.85.
-Special layouts and poor matches remain unavailable. This is less complete than
-the f230 hand-prepared/replayed experiment; OCR agreement is not a guarantee of
-visual accuracy. Canonical text and geometry are never edited. Source scans
+The corrected general generator uses saved isolated, rectified OCR crops and
+replays their extraction on coordinate fields to recover native-scan mappings.
+It verifies the saved image hashes and replayed pixels, and only publishes
+lines with OCR/text agreement at least 0.85. Broad UI rectangles are not used
+as recognition inputs. Missing extraction manifests fail explicitly rather
+than silently switching to the inferior direct-crop method. Manifest changes
+and mapper code changes are included in the job fingerprint.
+Special layouts and poor matches remain unavailable. The recorded supplemental
+f230 c1b-l003 crop is reused automatically; its initial decorated line remains
+excluded. The corrected pipeline reproduced all f230 alignment/mapping values
+exactly (86/87 lines) and recovered 95/95 lines on f226, versus 25/95 with the
+discarded direct-crop method. OCR agreement is not a guarantee of visual
+accuracy. Canonical text and geometry are never edited. Source scans
 missing locally fail once and are recorded. The UI discovers generated assets
 from its content-version manifest. No separate scheduling service is required.

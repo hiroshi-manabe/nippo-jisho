@@ -7,19 +7,26 @@ from kraken.containers import BaselineLine, Segmentation
 from kraken.lib.segmentation import extract_polygons
 from ocr_line_images import prepare_rectified_line
 import hashlib
+import argparse
 
 ROOT=Path(__file__).resolve().parents[1]
-target=ROOT/'site/assets/alignment/bnf-f0230.json'
+parser=argparse.ArgumentParser(description=__doc__)
+parser.add_argument('--page',default='bnf-f0230')
+parser.add_argument('--input',type=Path)
+parser.add_argument('--output',type=Path)
+args=parser.parse_args()
+target=args.input or ROOT/f'site/assets/alignment/{args.page}.json'
 data=json.loads(target.read_text())
-manifest=json.loads((ROOT/'.cache/ocr-model/page-refresh-v2/prepared/bnf-f0230.json').read_text())
+manifest=json.loads((ROOT/f'.cache/ocr-model/page-refresh-v2/prepared/{args.page}.json').read_text())
 records={r['line']:r for r in manifest['records']}
-scan=Image.open(ROOT/'build/nippo-jisho-images/scans/native/f0230.jpg').convert('RGB')
+scan_path=ROOT/f'build/nippo-jisho-images/scans/native/{args.page.removeprefix("bnf-")}.jpg'
+scan=Image.open(scan_path).convert('RGB')
 y,x=np.indices((scan.height,scan.width),dtype=np.float32)
 fields=[Image.fromarray(x+1),Image.fromarray(y+1),Image.fromarray(np.ones_like(x))]
 for row in data['rows']:
-    if not row.get('image'):continue
+    if not row.get('alignment'):continue
     if row['id'] not in records:
-        if row['id']=='c1b-l003':
+        if args.page=='bnf-f0230' and row['id']=='c1b-l003':
             w=row['image_width'];row['scan_mapping']={'origin':[770,1811], 'dx':[665/w,0], 'dy':[0,78/48]}
         continue
     r=records[row['id']]
@@ -55,7 +62,7 @@ for row in data['rows']:
         fit=np.linalg.lstsq(np.column_stack([np.ones(len(take)),points[take]]),source[take],rcond=None)[0]
         mappings.append({'origin':fit[0].tolist(),'dx':fit[1].tolist(),'dy':fit[2].tolist()})
     row['scan_mappings']=mappings
-data['scan_mapping_source_sha256']=hashlib.sha256((ROOT/'build/nippo-jisho-images/scans/native/f0230.jpg').read_bytes()).hexdigest()
-output=ROOT/'.cache/ocr-model/character-positions-v1/f230-native-mapping.json'
+data['scan_mapping_source_sha256']=hashlib.sha256(scan_path.read_bytes()).hexdigest()
+output=args.output or ROOT/'.cache/ocr-model/character-positions-v1/f230-native-mapping.json'
 output.write_text(json.dumps(data,ensure_ascii=False)+'\n')
 print('Mapped',sum('scan_mappings' in r or 'scan_mapping' in r for r in data['rows']),'lines')
