@@ -333,6 +333,10 @@ function decorateSelectionCards() {
   for (const card of document.querySelectorAll('#page-grid [data-leaf]')) {
     const page = state.byLeaf.get(pageKey(card.dataset.leaf));
     const count = savedCorrectionCount(page);
+    if (page.alignment_coverage) {
+      const {usable, total} = page.alignment_coverage;
+      card.querySelector('.card-copy').insertAdjacentHTML('beforeend', `<span class="mini-badge alignment-badge">Aligned text${usable < total ? ` · ${usable}/${total}` : ''}</span>`);
+    }
     card.classList.toggle('has-local-changes', count > 0);
     if (selectionMode) {
       card.disabled = !page.processed || page.review_blocked;

@@ -497,6 +497,16 @@ def main() -> int:
             if not page.get("processed") or page.get("machine_provisional"):
                 raise ValueError(f"Commentary review registered for noncanonical page {page_id}")
             page["ai_checked"] = True
+        page['alignment_coverage'] = None
+        alignment_path = root / 'site/assets/alignment' / f'{page_id}.json'
+        if alignment_path.exists():
+            alignment = load_json(alignment_path)
+            current = {line['id']: line['runs'] for zone in page.get('zones', []) for line in zone['lines']}
+            rows = alignment.get('rows', [])
+            if rows and all(current.get(row['id']) == row['runs'] for row in rows):
+                usable = sum(bool(row.get('scan_mappings') or row.get('scan_mapping')) for row in rows)
+                if usable:
+                    page['alignment_coverage'] = {'usable': usable, 'total': len(rows)}
         pages.append(page)
     question_path = root / "pilot/human-review/pending-questions.json"
     questions = load_json(question_path)["pages"] if question_path.exists() else {}

@@ -20,6 +20,7 @@
   `;document.head.append(css);
   const ns='http://www.w3.org/2000/svg';
   function apply(){
+    document.querySelectorAll('.alignment-unavailable').forEach(label=>label.hidden=!prefs.enabled);
     document.querySelectorAll('.aligned-panel').forEach(panel=>{
       panel.parentElement.classList.toggle('aligned-active',prefs.enabled);
       const scan=panel.firstChild,svg=scan.querySelector('svg'),g=svg.firstChild;
@@ -41,11 +42,13 @@
     });
   }
   function save(){try{localStorage.setItem(key,JSON.stringify(prefs));}catch{}apply();}
-  function controls(list){
+  function controls(list,data){
     if(list.querySelector('.aligned-controls'))return;
     const bar=document.createElement('div');bar.className='aligned-controls';
     bar.innerHTML='<label><input type="checkbox" data-setting="enabled">Aligned baseline text</label><details><summary>Display settings</summary><small>Saved in this browser. Text is a baseline snapshot, not your local edits. Positions are mapped onto the ordinary scan. ␣ shows a space.</small></details>';
     const details=bar.querySelector('details');
+    const usable=data.rows.filter(r=>r.scan_mappings||r.scan_mapping).length;
+    bar.querySelector('label').append(` · ${usable}/${data.rows.length}`);
     for(const [name,label,min,max] of [['size','Size',12,32],['vertical','Above ↔ below',-40,40],['horizontal','Left/right',-12,12],['opacity','Opacity',0,100]]){
       const l=document.createElement('label');l.textContent=label;const input=document.createElement('input');input.type='range';input.min=min;input.max=max;input.dataset.setting=name;l.append(input);details.append(l);
     }
@@ -65,10 +68,15 @@
     const current=new Map(page.zones.flatMap(z=>z.lines).map(l=>[l.id,l.runs]));
     // Reject stale text or typeface snapshots, even if local edits exist.
     if(data.rows.some(r=>JSON.stringify(current.get(r.id))!==JSON.stringify(r.runs)))return;
-    controls(list);const maxWidth=Math.max(...data.rows.map(r=>r.image_width||0));
+    controls(list,data);
     for(const row of data.rows){
-      if(!row.scan_mappings&&!row.scan_mapping)continue;
       const article=[...list.querySelectorAll('.line-row')].find(a=>a.dataset.line===row.id);
+      if(article&&!row.scan_mappings&&!row.scan_mapping){
+        if(!article.querySelector('.alignment-unavailable')){
+          const label=document.createElement('small');label.className='alignment-unavailable';label.textContent='Alignment unavailable';label.style.cssText='color:var(--muted);padding:.3rem .8rem';article.append(label);
+        }
+        continue;
+      }
       if(!article||article.querySelector('.aligned-panel'))continue;
       const panel=document.createElement('div');panel.className='aligned-panel';panel._glyphs=[];const scan=document.createElement('div');scan.className='aligned-scan';panel.append(scan);
       const svg=document.createElementNS(ns,'svg');svg.setAttribute('viewBox',`0 0 ${row.image_width} 48`);svg.setAttribute('aria-hidden','true');const g=document.createElementNS(ns,'g');svg.append(g);scan.append(svg);
