@@ -94,3 +94,21 @@ explaining the outcome. Retain the original request and baseline. Rebuild,
 commit and publish. A page unlocks only when all its blocking records are
 resolved; do not simply remove the warning in the browser. This is deliberately
 not an automatic semantic adjudication or a new merge UI.
+# Optional alignment generation
+
+After Issue and external-result applications, the runner attempts at most one
+alignment page per cycle under the same lock. AI-commentary-reviewed pages with
+no applied human Issues take priority over human-reviewed pages. Baseline,
+geometry, model metadata and generator code fingerprint each attempt; unchanged
+failures are not retried. Successful assets are built, committed and pushed.
+Pre-commit failures restore the prior asset; failed pushes require publication
+recovery as with other jobs. Existing validated f230 data is preserved until its
+baseline changes.
+
+The initial general generator uses native line rectangles directly, without
+deskewing, and only publishes lines with OCR/text agreement at least 0.85.
+Special layouts and poor matches remain unavailable. This is less complete than
+the f230 hand-prepared/replayed experiment; OCR agreement is not a guarantee of
+visual accuracy. Canonical text and geometry are never edited. Source scans
+missing locally fail once and are recorded. The UI discovers generated assets
+from its content-version manifest. No separate scheduling service is required.

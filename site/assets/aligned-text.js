@@ -57,7 +57,7 @@
   }
   async function mount(){
     const page=state.currentPage,list=document.querySelector('#page-content .line-list');
-    if(!page||!list||page.page_id!=='bnf-f0230')return;
+    if(!page||!list||!window.NIPPO_ASSET_VERSION?.assets['assets/alignment/'+page.page_id+'.json'])return;
     const id=page.page_id;
     const asset='assets/alignment/'+id+'.json',version=window.NIPPO_ASSET_VERSION?.assets[asset];
     if(!cache.has(id))cache.set(id,fetch(asset+(version?'?v='+version:'')).then(r=>{if(!r.ok)throw Error(r.status);return r.json();}).catch(()=>null));

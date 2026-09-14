@@ -96,10 +96,17 @@ def cycle():
         except Exception as exc:
             ledger['discovery_error'] = str(exc)
         jobs.sort(key=lambda item: (item[1]['kind'] != 'issue', item[1].get('number', 0), item[0]))
+        # Overlay jobs are appended only after discovery of higher-priority work.
+        # At most one page per cycle, and never retry an unchanged failed input.
+        from alignment_queue import discover as discover_alignments
+        overlay_jobs=discover_alignments()
+        jobs.extend(next(([job] for job in overlay_jobs if job[0] not in ledger['jobs']), []))
         save(path, ledger)
         for key, spec in jobs:
             if key in ledger['jobs']:
                 continue
+            if spec['kind']=='alignment' and key not in dict(discover_alignments()):
+                continue  # Higher-priority applications changed its input.
             if run('git', 'status', '--porcelain', '--untracked-files=no').strip():
                 ledger['paused'] = 'Tracked changes exist; applications paused, discovery continues.'
                 break
@@ -114,17 +121,29 @@ def cycle():
             save(path, ledger)
             log = STATE / (digest(key.encode()) + '.log')
             record['log'] = str(log)
+            overlay_path=ROOT/f'site/assets/alignment/{spec["page"]}.json' if spec['kind']=='alignment' else None
+            previous_overlay=overlay_path.read_bytes() if overlay_path and overlay_path.exists() else None
+            original_head=run('git','rev-parse','HEAD').strip()
             try:
                 if spec['kind'] == 'issue':
                     payload = extract_payload(spec['body'])
                     command = [sys.executable, 'scripts/process_correction_issue.py', 'process', str(spec['number'])]
-                else:
+                elif spec['kind'] == 'external':
                     source = find_input(spec['path'], ROOT / 'exports/external-review')
                     command = [sys.executable, 'scripts/external_ai_review.py', 'apply', str(source), spec['path'], '--publish']
+                else:
+                    command = ['arch','-arm64',str(ROOT/'.cache/ocr-model/venv-calamari-arm64/bin/python'), 'scripts/generate_page_alignment.py', spec['page'], spec['fingerprint']]
                 with log.open('w') as output:
                     result = subprocess.run(command, cwd=ROOT, stdout=output, stderr=subprocess.STDOUT)
                 record['status'] = 'succeeded' if result.returncode == 0 else 'awaiting_human' if result.returncode == 3 else 'failed'
                 record['returncode'] = result.returncode
+                if result.returncode == 0 and spec['kind']=='alignment':
+                    with log.open('a') as output:
+                        subprocess.run([sys.executable,'scripts/build_public_review.py'],cwd=ROOT,check=True,stdout=output,stderr=subprocess.STDOUT)
+                    asset=f'site/assets/alignment/{spec["page"]}.json'
+                    run('git','add','--',asset)
+                    run('git','commit','-m',f'Generate aligned baseline display for {spec["page"]}','--',asset)
+                    run('git','push')
                 if result.returncode == 0 and spec['kind'] == 'external':
                     from process_correction_issue import wait_for_deployment
                     # The importer deliberately does not own deployment polling.
@@ -132,6 +151,12 @@ def cycle():
             except Exception as exc:
                 record.update(status='failed', reason=str(exc))
             finally:
+                if overlay_path and record['status']!='succeeded' and run('git','rev-parse','HEAD').strip()==original_head:
+                    if previous_overlay is None:
+                        overlay_path.unlink(missing_ok=True)
+                    else:
+                        overlay_path.write_bytes(previous_overlay)
+                    subprocess.run(['git','restore','--staged','--',str(overlay_path.relative_to(ROOT))],cwd=ROOT,stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL)
                 save(path, ledger)
         save(path, ledger)
         summary = {k: v['status'] for k, v in ledger['jobs'].items()}
