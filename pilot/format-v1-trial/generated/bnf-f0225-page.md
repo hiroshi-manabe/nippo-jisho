@@ -86,7 +86,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l012` | &emsp;rite, yo ſudeni fuqeni qeri. Taif. *Lib.* |  |
 | `c2-l013` | &emsp;*18*. *A Rainha encostandoſe, & aquietan-* |  |
 | `c2-l014` | &emsp;*doſe todos: fezſe quaſi alta noite. ¶* Toxiga |  |
-| `c2-l015` | &emsp;fuqeta. *He ja de muita idade.* |  |
+| `c2-l015` | &emsp;fuqeta. H*e ja de muita idade.* |  |
 | `c2-l016` | Fǔqei. i, Tocorono qexiqi. *Feição do lu-* |  |
 | `c2-l017` | &emsp;*gar, boa viſta, &c.* |  |
 | `c2-l018` | Fuqen. Caxicocarazu. *Não prudente. Não* |  |

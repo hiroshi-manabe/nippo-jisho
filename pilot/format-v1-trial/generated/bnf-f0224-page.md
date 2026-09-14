@@ -14,7 +14,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | Funagu. *Aparelhos, ou petrechos do nauio* |  |
+| `c1-l001` | Funagu. *Aparelhos, ou petrechos do nauio.* |  |
 | `c1-l002` | Funaicuſa. *Guerra por mar.* |  |
 | `c1-l003` | Funajômǒ. *O queimar a embarcação.* |  |
 | `c1-l004` | Funamachi. *O eſperar polla embarcação.* |  |
@@ -27,7 +27,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l011` | Funamuxi. *Bicho que roe as embarcaçoẽs.* |  |
 | `c1-l012` | Fǔnan. Cajeno nan. *Perigo do vento, ou* |  |
 | `c1-l013` | &emsp;*trabalho de tempeſtade.* |  |
-| `c1-l014` | Funaqeigo. *Melius,* Qeigobune. *Freta,* |  |
+| `c1-l014` | Funaqeigo. *Meliùs,* Qeigobune. *Freta,* |  |
 | `c1-l015` | &emsp;*ou armada por mar.* |  |
 | `c1-l016` | Funaſoco. *Quilha do nauio por dentro, ou fun* |  |
 | `c1-l017` | &emsp;*do da embarcação.* |  |
@@ -80,11 +80,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l006` | Funbetxa. *Homem de bom entendimento, &* |  |
 | `c2-l007` | &emsp;*ſaber.* |  |
 | `c2-l008` | Funchǔ. Funno muxi. *Bicho que anda no* |  |
-| `c2-l009` | &emsp;*eſterço.* |  |
-| `c2-l010` | Funcot. Foneuo coni ſu. i, *Grande ſeruiço,* |  |
+| `c2-l009` | &emsp;*eſterco.* |  |
+| `c2-l010` | Funcot. Foneuo coni ſu. *i*, *Grande ſeruiço,* |  |
 | `c2-l011` | &emsp;*ou trabalho. ¶* Funcotuo tçucuſu. *Tra* |  |
 | `c2-l012` | &emsp;*balhar, ou ſeruir com todas as forças. ¶* Fũ |  |
-| `c2-l013` | &emsp;cotno côuotçumu. *Ter trabalhado muito,* |  |
+| `c2-l013` | &emsp;cotno côuo tçumu. *Ter trabalhado muito,* |  |
 | `c2-l014` | &emsp;*ou paßados muitos trabalhos.* |  |
 | `c2-l015` | Fundô. *Peſos da balança.* |  |
 | `c2-l016` | Fundoxi. *Encacho.* |  |
@@ -114,7 +114,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l040` | &emsp;ta axiuo anano nacaye fungôde iru teide |  |
 | `c2-l041` | &emsp;gozaru. Mon. *Eſtaua com hum pè ja me* |  |
 | `c2-l042` | &emsp;*tido na coua. i, Perto de morrer. ¶* Do- |  |
-| `c2-l043` | &emsp;roni fungomu. *Estar atolado na lama,* |  |
+| `c2-l043` | &emsp;roni fungomu. *Estar atolado na lama.* |  |
 | `c2-l044` | Funhoi. Cocorono gotoqu narazu. i, Fubẽ |  |
 | `c2-l045` | &emsp;na coto. *Pobreza, ou falta do neceßario,* |  |
 | `c2-l046` | &emsp;*ou de poder, & habilidade pera fazer al-* |  |
