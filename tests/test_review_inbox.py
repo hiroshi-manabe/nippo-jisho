@@ -10,6 +10,15 @@ import external_ai_review as review
 
 
 class InboxTests(unittest.TestCase):
+    def setUp(self):
+        # Queue tests must never discover the real corpus or launch real jobs.
+        discovery = patch('alignment_queue.discover', return_value=[])
+        discovery.start()
+        self.addCleanup(discovery.stop)
+        execution = patch.object(inbox.subprocess, 'run', side_effect=AssertionError('Unexpected real job execution in inbox unit test'))
+        execution.start()
+        self.addCleanup(execution.stop)
+
     def test_stable_file_and_content_identity(self):
         with tempfile.TemporaryDirectory() as tmp:
             folder = Path(tmp)
