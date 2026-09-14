@@ -51,7 +51,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l035` | Fuqicayexi, ſu, eita. *Virar o vento algũa* |  |
 | `c1-l036` | &emsp;*couſa.* |  |
 | `c1-l037` | Fuqicudaqi, qu, aita. *Quebrar o vẽto algũa* |  |
-| `c1-l038` | &emsp;*couſa. Vt,* Taifùga cozuyeuo fuqicudai- |  |
+| `c1-l038` | &emsp;*couſa. Vt,* Taifǔga cozuyeuo fuqicudai- |  |
 | `c1-l039` | &emsp;te, naguiſani iſagouo tobaſuru. *Quebrã-* |  |
 | `c1-l040` | &emsp;*do o vẽto os raminhos de cima dos cumes das* |  |
 | `c1-l041` | &emsp;*aruores, & fazendo ſaltar as areas da praya.* |  |
@@ -83,7 +83,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l008` | Fuqigayexi. *Abas do capacete.* |  |
 | `c2-l009` | Fuqiidaxi, ſu, aita. *Botar fora aſoprando* |  |
 | `c2-l010` | &emsp;*algũa couſa. ¶ Item, Deſbrochar com* |  |
-| `c2-l011` | &emsp;*rijo não podendo terſe.* |  |
+| `c2-l011` | &emsp;*riſo não podendo terſe.* |  |
 | `c2-l012` | Fuqijde, zzuru, eta. *Começar de ventar.* |  |
 | `c2-l013` | &emsp;*¶ Item, Começar a ſair ſarna. Vt,* Caſa- |  |
 | `c2-l014` | &emsp;ga fuqi izzuru. |  |
@@ -97,7 +97,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l022` | Fuqimodoxi, ſu, oita. *Fazer arribar a* |  |
 | `c2-l023` | &emsp;*embarcação, &c.* |  |
 | `c2-l024` | Fuqimucai, ǒ, ǒta. *Ventar vento contrario.* |  |
-| `c2-l025` | Fuqin, l, fuiqin. *Melius,* Foiqin. *Pano* |  |
+| `c2-l025` | Fuqin, *l*, fuiqin. *Meliùs,* Foiqin. *Pano* |  |
 | `c2-l026` | &emsp;*de alimpar os goquis, meſas, &c.* |  |
 | `c2-l027` | Fuqinabiqe, uru, eta. *Abaixar o vento* |  |
 | `c2-l028` | &emsp;*as plantas, eruas, &c.* |  |
