@@ -540,12 +540,10 @@ def main() -> int:
         "app.js",
         "styles.css",
         "reference.css",
-        "ss-review.html",
-        "ss-review.js",
         ".nojekyll",
     ):
         shutil.copy2(root / "site" / name, output / name)
-    shutil.copytree(root / "site/assets", output / "assets")
+    shutil.copytree(root / "site/assets", output / "assets", ignore=shutil.ignore_patterns('ss-review'))
     reference_dir = output / "reference"
     reference_dir.mkdir()
     (reference_dir / "cheat-sheet.html").write_text(

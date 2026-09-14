@@ -1,5 +1,10 @@
 # Italic double-s review through f200
 
+Retired from the public UI on 2026-09-15. The overview link, review page,
+script, and crop assets are no longer published. Source files and frozen
+review data remain available locally as historical records; applied human
+corrections are unchanged. The instructions below describe the former UI.
+
 This temporary review distinguishes two appearances previously transcribed as
 italic `ſſ`: the β-like ligature (proposed `ß`) and two long-s forms (`ſſ`).
 `ß` is a diplomatic glyph convention here, not German spelling. Existing `ſs`,
@@ -12,7 +17,7 @@ these distinctions may be used in a new OCR training dataset.
 
 ## Review UI
 
-Open `ss-review.html` from the main overview. Checked means retain `ſſ`;
+The former `ss-review.html` was linked from the main overview. Checked means retain `ſſ`;
 unchecked means change to `ß`. AI suggestions preselect the checked minority.
 Each item highlights the target in its text, supplies a scan strip, and offers
 an enlarged surrounding-lines view and a full-scan link. Arrow keys move
