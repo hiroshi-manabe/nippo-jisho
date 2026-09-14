@@ -59,7 +59,8 @@
     const page=state.currentPage,list=document.querySelector('#page-content .line-list');
     if(!page||!list||page.page_id!=='bnf-f0230')return;
     const id=page.page_id;
-    if(!cache.has(id))cache.set(id,fetch('assets/alignment/'+id+'.json').then(r=>{if(!r.ok)throw Error(r.status);return r.json();}).catch(()=>null));
+    const asset='assets/alignment/'+id+'.json',version=window.NIPPO_ASSET_VERSION?.assets[asset];
+    if(!cache.has(id))cache.set(id,fetch(asset+(version?'?v='+version:'')).then(r=>{if(!r.ok)throw Error(r.status);return r.json();}).catch(()=>null));
     const data=await cache.get(id);if(!data||!list.isConnected||state.currentPage!==page)return;
     const current=new Map(page.zones.flatMap(z=>z.lines).map(l=>[l.id,l.runs]));
     // Reject stale text or typeface snapshots, even if local edits exist.

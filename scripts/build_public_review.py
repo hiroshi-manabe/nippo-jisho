@@ -546,6 +546,11 @@ def main() -> int:
         render_reference(root / "docs/historical-language-notes.md", "Historical Language Notes"),
         encoding="utf-8",
     )
+    try:
+        from scripts.version_site_assets import version_assets
+    except ModuleNotFoundError:
+        from version_site_assets import version_assets
+    version_assets(output)
     print(f"Built {len(pages)} leaves at {output}; commit {commit[:7]}.")
     return 0
 
