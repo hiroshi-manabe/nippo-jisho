@@ -18,10 +18,10 @@ Lexical cross-check: NINJAL, Entry Words Data of Nippojisho, version 202510, Hid
 | --- | --- | --- |
 | `c1-l001` | Ganyei. *Neuoa dos olhos.* |  |
 | `c1-l002` | Ganyô. Cauobaxe, catachi. *Roſto, &* |  |
-| `c1-l003` | &emsp;*figura.* S. |  |
+| `c1-l003` | &emsp;*figura. S.* |  |
 | `c1-l004` | Ganzǒ. Fucumi majiuaru. *Hũa certa igua* |  |
 | `c1-l005` | &emsp;*ria de muitos pexes miſturados feitos em Saxi-* |  |
-| `c1-l006` | &emsp;*mi.* S. *¶ Item, Miſtura de varias* |  |
+| `c1-l006` | &emsp;*mi. S. ¶ Item, Miſtura de varias* |  |
 | `c1-l007` | &emsp;*couſas.* |  |
 | `c1-l008` | Gappato. *Adu. Vide,* Gafato. |  |
 | `c1-l009` | Gappi. *Concordar. Vt,* Gappi ſuru. |  |
@@ -33,12 +33,12 @@ Lexical cross-check: NINJAL, Entry Words Data of Nippojisho, version 202510, Hid
 | `c1-l015` | &emsp;*que reprendem, & abatem alguem. Vt,* |  |
 | `c1-l016` | &emsp;Ano gaqimega. *Aquelle triste, & mala-* |  |
 | `c1-l017` | &emsp;*venturado, ou faminto, &c.* |  |
-| `c1-l018` | Gaqi. Vye, vyuru. *Fome.* S. |  |
+| `c1-l018` | Gaqi. Vye, vyuru. *Fome. S.* |  |
 | `c1-l019` | Gaqidǒ. *Inferno onde a tormentão com fome* |  |
 | `c1-l020` | &emsp;*as almas.* |  |
 | `c1-l021` | Gara. *Modo, feição: ſempre vai com outro* |  |
 | `c1-l022` | &emsp;*nome. Vt,* Tocorogara. *Modo, ou fei* |  |
-| `c1-l023` | &emsp;*ção do lugar. No Cami ſe diz.* Tocorocara. |  |
+| `c1-l023` | &emsp;*ção do lugar. No Cami ſe diz,* Tocorocara. |  |
 | `c1-l024` | &emsp;*¶* Iibungara. *Tempo, ou conjunção de tẽ* |  |
 | `c1-l025` | &emsp;*po em que ha algum trabalho, ou particulari-* |  |
 | `c1-l026` | &emsp;*dade, &c.* |  |
@@ -96,7 +96,7 @@ Lexical cross-check: NINJAL, Entry Words Data of Nippojisho, version 202510, Hid
 | `c2-l014` | &emsp;*¶* Gattai dôxinno vomoiuo naſu. *Eſ-* |  |
 | `c2-l015` | &emsp;*tar vnido no coração, & vontade com outro.* |  |
 | `c2-l016` | Gatten. *O entender. ¶* Gatten itaita, |  |
-| `c2-l017` | &emsp;gaetenni maitta. *Tenho entendido.* |  |
+| `c2-l017` | &emsp;gattenni maitta. *Tenho entendido.* |  |
 | `c2-l018` | &emsp;*¶ Item,* Gatten, l, tenuo auaſuru. *A* |  |
 | `c2-l019` | &emsp;*prouar, ou conſentir em algũa couſa aßinando,* |  |
 | `c2-l020` | &emsp;*ou ſem ſe aßinar.* |  |
@@ -120,13 +120,13 @@ Lexical cross-check: NINJAL, Entry Words Data of Nippojisho, version 202510, Hid
 | `c2-l038` | &emsp;xǒqinde aru. *Aquelles não combinão nas* |  |
 | `c2-l039` | &emsp;*naturezas. ¶* Areua vaga gaxxǒqin |  |
 | `c2-l040` | &emsp;gia. *Aquelle he minha contra peçonha.* |  |
-| `c2-l041` | Gayocu. Gano tçubaſa. *Aſas de pato.* S. |  |
+| `c2-l041` | Gayocu. Gano tçubaſa. *Aſas de pato. S.* |  |
 | `c2-l042` | Gue. Xita, l, cudaru. *Baixo, ou inferior.* |  |
 | `c2-l043` | Gue. *Sentença, ou verſo como o que diße cada* |  |
-| `c2-l044` | &emsp;*Apoſtolo na cõpoſição do credo, &c. ¶* Ichi |  |
+| `c2-l044` | &emsp;*Apostolo na cõpoſição do Credo, &c. ¶* Ichi |  |
 | `c2-l045` | &emsp;gue. *Hũa ſentença, ou hum verſo.* |  |
 | `c2-l046` | Gueba. Vma yori voruru. *Decerſe do caua-* |  |
-| `c2-l047` | &emsp;*lo diãte de peßoa de reſpeito, ou dalgũa* Tera *por* |  |
+| `c2-l047` | &emsp;*lo diãte de peßoa de reſpeito, ou dalgũa Tera por* |  |
 | `c2-l048` | &emsp;*corteſia.* |  |
 
 ## Quire signature

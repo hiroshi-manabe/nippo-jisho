@@ -26,7 +26,7 @@ Review lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and
 | `c1-l008` | &emsp;*co montes, ou elefante, & corno.* |  |
 | `c1-l009` | Guecai. *Este mundo inferior.* |  |
 | `c1-l010` | Guecan. *Os derradeiros dez dias do mes em cõ* |  |
-| `c1-l011` | &emsp;*paração de Chǔcan. jǒcan. Que ſão os dez do* |  |
+| `c1-l011` | &emsp;*paração de Chǔcan, jǒcan. Que ſão os dez do* |  |
 | `c1-l012` | &emsp;*meo, & os do principio.* |  |
 | `c1-l013` | Guechacu. Cudaritçuqu. *Chegar vindo do* |  |
 | `c1-l014` | &emsp;*Miyaco, ou de outra parte ſuperior.* |  |
@@ -54,7 +54,7 @@ Review lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and
 | `c1-l036` | &emsp;*vigor, & perſeuera.* |  |
 | `c1-l037` | Guecqei. *Nome de hũa dignidade, ou nobres* |  |
 | `c1-l038` | &emsp;*que ſeruem ao Dairi.* |  |
-| `c1-l039` | Guecqiǔ. Tçuqino miya. *Caſa que imagi-* |  |
+| `c1-l039` | Guecqiǔ. *T*çuqino miya. *Caſa que imagi-* |  |
 | `c1-l040` | &emsp;*não os gẽtios eſtar dentro da lũa onde hum como* |  |
 | `c1-l041` | &emsp;*Anjo a faz crecer, & minguar.* |  |
 | `c1-l042` | Guecqiǔden. *Idem.* |  |
@@ -92,13 +92,13 @@ Review lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and
 | `c2-l016` | &emsp;*Yamabuxis pera botar o diabo fora, ou pera ou* |  |
 | `c2-l017` | &emsp;*tro effeito.* |  |
 | `c2-l018` | Guedocu. *Hũa certa mezinha.* |  |
-| `c2-l019` | Guefai. Xitano tomogara. *Gente baixa, ou* |  |
+| `c2-l019` | Gu*e*fai. Xitano tomogara. *Gente baixa, ou* |  |
 | `c2-l020` | &emsp;*de inferior grao. ¶* Guefaino fito. *Idẽ.* |  |
 | `c2-l021` | Guefit. *Meliùs,* Cafit. Xitano fude. *Ru* |  |
 | `c2-l022` | &emsp;*im letra, ou ruim eſcriuão. Vt,* Iǒfit, |  |
 | `c2-l023` | &emsp;cafit. *Bom eſcriuão, ou pintor, & ruim eſ-* |  |
 | `c2-l024` | &emsp;*criuão, ou pintor.* |  |
-| `c2-l025` | Guefô. *Ma ley, ou ley do diabo, ſuperſtições,* |  |
+| `c2-l025` | Guefô. *Mà ley, ou ley do diabo, ſuperſtições,* |  |
 | `c2-l026` | &emsp;*&c. ¶* Guefô uo voconǒ. *Fazer eſ-* |  |
 | `c2-l027` | &emsp;*tas ſuperſtições, & ceremonias do diabo.* |  |
 | `c2-l028` | Guefon. *Meliùs,* Guebon. Xitano xi- |  |
@@ -107,7 +107,7 @@ Review lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and
 | `c2-l031` | &emsp;*ferior.* |  |
 | `c2-l032` | Guegue. i, Iǒri. *Calçado como alparcas de* |  |
 | `c2-l033` | &emsp;*palha. Palaura de molheres. ¶* Guegue |  |
-| `c2-l034` | &emsp;uo faqu. *Calçar eſtas alparcas de palha.* |  |
+| `c2-l034` | &emsp;uo f*a*qu. *Calçar eſtas alparcas de palha.* |  |
 | `c2-l035` | Gueguiǒ. Cudaxi voconǒ. *Dar o ſenhor,* |  |
 | `c2-l036` | &emsp;*ou entregar algũa couſa ao ſeu feitor, ou outros* |  |
 | `c2-l037` | &emsp;*officiaes pera ſe repartir, ou destribuir por ou-* |  |

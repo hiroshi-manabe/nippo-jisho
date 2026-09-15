@@ -18,11 +18,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l002` | Futauoqi. *Couſa em que ſe poem acobertura,* |  |
 | `c1-l003` | &emsp;*ou teſto do caldeirão, ou panela do Chanoyu.* |  |
 | `c1-l004` | Futçǔ. Amanecu touoru. *Vniuerſalmente,* |  |
-| `c1-l005` | &emsp;*ou pella mor parte. ¶* Futçǔna fitode nai. |  |
+| `c1-l005` | &emsp;*ou pella mòr parte. ¶* Futçǔna fitode nai. |  |
 | `c1-l006` | &emsp;*Não he qualquer homem, ou dos ordi-* |  |
 | `c1-l007` | &emsp;*narios.* |  |
 | `c1-l008` | Futçǔ. Tçǔjezu. *Não auer communicação,* |  |
-| `c1-l009` | &emsp;*nem paſajem. ¶* Farubaru futçǔni ma- |  |
+| `c1-l009` | &emsp;*nem paſſajem. ¶* Farubaru futçǔni ma- |  |
 | `c1-l010` | &emsp;cari ſugui ſoro. *Ha muito que não nos cõ-* |  |
 | `c1-l011` | &emsp;*municamos nem viſitamos. S.* |  |
 | `c1-l012` | Futçu. *Erua com que ſe dão botoens de fogo* |  |
@@ -44,7 +44,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l028` | Fǔtei. *Modo, ou cuſtume que corre. ¶* Xǔ |  |
 | `c1-l029` | &emsp;jùno fǔteini xitagatte. *Conforme ao cus-* |  |
 | `c1-l030` | &emsp;*tume, & modo de cada ſeita.* |  |
-| `c1-l031` | Futen. *Amaneqi ſora. i,* Ten. *Ceo vni-* |  |
+| `c1-l031` | Futen. *Amaneqi ſora.* i*,* Ten. *Ceo vni-* |  |
 | `c1-l032` | &emsp;*uerſal, & que cerca tudo.* |  |
 | `c1-l033` | Futeqi. *Audacia com altiuez, & pertinacia.* |  |
 | `c1-l034` | Futeqina. *Audaz, & altiuo. ¶* Fute- |  |
@@ -83,7 +83,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l008` | &emsp;*ca. X.* |  |
 | `c2-l009` | Futome, uru, eta. *Fazer grande, ou mayor.* |  |
 | `c2-l010` | Futon. i, Xiqimono. *Colchão. ¶ Item,* |  |
-| `c2-l011` | &emsp;*Almoſadinha que ſe poem ſobre a ſella do* |  |
+| `c2-l011` | &emsp;*Almofadinha que ſe poem ſobre a ſella do* |  |
 | `c2-l012` | &emsp;*caualo.* |  |
 | `c2-l013` | Futǒna. *Homem ruſtico, & mal criado, ou* |  |
 | `c2-l014` | &emsp;*que tem pouco medo, & vergonha por mais* |  |
@@ -101,7 +101,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l026` | &emsp;*talmente ſelhe não dão fretes, ou pagão.* |  |
 | `c2-l027` | Futtei. Socouo farǒ. *Gaſtarſe, ou eſgo-* |  |
 | `c2-l028` | &emsp;*tarſe de todo. Vt,* Saqe, come nado fut- |  |
-| `c2-l029` | &emsp;tei icaita. *O vinho, arroz, &c. està* |  |
+| `c2-l029` | &emsp;tei itaita. *O vinho, arroz, &c. està* |  |
 | `c2-l030` | &emsp;*acabado.* |  |
 | `c2-l031` | Futto. *Adu. Derepente, ou inſperadamente.* |  |
 | `c2-l032` | Fǔ-v. Caje, ame. *Vento, chuua.* |  |

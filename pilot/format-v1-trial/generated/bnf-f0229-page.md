@@ -26,11 +26,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l010` | &emsp;*teza, ou pedir, & ſuplicar humildemente.* |  |
 | `c1-l011` | Fuxiuogami, u, ôda. *Proſtrandoſe adorar.* |  |
 | `c1-l012` | Fuxiuore. *Quebradura polo nò como de aruo-* |  |
-| `c1-l013` | &emsp;*re erua alta, &c.* |  |
+| `c1-l013` | &emsp;*re, erua alta, &c.* |  |
 | `c1-l014` | Fuxiutçubuqi, u, uita. *Deitarſe de bruços.* |  |
 | `c1-l015` | Fuxixizzumi, u, ûda. *Estar deitado com* |  |
 | `c1-l016` | &emsp;*grandetristeza. Vt,* Qinu fiqicazzuite, |  |
-| `c1-l017` | &emsp;namidano yucani fuxixizzumarete, |  |
+| `c1-l017` | &emsp;namidano yucani fuxixizzumarete. |  |
 | `c1-l018` | &emsp;*Estando cuberta com hum mãto de ſeda eſta-* |  |
 | `c1-l019` | &emsp;*ua com grande triſteza, & lagrimas deitada.* |  |
 | `c1-l020` | &emsp;*¶* Vomoini fuxi xizzumu. *Estar ſumer-* |  |
@@ -48,10 +48,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l032` | &emsp;*bem, nem à vontade dalguem. ¶* Fuxǒ- |  |
 | `c1-l033` | &emsp;na meni vǒ. *Encontrar com ruim ſucceſ-* |  |
 | `c1-l034` | &emsp;*ſo, ou trabalho, & deſgosto. ¶* Fuxǒ |  |
-| `c1-l035` | &emsp;buxoni ſuru. *Fazer de maa vontade, ou* |  |
+| `c1-l035` | &emsp;buxǒni ſuru. *Fazer de maa vontade, ou* |  |
 | `c1-l036` | &emsp;*com repugnancia algũa couſa.* |  |
 | `c1-l037` | Fuxô. Monono cazuni arazu. *Não entrar* |  |
-| `c1-l038` | &emsp;*em numero. i, Não ter partes de letras ſa-* |  |
+| `c1-l038` | &emsp;*em numero.* i*, Não ter partes de letras ſa-* |  |
 | `c1-l039` | &emsp;*ber, &c. ¶* Fuxôno mi naredomo. |  |
 | `c1-l040` | &emsp;*Posto que eu não entre em numero de gente,* |  |
 | `c1-l041` | &emsp;*nem tenha partes, &c.* |  |
@@ -90,7 +90,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l010` | Fuye. *Garganta.* |  |
 | `c2-l011` | Fuye. *Frauta. Vt,* Fuyeuo fuqu. *Tanger* |  |
 | `c2-l012` | &emsp;*a frauta. ¶* Tçuzzumiuo naraxi, fu- |  |
-| `c2-l013` | &emsp;yeuo fuqitatetareba, *&c.* Tai. *L. 28.* |  |
+| `c2-l013` | &emsp;yeuo fuqitatetareba, &c. Tai. *L. 28.* |  |
 | `c2-l014` | &emsp;*Tangendo o tabaquinho, & a frauta.* |  |
 | `c2-l015` | Fuyeqi. Cauarazu. *Não ſe mudar. ¶* Fu- |  |
 | `c2-l016` | &emsp;yeqina coto. *Couſa immudauel, & per-* |  |
@@ -114,7 +114,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l034` | &emsp;*nagoa demaſiadamente.* |  |
 | `c2-l035` | Fuzaqe, uru, eta. *Estar muito tempo na agoa,* |  |
 | `c2-l036` | &emsp;*& danarſe, ou apodrecer como bate, ma* |  |
-| `c2-l037` | &emsp;*mes, arroz cozido, &c. No Ximo ſe diz.* |  |
+| `c2-l037` | &emsp;*mes, arroz cozido, &c. No Ximo ſe diz,* |  |
 | `c2-l038` | &emsp;Fozaqe, uru, eta. |  |
 | `c2-l039` | Fuyuzare. *P. i,* Fuyunonaca. *Meo do* |  |
 | `c2-l040` | &emsp;*inuerno.* |  |

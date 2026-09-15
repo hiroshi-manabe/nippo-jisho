@@ -45,7 +45,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l029` | &emsp;*vento. Vt,* Fǔxei ſuivon. *Soido do* |  |
 | `c1-l030` | &emsp;*vento, & ruido dagoa.* |  |
 | `c1-l031` | Fuxei. Vqiyo. *Mundo miſerauel.* |  |
-| `c1-l032` | Fuxen. Nobezu. *i, Não eſcreuer mais, ou* |  |
+| `c1-l032` | Fuxen. Nobezu. i*, Não eſcreuer mais, ou* |  |
 | `c1-l033` | &emsp;*não ſe dilatar mais na carta. S.* |  |
 | `c1-l034` | Fuxeri, u, etta. *Iazer, ou deitarſe. ¶ Itẽ,* |  |
 | `c1-l035` | &emsp;*Defumarſe. X.* |  |
@@ -56,11 +56,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l040` | Fuxi. Chichi, co. *Pay, & filho. ¶* Go- |  |
 | `c1-l041` | &emsp;fuxino aidani. *Entre o pay, & o filho* |  |
 | `c1-l042` | &emsp;*falando com reſpeito.* |  |
-| `c1-l043` | Fuxi. Xixezu. *Não morrer. i, Immortal.* |  |
+| `c1-l043` | Fuxi. Xixezu. *Não morrer.* i*, Immortal.* |  |
 | `c1-l044` | &emsp;*Vt,* Fuxifumet. *Idem. ¶* Fuxi fu- |  |
 | `c1-l045` | &emsp;metno tai. *Suſtancia immortal.* |  |
 | `c1-l046` | Fuxi. *Toada de canto. ¶* Fuxiuo tçu- |  |
-| `c1-l047` | &emsp;qiru. *Dar toada, ou por em canto algũa* |  |
+| `c1-l047` | &emsp;quru. *Dar toada, ou por em canto algũa* |  |
 | `c1-l048` | &emsp;*couſa.* |  |
 
 ## Column 2 running header

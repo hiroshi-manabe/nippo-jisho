@@ -49,7 +49,7 @@ Lexical cross-check: NINJAL, Entry Words Data of Nippojisho, version 202510, Hid
 | `c1-l031` | Ganchǔ. Manacono vchi. *Dẽtro nos olhos.* |  |
 | `c1-l032` | Gancut. Iua, ana. *Lapa, ou cauerna.* |  |
 | `c1-l033` | Gangan. Cauo, cauo. *Rosto. ¶* Gã- |  |
-| `c1-l034` | &emsp;ganaitaiſu. *Encontrarſe de roſto a rosto.* |  |
+| `c1-l034` | &emsp;gan aitaiſu. *Encontrarſe de roſto a rosto.* |  |
 | `c1-l035` | Gangin. Manacono chiri. *Argueiro dos o-* |  |
 | `c1-l036` | &emsp;*lhos. Vt,* Ganginuo farǒ. *Tirar o ar-* |  |
 | `c1-l037` | &emsp;*gueiro dos olhos.* |  |
@@ -101,7 +101,7 @@ Lexical cross-check: NINJAL, Entry Words Data of Nippojisho, version 202510, Hid
 | `c2-l024` | Ganrui. Manacono namida. *Lagrima dos* |  |
 | `c2-l025` | &emsp;*olhos.* |  |
 | `c2-l026` | Ganſat. i, Fumi. *Carta. ¶* Goganſat |  |
-| `c2-l027` | &emsp;ni azzucari ſoro. *Recebi a voßa carta.* S. |  |
+| `c2-l027` | &emsp;ni azzucari ſoro. *Recebi a voßa carta. S.* |  |
 | `c2-l028` | Gansǒ. Manacono catachi. *Figura, ou fei* |  |
 | `c2-l029` | &emsp;*ção dos olhos.* |  |
 | `c2-l030` | Gansǒ. Qixino cuſa. *Eruas da penedia da* |  |
@@ -116,7 +116,7 @@ Lexical cross-check: NINJAL, Entry Words Data of Nippojisho, version 202510, Hid
 | `c2-l039` | Ganxǒ. Iuauono vye. *Em cima da penedia,* |  |
 | `c2-l040` | &emsp;*ou rochedo.* |  |
 | `c2-l041` | Ganxǒ. Manacono vye. *Em cima dos olhos.* |  |
-| `c2-l042` | Ganxo. *Carta.* S. |  |
+| `c2-l042` | Ganxo. *Carta. S* |  |
 | `c2-l043` | Ganxocu. Cauobaxe iro. *Roſto, ou cor do* |  |
 | `c2-l044` | &emsp;*roſto. Vt,* Ganxocuni yemiuo fucumu. |  |
 | `c2-l045` | &emsp;*Ter alegria, ou moſtrala no roſto. ¶* Gã- |  |

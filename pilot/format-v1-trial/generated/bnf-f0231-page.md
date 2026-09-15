@@ -110,7 +110,7 @@ Lexical cross-check: NINJAL, Entry Words Data of Nippojisho, version 202510, Hid
 | `c2-l029` | &emsp;firoi gaicacu. *Grande vulto, & aparencia* |  |
 | `c2-l030` | &emsp;*de edificio, cerca, &c.* |  |
 | `c2-l031` | Gaichǔ. *Vt,* Iǔnigaichǔ. i, Toqino v- |  |
-| `c2-l032` | &emsp;chi. *Dentro da hora.* S. |  |
+| `c2-l032` | &emsp;chi. *Dentro da hora. S.* |  |
 | `c2-l033` | Gaicot. Xigai fone. *Oſſada de corpo morto.* |  |
 | `c2-l034` | Gaina, l, gaina mono. *Peßoa liure, & a-* |  |
 | `c2-l035` | &emsp;*miga de ſeu parecer, pouco cortes pera com o ſe* |  |
@@ -118,7 +118,7 @@ Lexical cross-check: NINJAL, Entry Words Data of Nippojisho, version 202510, Hid
 | `c2-l037` | Gaiqi. *Cadarrão. ¶* Gaiqiuo ſuru. *Eſ-* |  |
 | `c2-l038` | &emsp;*tar doente de cadarrão.* |  |
 | `c2-l039` | Gairi. *Filho de galo da China, & galinha de* |  |
-| `c2-l040` | &emsp;*Iapão.* X. *¶* Tǒmaru, gairi. *Idẽ Vide* gayeri. |  |
+| `c2-l040` | &emsp;I*apão.* X. *¶* Tǒmaru, gairi. *Idẽ Vide* gayeri. |  |
 | `c2-l041` | Gaiſai. Qiua, qiua. *Termo, ou limite.* |  |
 | `c2-l042` | Gaiſô. i, Xuabuqi. *Toſſe.* |  |
 | `c2-l043` | Gaitô. *Encruzilhada.* |  |

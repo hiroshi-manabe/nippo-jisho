@@ -57,7 +57,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1b-l009` | &emsp;*Pospoſta esta particula aos verbos ſignifica às* |  |
 | `c1b-l010` | &emsp;*vezes, mas, porem, &c. Vt,* Vomeni |  |
 | `c1b-l011` | &emsp;cacarǒtote maittaga, ſaxiuǒ cotoga go- |  |
-| `c1b-l012` | &emsp;zatte, *&c. Vim para vos ver, porem ſo-* |  |
+| `c1b-l012` | &emsp;zatte, &c*. Vim para vos ver, porem ſo-* |  |
 | `c1b-l013` | &emsp;*breuindo hum negocio, &c. ¶ Item, Tem* |  |
 | `c1b-l014` | &emsp;*força de infinitiuo. Vt,* Cǔtaga yoi. *He* |  |
 | `c1b-l015` | &emsp;*bom ter comido. ¶ Item, De accuſatiuo.* |  |
