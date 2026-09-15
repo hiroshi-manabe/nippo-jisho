@@ -1081,9 +1081,7 @@ function openEditor(row) {
   if (activeForm) {
     if (activeForm.closest('.line-row') === row) return;
     if (!saveEditor(activeForm)) return;
-    renderPageContent();
-    row = [...document.querySelectorAll('.line-row')].find(candidate => candidate.dataset.line === lineId);
-    if (!row) return;
+    replaceRenderedLine(activeForm.closest('.line-row'), lineById(activeForm.closest('.line-row').dataset.line), row);
   }
   const line = lineById(lineId);
   const edit = pageEdits(state.currentPage)[lineId];
@@ -1092,9 +1090,25 @@ function openEditor(row) {
   row.querySelector('[name="transcription"]').focus();
 }
 
-function replaceRenderedLine(row, line) {
-  row.outerHTML = lineHTML(state.currentPage, line);
-  refreshPageImageUI(state.currentPage);
+function replaceRenderedLine(row, line, anchor = row) {
+  const top = anchor.getBoundingClientRect().top;
+  const template = document.createElement('template');
+  template.innerHTML = lineHTML(state.currentPage, line);
+  const replacement = template.content.firstElementChild;
+  // Keep the scan, expanded context, and overlay (including reserved spacing).
+  // Only the transcription/editor portion needs refreshing after a local edit.
+  const crop = row.querySelector('.line-crop');
+  const panel = row.querySelector('.aligned-panel');
+  const toggle = row.querySelector('.context-toggle');
+  if (crop) replacement.querySelector('.line-crop').replaceWith(crop);
+  if (panel) crop.after(panel);
+  if (toggle) replacement.querySelector('.context-toggle').replaceWith(toggle);
+  replacement.classList.toggle('aligned-active', row.classList.contains('aligned-active'));
+  const unavailable = row.querySelector('.alignment-unavailable');
+  if (unavailable) replacement.append(unavailable);
+  row.replaceWith(replacement);
+  const retainedAnchor = anchor === row ? replacement : anchor;
+  window.scrollBy(0, retainedAnchor.getBoundingClientRect().top - top);
 }
 
 function applyQuickEdit(row, control) {
@@ -1105,9 +1119,9 @@ function applyQuickEdit(row, control) {
   const activeForm = document.querySelector('.edit-form');
   if (activeForm) {
     if (!saveEditor(activeForm)) return;
-    renderPageContent();
-    row = [...document.querySelectorAll('.line-row')].find(candidate => candidate.dataset.line === lineId);
-    if (!row) return;
+    const activeRow = activeForm.closest('.line-row');
+    replaceRenderedLine(activeRow, lineById(activeRow.dataset.line), row);
+    if (activeRow === row) row = [...document.querySelectorAll('.line-row')].find(candidate => candidate.dataset.line === lineId);
   }
   const line = lineById(lineId);
   const existing = pageEdits(state.currentPage)[lineId];
@@ -1376,7 +1390,7 @@ document.addEventListener('click', event => {
     if (event.target.closest('[data-action="edit"]')) return openEditor(row);
     if (event.target.closest('.line-text-row') && !event.target.closest('.line-text > *')) return openEditor(row);
     if (event.target.closest('[data-action="cancel"]')) { row.querySelector('.edit-form').remove(); return; }
-    if (event.target.closest('[data-action="revert"]')) { const line = lineById(row.dataset.line); const edit = pageEdits(state.currentPage)[row.dataset.line]; dismissMachineSuggestion(state.currentPage, line, edit?.machine_suggestion); delete pageEdits(state.currentPage)[row.dataset.line]; persistEdits(state.currentPage); renderPageContent(); return; }
+    if (event.target.closest('[data-action="revert"]')) { const line = lineById(row.dataset.line); const edit = pageEdits(state.currentPage)[row.dataset.line]; dismissMachineSuggestion(state.currentPage, line, edit?.machine_suggestion); delete pageEdits(state.currentPage)[row.dataset.line]; persistEdits(state.currentPage); replaceRenderedLine(row, line); return; }
   }
 });
 
@@ -1390,7 +1404,7 @@ document.addEventListener('keydown', event => {
   if (!area || event.isComposing || event.ctrlKey || event.metaKey || event.altKey) return;
   if (event.key === 'Enter') {
     event.preventDefault();
-    if (saveEditor(area.form)) renderPageContent();
+    if (saveEditor(area.form)) { const row = area.closest('.line-row'); replaceRenderedLine(row, lineById(row.dataset.line)); }
     return;
   }
   if (!TRANSCRIPTION_KEYS[event.key] || area.form.elements['literal-digits'].checked) return;
@@ -1401,7 +1415,7 @@ document.addEventListener('keydown', event => {
 document.addEventListener('submit', event => {
   const form = event.target.closest('.edit-form'); if (!form) return;
   event.preventDefault();
-  if (saveEditor(form)) renderPageContent();
+  if (saveEditor(form)) { const row = form.closest('.line-row'); replaceRenderedLine(row, lineById(row.dataset.line)); }
 });
 
 $('#home').addEventListener('click', () => showOverview());
