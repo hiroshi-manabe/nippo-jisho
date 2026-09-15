@@ -10,7 +10,7 @@ def discover():
     ai=load('pilot/human-review/commentary-reviews.json')['pages']
     human={p['id'] for p in load('pilot/human-review/correction-history.json')['pages'] if p.get('issues_applied',0)}
     geometry={p['id']:p for p in load('pilot/human-review/line-geometry.json')['pages']}
-    code=b''.join((ROOT/'scripts'/name).read_bytes() for name in ('generate_page_alignment.py','recognize_nippo_calamari.py','build_character_alignment_pilot.py','map_f230_alignment_to_scan.py'))
+    code=b''.join((ROOT/'scripts'/name).read_bytes() for name in ('generate_page_alignment.py','prepare_alignment_records.py','recognize_nippo_calamari.py','build_character_alignment_pilot.py','map_f230_alignment_to_scan.py'))
     model=(ROOT/'models/local/nippo-calamari-v2-styled/model.json').read_bytes()
     jobs=[]
     for pid in sorted(set(ai)|human):

@@ -23,7 +23,13 @@ def generate(pid, fingerprint):
     work=ROOT/'.cache/ocr-model/automatic-alignment'/pid/fingerprint
     work.mkdir(parents=True,exist_ok=True)
     manifest_path=ROOT/f'.cache/ocr-model/page-refresh-v2/prepared/{pid}.json'
-    if not manifest_path.exists():raise ValueError('Rectified extraction manifest unavailable; refusing broad UI crops')
+    if not manifest_path.exists():
+        subprocess.run(['arch','-arm64',str(ROOT/'.cache/ocr-model/venv-kraken-arm64/bin/python'),
+            str(ROOT/'scripts/prepare_alignment_records.py'),pid],check=True)
+        # Recovery changes the input fingerprint. Publish under the completed
+        # input's identity so the next cycle does not repeat a successful job.
+        from alignment_queue import discover
+        fingerprint=next(spec['fingerprint'] for _,spec in discover() if spec['page']==pid)
     records={r['line']:r for r in json.loads(manifest_path.read_text())['records']}
     rows=[];images=[]
     with Image.open(scan) as im:

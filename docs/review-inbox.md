@@ -109,8 +109,14 @@ The corrected general generator uses saved isolated, rectified OCR crops and
 replays their extraction on coordinate fields to recover native-scan mappings.
 It verifies the saved image hashes and replayed pixels, and only publishes
 lines with OCR/text agreement at least 0.85. Broad UI rectangles are not used
-as recognition inputs. Missing extraction manifests fail explicitly rather
-than silently switching to the inferior direct-crop method. Manifest changes
+as recognition inputs. Missing extraction manifests are now recovered automatically
+from the archived OCR baselines and polygons, conservatively matched to the current
+text and geometry. Split section zones use their physical column's OCR evidence.
+The recovery saves straightened crops and replayable records in the same cache;
+it never changes canonical text or geometry. Ambiguous matches and individual
+extraction failures are recorded as skipped lines. Missing source evidence or
+zero usable matches still fail explicitly, rather than using broad UI crops.
+Existing manifests are reused. Manifest changes
 and mapper code changes are included in the job fingerprint.
 Special layouts and poor matches remain unavailable. The recorded supplemental
 f230 c1b-l003 crop is reused automatically; its initial decorated line remains
