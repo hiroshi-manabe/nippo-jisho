@@ -17,8 +17,8 @@ Review lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c1-l001` | Gueinô. Yoqi xiuaza. *Artes liberaes de* |  |
-| `c1-l002` | &emsp;*Iapão, ouda China. ¶* Gùeiua Rei, gacu, xa, |  |
-| `c1-l003` | &emsp;guio, xo, ſu. i, *Policia, muſica, tirar cõ* |  |
+| `c1-l002` | &emsp;*Iapão, ouda China. ¶* Gueiua Rei, gacu, xa, |  |
+| `c1-l003` | &emsp;guio, xo, ſu. i, *Policìa, muſica, tirar cõ* |  |
 | `c1-l004` | &emsp;*arco, arte de caualgar, de eſcreuer, & cõtar.* |  |
 | `c1-l005` | &emsp;*¶* Nôua Qin, gui, xo, gua. *Arte de* |  |
 | `c1-l006` | &emsp;*tanger inſtrumento muſico, maximè crauo,* |  |
@@ -29,11 +29,11 @@ Review lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and
 | `c1-l011` | Guejigueji. *Hum bicho que chupando arrãca* |  |
 | `c1-l012` | &emsp;*os cabelos ſem dor.* |  |
 | `c1-l013` | Guejiqi. *Hum inſtrumento de bambu com que* |  |
-| `c1-l014` | &emsp;*arrancaõ os cabelos da cabeça os Iapoens.* |  |
+| `c1-l014` | &emsp;*arrancaõ os cabelos da cabeça os* I*apoens.* |  |
 | `c1-l015` | &emsp;*¶ Item, Hum certo bicho que por ſi arranca* |  |
 | `c1-l016` | &emsp;*eſtes cabelos de noite eſtando hum dormindo.* |  |
 | `c1-l017` | &emsp;*No Cami ſe diz, Guejigueji.* |  |
-| `c1-l018` | Guejiqi, u, ijta. B. *Gaſtar mal, & eſperdi-* |  |
+| `c1-l018` | Guejiqi, u, ijta. *B. Gaſtar mal, & eſperdi-* |  |
 | `c1-l019` | &emsp;*çar o fato, &c. ¶* Guejiqi vxinǒ. *Gas-* |  |
 | `c1-l020` | &emsp;*tar, & eſperdiçar todo o fato.* |  |
 | `c1-l021` | Guejǒ. Xiro yori voruru. *Decerſe da for-* |  |
@@ -45,7 +45,7 @@ Review lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and
 | `c1-l027` | &emsp;*doença que ſara, &c. Vt,* Qiyomori |  |
 | `c1-l028` | &emsp;xujuno qitǒ nadouo xeraretaredomo, ſo- |  |
 | `c1-l029` | &emsp;no guenga nacatta. Fei. *lib. i. Qiyomori* |  |
-| `c1-l030` | &emsp;*fez varias deprecaçoens, &c. mas não ouu.* |  |
+| `c1-l030` | &emsp;*fez varias deprecaçoens, &c. mas não oui* |  |
 | `c1-l031` | &emsp;*ſinal nem effeito, ou melhoria da doença.* |  |
 | `c1-l032` | Guena. *Particula que ſe ajunta, & poſtpo-* |  |
 | `c1-l033` | &emsp;*em a outras palauras. Vt,* Maitta guena. |  |
@@ -56,7 +56,7 @@ Review lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and
 | `c1-l038` | Guenbutxa. *Fotoque que deſpacha depreßa,* |  |
 | `c1-l039` | &emsp;*& ouue as petiçoens, ou dà logo premio, ou* |  |
 | `c1-l040` | &emsp;*castigo.* |  |
-| `c1-l041` | Guencan. Qibixij ſamuxi. *Grande frio.* S. |  |
+| `c1-l041` | Guencan. Qibixij ſamuxi. *Grande frio. S.* |  |
 | `c1-l042` | Guengiû. *Iustiça, & ſeueridade. ¶* Guẽ- |  |
 | `c1-l043` | &emsp;giùni xǒbatuo voconǒ. *Dar premio, ou* |  |
 | `c1-l044` | &emsp;*castigo recta, & ſeueramente.* |  |
@@ -93,7 +93,7 @@ Review lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and
 | `c2-l011` | &emsp;*tude, & marauilhosas.* |  |
 | `c2-l012` | Guenje. *Este mundo.* |  |
 | `c2-l013` | Guenjen. Mayeni arauaruru. *Aparecer* |  |
-| `c2-l014` | &emsp;*diante.* S. |  |
+| `c2-l014` | &emsp;*diante. S.* |  |
 | `c2-l015` | Guenji. Minamoto vgi. *Hũa gèraçao nome-* |  |
 | `c2-l016` | &emsp;*ada, & antiga em Iapão.* |  |
 | `c2-l017` | Guenji. *Hũs certos liuros poeticos de his-* |  |
@@ -114,16 +114,16 @@ Review lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and
 | `c2-l032` | &emsp;*recta. ¶* Guenmitni vôxetçuqerareta. |  |
 | `c2-l033` | &emsp;*Mandou com rigor, & rectamente.* |  |
 | `c2-l034` | Guenmu. Maboroxi yume. *Sonho vão, ou* |  |
-| `c2-l035` | &emsp;*que dura pouco.* Bup. |  |
+| `c2-l035` | &emsp;*que dura pouco. Bũp*. |  |
 | `c2-l036` | Guen, ni, bi, jet, xin, y. *Seis ſentidos que* |  |
-| `c2-l037` | &emsp;*poem os Chinas, & Iapoẽs.* S. *¶* Ma- |  |
+| `c2-l037` | &emsp;*poem os Chinas, & Iapoẽs. S. ¶* Ma- |  |
 | `c2-l038` | &emsp;naco, mimi, fana, xita, mi, cocoro. |  |
 | `c2-l039` | &emsp;*Ver, ouuir, cheirar, gostar, palpar, ſenti-* |  |
 | `c2-l040` | &emsp;*do comum.* |  |
 | `c2-l041` | Guen nicô. Manaco, mimi, cuchi. *Olhos,* |  |
 | `c2-l042` | &emsp;*orelhas, & boca.* |  |
 | `c2-l043` | Guennin. Maboroxino fito. *Natureza ha* |  |
-| `c2-l044` | &emsp;*mana miſerauel, & de pouca dura.* S. |  |
+| `c2-l044` | &emsp;*mana miſerauel, & de pouca dura. S.* |  |
 | `c2-l045` | Guenpu. Cayeri tçuqu. *O tornar a ſua* |  |
 | `c2-l046` | &emsp;*renda, ou eſtado primeiro. Vt,* Guenpu |  |
 | `c2-l047` | &emsp;xerareta. |  |
