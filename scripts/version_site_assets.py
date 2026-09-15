@@ -9,7 +9,11 @@ def version_assets(output):
             for p in output.rglob('*') if p.is_file() and
             (p.suffix in ('.js','.css') or '/assets/alignment/' in p.as_posix())}
     pages={p.relative_to(output).as_posix():p.read_text() for p in output.rglob('*.html')}
-    version=hashlib.sha256(json.dumps({'assets':assets,'html':pages},sort_keys=True).encode()).hexdigest()[:20]
+    # Keep data hashes for cache busting, but do not announce background
+    # alignment generation (or reference-content edits) as a UI upgrade.
+    ui_assets={name:value for name,value in assets.items()
+               if name.endswith(('.js','.css'))}
+    version=hashlib.sha256(json.dumps({'assets':ui_assets,'html':pages.get('index.html','')},sort_keys=True).encode()).hexdigest()[:20]
     manifest={'version':version,'assets':assets}
     (output/'ui-version.json').write_text(json.dumps(manifest,sort_keys=True)+'\n')
     for relative,content in pages.items():
