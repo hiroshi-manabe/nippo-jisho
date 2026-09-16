@@ -19,7 +19,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l003` | &emsp;*toma pella agoa que esta neſte vaſo.* |  |
 | `c1-l004` | Gueta. *Hũs chiripos feitos ao modo de Iapão* |  |
 | `c1-l005` | &emsp;*muito baixos.* |  |
-| `c1-l006` | Guetẽ. i, Tenyori cudaru. *Decer do ceo. Bur.* |  |
+| `c1-l006` | Guetẽ. i, Tenyori cudaru. *Decer do ceo. Bup.* |  |
 | `c1-l007` | Guetjen. Tçuqino maye. *Diante da lũa.* |  |
 | `c1-l008` | &emsp;Guetquǒ. i, Tçuqino ficari. *Claridade* |  |
 | `c1-l009` | &emsp;*da lũa.* |  |
@@ -49,18 +49,18 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l033` | Guexô. Toqi, qiyuru. *Deſfazerſe. Vt,* |  |
 | `c1-l034` | &emsp;Côri guexôſu. *Deſfazerſe ocaramelo. S.* |  |
 | `c1-l035` | Guexǒ. i, Vmaretçuqino iyaxij coto. *Bai-* |  |
-| `c1-l036` | &emsp;*xo nacimento, i, Baixa geração.* |  |
+| `c1-l036` | &emsp;*xo nacimento, i, Baixa gèração.* |  |
 | `c1-l037` | Guexô. *Partes inferiores do corpo. Vt,* |  |
 | `c1-l038` | &emsp;Guexôno fiyeta. *Eſfriarão ſe as partes de* |  |
 | `c1-l039` | &emsp;*baixo. ¶* Iǒxô. *As partes de cima co-* |  |
-| `c1-l040` | &emsp;*mo cabeça, &c. ¶* Chùxô. *As partes* |  |
+| `c1-l040` | &emsp;*mo cabeça, &c. ¶* Chǔxô. *As partes* |  |
 | `c1-l041` | &emsp;*do meo como barriga, &c.* |  |
 | `c1-l042` | Guexocu. *Officio baixo. ¶* Guexocu ſu- |  |
 | `c1-l043` | &emsp;ru. *Fazer officio, ou exercicio baixo.* |  |
 | `c1-l044` | Guexxocu. Tçuqino iro. *Cor da lũa, ou* |  |
 | `c1-l045` | &emsp;*aparencia. S.* |  |
 | `c1-l046` | Gueyacu. Xitano yacu. *Officio baixo, ou* |  |
-| `c1-l047` | &emsp;*inferior.* X. |  |
+| `c1-l047` | &emsp;*inferior. X.* |  |
 
 ## Column 2 running header
 
@@ -89,7 +89,7 @@ The first numeral is damaged or overprinted; 117 is retained from its surviving 
 | `c2-l007` | &emsp;*do* Zaxiqui. |  |
 | `c2-l008` | Gui. *Vſaſe às vezes ẽ lugar de Coto. i, couſa* |  |
 | `c2-l009` | Gui. *Hum dos cinco primores, ou custumes* |  |
-| `c2-l010` | &emsp;*politicos celebrados dos Chinas, & Iapoens* |  |
+| `c2-l010` | &emsp;*politicos celebrados dos* C*hinas, & Iapoens* |  |
 | `c2-l011` | &emsp;*que he como humildade, comedimento, &* |  |
 | `c2-l012` | &emsp;*moderação em tudo.* |  |
 | `c2-l013` | Guiacuchi. Sacaximana chiye. *Saber per-* |  |
@@ -101,7 +101,7 @@ The first numeral is damaged or overprinted; 117 is retained from its surviving 
 | `c2-l019` | &emsp;*trario, ou ruim. ¶* Guiacufǔga fuqu. |  |
 | `c2-l020` | &emsp;*Ventar vento contrario, ou ruim. ¶* Guia- |  |
 | `c2-l021` | &emsp;cufǔnimo cunzu. *Cheirar ainda com vẽto* |  |
-| `c2-l022` | &emsp;*contrario que leua o cheiro a outra parte. S.* |  |
+| `c2-l022` | &emsp;*contrario que leua o cheiro a outra parte.* S. |  |
 | `c2-l023` | Guiacugui. Sacaximanogui. *Ruim, ou per* |  |
 | `c2-l024` | &emsp;*uerſa couſa.* |  |
 | `c2-l025` | Guiacuguiǒ. Sacaximani voconǒ. *Màs* |  |
@@ -113,7 +113,7 @@ The first numeral is damaged or overprinted; 117 is retained from its surviving 
 | `c2-l031` | &emsp;*Vt,* Guiacuxinuo vocoſu. *Armar traição.* |  |
 | `c2-l032` | Guiacuxit. Vocorino yamai. *Doença de* |  |
 | `c2-l033` | &emsp;*ſezoens, ou de febres, & frios.* |  |
-| `c2-l034` | Guiacuxu. i, Goxǒno tameni ſuru coto. |  |
+| `c2-l034` | Guiacuxu. *i*, Goxǒno tameni ſuru coto. |  |
 | `c2-l035` | &emsp;*Obras pias, ou exequias, &c. que hum faz* |  |
 | `c2-l036` | &emsp;*fazer em vida pera ſua ſaluação, as quais lhe* |  |
 | `c2-l037` | &emsp;*auião de fazer de pois de ſua morte.* |  |
@@ -126,7 +126,7 @@ The first numeral is damaged or overprinted; 117 is retained from its surviving 
 | `c2-l044` | &emsp;*peruerſidade dalgũa couſa feita ao contrario* |  |
 | `c2-l045` | &emsp;*do que ſe deuia fazer.* |  |
 | `c2-l046` | Guiafei. Vocorino vazzurai. *Doença de-* |  |
-| `c2-l047` | &emsp;*terçãs, ou ſezoens.* |  |
+| `c2-l047` | &emsp;*terçaãs, ou ſezoens.* |  |
 
 ## Quire signature
 

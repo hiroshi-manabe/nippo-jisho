@@ -38,16 +38,16 @@ Review lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and
 | `c1-l020` | &emsp;itaſu. *Idem.* |  |
 | `c1-l021` | Guenrǒ. *Vt,* Guenrǒ chixin nari. *He* |  |
 | `c1-l022` | &emsp;*criado antigo, & ſabio.* |  |
-| `c1-l023` | Guenſon. Feri, ſenzuru. *Diminuição, &* |  |
-| `c1-l024` | &emsp;*perda como de fazenda, &c.* S. |  |
+| `c1-l023` | Guenſon. Feri, ſonzuru. *Diminuição, &* |  |
+| `c1-l024` | &emsp;*perda como de fazenda, &c. S.* |  |
 | `c1-l025` | Guentan. Xǒguachino axita. *Primeira* |  |
-| `c1-l026` | &emsp;*manhãa do Xǒguachi.* S. |  |
+| `c1-l026` | &emsp;*manhãa do Xǒguachi. S.* |  |
 | `c1-l027` | Guẽtǒ. *Este mũdo, ou vida preſente & futura.* |  |
 | `c1-l028` | &emsp;*¶* Guentǒ nixeno vongouo auogu ta- |  |
 | `c1-l029` | &emsp;tematçuru. *Pedir a proteição deſte mundo,* |  |
 | `c1-l030` | &emsp;*& do outro. ¶* Guentǒno tçumiuo fa- |  |
 | `c1-l031` | &emsp;taſu. *Pagar aqui, ou ſer castigado pollos* |  |
-| `c1-l032` | &emsp;*peccados feitos neſta vida, & que bum auia* |  |
+| `c1-l032` | &emsp;*peccados feitos neſta vida, & que hum auia* |  |
 | `c1-l033` | &emsp;*de pagar na outra.* |  |
 | `c1-l034` | Guentô. *Meliùs,* Quẽtô. Qibixij fuyu. |  |
 | `c1-l035` | &emsp;*Coração, ou força do inuerno.* |  |
@@ -90,7 +90,7 @@ Review lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and
 | `c2-l013` | &emsp;*das que vem por proa.* |  |
 | `c2-l014` | Gueqiǒ. *Çururgia, ou çururgião.* |  |
 | `c2-l015` | Gueqiǒja. *Çururgião.* |  |
-| `c2-l016` | Gueqio. *Mal derins,* |  |
+| `c2-l016` | Gueqio. *Mal derins.* |  |
 | `c2-l017` | Gueqiran. Sacaſamani midaruru. *Grande* |  |
 | `c2-l018` | &emsp;*perturbação, ou reuoltas.* |  |
 | `c2-l019` | Gueqiri. Axida cutçu. *Tamãcos.* |  |
@@ -112,14 +112,14 @@ Review lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and
 | `c2-l035` | Gueracu. *Decer, ou vir do Miyaco pera outra* |  |
 | `c2-l036` | &emsp;*parte.* |  |
 | `c2-l037` | Gueriacu. *Potiùs,* Cariacu. Xitauo ria |  |
-| `c2-l038` | &emsp;cuſu. *O abreujar, ou deixar de tocar cer-* |  |
+| `c2-l038` | &emsp;cuſu. *O abreuiar, ou deixar de tocar cer-* |  |
 | `c2-l039` | &emsp;*tas pancadas do cabo no tanger do tabaquinho* |  |
 | `c2-l040` | &emsp;*de Iapão, &c. ¶ Item, Sincopar a pa-* |  |
 | `c2-l041` | &emsp;*laura no cabo. Vt,* Iſabelno cauarini, Iſa. |  |
 | `c2-l042` | Gueret. *Baixeza. ¶* Gueretna fito. *Ho-* |  |
 | `c2-l043` | &emsp;*mem baixo.* |  |
 | `c2-l044` | Gueri. *Doença de camaras.* |  |
-| `c2-l045` | Guerǒ. *Peſſòa ſomenos, ou inferior entre* |  |
+| `c2-l045` | Guerǒ. *Peſſoa ſomenos, ou inferior entre* |  |
 | `c2-l046` | &emsp;*nobres, ou tambem entre gente baixa.* |  |
 | `c2-l047` | Gueſu. i, Iyaxij mono. *Eſcrauo, ou eſcraua.* |  |
 
