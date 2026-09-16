@@ -691,7 +691,10 @@ assert(!/\.review-status\{[^}]*bottom:/.test(css));
         self.assertIn("function saveEditor(form)", app)
         self.assertIn("const activeForm = document.querySelector('.edit-form')", app)
         self.assertIn("if (!saveEditor(activeForm)) return", app)
-        self.assertIn("if (saveEditor(form)) renderPageContent()", app)
+        # Saving is required; rebuilding the whole column is not. The latter
+        # discards overlay spacing and causes a scroll jump.
+        self.assertIn("if (saveEditor(form))", app)
+        self.assertIn("replaceRenderedLine(activeForm.closest('.line-row')", app)
         self.assertIn("Opening another line has the same save-and-collapse effect", workflow)
 
     def test_enter_confirms_the_physical_line_editor(self):
@@ -700,7 +703,7 @@ assert(!/\.review-status\{[^}]*bottom:/.test(css));
             encoding="utf-8"
         )
         self.assertIn("if (event.key === 'Enter')", app)
-        self.assertIn("if (saveEditor(area.form)) renderPageContent()", app)
+        self.assertIn("if (saveEditor(area.form))", app)
         self.assertIn("Pressing **Enter** in the transcription field", workflow)
 
     def test_correction_submission_separates_notes_and_ai_messages(self):
