@@ -21,11 +21,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l005` | Guiô. Xiuaza. *Obra. ¶* Coua chichino |  |
 | `c1-l006` | &emsp;guiôuo tçugu. *O filho herda, ou toma o of* |  |
 | `c1-l007` | &emsp;*ficio, ou exercicio do pay.* |  |
-| `c1-l008` | Guiǒbô. Voconô nori. i, Voconai. *Obras,* |  |
+| `c1-l008` | Guiǒbô. Voconǒ nori. i, Voconai. *Obras,* |  |
 | `c1-l009` | &emsp;*& exercicios como de Quareſma, Somana ſan-* |  |
 | `c1-l010` | &emsp;*cta, &c.* |  |
 | `c1-l011` | Guiǒbu. Yuqi, ayumu. *Andar. Vt,* To- |  |
-| `c1-l012` | &emsp;xiyotte guiobuga canauanu. *Sendo ve-* |  |
+| `c1-l012` | &emsp;xiyotte guiǒbuga canauanu. *Sendo ve-* |  |
 | `c1-l013` | &emsp;*lho não poſſo andar.* |  |
 | `c1-l014` | Guiobut. Vuo. *Peixe, ou peſcado.* |  |
 | `c1-l015` | Guioca. Sunadori iye. *Caſa de peſcador. S.* |  |

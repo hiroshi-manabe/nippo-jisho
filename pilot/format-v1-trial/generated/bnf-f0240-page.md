@@ -52,9 +52,9 @@ Lexical review aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and
 | `c1-l034` | Guiocuyǒ. Tamano cauo. *Rosto de Rey.* |  |
 | `c1-l035` | Guiocuza. Tamanoza. *Aſſento, ou cadei-* |  |
 | `c1-l036` | &emsp;*ra ricamente ornada.* |  |
-| `c1-l037` | Guiǒdǒ. Yuqu michi. *Paſſar, ou ir a mo-* |  |
-| `c1-l038` | &emsp;*do de prociſſão.* |  |
-| `c1-l039` | Guiǒdǒ. i, Sacazzuqino xitauo ſutçuru. |  |
+| `c1-l037` | Guiǒdǒ. Yuqu michi. *Paſſear, ou ir a mo-* |  |
+| `c1-l038` | &emsp;*do de procißão.* |  |
+| `c1-l039` | Guiǒdǒ. i, Sacazzuqino xitauo ſutçuru |  |
 | `c1-l040` | &emsp;coto. *Vazar, ou botar fora o que fica no* |  |
 | `c1-l041` | &emsp;*fundo do Sacazzuqui.* |  |
 | `c1-l042` | Guiofai. Von ſacazzuqi. *Sacazzuqui de* |  |
@@ -86,7 +86,7 @@ Lexical review aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and
 | `c2-l010` | &emsp;*dando, & eſtando dormindo, &c. ¶ Itẽ,* |  |
 | `c2-l011` | &emsp;*Sempre, ou em todo tempo.* |  |
 | `c2-l012` | Guiǒgǒ. i, Teiuǒno miyuqi. *Ida, ou ſai-* |  |
-| `c2-l013` | &emsp;*da del Rey, q̃ ſefaz cõ grande ſolennidade.* |  |
+| `c2-l013` | &emsp;*da del Rey, q̃ ſe faz cõ grande ſolennidade.* |  |
 | `c2-l014` | Guiǒgô. Voconai xiuaza. *Obras, ou exer-* |  |
 | `c2-l015` | &emsp;*cicios.* |  |
 | `c2-l016` | Guiǒguan. Voconai negǒ. *Obras de vir-* |  |
@@ -108,7 +108,7 @@ Lexical review aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and
 | `c2-l032` | &emsp;qeraruru. *Vir peßoa nobre a minha caſa,* |  |
 | `c2-l033` | &emsp;*ou dar me algũa couſa. ¶* Guioiuo vru. |  |
 | `c2-l034` | &emsp;*Receber conſelhos, comunicarſe, ou perguntar* |  |
-| `c2-l035` | &emsp;*a algum ſenhor, ou peßoa honrada. ¶* Guiui- |  |
+| `c2-l035` | &emsp;*a algum ſenhor, ou peßoa honrada. ¶* Guioi- |  |
 | `c2-l036` | &emsp;ni iru. *Estar em graça de algũa peßoa no-* |  |
 | `c2-l037` | &emsp;*bre, ou agradarlhe. ¶* Guioini, l, guioi- |  |
 | `c2-l038` | &emsp;uo ſomuqu. *Quebrantar o mandado, ou* |  |
