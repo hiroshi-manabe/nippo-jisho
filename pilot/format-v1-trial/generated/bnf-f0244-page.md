@@ -35,10 +35,10 @@ Lexical review aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and
 | `c1-l017` | &emsp;*quentura, ou calma.* |  |
 | `c1-l018` | Gocuracu. Tanoximiuo qiuamuru. *Parai-* |  |
 | `c1-l019` | &emsp;*ſo de deleites.* |  |
-| `c1-l020` | Gocuriǒ. i, Qimiro vonchiguiǒ. *Renda,* |  |
+| `c1-l020` | Gocuriǒ. i, Qimino vonchiguiǒ. *Renda,* |  |
 | `c1-l021` | &emsp;*ou terras que o ſenhor tem aplicadas aſi ſem* |  |
 | `c1-l022` | &emsp;*as diſtribuir com os criados.* |  |
-| `c1-l023` | Gocurǒ. Qiuamatta. voi. *Velhice conſu-* |  |
+| `c1-l023` | Gocurǒ. Qiuamatta voi. *Velhice conſu-* |  |
 | `c1-l024` | &emsp;*mada. ¶* Gocurǒ tçucamatçutta. *Eſtou* |  |
 | `c1-l025` | &emsp;*muito velho.* |  |
 | `c1-l026` | Gocurǒ. *Trabalho falando com reſpeito, &* |  |
@@ -46,11 +46,11 @@ Lexical review aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and
 | `c1-l028` | &emsp;*çouos q̃ ainda q̃ ſeja trabalho façais iſto, &c.* |  |
 | `c1-l029` | Gocuſocu. Bup. *Ponto principal das medi-* |  |
 | `c1-l030` | &emsp;*taçoẽs dos Ienxus.* |  |
-| `c1-l031` | Gocuſot. Gigocuro acqi. *Algozes do in-* |  |
+| `c1-l031` | Gocuſot. Gigocuno acqi. *Algozes do in-* |  |
 | `c1-l032` | &emsp;*ferno, ou diabos.* |  |
 | `c1-l033` | Gocuſui. Qiuamatta nemuri. *Profundo* |  |
-| `c1-l034` | &emsp;*ſono.* S. |  |
-| `c1-l035` | Gocutçubuxi. *Homem que não preſta pera* |  |
+| `c1-l034` | &emsp;*ſono. S.* |  |
+| `c1-l035` | Gocutçubuxi. H*omem que não preſta pera* |  |
 | `c1-l036` | &emsp;*nada mais que pera comer.* |  |
 | `c1-l037` | Gocuxin. *Vt,* Gocuxinna fito. *Homem* |  |
 | `c1-l038` | &emsp;*de grande paz, & ſoſego do coração. ¶ Itẽ,* |  |
@@ -96,7 +96,7 @@ Lexical review aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and
 | `c2-l020` | &emsp;*pintar.* |  |
 | `c2-l021` | Gǒga. *Enſeada do mar, ourio.* |  |
 | `c2-l022` | Gogi. *Vt,* Buppô gogi. *Guarda, ou pro* |  |
-| `c2-l023` | &emsp;*teição do Cami ſobre as couſas do* Buppô. Bup. |  |
+| `c2-l023` | &emsp;*teição do Cami ſobre as couſas do Buppô*. Bup. |  |
 | `c2-l024` | Gogin. Vxirogin. *Retaguarda do exercito.* |  |
 | `c2-l025` | Gogin. Itçutçuno qegare. Bup. *Cinco* |  |
 | `c2-l026` | &emsp;*obiectos dos ſentidos que custumão macular o* |  |
@@ -108,10 +108,10 @@ Lexical review aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and
 | `c2-l032` | &emsp;*¶* Gǒgo itaſu, l, itaſanu. *Mouerſe, ou* |  |
 | `c2-l033` | &emsp;*não ſe poder mouer, nem andar.* |  |
 | `c2-l034` | Gogo. i, Nochi. *Depois, ou ao diante. Vt,* |  |
-| `c2-l035` | &emsp;Gogo matdai made. *Ate os vltimos tem-* |  |
+| `c2-l035` | &emsp;Gogo matdai made. *Atè os vltimos tem-* |  |
 | `c2-l036` | &emsp;*pos, ou idade derradeira.* |  |
-| `c2-l037` | Gogo. *Depois de meo dia.* S. |  |
-| `c2-l038` | Gogo. Miuxiro. *Nas coſtas do Zaxiquion-* |  |
+| `c2-l037` | Gogo. *Depois de meo dia. S.* |  |
+| `c2-l038` | Gogo. Miuxiro. *Nas coſtas do Zaxiqui on-* |  |
 | `c2-l039` | &emsp;*de està o Rey.* |  |
 | `c2-l040` | Gǒgǒ. Tçuyoqu, tçuyoxi. *Vt,* Gǒgǒna |  |
 | `c2-l041` | &emsp;fito. *Homem forte, & brauo, ou aſpero.* |  |
@@ -120,7 +120,7 @@ Lexical review aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and
 | `c2-l044` | Gǒgui. Tçuyoi coto. *Força, ou violencia.* |  |
 | `c2-l045` | &emsp;*¶* Gǒguini voyobu. *Chegar a fazer força.* |  |
 | `c2-l046` | Goguiacu. Itçutçuno ſacay ima. *Cinco pec-* |  |
-| `c2-l047` | &emsp;*cados grauiſsimos de matar Fotoque. Vt,* Fo- |  |
+| `c2-l047` | &emsp;*cados grauißimos de matar Fotoque. Vt,* Fo- |  |
 
 ## Printed catchword
 

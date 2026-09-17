@@ -30,7 +30,7 @@ Review aid (not transcribed): The supplied page subset of Entry Words Data of Ni
 | `c1-l012` | Gobachi. *Alguidar, ou gamela, &c. em* |  |
 | `c1-l013` | &emsp;*q̃ bota o tintureiro certa tinta q̃ ſe chama* Go. |  |
 | `c1-l014` | Gobã. *Taboleiro de certo jogo de muitas pedras.* |  |
-| `c1-l015` | Gobeô. *Sepultura de Camis, ou peßoas inſi-* |  |
+| `c1-l015` | Gobeô. *Sepultura de Camis, ou peſſoas inſi-* |  |
 | `c1-l016` | &emsp;*gnes que morrerão.* |  |
 | `c1-l017` | Gobeôxo. *Idem.* |  |
 | `c1-l018` | Gobǒ. *Bonzo, ou religioſo. Falando com* |  |
@@ -39,7 +39,7 @@ Review aid (not transcribed): The supplied page subset of Entry Words Data of Ni
 | `c1-l021` | &emsp;*come.* |  |
 | `c1-l022` | Gobut. Nochino fotoqe. *Fotoque que vem* |  |
 | `c1-l023` | &emsp;*ao mũdo depois de outro ter vindo.* |  |
-| `c1-l024` | Gocacu. Vxino tçuno. *Ameſma grande-* |  |
+| `c1-l024` | Gocacu. Vxino tçuno. *A meſma grande-* |  |
 | `c1-l025` | &emsp;*za, ou tamanho. Vt,* Gocacuno ſaburai. |  |
 | `c1-l026` | &emsp;*Homẽs honrados do meſmo teor. ¶* Goca- |  |
 | `c1-l027` | &emsp;cuno buguen. *Iguais na riqueza, & fato.* |  |
@@ -55,14 +55,14 @@ Review aid (not transcribed): The supplied page subset of Entry Words Data of Ni
 | `c1-l037` | &emsp;*neſta vida pellos males, ou ruins tratos* |  |
 | `c1-l038` | &emsp;*que faz.* |  |
 | `c1-l039` | Gochi. Bup. Itçutçuno chiye. *Cinco ma-* |  |
-| `c1-l040` | &emsp;*neiras de ſaber que ha no* Fotoque. |  |
+| `c1-l040` | &emsp;*neiras de ſaber que ha no Fotoque*. |  |
 | `c1-l041` | Gǒchǒji, zuru, ita. *Brincar, ou folgar de-* |  |
 | `c1-l042` | &emsp;*maſiadamente, ou inmodeſtamente.* |  |
 | `c1-l043` | Gochôxi. Itçutçuno chôxi. *V. G.* Qiǔ, |  |
 | `c1-l044` | &emsp;xǒ, cacu, chi, V. *Cinco toadas de voz* |  |
 | `c1-l045` | &emsp;*que hum homem tem.* |  |
 | `c1-l046` | Gocǒ. Miyuqi. *Saida, ou ida do Rey ve-* |  |
-| `c1-l047` | &emsp;*lho, ou que eſta ja apoſentado. ¶* Gocǒ |  |
+| `c1-l047` | &emsp;*lho, ou que esta ja apoſentado. ¶* Gocǒ |  |
 
 ## Column 2 running header
 
@@ -92,7 +92,7 @@ Review aid (not transcribed): The supplied page subset of Entry Words Data of Ni
 | `c2-l010` | &emsp;*do Machi.* |  |
 | `c2-l011` | Gocǒ. *Tempo, ou hora de madrugada, ou* |  |
 | `c2-l012` | &emsp;*antemanhãa. ¶* Gocǒno ten. *Idem.* |  |
-| `c2-l013` | Gocǒ. *Rayos, ou reſplandor que pintão, ou* |  |
+| `c2-l013` | Gocǒ. *Riyos, ou reſplandor que pintão, ou* |  |
 | `c2-l014` | &emsp;*poem aos Fotoques derrador da cabeça. Ainda* |  |
 | `c2-l015` | &emsp;*que ſe eſcreue* Goquǒ*: na pratica ſe diz,* |  |
 | `c2-l016` | &emsp;Gocǒ. |  |
@@ -108,7 +108,7 @@ Review aid (not transcribed): The supplied page subset of Entry Words Data of Ni
 | `c2-l026` | &emsp;*nidade em caſa do Dairi.* |  |
 | `c2-l027` | Gocquan. *Trõqueiro.* |  |
 | `c2-l028` | Gocu. Nochino cu. *Sentença, ou palaura* |  |
-| `c2-l029` | &emsp;*derradeira. ¶* Gocuni tçumaru. *Ficar* |  |
+| `c2-l029` | &emsp;*derradeira. ¶* Gocuni tçumaru. F*icar* |  |
 | `c2-l030` | &emsp;*conuencido ſem poder falar mais como em* |  |
 | `c2-l031` | &emsp;*diſputa, &c. ¶ Item, Não o correr a* |  |
 | `c2-l032` | &emsp;*alguem algũa palaura, ou ſentença que vai* |  |
@@ -119,7 +119,7 @@ Review aid (not transcribed): The supplied page subset of Entry Words Data of Ni
 | `c2-l037` | Gocuacunin. *Homẽ conſumado na maldade.* |  |
 | `c2-l038` | Gocudami. *Vt,* Gocudaminoye. *Pintu-* |  |
 | `c2-l039` | &emsp;*ra feita com perfeição, & variedade de cores.* |  |
-| `c2-l040` | Gocufen. *Vocabulario de letras da china.* |  |
+| `c2-l040` | Gocufen. *Vocabulario de letras da China.* |  |
 | `c2-l041` | Gocufin. Qiuamaru fin. *Extrema pobreza.* |  |
 | `c2-l042` | Gocufinna. *Peſſoa ſummamente pobre.* |  |
 | `c2-l043` | Gocufinni. *Aduer.* |  |

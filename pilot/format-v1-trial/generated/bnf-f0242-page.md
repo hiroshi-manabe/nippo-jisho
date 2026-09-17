@@ -29,7 +29,7 @@ Review aid (not transcribed): The supplied page subset of Entry Words Data of Ni
 | `c1-l011` | Guiǒzui. i, Yuuo abiru. *Lauar o corpo com* |  |
 | `c1-l012` | &emsp;*agoa quente. Vt,* Guiǒzui ſuru. |  |
 | `c1-l013` | Guiqet. Arino ana. *Coua de formigas.* |  |
-| `c1-l014` | Guiraguirato, *Adu. Modo de reluzir, ou* |  |
+| `c1-l014` | Guiraguirato. *Adu. Modo de re*l*uzir, ou* |  |
 | `c1-l015` | &emsp;*reſplandecer a couſa.* |  |
 | `c1-l016` | Guirameqi, u, eita, ficari, u. *Reluzir.* |  |
 | `c1-l017` | &emsp;*¶ Item, Pertranslat. Moſtrar viueza, &* |  |
@@ -37,31 +37,31 @@ Review aid (not transcribed): The supplied page subset of Entry Words Data of Ni
 | `c1-l019` | &emsp;tçucaguirameqino touoride arǒzu. *O ſer* |  |
 | `c1-l020` | &emsp;*uiço daquelle durara cõ feruor por vinte dias.* |  |
 | `c1-l021` | Guireo. Vtagai vomonbacaru. *Duuidar.* |  |
-| `c1-l022` | Guiri. Yoqi cotouari. *Boa rezão, ou arre-* |  |
+| `c1-l022` | Guiri. Yoqi cotoua*ri*. *Boa rezão, ou arre-* |  |
 | `c1-l023` | &emsp;*zoamento. Vt,* Cono qiǒno guiriga cuda- |  |
 | `c1-l024` | &emsp;ranu, l, qicoyenu. *A rezão, ou arrezoa* |  |
 | `c1-l025` | &emsp;*mento deſte liuro não ſe entende. ¶ Item,* |  |
 | `c1-l026` | &emsp;*Primor. Vt,* Guirino fucai fito. *Homẽ* |  |
 | `c1-l027` | &emsp;*de grande primor.* |  |
-| `c1-l028` | Guirio. Tçuyô ſucuyacana. *Vigor, ou for-* |  |
+| `c1-l028` | Guiriǒ. Tçuyô ſucuyacana. *Vigor, ou for-* |  |
 | `c1-l029` | &emsp;*ças, & boa diſpoſição.* |  |
 | `c1-l030` | Guiriǒna. *Peßoa de boas forças, & diſpoſição.* |  |
 | `c1-l031` | Guiron. Araſoi, ronzuru. *Diſputa.* |  |
-| `c1-l032` | Guitai. Cori todocouoru. *O dẽterſe, ou pa-* |  |
+| `c1-l032` | Guitai. Cori todocouoru. *O deterſe, ou pa-* |  |
 | `c1-l033` | &emsp;*rar, não ſe reſoluendo a fazer algũa couſa, ou* |  |
 | `c1-l034` | &emsp;*não dando reposta de ſi, ou de não, &c.* |  |
 | `c1-l035` | Guitai. *Duuida. Vt,* Guitaini voyobu. |  |
 | `c1-l036` | &emsp;*Duuidar.* |  |
 | `c1-l037` | Guiuacu. Vtagai madô. *Duuidas, & er-* |  |
-| `c1-l038` | &emsp;*ros.* S. |  |
-| `c1-l039` | Guiǔba. Vxi, vma. *Bois & caualos.* |  |
-| `c1-l040` | Guiǔca. Vxino iye. *Caſa dos bois.* S. |  |
+| `c1-l038` | &emsp;*ros. S.* |  |
+| `c1-l039` | Guiǔba. Vxi, vma. *Bois, & caualos.* |  |
+| `c1-l040` | Guiǔca. Vxino iye. *Caſa dos bois. S.* |  |
 | `c1-l041` | Guiǔcacu. Vxino tçuno. *Corno de boy.* |  |
 | `c1-l042` | Guiǔfi. Vxino caua. *Pele de boy.* |  |
 | `c1-l043` | Guiǔ-in. i, Riǒbǒ dôxin xite tomonǒ co- |  |
 | `c1-l044` | &emsp;to. *Irem dous, ou mais em companhia.* |  |
 | `c1-l045` | Guiǔjin. Cumitçucuſu. *Eſgotar tirando a-* |  |
-| `c1-l046` | &emsp;*goa, ou vinho.* S. |  |
+| `c1-l046` | &emsp;*goa, ou vinho. S.* |  |
 | `c1-l047` | Guiǔjin. Suitçucuſu. *Soruer tudo.* Bup. |  |
 
 ## Column 2 running header
@@ -80,7 +80,7 @@ Review aid (not transcribed): The supplied page subset of Entry Words Data of Ni
 | `c2-l004` | &emsp;*vaca.* |  |
 | `c2-l005` | Guiǔtô. Vxino atama. *Cabeça de boy, ou* |  |
 | `c2-l006` | &emsp;*vaca.* |  |
-| `c2-l007` | Guiùxeirin. *Hum inſtrumento como nora de* |  |
+| `c2-l007` | Guiǔxeirin. *Hum inſtrumento como nora de* |  |
 | `c2-l008` | &emsp;*tirar agoa.* |  |
 | `c2-l009` | Guiǔxi. i, Vxino co. *Bezerro.* |  |
 | `c2-l010` | Guiǔyǒ. Vxi, fitçuji. *Boy, & ouelha.* |  |
@@ -98,7 +98,7 @@ Review aid (not transcribed): The supplied page subset of Entry Words Data of Ni
 | `c2-l022` | &emsp;*os dentes. Vt,* Fauo camiauaxete guixi- |  |
 | `c2-l023` | &emsp;mecaſu. *Ranjendo os dentes fazer estrondo* |  |
 | `c2-l024` | &emsp;*com elles.* |  |
-| `c2-l025` | Guiximeqi, u, eita. *Fazerſe ſom quandoſe* |  |
+| `c2-l025` | Guiximeqi, u, eita. *Fazerſe ſom quando ſe* |  |
 | `c2-l026` | &emsp;*esfrega, ou moe algũa couſa dura, ou ſe ranjẽ* |  |
 | `c2-l027` | &emsp;*os dentes, &c.* |  |
 | `c2-l028` | Guixin. Vtagǒ cocoro. *Coração duuidoſo.* |  |
@@ -109,10 +109,10 @@ Review aid (not transcribed): The supplied page subset of Entry Words Data of Ni
 | `c2-l033` | &emsp;*to, &c.* |  |
 | `c2-l034` | Guixocu. *Geſto, ou perſonagem que hũ faz.* |  |
 | `c2-l035` | &emsp;*Vt,* Voya guixocu xite iqenuo iuaruni. |  |
-| `c2-l036` | &emsp;*Mostrando geſto, & autoridade paternal da* |  |
+| `c2-l036` | &emsp;*Mostrando geſto, & autoridade paternal dar* |  |
 | `c2-l037` | &emsp;*conſelho.* |  |
-| `c2-l038` | Guixxa. Vxiro curuma. *Carro que leuão bo* |  |
-| `c2-l039` | &emsp;*is. Vt,* Guixxa renxano xenjiuo cǒmut |  |
+| `c2-l038` | Guixxa. Vxino curuma. *Carro que leuão bo* |  |
+| `c2-l039` | &emsp;*is. Vt,* Guixxa renxa*n*o xenjiuo cǒmut |  |
 | `c2-l040` | &emsp;te. *Indo em carro, ou* Norimono *tinha li-* |  |
 | `c2-l041` | &emsp;*cença pera entrar diante do Rey.* |  |
 

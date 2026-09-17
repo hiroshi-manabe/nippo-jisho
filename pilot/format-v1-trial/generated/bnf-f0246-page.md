@@ -20,7 +20,7 @@ Lexical cross-check: the supplied subset of Entry Words Data of Nippojisho, NINJ
 | `c1-l002` | &emsp;nu, l, noberarenu. *Não ſe pode explicar* |  |
 | `c1-l003` | &emsp;*cõ palauras. ¶* Gõgouo jeſsuru. *Faltarẽ pa* |  |
 | `c1-l004` | &emsp;*lauras pera ẽcarecer algũa couſa. ¶* Gõgodǒ- |  |
-| `c1-l005` | &emsp;dã. i, gõgouo jeſſuru. *Idẽ. Palaura cõ* |  |
+| `c1-l005` | &emsp;dã. i, gõgouo jeſſuru. Id*ẽ. Palaura cõ* |  |
 | `c1-l006` | &emsp;*que ſe ẽcarece algũa couſa em bem, ou mal.* |  |
 | `c1-l007` | Gongo xindai. *Palauras, & obras.* |  |
 | `c1-l008` | Gonguiǒ. Tçutome voconǒ. *Exercicios bõs.* |  |
@@ -32,7 +32,7 @@ Lexical cross-check: the supplied subset of Entry Words Data of Nippojisho, NINJ
 | `c1-l014` | &emsp;*peruerſo, & que tem muitas maldades.* |  |
 | `c1-l015` | Gǒnin. *Homem, ou gente dalgũa comarca,* |  |
 | `c1-l016` | &emsp;*ou territorio que ſe aleuanta, ou amutina.* |  |
-| `c1-l017` | &emsp;*¶* Goninga vocoru. *Aleuantarſe, ou amuti* |  |
+| `c1-l017` | &emsp;*¶* Gǒninga vocoru. *Aleuantarſe, ou amuti* |  |
 | `c1-l018` | &emsp;*narſe a gẽte de hũa parte do reino, ou comarca.* |  |
 | `c1-l019` | Goninbari. i, Gonin faru fodono yumi. |  |
 | `c1-l020` | &emsp;*Arco que armão cinco homẽs. ¶* Gonin- |  |
@@ -62,7 +62,7 @@ Lexical cross-check: the supplied subset of Entry Words Data of Nippojisho, NINJ
 | `c1-l044` | &emsp;*venceo, & ſujeitou, & agora em lugar des-* |  |
 | `c1-l045` | &emsp;*tes aparecem là na ſerra que ſe diz Vonmine,* |  |
 | `c1-l046` | &emsp;*cinco homẽs veſtidos de cinco cores que ſaem* |  |
-| `c1-l047` | &emsp;*ao encontro aos Yamabuxis que vão à ſerra em* |  |
+| `c1-l047` | &emsp;*ao encontro aos Yamabuxis que vão á ſerra em* |  |
 | `c1-l048` | &emsp;*romaria.* |  |
 
 ## Column 2 running header
@@ -105,7 +105,7 @@ Lexical cross-check: the supplied subset of Entry Words Data of Nippojisho, NINJ
 | `c2-l028` | Gorimecaxi, ſu, aita. *Fazer ſoar com os* |  |
 | `c2-l029` | &emsp;*dentes quando ſe come couſa verde, ou dura* |  |
 | `c2-l030` | &emsp;*como castanhas, &c.* |  |
-| `c2-l031` | Gorimeqi, u, eita. *Trincar a couſa verde* |  |
+| `c2-l031` | Gorimeqi, u, *e*ita. *Trincar a couſa verde* |  |
 | `c2-l032` | &emsp;*&c. nos dentes.* |  |
 | `c2-l033` | Gorin. Facano vyeni tatçuru xiruxino ixi. |  |
 | `c2-l034` | &emsp;*Pedras que ſe poem por ſinal em cima das co-* |  |
@@ -117,7 +117,7 @@ Lexical cross-check: the supplied subset of Entry Words Data of Nippojisho, NINJ
 | `c2-l040` | &emsp;*des forças.* |  |
 | `c2-l041` | Gǒriqixa. *Forçoſo, ou homẽ de grandes forças.* |  |
 | `c2-l042` | Gorǒ. Itçutçuno tçucare. *Cinco maneiras* |  |
-| `c2-l043` | &emsp;*de canſaço, ou fraqueza.* S. |  |
+| `c2-l043` | &emsp;*de canſaço, ou fraqueza. S.* |  |
 | `c2-l044` | Gorocu. *Pedras grandes. Vt,* Gorocuuo |  |
 | `c2-l045` | &emsp;votoxicaquru, l, naguru. *Lançar estas* |  |
 | `c2-l046` | &emsp;*pedras da fortaleza ſobre os inimigos.* |  |

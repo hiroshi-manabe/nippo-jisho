@@ -47,7 +47,7 @@ Lexical review aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and
 | `c1-l029` | &emsp;*praya.* |  |
 | `c1-l030` | Goje. *Molher cega.* |  |
 | `c1-l031` | Gojen. Von maye. *Diante de peßoa nobre.* |  |
-| `c1-l032` | Gojeu. *Meſa com comer pera peßoa honrada.* |  |
+| `c1-l032` | Gojen. *Meſa com comer pera peßoa honrada.* |  |
 | `c1-l033` | Gojimeqi, u, eita. *Soar mastigando couſas* |  |
 | `c1-l034` | &emsp;*cruas, & duras.* |  |
 | `c1-l035` | Gojǒ. i, Iin, gui, rei, chi, xin. *Cinco* |  |
@@ -60,7 +60,7 @@ Lexical review aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and
 | `c1-l042` | Gojǒracu. Gacuno na. *Nome de certo cã-* |  |
 | `c1-l043` | &emsp;*to, ou muſica.* |  |
 | `c1-l044` | Gǒma. Bup. Mauo cudaſu. *Humilha* |  |
-| `c1-l045` | &emsp;*ção, & rogo que o Diabo fez a* Xaca *quando o* |  |
+| `c1-l045` | &emsp;*ção, & rogo que o Diabo fez a Xaca quando o* |  |
 | `c1-l046` | &emsp;*vencia algũas vezes como ſe conta em ſeus* |  |
 | `c1-l047` | &emsp;*liuros.* |  |
 
@@ -106,7 +106,7 @@ Lexical review aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and
 | `c2-l024` | Gǒmon. Araqenaqu xeme tô. *Tratos. Vt,* |  |
 | `c2-l025` | &emsp;Gǒmon caxacu ſuru. *Dar tormentos, ou* |  |
 | `c2-l026` | &emsp;*tratos pera fazer confeßar.* |  |
-| `c2-l027` | Gǒmô. Qeno ſaqi. *Ponta dos cabelos.* S. |  |
+| `c2-l027` | Gǒmô. Qeno ſaqi. *Ponta dos cabelos. S.* |  |
 | `c2-l028` | Gǒna. *Certo genero de mariſco.* |  |
 | `c2-l029` | Gǒnai. *Dentro da comarca, ou territorio que ha* |  |
 | `c2-l030` | &emsp;*na diuiſão dos reinos de Iapão.* |  |
@@ -116,7 +116,7 @@ Lexical review aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and
 | `c2-l034` | Gonca. Cotobano xita. *Em acabando de* |  |
 | `c2-l035` | &emsp;*dizer, ou logo, & depreßa. Vt,* Gonca |  |
 | `c2-l036` | &emsp;ni qiuo ſatoru. *Adiuinhar o que hum quer* |  |
-| `c2-l037` | &emsp;*dizer, ou tem no coração logo em dizendo à* |  |
+| `c2-l037` | &emsp;*dizer, ou tem no coração logo em dizendo a* |  |
 | `c2-l038` | &emsp;*palaura.* |  |
 | `c2-l039` | Gonchǔ. Cotobano vchi. *Dentro das pala-* |  |
 | `c2-l040` | &emsp;*uras, ou eſtando falando.* |  |
@@ -126,7 +126,7 @@ Lexical review aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and
 | `c2-l044` | &emsp;*¶* Goncuni tçumaru, l, goncuga nai. |  |
 | `c2-l045` | &emsp;*Ficar conuencido ſem falar palaura como nal-* |  |
 | `c2-l046` | &emsp;*gũa diſputa, &c.* |  |
-| `c2-l047` | Gônẽ. Tçuneno coto. *Couſa ordinaria.* S. |  |
+| `c2-l047` | Gônẽ. Tçuneno coto. *Couſa ordinaria. S.* |  |
 
 ## Printed signature
 

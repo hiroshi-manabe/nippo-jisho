@@ -18,7 +18,7 @@ Review aid (not transcribed): The supplied page subset of Entry Words Data of Ni
 | --- | --- | --- |
 | `c1-l001` | &emsp;*dura por hum mes. ¶* Nenguiǒji. *Of-* |  |
 | `c1-l002` | &emsp;*ficio que dura por hum anno. ¶* Sumǒno |  |
-| `c1-l003` | &emsp;guiǒjini tatçu, l, ſumǒno guiǒjiuo ſuru. |  |
+| `c1-l003` | &emsp;guiǒjini tatçu, *l*, ſumǒno guiǒjiuo ſuru. |  |
 | `c1-l004` | &emsp;*Ter officio de ajuntar, & fazer trauar os* |  |
 | `c1-l005` | &emsp;*lutadores, como padrinhos da luta.* |  |
 | `c1-l006` | Guiǒji, zuru, ita. *Obrar, ou fazer obras* |  |
@@ -26,14 +26,14 @@ Review aid (not transcribed): The supplied page subset of Entry Words Data of Ni
 | `c1-l008` | Guiojin. Sunadoru fito. *Peſcador.* |  |
 | `c1-l009` | Guioju. Vuo atçumaru. *Cardume de pei-* |  |
 | `c1-l010` | &emsp;*xes. Vt,* Guioju nagareni ſacanoboru. |  |
-| `c1-l011` | &emsp;*O cardume de peixe ſobe contra a corrente.* S. |  |
+| `c1-l011` | &emsp;*O cardume de peixe ſobe contra a corrente. S.* |  |
 | `c1-l012` | Guiǒjut. Voconǒ nori. *Deprecaçoẽs, cere-* |  |
 | `c1-l013` | &emsp;*monias, &c. Vt,* Guiǒjutuo tçucuſu. |  |
 | `c1-l014` | &emsp;*Fazer eſtas deprecaçoẽs, & cerimonias com* |  |
 | `c1-l015` | &emsp;*todas as forças, & efficacia.* |  |
 | `c1-l016` | Guiomocu. Vuono me. *Olhos de peixe. Vt,* |  |
 | `c1-l017` | &emsp;Guiomocuuo totte xuguiocuni fiſu. *Cõpa-* |  |
-| `c1-l018` | &emsp;*rar os olhos do peixe a pedras precioſas.* S. |  |
+| `c1-l018` | &emsp;*rar os olhos do peixe a pedras precioſas. S.* |  |
 | `c1-l019` | Guiôna. *Vt,* Guiôna fito. *Homem en-* |  |
 | `c1-l020` | &emsp;*carecedor das couſas. ¶* Guiôna coto. |  |
 | `c1-l021` | &emsp;*Couſa grande, & extraordinaria.* |  |
@@ -86,7 +86,7 @@ Review aid (not transcribed): The supplied page subset of Entry Words Data of Ni
 | `c2-l010` | Guiǒſǒ. Catachi catachi. *Figura, ou ſẽ-* |  |
 | `c2-l011` | &emsp;*brante de peſſoa viua. Vt,* Guiǒſǒmini |  |
 | `c2-l012` | &emsp;cuxi. *Estar o roſto, ou home des figurado.* |  |
-| `c2-l013` | Guioſon. Sunadorino zaixo. *Lugar de pes-* |  |
+| `c2-l013` | Guioſon. Sunadorino zaixo. L*ugar de pes-* |  |
 | `c2-l014` | &emsp;*cadores.* |  |
 | `c2-l015` | Guioſui. Vuo mizzu. *Agua de peixe, ou* |  |
 | `c2-l016` | &emsp;*onde anda o peixe.* |  |
@@ -94,7 +94,7 @@ Review aid (not transcribed): The supplied page subset of Entry Words Data of Ni
 | `c2-l018` | &emsp;cuſu. *Fazer grandes penitencias, & ou-* |  |
 | `c2-l019` | &emsp;*tros exercicios bons.* |  |
 | `c2-l020` | Guiôtai. i, todocôru coto. *Impedirſe, ou* |  |
-| `c2-l021` | &emsp;*eſtoruarſe algũa couſa.* S. |  |
+| `c2-l021` | &emsp;*eſtoruarſe algũa couſa. S.* |  |
 | `c2-l022` | Guiotan. Vuono qimo. *Fel de peixe. Vt,* |  |
 | `c2-l023` | &emsp;Guiotan nigaqi coto fanafadaxi. S. *O* |  |
 | `c2-l024` | &emsp;*fel do peixe he ſummamente amargoſo.* |  |
@@ -115,13 +115,13 @@ Review aid (not transcribed): The supplied page subset of Entry Words Data of Ni
 | `c2-l039` | Guioxen. Sunadorino fune. *Embarcação* |  |
 | `c2-l040` | &emsp;*peſcareza.* |  |
 | `c2-l041` | Guioxin. *Dormir de peßoa honrada. ¶* Guio- |  |
-| `c2-l042` | &emsp;xin aru, l, naſaruru. *Dormir peſſoa hõrada.* |  |
+| `c2-l042` | &emsp;xin aru, *l*, naſaruru. *Dormir peſſoa hõrada.* |  |
 | `c2-l043` | Guiǒxiqi. Catachi, iro. *Figura, & cor.* |  |
-| `c2-l044` | Guiôxǒ. Tacumi, tacumu. *Carpinteiro.* S. |  |
+| `c2-l044` | Guiôxǒ. Tacumi, tacumu. *Carpinteiro. S.* |  |
 | `c2-l045` | Guioxô. Sunadori, qicori. *Peſcador, &* |  |
 | `c2-l046` | &emsp;*homem que corta lenha.* |  |
 | `c2-l047` | Guioxǔ. Sunadorino fune. *Embarcação de* |  |
-| `c2-l048` | &emsp;*peſcadores.* S. |  |
+| `c2-l048` | &emsp;*peſcadores. S.* |  |
 
 ## Printed page number
 
