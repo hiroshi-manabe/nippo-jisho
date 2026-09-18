@@ -16,7 +16,7 @@ Lexical cross-check: the supplied subset of Entry Words Data of Nippojisho, NINJ
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | Gorǒjerare, ruru, eta. *Meliùs,* Goranjera- |  |
+| `c1-l001` | Gorǒjerare, ruru, eta. *Meliùs,* Goranj*e*ra- |  |
 | `c1-l002` | &emsp;ruru. *Ver peßoa nobre.* |  |
 | `c1-l003` | Gorǒji, zuru, ita. *Ver peſſoa nobre.* |  |
 | `c1-l004` | Goromecaxi, ſu. *Fazer traquinada, ou fa-* |  |
@@ -26,18 +26,18 @@ Lexical cross-check: the supplied subset of Entry Words Data of Nippojisho, NINJ
 | `c1-l008` | Gôſa. *Obra.* |  *.* |
 | `c1-l009` | Goſan. Itçutçuno yama. *Cinco varelas do* |  |
 | `c1-l010` | &emsp;*Miyaco affamadas. V. G.* Qenninji, |  |
-| `c1-l011` | &emsp;Nanjenji. Tǒfucuji, Tenriǔji, Xôcocuji. |  |
+| `c1-l011` | &emsp;Nanj*e*nji. Tǒfucuji, Tenriǔji, Xôcocuji. |  |
 | `c1-l012` | Goſan. *Cinco, & tres nos dados.* |  |
 | `c1-l013` | Gǒſo. Qibixǔ vttayuru. *Acuſação forte,* |  |
 | `c1-l014` | &emsp;*ou aſpera.* |  |
-| `c1-l015` | Gôſogoſoto. *Modo, ou ſom de quando torcẽ* |  |
+| `c1-l015` | Goſogoſoto. *Modo, ou ſom de quando torcẽ* |  |
 | `c1-l016` | &emsp;*as cordas, &c. Vt,* Nauauo xigoxacu |  |
 | `c1-l017` | &emsp;goſogoſoto nǒte, &c. Mon. *Torcen-* |  |
 | `c1-l018` | &emsp;*do ſete, ou oito palmos de corda com preßa,* |  |
 | `c1-l019` | &emsp;*& eſtrondo.* |  |
-| `c1-l020` | Gôſomecaxi, ſu, aita. *Fazer ſoar os vesti* |  |
+| `c1-l020` | Goſomecaxi, ſu, aita. *Fazer ſoar os vesti* |  |
 | `c1-l021` | &emsp;*dos nouos de papel, ou couſas ſemelhantes.* |  |
-| `c1-l022` | Gǒſomeqi, u, eita. *Fazerſe eſte ſom, ou* |  |
+| `c1-l022` | Goſomeqi, u, eita. *Fazerſe eſte ſom, ou* |  |
 | `c1-l023` | &emsp;*estrondo como quem bole com papel, &c.* |  |
 | `c1-l024` | Goſui. Itçutçuno votoroye. *Cinco defeitos,* |  |
 | `c1-l025` | &emsp;*ou tormentos. Vt,* Goſuino curuximi. |  |
@@ -46,7 +46,7 @@ Lexical cross-check: the supplied subset of Entry Words Data of Nippojisho, NINJ
 | `c1-l028` | &emsp;*& potencias.* |  |
 | `c1-l029` | Gotai xinbun. *Todo o corpo, & membros,* |  |
 | `c1-l030` | &emsp;*& junturas em particular.* |  |
-| `c1-l031` | Gotan. *Palaura.* S. |  |
+| `c1-l031` | Gotan. P*alaura. S.* |  |
 | `c1-l032` | Gotei, l, *potiùs,* Goteixu. *Dono da caſa.* |  |
 | `c1-l033` | &emsp;i, Iyeno nuxi, l, teixu. |  |
 | `c1-l034` | Gotei. *Cinco Reis principaes, & nomeados* |  |
@@ -100,14 +100,14 @@ Lexical cross-check: the supplied subset of Entry Words Data of Nippojisho, NINJ
 | `c2-l024` | &emsp;*de força, & impeto.* |  |
 | `c2-l025` | Goxen. i, Vtano sǒxi. *Hũ liuro de verſos.* |  |
 | `c2-l026` | Goxi. *Liuro de arte militar.* |  |
-| `c2-l027` | Gǒxi. *Eſcudelas de pao, ou goquis. ¶ Item,* |  |
+| `c2-l027` | Gǒxi. *Eſcudelas de pao, ou goquis. ¶* I*tem,* |  |
 | `c2-l028` | &emsp;*Hum vaſo de cobre como Goqui, em que en-* |  |
 | `c2-l029` | &emsp;*tornão agoa no Chanoyu.* |  |
 | `c2-l030` | Goxi, ſuru, ita. *Eſperar. Vt, Sanquaino* |  |
 | `c2-l031` | &emsp;tçuideuo goſu. *Eſpero por conjunção em* |  |
 | `c2-l032` | &emsp;*que nos vejamos. As vezes prometer, ou fa-* |  |
-| `c2-l033` | &emsp;*zer concerto.* S. |  |
-| `c2-l034` | Goxin. i, Firune. *Sono de meo dia.* S. |  |
+| `c2-l033` | &emsp;*zer concerto. S.* |  |
+| `c2-l034` | Goxin. i, Firune. *Sono de meo dia. S.* |  |
 | `c2-l035` | Goxin. Itçutçu caraxi. *Cinco eruas, ou ra-* |  |
 | `c2-l036` | &emsp;*izes que requeimão. V. G.* Nira, ninnicu, |  |
 | `c2-l037` | &emsp;fitomoji, &c. |  |
@@ -118,8 +118,8 @@ Lexical cross-check: the supplied subset of Entry Words Data of Nippojisho, NINJ
 | `c2-l042` | Goxo. *Carta do Cubǒ, de Yacata, ou ſenhor* |  |
 | `c2-l043` | &emsp;*nobre. ¶* Goxo chǒdai tçucamatçuri |  |
 | `c2-l044` | &emsp;ſoro. *Receber carta do ſenhor da Tenca,* |  |
-| `c2-l045` | &emsp;*ou de outra peßoa nobre.* S. |  |
-| `c2-l046` | Goxǒ. Nochino vmare. *Vida fu tura, ou* |  |
+| `c2-l045` | &emsp;*ou de outra peßoa nobre. S.* |  |
+| `c2-l046` | Goxǒ. Nochino vmare. *Vida ſu tura, ou* |  |
 | `c2-l047` | &emsp;*outro mundo. ¶ Item, Saluaçao. Vt,* |  |
 
 ## Printed gathering signature

@@ -21,12 +21,12 @@ Aburaqeno mono. Couſa que tem azeite misturado em ſi, ou feita com azeite. ¶ 
 
 ## Gozadocoro with displaced grande restored to logical order
 
-Gozadocoro. Lugar onde eſtá algum ſenhor grande.
+Gozadocoro. Lugar onde eſtà algum ſenhor grande.
 
 ## f248 caron and circumflex contrast
 
 Goxxǒ. i, Acugôno ſauari. Embaraços, ou impedimentos que nacem do peccado.
-Goyô. Neceſſidade, ou negocio de peſſoa honrada.
+Goyô. Neceßidade, ou negocio de peßoa honrada.
 
 ## f248 Gǔcon, Gudon, and Gudonſa readings
 

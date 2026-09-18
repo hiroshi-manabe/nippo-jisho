@@ -24,7 +24,7 @@ Lexical cross-check: the supplied NINJAL Entry Words Data of Nippojisho, version
 | `c1-l006` | &emsp;*guerra.* |  |
 | `c1-l007` | Gunqio. Muragari iru. *O eſtarẽ muitos jũtos.* |  |
 | `c1-l008` | Gunrai. Muragari qitaru. *Virẽ muitos jũtos.* |  |
-| `c1-l009` | Gunrio. Icuſano tabi. *Exercito q̃ anda fora.* |  |
+| `c1-l009` | Gunrio. Icuſano tabi. *Exercito q̃ anda fora* |  |
 | `c1-l010` | Gunrǒ. Icuſa tçucaruru. *Canſaço da guerra.* |  |
 | `c1-l011` | Gunrui. Muragaru taguy. *Viuentes ſenſiti-* |  |
 | `c1-l012` | &emsp;*uos.* i, Gunjǒ. |  |
@@ -37,25 +37,25 @@ Lexical cross-check: the supplied NINJAL Entry Words Data of Nippojisho, version
 | `c1-l019` | Gũxo. Icuſano xo. *Liuro q̃ trata de guerras.* |  |
 | `c1-l020` | Gunyǒ. Muragaru fitçuji. *Rebanho de* |  |
 | `c1-l021` | &emsp;*ouelhas.* |  |
-| `c1-l022` | Gunyǔ. Muragari aſobu. *Folguedo de mui-* |  |
+| `c1-l022` | Gunyǔ. Muragari a*ſobu*. *Folguedo de mui-* |  |
 | `c1-l023` | &emsp;*tos juntos.* |  |
 | `c1-l024` | Gunzocu. Muragaru zocu. *Quadrilha de* |  |
 | `c1-l025` | &emsp;*ladrões.* |  |
-| `c1-l026` | Gǔqua. Faſu no fana. *Flor de golfão.* |  |
+| `c1-l026` | Gǔqua. Faſu no fana. *Flor de golfaõ.* |  |
 | `c1-l027` | Guren. *Tormento de frio que ha no Inferno. Não* |  |
-| `c1-l028` | &emsp;*ſe vſa ſoo porſi mas compoſto. Vt,* Guren dai |  |
+| `c1-l028` | &emsp;*ſe uſa ſoo porſi mas composto. Vt,* Guren dai |  |
 | `c1-l029` | &emsp;guren, no couorini togirarete, *&c. Eſtan* |  |
-| `c1-l030` | &emsp;*do enrejeiados com os grandes frios do Inferno.* |  |
+| `c1-l030` | &emsp;*doenrejelados com os grandes frios do Inferno.* |  |
 | `c1-l031` | Guret. Vorocani votoru. *Homem baixo.* |  |
 | `c1-l032` | &emsp;*Vt,* Guret na fito. *Homem ignorante,* |  |
 | `c1-l033` | &emsp;*ou baixo.* |  |
 | `c1-l034` | Gurigurito. *Vt,* Gurigurito ſuru. *Modo* |  |
 | `c1-l035` | &emsp;*de ſentir algũa couſa que bole dentro dalgum va* |  |
 | `c1-l036` | &emsp;*ſo palpando com a mão como noz, &c.* |  |
-| `c1-l037` | &emsp;*¶ Item, Modo de ſe ſentir algum caroço* |  |
+| `c1-l037` | &emsp;*¶ Item, Modo de ſe ſentir algum carouço* |  |
 | `c1-l038` | &emsp;*na carne como principio de inchaço, &c.* |  |
 | `c1-l039` | Guriǒ. i, Vaga riǒnai. *Dentro de minha* |  |
-| `c1-l040` | &emsp;*herdade, ou terras falando humildemente.* |  |
+| `c1-l040` | &emsp;*herdade, ou terras falando humilmente.* |  |
 | `c1-l041` | Gurǒ. Vorocani voitari. *Eu velho falando* |  |
 | `c1-l042` | &emsp;*com humildade.* |  |
 | `c1-l043` | Gururigururito. *Adu. Modo de rodear,* |  |
@@ -84,7 +84,7 @@ Lexical cross-check: the supplied NINJAL Entry Words Data of Nippojisho, version
 | `c2-l008` | &emsp;*humilmente.* |  |
 | `c2-l009` | Guſocu. *Corpo de armas.* ¶ Guſocuuo vo- |  |
 | `c2-l010` | &emsp;doſu, l, vodoxitatçuru. *Fazer, ou te-* |  |
-| `c2-l011` | &emsp;*cer armas.* ¶ Guſocuno qeuo fiqu. *En-* |  |
+| `c2-l011` | &emsp;*cer armas.* ¶ Guſocuno qeuo fiqu. E*n-* |  |
 | `c2-l012` | &emsp;*cadear, & ajuntar as laminas das armas entre* |  |
 | `c2-l013` | &emsp;*ſi por huns buracos que tem, com fio, ou retros,* |  |
 | `c2-l014` | &emsp;*ou correas de couro, &c.* ¶ Guſocuuo |  |
@@ -94,30 +94,30 @@ Lexical cross-check: the supplied NINJAL Entry Words Data of Nippojisho, version
 | `c2-l018` | Guſocuxi, ſuru. *Ter, ou leuar cõſigo. Vt,* |  |
 | `c2-l019` | &emsp;Moricata cono vacaguimiuo guſocu xite. |  |
 | `c2-l020` | &emsp;*Leuando eſte homem conſigo o minino principe,* |  |
-| `c2-l021` | &emsp;*ou filho do Cubò.* Tait. *Lib. 10.* |  |
+| `c2-l021` | &emsp;*ou filho do Cubò.* Taif. *Lib. 10.* |  |
 | `c2-l022` | Guſocuya. *Armeiro, ou o que faz, ou tece* |  |
 | `c2-l023` | &emsp;*as armas. ¶ Item, Caſa onde ſe fazem.* |  |
 | `c2-l024` | Gutacu. *Minha caſa vil.* |  |
 | `c2-l025` | Gutocu. i, Tocu ſonauaru. *Ter em ſi grã-* |  |
-| `c2-l026` | &emsp;*des virtudes, ou partes, & qualidades.* S. |  |
+| `c2-l026` | &emsp;*des virtudes, ou partes, & qualidades. S.* |  |
 | `c2-l027` | Guuacu. Vorocani madô. *Errar ignorante* |  |
 | `c2-l028` | &emsp;*mente.* |  |
 | `c2-l029` | Guxa. Vorocana mono. *Homem ignoran-* |  |
 | `c2-l030` | &emsp;*te, & rudo.* |  |
 | `c2-l031` | Guxet. Voroca nari, tçutanaxi. i, Sorega |  |
-| `c2-l032` | &emsp;xi. *Eu vil. ¶ Itẽ, Peſſoa vil, & rude.* |  |
-| `c2-l033` | Guxet. Vorocani toqu. *Fraticar, ou pre-* |  |
+| `c2-l032` | &emsp;xi. *Eu vil. ¶ Itẽ, Peßoa vil, & rude.* |  |
+| `c2-l033` | Guxet. Vorocani toqu. *Praticar, ou prè-* |  |
 | `c2-l034` | &emsp;*gar mal, ou ignorantemente.* |  |
 | `c2-l035` | Gǔxet. i, Faſuno neno fuxi. *Nò da-* |  |
 | `c2-l036` | &emsp;*raiz do golfão que ſerue de mezinha.* |  |
-| `c2-l037` | Gǔxi. Faſuno ito. *Fios da raiz do golfão.* |  |
+| `c2-l037` | Gǔxi. Faſuno ito. *Fios da raiz do golfão* |  |
 | `c2-l038` | Guxi. *Cinco, & quatro nos dados.* |  |
 | `c2-l039` | Guxi, ſuru, ita. *Leuar conſigo. ¶ Item,* |  |
 | `c2-l040` | &emsp;*Ter em ſi algũa couſa. Vt,* Xiqixinuo gu- |  |
 | `c2-l041` | &emsp;ſuru. *Ter corpo.* |  |
 | `c2-l042` | Guxin. Vorocana voya. *Meu pay falando* |  |
 | `c2-l043` | &emsp;*humilmente.* |  |
-| `c2-l044` | Guxin. Vorocana *mi.* i, Vagami. *Eu vil,* |  |
+| `c2-l044` | Guxin. Voro*c*ana *m*i*.* i, Vagami. *Eu vil,* |  |
 | `c2-l045` | &emsp;*&c. humilhandome.* |  |
 | `c2-l046` | Guxin. Vorocana cocoro. *Coração baixo,* |  |
 | `c2-l047` | &emsp;*& de pouco ſaber.* |  |

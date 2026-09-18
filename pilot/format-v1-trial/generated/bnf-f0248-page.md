@@ -28,7 +28,7 @@ Lexical cross-check: the supplied NINJAL Entry Words Data of Nippojisho, version
 | `c1-l010` | &emsp;*ques, &c.* Bup. |  |
 | `c1-l011` | Goxo. *Paços do Cubǒ, ou Rey que tem feito* |  |
 | `c1-l012` | &emsp;*Inquio. ¶ Item, O meſmo Cubǒ.* |  |
-| `c1-l013` | Goxǒ jenxo. *Lugar excellentiſſimo como* |  |
+| `c1-l013` | Goxǒ jenxo. *Lugar excellentißimo como* |  |
 | `c1-l014` | &emsp;*paraiſo.* |  |
 | `c1-l015` | Goxu. Von ſaqe. *Vinho falando com reſpeito.* |  |
 | `c1-l016` | Goxxǒ. i, Acugôno ſauari. *Embaraços,* |  |
@@ -40,29 +40,29 @@ Lexical cross-check: the supplied NINJAL Entry Words Data of Nippojisho, version
 | `c1-l022` | &emsp;*amizade. Vt,* Gǒyẽuo motte tanomu. |  |
 | `c1-l023` | &emsp;*Rogar algum amigo mais forte, & poderoſo* |  |
 | `c1-l024` | &emsp;*pera que com ſeu fauor vença algũa demanda,* |  |
-| `c1-l025` | &emsp;*ou, poſſa contra o competidor, &c.* |  |
-| `c1-l026` | Goyô. *Neceſſidade, ou negocio de peſſoa* |  |
+| `c1-l025` | &emsp;*ou, poßa contra o competidor, &c.* |  |
+| `c1-l026` | Goyô. *Neceßidade, ou negocio de peßoa* |  |
 | `c1-l027` | &emsp;*honrada.* |  |
 | `c1-l028` | Goyô. Itçutçuno fa. *Folha que tem em ſi cin-* |  |
 | `c1-l029` | &emsp;*co. Vt,* Goyôno matçu. *Pinheiro que* |  |
 | `c1-l030` | &emsp;*tem as folhas de cinco pernas cada hũa.* |  |
-| `c1-l031` | Goza. *Aſſento, ou lugar onde eſta aſſentada* |  |
-| `c1-l032` | &emsp;*algũa peſſoa nobre.* |  |
+| `c1-l031` | Goza. *Aßento, ou lugar onde eſta aßentada* |  |
+| `c1-l032` | &emsp;*algũa peßoa nobre.* |  |
 | `c1-l033` | Goza. *Eſteira de dormir.* X. |  |
 | `c1-l034` | Gozabune. *Fune capitaina, ou onde vai o ſe-* |  |
-| `c1-l035` | &emsp;*nhor, ou outra peſſoa principal.* |  |
-| `c1-l036` | Gozadatami. *Tatami mais alto em q̃ eſtá al-* |  |
+| `c1-l035` | &emsp;*nhor, ou outra peßoa principal.* |  |
+| `c1-l036` | Gozadatami. *Tatami mais alto em q̃ eſtà al-* |  |
 | `c1-l037` | &emsp;*gũ ſenhor principal.* |  *(grande.* |
-| `c1-l038` | Gozadocoro. *Lugar onde eſtá algum ſenhor* |  |
-| `c1-l039` | Gozari, u, atta. *Ir, vir, eſtar, ou ſer, peſſoa* |  |
+| `c1-l038` | Gozadocoro. *Lugar onde eſtà algum ſenhor* |  |
+| `c1-l039` | Gozari, u, atta. *Ir, vir, estar, ou ter, peſſoa* |  |
 | `c1-l040` | &emsp;*honrada.* |  |
-| `c1-l041` | Gozaridocoro. *Lugar onde eſtá alguem. Fa-* |  |
+| `c1-l041` | Gozaridocoro. *Lugar onde eſtà alguem. Fa-* |  |
 | `c1-l042` | &emsp;*lando com honra.* |  |
 | `c1-l043` | Gozǒ. *Cinco partes que ha nas entranhas. v.* |  |
-| `c1-l044` | &emsp;*g.* Can, l, cannozǒ. *Baço.* Xin, l, |  |
-| `c1-l045` | &emsp;xinnozǒ. *Coração.* Fi, l, finozǒ. *Figa-* |  |
+| `c1-l044` | &emsp;*g.* Can, *l*, cannozǒ. *Baço.* Xin, *l*, |  |
+| `c1-l045` | &emsp;xinnozǒ. *Coração.* Fi, l, finozǒ. *F*i*ga-* |  |
 | `c1-l046` | &emsp;*do, & não eſtamago como por erro ſepos na* |  |
-| `c1-l047` | &emsp;*letra F.* Fai, l, fainozǒ. *Bofes.* Iin, |  |
+| `c1-l047` | &emsp;*letra F.* Fai, *l*, fainozǒ. *Bofes.* Iin, |  |
 
 ## Column 2 running header
 
@@ -77,7 +77,7 @@ Lexical cross-check: the supplied NINJAL Entry Words Data of Nippojisho, version
 | `c2a-l001` | &emsp;l, jinnozǒ. *Rins.* |  |
 | `c2a-l002` | Gozǒroppu. *Entranhas, em que entrão a-* |  |
 | `c2a-l003` | &emsp;*quellas cinco partes, & outras particulares co-* |  |
-| `c2a-l004` | &emsp;*mo tripa meſaraica, bixiga, eſtamago, &c.* |  |
+| `c2a-l004` | &emsp;*mo tripa meſaraica, bixiga, estamago, &c.* |  |
 | `c2a-l005` | Gozzu. Vxino caxira. *Cabeça do boy, ou* |  |
 | `c2a-l006` | &emsp;*vaca. ¶ Item, Diabo, ou algoz do Infer-* |  |
 | `c2a-l007` | &emsp;*no que aparece aos danados com cabeça de boy.* |  |
@@ -97,7 +97,7 @@ Lexical cross-check: the supplied NINJAL Entry Words Data of Nippojisho, version
 | --- | --- | --- |
 | `c2b-l001` | GV. i, Dǒgu. *Não ſe vſa perſi, ſe não* |  |
 | `c2b-l002` | &emsp;*neſtes modos de falar. Vt,* Guni taranu. |  |
-| `c2b-l003` | &emsp;*Faltar algũa peça das que ſão neceſſarias pera* |  |
+| `c2b-l003` | &emsp;*Faltar algũa peça das que ſão neceßarias pera* |  |
 | `c2b-l004` | &emsp;*algũa eſquipação. ¶* Guni auanu dǒgu. |  |
 | `c2b-l005` | &emsp;*Peça que não diz com as de mais da meſma* |  |
 | `c2b-l006` | &emsp;*laya. ¶* Guni tarǒta, l, tatta, l, famat- |  |

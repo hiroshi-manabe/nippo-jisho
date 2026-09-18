@@ -43,7 +43,7 @@ Lexical cross-check: the supplied subset of Entry Words Data of Nippojisho, NINJ
 | `c1-l025` | Guaibun jitgui tomoni yoi. *Soceder bem* |  |
 | `c1-l026` | &emsp;*aſsi na honra como no proueito.* |  |
 | `c1-l027` | Guaifǒ. i, guaijin. *Peßoa de fora como hos-* |  |
-| `c1-l028` | &emsp;*pede, &c. ¶* Guaifǒno fito. *Idẽ.* X. |  |
+| `c1-l028` | &emsp;*pede, &c. ¶* Guaifǒno fito. *Idẽ. X.* |  |
 | `c1-l029` | Guaiji. Focano coto. *Couſa de fora.* |  |
 | `c1-l030` | Guaijin. Focano fito. *Homem foraſteiro, ou* |  |
 | `c1-l031` | &emsp;*que não he domeſtico.* |  |
@@ -62,7 +62,7 @@ Lexical cross-check: the supplied subset of Entry Words Data of Nippojisho, NINJ
 | `c1-l044` | Guan. Negǒ. *Deſejo. ¶ Item,* Voto. |  |
 | `c1-l045` | &emsp;*Vt,* Guanuo tatçuru, l, mǒſu. *Fazer* |  |
 | `c1-l046` | &emsp;*vato.* |  |
-| `c1-l047` | Guandate, l, riǔguan. *Voto, ou promeßa* |  |
+| `c1-l047` | Guandate, *l*, riǔguan. *Voto, ou promeßa* |  |
 
 ## Column 2 running header
 
@@ -76,7 +76,7 @@ Lexical cross-check: the supplied subset of Entry Words Data of Nippojisho, NINJ
 | --- | --- | --- |
 | `c2-l001` | &emsp;*feita aos Camis, ou Fotoques.* |  |
 | `c2-l002` | Guangu. Negai motomuru. *Deſejar, ou pro* |  |
-| `c2-l003` | &emsp;*curar de alcançar.* S. |  |
+| `c2-l003` | &emsp;*curar de alcançar. S.* |  |
 | `c2-l004` | Guanji, zuru, ita. *Fazer redondo entre as* |  |
 | `c2-l005` | &emsp;*mãos. Vt,* Tôchincǒ nadouo guanzuru. |  |
 | `c2-l006` | &emsp;*Fazer redõda eſta mezinha, & outras couſas.* |  |
@@ -103,11 +103,11 @@ Lexical cross-check: the supplied subset of Entry Words Data of Nippojisho, NINJ
 | `c2-l027` | &emsp;*cipio ategora.* |  |
 | `c2-l028` | Guanriqi. Guanno chicara. *Efficacia do* |  |
 | `c2-l029` | &emsp;*voto, ou deſejo.* |  |
-| `c2-l030` | Guanſo. *Cabeça, ou principio dalgũa geração,* |  |
+| `c2-l030` | Guanſo. *Cabeça, ou principio dalgũa gèração,* |  |
 | `c2-l031` | &emsp;*ou familia.* |  |
 | `c2-l032` | Guanyacu. Marui cuſuri. *Mezinha feita em* |  |
 | `c2-l033` | &emsp;*pilouros como pirolas, ou Saidaiji, &c.* |  |
-| `c2-l034` | Guanzan. *Tres principios, ou começos. ſ* |  |
+| `c2-l034` | Guanzan. *Tres principios, ou começos. ſ.* |  |
 | `c2-l035` | &emsp;*do dia, do mes, do anno.* |  |
 | `c2-l036` | Guaraguarato. *Adu. Modo de cair monte* |  |
 | `c2-l037` | &emsp;*de pedras, ou de ſoar trouão, &c. Vt,* Ca- |  |
