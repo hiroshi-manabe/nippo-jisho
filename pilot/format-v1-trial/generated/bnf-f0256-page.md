@@ -23,7 +23,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l007` | Giǔbaco. *Caixa repartida ẽ tres, ou mais pe-* |  |
 | `c1-l008` | &emsp;*ças hũas ſobre outras de maneira que pareça* |  |
 | `c1-l009` | &emsp;*hũa ſoo.* |  |
-| `c1-l010` | Giǔbon. i, Vomoi toga. *Grande, ou gra-* |  |
+| `c1-l010` | Giùbon. i, Vomoi toga. *Grande, ou gra-* |  |
 | `c1-l011` | &emsp;*ue pecado.* |  |
 | `c1-l012` | Giǔbucu. Caſane qiru. *Veſtir hum veſtido* |  |
 | `c1-l013` | &emsp;*ſobre outro, ou veſtido forrado, & eſtofado.* |  |
@@ -82,13 +82,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l008` | Giǔxi, uru, ita. *Habitar.* |  |
 | `c2-l009` | Giǔxo. Sumidocoro. *Morada, ou lugar* |  |
 | `c2-l010` | &emsp;*onde ſe habita.* |  |
-| `c2-l011` | Giǔxo. i, Iyeni tçutauaru xo. *Liuro que* |  |
+| `c2-l011` | Giǔxo. i, Iyeni tçutauaru xo. L*iuro que* |  |
 | `c2-l012` | &emsp;*vem por deſcendencia em algũa familia a cer-* |  |
 | `c2-l013` | &emsp;*ca da gèração, ou rendas, &c.* |  |
 | `c2-l014` | Giǔxocu. *Officio, cargo, ou dignidade que* |  |
 | `c2-l015` | &emsp;*vem continuandoſe por idades nos pays, fi-* |  |
 | `c2-l016` | &emsp;*lhos, netos, &c. ¶ Item, Officio, ou car-* |  |
-| `c2-l017` | &emsp;*go annexo a algũa dignidade ẽ caſa do* Dairi. |  |
+| `c2-l017` | &emsp;*go annexo a algũa dignidade ẽ caſa do Dairi*. |  |
 | `c2-l018` | &emsp;*¶ Itẽ,* Giǔxocu. i, Vomoi curai. *Grã-* |  |
 | `c2-l019` | &emsp;*de, ou auentajada dignidade, ou cargo.* |  |
 | `c2-l020` | Giǔyacu. Caſanaru yacu. *Officio acrecen-* |  |
@@ -126,7 +126,7 @@ Decorated initial I spans the first six body rows.
 | `c2-l038` | &emsp;*compoſição. Vt,* Mei-i. *Excelente medico.* |  |
 | `c2-l039` | &emsp;*¶* Tai-i. *Grande medico.* |  |
 | `c2-l040` | I. *Poço. ¶* I uo foru. *Cauar algũ poço.* |  |
-| `c2-l041` | I. *Fel, mas nãoſe vſa ſem compoſição. Vt,* |  |
+| `c2-l041` | I. *Fel, mas não ſe vſa ſem compoſição. Vt,* |  |
 | `c2-l042` | &emsp;Cumano i, *Fel do vco.* |  |
 | `c2-l043` | I. *Iunco. Vt,* Imuxiro. *Eſteira de junco.* |  |
 

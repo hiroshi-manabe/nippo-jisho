@@ -26,7 +26,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l010` | Giǒfô. Sadamuru nori. *Leis determinadas.* |  |
 | `c1-l011` | Giofot. Farai nozoqu. *Sacudir, ou botar* |  |
 | `c1-l012` | &emsp;*fora. Vt,* Mǒxinuo giofot ſu. *Botar fo-* |  |
-| `c1-l013` | &emsp;*ra ruins penſamentos.* S. |  |
+| `c1-l013` | &emsp;*ra ruins penſamentos. S.* |  |
 | `c1-l014` | Giôgiô. *Capitulos, ou apontamentos.* |  |
 | `c1-l015` | Giǒgô. *Hora determinada da morte. ¶* Giǒ- |  |
 | `c1-l016` | &emsp;gôga qita. *He chegada a hora da morte.* |  |
@@ -46,7 +46,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l030` | Giojrogonomi. *Vide.* Gio*, ſuprà.* |  |
 | `c1-l031` | &emsp;*¶ Item, Molheres publicas, bailadeiras. Vt,* |  |
 | `c1-l032` | &emsp;Gio irogonomiuo nami ſuyete, &c. Zon. |  |
-| `c1-l033` | &emsp;*Tendo poſtas, & aſſentadas por ordem muitas* |  |
+| `c1-l033` | &emsp;*Tendo poſtas, & aſsentadas por ordem muitas* |  |
 | `c1-l034` | &emsp;*molheres laſciuas, &c.* |  |
 | `c1-l035` | Giǒma. *Eſpaço, ou medida de Tatami & meo.* |  |
 | `c1-l036` | Giǒ miǒ. Sadamatta inochi. *Vida determi-* |  |
@@ -56,7 +56,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l040` | Giǒmocu. Cagiǒ. *Capitulos, ou aponta-* |  |
 | `c1-l041` | &emsp;*mentos queſe daõ por eſcrito. ¶* Giǒmo- |  |
 | `c1-l042` | &emsp;cuuo motte yù. *Falar apreſentando alguns* |  |
-| `c1-l043` | &emsp;*capitulos eſcritos.* |  |
+| `c1-l043` | &emsp;*capìtulos eſcritos.* |  |
 | `c1-l044` | Giomocu. *Ser aleuantado em dignidade.* |  |
 | `c1-l045` | &emsp;*¶* Giomocuni ninzuru. *Meter no nume-* |  |
 | `c1-l046` | &emsp;*ro dos que ſobem a dignidade.* |  |
@@ -75,7 +75,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l001` | &emsp;*¶* Giǒnichiuo ſaſu. *Determinar algum* |  |
 | `c2-l002` | &emsp;*dia certo pera fazer algũa couſa.* |  |
 | `c2-l003` | Giǒnô, l *Melius* Giǒnôuo. *Certa feição de* |  |
-| `c2-l004` | &emsp;*cabeça, ou ponta doferro defrechas.* |  |
+| `c2-l004` | &emsp;*cabeça, ou ponta do ferro de frechas.* |  |
 | `c2-l005` | Giôqiǒ. Comayacani cǒbaxij. i, Yoi niuoi. |  |
 | `c2-l006` | &emsp;*Bom cheiro. ¶* Giôqiǒ funpunto xite |  |
 | `c2-l007` | &emsp;niuoi ſudeni ſacan nari. *O bõ cheiro eſpa-* |  |
@@ -101,7 +101,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l027` | &emsp;*do recolhido. ¶* Giǒxitni iru. *Entrar neſta* |  |
 | `c2-l028` | &emsp;*caſa pera meditar, &c.* |  |
 | `c2-l029` | Giǒxu. *Peßoa determinada que eſta ſempre* |  |
-| `c2-l030` | &emsp;*preſtos à ilharga do ſenhor.* |  |
+| `c2-l030` | &emsp;*preſtes à ilharga do ſenhor.* |  |
 | `c2-l031` | Giôxu. Cagiǒno cazu. *Numero de capitulos* |  |
 | `c2-l032` | &emsp;*ou apontamentos por eſcrito. ¶* Giôxuuo |  |
 | `c2-l033` | &emsp;motte mǒſu. *Falar por capitulos, ou apon-* |  |

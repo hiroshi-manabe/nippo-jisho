@@ -28,7 +28,7 @@ Lexical reference: the supplied NINJAL Entry Words Data of Nippojisho, version 2
 | `c1-l010` | &emsp;*guila no fogo pera cheiro. ¶* Ginuo tomu- |  |
 | `c1-l011` | &emsp;ru. *Perfumarſe com aguila, ou os veſtidos.* |  |
 | `c1-l012` | Gin. *Arrayal. ¶* Ginuo yaburu. *Rõ-* |  |
-| `c1-l013` | &emsp;*per, ou destruir o arrayal. ¶* Ginuo catô |  |
+| `c1-l013` | &emsp;*per, ou destruir o arrayal. ¶* Ginuo catò |  |
 | `c1-l014` | &emsp;ſuru, l, catamuru. *Fortalecer, ou baſtecer* |  |
 | `c1-l015` | &emsp;*o arrayal. ¶* Ginuo toru, l, gindoriuo |  |
 | `c1-l016` | &emsp;ſuru. *Aßẽtar o arrayal.* Ginuo fiqu. *Ale-* |  |
@@ -58,8 +58,8 @@ Lexical reference: the supplied NINJAL Entry Words Data of Nippojisho, version 2
 | `c1-l040` | &emsp;*batalha. ¶ Item, Principio de hũ eſquadrão,* |  |
 | `c1-l041` | &emsp;*ou manga de gente. ¶ Itẽ, Principo de hũa* |  |
 | `c1-l042` | &emsp;*ordem de gente como Cũgues que a companhão* |  |
-| `c1-l043` | &emsp;*ao* Dairi*, quando ſay fora, &c.* |  |
-| `c1-l044` | Ginxo. Ginuo totta tocoro. *Lugar onde* |  |
+| `c1-l043` | &emsp;*ao Dairi, quando ſay fora, &c.* |  |
+| `c1-l044` | Ginxo. Ginuo totta tocoro. L*ugar onde* |  |
 | `c1-l045` | &emsp;*eſta alojado o exercito. ¶* Ginxouo ca- |  |
 | `c1-l046` | &emsp;mayuru. *Cercar, ou fortalecer o lugar do* |  |
 | `c1-l047` | &emsp;*arreyal.* |  |
@@ -108,7 +108,7 @@ Lexical reference: the supplied NINJAL Entry Words Data of Nippojisho, version 2
 | `c2-l026` | &emsp;qini tatacǒ. *Pelejar em peſſoa.* |  |
 | `c2-l027` | Giqinǒ, l, giqimu. Suguni voſamuru. *Gouer-* |  |
 | `c2-l028` | &emsp;*narem peſſoa, ou adminiſtrar porſi ſuas terras.* |  |
-| `c2-l029` | Giqiǒ. *O ler cada dia oliuro de Xaca chuma-* |  |
+| `c2-l029` | Giqiǒ. *O ler cada dia o liuro de Xaca chama-* |  |
 | `c2-l030` | &emsp;*do Foqeqiǒ como fazem os Bonzos.* |  |
 | `c2-l031` | Giqiǒja, l, giqiǒxa. *O Bonzo que tem eſte* |  |
 | `c2-l032` | &emsp;*officio deler cada dia o Foqeqiǒ.* |  |
@@ -122,7 +122,7 @@ Lexical reference: the supplied NINJAL Entry Words Data of Nippojisho, version 2
 | `c2-l040` | &emsp;*ſente, ou de parte dalgum negocio.* |  |
 | `c2-l041` | Giqiſǒ. *Nouas certas de couſas que hum vio,* |  |
 | `c2-l042` | &emsp;*ou de que lhe veo carta, &c. No Cami ſe* |  |
-| `c2-l043` | &emsp;*diz tißǒ.* |  |
+| `c2-l043` | &emsp;*diz Iißǒ.* |  |
 | `c2-l044` | Giqiſô. Giqini mǒſu. *Falar em peſſoa, ou* |  |
 | `c2-l045` | &emsp;*preſencialmente ao Rey, ou a algum ſenhor* |  |
 | `c2-l046` | &emsp;*grande.* |  |

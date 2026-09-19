@@ -109,9 +109,9 @@ Lexical reference: the supplied NINJAL Entry Words Data of Nippojisho, version 2
 | `c2-l032` | &emsp;*Caſa forte. ¶ Item, Homem forte, &* |  |
 | `c2-l033` | &emsp;*constante.* |  |
 | `c2-l034` | Giǒbuni. *Adu. Fortemente. ¶* Xirouo |  |
-| `c2-l035` | &emsp;giǒbuni motçu. *Ter mão teſa, & forte-* |  |
+| `c2-l035` | &emsp;giǒbuni motçu. T*er mão teſa, & forte-* |  |
 | `c2-l036` | &emsp;*mente na fortaleza.* |  |
-| `c2-l037` | Giǒbutai. Ma vtena. *Teatro que ſempre ha,* |  |
+| `c2-l037` | Giǒbutai. Mǒ vtena. *Teatro que ſempre ha,* |  |
 | `c2-l038` | &emsp;*ou lugar determinado pera fazer os autos.* |  |
 | `c2-l039` | Giochǔ. *Molher caſada honrada.* |  |
 | `c2-l040` | Giǒcǒ. *Cheiro, ou perfume que ſempre arde* |  |
