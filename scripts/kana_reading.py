@@ -120,12 +120,13 @@ def transliterate_token(token: str) -> str | None:
             continue
         consonant = ""
         if text.startswith("tç", index): consonant, index = "t", index + 2
-        elif text[index] == "t" and (not vowel_at(text, index + 1) or text.startswith("tuo", index)):
+        elif text[index] == "t" and (not vowel_at(text, index + 1) or vowel_at(text, index + 1)[0] in "iu"):
             # Sino-Japanese checked -t is written as a bare coda in Jesuit
             # romanization. Small ッ is an editorial display convention for
             # that closed syllable, not a claim of ordinary modern gemination.
-            # Before object-particle uo, retain the coda boundary as well:
-            # facufat-uo, not facufa-tu-o. The following loop reads uo as ヲ.
+            # chi/tçu spell チ/ツ; bare ti/tu retain the coda boundary:
+            # xit-in, giqisat-ua, facufat-uo. The next loop reads the vowel
+            # or ua/uo. ta/te/to remain ambiguous.
             output.append("ッ"); index += 1; continue
         elif text.startswith("zz", index):
             consonant, index = "z", index + 2

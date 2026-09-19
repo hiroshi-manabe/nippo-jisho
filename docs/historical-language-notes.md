@@ -175,6 +175,14 @@ Several patterns are especially useful during the Japanese pass:
 - **`m/b` doublets:** the *Vocabulario* contains genuine competing forms, and Morita argues that at least some reflect different pronunciations rather than mere spelling variants (2024: 126–127).
 - **Nasal and long-vowel interaction:** Morita records `n`, `ǒ`, and `ô` variation, especially in certain verb forms, alongside foreign-speaker and dialect effects (2024: 124–126). A seemingly extra `n` is not automatically an OCR-like error.
 
+**Kana-guide clarification (2026-09-19):** Bare `ti`/`tu` are treated as final
+`t` plus the following vowel or `ua`/`uo`, because チ/ツ have the distinct
+spellings `chi`/`tçu`. Thus f253/c2-l035 `giqiſat-ua` → ヂキサッワ,
+`Xitin` → シッイン, and `Ietiqi` → ゼッイキ (the latter two agree with
+NINJAL's headword readings). In contrast, `ta`/`te`/`to` can be ordinary
+syllables. `Batacu` (バッアク in NINJAL) is genuinely ambiguous and receives
+no lexical override. This is a derived hint only, not a Level 1 change.
+
 ### 2.8 Morphology is part of Level 1 review, not Level 1 data
 
 The dictionary frequently gives multiple principal forms after a Japanese word, separated by commas: examples include `Ague,ru,eta` and `Abaqi,u,aita`. Such patterns allow a reviewer to notice that an apparent letter sequence would produce an implausible verb or particle construction. That is how `tçutomemo` led back to printed `tçutomeuo`, `vgogu` to `vgoqu`, and `inacu` to `macu`.
