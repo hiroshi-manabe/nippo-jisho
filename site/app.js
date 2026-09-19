@@ -878,6 +878,9 @@ function quickCharacterHTML(character, index, baseIndex, changed, line, proposal
   if (nasalRestoration) {
     action = 'nasal-restore';
     title = `Restore ${nasalRestoration.vowel}${nasalRestoration.consonant}`;
+  } else if (character === 'ß' || (character === 'ſ' && proposal.characters[index + 1]?.character === 'ſ' && proposal.characters[index + 1]?.style === explicitTypeface)) {
+    action = 'double-s';
+    title = character === 'ß' ? 'Expand ligature to ſſ' : 'Join ſſ into ß (click the second ſ for its single-letter controls)';
   } else if (typefaceToken) {
     action = 'typeface-token';
     title = 'Toggle this token between Roman and italic type';
@@ -1138,7 +1141,13 @@ function applyQuickEdit(row, control) {
       return [{...item, index: item.index >= end ? item.index + delta : item.index}];
     });
   };
-  if (action === 's-form') {
+  if (action === 'double-s') {
+    const chars = NippoQuickEdit.parse(current).characters;
+    const expand = chars[index]?.character === 'ß';
+    if (!expand && !(chars[index]?.character === 'ſ' && chars[index + 1]?.character === 'ſ')) return;
+    after = NippoQuickEdit.replace(current, index, index + (expand ? 1 : 2), expand ? 'ſſ' : 'ß');
+    shiftNasalRestorations(index, expand ? 1 : 2, expand ? 2 : 1);
+  } else if (action === 's-form') {
     const parsed = NippoQuickEdit.parse(current);
     const character = parsed.characters[index]?.character;
     after = NippoQuickEdit.replace(current, index, index + 1, NippoQuickEdit.nextSForm(character, control.dataset.original));
