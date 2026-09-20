@@ -1,0 +1,287 @@
+{
+  "schema": 2,
+  "package_id": "production-f0297-f0298-f0299-fa0928e8",
+  "input_manifest_sha256": "975ba23c8a93d8699fbd6be43233e05aae209d5cdf60607f48576db29b00ed7e",
+  "reviewer": "GPT-6 Astra Pro (OpenAI); external scan-based AI review. Supplied NINJAL page subset consulted after independent reading: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi Aida, version 202510, CC BY 4.0; https://www2.ninjal.ac.jp/textdb_dataset/en/nipp/index.html ; https://creativecommons.org/licenses/by/4.0/ . No new OCR was run; no human approval or local publication is claimed.",
+  "pages": {
+    "bnf-f0297": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c1-l002: Cubǒſama is the incorporated reading of the abraded title. The b and vowel mark are less secure than the adjacent letters; the line note retains this caveat rather than normalizing the title."
+      ],
+      "decision_requests": [],
+      "structural_changes": [
+        {
+          "before": [
+            "u1t-l001"
+          ],
+          "after": [],
+          "reason": "Removed the false OCR numeral 2 and its provisional furniture zone: native inspection shows an ink blemish, not a printed character. The physical mark is retained descriptively in a nontranscribed header-zone note, so no readable text is lost."
+        },
+        {
+          "before": [
+            "h1-l001"
+          ],
+          "after": [
+            "h1-l001"
+          ],
+          "reason": "Restored the complete running header I ANTES DO V. and its word separation from the scan."
+        },
+        {
+          "before": [
+            "h2-l001"
+          ],
+          "after": [
+            "h2-l001",
+            "pn-l001"
+          ],
+          "reason": "Separated the printed page number 147. from the right running header; corrected the header to I ANTES DO V. All readable header and number material is retained in its proper furniture role."
+        },
+        {
+          "before": [
+            "s2-02-l001"
+          ],
+          "after": [
+            "s2-02-l001"
+          ],
+          "reason": "Restored the visible cedilla and final A in the internal display heading COMEÇAM PELLA; row identity and display setting are retained."
+        },
+        {
+          "before": [
+            "s2-04-l001"
+          ],
+          "after": [
+            "s2-04-l001"
+          ],
+          "reason": "Corrected the internal M-section running heading word separation to M ANTES DO A."
+        },
+        {
+          "before": [
+            "c2-l028"
+          ],
+          "after": [
+            "c2-l028"
+          ],
+          "reason": "Restored the omitted decorated M to MA. and encoded initial=6. The initial spans c2-l028 through c2-l033; its owning crop now contains the whole ornament. Replaced the OCR indentation modifier with the large-initial layout, without renumbering or incorporating following entries into this row."
+        },
+        {
+          "before": [],
+          "after": [
+            "cw-l001"
+          ],
+          "reason": "Inserted the omitted far-right Ma. catchword, beside the final body row and anticipating the next page. The final body gloss remains c2-l040; no body text is duplicated as the catchword."
+        }
+      ],
+      "typeface_terms": {
+        "c1-l002": [
+          "Cubǒſama"
+        ],
+        "c1-l003": [
+          "Tenca",
+          "Miyaco"
+        ],
+        "c2-l037": [
+          "Zaxiquis"
+        ],
+        "c2-l038": [
+          "Zaxiqui"
+        ],
+        "c2-l039": [
+          "Zaxiqui"
+        ]
+      }
+    },
+    "bnf-f0298": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c1-l047: The faint terminal punctuation in Guarda, is incorporated as a comma; the gloss continues ou proteição at the top of the second column. The comma after Aliquando is separately visible.",
+        "c2-l006: Estar retains the aligned provisional st allograph. As specified in the supplied typography guidance, final classification of the difficult italic st/ſt class is deferred rather than globally normalized.",
+        "c2-l011: ficcôda is incorporated with clearly doubled c and a circumflex as the chosen visible mark. Expected Japanese nasalization has not been supplied; the vowel-mark caveat remains in the note."
+      ],
+      "decision_requests": [],
+      "structural_changes": [
+        {
+          "before": [
+            "h1-l001"
+          ],
+          "after": [
+            "h1-l001"
+          ],
+          "reason": "Corrected the left running header from N AMTESDOA. to the visible M ANTES DO A.; the right running header remains without a final period, as printed."
+        },
+        {
+          "before": [
+            "c2-l019"
+          ],
+          "after": [
+            "c2-l019"
+          ],
+          "reason": "Restored the omitted far-right (ſupra. as separately named mark and word segments on its actual physical row. It completes the Vide reference on the following row logically but is not moved into that row."
+        },
+        {
+          "before": [
+            "c2-l043"
+          ],
+          "after": [
+            "c2-l043"
+          ],
+          "reason": "Restored the visible first-level indentation of this body continuation; retained its ID and physical row without promoting it to a new headword."
+        },
+        {
+          "before": [
+            "c2-l046"
+          ],
+          "after": [
+            "c2-l046"
+          ],
+          "reason": "Restored the visible first-level indentation of this body continuation; retained its ID and physical row without promoting it to a new headword."
+        },
+        {
+          "before": [
+            "c2-l047"
+          ],
+          "after": [
+            "c2-l047"
+          ],
+          "reason": "Restored the visible first-level indentation of this body continuation; retained its ID and physical row without promoting it to a new headword."
+        },
+        {
+          "before": [
+            "u2b-l001"
+          ],
+          "after": [
+            "u2b-l001"
+          ],
+          "reason": "Reclassified the isolated lower-right uo as a catchword, using far-right placement and roman rather than display type. It anticipates uo at the top of the next page; the same ID is preserved."
+        }
+      ],
+      "typeface_terms": {
+        "c1-l012": [
+          "Yax."
+        ],
+        "c1-l025": [
+          "Tatamis"
+        ],
+        "c1-l036": [
+          "Xiru"
+        ],
+        "c1-l042": [
+          "Feiq."
+        ],
+        "c2-l001": [
+          "Fotoque"
+        ],
+        "c2-l011": [
+          "Tac."
+        ],
+        "c2-l015": [
+          "Ximo"
+        ],
+        "c2-l020": [
+          "Mabori"
+        ],
+        "c2-l021": [
+          "Mabori"
+        ],
+        "c2-l022": [
+          "Fotoque"
+        ],
+        "c2-l025": [
+          "Mochis"
+        ],
+        "c2-l026": [
+          "Ximo"
+        ]
+      }
+    },
+    "bnf-f0299": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c2-l029: foiga- is incorporated rather than expected folga-. Enlargement supports a dotted i-like type, unlike l in largos on the same row; a damaged letter or printing anomaly remains possible.",
+        "c2-l045: eſperandoi retains the final dotted i-like glyph from the aligned draft. It may be damaged or erroneous type, but the expected Portuguese eſperando has not been silently substituted. The independently visible acute in á lerta has been incorporated."
+      ],
+      "decision_requests": [],
+      "structural_changes": [
+        {
+          "before": [
+            "h1-l001"
+          ],
+          "after": [
+            "h1-l001"
+          ],
+          "reason": "Restored the word separation of the left running header M ANTES DO A. without changing its role or ID."
+        },
+        {
+          "before": [
+            "h2-l001"
+          ],
+          "after": [
+            "h2-l001",
+            "pn-l001"
+          ],
+          "reason": "Separated printed page number 148. from the right running header and corrected the header word separation. The apparent L4B. was OCR error; both furniture elements remain at their physical location and no readable material is discarded."
+        },
+        {
+          "before": [
+            "u2b-l001"
+          ],
+          "after": [
+            "u2b-l001"
+          ],
+          "reason": "Reclassified the lower-right por- as an italic far-right catchword and corrected its terminal hyphen (not a full stop). Retained the original ID and did not append the catchword to the final body row or invent its continuation on the unsupplied next page."
+        }
+      ],
+      "typeface_terms": {
+        "c1-l001": [
+          "Qir."
+        ],
+        "c1-l008": [
+          "Mon."
+        ],
+        "c1-l010": [
+          "Miyaco"
+        ],
+        "c1-l013": [
+          "Mon.",
+          "Miyaco"
+        ],
+        "c1-l020": [
+          "Mon."
+        ],
+        "c1-l024": [
+          "Mon."
+        ],
+        "c1-l030": [
+          "Mon."
+        ],
+        "c1-l035": [
+          "Mon."
+        ],
+        "c1-l042": [
+          "Mon."
+        ],
+        "c2-l013": [
+          "Catana"
+        ],
+        "c2-l018": [
+          "Mon."
+        ],
+        "c2-l038": [
+          "Ximo"
+        ],
+        "c2-l043": [
+          "Yam."
+        ],
+        "c2-l047": [
+          "Mon."
+        ]
+      }
+    }
+  }
+}
