@@ -109,7 +109,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l029` | &emsp;zumi iy qiru. *Dizer reſolutamente que de* |  |
 | `c2-l030` | &emsp;*nenhũa maneira.* |  |
 | `c2-l031` | Ichô. *Reino da China.* |  |
-| `c2-l032` | Ichocu. Chocu__ tagǒ. *Deſobedecer ao man* |  |
+| `c2-l032` | Ichocu. Chocuni tagǒ. *Deſobedecer ao man* |  |
 | `c2-l033` | &emsp;*dado do Rey.* |  |
 | `c2-l034` | Icô. Cotonaru cuchi. *Outra boca. Vt,* Icô dô |  |
 | `c2-l035` | &emsp;uonni yǔ. *Louuarem muitos a meſma couſa* |  |
