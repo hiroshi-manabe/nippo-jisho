@@ -1,0 +1,293 @@
+{
+  "schema": 2,
+  "package_id": "production-f0303-f0304-f0305-fa0928e8",
+  "input_manifest_sha256": "53bebb91884bd6ba19ca45becb82df95bd3f907fc3ec9a52ef9756d34fa9be35",
+  "reviewer": "GPT-6 Astra Pro (OpenAI); external scan-grounded review",
+  "pages": {
+    "bnf-f0303": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c1-l045: the terminal mark after Mi is weak and largely vertical; retained the aligned baseline hyphen as Mi-, with the caveat in the line note.",
+        "c1-l041: ota is retained without an accent because no unambiguous mark is readable here; the lexical index does not license supplying one."
+      ],
+      "decision_requests": [],
+      "structural_changes": [
+        {
+          "before": [
+            "h1-l001"
+          ],
+          "after": [
+            "h1-l001"
+          ],
+          "reason": "Corrected the running header to M ANTES DO A. from the native scan, retaining the stable ID."
+        },
+        {
+          "before": [
+            "h2-l001"
+          ],
+          "after": [
+            "h2-l001",
+            "pn-l001"
+          ],
+          "reason": "Separated the misread 150. page number from the right running header; corrected the header to M ANTES DO A and placed the number in a page_number zone. No printed text was discarded."
+        },
+        {
+          "before": [
+            "u2b-l001"
+          ],
+          "after": [
+            "sig-l001",
+            "u2b-l001"
+          ],
+          "reason": "Split the provisional combined bottom record into the signature P p 2 and the right-aligned catchword Mame. Retained u2b-l001 for the catchword and placed each component in its proper zone."
+        }
+      ],
+      "typeface_terms": {
+        "c1-l016": [
+          "Feiq."
+        ],
+        "c1-l028": [
+          "Ximo",
+          "Faye"
+        ],
+        "c1-l029": [
+          "no caje"
+        ],
+        "c2-l002": [
+          "Feiq."
+        ],
+        "c2-l025": [
+          "Taif."
+        ],
+        "c2-l037": [
+          "Zaxiqui"
+        ],
+        "c2-l045": [
+          "Mon."
+        ]
+      }
+    },
+    "bnf-f0304": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c1-l006: retained Caſea, although Caſca is the expected word for husk; enlargement shows an e-like eye agreeing with the OCR rather than a securely open c.",
+        "c1-l010: chose Mamenoco for the damaged headword; the first internal m is only partially printed and remains uncertain. Neighboring Mameni has similar damage; the supplied lexical index independently agrees with the chosen word."
+      ],
+      "decision_requests": [],
+      "structural_changes": [
+        {
+          "before": [
+            "h1-l001"
+          ],
+          "after": [
+            "h1-l001"
+          ],
+          "reason": "Corrected the left running header to M ANTES DO A. from the scan; stable ID retained."
+        },
+        {
+          "before": [
+            "h2-l001"
+          ],
+          "after": [
+            "h2-l001"
+          ],
+          "reason": "Restored the missing letters and spaces of M ANTES DO A. in the right running header; stable ID retained."
+        },
+        {
+          "before": [
+            "u2b-l001"
+          ],
+          "after": [
+            "u2b-l001"
+          ],
+          "reason": "Reclassified the lower right furniture as a right-aligned roman catchword and corrected its terminal mark to the visible period in Man. No body text was removed."
+        },
+        {
+          "before": [
+            "c1-l001",
+            "c1-l004",
+            "c1-l006",
+            "c1-l007",
+            "c1-l009",
+            "c1-l010",
+            "c2-l004"
+          ],
+          "after": [
+            "c1-l001",
+            "c1-l004",
+            "c1-l006",
+            "c1-l007",
+            "c1-l009",
+            "c1-l010",
+            "c2-l004"
+          ],
+          "reason": "Removed provisional continuation indentation from flush-left headword rows, as confirmed by their alignment in the native scan."
+        },
+        {
+          "before": [
+            "c1-l031",
+            "c1-l033",
+            "c1-l036",
+            "c1-l038",
+            "c1-l039",
+            "c1-l041",
+            "c1-l042",
+            "c1-l045",
+            "c1-l046",
+            "c2-l032",
+            "c2-l035",
+            "c2-l037",
+            "c2-l038",
+            "c2-l039",
+            "c2-l041",
+            "c2-l043",
+            "c2-l045",
+            "c2-l047"
+          ],
+          "after": [
+            "c1-l031",
+            "c1-l033",
+            "c1-l036",
+            "c1-l038",
+            "c1-l039",
+            "c1-l041",
+            "c1-l042",
+            "c1-l045",
+            "c1-l046",
+            "c2-l032",
+            "c2-l035",
+            "c2-l037",
+            "c2-l038",
+            "c2-l039",
+            "c2-l041",
+            "c2-l043",
+            "c2-l045",
+            "c2-l047"
+          ],
+          "reason": "Restored continuation indentation on rows set in from the headword margin; physical rows and IDs are unchanged."
+        }
+      ],
+      "typeface_terms": {
+        "c1-l014": [
+          "Mochis"
+        ],
+        "c1-l016": [
+          "Cami",
+          "Mabururu"
+        ],
+        "c1-l021": [
+          "Mochis"
+        ],
+        "c1-l022": [
+          "mames"
+        ],
+        "c1-l023": [
+          "Cami"
+        ],
+        "c1-l024": [
+          "Mabuxi, ſu"
+        ],
+        "c2-l005": [
+          "Vomana"
+        ],
+        "c2-l006": [
+          "Xin"
+        ],
+        "c2-l007": [
+          "Xôſocu"
+        ],
+        "c2-l008": [
+          "Faxes"
+        ],
+        "c2-l014": [
+          "Tatami"
+        ],
+        "c2-l015": [
+          "Xin",
+          "Xôſô-"
+        ],
+        "c2-l016": [
+          "cu",
+          "Cana"
+        ]
+      }
+    },
+    "bnf-f0305": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c1-l035: retained the aligned Maguatno without supplying a nasal mark. A weak trace above the first a might represent one, but it is close to the preceding g descender and is not unambiguous."
+      ],
+      "decision_requests": [],
+      "structural_changes": [
+        {
+          "before": [
+            "h1-l001"
+          ],
+          "after": [
+            "h1-l001"
+          ],
+          "reason": "Corrected the left running header from N to M, retaining M ANTES DO A. and the stable ID."
+        },
+        {
+          "before": [
+            "h2-l001"
+          ],
+          "after": [
+            "h2-l001",
+            "pn-l001"
+          ],
+          "reason": "Corrected the right running header to M ANTES DO A. and separated the misread printed number 151. into a page_number zone. All visible text is accounted for."
+        },
+        {
+          "before": [
+            "u2b-l001"
+          ],
+          "after": [
+            "sig-l001",
+            "u2b-l001"
+          ],
+          "reason": "Split the provisional lower record into the complete signature P p 3 and the right-aligned italic catchword eſta. The previously missed p 3 was recovered from the scan; the catchword retains its original ID."
+        },
+        {
+          "before": [
+            "c2-l003"
+          ],
+          "after": [
+            "c2-l003"
+          ],
+          "reason": "Restored the indentation of the physical continuation row jita, aligned beneath the preceding example rather than flush with headwords."
+        }
+      ],
+      "typeface_terms": {
+        "c1-l005": [
+          "Fotoque"
+        ],
+        "c1-l041": [
+          "torinoco",
+          "Biǒbus"
+        ],
+        "c1-l042": [
+          "Tatami"
+        ],
+        "c2-l029": [
+          "tera"
+        ],
+        "c2-l032": [
+          "Tera"
+        ],
+        "c2-l044": [
+          "Zaxiquis"
+        ],
+        "c2-l045": [
+          "Zaxiqui"
+        ]
+      }
+    }
+  }
+}
