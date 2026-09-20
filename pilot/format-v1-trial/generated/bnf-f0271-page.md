@@ -41,7 +41,7 @@ Lexical cross-check after independent scan reading: Entry Words Data of Nippojis
 | `c1-l023` | Iro. *Cor. ¶* Irouo vxinǒ. *Perder as* |  |
 | `c1-l024` | &emsp;*cores. ¶* Irouo cayete iſamuru. *Re-* |  |
 | `c1-l025` | &emsp;*prender a alguem, ou dar lhe conſelho por va* |  |
-| `c1-l026` | &emsp;*rias vias. ¶* Irouo nauoſu. *Mudar a* |  |
+| `c1-l026` | &emsp;r*ias vias. ¶* Irouo nauoſu. *Mudar a* |  |
 | `c1-l027` | &emsp;*cor do roſto, ou oſembrante que dantes estaua* |  |
 | `c1-l028` | &emsp;*alterado, ou agaſtado, &c. ¶* Iro nauo- |  |
 | `c1-l029` | &emsp;xi. *Vt,* Iro nauoxiuo ſuru. *Mudar a* |  |
@@ -120,7 +120,7 @@ Lexical cross-check after independent scan reading: Entry Words Data of Nippojis
 | `c2-l043` | &emsp;*ſe a fruita, ou amadurecer. ¶* Inega iroz- |  |
 | `c2-l044` | &emsp;zuqu. *Sazonarſe a ſeara do arroz ja eſpigado.* |  |
 | `c2-l045` | Iru, itta. *Verbum defect. Vt,* Faga iru. l, |  |
-| `c2-l046` | &emsp;itta. *Botaremſe os dentes como quãdo ſe comi* |  |
+| `c2-l046` | &emsp;itta. *Botaremſe os dentes como quãdo ſe come* |  |
 | `c2-l047` | &emsp;*couſas verdes, & azedas.* |  |
 | `c2-l048` | Iruca. *Toninha.* |  |
 | `u2b-l001` | Irui. *Vestidos.* |  |

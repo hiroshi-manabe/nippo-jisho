@@ -30,9 +30,9 @@ Lexical cross-check: NINJAL, Entry Words Data of Nippojisho, version 202510; Hid
 | `c1-l012` | Inyocu. *Concupiſcencia carnal, ou deſejos da* |  |
 | `c1-l013` | &emsp;*carne.* |  |
 | `c1-l014` | Inyu. i, Innen. *Principio, ou cauſa.* |  |
-| `c1-l015` | Inzan. Innogoxeye mairu. *Ir ao paço do* |  |
+| `c1-l015` | Inzan. Innogoxoye mairu. *Ir ao paço do* |  |
 | `c1-l016` | &emsp;*Rey que ja renunciou o gouerno.* |  |
-| `c1-l017` | Inzot. *Leuar em companhia.* S. |  |
+| `c1-l017` | Inzot. *Leuar em companhia. S.* |  |
 
 ## Column 1 internal heading
 
@@ -46,7 +46,7 @@ Lexical cross-check: NINJAL, Entry Words Data of Nippojisho, version 202510; Hid
 | --- | --- | --- |
 | `c1-l018` | IPpa. Fitotçuno monpa. *Hũa religião, ou* |  |
 | `c1-l019` | &emsp;*ſeita.* |  |
-| `c1-l020` | Ippa. Fitotçuno nami. *Hũa onda.* S. |  |
+| `c1-l020` | Ippa. Fitotçuno nami. *Hũa onda. S.* |  |
 | `c1-l021` | Ippai. *Adu. Modo de encher de todo, ou* |  |
 | `c1-l022` | &emsp;*eſtar cheo. Vt,* Chǒdo ippai iruru. *En-* |  |
 | `c1-l023` | &emsp;*cher de todo botando em algũa vaſilha. ¶* I- |  |
@@ -57,13 +57,13 @@ Lexical cross-check: NINJAL, Entry Words Data of Nippojisho, version 202510; Hid
 | `c1-l028` | &emsp;*co todo.* |  |
 | `c1-l029` | Ippan. *Hum Goqui de arroz.* |  |
 | `c1-l030` | Ippan. Fitotçuno fo. *Hũa vela de ma-* |  |
-| `c1-l031` | &emsp;*rear.* S. |  |
+| `c1-l031` | &emsp;*rear. S.* |  |
 | `c1-l032` | Ippei. *Hum bule, ou pichel de vinho.* |  |
 | `c1-l033` | Ippen, l, ippenni. *De todo coração, ou ſoo* |  |
 | `c1-l034` | &emsp;*mente. Vt,* Goxǒuo ippẽni negǒ. *De-* |  |
 | `c1-l035` | &emsp;*ſejar de coração, & ſem miſtura de outra cou* |  |
 | `c1-l036` | &emsp;*ſa, a ſaluação.* |  |
-| `c1-l037` | Ippiô. Fitotçuno fiſago. *Hũa cabeça.* S. |  |
+| `c1-l037` | Ippiô. Fitotçuno fiſago. *Hũa cabaça. S.* |  |
 | `c1-l038` | Ippiôxi. *Hum tom, ou hum compaſo. ¶* Ip- |  |
 | `c1-l039` | &emsp;piôxini vodoru. *Bailar, ou dançar em hũ* |  |
 | `c1-l040` | &emsp;*meſmo tom, ou compaſo.* |  |
@@ -124,7 +124,7 @@ Lexical cross-check: NINJAL, Entry Words Data of Nippojisho, version 202510; Hid
 | `c2-l028` | &emsp;*¶* Iinbani iqiuo tçugaſuru. *Fazer descã-* |  |
 | `c2-l029` | &emsp;*ſar os homens, & os caualos. ¶* Iqiuo |  |
 | `c2-l030` | &emsp;yaſumuru. *Deſcanſar. ¶* Iqiuo tçu- |  |
-| `c2-l031` | &emsp;qicaquru, l, xicaquru. *Bafejar ſobre al-* |  |
+| `c2-l031` | &emsp;qicaquru. l, xicaquru. *Bafejar ſobre al-* |  |
 | `c2-l032` | &emsp;*gũa couſa. ¶* Iqiga cayô. *Reſpirar,* |  |
 | `c2-l033` | &emsp;*ou entrar, & ſair o folego. ¶* Iqiga faz- |  |
 | `c2-l034` | &emsp;zumu. *Resfolegar com difficuldade.* |  |
@@ -137,7 +137,7 @@ Lexical cross-check: NINJAL, Entry Words Data of Nippojisho, version 202510; Hid
 | `c2-l041` | &emsp;*alguem.* |  |
 | `c2-l042` | Iqiai. *Mezinha que ſe dà ao caualo cãnſado* |  |
 | `c2-l043` | &emsp;*pera tomar alento.* |  |
-| `c2-l044` | Iqiai qiodai. *Filhos de duas peßoas, as quaes por* |  |
+| `c2-l044` | Iqiai qiǒdai. *Filhos de duas peßoas, as quaes por* |  |
 | `c2-l045` | &emsp;*ſe caſarem ambas ficão os filhos como dous ir-* |  |
 
 ## Printed catchword

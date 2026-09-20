@@ -54,7 +54,7 @@ Lexical cross-check: NINJAL, Entry Words Data of Nippojisho, version 202510; Hid
 | `c1-l036` | Iqiǒ. *Cheiro ſuaue. ¶* Iqiǒ cunzuru. *Re* |  |
 | `c1-l037` | &emsp;*cender o cheiro. ¶* Iqiǒ zani todomaru. |  |
 | `c1-l038` | &emsp;Taif. *Lib. 10. Ficar o Zaxiqui recenden* |  |
-| `c1-l039` | &emsp;*do.* S. |  |
+| `c1-l039` | &emsp;*do. S.* |  |
 | `c1-l040` | Iqireǒ. *Demonio que entra no corpo dalguem* |  |
 | `c1-l041` | &emsp;*nomeandoſe por algũa peßoa que eſtà viua.* |  |
 | `c1-l042` | Iqiri, u, itta. *Vt,* Miga iqiru. *Estar cõ* |  |
@@ -84,13 +84,13 @@ The final Q is printed upside down, with its tail above the bowl. It is represen
 | --- | --- | --- |
 | `c2-l001` | Iqitçugui, u. *Resfolegar com trabalho como* |  |
 | `c2-l002` | &emsp;*quem eſtà muito canſado, ou como peixe que eſ* |  |
-| `c2-l003` | &emsp;*tà fora dagoa.* S. *na pratica ſe diz,* Iqiuo |  |
-| `c2-l004` | &emsp;tçugu. |  |
+| `c2-l003` | &emsp;*tà fora dagoa. S. na pratica ſe diz,* Iqiuo |  |
+| `c2-l004` | &emsp;tç*u*gu. |  |
 | `c2-l005` | Iqitouori, u. *Paßar por algũa parte. Meli-* |  |
 | `c2-l006` | &emsp;*ùs,* Yuqitouoru. |  |
 | `c2-l007` | Iqitoxe iqeru mono. *Todos os viuentes ſen-* |  |
 | `c2-l008` | &emsp;*ſitiuos.* |  |
-| `c2-l009` | Iqiocu. i, Cuuaxǔ. *Adu. Lindamẽte.* S. |  |
+| `c2-l009` | Iqiocu. i, Cuuaxǔ. *Adu. Lindamẽte. S.* |  |
 | `c2-l010` | Iqiuoi. *Vigor, ou impeto. ¶* T çuuamo- |  |
 | `c2-l011` | &emsp;nono iqiuoiga tçuqita. *Acabouſe o im-* |  |
 | `c2-l012` | &emsp;*peto, & vigor dos ſoldados.* |  |
@@ -127,9 +127,9 @@ The final Q is printed upside down, with its tail above the bowl. It is represen
 | `c2-l032` | &emsp;*gas. ¶* Ira, l, iraguſaga ſaſu. *Picarem* |  |
 | `c2-l033` | &emsp;*as ortigas.* |  |
 | `c2-l034` | Irabacaxi, ſu, aita. *Eſcarnecer, ou zom-* |  |
-| `c2-l035` | &emsp;*bar.* B. *No Cami ſe diz,* Xebiracaſu. |  |
+| `c2-l035` | &emsp;*bar. B. No Cami ſe diz,* Xebiracaſu. |  |
 | `c2-l036` | Iraca. Iyeno tçuma. *Cumieira, ou telhado* |  |
-| `c2-l037` | &emsp;*da caſa cuberta de telha. ¶* Iracauo nara- |  |
+| `c2-l037` | &emsp;*da caſa cuberta de* t*elha. ¶* Iracauo nara- |  |
 | `c2-l038` | &emsp;buru. *Igualar os tectos das caſas, fazendo* |  |
 | `c2-l039` | &emsp;*aparato de muitas caſas.* |  |
 | `c2-l040` | Irafidoi. *Homem frenetico, miudo, & co-* |  |

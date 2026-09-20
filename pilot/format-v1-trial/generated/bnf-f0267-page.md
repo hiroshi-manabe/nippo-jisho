@@ -42,13 +42,13 @@ Lexical cross-check: NINJAL, Entry Words Data of Nippojisho, version 202510; Hid
 | `c1-l024` | Inoritçuqe, uru, eta. *Fazer com feitiços, &* |  |
 | `c1-l025` | &emsp;*deprecações entrar em alguem o demonio, ra-* |  |
 | `c1-l026` | &emsp;*poſa, &c.* |  |
-| `c1-l027` | Inpon. i, Surifon. *Liuro impreßo.* S. |  |
+| `c1-l027` | Inpon. i, Surifon. *Liuro impreßo. S.* |  |
 | `c1-l028` | Inqet. Vruuô chi. *Semente humana.* |  |
 | `c1-l029` | Inqi. *Abafamento. Vt,* Inqi xita toco- |  |
 | `c1-l030` | &emsp;ro. *Lugar apertado, & abafado. ¶ Itẽ,* |  |
 | `c1-l031` | &emsp;Inqi xita. l, qiga inqi xita. *Tenho o co-* |  |
 | `c1-l032` | &emsp;*ração apertado, & abafado.* |  |
-| `c1-l033` | Inqiu. *Certa laya de peça com lauores douro.* |  |
+| `c1-l033` | Inqin. *Certa laya de peça com lauores douro.* |  |
 | `c1-l034` | Inqin. *Certa peça de ſeda dourada da China.* |  |
 | `c1-l035` | Inqina. *Lugar abafado, ou coração abafado,* |  |
 | `c1-l036` | &emsp;*& apertado.* |  |

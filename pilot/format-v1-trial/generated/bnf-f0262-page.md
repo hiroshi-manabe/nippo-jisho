@@ -50,15 +50,15 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l034` | Icqi. *Aleuantamento, ou mutim de laur adores* |  |
 | `c1-l035` | &emsp;*contra ſeu ſenhor. ¶* Icqiuo vocoſu. *A-* |  |
 | `c1-l036` | &emsp;*leuantarſe contra o ſenhor da terra.* |  |
-| `c1-l037` | Icqicu. Fito niguiri. *Hum punhado, ou mão* |  |
+| `c1-l037` | Icqicu. Fito n*i*guir*i*. *Hum punhado, ou mão* |  |
 | `c1-l038` | &emsp;*chea.* S. |  |
 | `c1-l039` | Icqiǒ. Fitotçuno cagami. *Hum eſpelho.* |  |
 | `c1-l040` | Icqi tǒjen. *Soldado, ou caualeiro que val* |  |
-| `c1-l041` | &emsp;*pormil. Vt,* Icqi tojeno tçuuamono. *Idẽ.* |  |
+| `c1-l041` | &emsp;*pormil. Vt,* Icqi tǒjẽno tçuuamono. *Idẽ.* |  |
 | `c1-l042` | Icqiǔ. Fito yaſumi. *Hum deſcanſo, ou re-* |  |
-| `c1-l043` | &emsp;*pouſo.* S. |  |
-| `c1-l044` | Icqua. Fitotçuno toga. *Hum peccado.* S. |  |
-| `c1-l045` | Icquacu. Tçuru fitotçu. *Hum grou.* S. |  |
+| `c1-l043` | &emsp;*pouſo. S.* |  |
+| `c1-l044` | Icqua. Fitotçuno toga. *Hum peccado. S.* |  |
+| `c1-l045` | Icquacu. Tçuru fitotçu. *Hum grou. S.* |  |
 | `c1-l046` | Icquai. *Hum ajuntamento de gente que ſe* |  |
 | `c1-l047` | &emsp;*ajũta pera folgar, fazer verſos, beber cha, & c.* |  |
 
@@ -72,11 +72,11 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | Icquai. Fitomeguri. *Hũ rodeo, ou volta.* S. |  |
+| `c2-l001` | Icquai. Fitomeguri. *Hũ rodeo, ou volta. S.* |  |
 | `c2-l002` | Icubi. Cubino mijicai mono. *Peßoa de peſ* |  |
 | `c2-l003` | &emsp;*coço curto. ¶* Icubina fito. *Idem.* |  |
 | `c2-l004` | Icuchi. *Certa laya de cugumelos.* |  |
-| `c2-l005` | Icudaqi, qu, aita. *Quebrar, ou emiuçar cõ* |  |
+| `c2-l005` | Icudaqi, qu, aita. *Quebrar, ou esmiuçar cõ* |  |
 | `c2-l006` | &emsp;*ſeta, ou pilouro.* |  |
 | `c2-l007` | Icufodomonǒ. i, Fodomo ſezu. *Em breue* |  |
 | `c2-l008` | &emsp;*tempo, ou eſpaço.* |  |

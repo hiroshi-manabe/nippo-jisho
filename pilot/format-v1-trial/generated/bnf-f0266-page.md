@@ -18,11 +18,11 @@ Lexical aid consulted after scan reading: Entry Words Data of Nippojisho, NINJAL
 | --- | --- | --- |
 | `c1-l001` | Inchǔ. Cacureta naca. *Dentro do mosteiro,* |  |
 | `c1-l002` | &emsp;*ou varela.* |  |
-| `c1-l003` | Incô. Nodo. *Garganta, ou gu ella.* S. |  |
+| `c1-l003` | Incô. Nodo. *Garganta, ou gu ella. S.* |  |
 | `c1-l004` | Inco. *Papagayo.* |  |
 | `c1-l005` | Indacu. Momi tçuifamu. *Comer, & beber.* |  |
 | `c1-l006` | &emsp;*Vt,* Indacuuo cototo ſubecarazu. *Nã* |  |
-| `c1-l007` | &emsp;*vos entregueis todo a comer, & beber.* S, |  |
+| `c1-l007` | &emsp;*vos entregueis todo a comer, & beber. S*. |  |
 | `c1-l008` | Indǒ. Michibiqu. *Guiar: particularmente ſe* |  |
 | `c1-l009` | &emsp;*diz dos Bonzos que encaminhão as almas pera* |  |
 | `c1-l010` | &emsp;*o outro mundo com lhes fazerem exequias; &* |  |
@@ -40,8 +40,8 @@ Lexical aid consulted after scan reading: Entry Words Data of Nippojisho, NINJAL
 | `c1-l022` | Ine. *O dormir. ¶* Ineno varui fito, l, |  |
 | `c1-l023` | &emsp;yoi fito. *Homem inquieto, & que ſe reuol-* |  |
 | `c1-l024` | &emsp;*ue muito no dormir, ou o contrario.* |  |
-| `c1-l025` | Inemuri, u, utta. *Toſquenejar.* |  |
-| `c1-l026` | Inen. Sudeni vomô. *Leue penſamento.* S. |  |
+| `c1-l025` | Inemuri, u, utta. T*oſquenejar.* |  |
+| `c1-l026` | Inen. Sudeni vomô. *Leue penſamento. S.* |  |
 | `c1-l027` | Inhô. Cacomi, u. *Rodear a companhando,* |  |
 | `c1-l028` | &emsp;*ou reuerenciãdo. ¶* Inhô catgǒ ſuru. *Fa* |  |
 | `c1-l029` | &emsp;*zer grande reuerencia, agaſalhado, &c.* |  |
@@ -51,7 +51,7 @@ Lexical aid consulted after scan reading: Entry Words Data of Nippojisho, NINJAL
 | `c1-l033` | &emsp;*¶* Inguano tçuqita fitode gozaru. *Ho-* |  |
 | `c1-l034` | &emsp;*mem deſafortunado totalmente.* |  |
 | `c1-l035` | Inguai. Cazuno foca. *Fora do numero primei* |  |
-| `c1-l036` | &emsp;*ro, i, não ſer tido em conta.* S. |  |
+| `c1-l036` | &emsp;*ro, i, não ſer tido em conta. S.* |  |
 | `c1-l037` | Inguin. *Corteſia, & reuerencia.* |  |
 | `c1-l038` | Inguinna. *Vt,* inguinna fito. *Homem cortes.* |  |
 | `c1-l039` | Inguinni. Inguinſa. |  |
@@ -90,7 +90,7 @@ Lexical aid consulted after scan reading: Entry Words Data of Nippojisho, NINJAL
 | `c2-l014` | &emsp;*tira, & aparta dos negocios, & trafego do mũdo.* |  |
 | `c2-l015` | Injô. Fiqitoru. *Guiar as almas no outro mũ-* |  |
 | `c2-l016` | &emsp;*do, ou ſalualas. ¶* Raicǒ injô. *Vir ao* |  |
-| `c2-l017` | &emsp;*encontro deſtas almas, & ſalualas.* S. |  |
+| `c2-l017` | &emsp;*encontro deſtas almas, & ſalualas. S.* |  |
 | `c2-l018` | Injocu. Xitone xitone. *Colchoẽs, ou couſa* |  |
 | `c2-l019` | &emsp;*ſemelhante que ſe estende na cama.* |  |
 | `c2-l020` | Inju. i, Megui. *Aruore femea. Vt,* Inju |  |
@@ -99,20 +99,20 @@ Lexical aid consulted after scan reading: Entry Words Data of Nippojisho, NINJAL
 | `c2-l023` | Inju. Cazu. *Numero de couſas.* |  |
 | `c2-l024` | Inju. *Bonzo que he como ſuperior, ou dono dal-* |  |
 | `c2-l025` | &emsp;*gũa ermida, ou Tera particular onde mora.* |  |
-| `c2-l026` | Inmon. Votozzure tô. *Recado, ou carta cõ* |  |
+| `c2-l026` | Inmon. Votozzur*e* tô. *Recado, ou carta cõ* |  |
 | `c2-l027` | &emsp;*que ſe viſita olguem. Vt,* Inmonni azzu- |  |
-| `c2-l028` | &emsp;caru. *Recebi voßa carta, ou recado.* S, |  |
+| `c2-l028` | &emsp;caru. *Recebi voßa carta, ou recado. S*. |  |
 | `c2-l029` | Innai. *Dentro da Tera, ou do circuito della.* |  |
-| `c2-l030` | Innen. *cuidar couſas de goſtos ſenſuaes, ou* |  |
+| `c2-l030` | Innen. *Cuidar couſas de goſtos ſenſuaes, ou* |  |
 | `c2-l031` | &emsp;*penſamentos carnaes.* |  |
 | `c2-l032` | Innen, *Cauſa, ou origem.* |  |
-| `c2-l033` | Inno goxo. *El Rey velho que renunciouja o* |  |
+| `c2-l033` | Inno goxo. *El Rey velho que renunciou ja o* |  |
 | `c2-l034` | &emsp;*reinado. ¶ Item, Os ſeus paços.* |  |
 | `c2-l035` | Innǒ. *Bolſa dos teſticulos.* |  |
 | `c2-l036` | Inochi. *Vida. ¶* Inochiuo noburu. Di- |  |
 | `c2-l037` | &emsp;*latar a vida. ¶* Inochiuo iquru, l, na- |  |
 | `c2-l038` | &emsp;garayuru. *Viuer. ¶* Inochiuo tatçu. |  |
-| `c2-l039` | &emsp;*Tirar a vida a alguem. ¶* Inochiuo ſu- |  |
+| `c2-l039` | &emsp;T*irar a vida a alguem. ¶* Inochiuo ſu- |  |
 | `c2-l040` | &emsp;tçuru. *Deſprezar a vida, ou dala ſẽ doo.* |  |
 | `c2-l041` | &emsp;*¶* Inochiuo taſucaru. *Saluar a vida.* |  |
 | `c2-l042` | &emsp;*¶* Inochiuo tabô. *Conſeruar a vida, ou* |  |

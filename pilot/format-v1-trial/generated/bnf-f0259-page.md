@@ -37,7 +37,7 @@ Lexical cross-check: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima an
 | `c1-l019` | Ichibocu. Fitorino ximobe. *Hũ criado baixo.* |  |
 | `c1-l020` | Ichicat. Bup. *Reprehenſão.* |  |
 | `c1-l021` | Ichidan. *Adu.* Fitoqire. *Muito, ou gran* |  |
-| `c1-l022` | &emsp;*demente: ſerue pera louar, abaixar, ou abater.* |  |
+| `c1-l022` | &emsp;*demente*: *ſerue pera louuar, abaixar, ou abater.* |  |
 | `c1-l023` | Ichidan. Fitotçu cataru. *Hũa pratica.* |  |
 | `c1-l024` | Ichidǒ. Fitotçuno dǒ. *Hũa ermida, ou ca-* |  |
 | `c1-l025` | &emsp;*pella como Igreja.* |  |
@@ -48,7 +48,7 @@ Lexical cross-check: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima an
 | `c1-l030` | Ichifat. Fitotçuno fachi. *Hũa porção, ou* |  |
 | `c1-l031` | &emsp;*hum Goqui de arroz.* |  |
 | `c1-l032` | Ichifat. *Hum cabello.* |  |
-| `c1-l033` | Ichiga. Fitotçuno caua. *Hum meſmo rio:* |  |
+| `c1-l033` | Ichiga. Fitotçuno caua. *Hum meſmo rio*: |  |
 | `c1-l034` | &emsp;*mas não ſe vſa ſe não em compoſição de outras* |  |
 | `c1-l035` | &emsp;*palauras. Vt,* Ichigano nagareuo cu- |  |
 | `c1-l036` | &emsp;mu. *Tirar, ou tomar agoa da corrente do* |  |

@@ -42,7 +42,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l026` | Ideqitari, u, atta. *Sair, ou vir. Vt,* Mia- |  |
 | `c1-l027` | &emsp;cono tǒnan yori fi ideqitatte, *&c. Da* |  |
 | `c1-l028` | &emsp;*parte do leſte, & ſul do Miaco vinha o* |  |
-| `c1-l029` | &emsp;*fogo que ſe aleuantou.* S. |  |
+| `c1-l029` | &emsp;*fogo que ſe aleuantou. S.* |  |
 | `c1-l030` | Idetachi, u, atta. *Atauiarſe, ou vestirſe* |  |
 | `c1-l031` | &emsp;*polidamente.* |  |
 | `c1-l032` | Idetachi. *Atauio, ou concerto no vestido.* |  |
@@ -52,7 +52,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l036` | &emsp;*ca ſe vſa mais Detachi, u. Vt,* Detachi |  |
 | `c1-l037` | &emsp;uo ſuru, *&c.* |  |
 | `c1-l038` | Ido. Cotonaru tçuchi. i, Tacocu. *Outro* |  |
-| `c1-l039` | &emsp;*reino.* S. |  |
+| `c1-l039` | &emsp;*reino. S.* |  |
 | `c1-l040` | Ido. *Lugar onde hum està. Vt.* Idouo ta- |  |
 | `c1-l041` | &emsp;tçu. *Partirſe do lugar, onde esta. ¶* Vo- |  |
 | `c1-l042` | &emsp;ido. *Vſão as molheres por traſeira, ou* |  |
@@ -80,9 +80,9 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c2-l001` | Idori, u, otta. *Estar aßentado. Vt,* Yuru- |  |
 | `c2-l002` | &emsp;rito idoru. *Estar aßentado muito à ſua* |  |
-| `c2-l003` | &emsp;*vontade.* X. |  |
+| `c2-l003` | &emsp;*vontade. X.* |  |
 | `c2-l004` | Idoro. *Roſeiras que dão hũas roſas brancas* |  |
-| `c2-l005` | &emsp;*cheiroſas.* X. *No Cami ſe diz ibara.* |  |
+| `c2-l005` | &emsp;*cheiroſas. X. No Cami ſe diz ibara.* |  |
 | `c2-l006` | Idǒxa. *Medico.* |  |
 
 ## Column 2 internal heading
@@ -95,7 +95,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l007` | IFai. Tagai ſomuqu. *Tranſgreſão. Vt,* |  |
+| `c2-l007` | IFai. Tagai ſomuqu. T*ranſgreſſão. Vt,* |  |
 | `c2-l008` | &emsp;Fattouo ifaiſuru. *Quebrantar a ley.* |  |
 | `c2-l009` | Ifai. *Hũa taboazinha em que eſtà eſcrito o no-* |  |
 | `c2-l010` | &emsp;*me de algum defunto diante da qual poẽ cha,* |  |
@@ -116,7 +116,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l025` | Ifi. *Pelle de hum animal que tem eſpinhos como* |  |
 | `c2-l026` | &emsp;*ouriço cacheiro. ¶ Itẽ, O meſmo animal.* |  |
 | `c2-l027` | Ifô. Cotonaru cuni. *Outro reino.* |  |
-| `c2-l028` | Ifó. Ixano nori. *Preceitos da fiſica.* |  |
+| `c2-l028` | Ifǒ. Ixano nori. *Preceitos da fiſica.* |  |
 | `c2-l029` | Ifô. Yaſui nori. *Seita facil, & ſem trabalho.* |  |
 | `c2-l030` | Ifô. Cotonaru nori. *Outra ſeita differente.* |  |
 | `c2-l031` | Ifǔ. *Poder, & fauſto.* |  |
@@ -142,7 +142,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l040` | Igacu. Ixano gacumon. *Eſtudo, ou ſciencia* |  |
 | `c2-l041` | &emsp;*da medicina.* |  |
 | `c2-l042` | Igami, u, ǒda. *Ganir o cão.* |  |
-| `c2-l043` | Igaqi. *Sebe que esta ao deredor da Miya,* |  |
+| `c2-l043` | Igaqi. *Sebe que esta ao derredor da Miya,* |  |
 
 ## Gathering signature
 

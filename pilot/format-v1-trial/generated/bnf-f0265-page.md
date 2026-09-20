@@ -55,7 +55,7 @@ Lexical aid consulted after scan reading: Entry Words Data of Nippojisho, NINJAL
 | `c1-l026` | &emsp;*ſe vſa com algũa compoſiçaõ. Vt,* Innai. *Dẽ* |  |
 | `c1-l027` | &emsp;*tro da Tera, ou do circuito da Tera. Itẽ he pa-* |  |
 | `c1-l028` | &emsp;*laura de nomes de caſas, ou familias, & tam* |  |
-| `c1-l029` | &emsp;*bem de gente dalta familia: ordinaria mente ſe* |  |
+| `c1-l029` | &emsp;*bem de gente dalta familia*: *ordinaria mente ſe* |  |
 | `c1-l030` | &emsp;*uſa no cabo da compoſiçaõ. Vt,* Qenrei |  |
 | `c1-l031` | &emsp;mon in. |  |
 | `c1-l032` | In. *Palaura de liuros que ſe toma, ou por ſom-* |  |
@@ -66,12 +66,12 @@ Lexical aid consulted after scan reading: Entry Words Data of Nippojisho, NINJAL
 | `c1-l037` | &emsp;*¶ Item, Piſada, ou raſto de aues. Vt,* Xatǒ |  |
 | `c1-l038` | &emsp;ni inuo qizamu camome. *Gaiuotas* |  |
 | `c1-l039` | &emsp;*que deixaõ raſto dos pès na area da praya.* |  |
-| `c1-l040` | In. Vru uǒ. *Semente humana. Vt* Inuo |  |
+| `c1-l040` | In. Vru uǒ. *Semente humana. Vt* In*u*o |  |
 | `c1-l041` | &emsp;moraſu. *Derramar aſemente. ¶* Ij in- |  |
 | `c1-l042` | &emsp;uo moraſu. *Fazer polluçaõ porſi.* |  |
 | `c1-l043` | Ina. *Hum peixe de rio.* |  |
 | `c1-l044` | Ina. *Particula negatiua. i, Não.* |  |
-| `c1-l045` | Inaba. P. *Arroz que eſtà inda nas varze* |  |
+| `c1-l045` | Inaba. *P. Arroz que eſtà inda nas varze* |  |
 
 ## Column 2 running header
 
@@ -89,7 +89,7 @@ Lexical aid consulted after scan reading: Entry Words Data of Nippojisho, NINJAL
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | &emsp;*as ja eſpigado. ¶ Item, Alicubi, Lugar al-* |  |
+| `c2-l001` | &emsp;*as ja eſpigado. ¶ Item, Alicubi,* L*ugar al-* |  |
 | `c2-l002` | &emsp;*to que fazem no campo onde poem o arroz jũ-* |  |
 | `c2-l003` | &emsp;*tamente com a palha ſobre hũs paos.* |  |
 | `c2-l004` | Inabaqi. *Esteira de palha großa. No Ximo ſe* |  |
@@ -112,9 +112,9 @@ Lexical aid consulted after scan reading: Entry Words Data of Nippojisho, NINJAL
 | `c2-l021` | Inamuxiro. *Modo de ſe ondear com o vento o* |  |
 | `c2-l022` | &emsp;*arroz em erua, ou eſpigado inclinandoſe todo a* |  |
 | `c2-l023` | &emsp;*hũa parte como esteira. ¶* Inamuxiroga |  |
-| `c2-l024` | &emsp;ſuru. *Fazerem ſe estas ondas no arroz.* P. |  |
+| `c2-l024` | &emsp;ſuru. *Fazerem ſe estas ondas no arroz. P.* |  |
 | `c2-l025` | Inanami. *Maneira de ondas q̃ com o vento ſe* |  |
-| `c2-l026` | &emsp;*fazem no arroz que està nas varzeas.* P. |  |
+| `c2-l026` | &emsp;*fazem no arroz que està nas varzeas. P.* |  |
 | `c2-l027` | Inanaqi, u, aita. *Rinchar o cauallo. Me-* |  |
 | `c2-l028` | &emsp;*liùs,* Ibai, ǒ, ǒta. |  |
 | `c2-l029` | Inaxe, ſuru, eta. *Fazer ir, ou tornar a al-* |  |

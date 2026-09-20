@@ -21,18 +21,18 @@ Lexical cross-check: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima an
 | `c1-l003` | Ichiichi. *Cada couſa por ſi. ¶* Ichiichini |  |
 | `c1-l004` | &emsp;mǒxi firaqu. *Declarar cada couſa em par-* |  |
 | `c1-l005` | &emsp;*ticular.* |  |
-| `c1-l006` | Ichijẽ. Fitotçuno jẽ. *Hũa virtude, ou bou obra.* |  |
+| `c1-l006` | Ichijẽ. Fitotçuno jẽ. *Hũa virtude, ou boa obra.* |  |
 | `c1-l007` | Ichiji. Fitotçuno tera. *Hũa varela, ou Igreja.* |  |
 | `c1-l008` | Ichiji. Fitotçuno toqi. *Hũa hora. Vt,* |  |
 | `c1-l009` | &emsp;Ichiji fenximo vaſurenu. *Não me eſque-* |  |
 | `c1-l010` | &emsp;*ço nem por hum breue eſpaço.* |  |
 | `c1-l011` | Ichiji. Fitotçuno coto. *Hũa couſa.* |  |
 | `c1-l012` | Ichijiqi. Fitotabi xocuſu. *Iejum no qual ſe* |  |
-| `c1-l013` | &emsp;*come hũa ſoo vez. Vt,* Ichijiq uo ſuru. |  |
+| `c1-l013` | &emsp;*come hũa ſoo vez. Vt,* Ichijiqiuo ſuru. |  |
 | `c1-l014` | &emsp;*Iejuar comendo hũa ſoo vez no dia.* |  |
 | `c1-l015` | Ichijit. *Verdade ſolida.* Bup. |  |
 | `c1-l016` | Ichijǒ. Fitotçuno xiro. *Hũa fortaleza.* |  |
-| `c1-l017` | Ichiju. Fitotçuno qi. *Hũa meſma aruore: mas* |  |
+| `c1-l017` | Ichiju. Fitotçuno qi. *Hũa meſma aruore*: *mas* |  |
 | `c1-l018` | &emsp;*ſempre ſe vſa em compoſição de outras pala-* |  |
 | `c1-l019` | &emsp;*uras. Vt,* Ichijuno cagueni yoru. *Che-* |  |
 | `c1-l020` | &emsp;*garſe à ſombra da meſma aruore.* |  |
@@ -49,11 +49,11 @@ Lexical cross-check: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima an
 | `c1-l031` | &emsp;Cuſuri ichimiuo cuuayuru. *Meter mais* |  |
 | `c1-l032` | &emsp;*hum material de mezinha.* |  |
 | `c1-l033` | Ichimigin. Fitotçuno chiri. *Hum argueiro.* |  |
-| `c1-l034` | &emsp;*i, Couſa muito pouca. Vt,* Toga ichimigin |  |
+| `c1-l034` | &emsp;i*, Couſa muito pouca. Vt,* Toga ichimigin |  |
 | `c1-l035` | &emsp;fodomo nai. *Não ter nem hum minimo* |  |
 | `c1-l036` | &emsp;*peccado.* |  |
 | `c1-l037` | Ichimiǒ. Fitotçuno na. *Hum nome.* |  |
-| `c1-l038` | Ichimô. Fitotçuno qe. *Hum cabelo ¶ Item,* |  |
+| `c1-l038` | Ichimô. Fitotçuno qe. *Hum cabelo. ¶ Item,* |  |
 | `c1-l039` | &emsp;*Couſa muito pouca.* |  |
 | `c1-l040` | Ichimô. *Decima parte de Ichirin. ¶* Ichi- |  |
 | `c1-l041` | &emsp;fot. *Deçima parte dum Ichimô. ¶* Ix |  |
@@ -75,11 +75,11 @@ Lexical cross-check: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima an
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c2-l001` | &emsp;bantǒmo ichimocuniua xicazu. Xix. |  |
-| `c2-l002` | &emsp;*Mais val calar, que falar muitas boas couſas* |  |
+| `c2-l002` | &emsp;*Mais val calar, que falar muitas boas couſas,* |  |
 | `c2-l003` | &emsp;*& apropoſito.* |  |
 | `c2-l004` | Ichimon. Fitotçuno cado. *Hũa familia.* |  |
 | `c2-l005` | &emsp;*¶ Item, Hũa congregação de gẽte como re-* |  |
-| `c2-l006` | &emsp;*ligioſos da meſma ordem. ¶* Ichimon qe- |  |
+| `c2-l006` | &emsp;*ligioſos da meſma ordem. ¶* Ichimon qẽ- |  |
 | `c2-l007` | &emsp;zocu ai atçumaru. *Ajuntarſe toda hũa* |  |
 | `c2-l008` | &emsp;*familia.* |  |
 | `c2-l009` | Ichimon. *Hũa letra, &c. Vt,* Ichimon |  |
@@ -94,13 +94,13 @@ Lexical cross-check: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima an
 | `c2-l018` | Ichimonjini. *Adu. Direito, ou por linha* |  |
 | `c2-l019` | &emsp;*direita. ¶ Item, Permet. Recta, ou* |  |
 | `c2-l020` | &emsp;*regularmente.* |  |
-| `c2-l021` | Ichimot. *Hũa couſe.* |  |
+| `c2-l021` | Ichimot. *Hũa couſa.* |  |
 | `c2-l022` | Ichimot. Sugureta mono. *Couſa vnica, &* |  |
 | `c2-l023` | &emsp;*excellente. Como falcão, caualo, cão, &c.* |  |
 | `c2-l024` | Ichimu. Fitotçuno yume. *Hum ſonho.* |  |
 | `c2-l025` | &emsp;*Vt,* Fuxeiua ichimuno ſamuruga gotoxi. |  |
 | `c2-l026` | &emsp;*O mundo acabaſe como hum ſonho.* |  |
-| `c2-l027` | Ichinen. *Hum penſamento.* |  |
+| `c2-l027` | Ichi*n*en. *Hum penſamento.* |  |
 | `c2-l028` | Ichinen. *Hum anno.* |  |
 | `c2-l029` | Ichinho. *Hũa molher.* |  |
 | `c2-l030` | Ichinichi. *Hum dia, ou todo o dia. Vt,* Ichi |  |

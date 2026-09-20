@@ -55,7 +55,7 @@ Lexical cross-check after independent scan reading: Entry Words Data of Nippojis
 | `c1-l026` | &emsp;*do reprendido com eſtas palauras, tomou animo.* |  |
 | `c1-l027` | Iſame. *Reprenſaõ, l, exhortaçaõ.* |  |
 | `c1-l028` | Iſami, u, ǒda. *Aluoroçarſe, l, incitarſe. Vt,* |  |
-| `c1-l029` | &emsp;Taqecu iſameru tçuuamono domo. *Sol.* |  |
+| `c1-l029` | &emsp;Taqecu iſameru tçuuamono domo. *Sol-* |  |
 | `c1-l030` | &emsp;*dados que ſe eſpertaõ & aluoroçaõ ferozmente.* |  |
 | `c1-l031` | Iſami. *Alegria & aluoroço. Vt,* Iſamini iſǒ |  |
 | `c1-l032` | &emsp;de vori tatta. *Saltou fora do nauio cõgrãde* |  |
@@ -118,7 +118,7 @@ Lexical cross-check after independent scan reading: Entry Words Data of Nippojis
 | `c2-l033` | &emsp;*com frecha, ou pilouro.* |  |
 | `c2-l034` | Iſſabaqi, u. *Soltar, ou deſconcertar os cabel* |  |
 | `c2-l035` | &emsp;*los. Vt,* Camiuo iſsabaite iru. *Estar cõ* |  |
-| `c2-l036` | &emsp;*es cabellos ſoltos. Mas não he palaura boa, nẽ* |  |
+| `c2-l036` | &emsp;*os cabellos ſoltos. Mas não he palaura boa, nẽ* |  |
 | `c2-l037` | &emsp;*vſada no Cami. Meliùs,* Camiuo vchimi- |  |
 | `c2-l038` | &emsp;daite iru. |  |
 | `c2-l039` | Iſſacu. Fitotçu tçucuru. *Obra que hum por* |  |

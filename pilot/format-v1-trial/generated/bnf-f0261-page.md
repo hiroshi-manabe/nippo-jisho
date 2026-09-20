@@ -29,10 +29,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l013` | Ichiri. Fitotçuno cotouari. *Hũa rezão, ou* |  |
 | `c1-l014` | &emsp;*arrezoamento.* |  |
 | `c1-l015` | Ichirin. Fitotçuno va. *Hũa roda. ¶ Itẽ,* |  |
-| `c1-l016` | &emsp;*Per met, Lũa, ou ſol. Vt,* Ichirin tacacu |  |
+| `c1-l016` | &emsp;*Per met,* L*ũa, ou ſol. Vt,* Ichirin tacacu |  |
 | `c1-l017` | &emsp;cacareba, bancocu vonajicu miru. *Eſtã-* |  |
 | `c1-l018` | &emsp;*do o ſol, ou lũa alta, de todos os Reinos o* |  |
-| `c1-l019` | &emsp;*vem da meſma maneira.* S. |  |
+| `c1-l019` | &emsp;*vem da meſma maneira. S.* |  |
 | `c1-l020` | Ichiriǒxo. *Hum, ou dous lugares.* |  |
 | `c1-l021` | Ichiriqi. Fitotçuno chicara. *Hũa força, ou* |  |
 | `c1-l022` | &emsp;*força de hum ſoo. ¶* Ichiriqide xita co- |  |
@@ -42,7 +42,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l026` | &emsp;Ichiriǔ manbaino miuo toru. *Receber* |  |
 | `c1-l027` | &emsp;*fruito, ou proueito de mil, ou dez mil por hũ* |  |
 | `c1-l028` | &emsp;*grão de ſemente.* |  |
-| `c1-l029` | Ichiro. Fitotçuno michi. *Hum caminho.* S. |  |
+| `c1-l029` | Ichiro. Fitotçuno michi. *Hum caminho. S.* |  |
 | `c1-l030` | Ichirô. Fitotçuno yagura. *Hum baileu, ou* |  |
 | `c1-l031` | &emsp;*ſobrado alto como torreſinha, &c.* |  |
 | `c1-l032` | Ichirui. Fitotçuno taguy. *Hũa eſpecia,* |  |
@@ -83,7 +83,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l003` | Ichiyei. Fitotçuno maqe. *Hũa remela. Vt,* |  |
 | `c2-l004` | &emsp;Ichiyei manaconi areba, cǔqua rantçui |  |
 | `c2-l005` | &emsp;ſu. *Auendo remela, ou humidade nos olhos* |  |
-| `c2-l006` | &emsp;*faz parecer o que não he.* S. |  |
+| `c2-l006` | &emsp;*faz parecer o que não he. S.* |  |
 | `c2-l007` | Ichiyen. *Adu. De nenhũa maneira quando* |  |
 | `c2-l008` | &emsp;*ſe ajunta com negatiuo. ¶ Item, Em todo* |  |
 | `c2-l009` | &emsp;*caſo. Vt,* Ichiyenni cono cotouo tçuca- |  |
@@ -91,12 +91,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l011` | Ichiyeqi. Fitotçu maſu. *Hum exceßo, ou* |  |
 | `c2-l012` | &emsp;*ventajem.* |  |
 | `c2-l013` | Ichiyǒ. *Palaura que às vezes ſe toma por ſol,* |  |
-| `c2-l014` | &emsp;*ou quentura, ou prima vera.* S. |  |
+| `c2-l014` | &emsp;*ou quentura, ou prima vera. S.* |  |
 | `c2-l015` | Ichiyǒ. Fitoſama. *Hũa feição, ou maneira.* |  |
 | `c2-l016` | &emsp;*Vt,* Ichiyǒni xitacu ſuru. *Aparelharſe da* |  |
 | `c2-l017` | &emsp;*meſma maneira.* |  |
 | `c2-l018` | Ichiyô. Fitofa. *Hũa folha de aruore, &c.* |  |
-| `c2-l019` | &emsp;*¶ Item, Embarcação.* S. |  |
+| `c2-l019` | &emsp;*¶ Item, Embarcação. S.* |  |
 | `c2-l020` | Ichizocu. *Hũa familia, ou parentella. Vt,* |  |
 | `c2-l021` | &emsp;Icqe, ichizocu. *Idem.* |  |
 | `c2-l022` | Ichizocu. *Hum ſecular.* |  |
@@ -109,12 +109,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l029` | &emsp;zumi iy qiru. *Dizer reſolutamente que de* |  |
 | `c2-l030` | &emsp;*nenhũa maneira.* |  |
 | `c2-l031` | Ichô. *Reino da China.* |  |
-| `c2-l032` | Ichocu. Chocu tagǒ. *Deſobedecer ao man* |  |
+| `c2-l032` | Ichocu. Chocu__ tagǒ. *Deſobedecer ao man* |  |
 | `c2-l033` | &emsp;*dado do Rey.* |  |
 | `c2-l034` | Icô. Cotonaru cuchi. *Outra boca. Vt,* Icô dô |  |
 | `c2-l035` | &emsp;uonni yǔ. *Louuarem muitos a meſma couſa* |  |
 | `c2-l036` | &emsp;*por diuerſas bocas.* |  |
-| `c2-l037` | Icô. Cuſuxino cô. *Experiẽcia de medico.* S. |  |
+| `c2-l037` | Icô. Cuſuxino cô. *Experiẽcia de medico. S.* |  |
 | `c2-l038` | Icô. Coromo zauo. *Bambu em q̃ue ſe depen-* |  |
 | `c2-l039` | &emsp;*durão veſtidos.* |  |
 | `c2-l040` | Icocu. Cotonaru cuni. *Outro reino, ou reino* |  |

@@ -20,9 +20,9 @@ Lexical cross-check after independent scan reading: Entry Words Data of Nippojis
 | `c1-l002` | &emsp;*couſa na mão, ou outra parte do corpo, ſentir* |  |
 | `c1-l003` | &emsp;*comechão, &c. Vt,* Teni irairato ſauaru. To- |  |
 | `c1-l004` | &emsp;*car na mão como picandoa. ¶* Irairato xi- |  |
-| `c1-l005` | &emsp;mu. *Sentir no corpo como picaduras arden-* |  |
+| `c1-l005` | &emsp;mu. *Sentir no eorpo como picaduras arden-* |  |
 | `c1-l006` | &emsp;*do, ou eſcozendo.* |  |
-| `c1-l007` | Irairaxij. *Ser frenetico, & rabugento, &c.* |  |
+| `c1-l007` | Irairaxij. S*er frenetico, & rabugento, &c.* |  |
 | `c1-l008` | &emsp;*¶* Irairaxij fito. *Homem comechoſo, &* |  |
 | `c1-l009` | &emsp;*rabugento.* |  |
 | `c1-l010` | Irameqi, u, eita. *Sentir comechão, ou como* |  |
@@ -37,7 +37,7 @@ Lexical cross-check after independent scan reading: Entry Words Data of Nippojis
 | `c1-l019` | &emsp;*ou falteis mais, alem diſſo não digais couſas* |  |
 | `c1-l020` | &emsp;*de embaraço, ou que não conuem, &c.* |  |
 | `c1-l021` | Irara. *Erua aßi chamada.* |  |
-| `c1-l022` | Irataca. l, irataca juzu. *Hũa feição de con* |  |
+| `c1-l022` | Ir*a*taca. l, irataca juzu. *Hũa feição de con* |  |
 | `c1-l023` | &emsp;*tas dos gentios. ¶* Irataca juzuuo voxi- |  |
 | `c1-l024` | &emsp;momu. *Esfregar eſtas contas entre as mãos* |  |
 | `c1-l025` | &emsp;*como fazem os gentios quando rezão com fer-* |  |
@@ -45,7 +45,7 @@ Lexical cross-check after independent scan reading: Entry Words Data of Nippojis
 | `c1-l027` | Iraye. i, Cotaye. *Reposta.* |  |
 | `c1-l028` | Iraye, uru, eta. *Reſponder.* |  |
 | `c1-l029` | Ire. *Crecenças que ſe metem de mais pera re-* |  |
-| `c1-l030` | &emsp;*fazer a falia dalgũa couſa como ſeda, ou outra* |  |
+| `c1-l030` | &emsp;*fazer a falta dalgũa couſa como ſeda, ou outra* |  |
 | `c1-l031` | &emsp;*fazenda ruim. ¶ Item, Liga que ſe mete* |  |
 | `c1-l032` | &emsp;*na fundição da prata, ou de outro metal.* |  |
 | `c1-l033` | Ire, uru, eta. *Meter dentro. ¶* Cocoro |  |
@@ -61,7 +61,7 @@ Lexical cross-check after independent scan reading: Entry Words Data of Nippojis
 | `c1-l043` | &emsp;*do caixão metendo lhe outra.* |  |
 | `c1-l044` | Irechigaye, uru, eta. *Meter gente encontran* |  |
 | `c1-l045` | &emsp;*doſe com os inimigos. Vt,* Ninjuuo irechi- |  |
-| `c1-l046` | &emsp;gayuru. *¶* Quo irechigayete tçugu. |  |
+| `c1-l046` | &emsp;gayuru. *¶* Qiuo irechigayete tçugu. |  |
 | `c1-l047` | &emsp;*Pegar, ou encaixar dous paos com as pontas de* |  |
 | `c1-l048` | &emsp;*hum no outro.* |  |
 
@@ -96,7 +96,7 @@ Lexical cross-check after independent scan reading: Entry Words Data of Nippojis
 | `c2-l019` | Ireuoqi, u, oita. *Deixar a couſa metida dẽtro.* |  |
 | `c2-l020` | Iri, u, itta. *Entrar. ¶* Iyeni iru. *En-* |  |
 | `c2-l021` | &emsp;*trar em caſa.* |  |
-| `c2-l022` | Iri, u, itta. *Torrar no fogo. ¶* Mameuo |  |
+| `c2-l022` | Iri, u, itta. T*orrar no fogo. ¶* Mameuo |  |
 | `c2-l023` | &emsp;iru. *Torrar grãos.* |  |
 | `c2-l024` | Iri, u, itta. *Ser neceßario. ¶* Core iru |  |
 | `c2-l025` | &emsp;cotogia. *Iſto he neceßario.* |  |

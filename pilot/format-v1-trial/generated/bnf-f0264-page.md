@@ -18,12 +18,12 @@ Lexical aid consulted after scan reading: Entry Words Data of Nippojisho, NINJAL
 | --- | --- | --- |
 | `c1-l001` | &emsp;*ou ermida dos Camis.* |  |
 | `c1-l002` | Igaua. *Meliùs,* Inomoto. *Poço.* |  |
-| `c1-l003` | Igue. *E o de mais. l, &c. palaura que ſe* |  |
+| `c1-l003` | Igue. *E o de mais.* l*, &c. palaura que ſe* |  |
 | `c1-l004` | &emsp;*vſa no cabo de outras como, &c. ¶* Igue- |  |
 | `c1-l005` | &emsp;no mono. *Gente ſomenos, ou inferior.* |  |
 | `c1-l006` | Igue. *Eſpinho. No Cami ſe diz,* Igui. |  |
 | `c1-l007` | Iguen. *Moſtrar poder, & fausto com algũa* |  |
-| `c1-l008` | &emsp;*arrogancia. Vt,* iguenuo ſuru, l, iguen |  |
+| `c1-l008` | &emsp;*arrogancia. Vt,* Iguenuo ſuru, l, iguen |  |
 | `c1-l009` | &emsp;uo yǔ. *Falar palauras de arrogancia.* |  |
 | `c1-l010` | Igueuara. *Eſpinhal, ou lugar de eſpinhos.* |  |
 | `c1-l011` | Igui. Cotonaru gui. *Couſas fora de propoſito,* |  |
@@ -31,7 +31,7 @@ Lexical aid consulted after scan reading: Entry Words Data of Nippojisho, NINJAL
 | `c1-l013` | &emsp;xibare, tataqe. *Não o deixes falar de cà, &* |  |
 | `c1-l014` | &emsp;*de là. i, couſas fora de propoſito, prende,* |  |
 | `c1-l015` | &emsp;*dalhe.* |  |
-| `c1-l016` | Igui, l, yugui. *Pao do aßento da ſela.* |  |
+| `c1-l016` | Igui, *l*, yugui. *Pao do aßento da ſela.* |  |
 | `c1-l017` | Igui. *Hum peixe aßi chamado.* |  |
 | `c1-l018` | Igui. *Eſpinho. No Ximo,* Igue. |  |
 | `c1-l019` | Iguinǒ. *Sem perigo.* |  |
@@ -81,7 +81,7 @@ Lexical aid consulted after scan reading: Entry Words Data of Nippojisho, NINJAL
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c1-l043` | IMa. *Agora. ¶ Item, composto ſigni-* |  |
-| `c1-l044` | &emsp;*fica mais, ou outro. Vt,* Imà fitotçuno. |  |
+| `c1-l044` | &emsp;*fica mais, ou outro. Vt,* Ima fitotçuno. |  |
 
 ## Column 2 running header
 
@@ -93,14 +93,14 @@ Lexical aid consulted after scan reading: Entry Words Data of Nippojisho, NINJAL
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | &emsp;*Mais hum. ¶* Ima fitotçu qicoxime- |  |
+| `c2-l001` | &emsp;*Mais hum. ¶* Ima fitotçu qicoxime |  |
 | `c2-l002` | &emsp;xe. *Bebei maishũa vez.* |  |
 | `c2-l003` | Imacu. *Certa laya de cortinas que ſe armão ao* |  |
 | `c2-l004` | &emsp;*derre dor nas bordas da embarcação, ou no* |  |
 | `c2-l005` | &emsp;*arrayal, &c.* |  |
-| `c2-l006` | Imada. *Adu. Ainda não: ſempre ſe junta com* |  |
+| `c2-l006` | Imada. *Adu. Ainda não*: *ſempre ſe junta com* |  |
 | `c2-l007` | &emsp;*negatiuo na terminação da eſcritura. Vt,* |  |
-| `c2-l008` | &emsp;Tenca imada xizzumarazu. *Ainda a Tẽ-* |  |
+| `c2-l008` | &emsp;T*enca* imada xizzumarazu. *Ainda a Tẽ-* |  |
 | `c2-l009` | &emsp;*ca não està quièta, & pacifica.* |  |
 | `c2-l010` | Ima faya. *Ia agora. Vt,* Ima faya ando |  |
 | `c2-l011` | &emsp;itaita. *Ia agora estou deſcanſado.* |  |
@@ -125,7 +125,7 @@ Lexical aid consulted after scan reading: Entry Words Data of Nippojisho, NINJAL
 | `c2-l030` | Imaxime, uru, eta. *Amarrar. ¶* Yocu- |  |
 | `c2-l031` | &emsp;yocu imaximete voqe. *Ponde o amarrado* |  |
 | `c2-l032` | &emsp;*bem, & arecado.* |  |
-| `c2-l033` | Imaxiua. P. *Agora.* |  |
+| `c2-l033` | Imaxiua. *P. Agora.* |  |
 | `c2-l034` | Imayǒ. *Couſa que agora corre. Vt,* Imayǒ |  |
 | `c2-l035` | &emsp;uo vtǒ. *Cantar com toada noua que ago-* |  |
 | `c2-l036` | &emsp;*ra corre.* |  |
