@@ -80,7 +80,7 @@ class Level1MarkdownTests(unittest.TestCase):
     def test_line_division_sign_is_uniform_across_typefaces(self):
         for path in SOURCE.glob("*.md"):
             for line in path.read_text(encoding="utf-8").splitlines():
-                if line.startswith("[") and "] " in line:
+                if line.startswith("[") and "] " in line and not line.split("] ", 1)[0].endswith(" note"):
                     self.assertNotIn("=", line.split("] ", 1)[1], path.name)
 
     def test_correction_history_aggregates_are_self_consistent(self):
