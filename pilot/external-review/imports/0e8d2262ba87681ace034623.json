@@ -1,0 +1,367 @@
+{
+  "schema": 2,
+  "package_id": "production-f0309-f0310-f0311-fa0928e8",
+  "input_manifest_sha256": "0c39a52268ce827d6474b5049719eb3d94901542f5a5cb15416a852092cb0602",
+  "reviewer": "GPT-6 Astra Pro (OpenAI)",
+  "pages": {
+    "bnf-f0309": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c2-l046: The damaged editorial label is read Melius; the scan does not securely support adding the grave accent found in the preceding row."
+      ],
+      "decision_requests": [],
+      "structural_changes": [
+        {
+          "before": [
+            "h1-l001"
+          ],
+          "after": [
+            "h1-l001"
+          ],
+          "reason": "Corrected the misread initial N to M and restored the running-header word separation from the scan."
+        },
+        {
+          "before": [
+            "h2-l001"
+          ],
+          "after": [
+            "h2-l001"
+          ],
+          "reason": "Corrected the misread running header to M ANTES DO A; no secure final stop follows A in this impression. The page number is separate furniture."
+        },
+        {
+          "before": [
+            "u2b-l001"
+          ],
+          "after": [
+            "u2b-l001"
+          ],
+          "reason": "Reclassified bottom furniture as the far-right roman catchword Mauari. Removed the spurious final l, which belongs to the adjacent vertical rule, not the word; the next page begins Mauari."
+        },
+        {
+          "before": [],
+          "after": [
+            "pn-l001"
+          ],
+          "reason": "Added the omitted printed page number 153. from the upper right, outside the running header."
+        },
+        {
+          "before": [],
+          "after": [
+            "sig-l001"
+          ],
+          "reason": "Added the omitted printed signature Q q from the lower margin; it is not body text."
+        }
+      ],
+      "typeface_terms": {
+        "c1-l027": [
+          "Camis"
+        ],
+        "c1-l029": [
+          "Camis"
+        ],
+        "c1-l031": [
+          "Cami"
+        ],
+        "c2-l002": [
+          "Yax."
+        ],
+        "c2-l009": [
+          "Tera"
+        ],
+        "c2-l026": [
+          "Taif."
+        ],
+        "c2-l030": [
+          "Matçuuari"
+        ],
+        "c2-l047": [
+          "Zaxiqui"
+        ]
+      }
+    },
+    "bnf-f0310": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c1-l028: Retained the candidate’s Meliùs accent where the small damaged mark remains compatible; the preferred Japanese form Maxira is visibly set in the same italic run.",
+        "c2-l027: Retained printed-looking nayede although mayede is expected from the Japanese expression. The first letter looks like n; no silent linguistic emendation is made.",
+        "c2-l031: Read the worn word as großeiro; its narrow i/r junction is not perfectly resolved, but the surviving strokes and the coarse-clothing definition support this choice."
+      ],
+      "decision_requests": [],
+      "structural_changes": [
+        {
+          "before": [
+            "h1-l001"
+          ],
+          "after": [
+            "h1-l001"
+          ],
+          "reason": "Corrected the OCR running header, including initial M and word separation, against the native scan."
+        },
+        {
+          "before": [
+            "h2-l001"
+          ],
+          "after": [
+            "h2-l001"
+          ],
+          "reason": "Corrected the OCR running header, including initial M and word separation, against the native scan."
+        },
+        {
+          "before": [
+            "c1-l001",
+            "c2-l003",
+            "c2-l006",
+            "c2-l007",
+            "c2-l008"
+          ],
+          "after": [
+            "c1-l001",
+            "c2-l003",
+            "c2-l006",
+            "c2-l007",
+            "c2-l008"
+          ],
+          "reason": "Restored flush-left placement of these headwords; the provisional candidate incorrectly marked them as indented continuations. Also extended the c1-l001 crop upward to retain full capital-letter context; the final crop was rendered and inspected."
+        },
+        {
+          "before": [
+            "c1-l041",
+            "c1-l042",
+            "c1-l047",
+            "c2-l041",
+            "c2-l043",
+            "c2-l044",
+            "c2-l045",
+            "c2-l047",
+            "c2-l049"
+          ],
+          "after": [
+            "c1-l041",
+            "c1-l042",
+            "c1-l047",
+            "c2-l041",
+            "c2-l043",
+            "c2-l044",
+            "c2-l045",
+            "c2-l047",
+            "c2-l049"
+          ],
+          "reason": "Restored the visibly inset continuation alignment; these rows were incorrectly flush left in the provisional candidate."
+        },
+        {
+          "before": [
+            "c2-l010",
+            "c2-l011"
+          ],
+          "after": [
+            "c2-l010"
+          ],
+          "reason": "Merged two overlapping OCR rows into the one physical row containing cipal. at left and the parenthesis-like mark with idades. at far right. The provisional c2-l011 duplicated the displaced word. All genuine text is retained once in c2-l010 using named far-right spans; idades. is not moved into logical order after Maxxe."
+        },
+        {
+          "before": [],
+          "after": [
+            "cw-l001"
+          ],
+          "reason": "Restored the omitted roman catchword Maye. at the far right of the final text row, in its own furniture zone. It anticipates Mayemaye on the next page and is not part of the carriage-board definition."
+        }
+      ],
+      "typeface_terms": {
+        "c1-l011": [
+          "Mais"
+        ],
+        "c2-l008": [
+          "Camis"
+        ],
+        "c2-l016": [
+          "Cha"
+        ]
+      }
+    },
+    "bnf-f0311": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c2-l001: Restored the enlarged M but retained the smaller E’s sloping/italic setting from the supplied candidate; the headword is ME and the initial spans two physical rows.",
+        "c2-l030: Retained Mega ne monai in the abraded example. The surviving letters are compatible with the candidate; the Portuguese establishes the forgetting/poor-retention sense without resolving every damaged stroke.",
+        "c2-l039: Retained the clearly printed but lexically unusual Remeſmelar. The precise historical Portuguese verb sense is less secure than the transcription; the Japanese context concerns a fierce look."
+      ],
+      "decision_requests": [],
+      "structural_changes": [
+        {
+          "before": [
+            "h1-l001"
+          ],
+          "after": [
+            "h1-l001"
+          ],
+          "reason": "Corrected N to M and restored word separation in the column-1 running header."
+        },
+        {
+          "before": [
+            "h2-l001"
+          ],
+          "after": [
+            "h2-l001"
+          ],
+          "reason": "Corrected the column-2 running header and separated the misread page number I34. from it; the scan reads 154., returned in the page-number zone."
+        },
+        {
+          "before": [
+            "s2-01-l001"
+          ],
+          "after": [
+            "s2-01-l001"
+          ],
+          "reason": "Corrected the internal alphabetical section heading from N to M; it is distinct from the repeated running header above it."
+        },
+        {
+          "before": [
+            "c2-l001"
+          ],
+          "after": [
+            "c2-l001"
+          ],
+          "reason": "Restored the omitted enlarged M to ME, assigned initial=2 for its two-row span, and removed false continuation indentation. Expanded the owning crop to include the entire initial; the second physical row remains c2-l002."
+        },
+        {
+          "before": [
+            "c2-l002",
+            "c2-l003",
+            "c2-l004",
+            "c2-l005",
+            "c2-l006",
+            "c2-l007",
+            "c2-l008",
+            "c2-l009",
+            "c2-l010",
+            "c2-l011",
+            "c2-l012",
+            "c2-l013",
+            "c2-l014",
+            "c2-l015",
+            "c2-l016",
+            "c2-l017",
+            "c2-l018",
+            "c2-l019",
+            "c2-l020",
+            "c2-l021",
+            "c2-l022",
+            "c2-l023",
+            "c2-l024",
+            "c2-l025",
+            "c2-l026",
+            "c2-l027",
+            "c2-l028",
+            "c2-l029",
+            "c2-l030",
+            "c2-l031",
+            "c2-l032",
+            "c2-l033",
+            "c2-l034",
+            "c2-l035",
+            "c2-l036",
+            "c2-l037",
+            "c2-l038",
+            "c2-l039",
+            "c2-l040",
+            "c2-l041",
+            "c2-l042",
+            "c2-l043",
+            "c2-l044"
+          ],
+          "after": [
+            "c2-l002",
+            "c2-l003",
+            "c2-l004",
+            "c2-l005",
+            "c2-l006",
+            "c2-l007",
+            "c2-l008",
+            "c2-l009",
+            "c2-l010",
+            "c2-l011",
+            "c2-l012",
+            "c2-l013",
+            "c2-l014",
+            "c2-l015",
+            "c2-l016",
+            "c2-l017",
+            "c2-l018",
+            "c2-l019",
+            "c2-l020",
+            "c2-l021",
+            "c2-l022",
+            "c2-l023",
+            "c2-l024",
+            "c2-l025",
+            "c2-l026",
+            "c2-l027",
+            "c2-l028",
+            "c2-l029",
+            "c2-l030",
+            "c2-l031",
+            "c2-l032",
+            "c2-l033",
+            "c2-l034",
+            "c2-l035",
+            "c2-l036",
+            "c2-l037",
+            "c2-l038",
+            "c2-l039",
+            "c2-l040",
+            "c2-l041",
+            "c2-l042",
+            "c2-l043",
+            "c2-l044"
+          ],
+          "reason": "Restored the visible continuation indentation throughout the single extended ME entry. The first continuation additionally clears the enlarged M; no body rows have been merged or renumbered."
+        },
+        {
+          "before": [
+            "u2b-l001"
+          ],
+          "after": [
+            "u2b-l001"
+          ],
+          "reason": "Reclassified the far-right italic diuerſas as a catchword, not display/body text. The apparent prefixed paragraph sign was OCR contamination from the separate Q q signature, restored in its own zone; no printed paragraph sign is present before diuerſas."
+        },
+        {
+          "before": [],
+          "after": [
+            "pn-l001"
+          ],
+          "reason": "Restored the printed page number 154. as separate furniture. Its misread I34. had been fused into h2-l001; the corrected number is retained once, not duplicated."
+        },
+        {
+          "before": [],
+          "after": [
+            "sig-l001"
+          ],
+          "reason": "Restored the separate Q q signature at the foot of column 2, previously omitted or confused with the catchword prefix."
+        }
+      ],
+      "typeface_terms": {
+        "c1-l039": [
+          "Catanas",
+          "Vaquizaxis"
+        ],
+        "c1-l044": [
+          "Mon."
+        ],
+        "c2-l007": [
+          "Qir."
+        ],
+        "c2-l035": [
+          "Go"
+        ]
+      }
+    }
+  }
+}
