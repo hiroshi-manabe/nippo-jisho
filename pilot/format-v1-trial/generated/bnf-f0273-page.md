@@ -22,7 +22,7 @@ Lexical cross-check aid: [Entry Words Data of Nippojisho, version 202510](https:
 | `c1-l004` | Iſſan. *Modo de parar o caualo deſpois de cor-* |  |
 | `c1-l005` | &emsp;*rer inclinandoſe, & parando por tres vezes cõ* |  |
 | `c1-l006` | &emsp;*tinuadas. ¶* Iſſanuo noru. *Fazer parar* |  |
-| `c1-l007` | &emsp;*o caualo deßa maneira.* |  |
+| `c1-l007` | &emsp;*o caualo deſta maneira.* |  |
 | `c1-l008` | Iſſan bararito. *Todos totalmente os de algũa* |  |
 | `c1-l009` | &emsp;*varella, ou Bonzos que eſtão naquelle circuito.* |  |
 | `c1-l010` | &emsp;*¶ Item, permet. Todos os de hũa caſa,* |  |
@@ -120,7 +120,7 @@ Lexical cross-check aid: [Entry Words Data of Nippojisho, version 202510](https:
 | `c2-l027` | &emsp;*boas. ¶* Itaino mizzuuo cumu. *Tirar* |  |
 | `c2-l028` | &emsp;*agoa deſte poço, ou fonte que tem à roda estas* |  |
 | `c2-l029` | &emsp;*taboas.* |  |
-| `c2-l030` | Itagami. *Certo papel com que o trinchante a* |  |
+| `c2-l030` | Itagami. *Certo papel com que o trinchante a-* |  |
 | `c2-l031` | &emsp;*limpa as facas.* |  |
 | `c2-l032` | Itajiqi. *Solhado de taboas. Vt,* Itajiqiuo |  |
 | `c2-l033` | &emsp;ſuru. l, itauo xiqu. *Solhar de taboas.* |  |
@@ -135,7 +135,7 @@ Lexical cross-check aid: [Entry Words Data of Nippojisho, version 202510](https:
 | `c2-l042` | Itama. *Gretas, ou aberturas das taboas.* |  |
 | `c2-l043` | Itamaxime, uru, eta. *Tomar pena, ou dor.* |  |
 | `c2-l044` | &emsp;*Vt,* Cocorouo itamaximuru. *Afligirſe,* |  |
-| `c2-l045` | &emsp;*& tomar pena, & dor no coração.* S. |  |
+| `c2-l045` | &emsp;*& tomar pena, & dor no coração. S.* |  |
 
 ## Printed signature
 

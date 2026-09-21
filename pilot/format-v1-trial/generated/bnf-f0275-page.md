@@ -21,7 +21,7 @@ Lexical cross-check aid: [Entry Words Data of Nippojisho, version 202510](https:
 | `c1-l003` | Itçumade. *Atè quando.* |  |
 | `c1-l004` | Itçumadeguſa. *P.* Cabeni xǒzuru cuſa. |  |
 | `c1-l005` | &emsp;*Erua aßi chamada que nace nas paredes, &* |  |
-| `c1-l006` | &emsp;*logo ſe ſeca: tomaſe por breue tempo, ou couſa* |  |
+| `c1-l006` | &emsp;*logo ſe ſeca*: *tomaſe por breue tempo, ou couſa* |  |
 | `c1-l007` | &emsp;*perecedeira, & caduca.* |  |
 | `c1-l008` | Itçumademo. *Adu. Pera todo ſempre.* |  |
 | `c1-l009` | Itçumo. *Sempre.* |  |
@@ -33,12 +33,12 @@ Lexical cross-check aid: [Entry Words Data of Nippojisho, version 202510](https:
 | `c1-l015` | Itçuto nǒ. *Não ſei tè quando. ¶* Itçuto- |  |
 | `c1-l016` | &emsp;nǒ vazzurǒ. *Estou doente não ſei tè quãdo.* |  |
 | `c1-l017` | Itçutotemo. *Adu. Em qualquer tẽpo. Vt,* |  |
-| `c1-l018` | &emsp;Itçutotemo gôvonuo vaſuremai. *Nun-* |  |
+| `c1-l018` | &emsp;Itçutotemo govonuo vaſuremai. *Nun-* |  |
 | `c1-l019` | &emsp;*ca jamais me eſquecerei de voßos beneficios.* |  |
 | `c1-l020` | Itçuuari. *Mentira, ou fingimento. ¶* Itçu- |  |
 | `c1-l021` | &emsp;uariuo yǔ. *Mentir, ou fingir.* |  |
 | `c1-l022` | Itçuuari, u, atta. *Mentir, ou fingir.* |  |
-| `c1-l023` | Itçuxica. *Em que hora, ou tempo?* S. |  |
+| `c1-l023` | Itçuxica. *Em que hora, ou tempo? S.* |  |
 | `c1-l024` | Itçuyara. *Não ſei quando. Vt,* Itçuyara |  |
 | `c1-l025` | &emsp;mǒxi cauaita cotoua nanto? *Aquillo que* |  |
 | `c1-l026` | &emsp;*falamos não ſei oraquando, como vai?* |  |
@@ -50,7 +50,7 @@ Lexical cross-check aid: [Entry Words Data of Nippojisho, version 202510](https:
 | `c1-l032` | &emsp;*mo parede de barro freſca, &c. & fazerſe* |  |
 | `c1-l033` | &emsp;*dura com frio.* |  |
 | `c1-l034` | Ite. *Frecheiro. ¶* Iǒzuno ite, l, cuqiǒ |  |
-| `c1-l035` | &emsp;no ite. *Destro em tirar com arco. Aliquã* |  |
+| `c1-l035` | &emsp;no it*e*. *Destro em tirar com arco. Aliquã* |  |
 | `c1-l036` | &emsp;*do, O que tira com eſpingarda.* |  |
 | `c1-l037` | Itei. Cotonaru tai. *Couſa fea, & vil extra* |  |
 | `c1-l038` | &emsp;*ordinariamente no geſto, vestidos, &c. Vt,* |  |
@@ -93,7 +93,7 @@ Lexical cross-check aid: [Entry Words Data of Nippojisho, version 202510](https:
 | `c2-l011` | &emsp;*ordinaria mente ſe vſa em comparação de outra* |  |
 | `c2-l012` | &emsp;*couſa contraria, ou contraposta. Vt,* |  |
 | `c2-l013` | &emsp;Itodoxiqu ſuguinixi catano coixiqini, |  |
-| `c2-l014` | &emsp;Vrayamaxiqumo cayeru nami cana! |  |
+| `c2-l014` | &emsp;Vrayamaxiqumo cayeru nami cana. |  |
 | `c2-l015` | &emsp;*Tẽdo grãdes ſaudades do Miyaco, & do q̃ dei* |  |
 | `c2-l016` | &emsp;*xo a tras, vẽdo eſtas ondas q̃ chegão à praya,* |  |
 | `c2-l017` | &emsp;*& ſe tornão, ò que ſaudades, & magoa terei* |  |

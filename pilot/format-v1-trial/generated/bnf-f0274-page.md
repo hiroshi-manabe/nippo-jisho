@@ -40,18 +40,18 @@ Lexical cross-check aid: [Entry Words Data of Nippojisho, version 202510](https:
 | `c1-l022` | &emsp;*ſa que não me dà nada, ou não vai tanto co-* |  |
 | `c1-l023` | &emsp;*mo ißo.* |  |
 | `c1-l024` | Itamino mono. *Verſos como epitaphio, &c.* |  |
-| `c1-l025` | &emsp;*que ſe mandão em louor do defunto a caſa do* |  |
+| `c1-l025` | &emsp;*que ſe mandão em louuor do defunto a caſa do* |  |
 | `c1-l026` | &emsp;*pay, parentes, &c.* |  |
 | `c1-l027` | Itano mono. *Certas peças de Iapão.* |  |
 | `c1-l028` | Itaragai. *Certo genero de mariſco como oſtras.* |  |
-| `c1-l029` | Itari. *Vt,* Xǒchacuno itari nari. *Alegrei* |  |
+| `c1-l029` | Itari. *Vt,* Xǔchacuno itari nari. *Alegrei* |  |
 | `c1-l030` | &emsp;*me muito. ¶* Guchino itari. *Muita ig-* |  |
-| `c1-l031` | &emsp;*norancia.* S. |  |
+| `c1-l031` | &emsp;*norancia. S.* |  |
 | `c1-l032` | Itari, u, atta. *Chegar, ou entrar. Vſaſe ſem* |  |
 | `c1-l033` | &emsp;*pre com outra palaura. Vt,* Ienno michi |  |
 | `c1-l034` | &emsp;ni itaru. *Intrar no caminho da virtude.* |  |
 | `c1-l035` | &emsp;*¶* Tenni itaru. *Entrar, ou chegar ao ceo.* |  |
-| `c1-l036` | &emsp;*¶* Mucaxicara imani itari made. *Deſdo* |  |
+| `c1-l036` | &emsp;*¶* Mucaxicara imani itarumade. *Deſdo* |  |
 | `c1-l037` | &emsp;*tempo antiguo atè agora. ¶* Ien, l, gacu- |  |
 | `c1-l038` | &emsp;monni itatta fito. *Homem perfeito no eſ-* |  |
 | `c1-l039` | &emsp;*tudo das letras, ou virtudes. ¶* Fijen, l, |  |
@@ -94,9 +94,9 @@ Lexical cross-check aid: [Entry Words Data of Nippojisho, version 202510](https:
 | `c2-l018` | &emsp;Itazzugauaxǔ. |  *(ao aluo.* |
 | `c2-l019` | Itazzuqi. *Ferro da frecha com que apontão* |  |
 | `c2-l020` | Itazzuqi. *Doença, ou eſtar doente. Vt,* |  |
-| `c2-l021` | &emsp;Itazzuqi mairaxe ſoro. *Estou doẽte.* S. |  |
+| `c2-l021` | &emsp;Itazzuqi mairaxe ſoro. *Estou doẽte. S.* |  |
 | `c2-l022` | Itazzura. *Ocioſidade. ¶ Item, Aliquan-* |  |
-| `c2-l023` | &emsp;*do per met. Folgueios mundanos, desho-* |  |
+| `c2-l023` | &emsp;*do per met. Folguedos mundanos, desho-* |  |
 | `c2-l024` | &emsp;*neſtidade, &c. Vt,* Itazzurauo tatçuru. |  |
 | `c2-l025` | &emsp;*Dar ſe aos goſtos da carne, couſas do mundo,* |  |
 | `c2-l026` | &emsp;*&*c*. Sempre eſta palaura ſe vſa em cõpanhia* |  |
@@ -104,8 +104,8 @@ Lexical cross-check aid: [Entry Words Data of Nippojisho, version 202510](https:
 | `c2-l028` | Itazzuragoto. *Ocioſidade. ¶ Aliquando,* |  |
 | `c2-l029` | &emsp;*permet. Des honeſtidade, ou paßa tẽpos do mũ-* |  |
 | `c2-l030` | &emsp;*do, &c.* |  |
-| `c2-l031` | Itazzuramono. *Peſoa ocioſa, vadia, & pri-* |  |
-| `c2-l032` | &emsp;*guiçoſa. ¶ Item. Ruim, ou de ruins ma* |  |
+| `c2-l031` | Itazzuramono. *Peſſoa ocioſa, vadia, & pri-* |  |
+| `c2-l032` | &emsp;*guiçoſa. ¶ Item, Ruim, ou de ruins ma* |  |
 | `c2-l033` | &emsp;*nhas, &c.* |  |
 | `c2-l034` | Itazzurana. *Couſa de ocioſidade, & boa vida.* |  |
 | `c2-l035` | Itazzurana mono. *Vadio, deſcuidado, deſobe* |  |
