@@ -231,6 +231,7 @@ function route() {
 }
 
 function showOverview(update = true) {
+  window.NippoPageTimer?.select(null);
   imageLoadGeneration++;
   clearHDCandidate();
   state.currentPage = null;
@@ -603,6 +604,7 @@ function pageSubmission(page) {
 
 function persistSubmission(page, status) {
   if (status === 'submitted') {
+    window.NippoPageTimer?.reset(page.page_id);
     const key = `nippo-submission-messages:${page.page_id}`;
     clearSubmittedMessages(pageEdits(page), storageJSON(key) || {});
     localStorage.removeItem(key);
@@ -653,6 +655,7 @@ function updateRebaseNotice() {
 function showPage(leaf, unit = 'page', update = true) {
   const page = state.byLeaf.get(leaf);
   if (!page) return;
+  window.NippoPageTimer?.select(page.page_id);
   loadPageWorkspace(page);
   state.currentPage = page;
   state.unit = page.processed ? unit : 'page';

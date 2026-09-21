@@ -1,5 +1,16 @@
 # Human Review and Correction Workflow
 
+## Local page timer
+
+“Time on page” counts visible-tab viewing time per stable page ID, not active
+typing time. Column changes preserve the counter; other pages and the overview
+pause it. Totals are saved in this browser every five seconds and on navigation
+or visibility changes, and resume after a reload. Confirming submission resets
+the corresponding page's total (including batch confirmation); merely opening
+an Issue does not. The timer is an informal display aid and is never submitted
+in correction JSON. It is local to this browser and is not synchronized across
+devices or intended to combine simultaneous review tabs.
+
 Temporary campaign: [italic ß versus two long s through f200](italic-double-s-review.md).
 
 ## Local work visibility and submitted messages
