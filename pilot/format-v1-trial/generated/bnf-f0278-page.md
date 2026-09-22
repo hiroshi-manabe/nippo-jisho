@@ -25,16 +25,16 @@ Lexical coverage was cross-checked against the supplied Entry Words Data of Nipp
 | `c1-l007` | Ixxet. i, iſſai. *Adu. Denehũa maneira quã-* |  |
 | `c1-l008` | &emsp;*do ſe ajunta com negatiuo. Vt,* Conofoni- |  |
 | `c1-l009` | &emsp;uoite ixxet bechiguiua gozanai. *Emmim* |  |
-| `c1-l010` | &emsp;*naõ hà outra couſa, l, mudança. ¶ Item,* |  |
+| `c1-l010` | &emsp;*naõ hà outra couſa,* l*, mudança. ¶ Item,* |  |
 | `c1-l011` | &emsp;*totalmente, ou em todo caſo.* |  |
 | `c1-l012` | Ixxet. *Hũa noua. ¶* Ixxetga qicoyeta. |  |
-| `c1-l013` | &emsp;*Soa hũa noua.* |  |
+| `c1-l013` | &emsp;*Sòa hũa noua.* |  |
 | `c1-l014` | Ixxi. Fitorigo. *Filho vnico.* |  |
 | `c1-l015` | Ixxi. Io fitoſugi. *Hũa linha, l, fio.* |  |
 | `c1-l016` | Ixxi. Fitoyeda. *Hum ramo.* |  |
 | `c1-l017` | Ixxi. Fitotçuno yubi. *Hum dedo.* |  |
 | `c1-l018` | Ixxi. Cami ichimai. *Hũa folha de papel.* |  |
-| `c1-l019` | &emsp;*¶* Ixxi fanxẽno jifiuomo fodocoxe. *A.* |  |
+| `c1-l019` | &emsp;*¶* Ixxi fanxẽno jifiuomo fodocoxe. *A-* |  |
 | `c1-l020` | &emsp;*inda que ſeja couſa muito pouca como hũa folha* |  |
 | `c1-l021` | &emsp;*de papel, ou mea caxa não deixeis de dar* |  |
 | `c1-l022` | &emsp;*eſmola.* |  |
@@ -46,20 +46,20 @@ Lexical coverage was cross-checked against the supplied Entry Words Data of Nipp
 | `c1-l028` | &emsp;*morre hũa vez não torna a viuer, ou reſuſcitar* |  |
 | `c1-l029` | &emsp;*naturalmente.* |  |
 | `c1-l030` | Ixxin. Fitorino voya. *Hum pay, ou mãy.* |  |
-| `c1-l031` | Ixxin. Fitotçuno ma. *Hum corpo, ou ſubſtã-* |  |
+| `c1-l031` | Ixxin. Fitotçuno mi. *Hum corpo, ou ſubſtã-* |  |
 | `c1-l032` | &emsp;*cia, ou hum ſoo. Vt,* Sonoaidani ixxin |  |
 | `c1-l033` | &emsp;cacureanauozo foritari qeru. Taif*. Lib.* |  |
 | `c1-l034` | &emsp;*32*. *Entre tanto elle ſò fez hũa coua em que* |  |
-| `c1-l035` | &emsp;*ſe eſcõdeſſe. ¶* Ixxindeua narumai. *Eu* |  |
-| `c1-l036` | &emsp;*ſoo por mĩ não poderei.* |  |
-| `c1-l037` | Ixxin. Fitotçuno macura. *Hũa almofada.* S. |  |
+| `c1-l035` | &emsp;*ſe eſcõdeße. ¶* Ixxindeua narumai. *Eu* |  |
+| `c1-l036` | &emsp;*ſoo por mi não poderei.* |  |
+| `c1-l037` | Ixxin. Fitotçuno macura. *Hũa almofada. S.* |  |
 | `c1-l038` | Ixxin. Fitotçuno cocoro. *Hum coração.* |  |
 | `c1-l039` | &emsp;*¶* Ixxin iccǒni negǒ. *Deſejar de coração* |  |
 | `c1-l040` | &emsp;*inteiramente ſem ſe diuertir em outras couſas.* |  |
 | `c1-l041` | Ixxinpuran.l, ixxinfuran. *Atenção grande,* |  |
 | `c1-l042` | &emsp;*& deuação, com que hum lee algum liuro, re-* |  |
 | `c1-l043` | &emsp;*za, &c.* |  |
-| `c1-l044` | Ixxinpuranni, *Adu. Atenta, & deuo* |  |
+| `c1-l044` | Ixxinpuranni, *Adu. Atenta, & deuo-* |  |
 | `c1-l045` | &emsp;*tamente. ¶* Ixxinpuranno teide atta. |  |
 | `c1-l046` | &emsp;*Moſtraua muita deuação, & atenção.* |  |
 | `c1-l047` | Ixxiqi. Fitotçuno iro. *Hũa laya de couſas.* |  |
@@ -93,18 +93,18 @@ Lexical coverage was cross-checked against the supplied Entry Words Data of Nipp
 | `c2-l017` | &emsp;xǒno qiǒdai. *Irmãos nacidos do meſmo* |  |
 | `c2-l018` | &emsp;*pay, & mãy.* |  |
 | `c2-l019` | Ixxǒ. Fitotçu toco. *Hum leito, ou catre.* |  |
-| `c2-l020` | Ixxǒ. Fitotçuno vgi. *Hũa familia, ou gẽ-* |  |
+| `c2-l020` | Ixxǒ. Fitotçuno vgi. *Hũa familia, ou gè-* |  |
 | `c2-l021` | &emsp;*ração.* |  |
 | `c2-l022` | Ixxô. *Vt,* Ixxô ichinen. *O inuocar inten* |  |
-| `c2-l023` | &emsp;*ſa, & atentamente o nome do* Fotoque. Bup. |  |
-| `c2-l024` | Ixxô. *Hum riſo.* S. |  |
+| `c2-l023` | &emsp;*ſa, & atentamente o nome do Fotoque*. Bup. |  |
+| `c2-l024` | Ixxô. *Hum riſo. S.* |  |
 | `c2-l025` | Ixxǒ. Fitocoye. *Hũa vez.* |  |
 | `c2-l026` | Ixxo. Fitotocoro. *Hum lugar. Vt,* Ixxo |  |
 | `c2-l027` | &emsp;fugiǔno ſô. *Bonzo que ſempre anda pere-* |  |
 | `c2-l028` | &emsp;*grinando ſem caſa certa.* |  |
 | `c2-l029` | Ixxo. Fitotçu caqu. *Hũa carta. ¶* Ixxo |  |
 | `c2-l030` | &emsp;uo mochij ſoro. *Eſcreuo esta carta. No* |  |
-| `c2-l031` | &emsp;*Cami ſe diz,* Ixxouo motte mǒxi ſoro. S. |  |
+| `c2-l031` | &emsp;*Cami ſe diz,* Ixxouo motte mǒxi ſoro. *S.* |  |
 | `c2-l032` | Ixxo fugiǔ. *Não morar em hum lugar certo.* |  |
 | `c2-l033` | &emsp;*Vide,* Ixxo. |  |
 | `c2-l034` | Ixxǒgai. i, Ixxeno aida. *Toda a vida.* |  |

@@ -14,7 +14,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | Iya. *Pareas das molheres que parem: mas a pro* |  |
+| `c1-l001` | Iya. *Pareas das molheres que parem*: *mas a pro* |  |
 | `c1-l002` | &emsp;*pria palaura he,* Yena. |  |
 | `c1-l003` | Iyagaqi. *Eſcreuer a couſa duas vezes.* |  |
 | `c1-l004` | &emsp;*¶* Iyagaqi ſuru. *Idem.* |  |
@@ -32,7 +32,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l016` | Iyamaxi, l, iyamaxini. *Adu.* Iyoiyo |  |
 | `c1-l017` | &emsp;maſu. *Mais, & mais crecendo, &c.* |  |
 | `c1-l018` | Iya mezzuraxij. i, Icanimo mezzuraxij. *Cou* |  |
-| `c1-l019` | &emsp;*ſa muito noua, & apraziuel.* S. |  |
+| `c1-l019` | &emsp;*ſa muito noua, & apraziuel. S.* |  |
 | `c1-l020` | Iyana, l, iyano. *Couſa que não quero, ou* |  |
 | `c1-l021` | &emsp;*me não contenta. Vt,* Iyana cotogia. |  |
 | `c1-l022` | Iyanaxǔ, l, iyana fito. *Peſſoa auorreciuel,* |  |
@@ -57,7 +57,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l041` | &emsp;*Vt,* Yoritomo qicoximexite nandaiuo iy |  |
 | `c1-l042` | &emsp;caqeraruruya? Feiq. *Ouuindo Yoritomo,* |  |
 | `c1-l043` | &emsp;*diße impondes me couſas ſem razão, & de* |  |
-| `c1-l044` | &emsp;*embaraço? ¶ Item, Propor a alguem algũa* |  |
+| `c1-l044` | &emsp;*embaraço? ¶* I*tem, Propor a alguem algũa* |  |
 | `c1-l045` | &emsp;*couſa, começando a falar. Vt,* Fuxinuo iy |  |
 | `c1-l046` | &emsp;caquru. *Propor duuida. ¶ Item, Ter* |  |
 | `c1-l047` | &emsp;*começado de falar, & não acabado algũa cou* |  |
@@ -124,7 +124,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l044` | &emsp;*lhe impoem.* |  |
 | `c2-l045` | Iyfataracaxi, ſu, aita. *Dizer bem, & elo-* |  |
 | `c2-l046` | &emsp;*quentemente.* |  |
-| `c2-l047` | Iyfiraqi, u, aita. *Dar rezão de ſi, ou de ou-* |  |
+| `c2-l047` | Iyfiraqi, u, aita. *Dar razão de ſi, ou de ou-* |  |
 
 ## Printed signature
 

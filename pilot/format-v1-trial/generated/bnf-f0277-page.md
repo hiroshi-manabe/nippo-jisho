@@ -39,7 +39,7 @@ Lexical coverage was cross-checked against the supplied Entry Words Data of Nipp
 | `c1-l010` | Ixe monogatari. *Certos liuros de cãtigas, ou* |  |
 | `c1-l011` | &emsp;*verßos.* |  |
 | `c1-l012` | Ixeno vofarai. *Certas caixinhas que trazem do* |  |
-| `c1-l013` | &emsp;*reino de* Ixe *os romeiros que là vão a viſitar* |  |
+| `c1-l013` | &emsp;*reino de Ixe os romeiros que là vão a viſitar* |  |
 | `c1-l014` | &emsp;*o Cami.* |  |
 | `c1-l015` | Ixeqi. *Sebe groſſa, ou marachão que ſe faz* |  |
 | `c1-l016` | &emsp;*ao lõgo do rio pera não leuar à terra dos cãpos.* |  |
@@ -62,16 +62,16 @@ Lexical coverage was cross-checked against the supplied Entry Words Data of Nipp
 | `c1-l033` | &emsp;*pedregoſo.* |  |
 | `c1-l034` | Ixidacani. *Adu.* |  |
 | `c1-l035` | Ixidatami. *Ladrilho de pedras quadradas, ou* |  |
-| `c1-l036` | &emsp;*o ladrilhar com eſas pedras. ¶ Item, Cer* |  |
+| `c1-l036` | &emsp;*o ladrilhar com eſtas pedras. ¶ Item, Cer* |  |
 | `c1-l037` | &emsp;*tas malhas, ou lauores, que hà nas peças de ſe* |  |
 | `c1-l038` | &emsp;*da, esteiras, &c. à maneira de ladrilhos de* |  |
 | `c1-l039` | &emsp;*pedra aſſentados por ordem.* |  |
-| `c1-l040` | Ixidôro. *Lanterna de pedra.* |  |
+| `c1-l040` | Ixidôro. L*anterna de pedra.* |  |
 | `c1-l041` | Ixifibachi. *Fogareiro de pedra.* |  |
-| `c1-l042` | Ixigame. *Tartaruga.* |  |
+| `c1-l042` | Ixigame. T*artaruga.* |  |
 | `c1-l043` | Ixigura. i, Ixicaqi. *Muro, ou parede de* |  |
 | `c1-l044` | &emsp;*pedra.* |  |
-| `c1-l045` | Ixij. *Couſa goſtoſa, ou de bom ſabor: quando* |  |
+| `c1-l045` | Ixij. *Couſa gostoſa, ou de bom ſabor*: *quando* |  |
 
 ## Column 2 running header
 
@@ -115,7 +115,7 @@ Lexical coverage was cross-checked against the supplied Entry Words Data of Nipp
 | `c2-l024` | &emsp;yeno iye. *Caſa fundada ſobre eſtas pedras.* |  |
 | `c2-l025` | &emsp;*¶* Ixizuyeuo ſuru, l, ixiuo ſuyuru. *A-* |  |
 | `c2-l026` | &emsp;*ſentar as pedras do edificio.* |  |
-| `c2-l027` | Ixizzuqi. *Ferro que põẽ no cabo dos bordoẽs,* |  |
+| `c2-l027` | Ixizzuqi. *Ferro que poẽ no cabo dos bordoẽs,* |  |
 | `c2-l028` | &emsp;*lanças, &c.* |  |
 | `c2-l029` | Ixǒ. *Veſtido.* |  |
 | `c2-l030` | Ixô. Nocoxi teraſu. *Bom exemplo de vida* |  |
@@ -124,9 +124,9 @@ Lexical coverage was cross-checked against the supplied Entry Words Data of Nipp
 | `c2-l033` | &emsp;*comer.* |  |
 | `c2-l034` | Ixu. Cocorono vomomuqi. *Parecer, ou* |  |
 | `c2-l035` | &emsp;*opinião. ¶* Ixuuo mǒxi ſanzuru. *De-* |  |
-| `c2-l036` | &emsp;*ſabafar dizẽdo o q̃ tenho no coração, ou cuido.* |  |
+| `c2-l036` | &emsp;ſ*abafar dizẽdo o q̃ tenho no coração, ou cuido.* |  |
 | `c2-l037` | Ixǔ. Coromono ſode. *Mangas do vestido.* |  |
-| `c2-l038` | Ixxa. Fitotçuno iſago. *Hum grão de area.* |  |
+| `c2-l038` | Ixxa. Fitot*ç*uno iſago. *Hum grão de area.* |  |
 | `c2-l039` | &emsp;*¶ Item, Couſa muito pouca.* |  |
 | `c2-l040` | Ixxe. Fitotçuno yo. *Toda a vida, ou em* |  |
 | `c2-l041` | &emsp;*quanto hum viue.* |  |

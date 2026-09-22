@@ -75,9 +75,9 @@ Lexical coverage was cross-checked against the supplied Entry Words Data of Nipp
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c2-l001` | Ittǒ. Fitotçuno tomogara. *Hũa companhia* |  |
-| `c2-l002` | &emsp;*de gente, ou ladrões, &c.* |  *(ra.* S. |
+| `c2-l002` | &emsp;*de gente, ou ladrões, &c.* |  *(ra. S.* |
 | `c2-l003` | Ittǒ. *Vara da ẽbarcação, ou o leuar Fune à va* |  |
-| `c2-l004` | Ittô. Fitotçu ſuburu. *Tudo ſem ficar nada.* |  |
+| `c2-l004` | Ittô. Fitotçu ſuburu. T*udo ſem ficar nada.* |  |
 | `c2-l005` | &emsp;*Vt,* Tencauo ittôni voſamuru. *Gouer-* |  |
 | `c2-l006` | &emsp;*nar toda a Tenca ſem ficar nada.* |  |
 | `c2-l007` | Ittô. Fitotçuno tomoxibi. *Hũa candea, ou* |  |
@@ -104,27 +104,27 @@ Lexical coverage was cross-checked against the supplied Entry Words Data of Nipp
 | `c2-l017` | IVa. *Rocha, ou penedia. ¶* Iua ganje- |  |
 | `c2-l018` | &emsp;qi. *Idem.* |  |
 | `c2-l019` | Iuadogaxiua. *Muſgos que eſtão ſobre as rochas,* |  |
-| `c2-l020` | &emsp;*ou penedos com algũas mellas brancas que pare* |  |
-| `c2-l021` | &emsp;*cem de fora.* P. |  |
+| `c2-l020` | &emsp;*ou penedos com algũas mellas brancas que pare-* |  |
+| `c2-l021` | &emsp;*cem de fora. P.* |  |
 | `c2-l022` | Iuagumo. *Nuuẽs que aparecem à maneira de* |  |
-| `c2-l023` | &emsp;*rochedo hum pouco abertas, & còradas, depo* |  |
+| `c2-l023` | &emsp;*rochedo hum pouco abertas, & córadas, depo* |  |
 | `c2-l024` | &emsp;*is de eſtar o tempo toldado, as quaesſão ſinal do* |  |
 | `c2-l025` | &emsp;*tempo concertar, & ſerenar.* |  |
 | `c2-l026` | Iuai. *Feſta, ou ſolemnidade.* |  |
 | `c2-l027` | Iuai, ǒ, ǒta. *Feſtejar, ou celebrar. ¶* Xǒ- |  |
 | `c2-l028` | &emsp;guachino fiuo iuǒ. *Feſtejar o primeiro dia* |  |
-| `c2-l029` | &emsp;*do anno. ¶* Iuote ſacazzuqi fitotçu qi- |  |
-| `c2-l030` | &emsp;coximeſarei. *Se diz no tempo do Xòguachi,* |  |
+| `c2-l029` | &emsp;*do anno. ¶* Iuǒte ſacazzuqi fitotçu qi- |  |
+| `c2-l030` | &emsp;coximeſarei. *Se diz no tempo do Xǒguachi,* |  |
 | `c2-l031` | &emsp;*ou dalgũas vodas, &c. Por feſta bebei hũa* |  |
 | `c2-l032` | &emsp;*vez de vinho,* |  |
-| `c2-l033` | Iuaibi. *Feſta, ou dia ſanto: palaura que corre* |  |
+| `c2-l033` | Iuaibi. *Feſta, ou dia ſanto*: *palaura que corre* |  |
 | `c2-l034` | &emsp;*na Igreja, por que os dias de feſta de Iapão,* |  |
 | `c2-l035` | &emsp;*ſe dizem* Iuaino fi. |  |
 | `c2-l036` | Iuama. *Eſpaço dantre a penedia, ou rochedo.* |  |
-| `c2-l037` | Iuanami. *Ondas q̃ batem na rocha.* P. |  |
+| `c2-l037` | Iuanami. *Ondas q̃ batem na rocha. P.* |  |
 | `c2-l038` | Iuanya. *Adu. Quanto mais.* |  |
 | `c2-l039` | Iuaqi. *Penedos, & paos. Vt,* Qiyomo- |  |
-| `c2-l040` | &emsp;rinjua qide naqereba ſaſuga auareni vo- |  |
+| `c2-l040` | &emsp;riniua qide naqereba ſaſuga auareni vo- |  |
 | `c2-l041` | &emsp;mouaretato. Feiq. *Lib. 1. Eſte homem* |  |
 | `c2-l042` | &emsp;*não ſendo duro como pao, cu pedra mas ãtes teue* |  |
 | `c2-l043` | &emsp;*miſericordia, &c.* |  |
