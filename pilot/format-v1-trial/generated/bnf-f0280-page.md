@@ -109,7 +109,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l024` | Izari. *Aleijado que anda com as mãos pol-* |  |
 | `c2-l025` | &emsp;*lo chão.* |  |
 | `c2-l026` | Izaſa. *Hũa erua como caninhas baixas.* |  |
-| `c2-l027` | Izaſaraba. *Oraſus: interject. de exhortar.* |  |
+| `c2-l027` | Izaſaraba. *Oraſus*: *interject. de exhortar.* |  |
 | `c2-l028` | Izatoi. *Peſſoa que tem o ſono leue, ou ouue lo-* |  |
 | `c2-l029` | &emsp;*go qualquer eſtrondo inda que durma. No Ca* |  |
 | `c2-l030` | &emsp;*mi ſe diz,* Yozatoi. |  |

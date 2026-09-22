@@ -34,7 +34,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l007` | &emsp;*poſição. Vt,* Iaxite. *Retribuindo.* |  |
 | `c1-l008` | &emsp;*¶* Fôja ſuru. *Retribuir.* |  |
 | `c1-l009` | Ia. *Serpente.* |  |
-| `c1-l010` | Ia. Yocoxima. *Couſa mà. Vt,* Iauo firuga- |  |
+| `c1-l010` | ia. Yocoxima. *Couſa mà. Vt,* Iauo firuga- |  |
 | `c1-l011` | &emsp;yexi xǒni qiſu. *Emendar os vicios, &* |  |
 | `c1-l012` | &emsp;*darſe à virtude, & justiça.* Xix. |  |
 | `c1-l013` | Iaacu Yocoxima acu. *Couſa peruerſa, & mà* |  |
@@ -55,7 +55,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l028` | Iacufai. Vacaqi tomogara. *Mancebo, ou de* |  |
 | `c1-l029` | &emsp;*pouca idade. ¶ Item, Serue pera ſe humi-* |  |
 | `c1-l030` | &emsp;*lhar moſtrandoſe de pouco ſaber, & idade po* |  |
-| `c1-l031` | &emsp;*ſto que ſeja de muita. ¶* Iacufaina cotouo |  |
+| `c1-l031` | &emsp;*ſto que ſe*j*a de muita. ¶* Iacufaina cotouo |  |
 | `c1-l032` | &emsp;yǔ. *Dizer couſas de homem de pouca idade,* |  |
 | `c1-l033` | &emsp;*ou pouco ſaber.* |  |
 | `c1-l034` | Iacujacuto. *Adu. Quieta, & ſoſegadamẽ* |  |
@@ -94,7 +94,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l005` | Iacunen. Xizzucana coto. *Quietação.* |  |
 | `c2-l006` | Iacuro, l, zacuro. *Romaã, ou romeira.* |  |
 | `c2-l007` | Iacurono qi. *Romeira.* |  |
-| `c2-l008` | Iacurozaca. *Criſta de galo como romaã.* |  |
+| `c2-l008` | Iacurozaca. *Crista de galo como romaã.* |  |
 | `c2-l009` | Iadǒ. Yocoximano michi. *Caminho da mal* |  |
 | `c2-l010` | &emsp;*dade. Vt,* Iadǒuo voconǒ. *Cometer* |  |
 | `c2-l011` | &emsp;*maldades, ou fazer pecados.* |  |
@@ -112,12 +112,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l023` | &emsp;*ſentença.* |  |
 | `c2-l024` | Iaguen. Yocoxima manaco. *Olhos desho-* |  |
 | `c2-l025` | &emsp;*nestos. S.* |  |
-| `c2-l026` | Iagui. Yocoxima, itçuuaru. *Falſidade, ou* |  |
+| `c2-l026` | Iagui. Yocoxima, itçuuaru. F*alſidade, ou* |  |
 | `c2-l027` | &emsp;*mentira.* |  |
 | `c2-l028` | Iaguiǒ. Yocoximano voconai. *Màs obras.* |  |
 | `c2-l029` | Iajei. Cuchinauano qinu. *Pelle q̃ as cobras* |  |
 | `c2-l030` | &emsp;*deixão, ou deſpem.* |  |
-| `c2-l031` | Iaji. Yocoximano coto. *Couſa mã, & deſ-* |  |
+| `c2-l031` | Iaji. Yocoximano coto. *Couſa mà, & deſ-* |  |
 | `c2-l032` | &emsp;*ordenada.* |  |
 | `c2-l033` | Iajin. *Cami, ou diabo mao, & prejudicial, ou que* |  |
 | `c2-l034` | &emsp;*ſempre faz mal.* |  |
