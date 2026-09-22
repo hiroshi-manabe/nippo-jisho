@@ -1,29 +1,35 @@
 /* Local viewing-time aid only; never part of a correction payload. */
 (function (root) {
   function createTimer(storage, now) {
-    let page = null, visible = true, started = null, elapsed = 0;
+    let page = null, visible = true, started = null, elapsed = 0, paused = false;
     const key = id => `nippo-page-time-v1:${id}`;
     function total() { return elapsed + (started === null ? 0 : Math.max(0, now() - started)); }
     function save() {
       if (!page) return;
-      elapsed = total(); started = visible ? now() : null;
+      elapsed = total(); started = visible && !paused ? now() : null;
       try { storage.setItem(key(page), String(elapsed)); } catch {}
     }
     return {
       total,
       save,
+      paused: () => paused,
+      pause(value) {
+        save(); paused = value; started = page && visible && !paused ? now() : null;
+        if (page) { try { storage.setItem(key(page) + ':paused', String(paused)); } catch {} }
+      },
       select(id) {
         if (id === page) return;
-        save(); page = id; elapsed = 0;
+        save(); page = id; elapsed = 0; paused = false;
         if (page) { try { elapsed = Math.max(0, Number(storage.getItem(key(page))) || 0); } catch {} }
-        started = page && visible ? now() : null;
+        if (page) { try { paused = storage.getItem(key(page) + ':paused') === 'true'; } catch {} }
+        started = page && visible && !paused ? now() : null;
       },
       visibility(value) {
-        save(); visible = value; started = page && visible ? now() : null;
+        save(); visible = value; started = page && visible && !paused ? now() : null;
       },
       reset(id) {
         try { storage.removeItem(key(id)); } catch {}
-        if (id === page) { elapsed = 0; started = visible ? now() : null; }
+        if (id === page) { elapsed = 0; started = visible && !paused ? now() : null; }
       }
     };
   }
@@ -36,9 +42,18 @@
   let storage;
   try { storage = root.localStorage; } catch { storage = {getItem: () => null, setItem() {}, removeItem() {}}; }
   const timer = createTimer(storage, () => performance.now());
-  const display = () => { const el = document.getElementById('page-time'); if (el) el.textContent = `Time on page: ${format(timer.total())}`; };
+  let selectedPage = null;
+  const display = () => {
+    document.getElementById('page-timer').hidden = !selectedPage;
+    document.getElementById('page-time').textContent = `Time on page: ${format(timer.total())}`;
+    const button = document.getElementById('page-time-pause');
+    button.textContent = timer.paused() ? 'Resume' : 'Pause';
+    button.setAttribute('aria-label', timer.paused() ? 'Resume page timer' : 'Pause page timer');
+  };
+  document.getElementById('page-time-pause').addEventListener('click', () => { timer.pause(!timer.paused()); display(); });
+  document.getElementById('page-time-reset').addEventListener('click', () => { timer.reset(selectedPage); display(); });
   root.NippoPageTimer = {
-    select(id) { timer.select(id); display(); },
+    select(id) { selectedPage = id; timer.select(id); display(); },
     reset(id) { timer.reset(id); display(); }
   };
   timer.visibility(!document.hidden);

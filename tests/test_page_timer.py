@@ -24,5 +24,16 @@ timer.reset('b'); assert.equal(timer.total(), 3000);
 timer.reset('a'); assert.equal(timer.total(), 0);
 now = 11000; timer.select(null); now = 12000; timer.select('a');
 assert.equal(timer.total(), 1000);
+timer.pause(true); now = 15000; timer.save();
+assert.equal(timer.total(), 1000);
+timer.visibility(false); timer.visibility(true); now = 16000;
+assert.equal(timer.total(), 1000);
+timer.select('b'); assert.equal(timer.paused(), false);
+timer.select('a'); assert.equal(timer.paused(), true);
+const pausedReload = createTimer(storage, () => now); pausedReload.select('a');
+assert.equal(pausedReload.paused(), true);
+timer.reset('a'); now = 17000; assert.equal(timer.total(), 0);
+timer.pause(false); now = 18000; assert.equal(timer.total(), 1000);
+timer.reset('a'); now = 19000; assert.equal(timer.total(), 1000);
 assert.equal(format(65000), '1:05'); assert.equal(format(3661000), '1:01:01');
 '''], cwd=Path(__file__).resolve().parents[1], check=True)

@@ -17,3 +17,4 @@
 .pending-review-notice { border: 2px solid #ad5911; background: #fff2dc; padding: 1rem; margin: 1rem 0; color: #522c0b; }
 .pending-review-notice pre { white-space: pre-wrap; overflow-wrap: anywhere; }
 .page-card.review-blocked { border: 3px solid #ad5911; }
+.page-timer{position:fixed;left:.7rem;bottom:calc(5rem + env(safe-area-inset-bottom,0px));z-index:24;display:flex;align-items:center;gap:.5rem;padding:.4rem .55rem;border:1px solid var(--line);border-radius:.55rem;background:var(--panel);box-shadow:var(--shadow);font-size:.75rem;font-variant-numeric:tabular-nums}.page-timer[hidden]{display:none}.page-timer button{min-height:36px;padding:.35rem .55rem}.page-timer small{font-size:inherit;color:var(--muted)}

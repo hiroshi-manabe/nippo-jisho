@@ -46,7 +46,7 @@
 
     <section id="page-view" class="page-view hidden">
       <div class="page-heading">
-        <div><p id="page-kicker" class="eyebrow"></p><h1 id="page-title"></h1><p id="page-meta"></p><small id="page-time" style="color:var(--muted);font-variant-numeric:tabular-nums">Time on page: 0:00</small></div>
+        <div><p id="page-kicker" class="eyebrow"></p><h1 id="page-title"></h1><p id="page-meta"></p></div>
         <div id="page-badges" class="badges"></div>
       </div>
       <nav id="view-tabs" class="view-tabs" aria-label="Page view">
@@ -103,6 +103,11 @@
     </div>
   </dialog>
   <div id="toast" class="toast hidden" role="status"></div>
+  <aside id="page-timer" class="page-timer" aria-label="Page viewing timer" hidden>
+    <small id="page-time">Time on page: 0:00</small>
+    <button id="page-time-pause" type="button">Pause</button>
+    <button id="page-time-reset" type="button" aria-label="Reset page timer">Reset</button>
+  </aside>
   <script src="quick-edit.js"></script>
   <script src="assets/page-timer.js"></script>
   <script src="app.js"></script>

@@ -11,6 +11,11 @@ an Issue does not. The timer is an informal display aid and is never submitted
 in correction JSON. It is local to this browser and is not synchronized across
 devices or intended to combine simultaneous review tabs.
 
+The timer floats at the lower left, above the submission controls, and is hidden
+on the overview. It starts automatically for a new page. Pause/Resume is remembered
+per page, including across reloads; visibility changes do not undo a manual pause.
+Reset clears the total without changing whether the timer is paused or running.
+
 Temporary campaign: [italic ß versus two long s through f200](italic-double-s-review.md).
 
 ## Local work visibility and submitted messages
