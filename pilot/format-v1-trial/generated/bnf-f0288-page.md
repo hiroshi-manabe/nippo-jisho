@@ -36,7 +36,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l020` | &emsp;Iincôni noru. *Andar nas bocas dos homẽs.* |  |
 | `c1-l021` | Iincô. Fucaqu atçuxi. *Muito, ou grande.* |  |
 | `c1-l022` | &emsp;*¶* Govon jincôno itari. *Grandes, & mui* |  |
-| `c1-l023` | &emsp;*tos beneficios.* S. |  |
+| `c1-l023` | &emsp;*tos beneficios. S.* |  |
 | `c1-l024` | Iincun. Fito qimi. *Senhor principal, ou Tono.* |  |
 | `c1-l025` | Iindai. Fanafada fanafadaxij. *Grande cou-* |  |
 | `c1-l026` | &emsp;*ſa, & extraordinaria, ou profunda.* |  |
@@ -87,12 +87,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l013` | Iinji. Camino coto. *Ceremonias, & festas* |  |
 | `c2-l014` | &emsp;*dos Camis.* |  |
 | `c2-l015` | Iinjin. Fucaqu fanafadaxij. *Couſa grande,* |  |
-| `c2-l016` | &emsp;*ou profunda. Vt,* Iinjinno chijin. *Grã-* |  |
+| `c2-l016` | &emsp;*ou profunda. Vt,* Iinjinno chijn. *Grã-* |  |
 | `c2-l017` | &emsp;*de amigo. ¶* Iinjinno govon. *Gran-* |  |
 | `c2-l018` | &emsp;*des beneficios recebidos de peßoa alta.* |  |
 | `c2-l019` | Iinjit. *Septimo dia dos primeiros do Xǒguachi.* |  |
 | `c2-l020` | Iinin. Vtçucuximu, xinobu. *Piedade, &* |  |
-| `c2-l021` | &emsp;*paciencia.* S. |  |
+| `c2-l021` | &emsp;*paciencia. S.* |  |
 | `c2-l022` | Iinjǒ. *Policia, modeſtia, grauidade, &c.* |  |
 | `c2-l023` | Iinjǒna. *Couſa politica, graue, modeſta. ¶* Iin |  |
 | `c2-l024` | &emsp;jǒna fito. *Homem modeſto, & honeſto em* |  |
@@ -100,22 +100,22 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l026` | &emsp;Iinjǒni. |  |
 | `c2-l027` | &emsp;Iinjǒſa. |  |
 | `c2-l028` | Iinme. Camino vma. *Caualo do Cami.* |  |
-| `c2-l029` | Iinmet. Tçuqi meſſuru. *Total deſtruição.* S. |  |
+| `c2-l029` | Iinmet. Tçuqi meſſuru. *Total deſtruição. S.* |  |
 | `c2-l030` | Iinmiacu. *Pulſo que reſponde aos rins.* |  |
 | `c2-l031` | Iinmiraiſai. *Eternidade, ou tempo que eſtà por* |  |
-| `c2-l032` | &emsp;*vir infinito.* S. |  |
-| `c2-l033` | Iinmit. *Couſa muito ſecreta.* S. |  |
+| `c2-l032` | &emsp;*vir infinito. S.* |  |
+| `c2-l033` | Iinmit. *Couſa muito ſecreta. S.* |  |
 | `c2-l034` | Iinmǒ. Fitono nozomi. *Deſejo dos ho-* |  |
-| `c2-l035` | &emsp;*mens.* S. |  |
+| `c2-l035` | &emsp;*mens. S.* |  |
 | `c2-l036` | Iinmon. Fitono cado. *Porta, ou fronteſpi-* |  |
 | `c2-l037` | &emsp;*cio da caſa de alguem.* |  |
 | `c2-l038` | Iinmot. *Homens, & as de mais couſas do* |  |
 | `c2-l039` | &emsp;*mundo.* |  |
-| `c2-l040` | Iin mufen. *Immenſo.* S. |  |
-| `c2-l041` | jinmuriǒ. *Idem.* |  |
+| `c2-l040` | Iin mufen. *Immenſo. S.* |  |
+| `c2-l041` | Iinmuriǒ. *Idem.* |  |
 | `c2-l042` | Iinnin. Camino fito. *Homẽs q̃ ſeruẽ aos Camis.* |  |
 | `c2-l043` | Iinno fu. i, Fǒquǒ. *Bixiga.* |  |
-| `c2-l044` | Iinpan. *Homem de varias cores.* i, *Homem* |  |
+| `c2-l044` | Iinpan. *Homem de varias cores. i*, *Homem* |  |
 | `c2-l045` | &emsp;*malicioſo. Vt,* Cofanua miyaſuqu, jin- |  |
 | `c2-l046` | &emsp;panua miyegataxi. Xix. *O tigre malha* |  |
 | `c2-l047` | &emsp;*do logo ſe deixa ver, mas o homem malicioſo não* |  |

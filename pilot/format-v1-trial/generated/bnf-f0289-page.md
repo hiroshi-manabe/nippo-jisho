@@ -14,11 +14,11 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | Iinpi. *Segredo de Cami. Vt,* Iinpiuo ara- |  |
+| `c1-l001` | Iinpi. *Segredo do Cami. Vt,* Iinpiuo ara- |  |
 | `c1-l002` | &emsp;uaſu. *Manifeſtar o Cami os ſegredos, ou ou* |  |
 | `c1-l003` | &emsp;*tro em ſeu lugar.* |  |
 | `c1-l004` | Iinpô. Camino tacara. *Riquezas do Cami.* |  |
-| `c1-l005` | Iinpǔ. *Cuſtume dos homẽs.* S. |  |
+| `c1-l005` | Iinpǔ. *Cuſtume dos homẽs. S.* |  |
 | `c1-l006` | Iinpuxô. Yoqi jintaito, monono cazunara- |  |
 | `c1-l007` | &emsp;nu fito. *Homem nobre, & homem baixo.* |  |
 | `c1-l008` | &emsp;*Vt,* Iinpuxôni yorazu. *Não tẽdo deuer* |  |
@@ -51,16 +51,16 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l035` | Iintôraxij. *Vt,* Iintôraxij fito. *Homem* |  |
 | `c1-l036` | &emsp;*graue, & modeſto, cortes, &c.* |  |
 | `c1-l037` | Iin von. Fucaqu touoxi. *Couſa muito anti-* |  |
-| `c1-l038` | &emsp;*gua, & diſtante de noſſos tempos.* S. |  |
+| `c1-l038` | &emsp;*gua, & diſtante de noſſos tempos. S.* |  |
 | `c1-l039` | Iin von. *Beneficios de homem piadoſo, & ami-* |  |
 | `c1-l040` | &emsp;*go de bem fazer.* |  |
 | `c1-l041` | Iin von. Fucai von. *Grandes beneficios.* |  |
 | `c1-l042` | Iinxa. *Bom homem. & amigo de bẽ fazer.* |  |
-| `c1-l043` | Iinxe. *Eſpaço em quanto hum viue, ou eſtà em* |  |
+| `c1-l043` | Iinxe. *Eſpaço em quanto hum viue, ou està em* |  |
 | `c1-l044` | &emsp;*este mundo.* |  |
 | `c1-l045` | Iinxei. *Idem. ¶* Iinxei xichijǔ, corai |  |
 | `c1-l046` | &emsp;mare nari. *Chegar a vida do homem atè os* |  |
-| `c1-l047` | &emsp;*70. ainda antiguamente foi couſa rara.* S. |  |
+| `c1-l047` | &emsp;*70. ainda antiguamente foi couſa rara. S.* |  |
 
 ## Column 2 running header
 
@@ -91,7 +91,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l011` | Iinyen yùbi. Fucacu touoxi caſuca. *Couſa* |  |
 | `c2-l012` | &emsp;*alta, & profunda. Vt,* Iinyen yùbino |  |
 | `c2-l013` | &emsp;cotouari. *Razão, ou ſentença profunda,* |  |
-| `c2-l014` | &emsp;*& copioſa.* S. |  |
+| `c2-l014` | &emsp;*& copioſa. S.* |  |
 | `c2-l015` | Iinzui. Camino mizzu. *Agoa do Cami. Vt,* |  |
 | `c2-l016` | &emsp;Iinzuiuo nomu. *Beber agoa, ou vinho* |  |
 | `c2-l017` | &emsp;*diante do Cami como juramento, ou promeßa* |  |
