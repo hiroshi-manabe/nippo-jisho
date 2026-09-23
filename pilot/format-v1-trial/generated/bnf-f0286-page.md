@@ -22,7 +22,7 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | `c1-l004` | &emsp;*o tempo, ou hora de algũa couſa. ¶* Iibũ |  |
 | `c1-l005` | &emsp;uo vcagǒ. *Buſcar tempo, ou conjunção.* |  |
 | `c1-l006` | &emsp;Iibunuo motte mairǒzu. *Eu irei a ſeu tẽ-* |  |
-| `c1-l007` | &emsp;*po. ¶* Sǒtǒno jibun. *Tempo conueni-* |  |
+| `c1-l007` | &emsp;*po. ¶* Sǒtǒno jibun. T*empo conueni-* |  |
 | `c1-l008` | &emsp;*ente pera fazer algũa couſa. ¶* Iibun faz- |  |
 | `c1-l009` | &emsp;zureni monouo ſuru. *Fazer algũa couſa* |  |
 | `c1-l010` | &emsp;*fora de tẽpo, ou de horas determinadas, &c.* |  |
@@ -41,7 +41,7 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | `c1-l023` | Iichi. Mizzucara xiru. *Proprio ſaber. Vt,* |  |
 | `c1-l024` | &emsp;Mizzuuo nôde reidan jichiſu. *Somente* |  |
 | `c1-l025` | &emsp;*o que bebe a agoa diſcerne ſe he fria, ou quẽte.* |  |
-| `c1-l026` | &emsp;*i, o que experimenta, eße ſabè das couſas mais* |  |
+| `c1-l026` | &emsp;*i, o que experimenta, eße ſabẽ das couſas mais* |  |
 | `c1-l027` | &emsp;*que com ouuir.* |  |
 | `c1-l028` | Iichi iqi. i, *Iapaõ.* |  |
 | `c1-l029` | Iichimena. l, Iichimena fito. *Peßoa graue,* |  |
@@ -98,7 +98,7 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | `c2-l022` | Iidô. Chigo, varanbe. *Minino.* |  |
 | `c2-l023` | Iidocu. Mizzucara yomu. *Ler eu. Vt,* |  |
 | `c2-l024` | &emsp;Cono qiǒ xixǒ nǒte tada jidocu, itaita. |  |
-| `c2-l025` | &emsp;*Eſte liuro ſem meſtre ſo por mi o aprẽdi, ou li.* |  |
+| `c2-l025` | &emsp;*Eſte liuro ſem meſtre ſò por mi o aprẽdi, ou lî.* |  |
 | `c2-l026` | Iifi. *Miſericordia, ou eſmola. ¶* Iifiuo |  |
 | `c2-l027` | &emsp;mopparato ſuru. *Ter por couſa muito neceßa* |  |
 | `c2-l028` | &emsp;*ria, & principal fazer eſmolas. ¶* Iifiuo |  |

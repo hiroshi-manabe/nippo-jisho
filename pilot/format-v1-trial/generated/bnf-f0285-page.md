@@ -22,10 +22,10 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | `c1-l004` | &emsp;*companhia.* |  |
 | `c1-l005` | Ienzai. Yoqi tacara. *Boas riquezas, ou boa,* |  |
 | `c1-l006` | &emsp;*& rica couſa.* |  |
-| `c1-l007` | Ienzai. Ycqi cana. *O boa couſa.* S. |  |
+| `c1-l007` | Ienzai. Ycqi cana. *O boa couſa. S.* |  |
 | `c1-l008` | Ienzô. i, Ienxǔno ſô. *Religioſo, ou Bon-* |  |
 | `c1-l009` | &emsp;*zo da ſeita dos Ienxùs.* |  |
-| `c1-l010` | Ieſsǒ. Xitano catachi. *Lingua.* S. |  |
+| `c1-l010` | Ieſsǒ. Xitano catachi. *Lingua. S.* |  |
 | `c1-l011` | Iet. Xita. *Lingua.* |  |
 | `c1-l012` | Ietcot. *Certo lugar dos pees onde ſe dão botões* |  |
 | `c1-l013` | &emsp;*de fogo.* |  |
@@ -33,16 +33,16 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | `c1-l015` | &emsp;*¶ Item, Deixar de eſtudar depois de ſe con-* |  |
 | `c1-l016` | &emsp;*ſumar no eſtudo, ou letras.* |  |
 | `c1-l017` | Ietguen. Cotobauo tayaſu. i, Gongo dǒdã. |  |
-| `c1-l018` | &emsp;*O não poder explicar com palauras.* S. |  |
-| `c1-l019` | Ietmet. Taye foroburu. *Deſtruição total.* S. |  |
+| `c1-l018` | &emsp;*O não poder explicar com palauras. S.* |  |
+| `c1-l019` | Ietmet. Taye foroburu. *Deſtruição total. S*. |  |
 | `c1-l020` | Ietmiô. *Couſa marauilhoſa, & que não ſe po-* |  |
 | `c1-l021` | &emsp;*de explicar com palauras.* |  |
 | `c1-l022` | Ietmiǒ. *Principio de deſtruição. Vt,* Co- |  |
 | `c1-l023` | &emsp;no vazauaiua cano fitono tameni jetmiǒ- |  |
-| `c1-l024` | &emsp;già. *Eſte trabalho he principio da perdição* |  |
+| `c1-l024` | &emsp;gia. *Eſte trabalho he principio da perdição* |  |
 | `c1-l025` | &emsp;*daquelle homem.* |  |
 | `c1-l026` | Ietnai. *Pronunciação. Vt,* Ietnaino varui |  |
-| `c1-l027` | &emsp;fito. l, yoi fitogia. *Hehomem de mà, ou* |  |
+| `c1-l027` | &emsp;fito. l, yoi fitogia. H*ehomem de mà, ou* |  |
 | `c1-l028` | &emsp;*boa pronunciação.* |  |
 | `c1-l029` | Iet ri. Taye fanaruru. i, Gongono tayetaru |  |
 | `c1-l030` | &emsp;coto. *Falta de palauras, como pera explicar* |  |
@@ -56,7 +56,7 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | `c1-l038` | &emsp;to. *Couſa totalmente destruida.* |  |
 | `c1-l039` | Iettô. i, Xitano ſaqi. *Ponta da lingua. Vt,* |  |
 | `c1-l040` | &emsp;Iettôni noberarenu cotonari. *He couſa q̃* |  |
-| `c1-l041` | &emsp;*não ſe pode explicar com palauras.* S. |  |
+| `c1-l041` | &emsp;*não ſe pode explicar com palauras. S.* |  |
 | `c1-l042` | Iet von. Xita coye. *Voz dos que falão.* |  |
 | `c1-l043` | Ietxi, ſuru. Tayuru. l, tatçu. *Cortar, ou* |  |
 | `c1-l044` | &emsp;*interromper. Vt,* Xoxinuo jetſuru. *Ha* |  |
@@ -87,10 +87,10 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | `c2-l005` | Iexxǒ. Tonaye tayuru. *Couſa excellente.* |  |
 | `c2-l006` | &emsp;*ou marauilhoſa, & que não ſe pode explicar* |  |
 | `c2-l007` | &emsp;*com palauras. Vt,* Qimeô jexxǒno itari |  |
-| `c2-l008` | &emsp;nari. *He couſa marauilhoſa.* S. |  |
+| `c2-l008` | &emsp;nari. *He couſa marauilhoſa. S.* |  |
 | `c2-l009` | Iexxǒ. Tamazzuſa tayuru. i, Fumiuo fiſa- |  |
 | `c2-l010` | &emsp;xǔ cacanu. *Não eſcreuer carta por muito* |  |
-| `c2-l011` | &emsp;*tempo.* S. |  |
+| `c2-l011` | &emsp;*tempo. S.* |  |
 
 ## Column 2 internal heading
 
@@ -121,7 +121,7 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | `c2-l027` | &emsp;*uar conſigo ſoldados valentes.* |  |
 | `c2-l028` | Ii. Coto. *Couſa. Vt,* Ano fito jiga nara- |  |
 | `c2-l029` | &emsp;nu. *Aquelle homem he pobre, ou não tem* |  |
-| `c2-l030` | &emsp;*poſſe.* |  |
+| `c2-l030` | &emsp;*poße.* |  |
 | `c2-l031` | Iiai. Mizzucara aiſuru. *A mimar, & mo-* |  |
 | `c2-l032` | &emsp;*ſtrar amor.* |  |
 | `c2-l033` | Iiai. Itçucuximi aiſuru. *A mimar com grã-* |  |
@@ -135,7 +135,7 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | `c2-l041` | &emsp;*mo, & aproueitarſe do preço.* |  |
 | `c2-l042` | Iibo. Itçucuximu faua. i, Iifino faua. *Mãy* |  |
 | `c2-l043` | &emsp;*piadoſa, ou amoroſa.* |  |
-| `c2-l044` | Iibocu. Mimi, me. *Orelhas, & olho. Vt* |  |
+| `c2-l044` | Iibocu. Mimi, me. *Orelhas, & olho. Vt,* |  |
 
 ## Printed signature
 

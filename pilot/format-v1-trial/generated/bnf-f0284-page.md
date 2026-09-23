@@ -42,7 +42,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l025` | Iennin. Yoqi fito. *Homem virtuoſo, ou* |  |
 | `c1-l026` | &emsp;*ſancto.* |  |
 | `c1-l027` | Ienpai. Mayeno tomogara. *Homem antiguo,* |  |
-| `c1-l028` | &emsp;*ou do tempo paſado.* |  |
+| `c1-l028` | &emsp;*ou do tempo paßado.* |  |
 | `c1-l029` | Ienpen. Mayeno fen. *Hum volume inteiro* |  |
 | `c1-l030` | &emsp;*de muitos liuros, ou partes. ¶ Item, Ali* |  |
 | `c1-l031` | &emsp;*quando, Paragrapho, ou capitulo paſſado, ou* |  |
@@ -74,7 +74,7 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c2-l001` | Ienqua. *Premio da virtude. Vt,* Goxeni |  |
 | `c2-l002` | &emsp;voite jenquauo toru bexi. *Na outra vi-* |  |
-| `c2-l003` | &emsp;*da recebereis o premio da virtude.* S. |  |
+| `c2-l003` | &emsp;*da recebereis o premio da virtude. S.* |  |
 | `c2-l004` | Ienrin. *Lugar onde ha muitos Bonzos Ienxùs.* |  |
 | `c2-l005` | Ienrio. *Companheiro dos Ienxùs.* |  |
 | `c2-l006` | Ienſa. Ienno xoſa. *Boas obras. Vt,* Ienſa |  |
@@ -94,13 +94,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l020` | &emsp;*te. Vt,* Ienxano cutçugayeruuo mite, |  |
 | `c2-l021` | &emsp;côxano imaximeto naſu. Xix. *O car-* |  |
 | `c2-l022` | &emsp;*ro que vai diante ſe cae, dà auiſo aos que vão* |  |
-| `c2-l023` | &emsp;*de tras: aßi o exemplo dos que vão diante, &c.* |  |
+| `c2-l023` | &emsp;*de tras*: *aßi o exemplo dos que vão diante, &c.* |  |
 | `c2-l024` | Ienxei. Yoqi matçurigoto. *Boas leis, & or* |  |
 | `c2-l025` | &emsp;*denaçoens, ou bom gouerno.* |  |
 | `c2-l026` | Ienxei. Mattacu ſacannari. *Florecer, ou* |  |
 | `c2-l027` | &emsp;*proſperar muito. ¶* Tǒdaiua jenxeina. *Eſ* |  |
 | `c2-l028` | &emsp;*ta idade he florente, & proſpera.* |  |
-| `c2-l029` | Ienxi. *Meſtre de antes, ou primeiro.* |  |
+| `c2-l029` | Ienxi. *Mestre de antes, ou primeiro.* |  |
 | `c2-l030` | Ienxi. *Meſtre dos Ienxùs.* |  |
 | `c2-l031` | Ienxin. Mattai mi. i, Ientai. *Todo o corpo.* |  |
 | `c2-l032` | Ienxin, l, jenxinna. *Peſſoa virtuoſa, ou de* |  |

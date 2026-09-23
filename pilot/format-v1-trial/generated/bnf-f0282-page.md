@@ -28,12 +28,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l012` | Iaqeô. Yocoximano tauamure. *Brincos deſ-* |  |
 | `c1-l013` | &emsp;*honestos.* |  |
 | `c1-l014` | Iaqi. Yocoximano qi. *Bafo ruim, ou peſti-* |  |
-| `c1-l015` | &emsp;*lente.* S. *¶* Iaqi aru. *Auer algũa do* |  |
+| `c1-l015` | &emsp;*lente. S. ¶* Iaqi aru. *Auer algũa do* |  |
 | `c1-l016` | &emsp;*ença contagioſa, como peste, ou vento peſtife-* |  |
 | `c1-l017` | &emsp;*ro. ¶* Iaqiga tachiſaru. *Acabarſe eſte* |  |
 | `c1-l018` | &emsp;*vento ruim, ou doença contagioſa, ou de ruim* |  |
-| `c1-l019` | &emsp;*bafo.* S. |  |
-| `c1-l020` | Iaracu. Yocoximano tanoximi. *Torpes, ou* |  |
+| `c1-l019` | &emsp;*bafo. S.* |  |
+| `c1-l020` | Iaracu. Yocoximano *t*anoximi. *Torpes, ou* |  |
 | `c1-l021` | &emsp;*deſordenados gostos. ¶* Iaracuuo tanoxi- |  |
 | `c1-l022` | &emsp;muna. *Não vos deis a torpes, & ruins de* |  |
 | `c1-l023` | &emsp;*leitaçoẽs.* |  |
@@ -96,14 +96,14 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c2-l013` | IEcchi. *Não poder ſaber, ou alcançar com o* |  |
-| `c2-l014` | &emsp;*entendimento.* S. |  |
-| `c2-l015` | Ieccon. Xitano ne. *Raiz da lingua.* S. |  |
+| `c2-l014` | &emsp;*entendimento. S.* |  |
+| `c2-l015` | Ieccon. Xitano ne. *Raiz da lingua. S.* |  |
 | `c2-l016` | Ieccu. Cuuo qiru. *O cortar pollo meo hũs cer-* |  |
 | `c2-l017` | &emsp;*tos verſos da China. Vt,* Ieccuno xi. *Ver* |  |
 | `c2-l018` | &emsp;*ſos diuididos em duas partes.* |  |
 | `c2-l019` | Iecqiǒ. i, Iinrin tayeta tocoro. *Lugar deſ-* |  |
-| `c2-l020` | &emsp;*habitado, ou deſerto.* S. |  |
-| `c2-l021` | Iecu. Yoicu. *Boa ſentença, ou dito.* S. |  |
+| `c2-l020` | &emsp;*habitado, ou deſerto. S.* |  |
+| `c2-l021` | Iecu. Yoicu. *Boa ſentença, ou dito. S.* |  |
 | `c2-l022` | Iefi. i, Yoxi axi. *Bem, & mal. ¶ Itẽ,* |  |
 | `c2-l023` | &emsp;Iefi. i, Iefitomoni. *Em todo caſo. Vt,* Ie- |  |
 | `c2-l024` | &emsp;fi cudaſarei. *Em todo caſo mo dai, ou cõcedei.* |  |
@@ -122,7 +122,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l037` | &emsp;*as, & de virtude. ¶* Ienni ſuſumu. *A-* |  |
 | `c2-l038` | &emsp;*nimarſe, & excitarſe à virtude, ou ir por diã-* |  |
 | `c2-l039` | &emsp;*te na virtude.* |  |
-| `c2-l040` | Ien. Maye, l, ſaqi. *Antes: mas não ſe vſa ſe* |  |
+| `c2-l040` | Ien. Maye, l, ſaqi. *Antes*: *mas não ſe vſa ſe* |  |
 | `c2-l041` | &emsp;*não com algũa compoſição. Vt,* Gojen, l, |  |
 | `c2-l042` | &emsp;ſonjenni. *Diante de peſſoa nobre, ou ſan-* |  |
 | `c2-l043` | &emsp;*cta. ¶* Iengo. *Diante, & de tras, ou* |  |

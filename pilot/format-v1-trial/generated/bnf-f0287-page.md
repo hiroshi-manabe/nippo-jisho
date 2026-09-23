@@ -35,27 +35,27 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | `c1-l017` | Iigô. *Obras proprias. Vt,* Iigô Iimet. *Des-* |  |
 | `c1-l018` | &emsp;*truirſe por ſeus proprios feitos, ou obras aßi* |  |
 | `c1-l019` | &emsp;*meſmo.* |  |
-| `c1-l020` | Iigô. i, Xiuaza. *Obras.* |  |
+| `c1-l020` | Iigô. *i*, *X*iuaza. *Obras.* |  |
 | `c1-l021` | Iigonigo. *Daqui pordiante.* |  |
 | `c1-l022` | Iiguai. Terano foca. *Fora do moeſteiro, ou* |  |
 | `c1-l023` | &emsp;*varela.* |  |
 | `c1-l024` | Iigue. Mizzucara toqu. *Soltar porſi duuida,* |  |
-| `c1-l025` | &emsp;*&c. Vt,* Iigue jitocuſu. S. |  |
+| `c1-l025` | &emsp;*&c. Vt,* Iigue jitocuſu. *S.* |  |
 | `c1-l026` | Iiguen. *Aparição como de Anjos, ou foto-* |  |
 | `c1-l027` | &emsp;*que, &c.* |  |
 | `c1-l028` | Iiguen. Mizzucaraga cotoba. *Proprias pa-* |  |
 | `c1-l029` | &emsp;*lauras.* |  |
 | `c1-l030` | Iiguet. i, Niguat. *Segunda lũa. Vt,* Ii- |  |
 | `c1-l031` | &emsp;guetno yuqi coromoni mitçu. *A neue* |  |
-| `c1-l032` | &emsp;*do Niguachi he muita em abundancia.* S. |  |
+| `c1-l032` | &emsp;*do Niguachi he muita em abundancia. S.* |  |
 | `c1-l033` | Iigui. *Comprimentos, ou policia. ¶* Iiguiuo |  |
 | `c1-l034` | &emsp;totonoyuru. *Fazer comprimentos, ou cor-* |  |
 | `c1-l035` | &emsp;*teſias. ¶ Item, Preparar, ou fazer a-* |  |
-| `c1-l036` | &emsp;*parelho deſtes comprimentos, ou agaſolha* |  |
+| `c1-l036` | &emsp;*parelho deſtes comprimentos, ou agaſalha* |  |
 | `c1-l037` | &emsp;*dos. ¶* Iiguifǒ. *Leis de policia.* Iigui |  |
 | `c1-l038` | &emsp;fǒuo xiranu fito. *Homem que não ſabe* |  |
 | `c1-l039` | &emsp;*as leis da corteſia.* |  |
-| `c1-l040` | Iiguiǒ. l, jiſo. Iino catachi. *Figura, ou fei-* |  |
+| `c1-l040` | Iiguiǒ. l, jiſo. Iino catachi. F*igura, ou fei-* |  |
 | `c1-l041` | &emsp;*ção da letra. Vt,* Iiguiǒga yoi. *Ser boa* |  |
 | `c1-l042` | &emsp;*a feição, & forma da letra.* |  |
 | `c1-l043` | Iiguiǒ. Mizzucara voconǒ. *Proprias obras,* |  |
@@ -91,9 +91,9 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | `c2-l009` | &emsp;uo vtçuſazu coreuo xeyo. *Fazei isto ſem* |  |
 | `c2-l010` | &emsp;*interpolação, & ſem ceſſar.* |  |
 | `c2-l011` | Iijǔ. *Certa dignidade.* |  |
-| `c2-l012` | Iiju. Mizzucara vquru. *Receber eu pormĩ.* S. |  |
+| `c2-l012` | Iiju. Mizzucara vquru. *Receber eu por mĩ. S.* |  |
 | `c2-l013` | Iijuyô. Mizzucara vqe mochiyu. *Vſar, &* |  |
-| `c2-l014` | &emsp;*ſeruirſe da couſa que hum fez.* Bup. |  |
+| `c2-l014` | &emsp;*ſeruirſe da couſa que hum fez. Bup*. |  |
 | `c2-l015` | Iiman. Mizzucara vogoru. *Preſũção, ou* |  |
 | `c2-l016` | &emsp;*vãa gloria. ¶ Item, Louuor proprio. Vt,* |  |
 | `c2-l017` | &emsp;Iiman qiqinicuxi. *Soa mal louuarſe hum* |  |
@@ -106,7 +106,7 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | `c2-l024` | &emsp;*Vt,* Iimon jitô ſuru. *Por aſi a duuida, &* |  |
 | `c2-l025` | &emsp;*porſi ſoltala, como quẽ estuda ſoo, & argu-* |  |
 | `c2-l026` | &emsp;*menta conſigo, &c.* |  |
-| `c2-l027` | Iimon. Tera, cado. *Porta da Tera.* |  |
+| `c2-l027` | Iimon. Tera, cado. P*orta da Tera.* |  |
 | `c2-l028` | Iimori. *Botar hum meſmo o vinho que ha de be* |  |
 | `c2-l029` | &emsp;*ber. Vt,* Iixacu, jimori. *Tomar hũ por* |  |
 | `c2-l030` | &emsp;*ſi o copo, & ovinho, & fazer por ſi officio* |  |

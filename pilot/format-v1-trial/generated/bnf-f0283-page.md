@@ -15,7 +15,7 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c1-l001` | &emsp;*Por a meſa. ¶* Ienuo aguru. *Tirar a* |  |
-| `c1-l002` | &emsp;*meſa, ou por a meſa. ¶* Ciojenga ſube- |  |
+| `c1-l002` | &emsp;*meſa, ou por a meſa. ¶* Giojenga ſube- |  |
 | `c1-l003` | &emsp;ru, l, cudaru. *Aleuantaremſe, ou tirarẽ* |  |
 | `c1-l004` | &emsp;*ſe as meſas de diante dalgũa peßoa honrada.* |  |
 | `c1-l005` | Ien acu. Yoxi axi. *Bem, & mal. ¶* Ien |  |
@@ -24,14 +24,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l008` | &emsp;*narſe ao bem, & mal. ¶ Item, Em todo* |  |
 | `c1-l009` | &emsp;*caſo. i, Porfas, & por nefas.* |  |
 | `c1-l010` | Ienbi. Mattacu ſonauaru. *Perfeiçoarſe, ou* |  |
-| `c1-l011` | &emsp;*acabarſe. Vt,* Zoſacu jenbi tçucamatçut |  |
+| `c1-l011` | &emsp;*acabarſe. Vt,* Zǒſacu jenbi tçucamatçut |  |
 | `c1-l012` | &emsp;ta. *A cabarãoſe as obras. ¶* Xiqixin |  |
 | `c1-l013` | &emsp;jenbi ſuru. *Formarſe o corpo, ou tomar fi-* |  |
-| `c1-l014` | &emsp;*gura de homem no ventre da mãe. ¶ Itẽ,* |  |
+| `c1-l014` | &emsp;*gura de homem no ventre da mãy. ¶ Itẽ,* |  |
 | `c1-l015` | &emsp;*Ter, ou incluir em ſi. Vt,* Xojenuo jenbi |  |
 | `c1-l016` | &emsp;ſuru. *Ter todas as virtudes em ſi.* |  |
 | `c1-l017` | Ienbi. Yoqu itçucuxixi. *Fermoſura. ¶ Itẽ,* |  |
-| `c1-l018` | &emsp;*Fermoſura da virtude.* S. |  |
+| `c1-l018` | &emsp;*Fermoſura da virtude. S.* |  |
 | `c1-l019` | Ienbô. *Seita, ou ley dos Ienxùs.* |  |
 | `c1-l020` | Ienbǒ. *Caſa quieta.* |  |
 | `c1-l021` | Ienbu. Mattacu ſuburu. *Hum corpo de li* |  |
