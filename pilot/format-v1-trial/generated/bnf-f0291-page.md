@@ -20,7 +20,7 @@ Lexical cross-check only, after independent scan reading: NINJAL, Entry Words Da
 | `c1-l002` | &emsp;*hum diz estando pera morrer.* |  |
 | `c1-l003` | Iixet. Toqi toqi. *Hora. Vt,* Iixet tǒrai |  |
 | `c1-l004` | &emsp;ſuru. *Chegarſe, ou vir a hora, ou tempo.* |  |
-| `c1-l005` | Iixi. i, Vaga fun. *Propria ſuidade, ou eſter* |  |
+| `c1-l005` | Iixi. i, Vaga fun. *Propria ſujidade, ou eſter* |  |
 | `c1-l006` | &emsp;*co. Vt,* Iixi cuſaqi cotouo xirazu. Xix. |  |
 | `c1-l007` | &emsp;*Ninguem ſe conhece aſi meſmo. Aßi como lhe* |  |
 | `c1-l008` | &emsp;*não cheira mal ſeu esterco.* |  |
@@ -46,12 +46,12 @@ Lexical cross-check only, after independent scan reading: NINJAL, Entry Words Da
 | `c1-l028` | &emsp;*tem cuidado das horas.* |  |
 | `c1-l029` | Iixǔ. *Hũa certa ſeita de Iapão, que deſcen-* |  |
 | `c1-l030` | &emsp;*de dos Iǔdǒxùs.* |  |
-| `c1-l031` | Iixxei. Fi, foxi. *Sol, & eſtrellas.* S. |  |
-| `c1-l032` | Iixxei. Fino iqiuoi. *Influencia do ſol.* S. |  |
+| `c1-l031` | Iixxei. Fi, foxi. *Sol, & eſtrellas. S.* |  |
+| `c1-l032` | Iixxei. Fino iqiuoi. *Influencia do ſol. S.* |  |
 | `c1-l033` | Iixxet. *Nouas verdadeiras. Vt,* Iixxetuo |  |
 | `c1-l034` | &emsp;qiqi qiuamuru. *Ouuir bem as nouas ver-* |  |
 | `c1-l035` | &emsp;*dadeiras.* |  |
-| `c1-l036` | Iixxi ixxǒ. *De dez morrerem osnoue, &* |  |
+| `c1-l036` | Iixxi ixxǒ. *De dez morrerem os noue, &* |  |
 | `c1-l037` | &emsp;*viuer hum. Vt,* Iixxi ixxǒno tatacaiuo |  |
 | `c1-l038` | &emsp;naſu. *Batalhar com grande perigo, & riſ-* |  |
 | `c1-l039` | &emsp;*co da vida onde os noue morrem, & hum vi-* |  |
@@ -80,8 +80,8 @@ Lexical cross-check only, after independent scan reading: NINJAL, Entry Words Da
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | &emsp;*mòres progreſſos nas letras, virtudes, &c.* S. |  |
-| `c2-l002` | Iixxô. Macotono xôco. i, *Proua, ou teſte-* |  |
+| `c2-l001` | &emsp;*mòres progreſſos nas letras, virtudes, &c. S.* |  |
+| `c2-l002` | Iixxô. Macotono xôco. *i*, *Proua, ou teſte-* |  |
 | `c2-l003` | &emsp;*munho verdadeiro.* |  |
 | `c2-l004` | Iixxǒ. Macoto maſaxij. *Couſa verdadeira,* |  |
 | `c2-l005` | &emsp;*& recta. Vt,* Iixxǒuo qiqi qiuamuru. |  |
@@ -89,14 +89,14 @@ Lexical cross-check only, after independent scan reading: NINJAL, Entry Words Da
 | `c2-l007` | Iixxocu. Fino iro. *Coraparente do ſol.* |  |
 | `c2-l008` | Iiyacu. Terano yacu. *Officios do moſteiro,* |  |
 | `c2-l009` | &emsp;*ou varela.* |  |
-| `c2-l010` | Iiyacu. Mizzucarano cuſuri. i, Vaga nomu |  |
+| `c2-l010` | Iiyacu. Mizzucarano cuſuri. i, *V*aga nomu |  |
 | `c2-l011` | &emsp;cuſuri. *Mezinha que eu tomo por mim.* |  |
 | `c2-l012` | Iiyo. Vare, fito. *Eu, & outros: comunmen-* |  |
 | `c2-l013` | &emsp;*te no vſo ſe toma pellos outros. Vt,* Iiyoni |  |
 | `c2-l014` | &emsp;conjenu fito. *Homem aſinalado, ou di-* |  |
 | `c2-l015` | &emsp;*ferente dos outros.* |  |
 | `c2-l016` | Iiyô. Mizzucarano yô. *Propria neceßida-* |  |
-| `c2-l017` | &emsp;*de. ¶* Iiyôga gozaru. *Ter algũa nece-* |  |
+| `c2-l017` | &emsp;*de. ¶* Iiyôga gozaru. T*er algũa nece-* |  |
 | `c2-l018` | &emsp;*ßidade particular. ¶* Iiyôni maitta. *Vim* |  |
 | `c2-l019` | &emsp;*a hum negocio, ou neceßidade particular.* |  |
 | `c2-l020` | Iiyǔ. *Liberdade. Vt,* Iiyǔ jizaini furu- |  |

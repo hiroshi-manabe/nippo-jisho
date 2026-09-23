@@ -29,7 +29,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l013` | Iiquan bǒv. *Grande moeſteiro, ou varela* |  |
 | `c1-l014` | &emsp;*com muitas caſas, ou ermidas em circuito.* |  |
 | `c1-l015` | Iirai. *Deſde antão pera cà, ou desde aquelle tẽ-* |  |
-| `c1-l016` | &emsp;*po atègora.* S. |  |
+| `c1-l016` | &emsp;*po atègora. S.* |  |
 | `c1-l017` | Iireǒ. Tera tçucaſadoru. *Rẽda do moeſteiro.* |  |
 | `c1-l018` | Iiriqi. Mizzucaraga chicara. *Minhas, ou* |  |
 | `c1-l019` | &emsp;*proprias forças. ¶* Iiriqide taſucaru co- |  |
@@ -55,11 +55,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l039` | Iit. Macoto. *Verdade. ¶* Iitni. *De ver* |  |
 | `c1-l040` | &emsp;*dade. ¶* Iitna coto. *Couſa verdadeira.* |  |
 | `c1-l041` | Iita. Mizzucara, tanin. *Eu, & outros. Vt,* |  |
-| `c1-l042` | &emsp;Iitatomoni yorocobu. *Todos juntamente* |  |
+| `c1-l042` | &emsp;Iitatomoni yoroc*o*bu. *Todos juntamente* |  |
 | `c1-l043` | &emsp;*nos alegramos.* |  |
 | `c1-l044` | Iitai. *Eſcuſa, ou repugnancia. Vt,* Iitaini |  |
 | `c1-l045` | &emsp;voyobanu. *Não hà pera que recuſar.* |  |
-| `c1-l046` | Iitai. Mizzucarano tai. *Propria ſubſtancia.* |  |
+| `c1-l046` | Iitai. Mizzucarano tai. *Propria ſubstancia.* |  |
 | `c1-l047` | Iitan. Mizzucara naguequ. *Propria tristeza.* |  |
 
 ## Column 2 running header
@@ -73,14 +73,14 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c2-l001` | Iitbo. Fino cure, l, figure. *Sol posto. Vt,* |  |
-| `c2-l002` | &emsp;Iitboni nozomu. *Porſe o ſol.* S. |  |
-| `c2-l003` | Iitbot. Fi votçuru. *O porſe o ſol.* S. |  |
+| `c2-l002` | &emsp;Iitboni nozomu. *Porſe o ſol. S.* |  |
+| `c2-l003` | Iitbot. Fi votçuru. *O porſe o ſol. S.* |  |
 | `c2-l004` | Iitden. Macotono tçutaye. *Tradição, ou* |  |
-| `c2-l005` | &emsp;*doutrina verdadeira.* S. |  |
-| `c2-l006` | Iitdǒ. Macotono michi. *Caminho da verda* |  |
+| `c2-l005` | &emsp;*doutrina verdadeira. S.* |  |
+| `c2-l006` | Iitdǒ. Ma*c*otono mic*h*i. *Caminho da verda* |  |
 | `c2-l007` | &emsp;*de, ou doutrina verdadeira.* |  |
 | `c2-l008` | Ii teqi. Mizzucarano teqi. *Meu inimigo.* |  |
-| `c2-l009` | Iitgo. *Ao meo dia.* S. |  |
+| `c2-l009` | Iitgo. *Ao meo dia. S.* |  |
 | `c2-l010` | Iitgo. *Palaura verdadeira.* |  |
 | `c2-l011` | Iitgon. Macotono cotoba. *Palauras ver-* |  |
 | `c2-l012` | &emsp;*dadeiras.* |  |
@@ -98,10 +98,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l024` | Iitocu. *Penetrar per ſi, & cair nas couſas,* |  |
 | `c2-l025` | &emsp;*&c.* Bup. |  |
 | `c2-l026` | Iit ro. Macotono michi. *Verdadeiro caminho.* |  |
-| `c2-l027` | Iittai. Macotono tai. *Verdadeira ſubſtancia.* |  |
+| `c2-l027` | Ii*t*tai. Macotono tai. *Verdadeira ſubſtancia.* |  |
 | `c2-l028` | Iitto. *Adu. Modo de apertar, ou fechar al-* |  |
 | `c2-l029` | &emsp;*gũa couſa na mão, &c. ¶* Teni jitto ni- |  |
-| `c2-l030` | &emsp;guiru. *Ter fechado na mão algũa couſa com* |  |
+| `c2-l030` | &emsp;guiru. T*er fechado na mão algũa couſa com* |  |
 | `c2-l031` | &emsp;*força. ¶* Iitto ximuru. *Apertar com* |  |
 | `c2-l032` | &emsp;*efficacia.* |  |
 | `c2-l033` | Iittocu. Touono tocu. *Dez proueitos.* |  |
