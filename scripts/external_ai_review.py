@@ -410,7 +410,7 @@ def validate_structure_v2(old, new, info):
     def identities(page):
         result = {}
         for zone in page['zones']:
-            for l in zone['lines']:
+            for l in zone.get('lines', []):
                 layouts = [{k:v for k,v in run.items() if k not in ('text','typeface')} for run in l['runs']]
                 layouts = [v for i,v in enumerate(layouts) if not i or v != layouts[i-1]]
                 result[l['id']] = (zone['id'], zone['kind'], l.get('indent',0), layouts)

@@ -267,6 +267,13 @@ class ExternalReviewTests(unittest.TestCase):
             review.validate_structure_v2(old,new,{'structural_changes':[]})
         review.validate_structure_v2(old,new,{'structural_changes':[{'before':['h1-l001'],'after':['h1-l001'],'reason':'Scan reads V.'}]})
 
+    def test_v2_note_only_printer_ornament(self):
+        old = review.parse(MD)
+        new = review.parse(MD)
+        new['zones'].append({'id': 'tailpiece', 'kind': 'printer_ornament',
+                             'label': 'Tailpiece', 'note': 'Non-textual decoration.'})
+        review.validate_structure_v2(old, new, {'structural_changes': []})
+
     def setup_provisional(self):
         self.v2(); self.setup_repo()
         for folder,suffix in [(review.SOURCE,'.md'),(review.COMPILED,'.json')]:
