@@ -57,10 +57,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l041` | &emsp;*Vt,* Farucano caixǒuo maboraye i tamǒ. |  |
 | `c1-l042` | &emsp;Feiq. *Lib. 4. Eſtaua vendo cõ os olhos* |  |
 | `c1-l043` | &emsp;*fitos ſobre o mar largo, & estendido ao longe.* |  |
-| `c1-l044` | &emsp;*¶* Maborayete i nagara. *Aſsi como eſ-* |  |
+| `c1-l044` | &emsp;*¶* Maborayete i nagara. *Aßi como eſ-* |  |
 | `c1-l045` | &emsp;*taua com os olhos fitos.* |  |
 | `c1-l046` | Mabori. *Nomina, ou relicario que ſe traz* |  |
-| `c1-l047` | &emsp;*ao peſcoço. ¶ Item, Aliquando, Guarda,* |  |
+| `c1-l047` | &emsp;*ao peſcoço. ¶ Item, Aliquando, Guarda* |  |
 | `c1-l048` | &emsp;*ou proteição.* |  |
 
 ## Column 2 running header
