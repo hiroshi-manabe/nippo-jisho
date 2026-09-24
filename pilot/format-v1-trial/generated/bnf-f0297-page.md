@@ -26,8 +26,8 @@ The small upper-margin ink blemish was misrecognized as a numeral 2; no printed 
 | `c1-l008` | &emsp;Fitouo jǔrin ſuru. *Piſar a alguem, ou dar* |  |
 | `c1-l009` | &emsp;*lhe couces. ¶* Iǔrin, côin. *O leuar a al-* |  |
 | `c1-l010` | &emsp;*guem por força, ou enganado dando lhe de* |  |
-| `c1-l011` | &emsp;*couces.* S. |  |
-| `c1-l012` | Iurin. Fayaxi. *Bosque, ou aruoredo.* S. |  |
+| `c1-l011` | &emsp;*couces. S.* |  |
+| `c1-l012` | Iurin. Fayaxi. *Bosque, ou aruoredo. S.* |  |
 | `c1-l013` | Iuriǒ. i, Cuni na. *Nomes de reinos que ſe* |  |
 | `c1-l014` | &emsp;*impoem por nomes. Vt,* Caino cami, fi- |  |
 | `c1-l015` | &emsp;jenno cami, &c. *¶* Iuriǒ xerareta. |  |
@@ -41,26 +41,26 @@ The small upper-margin ink blemish was misrecognized as a numeral 2; no printed 
 | `c1-l023` | &emsp;jǒno ariſama nari. *O ajuntar, & eſpalhar,* |  |
 | `c1-l024` | &emsp;*& mudarſe he maneira, & cuſtume do mũdo.* |  |
 | `c1-l025` | Iǔſocu. Michi fuſagaru. *Eſtar cheo. ¶* De- |  |
-| `c1-l026` | &emsp;us izzucunimo jǔſocu xi maximaſu. *De-* |  |
+| `c1-l026` | &emsp;us izzucunimo jǔſocu xi maximaſu. D*e-* |  |
 | `c1-l027` | &emsp;*os eſtà plenariamente em toda a parte.* |  |
 | `c1-l028` | Iuſſacu. Nobe tçucuru. *Compor certos ver-* |  |
 | `c1-l029` | &emsp;*ſos da China compridos. ¶ Item, Compor* |  |
-| `c1-l030` | &emsp;*liuros, &c.* S. |  |
+| `c1-l030` | &emsp;*liuros, &c. S.* |  |
 | `c1-l031` | Iut. *Marauilha, ou milagre aparente.* |  |
 | `c1-l032` | &emsp;*¶* Majut. *Arte, ou marauilha aparente* |  |
 | `c1-l033` | &emsp;*do Diabo. ¶ Item, Meo, ou remedio. Vt,* |  |
 | `c1-l034` | &emsp;Iutnai. *Couſa ſem remedio, & trabalhoſa.* |  |
-| `c1-l035` | Iutdǒ. *Arte, ou meo, ou marauilha.* S. |  |
+| `c1-l035` | Iutdǒ. *Arte, ou meo, ou marauilha. S.* |  |
 | `c1-l036` | Iutji. *Idem.* |  |
 | `c1-l037` | Iutnai. *Couſa penoſa, & trabalhoſa, & ſem* |  |
 | `c1-l038` | &emsp;*remedio.* |  |
 | `c1-l039` | &emsp;Iutnaſa. |  |
 | `c1-l040` | &emsp;Iutnǒ. |  |
-| `c1-l041` | Iutǒ. *Certa ſeita da china que enſina a viuerbẽ* |  |
+| `c1-l041` | Iutǒ. *Certa ſeita da china que enſina a viuer bẽ* |  |
 | `c1-l042` | &emsp;*moralmente.* |  |
-| `c1-l043` | Iutô. *Põtas altas dos raminhos das aruores.* S. |  |
+| `c1-l043` | Iutô. *Põtas altas dos raminhos das aruores. S*. |  |
 | `c1-l044` | Iǔuǒ. Tate yoco. *Ao comprido, & traues.* |  |
-| `c1-l045` | &emsp;*¶* Iǔuǒ jizaini caqem eguru. *Andar de* |  |
+| `c1-l045` | &emsp;*¶* Iǔuǒ jizaini caqemeguru. *Andar de* |  |
 | `c1-l046` | &emsp;*cà pera là a ſua vontade, & liuremente.* |  |
 | `c1-l047` | Iǔuǒ. *Eſcriuão, & juiz do inferno q̃ eſcreue, &* |  |
 
@@ -88,7 +88,7 @@ The small upper-margin ink blemish was misrecognized as a numeral 2; no printed 
 | `c2-l006` | Iuxi, ſuru, ita. i, Yomu. *Ler. ¶* Do- |  |
 | `c2-l007` | &emsp;cuju ſuru. *Idem.* |  |
 | `c2-l008` | Iuxô. Qino cozuye. *Pontinhas de cima dos* |  |
-| `c2-l009` | &emsp;*raminhos das aruores.* S. |  |
+| `c2-l009` | &emsp;*raminhos das aruores. S.* |  |
 | `c2-l010` | Iuyei. Qino cague. *Sombra de aruore.* |  |
 | `c2-l011` | Iuyen. *Feſta, ou alegria que ſe faz a algum* |  |
 | `c2-l012` | &emsp;*Bonzo quando o fazem ſuperior, & toma poſ* |  |
@@ -137,11 +137,11 @@ The small upper-margin ink blemish was misrecognized as a numeral 2; no printed 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c2-l028` | MA. Tengu. *Diabo.* |  |
-| `c2-l029` | &emsp;Ma. Aſa. *Linho canemo.* S. |  |
+| `c2-l029` | &emsp;Ma. Aſa. *Linho canemo. S.* |  |
 | `c2-l030` | &emsp;Ma. Migaqu. *Polir, ou a-* |  |
 | `c2-l031` | &emsp;*limpar. ¶* Qenuo maſu |  |
 | `c2-l032` | &emsp;bexi. *A limparàs, & a* |  |
-| `c2-l033` | &emsp;*ſacalarás a eſpada.* S. |  |
+| `c2-l033` | &emsp;*ſacalarás a eſpada. S.* |  |
 | `c2-l034` | &emsp;Ma. *Eſpaço. Vt,* Maga |  |
 | `c2-l035` | &emsp;nai. *Não auer eſpaço. ¶ Item,* Zaxi- |  |
 | `c2-l036` | &emsp;qui*, ou camara. ¶* Mamaga vouoi. *A-* |  |
