@@ -14,23 +14,23 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | &emsp;*nunciar o Bonzo dez vezes eſte nome em-* |  |
+| `c1-l001` | &emsp;*nunciar o Bonzo dez vezes este nome em-* |  |
 | `c1-l002` | &emsp;*ſinando o a inuocar aos que ſe fazem Iǒdoxùs* |  |
-| `c1-l003` | &emsp;*ou querem receber alguã maneira de benção.* |  |
+| `c1-l003` | &emsp;*ou querem receber alguã maneira de benção,* |  |
 | `c1-l004` | &emsp;*&c. ¶* Iǔnenuo vquru. *Reſponderẽ* |  |
-| `c1-l005` | &emsp;*eſtes Iǒdoxùs ao Bonzo dez vezes inuocando* |  |
+| `c1-l005` | &emsp;*estes Iǒdoxùs ao Bonzo dez vezes inuocando* |  |
 | `c1-l006` | &emsp;*Amida aßi como o Bonzo lhes enſina.* |  |
 | `c1-l007` | Iunguet. Vruzzuqi. *Lũa, ou mes queſe a-* |  |
 | `c1-l008` | &emsp;*crecenta de mais cada tres annos.* |  |
 | `c1-l009` | Iungui. l, junguina. Guini xitagǒ. *Couſa cõ* |  |
-| `c1-l010` | &emsp;*forme à rezão, ou couſa recta, & juſta.* |  |
-| `c1-l011` | Iunguiacu. *Direito, & aueſo. i, Iuſto, &* |  |
+| `c1-l010` | &emsp;*forme à rezão, ou couſa recta, & justa.* |  |
+| `c1-l011` | Iunguiacu. *Direito, & aueſo. i, Iusto, &* |  |
 | `c1-l012` | &emsp;*injuſto. ¶ Item, No Ximo ẽ todo caſo.* |  |
 | `c1-l013` | Iunguina. *Vide* Iungui. |  |
 | `c1-l014` | Iunguiǒ. i, Suguni yuqu. *Ir caminho direi-* |  |
 | `c1-l015` | &emsp;*to. ¶* Tenno junguiǒ guiacuguiǒni- |  |
 | `c1-l016` | &emsp;itarumade. *Em quanto o ceo ſe mouer des* |  |
-| `c1-l017` | &emsp;*do oriente pera opoente, & de hum polo pera* |  |
+| `c1-l017` | &emsp;*do oriente pera o poente, & de hum polo pera* |  |
 | `c1-l018` | &emsp;*o outro. ¶ Item,* Iunguiǒ. *O caminhar* |  |
 | `c1-l019` | &emsp;*pello caminho da virtude.* |  |
 | `c1-l020` | Iǔni fitoye. *Certo veſtido que trazem as* |  |
@@ -38,11 +38,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l022` | Iunji, uru, ita. *Admitir ẽ numero. ¶* Xuc- |  |
 | `c1-l023` | &emsp;qeno curaini junjeraruru. *Ser admitido* |  |
 | `c1-l024` | &emsp;*à dignidade dos religioſos. ¶* Ta coreni |  |
-| `c1-l025` | &emsp;junzu. *As de mais couſasſão como eſtas.* |  |
+| `c1-l025` | &emsp;junzu. *As de mais couſasſão como estas.* |  |
 | `c1-l026` | &emsp;*S. ¶ Item, Correr o ſangue liuremente* |  |
 | `c1-l027` | &emsp;*pollas veas do corpo. Vt,* Chiga jũzuru. |  |
 | `c1-l028` | Iǔniji. *Vt,* Iǔnijichu. i, Iǔnitoqi. *Doze* |  |
-| `c1-l029` | &emsp;*horas do dia, & da noite: cada hũa hora tem* |  |
+| `c1-l029` | &emsp;*horas do dia, & da noite*: *cada hũa hora tem* |  |
 | `c1-l030` | &emsp;*duas, & aßi* Iǔniji, *quer dizer hum dia natu-* |  |
 | `c1-l031` | &emsp;*ral de 24. horas.* |  |
 | `c1-l032` | Iǔnijichǔ. i, *Dentro de 24. horas. i, de dia,* |  |
@@ -74,7 +74,7 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c2-l001` | Iǔno. Touono nô. *Dez artes. Vt,* Iǔnô |  |
-| `c2-l002` | &emsp;xichigueino taxxita fito. i, *Homem con-* |  |
+| `c2-l002` | &emsp;xichigueino taxxita fito. *i*, *Homem con-* |  |
 | `c2-l003` | &emsp;*ſumado em todas as artes.* |  |
 | `c2-l004` | Iunpai. *O correr cõ o Sacazzuqui por ordẽ por* |  |
 | `c2-l005` | &emsp;*cada hũ. Vt,* Sazzuqiuo junpaini ſuru. |  |
@@ -90,15 +90,15 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l015` | &emsp;*veas do corpo.* |  |
 | `c2-l016` | Iunrei. Meguri vogamu. *Peregrino, ou ro-* |  |
 | `c2-l017` | &emsp;*meiro. ¶* Iunrei ſuru. *Peregrinar. Vt,* |  |
-| `c2-l018` | &emsp;Dǒtǒno junrei xite. Feiq. *Lib. 4.* |  |
+| `c2-l018` | &emsp;Dǒtǒuo junrei xite. Feiq. *Lib. 4.* |  |
 | `c2-l019` | &emsp;*Andando em romaria vendo as Teras, ou ermi-* |  |
 | `c2-l020` | &emsp;*das, & torres altas, onde eſtão Fotoques.* |  |
-| `c2-l021` | Iunriǔ. *O correr do ſangue liuremente pelas* |  |
+| `c2-l021` | Iunriǔ. *O correr do ſangue liuremente pellas* |  |
 | `c2-l022` | &emsp;*veas. Palaura de medicos.* |  |
 | `c2-l023` | Iunro. l, jundǒ. *Caminho direito. ¶ Item,* |  |
 | `c2-l024` | &emsp;*per met. Caminho recto, ou caminho da vir-* |  |
 | `c2-l025` | &emsp;*tude. Vt,* Iunrona fito. *Homem recto,* |  |
-| `c2-l026` | &emsp;*& juſto.* |  |
+| `c2-l026` | &emsp;*& justo.* |  |
 | `c2-l027` | Iuntacu. *Abundancia.* |  |
 | `c2-l028` | Iuntacuna. *Couſa abundante. ¶* Yoroz- |  |
 | `c2-l029` | &emsp;zu juntacuna. *Auer tudo em abũdancia.* |  |
