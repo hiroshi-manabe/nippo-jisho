@@ -25,7 +25,7 @@ Lexical cross-check only, after independent scan reading: NINJAL, Entry Words Da
 | `c1-l007` | Iǒgouani. *Adu. Pertinazmente.* |  |
 | `c1-l008` | Iǒgu. Vyeuo motomuru. *Saluação. Vt,* |  |
 | `c1-l009` | &emsp;Iǒgu bǒdaino tçutomeni vocotarazare. |  |
-| `c1-l010` | &emsp;*Não vos deſcuideis no negocio da ſaluação.* S. |  |
+| `c1-l010` | &emsp;*Não vos deſcuideis no negocio da ſaluação. S.* |  |
 | `c1-l011` | Iǒguai. Xirono foca. *Fora da fortaleza.* |  |
 | `c1-l012` | Iǒguan. Vyeno maqi. *Primeiro liuro, ou* |  |
 | `c1-l013` | &emsp;*parte dalgum corpo, & volume de liuro.* |  |
@@ -81,7 +81,7 @@ Lexical cross-check only, after independent scan reading: NINJAL, Entry Words Da
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c2-l001` | Iǒmiǒ. Qiyoqu aqiracana. *Couſa pura, &* |  |
-| `c2-l002` | &emsp;*clara.* S. |  |
+| `c2-l002` | &emsp;*clara. S*. |  |
 | `c2-l003` | Iǒmiǒ. Tçuneni aqiraca nari. *Couſa q̃ ſem-* |  |
 | `c2-l004` | &emsp;*pre està clara.* |  |
 | `c2-l005` | Iômǒ. Yaqi foroboſu. *Queima de caſas.* |  |
@@ -89,7 +89,7 @@ Lexical cross-check only, after independent scan reading: NINJAL, Entry Words Da
 | `c2-l007` | &emsp;*ja queima, ou fogo.* |  |
 | `c2-l008` | Iǒnai. Xirono vchi. *Dentro da fortaleza.* |  |
 | `c2-l009` | Iǒnen. Tçuneni vomô. *O cuidar ſempre, ou* |  |
-| `c2-l010` | &emsp;*penſamentos continuos.* S. |  |
+| `c2-l010` | &emsp;*penſamentos continuos. S.* |  |
 | `c2-l011` | Iǒnet. Vye atçui. *Subir o ſangue à cabeça.* |  |
 | `c2-l012` | Iǒni. *Adu. Muito em cantidade.* |  |
 | `c2-l013` | Iǒno couai. *Duro, & pertinaz.* |  |
@@ -104,7 +104,7 @@ Lexical cross-check only, after independent scan reading: NINJAL, Entry Words Da
 | `c2-l022` | &emsp;ſuru. *Fazer algũa couſa com vigor, & for-* |  |
 | `c2-l023` | &emsp;*ça ſem canſar, nem ceſſar.* |  |
 | `c2-l024` | Iǒqiǒ. Miacoye noboru. *Ir ao Miaco.* |  |
-| `c2-l025` | Iǒqit. *Couſa excellente.* S. |  |
+| `c2-l025` | Iǒqit. *Couſa excellente. S.* |  |
 | `c2-l026` | Iǒquacu. i, Xiro. *Fortaleza. ¶* Iǒqua- |  |
 | `c2-l027` | &emsp;cuuo camayuru. *Cercar, ou fortalecer a* |  |
 | `c2-l028` | &emsp;*fortaleza.* |  |
@@ -123,9 +123,9 @@ Lexical cross-check only, after independent scan reading: NINJAL, Entry Words Da
 | `c2-l041` | &emsp;*ger abreuiar, ou fazer que não ſoẽ algũas* |  |
 | `c2-l042` | &emsp;*pancadas no principio, & aßi em outras cou-* |  |
 | `c2-l043` | &emsp;*ſas.* Chûriacu, Cariacu. *Vide ſuo loco.* |  |
-| `c2-l044` | Iǒriǔ. Naritatçu. *Perfeiçoar.* S |  |
+| `c2-l044` | Iǒriǔ. Naritatçu. *Perfeiçoar. S* |  |
 | `c2-l045` | Iorǒ. *Hũa maneira de bordanſinho curto que* |  |
-| `c2-l046` | &emsp;*ſerue no Zaxiqui aos velhos, & outras peſſoas* |  |
+| `c2-l046` | &emsp;*ſerue no Zaxiqui aos velhos, & outras peßoas* |  |
 | `c2-l047` | &emsp;*ſobre que eſtribão o queixo de baixo.* |  |
 
 ## Gathering signature

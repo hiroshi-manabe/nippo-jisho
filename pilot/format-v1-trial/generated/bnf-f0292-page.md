@@ -75,7 +75,7 @@ Lexical cross-check only, after independent scan reading: NINJAL, Entry Words Da
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c2-l001` | Iǒ, chǔ, gue. Vye, naca, xita. *Couſa ſu-* |  |
-| `c2-l002` | &emsp;*prema, meoã, & infima. ¶ Item, Em* |  |
+| `c2-l002` | &emsp;*prema, meaã, & infima. ¶ Item, Em* |  |
 | `c2-l003` | &emsp;*cima, no meo, em baixo.* |  |
 | `c2-l004` | Iǒco. *Capitão dalgũa fortaleza.* |  |
 | `c2-l005` | Iǒcocu. *Bom reino. i, Onde ha riquezas, &* |  |

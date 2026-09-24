@@ -23,7 +23,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l007` | Iǒſacu. *Obra prima. Vt,* Iǒſacuno cata- |  |
 | `c1-l008` | &emsp;na nari. *He Catana que fez algum inſigne* |  |
 | `c1-l009` | &emsp;*official.* |  |
-| `c1-l010` | Ioſai. *O eſtimar, ou fazer caſo das peſſoas ſe-* |  |
+| `c1-l010` | Ioſai. *O estimar, ou fazer caſo das peſſoas ſe-* |  |
 | `c1-l011` | &emsp;*gundo o grao, & calidade de cada hũa. S.* |  |
 | `c1-l012` | &emsp;*mas na pratica ſe toma em ſentido contrario.* |  |
 | `c1-l013` | &emsp;*Vt,* Ioſaini xenu, l, vomouanu. *Não* |  |
