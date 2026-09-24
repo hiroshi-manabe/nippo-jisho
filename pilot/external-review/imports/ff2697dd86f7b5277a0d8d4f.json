@@ -1,0 +1,229 @@
+{
+  "schema": 2,
+  "package_id": "production-f0357-f0358-f0359-fa0928e8",
+  "input_manifest_sha256": "1b0b2411beaa6e8d841734dd4aae7e8e5db8bb4dd62c12aeb10724618d1eaeea",
+  "reviewer": "GPT-6 Astra Pro (OpenAI); external scan-grounded review, 2026-09-24",
+  "pages": {
+    "bnf-f0357": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c1-l018: Adopted otta instead of OCR ota. The first t is badly abraded; surviving strokes and comparison with the nearby nauotta and otta support the restoration, but the damaged glyph remains a caveat.",
+        "c2-l018: Retained Voſamuru. The word is worn; its surviving contours and the adjoining explanation of a monastic office support this chosen reading."
+      ],
+      "decision_requests": [],
+      "structural_changes": [
+        {
+          "before": [
+            "h2-l001"
+          ],
+          "after": [
+            "h2-l001",
+            "pn-l001"
+          ],
+          "reason": "Separated the running header N ANTES DO A. from the printed page number 179., whose final digit was lost in the provisional OCR; retained the header ID and added a page-number zone."
+        },
+        {
+          "before": [
+            "u2b-l001"
+          ],
+          "after": [
+            "sig-l001",
+            "u2b-l001"
+          ],
+          "reason": "The provisional Vyazes l conflated the centered signature Y y 3, the far-right italic catchword xes, and a vertical rule. Split into signature and catchword zones; retained u2b-l001 for the catchword. The rule is non-textual and is not transcribed as l."
+        }
+      ],
+      "typeface_terms": {
+        "c1-l024": [
+          "Zaxiqui"
+        ],
+        "c2-l008": [
+          "Feiq."
+        ],
+        "c2-l010": [
+          "Vruxi"
+        ],
+        "c2-l046": [
+          "Taif."
+        ]
+      }
+    },
+    "bnf-f0358": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c1-l013: Retained Rocuſara in the Portuguese explanation. The embedded name and its ſ/f distinction are uncertain; the apparent difference from Rocudǒ in the preceding Japanese is not silently harmonized.",
+        "c1-l039: Adopted Mizzuno for the damaged OCR Mizzui o. A surviving stem and available space support a worn n, and the Portuguese gloss supplies the water context. The damaged letter remains a caveat.",
+        "c1-l040: Retained neuoba; the o and b are worn, but their remaining contours support the chosen reading.",
+        "c2-l009: Adopted Peſſoa rather than Piſſoa. The e between P and the long-s pair is weak; surviving detail and the Portuguese definition support the reading.",
+        "c2-l034: Adopted utta instead of OCR uta. The second scan pass revealed the surviving stem and foot of an abraded first t before the clear second t. This is a scan-supported restoration with residual damage uncertainty.",
+        "c2-l036: Adopted xujinno rather than xujiono. The n is abraded; surviving strokes and the Japanese phrase referring to the master support this choice."
+      ],
+      "decision_requests": [],
+      "structural_changes": [
+        {
+          "before": [
+            "h1-l001"
+          ],
+          "after": [
+            "h1-l001"
+          ],
+          "reason": "Restored visible word spaces in the running header N ANTES DO E.; retained the same furniture ID."
+        },
+        {
+          "before": [
+            "h2-l001"
+          ],
+          "after": [
+            "h2-l001"
+          ],
+          "reason": "Restored the visible space between ANTES and DO in the second running header."
+        },
+        {
+          "before": [
+            "c1-l026"
+          ],
+          "after": [
+            "c1-l026"
+          ],
+          "reason": "Restored the omitted enlarged N of NE., marked it initial=2, and removed the erroneous whole-line indent. Extended this line crop downward to include the complete initial; the following physical row and its ID remain unchanged."
+        },
+        {
+          "before": [],
+          "after": [
+            "c2-l046a"
+          ],
+          "reason": "Inserted the omitted final physical body row, les do ferreiro que ſerue de tapar o buraco pera, after c2-l046. It completes fo/les and continues into f359; added its crop and continuation indent without renumbering any existing ID."
+        },
+        {
+          "before": [
+            "u2b-l001"
+          ],
+          "after": [
+            "u2b-l001"
+          ],
+          "reason": "Reclassified the lower-right que as an italic, far-right catchword rather than bold unclassified furniture. It previews the next page and is not an additional body row."
+        }
+      ],
+      "typeface_terms": {
+        "c1-l012": [
+          "Feiq."
+        ],
+        "c1-l013": [
+          "Rocuſara"
+        ],
+        "c1-l041": [
+          "Yax."
+        ],
+        "c2-l017": [
+          "Nebaxi"
+        ],
+        "c2-l029": [
+          "Nebaracaxi"
+        ],
+        "c2-l034": [
+          "Nemuri"
+        ],
+        "c2-l037": [
+          "Fab."
+        ]
+      }
+    },
+    "bnf-f0359": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c1-l017: Adopted colũ- rather than colũi-. The apparent extra i is interpreted as part of the worn final minims of the abbreviated Portuguese word, not as a separate letter.",
+        "c2-l015: Adopted Negimochi rather than Nagimochi. The damaged second letter retains a horizontal trace consistent with e.",
+        "c2-l022: Adopted Negixibori rather than Ne,ixibori. The worn g retains a lower curved trace; the neighboring negi compounds support the identification.",
+        "c2-l035: Retained Nejeri. The central letters are abraded, but their surviving traces support this reading; no modernization to seri has been applied."
+      ],
+      "decision_requests": [],
+      "structural_changes": [
+        {
+          "before": [
+            "h1-l001"
+          ],
+          "after": [
+            "h1-l001"
+          ],
+          "reason": "Restored the visible space between DO and E in the first running header."
+        },
+        {
+          "before": [
+            "h2-l001"
+          ],
+          "after": [
+            "h2-l001",
+            "pn-l001"
+          ],
+          "reason": "Separated the running header N ANTES DO E. from the printed page number 180., misrecognized as IB o. in the provisional OCR. Kept the header ID and added a page-number zone."
+        },
+        {
+          "before": [
+            "c2-l002"
+          ],
+          "after": [
+            "c2-l002"
+          ],
+          "reason": "Restored the visible continuation indentation of the second row of Negutaregami; the physical row and crop assignment are unchanged."
+        },
+        {
+          "before": [
+            "u2b-l001"
+          ],
+          "after": [
+            "u2b-l001"
+          ],
+          "reason": "Reclassified Nemo. as a far-right roman catchword, not bold unclassified furniture; preserved its ID and kept it separate from the final body row."
+        }
+      ],
+      "typeface_terms": {
+        "c1-l002": [
+          "Necogaqi"
+        ],
+        "c1-l018": [
+          "Xi-"
+        ],
+        "c1-l019": [
+          "mo",
+          "Vôdoco"
+        ],
+        "c1-l026": [
+          "Xaca"
+        ],
+        "c1-l027": [
+          "Xaca"
+        ],
+        "c1-l028": [
+          "Xaca"
+        ],
+        "c1-l035": [
+          "camis"
+        ],
+        "c1-l038": [
+          "X."
+        ],
+        "c1-l047": [
+          "P"
+        ],
+        "c2-l001": [
+          "P."
+        ],
+        "c2-l015": [
+          "Mochis"
+        ],
+        "c2-l020": [
+          "Xid."
+        ],
+        "c2-l043": [
+          "Mochis"
+        ]
+      }
+    }
+  }
+}
