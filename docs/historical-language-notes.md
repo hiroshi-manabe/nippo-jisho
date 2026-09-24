@@ -62,6 +62,9 @@ The former phrase-only exception for `Ienuo cubaru` missed these cases.
 This is not a global initial `I` → `J` or `Ie` → ゼ substitution: vocalic
 forms such as `Iye`, `Iua`, and `Iuauo` retain their readings. New lexical
 forms still require contextual interpretation before extending the set.
+Initial `Iui`, however, is consonantal in f295 `Iuiqi` (ジュイキ, life’s
+limit) and `Iuit` (ジュイッ). The NINJAL headword data records these readings;
+the generated guide handles this pattern without altering the printed `I`.
 
 ### 1.2 Register and domain labels
 

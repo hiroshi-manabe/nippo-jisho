@@ -50,7 +50,8 @@ class KanaCorpusTests(unittest.TestCase):
 
     def test_capital_i_as_j_before_different_vowels(self):
         for token, kana in [('Iacǒno', 'ジャコゥノ'), ('Iitai', 'ジタイ'),
-                            ('Iun', 'ジュン'), ('Ienxùs', None),
+                            ('Iun', 'ジュン'), ('Iuiqi', 'ジュイキ'),
+                            ('Iuit', 'ジュイッ'), ('Ienxùs', None),
                             ('Ienxǔ', 'ゼンシュゥ'), ('Iô', 'ジョゥ'),
                             ('Ie', 'イエ'), ('Iua', 'イワ'),
                             ('Iuauo', 'イワヲ'), ('Iye', 'イエ')]:

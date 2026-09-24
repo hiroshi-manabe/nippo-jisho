@@ -54,13 +54,15 @@ def transliterate_token(token: str) -> str | None:
         return None
     text = normalized(token).replace("ſ", "s")
     # Capital I also supplies J before other vowels (Iacǒno, Iun, Iô).
-    # Preserve the established vowel forms Ie and Iu + vowel (Iua = i-wa),
+    # Preserve the established vowel forms Ie, Iua (i-wa), and Iuo (i-wo).
+    # Iui is consonantal, as in Iuiqi (juiki) and Iuit (juit).
     # alongside Iy and internal ii. Initial ie + consonant is consonantal
     # regardless of case; standalone ie retains its vowel reading.
     capital_consonantal_i = (
         token.startswith("I") and vowel_at(text, 1)
         and text != "ie"
-        and not (text.startswith("iu") and vowel_at(text, 2))
+        and not (text.startswith("iu") and vowel_at(text, 2)
+                 and vowel_at(text, 2)[0] != "i")
     )
     initial_ie_before_consonant = (
         text.startswith("ie") and len(text) > 2 and not vowel_at(text, 2)
