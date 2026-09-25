@@ -16,11 +16,11 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c1-l001` | &emsp;uo itaſu. Qir. *Ouindo o mandado do* |  |
 | `c1-l002` | &emsp;*Capitão general, pos, ou gouernou em paz o mũ* |  |
-| `c1-l003` | &emsp;*do. ¶* Deusno gobatuo macari cǒmu- |  |
+| `c1-l003` | &emsp;*do. ¶ D*eusno gobatuo macari cǒmu- |  |
 | `c1-l004` | &emsp;ru. *Receber o pago, ou castigo de Deos por* |  |
 | `c1-l005` | &emsp;*algum crime.* |  |
 | `c1-l006` | Macaricoxi, ſu, oita. *Paßar, ou ir a algum* |  |
-| `c1-l007` | &emsp;*lugar. Vt,* Vazato vonreini macaricoite |  |
+| `c1-l007` | &emsp;*lugar. Vt, V*azato vonreini macaricoite |  |
 | `c1-l008` | &emsp;mǒxi ireôzu. Mon. *Vindo de propoſi-* |  |
 | `c1-l009` | &emsp;*to a vos ver falarei, ou darei as graças.* |  |
 | `c1-l010` | Macaricudari, u, atta. *Decer do Miyaco,* |  |
@@ -95,14 +95,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l015` | &emsp;*os braços.* |  |
 | `c2-l016` | Maccurona. *Couſa muito preta, ou verdadei-* |  |
 | `c2-l017` | &emsp;*ramente preta. ¶* Maccurona detachino |  |
-| `c2-l018` | &emsp;xǔmo gozaru. Mon. *Auia tam bem al-* |  |
+| `c2-l018` | &emsp;xǔmo gozaru. Mon. *Auia tambem al-* |  |
 | `c2-l019` | &emsp;*gũs de trajo todo preto.* |  |
 | `c2-l020` | Maccuroni. *Adu. De preto, ou verdadeira-* |  |
 | `c2-l021` | &emsp;*mente preto, l, rija, ou ſeueramente. Vt,* Mac- |  |
 | `c2-l022` | &emsp;curoni vttayuru. *Acuſar forte, & ſeue-* |  |
 | `c2-l023` | &emsp;*ramente.* |  |
 | `c2-l024` | Machi. *Ruas de caſas que vão continuadas,* |  |
-| `c2-l025` | &emsp;*& enfiadas: & ainda que eſte he o proprio ſẽ* |  |
+| `c2-l025` | &emsp;*& enfiadas*: *& ainda que eſte he o proprio ſẽ* |  |
 | `c2-l026` | &emsp;*tido desta palaura, tambem ſe toma no vulgo* |  |
 | `c2-l027` | &emsp;*por pouoação, villa, ou cidade.* |  |
 | `c2-l028` | Machi. *Neſgas que ſe acrecentão nos calçoẽs* |  |
@@ -122,7 +122,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l042` | &emsp;*dade. Vt,* Sono toxino cururuuo machi- |  |
 | `c2-l043` | &emsp;caneſaxerareta. Yam. *Tinha difficul-* |  |
 | `c2-l044` | &emsp;*dade de eſperar que ſe acabaße o anno.* |  |
-| `c2-l045` | Machicaqe, uru, eta. *Estar á lerta eſperandoi* |  |
+| `c2-l045` | Machicaqe, uru, eta. *Estar á lerta eſperando* i |  |
 | `c2-l046` | &emsp;*Vt,* Monguchi made mina dete vare ſaqin |  |
 | `c2-l047` | &emsp;to machicaqeraruru. Mon. *Saindo todos à* |  |
 
