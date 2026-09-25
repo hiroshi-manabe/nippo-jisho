@@ -20,14 +20,14 @@ Lexical checkpoint after independent scan reading: NINJAL, Entry Words Data of N
 | `c1-l002` | &emsp;*chegaßem, &c.* |  |
 | `c1-l003` | Machicôgi. *Ruas, & traueßas.* |  |
 | `c1-l004` | Machigauo. *Sembrante de quem eſpera.* |  |
-| `c1-l005` | Machijin, l. Machǔdo. *Homem da rua, ou* |  |
+| `c1-l005` | Machijin, *l.* Machǔdo. *Homem da rua, ou* |  |
 | `c1-l006` | &emsp;*morador de pouoação.* |  |
 | `c1-l007` | Machimachi. *Couſa diuerſa, ou differente.* |  |
 | `c1-l008` | &emsp;*Vt,* Qigui machimachini yǔ. *Dizer ca-* |  |
-| `c1-l009` | &emsp;*da hum ſeu parecer diferente.* |  |
+| `c1-l009` | &emsp;*da hum ſeu parecer differente.* |  |
 | `c1-l010` | Machimono. *Couſa que ſe vende na rua, ou* |  |
 | `c1-l011` | &emsp;*tenda. ¶ Item, Couſa de fancaria, ou de* |  |
-| `c1-l012` | &emsp;*corja: o contrario de* Atçurayemono. |  |
+| `c1-l012` | &emsp;*corja*: *o contrario de* Atçurayemono. |  |
 | `c1-l013` | Machimǒqe, uru, eta. *Eſperando alcançar,* |  |
 | `c1-l014` | &emsp;*ou receber. Vt,* Qiacujinuo machimǒqe |  |
 | `c1-l015` | &emsp;ta. *Recebi hum hoſpede que eſperaua.* |  |
@@ -60,7 +60,7 @@ Lexical checkpoint after independent scan reading: NINJAL, Entry Words Data of N
 | `c1-l042` | &emsp;*as manhas.* |  |
 | `c1-l043` | Macomo. *Hũa certa erua de agua doce como* |  |
 | `c1-l044` | &emsp;*bunho.* |  |
-| `c1-l045` | Macomo. Muxiro. *Eſteira feita deſta erua.* |  |
+| `c1-l045` | Macomo. Muxiro. *Esteira feita deſta erua.* |  |
 | `c1-l046` | Macoto. *Verdade.* |  |
 | `c1-l047` | Macotoni. *Adu. Em verdade, certamente.* |  |
 
@@ -79,7 +79,7 @@ Lexical checkpoint after independent scan reading: NINJAL, Entry Words Data of N
 | `c2-l003` | Macotoxij. *Idem.* |  |
 | `c2-l004` | Macotoxiyacani. *Adu. Como de verdade.* |  |
 | `c2-l005` | &emsp;*Vt,* Macoto xiyacani tabacaru. *Enganar* |  |
-| `c2-l006` | &emsp;*a alguẽ fazendo o crir mentira por verdade.* |  |
+| `c2-l006` | &emsp;*a alguẽ fazendo o crèr mentira por verdade.* |  |
 | `c2-l007` | Macu. *Cortinas compridas que ſeruem nas em-* |  |
 | `c2-l008` | &emsp;*barcações, exercitos, autos, &c. ¶* Ma- |  |
 | `c2-l009` | &emsp;cuuo faru. *Eſtender as cortinas nos teatros,* |  |
@@ -87,7 +87,7 @@ Lexical checkpoint after independent scan reading: NINJAL, Entry Words Data of N
 | `c2-l011` | &emsp;*eſtender cortinas no nauio. ¶* Macuuo v. |  |
 | `c2-l012` | &emsp;tçu. *Eſtendelas no exercito.* |  |
 | `c2-l013` | Macubo. *Coua do olho muito metido pera* |  |
-| `c2-l014` | &emsp;*dentro.* B. |  |
+| `c2-l014` | &emsp;*dentro. B.* |  |
 | `c2-l015` | Macubari, u, atta. *Repartir com proporção.* |  |
 | `c2-l016` | &emsp;*Vt,* Ninjuuo macubari auaſuru. *Repar-* |  |
 | `c2-l017` | &emsp;*tir a gente de maneira que fiquem igualmente* |  |

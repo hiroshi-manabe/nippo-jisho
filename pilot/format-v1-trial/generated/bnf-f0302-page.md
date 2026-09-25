@@ -58,7 +58,7 @@ Lexical checkpoint after independent scan reading: NINJAL, Entry Words Data of N
 | `c1-l040` | Maguxi. l, Vmaguxi. *Certo pentem com que* |  |
 | `c1-l041` | &emsp;*penteão, & deſembaração a coma dos caualos.* |  |
 | `c1-l042` | Magicai. *Perto dos olhos.* |  |
-| `c1-l043` | Magicaſa. *Idem.* Magicǒ. *Adu.* |  |
+| `c1-l043` | Magicaſa. I*dem.* Magicǒ. *Adu.* |  |
 | `c1-l044` | Mai. *Historias antigas, como romances pera* |  |
 | `c1-l045` | &emsp;*ſe cantarem, & bailar.* |  |
 | `c1-l046` | Mai, ǒ, ǒta. *Bailar, ou cantar os Mais.* |  |
@@ -77,7 +77,7 @@ Lexical checkpoint after independent scan reading: NINJAL, Entry Words Data of N
 | `c2-l001` | Mai. *Bailo. ¶* Maiuo mǒ. *Cantar os* |  |
 | `c2-l002` | &emsp;*Mais, ou bailar.* |  |
 | `c2-l003` | Mai agari, u. *Subirem algũs paßaros voando* |  |
-| `c2-l004` | &emsp;*em voltas, como bailando: diz ſe particular-* |  |
+| `c2-l004` | &emsp;*em voltas, como bailando*: *diz ſe particular-* |  |
 | `c2-l005` | &emsp;*mente dos falcoẽs, minhotos, &c.* |  |
 | `c2-l006` | Maiban. Banguegotoni. *Todas as tardes.* |  |
 | `c2-l007` | Maibito. *Homem que baila, ou bailador.* |  |
@@ -86,7 +86,7 @@ Lexical checkpoint after independent scan reading: NINJAL, Entry Words Data of N
 | `c2-l010` | Maido. *Homem que baila ao ſom dalgum inſ-* |  |
 | `c2-l011` | &emsp;*trumento muſico.* |  |
 | `c2-l012` | Maido. Tabigotoni. *Todas as vezes.* |  |
-| `c2-l013` | Maifen. Fitoyegotoni. *Todas as vezes.* S. |  |
+| `c2-l013` | Maifen. Fitoyegotoni. *Todas as vezes. S.* |  |
 | `c2-l014` | Maiguat. Tçuqigotoni. *Todos os meſes, ou* |  |
 | `c2-l015` | &emsp;*cada mes.* |  |
 | `c2-l016` | Maigue. *l, Potiùs,* Mayugue. *Sobran-* |  |
@@ -98,12 +98,12 @@ Lexical checkpoint after independent scan reading: NINJAL, Entry Words Data of N
 | `c2-l022` | Maiji. Toqigotoni. *Cada hora.* |  |
 | `c2-l023` | Maijit. Figotoni. *Cada dia.* |  |
 | `c2-l024` | Maimai. *Couſa frequentada, ou amiudada.* |  |
-| `c2-l025` | &emsp;*Vt,* Maimaino gofǒxi catajiqenǒ zǒzu- |  |
+| `c2-l025` | &emsp;*Vt,* Maimaino gofǒxi catajiqenǒ zõzu- |  |
 | `c2-l026` | &emsp;ru. *Agradeçouos muito os frequentes a-* |  |
 | `c2-l027` | &emsp;*gaſalhados, & amor.* |  |
 | `c2-l028` | Maimai. *O que canta, ou entoa hũas hiſtorias* |  |
 | `c2-l029` | &emsp;*como romances a q̃ chamão Mai em Iapão.* |  |
-| `c2-l030` | Mainai. *Varro. Peitas. ¶* Mainaiuo ſu- |  |
+| `c2-l030` | Mainai. *Va*i*ro. Peitas. ¶* Mainaiuo ſu- |  |
 | `c2-l031` | &emsp;ru. *Dar peitas, como pera algum negocio,* |  |
 | `c2-l032` | &emsp;*ou demanda, &c.* |  |
 | `c2-l033` | Mainen. Toxigotoni. *Cada anno.* |  |

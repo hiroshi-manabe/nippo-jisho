@@ -33,7 +33,7 @@ Lexical cross-check after scan reading: NINJAL, Entry Words Data of Nippojisho, 
 | `c1-l015` | &emsp;*acabar de bailar. Vt,* Cocoromo voyo- |  |
 | `c1-l016` | &emsp;banu fodo mai ſumaita. Feiq. *Lib. 2.* |  |
 | `c1-l017` | &emsp;*Bailou melhor do que ſe podia imaginar.* |  |
-| `c1-l018` | Maitan. *Cada menhaam.* S. |  |
+| `c1-l018` | Maitan. *Cada menhaam. S.* |  |
 | `c1-l019` | Maixeqi. Yǔſagotoni. *Todas as tardes.* |  |
 | `c1-l020` | &emsp;*Vt,* Maixeqi idete ſuzumu. *Saindo ca-* |  |
 | `c1-l021` | &emsp;*da tarde tomar o freſco.* |  |
@@ -56,7 +56,7 @@ Lexical cross-check after scan reading: NINJAL, Entry Words Data of Nippojisho, 
 | `c1-l038` | &emsp;*tende.* |  |
 | `c1-l039` | Majinai. *Deprecaçoẽs, & ceremonias gentili-* |  |
 | `c1-l040` | &emsp;*cas, ou feitiçarias.* |  |
-| `c1-l041` | Majinai, ǒ, ota. *Fazer eſtas deprecaçoẽs.* |  |
+| `c1-l041` | Majinai, ǒ, ǒta. *Fazer eſtas deprecaçoẽs.* |  |
 | `c1-l042` | Majiri. *Canto do olho da parte de fora antre as* |  |
 | `c1-l043` | &emsp;*duas pestanas. ¶* Magaxira. *He o ou-* |  |
 | `c1-l044` | &emsp;*tro canto do olho.* |  |
@@ -93,7 +93,7 @@ Lexical cross-check after scan reading: NINJAL, Entry Words Data of Nippojisho, 
 | `c2-l011` | Majita. *De baixo dos olhos. ¶* Majitauo |  |
 | `c2-l012` | &emsp;miru. *Olhar com os olhos pera baixo.* |  |
 | `c2-l013` | Majiuari. *Miſtura. ¶* Majiuariuo fucǒ |  |
-| `c2-l014` | &emsp;ſuru. *Ter ẽtre ſi grãde amizade,* l, *liança.* |  |
+| `c2-l014` | &emsp;ſuru. *Ter ẽtre ſi grãde amizade, l*, *liança.* |  |
 | `c2-l015` | &emsp;*¶* Majiuariuo naſu. *Ter copula carnal.* |  |
 | `c2-l016` | Majiuari, u, atta. *Miſturarſe. ¶* Xequẽ- |  |
 | `c2-l017` | &emsp;no chirini majiuaru. *Miſturarſe, ou an-* |  |

@@ -37,7 +37,7 @@ Lexical cross-check after scan reading: NINJAL, Entry Words Data of Nippojisho, 
 | `c1-l019` | &emsp;*apagada, ou mal aſſentada não ſe lè.* |  |
 | `c1-l020` | Mamevotoco. *P. Homem recto, & ſimples.* |  |
 | `c1-l021` | Mamexi, ſu. *Enfarinhar como Mochis, em fa-* |  |
-| `c1-l022` | &emsp;*rinha de caſtanhas, & mames, &c. ¶ Itẽ,* |  |
+| `c1-l022` | &emsp;*rinha de caſtanhas, & mames, &c. ¶* I*tẽ,* |  |
 | `c1-l023` | &emsp;*Enlodar, ou encher de lama. No Camiſe diz* |  |
 | `c1-l024` | &emsp;*Mabuxi, ſu.* |  |
 | `c1-l025` | Mamexij. *Diligente, & eſperto, ou viuo pera* |  |
@@ -47,7 +47,7 @@ Lexical cross-check after scan reading: NINJAL, Entry Words Data of Nippojisho, 
 | `c1-l029` | Mameyacana. *Peſſoa diligente, & eſperta.* |  |
 | `c1-l030` | &emsp;*¶* Mameyacana fumi. *Carta eſcrita di-* |  |
 | `c1-l031` | &emsp;*ligente, e diffuſamente.* |  |
-| `c1-l032` | Mameyacani. *cõ diligencia, & cuidado. Pala-* |  |
+| `c1-l032` | Mameyacani. *Cõ diligencia, & cuidado. Pala-* |  |
 | `c1-l033` | &emsp;*ura que comummente vſão molheres.* |  |
 | `c1-l034` | Mami. *Hum animal como adibe.* |  |
 | `c1-l035` | Mamiye, uru, eta. *Aparecer, ou mani-* |  |
@@ -88,7 +88,7 @@ Lexical cross-check after scan reading: NINJAL, Entry Words Data of Nippojisho, 
 | `c2-l012` | &emsp;*virtude.* |  |
 | `c2-l013` | Manabigaterani. *Pera aprẽder.* |  |
 | `c2-l014` | Manaca. *Meo Tatami.* |  |
-| `c2-l015` | Manacana. *Letra chamada,* Xin, *ou* Xôſô- |  |
+| `c2-l015` | Manacana. *Letra chamada,* Xin, *ou* Xôſo- |  |
 | `c2-l016` | &emsp;cu, *& outra que chamão,* Cana. |  |
 | `c2-l017` | Manaco. *Olhos. ¶* Gacumonni manaco |  |
 | `c2-l018` | &emsp;uo ſaraſu. *Estar ſempre ſobre o liuro eſtu-* |  |
@@ -108,7 +108,7 @@ Lexical cross-check after scan reading: NINJAL, Entry Words Data of Nippojisho, 
 | `c2-l032` | &emsp;*na cozinha.* |  |
 | `c2-l033` | Manazzuru. *Grou.* |  |
 | `c2-l034` | Manben. *Igualdade. Vt,* Manbenni xe- |  |
-| `c2-l035` | &emsp;yo, l, cubare. *Repartiigualmente.* |  |
+| `c2-l035` | &emsp;yo, *l*, cubare. *Repartiigualmente.* |  |
 | `c2-l036` | Manbet. Manni vacaruru. *Variarſe de mil* |  |
 | `c2-l037` | &emsp;*maneiras. Vt,* Fitono nozomiua xenxa |  |
 | `c2-l038` | &emsp;manbet nari. *O deſejo do homẽ de mil ma-* |  |

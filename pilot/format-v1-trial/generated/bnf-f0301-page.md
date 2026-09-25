@@ -53,11 +53,11 @@ Lexical checkpoint after independent scan reading: NINJAL, Entry Words Data of N
 | `c1-l035` | &emsp;*tenejar. Vt,* Madataqino aida, l, ma. |  |
 | `c1-l036` | &emsp;*Em hum breuißimo eſpaço. ¶* Madataqiuo |  |
 | `c1-l037` | &emsp;ſuru. *Peſtenejar.* |  |
-| `c1-l038` | Made. *Ate: vſaſe com algũa outra compoſi-* |  |
+| `c1-l038` | Made. *Ate*: *vſaſe com algũa outra compoſi-* |  |
 | `c1-l039` | &emsp;*ção. Vt,* Coremade ſanjita. *Vim atequi.* |  |
 | `c1-l040` | Mademo. *Ate. Tẽ eſtes modos, & outros ſeme* |  |
 | `c1-l041` | &emsp;*lhãtes no falar. Vt,* Soremademo gozaranu. |  |
-| `c1-l042` | &emsp;*Ißo não he neceßario. ¶* Qiqumademo go- |  |
+| `c1-l042` | &emsp;I*ßo não he neceßario. ¶* Qiqumademo go- |  |
 | `c1-l043` | &emsp;zanai. *Não he neceßario ouuir.* Mairuma- |  |
 | `c1-l044` | &emsp;demo nai. *Não he neceſſario ir, &c.* |  |
 | `c1-l045` | Mado. *Ianella.* |  |
@@ -85,7 +85,7 @@ Lexical checkpoint after independent scan reading: NINJAL, Entry Words Data of N
 | `c2-l002` | &emsp;*nhoto decà pera là.* |  |
 | `c2-l003` | Madoromi, u, ôda. *Dormir leuemente. Vt,* |  |
 | `c2-l004` | &emsp;Araxiga faguexǔte madoromu cotomo |  |
-| `c2-l005` | &emsp;naqereba, *&c.* Feiq. *Lib. i. Sendo o vẽ-* |  |
+| `c2-l005` | &emsp;naqereba, *&*c*.* Feiq. *Lib. i. Sendo o vẽ-* |  |
 | `c2-l006` | &emsp;*to rijo não auiapoder repouſar, nem dormir* |  |
 | `c2-l007` | &emsp;*hum pouco.* |  |
 | `c2-l008` | Madouaxi, ſu, aita. *Fazer errar no cami-* |  |
@@ -106,7 +106,7 @@ Lexical checkpoint after independent scan reading: NINJAL, Entry Words Data of N
 | `c2-l023` | &emsp;coximo magauanu Ioſephga xǒzocu na- |  |
 | `c2-l024` | &emsp;rito. 2. p. *Gos. He a tunica de Ioſeph ſem* |  |
 | `c2-l024a` | &emsp;*duuida algũa.* |  |
-| `c2-l025` | Magaqi. P. i. Chijſai caqi. *Sebe pequena,* |  |
+| `c2-l025` | Magaqi. *P.* i. Chijſai caqi. *Sebe pequena,* |  |
 | `c2-l026` | &emsp;*ou diuiſão de canas, &c. que ſe faz nas Ni-* |  |
 | `c2-l027` | &emsp;*uas, ou alegretes.* |  |
 | `c2-l028` | Magari, u, atta. *Entortarſe. ¶ Per met.* |  |
@@ -121,7 +121,7 @@ Lexical checkpoint after independent scan reading: NINJAL, Entry Words Data of N
 | `c2-l037` | &emsp;rumaua yocoximani voſazu: riua ma- |  |
 | `c2-l038` | &emsp;guete cotouaru cotonaxi. Xix. *Aßi co-* |  |
 | `c2-l039` | &emsp;*mo o carro não pode ir torto, aßi torcendo a-* |  |
-| `c2-l040` | &emsp;*rezão, não ſe entende.* |  |
+| `c2-l040` | &emsp;*razão, não ſe entende.* |  |
 | `c2-l041` | Maguiracaxi, u, aita. *Emburulhar. Algũas* |  |
 | `c2-l042` | &emsp;*vezes ſe compoem com as raizes de muitos* |  |
 | `c2-l043` | &emsp;*verbos. Vt,* Torimaguiracaſu. *Tomar* |  |
