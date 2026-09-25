@@ -14,7 +14,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | oitçume, ru, eta. *Pedir apertando, ou* |  |
+| `c1-l001` | Coitçume, ru, eta. *Pedir apertando, ou* |  |
 | `c1-l002` | &emsp;*pedir inſtantemente.* |  |
 | `c1-l003` | Coitçu, ſaſuttçu. *Dando, ora pancadas,* |  |
 | `c1-l004` | &emsp;*ora pondo lhe amão pella cabeça, ou afagando.* |  |
