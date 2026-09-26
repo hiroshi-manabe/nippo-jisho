@@ -35,7 +35,7 @@ Lexical cross-check, consulted after independent scan reading: Entry Words Data 
 | `c1-l017` | &emsp;*lhadas, ou ſem ordem. ¶* Mimatçume- |  |
 | `c1-l018` | &emsp;uo ſuru. *Idem.* |  |
 | `c1-l019` | Matçumuxi. *Hum genero de bicho que can-* |  |
-| `c1-l020` | &emsp;*ta como grilo. ¶ Item, Hum bichinho* |  |
+| `c1-l020` | &emsp;*ta como grilo. ¶* I*tem, Hum bichinho* |  |
 | `c1-l021` | &emsp;*que ſe cria nos pinheiros, & canta como grillo* |  |
 | `c1-l022` | &emsp;*ſaudoſamente.* |  |
 | `c1-l023` | Matçunoqi. *Pinheiro.* |  |
@@ -46,7 +46,7 @@ Lexical cross-check, consulted after independent scan reading: Entry Words Data 
 | `c1-l028` | Matçuri, u, utta. *Fazer feſta, ceremonias,* |  |
 | `c1-l029` | &emsp;*ſacrificios, & de precaçoens aos Camis. ¶* I- |  |
 | `c1-l030` | &emsp;cuſagamini chiuo matçuru. *Offerecer, ou* |  |
-| `c1-l031` | &emsp;*ſacrificar ao Cami da guerra oprimeiro ſangue q̃* |  |
+| `c1-l031` | &emsp;*ſacrificar ao Cami da guerra o primeiro ſangue q̃* |  |
 | `c1-l032` | &emsp;*hum derrama dos inimigos. ¶* Tenguuo |  |
 | `c1-l033` | &emsp;matçuri tçuquru. *Fazer entrar ao demo-* |  |
 | `c1-l034` | &emsp;*nio no corpo dalguem com ceremonias, ou* |  |
@@ -82,13 +82,13 @@ Lexical cross-check, consulted after independent scan reading: Entry Words Data 
 | `c2-l006` | Matgo. *Hora da morte. ¶* Matgono ic- |  |
 | `c2-l007` | &emsp;cu. *Sentença, ou outras palauras que hum* |  |
 | `c2-l008` | &emsp;*diz na hora da morte.* |  |
-| `c2-l009` | Matji. Suyeno tera. Tera, *ou varela ſufra-* |  |
+| `c2-l009` | Matji. Suyeno tera. T*era*, *ou varela ſufra-* |  |
 | `c2-l010` | &emsp;*ganea a outra principal como fregueſia em com-* |  |
 | `c2-l011` | &emsp;*paração da ſee.* |  |
 | `c2-l012` | Matji. Suyeno toqi. *Derradeira hora.* |  |
 | `c2-l013` | Mato. *Aluo que ſe poem na barreira. ¶* Ma- |  |
 | `c2-l014` | &emsp;touo iru. *Atirar a o aluo. ¶* Matoni |  |
-| `c2-l015` | &emsp;ataru. *Acertarno aluo. ¶* Matouo ifaz- |  |
+| `c2-l015` | &emsp;ataru. *Acertar no aluo. ¶* Matouo ifaz- |  |
 | `c2-l016` | &emsp;zuſu. *Errar o aluo.* |  |
 | `c2-l017` | Matoba. *Lugar onde atirão à barreira.* |  |
 | `c2-l018` | Matocana. *Couſa redonda, & ſolida como glo-* |  |
@@ -112,14 +112,14 @@ Lexical cross-check, consulted after independent scan reading: Entry Words Data 
 | `c2-l036` | &emsp;*te, & perfeitamente.* |  |
 | `c2-l037` | Mattai. *Couſa inteira. ¶* Qizzu tçucanu |  |
 | `c2-l038` | &emsp;mattai naxiua fitotçumo nai. *Nem hũa* |  |
-| `c2-l039` | &emsp;*ſo pera inteira ſem lesão ficou.* |  |
+| `c2-l039` | &emsp;*ſò pera inteira ſem lesão ficou.* |  |
 | `c2-l040` | Mattô. B. Atama. *Cabeça. ¶* Acu- |  |
 | `c2-l041` | &emsp;ſui mattôni ſoſoqu. *Botar agoa ſuja ſobre* |  |
 | `c2-l042` | &emsp;*a cabeça.* |  |
 | `c2-l043` | Mattô. *Adu. Inteiramente.* |  |
 | `c2-l044` | Matto. *Adu. Hum pouco mais.* |  |
 | `c2-l045` | Mat yô. *Deſendentes. Meliùs,* Bat yô. |  |
-| `c2-l046` | Matza. *Melius,* Batza. Suyeno za. *Der-* |  |
+| `c2-l046` | Matza. *Meliùs,* Batza. Suyeno za. *Der-* |  |
 | `c2-l047` | &emsp;*radeiro aßento do Zaxiqui.* |  |
 
 ## Printed catchword

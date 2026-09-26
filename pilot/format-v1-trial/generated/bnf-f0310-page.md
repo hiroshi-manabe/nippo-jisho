@@ -42,17 +42,17 @@ Lexical cross-check, consulted after independent scan reading: Entry Words Data 
 | `c1-l024` | &emsp;*faz a o redor dalgũa roſeira, ou eruas que dão* |  |
 | `c1-l025` | &emsp;*fulas, &c.* |  |
 | `c1-l026` | Maxegaqi. *Idem.* |  |
-| `c1-l027` | Maxei. Mano iqiuoi. *Furia do demonio.* |  |
+| `c1-l027` | Maxei. *M*ano iqiuoi. *Furia do demonio.* |  |
 | `c1-l028` | Maxi. *Meliùs, Maxira. Bugio.* |  |
-| `c1-l029` | Maxi, ſu, aita. *Exceder, ou ſobrepojar. ¶* Bu- |  |
+| `c1-l029` | Maxi, ſu, aita. *Exceder, ou ſobre pojar. ¶* Bu- |  |
 | `c1-l030` | &emsp;guen cotonofoca maſu. *Ser muito mais* |  |
 | `c1-l031` | &emsp;*rico, & poderoſo que dantes. ¶* Sonata- |  |
 | `c1-l032` | &emsp;no toxiga maxita. *Vos ſois de mais idade,* |  |
 | `c1-l033` | &emsp;*ou mais velho que eu. ¶* Corega maxi- |  |
 | `c1-l034` | &emsp;gia. *l, potiùs, Maxita. Iſto he milhor. ¶* To- |  |
-| `c1-l035` | &emsp;ximaxi. *l,* toximaſari. *Mais velho na idade.* |  |
+| `c1-l035` | &emsp;ximaxi. l*,* toximaſari. *Mais velho na idade.* |  |
 | `c1-l036` | Maxi. *Exceſſo, ou ventagem.* |  |
-| `c1-l037` | Maxiba. P. i, Xiba. *Ramos de aruores, ou* |  |
+| `c1-l037` | Maxiba. *P. i*, Xiba. *Ramos de aruores, ou* |  |
 | `c1-l038` | &emsp;*plantas cortados.* |  |
 | `c1-l039` | Maxico. *Paßarinho aßi chamado, que cãta bẽ.* |  |
 | `c1-l040` | Maximaxi, ſu, xita. *Auer, ſer, eſtar, vir,* |  |
@@ -61,7 +61,7 @@ Lexical cross-check, consulted after independent scan reading: Entry Words Data 
 | `c1-l043` | Maxira. *P.* Saru. *Bugio.* |  |
 | `c1-l044` | Maxiteya. *Quanto mais.* |  |
 | `c1-l045` | Maxiteya iuan. *Quanto mais diremos, &c.* |  |
-| `c1-l046` | Maxi votori. *O ſobrepojar, & ſer ſobrepoja-* |  |
+| `c1-l046` | Maxi votori. *O ſobre pojar, & ſer ſobrepoja-* |  |
 | `c1-l047` | &emsp;*do. ¶* Izzuremo maxivotoriua nai. *Não* |  |
 
 ## Column 2 running header
