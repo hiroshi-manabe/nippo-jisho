@@ -18,23 +18,23 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l002` | Maruyama. *Monte redondo.* |  |
 | `c1-l003` | Maruzaya. *Bainha redonda.* |  |
 | `c1-l004` | Maſa. l, maſame. *Taboas ſerradas de manei-* |  |
-| `c1-l005` | &emsp;*ra q̃ não pareção as veas: comũmente são de hũ* |  |
+| `c1-l005` | &emsp;*ra q̃ não pareção as veas*: *comũmente são de hũ* |  |
 | `c1-l006` | &emsp;*pao como acipreſte. Vide,* Itame. |  |
 | `c1-l007` | Maſacari. *Machado.* |  |
 | `c1-l008` | Maſago. *Area da praya.* |  |
-| `c1-l009` | Maſame. *Vide,* Maſà. l, Itame. |  |
+| `c1-l009` | Maſame. *Vide,* Maſa. l, Itame. |  |
 | `c1-l010` | Maſana. l, maſanano. *Couſa que não he rec-* |  |
 | `c1-l011` | &emsp;*ta nem ſolida, & legitima. ¶* Maſanano |  |
 | `c1-l012` | &emsp;fito. *Homẽ não recto, ou que não he ſolido.* |  |
-| `c1-l013` | Maſani. *Adu. Solida, & rectamẽte.* S. |  |
+| `c1-l013` | Maſani. *Adu. Solida, & rectamẽte. S.* |  |
 | `c1-l014` | Maſaqino cazzura. *Hũa erua de latada co-* |  |
 | `c1-l015` | &emsp;*mo era.* |  |
 | `c1-l016` | Maſari, u, atta. *Sobrepojar, exceder. ¶* Iz- |  |
 | `c1-l017` | &emsp;zuremo maſari, votoriua nai. *Todos e-* |  |
-| `c1-l018` | &emsp;*rão iguais.* Taif. *Lib. 29.* |  |
+| `c1-l018` | &emsp;*rão iguais.* T*ai*f. *Lib. 29.* |  |
 | `c1-l019` | Maſari. *Ventagem, ou exceßo.* |  |
 | `c1-l020` | Maſſauo. *Ser totalmente verde. Vt,* Iro |  |
-| `c1-l021` | &emsp;maſſauoni natta. *Acor ſe lhe fez total-* |  |
+| `c1-l021` | &emsp;maſſauoni natta. *A cor ſe lhe fez total-* |  |
 | `c1-l022` | &emsp;*mente verde.* |  |
 | `c1-l023` | Maſaxij. *Couſa recta, ou verdadeira, & fi-* |  |
 | `c1-l024` | &emsp;*el. ¶* Maſaxij fito. *Homem recto, & fiel.* |  |
@@ -50,7 +50,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l034` | &emsp;votçuru. *Cair com a cabeça pera baixo.* |  |
 | `c1-l035` | Maſſacaſamano. *Couſa totalmente às aueſſas.* |  |
 | `c1-l036` | &emsp;*¶* Maſſacaſamano vttayede atta. *Foi* |  |
-| `c1-l037` | &emsp;*acuſação totalmente ao contrario do que paſou.* |  |
+| `c1-l037` | &emsp;*acuſação totalmente ao contrario do que paßou.* |  |
 | `c1-l038` | Maſsaichǔ. *Meo, vigor, ou força da couſa.* |  |
 | `c1-l039` | &emsp;*Vt,* Iſcuo touoruni Guenpeino caxxẽ maſ |  |
 | `c1-l040` | &emsp;ſaichǔde atta. Yax. *Paßando polla pra* |  |
@@ -72,8 +72,8 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | &emsp;no maſſaqi caqe, vchijini tçucamatçurǒ- |  |
-| `c2-l002` | &emsp;zu. Yax. *Indo na dianteira, ou diante de* |  |
+| `c2-l001` | &emsp;no maſſaqi *c*aqe, vchijini tçucamatçurǒ- |  |
+| `c2-l002` | &emsp;zu. Yax. I*ndo na dianteira, ou diante de* |  |
 | `c2-l003` | &emsp;*meu ſenhor ei de morrer pelejando.* |  |
 | `c2-l004` | Maſsǒ. *Adu. Aßi he, tendes rezão.* |  |
 | `c2-l005` | Maſſoba. *Muito perto. Vt,* Maſſobani iru. |  |
@@ -90,7 +90,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l016` | Maſu maſu. *Hũa vez, & outra mais, &* |  |
 | `c2-l017` | &emsp;*mais.* |  *(limpo.* |
 | `c2-l019` | Maſumino cagami. *P. Eſpelho claro, &* |  |
-| `c2-l020` | Maſurauo. P. i, Yamano reôxi. *Homem* |  |
+| `c2-l020` | Maſurauo. *P.* i, Yamano reôxi. *Homem* |  |
 | `c2-l021` | &emsp;*do mato, ou caçador.* |  |
 | `c2-l022` | Mata. *Adu. Mais outra vez.* |  |
 | `c2-l023` | Mata. *Abertura como dantre os dedos, ou das* |  |
@@ -107,12 +107,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l034` | &emsp;*pernas, ou pees. Vt,* Axiuo mataguete a- |  |
 | `c2-l035` | &emsp;yumu. *Ir com paſſos largos.* |  |
 | `c2-l036` | Matagura. *Diuiſão, ou arreigada das pernas.* |  |
-| `c2-l037` | &emsp;*¶* Futamata. *Forquilha de duas pontas.* |  |
+| `c2-l037` | &emsp;*¶ F*utamata. *Forquilha de duas pontas.* |  |
 | `c2-l038` | &emsp;*¶* Mitçumata. *Forquilha de tres pontas.* |  |
 | `c2-l039` | Matagui. *Pao como forquilha.* |  |
 | `c2-l040` | Matai. *Candido, ſimples, & recto.* |  |
 | `c2-l041` | Mata itoco. *Primos ſegundos.* |  |
-| `c2-l042` | Matane. P. *O tornar a dormir outra vez.* |  |
+| `c2-l042` | Matane. *P. O tornar a dormir outra vez.* |  |
 | `c2-l043` | Matano toxi. i, Nochino toxi. *Outro an-* |  |
 | `c2-l044` | &emsp;*no, ou anno que vem.* |  |
 | `c2-l045` | Matatabi. *Hũa fruita de hũa certa era que ſerue* |  |
