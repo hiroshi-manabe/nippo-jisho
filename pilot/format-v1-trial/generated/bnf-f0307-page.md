@@ -58,7 +58,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l042` | Maqiye. *Pintura de ouro moido em pò.* |  |
 | `c1-l043` | Maqiyexi. *O que pinta, ou faz pinturas com* |  |
 | `c1-l044` | &emsp;*ouro em pò.* |  |
-| `c1-l045` | Mara. l, nancon. *Virga genitalis.* B. |  |
+| `c1-l045` | Mara. l, nancon. *Virga genitalis. B.* |  |
 | `c1-l046` | Mare. l, marena. *Couſa rara.* |  |
 | `c1-l047` | Mareni. *Adu. Raramente.* |  |
 | `c1-l048` | Mari. *Pela. ¶* Mariuo qeru. *Iugar à* |  |
@@ -79,7 +79,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | &emsp;*pela cõ opè. ¶* Mariga fazzumu. *Apela* |  |
+| `c2-l001` | &emsp;*pela cõ o pè. ¶* Mariga fazzumu. *Apela* |  |
 | `c2-l002` | &emsp;*torna aſaltar pera cima depois de dar no chaõ.* |  |
 | `c2-l003` | Marigaqi. *Sebe pera naõ ſaltar a pela fora.* |  |
 | `c2-l004` | Marobi, u, ôda. *Cair no chaõ. Vt,* Corobi |  |
