@@ -93,8 +93,21 @@ class InboxTests(unittest.TestCase):
             unpushed = reports / 'issue-19.json'
             unpushed.write_text(json.dumps({'status': 'publication_pending', 'commit': 'c' * 40, 'pushed': False}))
             ledger = {}
-            with patch('process_correction_issue.resume_publication') as resume:
+            with patch('process_correction_issue.resume_publication') as resume, \
+                 patch.object(inbox, 'run', return_value=json.dumps({'state': 'closed'})):
                 inbox.recover_closures(ledger, {19}, reports)
             resume.assert_not_called()
             self.assertEqual(json.loads(closed.read_text())['status'], 'closed')
             self.assertEqual(ledger['closures']['19']['status'], 'manual_publication_check')
+
+    def test_open_issue_overrides_inaccurate_local_closed_report(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            reports = Path(tmp)
+            path = reports / 'issue-17.json'
+            path.write_text(json.dumps({'status': 'closed', 'commit': 'a' * 40, 'pushed': True}))
+            ledger = {'jobs': {'issue:17:old': {'kind': 'issue', 'number': 17, 'status': 'failed'}}}
+            with patch('process_correction_issue.resume_publication', side_effect=RuntimeError('temporary')) as resume:
+                inbox.recover_closures(ledger, {17}, reports)
+            resume.assert_called_once_with(17)
+            self.assertEqual(json.loads(path.read_text())['status'], 'publication_pending')
+            self.assertEqual(ledger['closures']['17']['status'], 'retry_pending')

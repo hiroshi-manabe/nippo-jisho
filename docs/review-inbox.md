@@ -56,8 +56,10 @@ cycle checks the published corpus for the Issue's correction history and for a
 commit descended from the recorded application commit, then retries only Issue
 closure. It never reapplies the correction. Closure attempts and errors appear
 under `closures` in the ledger and status file; one failure does not block other
-work. If the Issue was closed separately, the runner marks the pending report
-closed without posting another comment. An unconfirmed push is **not** retried
+work. If the Issue was closed separately, the runner confirms its state directly
+before marking the pending report closed without posting another comment. An
+open Issue with a failed application record overrides an inaccurate local
+`closed` report. An unconfirmed push is **not** retried
 automatically: inspect and publish it manually first. Keep the local
 `build/correction-issues/` reports until pending closures are resolved.
 

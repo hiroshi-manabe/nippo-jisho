@@ -69,6 +69,13 @@ def recover_closures(ledger, open_numbers, reports):
     from process_correction_issue import resume_publication
 
     closures = ledger.setdefault('closures', {})
+    def was_failed_application(number):
+        return any(
+            job.get('kind') == 'issue' and job.get('number') == number
+            and job.get('status') == 'failed'
+            for job in ledger.get('jobs', {}).values()
+        )
+
     def mark_recovered(number):
         for job in ledger.get('jobs', {}).values():
             if job.get('kind') == 'issue' and job.get('number') == number and job.get('status') == 'failed':
@@ -77,16 +84,28 @@ def recover_closures(ledger, open_numbers, reports):
     for path in sorted(reports.glob('issue-*.json')):
         try:
             report = json.loads(path.read_text())
+            number = int(path.stem.removeprefix('issue-'))
+            if report.get('status') == 'closed' and number in open_numbers and was_failed_application(number):
+                # A prior, incomplete closure must not hide an open Issue.
+                report['status'] = 'publication_pending'
+                save(path, report)
             if report.get('status') != 'publication_pending':
                 continue
-            number = int(path.stem.removeprefix('issue-'))
             record = closures.setdefault(str(number), {})
             record['commit'] = report.get('commit')
             if number not in open_numbers:
-                report['status'] = 'closed'
-                save(path, report)
-                record.update(status='closed', reason='Already closed on GitHub')
-                mark_recovered(number)
+                # A list response may omit an Issue transiently. Confirm its
+                # actual state before considering publication complete.
+                try:
+                    issue = json.loads(run('gh', 'api', f'repos/hiroshi-manabe/nippo-jisho/issues/{number}'))
+                    if issue['state'] != 'closed':
+                        raise ValueError('Issue is still open')
+                    report['status'] = 'closed'
+                    save(path, report)
+                    record.update(status='closed', reason='Already closed on GitHub')
+                    mark_recovered(number)
+                except Exception as exc:
+                    record.update(status='retry_pending', last_error=str(exc))
             elif not report.get('pushed'):
                 record.update(status='manual_publication_check', reason='Push was not confirmed')
             else:
