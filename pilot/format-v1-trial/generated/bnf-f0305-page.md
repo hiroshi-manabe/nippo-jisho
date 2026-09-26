@@ -50,7 +50,7 @@ Lexical cross-check after scan reading: NINJAL, Entry Words Data of Nippojisho, 
 | `c1-l032` | Mangiǔya. *Caſa onde fazem, ou vendem eſ-* |  |
 | `c1-l033` | &emsp;*tes pãis.* |  |
 | `c1-l034` | Manguat. Tçuqi mitçuru. *Lũa chea. Vt,* |  |
-| `c1-l035` | &emsp;Maguatno yamauo izzuruga gotoxi. *Aſ-* |  |
+| `c1-l035` | &emsp;Mãguatno yamauo izzuruga gotoxi. *Aſ-* |  |
 | `c1-l036` | &emsp;*ſi como a lũa chea aponta por cima dos mõtes.* |  |
 | `c1-l037` | Manguei. Yorozzuno guei. *Todas as artes.* |  |
 | `c1-l038` | Manguet. i, Manguat. *Lũa chea.* |  |
@@ -102,7 +102,7 @@ Lexical cross-check after scan reading: NINJAL, Entry Words Data of Nippojisho, 
 | `c2-l020` | &emsp;*¶* Mannô ixxin. *Ainda que haja mil artes* |  |
 | `c2-l021` | &emsp;*boas em hũ homẽ, ſe elle he ruim, ou tem ruins* |  |
 | `c2-l022` | &emsp;*manhas não aproueita nada.* |  |
-| `c2-l023` | Manqei. *Todas as boas viſtas. Vt,* Xenqei |  |
+| `c2-l023` | M*a*nqei. *Todas as boas viſtas. Vt,* Xenqei |  |
 | `c2-l024` | &emsp;manqei. *Idem.* |  |
 | `c2-l025` | Manqi. *Soberba. ¶* Manqiuo vocoſu. |  |
 | `c2-l026` | &emsp;*Enſoberbecerſe. ¶* Mãqini focoru. *A-* |  |
