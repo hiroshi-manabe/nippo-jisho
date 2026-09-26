@@ -832,26 +832,61 @@ def wait_for_deployment(commit: str, repository: str, root: Path) -> str:
     return run_id
 
 
-def verify_deployment(report: dict, commit: str, pages_url: str) -> None:
+def verify_deployment(report: dict, commit: str, pages_url: str, root: Path = ROOT) -> None:
     if "pages" in report:
         for page in report["pages"]:
-            verify_deployment(page, commit, pages_url)
+            verify_deployment(page, commit, pages_url, root)
         return
     with urlopen(pages_url, timeout=30) as response:
         corpus = json.load(response)
-    if corpus.get("commit") != commit:
-        raise IssueProcessingError(
-            f"deployed corpus is at {corpus.get('commit')}, expected {commit}"
-        )
-    page = next(
-        (item for item in corpus["pages"] if item["page_id"] == report["page_id"]),
-        None,
-    )
-    if page is None or not any(
+    deployed = corpus.get("commit")
+    if not isinstance(deployed, str) or not re.fullmatch(r"[0-9a-f]{40}", deployed):
+        raise IssueProcessingError(f"invalid deployed corpus commit {deployed!r}")
+    # A later deployment may supersede the Issue's own run. Its correction
+    # history is still valid evidence if it descends from the applied commit.
+    if deployed != commit:
+        run(["git", "merge-base", "--is-ancestor", commit, deployed], root=root)
+    if not any(
         item["number"] == report["issue"]
+        for page in corpus["pages"] if page["page_id"] == report["page_id"]
         for item in page["corrections"].get("issues", [])
     ):
-        raise IssueProcessingError("deployed correction history does not contain the Issue")
+        raise IssueProcessingError(
+            "deployed correction history does not contain the Issue"
+        )
+
+
+def resume_publication(
+    issue_number: int,
+    *,
+    root: Path = ROOT,
+    pages_url: str = PAGES_URL,
+) -> dict:
+    """Finish only verification/closure; never reapply an already committed Issue."""
+    path = report_path(issue_number, root)
+    report = load_json(path)
+    if report.get("status") != "publication_pending" or not report.get("commit"):
+        raise IssueProcessingError(f"Issue #{issue_number} has no pending publication")
+    if not report.get("pushed"):
+        raise IssueProcessingError("commit was not confirmed pushed; manual publication check required")
+    commit = report["commit"]
+    verify_deployment(report, commit, pages_url, root)
+    accepted_count = len(report["accepted_lines"]) if "accepted_lines" in report else sum(
+        len(child.get("applied_unflagged", []))
+        for child in report.get("pages", [report])
+    )
+    note = (
+        f"Applied {accepted_count} submitted correction(s) in commit "
+        f"{commit[:7]}. Correction notation was resolved before writing Level 1 text. "
+        "Tests and the deployed corpus verification passed. Any deferred second-opinion requests remain in the page's pending-question records; closure means applied, not AI-endorsed."
+    )
+    run(
+        ["gh", "issue", "close", str(issue_number), "--repo", report["repository"],
+         "--comment", note], root=root,
+    )
+    report["status"] = "closed"
+    write_json(path, report)
+    return report
 
 
 def finalize(
@@ -910,36 +945,15 @@ def finalize(
         root=root,
     )
     commit = run(["git", "rev-parse", "HEAD"], root=root, capture=True).strip()
-    run(["git", "push", "origin", branch], root=root)
-    workflow_run = wait_for_deployment(commit, report["repository"], root)
-    verify_deployment(report, commit, pages_url)
-    note = (
-        f"Applied {len(accepted)} submitted correction(s) in commit "
-        f"{commit[:7]}. Correction notation was resolved before writing Level 1 text. "
-        "Tests and the deployed corpus verification passed. Any deferred second-opinion requests remain in the page's pending-question records; closure means applied, not AI-endorsed."
-    )
-    run(
-        [
-            "gh",
-            "issue",
-            "close",
-            str(issue_number),
-            "--repo",
-            report["repository"],
-            "--comment",
-            note,
-        ],
-        root=root,
-    )
-    report.update(
-        {
-            "status": "closed",
-            "commit": commit,
-            "workflow_run": int(workflow_run),
-        }
-    )
+    report.update(status="publication_pending", commit=commit, pushed=False)
     write_json(path, report)
-    return report
+    run(["git", "push", "origin", branch], root=root)
+    report["pushed"] = True
+    write_json(path, report)
+    workflow_run = wait_for_deployment(commit, report["repository"], root)
+    report["workflow_run"] = int(workflow_run)
+    write_json(path, report)
+    return resume_publication(issue_number, root=root, pages_url=pages_url)
 
 
 def process_issue(args: argparse.Namespace) -> int:

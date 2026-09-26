@@ -14,13 +14,65 @@ from scripts.process_correction_issue import (
     parse_correction_notation,
     prepare,
     report_path,
+    resume_publication,
     update_history,
     validate_payload,
+    verify_deployment,
 )
 from scripts.compile_level1_markdown import export_markdown, parse_markdown
 
 
 class CorrectionIssueProcessorTests(unittest.TestCase):
+    def test_resume_publication_verifies_then_closes_without_reapplying(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            report = {
+                'status': 'publication_pending', 'issue': 17,
+                'repository': 'example/test', 'commit': 'a' * 40,
+                'pushed': True, 'accepted_lines': ['c1-l001'],
+            }
+            path = report_path(17, root)
+            path.parent.mkdir(parents=True)
+            path.write_text(json.dumps(report))
+            with (mock.patch('scripts.process_correction_issue.verify_deployment') as verify,
+                  mock.patch('scripts.process_correction_issue.run') as run):
+                result = resume_publication(17, root=root, pages_url='https://example.test/corpus.json')
+            verify.assert_called_once()
+            self.assertEqual(run.call_args.args[0][:4], ['gh', 'issue', 'close', '17'])
+            self.assertEqual(result['status'], 'closed')
+            self.assertEqual(json.loads(path.read_text())['status'], 'closed')
+
+    def test_resume_publication_does_not_close_without_verified_deployment(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            path = report_path(17, root)
+            path.parent.mkdir(parents=True)
+            path.write_text(json.dumps({'status': 'publication_pending', 'issue': 17,
+                                        'repository': 'example/test', 'commit': 'a' * 40,
+                                        'pushed': True, 'accepted_lines': []}))
+            with (mock.patch('scripts.process_correction_issue.verify_deployment', side_effect=IssueProcessingError('not deployed')),
+                  mock.patch('scripts.process_correction_issue.run') as run):
+                with self.assertRaisesRegex(IssueProcessingError, 'not deployed'):
+                    resume_publication(17, root=root)
+            run.assert_not_called()
+            self.assertEqual(json.loads(path.read_text())['status'], 'publication_pending')
+
+    def test_newer_deployment_can_verify_older_applied_commit(self):
+        class Response:
+            def __enter__(self):
+                return self
+            def __exit__(self, *_):
+                return False
+            def read(self):
+                return json.dumps({'commit': 'b' * 40, 'pages': [
+                    {'page_id': 'bnf-f0300', 'corrections': {'issues': [{'number': 17}]}}
+                ]}).encode()
+        report = {'page_id': 'bnf-f0300', 'issue': 17}
+        with (mock.patch('scripts.process_correction_issue.urlopen', return_value=Response()),
+              mock.patch('scripts.process_correction_issue.run') as run):
+            verify_deployment(report, 'a' * 40, 'https://example.test/corpus.json')
+        self.assertEqual(run.call_args.args[0][:3], ['git', 'merge-base', '--is-ancestor'])
+
     def test_explicit_empty_review_counts_issue_not_lines(self):
         payload = {'schema': 3, 'page': 'f14', 'base_commit': 'abc',
                    'base_transcription_version': 'sha256:abc', 'changes': []}

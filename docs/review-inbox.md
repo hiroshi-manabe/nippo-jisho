@@ -46,8 +46,20 @@ worktree. Coordinate ordinary editing with this pause gate.
 The persistent ledger and per-attempt logs live in `exports/review-inbox/`.
 `status.json` gives the compact status. Each Issue number plus title/body hash,
 or result-file SHA-256, is attempted at most once. Changed input gets a new
-attempt; unchanged failures are never retried. Interrupted attempts require
-manual inspection. Do not delete the ledger as routine cleanup.
+attempt; unchanged **application** failures are never retried. Interrupted
+attempts require manual inspection. Do not delete the ledger as routine cleanup.
+
+After an Issue's correction commit is created, its preparation report records
+`publication_pending`, the commit, and whether its push was confirmed. A failed
+deployment check or GitHub close request leaves this state intact. Every later
+cycle checks the published corpus for the Issue's correction history and for a
+commit descended from the recorded application commit, then retries only Issue
+closure. It never reapplies the correction. Closure attempts and errors appear
+under `closures` in the ledger and status file; one failure does not block other
+work. If the Issue was closed separately, the runner marks the pending report
+closed without posting another comment. An unconfirmed push is **not** retried
+automatically: inspect and publish it manually first. Keep the local
+`build/correction-issues/` reports until pending closures are resolved.
 
 Issues use the ordinary process command, including deployment verification and
 closure. Messages and second-opinion requests do not prevent application: the

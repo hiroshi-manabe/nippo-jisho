@@ -64,6 +64,45 @@ def needs_human(value):
     return isinstance(value, list) and any(needs_human(v) for v in value)
 
 
+def recover_closures(ledger, open_numbers, reports):
+    """Retry only the remote tail of committed Issues, not their corrections."""
+    from process_correction_issue import resume_publication
+
+    closures = ledger.setdefault('closures', {})
+    def mark_recovered(number):
+        for job in ledger.get('jobs', {}).values():
+            if job.get('kind') == 'issue' and job.get('number') == number and job.get('status') == 'failed':
+                job.update(status='succeeded', recovered_after_closure=True)
+
+    for path in sorted(reports.glob('issue-*.json')):
+        try:
+            report = json.loads(path.read_text())
+            if report.get('status') != 'publication_pending':
+                continue
+            number = int(path.stem.removeprefix('issue-'))
+            record = closures.setdefault(str(number), {})
+            record['commit'] = report.get('commit')
+            if number not in open_numbers:
+                report['status'] = 'closed'
+                save(path, report)
+                record.update(status='closed', reason='Already closed on GitHub')
+                mark_recovered(number)
+            elif not report.get('pushed'):
+                record.update(status='manual_publication_check', reason='Push was not confirmed')
+            else:
+                record['attempts'] = record.get('attempts', 0) + 1
+                record['last_attempted_at'] = time.time()
+                try:
+                    resume_publication(number)
+                    record.update(status='closed', reason='Deployment verified and Issue closed')
+                    record.pop('last_error', None)
+                    mark_recovered(number)
+                except Exception as exc:
+                    record.update(status='retry_pending', last_error=str(exc))
+        except (OSError, ValueError, json.JSONDecodeError) as exc:
+            ledger.setdefault('closure_discovery_errors', {})[str(path)] = str(exc)
+
+
 def cycle():
     from process_correction_issue import extract_payload
     STATE.mkdir(parents=True, exist_ok=True)
@@ -86,15 +125,20 @@ def cycle():
             if job['status'] == 'running':
                 job['status'] = 'interrupted_needs_manual_check'
         jobs = discover_results(INCOMING, ledger, time.time())
+        open_numbers = None
         try:
             issues = json.loads(run('gh', 'api', '--paginate', '--slurp', 'repos/hiroshi-manabe/nippo-jisho/issues?state=open&sort=created&direction=asc&per_page=100'))
-            for issue in (i for page in issues for i in page if 'pull_request' not in i):
+            open_issues = [i for page in issues for i in page if 'pull_request' not in i]
+            open_numbers = {issue['number'] for issue in open_issues}
+            for issue in open_issues:
                 # Our own comments/status edits do not create a new attempt.
                 identity = digest((issue['title'] + '\n' + (issue['body'] or '')).encode())
                 jobs.insert(0, (f'issue:{issue["number"]}:{identity}', {'kind': 'issue', 'number': issue['number'], 'body': issue['body'] or ''}))
             ledger.pop('discovery_error', None)
         except Exception as exc:
             ledger['discovery_error'] = str(exc)
+        if open_numbers is not None:
+            recover_closures(ledger, open_numbers, ROOT / 'build/correction-issues')
         jobs.sort(key=lambda item: (item[1]['kind'] != 'issue', item[1].get('number', 0), item[0]))
         # Overlay jobs are appended only after discovery of higher-priority work.
         # At most one page per cycle, and never retry an unchanged failed input.
@@ -164,7 +208,7 @@ def cycle():
         questions = json.loads(questions_path.read_text())['pages'] if questions_path.exists() else {}
         pending = {pid: len([q for q in items if q.get('status') == 'pending']) for pid, items in questions.items()}
         pending = {pid: count for pid, count in pending.items() if count}
-        save(STATE / 'status.json', {'jobs': summary, 'pending_questions': pending, 'paused': ledger.get('paused'), 'discovery_error': ledger.get('discovery_error')})
+        save(STATE / 'status.json', {'jobs': summary, 'closures': ledger.get('closures', {}), 'pending_questions': pending, 'paused': ledger.get('paused'), 'discovery_error': ledger.get('discovery_error')})
         print(json.dumps({'jobs': summary, 'paused': ledger.get('paused'), 'discovery_error': ledger.get('discovery_error')}, indent=2))
 
 

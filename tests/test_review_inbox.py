@@ -69,3 +69,32 @@ class InboxTests(unittest.TestCase):
                 first = (folder / 'state/ledger.json').read_text()
                 inbox.cycle()
                 self.assertEqual(first, (folder / 'state/ledger.json').read_text())
+
+    def test_pending_closure_retries_without_reapplying(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            reports = Path(tmp)
+            path = reports / 'issue-17.json'
+            path.write_text(json.dumps({'status': 'publication_pending', 'commit': 'a' * 40, 'pushed': True}))
+            ledger = {'jobs': {'issue:17:old': {'kind': 'issue', 'number': 17, 'status': 'failed'}}}
+            with patch('process_correction_issue.resume_publication', side_effect=[RuntimeError('HTTP 502'), {'status': 'closed'}]) as resume:
+                inbox.recover_closures(ledger, {17}, reports)
+                self.assertEqual(ledger['closures']['17']['status'], 'retry_pending')
+                inbox.recover_closures(ledger, {17}, reports)
+                self.assertEqual(ledger['closures']['17']['status'], 'closed')
+                self.assertEqual(ledger['closures']['17']['attempts'], 2)
+                self.assertEqual(resume.call_count, 2)
+                self.assertEqual(ledger['jobs']['issue:17:old']['status'], 'succeeded')
+
+    def test_closed_or_unpushed_issue_is_not_retried(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            reports = Path(tmp)
+            closed = reports / 'issue-18.json'
+            closed.write_text(json.dumps({'status': 'publication_pending', 'commit': 'b' * 40, 'pushed': True}))
+            unpushed = reports / 'issue-19.json'
+            unpushed.write_text(json.dumps({'status': 'publication_pending', 'commit': 'c' * 40, 'pushed': False}))
+            ledger = {}
+            with patch('process_correction_issue.resume_publication') as resume:
+                inbox.recover_closures(ledger, {19}, reports)
+            resume.assert_not_called()
+            self.assertEqual(json.loads(closed.read_text())['status'], 'closed')
+            self.assertEqual(ledger['closures']['19']['status'], 'manual_publication_check')
