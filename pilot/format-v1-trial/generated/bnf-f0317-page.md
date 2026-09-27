@@ -35,7 +35,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l019` | &emsp;*do por cima de taboas, &c.* |  |
 | `c1-l020` | Merimerito. *Modo de ſoar couſa que ſe quebra,* |  |
 | `c1-l021` | &emsp;*ou parte.* |  |
-| `c1-l022` | Mero. *Moça de ſeruiço.* |  |
+| `c1-l022` | Merǒ. *Moça de ſeruiço.* |  |
 | `c1-l023` | Meſamaxi. *O eſpertar, ou abrir os olhos do ſono.* |  |
 | `c1-l024` | Meſamaxij, l, meſamaxij coto. *Couſa no-* |  |
 | `c1-l025` | &emsp;*ua, ou extraordinaria a que hum aduirte, como* |  |
@@ -51,9 +51,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l035` | &emsp;uo meſareyo. Yax. *Antes que ſe faça* |  |
 | `c1-l036` | &emsp;*noite, tomai pouſada.* |  |
 | `c1-l037` | Meſarenaxi, ſu, aita. *Fazer que ſaya, ou a-* |  |
-| `c1-l038` | &emsp;*conteça aßi. Vt,* Nacaraidono yono fǒy |  |
+| `c1-l038` | &emsp;*conteça aßi. Vt,* Nacaraidono yono fõy |  |
 | `c1-l039` | &emsp;uo ſomuqu yǒni meſarenaite, &c. *Fazẽ* |  |
-| `c1-l040` | &emsp;*do que faltaſte nos cõprimentos deuidos pera cõ* |  |
+| `c1-l040` | &emsp;*do que faltaße nos cõprimentos deuidos pera cõ* |  |
 | `c1-l041` | &emsp;Nacaraidono. |  |
 | `c1-l042` | Met. *Deſtruição. Vt,* Meſſuru. *Deſtruirſe.* |  |
 | `c1-l043` | Metametato. *Adu. Modo de a cometer, ou* |  |
@@ -76,7 +76,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l002` | Metçuqe. *Eſpia. Vt,* Metçuqeuo ſuru. |  |
 | `c2-l003` | &emsp;*Eſpiar. ¶* Metçuqeuo yaru. *Mandar* |  |
 | `c2-l004` | &emsp;*eſpias. ¶* Metçuqeni mairu. *Vir por eſpia.* |  |
-| `c2-l005` | Metdeqi. *Acabar, ou deſtruirſe.* S. |  |
+| `c2-l005` | Metdeqi. *Acabar, ou deſtruirſe. S.* |  |
 | `c2-l006` | Metdo. *Morte de Fotoque.* Bup. |  |
 | `c2-l007` | Mete. i, Migui. *Mão direita. ¶* Yũde me- |  |
 | `c2-l008` | &emsp;teni ainarabu. *Porſe igualmente aparte* |  |
@@ -89,11 +89,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l015` | &emsp;*ou deſtruição.* |  |
 | `c2-l016` | Metjin. Mexxi tçuquru. i, Cotogotocu |  |
 | `c2-l017` | &emsp;meſſuru. *Total deſtruição.* |  |
-| `c2-l018` | Metqiacu. l, *potius.* Mecqiacu. *Idem.* |  |
+| `c2-l018` | Metqiacu. l, *potiùs.* Mecqiacu. *Idem.* |  |
 | `c2-l019` | Metometo. *Adu. Modo de olhar hum pera* |  |
 | `c2-l020` | &emsp;*outro com os olhos fitos. Vt,* Metometo |  |
 | `c2-l021` | &emsp;miauaſuru. *Olhar hum pera outro com os* |  |
-| `c2-l022` | &emsp;*olhos fitos.* |  *( caſar ſe.* |
+| `c2-l022` | &emsp;*olhos fitos.* |  *( caſarſe.* |
 | `c2-l023` | Metori, u. *O tomar o homem molher, ou* |  |
 | `c2-l024` | Metzai. Tçumiuo meſſuru. *Deſtruição do* |  |
 | `c2-l025` | &emsp;*peccado. Vt,* Metzai xǒjenno cudocu |  |

@@ -25,7 +25,7 @@ Lexical aid: the supplied Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshi
 | `c1-l007` | &emsp;*a outras algũa peſſoa nobre.* |  |
 | `c1-l008` | Mexicayexi, ſu, ita. *Tornar adar, ou reſti-* |  |
 | `c1-l009` | &emsp;*tuir. Vt,* Fonriǒuoba mexicayeſareta. |  |
-| `c1-l010` | &emsp;Xid. *Tornoulhe ſeu Riǒchi, ou renda.* |  |
+| `c1-l010` | &emsp;Xid. T*ornoulhe ſeu Riǒchi, ou renda.* |  |
 | `c1-l011` | &emsp;*¶ Item, Tornar a chamar.* |  |
 | `c1-l012` | Mexicome, uru, eta. *Ter a alguem preſo, ou* |  |
 | `c1-l013` | &emsp;*cercado em algum lugar de maneira que não* |  |
@@ -37,7 +37,7 @@ Lexical aid: the supplied Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshi
 | `c1-l019` | Mexij, jta, ijte. *Cegarẽ os olhos. Verbo defect.* |  |
 | `c1-l020` | Mexijdaſare, ruru, eta. *Chamar. Vt,* Ya- |  |
 | `c1-l021` | &emsp;dono Tayǔuo mexi idaſarete. *Cha-* |  |
-| `c1-l022` | &emsp;*mando pera fora aodono da caſa. ¶ Item,* |  |
+| `c1-l022` | &emsp;*mando pera fora ao dono da caſa. ¶* I*tem,* |  |
 | `c1-l023` | &emsp;*Pedir, ou fazer vir diante. Vt,* Catanauo |  |
 | `c1-l024` | &emsp;mexi idaſare goranjerarete. *Fazendo* |  |
 | `c1-l025` | &emsp;*trazer a Catana, & vendoa.* |  |
@@ -76,7 +76,7 @@ Lexical aid: the supplied Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshi
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c2-l001` | &emsp;*Feiq. Lib. 3. Os Soldados, ou gente honrada* |  |
-| `c2-l002` | &emsp;*do Fei que prendendo a eſte, & dizendo que* |  |
+| `c2-l002` | &emsp;*do Fei que prendendo a este, & dizendo que* |  |
 | `c2-l003` | &emsp;*o auião de condenar à morte, &c.* |  |
 | `c2-l004` | Mexivoqi, u, oita. *Deixar, ou por. Vt,* |  |
 | `c2-l005` | &emsp;Qiǒuo tanano vyeni mexivoite. *Pondo* |  |
@@ -100,7 +100,7 @@ Lexical aid: the supplied Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshi
 | `c2-l023` | &emsp;caiga tada monodeua nai. *Aquelle moui-* |  |
 | `c2-l024` | &emsp;*mento dos olhos não he de qualquer homem.* |  |
 | `c2-l025` | Mezzuracana. i, Mezzuraxij. *Couſa apra-* |  |
-| `c2-l026` | &emsp;*ziuel, & noua, ou rara.* S. |  |
+| `c2-l026` | &emsp;*ziuel, & noua, ou rara. S.* |  |
 | `c2-l027` | Mezzuracani. *Adu.* i, Mezzuraxǔ. |  |
 | `c2-l028` | Mezzuraxij. *Couſa noua, & agradauel.* |  |
 | `c2-l029` | &emsp;Mezzuraxiſa. |  |
