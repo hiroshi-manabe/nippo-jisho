@@ -20,14 +20,14 @@ Lexical aid: the supplied Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshi
 | `c1-l002` | Minacotogotocu. *Tudo.* |  |
 | `c1-l003` | Minagara. i, Mite i nagara. *Aßi como eſtou* |  |
 | `c1-l004` | &emsp;*vendo. ¶ Item, Todas as couſas jun* |  |
-| `c1-l005` | &emsp;*tas.* P. |  |
+| `c1-l005` | &emsp;*tas. P.* |  |
 | `c1-l006` | Minaguiri, u, itta. *Correr o rio com impeto.* |  |
 | `c1-l007` | &emsp;*Vt,* Saximo vobitataxiqu minaguiru cô- |  |
 | `c1-l008` | &emsp;zui. Taif. *Lib. 25. Enchente dago-* |  |
 | `c1-l009` | &emsp;*as que correm com grande impeto, & furia.* |  |
 | `c1-l010` | Minaguiri cudari, u, atta. *Decer orio com* |  |
 | `c1-l011` | &emsp;*furia.* |  |
-| `c1-l012` | Minaguiri ide, zzuru, eta. *Sairo rio com* |  |
+| `c1-l012` | Minaguiri ide, zzuru, eta. *Sair o rio com* |  |
 | `c1-l013` | &emsp;*grande impeto, & enchente.* |  |
 | `c1-l014` | Minaguiri nagare, uru, eta. *Correr o rio* |  |
 | `c1-l015` | &emsp;*com furia.* |  |
@@ -38,16 +38,16 @@ Lexical aid: the supplied Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshi
 | `c1-l020` | Minamoto. *Principio do rio, ou fonte.* |  |
 | `c1-l021` | &emsp;*¶ Item, Origem, ou principio dalguã couſa.* |  |
 | `c1-l022` | Minamotte. *Tudo, ou todos.* |  |
-| `c1-l023` | Minarai, ǒ, ǒta. *Vendo aprender. Vt,* Cǒ- |  |
+| `c1-l023` | Minarai, ǒ, ǒta. *Vendo aprender. Vt,* Cõ- |  |
 | `c1-l024` | &emsp;nichi Muſaxiga ſuru icuſa coſo tefonyo, |  |
-| `c1-l025` | &emsp;yô minaraye. Taca. *Abatalha que oje* |  |
+| `c1-l025` | &emsp;yô minaraye. Taca. *A batalha que oje* |  |
 | `c1-l026` | &emsp;*tem Benquei he exemplo, & modelo, vendo* |  |
 | `c1-l027` | &emsp;*aprendei bem.* |  |
 | `c1-l028` | Minare, ruru, eta. *Acoſtumar a ver, ou ver* |  |
 | `c1-l029` | &emsp;*muitas vezes por coſtume.* |  |
 | `c1-l030` | Minarezauo. *P. Vara de que vſão os homẽs* |  |
 | `c1-l031` | &emsp;*do mar na embarcação.* |  |
-| `c1-l032` | Minari, u, atta. *Dar fruito.* S. *Vt,* Futa- |  |
+| `c1-l032` | Minari, u, atta. *Dar fruito. S. Vt,* Futa- |  |
 | `c1-l033` | &emsp;tabi minaru qiua ſono ne canarazu itamu. |  |
 | `c1-l034` | &emsp;Feiq. *Aruore que duas vazes no anno da* |  |
 | `c1-l035` | &emsp;*fruito, ſem falta ſe dana, ou a podrece.* |  |
@@ -58,11 +58,11 @@ Lexical aid: the supplied Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshi
 | `c1-l040` | &emsp;*Chegar ao porto. ¶* Funeuo minatoni iruru. |  |
 | `c1-l041` | &emsp;*Meter a embarcação no porto.* |  |
 | `c1-l042` | Minatogaua. *Foz do rio que entra no mar, ou* |  |
-| `c1-l043` | &emsp;*que eſta na boca dalgum rio.* |  |
-| `c1-l044` | Minaua. *Cordas com que alão, ou aleuantão* |  |
+| `c1-l043` | &emsp;*que eſtà na boca dalgum rio.* |  |
+| `c1-l044` | Minaua. *Cordas com que ãlão, ou aleuantão* |  |
 | `c1-l045` | &emsp;*o maſto.* |  |
 | `c1-l046` | Minaxi, ſu, aita. *Ver hũa couſa bem, ou mal* |  |
-| `c1-l047` | &emsp;*deitandoa a boa, ou mà parte. ¶* Iennin- |  |
+| `c1-l047` | &emsp;*deitandoa à boa, ou mà parte. ¶* Iennin- |  |
 
 ## Column 2 running header
 
@@ -80,7 +80,7 @@ Lexical aid: the supplied Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshi
 | `c2-l004` | &emsp;*vem atribuindoas amà parte.* |  |
 | `c2-l005` | Minaxigo. *Orfaõs.* |  |
 | `c2-l006` | Minazzuqi. *P. i,* Rocuguachi. *Sexta* |  |
-| `c2-l007` | &emsp;*lũa de Iapão.* |  |
+| `c2-l007` | &emsp;*lũa de* I*apão.* |  |
 | `c2-l008` | Minca. Tamino iye. *Caſas de lauradores.* |  |
 | `c2-l009` | Mincan. *Pouo, ou gente popular.* |  |
 | `c2-l010` | Mine. *Cume do monte. ¶* Catanano mi- |  |
@@ -93,7 +93,7 @@ Lexical aid: the supplied Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshi
 | `c2-l017` | Minigue. *O fugir ſò com a viſta do inimigo.* |  |
 | `c2-l018` | &emsp;*¶* Minigueuo ſuru. *Fugir em vendo o* |  |
 | `c2-l019` | &emsp;*inimigo.* |  |
-| `c2-l020` | Minmet. Meſſuru. *Deſtruição.* S. |  |
+| `c2-l020` | Minmet. Meſſuru. *Deſtruição. S.* |  |
 | `c2-l021` | Mino. *Capa dagoa. ¶* Minouo qiru. *Por,* |  |
 | `c2-l022` | &emsp;*ou veſtir capa dagoa de Iapão.* |  |
 | `c2-l023` | Minogami. *Papel do reino de Mino.* |  |
@@ -110,10 +110,10 @@ Lexical aid: the supplied Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshi
 | `c2-l034` | &emsp;*do. ¶* Mino qega yodatçu. *Arrepia-* |  |
 | `c2-l035` | &emsp;*rem ſe os cabelos sò com medo.* |  |
 | `c2-l036` | Minori u, otta. *Dar fruito. ¶* Minora- |  |
-| `c2-l037` | &emsp;nu q uoba qitte fini cubeyo. *A aruo-* |  |
+| `c2-l037` | &emsp;nu qiuoba qitte fini cubeyo. *A aruo-* |  |
 | `c2-l038` | &emsp;*re que não dà fruito, cortãdoa metea no fogo.* |  |
 | `c2-l039` | Mintocu. Taminotocu. *Proueitos do pouo,* |  |
-| `c2-l040` | &emsp;*ou dos lauradores.* S. |  |
+| `c2-l040` | &emsp;*ou dos lauradores. S.* |  |
 | `c2-l041` | Minvocu. Tamino iye. *Caſas do pouo, ou* |  |
 | `c2-l042` | &emsp;*lauradores.* |  |
 | `c2-l043` | Minuqi, u, uita. *Ver atè o interior, ou pene-* |  |

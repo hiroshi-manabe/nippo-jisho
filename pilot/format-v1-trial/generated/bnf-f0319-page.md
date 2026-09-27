@@ -45,7 +45,7 @@ Lexical aid: the supplied Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshi
 | `c1-l027` | &emsp;ſuſugu. *Refreſcar os ouuidos ouuindo boas* |  |
 | `c1-l028` | &emsp;*couſas, & goſtoſas. ¶* Mimiuo caqu. |  |
 | `c1-l029` | &emsp;*Eſgarauatar as orelhas.* |  |
-| `c1-l030` | Mimiaca. l, mimino aca. *Sujidade das* |  |
+| `c1-l030` | Mimiaca. *l*, mimino aca. *Sujidade das* |  |
 | `c1-l031` | &emsp;*orelhas.* |  |
 | `c1-l032` | Mimicaqi. *Eſgarauatador das orelhas.* |  |
 | `c1-l033` | Mimichicai. *Couſa que ſe ent ende bem, ou* |  |
@@ -89,8 +89,8 @@ Lexical aid: the supplied Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshi
 | `c2-l007` | &emsp;*limpar as orelhas.* |  |
 | `c2-l008` | Mimino biqu. *Ponta da orelha na parte in-* |  |
 | `c2-l009` | &emsp;*ferior.* |  |
-| `c2-l010` | Miminofa. *Orelhas.* X. |  |
-| `c2-l011` | Mimino ue. *Raiz, ou arreigadadas orelhas.* |  |
+| `c2-l010` | Miminofa. *Orelhas. X.* |  |
+| `c2-l011` | Mimino ne. *Raiz, ou arreigadadas orelhas.* |  |
 | `c2-l012` | Mimiqiqi. *Peßoa que ouue bem. ¶ Item,* |  |
 | `c2-l013` | &emsp;*O que percebe logo arezão, &c.* |  |
 | `c2-l014` | Mimitçucu. *Moucho aue nocturna. No Cami* |  |
@@ -100,7 +100,7 @@ Lexical aid: the supplied Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshi
 | `c2-l018` | &emsp;*Homem que entende depreſſa, & penetra as* |  |
 | `c2-l019` | &emsp;*couſas.* |  |
 | `c2-l020` | Mimitoxi. *O ouuir bem, ou perceber de preſſa* |  |
-| `c2-l021` | &emsp;*algũa couſa.* S. |  |
+| `c2-l021` | &emsp;*algũa couſa. S.* |  |
 | `c2-l022` | Mimixij, ijte. l, ijta. *Enſurdecer. Verb.* |  |
 | `c2-l023` | &emsp;*defect.* |  |
 | `c2-l024` | Mimizu. *Minhocas.* |  |
