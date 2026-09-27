@@ -888,27 +888,29 @@ function moveReviewCursor(key) {
   if (!state.currentPage?.processed || !['column-1', 'column-2'].includes(state.unit)) return false;
   const rows = reviewRows();
   if (!rows.length) return false;
-  const current = reviewCursor?.pageId === state.currentPage.page_id && reviewCursor.unit === state.unit
-    ? rows.findIndex(row => row.dataset.line === reviewCursor.lineId) : -1;
-  if (current < 0) {
-    setReviewCursor(topVisibleReviewRow(rows), true);
-    return true;
-  }
   if (key === 'ArrowUp' || key === 'ArrowDown') {
+    const current = reviewCursor?.pageId === state.currentPage.page_id && reviewCursor.unit === state.unit
+      ? rows.findIndex(row => row.dataset.line === reviewCursor.lineId) : -1;
+    if (current < 0) {
+      setReviewCursor(topVisibleReviewRow(rows), true);
+      return true;
+    }
     const next = Math.max(0, Math.min(rows.length - 1, current + (key === 'ArrowDown' ? 1 : -1)));
     setReviewCursor(rows[next], true);
     return true;
   }
-  const targetUnit = key === 'ArrowLeft' ? 'column-1' : 'column-2';
-  if (targetUnit === state.unit || !zonesFor(state.currentPage, targetUnit).some(zone => zone.kind === 'column' && zone.lines.length)) return true;
-  const page = state.currentPage;
-  showPage(page.leaf, targetUnit);
+  const sequence = columnSequence();
+  const index = sequence.findIndex(item => item.leaf === state.currentPage.leaf && item.unit === state.unit);
+  const target = sequence[index + (key === 'ArrowLeft' ? -1 : 1)];
+  if (index < 0 || !target) return true;
+  showPage(target.leaf, target.unit);
+  window.scrollTo(0, 0);
   const firstLine = reviewRows()[0];
-  setReviewCursor(firstLine);
+  if (firstLine) setReviewCursor(firstLine);
   // The hash/view transition can restore scroll after the key handler. Place
   // the first crop after the new column and its scroll position have settled.
   requestAnimationFrame(() => requestAnimationFrame(() => {
-    if (state.currentPage === page && state.unit === targetUnit && reviewCursor?.lineId === firstLine.dataset.line) {
+    if (firstLine && state.currentPage?.leaf === target.leaf && state.unit === target.unit && reviewCursor?.lineId === firstLine.dataset.line) {
       setReviewCursor(reviewRows()[0], true);
     }
   }));
