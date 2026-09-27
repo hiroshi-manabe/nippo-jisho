@@ -25,7 +25,7 @@ Lexical cross-check, consulted after independent scan reading: Entry Words Data 
 | `c1-l007` | Mayeua. *Meliùs,* Mayetçuua. *Arção, ou* |  |
 | `c1-l008` | &emsp;*dianteira da ſella. ¶* Xiriua. *Aparte de* |  |
 | `c1-l009` | &emsp;*de tras.* |  |
-| `c1-l010` | Mayevatari. P. i, Cadouo touoru. *O* |  |
+| `c1-l010` | Mayevatari. *P.* i, Cadouo touoru. *O* |  |
 | `c1-l011` | &emsp;*paßar polla porta de alguem.* |  |
 | `c1-l012` | Maye yeda. *Quartos dianteiros do animal.* |  |
 | `c1-l013` | &emsp;*¶* Vxiro yeda. *Os traſeiros.* |  |
@@ -47,13 +47,13 @@ Lexical cross-check, consulted after independent scan reading: Entry Words Data 
 | `c1-l029` | &emsp;*por triſteza, eſpanto, &c. ¶* Qiyetno |  |
 | `c1-l030` | &emsp;mayuuo firaqu. *Alegrarſe, ou moſtrar* |  |
 | `c1-l031` | &emsp;*alegria de pois dalgũa triſteza. S.* |  |
-| `c1-l032` | Mayugue. *Cabelos das ſobrancelhas.* |  |
+| `c1-l032` | Mayugue. *Cabelos das ſobrance*l*has.* |  |
 | `c1-l033` | Mayumi. *Aruore aßi chamada.* |  |
 | `c1-l034` | Mayutçucuri. *Inſtrumento com que ſe pintão* |  |
 | `c1-l035` | &emsp;*as ſobrancelhas mais altas artificioſamẽte.* |  |
 | `c1-l036` | Mayuzumi. *Sobrancelhas artificioſas que fa-* |  |
 | `c1-l037` | &emsp;*zem com tinta em Iapão acima das naturaes.* |  |
-| `c1-l038` | Mazame. *Pelle de humpeixe do mar, que ſerue* |  |
+| `c1-l038` | Mazame. *Pelle de hum peixe do mar, que ſerue* |  |
 | `c1-l039` | &emsp;*pera bainhas de Catanas, ou Vaquizaxis.* |  |
 | `c1-l040` | Mazzu. *Adu. Primeiramente, ou por agora.* |  |
 | `c1-l041` | Mazzumazzu. *Adu. Idem.* |  |

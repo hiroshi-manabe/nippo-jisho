@@ -47,13 +47,13 @@ Lexical reference consulted: Entry Words Data of Nippojisho, NINJAL, Hideyuki Oh
 | `c1-l028` | &emsp;meateni xite funeuo noru. *Nauegar tomã-* |  |
 | `c1-l029` | &emsp;*do a estrella do norte por guia, & regra.* |  |
 | `c1-l030` | Mebayana. *Peſſoa que alcança bem com a vi-* |  |
-| `c1-l031` | &emsp;*ſta, ou enxerga logo com os olhos algũa couſa* |  |
+| `c1-l031` | &emsp;*ſta, ou enxerga logo com os olhos algũa couſa.* |  |
 | `c1-l032` | Mebǒ. *Inſtrumento de metal pera por mezi-* |  |
 | `c1-l033` | &emsp;*nhas nos olhos.* |  |
 | `c1-l034` | Meboxi. *Eſpiritus vitaes que como lumeſi-* |  |
 | `c1-l035` | &emsp;*nhos ſe a leuantão às vezes nos olhos. ¶* Me- |  |
 | `c1-l036` | &emsp;boxino fanaga chiru. *Aleuantaremſe eſ-* |  |
-| `c1-l037` | &emsp;*tes eſpiritus vitaes dentro nos olhos.* B. |  |
+| `c1-l037` | &emsp;*tes eſpiritus vitaes dentro nos olhos. B.* |  |
 | `c1-l038` | Mecaqe. *Manceba.* |  |
 | `c1-l039` | Meco. *Molher, & filhos.* |  |
 | `c1-l040` | Mecqi. *Certa feição de dourar com folha dou-* |  |
@@ -83,9 +83,9 @@ Lexical reference consulted: Entry Words Data of Nippojisho, NINJAL, Hideyuki Oh
 | `c2-l007` | Mecugui ana. *Buraco por onde metem este* |  |
 | `c2-l008` | &emsp;*prego.* |  |
 | `c2-l009` | Mecura. *Cego.* |  |
-| `c2-l010` | Mecujira. *Balea femea: mais ſe vſa por,* Yo- |  |
+| `c2-l010` | Mecujira. *Balea femea*: *mais ſe vſa por,* Yo- |  |
 | `c2-l011` | &emsp;mi *de* Qeiguei, *que por vſo de pratica.* |  |
-| `c2-l012` | Mecurumecu. S. Meno mǒ coto. *Do-* |  |
+| `c2-l012` | Mecurumecu. *S.* Meno mǒ coto. *Do-* |  |
 | `c2-l013` | &emsp;*ença de andar a cabeça à roda, ou irſe o lume* |  |
 | `c2-l014` | &emsp;*dos olhos. Não ſe vſa tanto em pratica co-* |  |
 | `c2-l015` | &emsp;*mo por,* Yomi, *de* Qen vn. *A palaura* |  |

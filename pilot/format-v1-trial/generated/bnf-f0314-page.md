@@ -27,7 +27,7 @@ Lexical reference consulted: Entry Words Data of Nippojisho, NINJAL, Hideyuki Oh
 | `c1-l009` | &emsp;*lugar.* |  |
 | `c1-l010` | Meidô. Nari vgoqu. *O mouerſe, ou tremer* |  |
 | `c1-l011` | &emsp;*a terra. Vt,* Xifǒni meidô ſu. *Tremer* |  |
-| `c1-l012` | &emsp;*em todas as partes aterra.* S. |  |
+| `c1-l012` | &emsp;*em todas as partes aterra. S.* |  |
 | `c1-l013` | Meifacu. *Clareza.* |  |
 | `c1-l014` | Meifacuna. *Couſa clara, como razão, &c.* |  |
 | `c1-l015` | Meifit. *Excellente letra, ou pintura. ¶ Itẽ,* |  |
@@ -44,10 +44,10 @@ Lexical reference consulted: Entry Words Data of Nippojisho, NINJAL, Hideyuki Oh
 | `c1-l026` | &emsp;Meiguenuo yǔ. l, faqu. *Dizer palauras* |  |
 | `c1-l027` | &emsp;*boas, & excellentes.* |  |
 | `c1-l028` | Meiguet. Aqiracana tçuqi. l, na aru tçuqi. |  |
-| `c1-l029` | &emsp;*Lũa clara, & nomeada que he aos 15. dias* |  |
+| `c1-l029` | &emsp;*Lũa clara, & nomeada que he aos 1s. dias* |  |
 | `c1-l030` | &emsp;*do octauo mes.* |  |
 | `c1-l031` | Meiguiocu. Na aru tama. *Pedra precioſa no-* |  |
-| `c1-l032` | &emsp;*meada.* S. |  |
+| `c1-l032` | &emsp;*meada. S.* |  |
 | `c1-l033` | Mei-i. Na aru cuſuxi. i, Meijinno cuſuxi. |  |
 | `c1-l034` | &emsp;*Medico inſigne.* |  |
 | `c1-l035` | Meiji, zuru, ita. *Penetrar o interior. Vt,* |  |
@@ -59,7 +59,7 @@ Lexical reference consulted: Entry Words Data of Nippojisho, NINJAL, Hideyuki Oh
 | `c1-l041` | Meijǒ. *Excellente, ou nomeada fortaleza.* |  |
 | `c1-l042` | Mejiro. *Paßarinho aßi chamado.* |  |
 | `c1-l043` | Meimei. *Cada hum. Vt,* Meimeini vocu- |  |
-| `c1-l044` | &emsp;ri tamauaru, *Dar, ou mandar a cada hum* |  |
+| `c1-l044` | &emsp;ri tamauaru. *Dar, ou mandar a cada hum* |  |
 | `c1-l045` | &emsp;*algũa couſa.* |  |
 | `c1-l046` | Meimeichô. *Hum paßaro que tem duas cabe-* |  |
 | `c1-l047` | &emsp;*ças, & dous bicos.* |  |
@@ -101,7 +101,7 @@ Lexical reference consulted: Entry Words Data of Nippojisho, NINJAL, Hideyuki Oh
 | `c2-l025` | &emsp;*Eſpelho claro.* |  |
 | `c2-l026` | Meiqiû. Naqu fato. *Rola, ou pomba que* |  |
 | `c2-l027` | &emsp;*geme, ou canta. ¶* Meiqiû ameuo yo- |  |
-| `c2-l028` | &emsp;bu. *O gemer da rola adiuinha a chuua.* P. |  |
+| `c2-l028` | &emsp;bu. *O gemer da rola adiuinha a chuua. P.* |  |
 | `c2-l029` | Meiqua. *Excellente, ou fermoſa roſa.* |  |
 | `c2-l030` | Meiquǒ. Aqiracana ficari. *Grãde reſplãdor.* |  |
 | `c2-l031` | Meiquǒ. *Excellente Rey, recto, & prudẽte.* |  |
