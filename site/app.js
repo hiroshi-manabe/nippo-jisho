@@ -1,5 +1,10 @@
 const state = { corpus: null, byLeaf: new Map(), currentPage: null, unit: 'page', edits: {}, suggestionDismissals: {}, submissions: {}, workspacesLoaded: new Set(), staleDraft: null, staleBaseline: null };
 let reviewCursor = null; // A reading position, deliberately independent of DOM focus.
+const OVERVIEW_POSITION_KEY = 'nippo-overview-position-v1';
+let overviewPosition = null;
+let overviewDisplayed = false;
+try { overviewPosition = JSON.parse(sessionStorage.getItem(OVERVIEW_POSITION_KEY)); } catch (_) { /* Storage may be unavailable. */ }
+if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
 function pageKey(value) { return /^f?\d+$/.test(String(value)) ? Number(String(value).replace(/^f/, '')) : value; }
 function adjacentPage(offset) {
   const index = state.corpus.pages.indexOf(state.currentPage);
@@ -231,6 +236,42 @@ function route() {
   else showOverview(false);
 }
 
+function overviewVisibleTop() {
+  const topbar = document.querySelector('.topbar').getBoundingClientRect().bottom;
+  const controls = document.querySelector('#overview .overview-controls').getBoundingClientRect().bottom;
+  return Math.max(topbar, controls) + 8;
+}
+
+function saveOverviewPosition() {
+  if ($('#overview').classList.contains('hidden')) return;
+  const top = overviewVisibleTop();
+  const anchor = [...document.querySelectorAll('#page-grid .page-card')]
+    .find(card => { const rect = card.getBoundingClientRect(); return rect.bottom > top && rect.top < window.innerHeight; });
+  overviewPosition = {
+    leaf: anchor?.dataset.leaf || null,
+    offset: anchor ? anchor.getBoundingClientRect().top - top : 0,
+    scrollY: window.scrollY,
+  };
+  try { sessionStorage.setItem(OVERVIEW_POSITION_KEY, JSON.stringify(overviewPosition)); } catch (_) { /* In-memory restoration still works. */ }
+}
+
+function restoreOverviewPosition() {
+  const saved = overviewPosition;
+  requestAnimationFrame(() => {
+    if ($('#overview').classList.contains('hidden')) return;
+    window.scrollTo({top: saved?.scrollY || 0, behavior: 'instant'});
+    requestAnimationFrame(() => {
+      if ($('#overview').classList.contains('hidden')) return;
+      const anchor = saved?.leaf && [...document.querySelectorAll('#page-grid .page-card')]
+        .find(card => card.dataset.leaf === saved.leaf);
+      if (anchor) {
+        const destination = window.scrollY + anchor.getBoundingClientRect().top - overviewVisibleTop() - saved.offset;
+        window.scrollTo({top: Math.max(0, destination), behavior: 'instant'});
+      }
+    });
+  });
+}
+
 function showOverview(update = true) {
   clearReviewCursor();
   window.NippoPageTimer?.select(null);
@@ -243,6 +284,8 @@ function showOverview(update = true) {
   $('#submit-bar').classList.add('hidden');
   if (update) history.pushState(null, '', '#overview');
   renderGrid();
+  overviewDisplayed = true;
+  restoreOverviewPosition();
 }
 
 function issueCountLabel(page) {
@@ -657,6 +700,8 @@ function updateRebaseNotice() {
 function showPage(leaf, unit = 'page', update = true) {
   const page = state.byLeaf.get(leaf);
   if (!page) return;
+  if (overviewDisplayed && !state.currentPage) saveOverviewPosition();
+  overviewDisplayed = false;
   if (reviewCursor && (reviewCursor.pageId !== page.page_id || reviewCursor.unit !== unit)) clearReviewCursor();
   window.NippoPageTimer?.select(page.page_id);
   loadPageWorkspace(page);
