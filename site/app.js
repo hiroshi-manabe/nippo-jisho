@@ -856,17 +856,17 @@ function moveReviewCursor(key) {
   }
   const targetUnit = key === 'ArrowLeft' ? 'column-1' : 'column-2';
   if (targetUnit === state.unit || !zonesFor(state.currentPage, targetUnit).some(zone => zone.kind === 'column' && zone.lines.length)) return true;
-  const source = lineById(rows[current].dataset.line);
-  const sourceY = source.crop[1] + source.crop[3] / 2;
   const page = state.currentPage;
   showPage(page.leaf, targetUnit);
-  const targetRows = reviewRows();
-  const target = targetRows.reduce((best, row) => {
-    const line = lineById(row.dataset.line);
-    const distance = Math.abs(line.crop[1] + line.crop[3] / 2 - sourceY);
-    return distance < best.distance ? {row, distance} : best;
-  }, {row: targetRows[0], distance: Infinity}).row;
-  setReviewCursor(target, true);
+  const firstLine = reviewRows()[0];
+  setReviewCursor(firstLine);
+  // The hash/view transition can restore scroll after the key handler. Place
+  // the first crop after the new column and its scroll position have settled.
+  requestAnimationFrame(() => requestAnimationFrame(() => {
+    if (state.currentPage === page && state.unit === targetUnit && reviewCursor?.lineId === firstLine.dataset.line) {
+      setReviewCursor(reviewRows()[0], true);
+    }
+  }));
   return true;
 }
 
