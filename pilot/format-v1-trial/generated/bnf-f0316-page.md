@@ -30,7 +30,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l014` | &emsp;*ça, & priuilegio.* |  |
 | `c1-l015` | Mengiǔ. *Canga de ſeda da China.* |  |
 | `c1-l016` | Menjen. Vomoteno maye. *Diante, ou em* |  |
-| `c1-l017` | &emsp;*preſença.* S. |  |
+| `c1-l017` | &emsp;*preſença. S.* |  |
 | `c1-l018` | Menji, zuru, ita. *Perdoar. ¶* Giǔqua |  |
 | `c1-l019` | &emsp;ua vonruni menzu. Feiq. *Lib. 1. Per-* |  |
 | `c1-l020` | &emsp;*dou o grande crime commutando lho em deſter* |  |
@@ -74,12 +74,12 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c2-l001` | Menten. Vomote meguru. *O verſe, ou en-* |  |
-| `c2-l002` | &emsp;*contrarſe com alguem.* S. |  |
+| `c2-l002` | &emsp;*contrarſe com alguem. S.* |  |
 | `c2-l003` | Menuqi. *Hũas chapas de metal com lauores,* |  |
 | `c2-l004` | &emsp;*ou releuo que pegão nos cabos da Catana poror-* |  |
 | `c2-l005` | &emsp;*nato amarradas com hũas correas.* |  |
 | `c2-l006` | Menyet. *Indo, ver, ou encontrarſe com* |  |
-| `c2-l007` | &emsp;*alguem.* S. |  |
+| `c2-l007` | &emsp;*alguem. S.* |  |
 | `c2-l008` | Menyu. *Liſonja.* |  |
 | `c2-l009` | Menzǒ. *Camara, ou caſa em que os Bonzos* |  |
 | `c2-l010` | &emsp;*dormem, & tem ofato.* |  |
@@ -88,9 +88,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l013` | Meô. Neco. *Gato.* |  |
 | `c2-l014` | Meôcacu. *Dignidade de Fotoque.* Bup. |  |
 | `c2-l015` | Meôchi. Tayenaru chiye. *Excellente, &* |  |
-| `c2-l016` | &emsp;*marauilhoſo ſaber.* S. |  |
+| `c2-l016` | &emsp;*marauilhoſo ſaber. S.* |  |
 | `c2-l017` | Meǒchǒ. *Rol de varios nomes de homẽs.* |  |
-| `c2-l018` | Meǒchô. *Amenhaã polla manhaã.* |  |
+| `c2-l018` | Meǒchô. *Amenhãa polla manhãa.* |  |
 | `c2-l019` | Meôcu. Tayenaru cu. *Excellente ſentença,* |  |
 | `c2-l020` | &emsp;*ou dito.* |  |
 | `c2-l021` | Meôdo. Tayenaru tçuchi. i, Qidocuna to- |  |
@@ -106,9 +106,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l031` | &emsp;ganno ſô. *Bonzo de entendimento claro pe-* |  |
 | `c2-l032` | &emsp;*ra penetrar o Buppô, &c.* |  |
 | `c2-l033` | Meôjet. *Couſa marauilhoſa q̃ não ſe pode facil-* |  |
-| `c2-l034` | &emsp;*mente explicar.* S. |  |
-| `c2-l035` | Meôjut. *Couſa marauilhoſa, ou milagroſa.* S. |  |
-| `c2-l036` | Meôni. *Filho de gato.* S. |  |
+| `c2-l034` | &emsp;*mente explicar. S.* |  |
+| `c2-l035` | Meôjut. *Couſa marauilhoſa, ou milagroſa. S.* |  |
+| `c2-l036` | Meôni. *Filho de gato. S.* |  |
 | `c2-l037` | Meôvon. Tayenaru coye. *Excellente voz.* |  |
 | `c2-l038` | Meqi, u, eita. *Palaura que ſe vſa compoſta* |  |
 | `c2-l039` | &emsp;*com algũs nomes, & ſignifica parecer, ou dar* |  |
