@@ -1,0 +1,177 @@
+{
+  "schema": 2,
+  "package_id": "production-f0420-f0421-f0422-fa0928e8",
+  "input_manifest_sha256": "a4ed275dec16132358efaccc67c2b3d3379736d0dc80e1aa8ddbe3557413bb11",
+  "reviewer": "GPT-6 Astra Pro (OpenAI)",
+  "pages": {
+    "bnf-f0420": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c1-l018: The compact type of the cross-reference Reǒco is not entirely distinct. A caron is adopted from the visible vowel mark; the aligned draft’s italic classification is retained and the term is included in typeface_terms.",
+        "c1-l039: The headword Riofù is abraded. Its provisional unmarked o and grave-marked u are retained instead of supplying diacritics from the expected lexical reading ryōfū.",
+        "c2-l001: Capitulos is adopted for the damaged Portuguese word, consistent with the visible remains and the definition; the middle letters remain somewhat uncertain.",
+        "c2-l032: The example retains the circumflex-like mark in Riômengaqi, rather than being regularized to Riǒmengaqi in the headword. The distinction is a graphic reading, not a proposed lexical difference."
+      ],
+      "decision_requests": [],
+      "structural_changes": [
+        {
+          "before": [
+            "u2b-l001"
+          ],
+          "after": [
+            "u2b-l001"
+          ],
+          "reason": "Reclassified provisional bottom furniture as the right-aligned italic catchword doura-, correcting OCR dou. It anticipates dourado at the opening of f421 and is not duplicated as body text."
+        }
+      ],
+      "typeface_terms": {
+        "c1-l018": [
+          "Reǒco"
+        ],
+        "c1-l044": [
+          "Fotoque"
+        ],
+        "c1-l045": [
+          "Fotoque"
+        ],
+        "c2-l009": [
+          "Buppô"
+        ],
+        "c2-l022": [
+          "Xix."
+        ],
+        "c2-l040": [
+          "Cũgues"
+        ],
+        "c2-l042": [
+          "Cũgues"
+        ],
+        "c2-l044": [
+          "Gitô"
+        ]
+      }
+    },
+    "bnf-f0421": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c1-l005: The damaged Japanese synonym is provisionally read Suſuxij ſora. The tall middle glyph is retained as long s rather than silently regularized from the expected word suzushii.",
+        "c1-l047: Enlargement favors camuri over the draft canuri, but the m is damaged. The chosen form is not expanded to canmuri; the visible separator after Cutçu is a semicolon.",
+        "c2-l012: The printed phrase is retained as Rini vaxiru, including its anomalous initial v. It is not silently changed to the expected hashiru spelling."
+      ],
+      "decision_requests": [],
+      "structural_changes": [
+        {
+          "before": [
+            "c1-l044"
+          ],
+          "after": [
+            "c1-l044"
+          ],
+          "reason": "Restored the omitted far-right printed ( Riqi on the same physical row as the strong-man entry, using named far-right spans; it is the displaced target of Vide supra on c1-l045. Removed the erroneous main-line indentation to match the left-aligned headword. No text is moved into c1-l045."
+        },
+        {
+          "before": [
+            "h2-l001"
+          ],
+          "after": [
+            "h2-l001",
+            "pn-l001"
+          ],
+          "reason": "Separated the printed page number 211. from the second-column running header. The OCR had merged it into h2-l001 as air; h2-l001 retains the heading and new pn-l001 holds the number."
+        },
+        {
+          "before": [
+            "u2b-l001"
+          ],
+          "after": [
+            "sig-l001",
+            "u2b-l001"
+          ],
+          "reason": "Split the merged provisional footer BBRiun. into the centered signature G g g 3 (new sig-l001) and right-aligned roman catchword Riun. (retaining u2b-l001). Both visible elements are preserved in their own furniture zones."
+        }
+      ],
+      "typeface_terms": {
+        "c1-l002": [
+          "Reôri"
+        ],
+        "c1-l035": [
+          "Naguinata"
+        ],
+        "c1-l044": [
+          "Riqi"
+        ],
+        "c2-l023": [
+          "Catana"
+        ],
+        "c2-l043": [
+          "Cami"
+        ]
+      }
+    },
+    "bnf-f0422": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c1-l029: The payment example is read cẽ taeis, not the draft dẽ taeis. The initial c is damaged; the chosen reading is supported by enlargement and the Japanese amount.",
+        "c2-l021: Cônaigui is read with n rather than the draft u. The narrow separation before gui is inconclusive, so the existing single-word spacing is retained.",
+        "c2-l027: The first vowel after p in polaura is not entirely clear. The aligned draft’s unusual o reading is retained instead of silently substituting palaura or a modern spelling."
+      ],
+      "decision_requests": [],
+      "structural_changes": [
+        {
+          "before": [
+            "c2-l010"
+          ],
+          "after": [
+            "c2-l010"
+          ],
+          "reason": "Restored the two-line enlarged initial R at the beginning of RO after the internal heading, removed the erroneous whole-line indentation, and kept the Japanese RO upright. The owning crop is extended to include the full initial with intentional overlap onto c2-l011."
+        },
+        {
+          "before": [
+            "u2b-l001"
+          ],
+          "after": [
+            "u2b-l001"
+          ],
+          "reason": "Reclassified the provisional bottom furniture as the right-aligned roman catchword chiri-. It anticipates continuation after the final Japanese example and is not an extra body row."
+        },
+        {
+          "before": [
+            "h1-l001"
+          ],
+          "after": [
+            "h1-l001"
+          ],
+          "reason": "Restored the visible word space after the isolated letter R in the left running header; retained the close ANTESDO setting."
+        },
+        {
+          "before": [
+            "h2-l001"
+          ],
+          "after": [
+            "h2-l001"
+          ],
+          "reason": "Restored the visible word space after the isolated letter R in the right running header."
+        }
+      ],
+      "typeface_terms": {
+        "c1-l038": [
+          "Camis"
+        ],
+        "c1-l039": [
+          "Fotoques"
+        ],
+        "c1-l040": [
+          "Camis",
+          "Fotoques"
+        ]
+      }
+    }
+  }
+}
