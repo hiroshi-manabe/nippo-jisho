@@ -1,0 +1,234 @@
+{
+  "schema": 2,
+  "package_id": "production-f0390-f0391-f0392-fa0928e8",
+  "input_manifest_sha256": "6055bf67d0e7ce92696a7c9d3a398bb3d3c1e09a7051301b6e218c9d1f0a7e39",
+  "reviewer": "GPT-6 Astra Pro (OpenAI), external scan-based review",
+  "pages": {
+    "bnf-f0390": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c1-l022: The arrow-point headword is transcribed Qifô; the small worn vowel mark is less distinct than neighbouring circumflexes. The line note retains this caveat."
+      ],
+      "decision_requests": [],
+      "structural_changes": [
+        {
+          "before": [
+            "h1-l001"
+          ],
+          "after": [
+            "h1-l001"
+          ],
+          "reason": "Restored the running-header word spacing from the scan: Q ANTES DO I."
+        },
+        {
+          "before": [
+            "h2-l001"
+          ],
+          "after": [
+            "h2-l001"
+          ],
+          "reason": "Restored the running-header word spacing from the scan: Q ANTES DO I."
+        },
+        {
+          "before": [
+            "u2b-l001"
+          ],
+          "after": [
+            "u2b-l001"
+          ],
+          "reason": "Reclassified the isolated lower-right text as a catchword, placed it at the far right, and corrected bold Qijt. to roman Qiji.; it anticipates the next page's first headword and is not body text."
+        }
+      ],
+      "typeface_terms": {
+        "c1-l023": [
+          "Tera"
+        ],
+        "c1-l025": [
+          "Chiguiô",
+          "Tera"
+        ],
+        "c1-l028": [
+          "Qibucu"
+        ],
+        "c1-l029": [
+          "Taif."
+        ],
+        "c2-l030": [
+          "Finoqi"
+        ],
+        "c2-l045": [
+          "Tera"
+        ]
+      }
+    },
+    "bnf-f0391": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c1-l023: The isolated letter before voßa mercè looks like printed o, although a is grammatically expected. The diplomatic text retains o and the line note explains the anomaly."
+      ],
+      "decision_requests": [],
+      "structural_changes": [
+        {
+          "before": [
+            "h1-l001"
+          ],
+          "after": [
+            "h1-l001"
+          ],
+          "reason": "Corrected the damaged running header from Q AMTES DD. to Q ANTES DO I. using the scan."
+        },
+        {
+          "before": [
+            "h2-l001"
+          ],
+          "after": [
+            "h2-l001",
+            "pn-l001"
+          ],
+          "reason": "Separated the running header from the independently positioned printed page number 196.; retained h2-l001 for the header and assigned the fresh pn-l001 to the page_number zone. Corrected the misread final digit and preserved all visible text."
+        },
+        {
+          "before": [
+            "c1-l021"
+          ],
+          "after": [
+            "c1-l021"
+          ],
+          "reason": "Restored the visible continuation indentation within the Qimen entry; text and stable line identity remain on this physical row."
+        },
+        {
+          "before": [
+            "c1-l022"
+          ],
+          "after": [
+            "c1-l022"
+          ],
+          "reason": "Restored the visible continuation indentation of the example continuing Qi- from the previous row."
+        },
+        {
+          "before": [
+            "u2b-l001"
+          ],
+          "after": [
+            "u2b-l001"
+          ],
+          "reason": "Reclassified the isolated bottom-right material as a catchword, restored roman type and far-right placement, and corrected Qincõ- to Qincǒ-. It anticipates Qincǒ on the following page rather than adding a body entry."
+        }
+      ],
+      "typeface_terms": {
+        "c1-l001": [
+          "Tera"
+        ],
+        "c1-l005": [
+          "Tera"
+        ],
+        "c1-l006": [
+          "Tera"
+        ],
+        "c1-l033": [
+          "Fotoque",
+          "Cami"
+        ],
+        "c2-l004": [
+          "Taif."
+        ],
+        "c2-l017": [
+          "Miaco"
+        ],
+        "c2-l037": [
+          "ximo",
+          "Fôzǒ"
+        ],
+        "c2-l042": [
+          "Catana"
+        ]
+      }
+    },
+    "bnf-f0392": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c1-l014: The damaged vowel before final u is transcribed o in paßou; the surviving outline and meaning favour o, but the draft had e. The line note records this nonblocking caveat.",
+        "c2-l010: The worn vowel after long ſ is read as o in ſomu-, completing ſomuqu on the next line. Its rounded outline and the meaning of violating a prohibition support the choice; the line note records the caveat."
+      ],
+      "decision_requests": [],
+      "structural_changes": [
+        {
+          "before": [
+            "h1-l001"
+          ],
+          "after": [
+            "h1-l001"
+          ],
+          "reason": "Restored the scan-supported spacing of the running header Q ANTES DO I."
+        },
+        {
+          "before": [
+            "h2-l001"
+          ],
+          "after": [
+            "h2-l001"
+          ],
+          "reason": "Restored the running-header spacing and removed the spurious terminal pilcrow: the scan has Q ANTES DO I., followed only by non-textual marks near the rule, not a printed paragraph sign."
+        },
+        {
+          "before": [
+            "c1-l021"
+          ],
+          "after": [],
+          "reason": "Removed a duplicate OCR detection of the single physical continuation ou paços. Its genuine text is preserved completely at c1-l020; no distinct row reading ou hoga exists in the scan. Later IDs are unchanged and the duplicate crop is removed."
+        },
+        {
+          "before": [
+            "c2-l031"
+          ],
+          "after": [],
+          "reason": "Removed the second OCR detection of the same physical nimaes. continuation already retained at c2-l030. No printed text is lost; later IDs are unchanged and the duplicate crop is removed."
+        },
+        {
+          "before": [
+            "c2-l017"
+          ],
+          "after": [
+            "c2-l017"
+          ],
+          "reason": "Restored the visible continuation indentation in the Portuguese translation of the Qinji example."
+        },
+        {
+          "before": [
+            "u2b-l001"
+          ],
+          "after": [
+            "u2b-l001"
+          ],
+          "reason": "Reclassified Qinnen. as the isolated bottom-right catchword, retained its letters and punctuation, and corrected display styling to roman with far-right placement. It is not a body entry."
+        }
+      ],
+      "typeface_terms": {
+        "c1-l012": [
+          "Cugue"
+        ],
+        "c2-l005": [
+          "Miyaco"
+        ],
+        "c2-l016": [
+          "Tog."
+        ],
+        "c2-l017": [
+          "Camacuradono"
+        ],
+        "c2-l019": [
+          "Yamabuxis"
+        ],
+        "c2-l044": [
+          "Dairi"
+        ]
+      }
+    }
+  }
+}
