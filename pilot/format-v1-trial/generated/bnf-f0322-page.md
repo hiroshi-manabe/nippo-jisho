@@ -17,7 +17,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l001` | Mippô. *Ley ſecreta que ſe enſina em particular* |  |
 | `c1-l002` | &emsp;*por pontos de meditação.* |  |
 | `c1-l003` | Mippu. Mauotoco. *Marido adulterino, com* |  |
-| `c1-l004` | &emsp;*que algũa molher anda amancebada.* S. |  |
+| `c1-l004` | &emsp;*que algũa molher anda amancebada. S.* |  |
 | `c1-l005` | Miqen. Mayuno aida. *Eſpaço que eſtà en-* |  |
 | `c1-l006` | &emsp;*tre as duas ſobrancelhas.* |  |
 | `c1-l007` | Miqi. *Vinho, falando com reſpeito, ou reuerẽ-* |  |
@@ -36,14 +36,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l020` | &emsp;*contas ſobre o que à de vir.* |  |
 | `c1-l021` | Miraixe. Imada qitarazaru yo. *Mũdo futuro.* |  |
 | `c1-l022` | Mirai yǒgo. *Idade, ou mundo futuro, que* |  |
-| `c1-l023` | &emsp;*não ha de acabar.* |  |
+| `c1-l023` | &emsp;*não hà de acabar.* |  |
 | `c1-l024` | Mirai yǒyǒ. *Idem.* |  |
 | `c1-l025` | Miren. Imada nerezu. *Couardia. ¶* Mirẽ- |  |
 | `c1-l026` | &emsp;uo camayuru. *Ser couarde. O proprio ſẽ-* |  |
 | `c1-l027` | &emsp;*tido deſta palaura he liuiandade de homem que* |  |
 | `c1-l028` | &emsp;*ſe arremeßa, ou altera facilmente, mas no milhor* |  |
 | `c1-l029` | &emsp;*falta, & desfalece, ou foge.* |  |
-| `c1-l030` | Mirengui. *Idem. ¶* Camaite mirengui- |  |
+| `c1-l030` | Mirengui. I*dem. ¶* Camaite mirengui- |  |
 | `c1-l031` | &emsp;uo mixena. Qir. *Guardai vos não mos-* |  |
 | `c1-l032` | &emsp;*treis couardia.* |  |
 | `c1-l033` | Mirenna. *Vt,* Mirenna fito. *Homẽ couarde.* |  |
@@ -57,7 +57,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l041` | &emsp;*cores.* |  |
 | `c1-l042` | Miſabi, uru, ita. *Vſaſe comummente no pre-* |  |
 | `c1-l043` | &emsp;*terito por ver algũa couſa friamente não lhe* |  |
-| `c1-l044` | &emsp;*achando ja aquella graça deprimeiro.* |  |
+| `c1-l044` | &emsp;*achando ja aquella graça de primeiro.* |  |
 | `c1-l045` | Miſadame, uru, eta. *Vendo determinar. Vt,* |  |
 | `c1-l046` | &emsp;Fitono ſumicauo miſadamuru. *Ver, &* |  |
 | `c1-l047` | &emsp;*cair bem no lugar onde hum està, ou mora.* |  |

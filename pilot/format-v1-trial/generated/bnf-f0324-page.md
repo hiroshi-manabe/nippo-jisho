@@ -16,17 +16,17 @@ Lexical cross-check after independent scan reading: Entry Words Data of Nippojis
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | &emsp;*peçonha dentro do mel: diz ſe de hum homem* |  |
+| `c1-l001` | &emsp;*peçonha dentro do mel*: *diz ſe de hum homem* |  |
 | `c1-l002` | &emsp;*que de baixo de brandas palauras tem coração* |  |
 | `c1-l003` | &emsp;*danado de matar, ou fazer outro mal.* |  |
 | `c1-l004` | Mitçǔ. Fiſocani tçǔzuru. *Communicarſe* |  |
 | `c1-l005` | &emsp;*ſecretamente por recados, ou por cartas, ou* |  |
 | `c1-l006` | &emsp;*de outra maneira.* |  |
 | `c1-l007` | Mittei. Fiſocani ſadamuru. *O determinar* |  |
-| `c1-l008` | &emsp;*algũa couſa ſecretamente.* S. |  |
+| `c1-l008` | &emsp;*algũa couſa ſecretamente. S.* |  |
 | `c1-l009` | Mitzǒ. Fiſocani cacuſu. *Couſa que hum tem* |  |
 | `c1-l010` | &emsp;*ſecreta em muita estima como liuro, ou carta-* |  |
-| `c1-l011` | &emsp;*pacio, ou couſas curioſas, &c.* S. |  |
+| `c1-l011` | &emsp;*pacio, ou couſas curioſas, &c. S.* |  |
 | `c1-l012` | Mivaqe, uru, eta. *Vendo diſcernir. Vt,* Iẽ- |  |
 | `c1-l013` | &emsp;to acutono futatçuuo aqiracani mivaqe |  |
 | `c1-l014` | &emsp;ſaxerareta. Mon. *Claramente diſcernio o* |  |
@@ -60,7 +60,7 @@ Lexical cross-check after independent scan reading: Entry Words Data of Nippojis
 | `c1-l042` | Mivotoxi, u, oita. *Notar com os olhos algũa* |  |
 | `c1-l043` | &emsp;*falta, ou deſordẽ dalguem. ¶ Item, Ver* |  |
 | `c1-l044` | &emsp;*com algum abatimento, ou menos conceito da* |  |
-| `c1-l045` | &emsp;*peßoa do que tinha dantes. ¶ Item, Deixar* |  |
+| `c1-l045` | &emsp;*peßoa do que tinha dantes. ¶* I*tem, Deixar* |  |
 | `c1-l046` | &emsp;*de ver por erro algũa couſa que deuera aduer-* |  |
 | `c1-l047` | &emsp;*tir, como algum bom lanço do jogo que hum* |  |
 | `c1-l048` | &emsp;*deixou paßar, &c.* |  |
@@ -86,7 +86,7 @@ Lexical cross-check after independent scan reading: Entry Words Data of Nippojis
 | `c2-l009` | &emsp;*Vt,* Mivyeuo ſuru. *Plantar de ſemente,* |  |
 | `c2-l010` | &emsp;*ou depeuide, &c.* |  |
 | `c2-l011` | Mixe, ſuru, eta. *Moſtrar.* |  |
-| `c2-l012` | Mixe. *Tenda, partileiro, ou taboa em que ſe-* |  |
+| `c2-l012` | Mixe. T*enda, partileiro, ou taboa em que ſe-* |  |
 | `c2-l013` | &emsp;*poẽ varias couſas pera vender. ¶* Mixe- |  |
 | `c2-l014` | &emsp;uo daſu. *Por tenda, ou partileiro. ¶* Mi- |  |
 | `c2-l015` | &emsp;xeuo torivoqu. l, fazzuſu. *Tirar, ou deſ-* |  |
@@ -111,7 +111,7 @@ Lexical cross-check after independent scan reading: Entry Words Data of Nippojis
 | `c2-l034` | &emsp;xiru. *Conhecerſe aſi meſmo.* |  |
 | `c2-l035` | Mixǒ. Imada vmarezu. *Antes de nacer.* |  |
 | `c2-l036` | &emsp;*Vt,* Mixǒ ijen. *Antes de nacer.* |  |
-| `c2-l037` | Mixô. Sucoxi varǒ. *Surrirſe.* S. |  |
+| `c2-l037` | Mixô. Sucoxi varǒ. *Surrirſe. S.* |  |
 | `c2-l038` | Miya. *Ermida dos Camis.* |  |
 | `c2-l039` | Miya. *Filho do Rey. ¶ Itẽ, Seus paços.* |  |
 | `c2-l040` | Miyabara. *Molher de quem o Rey ouue al-* |  |

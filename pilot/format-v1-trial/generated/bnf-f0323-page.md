@@ -31,11 +31,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l015` | Mitate, tçuru, eta. *Vendo deſcubrir, ou a-* |  |
 | `c1-l016` | &emsp;*char com os olhos, &c. ¶* Xirono toco- |  |
 | `c1-l017` | &emsp;rouo mitatçuru. *Ver, & deſcubrir, ou a-* |  |
-| `c1-l018` | &emsp;*char lugar pera afortaleza. ¶ Item, Ir de* |  |
+| `c1-l018` | &emsp;*char lugar pera a fortaleza. ¶ Item, Ir de* |  |
 | `c1-l019` | &emsp;*tras acompanhando os hoſpedes quando ſe tor-* |  |
 | `c1-l020` | &emsp;*não, ou leuar a alguem diante.* |  |
 | `c1-l021` | Mitçu. *Mel.* |  |
-| `c1-l022` | Mitçubajeri. *Erua aßi chamada.* |  |
+| `c1-l022` | Mitçubajeri. E*rua aßi chamada.* |  |
 | `c1-l023` | Mitçubiqiriǒ. *Tres liſtras, ou riſcas que ſer-* |  |
 | `c1-l024` | &emsp;*uem de marca, ou diuiſa.* |  |
 | `c1-l025` | Mitçuboxino dai. *Bacio grande de pao ẽ que* |  |
@@ -57,7 +57,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l041` | Mitçuqemono. *Couſa achada.* |  |
 | `c1-l042` | Mitçuqimono. *Foro, ou tributo, ou rendimẽ* |  |
 | `c1-l043` | &emsp;*to que ſe paga ao Rey.* |  |
-| `c1-l044` | Mitçuuacumu. *Oeſtar alcorcouado, & dobra* |  |
+| `c1-l044` | Mitçuuacumu. *O eſtar alcorcouado, & dobra* |  |
 | `c1-l045` | &emsp;*do, ou encolhido, como velho. P.* |  |
 | `c1-l046` | Mitçuxegaua. *Nome de hum rio por onde* |  |
 | `c1-l047` | &emsp;*dizem os gentios que paßão as almas na outra* |  |
@@ -124,7 +124,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l043` | &emsp;*ſa como liuro, amigos, & c. por muito tẽpo.* |  |
 | `c2-l044` | Mitouoxi, ſu, oita. *Penetrar, ou paßar com* |  |
 | `c2-l045` | &emsp;*a vista.* |  |
-| `c2-l046` | Mit rino fiſô. *Peçonha adoçada com mel. Vt,* |  |
+| `c2-l046` | Mit rino fiſǒ. *Peçonha adoçada com mel. Vt,* |  |
 | `c2-l047` | &emsp;Mit rini fiſǒuo tçutçumu. *Emburulhar a* |  |
 
 ## Gathering signature
