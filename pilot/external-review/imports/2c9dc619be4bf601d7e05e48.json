@@ -1,0 +1,250 @@
+{
+  "schema": 2,
+  "package_id": "production-f0387-f0388-f0389-fa0928e8",
+  "input_manifest_sha256": "736bab01e8bb32503e6d1d557a7f406381565d09fb1b21935f52a4bd40f069be",
+  "reviewer": "OpenAI GPT-6 Astra Pro",
+  "pages": {
+    "bnf-f0387": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c1-l044: Retained compact Qiniataru. A narrow gap before ataru could be a word space; the Japanese interpretation is ki ni ataru in either case.",
+        "c2-l046: Xofǒ is retained despite a diagonal stain crossing its first o; surviving letterforms and the complete example support the chosen reading.",
+        "c1-l001, c1-l029–c1-l030, c1-l043, c2-l004, c2-l011, c2-l039: retained the supplied provisional st/ſt classifications in italic type, as required by the reference guide; no global ligature normalization was made."
+      ],
+      "decision_requests": [],
+      "structural_changes": [
+        {
+          "before": [
+            "c1-l016"
+          ],
+          "after": [
+            "c1-l016"
+          ],
+          "reason": "Restored the visible hanging indentation of the Portuguese continuation; text remains on the same physical row."
+        },
+        {
+          "before": [
+            "c1-l032"
+          ],
+          "after": [
+            "c1-l032"
+          ],
+          "reason": "Replaced the OCR’s indented M with the visible QI and encoded the enlarged Q as a two-line initial; its crop is expanded to include the full tail."
+        },
+        {
+          "before": [
+            "h1-l001"
+          ],
+          "after": [
+            "h1-l001"
+          ],
+          "reason": "Restored the visible word separation in the running header; the Q is separate from ANTES and DO from the following letter."
+        },
+        {
+          "before": [
+            "s1-01-l001"
+          ],
+          "after": [
+            "s1-01-l001"
+          ],
+          "reason": "Restored the visible word separation in the internal section heading; the Q is separate from ANTES and DO from the following letter."
+        },
+        {
+          "before": [
+            "h2-l001"
+          ],
+          "after": [
+            "h2-l001",
+            "pn-l001"
+          ],
+          "reason": "Separated the printed page number 194. from the column-2 running header into its own page_number zone; all header text and the number are retained."
+        },
+        {
+          "before": [
+            "u2b-l001"
+          ],
+          "after": [
+            "u2b-l001",
+            "cw-l001"
+          ],
+          "reason": "Split the merged bottom furniture into the centered signature Ccc 2 (existing ID retained) and the far-right roman catchword Qiaxa in separate signature and catchword zones; no text is discarded."
+        },
+        {
+          "before": [
+            "c2-l017"
+          ],
+          "after": [
+            "c2-l017"
+          ],
+          "reason": "Encoded the far-right parenthesis and displaced hoſpedes. as named far-right spans. The word completes c2-l018 semantically but remains on its actual printed row; OCR C was the parenthesis, not lost text."
+        },
+        {
+          "before": [
+            "c2-l041"
+          ],
+          "after": [
+            "c2-l041"
+          ],
+          "reason": "Removed the false continuation indent: Qiatat begins at the normal headword margin, as shown by the neighboring entries."
+        }
+      ],
+      "typeface_terms": {
+        "c1-l027": [
+          "Taif."
+        ]
+      }
+    },
+    "bnf-f0388": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c1-l022: Retained printed Qbari rather than silently supplying Qibari. The enlarged scan offers no secure i between Q and b; the lexical interpretation is kibari/kibaru, but a damaged or omitted type remains possible.",
+        "c2-l041: Retained ǔa as supplied; the mark over the u is flattened or damaged and its precise shape is uncertain. The sentence is interpreted with the particle wa, not a long vowel.",
+        "Italic st/ſt ligature classifications remain provisional where the guide requires retention; c2-l039 removes an erroneous extra s but does not assert a new general ligature rule."
+      ],
+      "decision_requests": [],
+      "structural_changes": [
+        {
+          "before": [
+            "c2-l011"
+          ],
+          "after": [
+            "c2-l011"
+          ],
+          "reason": "Restored the visible hanging indent of matçuru and its Portuguese continuation; it is not a new entry."
+        },
+        {
+          "before": [
+            "h1-l001"
+          ],
+          "after": [
+            "h1-l001"
+          ],
+          "reason": "Restored the visible word separation in the column-1 running header."
+        },
+        {
+          "before": [
+            "h2-l001"
+          ],
+          "after": [
+            "h2-l001"
+          ],
+          "reason": "Restored the spaced running header from the scan; the right header also restores the I omitted by OCR."
+        },
+        {
+          "before": [
+            "u2b-l001"
+          ],
+          "after": [
+            "u2b-l001"
+          ],
+          "reason": "Reclassified the far-right bottom word as an italic catchword, retaining its stable ID and text; it anticipates the opening couſa on f389."
+        }
+      ],
+      "typeface_terms": {
+        "c1-l008": [
+          "Xix."
+        ],
+        "c2-l032": [
+          "Taif."
+        ]
+      }
+    },
+    "bnf-f0389": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c2-l036: Retained the supplied e in ſenhe- before ria because the final vowel is damaged and open. The title is interpreted as senhoria, but a secure printed o cannot be established from this impression.",
+        "c1-l046: The scan visibly prints ôda with a circumflex; this is deliberately retained rather than changed to the caron expected from some related past-tense forms.",
+        "c2-l028: Retained Qicuſu no yen, with a visible space before no and no secure i after ſu, rather than regularizing it to the earlier Qicuſui headword.",
+        "c1-l005, c1-l029 and c2-l044: retained the supplied provisional italic st/ſt classifications; no general ligature normalization is asserted."
+      ],
+      "decision_requests": [],
+      "structural_changes": [
+        {
+          "before": [
+            "c1-l001"
+          ],
+          "after": [
+            "c1-l001"
+          ],
+          "reason": "Restored the visible hanging indentation of the Portuguese continuation from f388; no text or physical row is moved."
+        },
+        {
+          "before": [
+            "c2-l002"
+          ],
+          "after": [
+            "c2-l002"
+          ],
+          "reason": "Restored the visible hanging indentation in the continuation of Qicoye’s reputation example."
+        },
+        {
+          "before": [
+            "c2-l003"
+          ],
+          "after": [
+            "c2-l003"
+          ],
+          "reason": "Restored the visible hanging indentation in the continuation of Qicoye’s reputation example."
+        },
+        {
+          "before": [
+            "c2-l014"
+          ],
+          "after": [
+            "c2-l014"
+          ],
+          "reason": "Separated the far-right parenthesis and displaced Outono. into named far-right spans. The word completes c2-l015 semantically but is retained on its actual printed row, not attached to the latrine gloss."
+        },
+        {
+          "before": [
+            "h1-l001"
+          ],
+          "after": [
+            "h1-l001"
+          ],
+          "reason": "Recovered the complete spaced column-1 running header from the scan, replacing the truncated OCR QANTED."
+        },
+        {
+          "before": [
+            "h2-l001"
+          ],
+          "after": [
+            "h2-l001",
+            "pn-l001"
+          ],
+          "reason": "Separated page number 195. from the column-2 running header into a page_number zone and restored the header’s word spacing; the number is retained in full."
+        },
+        {
+          "before": [
+            "u2b-l001"
+          ],
+          "after": [
+            "u2b-l001",
+            "cw-l001"
+          ],
+          "reason": "Split the merged bottom furniture into the centered signature Ccc 3 and the far-right roman catchword Qido-. The existing ID is retained for the signature, and the OCR a is corrected to the visible signature digit 3; no printed text is discarded."
+        }
+      ],
+      "typeface_terms": {
+        "c1-l008": [
+          "Biǒbus"
+        ],
+        "c1-l015": [
+          "Faxiras"
+        ],
+        "c2-l008": [
+          "Feiq."
+        ],
+        "c2-l009": [
+          "Miaco"
+        ]
+      }
+    }
+  }
+}
