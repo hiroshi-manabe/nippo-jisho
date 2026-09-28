@@ -1,0 +1,228 @@
+{
+  "schema": 2,
+  "package_id": "production-f0393-f0394-f0395-fa0928e8",
+  "input_manifest_sha256": "87bfd92f257b003da1c8519a69c46b0c609c98985699ad55b585fbadd6345c6d",
+  "reviewer": "OpenAI — GPT-6 Astra Pro; external scan-grounded AI review (2026-09-25)",
+  "pages": {
+    "bnf-f0393": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c1-l003: Chosen reading Sugi. The u is abraded; surviving strokes, the clear g, and the sinew/flesh gloss support Sugi. It is retained without regularizing to modern suji."
+      ],
+      "decision_requests": [],
+      "structural_changes": [
+        {
+          "before": [
+            "h1-l001"
+          ],
+          "after": [
+            "h1-l001"
+          ],
+          "reason": "Restored the complete running header Q ANTES DO I. from the scan, including the omitted I and word spacing."
+        },
+        {
+          "before": [
+            "h2-l001"
+          ],
+          "after": [
+            "h2-l001"
+          ],
+          "reason": "Corrected the running header and recovered folio number 197, represented as a separate far-right segment of the same header line rather than OCR z."
+        },
+        {
+          "before": [
+            "c2-l048"
+          ],
+          "after": [
+            "c2-l048",
+            "sig-l001",
+            "cw-l001"
+          ],
+          "reason": "Separated the final body continuation Rey. from the printer signature Ddd and the catchword Qinxit, which OCR merged into one body row. All printed material is retained in its proper zone, with the original body continuation indentation preserved."
+        }
+      ],
+      "typeface_terms": {
+        "c2-l021": [
+          "Mochis"
+        ],
+        "c2-l029": [
+          "nonos"
+        ]
+      }
+    },
+    "bnf-f0394": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c1-l031: Chosen reading Suu (visible fragment only). An opaque ink blot conceals the remainder of the Japanese gloss between visible Suu and the printed period. The canonical line retains only legible letters and the original period; Suu is not asserted to be the full word. The OCR reading Suqeta is rejected; no concealed letters are reconstructed."
+      ],
+      "decision_requests": [],
+      "structural_changes": [
+        {
+          "before": [
+            "h2-l001"
+          ],
+          "after": [
+            "h2-l001"
+          ],
+          "reason": "Restored the printed word spacing in the right running header Q ANTES DO I.; retained the header ID and role."
+        },
+        {
+          "before": [
+            "c1-l039"
+          ],
+          "after": [
+            "c1-l039"
+          ],
+          "reason": "Segmented the displaced right-edge parenthesis and do Rey. from the main body text on this physical row. The fragment completes the following entry semantically but remains on its printed row; no text was moved to the next row."
+        },
+        {
+          "before": [
+            "c1-l047"
+          ],
+          "after": [
+            "c1-l047"
+          ],
+          "reason": "Removed erroneous continuation indentation: Qiǒca begins a new headword at the column margin; its definition continues at the top of column 2."
+        },
+        {
+          "before": [
+            "u2b-l001"
+          ],
+          "after": [
+            "u2b-l001"
+          ],
+          "reason": "Corrected OCR dudai to the printed italic catchword dadas, assigned the existing furniture zone the catchword role, and placed it at the far right. This repeats the next page opening and is not body text."
+        }
+      ],
+      "typeface_terms": {
+        "c1-l004": [
+          "Xix."
+        ],
+        "c2-l037": [
+          "Xix."
+        ]
+      }
+    },
+    "bnf-f0395": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c1-l005: Chosen reading Qiodai. No clear accent survives over o in this impression. The unaccented scan reading is retained despite Qiǒdai in the supplied lexical index; no accent is supplied from the headword data.",
+        "u2b-l001: Chosen reading Ddd 2. The small final signature sort is read as 2; its ink-heavy lower portion is a-like. The chosen reading is incorporated and noted beside the furniture line."
+      ],
+      "decision_requests": [],
+      "structural_changes": [
+        {
+          "before": [
+            "h1-l001"
+          ],
+          "after": [
+            "h1-l001"
+          ],
+          "reason": "Restored the printed word spacing of Q ANTES DO I. in the left running header."
+        },
+        {
+          "before": [
+            "h2-l001"
+          ],
+          "after": [
+            "h2-l001"
+          ],
+          "reason": "Separated folio 198. as a far-right segment of the same header row and corrected OCR terminal hyphen to the printed period."
+        },
+        {
+          "before": [
+            "c1-l045"
+          ],
+          "after": [
+            "c1-l045"
+          ],
+          "reason": "Restored continuation indentation for go ſe deſcobre.; it finishes logo and the preceding falsehood example."
+        },
+        {
+          "before": [
+            "c1-l048"
+          ],
+          "after": [
+            "c1-l048"
+          ],
+          "reason": "Restored the indentation of the final body example Vt. Qiogin ſuru. under Qiogin; retained its physical row and ID."
+        },
+        {
+          "before": [
+            "c2-l046"
+          ],
+          "after": [
+            "c2-l046"
+          ],
+          "reason": "Restored continuation indentation: the tree comparison completes the Qiǒqua definition on the preceding row."
+        },
+        {
+          "before": [
+            "u2b-l001"
+          ],
+          "after": [
+            "u2b-l001",
+            "cw-l001"
+          ],
+          "reason": "Split OCR-merged bottom furniture into printer signature Ddd 2 under the existing ID and a separate far-right italic catchword cia. under a fresh ID. Corrected the numeral-like a reading to 2, recorded with a caveat; all printed material is accounted for."
+        },
+        {
+          "before": [
+            "c1-l047"
+          ],
+          "after": [
+            "c1-l047"
+          ],
+          "reason": "Expanded the body crop upward by 30 native pixels to include the complete surviving high initial Q; text placement and physical line ID are unchanged."
+        },
+        {
+          "before": [
+            "c2-l045"
+          ],
+          "after": [
+            "c2-l045"
+          ],
+          "reason": "Expanded the body crop upward by 20 native pixels to include the full initial Q at the high left edge of the slanted line; retained its ID and placement."
+        },
+        {
+          "before": [
+            "c2-l047"
+          ],
+          "after": [
+            "c2-l047"
+          ],
+          "reason": "Expanded the body crop upward by 20 native pixels to include the full initial Q; the printed catchword remains separate furniture."
+        }
+      ],
+      "typeface_terms": {
+        "c1-l020": [
+          "Miyaco"
+        ],
+        "c1-l029": [
+          "Feiq."
+        ],
+        "c2-l001": [
+          "Miaco"
+        ],
+        "c2-l004": [
+          "Nãgaſaqui"
+        ],
+        "c2-l015": [
+          "Qiojacu"
+        ],
+        "c2-l018": [
+          "Faxis"
+        ],
+        "c2-l034": [
+          "Xaca"
+        ]
+      }
+    }
+  }
+}
