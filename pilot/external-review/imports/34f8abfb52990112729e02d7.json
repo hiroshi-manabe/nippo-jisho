@@ -1,0 +1,201 @@
+{
+  "schema": 2,
+  "package_id": "production-f0369-f0370-f0371-fa0928e8",
+  "input_manifest_sha256": "997399cb65c2334c1a41f66cd94a2f9ca85e3840536481ee9b994d6170cef7b7",
+  "reviewer": "GPT-6 Astra Pro (OpenAI; external AI scan-grounded review, not human approval)",
+  "pages": {
+    "bnf-f0369": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c1-l032: Retained the supplied compact agarganta; the narrow local gap does not firmly establish a separate word space.",
+        "c1-l040: Retained the visibly unusual &. & sequence instead of supplying an expected c in &c.",
+        "c2-l015: Two small traces over the u of arumono are not securely a printed tilde after enlargement. The supplied unaccented reading is retained.",
+        "c2-l033: The a after long s in naſaruru is abraded. The supplied reading is supported by the remaining strokes, spacing, and construction and has been incorporated."
+      ],
+      "decision_requests": [],
+      "structural_changes": [
+        {
+          "before": [
+            "h2-l001"
+          ],
+          "after": [
+            "h2-l001",
+            "pn-l001"
+          ],
+          "reason": "Separated the right running header from the printed page number. The source reads N ANTES DO O. and 185., not the OCR combination ending IB5.; the new number line is placed at the far right in its own page_number zone."
+        },
+        {
+          "before": [
+            "u2b-l001"
+          ],
+          "after": [
+            "u2b-l001",
+            "cw-l001"
+          ],
+          "reason": "Split the provisional combined footer into the gathering signature A a a (retaining u2b-l001) and the far-right catchword Nomi- (fresh cw-l001). Replaced the unclassified zone with signature and catchword zones; all printed footer text is retained and its type treatment follows the scan."
+        }
+      ],
+      "typeface_terms": {
+        "c1-l012": [
+          "Feiq."
+        ],
+        "c1-l021": [
+          "Feiq."
+        ],
+        "c1-l043": [
+          "Nodocani"
+        ],
+        "c2-l003": [
+          "Tog."
+        ],
+        "c2-l027": [
+          "Cazzura"
+        ],
+        "c2-l031": [
+          "Camis"
+        ],
+        "c2-l032": [
+          "Fotoques"
+        ]
+      }
+    },
+    "bnf-f0370": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c1-l012: Retained çapadoura rather than expected tapadoura. The native scan supports the c-shaped body and descending cedilla-like mark; the apparent printed anomaly is documented in the line note.",
+        "c1-l034: The citation is copied as Tai., the visible label. It is not expanded to the expected Taif. without a securely printed additional letter.",
+        "c1-l040 and c1-l042: Retained the draft’s italic final P. labels on their locally slanted appearance. Comparison with the upright P. at c2-l027 leaves a nonblocking typeface caveat; the poetic-usage meaning is not in doubt."
+      ],
+      "decision_requests": [],
+      "structural_changes": [
+        {
+          "before": [
+            "h1-l001"
+          ],
+          "after": [
+            "h1-l001"
+          ],
+          "reason": "Restored the running-header word separation N ANTES DO O. from the scan, correcting N ANTESDO O.; the header remains in its existing running_header zone."
+        },
+        {
+          "before": [
+            "c1-l003",
+            "c1-l004",
+            "c1-l005",
+            "c1-l007",
+            "c1-l012",
+            "c1-l018"
+          ],
+          "after": [
+            "c1-l003",
+            "c1-l004",
+            "c1-l005",
+            "c1-l007",
+            "c1-l012",
+            "c1-l018"
+          ],
+          "reason": "Restored level-1 indentation to these six physical continuation rows. Each begins at the continuation margin in the native scan; their original IDs, order, and full-body crops are retained."
+        },
+        {
+          "before": [
+            "c2-l044"
+          ],
+          "after": [
+            "c2-l044"
+          ],
+          "reason": "Removed the erroneous continuation indentation from Nori, u, otta. Its initial N aligns with the other headwords at the column margin; the row and its existing crop remain unchanged in identity."
+        },
+        {
+          "before": [
+            "u2b-l001"
+          ],
+          "after": [
+            "u2b-l001"
+          ],
+          "reason": "Reclassified the isolated bottom-right noru. as a catchword and applied far-right placement, retaining its ID. The visible final period is restored and ordinary Roman type replaces provisional display treatment. It repeats the first word on f0371 and is not an extra body row."
+        }
+      ],
+      "typeface_terms": {
+        "c1-l007": [
+          "Zaxiqui"
+        ],
+        "c1-l018": [
+          "Catana"
+        ],
+        "c1-l025": [
+          "Fab."
+        ],
+        "c1-l034": [
+          "Tai."
+        ],
+        "c2-l009": [
+          "Tatami"
+        ]
+      }
+    },
+    "bnf-f0371": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c1-l003: Retained curum. as the visible, damaged or abbreviated-looking reading. Kuruma is the contextual identification, but a final a is not securely recoverable from the native scan and has not been supplied.",
+        "c1-l009: Retained the printed abalrauento, including its unusual letter order and compact spacing, rather than modernizing the nautical expression.",
+        "c2-l038: Incorporated Norinauori for the damaged headword. The surviving letters, the position-adjustment gloss, adjacent Norinauoxi, and the supplied NINJAL lexical aid support it, but the initial ori segment is rubbed.",
+        "c2-l047: Retained the supplied compact malerrando because the local spacing does not securely establish a word break."
+      ],
+      "decision_requests": [],
+      "structural_changes": [
+        {
+          "before": [
+            "h1-l001"
+          ],
+          "after": [
+            "h1-l001"
+          ],
+          "reason": "Corrected the garbled running header N ANTES D V V. to the scan-supported N ANTES DO O.; it remains in the existing column-1 running_header zone."
+        },
+        {
+          "before": [
+            "h2-l001"
+          ],
+          "after": [
+            "h2-l001",
+            "pn-l001"
+          ],
+          "reason": "Separated the right running header from the printed page number 186., correcting OCR IBô. The header retains h2-l001; fresh pn-l001 is placed at the far right in its own page_number zone."
+        },
+        {
+          "before": [
+            "u2b-l001"
+          ],
+          "after": [
+            "u2b-l001",
+            "cw-l001"
+          ],
+          "reason": "Split the provisional footer into gathering signature A a a 2 (retained u2b-l001) and far-right catchword Nori- (fresh cw-l001), with separate signature and catchword zones. All printed material is preserved and source type treatment is restored."
+        }
+      ],
+      "typeface_terms": {
+        "c1-l004": [
+          "Coxi"
+        ],
+        "c1-l006": [
+          "Catana"
+        ],
+        "c1-l032": [
+          "Taif."
+        ],
+        "c2-l001": [
+          "Tac."
+        ],
+        "c2-l032": [
+          "Fune"
+        ]
+      }
+    }
+  }
+}
