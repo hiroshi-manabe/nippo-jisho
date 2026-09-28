@@ -1,0 +1,218 @@
+{
+  "schema": 2,
+  "package_id": "production-f0384-f0385-f0386-fa0928e8",
+  "input_manifest_sha256": "7967f7f55615cbc870c7087dc3c5c3b83a92e773fae37a75c64d33b6e8216ca6",
+  "reviewer": "GPT-6 Astra Pro (OpenAI); external scan-grounded two-pass review",
+  "pages": {
+    "bnf-f0384": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c2-l015: coixiſani is chosen despite abrasion in its middle. Surviving strokes and the Japanese construction support this reading rather than the OCR extra r; the caveat is retained in the line note.",
+        "c2-l018: The apparent printed eſgosta is retained, rather than silently replacing it with expected esgota. This is a nonblocking source-spelling caveat.",
+        "c2-l037: The unusual short second Japanese form uǒ is retained after enlargement; it has not been expanded or normalized to an inferred modern verb.",
+        "c2-l038: The long-u mark in Fǔfuno is worn. The supplied caron reading is retained and the uncertainty is stated in the line note.",
+        "c2-l042: A faint final caron is read in Qeôriǒ. It is less distinct than the first circumflex; the chosen reading is incorporated and caveated in the line note."
+      ],
+      "decision_requests": [],
+      "structural_changes": [
+        {
+          "before": [
+            "h1-l001"
+          ],
+          "after": [
+            "h1-l001"
+          ],
+          "reason": "Restored the scan-visible word separation in the first running header: Q ANTES DO E. The display type, header role and stable ID are retained."
+        },
+        {
+          "before": [
+            "u1b-l001"
+          ],
+          "after": [
+            "u1b-l001"
+          ],
+          "reason": "Moved the misclassified bottom-furniture row into column-1 immediately after c1-l047. Its drugada. completes ma-drugada across the physical line boundary, and the visible upright S. usage label has been restored. Retained the existing ID, changed display styling to italic drugada. plus roman S., restored continuation indentation, and added the inspected native body crop [264,3380,1209,115]. No body text is duplicated or lost."
+        },
+        {
+          "before": [
+            "h2-l001"
+          ],
+          "after": [
+            "h2-l001"
+          ],
+          "reason": "Restored the scan-visible word separation in the second running header: Q ANTES DO E. The display type, header role and stable ID are retained."
+        },
+        {
+          "before": [
+            "u2b-l001"
+          ],
+          "after": [
+            "u2b-l001"
+          ],
+          "reason": "Reclassified the former unclassified bottom furniture as the far-right catchword in a dedicated catchword zone. Read Qeôtai. with a circumflex, not Qeǒtai., and restored its roman rather than display type; the same ID is retained."
+        }
+      ],
+      "typeface_terms": {
+        "c2-l007": [
+          "Xaca"
+        ],
+        "c2-l016": [
+          "Feiq."
+        ],
+        "c2-l027": [
+          "Qeôto"
+        ]
+      }
+    },
+    "bnf-f0385": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c1-l005: The alternative ſǒten has a worn initial long ſ and o accent. The scan-grounded long-ſ/caron reading is chosen over OCR fôten and explained in the note.",
+        "c1-l006 and c2-l002: Enlargement supports the first-a tilde in nhãa and menhãa on this page. These local readings are retained despite the supplied reference notes reporting a different usual placement on earlier pages; both line notes explain the distinction.",
+        "c1-l041: Cecoroyoi is retained as the locally abraded printed reading. Although kokoroyoi is the likely intended Japanese word, an expected o has not been substituted for the uncertain printed e.",
+        "c2-l020: The scan appears to print bomem where homem would be expected. The apparent printing anomaly is retained and explicitly caveated in the line note."
+      ],
+      "decision_requests": [],
+      "structural_changes": [
+        {
+          "before": [
+            "h1-l001"
+          ],
+          "after": [
+            "h1-l001"
+          ],
+          "reason": "Restored the scan-visible word separation in the first running header: Q ANTES DO E. The display type, header role and stable ID are retained."
+        },
+        {
+          "before": [
+            "c1-l045"
+          ],
+          "after": [
+            "c1-l045"
+          ],
+          "reason": "Restored the scan-visible continuation indentation for liares de algũa caſa., which completes fami-liares from c1-l044. The existing row ID and crop are retained."
+        },
+        {
+          "before": [
+            "h2-l001"
+          ],
+          "after": [
+            "h2-l001",
+            "pn-l001"
+          ],
+          "reason": "Split the OCR-combined second running header and printed page number. h2-l001 retains Q ANTES DO E. in its running-header zone; fresh pn-l001 records the scan-visible 193. in a dedicated page_number zone at the far right. The original I9s. reading is corrected, not discarded; both remain display type."
+        },
+        {
+          "before": [
+            "u2b-l001"
+          ],
+          "after": [
+            "sig-l001",
+            "u2b-l001"
+          ],
+          "reason": "Split the OCR-combined bottom furniture into the printed signature C c c, recorded under fresh sig-l001 in a signature zone, and the far-right roman catchword Qet-, retaining u2b-l001 in a catchword zone. This replaces the misread combined CC Qut. without losing either physical item; body rows and IDs are unchanged."
+        }
+      ],
+      "typeface_terms": {
+        "c1-l017": [
+          "Xaca",
+          "Fotoque"
+        ],
+        "c2-l036": [
+          "Qeppan"
+        ]
+      }
+    },
+    "bnf-f0386": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c1-l006: Qeßuru is one word, but the font assignment of its single β-shaped double-s sort is not fully secure. The supplied italic classification of ß alone is conservatively retained as Qe*ß*uru; the sort is not expanded into two long ſ characters, and the line note states the typography caveat.",
+        "c1-l026: The apparent printed spelling catologo is retained, distinct from catalogo at c1-l028. It is treated as a source irregularity rather than silently normalized.",
+        "c1-l027: The final ru in tçutayu ru is abraded and visibly separated. The chosen reading preserves this separation rather than silently joining the expected Japanese verb; the line note records the caveat.",
+        "c2-l035: The initial m in mo has a damaged final stroke. Enlargement supports retained mo rather than the superficially plausible no; this choice and its basis are recorded in the line note."
+      ],
+      "decision_requests": [],
+      "structural_changes": [
+        {
+          "before": [
+            "h1-l001"
+          ],
+          "after": [
+            "h1-l001"
+          ],
+          "reason": "Restored the scan-visible word separation in the first running header: Q ANTES DO E. The display type, header role and stable ID are retained."
+        },
+        {
+          "before": [
+            "c1-l002"
+          ],
+          "after": [
+            "c1-l002"
+          ],
+          "reason": "Restored the scan-visible continuation indentation of the Portuguese explanation beginning ou aſſento. The physical row, stable ID and native crop are unchanged."
+        },
+        {
+          "before": [
+            "c1-l008"
+          ],
+          "after": [
+            "c1-l008"
+          ],
+          "reason": "Restored the scan-visible continuation indentation of ſa determinada., completing cou-ſa from the preceding row. The physical row, stable ID and native crop are unchanged."
+        },
+        {
+          "before": [
+            "h2-l001"
+          ],
+          "after": [
+            "h2-l001"
+          ],
+          "reason": "Restored the scan-visible word separation in the second running header: Q ANTES DO E. The display type, header role and stable ID are retained."
+        },
+        {
+          "before": [
+            "c2-l002"
+          ],
+          "after": [
+            "c2-l002"
+          ],
+          "reason": "Restored the scan-visible continuation indentation of the row beginning lheres no roſto., which continues mo-lheres from c2-l001. The stable ID and native crop are unchanged."
+        },
+        {
+          "before": [
+            "u2b-l001"
+          ],
+          "after": [
+            "u2b-l001"
+          ],
+          "reason": "Reclassified the former unclassified bottom furniture as a dedicated far-right catchword. The scan reads italic tar-, not the OCR display-type ſor-. Retained the ID and kept this continuation cue separate from body text; no next-page wording is invented."
+        }
+      ],
+      "typeface_terms": {
+        "c1-l037": [
+          "Qechiyen"
+        ],
+        "c2-l020": [
+          "Cami",
+          "Qeximecqi"
+        ],
+        "c2-l025": [
+          "Ximo",
+          "Foximecaxi"
+        ],
+        "c2-l035": [
+          "Taif."
+        ],
+        "c2-l047": [
+          "Feiq."
+        ]
+      }
+    }
+  }
+}
