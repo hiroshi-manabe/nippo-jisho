@@ -1,0 +1,197 @@
+{
+  "schema": 2,
+  "package_id": "production-f0417-f0418-f0419-fa0928e8",
+  "input_manifest_sha256": "df9b3eb64040b235066af92ffda17ae52195384bcca60560b05c915104d12553",
+  "reviewer": "GPT-6 Astra Pro (OpenAI), external AI scan-grounded review; not human approval",
+  "pages": {
+    "bnf-f0417": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c1-l001: Ieni is chosen for the coin synonym. The consonantal capital I is consistent with the supplied historical notes, but the initial type is worn; the canonical text and line note retain this choice explicitly.",
+        "c1-l005: Reôtocu has a faint mark read as a circumflex. The local image supports that choice, though the mark is less clear than the letters; NINJAL was a lexical cross-check only.",
+        "c1-l007: Reôxi is chosen despite severe wear in the e and accent. The faint material before Caçador is not read as an independent paragraph sign.",
+        "c1-l009: Fut tocoro is retained literally. The gloss identifies two places, but the weak intervening printing does not justify supplying an expected a.",
+        "c1-l023: The aligned touoi is retained for the distance synonym; the medial letter is worn and superficially resembles more than one narrow stroke.",
+        "c1-l039: Reqijenua is retained as a possible printing anomaly. The second suffix type appears to open upward as u, despite the expected and NINJAL form Reqijenna.",
+        "c2-l035: Xôri retains a roman X with sloping italic ôri; the capital is less decisive than the lowercase and the full word is marked in typeface_terms."
+      ],
+      "decision_requests": [],
+      "structural_changes": [
+        {
+          "before": [
+            "h1-l001"
+          ],
+          "after": [
+            "h1-l001"
+          ],
+          "reason": "Corrected the running header from RANTESDE to R ANTES DO E., preserving its display type and assigning the visible word separations."
+        },
+        {
+          "before": [
+            "h2-l001"
+          ],
+          "after": [
+            "h2-l001",
+            "pn-l001"
+          ],
+          "reason": "Split the combined right running header and page number. The header reads R, ANTES DO I. (including the printed comma), and the separate page_number zone records 209., not the OCR fragment zc7. No furniture text is discarded."
+        },
+        {
+          "before": [
+            "c2-l019",
+            "c2-l020"
+          ],
+          "after": [
+            "c2-l019",
+            "c2-l020"
+          ],
+          "reason": "Reassigned the fragments of the two-row enlarged R to the RI. headword on c2-l019, annotated initial=2, and restored the indentation of c2-l020. The spurious y l. / N fragments were OCR representations of that same initial, not additional words. Enlarged the owning crop to contain the complete R; the following paragraph sign and example remain on c2-l020."
+        },
+        {
+          "before": [
+            "c2-l038"
+          ],
+          "after": [
+            "c2-l038"
+          ],
+          "reason": "Marked the opening parenthesis and qualquer couſa. as separate far-right spans on their actual physical row. They complete the next entry semantically but were not moved into c2-l039 or joined to it."
+        },
+        {
+          "before": [
+            "u2b-l001"
+          ],
+          "after": [
+            "sig-l001",
+            "cw-l001"
+          ],
+          "reason": "Split unclassified bottom furniture into the roman gathering signature G g g and the italic, far-right catchword ſeparação. Corrected OCR Crgg; all visible textual furniture is represented in its physical role, and the obsolete provisional zone note was removed."
+        }
+      ],
+      "typeface_terms": {
+        "c2-l035": [
+          "Xôri"
+        ]
+      }
+    },
+    "bnf-f0418": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c2-l041: The chosen reading is gèralmente. The missing l is visible, and the mark over e looks like a grave stroke, although a worn tilde is possible. Ximo remains italic in its sentence.",
+        "c2-l043: The original roman T / italic ira boundary is retained in Tira because the capital looks upright. Its precise font is less certain than the sloping lowercase."
+      ],
+      "decision_requests": [],
+      "structural_changes": [
+        {
+          "before": [
+            "h1-l001"
+          ],
+          "after": [
+            "h1-l001"
+          ],
+          "reason": "Separated DO I. in the running header while retaining the clearly printed transposition ANETS. The source reads R ANETS DO I.; it was not normalized to ANTES."
+        },
+        {
+          "before": [
+            "h2-l001"
+          ],
+          "after": [
+            "h2-l001"
+          ],
+          "reason": "Restored the visible word separations in the display running header R ANTES DO I."
+        },
+        {
+          "before": [
+            "u2b-l001"
+          ],
+          "after": [
+            "u2b-l001"
+          ],
+          "reason": "Reclassified the bottom unclassified furniture as a catchword, retained its stable ID, set far-right placement, and transcribed the roman Rin-a. with the visible internal hyphen. Removed the obsolete provisional zone note; no body row was removed."
+        }
+      ],
+      "typeface_terms": {
+        "c1-l046": [
+          "Taif"
+        ],
+        "c2-l007": [
+          "Rei"
+        ],
+        "c2-l008": [
+          "xa",
+          "guio",
+          "xo",
+          "ſu",
+          "Gueinô"
+        ],
+        "c2-l041": [
+          "Ximo"
+        ],
+        "c2-l045": [
+          "Cami",
+          "Yeri"
+        ]
+      }
+    },
+    "bnf-f0419": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c1-l023: prĩcipio is chosen for the damaged beginning-of-spring phrase. The nasal abbreviation and surviving strokes fit this reading, but the r/c region is poorly inked.",
+        "c1-l025: Rinchǔ is chosen rather than the OCR Rinchi. Two stems support u, while the caron above it is extremely faint; the lexical identification was checked against NINJAL after independent reading.",
+        "c2-l009: Rinri is chosen for the neighbouring-settlement entry. The penultimate r is severely worn and could superficially resemble the draft i.",
+        "c2-l026: The terminal dot-like mark after transforma is retained from the aligned draft even though the word continues as çoens below. It is not silently replaced by a hyphen.",
+        "c2-l028: petição completes re- from the preceding row. The t is very poorly inked; its traces and the later repetir support the chosen reading, but it is not fully legible.",
+        "c2-l039: Zaxiqui retains the draft roman Z / italic axiqui boundary; the capital font is less decisive than the sloping lowercase. The whole word is included in typeface_terms.",
+        "c2-l042: Teras retains the draft roman T / italic eras boundary. The upright capital is clearer than the exact classification of all lowercase types; the whole term is included in typeface_terms."
+      ],
+      "decision_requests": [],
+      "structural_changes": [
+        {
+          "before": [
+            "h1-l001"
+          ],
+          "after": [
+            "h1-l001"
+          ],
+          "reason": "Restored the running-header word separation R ANTES DO I. without altering the body line IDs."
+        },
+        {
+          "before": [
+            "h2-l001"
+          ],
+          "after": [
+            "h2-l001",
+            "pn-l001"
+          ],
+          "reason": "Split the combined right running header and page number into R ANTES DO I. and a separate page_number zone containing 210. The OCR numeral fragment zre is corrected from the native scan; no furniture is omitted."
+        },
+        {
+          "before": [
+            "u2b-l001"
+          ],
+          "after": [
+            "sig-l001",
+            "cw-l001"
+          ],
+          "reason": "Split the combined bottom furniture into the roman gathering signature G g g 2 and the roman, far-right catchword Ten-. Corrected the false initial ſ of the signature and retained the catchword hyphen. Removed only the obsolete provisional classification note."
+        }
+      ],
+      "typeface_terms": {
+        "c1-l023": [
+          "Cami"
+        ],
+        "c2-l039": [
+          "Zaxiqui"
+        ],
+        "c2-l042": [
+          "Teras"
+        ]
+      }
+    }
+  }
+}
