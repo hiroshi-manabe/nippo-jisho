@@ -112,7 +112,7 @@ Lexical-aid attribution for all three pages: Entry Words Data of Nippojisho, NIN
 | `c2-l036` | Miǒrio i, Cami fotoqeno naixô. *O interi-* |  |
 | `c2-l037` | &emsp;*or, & vontade dos Camis, & Fotoques.* |  |
 | `c2-l038` | Miǒtan. *Cabeça. Vt,* Miǒtan vchi vara- |  |
-| `c2-l039` | &emsp;rena. *Guardainão vos quebre a cabeça.* B. |  |
+| `c2-l039` | &emsp;rena. *Guardainão vos quebre a cabeça. B.* |  |
 | `c2-l040` | Miǒtan. Miǒnichino aſa. *Amanhãa pella* |  |
 | `c2-l041` | &emsp;*manhãa.* |  |
 | `c2-l042` | Miǒxeqi. Aquru yǔbe. i, Aſuno banguei. |  |
@@ -120,7 +120,7 @@ Lexical-aid attribution for all three pages: Entry Words Data of Nippojisho, NIN
 | `c2-l044` | Miǒxu. i, Fiacuxǒno votona. *Cabeça dos* |  |
 | `c2-l045` | &emsp;*lauradores.* |  |
 | `c2-l046` | Miǒya. Aquru yo. *Noite que vem.* |  |
-| `c2-l047` | Mippô. *Abelha que faz mel.* S. |  |
+| `c2-l047` | Mippô. *Abelha que faz mel. S.* |  |
 
 ## Printed signature
 
