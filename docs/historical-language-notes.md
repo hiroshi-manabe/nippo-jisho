@@ -212,6 +212,8 @@ The lowercase but independent `aburamono` entry is therefore not paradoxical. Ca
 
 **Project review guidance (2026-09-08): `Vt.` typeface.** The user reports that `Vt.` is frequently italic, yet AI transcription sometimes records visibly italic instances as roman. Review it with italic as the initial expectation and check against nearby letterforms. This is a practical prior based on observed corrections, not a quantified distribution or a universal typographic rule. Clearly roman instances remain roman; do not alter the letters or punctuation merely to match an expected form.
 
+**Provisional `S.` typeface convention (2026-09-30).** Repeated human visual comparisons found the standalone written-language label `S.` to resemble confirmed italic capitals more than roman ones. As a bulk convention, roman-labelled `S.` tokens on pages without recorded human review have been changed to italic; human-reviewed pages and other uses of `S` remain untouched. This is not a claim that every affected impression was individually adjudicated. Earlier AI line notes describing these labels as “upright” or “roman” are superseded by the explicit typeface-update note attached to affected lines. A later human check may override any individual instance.
+
 ### 3.3 Long `ſ`
 
 Long `ſ` is not simply `f`, and in Japanese romanized prints its distribution may itself mark continuation inside a word. Chiba's survey argues that round `s` and long `ſ` have functional distributions rather than being random allographs, though type collision with following diacritics also affects the choice (2008: 27–36). In Portuguese glosses, long `ſ` is also an ordinary early-print allograph.
