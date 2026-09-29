@@ -45,12 +45,12 @@ Lexical cross-check after independent scan reading: Entry Words Data of Nippojis
 | `c1-l027` | &emsp;*ou aſas que ficão vizinhas ao corpo do homem* |  |
 | `c1-l028` | &emsp;*que o tem no braço eſquerdo.* Tadaſaqi. *He* |  |
 | `c1-l029` | &emsp;*aparte, ou aſas eſquerdas.* |  |
-| `c1-l030` | Miyuqi. P. i, Fucai yuqi. *Neue amontoa-* |  |
+| `c1-l030` | Miyuqi. *P.* i, Fucai yuqi. *Neue amontoa-* |  |
 | `c1-l031` | &emsp;*da, ou alta.* |  |
 | `c1-l032` | Miyuqi. *Ida, ou ſaida de Rey.* |  |
 | `c1-l033` | Mizame. *O ver algũa couſa friamente, ou ſẽ* |  |
 | `c1-l034` | &emsp;*aquelle feruor cõ q̃ primeiro a via. ¶* Mizame |  |
-| `c1-l035` | &emsp;gaſuru, l, xita. *Idem. No Ximo ſe diz;* |  |
+| `c1-l035` | &emsp;gaſuru, l, xita. *Idem. No Ximo ſe diz*; |  |
 | `c1-l036` | &emsp;Miſabita. *Idem.* |  |
 | `c1-l037` | Mizauo. *Bambu, ou vara da embarcação.* |  |
 | `c1-l038` | Mizo. *Regato, ou cano que vai pello chão.* |  |
@@ -61,7 +61,7 @@ Lexical cross-check after independent scan reading: Entry Words Data of Nippojis
 | `c1-l043` | Mizoſanzai. *Hum paſſarinho. Vide,* Mi- |  |
 | `c1-l044` | &emsp;ſoſanzai. |  |
 | `c1-l045` | Mizôu. Imada catçute arazu. *Couſa não a-* |  |
-| `c1-l046` | &emsp;*contecida tè gora.* S. |  |
+| `c1-l046` | &emsp;*contecida tè gora. S.* |  |
 | `c1-l047` | Mizzu. *Agoa. ¶* Mizzuuo ſumaſu. *A-* |  |
 
 ## Column 2 running header
@@ -85,19 +85,19 @@ Lexical cross-check after independent scan reading: Entry Words Data of Nippojis
 | `c2-l003` | &emsp;*tar agoa em cima dalgũa couſa. ¶* Mizzu- |  |
 | `c2-l004` | &emsp;ga maſu. *Leuar o rio grande enchente.* |  |
 | `c2-l005` | &emsp;*¶* Mizzuuo cumu. *Tirar agoa. ¶* Miz- |  |
-| `c2-l006` | &emsp;zuuo muſubu. P. *Tirar agoa, ou lauar o* |  |
+| `c2-l006` | &emsp;zuuo muſubu. *P. Tirar agoa, ou lauar o* |  |
 | `c2-l007` | &emsp;*rosto, ou mãos cõ agoa. ¶* Mizzuuo ſoſoqu. |  |
 | `c2-l008` | &emsp;*Borrifar com agoa. ¶* Mizzuuo vtçu. *Botar* |  |
 | `c2-l009` | &emsp;*agoa como quẽ agoa a caſa, ou pateo.* |  |
 | `c2-l010` | Mizzubixacu. *Coco de tirar agoa.* |  |
 | `c2-l011` | Mizzubune. *Pia de agoa, ou lauatorio.* |  |
 | `c2-l012` | Mizzucane. *Azougue.* |  |
-| `c2-l013` | Mizzucara. *Eu meſmo.* S. |  |
+| `c2-l013` | Mizzucara. *Eu meſmo. S.* |  |
 | `c2-l014` | Mizzucaſa. *Crecente, ou enchente do rio.* |  |
 | `c2-l015` | &emsp;*¶* Mizzucaſaga maita. *Veo grande en-* |  |
 | `c2-l016` | &emsp;*chente dagoa.* |  |
 | `c2-l017` | Mizzucoboxi. *Vaſo em que deitão a agoa cõ* |  |
-| `c2-l018` | &emsp;*que enxaguão aporſolana do Cha.* S. |  |
+| `c2-l018` | &emsp;*que enxaguão aporſolana do Cha. S.* |  |
 | `c2-l019` | Mizzucoxi. *Coador de coar agoa.* |  |
 | `c2-l020` | Mizzucumi. *Aguadeiro, ou o que tira agoa.* |  |
 | `c2-l021` | Mizzucuroi. *O concertar, & puxar pelo ves-* |  |
@@ -121,11 +121,11 @@ Lexical cross-check after independent scan reading: Entry Words Data of Nippojis
 | `c2-l039` | Mizzuguruma. *Roda como nora de tirar* |  |
 | `c2-l040` | &emsp;*agoa de rios, ou ribeiras.* |  |
 | `c2-l041` | Mizzujeme. *Tormento de agoa. ¶* Mizz u- |  |
-| `c2-l042` | &emsp;jemeuo ſuru. *Dartormento de agoa.* |  |
+| `c2-l042` | &emsp;jemeuo ſuru. *Dar tormento de agoa.* |  |
 | `c2-l043` | Mizzuire. *Hũa vaſilha pequenina com que* |  |
 | `c2-l044` | &emsp;*deitão agoa no tinteiro.* |  |
-| `c2-l045` | Mizzuiro. *Certa cor de azulclaro.* |  |
-| `c2-l046` | Mizzumaſagumo. *Hũas nuuezinhas peque-* |  |
+| `c2-l045` | Mizzuiro. *Certa cor de azul claro.* |  |
+| `c2-l046` | Mizzumaſagumo. *Hũas nuuèzinhas peque-* |  |
 | `c2-l047` | &emsp;*nas, & ralas, que aparecem como ondas.* |  |
 
 ## Printed signature

@@ -32,7 +32,7 @@ Lexical cross-check after independent scan reading: Entry Words Data of Nippojis
 | `c1-l014` | &emsp;ru. *Eſpalhar em ſe estas burbulhas dagoa.* |  |
 | `c1-l015` | Mizzutame. *Repreſa dagoa.* |  |
 | `c1-l016` | Mizzutana. l, faxiri. *Taboa ſobre que lauão* |  |
-| `c1-l017` | &emsp;*a louſa, ou outra couſa nacozinha.* |  |
+| `c1-l017` | &emsp;*a louſa, ou outra couſa na cozinha.* |  |
 | `c1-l018` | Mizzutçugui. *Gumil, ou jarro com que bo-* |  |
 | `c1-l019` | &emsp;*tão agoa.* |  |
 | `c1-l020` | Mizzutçuqi. *Eſguicho como ſiringa. No Cami* |  |
@@ -58,15 +58,15 @@ Lexical cross-check after independent scan reading: Entry Words Data of Nippojis
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c1-l031` | MO. *Adu. Ia, ou basta.* |  |
-| `c1-l033` | &emsp;Mo. *Tambem. Sempreſe poſtpoem* |  |
+| `c1-l033` | &emsp;Mo. *Tambem. Sempre ſe poſtpoem* |  |
 | `c1-l034` | &emsp;*aos nomes, & participios dos verbos, &c.* |  |
 | `c1-l035` | &emsp;*Vt,* Yorumo firumo. *De dia, & de noi-* |  |
 | `c1-l036` | &emsp;*te. ¶* Netemo, voqitemo. *Dormin-* |  |
-| `c1-l037` | &emsp;*do, & eſperto. i, Sempre. ¶ Item, Com* |  |
+| `c1-l037` | &emsp;*do, & eſperto.* i*, Sempre. ¶ Item, Com* |  |
 | `c1-l038` | &emsp;*verbos negativos tem força denegar. Vt,* Yu- |  |
 | `c1-l039` | &emsp;menimo zonjenu. *Nem por ſonhos o ſei.* |  |
 | `c1-l040` | &emsp;*¶ Item, Ainda que, ou poſto que. Vt,* Ma- |  |
-| `c1-l041` | &emsp;itemo. *Ainda que và, ou venha.* |  |
+| `c1-l041` | &emsp;ittemo. *Ainda que và, ou venha.* |  |
 | `c1-l042` | Mo. *Hũs limos domar.* |  |
 | `c1-l043` | Mǒacu. *Grande maldade, ou peccado. Vt,* |  |
 | `c1-l044` | &emsp;Mǒacuuo xeiſuru. *Prohibir os grandes pec-* |  |
