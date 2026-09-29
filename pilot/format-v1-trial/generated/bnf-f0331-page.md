@@ -35,8 +35,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l019` | &emsp;*como de aleuantamento, guerra, &c.* |  |
 | `c1-l020` | Mono imi. *Agouro. ¶* Monoimino ji- |  |
 | `c1-l021` | &emsp;bun. *Tempo em que os gentios tem por a-* |  |
-| `c1-l022` | &emsp;*gouro fazer algũa couſa, como ir diante do* Ca- |  |
-| `c1-l023` | &emsp;mi*, &c. por reſpeito da morte dalguem, ou* |  |
+| `c1-l022` | &emsp;*gouro fazer algũa couſa, como ir diante do Ca-* |  |
+| `c1-l023` | &emsp;*mi, &c. por reſpeito da morte dalguem, ou* |  |
 | `c1-l024` | &emsp;*por outra couſa.* |  |
 | `c1-l025` | Monomi. *Couſa pera ver, ou apraziuel à vi-* |  |
 | `c1-l026` | &emsp;*ſta. Vt,* Monomina coto. *Couſa pera ver.* |  |
@@ -110,13 +110,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l035` | Monouo mi, iru, ita. Monouo miru vma. |  |
 | `c2-l036` | &emsp;*Vide* Mono. |  |
 | `c2-l037` | Monouoſomi. *Vt,* Monouoſomi ſuru. *Eſpã-* |  |
-| `c2-l038` | &emsp;*tarſe, ou ficar eſpantado.* X. *Particularmen-* |  |
+| `c2-l038` | &emsp;*tarſe, ou ficar eſpantado. X. Particularmen-* |  |
 | `c2-l039` | &emsp;*te ſe diz do caualo.* |  |
 | `c2-l040` | Monouozomi. *O eſpantarſe homem, ou o ca-* |  |
 | `c2-l041` | &emsp;*ualo, &c. Vt,* Monouozomi ſuru. *Idẽ.* |  |
 | `c2-l042` | Monoxiri. *Letrado.* |  |
 | `c2-l043` | Monoyoxi. *Leproſo, ou lazaro. Palaura de* |  |
-| `c2-l044` | &emsp;*molheres. Vſa ſe tambem entre outra gete par-* |  |
+| `c2-l044` | &emsp;*molheres. Vſa ſe tambem entre outra gẽte par-* |  |
 | `c2-l045` | &emsp;*ticularmente no tempo de Xǒguachi, &c. em* |  |
 | `c2-l046` | &emsp;*outras partes ſe diz,* Facuyoxi. |  |
 | `c2-l047` | Monozuqi. *Peßoa curioſa, & que folga de* |  |

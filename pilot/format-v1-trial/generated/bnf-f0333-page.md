@@ -17,11 +17,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l001` | &emsp;*¶* Ruſuuo moru. *Ficar guardando a caſa.* |  |
 | `c1-l002` | &emsp;*¶* Yamauo moru. *Guardar, ou vigiar o* |  |
 | `c1-l003` | &emsp;*monte, ou mato.* |  |
-| `c1-l004` | Morin. Xigueru fayaxi. *Boſque eſpeſſo.* S. |  |
+| `c1-l004` | Morin. Xigueru fayaxi. *Boſque eſpeſſo. S.* |  |
 | `c1-l005` | Mǒrio. Midarini vomonbacaru. *Ruins* |  |
 | `c1-l006` | &emsp;*penſamentos, ou conſiderações.* |  |
 | `c1-l007` | Môuô. Voboro voboro. *Modo de eſtar o tẽ-* |  |
-| `c1-l008` | &emsp;*po encuberto, ou enneuoado.* S. |  |
+| `c1-l008` | &emsp;*po encuberto, ou enneuoado. S.* |  |
 | `c1-l009` | Moroaxi. *Ambos os pees.* |  |
 | `c1-l010` | Morobito. *P*. i. Xonin. *Todos os homẽs.* |  |
 | `c1-l011` | Morocata. *Ambos os ombros. Vt,* Moro- |  |
@@ -30,7 +30,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l014` | &emsp;*na lagoa de Vǒmi.* |  |
 | `c1-l015` | Morocoxi. i, Taitǒ. *China.* |  |
 | `c1-l016` | Morocuchi. *Ambas as partes eſquerda, & di-* |  |
-| `c1-l017` | &emsp;*reita do ferro por õde leuão às vezes dous o ca-* |  |
+| `c1-l017` | &emsp;*reita do ferro por õde leuão às vèzes dous o ca-* |  |
 | `c1-l018` | &emsp;*ualo. ¶* Vmano morocuchiuo toru. *Leuarẽ* |  |
 | `c1-l019` | &emsp;*deſta maneira dous o caualo. ¶* Morocuchini |  |
 | `c1-l020` | &emsp;ficaſuru. *Fazer leuar o caualo desta maneira.* |  |
@@ -44,12 +44,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l028` | Moromoro. *Todos. ¶* Moromorono fi- |  |
 | `c1-l029` | &emsp;to. *Todos os homẽs.* |  |
 | `c1-l030` | Moroqe, uru, eta. *Desfazerſe, ou delirſe,* |  |
-| `c1-l031` | &emsp;*como peixe muito cozido, &c. ¶* Xôguo |  |
+| `c1-l031` | &emsp;*como peixe muito cozido, &c. ¶* Xôguio |  |
 | `c1-l032` | &emsp;niruniua farauatauo ſaqezu, ſono moroqẽ |  |
 | `c1-l033` | &emsp;cotouo voſoru. *O peixe miudo aßi ſemlhe ti* |  |
 | `c1-l034` | &emsp;*rar as tripas he bõ cozelo pera q̃ ſe não desfaça.* |  |
 | `c1-l035` | Morote. *Ambas as mãos* |  *(juntos.* |
-| `c1-l036` | Morotomoni. *Iuntamente ambas. ¶ Itẽ, Todos* |  |
+| `c1-l036` | Morotomoni. *Iuntamente ambas. ¶ Itẽ,* T*odos* |  |
 | `c1-l037` | Morovruxi. *Certo verniz fino que ſe poem por* |  |
 | `c1-l038` | &emsp;*cima do couro das bainhas.* |  |
 | `c1-l039` | Moſacu. Saguri, motomuru. *Buſcar, ou in-* |  |

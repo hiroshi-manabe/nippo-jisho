@@ -24,7 +24,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l008` | Monſai. Monji ſaicacu. *Saber de letras, &* |  |
 | `c1-l009` | &emsp;*prudencia. Vt,* Monſaini amaritaru fito |  |
 | `c1-l010` | &emsp;nari. *He homem de muitas letras, & pru* |  |
-| `c1-l011` | &emsp;*dencia.* S. |  |
+| `c1-l011` | &emsp;*dencia. S.* |  |
 | `c1-l012` | Monſu. *Porteiro, guarda, ou vigia da porta.* |  |
 | `c1-l013` | Montai. *Letra, forma, ou pintura, &c.* |  |
 | `c1-l014` | &emsp;*¶* Montaiga miyenu. *Não aparece ja* |  |
@@ -32,12 +32,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l016` | Montei. *Seita, ou os profeßores dalgũa ſeita.* |  |
 | `c1-l017` | &emsp;*Vt,* Monteino xu. |  |
 | `c1-l018` | Monteixi. *Diſcipulos, ou profeſſores dalgũa* |  |
-| `c1-l019` | &emsp;*ſeita.* S. |  |
+| `c1-l019` | &emsp;*ſeita. S.* |  |
 | `c1-l020` | Monto. *Seita, ou os dalgũa ſeita.* |  |
 | `c1-l021` | Monuqe. *Caſca que fica da cegarrega, ou cor-* |  |
 | `c1-l022` | &emsp;*po morto com figura, olhos, &c. como que ſe* |  |
 | `c1-l023` | &emsp;*eſtiuera viua a cegarrega. ¶* Monuqeno co- |  |
-| `c1-l024` | &emsp;romo. *(Apud Poëtas.) Vestido que eſtà po-* |  |
+| `c1-l024` | &emsp;romo. (*Apud Poëtas.*) *Vestido que eſtà po-* |  |
 | `c1-l025` | &emsp;*sto de feição, como que eſtà dentro alguem ve-* |  |
 | `c1-l026` | &emsp;*ſtido, ou deitado, mas não he mais que apa-* |  |
 | `c1-l027` | &emsp;*rencia.* |  |
@@ -48,7 +48,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l032` | &emsp;*que commumente he baixo.* |  |
 | `c1-l033` | Monyô. *Parentes por qualquer via. ¶ Itẽ,* |  |
 | `c1-l034` | &emsp;*Os que pertencem à meſma ſeita. Vt,* Mõ- |  |
-| `c1-l035` | &emsp;yôno fitobito. S. |  |
+| `c1-l035` | &emsp;yôno fitobito. *S.* |  |
 | `c1-l036` | Moppara. l, mopparana. *Couſa neceſſaria,* |  |
 | `c1-l037` | &emsp;*& importante. ¶* Ienuo mopparato ſuru. |  |
 | `c1-l038` | &emsp;*Fazer muito caſo, ou exercitar ſempre a vir-* |  |
@@ -56,11 +56,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l040` | Mopparani. *Adu.* |  |
 | `c1-l041` | Mǒqe, quru, eta. *Ganhar, ou aquirir.* |  |
 | `c1-l042` | &emsp;*¶* Couo mǒquru. *Nacer a alguem filho.* |  |
-| `c1-l043` | Mǒqe. *Ganho. Vt,* Mǒqega aru, l, nai. |  |
+| `c1-l043` | Mǒqe. *Ganho. Vt,* Mǒqega aru, *l*, nai. |  |
 | `c1-l044` | &emsp;*Auer ganho, ou não auer.* |  |
 | `c1-l045` | Mǒqen. Midarini miru. *Ver com deſordẽ,* |  |
 | `c1-l046` | &emsp;*ou errar no ver, & eſpecular as couſas da ſal-* |  |
-| `c1-l047` | &emsp;*uação.* S. |  |
+| `c1-l047` | &emsp;*uação. S.* |  |
 
 ## Column 2 running header
 
@@ -72,7 +72,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | Môqet. Qe ana. *Pòros do corpo.* S. |  |
+| `c2-l001` | Môqet. Qe ana. *Pòros do corpo. S.* |  |
 | `c2-l002` | Môqi. *Malenconia, ou triſteza por morte de* |  |
 | `c2-l003` | &emsp;*pay, filhos, &c. ¶ Item, Doença. Vt,* |  |
 | `c2-l004` | &emsp;Gomôqide gozaru. *Estar algua peßoa* |  |
@@ -96,7 +96,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l022` | &emsp;fiqi iruru. *Meter na rede ſem deixar eſca-* |  |
 | `c2-l023` | &emsp;*par nem os peixinhos. ¶ Item, Deſcobrir* |  |
 | `c2-l024` | &emsp;*ſegredo, &c. Vt,* Fiji fimituo focani mo- |  |
-| `c2-l025` | &emsp;raſù. *Deſcobrir o ſegredo. ¶* Inuo mo- |  |
+| `c2-l025` | &emsp;raſu. *Deſcobrir o ſegredo. ¶* Inuo mo- |  |
 | `c2-l026` | &emsp;raſu. *Ter polução, ou derramar a ſemente.* |  |
 | `c2-l027` | More, ruru, eta. *Eſcapar, ou eſcapulir. Vt,* |  |
 | `c2-l028` | &emsp;Covuoua amini moruru. *O peixe miudo* |  |
@@ -104,7 +104,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l030` | &emsp;*crepar da razão. ¶* Moreqicoyuru. *Deſ-* |  |
 | `c2-l031` | &emsp;*cobrirſe, & ſoarſe algũa couſa ſecreta.* |  |
 | `c2-l032` | Mǒret. Taqecu, qibixij. *Altiuo, & feroz,* |  |
-| `c2-l033` | &emsp;*ou riſpido.* S. |  |
+| `c2-l033` | &emsp;*ou riſpido. S.* |  |
 | `c2-l034` | Mori. *Ayo. ¶ Item, Vigia. ¶* Von- |  |
 | `c2-l035` | &emsp;mori. *Ayo de peßoa nobre.* |  |
 | `c2-l036` | Mori. *Aruoredo, ou boſque.* |  |
@@ -116,7 +116,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l042` | &emsp;moru. *Tirar, & por o comer nos Goquis.* |  |
 | `c2-l043` | Morimono. *Comer, ou outra couſa posta em* |  |
 | `c2-l044` | &emsp;*Goqui, Chauan, &c. ¶* Morimonouo mori |  |
-| `c2-l045` | &emsp;coboſu. *Entornar algũa couſa deitandoa na* |  |
+| `c2-l045` | &emsp;coboſu. E*ntornar algũa couſa deitandoa na* |  |
 | `c2-l046` | &emsp;*porſolana, Goqui, &c.* |  |
 | `c2-l047` | Mori, ru. *Verbo. defect. Guardar, ou vigiar* |  |
 

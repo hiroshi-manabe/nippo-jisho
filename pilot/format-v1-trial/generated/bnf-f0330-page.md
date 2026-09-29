@@ -41,13 +41,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l025` | Monguai. Cadono foca. *Fora da porta, ou* |  |
 | `c1-l026` | &emsp;*portal.* |  |
 | `c1-l027` | Monguchi. *Entrada da porta.* |  |
-| `c1-l028` | Monja. Tò mono. *Peßoa, que pergunta, ou* |  |
+| `c1-l028` | Monja. Tô mono. *Peßoa, que pergunta, ou* |  |
 | `c1-l029` | &emsp;*propoem algũa duuida.* |  |
 | `c1-l030` | Monja. *Peça da China, ou veo delgado de ſe-* |  |
-| `c1-l031` | &emsp;*da iſa, & crua com lauores.* |  |
+| `c1-l031` | &emsp;*da i ſa, & crua com lauores.* |  |
 | `c1-l032` | Monjen. Cadono maye. *Diante da porta.* |  |
-| `c1-l033` | &emsp;*¶ Item, Caſas que eſtão fora da porta da* Te- |  |
-| `c1-l034` | &emsp;ra*, ou moeſteiro. ¶* Monjenni ichiuo na- |  |
+| `c1-l033` | &emsp;*¶ Item, Caſas que eſtão fora da porta da Te-* |  |
+| `c1-l034` | &emsp;*ra, ou moeſteiro. ¶* Monjenni ichiuo na- |  |
 | `c1-l035` | &emsp;ſu. *Ajuntarſe muita gente a porta, & fa-* |  |
 | `c1-l036` | &emsp;*zer aparato, & estrondo.* |  |
 | `c1-l037` | Monjen. *Certo liruo da China.* |  |
@@ -60,7 +60,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l044` | Monji. *Letras da China, ou Iapão.* |  |
 | `c1-l045` | Monjin. *Perguntar, ou por duuida. ¶ Itẽ,* |  |
 | `c1-l046` | &emsp;*Ficar concluido, ou conuencido ſem falar. Eſ-* |  |
-| `c1-l047` | &emsp;*te he oſentido, que ordinariamente corre.* |  |
+| `c1-l047` | &emsp;*te he o ſentido, que ordinariamente corre.* |  |
 
 ## Column 2 running header
 
@@ -75,7 +75,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l001` | &emsp;*Vt,* Monjinſuru. *Doume por conuencido.* |  |
 | `c2-l002` | Monjo. *Eſcritura, ou papel eſcrito, que fica* |  |
 | `c2-l003` | &emsp;*pera o diante, ou tempo futuro.* |  |
-| `c2-l004` | Monin. l, mǒmocunin. i, Me xijta fito. |  |
+| `c2-l004` | Mǒnin. l, mǒmocunin. i, Me xijta fito. |  |
 | `c2-l005` | &emsp;*Cego.* |  |
 | `c2-l006` | Monmǒ. *Não ſaber ler, nẽ eſcreuer. ¶* Mõ- |  |
 | `c2-l007` | &emsp;mǒna fito. *Homem que não ſabe ler, nem* |  |

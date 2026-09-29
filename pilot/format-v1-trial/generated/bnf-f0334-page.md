@@ -28,7 +28,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l012` | &emsp;*ſe corta pello peſcoço.* |  |
 | `c1-l013` | Motode. *Cabedal com que hum começa de* |  |
 | `c1-l014` | &emsp;*mercadejar, ou granjear fato. &c. ¶* Mo- |  |
-| `c1-l015` | &emsp;todega nǒte aq naiua naranu. *Não a-* |  |
+| `c1-l015` | &emsp;todega nǒte aqinaiua naranu. *Não a-* |  |
 | `c1-l016` | &emsp;*uendo cabedal não ſe pode fazer mercancia.* |  |
 | `c1-l017` | Motodori. *Cabelos do toutiço que cuſtumão ter,* |  |
 | `c1-l018` | &emsp;*& concertar os Iapoẽs por ornato. ¶* Moto- |  |
@@ -46,7 +46,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l030` | &emsp;*tiuo. Vt,* Motovoranu fito. *Homem,* |  |
 | `c1-l031` | &emsp;*que eſtà como amuado, & não percebe, nem* |  |
 | `c1-l032` | &emsp;*faz caſo do que lhe dizem.* |  |
-| `c1-l033` | Motovoxi. *Hum inſtrumento de corno, ou de* |  |
+| `c1-l033` | Motovoxi. *Hum instrumento de corno, ou de* |  |
 | `c1-l034` | &emsp;*outra couſa que ſe tem na mão pera largar, ou* |  |
 | `c1-l035` | &emsp;*puxar por elle como por roldanazinha, o cordel,* |  |
 | `c1-l036` | &emsp;*aos falcoens,* |  |
@@ -91,7 +91,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l017` | &emsp;ſu. *Viſitar, ou ſaudar alguem. ¶* Fito- |  |
 | `c2-l018` | &emsp;ni mexi nandouo mǒſu. *Conuidar com co-* |  |
 | `c2-l019` | &emsp;*mer, ou outra couſa a alguem.* |  |
-| `c2-l020` | Moxiague, guru, eta. *Falar a peßoa nobre.* |  |
+| `c2-l020` | Mǒxiague, guru, eta. *Falar a peßoa nobre.* |  |
 | `c2-l021` | Mǒxiai, ǒ, yǒta. *Falar entreſi.* |  |
 | `c2-l022` | Mǒxi atçucai, ǒ, ǒta. *Tratar, ou negoci-* |  |
 | `c2-l023` | &emsp;*ar de palaura.* |  |
