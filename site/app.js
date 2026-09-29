@@ -1,9 +1,15 @@
 const state = { corpus: null, byLeaf: new Map(), currentPage: null, unit: 'page', edits: {}, suggestionDismissals: {}, submissions: {}, workspacesLoaded: new Set(), staleDraft: null, staleBaseline: null };
 let reviewCursor = null; // A reading position, deliberately independent of DOM focus.
 const OVERVIEW_POSITION_KEY = 'nippo-overview-position-v1';
+const COLUMN_POSITIONS_KEY = 'nippo-column-positions-v1';
 let overviewPosition = null;
 let overviewDisplayed = false;
+let columnPositions = {};
 try { overviewPosition = JSON.parse(sessionStorage.getItem(OVERVIEW_POSITION_KEY)); } catch (_) { /* Storage may be unavailable. */ }
+try {
+  const saved = JSON.parse(sessionStorage.getItem(COLUMN_POSITIONS_KEY));
+  if (saved && typeof saved === 'object' && !Array.isArray(saved)) columnPositions = saved;
+} catch (_) { /* In-memory positions still work. */ }
 if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
 function pageKey(value) { return /^f?\d+$/.test(String(value)) ? Number(String(value).replace(/^f/, '')) : value; }
 function adjacentPage(offset) {
@@ -273,6 +279,7 @@ function restoreOverviewPosition() {
 }
 
 function showOverview(update = true) {
+  saveColumnPosition();
   clearReviewCursor();
   window.NippoPageTimer?.select(null);
   imageLoadGeneration++;
@@ -700,6 +707,7 @@ function updateRebaseNotice() {
 function showPage(leaf, unit = 'page', update = true) {
   const page = state.byLeaf.get(leaf);
   if (!page) return;
+  if (state.currentPage && (state.currentPage !== page || state.unit !== unit)) saveColumnPosition();
   if (overviewDisplayed && !state.currentPage) saveOverviewPosition();
   overviewDisplayed = false;
   if (reviewCursor && (reviewCursor.pageId !== page.page_id || reviewCursor.unit !== unit)) clearReviewCursor();
@@ -884,6 +892,58 @@ function topVisibleReviewRow(rows) {
   return rows.find(row => row.getBoundingClientRect().bottom > top) || rows.at(-1);
 }
 
+function columnPositionKey(page, unit) {
+  return `${page.page_id}:${unit}`;
+}
+
+function saveColumnPosition() {
+  if (!state.currentPage?.processed || !['column-1', 'column-2'].includes(state.unit)
+      || $('#page-view').classList.contains('hidden')) return;
+  const rows = reviewRows();
+  if (!rows.length) return;
+  const top = reviewViewportTop();
+  const cursorRow = rows.find(row => row.dataset.line === reviewCursor?.lineId);
+  const cursorRect = cursorRow?.getBoundingClientRect();
+  const row = cursorRect && cursorRect.bottom > top && cursorRect.top < window.innerHeight
+    ? cursorRow : topVisibleReviewRow(rows);
+  const crop = row.querySelector('.line-crop') || row;
+  columnPositions[columnPositionKey(state.currentPage, state.unit)] = {
+    lineId: row.dataset.line,
+    offset: crop.getBoundingClientRect().top - top,
+    scrollY: window.scrollY,
+    extraSpace: parseFloat(row.closest('.line-list')?.style.getPropertyValue('--review-extra-space')) || 0,
+  };
+  try { sessionStorage.setItem(COLUMN_POSITIONS_KEY, JSON.stringify(columnPositions)); } catch (_) { /* In-memory positions still work. */ }
+}
+
+function restoreColumnPosition(page, unit) {
+  const saved = columnPositions[columnPositionKey(page, unit)];
+  const rows = reviewRows();
+  const row = saved && rows.find(item => item.dataset.line === saved.lineId);
+  if (!row) {
+    window.scrollTo({top: 0, behavior: 'instant'});
+    if (rows[0]) setReviewCursor(rows[0]);
+  } else {
+    const list = row.closest('.line-list');
+    if (list && saved.extraSpace > 0) list.style.setProperty('--review-extra-space', `${saved.extraSpace}px`);
+    setReviewCursor(row);
+    window.scrollTo({top: saved.scrollY, behavior: 'instant'});
+  }
+  const lineId = (row || rows[0])?.dataset.line;
+  requestAnimationFrame(() => requestAnimationFrame(() => {
+    if (state.currentPage !== page || state.unit !== unit || reviewCursor?.lineId !== lineId) return;
+    if (!row) {
+      window.scrollTo({top: 0, behavior: 'instant'});
+      return;
+    }
+    const current = reviewRows().find(item => item.dataset.line === lineId);
+    if (!current) return;
+    const crop = current.querySelector('.line-crop') || current;
+    const destination = window.scrollY + crop.getBoundingClientRect().top - reviewViewportTop() - saved.offset;
+    window.scrollTo({top: Math.max(0, destination), behavior: 'instant'});
+  }));
+}
+
 function moveReviewCursor(key) {
   if (!state.currentPage?.processed || !['column-1', 'column-2'].includes(state.unit)) return false;
   const rows = reviewRows();
@@ -904,16 +964,7 @@ function moveReviewCursor(key) {
   const target = sequence[index + (key === 'ArrowLeft' ? -1 : 1)];
   if (index < 0 || !target) return true;
   showPage(target.leaf, target.unit);
-  window.scrollTo(0, 0);
-  const firstLine = reviewRows()[0];
-  if (firstLine) setReviewCursor(firstLine);
-  // The hash/view transition can restore scroll after the key handler. Place
-  // the first crop after the new column and its scroll position have settled.
-  requestAnimationFrame(() => requestAnimationFrame(() => {
-    if (firstLine && state.currentPage?.leaf === target.leaf && state.unit === target.unit && reviewCursor?.lineId === firstLine.dataset.line) {
-      setReviewCursor(reviewRows()[0], true);
-    }
-  }));
+  restoreColumnPosition(state.currentPage, target.unit);
   return true;
 }
 
