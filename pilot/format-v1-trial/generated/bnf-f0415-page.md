@@ -37,7 +37,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l021` | &emsp;*& brando. ¶* Quanguenno coye reirei- |  |
 | `c1-l022` | &emsp;tari. *As vozes da muſica, ou deſcante ſoa-* |  |
 | `c1-l023` | &emsp;*uão com hum tom alto, ſonoro, & brando.* |  |
-| `c1-l024` | Reiri. *Couſa de habilidade, ou engenho.* S. |  |
+| `c1-l024` | Reiri. *Couſa de habilidade, ou engenho. S.* |  |
 | `c1-l025` | Reirô. *Couſas lucidas que estão enfiadas, & por* |  |
 | `c1-l026` | &emsp;*ordem como pedras precioſas, ou muitas lu-* |  |
 | `c1-l027` | &emsp;*mieiras.* |  |
@@ -83,12 +83,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l003` | &emsp;*gura, ou imagem dalgum Cami, ou Fotoque.* |  |
 | `c2-l004` | Reixit. i, Sugureta ſugata. *Excelente, &* |  |
 | `c2-l005` | &emsp;*marauilhoſa figura, ou aparencia de peßoa no-* |  |
-| `c2-l006` | &emsp;*bre, & graue.* S. |  |
+| `c2-l006` | &emsp;*bre, & graue. S.* |  |
 | `c2-l007` | Reixu. Fiyeta ſaqe. *Vinho frio.* |  |
 | `c2-l008` | Reiyacu. Fiyai cuſuri. *Mezinha fria de ſua* |  |
 | `c2-l009` | &emsp;*natureza.* |  |
 | `c2-l010` | Reiyacu. i, Qidocuna cuſuri. *Excelente,* |  |
-| `c2-l011` | &emsp;*& marauilhoſa mezinha.* S. |  |
+| `c2-l011` | &emsp;*& marauilhoſa mezinha. S.* |  |
 | `c2-l012` | Renban. i, Amatano fito fanuo ſuyuru. *O* |  |
 | `c2-l013` | &emsp;*aßinarenſe muitos em algum papel. Vt,* Rẽ- |  |
 | `c2-l014` | &emsp;banuo ſuyuru. |  |
@@ -105,7 +105,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l025` | Renchǔ. Sudareno vchi. *Dentro das eſtei-* |  |
 | `c2-l026` | &emsp;*ras que ſe dependurão. ¶ No Ximo, Molher* |  |
 | `c2-l027` | &emsp;*de homem nobre.* |  |
-| `c2-l028` | Rencon. Fachiſuno ne. *Raiz dos golfãos.* S. |  |
+| `c2-l028` | Rencon. Fachiſuno ne. *Raiz dos golfãos. S.* |  |
 | `c2-l029` | Rendai. *Lugar como caualete onde ſe depend u-* |  |
 | `c2-l030` | &emsp;*rão, & guardão os vestidos.* |  |
 | `c2-l031` | Renga. Tçurane vta. *Certos verſos, ou cã-* |  |
@@ -114,7 +114,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l034` | Rengu. Cuuo tçuranuru. *Certo genero de ver* |  |
 | `c2-l035` | &emsp;*ſos deſta laya que ſe vſão na China.* |  |
 | `c2-l036` | Renguai. Sudareno foca. *Fora das esteiras* |  |
-| `c2-l037` | &emsp;*dependuradas.* S. |  |
+| `c2-l037` | &emsp;*dependuradas. S.* |  |
 | `c2-l038` | Rengue. Fachiſuno fana. *Roſa, ou flor* |  |
 | `c2-l039` | &emsp;*de golfão.* |  |
 | `c2-l040` | Renguiǒ. Nori voconǒ. *Exercitarſe, & fa-* |  |

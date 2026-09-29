@@ -44,7 +44,7 @@ Lexical cross-check aid: NINJAL, Hideyuki Ohshima and Taichi Aida, *Entry Words 
 | `c1-l026` | Qimeôna. *Idem.* |  |
 | `c1-l027` | Qimet. Vocoſu, meſſuru. *O aleuantar, &* |  |
 | `c1-l028` | &emsp;*deſtruir.* Bup. |  |
-| `c1-l029` | Qimi. *Goſto, ou ſabor.* S. |  |
+| `c1-l029` | Qimi. *Goſto, ou ſabor. S.* |  |
 | `c1-l030` | Qimi. *Senhor. ¶* Qimiuo vocaſu. *Ma-* |  |
 | `c1-l031` | &emsp;*tar ſeu ſenhor, ou aleuantarſe contra elle, &c.* |  |
 | `c1-l032` | Qimiǒ. Bup. i, Namu. *Palaura cõ que* |  |
@@ -81,7 +81,7 @@ Lexical cross-check aid: NINJAL, Hideyuki Ohshima and Taichi Aida, *Entry Words 
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | Qimu. Cayeru yume. *Sonho q̃ torna.* S. |  |
+| `c2-l001` | Qimu. Cayeru yume. *Sonho q̃ torna. S.* |  |
 | `c2-l002` | Qin. Cogane. *Ouro. Vt,* Qinuo deini |  |
 | `c2-l003` | &emsp;ſute, tamauo fuchini xizzumetaruni vo- |  |
 | `c2-l004` | &emsp;naji. Taif. *Lib. 33. He como quem* |  |
@@ -92,16 +92,16 @@ Lexical cross-check aid: NINJAL, Hideyuki Ohshima and Taichi Aida, *Entry Words 
 | `c2-l009` | &emsp;Qinuo naraſu. l, vtçu. *Tanger, ou fa-* |  |
 | `c2-l010` | &emsp;*zer ſoar os ſeſtros.* |  |
 | `c2-l011` | Qin. Coto. *Certo inſtrumento muſico como* |  |
-| `c2-l012` | &emsp;*crauo.* S. *Vt,* Qinuo tanzuru. *Tanger* |  |
+| `c2-l012` | &emsp;*crauo. S. Vt,* Qinuo tanzuru. *Tanger* |  |
 | `c2-l013` | &emsp;*eſte inſtrumento. ¶* Qinuo xiraburu. |  |
-| `c2-l014` | &emsp;*Temperar eſte inſtrumento.* S. |  |
+| `c2-l014` | &emsp;*Temperar eſte inſtrumento. S.* |  |
 | `c2-l015` | Qina. *Cor amarela.* |  |
 | `c2-l016` | Qinai. *Meliùs,* Goqinai. *Dentro dos cin-* |  |
 | `c2-l017` | &emsp;*co reinos vezinhos ao Miaco, ou estes cinco* |  |
 | `c2-l018` | &emsp;*reinos.* |  |
 | `c2-l019` | Qinan. Ayavqi nan. *Grande perigo, ou tra-* |  |
 | `c2-l020` | &emsp;*balho. ¶* Qinanni voyobu. *Chegar a* |  |
-| `c2-l021` | &emsp;*grande perigo.* S. |  |
+| `c2-l021` | &emsp;*grande perigo. S.* |  |
 | `c2-l022` | Qinbacu. *Folha de ouro. ¶* Qinbacu- |  |
 | `c2-l023` | &emsp;uo voqu. l, voſu. l, qinbacude damu. |  |
 | `c2-l024` | &emsp;*Dourar com folha de ouro.* |  |

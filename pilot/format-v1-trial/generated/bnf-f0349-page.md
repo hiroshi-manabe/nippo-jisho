@@ -47,7 +47,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l031` | &emsp;*lher no Outono, a quanto reſponderà, &c.* |  |
 | `c1-l032` | &emsp;*Vt,* Naiqenuo ſuru. |  |
 | `c1-l033` | Nairan. Vchi miru. *Ver às eſcondidas, ou ſe-* |  |
-| `c1-l034` | &emsp;*cretamente.* S. |  |
+| `c1-l034` | &emsp;*cretamente. S.* |  |
 | `c1-l035` | Nairi. i, Inferno. *Vt,* Nairino ſoconi |  |
 | `c1-l036` | &emsp;xizzumu. *Eſtar metido nas profundezas do* |  |
 | `c1-l037` | &emsp;*Inferno.* |  |

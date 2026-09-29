@@ -19,16 +19,16 @@ Lexical cross-check: supplied [Entry Words Data of Nippojisho](https://www2.ninj
 | `c1-l001` | Qeitat. *O dar, ou mandar carta. Vt,* Va- |  |
 | `c1-l002` | &emsp;zato qeitat xexime ſoro. *Mando depro-* |  |
 | `c1-l003` | &emsp;*poſito esta carta.* |  |
-| `c1-l004` | Qeitei. Ani vototo. *Irmãos machos.* S. |  |
+| `c1-l004` | Qeitei. Ani vototo. *Irmãos machos. S.* |  |
 | `c1-l005` | Qeitǒ. Tauore catamuqu. *Inclinarſe, ou* |  |
-| `c1-l006` | &emsp;*estar pera cair.* S. |  |
+| `c1-l006` | &emsp;*estar pera cair. S.* |  |
 | `c1-l007` | Qeitô. Niuatorino atama. l. Qeitôgue. |  |
 | `c1-l008` | &emsp;*Hũa flor, ou erua. Vide* Qeitôgue. |  |
 | `c1-l009` | Qeitôgue. *Roſa, ou flor de hũa certa erua q̃* |  |
 | `c1-l010` | &emsp;*ſe parece como crista de galo. ¶ Item, A* |  |
 | `c1-l011` | &emsp;*meſma erua.* |  |
-| `c1-l012` | Qeivon. Megumi, võ. *Grãde beneficio.* S. |  |
-| `c1-l013` | Qeixa. Caruqi curuma. *Carro leue.* S. |  |
+| `c1-l012` | Qeivon. Megumi, võ. *Grãde beneficio. S.* |  |
+| `c1-l013` | Qeixa. Caruqi curuma. *Carro leue. S.* |  |
 | `c1-l014` | Qeixei. *Molher publica. ¶* Qeixeiuo ta- |  |
 | `c1-l015` | &emsp;tçuru. *Fazer officio de molher publica.* |  |
 | `c1-l016` | Qeixen. *O abater, ou deſprezar a alguem.* |  |
@@ -44,14 +44,14 @@ Lexical cross-check: supplied [Entry Words Data of Nippojisho](https://www2.ninj
 | `c1-l026` | Qeixi. *Ramos de hũa certa aruore. ¶ Item,* |  |
 | `c1-l027` | &emsp;*Hũa laya de canela que ſerue de mezinha.* |  |
 | `c1-l028` | Qeixi, ſuru, ita. *Ir à varela, ou aos Camis,* |  |
-| `c1-l029` | &emsp;*& Fotoques.* S. |  |
+| `c1-l029` | &emsp;*& Fotoques. S.* |  |
 | `c1-l030` | Qeixin. *Canela braua.* |  |
 | `c1-l031` | Qeixǒ. *Dignidade de Cungues. ¶* Qeixǒ |  |
 | `c1-l032` | &emsp;vncacu. *Cungues, ou fidalgos nobres que ſer-* |  |
 | `c1-l033` | &emsp;*uem na caſa do Dairi.* |  |
-| `c1-l034` | Qeixǔ. Caruqi fune. *Embarcação ligeira.* S. |  |
+| `c1-l034` | Qeixǔ. Caruqi fune. *Embarcação ligeira. S.* |  |
 | `c1-l035` | Qeixu. *Certa reuerencia que ſe faz na China.* |  |
-| `c1-l036` | &emsp;S. *¶* Qeixu ſaifai. *O fazer adoração,* |  |
+| `c1-l036` | &emsp;*S. ¶* Qeixu ſaifai. *O fazer adoração,* |  |
 | `c1-l037` | &emsp;*ou reuerencia duas vezes.* |  |
 | `c1-l038` | Qeiyacu. *Promeßa, ou concerto. ¶* Qei- |  |
 | `c1-l039` | &emsp;yacu ſuru, l, mǒſu. *Prometer, ou fazer* |  |
@@ -91,7 +91,7 @@ Lexical cross-check: supplied [Entry Words Data of Nippojisho](https://www2.ninj
 | `c2-l015` | Qemiǒ. Carino na. *Nome ordinario com* |  |
 | `c2-l016` | &emsp;*que ſe hum chama vniuerſalmente. Vide,* |  |
 | `c2-l017` | &emsp;Iitmiǒ. |  |
-| `c2-l018` | Qemǒ. Coi negai nozomu. *Deſejo.* S. |  |
+| `c2-l018` | Qemǒ. Coi negai nozomu. *Deſejo. S.* |  |
 | `c2-l019` | Qemuri, u, utta. *Fazer fumo, ou aleuan-* |  |
 | `c2-l020` | &emsp;*tarſe fumo.* |  |
 | `c2-l021` | Qemuri. *Fumo. ¶* Qemuriuo tatçuru. |  |
@@ -101,7 +101,7 @@ Lexical cross-check: supplied [Entry Words Data of Nippojisho](https://www2.ninj
 | `c2-l025` | &emsp;*¶* Qemurini ximi fuſuboru. *Estar mui-* |  |
 | `c2-l026` | &emsp;*to defumado. ¶* Qemurini muxebu. |  |
 | `c2-l027` | &emsp;*Afogarſe com fumo. ¶ Per met.* Vo- |  |
-| `c2-l028` | &emsp;moino qemuri muneni mitçu. S. *Eſ-* |  |
+| `c2-l028` | &emsp;moino qemuri muneni mitçu. *S. Eſ-* |  |
 | `c2-l029` | &emsp;*tar cheo de cuidados.* |  |
 | `c2-l030` | Qemuridaxi. *Chaminè.* |  |
 | `c2-l031` | Qemutai. *Couſa que faz fumo aos olhos, ou* |  |
@@ -110,7 +110,7 @@ Lexical cross-check: supplied [Entry Words Data of Nippojisho](https://www2.ninj
 | `c2-l034` | &emsp;Qemutǒ. |  |
 | `c2-l035` | Qemuxi. *Bicho de cabelos.* |  |
 | `c2-l036` | Qen. Caxicoi. *Prudencia. ¶* Qennaru |  |
-| `c2-l037` | &emsp;fito mare nari. *O homẽ prudẽte he raro.* S. |  |
+| `c2-l037` | &emsp;fito mare nari. *O homẽ prudẽte he raro. S.* |  |
 | `c2-l038` | Qen. l, qenpei. *Senhorio, ou poder.* |  |
 | `c2-l039` | &emsp;*¶* Qenuo catte monouo yǔ. *Dizer, ou* |  |
 | `c2-l040` | &emsp;*mãdar algũa couſa da parte de quem pode, ou* |  |

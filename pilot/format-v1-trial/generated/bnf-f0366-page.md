@@ -28,14 +28,14 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | `c1-l010` | Ningiǔ. Fitono naca. *Entre os homens.* |  |
 | `c1-l011` | Ningu. *Homem de forças.* |  |
 | `c1-l012` | Ningue. Fitoni baquru. *O tomar o demo-* |  |
-| `c1-l013` | &emsp;*nio figura de homem.* S. |  |
+| `c1-l013` | &emsp;*nio figura de homem. S.* |  |
 | `c1-l014` | Ninguen. *Genero humano.* |  |
 | `c1-l015` | Ninguiǒ. Fitono catachi. *Estatua, ou boni-* |  |
 | `c1-l016` | &emsp;*frate, &c.* |  |
 | `c1-l017` | Ninguio. *Sereas que com ſeu canto dizem que* |  |
 | `c1-l018` | &emsp;*fazem dormir aos que as ouuem.* |  |
 | `c1-l019` | Ninjen. Fitono maye. *Diante dos homens.* |  |
-| `c1-l020` | Ninji. *Couſa, ou obra humana.* S. |  |
+| `c1-l020` | Ninji. *Couſa, ou obra humana. S.* |  |
 | `c1-l021` | Ninji, zuru, ita. *Meter a alguem no numero* |  |
 | `c1-l022` | &emsp;*dos outros, ou aleuantar em dignidade, &c.* |  |
 | `c1-l023` | &emsp;*¶* Fitouo curaini ninzuru. *Aleuantar a* |  |
@@ -52,7 +52,7 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | `c1-l034` | &emsp;*matar os criados, ou ſeruos não o entendo.* |  |
 | `c1-l035` | Ninju. Fitocazu. *Numero de gente, ou* |  |
 | `c1-l036` | &emsp;*gente.* |  |
-| `c1-l037` | Ninju. Fitono inochi. *Vida humana.* S. |  |
+| `c1-l037` | Ninju. Fitono inochi. *Vida humana. S.* |  |
 | `c1-l038` | Ninmin. Fito, tami. *Gente popular.* |  |
 | `c1-l039` | Ninnicu. *Paciencia com algũa humildade.* |  |
 | `c1-l040` | Ninnicu. *Alhos.* |  |

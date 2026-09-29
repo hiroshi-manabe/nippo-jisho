@@ -19,11 +19,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l003` | &emsp;*Não pode ſer por nenhũa via.* |  |
 | `c1-l004` | Nanxi. Vonocogo. *Filho macho.* |  |
 | `c1-l005` | Nanxi. Minamino yeda. *Ramos que estão* |  |
-| `c1-l006` | &emsp;*pera a parte do Sul.* S. |  |
+| `c1-l006` | &emsp;*pera a parte do Sul. S.* |  |
 | `c1-l007` | Nanxin. i, Xinjigataxi. *Couſa difficil de* |  |
 | `c1-l008` | &emsp;*ſe creer.* |  |
 | `c1-l009` | Nanxin nangue. *Couſa difficultoſa de ſe crèr,* |  |
-| `c1-l010` | &emsp;*& deſe declarar.* S. |  |
+| `c1-l010` | &emsp;*& deſe declarar. S.* |  |
 | `c1-l011` | Nanxocu. *Peccado mao, ou nefando.* |  |
 | `c1-l012` | Nanyen. Minamino ſono. *Iardim que està* |  |
 | `c1-l013` | &emsp;*pera à parte do Sul.* |  |
@@ -35,7 +35,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l019` | Nanzo. *Algũa couſa. ¶ Itẽ, Que couſa?* |  |
 | `c1-l020` | Nappô. *Certo, & determinado fructo, ou rẽ-* |  |
 | `c1-l021` | &emsp;*dimento, que recolhem os ſenhores de ſuas* |  |
-| `c1-l022` | &emsp;*terras.* S. |  |
+| `c1-l022` | &emsp;*terras. S.* |  |
 | `c1-l023` | Naqi, u, aita. *Chorar. ¶ Item, Cantar* |  |
 | `c1-l024` | &emsp;*dos paßaros.* |  |
 | `c1-l025` | Naqi. *Choro, ou pranto. Vt,* Nhôbǒ ta- |  |

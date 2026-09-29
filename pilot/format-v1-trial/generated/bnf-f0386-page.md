@@ -46,9 +46,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l030` | &emsp;*tamente com o nome do Bonzo parecendolhe* |  |
 | `c1-l031` | &emsp;*que por alli ſe ha de ſaluar.* |  |
 | `c1-l032` | Qetnicu. Chi, xiximura. *Sangue, & car-* |  |
-| `c1-l033` | &emsp;*ne.* S. |  |
+| `c1-l033` | &emsp;*ne. S.* |  |
 | `c1-l034` | Qetrui. Chino namida. *Lagrimas de ſan-* |  |
-| `c1-l035` | &emsp;*gue.* S. |  |
+| `c1-l035` | &emsp;*gue. S.* |  |
 | `c1-l036` | Qetyen. l, qechiyen. Yenuo muſubu. *Vide* |  |
 | `c1-l037` | &emsp;*ſuprà* Qechiyen. |  |
 | `c1-l038` | Qetyeqi. Chi, xiru. *Sangue, & humor* |  |
@@ -58,7 +58,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l042` | &emsp;*zio, ou onde falta alguem que ſe cuſtuma alli* |  |
 | `c1-l043` | &emsp;*aſſentar.* |  |
 | `c1-l044` | Qev. *Couſa rara. Vt,* Qevno gui nari. |  |
-| `c1-l045` | &emsp;*He couſa rara.* S. |  |
+| `c1-l045` | &emsp;*He couſa rara. S.* |  |
 | `c1-l046` | Qeuai, ǒ, ǒta. *Affeitar o roſto com poſturas.* |  |
 | `c1-l047` | &emsp;*Vt,* Cauouo qeuǒ. |  |
 

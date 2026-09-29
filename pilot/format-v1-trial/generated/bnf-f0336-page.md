@@ -34,7 +34,7 @@ Lexical aid consulted after independent reading: NINJAL, Hideyuki Ohshima and Ta
 | `c1-l016` | Moxiuo. *Sal que ſe faz acendendo o forno cõ* |  |
 | `c1-l017` | &emsp;*certas eruas, ou limos do mar ſecos. Vt,* Mo- |  |
 | `c1-l018` | &emsp;xiuouo yaqu. *Fazer ſal queimando estes* |  |
-| `c1-l019` | &emsp;*limos ſecos.* S. |  |
+| `c1-l019` | &emsp;*limos ſecos. S.* |  |
 | `c1-l020` | Môxivocure, uru, eta. *Cometer falta nos de-* |  |
 | `c1-l021` | &emsp;*uidos comprimentos por paßar o tempo deuido,* |  |
 | `c1-l022` | &emsp;*ou conueniente, em q̃ os ouuera de fazer.* |  |
@@ -102,7 +102,7 @@ Lexical aid consulted after independent reading: NINJAL, Hideyuki Ohshima and Ta
 | `c2-l026` | &emsp;*ocaſião primeira estar perto, &c.* |  |
 | `c2-l027` | Moyecuſa. *Eriſipula.* |  |
 | `c2-l028` | Moyegui. *Verde eſcuro.* |  |
-| `c2-l029` | Môyei. i, Fude. *Pena de eſcreuer.* S. |  |
+| `c2-l029` | Môyei. i, Fude. *Pena de eſcreuer. S.* |  |
 | `c2-l030` | Moyeide. zzuru, eta. *Começarem a nacer as* |  |
 | `c2-l031` | &emsp;*eruas, trigo, &c.* |  |
 | `c2-l032` | Moyeide, zzuru, eta. *Começar aleuantarſe* |  |

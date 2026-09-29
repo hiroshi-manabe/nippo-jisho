@@ -32,14 +32,14 @@ Lexical coverage was cross-checked after independent scan reading against the su
 | `c1-l013` | &emsp;*poem por algũa culpa, ou delicto. Vt,* Qua- |  |
 | `c1-l014` | &emsp;reôuo daſu. *Pagar atal pena.* |  |
 | `c1-l015` | Quari. Fanano vchi. *Dentro da roſa, ou* |  |
-| `c1-l016` | &emsp;*flor.* S. |  |
-| `c1-l017` | Quari. Fino vchi. *Dentro no fogo.* S. |  |
+| `c1-l016` | &emsp;*flor. S.* |  |
+| `c1-l017` | Quari. Fino vchi. *Dentro no fogo. S.* |  |
 | `c1-l018` | Quarin. *Hum certo pao da China hum pouco* |  |
 | `c1-l019` | &emsp;*vermelho.* |  |
 | `c1-l020` | Quariquarito. *Adu. Modo de ſoar a cou-* |  |
 | `c1-l021` | &emsp;*ſa dura como caramelo quando ſe maſtiga.* |  |
 | `c1-l022` | Quariǔ. Fana, yanagui. *Flor, & ſal-* |  |
-| `c1-l023` | &emsp;*gueiro.* S. |  |
+| `c1-l023` | &emsp;*gueiro. S.* |  |
 | `c1-l024` | Quaſai. *Males cauſados do fogo, ou queima.* |  |
 | `c1-l025` | Quaſan. Fanano yama. *Monte de muitas flo* |  |
 | `c1-l026` | &emsp;*res, ou onde eſtà florecido o mato.* |  |
@@ -81,7 +81,7 @@ Lexical coverage was cross-checked after independent scan reading against the su
 | `c2-l005` | Quatǒ. i, Quabunna coto. *Palaura de a-* |  |
 | `c2-l006` | &emsp;*gradecimento como tenhoo ẽ muito. ¶* Go- |  |
 | `c2-l007` | &emsp;jǒ quatǒno itari. *Muitas graças pella car-* |  |
-| `c2-l008` | &emsp;*ta que me mandaſtes.* S. |  |
+| `c2-l008` | &emsp;*ta que me mandaſtes. S.* |  |
 | `c2-l009` | Quatô. *Hũa maneira de touca, ou veo que ſe* |  |
 | `c2-l010` | &emsp;*amarra na cabeça por de baixo da barba.* |  |
 | `c2-l011` | Quatocu. *Retribuição do outro mũdo.* Bup. |  |
@@ -92,12 +92,12 @@ Lexical coverage was cross-checked after independent scan reading against the su
 | `c2-l016` | Quauǒ. i, Botan. *Hũa certa roſa grande,* |  |
 | `c2-l017` | &emsp;*& fermoſa.* |  |
 | `c2-l018` | Quauocu. Fanano iye. *Caſa edificada onde* |  |
-| `c2-l019` | &emsp;*ha muitas fulas, & roſas.* S. |  |
-| `c2-l020` | Quaxa. Fino curuma. *Carro de fogo.* S. |  |
+| `c2-l019` | &emsp;*ha muitas fulas, & roſas. S.* |  |
+| `c2-l020` | Quaxa. Fino curuma. *Carro de fogo. S.* |  |
 | `c2-l021` | Quaxa. *Homem que ſe trata bem, & luzida-* |  |
 | `c2-l022` | &emsp;*mente no veſtido, &c.* |  |
 | `c2-l023` | Quaxa. Fanaguruma. *Carro ricamente or-* |  |
-| `c2-l024` | &emsp;*nado.* S. |  |
+| `c2-l024` | &emsp;*nado. S.* |  |
 | `c2-l025` | Quaxacu. Xacuuo caquru. *Agaſalharſe em* |  |
 | `c2-l026` | &emsp;*algũa caſa* Bonzo, *pondo dentro algum liuro,* |  |
 | `c2-l027` | &emsp;*ou outra peça em ſinal q̃ toma aquella pouſada.* |  |
@@ -107,7 +107,7 @@ Lexical coverage was cross-checked after independent scan reading against the su
 | `c2-l031` | &emsp;*ta de ſobre meſa.* |  |
 | `c2-l032` | Quaxi, ſuru, ita. *Abrandar. ¶* Fito- |  |
 | `c2-l033` | &emsp;no cocorouo qua ſuru. *Abrandar o cora-* |  |
-| `c2-l034` | &emsp;*ção dalguem.* S. |  |
+| `c2-l034` | &emsp;*ção dalguem. S.* |  |
 | `c2-l035` | Quaxin. Fino fari. *Ponteiro de ferro como a-* |  |
 | `c2-l036` | &emsp;*gulha abraſado com fogo. Vt,* Quaxinuo |  |
 | `c2-l037` | &emsp;tatçuru. *Meter eſte ferro abraſado no corpo.* |  |
@@ -120,7 +120,7 @@ Lexical coverage was cross-checked after independent scan reading against the su
 | `c2-l044` | Quaxocu. Fanauo cazaru. *Ornato, ou luſtro.* |  |
 | `c2-l045` | Quaxocuna. *Couſa lustroſa, & bem ornada.* |  |
 | `c2-l046` | &emsp;*¶* Quaxocuna fito. *Homem que ſe trata* |  |
-| `c2-l047` | &emsp;*limpa, & luſtroſamente.* S. |  |
+| `c2-l047` | &emsp;*limpa, & luſtroſamente. S.* |  |
 
 ## Gathering signature
 

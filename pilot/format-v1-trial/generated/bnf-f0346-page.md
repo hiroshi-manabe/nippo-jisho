@@ -56,7 +56,7 @@ Lexical aid consulted after the independent scan reading: Entry Words Data of Ni
 | `c1-l038` | Nadexico. *Erua que dà hũa flor como crauos.* |  |
 | `c1-l039` | Nadezzuchi. *Malho de pilar arroz,* |  |
 | `c1-l040` | Nado. *E o de mais, ou outras couſas.* |  |
-| `c1-l041` | Nado. l, nadoca. i, Najoni. *Por que?* S. |  |
+| `c1-l041` | Nado. l, nadoca. i, Najoni. *Por que? S.* |  |
 | `c1-l042` | Nagaame. *Chuuas da primauera, que durão* |  |
 | `c1-l043` | &emsp;*muito tempo.* |  |
 | `c1-l044` | Nagabacama. *Calções compridos.* |  |

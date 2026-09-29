@@ -23,7 +23,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l007` | &emsp;*antigamente armauão ſobre hum madeiramento* |  |
 | `c1-l008` | &emsp;*que ſe podia menear, ou mudar como Biǒbus.* |  |
 | `c1-l009` | Qichǒ. i, Fidarui. *Fome, ou barriga fa-* |  |
-| `c1-l010` | &emsp;*minta.* S. |  |
+| `c1-l010` | &emsp;*minta. S.* |  |
 | `c1-l011` | Qichô. *Tornar a ſeu reino. ¶* Qichôſuru. |  |
 | `c1-l012` | &emsp;*Idem. Como os que vão à China, ou aos Luçoẽs* |  |
 | `c1-l013` | &emsp;*& tornam a Iapão.* |  |
@@ -33,7 +33,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l017` | &emsp;*uidir eſtes cantos, ou bordas pera ſe vruxarẽ,* |  |
 | `c1-l018` | &emsp;*& ornarem.* |  |
 | `c1-l019` | Qicô. Tattoqi qimi. *Senhor, voſſa merce,* |  |
-| `c1-l020` | &emsp;*ſenhoria, &c.* S. |  |
+| `c1-l020` | &emsp;*ſenhoria, &c. S.* |  |
 | `c1-l021` | Qicocu. *Certa fruita que ſe dà em hũs eſpinhos* |  |
 | `c1-l022` | &emsp;*que ſerue de mezinha.* |  |
 | `c1-l023` | Qicocu. Cuniye cayeru. *Tornada pera o rei-* |  |
@@ -46,14 +46,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l030` | &emsp;*balhar, & eſtar quieto ſem ſemouer. ¶ Itẽ,* |  |
 | `c1-l031` | &emsp;*Em todo tempo, ou ſempre. Vt,* Qicodô- |  |
 | `c1-l032` | &emsp;jǒno aida vaſurezu. *Lembrarſe ſempre em* |  |
-| `c1-l033` | &emsp;*todo tempo.* S. |  |
+| `c1-l033` | &emsp;*todo tempo. S.* |  |
 | `c1-l034` | Qicon. *Calete, ou compreiſão. ¶* Qicon |  |
 | `c1-l035` | &emsp;no tçuyoi fito. *Homem de forte cõpreiſão.* |  |
 | `c1-l036` | Qiconja. l, qiconxa. *Peßoa de bom calete,* |  |
 | `c1-l037` | &emsp;*ou compreiſão.* |  |
 | `c1-l038` | Qicori. *Homem que corta lenha nos matos.* |  |
 | `c1-l039` | Qicot. Fadaye, fone. *Superficie da carne,* |  |
-| `c1-l040` | &emsp;*& oßos.* S. |  |
+| `c1-l040` | &emsp;*& oßos. S.* |  |
 | `c1-l041` | Qicoximeſare, uru, eta. *Ouuir, ou comer, &* |  |
 | `c1-l042` | &emsp;*beber peßoa honrada.* |  |
 | `c1-l043` | Qicoximexi, ſu, ita. *Idem.* |  |
@@ -82,8 +82,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l008` | &emsp;Feiq. *Lib. 2. Auia hum caualo inſig-* |  |
 | `c2-l009` | &emsp;*ne, & mui afamado no Miaco.* |  |
 | `c2-l010` | Qicqei. Yoqi yorocobi. *Alegria, ou pra-* |  |
-| `c2-l011` | &emsp;*zer.* S. |  |
-| `c2-l012` | Qicqeô. Yoxi, axi. *Bem, & mal.* S. |  |
+| `c2-l011` | &emsp;*zer. S.* |  |
+| `c2-l012` | Qicqeô. Yoxi, axi. *Bem, & mal. S.* |  |
 | `c2-l013` | Qicqiǒ. Funchǔ. *Bicho do eſterco, ou das* |  |
 | `c2-l014` | &emsp;*latrinas.* |  *(Outono.* |
 | `c2-l015` | Qicqua. Qicuno fana. *Flor, ou bonina do* |  |

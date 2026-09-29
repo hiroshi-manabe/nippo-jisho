@@ -17,9 +17,9 @@ Lexical cross-check, after independent scan reading: the supplied *Entry Words D
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c1-l001` | &emsp;*dadas a cada tempo, como folguedos, &c.* |  |
-| `c1-l002` | Qiodacu. *Conſentir.* S. |  |
+| `c1-l002` | Qiodacu. *Conſentir. S.* |  |
 | `c1-l003` | Qiǒdai. Tçuyoqi, vôqinari. *Couſa forte, &* |  |
-| `c1-l004` | &emsp;*grande.* S. |  |
+| `c1-l004` | &emsp;*grande. S.* |  |
 | `c1-l005` | Qiodai. i, Cagamino dai. *Pè do eſpelho.* |  |
 | `c1-l006` | Qiǒdai. *Irmão.* |  |
 | `c1-l007` | Qiǒdan. *Modo de falar differente que ha em* |  |
@@ -38,8 +38,8 @@ Lexical cross-check, after independent scan reading: the supplied *Entry Words D
 | `c1-l020` | &emsp;*Miyaco.* |  |
 | `c1-l021` | Qiǒfô. i, Mutçuqi. *Pano com que embu-* |  |
 | `c1-l022` | &emsp;*rulhão a criança, ou com que lhe tomão os ex-* |  |
-| `c1-l023` | &emsp;*crementos.* S. |  |
-| `c1-l024` | Qiǒfu. Curǔ votto. *Doudo.* S. |  |
+| `c1-l023` | &emsp;*crementos. S.* |  |
+| `c1-l024` | Qiǒfu. Curǔ votto. *Doudo. S.* |  |
 | `c1-l025` | Qiǒgai. Sacai, ſacai. *Objecto, como a cor,* |  |
 | `c1-l026` | &emsp;*& luz dos olhos, ſom dos ouidos, &c.* |  |
 | `c1-l027` | &emsp;*¶ Item, Corpo humano. ¶* Sangai fi- |  |
@@ -60,7 +60,7 @@ Lexical cross-check, after independent scan reading: the supplied *Entry Words D
 | `c1-l042` | Qiogo. Ytçuuari, cataru. i, Soragoto. |  |
 | `c1-l043` | &emsp;*Mentira. ¶* Qiogo tçuini mattacarazu. |  |
 | `c1-l044` | &emsp;*A mentira por derradeiro não medra por q̃ lo* |  |
-| `c1-l045` | &emsp;*go ſe deſcobre.* S. |  |
+| `c1-l045` | &emsp;*go ſe deſcobre. S.* |  |
 | `c1-l046` | Qiogon. *Idem.* |  |
 | `c1-l047` | Qiogin. Ginuo ſuyuru. *Aßentar o arrayal.* |  |
 | `c1-l048` | &emsp;*Vt.* Qiogin ſuru. |  |
@@ -106,7 +106,7 @@ Lexical cross-check, after independent scan reading: the supplied *Entry Words D
 | `c2-l029` | &emsp;*famia. Vt,* Qiomeiuo iycaquru. *Im-* |  |
 | `c2-l030` | &emsp;*por, ou aleuantar a alguem falſo teſtemunho.* |  |
 | `c2-l031` | Qiǒmi. Cǒbaxij agiuai. *Goſto ſuaue, &* |  |
-| `c2-l032` | &emsp;*cheiroſo.* S. |  |
+| `c2-l032` | &emsp;*cheiroſo. S.* |  |
 | `c2-l033` | Qiǒmon. *Liuros da ley, & doutrina que eſ-* |  |
 | `c2-l034` | &emsp;*creueo Xaca.* |  |
 | `c2-l035` | Qionen. Sannuru toxi. i, Cozo. *O anno* |  |

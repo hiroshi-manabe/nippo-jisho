@@ -57,7 +57,7 @@ Lexical cross-checks used the supplied Entry Words Data of Nippojisho, NINJAL, H
 | `c1-l039` | &emsp;*Norte.* |  |
 | `c1-l040` | Nanmon. Minamino cado. *Porta da rua* |  |
 | `c1-l041` | &emsp;*pera o Sul.* |  |
-| `c1-l042` | Nanmon. *Queſtão difficultoſa.* S. |  |
+| `c1-l042` | Nanmon. *Queſtão difficultoſa. S.* |  |
 | `c1-l043` | Nannho. Votoco, vonna. *Varão, & molher.* |  |
 | `c1-l044` | Nanno. *Que, ou qual. ¶* Nanno xiſaide |  |
 | `c1-l045` | &emsp;gozaruzo. *Que cauſa ha?* |  |

@@ -57,7 +57,7 @@ Lexical cross-check after independent scan reading: Entry Words Data of Nippojis
 | `c1-l039` | Reqijenua. *Idem.* |  |
 | `c1-l040` | Reqijenni. *Aduer.* |  |
 | `c1-l041` | Reqijit. Fiuo feru. *O acabarſe o dia.* |  |
-| `c1-l042` | Reqinen. Toxiuo feru. *O paßarſe o anno.* S. |  |
+| `c1-l042` | Reqinen. Toxiuo feru. *O paßarſe o anno. S.* |  |
 | `c1-l043` | Reqireqi. *Muitas couſas que eſtão patentes, &* |  |
 | `c1-l044` | &emsp;*por ordem. ¶ Item, permet. Muitas peſ-* |  |
 | `c1-l045` | &emsp;*ſoas honradas, & principaes: & às vezes* |  |

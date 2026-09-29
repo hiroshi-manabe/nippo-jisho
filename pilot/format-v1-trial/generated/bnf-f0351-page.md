@@ -88,7 +88,7 @@ Lexical cross-checks used the supplied Entry Words Data of Nippojisho, NINJAL, H
 | `c2-l006` | &emsp;*quem queria, & tomaua de quem queria, tomã-* |  |
 | `c2-l007` | &emsp;*do cada hum por ſi officio de eſcanção, ora bai* |  |
 | `c2-l008` | &emsp;*lauão ora cantauã, & bebiam.* |  |
-| `c2-l009` | Namima. *Eſpaço das ondas.* S. |  |
+| `c2-l009` | Namima. *Eſpaço das ondas. S.* |  |
 | `c2-l010` | Namimacura. P. *O dormir no nauio, ou* |  |
 | `c2-l011` | &emsp;*ſobre as ondas.* |  |
 | `c2-l012` | Namiſuye, uru, eta. *Por por ordem, ou em* |  |
@@ -119,7 +119,7 @@ Lexical cross-checks used the supplied Entry Words Data of Nippojisho, NINJAL, H
 | `c2-l037` | &emsp;*cada. Vt,* Nijiga nanamena. *O arco* |  |
 | `c2-l038` | &emsp;*celeſte não he direito. ¶* Figa nana- |  |
 | `c2-l039` | &emsp;mena. *Està o ſol inclinado pera a parte* |  |
-| `c2-l040` | &emsp;*do poente.* S. |  |
+| `c2-l040` | &emsp;*do poente. S.* |  |
 | `c2-l041` | Nanameni. *Aduer.* |  |
 | `c2-l042` | Nanban. Minamino yebiſu. *Partes do ſul.* |  |
 | `c2-l043` | &emsp;*Vt,* Nanbangocu. *Reinos da parte do ſul.* |  |

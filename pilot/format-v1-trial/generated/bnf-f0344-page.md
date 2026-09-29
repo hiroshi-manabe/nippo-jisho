@@ -17,7 +17,7 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c1-l001` | Muxu. Cazu naxi. *Couſa ſem conto, ou ſem* |  |
-| `c1-l002` | &emsp;*numero.* S. |  |
+| `c1-l002` | &emsp;*numero. S.* |  |
 | `c1-l003` | Muxu. Nuxinaxi. *Sem dono.* Bup. |  |
 | `c1-l004` | Muxucô. i Cazu caguirimo naicô. *Contos* |  |
 | `c1-l005` | &emsp;*de contos de annos, ou ſeculos.* |  |
@@ -34,13 +34,13 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | `c1-l016` | &emsp;*de parentes, &c.* |  |
 | `c1-l017` | Muyo. Amaru coto naxi. *O não ſobejar.* |  |
 | `c1-l018` | &emsp;*Vt,* Muyo, muqet. *Não ſobejar nem fal-* |  |
-| `c1-l019` | &emsp;*tar nada.* S. |  |
+| `c1-l019` | &emsp;*tar nada. S.* |  |
 | `c1-l020` | Muyô. Mochijru coto naxi. *Couſa deſneceſ-* |  |
 | `c1-l021` | &emsp;*ſaria, & ſem proueito.* |  |
 | `c1-l022` | Muyocu. Yocu naxi. *O não ter cubiça.* |  |
 | `c1-l023` | Muyocuna. *Peßoa ſem cubiça.* |  |
 | `c1-l024` | Muyôna. *Couſa deſneceßaria, & ſem proueito.* |  |
-| `c1-l025` | Muzai. Tçumi naxi. *Sem peccado.* S. |  |
+| `c1-l025` | Muzai. Tçumi naxi. *Sem peccado. S.* |  |
 | `c1-l026` | Muzan. *Compaixão, ou piedade.* |  |
 | `c1-l027` | Muzanna. *Peßoa, ou couſa pera ſe ter cõpai-* |  |
 | `c1-l028` | &emsp;*xão, & piedade della.* |  |

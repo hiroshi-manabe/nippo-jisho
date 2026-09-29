@@ -19,7 +19,7 @@ Lexical coverage was cross-checked after independent scan reading against the su
 | `c1-l001` | &emsp;Quanjǒjini itoma aqiarazu. *Não ſe pode* |  |
 | `c1-l002` | &emsp;*acabar de eſcreuer, ou eſgotar com a pena.* |  |
 | `c1-l003` | Quanjǒſu. l. quanjǒji. i, Fude. *Pena de* |  |
-| `c1-l004` | &emsp;*eſcreuer.* S. |  |
+| `c1-l004` | &emsp;*eſcreuer. S.* |  |
 | `c1-l005` | Quanju. *Numero de vezes que hum Bonzo* |  |
 | `c1-l006` | &emsp;*lẽ, ou promete de ler o Foquequiǒ por algum de* |  |
 | `c1-l007` | &emsp;*funto, offerecendo este papel amarrado em hũ* |  |
@@ -55,7 +55,7 @@ Lexical coverage was cross-checked after independent scan reading against the su
 | `c1-l037` | &emsp;*vida, & deſcanſada.* |  |
 | `c1-l038` | Quanracu. Yorocobi, tanoximu. *Conten-* |  |
 | `c1-l039` | &emsp;*tamentos. ¶* Quanracuuo qiuamuru. *Go-* |  |
-| `c1-l040` | &emsp;*zar de muitos prazeres.* S. |  |
+| `c1-l040` | &emsp;*zar de muitos prazeres. S.* |  |
 | `c1-l041` | Quanracu. i, Vazzurai. *Doença.* |  |
 | `c1-l042` | Quanrei. *Nome de certa dignidade.* |  |
 | `c1-l043` | Quanri. Camuri, cutçu. *Coroa, & calça* |  |
@@ -83,7 +83,7 @@ Lexical coverage was cross-checked after independent scan reading against the su
 | `c2-l006` | &emsp;*ſe toma por crime, ou deſcorteſia feita contra* |  |
 | `c2-l007` | &emsp;*alguem.* |  |
 | `c2-l008` | Quantat. *O cair bem, & aßentar com o en-* |  |
-| `c2-l009` | &emsp;*tendimento nas couſas que medita, &c.* S. |  |
+| `c2-l009` | &emsp;*tendimento nas couſas que medita, &c. S.* |  |
 | `c2-l010` | Quantô. i, Tôgocu. *Certos reinos de Iapão* |  |
 | `c2-l011` | &emsp;*que eſtão pera aparte do Oriente.* |  |
 | `c2-l012` | Quanxacu. *Dignidades, & riquezas. ¶* Quã- |  |

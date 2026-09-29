@@ -41,14 +41,14 @@ Lexical review aid: NINJAL, Hideyuki Ohshima and Taichi Aida, Entry Words Data o
 | `c1-l023` | Rai. i, Rei. *Reuerencia, ou adoração. Vt,* |  |
 | `c1-l024` | &emsp;Raiſuru. *Adorar, ou reuerenciar.* |  |
 | `c1-l025` | Raibin. Qitaru tayori. *Menſageiro que vem,* |  |
-| `c1-l026` | &emsp;*ou portador que ha de vir.* S. |  |
+| `c1-l026` | &emsp;*ou portador que ha de vir. S.* |  |
 | `c1-l027` | Raibiǒ. i, Cattaino yamai. *Doença de lepra.* |  |
 | `c1-l028` | Raibon. Suricobachi. *Hũa manèira de gral* |  |
 | `c1-l029` | &emsp;*largo de barro em q̃ moẽ Miſo, moſtarda, &c.* |  |
 | `c1-l030` | Raica. Qitaru norimono. *O ir, ou vir em* |  |
 | `c1-l031` | &emsp;*andas peßoa honrada.* |  |
 | `c1-l032` | Raica. Qitaru natçu. *O verão que vem.* |  |
-| `c1-l033` | Raichô. *O vir ao reino de Iapão.* S. |  |
+| `c1-l033` | Raichô. *O vir ao reino de Iapão. S.* |  |
 | `c1-l034` | Raicǒ. Qitari mucǒ. *Vinda, ou aparição de* |  |
 | `c1-l035` | &emsp;*Amida, ou outro Fotoque a receber as almas. Po* |  |
 | `c1-l036` | &emsp;*de ſe accõmodar eſta palaura a Deos, & Anjos.* |  |
@@ -62,7 +62,7 @@ Lexical review aid: NINJAL, Hideyuki Ohshima and Taichi Aida, Entry Words Data o
 | `c1-l044` | Raifaru. *Meliùs,* Raixun. i, Qitaru faru. |  |
 | `c1-l045` | &emsp;*A primauera que vem.* |  |
 | `c1-l046` | Raifǔ. Qitaru caje. *Vento que vem vẽ-* |  |
-| `c1-l047` | &emsp;*tando.* S. |  |
+| `c1-l047` | &emsp;*tando. S.* |  |
 
 ## Column 2 running header
 
@@ -77,20 +77,20 @@ Lexical review aid: NINJAL, Hideyuki Ohshima and Taichi Aida, Entry Words Data o
 | `c2-l001` | Raiguat. l, raiguet. Qitaru tçuqi. *Mes,* |  |
 | `c2-l002` | &emsp;*ou lũa que vem.* |  |
 | `c2-l003` | Raiguen. Qitari arauaruru. *Aparecer, ou* |  |
-| `c2-l004` | &emsp;*manifeſtarſe.* S. |  |
+| `c2-l004` | &emsp;*manifeſtarſe. S.* |  |
 | `c2-l005` | Raiguet. Qitaru tçuqi. *Mes, ou lũa q̃ vẽ.* |  |
 | `c2-l006` | Raigui. i, Von ide. *Vinda de peßoa nobre,* |  |
 | `c2-l007` | &emsp;*ou alta.* |  |
 | `c2-l008` | Rai-in. *Portador, ou ocaſião de recado que* |  |
-| `c2-l009` | &emsp;*vem.* S. |  |
+| `c2-l009` | &emsp;*vem. S.* |  |
 | `c2-l010` | Raiji. *Leproſo. Vt,* Raiji tomouo fiqu. |  |
 | `c2-l011` | &emsp;Xix. *O leproſo acompanha o leproſo. i, Ca-* |  |
-| `c2-l012` | &emsp;*da hum buſca ſeu ſemelhante.* S. |  |
+| `c2-l012` | &emsp;*da hum buſca ſeu ſemelhante. S.* |  |
 | `c2-l013` | Raijin. *Lazaro, ou leproſo.* |  |
 | `c2-l014` | Raijit. Qitaru fi. *O dia que vem.* |  |
-| `c2-l015` | Raimei. Icazzuchi naru. *O ſoar o trouão.* S. |  |
+| `c2-l015` | Raimei. Icazzuchi naru. *O ſoar o trouão. S.* |  |
 | `c2-l016` | Rainen. Qitaru toxi. *Anno que vem.* |  |
-| `c2-l017` | Rainhǔ. Qitari iru. *Vir, & entrar.* S. |  |
+| `c2-l017` | Rainhǔ. Qitari iru. *Vir, & entrar. S.* |  |
 | `c2-l018` | Rainǒ. Qitaru voſame. *Rendimento, ou* |  |
 | `c2-l019` | &emsp;*nouidade que vem.* |  |
 | `c2-l020` | Raiqi. *Hũ dos cinco liuros que enſinão policia,* |  |
@@ -104,14 +104,14 @@ Lexical review aid: NINJAL, Hideyuki Ohshima and Taichi Aida, Entry Words Data o
 | `c2-l028` | &emsp;*decendencia, ou propagação dalgũa religião,* |  |
 | `c2-l029` | &emsp;*ou ſeita.* |  |
 | `c2-l030` | Rairin. Qitari nozomu. i, Vonide. *Vin-* |  |
-| `c2-l031` | &emsp;*da de peßoa nobre.* S. |  |
+| `c2-l031` | &emsp;*da de peßoa nobre. S.* |  |
 | `c2-l032` | Raisǒ. *Lepra. Vt,* Raisǒuo vazzurǒ. |  |
 | `c2-l033` | &emsp;*Ser doente de lepra.* |  |
 | `c2-l034` | Raitei. Icazzuchi, Inabicari. *Trouão, &* |  |
-| `c2-l035` | &emsp;*relampago.* S. |  |
-| `c2-l036` | Raitô. Qitaru fuyu. *O Inuerno que vẽ.* S. |  |
-| `c2-l037` | Rai v. *Trouaõ, & chuua.* S. |  |
-| `c2-l038` | Raiuǒ. Yuqi, qitaru. *Ir, & vir.* S. |  |
+| `c2-l035` | &emsp;*relampago. S.* |  |
+| `c2-l036` | Raitô. Qitaru fuyu. *O Inuerno que vẽ. S.* |  |
+| `c2-l037` | Rai v. *Trouaõ, & chuua. S.* |  |
+| `c2-l038` | Raiuǒ. Yuqi, qitaru. *Ir, & vir. S.* |  |
 | `c2-l039` | Raixa. i, Raijin. *Leproſo.* |  |
 | `c2-l040` | Raixe. Qitaru yo. i, Goxǒ. *O outro mun-* |  |
 | `c2-l041` | &emsp;*do, ou o mundo futuro.* |  |

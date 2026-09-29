@@ -29,7 +29,7 @@ Lexical cross-check: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima an
 | `c1-l011` | &emsp;Tçuzzumino quai. *Ajuntamento onde ſe* |  |
 | `c1-l012` | &emsp;*exercitão em fazer verſos, & ajuntamento dos* |  |
 | `c1-l013` | &emsp;*que ſe exercitão em tanger o tabaquinho.* |  |
-| `c1-l014` | Quaibot. Fai, focori. *Cinza, & pò.* S. |  |
+| `c1-l014` | Quaibot. Fai, focori. *Cinza, & pò. S.* |  |
 | `c1-l015` | Quaibun. Meguraxibumi. *Carta que corre* |  |
 | `c1-l016` | &emsp;*como de nouas, ou de outra couſa que ſe manda* |  |
 | `c1-l017` | &emsp;*executar.* |  |
@@ -38,9 +38,9 @@ Lexical cross-check: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima an
 | `c1-l020` | &emsp;*ſa, & leuala no ſeyo, ou conſigo pera caſa.* |  |
 | `c1-l021` | Quaicocu. Cuniuo meguru. *O rodear, ou* |  |
 | `c1-l022` | &emsp;*andar por varios reinos.* |  |
-| `c1-l023` | Quaifô. Idaqi, u. *O tomar nos braços.* S. |  |
+| `c1-l023` | Quaifô. Idaqi, u. *O tomar nos braços. S.* |  |
 | `c1-l024` | Quaifǔ. Meguru caje. *Vento que vai ventã-* |  |
-| `c1-l025` | &emsp;*do em roda.* S. |  |
+| `c1-l025` | &emsp;*do em roda. S.* |  |
 | `c1-l026` | Quaigo. Cocoroyocu cataru. *Praticar à ſua* |  |
 | `c1-l027` | &emsp;*vontade.* |  |
 | `c1-l028` | Quaigǒ. Megurivǒ. *O encontrarſe com al-* |  |
@@ -101,7 +101,7 @@ Lexical cross-check: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima an
 | `c2-l025` | Quairai. Meguri qitaru. *O vir rodeando,* |  |
 | `c2-l026` | &emsp;*ou às voltas.* |  |
 | `c2-l027` | Quairaixi. *O que faz bailar bonifrates, &c.* |  |
-| `c2-l028` | Quairin. *Repoſta da carta.* S. |  |
+| `c2-l028` | Quairin. *Repoſta da carta. S.* |  |
 | `c2-l029` | Quairǒ. Meguru fiſaxi. *Paßadiço q̃ ſe faz* |  |
 | `c2-l030` | &emsp;*pera paßar de hũa caſa a outra.* |  |
 | `c2-l031` | Quairocu. *Perder as riquezas queimãdoſe lhe.* |  |

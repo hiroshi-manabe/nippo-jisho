@@ -48,7 +48,7 @@ Lexical cross-checks used the supplied Entry Words Data of Nippojisho, NINJAL, H
 | `c1-l030` | &emsp;*o tempo.* |  |
 | `c1-l031` | Nandoqi naritomo. *Idem.* |  |
 | `c1-l032` | Nangan. *Grande perigo, trabalho, ou aflição* |  |
-| `c1-l033` | Nangi. *Tu.* S. |  |
+| `c1-l033` | Nangi. *Tu. S.* |  |
 | `c1-l034` | Nangi. Voſamegataxi. *Couſa difficultoſa de* |  |
 | `c1-l035` | &emsp;*ſe gouernar. ¶ Item, De ſarar, como do-* |  |
 | `c1-l036` | &emsp;*ença, &c. ¶* Nangino yamai. *Doença* |  |
@@ -56,7 +56,7 @@ Lexical cross-checks used the supplied Entry Words Data of Nippojisho, NINJAL, H
 | `c1-l038` | Nangiô. *Que materia, ou ponto? ¶ Item,* |  |
 | `c1-l039` | &emsp;*Como, ou por que?* |  |
 | `c1-l040` | Nanguen nango. Yauaracana cotoba. *Pa-* |  |
-| `c1-l041` | &emsp;*lauras, ou pratica branda.* S. |  |
+| `c1-l041` | &emsp;*lauras, ou pratica branda. S.* |  |
 | `c1-l042` | Nangui. *Perigo, ou aflição. ¶* Nanguini |  |
 | `c1-l043` | &emsp;voyobu. *Verſe em grande perigo, ou aflição.* |  |
 | `c1-l044` | &emsp;*¶* Nanguini vǒ. *Encontrarſe com algũa* |  |
@@ -111,7 +111,7 @@ Lexical cross-checks used the supplied Entry Words Data of Nippojisho, NINJAL, H
 | `c2-l034` | Nanimo camo. *Tudo.* |  |
 | `c2-l035` | Naninani. *Que couſa?* |  |
 | `c2-l036` | Naninaritomo. *Qualquer couſa que ſeja.* |  |
-| `c2-l037` | Naninicaua. *Que, ou pera que?* S. *¶* Na- |  |
+| `c2-l037` | Naninicaua. *Que, ou pera que? S. ¶* Na- |  |
 | `c2-l038` | &emsp;ua vqiyono nacani nagareyetomo, nanini |  |
 | `c2-l039` | &emsp;caua xento. Taif. *Lib. 30. Ainda* |  |
 | `c2-l040` | &emsp;*que agora viua no meo do mundo miſerauel que* |  |

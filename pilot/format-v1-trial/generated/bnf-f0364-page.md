@@ -31,7 +31,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l015` | Nicumi, u, ûda. *Aborrecer, ou ter odio.* |  |
 | `c1-l016` | Nicumi. *Aborrecimento, ou odio.* |  |
 | `c1-l017` | Nicuminji, zuru, ita. *Aborrecer, ou ter o-* |  |
-| `c1-l018` | &emsp;*dio.* S. |  |
+| `c1-l018` | &emsp;*dio. S.* |  |
 | `c1-l019` | Nicunicuto. *Adu. Aborreciuelmente, ou* |  |
 | `c1-l020` | &emsp;*com odio.* |  |
 | `c1-l021` | Nicuſabi. *Obras mortas da embarcação.* |  |
@@ -45,7 +45,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l029` | Nicuteina. *Couſa aborreciuel.* |  |
 | `c1-l030` | Nicuteini. *Adu.* |  |
 | `c1-l031` | Nicuxin. *Odio, ou aborrecimento.* |  |
-| `c1-l032` | Nicuxin. *Corpo.* S. |  |
+| `c1-l032` | Nicuxin. *Corpo. S.* |  |
 | `c1-l033` | Nicuxiqi. *Cor do corpo.* |  |
 | `c1-l034` | Nicuzzucu. *Noz noſcada que ſerue de me-* |  |
 | `c1-l035` | &emsp;*zinha.* |  |
@@ -89,7 +89,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l015` | Nigǒ. i, Sayǔ. *Ambas as partes. i, Direi-* |  |
 | `c2-l016` | &emsp;*ta, & eſquerda. ¶* Nigǒni tçuranaru. |  |
 | `c2-l017` | &emsp;*Porſe em fieira, ou por ordem dambas as par-* |  |
-| `c2-l018` | &emsp;*tes.* S. |  |
+| `c2-l018` | &emsp;*tes. S.* |  |
 | `c2-l019` | Nigon. *Duas palauras. i, Tornar a dizer.* |  |
 | `c2-l020` | &emsp;*¶* Nigonto mǒſumai. *Não ei de tornar* |  |
 | `c2-l021` | &emsp;*a dizer.* |  |

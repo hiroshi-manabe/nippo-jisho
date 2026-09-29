@@ -29,9 +29,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l013` | &emsp;*peito, ou no coração.* |  |
 | `c1-l014` | Qeôxa. Voxiyuru mono. i, Xixǒ. *Meſtre* |  |
 | `c1-l015` | &emsp;*que enſina, dà auiſos, &c.* |  |
-| `c1-l016` | Qeôxi, i. Muneno vchi. *Dentro do peito.* S. |  |
+| `c1-l016` | Qeôxi, i. Muneno vchi. *Dentro do peito. S.* |  |
 | `c1-l017` | Qeôxu. Voxiye nuxi. *Xaca, ou Fotoque.* |  |
-| `c1-l018` | Qeôyeqi, *Miſtura.* S. |  |
+| `c1-l018` | Qeôyeqi, *Miſtura. S.* |  |
 | `c1-l019` | Qeôyǒ. *Exequias, ou com mendação que ſe faz* |  |
 | `c1-l020` | &emsp;*por algum defunto. ¶* Bumo qeôyǒno |  |
 | `c1-l021` | &emsp;tameni ſuru. *Fazer algũa couſa polla alma* |  |
@@ -40,7 +40,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l024` | &emsp;yô ſuru. *¶ Item Modo de conſentir, ou tomar* |  |
 | `c1-l025` | &emsp;*bem o que outro diz.* |  |
 | `c1-l026` | Qeôyu. Majiuaru tomo. *Companhia, ou cõ-* |  |
-| `c1-l027` | &emsp;*panheiro.* S. |  |
+| `c1-l027` | &emsp;*panheiro. S.* |  |
 | `c1-l028` | Qeôzocu. Varui nuſubito. *Ladrão publico,* |  |
 | `c1-l029` | &emsp;*& deſaforado.* |  |
 | `c1-l030` | Qeppacu. Iſaguiyoi coto. *Pureza. ¶* Xǒ- |  |
@@ -52,7 +52,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l036` | Qeppu. Muſubi fǔzuru. *O mutrar. ¶* Qep- |  |
 | `c1-l037` | &emsp;puuo naſu. *Mutrar, ou por mutra em cou-* |  |
 | `c1-l038` | &emsp;*ſa que està liada, & amarrada.* |  |
-| `c1-l039` | Qequa. Fana, conomi. *Flor, & fruito.* S. |  |
+| `c1-l039` | Qequa. Fana, conomi. *Flor, & fruito. S.* |  |
 | `c1-l040` | Qera. *Bichinho aßi chamado.* |  |
 | `c1-l041` | Qeracu. Cecoroyoi tanoximi. *Alegria, ou* |  |
 | `c1-l042` | &emsp;*contentamentos.* |  |
@@ -101,7 +101,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l021` | &emsp;*nobre, graue, &c.* |  |
 | `c2-l022` | &emsp;Qetacaſa. |  |
 | `c2-l023` | &emsp;Qetacǒ. *Adu.* |  |
-| `c2-l024` | Qetai. Carino tai. *Corpo humano.* S. |  |
+| `c2-l024` | Qetai. Carino tai. *Corpo humano. S.* |  |
 | `c2-l025` | Qetate, tçuru, eta. *Aleuantar algũa couſa* |  |
 | `c2-l026` | &emsp;*com o pè. ¶* Focoriuo qetatçuru. *A-* |  |
 | `c2-l027` | &emsp;*leuantar pò com os pees. ¶ Per met.* Za- |  |

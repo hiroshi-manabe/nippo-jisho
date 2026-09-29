@@ -103,7 +103,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l028` | &emsp;*a caſca da aruore.* |  |
 | `c2-l029` | Muqen. *Vt,* Muqengigocu. *Inferno, ou* |  |
 | `c2-l030` | &emsp;*lugar de tormentos onde ſem ceßar ſão atormẽ* |  |
-| `c2-l031` | &emsp;*tados os danados.* S. |  |
+| `c2-l031` | &emsp;*tados os danados. S.* |  |
 | `c2-l032` | Muqi, u, uita. *Tirar a caſca. Vt,* Cono- |  |
 | `c2-l033` | &emsp;mino cauauo muqu. *Tirar a caſca, ou eſ-* |  |
 | `c2-l034` | &emsp;*brugar a fruita.* |  |

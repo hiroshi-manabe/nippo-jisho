@@ -118,7 +118,7 @@ Lexical checkpoint: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and
 | `c2-l042` | &emsp;*bre que ſe faz esta ceremonia, & feſta.* |  |
 | `c2-l043` | Nenpo. Toxino fajime. *Principio do anno.* |  |
 | `c2-l044` | &emsp;*Vt,* Nenpono guioqei medetaqu ſoro. *Dou* |  |
-| `c2-l045` | &emsp;*vos os bõs annos.* S. |  |
+| `c2-l045` | &emsp;*vos os bõs annos. S.* |  |
 | `c2-l046` | Nenqi. *Quãtidade, ou contia de annos. ¶* Nẽ- |  |
 | `c2-l047` | &emsp;qiuo ſadamuru, l, ſaſu. *Determinar os an-* |  |
 

@@ -39,7 +39,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l023` | &emsp;*Vſar de piedade, & miſericordia.* |  |
 | `c1-l024` | Rennicu. Faſuno mi. *Fruito do golfão que ſer* |  |
 | `c1-l025` | &emsp;*ue de mezinha.* |  |
-| `c1-l026` | Renpacu. Xiroi faſu. *Golfãos brancos.* S. |  |
+| `c1-l026` | Renpacu. Xiroi faſu. *Golfãos brancos. S.* |  |
 | `c1-l027` | Renren. Tçuranari, u. *Muitas vezes, ou* |  |
 | `c1-l028` | &emsp;*continuadamente. Vt,* Cono cotouo ren- |  |
 | `c1-l029` | &emsp;ren mǒxita. *Iſto diſſe por vezes. ¶ Itẽ,* |  |
@@ -55,8 +55,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l039` | &emsp;chiguiri. *Vnião, &amizade de irmãos.* |  |
 | `c1-l040` | Renxin. Auaremu cocoro. *Coração piadoſo.* |  |
 | `c1-l041` | Renya. Youo tçuranuru. *Noites continua-* |  |
-| `c1-l042` | &emsp;*das.* S. |  |
-| `c1-l043` | Renyô. Fachiſuno fa. *Folhas do golfaõ.* S. |  |
+| `c1-l042` | &emsp;*das. S.* |  |
+| `c1-l043` | Renyô. Fachiſuno fa. *Folhas do golfaõ. S.* |  |
 | `c1-l044` | Reô, l. Riô, Tatçu. *Lagarto.* |  |
 | `c1-l045` | Reǒ. Feya. *Cubiculo.* |  |
 | `c1-l046` | Reô, l. Riô. *Caça, ou peſcaria. ¶* Riô- |  |
@@ -73,7 +73,7 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c2-l001` | &emsp;qiqu. *Tomar algũa couſa na caça, ou peſcaria.* |  |
-| `c2-l002` | Reô a. Mimixij, voxi. *Surdo, & mudo* S. |  |
+| `c2-l002` | Reô a. Mimixij, voxi. *Surdo, & mudo S.* |  |
 | `c2-l003` | Reôca. l, Riôca, i. Norimono. *Andas reaes.* |  |
 | `c2-l004` | Reocacu. Tabino marebito. *Hoſpede.* |  |
 | `c2-l005` | Reôchi. Satori xiru. *Diſcurſo do entendi-* |  |
@@ -86,7 +86,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l012` | &emsp;*duas peßoas prĩcipaes como dous tigres, ou dous* |  |
 | `c2-l013` | &emsp;*lagartos.* |  |
 | `c2-l014` | Reôdat. Satori taſſuru. *Diſcorrer bem com o* |  |
-| `c2-l015` | &emsp;*entendimento, ou eſpecular.* S. |  |
+| `c2-l015` | &emsp;*entendimento, ou eſpecular. S.* |  |
 | `c2-l016` | Reǒju, l. Riǒju. *Senhor, ou dono dalgũa rẽda,* |  |
 | `c2-l017` | &emsp;*ou terras.* |  |
 | `c2-l018` | Reômon. *Figura de lagarto pintada, ou feita* |  |
@@ -110,7 +110,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l036` | &emsp;*e finas.* |  |
 | `c2-l037` | Reôran. Midare, ruru. *Miſtura como de* |  |
 | `c2-l038` | &emsp;*muitas flores ou roſas que eſtaõ muito juntas,* |  |
-| `c2-l039` | &emsp;*& acumuladas.* S. |  |
+| `c2-l039` | &emsp;*& acumuladas. S.* |  |
 | `c2-l040` | Reôri. *Temperado comer. Vt,* Reôri ſuru. |  |
 | `c2-l041` | &emsp;*Temperar.* |  |
 | `c2-l042` | Reôriacu. *Zombaria que ſe faz dalguem por* |  |

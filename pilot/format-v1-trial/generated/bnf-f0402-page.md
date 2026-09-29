@@ -25,7 +25,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l009` | Qiǔjin. Miyabito. *Gente nobre do paço co-* |  |
 | `c1-l010` | &emsp;*mo Cũgues.* |  |
 | `c1-l011` | Qiǔin. Mimizu. *Minhoca.* |  |
-| `c1-l012` | Qiǔmei. Furuqi chiguiri. *Amizade ãtigua.* S. |  |
+| `c1-l012` | Qiǔmei. Furuqi chiguiri. *Amizade ãtigua. S.* |  |
 | `c1-l013` | Qiǔmei. Tadaxi aqiramuru. *Iuizo, l, exame.* |  |
 | `c1-l014` | &emsp;*Vt,* Qiǔmei ſuru. *Iulgar, ou examinar.* |  |
 | `c1-l015` | Qiǔmin. i, Finnin. *Pouo pobre, & deſ-* |  |
@@ -37,7 +37,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l021` | Qiǔna. *Couſa repentina, ou apreßada.* |  |
 | `c1-l022` | Qiǔni. *Adu. Derepente.* |  |
 | `c1-l023` | Qiǔnan. Niuacana nangui. *Trabalho, ou* |  |
-| `c1-l024` | &emsp;*perigo repentino.* S. |  |
+| `c1-l024` | &emsp;*perigo repentino. S.* |  |
 | `c1-l025` | Qiǔnen. Qiuamaru toxi. *Anno trabalho-* |  |
 | `c1-l026` | &emsp;*ſo como de grande fome, &c.* |  |
 | `c1-l027` | Qiǔnen. Furuqi toxi. *Annos antiguos, ou* |  |
@@ -92,7 +92,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l018` | Qiǔtai. Furui coqe. *Muſgo velho, ou de* |  |
 | `c2-l019` | &emsp;*muito tempo.* |  |
 | `c2-l020` | Qiǔtat. Qiuame taſſuru. *O aperfeiçoar, aca-* |  |
-| `c2-l021` | &emsp;*bar, ou comprir como deſejo, &c.* S. |  |
+| `c2-l021` | &emsp;*bar, ou comprir como deſejo, &c. S.* |  |
 | `c2-l022` | Qiǔu. Niuacana ame. i, Muraſame. *Chu-* |  |
 | `c2-l023` | &emsp;*ua repentina.* |  |
 | `c2-l024` | Qiǔuon. Furuqi megumi. *Beneficios an-* |  |

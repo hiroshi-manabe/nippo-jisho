@@ -16,18 +16,18 @@ Lexical review aid: NINJAL, Hideyuki Ohshima and Taichi Aida, Entry Words Data o
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | &emsp;*fauores del Rey.* S. |  |
+| `c1-l001` | &emsp;*fauores del Rey. S.* |  |
 | `c1-l002` | Quǒxen. Qina izumi. *Lugar de baixo da* |  |
 | `c1-l003` | &emsp;*terra, onde vão ter as almas dos que morrem,* |  |
 | `c1-l004` | &emsp;*como cuidão os gentios.* |  |
-| `c1-l005` | Quǒxi. Qina cami. *Papel amarelo.* S. |  |
+| `c1-l005` | Quǒxi. Qina cami. *Papel amarelo. S.* |  |
 | `c1-l006` | Quǒ ya. Firoqi no. *Campo largo, & eſpa-* |  |
 | `c1-l007` | &emsp;*çoſo. ¶ Item, Campo inculto, & deixa-* |  |
 | `c1-l008` | &emsp;*do em mortorio.* |  |
 | `c1-l009` | Quǒye. Qina coromo. *Veſtido amarelo, que* |  |
 | `c1-l010` | &emsp;*veſtem os Bonzos de Iapão por cima doutro* |  |
 | `c1-l011` | &emsp;*veſtido.* |  |
-| `c1-l012` | Quǒyǒ. Ficari cacayaqu. *Reſplẽdor.* S. |  |
+| `c1-l012` | Quǒyǒ. Ficari cacayaqu. *Reſplẽdor. S.* |  |
 | `c1-l013` | Quǒyô. Qibamitaru fa. *Folhas amarelas* |  |
 | `c1-l014` | &emsp;*como as do outono que eſtão pera cair.* |  |
 
@@ -133,8 +133,8 @@ Lexical review aid: NINJAL, Hideyuki Ohshima and Taichi Aida, Entry Words Data o
 | `c2-l029` | &emsp;*a primeira vez, ou fazerſe Bonzo. Vt,* Ra- |  |
 | `c2-l030` | &emsp;cufatſuru. |  |
 | `c2-l031` | Racugan. Votçuru cari. *Pato brauo que de-* |  |
-| `c2-l032` | &emsp;*ce, ou pouſa em baixo.* S. |  |
-| `c2-l033` | Racugi. Chini votçuru. *O cair em terra.* S. |  |
+| `c2-l032` | &emsp;*ce, ou pouſa em baixo. S.* |  |
+| `c2-l033` | Racugi. Chini votçuru. *O cair em terra. S.* |  |
 | `c2-l034` | Racugiacu. Vochi tçuqu. *O determinar, ou* |  |
 | `c2-l035` | &emsp;*ſentenciar. Vt,* Cujiga racugiacu xita. *A-* |  |
 | `c2-l036` | &emsp;*demanda està concluida, ou dada ſentença.* |  |

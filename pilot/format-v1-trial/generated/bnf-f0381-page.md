@@ -16,7 +16,7 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | &emsp;ni coxite. *Eſtando humildemente.* S. |  |
+| `c1-l001` | &emsp;ni coxite. *Eſtando humildemente. S.* |  |
 | `c1-l002` | Qen. Tçurugui. *Eſpada. ¶* Qenuo nu- |  |
 | `c1-l003` | &emsp;qi cutçuroguru. *Arrancar mea eſpada.* |  |
 | `c1-l004` | &emsp;*¶* Qenuo tai ſuru. *Trazer eſpada.* |  |
@@ -63,7 +63,7 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c1-l045` | &emsp;*da. i, Preparate.* |  |
 | `c1-l046` | Qenchi. Suzurino iqe. *Coua q̃ està no tinteiro* |  |
 | `c1-l047` | &emsp;*de pedra da China com agoa pera moer a tin-* |  |
-| `c1-l048` | &emsp;*ta.* S. |  |
+| `c1-l048` | &emsp;*ta. S.* |  |
 
 ## Column 2 running header
 
@@ -81,15 +81,15 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c2-l004` | Qenchi. *O medir as terras. Vt,* Qenchiuo |  |
 | `c2-l005` | &emsp;ſuru. |  |
 | `c2-l006` | Qencho. *Couſa manifesta, ou deſcuberta. Vt,* |  |
-| `c2-l007` | &emsp;Qencho nari. *He couſa manifeſta.* S. |  |
+| `c2-l007` | &emsp;Qencho nari. *He couſa manifeſta. S.* |  |
 | `c2-l008` | Qenchona. *Vt,* Qenchona fito. *Homem* |  |
 | `c2-l009` | &emsp;*deſcuberto, & claro.* |  |
 | `c2-l010` | Qenchôna. *Peßoa, q̃ ſe eſpanta facelmẽte.* |  |
-| `c2-l011` | Qencǒ. *Couſa forte, & dura.* S. |  |
+| `c2-l011` | Qencǒ. *Couſa forte, & dura. S.* |  |
 | `c2-l012` | Qencô. Tçurugui, cabuto. *Eſpada, & ca-* |  |
-| `c2-l013` | &emsp;*pacete.* S. |  |
-| `c2-l014` | Qencon. i, Tenchi. *Ceo, & terra.* S. |  |
-| `c2-l015` | Qencun. Caxicoi qimi. *Senhor prudẽte.* S. |  |
+| `c2-l013` | &emsp;*pacete. S.* |  |
+| `c2-l014` | Qencon. i, Tenchi. *Ceo, & terra. S.* |  |
+| `c2-l015` | Qencun. Caxicoi qimi. *Senhor prudẽte. S.* |  |
 | `c2-l016` | Qendai. *Certa estante que ſerue de pòr o liuro.* |  |
 | `c2-l017` | Qendan. *Officio de gouernar, & julgar.* |  |
 | `c2-l018` | &emsp;*¶* Qendan ſuru. *Fazer este officio como* |  |
@@ -101,12 +101,12 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c2-l024` | Qendonna. *Couſa cruel, & deſhumana.* |  |
 | `c2-l025` | Qendonni. *Adu. Cruel, & deſhumana* |  |
 | `c2-l026` | &emsp;*mente.* |  |
-| `c2-l027` | Qenen. *O vir, ou o correr ao penſamento.* S. |  |
+| `c2-l027` | Qenen. *O vir, ou o correr ao penſamento. S.* |  |
 | `c2-l028` | Qengacu. Farucani fedataru. *Differença.* |  |
 | `c2-l029` | &emsp;*¶* Vndeino qengacu nari. *He differen-* |  |
-| `c2-l030` | &emsp;*ça como de nuuẽs, & lama.* S. |  |
+| `c2-l030` | &emsp;*ça como de nuuẽs, & lama. S.* |  |
 | `c2-l031` | Qengacu. Canete manabu. *Eſtudo, ou ter* |  |
-| `c2-l032` | &emsp;*estudado dantes.* S. |  |
+| `c2-l032` | &emsp;*estudado dantes. S.* |  |
 | `c2-l033` | Qengio. Caxicoqi vonna. *Molher prudẽ-* |  |
 | `c2-l034` | &emsp;*te, & acautelada, & q̃ não ouue quaes quer* |  |
 | `c2-l035` | &emsp;*perſuaſões ruins.* |  |

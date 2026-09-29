@@ -44,7 +44,7 @@ Lexical cross-check aid: NINJAL, Hideyuki Ohshima and Taichi Aida, *Entry Words 
 | `c1-l027` | &emsp;*deuação, & atenção.* |  |
 | `c1-l028` | Qingacocu. *Reinos confins, ou vezinhos.* |  |
 | `c1-l029` | Qingacu. Gacumonuo tçutomuru. *Estu-* |  |
-| `c1-l030` | &emsp;*dar.* S. |  |
+| `c1-l030` | &emsp;*dar. S.* |  |
 | `c1-l031` | Qinguen. Coganeno cotoba. *Bom dito, ou* |  |
 | `c1-l032` | &emsp;*ſentença. ¶* Qinguenuo yǔ, l, faqu. |  |
 | `c1-l033` | &emsp;*Dizer boas ſentenças.* |  |
@@ -85,14 +85,14 @@ Lexical cross-check aid: NINJAL, Hideyuki Ohshima and Taichi Aida, *Entry Words 
 | `c2-l009` | &emsp;*fome.* |  |
 | `c2-l010` | Qinjei. *Prohibição. Vt,* Qinjeiuo ſomu- |  |
 | `c2-l011` | &emsp;qu. *Quebrantar a prohibição, ou ley.* |  |
-| `c2-l012` | Qinji. Coganeno ji. *Letras de ouro.* S. |  |
-| `c2-l013` | Qinji. Imaximuru coto. *Prohibição.* S. |  |
+| `c2-l012` | Qinji. Coganeno ji. *Letras de ouro. S.* |  |
+| `c2-l013` | Qinji. Imaximuru coto. *Prohibição. S.* |  |
 | `c2-l014` | Qinji, zuru, ita. *Prohibir, ou empedir.* |  |
 | `c2-l015` | &emsp;*¶* Camacuradono yori furejǒ cudatte ya |  |
 | `c2-l016` | &emsp;mabuxiuo catǒ qinjeraruru. Tog. *De-* |  |
 | `c2-l017` | &emsp;*cendo prouiſão de Camacuradono, em que por* |  |
 | `c2-l018` | &emsp;*todas as partes manda prohibir a paßagem de* |  |
-| `c2-l019` | &emsp;*Yamabuxis.* S. |  |
+| `c2-l019` | &emsp;*Yamabuxis. S.* |  |
 | `c2-l020` | Qinji, zuru, ita. *Fazer algũa couſa exacta-* |  |
 | `c2-l021` | &emsp;*mente apartando, ou prohibindo todo o ruim, ou* |  |
 | `c2-l022` | &emsp;*que pode empecer. Vt,* Cono cuſurino |  |

@@ -37,8 +37,8 @@ Lexical cross-check, after independent scan reading: the supplied *Entry Words D
 | `c1-l019` | &emsp;Vondeqi yocuyocu qinpǒ xeyo. *Reſiſ-* |  |
 | `c1-l020` | &emsp;*ti bem ao voßo inimigo prejudicial.* |  |
 | `c1-l021` | Qinpon. Firugayeri, u. *O virar, ou re-* |  |
-| `c1-l022` | &emsp;*uoluer.* S. |  |
-| `c1-l023` | Qinpǔ. i, Aqino caje. *Vento do Outono.* S. |  |
+| `c1-l022` | &emsp;*uoluer. S.* |  |
+| `c1-l023` | Qinpǔ. i, Aqino caje. *Vento do Outono. S.* |  |
 | `c1-l024` | Qinqei. *Certa aue como galinha do mato que* |  |
 | `c1-l025` | &emsp;*ha na China.* |  |
 | `c1-l026` | Qinqet. *Paços ricos del Rey.* |  |
@@ -93,7 +93,7 @@ Lexical cross-check, after independent scan reading: the supplied *Entry Words D
 | `c2-l017` | &emsp;*ferro. Vt,* Qintet ataiuo vonajǔ xezu. |  |
 | `c2-l018` | &emsp;*Ouro, & ferro não tem o meſmo preço.* |  |
 | `c2-l019` | Qintǒ. Firugayeri tauoru. *Virandoſe ca-* |  |
-| `c2-l020` | &emsp;*ir.* S. |  |
+| `c2-l020` | &emsp;*ir. S.* |  |
 | `c2-l021` | Qinton. *Certa laya de Mochis redondos com* |  |
 | `c2-l022` | &emsp;*aſucar dentro.* |  |
 | `c2-l023` | Qinu. *Peça de ſeda delgada.* |  |

@@ -57,9 +57,9 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c1-l032` | QI. i, Go. *Iogo de muitas pedrinhas que* |  |
-| `c1-l033` | &emsp;*mudão em hum taboleiro riſcado.* S. |  |
+| `c1-l033` | &emsp;*mudão em hum taboleiro riſcado. S.* |  |
 | `c1-l034` | &emsp;Qi. Vma. *Caualo. ¶* Fai qini tçu |  |
-| `c1-l035` | &emsp;qu. *As moſcas peganſe no caualo.* S. |  |
+| `c1-l035` | &emsp;qu. *As moſcas peganſe no caualo. S.* |  |
 | `c1-l036` | Qi. *Coração, eſpiritos vitaes, ou vigor do co-* |  |
 | `c1-l037` | &emsp;*ração. ¶* Qiga ſanzuru, l, qiuo ſanzu- |  |
 | `c1-l038` | &emsp;ru. *Deſabafar o coração. ¶* Qiga tçuca- |  |

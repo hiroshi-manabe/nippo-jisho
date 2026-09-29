@@ -16,36 +16,36 @@ Lexical coverage was cross-checked after independent scan reading against the su
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | Quaxocu. Fanano iro. *Cor da roſa.* S. |  |
-| `c1-l002` | Quaxocu. Fino iro. *Cor de fogo.* S. |  |
+| `c1-l001` | Quaxocu. Fanano iro. *Cor da roſa. S.* |  |
+| `c1-l002` | Quaxocu. Fino iro. *Cor de fogo. S.* |  |
 | `c1-l003` | Quayacu. *Officio que o ſenhor encarrega a al-* |  |
 | `c1-l004` | &emsp;*guem. ¶* Quayacuuo caquru. *Impor* |  |
 | `c1-l005` | &emsp;*o ſenhor algum officio ou cargo.* |  |
 | `c1-l006` | Quayei. Fanano cague. *Sombra das ro-* |  |
-| `c1-l007` | &emsp;*ſas.* S. |  |
+| `c1-l007` | &emsp;*ſas. S.* |  |
 | `c1-l008` | Quayen. Fino fonouo. *Labareda do fogo.* |  |
 | `c1-l009` | Quayô. Fana, fa. *Flor, ou roſa, & folha.* |  |
 | `c1-l010` | Quayo. Voya quabocu. *Tregoas, ou pazes.* |  |
 | `c1-l011` | Quazocu. *Gente nobre, & lustroſa como* |  |
 | `c1-l012` | &emsp;*Cungues.* |  |
 | `c1-l013` | Quazui. Fanano cuqi. *Pè da roſa.* |  |
-| `c1-l014` | Quǒbacu. Firocu, firoxi. *Couſa larga.* S. |  |
-| `c1-l015` | Quǒbun. *Grande letrado.* S. |  |
+| `c1-l014` | Quǒbacu. Firocu, firoxi. *Couſa larga. S.* |  |
+| `c1-l015` | Quǒbun. *Grande letrado. S.* |  |
 | `c1-l016` | Quochi. Firoqi chiye. *Grande ſaber. ¶* Quǒ |  |
 | `c1-l017` | &emsp;china fito. *Homem de grande ſaber.* |  |
 | `c1-l018` | Quǒchǒ. Firô nagaxi. *Couſa larga, &* |  |
 | `c1-l019` | &emsp;*comprida.* |  |
 | `c1-l020` | Quǒchǒna. *Idem.* |  |
 | `c1-l021` | Quǒchǒni. *Aduerb.* |  |
-| `c1-l022` | Quǒchô. Qina chô. *Borboleta amarela.* S. |  |
+| `c1-l022` | Quǒchô. Qina chô. *Borboleta amarela. S.* |  |
 | `c1-l023` | Quǒchǔ. Ficarino vchi. *Dentro da cla-* |  |
 | `c1-l024` | &emsp;*ridade.* |  |
-| `c1-l025` | Quǒcon. i, Banguei. *Atarde.* S. |  |
+| `c1-l025` | Quǒcon. i, Banguei. *Atarde. S.* |  |
 | `c1-l026` | Quǒdai. Firô vôqina. *Couſa mui larga, &* |  |
 | `c1-l027` | &emsp;*grande. Vt,* Quǒdai mufen. *Couſa im-* |  |
 | `c1-l028` | &emsp;*menſa, & infinita.* |  |
 | `c1-l029` | Quǒfai. Are, ſutareta tocoro. *Lugar, ou* |  |
-| `c1-l030` | &emsp;*caſa destruida, ou deſabitada.* S. |  |
+| `c1-l030` | &emsp;*caſa destruida, ou deſabitada. S.* |  |
 | `c1-l031` | Quǒgacu. Firoi manabi. *Grande eſtudo,* |  |
 | `c1-l032` | &emsp;*& letras. ¶* Quǒgacuno chixa. *Homẽ* |  |
 | `c1-l033` | &emsp;*ſabio, & douto.* |  |
@@ -76,10 +76,10 @@ Lexical coverage was cross-checked after independent scan reading against the su
 | --- | --- | --- |
 | `c2-l001` | Quǒmiǒxu. *Vermelhão da China.* |  |
 | `c2-l002` | Quǒmon. Firoqi cado. *Porta, ou portal* |  |
-| `c2-l003` | &emsp;*grande.* S. |  |
+| `c2-l003` | &emsp;*grande. S.* |  |
 | `c2-l004` | Quǒqi. Firoqi cocoro. *Grande coração, &* |  |
 | `c2-l005` | &emsp;*liberal.* |  |
-| `c2-l006` | Quǒqi. Ficari cacayaqu. *Resplandor.* S. |  |
+| `c2-l006` | Quǒqi. Ficari cacayaqu. *Resplandor. S.* |  |
 | `c2-l007` | Quǒqicu. Qina qicu. *Flor, ou bonina do* |  |
 | `c2-l008` | &emsp;*outono aßi chamada de cor amarela.* |  |
 | `c2-l009` | Quǒqina. *Vt,* Quǒqina fito. *Homem* |  |
@@ -96,9 +96,9 @@ Lexical coverage was cross-checked after independent scan reading against the su
 | `c2-l020` | &emsp;*te, ou reſplandor.* |  |
 | `c2-l021` | Quǒracu. Qibami votçuru. *Vt,* Sǒmo- |  |
 | `c2-l022` | &emsp;cu quǒracu. *O cairem as folhas velhas das* |  |
-| `c2-l023` | &emsp;*aruores, & eruas no Outono.* S. |  |
+| `c2-l023` | &emsp;*aruores, & eruas no Outono. S.* |  |
 | `c2-l024` | Quǒran. Firocu miru. i, Gacuxǒ. *Le-* |  |
-| `c2-l025` | &emsp;*trado.* S. |  |
+| `c2-l025` | &emsp;*trado. S.* |  |
 | `c2-l026` | Quǒri. *Roxinol.* |  |
 | `c2-l027` | Quǒrin. i, Von ide. *Ida, ou vinda de peſ-* |  |
 | `c2-l028` | &emsp;*ſoa nobre.* |  |

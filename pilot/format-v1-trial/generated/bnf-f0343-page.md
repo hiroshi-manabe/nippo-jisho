@@ -124,7 +124,7 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | `c2-l040` | Muxo. *Sepultura, ou lugar de ſepulturas.* |  |
 | `c2-l041` | Muxǒ. Sauari naxi. *Sẽ impedimento. Vt,* |  |
 | `c2-l042` | &emsp;Muxǒ mugue. *Sem impedimento, nem* |  |
-| `c2-l043` | &emsp;*estoruo.* S. |  |
+| `c2-l043` | &emsp;*estoruo. S.* |  |
 | `c2-l044` | Muxǒ muxi. *O não nacer, nẽ morrer.* Bup. |  |
 | `c2-l045` | Muxoſa. *Ocioſidade, ou não fazer nada. ¶* Mu- |  |
 | `c2-l046` | &emsp;xoſani xite iru. *Eſtar ocioſo ſem fazer na-* |  |

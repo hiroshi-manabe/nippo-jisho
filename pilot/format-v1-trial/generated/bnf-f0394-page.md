@@ -25,7 +25,7 @@ Lexical cross-check, after independent scan reading: the supplied *Entry Words D
 | `c1-l007` | Qinxǒ. *Carta de bom estilo, ou verſos eſcri-* |  |
 | `c1-l008` | &emsp;*tos que hum louua, ou aleuanta com hõra. Vt,* |  |
 | `c1-l009` | &emsp;Qinxǒ tǒrai. *Vir, ou mandarſe algũa car* |  |
-| `c1-l010` | &emsp;*ta, ou verſos elegantes.* S. |  |
+| `c1-l010` | &emsp;*ta, ou verſos elegantes. S.* |  |
 | `c1-l011` | Qinxocu. Coganeno iro. *Cor de ouro.* |  |
 | `c1-l012` | &emsp;*¶ Item, Roſto alegre. Vt,* Vomoteni |  |
 | `c1-l013` | &emsp;qinxocuno majiuariuo muſubi, cocoroni |  |
@@ -42,10 +42,10 @@ Lexical cross-check, after independent scan reading: the supplied *Entry Words D
 | `c1-l024` | &emsp;*Pòrſe esta ley, &c.* |  |
 | `c1-l025` | Qinyacu. i, Tçuyoqi yacuſocu. *Forte, ou* |  |
 | `c1-l026` | &emsp;*firme promeſſa.* |  |
-| `c1-l027` | Qinyet. Yorocobi, u. *Alegria.* S. |  |
+| `c1-l027` | Qinyet. Yorocobi, u. *Alegria. S.* |  |
 | `c1-l028` | Qinzan. Nixiqino yama. *Monte, ou mato* |  |
 | `c1-l029` | &emsp;*que no Outono parece fermoſo, & de varias co* |  |
-| `c1-l030` | &emsp;*res em que ſe mudão as folhas.* S. |  |
+| `c1-l030` | &emsp;*res em que ſe mudão as folhas. S.* |  |
 | `c1-l031` | Qio. Suu. *Eſtar. Vt,* Qiouo ſaru. *Apar-* |  |
 | `c1-l032` | &emsp;*tarſe do lugar, ou apoſento. ¶* Qiouo xi- |  |
 | `c1-l033` | &emsp;muru. *Determinar lugar como choupana, &c.* |  |
@@ -76,12 +76,12 @@ Lexical cross-check, after independent scan reading: the supplied *Entry Words D
 | --- | --- | --- |
 | `c2-l001` | &emsp;*contentão pella ſentença, ou ſutileza.* |  |
 | `c2-l002` | Qiǒcan. Cǒbaxicu, amaxi. *Couſa cheiro-* |  |
-| `c2-l003` | &emsp;*ſa, & goſtoſa.* S. |  |
+| `c2-l003` | &emsp;*ſa, & goſtoſa. S.* |  |
 | `c2-l004` | Qiǒcan. Cǒbaxij atçumono. *Certa igua-* |  |
 | `c2-l005` | &emsp;*ria goſtoſa.* |  |
 | `c2-l006` | Qiǒcan. Cǒbaxij fuda. *Carta de peßoa cõ* |  |
 | `c2-l007` | &emsp;*quẽ ſe fala honrandoa, & louuando o ſeu es-* |  |
-| `c2-l008` | &emsp;*tilo, &c.* S. |  |
+| `c2-l008` | &emsp;*tilo, &c. S.* |  |
 | `c2-l009` | Qiǒchi. *Lugar, ou terra que aos olhosſe re-* |  |
 | `c2-l010` | &emsp;*preſenta boa, ou maa. ¶* Yoi qiǒchigia. |  |
 | `c2-l011` | &emsp;*He bõ lugar, ou chão pera fazer caſas, &c.* |  |
@@ -112,7 +112,7 @@ Lexical cross-check, after independent scan reading: the supplied *Entry Words D
 | `c2-l036` | Qiocuchocu. Magatta, ſuguna. *Torto, &* |  |
 | `c2-l037` | &emsp;*direito. ¶* Qiocuchocu funmiǒ. Xix. |  |
 | `c2-l038` | &emsp;*O torto, & direito logo ſe ve.* |  |
-| `c2-l039` | Qiocuchǔ. *Dentro do cubiculo.* S. |  |
+| `c2-l039` | Qiocuchǔ. *Dentro do cubiculo. S.* |  |
 | `c2-l040` | Qiocumo nai. *Palaura com que principalmẽ-* |  |
 | `c2-l041` | &emsp;*te ſe hum queixa dalguem por não lhe fazer o* |  |
 | `c2-l042` | &emsp;*que deuia. Vt,* Qiocumo nai cotouo ſu- |  |

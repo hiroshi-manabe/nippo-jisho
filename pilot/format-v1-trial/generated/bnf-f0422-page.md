@@ -34,8 +34,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l018` | Riǔxei. *Exalação que ſe acende denoite no ar,* |  |
 | `c1-l019` | &emsp;*& parece eſtrela que voa.* |  |
 | `c1-l020` | Riǔxi. Yanaguino ito. *Ramos delgados de* |  |
-| `c1-l021` | &emsp;*ſalgueiros que estão de pendurados como fios.* S. |  |
-| `c1-l022` | Riǔxocu. Yanaguino iro. *Cor de ſalgueiro.* S. |  |
+| `c1-l021` | &emsp;*ſalgueiros que estão de pendurados como fios. S.* |  |
+| `c1-l022` | Riǔxocu. Yanaguino iro. *Cor de ſalgueiro. S.* |  |
 | `c1-l023` | Riǔyô. Tate mochiyuru. *O dar, ou pagar* |  |
 | `c1-l024` | &emsp;*algũa couſa da diuida, ou toda conforme ao de* |  |
 | `c1-l025` | &emsp;*ſejo do acredor, em algũa couſa q̃ não ſeia a meſ* |  |
@@ -47,7 +47,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l031` | &emsp;*por onde estão de pendurados, que commummẽ* |  |
 | `c1-l032` | &emsp;*te tem figura de hum lagarto.* |  |
 | `c1-l033` | Rixei. Youo voſamuru. *O gouernar impe-* |  |
-| `c1-l034` | &emsp;*rio, ou reino em paz, & com ordem.* S. |  |
+| `c1-l034` | &emsp;*rio, ou reino em paz, & com ordem. S.* |  |
 | `c1-l035` | Rixei. *Agudeza, & ſagacidade. ¶* Rixeina |  |
 | `c1-l036` | &emsp;fito. *Homem agudo, & diſcreto.* |  |
 | `c1-l037` | Rixen. *O dar, ou empreſtar dinheiro à õzena.* |  |

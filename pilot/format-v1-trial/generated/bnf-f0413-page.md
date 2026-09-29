@@ -21,11 +21,11 @@ Lexical review aid: NINJAL, Hideyuki Ohshima and Taichi Aida, Entry Words Data o
 | `c1-l003` | &emsp;*este papel em aberto, & limpo no principio* |  |
 | `c1-l004` | &emsp;*da carta.* |  |
 | `c1-l005` | Raixi, ſuru, ita. *Venerar, ou reuerenciar.* |  |
-| `c1-l006` | Raixǒ. *Vida futura, ou a outra vida.* S. |  |
-| `c1-l007` | Raixǔ. Qitaru aqi. *Outono que vem.* S. |  |
+| `c1-l006` | Raixǒ. *Vida futura, ou a outra vida. S.* |  |
+| `c1-l007` | Raixǔ. Qitaru aqi. *Outono que vem. S.* |  |
 | `c1-l008` | Raixun. Qitaru faru. *A primauera que* |  |
-| `c1-l009` | &emsp;*vem.* S. |  |
-| `c1-l010` | Raiyu. i, Yurai. *Cauſa, origem, &c.* S. |  |
+| `c1-l009` | &emsp;*vem. S.* |  |
+| `c1-l010` | Raiyu. i, Yurai. *Cauſa, origem, &c. S.* |  |
 | `c1-l011` | Ramǒ. i, Ami. *Rede.* |  |
 | `c1-l012` | Ran. Midare. *Perturbação.* Ranuo vo- |  |
 | `c1-l013` | &emsp;coſu. *Cauſar algũa perturbação. ¶* Ran- |  |
@@ -42,7 +42,7 @@ Lexical review aid: NINJAL, Hideyuki Ohshima and Taichi Aida, Entry Words Data o
 | `c1-l024` | Rancan. Vobaxima. *Balauſtes de ponte, ou* |  |
 | `c1-l025` | &emsp;*de varandas, &c.* |  |
 | `c1-l026` | Randa. Vmi vocotaru. *Deſcuido, ou negli-* |  |
-| `c1-l027` | &emsp;*gencia.* S. |  |
+| `c1-l027` | &emsp;*gencia. S.* |  |
 | `c1-l028` | Randat. *Perturbação, ou deſordem de vida,* |  |
 | `c1-l029` | &emsp;*cuſtumes, &c. ¶* Randatna fito. *Ho-* |  |
 | `c1-l030` | &emsp;*mem deſordenado na vida.* |  |
@@ -91,40 +91,40 @@ Lexical review aid: NINJAL, Hideyuki Ohshima and Taichi Aida, Entry Words Data o
 | `c2-l009` | &emsp;*ſe guarda em Nara.* |  |
 | `c2-l010` | Ranman. Midare fabicoru. *O florecer das* |  |
 | `c2-l011` | &emsp;*roſas, ou flores quando eſtão muitas hũas ſobre* |  |
-| `c2-l012` | &emsp;*outras.* S. |  |
+| `c2-l012` | &emsp;*outras. S.* |  |
 | `c2-l013` | Ranmǒ. Midarinaru nozomi. *Maos deſejos,* |  |
-| `c2-l014` | &emsp;*ou deſordenados.* S. |  |
+| `c2-l014` | &emsp;*ou deſordenados. S.* |  |
 | `c2-l015` | Ranmõ. *Lauores, ou pinturas de veſtidos que* |  |
 | `c2-l016` | &emsp;*ſe fazem eſpalhadas, & ſem ordem.* |  |
 | `c2-l017` | Rannhǔ. Midare iru. *Entrar de romania, ou* |  |
-| `c2-l018` | &emsp;*de tropel muita gente.* S. |  |
+| `c2-l018` | &emsp;*de tropel muita gente. S.* |  |
 | `c2-l019` | Rannicu. Tadareta xiximura. *Carne que* |  |
 | `c2-l020` | &emsp;*moſtra danarſe, ou corromperſe por estar ara-* |  |
-| `c2-l021` | &emsp;*ganhada, murcha, ou com beiços, &c.* S. |  |
+| `c2-l021` | &emsp;*ganhada, murcha, ou com beiços, &c. S.* |  |
 | `c2-l022` | Ranpat. Midareta cami. *Cabelos ſoltos, &* |  |
-| `c2-l023` | &emsp;*empeçados.* S. |  |
-| `c2-l024` | Ranpǒ. Midareta cuni. *Reino perturbado.* S. |  |
+| `c2-l023` | &emsp;*empeçados. S.* |  |
+| `c2-l024` | Ranpǒ. Midareta cuni. *Reino perturbado. S.* |  |
 | `c2-l025` | Ranpô. i, Ranqei, fôuǒ. *Hum paßaro grã-* |  |
 | `c2-l026` | &emsp;*de, & fermoſo que ha na China, & outro da* |  |
 | `c2-l027` | &emsp;*meſma laya que chamamos paßaro do ſol.* |  |
 | `c2-l028` | Ranqei. *Vide,* Ranpô. |  |
 | `c2-l029` | Ran, qei. *Duas layas de eruas cheiroſas.* |  |
 | `c2-l029a` | Ranqiacu. Midare, ruru. *Perturbação, ou* |  |
-| `c2-l030` | &emsp;*reuolta.* S. |  |
+| `c2-l030` | &emsp;*reuolta. S.* |  |
 | `c2-l031` | Ranqiocu. *Vide,* Raiguiocu. |  |
 | `c2-l032` | Ransǒ. Midaretaru cuſa. *Eruas muito jũtas,* |  |
-| `c2-l033` | &emsp;*& trauadas hũas com outras.* S. |  |
+| `c2-l033` | &emsp;*& trauadas hũas com outras. S.* |  |
 | `c2-l034` | Ransǒ. Araraguino cuſa. *Erua cheiroſa aßi* |  |
 | `c2-l035` | &emsp;*chamada.* |  |
 | `c2-l036` | Ranſo. Midarini vttayuru. *O acuſar de mà* |  |
 | `c2-l037` | &emsp;*feição, ou deſordenadamente. Vt,* Ranſo |  |
-| `c2-l038` | &emsp;ſuru. S. |  |
+| `c2-l038` | &emsp;ſuru. *S.* |  |
 | `c2-l039` | Rantǒ. *Pedras quadradas, & redondas poſtas* |  |
 | `c2-l040` | &emsp;*hũas ſobre outras como tumulo que poem os gen-* |  |
 | `c2-l041` | &emsp;*tios ſobre as ſepulturas.* |  |
 | `c2-l042` | Ran-vn. Midaregumo. *Nuuẽs eſpalhadas.* |  |
 | `c2-l043` | &emsp;*Vt,* Ran vn ſorani tadayô. *As nuuẽs an-* |  |
-| `c2-l044` | &emsp;*dão eſpalhadas, & perturbadas no ar.* S. |  |
+| `c2-l044` | &emsp;*dão eſpalhadas, & perturbadas no ar. S.* |  |
 | `c2-l045` | Ranxei. Midareta yo. *Mundo perturbado,* |  |
 | `c2-l046` | &emsp;*ou cheo de reuoltas de guerra.* |  |
 

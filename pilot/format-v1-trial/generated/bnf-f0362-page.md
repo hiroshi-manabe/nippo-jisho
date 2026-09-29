@@ -124,7 +124,7 @@ Lexical checkpoint: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and
 | `c2-l038` | Nhorai. *Nome do Fotoque.* |  |
 | `c2-l039` | Nhoraifada. *Certa quentura lenta, & ſenſiuel* |  |
 | `c2-l040` | &emsp;*que ſe ſente em algũa couſa.* |  |
-| `c2-l041` | Nhôran. Midare. *Perturbação.* S. |  |
+| `c2-l041` | Nhôran. Midare. *Perturbação. S.* |  |
 | `c2-l042` | Nhotai. Vonnano tai. *Figura, ou ſustancia* |  |
 | `c2-l043` | &emsp;*de molher.* |  |
 | `c2-l044` | Nhoxi. *Filha.* |  |

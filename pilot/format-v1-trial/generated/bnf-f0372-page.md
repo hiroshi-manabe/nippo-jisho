@@ -85,8 +85,8 @@ Lexical review aid: NINJAL, Hideyuki Ohshima and Taichi Aida, [Entry Words Data 
 | `c2-l008` | &emsp;*bilidades, & ſaber.* |  |
 | `c2-l009` | Nôſô. *Bonzo letrado, ou ſabio.* |  |
 | `c2-l010` | Nôsǒ. *O cultiuar, ou criar, & tratar bem a-* |  |
-| `c2-l011` | &emsp;*moreiras pera fazer ſeda, &c.* S. |  |
-| `c2-l012` | Nôſui. Yoi mizzu. *Boa agoa.* S. |  |
+| `c2-l011` | &emsp;*moreiras pera fazer ſeda, &c. S.* |  |
+| `c2-l012` | Nôſui. Yoi mizzu. *Boa agoa. S.* |  |
 | `c2-l013` | Notamai, ǒ, notamaixi. *Falar peßoa alta.* |  |
 | `c2-l014` | &emsp;*Vſaſe deste verbo nos liuros, & prègaçoẽs.* |  |
 | `c2-l015` | Notame. *Hum certo inſtrumento cortado no* |  |
@@ -97,7 +97,7 @@ Lexical review aid: NINJAL, Hideyuki Ohshima and Taichi Aida, [Entry Words Data 
 | `c2-l020` | &emsp;*ſem ſimplicidade.* |  |
 | `c2-l021` | Nôtçǔ. Nayami itamu. *O eſtar muito debilita-* |  |
 | `c2-l022` | &emsp;*do, & doente, ou mal dalgũa ferida, inchaço,* |  |
-| `c2-l023` | &emsp;*&c.* S. |  |
+| `c2-l023` | &emsp;*&c. S.* |  |
 | `c2-l024` | Notorino coma. *Caualo tomado no mato que* |  |
 | `c2-l025` | &emsp;*ainda não està bem domeſticado.* |  |
 | `c2-l026` | Nouaqi. *Vento rijo. Vt,* Nouaqi faxita- |  |

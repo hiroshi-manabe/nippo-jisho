@@ -35,21 +35,21 @@ Lexical aid consulted after independent scan reading: NINJAL, Entry Words Data o
 | `c1-l017` | Riǒco. Futatçuno tora. *Dous tigres. Vide* |  |
 | `c1-l018` | &emsp;*Reǒco.* |  |
 | `c1-l019` | Riocuchicu. Midorino taqe. i, Auoi ta- |  |
-| `c1-l020` | &emsp;qe. *Bambus verdes.* S. |  |
+| `c1-l020` | &emsp;qe. *Bambus verdes. S.* |  |
 | `c1-l021` | Riocufat. *Cabelos da cabeça fermoſos, & lin-* |  |
-| `c1-l022` | &emsp;*dos.* S. |  |
+| `c1-l022` | &emsp;*dos. S.* |  |
 | `c1-l023` | Riocuin. Midorino cague. *Sõbra freſca de* |  |
 | `c1-l024` | &emsp;*muitas aruores, quando eſtam verdes.* |  |
 | `c1-l025` | Riocuju. Midorino vyeqi. i, Auoqi qi. *Ar-* |  |
-| `c1-l026` | &emsp;*uore verde, & freſca.* S. |  |
-| `c1-l027` | Riocura. Midorino tçuta. *Era verde.* S. |  |
+| `c1-l026` | &emsp;*uore verde, & freſca. S.* |  |
+| `c1-l027` | Riocura. Midorino tçuta. *Era verde. S.* |  |
 | `c1-l028` | Riocusǒ. Midorino cuſa. i, Auoi cuſa. *Erua* |  |
-| `c1-l029` | &emsp;*verde.* S. |  |
+| `c1-l029` | &emsp;*verde. S.* |  |
 | `c1-l030` | Riocuſui. Midorino mizzu. *Agoa freſca q̃ por* |  |
-| `c1-l031` | &emsp;*ſer em muita quãtidade parece verde.* S. |  |
+| `c1-l031` | &emsp;*ſer em muita quãtidade parece verde. S.* |  |
 | `c1-l032` | Riocutai. Midorino coqe. i, Auoi coqe. |  |
-| `c1-l033` | &emsp;*Muſgo verde.* S. |  |
-| `c1-l034` | Riǒdan. *Duas couſas.* S. |  |
+| `c1-l033` | &emsp;*Muſgo verde. S.* |  |
+| `c1-l034` | Riǒdan. *Duas couſas. S.* |  |
 | `c1-l035` | Riǒ do. Futatabi. *Duas vezes.* |  |
 | `c1-l036` | Riǒfen. i, Futaſamano coto. *Duas layas* |  |
 | `c1-l037` | &emsp;*ou feições de couſas.* |  |
@@ -60,7 +60,7 @@ Lexical aid consulted after independent scan reading: NINJAL, Entry Words Data o
 | `c1-l042` | &emsp;*ta e conſtante não ſe ajunta com dous maridos.* |  |
 | `c1-l043` | Riǒgai. *Dous terminos. Item, Duas couſas, ou* |  |
 | `c1-l044` | &emsp;*duas peßoas. Vt,* Riǒgaino mandara. *Fotoque* |  |
-| `c1-l045` | &emsp;*macho, & Fotoque femea.* S. |  |
+| `c1-l045` | &emsp;*macho, & Fotoque femea. S.* |  |
 | `c1-l046` | Riǒgã. Futatçuno manaco. *Ambos os olhos.* |  |
 | `c1-l047` | Riǒgin. Futatçuno gin. *Dous exercitos, ou* |  |
 | `c1-l048` | &emsp;*ambos osexercitos.* |  |
@@ -94,14 +94,14 @@ Lexical aid consulted after independent scan reading: NINJAL, Entry Words Data o
 | `c2-l017` | Riǒjet. Xita futatçu. *Duas bocas. Vt,* Riǒ- |  |
 | `c2-l018` | &emsp;jetna mono. *Peßoa que fala por duas bo-* |  |
 | `c2-l019` | &emsp;*cas, ou que varia no que diz.* |  |
-| `c2-l020` | Riǒji. Yoqi tçuuamono. *Bom ſoldado.* S. *Vt,* |  |
+| `c2-l020` | Riǒji. Yoqi tçuuamono. *Bom ſoldado. S. Vt,* |  |
 | `c2-l021` | &emsp;Meicunua riǒjiuo ſutçuru coto naxi. *O* |  |
 | `c2-l022` | &emsp;*bom ſenhor não deita fora o bõ caualeiro.* Xix. |  |
 | `c2-l023` | Riǒjǒ. i, Vqegǒ. *Conſentir. Vt,* Riǒ- |  |
 | `c2-l024` | &emsp;jǒ ſuru. |  |
 | `c2-l025` | Riǒju. Yoqi qi. *Boa aruore. Vt.* Riǒjuuo |  |
 | `c2-l026` | &emsp;qiru coto nacare. *Não corteis a boa ar-* |  |
-| `c2-l027` | &emsp;*uore.* S. |  |
+| `c2-l027` | &emsp;*uore. S.* |  |
 | `c2-l028` | Riǒju. *Senhor, ou dono dalgũa rẽda, ou terras.* |  |
 | `c2-l029` | Riǒmen. Futatçuno cauo. *Duas faces.* |  |
 | `c2-l030` | &emsp;*¶ Item, Ambas as partes. Vt,* Riǒmen- |  |

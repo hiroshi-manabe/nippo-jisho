@@ -84,7 +84,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l010` | &emsp;tçucurô. *Fazer por contentar a alguem & lhe* |  |
 | `c2-l011` | &emsp;*ganhar a vontade.* |  |
 | `c2-l012` | Qixǔ. i, Modoru fune. *Embarcação que ſe* |  |
-| `c2-l013` | &emsp;*torna.* S. |  |
+| `c2-l013` | &emsp;*torna. S.* |  |
 | `c2-l014` | Qixucu. Tattoqi rǒjin. *Velho honrado, ou* |  |
 | `c2-l015` | &emsp;*ancião.* |  |
 | `c2-l016` | Qixucu. *Vt,* Qixucu menqio. *Priuile-* |  |

@@ -26,13 +26,13 @@ Lexical checkpoint: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and
 | `c1-l008` | &emsp;*Homem mancebo. ¶* Nenrei yorimo fu- |  |
 | `c1-l009` | &emsp;qeta. *Esta mais velho do que tem de idade.* |  |
 | `c1-l010` | Nenrio. Vomoi vomonbacaru. *Conſidera-* |  |
-| `c1-l011` | &emsp;*ção, ou prouidencia.* S. |  |
+| `c1-l011` | &emsp;*ção, ou prouidencia. S.* |  |
 | `c1-l012` | Nenriqi. Vomô chicara. *Força do penſamẽ-* |  |
 | `c1-l013` | &emsp;*to, ou con ideração. Vt,* Nenriqi iuauo |  |
 | `c1-l014` | &emsp;touoſu. *A força da imaginação, ou penſa-* |  |
 | `c1-l015` | &emsp;*mento penetra rochas. i, pode muito.* |  |
 | `c1-l016` | Nenrǒ. Toxiyori. *Velho.* |  |
-| `c1-l017` | Nenſai. Toxi toxi. *Annos, ou idade.* S. |  |
+| `c1-l017` | Nenſai. Toxi toxi. *Annos, ou idade. S.* |  |
 | `c1-l018` | Nensǒ. *Figura, ou repreſentação de couſas que* |  |
 | `c1-l019` | &emsp;*ſe imaginão.* Bup. |  |
 | `c1-l020` | Nenrô. i, Toxino fajime. *Principio do an-* |  |
@@ -42,7 +42,7 @@ Lexical checkpoint: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and
 | `c1-l024` | Nenxô. l, xôneu. *Minino tè idade de* 10. |  |
 | `c1-l025` | &emsp;*annos.* |  |
 | `c1-l026` | Nenxu. *Principio do anno.* |  |
-| `c1-l027` | Nenpǔ. Atçuqi caje. *Vento quente.* S. |  |
+| `c1-l027` | Nenpǔ. Atçuqi caje. *Vento quente. S.* |  |
 | `c1-l028` | Nerai, ǒ, ǒta. *Apontar, ou eſpreitar. Vt,* |  |
 | `c1-l029` | &emsp;Toriuo nerǒ. *Apontar pera a tirar ao paſ* |  |
 | `c1-l030` | &emsp;*ſaro. ¶* Fitouo nerǒ. *Apontar a alguẽ* |  |

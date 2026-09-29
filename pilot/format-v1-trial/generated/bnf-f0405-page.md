@@ -20,7 +20,7 @@ Lexical cross-check: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima an
 | `c1-l002` | &emsp;*ro, ißo he o que ſe chama peccado.* |  |
 | `c1-l003` | Quabi. *Couſa fermoſa, ou lustroſa. Vt,* |  |
 | `c1-l004` | &emsp;Quabi xenqen nari. *He couſa bella, &* |  |
-| `c1-l005` | &emsp;*fermoſa.* S. |  |
+| `c1-l005` | &emsp;*fermoſa. S.* |  |
 | `c1-l006` | Quabita. *Vt,* Quabita fito. *Homem ga-* |  |
 | `c1-l007` | &emsp;*lante, & lustroſamente veſtido.* |  |
 | `c1-l008` | Quabocu. *Pazes, ou tregoas. Vt,* Qua- |  |
@@ -52,15 +52,15 @@ Lexical cross-check: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima an
 | `c1-l034` | &emsp;*ſado, & que ſe leua boa vida.* |  |
 | `c1-l035` | Quacqeini. *Adu.* |  |
 | `c1-l036` | Quacugun. Tçuru muragaru. *Bando de* |  |
-| `c1-l037` | &emsp;*grous.* S. |  |
-| `c1-l038` | Quacujẽ. Aqiracana coto. *Couſa clara.* S. |  |
-| `c1-l039` | Quacumei. *Couſa clara, & manifesta.* S. |  |
+| `c1-l037` | &emsp;*grous. S.* |  |
+| `c1-l038` | Quacujẽ. Aqiracana coto. *Couſa clara. S.* |  |
+| `c1-l039` | Quacumei. *Couſa clara, & manifesta. S.* |  |
 | `c1-l040` | Quacunen. l, Quacujen. *Idem.* |  |
 | `c1-l041` | Quacuran. *Doẽça de mordexim. ¶* Qua- |  |
 | `c1-l042` | &emsp;curanuo xita. l, quacuranqena. *Eſtar* |  |
 | `c1-l043` | &emsp;*com mordexim.* |  |
 | `c1-l044` | Quacurei. Tçuruno tçubaſa. *Aſas de* |  |
-| `c1-l045` | &emsp;*grou.* S. |  |
+| `c1-l045` | &emsp;*grou. S.* |  |
 | `c1-l046` | Quacut. Fino ana. *Coua de fogo. i, Inferno.* |  |
 | `c1-l047` | Quacutǒ. Tatarano yu. *Metal que eſta der-* |  |
 | `c1-l048` | &emsp;*retido no fogo.* |  |
@@ -122,7 +122,7 @@ Lexical cross-check: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima an
 | `c2-l039` | Quaguenmi. i, Quaco, guenzai, mirai. *Pre-* |  |
 | `c2-l040` | &emsp;*terito, preſente, & futuro.* |  |
 | `c2-l041` | Quaguet. Fana, tçuqi. *Roſas, ou flores,* |  |
-| `c2-l042` | &emsp;*& lũa.* S. |  |
+| `c2-l042` | &emsp;*& lũa. S.* |  |
 | `c2-l043` | Quaguiǔ. i. Catatçuburi. *Caracol.* |  |
 | `c2-l044` | Quago. Suguru nochi. *Depois de paßada a* |  |
 | `c2-l045` | &emsp;*couſa. Vt,* Zocuquagono chǒqiù. *Ar-* |  |

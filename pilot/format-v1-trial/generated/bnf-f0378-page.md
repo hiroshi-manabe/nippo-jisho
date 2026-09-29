@@ -44,13 +44,13 @@ Lexical cross-check: supplied [Entry Words Data of Nippojisho](https://www2.ninj
 | `c1-l026` | &emsp;*veſtidos neſte rio não as tornarei mais a ſujar.* |  |
 | `c1-l027` | &emsp;*Entẽdeſe cõ as couſas do mũdo q̃ tinha deixado.* |  |
 | `c1-l028` | &emsp;*¶* Nauo qegaſu. *Por nodoa em ſua fama* |  |
-| `c1-l029` | &emsp;*ou nome. ¶* Facumauo qegaſu. S. |  |
+| `c1-l029` | &emsp;*ou nome. ¶* Facumauo qegaſu. *S.* |  |
 | `c1-l030` | &emsp;*Sujar o papel com ſua ruim letra. He modo de* |  |
 | `c1-l031` | &emsp;*falar com humildade nas cartas.* |  |
 | `c1-l032` | Qego. Tauabure cataru. *O falar não de pro* |  |
 | `c1-l033` | &emsp;*poſito mas como dezombaria, ou por paßa-* |  |
 | `c1-l034` | &emsp;*tempo. ¶* Qego, qeron. *Pratica, ou* |  |
-| `c1-l035` | &emsp;*disputa deſta laya.* S. |  |
+| `c1-l035` | &emsp;*disputa deſta laya. S.* |  |
 | `c1-l036` | Qegomi, iru, ita. *Indo diante ver, & no-* |  |
 | `c1-l037` | &emsp;*tar, ou eſpiar como ſoldados que vão diante* |  |
 | `c1-l038` | &emsp;*a descubrir o campo, ou ver a feição da forta-* |  |
@@ -115,12 +115,12 @@ Lexical cross-check: supplied [Entry Words Data of Nippojisho](https://www2.ninj
 | `c2-l039` | &emsp;butuo ſoroyete motenaſu. *Ajuntando* |  |
 | `c2-l040` | &emsp;*todas as fruitas, & iguarias de todos os tem-* |  |
 | `c2-l041` | &emsp;*pos do anno agaſalhar, & conuidar.* |  |
-| `c2-l042` | Qeichô. Niuatori. *Gallo, ou galinha.* S. |  |
+| `c2-l042` | Qeichô. Niuatori. *Gallo, ou galinha. S.* |  |
 | `c2-l043` | Qeico. *Exercicio, ou enſayo de couſas que hum* |  |
 | `c2-l044` | &emsp;*tem aprendido. Vt,* Qeico ſuru. |  |
 | `c2-l045` | Qeicocu. Cuni catamuqu. *Ir ſe o reino deſ-* |  |
-| `c2-l046` | &emsp;*truindo.* S. |  |
-| `c2-l047` | Qeicocu. Tani, tani. *Valles.* S. |  |
+| `c2-l046` | &emsp;*truindo. S.* |  |
+| `c2-l047` | Qeicocu. Tani, tani. *Valles. S.* |  |
 
 ## Printed catchword
 

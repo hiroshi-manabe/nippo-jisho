@@ -108,7 +108,7 @@ Lexical cross-check: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima an
 | `c2-l026` | &emsp;*do mal.* |  |
 | `c2-l027` | Quanjevori. *Certo modo, ou feitio de abano* |  |
 | `c2-l028` | &emsp;*que ſe vſaua antiguamente.* |  |
-| `c2-l029` | Quanji. *O ſurrirſe hum pouco.* S. |  |
+| `c2-l029` | Quanji. *O ſurrirſe hum pouco. S.* |  |
 | `c2-l030` | Quanji, zuru, ita. *Meditar ou conſiderar.* |  |
 | `c2-l031` | Quanjin. *O tirar eſmolas pera obras pias, &c.* |  |
 | `c2-l032` | &emsp;*¶* Xococuuo quanjinſuru. *Andar por* |  |

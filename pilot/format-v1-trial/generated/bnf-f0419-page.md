@@ -95,7 +95,7 @@ Lexical cross-check after independent scan reading: Entry Words Data of Nippojis
 | `c2-l012` | &emsp;*a couſa freſca. ¶ Item, Modo de ſoar al-* |  |
 | `c2-l013` | &emsp;*gũa voz, ou inſtrumento muſico.* |  |
 | `c2-l014` | Rintan. i, Tonari. *Caſa, ou lugar vizi* |  |
-| `c2-l015` | &emsp;*nho.* S. |  |
+| `c2-l015` | &emsp;*nho. S.* |  |
 | `c2-l016` | Rin v. Nagaame. *Chuua que dura muito.* |  |
 | `c2-l017` | &emsp;*Vt,* Rinv imada fare yarazu. *Ainda não* |  |
 | `c2-l018` | &emsp;*eſteou agrande, & comprida chuua.* |  |
@@ -103,7 +103,7 @@ Lexical cross-check after independent scan reading: Entry Words Data of Nippojis
 | `c2-l020` | Rinxen. Teiuǒno vonvôxe. *Mandado del* |  |
 | `c2-l021` | &emsp;*Rey.* |  |
 | `c2-l022` | Rinxi. *Prouiſão, ou patente del Rey.* |  |
-| `c2-l023` | Rinxô. *Sexta lũa, ou mes de Iapão.* S. |  |
+| `c2-l023` | Rinxô. *Sexta lũa, ou mes de Iapão. S.* |  |
 | `c2-l024` | Rinye. Vauo meguru. i, Mayô. *Andar* |  |
 | `c2-l025` | &emsp;*errado no caminho da ſaluação, andando em* |  |
 | `c2-l026` | &emsp;*continua roda de nacimentos, & transforma.* |  |
@@ -113,11 +113,11 @@ Lexical cross-check after independent scan reading: Entry Words Data of Nippojis
 | `c2-l030` | &emsp;Rinye xita cotouo yǔ. *Tornar a dizer,* |  |
 | `c2-l031` | &emsp;*& repetir o que hum deuia de calar para não* |  |
 | `c2-l032` | &emsp;*dar no coração dalguem, &c.* |  |
-| `c2-l033` | Rinyẽ. Sonono fayaxi. *Pomar, ou horta.* S. |  |
+| `c2-l033` | Rinyẽ. Sonono fayaxi. *Pomar, ou horta. S.* |  |
 | `c2-l034` | Rinyen. Fuchini nozomu. *O chegar, ou* |  |
-| `c2-l035` | &emsp;*dar nalgum pègo.* S. |  |
+| `c2-l035` | &emsp;*dar nalgum pègo. S.* |  |
 | `c2-l036` | Rinyocu. Vrocuzu, tçubaſa. *Peixes, &* |  |
-| `c2-l037` | &emsp;*aues.* S. |  |
+| `c2-l037` | &emsp;*aues. S.* |  |
 | `c2-l038` | Rinza. Tonarino za. *Aſſento perto, ou* |  |
 | `c2-l039` | &emsp;*vizinho de outro no* Z*axiqui.* |  |
 | `c2-l040` | Rinzǒ. *Hũa maneira de tabernaculo, que fa-* |  |

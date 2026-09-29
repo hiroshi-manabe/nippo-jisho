@@ -128,7 +128,7 @@ Lexical cross-check for this three-page review: Entry Words Data of Nippojisho, 
 | `c2-l037` | Nicobu. *Callo, ou polmão q̃ ſe faz ao derredor* |  |
 | `c2-l038` | &emsp;*do peſcoço aos que carretão fato.* |  |
 | `c2-l039` | Nicon. Mimino ne. *Potencia de ouuir, ou ou-* |  |
-| `c2-l040` | &emsp;*uidos.* S. |  |
+| `c2-l040` | &emsp;*uidos. S.* |  |
 | `c2-l041` | Niconicoto. *Adu. Modo deſe ſurrir. Vt,* |  |
 | `c2-l042` | &emsp;Niconicoto varǒ. |  |
 | `c2-l043` | Niconicoto xite. *Idem. Vt,* Niconicoto |  |

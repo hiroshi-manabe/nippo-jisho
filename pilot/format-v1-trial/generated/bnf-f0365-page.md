@@ -38,7 +38,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l022` | &emsp;*apartarſe.* |  |
 | `c1-l023` | Nigue vxe, ſuru, eta. *Tugindo deſaparecer.* |  |
 | `c1-l024` | Nigui. i, Tenchi. *Ceo, & terra. ¶* Ni- |  |
-| `c1-l025` | &emsp;gui caifiacu. *Deſda criação do mundo.* S. |  |
+| `c1-l025` | &emsp;gui caifiacu. *Deſda criação do mundo. S.* |  |
 | `c1-l026` | Niguiniguito. *Adu. Com apparato de gẽ-* |  |
 | `c1-l027` | &emsp;*te, & festa, &c. Vt,* Qenaimo nigui- |  |
 | `c1-l028` | &emsp;niguito miyeta. *Dentro da caſa parecia mo-* |  |
@@ -81,7 +81,7 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c2-l001` | Nigin. Mimino chiri. *Ciſco, ou pò dos ou-* |  |
 | `c2-l002` | &emsp;*uidos. ¶ Per met.* Niginuo farǒte qiqu. |  |
-| `c2-l003` | &emsp;*Ouuir atentamente.* S. |  |
+| `c2-l003` | &emsp;*Ouuir atentamente. S.* |  |
 | `c2-l004` | Niji. *Arco do ceo. ¶* Nijiga tatçu. *Fazer-* |  |
 | `c2-l005` | &emsp;*ſe eſte arco. ¶* Nijiga qiyuru. *Desfa-* |  |
 | `c2-l006` | &emsp;*zerſe o arco do ceo.* |  |

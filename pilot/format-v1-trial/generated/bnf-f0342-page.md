@@ -74,7 +74,7 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | Muſubôre, ôru, eta. S. l, Muſubore, uru. |  |
+| `c2-l001` | Muſubôre, ôru, eta. *S.* l, Muſubore, uru. |  |
 | `c2-l002` | &emsp;*Emburulharſe, ou embaraçarſe como linhas,* |  |
 | `c2-l003` | &emsp;*&c. ¶* Cocoroga muſuboruru. i, Mo- |  |
 | `c2-l004` | &emsp;giruru. *Perturbarſe o coração.* |  |

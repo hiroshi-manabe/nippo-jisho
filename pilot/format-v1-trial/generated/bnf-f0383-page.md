@@ -20,7 +20,7 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c1-l002` | &emsp;*delgada, & certo pano de linho.* |  |
 | `c1-l003` | Qenpuxô. *Homẽs ſabios, & virtuoſos, &* |  |
 | `c1-l004` | &emsp;*homẽs baixos, ou de baixa ſorte: ou altos, &* |  |
-| `c1-l005` | &emsp;*baixos.* S. |  |
+| `c1-l005` | &emsp;*baixos. S.* |  |
 | `c1-l006` | Qenqei. *Promeßa, ou concerto feito dantes.* |  |
 | `c1-l007` | Qenqen. l, qenqẽto. *Modo de ladrar o cão.* |  |
 | `c1-l008` | Qenqen. *Modo, ou feição de ſerra, ou lugar* |  |
@@ -40,7 +40,7 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c1-l022` | Qenro. Qeuaxij michi. *Caminho aſpero, &* |  |
 | `c1-l023` | &emsp;*ingreme.* |  |
 | `c1-l024` | Qenro. Axinayetaru roba. *Aſno de pès to-* |  |
-| `c1-l025` | &emsp;*lheitos.* S. |  |
+| `c1-l025` | &emsp;*lheitos. S.* |  |
 | `c1-l026` | Qenrona. *Ser o caminho aſpero, & traba-* |  |
 | `c1-l027` | &emsp;*lhoſo.* |  |
 | `c1-l028` | Qenroni. *Adu.* |  |
@@ -55,7 +55,7 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c1-l037` | &emsp;ſona fito. *Homem aſpero, ou de ruim con-* |  |
 | `c1-l038` | &emsp;*dição.* |  |
 | `c1-l039` | Qentai. Vmi vocotaru. *Deſcuido, ou pri-* |  |
-| `c1-l040` | &emsp;*guiça.* S. |  |
+| `c1-l040` | &emsp;*guiça. S.* |  |
 | `c1-l041` | Qentai. *Arremeter, ou ir pera dar, & eſpe-* |  |
 | `c1-l042` | &emsp;*rar a pancada. Palaura que ſe vſa na arte de* |  |
 | `c1-l043` | &emsp;*eſgrima.* |  |
@@ -76,7 +76,7 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | --- | --- | --- |
 | `c2-l001` | Qentô. *Força, ou coração do Inuerno.* |  |
 | `c2-l002` | &emsp;*¶* Qentô ſoxetno ſamuſa. *Frio intenſo do* |  |
-| `c2-l003` | &emsp;*Inuerno, & de neue.* S. |  |
+| `c2-l003` | &emsp;*Inuerno, & de neue. S.* |  |
 | `c2-l004` | Qenun. Me curumequ. i, Mega mǒ. *Doẽ-* |  |
 | `c2-l005` | &emsp;*ça de andar o miollo à roda, ou irſe o lume* |  |
 | `c2-l006` | &emsp;*dos olhos.* |  |
@@ -85,7 +85,7 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c2-l009` | &emsp;*forte, ou constante, & abſoluto em ſuas acçoẽs.* |  |
 | `c2-l010` | Qenxa. *O que vai ver as rẽdas, ou terras pe-* |  |
 | `c2-l011` | &emsp;*ra ſaber quanto tem.* |  |
-| `c2-l012` | Qenxei. *Fausto, & poder.* S. |  |
+| `c2-l012` | Qenxei. *Fausto, & poder. S.* |  |
 | `c2-l013` | Qenxei. i, Xeijinno xei, qenjinno qen. |  |
 | `c2-l014` | &emsp;*Prudencia de homem conſtante, & abſoluto,* |  |
 | `c2-l015` | &emsp;*& prudẽcia de homẽ brando q̃ cõtemporiza* |  |

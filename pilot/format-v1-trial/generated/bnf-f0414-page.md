@@ -15,10 +15,10 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c1-l001` | Ranxi. Midare ito. *Fios, ou linhas empe-* |  |
-| `c1-l002` | &emsp;*çadas.* S. |  *(dado.*S. |
+| `c1-l002` | &emsp;*çadas. S.* |  *(dado.S.* |
 | `c1-l003` | Ranxin. Midaregocoro. *Coração pertur-* |  |
 | `c1-l004` | Ranxin. Midaretaru xinca. *Criado mao, &* |  |
-| `c1-l005` | &emsp;*deſordenado.* S. |  |
+| `c1-l005` | &emsp;*deſordenado. S.* |  |
 | `c1-l006` | Ranxǒ. Yurai minamoto. *Principio, ou o-* |  |
 | `c1-l007` | &emsp;*rigem dalgũa couſa.* |  |
 | `c1-l008` | Ranxǒ. Midaruru taixǒ. *Capitão deſorde-* |  |
@@ -34,7 +34,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l018` | &emsp;*cho, engelhado, & corrupto.* |  |
 | `c1-l019` | Ranyo. i, Coxi. *Andas, ou andor.* |  |
 | `c1-l020` | Ranyô. Midareta fa. *Folhas eſpalhadas, ou* |  |
-| `c1-l021` | &emsp;*leuadas do vento.* S. |  |
+| `c1-l021` | &emsp;*leuadas do vento. S.* |  |
 | `c1-l022` | Ranza. Midare za. *Ajuntamẽto de gente deſ-* |  |
 | `c1-l023` | &emsp;*ordenada, & perturbada.* |  |
 | `c1-l024` | Rappu. *Deſcante, & muſica de muitas vozes,* |  |
@@ -111,7 +111,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l028` | Reigiô. *Hũa erua chamada Acaza, & folhas* |  |
 | `c2-l029` | &emsp;*degrãos.* |  |
 | `c2-l030` | Reiguen. Qidocuno xiruxi. *Grandes mi-* |  |
-| `c2-l031` | &emsp;*lagres, ou marauilhas.* S. |  |
+| `c2-l031` | &emsp;*lagres, ou marauilhas. S.* |  |
 | `c2-l032` | Reigui. Reino coto. *Policia, ou corteſias.* |  |
 | `c2-l033` | Reijin. i, Gacunin. *Bailador, & tangedor* |  |
 | `c2-l034` | &emsp;*de inſtrumentos muſicos.* |  |

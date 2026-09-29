@@ -26,7 +26,7 @@ Lexical cross-check aid: NINJAL, Hideyuki Ohshima and Taichi Aida, *Entry Words 
 | `c1-l008` | &emsp;nadouo qifaſuru. *Romper, & botar por* |  |
 | `c1-l009` | &emsp;*hi conhecimento, papeis de demandas, &c.* |  |
 | `c1-l010` | Qifan. i, Modoru fune. *Embarcação que* |  |
-| `c1-l011` | &emsp;*torna.* S. |  |
+| `c1-l011` | &emsp;*torna. S.* |  |
 | `c1-l012` | Qifen. *Palaura que ſe eſcreue nos ſobre eſcri-* |  |
 | `c1-l013` | &emsp;*tos das cartas: como quem diz, reposta pera* |  |
 | `c1-l014` | &emsp;*voßa merce, &c. posto que nas cartas dos* |  |
@@ -81,7 +81,7 @@ Lexical cross-check aid: NINJAL, Hideyuki Ohshima and Taichi Aida, *Entry Words 
 | `c2-l005` | Qigui. *Aruores. ¶* Qiguino cozuye. |  |
 | `c2-l006` | &emsp;*Pontas dos raminhos das aruores.* |  |
 | `c2-l007` | Qiguicu. *Boninas, ou flores de cor amarela.* |  |
-| `c2-l008` | Qiguiǒ. *Viuentes ſenſitiuos.* S. |  |
+| `c2-l008` | Qiguiǒ. *Viuentes ſenſitiuos. S.* |  |
 | `c2-l009` | Qiguiſu. i, Qiji. *Galinha do mato.* B. |  |
 | `c2-l010` | Qiguiua. *Condição boa, ou ruim, ou poſtura.* |  |
 | `c2-l011` | &emsp;*Vt,* Qiguiuano yoi fito. *Homem de boa* |  |
@@ -89,7 +89,7 @@ Lexical cross-check aid: NINJAL, Hideyuki Ohshima and Taichi Aida, *Entry Words 
 | `c2-l013` | &emsp;uaga yoi fito. *Homem airoſo, & bem poſto* |  |
 | `c2-l014` | &emsp;*com os calçoẽs.* |  |
 | `c2-l015` | Qigo. *Palauras bem afeitadas, & concerta-* |  |
-| `c2-l016` | &emsp;*das pera liſongear.* S. |  |
+| `c2-l016` | &emsp;*das pera liſongear. S.* |  |
 | `c2-l017` | Qigomai. *Ripas de pao que poem ſobre os* |  |
 | `c2-l018` | &emsp;*aguieiros.* |  |
 | `c2-l019` | Qigomi. *Armas como ſaya de malha que ſe* |  |
@@ -109,7 +109,7 @@ Lexical cross-check aid: NINJAL, Hideyuki Ohshima and Taichi Aida, *Entry Words 
 | `c2-l033` | &emsp;Qiguruxiſa. |  |
 | `c2-l034` | &emsp;Qiguruxǔ. |  |
 | `c2-l035` | Qigua. Voqi, fuſu. *O aleuantarſe, & eſtar* |  |
-| `c2-l036` | &emsp;*deitado.* S. |  |
+| `c2-l036` | &emsp;*deitado. S.* |  |
 | `c2-l037` | Qigin. Ginyori cayeru. *O tornarſe da guer-* |  |
 | `c2-l038` | &emsp;*ra. Vt.* Qigin ſuru. |  |
 | `c2-l039` | Qi-i. Tattoqi cocoro. i, Guio-i. *Manda-* |  |
@@ -118,9 +118,9 @@ Lexical cross-check aid: NINJAL, Hideyuki Ohshima and Taichi Aida, *Entry Words 
 | `c2-l042` | &emsp;*ſa, & eſpantoſa. ¶* Qijna coto. *Idem.* |  |
 | `c2-l043` | &emsp;*¶* Qijno vomoiuo naſu. *Eſpantarſe* |  |
 | `c2-l044` | &emsp;*muito.* |  |
-| `c2-l045` | Qi in. Teraye cayeru. *Tornar à Tera.* S. |  |
+| `c2-l045` | Qi in. Teraye cayeru. *Tornar à Tera. S.* |  |
 | `c2-l046` | Qijen. *O eſtar algũa couſa ao parecer, ou* |  |
-| `c2-l047` | &emsp;*vontade dalguem. Vt,* Qijenni ari. S. |  |
+| `c2-l047` | &emsp;*vontade dalguem. Vt,* Qijenni ari. *S.* |  |
 
 ## Catchword
 

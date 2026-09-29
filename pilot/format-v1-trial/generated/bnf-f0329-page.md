@@ -113,7 +113,7 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c2-l037` | &emsp;atte ſanjite coſo monare. Mon. *Ainda* |  |
 | `c2-l038` | &emsp;*agora tendo que falar com voſco vim.* |  |
 | `c2-l039` | Monbaxira. *Eſteos, ou colũnas do portal da rua.* |  |
-| `c2-l040` | Monbô. Noriuo qiqu. *O ouuir a ley.* S. |  |
+| `c2-l040` | Monbô. Noriuo qiqu. *O ouuir a ley. S.* |  |
 | `c2-l041` | Monca. *Seita, ou ajuntamento dos que ſeguem* |  |
 | `c2-l042` | &emsp;*algũa ſeita. Vt,* Gomoncani iru. l, mairu. |  |
 | `c2-l043` | &emsp;*Fazerſe dos dalgũa ſeita. Falando cõ reſpeito.* |  |

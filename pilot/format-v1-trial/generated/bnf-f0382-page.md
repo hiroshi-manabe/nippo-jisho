@@ -24,16 +24,16 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c1-l006` | &emsp;*graduados como doutores.* |  |
 | `c1-l007` | Qengueqi. Tçurugui, foco. *Eſpada, &* |  |
 | `c1-l008` | &emsp;*dardo. ¶* Qengueqiuo taiſuru. *Tra-* |  |
-| `c1-l009` | &emsp;*zer eſpada, & dardo.* S. |  |
+| `c1-l009` | &emsp;*zer eſpada, & dardo. S.* |  |
 | `c1-l010` | Qengui. Vtagauaxiqiuo qirǒ. *Fugir, ou* |  |
 | `c1-l011` | &emsp;*afaſtarſe de duuidas como nas demandas, não* |  |
 | `c1-l012` | &emsp;*creer facilmente a quem arrezoa porſi, ou vem* |  |
 | `c1-l013` | &emsp;*com couſas duuidoſas. ¶ Item, Guardarſe* |  |
 | `c1-l014` | &emsp;*de fazer couſas que ſe podem tomar em mà-* |  |
 | `c1-l015` | &emsp;*parte, ou duidar da tenção com que ſe fa-* |  |
-| `c1-l016` | &emsp;*zem.* S. |  |
+| `c1-l016` | &emsp;*zem. S.* |  |
 | `c1-l017` | Qenguio. Cacaru vuo. *Peixe que ſe prende* |  |
-| `c1-l018` | &emsp;*no anzol.* S. |  |
+| `c1-l018` | &emsp;*no anzol. S.* |  |
 | `c1-l019` | Qenguiǔ. *Vt,* Qenguiǔ xocugio. i, ta- |  |
 | `c1-l020` | &emsp;nabata. *Duas eſtrelas de que falão os poe-* |  |
 | `c1-l021` | &emsp;*tas que eſtão hũa no cabo, & outra no princi-* |  |
@@ -58,12 +58,12 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c1-l040` | &emsp;*recto em ſeu modo.* |  |
 | `c1-l041` | Qenjiri. *Certa laya de ferro das frechas, co-* |  |
 | `c1-l042` | &emsp;*mo ponta de eſpada.* |  |
-| `c1-l043` | Qenjit. Catai macoto. *Verdade firme.* S. |  |
+| `c1-l043` | Qenjit. Catai macoto. *Verdade firme. S.* |  |
 | `c1-l044` | Qenjit. Caneteno fi. *Dia dantes. ¶* Qẽ- |  |
 | `c1-l045` | &emsp;jit yori mǒſu coto degozaru. *He couſa* |  |
 | `c1-l046` | &emsp;*que digo des dos dias atras.* |  |
 | `c1-l047` | Qenjit. Macotouo arauaſu. *Manifeſtação* |  |
-| `c1-l048` | &emsp;*da verdade.* S. |  |
+| `c1-l048` | &emsp;*da verdade. S.* |  |
 
 ## Column 2 running header
 
@@ -82,7 +82,7 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c2-l005` | &emsp;*ſeruiços que lhe fazem. Poſto que na igreja* |  |
 | `c2-l006` | &emsp;*corre* Q*uanjǒ. Mas a propria palaura ſe tem* |  |
 | `c2-l007` | &emsp;*que he* Q*enjǒ. ¶* Qenjǒ voconauaru. |  |
-| `c2-l008` | &emsp;S. *Dar premio como renda, &c. a alguem.* |  |
+| `c2-l008` | &emsp;*S. Dar premio como renda, &c. a alguem.* |  |
 | `c2-l009` | &emsp;*¶* Qenjǒni azzucaru. *Receber premio,* |  |
 | `c2-l010` | &emsp;*ou paga do ſeruiço.* |  |
 | `c2-l011` | Qenmei. Inochini caquru. *Por, ou arriſ-* |  |
@@ -90,7 +90,7 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c2-l013` | &emsp;*Vt,* Ixxo, qenmeino chi. *He eſte hum lu-* |  |
 | `c2-l014` | &emsp;*gar que comprei com a vida.* |  |
 | `c2-l015` | Qenmen. Qinu, vata. *Peça de ſeda de* |  |
-| `c2-l016` | &emsp;*Iapão, & borra.* S. |  |
+| `c2-l016` | &emsp;*Iapão, & borra. S.* |  |
 | `c2-l017` | Qenmi. *O Notar, ou eſpiar. Vt,* Qen- |  |
 | `c2-l018` | &emsp;miuo ſuru. *¶ Item, Eſpia que vai ver o* |  |
 | `c2-l019` | &emsp;*que paſſa.* |  |
@@ -113,15 +113,15 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c2-l036` | &emsp;l, michi. *Lugar, ou caminho ruim, &* |  |
 | `c2-l037` | &emsp;*difficultoſo de paßar.* |  |
 | `c2-l038` | Qennô. Tatematçuri voſamu. *Offerecer* |  |
-| `c2-l039` | &emsp;*algũa couſa a peßoa nobre.* S. |  |
+| `c2-l039` | &emsp;*algũa couſa a peßoa nobre. S.* |  |
 | `c2-l040` | Qenofucu. *Veſtido que ſe traz de còte.* |  |
 | `c2-l041` | Qenpacu. Qinu vata. *Peça de ſeda, &* |  |
 | `c2-l042` | &emsp;*algodão, ou borra.* |  |
-| `c2-l043` | Qenpei. *Vide* Qen. S. |  |
+| `c2-l043` | Qenpei. *Vide* Qen. *S.* |  |
 | `c2-l044` | Qenpeô. Catai couori. *Caramelo duro,* |  |
-| `c2-l045` | &emsp;*& eſpeßo.* S. |  |
+| `c2-l045` | &emsp;*& eſpeßo. S.* |  |
 | `c2-l046` | Qenpô. Tçurugui, foco. *Eſpada, & lan-* |  |
-| `c2-l047` | &emsp;*ça.* S. |  |
+| `c2-l047` | &emsp;*ça. S.* |  |
 
 ## Catchword
 

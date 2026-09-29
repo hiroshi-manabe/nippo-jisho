@@ -32,7 +32,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l016` | &emsp;*depena.* |  |
 | `c1-l017` | Qeôbô. Voxiyuru nori. *Ley, ou doutrina que* |  |
 | `c1-l018` | &emsp;*enſina no exterior.* |  |
-| `c1-l019` | Qeôca. Majiuari, cuuauaru. *Miſtura.* S. |  |
+| `c1-l019` | Qeôca. Majiuari, cuuauaru. *Miſtura. S.* |  |
 | `c1-l020` | Qeôcai. Voxiye, imaxime. *Ley, ou dou-* |  |
 | `c1-l021` | &emsp;*trina, em que ſe manda, ou prohibe algũa cou-* |  |
 | `c1-l022` | &emsp;*ſa por preceito.* |  |
@@ -59,9 +59,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l043` | &emsp;l, itazzuramono. *Homem vadio, & de* |  |
 | `c1-l044` | &emsp;*maos custumes.* |  |
 | `c1-l045` | Qeǒfai. Vyamai, vogamu. *Fazer reuerẽ-* |  |
-| `c1-l046` | &emsp;*cia, & adorar.* S. |  |
+| `c1-l046` | &emsp;*cia, & adorar. S.* |  |
 | `c1-l047` | Qeôfǔ. Acatçuqino caje. *Vento da ma-* |  |
-| `u1b-l001` | &emsp;*drugada.* S. |  |
+| `u1b-l001` | &emsp;*drugada. S.* |  |
 
 ## Column 2 running header
 
@@ -94,7 +94,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l019` | Qeôman. i, Manqi. *Soberba, ou arrogãcia,* |  |
 | `c2-l020` | &emsp;*& altiueza.* |  |
 | `c2-l021` | Qeômi. Voxiyeno agiuai. *Goſto da ley, ou* |  |
-| `c2-l022` | &emsp;*doutrina.* S. |  |
+| `c2-l022` | &emsp;*doutrina. S.* |  |
 | `c2-l023` | Qeômiǒ. *Vt,* Qeômiǒuo xiruſu. *Eſcre-* |  |
 | `c2-l024` | &emsp;*uer o nome dalguem.* |  |
 | `c2-l025` | Qeônu. Varui yatçuco. *Eſcrauo, ou criado* |  |
@@ -106,18 +106,18 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l031` | &emsp;*teria.* |  |
 | `c2-l032` | Qeôqeô. l, qiôqiô. Voſore, voſore. *Pa* |  |
 | `c2-l033` | &emsp;*laura que ſe eſcreue no cabo das cartas. Como* |  |
-| `c2-l034` | &emsp;*quem diz, indigno de vos eſcreuer, &c.* S. |  |
+| `c2-l034` | &emsp;*quem diz, indigno de vos eſcreuer, &c. S.* |  |
 | `c2-l035` | Qeôqin. Voſore tçutçuximu. *Temor, &* |  |
-| `c2-l036` | &emsp;*reuerencia.* S. |  |
+| `c2-l036` | &emsp;*reuerencia. S.* |  |
 | `c2-l037` | Qeôquai. Majiuari, uǒ. *Ajuntamento de* |  |
 | `c2-l038` | &emsp;*marido, & molher. Vt,* Fǔfuno qeô- |  |
-| `c2-l039` | &emsp;quai. S. |  |
+| `c2-l039` | &emsp;quai. *S.* |  |
 | `c2-l040` | Qeǒri. *Patria. Vt,* Qeǒriuo ſaru. *A-* |  |
 | `c2-l041` | &emsp;*partarſe longe de ſua patria.* |  |
 | `c2-l042` | Qeôriǒ. Cangaye facaru. *Conjeitura, ou* |  |
 | `c2-l043` | &emsp;*conta que ſe faz ſobre algũa couſa.* |  |
 | `c2-l044` | Qeôſô. Axiqi xucqe. *Mao religioſo, ou* |  |
-| `c2-l045` | &emsp;*ruim Bonzo.* S. |  |
+| `c2-l045` | &emsp;*ruim Bonzo. S.* |  |
 | `c2-l046` | Qeôſocu. *Hum certo banquinho que ſerue* |  |
 | `c2-l047` | &emsp;*de encoſto.* |  |
 

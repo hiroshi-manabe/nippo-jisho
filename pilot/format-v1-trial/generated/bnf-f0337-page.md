@@ -37,9 +37,9 @@ Lexical aid consulted after independent reading: NINJAL, Hideyuki Ohshima and Ta
 | --- | --- | --- |
 | `c1-l009` | MV. Naxi. *Não auer. Vt,* Mude go- |  |
 | `c1-l010` | &emsp;zaru. *Ser nada, ou não auer.* |  |
-| `c1-l011` | Muacu fuzǒ. *O fazer quantos peccados hà.* S. |  |
+| `c1-l011` | Muacu fuzǒ. *O fazer quantos peccados hà. S.* |  |
 | `c1-l012` | Mubai. Nacadachi naxi. *Sem terceiro, ou* |  |
-| `c1-l013` | &emsp;*não auer quem interceda.* S. |  |
+| `c1-l013` | &emsp;*não auer quem interceda. S.* |  |
 | `c1-l014` | Mube. P. Guenimo. *Com rezão, ou em* |  |
 | `c1-l015` | &emsp;*verdade.* |  |
 | `c1-l016` | Mubiǒ. Yamai naxi. *Boa diſpoſição.* |  |
@@ -128,7 +128,7 @@ Lexical aid consulted after independent reading: NINJAL, Hideyuki Ohshima and Ta
 | `c2-l037` | &emsp;*dormindo, & ſonhando.* |  |
 | `c2-l038` | Mucô. l, bucô. Cônaxi. *O não ter experien-* |  |
 | `c2-l039` | &emsp;*cia. ¶ Item, Não ter proueito nem pre-* |  |
-| `c2-l040` | &emsp;*mio do trabalho, ſeruiço, &c.* S. |  |
+| `c2-l040` | &emsp;*mio do trabalho, ſeruiço, &c. S.* |  |
 | `c2-l041` | Muco. *Genro. ¶* Mucouo toru. l, muco- |  |
 | `c2-l042` | &emsp;doriuo ſuru. *Caſar a filha, ou tomar genro.* |  |
 | `c2-l043` | &emsp;*¶* Mucoiriuo ſuru. *Entrar o genro em caſa* |  |

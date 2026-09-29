@@ -22,7 +22,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l006` | &emsp;*com recados, ou communicarſe com algum por* |  |
 | `c1-l007` | &emsp;*carta, ou recado.* |  |
 | `c1-l008` | Mǒxicoxi, ſu, oita. *Mandar dizer.* |  |
-| `c1-l009` | Moxicuua. i, Xijen. *Poruentura, l, ou.* S. |  |
+| `c1-l009` | Moxicuua. i, Xijen. *Poruentura, l, ou. S.* |  |
 | `c1-l010` | Mǒxicuuaye, uru, eta. *Acrecentar ao nu-* |  |
 | `c1-l011` | &emsp;*mero de outros falando, ou intercedendo, &c.* |  |
 | `c1-l012` | Mǒxidaxi, ſu, aita. l, Mǒxi idaxi, ſu. *Co-* |  |

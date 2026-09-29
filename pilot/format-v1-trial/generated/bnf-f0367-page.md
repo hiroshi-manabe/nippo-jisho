@@ -104,7 +104,7 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | `c2-l022` | Nixin. Futagocoro. *Coração refalſado, ou* |  |
 | `c2-l023` | &emsp;*atreiçoado.* |  |
 | `c2-l024` | Nixin. *Nome de hum peixe do mar.* |  |
-| `c2-l025` | Nixiqi. *Potencia, ou ſentido de ouuir.* S. |  |
+| `c2-l025` | Nixiqi. *Potencia, ou ſentido de ouuir. S.* |  |
 | `c2-l026` | Nixiqi. *Certa laya de peças como brocadilho.* |  |
 | `c2-l027` | Nixiqigui. *P. Pao pintado que ſe punha à* |  |
 | `c2-l028` | &emsp;*porta antigamente da molher que hum pretẽdia.* |  |
