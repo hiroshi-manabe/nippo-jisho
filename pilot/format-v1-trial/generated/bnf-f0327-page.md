@@ -49,18 +49,18 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c1-l031` | &emsp;*Trazendo muito vinho, & varios comeres* |  |
 | `c1-l032` | &emsp;*chegouſe.* |  |
 | `c1-l033` | Mǒco. Taqeqi tora. *Tigre feroz, ou cru-* |  |
-| `c1-l034` | &emsp;*el.* S. |  |
-| `c1-l035` | Môcot. Qe, fone. *Cabelos, & oſſos.* S. |  |
+| `c1-l034` | &emsp;*el. S.* |  |
+| `c1-l035` | Môcot. Qe, fone. *Cabelos, & oſſos. S.* |  |
 | `c1-l036` | Mocqe. *Couſa de deſgraça, ou que ſocedeo mal,* |  |
 | `c1-l037` | &emsp;*inſofriuel, &c.* |  |
 | `c1-l038` | Mocqena. *Idem.* |  |
 | `c1-l039` | Mocqua. *Certa mezinha.* |  |
-| `c1-l040` | Mocquai. *O duuidar, ou ſoſpeitar dalguẽ.* S. |  |
+| `c1-l040` | Mocquai. *O duuidar, ou ſoſpeitar dalguẽ. S*. |  |
 | `c1-l041` | Mocu. *Silencio. Vt,* Mocuſuru. *Calarſe.* |  |
 | `c1-l042` | Mocu. Qino me. *Veas do pao, ou madeira.* |  |
 | `c1-l043` | Mocuba. Qino vma. *Caualo de pao.* |  |
 | `c1-l044` | Mocubut. Qibotoqe. *Idolo de pao.* |  |
-| `c1-l045` | Mocudai. i, Mexiro. *Official q̃ tem per officio* |  |
+| `c1-l045` | Mocudai. i, Mex*i*ro. *Official q̃ tem per officio* |  |
 | `c1-l046` | &emsp;*olhar, & vigiar pello q̃ lhe encarregão, como* |  |
 | `c1-l047` | &emsp;*por algũ lugar, pouoação, &c. ¶ Item, Nas* |  |
 
@@ -79,7 +79,7 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c2-l003` | &emsp;*couſa clara, & manifesta.* |  |
 | `c2-l004` | Mocujin. Qino fito. *Eſtatua de pao.* |  |
 | `c2-l005` | Mocujiqi. i, Conomi bacariuo xocuſuru. |  |
-| `c2-l006` | &emsp;*Comer ſomente fruita, & couſas q̃ não ſão co-* |  |
+| `c2-l006` | &emsp;*Comer ſòmente fruita, & couſas q̃ não ſão co-* |  |
 | `c2-l007` | &emsp;*zidas. Vt,* Mocujiqiuo ſuru. |  |
 | `c2-l008` | Mocu mocu. *Quietamente ſem falar nada.* |  |
 | `c2-l009` | &emsp;*Vt,* Mocumocuto xite iru. *Estar em ocio,* |  |
@@ -93,7 +93,7 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c2-l017` | &emsp;*¶ Item, Rol de couſas que ſe mãdão de pre-* |  |
 | `c2-l018` | &emsp;*ſente, como barças de vinho, Sacanas, caua* |  |
 | `c2-l019` | &emsp;*lo, montante; ſe he rol de outras couſas, como* |  |
-| `c2-l020` | &emsp;*peças, &c. diz ſe,* Chǔmon. |  |
+| `c2-l020` | &emsp;*peças, &c. dizſe,* Chǔmon. |  |
 | `c2-l021` | Mocuromi, u, ǒda. i, Mocuſan ſuru. *Lã-* |  |
 | `c2-l022` | &emsp;*çar bem as contas no jogo do Go acerca das riſ* |  |
 | `c2-l023` | &emsp;*cas, pera ſaber quem ganharà, ou perderà.* |  |
@@ -106,7 +106,7 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c2-l030` | &emsp;*cuidar, nem lançar conta, &c. i, Facillima-* |  |
 | `c2-l031` | &emsp;*mente.* |  |
 | `c2-l032` | Mocuſanmonǒ. i, Temamo irazu. *Sem* |  |
-| `c2-l033` | &emsp;*muito negocio, ou trabalho.* X. |  |
+| `c2-l033` | &emsp;*muito negocio, ou trabalho. X.* |  |
 | `c2-l034` | Mocutçǔ. *Certa mezinha feita de hũa erua,* |  |
 | `c2-l035` | &emsp;*como era.* |  |
 | `c2-l036` | Mocuxei. *Aruore de flores cheiroſas aßi cha-* |  |

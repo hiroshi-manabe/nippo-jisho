@@ -18,7 +18,7 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | --- | --- | --- |
 | `c1-l001` | Mocuzzu. *Limos, & eruas que estão no fun-* |  |
 | `c1-l002` | &emsp;*do domar. ¶* Caiteino mocuzzuto naru. |  |
-| `c1-l003` | &emsp;*Morrer afogado no mar.* S. |  |
+| `c1-l003` | &emsp;*Morrer afogado no mar. S.* |  |
 | `c1-l004` | Modaxigatai. *Couſa difficultoſa de eſcapar,* |  |
 | `c1-l005` | &emsp;*ou de ſe deſembaraçar della.* |  *(dentro.* |
 | `c1-l006` | Modaye, uru, eta. *Afligirſe, ou comerſe por* |  |
@@ -59,7 +59,7 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c1-l041` | Mogire, uru, eta. *Trauarſe, ou emburulhar-* |  |
 | `c1-l042` | &emsp;*ſe hũa couſa com outra. ¶* Itoga mogiruru. |  |
 | `c1-l043` | &emsp;*Emburulhar ſe o fio. ¶* Cocoro mogireta. |  |
-| `c1-l044` | &emsp;*O coração eſtà perturbado, embaraçado, &c.* |  |
+| `c1-l044` | &emsp;*O coração està perturbado, embaraçado, &c.* |  |
 | `c1-l045` | Mogiri, u, itta. *Idem.* |  |
 | `c1-l046` | Mǒgo. *Mentira.* |  |
 | `c1-l047` | Mogui, u, oida. *Tomar algũa couſa por for-* |  |
@@ -81,7 +81,7 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c2-l005` | &emsp;mogu. *Colher o melão q̃ainda não eſtà maduro.* |  |
 | `c2-l006` | Moguifanaxi, ſu, aita. *Idem.* |  |
 | `c2-l007` | Mǒguiǒ mǒſa. *O fazer màs obras, & deſ-* |  |
-| `c2-l008` | &emsp;*ordens.* S. |  |
+| `c2-l008` | &emsp;*ordens. S.* |  |
 | `c2-l009` | Moguitori, u, otta. *Tomar algũa couſa tor-* |  |
 | `c2-l010` | &emsp;*cendo a mão aquem atem, ou tomar por força.* |  |
 | `c2-l011` | &emsp;*Vt,* Temo furuiqereba, icadeca tachiuo- |  |
@@ -93,7 +93,7 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c2-l017` | &emsp;*honras. Vt,* Mǒ-iuo furǔ. *Fazer apa-* |  |
 | `c2-l018` | &emsp;*rato, moſtrar brio, &c.* |  |
 | `c2-l019` | Moiqua. *Certa laya de lauores, ou folhagem q̃* |  |
-| `c2-l020` | &emsp;*ha em algũas peças.* |  |
+| `c2-l020` | &emsp;*hà em algũas peças.* |  |
 | `c2-l021` | Mǒja. i, Xinin. *Homẽ morto. Vt,* Mǒ- |  |
 | `c2-l022` | &emsp;jauo tomurǒ. *Fazer exequias pellos mortos,* |  |
 | `c2-l023` | &emsp;*ou fazer commemoração delles.* |  |
