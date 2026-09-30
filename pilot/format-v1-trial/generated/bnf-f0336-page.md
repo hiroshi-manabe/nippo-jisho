@@ -39,14 +39,14 @@ Lexical aid consulted after independent reading: NINJAL, Hideyuki Ohshima and Ta
 | `c1-l021` | &emsp;*uidos comprimentos por paßar o tempo deuido,* |  |
 | `c1-l022` | &emsp;*ou conueniente, em q̃ os ouuera de fazer.* |  |
 | `c1-l023` | Mǒxivocuri, ru, utta. *Mandar dizer.* |  |
-| `c1-l024` | Moxiuoguſa. *Liuro de hiſtoria, ou poeſia.* P. |  |
+| `c1-l024` | Moxiuoguſa. *Liuro de hiſtoria, ou poeſia. P.* |  |
 | `c1-l025` | Mǒxivoqi, u, oita. *Deixar dito.* |  |
-| `c1-l026` | Moxivoſame, uru, eta. *Acabar de falar.* |  |
-| `c1-l027` | Moxivotoxi, ſu, oita. *Deixar de dizer por* |  |
+| `c1-l026` | Mǒxivoſame, uru, eta. *Acabar de falar.* |  |
+| `c1-l027` | Mǒxivotoxi, ſu, oita. *Deixar de dizer por* |  |
 | `c1-l028` | &emsp;*eſquecimento.* |  |
 | `c1-l029` | Mǒxivqe, uru, eta. *Receber algũa couſa de* |  |
 | `c1-l030` | &emsp;*peßoa nobre.* |  |
-| `c1-l031` | Môxivqetamauari, ru, atta. *Ouir, & fa-* |  |
+| `c1-l031` | Mǒxivqetamauari, ru, atta. *Ouir, & fa-* |  |
 | `c1-l032` | &emsp;*lar entre ſi.* |  |
 | `c1-l033` | Mǒxixizzume, uru, eta. *Aplacar, ou apa-* |  |
 | `c1-l034` | &emsp;*ziguar com palauras.* |  |
@@ -108,7 +108,7 @@ Lexical aid consulted after independent reading: NINJAL, Hideyuki Ohshima and Ta
 | `c2-l032` | Moyeide, zzuru, eta. *Começar aleuantarſe* |  |
 | `c2-l033` | &emsp;*a labareda, ou acenderſe o fogo.* |  |
 | `c2-l034` | Moyeſaxi. *Tição.* |  |
-| `c2-l035` | Moyeſuſari. *Idem.* B. |  |
+| `c2-l035` | Moyeſuſari. *Idem. B.* |  |
 | `c2-l036` | Moyetçuqi, u, uita. *Atearſe o fogo, ou* |  |
 | `c2-l037` | &emsp;*pegarſe.* |  |
 | `c2-l038` | Moyǒ. *Modo, ou gesto, ou meneos.* |  |
@@ -117,7 +117,7 @@ Lexical aid consulted after independent reading: NINJAL, Hideyuki Ohshima and Ta
 | `c2-l041` | &emsp;*acenderſe em deuação. ¶* Ninjuuo moyo- |  |
 | `c2-l042` | &emsp;uoſu. *Excitar, & aparelhar a gente pera a* |  |
 | `c2-l043` | &emsp;*guerra, &c.* |  |
-| `c2-l044` | Moyouoxi. *Fervor, ou aparelho dalgũa couſa.* |  |
+| `c2-l044` | Moyouoxi. *Feruor, ou aparelho dalgũa couſa.* |  |
 | `c2-l045` | Mǒzǒ. *Eſpecies, ou fantaſmas que ſe repreſẽ-* |  |
 | `c2-l046` | &emsp;*tão de couſas torpes, ou deſordenadas. ¶ Per* |  |
 | `c2-l047` | &emsp;*met.* Mǒzǒuo miru. *Ver em ſonhos couſas* |  |

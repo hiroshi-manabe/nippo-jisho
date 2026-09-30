@@ -17,7 +17,7 @@ Lexical aid consulted after independent reading: NINJAL, Hideyuki Ohshima and Ta
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c1-l001` | Mozu. *Hum paßaro como picanço. ¶* Mo- |  |
-| `c1-l002` | &emsp;zuno cuſaguqi. P. *Bichinhos, ou raãs* |  |
+| `c1-l002` | &emsp;zuno cuſaguqi. *P. Bichinhos, ou raãs* |  |
 | `c1-l003` | &emsp;*que eſte paßaro deixa eſpetadas nos bambus, ou* |  |
 | `c1-l004` | &emsp;*paos pera quando não tem que comer que he no* |  |
 | `c1-l005` | &emsp;*inuerno.* |  *(dia.* |
@@ -40,7 +40,7 @@ Lexical aid consulted after independent reading: NINJAL, Hideyuki Ohshima and Ta
 | `c1-l011` | Muacu fuzǒ. *O fazer quantos peccados hà. S.* |  |
 | `c1-l012` | Mubai. Nacadachi naxi. *Sem terceiro, ou* |  |
 | `c1-l013` | &emsp;*não auer quem interceda. S.* |  |
-| `c1-l014` | Mube. P. Guenimo. *Com rezão, ou em* |  |
+| `c1-l014` | Mube. *P.* Guenimo. *Com rezão, ou em* |  |
 | `c1-l015` | &emsp;*verdade.* |  |
 | `c1-l016` | Mubiǒ. Yamai naxi. *Boa diſpoſição.* |  |
 | `c1-l017` | Mubiǒna. *Peßoa bem deſposta, ou que não he* |  |
@@ -93,7 +93,7 @@ Lexical aid consulted after independent reading: NINJAL, Hideyuki Ohshima and Ta
 | `c2-l002` | &emsp;*falteis, ou vos deſcuideis em o inuocar.* |  |
 | `c2-l003` | Mucaivma. *Caualo que vai ao encontro.* |  |
 | `c2-l004` | Mucaizzura. *Frontaria, ou couſa que esta* |  |
-| `c2-l005` | &emsp;*de fronte.* B. |  |
+| `c2-l005` | &emsp;*de fronte. B.* |  |
 | `c2-l006` | Mucauaribi. *Dia que reſponde de pois do anno* |  |
 | `c2-l007` | &emsp;*ao dia em que hum morreo, ou fez algũa cou-* |  |
 | `c2-l008` | &emsp;*ſa notauel, &c.* |  |
@@ -121,7 +121,7 @@ Lexical aid consulted after independent reading: NINJAL, Hideyuki Ohshima and Ta
 | `c2-l030` | &emsp;*a vara, & paſſaua pellos montes, & ſerras.* |  |
 | `c2-l031` | &emsp;*¶* Mixemuchi. *Vara com que dão no ca-* |  |
 | `c2-l032` | &emsp;*ualo na parte direita do peſcoço. ¶* Cacu- |  |
-| `c2-l033` | &emsp;xi muchi. *Vara com que ſe da no peſcoço* |  |
+| `c2-l033` | &emsp;xi muchi. *Vara com que ſe dà no peſcoço* |  |
 | `c2-l034` | &emsp;*do caualo da parte eſquerda.* |  |
 | `c2-l035` | Muchǔ. Yumeno vchi. *Em ſonhos. ¶* Mu- |  |
 | `c2-l036` | &emsp;chǔno teide gozaru. *Modo de estar hum* |  |

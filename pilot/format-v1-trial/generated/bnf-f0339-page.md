@@ -44,10 +44,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l028` | Mugue. Sauari naxi. *Sem estoruo. S.* |  |
 | `c1-l029` | Mugue. Atai naxi. *Sem preço, ou inesti-* |  |
 | `c1-l030` | &emsp;*mauel. Vt,* Mugueno xijfô. *Riquezas* |  |
-| `c1-l031` | &emsp;*de grande, & ineſtimauelpreço. S.* |  |
+| `c1-l031` | &emsp;*de grande, & ineſtimauel preço. S.* |  |
 | `c1-l032` | Muguen. Yume, maboroxi. *Sonhos leues,* |  |
 | `c1-l033` | &emsp;*& breues. Tomaſe por couſas breues, & que* |  |
-| `c1-l034` | &emsp;*logo paſſão. ¶* Muguen fǒyǒ. *Idem.* |  |
+| `c1-l034` | &emsp;*logo paßão. ¶* Muguen fǒyǒ. *Idem.* |  |
 | `c1-l035` | Muguena. *Couſa miſerauel, ou coitada.* |  |
 | `c1-l036` | Mugueni. *Adu. Miſerauel, & compaßi-* |  |
 | `c1-l037` | &emsp;*uamente, & ſem razão. Vt,* Mugueni co- |  |
@@ -106,7 +106,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l026` | Mujǔ. Vouari naxi. *Couſa infinita, ou ſem* |  |
 | `c2-l027` | &emsp;*fim. ¶* Muxi, mujǔ. *Couſa ſem prin-* |  |
 | `c2-l028` | &emsp;*cipio, nem fim.* |  |
-| `c2-l029` | Mujun. Foco, tate. *Inimizade, ou peleja.* |  |
+| `c2-l029` | Mujun. Foco, tate. I*nimizade, ou peleja.* |  |
 | `c2-l030` | &emsp;*¶* Mujunni voyobu. *Pelejar, ou brigar.* |  |
 | `c2-l031` | Mumei. *O não ter a Catana, ou Cogatana,* |  |
 | `c2-l032` | &emsp;*&c. nome, ou ſinal de quẽ a fez. ¶* Co- |  |

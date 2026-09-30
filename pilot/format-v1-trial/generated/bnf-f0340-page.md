@@ -29,7 +29,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l013` | Munaſaqi. *Idem.* |  |
 | `c1-l014` | Munaſauagui. *Perturbaçaõ interior, ou do co-* |  |
 | `c1-l015` | &emsp;*raçaõ. ¶* Munaſauaguiuo ſuru. *Pertur-* |  |
-| `c1-l016` | &emsp;*barſe interiormente. como com medo &c.* |  |
+| `c1-l016` | &emsp;*barſe interiormente, como com medo &c.* |  |
 | `c1-l017` | Munaſudare. *Magreira de peßoa que lhe pa-* |  |
 | `c1-l018` | &emsp;*recem os oßos. Palaura baixa & pouco* |  |
 | `c1-l019` | &emsp;*vſada.* |  |
@@ -94,20 +94,20 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l019` | &emsp;*¶* Muzuto cunde. *Trauando de mãos, ou* |  |
 | `c2-l020` | &emsp;*lutando, & aferrando com força.* |  |
 | `c2-l021` | Muqe, uru, eta. *Virar. Vt,* Vomote, l, |  |
-| `c2-l022` | &emsp;vxirouo muquru. *Virar o roſto, ou as cor* |  |
+| `c2-l022` | &emsp;vxirouo muquru. *Virar o roſto, ou as co-* |  |
 | `c2-l023` | &emsp;*ſtas. ¶* Dochiye muqete iquca. *Pera* |  |
 | `c2-l024` | &emsp;*que parte ides dirigido? ¶ Item, Tirarſe* |  |
 | `c2-l025` | &emsp;*pelle, caſca, &c. Vt,* Yubino cauaga mu- |  |
 | `c2-l026` | &emsp;qeta. *Tirouſe a pelle do dedo. i, Esfolou* |  |
 | `c2-l027` | &emsp;*ſe. ¶* Qino cauaga muqeta. *Tirouſe* |  |
 | `c2-l028` | &emsp;*a caſca da aruore.* |  |
-| `c2-l029` | Muqen. *Vt,* Muqengigocu. *Inferno, ou* |  |
+| `c2-l029` | Muqen. *Vt,* Muqengigocu. I*nferno, ou* |  |
 | `c2-l030` | &emsp;*lugar de tormentos onde ſem ceßar ſão atormẽ* |  |
 | `c2-l031` | &emsp;*tados os danados. S.* |  |
 | `c2-l032` | Muqi, u, uita. *Tirar a caſca. Vt,* Cono- |  |
 | `c2-l033` | &emsp;mino cauauo muqu. *Tirar a caſca, ou eſ-* |  |
 | `c2-l034` | &emsp;*brugar a fruita.* |  |
-| `c2-l035` | Muqi, u, uita. *Vomitar.* B. |  |
+| `c2-l035` | Muqi, u, uita. *Vomitar. B.* |  |
 | `c2-l036` | Muqi. *Maneira, ou modo. ¶* Cono iye- |  |
 | `c2-l037` | &emsp;no muqiga yoi. *Esta caſa eſtà bem lança-* |  |
 | `c2-l038` | &emsp;*da, ou traçada.* |  |
@@ -117,8 +117,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l042` | &emsp;chiye muqe. *Ponde vos de fronte, ou vi-* |  |
 | `c2-l043` | &emsp;*rai vos pera cà.* |  |
 | `c2-l044` | Muqiai, ǒ, ǒta. *Estar virado hum pera outro.* |  |
-| `c2-l045` | Muqiqe. *Doença que cauſa vomitos.* X. |  |
-| `c2-l046` | Muquan. Qu an naxi. *Se dignidade. Vt,* Mu- |  |
+| `c2-l045` | Muqiqe. *Doença que cauſa vomitos. X.* |  |
+| `c2-l046` | Muquan. Qu an naxi. *Sẽ dignidade. Vt,* Mu- |  |
 | `c2-l047` | &emsp;quan mu-ina fito. *Homẽ ſem dignidade nẽ* |  |
 | `c2-l048` | &emsp;*officio, ou cargo.* |  |
 

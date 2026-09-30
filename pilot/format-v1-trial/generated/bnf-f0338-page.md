@@ -46,7 +46,7 @@ Lexical aid consulted after independent reading: NINJAL, Hideyuki Ohshima and Ta
 | `c1-l028` | Mucui cayexi, ſu, eita. *Retribuir, ou vin-* |  |
 | `c1-l029` | &emsp;*gar. ¶* Core ſono inguauo mucui ca- |  |
 | `c1-l030` | &emsp;yesǒga tamede atta. Qir. *Iſto era pe-* |  |
-| `c1-l031` | &emsp;*ra retribuir, ou ſatisfazer o que fez na idade,* |  |
+| `c1-l031` | &emsp;*ra retribuir, ou ſatiſfazer o que fez na idade,* |  |
 | `c1-l032` | &emsp;*ou nacimento paßado, ſegundo a opinião dos* |  |
 | `c1-l033` | &emsp;*Bonzos.* |  |
 | `c1-l034` | Mucuinu. *Cão felpudo, ou cabeludo.* |  |
@@ -62,7 +62,7 @@ Lexical aid consulted after independent reading: NINJAL, Hideyuki Ohshima and Ta
 | `c1-l044` | Mucuno mi. *Fruita da aruore chamada Mucu.* |  |
 | `c1-l045` | Mucunomi iro. *Azul eſcuro.* |  |
 | `c1-l046` | Mucuno qi. *Aruore aſsi chamada.* |  |
-| `c1-l047` | Mucurenji. *Hũa fruita cuia caſca ſerue de* |  |
+| `c1-l047` | Mucurenji. *Hũa fruita cuja caſca ſerue de* |  |
 
 ## Column 2 running header
 
@@ -82,7 +82,7 @@ Lexical aid consulted after independent reading: NINJAL, Hideyuki Ohshima and Ta
 | `c2-l006` | Mucurôji. *Hũa fruita, cuja caſca ſerue de* |  |
 | `c2-l007` | &emsp;*ſabão.* |  |
 | `c2-l008` | Mucutçuqe. *Vt,* Mucutçuqena mono. l, |  |
-| `c2-l009` | &emsp;mucutçuqe votoco. *Homem que tem as* |  |
+| `c2-l009` | &emsp;mucutçuqe votoco. H*omem que tem as* |  |
 | `c2-l010` | &emsp;*feições agrestes, & que à viſta parece que* |  |
 | `c2-l011` | &emsp;*mete medo.* |  |
 | `c2-l012` | Mudai. *Meliùs,* Mutai. Taimo nai. *Sem* |  |
@@ -91,11 +91,11 @@ Lexical aid consulted after independent reading: NINJAL, Hideyuki Ohshima and Ta
 | `c2-l015` | &emsp;*razão, ou injuſtamente.* |  |
 | `c2-l016` | Mudaina. *Meliùs,* Mutaina. *Couſa ſem* |  |
 | `c2-l017` | &emsp;*rezão, ou homem deſarezoado.* |  |
-| `c2-l018` | Mudame. *Primeiro ponto, ou riſca do Daihẽ onde* |  |
+| `c2-l018` | Mudame. *Primeiro ponto, ou riſca do Dachẽ onde* |  |
 | `c2-l019` | &emsp;*poſto o peſo carrega igualmente.* |  |
 | `c2-l020` | Mudǒxin. *Coração pouco pio, & deuoto.* |  |
 | `c2-l021` | &emsp;*¶* Mudǒxinni xite xucqeua togue gata- |  |
-| `c2-l022` | &emsp;xi. *Não auendo deuação, & coração pio,* |  |
+| `c2-l022` | &emsp;xi. *Não a vendo deuação, & coração pio,* |  |
 | `c2-l023` | &emsp;*ou religioſo não poderà durar.* |  |
 | `c2-l024` | Mudoxinna. *Homem que não deſeja a ſalua-* |  |
 | `c2-l025` | &emsp;*ção, nem tem deuação, nem obſeruancia da* |  |
@@ -110,7 +110,7 @@ Lexical aid consulted after independent reading: NINJAL, Hideyuki Ohshima and Ta
 | `c2-l034` | &emsp;*ſoa que não ſabe eſcreuer. ¶* Mufit de- |  |
 | `c2-l035` | &emsp;gozaru. *Não ſei eſcreuer.* |  |
 | `c2-l036` | Mufitna. *Peſſoa que não ſabe eſcreuer.* |  |
-| `c2-l037` | Mufo. i, Fôni fazzururu. *Diſcrepar da ley.* |  |
+| `c2-l037` | Mufǒ. i, Fôni fazzururu. *Diſcrepar da ley.* |  |
 | `c2-l038` | &emsp;*Vt,* Mufouo voconǒ. *Fazer couſas cõ-* |  |
 | `c2-l039` | &emsp;*tra a ley.* |  |
 | `c2-l040` | Mufǒjin. *Homem que não guarda nem tem* |  |
