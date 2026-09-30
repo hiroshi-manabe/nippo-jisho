@@ -26,11 +26,27 @@ function savedCorrectionCount(page) {
   return Object.keys(saved).length;
 }
 
+function savedReviewAcknowledgement(page) {
+  const stored = storageJSON(submissionStorageKey(page));
+  const submission = state.submissions[page.page_id] || stored;
+  return Boolean(submission?.reviewed_no_changes && stored?.transcription_version === page.transcription_version);
+}
+
+function hasPendingSubmission(page) {
+  return savedCorrectionCount(page) > 0 || savedReviewAcknowledgement(page);
+}
+
 function reconcileSavedWorkspaces(pages = state.corpus.pages) {
   const orphanedPages = [];
   for (const page of pages) {
     if (!page.processed) continue;
     const stored = storageJSON(editStorageKey(page));
+    const submission = storageJSON(submissionStorageKey(page));
+    if (submission?.reviewed_no_changes && submission.transcription_version !== page.transcription_version) {
+      const updated = {...submission, transcription_version: page.transcription_version, status: 'draft', reviewed_no_changes: false};
+      localStorage.setItem(submissionStorageKey(page), JSON.stringify(updated));
+      if (state.submissions[page.page_id]) state.submissions[page.page_id] = {status: 'draft', reviewed_no_changes: false};
+    }
     const saved = state.edits[page.page_id] || stored?.edits || stored;
     if (!saved || !Object.keys(saved).length) continue;
     const edits = structuredClone(saved);
@@ -50,7 +66,7 @@ function reconcileSavedWorkspaces(pages = state.corpus.pages) {
     }
     state.edits[page.page_id] = reconciled;
     state.suggestionDismissals[page.page_id] ??= new Set(stored?.dismissed_suggestions || []);
-    state.submissions[page.page_id] ??= {status: storageJSON(submissionStorageKey(page))?.status || 'draft'};
+    state.submissions[page.page_id] ??= {status: submission?.status || 'draft', reviewed_no_changes: savedReviewAcknowledgement(page)};
     if (!Object.keys(reconciled).length || Object.values(reconciled).some(edit => edit.base_changed)) {
       state.submissions[page.page_id] = {status: 'draft'};
     }
@@ -59,7 +75,7 @@ function reconcileSavedWorkspaces(pages = state.corpus.pages) {
   }
   for (const leaf of selectedLeaves) {
     const page = state.byLeaf.get(leaf);
-    if (!page?.processed || page.review_blocked) selectedLeaves.delete(leaf);
+    if (!page?.processed || page.review_blocked || !hasPendingSubmission(page)) selectedLeaves.delete(leaf);
   }
   return orphanedPages;
 }
@@ -386,19 +402,21 @@ function decorateSelectionCards() {
   for (const card of document.querySelectorAll('#page-grid [data-leaf]')) {
     const page = state.byLeaf.get(pageKey(card.dataset.leaf));
     const count = savedCorrectionCount(page);
+    const reviewed = savedReviewAcknowledgement(page);
     if (page.alignment_coverage) {
       const {usable, total} = page.alignment_coverage;
       card.querySelector('.card-copy').insertAdjacentHTML('beforeend', `<span class="mini-badge alignment-badge">Aligned text${usable < total ? ` · ${usable}/${total}` : ''}</span>`);
     }
-    card.classList.toggle('has-local-changes', count > 0);
+    card.classList.toggle('has-local-changes', count > 0 || reviewed);
     if (selectionMode) {
-      card.disabled = !page.processed || page.review_blocked;
+      card.disabled = !page.processed || page.review_blocked || !hasPendingSubmission(page);
       card.setAttribute('aria-pressed', String(selectedLeaves.has(page.leaf)));
       card.classList.toggle('selected', selectedLeaves.has(page.leaf));
     }
-    if (count) {
+    if (count || reviewed) {
       const status = state.submissions[page.page_id]?.status || storageJSON(submissionStorageKey(page))?.status;
-      card.querySelector('.card-copy').insertAdjacentHTML('beforeend', `<span class="card-state local-changes-label">● ${count} local change${count === 1 ? '' : 's'}${status === 'submitted' ? ' · Submitted' : ''}</span>`);
+      const label = count ? `${count} local change${count === 1 ? '' : 's'}` : 'Reviewed · no changes';
+      card.querySelector('.card-copy').insertAdjacentHTML('beforeend', `<span class="card-state local-changes-label">● ${label}${status === 'submitted' ? ' · Submitted' : ''}</span>`);
     }
   }
 }
@@ -414,7 +432,7 @@ function submissionStorageKey(page) { return `nippo-submission:${page.page_id}`;
 function saveWorkspace(page) {
   for (const edit of Object.values(state.edits[page.page_id] || {})) normalizeSavedTildeMarkers(edit);
   localStorage.setItem(editStorageKey(page), JSON.stringify({schema: WORKSPACE_SCHEMA, transcription_version: page.transcription_version, edits: state.edits[page.page_id], dismissed_suggestions: [...(state.suggestionDismissals[page.page_id] || [])]}));
-  localStorage.setItem(submissionStorageKey(page), JSON.stringify({schema: WORKSPACE_SCHEMA, transcription_version: page.transcription_version, status: state.submissions[page.page_id].status}));
+  localStorage.setItem(submissionStorageKey(page), JSON.stringify({schema: WORKSPACE_SCHEMA, transcription_version: page.transcription_version, status: state.submissions[page.page_id].status, reviewed_no_changes: Boolean(state.submissions[page.page_id].reviewed_no_changes)}));
 }
 
 function suggestionDismissalKey(line, kind) {
@@ -611,7 +629,11 @@ function loadPageWorkspace(page) {
       ? storedEdits.dismissed_suggestions
       : []
   );
-  state.submissions[page.page_id] = {status};
+  const reviewedNoChanges = Boolean(storedSubmission?.reviewed_no_changes && storedSubmission.transcription_version === page.transcription_version);
+  state.submissions[page.page_id] = {
+    status: storedSubmission?.reviewed_no_changes && !reviewedNoChanges ? 'draft' : status,
+    reviewed_no_changes: reviewedNoChanges,
+  };
   state.workspacesLoaded.add(page.page_id);
   const currentLines = pageLineMap(page);
   const hasIncorporatedText = Object.entries(edits).some(([id, edit]) => {
@@ -623,7 +645,7 @@ function loadPageWorkspace(page) {
     state.edits[page.page_id] = reconciled;
     const hasRebasedEdits = Object.values(reconciled).some(edit => edit.base_changed);
     if (hasRebasedEdits || Object.keys(orphaned).length || Object.keys(reconciled).length === 0) {
-      state.submissions[page.page_id] = {status: 'draft'};
+      state.submissions[page.page_id] = {status: 'draft', reviewed_no_changes: false};
     }
     if (Object.keys(orphaned).length) {
       seedMachineSuggestions(page);
@@ -641,7 +663,7 @@ function loadPageWorkspace(page) {
     if (line && !edit.base_line_version && edit.before === line.text) edit.base_line_version = line.transcription_version;
   }
   seedMachineSuggestions(page);
-  if (!isEnvelope || storedEdits.schema !== WORKSPACE_SCHEMA || storedSubmission?.schema !== WORKSPACE_SCHEMA) saveWorkspace(page);
+  if (!isEnvelope || storedEdits.schema !== WORKSPACE_SCHEMA || storedSubmission?.schema !== WORKSPACE_SCHEMA || storedSubmission?.reviewed_no_changes !== reviewedNoChanges) saveWorkspace(page);
 }
 
 function pageEdits(page) {
@@ -663,7 +685,7 @@ function persistSubmission(page, status) {
     const {reconciled, orphaned} = reconcileEdits(page, pageEdits(page));
     state.edits[page.page_id] = {...reconciled, ...orphaned};
   }
-  state.submissions[page.page_id] = {status};
+  state.submissions[page.page_id] = {status, reviewed_no_changes: status === 'submitted' ? false : Boolean(pageSubmission(page).reviewed_no_changes)};
   saveWorkspace(page);
   updateSubmitBar();
 }
@@ -677,10 +699,12 @@ function persistEdits(page, preserveSubmission = false) {
 function updateSubmitBar() {
   if (!state.currentPage) return;
   const count = Object.keys(pageEdits(state.currentPage)).length;
-  $('#submit-bar').classList.toggle('hidden', count === 0);
-  $('#submit-no-changes').classList.toggle('hidden', count !== 0 || !state.currentPage.processed || state.currentPage.review_blocked);
-  $('#change-count').textContent = `${count} proposed line correction${count === 1 ? '' : 's'}`;
   const status = pageSubmission(state.currentPage).status;
+  const reviewed = pageSubmission(state.currentPage).reviewed_no_changes;
+  $('#submit-bar').classList.toggle('hidden', count === 0 && !reviewed && status === 'draft');
+  $('#submit-no-changes').classList.toggle('hidden', count !== 0 || reviewed || status !== 'draft' || !state.currentPage.processed || state.currentPage.review_blocked);
+  $('#change-count').textContent = count ? `${count} proposed line correction${count === 1 ? '' : 's'}` : 'Reviewed · no changes proposed';
+  $('#discard-all').textContent = count ? 'Discard changes' : 'Clear review mark';
   if (!count && status !== 'draft') $('#submit-bar').classList.remove('hidden');
   if (status !== 'draft') $('#submit-no-changes').classList.add('hidden');
   $('#submit-question').classList.toggle('hidden', status !== 'awaiting');
@@ -688,7 +712,8 @@ function updateSubmitBar() {
   $('#submit-not-yet').classList.toggle('hidden', status !== 'awaiting');
   $('#mark-submitted').classList.toggle('hidden', status !== 'awaiting');
   $('#submit-again').classList.toggle('hidden', status !== 'submitted');
-  $('#submit').classList.toggle('hidden', status !== 'draft' || count === 0);
+  $('#submit').classList.toggle('hidden', status !== 'draft' || (count === 0 && !reviewed));
+  $('#submit').textContent = count ? 'Submit page corrections' : 'Submit reviewed page';
   updateRebaseNotice();
 }
 
@@ -1537,8 +1562,6 @@ async function submitSelectedPages() {
     pages = pages.filter(page => selectedLeaves.has(page.leaf));
     if (!pages.length) return;
     const records = pages.map(correctionPayload);
-    const empty = records.filter(record => !record.changes.length);
-    if (empty.length && !confirm(`Record ${empty.map(record => record.page).join(', ')} as reviewed with no changes needed?`)) return;
     const payload = JSON.stringify({schema: 4, pages: records}, null, 2);
     const title = pages.length <= 8 ? `[${pages.map(p => p.view).join(', ')}] Transcription corrections` : `[${pages[0].view}–${pages.at(-1).view}, ${pages.length} pages] Transcription corrections`;
     const url = `https://github.com/${state.corpus.repository}/issues/new?template=transcription-correction.md&title=${encodeURIComponent(title)}`;
@@ -1551,7 +1574,7 @@ async function submitSelectedPages() {
 async function submitCorrections() {
   if (state.currentPage.review_blocked) return toast('This page is read-only pending review.');
   const page = state.currentPage;
-  if (!Object.keys(pageEdits(page)).length && !confirm(`Record ${page.view} as reviewed with no changes needed?`)) return;
+  if (!Object.keys(pageEdits(page)).length && !pageSubmission(page).reviewed_no_changes) return toast('Mark this page as reviewed first.');
   if (!await checkCorpusFreshness()) {
     toast('This page has a newer baseline. Reload it before submitting.');
     return;
@@ -1638,9 +1661,15 @@ $('#previous').addEventListener('click', () => adjacentPage(-1));
 $('#next').addEventListener('click', () => adjacentPage(1));
 function go() { const leaf = pageKey($('#leaf-input').value.trim()); if (state.byLeaf.has(leaf)) showPage(leaf, state.unit); }
 $('#go').addEventListener('click', go); $('#leaf-input').addEventListener('keydown', event => { if (event.key === 'Enter') go(); });
-$('#discard-all').addEventListener('click', () => { if (!confirm('Discard all proposed corrections for this page?')) return; for (const [lineId, edit] of Object.entries(pageEdits(state.currentPage))) dismissMachineSuggestion(state.currentPage, lineById(lineId), edit.machine_suggestion); state.edits[state.currentPage.page_id] = {}; persistSubmission(state.currentPage, 'draft'); persistEdits(state.currentPage, true); renderPageContent(); });
+$('#discard-all').addEventListener('click', () => { if (!confirm('Discard all pending work for this page?')) return; for (const [lineId, edit] of Object.entries(pageEdits(state.currentPage))) dismissMachineSuggestion(state.currentPage, lineById(lineId), edit.machine_suggestion); state.edits[state.currentPage.page_id] = {}; pageSubmission(state.currentPage).reviewed_no_changes = false; persistSubmission(state.currentPage, 'draft'); persistEdits(state.currentPage, true); renderPageContent(); });
 $('#submit').addEventListener('click', submitCorrections);
-$('#submit-no-changes').addEventListener('click', submitCorrections);
+$('#submit-no-changes').addEventListener('click', () => {
+  const page = state.currentPage;
+  if (!page?.processed || page.review_blocked || Object.keys(pageEdits(page)).length) return;
+  pageSubmission(page).reviewed_no_changes = true;
+  persistSubmission(page, 'draft');
+  toast('Page marked as reviewed. Submit it alone or select it in the page list.');
+});
 $('#selection-toggle').addEventListener('click', () => {
   selectionMode = !selectionMode;
   selectedLeaves.clear();
@@ -1665,7 +1694,7 @@ $('#mark-submitted').addEventListener('click', () => {
   persistSubmission(state.currentPage, 'submitted');
   renderPageContent();
 });
-$('#submit-again').addEventListener('click', () => { persistSubmission(state.currentPage, 'draft'); void submitCorrections(); });
+$('#submit-again').addEventListener('click', () => { const page = state.currentPage; persistSubmission(page, 'draft'); if (!Object.keys(pageEdits(page)).length) pageSubmission(page).reviewed_no_changes = true; saveWorkspace(page); void submitCorrections(); });
 $('#copy-stale-draft').addEventListener('click', async () => {
   if (!state.staleDraft) return;
   const payload = staleDraftPayload(state.staleDraft);

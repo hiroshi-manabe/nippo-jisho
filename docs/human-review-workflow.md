@@ -353,7 +353,7 @@ Because the guide is fully derived, its output is not stored in canonical Markdo
 
 ## GitHub Issue submission
 
-The overview's **Select pages to submit** mode turns page cards into multi-select buttons. Only pages with locally saved corrections can be selected; cards show their saved correction count and submitted status. **Submit selected pages** checks every selected baseline, then uses the same automatic tab-opening and JSON-copying flow as single-page submission. A selectable JSON dialog is shown only if copying or opening the tab fails. The overview then asks whether that combined Issue was submitted and updates the included pages together.
+The overview's **Select pages to submit** mode turns page cards into multi-select buttons. Pages can be selected when they have locally saved corrections or an explicit pending **Mark reviewed — no changes needed** acknowledgment; the cards display either kind of pending work. **Submit selected pages** checks every selected baseline, then uses the same automatic tab-opening and JSON-copying flow as single-page submission. A selectable JSON dialog is shown only if copying or opening the tab fails. The overview then asks whether that combined Issue was submitted and updates the included pages together.
 
 Combined submissions use `{"schema": 4, "pages": [...]}`, where each element is a complete schema-3 page payload with its own page identifier, baseline commit, transcription version, and changes. Duplicate pages are invalid. The processor resolves and validates all included pages before writing any of them, applies unflagged changes, and keeps page-specific pending review decisions in the preparation report. It closes the single Issue only after all pages are settled, records that Issue separately in each page's history, and verifies every included page after deployment. Plain JSON and older fenced payloads are both accepted.
 
@@ -555,10 +555,13 @@ Chat remains useful for ambiguous readings and allows the reviewer to quote a st
 
 ## Explicit no-change review
 
-The page's “Reviewed — no changes needed” button submits schema 3 with
-`changes: []` and `reviewed_no_changes: true`, after explicit confirmation.
-Multi-page selection also permits editable pages without corrections and confirms
-their names before submission. Empty changes without this flag are rejected.
+The page's **Mark reviewed — no changes needed** button saves a pending review
+acknowledgment locally; it does not create a fictitious line correction or open an
+Issue immediately. The page becomes eligible for ordinary single-page submission
+or selection in a combined submission. With no line edits, its schema-3 payload has
+`changes: []` and `reviewed_no_changes: true`. A newer transcription baseline
+invalidates an unsubmitted acknowledgment, and a confirmed submission clears it.
+Empty changes without this flag are rejected.
 The processor requires the current transcription version, records the Issue in
 the existing correction history with zero changed lines, and follows normal
 publication/closure. This increases the Issue count, not the corrected-line count;
