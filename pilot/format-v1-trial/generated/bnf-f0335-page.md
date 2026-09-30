@@ -46,7 +46,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l030` | Mǒxi daxi, ſu, aita. *Vide,* Mǒxidaxi, ſu. |  |
 | `c1-l031` | Mǒxi ire, uru, eta. *Dizer a alguem.* |  |
 | `c1-l032` | &emsp;*¶* Annaiuo mǒxi iruru. *Fazer aſaber.* |  |
-| `c1-l033` | Mǒxijo. *Carta, ou eſcrito em que ſe darazão* |  |
+| `c1-l033` | Mǒxijo. *Carta, ou eſcrito em que ſe dà razão* |  |
 | `c1-l034` | &emsp;*dalgũa couſa.* |  |
 | `c1-l035` | Mǒximauaxi, ſu, aita. *Dar recado, ou pu-* |  |
 | `c1-l036` | &emsp;*blicar por diuerſas partes. ¶ Item, per met.* |  |
@@ -60,7 +60,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l044` | Mǒxin. Midarina cocoro. *Coração deſorde-* |  |
 | `c1-l045` | &emsp;*nado, ou perturbado com ruins penſamintos.* |  |
 | `c1-l046` | Mǒxinadame, uru, eta. *Aplacar cõ palauras.* |  |
-| `c1-l047` | Moxinarauaxi, ſu, aita. *Correr em pratica.* |  |
+| `c1-l047` | Mǒxinarauaxi, ſu, aita. *Correr em pratica.* |  |
 
 ## Column 2 running header
 
@@ -116,7 +116,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l042` | &emsp;*lauras.* |  |
 | `c2-l043` | Mǒxitçuqe, uru, eta. *Mandar, ou orde-* |  |
 | `c2-l044` | &emsp;*nar. ¶ Item, Cuſtumar a dizer. Vt,* Cõ- |  |
-| `c2-l045` | &emsp;fisãouo mǒxitçuqeta. *Meliùs,* Mǒxi |  |
+| `c2-l045` | &emsp;fiſsãouo mǒxitçuqeta. *Meliùs,* Mǒxi |  |
 | `c2-l046` | &emsp;nareta. *Estou ja cuſtumado à me confeßar.* |  |
 | `c2-l047` | Mǒxitçutaye, uru, eta. *Dizer por tra* |  |
 
