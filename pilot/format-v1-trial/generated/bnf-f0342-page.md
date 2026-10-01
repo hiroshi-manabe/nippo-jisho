@@ -42,7 +42,7 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | `c1-l024` | Muſubi, u, unda. *Atar. ¶* Yẽuo mu- |  |
 | `c1-l025` | &emsp;ſubu. l, yẽpẽuo muſubu. *Caſar. ¶* Iuo- |  |
 | `c1-l026` | &emsp;riuo muſubu. *Fazer choupana. ¶* Miuo |  |
-| `c1-l027` | &emsp;muſubu. *Dar fruito a aruore, &c.* S *¶* In- |  |
+| `c1-l027` | &emsp;muſubu. *Dar fruito a aruore, &c. S ¶* In- |  |
 | `c1-l028` | &emsp;uo muſubu. *Fazer com as mãos varios* |  |
 | `c1-l029` | &emsp;*meneos, ou ceremonias como cuſtumão os* |  |
 | `c1-l030` | &emsp;*gentios.* |  |
@@ -54,7 +54,7 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | `c1-l036` | &emsp;no mizzuuo muſubiague, fitotçu fachiſu- |  |
 | `c1-l037` | &emsp;no yẽto narǒ. Feiq. *Lib. 4. To-* |  |
 | `c1-l038` | &emsp;*mando agoa ( que era como benta, juntamente* |  |
-| `c1-l039` | &emsp;*ajuntar nos emos no meſmo golfão. i; Saluar* |  |
+| `c1-l039` | &emsp;*ajuntar nos emos no meſmo golfão. i, Saluar* |  |
 | `c1-l040` | &emsp;*nos emos.* |  |
 | `c1-l041` | Muſubiai, yǒta. *Vnirſe entre ſi.* |  |
 | `c1-l042` | Muſubiauaxe, ſuru, eta. *Amarrar, ou atar* |  |

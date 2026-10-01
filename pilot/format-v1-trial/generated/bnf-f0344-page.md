@@ -46,7 +46,7 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | `c1-l028` | &emsp;*xão, & piedade della.* |  |
 | `c1-l029` | Muzanni. *Adu.* |  |
 | `c1-l030` | Muzǒ. *Palaura com que ſe mostra ter piedade,* |  |
-| `c1-l031` | &emsp;*& compaixão dalguem.* X. |  |
+| `c1-l031` | &emsp;*& compaixão dalguem. X.* |  |
 | `c1-l032` | Muzǒna. *Peßoa, ou couſa que moue a com-* |  |
 | `c1-l033` | &emsp;*paixão.* |  |
 | `c1-l034` | Muzǒni. *Adu.* |  |
@@ -95,12 +95,12 @@ A large floral tailpiece and a smaller symmetric typographic ornament close the 
 | `c2-l012` | &emsp;ſu. *Perder do bom nome, ou menoſcabar a* |  |
 | `c2-l013` | &emsp;*fama. ¶* Nauo aguru. *Alcançar no-* |  |
 | `c2-l014` | &emsp;*me, ou honra.* |  |
-| `c2-l015` | Naba. l, qinoco. *Cugumelos.* X. *No* |  |
+| `c2-l015` | Naba. l, qinoco. *Cugumelos. X. No* |  |
 | `c2-l016` | &emsp;*Cami, & mais vniuerſalmente ſe diz,* Cu- |  |
 | `c2-l017` | &emsp;ſabira. |  |
 | `c2-l018` | Nabe. *Panela, ou tacho.* |  |
 | `c2-l019` | Nabete. *P.* i, Voxinabete. *Geeralmẽte.* |  |
-| `c2-l020` | Nabeteno. *P. Couſa comũa, & geral.* |  |
+| `c2-l020` | Nabeteno. *P. Couſa comũa, & gèral.* |  |
 | `c2-l021` | Nabezumi. *Fumo, ou felugem que està pegada* |  |
 | `c2-l022` | &emsp;*nas panelas.* |  |
 | `c2-l023` | Nabicaxi, ſu, aita. *Fazer inclinar, ou do-* |  |

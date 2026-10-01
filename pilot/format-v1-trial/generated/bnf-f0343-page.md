@@ -40,7 +40,7 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | `c1-l022` | &emsp;*como alparcas de que vſão os ſoldados.* |  |
 | `c1-l023` | Muxaye. *Pintura de guerras, ou batalhas.* |  |
 | `c1-l024` | Muxe, ſuru, eta. *Engaſgar, ou dar no goto* |  |
-| `c1-l025` | &emsp;*quando ſe bebe vinho. agoa, &c. ¶* Qe- |  |
+| `c1-l025` | &emsp;*quando ſe bebe vinho, agoa, &c. ¶* Qe- |  |
 | `c1-l026` | &emsp;murini muſuru. *Afogarſe com fumo.* |  |
 | `c1-l027` | &emsp;*¶* Namidani muxete. *Não podendo fa-* |  |
 | `c1-l028` | &emsp;*lar com lagrimas.* |  |
@@ -54,13 +54,13 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | `c1-l036` | &emsp;uo vazzurǒ. *Estar doente de lombrigas.* |  |
 | `c1-l037` | &emsp;*¶* Muxiga vocoru. *Adoecer de lombri-* |  |
 | `c1-l038` | &emsp;*gas, ou dor de estamago. ¶* Muxiga xe- |  |
-| `c1-l039` | &emsp;qu. X. *Apertarem, & atormentarem* |  |
+| `c1-l039` | &emsp;qu. *X. Apertarem, & atormentarem* |  |
 | `c1-l040` | &emsp;*as lombrigas a alguem, ou dor de barriga, ou* |  |
 | `c1-l041` | &emsp;*eſtamago.* |  |
 | `c1-l042` | Muxibami, u, ǒda. *Roer, ou comer o bicho* |  |
 | `c1-l043` | &emsp;*algũa couſa.* |  |
 | `c1-l044` | Muxicui. *Raſto, ou ſinal que deixa o bicho na* |  |
-| `c1-l045` | &emsp;*madeira comida, ou notra couſa. ¶ Itẽ a meſ-* |  |
+| `c1-l045` | &emsp;*madeira comida, ou notra couſa. ¶* I*tẽ a meſ-* |  |
 | `c1-l046` | &emsp;*ma couſa como fruita, &c. comida do bicho.* |  |
 | `c1-l047` | Muximochi. *Certa laya de Mochis cozidos* |  |
 | `c1-l048` | &emsp;*com o bafo de agoa quente.* |  |
@@ -97,7 +97,7 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | `c2-l013` | &emsp;*ou moleſtar.* |  |
 | `c2-l014` | Muxiqi. Iro naxi. *Sem cor.* |  |
 | `c2-l015` | Muxiqina. *couſa ſem cor.* |  |
-| `c2-l016` | Muxiri, u, itta. *Depenar. Vt,* Toriuo mu- |  |
+| `c2-l016` | Mux*i*ri, u, itta. *Depenar. Vt,* Toriuo mu- |  |
 | `c2-l017` | &emsp;xiru. *Depenar a aue. ¶* Vatauo mu- |  |
 | `c2-l018` | &emsp;xiru. *Eſcarpear a borra. ¶* Cuſauo mu- |  |
 | `c2-l019` | &emsp;xiru. *Tirar eruas. ¶* Fanauo muxiru. |  |
