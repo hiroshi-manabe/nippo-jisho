@@ -946,8 +946,8 @@ function restoreColumnPosition(page, unit) {
   const rows = reviewRows();
   const row = saved && rows.find(item => item.dataset.line === saved.lineId);
   if (!row) {
-    window.scrollTo({top: 0, behavior: 'instant'});
-    if (rows[0]) setReviewCursor(rows[0]);
+    if (rows[0]) setReviewCursor(rows[0], true);
+    else window.scrollTo({top: 0, behavior: 'instant'});
   } else {
     const list = row.closest('.line-list');
     if (list && saved.extraSpace > 0) list.style.setProperty('--review-extra-space', `${saved.extraSpace}px`);
@@ -957,12 +957,12 @@ function restoreColumnPosition(page, unit) {
   const lineId = (row || rows[0])?.dataset.line;
   requestAnimationFrame(() => requestAnimationFrame(() => {
     if (state.currentPage !== page || state.unit !== unit || reviewCursor?.lineId !== lineId) return;
-    if (!row) {
-      window.scrollTo({top: 0, behavior: 'instant'});
-      return;
-    }
     const current = reviewRows().find(item => item.dataset.line === lineId);
     if (!current) return;
+    if (!row) {
+      setReviewCursor(current, true);
+      return;
+    }
     const crop = current.querySelector('.line-crop') || current;
     const destination = window.scrollY + crop.getBoundingClientRect().top - reviewViewportTop() - saved.offset;
     window.scrollTo({top: Math.max(0, destination), behavior: 'instant'});
