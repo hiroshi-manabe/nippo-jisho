@@ -52,7 +52,7 @@ Lexical aid consulted after the independent scan reading: Entry Words Data of Ni
 | `c1-l034` | &emsp;*parte do em que me parti.* |  |
 | `c1-l035` | Naca ichinen. *Anno meo entre dous.* |  |
 | `c1-l036` | Nacaje. *Lugar do meo dalbarda do caualo que* |  |
-| `c1-l037` | &emsp;*fica entre os dous coſtais.* B. |  |
+| `c1-l037` | &emsp;*fica entre os dous coſtais. B.* |  |
 | `c1-l038` | Nacajima. *Ilha que eſtà no meo do rio, ou do* |  |
 | `c1-l039` | &emsp;*mar. ¶ Item, Ilha que fazem artificioſa-* |  |
 | `c1-l040` | &emsp;*mente no meo dalgum tanque.* |  |
@@ -98,11 +98,11 @@ Lexical aid consulted after the independent scan reading: Entry Words Data of Ni
 | `c2-l015` | Nacatçugui. *Certa boceta redonda vruxada* |  |
 | `c2-l016` | &emsp;*que ſerue de ter Cha moido.* |  |
 | `c2-l017` | Nacate. *Segũda nouidade do arroz, ou arroz* |  |
-| `c2-l018` | &emsp;*que vem mais tarde, logo depois do primej-* |  |
+| `c2-l018` | &emsp;*que vem mais tarde, logo depois do primei-* |  |
 | `c2-l019` | &emsp;*ro. O mais temporão ſe diz, Vaxe. O mais* |  |
 | `c2-l020` | &emsp;*ſorodeo, Vocute.* |  |
 | `c2-l021` | Nacauobi. *Vt,* Nacauobino tei. l, nacauo- |  |
-| `c2-l022` | &emsp;bi bacaride. *O eſtar ſomente cingido mas* |  |
+| `c2-l022` | &emsp;bi bacaride. *O eſtar ſòmente cingido mas* |  |
 | `c2-l023` | &emsp;*ſem calçoẽs, & ſem Dobuco.* |  |
 | `c2-l024` | Nacauori. *Papel aßi chamado.* |  |
 | `c2-l025` | Nacazaxi. *Certa laya de frechas mais esti-* |  |
@@ -121,7 +121,7 @@ Lexical aid consulted after the independent scan reading: Entry Words Data of Ni
 | `c2-l038` | Nada. *Borda do mar, ou junto da terra.* Na- |  |
 | `c2-l039` | &emsp;dauo noru. *Nauegar ao longo da terra.* |  |
 | `c2-l040` | Nadamari, u, atta. *Mitigarſe, ou aplacarſe.* |  |
-| `c2-l041` | &emsp;*¶* Icariga nadamaru. *Abrandarſe a ira.* |  |
+| `c2-l041` | &emsp;*¶ I*cariga nadamaru. *Abrandarſe a ira.* |  |
 | `c2-l042` | Nadame, uru, eta. *Mitigar, ou abrandar.* |  |
 | `c2-l043` | &emsp;*¶* Fitono cocorouo nadamuru. *Apla-* |  |
 | `c2-l044` | &emsp;*car, ou conſolar a alguem.* |  |
