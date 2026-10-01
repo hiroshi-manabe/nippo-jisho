@@ -94,7 +94,7 @@ Lexical aid consulted after the independent scan reading: Entry Words Data of Ni
 | `c2-l018` | &emsp;xiqiuo nagamuru. *Ver per recreação por* |  |
 | `c2-l019` | &emsp;*todas as partes.* |  |
 | `c2-l020` | Nagame. *Viſta. Vt,* Nagame cotonaru |  |
-| `c2-l021` | &emsp;yǔbe. *A viſta deſtatarde he differente das* |  |
+| `c2-l021` | &emsp;yǔbe. *A viſta deſta tarde he differente das* |  |
 | `c2-l022` | &emsp;*outras.* |  |
 | `c2-l023` | Nagameyari, u, atta. *Ver ou botar os olhos* |  |
 | `c2-l024` | &emsp;*ao longe. Vt,* Sono catano ſorauo faruba- |  |
@@ -108,7 +108,7 @@ Lexical aid consulted after the independent scan reading: Entry Words Data of Ni
 | `c2-l032` | &emsp;ſuru. *Fazer detença por muito tempo.* |  |
 | `c2-l033` | Naganagaxij. *Couſa muito comprida, ou de* |  |
 | `c2-l034` | &emsp;*muito tempo.* |  |
-| `c2-l035` | Nagaqiyo. *Noites cõpridas.* P. |  |
+| `c2-l035` | Nagaqiyo. *Noites cõpridas. P.* |  |
 | `c2-l036` | Nagaqiyo. *Mundo comprido, ou vida eterna.* |  |
 | `c2-l037` | Nagara. *Ainda q̃, poſto que. Vt,* Fabacari |  |
 | `c2-l038` | &emsp;nagara. *Ainda q̃ ſeja deſcorteſia. ¶ Item,* |  |
