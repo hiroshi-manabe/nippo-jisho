@@ -42,7 +42,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l026` | &emsp;*empregada por não ſoceder bem, ou não con-* |  |
 | `c1-l027` | &emsp;*uir, &c.* |  |
 | `c1-l028` | Namajiini. *Adu.* |  |
-| `c1-l029` | Namajiuô. *Sal crù. i, Aßi como ſae da mari-* |  |
+| `c1-l029` | Namajiuo. *Sal crù. i, Aßi como ſae da mari-* |  |
 | `c1-l030` | &emsp;*nha ſem ſe tornar acozer, nem purificar.* |  |
 | `c1-l031` | Namaita. *Taboa verde. ¶* Nama itani cu- |  |
 | `c1-l032` | &emsp;guiuo vtçu yǒni monouo yǔ. *Dizer as cou* |  |
@@ -95,7 +95,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l019` | &emsp;*a propoſito do tempo, ou de outra circunſtancia.* |  |
 | `c2-l020` | &emsp;*¶* Xeiua namaxijni vôqinaredomo, iccô |  |
 | `c2-l021` | &emsp;buchôfǒna monode voriaru. *Quanto à* |  |
-| `c2-l022` | &emsp;*eſtatura grãde he, mas deſconueniente, porq̃he* |  |
+| `c2-l022` | &emsp;*eſtatura grãde he, mas deſconueniente, porq̃ he* |  |
 | `c2-l023` | &emsp;*muito deſmazelado, & pera pouco. ¶* Nama- |  |
 | `c2-l024` | &emsp;xijno cotouo iuǒ yorimo mugon iraita. |  |
 | `c2-l025` | &emsp;*Milhor foy calar que dizer couſa fora de pro-* |  |

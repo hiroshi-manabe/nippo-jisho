@@ -21,7 +21,7 @@ Lexical cross-checks used the supplied Entry Words Data of Nippojisho, NINJAL, H
 | `c1-l003` | Nameracana. *Couſa liſa, & eſcorregadia.* |  |
 | `c1-l004` | Nameracani. *Adu.* |  |
 | `c1-l005` | &emsp;Nameracaſa. |  |
-| `c1-l006` | Nameri, u, etta. *Eſcorregar.* X. *No Cami* |  |
+| `c1-l006` | Nameri, u, etta. *Eſcorregar. X. No Cami* |  |
 | `c1-l007` | &emsp;*ſe diz Suberu. ¶ Item, Ser a couſa eſcor-* |  |
 | `c1-l008` | &emsp;*regadia.* |  |
 | `c1-l009` | Namexi. l, Namexigaua. *Pele cortida.* |  |
@@ -52,10 +52,10 @@ Lexical cross-checks used the supplied Entry Words Data of Nippojisho, NINJAL, H
 | `c1-l034` | &emsp;mida xeqiayezu. *Não podendo reter as la-* |  |
 | `c1-l035` | &emsp;*grimas. ¶* Namidani cururu. *Eſcure-* |  |
 | `c1-l036` | &emsp;*cerem ſe os olhos com lagrimas. ¶* Nami- |  |
-| `c1-l037` | &emsp;da mǒroi fito. *Homem facil em chorar.* |  |
+| `c1-l037` | &emsp;da moroi fito. *Homem facil em chorar.* |  |
 | `c1-l038` | &emsp;*¶* Namidagatai. l, namidazzuyoi fito. |  |
 | `c1-l039` | &emsp;*Homem ſeco, & dificil em chorar.* |  |
-| `c1-l040` | Namidagaua. P. *Abundancia, ou torrente* |  |
+| `c1-l040` | Namidagaua. *P. Abundancia, ou torrente* |  |
 | `c1-l041` | &emsp;*de lagrimas.* |  |
 | `c1-l042` | Namidagumi, u, unda. *Arraſaremſe os o-* |  |
 | `c1-l043` | &emsp;*lhos em lagrimas, ou ter os olhos choroſos, ou* |  |
@@ -89,7 +89,7 @@ Lexical cross-checks used the supplied Entry Words Data of Nippojisho, NINJAL, H
 | `c2-l007` | &emsp;*do cada hum por ſi officio de eſcanção, ora bai* |  |
 | `c2-l008` | &emsp;*lauão ora cantauã, & bebiam.* |  |
 | `c2-l009` | Namima. *Eſpaço das ondas. S.* |  |
-| `c2-l010` | Namimacura. P. *O dormir no nauio, ou* |  |
+| `c2-l010` | Namimacura. *P. O dormir no nauio, ou* |  |
 | `c2-l011` | &emsp;*ſobre as ondas.* |  |
 | `c2-l012` | Namiſuye, uru, eta. *Por por ordem, ou em* |  |
 | `c2-l013` | &emsp;*fileira.* |  |
@@ -101,7 +101,7 @@ Lexical cross-checks used the supplied Entry Words Data of Nippojisho, NINJAL, H
 | `c2-l019` | Namomi. *Erua aßi chamada.* |  |
 | `c2-l020` | Namu. *Palaura com que ſe inuoca, ou faz re-* |  |
 | `c2-l021` | &emsp;*uerencia ao Fotoque. Vt,* Namu Amidabut, |  |
-| `c2-l022` | &emsp;Namu meôfǒ rengueqiǒ. |  |
+| `c2-l022` | &emsp;Namu meôfô rengueqiǒ. |  |
 | `c2-l023` | Namuſanbô. *Palaura com que os gentios inuo-* |  |
 | `c2-l024` | &emsp;*caõ o Fotoque, os bonzos, & liuro da ley como* |  |
 | `c2-l025` | &emsp;*tres couſas ſanctas.* |  |
