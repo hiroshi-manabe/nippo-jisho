@@ -25,7 +25,7 @@ Lexical aid consulted after the independent scan reading: Entry Words Data of Ni
 | `c1-l007` | &emsp;ſoro. Taif. *Lib. 26. Hum reſplandor* |  |
 | `c1-l008` | &emsp;*que andaua ſobre as ondas de hũa parte pera* |  |
 | `c1-l009` | &emsp;*outra correndo, ou leuado dagoa. ¶ Item,* |  |
-| `c1-l010` | &emsp;*per met. Andar de cà pera là recreandoſe.* |  |
+| `c1-l010` | &emsp;*per met. Andar de cá pera là recreandoſe.* |  |
 | `c1-l011` | Nagare cacari, u, atta. *Indo pella agoa abai* |  |
 | `c1-l012` | &emsp;*xo ficar preſo em algũa couſa. Vt,* Mizzuni |  |
 | `c1-l013` | &emsp;nagare yuqu febidomo axini vazzucani |  |
@@ -34,7 +34,7 @@ Lexical aid consulted after the independent scan reading: Entry Words Data of Ni
 | `c1-l016` | &emsp;*do hum pouco aferradas nos pees.* |  |
 | `c1-l017` | Nagareide, zzuru, eta. *Sair a agoa, &c.* |  |
 | `c1-l018` | &emsp;*correndo como de tanque, ou fonte.* |  |
-| `c1-l019` | Nagarenomi. P. i, Yûgio. *Molher publica.* |  |
+| `c1-l019` | Nagarenomi. *P.* i, Yûgio. *Molher publica.* |  |
 | `c1-l020` | Nagarevochi, tçuru, ita. *Cair, ou ſer der-* |  |
 | `c1-l021` | &emsp;*rubado, & leuado dagoa. Vt,* Faxiuo ca- |  |
 | `c1-l022` | &emsp;quredomo, cǒzuino toqiua nagarevochi- |  |
@@ -43,7 +43,7 @@ Lexical aid consulted after the independent scan reading: Entry Words Data of Ni
 | `c1-l025` | &emsp;*abaixo.* |  |
 | `c1-l026` | Nagarevxe, ſuru, eta. *Perderſe algũa couſa* |  |
 | `c1-l027` | &emsp;*polla grande enchente.* |  |
-| `c1-l028` | Nagaſarebito. *Desterrado.* |  |
+| `c1-l028` | Nagaſareb*i*to. *Desterrado.* |  |
 | `c1-l029` | Nagaſode. *Mangas compridas.* |  |
 | `c1-l030` | Nagaſodeno mi. i, *Bonzos, ou religioſos de Ia* |  |
 | `c1-l031` | &emsp;*pão que vestem habito de mangas compridas.* |  |
@@ -61,7 +61,7 @@ Lexical aid consulted after the independent scan reading: Entry Words Data of Ni
 | `c1-l043` | &emsp;*tra couſa liquida. ¶* Xagicuuo nagaſu. *Fa* |  |
 | `c1-l044` | &emsp;*zer chouer muito, & rijo. ¶* Nauo naga- |  |
 | `c1-l045` | &emsp;ſu. *Diuulgar ruim fama, ou infamar.* |  |
-| `c1-l046` | &emsp;*¶* Namidauo nagaſu. *Derramar lagrimas* |  |
+| `c1-l046` | &emsp;*¶* Namidauo nagaſu. *Derramar lagrimas.* |  |
 | `c1-l047` | &emsp;*¶* Axeuo nagaſu. *Suar. ¶* Couo vmi |  |
 
 ## Column 2 running header
@@ -110,7 +110,7 @@ Lexical aid consulted after the independent scan reading: Entry Words Data of Ni
 | `c2-l028` | &emsp;voximini ſacamoriuo ſuru. *Fazer bebere-* |  |
 | `c2-l029` | &emsp;*te com amor, & ſaudades.* |  |
 | `c2-l030` | Nagoyacana. *Couſa quieta, ou tranquila. Vt,* |  |
-| `c2-l031` | &emsp;Tenqi nagoyacani gozaru. *Estar otempo* |  |
+| `c2-l031` | &emsp;Tenqi nagoyacani gozaru. *Estar o tempo* |  |
 | `c2-l032` | &emsp;*quieto, & ſereno.* |  |
 | `c2-l033` | Nagoyacani. *Adu.* |  |
 | `c2-l034` | Nague, uru, eta. *Lançar, ou arremeſar. Vt,* |  |
@@ -125,7 +125,7 @@ Lexical aid consulted after the independent scan reading: Entry Words Data of Ni
 | `c2-l043` | Naguecaqe, uru, eta. *Arremeſar, ou deitar.* |  |
 | `c2-l044` | Naguecaxij. *Couſa penoſa, ou que cauſa dor.* |  |
 | `c2-l045` | &emsp;Naguecaxiſa. |  |
-| `c2-l046` | &emsp;Naguecaxǔ. |  |
+| `c2-l046` | &emsp;Naguec*a*xǔ. |  |
 | `c2-l047` | Naguecayexi, ſu, eita. *Tornar arremeſar.* |  |
 
 ## Printed signature

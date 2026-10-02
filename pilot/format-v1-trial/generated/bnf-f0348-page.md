@@ -17,7 +17,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l001` | Naguecomi,u, ôda. *Lançando meter. Vt,* |  |
 | `c1-l002` | &emsp;ſenninuo ſanzanni tçucamatçuri, yuqino |  |
 | `c1-l003` | &emsp;tçumoritaru anani naguecomi, &c. *1. p.* |  |
-| `c1-l004` | &emsp;Cioſag. *Tratando muito mal ao ſancto o me* |  |
+| `c1-l004` | &emsp;Goſag. T*ratando muito mal ao ſancto o me* |  |
 | `c1-l005` | &emsp;*terão em hũa coua chea de neue.* |  |
 | `c1-l006` | Naguecoxi, ſu, oita. *Arremeſar algũa cou-* |  |
 | `c1-l007` | &emsp;*ſa por cima de outra.* |  |
@@ -32,7 +32,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l016` | &emsp;*ra fora.* |  |
 | `c1-l017` | Nagueidaxi, ſu, aita. *Idem.* |  |
 | `c1-l018` | Nagueno naſaqe. *Amor, & agaſalhado fin-* |  |
-| `c1-l019` | &emsp;*gido, ou feito ſoomente no exterior.* P. |  |
+| `c1-l019` | &emsp;*gido, ou feito ſoomente no exterior. P.* |  |
 | `c1-l020` | Nagueqi, u, eita. *Afligirſe, ou ter grandes* |  |
 | `c1-l022` | &emsp;*cuidados. ¶* Goxǒuo naguequ. *Afli-* |  |
 | `c1-l023` | &emsp;*girſe, & moſtrarſe ſolicito pollas couſas da* |  |
@@ -44,7 +44,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l029` | &emsp;*entristecerſe muito.* |  |
 | `c1-l030` | Naguetçuqe, uru, eta. *Lançando pegar a* |  |
 | `c1-l031` | &emsp;*couſa, ou arremeſar algũa couſa a outra, como* |  |
-| `c1-l032` | &emsp;*barro à parede, &c.* |  |
+| `c1-l032` | &emsp;*barro à parede, &*c*.* |  |
 | `c1-l033` | Naguevchi, tçu, utta. *Lançar algũa couſa.* |  |
 | `c1-l034` | &emsp;*¶ Item, per met. Deixar, ou largar total-* |  |
 | `c1-l035` | &emsp;*mente algũa couſa. Vt,* Deusno gofôcô- |  |
@@ -72,7 +72,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | &emsp;*as ondas. Vt,* Cajega naida. *Encalmou* |  |
+| `c2-l001` | &emsp;*as ondas. Vt,* C*a*jega naida. *Encalmou* |  |
 | `c2-l002` | &emsp;*o vento.* |  |
 | `c2-l003` | Nagui. *Tranquilidade, & ſerenidade do tem-* |  |
 | `c2-l004` | &emsp;*po quando não venta, & eſtà o mar quieto. Vt,* |  |
@@ -83,7 +83,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l009` | &emsp;atarini cocajeuo fucaxete ſarariſararito nai |  |
 | `c2-l010` | &emsp;da. Toſ. *Benquei fazendo vento com a* |  |
 | `c2-l011` | &emsp;*Naguinata por perto dos joelhos com eſtrondo* |  |
-| `c2-l012` | &emsp;*lhe cortara as pernas. ¶* Cuſauo nagu. |  |
+| `c2-l012` | &emsp;*lhe cortaua as pernas. ¶* Cuſauo nagu. |  |
 | `c2-l013` | &emsp;l, ineuo nagu. *Segar erua, ou arroz, &c.* |  |
 | `c2-l014` | &emsp;*deixandoo no campo.* |  |
 | `c2-l015` | Naguifuxe, ſuru, eta. *Cortãdo de reues der-* |  |
@@ -117,7 +117,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l043` | &emsp;to. *Homem que està rico, mas não o parece* |  |
 | `c2-l044` | &emsp;*de fora.* |  |
 | `c2-l045` | Naigacu. Vchimanabu. *Fazer enſayo, ou* |  |
-| `c2-l046` | &emsp;*eſtudo, & exercicio de letras: que ſe faz em* |  |
+| `c2-l046` | &emsp;*eſtudo, & exercicio de letras, que ſe faz em* |  |
 | `c2-l047` | &emsp;*caſa primeiro que ſaya em publico.* |  |
 
 ## Printed catchword

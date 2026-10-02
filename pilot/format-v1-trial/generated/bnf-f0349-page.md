@@ -32,7 +32,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l016` | &emsp;*capella, &c.* |  |
 | `c1-l017` | Nainai. *Interiormẽte, ou em ſecreto. ¶* Nai- |  |
 | `c1-l018` | &emsp;nai mǒxi ireôto zonjita. *Cuidei, ou deſe-* |  |
-| `c1-l019` | &emsp;*jei cõ migo de vos conuidar, &c. ¶* Nai- |  |
+| `c1-l019` | &emsp;*jei cà cõ migo de vos conuidar, &c. ¶* Nai- |  |
 | `c1-l020` | &emsp;naiuo vcagǒ. *Perguntar, ou inquirir o in-* |  |
 | `c1-l021` | &emsp;*terior, ou o que paßa dentro. i, Antes de fa-* |  |
 | `c1-l022` | &emsp;*lar, & tratar em publico, ſaber o interior,* |  |
@@ -99,9 +99,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l019` | &emsp;*Dairi que he hũa das tres peças ricas de Ia-* |  |
 | `c2-l020` | &emsp;*pão, que ſe chamão,* Sanjǔno jingui. |  |
 | `c2-l021` | Naixin. *Coração interior, ou ſecreto.* |  |
-| `c2-l022` | Naixô. *Interior, ou vontade. ¶* Deosno |  |
+| `c2-l022` | Naixô. *Interior, ou vontade. ¶* De*os*no |  |
 | `c2-l023` | &emsp;gonaixǒuo ſomuqu. *Ir contra a vontade,* |  |
-| `c2-l024` | &emsp;*& beneplacito de Deos.* |  |
+| `c2-l024` | &emsp;*& ben*e*placito de Deos.* |  |
 | `c2-l025` | Naiyacu. Vchino cuſuri. *Mezinha que ſe* |  |
 | `c2-l026` | &emsp;*bebe.* |  |
 | `c2-l027` | Naizon. *Cuidar, ou ter pera ſi.* |  |
