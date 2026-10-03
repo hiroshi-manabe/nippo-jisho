@@ -59,7 +59,7 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c1-l030` | &emsp;*Lãçar raizes. ¶* Neuo fucǒ ſuru. *Dei-* |  |
 | `c1-l031` | &emsp;*tar fundas raizes.* |  |
 | `c1-l032` | Ne. *Preço.* Nega tatçu. *Porſe o preço* |  |
-| `c1-l033` | &emsp;*¶* Itono nega tatta. *Abri ſe o preço da* |  |
+| `c1-l033` | &emsp;*¶* Itono nega tatta. *Abrioſe o preço da* |  |
 | `c1-l034` | &emsp;*ſeda, ou deuſe a pancada. ¶* Negatacai. |  |
 | `c1-l035` | &emsp;l, yaſui. *Ser o preço alto, ou baixo.* |  |
 | `c1-l036` | Ne. *Tom, ou ſoido, ou voz de paſſaros.* |  |
@@ -101,7 +101,7 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c2-l015` | &emsp;bagatai fito. *Homem ſeuero de natureza,* |  |
 | `c2-l016` | &emsp;*& brando, ou vagaroſo por outra via.* |  |
 | `c2-l017` | Nebaracaxi, ſu, aita. *Meliùs,* Nebaxi, ſu. |  |
-| `c2-l018` | &emsp;*Fazer basto, & viſcoſo, ou engroſar como* |  |
+| `c2-l018` | &emsp;*Fazer basto, & viſcoſo, ou engroßar como* |  |
 | `c2-l019` | &emsp;*polme, &c.* |  |
 | `c2-l020` | Nebari. *O engroſſarſe couſa liquida, ou rala.* |  |
 | `c2-l021` | &emsp;*Vt,* Nebariga deqita. *Fazerſe großo, ou* |  |
@@ -114,8 +114,8 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c2-l028` | &emsp;*couſa viſcoſa que ſe trata com ellas.* |  |
 | `c2-l029` | Nebaxi, ſu, aita. *Vide,* Nebaracaxi, ſu. |  |
 | `c2-l030` | Nebiye. *O esfriarſe dormindo denoite. ¶* Ne |  |
-| `c2-l031` | &emsp;biye xita. *Es frieime de noite dormindo.* |  |
-| `c2-l032` | Nebôqe, uru, eta. *Não eſtar em ſeu a cordo* |  |
+| `c2-l031` | &emsp;biye xita. *Esfrieime de noite dormindo.* |  |
+| `c2-l032` | Nebôqe, uru, eta. *Não estar em ſeu a cordo* |  |
 | `c2-l033` | &emsp;*toſquenejando.* |  |
 | `c2-l034` | Neburi, u, utta. *Meliùs,* Nemuri, u. *Lãber.* |  |
 | `c2-l035` | Neburitçuqi, u, uita. *Lambendo pegar. Vt,* |  |

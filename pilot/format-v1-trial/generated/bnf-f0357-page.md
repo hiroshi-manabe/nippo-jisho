@@ -60,7 +60,7 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c1-l042` | &emsp;*ordinario.* |  |
 | `c1-l043` | Naxi. *Peras.* |  |
 | `c1-l044` | Naxi, ſu, aita. *Fazer. ¶* Atauo naſu. |  |
-| `c1-l045` | &emsp;*Fazer mal. ¶* Fufuno chiguiri. l, ca- |  |
+| `c1-l045` | &emsp;*Fazer mal. ¶* Fǔfuno chiguiri. l, ca- |  |
 | `c1-l046` | &emsp;taraiuo naſu. *Ter copula matrimonial.* |  |
 | `c1-l047` | &emsp;*¶* Guegiuo naſu. *Mandar como ſenhor* |  |
 
@@ -101,7 +101,7 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c2-l019` | &emsp;*ſeruir entre os Bonzos como deſpenſeiro, &c.* |  |
 | `c2-l020` | Naxxo. *O pagarem os lauradores o rendimẽ-* |  |
 | `c2-l021` | &emsp;*to das terras ao ſenhor. Vt,* Nenguuo nax- |  |
-| `c2-l022` | &emsp;xoſuru. *Idem.* |  |
+| `c2-l022` | &emsp;xoſuru. I*dem.* |  |
 | `c2-l023` | Nayamaxi, u, aita. *Tratar mal, & perſe-* |  |
 | `c2-l024` | &emsp;*guir. ¶* Cocorouo nayamaſu. *Afligir* |  |
 | `c2-l025` | &emsp;*o coração. ¶* Tamiuo nayamaſu. *Opri-* |  |
