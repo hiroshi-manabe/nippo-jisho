@@ -14,7 +14,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | Nariſagari, u, atta. *Tornarſe miſerauel, ou* |  |
+| `c1-l001` | Nariſagari, u, atta. T*ornarſe miſerauel, ou* |  |
 | `c1-l002` | &emsp;*deſcair do eſtado, &c. ¶ Item, Estar a* |  |
 | `c1-l003` | &emsp;*fruita dependurada da aruore. Vt,* Budǒga |  |
 | `c1-l004` | &emsp;nariſagaru. *Eſtarem as vuas dependuradas na* |  |
@@ -32,7 +32,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l016` | &emsp;*da ficou o valle retumbando.* |  |
 | `c1-l017` | Narixidai. *Segundo for poßiuel, ou conforme* |  |
 | `c1-l018` | &emsp;*ao que poder ſer.* |  |
-| `c1-l019` | Nariyuqi, u, uita. *Irſe fazendo. Vt,* Vǒ- |  |
+| `c1-l019` | Nariyuqi, u, uita. *Irſe fazendo. Vt,* Võ- |  |
 | `c1-l020` | &emsp;nagueqi figotoni fucaqu nariyuqiqere- |  |
 | `c1-l021` | &emsp;ba, &c. Taif. *Lib. 18. Indo ſua* |  |
 | `c1-l022` | &emsp;*triſteza fazendoſe mayor cada dia.* |  |
@@ -57,7 +57,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l041` | &emsp;*diz,* Chiguchita fa. |  |
 | `c1-l042` | Naſubizane. *Granſinhos, ou ſemente que està* |  |
 | `c1-l043` | &emsp;*dentro da biringela. ¶* Naſubizaneno |  |
-| `c1-l044` | &emsp;yǒni chaga voruru. *Cair o cha moido da* |  |
+| `c1-l044` | &emsp;yǒni chaga voruru. *Cair o Cha moido da* |  |
 | `c1-l045` | &emsp;*mò à maneira desta ſementeſinha de biringela.* |  |
 | `c1-l046` | Nata. *Podão, ou fouce roçadoura.* |  |
 | `c1-l047` | Natamame. *Certa laya de feijoẽs.* |  |

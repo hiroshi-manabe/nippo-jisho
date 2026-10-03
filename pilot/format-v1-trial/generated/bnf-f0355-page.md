@@ -22,7 +22,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l006` | &emsp;*ma. Vt,* Miua narauaxino mono gia. *O* |  |
 | `c1-l007` | &emsp;*corpo he conforme ao que o custumão.* |  |
 | `c1-l008` | Naraxi. l, caqezauo. *Bambu, ou pao ſobre* |  |
-| `c1-l009` | &emsp;*que ſe poem os vestidos.* X. |  |
+| `c1-l009` | &emsp;*que ſe poem os vestidos. X.* |  |
 | `c1-l010` | Naraxi. *Enſayo como de auto, bailo, &c.* |  |
 | `c1-l011` | Naraxi, ſu, aita. *Aprainar. Vt,* Giuo |  |
 | `c1-l012` | &emsp;naraſu. *¶ Item, Enſayar a dança. Vt,* |  |
@@ -31,7 +31,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l015` | &emsp;naraſu. *Tanger a campainha.* |  |
 | `c1-l016` | Narazzuqe. *Certo achar de Nara que ſe faz* |  |
 | `c1-l017` | &emsp;*em lugar de Conomono.* |  |
-| `c1-l018` | Nare, uru, eta. *Acustumarſe. Querantes* |  |
+| `c1-l018` | Nare, uru, eta. *Acustumarſe. Quer antes* |  |
 | `c1-l019` | &emsp;*de ſi a raiz dos verbos com que ſe ajunta, &* |  |
 | `c1-l020` | &emsp;*então ſignifica ſer acuſtumado a fazer o que ſig-* |  |
 | `c1-l021` | &emsp;*nifica a raiz do verbo. Vt,* Minaruru. *Ser* |  |
@@ -116,9 +116,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l036` | &emsp;*miſerauel.* |  |
 | `c2-l037` | Narifôdai. *Meliùs,* Narixidai. *Segundo* |  |
 | `c2-l038` | &emsp;*for poßiuel, ou cõforme ao que ſe poder fazer.* |  |
-| `c2-l039` | Narigatai. *Couſa difficultoſa de ſer, ou deſe fazer.* |  |
+| `c2-l039` | Narigatai. *Couſa dificultoſa de ſer, ou deſe fazer.* |  |
 | `c2-l040` | Narigane. *O não ſe lograr a fruita ſaindo mur-* |  |
-| `c2-l041` | &emsp;*cha, engelhada, & imperfeita. ¶ Item,* |  |
+| `c2-l041` | &emsp;*cha, engelhada, & imperfeita. ¶* I*tem,* |  |
 | `c2-l042` | &emsp;*permet. Se diz de hũa peßoa que nãoſaye como* |  |
 | `c2-l043` | &emsp;*ſe eſpera, mas fica como aleijada ſem eſpiritos* |  |
 | `c2-l044` | &emsp;*nẽ ſaber, &c. Vt,* Nariganede gozaru. |  |

@@ -42,7 +42,7 @@ Lexical cross-checks used the supplied Entry Words Data of Nippojisho, NINJAL, H
 | `c1-l024` | &emsp;Dairino goten. *Paços reaes.* |  |
 | `c1-l025` | Nando. *Camara em que ſe dorme, & poem al-* |  |
 | `c1-l026` | &emsp;*gum fato, como vestidos, &c.* |  |
-| `c1-l027` | Nandogamaye. *Obra, ou portalmais alto que* |  |
+| `c1-l027` | Nandogamaye. *Obra, ou portal mais alto que* |  |
 | `c1-l028` | &emsp;*ſe faz pera entrar neſta camara de dormir.* |  |
 | `c1-l029` | Nandoqimo. *Em qualquer hora, ou em todo* |  |
 | `c1-l030` | &emsp;*o tempo.* |  |
@@ -93,7 +93,7 @@ Lexical cross-checks used the supplied Entry Words Data of Nippojisho, NINJAL, H
 | `c2-l016` | &emsp;*uo. i, Como estais, ou que vai? ¶* Nani- |  |
 | `c2-l017` | &emsp;gotomo fazzucaxij cotoua gozarumai. |  |
 | `c2-l018` | &emsp;Mon. *Não auera nada de vergonha.* |  |
-| `c2-l019` | Nanigotomo cagotomo. *Tudo, ou qualquercouſa.* |  |
+| `c2-l019` | N*a*nigotomo cagotomo. *Tudo, ou qualquercouſa.* |  |
 | `c2-l020` | Nanji. Cataqi coto. *Couſa perigoſa, ou dif-* |  |
 | `c2-l021` | &emsp;*ficultoſa.* |  |
 | `c2-l022` | Nanji. Cataqi ji. *Letra difficultoſa deſe ler.* |  |
@@ -112,7 +112,7 @@ Lexical cross-checks used the supplied Entry Words Data of Nippojisho, NINJAL, H
 | `c2-l035` | Naninani. *Que couſa?* |  |
 | `c2-l036` | Naninaritomo. *Qualquer couſa que ſeja.* |  |
 | `c2-l037` | Naninicaua. *Que, ou pera que? S. ¶* Na- |  |
-| `c2-l038` | &emsp;ua vqiyono nacani nagareyetomo, nanini |  |
+| `c2-l038` | &emsp;ua vqiyono nacani nagareyetemo, nanini |  |
 | `c2-l039` | &emsp;caua xento. Taif. *Lib. 30. Ainda* |  |
 | `c2-l040` | &emsp;*que agora viua no meo do mundo miſerauel que* |  |
 | `c2-l041` | &emsp;*me aproueitarà?* |  |

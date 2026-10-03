@@ -73,7 +73,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | Naqifore, uru, eta. *Sair fora deſi cõ choro.* |  |
+| `c2-l001` | Naqifore, uru, eta. *Sair fora de ſi cõ choro.* |  |
 | `c2-l002` | Naqifuxi, ſu, uita. *Estar chorando deitado* |  |
 | `c2-l003` | &emsp;*de bruços.* |  |
 | `c2-l004` | Naqigauo. *Roſto choroſo, ou de quem quer* |  |
@@ -82,7 +82,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l007` | Naqimodaye, uru, eta. *Chorando afligirſe,* |  |
 | `c2-l008` | &emsp;*ou moſtrar impaciencia.* |  |
 | `c2-l009` | Naqiſaqebi, u, qeôda. *Chorando gritar.* |  |
-| `c2-l010` | Naqitçubuxi, ſu, uita. *Perder a viſtà pollo mui-* |  |
+| `c2-l010` | Naqitçubuxi, ſu, uita. *Perder a viſta pollo mui-* |  |
 | `c2-l011` | &emsp;*to chorar. Vt,* Manacouo naqitçubuſu. |  |
 | `c2-l012` | &emsp;*Perder os olhos chorando, ou cegar de choro.* |  |
 | `c2-l013` | Naqitçure, uru, eta. *Chorar em companhia* |  |
@@ -107,7 +107,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l032` | &emsp;*ordem, & bem concertada.* |  |
 | `c2-l033` | Narabevoqi, u, oita. *Por por ordem.* |  |
 | `c2-l034` | Narabi. *Parelha. ¶* Narabimo nai coto. |  |
-| `c2-l035` | &emsp;*Couſa ſem igual.* |  *(larſe.* |
+| `c2-l035` | &emsp;*Couſa ſem igual.* |  *(larſe-* |
 | `c2-l036` | Narabi, u, ôda. *Estar por ordem, ou igua-* |  |
 | `c2-l037` | Narabini. *Adu. Apos ißo, ou conſeguinte* |  |
 | `c2-l038` | &emsp;*mente. ¶ Item, Iunto.* Iyeno narabi |  |
