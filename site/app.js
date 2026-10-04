@@ -277,11 +277,14 @@ function saveOverviewPosition() {
   try { sessionStorage.setItem(OVERVIEW_POSITION_KEY, JSON.stringify(overviewPosition)); } catch (_) { /* In-memory restoration still works. */ }
 }
 
-function restoreOverviewPosition() {
-  const saved = overviewPosition;
+function restoreOverviewPosition(targetLeaf = null) {
+  const saved = targetLeaf === null ? overviewPosition : {leaf: String(targetLeaf), offset: 0, scrollY: 0};
   requestAnimationFrame(() => {
     if ($('#overview').classList.contains('hidden')) return;
-    window.scrollTo({top: saved?.scrollY || 0, behavior: 'instant'});
+    const target = targetLeaf !== null && [...document.querySelectorAll('#page-grid .page-card')]
+      .find(card => card.dataset.leaf === saved.leaf);
+    if (target) target.scrollIntoView({block: 'start', behavior: 'instant'});
+    else window.scrollTo({top: saved?.scrollY || 0, behavior: 'instant'});
     requestAnimationFrame(() => {
       if ($('#overview').classList.contains('hidden')) return;
       const anchor = saved?.leaf && [...document.querySelectorAll('#page-grid .page-card')]
@@ -289,12 +292,39 @@ function restoreOverviewPosition() {
       if (anchor) {
         const destination = window.scrollY + anchor.getBoundingClientRect().top - overviewVisibleTop() - saved.offset;
         window.scrollTo({top: Math.max(0, destination), behavior: 'instant'});
+        if (targetLeaf !== null) {
+          anchor.classList.add('overview-target');
+          setTimeout(() => anchor.classList.remove('overview-target'), 1800);
+          saveOverviewPosition();
+        }
       }
     });
   });
 }
 
+function revealOverviewPage(page) {
+  const visible = [...document.querySelectorAll('#page-grid .page-card')]
+    .some(card => card.dataset.leaf === String(page.leaf));
+  if (!visible) {
+    $('#filter').value = 'all';
+    renderGrid();
+  }
+  restoreOverviewPosition(page.leaf);
+}
+
+function jumpToFirstUnreviewedPage() {
+  const page = [...state.corpus.pages].sort((a, b) => a.reading_order - b.reading_order)
+    .find(page => page.processed && (page.ai_checked || page.commentary_review)
+      && !page.corrections.issues_applied && !page.review_blocked
+      && !page.structural_review_required && !page.pending_questions?.length);
+  if (!page) return toast('No AI-reviewed pages without applied Issues are available.');
+  $('#sort').value = 'page';
+  renderGrid();
+  revealOverviewPage(page);
+}
+
 function showOverview(update = true) {
+  const departedPage = state.currentPage;
   saveColumnPosition();
   clearReviewCursor();
   window.NippoPageTimer?.select(null);
@@ -308,7 +338,8 @@ function showOverview(update = true) {
   if (update) history.pushState(null, '', '#overview');
   renderGrid();
   overviewDisplayed = true;
-  restoreOverviewPosition();
+  if (departedPage) revealOverviewPage(departedPage);
+  else restoreOverviewPosition();
 }
 
 function issueCountLabel(page) {
@@ -1657,6 +1688,7 @@ document.addEventListener('submit', event => {
 $('#home').addEventListener('click', () => showOverview());
 $('#back-to-overview').addEventListener('click', () => showOverview());
 $('#filter').addEventListener('change', renderGrid); $('#sort').addEventListener('change', renderGrid);
+$('#jump-first-unreviewed').addEventListener('click', jumpToFirstUnreviewedPage);
 $('#previous').addEventListener('click', () => adjacentPage(-1));
 $('#next').addEventListener('click', () => adjacentPage(1));
 function go() { const leaf = pageKey($('#leaf-input').value.trim()); if (state.byLeaf.has(leaf)) showPage(leaf, state.unit); }
