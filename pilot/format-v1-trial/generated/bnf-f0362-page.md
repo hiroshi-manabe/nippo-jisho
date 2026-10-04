@@ -22,7 +22,7 @@ Lexical checkpoint: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and
 | `c1-l004` | &emsp;domo toqino coyeni vodoroqite, auate |  |
 | `c1-l005` | &emsp;futamequ. Taif. *Lib. 8. Os inimigos es-* |  |
 | `c1-l006` | &emsp;*pertos com medo, & eſpantados com a voz, &* |  |
-| `c1-l007` | &emsp;*grita dos ſoldados reuoluerãoſe, & pertur.* |  |
+| `c1-l007` | &emsp;*grita dos ſoldados reuoluerãoſe, & pertur-* |  |
 | `c1-l008` | &emsp;*barãoſe.* |  *(eſpanto.* |
 | `c1-l009` | Nevodoroqi, u, oita. *Eſpertar do ſono com* |  |
 | `c1-l010` | Nevoqi. *O deitarſe, & aleuantarſe. ¶* Ne- |  |
@@ -30,7 +30,7 @@ Lexical checkpoint: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and
 | `c1-l012` | &emsp;*& aleuantar da cama.* |  |
 | `c1-l013` | Nevcqi, uru, ita. *Aleuantarſe de dormir,* |  |
 | `c1-l014` | &emsp;*ou eſpertar.* |  |
-| `c1-l015` | Nevozomi, u, ôda. *Eſpertar do ſono.* X. |  |
+| `c1-l015` | Nevozomi, u, ôda. *Eſpertar do ſono. X.* |  |
 | `c1-l016` | Neya. *Cubiculo de dormir.* |  |
 | `c1-l017` | Neyanoto. *Porta do cubiculo em queſe dorme.* |  |
 | `c1-l018` | Neyaxi, ſu, aita. *Amoſſar, ou fazer mol-* |  |
@@ -39,7 +39,7 @@ Lexical checkpoint: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and
 | `c1-l021` | &emsp;voxi neyaſu. *Amaſſar, ou embaſteçer hũ* |  |
 | `c1-l022` | &emsp;*certo grude feito de arroz cozido.* |  |
 | `c1-l023` | Nezame. *O eſpertar do ſono. Vt,* Nezame- |  |
-| `c1-l024` | &emsp;uo ſuru. *¶* Voino nez amede yono no- |  |
+| `c1-l024` | &emsp;uo ſuru. *¶* Voino nezamede youo no- |  |
 | `c1-l025` | &emsp;coſu. *Deixar parte da noite ſem dormir, eſper* |  |
 | `c1-l026` | &emsp;*tando de velhice.* |  *(ſono.* |
 | `c1-l027` | Nezamegachi. *O eſpertar muitas vezes do* |  |
@@ -48,7 +48,7 @@ Lexical checkpoint: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and
 | `c1-l030` | Nezumido. *Poſtigo que ſe deixa ſò aberto pera* |  |
 | `c1-l031` | &emsp;*entrar a gente nalgum theatro, &c.* |  |
 | `c1-l032` | Nezumitori. *Ratoeira, ou laçõ de tomar ratos.* |  |
-| `c1-l033` | Nezumivana. *Idem.* X. |  |
+| `c1-l033` | Nezumivana. *Idem. X.* |  |
 | `c1-l034` | Nezumochi. *Aruore aßi chamada.* |  |
 | `c1-l035` | Nezunaqi. *O Fazer certo ſom com aboca ar-* |  |
 | `c1-l036` | &emsp;*remedando o chiar do rato como pera fazer* |  |

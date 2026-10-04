@@ -24,7 +24,7 @@ Lexical cross-check for this three-page review: Entry Words Data of Nippojisho, 
 | `c1-l006` | Nhǔcǒ. *Incenſo.* |  |
 | `c1-l007` | Nhǔcocu. Cunini iru. *Entrar a primeira vez* |  |
 | `c1-l008` | &emsp;*no reino depois de tomado, ou conquiſtado,* |  |
-| `c1-l009` | &emsp;*ou dado po lo ſenhor da Tenca, &c.* |  |
+| `c1-l009` | &emsp;*ou dado pollo ſenhor da Tenca, &c.* |  |
 | `c1-l010` | Nhǔdǒ. Dǒni iru. *Rapado. ¶* Nhǔ- |  |
 | `c1-l011` | &emsp;dǒ ſuru. *Fazerſe rapado.* |  |
 | `c1-l012` | Nhǔdǒ. Dǒye iru. *Entrar na Tera pera fa-* |  |
@@ -41,7 +41,7 @@ Lexical cross-check for this three-page review: Entry Words Data of Nippojisho, 
 | `c1-l023` | Nhǔnanna. *Couſa de manſidão. ¶* Nhǔ- |  |
 | `c1-l024` | &emsp;nanna fito. *Homem manſo, & brando.* |  |
 | `c1-l025` | Nhǔtçu. Minatoye iru. *Entrar no porto. Vt,* |  |
-| `c1-l026` | &emsp;Nhùtçu tçucamatçuru. |  |
+| `c1-l026` | &emsp;Nhǔtçu tçucamatçuru. |  |
 | `c1-l027` | Nhǔua. Yauaraca yauaraca. *Manſidão.* |  |
 | `c1-l028` | &emsp;*¶* Nhǔua ninnicuno fito. *Homem mã-* |  |
 | `c1-l029` | &emsp;*ſo, & paciente.* |  |

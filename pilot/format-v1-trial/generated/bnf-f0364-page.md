@@ -55,7 +55,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l039` | Nidobuqi. *Laya de prata que he duas vezes* |  |
 | `c1-l040` | Nifon. *Iapão.* |  |
 | `c1-l041` | Nifongui. *Liuro em que estão eſcritas as cou-* |  |
-| `c1-l042` | &emsp;*ſas de Iapão deſde que ſe começou ate idade dos* |  |
+| `c1-l042` | &emsp;*ſas de Iapão deſde que ſe começou atè idade dos* |  |
 | `c1-l043` | &emsp;*Reis, & deſdos Reis atè agora. ¶ Item,* |  |
 | `c1-l044` | &emsp;*Custume, ou leis que correm em Iapão.* |  |
 | `c1-l045` | Nigai. *Couſa amargoſa.* |  |
@@ -98,14 +98,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l024` | &emsp;*nho, &c.* |  |
 | `c2-l025` | Nigori, u, otta. *Eſtar turua a agoa, ou vinho.* |  |
 | `c2-l026` | Nigori. *O eſtar a agoa turua, ou enlodada.* |  |
-| `c2-l027` | &emsp;*¶ Permet.* Togano nigorini ſômu. *Macu-* |  |
+| `c2-l027` | &emsp;*¶ Permet.* Togano nigorini ſomu. *Macu-* |  |
 | `c2-l028` | &emsp;*larſe cõ peccado.* |  |
 | `c2-l029` | Nigorizaqe. *Vinho brãco como turuo de Iapão.* |  |
 | `c2-l030` | Nigoxi, ſu, oita. *Turuar, ou fazer turuo.* |  |
 | `c2-l031` | Nigue, uru, eta. *Fugir. Vt,* Torumo- |  |
 | `c2-l032` | &emsp;nomo toriayezu, mina cachi fadaxinite |  |
 | `c2-l033` | &emsp;yamaye nigueagaru. Chr. N. *Lib.* |  |
-| `c2-l034` | &emsp;*4. Sem podertomar nada com preßa descal-* |  |
+| `c2-l034` | &emsp;*4. Sem poder tomar nada com preßa descal-* |  |
 | `c2-l035` | &emsp;*ços, & a pee ſe acolherão aos montes.* |  |
 | `c2-l036` | Niguecacure, uru, eta. *Fugindo eſconderſe.* |  |
 | `c2-l037` | Niguechiri, ru, itta. *Fugir eſpalhandoſe, ou* |  |
@@ -117,7 +117,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l043` | Niguecuzzuxi, ſu, uita. *Fugir com preßa* |  |
 | `c2-l044` | &emsp;*deſordenandoſe, & desbaratandoſe. Vt,* |  |
 | `c2-l045` | &emsp;Cajeni conofano chiru yǒni muramura |  |
-| `c2-l046` | &emsp;batto niguecuzzuita. Tac. *Como folhas* |  |
+| `c2-l046` | &emsp;batto niguecuzzuita. *T*ac. *Como folhas* |  |
 | `c2-l047` | &emsp;*que leua o vento todas as pouoações ſe derão à-* |  |
 
 ## Printed catchword
