@@ -44,7 +44,7 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c1-l026` | Nefan. *Morte de Xaca. ¶* Nefanni iru. |  |
 | `c1-l027` | &emsp;*Morrer Xaca.* |  |
 | `c1-l028` | Nefanguiǒ. *Liuro que Xaca explicou prègãdo.* |  |
-| `c1-l029` | Negai, ǒ, ǒta. *Deſeiar. ¶* Goxǒuo ne- |  |
+| `c1-l029` | Negai, ǒ, ǒta. *Deſejar. ¶* Goxǒuo ne- |  |
 | `c1-l030` | &emsp;gǒ. *Deſejar a ſaluação.* |  |
 | `c1-l031` | Negai. *Deſejo.* |  |
 | `c1-l032` | Negauacuua. *Oxala, ou prouuera a Deos.* |  |
@@ -56,13 +56,13 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c1-l038` | &emsp;*¶* Fitouo neguiru. X*. Reſgalar os o-* |  |
 | `c1-l039` | &emsp;*lhos a alguem como quem o reprehende.* |  |
 | `c1-l040` | Neguiua. *Iunto da raiz da aruore, ou bambu.* |  |
-| `c1-l041` | Negoi. l, negoi fito. *Peſoa que dorme* |  |
+| `c1-l041` | Negoi. l, negoi fito. *Peßoa que dorme* |  |
 | `c1-l042` | &emsp;*muito.* |  |
 | `c1-l043` | Negoto. *O falar em ſonhos. Vt,* Negotouo |  |
 | `c1-l044` | &emsp;yǔ. *Falar dormindo.* |  |
 | `c1-l045` | Negoye. *Fala, ou voz do que està acordado* |  |
 | `c1-l046` | &emsp;*ha pouco do ſono.* |  |
-| `c1-l047` | Negura. *Lugar onde dormem as aues.* P |  |
+| `c1-l047` | Negura. *Lugar onde dormem as aues. P* |  |
 
 ## Column 2 running header
 
@@ -80,7 +80,7 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | Negutaregami. P. *Cabelos, que ficão mal* |  |
+| `c2-l001` | Negutaregami. *P. Cabelos, que ficão mal* |  |
 | `c2-l002` | &emsp;*concertados depois de dormir.* |  |
 | `c2-l003` | Negi, zzuru, ita. *Torcer, ou torcerſe algũa* |  |
 | `c2-l004` | &emsp;*couſa. ¶* Faxiraga negita. *Entortouſe,* |  |

@@ -36,7 +36,7 @@ Lexical checkpoint: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and
 | `c1-l018` | Nensǒ. *Figura, ou repreſentação de couſas que* |  |
 | `c1-l019` | &emsp;*ſe imaginão.* Bup. |  |
 | `c1-l020` | Nenrô. i, Toxino fajime. *Principio do an-* |  |
-| `c1-l021` | &emsp;*no. Vt,* Nenrôno guioqei. i, *Bõs annos,* |  |
+| `c1-l021` | &emsp;*no. Vt,* Nenrôno guioqei. *i*, *Bõs annos,* |  |
 | `c1-l022` | &emsp;*boas festas.* |  |
 | `c1-l023` | Nenxi. Toxino fajime. *Principio do anno.* |  |
 | `c1-l024` | Nenxô. l, xôneu. *Minino tè idade de* 10. |  |
@@ -47,14 +47,14 @@ Lexical checkpoint: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and
 | `c1-l029` | &emsp;Toriuo nerǒ. *Apontar pera a tirar ao paſ* |  |
 | `c1-l030` | &emsp;*ſaro. ¶* Fitouo nerǒ. *Apontar a alguẽ* |  |
 | `c1-l031` | &emsp;*pera o matar, ou andar eſpreitando, & buſcã-* |  |
-| `c1-l032` | &emsp;*do enſejo pera matar a alguem. ¶* Fumauo |  |
+| `c1-l032` | &emsp;*do enſejo pera matar a alguem. ¶* Fimauo |  |
 | `c1-l033` | &emsp;nerǒ. *Buſcar enſejo.* |  |
 | `c1-l034` | Nera imauari, u, atta. *Eſpreitar rodeando.* |  |
 | `c1-l035` | Nere, uru, eta. *Eſtar a eſpada torta. Vt,* |  |
-| `c1-l036` | &emsp;Catanaga nereta. *¶* Qiga nereta. *Esta* |  |
+| `c1-l036` | &emsp;Catanaga nereta. *¶* Qiga nereta. *Està* |  |
 | `c1-l037` | &emsp;*o pao torto.* |  |
 | `c1-l038` | Nere, uru, eta. *Engroßarſe como polme, ou* |  |
-| `c1-l039` | &emsp;*outrà couſa que ſe coze ao fogo. ¶* Itoga |  |
+| `c1-l039` | &emsp;*outra couſa que ſe coze ao fogo. ¶* Itoga |  |
 | `c1-l040` | &emsp;nereta. *Eſtar a ſeda branda, & forte depo-* |  |
 | `c1-l041` | &emsp;*is de cozida, ou batida. ¶ Per met.* |  |
 | `c1-l042` | &emsp;Nereta fito. *Homem maduro, & aßentado,* |  |
@@ -62,7 +62,7 @@ Lexical checkpoint: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and
 | `c1-l044` | Neri, u, etta. *Engroßar, ou fazer basta al-* |  |
 | `c1-l045` | &emsp;*gũa couſa como polme, &c. ao fogo. ¶* Ito- |  |
 | `c1-l046` | &emsp;uo neru. *Cozer a ſeda. ¶* Caneuo ne- |  |
-| `c1-l047` | &emsp;ri qitǒ. *Bater bem, & caldear no fogo fer* |  |
+| `c1-l047` | &emsp;ri qitǒ. *Bater bem, & caldear no fogo fer-* |  |
 | `c1-l048` | &emsp;*ro, metal, &c.* |  |
 
 ## Column 2 running header
@@ -88,7 +88,7 @@ Lexical checkpoint: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and
 | `c2-l005` | &emsp;*ça branca.* |  |
 | `c2-l006` | Nerifibari. *Calhandra no tempo que muda as* |  |
 | `c2-l007` | &emsp;*penas que he no tempo do estio.* |  |
-| `c2-l008` | Nerigaqi. *Figos de Iapão cozidos, ou tempe-* |  |
+| `c2-l008` | N*e*rigaqi. *Figos de Iapão cozidos, ou tempe-* |  |
 | `c2-l009` | &emsp;*rados na agoa quente pera que não trauem. No* |  |
 | `c2-l010` | &emsp;*Cami,* Auaxigaqi. |  |
 | `c2-l011` | Neriguri. *Seda branda, & cozida.* |  |
@@ -104,7 +104,7 @@ Lexical checkpoint: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and
 | `c2-l021` | &emsp;l, tçuquru. *Dar fio ſeco pera cortar derepen-* |  |
 | `c2-l022` | &emsp;*te, ou de preßa.* |  |
 | `c2-l023` | Netamagari, u, atta. *Epertar com medo, ou* |  |
-| `c2-l024` | &emsp;*eſpanto.* X. |  |
+| `c2-l024` | &emsp;*eſpanto. X.* |  |
 | `c2-l025` | Netami, u, ǒda. *Ter enueja, ou emulação.* |  |
 | `c2-l026` | Netami. *Emulação, ou enueja.* |  |
 | `c2-l027` | Netbiǒ. i, Netqino vazzurai. *Doença de* |  |

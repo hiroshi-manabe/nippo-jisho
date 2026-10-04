@@ -47,7 +47,7 @@ Lexical checkpoint: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and
 | `c1-l029` | &emsp;*tra ilharga.* |  |
 | `c1-l030` | Nenaxi cazzura. *Certa laya de era.* |  |
 | `c1-l031` | Nenaxiya. *Seta ſem cabeça nem ferro. ¶ Per* |  |
-| `c1-l032` | &emsp;*met.* Nenaxiyauo motte mairu. *Trazer* |  |
+| `c1-l032` | &emsp;*met.* Nenaxiyauo motte mairu. T*razer* |  |
 | `c1-l033` | &emsp;*arma pera ferir, ou fazer pouco mal, & não* |  |
 | `c1-l034` | &emsp;*pera matar.* |  |
 | `c1-l035` | Nenbut. Fotoqeuo nenzuru. *Chamar, ou* |  |
@@ -61,7 +61,7 @@ Lexical checkpoint: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and
 | `c1-l043` | &emsp;*couſas que acontecem em cada era, que em Ia* |  |
 | `c1-l044` | &emsp;*pão ſe varia à võtade dos q̃ gouernão a Tẽca.* |  |
 | `c1-l045` | Nene. *Molher como ama, que cria, & traz* |  |
-| `c1-l046` | &emsp;*nos braços a criança ordinariamente.* X. |  |
+| `c1-l046` | &emsp;*nos braços a criança ordinariamente. X.* |  |
 | `c1-l047` | Nengiǔ. Toxinovchi. *Entre anno, ou todo* |  |
 
 ## Column 2 running header
@@ -76,7 +76,7 @@ Lexical checkpoint: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and
 | --- | --- | --- |
 | `c2-l001` | &emsp;*este anno. Vt,* Nengiǔ yamicuraita. |  |
 | `c2-l002` | &emsp;*Paßei todo este anno doente.* |  |
-| `c2-l003` | Nengǒ. *Era, nome geral das Eras que em* |  |
+| `c2-l003` | Nengǒ. *Era, nome gèral das Eras que em* |  |
 | `c2-l004` | &emsp;*Iapão ſe varião muitas vezes.* |  |
 | `c2-l005` | Nengoro. *Agaſalhado, caricias, &c.* |  |
 | `c2-l006` | Nengorona. *Peßoa q̃ faz muitos agaſalhados,* |  |
