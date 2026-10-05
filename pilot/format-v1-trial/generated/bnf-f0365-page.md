@@ -37,7 +37,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l021` | Nigueſari, u, atta. *Fugindo acolherſe, ou* |  |
 | `c1-l022` | &emsp;*apartarſe.* |  |
 | `c1-l023` | Nigue vxe, ſuru, eta. *Tugindo deſaparecer.* |  |
-| `c1-l024` | Nigui. i, Tenchi. *Ceo, & terra. ¶* Ni- |  |
+| `c1-l024` | Nigui. *i*, Tenchi. *Ceo, & terra. ¶* Ni- |  |
 | `c1-l025` | &emsp;gui caifiacu. *Deſda criação do mundo. S.* |  |
 | `c1-l026` | Niguiniguito. *Adu. Com apparato de gẽ-* |  |
 | `c1-l027` | &emsp;*te, & festa, &c. Vt,* Qenaimo nigui- |  |
@@ -79,7 +79,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | Nigin. Mimino chiri. *Ciſco, ou pò dos ou-* |  |
+| `c2-l001` | Nigin. Mimino c*h*iri. *Ciſco, ou pò dos ou-* |  |
 | `c2-l002` | &emsp;*uidos. ¶ Per met.* Niginuo farǒte qiqu. |  |
 | `c2-l003` | &emsp;*Ouuir atentamente. S.* |  |
 | `c2-l004` | Niji. *Arco do ceo. ¶* Nijiga tatçu. *Fazer-* |  |
@@ -88,7 +88,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l007` | Nijigata. *Feição de arco do ceo. Vt,* Mado |  |
 | `c2-l008` | &emsp;uo nijigatani aquru. *Abrir janella à fei-* |  |
 | `c2-l009` | &emsp;*ção de arco do ceo.* |  |
-| `c2-l010` | Nijiri, u, itta. *Irſeroçando pollo chão.* |  |
+| `c2-l010` | Nijiri, u, itta. I*rſe roçando pollo chão.* |  |
 | `c2-l011` | Nijiriyori, u, otta. *Irſe chegando roçandoſe* |  |
 | `c2-l012` | &emsp;*pollo chão.* |  |
 | `c2-l013` | Nijiruxi. *Sinal, ou diuiſa que ſe pinta ſobre* |  |
@@ -123,9 +123,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l042` | Ninchi. i, Fitono chiye. *Saber humano.* |  |
 | `c2-l043` | &emsp;*¶* Ninchi tenſainimo voyobanu. *Não* |  |
 | `c2-l044` | &emsp;*chegar, ou abrãger o ſaber humano, nẽ celestial.* |  |
-| `c2-l045` | Ninchicu. i, Ninguento, chicuxǒ. *Home* |  |
+| `c2-l045` | Ninchicu. i, Ninguento, chicuxǒ. *Homẽ* |  |
 | `c2-l046` | &emsp;*& animal.* |  |
-| `c2-l047` | Nindẽ. i, Ninguẽto, tẽnin. *Homẽ, & Anio* |  |
+| `c2-l047` | Nindẽ. i, Ninguẽto, tẽnin. *Homẽ, & Anio.* |  |
 
 ## Printed signature
 

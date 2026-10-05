@@ -83,7 +83,7 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | `c2-l007` | &emsp;*to como mariola, &c.* |  |
 | `c2-l008` | Nintai. Fitono tai. *Suſtancia, ou corpo huma-* |  |
 | `c2-l009` | &emsp;*no. ¶ Item, Peßoa nobre, ou afidalgada.* |  |
-| `c2-l010` | &emsp;X. *No cami ſe diz,* Iintai. |  |
+| `c2-l010` | &emsp;*X. No cami ſe diz,* Iintai. |  |
 | `c2-l011` | Ninuǒ. *Rey dos homẽs. ¶ Item, Pri-* |  |
 | `c2-l012` | &emsp;*meiro Rey de Iapão.* |  |
 | `c2-l013` | Ninuxi. *Dono do fato.* |  |
@@ -101,7 +101,7 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | `c2-l025` | Nirami, u, ǒda. *Olhar com os olhos fitos, &* |  |
 | `c2-l026` | &emsp;*reſgalados. Vt,* Benqei Togaxiuo chǒ- |  |
 | `c2-l027` | &emsp;do nirǒde, nanitaru yaxin chǒbonno mo |  |
-| `c2-l028` | &emsp;nono mexicomeraruruzo. Tog. *Olhã-* |  |
+| `c2-l028` | &emsp;nouo mexicomeraruruzo. Tog. *Olhã-* |  |
 | `c2-l029` | &emsp;*do Benquei com os olhos reſgalados aquelle homẽ* |  |
 | `c2-l030` | &emsp;*lhe diße que cabeça, ou capitão de trèdos pren-* |  |
 | `c2-l031` | &emsp;*deis?* |  |
@@ -110,11 +110,11 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | `c2-l034` | Nire. l, Nireno qi. *Aruore aßi chamada.* |  |
 | `c2-l035` | Niſǒ. Futatçuno catachi. *Interior, & ex-* |  |
 | `c2-l036` | &emsp;*terior. Vt,* Niſǒuo ſatoru. i, Vomote- |  |
-| `c2-l037` | &emsp;muqiuo mite miyoru tocorouo xiru. |  |
+| `c2-l037` | &emsp;muqiuo mite miyenu tocorouo xiru. |  |
 | `c2-l038` | &emsp;*Pollo exterior adiuinhar, & ſaber o interior.* |  |
 | `c2-l039` | Niſocu. *Aues. ¶* Xiſocu, niſocuuo xo- |  |
 | `c2-l040` | &emsp;cuſuru. *Comer carne de aues, & animaes.* |  |
-| `c2-l041` | N ſsan. i, Fimairi. *Ir cada dia à Tera, ou di-* |  |
+| `c2-l041` | Niſsan. i, Fimairi. *Ir cada dia à Tera, ou di-* |  |
 | `c2-l042` | &emsp;*ante do ſenhor.* |  |
 | `c2-l043` | Nite. *Propoſição de Ablatiuo. ¶ Itẽ, Par-* |  |
 | `c2-l044` | &emsp;*ticula que com outras ſignifica ſendo. Vt,* Yo- |  |
