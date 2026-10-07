@@ -100,7 +100,7 @@ Review reference: Entry Words Data of Nippojisho, National Institute for Japanes
 | `c2-l024` | Noqigueta. *Pao que atraueſa de baixo da bor-* |  |
 | `c2-l025` | &emsp;*da do telhado.* |  |
 | `c2-l026` | Noqiguchi. *Beiras do telhado.* |  |
-| `c2-l027` | Nora. i, Nobara. *Campo.* P. |  |
+| `c2-l027` | Nora. i, Nobara. *Campo. P.* |  |
 | `c2-l028` | Nǒran. Nayami, midaruru. *Perturbação,* |  |
 | `c2-l029` | &emsp;*ou inquietação cauſada dalgũa dor, ou tra-* |  |
 | `c2-l030` | &emsp;*balho.* |  |

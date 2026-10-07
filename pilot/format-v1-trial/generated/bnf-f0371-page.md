@@ -18,7 +18,7 @@ Review reference: Entry Words Data of Nippojisho, National Institute for Japanes
 | --- | --- | --- |
 | `c1-l001` | &emsp;noru. *Caualgar. ¶* Vmauo noru. *An-* |  |
 | `c1-l002` | &emsp;*dar a caualo. ¶* Funeni noru. *Embar-* |  |
-| `c1-l003` | &emsp;*carſe. ¶* Coxi, l, curum. ni noru. *An-* |  |
+| `c1-l003` | &emsp;*carſe. ¶* Coxi, l, curumani noru. *An-* |  |
 | `c1-l004` | &emsp;*dar em Coxi, ou carro.* |  |
 | `c1-l005` | Nori, u, otta. *Vt.* Catanaga noru. *En-* |  |
 | `c1-l006` | &emsp;*tortarſe a Catana.* |  |
@@ -56,13 +56,13 @@ Review reference: Entry Words Data of Nippojisho, National Institute for Japanes
 | `c1-l038` | Noricaye, uru, eta. *Trocar o caualo, ou a* |  |
 | `c1-l039` | &emsp;*embarcação paßandoſe de hũa a outra.* |  |
 | `c1-l040` | Norichigaye, uru, eta. *Deſencontrarſe na em* |  |
-| `c1-l041` | &emsp;*barcação paßando hũa polla outra, ou a caua-* |  |
+| `c1-l041` | &emsp;*barcação paßando hũa polla outra, ou a eaua-* |  |
 | `c1-l042` | &emsp;*lo, &c.* |  |
 | `c1-l043` | Noricoroxi, ſu, oita. *Matar o caualo corrẽ-* |  |
 | `c1-l044` | &emsp;*doo, ou canſandoo muito.* |  |
 | `c1-l045` | Noricoxi, ſu, oita. *Paßar por cima a caualo* |  |
 | `c1-l046` | &emsp;*&c. Vt,* Cono fitobitoua vſudeuomo |  |
-| `c1-l047` | &emsp;vcuaide, cauauo icanimo xizzucani nori- |  |
+| `c1-l047` | &emsp;vouaide, cauauo icanimo xizzucani nori- |  |
 
 ## Column 2 running header
 
@@ -87,7 +87,7 @@ Review reference: Entry Words Data of Nippojisho, National Institute for Japanes
 | `c2-l005` | Noricoye, uru, eta. *Paßar por cima dalgũa* |  |
 | `c2-l006` | &emsp;*couſa a pè.* |  |
 | `c2-l007` | Noricuchi. *Vt,* Noricuchino yoi, l, varui |  |
-| `c2-l008` | &emsp;vma. *Caualo bom, ou mao do freo.* B. |  |
+| `c2-l008` | &emsp;vma. *Caualo bom, ou mao do freo. B.* |  |
 | `c2-l009` | &emsp;*Meliùs,* Cuchino yoi, l, varui vma. |  |
 | `c2-l010` | Noricuzzuxi, ſu, uita. *Vt,* Xirouo no- |  |
 | `c2-l011` | &emsp;ricuzzuſu. *Subindo à fortaleza por força* |  |
@@ -104,9 +104,9 @@ Review reference: Entry Words Data of Nippojisho, National Institute for Japanes
 | `c2-l022` | Norigocoro. *Vt,* Norigocorono yoi, l, varui |  |
 | `c2-l023` | &emsp;vma. *Caualo bom, ou mao pera caualgar, &* |  |
 | `c2-l024` | &emsp;*menear pera qualquer parte.* |  |
-| `c2-l025` | Noridaxi, ſu, aita. *Embarcandoſe deitar a* |  |
+| `c2-l025` | Noriidaxi, ſu, aita. *Embarcandoſe deitar a* |  |
 | `c2-l026` | &emsp;*embarcação, ou faze la ſair. Vt,* Funeuo |  |
-| `c2-l027` | &emsp;noridaſu. *¶* Vmauo noridaſu. *Ca-* |  |
+| `c2-l027` | &emsp;noriidaſu. *¶* Vmauo noriidaſu. *Ca-* |  |
 | `c2-l028` | &emsp;*ualgando ſair com o caualo.* |  |
 | `c2-l029` | Noriire, uru, eta. *Meter o caualeiro o caua-* |  |
 | `c2-l030` | &emsp;*lo por algũa parte, a embarcação, &c.* |  |
