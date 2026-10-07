@@ -16,8 +16,8 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | Nitonito. *Adu. Modo de pegar algũacouſa* |  |
-| `c1-l002` | &emsp;*molle, & viſcoſa. Vt,* Nito nito ſuru. |  |
+| `c1-l001` | Nitonito. *Adu. Modo de pegar algũa couſa* |  |
+| `c1-l002` | &emsp;*molle, & viſcoſa. Vt,* Nitonito ſuru. |  |
 | `c1-l003` | Nitten. *Vt,* Nittenji. *Sol, falando com re-* |  |
 | `c1-l004` | &emsp;*uerencia. Como cuſtumão os gentios, tendo que* |  |
 | `c1-l005` | &emsp;*o ſol he* Fotoque. |  |
@@ -97,7 +97,7 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | `c2-l015` | Nixi. *Poente.* |  |
 | `c2-l016` | Nixi. *Certo genero de mariſco, como buzeos.* |  |
 | `c2-l017` | Nixigara. *Caſca deste mariſco.* |  |
-| `c2-l018` | Niximuqi. *Pera a partedo Poente. Vt,* Ni- |  |
+| `c2-l018` | Niximuqi. *Pera a parte do Poente. Vt,* Ni- |  |
 | `c2-l019` | &emsp;ximuqini nauoru. *Virarſe, ou mudarſe* |  |
 | `c2-l020` | &emsp;*pera a parte do Occidente.* |  |
 | `c2-l021` | Nixin. Futavoya. *Pay, & mãy.* |  |
@@ -115,11 +115,11 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | `c2-l033` | &emsp;ru. *Eclypſarſe o ſol.* |  |
 | `c2-l034` | Nixxoſa. Mainichino xoſa. *Obras de ca-* |  |
 | `c2-l035` | &emsp;*da dia.* |  |
-| `c2-l036` | Nixxu. Ficazu. *Numero dos dias. ¶* Nixxu- |  |
+| `c2-l036` | Nixxu. *F*icazu. *Numero dos dias. ¶* Nixxu- |  |
 | `c2-l037` | &emsp;uo ſaſu, l. fadamuru. *Determinar certos dias.* |  |
 | `c2-l038` | Nixxuno mono. *Hũa laya de nacida, ou in-* |  |
 | `c2-l039` | &emsp;*chaço pequeno muito perigoſo.* |  |
-| `c2-l040` | Niyaxi, ſu, aita. *Fazer feruer, ou cozer ao* |  |
+| `c2-l040` | Niyax*i*, ſu, aita. *Fazer feruer, ou cozer ao* |  |
 | `c2-l041` | &emsp;*fogo. ¶ Per met.* Xinyuo niyaſu. *En-* |  |
 | `c2-l042` | &emsp;*colorizarſe.* |  |
 | `c2-l043` | Niye, uru, eta. *Cozerſe no fogo. ¶ Itẽ,* |  |

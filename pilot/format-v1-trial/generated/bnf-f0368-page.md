@@ -50,7 +50,7 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | `c1-l021` | Nobaxi, ſu, aita. *Eſtender, ou dilatar.* |  |
 | `c1-l022` | &emsp;*¶* Qiuo nobaſu, *per met. Deſaba-* |  |
 | `c1-l023` | &emsp;*far, & dilatar o coração. Vt,* Qiuo nobasǒ |  |
-| `c1-l024` | &emsp;tote ſuzumidocoroyeagatta. Mon *Subio ao* |  |
+| `c1-l024` | &emsp;tote ſuzumidocoroye agatta. Mon *Subio ao* |  |
 | `c1-l025` | &emsp;*lugar freſco da viração pera eſparecer. ¶* Fi- |  |
 | `c1-l026` | &emsp;touo nobaſu: *Sed meliùs,* Tenobaxini ſu |  |
 | `c1-l027` | &emsp;ru. *Fazer eſcapar, ou fugir a alguem.* |  |
@@ -105,7 +105,7 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | `c2-l020` | &emsp;&c. Taif. *Lib. 3. Deitando mão à* |  |
 | `c2-l021` | &emsp;*parede da cerca fizerão por ſubir, & paßar to-* |  |
 | `c2-l022` | &emsp;*dos de hũa vez.* |  |
-| `c2-l023` | Noboricudari. *O ſubir, & decer. Vt,* No- |  |
+| `c2-l023` | Noboricuda*r*i. *O ſubir, & decer. Vt,* No- |  |
 | `c2-l024` | &emsp;bori cudariuo ſuru. |  |
 | `c2-l025` | Noborifaxi. *Eſcada pera ſubir.* |  |
 | `c2-l026` | Noboriſaca. *Subida, ou ladeira a cima.* |  |
