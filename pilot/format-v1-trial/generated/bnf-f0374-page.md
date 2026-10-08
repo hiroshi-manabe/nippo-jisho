@@ -40,7 +40,7 @@ Lexical review aid: NINJAL, Hideyuki Ohshima and Taichi Aida, [Entry Words Data 
 | `c1-l022` | &emsp;*& nedea.* |  |
 | `c1-l023` | Numarito. *V,* Num arito xite, l, numeri- |  |
 | `c1-l024` | &emsp;to xite. *Adu. Idem.* |  |
-| `c1-l025` | Nume. *Peça, ouſeda tecida de hũa ſoo cor ſem* |  |
+| `c1-l025` | Nume. *Peça, ou ſeda tecida de hũa ſoo cor ſem* |  |
 | `c1-l026` | &emsp;*lauores nem listras.* |  |
 | `c1-l027` | Numeracaxi, ſu, aita. *Fazer eſcorregar.* |  |
 | `c1-l028` | Numeri, u, etta. *Meliùs,* Suberi, u. *Eſ-* |  |
@@ -98,7 +98,7 @@ Lexical review aid: NINJAL, Hideyuki Ohshima and Taichi Aida, [Entry Words Data 
 | `c2-l022` | &emsp;qu. *Tirar o pee como da neue, ou lama,* |  |
 | `c2-l023` | &emsp;*&c. onde atolou. Vt,* Yuqini muneno a- |  |
 | `c2-l024` | &emsp;tarimade vochijtte axiuo nucanto ſure- |  |
-| `c2-l025` | &emsp;domo canauazu. id. *Lib. 18. Acaruando-* |  |
+| `c2-l025` | &emsp;domo canauazu. Id. *Lib. 18. Acaruando-* |  |
 | `c2-l026` | &emsp;*ſe na neue tè os peitos poſto que fazia por ar-* |  |
 | `c2-l027` | &emsp;*rancar os pees não podia.* |  |
 | `c2-l028` | Nuqi, qu, uita. *Enganar.* |  |

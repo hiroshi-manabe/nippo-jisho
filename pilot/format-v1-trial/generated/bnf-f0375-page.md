@@ -23,7 +23,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l007` | &emsp;*ſinalarſe em fazer ſeruiços ao ſenhor. ¶* Gũ- |  |
 | `c1-l008` | &emsp;chǔuo nuqinzzuru. *Aſinalarſe, ou auen-* |  |
 | `c1-l009` | &emsp;*tajarſe aos outros no ſeruiço da guera.* |  |
-| `c1-l010` | Nuqiſaxi, ſu, aita. *Tirar, & meter como* |  |
+| `c1-l010` | Nuqiſaxi, ſu, aita. T*irar, & meter como* |  |
 | `c1-l011` | &emsp;*tranca de porta, &c. ou arrancar, & em-* |  |
 | `c1-l012` | &emsp;*bainhar eſpada, &c.* |  |
 | `c1-l013` | Nuqiſobame, uru, eta. *Leuar junto de ſi, ou* |  |
@@ -36,7 +36,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l020` | Nuqitçure, uru, eta. *Arrancarem todos jũ-* |  |
 | `c1-l021` | &emsp;*tos. ¶* Toqiuo dotto tçucutte cutçu- |  |
 | `c1-l022` | &emsp;bamiuo narabe nuqitçurete, vomeite co- |  |
-| `c1-l023` | &emsp;ſô cacariqere. Tai. *Lib. 14. Dando ſi-* |  |
+| `c1-l023` | &emsp;ſo cacariqere. Tai. *Lib. 14. Dando ſi-* |  |
 | `c1-l024` | &emsp;*nal de arremeter vnindo, ou igualando os ca-* |  |
 | `c1-l025` | &emsp;*ualos, & arrancando juntamente arremeterão* |  |
 | `c1-l026` | &emsp;*com alarido.* |  |
@@ -90,7 +90,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l010` | &emsp;nezumino yǒni natta. *Eſtaua como hum* |  |
 | `c2-l011` | &emsp;*rato molhado, &c.* |  |
 | `c2-l012` | Nureſagui. *Boninas aßi chamadas.* |  |
-| `c2-l013` | Nuretouori, u, otta. *Molharſe atèa carne.* |  |
+| `c2-l013` | Nuretouori, u, otta. *Molharſe atè a carne.* |  |
 | `c2-l014` | &emsp;*Vt,* Fadamade nuretouoru. |  |
 | `c2-l015` | Nuri, u, utta. *Vntar, ou charoar, &c.* |  |
 | `c2-l016` | &emsp;*¶* Cabeuo nuru. *Barrar a parede. ¶* V- |  |

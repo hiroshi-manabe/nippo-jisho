@@ -95,11 +95,11 @@ Lexical review aid: NINJAL, Hideyuki Ohshima and Taichi Aida, [Entry Words Data 
 | `c2-l003` | &emsp;*zer, ou falar as couſas a ſeu tempo.* |  |
 | `c2-l004` | Nucari, u, atta. *Ser traſpißado de parte aparte* |  |
 | `c2-l005` | &emsp;*cõ eſpada, lança, &c. Vt,* Yarini nucatta. |  |
-| `c2-l006` | &emsp;*Meteoſe a lança pollo corpo.* X. |  |
+| `c2-l006` | &emsp;*Meteoſe a lança pollo corpo. X.* |  |
 | `c2-l007` | Nucaxi, ſu, aita. *Dizer: he palaura de deſ-* |  |
 | `c2-l008` | &emsp;*prezo com q̃ ſe reprehende dizendo que falais?* |  |
 | `c2-l009` | &emsp;*&c. Vt,* Naniuo nucaſuca? *Que dize-* |  |
-| `c2-l010` | &emsp;*is? &c.* B. |  |
+| `c2-l010` | &emsp;*is? &c. B.* |  |
 | `c2-l011` | Nucayebi. *Certo genero de camaroẽs.* |  |
 | `c2-l012` | Nucui. *Couſa quente, ou estar quente.* |  |
 | `c2-l013` | &emsp;Nucǔ. |  |
@@ -121,7 +121,7 @@ Lexical review aid: NINJAL, Hideyuki Ohshima and Taichi Aida, [Entry Words Data 
 | `c2-l029` | Nuguicaqe, uru, eta. *Deſpindo os vestidos* |  |
 | `c2-l030` | &emsp;*botalos em baixo, ficãdo meo deſpido.* |  |
 | `c2-l031` | Nuguicaqe, uru, eta. *Arrancar hum pou-* |  |
-| `c2-l032` | &emsp;*co a Catana, &c.* X. *Meliùs,* Nuqi- |  |
+| `c2-l032` | &emsp;*co a Catana, &c. X. Meliùs,* Nuqi- |  |
 | `c2-l033` | &emsp;caquru. |  |
 | `c2-l034` | Nuguicaye, uru, eta. *Mudar os vestidos,* |  |
 | `c2-l035` | &emsp;*armas, &c.* |  |

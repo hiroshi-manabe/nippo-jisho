@@ -38,7 +38,7 @@ Lexical review aid: NINJAL, Hideyuki Ohshima and Taichi Aida, [Entry Words Data 
 | `c1-l020` | &emsp;*candoſe ir em companhia.* |  |
 | `c1-l021` | Noritodome, uru, eta. *Deter o caualo, ou* |  |
 | `c1-l022` | &emsp;*a embarcação.* |  |
-| `c1-l023` | Noritoru, u, otta. *Tomar a fortaleza ſubin.* |  |
+| `c1-l023` | Noritoru, u, otta. *Tomar a fortaleza ſubin-* |  |
 | `c1-l024` | &emsp;*do a ella por manha, ou enganos eſcõdidamẽte.* |  |
 | `c1-l025` | Norivatari, u, atta. *Nauegar.* |  |
 | `c1-l026` | Norivataxi, ſu, aita. *Paſſar nauegando, ou* |  |
@@ -54,7 +54,7 @@ Lexical review aid: NINJAL, Hideyuki Ohshima and Taichi Aida, [Entry Words Data 
 | `c1-l036` | &emsp;*car com os outros. ¶ Item, Ficar detras* |  |
 | `c1-l037` | &emsp;*das outras embarcaçoens ou dos que vão diante* |  |
 | `c1-l038` | &emsp;*a caualo, &c.* |  |
-| `c1-l039` | Norivtçuri, u, tçutta. *Paſſarſe de hũa em-* |  |
+| `c1-l039` | Norivtçuri, u, tçutta. *Paſſarse de hũa em-* |  |
 | `c1-l040` | &emsp;*barcação a outra. ¶ Item, Entrar o diabo* |  |
 | `c1-l041` | &emsp;*em alguem. Vt,* Ano fitono cocoroniua |  |
 | `c1-l042` | &emsp;tenma fajunga norivtçutta. Xid. *Entra-* |  |
