@@ -154,12 +154,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l010` | QE. *Vt,* Qe ſuru. *Transfi-* |  |
 | `c2-l011` | &emsp;*gurarſe, ou aparecer noutra for* |  |
 | `c2-l012` | &emsp;*ma, ou figura, como o Demo-* |  |
-| `c2-l013` | &emsp;*nio no corpo humano, &c.* |  |
+| `c2-l013` | &emsp;*nio no corpo bumano, &c.* |  |
 | `c2-l014` | &emsp;*¶* Fotoqe fitoto qe xita- |  |
 | `c2-l015` | &emsp;mǒ. *O Fotoque apareceo em* |  |
 | `c2-l016` | &emsp;*figura humana.* |  |
 | `c2-l017` | Qe. *Cauſa, ou achaq̃ dalgũa couſa. Vt,* Sono qe |  |
-| `c2-l018` | &emsp;ni varucatta. *Porißo foy mal, ou mao.* B. |  |
+| `c2-l018` | &emsp;ni varucatta. *Por ißo foy mal, ou mao. B.* |  |
 | `c2-l019` | Qe. *Riſca. Vt,* Qeuo fiqu. *Riſcar.* |  |
 | `c2-l020` | Qe. *Couſa ordinaria, ou de cote: não ſe vſa* |  |
 | `c2-l021` | &emsp;*ſem compoſição. Vt,* Qeno qirumono. *Ve-* |  |
