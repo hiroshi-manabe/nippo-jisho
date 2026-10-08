@@ -102,12 +102,12 @@ def transliterate_token(token: str) -> str | None:
             output.extend((ROWS["w"][INDEX[following[0]]], following[1]))
             index += 2
             continue
-        if (text.startswith("nu", index) and vowel_at(text, index + 2)
-                and not (text.startswith("nuu", index) and vowel_at(text, index + 3))):
+        if text.startswith(("nua", "nuo"), index):
             # In forms such as ``Quǒguenuo``, the n closes the preceding
             # Japanese word and ``uo`` is the following particle: -n-uo,
             # not the syllables nu-o. But nu + ua/uo keeps its own vowel:
-            # Inuuo = inu-uo, not in-u-uo.
+            # Inuuo = inu-uo, not in-u-uo. Do not extend this boundary
+            # rule to nui: Nui (sewing) is nu-i, not n-ui.
             output.append("ン")
             index += 1
             continue

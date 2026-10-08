@@ -21,6 +21,11 @@ Standalone `ie` remains イエ. The special handling of `guio i` is removed:
 isolated `i` is filtered as a label consistently, even when it is actually
 part of Japanese. These known limitations do not justify changing Level 1.
 
+The `n + ua/uo` boundary rule applies only to `nua`/`nuo`, not to every
+`nu` followed by a vowel. Thus f373 `Nui` → ヌイ, `Nuiague` → ヌイアゲ,
+and `Nuiauaxe` → ヌイアワセ without lexical exceptions. `Quǒguenuo`
+still ends in ゲンヲ, and `Inuuo` retains イヌヲ. Level 1 is unchanged.
+
 The 2026-09-09 rule separates unmarked `riu`, `qiu`, `niu`, `fiu`,
 `biu`, `piu`, `miu`, and `guiu` into イ + ウ sequences (`Riun` → リウン;
 `Riunuo` → リウンヲ). Marked long vowels retain contracted readings

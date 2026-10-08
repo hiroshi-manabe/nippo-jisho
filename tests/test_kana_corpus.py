@@ -7,6 +7,14 @@ from scripts.kana_reading import transliterate_token, phrase_hint, reading_hint,
 
 
 class KanaCorpusTests(unittest.TestCase):
+    def test_nu_vowel_sequences_and_particle_boundaries(self):
+        for token, expected in [('Nui', 'ヌイ'), ('Nuiague', 'ヌイアゲ'),
+                                ('Nuiauaxe', 'ヌイアワセ'), ('nue', 'ヌエ'),
+                                ('nuu', 'ヌウ'), ('Quǒguenuo', 'クオゥゲンヲ'),
+                                ('Riunua', 'リウンワ'), ('Inuuo', 'イヌヲ')]:
+            with self.subTest(token=token):
+                self.assertEqual(transliterate_token(token), expected)
+
     def test_gvi_and_default_gui_reading(self):
         for token, expected in [('tagvi', 'タグイ'), ('Tagvi', 'タグイ'),
                                 ('tagviuo', 'タグイヲ'), ('Vôgvi', 'オゥグイ'),
