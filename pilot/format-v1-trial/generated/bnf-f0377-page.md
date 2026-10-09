@@ -35,7 +35,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l018` | &emsp;uo qecaquru. *Deitar com o pee lama, ou* |  |
 | `c1-l019` | &emsp;*agoa.* |  |
 | `c1-l020` | Qecachi. *Fome gèral, ou esterilidade.* |  |
-| `c1-l021` | Qeccai. Iſaguiyoi, imaxime. *Ley, cu pro-* |  |
+| `c1-l021` | Qeccai. Iſaguiyoi, imaxime. *Ley, ou pro-* |  |
 | `c1-l022` | &emsp;*hibição pura, & boa.* |  |
 | `c1-l023` | Qeccô. Muſubi, camayuru. *O aparelhar,* |  |
 | `c1-l024` | &emsp;*ou aperceber algũa couſa. Vt,* Monouo |  |
@@ -85,7 +85,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l005` | &emsp;*digna deſer galardoada na outra vida.* |  |
 | `c2-l006` | Qecorobacaxi, ſu, aita. *Derrubar dando* |  |
 | `c2-l007` | &emsp;*com o pee pera diante.* |  |
-| `c2-l008` | Qecorobaxi. *Hũs paos como ti ãtes, ou colũ-* |  |
+| `c2-l008` | Qecorobaxi. *Hũs paos como tirãtes, ou colũ-* |  |
 | `c2-l009` | &emsp;*pequenas.* |  *(pera diante.* |
 | `c2-l010` | Qecoroxi, ſu, roita. *Matar dando com o pee* |  |
 | `c2-l011` | Qecqe. *Conta, ou computaçaõ. Vt,* Qecqeſuru. |  |

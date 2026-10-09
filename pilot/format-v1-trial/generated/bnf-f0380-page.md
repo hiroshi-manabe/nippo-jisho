@@ -20,12 +20,12 @@ Lexical cross-check: supplied [Entry Words Data of Nippojisho](https://www2.ninj
 | `c1-l002` | &emsp;zato qeitat xexime ſoro. *Mando depro-* |  |
 | `c1-l003` | &emsp;*poſito esta carta.* |  |
 | `c1-l004` | Qeitei. Ani vototo. *Irmãos machos. S.* |  |
-| `c1-l005` | Qeitǒ. Tauore catamuqu. *Inclinarſe, ou* |  |
+| `c1-l005` | Qeitǒ. Tauore catamuqu. I*nclinarſe, ou* |  |
 | `c1-l006` | &emsp;*estar pera cair. S.* |  |
 | `c1-l007` | Qeitô. Niuatorino atama. l. Qeitôgue. |  |
 | `c1-l008` | &emsp;*Hũa flor, ou erua. Vide* Qeitôgue. |  |
 | `c1-l009` | Qeitôgue. *Roſa, ou flor de hũa certa erua q̃* |  |
-| `c1-l010` | &emsp;*ſe parece como crista de galo. ¶ Item, A* |  |
+| `c1-l010` | &emsp;*ſe parece como crista de galo. ¶* I*tem, A* |  |
 | `c1-l011` | &emsp;*meſma erua.* |  |
 | `c1-l012` | Qeivon. Megumi, võ. *Grãde beneficio. S.* |  |
 | `c1-l013` | Qeixa. Caruqi curuma. *Carro leue. S.* |  |

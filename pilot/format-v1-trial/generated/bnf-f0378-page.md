@@ -118,7 +118,7 @@ Lexical cross-check: supplied [Entry Words Data of Nippojisho](https://www2.ninj
 | `c2-l042` | Qeichô. Niuatori. *Gallo, ou galinha. S.* |  |
 | `c2-l043` | Qeico. *Exercicio, ou enſayo de couſas que hum* |  |
 | `c2-l044` | &emsp;*tem aprendido. Vt,* Qeico ſuru. |  |
-| `c2-l045` | Qeicocu. Cuni catamuqu. *Ir ſe o reino deſ-* |  |
+| `c2-l045` | Qeicocu. Cuni catamuqu. I*r ſe o reino deſ-* |  |
 | `c2-l046` | &emsp;*truindo. S.* |  |
 | `c2-l047` | Qeicocu. Tani, tani. *Valles. S.* |  |
 

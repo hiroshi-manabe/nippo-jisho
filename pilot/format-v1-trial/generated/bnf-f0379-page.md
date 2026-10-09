@@ -52,7 +52,7 @@ Lexical cross-check: supplied [Entry Words Data of Nippojisho](https://www2.ninj
 | `c1-l034` | &emsp;cacaru. *Cair na boca da balea, ou ſer comi-* |  |
 | `c1-l035` | &emsp;*do della. ¶* Cabaneuo qeigueino agui- |  |
 | `c1-l036` | &emsp;toni caqete vataru. *Per met. Paßar o mar* |  |
-| `c1-l037` | &emsp;*com granderiſco, & perigo da vida.* |  |
+| `c1-l037` | &emsp;*com grande riſco, & perigo da vida.* |  |
 | `c1-l038` | Qeijǒ. *Eſcreuer, ou mandar carta falando cõ* |  |
 | `c1-l039` | &emsp;*reſpeito. Vt,* Ippit qeijǒ xexime ſoro. |  |
 | `c1-l040` | &emsp;*Eſcreuo vos hũa breue carta. S.* |  |
