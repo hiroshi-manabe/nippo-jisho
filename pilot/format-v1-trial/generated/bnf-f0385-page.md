@@ -46,7 +46,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l030` | Qeppacu. Iſaguiyoi coto. *Pureza. ¶* Xǒ- |  |
 | `c1-l031` | &emsp;jǒ qeppacuna cocoro. *Coração limpo,* |  |
 | `c1-l032` | &emsp;*& puro.* |  |
-| `c1-l033` | Qeppan. l, qetban. *Sinal que ſe faz ao modo* |  |
+| `c1-l033` | Qeppan. *l*, qetban. *Sinal que ſe faz ao modo* |  |
 | `c1-l034` | &emsp;*de Iapão pera prometer, ou jurar algũa couſa* |  |
 | `c1-l035` | &emsp;*pondolhe em cima algũa gota do ſeu ſangue.* |  |
 | `c1-l036` | Qeppu. Muſubi fǔzuru. *O mutrar. ¶* Qep- |  |

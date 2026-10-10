@@ -30,7 +30,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l014` | Qetji. Caquru coto. i, Coto caqe. *Falta de* |  |
 | `c1-l015` | &emsp;*algũa couſa.* |  |
 | `c1-l016` | Qetjo. i, Coto caqi. *Falta, ou mingua de* |  |
-| `c1-l017` | &emsp;*algũa couſa. ¶ Item, Lugar em aberto que* |  |
+| `c1-l017` | &emsp;*algũa couſa. ¶* I*tem, Lugar em aberto que* |  |
 | `c1-l018` | &emsp;*ſe deixa em algum liuro, eſcritura, &c.* |  |
 | `c1-l019` | Qetmiacu. *Arte, ou doutrina que ſe eſcreue* |  |
 | `c1-l020` | &emsp;*como ſerie predicamental, ou taboada dos pri-* |  |
@@ -82,7 +82,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l008` | &emsp;fito. *Homem trabalhoſo, & de ruim con-* |  |
 | `c2-l009` | &emsp;*dição.* |  |
 | `c2-l010` | Qexi. *Dormideiras.* |  |
-| `c2-l011` | Qexi, ſu, eita. *Apagar. ¶* Fiuo qeſu. |  |
+| `c2-l011` | Qexi, ſu, eita. *Apagar. ¶ F*iuo qeſu. |  |
 | `c2-l012` | *Apagar o fogo. ¶* Iiuo qeſu. *Borrar le-* |  |
 | `c2-l013` | &emsp;*tra. ¶* Qimouo qeſu. *Paſmar, ou ficar* |  |
 | `c2-l014` | &emsp;*attonito. ¶* Docuuo qeſu. *Matar a-* |  |
@@ -105,7 +105,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l031` | &emsp;xicaranu tenqi. *Muitoruim tempo.* |  |
 | `c2-l032` | Qexin. Qeſuru mi. *Corpo, ou ſuſtancia trãs-* |  |
 | `c2-l033` | &emsp;*figurada, & mudada noutra.* |  |
-| `c2-l034` | Qexiqi. *Sembrante. Vt,* Tçuuamonodo- |  |
+| `c2-l034` | Qexiqi. *Sembrante Vt,* Tçuuamonodo- |  |
 | `c2-l035` | &emsp;mo firumu qexiqini miyetari qeru. Taif. |  |
 | `c2-l036` | &emsp;*Lib. 32. Os ſoldados dauão moſtras de me-* |  |
 | `c2-l037` | &emsp;*do. ¶* Qexiqiga cauaru. *Mudarſe o ſẽbrãte* |  |

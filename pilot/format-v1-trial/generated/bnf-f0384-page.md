@@ -22,7 +22,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l006` | &emsp;*leuarſe no gosto, & graça da muſica. ¶* Qeô |  |
 | `c1-l007` | &emsp;uo ſamaſu. *Eſfriar o goſto, & prazer.* |  |
 | `c1-l008` | &emsp;*¶* Qeô ſamegauoni naru. *Fazerſe, ou* |  |
-| `c1-l009` | &emsp;*tornarſe no exterior enxabido, desgostoſo, ou eſ-* |  |
+| `c1-l009` | &emsp;*tornarſe no exterior enxabido, desgostoſo; ou eſ-* |  |
 | `c1-l010` | &emsp;*pantado. ¶* Qeôgatta cotouo yǔ. *Di-* |  |
 | `c1-l011` | &emsp;*zer couſas extrauagantes. ¶* Qeôgarimo- |  |
 | `c1-l012` | &emsp;no. l, qeôgatta fito. *Homem ſingular,* |  |
@@ -39,7 +39,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l023` | Qeocan. *Encoſtos, ou balauſtes da ponte.* |  |
 | `c1-l024` | Qeôchǔ. Muneno vchi. *Dentro no peito,* |  |
 | `c1-l025` | &emsp;*ou no interior. ¶* Qeôchǔga firoi. l, |  |
-| `c1-l026` | &emsp;xebai. *Ter muito ſaber, ou pouco, ou pou-* |  |
+| `c1-l026` | &emsp;xebai. T*er muito ſaber, ou pouco, ou pou-* |  |
 | `c1-l027` | &emsp;*cas letras, & artes.* |  |
 | `c1-l028` | Qeǒcô. Yuqu ſuye. *Daqui por diante, ou a* |  |
 | `c1-l029` | &emsp;*o diante.* |  |
@@ -109,7 +109,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l034` | &emsp;*quem diz, indigno de vos eſcreuer, &c. S.* |  |
 | `c2-l035` | Qeôqin. Voſore tçutçuximu. *Temor, &* |  |
 | `c2-l036` | &emsp;*reuerencia. S.* |  |
-| `c2-l037` | Qeôquai. Majiuari, uǒ. *Ajuntamento de* |  |
+| `c2-l037` | Qeôquai. Majiuari, vǒ. *Ajuntamento de* |  |
 | `c2-l038` | &emsp;*marido, & molher. Vt,* Fǔfuno qeô- |  |
 | `c2-l039` | &emsp;quai. *S.* |  |
 | `c2-l040` | Qeǒri. *Patria. Vt,* Qeǒriuo ſaru. *A-* |  |
