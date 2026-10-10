@@ -28,7 +28,7 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c1-l010` | Qengui. Vtagauaxiqiuo qirǒ. *Fugir, ou* |  |
 | `c1-l011` | &emsp;*afaſtarſe de duuidas como nas demandas, não* |  |
 | `c1-l012` | &emsp;*creer facilmente a quem arrezoa porſi, ou vem* |  |
-| `c1-l013` | &emsp;*com couſas duuidoſas. ¶ Item, Guardarſe* |  |
+| `c1-l013` | &emsp;*com couſas duuidoſas. ¶* I*tem, Guardarſe* |  |
 | `c1-l014` | &emsp;*de fazer couſas que ſe podem tomar em mà-* |  |
 | `c1-l015` | &emsp;*parte, ou duidar da tenção com que ſe fa-* |  |
 | `c1-l016` | &emsp;*zem. S.* |  |

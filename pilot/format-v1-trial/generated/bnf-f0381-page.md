@@ -47,7 +47,7 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c1-l029` | &emsp;*breas groſſas.* |  |
 | `c1-l030` | Qenbǒ. *Iustiça.* |  |
 | `c1-l031` | Qenbǒna. *Couſa recta, ou juſta.* |  |
-| `c1-l032` | &emsp;Qenbǒni. *Adu.* |  |
+| `c1-l032` | &emsp;Qenbǒ*n*i. *Adu.* |  |
 | `c1-l033` | &emsp;Qenbǒſa. |  |
 | `c1-l034` | Qenbut. *O ver algũ a couſa, ou vista de al-* |  |
 | `c1-l035` | &emsp;*gũa couſa por nouidade, ou recreação. Vt,* |  |
