@@ -104,6 +104,15 @@
       <button id="submission-cancel" type="button">Cancel</button>
     </div>
   </dialog>
+  <dialog id="submission-confirmation-dialog" class="stale-draft-dialog" aria-labelledby="submission-confirmation-title" closedby="none">
+    <h2 id="submission-confirmation-title">Did you submit the GitHub Issue?</h2>
+    <p id="submission-confirmation-pages"></p>
+    <p>Choose Yes only if the Issue was created. Choose No if submission failed or you did not submit it. Your correction text is retained.</p>
+    <div class="dialog-actions">
+      <button id="submission-confirmation-yes" class="primary" type="button">Yes, I submitted it</button>
+      <button id="submission-confirmation-no" type="button">No, keep as draft</button>
+    </div>
+  </dialog>
   <div id="toast" class="toast hidden" role="status"></div>
   <aside id="page-timer" class="page-timer" aria-label="Page viewing timer" hidden>
     <small id="page-time">Time on page: 0:00</small>

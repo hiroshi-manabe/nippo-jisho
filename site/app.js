@@ -116,7 +116,7 @@ function renderBatchControls() {
   $('#selection-count').textContent = `${selectedLeaves.size} pages selected`;
   $('#submit-selected').classList.toggle('hidden', !selectionMode);
   $('#submit-selected').disabled = !selectedLeaves.size;
-  $('#batch-confirmation').classList.toggle('hidden', !storageJSON('nippo-batch-awaiting')?.length);
+  $('#batch-confirmation').classList.add('hidden'); // Replaced by the persistent modal.
 }
 const previewImageCache = new Map();
 const hdImageCache = new Map();
@@ -770,10 +770,10 @@ function updateSubmitBar() {
   $('#discard-all').textContent = count ? 'Discard changes' : 'Clear review mark';
   if (!count && status !== 'draft') $('#submit-bar').classList.remove('hidden');
   if (status !== 'draft') $('#submit-no-changes').classList.add('hidden');
-  $('#submit-question').classList.toggle('hidden', status !== 'awaiting');
+  $('#submit-question').classList.add('hidden');
   $('#submitted-label').classList.toggle('hidden', status !== 'submitted');
-  $('#submit-not-yet').classList.toggle('hidden', status !== 'awaiting');
-  $('#mark-submitted').classList.toggle('hidden', status !== 'awaiting');
+  $('#submit-not-yet').classList.add('hidden');
+  $('#mark-submitted').classList.add('hidden');
   $('#submit-again').classList.toggle('hidden', status !== 'submitted');
   $('#submit').classList.toggle('hidden', status !== 'draft' || (count === 0 && !reviewed));
   $('#submit').textContent = count ? 'Submit page corrections' : 'Submit reviewed page';
@@ -1550,12 +1550,58 @@ function markSubmissionOpened(pages, batch, payload) {
     localStorage.setItem(`nippo-submission-messages:${page.page_id}`, JSON.stringify(messages));
   }
   for (const page of pages) persistSubmission(page, 'awaiting');
+  const confirmations = storageJSON('nippo-submission-confirmations-v1') || [];
+  confirmations.push({pageIds: pages.map(page => page.page_id), views: pages.map(page => page.view), batch});
+  localStorage.setItem('nippo-submission-confirmations-v1', JSON.stringify(confirmations));
   if (batch) {
     localStorage.setItem('nippo-batch-awaiting', JSON.stringify(pages.map(page => page.leaf)));
     selectionMode = false;
     selectedLeaves.clear();
     renderGrid();
   }
+  showSubmissionConfirmation();
+}
+
+function restoreSubmissionConfirmations() {
+  if (storageJSON('nippo-submission-confirmations-v1')?.length) return;
+  const batch = storageJSON('nippo-batch-awaiting') || [];
+  const batchPages = batch.map(leaf => state.byLeaf.get(leaf)).filter(Boolean);
+  const records = batchPages.length ? [{pageIds: batchPages.map(p => p.page_id), views: batchPages.map(p => p.view), batch: true}] : [];
+  for (const page of state.corpus.pages) {
+    if (!batchPages.includes(page) && storageJSON(submissionStorageKey(page))?.status === 'awaiting') {
+      records.push({pageIds: [page.page_id], views: [page.view], batch: false});
+    }
+  }
+  localStorage.setItem('nippo-submission-confirmations-v1', JSON.stringify(records));
+}
+
+function showSubmissionConfirmation() {
+  if (!state.corpus || document.visibilityState !== 'visible') return;
+  const record = storageJSON('nippo-submission-confirmations-v1')?.[0];
+  const dialog = $('#submission-confirmation-dialog');
+  if (!record || dialog.open) return;
+  // Replace the fallback copy dialog when the user returns from GitHub.
+  $('#submission-dialog').close();
+  if (document.querySelector('dialog[open]')) return;
+  $('#submission-confirmation-pages').textContent = record.views.join(', ');
+  dialog.showModal();
+}
+
+function resolveSubmissionConfirmation(submitted) {
+  const records = storageJSON('nippo-submission-confirmations-v1') || [];
+  const record = records[0];
+  if (!record) return;
+  for (const id of record.pageIds) {
+    const page = state.corpus.pages.find(page => page.page_id === id);
+    if (page) persistSubmission(page, submitted ? 'submitted' : 'draft');
+  }
+  records.shift();
+  localStorage.setItem('nippo-submission-confirmations-v1', JSON.stringify(records));
+  if (record.batch) localStorage.removeItem('nippo-batch-awaiting');
+  $('#submission-confirmation-dialog').close();
+  renderGrid();
+  if (state.currentPage) updateSubmitBar();
+  showSubmissionConfirmation();
 }
 
 async function openCorrectionSubmission(pages, payload, url, batch = false) {
@@ -1808,15 +1854,22 @@ if ('ResizeObserver' in window) {
 window.addEventListener('resize', updateTopbarHeight);
 window.addEventListener('popstate', route);
 document.addEventListener('visibilitychange', () => {
+  if (document.visibilityState === 'visible') showSubmissionConfirmation();
   if (document.visibilityState === 'visible' && state.currentPage) void checkCorpusFreshness();
 });
+window.addEventListener('focus', showSubmissionConfirmation);
+$('#submission-confirmation-dialog').addEventListener('cancel', event => event.preventDefault());
+$('#submission-confirmation-yes').addEventListener('click', () => resolveSubmissionConfirmation(true));
+$('#submission-confirmation-no').addEventListener('click', () => resolveSubmissionConfirmation(false));
+$('#stale-draft-dialog').addEventListener('close', showSubmissionConfirmation);
 
 fetch(`corpus.json?fresh=${Date.now()}`, {cache: 'no-store'}).then(response => { if (!response.ok) throw new Error('Could not load corpus'); return response.json(); }).then(corpus => {
   state.corpus = corpus; state.byLeaf = new Map(corpus.pages.map(page => [page.leaf, page]));
+  restoreSubmissionConfirmations();
   const canonical = corpus.pages.filter(page => page.data_state === 'canonical_level1').length;
   const provisional = corpus.pages.filter(page => page.data_state === 'machine_provisional').length;
   const scanOnly = corpus.pages.filter(page => !page.processed).length;
   const corrected = corpus.pages.filter(page => page.corrections.issues_applied).length;
   $('#summary').innerHTML = `<div><strong>${canonical}</strong><span>canonical Level 1</span></div><div><strong>${provisional}</strong><span>OCR provisional</span></div><div><strong>${scanOnly}</strong><span>scan only</span></div><div><strong>${corrected}</strong><span>with applied Issues</span></div>`;
-  $('#repository-link').href = `https://github.com/${corpus.repository}`; $('#reference-version').textContent = `Reference ${corpus.reference_version}`; $('#reference-frame').src = 'reference/cheat-sheet.html'; route();
+  $('#repository-link').href = `https://github.com/${corpus.repository}`; $('#reference-version').textContent = `Reference ${corpus.reference_version}`; $('#reference-frame').src = 'reference/cheat-sheet.html'; route(); showSubmissionConfirmation();
 }).catch(error => { $('#page-grid').innerHTML = `<p>${escapeHTML(error.message)}</p>`; });

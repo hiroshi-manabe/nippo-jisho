@@ -613,3 +613,14 @@ of a pending no-change mark, without a confirmation. Undo resets the visit
 record too, preventing immediate re-acknowledgement. Submission also resets
 visits; a new baseline starts a fresh record. Ordinary and batch submission
 formats remain unchanged.
+
+After opening GitHub for a single-page or batch submission, the application
+stores a persistent confirmation record with the exact page IDs and displays
+**Did you submit the GitHub Issue?** on return. Reloading or reopening the
+site restores the modal, regardless of which page is displayed or whether
+its baseline changed. It cannot be dismissed with Escape or an outside click.
+**Yes** marks only the recorded pages submitted using the existing cleanup
+procedure; **No** returns them to draft without discarding correction text.
+The record is removed only after the explicit answer. Legacy awaiting
+single-page and batch submissions are migrated into this confirmation flow.
+This replaces the earlier inline confirmation buttons.
