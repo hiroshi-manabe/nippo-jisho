@@ -17,8 +17,28 @@
     .line-row{position:relative}.aligned-panel{display:none;position:absolute;pointer-events:none}
     .aligned-active>.aligned-panel{display:block}.aligned-scan{position:relative;width:100%;height:100%}
     .aligned-scan img{display:block;width:100%}.aligned-scan svg{position:absolute;inset:0;width:100%;height:100%;overflow:visible;pointer-events:none}
+    .aligned-scan text{paint-order:stroke fill;stroke:white;stroke-width:1px;stroke-linejoin:round}
   `;document.head.append(css);
   const ns='http://www.w3.org/2000/svg';
+  function wordSegments(row){
+    const segments=[];
+    let current=null,index=0;
+    // Per-character mappings can differ slightly through numerical fitting.
+    // Keep genuinely displaced scan fragments separate, even inside a word.
+    const sameMapping=(a,b)=>['origin','dx','dy'].every(key=>
+      a[key].every((value,i)=>Math.abs(value-b[key][i])<(key==='origin'?1:.01)));
+    for(const run of row.runs)for(const character of run.text){
+      const i=index++,a=row.alignment[i],m=row.scan_mappings?.[i]||row.scan_mapping;
+      if(!a||!m){current=null;continue;}
+      const space=/\s/u.test(character),left=a.left*row.image_width/100,right=(a.left+a.width)*row.image_width/100;
+      if(space||!current||!sameMapping(current.m,m)){
+        current={m,left,right,space,characters:[]};segments.push(current);
+      }else{current.left=Math.min(current.left,left);current.right=Math.max(current.right,right);}
+      current.characters.push({character,typeface:run.typeface,uncertain:a.kind==='uncertain'});
+      if(space)current=null;
+    }
+    return segments;
+  }
   function apply(){
     document.querySelectorAll('.alignment-unavailable').forEach(label=>label.hidden=!prefs.enabled);
     document.querySelectorAll('.aligned-panel').forEach(panel=>{
@@ -34,7 +54,8 @@
       crop.style.marginBottom=prefs.enabled?(8+Math.max(0,prefs.vertical+prefs.size*.25)*scale*factor)+'px':'';
       panel.style.left=crop.offsetLeft+'px';panel.style.top=crop.offsetTop+'px';panel.style.width=crop.offsetWidth+'px';panel.style.height=crop.offsetHeight+'px';
       svg.setAttribute('viewBox',`0 0 ${w} ${h}`);
-      for(const {t,m,px} of panel._glyphs){
+      for(const {t,m,px,width} of panel._glyphs){
+        t.setAttribute('textLength',Math.max(3,width));
         const x=m.origin[0]+m.dx[0]*(px+prefs.horizontal)+m.dy[0]*(35+prefs.vertical)-cx;
         const y=m.origin[1]+m.dx[1]*(px+prefs.horizontal)+m.dy[1]*(35+prefs.vertical)-cy;
         t.setAttribute('transform',`matrix(${m.dx[0]} ${m.dx[1]} ${m.dy[0]} ${m.dy[1]} ${x} ${y})`);
@@ -80,9 +101,28 @@
       if(!article||article.querySelector('.aligned-panel'))continue;
       const panel=document.createElement('div');panel.className='aligned-panel';panel._glyphs=[];const scan=document.createElement('div');scan.className='aligned-scan';panel.append(scan);
       const svg=document.createElementNS(ns,'svg');svg.setAttribute('viewBox',`0 0 ${row.image_width} 48`);svg.setAttribute('aria-hidden','true');const g=document.createElementNS(ns,'g');svg.append(g);scan.append(svg);
-      let n=0;for(const run of row.runs)for(const char of run.text){const i=n++,a=row.alignment[i],space=/\s/.test(char),m=row.scan_mappings?.[i]||row.scan_mapping;if(!m)continue;
-        let start=i,end=i+1;if(a.kind==='uncertain'){while(start>0&&JSON.stringify(row.alignment[start-1])===JSON.stringify(a))start--;while(end<row.alignment.length&&JSON.stringify(row.alignment[end])===JSON.stringify(a))end++;}
-        const t=document.createElementNS(ns,'text');t.textContent=space?'␣':char;t.setAttribute('text-anchor','middle');t.setAttribute('font-family',space?'Arial,sans-serif':'Georgia,serif');t.setAttribute('font-style',!space&&run.typeface==='italic'?'italic':'normal');t.setAttribute('fill',a.kind==='uncertain'?'#c04400':'#006bff');if(space){t.setAttribute('textLength',Math.max(3,a.width*row.image_width/100*.8));t.setAttribute('lengthAdjust','spacingAndGlyphs');}g.append(t);panel._glyphs.push({t,m,px:(a.left+a.width*(i-start+.5)/(end-start))*row.image_width/100});panel._factor=Math.hypot(...m.dy);
+      for(const segment of wordSegments(row)){
+        const {m,left,right,space,characters}=segment;
+        const t=document.createElementNS(ns,'text');
+        t.setAttribute('text-anchor',space?'middle':'start');
+        t.setAttribute('font-family',space?'Arial,sans-serif':'Georgia,serif');
+        t.setAttribute('lengthAdjust','spacingAndGlyphs');
+        if(space){t.textContent='␣';t.setAttribute('fill','#006bff');}
+        else{
+          // Normal proportional layout within the word; preserve mixed fonts
+          // and uncertainty colors without assigning character positions.
+          let span=null,style='';
+          for(const item of characters){
+            const nextStyle=item.typeface+':'+item.uncertain;
+            if(!span||style!==nextStyle){
+              span=document.createElementNS(ns,'tspan');style=nextStyle;
+              span.setAttribute('font-style',item.typeface==='italic'?'italic':'normal');
+              span.setAttribute('fill',item.uncertain?'#c04400':'#006bff');t.append(span);
+            }
+            span.textContent+=item.character;
+          }
+        }
+        g.append(t);panel._glyphs.push({t,m,px:space?(left+right)/2:left,width:(right-left)*(space ? .8 : 1)});panel._factor=Math.hypot(...m.dy);
       }
       article.querySelector('.line-crop').after(panel);
     }
