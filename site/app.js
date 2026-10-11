@@ -1111,9 +1111,19 @@ function originalTypefaces(line) {
   return line.runs.flatMap(run => Array.from(run.text).map(() => run.typeface));
 }
 
+function alignedOriginalTypefaces(line, alignment) {
+  const typefaces = originalTypefaces(line);
+  return alignment.currentToBase.map((baseIndex, proposalIndex) => {
+    if (baseIndex !== null) return typefaces[baseIndex] || 'roman';
+    const previousBase = alignment.currentToBase[proposalIndex - 1];
+    const nextBase = alignment.currentToBase.slice(proposalIndex + 1).find(candidate => candidate !== null);
+    return typefaces[previousBase ?? nextBase] || 'roman';
+  });
+}
+
 function quickCharacterHTML(character, index, baseIndex, changed, line, proposal, typefaces, nasalRestoration) {
   const original = baseIndex === null ? character : line.text[baseIndex];
-  const originalTypeface = baseIndex === null ? (typefaces[Math.max(0, index - 1)] || 'roman') : (typefaces[baseIndex] || 'roman');
+  const originalTypeface = typefaces[index] || 'roman';
   const explicitTypeface = proposal.characters[index].style;
   const typeface = explicitTypeface || originalTypeface;
   let action = '';
@@ -1121,6 +1131,7 @@ function quickCharacterHTML(character, index, baseIndex, changed, line, proposal
   let extraAttributes = '';
   const markedToken = NippoQuickEdit.knownTypefaceTokenRange(proposal.text, index, new Set(line.typeface_toggle_terms || []));
   const typefaceToken = NippoQuickEdit.citationTypefaceTokenRange(proposal.text, index) || markedToken || NippoQuickEdit.typefaceTokenRange(proposal.text, index, original);
+  const initialCapital = NippoQuickEdit.initialCapitalTypefaceRange(proposal.characters, index, typefaces, original);
   if (nasalRestoration) {
     action = 'nasal-restore';
     title = `Restore ${nasalRestoration.vowel}${nasalRestoration.consonant}`;
@@ -1131,6 +1142,10 @@ function quickCharacterHTML(character, index, baseIndex, changed, line, proposal
     action = 'typeface-token';
     title = 'Toggle this token between Roman and italic type';
     extraAttributes = ` data-token-start="${typefaceToken.start}" data-token-end="${typefaceToken.end}"`;
+  } else if (initialCapital) {
+    action = 'typeface-token';
+    title = 'Toggle only this initial capital between Roman and italic type';
+    extraAttributes = ` data-token-start="${initialCapital.start}" data-token-end="${initialCapital.end}"`;
   } else if (/[sſf]/u.test(character) && /[sſf]/u.test(original)) {
     action = 's-form';
     title = 'Cycle s, long s, and f readings';
@@ -1188,7 +1203,7 @@ function interactiveLineHTML(line, annotatedText, nasalRestorations = [], machin
   const proposal = NippoQuickEdit.parse(annotatedText);
   if (!proposal.valid) return styledVisualDiff(line, annotatedText);
   const alignment = NippoQuickEdit.align(line.text, proposal.text);
-  const typefaces = originalTypefaces(line);
+  const typefaces = alignedOriginalTypefaces(line, alignment);
   const restorations = new Map(nasalRestorations.map(item => [item.index, item]));
   const deletions = new Map();
   for (const deletion of alignment.deletions) {
@@ -1435,13 +1450,7 @@ function applyQuickEdit(row, control) {
   } else if (action === 'typeface-token') {
     const parsed = NippoQuickEdit.parse(current);
     const alignment = NippoQuickEdit.align(line.text, parsed.text);
-    const typefaces = originalTypefaces(line);
-    const proposalTypefaces = alignment.currentToBase.map((baseIndex, proposalIndex) => {
-      if (baseIndex !== null) return typefaces[baseIndex] || 'roman';
-      const previousBase = alignment.currentToBase[proposalIndex - 1];
-      const nextBase = alignment.currentToBase.slice(proposalIndex + 1).find(candidate => candidate !== null);
-      return typefaces[previousBase ?? nextBase] || 'roman';
-    });
+    const proposalTypefaces = alignedOriginalTypefaces(line, alignment);
     after = NippoQuickEdit.toggleTypefaceRange(current, Number(control.dataset.tokenStart), Number(control.dataset.tokenEnd), proposalTypefaces);
   } else if (action === 'delete') {
     after = NippoQuickEdit.replace(current, index, index + 1, '');

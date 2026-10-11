@@ -104,6 +104,20 @@
     return serialize(parsed.characters);
   }
 
+  function initialCapitalTypefaceRange(characters, index, originalTypefaces, originalCharacter) {
+    const current = characters[index];
+    const next = characters[index + 1];
+    if (!current || !next || !/^\p{Lu}$/u.test(current.character)
+        || !/^\p{Ll}$/u.test(next.character)
+        || /\p{L}/u.test(characters[index - 1]?.character || '')) return null;
+    // Keep accented capitals available for their existing accent controls.
+    if ([current.character, originalCharacter || ''].some(letter => /\p{M}/u.test(letter.normalize('NFD')))) return null;
+    const style = current.style || originalTypefaces[index];
+    if (!['roman', 'italic'].includes(style)
+        || (next.style || originalTypefaces[index + 1]) !== 'italic') return null;
+    return {start: index, end: index + 1};
+  }
+
   function nextSForm(current, original) {
     const cycles = original === 'ſ' ? ['ſ', 's', 'f'] : (original === 'f' ? ['f', 'ſ'] : ['s', 'ſ']);
     const index = cycles.indexOf(current);
@@ -224,5 +238,5 @@
     return {operations, currentToBase, changed, deletions};
   }
 
-  return {VOWEL_CYCLES, DELETABLE, parse, serialize, replace, knownTypefaceTokenRange, citationTypefaceTokenRange, typefaceTokenRange, toggleTypefaceRange, nextSForm, nextGQ, nextNM, nextPostvocalicNasal, nextCedilla, nextUV, nextIJ, vowelCycleForOriginal, nextVowel, align};
+  return {VOWEL_CYCLES, DELETABLE, parse, serialize, replace, knownTypefaceTokenRange, citationTypefaceTokenRange, typefaceTokenRange, initialCapitalTypefaceRange, toggleTypefaceRange, nextSForm, nextGQ, nextNM, nextPostvocalicNasal, nextCedilla, nextUV, nextIJ, vowelCycleForOriginal, nextVowel, align};
 }));
