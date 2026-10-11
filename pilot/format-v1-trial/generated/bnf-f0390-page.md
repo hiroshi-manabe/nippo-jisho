@@ -19,7 +19,7 @@ Lexical cross-check aid: NINJAL, Hideyuki Ohshima and Taichi Aida, *Entry Words 
 | `c1-l001` | Qidoguchi. *Entrada, ou portas da cancela.* |  |
 | `c1-l002` | Qidouoxi. *O trazer ſempre o meſmo vestido.* |  |
 | `c1-l003` | &emsp;*Vt,* Ixǒuo qidouoxini ſuru. *Trazer ſẽ-* |  |
-| `c1-l004` | &emsp;*pre hum meſmo veſtido.* B. |  |
+| `c1-l004` | &emsp;*pre hum meſmo veſtido. B.* |  |
 | `c1-l005` | Qifa. Sute, yaburu. *Romper, & botar* |  |
 | `c1-l006` | &emsp;*fora como papeis, ou conhecimento que ja não* |  |
 | `c1-l007` | &emsp;*ſerue, &c. Vt,* Xacujǒ, cujino meyaſu |  |
