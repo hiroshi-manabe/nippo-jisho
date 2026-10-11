@@ -214,6 +214,25 @@ The lowercase but independent `aburamono` entry is therefore not paradoxical. Ca
 
 **Provisional `S.` typeface convention (2026-09-30).** Repeated human visual comparisons found the standalone written-language label `S.` to resemble confirmed italic capitals more than roman ones. As a bulk convention, roman-labelled `S.` tokens on pages without recorded human review have been changed to italic; human-reviewed pages and other uses of `S` remain untouched. This is not a claim that every affected impression was individually adjudicated. Earlier AI line notes describing these labels as “upright” or “roman” are superseded by the explicit typeface-update note attached to affected lines. A later human check may override any individual instance.
 
+**Initial capitals in italic passages (2026-10-12).** Roman capitals paired
+with italic lowercase are an established historical combination, not
+necessarily a compositor's mistake. Updike describes roman capitals in
+Aldus's early italic, the later introduction of sloping capitals, and
+Arrighi's upright cursive capitals: [*Printing Types*, chapter X](https://www.c82.net/printing-types/chapters/10).
+Consequently, upright does not by itself mean roman; italic is a letterform
+design, not merely a slant. Compare the same capital's stroke construction,
+serifs, proportions, and terminals with nearby secure examples, allowing
+for page skew, wear, and ink spread.
+
+The project's sampled comparisons support mixed-font initials in f127
+(*Ter*, *Tendo*, and *Hauer*); see the examples in
+[the review workflow](human-review-workflow.md). They do not certify every
+past correction. The historical tradition, available type stock, and
+compositors' choices are possible explanations for this dictionary's
+mixture, not established causes. Do not infer indifference to italic
+capitals, or automatically convert upright initials to roman. Preserve
+supported local distinctions and flag genuinely uncertain forms.
+
 ### 3.3 Long `ſ`
 
 Long `ſ` is not simply `f`, and in Japanese romanized prints its distribution may itself mark continuation inside a word. Chiba's survey argues that round `s` and long `ſ` have functional distributions rather than being random allographs, though type collision with following diacritics also affects the choice (2008: 27–36). In Portuguese glosses, long `ſ` is also an ordinary early-print allograph.
