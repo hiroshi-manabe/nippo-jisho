@@ -18,7 +18,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l002` | &emsp;*a victoria, ou desbarate da batalha.* |  |
 | `c1-l003` | Qexxo. *Confiſcação de todos os bẽs. ¶* Qex- |  |
 | `c1-l004` | &emsp;xonivǒ. *Encontrar alguem com esta juſtiça* |  |
-| `c1-l005` | &emsp;*em quelhe ſejão cõfiſcados, & tomados os bens* |  |
+| `c1-l005` | &emsp;*em que lhe ſejão cõfiſcados, & tomados os bens* |  |
 | `c1-l006` | &emsp;*& mouel da caſa. ¶* Fitono zaifôuo qex- |  |
 | `c1-l007` | &emsp;xo ſuru. *Confiſcar, & tomar por juſtiça os* |  |
 | `c1-l008` | &emsp;*bẽs dalguem. ¶* Qexxono mono. *Bẽs* |  |

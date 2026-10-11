@@ -16,7 +16,7 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c1-l001` | Qiaxa. *Couſa limpa, polida, & viſtoſa.* |  |
 | `c1-l002` | Qiaxana. *Idem. ¶* Qiaxana fito. *Per* |  |
-| `c1-l003` | &emsp;*met. Homem limpo, & aprimorado que ſe cõ-* |  |
+| `c1-l003` | &emsp;*met. Homem limpo, & aprimorado queſe cõ-* |  |
 | `c1-l004` | &emsp;*certa, & atauia bem. ¶ Item, Homem q̃* |  |
 | `c1-l005` | &emsp;*tem abilidades, & artes.* |  |
 | `c1-l006` | Qiba. *Dente, ou preſa de porco, elefante,* |  |
@@ -35,13 +35,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l019` | &emsp;*ualo, ou que acompanhão ao ſenhor.* |  |
 | `c1-l020` | Qibaraxi. *Recreação, ou deſabafamento do* |  |
 | `c1-l021` | &emsp;*coração.* |  |
-| `c1-l022` | Qbari, u, atta. *Efforçarſe pera fazer algũa* |  |
+| `c1-l022` | Qibari, u, atta. *Efforçarſe pera fazer algũa* |  |
 | `c1-l023` | &emsp;*couſa mais. ¶ Item, per met. Sofrer.* |  |
 | `c1-l024` | Qibayai. *Peßoa açodada, & reſoluta em re-* |  |
 | `c1-l025` | &emsp;*ſponder logo, &c.* |  |
 | `c1-l026` | Qibi. *Milho.* |  |
 | `c1-l027` | Qibi. *Modo, ou maneira. ¶* Qibino |  |
-| `c1-l028` | &emsp;yoi, l, varui coto. *Couſa que parece, ou* |  |
+| `c1-l028` | &emsp;yoi, *l*, varui coto. *Couſa que parece, ou* |  |
 | `c1-l029` | &emsp;*diz bem, ou mal.* |  |
 | `c1-l030` | Qibidango. *Bolinholos de milho.* |  |
 | `c1-l031` | Qibiſu. l, cubiſu. *Calcanhar.* |  |
@@ -101,7 +101,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l027` | &emsp;Qicatni voyobu. *Ter fome, & ſede.* |  |
 | `c2-l028` | &emsp;*¶* Qicatuo yamuru. *Matar a fome, &* |  |
 | `c2-l029` | &emsp;*ſede.* |  |
-| `c2-l030` | Qicaye, yuru, yeta. *Trocar veſtidos, &c.* |  |
+| `c2-l030` | Qicaye, yuru, yeta. T*rocar veſtidos, &c.* |  |
 | `c2-l031` | &emsp;*¶* Vmani noricaye yoroiuo qicayete, |  |
 | `c2-l032` | &emsp;*&c.* Taif. Lib 20. *Caualgando noutro caualo,* |  |
 | `c2-l033` | &emsp;*& veſtindo outras armas.* |  |
@@ -117,7 +117,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l043` | Qichicu. Voni, chicuxǒ. *Diabo, & A-* |  |
 | `c2-l044` | &emsp;*nimaes.* |  |
 | `c2-l045` | Qichiji. *Boa couſa, ou boa ocaßião. Vt,* Qi- |  |
-| `c2-l046` | &emsp;chijiua iſoguegia fodoni, fenximo iſogu. |  |
+| `c2-l046` | &emsp;chijiua iſoguegia fodoni, fenximo iſogui- |  |
 | `c2-l047` | &emsp;tǒ voriaru. *Por quanto ſe diz que a boa* |  |
 
 ## Printed catchword
