@@ -600,3 +600,16 @@ review. The legacy `finalize` path remains available for older preparation repor
 External review problems similarly survive import; affected pages are read-only
 until their blocking requests are resolved. Technical validation failures still
 stop that item. See [review inbox operations](review-inbox.md).
+
+Keyboard navigation records body-line visits across both columns, per page
+and transcription version, in session storage. Reaching every body line
+with no pending corrections automatically sets the same local no-change
+review acknowledgement as the manual button, without a confirmation or
+automatic submission. Automatic cursor restoration alone does not count;
+arrow navigation does. This is a personal workflow shortcut, not proof of
+inspection. Unprocessed, blocked, or already submitted pages are excluded.
+The submit area offers **Undo review acknowledgement** for either origin
+of a pending no-change mark, without a confirmation. Undo resets the visit
+record too, preventing immediate re-acknowledgement. Submission also resets
+visits; a new baseline starts a fresh record. Ordinary and batch submission
+formats remain unchanged.

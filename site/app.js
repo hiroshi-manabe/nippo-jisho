@@ -1,5 +1,34 @@
 const state = { corpus: null, byLeaf: new Map(), currentPage: null, unit: 'page', edits: {}, suggestionDismissals: {}, submissions: {}, workspacesLoaded: new Set(), staleDraft: null, staleBaseline: null };
 let reviewCursor = null; // A reading position, deliberately independent of DOM focus.
+const REVIEW_VISITS_KEY = 'nippo-keyboard-review-visits-v1';
+let reviewVisits = {};
+try { reviewVisits = JSON.parse(sessionStorage.getItem(REVIEW_VISITS_KEY)) || {}; } catch (_) {}
+function saveReviewVisits() {
+  try { sessionStorage.setItem(REVIEW_VISITS_KEY, JSON.stringify(reviewVisits)); } catch (_) {}
+}
+function resetReviewVisits(page) {
+  delete reviewVisits[page.page_id];
+  saveReviewVisits();
+}
+function acknowledgeNoChangeReview(page) {
+  if (!page?.processed || page.review_blocked || pageSubmission(page).status !== 'draft'
+      || pageSubmission(page).reviewed_no_changes || Object.keys(pageEdits(page)).length) return;
+  pageSubmission(page).reviewed_no_changes = true;
+  persistSubmission(page, 'draft');
+}
+function recordReviewVisit(row) {
+  const page = state.currentPage;
+  if (!page || !row || page.review_blocked) return;
+  const ids = page.zones.filter(zone => zone.kind === 'column').flatMap(zone => zone.lines.map(line => line.id));
+  if (!ids.includes(row.dataset.line)) return;
+  let record = reviewVisits[page.page_id];
+  if (!record || record.version !== page.transcription_version) {
+    record = reviewVisits[page.page_id] = {version: page.transcription_version, lines: []};
+  }
+  if (!record.lines.includes(row.dataset.line)) record.lines.push(row.dataset.line);
+  saveReviewVisits();
+  if (ids.length && ids.every(id => record.lines.includes(id))) acknowledgeNoChangeReview(page);
+}
 const OVERVIEW_POSITION_KEY = 'nippo-overview-position-v1';
 const COLUMN_POSITIONS_KEY = 'nippo-column-positions-v1';
 let overviewPosition = null;
@@ -709,6 +738,7 @@ function pageSubmission(page) {
 
 function persistSubmission(page, status) {
   if (status === 'submitted') {
+    resetReviewVisits(page);
     window.NippoPageTimer?.reset(page.page_id);
     const key = `nippo-submission-messages:${page.page_id}`;
     clearSubmittedMessages(pageEdits(page), storageJSON(key) || {});
@@ -732,6 +762,8 @@ function updateSubmitBar() {
   const count = Object.keys(pageEdits(state.currentPage)).length;
   const status = pageSubmission(state.currentPage).status;
   const reviewed = pageSubmission(state.currentPage).reviewed_no_changes;
+  $('#undo-review').classList.toggle('hidden', count !== 0 || !reviewed || status !== 'draft');
+  $('#discard-all').classList.toggle('hidden', count === 0);
   $('#submit-bar').classList.toggle('hidden', count === 0 && !reviewed && status === 'draft');
   $('#submit-no-changes').classList.toggle('hidden', count !== 0 || reviewed || status !== 'draft' || !state.currentPage.processed || state.currentPage.review_blocked);
   $('#change-count').textContent = count ? `${count} proposed line correction${count === 1 ? '' : 's'}` : 'Reviewed · no changes proposed';
@@ -1009,10 +1041,13 @@ function moveReviewCursor(key) {
       ? rows.findIndex(row => row.dataset.line === reviewCursor.lineId) : -1;
     if (current < 0) {
       setReviewCursor(topVisibleReviewRow(rows), true);
+      recordReviewVisit(reviewRows().find(row => row.dataset.line === reviewCursor?.lineId));
       return true;
     }
+    recordReviewVisit(rows[current]);
     const next = Math.max(0, Math.min(rows.length - 1, current + (key === 'ArrowDown' ? 1 : -1)));
     setReviewCursor(rows[next], true);
+    recordReviewVisit(rows[next]);
     return true;
   }
   const sequence = columnSequence();
@@ -1021,6 +1056,7 @@ function moveReviewCursor(key) {
   if (index < 0 || !target) return true;
   showPage(target.leaf, target.unit);
   restoreColumnPosition(state.currentPage, target.unit);
+  recordReviewVisit(reviewRows().find(row => row.dataset.line === reviewCursor?.lineId));
   return true;
 }
 
@@ -1705,11 +1741,14 @@ $('#go').addEventListener('click', go); $('#leaf-input').addEventListener('keydo
 $('#discard-all').addEventListener('click', () => { if (!confirm('Discard all pending work for this page?')) return; for (const [lineId, edit] of Object.entries(pageEdits(state.currentPage))) dismissMachineSuggestion(state.currentPage, lineById(lineId), edit.machine_suggestion); state.edits[state.currentPage.page_id] = {}; pageSubmission(state.currentPage).reviewed_no_changes = false; persistSubmission(state.currentPage, 'draft'); persistEdits(state.currentPage, true); renderPageContent(); });
 $('#submit').addEventListener('click', submitCorrections);
 $('#submit-no-changes').addEventListener('click', () => {
+  acknowledgeNoChangeReview(state.currentPage);
+});
+$('#undo-review').addEventListener('click', () => {
   const page = state.currentPage;
-  if (!page?.processed || page.review_blocked || Object.keys(pageEdits(page)).length) return;
-  pageSubmission(page).reviewed_no_changes = true;
+  if (!page || Object.keys(pageEdits(page)).length || pageSubmission(page).status !== 'draft') return;
+  pageSubmission(page).reviewed_no_changes = false;
+  resetReviewVisits(page);
   persistSubmission(page, 'draft');
-  toast('Page marked as reviewed. Submit it alone or select it in the page list.');
 });
 $('#selection-toggle').addEventListener('click', () => {
   selectionMode = !selectionMode;
