@@ -26,7 +26,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l010` | &emsp;*minta. S.* |  |
 | `c1-l011` | Qichô. *Tornar a ſeu reino. ¶* Qichôſuru. |  |
 | `c1-l012` | &emsp;*Idem. Como os que vão à China, ou aos Luçoẽs* |  |
-| `c1-l013` | &emsp;*& tornam a Iapão.* |  |
+| `c1-l013` | &emsp;*& tornam a* I*apão.* |  |
 | `c1-l014` | Qichǒmen. *Cantos rombos, ou rodondos q̃* |  |
 | `c1-l015` | &emsp;*ſe fazem como ſeparados ẽ algũas Faxiras qua-* |  |
 | `c1-l016` | &emsp;*dradas, &c. ¶* Qichǒmenuo toru. *Di-* |  |
@@ -87,7 +87,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l013` | Qicqiǒ. Funchǔ. *Bicho do eſterco, ou das* |  |
 | `c2-l014` | &emsp;*latrinas.* |  *(Outono.* |
 | `c2-l015` | Qicqua. Qicuno fana. *Flor, ou bonina do* |  |
-| `c2-l016` | Qicu. *Erua q̃ florece, ou dà flores no Outono.* |  |
+| `c2-l016` | Qicu. *Erua q̃ florece, ou da flores no Outono.* |  |
 | `c2-l017` | &emsp;*Item, as meſmasflores.* |  |
 | `c2-l018` | Qicudaxi, ſu, aita. *Veſtir, ou botar o veſti-* |  |
 | `c2-l019` | &emsp;*do, armas, &c. ſobre ſi.* |  |
@@ -99,7 +99,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l025` | &emsp;*gumelos.* |  |
 | `c2-l026` | Qicuſui. Qicuno mizzu. *Certa agoa de flo-* |  |
 | `c2-l027` | &emsp;*res do Outono de que ſe falla em hũa fabula da* |  |
-| `c2-l028` | &emsp;*China. ¶* Qicuſu no yen. *Beberete que* |  |
+| `c2-l028` | &emsp;*China. ¶* Qicuſuino yen. *Beberete que* |  |
 | `c2-l029` | &emsp;*ſe faz aos noue dias da nona lũa metendo eſtas* |  |
 | `c2-l030` | &emsp;*boninas no vinho.* |  |
 | `c2-l031` | Qicuzara. *Pires, ou ſalſeiras de porſolana que* |  |
@@ -114,7 +114,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l040` | &emsp;*ſe. Vt,* Qido, airacu. *Alegria, ira,* |  |
 | `c2-l041` | &emsp;*triſteza, & gozo.* |  |
 | `c2-l042` | Qidocu. *Marauilha, ou milagre. ¶* Qi- |  |
-| `c2-l043` | &emsp;docuuo ſuru. l, naſu, guenzuru, arauaru. |  |
+| `c2-l043` | &emsp;docuuo ſuru. l, naſu, guenzuru, arauaſu. |  |
 | `c2-l044` | &emsp;*Fazer, ou manifestar milagres.* |  |
 | `c2-l045` | Qidocuna. *Couſa marauilhoſa, ou milagroſa.* |  |
 | `c2-l046` | &emsp;Qidocuni. |  |
