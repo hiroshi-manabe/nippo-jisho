@@ -46,8 +46,8 @@ Lexical cross-check, after independent scan reading: the supplied *Entry Words D
 | `c1-l028` | Qinzan. Nixiqino yama. *Monte, ou mato* |  |
 | `c1-l029` | &emsp;*que no Outono parece fermoſo, & de varias co* |  |
 | `c1-l030` | &emsp;*res em que ſe mudão as folhas. S.* |  |
-| `c1-l031` | Qio. Suu. *Eſtar. Vt,* Qiouo ſaru. *Apar-* |  |
-| `c1-l032` | &emsp;*tarſe do lugar, ou apoſento. ¶* Qiouo xi- |  |
+| `c1-l031` | Qio. Suuaru. *Eſtar. Vt,* Qiouo ſaru. *Apar-* |  |
+| `c1-l032` | &emsp;*tarſe do ſeu lugar, ou apoſento. ¶* Qiouo xi- |  |
 | `c1-l033` | &emsp;muru. *Determinar lugar como choupana, &c.* |  |
 | `c1-l034` | &emsp;*onde hum more.* |  |
 | `c1-l035` | Qio. *Falſidade, ou mentira. Vt,* Qiouo |  |
