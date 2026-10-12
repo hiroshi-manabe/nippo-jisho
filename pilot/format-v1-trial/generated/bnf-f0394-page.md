@@ -82,7 +82,7 @@ Lexical cross-check, after independent scan reading: the supplied *Entry Words D
 | `c2-l006` | Qiǒcan. Cǒbaxij fuda. *Carta de peßoa cõ* |  |
 | `c2-l007` | &emsp;*quẽ ſe fala honrandoa, & louuando o ſeu es-* |  |
 | `c2-l008` | &emsp;*tilo, &c. S.* |  |
-| `c2-l009` | Qiǒchi. *Lugar, ou terra que aos olhosſe re-* |  |
+| `c2-l009` | Qiǒchi. L*ugar, ou terra que aos olhos ſe re-* |  |
 | `c2-l010` | &emsp;*preſenta boa, ou maa. ¶* Yoi qiǒchigia. |  |
 | `c2-l011` | &emsp;*He bõ lugar, ou chão pera fazer caſas, &c.* |  |
 | `c2-l012` | Qiǒchǔ. Cagamino naca. *Dentro do eſ-* |  |
@@ -96,7 +96,7 @@ Lexical cross-check, after independent scan reading: the supplied *Entry Words D
 | `c2-l020` | &emsp;*nientes, & que carecem de grauidade, & ma-* |  |
 | `c2-l021` | &emsp;*dureza.* |  |
 | `c2-l022` | Qiǒcotna. *Couſas fora de propoſito, leues, &c.* |  |
-| `c2-l023` | &emsp;*¶* Qiǒcotna fito. *Homem leue, & pou-* |  |
+| `c2-l023` | &emsp;*¶* Qiǒcotna fito. H*omem leue, & pou-* |  |
 | `c2-l024` | &emsp;*co maduro, &c.* |  |
 | `c2-l025` | Qiǒcotni. *Adu.* |  |
 | `c2-l026` | Qiocu. *Paßos de garganta, ou ſom ſingular* |  |

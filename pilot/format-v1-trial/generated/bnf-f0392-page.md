@@ -27,7 +27,7 @@ Lexical cross-check aid: NINJAL, Hideyuki Ohshima and Taichi Aida, *Entry Words 
 | `c1-l009` | &emsp;*falaße dos cegos mal diante dalgum delles.* |  |
 | `c1-l010` | &emsp;*¶* Qincuuo yǔ. *Falar ſemelhantes pa-* |  |
 | `c1-l011` | &emsp;*lauras que tocão a outro.* |  |
-| `c1-l012` | Qindachi. *Filho de Cugue nobre.* |  |
+| `c1-l012` | Qindachi. *Filho de Cũgue nobre.* |  |
 | `c1-l013` | Qindai. Chicaqi yo. *Idade que ha pouco que* |  |
 | `c1-l014` | &emsp;*paßou.* |  |
 | `c1-l015` | Qindan. *Prohibição, ou ley riguroſa. ¶* Co- |  |

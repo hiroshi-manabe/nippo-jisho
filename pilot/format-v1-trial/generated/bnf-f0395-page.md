@@ -48,8 +48,8 @@ Lexical cross-check, after independent scan reading: the supplied *Entry Words D
 | `c1-l030` | &emsp;*do he largo, todauia não tenho lugar pera por,* |  |
 | `c1-l031` | &emsp;*ou agaſalhar hum corpo do tamanho de ſete pal-* |  |
 | `c1-l032` | &emsp;*mos, ou menos.* |  |
-| `c1-l033` | Qiǒguan. *Liuros, ou eſcrituras.* |  |
-| `c1-l034` | Qiôguat. *Mes paßado.* |  |
+| `c1-l033` | Qiǒguan. L*iuros, ou eſcrituras.* |  |
+| `c1-l034` | Qiôguat. M*es paßado.* |  |
 | `c1-l035` | Qiǒguen. Curǔ cotoba. *Entremeſes.* |  |
 | `c1-l036` | &emsp;*¶* Qiǒguenuo yǔ. l, ſuru. *Fazer en-* |  |
 | `c1-l037` | &emsp;*tremeſes.* |  |

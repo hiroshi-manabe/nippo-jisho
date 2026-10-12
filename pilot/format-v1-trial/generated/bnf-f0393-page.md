@@ -28,7 +28,7 @@ Lexical cross-check, after independent scan reading: the supplied *Entry Words D
 | `c1-l010` | Qinpen. Chicaqi fotori. *Perto. Vt,* |  |
 | `c1-l011` | &emsp;Qinpenni aru. *Eſtar algũa couſa perto,* |  |
 | `c1-l012` | &emsp;*ou jũto.* |  |
-| `c1-l013` | Qinpenxu. *Osque ſeruem immediatamente ao* |  |
+| `c1-l013` | Qinpenxu. *Os que ſeruem immediatamente ao* |  |
 | `c1-l014` | &emsp;*ſenhor, ou andão à ſua ilharga.* |  |
 | `c1-l015` | Qinpenxu. *Vizinhos.* |  |
 | `c1-l016` | Qinpǒ. Chicaqi catauara. *Lugar perto. Vt,* |  |
@@ -48,7 +48,7 @@ Lexical cross-check, after independent scan reading: the supplied *Entry Words D
 | `c1-l030` | Qinqi. Coganeno vtçuuamono. *Vaſo* |  |
 | `c1-l031` | &emsp;*de ouro.* |  |
 | `c1-l032` | Qinqin. Chicaxi, chicaxi. *Adu. Perto.* |  |
-| `c1-l033` | &emsp;i, *Da qui a pouco tempo. Vt,* Qinqinni |  |
+| `c1-l033` | &emsp;*i*, *Da qui a pouco tempo. Vt,* Qinqinni |  |
 | `c1-l034` | &emsp;macari tatǒzu. *Daqui a poucos dias me* |  |
 | `c1-l035` | &emsp;*partirei.* |  |
 | `c1-l036` | Qinqiocu. Cotono qiocu. *Certa toada de mu-* |  |
@@ -62,7 +62,7 @@ Lexical cross-check, after independent scan reading: the supplied *Entry Words D
 | `c1-l044` | Qinquan. Coganeno camuri. *Coroa de ouro.* |  |
 | `c1-l045` | Qinrai. i, Chicai coro. *Eſtes tempos atras,* |  |
 | `c1-l046` | &emsp;*ou ha pouco tempo.* |  |
-| `c1-l047` | Qinran. *Certa laya de brocadilho da china.* |  |
+| `c1-l047` | Qinran. *Certa laya de brocadilho da China.* |  |
 
 ## Column 2 running header
 
