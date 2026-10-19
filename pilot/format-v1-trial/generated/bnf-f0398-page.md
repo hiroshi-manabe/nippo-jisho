@@ -23,7 +23,7 @@ Lexical review aid: NINJAL, Hideyuki Ohshima and Taichi Aida, Entry Words Data o
 | `c1-l005` | Qira. *Couſa limpa, & luſtroſa. ¶* Qira- |  |
 | `c1-l006` | &emsp;uo migaqu furumai. *Conuite marauilhoſo,* |  |
 | `c1-l007` | &emsp;*& bem feito. ¶* Qirauo nigaita xitacu. |  |
-| `c1-l008` | &emsp;*Trajo lustroſo.* |  |
+| `c1-l008` | &emsp;T*rajo lustroſo.* |  |
 | `c1-l009` | Qira. *Hũa laya de peças finas.* |  |
 | `c1-l010` | Qirabiyacana. *Couſa limpa, & luſtroſa. ¶* Qi- |  |
 | `c1-l011` | &emsp;rabiyacana ninju. *Gente luzida, & lu-* |  |
@@ -111,7 +111,7 @@ Lexical review aid: NINJAL, Hideyuki Ohshima and Taichi Aida, Entry Words Data o
 | `c2-l035` | &emsp;*Cortando a cabeça dalguem pola, ou depen-* |  |
 | `c2-l036` | &emsp;*durala nalgum pao, &c.* |  |
 | `c2-l037` | Qiricayexi, ſu, eita. *Tornar a cortar a quẽ* |  |
-| `c2-l038` | &emsp;*me cortou. ¶* Qirigayexiuo ſuru. *Idẽ.* |  |
+| `c2-l038` | &emsp;*me cortou. ¶* Qirigayexiuo ſuru. I*dẽ.* |  |
 | `c2-l039` | Qirichiraxi, ſu, aita. *Cortando fazer eſpa-* |  |
 | `c2-l040` | &emsp;*lha fato, ou fazer fugir. ¶ Item, Cortan-* |  |
 | `c2-l041` | &emsp;*do eſpalhar, & desfazer empedaços como* |  |
