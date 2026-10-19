@@ -121,7 +121,7 @@ Lexical review aid: NINJAL, Hideyuki Ohshima and Taichi Aida, Entry Words Data o
 | `c2-l039` | &emsp;*entender a couſa.* |  |
 | `c2-l040` | Qiqi vaqimaye, uru, eta. *Idem.* |  |
 | `c2-l041` | Qiqivotoxi, ſu, oita. *Eſcapar algũa couſa* |  |
-| `c2-l042` | &emsp;*por ouuir, ou deixar de ou. algũa couſa.* |  |
+| `c2-l042` | &emsp;*por ouuir, ou deixar de ouuir algũa couſa.* |  |
 | `c2-l043` | Qiqivoyobi, u, ôda. *Ouuir como de longe,* |  |
 | `c2-l044` | &emsp;*ou vir à noticia dalgũa couſa.* |  |
 | `c2-l045` | Qiqixiri, ru, itta. *Saber de ouuida, ou en-* |  |
