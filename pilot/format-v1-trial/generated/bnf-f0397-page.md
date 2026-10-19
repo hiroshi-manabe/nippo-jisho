@@ -16,10 +16,10 @@ Lexical review aid: NINJAL, Hideyuki Ohshima and Taichi Aida, Entry Words Data o
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | &emsp;*custureira, ou bom official de mãos, ou bõ frẽ-* |  |
+| `c1-l001` | &emsp;*custureira, ou bom official de mãos, ou bõ frè-* |  |
 | `c1-l002` | &emsp;*cheiro. ¶* Teno qijta ſaicu. *Official de* |  |
 | `c1-l003` | &emsp;*boas mãos, ou destro. ¶* Fiǒxino qijta fi |  |
-| `c1-l004` | &emsp;to. *Homem bem compaſado, & q̃não ſae* |  |
+| `c1-l004` | &emsp;to. *Homem bem compaſado, & q̃ não ſae* |  |
 | `c1-l005` | &emsp;*do tom no bailar, tanger, cantar, &c.* |  |
 | `c1-l006` | &emsp;*¶* Cuſuriga qiqu. *Obrar a mezinha.* |  |
 | `c1-l007` | &emsp;*¶* Cagiga qicanu. *Não obedecer a embar-* |  |
@@ -126,7 +126,7 @@ Lexical review aid: NINJAL, Hideyuki Ohshima and Taichi Aida, Entry Words Data o
 | `c2-l044` | &emsp;*ou vir à noticia dalgũa couſa.* |  |
 | `c2-l045` | Qiqixiri, ru, itta. *Saber de ouuida, ou en-* |  |
 | `c2-l046` | &emsp;*tender a lingua estranha, &c. Vt,* Yǔ co- |  |
-| `c2-l047` | &emsp;tobamo qiqixirazu, &c. Feiq. *Lib. 1.* |  |
+| `c2-l047` | &emsp;tobamo qiqixirazu, &c. *F*eiq. *Lib. 1.* |  |
 
 ## Printed signature
 

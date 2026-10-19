@@ -28,7 +28,7 @@ Lexical review aid: NINJAL, Hideyuki Ohshima and Taichi Aida, Entry Words Data o
 | `c1-l010` | Qiǒran. Curui midaruru. *Doudice. Vt,* |  |
 | `c1-l011` | &emsp;Qiǒrã ſuru. *Estar doudo, ou fazer doudices.* |  |
 | `c1-l012` | Qiorei. *Doença de fraqueza, & frio.* |  |
-| `c1-l013` | Qiǒreqi. l, qereqi. *Paßaremſe annos di-* |  |
+| `c1-l013` | Qiǒreqi. l, qeireqi. *Paßaremſe annos di-* |  |
 | `c1-l014` | &emsp;*as, &c. S.* |  |
 | `c1-l015` | Qiǒri. Sato ſato. *Lugares, ou pouoaçoẽs.* |  |
 | `c1-l016` | Qiǒri. Cagamino vchi. *Dentro do eſpelho. S.* |  |
@@ -37,7 +37,7 @@ Lexical review aid: NINJAL, Hideyuki Ohshima and Taichi Aida, Entry Words Data o
 | `c1-l019` | Qiorǒ. *Hũa eſpecie de etica, ou tiſica.* |  |
 | `c1-l020` | Qioro. i, Michiuo yuqu, l, ſuguru. *O an-* |  |
 | `c1-l021` | &emsp;*dar caminho. ¶* Qioro ixxinua fa yori- |  |
-| `c1-l022` | &emsp;mo cafoxi. *Hum ſoo eſcuteiro mais leuemẽ* |  |
+| `c1-l022` | &emsp;mo caroxi. *Hum ſoo eſcuteiro mais leuemẽ* |  |
 | `c1-l023` | &emsp;*te anda caminho, & ſe moue que hũa folha.* |  |
 | `c1-l024` | Qiǒron. *Liuro com ſua declaração, & groſa.* |  |
 | `c1-l025` | &emsp;*¶* Qiǒron xǒguiôno manacouo ſaraſu. *E-* |  |
@@ -81,7 +81,7 @@ Lexical review aid: NINJAL, Hideyuki Ohshima and Taichi Aida, Entry Words Data o
 | `c2-l005` | &emsp;*ca. S.* |  |
 | `c2-l006` | Qiǒxet. *Eſcritura, ou texto que ſe alega, &c.* |  |
 | `c2-l007` | Qioxet. *Falſo testemunho.* |  |
-| `c2-l008` | Qioxo. Idocoro. *Morada, ou lugar õde hũ eſti.* |  |
+| `c2-l008` | Qioxo. Idocoro. *Morada, ou lugar õde hũ eſtà.* |  |
 | `c2-l009` | Qioxǔ. Sannuru aqi. *Outono paßado.* |  |
 | `c2-l010` | Qioxu. Teuo aguru. *O aleuantar as mãos.* |  |
 | `c2-l011` | &emsp;*Vt,* Qioxu dǒzocu. *Vide,* Qiodǒ. |  |
@@ -93,14 +93,14 @@ Lexical review aid: NINJAL, Hideyuki Ohshima and Taichi Aida, Entry Words Data o
 | `c2-l017` | &emsp;*ro de varias misturas, que ſe poem diante do* |  |
 | `c2-l018` | &emsp;*Fotoque. S.* |  |
 | `c2-l019` | Qiǒyen. Curǔ ſaru. *Bugio que brinca, ou* |  |
-| `c2-l020` | &emsp;*ſalta de ca peralà. Vt,* Qiǒyen cozuye- |  |
+| `c2-l020` | &emsp;*ſalta de cà pera là. Vt,* Qiǒyen cozuye- |  |
 | `c2-l021` | &emsp;ni ſaqebu. *O bugio brincando, & ſaltando* |  |
 | `c2-l022` | &emsp;*por cima das pontas das aruores brada, ou faz* |  |
 | `c2-l023` | &emsp;*traquinada. S.* |  |
 | `c2-l024` | Qioyô. Ague mochijru. *O estimar, ou ad-* |  |
 | `c2-l025` | &emsp;*mitir, & conſentir.* |  |
 | `c2-l026` | Qiôyǒ. *Exequias. Vide,* Qeôyǒ. |  |
-| `c2-l027` | Qiozǒ. Xoqiǒno aru cura. *Liuraria.* |  |
+| `c2-l027` | Qiǒzǒ. Xoqiǒno aru cura. *Liuraria.* |  |
 | `c2-l028` | Qiǒzocu. Tçuyoi yacara. *Homẽs forçoſos,* |  |
 | `c2-l029` | &emsp;*vadios, & muito ruins.* |  |
 | `c2-l030` | Qiǒzzucuye. *Banco, ou eſcabello ſobre que* |  |
