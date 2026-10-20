@@ -3,6 +3,7 @@ from pathlib import Path
 import sys
 import tempfile
 import unittest
+import zipfile
 from unittest.mock import patch
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
 import review_inbox as inbox
@@ -10,6 +11,25 @@ import external_ai_review as review
 
 
 class InboxTests(unittest.TestCase):
+    def test_find_input_uses_manifest_hash_across_relay_and_local_archives(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            local, relay = root / 'local', root / 'relay'
+            local.mkdir(); relay.mkdir()
+            manifest = b'{"package_id":"trial"}'
+            with zipfile.ZipFile(root / 'result.zip', 'w') as z:
+                z.writestr('result.json', json.dumps({'input_manifest_sha256': inbox.digest(manifest)}))
+            with zipfile.ZipFile(local / 'same-input.zip', 'w') as z:
+                z.writestr('manifest.json', b'old manifest')
+            (local / 'broken-input.zip').write_bytes(b'partial unrelated archive')
+            with zipfile.ZipFile(relay / 'same-input.zip', 'w') as z:
+                z.writestr('manifest.json', manifest)
+            with patch.object(inbox, 'RELAY_INPUT', relay):
+                self.assertEqual(inbox.find_input(root / 'result.zip', local), relay / 'same-input.zip')
+                (relay / 'same-input.zip').unlink()
+                with self.assertRaisesRegex(ValueError, 'No matching input'):
+                    inbox.find_input(root / 'result.zip', local)
+
     def setUp(self):
         # Queue tests must never discover the real corpus or launch real jobs.
         discovery = patch('alignment_queue.discover', return_value=[])

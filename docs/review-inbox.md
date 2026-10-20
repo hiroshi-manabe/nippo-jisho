@@ -1,5 +1,14 @@
 # Automated review inbox
 
+Returned external-review ZIPs go in `exports/external-review/incoming/`.
+Their original input package is located by its exact manifest SHA-256, first
+under this project's external-review folders and then under the sibling
+`../chatgpt-relay/input/`. A matching filename alone is insufficient: the
+prose-6-Pro variant has a different manifest from its older local original.
+Successful imports archive both input and result in the normal recovery backup.
+Keep relay inputs until import succeeds. Previously failed jobs still require
+explicit recovery; adding an input location does not silently retry them.
+
 ## Test policy
 
 Application tests must not freeze evolving page readings, review classifications,

@@ -13,6 +13,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 STATE = ROOT / 'exports/review-inbox'
 INCOMING = ROOT / 'exports/external-review/incoming'
+RELAY_INPUT = ROOT.parent / 'chatgpt-relay/input'
 
 
 def digest(data):
@@ -46,13 +47,17 @@ def discover_results(incoming, ledger, now):
 def find_input(result, directory):
     with zipfile.ZipFile(result) as z:
         info = json.loads(z.read('result.json'))
-    for path in sorted(directory.rglob('*-input.zip')):
-        if 'backups' in path.parts:
-            continue
-        with zipfile.ZipFile(path) as z:
-            manifest = z.read('manifest.json')
-        if digest(manifest) == info['input_manifest_sha256']:
-            return path
+    for folder in (directory, RELAY_INPUT):
+        for path in sorted(folder.rglob('*-input.zip')):
+            if 'backups' in path.parts:
+                continue
+            try:
+                with zipfile.ZipFile(path) as z:
+                    manifest = z.read('manifest.json')
+            except (KeyError, zipfile.BadZipFile):
+                continue
+            if digest(manifest) == info['input_manifest_sha256']:
+                return path
     raise ValueError('No matching input package found')
 
 
