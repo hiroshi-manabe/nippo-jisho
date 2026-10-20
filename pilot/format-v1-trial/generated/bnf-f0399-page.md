@@ -33,7 +33,7 @@ Lexical cross-check: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima an
 | `c1-l015` | Qirifazzuxi, u, uita. *Cortando errar o gol-* |  |
 | `c1-l016` | &emsp;*pe. Vt,,* Arufito catanauo nuite, vôca- |  |
 | `c1-l017` | &emsp;meuo qirǒto xitaga, qirifazzuite vouo |  |
-| `c1-l018` | &emsp;vchiqitta. Fab. *Hum homem deſembai-* |  |
+| `c1-l018` | &emsp;vchiqitta. Fab. H*um homem deſembai-* |  |
 | `c1-l019` | &emsp;*nhando a Catana, & querendo cortar hum lo-* |  |
 | `c1-l020` | &emsp;*bo, errou o golpe, & cortou lhe o rabo.* |  |
 | `c1-l021` | Qirifuſagui, gu, aida. *Empedir, como ca-* |  |
@@ -94,7 +94,7 @@ Lexical cross-check: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima an
 | `c2-l012` | &emsp;*nhas, &c.* |  |
 | `c2-l013` | Qiriqizu. *Ferida. ¶* Qiriqizuuo cǒmu- |  |
 | `c2-l014` | &emsp;ru. *Receber algũa ferida.* |  |
-| `c2-l015` | Qiririto. *Adu. Modo de ſoar aporta quando* |  |
+| `c2-l015` | Qiririto. *Adu.* M*odo de ſoar aporta quando* |  |
 | `c2-l016` | &emsp;*ſe abre, ou fecha.* |  |
 | `c2-l017` | Qiriſaqi, u, aita. *Raſgar, ou eſpedaçar cor-* |  |
 | `c2-l018` | &emsp;*tando. Vt,* Ixǒuo qiriſaqu. *Raſgar os* |  |
@@ -127,7 +127,7 @@ Lexical cross-check: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima an
 | `c2-l045` | Qirivoroxi, ſu, oita. *Cortando abaixar.* |  |
 | `c2-l046` | Qirivotoxi, ſu, oita. *Cortando derrubar.* |  |
 | `c2-l047` | Qirixitagaye, ru, eta. *Conquistando ſujeitar,* |  |
-| `c2-l048` | *ſou pouir.* |  |
+| `c2-l048` | *ßou pouir.* |  |
 
 ## Column 2 catchword
 

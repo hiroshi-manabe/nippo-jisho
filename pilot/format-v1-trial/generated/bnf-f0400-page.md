@@ -24,7 +24,7 @@ Lexical cross-check: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima an
 | `c1-l006` | Qirǒ. *Velho honrado.* |  |
 | `c1-l007` | Qirocu. Xiruxi, ſu. *O eſcreuer, ou notar al-* |  |
 | `c1-l008` | &emsp;*gũa couſa por eſcrito.* |  |
-| `c1-l009` | Qirocujo. *Certo lugar no Dairi, ou* Y*acata,* |  |
+| `c1-l009` | Qirocujo. *Certo lugar no Dairi, ou Yacata,* |  |
 | `c1-l010` | &emsp;*&c. onde ſe ouuem as partes dos que trazem* |  |
 | `c1-l011` | &emsp;*demandas, & ſe eſcreue, &c.* |  |
 | `c1-l012` | Qiromecaxi, ſu aita. *Mouer, ou menear os* |  |
@@ -44,7 +44,7 @@ Lexical cross-check: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima an
 | `c1-l026` | &emsp;*coração.* |  |
 | `c1-l027` | Qiſanjini. *Adu. Deſabafadamente.* |  |
 | `c1-l028` | Qiſaqi. *Rainha.* |  |
-| `c1-l029` | Qiſaragui. P. i, Niguachi. *Segũda lũa,* |  |
+| `c1-l029` | Qiſaragui. *P.* i, Niguachi. *Segũda lũa,* |  |
 | `c1-l030` | &emsp;*ou mès de Iapão.* |  |
 | `c1-l031` | Qiſat. *Carta, falando com reſpeito da peſſoa que* |  |
 | `c1-l032` | &emsp;*eſcreue.* |  |
@@ -95,7 +95,7 @@ Lexical cross-check: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima an
 | `c2-l019` | Qitano cata. *Parte do Norte.* |  |
 | `c2-l020` | Qitano foxi. *Eſtrella do Norte.* |  |
 | `c2-l021` | Qitari, u, atta. *Vir.* |  |
-| `c2-l022` | Qitçui. *Couſa forte, aſpera, terrivel, &c.* |  |
+| `c2-l022` | Qitçui. *Couſa forte, aſpera, terribel, &c.* |  |
 | `c2-l023` | &emsp;Qitçuſa. |  |
 | `c2-l024` | &emsp;Qitçǔ. |  |
 | `c2-l025` | Qitçune. *Rapoſa.* |  |
