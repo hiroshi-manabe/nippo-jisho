@@ -1,0 +1,213 @@
+{
+  "schema": 2,
+  "package_id": "production-f0483-f0484-f0485-bbfafbf5",
+  "input_manifest_sha256": "61da6e4dc84f8fd78b8aa8ac2e5a22f01b97ba7cb69c23bae68cbae0c6db881e",
+  "reviewer": "ChatGPT (GPT-6 Astra Pro); parallel page review with primary-agent cross-checks",
+  "pages": {
+    "bnf-f0483": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c1-l006: Retained printed ti after eſ-; the narrow dotted second type does not support replacing it with expected tà. The phrase means what is badly made despite the apparent printed anomaly.",
+        "c1-l009: Tçucuritate is the usable reading of a heavily abraded headword; its surviving strokes and building gloss are supported by the subsequently consulted NINJAL lexical index.",
+        "c1-l012: The initial of the synonym ſacubiǒ is weak. The surviving tall type and sakubyoo lexical identification support lowercase long ſ rather than OCR I; this caveat remains in the line note.",
+        "c1-l024: Sangrar is retained for bleeding horses; the vowel bowl is damaged and the reading uses surviving lower traces plus context, while no secure i-dot supports Singrar.",
+        "c1-l030: The r in bre (continuing que- as quebre) is faint. Its shoulder remnant and the divided verb support the selected r despite an i-like impression.",
+        "c1-l035: Retained the printed gap in mu ta, where expected muita lacks a securely visible i. The explanatory note supplies the intended diligent-effort sense without adding an unsupported glyph.",
+        "c2-l024: The second caron in mǒsǒzù is very faint; the chosen ǒ is retained from surviving ink and the aligned reading. The final grave is clear.",
+        "c2-l035: The first l in Aquelle is badly worn but retains a high stem remnant; Aquelle is chosen in the text, with the weak type explained in the note."
+      ],
+      "decision_requests": [],
+      "structural_changes": [
+        {
+          "before": [
+            "h1-l001"
+          ],
+          "after": [
+            "h1-l001"
+          ],
+          "reason": "Corrected the left running header to T ANTES DO ç. from the native scan, restoring word separation and the cedilla section letter in place of OCR 5. The smaller main c bowl below the display-capital height supports lowercase ç."
+        },
+        {
+          "before": [
+            "h2-l001"
+          ],
+          "after": [
+            "h2-l001",
+            "pn-l001"
+          ],
+          "reason": "Separated the right running header T ANTES DO ç. from the independently printed page number 246.; retained h2-l001 for the header and assigned fresh pn-l001 to the page_number zone. All visible header material is preserved."
+        },
+        {
+          "before": [
+            "u2b-l001"
+          ],
+          "after": [
+            "u2b-l001",
+            "cw-l001"
+          ],
+          "reason": "Resolved the provisional bottom-furniture OCR merger Xqu a ta. into the centered signature Q q q 2 (retaining u2b-l001 in a signature zone) and the independent far-right italic catchword ta. (fresh cw-l001 in a catchword zone). The catchword anticipates f0484/c1-l001. Removed only the obsolete bootstrap zone note; no printed text was lost."
+        }
+      ],
+      "typeface_terms": {
+        "c1-l027": [
+          "zaxiqui"
+        ],
+        "c2-l001": [
+          "Nigua"
+        ],
+        "c2-l002": [
+          "chi"
+        ],
+        "c2-l010": [
+          "zzudazzuda"
+        ],
+        "c2-l027": [
+          "biǒbus"
+        ],
+        "c2-l034": [
+          "Coxi"
+        ],
+        "c2-l038": [
+          "Fotoqe"
+        ]
+      }
+    },
+    "bnf-f0484": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c1-l008: Retained printed taqe, although the liquid-list context and later ſaqe indicate sake. Its pointed initial matches local t better than secure long ſ; it may be a printed anomaly or damaged type.",
+        "c2-l026: The damaged V in Vt is provisionally classified as italic from its surviving form, adjacent italic t, and local italic Vt examples; this individual capital’s font remains less secure than the surrounding text.",
+        "c2-l030: Chose tçuide- after separate reinspection identified a high d terminal and faint lower bowl. The d is heavily abraded; the nearby Tçuide forms and Japanese phrase support the incorporated reading.",
+        "c2-l041 and c2-l044: Chose fucuno and tçuifucu from the repeated clear headword Tçuifucu and surviving f features. The c2-l041 initial lacks most of its upper hook and remains r-like; c2-l044 retains a clearer crossbar and high stub.",
+        "c2-l047: Tçuini and finalmẽte remain affected by heavy wear in the headword’s minims and the latter word’s m. Surviving letters, the Portuguese meaning, and the subsequently consulted NINJAL lexical entry support the chosen complete reading."
+      ],
+      "decision_requests": [],
+      "structural_changes": [
+        {
+          "before": [
+            "c1-l001"
+          ],
+          "after": [
+            "c1-l001"
+          ],
+          "reason": "Encoded the printed far-right parenthesis and temẽte. as named far-right spans. They physically stand on c1-l001 but complete conſequẽ- on c1-l002; all text remains in its printed row."
+        },
+        {
+          "before": [
+            "h1-l001"
+          ],
+          "after": [
+            "h1-l001"
+          ],
+          "reason": "Corrected the native running header to T ANTES DO ç., separating T from ANTES and reading the smaller cedilla-c type as lowercase ç. The same furniture ID and zone are retained."
+        },
+        {
+          "before": [
+            "h2-l001"
+          ],
+          "after": [
+            "h2-l001"
+          ],
+          "reason": "Corrected the native running header to T ANTES DO ç., separating T from ANTES and reading the smaller cedilla-c type as lowercase ç. The same furniture ID and zone are retained."
+        },
+        {
+          "before": [
+            "u2b-l001"
+          ],
+          "after": [
+            "u2b-l001"
+          ],
+          "reason": "Classified the provisional lower-right furniture as the printed catchword, corrected its reading to roman Tçui-, and encoded its far-right placement. It anticipates Tçuiqiacu on f0485 and is not an additional body row; the existing zone and line IDs are preserved."
+        }
+      ],
+      "typeface_terms": {
+        "c2-l042": [
+          "Feiq."
+        ]
+      }
+    },
+    "bnf-f0485": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c1-l005: beǒboſinho is the chosen reading of the worn Portuguese diminutive for a little screen. The beǒb- and -ſinho sequence is recoverable, but the small vowel after b is abraded; its precise shape remains a nonblocking caveat in the line note.",
+        "c1-l027: Cocorozaxiuo is incorporated for kokorozashi wo; the x between a and dotted i is severely abraded. Weak diagonal remnants fit x, and the Japanese paraphrase plus Portuguese hearts/intentions gloss support this chosen reading.",
+        "c1-l040: Tçujidǒro retains a worn but downward caron remnant over the first o. The supplied NINJAL lexical index has Tçujidôro; the local graphic reading, corroborated by same-typeface accent comparisons, remains explicitly caveated.",
+        "c2-l042: Vt is retained as roman V with italic t and comma. The unusually large upright capital differs from nearby italic Vt capitals, but its precise font classification remains a minor visual caveat."
+      ],
+      "decision_requests": [],
+      "structural_changes": [
+        {
+          "before": [
+            "h1-l001"
+          ],
+          "after": [
+            "h1-l001"
+          ],
+          "reason": "Corrected the damaged OCR running header to T ANTES DO ç. from the native scan; the smaller c bowl with descender supports lowercase ç. The same header ID and running-header role are retained."
+        },
+        {
+          "before": [
+            "h2-l001"
+          ],
+          "after": [
+            "h2-l001",
+            "pn-l001"
+          ],
+          "reason": "Split the OCR-combined right running header and page number: h2-l001 now contains T ANTES DO ç.; the separately printed 247. is preserved under new pn-l001 in a page_number zone. No header or number text is lost."
+        },
+        {
+          "before": [
+            "c2-l003"
+          ],
+          "after": [
+            "c2-l003"
+          ],
+          "reason": "Removed the false continuation indentation: Tçujimaqi starts at the normal headword margin. The faint initial T is restored within the same physical row and ID."
+        },
+        {
+          "before": [
+            "c2-l027"
+          ],
+          "after": [
+            "c2-l027"
+          ],
+          "reason": "Restored the omitted opening parenthesis and italic vnhas. at the far right of this physical row using named mark/word spans. They semantically complete faca de cortar on c2-l028 but are retained at their printed location; all existing caſtanhetas. text remains."
+        },
+        {
+          "before": [
+            "u2b-l001"
+          ],
+          "after": [
+            "u2b-l001",
+            "cw-l001"
+          ],
+          "reason": "Resolved the combined provisional bottom furniture into the printed signature Q q q 3 (retaining u2b-l001 in a signature zone) and the separate right catchword Tçu- (new cw-l001 in a catchword zone). The former OCR-only unclassified-furniture annotation is removed after classification; all actual printed furniture is accounted for."
+        }
+      ],
+      "typeface_terms": {
+        "c1-l042": [
+          "Catabira"
+        ],
+        "c1-l046": [
+          "Tenca",
+          "Cu-"
+        ],
+        "c1-l047": [
+          "bǒ"
+        ],
+        "c2-l005": [
+          "Icòxus"
+        ],
+        "c2-l006": [
+          "Icǒxus"
+        ]
+      }
+    }
+  }
+}
