@@ -1,0 +1,170 @@
+{
+  "schema": 2,
+  "package_id": "production-f0510-f0511-f0512-fa0928e8",
+  "input_manifest_sha256": "f3cc617020c6150395d4a8a229031648ada2dc371373daf2f380940cd62b23e2",
+  "reviewer": "ChatGPT — GPT-6 Astra Pro; parallel page reviews with primary-agent cross-check and validation.",
+  "pages": {
+    "bnf-f0510": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c1-l038: Retained rogimuru, whose first type looks r-shaped although the headword and context suggest togimuru. The anomaly and intended connection are explained in the line note.",
+        "c2-l012: Chosen visible yebnù corrects OCR yobnù only where the e is established. The damaged word is contextually yebisu, but separate i and ſ types cannot be recovered confidently.",
+        "c2-l043: Chosen Fuppô tôjen from surviving strokes in the heavily abraded example; Buppō tōzen is the evident semantic identification, but the first capital lacks secure B bowls.",
+        "c2-l047: Chosen vndicima lua and Guexi from damaged print and the winter/summer-solstice context. The upper strokes are weak, and no unestablished tilde has been supplied over lua."
+      ],
+      "decision_requests": [],
+      "structural_changes": [
+        {
+          "before": [
+            "h1-l001"
+          ],
+          "after": [
+            "h1-l001"
+          ],
+          "reason": "Corrected running-header word separation to T ANTES DO O. from the scan; retained the original ID and display type."
+        },
+        {
+          "before": [
+            "h2-l001"
+          ],
+          "after": [
+            "h2-l001"
+          ],
+          "reason": "Corrected running-header word separation to T ANTES DO O. from the scan; retained the original ID and display type."
+        },
+        {
+          "before": [
+            "u2b-l001"
+          ],
+          "after": [
+            "u2b-l001",
+            "cw-l001"
+          ],
+          "reason": "Split the provisional combined bottom furniture into the real final column-2 body continuation ça do verão. under the stable u2b-l001 ID (italic and indented, with a new full-width native crop) and the separately placed right catchword Tǒji. under fresh ID cw-l001. The catchword anticipates the next page; no body material is discarded."
+        }
+      ],
+      "typeface_terms": {
+        "c2-l044": [
+          "Xaca"
+        ]
+      }
+    },
+    "bnf-f0511": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c1-l013: The first accent of Tôjǒ is abraded. Its surviving roof-shaped trace supports a circumflex, and the supplied NINJAL index corroborates the distinct headword; Tôjǒ is the incorporated reading.",
+        "c1-l024: The n in Tomabuqini is abraded. Surviving strokes and the Japanese construction support ni rather than OCR ri; Tomabuqini is incorporated with a matching line-note caveat.",
+        "c1-l046–c1-l047: The translation begins Aue- / do. A possible abbreviation tilde over e is too faint to establish; unmarked Aue- is retained without silently supplying n.",
+        "c2-l011: The small terminal mark after al is retained as the supplied point in al.; it may be a damaged line-division mark. The continued word remains on its printed rows, al. / gũa."
+      ],
+      "decision_requests": [],
+      "structural_changes": [
+        {
+          "before": [
+            "h1-l001"
+          ],
+          "after": [
+            "h1-l001"
+          ],
+          "reason": "Corrected the running header’s OCR-conflated spacing to T ANTES DO O. as printed."
+        },
+        {
+          "before": [
+            "h2-l001"
+          ],
+          "after": [
+            "h2-l001",
+            "pn-l001"
+          ],
+          "reason": "Separated the printed folio 260. from the right running header, corrected that header to T ANTES DO O., and preserved the numeral in its own page_number zone; no source text is discarded."
+        },
+        {
+          "before": [],
+          "after": [
+            "cw-l001"
+          ],
+          "reason": "Inserted the omitted bottom-right catchword Tomo- in a catchword zone. It anticipates Tomodachi on f512 and is not part of c2-l048’s cap-definition continuation."
+        }
+      ],
+      "typeface_terms": {
+        "c1-l046": [
+          "Mon."
+        ],
+        "c2-l002": [
+          "chanoyu"
+        ],
+        "c2-l028": [
+          "Fotoque",
+          "Camis"
+        ]
+      }
+    },
+    "bnf-f0512": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c1-l023: The central m in Tǒmot is worn and compact. Tǒmot is the chosen reading after enlargement, bilingual comparison with Caramono and Couſa da China, and the supplied NINJAL lexical cross-check (260c13).",
+        "c2-l037: The initial capital in Dia is severely abraded and looks L-like. Dia is retained from the aligned OCR as a usable but qualified reading, supported by the remaining ia and the preceding date definition; a secure printed L cannot be established.",
+        "c2-l038: Abrasion crosses ǒn in Tonicǒni. The surviving strokes, following equivalence with Tonicacuni, and supplied NINJAL record 260d18 support the incorporated reading."
+      ],
+      "decision_requests": [],
+      "structural_changes": [
+        {
+          "before": [
+            "h1-l001"
+          ],
+          "after": [
+            "h1-l001"
+          ],
+          "reason": "Restored the visible space between T and ANTES in the running header; its stable furniture ID is retained."
+        },
+        {
+          "before": [
+            "h2-l001"
+          ],
+          "after": [
+            "h2-l001"
+          ],
+          "reason": "Restored T ANTES DO O. from the scan, including the space after T, and removed the spurious OCR paragraph sign; the printed header ends at the full stop."
+        },
+        {
+          "before": [
+            "u2b-l001"
+          ],
+          "after": [
+            "u2b-l001"
+          ],
+          "reason": "Reclassified the isolated bottom-right furniture as the catchword zone, corrected Tonje to the fully visible Tonjei, set ordinary roman type, and recorded far-right placement. The same stable ID retains all the printed material."
+        }
+      ],
+      "typeface_terms": {
+        "c1-l014": [
+          "Fab."
+        ],
+        "c1-l025": [
+          "Xendǒ"
+        ],
+        "c1-l032": [
+          "Fune"
+        ],
+        "c1-l042": [
+          "Tonnai"
+        ],
+        "c2-l022": [
+          "Yodo"
+        ],
+        "c2-l023": [
+          "Cauaxiri"
+        ],
+        "c2-l024": [
+          "Toi"
+        ]
+      }
+    }
+  }
+}
