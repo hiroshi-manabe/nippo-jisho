@@ -1,0 +1,283 @@
+{
+  "schema": 2,
+  "package_id": "production-f0504-f0505-f0506-fa0928e8",
+  "input_manifest_sha256": "391e488d3b13bdc2698fc306ea36b000ba7455bd973af54114aa8f16673a60a3",
+  "reviewer": "OpenAI ChatGPT — GPT-6 Astra Pro (scan-grounded external review; parallel page review and independent final audit)",
+  "pages": {
+    "bnf-f0504": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c1-l002: The enlarged impression supports the anomalous ruzão rather than a secure razão; aligned OCR is retained and the reason sense is explained in the note.",
+        "c1-l012: The weak f in eſquife has a small surviving cross stroke; the nautical reading is incorporated with the damaged impression noted.",
+        "c1-l014: Faxifune is chosen for the boat-name despite a heavily abraded n; the surviving forms and context support the reading.",
+        "c1-l011, c1-l027, c1-l038: The small worn letters in pequena, the negative nãohe, and final e of este are chosen from their surviving traces and Portuguese context; line notes retain these caveats.",
+        "c1-l028: Miga and the historical past itaita are retained as the chosen reading of the abraded first-person handiwork example; they are not normalized to modern Japanese.",
+        "c1-l039: The first r of ar remeter is heavily abraded; its unusual locally aligned word separation is retained.",
+        "c1-l041: The example Tezzucai has a worn c; the chosen reading agrees with the headword and house-layout gloss.",
+        "c2-l002: The final o in monouo is very faint at the right edge; its residual curve and object-particle construction support the incorporated reading.",
+        "c2-l012: The damaged na ru is retained with its visible separation and interpreted as naru; the note distinguishes transcription from grammatical interpretation.",
+        "c2-l032: Itto is chosen for the first measurement example despite worn middle t-strokes; the note keeps the caveat.",
+        "c2-l045: The internal s-types of Depreſſa are abraded; the chosen double-s reading is retained with a local warning."
+      ],
+      "decision_requests": [],
+      "structural_changes": [
+        {
+          "before": [
+            "h1-l001"
+          ],
+          "after": [
+            "h1-l001"
+          ],
+          "reason": "Corrected the left running header from TNTES DOE. to the visible T ANTES DO E.; original ID preserved."
+        },
+        {
+          "before": [
+            "h2-l001"
+          ],
+          "after": [
+            "h2-l001"
+          ],
+          "reason": "Restored the visible word separation in the right running header T ANTES DO E.; original ID preserved."
+        },
+        {
+          "before": [
+            "s2-01-l001"
+          ],
+          "after": [
+            "s2-01-l001"
+          ],
+          "reason": "Restored the visible word separation in the internal heading T ANTES DO O.; its section-heading zone is retained."
+        },
+        {
+          "before": [
+            "c2-l030"
+          ],
+          "after": [
+            "c2-l030"
+          ],
+          "reason": "Restored To from OCR -o, recording the enlarged initial T as initial=2 and removing the erroneous continuation indentation. The owning crop is taller so the complete T spanning two physical rows is visible; no neighboring text or IDs moved."
+        },
+        {
+          "before": [
+            "u2b-l001"
+          ],
+          "after": [
+            "u2b-l001"
+          ],
+          "reason": "Reclassified the provisional bottom-furniture row as a far-right italic catchword and corrected tifſe to tirſe. It anticipates f505 opening tirſe cedo and completes the preceding Par-; the stable ID and all visible material are preserved."
+        }
+      ],
+      "typeface_terms": {
+        "c1-l013": [
+          "Cami",
+          "Teuma"
+        ],
+        "c1-l014": [
+          "faxifune"
+        ]
+      }
+    },
+    "bnf-f0505": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c1-l027: The first Tǒbachi caron is worn; the surviving right branch and the clear Tǒbachi cross-reference at c1-l037 support the chosen caron. The line note preserves the caveat.",
+        "c1-l033: The example’s o carries a very faint downward-pointing mark; Tǒbande is adopted, with the weak mark recorded in the line note."
+      ],
+      "decision_requests": [],
+      "structural_changes": [
+        {
+          "before": [
+            "h1-l001"
+          ],
+          "after": [
+            "h1-l001"
+          ],
+          "reason": "Corrected the left running header’s final letter from OCR V to the printed O; the full heading is T ANTES DO O."
+        },
+        {
+          "before": [
+            "h2-l001"
+          ],
+          "after": [
+            "h2-l001",
+            "pn-l001"
+          ],
+          "reason": "Separated the right running header from the omitted/misrecognized page-number material. The scan prints T ATES DO O. without N and a distinct page number 257; OCR’s trailing Y is not retained as header text. Both printed elements are represented, and the header anomaly is noted."
+        },
+        {
+          "before": [
+            "c1-l010"
+          ],
+          "after": [
+            "c1-l010"
+          ],
+          "reason": "Restored flush-left placement for the Tô headword, whose faint initial T was missed by OCR. The row is an independent headword, not an indented continuation."
+        },
+        {
+          "before": [
+            "c2-l039"
+          ],
+          "after": [
+            "c2-l039"
+          ],
+          "reason": "Restored the visible continuation indentation of the short sestros row; all its text remains on the same stable ID."
+        },
+        {
+          "before": [
+            "u2b-l001"
+          ],
+          "after": [
+            "u2b-l001",
+            "cw-l001"
+          ],
+          "reason": "Split the combined provisional bottom furniture into the signature T t t (retaining u2b-l001) and the separately positioned roman catchword Tobixi- (new cw-l001, far right). Assigned signature and catchword zones; all visible material is accounted for."
+        }
+      ],
+      "typeface_terms": {
+        "c1-l018": [
+          "Qiri"
+        ],
+        "c2-l037": [
+          "Mico",
+          "Cami"
+        ]
+      }
+    },
+    "bnf-f0506": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c1-l006: The final ij of Tobocaxij is abraded; faint residual strokes and the repeated complete form below support the incorporated reading.",
+        "c1-l022: The fourth type of acaſu is largely lost. The lighting context and surviving tall remnant support ſ, but the reading remains uncertain.",
+        "c1-l030: The dotted consonantal initial in iũ- / tos is almost lost; iũ- is the chosen reading, with i versus j unresolved at glyph level.",
+        "c1-l038: Repartißem is the chosen reading of the damaged s-sort; the ß representation is a nonblocking typographic caveat.",
+        "c2-l004: The vowel immediately after t in toburǒ and the consonant in retained goxeno are abraded; the incorporated readings should not be treated as independently secure modern forms.",
+        "c2-l008: ſeia is heavily abraded, particularly e. The surviving long ſ and dotted i support this historical form rather than modernization to seja."
+      ],
+      "decision_requests": [],
+      "structural_changes": [
+        {
+          "before": [
+            "h1-l001"
+          ],
+          "after": [
+            "h1-l001"
+          ],
+          "reason": "Restored the damaged/misrecognized running header as T ANTES DO O. from the scan; stable furniture ID retained."
+        },
+        {
+          "before": [
+            "h2-l001"
+          ],
+          "after": [
+            "h2-l001"
+          ],
+          "reason": "Restored the visible word space in T ANTES DO O.; stable running-header ID retained."
+        },
+        {
+          "before": [
+            "c1-l004"
+          ],
+          "after": [
+            "c1-l004"
+          ],
+          "reason": "Marked the visibly indented short continuation Oriente. with one indentation level; no text moved or lost."
+        },
+        {
+          "before": [
+            "c1-l006"
+          ],
+          "after": [
+            "c1-l006"
+          ],
+          "reason": "Marked the visibly indented continuation of Tobocaxij; stable physical-row ID and text location retained."
+        },
+        {
+          "before": [
+            "c1-l007"
+          ],
+          "after": [
+            "c1-l007"
+          ],
+          "reason": "Marked the visibly indented continuation of the preceding negative example; stable physical-row ID retained."
+        },
+        {
+          "before": [
+            "c1-l013"
+          ],
+          "after": [
+            "c1-l013"
+          ],
+          "reason": "Marked the visibly indented Portuguese continuation of diſ- / ſimulação; physical row remains separate."
+        },
+        {
+          "before": [
+            "c1-l047"
+          ],
+          "after": [
+            "c1-l047"
+          ],
+          "reason": "Removed provisional continuation indentation from Toburai, which begins a new entry at the headword margin; its definition continues in column 2."
+        },
+        {
+          "before": [
+            "c2-l044"
+          ],
+          "after": [
+            "c2-l044"
+          ],
+          "reason": "Removed provisional indentation from the independent Tochimecaxi headword, aligned with the headword margin."
+        },
+        {
+          "before": [
+            "c2-l046"
+          ],
+          "after": [
+            "c2-l046"
+          ],
+          "reason": "Removed provisional indentation from the independent Tochi mochi headword, aligned with the headword margin."
+        },
+        {
+          "before": [
+            "u2b-l001"
+          ],
+          "after": [
+            "u2b-l001"
+          ],
+          "reason": "Classified the isolated bottom-right Tôchincǒ. as catchword furniture, corrected its initial/diacritic and final stop from the scan, changed display markup to the printed roman type, and recorded far-right placement. No body text was removed."
+        }
+      ],
+      "typeface_terms": {
+        "c1-l018": [
+          "Cami"
+        ],
+        "c1-l019": [
+          "Taitogome"
+        ],
+        "c2-l012": [
+          "Ximo"
+        ],
+        "c2-l014": [
+          "Miaco"
+        ],
+        "c2-l020": [
+          "Miaco"
+        ],
+        "c2-l039": [
+          "Tochi"
+        ],
+        "c2-l046": [
+          "Mochis"
+        ],
+        "c2-l047": [
+          "Tochi"
+        ]
+      }
+    }
+  }
+}
