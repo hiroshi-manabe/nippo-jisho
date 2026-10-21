@@ -1,0 +1,206 @@
+{
+  "schema": 2,
+  "package_id": "production-f0525-f0526-f0527-fa0928e8",
+  "input_manifest_sha256": "346dc3c5df149b47a9c9e656b8db21ee1d3f5d0d05085ebdb0508f3c3e23d4b2",
+  "reviewer": "ChatGPT — GPT-6 Astra Pro; parallel page reviews with consolidated scan, linguistic, and structural checks.",
+  "pages": {
+    "bnf-f0525": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c1-l010: Iapão is adopted from the surviving curved right half of the damaged final o, correcting OCR Iapãs; the left flank is abraded.",
+        "c1-l030: The expected Vadatçu is supported by the supplied NINJAL index, but the a after V is not securely visible; Vdatçu is retained as the usable diplomatic reading.",
+        "c2-l016: The apparent printed Camude is retained despite its lexical peculiarity; it has not been normalized to canudo.",
+        "c2-l035/c2-l036: The scan supports Eſcude-/lus, an apparent printing anomaly for expected Eſcude-/las; the visible u is preserved."
+      ],
+      "decision_requests": [],
+      "structural_changes": [
+        {
+          "before": [
+            "h1-l001"
+          ],
+          "after": [
+            "h1-l001"
+          ],
+          "reason": "Restored visible word separation in the running header: V ANTES DO A."
+        },
+        {
+          "before": [
+            "h2-l001"
+          ],
+          "after": [
+            "h2-l001",
+            "pn-l001"
+          ],
+          "reason": "Separated the running header V ANTES DO A. from the physically distinct right-aligned page number 267.; all original header and numeral text is retained."
+        },
+        {
+          "before": [
+            "u2b-l001"
+          ],
+          "after": [
+            "u2b-l001",
+            "cw-l001"
+          ],
+          "reason": "Split the provisional conflation XX Vana- into the distinct central signature X x x 3 (restoring omitted/ misread signature types) and the far-right catchword Vana-. Reclassified them in signature and catchword zones; no body text is removed."
+        }
+      ],
+      "typeface_terms": {
+        "c1-l009": [
+          "cobitas"
+        ],
+        "c1-l040": [
+          "Cami",
+          "Cure"
+        ]
+      }
+    },
+    "bnf-f0526": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c1-l012: The small mark over a in Vãriqi is worn; it is retained as an abbreviation tilde, supported by the unabbreviated govanriqi on the following row and the attributed NINJAL headword. The pilcrow before Deos is also worn but its remnant and example boundary are visible.",
+        "c1-l044: The scan shows anomalous runs with four types, not the expected ruins or OCR ruims. No secure i or abbreviation mark is supplied; compare clear ruins at c2-l001. The chosen printed form and the intended bad-roads sense are recorded in the line note.",
+        "c2-l014: The damaged word is retained as repreſe- before tar on the next row. The internal OCR space is removed, but no missing n or final-e tilde is supplied: the tiny mark above e does not securely establish ẽ."
+      ],
+      "decision_requests": [],
+      "structural_changes": [
+        {
+          "before": [
+            "h1-l001"
+          ],
+          "after": [
+            "h1-l001"
+          ],
+          "reason": "Corrected running-header spacing to the visibly printed V ANTESDO A.; the first header has no distinct word gap between ANTES and DO."
+        },
+        {
+          "before": [
+            "h2-l001"
+          ],
+          "after": [
+            "h2-l001"
+          ],
+          "reason": "Corrected running-header spacing to V ANTES DO A., retaining its distinct S-to-D word gap."
+        },
+        {
+          "before": [
+            "c1-l038"
+          ],
+          "after": [
+            "c1-l038"
+          ],
+          "reason": "Encoded the isolated right-hand parenthesis and eruas. as named far-right spans on their existing physical row. They complete the following Vaqeide gloss semantically but are not moved out of their printed position; all text is retained."
+        },
+        {
+          "before": [
+            "u2b-l001"
+          ],
+          "after": [
+            "u2b-l001"
+          ],
+          "reason": "Reclassified the provisional bottom furniture as the printed catchword, kept the same ID and text Vaqi-, restored upright ordinary type and far-right placement, and supplied an optional crop."
+        }
+      ],
+      "typeface_terms": {
+        "c1-l003": [
+          "Ximo",
+          "Vuanari"
+        ],
+        "c1-l009": [
+          "Camis",
+          "Fotoques"
+        ],
+        "c2-l006": [
+          "Ximo"
+        ],
+        "c2-l017": [
+          "Cami"
+        ],
+        "c2-l029": [
+          "Ximo",
+          "Furiſode"
+        ],
+        "c2-l030": [
+          "Quimoens"
+        ],
+        "c2-l040": [
+          "Fotoque"
+        ],
+        "c2-l042": [
+          "Vaqi"
+        ]
+      }
+    },
+    "bnf-f0527": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c1-l001: The middle of Hua is worn; retained Hua without supplying an unestablished tilde.",
+        "c1-l015: Retained visible aliquindo, understood in context as an anomalous or damaged form of Latin aliquando, rather than silently supplying a.",
+        "c1-l017: The scan prints Vaqinichi with a single n despite the expected wakimichi (NINJAL Vaqimichi); the visible anomaly and italic initial V are retained.",
+        "c1-l031: Particulares is locally abraded; surviving strokes and context support the chosen reading over OCR partinulares.",
+        "c2-l042: The scan visibly reads fula in the flower description; it is retained without modernization to flor.",
+        "h2-l001: The header prints ATES without N or a secure nasal abbreviation; this literal reading is retained."
+      ],
+      "decision_requests": [],
+      "structural_changes": [
+        {
+          "before": [
+            "h1-l001"
+          ],
+          "after": [
+            "h1-l001"
+          ],
+          "reason": "Corrected the garbled running header from VANTLSVOA. to the scan-supported V ANTES DO A.; retained its stable ID."
+        },
+        {
+          "before": [
+            "h2-l001"
+          ],
+          "after": [
+            "h2-l001",
+            "pn-l001"
+          ],
+          "reason": "Separated the distinct printed page number 268. from the column-2 running header into a page_number zone. The header visibly reads V ATES DO A.; its printed missing N is preserved. All original material remains represented."
+        },
+        {
+          "before": [
+            "u2b-l001"
+          ],
+          "after": [
+            "u2b-l001"
+          ],
+          "reason": "Classified the isolated bottom-right Vari. as a catchword, moved it from provisional unclassified furniture to a catchword zone, restored far-right placement, and recorded its ordinary roman type rather than display type. No body text is removed."
+        }
+      ],
+      "typeface_terms": {
+        "c1-l018": [
+          "Vaqi"
+        ],
+        "c1-l023": [
+          "Vaqimaye"
+        ],
+        "c1-l038": [
+          "Camis"
+        ],
+        "c1-l043": [
+          "Cami",
+          "Varacongǒ"
+        ],
+        "c1-l046": [
+          "Varabaqimono"
+        ],
+        "c2-l024": [
+          "Varagi"
+        ],
+        "c2-l027": [
+          "Vari"
+        ]
+      }
+    }
+  }
+}
