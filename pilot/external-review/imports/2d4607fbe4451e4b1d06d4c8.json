@@ -1,0 +1,182 @@
+{
+  "schema": 2,
+  "package_id": "production-f0501-f0502-f0503-fa0928e8",
+  "input_manifest_sha256": "c82f482bc39ccf21ec50cdcf5c78da8b75e2f8958f2c31f674a34d2e5f7cc101",
+  "reviewer": "GPT-6 Astra Pro (OpenAI ChatGPT; parallel page reviews with independent coordinator checks)",
+  "pages": {
+    "bnf-f0501": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c1-l017: Retained fura from the abraded local vowel; NINJAL record 255a09 identifies fara (te no hara). The u/a distinction is uncertain, and the note preserves the lexical evidence without normalizing the scan.",
+        "c2-l028: Retained the final visible long ſ where it meets the right rule. Expected ſe is linguistically clear, but no separate e is securely visible.",
+        "c2-l031: Chose toma per tina. The abraded m in toma and the middle vowel in per are noted; surviving strokes and comparison with secure por favor these readings."
+      ],
+      "decision_requests": [],
+      "structural_changes": [
+        {
+          "before": [
+            "h1-l001"
+          ],
+          "after": [
+            "h1-l001"
+          ],
+          "reason": "Corrected the running header from joined OCR TANTESDO E. to the visibly separated T ANTES DO E.; retained its ID and display type."
+        },
+        {
+          "before": [
+            "h2-l001"
+          ],
+          "after": [
+            "h2-l001",
+            "pn-l001"
+          ],
+          "reason": "Separated the second running header from the adjacent printed page number. Corrected the header to T ANTES DO E. and moved its existing 255. into the new page-number row pn-l001; no printed material is lost."
+        },
+        {
+          "before": [
+            "c2-l048"
+          ],
+          "after": [
+            "c2-l048"
+          ],
+          "reason": "Moved the OCR bottom row out of column-2 body text into the signature zone and retained the signature as S ſ ſ 3 in display type. Removed its OCR Teu fragment because it duplicates the single catchword already represented by u2b-l001; that catchword remains fully preserved there."
+        },
+        {
+          "before": [
+            "u2b-l001"
+          ],
+          "after": [
+            "u2b-l001"
+          ],
+          "reason": "Classified the provisional bottom furniture as the catchword, corrected its visible text and punctuation to Ten-v., and placed it at the far right. It anticipates the next page’s first headword and is not running body text."
+        }
+      ],
+      "typeface_terms": {
+        "c1-l007": [
+          "Dairi"
+        ],
+        "c1-l022": [
+          "Muxi"
+        ],
+        "c1-l023": [
+          "tçubomuxi"
+        ],
+        "c1-l033": [
+          "Ienxùs"
+        ],
+        "c1-l042": [
+          "Xaca"
+        ]
+      }
+    },
+    "bnf-f0502": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c1-l027: Retained abraded ya uuo after Tẽ-; the expected c of tenyacuuo is not securely visible. The line note explains the intended assignment-of-duty example.",
+        "c1-l034: Retained co no official as the visible provisional form; the intended comparison is probably como official, but the damaged m cannot be securely recovered.",
+        "c2-l007: Retained Taxicara tçutaye; intended Japanese is tashikana tsutae, but the abraded penultimate consonant does not securely establish n.",
+        "c2-l011: Chose Teqifǒ. The f is clear; only a rising right arm of the vowel mark survives, supporting a provisional caron. NINJAL provides corroborating lexical identification, not independent proof of this impression.",
+        "c2-l042: Retained past-form aia because the expected t of aita is not securely established in the abraded patch. The supplied NINJAL index supports aita as the lexical principal part."
+      ],
+      "decision_requests": [],
+      "structural_changes": [
+        {
+          "before": [
+            "h1-l001"
+          ],
+          "after": [
+            "h1-l001"
+          ],
+          "reason": "Separated the visible words of the running header as T ANTES DO E.; no letters or furniture have been removed."
+        },
+        {
+          "before": [
+            "c1-l046"
+          ],
+          "after": [
+            "c1-l046"
+          ],
+          "reason": "Removed spurious continuation indentation: Teqian begins at the normal headword margin and starts a separate entry."
+        },
+        {
+          "before": [
+            "u2b-l001"
+          ],
+          "after": [
+            "u2b-l001"
+          ],
+          "reason": "Reclassified provisional bottom furniture as the right-aligned catchword, corrected OCR Toi to Teri, and recorded its ordinary roman type rather than display type. It anticipates Tericacayaqi on f503; no body text was removed."
+        }
+      ],
+      "typeface_terms": {
+        "c1-l033": [
+          "Ienxùs"
+        ],
+        "c2-l027": [
+          "Vogui"
+        ],
+        "c2-l041": [
+          "Fi"
+        ]
+      }
+    },
+    "bnf-f0503": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c1-l003: The damaged ending det vareta is retained provisionally; the scan does not securely support restoring an expected Japanese verb such as derareta.",
+        "c1-l004: Sahio tambem is abraded. The open lower curl supports h, and the visible spacing is retained; the gloss is understood as coming out so well dressed.",
+        "c1-l028: Printed ſǒtenno is retained although the transmitted-doctrine context suggests sōden; no unprinted d is supplied.",
+        "c1-l031: The conjunction appears as o rather than expected ou; the visible one-letter form is retained.",
+        "c1-l036: The long-o mark in Tetgiǒ is damaged; the baseline caron is retained.",
+        "c1-l047: A small grave-like stroke above a is retained as Tetguàn; the supplied NINJAL lexical entry is unaccented Tetguan.",
+        "c2-l008: The o in interior- is abraded; residual form and the continuation mente support interiormente.",
+        "u2b-l001: Catchword netrado has a very weak final o beside the right rule; it is retained as the usable reading."
+      ],
+      "decision_requests": [],
+      "structural_changes": [
+        {
+          "before": [
+            "h1-l001"
+          ],
+          "after": [
+            "h1-l001"
+          ],
+          "reason": "Restored the visibly separated running-header words T ANTES DO E.; preserved the existing header ID."
+        },
+        {
+          "before": [
+            "h2-l001"
+          ],
+          "after": [
+            "h2-l001",
+            "pn-l001"
+          ],
+          "reason": "Separated the merged right running header and page number into running_header and page_number zones. Header reads T ANTES DO E. and the printed number is 256., correcting OCR 275.; no content is lost."
+        },
+        {
+          "before": [
+            "u2b-l001"
+          ],
+          "after": [
+            "u2b-l001"
+          ],
+          "reason": "Reclassified the separate bottom-right fragment as a catchword, retained its ID, restored italic type and far-right placement, and corrected netrade to netrado. It anticipates the continuation of pe- and is not a body row."
+        }
+      ],
+      "typeface_terms": {
+        "c1-l004": [
+          "Feiq."
+        ],
+        "c2-l018": [
+          "Taif."
+        ]
+      }
+    }
+  }
+}
