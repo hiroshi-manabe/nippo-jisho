@@ -1,0 +1,184 @@
+{
+  "schema": 2,
+  "package_id": "production-f0519-f0520-f0521-fa0928e8",
+  "input_manifest_sha256": "72854bd0ed05477860bfcb37f6f3cf4398db1182a96725836cac6532eb401ea2",
+  "reviewer": "ChatGPT, GPT-6 Astra Pro; parallel per-page scan reviewers, with integrated cross-page and typography review.",
+  "pages": {
+    "bnf-f0519": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c1-l023: Retained Zaxiqu, identifying zashiki from context. No independent final i is visible after the two-stroke u before the comma; the ending may be shortened in print or damaged.",
+        "c1-l030: Retained the visible Tori çuzzuquru with its space and no supplied t before ç; toritçuzzuquru is lexically expected, but no extra type is established in this impression.",
+        "c2-l040: Adopted hia, supported by the historical Portuguese construction and the similarly closed italic h of homem at c1-l018. The initial can resemble b, so the h/b choice remains nonblocking."
+      ],
+      "decision_requests": [],
+      "structural_changes": [
+        {
+          "before": [
+            "h1-l001"
+          ],
+          "after": [
+            "h1-l001"
+          ],
+          "reason": "Corrected the running header from the scan to T ANTES DO O.; the OCR terminal dash is the printed full stop."
+        },
+        {
+          "before": [
+            "h2-l001"
+          ],
+          "after": [
+            "h2-l001",
+            "pn-l001"
+          ],
+          "reason": "Separated printed page number 264. from the right running header, preserving the header ID and adding a page-number ID. Corrected the OCR letters and retained the tighter printed ANTESDO spacing; no text is discarded."
+        },
+        {
+          "before": [],
+          "after": [
+            "c2-l030a"
+          ],
+          "reason": "Inserted the omitted physical row Celebrar, ou fazer algum officio, ou ſolẽnidade. after c2-l030. It translates the Fôjiuo example; later IDs are unchanged and a native crop is supplied."
+        },
+        {
+          "before": [
+            "u2b-l001"
+          ],
+          "after": [
+            "u2b-l001"
+          ],
+          "reason": "Reclassified the provisional bottom fragment as the far-right upright catchword miuo, anticipating f520/c1-l001. Removed the OCR terminal l because it is the vertical column rule, not a glyph; no body text is lost."
+        }
+      ],
+      "typeface_terms": {
+        "c1-l003": [
+          "Sacanas"
+        ],
+        "c1-l023": [
+          "Zaxiqu"
+        ]
+      }
+    },
+    "bnf-f0520": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c1-l015: Bicho is retained as the usable reading of the damaged E-like capital; surviving strokes and bichinho below support it, but the initial is not intact.",
+        "c1-l016: riù xani is the selected reading of the abraded vehicle expression; the final vowel and grave-like long-vowel mark are less secure than the surrounding text. The printed space is retained.",
+        "c1-l020: The damaged vowel in tom arcom is read a; the unusual internal separation and joining to com are preserved rather than regularized.",
+        "c2-l032: China restores a heavily abraded initial C from its residual curved stroke and the surrounding geographical wording.",
+        "c2-l043: Totǒ and Taitǒni are selected from worn type and the matching Japanese phrase; the medial t of Totǒ is particularly abraded."
+      ],
+      "decision_requests": [],
+      "structural_changes": [
+        {
+          "before": [
+            "h1-l001"
+          ],
+          "after": [
+            "h1-l001"
+          ],
+          "reason": "Corrected the running-header word spacing to T ANTES DO O. from the native scan; the stable furniture ID is unchanged."
+        },
+        {
+          "before": [
+            "h2-l001"
+          ],
+          "after": [
+            "h2-l001"
+          ],
+          "reason": "Corrected the running-header word spacing to T ANTES DO O. from the native scan; the stable furniture ID is unchanged."
+        },
+        {
+          "before": [
+            "c1-l047"
+          ],
+          "after": [
+            "c1-l047"
+          ],
+          "reason": "Removed the false continuation indentation: Toſama begins a distinct headword aligned with the other entries at the column foot. Its em- continuation remains at c2-l001."
+        },
+        {
+          "before": [
+            "c2-l042"
+          ],
+          "after": [
+            "c2-l042"
+          ],
+          "reason": "Removed the spurious OCR paragraph sign before the independent left-aligned Tǒteqi headword. Its own complete gloss remains on the same physical row."
+        },
+        {
+          "before": [
+            "u2b-l001"
+          ],
+          "after": [
+            "u2b-l001",
+            "cw-l001"
+          ],
+          "reason": "Split the provisional combined bottom furniture into the true body continuation inſultos. (original ID u2b-l001, moved into column-2 with continuation indentation) and the separate far-right catchword Tǒto- (new ID cw-l001 in a catchword zone). The catchword anticipates f521 rather than continuing the gloss. All visible text is retained, OCR errors and display styling corrected, and both resulting crops supplied."
+        }
+      ],
+      "typeface_terms": {
+        "c1-l030": [
+          "Xiru"
+        ],
+        "c1-l038": [
+          "Toſa-"
+        ],
+        "c1-l039": [
+          "ca"
+        ],
+        "c1-l045": [
+          "Sacazzuqui"
+        ]
+      }
+    },
+    "bnf-f0521": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c1-l006: Retained Tôtoſa. The first vowel mark survives as an acute-like stroke, insufficient to distinguish a damaged circumflex from an acute; the detached spot near final a may belong to the damaged long-s hook and is not transcribed as a separate accent.",
+        "c1-l047: Retained the damaged example Touôm iru and its supplied spacing. The Portuguese means looking into the distance and supports intended touô miru, but the m/r strokes are too broken to justify silently normalizing the printed sequence.",
+        "c2-l009: Retained the supplied caron in Touonǒqe provisionally. Only a tiny triangular remnant survives above the second o; neither a definite alternative accent nor a confidently unmarked vowel is established.",
+        "c2-l034: Chose algũa where the l is largely abraded. Its detached upper stroke survives between a and gũa and the surrounding Portuguese supports the restoration."
+      ],
+      "decision_requests": [],
+      "structural_changes": [
+        {
+          "before": [
+            "h2-l001"
+          ],
+          "after": [
+            "h2-l001",
+            "pn-l001"
+          ],
+          "reason": "The provisional right running header conflated T ANTESDO O. with the printed page number and misread the latter as a6s. Preserved h2-l001 for the header and split the visibly separate 265. into a page_number zone under fresh pn-l001; no text is discarded."
+        },
+        {
+          "before": [
+            "u2b-l001"
+          ],
+          "after": [
+            "sig-l001",
+            "u2b-l001"
+          ],
+          "reason": "The provisional bottom row conflated the centered signature and right-aligned catchword. Split the printed X x x into a signature zone under fresh sig-l001 and retained u2b-l001 for the right-aligned catchword Tǒura. Corrected the signature case/spacing and catchword terminal punctuation from the scan; no material is removed."
+        }
+      ],
+      "typeface_terms": {
+        "c1-l007": [
+          "Tono"
+        ],
+        "c2-l026": [
+          "Sacazzuqui"
+        ],
+        "c2-l027": [
+          "Votouori"
+        ]
+      }
+    }
+  }
+}
