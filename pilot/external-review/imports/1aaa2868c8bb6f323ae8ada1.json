@@ -1,0 +1,172 @@
+{
+  "schema": 2,
+  "package_id": "production-f0507-f0508-f0509-fa0928e8",
+  "input_manifest_sha256": "e782804b6f055d31d495546e9140fd31904c066544200097e9f7c5c2a7614ad7",
+  "reviewer": "OpenAI ChatGPT, GPT-6 Astra Pro (AI scan-grounded review with parallel page reviewers and a coordinating visual audit)",
+  "pages": {
+    "bnf-f0507": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c1-l001: The scan reads feios without a visible t. This potentially anomalous form is retained instead of supplying expected feitos; grãosſinhos preserves the visible short-s/long-s sequence.",
+        "c1-l024: The last letter of tãc is open and c-shaped in this impression. The aligned OCR form is retained despite linguistically expected tão; the line note records the ambiguity.",
+        "c1-l025: Perſouejo is chosen for the bedbug gloss because the abraded vowel after P has a faint inner stroke; Porſouejo remains a possible graphic reading. The choice is incorporated and flagged in its note."
+      ],
+      "decision_requests": [],
+      "structural_changes": [
+        {
+          "before": [
+            "h1-l001"
+          ],
+          "after": [
+            "h1-l001"
+          ],
+          "reason": "Restored the visible separation between T and ANTES in the running header; its final period is retained."
+        },
+        {
+          "before": [
+            "h2-l001"
+          ],
+          "after": [
+            "h2-l001",
+            "pn-l001"
+          ],
+          "reason": "Separated the right running header T ANTES DO O from the printed page number 258. in a page_number zone; all original text is retained, with the header word spacing corrected."
+        },
+        {
+          "before": [
+            "c1-l048"
+          ],
+          "after": [
+            "c1-l048"
+          ],
+          "reason": "Restored indentation of the final first-column continuation, which aligns with the other continued gloss rows rather than the flush headwords."
+        },
+        {
+          "before": [
+            "c2-l036"
+          ],
+          "after": [
+            "c2-l036"
+          ],
+          "reason": "Restored the omitted opening mark and couſa. at the far right of this same physical row using named far-right segments. It semantically completes the next Tocugui entry but is not moved away from its printed location. Expanded this row crop vertically to include the complete displaced word."
+        },
+        {
+          "before": [
+            "u2b-l001"
+          ],
+          "after": [
+            "u2b-l001",
+            "cw-l001"
+          ],
+          "reason": "Split the combined provisional bottom furniture into the signature T t t 2 (retaining u2b-l001 in a signature zone) and far-right catchword Tocu- (new cw-l001 in a catchword zone). The catchword anticipates Tocurubuxi on the supplied next page; no source text is lost."
+        }
+      ],
+      "typeface_terms": {
+        "c1-l021": [
+          "Zaxiqu"
+        ],
+        "c2-l025": [
+          "Fotoques",
+          "Buppô"
+        ],
+        "c2-l026": [
+          "Buppô"
+        ],
+        "c2-l028": [
+          "Buppô"
+        ],
+        "c2-l046": [
+          "Sauogana"
+        ]
+      }
+    },
+    "bnf-f0508": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c2-l005: The contraction nǒ is retained with its visible caron, although nô might be expected linguistically; Falar com is retained without supplying a line-end hyphen before corrente.",
+        "c2-l015: Govoqiteuo is read without the OCR caron; the upper area has a faint fleck but does not securely establish the two-stroke diacritic.",
+        "c2-l017: The abraded space in tod quru is retained rather than supplying an unestablished o; the repeated todoquru and the promise-fulfillment gloss supply the usable interpretation."
+      ],
+      "decision_requests": [],
+      "structural_changes": [
+        {
+          "before": [
+            "c2-l012"
+          ],
+          "after": [
+            "c2-l012"
+          ],
+          "reason": "Added continuation indentation to the Portuguese row; its left edge aligns with neighboring indented gloss rows, not independent headwords. Text remains on the same physical line."
+        },
+        {
+          "before": [
+            "u2b-l001"
+          ],
+          "after": [
+            "u2b-l001"
+          ],
+          "reason": "Reclassified the detached lower-right text as a right-aligned catchword, corrected OCR gafai to visible gafaxi, and removed erroneous display styling. It anticipates f0509 gafaxiuo after the body-line Na-; no running text is removed."
+        }
+      ],
+      "typeface_terms": {
+        "c2-l021": [
+          "Ximo"
+        ]
+      }
+    },
+    "bnf-f0509": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c1-l012: ſuru is chosen over OCR furu. The initial is damaged and lacks the clear projecting crossbar of nearby f sorts; the Japanese construction and gloss support suru.",
+        "c1-l042: Retained printed caiumuru with a visible dotted i, despite the conceal/excuse gloss suggesting a familiar s-form. This is a literal printed anomaly, not silently regularized.",
+        "c2-l021: Boubas is chosen for the disease gloss. The capital B is abraded but retains a straight stem and bowl traces; OCR Coubas is not supported.",
+        "c2-l026: Retained unmarked Togue because no secure complete accent can be established above the abraded o. The supplied NINJAL index lists Tǒgue, but does not govern this copy’s marks.",
+        "c2-l030: Retained the apparent extra c in viſitãdco. The t before ã and a separate c-shaped letter after d are visible; the form is not normalized to viſitãdo.",
+        "c2-l031: Retained Muronuo; the r is very abraded, while the treason gloss suggests expected muhon. No unsupported replacement or abbreviation sign is supplied."
+      ],
+      "decision_requests": [],
+      "structural_changes": [
+        {
+          "before": [
+            "h1-l001"
+          ],
+          "after": [
+            "h1-l001"
+          ],
+          "reason": "Corrected the first running header from OCR TNTES DO O. to the printed T ANTES DO O.; retained its stable ID."
+        },
+        {
+          "before": [
+            "h2-l001"
+          ],
+          "after": [
+            "h2-l001",
+            "pn-l001"
+          ],
+          "reason": "Separated the printed folio 259. from the second running header, correcting OCR 27o.; h2-l001 retains the header T ANTESDO O. and new pn-l001 holds the page number in a page_number zone. All visible material is accounted for."
+        },
+        {
+          "before": [
+            "u2b-l001"
+          ],
+          "after": [
+            "u2b-l001",
+            "cw-l001"
+          ],
+          "reason": "Split the provisional combined bottom furniture into signature T tt 3 (retaining u2b-l001) and separate far-right catchword Tǒgocu. (new cw-l001). Corrected the OCR signature tt S from the native scan and assigned signature/catchword zones; no body text is removed."
+        }
+      ],
+      "typeface_terms": {
+        "c2-l038": [
+          "Catanas"
+        ]
+      }
+    }
+  }
+}
