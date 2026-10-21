@@ -1,0 +1,202 @@
+{
+  "schema": 2,
+  "package_id": "production-f0516-f0517-f0518-fa0928e8",
+  "input_manifest_sha256": "7b4b883512b788476210d4e06f5056b25923dffe54ea63ec00143094af9e785f",
+  "reviewer": "ChatGPT — GPT-6 Astra Pro; parallel scan-grounded page review with primary integration and validation",
+  "pages": {
+    "bnf-f0516": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [],
+      "decision_requests": [],
+      "structural_changes": [
+        {
+          "before": [
+            "h1-l001"
+          ],
+          "after": [
+            "h1-l001"
+          ],
+          "reason": "Corrected the damaged left running header from OCR TANIES DO O. to T ANTES DO O., retaining the stable furniture ID and display type."
+        },
+        {
+          "before": [
+            "h2-l001"
+          ],
+          "after": [
+            "h2-l001"
+          ],
+          "reason": "Corrected the right running-header word separation to T ANTES DO O. from the scan, retaining the same ID and zone."
+        },
+        {
+          "before": [
+            "u2b-l001"
+          ],
+          "after": [
+            "u2b-l001"
+          ],
+          "reason": "Reclassified provisional bottom furniture as the catchword veſtidos, matching the next page opening. Preserved its ID, restored the visible comma and italic type, and placed the whole catchword at the far right; no body text is removed."
+        }
+      ],
+      "typeface_terms": {
+        "c2-l044": [
+          "Catana"
+        ]
+      }
+    },
+    "bnf-f0517": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c1-l045: Retained the apparent printed anomaly ba in que ba em algum homem. Its closed bowl differs from the h types in habilidade and homem on the same row; the expected Portuguese ha has not been substituted.",
+        "c2-l034: Chosen desfazir. with one final r. The small vowel after z is abraded and could conceal an e; i is the visible provisional reading, and the chosen reading is explained in the line note."
+      ],
+      "decision_requests": [],
+      "structural_changes": [
+        {
+          "before": [
+            "h1-l001"
+          ],
+          "after": [
+            "h1-l001"
+          ],
+          "reason": "Corrected the left running-header word separation from TANTES DO O. to the visibly spaced T ANTES DO O.; the stable header ID is unchanged."
+        },
+        {
+          "before": [
+            "h2-l001"
+          ],
+          "after": [
+            "h2-l001",
+            "pn-l001"
+          ],
+          "reason": "Separated the upper-right page number from the running header, corrected its OCR 26 to the visible 263, and placed it in a page_number zone under fresh pn-l001. The running header remains h2-l001 as T ANTESDO O., preserving the close ANTESDO grouping."
+        },
+        {
+          "before": [
+            "c1-l042"
+          ],
+          "after": [
+            "c1-l042"
+          ],
+          "reason": "Marked the vigiar continuation as indentation level 1, aligning it with the surrounding continuation lines rather than treating it as a flush-left entry."
+        },
+        {
+          "before": [
+            "c1-l048"
+          ],
+          "after": [
+            "c1-l048"
+          ],
+          "reason": "Marked the short boa parte continuation as indentation level 1; it remains body text with its existing crop and ID."
+        },
+        {
+          "before": [
+            "c2-l040"
+          ],
+          "after": [
+            "c2-l040"
+          ],
+          "reason": "Added the omitted far-right (mi. as explicitly placed named mark and word spans on this physical row. It completes Ca on c2-l039 (Cami) while Torijdaxi and its Tirar fora gloss remain the main row; the existing crop includes the complete right-side material."
+        },
+        {
+          "before": [
+            "u2b-l001"
+          ],
+          "after": [
+            "sig-l001",
+            "u2b-l001"
+          ],
+          "reason": "Split the combined provisional bottom furniture into the visible signature V u u 3 (correcting OCR 8) under fresh sig-l001 and the italic right-aligned catchword minho under the retained u2b-l001. Both printed components are preserved in separate signature and catchword zones; minho anticipates the following page."
+        }
+      ],
+      "typeface_terms": {
+        "c1-l010": [
+          "Sacazzuqui"
+        ],
+        "c1-l021": [
+          "Ca-"
+        ],
+        "c1-l022": [
+          "mi"
+        ],
+        "c1-l032": [
+          "To-"
+        ],
+        "c1-l033": [
+          "ricui"
+        ],
+        "c1-l037": [
+          "Cami",
+          "Daxi"
+        ],
+        "c1-l042": [
+          "Ximo",
+          "Daxixiro"
+        ],
+        "c2-l018": [
+          "Zaxiqui"
+        ],
+        "c2-l039": [
+          "Ca"
+        ],
+        "c2-l040": [
+          "mi."
+        ]
+      }
+    },
+    "bnf-f0518": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c1-l018: Tẽ- is chosen for the faint capital at the end of the line; the following do and the Portuguese sense support tendo.",
+        "c1-l031: raſsocuuo is chosen for the worn candle word; the visible uo is the object particle, and NINJAL Rassocu. supports the lexical identification.",
+        "c1-l035: torimuſubu is chosen after enlarged letter counting; the r/i region is damaged, but no independently bounded extra a is visible.",
+        "c1-l044: The partly worn Interceſão is retained with a single long s; no expected doubling is supplied.",
+        "c2-l011: Torino axi is retained literally because the expected f of NINJAL Torinofaxi is not securely visible in this impression.",
+        "c2-l013: The final gloss word is provisionally afatar, matching the one visible crossbarred shaft after afa-; a damaged st or ſt ligature could yield afastar, but a separate low s element cannot be securely established.",
+        "c2-l022: particularmete is retained without a supplied n or abbreviation tilde in the worn middle.",
+        "c2-l024: ladroes is retained without a supplied nasal mark above the worn vowel area.",
+        "u2b-l001: The abraded catchword is chosen as Toriſoro-, using visible letter remains and the next-page NINJAL Torisoroye identification; internal ſ/o is uncertain."
+      ],
+      "decision_requests": [],
+      "structural_changes": [
+        {
+          "before": [
+            "h1-l001"
+          ],
+          "after": [
+            "h1-l001"
+          ],
+          "reason": "Restored the visible word spacing in the first running header as T ANTES DO O; no terminal full stop is securely printed there. Retained the stable furniture ID."
+        },
+        {
+          "before": [
+            "c2-l032"
+          ],
+          "after": [
+            "c2-l032"
+          ],
+          "reason": "Marked the physical continuation na terra as indentation level 1, matching the neighboring continuation rows. Text and crop remain on the same stable ID."
+        },
+        {
+          "before": [
+            "u2b-l001"
+          ],
+          "after": [
+            "u2b-l001"
+          ],
+          "reason": "Reclassified provisional bottom furniture as the right-aligned catchword; corrected the damaged reading from Tor ieto to provisional Toriſoro- and removed unsupported display styling. It anticipates the following page rather than forming another body row; all text remains under the original ID."
+        }
+      ],
+      "typeface_terms": {
+        "c1-l026": [
+          "Mochi"
+        ]
+      }
+    }
+  }
+}
