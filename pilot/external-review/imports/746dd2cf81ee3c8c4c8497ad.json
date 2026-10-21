@@ -1,0 +1,272 @@
+{
+  "schema": 2,
+  "package_id": "production-f0489-f0490-f0491-fa0928e8",
+  "input_manifest_sha256": "ea801769ccb378f801b479c70efc42f6d11b7d05fdc22a1fea3e04b7d1dc162d",
+  "reviewer": "GPT-6 Astra Pro",
+  "pages": {
+    "bnf-f0489": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c1-l022: The faint letter before ǔ in yaguiǔga is read as i; the animal is identified here by the Portuguese cabra. The caron and chosen letters are incorporated in the text and line note.",
+        "c2-l016: The weak r in emparo is read from residual ink and the Portuguese construction; the OCR space within the word is not retained.",
+        "c2-l030/c2-l031: The far-right parenthesis and &c. are physically on c2-l030 and may complete porto on the following row. Their placement is preserved without asserting a relocation.",
+        "c2-l046: The e beneath the tilde in gẽtios is faint; the chosen abbreviated reading is retained rather than expanded."
+      ],
+      "decision_requests": [],
+      "structural_changes": [
+        {
+          "before": [
+            "h2-l001"
+          ],
+          "after": [
+            "h2-l001",
+            "pn-l001"
+          ],
+          "reason": "Separated the printed page number 249. from the right running header into its own page-number zone, retaining h2-l001 for the corrected T ANTES DO ç. header."
+        },
+        {
+          "before": [
+            "c2-l030"
+          ],
+          "after": [
+            "c2-l030"
+          ],
+          "reason": "Restored the omitted parenthesis and &c. as named far-right spans on their physical row; the main estender sentence remains on this same ID, and no text is shifted to the following porto line."
+        },
+        {
+          "before": [
+            "u2b-l001"
+          ],
+          "after": [
+            "u2b-l001",
+            "cw-l001"
+          ],
+          "reason": "Split the OCR-merged bottom furniture into the signature R r r, retained as u2b-l001 in a signature zone, and the right-aligned catchword Tçuqi- in a catchword zone. All visible material is retained with scan-supported text corrections."
+        }
+      ],
+      "typeface_terms": {
+        "c1-l007": [
+          "Catana"
+        ],
+        "c2-l018": [
+          "Yax."
+        ],
+        "c2-l022": [
+          "Miſo"
+        ]
+      }
+    },
+    "bnf-f0490": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c1-l039: Tçuqit tari is retained with its abraded internal gap; tsukitatari is the lexical interpretation, but the missing-looking a is not supplied without surviving type.",
+        "c2-l018: Retained ſabio; the context calls for historical sahio (the moon has risen), but the visible lower bowl appears closer to b than h.",
+        "c2-l032: Adopted Tçuqizute from the surviving lower z-foot and lexical comparison with NINJAL; the upper part of z is badly abraded.",
+        "c2-l046: Adopted laya from the residual y-tail and the Portuguese kind/appearance gloss; the middle of the word is abraded."
+      ],
+      "decision_requests": [],
+      "structural_changes": [
+        {
+          "before": [
+            "h1-l001"
+          ],
+          "after": [
+            "h1-l001"
+          ],
+          "reason": "Corrected the running header letters, cedilla, spacing and punctuation from the native scan: T ANTES DO ç."
+        },
+        {
+          "before": [
+            "h2-l001"
+          ],
+          "after": [
+            "h2-l001"
+          ],
+          "reason": "Corrected the running header letters, lowercase cedilla, spacing and punctuation from the native scan: T ANTES DO ç."
+        },
+        {
+          "before": [
+            "c1-l002",
+            "c1-l004",
+            "c1-l005",
+            "c1-l006",
+            "c1-l008",
+            "c1-l009",
+            "c1-l011",
+            "c1-l013",
+            "c1-l014",
+            "c1-l015",
+            "c1-l016"
+          ],
+          "after": [
+            "c1-l002",
+            "c1-l004",
+            "c1-l005",
+            "c1-l006",
+            "c1-l008",
+            "c1-l009",
+            "c1-l011",
+            "c1-l013",
+            "c1-l014",
+            "c1-l015",
+            "c1-l016"
+          ],
+          "reason": "Restored the visible continuation indentation on these column-1 rows; text and stable IDs remain on their original physical rows."
+        },
+        {
+          "before": [
+            "u1b-l001"
+          ],
+          "after": [
+            "u1b-l001"
+          ],
+          "reason": "Moved provisional bottom furniture bar. into column 1 as the indented italic body continuation completing derru-bar in c1-l047. Added its native body crop; no material is lost."
+        },
+        {
+          "before": [
+            "c2-l043",
+            "c2-l047"
+          ],
+          "after": [
+            "c2-l043",
+            "c2-l047"
+          ],
+          "reason": "Removed incorrect continuation indentation from the independently aligned Tçura and Tçuracuxe headwords."
+        },
+        {
+          "before": [
+            "u2b-l001"
+          ],
+          "after": [
+            "u2b-l001"
+          ],
+          "reason": "Reclassified provisional bottom furniture as a far-right italic catchword and restored its final period: gado. repeats the opening of f0491 and is not a second copy of body text."
+        }
+      ],
+      "typeface_terms": {
+        "c1-l001": [
+          "Tera"
+        ],
+        "c1-l002": [
+          "Camis"
+        ],
+        "c1-l010": [
+          "Tera"
+        ],
+        "c1-l011": [
+          "Cami",
+          "Fotoque"
+        ],
+        "c1-l040": [
+          "Cami"
+        ],
+        "c2-l037": [
+          "Catana"
+        ],
+        "c2-l038": [
+          "Catana"
+        ]
+      }
+    },
+    "bnf-f0491": {
+      "first_pass": true,
+      "second_pass": true,
+      "crops_inspected": true,
+      "uncertainties": [
+        "c1-l008: Tçuragama hi retains the nearly blank c position in the headword; the following machino and NINJAL 250a02 identify tsuragamachi without supplying missing ink.",
+        "c1-l018: Zaxi qui is the chosen abraded room-name, interpreted as zashiki; x has faint diagonal traces, q has a clear descender, and the internal gap is retained.",
+        "c1-l020: The expected e in daqu lla is nearly uninked; retain the visible gap while interpreting the expression as belonging to that lineage.",
+        "c1-l024: Xuguiocuuo is chosen through abrasion from the residual g descender and ui before ocuuo; the precious-stone gloss supports shugyoku wo.",
+        "c1-l029: Tçur. nuqi retains the small surviving mark and gap at the almost uninked a position; nearby full Tçuranuqi/tçuranuqu forms identify the verb.",
+        "c1-l045: Fóguandono preserves the sole acute-shaped stroke surviving above the partially erased o; a damaged caron cannot be excluded.",
+        "c2-l006: Leuarei is chosen as the first-person future; moç s retains a gap where the second o of moços is almost wholly uninked.",
+        "c2-l008: Fucari is retained because the third type is c-like with no clear t ascender, although the example and Portuguese ambos indicate futari, two people.",
+        "c2-l021: jà di pena retains the narrow i-like form; the sense calls for dà/dá pena but no secure a bowl survives.",
+        "c2-l029: Tçurino taruru retains the visible n, unlike the clear u in Tçuriuo on the next row; the fishing gloss suggests the expected object-particle form uo.",
+        "u2b-l001a: Tçuri- is the chosen reading of the catchword; the ç has faint surviving traces and is noted beside the returned furniture line."
+      ],
+      "decision_requests": [],
+      "structural_changes": [
+        {
+          "before": [
+            "h1-l001"
+          ],
+          "after": [
+            "h1-l001"
+          ],
+          "reason": "Corrected the left running header from the native scan to T ANTES DO ç, retaining its lack of a terminal period and the printed lowercase cedilla form."
+        },
+        {
+          "before": [
+            "h2-l001"
+          ],
+          "after": [
+            "h2-l001",
+            "pn-l001"
+          ],
+          "reason": "Separated the page number 250. from the right running header into its own page_number zone. Restored the initial T and retained the visibly printed ATES without supplying an N."
+        },
+        {
+          "before": [
+            "u2b-l001"
+          ],
+          "after": [
+            "u2b-l001",
+            "u2b-l001a"
+          ],
+          "reason": "Split the merged provisional bottom furniture into the signature R r r 2 under the original ID and the separate lower-right catchword Tçuri- under a fresh ID. Assigned signature and catchword zones and right placement; no body text is removed."
+        },
+        {
+          "before": [
+            "c1-l038",
+            "c1-l039",
+            "c1-l041",
+            "c1-l043",
+            "c1-l044",
+            "c1-l045",
+            "c1-l047",
+            "c2-l042",
+            "c2-l044",
+            "c2-l045",
+            "c2-l047"
+          ],
+          "after": [
+            "c1-l038",
+            "c1-l039",
+            "c1-l041",
+            "c1-l043",
+            "c1-l044",
+            "c1-l045",
+            "c1-l047",
+            "c2-l042",
+            "c2-l044",
+            "c2-l045",
+            "c2-l047"
+          ],
+          "reason": "Restored the scan-visible first-level indentation of physical continuation rows omitted by the OCR bootstrap; all text and stable line IDs are retained."
+        }
+      ],
+      "typeface_terms": {
+        "c1-l018": [
+          "Zaxi qui"
+        ],
+        "c1-l045": [
+          "Fóguandono"
+        ],
+        "c2-l002": [
+          "Mexi"
+        ],
+        "c2-l009": [
+          "Mon."
+        ],
+        "c2-l034": [
+          "Caya"
+        ]
+      }
+    }
+  }
+}
