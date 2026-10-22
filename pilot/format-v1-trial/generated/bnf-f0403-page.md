@@ -21,7 +21,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l005` | &emsp;yeni xinrǒuo qixecaquru. *Sobrecarregar* |  |
 | `c1-l006` | &emsp;*a alguem com trabalhos, &c.* |  |
 | `c1-l007` | Qixei. Inori, chicǒ. *Deprecações. ¶* Qi- |  |
-| `c1-l008` | &emsp;xei ſuru. l, mǒſu. *Fazer deprecações.* |  |
+| `c1-l008` | &emsp;xei ſuru. *l*, mǒſu. *Fazer deprecações.* |  |
 | `c1-l009` | Qixen. Tattoqi iyaxij. *Nobres, & plebe-* |  |
 | `c1-l010` | &emsp;*os: ou altos, & baixos.* |  |
 | `c1-l011` | Qixenaga. *Corpo de armas.* |  |
@@ -46,15 +46,15 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l030` | Qixin. Yori ſuſumu. *Eſmola, ou renda que* |  |
 | `c1-l031` | &emsp;*ſe dà às varelas, ou moſteiros. ¶* Qixin |  |
 | `c1-l032` | &emsp;ſuru. *Fazer eſmola, ou dar algũa couſa à* |  |
-| `c1-l033` | &emsp;*Igreja.* |  |
+| `c1-l033` | &emsp;I*greja.* |  |
 | `c1-l034` | Qixin. *Alma dalgum defunto que ſe fez Ca-* |  |
 | `c1-l035` | &emsp;*mi, como cuidão os Chinas. ¶ Item,* Qi- |  |
 | `c1-l036` | &emsp;xin. Voni,cami. *Diabo, & Cami.* |  |
 | `c1-l037` | Qixiri, ru, itta. *O andar das rodas do carro* |  |
-| `c1-l038` | &emsp;*pello chão. ¶ Item, Tocar, ou roçarſe hũa* |  |
+| `c1-l038` | &emsp;*pello chão. ¶* I*tem, Tocar, ou roçarſe hũa* |  |
 | `c1-l039` | &emsp;*couſa com outra. Vt,* Tenjǒuo qixitte |  |
 | `c1-l040` | &emsp;tçumivocaruru qinguinua. *O ouro, &* |  |
-| `c1-l041` | &emsp;*prata que tinha junto, & chegaua até o forro* |  |
+| `c1-l041` | &emsp;*prata que tinha junto, & chegaua atè o forro* |  |
 | `c1-l042` | &emsp;*das caſas. ¶* Fune qixiuo qixiru. *Ir* |  |
 | `c1-l043` | &emsp;*a embarcação roçandoſe ao longo da terra.* |  |
 | `c1-l044` | Qixiroi, ô, ôta. *Ficar encalhado, ou não* |  |

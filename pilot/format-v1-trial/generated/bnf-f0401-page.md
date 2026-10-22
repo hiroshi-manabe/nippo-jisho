@@ -50,13 +50,13 @@ Lexical cross-check: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima an
 | `c1-l032` | &emsp;*militar. ¶* Qiǔbani tazzuſauaru. *Ser* |  |
 | `c1-l033` | &emsp;*ſoldado, ou profeßar a arte militar. ¶* Qiǔ- |  |
 | `c1-l034` | &emsp;bano iyeni vmaruru. *Nacer em caſa de* |  |
-| `c1-l035` | &emsp;*ſoldado, ou deſcender de caſta de ſoldados.* |  |
+| `c1-l035` | &emsp;*ſoldado, ou deſcender de casta de ſoldados.* |  |
 | `c1-l036` | Qiǔbin. Iſoguino tayori. *Menſageiro, ou* |  |
 | `c1-l037` | &emsp;*portador apreßado.* |  |
 | `c1-l038` | Qiǔbiǒ. *Doença repentina, ou acelerada co-* |  |
 | `c1-l039` | &emsp;*mo febres rijas, &c.* |  |
 | `c1-l040` | Qiǔbun. *Eſtipendio, ou jornal. ¶* Qiǔ- |  |
-| `c1-l041` | &emsp;bunuo toru, l, daſu. Toma*r, ou dar eſte* |  |
+| `c1-l041` | &emsp;bunuo toru, l, daſu. Tomar*, ou dar eſte* |  |
 | `c1-l042` | &emsp;*jornal.* |  |
 | `c1-l043` | Qiǔca. *Verão, ou Eſtio.* |  |
 | `c1-l045` | Qiǔca. Furui yeda. *Ramo velho. Vt,* |  |

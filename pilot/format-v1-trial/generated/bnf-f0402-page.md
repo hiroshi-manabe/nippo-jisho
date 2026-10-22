@@ -103,7 +103,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l029` | Qiǔxen. Yumiya. *Guerra. ¶* Qiǔxẽ- |  |
 | `c2-l030` | &emsp;ni tazzuſauaru. *Eſtar occupado em couſas* |  |
 | `c2-l031` | &emsp;*de guerra. ¶* Qiǔxenuo mopparaniſu- |  |
-| `c2-l032` | &emsp;ru. *Idem.* |  |
+| `c2-l032` | &emsp;ru. I*dem.* |  |
 | `c2-l033` | Qiǔxeqi. Furuqi ato. *Raſto, ou ſinal que* |  |
 | `c2-l034` | &emsp;*fica antiguo, lugar, &c.* |  |
 | `c2-l035` | Qiǔxin. Furuqi xinca. *Criado antiguo.* |  |
