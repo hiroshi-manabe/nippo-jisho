@@ -38,7 +38,7 @@ Lexical cross-check: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima an
 | `c1-l020` | &emsp;*ſa, & leuala no ſeyo, ou conſigo pera caſa.* |  |
 | `c1-l021` | Quaicocu. Cuniuo meguru. *O rodear, ou* |  |
 | `c1-l022` | &emsp;*andar por varios reinos.* |  |
-| `c1-l023` | Quaifô. Idaqi, u. *O tomar nos braços. S.* |  |
+| `c1-l023` | Quaifǒ. Idaqi, u. *O tomar nos braços. S.* |  |
 | `c1-l024` | Quaifǔ. Meguru caje. *Vento que vai ventã-* |  |
 | `c1-l025` | &emsp;*do em roda. S.* |  |
 | `c1-l026` | Quaigo. Cocoroyocu cataru. *Praticar à ſua* |  |

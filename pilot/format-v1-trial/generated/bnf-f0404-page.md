@@ -86,7 +86,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l012` | &emsp;tçuquru. *Dar ferida, ou fazer ſinal, ou* |  |
 | `c2-l013` | &emsp;*mòça com ferro, &c.* |  |
 | `c2-l014` | Qizui. i, Qidocu. *Milagre, ou marauilha.* |  |
-| `c2-l015` | &emsp;*¶* Qizuino guenzuru. *Fazer milagres.* |  |
+| `c2-l015` | &emsp;*¶* Qizuiuo guenzuru. *Fazer milagres.* |  |
 | `c2-l016` | Qizui. *O ſer de ſua vontade liure, & abſoluto.* |  |
 | `c2-l017` | Qizuina. *Peßoa amiga de ſeu proprio parecer,* |  |
 | `c2-l018` | &emsp;*& feita à ſua vontade.* |  |
@@ -127,7 +127,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l042` | QVa. Fi. *Fogo. Vt,* Fǔ, qua. *Vẽto* |  |
 | `c2-l043` | &emsp;*& fogo.* |  |
 | `c2-l044` | Qua. Toga. *Peccado. Maisſe vſa,* Zai- |  |
-| `c2-l045` | &emsp;qua. *¶* Ayamatte aratamezaru cotouo |  |
+| `c2-l045` | &emsp;qua. *¶* Ayamatte aratamezaru corouo |  |
 
 ## Printed catchword
 

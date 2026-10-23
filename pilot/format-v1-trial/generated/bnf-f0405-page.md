@@ -100,7 +100,7 @@ Lexical cross-check: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima an
 | `c2-l017` | &emsp;*demaſia q̃ cometem os caſados em vſar frequẽte* |  |
 | `c2-l018` | &emsp;*mente do acto matrimonial.* |  |
 | `c2-l019` | Quafan. *A mayor parte, ou mais da metade.* |  |
-| `c2-l020` | Quafen. Fino fotori. *Apar, ou junto do fogo.* |  |
+| `c2-l020` | Quafen. Fino fotori. *A par, ou junto do fogo.* |  |
 | `c2-l021` | Quafin. *Vaſo de flores coma ramalhete.* |  |
 | `c2-l022` | Quafô. *Bemauenturança, ou felicidade.* |  |
 | `c2-l023` | &emsp;*¶* Quafô imijij fito. *Homem ditoſo, &* |  |
