@@ -22,13 +22,13 @@ Lexical cross-check: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima an
 | `c1-l004` | &emsp;*ſe muito: palaura de agradecimento que ſe v-* |  |
 | `c1-l005` | &emsp;*ſa nas cartas.* |  |
 | `c1-l006` | Quajabara. *Homem, ou moço baixo falando* |  |
-| `c1-l007` | &emsp;*com algum deſprezo. He palaura que janão ſe* |  |
+| `c1-l007` | &emsp;*com algum deſprezo. He palaura que ja não ſe* |  |
 | `c1-l008` | &emsp;*vſa muito.* |  |
 | `c1-l009` | Quajen. Fanano maye. *Diante, ou jũto das* |  |
 | `c1-l010` | &emsp;*flores.* |  *(balhos.* |
 | `c1-l011` | Quaji. Vazauainaru coto. *Males, & tra-* |  |
 | `c1-l012` | Quaji. Figoto. *Queima de caſas. ¶* Qua- |  |
-| `c1-l013` | &emsp;jiga vocotta. l, deqita. *Aleuantouſein-* |  |
+| `c1-l013` | &emsp;jiga vocotta. l, deqita. *Aleuantouſe in-* |  |
 | `c1-l014` | &emsp;*cendio, ou pegouſe fogo nas caſas.* |  |
 | `c1-l015` | Quajit. Fana, mi. *Flor, & fruito. ¶ I-* |  |
 | `c1-l016` | &emsp;*tem, Sômente fruita daruore.* |  |
@@ -55,10 +55,10 @@ Lexical cross-check: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima an
 | `c1-l037` | &emsp;*em dignidade.* |  |
 | `c1-l038` | Quanchǔ. Quanno naca. *No meyo, ou dẽ-* |  |
 | `c1-l039` | &emsp;*tro da ſepultura.* |  |
-| `c1-l040` | Quancǒ. *Tornada do Rey pera os paços.* |  |
+| `c1-l040` | Quancǒ. T*ornada do Rey pera os paços.* |  |
 | `c1-l041` | Quando. *O tomar, ou receber algum grao,* |  |
 | `c1-l042` | &emsp;*ou dignidade. Vt,* Quando ſuru. |  |
-| `c1-l043` | Quandǒ. Tçuranuqu nichi. *Arte, ou* |  |
+| `c1-l043` | Quandǒ. Tçuranuqu michi. *Arte, ou* |  |
 | `c1-l044` | &emsp;*doutrina que esta como enfiada, & dependẽ-* |  |
 | `c1-l045` | &emsp;*te em algũa couſa como de letras, ou liuro em* |  |
 | `c1-l046` | &emsp;*que eſta eſcrita. Vt,* Mǒnjiua quandǒ- |  |

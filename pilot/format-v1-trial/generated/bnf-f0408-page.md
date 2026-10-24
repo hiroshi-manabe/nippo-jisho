@@ -21,7 +21,7 @@ Lexical coverage was cross-checked after independent scan reading against the su
 | `c1-l003` | Quanjǒſu. l. quanjǒji. i, Fude. *Pena de* |  |
 | `c1-l004` | &emsp;*eſcreuer. S.* |  |
 | `c1-l005` | Quanju. *Numero de vezes que hum Bonzo* |  |
-| `c1-l006` | &emsp;*lẽ, ou promete de ler o Foquequiǒ por algum de* |  |
+| `c1-l006` | &emsp;*lè, ou promete de ler o Foquequiǒ por algum de* |  |
 | `c1-l007` | &emsp;*funto, offerecendo este papel amarrado em hũ* |  |
 | `c1-l008` | &emsp;*ramo à peßoa aquem quer moſtrar que faz esta* |  |
 | `c1-l009` | &emsp;*obra pia.* |  |
@@ -86,7 +86,7 @@ Lexical coverage was cross-checked after independent scan reading against the su
 | `c2-l009` | &emsp;*tendimento nas couſas que medita, &c. S.* |  |
 | `c2-l010` | Quantô. i, Tôgocu. *Certos reinos de Iapão* |  |
 | `c2-l011` | &emsp;*que eſtão pera aparte do Oriente.* |  |
-| `c2-l012` | Quanxacu. *Dignidades, & riquezas. ¶* Quã- |  |
+| `c2-l012` | Quanxacu. *Dignidade, & riquezas. ¶* Quã- |  |
 | `c2-l013` | &emsp;xacu mini amaru. *Honras, & riquezas te-* |  |
 | `c2-l014` | &emsp;*nho de ſobejo, ou em abundancia.* |  |
 | `c2-l015` | Quanxen. *Dinheiro que ſe dà por ſubir a algũa* |  |
@@ -97,7 +97,7 @@ Lexical coverage was cross-checked after independent scan reading against the su
 | `c2-l020` | &emsp;*gre, & eſperto pera fazer algũa couſa, &c.* |  |
 | `c2-l021` | Quanxô. Yobu cane. *Sino, ou campainha com* |  |
 | `c2-l022` | &emsp;*que ſe chama, & ajunta a gente.* |  |
-| `c2-l023` | Quanxocu. Camurito xocu. *Dignidades,* |  |
+| `c2-l023` | Quanxocu. Ca*m*urito xocu. *Dignidades,* |  |
 | `c2-l024` | &emsp;*& officios, ou cargos.* |  |
 | `c2-l025` | Quanyet. Yorocobi, u. *Alegrarſe.* |  |
 | `c2-l026` | Quanyǔ. *Brandura com que alguem ſe ha* |  |
@@ -116,11 +116,11 @@ Lexical coverage was cross-checked after independent scan reading against the su
 | `c2-l039` | Quaqiǔ. *Adu.* |  |
 | `c2-l040` | Quaqua. Cuſano mi, conomi. *Fruita que* |  |
 | `c2-l041` | &emsp;*nace de eruas, & fruita daruores.* |  |
-| `c2-l042` | Quara. Caqe natǒ. *Hũa maneira de eſtola* |  |
+| `c2-l042` | Quara. Caqe matǒ. *Hũa maneira de estola* |  |
 | `c2-l043` | &emsp;*que trazem os Bonzos deitada do peſcoço como* |  |
 | `c2-l044` | &emsp;*Diaconos ajuntando as pontas nos peitos com hũ* |  |
 | `c2-l045` | &emsp;*circulo de marfim.* |  |
-| `c2-l046` | Quaracu. Fanano Miyaco. *Corte del Rey* |  |
+| `c2-l046` | Quaracu. Fanano Miyaco. *Corte del Rey,* |  |
 | `c2-l047` | &emsp;*ou cidade principal onde reſide o Rey.* |  |
 
 ## Column 2 catchword
