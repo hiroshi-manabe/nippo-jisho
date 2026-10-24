@@ -56,7 +56,7 @@ Lexical coverage was cross-checked after independent scan reading against the su
 | `c1-l037` | Quatdat. *Grãdeza, ou magnificencia, &* |  |
 | `c1-l038` | &emsp;*liberalidade. ¶* Quatdatni fodocoſu. |  |
 | `c1-l039` | &emsp;*Dar liberal, & magnificamente. ¶* Chi- |  |
-| `c1-l040` | &emsp;ye quatdat nari. *Tem grande, & claro* |  |
+| `c1-l040` | &emsp;ye quatdat nari. T*em grande, & claro* |  |
 | `c1-l041` | &emsp;*ſaber. ¶* Quatdatna chiye. *Saber cla-* |  |
 | `c1-l042` | &emsp;*ro, & grande, & que ſe estende a todo genero* |  |
 | `c1-l043` | &emsp;*de couſa.* |  |
@@ -99,7 +99,7 @@ Lexical coverage was cross-checked after independent scan reading against the su
 | `c2-l023` | Quaxa. Fanaguruma. *Carro ricamente or-* |  |
 | `c2-l024` | &emsp;*nado. S.* |  |
 | `c2-l025` | Quaxacu. Xacuuo caquru. *Agaſalharſe em* |  |
-| `c2-l026` | &emsp;*algũa caſa* Bonzo, *pondo dentro algum liuro,* |  |
+| `c2-l026` | &emsp;*algũa caſa Bonzo*, *pondo dentro algum liuro,* |  |
 | `c2-l027` | &emsp;*ou outra peça em ſinal q̃ toma aquella pouſada.* |  |
 | `c2-l028` | Quaxi. Fanano yeda. *Ramo de roſas, ou* |  |
 | `c2-l029` | &emsp;*flores.* |  |

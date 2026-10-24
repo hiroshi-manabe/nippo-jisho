@@ -31,7 +31,7 @@ Lexical coverage was cross-checked after independent scan reading against the su
 | `c1-l013` | Quazui. Fanano cuqi. *Pè da roſa.* |  |
 | `c1-l014` | Quǒbacu. Firocu, firoxi. *Couſa larga. S.* |  |
 | `c1-l015` | Quǒbun. *Grande letrado. S.* |  |
-| `c1-l016` | Quochi. Firoqi chiye. *Grande ſaber. ¶* Quǒ |  |
+| `c1-l016` | Quǒchi. Firoqi chiye. *Grande ſaber. ¶* Quǒ |  |
 | `c1-l017` | &emsp;china fito. *Homem de grande ſaber.* |  |
 | `c1-l018` | Quǒchǒ. Firô nagaxi. *Couſa larga, &* |  |
 | `c1-l019` | &emsp;*comprida.* |  |
@@ -89,7 +89,7 @@ Lexical coverage was cross-checked after independent scan reading against the su
 | `c2-l013` | &emsp;*poſento onde eſta el Rey.* |  |
 | `c2-l014` | Quǒqua. Qinafana. *Flor, ou roſa amarela.* |  |
 | `c2-l015` | Quǒquǒ. *Adu.* Firoi firoi. *Eſpaçoſa-* |  |
-| `c2-l016` | &emsp;*mente, ou largamente. Vt,* Quǒquǒto |  |
+| `c2-l016` | &emsp;*mente, ou* l*argamente. Vt,* Quǒquǒto |  |
 | `c2-l017` | &emsp;xite qiuamo naxi. *Sendo muito largo, &* |  |
 | `c2-l018` | &emsp;*grande não tem termo.* |  |
 | `c2-l019` | Quǒquǒ. Ficari, ficari. *Couſa reſplandecẽ-* |  |
@@ -102,8 +102,8 @@ Lexical coverage was cross-checked after independent scan reading against the su
 | `c2-l026` | Quǒri. *Roxinol.* |  |
 | `c2-l027` | Quǒrin. i, Von ide. *Ida, ou vinda de peſ-* |  |
 | `c2-l028` | &emsp;*ſoa nobre.* |  |
-| `c2-l029` | Quôriǒ. *Vt,* Quǒriǒno mǒxiyǒ. *Mo-* |  |
-| `c2-l030` | &emsp;*do dẽ falar arrogante, & com clareza ſẽ dei-* |  |
+| `c2-l029` | Quǒriǒ. *Vt,* Quǒriǒno mǒxi yǒ. *Mo-* |  |
+| `c2-l030` | &emsp;*do de falar arrogante, & com clareza ſẽ dei-* |  |
 | `c2-l031` | &emsp;*xar nada no peito, como quẽ diz roncas, & c-* |  |
 | `c2-l032` | Quǒſai. Ficari irodoru. *Reſplandor, ou ilu-* |  |
 | `c2-l033` | &emsp;*minação de pintura. ¶ Item, per met.* |  |
@@ -120,7 +120,7 @@ Lexical coverage was cross-checked after independent scan reading against the su
 | `c2-l044` | &emsp;*peßoa alta, & nobre.* |  |
 | `c2-l045` | Quǒtei. *Rey, ou emperador.* |  |
 | `c2-l046` | Quǒten Firoqi ſora. *Grande, & largo ceo.* |  |
-| `c2-l047` | Quǒvon. Teiuǒno govon. *Beneficios, ou* |  |
+| `c2-l047` | Quǒ*v*on. Teiuǒno govon. *Beneficios, ou* |  |
 
 ## Column 2 catchword
 
