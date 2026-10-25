@@ -33,7 +33,7 @@ Lexical review aid: NINJAL, Hideyuki Ohshima and Taichi Aida, Entry Words Data o
 | `c1-l015` | &emsp;*Vt,* Racuxouo tatçuru. *Por paſquim.* |  |
 | `c1-l016` | Racuyǒ. Miyaco miyaco. *Corte, ou cidade* |  |
 | `c1-l017` | &emsp;*principal do reino.* |  |
-| `c1-l018` | Racuyô. Votçuru fa. *Folha caida, ou o cair das* |  |
+| `c1-l018` | Racuyô. Votçuru fa. F*olha caida, ou o cair das* |  |
 | `c1-l019` | &emsp;*folhas.* |  |
 | `c1-l020` | Rai. Caminari, l, icazzuchi. *Coriſco, ou trouão.* |  |
 | `c1-l021` | &emsp;*¶* Raiga vochicacaru. *Cair coriſco ſobre* |  |

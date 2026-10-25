@@ -27,7 +27,7 @@ Lexical review aid: NINJAL, Hideyuki Ohshima and Taichi Aida, Entry Words Data o
 | `c1-l009` | Quǒye. Qina coromo. *Veſtido amarelo, que* |  |
 | `c1-l010` | &emsp;*veſtem os Bonzos de Iapão por cima doutro* |  |
 | `c1-l011` | &emsp;*veſtido.* |  |
-| `c1-l012` | Quǒyǒ. Ficari cacayaqu. *Reſplẽdor. S.* |  |
+| `c1-l012` | Quǒyǒ. Ficari cacayaqu. *Reſplãdor. S.* |  |
 | `c1-l013` | Quǒyô. Qibamitaru fa. *Folhas amarelas* |  |
 | `c1-l014` | &emsp;*como as do outono que eſtão pera cair.* |  |
 
@@ -82,7 +82,7 @@ Lexical review aid: NINJAL, Hideyuki Ohshima and Taichi Aida, Entry Words Data o
 | `c1-l035` | Racocu. *Certa aguila.* |  |
 | `c1-l036` | Racocu. *Hũa laya de vestido de ſeda fina que* |  |
 | `c1-l037` | &emsp;*os Reis da China, ou de Iapão veſtẽ por cima.* |  |
-| `c1-l038` | Racqio. i, Vochitçuqu. *O aueriguarſe, ou* |  |
+| `c1-l038` | Racqio. i, *V*ochitçuqu. *O aueriguarſe, ou* |  |
 | `c1-l039` | &emsp;*concluirſe algũa couſa de embaraço como de-* |  |
 | `c1-l040` | &emsp;*manda. ¶* Cujiga racqio xita. *Con-* |  |
 
@@ -108,7 +108,7 @@ Lexical review aid: NINJAL, Hideyuki Ohshima and Taichi Aida, Entry Words Data o
 | `c2-l004` | &emsp;*apaziguado, & quieto de guerras, & reuoltas.* |  |
 | `c2-l005` | Racqua. Fanano chiru coto. *O cairẽ as roſas,* |  |
 | `c2-l006` | &emsp;*& flores. Vt,* Racqua yedani cayerazu. |  |
-| `c2-l007` | &emsp;*A flor caida nõe torna ao ramo. Vſaſe per* |  |
+| `c2-l007` | &emsp;*A flor caida nõo torna ao ramo. Vſaſe per* |  |
 | `c2-l008` | &emsp;*met. Acerca da idade, ou annos que paſſados* |  |
 | `c2-l009` | &emsp;*não tornão.* |  |
 | `c2-l010` | Racu. Tanoximi. *Goſtos, ou prazeres.* |  |
@@ -124,7 +124,7 @@ Lexical review aid: NINJAL, Hideyuki Ohshima and Taichi Aida, Entry Words Data o
 | `c2-l020` | &emsp;*yaco. ¶* Racuchǔ racuguaiuo femeguri |  |
 | `c2-l021` | &emsp;mauaru. *Rodear portodo Miyaco por den-* |  |
 | `c2-l022` | &emsp;*tro, & por fora.* |  |
-| `c2-l023` | Racuda. Votçuru votçuru. i, Bǒzu zocuni |  |
+| `c2-l023` | Racuda. Votçuru votçuru. *i*, Bǒzu zocuni |  |
 | `c2-l024` | &emsp;cayeru. *Fazerſe o religioſo ſecular. Vt,* Ra- |  |
 | `c2-l025` | &emsp;cuda ſuru. |  |
 | `c2-l026` | Racudai. *Certo modo de compor verſos, ou* |  |
