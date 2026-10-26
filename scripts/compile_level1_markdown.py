@@ -114,6 +114,12 @@ def parse_cell(text: str, path: Path, line_number: int) -> list[dict]:
         text = match.group(2)
     runs = parse_inline(text, path, line_number)
     if span_id:
+        # Whitespace outside emphasis can create an extra roman run. Its
+        # typeface has no visible meaning; retain every space within the
+        # cell's one substantive run instead of rejecting valid spacing edits.
+        visible_runs = [run for run in runs if run['text'].strip()]
+        if len(runs) > 1 and len(visible_runs) == 1:
+            runs = [{**visible_runs[0], 'text': ''.join(run['text'] for run in runs)}]
         if len(runs) != 1:
             raise fail(path, line_number, "a labelled cell must contain exactly one typeface run")
         runs[0]["span_id"] = span_id

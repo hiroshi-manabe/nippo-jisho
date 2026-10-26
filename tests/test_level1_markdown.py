@@ -23,6 +23,17 @@ def load_module():
 
 
 class Level1MarkdownTests(unittest.TestCase):
+    def test_labelled_cell_preserves_spaces_outside_emphasis(self):
+        module = load_module()
+        for text, expected in [('{word}*dado.* ', 'dado. '),
+                               ('{word} *dado.*  ', ' dado.  '),
+                               ('{word}*dado. *', 'dado. ')]:
+            with self.subTest(text=text):
+                self.assertEqual(module.parse_cell(text, Path('example.md'), 1),
+                                 [{'typeface': 'italic', 'text': expected, 'span_id': 'word'}])
+        with self.assertRaisesRegex(module.Level1MarkdownError, 'exactly one typeface run'):
+            module.parse_cell('{word}*dado.* S.', Path('example.md'), 1)
+
     def test_json_writer_preserves_semantically_identical_bytes(self):
         module = load_module()
         with tempfile.TemporaryDirectory() as directory:
