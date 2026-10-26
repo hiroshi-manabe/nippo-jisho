@@ -24,7 +24,7 @@ Lexical cross-check after independent scan reading: Entry Words Data of Nippojis
 | `c1-l006` | &emsp;*ção, ou diſcurſo.* |  |
 | `c1-l007` | Reôxi. *Caçador, ou peſcador.* |  |
 | `c1-l008` | Reôxi. *Papel.* |  |
-| `c1-l009` | Reǒxo. Fut tocoro. *Dous lugares. ¶ Itẽ,* |  |
+| `c1-l009` | Reǒxo. Futatocoro. *Dous lugares. ¶ Itẽ,* |  |
 | `c1-l010` | &emsp;*Duas peßoas.* |  |
 | `c1-l011` | Reoxo. *Lugar, onde ſe hum acha fora de* |  |
 | `c1-l012` | &emsp;*ſua caſa.* |  |
@@ -35,7 +35,7 @@ Lexical cross-check after independent scan reading: Entry Words Data of Nippojis
 | `c1-l017` | &emsp;*tidas aos criados.* |  |
 | `c1-l018` | Reǒxu. Futacuſa. *Duas layas de couſas.* |  |
 | `c1-l019` | &emsp;*¶* Reǒxu cudaſareta, catajiqenai. *Des-* |  |
-| `c1-l020` | &emsp;*teme duas couſas, agradeçoue lo muito.* |  |
+| `c1-l020` | &emsp;*teme duas couſas, agradeçouolo muito.* |  |
 | `c1-l021` | Reoxucu. Tabino yadori. *Eſtalagem, ou* |  |
 | `c1-l022` | &emsp;*pouſada fora de caſa.* |  |
 | `c1-l023` | Reôyen. Farucani touoi. *Grande diſtancia.* |  |
@@ -48,20 +48,20 @@ Lexical cross-check after independent scan reading: Entry Words Data of Nippojis
 | `c1-l030` | &emsp;*te aſaude.* |  |
 | `c1-l031` | Reqi. Coyomi. *Calendario dos dias, meſes,* |  |
 | `c1-l032` | &emsp;*& anno. ¶ Item, Sciencia de obſeruar* |  |
-| `c1-l033` | &emsp;*as eſtrellas, ou planetas, pera ſaber da vida,* |  |
+| `c1-l033` | &emsp;*as eſtrellas, ou planetas, para ſaber da vida,* |  |
 | `c1-l034` | &emsp;*& fortuna de cada hum.* |  |
 | `c1-l035` | Reqigacu. Reqiuo manabu. *Eſtudo de aſ-* |  |
 | `c1-l036` | &emsp;*trologia.* |  |
 | `c1-l037` | Reqijen. i, Aqiracani xiretaru coto. *Couſa* |  |
 | `c1-l038` | &emsp;*manifeſta, & ſem duuida.* |  |
-| `c1-l039` | Reqijenua. *Idem.* |  |
+| `c1-l039` | Reqijenna. *Idem.* |  |
 | `c1-l040` | Reqijenni. *Aduer.* |  |
 | `c1-l041` | Reqijit. Fiuo feru. *O acabarſe o dia.* |  |
 | `c1-l042` | Reqinen. Toxiuo feru. *O paßarſe o anno. S.* |  |
 | `c1-l043` | Reqireqi. *Muitas couſas que eſtão patentes, &* |  |
 | `c1-l044` | &emsp;*por ordem. ¶ Item, permet. Muitas peſ-* |  |
 | `c1-l045` | &emsp;*ſoas honradas, & principaes: & às vezes* |  |
-| `c1-l046` | &emsp;*ſe toma por hũa ſoo. i, do numero das peßo-* |  |
+| `c1-l046` | &emsp;*ſe toma por hũa ſoo.* i*, do numero das peßo-* |  |
 | `c1-l047` | &emsp;*as graues, & raras. Vt,* Reqireqino ga- |  |
 
 ## Column 2 running header
@@ -92,7 +92,7 @@ Lexical cross-check after independent scan reading: Entry Words Data of Nippojis
 | `c2-l010` | &emsp;*que faz o calendario, ou reportorio.* |  |
 | `c2-l011` | Reqixo. *Liuro por onde ſe aprende a arte de* |  |
 | `c2-l012` | &emsp;*Aſtronomia.* |  |
-| `c2-l013` | Retſan. Mairi tçuranaru. *O irem muitos jũ-* |  |
+| `c2-l013` | Retſan. *M*airi tçuranaru. *O irem muitos jũ-* |  |
 | `c2-l014` | &emsp;*tos como apedir, ou propor algũa couſa, &c.* |  |
 | `c2-l015` | &emsp;*¶* Retſanxite mǒſu. *Indo muitos junta-* |  |
 | `c2-l016` | &emsp;*mente falar.* |  |
@@ -114,7 +114,7 @@ Lexical cross-check after independent scan reading: Entry Words Data of Nippojis
 | `c2-l021` | &emsp;*ou ſujeitarſe à razão. ¶* Rini cacauara- |  |
 | `c2-l022` | &emsp;zu. *Não ter de ver com arezão. ¶* Riuo |  |
 | `c2-l023` | &emsp;maguru. *Torcer a rezão. ¶* Rini tçuma- |  |
-| `c2-l024` | &emsp;ru. *Ficar concluido com arezão. ¶* Riuo |  |
+| `c2-l024` | &emsp;ru. *Ficar concluido com a rezão. ¶* Riuo |  |
 | `c2-l025` | &emsp;tçucuſu. *Dizer todas as rezoens, ou arre-* |  |
 | `c2-l026` | &emsp;*zoar bem, & diffuſamente. ¶* Rini fazzu- |  |
 | `c2-l027` | &emsp;ruru. l, moruru. *Diſcrepar da rezão.* |  |

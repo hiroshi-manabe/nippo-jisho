@@ -30,7 +30,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l014` | Renjo. *Carta aſsinada por muitos.* |  |
 | `c1-l015` | Renjǒ. *Idem.* |  |
 | `c1-l016` | Renma. Nerimigaqu. *O exercitarſe, & po-* |  |
-| `c1-l017` | &emsp;*lirſe. Vt,* Renmano cô. *Habito de mui-* |  |
+| `c1-l017` | &emsp;*lirſe. Vt,* Ren*m*ano cô. *Habito de mui-* |  |
 | `c1-l018` | &emsp;*to exercicio.* |  |
 | `c1-l019` | Renmen. *Continuação dalgũa couſa ſem ſe* |  |
 | `c1-l020` | &emsp;*interromper.* |  |
@@ -45,7 +45,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l029` | &emsp;ren mǒxita. *Iſto diſſe por vezes. ¶ Itẽ,* |  |
 | `c1-l030` | &emsp;*Pouco a pouco.* |  |
 | `c1-l031` | Renri. *Vt,* Renrino yeda. *Ramo que eſta* |  |
-| `c1-l032` | &emsp;*emburulhado, & trauado com outro. ¶ Itẽ,* |  |
+| `c1-l032` | &emsp;*emburulhado, & trauado com outro. ¶* I*tẽ,* |  |
 | `c1-l033` | &emsp;*permet. Amizade, & vnião grande. Vt,* |  |
 | `c1-l034` | &emsp;Renrino chiguiriuo naſu. *Ter amizade* |  |
 | `c1-l035` | &emsp;*muito eſtreita, como a de dous caſados, &c.* |  |
@@ -56,7 +56,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l040` | Renxin. Auaremu cocoro. *Coração piadoſo.* |  |
 | `c1-l041` | Renya. Youo tçuranuru. *Noites continua-* |  |
 | `c1-l042` | &emsp;*das. S.* |  |
-| `c1-l043` | Renyô. Fachiſuno fa. *Folhas do golfaõ. S.* |  |
+| `c1-l043` | Renyô. Fachiſuno fa. *Folhas do golfaõ.* S. |  |
 | `c1-l044` | Reô, l. Riô, Tatçu. *Lagarto.* |  |
 | `c1-l045` | Reǒ. Feya. *Cubiculo.* |  |
 | `c1-l046` | Reô, l. Riô. *Caça, ou peſcaria. ¶* Riô- |  |
@@ -72,7 +72,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | &emsp;qiqu. *Tomar algũa couſa na caça, ou peſcaria.* |  |
+| `c2-l001` | &emsp;qiqu. T*omar algũa couſa na caça, ou peſcaria.* |  |
 | `c2-l002` | Reô a. Mimixij, voxi. *Surdo, & mudo S.* |  |
 | `c2-l003` | Reôca. l, Riôca, i. Norimono. *Andas reaes.* |  |
 | `c2-l004` | Reocacu. Tabino marebito. *Hoſpede.* |  |
@@ -94,14 +94,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l020` | Reǒnai. Reǒno vchi. *Dentro do cubiculo.* |  |
 | `c2-l021` | Reǒnai. *Dentro das terras, ou territorio dalgũ* |  |
 | `c2-l022` | &emsp;*ſenhor.* |  |
-| `c2-l023` | Reôno võ vma. *Caualo afamado. Item, caua-* |  |
+| `c2-l023` | Reôno võ vma. *Caualo afamado.* I*tem, caua-* |  |
 | `c2-l024` | &emsp;*lo em que caualga o Rey.* |  |
 | `c2-l025` | Reôqen. Facari, u. *Remedio. ¶* Reô- |  |
-| `c2-l026` | &emsp;qenuo cuuayuru. *Dar remedio, oureme-* |  |
+| `c2-l026` | &emsp;qenuo cuuayuru. *Dar remedio, ou reme-* |  |
 | `c2-l027` | &emsp;*diar algũa couſa. ¶* Reôqenmo nai. *Naõ* |  |
 | `c2-l028` | &emsp;*auer remedio.* |  |
 | `c2-l029` | Reôquai. Mimixij. *Surdo. ¶* Iefiuo qi- |  |
-| `c2-l030` | &emsp;cazaru coteua reôquaino gotoxi. *O naõ* |  |
+| `c2-l030` | &emsp;cazaru cotoua reôquaino gotoxi. *O naõ* |  |
 | `c2-l031` | &emsp;*ouuir, & descernir o bem, & mal he como* |  |
 | `c2-l032` | &emsp;*ſer ſurdo.* |  |
 | `c2-l033` | Reôra. Aya, vſumono. *Peças ricas, ou veſti-* |  |
@@ -118,7 +118,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l044` | Reôrixa. *O que tempera o comer.* |  |
 | `c2-l045` | Reoſǒ. Vomonbacari vomô. *Figura, ou* |  |
 | `c2-l046` | &emsp;*eſpecie de couſa q̃ hũ tem viua na imaginação.* |  |
-| `c2-l047` | Reoſô. Tabino ſô. *Religioſo eſtrãgeiro.* S |  |
+| `c2-l047` | Reoſô. Tabino ſô. *Religioſo eſtrãgeiro. S* |  |
 
 ## Printed catchword
 

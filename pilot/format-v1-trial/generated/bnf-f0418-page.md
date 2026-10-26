@@ -44,7 +44,7 @@ Lexical cross-check after independent scan reading: Entry Words Data of Nippojis
 | `c1-l026` | &emsp;*propriè, ſetoma por viueza, & feruor. Vt,* |  |
 | `c1-l027` | &emsp;Ricôna mono. *Homem viuo, & eſperto.* |  |
 | `c1-l028` | Ricon. *Agudeza, & ſagacidade, &c. Vt,* |  |
-| `c1-l029` | &emsp;Ricon daichino fito gia. *He homem agu-* |  |
+| `c1-l029` | &emsp;Ricon daichiino fito gia. *He homem agu-* |  |
 | `c1-l030` | &emsp;*dißimo, & muito ſagaz, & diſcreto.* |  |
 | `c1-l031` | Ricôna. *O que fala aguda, & ſagazmente.* |  |
 | `c1-l032` | &emsp;*¶ Item, Viuo, & eſperto.* |  |
@@ -55,7 +55,7 @@ Lexical cross-check after independent scan reading: Entry Words Data of Nippojis
 | `c1-l037` | Riconna. *Peßoa auiſada, aguda, & ſagaz.* |  |
 | `c1-l038` | &emsp;Riconni. *Adu.* |  |
 | `c1-l039` | &emsp;Riconſa. |  |
-| `c1-l040` | Ricqua. Fanauo tatçuru. *Por flores em va-* |  |
+| `c1-l040` | Ricqua. *F*anauo tatçuru. *Por flores em va-* |  |
 | `c1-l041` | &emsp;*ſo como ramalhete. Vt,* Ricquauo ſuru. |  |
 | `c1-l042` | Ricuchin. *Seis eſpecies de mezinhas as quaes* |  |
 | `c1-l043` | &emsp;*nunca ſe danão por mais velhas que ſejão.* |  |
@@ -80,7 +80,7 @@ Lexical cross-check after independent scan reading: Entry Words Data of Nippojis
 | `c2-l004` | &emsp;*os quatro rumos principaes, & aparte do Ceo* |  |
 | `c2-l005` | &emsp;*ſobre a cabeça, & a inferior da terra.* |  |
 | `c2-l006` | Ricuguei. Mutçuno guei. *Seis artes liberaes* |  |
-| `c2-l007` | &emsp;*que ha em Iapão, & na china. ſ.* Rei, ga- |  |
+| `c2-l007` | &emsp;*que ha em Iapão, & na China. ſ.* Rei, ga- |  |
 | `c2-l008` | &emsp;cu, xa, guio, xo, ſu. *Vide,* Gueinô. |  |
 | `c2-l009` | Ricuriô. *Andas, ou carro em que caualga o* |  |
 | `c2-l010` | &emsp;*Rey.* |  |
@@ -110,9 +110,9 @@ Lexical cross-check after independent scan reading: Entry Words Data of Nippojis
 | `c2-l034` | Rijun. i, Ritocu. *Ganho, ou proueito.* |  |
 | `c2-l035` | Rimot. *Ganho, ou proueito, ou fruito.* |  |
 | `c2-l036` | Rimot. *Vt,* Rimotno vouari. *Fim, ou cõ-* |  |
-| `c2-l037` | &emsp;*ſumação da ſaluação dos homens.* Bup. |  |
+| `c2-l037` | &emsp;*ſumação da ſaluação dos homens. Bup*. |  |
 | `c2-l038` | Rin. *Hũa maneira de campainha, ou batega* |  |
-| `c2-l039` | &emsp;*redonda ſem badalo. ¶* Rinuo vtçu. l, |  |
+| `c2-l039` | &emsp;*redonda ſem badalo. ¶* Rinuo vtçu. *l*, |  |
 | `c2-l040` | &emsp;naraſu. *Tanger eſta batega. Item, Em algũas* |  |
 | `c2-l041` | &emsp;*partes do Ximo ſe toma gèralmente por cam-* |  |
 | `c2-l042` | &emsp;*painha.* |  |
@@ -120,7 +120,7 @@ Lexical cross-check after independent scan reading: Entry Words Data of Nippojis
 | `c2-l044` | &emsp;*crecenta no cabeção, & dianteira dos veſti-* |  |
 | `c2-l045` | &emsp;*dos. No Cami ſe diz,* Yeri. *¶* Rinuo ſaſu. |  |
 | `c2-l046` | &emsp;*Por, ou acrecẽtar no cabeção dos veſtidos de* |  |
-| `c2-l047` | &emsp;*Iapão algũa tira doutro pano, peça, &c.* |  |
+| `c2-l047` | &emsp;I*apão algũa tira doutro pano, peça, &c.* |  |
 
 ## Bottom-right catchword
 
