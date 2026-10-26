@@ -182,8 +182,11 @@ def transliterate_token(token: str) -> str | None:
             output.append("ッ"); index += 1
         if (index < len(text) and consonant in "kgnhbpmr"
                 and (text[index] == "i" or
-                     (text[index] == "e" and text[index + 1:index + 2] in ("ǒ", "ô")))):
+                     (text[index] == "e" and
+                      (text[index + 1:index + 2] in ("ǒ", "ô") or
+                       (consonant == "r" and text[index + 1:index + 2] == "o"))))):
             # eǒ/eô also mark palatalized long-o syllables (Reǒginno).
+            # Unmarked reo is the short contraction (Reosô = 旅僧), not re-o.
             # Hints intentionally merge the open/closed long-o distinction.
             following = vowel_at(text, index + 1)
             # Unmarked riu/qiu/etc. have separate vowels (Riun = リウン).

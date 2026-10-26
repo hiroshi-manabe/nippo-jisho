@@ -21,6 +21,14 @@ Standalone `ie` remains イエ. The special handling of `guio i` is removed:
 isolated `i` is filtered as a label consistently, even when it is actually
 part of Japanese. These known limitations do not justify changing Level 1.
 
+Unmarked `reo` is rendered as short リョ, including internally, without a
+headword exception list (`Reoſô` → リョソゥ, 旅僧; `Reocacu` → リョカク,
+旅客). NINJAL's headword readings use レョ for this series; Takemura's
+[study](https://ir.library.osaka-u.ac.jp/repo/ouka/all/47013/26057_Dissertation.pdf)
+also identifies these entries. Our simplified hint uses リョ without claiming
+an exact phonetic reconstruction. Marked `reǒ`/`reô` retain リョゥ, and this
+change does not generalize unmarked `eo` to all consonants. Level 1 is unchanged.
+
 The `n + ua/uo` boundary rule applies only to `nua`/`nuo`, not to every
 `nu` followed by a vowel. Thus f373 `Nui` → ヌイ, `Nuiague` → ヌイアゲ,
 and `Nuiauaxe` → ヌイアワセ without lexical exceptions. `Quǒguenuo`

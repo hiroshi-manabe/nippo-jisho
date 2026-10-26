@@ -7,6 +7,14 @@ from scripts.kana_reading import transliterate_token, phrase_hint, reading_hint,
 
 
 class KanaCorpusTests(unittest.TestCase):
+    def test_unmarked_reo_is_short_contracted_o(self):
+        for token, expected in [('reo', 'リョ'), ('Reoſô', 'リョソゥ'),
+                                ('Reocacu', 'リョカク'), ('Reochi', 'リョチ'),
+                                ('Reǒginno', 'リョゥヂンノ'), ('Reôri', 'リョゥリ'),
+                                ('Rei', 'レイ'), ('Xinreo', 'シンリョ'), ('meo', 'メオ')]:
+            with self.subTest(token=token):
+                self.assertEqual(transliterate_token(token), expected)
+
     def test_nu_vowel_sequences_and_particle_boundaries(self):
         for token, expected in [('Nui', 'ヌイ'), ('Nuiague', 'ヌイアゲ'),
                                 ('Nuiauaxe', 'ヌイアワセ'), ('nue', 'ヌエ'),

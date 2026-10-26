@@ -416,7 +416,7 @@ assert.equal(inserted, 'ß');
         self.assertEqual(transliterate_token("Reôri"), "リョゥリ")
         self.assertEqual(transliterate_token("Riǒ"), "リョゥ")
         self.assertEqual(transliterate_token("Meǒji"), "ミョゥジ")
-        self.assertEqual(transliterate_token("reo"), "レオ")
+        self.assertEqual(transliterate_token("reo"), "リョ")
         self.assertEqual(transliterate_token("ichinifiacqizzutçu"), "イチニヒャッキヅツ")
         self.assertEqual(transliterate_token("fiacqi"), "ヒャッキ")
         self.assertEqual(transliterate_token("mocco"), "モッコ")
