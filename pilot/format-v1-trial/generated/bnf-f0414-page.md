@@ -15,7 +15,7 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c1-l001` | Ranxi. Midare ito. *Fios, ou linhas empe-* |  |
-| `c1-l002` | &emsp;*çadas. S.* |  *(dado.S.* |
+| `c1-l002` | &emsp;*çadas. S.* |  *(dado. S.* |
 | `c1-l003` | Ranxin. Midaregocoro. *Coração pertur-* |  |
 | `c1-l004` | Ranxin. Midaretaru xinca. *Criado mao, &* |  |
 | `c1-l005` | &emsp;*deſordenado. S.* |  |
@@ -39,7 +39,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l023` | &emsp;*ordenada, & perturbada.* |  |
 | `c1-l024` | Rappu. *Deſcante, & muſica de muitas vozes,* |  |
 | `c1-l025` | &emsp;*& inſtrumentos. ¶* Rappuuo ſuru. *Deſcãtar.* |  |
-| `c1-l026` | Rareô. Vſumono aya. *Certa laya de peçasfinas.* |  |
+| `c1-l026` | Rareô. Vſumono aya. *Certa laya de peças finas.* |  |
 | `c1-l027` | Raſſocu. *Candeas de cera.* |  |
 | `c1-l028` | Ratriǒ. i, Tçucanu come. *Arroz mal eſ-* |  |
 | `c1-l029` | &emsp;*caſcado, & por pilar. ¶* Ratriǒno fan. |  |
@@ -87,7 +87,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l004` | Reibocu. Tamaxij qi. *Aruores nomeadas* |  |
 | `c2-l005` | &emsp;*como as que eſtão junto das varelas, & Miyas* |  |
 | `c2-l006` | &emsp;*nas quaes os Camis, & Fotoques entrarão, ou* |  |
-| `c2-l007` | &emsp;*as tem como de ſua mão, per iſſo não he licito a* |  |
+| `c2-l007` | &emsp;*as tem como de ſua mão, per ißo não he licito a* |  |
 | `c2-l008` | &emsp;*ninguem cortalas.* |  |
 | `c2-l009` | Reibut. *Fotoque que faz milagres, ou couſas,* |  |
 | `c2-l010` | &emsp;*por onde he venerado, & temido.* |  |
@@ -107,9 +107,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l024` | Reifô. *Couſas precioſas, & excelentes, que ſe* |  |
 | `c2-l025` | &emsp;*não deixão ver, nem moſtrão facilmente.* |  |
 | `c2-l026` | Reigacu. *Eſtudo, ou exercicio de couſas de-* |  |
-| `c2-l027` | &emsp;*policia. ¶ Itẽ, Policia, & arte de muſica.* |  |
+| `c2-l027` | &emsp;*policia. ¶* I*tẽ, Policia, & arte de muſica.* |  |
 | `c2-l028` | Reigiô. *Hũa erua chamada Acaza, & folhas* |  |
-| `c2-l029` | &emsp;*degrãos.* |  |
+| `c2-l029` | &emsp;*de grãos.* |  |
 | `c2-l030` | Reiguen. Qidocuno xiruxi. *Grandes mi-* |  |
 | `c2-l031` | &emsp;*lagres, ou marauilhas. S.* |  |
 | `c2-l032` | Reigui. Reino coto. *Policia, ou corteſias.* |  |

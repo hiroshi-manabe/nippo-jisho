@@ -98,8 +98,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l018` | Renchi. Fachiſuno iqe. *Alagoa de golfãos.* |  |
 | `c2-l019` | Renchocu. Sugui-i. *Rectidão.* |  |
 | `c2-l020` | Renchocuna. *Couſa recta, & juſta. ¶* Rẽ- |  |
-| `c2-l021` | &emsp;chocuna fito. *Homem recto, & justo.* | i |
-| `c2-l022` | Renchocuni. *Aduerb. Vt,* Renchocun |  |
+| `c2-l021` | &emsp;chocuna fito. *Homem recto, & justo.* |  |
+| `c2-l022` | Renchocuni. *Aduerb. Vt,* Renchocuni |  |
 | `c2-l023` | &emsp;monouo facarǒ. *Ordenar rectamente al-* |  |
 | `c2-l024` | &emsp;*gũa couſa.* |  |
 | `c2-l025` | Renchǔ. Sudareno vchi. *Dentro das eſtei-* |  |

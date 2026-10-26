@@ -52,17 +52,17 @@ Lexical review aid: NINJAL, Hideyuki Ohshima and Taichi Aida, Entry Words Data o
 | `c1-l034` | Ranguequi. Midare. *Reuolta, ou pertur-* |  |
 | `c1-l035` | &emsp;*bação.* |  |
 | `c1-l036` | Ranguicu. Araragui qicu. *Erua cheiroſa aßi* |  |
-| `c1-l037` | &emsp;*chamada. Item, A flor desta erua.* |  |
+| `c1-l037` | &emsp;*chamada.* I*tem, A flor desta erua.* |  |
 | `c1-l038` | Ranguiǒ. Midarini voconǒ. *Obras maas,* |  |
 | `c1-l039` | &emsp;*torpes, & deſordenadas, ou peccados de tor-* |  |
 | `c1-l040` | &emsp;*peza.* |  |
-| `c1-l041` | Raiguiocu. l, ranqiocu. *Certo modo de tã-* |  |
+| `c1-l041` | Raiguiocu. l, ranq*i*ocu. *Certo modo de tã-* |  |
 | `c1-l042` | &emsp;*ger, ou cantar picado, ou apreßado de quando* |  |
 | `c1-l043` | &emsp;*em quando.* |  |
-| `c1-l044` | Ranguiǒjin. *Peßoa deſhonesta.* |  |
+| `c1-l044` | Ranguiǒjin. *Peßoa deſhoneſta.* |  |
 | `c1-l045` | Ranguiǒna. *Idem. Vt,* Ranguiǒna fito. |  |
 | `c1-l046` | Ranguy. *Estacada que ſe faz nalgum caminho,* |  |
-| `c1-l047` | &emsp;*ou paſsagem muito ao comprido pẽra não deixar* |  |
+| `c1-l047` | &emsp;*ou paßagem muito ao comprido pera não deixar* |  |
 
 ## Column 2 running header
 
