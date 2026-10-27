@@ -30,9 +30,9 @@ Lexical cross-check after independent scan reading: Entry Words Data of Nippojis
 | `c1-l012` | Rinca. Tonarino iye. *Caſa vizinha.* |  |
 | `c1-l013` | Rincacu. Qirinno tçuno. *Corno de hum a-* |  |
 | `c1-l014` | &emsp;*nimal como vnicorne, ou bada. ¶ Itẽ,* |  |
-| `c1-l015` | &emsp;*per met. Couſa rara. Vt,* Tauonazaru co- |  |
+| `c1-l015` | &emsp;*per met. Couſa rara. Vt,* Tauomazaru co- |  |
 | `c1-l016` | &emsp;coroua rincacu yorimo mare nari. *Cora-* |  |
-| `c1-l017` | &emsp;*ção que ſe não dobra nem vira, he mais raroq̃* |  |
+| `c1-l017` | &emsp;*ção que ſe não dobra nem vira, he mais raro q̃* |  |
 | `c1-l018` | &emsp;*o corno deſte animal.* |  |
 | `c1-l019` | Rincan. Fayaxino aida. *Dentro do boſque,* |  |
 | `c1-l020` | &emsp;*ou aruoredo.* |  |
@@ -47,7 +47,7 @@ Lexical cross-check after independent scan reading: Entry Words Data of Nippojis
 | `c1-l029` | Ringuẽ. Teivǒno cotoba. *Palaura de Rey.* |  |
 | `c1-l030` | Ringǒ. Tonarino ſato. *Lugar, ou pouoação* |  |
 | `c1-l031` | &emsp;*vizinha.* |  |
-| `c1-l032` | Ringo. *Hũa fruita como maçaãs pequenas.* |  |
+| `c1-l032` | Ringo. H*ũa fruita como maçaãs pequenas.* |  |
 | `c1-l033` | Ringocu. Tonarino cuni. *Reino vizinho.* |  |
 | `c1-l034` | Ringono qi. *Aruore que dà hũa fruita como* |  |
 | `c1-l035` | &emsp;*maçãozinhas.* |  |
@@ -96,7 +96,7 @@ Lexical cross-check after independent scan reading: Entry Words Data of Nippojis
 | `c2-l013` | &emsp;*gũa voz, ou inſtrumento muſico.* |  |
 | `c2-l014` | Rintan. i, Tonari. *Caſa, ou lugar vizi* |  |
 | `c2-l015` | &emsp;*nho. S.* |  |
-| `c2-l016` | Rin v. Nagaame. *Chuua que dura muito.* |  |
+| `c2-l016` | Rin v. Naga ame. *Chuua que dura muito.* |  |
 | `c2-l017` | &emsp;*Vt,* Rinv imada fare yarazu. *Ainda não* |  |
 | `c2-l018` | &emsp;*eſteou agrande, & comprida chuua.* |  |
 | `c2-l019` | Rinuocu. Tonarino iye. *Caſa vizinha.* |  |
@@ -106,11 +106,11 @@ Lexical cross-check after independent scan reading: Entry Words Data of Nippojis
 | `c2-l023` | Rinxô. *Sexta lũa, ou mes de Iapão. S.* |  |
 | `c2-l024` | Rinye. Vauo meguru. i, Mayô. *Andar* |  |
 | `c2-l025` | &emsp;*errado no caminho da ſaluação, andando em* |  |
-| `c2-l026` | &emsp;*continua roda de nacimentos, & transforma.* |  |
+| `c2-l026` | &emsp;*continua roda de nacimentos, & transforma-* |  |
 | `c2-l027` | &emsp;*çoens varias. Mas o ſentido ordinario he re-* |  |
 | `c2-l028` | &emsp;*petição das meſmas couſas que hum ja deuia de* |  |
 | `c2-l029` | &emsp;*ter eſquecido, ou não deuia de falar. Vt,* |  |
-| `c2-l030` | &emsp;Rinye xita cotouo yǔ. *Tornar a dizer,* |  |
+| `c2-l030` | &emsp;Rinye xita cotouo yǔ. T*ornar a dizer,* |  |
 | `c2-l031` | &emsp;*& repetir o que hum deuia de calar para não* |  |
 | `c2-l032` | &emsp;*dar no coração dalguem, &c.* |  |
 | `c2-l033` | Rinyẽ. Sonono fayaxi. *Pomar, ou horta. S.* |  |
@@ -123,7 +123,7 @@ Lexical cross-check after independent scan reading: Entry Words Data of Nippojis
 | `c2-l040` | Rinzǒ. *Hũa maneira de tabernaculo, que fa-* |  |
 | `c2-l041` | &emsp;*zem andar à roda como eſtante, que ſerue de* |  |
 | `c2-l042` | &emsp;*liuraria nas* T*eras dos gentios.* |  |
-| `c2-l043` | Riǒ. l, reǒ. *Cubiculo.* |  |
+| `c2-l043` | Riǒ. *l*, reǒ. *Cubiculo.* |  |
 | `c2-l044` | Riǒ. l, reǒ. Futatçu. *Vt,* Riǒno mimi. |  |
 | `c2-l045` | &emsp;*Ambas as orelhas. ¶* Riǒno te. *Am-* |  |
 | `c2-l046` | &emsp;*bas as mãos.* |  |

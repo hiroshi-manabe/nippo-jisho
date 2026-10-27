@@ -27,10 +27,10 @@ Lexical aid consulted after independent scan reading: NINJAL, Entry Words Data o
 | `c1-l009` | Riǒbun. *Proprias terras, ou renda, ou dentro* |  |
 | `c1-l010` | &emsp;*das terras dalguem.* |  |
 | `c1-l011` | Riǒca. *Duas caſas, ou familias.* |  |
-| `c1-l012` | Riôca. l, Riôga. Teiuǒno norimono. *An-* |  |
+| `c1-l012` | Riôca. *l*, Riôga. Teiuǒno norimono. *An-* |  |
 | `c1-l013` | &emsp;*das reaes.* |  |
 | `c1-l014` | Riǒchi. *Erdade, ou terras, ou renda.* |  |
-| `c1-l015` | Riǒchǔ. l, Riǒnai. *Dentro das terras, ou* |  |
+| `c1-l015` | Riǒchǔ. *l*, Riǒnai. *Dentro das terras, ou* |  |
 | `c1-l016` | &emsp;*renda que hum tem.* |  |
 | `c1-l017` | Riǒco. Futatçuno tora. *Dous tigres. Vide* |  |
 | `c1-l018` | &emsp;*Reǒco.* |  |
@@ -54,7 +54,7 @@ Lexical aid consulted after independent scan reading: NINJAL, Entry Words Data o
 | `c1-l036` | Riǒfen. i, Futaſamano coto. *Duas layas* |  |
 | `c1-l037` | &emsp;*ou feições de couſas.* |  |
 | `c1-l038` | Riǒfǒ. *Ambas as partes.* |  |
-| `c1-l039` | Riofù. Suzuxij caje. *Vento freſco.* |  |
+| `c1-l039` | Riǒfǔ. Suzuxij caje. *Vento freſco.* |  |
 | `c1-l040` | Riǒfu. Futarino votto. *Dous maridos Vt,* |  |
 | `c1-l041` | &emsp;Teigio riǒfuni mamiyezu. *A molher caſ-* |  |
 | `c1-l042` | &emsp;*ta e conſtante não ſe ajunta com dous maridos.* |  |
@@ -106,7 +106,7 @@ Lexical aid consulted after independent scan reading: NINJAL, Entry Words Data o
 | `c2-l029` | Riǒmen. Futatçuno cauo. *Duas faces.* |  |
 | `c2-l030` | &emsp;*¶ Item, Ambas as partes. Vt,* Riǒmen- |  |
 | `c2-l031` | &emsp;gaqi. *O eſcreuer dambas as partes do papel.* |  |
-| `c2-l032` | Riǒmengaqi. *Vt,* Riômengaqi ſuru. *Idẽ.* |  |
+| `c2-l032` | Riǒmengaqi. *Vt,* Riǒmengaqi ſuru. *Idẽ.* |  |
 | `c2-l033` | Riǒnai. *Dentro da erdade, terras, ou renda* |  |
 | `c2-l034` | &emsp;*dalguem.* |  |
 | `c2-l035` | Riǒni. Futatçuno mimi. *Ambas as orelhas.* |  |
