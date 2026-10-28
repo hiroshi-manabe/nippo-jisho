@@ -22,7 +22,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l006` | Riǒxa. Iyeiye. i, Bǒzuno iye. *Caſa, ou* |  |
 | `c1-l007` | &emsp;*cubiculo de Bonzo.* |  |
 | `c1-l008` | Riǒxet. *Nouas que ſe contão de duas maneiras.* |  |
-| `c1-l009` | &emsp;*¶ Item, Duas opinioẽs.* |  |
+| `c1-l009` | &emsp;*¶* I*tem, Duas opinioẽs.* |  |
 | `c1-l010` | Riǒxi. Futarino tçucai. *Dous recados.* |  |
 | `c1-l011` | Riǒxin. Yoi xinca. *Bom criado.* |  |
 | `c1-l012` | Riǒxin. i, Yoi toqi. *Boa hora, ou de bom* |  |
@@ -30,7 +30,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l014` | Riǒxo. Futatocoro. *Dous lugares, ou duas* |  |
 | `c1-l015` | &emsp;*peßoas.* |  |
 | `c1-l016` | Riǒxǒ. Futarino taixǒ. *Dous capitães.* |  |
-| `c1-l017` | &emsp;*¶* Riǒxǒ yeiuo araſô. *Dous capitães cõ.* |  |
+| `c1-l017` | &emsp;*¶* Riǒxǒ yeiuo araſô. *Dous capitães cõ-* |  |
 | `c1-l018` | &emsp;*tendem ſobre o poder, & fausto.* |  |
 | `c1-l019` | Riǒxǒ. Yoqi taixǒ. *Bom capitão.* |  |
 | `c1-l020` | Riǒxu. Futatçuno te. *Ambas as mãos.* |  |
@@ -47,7 +47,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l031` | Riǒzzu. *Duas cabeças.* |  |
 | `c1-l032` | Riqen. Surudona qen. i, Tçurugui. *Eſ-* |  |
 | `c1-l033` | &emsp;*pada que corta bem.* |  |
-| `c1-l034` | Riqi. l, Riqixa. *Homem rapado que ſerue como* |  |
+| `c1-l034` | Riqi. *l*, Riqixa. *Homem rapado que ſerue como* |  |
 | `c1-l035` | &emsp;*de pagem da lança, leuando hũa Naguinata* |  |
 | `c1-l036` | &emsp;*diante do ſenhor.* |  |
 | `c1-l037` | Riqi. Chicara. *Forças. ¶* Riqino aru |  |
@@ -60,7 +60,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l044` | Riqixa. *Homem forçoſo.* |  *(*Riqi |
 | `c1-l045` | Riqixa. *Hũ homẽ pagẽ da lança. Vide ſupra,* |  |
 | `c1-l046` | Riqua. Naxino fana. *Flor de pereira. S.* |  |
-| `c1-l047` | Riquan. Cutçu; camuri. *Calçado, & co-* |  |
+| `c1-l047` | Riquan. Cutçu, camuri. *Calçado, & co-* |  |
 
 ## Column 2 running header
 
@@ -92,7 +92,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l012` | Riſô. Rini vaxiru. *O procurar, ou negocear* |  |
 | `c2-l013` | &emsp;*com diligencia ſeu proueito, & ganho.* |  |
 | `c2-l014` | Riſu. *Hũ certo animalinho como forão.* |  |
-| `c2-l015` | Rita. Tauo ſucǔ. *Saluar, ou liurar aos ou-* |  |
+| `c2-l015` | *R*ita. Tauo ſucǔ. *Saluar, ou liurar aos ou-* |  |
 | `c2-l016` | &emsp;*tros. Bup.* |  |
 | `c2-l017` | Ritan. i, Xǒguat. *Primeira lũa, ou mes* |  |
 | `c2-l018` | &emsp;*do anno.* |  |
@@ -102,8 +102,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l022` | &emsp;*& regular.* |  |
 | `c2-l023` | Ritǒ. Surudona catana. *Eſpada, ou Catana* |  |
 | `c2-l024` | &emsp;*que corta bem.* |  |
-| `c2-l025` | Ritocu. *Proueitos, ou ganhos. Vt,* Ritocuuo |  |
-| `c2-l026` | &emsp;araſô. *Contender ſobre o intereſſe, ou ganho.* |  |
+| `c2-l025` | Ritocu. *Proueitos, ou ganhos. Vt,* Rtocuuo |  |
+| `c2-l026` | &emsp;araſô. *Contender ſobre o intereße, ou ganho.* |  |
 | `c2-l027` | Riǔca. Yanaguino xita. *De baixo do ſal-* |  |
 | `c2-l028` | &emsp;*gueiro, ou ao pee do ſalgueiro.* |  |
 | `c2-l029` | Riǔcǒ. *Dignidade de Rainha.* |  |
