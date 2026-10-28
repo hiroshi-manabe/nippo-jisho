@@ -76,6 +76,8 @@ Scope: `full_dictionary_text_and_furniture`
 
 ## Column 2
 
+Typeface recheck: every capital R in this column was compared individually with the native scan. Swash italic R sorts within otherwise roman Japanese words are retained as italic; genuine roman R sorts, including the large decorated initial, remain roman. The distinction is based on the letterform and long curved leg, not linguistic role or slope alone.
+
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c2-l001` | &emsp;*roa, ou outra couſa com que ſe cobre, & orna* |  |
@@ -94,34 +96,34 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l014` | Riſu. *Hũ certo animalinho como forão.* |  |
 | `c2-l015` | *R*ita. Tauo ſucǔ. *Saluar, ou liurar aos ou-* |  |
 | `c2-l016` | &emsp;*tros. Bup.* |  |
-| `c2-l017` | Ritan. i, Xǒguat. *Primeira lũa, ou mes* |  |
+| `c2-l017` | *R*itan. i, Xǒguat. *Primeira lũa, ou mes* |  |
 | `c2-l018` | &emsp;*do anno.* |  |
-| `c2-l019` | Ritgui. Tadaxij coto. *Simplicidade, &* |  |
-| `c2-l020` | &emsp;*inteireza. Vt,* Ritgui xenbanno fito |  |
+| `c2-l019` | *R*itgui. Tadaxij coto. *Simplicidade, &* |  |
+| `c2-l020` | &emsp;*inteireza. Vt, R*itgui xenbanno fito |  |
 | `c2-l021` | &emsp;nari. *He homem mui inteiro, & ſimples,* |  |
 | `c2-l022` | &emsp;*& regular.* |  |
-| `c2-l023` | Ritǒ. Surudona catana. *Eſpada, ou Catana* |  |
+| `c2-l023` | *R*itǒ. Surudona catana. *Eſpada, ou Catana* |  |
 | `c2-l024` | &emsp;*que corta bem.* |  |
-| `c2-l025` | Ritocu. *Proueitos, ou ganhos. Vt,* Rtocuuo |  |
+| `c2-l025` | *R*itocu. *Proueitos, ou ganhos. Vt, R*tocuuo |  |
 | `c2-l026` | &emsp;araſô. *Contender ſobre o intereße, ou ganho.* |  |
-| `c2-l027` | Riǔca. Yanaguino xita. *De baixo do ſal-* |  |
+| `c2-l027` | *R*iǔca. Yanaguino xita. *De baixo do ſal-* |  |
 | `c2-l028` | &emsp;*gueiro, ou ao pee do ſalgueiro.* |  |
-| `c2-l029` | Riǔcǒ. *Dignidade de Rainha.* |  |
-| `c2-l030` | Riǔcot. i, Riôno fone. *Hũa mezinha.* |  |
-| `c2-l031` | Riǔfa. Fauo tatçuru. *Fundar, ou aleuantar* |  |
+| `c2-l029` | *R*iǔcǒ. *Dignidade de Rainha.* |  |
+| `c2-l030` | *R*iǔcot. i, *R*iôno fone. *Hũa mezinha.* |  |
+| `c2-l031` | *R*iǔfa. Fauo tatçuru. *Fundar, ou aleuantar* |  |
 | `c2-l032` | &emsp;*algũa ſeita.* |  |
-| `c2-l033` | Riǔgo. *Certo inſtrumento defeição de relogio* |  |
+| `c2-l033` | *R*iǔgo. *Certo inſtrumento defeição de relogio* |  |
 | `c2-l034` | &emsp;*de area de que vſa o volteador, o qual faz* |  |
 | `c2-l035` | &emsp;*andar à roda, & menea de muitas maneiras* |  |
-| `c2-l036` | &emsp;*cõ hum cordel. ¶* Riǔgo nari. *Figura, ou* |  |
+| `c2-l036` | &emsp;*cõ hum cordel. ¶ R*iǔgo nari. *Figura, ou* |  |
 | `c2-l037` | &emsp;*feição deſte inſtrumento.* |  |
-| `c2-l038` | Riǔgun. *Reino, ou republica de lagartos,* |  |
+| `c2-l038` | *R*iǔgun. *Reino, ou republica de lagartos,* |  |
 | `c2-l039` | &emsp;*que imaginão os gentios auer dentro do mar.* |  |
 | `c2-l040` | Riǔguan. Guanuo tatçuru. *Voto que hum* |  |
-| `c2-l041` | &emsp;*faz. Vt,* Riǔguanuo ſuru. *Fazer voto.* |  |
-| `c2-l042` | &emsp;*¶* Riǔguanuo jǒjuſuru. *Comprir o voto.* |  |
-| `c2-l043` | Riǔjin. *Cami dos lagartos.* |  |
-| `c2-l044` | Riǔme. i, Reôno vonvma. *Caualo bom,* |  |
+| `c2-l041` | &emsp;*faz. Vt, R*iǔguanuo ſuru. *Fazer voto.* |  |
+| `c2-l042` | &emsp;*¶ R*iǔguanuo jǒjuſuru. *Comprir o voto.* |  |
+| `c2-l043` | *R*iǔjin. *Cami dos lagartos.* |  |
+| `c2-l044` | *R*iǔme. i, *R*eôno vonvma. *Caualo bom,* |  |
 | `c2-l045` | &emsp;*& afamado. ¶ Item, Caualo em que* |  |
 | `c2-l046` | &emsp;*caualga o Rey. ¶ Item, Hũa certa peça* |  |
 | `c2-l047` | &emsp;*do enxadrez.* |  |
