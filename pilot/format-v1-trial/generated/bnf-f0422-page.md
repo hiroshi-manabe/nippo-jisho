@@ -36,9 +36,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l020` | Riǔxi. Yanaguino ito. *Ramos delgados de* |  |
 | `c1-l021` | &emsp;*ſalgueiros que estão de pendurados como fios. S.* |  |
 | `c1-l022` | Riǔxocu. Yanaguino iro. *Cor de ſalgueiro. S.* |  |
-| `c1-l023` | Riǔyô. Tate mochiyuru. *O dar, ou pagar* |  |
+| `c1-l023` | Riǔyô. Ta*t*e mochiyuru. *O dar, ou pagar* |  |
 | `c1-l024` | &emsp;*algũa couſa da diuida, ou toda conforme ao de* |  |
-| `c1-l025` | &emsp;*ſejo do acredor, em algũa couſa q̃ não ſeia a meſ* |  |
+| `c1-l025` | &emsp;*ſejo do acrèdor, em algũa couſa q̃ não ſeia a meſ* |  |
 | `c1-l026` | &emsp;*ma q̃ ſe emprestou, ou pagãdo por via de outro* |  |
 | `c1-l027` | &emsp;*ainda q̃ ſeja ameſma prata ẽ eſpecie, &c. Vt,* |  |
 | `c1-l028` | &emsp;Icquã meno cauarini coreuo riǔ yô tçuca |  |
@@ -104,7 +104,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l018` | Rǒ. *Cera.* |  |
 | `c2-l019` | Rǒ. Tçucaruru. *Canſaço. ¶* Rǒuo tçu- |  |
 | `c2-l020` | &emsp;mu. *Trabalhar muito, ou ter muito traba-* |  |
-| `c2-l021` | &emsp;*lhado, & canſado. ¶* Rǒ xite cônaigui |  |
+| `c2-l021` | &emsp;*lhado, & canſado. ¶* Rǒ xite cônai gui |  |
 | `c2-l022` | &emsp;gia. *Depois de canſar, & trabalhar não a-* |  |
 | `c2-l023` | &emsp;*proueitar, nem aquirir virtude, ou mere-* |  |
 | `c2-l024` | &emsp;*cimento. ¶* Rǒga iqu. *Canſar.* |  |
