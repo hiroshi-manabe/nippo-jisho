@@ -252,12 +252,23 @@ def phrase_hint(text: str) -> str | None:
     return f"{phrase}/{' '.join(readings)}"
 
 
+def roman_review_texts(runs: list[dict]):
+    """Keep an isolated italic initial attached to its roman Japanese word."""
+    for index, run in enumerate(runs):
+        if run.get('typeface') != 'roman':
+            continue
+        text = run.get('text', '')
+        if index and text[:1].islower() and runs[index - 1].get('typeface') == 'italic':
+            initial = re.search(r'(?<!\w)([A-Z])$', runs[index - 1].get('text', ''))
+            if initial:
+                text = initial[1] + text
+        yield text
+
+
 def reading_hint(runs: list[dict]) -> str | None:
     hints: list[str] = []
-    for run in runs:
-        if run.get("typeface") != "roman":
-            continue
-        for phrase in re.split(r"[.¶]+", run.get("text", "")):
+    for text in roman_review_texts(runs):
+        for phrase in re.split(r"[.¶]+", text):
             phrase = phrase.strip(" ,;:-")
             if phrase and (hint := phrase_hint(phrase)):
                 hints.append(hint)
@@ -268,7 +279,6 @@ def reading_hint_applicable(runs: list[dict]) -> bool:
     """Return whether roman runs contain anything other than known labels."""
     return any(
         reading_tokens(phrase.strip(" ,;:-"))
-        for run in runs
-        if run.get("typeface") == "roman"
-        for phrase in re.split(r"[.¶]+", run.get("text", ""))
+        for text in roman_review_texts(runs)
+        for phrase in re.split(r"[.¶]+", text)
     )

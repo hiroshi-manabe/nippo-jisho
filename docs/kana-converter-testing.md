@@ -29,6 +29,13 @@ also identifies these entries. Our simplified hint uses リョ without claiming
 an exact phonetic reconstruction. Marked `reǒ`/`reô` retain リョゥ, and this
 change does not generalize unmarked `eo` to all consonants. Level 1 is unchanged.
 
+For derived hints, an isolated italic capital immediately preceding roman
+lowercase letters remains attached to that Japanese word (`*R*iun` →
+`Riun/リウン`). The same boundary can follow italic punctuation or prose.
+This keeps the guide usable when the printer substituted an italic initial
+within a roman headword; it does not reclassify fully italic Portuguese words
+or change the canonical typeface runs.
+
 The `n + ua/uo` boundary rule applies only to `nua`/`nuo`, not to every
 `nu` followed by a vowel. Thus f373 `Nui` → ヌイ, `Nuiague` → ヌイアゲ,
 and `Nuiauaxe` → ヌイアワセ without lexical exceptions. `Quǒguenuo`

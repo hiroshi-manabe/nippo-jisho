@@ -7,6 +7,16 @@ from scripts.kana_reading import transliterate_token, phrase_hint, reading_hint,
 
 
 class KanaCorpusTests(unittest.TestCase):
+    def test_italic_initial_stays_with_roman_japanese_hint(self):
+        for prefix in ['R', 'Victoria. ¶ R']:
+            runs = [{'typeface': 'italic', 'text': prefix}, {'typeface': 'roman', 'text': 'iun.'}]
+            self.assertEqual(reading_hint(runs), 'Riun/リウン')
+            self.assertTrue(reading_hint_applicable(runs))
+        self.assertIsNone(reading_hint([{'typeface': 'italic', 'text': 'Rainha.'}]))
+        self.assertEqual(reading_hint([
+            {'typeface': 'italic', 'text': 'Rainha'}, {'typeface': 'roman', 'text': ' inu.'}
+        ]), 'inu/イヌ')
+
     def test_unmarked_reo_is_short_contracted_o(self):
         for token, expected in [('reo', 'リョ'), ('Reoſô', 'リョソゥ'),
                                 ('Reocacu', 'リョカク'), ('Reochi', 'リョチ'),
