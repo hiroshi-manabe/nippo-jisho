@@ -138,4 +138,4 @@ Typeface recheck: every capital R in this column was compared individually with 
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `u2b-l001` |  | Riun. |
+| `u2b-l001` |  | *R*iun. |
