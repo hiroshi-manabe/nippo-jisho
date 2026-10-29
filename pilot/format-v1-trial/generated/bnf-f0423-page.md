@@ -44,8 +44,8 @@ Secondary lexical reference: *Entry Words Data of Nippojisho*, NINJAL, Hideyuki 
 | `c1-l026` | Rôcocu. i, Toqei. *Relogio como darea,* |  |
 | `c1-l027` | &emsp;*agoa, &c.* |  |
 | `c1-l028` | Rocu. Tamamono. i, Tacara. *Riquezas.* |  |
-| `c1-l029` | &emsp;*¶* Rocuuo tçumu, l, tacuuayuru. *Ajun-* |  |
-| `c1-l030` | &emsp;*tar muitas riquezas pera dar.* |  |
+| `c1-l029` | &emsp;*¶* Rocuuo tçumu, *l*, tacuuayuru. *Ajun-* |  |
+| `c1-l030` | &emsp;*tar muitas riquezas peradar.* |  |
 | `c1-l031` | Rǒcu. Xinrǒ curuximi. *Trabalho, pena,* |  |
 | `c1-l032` | &emsp;*& canſaço.* |  |
 | `c1-l033` | Rǒcu. Voino curuximi. *Trabalho, ou males* |  |
@@ -78,7 +78,7 @@ Secondary lexical reference: *Entry Words Data of Nippojisho*, NINJAL, Hideyuki 
 | `c2-l002` | Rocugi. *Terra, ou caminho por terra. Vt,* |  |
 | `c2-l003` | &emsp;Rocugiuo yuqu, l, ayumu. *Ir, ou cami-* |  |
 | `c2-l004` | &emsp;*nhar por terra.* |  |
-| `c2-l005` | Rocugiô. *Certo comer que ſe faz cõ* Tofus *ſecos,* |  |
+| `c2-l005` | Rocugiô. *Certo comer que ſe faz cõ Tofus ſecos,* |  |
 | `c2-l006` | &emsp;*& duros.* |  |
 | `c2-l007` | Rocu-i. Tacara, curai. *Riquezas, & dig-* |  |
 | `c2-l008` | &emsp;*nidades.* |  |
@@ -90,7 +90,7 @@ Secondary lexical reference: *Entry Words Data of Nippojisho*, NINJAL, Hideyuki 
 | `c2-l014` | &emsp;ſayeguiru. *O vestido de pelle de veado defẽ-* |  |
 | `c2-l015` | &emsp;*de do frio.* |  |
 | `c2-l016` | Rocuro. *Pião de dentro do ſõbreiro do ſol.* |  |
-| `c2-l017` | Rocuro. *Torno dos torneiros. ¶* Rocu- |  |
+| `c2-l017` | Rocuro. *Torno dos torneiros. ¶ R*ocu- |  |
 | `c2-l018` | &emsp;roni caqete fiqu. *Fazer obra ao torno.* |  |
 | `c2-l019` | Rocuro fiqi. *Official de torno, ou Torneiro.* |  |
 | `c2-l020` | Rocuroxi. *Idem.* |  |
@@ -117,7 +117,7 @@ Secondary lexical reference: *Entry Words Data of Nippojisho*, NINJAL, Hideyuki 
 | `c2-l041` | Rǒfit. Voita fude. *Eſcriuão velho. Itẽ, Letra* |  |
 | `c2-l042` | &emsp;*de velho.* |  |
 | `c2-l043` | Rǒfu. Voita votto. *Homem velho.* |  |
-| `c2-l044` | Rǒfu. *Melius,* Rǒbu. Voitaru chichi. *Pay* |  |
+| `c2-l044` | Rǒfu. *Meliùs,* Rǒbu. Voitaru chichi. *Pay* |  |
 | `c2-l045` | &emsp;*velho.* |  |
 | `c2-l046` | Rǒgacu. *Eſtudo de pois de velho.* |  |
 | `c2-l047` | Rǒgan. Voino manaco. *Olhos de velho.* |  |
