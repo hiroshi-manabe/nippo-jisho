@@ -20,7 +20,7 @@ Secondary lexical reference: *Entry Words Data of Nippojisho*, NINJAL, Hideyuki 
 | `c1-l002` | &emsp;Taif. *Lib. 37. As caſas dos ſenhores* |  |
 | `c1-l003` | &emsp;*grandes eſtauão mui luzidas, & luſtroſas, &* |  |
 | `c1-l004` | &emsp;*altas que ſe hião às nuuẽs.* |  |
-| `c1-l005` | Rocai. R*emos, & pangayos.* |  |
+| `c1-l005` | Rocai. *Remos, & pangayos.* |  |
 | `c1-l006` | Rôcutaxi. *Deixar morrer alguem tendoo mui-* |  |
 | `c1-l007` | &emsp;*to tempo no carcere.* |  |
 | `c1-l008` | *R*occacu. *Couſa de ſeis quinas, ou cantos.* |  |
