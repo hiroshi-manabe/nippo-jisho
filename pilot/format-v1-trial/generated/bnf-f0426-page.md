@@ -12,7 +12,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 ## Column 1
 
-Lexical cross-check after independent reading: NINJAL, Hideyuki Ohshima and Taichi Aida, Entry Words Data of Nippojisho, version 202510, licensed CC BY 4.0 (https://www2.ninjal.ac.jp/textdb_dataset/en/nipp/index.html; https://creativecommons.org/licenses/by/4.0/). The returned transcription and review notes are separate scan-based work, not a reproduction of that index.
+Lexical cross-check after independent reading: NINJAL, Hideyuki Ohshima and Taichi Aida, Entry Words Data of Nippojisho, version 202510, licensed CC BY 4.0 (https://www2.ninjal.ac.jp/textdb_dataset/en/nipp/index.html; https://creativecommons.org/licenses/by/4.0/). The returned transcription and review notes are separate scan-based work, not a reproduction of that index. Typeface recheck: every capital R was compared individually with the native scan. Swash italic R sorts in otherwise roman Japanese words are represented as italic initials; genuine roman R sorts remain roman. The decision follows the letterform, not the language or slope alone. This mixed-sort usage continues through the R entries on f426; the R occurrences on f427–f429 were also checked and require no changes.
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
@@ -32,11 +32,11 @@ Lexical cross-check after independent reading: NINJAL, Hideyuki Ohshima and Taic
 | `c1-l014` | Ru ire. *Vide,* Ru. |  |
 | `c1-l015` | Ruireqe. *Inchaços, ou carouços q̃ nacem no peſ-* |  |
 | `c1-l016` | &emsp;*coço ao derredor da gargãta.* |  |
-| `c1-l017` | Ruireqi. *O chorar muito, ou por muito eſpa-* |  |
+| `c1-l017` | *R*uireqi. *O chorar muito, ou por muito eſpa-* |  |
 | `c1-l018` | &emsp;*ço.* S. |  |
 | `c1-l019` | Ruitai. i, Daidai. *Idades acrecentadas, ou* |  |
 | `c1-l020` | &emsp;*muitas idades.* |  |
-| `c1-l021` | Ruitocu. Tocuuo caſanuru. *O acrecentar* |  |
+| `c1-l021` | *R*uitocu. Tocuuo caſanuru. *O acrecentar* |  |
 | `c1-l022` | &emsp;*merecimentos, ou muitos merecimentos.* |  |
 | `c1-l023` | Rui v. Namidano ame. *Muitas lagrimas* |  |
 | `c1-l024` | &emsp;*ou chorar muito. Vt,* Rui v faregataxi. |  |
@@ -57,12 +57,12 @@ Lexical cross-check after independent reading: NINJAL, Hideyuki Ohshima and Taic
 | `c1-l039` | &emsp;*là deſenfadandoſe. ¶ Item, Eſtar fazen-* |  |
 | `c1-l040` | &emsp;*do algũa couſa com o ſentido noutras partes co-* |  |
 | `c1-l041` | &emsp;*mo deſenfadandoſe.* |  |
-| `c1-l042` | Ruri. *Certa pedra precioſa azul.* |  |
-| `c1-l043` | Ruri. *Paſarinho de cor azul eſcuro.* |  |
-| `c1-l044` | Ruri iro. *Cor da zul eſcuro.* |  |
-| `c1-l045` | Rurǒ. *Deſterro. ¶* Rurǒ ſuru. *An* |  |
+| `c1-l042` | *R*uri. *Certa pedra precioſa azul.* |  |
+| `c1-l043` | *R*uri. *Paſarinho de cor azul eſcuro.* |  |
+| `c1-l044` | *R*uri iro. *Cor da zul eſcuro.* |  |
+| `c1-l045` | *R*urǒ. *Deſterro. ¶ R*urǒ ſuru. *An* |  |
 | `c1-l046` | &emsp;*dar deſterrado ſem caſa, nem lugar certo.* |  |
-| `c1-l047` | &emsp;*¶* Rurǒno mito naru. *Ser deſterrado.* |  |
+| `c1-l047` | &emsp;*¶ R*urǒno mito naru. *Ser deſterrado.* |  |
 
 ## Column 2 running header
 
@@ -72,21 +72,23 @@ Lexical cross-check after independent reading: NINJAL, Hideyuki Ohshima and Taic
 
 ## Column 2, part 1
 
+Typeface recheck: every capital R was compared individually with the native scan. Swash italic R sorts in otherwise roman Japanese words are represented as italic initials; genuine roman R sorts remain roman. The decision follows the letterform, not the language or slope alone. This mixed-sort usage continues through the R entries on f426; the R occurrences on f427–f429 were also checked and require no changes.
+
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | Ruſu. Todomari mamoru. *O eſtar abſente* |  |
-| `c2-l002` | &emsp;*ou fora de caſa. ¶* Ruſuuo ſuru. *Ficar* |  |
-| `c2-l003` | &emsp;*em caſa vigiãdo em abſencia dalguẽ. ¶* Ru- |  |
+| `c2-l001` | *R*uſu. Todomari mamoru. *O eſtar abſente* |  |
+| `c2-l002` | &emsp;*ou fora de caſa. ¶ R*uſuuo ſuru. *Ficar* |  |
+| `c2-l003` | &emsp;*em caſa vigiãdo em abſencia dalguẽ. ¶ R*u- |  |
 | `c2-l004` | &emsp;ſu naru. l, dearu. *Eſtar fora, ou abſente.* |  |
-| `c2-l005` | Ruſumori. i, Ruſuno ban. *O que fica guar* |  |
+| `c2-l005` | *R*uſumori. i, *R*uſuno ban. *O que fica guar* |  |
 | `c2-l006` | &emsp;*dando, ou vigiando a caſa.* |  |
-| `c2-l007` | Rutçǔ. i, Cocoroni vcamuru. *Lembrarſe,* |  |
+| `c2-l007` | *R*utçǔ. i, Cocoroni vcamuru. *Lembrarſe,* |  |
 | `c2-l008` | &emsp;*ou ſaber bem de memoria as couſas.* |  |
-| `c2-l009` | Ruten. *Rodeo, ou reuolução. Vt,* Xǒji- |  |
+| `c2-l009` | *R*uten. *Rodeo, ou reuolução. Vt,* Xǒji- |  |
 | `c2-l010` | &emsp;ni ruten ſuru. *Tornar a nacer, & morrer* |  |
 | `c2-l011` | &emsp;*muitas vezes, como imaginão os gentios.* |  |
-| `c2-l012` | Ruzai. *O deſterrar, ou condenar ao deſterro* |  |
-| `c2-l013` | &emsp;*a alguem. Vt,* Ruzaini voconǒ. *Idem.* |  |
+| `c2-l012` | *R*uzai. *O deſterrar, ou condenar ao deſterro* |  |
+| `c2-l013` | &emsp;*a alguem. Vt, R*uzaini voconǒ. *Idem.* |  |
 
 ## Column 2 internal heading
 
@@ -113,6 +115,8 @@ Lexical cross-check after independent reading: NINJAL, Hideyuki Ohshima and Taic
 | `s2-04-l001` | **S ANTES DO A.** |  |
 
 ## Column 2, part 2
+
+Typeface recheck: every capital R was compared individually with the native scan. Swash italic R sorts in otherwise roman Japanese words are represented as italic initials; genuine roman R sorts remain roman. The decision follows the letterform, not the language or slope alone. This mixed-sort usage continues through the R entries on f426; the R occurrences on f427–f429 were also checked and require no changes.
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |

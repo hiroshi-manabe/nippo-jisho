@@ -12,19 +12,19 @@ Scope: `full_dictionary_text_and_furniture`
 
 ## Column 1
 
-Secondary lexical reference: *Entry Words Data of Nippojisho*, NINJAL, Hideyuki Ohshima and Taichi Aida, version 202510, supplied page subset, CC BY 4.0. Release: https://www2.ninjal.ac.jp/textdb_dataset/en/nipp/index.html License: https://creativecommons.org/licenses/by/4.0/ The BnF scan remains the primary evidence; review corrections and chosen readings are distinguished in the line notes.
+Secondary lexical reference: *Entry Words Data of Nippojisho*, NINJAL, Hideyuki Ohshima and Taichi Aida, version 202510, supplied page subset, CC BY 4.0. Release: https://www2.ninjal.ac.jp/textdb_dataset/en/nipp/index.html License: https://creativecommons.org/licenses/by/4.0/ The BnF scan remains the primary evidence; review corrections and chosen readings are distinguished in the line notes. Typeface recheck: every capital R was compared individually with the native scan. Swash italic R sorts in otherwise roman Japanese words are represented as italic initials; genuine roman R sorts remain roman. The decision follows the letterform, not the language or slope alone. This mixed-sort usage continues through the R entries on f426; the R occurrences on f427–f429 were also checked and require no changes.
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | Rǒrô. *Vt,* Rǒrôiuru. *Eſtar deſterrado,* |  |
+| `c1-l001` | *R*ǒrô. *Vt, R*ǒrôiuru. *Eſtar deſterrado,* |  |
 | `c1-l002` | &emsp;*& recolhido ſem ſair a publico, nem ter de-* |  |
 | `c1-l003` | &emsp;*uer com o mundo.* |  |
-| `c1-l004` | Rôrôtoxite. *Adu. Modo de eſtar ſolitario,* |  |
+| `c1-l004` | *R*ôrôtoxite. *Adu. Modo de eſtar ſolitario,* |  |
 | `c1-l005` | &emsp;*& recolhido ſẽ tratar com a gente como ve-* |  |
 | `c1-l006` | &emsp;*lhos, ou doentes de malenconia, &c.* |  |
-| `c1-l007` | Rǒſai. *Hũa doença como etica, ou tiſica.* |  |
+| `c1-l007` | *R*ǒſai. *Hũa doença como etica, ou tiſica.* |  |
 | `c1-l008` | Roſai, ǒ, ǒta. *Pedir eſmola, comer, ou ſuſtẽtação.* |  |
-| `c1-l009` | Roſai. *Vt,* Roſaiuo itaſu. *Idem.* |  |
+| `c1-l009` | Roſai. *Vt, R*oſaiuo itaſu. *Idem.* |  |
 | `c1-l010` | Roſainin. *Peßoa q̃ pede eſmola, ou ſuſtẽtação.* |  |
 | `c1-l011` | Rǒſo. Voitaru nezumi. *Rato velho.* S. |  |
 | `c1-l012` | Roſǒ. i, Auoi yenogu. *Tinta muito azul* |  |
@@ -49,7 +49,7 @@ Secondary lexical reference: *Entry Words Data of Nippojisho*, NINJAL, Hideyuki 
 | `c1-l031` | &emsp;*pee junto do caminho. ¶ Item, permet. An-* |  |
 | `c1-l032` | &emsp;*dar deſagaſalhado como pobre ſem caſa, &c.* |  |
 | `c1-l033` | Rǒuô. Voitaru voqina. *Velho.* |  |
-| `c1-l034` | Rǒuoxǒ. *Certa dignidade de Bonzos velhos* |  |
+| `c1-l034` | *R*ǒuoxǒ. *Certa dignidade de Bonzos velhos* |  |
 | `c1-l035` | &emsp;*entre os Ienxus.* |  |
 | `c1-l036` | Rôxa. *Preſo, ou encarcerado.* |  |
 | `c1-l037` | Rǒxa. Voitaru mono. *Velho.* |  |
@@ -72,6 +72,8 @@ Secondary lexical reference: *Entry Words Data of Nippojisho*, NINJAL, Hideyuki 
 
 ## Column 2, part 1
 
+Typeface recheck: every capital R was compared individually with the native scan. Swash italic R sorts in otherwise roman Japanese words are represented as italic initials; genuine roman R sorts remain roman. The decision follows the letterform, not the language or slope alone. This mixed-sort usage continues through the R entries on f426; the R occurrences on f427–f429 were also checked and require no changes.
+
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c2-l001` | Rǒxin. Voitarumi. *Corpo velho, ou can-* |  |
@@ -80,7 +82,7 @@ Secondary lexical reference: *Entry Words Data of Nippojisho*, NINJAL, Hideyuki 
 | `c2-l004` | Rǒxô. Voitari, vacaxi. *Velhos, & man-* |  |
 | `c2-l005` | &emsp;*cebos.* |  |
 | `c2-l006` | Rǒxô. Voimatçu. *Pinheiro velho.* |  |
-| `c2-l007` | Rôxǒ. Yagurano vye. *Encima do baluarte,* |  |
+| `c2-l007` | *R*ôxǒ. Yagurano vye. *Encima do baluarte,* |  |
 | `c2-l008` | &emsp;*ou baileu, ou torre.* |  |
 | `c2-l009` | Rǒxǒ. *Fraqueza, & canſaço por via do tra-* |  |
 | `c2-l010` | &emsp;*balho.* |  |
@@ -111,6 +113,8 @@ Secondary lexical reference: *Entry Words Data of Nippojisho*, NINJAL, Hideyuki 
 | `s2-01-l001` | **R ANTES DO V.** |  |
 
 ## Column 2, part 2
+
+Typeface recheck: every capital R was compared individually with the native scan. Swash italic R sorts in otherwise roman Japanese words are represented as italic initials; genuine roman R sorts remain roman. The decision follows the letterform, not the language or slope alone. This mixed-sort usage continues through the R entries on f426; the R occurrences on f427–f429 were also checked and require no changes.
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |

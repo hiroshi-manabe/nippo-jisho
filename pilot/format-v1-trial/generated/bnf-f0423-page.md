@@ -12,7 +12,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 ## Column 1
 
-Secondary lexical reference: *Entry Words Data of Nippojisho*, NINJAL, Hideyuki Ohshima and Taichi Aida, version 202510, supplied page subset, CC BY 4.0. Release: https://www2.ninjal.ac.jp/textdb_dataset/en/nipp/index.html License: https://creativecommons.org/licenses/by/4.0/ The BnF scan remains the primary evidence; review corrections and chosen readings are distinguished in the line notes.
+Secondary lexical reference: *Entry Words Data of Nippojisho*, NINJAL, Hideyuki Ohshima and Taichi Aida, version 202510, supplied page subset, CC BY 4.0. Release: https://www2.ninjal.ac.jp/textdb_dataset/en/nipp/index.html License: https://creativecommons.org/licenses/by/4.0/ The BnF scan remains the primary evidence; review corrections and chosen readings are distinguished in the line notes. Typeface recheck: every capital R was compared individually with the native scan. Swash italic R sorts in otherwise roman Japanese words are represented as italic initials; genuine roman R sorts remain roman. The decision follows the letterform, not the language or slope alone. This mixed-sort usage continues through the R entries on f426; the R occurrences on f427–f429 were also checked and require no changes.
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
@@ -20,28 +20,28 @@ Secondary lexical reference: *Entry Words Data of Nippojisho*, NINJAL, Hideyuki 
 | `c1-l002` | &emsp;Taif. *Lib. 37. As caſas dos ſenhores* |  |
 | `c1-l003` | &emsp;*grandes eſtauão mui luzidas, & luſtroſas, &* |  |
 | `c1-l004` | &emsp;*altas que ſe hião às nuuẽs.* |  |
-| `c1-l005` | Rocai. *Remos, & pangayos.* |  |
+| `c1-l005` | Rocai. R*emos, & pangayos.* |  |
 | `c1-l006` | Rôcutaxi. *Deixar morrer alguem tendoo mui-* |  |
 | `c1-l007` | &emsp;*to tempo no carcere.* |  |
-| `c1-l008` | Roccacu. *Couſa de ſeis quinas, ou cantos.* |  |
-| `c1-l009` | Roccacuna. *Idem.* |  |
-| `c1-l010` | Roccacuni. *Adu.* |  |
-| `c1-l011` | Roccon. *Seis ſentidos conforme aos Iapoẽs.* |  |
+| `c1-l008` | *R*occacu. *Couſa de ſeis quinas, ou cantos.* |  |
+| `c1-l009` | *R*occacuna. *Idem.* |  |
+| `c1-l010` | *R*occacuni. *Adu.* |  |
+| `c1-l011` | *R*occon. *Seis ſentidos conforme aos Iapoẽs.* |  |
 | `c1-l012` | &emsp;*ſ, os cinco exteriores, & o ſentido comum. Vt,* |  |
 | `c1-l013` | &emsp;*Guen, ni, bi, jet,* x*in,* I. |  |
-| `c1-l014` | Rôchô. Cagono tori. *Paßaro que eſtà na* |  |
+| `c1-l014` | *R*ôchô. Cagono tori. *Paßaro que eſtà na* |  |
 | `c1-l015` | &emsp;*gayola.* |  |
-| `c1-l016` | Rôchǔ. Yagurano vchi. *Dentro no balluar-* |  |
+| `c1-l016` | *R*ôchǔ. Yagurano vchi. *Dentro no balluar-* |  |
 | `c1-l017` | &emsp;*te, ou torrinha.* |  |
-| `c1-l018` | Rôchǔ. Rôno vchi. *Dentro no tronco, ou* |  |
+| `c1-l018` | *R*ôchǔ. *R*ôno vchi. *Dentro no tronco, ou* |  |
 | `c1-l019` | &emsp;*carcere.* |  |
-| `c1-l020` | Rochǔ. Michi naca. *Meyo do caminho.* |  |
-| `c1-l021` | Rǒcô. *Fruito, ou merecimento do trabalho.* |  |
-| `c1-l022` | &emsp;*¶* Rǒcôuo tçumu. *Ajuntar ſeruiços* |  |
+| `c1-l020` | *R*ochǔ. Michi naca. *Meyo do caminho.* |  |
+| `c1-l021` | *R*ǒcô. *Fruito, ou merecimento do trabalho.* |  |
+| `c1-l022` | &emsp;*¶ R*ǒcôuo tçumu. *Ajuntar ſeruiços* |  |
 | `c1-l023` | &emsp;*& merecimentos com trabalho.* |  |
-| `c1-l024` | Rôcǒ. Chimata. i, Michitçuji. *Encru-* |  |
+| `c1-l024` | *R*ôcǒ. Chimata. i, Michitçuji. *Encru-* |  |
 | `c1-l025` | &emsp;*zilhada, ou caminho por onde todos paßão.* |  |
-| `c1-l026` | Rôcocu. i, Toqei. *Relogio como darea,* |  |
+| `c1-l026` | *R*ôcocu. i, Toqei. *Relogio como darea,* |  |
 | `c1-l027` | &emsp;*agoa, &c.* |  |
 | `c1-l028` | Rocu. Tamamono. i, Tacara. *Riquezas.* |  |
 | `c1-l029` | &emsp;*¶* Rocuuo tçumu, *l*, tacuuayuru. *Ajun-* |  |
@@ -56,7 +56,7 @@ Secondary lexical reference: *Entry Words Data of Nippojisho*, NINJAL, Hideyuki 
 | `c1-l038` | Rocudai. i, Giſui, qua, fǔ, cǔ, xiqi. *Ter-* |  |
 | `c1-l039` | &emsp;*ra, agoa, fogo, vento, & mais duas ſuſtã-* |  |
 | `c1-l040` | &emsp;*cias inuiſiueis.* |  |
-| `c1-l041` | Rocudǒ. Mutçuno michi. i, Gigocu, gaqi, |  |
+| `c1-l041` | *R*ocudǒ. Mutçuno michi. i, Gigocu, gaqi, |  |
 | `c1-l042` | &emsp;chicuxǒ, xura, nin, den. *Seis infernos* |  |
 | `c1-l043` | &emsp;*aßi chamados que os gẽtios imaginão auer neſta* |  |
 | `c1-l044` | &emsp;*vida preſente.* |  |
@@ -71,6 +71,8 @@ Secondary lexical reference: *Entry Words Data of Nippojisho*, NINJAL, Hideyuki 
 | `h2-l001` | **R ANTES DO O.** | **212.** |
 
 ## Column 2
+
+Typeface recheck: every capital R was compared individually with the native scan. Swash italic R sorts in otherwise roman Japanese words are represented as italic initials; genuine roman R sorts remain roman. The decision follows the letterform, not the language or slope alone. This mixed-sort usage continues through the R entries on f426; the R occurrences on f427–f429 were also checked and require no changes.
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
@@ -92,38 +94,38 @@ Secondary lexical reference: *Entry Words Data of Nippojisho*, NINJAL, Hideyuki 
 | `c2-l016` | Rocuro. *Pião de dentro do ſõbreiro do ſol.* |  |
 | `c2-l017` | Rocuro. *Torno dos torneiros. ¶ R*ocu- |  |
 | `c2-l018` | &emsp;roni caqete fiqu. *Fazer obra ao torno.* |  |
-| `c2-l019` | Rocuro fiqi. *Official de torno, ou Torneiro.* |  |
-| `c2-l020` | Rocuroxi. *Idem.* |  |
-| `c2-l021` | Rocuſuinǒ. i, Mizucoxi. *Coador dagoa.* |  |
-| `c2-l022` | Rǒcut. *Velhice conſumada ja, & debilitada.* |  |
-| `c2-l023` | &emsp;*¶* Rǒcut itaita. *Eſtou ja velho cõſumado.* |  |
-| `c2-l024` | Rocuxacu. *Moços de ſeruiço que ſeruem à gẽ-* |  |
+| `c2-l019` | *R*ocuro fiqi. *Official de torno, ou Torneiro.* |  |
+| `c2-l020` | *R*ocuroxi. *Idem.* |  |
+| `c2-l021` | *R*ocuſuinǒ. i, Mizucoxi. *Coador dagoa.* |  |
+| `c2-l022` | *R*ǒcut. *Velhice conſumada ja, & debilitada.* |  |
+| `c2-l023` | &emsp;*¶ R*ǒcut itaita. *Eſtou ja velho cõſumado.* |  |
+| `c2-l024` | *R*ocuxacu. *Moços de ſeruiço que ſeruem à gẽ-* |  |
 | `c2-l025` | &emsp;*te dos Machis dentro de caſa.* |  |
-| `c2-l026` | Rocuxin. Mutçuno xitaximi. *Seis parentes* |  |
+| `c2-l026` | *R*ocuxin. Mutçuno xitaximi. *Seis parentes* |  |
 | `c2-l027` | &emsp;*cos de pay, mãy, irmão maior, de irmão me-* |  |
 | `c2-l028` | &emsp;*nor, molher, & filhos.* |  |
-| `c2-l029` | Rocuxiqi. *Seis noticias, que ſe alcanção por* |  |
+| `c2-l029` | *R*ocuxiqi. *Seis noticias, que ſe alcanção por* |  |
 | `c2-l030` | &emsp;*ſeis ſentidos interiores.* |  |
-| `c2-l031` | Rocuxǒ. *Certo mineral de cor verde que ſerue* |  |
+| `c2-l031` | *R*ocuxǒ. *Certo mineral de cor verde que ſerue* |  |
 | `c2-l032` | &emsp;*pera tintas.* |  |
-| `c2-l033` | Rocuxu. i, Rocudǒ. *Seis ĩfernos dos gentios.* |  |
-| `c2-l034` | Rǒdô. *Soldados criados dalgũ ſenhor.* |  |
-| `c2-l035` | Rodoco. *Lugar dos remos, quando ſe rema.* |  |
-| `c2-l036` | Rǒfan. Tçucare vazzurǒ. *Canſaço, &* |  |
+| `c2-l033` | *R*ocuxu. i, *R*ocudǒ. *Seis ĩfernos dos gentios.* |  |
+| `c2-l034` | *R*ǒdô. *Soldados criados dalgũ ſenhor.* |  |
+| `c2-l035` | *R*odoco. *Lugar dos remos, quando ſe rema.* |  |
+| `c2-l036` | *R*ǒfan. Tçucare vazzurǒ. *Canſaço, &* |  |
 | `c2-l037` | &emsp;*fraqueza de doença.* S. |  |
-| `c2-l038` | Rǒfei. Voitaru tçuuamono. *Soldado ja* |  |
+| `c2-l038` | *R*ǒfei. Voitaru tçuuamono. *Soldado ja* |  |
 | `c2-l039` | &emsp;*velho.* |  |
-| `c2-l040` | Rofen. Irorino fotori. *Apar do fogaõ.* |  |
-| `c2-l041` | Rǒfit. Voita fude. *Eſcriuão velho. Itẽ, Letra* |  |
+| `c2-l040` | *R*ofen. Irorino fotori. *Apar do fogaõ.* |  |
+| `c2-l041` | *R*ǒfit. Voita fude. *Eſcriuão velho. Itẽ, Letra* |  |
 | `c2-l042` | &emsp;*de velho.* |  |
-| `c2-l043` | Rǒfu. Voita votto. *Homem velho.* |  |
-| `c2-l044` | Rǒfu. *Meliùs,* Rǒbu. Voitaru chichi. *Pay* |  |
+| `c2-l043` | *R*ǒfu. Voita votto. *Homem velho.* |  |
+| `c2-l044` | *R*ǒfu. *Meliùs, R*ǒbu. Voitaru chichi. *Pay* |  |
 | `c2-l045` | &emsp;*velho.* |  |
-| `c2-l046` | Rǒgacu. *Eſtudo de pois de velho.* |  |
-| `c2-l047` | Rǒgan. Voino manaco. *Olhos de velho.* |  |
+| `c2-l046` | *R*ǒgacu. *Eſtudo de pois de velho.* |  |
+| `c2-l047` | *R*ǒgan. Voino manaco. *Olhos de velho.* |  |
 
 ## Printed catchword
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `u2b-l001` |  | Rogan. |
+| `u2b-l001` |  | *R*ogan. |
