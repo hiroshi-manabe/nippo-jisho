@@ -115,8 +115,8 @@ Lexical checks used Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and
 | `c2-l039` | Tǒxun. Ataru faru. *Eſta primauera, ou* |  |
 | `c2-l040` | &emsp;*anno nouo.* |  |
 | `c2-l041` | Tôxut xeibot. *O ſair do Oriente, & porſe no* |  |
-| `c2-l042` | &emsp;*Occidente.* S. |  |
-| `c2-l043` | Toxut. Faqi idaſu. *Vomitar.* S. |  |
+| `c2-l042` | &emsp;*Occidente. S.* |  |
+| `c2-l043` | Toxut. Faqi idaſu. *Vomitar. S.* |  |
 | `c2-l044` | Toxxut. *O botar fora com força, ou ẽpuxãdo.* |  |
 | `c2-l045` | Toya. *Caſa onde guardão aues, ou paßaros.* |  |
 | `c2-l046` | &emsp;*¶ Item, Capoeira de gallinhas.* |  |

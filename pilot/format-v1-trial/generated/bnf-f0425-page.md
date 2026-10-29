@@ -26,7 +26,7 @@ Secondary lexical reference: *Entry Words Data of Nippojisho*, NINJAL, Hideyuki 
 | `c1-l008` | Roſai, ǒ, ǒta. *Pedir eſmola, comer, ou ſuſtẽtação.* |  |
 | `c1-l009` | Roſai. *Vt, R*oſaiuo itaſu. *Idem.* |  |
 | `c1-l010` | Roſainin. *Peßoa q̃ pede eſmola, ou ſuſtẽtação.* |  |
-| `c1-l011` | Rǒſo. Voitaru nezumi. *Rato velho.* S. |  |
+| `c1-l011` | Rǒſo. Voitaru nezumi. *Rato velho. S.* |  |
 | `c1-l012` | Roſǒ. i, Auoi yenogu. *Tinta muito azul* |  |
 | `c1-l013` | &emsp;*de pintar.* |  |
 | `c1-l014` | Rǒſô. Voita fijiri. *Religioſo, ou Bõzo velho.* |  |
@@ -38,7 +38,7 @@ Secondary lexical reference: *Entry Words Data of Nippojisho*, NINJAL, Hideyuki 
 | `c1-l020` | &emsp;*ſou ja velho, & fraco dos pees não poßo ir.* |  |
 | `c1-l021` | Rǒſui. Voi votorô. *O irſe debilitando, &* |  |
 | `c1-l022` | &emsp;*gaſtandoſe com a velhice.* |  |
-| `c1-l023` | Rotai. Robano fara. *Barriga do asno.* S. |  |
+| `c1-l023` | Rotai. Robano fara. *Barriga do asno. S.* |  |
 | `c1-l024` | Rǒtai. i, Toxi yori. *Velho.* |  |
 | `c1-l025` | Rôtai. Yagurano vtena. *Caſas altas, ou* |  |
 | `c1-l026` | &emsp;*torres onde mora gente.* |  |
@@ -58,11 +58,11 @@ Secondary lexical reference: *Entry Words Data of Nippojisho*, NINJAL, Hideyuki 
 | `c1-l040` | Rôxẽ. *Embarcação que tẽ camara, ou varãda.* |  |
 | `c1-l041` | Roxet. i, Michino ſǒ. *Nouas de caminho.* |  |
 | `c1-l042` | Rôxet. i, Xiuaſuno yuqi. *Neue da vnde-* |  |
-| `c1-l043` | &emsp;*cima lũa, ou mes.* S. |  |
+| `c1-l043` | &emsp;*cima lũa, ou mes. S.* |  |
 | `c1-l044` | Roxi. *Caminho. ¶* Roxiſugara cataru. |  |
 | `c1-l045` | &emsp;*Praticar vindo pello caminho.* |  |
 | `c1-l046` | Rǒxi, ſuru, ita. *Enuelhecer.* |  |
-| `c1-l047` | Rǒxin. Voitaru xinca. *Criado velho.* S. |  |
+| `c1-l047` | Rǒxin. Voitaru xinca. *Criado velho. S.* |  |
 
 ## Column 2 running header
 

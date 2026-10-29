@@ -29,7 +29,7 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | `c1-l011` | Tairan. Vôqina midare. *Grande perturba-* |  |
 | `c1-l012` | &emsp;*ção, ou reuolta de guerra.* |  |
 | `c1-l013` | Tairei Catamuqu youai. i, Toxiyoru. *O* |  |
-| `c1-l014` | &emsp;*enuelhecer.* S. |  |
+| `c1-l014` | &emsp;*enuelhecer. S.* |  |
 | `c1-l015` | Tairi. *Grande victoria, ou triumpho.* |  |
 | `c1-l016` | &emsp;*¶* Tairiuo vru. *Alcançar grande victo-* |  |
 | `c1-l017` | &emsp;*ria. ¶ Item, Grande ganho, ou proueito.* |  |

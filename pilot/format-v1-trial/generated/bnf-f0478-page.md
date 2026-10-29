@@ -114,7 +114,7 @@ Lexical reference: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and 
 | `c2-l038` | &emsp;xinno tayemaga nai. *Não ha ceßar, nem* |  |
 | `c2-l039` | &emsp;*interromper as obras.* |  |
 | `c2-l040` | Tayena. l, tayenaru. *Couſa marauilhoſa, ine* |  |
-| `c2-l041` | &emsp;*fauel, &c.* S. *Vt,* Tayenaru niuoi. |  |
+| `c2-l041` | &emsp;*fauel, &c. S. Vt,* Tayenaru niuoi. |  |
 | `c2-l042` | &emsp;iro. coye, &c. *Excellente, & marauilho-* |  |
 | `c2-l043` | &emsp;*ſo cheiro, cor, voz, &c.* |  |
 | `c2-l044` | &emsp;Tayeni. *Aduerb.* |  |

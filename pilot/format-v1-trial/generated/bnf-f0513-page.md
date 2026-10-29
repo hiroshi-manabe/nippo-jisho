@@ -88,7 +88,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l014` | &emsp;*bitanea. Vt,* Tonxi xerareta. l, xita. *Mor-* |  |
 | `c2-l015` | &emsp;*reo de morte ſubitanea.* |  |
 | `c2-l016` | Tonxin. Muſaboru cocoro. *Coração de aua-* |  |
-| `c2-l017` | &emsp;*rento, cubiçoſo, & ſenſual, &c.* S. |  |
+| `c2-l017` | &emsp;*rento, cubiçoſo, & ſenſual, &c. S.* |  |
 | `c2-l018` | Tonxu. *Palaura de corteſia, & humildade* |  |
 | `c2-l019` | &emsp;*que ſe eſcreue no cabo das cartas. Vt,* Qiô- |  |
 | `c2-l020` | &emsp;qiô tonxu. |  |

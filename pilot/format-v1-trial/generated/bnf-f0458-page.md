@@ -39,7 +39,7 @@ Lexical aid consulted after reading the scan: NINJAL, Hideyuki Ohshima and Taich
 | `c1-l021` | &emsp;*tamanino de tempo, ou vagar.* |  |
 | `c1-l022` | Sunin. i, Amatano fito. *Muitos homẽs.* |  |
 | `c1-l023` | Sun-in. i, Sunno fima. *Pouco tempo, ou* |  |
-| `c1-l024` | &emsp;*vagar.* S. |  |
+| `c1-l024` | &emsp;*vagar. S.* |  |
 | `c1-l025` | Sunjen. Sunno jen. i, Sucoxino jen. *Hũ* |  |
 | `c1-l026` | &emsp;*tamanino de virtude. Vt,* Sunjen xacu- |  |
 | `c1-l027` | &emsp;ma. *Tamanino de virtude, tamanho de* |  |

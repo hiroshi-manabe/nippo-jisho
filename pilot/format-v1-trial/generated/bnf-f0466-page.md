@@ -17,7 +17,7 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c1-l001` | Taifin. Vôqina marebito. *Grande, ou hon-* |  |
-| `c1-l002` | &emsp;*rado hoſpede.* S. |  |
+| `c1-l002` | &emsp;*rado hoſpede. S.* |  |
 | `c1-l003` | Taifǒ. l, vôcatadono. *Molheres nobres* |  |
 | `c1-l004` | &emsp;*viuuas.* |  |
 | `c1-l005` | Taifǔ. Vôcaje. *Grande vento, ou tempeſta-* |  |
@@ -35,14 +35,14 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | `c1-l017` | &emsp;ta. *Recebi grande melhoria, ou eſtou mui-* |  |
 | `c1-l018` | &emsp;*to milhor da doença.* |  |
 | `c1-l019` | Taiguenno. l, taiguenna. *Grande paruo.* |  |
-| `c1-l020` | Taigui. Vôqina itçuuari. *Grãde mentira.* S. |  |
+| `c1-l020` | Taigui. Vôqina itçuuari. *Grãde mentira. S.* |  |
 | `c1-l021` | Taigui. l, taiguina. Vôqinarugui. *Couſa* |  |
 | `c1-l022` | &emsp;*grande, couſa trabalhoſa, ou difficultoſa.* |  |
-| `c1-l023` | Taiguio. Vôqina curuma. *Grande carro.* S. |  |
+| `c1-l023` | Taiguio. Vôqina curuma. *Grande carro. S.* |  |
 | `c1-l024` | Taiguio. Vôqina vuo. *Grande peixe.* |  |
 | `c1-l025` | Taiguiô. Vôqina xiuaza. *Grande obra, ou* |  |
-| `c1-l026` | &emsp;*exercicio.* S. |  |
-| `c1-l027` | Taigo. Atoye xirizoqu. *Tornar pera tras.* S. |  |
+| `c1-l026` | &emsp;*exercicio. S.* |  |
+| `c1-l027` | Taigo. Atoye xirizoqu. *Tornar pera tras. S.* |  |
 | `c1-l028` | Taigun. Vôqina icuſa. *Grande exercito.* |  |
 | `c1-l029` | &emsp;*¶* Taigunuo vgocaſu. *Abalarſe com grã-* |  |
 | `c1-l030` | &emsp;*de exercito de gente. ¶* Taigunuo voco- |  |
@@ -78,7 +78,7 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | `c2-l002` | &emsp;*taleza.* |  |
 | `c2-l003` | Taimai. *Costas da tartaruga de que fazem os* |  |
 | `c2-l004` | &emsp;*Chinas varias couſas, ou obra.* |  |
-| `c2-l005` | Taiman. Vocotaru. *O faltar em algũa couſa.* S. |  |
+| `c2-l005` | Taiman. Vocotaru. *O faltar em algũa couſa. S.* |  |
 | `c2-l006` | Taimatçu. *Tochas, ou fachas de pinho, ou de* |  |
 | `c2-l007` | &emsp;*outra couſa.* |  |
 | `c2-l008` | Taimei. Vôqina na. *Senhor grande, & no-* |  |
@@ -95,7 +95,7 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | `c2-l019` | Tainai. Farano vchi. *Dentro do ventre.* |  |
 | `c2-l020` | &emsp;*¶* Fauano tainaini yadoru. *Andar, ou* |  |
 | `c2-l021` | &emsp;*eſtar no ventre da mãy.* |  |
-| `c2-l022` | Tainǒ. *Saco, ou taleigo.* S. |  |
+| `c2-l022` | Tainǒ. *Saco, ou taleigo. S.* |  |
 | `c2-l023` | Taino ya. *Caſa interior onde estão as molheres* |  |
 | `c2-l024` | &emsp;*em caſa do Dairi.* |  |
 | `c2-l025` | Taiqei. Vôqina yorocobi. *Grande alegria.* |  |
@@ -107,11 +107,11 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | `c2-l031` | &emsp;*ção, & magnifico.* |  |
 | `c2-l032` | Taiqi. Vôqina vtçuuamono. *Vaſo, ou va-* |  |
 | `c2-l033` | &emsp;*ſilha grande.* |  |
-| `c2-l034` | Taiqiacu. *O ter algum hoſpede em caſa.* S. |  |
+| `c2-l034` | Taiqiacu. *O ter algum hoſpede em caſa. S.* |  |
 | `c2-l035` | Taiqio. Vôzora. *Ar.* |  |
 | `c2-l036` | Taiqiocu. *Hum primeiro principio como ma-* |  |
 | `c2-l037` | &emsp;*teria prima de que tratão certos Philoſophos da* |  |
-| `c2-l038` | &emsp;*China.* |  *(bição.*S. |
+| `c2-l038` | &emsp;*China.* |  *(bição.S.* |
 | `c2-l039` | Taiqin. Vôqina imaxime. *Grande prohi* |  |
 | `c2-l040` | Taiqina. *Vide ſuprà* Taiqi. |  |
 | `c2-l041` | Taiqua. Vôqini ſuguru. *Exceſſo, ou ſobejo.* |  |

@@ -32,7 +32,7 @@ Lexical aid: [NINJAL, Entry Words Data of Nippojisho, version 202510](https://ww
 | `c1-l014` | &emsp;*ſe dà a molheres publicas. Item, Perturbação.* |  |
 | `c1-l015` | Tendǒ. l, Tentǒ. *Vt,* Tendǒ memǒ. |  |
 | `c1-l016` | &emsp;*O ir aueſo da razão, virtude, ou juſtiça, ou* |  |
-| `c1-l017` | &emsp;*andar errado, & fora do bom caminho.* S. |  |
+| `c1-l017` | &emsp;*andar errado, & fora do bom caminho. S.* |  |
 | `c1-l018` | Tendǒ. *Em cima do ceo, ou ceo.* |  |
 | `c1-l019` | Tendô. *Minino celeſtial que cuſtuma eſtar jũto* |  |
 | `c1-l020` | &emsp;*do Fotoque.* |  |
@@ -46,7 +46,7 @@ Lexical aid: [NINJAL, Entry Words Data of Nippojisho, version 202510](https://ww
 | `c1-l028` | Tengai. Ten futa, l, vouoi. *Sobre ceo, ou pa-* |  |
 | `c1-l029` | &emsp;*leo. ¶* Tengaiuo ſaſu. l, ſaxicazaſu. *Le-* |  |
 | `c1-l030` | &emsp;*uar o paleo aleuantado.* |  |
-| `c1-l031` | Tengai. *Ceo.* S. |  |
+| `c1-l031` | Tengai. *Ceo. S.* |  |
 | `c1-l032` | Tengue. i, Tenno xita. *De baixo do ceo.* |  |
 | `c1-l033` | &emsp;*¶* Tenjǒ tengue. *Em cima, & de bai-* |  |
 | `c1-l034` | &emsp;*xo do ceo.* |  *(de Deos.* |

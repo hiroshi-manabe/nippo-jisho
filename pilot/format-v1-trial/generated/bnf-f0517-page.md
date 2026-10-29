@@ -92,7 +92,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l011` | &emsp;*polada, & aſpera comfrio naspartes dos ca-* |  |
 | `c2-l012` | &emsp;*belos, como a das aues depenadas.* |  |
 | `c2-l013` | Torifanachi, tçu, atta. *Botar, ou deſapegar* |  |
-| `c2-l014` | &emsp;*deſi, ou apartar.* S. |  |
+| `c2-l014` | &emsp;*deſi, ou apartar. S.* |  |
 | `c2-l015` | Torifanaxi, ſu, ita. *Idem, na pratica. ¶ Item,* |  |
 | `c2-l016` | &emsp;*Tirar o officio, renda, &c. Vt,* Yacu, |  |
 | `c2-l017` | &emsp;chiguiǒuo torifanaſu. |  |

@@ -16,12 +16,12 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c1-l001` | Sanyacu. *Hũa certa mezinha.* |  |
 | `c1-l002` | Sanyei. Yama cague. *Sombra dos montes.* S |  |
-| `c1-l003` | Sanyen. Yamano ſaru. *Bugio dos matos.* S. |  |
-| `c1-l004` | Sanyet. i, Mairu. *Ir, ou vir.* S. |  |
+| `c1-l003` | Sanyen. Yamano ſaru. *Bugio dos matos. S.* |  |
+| `c1-l004` | Sanyet. i, Mairu. *Ir, ou vir. S.* |  |
 | `c1-l005` | Sanyô. Cangaye mochijru. *Contas. Vt,* Sã- |  |
 | `c1-l006` | &emsp;yô ſuru. *O contar, ou fazer contas.* |  |
 | `c1-l007` | Sanyǔ. Mitçuno tomo. *Tres companhei-* |  |
-| `c1-l008` | &emsp;*ros.* S. |  |
+| `c1-l008` | &emsp;*ros. S.* |  |
 | `c1-l009` | Sanzan. *Couſa mal feita, fea, ou que ſocede o* |  |
 | `c1-l010` | &emsp;*mal, &c.* |  |
 | `c1-l011` | Sanzanna. *Adiect. Idem.* |  |

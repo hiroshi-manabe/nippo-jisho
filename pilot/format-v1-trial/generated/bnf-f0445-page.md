@@ -15,7 +15,7 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c1-l001` | Someqi. *Obra, ou trafego como de ſemear, re-* |  |
-| `c1-l002` | &emsp;*colher fruito, &c.* S. |  |
+| `c1-l002` | &emsp;*colher fruito, &c. S.* |  |
 | `c1-l003` | Some çuqe. i, Yeno aru chauan, ſara. *Por-* |  |
 | `c1-l004` | &emsp;*ſolana, ou bacios da China pintados.* |  |
 | `c1-l005` | Somi, u, ôda. *Tingirſe. ¶* Ironi ſomi, |  |
@@ -96,26 +96,26 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l022` | &emsp;*¶* Fitouo curaini ſonayuru. *Por a alguẽ em* |  |
 | `c2-l023` | &emsp;*dignidade.* |  |
 | `c2-l024` | Sõbǒ l, ſonmǒ Sõji foroburu. *Perda, ou dano.* |  |
-| `c2-l025` | Sonbocu. *Carta de peßoa nobre.* S. |  |
+| `c2-l025` | Sonbocu. *Carta de peßoa nobre. S.* |  |
 | `c2-l026` | Sonca. Tattoqi nori mono. *Andas, ou co-* |  |
-| `c2-l027` | &emsp;*chi de peßoa nobre, como Rey.* S. |  |
+| `c2-l027` | &emsp;*chi de peßoa nobre, como Rey. S.* |  |
 | `c2-l028` | Soncacu. Tattoqi qiacujin. *Hoſpede nobre,* |  |
-| `c2-l029` | &emsp;*& honrado.* S. |  |
+| `c2-l029` | &emsp;*& honrado. S.* |  |
 | `c2-l030` | Soncan. Tattoqi fude. i, Gojǒ. *Carta de* |  |
-| `c2-l031` | &emsp;*peßoa nobre.* S. |  |
+| `c2-l031` | &emsp;*peßoa nobre. S.* |  |
 | `c2-l032` | Sonchǒ. Murano votona. *Cabeça principal* |  |
-| `c2-l033` | &emsp;*que gouerna algũa pouoação.* S. |  |
+| `c2-l033` | &emsp;*que gouerna algũa pouoação. S.* |  |
 | `c2-l034` | Soncǒ. Tattoqi qimi. *Voßa merce, ou ſenho-* |  |
-| `c2-l035` | &emsp;*ria, excellencia, &c.* S. |  |
+| `c2-l035` | &emsp;*ria, excellencia, &c. S.* |  |
 | `c2-l036` | Soncun. Tattoqi qimi. *Bõ, & honrado ſenhor.* |  |
 | `c2-l037` | Sonemi. *Enueja.* |  |
 | `c2-l038` | Sonemi, u, neôda. *Ter enueia. Vt,* |  |
-| `c2-l039` | &emsp;Fitouo ſonemu. |  *(idade.*S. |
+| `c2-l039` | &emsp;Fitouo ſonemu. |  *(idade.S.* |
 | `c2-l040` | Sǒnen. Sacanna toxi. *Mocidade, ou ſer da* |  |
 | `c2-l041` | Sǒnet. Cauaqi, atataca. *Couſa ſeca, &* |  |
-| `c2-l042` | &emsp;*quente. Item, Febre.* S. |  |
+| `c2-l042` | &emsp;*quente. Item, Febre. S.* |  |
 | `c2-l043` | Songan. Tattoqi cauobaxe. *Roſto de peßoa* |  |
-| `c2-l044` | &emsp;*honrada, ou nobre, Rey, &c.* S. |  |
+| `c2-l044` | &emsp;*honrada, ou nobre, Rey, &c. S.* |  |
 | `c2-l045` | Songiǔ. Tattoxi, vomenzuru. *Venerar* |  |
 | `c2-l046` | &emsp;*principalmẽte Fotoques, &c. ¶* Sõgiǔ, ſanda |  |
 | `c2-l047` | &emsp;*Venerar, louuar, & ẽgrãdecer Fotoques, &c.* S |  |

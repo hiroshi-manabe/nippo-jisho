@@ -14,22 +14,22 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | Songǒ. Tattoqi na. *Nome ſancto, & alto.* S. |  |
-| `c1-l002` | Songuai. Murano foca. *Fora da pouoação.* S. |  |
+| `c1-l001` | Songǒ. Tattoqi na. *Nome ſancto, & alto. S.* |  |
+| `c1-l002` | Songuai. Murano foca. *Fora da pouoação. S.* |  |
 | `c1-l003` | Songuen. Tattoqi cotoba. *Palaura ſancta,* |  |
-| `c1-l004` | &emsp;*ou de peßoa alta, & nobre.* S. |  |
+| `c1-l004` | &emsp;*ou de peßoa alta, & nobre. S.* |  |
 | `c1-l005` | Songuiǒ. Tattoqi catachi. *Figura, ou eſta-* |  |
-| `c1-l006` | &emsp;*tua de peßoa nobre, ou ſancta como Fotoque.* S. |  |
+| `c1-l006` | &emsp;*tua de peßoa nobre, ou ſancta como Fotoque. S.* |  |
 | `c1-l007` | Son-i. Tattoqi cocoro. *Coração de homem* |  |
 | `c1-l008` | &emsp;*ſancto, & nobre. Item, Mandado, ou vontade* |  |
 | `c1-l009` | &emsp;*de peßoa alta. &c.* |  |
 | `c1-l010` | Son i. Tattoqi curai. *Dignidade de peſ-* |  |
 | `c1-l011` | &emsp;*ſoa alta.* |  |
-| `c1-l012` | Sonjen. *Diante, ou junto da barça de vinho.* S. |  |
+| `c1-l012` | Sonjen. *Diante, ou junto da barça de vinho. S.* |  |
 | `c1-l013` | Sonjen. *Diante de peßoa alta, & ſancta* |  |
 | `c1-l014` | &emsp;*Vt,* Sonjenni ſonayuru. *Por, ou apreſẽ-* |  |
-| `c1-l015` | &emsp;*tar diante da peßoa alta, & ſancta.* S. |  |
-| `c1-l016` | Sonji. i, Mago. *Netos pequeninos.* S. |  |
+| `c1-l015` | &emsp;*tar diante da peßoa alta, & ſancta. S.* |  |
+| `c1-l016` | Sonji. i, Mago. *Netos pequeninos. S.* |  |
 | `c1-l017` | Sonji, zuru, ita. *Danarſe. Ajuntaſe eſte ver-* |  |
 | `c1-l018` | &emsp;*bo com a raiz de muitos, & ſignifica errar* |  |
 | `c1-l019` | &emsp;*no fazer a couſa que ſignifica a raiz. Vt,* |  |
@@ -42,7 +42,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l026` | &emsp;*na demanda.* |  |
 | `c1-l027` | Sǒnin. Vranai ſuru fito. *Adiuinho, ou fei-* |  |
 | `c1-l028` | &emsp;*ticeiro.* |  |
-| `c1-l029` | Sonjin. Muranofito. *Homẽ da pouoação.* S. |  |
+| `c1-l029` | Sonjin. Muranofito. *Homẽ da pouoação. S.* |  |
 | `c1-l030` | Sonmei. i, Tattoqi vôxe. *Mandado de peſ-* |  |
 | `c1-l031` | &emsp;*ſoa alta.* |  |
 | `c1-l032` | Sonmǒ. *Vide* Sonbǒ. *Perda, ou dano.* |  |
@@ -85,14 +85,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l011` | &emsp;*ponde por carta a peßoa alta eſcreue ſe eſta pa-* |  |
 | `c2-l012` | &emsp;*laura no ſobre eſcrito.* |  |
 | `c2-l013` | Sonqi. Tattoqi. *Sancto. Palaura com que* |  |
-| `c2-l014` | &emsp;*ſe honra, & aleuanta alguem.* S. |  |
+| `c2-l014` | &emsp;*ſe honra, & aleuanta alguem. S.* |  |
 | `c2-l015` | Sonqiǒ. Tattomi vyamǒ. *Veneração, l,* |  |
 | `c2-l016` | &emsp;*reuerencia. Vt,* Deꝰuo ſonqiǒ tçucamatçu- |  |
 | `c2-l017` | &emsp;ru. *Honrar, ou venerar a Deos.* |  |
 | `c2-l018` | Sonqio. Tattoqi yuruxi. *Perdam de peſ-* |  |
 | `c2-l019` | &emsp;*ſoa nobre.* |  |
 | `c2-l020` | Sonriǒ. Tattoqi tamaxij. *Alma, ou eſ-* |  |
-| `c2-l021` | &emsp;*piritu de peßoa nobrej a morta.* S. |  |
+| `c2-l021` | &emsp;*piritu de peßoa nobrej a morta. S.* |  |
 | `c2-l022` | Sonrǒ. Murano toxiyori. *Velho, ou cabe-* |  |
 | `c2-l023` | &emsp;*ça principal dalgũa pouoação.* |  |
 | `c2-l024` | Sonrǒ. Tattoqi toxiyori. *Velho honrado,* |  |
@@ -108,12 +108,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l034` | Sontocu. *Perda, & proueito.* |  |
 | `c2-l035` | Sonuô. Tattoqi voqina. *Velho nobre.* |  |
 | `c2-l036` | Sonxi. Tattoqi xixǒ. *Meſtre. Falando com* |  |
-| `c2-l037` | &emsp;*reuerencia.* S. |  |
+| `c2-l037` | &emsp;*reuerencia. S.* |  |
 | `c2-l038` | Sonxi. *Liuro que trata da arte militar.* |  |
 | `c2-l039` | Sonxin. Tattoqi cocoro. *Coração de peßoa* |  |
-| `c2-l040` | &emsp;*nobre.* S. |  |
+| `c2-l040` | &emsp;*nobre. S.* |  |
 | `c2-l041` | sonxit. i, Son. *Perda, ou dano.* |  |
-| `c2-l042` | Sonxo. Tattoqi xo. *Carta de peßoa nobre.* S. |  |
+| `c2-l042` | Sonxo. Tattoqi xo. *Carta de peßoa nobre. S.* |  |
 | `c2-l043` | Sonxu. *Santo ſenhor: não ſe vſa ſe não falã-* |  |
 | `c2-l044` | &emsp;*do de Deos nos liuros da Igreja.* |  |
 | `c2-l045` | Sonxucu. Tattoqi yado. *Sãta caſa. ¶ Itẽ,* |  |

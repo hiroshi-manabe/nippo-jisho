@@ -98,7 +98,7 @@ Lexical aid (consulted after independent scan reading): NINJAL, Entry Words Data
 | `c2-l005` | Tabevoqi, u, oita. *Dar fim ao beber. Vt,* |  |
 | `c2-l006` | &emsp;Tabevoqimaraxôca? *Acabaràem mim o* |  |
 | `c2-l007` | &emsp;*beber, ou o Sacazzuqui?* |  |
-| `c2-l008` | Tabi, u. *Dar peßoa alta a baixa.* S. *Al-* |  |
+| `c2-l008` | Tabi, u. *Dar peßoa alta a baixa. S. Al-* |  |
 | `c2-l009` | &emsp;*gũas vezes vſão as molheres deste verbo no* |  |
 | `c2-l010` | &emsp;*imperatiuo. Vt,* Cochi tabai. *Dai cà.* |  |
 | `c2-l011` | Tabi. *Certo calçado de couro de que vſão os* |  |

@@ -43,12 +43,12 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | `c1-l025` | &emsp;Yomitǒgozaru. *Quero ler, &c.* |  |
 | `c1-l026` | Tai-acu. Acuuo xirizoquru. *O afaſtarſe* |  |
 | `c1-l027` | &emsp;*dos peccados. ¶* Tai acu xujen. *Deixar* |  |
-| `c1-l028` | &emsp;*a maldade, & darſe à virtude.* S. |  |
+| `c1-l028` | &emsp;*a maldade, & darſe à virtude. S.* |  |
 | `c1-l029` | Taibiǒ. Vôqina yamai. *Grande doença.* |  |
 | `c1-l030` | Taibǒ. l, taunǒ. Vôqina nozomi. *Gran-* |  |
-| `c1-l031` | &emsp;*de deſejo.* S. |  |
+| `c1-l031` | &emsp;*de deſejo. S.* |  |
 | `c1-l032` | Taibô. Vôqina facaricoto. *Grande ardil,* |  |
-| `c1-l033` | &emsp;*ou inuenção.* S. |  *(aruore.* |
+| `c1-l033` | &emsp;*ou inuenção. S.* |  *(aruore.* |
 | `c1-l034` | Taibocu. Vôqina qi. *Grande madeiro, ou* |  |
 | `c1-l035` | Taica. l, taicano fito. *Grande ſenhor, ou* |  |
 | `c1-l036` | &emsp;*muito nobre.* |  |
@@ -81,7 +81,7 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c2-l001` | Taicǒ. *Couſa de grande alegria, & bom ſuc* |  |
-| `c2-l002` | &emsp;*ceßo.* S. |  |
+| `c2-l002` | &emsp;*ceßo. S.* |  |
 | `c2-l003` | Taicô. Vôqina chǔcô. *Grandes ſeruiços.* |  |
 | `c2-l004` | &emsp;*¶* Taicôuo tçumu. *Acumular muitos ſer-* |  |
 | `c2-l005` | &emsp;*uiços.* |  |
@@ -100,7 +100,7 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | `c2-l018` | &emsp;*ſultar com alguem ſobre algũ negocio. ¶* Tai- |  |
 | `c2-l019` | &emsp;dan mosǒzu, l, itasǒzu. *Vernos emos* |  |
 | `c2-l020` | &emsp;*depois, & trataremos, &c.* |  |
-| `c2-l021` | Taifa. Vôqina nami. *Grandes ondas.* S. |  |
+| `c2-l021` | Taifa. Vôqina nami. *Grandes ondas. S.* |  |
 | `c2-l022` | Taifa. Vôqiri yaburu. *Grande deſtruição.* |  |
 | `c2-l023` | &emsp;*¶* Taifani voyobu. *Chegar a grande de-* |  |
 | `c2-l024` | &emsp;*ſtruição.* |  |

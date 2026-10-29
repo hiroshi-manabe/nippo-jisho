@@ -78,7 +78,7 @@ Lexical aid consulted after reading the scan: NINJAL, Hideyuki Ohshima and Taich
 | `c2-l002` | Suixǒ. Mizzuno vye. *Sobre agoa.* |  |
 | `c2-l003` | Suixǒ. *Cristal, ou vidro.* |  |
 | `c2-l004` | Suixocu. Mizzuno iro. *Cor dagoa.* |  |
-| `c2-l005` | Suixocu. Midorino iro. *Cor verde.* S. |  |
+| `c2-l005` | Suixocu. Midorino iro. *Cor verde. S.* |  |
 | `c2-l006` | Suixu. *Hydropeſia.* |  |
 | `c2-l007` | Suixu. *Marinheiros, ou homẽs do mar.* |  |
 | `c2-l008` | Suiyǒfi. *Certa flor, ou bonina do Outono.* |  |

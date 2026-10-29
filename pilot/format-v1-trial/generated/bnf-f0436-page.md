@@ -58,7 +58,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l042` | &emsp;*eſpalhar, & fugir gente ſem ordem, &c.* |  |
 | `c1-l043` | &emsp;*¶* Cocoro ſanran ſuru. *Diſtrahirſe o co-* |  |
 | `c1-l044` | &emsp;*ração.* |  |
-| `c1-l045` | Sanreǒ. i. Qiji. *Gallinha do mato.* S. |  |
+| `c1-l045` | Sanreǒ. i. Qiji. *Gallinha do mato. S.* |  |
 | `c1-l046` | Sanret. Mairi tçuranaru. *O ir em fieira, ou* |  |
 | `c1-l047` | &emsp;*muitos juntos por ordem.* |  |
 
@@ -86,9 +86,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l012` | Sanron. *Certa ſeita de Iapam.* |  |
 | `c2-l013` | Sanſai. Ten, chi, jin. *Ceo, terra, & homẽs.* |  |
 | `c2-l014` | Sanſon. Yama, mura. *Pouoação que esta nos* |  |
-| `c2-l015` | &emsp;*montes.* S. |  |
+| `c2-l015` | &emsp;*montes. S.* |  |
 | `c2-l016` | Sanſu. Cangaye, cazoyuru. *O computar, &* |  |
-| `c2-l017` | &emsp;*contar.* S. |  |
+| `c2-l017` | &emsp;*contar. S.* |  |
 | `c2-l018` | Sanſui. Yama mizzu. *Agoa dos montes.* |  |
 | `c2-l019` | Santǒ. Mitabi cotǒ. *Tres repoſtas. Vide* Sã- |  |
 | `c2-l020` | &emsp;mon. |  |
@@ -115,7 +115,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l041` | Sanxô. *Tres partes do corpo. S.* Iǒxô, Chǔ |  |
 | `c2-l042` | &emsp;xô, Guexô. *Partes ſuperiores dos peitos* |  |
 | `c2-l043` | &emsp;*pera cima, partes do meo, & partes inferiores.* |  |
-| `c2-l044` | Sanxocu. Yamano iro. *Cordos montes.* S. |  |
+| `c2-l044` | Sanxocu. Yamano iro. *Cordos montes. S.* |  |
 | `c2-l045` | Sanya. Yama, no. *Montes, & campos.* |  |
 | `c2-l046` | Sanya. Vmaruru iye. *Caſa do parto, ou na-* |  |
 | `c2-l047` | &emsp;*cimento. Ordinariamente ſe diz,* Goſanya. |  |

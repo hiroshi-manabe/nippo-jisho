@@ -31,7 +31,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l015` | Taiyei. Vôqina itonami. *Grande ocupação,* |  |
 | `c1-l016` | &emsp;*ou negocio, & de gaſto como de obras, con-* |  |
 | `c1-l017` | &emsp;*uite, &c.* |  |
-| `c1-l018` | Taiyeqi. Vôqina tocu. *Grande proueito.* S. |  |
+| `c1-l018` | Taiyeqi. Vôqina tocu. *Grande proueito. S.* |  |
 | `c1-l019` | Taiyǒ. l, taiyǒna. *Couſa da meſma feição,* |  |
 | `c1-l020` | &emsp;*ou qualidade, forças, &c. ¶* Taiyǒna |  |
 | `c1-l021` | &emsp;aite. *Competidores iguaes.* |  |

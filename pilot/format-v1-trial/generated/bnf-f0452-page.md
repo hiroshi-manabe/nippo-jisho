@@ -90,7 +90,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l016` | Succarito. *Vide* Sucarito. |  |
 | `c2-l017` | Sucǒ. *Muito, ou multiplicação, & quantida-* |  |
 | `c2-l018` | &emsp;*de. Vt,* Ippôno xoua ſucǒno naqiuo |  |
-| `c2-l019` | &emsp;yoſu. *Hũa carta fez chorar muito.* S. |  |
+| `c2-l019` | &emsp;yoſu. *Hũa carta fez chorar muito. S.* |  |
 | `c2-l020` | Sucǒ i Axiqi co. *Melius, Socucǒ. Ruim aguila* |  |
 | `c2-l021` | Sucobore. *Falcão nouo q̃ ſahio hà pouco do ninho.* |  |
 | `c2-l022` | Sucoburu. *Adu. Muito, ou grandemẽte. Vt,* |  |

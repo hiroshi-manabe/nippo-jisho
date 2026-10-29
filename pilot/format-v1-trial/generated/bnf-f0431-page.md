@@ -41,7 +41,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l025` | &emsp;*engenhoſo de maõs.* |  |
 | `c1-l026` | Saicunin. *Official mecanico, ou engenhoſo de mãos.* |  |
 | `c1-l027` | Saidai. Mottomo vôqinari. *Couſa muito grã-* |  |
-| `c1-l028` | &emsp;*de.* S. |  |
+| `c1-l028` | &emsp;*de. S.* |  |
 | `c1-l029` | Saidaiji. *Certos grãos vermelhos de confeiçoens* |  |
 | `c1-l030` | &emsp;*que ſeruem pera variasdoenças.* |  |
 | `c1-l031` | Saidan. Futatabi danzuru. *Conferencia, ou* |  |
@@ -58,7 +58,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l042` | Saifi. Saino caua. *Pele de bada.* |  |
 | `c1-l043` | Saifit. Comacana fude. *O eſcreuer algũa* |  |
 | `c1-l044` | &emsp;*couſa miudamente. Vt,* Saifitni atauazu. |  |
-| `c1-l045` | &emsp;*Não ha pera que eſcreuer miuda mente.* S. |  |
+| `c1-l045` | &emsp;*Não ha pera que eſcreuer miuda mente. S.* |  |
 | `c1-l046` | Saifǒ. Nixino cata. *Parte do poente.* |  |
 | `c1-l047` | Saifǒ gocuracu. *Paraiſo de Amida que di-* |  |
 | `c1-l048` | &emsp;*zem eſtar pera o poente.* |  |
@@ -88,7 +88,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l013` | &emsp;*meſes.* |  |
 | `c2-l014` | Saiguin. Futatabi guinzuru. *Repetir com* |  |
 | `c2-l015` | &emsp;*ſigo algũa couſa como verſos, &c.em voz bai-* |  |
-| `c2-l016` | &emsp;*xa, & entoada.* S. |  |
+| `c2-l016` | &emsp;*xa, & entoada. S.* |  |
 | `c2-l017` | Saiguiri, ru, itta. *Anticiparſe. ¶* Sai- |  |
 | `c2-l018` | &emsp;guitte gojǒni azzucaru. *Receber carta dã-* |  |
 | `c2-l019` | &emsp;*temão de peßoa alta. i, Antes de eſcreuer pri-* |  |
@@ -101,7 +101,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l026` | Saijen. i, Ijen. *Antes. Vt,* Saijenyo- |  |
 | `c2-l027` | &emsp;rimǒſugotocu. *Aßi como digo dantes.* |  |
 | `c2-l028` | Saiji. i, Toqi. *Horas do comer, ou jantar* |  |
-| `c2-l029` | &emsp;*dos Bonzos.* S. *¶* Saijini fanuo qiſſu. |  |
+| `c2-l029` | &emsp;*dos Bonzos. S. ¶* Saijini fanuo qiſſu. |  |
 | `c2-l030` | &emsp;*Comerem os Bonzos, ou jantarem a ſua hora,* |  |
 | `c2-l031` | &emsp;*que ſera perto daſdez.* |  |
 | `c2-l032` | Saijin. l, ſaijinna. Saicacuno fito. *Homẽ* |  |
@@ -119,7 +119,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l044` | &emsp;*de rapado?* |  |
 | `c2-l045` | Saimit. Comacani qibixij. *Couſa miuda, &* |  |
 | `c2-l046` | &emsp;*riguroſa. Vt,* Saimitni qiǔmeuo togu- |  |
-| `c2-l047` | &emsp;ru. *Iulgar com rigor, & exacção.* S. |  |
+| `c2-l047` | &emsp;ru. *Iulgar com rigor, & exacção. S.* |  |
 
 ## Printed page number
 

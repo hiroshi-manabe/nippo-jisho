@@ -56,8 +56,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l040` | Vnpô. Cumomine. i, Tacaimine. *Cume* |  |
 | `c1-l041` | &emsp;*do monte. ¶ Item, apud poetas, Nuuens* |  |
 | `c1-l042` | &emsp;*altas que aparecem hũas ſobre outras no verão* |  |
-| `c1-l043` | &emsp;*como montes.* S. |  |
-| `c1-l044` | Vnpǔ. Atatacana caje. *Vento calido.* S. |  |
+| `c1-l043` | &emsp;*como montes. S.* |  |
+| `c1-l044` | Vnpǔ. Atatacana caje. *Vento calido. S.* |  |
 | `c1-l045` | Vnpu. *Boa, ou mà fortuna. ¶* Vnpuno |  |
 | `c1-l046` | &emsp;ſacai. *Fim, ou remate em bem, ou em mal.* |  |
 | `c1-l047` | Vnqi. *Mouimẽto, & influencias dos ceos de q̃* |  |
@@ -82,7 +82,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l008` | Vnqina. *Eſtar o tempo quente, eu calmoſo.* |  |
 | `c2-l009` | Vnqini. *Adu.* |  |
 | `c2-l010` | Vnrai. Cumo, icazzuchi. *Nuuem, & tro-* |  |
-| `c2-l011` | &emsp;*uão.* S. |  |
+| `c2-l011` | &emsp;*uão. S.* |  |
 | `c2-l012` | Vnrin. Cumono fayaxi. *Nuuens altas mul-* |  |
 | `c2-l013` | &emsp;*tiplicadas hũas ſobre outras.* |  |
 | `c2-l014` | Vnriǔcacu. *Certo Zaxiqui del rey da China.* |  |
@@ -103,7 +103,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l029` | Vnzai. *Dita. ¶* Vnzaiga tçuqifateta. |  |
 | `c2-l030` | &emsp;*Acabouſe adita, ou ventura.* |  |
 | `c2-l031` | Vnzan. Cumo, yama. *Nuuens, & mon* |  |
-| `c2-l032` | &emsp;*tes.* S. |  |
+| `c2-l032` | &emsp;*tes. S.* |  |
 | `c2-l033` | Vnzǒ. *Hũa laya de comer.* |  |
 
 ## Column 2 internal heading

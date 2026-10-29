@@ -74,7 +74,7 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | Sôtat. Vaxiri taſſuru. *Correr.* S. |  |
+| `c2-l001` | Sôtat. Vaxiri taſſuru. *Correr. S.* |  |
 | `c2-l002` | Sǒtçǔ. Ai tçǔzuru. *Concordar como no pa-* |  |
 | `c2-l003` | &emsp;*recer, & vontade com alguem. ¶* Goin |  |
 | `c2-l004` | &emsp;ſǒtçǔ. *Concordarem, & vnirem ſe os cin-* |  |

@@ -20,7 +20,7 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | `c1-l002` | Socuji. l, Socujini. Sunauachino toqi. *Logo.* |  |
 | `c1-l003` | Socujǒzzugue. Axiuo vyeni, caxirauo xi- |  |
 | `c1-l004` | &emsp;tani. *De pees pera cima, & de cabeça pera* |  |
-| `c1-l005` | &emsp;*baixo. i, totalmente às aueſas.* S. |  |
+| `c1-l005` | &emsp;*baixo. i, totalmente às aueſas. S.* |  |
 | `c1-l006` | Socumet. i, Sunauachi meſsuru. *Deſtruição.* |  |
 | `c1-l007` | Socunan. Vonoco. *Varão.* |  |
 | `c1-l008` | Socuſan fengi. *Ilhas vezinhas a algum reino* |  |

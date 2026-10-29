@@ -81,7 +81,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l007` | &emsp;*flores em que todos ſaem a ver, & recrearſe.* |  |
 | `c2-l008` | &emsp;*¶ Item, Ser tempo em q̃ hum florece em ri-* |  |
 | `c2-l009` | &emsp;*quezas, & bonança, &c.* |  |
-| `c2-l010` | Toqimeqi ayeri, u, etta. S. *Concorrer* |  |
+| `c2-l010` | Toqimeqi ayeri, u, etta. *S. Concorrer* |  |
 | `c2-l011` | &emsp;*gẽte de varias partes cõ aluoroço, & alegria a* |  |
 | `c2-l012` | &emsp;*folgar, ou auiſitarſe por ſer tempo em que os* |  |
 | `c2-l013` | &emsp;*daquella familia florecem em proſperidade,* |  |

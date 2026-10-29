@@ -97,7 +97,7 @@ Lexical coverage was cross-checked after the independent scan reading against En
 | `c2-l012` | &emsp;*cedendo, ou moſtrando entender, &c.* |  |
 | `c2-l013` | Vnbin. *Certa laya de Mochis, ou bolinhos fei-* |  |
 | `c2-l014` | &emsp;*tos de arroz.* |  |
-| `c2-l015` | Vnbu. Cumo, qiri. *Nuuem, & neuoa.* S. |  |
+| `c2-l015` | Vnbu. Cumo, qiri. *Nuuem, & neuoa. S.* |  |
 | `c2-l016` | Vnbut. l, *potiùs,* Vnmot. Atatacana mono. |  |
 | `c2-l017` | &emsp;*Quentura, ou couſa quente.* |  |
 | `c2-l018` | Vnca. Cumo, caſumi. *Nuuens, & neuoa,* |  |
@@ -109,14 +109,14 @@ Lexical coverage was cross-checked after the independent scan reading against En
 | `c2-l024` | Vncacu. Cumono marebito. *Cũgues, ou no-* |  |
 | `c2-l025` | &emsp;*bres da caſa do Dairi. ¶* Guecqei vnca- |  |
 | `c2-l026` | &emsp;cu. *Idem.* |  |
-| `c2-l027` | Vnchǔ. Cumono vchi. *Dẽtro das nuuẽs.* S. |  |
-| `c2-l028` | Vnda. *Carta.* S. |  |
+| `c2-l027` | Vnchǔ. Cumono vchi. *Dẽtro das nuuẽs. S.* |  |
+| `c2-l028` | Vnda. *Carta. S.* |  |
 | `c2-l029` | Vndei. Cumo, doro. *Nuuem, & lama. To-* |  |
 | `c2-l030` | &emsp;*maſe por ceo, & terra. Vt,* Tenchi vndei- |  |
 | `c2-l031` | &emsp;no fedategia. *Ha tanta differença como do* |  |
 | `c2-l032` | &emsp;*ceo à terra.* |  |
 | `c2-l033` | Vndô. Facobi, vgoqu. *Mouimẽto circular.* |  |
-| `c2-l034` | &emsp;*Vt,* Tenno vndô. *Mouimento do ceo.* S. |  |
+| `c2-l034` | &emsp;*Vt,* Tenno vndô. *Mouimento do ceo. S.* |  |
 | `c2-l035` | Vndon. *Mas pronunciaſe,* Vdon. *Vide ſuprà.* |  |
 | `c2-l036` | Vne. *Margem que fica entre rego, & rego.* |  |
 | `c2-l037` | &emsp;*¶* Vneuo yaru, l, vneuo tatçuru. *Fazer* |  |
@@ -128,7 +128,7 @@ Lexical coverage was cross-checked after the independent scan reading against En
 | `c2-l043` | &emsp;ſaguevo. *Huns cordões que ſe dependurauão* |  |
 | `c2-l044` | &emsp;*nas Catanas feitos desta maneira.* |  |
 | `c2-l045` | Vnguenberi. *Debrum dos Tatamis do Dairi.* |  |
-| `c2-l046` | Vnguet. Cumo, tçuqi. *Nuuem, & lũa.* S. |  |
+| `c2-l046` | Vnguet. Cumo, tçuqi. *Nuuem, & lũa. S.* |  |
 | `c2-l047` | Vngin. *Fretes. Vt* Vnginuo naſu. *Pagar* |  |
 | `c2-l048` | &emsp;*fretes.* |  |
 

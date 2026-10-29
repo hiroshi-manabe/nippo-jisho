@@ -33,8 +33,8 @@ Lexical cross-check after independent scan reading: the supplied National Instit
 | `c1-l015` | &emsp;*ſas que eſtão dentro da fortaleza.* |  |
 | `c1-l016` | Tǒjǔ. Cotaye, mucǔ. *Repoſta. ¶ Item,* |  |
 | `c1-l017` | &emsp;*Palaura q̃ ſe poem nos ſobreſcritos das cartas* |  |
-| `c1-l018` | &emsp;*que vão em repoſta de outras.* S. |  |
-| `c1-l019` | Tǒjǔ. Budǒno xiru. *Vinho de vuas.* S. |  |
+| `c1-l018` | &emsp;*que vão em repoſta de outras. S.* |  |
+| `c1-l019` | Tǒjǔ. Budǒno xiru. *Vinho de vuas. S.* |  |
 | `c1-l020` | Toma. *Esteira que ſe vſa pera emparo da chu-* |  |
 | `c1-l021` | &emsp;*ua nas embarcações, ou noutras partes.* |  |
 | `c1-l022` | &emsp;*¶* Tomauo fuqu. *Cobrir a embarcação* |  |

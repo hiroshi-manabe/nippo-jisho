@@ -90,7 +90,7 @@ Lexical cross-check after independent reading: NINJAL, Hideyuki Ohshima and Taic
 | `c2-l014` | &emsp;*& proſperando o imperio.* |  |
 | `c2-l015` | Sacazzuqi. *Taça, ou copo. ¶* Sacazzu- |  |
 | `c2-l016` | &emsp;qiuo catamuquru. i, Nomu. *Beber* |  |
-| `c2-l017` | &emsp;*pello Sacazzuqui.* S. |  |
+| `c2-l017` | &emsp;*pello Sacazzuqui. S.* |  |
 | `c2-l018` | Sacoſo. *Adu. Prouauelmente aßi, ou como* |  |
 | `c2-l019` | &emsp;*ißo. Vt,* Sacoſo nagoriuoxǔ vomôtçu- |  |
 | `c2-l020` | &emsp;rǒ naredomo. Mon. *Parece que aßi de-* |  |

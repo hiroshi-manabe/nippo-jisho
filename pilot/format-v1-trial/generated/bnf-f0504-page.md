@@ -18,7 +18,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l002` | &emsp;*¶* Dǒriuo teſſuru. *Chegar com a ruzão* |  |
 | `c1-l003` | &emsp;*ao cabo.* |  |
 | `c1-l004` | Texxin. *Coração de ferro, ou forte, & con-* |  |
-| `c1-l005` | &emsp;*ſtante.* S. |  |
+| `c1-l005` | &emsp;*ſtante. S.* |  |
 | `c1-l006` | Texxin. Curoganeno fari. *Agulha grande* |  |
 | `c1-l007` | &emsp;*de ferro, lanceta, ou furador.* |  |
 | `c1-l008` | Texxo. *Proua, ou testemunha verdadeira.* |  |

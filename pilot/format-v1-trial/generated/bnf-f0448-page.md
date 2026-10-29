@@ -37,7 +37,7 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c1-l019` | Soreſama. *Voſſa merce.* |  |
 | `c1-l020` | Soreſore. *Eſſe eſſe, ou iſſo iſſo, ou aßi aßi.* |  |
 | `c1-l021` | Soreſoreno. *Cada hum, ou de cada hum.* |  |
-| `c1-l022` | Soretçura. *Deſſa laya.* S. |  |
+| `c1-l022` | Soretçura. *Deſſa laya. S.* |  |
 | `c1-l023` | Soretçure. *Idem.* |  |
 | `c1-l024` | Sori, u, otta. *Dobrarſe, ou arcarſe pera ci-* |  |
 | `c1-l025` | &emsp;*ma. Vt,* Nocqeni ſoru. *Dobrarſe com* |  |
@@ -75,8 +75,8 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | Sǒro. Cuſano tçuyu. *Orualho das eruas.* S. |  |
-| `c2-l002` | Sǒrǒ. Auoi nami. *Ondas do mar.* S. |  |
+| `c2-l001` | Sǒro. Cuſano tçuyu. *Orualho das eruas. S.* |  |
+| `c2-l002` | Sǒrǒ. Auoi nami. *Ondas do mar. S.* |  |
 | `c2-l003` | Sǒro. Ximo, tçuyu. *Geada, & orualho.* |  |
 | `c2-l004` | Soroban. *Taboinha com contas ẽfiadas em a-* |  |
 | `c2-l005` | &emsp;*rame por onde contão os Chinas, & Iapoẽs.* |  |

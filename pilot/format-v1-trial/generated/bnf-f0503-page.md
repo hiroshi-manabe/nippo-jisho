@@ -33,7 +33,7 @@ Lexical aid: NINJAL, Hideyuki Ohshima and Taichi Aida, Entry Words Data of Nippo
 | `c1-l015` | &emsp;*compridas da rede grande que puxão dambas* |  |
 | `c1-l016` | &emsp;*as partes.* |  |
 | `c1-l017` | Teſocudai. l, texocudai. *Caſtiçal de ferro.* |  |
-| `c1-l018` | Teſſa. Curoganeno cuſari. *Cadea de ferro.* S. |  |
+| `c1-l018` | Teſſa. Curoganeno cuſari. *Cadea de ferro. S.* |  |
 | `c1-l019` | Tetare. *Peßoa deſtra em algũa couſa de mãos.* |  |
 | `c1-l020` | Tetori. *Homẽ deſtro na luta. ¶ Item, Sa-* |  |
 | `c1-l021` | &emsp;*gaz, & ſutil em trapaças, &c. eſcapolin-* |  |
@@ -52,7 +52,7 @@ Lexical aid: NINJAL, Hideyuki Ohshima and Taichi Aida, Entry Words Data of Nippo
 | `c1-l034` | &emsp;ſuru. *Dar ajuda a outro, ou ſer ajudante.* |  |
 | `c1-l035` | Tete. l, chichi. *Pay.* |  |
 | `c1-l036` | Tetgiǒ. Curoganeno tçuye. *Bordão de fer-* |  |
-| `c1-l037` | &emsp;*ro, ou baſtão.* S. |  |
+| `c1-l037` | &emsp;*ro, ou baſtão. S.* |  |
 | `c1-l038` | Tetguio. *Peixe que fica de pois de paßar o car-* |  |
 | `c1-l039` | &emsp;*ro no caminho em algũa pouca dagoa, ou lama.* |  |
 | `c1-l040` | &emsp;*Traz ſe por comparação do que eſcapa dalgum* |  |
@@ -83,8 +83,8 @@ Lexical aid: NINJAL, Hideyuki Ohshima and Taichi Aida, Entry Words Data of Nippo
 | `c2-l006` | Tettai. Canagutçu. *Ferraduras.* |  |
 | `c2-l007` | Tettçui. *Martelo de ferro.* |  |
 | `c2-l008` | Tettei. Soconi touoru. *Penetrar interior-* |  |
-| `c2-l009` | &emsp;*mente.* S. |  |
-| `c2-l010` | Tettǒ. *Catana de ferro.* S. |  |
+| `c2-l009` | &emsp;*mente. S.* |  |
+| `c2-l010` | Tettǒ. *Catana de ferro. S.* |  |
 | `c2-l011` | Tevaqe. *Diſtribuição do exercito, ou eſqua-* |  |
 | `c2-l012` | &emsp;*drões, ou de outra gente pera diuerſas partes.* |  |
 | `c2-l013` | &emsp;*Vt,* Tevaqeuo ſuru. |  |

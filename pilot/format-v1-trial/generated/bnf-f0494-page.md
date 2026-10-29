@@ -46,7 +46,7 @@ Lexical reference consulted after independent scan reading: NINJAL, *Entry Words
 | `c1-l028` | &emsp;*que tẽ o ferro ẽ baixo como de bordão, & o de* |  |
 | `c1-l029` | &emsp;*cima como de lãça curta cuberto cõ hũa bainha.* |  |
 | `c1-l030` | Tçǔyǒ. Itami cayugaru. *O doerſe, & ter co-* |  |
-| `c1-l031` | &emsp;*mechão.* S. |  |
+| `c1-l031` | &emsp;*mechão. S.* |  |
 | `c1-l032` | Tçǔyô. *Communicação, & trato, ou comer-* |  |
 | `c1-l033` | &emsp;*cio. Vt,* Nagaſaqi yori Arimaye tçǔ- |  |
 | `c1-l034` | &emsp;yô ſuru. *Auer trato, & cõmunicação deſ-* |  |

@@ -19,7 +19,7 @@ Lexical cross-check after independent reading: NINJAL, Hideyuki Ohshima and Taic
 | `c1-l001` | Ruichô. Tçucareta tori. *Paßaro canſado,* |  |
 | `c1-l002` | &emsp;*ou debilitado.* |  |
 | `c1-l003` | Ruicon. Tçucare cutabiruru. *Grande canſa-* |  |
-| `c1-l004` | &emsp;*ço, ou fraqueza.* S. |  |
+| `c1-l004` | &emsp;*ço, ou fraqueza. S.* |  |
 | `c1-l005` | Ruinen. Toxicaſanaru. *O acrecentarerenſe* |  |
 | `c1-l006` | &emsp;*os annos, ou muitos annos.* |  |
 | `c1-l007` | Ruiqua. i, Vonaji tagvino toga. *Peccado* |  |
@@ -33,7 +33,7 @@ Lexical cross-check after independent reading: NINJAL, Hideyuki Ohshima and Taic
 | `c1-l015` | Ruireqe. *Inchaços, ou carouços q̃ nacem no peſ-* |  |
 | `c1-l016` | &emsp;*coço ao derredor da gargãta.* |  |
 | `c1-l017` | *R*uireqi. *O chorar muito, ou por muito eſpa-* |  |
-| `c1-l018` | &emsp;*ço.* S. |  |
+| `c1-l018` | &emsp;*ço. S.* |  |
 | `c1-l019` | Ruitai. i, Daidai. *Idades acrecentadas, ou* |  |
 | `c1-l020` | &emsp;*muitas idades.* |  |
 | `c1-l021` | *R*uitocu. Tocuuo caſanuru. *O acrecentar* |  |

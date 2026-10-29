@@ -31,7 +31,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l015` | &emsp;*morrer de pouca idade, ou de preßa.* |  |
 | `c1-l016` | Soxei. i, Yomigayeru. *Reſurreição. Vt,* |  |
 | `c1-l017` | &emsp;Soxei xita fito. *Homem que reſucitou.* |  |
-| `c1-l018` | Sǒxen. Auoi coqe. *Muſgos verdes.* S. |  |
+| `c1-l018` | Sǒxen. Auoi coqe. *Muſgos verdes. S.* |  |
 | `c1-l019` | Soxet. Xirayuqi. *Neue.* |  |
 | `c1-l020` | Sǒxet. Ximo, yuqi. *Geada, & neue.* |  |
 | `c1-l021` | Soxi. *Homẽs inſignes antiguos que fundarão* |  |
@@ -57,7 +57,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l041` | &emsp;*ante do Rey, ou do Cami.* |  |
 | `c1-l042` | Sǒxiguiri. *Furador de fechar cartas.* |  |
 | `c1-l043` | Soxin. Voroſocana cocoro. *Coração deſa-* |  |
-| `c1-l044` | &emsp;*moroſo, ou deſcuidado.* S. |  |
+| `c1-l044` | &emsp;*moroſo, ou deſcuidado. S.* |  |
 | `c1-l045` | Sôxin. *O deſtruirſe, ou acabar. ¶* Sôxin |  |
 | `c1-l046` | &emsp;xumiǒ. *Ser mortò com trabalhos, & afli-* |  |
 | `c1-l047` | &emsp;*çoẽs, como os que por amor de Deos, ou da* |  |
@@ -84,7 +84,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l010` | Sôxǒ. i, Rengano xixǒ. *Meſtre principal* |  |
 | `c2-l011` | &emsp;*dos poetas que cõpoem juntos huns verſos que* |  |
 | `c2-l012` | &emsp;*ſe chamão* Renga. |  |
-| `c2-l013` | Sôxocu. Cuſano iro. *Cor de eruas.* S. |  |
+| `c2-l013` | Sôxocu. Cuſano iro. *Cor de eruas. S.* |  |
 | `c2-l014` | Soxocu. Voroſocana xocubut. *Comer groſ-* |  |
 | `c2-l015` | &emsp;*ſeiro, & ruim.* |  |
 | `c2-l016` | Soxônin. *O que pede, ou propoem ao ſenhor* |  |

@@ -32,7 +32,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l016` | Vôburumai. *Grande conuite.* |  |
 | `c1-l017` | Vobuto. *Çapatos feitos de junco que tem o ca* |  |
 | `c1-l018` | &emsp;*breſtilho großo, que ſe mete entre os dedos.* |  |
-| `c1-l019` | Vôca. Vta, vta. *Cantigas, ou verſos.* S. |  |
+| `c1-l019` | Vôca. Vta, vta. *Cantigas, ou verſos. S.* |  |
 | `c1-l020` | Voca. *Monteſinho, ou morro ſem aruores.* |  |
 | `c1-l021` | Vôcaje. *Grande vento, ou tempeſtade.* |  |
 | `c1-l022` | Vôcame. *Lobo.* |  |

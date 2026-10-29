@@ -17,12 +17,12 @@ Review sources: Native scan, Bibliothèque nationale de France / Gallica. Second
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c1-l001` | Saimon. Futatabi tô. *O perguntar a ſegunda* |  |
-| `c1-l002` | &emsp;*vez.* S. |  |
+| `c1-l002` | &emsp;*vez. S.* |  |
 | `c1-l003` | Saimon. Nixino mon. *Porta da parte do* |  |
 | `c1-l004` | &emsp;*Poente.* |  |
 | `c1-l005` | Sainami, u, ǒda. *Affigir, ou atormẽtar, &c.* |  |
 | `c1-l006` | Sainan. Comaca, yauaraca. *Couſa miuda,* |  |
-| `c1-l007` | &emsp;*brãda, & delgada, como peça de ſeda.* S. |  |
+| `c1-l007` | &emsp;*brãda, & delgada, como peça de ſeda. S.* |  |
 | `c1-l008` | Sainan. i, Vazauai, nangui. *Perigos, ma-* |  |
 | `c1-l009` | &emsp;*les, & trabalhos.* |  |
 | `c1-l010` | Saino cauara. *Lugar como limbo dos mininos* |  |
@@ -31,11 +31,11 @@ Review sources: Native scan, Bibliothèque nationale de France / Gallica. Second
 | `c1-l013` | &emsp;*manda. Vt,* Cujino ſaiqio. *Perguntas,* |  |
 | `c1-l014` | &emsp;*& exame ſobre a demanda.* |  |
 | `c1-l015` | Saiqin. Moyouoxi tçutomuru. *O por por* |  |
-| `c1-l016` | &emsp;*obra, ou executar algũa couſa.* S. |  |
+| `c1-l016` | &emsp;*obra, ou executar algũa couſa. S.* |  |
 | `c1-l017` | Saiquai. Futatabi vǒ. *O encõtrarſe, ou ver-* |  |
 | `c1-l018` | &emsp;*ſe, & falarſe duas vezes, ou a ſegunda vez.* |  |
 | `c1-l019` | Saiquat. Futatabi yomigayeru. *Reſuſci-* |  |
-| `c1-l020` | &emsp;*tar. Vt,* Saiquat ſuru. S. |  |
+| `c1-l020` | &emsp;*tar. Vt,* Saiquat ſuru. *S.* |  |
 | `c1-l021` | Sairai. Futatabi qitaru. *Vinda ſegunda dal-* |  |
 | `c1-l022` | &emsp;*gum Cami, ou Fotoque.* |  |
 | `c1-l023` | Sairei. Matçurigoto rei. *Hũas feſtas que ſe* |  |
@@ -92,7 +92,7 @@ Review sources: Native scan, Bibliothèque nationale de France / Gallica. Second
 | `c2-l016` | &emsp;*& outras eruas.* |  |
 | `c2-l017` | Saitô. *Hũa maneira de ſelha em que ſe mete o* |  |
 | `c2-l018` | &emsp;*comer cortado, ou iguarias q̃ ão de ſair a meſa.* |  |
-| `c2-l019` | Sai v. Comacana ame. *Chuua miuda.* S. |  |
+| `c2-l019` | Sai v. Comacana ame. *Chuua miuda. S.* |  |
 | `c2-l020` | Saiuai. *Oportunidade.* |  |
 | `c2-l021` | Saiuaina. *Couſa oportuna, ou que vem apro-* |  |
 | `c2-l022` | &emsp;*poſito, &c.* |  |

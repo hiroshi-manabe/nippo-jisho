@@ -55,9 +55,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l039` | &emsp;ſuru. *Dar na fortaleza com gente, ou chegar* |  |
 | `c1-l040` | &emsp;*perto com a gente pera dar.* |  |
 | `c1-l041` | Vchǔ. i, Tenchino ai. *Entre o ceo, & a ter-* |  |
-| `c1-l042` | &emsp;*ra i. Ar.* S. |  |
+| `c1-l042` | &emsp;*ra i. Ar. S.* |  |
 | `c1-l043` | Vchǔ. Ameno vchi. *Dentro da chuua, ou eſ-* |  |
-| `c1-l044` | &emsp;*tando chouendo.* S. |  |
+| `c1-l044` | &emsp;*tando chouendo. S.* |  |
 | `c1-l045` | Vchǔdo. *O que està ſempre em caſa.* |  |
 | `c1-l046` | Vchǔto. *Idem. Tomaſe per homem q̃ não ſa-* |  |
 | `c1-l047` | &emsp;*be o que vai no mundo, nẽ ſae apublico, &c.* |  |

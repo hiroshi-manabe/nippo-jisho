@@ -23,7 +23,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l007` | Tochǔ. l, tochǔni. Michino naca. *Meo* |  |
 | `c1-l008` | &emsp;*do caminho, ou caminho.* |  |
 | `c1-l009` | Tǒchǔ. Ataraxiqi chǔxet. *Seruiços feitos* |  |
-| `c1-l010` | &emsp;*de nouo, ou dagora.* S. |  |
+| `c1-l010` | &emsp;*de nouo, ou dagora. S.* |  |
 | `c1-l011` | Tocǒ. *Adu.* l, tocacu. *Aßi, ou de qual-* |  |
 | `c1-l012` | &emsp;*quer maneira. Vt,* Tocǒ mǒſuni voyoba- |  |
 | `c1-l013` | &emsp;nu. *Não ha pera que falar mais de qualquer* |  |
@@ -98,7 +98,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l017` | Tocubun. *Parte, ou quantidade do proueito,* |  |
 | `c2-l018` | &emsp;*ou ganho que cabe a alguem.* |  |
 | `c2-l019` | Tocudat. *Liurarſe, ou deſatarſe dos pecados.* |  |
-| `c2-l020` | &emsp;i, *ſaluarſe.* S. |  |
+| `c2-l020` | &emsp;i, *ſaluarſe. S.* |  |
 | `c2-l021` | Tocudǒ. *O raparſe, & fazerſe religioſo. Vt,* |  |
 | `c2-l022` | &emsp;Tocudǒ ſuru. *¶ Item, Ajudar a ſaluar a* |  |
 | `c2-l023` | &emsp;*outros com conſelhos, &c.* |  |

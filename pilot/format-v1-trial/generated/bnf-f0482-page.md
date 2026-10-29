@@ -43,7 +43,7 @@ Lexical cross-check: supplied NINJAL Entry Words Data of Nippojisho, version 202
 | `c1-l025` | Tçuchinoye, tçuchinoto. *Nome de certos an* |  |
 | `c1-l026` | &emsp;*nos conforme ao calendario de Iapão.* |  |
 | `c1-l027` | Tçucǒmatçuri, ru. i, Tçucayetatematçuru. |  |
-| `c1-l028` | &emsp;*Seruir honrando a peßoa aquem ſe ſerue.* S. |  |
+| `c1-l028` | &emsp;*Seruir honrando a peßoa aquem ſe ſerue. S.* |  |
 | `c1-l029` | Tçucubai, ǒ, ǒta. *Eſtar em cocaras humil-* |  |
 | `c1-l030` | &emsp;*demente.* |  |
 | `c1-l031` | Tçucubǒ. *Hũa laya de armas de hastea com-* |  |

@@ -33,12 +33,12 @@ Review sources: Native scan, Bibliothèque nationale de France / Gallica. Second
 | `c1-l015` | Sanbut. i, Dainichino coto. *Nome de hum* |  |
 | `c1-l016` | &emsp;*certo Fotoque.* |  |
 | `c1-l017` | Sanca. Yamano xita. *Raiz, ou pee do* |  |
-| `c1-l018` | &emsp;*monte.* S. |  |
-| `c1-l019` | Sanca. *Oir a algũa parte em andas.* S. |  |
+| `c1-l018` | &emsp;*monte. S.* |  |
+| `c1-l019` | Sanca. *Oir a algũa parte em andas. S.* |  |
 | `c1-l020` | Sanca. Yamano iye. *Caſas dos montes, ou* |  |
-| `c1-l021` | &emsp;*que eſtão nos campos.* S. |  |
+| `c1-l021` | &emsp;*que eſtão nos campos. S.* |  |
 | `c1-l022` | Sanca. l, xenga. Yama, caua. *Mõtes, & rios.* |  |
-| `c1-l023` | Sanca. Mairu itoma. *Licẽça pera ir fora.* S. |  |
+| `c1-l023` | Sanca. Mairu itoma. *Licẽça pera ir fora. S.* |  |
 | `c1-l024` | Sancacu. Miſumi. *Triangulo, ou couſas de* |  |
 | `c1-l025` | &emsp;*tres cantos.* |  |
 | `c1-l026` | Sancacuna. *Couſa triangular.* |  |
@@ -78,7 +78,7 @@ Review sources: Native scan, Bibliothèque nationale de France / Gallica. Second
 | `c2-l002` | Sancô. *O ir diante do ſenhor, & aßistir, ou eſ-* |  |
 | `c2-l003` | &emsp;*tar prestes pera ſeuſeruiço.* |  |
 | `c2-l004` | Sancǒ. Yamauo yuqu. *O paßar, l, andar* |  |
-| `c2-l005` | &emsp;*pollos montes.* S. |  |
+| `c2-l005` | &emsp;*pollos montes. S.* |  |
 | `c2-l006` | Sancô. *Ir praticar com algũa peßoa de reſpeito.* |  |
 | `c2-l007` | Sancǒ. Mitçuno vôzzuna. i, cunxin, fu- |  |
 | `c2-l008` | &emsp;xi, fǔfu. *Tres grãdes lianças. ſ. de ſenhor* |  |

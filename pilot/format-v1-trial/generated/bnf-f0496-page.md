@@ -87,7 +87,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l013` | Teccai. *Braço, ou mão aleijada, ou encolhida.* |  |
 | `c2-l014` | &emsp;*No Cami ſe diz,* Choccai. |  |
 | `c2-l015` | Tecchǔ. Curoganeno faxira. *Columna de* |  |
-| `c2-l016` | &emsp;*ferro.* S. |  |
+| `c2-l016` | &emsp;*ferro. S.* |  |
 | `c2-l017` | *T*ecogi. l, tacogi. *Lauanca.* |  |
 | `c2-l018` | Tecoi. *Couſa muita em quantidade, ou grãde.* |  |
 | `c2-l019` | &emsp;*¶* Tecô yamaſuru. *Dar muitas pancadas* |  |

@@ -16,9 +16,9 @@ Secondary lexical reference: *Entry Words Data of Nippojisho*, NINJAL, Hideyuki 
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | *R*ogan. *Pato brauo que eſta ẽtre os caniços.* S. |  |
+| `c1-l001` | *R*ogan. *Pato brauo que eſta ẽtre os caniços. S.* |  |
 | `c1-l002` | *R*ǒgan. Voitaru cauobaxe. *Roſto de ve-* |  |
-| `c1-l003` | &emsp;*lho.* S. |  |
+| `c1-l003` | &emsp;*lho. S.* |  |
 | `c1-l004` | Rǒguet. i, Xiuaſu. *Derradeiro mes, ou lũa* |  |
 | `c1-l005` | &emsp;*do anno de Iapão.* |  |
 | `c1-l006` | *R*ôguet. Voborozzuqi. *Lũa dantre nuuens* |  |
@@ -113,7 +113,7 @@ Typeface recheck: every capital R was compared individually with the native scan
 | `c2-l036` | &emsp;*¶* Roqenxita cotogia. *He couſa ja manifeſ-* |  |
 | `c2-l037` | &emsp;*ta, & publica.* |  *(ſair de caſa.* |
 | `c2-l038` | *R*ôqio. Comori iru. *O eſtar recolhido ſem* |  |
-| `c2-l039` | *R*oqua. Axino fana. *Flor de caniços.* S. |  |
+| `c2-l039` | *R*oqua. Axino fana. *Flor de caniços. S.* |  |
 | `c2-l040` | *R*ǒquai. Voino vomoi. *Cuidados, ou pen-* |  |
 | `c2-l041` | &emsp;*ſamentos de velho.* |  |
 | `c2-l042` | *R*ǒrai. Vei qitaru. *O chegarſe à velhice,* |  |

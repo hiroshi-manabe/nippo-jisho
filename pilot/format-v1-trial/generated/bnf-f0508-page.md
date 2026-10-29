@@ -21,7 +21,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l005` | &emsp;*que alimpão, & fazem liſo o pao, ou corno.* |  |
 | `c1-l006` | Tocuſon. *Proueito, & perda.* |  |
 | `c1-l007` | Tocutai. Cauaru gui. *O trocarſe, ou mudar-* |  |
-| `c1-l008` | &emsp;*ſe como algum official, ou feitor, &c.* S. |  |
+| `c1-l008` | &emsp;*ſe como algum official, ou feitor, &c. S.* |  |
 | `c1-l009` | Tocutocu. *Adu. Depreßa. Vt,* Tocuto- |  |
 | `c1-l010` | &emsp;cu itomauo cudaſareyoto mǒxita. *Diße* |  |
 | `c1-l011` | &emsp;*que lhe deße de preßa licença.* |  |

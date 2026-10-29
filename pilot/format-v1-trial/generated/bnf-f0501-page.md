@@ -42,14 +42,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l026` | &emsp;uo cayeſuga gotoqu cauaru fitogia. *He* |  |
 | `c1-l027` | &emsp;*homem que ſe muda, & vira tam facilmente* |  |
 | `c1-l028` | &emsp;*como quem vira a palma da mão.* |  |
-| `c1-l029` | Tenpai. Tauore, uru. *Cair.* S. |  |
+| `c1-l029` | Tenpai. Tauore, uru. *Cair. S.* |  |
 | `c1-l030` | Tenpai. *Copo, ou taça del Rey.* |  |
 | `c1-l031` | Tenpan. i, Soyemexi. *Arroz que ſe acre-* |  |
 | `c1-l032` | &emsp;*centa de mais alem da regra, ou porção ordina-* |  |
 | `c1-l033` | &emsp;*ria na cozinha dos Ienxùs.* |  |
 | `c1-l034` | Tenpi. i, Tenno fi. l, tenqua. *Fogo do ceo.* |  |
 | `c1-l035` | Tenpo. Soye voguinô. *Refazer, & acre-* |  |
-| `c1-l036` | &emsp;*centar como forças, &c.* S. |  |
+| `c1-l036` | &emsp;*centar como forças, &c. S.* |  |
 | `c1-l037` | Tenpucu. *Frauta, q̃ tangem os que andão per* |  |
 | `c1-l038` | &emsp;*diuerſas partes pedindo eſmola pollas portas.* |  |
 | `c1-l039` | &emsp;*¶* Tenpucuuo fuqu. *Tanger eſta frauta.* |  |
@@ -81,7 +81,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l007` | Tenqua. Tenno fi. *Fogo do ceo. ¶* Ten- |  |
 | `c2-l008` | &emsp;qua furicudaru. *Decer fogo do ceo.* |  |
 | `c2-l009` | Tenquafun. *Hũa certa mezinha.* |  |
-| `c2-l010` | Tenquǒ. Tenno ficari. *Claridade do ceo.* S. |  |
+| `c2-l010` | Tenquǒ. Tenno ficari. *Claridade do ceo. S.* |  |
 | `c2-l011` | Tenrio. Teiuǒno vomonbacari. *Saber, &* |  |
 | `c2-l012` | &emsp;*prudencia do Rey.* |  |
 | `c2-l013` | Tenri. *Ley, ou ordem com que ſe gouerna o* |  |
@@ -110,7 +110,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l036` | &emsp;*do ceo, ou de Deos. ¶ Item, Influencias* |  |
 | `c2-l037` | &emsp;*do ceo, ou beneficios, & merces que Deos faz.* |  |
 | `c2-l038` | Tentçǔ. i, Tenni tçǔzuru. *Communicarſe* |  |
-| `c2-l039` | &emsp;*com o ceo, ou chegar tè o ceo.* S. |  |
+| `c2-l039` | &emsp;*com o ceo, ou chegar tè o ceo. S.* |  |
 | `c2-l040` | Tentei. Tẽno micado. *Rey. ¶ Itẽ, Deos.* |  |
 | `c2-l041` | Tenteqi. *Inimigo de Deos, ou do ceo.* |  |
 | `c2-l042` | Tentǒ. Tenno michi. *Caminho, ou ordẽ,* |  |

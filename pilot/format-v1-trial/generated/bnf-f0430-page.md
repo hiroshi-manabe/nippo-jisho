@@ -109,7 +109,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l035` | Saibitçu. *Caixão quadrado pera meter mata-* |  |
 | `c2-l036` | &emsp;*lotagem.* |  |
 | `c2-l037` | Saibon. Futatabi vocaſu. *O peccar a ſegun-* |  |
-| `c2-l038` | &emsp;*da vez.* S. |  |
+| `c2-l038` | &emsp;*da vez. S.* |  |
 | `c2-l039` | Saibon ſaigue. *Couſa, ou peßoa mui vil, &* |  |
 | `c2-l040` | &emsp;*baixa. ¶* Saibon, ſaigueno fito. *Ho-* |  |
 | `c2-l041` | &emsp;*mem baixo, & vil.* |  |

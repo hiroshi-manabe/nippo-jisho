@@ -37,7 +37,7 @@ Lexical cross-check after independent reading: NINJAL, Hideyuki Ohshima and Taic
 | `c1-l019` | Sabiye. *Agoa dalgum pego, ou remanſo do* |  |
 | `c1-l020` | &emsp;*rio, que està turua por nam correr muito.* |  |
 | `c1-l021` | Saburai. *Fidalgo, l, homem honrado.* |  |
-| `c1-l022` | Saburai, ǒ, ǒta. *Ser, auer, &c.* S. |  |
+| `c1-l022` | Saburai, ǒ, ǒta. *Ser, auer, &c. S.* |  |
 | `c1-l023` | Saca. *Ladeira.* |  |
 | `c1-l024` | Sacabayaxi. *Ramo feito à maneira de vaſou-* |  |
 | `c1-l025` | &emsp;*ra, que ſe poem às portas das tauernas. No* |  |
@@ -125,7 +125,7 @@ Lexical cross-check after independent reading: NINJAL, Hideyuki Ohshima and Taic
 | `c2-l043` | &emsp;*ou embarcação.* |  |
 | `c2-l044` | Sacamuqe. *Eſpigas das vnhas.* |  |
 | `c2-l045` | Sacan. *Vt,* Sacan naru. *Proſperar, ou* |  |
-| `c2-l046` | &emsp;*eſtar florente, & em ſeu vigor.* S. |  |
+| `c2-l046` | &emsp;*eſtar florente, & em ſeu vigor. S.* |  |
 | `c2-l047` | Sacana. *Couſa de comer como carne, & peixe* |  |
 
 ## Printed signature

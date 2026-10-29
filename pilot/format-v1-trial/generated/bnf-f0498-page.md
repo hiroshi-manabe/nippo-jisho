@@ -22,28 +22,28 @@ Lexical aid: [NINJAL, Entry Words Data of Nippojisho, version 202510](https://ww
 | `c1-l004` | &emsp;*do mes.* |  |
 | `c1-l005` | Teiguiô. *Couſas, que o Reyfaz, ou ordena.* |  |
 | `c1-l006` | Teigi. Fiſſague motçu. *Ter algũa couſa de-* |  |
-| `c1-l007` | &emsp;*pendurada na mão.* S. |  |
+| `c1-l007` | &emsp;*pendurada na mão. S.* |  |
 | `c1-l008` | Teigio. Tadaxij vonna. *Boa, & caſta molher.* |  |
 | `c1-l009` | Teigiǔ. *Reuerencia, & agaſalhado. Vt,* |  |
 | `c1-l010` | &emsp;Teigiǔuo itaſu. *Reuerenciar, ou agaſa-* |  |
 | `c1-l011` | &emsp;*lhar com reſpeito, &c.* |  |
 | `c1-l012` | Teijen. Niuano maye. *Diante da Niua. Vt,* |  |
 | `c1-l013` | &emsp;Teijenno fana. *Roſas, ou fulas da Niua.* |  |
-| `c1-l014` | Teijit. *Verdade certa, & determinada.* S. |  |
+| `c1-l014` | Teijit. *Verdade certa, & determinada. S.* |  |
 | `c1-l015` | Teinei. *Grãde agaſalhado, & amor. ¶* Tei- |  |
 | `c1-l016` | &emsp;neiuo tçucuſu. *Fazer grande agaſalhado.* |  |
 | `c1-l017` | Teineini. *Adu. Amigauelmente, ou amo-* |  |
 | `c1-l018` | &emsp;*roſamente, com muito agaſalhado, &c.* |  |
 | `c1-l019` | Teineiſa. *Amor, & agaſalhado.* |  |
 | `c1-l020` | Teiqet. *Paços do Dayri.* |  |
-| `c1-l021` | Teiqiǔ. Naqi, u. *O chorar.* S. *¶* Fot- |  |
+| `c1-l021` | Teiqiǔ. Naqi, u. *O chorar. S. ¶* Fot- |  |
 | `c1-l022` | &emsp;ro, teiqiǔ. *Idem.* |  |
 | `c1-l023` | Teiro. Fiſſague arauaſu. *O moſtrar algũa cou-* |  |
-| `c1-l024` | &emsp;*ſa dependurada na mão.* S. |  |
+| `c1-l024` | &emsp;*ſa dependurada na mão. S.* |  |
 | `c1-l025` | Teitacu. l, teitǒ. *Adu. Com força, &* |  |
 | `c1-l026` | &emsp;*impeto.* |  |
 | `c1-l027` | Teitai. Todomari, todocouoru. *Ser impe-* |  |
-| `c1-l028` | &emsp;*dido, ou detido.* S. |  |
+| `c1-l028` | &emsp;*dido, ou detido. S.* |  |
 | `c1-l029` | Teitaracu. *Modo, feição, ou aparẽcia. ¶* Co- |  |
 | `c1-l030` | &emsp;no xecaino teitaracu. *Modo, ou maneira* |  |
 | `c1-l031` | &emsp;*de como eſtà o mundo.* |  |
@@ -58,7 +58,7 @@ Lexical aid: [NINJAL, Entry Words Data of Nippojisho, version 202510](https://ww
 | `c1-l040` | Teiuǒ. *Rey, ou emperador.* |  |
 | `c1-l041` | Teixei. i, Teiuǒno miyaco. *Corte del Rey, ou* |  |
 | `c1-l042` | &emsp;*cidade principal onde reſide o Rey.* |  |
-| `c1-l043` | Teixei. Naqu coye. *Voz choroſa.* S. |  |
+| `c1-l043` | Teixei. Naqu coye. *Voz choroſa. S.* |  |
 | `c1-l044` | Teixin. Taxicana xinca. *Criado leal do Rey,* |  |
 | `c1-l045` | &emsp;*ou doutro ſenhor.* |  |
 | `c1-l046` | Teixin. Micado, xinca. *Rey, & vaſallo.* |  |

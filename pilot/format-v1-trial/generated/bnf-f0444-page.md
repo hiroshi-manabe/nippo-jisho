@@ -39,7 +39,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l023` | Sogi. *Hũ peixe grãde como pargo do mar.* |  |
 | `c1-l023a` | Sǒgi. Chiuo farǒ. *Alimpar, varrer, &c.* |  |
 | `c1-l024` | &emsp;*Vt,* Zaxiqiuo sǒgi ſuru. *Varrer o Zaxiqui.* |  |
-| `c1-l025` | Sôgi. Sube motçu. *Ter, ou poßuir tudo.* S. |  |
+| `c1-l025` | Sôgi. Sube motçu. *Ter, ou poßuir tudo. S.* |  |
 | `c1-l026` | Sôgin. *Todo o exercito, ou todos os eſquadroẽs* |  |
 | `c1-l027` | &emsp;*em vniuerſal.* |  |
 | `c1-l028` | Sôgiǔ. Sôno vchi. *Entre todos, ou todos ẽ* |  |
@@ -83,7 +83,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l008` | Sôja. Tçucaſadoru yaxiro. *Templo, ou er* |  |
 | `c2-l009` | &emsp;*mida de Camis principal, & como matriz en-* |  |
 | `c2-l010` | &emsp;*tre as outras.* |  |
-| `c2-l011` | Sôjen. Madono maye. *Diante da janela.* S. |  |
+| `c2-l011` | Sôjen. Madono maye. *Diante da janela. S.* |  |
 | `c2-l012` | Sôji. *Letra da China eſcrita de corrimão.* |  |
 | `c2-l013` | Sojin. *Homem cõmum, ou ordinario.* |  |
 | `c2-l014` | Sôjite. *Cõ nummente.* |  |
@@ -106,7 +106,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l031` | &emsp;mono. *Homẽ deſatẽtado.* Somatni. *Adu.* |  |
 | `c2-l032` | Some, uru, eta. *Tingir. Vt,* Ixǒuo ſo- |  |
 | `c2-l033` | &emsp;muru. *Tingir o veſtido. ¶* Fudeuo ſo- |  |
-| `c2-l034` | &emsp;muru. S. *Eſcreuer. ¶* Somemono. |  |
+| `c2-l034` | &emsp;muru. *S. Eſcreuer. ¶* Somemono. |  |
 | `c2-l035` | &emsp;*Couſa tingida. ¶ Itẽ,* Some, uru. *Iũ-* |  |
 | `c2-l036` | &emsp;*to as raizes de outros verbos quer dizer, co-* |  |
 | `c2-l037` | &emsp;*meçar. Vt,* Vomoi ſomuru. *Começar* |  |

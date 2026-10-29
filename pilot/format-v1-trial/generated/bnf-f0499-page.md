@@ -87,8 +87,8 @@ Lexical aid: [NINJAL, Entry Words Data of Nippojisho, version 202510](https://ww
 | `c2-l011` | Tenbô. Tenguno fô. *Ley, & ceremonia* |  |
 | `c2-l012` | &emsp;*do diabo. Vt,* Tenbôuo voconǒ. *Fazer* |  |
 | `c2-l013` | &emsp;*eſtas ceremonias, & ſuperſtiçoens do diabo.* |  |
-| `c2-l014` | Tenbon nixxǒ. *Demao fazerſe bem.* S. |  |
-| `c2-l015` | Tenbôrin. *Doutrina que Xaca prègou.* S. |  |
+| `c2-l014` | Tenbon nixxǒ. *Demao fazerſe bem. S.* |  |
+| `c2-l015` | Tenbôrin. *Doutrina que Xaca prègou. S.* |  |
 | `c2-l016` | Tenbu. *Hũs como Fotoques como Bixamõ, &c.* |  |
 | `c2-l017` | Tenca. Amega xita. *Monarchia, ou impe-* |  |
 | `c2-l018` | &emsp;*rio. ¶* Tencauo voſamuru. *Gouernar* |  |

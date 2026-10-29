@@ -20,7 +20,7 @@ Review sources: Native scan, Bibliothèque nationale de France / Gallica. Second
 | `c1-l002` | Saixô. Tçuma tçuma. *Molher caſada.* |  |
 | `c1-l003` | Saiyen. *Orta onde ſe ſemea ortaliça.* |  |
 | `c1-l004` | Saiyǔ. Futatabi aſobu. *O deſenfadarſe duas* |  |
-| `c1-l005` | &emsp;*vezes.* S. |  |
+| `c1-l005` | &emsp;*vezes. S.* |  |
 | `c1-l006` | Sajen. *Obra pia. Vt,* Butçuji ſajen. *Fa-* |  |
 | `c1-l007` | &emsp;*zer obras pias conuidando o Bonzo, & outros,* |  |
 | `c1-l008` | &emsp;*fazendo ler o Foquequiǒ, &c.* |  |

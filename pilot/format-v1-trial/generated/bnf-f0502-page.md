@@ -51,7 +51,7 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c1-l033` | Tenzo. *Certo officio, ou cargo entre os Ienxùs* |  |
 | `c1-l034` | &emsp;*co no official, ou prefeito da cuzinha.* |  |
 | `c1-l035` | Tenzui. *Sinal, ou prenoſtico do ceo.* |  |
-| `c1-l036` | Teppan. *Laminas de ferro.* S. |  |
+| `c1-l036` | Teppan. *Laminas de ferro. S.* |  |
 | `c1-l037` | Teppeqi. Curoganeno cabe. *Parede de fer-* |  |
 | `c1-l038` | &emsp;*ro. ¶* Guinzan teppeqi. *Montes de* |  |
 | `c1-l039` | &emsp;*prata, & paredes de ferro.* |  |

@@ -57,7 +57,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l041` | &emsp;*¶* Tǒſacuua nanto gozaruca? *Anoui-* |  |
 | `c1-l042` | &emsp;*dade deſte anno como eſtà ?* |  |
 | `c1-l043` | Tôſacuguiô. *O cultiuar, & aparelhar as var-* |  |
-| `c1-l044` | &emsp;*zeas no principio do ãno, ou na prima vera.* S. |  |
+| `c1-l044` | &emsp;*zeas no principio do ãno, ou na prima vera. S.* |  |
 | `c1-l045` | Tǒſan. *Hum certo Sacazzuqui ſobre ſua ſal-* |  |
 | `c1-l046` | &emsp;*ua de pao vruxada de vermelho.* |  |
 | `c1-l047` | Toſama. l, Toſamano. *Couſa como de em-* |  |

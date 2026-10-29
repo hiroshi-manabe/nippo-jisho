@@ -97,7 +97,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l023` | &emsp;*ſe muito peixe.* |  |
 | `c2-l024` | Tori. *Paßaro.* |  |
 | `c2-l025` | Tǒri. Momo, ſumomo. *Peſegueiro, & a-* |  |
-| `c2-l026` | &emsp;*meixieira.* S. |  |
+| `c2-l026` | &emsp;*meixieira. S.* |  |
 | `c2-l027` | Tori. *Hum dos animaes por onde contão os Ia-* |  |
 | `c2-l028` | &emsp;*pões as horas, & annos. ¶* Torino cocu. |  |
 | `c2-l029` | &emsp;*As 6. ou 7. horas depois do meo dia.* |  |

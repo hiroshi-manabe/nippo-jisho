@@ -44,7 +44,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l028` | Sangui. *Paoſinhos, ou tentos das ſortes, ou cõtas.* |  |
 | `c1-l029` | &emsp;*Vide.* San. |  |
 | `c1-l030` | Sanguiǒ. Yamano catachi. *Feição do mon-* |  |
-| `c1-l031` | &emsp;*te.* S. |  |
+| `c1-l031` | &emsp;*te. S.* |  |
 | `c1-l032` | Sangun. *Tres eſquadrões de gente militar que* |  |
 | `c1-l033` | &emsp;*tem cada hum dous mil, & quinhentos ſol-* |  |
 | `c1-l034` | &emsp;*dados.* |  |
@@ -53,7 +53,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l037` | Sanjen. i, Sangacu. *O entrar a tomar os põtos* |  |
 | `c1-l038` | &emsp;*da meditação dosIenxùs, ou os meſmos pontos.* |  |
 | `c1-l039` | Sanjen. *Antes do parto.* |  |
-| `c1-l040` | Sanjen. Cacayaqi, u. *Reſplandecer.* S. |  |
+| `c1-l040` | Sanjen. Cacayaqi, u. *Reſplandecer. S.* |  |
 | `c1-l041` | Sanji, zuru, ita. Chiraxi, ſu. *Deſabafar.* |  |
 | `c1-l042` | &emsp;*¶* Qiuo ſanzuru. *Deſabafar o coração.* |  |
 | `c1-l043` | &emsp;*¶* Iconuo ſanzuru. *Vingarſe. ¶* Mu- |  |
@@ -80,12 +80,12 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c2-l001` | Sanjin. Yamabito. *Homem do mato, ou que* |  |
-| `c2-l002` | &emsp;*mora nos montes.* S. |  |
+| `c2-l002` | &emsp;*mora nos montes. S.* |  |
 | `c2-l003` | Sanjǒ. Yamano vye. *Encima do monte.* |  |
 | `c2-l004` | Sanjǒ. Yamano xiro. *Fortaleza que eſtà no* |  |
 | `c2-l005` | &emsp;*monte.* |  |
 | `c2-l006` | Sanjǒ. *Ir a caſa de alguem, falando com reſ-* |  |
-| `c2-l007` | &emsp;*peito.* S. |  |
+| `c2-l007` | &emsp;*peito. S.* |  |
 | `c2-l008` | Sanjǒ. Xiroye mairu. *O ir à fortaleza.* |  |
 | `c2-l009` | Sanjo. i, Couo vmu tocoro. *Lugar do na-* |  |
 | `c2-l010` | &emsp;*cimento, ou lugar onde a molher pario.* |  |
@@ -97,7 +97,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l016` | &emsp;*muitas flores, ou folhas de aruores muito baſtas,* |  |
 | `c2-l017` | &emsp;*& floridas. ¶ Item, Modo de ſe aleuantar* |  |
 | `c2-l018` | &emsp;*grande poeira com correr de caualos, ou encõtro* |  |
-| `c2-l019` | &emsp;*de guerra.* S. |  |
+| `c2-l019` | &emsp;*de guerra. S.* |  |
 | `c2-l020` | Sanmichi. *Tres, & às nos dados.* |  |
 | `c2-l021` | Sanmiǒuo ſagaſu. i, Fagiuo ſaraſu. *Ficar* |  |
 | `c2-l022` | &emsp;*enuergonhado, & afrontado diante de gente.* |  |

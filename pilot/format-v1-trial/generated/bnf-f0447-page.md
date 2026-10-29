@@ -32,7 +32,7 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c1-l014` | Sǒqei. *Nome de hũa certa iguaria.* |  |
 | `c1-l015` | Soqen. Xiroi qinuno coromo. *Veſtido de* |  |
 | `c1-l016` | &emsp;*ſeda branca que trazem por cima algũs Bonzos* |  |
-| `c1-l017` | &emsp;*mais mancebos.* | *(de palha.*S. |
+| `c1-l017` | &emsp;*mais mancebos.* | *(de palha.S.* |
 | `c1-l018` | Sǒqen. Cuſano noqiba. *Borda do tecto da caſa* |  |
 | `c1-l019` | Soqi. i, Coinegǒ. *Pedir, ou deſejar. Vt,* |  |
 | `c1-l020` | &emsp;Soqiſuru. |  |
@@ -50,7 +50,7 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c1-l032` | &emsp;*totalmente ſeu desejo.* |  |
 | `c1-l033` | Sôquan. l, ſôguan. *Hũa dignidade de* |  |
 | `c1-l034` | &emsp;*Bonzos.* |  |
-| `c1-l035` | Soquat. Yomigayeri, u. *O reſuſcitar.* S. |  |
+| `c1-l035` | Soquat. Yomigayeri, u. *O reſuſcitar. S.* |  |
 | `c1-l036` | &emsp;*Vt,* Soquat ſuru. |  |
 | `c1-l037` | Sora. *Ar, ou ceo.* |  |
 | `c1-l038` | Sorabore. *O moſtrar fingidamente ter grande* |  |
@@ -82,9 +82,9 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c2-l006` | &emsp;*gir, ou dißimular.* |  |
 | `c2-l007` | Soragocoro. *Coração refalſado, ou fingido.* |  |
 | `c2-l008` | Soragoto. *Mentira.* |  |
-| `c2-l009` | Sôrai. Vaxiri qitaru. *O vir correndo.* S. |  |
+| `c2-l009` | Sôrai. Vaxiri qitaru. *O vir correndo. S.* |  |
 | `c2-l010` | Sǒrai, rǒ, ǒta. i, Soro. *Ser, eſtar, auer,* |  |
-| `c2-l011` | &emsp;*&c.* S. |  |
+| `c2-l011` | &emsp;*&c. S.* |  |
 | `c2-l012` | Sorajeimon. *Iuramento falſo, ou fingido.* |  |
 | `c2-l013` | Sorajini. *Morte fingida. Vt,* Sorajini ſu- |  |
 | `c2-l014` | &emsp;ru. *Fingir hum que eſtà morto.* |  |

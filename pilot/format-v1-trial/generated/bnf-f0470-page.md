@@ -105,7 +105,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l031` | Tanca. Mijicai vta. *Verſos, ou cantigas* |  |
 | `c2-l032` | &emsp;*breues.* |  |
 | `c2-l033` | Tancat. Mijicai tçuzzure. *Vestido curto,* |  |
-| `c2-l034` | &emsp;*& remendado.* S. |  |
+| `c2-l034` | &emsp;*& remendado. S.* |  |
 | `c2-l035` | Tanchǒ. l, chǒtan. Mijicai, nagai. *Cur-* |  |
 | `c2-l036` | &emsp;*to, & comprido.* |  |
 | `c2-l037` | Tancu. Mijicai cu. *Breue autoridade. ¶* Tã- |  |

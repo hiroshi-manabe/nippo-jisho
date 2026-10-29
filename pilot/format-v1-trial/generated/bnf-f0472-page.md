@@ -102,7 +102,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l028` | &emsp;*melha, que tambem ſerue de tinta vermelha.* |  |
 | `c2-l029` | &emsp;*Poſto q̃ na pratica ſe diz ordinariamẽte,* Tan. |  |
 | `c2-l030` | Tanxa. Mijicaqu, ſucoxi. *Coiſa pouca.* |  |
-| `c2-l031` | Tanxeqi. Aſayǔ. *Menhaã, & tarde.* S. |  |
+| `c2-l031` | Tanxeqi. Aſayǔ. *Menhaã, & tarde. S.* |  |
 | `c2-l032` | Tanxǒ. Mijicaqi tamazzuſa. *Carta breue.* |  |
 | `c2-l033` | Tanxo. Mijicai xo. *Idem.* |  |
 | `c2-l034` | Tanya. Mijicaqi yo. *Noite breue, ou pe-* |  |
@@ -110,7 +110,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l036` | Tanyacu. i, Neriguſuri. *Mezinha feita,* |  |
 | `c2-l037` | &emsp;*& compoſta de varias confeições.* |  |
 | `c2-l038` | Tanye. Mijicaqi qirimono. *Veſtido cur-* |  |
-| `c2-l039` | &emsp;*to.* S. |  |
+| `c2-l039` | &emsp;*to. S.* |  |
 | `c2-l040` | Tanzocu. *Buſcar com afflição, & grande di-* |  |
 | `c2-l041` | &emsp;*ligencia, & cuidado. Vt,* Tãzocu ſuru. |  |
 | `c2-l042` | Tappai. Cotaye vogamu. *Grande agaſalha-* |  |

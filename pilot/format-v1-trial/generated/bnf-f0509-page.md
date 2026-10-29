@@ -39,7 +39,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l023` | Tǒfon. i. Sacaſamani tauoruru. *O cair re-* |  |
 | `c1-l024` | &emsp;*uirado, ou com a cabeça pera baixo. ¶ Item,* |  |
 | `c1-l025` | &emsp;*per met. O cair como da virtude, ou de ſua pro* |  |
-| `c1-l026` | &emsp;*fißão, ou ley.* S. |  |
+| `c1-l026` | &emsp;*fißão, ou ley. S.* |  |
 | `c1-l027` | Tofon. *Modo de estar ſolitario, ſem fazer* |  |
 | `c1-l028` | &emsp;*nada. ¶* Tofonto xiteiru. *Estar como* |  |
 | `c1-l029` | &emsp;*paſmado ſem fazer nada.* |  |
@@ -107,11 +107,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l027` | &emsp;*onde ſobem, & donde tornão a decer.* |  |
 | `c2-l028` | Togue, ru, eta. *Gozar, cõprir, &c. ¶* Fõ- |  |
 | `c2-l029` | &emsp;mǒuo toguru. *Cõprir ſeus deſejos. ¶* Sã- |  |
-| `c2-l030` | &emsp;jǒuo togue. S. *Ir ter com alguem viſitãdco.* |  |
+| `c2-l030` | &emsp;jǒuo togue. *S. Ir ter com alguem viſitãdco.* |  |
 | `c2-l031` | &emsp;*¶* Muronuo toguru. *Sair contraição, ou* |  |
 | `c2-l032` | &emsp;*polla em effeito. ¶* Tẽno yorocobiuo to- |  |
 | `c2-l033` | &emsp;guru. *Gozar das alegrias celeſtiaes.* |  |
-| `c2-l034` | Tôguet. Fuyuno tçuqi. *Lũa do inuerno.* S. |  |
+| `c2-l034` | Tôguet. Fuyuno tçuqi. *Lũa do inuerno. S.* |  |
 | `c2-l035` | Togui. *O que tem por officioalimpar, & aſa-* |  |
 | `c2-l036` | &emsp;*calar eſpadas, &c.* |  |
 | `c2-l037` | Togui, gu, oida. *Amolar, ou aſacalar eſpa-* |  |
@@ -123,7 +123,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l043` | Toguiya. *Caſa onde ſe alimpão, & aſacalão* |  |
 | `c2-l044` | &emsp;*as eſpadas.* |  |
 | `c2-l045` | Togǒ. i, Fude. *Pena de Iapão. ¶* Togǒ- |  |
-| `c2-l046` | &emsp;ni atauazu. *Não ha pera q̃ mais eſcreuer.* S. |  |
+| `c2-l046` | &emsp;ni atauazu. *Não ha pera q̃ mais eſcreuer. S.* |  |
 | `c2-l047` | Tǒgocu. *Eſte reino.* |  |
 
 ## Printed signature
