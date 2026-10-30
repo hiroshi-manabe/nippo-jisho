@@ -16,7 +16,7 @@ Secondary lexical reference: *Entry Words Data of Nippojisho*, NINJAL, Hideyuki 
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | *R*ǒrô. *Vt, R*ǒrôiuru. *Eſtar deſterrado,* |  |
+| `c1-l001` | *R*ǒrô. *Vt, R*ǒrôſuru. *Eſtar desterrado,* |  |
 | `c1-l002` | &emsp;*& recolhido ſem ſair a publico, nem ter de-* |  |
 | `c1-l003` | &emsp;*uer com o mundo.* |  |
 | `c1-l004` | *R*ôrôtoxite. *Adu. Modo de eſtar ſolitario,* |  |
@@ -37,9 +37,9 @@ Secondary lexical reference: *Entry Words Data of Nippojisho*, NINJAL, Hideyuki 
 | `c1-l019` | &emsp;yotte, mairu coto canauanu. *Por quanto* |  |
 | `c1-l020` | &emsp;*ſou ja velho, & fraco dos pees não poßo ir.* |  |
 | `c1-l021` | Rǒſui. Voi votorô. *O irſe debilitando, &* |  |
-| `c1-l022` | &emsp;*gaſtandoſe com a velhice.* |  |
-| `c1-l023` | Rotai. Robano fara. *Barriga do asno. S.* |  |
-| `c1-l024` | Rǒtai. i, Toxi yori. *Velho.* |  |
+| `c1-l022` | &emsp;*gaſtando ſe com a velhice.* |  |
+| `c1-l023` | Rotai. Robano fara. B*arriga do asno. S.* |  |
+| `c1-l024` | Rǒtai. i, *T*oxi yori. *Velho.* |  |
 | `c1-l025` | Rôtai. Yagurano vtena. *Caſas altas, ou* |  |
 | `c1-l026` | &emsp;*torres onde mora gente.* |  |
 | `c1-l027` | Rǒtaqe. *Fermuſura. ¶* Rǒtaqetaru võ- |  |
@@ -50,10 +50,10 @@ Secondary lexical reference: *Entry Words Data of Nippojisho*, NINJAL, Hideyuki 
 | `c1-l032` | &emsp;*dar deſagaſalhado como pobre ſem caſa, &c.* |  |
 | `c1-l033` | Rǒuô. Voitaru voqina. *Velho.* |  |
 | `c1-l034` | *R*ǒuoxǒ. *Certa dignidade de Bonzos velhos* |  |
-| `c1-l035` | &emsp;*entre os Ienxus.* |  |
-| `c1-l036` | Rôxa. *Preſo, ou encarcerado.* |  |
+| `c1-l035` | &emsp;*entre os* I*enxus.* |  |
+| `c1-l036` | *R*ôxa. *Preſo, ou encarcerado.* |  |
 | `c1-l037` | Rǒxa. Voitaru mono. *Velho.* |  |
-| `c1-l038` | Roxen. i, Michino tçucai jeni. *Dinheiro, ou* |  |
+| `c1-l038` | Roxen. i, Michino t*ç*ucai jeni. *Dinheiro, ou* |  |
 | `c1-l039` | &emsp;*caxas pera o caminho.* |  |
 | `c1-l040` | Rôxẽ. *Embarcação que tẽ camara, ou varãda.* |  |
 | `c1-l041` | Roxet. i, Michino ſǒ. *Nouas de caminho.* |  |
@@ -78,7 +78,7 @@ Typeface recheck: every capital R was compared individually with the native scan
 | --- | --- | --- |
 | `c2-l001` | Rǒxin. Voitarumi. *Corpo velho, ou can-* |  |
 | `c2-l002` | &emsp;*ſado.* |  |
-| `c2-l003` | Roxit. l, Rôxit. *Polução nocturna em ſonhos.* |  |
+| `c2-l003` | *R*oxit. l, Rôxit. *Polução nocturna em ſonhos.* |  |
 | `c2-l004` | Rǒxô. Voitari, vacaxi. *Velhos, & man-* |  |
 | `c2-l005` | &emsp;*cebos.* |  |
 | `c2-l006` | Rǒxô. Voimatçu. *Pinheiro velho.* |  |
@@ -92,7 +92,7 @@ Typeface recheck: every capital R was compared individually with the native scan
 | `c2-l014` | &emsp;*aos bõs conſelhos que ſão mal ouuidos.* |  |
 | `c2-l015` | Rǒyei. i, Vtauo yomi, guinzuru coto. *Fa* |  |
 | `c2-l016` | &emsp;*zer verſos cantando os, & ſaboreandoſe-* |  |
-| `c2-l017` | &emsp;*nelles. ¶ Item, Hum certo liuro de poeſia.* |  |
+| `c2-l017` | &emsp;*nelles. ¶* I*tem, Hum certo liuro de poeſia.* |  |
 | `c2-l018` | Royen. Irorino camachi. *Paos que poem em* |  |
 | `c2-l019` | &emsp;*quadro nas bordas do fogão da caſa.* |  |
 | `c2-l020` | Rǒyen. i, Aizzuno qemuri. *Fogo que ſe a-* |  |

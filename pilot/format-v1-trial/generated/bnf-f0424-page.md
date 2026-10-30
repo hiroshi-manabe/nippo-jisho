@@ -25,10 +25,10 @@ Secondary lexical reference: *Entry Words Data of Nippojisho*, NINJAL, Hideyuki 
 | `c1-l007` | &emsp;*que eſcaſamente parece.* |  |
 | `c1-l008` | *R*ǒguet. Fogaracana tçuqi. *Lũa clara, &* |  |
 | `c1-l009` | &emsp;*reſplandecente.* |  |
-| `c1-l010` | *R*ôgui. Qera, ari. *Bicho chamado* Q era, *&* |  |
+| `c1-l010` | *R*ôgui. Qera, ari. *Bicho chamado* Qera, *&* |  |
 | `c1-l011` | &emsp;*formiga.* |  |
 | `c1-l012` | *R*oguio. Suzuqino vuo. *Peixe aßi chamado.* |  |
-| `c1-l013` | *R*oguiǔ. *R*oba, vxi. *Aſno, & boy.* |  |
+| `c1-l013` | Roguiǔ. *R*oba, vxi. *Aſno, & boy.* |  |
 | `c1-l014` | *R*ǒguiǔ. Voita vxi. *Vaca, vel boy velho.* |  |
 | `c1-l015` | *R*ǒgo. Voite nochi. *Depois de ſer velho.* |  |
 | `c1-l016` | &emsp;*¶ R*ǒgono vomoide. *Boa vida, ou cõ-* |  |
@@ -39,7 +39,7 @@ Secondary lexical reference: *Entry Words Data of Nippojisho*, NINJAL, Hideyuki 
 | `c1-l021` | *R*ogi. *Caminho eſtreito, & eſcuſo que vai pera* |  |
 | `c1-l022` | &emsp;*a caſa do Chanoyu, &c. Itẽ, Caminho dentro da* |  |
 | `c1-l023` | &emsp;*cerca dalgũa varela por onde ſe vai à cella dal-* |  |
-| `c1-l024` | &emsp;*gum bonzo, ou a outra caſa que eſta dentro.* |  |
+| `c1-l024` | &emsp;*gum bonzo, ou a outra caſa que eſtà dentro.* |  |
 | `c1-l025` | *R*ǒgio. Voitaru vonna. *Molher velha.* |  |
 | `c1-l026` | *R*ǒgiǔ. Toxiyorixu. *Anciãos, ou princi-* |  |
 | `c1-l027` | &emsp;*pais cabeças como os do cõſelho dalgum ſenhor:* |  |
@@ -53,15 +53,15 @@ Secondary lexical reference: *Entry Words Data of Nippojisho*, NINJAL, Hideyuki 
 | `c1-l035` | *R*ôji. *Hũa maneira de ceſto, ou canaſtrinha.* |  |
 | `c1-l036` | *R*oji. Sagui. *Garça.* |  |
 | `c1-l037` | *R*ǒjin. Voita fito. *Velho. ¶ R*ǒjin |  |
-| `c1-l038` | &emsp;tçuyeuo tanomu. *O velho eſtriba no bordão.* |  |
+| `c1-l038` | &emsp;tçu*y*euo tanomu. *O velho eſtriba no bordão.* |  |
 | `c1-l039` | *R*ôjǒ. Xironi comoru. *Eſtar cercado na* |  |
 | `c1-l040` | &emsp;*fortaleza. Vt, R*ôjǒſuru. |  |
 | `c1-l041` | *R*ôju. i, Voiqi. *Aruore velha.* |  |
-| `c1-l042` | *R*ǒjǔ. i, *R*ǒdô. *Criados de caſa dalgi ſenhor.* |  |
-| `c1-l043` | *R*ǒmai. *Matalotagem de arròz.* |  |
+| `c1-l042` | *R*ǒjǔ. i, *R*ǒdô. *Criados de caſa dalgũ ſenhor.* |  |
+| `c1-l043` | *R*ǒmai. *Matalotagem de arroz.* |  |
 | `c1-l044` | *R*omei. Tçuyuno inochi. *Vida breue.* |  |
 | `c1-l045` | *R*ǒmô. Voi foruru. *Velho deſtempado, ou* |  |
-| `c1-l046` | &emsp;*que cedura: ou idade decrepita. Vt,* Rǒ. |  |
+| `c1-l046` | &emsp;*que cedura: ou idade decrepita. Vt,* Rǒ- |  |
 | `c1-l047` | &emsp;mô ſuru. |  |
 
 ## Column 2 running header
@@ -87,7 +87,7 @@ Typeface recheck: every capital R was compared individually with the native scan
 | `c2-l010` | Rongo. *Nome de hum liuro da China que tra-* |  |
 | `c2-l011` | &emsp;*ta de couſas moraes.* |  |
 | `c2-l012` | Rongui. Ronzuru cotcuari. *Diſputa.* |  |
-| `c2-l013` | Ronhacu. Voitari, vacaxi. *Velhos, &* |  |
+| `c2-l013` | Rǒnhacu. Voitari, vacaxi. *Velhos, &* |  |
 | `c2-l014` | &emsp;*mancebos.* |  |
 | `c2-l015` | Rǒni. Voitaru ama. *Molher rapada como* |  |
 | `c2-l016` | &emsp;*freira.* |  |
