@@ -53,7 +53,7 @@ Lexical cross-check after independent reading: NINJAL, Hideyuki Ohshima and Taic
 | `c1-l035` | &emsp;*moido.* |  |
 | `c1-l036` | Runin. i, Nagaſarebito. *Deſterrado.* |  |
 | `c1-l037` | Ruqei. i, Ruzai. *Deſterro por algum crime.* |  |
-| `c1-l038` | Ruren. i, Nagare ariqu. *Andar de cà pera* |  |
+| `c1-l038` | Ruren. i, Nagare ariqu. *Andar decà pera* |  |
 | `c1-l039` | &emsp;*là deſenfadandoſe. ¶ Item, Eſtar fazen-* |  |
 | `c1-l040` | &emsp;*do algũa couſa com o ſentido noutras partes co-* |  |
 | `c1-l041` | &emsp;*mo deſenfadandoſe.* |  |
@@ -82,7 +82,7 @@ Typeface recheck: every capital R was compared individually with the native scan
 | `c2-l004` | &emsp;ſu naru. l, dearu. *Eſtar fora, ou abſente.* |  |
 | `c2-l005` | *R*uſumori. i, *R*uſuno ban. *O que fica guar* |  |
 | `c2-l006` | &emsp;*dando, ou vigiando a caſa.* |  |
-| `c2-l007` | *R*utçǔ. i, Cocoroni vcamuru. *Lembrarſe,* |  |
+| `c2-l007` | *R*utçǔ. i, Cocor*o*ni vcamuru. *Lembrarſe,* |  |
 | `c2-l008` | &emsp;*ou ſaber bem de memoria as couſas.* |  |
 | `c2-l009` | *R*uten. *Rodeo, ou reuolução. Vt,* Xǒji- |  |
 | `c2-l010` | &emsp;ni ruten ſuru. *Tornar a nacer, & morrer* |  |
