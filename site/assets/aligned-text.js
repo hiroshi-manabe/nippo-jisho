@@ -39,6 +39,13 @@
     }
     return segments;
   }
+  function wordSpacing(targetWidth,naturalWidth,characters,fontSize){
+    const gaps=Array.from(characters).filter(c=>! /\p{M}/u.test(c)).length-1;
+    if(gaps<1||naturalWidth<=0)return 0;
+    // Small spacing adjustments only: never stretch the letterforms to fit.
+    const limit=fontSize*.06;
+    return Math.max(-limit,Math.min(limit,(targetWidth-naturalWidth)/gaps));
+  }
   function apply(){
     document.querySelectorAll('.alignment-unavailable').forEach(label=>label.hidden=!prefs.enabled);
     document.querySelectorAll('.aligned-panel').forEach(panel=>{
@@ -54,8 +61,9 @@
       crop.style.marginBottom=prefs.enabled?(8+Math.max(0,prefs.vertical+prefs.size*.25)*scale*factor)+'px':'';
       panel.style.left=crop.offsetLeft+'px';panel.style.top=crop.offsetTop+'px';panel.style.width=crop.offsetWidth+'px';panel.style.height=crop.offsetHeight+'px';
       svg.setAttribute('viewBox',`0 0 ${w} ${h}`);
-      for(const {t,m,px,width} of panel._glyphs){
-        t.setAttribute('textLength',Math.max(3,width));
+      for(const {t,m,px,width,space} of panel._glyphs){
+        t.setAttribute('letter-spacing','0');
+        if(!space)t.setAttribute('letter-spacing',wordSpacing(width,t.getComputedTextLength(),t.textContent,prefs.size));
         const x=m.origin[0]+m.dx[0]*(px+prefs.horizontal)+m.dy[0]*(35+prefs.vertical)-cx;
         const y=m.origin[1]+m.dx[1]*(px+prefs.horizontal)+m.dy[1]*(35+prefs.vertical)-cy;
         t.setAttribute('transform',`matrix(${m.dx[0]} ${m.dx[1]} ${m.dy[0]} ${m.dy[1]} ${x} ${y})`);
@@ -106,7 +114,6 @@
         const t=document.createElementNS(ns,'text');
         t.setAttribute('text-anchor',space?'middle':'start');
         t.setAttribute('font-family',space?'Arial,sans-serif':'Georgia,serif');
-        t.setAttribute('lengthAdjust','spacingAndGlyphs');
         if(space){t.textContent='␣';t.setAttribute('fill','#006bff');}
         else{
           // Normal proportional layout within the word; preserve mixed fonts
@@ -122,7 +129,7 @@
             span.textContent+=item.character;
           }
         }
-        g.append(t);panel._glyphs.push({t,m,px:space?(left+right)/2:left,width:(right-left)*(space ? .8 : 1)});panel._factor=Math.hypot(...m.dy);
+        g.append(t);panel._glyphs.push({t,m,px:space?(left+right)/2:left,width:right-left,space});panel._factor=Math.hypot(...m.dy);
       }
       article.querySelector('.line-crop').after(panel);
     }

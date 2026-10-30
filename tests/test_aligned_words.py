@@ -15,6 +15,14 @@ const assert = require('assert');
 const fs = require('fs');
 const source = fs.readFileSync('site/assets/aligned-text.js', 'utf8');
 eval(source.slice(source.indexOf('  function wordSegments('), source.indexOf('  function apply(')));
+assert.strictEqual(wordSpacing(120,100,'word',26),1.56);
+assert.strictEqual(wordSpacing(80,100,'word',26),-1.56);
+assert.strictEqual(wordSpacing(101.5,100,'word',26),.5);
+assert.strictEqual(wordSpacing(120,100,'R',26),0);
+assert.strictEqual(wordSpacing(120,0,'word',26),0);
+assert.strictEqual(wordSpacing(101,100,'a\u0303b',26),1);
+assert.ok(!source.includes('spacingAndGlyphs'));
+assert.ok(!source.includes("setAttribute('textLength'"));
 const m = {origin:[0,0],dx:[1,0],dy:[0,1]};
 const row = {image_width:100,runs:[{text:'T',typeface:'roman'},{text:'er ab',typeface:'italic'}],
   alignment:[{left:0,width:3},{left:3,width:1},{left:4,width:2},{left:6,width:2},{left:8,width:4},{left:12,width:3}],
