@@ -25,7 +25,7 @@ Lexical cross-check after independent reading: NINJAL, Hideyuki Ohshima and Taic
 | `c1-l007` | &emsp;*proſperidade, & bonança.* |  |
 | `c1-l008` | Sacanobori, ru, otta. *Ir contra a corrente da-* |  |
 | `c1-l009` | &emsp;*goa em algum rio, ou correrem as agoas pera* |  |
-| `c1-l010` | &emsp;*cima com a força da marẽ, &c.* |  |
+| `c1-l010` | &emsp;*cima com a força da marè, &c.* |  |
 | `c1-l011` | Sacaqi. i, Camino mayeni tatçuru qi. *Hũ* |  |
 | `c1-l012` | &emsp;*pao, ou aruore q̃ ſe aleuanta, ou planta diãte* |  |
 | `c1-l013` | &emsp;*dos Camis, ou diante deſua ermida.* |  |
@@ -40,7 +40,7 @@ Lexical cross-check after independent reading: NINJAL, Hideyuki Ohshima and Taic
 | `c1-l022` | Sacari, u, atta. *Vt,* Cuchiga ſacaru. *Sẽ-* |  |
 | `c1-l023` | &emsp;*tir a boca desabrida, & com desſabor dalgũa* |  |
 | `c1-l024` | &emsp;*couſa que ſe come azeda, &c.* |  |
-| `c1-l025` | Sacaſama. l, Sacaſamani. *Adu. Ao reues,* |  |
+| `c1-l025` | Sacaſama. *l*, Sacaſamani. *Adu. Ao reues,* |  |
 | `c1-l026` | &emsp;*ou às aueßas, ou cabeça abaixo.* |  |
 | `c1-l027` | Sacatçubo. *Iarra, ou boyão de vinho.* |  |
 | `c1-l028` | Sacate. *O que ſe paga pollo vinho.* |  |
@@ -85,7 +85,7 @@ Lexical cross-check after independent reading: NINJAL, Hideyuki Ohshima and Taic
 | `c2-l009` | &emsp;cayuru. *Florecer em riquezas.* |  |
 | `c2-l010` | Sacaye, uru, eta. *Meliùs,* Toriſacayuru. *Im-* |  |
 | `c2-l011` | &emsp;*pedir, ou apartaraos que pelejão.* |  |
-| `c2-l012` | Sacayuqi, u. *Ir florecendo, ou proſperando.* |  |
+| `c2-l012` | Sacayuqi, u. I*r florecendo, ou proſperando.* |  |
 | `c2-l013` | &emsp;*Vt,* Miyomo ſacayuqu. *Ir ſe dilatando,* |  |
 | `c2-l014` | &emsp;*& proſperando o imperio.* |  |
 | `c2-l015` | Sacazzuqi. *Taça, ou copo. ¶* Sacazzu- |  |

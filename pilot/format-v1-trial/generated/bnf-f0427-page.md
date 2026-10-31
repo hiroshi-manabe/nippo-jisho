@@ -24,8 +24,8 @@ Lexical cross-check after independent reading: NINJAL, Hideyuki Ohshima and Taic
 | `c1-l006` | Sabi, uru, ita. *Tomar ferrugem o ferro, &c.* |  |
 | `c1-l007` | &emsp;*Vt,* Catanaga ſabita. *A catana esta ferru-* |  |
 | `c1-l008` | &emsp;*genta. ¶ Itẽ, Estar algũa couſa ſolitaria ou* |  |
-| `c1-l009` | &emsp;*deſacompanhada. ¶ Itẽ, per met. Estar* |  |
-| `c1-l010` | &emsp;*algũa couſa ja velha, ou çaſada, &c. ¶* Sa- |  |
+| `c1-l009` | &emsp;*deſacompanhada. ¶* I*tẽ, per met. Estar* |  |
+| `c1-l010` | &emsp;*algũa couſa ja velha, ou çafada, &c. ¶* Sa- |  |
 | `c1-l011` | &emsp;bita tocoro. *Lugar, ou caſa que està ja velha,* |  |
 | `c1-l012` | &emsp;*& danificada.* |  |
 | `c1-l013` | Sabigatana. *Eſpada ferrugenta.* |  |
@@ -42,7 +42,7 @@ Lexical cross-check after independent reading: NINJAL, Hideyuki Ohshima and Taic
 | `c1-l024` | Sacabayaxi. *Ramo feito à maneira de vaſou-* |  |
 | `c1-l025` | &emsp;*ra, que ſe poem às portas das tauernas. No* |  |
 | `c1-l026` | &emsp;*Ximo ſe diz Fote.* |  |
-| `c1-l027` | Sacabiǒxi. *Compaßo ou modo de tanger deſcom* |  |
+| `c1-l027` | Sacabiǒxi. *Compaßo, ou modo de tanger deſcom* |  |
 | `c1-l028` | &emsp;*paßado, ou deſordenado ſem conſonancia.* |  |
 | `c1-l029` | Sacabucuro. *Saco por onde ſe coa o arroz que* |  |
 | `c1-l030` | &emsp;*eſtà ja feito em vinho.* |  |
@@ -55,8 +55,8 @@ Lexical cross-check after independent reading: NINJAL, Hideyuki Ohshima and Taic
 | `c1-l037` | Sacague. *Mostras, ou reliquias deter bebido vi-* |  |
 | `c1-l038` | &emsp;*nho. ¶* Iccǒ ſacaguenimo vorinai. Mon. |  |
 | `c1-l039` | &emsp;*Por nenhum caſo tenho bebido vinho, nẽ ras* |  |
-| `c1-l040` | &emsp;*to, ou ſinal delleha em mĩ.* |  |
-| `c1-l041` | Sacagu. *Cabelos da cabeça, que nacem aoreues.* |  |
+| `c1-l040` | &emsp;*to, ou ſinal delle ha em mĩ.* |  |
+| `c1-l041` | Sacagu. *Cabelos da cabeça, que nacem ao reues.* |  |
 | `c1-l042` | Sacago. *Criança, que nace às aueſas. i, Com* |  |
 | `c1-l043` | &emsp;*os pès diante.* |  |
 | `c1-l044` | Sacagura. *Adega de vinho.* |  |
@@ -91,9 +91,9 @@ Lexical cross-check after independent reading: NINJAL, Hideyuki Ohshima and Taic
 | `c2-l009` | Sacairon. *Contenda ſobre a demarcação das* |  |
 | `c2-l010` | &emsp;*terras, do chão das caſas, &c.* |  |
 | `c2-l011` | Sacaivadan. *Pazes, ou concertos, que fa-* |  |
-| `c2-l012` | &emsp;*zem os que confinão, ouſão vizinhos ſobre os* |  |
+| `c2-l012` | &emsp;*zem os que confinão, ou ſão vizinhos ſobre os* |  |
 | `c2-l013` | &emsp;*limites do chão, terras, &c.* |  |
-| `c2-l014` | Sacama. *Contra marè, ou rolheiros da marẽ.* |  |
+| `c2-l014` | Sacama. *Contra marè, ou rolheiros da marè.* |  |
 | `c2-l015` | Sacamacu. *Vt,* Sacamacu nami. l, miz- |  |
 | `c2-l016` | &emsp;zu. *Ondas, ou agoas, que correm encon-* |  |
 | `c2-l017` | &emsp;*tradas, ou pera tras como rolheiros.* |  |

@@ -26,13 +26,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l010` | &emsp;*Eſtar o peixe, ou carne hum pouco ſentida, ou* |  |
 | `c1-l011` | &emsp;*com principios de corrupção.* |  |
 | `c1-l012` | Sagaribarano co. *Filhoillegitimo, ou de mo-* |  |
-| `c1-l013` | &emsp;*lher que não he a propria.* B. |  |
+| `c1-l013` | &emsp;*lher que não he a propria. B.* |  |
 | `c1-l014` | Sagarifa. *Modo de tanger nos autos, ou dan-* |  |
-| `c1-l015` | &emsp;*ças atempo que ſayem algũas figuras, ou mui-* |  |
+| `c1-l015` | &emsp;*ças a tempo que ſayem algũas figuras, ou mui-* |  |
 | `c1-l016` | &emsp;*tas juntas,* |  |
 | `c1-l017` | Sagaxi, ſu, aita. *Eſcudrinhar, ou buſcar cõ* |  |
 | `c1-l018` | &emsp;*diligencia. Vt,* Benqei amarino canaxi- |  |
-| `c1-l019` | &emsp;ſani voiuo acacayexi fita ſagaxini ſagai- |  |
+| `c1-l019` | &emsp;ſani voiuo azacayexi fita ſagaxini ſagai- |  |
 | `c1-l020` | &emsp;tareba, &c. Tog. *Benquei com a muita* |  |
 | `c1-l021` | &emsp;*triſteza reuoluendo a caxa de cima pera baixo,* |  |
 | `c1-l022` | &emsp;*& não fazendo ſe não buſcar.* |  |
@@ -49,7 +49,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l033` | &emsp;*buſcar per diuerſas partes.* |  |
 | `c1-l034` | Sague, uru, eta. *Abaixar. ¶* Atama- |  |
 | `c1-l035` | &emsp;uo ſaguru. *Abaixar a cabeça humilhandoſe* |  |
-| `c1-l036` | &emsp;*& ſujei tandoſe, ou por outroreſpeito. ¶* Fi- |  |
+| `c1-l036` | &emsp;*& ſujei tandoſe, ou por outro reſpeito. ¶* Fi- |  |
 | `c1-l037` | &emsp;touo ſaguru. *Humilhar, abaixar, ou abater* |  |
 | `c1-l038` | &emsp;*a alguem.* |  |
 | `c1-l039` | Sague guiri. *Modo de cortar pera baixo.* |  |
@@ -72,7 +72,7 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c2-l001` | &emsp;*ou conſiderar a alguem, ou ponderar ſuas qua-* |  |
-| `c2-l002` | &emsp;*lidades, ou interior, &c. às vezes ſe toma por* |  |
+| `c2-l002` | &emsp;*lidades, ou interior, &c. âs vezes ſe toma por* |  |
 | `c2-l003` | &emsp;*ver, & penetrar alguẽ tẽdo delle menos cõceito.* |  |
 | `c2-l004` | Sagueſumi. *Conjetura. Vt,* Sagueſumiuo |  |
 | `c2-l005` | &emsp;ſuru. *Conjeturar, ou ponderar.* |  |
@@ -87,14 +87,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l013` | &emsp;ta. *Estarem ja acabados os melões, ou ter* |  |
 | `c2-l014` | &emsp;*paſſada a força delles. ¶* Saguiuri. *Me-* |  |
 | `c2-l015` | &emsp;*lões ruins, e magrentos, depois de paſſar ja o* |  |
-| `c2-l016` | &emsp;*tempo, e força dos melões.* X. |  |
+| `c2-l016` | &emsp;*tempo, e força dos melões. X.* |  |
 | `c2-l017` | Saguichǒ. *Ceremonia gentilica que ſe faz no* |  |
 | `c2-l018` | &emsp;xǒguachi, *fazendo hũa fogueira diante da* |  |
 | `c2-l019` | &emsp;*caſa em que queimão varias couſas.* |  |
 | `c2-l020` | Sagueô. Naſu vaza. *Obras, vida, ou custumes.* |  |
 | `c2-l021` | Saguiuri. *Vide ſuprà,* Sagui. |  |
-| `c2-l022` | Sagoromo. i, coromo. *Vestido.* P. |  |
-| `c2-l023` | Saguri, u, utta. *Apalpar, ou tocar.* |  |
+| `c2-l022` | Sagoromo. *i*, coromo. *Vestido.* P. |  |
+| `c2-l023` | Saguri, u, utta. *A palpar, ou tocar.* |  |
 | `c2-l024` | Sai. *Induſtria, l, ſaber. Vt,* Saiaru fito. *Ho-* |  |
 | `c2-l025` | &emsp;*mem que tem ſaber, & induſtria.* |  |
 | `c2-l026` | Sai. *Iguaria depeixe, carne, eruas, &c. ti-* |  |
