@@ -26,7 +26,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l010` | Saichi. *Induſtria, & ſaber.* |  |
 | `c1-l011` | Saichǔ. Monaca. *Meo, força, & feruor dal-* |  |
 | `c1-l012` | &emsp;*gũa couſa. ¶* Caxxenno ſaichǔni. *No-* |  |
-| `c1-l013` | &emsp;*meo, & feruor da batalha. ¶* Gacumǒno- |  |
+| `c1-l013` | &emsp;*meo, & feruor da batalha. ¶* Gacumõno- |  |
 | `c1-l014` | &emsp;ſaichǔni. *Nomeo, & força do eſtudo. ¶* Fu |  |
 | `c1-l015` | &emsp;yuno ſaichǔ. *Coração do inuerno.* |  |
 | `c1-l016` | Saicô. Futatabi vocoſu. *Reedificar, ou* |  |
@@ -100,7 +100,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l025` | &emsp;*muito eminente, & excelente.* |  |
 | `c2-l026` | Saijen. i, Ijen. *Antes. Vt,* Saijenyo- |  |
 | `c2-l027` | &emsp;rimǒſugotocu. *Aßi como digo dantes.* |  |
-| `c2-l028` | Saiji. i, Toqi. *Horas do comer, ou jantar* |  |
+| `c2-l028` | Saiji. i, Toqi. *Horas do comer, ou* j*antar* |  |
 | `c2-l029` | &emsp;*dos Bonzos. S. ¶* Saijini fanuo qiſſu. |  |
 | `c2-l030` | &emsp;*Comerem os Bonzos, ou jantarem a ſua hora,* |  |
 | `c2-l031` | &emsp;*que ſera perto daſdez.* |  |
@@ -118,7 +118,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l043` | &emsp;ua nanto mǒſuca. *Como he o nome* |  |
 | `c2-l044` | &emsp;*de rapado?* |  |
 | `c2-l045` | Saimit. Comacani qibixij. *Couſa miuda, &* |  |
-| `c2-l046` | &emsp;*riguroſa. Vt,* Saimitni qiǔmeuo togu- |  |
+| `c2-l046` | &emsp;*riguroſa. Vt,* Saimitni qiǔmeiuo togu- |  |
 | `c2-l047` | &emsp;ru. *Iulgar com rigor, & exacção. S.* |  |
 
 ## Printed page number

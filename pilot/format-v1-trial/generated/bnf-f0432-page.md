@@ -61,7 +61,7 @@ Review sources: Native scan, Bibliothèque nationale de France / Gallica. Second
 | `c1-l043` | &emsp;*gem a algũa couſa, &c.* |  |
 | `c1-l044` | Saiſui. Comacani cudaqu. *Muitomiuda, ou* |  |
 | `c1-l045` | &emsp;*encarecidamente. Vt,* Saiſui mǒxi qica- |  |
-| `c1-l046` | &emsp;xe ſoro. *Diße ho muito miuda, & difuſa-* |  |
+| `c1-l046` | &emsp;xe ſoro. *Dißelho muito miuda, & difuſa-* |  |
 | `c1-l047` | &emsp;*mente.* |  |
 
 ## Column 2 running header
@@ -81,7 +81,7 @@ Review sources: Native scan, Bibliothèque nationale de France / Gallica. Second
 | `c2-l005` | &emsp;*& regulares, mas tem molher.* |  |
 | `c2-l006` | Saitan. Futatabi vmaruru. *O naſcer a ſegunda* |  |
 | `c2-l007` | &emsp;*vez neſte mundo como imaginão os gentios.* |  |
-| `c2-l008` | &emsp;*V. G.* Monjuno ſaitan gia. *Diz ſe de* |  |
+| `c2-l008` | &emsp;*V. G. M*onjuno ſaitan gia. *Diz ſe de* |  |
 | `c2-l009` | &emsp;*hum homem muito ſabio, ou letrado no qual pa-* |  |
 | `c2-l010` | &emsp;*rece que tornou a nacer aquelle diſcipulo muito* |  |
 | `c2-l011` | &emsp;*docto de Xaca.* |  |
@@ -91,7 +91,7 @@ Review sources: Native scan, Bibliothèque nationale de France / Gallica. Second
 | `c2-l015` | Saitǒ. Nagatana. *Faca pera cortar nabos,* |  |
 | `c2-l016` | &emsp;*& outras eruas.* |  |
 | `c2-l017` | Saitô. *Hũa maneira de ſelha em que ſe mete o* |  |
-| `c2-l018` | &emsp;*comer cortado, ou iguarias q̃ ão de ſair a meſa.* |  |
+| `c2-l018` | &emsp;*comer cortado, ou iguarias q̃ ão de ſair à meſa.* |  |
 | `c2-l019` | Sai v. Comacana ame. *Chuua miuda. S.* |  |
 | `c2-l020` | Saiuai. *Oportunidade.* |  |
 | `c2-l021` | Saiuaina. *Couſa oportuna, ou que vem apro-* |  |
@@ -110,7 +110,7 @@ Review sources: Native scan, Bibliothèque nationale de France / Gallica. Second
 | `c2-l034` | Saixi. Tçuma, co. *Molher, & filhos.* |  |
 | `c2-l035` | Saixin. Futatabi ſuſumu. *O dar arroz,* |  |
 | `c2-l036` | &emsp;*ou Xiru que ſe dà duas, ou tres vezes na meſa,* |  |
-| `c2-l037` | &emsp;*Vt,* Saixinuo motte maire. *Traze arroz* |  |
+| `c2-l037` | &emsp;*Vt,* Saixinuo motte maire. T*raze arroz* |  |
 | `c2-l038` | &emsp;*pera prouer os Goquis a ſegunda, ou 3. vez.* |  |
 | `c2-l039` | Saixinbachi. *Vaſo, em que trazem eſte ar-* |  |
 | `c2-l040` | &emsp;*roz cozido à meſa.* |  |
