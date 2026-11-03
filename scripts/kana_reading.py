@@ -170,8 +170,9 @@ def transliterate_token(token: str) -> str | None:
             consonant, index = text[index], index + 1
             # As in contemporary Portuguese spelling, the u in Japanese
             # ``gue``/``gui`` is normally orthographic rather than a separate
-            # vowel: Xiraſagui is *shirasagi*, not *shirasagui*.
-            if consonant == "g" and index + 1 < len(text) and text[index] == "u" and text[index + 1] in "ie":
+            # vowel, including marked e/i: guẽzai is ゲンザイ.
+            if (consonant == "g" and text[index:index + 1] == "u"
+                    and (after_u := vowel_at(text, index + 1)) and after_u[0] in "ei"):
                 index += 1
                 orthographic_u_after_g = True
         elif (vowel := vowel_at(text, index)):

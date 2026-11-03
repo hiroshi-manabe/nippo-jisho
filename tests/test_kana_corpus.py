@@ -41,6 +41,8 @@ class KanaCorpusTests(unittest.TestCase):
                                 ('Amayegui', 'アマエギ'), ('Iaregui', 'ジャレギ'),
                                 ('iaregui', 'イアレギ'),
                                 ('Xiraſagui', 'シラサギ'), ('Catagui', 'カタギ'),
+                                ('guẽzai', 'ゲンザイ'), ('guĩ', 'ギン'),
+                                ('guê', 'ゲェ'), ('guẽ', 'ゲン'),
                                 ('guio', 'ギョ'), ('giu', 'ヂュ')]:
             with self.subTest(token=token):
                 self.assertEqual(transliterate_token(token), expected)
