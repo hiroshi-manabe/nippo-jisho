@@ -14,7 +14,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | Sangiǔcǒ. Bup. *Tres graos ſupremos de que* |  |
+| `c1-l001` | Sangiǔcǒ. *B*up. *Tres graos ſupremos de que* |  |
 | `c1-l002` | &emsp;*ſe fala no Buppò.* |  |
 | `c1-l003` | Sangiǔin. *Liuro aßi chamado, como voca-* |  |
 | `c1-l004` | &emsp;*bulario deletras.* |  |
@@ -22,23 +22,23 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l006` | &emsp;jen. *Depois, & antes do parto.* |  |
 | `c1-l007` | Sango. Tama tama. i, Meixuno na. *Pe-* |  |
 | `c1-l008` | &emsp;*dra precioſa aßi chamada.* |  |
-| `c1-l009` | Sangô. Mitçuno xiuaza. *Tres obras, ou* |  |
+| `c1-l009` | Sangô. Mitçuno xiuaza. T*res obras, ou* |  |
 | `c1-l010` | &emsp;*operaçoens dos olhos, ouuidos, & lingua.* |  |
-| `c1-l011` | &emsp;*Vt,* Sangô xizzumete cono qiǒuo docu- |  |
+| `c1-l011` | &emsp;*Vt,* Sang*ô* xizzumete cono qiǒuo docu- |  |
 | `c1-l012` | &emsp;ju ſubexitote. Taif. *Lib. 20. Aquie* |  |
 | `c1-l013` | &emsp;*tando os olhos, ouuidos, & lingua. i, com* |  |
 | `c1-l014` | &emsp;*atenção lereis eſte liuro.* |  |
 | `c1-l015` | Sangocu. Mitçuno cuni. i, Tǒdo, Tengicu, |  |
-| `c1-l016` | &emsp;Vagachô. *Tresreinos. ſ. China, Sião, Ia-* |  |
+| `c1-l016` | &emsp;Vagachô. T*res reinos. ſ. China, Sião, Ia-* |  |
 | `c1-l017` | &emsp;*pão.* |  |
 | `c1-l018` | Sangǔ. *Vt,* Ixe ſangǔ. *Ir a Tenxǒ daijin* |  |
-| `c1-l019` | &emsp;*que he hum Cami de grande romaria que eſta no* |  |
+| `c1-l019` | &emsp;*que he hum Cami de grande romaria que eſtà no* |  |
 | `c1-l020` | &emsp;*reino de Ixe.* |  |
 | `c1-l021` | Sangue. Fagi cuyamu. *O confeßar, & ma-* |  |
 | `c1-l022` | &emsp;*nifeſtar. ¶* Zaixǒuo ſangue ſuru. *Con-* |  |
 | `c1-l023` | &emsp;*feßar, ou deſcobrir os peccados.* |  |
 | `c1-l024` | Sangue. Yamano xita. *Ao pee do monte.* |  |
-| `c1-l025` | Sangueô. Mitçuno voxiye. *Tres doctrinas.* |  |
+| `c1-l025` | Sangueô. Mitçuno voxiye. *Tres doctrinas* |  |
 | `c1-l026` | &emsp;*de tres meſtres, ou philoſophos antiguos. ſ.* |  |
 | `c1-l027` | &emsp;Xaca, Rǒxi, Côxi. |  |
 | `c1-l028` | Sangui. *Paoſinhos, ou tentos das ſortes, ou cõtas.* |  |
@@ -51,7 +51,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l035` | Sanje. *Tres tempos. ſ.* Quaco, guẽzai, |  |
 | `c1-l036` | &emsp;mirai. *Paßado, preſente, & futuro.* |  |
 | `c1-l037` | Sanjen. i, Sangacu. *O entrar a tomar os põtos* |  |
-| `c1-l038` | &emsp;*da meditação dosIenxùs, ou os meſmos pontos.* |  |
+| `c1-l038` | &emsp;*da meditação dos* I*enxùs, ou os meſmos pontos.* |  |
 | `c1-l039` | Sanjen. *Antes do parto.* |  |
 | `c1-l040` | Sanjen. Cacayaqi, u. *Reſplandecer. S.* |  |
 | `c1-l041` | Sanji, zuru, ita. Chiraxi, ſu. *Deſabafar.* |  |
@@ -91,7 +91,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l010` | &emsp;*cimento, ou lugar onde a molher pario.* |  |
 | `c2-l011` | Sanjuno Iingui. *Tres peças eſtimadas como te-* |  |
 | `c2-l012` | &emsp;*ſouro dos reis de Iapão. ſ.* Xinxi, fôqen, nai- |  |
-| `c2-l013` | &emsp;xidocoro: *que vide ſuo loco.* |  |
+| `c2-l013` | &emsp;xidocoro: *quæ vide ſuo loco.* |  |
 | `c2-l014` | Sanmai. Facadocoro. *Adro, ou cemiterio.* |  |
 | `c2-l015` | Sanman. Chiri, fabicoru. *Modo de cairem* |  |
 | `c2-l016` | &emsp;*muitas flores, ou folhas de aruores muito baſtas,* |  |
@@ -106,7 +106,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l025` | &emsp;*poſtas. i, Tres exames que ſe fazem diante* |  |
 | `c2-l026` | &emsp;*do juiz antre o reo, & autor pera aueriguar* |  |
 | `c2-l027` | &emsp;*a demanda.* |  |
-| `c2-l028` | Sanmon. *Portal, ou porta principal, que hà* |  |
+| `c2-l028` | Sanmon. P*ortal, ou porta principal, que hà* |  |
 | `c2-l029` | &emsp;*nas varelas dos Ienxùs com ſobrado em cima.* |  |
 | `c2-l030` | Sanmon. *Vt,* Sanmonno xuto. *Bonzos de* |  |
 | `c2-l031` | &emsp;*Fiyeno yama.* |  |
@@ -122,7 +122,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l041` | &emsp;*rar, ou reuerenciar. ¶* Sanpai ſuru. *Fa-* |  |
 | `c2-l042` | &emsp;*zer tres adoraçoens, ou reuerencias.* |  |
 | `c2-l043` | Sanpai. Mairi vogamu. *Indo reuerenciar.* |  |
-| `c2-l044` | &emsp;*¶* Sanpaiuo motte mǒxi agubequiſoro. |  |
+| `c2-l044` | &emsp;*¶* Sanpaiuo motte mǒxi agubequ ſoro. |  |
 | `c2-l045` | &emsp;*Falarei quando for abeijar as mãos de V. M.* |  |
 | `c2-l046` | Sanpiǒxi. *Conſonancia, ou armonia que ſe faz* |  |
 | `c2-l047` | &emsp;*com tres couſas. ſ. Frauta, tabaquinho, &* |  |
