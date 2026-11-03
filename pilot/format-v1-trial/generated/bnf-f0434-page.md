@@ -37,7 +37,7 @@ Review sources: Native scan, Bibliothèque nationale de France / Gallica. Second
 | `c1-l019` | Sanca. *Oir a algũa parte em andas. S.* |  |
 | `c1-l020` | Sanca. Yamano iye. *Caſas dos montes, ou* |  |
 | `c1-l021` | &emsp;*que eſtão nos campos. S.* |  |
-| `c1-l022` | Sanca. l, xenga. Yama, caua. *Mõtes, & rios.* |  |
+| `c1-l022` | Sanca. *l*, xenga. Yama, caua. *Mõtes, & rios.* |  |
 | `c1-l023` | Sanca. Mairu itoma. *Licẽça pera ir fora. S.* |  |
 | `c1-l024` | Sancacu. Miſumi. *Triangulo, ou couſas de* |  |
 | `c1-l025` | &emsp;*tres cantos.* |  |
@@ -59,8 +59,8 @@ Review sources: Native scan, Bibliothèque nationale de France / Gallica. Second
 | `c1-l041` | Sanchǔ. Yamano vchi. *Dentro nos matos, l,* |  |
 | `c1-l042` | &emsp;*deſerto. Item, no Ximo, Desterro. Vt,* San- |  |
 | `c1-l043` | &emsp;chǔ ſuru. *Ser desterrado.* |  |
-| `c1-l044` | Sanchǔ jin. *Desterrado.* X. |  |
-| `c1-l045` | Sanco. Mitçu no to. i, Me, mimi, cuchi. |  |
+| `c1-l044` | Sanchǔ jin. *Desterrado. X.* |  |
+| `c1-l045` | Sanco. Mitçu no to. *i*, Me, mimi, cuchi. |  |
 | `c1-l046` | &emsp;*Tres portas dos ſentidos. ſ. olhos, ouuidos, boca.* |  |
 | `c1-l047` | &emsp;*Vt,* Sancouo fiſomuru. *Tapar as tres por* |  |
 
@@ -80,7 +80,7 @@ Review sources: Native scan, Bibliothèque nationale de France / Gallica. Second
 | `c2-l004` | Sancǒ. Yamauo yuqu. *O paßar, l, andar* |  |
 | `c2-l005` | &emsp;*pollos montes. S.* |  |
 | `c2-l006` | Sancô. *Ir praticar com algũa peßoa de reſpeito.* |  |
-| `c2-l007` | Sancǒ. Mitçuno vôzzuna. i, cunxin, fu- |  |
+| `c2-l007` | Sancǒ. Mitçuno vôzzuna. *i*, cunxin, fu- |  |
 | `c2-l008` | &emsp;xi, fǔfu. *Tres grãdes lianças. ſ. de ſenhor* |  |
 | `c2-l009` | &emsp;*& criado, pay & filho, marido, & molher.* |  |
 | `c2-l010` | Sanco. l, ſango. *Hũ instrumento de metalque* |  |
@@ -90,7 +90,7 @@ Review sources: Native scan, Bibliothèque nationale de France / Gallica. Second
 | `c2-l014` | Sandai. Bup. Mitçuno tai. *Tres ſubstancias* |  |
 | `c2-l015` | &emsp;*de que ſe fala no Buppô.* |  |
 | `c2-l016` | Sandai. Dairini mairu. *Ir ao paço do Rey.* |  |
-| `c2-l017` | Sandaixǔ. *Hum liuro de poeſia de Iapão.* |  |
+| `c2-l017` | Sandaixǔ. *Hum liuro de poeſia de* I*apão.* |  |
 | `c2-l018` | Sandan. Fome cataru. *Falar bẽ, & tratar dal-* |  |
 | `c2-l019` | &emsp;*gũa couſa com louuor: posto que comummente* |  |
 | `c2-l020` | &emsp;*ſe toma por falar, ou tratar dalgũa couſa.* |  |
@@ -101,23 +101,23 @@ Review sources: Native scan, Bibliothèque nationale de France / Gallica. Second
 | `c2-l025` | &emsp;*ſe chamão tres peçonhas.* |  |
 | `c2-l026` | Sandoiri. *Certa feição de testo de barro.* |  |
 | `c2-l027` | Sane. *Caroço, ou peuide de fruita.* |  |
-| `c2-l028` | Sane. *Ferros vraxados de preto como cabeças* |  |
+| `c2-l028` | Sane. *Ferros vruxados de preto como cabeças* |  |
 | `c2-l029` | &emsp;*de prègos das armas, entre os quaes fazem aie-* |  |
 | `c2-l030` | &emsp;*cedura de varias cores.* |  |
 | `c2-l031` | Sanecazzura. *Hũa erua como era.* |  |
 | `c2-l032` | Sanga. l, Xenga. Yama, caua. *Montes, rios.* |  |
-| `c2-l033` | Sangacu. i. Ienxǔno ſatoriuo manabu coto. |  |
+| `c2-l033` | Sangacu. *i.* Ienxǔno ſatoriuo manabu coto. |  |
 | `c2-l034` | &emsp;*O ir tomar os põtos de meditação a certas horas* |  |
-| `c2-l035` | &emsp;*do mestre dos Ienxus. ¶ Item, Os pontos, ou* |  |
+| `c2-l035` | &emsp;*do mestre dos* I*enxus. ¶ Item, Os pontos, ou* |  |
 | `c2-l036` | &emsp;*meditaçõẽs da ſeitasdos Iẽxùs. ¶* Sãgacu ſuru. |  |
 | `c2-l037` | &emsp;*Aprender estas meditações.* |  |
 | `c2-l038` | Sangacu. Yama, voca. *Monte, & outeirinho,* |  |
 | `c2-l039` | &emsp;*ou morro.* |  |
 | `c2-l040` | Sangai. Bup. Mitçuno cai. ſ. Yoccai, xi- |  |
-| `c2-l041` | &emsp;qicai, muxiqi cai. *Tres maneiras de mũ-* |  |
+| `c2-l041` | &emsp;qicai, muxiqi cai. T*res maneiras de mũ-* |  |
 | `c2-l042` | &emsp;*dos de que ſe fala no Buppô.* |  |
-| `c2-l043` | Sanga nichi. *Tres dias. ¶* Xǒguachiſã- |  |
-| `c2-l044` | &emsp;g nichi. *Tres dias primeiros do Xǒguachi,* |  |
+| `c2-l043` | Sanga nichi. *Tres dias. ¶* Xǒguachi ſã- |  |
+| `c2-l044` | &emsp;ganichi. *Tres dias primeiros do Xǒguachi,* |  |
 | `c2-l045` | &emsp;*em que ſe faz feſta.* |  |
 | `c2-l046` | Sangin. Cinye mairu. *Ir, ou partirſe pera* |  |
 | `c2-l047` | &emsp;*aguerra, ou pera onde eſta o exercito quando* |  |

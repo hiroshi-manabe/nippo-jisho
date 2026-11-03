@@ -27,18 +27,18 @@ Review sources: Native scan, Bibliothèque nationale de France / Gallica. Second
 | `c1-l009` | Saji. *Colher.* |  |
 | `c1-l010` | Sajiqi. Tanauo xiqu. *Palanque, ou lugar ſe-* |  |
 | `c1-l011` | &emsp;*parado donde ſe vee o auto.* |  |
-| `c1-l012` | Sama. *Ianela.* X. |  |
+| `c1-l012` | Sama. *Ianela. X.* |  |
 | `c1-l013` | Sama. *Palaura, que ſe vſa pera honrar no cabo* |  |
 | `c1-l014` | &emsp;*dos nomes das peßoas como merce, ſenhoria,* |  |
 | `c1-l015` | &emsp;*&c. Vt,* Tonoſama. *O ſenhor Tono. ¶* Pa- |  |
-| `c1-l016` | &emsp;dreſama. *Reuerendo Padre. ¶* Vyeſa- |  |
+| `c1-l016` | &emsp;*d*reſama. *Reuerendo Padre. ¶* Vyeſa- |  |
 | `c1-l017` | &emsp;ma. *O ſenhor da Tenca.* |  |
 | `c1-l018` | Sama. *Maneira, feição, &c. ¶* Samauo |  |
 | `c1-l019` | &emsp;cayuru. *Mudar o trajo, ou disfraçarſe.* |  |
-| `c1-l020` | Samade. i, Safodo. *Tanto como ißo.* |  |
+| `c1-l020` | Samade. i, Safodo. T*anto como ißo.* |  |
 | `c1-l021` | Samagoxi. *Grades de janella.* |  |
 | `c1-l022` | Samari. *Particula que ſe vſa reprendendo, ou* |  |
-| `c1-l023` | &emsp;*almirandoſe.* B. |  |
+| `c1-l023` | &emsp;*almirandoſe. B.* |  |
 | `c1-l024` | Samatague, uru, eta. *Impedir, ou fazer eſ-* |  |
 | `c1-l025` | &emsp;*toruo.* |  |
 | `c1-l026` | Samatague. *Impedimento, ou estoruo.* |  |
@@ -95,12 +95,12 @@ Review sources: Native scan, Bibliothèque nationale de France / Gallica. Second
 | `c2-l013` | Samo. *Aduer. Aßi. Vt,* Samo are. *Se-* |  |
 | `c2-l014` | &emsp;*ja aßi. ¶* Samo araba are. *Seja como* |  |
 | `c2-l015` | &emsp;*quer que for. ¶* Samo vomoxiroi. *O q̃* |  |
-| `c2-l016` | &emsp;*couſa pera ver, ou tam apraziuel!* |  |
+| `c2-l016` | &emsp;*couſa pera ver, ou tam apraziuel.* |  |
 | `c2-l017` | Samui. *O ter, ou fazer frio. Item, couſa fria.* |  |
 | `c2-l018` | &emsp;*Vt,* Samui jibun. *Tempo frio.* |  |
 | `c2-l019` | &emsp;Samuſa. |  |
 | `c2-l020` | &emsp;Samǔ. |  |
-| `c2-l021` | Samumi. P. *Couſa fria, ou o ter frio.* |  |
+| `c2-l021` | Samumi. *P. Couſa fria, ou o ter frio.* |  |
 | `c2-l022` | Samuxiro. P. i, Muxiro. *Eſteira.* |  |
 | `c2-l023` | San. Mitçu. *Numero de tres.* |  |
 | `c2-l024` | San. Cangayuru. *Contas dalgariſmo.* |  |
@@ -124,7 +124,7 @@ Review sources: Native scan, Bibliothèque nationale de France / Gallica. Second
 | `c2-l042` | &emsp;chicuxǒ. |  |
 | `c2-l043` | Sanagara. *Adu. Sem tirar nem por, ou nem* |  |
 | `c2-l044` | &emsp;*mais nem menos.* |  |
-| `c2-l045` | Sanaye. P. Ineno naye. *Arroz que eſtá* |  |
+| `c2-l045` | Sanaye. *P.* Ineno naye. *Arroz que eſtá* |  |
 | `c2-l046` | &emsp;*nacido de pouco em erua pera ſe deſpor.* |  |
 | `c2-l047` | Sanbiǒ. *Tres doenças. ſ.* Raibiǒ, cutçu- |  |
 
