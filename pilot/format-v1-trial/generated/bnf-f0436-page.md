@@ -25,7 +25,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l009` | &emsp;*clarar, nem eſcreuer, & eſgotar por pena.* |  |
 | `c1-l010` | Sanpucu. *Vt,* Qiǔca ſanpucu. *Tempo* |  |
 | `c1-l011` | &emsp;*mais calmoſo do eſtio.* |  |
-| `c1-l012` | Sanpugiô. i, Xi, facu, giôni tonzuru coto. |  |
+| `c1-l012` | Sanpugiô. i, Xu, facu, giôni tonzuru coto. |  |
 | `c1-l013` | &emsp;*Darſe muito ao vinho, jogo, & molheres.* |  |
 | `c1-l014` | Sanqei. *Ir à Tera, ou Ermida dos Camis. Vt,* |  |
 | `c1-l015` | &emsp;Teraye ſanqei ſuru. |  |
@@ -34,7 +34,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l018` | Sanqiojin. *Ermitão, ou homem que faz pe-* |  |
 | `c1-l019` | &emsp;*nitencia no deſerto.* |  |
 | `c1-l020` | Sanqionin. *Idem.* |  |
-| `c1-l021` | Sanqirai. *Pao da china. ¶* Sanqiraiuo |  |
+| `c1-l021` | Sanqirai. *Pao da China. ¶* Sanqiraiuo |  |
 | `c1-l022` | &emsp;nomu. *Tomar a agoa do pao.* |  |
 | `c1-l023` | Sanqua. Yamano fana. *Roſas, ou flores do* |  |
 | `c1-l024` | &emsp;*mato.* |  |
@@ -44,13 +44,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l028` | Sanquanrei. *Tres familias nobres de Iapão.* |  |
 | `c1-l029` | &emsp;*ſ.* Buyei, Foſocaua, Fataqeyama. |  |
 | `c1-l030` | Sanquǒ. Mitçuno ſuberagui. *Tres reis da* |  |
-| `c1-l031` | &emsp;*China. ſ.* Fucqi, Xinuô, Quǒei. |  |
+| `c1-l031` | &emsp;*China. ſ.* Fucqi, Xinuô, Quǒtei. |  |
 | `c1-l032` | Sanquǒ. Mitçuno ficari. *Tres claridades,* |  |
-| `c1-l033` | &emsp;*ou lumieiras. ſ. Sol, lũa, eſtrelas. Vt,* Iic- |  |
+| `c1-l033` | &emsp;*ou lumieiras. ſ. Sol, lũa, eſtrelas. Vt,* Iit- |  |
 | `c1-l034` | &emsp;guet, xeino ſanquǒ. |  |
-| `c1-l035` | Sanrai. *Tres adorações, cu reuerencias. Vi-* |  |
-| `c1-l036` | &emsp;*de* Sanpai. |  |
-| `c1-l037` | Sanran. Yama araxi. *Refega de vento dos* |  |
+| `c1-l035` | Sanrai. *Tres adorações, ou reuerencias. Vi-* |  |
+| `c1-l036` | &emsp;*de S*anpai. |  |
+| `c1-l037` | Sanran. Yama araxi. *Refèga de vento dos* |  |
 | `c1-l038` | &emsp;*montes.* |  |
 | `c1-l039` | Sanran. Chiri midaruru. *O cair das folhas* |  |
 | `c1-l040` | &emsp;*das aruores, ou flores em quantidade eſpalhã-* |  |
@@ -81,20 +81,20 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l007` | Sanrǒ. *Homem que habita nos matos. Vt,* Ya- |  |
 | `c2-l008` | &emsp;rǒ ſanrǒmo mina yorocobu. *Os rusticos* |  |
 | `c2-l009` | &emsp;*do campo, & dos montes todos ſe alegram.* |  |
-| `c2-l010` | Sanrô. Mairi comoru. *Indo a algũa Tera, ou* |  |
+| `c2-l010` | Sanrô. Mairi comoru. I*ndo a algũa Tera, ou* |  |
 | `c2-l011` | &emsp;*ermida encerrarſe, ou estar recolhido.* |  |
 | `c2-l012` | Sanron. *Certa ſeita de Iapam.* |  |
 | `c2-l013` | Sanſai. Ten, chi, jin. *Ceo, terra, & homẽs.* |  |
 | `c2-l014` | Sanſon. Yama, mura. *Pouoação que esta nos* |  |
-| `c2-l015` | &emsp;*montes. S.* |  |
+| `c2-l015` | &emsp;*montes.* S. |  |
 | `c2-l016` | Sanſu. Cangaye, cazoyuru. *O computar, &* |  |
-| `c2-l017` | &emsp;*contar. S.* |  |
+| `c2-l017` | &emsp;*contar.* S. |  |
 | `c2-l018` | Sanſui. Yama mizzu. *Agoa dos montes.* |  |
-| `c2-l019` | Santǒ. Mitabi cotǒ. *Tres repoſtas. Vide* Sã- |  |
+| `c2-l019` | Santǒ. Mitabi cotǒ. *Tres repostas. Vide S*ã- |  |
 | `c2-l020` | &emsp;mon. |  |
 | `c2-l021` | Santo. i, Fiyenoyamano xuto. *Bonzos de* |  |
 | `c2-l022` | &emsp;*dignidade de Fiyenoyama.* |  |
-| `c2-l023` | Santô. i. Yamano itadaqi. *Cabeça, ou cu-* |  |
+| `c2-l023` | Santô. *i.* Yamano itadaqi. *Cabeça, ou cu-* |  |
 | `c2-l024` | &emsp;*me do monte.* |  |
 | `c2-l025` | Santô. *Inuerno.* |  |
 | `c2-l026` | Sanv. Yama ame. *Chuua dos montes.* |  |
@@ -104,7 +104,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l030` | &emsp;*cho, ou tanho raſo q̃ ſe faz no reino de* Sanuqi. |  |
 | `c2-l031` | Sanxa. Yamano iye. *Caſa que està nos mon-* |  |
 | `c2-l032` | &emsp;*tes, ou campos.* |  |
-| `c2-l033` | Sanxen. Yamagaua. *Ribeiras, ou rios que* |  |
+| `c2-l033` | *S*anxen. Yamagaua. *Ribeiras, ou rios que* |  |
 | `c2-l034` | &emsp;*vem dos montes.* |  |
 | `c2-l035` | Sanxen. Yamano xemi. *Cegarrega dos matos.* |  |
 | `c2-l036` | Sanxet. Yamano yuqi. *Neue dos montes.* |  |
@@ -115,11 +115,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l041` | Sanxô. *Tres partes do corpo. S.* Iǒxô, Chǔ |  |
 | `c2-l042` | &emsp;xô, Guexô. *Partes ſuperiores dos peitos* |  |
 | `c2-l043` | &emsp;*pera cima, partes do meo, & partes inferiores.* |  |
-| `c2-l044` | Sanxocu. Yamano iro. *Cordos montes. S.* |  |
+| `c2-l044` | Sanxocu. Yamano iro. *Cor dos montes. S.* |  |
 | `c2-l045` | Sanya. Yama, no. *Montes, & campos.* |  |
 | `c2-l046` | Sanya. Vmaruru iye. *Caſa do parto, ou na-* |  |
 | `c2-l047` | &emsp;*cimento. Ordinariamente ſe diz,* Goſanya. |  |
-| `c2-l048` | &emsp;*Falando de peſſoa nobre.* |  |
+| `c2-l048` | &emsp;*Falando de peßoa nobre.* |  |
 
 ## Printed catchword
 

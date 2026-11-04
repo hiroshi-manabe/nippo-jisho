@@ -14,9 +14,9 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | Sanyacu. *Hũa certa mezinha.* |  |
-| `c1-l002` | Sanyei. Yama cague. *Sombra dos montes.* S |  |
-| `c1-l003` | Sanyen. Yamano ſaru. *Bugio dos matos. S.* |  |
+| `c1-l001` | *S*anyacu. *Hũa certa mezinha.* |  |
+| `c1-l002` | *S*anyei. Yama cague. *Sombra dos montes.* S |  |
+| `c1-l003` | *S*anyen. Yamano ſaru. *Bugio dos matos. S.* |  |
 | `c1-l004` | Sanyet. i, Mairu. *Ir, ou vir. S.* |  |
 | `c1-l005` | Sanyô. Cangaye mochijru. *Contas. Vt,* Sã- |  |
 | `c1-l006` | &emsp;yô ſuru. *O contar, ou fazer contas.* |  |
@@ -45,16 +45,16 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l029` | &emsp;*de beber. ¶* Saqeuo ſuſumuru. *Perſua-* |  |
 | `c1-l030` | &emsp;*dir a beber vinho. ¶* Saqeni yô. *Eſtar* |  |
 | `c1-l031` | &emsp;*tocado, ou tomado do vinho. ¶* Saqeni |  |
-| `c1-l032` | &emsp;chozuru. l, fitaru. *Eſtar enſopado no* |  |
+| `c1-l032` | &emsp;chǒzuru. l, fitaru. *Eſtar enſopado no* |  |
 | `c1-l033` | &emsp;*vinho.* |  |
-| `c1-l034` | Saqe. l, Saqeno iuo. *Hun peixe como* |  |
+| `c1-l034` | *S*aqe. l, *S*aqeno iuo. *Hun peixe como* |  |
 | `c1-l035` | &emsp;*ſarmão.* |  |
 | `c1-l036` | Saqe, uru, eta. *Raſgarſe. ¶* Youo ſa- |  |
 | `c1-l037` | &emsp;quru. *Dar de mão, ou deſprezar o mundo.* |  |
 | `c1-l038` | &emsp;*¶* Nanuo ſaquru. *Afaſtarſe, ou eſcapar-* |  |
 | `c1-l039` | &emsp;*de perigos.* |  |
 | `c1-l040` | Saqebi, bu, ôda. *Gritar, bradar, ou prãtear.* |  |
-| `c1-l041` | Saqebi. *Grito, brado, ou pranto.* |  |
+| `c1-l041` | *S*aqebi. *Grito, brado, ou pranto.* |  |
 | `c1-l042` | Saqeno fizzunamaſu. *Certa iguaria de peixe* |  |
 | `c1-l043` | &emsp;*crù, que ſe faz da cabeça de hum certo peixe* |  |
 | `c1-l044` | &emsp;*como ſarmão.* |  |
@@ -82,7 +82,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l001` | Saqeno yoi. *Bebado.* |  |
 | `c2-l002` | Saqeyabure, ru, eta. *Raſgando romperſe.* |  |
 | `c2-l003` | &emsp;*Vt,* Facamaua vô focorobini ſaqe yabu- |  |
-| `c2-l004` | &emsp;reta. Mon. *Os calçoensſe raſgarão, &* |  |
+| `c2-l004` | &emsp;reta. Mon. *Os calçoens ſe raſgarão, &* |  |
 | `c2-l005` | &emsp;*romperão grandemente.* |  |
 | `c2-l006` | Saqi, qu, aita. *Florecer. ¶* Fanaga ſa- |  |
 | `c2-l007` | &emsp;qu. *Sairem, ou começarem a abrir as flores.* |  |

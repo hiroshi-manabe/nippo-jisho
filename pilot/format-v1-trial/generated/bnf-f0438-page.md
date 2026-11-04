@@ -20,18 +20,18 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | `c1-l002` | &emsp;*eſpedaçar.* |  |
 | `c1-l003` | Sara. *Bacio, ou ſalſeira.* |  |
 | `c1-l004` | Saraba. *Ficai em bora, ou ide embora. ¶ Itẽ,* |  |
-| `c1-l005` | &emsp;*Eyaſus. ¶ Item, Iaque aßi he.* |  |
-| `c1-l006` | Sadedani. *Seainda aßi, quãto mais, &c.* P. |  |
+| `c1-l005` | &emsp;*Eyaſus. ¶* I*tem, Iaque aßi he.* |  |
+| `c1-l006` | Sadedani. *Seainda aßi, quãto mais, &c. P.* |  |
 | `c1-l007` | Sarai. *Hum inſtrumento de bambu como pen-* |  |
 | `c1-l008` | &emsp;*tem comque ajuntam folhas das aruores caidas,* |  |
 | `c1-l009` | &emsp;*ciſco, ou outra couſa.* |  |
-| `c1-l010` | Sarai. *Couſa de pouco fundo, como bacio, ou* |  |
+| `c1-l010` | *S*arai. *Couſa de pouco fundo, como bacio, ou* |  |
 | `c1-l011` | &emsp;*bandeja.* X. |  |
-| `c1-l012` | Sarameqi, qu, eita. *Ser hũa couſaaſpera &* |  |
+| `c1-l012` | Sarameqi, qu, eita. *Ser hũa couſa aſpera &* |  |
 | `c1-l013` | &emsp;*toſca como pedra, &c.* |  |
 | `c1-l014` | Sarani. *Aduerb. De nenhũa maneira com verbos* |  |
 | `c1-l015` | &emsp;*negatiuos. ¶ Itẽ, Denouo, ou doutra maneira.* |  |
-| `c1-l016` | &emsp;*Vt,* Coreuo ſarani xôzu. *Farei iſto de ou-* |  |
+| `c1-l016` | &emsp;*Vt, C*oreuo ſarani xôzu. *Farei isto de ou-* |  |
 | `c1-l017` | &emsp;*tro modo nouo.* |  |
 | `c1-l018` | Saranu tei. *Dißimulação.* |  |
 | `c1-l019` | Sarariſararito. *Aduerb. Modo de fazer al* |  |
@@ -42,26 +42,26 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | `c1-l024` | Sara ſara. *Aduerb. Idem. ¶ Item, Com* |  |
 | `c1-l025` | &emsp;*negatiuo de nenhũa maneira.* |  |
 | `c1-l026` | Saraſarato. *Aduerb. Modo de eſfregar a* |  |
-| `c1-l027` | &emsp;*ir contas entre as mãos, l, de ir correndo, &c.* |  |
+| `c1-l027` | &emsp;*contas entre as mãos, l, de ir correndo, &c.* |  |
 | `c1-l028` | &emsp;*Vt,* Ninin tomoni faxino vyeuo ſaraſarato |  |
 | `c1-l029` | &emsp;faxiriuatari. *Ambos de dous hião corrẽ-* |  |
 | `c1-l030` | &emsp;*do por cima da ponte ſemparar nem tropeçar.* |  |
 | `c1-l031` | Saraxi, ſu, aita. *Curar panos de linho, can-* |  |
-| `c1-l032` | &emsp;*gas, &c. ¶ Permet.* Fagiuo ſaraſu. |  |
+| `c1-l032` | &emsp;*gas, &c. ¶ Permet. F*a*g*iuo ſaraſu. |  |
 | `c1-l033` | &emsp;*Enuergonharſe. ¶* Cabaneuo ſaraſu. *Dei-* |  |
 | `c1-l034` | &emsp;*xar a vida no campo, ou o corpo ſem ſepultura.* |  |
-| `c1-l035` | &emsp;*¶* Togauo ſaraſu. *Manifeſtar os peccados.* |  |
+| `c1-l035` | &emsp;*¶ T*ogauo ſaraſu. *Manifeſtar os peccados.* |  |
 | `c1-l036` | &emsp;*¶* Gacumonni manacouo ſaraſu. *Dar-* |  |
 | `c1-l037` | &emsp;*ſe muito ao estudo, ou estar ſempre ſobre o liuro.* |  |
-| `c1-l038` | Saraxi. *Certos nonos curados.* |  |
+| `c1-l038` | *S*araxi. *Certos nonos curados.* |  |
 | `c1-l039` | Saraye, uru, eta. *Alimpar como cano dagoa,* |  |
-| `c1-l040` | &emsp;*fonte, &c. ¶* Inomotouo ſarayuru. |  |
-| `c1-l041` | &emsp;*Alimpar opoço. ¶* Foriuo ſarayuru. |  |
+| `c1-l040` | &emsp;*fonte, &c. ¶ I*nomotouo ſarayuru. |  |
+| `c1-l041` | &emsp;*Alimpar o poço. ¶* Foriuo ſarayuru. |  |
 | `c1-l042` | &emsp;*Alimpar a caua.* |  |
 | `c1-l043` | Sareba. *Aduerb. Aßi que ſendo aßi.* |  |
 | `c1-l044` | Sarebacoſo. *Aduerb. Pois poriſſo.* |  |
 | `c1-l045` | Saredomo. *Aduerb. Porem, todauia, &c* |  |
-| `c1-l046` | Sarei. Chano rei. *Corteſias, ou comprimento* |  |
+| `c1-l046` | Sarei. C*h*ano rei. *Corteſias, ou comprimento* |  |
 | `c1-l047` | &emsp;*que ſe fazem antes. de beber o Cha.* |  |
 | `c1-l048` | Sari, ru, atta. *Apartarſe, ou irſe.* Toco- |  |
 
@@ -78,7 +78,7 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | `c2-l001` | &emsp;rouo ſaru. *Irſe, ou apartarſe de algũ lugar.* |  |
 | `c2-l002` | Sariguenai. *Couſa de dißimulação, ou fingi-* |  |
 | `c2-l003` | &emsp;*mento.* |  |
-| `c2-l004` | Sariguenǒ. l. ſariguenacu. *Adu. Modo de* |  |
+| `c2-l004` | Sariguenǒ. *l.* ſariguenacu. *Adu. Modo de* |  |
 | `c2-l005` | &emsp;*fazer, ou falar fingidamente.* |  |
 | `c2-l006` | Sarinagara. *Porem, ou todauia.* |  |
 | `c2-l007` | Saritomo. *Totalmente, ou ſem duuida. ¶ Item,* |  |
@@ -102,7 +102,7 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | `c2-l025` | Sarude. *Mãos leues, buliçoſas, & inquietas.* |  |
 | `c2-l026` | Sarufiqi. *Os que fazem voltear, ou bailar os* |  |
 | `c2-l027` | &emsp;*bugios.* |  |
-| `c2-l028` | Sarufoconi. Saru fodoni. *Sendo aßi, ou* |  |
+| `c2-l028` | Sarufodoni. Sǒaru fodoni. *Sendo aßi, ou* |  |
 | `c2-l029` | &emsp;*paßãdo as couſas deſta maneira. ¶ Item, He* |  |
 | `c2-l030` | &emsp;*palaura com que ſe começa algum liuro modeſ-* |  |
 | `c2-l031` | &emsp;*tamente dando a entender que não he aquillo no-* |  |
@@ -122,7 +122,7 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | `c2-l045` | Sarumauaxi. *Os que fazem voltear, ou ſal-* |  |
 | `c2-l046` | &emsp;*tar os bugios.* |  |
 | `c2-l047` | Saru namexi. *Pelles de bugio cortidas, &* |  |
-| `u2b-l001` | &emsp;*çuradas.* |  |
+| `u2b-l001` | &emsp;*çurradas.* |  |
 
 ## Catchword
 
