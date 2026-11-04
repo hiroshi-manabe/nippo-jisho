@@ -23,16 +23,16 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | `c1-l005` | &emsp;*as folhas como de caninhas.* |  |
 | `c1-l006` | Saſa. i, Saqe. *Vinho. He palaura de mo-* |  |
 | `c1-l007` | &emsp;*lheres.* |  |
-| `c1-l008` | Saſagani. P. *Aranhas.* |  |
+| `c1-l008` | Saſagani. *P. Aranhas.* |  |
 | `c1-l009` | Saſagimaqi. *Certo comer de arroz cozido em-* |  |
 | `c1-l010` | &emsp;*buralhado em certas folhas.* |  |
 | `c1-l011` | Saſague. *Certa laya de feijões.* |  |
-| `c1-l012` | Saſague, uru, eta. *Offerecer, ou apreſẽtar.* |  |
+| `c1-l012` | Saſague, uru, eta. *Offerecer, ou apresẽtar.* |  |
 | `c1-l013` | Saſaguemono. *Offerta, ou preſente.* |  |
 | `c1-l014` | Saſagueô guiô. *Cada obra.* |  |
-| `c1-l015` | Saſamacura. P. i, Tabi. *O andar pere-* |  |
+| `c1-l015` | Saſamacura. *P.* i, Tabi. *O andar pere-* |  |
 | `c1-l016` | &emsp;*grinando por fora.* |  |
-| `c1-l017` | Saſamegoto. P. *Pratica que ſe faz manſo,* |  |
+| `c1-l017` | Saſamegoto. *P. Pratica que ſe faz manſo,* |  |
 | `c1-l018` | &emsp;*& em ſegredo.* |  |
 | `c1-l019` | Saſameqi, u, eita. *Aluoroçarſe hum inte-* |  |
 | `c1-l020` | &emsp;*riormente, ou alterarſe. Vt,* Munega ſa- |  |
@@ -53,7 +53,7 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | `c1-l035` | Saſaye, uru, eta. *Deter, ou impedir. ¶* Mi- |  |
 | `c1-l036` | &emsp;chiuo ſaſayuru. *Impedir o caminho.* |  |
 | `c1-l037` | &emsp;*¶* Fitouo ſaſayuru. *Falar mal dalguẽ di-* |  |
-| `c1-l038` | &emsp;*ante do ſenhor, ou de quem lhe pode empecer.* |  |
+| `c1-l038` | &emsp;*ante do ſenhor, ou de quem lhe pode empècer.* |  |
 | `c1-l039` | Saſaye todome, uru, eta. *Impedindo deter.* |  |
 | `c1-l040` | Saſocu. *Pès ligeiros. ¶* Saſocuga qijta |  |
 | `c1-l041` | &emsp;fito. *Homem ligeiro dos pees como os que* |  |
@@ -105,9 +105,9 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | `c2-l023` | Saſunomi. *Certa laya de eſcopro de carpinteiro.* |  |
 | `c2-l024` | Saſurai, ǒ, ǒta. *Andar deſterrado, ou co-* |  |
 | `c2-l025` | &emsp;*mo vago ſem lugar, nem morada certa.* |  |
-| `c2-l026` | Saſurai aruqi, qu, aruita. *Andar por diuer-* |  |
+| `c2-l026` | Saſurai aruqi, qu, aruita. A*ndar por diuer-* |  |
 | `c2-l027` | &emsp;*ſas partes como deſterrado, ou peregrino.* |  |
-| `c2-l028` | Saſurayebito. P. *Deſterrado, ou peregrino* |  |
+| `c2-l028` | Saſurayebito. *P. Deſterrado, ou peregrino* |  |
 | `c2-l029` | &emsp;*que anda vago por diuerſas partes.* |  |
 | `c2-l030` | Saſuri, u, utta. *Eſfregar brandamente algũa* |  |
 | `c2-l031` | &emsp;*parte do corpo que doe, &c. ¶* Taqeuo |  |
@@ -115,7 +115,7 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | `c2-l033` | &emsp;*os bambus.* |  |
 | `c2-l034` | Sat. *Conjeitura. ¶* Sat ſuru. *Cõjeiturar.* |  |
 | `c2-l035` | Sattçuberaxij. *Couſa que deue, ou parece ſer* |  |
-| `c2-l036` | &emsp;*aßi. ¶* Sattçuberaxij te. *Modo de eſ-* |  |
+| `c2-l036` | &emsp;*aßi. ¶* Sattçuberaxij tei. *Modo de eſ-* |  |
 | `c2-l037` | &emsp;*tar conuenientemente, & daſſento como em ſua* |  |
 | `c2-l038` | &emsp;*caſa, &c.* |  |
 | `c2-l039` | Sattçuberaxǔ. *Adu.* |  |
@@ -123,7 +123,7 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | `c2-l041` | &emsp;uo ſata ſuru. *Falar, ou tratar ſobre alguẽ.* |  |
 | `c2-l042` | &emsp;*¶* Satauo caguitta coto. l, ſatano ca- |  |
 | `c2-l043` | &emsp;guiri. *Couſa que muito ſe eſtranha, & he* |  |
-| `c2-l044` | &emsp;*muito mal feita, &c. ¶ Item,* Sata. *Pra-* |  |
+| `c2-l044` | &emsp;*muito mal feita, &c. ¶ Item, S*ata. *Pra-* |  |
 | `c2-l045` | &emsp;*tica, ou exame ſobre algũa demanda. ¶* Satanin. |  |
 | `c2-l046` | &emsp;*Iuiz, ou homem q̃ ouue as partes nas deman-* |  |
 | `c2-l047` | &emsp;*das.* |  |

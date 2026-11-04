@@ -25,21 +25,21 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | `c1-l007` | Satçuqiame. i, Samidare. *Chuuas do quin-* |  |
 | `c1-l008` | &emsp;*to mes, ou lũa.* |  |
 | `c1-l009` | Sate. *Palaura que ſerue pera ſaudar. ¶ Item,* |  |
-| `c1-l010` | &emsp;*Interjeição em couſas de admiração. ¶ Item,* |  |
+| `c1-l010` | &emsp;*Interjeição em couſas de admiração. ¶* I*tem,* |  |
 | `c1-l011` | &emsp;*Depois dißo, &c.* |  |
 | `c1-l012` | Satecoſo. *Interjeição do que ſe admira, ou cõ-* |  |
 | `c1-l013` | &emsp;*cede algũa couſa.* |  |
 | `c1-l014` | Satemata. *Outra vez, alem diſto, &c.* |  |
 | `c1-l015` | Satemo. *Interjeição do que ſe eſpanta.* |  |
-| `c1-l016` | Satemoſatemo. *Idem.* |  |
+| `c1-l016` | Satemoſatemo. I*dem.* |  |
 | `c1-l017` | Sateſate. *Idem. ¶ Item, Palaura de ſau-* |  |
 | `c1-l018` | &emsp;*dação, de agaſalhado, &c.* |  |
 | `c1-l019` | Sateua. *Aßi he?* |  |
-| `c1-l020` | Satǒ. Fidarimichi. i. Bocuxôno gui. *Po-* |  |
+| `c1-l020` | Satǒ. Fidarimichi. *i.* Bocuxôno gui. *Po-* |  |
 | `c1-l021` | &emsp;*breza, ou pouquidade. Item, Couſa deſpro-* |  |
 | `c1-l022` | &emsp;*porcionada, ou que não quadra com a qualidade* |  |
 | `c1-l023` | &emsp;*& estado dalguem. Vt.* Satǒno ſama tarito |  |
-| `c1-l024` | &emsp;iyedomo, iteino catachiuo mote, *&c. Poſ* |  |
+| `c1-l024` | &emsp;iyedomo, iteino ca*t*achiuo mote, *&c. Poſ* |  |
 | `c1-l025` | &emsp;*to que otrajo emaneira não era qual deuia ſer, to-* |  |
 | `c1-l026` | &emsp;*dauia com trajo, ou figura extra ordinaria, &c.* |  |
 | `c1-l027` | &emsp;*¶* Satǒnigozaredomo, miye qitatta ma- |  |
@@ -52,7 +52,7 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | `c1-l034` | Satojǒ. *Lugar, ou pouoação cercada à roda* |  |
 | `c1-l035` | &emsp;*como fortaleza, ou fortaleza que eſtà ao pee* |  |
 | `c1-l036` | &emsp;*de algum monte, ou fortaleza alta.* |  |
-| `c1-l037` | Satǒmangiǔ. *Huns pèozinhos cozidos com-* |  |
+| `c1-l037` | Satǒmangiǔ. *Huns pãozinhos cozidos com-* |  |
 | `c1-l038` | &emsp;*o bafo dagoa quente feitos com aſucar.* |  |
 | `c1-l039` | Satǒmochi. *Mochis feitos com jagra, ou a-* |  |
 | `c1-l040` | &emsp;*ſucar dentro.* |  |
@@ -77,7 +77,7 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | --- | --- | --- |
 | `c2-l001` | Saua. *Adu. Aßi. ¶* Chijnno nacani ſa- |  |
 | `c2-l002` | &emsp;ua naqimonozo. *Entre os amigos não ha* |  |
-| `c2-l003` | &emsp;*tal couſa. i, Ser aßi desleal, &c.* |  |
+| `c2-l003` | &emsp;*tal couſa.* i*, Ser aßi desleal, &c.* |  |
 | `c2-l004` | Saua. *Preſa, ou tanque de agoa, q̃ ſẽpre corre.* |  |
 | `c2-l005` | Sauabe. *Borda deſta preſa, ou tanque de agoa* |  |
 | `c2-l006` | &emsp;*repreſada que vem dos montes.* |  |
@@ -86,14 +86,14 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | `c2-l009` | &emsp;gaſumajiqi tameni, racuguaini yadouo |  |
 | `c2-l010` | &emsp;tori, &c. *Tomando pouſada fora do Mia-* |  |
 | `c2-l011` | &emsp;*co pera que não cauſaſe perturbação dẽtro.* |  |
-| `c2-l012` | Sauagaxij. *Couſa de em barulhada, ou pertur-* |  |
+| `c2-l012` | Sauagaxij. *Couſa de emburulhada, ou pertur-* |  |
 | `c2-l013` | &emsp;*bação, ou o eſtar perturbado.* |  |
 | `c2-l014` | &emsp;Sauagaxiſa. |  |
 | `c2-l015` | &emsp;Sauagaxû. |  |
 | `c2-l016` | Sauagui, u, aida. *Perturbarſe, auer rebo-* |  |
 | `c2-l017` | &emsp;*liço, &c.* |  |
 | `c2-l018` | Sauagui. *Perturbação, ou reuolta.* |  |
-| `c2-l019` | Sauara. *Esfregão feito de bam bus partidos, &* |  |
+| `c2-l019` | Sauara. *Esfregão feito de bambus partidos, &* |  |
 | `c2-l020` | &emsp;*juntos pera roçar, ou eſfregar algũa couſa.* |  |
 | `c2-l021` | &emsp;*¶* Nauazauara. *Esfregão de cordas.* |  |
 | `c2-l022` | Sauara. *Peixe ſerra.* |  |
@@ -109,7 +109,7 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | `c2-l032` | &emsp;*limpo, & bem feito.* |  |
 | `c2-l033` | &emsp;Sauayacani. *Adu.* |  |
 | `c2-l034` | &emsp;Sauayacaſa. |  |
-| `c2-l035` | Sauo. *Bambu donde dependurão veſtidos, &c* |  |
+| `c2-l035` | Sauo. *Bambu donde dependurão veſtidos, &c.* |  |
 | `c2-l036` | &emsp;*¶ Item, Vara com q̃ leuão a embarcação pel-* |  |
 | `c2-l037` | &emsp;*lo rio.* |  |
 | `c2-l038` | Sauogana. *Ferro comprido com que acepilhão* |  |
