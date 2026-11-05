@@ -120,9 +120,8 @@ not an automatic semantic adjudication or a new merge UI.
 # Optional alignment generation
 
 After Issue and external-result applications, the runner attempts at most one
-alignment page per cycle under the same lock. Eligible pages are attempted in
-ascending page order regardless of human-review status, with supplements in
-their reading-order positions. Baseline,
+alignment page per cycle under the same lock. AI-commentary-reviewed pages with
+no applied human Issues take priority over human-reviewed pages. Baseline,
 geometry, model metadata and generator code fingerprint each attempt; unchanged
 failures are not retried. Successful assets are built, committed and pushed.
 Pre-commit failures restore the prior asset; failed pushes require publication

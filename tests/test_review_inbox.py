@@ -8,19 +8,9 @@ from unittest.mock import patch
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
 import review_inbox as inbox
 import external_ai_review as review
-from alignment_queue import page_order
 
 
 class InboxTests(unittest.TestCase):
-    def test_alignment_page_order_includes_supplements(self):
-        pages = ['bnf-f0442', 'bodleian-f0090v', 'bnf-f0191',
-                 'bodleian-f0090r', 'bnf-f0190', 'bnf-f0020']
-        supplements = {'bodleian-f0090r': ('bnf-f0190', 1),
-                       'bodleian-f0090v': ('bnf-f0190', 2)}
-        self.assertEqual(sorted(pages, key=lambda p: page_order(p, supplements)),
-                         ['bnf-f0020', 'bnf-f0190', 'bodleian-f0090r',
-                          'bodleian-f0090v', 'bnf-f0191', 'bnf-f0442'])
-
     def test_find_input_uses_manifest_hash_across_relay_and_local_archives(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
