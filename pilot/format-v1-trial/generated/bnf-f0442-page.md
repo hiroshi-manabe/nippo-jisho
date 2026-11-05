@@ -49,7 +49,7 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | `c1-l031` | &emsp;*&c. ¶* Saxide fangacuto iy tçutayeta |  |
 | `c1-l032` | &emsp;*Dizem ordinariamente que o ſer deſpejado, &* |  |
 | `c1-l033` | &emsp;*entremetido he meo caminho andado, pera eſ-* |  |
-| `c1-l034` | &emsp;*tudar, ou pera aprender qual quer outra arte.* |  |
+| `c1-l034` | &emsp;*tudar, ou pera aprender qualquer outra arte.* |  |
 | `c1-l035` | &emsp;*¶ S*axideta fito, l, ſaxide. *Homẽ en-* |  |
 | `c1-l036` | &emsp;*tremetido. ¶ S*axideuo yǔ. *Falar en-* |  |
 | `c1-l037` | &emsp;*tremetida, & arremeſadamente.* |  |
@@ -90,7 +90,7 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | `c2-l014` | *S*axiguſuri. *Mezinha pera os olhos. ¶ Itẽ,* |  |
 | `c2-l015` | &emsp;*No Ximo mezinha pera botar a criança im-* |  |
 | `c2-l016` | &emsp;*perfeita do ventre.* |  |
-| `c2-l017` | *S*axiidaxi, ſu, aita. *Estender, ou botar fo* |  |
+| `c2-l017` | *S*axiidaxi, ſu, aita. *Estender, ou botar fo-* |  |
 | `c2-l018` | &emsp;*ra como mão, cabeça, &c. ¶* Nuſubito |  |
 | `c2-l019` | &emsp;to iyeba te ſaxi idaſu. *Frouerb. Em nomeã-* |  |
 | `c2-l020` | &emsp;*do ladrão logo ſe està ali, ſe ſalua dizendo que* |  |
