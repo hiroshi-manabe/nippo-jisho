@@ -21,7 +21,7 @@ Lexical review aid: [Entry Words Data of Nippojisho](https://www2.ninjal.ac.jp/t
 | `c1-l003` | &emsp;*Pedir perdão. ¶ Item, Moer como tinta,* |  |
 | `c1-l004` | &emsp;*mostarda, &c. ¶* Fanni ſuru, l, fan- |  |
 | `c1-l005` | &emsp;guiuo ſuru. *Imprimir.* |  |
-| `c1-l006` | Suriagari, u, atta. *Dormindo reuoluerſe pera* |  |
+| `c1-l006` | *S*uriagari, u, atta. *Dormindo reuoluerſe pera* |  |
 | `c1-l007` | &emsp;*cima, ou eſtando deitado chegarſe pera cima.* |  |
 | `c1-l008` | Suriague, uru. *Fazer mai curta a Catana* |  |
 | `c1-l009` | &emsp;*limando o ferro polla parte dos cabos. Vt,* |  |
@@ -37,7 +37,7 @@ Lexical review aid: [Entry Words Data of Nippojisho](https://www2.ninjal.ac.jp/t
 | `c1-l019` | Suricha. *Cha moido.* |  |
 | `c1-l020` | Surichatçubo. *Boyẽzinho onde metem Cha* |  |
 | `c1-l021` | &emsp;*moido.* |  |
-| `c1-l022` | Suricobachi. *Gral de barro, ou de pedra.* |  |
+| `c1-l022` | *S*uricobachi. *Gral de barro, ou de pedra.* |  |
 | `c1-l023` | Suricocuri, ru, cutta. *Alinpar eſfregando* |  |
 | `c1-l024` | &emsp;*rijo. ¶* Miuo ſuricocutte arǒ. *Lauar-* |  |
 | `c1-l025` | &emsp;*ſe eſfregando rijo.* |  |
@@ -80,20 +80,20 @@ Lexical review aid: [Entry Words Data of Nippojisho](https://www2.ninjal.ac.jp/t
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | &emsp;*met.* Surudona fito. *Homem agudo, &* |  |
+| `c2-l001` | &emsp;*met. S*urudona fito. *Homem agudo, &* |  |
 | `c2-l002` | &emsp;*de ſutil engenho.* |  |
 | `c2-l003` | Surume. *Siba, ou chocos ſecos.* |  |
-| `c2-l004` | Sururito. *Adu. Modo de fazer a couſa li-* |  |
+| `c2-l004` | *S*ururito. *Adu. Modo de fazer a couſa li-* |  |
 | `c2-l005` | &emsp;*geira, & expeditamente. Vt,* Catanauo |  |
 | `c2-l006` | &emsp;ſururito nuqu. *Arrancar a Catana ligei-* |  |
 | `c2-l007` | &emsp;*ramente ſem impedimento.* |  |
-| `c2-l008` | Suruſuruto. *Adu. Idem. Vt,* Suruſu- |  |
+| `c2-l008` | *S*uruſuruto. *Adu. Idem. Vt,* Suruſu- |  |
 | `c2-l009` | &emsp;ruto faxiru. *Correr depreſſa, & ſem em-* |  |
 | `c2-l010` | &emsp;*baraço.* |  |
-| `c2-l011` | Suſa. *Palha cortada miudamente pera miſturar* |  |
+| `c2-l011` | *S*uſa. *Palha cortada miudamente pera miſturar* |  |
 | `c2-l012` | &emsp;*com o barro.* X. *No Cami ſe diz,* Ca- |  |
 | `c2-l013` | &emsp;beuara, l, Qiriuara. |  |
-| `c2-l014` | Suſamajij. *Couſa fria, & medonha. Vt,* |  |
+| `c2-l014` | *S*uſamajij. *Couſa fria, & medonha. Vt,* |  |
 | `c2-l015` | &emsp;Suſamajij nari. *Modo de eſtar com frio,* |  |
 | `c2-l016` | &emsp;*ou com as cores mudadas, & alterado.* |  |
 | `c2-l017` | &emsp;Suſamajiſa. |  |

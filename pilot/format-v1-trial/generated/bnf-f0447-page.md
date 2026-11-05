@@ -16,7 +16,7 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | Sonyeqi. i, Son, tocu. *Perda, & proueito.* |  |
+| `c1-l001` | *S*onyeqi. i, Son, tocu. *Perda, & proueito.* |  |
 | `c1-l002` | Sonyô. Tattoqi catachi. *Figura de peßoa* |  |
 | `c1-l003` | &emsp;*nobre, ou ſancta como de* Fotoque, *&c.* |  |
 | `c1-l004` | Sonzaxi, ſu, aita. *Danar, ou tratar mal.* |  |
@@ -40,7 +40,7 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c1-l022` | &emsp;*atabalhoadamente. ¶* Sôqina fito. *Ho-* |  |
 | `c1-l023` | &emsp;*mem leue, arremeſado, ou deſatentado.* |  |
 | `c1-l024` | Soqiacu. Ai fedatçu. *Deſcuido.* |  |
-| `c1-l025` | Sôqiǒ. i, Tattomi vyamǒ. *Veneração, ou* |  |
+| `c1-l025` | *S*ôqiǒ. i, Tattomi vyamǒ. *Veneração, ou* |  |
 | `c1-l026` | &emsp;*reuerencia. Vt,* Fitouo ſôqiǒ ſuru. *Hon-* |  |
 | `c1-l027` | &emsp;*rar, & venerar a alguem.* |  |
 | `c1-l028` | Sǒqua. Cuſabana. *Flores, ou fulas que nacẽ* |  |
@@ -55,7 +55,7 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c1-l037` | Sora. *Ar, ou ceo.* |  |
 | `c1-l038` | Sorabore. *O moſtrar fingidamente ter grande* |  |
 | `c1-l039` | &emsp;*amor, ou afeição. Vt,* Soraboreuo ſuru. |  |
-| `c1-l040` | Soraboye. *O ladrar do cão de noite à maneira* |  |
+| `c1-l040` | *S*oraboye. *O ladrar do cão de noite à maneira* |  |
 | `c1-l041` | &emsp;*de vyuo. No Cami ſe diz,* Nagaboye. *No* |  |
 | `c1-l042` | &emsp;*Ximo,* Tatçuboye. |  |
 | `c1-l043` | Soradachi. *O eſtar em pee nalgum lugar ſoſpei-* |  |
@@ -107,7 +107,7 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c2-l031` | &emsp;*ou não entende o que lhe dizẽ, &c. Vt,* So- |  |
 | `c2-l032` | &emsp;ratoboqeuo ſuru. |  |
 | `c2-l033` | Soravſo. *O aſouiar ao ar como quem eſta triſte,* |  |
-| `c2-l034` | &emsp;*& penſatiuo. ¶* Soravſouo fuqu. *Aſo-* |  |
+| `c2-l034` | &emsp;*& penſatiuo. ¶ S*oravſouo fuqu. *Aſo-* |  |
 | `c2-l035` | &emsp;*uiar deſta maneira.* |  |
 | `c2-l036` | Soravta. *Cantiga que hum canta aßi como por* |  |
 | `c2-l037` | &emsp;*zombaria, ou fingidamente, não auendo tal* |  |

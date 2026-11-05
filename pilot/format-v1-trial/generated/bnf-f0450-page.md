@@ -87,11 +87,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l013` | Sôxocu. Cuſano iro. *Cor de eruas. S.* |  |
 | `c2-l014` | Soxocu. Voroſocana xocubut. *Comer groſ-* |  |
 | `c2-l015` | &emsp;*ſeiro, & ruim.* |  |
-| `c2-l016` | Soxônin. *O que pede, ou propoem ao ſenhor* |  |
+| `c2-l016` | *S*oxônin. *O que pede, ou propoem ao ſenhor* |  |
 | `c2-l017` | &emsp;*algũa couſa.* |  |
 | `c2-l018` | Sǒxǔ. Fayaqi aqi. *Principio do Outono q̃* |  |
 | `c2-l019` | &emsp;*he na ſeptima lũa, ou mes.* |  |
-| `c2-l020` | Sôxu. i, Bozutachi. *Bonzos.* |  |
+| `c2-l020` | *S*ôxu. i, Bozutachi. *Bonzos.* |  |
 | `c2-l021` | Sôxugui. *Conſulta, ou parecer de todos em v-* |  |
 | `c2-l022` | &emsp;*niuerſal. Vt,* Sôxuguini itasǒ. *Farei* |  |
 | `c2-l023` | &emsp;*conforme ao parecer de todos.* |  |

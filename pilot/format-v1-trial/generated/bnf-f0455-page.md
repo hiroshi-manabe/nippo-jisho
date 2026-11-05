@@ -19,31 +19,31 @@ Lexical cross-check after the independent scan reading: Entry Words Data of Nipp
 | `c1-l001` | Suibocu. Mizzu, qi. *Agoa, & lenha. Vt,* |  |
 | `c1-l002` | &emsp;Cono tocoroua ſuibocu tacuſanna. *Eſte* |  |
 | `c1-l003` | &emsp;*lugar he abundante de agoa, & lenha.* |  |
-| `c1-l004` | Suican. *Perda por muita agoa, & perda cau-* |  |
+| `c1-l004` | *S*uican. *Perda por muita agoa, & perda cau-* |  |
 | `c1-l005` | &emsp;*ſada de grande ſeca.* |  |
 | `c1-l006` | Suican. *Hum vestido delgado que vſão nos* |  |
 | `c1-l007` | &emsp;*autos.* |  |
-| `c1-l008` | Suicaqi. *Sebe rala como grades.* |  |
-| `c1-l009` | Suicazzura. *Certa erua de latada.* |  |
+| `c1-l008` | *S*uicaqi. *Sebe rala como grades.* |  |
+| `c1-l009` | *S*uicazzura. *Certa erua de latada.* |  |
 | `c1-l010` | Suichicu. Midorino taqe. *Canas verdes.* |  |
 | `c1-l011` | Suichô. Mizzutori. *Paßaro dagoa como mar-* |  |
 | `c1-l012` | &emsp;*reca, ou adem.* |  |
 | `c1-l013` | Suichǒ. Midorino tofari. *Cortinas, ou panos* |  |
-| `c1-l014` | &emsp;*de armar ricos, & luſtroſos. Vt,* Suichǒ |  |
+| `c1-l014` | &emsp;*de armar ricos, & luſtroſos. Vt, S*uichǒ |  |
 | `c1-l015` | &emsp;côqei. *Ornato deſtes panos, & alcatifas* |  |
 | `c1-l016` | &emsp;*ricas, ou colchas de carmeſim, &c.* |  |
-| `c1-l017` | Suichǔ. Mizzuno vchi. *Dentro na agoa.* |  |
-| `c1-l018` | Suichǔ. Nemurino vchi. *No meyo do ſono* |  |
-| `c1-l019` | Suicocu. Mizzu, come. *Agoa, & arroz.* |  |
+| `c1-l017` | *S*uichǔ. Mizzuno vchi. *Dentro na agoa.* |  |
+| `c1-l018` | *S*uichǔ. Nemurino vchi. *No meyo do ſono* |  |
+| `c1-l019` | *S*uicocu. Mizzu, come. *Agoa, & arroz.* |  |
 | `c1-l020` | &emsp;*Vt,* Suicocuuo tatçu. *Absterſe de comer,* |  |
 | `c1-l021` | &emsp;*& beber.* |  |
-| `c1-l022` | Suicomi, u, ôda. *Soruer, & engulir, ou* |  |
+| `c1-l022` | *S*uicomi, u, ôda. *Soruer, & engulir, ou* |  |
 | `c1-l023` | &emsp;*engulir, l, tragar chupando.* |  |
-| `c1-l024` | Suicuchi. *Couſa apetitoſa que ſe deita em algũ* |  |
+| `c1-l024` | *S*uicuchi. *Couſa apetitoſa que ſe deita em algũ* |  |
 | `c1-l025` | &emsp;*caldo pera lhe dar mais ſabor.* |  |
-| `c1-l026` | Suidai. *Elemento da agoa.* |  |
-| `c1-l027` | Suidǒ. Mizzuno michi. *Caminho da agoa.* |  |
-| `c1-l028` | Suifa. Mizzu, nami. *Agoa, & ondas.* |  |
+| `c1-l026` | *S*uidai. *Elemento da agoa.* |  |
+| `c1-l027` | *S*uidǒ. Mizzuno michi. *Caminho da agoa.* |  |
+| `c1-l028` | *S*uifa. Mizzu, nami. *Agoa, & ondas.* |  |
 | `c1-l029` | Suifai. Votoroye ſutaruru. *Deſtruirſe, ou* |  |
 | `c1-l030` | &emsp;*deſfazerſe.* |  |
 | `c1-l031` | Suifen. Mizzuno fotori. *Borda da agoa. Vt,* |  |
@@ -106,12 +106,12 @@ Lexical cross-check after the independent scan reading: Entry Words Data of Nipp
 | `c2-l023` | Suimô. Qeuo fuqu. *Vt,* Suimôno qen. |  |
 | `c2-l024` | &emsp;*Eſpada que corta, ou leua os cabelinhos, que* |  |
 | `c2-l025` | &emsp;*ſe ſoprão por cima. i, que corta muito bẽ.* |  |
-| `c2-l026` | Suimon. Mizzu cado. *Caminho, ou cano pe-* |  |
+| `c2-l026` | *S*uimon. Mizzu cado. *Caminho, ou cano pe-* |  |
 | `c2-l027` | &emsp;*ra verter as agoas fora.* |  |
-| `c2-l028` | Suimono. l, *Potiùs,* Soimono. *Sacana que* |  |
+| `c2-l028` | Suimono. l, *Potiùs, S*oimono. *Sacana que* |  |
 | `c2-l029` | &emsp;*ſe dà cozida com caldo pera fazer beber vi-* |  |
 | `c2-l030` | &emsp;*nho, ou por agaſalhado.* |  |
-| `c2-l031` | Suimu. *Sonho que ſe vè dormindo.* |  |
+| `c2-l031` | *S*uimu. *Sonho que ſe vè dormindo.* |  |
 | `c2-l032` | Suinan. Mizzuno nangui. *Trabalho, ou per-* |  |
 | `c2-l033` | &emsp;*da cauſada de agoa.* |  |
 | `c2-l034` | Suinen Votoroyuru toxi. *Annos, ou idade* |  |
@@ -121,7 +121,7 @@ Lexical cross-check after the independent scan reading: Entry Words Data of Nipp
 | `c2-l038` | Suiqi. Mizzuno qi. *Vapor, ou qualidade* |  |
 | `c2-l039` | &emsp;*oculta dagoa.* |  |
 | `c2-l040` | Suiqiǒ. Yoi gurui. *Bebedice, ou deſordem, q̃* |  |
-| `c2-l041` | &emsp;*procede de muito beber. Vt,* Suiqio ſuru. |  |
+| `c2-l041` | &emsp;*procede de muito beber. Vt, S*uiqio ſuru. |  |
 | `c2-l042` | Suiqio. Fuqi aguru. *O louuar, & engrãde-* |  |
 | `c2-l043` | &emsp;*cer algũa couſa.* |  |
 | `c2-l044` | Suiqiǒjin. *Bebado que faz deſordens, & de-* |  |

@@ -48,7 +48,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l032` | Subomari, u, atta. *Fechar, l, eſtreitarſe.* |  |
 | `c1-l033` | &emsp;*¶* Saxicaſaga ſubomaru. *Fecharſe o ſõ-* |  |
 | `c1-l034` | &emsp;*breiro que ſe leua de mão.* |  |
-| `c1-l035` | Subome, uru, eta. *Encolher, l, fechar.* |  |
+| `c1-l035` | *S*ubome, uru, eta. *Encolher, l, fechar.* |  |
 | `c1-l036` | &emsp;*¶* Caſauo ſubomuru. *Fechar o ſombreiro.* |  |
 | `c1-l037` | &emsp;*¶ Perme.* Cuchiuo ſubomete mǒſu. *Fa-* |  |
 | `c1-l038` | &emsp;*lar humilde, & encolhidamente.* |  |
@@ -58,7 +58,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l042` | Subori, u, otta. *Idem. ¶* Cuchiga ſubo- |  |
 | `c1-l043` | &emsp;ru l, cotobaga ſuboru. *Pronunciarſe a pa-* |  |
 | `c1-l044` | &emsp;*laura com acento lene: como* Qeô, qichô, *&c.* |  |
-| `c1-l045` | Sucado. *Muitas vezes.* |  |
+| `c1-l045` | *S*ucado. *Muitas vezes.* |  |
 | `c1-l046` | Sucagiô. *Muitos capitulos.* |  |
 | `c1-l047` | Sucajǒ. *Muitas fortalezas.* |  |
 
@@ -85,36 +85,36 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l011` | &emsp;*cos na taboa. ¶* Touo aqete cajeuo ſucaſu. |  |
 | `c2-l012` | &emsp;*Abrir a porta de maneira que paße o ven-* |  |
 | `c2-l013` | &emsp;*to de parte a parte.* |  |
-| `c2-l014` | Sucaxo. *Muitos lugares.* Sucaxono teuo |  |
+| `c2-l014` | Sucaxo. *Muitos lugares. S*ucaxono teuo |  |
 | `c2-l015` | &emsp;vô. *Receber muitas feridas.* |  |
 | `c2-l016` | Succarito. *Vide* Sucarito. |  |
 | `c2-l017` | Sucǒ. *Muito, ou multiplicação, & quantida-* |  |
 | `c2-l018` | &emsp;*de. Vt,* Ippôno xoua ſucǒno naqiuo |  |
 | `c2-l019` | &emsp;yoſu. *Hũa carta fez chorar muito. S.* |  |
 | `c2-l020` | Sucǒ i Axiqi co. *Melius, Socucǒ. Ruim aguila* |  |
-| `c2-l021` | Sucobore. *Falcão nouo q̃ ſahio hà pouco do ninho.* |  |
+| `c2-l021` | *S*ucobore. *Falcão nouo q̃ ſahio hà pouco do ninho.* |  |
 | `c2-l022` | Sucoburu. *Adu. Muito, ou grandemẽte. Vt,* |  |
-| `c2-l023` | &emsp;Sucoburu fonyuo ſomuqu. *Faltar muito* |  |
+| `c2-l023` | &emsp;*S*ucoburu fonyuo ſomuqu. *Faltar muito* |  |
 | `c2-l024` | &emsp;*cõ ſeu deuer como cõ obrigação de viſitar, &c.* |  |
 | `c2-l025` | Sucocu. Cazuno toqi. *Muitas horas.* |  |
 | `c2-l026` | Sucoxi. *Humpouco.* |  |
-| `c2-l027` | Sucui, ǔ, ǔta. *Tomar algũa couſa com co-* |  |
+| `c2-l027` | *S*ucui, ǔ, ǔta. *Tomar algũa couſa com co-* |  |
 | `c2-l028` | &emsp;*lher. l, com a mão à maneira de colher: Vt,* |  |
-| `c2-l029` | &emsp;Saixi jacuxi nite mexiuo ſucǔ. *Tirar* |  |
+| `c2-l029` | &emsp;*S*aixi jacuxi nite mexiuo ſucǔ. *Tirar* |  |
 | `c2-l030` | &emsp;*arroz cõ colher. ¶* Vuouo ſucǔ. *Peſcar cõ* |  |
 | `c2-l031` | &emsp;*certa rede como còuão. ¶ Itẽ,* Sucui, ǔ. *Li-* |  |
 | `c2-l032` | &emsp;*urar, ou ſaluar. Vt,* Banmino vreiuo ſucǔ. |  |
 | `c2-l033` | &emsp;*Liurar o pouo de moleſtias, & triſtezas.* |  |
-| `c2-l034` | Sucui ami. *Certa rede como cõuão que tem hum* |  |
+| `c2-l034` | *S*ucui ami. *Certa rede como cõuão que tem hum* |  |
 | `c2-l035` | &emsp;*cabo comprido de tomar peixe.* |  |
-| `c2-l036` | Sucui tori, ru, otta. *Peſcar, ou tomar pei-* |  |
+| `c2-l036` | *S*ucui tori, ru, otta. *Peſcar, ou tomar pei-* |  |
 | `c2-l037` | &emsp;*xe com eſta rede, ou còuão. Itẽ, Permet. Li-* |  |
 | `c2-l038` | &emsp;*urar, ou ſaluar.* |  |
-| `c2-l039` | Sucume, uru, eta. *Conſrenger, ou repri-* |  |
+| `c2-l039` | *S*ucume, uru, eta. *Conſrenger, ou repri-* |  |
 | `c2-l040` | &emsp;*mir. Vt,* Fitouo ſucumuru. *¶* Fito- |  |
 | `c2-l041` | &emsp;uo tori ſucumuru. *Ter mão em alguem por-* |  |
 | `c2-l042` | &emsp;*força de maneira que não bula.* |  |
-| `c2-l043` | Sucumete. *Adu. Por força, ou conſtrangẽdo.* |  |
+| `c2-l043` | *S*ucumete. *Adu. Por força, ou conſtrangẽdo.* |  |
 | `c2-l044` | Sucumi, u, ũda. *Eſtar tolheito, ou eſtar to-* |  |
 | `c2-l045` | &emsp;*do hirto. Vt,* Tachimachi gotaimo ſu- |  |
 | `c2-l046` | &emsp;cunde. *Encolhendoſe logo os membros ou* |  |

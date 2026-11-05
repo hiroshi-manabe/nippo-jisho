@@ -24,7 +24,7 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c1-l006` | Sorearuqi, qu, uita. *Andar como fugindo* |  |
 | `c1-l007` | &emsp;*decà peralà da conuerſação, & trato dos ho-* |  |
 | `c1-l008` | &emsp;*mens, &c.* |  |
-| `c1-l009` | Soreacu. l, ſoriacu. *Falta, ou deſcuido q̃ hũ co-* |  |
+| `c1-l009` | *S*oreacu. l, ſoriacu. *Falta, ou deſcuido q̃ hũ co-* |  |
 | `c1-l010` | &emsp;*mete de propoſito contra alguem. Vt,* Fitoni |  |
 | `c1-l011` | &emsp;ſoriacu ſuru. *Fazer falta pera cõ alguem.* |  |
 | `c1-l012` | Soregaxi. *Eu: palaura de que vſa ordinaria-* |  |
@@ -96,7 +96,7 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c2-l019` | Sororiſororito. *Adu. Deuagar, ou pouco a* |  |
 | `c2-l020` | Sororito. *Idem.* |  |
 | `c2-l021` | Soroſoroto. *Adu. Idem.* |  |
-| `c2-l022` | Soroye, uru, eta. *Ajuntar ou igualar cou-* |  |
+| `c2-l022` | *S*oroye, uru, eta. *Ajuntar ou igualar cou-* |  |
 | `c2-l023` | &emsp;*ſa da meſma laya. ¶* Yaſaqiuo ſoroyuru. |  |
 | `c2-l024` | &emsp;*Ajũtar, ou igualar as pontas das frechas como* |  |
 | `c2-l025` | &emsp;*quando tirão muitos juntamente. ¶* Cuchi- |  |

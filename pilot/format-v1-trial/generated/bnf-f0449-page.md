@@ -22,7 +22,7 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c1-l004` | Sosǒ. Araqi catachi. *Couſa mal feita, groſ-* |  |
 | `c1-l005` | &emsp;*ſeira, & toſca.* |  |
 | `c1-l006` | Soſo. *Pudenda mulieris.* |  |
-| `c1-l007` | Soſocǒxij. *Peßoa deſatentada, atabolhoada,* |  |
+| `c1-l007` | *S*oſocǒxij. *Peßoa deſatentada, atabolhoada,* |  |
 | `c1-l008` | &emsp;*& in quieta.* | *(Depreßa.* |
 | `c1-l009` | Sǒſocu. l, Saſſocu. *Aduerb.* Fayacu ſumiyaca. |  |
 | `c1-l010` | Sǒſocuna. *Couſa apreßada.* |  |
@@ -41,7 +41,7 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c1-l023` | &emsp;*goa come com a mão, Iſopo, &c. Vt,* Miz- |  |
 | `c1-l024` | &emsp;zuuo ſoſoqu. *Idem. ¶* Ame ſoſoqu. P. |  |
 | `c1-l025` | &emsp;*Chouiſcar.* |  |
-| `c1-l026` | Soſori, ſoru, ſotta. *Eſcolher, ou tomar cou-* |  |
+| `c1-l026` | *S*oſori, ſoru, ſotta. *Eſcolher, ou tomar cou-* |  |
 | `c1-l027` | &emsp;*ſas da meſma laya, & apartalas como Cha, me-* |  |
 | `c1-l028` | &emsp;*zinhas, &c. ¶* Soſorinoquru. *Eſco-* |  |
 | `c1-l029` | &emsp;*lhendo botar fora.* |  |

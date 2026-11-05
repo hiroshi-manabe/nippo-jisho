@@ -22,23 +22,23 @@ Lexical aid consulted after reading the scan: NINJAL, Hideyuki Ohshima and Taich
 | `c1-l004` | Sunca. Sunno itoma. *Vagar, ou breue tẽpo.* |  |
 | `c1-l005` | &emsp;*¶* Suncauo yezu. *Não tendo vagar nem* |  |
 | `c1-l006` | &emsp;*eſpaço breuiſimo.* |  |
-| `c1-l007` | Suncô. *Certo lugar onde ſe toma o pulſo, que* |  |
+| `c1-l007` | *S*uncô. *Certo lugar onde ſe toma o pulſo, que* |  |
 | `c1-l008` | &emsp;*reſponde ao primeiro dos tres dedos que he c* |  |
 | `c1-l009` | &emsp;*ĩdice cõ que os Chinas, & Iapões tomão o pulſo.* |  |
-| `c1-l010` | Sune. *Perna, ou pees.* |  |
-| `c1-l011` | Sune, nuru, eta. *Arrufarſe, ou moſtrarſe* |  |
+| `c1-l010` | *S*une. *Perna, ou pees.* |  |
+| `c1-l011` | *S*une, nuru, eta. *Arrufarſe, ou moſtrarſe* |  |
 | `c1-l012` | &emsp;*de ruim ſembrante com algum mao enſino, ou* |  |
-| `c1-l013` | &emsp;*teima. ¶* Sunemono. l, ſuneta mono. |  |
+| `c1-l013` | &emsp;*teima. ¶ S*unemono. l, ſuneta mono. |  |
 | `c1-l014` | &emsp;*Peßoa que ſe arrufa, & moſtra teimoſo, ou* |  |
 | `c1-l015` | &emsp;*mal enſinado.* |  |
 | `c1-l016` | Suneate. *Grebas, ou armas das pernas.* |  |
-| `c1-l017` | Sunen. Cazuno toxi. *Muitos annos.* |  |
-| `c1-l018` | Sungueqi. Sunno fima. *Vagar, ou breue tẽpo.* |  |
+| `c1-l017` | *S*unen. Cazuno toxi. *Muitos annos.* |  |
+| `c1-l018` | Sungueqi. *S*unno fima. *Vagar, ou breue tẽpo.* |  |
 | `c1-l019` | &emsp;*¶* Sũgueqiuoyezu. *Não tẽdo tẽpo nẽ vagar.* |  |
-| `c1-l020` | &emsp;*¶* Sungueqiga nai. *Não ter nem hum* |  |
+| `c1-l020` | &emsp;*¶ S*ungueqiga nai. *Não ter nem hum* |  |
 | `c1-l021` | &emsp;*tamanino de tempo, ou vagar.* |  |
 | `c1-l022` | Sunin. i, Amatano fito. *Muitos homẽs.* |  |
-| `c1-l023` | Sun-in. i, Sunno fima. *Pouco tempo, ou* |  |
+| `c1-l023` | Sun-in. i, *S*unno fima. *Pouco tempo, ou* |  |
 | `c1-l024` | &emsp;*vagar. S.* |  |
 | `c1-l025` | Sunjen. Sunno jen. i, Sucoxino jen. *Hũ* |  |
 | `c1-l026` | &emsp;*tamanino de virtude. Vt,* Sunjen xacu- |  |
@@ -51,15 +51,15 @@ Lexical aid consulted after reading the scan: NINJAL, Hideyuki Ohshima and Taich
 | `c1-l033` | &emsp;*mar a medida, ou tamanho da couſa.* |  |
 | `c1-l034` | Sunxacu. *Medida queſe toma. Vt,* Sunxa- |  |
 | `c1-l035` | &emsp;cuuo toru. |  |
-| `c1-l036` | Sunxi. Sunno cocorozaxi. *Pequeno agaſa-* |  |
+| `c1-l036` | *S*unxi. Sunno cocorozaxi. *Pequeno agaſa-* |  |
 | `c1-l037` | &emsp;*lhado, ou amor.* |  |
-| `c1-l038` | Sunzun. *Pedacinhos. Vt,* Sunzunni qiru. |  |
+| `c1-l038` | *S*unzun. *Pedacinhos. Vt,* Sunzunni qiru. |  |
 | `c1-l039` | &emsp;*Cortar em pedacinhos.* |  |
-| `c1-l040` | Suppa. *Engano, ou mentira.* |  |
-| `c1-l041` | Suppana mono. *Vadio, ou enganador, &c.* |  |
-| `c1-l042` | Suqe. *Pontalete. ¶* Suqeuo co. *Por* |  |
+| `c1-l040` | *S*uppa. *Engano, ou mentira.* |  |
+| `c1-l041` | *S*uppana mono. *Vadio, ou enganador, &c.* |  |
+| `c1-l042` | *S*uqe. *Pontalete. ¶* Suqeuo co. *Por* |  |
 | `c1-l043` | &emsp;*pontaletes como pera não cair a caſa, &c.* |  |
-| `c1-l044` | Suqe, uru. *Por algũa couſa de baixo doutra de* |  |
+| `c1-l044` | *S*uqe, uru. *Por algũa couſa de baixo doutra de* |  |
 | `c1-l045` | &emsp;*maneira que a ſoſtente, ou aleuante. Vt,* Fã- |  |
 | `c1-l046` | &emsp;daino ficui catani itauo ſuqei. *Metei de* |  |
 | `c1-l047` | &emsp;*baixo daquella parte da meſa mais baixa hũa* |  |
@@ -103,10 +103,10 @@ Faint numeral-like ink traces occur above the outer end of the top rule. They ar
 | `c2-l023` | Suqi. *Inclinação. ¶ Item, Arte, & ex-* |  |
 | `c2-l024` | &emsp;*ercicio do Chanoyu. ¶* Suqiuo ſuru. *Dar* |  |
 | `c2-l025` | &emsp;*ſe à arte do Chanoyu.* |  |
-| `c2-l026` | Suqi, u, uita. *Ser inclinado a algũa couſa.* |  |
+| `c2-l026` | *S*uqi, u, uita. *Ser inclinado a algũa couſa.* |  |
 | `c2-l027` | &emsp;*Vt,* Icuſa, chanoyu nadoni ſuqu. *Ser in-* |  |
 | `c2-l028` | &emsp;*clinado à guerra, Chanoyu, &c.* |  |
-| `c2-l029` | Suqi, u, uita. *Ser tranſparente.* |  |
+| `c2-l029` | *S*uqi, u, uita. *Ser tranſparente.* |  |
 | `c2-l030` | Suqi. l, ſuqima. *Greta, ou fenda. ¶ Itẽ,* |  |
 | `c2-l031` | &emsp;*per met. Tempo, ou vagar. Vt,* Fimano |  |
 | `c2-l032` | &emsp;ſuqiuo yezu. *Não ter tempo, ou eſpaçode* |  |
@@ -115,13 +115,13 @@ Faint numeral-like ink traces occur above the outer end of the top rule. They ar
 | `c2-l035` | Suqiconomi, u, ôda. *Ser inclinado, ou ami-* |  |
 | `c2-l036` | &emsp;*go de algũa couſa.* |  |
 | `c2-l037` | Suqifara. *O eſtar em jejum, ou não ter comido* |  |
-| `c2-l038` | &emsp;*nada. Vt,* Suqifarade gozaru. |  |
+| `c2-l038` | &emsp;*nada. Vt, S*uqifarade gozaru. |  |
 | `c2-l039` | Suqima. *Vide,* Suqi. |  |
 | `c2-l040` | Suqimano caje. *Vento que vem coado por al-* |  |
 | `c2-l041` | &emsp;*gũa porta, ou buraco, &c.* |  |
-| `c2-l042` | Sǔqiô. i, Cuſa caru vonoco. *Homem baixo* |  |
+| `c2-l042` | *S*ǔqiô. i, Cuſa caru vonoco. *Homem baixo* |  |
 | `c2-l043` | &emsp;*que corta erua.* |  |
-| `c2-l044` | Suqitouori, u, otta. *Ser tranſparente.* |  |
+| `c2-l044` | *S*uqitouori, u, otta. *Ser tranſparente.* |  |
 | `c2-l045` | Suqixa. *Peßoa dada ao exercicio, & arte do* |  |
 | `c2-l046` | &emsp;*chanoyu.* |  |
 | `c2-l047` | Suquan. Cazu, maqi. *Muitos liuros, ou par-* |  |

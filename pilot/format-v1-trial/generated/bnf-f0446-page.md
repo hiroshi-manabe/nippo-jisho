@@ -36,13 +36,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l020` | &emsp;Caqi ſonzuru. *Errar no eſcreuer. ¶* Yo- |  |
 | `c1-l021` | &emsp;miſonzuru. *Errar no ler. ¶* Iuoga ſon- |  |
 | `c1-l022` | &emsp;jita. *Danouſe, ou corrompeoſe o peixe, &c.* |  |
-| `c1-l023` | Sonin. l, Sojin. Tadano fito. *Homem co-* |  |
+| `c1-l023` | *S*onin. l, *S*ojin. Tadano fito. *Homem co-* |  |
 | `c1-l024` | &emsp;*mum, ou ordinario.* |  |
-| `c1-l025` | Sonin. Vttayuru fito. *Acuſador, ou autor* |  |
+| `c1-l025` | *S*onin. Vttayuru fito. *Acuſador, ou autor* |  |
 | `c1-l026` | &emsp;*na demanda.* |  |
 | `c1-l027` | Sǒnin. Vranai ſuru fito. *Adiuinho, ou fei-* |  |
 | `c1-l028` | &emsp;*ticeiro.* |  |
-| `c1-l029` | Sonjin. Muranofito. *Homẽ da pouoação. S.* |  |
+| `c1-l029` | *S*onjin. Muranofito. *Homẽ da pouoação. S.* |  |
 | `c1-l030` | Sonmei. i, Tattoqi vôxe. *Mandado de peſ-* |  |
 | `c1-l031` | &emsp;*ſoa alta.* |  |
 | `c1-l032` | Sonmǒ. *Vide* Sonbǒ. *Perda, ou dano.* |  |
@@ -93,7 +93,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l019` | &emsp;*ſoa nobre.* |  |
 | `c2-l020` | Sonriǒ. Tattoqi tamaxij. *Alma, ou eſ-* |  |
 | `c2-l021` | &emsp;*piritu de peßoa nobrej a morta. S.* |  |
-| `c2-l022` | Sonrǒ. Murano toxiyori. *Velho, ou cabe-* |  |
+| `c2-l022` | *S*onrǒ. Murano toxiyori. *Velho, ou cabe-* |  |
 | `c2-l023` | &emsp;*ça principal dalgũa pouoação.* |  |
 | `c2-l024` | Sonrǒ. Tattoqi toxiyori. *Velho honrado,* |  |
 | `c2-l025` | &emsp;*ou ſancto.* |  |

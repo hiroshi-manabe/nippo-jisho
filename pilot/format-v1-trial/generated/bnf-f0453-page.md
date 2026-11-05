@@ -23,18 +23,18 @@ Lexical cross-check after the independent scan reading: Entry Words Data of Nipp
 | `c1-l005` | &emsp;*fazer nada.* |  |
 | `c1-l006` | Sucumo. i, Nuca. *Caſca de arroz, tri-* |  |
 | `c1-l007` | &emsp;*go, &c.* |  |
-| `c1-l008` | Sucunai. *Couſa pouca.* |  |
-| `c1-l009` | &emsp;Sucunaſa. |  |
-| `c1-l010` | &emsp;Sucunǒ. l, Sucunacu. *Adu.* |  |
+| `c1-l008` | *S*ucunai. *Couſa pouca.* |  |
+| `c1-l009` | &emsp;*S*ucunaſa. |  |
+| `c1-l010` | &emsp;Sucunǒ. l, *S*ucunacu. *Adu.* |  |
 | `c1-l011` | Sucure, uru, eta. *Meliùs,* Sucumi, u. *Vt,* |  |
 | `c1-l012` | &emsp;Vmano axiga ſucureta. *Eſtarem os pes do* |  |
 | `c1-l013` | &emsp;*caualo como hirtos, ou tropegos de não andar,* |  |
 | `c1-l014` | &emsp;*ou eſtar muito tempo na eſtrebaria ſem ſajr.* |  |
-| `c1-l015` | Sucuyacana. *Peßoa forte, ou eſforçada.* |  |
-| `c1-l016` | &emsp;Sucuyacani. Sucuyacaſa. |  |
+| `c1-l015` | *S*ucuyacana. *Peßoa forte, ou eſforçada.* |  |
+| `c1-l016` | &emsp;*S*ucuyacani. *S*ucuyacaſa. |  |
 | `c1-l017` | Sudachi. tçu, da ta. *Sairem os paßaros do* |  |
 | `c1-l018` | &emsp;*ninho a primeira vez.* |  |
-| `c1-l019` | Sudachi. *Vt,* Sudachiuo ſuru. *Idem.* |  |
+| `c1-l019` | *S*udachi. *Vt,* Sudachiuo ſuru. *Idem.* |  |
 | `c1-l020` | Sudai. Cazuno yo. *Muitas idades.* |  |
 | `c1-l021` | Sudaqi, u. *Cantarem os bichinhos juntos co-* |  |
 | `c1-l022` | &emsp;*mo grilos.* |  |
@@ -43,7 +43,7 @@ Lexical cross-check after the independent scan reading: Entry Words Data of Nipp
 | `c1-l025` | &emsp;ni cotobauo cauaſu. *Falar algũa couſa tẽ-* |  |
 | `c1-l026` | &emsp;*do entre meo algũa eſteira deſtas.* |  |
 | `c1-l027` | Sudeni. *Adu. Ia ja, ou quaſi ja a ponto, em-* |  |
-| `c1-l028` | &emsp;*perigo, &c. Vt,* Sudeni xinoto itaita. |  |
+| `c1-l028` | &emsp;*perigo, &c. Vt, S*udeni xinoto itaita. |  |
 | `c1-l029` | &emsp;*Eſteue ja quaſi a ponto de morrer.* |  |
 | `c1-l030` | Sudeni faya. *Idem.* |  |
 | `c1-l031` | Sudo. Cazuno tabi. *Muitas vezes.* |  |
@@ -57,7 +57,7 @@ Lexical cross-check after the independent scan reading: Entry Words Data of Nipp
 | `c1-l039` | &emsp;*de vinho. ¶* Sufai cudaſarete tabeyô. |  |
 | `c1-l040` | &emsp;*Bebendo muitas vezes, ou copos de vinho em* |  |
 | `c1-l041` | &emsp;*bebedarſe.* |  |
-| `c1-l042` | Sufajicami. *Ienjiure em vinagre, l, em achar.* |  |
+| `c1-l042` | *S*ufajicami. *Ienjiure em vinagre, l, em achar.* |  |
 | `c1-l043` | Sufen. *Vt,* Sufenno qiǒ. *Muitas partes de* |  |
 | `c1-l044` | &emsp;*liuros. ¶ Itẽ, Muitas vezes. Vt,* Sufen me- |  |
 | `c1-l045` | &emsp;xi, ſaqega mairu. *Vir muitas vezes vinho,* |  |
@@ -120,12 +120,12 @@ Lexical cross-check after the independent scan reading: Entry Words Data of Nipp
 | `c2-l038` | Suguegaſa. *Chapeos feitos desta erua.* |  |
 | `c2-l039` | Suguenai. *Couſa riſpida, l, pouco apraziuel.* |  |
 | `c2-l040` | &emsp;*¶* Suguenai fito. *Homem riſpido, & ſeco.* |  |
-| `c2-l041` | &emsp;*¶* Suguenai qi. *Pao, ou aruore pouco a-* |  |
+| `c2-l041` | &emsp;*¶ S*uguenai qi. *Pao, ou aruore pouco a-* |  |
 | `c2-l042` | &emsp;*praziuel, & airoſa.* |  |
 | `c2-l043` | &emsp;Suguenaſa. |  |
 | `c2-l044` | &emsp;Suguenǒ. *Adu.* i, Naſaqenǒ. *Se-* |  |
 | `c2-l045` | &emsp;*ca, ou riſpidamente.* |  |
-| `c2-l046` | Suguet. Cazuno tçuqi. *Muitas lũas, ou* |  |
+| `c2-l046` | *S*uguet. Cazuno tçuqi. *Muitas lũas, ou* |  |
 | `c2-l047` | &emsp;*meſes.* |  |
 
 ## Printed signature

@@ -32,7 +32,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l016` | &emsp;*aruores, ou eruas com o vento.* |  |
 | `c1-l017` | Sôza. Tçucaſadoru yaxiro. *Ermida princi-* |  |
 | `c1-l018` | &emsp;*pal dos Camis que he como cabeça das outras.* |  |
-| `c1-l019` | Sǒza. Cuſano za. *Aßento de eruas.* |  |
+| `c1-l019` | *S*ǒza. Cuſano za. *Aßento de eruas.* |  |
 | `c1-l020` | Sôzan. *Todas as teras, ou ermidas dos mon-* |  |
 | `c1-l021` | &emsp;*tes, ou do campo.* |  |
 | `c1-l022` | Sôzanyô. *Soma, ou cõta em gèral de tudo.* |  |
@@ -95,7 +95,7 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c2-l012` | SV. *Ninho de paſſaros. ¶* Suuo caqu- |  |
-| `c2-l013` | &emsp;ru. l, cǔ. *Fazer ninho. ¶* Suuo fa- |  |
+| `c2-l013` | &emsp;ru. l, cǔ. *Fazer ninho. ¶ S*uuo fa- |  |
 | `c2-l014` | &emsp;naruru. l, ſudachiuo ſuru. *Sair do ninho.* |  |
 | `c2-l015` | &emsp;*¶* Suuo tatçu. l, ſubanareuo ſuru. *Idem.* |  |
 | `c2-l016` | Su. *Coroa de area, reſtinga, ou baixo darea fo-* |  |

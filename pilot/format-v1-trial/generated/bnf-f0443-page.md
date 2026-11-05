@@ -17,13 +17,13 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c1-l001` | &emsp;*nidade real. Vt,* Goſocuide gozaru. |  |
-| `c1-l002` | Socuji. l, Socujini. Sunauachino toqi. *Logo.* |  |
-| `c1-l003` | Socujǒzzugue. Axiuo vyeni, caxirauo xi- |  |
+| `c1-l002` | *S*ocuji. l, *S*ocujini. Sunauachino toqi. *Logo.* |  |
+| `c1-l003` | *S*ocujǒzzugue. Axiuo vyeni, caxirauo xi- |  |
 | `c1-l004` | &emsp;tani. *De pees pera cima, & de cabeça pera* |  |
 | `c1-l005` | &emsp;*baixo. i, totalmente às aueſas. S.* |  |
-| `c1-l006` | Socumet. i, Sunauachi meſsuru. *Deſtruição.* |  |
-| `c1-l007` | Socunan. Vonoco. *Varão.* |  |
-| `c1-l008` | Socuſan fengi. *Ilhas vezinhas a algum reino* |  |
+| `c1-l006` | *S*ocumet. i, *S*unauachi meſsuru. *Deſtruição.* |  |
+| `c1-l007` | *S*ocunan. Vonoco. *Varão.* |  |
+| `c1-l008` | *S*ocuſan fengi. *Ilhas vezinhas a algum reino* |  |
 | `c1-l009` | &emsp;*grande, ou terra firme.* |  |
 | `c1-l010` | Socutacu. i, Zaxxǒ. *Preſente como de vi-* |  |
 | `c1-l011` | &emsp;*nho, couſas de comer, &c.* |  |
@@ -48,10 +48,10 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | `c1-l030` | &emsp;*¶* Fitouo toriſodatçuru. *Criar a alguẽ, ou* |  |
 | `c1-l031` | &emsp;*fazelo homem. ¶* Qiuo vye ſodatçuru. |  |
 | `c1-l032` | &emsp;*Plantar, & criar aruores.* |  |
-| `c1-l033` | Sode. *Mãgas. ¶* Sodeuo nuraſu. *Deſ-* |  |
+| `c1-l033` | Sode. *Mãgas. ¶ S*odeuo nuraſu. *Deſ-* |  |
 | `c1-l034` | &emsp;*fazerſe em lagrimas. ¶* Sodega nururu. |  |
 | `c1-l035` | &emsp;*Idem. ¶* Sodeuo xiboru. *Chorar muito.* |  |
-| `c1-l036` | &emsp;*¶* Sodeuo tçuranuru. *Eſtar muita gente* |  |
+| `c1-l036` | &emsp;*¶ S*odeuo tçuranuru. *Eſtar muita gente* |  |
 | `c1-l037` | &emsp;*junta, ou em companhia de muitos.* |  |
 | `c1-l038` | Sodeboſo. *Veſtido de pelles como coura que ſe* |  |
 | `c1-l039` | &emsp;*veſte por cima.* |  |
@@ -96,39 +96,39 @@ The figures 224 are clear. The damaged adjacent mark is represented as the termi
 | `c2-l012` | &emsp;*não ſe pode aduertir, ou entender na meditação.* |  |
 | `c2-l013` | &emsp;*¶* Cuniga ſôdǒſuru. *Perturbarſe o reino,* |  |
 | `c2-l014` | &emsp;*ou auer reuoltas nelle.* |  |
-| `c2-l015` | Sǒdǒ. *Vt,* Sǒ, dǒ, buden, curi, ſanmon. |  |
+| `c2-l015` | *S*ǒdǒ. *Vt, S*ǒ, dǒ, buden, curi, ſanmon. |  |
 | `c2-l016` | &emsp;*Cinco lugares, ou caſas eſtimadas ẽtre os bõzos* |  |
 | `c2-l017` | &emsp;*ſ. A caſa, ou mosteiro de Bonzos, a Igreja* |  |
 | `c2-l018` | &emsp;*onde fazem os officios e ſe ajunta o pouo, capel* |  |
 | `c2-l019` | &emsp;*la, ou oratorio õde poẽ o Fotoque, cozinha, &* |  |
 | `c2-l020` | &emsp;*hũa caſa, ou portal de ſobrado õde estão muitos* |  |
 | `c2-l021` | &emsp;*Idolos que dizẽ ſerem os diſcipulos do Fotoque.* |  |
-| `c2-l022` | Sǒdǒ. Cuſano dǒ, i, ſoſǒna dǒ. *Ermida* |  |
+| `c2-l022` | *S*ǒdǒ. Cuſano dǒ, i, ſoſǒna dǒ. *Ermida* |  |
 | `c2-l023` | &emsp;*cuberta de palha, ou malfeita.* |  |
-| `c2-l024` | Sǒfa. Vmi, nami. *Mar. Vt* Sǒfa banri |  |
+| `c2-l024` | *S*ǒfa. Vmi, nami. *Mar. Vt S*ǒfa banri |  |
 | `c2-l025` | &emsp;uo xinogu. *Paßar grandes mares com tra-* |  |
 | `c2-l026` | &emsp;*balho.* |  |
-| `c2-l027` | Sǒfan. Fayai iy. *Iantar cedo.* |  |
-| `c2-l028` | Sofeqi. Voroſocana cabe. *Parede mal fei-* |  |
+| `c2-l027` | *S*ǒfan. Fayai iy. *Iantar cedo.* |  |
+| `c2-l028` | *S*ofeqi. Voroſocana cabe. *Parede mal fei-* |  |
 | `c2-l029` | &emsp;*ta, velha, & deſmãchada. Vt,* Sofeqi, faſô. |  |
 | `c2-l030` | &emsp;*Paredes, portas, ou janelas velhas, & desfeitas.* |  |
-| `c2-l031` | Sǒfit. Fayai fude. *Peßoa que eſcreue de preßa.* |  |
-| `c2-l032` | Sǒfitna. *Idem.* |  |
-| `c2-l033` | Sǒfǒ. *Ambas as partes.* |  |
-| `c2-l034` | Sogacu. Voroſocani manabu. *Estudo de pou-* |  |
+| `c2-l031` | *S*ǒfit. Fayai fude. *Peßoa que eſcreue de preßa.* |  |
+| `c2-l032` | *S*ǒfitna. *Idem.* |  |
+| `c2-l033` | *S*ǒfǒ. *Ambas as partes.* |  |
+| `c2-l034` | *S*ogacu. Voroſocani manabu. *Estudo de pou-* |  |
 | `c2-l035` | &emsp;*co tomo, ou estudo, que hum fez com pouco* |  |
-| `c2-l036` | &emsp;*cuidado, & diligẽcia imperfeita. Vt,* Sogacuna |  |
+| `c2-l036` | &emsp;*cuidado, & diligẽcia imperfeita. Vt, S*ogacuna |  |
 | `c2-l037` | &emsp;fito. *Homem imperfeito nas letras, ou que* |  |
 | `c2-l038` | &emsp;*estuda desta maneira ſem cuidado, &c.* |  |
-| `c2-l039` | Sǒgan. Narabu manaco. i, Riǒgan. *Am-* |  |
+| `c2-l039` | *S*ǒgan. Narabu manaco. i, Riǒgan. *Am-* |  |
 | `c2-l040` | &emsp;*bos os olhos. Vt,* Sǒganni nanda vcabu. |  |
 | `c2-l041` | &emsp;*Estarem ambos os olhos arraſados ẽ lagrimas.* |  |
-| `c2-l042` | Sôguan. l, ſôquan. *Hũa dignidade de Bon-* |  |
+| `c2-l042` | *S*ôguan. l, ſôquan. *Hũa dignidade de Bon-* |  |
 | `c2-l043` | &emsp;*zos.* |  |
-| `c2-l044` | Sôguedachi, u. *Arrepiarenſe todos os cabellos.* |  |
-| `c2-l045` | Sôgueqi. Sauagui, midaru. *Perturbação.* |  |
+| `c2-l044` | *S*ôguedachi, u. *Arrepiarenſe todos os cabellos.* |  |
+| `c2-l045` | *S*ôgueqi. *S*auagui, midaru. *Perturbação.* |  |
 | `c2-l046` | &emsp;*Vt,* Cuniga ſôgueqi ſuru. *Perturbarſe o reino.* |  |
-| `c2-l047` | Sôguet. Ximotçuqi. *Vndecima lũa, ou mes* |  |
+| `c2-l047` | *S*ôguet. Ximotçuqi. *Vndecima lũa, ou mes* |  |
 
 ## Printed catchword
 
