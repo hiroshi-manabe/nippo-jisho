@@ -26,7 +26,7 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | `c1-l008` | &emsp;*garenſe eſtas eruas.* |  |
 | `c1-l009` | Saxi, ſu, aita. *Apontar, ou moſtrar. Vt,* |  |
 | `c1-l010` | &emsp;Yubiuo ſaſu. *Apontar com o dedo. ¶* A- |  |
-| `c1-l011` | &emsp;meno furuga gotuqu yatçubouo ſaxitezo |  |
+| `c1-l011` | &emsp;m*e*no furuga gotuqu yatçubouo ſaxitezo |  |
 | `c1-l012` | &emsp;itariqeru. Taif. *Lib. 26. Apontando* |  |
 | `c1-l013` | &emsp;*com o arco no lugar onde queria dar, atirou tan-* |  |
 | `c1-l014` | &emsp;*tas ſetas que parecia chuua. ¶* Caſauo ſa- |  |
@@ -47,7 +47,7 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | `c1-l029` | &emsp;*torno. ¶* Xiuoga ſaſu. *Vir enchendo a* |  |
 | `c1-l030` | &emsp;*marè. ¶* Toriuo ſaſu. *Tomar paßaros* |  |
 | `c1-l031` | &emsp;*com ponta de bambu enuiſcado. ¶ Item,* |  |
-| `c1-l032` | &emsp;Saſu. *Morder a cobra, picar a abelha, moſ-* |  |
+| `c1-l032` | &emsp;*S*aſu. *Morder a cobra, picar a abelha, moſ-* |  |
 | `c1-l033` | &emsp;*quito, &c. Vt,* Fachiga ſaſu. *Picar a* |  |
 | `c1-l034` | &emsp;*abelha. ¶ Item, Dar eſtocada. Vt,* Na- |  |
 | `c1-l035` | &emsp;nacatana made ſaita. *Deu lhe ſete estocadas* |  |
@@ -61,8 +61,8 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | `c1-l043` | Saxiague, uru, eta. *Aleuantar com a mão.* |  |
 | `c1-l044` | &emsp;*¶* Fatauo ſaxiaguru. *Aruorar as ban-* |  |
 | `c1-l045` | &emsp;*deiras.* |  |
-| `c1-l046` | Saxiai. *O encontrarſe, ou conuerſar com ou-* |  |
-| `c1-l047` | &emsp;*tro. Vt,* Saxiaino yoi fito. *Homem de* |  |
+| `c1-l046` | *S*axiai. *O encontrarſe, ou conuerſar com ou-* |  |
+| `c1-l047` | &emsp;*tro. Vt, S*axiaino yoi fito. *Homem de* |  |
 | `c1-l048` | &emsp;*boa conuerſação.* |  |
 
 ## Column 2 running header
@@ -88,46 +88,46 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | `c2-l005` | &emsp;renganiua ſaxiaiga vouoi. *Neſta cantiga* |  |
 | `c2-l006` | &emsp;*ou verſo ha muitos erros, quebras, ou faltas.* |  |
 | `c2-l007` | Saxiatari, u, atta. *Ser neceßario, ou perten-* |  |
-| `c2-l008` | &emsp;*cer. ¶* Saxiatatta cotode naquua nobei. |  |
+| `c2-l008` | &emsp;*cer. ¶ S*axiatatta cotode naquua nobei. |  |
 | `c2-l009` | &emsp;*Se não for couſa muito importante dilatai.* |  |
-| `c2-l010` | Saxiatatte. *Particularmente, ou nalgum caſo* |  |
+| `c2-l010` | *S*axiatatte. *Particularmente, ou nalgum caſo* |  |
 | `c2-l011` | &emsp;*particular.* |  |
-| `c2-l012` | Saxiatçumari, ru, atta. *Ajuntarſe gente de* |  |
+| `c2-l012` | *S*axiatçumari, ru, atta. *Ajuntarſe gente de* |  |
 | `c2-l013` | &emsp;*varias partes.* |  |
-| `c2-l014` | Saxiate, tçuru, eta. *Apontando tocar. Vt,* |  |
-| `c2-l015` | &emsp;Saxiateta iqenuo yǔ. *Dar conſelho mani-* |  |
+| `c2-l014` | *S*axiate, tçuru, eta. *Apontando tocar. Vt,* |  |
+| `c2-l015` | &emsp;*S*axiateta iqenuo yǔ. *Dar conſelho mani-* |  |
 | `c2-l016` | &emsp;*festamente ſem rodeos, &c.* |  |
 | `c2-l017` | Saxiategai, ǒ, ǒta. *Apontar. Vt,* Tep- |  |
 | `c2-l018` | &emsp;pôuo ſaxiategǒte fanaſu. *Apontando cõ* |  |
 | `c2-l019` | &emsp;*a eſpingarda deſparar.* |  |
 | `c2-l020` | Saxiauaxe, ſuru, eta. *Ajuntar hũa couſa cõ* |  |
-| `c2-l021` | &emsp;*outra. Vt,* Saxiauaxete xuju mutçuca- |  |
+| `c2-l021` | &emsp;*outra. Vt, S*axiauaxete xuju mutçuca- |  |
 | `c2-l022` | &emsp;xij cotoga qiſoi qitaru. *Ajuntandoſe mui-* |  |
 | `c2-l023` | &emsp;*tas couſas ſobreuirem muitos embaraços.* |  |
-| `c2-l024` | Saxiba. *Falcão pequeno.* |  |
-| `c2-l025` | Saxibixacu. *Hũa maneira de coco com cabo* |  |
+| `c2-l024` | *S*axiba. *Falcão pequeno.* |  |
+| `c2-l025` | *S*axibixacu. *Hũa maneira de coco com cabo* |  |
 | `c2-l026` | &emsp;*pera tirar, ou tomar agoa, que ſe leua na cinta.* |  |
-| `c2-l027` | Saxicacari, u, atta. *Eſtar de cima como de-* |  |
+| `c2-l027` | *S*axicacari, u, atta. *Eſtar de cima como de-* |  |
 | `c2-l028` | &emsp;*pendurado, ou pera cair, &c. ¶* Qino |  |
 | `c2-l029` | &emsp;yeda mizzuni ſaxicacaru. *Estarem os ra-* |  |
 | `c2-l030` | &emsp;*mos daruore ſaidos, ou caidos ſobre a agoa* |  |
-| `c2-l031` | Saxicamaye, uru, eta. *Eſtar eſperando. Vt,* |  |
+| `c2-l031` | *S*axicamaye, uru, eta. *Eſtar eſperando. Vt,* |  |
 | `c2-l032` | &emsp;Saxicamayetaru ninju. *Gente q̃ eſperaua.* |  |
-| `c2-l033` | Saxicaqe. *O fazer algũa maneira de caſa toſ-* |  |
-| `c2-l034` | &emsp;*ca, & imperfeitamente. Vt,* Saxicaqeuo |  |
+| `c2-l033` | *S*axicaqe. *O fazer algũa maneira de caſa toſ-* |  |
+| `c2-l034` | &emsp;*ca, & imperfeitamente. Vt, S*axicaqeuo |  |
 | `c2-l035` | &emsp;ſuru. |  |
-| `c2-l036` | Saxicarami, u, ǒda. *Cercar, & rodear cõ* |  |
+| `c2-l036` | *S*axicarami, u, ǒda. *Cercar, & rodear cõ* |  |
 | `c2-l037` | &emsp;*gente pera que não fuja alguem, &c. Vt,* |  |
-| `c2-l038` | &emsp;Fappôuo ninjude ſaxicaramu. *Cercar por* |  |
+| `c2-l038` | &emsp;Fappǒuo ninjude ſaxicaramu. *Cercar por* |  |
 | `c2-l039` | &emsp;*todas as partes com gente.* |  |
 | `c2-l040` | Saxicaſa. *Sombreiro de mão pera o ſol, ou* |  |
 | `c2-l041` | &emsp;*chuua.* |  |
-| `c2-l042` | Saxicata. *Ombros desformemente aleuantados.* |  |
-| `c2-l043` | &emsp;*Vt,* Saxicatano fito. *Homem com esta de-* |  |
+| `c2-l042` | *S*axicata. *Ombros desformemente aleuantados.* |  |
+| `c2-l043` | &emsp;*Vt, S*axicatano fito. *Homem com esta de-* |  |
 | `c2-l044` | &emsp;*formidade dos ombros eminentes.* |  |
 | `c2-l045` | Saxicatame, uru, eta. *Armarſe, ou vestir* |  |
 | `c2-l046` | &emsp;*armas. ¶* Cote, coguſocuuo ſaxicata- |  |
-| `c2-l047` | &emsp;meta. *Tomãdo os braceletes, & golla, &c.* |  |
+| `c2-l047` | &emsp;meta. *Tomãdo os braceletes, & gòlla, &c.* |  |
 
 ## Printed signature
 
