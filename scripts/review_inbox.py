@@ -29,6 +29,33 @@ def save(path, value):
 def run(*args):
     return subprocess.check_output(args, cwd=ROOT, text=True)
 
+def publish_alignments(ledger):
+    """Retry known alignment-only commits, never unrelated local changes."""
+    pending = {job['commit']: job for job in ledger['jobs'].values()
+               if job.get('kind') == 'alignment' and job['status'] == 'publication_pending'}
+    ahead = set(run('git', 'rev-list', '@{upstream}..HEAD').split()) if pending else set()
+    for commit, job in pending.items():
+        if commit not in ahead:
+            try:
+                run('git', 'merge-base', '--is-ancestor', commit, '@{upstream}')
+            except subprocess.CalledProcessError:
+                continue
+            job['status'] = 'succeeded'
+            job.pop('publication_error', None)
+    if not ahead or not ahead <= pending.keys():
+        return
+    try:
+        if run('git', 'rev-list', '--count', 'HEAD..@{upstream}').strip() != '0':
+            raise RuntimeError('Upstream has diverged; manual publication required.')
+        run('git', 'push')
+    except (subprocess.CalledProcessError, RuntimeError) as exc:
+        for commit in ahead:
+            pending[commit]['publication_error'] = str(exc)
+    else:
+        for commit in ahead:
+            pending[commit]['status'] = 'succeeded'
+            pending[commit].pop('publication_error', None)
+
 
 def discover_results(incoming, ledger, now):
     jobs = []
@@ -148,6 +175,7 @@ def cycle():
         for job in ledger['jobs'].values():
             if job['status'] == 'running':
                 job['status'] = 'interrupted_needs_manual_check'
+        publish_alignments(ledger)
         jobs = discover_results(INCOMING, ledger, time.time())
         open_numbers = None
         try:
@@ -180,8 +208,15 @@ def cycle():
                 break
             # A clean checkout can still contain an unpushed failed publication.
             if run('git', 'rev-list', '--count', '@{upstream}..HEAD').strip() != '0':
-                ledger['paused'] = 'Unpushed commits exist; manual publication check required.'
-                break
+                pending = {j['commit'] for j in ledger['jobs'].values()
+                           if j.get('kind') == 'alignment' and j['status'] == 'publication_pending'}
+                ahead = set(run('git', 'rev-list', '@{upstream}..HEAD').split()) if pending else set()
+                if not ahead or not ahead <= pending:
+                    ledger['paused'] = 'Unpushed commits exist; manual publication check required.'
+                    break
+                if spec['kind'] != 'alignment':
+                    ledger['paused'] = 'Issue and external applications await alignment publication.'
+                    continue
             ledger.pop('paused', None)
             record = {k: v for k, v in spec.items() if k != 'body'}
             record.update(status='running', attempted_at=time.time())
@@ -211,7 +246,9 @@ def cycle():
                     asset=f'site/assets/alignment/{spec["page"]}.json'
                     run('git','add','--',asset)
                     run('git','commit','-m',f'Generate aligned baseline display for {spec["page"]}','--',asset)
-                    run('git','push')
+                    record.update(status='publication_pending', commit=run('git','rev-parse','HEAD').strip())
+                    save(path, ledger)
+                    publish_alignments(ledger)
                 if result.returncode == 0 and spec['kind'] == 'external':
                     from process_correction_issue import wait_for_deployment
                     # The importer deliberately does not own deployment polling.
@@ -232,7 +269,10 @@ def cycle():
         questions = json.loads(questions_path.read_text())['pages'] if questions_path.exists() else {}
         pending = {pid: len([q for q in items if q.get('status') == 'pending']) for pid, items in questions.items()}
         pending = {pid: count for pid, count in pending.items() if count}
-        save(STATE / 'status.json', {'jobs': summary, 'closures': ledger.get('closures', {}), 'pending_questions': pending, 'paused': ledger.get('paused'), 'discovery_error': ledger.get('discovery_error')})
+        publication = {v['page']: {'commit': v['commit'], 'error': v.get('publication_error')}
+                       for v in ledger['jobs'].values()
+                       if v.get('kind') == 'alignment' and v['status'] == 'publication_pending'}
+        save(STATE / 'status.json', {'jobs': summary, 'closures': ledger.get('closures', {}), 'pending_questions': pending, 'alignment_publication_pending': publication, 'paused': ledger.get('paused'), 'discovery_error': ledger.get('discovery_error')})
         print(json.dumps({'jobs': summary, 'paused': ledger.get('paused'), 'discovery_error': ledger.get('discovery_error')}, indent=2))
 
 

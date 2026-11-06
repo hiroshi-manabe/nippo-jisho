@@ -123,10 +123,13 @@ After Issue and external-result applications, the runner attempts at most one
 alignment page per cycle under the same lock. AI-commentary-reviewed pages with
 no applied human Issues take priority over human-reviewed pages. Baseline,
 geometry, model metadata and generator code fingerprint each attempt; unchanged
-failures are not retried. Successful assets are built, committed and pushed.
-Pre-commit failures restore the prior asset; failed pushes require publication
-recovery as with other jobs. Existing validated f230 data is preserved until its
-baseline changes.
+generation failures are not retried. Successful assets are built and committed
+locally. If publication fails, the runner records `publication_pending` and
+retries the alignment-only commits on later cycles without regenerating them.
+Local alignment generation can continue; Issue and external-result applications
+wait for publication. The runner never force-pushes or automatically publishes
+unrelated local commits. Pre-commit failures restore the prior asset. Existing
+validated f230 data is preserved until its baseline changes.
 
 The corrected general generator uses saved isolated, rectified OCR crops and
 replays their extraction on coordinate fields to recover native-scan mappings.

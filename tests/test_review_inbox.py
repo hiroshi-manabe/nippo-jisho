@@ -11,6 +11,30 @@ import external_ai_review as review
 
 
 class InboxTests(unittest.TestCase):
+    def test_alignment_publication_retries_without_regeneration(self):
+        job = {'kind': 'alignment', 'status': 'publication_pending', 'commit': 'a'}
+        ledger = {'jobs': {'alignment:f446': job}}
+        with patch.object(inbox, 'run', side_effect=[
+            'a\n', '0', inbox.subprocess.CalledProcessError(1, ['git', 'push']),
+            'a\n', '0', '',
+        ]) as run:
+            inbox.publish_alignments(ledger)
+            self.assertEqual(job['status'], 'publication_pending')
+            self.assertIn('publication_error', job)
+            inbox.publish_alignments(ledger)
+            self.assertEqual(job['status'], 'succeeded')
+            self.assertNotIn('publication_error', job)
+            self.assertEqual(run.call_count, 6)
+
+    def test_alignment_publication_never_pushes_unknown_or_diverged_commits(self):
+        job = {'kind': 'alignment', 'status': 'publication_pending', 'commit': 'a'}
+        ledger = {'jobs': {'alignment:f446': job}}
+        for responses in (['a\nunknown\n'], ['a\n', '1']):
+            with patch.object(inbox, 'run', side_effect=responses) as run:
+                inbox.publish_alignments(ledger)
+                self.assertEqual(job['status'], 'publication_pending')
+                self.assertNotIn(('git', 'push'), [c.args for c in run.call_args_list])
+
     def test_find_input_uses_manifest_hash_across_relay_and_local_archives(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
