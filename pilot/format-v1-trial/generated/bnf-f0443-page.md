@@ -29,7 +29,7 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | `c1-l011` | &emsp;*nho, couſas de comer, &c.* |  |
 | `c1-l012` | Socutai, ǒ, ǒta. *Atauiarſe, ou ornarſe com* |  |
 | `c1-l013` | &emsp;*veſtido, & trajo limpo, & conueniente.* |  |
-| `c1-l014` | Socutai. *Ornato de veſtido. Vt,* Socutai |  |
+| `c1-l014` | S*o*cutai. *Ornato de veſtido. Vt,* Socutai |  |
 | `c1-l015` | &emsp;qeccôni gozatta. *O ornato, & luſtro do* |  |
 | `c1-l016` | &emsp;*trajo era excellente.* |  |
 | `c1-l017` | Socutçǔ. *Vaſo como tina que ſerue de latrinas.* |  |
@@ -96,16 +96,16 @@ The figures 224 are clear. The damaged adjacent mark is represented as the termi
 | `c2-l012` | &emsp;*não ſe pode aduertir, ou entender na meditação.* |  |
 | `c2-l013` | &emsp;*¶* Cuniga ſôdǒſuru. *Perturbarſe o reino,* |  |
 | `c2-l014` | &emsp;*ou auer reuoltas nelle.* |  |
-| `c2-l015` | *S*ǒdǒ. *Vt, S*ǒ, dǒ, buden, curi, ſanmon. |  |
+| `c2-l015` | *S*ǒdǒ. *Vt, S*ǒ, dǒ, buden, cur*i*, ſanmon. |  |
 | `c2-l016` | &emsp;*Cinco lugares, ou caſas eſtimadas ẽtre os bõzos* |  |
 | `c2-l017` | &emsp;*ſ. A caſa, ou mosteiro de Bonzos, a Igreja* |  |
 | `c2-l018` | &emsp;*onde fazem os officios e ſe ajunta o pouo, capel* |  |
 | `c2-l019` | &emsp;*la, ou oratorio õde poẽ o Fotoque, cozinha, &* |  |
 | `c2-l020` | &emsp;*hũa caſa, ou portal de ſobrado õde estão muitos* |  |
 | `c2-l021` | &emsp;*Idolos que dizẽ ſerem os diſcipulos do Fotoque.* |  |
-| `c2-l022` | *S*ǒdǒ. Cuſano dǒ, i, ſoſǒna dǒ. *Ermida* |  |
+| `c2-l022` | *S*ǒdǒ. Cuſano dǒ, i, ſoſǒna *d*ǒ. *Ermida* |  |
 | `c2-l023` | &emsp;*cuberta de palha, ou malfeita.* |  |
-| `c2-l024` | *S*ǒfa. Vmi, nami. *Mar. Vt S*ǒfa banri |  |
+| `c2-l024` | *S*ǒfa. Vmi, nam*i*. *Mar. Vt S*ǒfa banri |  |
 | `c2-l025` | &emsp;uo xinogu. *Paßar grandes mares com tra-* |  |
 | `c2-l026` | &emsp;*balho.* |  |
 | `c2-l027` | *S*ǒfan. Fayai iy. *Iantar cedo.* |  |

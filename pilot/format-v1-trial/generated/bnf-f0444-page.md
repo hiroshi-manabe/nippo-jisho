@@ -37,7 +37,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l021` | &emsp;*quadra, nem combina com os outros.* |  |
 | `c1-l022` | Sogvi, gǔ, ſogǔuanu. *Idem. No cami.* |  |
 | `c1-l023` | Sogi. *Hũ peixe grãde como pargo do mar.* |  |
-| `c1-l023a` | Sǒgi. Chiuo farǒ. *Alimpar, varrer, &c.* |  |
+| `c1-l023a` | *S*ǒgi. Chiuo farǒ. *Alimpar, varrer, &c.* |  |
 | `c1-l024` | &emsp;*Vt,* Zaxiqiuo sǒgi ſuru. *Varrer o Zaxiqui.* |  |
 | `c1-l025` | *S*ôgi. *S*ube motçu. *Ter, ou poßuir tudo. S.* |  |
 | `c1-l026` | *S*ôgin. *Todo o exercito, ou todos os eſquadroẽs* |  |
@@ -45,9 +45,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l028` | *S*ôgiǔ. *S*ôno vchi. *Entre todos, ou todos ẽ* |  |
 | `c1-l029` | &emsp;*commũ. ¶* Sôgiǔno ſadame gia. *He couſa* |  |
 | `c1-l030` | &emsp;*que todos aßentarão.* |  |
-| `c1-l030a` | Sǒ-i. Aitagǒ. *Diſcrepancia. ¶* Sǒ-ixita |  |
+| `c1-l030a` | *S*ǒ-i. Aitagǒ. *Diſcrepancia. ¶* Sǒ-ixita |  |
 | `c1-l031` | &emsp;coto. *Couſa que diſcrepa, ou he diferente.* |  |
-| `c1-l032` | So-i. i, ſoxin. *Coração deſemoroſo, ou deſcuidado.* |  |
+| `c1-l032` | So-i. i, ſoxin. *Coração deſamoroſo, ou deſcuidado.* |  |
 | `c1-l033` | *S*oi, ſô, ôta. *Estar junto de alguem.* |  |
 | `c1-l034` | &emsp;*¶* Cocoromo mini ſouanu. *Estar como* |  |
 | `c1-l035` | &emsp;*fora de ſi, & alienado. ¶* Fitoniua ſôte mi- |  |
@@ -80,13 +80,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l005` | *S*oiyorino. *Vide, S*oi, ô. |  |
 | `c2-l006` | *S*oja, l, ſojano coromo. *Vestido de peça del-* |  |
 | `c2-l007` | &emsp;*gada como veo q̃ algũs Bõzos vestẽ porcima.* |  |
-| `c2-l008` | *S*ôja. Tçucaſadoru yaxiro. *Templo, ou er* |  |
+| `c2-l008` | *S*ôja. *T*çucaſadoru yaxiro. *Templo, ou er* |  |
 | `c2-l009` | &emsp;*mida de Camis principal, & como matriz en-* |  |
 | `c2-l010` | &emsp;*tre as outras.* |  |
 | `c2-l011` | *S*ôjen. Madono maye. *Diante da janela. S.* |  |
 | `c2-l012` | *S*ôji. *Letra da China eſcrita de corrimão.* |  |
 | `c2-l013` | Sojin. *Homem cõmum, ou ordinario.* |  |
-| `c2-l014` | *S*ôjite. *Cõ nummente.* |  |
+| `c2-l014` | *S*ôjite. *Cõmummente.* |  |
 | `c2-l015` | Sôjǒ. *Certa dignidade de Bonzos.* |  |
 | `c2-l016` | Sǒjǔ. Vaxiru qedamono. *Animal que corre.* |  |
 | `c2-l017` | Soma. *Serrador, ou o que corta, & faz ma-* |  |
@@ -101,13 +101,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l026` | &emsp;*Eſtar inficionado de todas as maldades.* |  |
 | `c2-l027` | Somat. l, ſomatna. i, Socotnaru coto. *Cou-* |  |
 | `c2-l028` | &emsp;*ſa mal feita, & deſatentada. Vt, S*omat |  |
-| `c2-l029` | &emsp;daichino fitode gozaru. *He homem ataba-* |  |
+| `c2-l029` | &emsp;daiichino fitode gozaru. *He homem ataba-* |  |
 | `c2-l030` | &emsp;*lhoado, & mui inconſiderado. ¶* Somatna |  |
 | `c2-l031` | &emsp;mono. *Homẽ deſatẽtado.* Somatni. *Adu.* |  |
-| `c2-l032` | Some, uru, eta. *Tingir. Vt,* Ixǒuo ſo- |  |
+| `c2-l032` | Some, uru, eta. T*ingir. Vt,* Ixǒuo ſo- |  |
 | `c2-l033` | &emsp;muru. *Tingir o veſtido. ¶* Fudeuo ſo- |  |
 | `c2-l034` | &emsp;muru. *S. Eſcreuer. ¶* Somemono. |  |
-| `c2-l035` | &emsp;*Couſa tingida. ¶ Itẽ,* Some, uru. *Iũ-* |  |
+| `c2-l035` | &emsp;*Couſa tingida. ¶* I*tẽ,* Some, uru. *Iũ-* |  |
 | `c2-l036` | &emsp;*to as raizes de outros verbos quer dizer, co-* |  |
 | `c2-l037` | &emsp;*meçar. Vt,* Vomoi ſomuru. *Começar* |  |
 | `c2-l038` | &emsp;*a amar, &c.* |  |
