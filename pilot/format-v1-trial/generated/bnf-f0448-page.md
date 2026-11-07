@@ -17,7 +17,7 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c1-l001` | &emsp;*Catana. ¶* Sorazayamo naifito. *Homẽ* |  |
-| `c1-l002` | &emsp;*ſingelo, & ſẽ dobrez. ¶ Itẽ, Homẽ apreſado* |  |
+| `c1-l002` | &emsp;*ſingelo, & ſẽ dobrez. ¶ Itẽ, Homẽ apreßado* |  |
 | `c1-l003` | &emsp;*& ſofrego ẽ tudo, & q̃ não da lugar, ou vagar* |  |
 | `c1-l004` | Sore. *Iſſo, eſſe, &c.* | *(pera nada.* |
 | `c1-l005` | Sore, uru, eta. *Fugir o gauião, ou falcão.* |  |
@@ -86,7 +86,7 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c2-l009` | Soroi, rô, ôta. *Ajuntarſe, ou concordar.* |  |
 | `c2-l010` | &emsp;*Vt,* Fiǒxiga ſorôte vomoxiroi. *Concor-* |  |
 | `c2-l011` | &emsp;*dando as vozes da muſica, & dos inſtrumẽtos* |  |
-| `c2-l012` | &emsp;*em hum compaßo he pera ouuir. ¶* Fiǒ. |  |
+| `c2-l012` | &emsp;*em hum compaßo he pera ouuir. ¶* Fiǒ- |  |
 | `c2-l013` | &emsp;xiga ſorouanu. *Não concordarem as vo-* |  |
 | `c2-l014` | &emsp;*zes em hum compaßo. ¶* Cocoroga ſoro. |  |
 | `c2-l015` | &emsp;uanu. *Não concordarem os coraçoẽs, &* |  |
@@ -106,7 +106,7 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c2-l029` | &emsp;*juntas a piq̃, ou a ponto. ¶* Xeiuo ſoroyuru. |  |
 | `c2-l030` | &emsp;*Ajuntar, ou fazer gente de guerra.* |  |
 | `c2-l031` | Soſai. *Comer großeiro, mal feito, & ſem ſa-* |  |
-| `c2-l032` | &emsp;*bor. Vt,* Soſaina teide gozaru. *Palaura* |  |
+| `c2-l032` | &emsp;*bor. Vt,* Soſaina teide gozaru. P*alaura* |  |
 | `c2-l033` | &emsp;*que diz o que conuida a alguem humilhandoſe* |  |
 | `c2-l034` | &emsp;*que he hũa maneira de comer aquelle mal feito,* |  |
 | `c2-l035` | &emsp;*& großeiro.* |  |
@@ -114,7 +114,7 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c2-l037` | &emsp;*ſa, & couſa miuda. ¶* Soni iri, ſaini i- |  |
 | `c2-l038` | &emsp;ru. *Entẽder, & meterſe muito no groſſo, &* |  |
 | `c2-l039` | &emsp;*no miudo. ¶ Item, Em couſas de eſtudo, &* |  |
-| `c2-l040` | &emsp;*letras eſtar viſto ẽ tudo, aßino ſuperficial como* |  |
+| `c2-l040` | &emsp;*letras eſtar viſto ẽ tudo, aßi no ſuperficial como* |  |
 | `c2-l041` | &emsp;*no muito miudo, & profundo. ¶* Soſaina |  |
 | `c2-l042` | &emsp;fito. *Homem muito miudo, & que em tudo* |  |
 | `c2-l043` | &emsp;*entende, &c.* |  |

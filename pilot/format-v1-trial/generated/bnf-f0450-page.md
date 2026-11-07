@@ -18,7 +18,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l002` | &emsp;*& pobre.* |  |
 | `c1-l003` | Sǒuocu. Cuſano iye. *Caſa feita de eruas. i,* |  |
 | `c1-l004` | &emsp;*Choupana.* |  |
-| `c1-l005` | Sǒuon. *Não ſe vſa aßi ſò ſe não com algũa cõ-* |  |
+| `c1-l005` | Sǒuon. *Não ſe vſa aßi ſô ſe não com algũa cõ-* |  |
 | `c1-l006` | &emsp;*poſição. Vt,* Sandai sǒuonno qimi. *Se-* |  |
 | `c1-l007` | &emsp;*nhor de quem ſe tem recebidos muitos beneficios* |  |
 | `c1-l008` | &emsp;*deſde ſeus ante paßados.* |  |
@@ -35,10 +35,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l019` | Soxet. Xirayuqi. *Neue.* |  |
 | `c1-l020` | Sǒxet. Ximo, yuqi. *Geada, & neue.* |  |
 | `c1-l021` | Soxi. *Homẽs inſignes antiguos que fundarão* |  |
-| `c1-l022` | &emsp;*algũa religião, ou ſeita. ¶* Soxi xento- |  |
-| `c1-l023` | &emsp;cu. *Idem.* |  |
+| `c1-l022` | &emsp;*algũa religião, ou ſeita. ¶* Soxi xendo- |  |
+| `c1-l023` | &emsp;cu. I*dem.* |  |
 | `c1-l024` | Sǒxi. Narabu cami. *Liuros de verſos, ou hi-* |  |
-| `c1-l025` | &emsp;*ſtorias eſcritos em lingua branda de Iapão.* |  |
+| `c1-l025` | &emsp;*ſtorias eſcritos em lingua branda de* I*apão.* |  |
 | `c1-l026` | Sǒxi. *Tres, ou quatro.* Sǒxinin tçurete, tçu- |  |
 | `c1-l027` | &emsp;neyorimo fiqi tçucurôte iderareta. Feiq. |  |
 | `c1-l028` | &emsp;*Lib. 10. Leuando conſigo em companhia tres,* |  |
@@ -50,7 +50,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l034` | Sǒxi. *Por breue eſpaço. ¶* Sǒxi tenpai. |  |
 | `c1-l035` | &emsp;*O meſmo. i, em quanto hum leuanta a cabeça* |  |
 | `c1-l036` | &emsp;*pera cima, ou a abaixa.* |  |
-| `c1-l037` | Sôxi, ſuru, ita. *Falar ao Rey. ¶* Quan- |  |
+| `c1-l037` | Sôxi, ſuru, ita. F*alar ao Rey. ¶* Quan- |  |
 | `c1-l038` | &emsp;guenuo sǒſuru. *Fazer armonia, ou deſ-* |  |
 | `c1-l039` | &emsp;*cante diante do Rey. ¶* Bugacu. l, ca- |  |
 | `c1-l040` | &emsp;gurauo ſôſuru. *Auer canto, & bailo di-* |  |
@@ -59,7 +59,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l043` | Soxin. Voroſocana cocoro. *Coração deſa-* |  |
 | `c1-l044` | &emsp;*moroſo, ou deſcuidado. S.* |  |
 | `c1-l045` | Sôxin. *O deſtruirſe, ou acabar. ¶* Sôxin |  |
-| `c1-l046` | &emsp;xumiǒ. *Ser mortò com trabalhos, & afli-* |  |
+| `c1-l046` | &emsp;xitmiǒ. *Ser mortò com trabalhos, & afli-* |  |
 | `c1-l047` | &emsp;*çoẽs, como os que por amor de Deos, ou da* |  |
 
 ## Column 2 running header
@@ -72,7 +72,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | &emsp;*ſaluação, ou deſeu ſenhor, &c. não tem dó* |  |
+| `c2-l001` | &emsp;*ſaluação, ou deſeu ſenhor, &c. não tem dò* |  |
 | `c2-l002` | &emsp;*da vida, nem perdoão a trabalhos, &c.* |  |
 | `c2-l003` | Sǒxinen. *Tres, ou quatro annos.* |  |
 | `c2-l004` | Soxiri. *Murmuração.* |  |
@@ -91,9 +91,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l017` | &emsp;*algũa couſa.* |  |
 | `c2-l018` | Sǒxǔ. Fayaqi aqi. *Principio do Outono q̃* |  |
 | `c2-l019` | &emsp;*he na ſeptima lũa, ou mes.* |  |
-| `c2-l020` | *S*ôxu. i, Bozutachi. *Bonzos.* |  |
+| `c2-l020` | *S*ôxu. i, Bǒzutachi. *Bonzos.* |  |
 | `c2-l021` | Sôxugui. *Conſulta, ou parecer de todos em v-* |  |
-| `c2-l022` | &emsp;*niuerſal. Vt,* Sôxuguini itasǒ. *Farei* |  |
+| `c2-l022` | &emsp;*niuerſal. Vt,* Sôxuguini ita*s*ǒ. *Farei* |  |
 | `c2-l023` | &emsp;*conforme ao parecer de todos.* |  |
 | `c2-l024` | Soxxi, ſuru, ita. *Ajuntar gẽte. Vt,* Xei- |  |
 | `c2-l025` | &emsp;uo ſoſſuru. |  |
@@ -106,13 +106,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l032` | Soyaxitate, tçuru, eta. *Idem.* |  |
 | `c2-l033` | Sǒye. Cuſano coromo. *Veſtido feito de li-* |  |
 | `c2-l034` | &emsp;*nho canemo, ou de algodão, &c. ¶* Sǒ- |  |
-| `c2-l035` | &emsp;ye mocujiqi. *Veſtido groſeiro, & comer* |  |
+| `c2-l035` | &emsp;ye mocujiqi. *Veſtido groſſeiro, & comer* |  |
 | `c2-l036` | &emsp;*das fruitas das aruores.* |  |
 | `c2-l037` | Soye, uru, eta. *Acrecentar. ¶* Coco- |  |
 | `c2-l038` | &emsp;rouo ſoyuru. *Ajudar, ou fauorecer.* |  |
 | `c2-l039` | &emsp;*¶* Cotobauo ſoyuru. *Ajudar de palaura.* |  |
 | `c2-l040` | Soye. *Couſa que ſe acrecenta como nas compras,* |  |
-| `c2-l041` | &emsp;*& vendas, ou q̃ ſe da alem do que ſe vende.* |  |
+| `c2-l041` | &emsp;*& vendas, ou q̃ ſe dà alem do que ſe vende.* |  |
 | `c2-l042` | &emsp;*Vt,* Soyeuo ſuru. |  |
 | `c2-l043` | Soyego. *Caniuete, ou faca.* |  |
 | `c2-l044` | Soyemeqi, u. *Soar o vento por cima das ar-* |  |

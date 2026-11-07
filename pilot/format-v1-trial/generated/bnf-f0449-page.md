@@ -29,8 +29,8 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c1-l011` | Sǒſocuni. *Aduer.* |  |
 | `c1-l012` | Soſocuracaxi. l, *Potiùs,* Soſoyacaxi, ſu, |  |
 | `c1-l013` | &emsp;caita. *Prouocar, ou irritar a alguem a que ſe* |  |
-| `c1-l014` | &emsp;*agaſte, ou brigue com outro, &c. Vt,* Iy ſo- |  |
-| `c1-l015` | &emsp;ſocuracaſu. *Idem.* |  |
+| `c1-l014` | &emsp;*agaſte, ou brigue com outro, &c. Vt, I*y ſo- |  |
+| `c1-l015` | &emsp;ſocuracaſu. I*dem.* |  |
 | `c1-l016` | Soſomeqi, qu, eita. *Falar manſo à puri-* |  |
 | `c1-l017` | &emsp;*dade, ideſt,* Saſayaqu. |  |
 | `c1-l018` | Soſǒna. *Couſa malfeita, ou großeira, ou toſ-* |  |
@@ -60,7 +60,7 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c1-l042` | Sôtai. Subeteno tai. *Todo o corpo.* |  |
 | `c1-l043` | Sǒtai. Auoi coqe. *Muſgo verde.* |  |
 | `c1-l044` | Sôtaixǒ. *Capitão mòr, ou general.* |  |
-| `c1-l045` | Sotan. l, ſǒten. Fayaqi axita. *Polamenhãa* |  |
+| `c1-l045` | Sǒtan. l, ſǒten. Fayaqi axita. *Polamenhãa* |  |
 | `c1-l046` | &emsp;*cedo, ou de madrugada.* |  |
 | `c1-l047` | Sôtat. Sôxi taſuru. *Falar ao Rey.* |  |
 
@@ -116,7 +116,7 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c2-l040` | &emsp;*ordenada, ora rija, ora branda.* |  |
 | `c2-l041` | Soua. *Ilharga do monte. ¶* Souazzutaiuo |  |
 | `c2-l042` | &emsp;ſuru. *Ir ao longo, ou polla ilharga do mon-* |  |
-| `c2-l043` | &emsp;*te por lugares perigoſos, ou eſtreitos.* |  |
+| `c2-l043` | &emsp;*te por lugares perigoſos, ou estreitos.* |  |
 | `c2-l044` | Souari, u, atta. *Acrecentarſe, ou ajũtarſe.* |  |
 | `c2-l045` | Souazzutai. *Vide,* Soua. |  |
 | `c2-l046` | Sǒuô. Ai vôzuru. *Proporção, ou cõueniẽcia.* |  |

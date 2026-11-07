@@ -16,14 +16,14 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | *S*onyeqi. i, Son, tocu. *Perda, & proueito.* |  |
+| `c1-l001` | Sonyeqi. i, Son, tocu. *Perda, & proueito.* |  |
 | `c1-l002` | Sonyô. Tattoqi catachi. *Figura de peßoa* |  |
 | `c1-l003` | &emsp;*nobre, ou ſancta como de* Fotoque, *&c.* |  |
 | `c1-l004` | Sonzaxi, ſu, aita. *Danar, ou tratar mal.* |  |
 | `c1-l005` | &emsp;*¶* Gotaiuo ſonzaſu. *Tratar, ou fazer* |  |
 | `c1-l006` | &emsp;*mal ao corpo.* |  |
 | `c1-l007` | Sonzǒ. Tattoqi ſugata. *Figura, ou eſtatua* |  |
-| `c1-l008` | &emsp;*de* Fotoque, *&c.* |  |
+| `c1-l008` | &emsp;*de Fotoque*, *&c.* |  |
 | `c1-l009` | Sonzon. *Deſcendentes. Vt,* Xixi ſonzõni |  |
 | `c1-l010` | &emsp;itarumade. *Atè os derradeiros deſcẽdentes.* |  |
 | `c1-l011` | Soppǒ. *Ley vniuerſal que ha em todas as* |  |
@@ -37,7 +37,7 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c1-l019` | Soqi. i, Coinegǒ. *Pedir, ou deſejar. Vt,* |  |
 | `c1-l020` | &emsp;Soqiſuru. |  |
 | `c1-l021` | Sǒqi. l, sǒqina. *Couſa feita deſatentada, ou* |  |
-| `c1-l022` | &emsp;*atabalhoadamente. ¶* Sôqina fito. *Ho-* |  |
+| `c1-l022` | &emsp;*atabalhoadamente. ¶* Sǒqina fito. *Ho-* |  |
 | `c1-l023` | &emsp;*mem leue, arremeſado, ou deſatentado.* |  |
 | `c1-l024` | Soqiacu. Ai fedatçu. *Deſcuido.* |  |
 | `c1-l025` | *S*ôqiǒ. i, Tattomi vyamǒ. *Veneração, ou* |  |
@@ -45,7 +45,7 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c1-l027` | &emsp;*rar, & venerar a alguem.* |  |
 | `c1-l028` | Sǒqua. Cuſabana. *Flores, ou fulas que nacẽ* |  |
 | `c1-l029` | &emsp;*deruas.* |  |
-| `c1-l030` | Soquai. i, Fonmǒ. *Proprio deſejo, & legi-* |  |
+| `c1-l030` | Soquai. i, *F*onmǒ. *Proprio deſejo, & legi-* |  |
 | `c1-l031` | &emsp;*timo. Vt,* Soquaiuo toguru. *Comprir* |  |
 | `c1-l032` | &emsp;*totalmente ſeu desejo.* |  |
 | `c1-l033` | Sôquan. l, ſôguan. *Hũa dignidade de* |  |
@@ -86,7 +86,7 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c2-l010` | Sǒrai, rǒ, ǒta. i, Soro. *Ser, eſtar, auer,* |  |
 | `c2-l011` | &emsp;*&c. S.* |  |
 | `c2-l012` | Sorajeimon. *Iuramento falſo, ou fingido.* |  |
-| `c2-l013` | Sorajini. *Morte fingida. Vt,* Sorajini ſu- |  |
+| `c2-l013` | Sorajini. M*orte fingida. Vt,* Sorajini ſu- |  |
 | `c2-l014` | &emsp;ru. *Fingir hum que eſtà morto.* |  |
 | `c2-l015` | Sorairo. *Azul claro.* |  |
 | `c2-l016` | Sorame. *Vendo, fazer ou fingir que não vẽ.* |  |
@@ -110,12 +110,12 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c2-l034` | &emsp;*& penſatiuo. ¶ S*oravſouo fuqu. *Aſo-* |  |
 | `c2-l035` | &emsp;*uiar deſta maneira.* |  |
 | `c2-l036` | Soravta. *Cantiga que hum canta aßi como por* |  |
-| `c2-l037` | &emsp;*zombaria, ou fingidamente, não auendo tal* |  |
+| `c2-l037` | &emsp;*zombaria, ou fingidamente, não auendotal* |  |
 | `c2-l038` | &emsp;*cantiga, nem toada.* |  |
 | `c2-l039` | Soravtagai. *O duuidar, ou deſconfiar dalguẽ* |  |
 | `c2-l040` | &emsp;*ſem rezão, nem fundamento.* |  |
 | `c2-l041` | Soraxi, ſu, aita. *Dobrar, ou arcar as partes* |  |
-| `c2-l042` | &emsp;*do corpo, ou outra couſa. ¶* Teuo ſora- |  |
+| `c2-l042` | &emsp;*do corpo, ou outra couſa. ¶ T*euo ſora- |  |
 | `c2-l043` | &emsp;ſu. *Arcar as mãos, ou botar as palmas das* |  |
 | `c2-l044` | &emsp;*mãos pera fora. ¶* Qiuo ſoraſu. *Entor-* |  |
 | `c2-l045` | &emsp;*tar, ou arcar algum pao. ¶* Tacauo ſo- |  |
