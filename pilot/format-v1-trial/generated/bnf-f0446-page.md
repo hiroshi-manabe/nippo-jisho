@@ -23,7 +23,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l007` | Son-i. Tattoqi cocoro. *Coração de homem* |  |
 | `c1-l008` | &emsp;*ſancto, & nobre. Item, Mandado, ou vontade* |  |
 | `c1-l009` | &emsp;*de peßoa alta. &c.* |  |
-| `c1-l010` | Son i. Tattoqi curai. *Dignidade de peſ-* |  |
+| `c1-l010` | Son-i. Tattoqi curai. *Dignidade de peſ-* |  |
 | `c1-l011` | &emsp;*ſoa alta.* |  |
 | `c1-l012` | Sonjen. *Diante, ou junto da barça de vinho. S.* |  |
 | `c1-l013` | Sonjen. *Diante de peßoa alta, & ſancta* |  |
@@ -73,35 +73,35 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c2-l001` | Sonotçure. *Deßa laya. Vt.* Sonotçureno |  |
-| `c2-l002` | &emsp;mono. *Couſa deßa laya.* |  |
+| `c2-l002` | &emsp;mono. *Couſa deſsa laya.* |  |
 | `c2-l003` | Sonotoqi. *Adu. Então.* |  |
 | `c2-l004` | Sonotǒza. *Então de preſente.* |  |
 | `c2-l005` | Sonoyǒni. *Adu. Deßa maneira.* |  |
 | `c2-l006` | Sonpi. Tattoi, iyaxij. *Altos, e baixos.* |  |
-| `c2-l007` | Sonpô. Fumino fenji. *Repoſta da carta* |  |
+| `c2-l007` | Sonpô. Fumino fenji. *Reposta da carta* |  |
 | `c2-l008` | &emsp;*pera peßoa nobre, ou que vem de peßoa nobre.* |  |
 | `c2-l009` | &emsp;*Vt,* Sonpô faiqen mǒxi ſǒrǒ. *Rece-* |  |
-| `c2-l010` | &emsp;*bi a repoſta de voßa mercè: quando hum res* |  |
-| `c2-l011` | &emsp;*ponde por carta a peßoa alta eſcreue ſe eſta pa-* |  |
+| `c2-l010` | &emsp;*bi a reposta de voßa mercè: quando hum res* |  |
+| `c2-l011` | &emsp;*ponde por carta a peßoa alta eſcreue ſe esta pa-* |  |
 | `c2-l012` | &emsp;*laura no ſobre eſcrito.* |  |
 | `c2-l013` | Sonqi. Tattoqi. *Sancto. Palaura com que* |  |
-| `c2-l014` | &emsp;*ſe honra, & aleuanta alguem. S.* |  |
+| `c2-l014` | &emsp;*ſe honra, & aleuanta alguem.* S. |  |
 | `c2-l015` | Sonqiǒ. Tattomi vyamǒ. *Veneração, l,* |  |
 | `c2-l016` | &emsp;*reuerencia. Vt,* Deꝰuo ſonqiǒ tçucamatçu- |  |
 | `c2-l017` | &emsp;ru. *Honrar, ou venerar a Deos.* |  |
 | `c2-l018` | Sonqio. Tattoqi yuruxi. *Perdam de peſ-* |  |
 | `c2-l019` | &emsp;*ſoa nobre.* |  |
 | `c2-l020` | Sonriǒ. Tattoqi tamaxij. *Alma, ou eſ-* |  |
-| `c2-l021` | &emsp;*piritu de peßoa nobrej a morta. S.* |  |
+| `c2-l021` | &emsp;*piritu de peßoa nobrej a morta.* S. |  |
 | `c2-l022` | *S*onrǒ. Murano toxiyori. *Velho, ou cabe-* |  |
 | `c2-l023` | &emsp;*ça principal dalgũa pouoação.* |  |
-| `c2-l024` | Sonrǒ. Tattoqi toxiyori. *Velho honrado,* |  |
+| `c2-l024` | Sonrǒ. Tattoqi *t*oxiyori. *Velho honrado,* |  |
 | `c2-l025` | &emsp;*ou ſancto.* |  |
 | `c2-l026` | Sonſacu. Tattoqi xoſa. *Obra de peßoa nobre.* |  |
 | `c2-l027` | Sonſat. *Carta de peßoa alta.* |  |
 | `c2-l028` | Sonſô. Tattomi, tattomu. *Venerar Ca-* |  |
 | `c2-l029` | &emsp;*mis, Fotoques, &c.* |  |
-| `c2-l030` | Sontai. Tattoqi tai. *Sancta ſuſtancia, ou cor-* |  |
+| `c2-l030` | Sontai. *T*attoqi tai. *Sancta ſuſtancia, ou cor-* |  |
 | `c2-l031` | &emsp;*po de peßoa real, nobre, &c.* |  |
 | `c2-l032` | Sontǒ. Tattoqi cotaye. *Repoſta de peßoa* |  |
 | `c2-l033` | &emsp;*nobre, ou ſancta.* |  |

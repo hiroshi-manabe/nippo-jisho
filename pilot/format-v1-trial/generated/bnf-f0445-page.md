@@ -16,7 +16,7 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c1-l001` | Someqi. *Obra, ou trafego como de ſemear, re-* |  |
 | `c1-l002` | &emsp;*colher fruito, &c. S.* |  |
-| `c1-l003` | Some çuqe. i, Yeno aru chauan, ſara. *Por-* |  |
+| `c1-l003` | Sometçuqe. i, Yeno aru chauan, ſara. *Por-* |  |
 | `c1-l004` | &emsp;*ſolana, ou bacios da China pintados.* |  |
 | `c1-l005` | *S*omi, u, ôda. *Tingirſe. ¶* Ironi ſomi, |  |
 | `c1-l006` | &emsp;cani mezzuru. *Afeiçoarſe logo, ou cubi-* |  |
@@ -28,7 +28,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l012` | *S*omin. Arai tami. *Gente do campo, ou gẽ-* |  |
 | `c1-l013` | &emsp;*te ruſtica, & baixa.* |  |
 | `c1-l014` | *S*ominarai, ǒ, ǒta. *Aprender. Vt,* Fi- |  |
-| `c1-l015` | &emsp;toto aitomoni vorutoqi ba, jinenni ſomi- |  |
+| `c1-l015` | &emsp;*t*oto aitomoni vorutoqinba, jinenni ſomi- |  |
 | `c1-l016` | &emsp;narǒ. *Aprender, ou tomar os cuſtumes da* |  |
 | `c1-l017` | &emsp;*peßoa com quem ſe conuerſa, ou eſtà.* |  |
 | `c1-l018` | *S*ômiǒ. i, Sôno na. *Nome cõmum, ou* |  |
@@ -37,7 +37,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l021` | *S*omǒdo. i, *S*omabito. *Homem que faz,* |  |
 | `c1-l022` | &emsp;*ou corta madeira no mato.* |  |
 | `c1-l023` | *S*ômon. *Porta principal por onde todos, ou* |  |
-| `c1-l024` | &emsp;*toda aſorte de gente entra, & ſaye.* |  |
+| `c1-l024` | &emsp;*toda a ſorte de gente entra, & ſaye.* |  |
 | `c1-l025` | *S*ômon. *Falar ao Rey. Vt, S*ômon |  |
 | `c1-l026` | &emsp;mǒſu. |  |
 | `c1-l027` | *S*omoſomo. i, *S*ate mata. *Alem dißo, ou* |  |
@@ -50,7 +50,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l034` | &emsp;*radas. ¶* Xujinni cocorouo ſomuqete |  |
 | `c1-l035` | &emsp;iru. *Eſtar mal com o ſenhor, ou queixoſo delle.* |  |
 | `c1-l036` | *S*omuqi. qu, uita. *Offender, ou quebrantar.* |  |
-| `c1-l037` | &emsp;*Vt,* Guioiuo ſomuqu. *Deſobedecer ao ſe* |  |
+| `c1-l037` | &emsp;*Vt,* Guioiuo ſomuqu. *Deſobedecer ao ſe-* |  |
 | `c1-l038` | &emsp;*nhor, ou a outra peßoa alta, & de reſpeito.* |  |
 | `c1-l039` | &emsp;*¶* Fattouo ſomuqu. *Quebrantar a ley.* |  |
 | `c1-l040` | &emsp;*¶* Vôxeuo ſomuqu. *Quebrãtar o manda-* |  |
@@ -81,7 +81,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l007` | Sonata. *Là deßa parte.* |  |
 | `c2-l008` | Sonata atari. *Perto de vos, ou de voßa caſa.* |  |
 | `c2-l009` | Sonauari, ru, atta. *Cõterſe, ou ſer poſto, aleuã-* |  |
-| `c2-l010` | &emsp;*tado, &c. Vt,* Gueinô mini ſonauaru. *Ter* |  |
+| `c2-l010` | &emsp;*tado, &c. Vt,* Gueinô mini ſonauaru. T*er* |  |
 | `c2-l011` | &emsp;*ẽſi artes, & habilidades. ¶* Curaini ſona- |  |
 | `c2-l012` | &emsp;uaru. *Ser poſto em dignidade.* |  |
 | `c2-l013` | Sonaye, uru, eta. *Offerecer, ou por algũa* |  |
@@ -97,7 +97,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l023` | &emsp;*dignidade.* |  |
 | `c2-l024` | *S*õbǒ l, ſonmǒ *S*õji foroburu. *Perda, ou dano.* |  |
 | `c2-l025` | *S*onbocu. *Carta de peßoa nobre. S.* |  |
-| `c2-l026` | *S*onca. Tattoqi nori mono. *Andas, ou co-* |  |
+| `c2-l026` | *S*onca. Tattoqi norimono. *Andas, ou co-* |  |
 | `c2-l027` | &emsp;*chi de peßoa nobre, como Rey. S.* |  |
 | `c2-l028` | *S*oncacu. Tattoqi qiacujin. *Hoſpede nobre,* |  |
 | `c2-l029` | &emsp;*& honrado. S.* |  |
@@ -105,20 +105,20 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l031` | &emsp;*peßoa nobre. S.* |  |
 | `c2-l032` | *S*onchǒ. Murano votona. *Cabeça principal* |  |
 | `c2-l033` | &emsp;*que gouerna algũa pouoação. S.* |  |
-| `c2-l034` | *S*oncǒ. Tattoqi qimi. *Voßa merce, ou ſenho-* |  |
+| `c2-l034` | *S*oncô. Tattoqi qimi. *Voßa merce, ou ſenho-* |  |
 | `c2-l035` | &emsp;*ria, excellencia, &c. S.* |  |
 | `c2-l036` | *S*oncun. Tattoqi qimi. *Bõ, & honrado ſenhor.* |  |
 | `c2-l037` | *S*onemi. *Enueja.* |  |
 | `c2-l038` | *S*onemi, u, neôda. *Ter enueia. Vt,* |  |
 | `c2-l039` | &emsp;Fitouo ſonemu. |  *(idade.S.* |
-| `c2-l040` | *S*ǒnen. *S*acanna toxi. *Mocidade, ou ſer da* |  |
+| `c2-l040` | *S*ǒnen. *S*acanna toxi. *Mocidade, ou flor da* |  |
 | `c2-l041` | *S*ǒnet. Cauaqi, atataca. *Couſa ſeca, &* |  |
 | `c2-l042` | &emsp;*quente. Item, Febre. S.* |  |
 | `c2-l043` | *S*ongan. Tattoqi cauobaxe. *Roſto de peßoa* |  |
 | `c2-l044` | &emsp;*honrada, ou nobre, Rey, &c. S.* |  |
-| `c2-l045` | *S*ongiǔ. Tattoxi, vomenzuru. *Venerar* |  |
+| `c2-l045` | *S*ongiǔ. Tattoxi, vomonzuru. *Venerar* |  |
 | `c2-l046` | &emsp;*principalmẽte Fotoques, &c. ¶ S*õgiǔ, ſanda |  |
-| `c2-l047` | &emsp;*Venerar, louuar, & ẽgrãdecer Fotoques, &c.* S |  |
+| `c2-l047` | &emsp;*Venerar, louuar, & ẽgrãdecer Fotoques, &c.* S. |  |
 
 ## Printed catchword
 
