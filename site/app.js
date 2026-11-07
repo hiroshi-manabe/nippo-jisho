@@ -854,12 +854,21 @@ function showPage(leaf, unit = 'page', update = true) {
   if (update) history.pushState(null, '', `#${page.view}:${state.unit}`);
 }
 
+const displacedGapHTML = '<span aria-hidden="true" style="display:inline-block;width:.35em"></span>';
+
+function displacedGapBefore(run, previous) {
+  return previous && run.placement === 'far-right'
+    && (previous.placement !== 'far-right' || previous.text.endsWith('.'))
+    && !/\s$/.test(previous.text) && !/^\s/.test(run.text);
+}
+
 function renderRuns(runs) {
-  return runs.map(run => {
+  return runs.map((run, index) => {
     const text = escapeHTML(run.text);
-    if (run.typeface === 'italic') return `<em>${text}</em>`;
-    if (run.typeface === 'display') return `<strong>${text}</strong>`;
-    return text;
+    const gap = displacedGapBefore(run, runs[index - 1]) ? displacedGapHTML : '';
+    if (run.typeface === 'italic') return `${gap}<em>${text}</em>`;
+    if (run.typeface === 'display') return `${gap}<strong>${text}</strong>`;
+    return gap + text;
   }).join('');
 }
 
@@ -1240,6 +1249,12 @@ function interactiveLineHTML(line, annotatedText, nasalRestorations = [], machin
   if (!proposal.valid) return styledVisualDiff(line, annotatedText);
   const alignment = NippoQuickEdit.align(line.text, proposal.text);
   const typefaces = alignedOriginalTypefaces(line, alignment);
+  const gaps = new Set();
+  let offset = 0;
+  line.runs.forEach((run, index) => {
+    if (displacedGapBefore(run, line.runs[index - 1])) gaps.add(offset);
+    offset += run.text.length;
+  });
   const restorations = new Map(nasalRestorations.map(item => [item.index, item]));
   const deletions = new Map();
   for (const deletion of alignment.deletions) {
@@ -1250,6 +1265,9 @@ function interactiveLineHTML(line, annotatedText, nasalRestorations = [], machin
   for (let index = 0; index <= proposal.characters.length; index++) {
     output += (deletions.get(index) || []).map(deletion => quickDeletedHTML(deletion, machineSuggestion, line)).join('');
     if (index < proposal.characters.length) {
+      if (index && gaps.has(alignment.currentToBase[index])
+          && !/\s/.test(proposal.characters[index - 1].character)
+          && !/\s/.test(proposal.characters[index].character)) output += displacedGapHTML;
       output += quickCharacterHTML(proposal.characters[index].character, index, alignment.currentToBase[index], alignment.changed[index], line, proposal, typefaces, restorations.get(index));
     }
   }
