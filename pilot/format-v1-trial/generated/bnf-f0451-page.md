@@ -47,7 +47,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l031` | &emsp;*ando.* |  |
 | `c1-l032` | Sôzocu. Xucqe, zocu. *Religioſo, &* |  |
 | `c1-l033` | &emsp;*ſecular.* |  |
-| `c1-l034` | Sôzôna. l, *Potiùs,* Sôzôxij. i, Caximaxij. |  |
+| `c1-l034` | Sôzôna. *l*, *Potiùs,* Sôzôxij. i, Caximaxij. |  |
 | `c1-l035` | &emsp;*Couſa de traquinada, & perturbação.* |  |
 | `c1-l036` | Sozoro. *Couſa feita ſem conſideração, & ſem* |  |
 | `c1-l037` | &emsp;*algum propoſito, ou leuemente. ¶* Sozo- |  |
@@ -55,9 +55,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l039` | &emsp;*ſito, & aduertencia como os mininos, ou traba-* |  |
 | `c1-l040` | &emsp;*lhadores fazem.* |  |
 | `c1-l041` | Sozorobiqi, qu, ijta. *Recolherſe oexercito,* |  |
-| `c1-l042` | &emsp;*ou tornar algum tanto pera tras fingidamente.* |  |
+| `c1-l042` | &emsp;*ou tornar algum tanto paera tras fingidamente.* |  |
 | `c1-l043` | &emsp;*¶* Yumiuo ſozorobiqu. *Puxar hum pouco* |  |
-| `c1-l044` | &emsp;*pola corda do arco com a frecha poſta como* |  |
+| `c1-l044` | &emsp;*pola corda do arco com a frecha posta como* |  |
 | `c1-l045` | &emsp;*quem quer tirar.* |  |
 | `c1-l046` | Sozorodachi. *Eſtar nalgum lugar como eſpe-* |  |
 | `c1-l047` | &emsp;*rando a alguem ſem fazer nada como ſuſpenſo.* |  |
@@ -72,7 +72,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | &emsp;*¶* Sozorodachiuo ſuru. *Idem.* X. *No* |  |
+| `c2-l001` | &emsp;*¶* Sozorodachiuo ſuru. *Idem. X. No* |  |
 | `c2-l002` | &emsp;*Cami ſe diz,* Soradachi. |  |
 | `c2-l003` | Sozorogoto. *Couſa que ſe diz leuemente,* |  |
 | `c2-l004` | &emsp;*& ſem conſideração. ¶* Sozorogotouo |  |

@@ -18,7 +18,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l002` | &emsp;*do arroz depois de tirado o grão.* |  |
 | `c1-l003` | Sube, uru, eta. *Eſtreitar, ou tapar. Vt,* |  |
 | `c1-l004` | &emsp;Michiuo ſuburu. *Tapar o caminho. ¶* Fi- |  |
-| `c1-l005` | &emsp;to ni cuchiuo ſuburu. l, ſubete moſu. *Ro-* |  |
+| `c1-l005` | &emsp;toni cuchiuo ſuburu. l, ſubete mǒſu. *Ro-* |  |
 | `c1-l006` | &emsp;*gar humilmente a alguẽ. ¶* Vouo ſuburu. |  |
 | `c1-l007` | &emsp;*Meter o rabo entre as pernas com medo, &c.* |  |
 | `c1-l008` | &emsp;*¶* Catauo ſuburu. *Encolher os ombros* |  |
@@ -34,23 +34,23 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l018` | Subete. *Em ſumma, ou juntamente todos, ou* |  |
 | `c1-l019` | &emsp;*cõmummente.* |  |
 | `c1-l020` | Subiqi. *Vt,* Subiqiuo ſuru. *Puxar hũ pou-* |  |
-| `c1-l021` | &emsp;*co pella corda do arco pera ver ſe eſtà teſa, ou* |  |
+| `c1-l021` | &emsp;*co pella corda do arco pera ver ſe està teſa, ou* |  |
 | `c1-l022` | &emsp;*froxa.* |  |
 | `c1-l023` | Subiqi, u, ijta. *Prouar a corda do arco ſe eſtà* |  |
 | `c1-l024` | &emsp;*teſa puxando hum pouco por ella. ¶* Fito- |  |
 | `c1-l025` | &emsp;no cocorouo ſubijte miru. *Per met. Pro-* |  |
-| `c1-l026` | &emsp;*uar, ou experimentar a alguem. ¶ Item,* |  |
+| `c1-l026` | &emsp;*uar, ou experimentar a alguem. ¶* I*tem,* |  |
 | `c1-l027` | &emsp;*Doer, ou ſentir algũa dor que vai correndo* |  |
 | `c1-l028` | &emsp;*pellas veas, ou corpo como corrimentos. Vt,* |  |
 | `c1-l029` | &emsp;Sugiga ſubiqu. *Ter dor de corrimentos.* X. |  |
 | `c1-l030` | Subitçu. *Fogão pequeno, onde fazem fogo* |  |
 | `c1-l031` | &emsp;*na caſa.* |  |
-| `c1-l032` | Subomari, u, atta. *Fechar, l, eſtreitarſe.* |  |
-| `c1-l033` | &emsp;*¶* Saxicaſaga ſubomaru. *Fecharſe o ſõ-* |  |
+| `c1-l032` | Subomari, u, atta. *Fechar, l, estreitarſe.* |  |
+| `c1-l033` | &emsp;*¶* Saxicaſaga ſubomaru. *Fecharſe o sõ-* |  |
 | `c1-l034` | &emsp;*breiro que ſe leua de mão.* |  |
 | `c1-l035` | *S*ubome, uru, eta. *Encolher, l, fechar.* |  |
 | `c1-l036` | &emsp;*¶* Caſauo ſubomuru. *Fechar o ſombreiro.* |  |
-| `c1-l037` | &emsp;*¶ Perme.* Cuchiuo ſubomete mǒſu. *Fa-* |  |
+| `c1-l037` | &emsp;*¶ Pertme.* Cuchiuo ſubomete mǒſu. *Fa-* |  |
 | `c1-l038` | &emsp;*lar humilde, & encolhidamente.* |  |
 | `c1-l039` | Subomi, u, ôda. *Fecharſe, ou encolherſe.* |  |
 | `c1-l040` | &emsp;*Vt,* Cataga ſubôda fito. *Homem encolhi-* |  |
@@ -72,17 +72,17 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | Sucarito, l, ſuccarito. *Adu. Modo de paſſar* |  |
+| `c2-l001` | Sucarito, *l*, ſuccarito. *Adu. Modo de paſſar* |  |
 | `c2-l002` | &emsp;*por alto, ou de errar o aluo cõ a ſeta &c. ¶* Suca |  |
 | `c2-l003` | &emsp;rito i fazzuita. *Errou ẽ claro cõ o arco, &c.* |  |
-| `c2-l004` | Sucaſucato, l, ſucato. *Idem.* |  |
+| `c2-l004` | Sucaſucato, *l*, ſucato. *Idem.* |  |
 | `c2-l005` | Sucaxi, ſu, caita. *Acalentar, ou afagar os* |  |
 | `c2-l006` | &emsp;*mininos, &c. Vt* Couo ſucaſu. |  |
 | `c2-l007` | Sucaxi, u, caite. *Abrir, ou deſabafar algũa* |  |
 | `c2-l008` | &emsp;*couſa. Vt* Qino yedauo ſucaſu. *Cortã-* |  |
-| `c2-l009` | &emsp;*do os ramos baſtos dalgũa aruore deſabafalla.* |  |
+| `c2-l009` | &emsp;*do os ramos bastos dalgũa aruore deſabafalla.* |  |
 | `c2-l010` | &emsp;*¶* Itauo ſucaſu. *Abrir, ou fazer bura-* |  |
-| `c2-l011` | &emsp;*cos na taboa. ¶* Touo aqete cajeuo ſucaſu. |  |
+| `c2-l011` | &emsp;*cos na taboa. ¶ T*ouo aqete cajeuo ſucaſu. |  |
 | `c2-l012` | &emsp;*Abrir a porta de maneira que paße o ven-* |  |
 | `c2-l013` | &emsp;*to de parte a parte.* |  |
 | `c2-l014` | Sucaxo. *Muitos lugares. S*ucaxono teuo |  |
@@ -91,7 +91,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l017` | Sucǒ. *Muito, ou multiplicação, & quantida-* |  |
 | `c2-l018` | &emsp;*de. Vt,* Ippôno xoua ſucǒno naqiuo |  |
 | `c2-l019` | &emsp;yoſu. *Hũa carta fez chorar muito. S.* |  |
-| `c2-l020` | Sucǒ i Axiqi co. *Melius, Socucǒ. Ruim aguila* |  |
+| `c2-l020` | Sucǒ i Axiqi cǒ. *Melius, Socucǒ. Ruim aguila* |  |
 | `c2-l021` | *S*ucobore. *Falcão nouo q̃ ſahio hà pouco do ninho.* |  |
 | `c2-l022` | Sucoburu. *Adu. Muito, ou grandemẽte. Vt,* |  |
 | `c2-l023` | &emsp;*S*ucoburu fonyuo ſomuqu. *Faltar muito* |  |
