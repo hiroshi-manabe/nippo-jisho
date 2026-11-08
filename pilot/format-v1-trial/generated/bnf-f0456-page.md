@@ -33,7 +33,7 @@ Lexical aid consulted after reading the scan: NINJAL, Hideyuki Ohshima and Taich
 | `c1-l015` | Suirin. Mizzuno va. *Roda, ou nora de ti-* |  |
 | `c1-l016` | &emsp;*rar agoa.* |  |
 | `c1-l017` | Suiriǒ. Voxifacaru. *Conjeituras. ¶* Sui- |  |
-| `c1-l018` | &emsp;riô ſuru. *Conjeiturar.* |  |
+| `c1-l018` | &emsp;riǒ ſuru. *Conjeiturar.* |  |
 | `c1-l019` | Suirǒ. l, Rǒſui. Votoroye, voitari. |  |
 | `c1-l020` | &emsp;*Velhice, ou aparencia de velho ja gaſtado.* |  |
 | `c1-l021` | Suirǒ. Mizzuno yagura. *Lugar alto, ou bai-* |  |
@@ -59,8 +59,8 @@ Lexical aid consulted after reading the scan: NINJAL, Hideyuki Ohshima and Taich
 | `c1-l041` | &emsp;*Fotoque em lugar de outro, ou com differente* |  |
 | `c1-l042` | &emsp;*nome fazendo officio do primeiro comoguardã-* |  |
 | `c1-l043` | &emsp;*do aquelle lugar.* |  |
-| `c1-l044` | *S*uixei. l, *Potiùs,* Xeiſui. *Agoa pura, & limpa.* |  |
-| `c1-l045` | *S*uixen. l, *Potiùs,* Xenſui. Mizzuno izzumi. |  |
+| `c1-l044` | *S*uixei. *l*, *Potiùs,* Xeiſui. *Agoa pura, & limpa.* |  |
+| `c1-l045` | *S*uixen. *l*, *Potiùs,* Xenſui. Mizzuno izzumi. |  |
 | `c1-l046` | &emsp;*Fonte dagoa.* |  |
 | `c1-l047` | *S*uixẽ. *Certa iguaria feita da raiz de hũa erua.* |  |
 
@@ -82,20 +82,20 @@ Lexical aid consulted after reading the scan: NINJAL, Hideyuki Ohshima and Taich
 | `c2-l006` | *S*uixu. *Hydropeſia.* |  |
 | `c2-l007` | Suixu. *Marinheiros, ou homẽs do mar.* |  |
 | `c2-l008` | *S*uiyǒfi. *Certa flor, ou bonina do Outono.* |  |
-| `c2-l009` | *S*ujit. Cazu, fi. *Muitos dias.* |  |
+| `c2-l009` | *S*ujit. Cazu, fi. M*uitos dias.* |  |
 | `c2-l010` | *S*ujǔnen. *Muitas dezenas de annos tè cento.* |  |
-| `c2-l011` | *S*ujǔnichi. *Muitas dezenas de dias tè cento.* |  |
+| `c2-l011` | *S*ujǔnichi. *Muitas dezenas de dias tê cento.* |  |
 | `c2-l012` | *S*ujǔnin. *Muitas dezenas de homẽs tè cento.* |  |
 | `c2-l013` | *S*umai. *O morar. Vt, S*umai ſuru. *¶ Itẽ,* |  |
 | `c2-l014` | &emsp;*Maneira de edificar, ou traçarcaſas, &c.* |  |
 | `c2-l015` | &emsp;*¶ S*umaino yoi iye. *Caſa bem traçada.* |  |
 | `c2-l016` | *S*umai, ǒ, ǒta. *Estar a caſa bem, ou mal lã-* |  |
-| `c2-l017` | &emsp;*çada, ou traçada. ¶* Yǒ ſumǒta iye. *Ca-* |  |
+| `c2-l017` | &emsp;*çada, ou traçada. ¶* Yô ſumǒta iye. *Ca-* |  |
 | `c2-l018` | &emsp;*ſa bem traçada.* |  |
 | `c2-l019` | *S*umai, ǒ, ǒta. *Abolinar. ¶ S*umaini, |  |
 | `c2-l020` | &emsp;l, ſumǒte faxiru. *Nauegar polla bolina.* |  |
 | `c2-l021` | *S*uman. *Muitos milhares. Vt, S*umannin. |  |
-| `c2-l022` | &emsp;*Muitos milhares de homes contando de dez mil* |  |
+| `c2-l022` | &emsp;*Muitos milhares de homẽs contando de dez mil* |  |
 | `c2-l023` | &emsp;*por diante.* |  |
 | `c2-l024` | *S*umaxi, ſu. *Aclarar. Vt,* Mizzuuo ſu- |  |
 | `c2-l025` | &emsp;maſu. *Aclarar a agoa. ¶ Per met.* Riuo |  |
@@ -112,7 +112,7 @@ Lexical aid consulted after reading the scan: NINJAL, Hideyuki Ohshima and Taich
 | `c2-l036` | *S*ume, uru, eta. *Concluir, ou aueriguar. Vt,* |  |
 | `c2-l037` | &emsp;*S*anyôuo ſumuru. *Concluir as contas pagã-* |  |
 | `c2-l038` | &emsp;*do tudo, &c. ¶* Riuo ſumuru. *Acla-* |  |
-| `c2-l039` | &emsp;*rar, ou manifestar a razão.* |  *(xo dagoa.* |
+| `c2-l039` | &emsp;*rar, ou manifeſtar a razão.* |  *(xo dagoa.* |
 | `c2-l040` | *S*umi, u, unda. *Mergulhar, ou nadar de bai-* |  |
 | `c2-l041` | *S*umi, u, unda. *Aclàrarſe a agoa. Item,* |  |
 | `c2-l042` | &emsp;*Concluirſe, ou acabarſe. ¶ Itẽ, Per met,* Ri- |  |

@@ -16,7 +16,7 @@ Lexical cross-check after the independent scan reading: Entry Words Data of Nipp
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | Suibocu. Mizzu, qi. *Agoa, & lenha. Vt,* |  |
+| `c1-l001` | Suibocu. M*i*zzu, qi. *Agoa, & lenha. Vt,* |  |
 | `c1-l002` | &emsp;Cono tocoroua ſuibocu tacuſanna. *Eſte* |  |
 | `c1-l003` | &emsp;*lugar he abundante de agoa, & lenha.* |  |
 | `c1-l004` | *S*uican. *Perda por muita agoa, & perda cau-* |  |
@@ -33,7 +33,7 @@ Lexical cross-check after the independent scan reading: Entry Words Data of Nipp
 | `c1-l015` | &emsp;côqei. *Ornato deſtes panos, & alcatifas* |  |
 | `c1-l016` | &emsp;*ricas, ou colchas de carmeſim, &c.* |  |
 | `c1-l017` | *S*uichǔ. Mizzuno vchi. *Dentro na agoa.* |  |
-| `c1-l018` | *S*uichǔ. Nemurino vchi. *No meyo do ſono* |  |
+| `c1-l018` | *S*uichǔ. Nemurino vchi. *No meyo do ſono.* |  |
 | `c1-l019` | *S*uicocu. Mizzu, come. *Agoa, & arroz.* |  |
 | `c1-l020` | &emsp;*Vt,* Suicocuuo tatçu. *Absterſe de comer,* |  |
 | `c1-l021` | &emsp;*& beber.* |  |
@@ -52,7 +52,7 @@ Lexical cross-check after the independent scan reading: Entry Words Data of Nipp
 | `c1-l034` | Suifin. Mizzuno vqicuſa. *Erua que nace* |  |
 | `c1-l035` | &emsp;*nagoa.* |  |
 | `c1-l036` | Suigin. Mizzuno chiri. *Poo, ou argueiros* |  |
-| `c1-l037` | &emsp;*da agoa. Vt,* Suigin faraiyaſuxi. *Facil.* |  |
+| `c1-l037` | &emsp;*da agoa. Vt,* Suigin faraiyaſuxi. *Facil-* |  |
 | `c1-l038` | &emsp;*mente ſe ſacode o poo da agoa.* |  |
 | `c1-l039` | Suigiǒ. *Matarſe botandoſe viuo no mar, ou* |  |
 | `c1-l040` | &emsp;*no rio. Vt,* Suigiǒſuru. *Morrer desta* |  |
@@ -63,7 +63,7 @@ Lexical cross-check after the independent scan reading: Entry Words Data of Nipp
 | `c1-l045` | Suigua. Nemuri fuſu. *O eſtar deitado dor.* |  |
 | `c1-l046` | &emsp;*mindo.* |  |
 | `c1-l047` | Suigua. Yoi fuſu. *O eſtar deitado bebado, ou* |  |
-| `c1-l048` | &emsp;*tomado o vinho.* |  |
+| `c1-l048` | &emsp;*tomado do vinho.* |  |
 
 ## Column 2 running header
 
@@ -108,7 +108,7 @@ Lexical cross-check after the independent scan reading: Entry Words Data of Nipp
 | `c2-l025` | &emsp;*ſe ſoprão por cima. i, que corta muito bẽ.* |  |
 | `c2-l026` | *S*uimon. Mizzu cado. *Caminho, ou cano pe-* |  |
 | `c2-l027` | &emsp;*ra verter as agoas fora.* |  |
-| `c2-l028` | Suimono. l, *Potiùs, S*oimono. *Sacana que* |  |
+| `c2-l028` | Suimono. *l*, *Potiùs, S*oimono. *Sacana que* |  |
 | `c2-l029` | &emsp;*ſe dà cozida com caldo pera fazer beber vi-* |  |
 | `c2-l030` | &emsp;*nho, ou por agaſalhado.* |  |
 | `c2-l031` | *S*uimu. *Sonho que ſe vè dormindo.* |  |
@@ -121,7 +121,7 @@ Lexical cross-check after the independent scan reading: Entry Words Data of Nipp
 | `c2-l038` | Suiqi. Mizzuno qi. *Vapor, ou qualidade* |  |
 | `c2-l039` | &emsp;*oculta dagoa.* |  |
 | `c2-l040` | Suiqiǒ. Yoi gurui. *Bebedice, ou deſordem, q̃* |  |
-| `c2-l041` | &emsp;*procede de muito beber. Vt, S*uiqio ſuru. |  |
+| `c2-l041` | &emsp;*procede de muito beber. Vt, S*uiqiǒ ſuru. |  |
 | `c2-l042` | Suiqio. Fuqi aguru. *O louuar, & engrãde-* |  |
 | `c2-l043` | &emsp;*cer algũa couſa.* |  |
 | `c2-l044` | Suiqiǒjin. *Bebado que faz deſordens, & de-* |  |

@@ -16,7 +16,7 @@ Lexical aid consulted after reading the scan: NINJAL, Hideyuki Ohshima and Taich
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | &emsp;miuo ſuri, ru. *Moertinta. ¶ S*umiuo |  |
+| `c1-l001` | &emsp;miuo ſuri, ru. *Moer tinta. ¶ S*umiuo |  |
 | `c1-l002` | &emsp;nuru. *Tingir algũa couſa de preto por cima* |  |
 | `c1-l003` | &emsp;*com o pincel.* |  |
 | `c1-l004` | *S*umi. *Caruão. ¶ S*umiuo yaqu. *Fazer* |  |
@@ -41,9 +41,9 @@ Lexical aid consulted after reading the scan: NINJAL, Hideyuki Ohshima and Taich
 | `c1-l023` | Sumi cane. *Tinta, & eſquadra de carpintei.* |  |
 | `c1-l024` | &emsp;*ro. ¶* Sumi caneuo atçuru. *Por tinta,* |  |
 | `c1-l025` | &emsp;*& a eſquadra pera tomar medida.* |  |
-| `c1-l026` | Sumichiguiri, u, itta. *Meliùs,* Sumiqiri, u. |  |
+| `c1-l026` | *S*umichiguiri, u, itta. *Meliùs,* Sumiqiri, u. |  |
 | `c1-l027` | &emsp;*Aclararſe muito, ou de todo agoa, &c. Vt,* |  |
-| `c1-l028` | &emsp;Mizzuga ſumichiguitta. B. |  |
+| `c1-l028` | &emsp;Mizzuga ſumichiguitta. *B.* |  |
 | `c1-l029` | *S*umidocoro. *Lugar q̃ ſe habita, ou morada.* |  |
 | `c1-l030` | *S*umifate, tçuru, eta. *Morar em algum lu-* |  |
 | `c1-l031` | &emsp;*gar atè a morte.* |  |
@@ -105,7 +105,7 @@ Lexical aid consulted after reading the scan: NINJAL, Hideyuki Ohshima and Taich
 | `c2-l023` | &emsp;*buſcaua. Vt,* Sumodori ſuru. *Idem.* |  |
 | `c2-l024` | Sumomo. *Certa laya de ameixias, ou amei-* |  |
 | `c2-l025` | &emsp;*xieiras.* |  |
-| `c2-l026` | Sun. *Medida de meo dedo indice que he o eſpã-* |  |
+| `c2-l026` | Sun. *Medida de meo dedo indice que he o eſpa-* |  |
 | `c2-l027` | &emsp;*ço dantre os dous nòs do meyo. Vt,* Iſſun, |  |
 | `c2-l028` | &emsp;niſun. *¶ Itẽ, Medida. Vt,* Sunuo to- |  |
 | `c2-l029` | &emsp;ru. *Tomar medida.* |  |
