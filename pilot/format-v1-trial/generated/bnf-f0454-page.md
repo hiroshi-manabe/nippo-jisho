@@ -27,7 +27,7 @@ Lexical cross-check after the independent scan reading: Entry Words Data of Nipp
 | `c1-l009` | &emsp;*Exceder, com Datiuo. Vt,* Bunni ſuguita |  |
 | `c1-l010` | &emsp;qirumonogia. *He veſtido que excede mi-* |  |
 | `c1-l011` | &emsp;*nha poße.* |  |
-| `c1-l012` | Suguifara. l, ſuibara. *Certalaya de papel ẽ* |  |
+| `c1-l012` | Suguifara. l, ſuibara. *Certa laya de papel ẽ* |  |
 | `c1-l013` | &emsp;*que ſe eſcreuem as cartas de Iapão.* |  |
 | `c1-l014` | Suguimura. *Lugar de muitos Suguis, aruores* |  |
 | `c1-l015` | &emsp;*como aciprestes.* |  |
@@ -55,7 +55,7 @@ Lexical cross-check after the independent scan reading: Entry Words Data of Nipp
 | `c1-l037` | &emsp;*iz de muitos verbos. Vt,* Nomiſugoſu. |  |
 | `c1-l038` | &emsp;*Beber demaſiadamente. ¶ Itẽ, Paßar a vida* |  |
 | `c1-l039` | &emsp;*annos, &c. Vt,* Toxiuo ſugoſu. *Paſ-* |  |
-| `c1-l040` | &emsp;*ſar os annos. ¶* Inochiuo ſugoſu. *Paſ-* |  |
+| `c1-l040` | &emsp;*ſar os annos. ¶* Inochiuo ſugoſu. P*aſ-* |  |
 | `c1-l041` | &emsp;*ſar a vida.* |  |
 | `c1-l042` | *S*uguna. *Couſa direita.* |  |
 | `c1-l043` | *S*uguni. *Aduerb.* |  |
@@ -77,11 +77,11 @@ Lexical cross-check after the independent scan reading: Entry Words Data of Nipp
 | `c2-l001` | Sugurete. *Excelentemente, ou mais auantaja-* |  |
 | `c2-l002` | &emsp;*damente.* |  |
 | `c2-l003` | Suguri, u, utta. *Eſcolher, outomar o milhor.* |  |
-| `c2-l004` | Suguri idaxi,u, aita. *Idem.* |  |
+| `c2-l004` | Suguri idaxi, u, aita. *Idem.* |  |
 | `c2-l005` | Suguritate, tçuru, eta. *Eſcolher, & ajun-* |  |
 | `c2-l006` | &emsp;*tar, ou por a parte como gente de guerra, &c.* |  |
 | `c2-l007` | *S*ugurocu. *Iogo como de tabolas. ¶* Su- |  |
-| `c2-l008` | &emsp;gurocuuo vtçu. *Iugar à tabolas.* |  |
+| `c2-l008` | &emsp;gurocuuo vtçu. *Iugar às tabolas.* |  |
 | `c2-l009` | Sugurocuban. *Taboleiro em que ſe joga às* |  |
 | `c2-l010` | &emsp;*tabolas.* |  |
 | `c2-l011` | *S*ugurocu vchi. *Iugador de tabolas. ¶ Item,* |  |
@@ -112,8 +112,8 @@ Lexical cross-check after the independent scan reading: Entry Words Data of Nipp
 | `c2-l036` | &emsp;te ameto naſu. *As nuues ſoruendo a agoa* |  |
 | `c2-l037` | &emsp;*fazem na em chuua.* |  |
 | `c2-l038` | *S*uibara. *Meliùs, S*uguifara. *Papel aßi cha-* |  |
-| `c2-l039` | &emsp;*mado em que ſe eſcreuem as cartas de Iapão.* |  |
-| `c2-l040` | *S*uibi. Votoroye ſucoxi. *Ir empeyorando, ou* |  |
+| `c2-l039` | &emsp;*mado em que ſe eſcreuem as cartas de* I*apão.* |  |
+| `c2-l040` | *S*uibi. V*o*toroye ſucoxi. *Ir empeyorando, ou* |  |
 | `c2-l041` | &emsp;*destruindoſe pouco, & pouco. Vt,* Iyegaſuibi |  |
 | `c2-l042` | &emsp;ſuru. *Irſe desfazendo, & deſtruindoa caſa.* |  |
 | `c2-l043` | *S*uibin. *Gumil, ou vaſo de agoa.* |  |
