@@ -27,15 +27,15 @@ Lexical review aid: [Entry Words Data of Nippojisho](https://www2.ninjal.ac.jp/t
 | `c1-l009` | &emsp;*limando o ferro polla parte dos cabos. Vt,* |  |
 | `c1-l010` | &emsp;Catanauo ſuriaguru. *¶ Item, Permet.* |  |
 | `c1-l011` | &emsp;*Aleuantar pera cima hũa couſa que ſe abaixou* |  |
-| `c1-l012` | &emsp;*do lugar donde eſtaua. ¶* Vô a couo ſu- |  |
+| `c1-l012` | &emsp;*do lugar donde eſtaua. ¶* Vôta couo ſu- |  |
 | `c1-l013` | &emsp;riaguru. *Aleuantar pera cima a criança q̃* |  |
 | `c1-l014` | &emsp;*ſe traz às coſtas. ¶* Suriagatte. l, ſuri |  |
-| `c1-l015` | &emsp;ſagatte ne o. *Do mi chegando vos pera ci-* |  |
+| `c1-l015` | &emsp;ſagatte neyo. *Dormi chegando vos pera ci-* |  |
 | `c1-l016` | &emsp;*ma, ou chegando pera baixo.* |  |
-| `c1-l017` | Suriai, ǒ, ota. *Roçarſe hũa couſa com outra.* |  |
+| `c1-l017` | Suriai, ǒ, ǒta. *Roçarſe hũa couſa com outra.* |  |
 | `c1-l018` | Suribachi. *Gral de barro, ou de pedra.* |  |
 | `c1-l019` | Suricha. *Cha moido.* |  |
-| `c1-l020` | Surichatçubo. *Boyẽzinho onde metem Cha* |  |
+| `c1-l020` | Surichatçubo. *Boyãzinho onde metem Cha* |  |
 | `c1-l021` | &emsp;*moido.* |  |
 | `c1-l022` | *S*uricobachi. *Gral de barro, ou de pedra.* |  |
 | `c1-l023` | Suricocuri, ru, cutta. *Alinpar eſfregando* |  |
@@ -87,11 +87,11 @@ Lexical review aid: [Entry Words Data of Nippojisho](https://www2.ninjal.ac.jp/t
 | `c2-l005` | &emsp;*geira, & expeditamente. Vt,* Catanauo |  |
 | `c2-l006` | &emsp;ſururito nuqu. *Arrancar a Catana ligei-* |  |
 | `c2-l007` | &emsp;*ramente ſem impedimento.* |  |
-| `c2-l008` | *S*uruſuruto. *Adu. Idem. Vt,* Suruſu- |  |
-| `c2-l009` | &emsp;ruto faxiru. *Correr depreſſa, & ſem em-* |  |
+| `c2-l008` | *S*uruſuruto. *Adu.* I*dem. Vt,* Suruſu- |  |
+| `c2-l009` | &emsp;ruto faxiru. *Correr depreßa, & ſem em-* |  |
 | `c2-l010` | &emsp;*baraço.* |  |
 | `c2-l011` | *S*uſa. *Palha cortada miudamente pera miſturar* |  |
-| `c2-l012` | &emsp;*com o barro.* X. *No Cami ſe diz,* Ca- |  |
+| `c2-l012` | &emsp;*com o barro. X. No Cami ſe diz,* Ca- |  |
 | `c2-l013` | &emsp;beuara, l, Qiriuara. |  |
 | `c2-l014` | *S*uſamajij. *Couſa fria, & medonha. Vt,* |  |
 | `c2-l015` | &emsp;Suſamajij nari. *Modo de eſtar com frio,* |  |
@@ -109,7 +109,7 @@ Lexical review aid: [Entry Words Data of Nippojisho](https://www2.ninjal.ac.jp/t
 | `c2-l027` | &emsp;ſuſamu. *Chouer rijo. ¶* Caje ſuſamu. |  |
 | `c2-l028` | &emsp;*Ventar rijo. ¶* Fanani ſuſamu. i, Fana- |  |
 | `c2-l029` | &emsp;uo aiſuru. *Folgar, ou gozarſe de ver as* |  |
-| `c2-l030` | &emsp;*flores.* P. |  |
+| `c2-l030` | &emsp;*flores. P.* |  |
 | `c2-l031` | Suſamiſute, tçuru, eta. *Deixar, ou lançar* |  |
 | `c2-l032` | &emsp;*de ſi com enfadamento algũa couſa.* |  |
 | `c2-l033` | Suſaqi. *Ponta que ſae ao mar como coroa, ou* |  |

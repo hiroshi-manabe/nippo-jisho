@@ -43,7 +43,7 @@ Lexical review aid: [Entry Words Data of Nippojisho](https://www2.ninjal.ac.jp/t
 | `c1-l025` | &emsp;*& vontade de comer. ¶* Vmauo ſuſu- |  |
 | `c1-l026` | &emsp;muru. l, ſuſume yaru. *Fazer andar, ou* |  |
 | `c1-l027` | &emsp;*correr o caualo.* |  |
-| `c1-l028` | Suſumi, u, unda. *In iterſe, ou perſuadirſe a* |  |
+| `c1-l028` | Suſumi, u, unda. *Inciterſe, ou perſuadirſe a* |  |
 | `c1-l029` | &emsp;*fazer algũa couſa, ou ir a diante. Vt,* Ien- |  |
 | `c1-l030` | &emsp;ni ſuſumu. *Incitarſe à virtude, ou ir adiã-* |  |
 | `c1-l031` | &emsp;*te na virtude. ¶* Xocuga ſuſumu. *Ter* |  |
@@ -93,7 +93,7 @@ Lexical review aid: [Entry Words Data of Nippojisho](https://www2.ninjal.ac.jp/t
 | `c2-l017` | &emsp;*comer, & lhe dar ſabor.* |  |
 | `c2-l018` | Sutçu. *Fardo, ou ſaco de arroz, &c.* |  |
 | `c2-l019` | Sutçǔ. *Muitas cartas, ou eſcritos.* |  |
-| `c2-l020` | Sutebaye. *Vento Sul que ventade maneira que* |  |
+| `c2-l020` | Sutebaye. *Vento Sul que venta de maneira que* |  |
 | `c2-l021` | &emsp;*logo ha de acabar. Vt,* Cono caje ſutebaye |  |
 | `c2-l022` | &emsp;de gozaru. *Eſte vento Sul logo ha de ceſ-* |  |
 | `c2-l023` | &emsp;*ſar ſegundo o modo de ventar.* |  |
@@ -106,10 +106,10 @@ Lexical review aid: [Entry Words Data of Nippojisho](https://www2.ninjal.ac.jp/t
 | `c2-l030` | &emsp;*não presta pera nada.* |  |
 | `c2-l031` | Sutego. *Criança engeitada.* |  |
 | `c2-l032` | Sutemuchi. *Vide,* Sutebuchi. |  |
-| `c2-l033` | Sùua. l, ſuuaya. *Interjeição de eſpãto. Vt,* |  |
+| `c2-l033` | Suua. l, ſuuaya. *Interjeição de eſpãto. Vt,* |  |
 | `c2-l034` | &emsp;Suua core coſo vochǔto naretote. Taif. |  |
 | `c2-l035` | &emsp;*Lib. 28. O que eſte certo he homẽ q̃ vẽ fugido.* |  |
-| `c2-l036` | Suuabuqi. l, *Potiùs,* Xiuabuqi. *Toſe.* |  |
+| `c2-l036` | Suuabuqi. *l*, *Potiùs,* Xiuabuqi. *Toſe.* |  |
 | `c2-l037` | &emsp;*¶* Suuabuqiuo ſuru. *Toſir, ou ter toſe.* |  |
 | `c2-l038` | Suuai. *Raminhas, ou varinhas de aruore.* |  |
 | `c2-l039` | Suuai. *Officio de corretor entre os que comprão,* |  |

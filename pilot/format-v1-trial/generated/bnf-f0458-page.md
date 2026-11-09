@@ -21,9 +21,9 @@ Lexical aid consulted after reading the scan: NINJAL, Hideyuki Ohshima and Taich
 | `c1-l003` | &emsp;*Não diſcrepa nẽhum ponto.* |  |
 | `c1-l004` | Sunca. Sunno itoma. *Vagar, ou breue tẽpo.* |  |
 | `c1-l005` | &emsp;*¶* Suncauo yezu. *Não tendo vagar nem* |  |
-| `c1-l006` | &emsp;*eſpaço breuiſimo.* |  |
+| `c1-l006` | &emsp;*eſpaço breuißimo.* |  |
 | `c1-l007` | *S*uncô. *Certo lugar onde ſe toma o pulſo, que* |  |
-| `c1-l008` | &emsp;*reſponde ao primeiro dos tres dedos que he c* |  |
+| `c1-l008` | &emsp;*reſponde ao primeiro dos tres dedos que he o* |  |
 | `c1-l009` | &emsp;*ĩdice cõ que os Chinas, & Iapões tomão o pulſo.* |  |
 | `c1-l010` | *S*une. *Perna, ou pees.* |  |
 | `c1-l011` | *S*une, nuru, eta. *Arrufarſe, ou moſtrarſe* |  |
@@ -47,7 +47,7 @@ Lexical aid consulted after reading the scan: NINJAL, Hideyuki Ohshima and Taich
 | `c1-l029` | Sunoco. *Caniçada que ſe faz nas caſas hum* |  |
 | `c1-l030` | &emsp;*pouco aleuantada do chão. ¶* Sunoco yẽ. |  |
 | `c1-l031` | &emsp;*Varanda feita com caniçada de bambus.* |  |
-| `c1-l032` | Sunpǒ. *Medida. Vt,* Sunpǒuo toru. *To-* |  |
+| `c1-l032` | Sunpǒ. M*edida. Vt,* Sunpǒuo toru. *To-* |  |
 | `c1-l033` | &emsp;*mar a medida, ou tamanho da couſa.* |  |
 | `c1-l034` | Sunxacu. *Medida queſe toma. Vt,* Sunxa- |  |
 | `c1-l035` | &emsp;cuuo toru. |  |
@@ -57,7 +57,7 @@ Lexical aid consulted after reading the scan: NINJAL, Hideyuki Ohshima and Taich
 | `c1-l039` | &emsp;*Cortar em pedacinhos.* |  |
 | `c1-l040` | *S*uppa. *Engano, ou mentira.* |  |
 | `c1-l041` | *S*uppana mono. *Vadio, ou enganador, &c.* |  |
-| `c1-l042` | *S*uqe. *Pontalete. ¶* Suqeuo co. *Por* |  |
+| `c1-l042` | *S*uqe. *Pontalete. ¶* Suqeuo cǒ. *Por* |  |
 | `c1-l043` | &emsp;*pontaletes como pera não cair a caſa, &c.* |  |
 | `c1-l044` | *S*uqe, uru. *Por algũa couſa de baixo doutra de* |  |
 | `c1-l045` | &emsp;*maneira que a ſoſtente, ou aleuante. Vt,* Fã- |  |
@@ -84,8 +84,8 @@ Faint numeral-like ink traces occur above the outer end of the top rule. They ar
 | `c2-l004` | &emsp;*ajuda na guerra aos que vão enfraquecendo ou* |  |
 | `c2-l005` | &emsp;*vão no alcance dos inimigos, & hão miſter ſo-* |  |
 | `c2-l006` | &emsp;*corro, &c. ¶* Suqe jei. *Gente de ſo-* |  |
-| `c2-l007` | &emsp;*corro. ¶ Item,* Suqe, uru. *Dizer por* |  |
-| `c2-l008` | &emsp;*de tras, & ajudar aos que vão dizẽdo de cor* |  |
+| `c2-l007` | &emsp;*corro. ¶* I*tem,* Suqe, uru. *Dizer por* |  |
+| `c2-l008` | &emsp;*de tras, & ajudar aos que vão dizẽdo de còr* |  |
 | `c2-l009` | &emsp;*algũa couſa. Tambem ſe dirà do que ajuda a* |  |
 | `c2-l010` | &emsp;*beber ao que não pode por ſer pouco amigo de* |  |
 | `c2-l011` | &emsp;*vinho, &c.* |  |
@@ -98,18 +98,18 @@ Faint numeral-like ink traces occur above the outer end of the top rule. They ar
 | `c2-l018` | &emsp;no camiuo ſuqitatçuru. *Troſquiar dambas* |  |
 | `c2-l019` | &emsp;*as partes a coma do caualo.* |  |
 | `c2-l020` | Suqi. *Hũa certa enxada à maneira de pà ferra-* |  |
-| `c2-l021` | &emsp;*da. ¶* Suqide foru, l, foricayeru. *Ca-* |  |
+| `c2-l021` | &emsp;*da. ¶* Suqide foru, l, foricayeſu. *Ca-* |  |
 | `c2-l022` | &emsp;*uar, ou virar a terra com esta pà.* |  |
 | `c2-l023` | Suqi. *Inclinação. ¶ Item, Arte, & ex-* |  |
 | `c2-l024` | &emsp;*ercicio do Chanoyu. ¶* Suqiuo ſuru. *Dar* |  |
-| `c2-l025` | &emsp;*ſe à arte do Chanoyu.* |  |
+| `c2-l025` | &emsp;*ſe â arte do Chanoyu.* |  |
 | `c2-l026` | *S*uqi, u, uita. *Ser inclinado a algũa couſa.* |  |
 | `c2-l027` | &emsp;*Vt,* Icuſa, chanoyu nadoni ſuqu. *Ser in-* |  |
 | `c2-l028` | &emsp;*clinado à guerra, Chanoyu, &c.* |  |
 | `c2-l029` | *S*uqi, u, uita. *Ser tranſparente.* |  |
 | `c2-l030` | Suqi. l, ſuqima. *Greta, ou fenda. ¶ Itẽ,* |  |
 | `c2-l031` | &emsp;*per met. Tempo, ou vagar. Vt,* Fimano |  |
-| `c2-l032` | &emsp;ſuqiuo yezu. *Não ter tempo, ou eſpaçode* |  |
+| `c2-l032` | &emsp;ſuqiuo yezu. *Não ter tempo, ou eſpaço de* |  |
 | `c2-l033` | &emsp;*fazer algũa couſa. ¶* Suqiuo nerǒ. *Buſ-* |  |
 | `c2-l034` | &emsp;*car conjunção de tempo.* |  |
 | `c2-l035` | Suqiconomi, u, ôda. *Ser inclinado, ou ami-* |  |
@@ -119,7 +119,7 @@ Faint numeral-like ink traces occur above the outer end of the top rule. They ar
 | `c2-l039` | Suqima. *Vide,* Suqi. |  |
 | `c2-l040` | Suqimano caje. *Vento que vem coado por al-* |  |
 | `c2-l041` | &emsp;*gũa porta, ou buraco, &c.* |  |
-| `c2-l042` | *S*ǔqiô. i, Cuſa caru vonoco. *Homem baixo* |  |
+| `c2-l042` | *S*ǔqiô. *i*, Cuſa caru vonoco. *Homem baixo* |  |
 | `c2-l043` | &emsp;*que corta erua.* |  |
 | `c2-l044` | *S*uqitouori, u, otta. *Ser tranſparente.* |  |
 | `c2-l045` | Suqixa. *Peßoa dada ao exercicio, & arte do* |  |
