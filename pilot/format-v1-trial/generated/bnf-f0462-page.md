@@ -51,7 +51,7 @@ Lexical aid (consulted after independent scan reading): NINJAL, Entry Words Data
 | `c1-l010` | &emsp;chicayeſu. *Cauar as varzeas.* |  |
 | `c1-l011` | Tabacari, u, atta. *Enganar.* |  |
 | `c1-l012` | Tabacari. *Engano.* |  |
-| `c1-l013` | Tabacarigoto. *Idem.* |  |
+| `c1-l013` | Tabacarigoto. I*dem.* |  |
 | `c1-l014` | Tabacarivotoxi, ſu, oita. *Enganar totalmẽ-* |  |
 | `c1-l015` | &emsp;*te, ou derrubar enganando.* |  |
 | `c1-l016` | Tabacariyoxe, ſuru, eta. *Trazer a algũe aſi,* |  |

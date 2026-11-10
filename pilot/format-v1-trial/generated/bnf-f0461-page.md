@@ -59,7 +59,7 @@ Lexical review aid: [Entry Words Data of Nippojisho](https://www2.ninjal.ac.jp/t
 | `c1-l041` | &emsp;*gre. ¶* Yaitôuo ſuyuru. *Dar botões de* |  |
 | `c1-l042` | &emsp;*fogo. ¶* Xeqiuo ſuyuru. *Por portagẽs,* |  |
 | `c1-l043` | &emsp;*ou tomar portagens, ou tomar os paßos onde* |  |
-| `c1-l044` | &emsp;*hi muita paßagem de gente. ¶* Comauo |  |
+| `c1-l044` | &emsp;*hà muita paßagem de gente. ¶* Comauo |  |
 | `c1-l045` | &emsp;ſuyuru. *Fazer parar o caualo. ¶* Yu- |  |
 | `c1-l046` | &emsp;mino fazuuo ſuyuru. *Cortar hum pouco a* |  |
 | `c1-l047` | &emsp;*ponta do arco. ¶* Yumiuo ſuyuru. *En* |  |
@@ -86,7 +86,7 @@ Lexical review aid: [Entry Words Data of Nippojisho](https://www2.ninjal.ac.jp/t
 | `c2-l004` | &emsp;*pontas abertas, & ſerue nos autos, danças, &c.* |  |
 | `c2-l005` | Suyenarabe, uru, eta. *Por algũas couſas por* |  |
 | `c2-l006` | &emsp;*ordem, ou igualmente.* |  |
-| `c2-l007` | Suyetçumu fana. *P.* i, Beni. *Rebique.* |  |
+| `c2-l007` | Suyetçumu fana. *P. i*, Beni. *Rebique.* |  |
 | `c2-l008` | Suyeuoqe. *Tina grande que ſerue pera ter agoa.* |  |
 | `c2-l009` | Suyeza. l, Batza. *Aßento, ou lugar derra-* |  |
 | `c2-l010` | &emsp;*deiro no Zaxiqui.* |  |
@@ -108,7 +108,7 @@ Lexical review aid: [Entry Words Data of Nippojisho](https://www2.ninjal.ac.jp/t
 | `c2-l026` | Suzumidocoro. *Lugar freſco, ou onde ſo toma* |  |
 | `c2-l027` | &emsp;*àr, & viração.* |  |
 | `c2-l028` | Suzumijo. *Idem.* |  |
-| `c2-l029` | Suzumuxi. *Hum bichinho que cãta como grilo.* |  |
+| `c2-l029` | Suzumuxi. H*um bichinho que cãta como grilo.* |  |
 | `c2-l030` | Suzuna. *Hũa erua.* |  |
 | `c2-l031` | Suzuqi. *Hum peixe como robalo.* |  |
 | `c2-l032` | Suzuri. *Tinteiro de Iapão.* |  |
