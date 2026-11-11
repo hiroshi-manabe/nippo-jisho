@@ -18,7 +18,7 @@ Lexical aid (consulted after independent scan reading): NINJAL, Entry Words Data
 | --- | --- | --- |
 | `c1-l001` | &emsp;*¶ Item, per met. Chamuſcar a Fune pera* |  |
 | `c1-l002` | &emsp;*matar o bicho que a come.* |  *(Tade.* |
-| `c1-l003` | Tadebiyaxiru. *Hum Xiru frio feito deſta erua* |  |
+| `c1-l003` | Tadebiyaxiru. *Hu*m *Xiru frio feito deſta erua* |  |
 | `c1-l004` | Tadori, u, otta. *Andar às apalpadelas. Vt,* |  |
 | `c1-l005` | &emsp;Curaqi yoni ſocotomo xirazu touoqi mi- |  |
 | `c1-l006` | &emsp;chiuo tadorite ayumaxe tamayeba, &c. |  |
@@ -30,9 +30,9 @@ Lexical aid (consulted after independent scan reading): NINJAL, Entry Words Data
 | `c1-l012` | &emsp;*pera là como às apalpadelas, ou como beba-* |  |
 | `c1-l013` | &emsp;*do, &c.* |  |
 | `c1-l014` | Tadotadoxij. *Modo de ir às apalpadelas, ou* |  |
-| `c1-l015` | &emsp;*ſem ſaber o caminho.* P. |  |
+| `c1-l015` | &emsp;*ſem ſaber o caminho. P.* |  |
 | `c1-l016` | Tadotadoxǔ. *Aduer.* |  |
-| `c1-l017` | Tafa. Vchiyaburu. *O deſtruir, ou desfa-* |  |
+| `c1-l017` | *T*afa. Vchiyaburu. *O deſtruir, ou desfa-* |  |
 | `c1-l018` | &emsp;*zer. ¶* Iiriǔ tafano cocorouo yameyo. |  |
 | `c1-l019` | &emsp;*Deixai a condição de ſoſtentar voßa opinião,* |  |
 | `c1-l020` | &emsp;*& desfazer a dos outros.* |  |
@@ -44,18 +44,18 @@ Lexical aid (consulted after independent scan reading): NINJAL, Entry Words Data
 | `c1-l026` | Tafu. Futoi nuno. *Pano großo feito de hũa* |  |
 | `c1-l027` | &emsp;*caſca de aruore que ſerue de alimpar as mãos* |  |
 | `c1-l028` | Taga. l, tarega. *Quem, ou cujo, cuia. Vt,* |  |
-| `c1-l029` | &emsp;Tagacoreuo itaitaca? *Quem fez isto?* |  |
+| `c1-l029` | &emsp;Taga coreuo itaitaca? *Quem fez isto?* |  |
 | `c1-l030` | &emsp;*¶* Taga qiǒca? *Cujo he eſte liuro?* |  |
-| `c1-l031` | Tagai, ǒ, ota. *Diſcrepar. ¶* Naca, l, |  |
+| `c1-l031` | Tagai, ǒ, ǒta. *Diſcrepar. ¶* Naca, l, |  |
 | `c1-l032` | &emsp;nacauo tagǒ. *Estar quebrado com outro na* |  |
 | `c1-l033` | &emsp;*amizade. ¶* Fitono cocoroni tagǒ. *Dar* |  |
 | `c1-l034` | &emsp;*no coração dalguem, ou não lhe quadrar. ¶ Itẽ,* |  |
 | `c1-l035` | &emsp;Te.l, Axiga tagǒta. *Amão, ou opè eſtã* |  |
 | `c1-l036` | &emsp;*fora de ſeu lugar.* |  |
-| `c1-l037` | Tagaini. *Aduerb. Entreſi. Vt,* Tagaini |  |
+| `c1-l037` | Tagaini. *Aduerb. Entre ſi. Vt,* Tagaini |  |
 | `c1-l038` | &emsp;mǒxicauaſu. *Falar entre ſi prometendo de* |  |
 | `c1-l039` | &emsp;*fazer algũa couſa.* |  |
-| `c1-l040` | Tagane. *Eſcopro com que cortão a prata.* |  |
+| `c1-l040` | *T*agane. *Eſcopro com que cortão a prata.* |  |
 | `c1-l041` | &emsp;*¶ Item, Buril com que abrem os ouriues.* |  |
 | `c1-l042` | Tagaraxi. *Erua aßi chamada.* |  |
 | `c1-l043` | Tagaye, tagayuru, eta. *Diſcrepar a peßoa,* |  |
@@ -81,7 +81,7 @@ Lexical aid (consulted after independent scan reading): NINJAL, Entry Words Data
 | `c2-l005` | &emsp;*couſa por outra. ¶* Qiqitagayuru. *Ou-* |  |
 | `c2-l006` | &emsp;*uir hũa couſa por outra.* |  |
 | `c2-l007` | Tagaye. *O errar, ou diſcrepar. Vt,* Fito |  |
-| `c2-l008` | &emsp;tagaye ſuna. *Não erreis a peßoa que buſ-* |  |
+| `c2-l008` | &emsp;tagaye ſuna. *Não erreis a peſſoa que buſ-* |  |
 | `c2-l009` | &emsp;*cais. i, Matando, ou fazendo mal a hum por* |  |
 | `c2-l010` | &emsp;*outro. ¶* Cadotagaye ſuru. *Errar a* |  |
 | `c2-l011` | &emsp;*porta, ou caſa.* |  |
@@ -89,7 +89,7 @@ Lexical aid (consulted after independent scan reading): NINJAL, Entry Words Data
 | `c2-l013` | &emsp;*o tinha.* |  |
 | `c2-l014` | Tagayexi, ſu, eita. *Laurar, ou cauar as* |  |
 | `c2-l015` | &emsp;*varzeas.* |  |
-| `c2-l016` | Taguen. Vouoi cotoba. *Muitas palauras;* |  |
+| `c2-l016` | Taguen. Vouoi cotoba. *Muitas palauras,* |  |
 | `c2-l017` | &emsp;*ou muito falar. Vt,* Taguenua miuo gai- |  |
 | `c2-l018` | &emsp;ſu. Xix. *O muito falar mata a hum* |  |
 | `c2-l019` | &emsp;*homem.* |  |

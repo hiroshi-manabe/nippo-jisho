@@ -39,7 +39,7 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | `c1-l021` | Taigui. l, taiguina. Vôqinarugui. *Couſa* |  |
 | `c1-l022` | &emsp;*grande, couſa trabalhoſa, ou difficultoſa.* |  |
 | `c1-l023` | Taiguio. Vôqina curuma. *Grande carro. S.* |  |
-| `c1-l024` | Taiguio. Vôqina vuo. *Grande peixe.* |  |
+| `c1-l024` | *T*aiguio. Vôqina vuo. *Grande peixe.* |  |
 | `c1-l025` | Taiguiô. Vôqina xiuaza. *Grande obra, ou* |  |
 | `c1-l026` | &emsp;*exercicio. S.* |  |
 | `c1-l027` | Taigo. Atoye xirizoqu. *Tornar pera tras. S.* |  |
@@ -60,7 +60,7 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | `c1-l042` | Tai-i. *Couſa principal. Vt,* Buppôno tai-i- |  |
 | `c1-l043` | &emsp;ua nanizo? *O principal, & ſuſtancial de* |  |
 | `c1-l044` | &emsp;*Buppô, que he?.* |  |
-| `c1-l045` | Tai-in. *Abundante ſemente de homẽ. ¶ Itẽ,* |  |
+| `c1-l045` | Tai-in. *Abundante ſemente de homẽ. ¶* I*tẽ,* |  |
 | `c1-l046` | &emsp;*Grande luxuria que naſce da copia de ſemente.* |  |
 | `c1-l047` | Taijin. Vôqina fito. *Peßoa nobre.* |  |
 
@@ -95,7 +95,7 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | `c2-l019` | Tainai. Farano vchi. *Dentro do ventre.* |  |
 | `c2-l020` | &emsp;*¶* Fauano tainaini yadoru. *Andar, ou* |  |
 | `c2-l021` | &emsp;*eſtar no ventre da mãy.* |  |
-| `c2-l022` | Tainǒ. *Saco, ou taleigo. S.* |  |
+| `c2-l022` | *T*ainǒ. *Saco, ou taleigo. S.* |  |
 | `c2-l023` | Taino ya. *Caſa interior onde estão as molheres* |  |
 | `c2-l024` | &emsp;*em caſa do Dairi.* |  |
 | `c2-l025` | Taiqei. Vôqina yorocobi. *Grande alegria.* |  |
@@ -103,7 +103,7 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | `c2-l027` | Taiqet. *Contenderem dous diante do juiz ſobre* |  |
 | `c2-l028` | &emsp;*algũa demanda, arrezoando cada hum por ſi.* |  |
 | `c2-l029` | Taiqi. Vôqina cocoro. *Coração grande, &* |  |
-| `c2-l030` | &emsp;*liueral. ¶* Taiqina fito. *Homẽ de grãde cora-* |  |
+| `c2-l030` | &emsp;*liberal. ¶* Taiqina fito. *Homẽ de grãde cora-* |  |
 | `c2-l031` | &emsp;*ção, & magnifico.* |  |
 | `c2-l032` | Taiqi. Vôqina vtçuuamono. *Vaſo, ou va-* |  |
 | `c2-l033` | &emsp;*ſilha grande.* |  |

@@ -23,13 +23,13 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | `c1-l005` | Tagimeqi, u, eita. *Andando fraco, ou feri-* |  |
 | `c1-l006` | &emsp;*do não ſe poder ter em pè, nem caminhar ſegura-* |  |
 | `c1-l007` | &emsp;*mente.* |  |
-| `c1-l008` | Tagiroqi, u, oita. *Eulirſe, ou mouerſe. Vt,* |  |
+| `c1-l008` | Tagiroqi, u, oita. *Bulirſe, ou mouerſe. Vt,* |  |
 | `c1-l009` | &emsp;Axiga tagiroqu. *Tremerem, ou bulirem* |  |
-| `c1-l010` | &emsp;*os pẽs como quem quer cair. ¶ Item, per* |  |
-| `c1-l011` | &emsp;*met. Moſt arſe inconſtante, & fraco nas* |  |
+| `c1-l010` | &emsp;*os pès como quem quer cair. ¶ Item, per* |  |
+| `c1-l011` | &emsp;*met. Moſtrarſe inconſtante, & fraco nas* |  |
 | `c1-l012` | &emsp;*couſas de importancia. ¶* Nangui idequ- |  |
 | `c1-l013` | &emsp;redomo, Fidesua tagirocanu. *Poſto que a* |  |
-| `c1-l014` | &emsp;*contecerão trabalhos, todaua não duuidou,* |  |
+| `c1-l014` | &emsp;*contecerão trabalhos, todauia não duuidou,* |  |
 | `c1-l015` | &emsp;*nem ſe moueo nas couſas da Fè.* |  |
 | `c1-l016` | Tagitagito. *Adu. Modo de andar fraco,* |  |
 | `c1-l017` | &emsp;*como caindo.* |  |
@@ -45,16 +45,16 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | `c1-l027` | &emsp;*dos peccados. ¶* Tai acu xujen. *Deixar* |  |
 | `c1-l028` | &emsp;*a maldade, & darſe à virtude. S.* |  |
 | `c1-l029` | Taibiǒ. Vôqina yamai. *Grande doença.* |  |
-| `c1-l030` | Taibǒ. l, taunǒ. Vôqina nozomi. *Gran-* |  |
+| `c1-l030` | Taibǒ. l, taimǒ. Vôqina nozomi. *Gran-* |  |
 | `c1-l031` | &emsp;*de deſejo. S.* |  |
 | `c1-l032` | Taibô. Vôqina facaricoto. *Grande ardil,* |  |
 | `c1-l033` | &emsp;*ou inuenção. S.* |  *(aruore.* |
 | `c1-l034` | Taibocu. Vôqina qi. *Grande madeiro, ou* |  |
-| `c1-l035` | Taica. l, taicano fito. *Grande ſenhor, ou* |  |
+| `c1-l035` | *T*aica. l, taicano fito. *Grande ſenhor, ou* |  |
 | `c1-l036` | &emsp;*muito nobre.* |  |
 | `c1-l037` | Taican. Mucai cobamu. *Contrariar, ou re-* |  |
 | `c1-l038` | &emsp;*ſiſtir. Vt,* Xujinni taican ſuru. *Ir à* |  |
-| `c1-l039` | &emsp;*mão, ou reſiſtir ao ſenhor.* |  |
+| `c1-l039` | &emsp;*mão, ou reſistir ao ſenhor.* |  |
 | `c1-l040` | Taichǔ. *Grande ſeruiço. Vt,* Taichǔuo na- |  |
 | `c1-l041` | &emsp;ſu. *Fazer grandes ſeruiços.* |  *(eſtima* |
 | `c1-l042` | Taicǒ. l, taicǒna. *Couſa grande, ou alta, ou de* |  |
@@ -98,11 +98,11 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | `c2-l016` | &emsp;*guamente, à maneira de cidade cercada.* |  |
 | `c2-l017` | Taidan. Mucai cataru. *Verſe, tratar, ou cõ-* |  |
 | `c2-l018` | &emsp;*ſultar com alguem ſobre algũ negocio. ¶* Tai- |  |
-| `c2-l019` | &emsp;dan mosǒzu, l, itasǒzu. *Vernos emos* |  |
+| `c2-l019` | &emsp;dan mǒsǒzu, l, itasǒzu. *Vernos emos* |  |
 | `c2-l020` | &emsp;*depois, & trataremos, &c.* |  |
 | `c2-l021` | Taifa. Vôqina nami. *Grandes ondas. S.* |  |
 | `c2-l022` | Taifa. Vôqiri yaburu. *Grande deſtruição.* |  |
-| `c2-l023` | &emsp;*¶* Taifani voyobu. *Chegar a grande de-* |  |
+| `c2-l023` | &emsp;*¶ T*aifani voyobu. *Chegar a grande de-* |  |
 | `c2-l024` | &emsp;*ſtruição.* |  |
 | `c2-l025` | Taifacu. *Certas boninas, ou flores brancas do* |  |
 | `c2-l026` | &emsp;*Outono muito grandes, & fermoſas.* |  |
@@ -116,13 +116,13 @@ Lexical aid: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and Taichi
 | `c2-l034` | &emsp;*Homem deſmazelado, & de ruim eſtatura,* |  |
 | `c2-l035` | &emsp;*ou mal criado, &c.* |  |
 | `c2-l036` | Taifan. i, Tairiacu. *Amayor parte, ou pola-* |  |
-| `c2-l037` | &emsp;*mor porte. ¶* Tencano taifanuo tamo- |  |
+| `c2-l037` | &emsp;*mòr porte. ¶* Tencano taifanuo tamo- |  |
 | `c2-l038` | &emsp;chi. *Tendo amayor parte do imperio.* |  |
 | `c2-l039` | Taifei. Vouoini, tairacani. *Tranquilida-* |  |
 | `c2-l040` | &emsp;*de, & paz. ¶* Tencauo taifeini voſa- |  |
 | `c2-l041` | &emsp;muru. *Gouernar o imperio em paz.* |  |
 | `c2-l042` | Taifei. *Grãdes bulles como fraſcos de vinho.* |  |
-| `c2-l043` | Taifeiqi. *Hum liuro de hiſtorias de* Iapão. |  |
+| `c2-l043` | *T*aifeiqi. *Hum liuro de hiſtorias de* Iapão. |  |
 | `c2-l044` | Taifen. l, taifenna. *Couſa muito grande, ou de* |  |
 | `c2-l045` | &emsp;*muito negocio, ou couſa trabalhoſa.* |  |
 | `c2-l046` | Taifenni. *Adu. ¶* Taifenni vomô. *Ter* |  |
