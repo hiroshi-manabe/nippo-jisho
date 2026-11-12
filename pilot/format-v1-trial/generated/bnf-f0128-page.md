@@ -45,7 +45,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l029` | Corai. Inixiye, cono cata. *Deſdo tempo paſ* |  |
 | `c1-l030` | &emsp;*ſado atègora.* |  |
 | `c1-l031` | Côrai. Nochini qitaru. *Vir depois.* |  |
-| `c1-l032` | Cǒraiberi. *Debrum do* Tatami *feito de certo* |  |
+| `c1-l032` | Cǒraiberi. *Debrum do Tatami feito de certo* |  |
 | `c1-l033` | &emsp;*nono pintado que vem da Còrea.* |  |
 | `c1-l034` | Cǒran. *Ver peßoa alta. Vt,* Cǒranni ſo- |  |
 | `c1-l035` | &emsp;nayuru. *Apreſentar, ou moſtrar a peßoa* |  |
