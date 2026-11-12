@@ -118,8 +118,7 @@
     // Keep accented capitals available for their existing accent controls.
     if ([current.character, originalCharacter || ''].some(letter => /\p{M}/u.test(letter.normalize('NFD')))) return null;
     const style = current.style || originalTypefaces[index];
-    if (!['roman', 'italic'].includes(style)
-        || (next.style || originalTypefaces[index + 1]) !== 'italic') return null;
+    if (!['roman', 'italic'].includes(style)) return null;
     return {start: index, end: index + 1};
   }
 

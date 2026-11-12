@@ -1174,8 +1174,7 @@ function quickCharacterHTML(character, index, baseIndex, changed, line, proposal
   let action = '';
   let title = '';
   let extraAttributes = '';
-  const markedToken = NippoQuickEdit.knownTypefaceTokenRange(proposal.text, index, new Set(line.typeface_toggle_terms || []));
-  const typefaceToken = NippoQuickEdit.citationTypefaceTokenRange(proposal.text, index) || markedToken || NippoQuickEdit.typefaceTokenRange(proposal.text, index, original);
+  const typefaceToken = NippoQuickEdit.citationTypefaceTokenRange(proposal.text, index) || NippoQuickEdit.typefaceTokenRange(proposal.text, index, original);
   const initialCapital = NippoQuickEdit.initialCapitalTypefaceRange(proposal.characters, index, typefaces, original);
   const postTcedilla = NippoQuickEdit.postTcedillaTypefaceRange(proposal.characters, index);
   if (nasalRestoration) {
