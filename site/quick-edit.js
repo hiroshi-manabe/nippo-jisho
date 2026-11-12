@@ -93,6 +93,11 @@
     return {start: index, end: index + (next === '.' ? 2 : 1)};
   }
 
+  function postTcedillaTypefaceRange(characters, index) {
+    if (characters[index]?.character !== 'ç' || !['T', 't'].includes(characters[index - 1]?.character)) return null;
+    return {start: index, end: index + 1};
+  }
+
   function toggleTypefaceRange(value, start, end, originalTypefaces) {
     const parsed = parse(value);
     if (!parsed.valid || start < 0 || end > parsed.characters.length || start >= end) return value;
@@ -238,5 +243,5 @@
     return {operations, currentToBase, changed, deletions};
   }
 
-  return {VOWEL_CYCLES, DELETABLE, parse, serialize, replace, knownTypefaceTokenRange, citationTypefaceTokenRange, typefaceTokenRange, initialCapitalTypefaceRange, toggleTypefaceRange, nextSForm, nextGQ, nextNM, nextPostvocalicNasal, nextCedilla, nextUV, nextIJ, vowelCycleForOriginal, nextVowel, align};
+  return {VOWEL_CYCLES, DELETABLE, parse, serialize, replace, knownTypefaceTokenRange, citationTypefaceTokenRange, typefaceTokenRange, postTcedillaTypefaceRange, initialCapitalTypefaceRange, toggleTypefaceRange, nextSForm, nextGQ, nextNM, nextPostvocalicNasal, nextCedilla, nextUV, nextIJ, vowelCycleForOriginal, nextVowel, align};
 }));

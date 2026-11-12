@@ -533,6 +533,19 @@ equal(q.nextPostvocalicNasal('m', 'm', 'e', 'b'), {kind: 'replace', value: 'n'})
 equal(q.nextPostvocalicNasal('n', 'm', 'e', 'b'), {kind: 'contract', value: 'ẽ'});
 equal(q.nextPostvocalicNasal('n', 'n', 'a', 'i'), {kind: 'replace', value: 'm'});
 equal([q.nextCedilla('c'), q.nextCedilla('ç'), q.nextCedilla('C'), q.nextCedilla('Ç')], ['ç', 'c', 'C', 'Ç']);
+for (const t of ['T', 't']) {
+  const word = t + 'çu';
+  const range = q.postTcedillaTypefaceRange(q.parse(word).characters, 1);
+  equal(range, {start: 1, end: 2});
+  const styles = ['italic', 'roman', 'roman'];
+  const italicCedilla = q.toggleTypefaceRange(word, range.start, range.end, styles);
+  equal(italicCedilla, t + '{ç}u');
+  equal(q.postTcedillaTypefaceRange(q.parse(italicCedilla).characters, 1), range);
+  equal(q.toggleTypefaceRange(italicCedilla, range.start, range.end, styles), word);
+}
+for (const word of ['açu', 'Tcu', 'T çu']) {
+  equal(q.postTcedillaTypefaceRange(q.parse(word).characters, word.indexOf('ç')), null);
+}
 equal(['u', 'v', 'ũ', 'ù', 'ú', 'û', 'ǔ'].map(value => q.nextUV(value, 'u')), ['v', 'ũ', 'ù', 'ú', 'û', 'ǔ', 'u']);
 equal(['v', 'u'].map(value => q.nextUV(value, 'v')), ['u', 'v']);
 equal([q.nextUV('U', 'U'), q.nextUV('V', 'V')], ['U', 'V']);

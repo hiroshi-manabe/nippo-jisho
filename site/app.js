@@ -1177,12 +1177,17 @@ function quickCharacterHTML(character, index, baseIndex, changed, line, proposal
   const markedToken = NippoQuickEdit.knownTypefaceTokenRange(proposal.text, index, new Set(line.typeface_toggle_terms || []));
   const typefaceToken = NippoQuickEdit.citationTypefaceTokenRange(proposal.text, index) || markedToken || NippoQuickEdit.typefaceTokenRange(proposal.text, index, original);
   const initialCapital = NippoQuickEdit.initialCapitalTypefaceRange(proposal.characters, index, typefaces, original);
+  const postTcedilla = NippoQuickEdit.postTcedillaTypefaceRange(proposal.characters, index);
   if (nasalRestoration) {
     action = 'nasal-restore';
     title = `Restore ${nasalRestoration.vowel}${nasalRestoration.consonant}`;
   } else if (character === 'ß' || (character === 'ſ' && proposal.characters[index + 1]?.character === 'ſ' && proposal.characters[index + 1]?.style === explicitTypeface)) {
     action = 'double-s';
     title = character === 'ß' ? 'Expand ligature to ſſ' : 'Join ſſ into ß (click the second ſ for its single-letter controls)';
+  } else if (postTcedilla) {
+    action = 'typeface-token';
+    title = 'Toggle only this ç between Roman and italic type';
+    extraAttributes = ` data-token-start="${postTcedilla.start}" data-token-end="${postTcedilla.end}"`;
   } else if (typefaceToken) {
     action = 'typeface-token';
     title = 'Toggle this token between Roman and italic type';
