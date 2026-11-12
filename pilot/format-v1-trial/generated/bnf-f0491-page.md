@@ -18,31 +18,31 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l002` | &emsp;*mem de ruim ſembrante, & malenconizado* |  |
 | `c1-l003` | &emsp;*naturalmente, ou que por algũà cauſa eſtà car-* |  |
 | `c1-l004` | &emsp;*regado, &c.* |  |
-| `c1-l005` | Tçuradamaxij. *Homem que no geſto, ou ſem-* |  |
+| `c1-l005` | T*ç*uradamaxij. *Homem que no geſto, ou ſem-* |  |
 | `c1-l006` | &emsp;*brante moſtra algum affeito interior como de* |  |
 | `c1-l007` | &emsp;*ira, ſeueridade, &c.* |  |
 | `c1-l008` | Tçuragama hi. *Queixadas. ¶* Tçuraga- |  |
 | `c1-l009` | &emsp;machino yoi. l, varui fito. *Homem bem,* |  |
 | `c1-l010` | &emsp;*ou mal parecido das faces, & queixadas.* |  |
-| `c1-l011` | Tçurai. *Palaura de queixume pera ſignificar* |  |
+| `c1-l011` | T*ç*urai. *Palaura de queixume pera ſignificar* |  |
 | `c1-l012` | &emsp;*couſa deshumana, ou pouco apraziuel, & ſem* |  |
 | `c1-l013` | &emsp;*piedade, & que da no coração.* |  |
 | `c1-l014` | &emsp;Tçuraſa. |  |
-| `c1-l015` | &emsp;Tçurǒ. |  |
+| `c1-l015` | &emsp;T*ç*urǒ. |  |
 | `c1-l016` | Tçuranari, u, atta. *Eſtar algũa couſa enfia-* |  |
 | `c1-l017` | &emsp;*da, ou por ordem. Vt,* Zani tçuranaru. |  |
 | `c1-l018` | &emsp;*Eſtar no Zaxi qui por ordem. ¶* Ichimon- |  |
 | `c1-l019` | &emsp;nitçuranaru fito. *Homem aparentado com* |  |
 | `c1-l020` | &emsp;*algũa familia, ou que he daqu lla gèração, &* |  |
 | `c1-l021` | &emsp;*linhagem.* |  |
-| `c1-l022` | Tçurane, uru, eta. *Enfiar, ou por por ordem* |  |
+| `c1-l022` | T*ç*urane, uru, eta. *Enfiar, ou por por ordem* |  |
 | `c1-l023` | &emsp;*algũa couſa. ¶* Vtauo tçuranuru. *Com-* |  |
 | `c1-l024` | &emsp;*por verſos. ¶* Xuguiocuuo tçuranetaru |  |
 | `c1-l025` | &emsp;ixǒ. *Veſtido ornado com pedras precioſas ẽ-* |  |
 | `c1-l026` | &emsp;*fiadas.* |  |
 | `c1-l027` | Tçuranuqi. *Certo calçado de couro duro q̃ ſer-* |  |
 | `c1-l028` | &emsp;*ue na caça, ou naguerra, &c.* |  |
-| `c1-l029` | Tçur. nuqi, qu, ita. *Enfiar, ou traſpaßar al-* |  |
+| `c1-l029` | T*ç*ur. nuqi, qu, ita. *Enfiar, ou traſpaßar al-* |  |
 | `c1-l030` | &emsp;*gũa couſa. Vt,* Tamauo tçuranuqu. *En-* |  |
 | `c1-l031` | &emsp;*fiar pedras precioſas em algum cordão, ou nou-* |  |
 | `c1-l032` | &emsp;*tra couſa. ¶* Yarini tçuranucarete xinu- |  |
@@ -50,7 +50,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l034` | &emsp;*algũa lança.* |  |
 | `c1-l035` | Tçurara. *Candeas do caramelo que fica depen-* |  |
 | `c1-l036` | &emsp;*durado das beiras do telhado.* |  |
-| `c1-l037` | Tçuratçura. *Adu. Atentamente. ¶* Tçu- |  |
+| `c1-l037` | T*ç*uratçura. *Adu. Atentamente. ¶* T*ç*u- |  |
 | `c1-l038` | &emsp;ratçura anzuru. *Conſiderar algũa couſa a-* |  |
 | `c1-l039` | &emsp;*tentamente.* |  |
 | `c1-l040` | Tçure. i, Rui. *Laya. Vt,* Sonotçureno |  |
@@ -59,7 +59,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l043` | &emsp;*&c. Companhia deſeis. ¶* Fǒguan do- |  |
 | `c1-l044` | &emsp;nono von tçure. *Companhia, ou companhei* |  |
 | `c1-l045` | &emsp;*ro de Fóguandono.* |  |
-| `c1-l046` | Tçure, uru, eta. *Leuar a alguem de compa-* |  |
+| `c1-l046` | T*ç*ure, uru, eta. *Leuar a alguem de compa-* |  |
 | `c1-l047` | &emsp;*nhia. ¶* Cajeni tçureraruru. *Ser leua-* |  |
 
 ## Column 2 running header
@@ -93,31 +93,31 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l013` | &emsp;*juntos. ¶ Item, Bailo que fazem dous, ou* |  |
 | `c2-l014` | &emsp;*mais de companhia com os abanos, como ſe faz* |  |
 | `c2-l015` | &emsp;*nos autos, &c.* |  |
-| `c2-l016` | Tçurenai. Vomote cataxi. *Couſa dura, ou* |  |
-| `c2-l017` | &emsp;*ſem piedade, & ſeuera. Vt,* Tçurenai fi- |  |
+| `c2-l016` | T*ç*urenai. Vomote cataxi. *Couſa dura, ou* |  |
+| `c2-l017` | &emsp;*ſem piedade, & ſeuera. Vt,* T*ç*urenai fi- |  |
 | `c2-l018` | &emsp;to. *Homem, ou peßoa que mostra pouca pie-* |  |
 | `c2-l019` | &emsp;*dade, ou duro, & ſeuero em conceder algũa cou-* |  |
-| `c2-l020` | &emsp;*ſa. ¶* Tçurenai inochi. *Vida tam com-* |  |
+| `c2-l020` | &emsp;*ſa. ¶* T*ç*urenai inochi. *Vida tam com-* |  |
 | `c2-l021` | &emsp;*prida que jà di pena, & moleſtia.* |  |
-| `c2-l022` | &emsp;Tçurenaſa. |  |
+| `c2-l022` | &emsp;T*ç*urenaſa. |  |
 | `c2-l023` | &emsp;Tçurenǒ. *¶* Fitoni tçurenǒ ataru. |  |
 | `c2-l024` | &emsp;*Dar cruelmente no coração dalguem.* |  |
 | `c2-l025` | Tçureqitari, ru, atta. *Vindo trazer a alguẽ* |  |
 | `c2-l026` | &emsp;*conſigo.* |  |
-| `c2-l027` | *T*çurezzure. l, tçurezzurena. i, Tojenna. |  |
+| `c2-l027` | *Tç*urezzure. l, tçurezzurena. i, Tojenna. |  |
 | `c2-l028` | &emsp;*Couſa ſolitaria.* |  |
 | `c2-l029` | Tçuri. *Anzol. ¶* Tçurino taruru. *Peſ-* |  |
-| `c2-l030` | &emsp;*car com anzol. ¶* Tçuriuo ſuru. *Idem.* |  |
+| `c2-l030` | &emsp;*car com anzol. ¶* T*ç*uriuo ſuru. *Idem.* |  |
 | `c2-l031` | Tçuri, ru, utta. *Peſcar. Vt,* Iuouo tçu- |  |
 | `c2-l032` | &emsp;ru. *¶ Item, Dependurar algũa couſa. Vt,* |  |
 | `c2-l033` | &emsp;Cayauo tçuru. *Armar, ou dependurar a* |  |
 | `c2-l034` | &emsp;*Caya. ¶ Item,* Tçuri, ru. *Encolherſe,* |  |
 | `c2-l035` | &emsp;*ou apertarſe como neruo, &c. Vt,* Sugiga |  |
 | `c2-l036` | &emsp;tçuru. *¶ Item,* Tçuri, u. *Agaſtarſe.* |  |
-| `c2-l037` | Tçuriague, ru, eta. *Dependurar em cima, ou* |  |
+| `c2-l037` | T*ç*uriague, ru, eta. *Dependurar em cima, ou* |  |
 | `c2-l038` | &emsp;*em alto.* |  |
-| `c2-l039` | Tçuribari. *Anzol.* |  |
-| `c2-l040` | Tçuribito. *Peſcador de cana.* |  |
+| `c2-l039` | T*ç*uribari. *Anzol.* |  |
+| `c2-l040` | T*ç*uribito. *Peſcador de cana.* |  |
 | `c2-l041` | Tçuribune. *Embarcação peſcareza, ou onde ſe* |  |
 | `c2-l042` | &emsp;*peſca com anzol.* |  |
 | `c2-l043` | Tçuribune. *Vaſo à maneira de naueta de pen-* |  |

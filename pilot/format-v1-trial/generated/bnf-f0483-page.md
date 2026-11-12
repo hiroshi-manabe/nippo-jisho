@@ -18,7 +18,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l002` | &emsp;*fingindoa, ou inuentandoa de ſi.* |  |
 | `c1-l003` | Tçucurimonogatari. *Pratica fingida, ou fa-* |  |
 | `c1-l004` | &emsp;*buloſa.* |  |
-| `c1-l005` | Tçucurinauoxi, ſu, oita. *Emendar o que eſ-* |  |
+| `c1-l005` | T*ç*ucurinauoxi, ſu, oita. *Emendar o que eſ-* |  |
 | `c1-l006` | &emsp;*ti mal feito.* |  |
 | `c1-l007` | Tçucurinaxi, ſu, ita. *Fazer, l, dar forma* |  |
 | `c1-l008` | &emsp;*a algũa couſa.* |  |
@@ -29,7 +29,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l013` | Tçucurizame. *Couſa feita artificioſamente à* |  |
 | `c1-l014` | &emsp;*maneira de pelle de lica que poem os Iapões nos* |  |
 | `c1-l015` | &emsp;*cabos das Catanas, &c.* |  |
-| `c1-l016` | Tçucuroi, rô, ôta. *Concertar, l, atauiar.* |  |
+| `c1-l016` | T*ç*ucuroi, rô, ôta. *Concertar, l, atauiar.* |  |
 | `c1-l017` | &emsp;*¶ Itẽ, Refazer, ou tornar a concertar algũa* |  |
 | `c1-l018` | &emsp;*couſa, ou obra que està danada, quebrada, &c.* |  |
 | `c1-l019` | &emsp;*¶* Miuo tçucurô. *Atauiarſe bem, l, or-* |  |
@@ -58,7 +58,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l042` | &emsp;*boa letra, ou em pintar.* |  |
 | `c1-l043` | Tçucuye. *Banco de eſcreuer.* |  |
 | `c1-l044` | Tçucuzzucuto. *Adu. Atentamente, ou* |  |
-| `c1-l045` | &emsp;*com atenção. ¶* Tçucuzzucuto miru, l, |  |
+| `c1-l045` | &emsp;*com atenção. ¶* T*ç*ucuzzucuto miru, l, |  |
 | `c1-l046` | &emsp;xian ſuru. *Ver com atenção, ou conſiderar* |  |
 | `c1-l047` | &emsp;*atentamente.* |  |
 
@@ -78,7 +78,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | Tçucuzzucuxi. *Hũa erua q̃ nace no Nigua-* |  |
+| `c2-l001` | T*ç*ucuzzucuxi. *Hũa erua q̃ nace no Nigua-* |  |
 | `c2-l002` | &emsp;*chi como pena de Iapão.* |  |
 | `c2-l003` | Tçǔdat. Touori taſsuru. *O penetrar como os* |  |
 | `c2-l004` | &emsp;*corpos glorificados. ¶ Item, Penetrar as* |  |
@@ -91,11 +91,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l011` | Tçudoi, dô, ôta. *Virem muitos hũs apos os* |  |
 | `c2-l012` | &emsp;*outros. Vt,* Fitoga mairi tçudô. *Vir mui-* |  |
 | `c2-l013` | &emsp;*ta gente hũa apos outra.* |  |
-| `c2-l014` | Tçufaqi. l, *potiùs,* Tçubaqi. *Cuſpo.* |  |
+| `c2-l014` | T*ç*ufaqi. l, *potiùs,* Tçubaqi. *Cuſpo.* |  |
 | `c2-l015` | Tçǔfǒ. *Ley, ou couſa ordinaria. ¶* Tçǔ- |  |
 | `c2-l016` | &emsp;fǒno fitode nai. *Não he homem ordinario* |  |
 | `c2-l017` | &emsp;*nem qualquer.* |  |
-| `c2-l018` | Tçǔfǒna. *Idem. Vt,* Tçǔfǒna fito. *Ho-* |  |
+| `c2-l018` | Tçǔfǒna. *Idem. Vt,* T*ç*ǔfǒna fito. *Ho-* |  |
 | `c2-l019` | &emsp;*mem ordinario.* |  |
 | `c2-l020` | Tçugai. *Iunturas dos membros, ou dos oſſos, ẽ-* |  |
 | `c2-l021` | &emsp;*gonços, &c. ¶* Tçugaiga fanareta. *Deſ-* |  |
@@ -112,11 +112,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l032` | &emsp;gai. *Hum par de rolas, ou pombas.* |  |
 | `c2-l033` | *T*çugaigomono. *Dous criados que vão diante* |  |
 | `c2-l034` | &emsp;*do caualo, ou do Coxi de hũa librè juntos.* |  |
-| `c2-l035` | Tçugaime. *Aquelle nô, ou juntura onde ſe a-* |  |
+| `c2-l035` | T*ç*ugaime. *Aquelle nô, ou juntura onde ſe a-* |  |
 | `c2-l036` | &emsp;*juntão, ou lião duas couſas.* |  |
 | `c2-l037` | Tçugue. *Reuelação, ou auiſo.* Vt*,* gotçu- |  |
 | `c2-l038` | &emsp;gue. *Reuelação do ceo, ou do* Fotoqe, *&c.* |  |
-| `c2-l039` | Tçugue, uru, eta. *Reuelar, l, auiſar, ou* |  |
+| `c2-l039` | T*ç*ugue, uru, eta. *Reuelar, l, auiſar, ou* |  |
 | `c2-l040` | &emsp;*denunciar. ¶ V*guyſu qitatte faruuo tçu- |  |
 | `c2-l041` | &emsp;guru. *Vindo o Rouxinol traz nouas da pri-* |  |
 | `c2-l042` | &emsp;*ma vera.* |  |
@@ -124,7 +124,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l044` | &emsp;*mada.* |  |
 | `c2-l045` | Tçuguexiraxe, ſuru, eta. *Fazer aſaber, ou* |  |
 | `c2-l046` | &emsp;*denunciar.* |  |
-| `c2-l047` | Tçugui. *Remendo, ou pedaço que ſe acrecen* |  |
+| `c2-l047` | T*ç*ugui. *Remendo, ou pedaço que ſe acrecen* |  |
 
 ## Printed signature
 

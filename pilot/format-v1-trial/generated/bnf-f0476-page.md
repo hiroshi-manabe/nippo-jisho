@@ -49,7 +49,7 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c1-l031` | &emsp;*ta. ¶* Miſouo tatçuru. *Delir o Miſo.* |  |
 | `c1-l032` | &emsp;*¶* Nauo tatçuru. *Infamar, ou dizer mal.* |  |
 | `c1-l033` | &emsp;*¶* Qeixeiuo tatçuru. *Fazer officio de mo-* |  |
-| `c1-l034` | &emsp;*lher publica. ¶* Tçucaiuo tatçuru. *Man-* |  |
+| `c1-l034` | &emsp;*lher publica. ¶* T*ç*ucaiuo tatçuru. *Man-* |  |
 | `c1-l035` | &emsp;*dar recado. ¶* Xônin, l, xôcouo tatçu- |  |
 | `c1-l036` | &emsp;ru. *Trazer testemunhas, ou dar teſtemu-* |  |
 | `c1-l037` | &emsp;*nho. ¶* Fanauo tatçuru. *Por roſas* |  |

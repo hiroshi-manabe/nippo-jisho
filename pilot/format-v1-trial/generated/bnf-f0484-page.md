@@ -16,9 +16,9 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c1-l001` | &emsp;*ta. ¶* Tçuguiuo ſuru. *Remendar.* |  *(temẽte.* |
 | `c1-l002` | Tçugui, l, Tçuguini. *Apos ißo, ou conſequẽ-* |  |
-| `c1-l003` | Tçuguina, l, Tçuguino. *Couſa que ſe ſegue,* |  |
+| `c1-l003` | Tçuguina, l, T*ç*uguino. *Couſa que ſe ſegue,* |  |
 | `c1-l004` | &emsp;*ou estàlogo depois de outra.* |  |
-| `c1-l005` | *T*çuguitçuguini. *Adu. Depois de hum, & de* |  |
+| `c1-l005` | *Tç*uguitçuguini. *Adu. Depois de hum, & de* |  |
 | `c1-l006` | &emsp;*outro, ou apos eſte, & aquelle.* |  |
 | `c1-l007` | *T*çugui, gu, ida. *Acrecentar, ou ajuntar* |  |
 | `c1-l008` | &emsp;*couſas da meſma eſpecie. Vt,* Mizzu, taqe, |  |
@@ -54,13 +54,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l038` | Tçugǒ. *Summa de toda a conta, ou aſomando* |  |
 | `c1-l039` | &emsp;*tudo, &c. ¶ T*çugǒua icafodozo? *Em* |  |
 | `c1-l040` | &emsp;*ſumma, ou aſomando quanto he?* |  |
-| `c1-l041` | *T*çugomori. l, *T*çumogori. *Derradeiro* |  |
+| `c1-l041` | *T*çugomori. l, *Tç*umogori. *Derradeiro* |  |
 | `c1-l042` | &emsp;*dia domes.* |  |
 | `c1-l043` | *T*çugumi. *Hum paßaro como tordo.* |  |
 | `c1-l044` | Tçuguri. *Hũa aue de rapina como minhoto que* |  |
 | `c1-l045` | &emsp;*come bichos, cobras, &c.* |  |
 | `c1-l046` | *T*çuguri. *Nouelo de linhas, retros, ou outro fio.* |  |
-| `c1-l047` | &emsp;*¶* Tçugurini ſuru. *Ennouelar.* |  |
+| `c1-l047` | &emsp;*¶* T*ç*ugurini ſuru. *Ennouelar.* |  |
 
 ## Column 2 running header
 
@@ -86,18 +86,18 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l012` | &emsp;*dependentes hum do outro. ¶* Bin itçui. |  |
 | `c2-l013` | &emsp;*Hum par de bules. ¶* Fude ittçui. *Hum* |  |
 | `c2-l014` | &emsp;*par de penas.* |  |
-| `c2-l015` | *T*çuibat. *Caſtigo, ou morte, ou iuſtiça por al-* |  |
+| `c2-l015` | *Tç*uibat. *Caſtigo, ou morte, ou iuſtiça por al-* |  |
 | `c2-l016` | &emsp;*gum maleficio. Vt,* Tçuibat ſuru. |  |
 | `c2-l017` | *T*çuica. *Supplemento que ſe faz pera ſuprir o* |  |
 | `c2-l018` | &emsp;*que faltou em algum liuro, ou eſcritura.* |  |
-| `c2-l019` | Tçuicaqi. *Certo modo de ſebe, parede, ou vallo.* |  |
-| `c2-l020` | Tçuicô. i, Bon, cǒbacono forimono. *Cer-* |  |
+| `c2-l019` | T*ç*uicaqi. *Certo modo de ſebe, parede, ou vallo.* |  |
+| `c2-l020` | T*ç*uicô. i, Bon, cǒbacono forimono. *Cer-* |  |
 | `c2-l021` | &emsp;*tos releuos, ou molduras, & lauores com va-* |  |
 | `c2-l022` | &emsp;*rias tintas dalguãs peças de pao acharoado q̃* |  |
 | `c2-l023` | &emsp;*vem da China. ¶ T*çuicôno mono. *O-* |  |
 | `c2-l024` | &emsp;*bra deſte feitio, ou lauor.* |  |
 | `c2-l025` | *T*çuicu. *Vide T*çu*i.* |  |
-| `c2-l026` | *T*çuide. *Ocaſião, ou vez. Vt,* Tçuideuo motte |  |
+| `c2-l026` | *Tç*uide. *Ocaſião, ou vez. Vt,* T*ç*uideuo motte |  |
 | `c2-l027` | &emsp;mairǒ. *Irei auẽdo oportunidade, & ocaſião.* |  |
 | `c2-l028` | Tçuide gatera. *De caminho, ou com eſta* |  |
 | `c2-l029` | &emsp;*ocaſião.* |  |
@@ -106,11 +106,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l032` | &emsp;*amão na maßa, peçouos que façais iſto.* |  |
 | `c2-l033` | Tçuifami, u, ǒda. *Apanhar, ou tomar o* |  |
 | `c2-l034` | &emsp;*paßaro ogrão, ou comer com o bico.* |  |
-| `c2-l035` | *T*çuifǒ. Voi fanaſu. *O botar fora da terra,* |  |
+| `c2-l035` | *Tç*uifǒ. Voi fanaſu. *O botar fora da terra,* |  |
 | `c2-l036` | &emsp;*ou deſterrar a alguem. ¶ T*çuifǒno quan- |  |
 | `c2-l037` | &emsp;nin. *Homens que tem por officio deſterrar,* |  |
 | `c2-l038` | &emsp;*ou botar fora da terra.* |  |
-| `c2-l039` | Tçuifucu. *Caſtigo, ou pena de tomar a alguẽ* |  |
+| `c2-l039` | T*ç*uifucu. *Caſtigo, ou pena de tomar a alguẽ* |  |
 | `c2-l040` | &emsp;*a fazenda, & bens por perdidos. ¶* Tçui- |  |
 | `c2-l041` | &emsp;fucuno quãninga maitte xizai zǒguuo v- |  |
 | `c2-l042` | &emsp;bai totta. Feiq. *Lib. 1.* V*indo os* |  |
@@ -118,7 +118,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l044` | &emsp;*& mouel. ¶* Xizaiuo tçuifucu ſuru. T*o-* |  |
 | `c2-l045` | &emsp;*mar a fazenda por perdida.* |  |
 | `c2-l046` | Tçuigi. *Taipa, ou parede de barro.* |  |
-| `c2-l047` | Tçuini. *Aduer. Por derradeiro, ou finalmẽte.* |  |
+| `c2-l047` | T*ç*uini. *Aduer. Por derradeiro, ou finalmẽte.* |  |
 
 ## Printed catchword
 

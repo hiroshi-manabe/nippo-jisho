@@ -23,13 +23,13 @@ Lexical cross-check: supplied NINJAL Entry Words Data of Nippojisho, version 202
 | `c1-l005` | &emsp;*Macho, & femea.* |  |
 | `c1-l006` | Tçubo. *Pateo, ou Niua pequena. Mais or-* |  |
 | `c1-l007` | &emsp;*dinariamenteſe diz.* Tçubono vchi. |  |
-| `c1-l008` | Tçuboi. *Couſa hum pouco apanhada como va* |  |
+| `c1-l008` | T*ç*uboi. *Couſa hum pouco apanhada como va* |  |
 | `c1-l009` | &emsp;*ſo, & que tem a boca mais eſtreita, & fecha-* |  |
 | `c1-l010` | &emsp;*da. ¶* Tçubozara. *Bacio que tem a bo-* |  |
 | `c1-l011` | &emsp;*ca hũ pouco apanhada, & eſtreita. ¶* Tçu- |  |
 | `c1-l012` | &emsp;boſode. *Mangas fechadas que tem a boca* |  |
 | `c1-l013` | &emsp;*pe quena, & eſtreita.* |  |
-| `c1-l014` | Tçubome, uru, eta. *Fechar, ou eſtreitar co-* |  |
+| `c1-l014` | T*ç*ubome, uru, eta. *Fechar, ou eſtreitar co-* |  |
 | `c1-l015` | &emsp;*mo beiços, ou abertura dalgũa couſa.* |  |
 | `c1-l016` | Tçubomi, u, ôda. *Eſtar a flor em botão. Vt,* |  |
 | `c1-l017` | &emsp;Fanaga tçubomu. *¶ Item, recolherſe, ou* |  |
@@ -39,20 +39,20 @@ Lexical cross-check: supplied NINJAL Entry Words Data of Nippojisho, version 202
 | `c1-l021` | &emsp;cǔ. *Comer, o oução, ou eſtar comendo na* |  |
 | `c1-l022` | &emsp;*mão. ¶* Tçubomuxiga fǒ. *Ir laurando* |  |
 | `c1-l023` | &emsp;*o oução.* |  |
-| `c1-l024` | Tçubone. *Molher principal que gouerna o in-* |  |
+| `c1-l024` | T*ç*ubone. *Molher principal que gouerna o in-* |  |
 | `c1-l025` | &emsp;*terior da caſa de algum ſenhor.* |  |
 | `c1-l026` | Tçubone. *Hum repartimento, ou caſa ſepa* |  |
 | `c1-l027` | &emsp;*rada onde habita algũa molher. ¶ Tambem* |  |
 | `c1-l028` | &emsp;*ſe toma por camara, ou cubiculo de molheres.* |  |
-| `c1-l029` | *T*çubonomi. *Certo eſcopro hum pouco dobra-* |  |
+| `c1-l029` | *Tç*ubonomi. *Certo eſcopro hum pouco dobra-* |  |
 | `c1-l030` | &emsp;*do, ou redondo. & apanhado, ou fechado* |  |
 | `c1-l031` | Tçuboſode. *Mangas redondas que tem a boca* |  |
 | `c1-l032` | &emsp;*pequena, & apanhada.* |  |
-| `c1-l033` | Tçuboſode. *Armas como laminas redondas* |  |
+| `c1-l033` | T*ç*uboſode. *Armas como laminas redondas* |  |
 | `c1-l034` | &emsp;*que poem como rodelas ſobre os braços dos om-* |  |
 | `c1-l036` | &emsp;*bros pera baixo.* |  |
 | `c1-l037` | Tçubozumire. *Hũa erua.* |  |
-| `c1-l038` | Tçubu. *Grão de trigo, arroz, &c, ou cõ-* |  |
+| `c1-l038` | T*ç*ubu. *Grão de trigo, arroz, &c, ou cõ-* |  |
 | `c1-l040` | &emsp;*tas como grãos.* |  |
 | `c1-l041` | Tçubu. *Monte, ou outeiro onde cõmummente* |  |
 | `c1-l042` | &emsp;*o exercito ſe faz forte.* |  |
@@ -79,7 +79,7 @@ Lexical cross-check: supplied NINJAL Entry Words Data of Nippojisho, version 202
 | `c2-l002` | &emsp;riga itai. *Doer a cabeça.* |  |
 | `c2-l003` | *T*çubuſa. l, tçubuſana. *Couſa inteira, diffu-* |  |
 | `c2-l004` | &emsp;*ſa, & que não he abreuiada.* |  |
-| `c2-l005` | *T*çubuſani. *Adu. Miudamente. ¶ T*çu- |  |
+| `c2-l005` | *T*çubuſani. *Adu. Miudamente. ¶ Tç*u- |  |
 | `c2-l006` | &emsp;buſani qijta. *Ouui inteira, & diffuſamente.* |  |
 | `c2-l007` | *T*çubute. *Pedrada. ¶ T*çubuteuo vtçu. |  |
 | `c2-l008` | &emsp;*Atirar cõ pedras. ¶ T*çubuteni vtçu. *A-* |  |
@@ -112,7 +112,7 @@ Lexical cross-check: supplied NINJAL Entry Words Data of Nippojisho, version 202
 | `c2-l035` | Tçucagaxira. *Maçaã dos punhos da Catana.* |  |
 | `c2-l036` | *T*çucaguchi. *Parte dos punhos da Catana que* |  |
 | `c2-l037` | &emsp;*esta junto das guardas.* |  |
-| `c2-l038` | *T*çucai. *Recado, ou menſageiro. ¶ T*çu- |  |
+| `c2-l038` | *T*çucai. *Recado, ou menſageiro. ¶ Tç*u- |  |
 | `c2-l039` | &emsp;caiuo ſuru. *Ser, ou ir por recado. ¶ T*çu- |  |
 | `c2-l040` | &emsp;caini yaru. *Mandar a alguem cõ recado.* |  |
 | `c2-l041` | Tçucai, ǒ, ǒta. *Vſar, ou ſeruirſe de algũa* |  |

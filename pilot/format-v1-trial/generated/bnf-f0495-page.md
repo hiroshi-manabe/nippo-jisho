@@ -18,7 +18,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l002` | *T*çuzzuqe, uru, eta. *Fazer ir continuando,* |  |
 | `c1-l003` | &emsp;*ou continuar algũa couſa. Vt,* Cateuo tçuz- |  |
 | `c1-l004` | &emsp;zuquru. *Continuar com os mantimentos.* |  |
-| `c1-l005` | *T*çuzzuqi, u, uita. *Cõtinuarſe, ou ir nas coſ-* |  |
+| `c1-l005` | *Tç*uzzuqi, u, uita. *Cõtinuarſe, ou ir nas coſ-* |  |
 | `c1-l006` | &emsp;*tasſeguindo. ¶* Q iga tçuzzucanu. *Não* |  |
 | `c1-l007` | &emsp;*ſe continuar o folego com bradar, &c.* |  |
 | `c1-l008` | *T*çuzzura. *Ceſto, ou canaſtra de vimes, ou rota.* |  |

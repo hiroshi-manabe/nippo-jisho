@@ -18,12 +18,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l002` | &emsp;*dedos. Vt,* Sacanauo tçumamu. *Tomar* |  |
 | `c1-l003` | &emsp;*a Sacana com dous dedos. ¶ Item, Zom-* |  |
 | `c1-l004` | &emsp;*bar dalguem.* |  |
-| `c1-l005` | *T*çumamicoroxi, ſu, oita. *Matar afferrã-* |  |
+| `c1-l005` | *Tç*umamicoroxi, ſu, oita. *Matar afferrã-* |  |
 | `c1-l006` | &emsp;*do com dous dedos: iſto ſe pode dizer por rõca,* |  |
 | `c1-l007` | &emsp;*mataruos ei com dous dedos, &c.* |  |
-| `c1-l008` | Tçumamigvi. *O comer aqui, & ali, como go-* |  |
+| `c1-l008` | T*ç*umamigvi. *O comer aqui, & ali, como go-* |  |
 | `c1-l009` | &emsp;*loſo apanhando algũas couſinhas às eſcondidas.* |  |
-| `c1-l010` | &emsp;*Vt,* Tçumamigviuo ſuru. |  |
+| `c1-l010` | &emsp;*Vt,* T*ç*umamigviuo ſuru. |  |
 | `c1-l011` | *Tç*umane. *Raiz, ou arreigada da vnha.* |  |
 | `c1-l012` | Tçumaqiri. *Canuete, ou ferro pera cortar* |  |
 | `c1-l013` | &emsp;*vnhas.* |  |
@@ -51,7 +51,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l035` | &emsp;*uores, vides, &c.* |  |
 | `c1-l036` | Tçumayori, ru. *Prouar a frecha virãdoa ſo-* |  |
 | `c1-l037` | &emsp;*bre a vnha, pera ver ſe eſta liſa, ou direita.* |  |
-| `c1-l038` | Tçumazzuqi, u, uita. *Embicar, ou trope-* |  |
+| `c1-l038` | T*ç*umazzuqi, u, uita. *Embicar, ou trope-* |  |
 | `c1-l039` | &emsp;*çar. ¶ Per met.* Nãguini tçumazzu- |  |
 | `c1-l040` | &emsp;qu. *Encontrar, ou acharſe emtrabalhos, pe-* |  |
 | `c1-l041` | &emsp;*rigos, &c.* |  |
@@ -85,7 +85,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l011` | &emsp;*nha. Vt* tçumeuo cǒ. *Meter algũa ma-* |  |
 | `c2-l012` | &emsp;*neira de cunha pera atochar.* |  |
 | `c2-l013` | Tçume. *Concluſam.* |  |
-| `c2-l014` | Tçumeai, ǒ, ǒta. *Contender pera concluir* |  |
+| `c2-l014` | T*ç*umeai, ǒ, ǒta. *Contender pera concluir* |  |
 | `c2-l015` | &emsp;*hum a outro, l, chegar perto com as mãos, ou* |  |
 | `c2-l016` | &emsp;*Catana hum do outro pera pelejar, l, dous exer-* |  |
 | `c2-l017` | &emsp;*citos, &c.* |  |
@@ -96,7 +96,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l022` | &emsp;muru. *Combater a fortaleza com força, &* |  |
 | `c2-l023` | &emsp;*violencia.* |  |
 | `c2-l024` | Tçumefiraqi. *Vide,* Firaqi, u. |  |
-| `c2-l025` | Tçumegia. *Cha metido em boyão aßi em fo-* |  |
+| `c2-l025` | T*ç*umegia. *Cha metido em boyão aßi em fo-* |  |
 | `c2-l026` | &emsp;*lha pera apertar, & atochar os ſaquinhos de* |  |
 | `c2-l027` | &emsp;*Cha, que eſtão dentro.* |  |
 | `c2-l028` | Tçumegin. *Exercito pera dar em algũa for-* |  |
@@ -104,17 +104,17 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l030` | &emsp;*fronteiro aos inimigos.* |  |
 | `c2-l031` | T*ç*umegoi. *O pedir com efficacia, & imper-* |  |
 | `c2-l032` | &emsp;*tunamẽte. Vt,* Tçumegoinicô. *O meſmo.* |  |
-| `c2-l033` | Tçumegoroxi. *O matar a alguem ſecretamẽ-* |  |
+| `c2-l033` | T*ç*umegoroxi. *O matar a alguem ſecretamẽ-* |  |
 | `c2-l034` | &emsp;*te, & ſem o deixar falar palaura.* |  |
 | `c2-l035` | Tçumejǒ. *Fortaleza que eſtà cercada, & poſ-* |  |
 | `c2-l036` | &emsp;*ta em aperto dos inimigos.* |  |
-| `c2-l037` | Tçumeri, ru, etta. *Beliſcar. ¶* Miuo tçu- |  |
+| `c2-l037` | T*ç*umeri, ru, etta. *Beliſcar. ¶* Miuo tçu- |  |
 | `c2-l038` | &emsp;meru. *Beliſcar o corpo. ¶* Miuo tçume- |  |
 | `c2-l039` | &emsp;ru. *Mortificarſe, & tratarſe mal. ¶* Va- |  |
 | `c2-l040` | &emsp;gamiuo tçumette, fitono itaſauo xire. *Be-* |  |
 | `c2-l041` | &emsp;*liſcando, ou fazẽdo doer a voſsa carne, aprẽ-* |  |
 | `c2-l042` | &emsp;*dei como doe aos outros.* |  |
-| `c2-l043` | Tçumetai. *Couſa fria. ¶ Item, Auer grã-* |  |
+| `c2-l043` | T*ç*umetai. *Couſa fria. ¶ Item, Auer grã-* |  |
 | `c2-l044` | &emsp;*de frio, ou eſtar o tempo muito frio.* |  |
 | `c2-l045` | &emsp;Tçumetaſa. *Frialdade.* |  |
 | `c2-l046` | &emsp;Tçumetǒ. *Adu.* |  |

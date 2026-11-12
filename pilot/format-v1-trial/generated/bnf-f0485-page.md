@@ -16,7 +16,7 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c1-l001` | Tçuiqiacu. i, Voi vxinǒ. *O botar fora, ou* |  |
 | `c1-l002` | &emsp;*deſterrar.* |  |
-| `c1-l003` | Tçuitachi. *Primeiro dia da lũa, ou mes.* |  |
+| `c1-l003` | T*ç*uitachi. *Primeiro dia da lũa, ou mes.* |  |
 | `c1-l004` | Tçuitachi xǒji. *Hũa taboa, ou porta como* |  |
 | `c1-l005` | &emsp;*beǒboſinho baixo, que poem como por antepa-* |  |
 | `c1-l006` | &emsp;*ro do vento ao derredor do fogão da caſa.* |  |
@@ -27,19 +27,19 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l011` | Tçuixô. *Liſonias, ou meiguices. ¶* Tçui- |  |
 | `c1-l012` | &emsp;xôni môſu. l, Tçuixôuo mǒſu. *Liſõ-* |  |
 | `c1-l013` | &emsp;*gear, ou falar meiguices.* |  |
-| `c1-l014` | Tçuixu. *Vaſo, ou outra obra de varios lauores* |  |
+| `c1-l014` | T*ç*uixu. *Vaſo, ou outra obra de varios lauores* |  |
 | `c1-l015` | &emsp;*com tintas, & molduras, que vem da China.* |  |
 | `c1-l016` | *Tç*uiyari. *Lanças do meſmo tamanho, fei-* |  |
 | `c1-l017` | &emsp;*tio, &c.* |  |
 | `c1-l018` | Tçuiyaxi, ſu, ita. l, Tçuyaxi, ſu. *Gaſ-* |  |
 | `c1-l019` | &emsp;*tar mal, ou eſperdiçar. Vt, T*acarauo tçuiyaſu. |  |
-| `c1-l020` | Tçuiye, uru, eta. l, *T*çuye, uru. *Eſperdi-* |  |
-| `c1-l021` | &emsp;*çarſe, ou gaſtarſe mal algua couſa. Vide T*çu- |  |
+| `c1-l020` | Tçuiye, uru, eta. l, *Tç*uye, uru. *Eſperdi-* |  |
+| `c1-l021` | &emsp;*çarſe, ou gaſtarſe mal algua couſa. Vide Tç*u- |  |
 | `c1-l022` | &emsp;ye, uru. |  |
-| `c1-l023` | *T*çuiye. *Gaſto, perda, ou cuſtos. ¶ Tç*ui- |  |
+| `c1-l023` | *Tç*uiye. *Gaſto, perda, ou cuſtos. ¶ Tç*ui- |  |
 | `c1-l024` | &emsp;yeni naru. *Ser, ou fazerſe perda, cuſto, &c.* |  |
 | `c1-l025` | *T*çuijen. *Saimẽto, ou comẽdação por defũto.* |  |
-| `c1-l026` | *T*çǔji, zuru, ita. *Communicarſe. Vt,* Co- |  |
+| `c1-l026` | *Tç*ǔji, zuru, ita. *Communicarſe. Vt,* Co- |  |
 | `c1-l027` | &emsp;corouo tçǔzuru. i, Cocorozaxiuo cayo- |  |
 | `c1-l028` | &emsp;uaſu. *Communicarenſe, ou combinarem os* |  |
 | `c1-l029` | &emsp;*corações, & vontades. ¶* Inxinuo tçǔzu- |  |
@@ -53,12 +53,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l037` | Tçǔji. l, Michi tçuji. *Encruzilhada.* |  |
 | `c1-l038` | &emsp;*¶* Atamano tçuji *Cucuruta da cabeça.* |  |
 | `c1-l039` | Tçujicaje. *Redemoinho de vento.* |  |
-| `c1-l040` | Tçujidǒro. *Lanterna que ſe poem em alto nas* |  |
+| `c1-l040` | T*ç*ujidǒro. *Lanterna que ſe poem em alto nas* |  |
 | `c1-l041` | &emsp;*encruzilhadas.* |  |
 | `c1-l042` | Tçujiga fana. *Catabira pintada com certas fo-* |  |
 | `c1-l043` | &emsp;*lhagens, lauores vermelhos, & de outras co-* |  |
 | `c1-l044` | &emsp;*res. ¶ Itẽ, os meſmos lauores, ou pinturas.* |  |
-| `c1-l045` | *T*çuji gatame. *Guardas que ſe poem no cami-* |  |
+| `c1-l045` | *Tç*uji gatame. *Guardas que ſe poem no cami-* |  |
 | `c1-l046` | &emsp;*nho pera vigia do ſenhor da Tenca, ou do Cu-* |  |
 | `c1-l047` | &emsp;*bǒ, &c.* |  |
 
@@ -81,16 +81,16 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l001` | Tçujiguiri. *Os que andão de noite matando nas* |  |
 | `c2-l002` | &emsp;*encruzilhadas.* |  |
 | `c2-l003` | *Tç*ujimaqi. *Redemoinho de vento.* X. |  |
-| `c2-l004` | Tçujimoto. *Caſa como oratorio, onde ſe ajũ-* |  |
+| `c2-l004` | T*ç*ujimoto. *Caſa como oratorio, onde ſe ajũ-* |  |
 | `c2-l005` | &emsp;*tão a fazer oração, &c. os Icòxus. ¶ Itẽ,* |  |
 | `c2-l006` | &emsp;*homem caſado que he como meſtre dos Icǒxus.* |  |
-| `c2-l007` | *T*çuji tçuji. *Encruzilhadas.* |  |
+| `c2-l007` | *Tç*uji tçuji. *Encruzilhadas.* |  |
 | `c2-l008` | *T*çuma. *Borda dalgũa couſa como do veſtido. Vt,* |  |
 | `c2-l009` | &emsp;Qirumonono tçuma. *¶* Tçumauo caitoru. |  |
 | `c2-l010` | &emsp;*Tomar, ou aleuantar as fraldas do veſtido.* |  |
 | `c2-l011` | &emsp;*¶* Noqino tçuma. *Borda do telhado.* |  |
 | `c2-l012` | Tçuma. *Eſpoſa, ou molher caſada. Item mi-* |  |
-| `c2-l013` | &emsp;*nùs proprie, Marido, ou homẽ caſado. ¶ T*çu- |  |
+| `c2-l013` | &emsp;*nùs proprie, Marido, ou homẽ caſado. ¶ Tç*u- |  |
 | `c2-l014` | &emsp;mani naſu. l, ſuru. l, ſadamuru. *Ca-* |  |
 | `c2-l015` | &emsp;*ſarſe com algũa molher.* |  |
 | `c2-l016` | *T*çuma barami. *Vnheiro.* |  |
@@ -108,11 +108,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l028` | Tçumagatana. *Caniuete, ou faca de cortar* |  |
 | `c2-l029` | *T*çumague, uru, eta. *Arregaçar os veſtidos,* |  |
 | `c2-l030` | &emsp;*ou aleuantar as abas, &c.* |  |
-| `c2-l031` | Tçumagui. *Maraualhas, cauacos, &c. Vt,* |  |
+| `c2-l031` | T*ç*umagui. *Maraualhas, cauacos, &c. Vt,* |  |
 | `c2-l032` | &emsp;*T*çumaguiuo firô. *Apanhar cauacos, ou pao-* |  |
 | `c2-l033` | &emsp;*zinhos, pera o fogo.* |  |
 | `c2-l034` | Tçumaguiua. l, tçumane. *Raiz das vnhas.* |  |
-| `c2-l035` | *T*çumaguri, u, utta. *Correr as contas polla* |  |
+| `c2-l035` | *Tç*umaguri, u, utta. *Correr as contas polla* |  |
 | `c2-l036` | &emsp;*mão ao modo de quem reza por ellas. ¶* Ya- |  |
 | `c2-l037` | &emsp;uo tçumaguru. *Dar voltas à ſeta ſobre a* |  |
 | `c2-l038` | &emsp;*vnha do dedo polegar pera ver ſe eſtà torta, ou* |  |

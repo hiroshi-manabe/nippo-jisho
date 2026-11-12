@@ -18,22 +18,22 @@ Lexical reference consulted after independent scan reading: NINJAL, *Entry Words
 | --- | --- | --- |
 | `c1-l001` | &emsp;*continuarſe de idade em idade como algũa pe-* |  |
 | `c1-l002` | &emsp;*ça, ou doutrina, arte, &c.* |  |
-| `c1-l003` | Tçutaye, uru, eta. *Deixar por tradição, ou* |  |
+| `c1-l003` | T*ç*utaye, uru, eta. *Deixar por tradição, ou* |  |
 | `c1-l004` | &emsp;*enſinar como doutrina, arte, &c.* |  |
 | `c1-l005` | Tçutayeqiqi, u, jta. *Ouuir por tradição, ou* |  |
 | `c1-l006` | &emsp;*de boca em boca.* |  |
-| `c1-l007` | Tçutayeqitari, u, atta. *Vir por deſcendẽcia,* |  |
+| `c1-l007` | T*ç*utayeqitari, u, atta. *Vir por deſcendẽcia,* |  |
 | `c1-l008` | &emsp;*ou tradição dos que vem enſinãdo.* |  |
 | `c1-l009` | Tçutayezzutaye. *De mão em mão, ou por* |  |
-| `c1-l010` | &emsp;*tradiçio. ¶* Tçutayezzutayeni yǔ. *Di-* |  |
+| `c1-l010` | &emsp;*tradiçio. ¶* T*ç*utayezzutayeni yǔ. *Di-* |  |
 | `c1-l011` | &emsp;*zer hum a outro por tradição, ou deſcendencia.* |  |
 | `c1-l012` | Tçutçu. *Canudo de bambu.* |  |
 | `c1-l013` | Tçutçudori. *Hum certo paſſaro.* |  |
-| `c1-l014` | Tçutçuga. *Vt,* Tçutçuganǒ maitta. *Veo* |  |
+| `c1-l014` | Tçutçuga. *Vt,* T*ç*utçuganǒ maitta. *Veo* |  |
 | `c1-l015` | &emsp;*ſem perigo.* |  |
 | `c1-l016` | Tçutçuguiri. *Cortar algũa couſa direito, ou em* |  |
 | `c1-l017` | &emsp;*redondo.* |  |
-| `c1-l018` | Tçutçuji. *Flor aßi chamada que vem no San-* |  |
+| `c1-l018` | T*ç*utçuji. *Flor aßi chamada que vem no San-* |  |
 | `c1-l019` | &emsp;*guachi. Item, A meſma aruorezinha que dà* |  |
 | `c1-l020` | &emsp;*eſta flor.* |  |
 | `c1-l021` | Tçutçujin. *Canudozinho de metal pera meter* |  |
@@ -42,7 +42,7 @@ Lexical reference consulted after independent scan reading: NINJAL, *Entry Words
 | `c1-l024` | Tçutçumi. *Vallos, ou marachões que ſeruem* |  |
 | `c1-l025` | &emsp;*pera ter mãonos rios, &c. ¶* Tçutçumi- |  |
 | `c1-l026` | &emsp;uo tçuqu. *Fazer eſtes vallos.* |  |
-| `c1-l027` | Tçutçumi. *Saco de canga, ou ſeda, &c.* |  |
+| `c1-l027` | T*ç*utçumi. *Saco de canga, ou ſeda, &c.* |  |
 | `c1-l028` | &emsp;*¶ Item,* Tçutçumi. *Fardo de linho, ou* |  |
 | `c1-l029` | &emsp;*trouxa. Mas não ſe vſa ſe não com algũa com-* |  |
 | `c1-l030` | &emsp;*poſição. Vt,* Fitotçu çumi, futatçu- |  |
@@ -60,7 +60,7 @@ Lexical reference consulted after independent scan reading: NINJAL, *Entry Words
 | `c1-l042` | Tçutçumiguſocu. *Armas cubertas com al.* |  |
 | `c1-l043` | &emsp;*gũa couſa por cima do ferro com o cubertas de* |  |
 | `c1-l044` | &emsp;*couro, &c.* |  |
-| `c1-l045` | Tçutçumimauaxi, ſu, aita. *Emburulhar à roda.* |  |
+| `c1-l045` | T*ç*utçumimauaxi, ſu, aita. *Emburulhar à roda.* |  |
 | `c1-l046` | Tçutçumimono. *Fardo, ou couſa enfardela-* |  |
 | `c1-l047` | &emsp;*da, ou emburulhada.* |  |
 
@@ -74,7 +74,7 @@ Lexical reference consulted after independent scan reading: NINJAL, *Entry Words
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | Tçutçumitate, uru, eta. *Acabar de em buru-* |  |
+| `c2-l001` | T*ç*utçumitate, uru, eta. *Acabar de em buru-* |  |
 | `c2-l002` | &emsp;*lhar, ou enuoluer algũa couſa.* |  |
 | `c2-l003` | Tçutçuqi, u, uita. *Picar o paſſaro cõ o bico.* |  |
 | `c2-l004` | &emsp;*¶ Item, No Ximo, Arder, ou latejar cõdor.* |  |
@@ -87,24 +87,24 @@ Lexical reference consulted after independent scan reading: NINJAL, *Entry Words
 | `c2-l011` | Tçute. *Portador, ou ocaſião de mandar carta,* |  |
 | `c2-l012` | &emsp;*&c. ¶* Tçuteuo qijte fumiuo yarǒzu. |  |
 | `c2-l013` | &emsp;*Ouuindo que ha portador eſcreuerei.* |  |
-| `c2-l014` | Tçuto. *Preſente de inaca emburulhado em pa-* |  |
+| `c2-l014` | T*ç*uto. *Preſente de inaca emburulhado em pa-* |  |
 | `c2-l015` | &emsp;*lha. Vt,* Inacazzuto. l, cuſazzuto. *Idẽ.* |  |
 | `c2-l016` | Tçuto. l, tçutoni. *Polamenhaã cedo.* |  |
-| `c2-l017` | Tçutome. *Obra deler liuros, ou orar, ou que* |  |
+| `c2-l017` | T*ç*utome. *Obra deler liuros, ou orar, ou que* |  |
 | `c2-l018` | &emsp;*pertence a ſaluação. ¶* Tçutomeuo naiu. |  |
 | `c2-l019` | &emsp;*Fazer ſemelhantes obras.* |  |
 | `c2-l020` | Tçutome, uru, eta. *Comprir com ſua obri-* |  |
 | `c2-l021` | &emsp;*gação, ou fazer boas obras, &c. ¶* Yacuuo |  |
 | `c2-l022` | &emsp;tçutomuru. *Fazer ſeu officio. ¶* Ienuo- |  |
 | `c2-l023` | &emsp;tçutomuru. *Fazer obras virtuoſas.* |  |
-| `c2-l024` | Tçutome faguemaxi, ſu, ita. *Comprir cõ di-* |  |
+| `c2-l024` | T*ç*utome faguemaxi, ſu, ita. *Comprir cõ di-* |  |
 | `c2-l025` | &emsp;*ligencia, ou fazer com todas as forças. Vt,* |  |
 | `c2-l026` | &emsp;Ienuo tçutome faguemaſu. *Fazer obras* |  |
 | `c2-l027` | &emsp;*de virtude com diligencia.* |  |
 | `c2-l028` | Tçuttachi, tçu, atta. *Eſtar em pè, ou ale-* |  |
 | `c2-l029` | &emsp;*uantarſe.* |  |
-| `c2-l030` | Tçuttachiagari, ru, atta. *Idem.* |  |
-| `c2-l031` | Tçutto. *Muito, ou perto, fundo, &c. ¶* Tçut- |  |
+| `c2-l030` | T*ç*uttachiagari, ru, atta. *Idem.* |  |
+| `c2-l031` | T*ç*utto. *Muito, ou perto, fundo, &c. ¶* Tçut- |  |
 | `c2-l032` | &emsp;to coreye vogiare. *Chegar bem pera cà.* |  |
 | `c2-l033` | Tçuua. *Erua aßichamada que ſe dà nas prayas.* |  |
 | `c2-l034` | Tçuua. *Cuſpo: palaura de molheres.* |  |
@@ -114,13 +114,13 @@ Lexical reference consulted after independent scan reading: NINJAL, *Entry Words
 | `c2-l038` | &emsp;*folhas nouas. Vt,* Ciga tçuuaru. *¶ Per-* |  |
 | `c2-l039` | &emsp;*met.* Qedamonoga tçuuaru. *Andarem* |  |
 | `c2-l040` | &emsp;*os animaes com o cio. Meliùs, Sacaru.* |  |
-| `c2-l041` | Tçuuari. *Doẽça de molher prenhe. Vt,* Tçu- |  |
+| `c2-l041` | Tçuuari. *Doẽça de molher prenhe. Vt,* T*ç*u- |  |
 | `c2-l042` | &emsp;uariuo ſuru. |  |
-| `c2-l043` | Tçuxi. *Caniçada que ſe faz de bambus em alto* |  |
+| `c2-l043` | T*ç*uxi. *Caniçada que ſe faz de bambus em alto* |  |
 | `c2-l044` | &emsp;*como jũto do forro da caſa, & pera por algũas* |  |
 | `c2-l045` | &emsp;*couſas.* |  |
 | `c2-l046` | Tçuxin. *O doer o corpo.* |  |
-| `c2-l047` | Tçuxxinde. *Com corteſia, & reuerencia.* |  |
+| `c2-l047` | T*ç*uxxinde. *Com corteſia, & reuerencia.* |  |
 
 ## Printed page number
 

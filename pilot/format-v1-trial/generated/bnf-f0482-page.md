@@ -28,16 +28,16 @@ Lexical cross-check: supplied NINJAL Entry Words Data of Nippojisho, version 202
 | `c1-l010` | &emsp;*mais. ¶* Qi. l, munega tçucayuru. *Eſ-* |  |
 | `c1-l011` | &emsp;*tar o coração abafado, & apertado.* |  |
 | `c1-l012` | Tçuchi. *Terra, ou barro.* |  |
-| `c1-l013` | Tçuchi. *Maço, ou maçete de pao, ou martello* |  |
+| `c1-l013` | T*ç*uchi. *Maço, ou maçete de pao, ou martello* |  |
 | `c1-l014` | &emsp;*de ferro. ¶* Sayezzuchi. *Pilão de pilar* |  |
 | `c1-l015` | &emsp;*arroz, ou maço de carpinteiro.* |  |
 | `c1-l016` | Tçuchicure. *Torrão de terra.* |  |
 | `c1-l017` | Tçuchicurebato. *Rola.* |  |
 | `c1-l018` | Tçuchidan. l, dodan. *Degrao feito de terra,* |  |
 | `c1-l019` | &emsp;*ou lugar mais aleuãtado pera por algũa couſa.* |  |
-| `c1-l020` | Tçuchido. *Porta barrada com barro. ¶ Item,* |  |
+| `c1-l020` | T*ç*uchido. *Porta barrada com barro. ¶ Item,* |  |
 | `c1-l021` | &emsp;*Porta, ou portal do pateo, ou Niua.* |  |
-| `c1-l022` | Tçuchina. *Erua aßi chamada como alfaçes* |  |
+| `c1-l022` | T*ç*uchina. *Erua aßi chamada como alfaçes* |  |
 | `c1-l023` | &emsp;*ſiluestres.* |  |
 | `c1-l024` | Tçuchinabe. *Panela de barro.* |  |
 | `c1-l025` | Tçuchinoye, tçuchinoto. *Nome de certos an* |  |
@@ -53,7 +53,7 @@ Lexical cross-check: supplied NINJAL Entry Words Data of Nippojisho, version 202
 | `c1-l035` | Tçucubuxi, l, tçububuxi. *Rodela do joelho.* |  |
 | `c1-l036` | *T*çucumo. *P. Hũa erua do mar.* |  |
 | `c1-l037` | Tçucumogami. *P. 99. Annos.* |  |
-| `c1-l038` | Tçucune, uru, eta. *Fazer pilouros com as* |  |
+| `c1-l038` | T*ç*ucune, uru, eta. *Fazer pilouros com as* |  |
 | `c1-l039` | &emsp;*mãos como de neue, de barro, ou maßa.* |  |
 | `c1-l040` | Tçucunoi, ô, ôta. *Satisfazer, ou reſtituir.* |  |
 | `c1-l041` | &emsp;*¶ Item, per met. Concertar o beneplacito dal* |  |
@@ -94,7 +94,7 @@ Lexical cross-check: supplied NINJAL Entry Words Data of Nippojisho, version 202
 | `c2-l018` | &emsp;riaguete. *Aleuantãdo hũ, & dousſobrados.* |  |
 | `c2-l019` | Tçucuriauaxe, ſuru, eta. *Vt,* Toqiuo tçu- |  |
 | `c2-l020` | &emsp;curiauaſuru. *Gritar juntamente os inimigos* |  |
-| `c2-l021` | &emsp;*de hũa parte, & de outra. ¶* Tçucuriaua- |  |
+| `c2-l021` | &emsp;*de hũa parte, & de outra. ¶* T*ç*ucuriaua- |  |
 | `c2-l022` | &emsp;xete mairu. *Ir de companhia com algũa cou* |  |
 | `c2-l023` | &emsp;*ſa com poſta, ou tramada pera enganar a alguẽ,* |  |
 | `c2-l024` | &emsp;*ou pera outro effeito.* |  |

@@ -21,7 +21,7 @@ Lexical reference consulted after independent scan reading: NINJAL, *Entry Words
 | `c1-l003` | Tçurimono. *Couſa dependurada: particular-* |  |
 | `c1-l004` | &emsp;*mente ſe toma por hũa panela de ferro, que ſer* |  |
 | `c1-l005` | &emsp;*ue no Chanoyu.* |  |
-| `c1-l006` | Tçǔriqi. *Forças penetratiuas, ou qualidades* |  |
+| `c1-l006` | T*ç*ǔriqi. *Forças penetratiuas, ou qualidades* |  |
 | `c1-l007` | &emsp;*glorioſas que ſão ſeis. Primeira,* Iinqiǒtçǔ. |  |
 | `c1-l008` | &emsp;*Velocidade no andar. Segũda,* Tenguentçǔ. |  |
 | `c1-l009` | &emsp;*Vista penetratiua de tudo. Terceira,* Tenni- |  |
@@ -33,17 +33,17 @@ Lexical reference consulted after independent scan reading: NINJAL, *Entry Words
 | `c1-l015` | Tçuriſague, uru, eta. *Dependurar algũa cou* |  |
 | `c1-l016` | &emsp;*ſa pera baixo.* |  |
 | `c1-l017` | Tçuritôdai. *Candieiro que ſe dependura.* |  |
-| `c1-l018` | Tçuriǔdo. *Peſcador de cana.* |  |
+| `c1-l018` | T*ç*uriǔdo. *Peſcador de cana.* |  |
 | `c1-l019` | Tçurizauo. *Cana de peſcar.* |  |
-| `c1-l020` | Tçǔro. Touoru michi. *Caminho que ſe paſ-* |  |
+| `c1-l020` | T*ç*ǔro. Touoru michi. *Caminho que ſe paſ-* |  |
 | `c1-l021` | &emsp;*ſa, ou anda. Vt,* Tçǔroga tomatta, l, |  |
 | `c1-l022` | &emsp;qireta. *Estão os caminhos tomados, ou im-* |  |
 | `c1-l023` | &emsp;*pedidos.* |  |
 | `c1-l024` | Tçuru. *Grou.* |  |
-| `c1-l025` | Tçuru. *Corda do arco.* Tçuruuo ſaſu. *Fa-* |  |
-| `c1-l026` | &emsp;*zer cordas de arco. ¶* Tçuruvotouo furu. |  |
+| `c1-l025` | Tçuru. *Corda do arco.* T*ç*uruuo ſaſu. *Fa-* |  |
+| `c1-l026` | &emsp;*zer cordas de arco. ¶* T*ç*uruvotouo furu. |  |
 | `c1-l027` | &emsp;*Prouar com a mão a corda fazendoa ſoar.* |  |
-| `c1-l028` | &emsp;*¶* Tçuruuo caquru. *Por a corda no arco* |  |
+| `c1-l028` | &emsp;*¶* T*ç*uruuo caquru. *Por a corda no arco* |  |
 | `c1-l030` | &emsp;*¶* Tçuruuo fazzuſu. *Tirar a corda do arco.* |  |
 | `c1-l032` | Tçurube. *Balde.* |  |
 | `c1-l033` | Tçurubedachi. l, tçurubedachini. *Feição* |  |
@@ -52,9 +52,9 @@ Lexical reference consulted after independent scan reading: NINJAL, *Entry Words
 | `c1-l036` | &emsp;*da ou grande precipicio.* |  |
 | `c1-l037` | Tçurubenaua. *Corda do balde de tirar agoa.* |  |
 | `c1-l038` | Tçurubucuro. *Saco da corda do arco.* |  |
-| `c1-l039` | Tçurucabura. *Aſelha da corda do arco por on-* |  |
+| `c1-l039` | T*ç*urucabura. *Aſelha da corda do arco por on-* |  |
 | `c1-l040` | &emsp;*de ſe mete, & poem no arco.* |  |
-| `c1-l041` | Tçurucaqe. *Official de cordas de arco, que tẽ* |  |
+| `c1-l041` | T*ç*urucaqe. *Official de cordas de arco, que tẽ* |  |
 | `c1-l042` | &emsp;*particular trajo em Iapão. ſ. touca na cabeça,* |  |
 | `c1-l043` | &emsp;*& Catabira vermelha curta.* |  |
 | `c1-l044` | Tçurucaqe. *Vide,* Tçurunabe. |  |
@@ -84,23 +84,23 @@ Lexical reference consulted after independent scan reading: NINJAL, *Entry Words
 | `c2-l008` | Tçurunabe. l, tçurucaqe. *Certa laya de pa-* |  |
 | `c2-l009` | &emsp;*nela de ferro, ou tacho que ſe toma com hum* |  |
 | `c2-l010` | &emsp;*ferro que prende nas aſas.* |  |
-| `c2-l011` | Tçuruno co. i, Fimagono co. *Tataraneto.* |  |
+| `c2-l011` | T*ç*uruno co. i, Fimagono co. *Tataraneto.* |  |
 | `c2-l012` | Tçuruno faxi. *Certo ferro como picão, ou ponta* |  |
 | `c2-l013` | &emsp;*da lauanca com ſua hastea de pao pera arrancar* |  |
 | `c2-l014` | &emsp;*pedras, ou desfazelas, &c.* |  |
 | `c2-l015` | Tçuruno motojiro. *Penas de grou que ſeruẽ* |  |
 | `c2-l016` | &emsp;*pera empenar frechas.* |  |
-| `c2-l017` | Tçuruſaxi. *Official de cordas de arco.* |  |
-| `c2-l018` | Tçurutçuqi. *Hum vaſoſinho de barro como* |  |
+| `c2-l017` | T*ç*uruſaxi. *Official de cordas de arco.* |  |
+| `c2-l018` | T*ç*urutçuqi. *Hum vaſoſinho de barro como* |  |
 | `c2-l019` | &emsp;*pucaro onde ſe metia o Cha moido.* |  |
 | `c2-l020` | Tçurutçuruto. *Adu. Modo de correr, ou* |  |
 | `c2-l021` | &emsp;*apreßar o paßo. Vt,* Tçurutçuruto faxiru. |  |
 | `c2-l022` | &emsp;*Correr deſta maneira por breue eſpaço.* |  |
-| `c2-l023` | Tçǔſu. *Hum certo officio entre os Bonzos* |  |
+| `c2-l023` | T*ç*ǔſu. *Hum certo officio entre os Bonzos* |  |
 | `c2-l024` | &emsp;*Ienxùs.* |  |
-| `c2-l025` | Tçutacazzura. *Certa era q̃ trepa pellas pare-* |  |
+| `c2-l025` | T*ç*utacazzura. *Certa era q̃ trepa pellas pare-* |  |
 | `c2-l026` | &emsp;*des, ou aruores.* |  |
-| `c2-l027` | Tçutai, tǒ, ǒta. *Ir como por atalhos, ou ao* |  |
+| `c2-l027` | T*ç*utai, tǒ, ǒta. *Ir como por atalhos, ou ao* |  |
 | `c2-l028` | &emsp;*longo do mato fora da estrada. ¶* Nami- |  |
 | `c2-l029` | &emsp;uo tçutǒ. *Andar ſobre as ondas como gai-* |  |
 | `c2-l030` | &emsp;*uota. ¶* Cozuyeuo tçutǒ. *Andar pol-* |  |
@@ -115,7 +115,7 @@ Lexical reference consulted after independent scan reading: NINJAL, *Entry Words
 | `c2-l039` | &emsp;*os de montes, ilhas, &c.* |  |
 | `c2-l040` | Tçǔtan. *Hum pao, ou aruore da China boa pe-* |  |
 | `c2-l041` | &emsp;*ra fazer obra.* |  |
-| `c2-l042` | Tçutanai. *Couſa ſuja, ou vil: cõmummente ſe* |  |
+| `c2-l042` | T*ç*utanai. *Couſa ſuja, ou vil: cõmummente ſe* |  |
 | `c2-l043` | &emsp;*diz de homẽs. ¶* Quafô tçutanai mono. |  |
 | `c2-l044` | &emsp;*Homem deſauenturado, ou infeliz.* |  |
 | `c2-l045` | &emsp;Tçutanaſa. |  |

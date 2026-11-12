@@ -27,10 +27,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l011` | &emsp;*terra vendoſe, ou encontrandoſe de nouo, ou* |  |
 | `c1-l012` | &emsp;*depois de muito tempo.* |  |
 | `c1-l013` | Tçunoſaqi. *Ponta do corno.* |  |
-| `c1-l014` | Tçuppari. *Pontaletes. ¶* Tçuppariuo cǒ. *Por* |  |
+| `c1-l014` | T*ç*uppari. *Pontaletes. ¶* Tçuppariuo cǒ. *Por* |  |
 | `c1-l015` | &emsp;*põtaletes a algũa parede, ou outra couſa fraca.* |  |
 | `c1-l016` | Tçuppato. *Adu. Modo de eſtar algũa couſa* |  |
-| `c1-l017` | &emsp;*chea, ou tresbordar. ¶* Tçuppato tatayu- |  |
+| `c1-l017` | &emsp;*chea, ou tresbordar. ¶* T*ç*uppato tatayu- |  |
 | `c1-l018` | &emsp;ru. *Tresbordar por fora.* |  |
 | `c1-l019` | Tçuqe, uru, eta. *Por, ou pegar hũa couſa* |  |
 | `c1-l020` | &emsp;*a outra. Vt,* Iyeni fiuo tçuquru. *Por fo-* |  |
@@ -81,7 +81,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l007` | &emsp;*lhar, ou fazer obra de mãos. ¶* Funeni |  |
 | `c2-l008` | &emsp;noritçuqeta fito. *Homem custumado a ſe* |  |
 | `c2-l009` | &emsp;*embarcar, & nauegar.* |  |
-| `c2-l010` | Tçuqeauaxe, ſuru, eta. *Pegar, ou grudar a-* |  |
+| `c2-l010` | T*ç*uqeauaxe, ſuru, eta. *Pegar, ou grudar a-* |  |
 | `c2-l011` | &emsp;*juntando duas couſas.* |  |
 | `c2-l012` | Tçuqedaqe. *Mecha, acendadilhas, ou outra* |  |
 | `c2-l013` | &emsp;*couſa ſemelhante pera acender o fogo.* |  |
@@ -90,10 +90,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l016` | &emsp;*matar, &c. propriamente ſe diz dos inimigos* |  |
 | `c2-l017` | &emsp;*que fazem por força recolher à fortaleza aos q̃* |  |
 | `c2-l018` | &emsp;*ſairão a pelejar.* |  |
-| `c2-l019` | Tçuqeire. *Vt, T*çuqeireuo ſuru. *Idem.* |  |
-| `c2-l020` | Tçuqeito. l, neriguri. *Seda batida, & brã-* |  |
+| `c2-l019` | T*ç*uqeire. *Vt, T*çuqeireuo ſuru. *Idem.* |  |
+| `c2-l020` | T*ç*uqeito. l, neriguri. *Seda batida, & brã-* |  |
 | `c2-l021` | &emsp;*da, ou cozida.* |  |
-| `c2-l022` | Tçuqemono. *Couſa de conſerua, ou ſalmoura* |  |
+| `c2-l022` | T*ç*uqemono. *Couſa de conſerua, ou ſalmoura* |  |
 | `c2-l023` | &emsp;*achar, &c.* |  |
 | `c2-l024` | Tçuqete. *Acerca. Participio de* Tçuqe, |  |
 | `c2-l025` | &emsp;uru. *Vt,* Coreni tçuqete. *Acerca diſto.* |  |
@@ -107,9 +107,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l033` | &emsp;*nhor, ou peſſoa honrada.* |  |
 | `c2-l034` | Tçuqi. *Mes, ou lũa. ¶ T*çuqiga mitçu- |  |
 | `c2-l035` | &emsp;ru. *Serlũa chea. ¶* Tçuqiga caquru. |  |
-| `c2-l036` | &emsp;*Minguar a lũa. ¶* Tçuqiga caqicumoru. |  |
+| `c2-l036` | &emsp;*Minguar a lũa. ¶* T*ç*uqiga caqicumoru. |  |
 | `c2-l037` | &emsp;*Eſcurecerſe a lũa. ¶* Tçuqiga teru. *A-* |  |
-| `c2-l038` | &emsp;*lumiar, ou reſplandecer a lũa. ¶* Tçuqiga |  |
+| `c2-l038` | &emsp;*lumiar, ou reſplandecer a lũa. ¶* T*ç*uqiga |  |
 | `c2-l039` | &emsp;ſayuru. *Estar a lũa clara, & fermoſa. prin-* |  |
 | `c2-l040` | &emsp;*cipalmente no Inuerno ſe vſa desta palaura.* |  |
 | `c2-l041` | &emsp;Tçuqiſayete. P. *Estando a lũa freſca,* |  |

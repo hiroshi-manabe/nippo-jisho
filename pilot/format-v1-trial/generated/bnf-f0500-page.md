@@ -96,7 +96,7 @@ Lexical aid: [NINJAL, Entry Words Data of Nippojisho, version 202510](https://ww
 | `c2-l020` | Tenjǒguiri. *Certa verruma pequenina.* |  |
 | `c2-l021` | *T*enjǒ tengue. *Em cima, & de baixo do ceo.* |  |
 | `c2-l022` | *T*enju. *Carauelhas da viola.* |  |
-| `c2-l023` | *T*enma. *T*çutaye vma. *Caualo, ou caualga-* |  |
+| `c2-l023` | *T*enma. *Tç*utaye vma. *Caualo, ou caualga-* |  |
 | `c2-l024` | &emsp;*dura que ſe dà degraça de lugar em lugar por* |  |
 | `c2-l025` | &emsp;*mandado dalgum ſenhor, &c. ¶ Per met.* |  |
 | `c2-l026` | &emsp;*T*enmani torarete xinrǒ ſuru. *Trabalhar* |  |

@@ -31,14 +31,14 @@ Lexical cross-check: supplied NINJAL Entry Words Data of Nippojisho, version 202
 | `c1-l013` | &emsp;*diçar afazenda, & gaſtala mal.* |  |
 | `c1-l014` | Tçucamaqijto. *Retros, ou fio com que ſe* |  |
 | `c1-l015` | &emsp;*emburulhão os punhos da Catana.* |  |
-| `c1-l016` | Tçucamatçuri, ru, utta. *Fazer.* |  |
+| `c1-l016` | T*ç*ucamatçuri, ru, utta. *Fazer.* |  |
 | `c1-l017` | Tçucamaye, uru, eta. *Afferrar de algũa couſa.* |  |
 | `c1-l018` | Tçucami, u, ǒda. *Afferrar com as vnhas,* |  |
 | `c1-l019` | &emsp;*como gauião, ou tigre, &c. Ou com as mãos.* |  |
 | `c1-l020` | &emsp;*¶* Zǒfeǒdomo ranno toqi monouo tçu- |  |
 | `c1-l021` | &emsp;cami toru. *Os ſoldados baixos no tempo da* |  |
 | `c1-l022` | &emsp;*reuolta apanhão algũas couſas.* |  |
-| `c1-l023` | Tçucamiai, ǒ, ǒta. *Iugar aos repeloẽs, ou* |  |
+| `c1-l023` | T*ç*ucamiai, ǒ, ǒta. *Iugar aos repeloẽs, ou* |  |
 | `c1-l024` | &emsp;*contender afferrandohum no outro com as mãos,* |  |
 | `c1-l025` | &emsp;*ou vnhas.* |  |
 | `c1-l026` | Tçucamicoroxi, ſu, oita. *Afferrando com* |  |
@@ -46,7 +46,7 @@ Lexical cross-check: supplied NINJAL Entry Words Data of Nippojisho, version 202
 | `c1-l028` | Tçucami idaxi, ſu, aita. *Afferrando tirar* |  |
 | `c1-l029` | &emsp;*fora. Vt,* Zǒfuuo tçucami idaſu. *Af-* |  |
 | `c1-l029a` | &emsp;*ferrar das ẽtranhas, ou tripas, & tiralas fora.* |  |
-| `c1-l030` | Tçucamitçuqi, u, uita. *Afferrando pegar.* |  |
+| `c1-l030` | T*ç*ucamitçuqi, u, uita. *Afferrando pegar.* |  |
 | `c1-l031` | &emsp;*¶* Funeni tçucamitçuqu. *Apegarſe com* |  |
 | `c1-l032` | &emsp;*as mãos na embarcação.* |  |
 | `c1-l033` | Tçucamitori, u, otta. *Afferrando tomar.* |  |
@@ -79,7 +79,7 @@ Lexical cross-check: supplied NINJAL Entry Words Data of Nippojisho, version 202
 | `c2-l003` | Tçucanucu. *Couſas fora de propoſito, & diſ-* |  |
 | `c2-l004` | &emsp;*ſonantes. Vt,* Tçucanucuna cotouo yǔ. |  |
 | `c2-l005` | &emsp;*Falar eſtas couſas.* |  |
-| `c2-l006` | Tçucanucuna. *Adject. Idem.* |  |
+| `c2-l006` | T*ç*ucanucuna. *Adject. Idem.* |  |
 | `c2-l007` | Tçucaracaxi, ſu, aita. *Fazer canſar. ¶* V- |  |
 | `c2-l008` | &emsp;mauo tçucaracaſu. *Fazer canſar o caualo.* |  |
 | `c2-l009` | Tçucare. *O ſegundo pouſo que fazem os paſ-* |  |
@@ -102,7 +102,7 @@ Lexical cross-check: supplied NINJAL Entry Words Data of Nippojisho, version 202
 | `c2-l026` | &emsp;*dor nas bocas dos ſacos pera por elle como por* |  |
 | `c2-l027` | &emsp;*aſelhas puxarem algũa corda pera fechar, ou* |  |
 | `c2-l028` | &emsp;*abrir o ſaco.* |  |
-| `c2-l029` | Tçucaſa. *Superior, ou cabeça principal.* |  |
+| `c2-l029` | T*ç*ucaſa. *Superior, ou cabeça principal.* |  |
 | `c2-l030` | Tçucaſadori, ru, otta. *Dominar, ou ſenho-* |  |
 | `c2-l031` | &emsp;*rear, ou gouernar. Vt,* Cuniuo tçucaſado- |  |
 | `c2-l032` | &emsp;ru. *Ser ſenhor dalgum reino, ou gouernalo.* |  |

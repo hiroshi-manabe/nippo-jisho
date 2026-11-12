@@ -30,10 +30,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l014` | &emsp;teuo tçuqu. *Arrodelarſe ao modo de Iapão* |  |
 | `c1-l015` | &emsp;*fixando hũas taboas no chão como repairo.* |  |
 | `c1-l016` | &emsp;*¶* Yamauo tçuqu, l, tçuqiaguru. *Fa-* |  |
-| `c1-l017` | &emsp;*zer montes às mãos, l, à enxada. ¶* Tçu- |  |
+| `c1-l017` | &emsp;*zer montes às mãos, l, à enxada. ¶* T*ç*u- |  |
 | `c1-l018` | &emsp;qi yama. *Monte feito artificioſamente.* |  |
 | `c1-l019` | &emsp;*¶* Toriuo tçuqu. *Dar com a rede ſobre* |  |
-| `c1-l020` | &emsp;*paßaros que vão voando. ¶* Tçuqiami. |  |
+| `c1-l020` | &emsp;*paßaros que vão voando. ¶* T*ç*uqiami. |  |
 | `c1-l021` | &emsp;*Rede com que dão ſobre algũs paßaros, & os* |  |
 | `c1-l022` | &emsp;*tomão. ¶* Vxi, l, yaguiǔga fitouo tçu- |  |
 | `c1-l023` | &emsp;qu. *Dar o boy, ou cabra em alguem com os* |  |
@@ -60,7 +60,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l044` | &emsp;Tçuqiaini mairǒzu. *Ireino cabo deſte mes,* |  |
 | `c1-l045` | &emsp;*ou no principio do outro.* |  |
 | `c1-l046` | Tçuqiai. *Commercio, & trato de varias par-* |  |
-| `c1-l047` | &emsp;*tes, ou gentes. Vt,* Tçuqiaino tocoro. *Lu* |  |
+| `c1-l047` | &emsp;*tes, ou gentes. Vt,* T*ç*uqiaino tocoro. *Lu* |  |
 
 ## Column 2 running header
 
@@ -97,19 +97,19 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l017` | &emsp;guino vataridateuo vmano caxirani tçuqi |  |
 | `c2-l018` | &emsp;cazaite, &c. Yax. *Pondo nas cabeças* |  |
 | `c2-l019` | &emsp;*dos caualos hũas rodelas leues de hũa ſoò taboa.* |  |
-| `c2-l020` | Tçuqicomi, mu, ôda. *Meter a lança, ou* |  |
+| `c2-l020` | T*ç*uqicomi, mu, ôda. *Meter a lança, ou* |  |
 | `c2-l021` | &emsp;*adaga, &c. ¶* Miſouo tçuqicomu. *Cal-* |  |
 | `c2-l022` | &emsp;*car bem o Miſo dentro dalgum vaſo, &c.* |  |
 | `c2-l023` | Tçuqicoroxi, ſu,oita. *Matar às lançadas, ada-* |  |
 | `c2-l024` | &emsp;*gadas, ou eſtocadas. ¶ Itẽ, Matar cõ os cornos.* |  |
-| `c2-l025` | Tçuqicuſa. *Erua aßi chamada.* |  |
+| `c2-l025` | T*ç*uqicuſa. *Erua aßi chamada.* |  |
 | `c2-l026` | Tçuqicuzzuxi, ſu, ita. *Deſtruir, ou desfazer* |  |
 | `c2-l027` | &emsp;*dando pancadas, encontros, &c. ¶ Item,* |  |
 | `c2-l028` | &emsp;*Deſtruir às lançadas, &c.* |  |
 | `c2-l029` | Tçuqidaxi, ſu, aita. *Fazendo algum terripleno* |  |
 | `c2-l030` | &emsp;*estender mais o chão.* |  *( &c.* |
 | `c2-l031` | Tçuqidocoro. *Lugar onde ſe chega, como porto,* |  |
-| `c2-l032` | Tçuqifanaxi, ſu, aita. *Largar, ou ſacudir* |  |
+| `c2-l032` | T*ç*uqifanaxi, ſu, aita. *Largar, ou ſacudir* |  |
 | `c2-l033` | &emsp;*de ſi, como quem da com a mão, &c.* |  |
 | `c2-l034` | Tçuqigane. *Sino que ſe tange, ou em que dão* |  |
 | `c2-l035` | &emsp;*pancadas com hum pao.* |  |
@@ -120,7 +120,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l040` | &emsp;*Cada lũa, ou cada mes.* |  |
 | `c2-l041` | Tçuqigue. *Cor de caualo branco. Itẽ,* Tçu- |  |
 | `c2-l042` | &emsp;qigue, l, tçuqigueno vma. *Caualo deſte cor.* |  |
-| `c2-l043` | Tçuqiire, uru, eta. *Dando, ou tocando em* |  |
+| `c2-l043` | T*ç*uqiire, uru, eta. *Dando, ou tocando em* |  |
 | `c2-l044` | &emsp;*algũa couſa metela dentro.* |  |
 | `c2-l045` | Tçuqimachi. *O eſperar pella lũa quando ſae q̃* |  |
 | `c2-l046` | &emsp;*he hũa ceremonia dos gẽtios. Vt,* Tçuqi ma- |  |

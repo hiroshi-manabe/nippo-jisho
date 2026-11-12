@@ -113,14 +113,14 @@ Lexical reference: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and 
 | `c2-l020` | Tçu. l, Tçubaqi. *Cuſpinho. ¶* Tçuga |  |
 | `c2-l021` | &emsp;cuchini tamaru. *Encherſe a boca dagoa.* |  |
 | `c2-l022` | &emsp;*i, de cuſpo.* |  |
-| `c2-l023` | Tçuba. *Beiços.* X. |  |
+| `c2-l023` | T*ç*uba. *Beiços.* X. |  |
 | `c2-l024` | Tçuba. *Guardas da Catana que he hum circulo* |  |
 | `c2-l025` | &emsp;*de cobre, ou de outro metal redondo que eſtà jũ-* |  |
 | `c2-l026` | &emsp;*to com os cabos.* |  |
 | `c2-l027` | Tçubacazzuqi. *Hum debrum de metal que* |  |
 | `c2-l028` | &emsp;*eſtà na boca da bainha da Catana onde juſta cõ* |  |
 | `c2-l029` | &emsp;*as guardas da Catana.* |  |
-| `c2-l030` | Tçubacura. l, Tçubacurame. i, Tçu bame. *An-* |  |
+| `c2-l030` | Tçubacura. l, Tçubacurame. i, T*ç*u bame. *An-* |  |
 | `c2-l031` | &emsp;*dorinha.* |  |
 | `c2-l032` | Tçubame guchi. *Ferro da frecha como boca de* |  |
 | `c2-l033` | &emsp;*andorinha. ¶ Item. Debrum, ou vinco preto* |  |
@@ -135,7 +135,7 @@ Lexical reference: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and 
 | `c2-l042` | Tçubaqi. *Meliùs quàm,* Tçufaqi. *Cuſpo.* |  |
 | `c2-l043` | &emsp;*¶* Tçubaqiuo ſuru. l, Faqu. *Cuſpir.* |  |
 | `c2-l044` | Tçubaſa. *Aſas de paßaro.* |  |
-| `c2-l045` | Tçubeta. *Certo genero de mariſco.* |  |
+| `c2-l045` | T*ç*ubeta. *Certo genero de mariſco.* |  |
 
 ## Printed catchword
 
