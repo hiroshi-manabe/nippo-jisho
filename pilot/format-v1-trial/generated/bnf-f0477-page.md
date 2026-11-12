@@ -16,14 +16,14 @@ Lexical reference: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and 
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | Tateyoco. *Ao comprido, & traues.* |  |
+| `c1-l001` | *T*ateyoco. *Ao comprido, & traues.* |  |
 | `c1-l002` | Tateyoxe, ſuru, eta. *Fechar hum pouco a por-* |  |
 | `c1-l003` | &emsp;*ta. Vt,* Touo tateyoſuru. |  |
 | `c1-l004` | Tatǒgami. *Papel dobrado, dourado, ou com-* |  |
 | `c1-l005` | &emsp;*pinturas em que as molheres metem poſturas, ou* |  |
 | `c1-l006` | &emsp;*varias couſas. ¶ Item, Papel dobrado que* |  |
 | `c1-l007` | &emsp;*ſe traz no ſeyo.* |  |
-| `c1-l008` | Tatoi. *Conjunção. Ainda que ſempre precede,* |  |
+| `c1-l008` | *T*atoi. *Conjunção. Ainda que ſempre precede,* |  |
 | `c1-l009` | &emsp;*& depois ſe ſegue* Tomo. *Vt,* Tatoi toqi u- |  |
 | `c1-l010` | &emsp;tçuri, coto ſarutomo. *Ainda que o tem-* |  |
 | `c1-l011` | &emsp;*po, & tudo paße, &c.* |  |

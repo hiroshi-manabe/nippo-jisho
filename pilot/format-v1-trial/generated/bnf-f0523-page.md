@@ -16,7 +16,7 @@ Lexical coverage was checked after independent scan reading against Entry Words 
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | Toyacacuya. *Aßi, ou não ſei como. Vt,* |  |
+| `c1-l001` | *T*oyacacuya. *Aßi, ou não ſei como. Vt,* |  |
 | `c1-l002` | &emsp;Toyacacuyato yǔ vchini, &c. *Em quã-* |  |
 | `c1-l003` | &emsp;*to fallão decà, & delà, ou ſe ſera aßi, ou não,* |  |
 | `c1-l004` | &emsp;*ou de que maneira, &c.* |  |
@@ -34,7 +34,7 @@ Lexical coverage was checked after independent scan reading against Entry Words 
 | `c1-l016` | &emsp;*breira da porta pera q̃ entre a porta, & a ombrei* |  |
 | `c1-l017` | &emsp;*ra não fique eſpaço aberto pera poder ver, ou me* |  |
 | `c1-l018` | &emsp;*ter os dedos.* |  |
-| `c1-l019` | Tôyu. *Certo azeite como verniz, ou charão.* |  |
+| `c1-l019` | *T*ôyu. *Certo azeite como verniz, ou charão.* |  |
 | `c1-l020` | Tǒza. Ataru za. *Este aßento, ou caſa onde* |  |
 | `c1-l021` | &emsp;*eſtà gente. ¶ Item, Adu. Agora de* |  |
 | `c1-l022` | &emsp;*preſente, ou neste comenos. ¶* Tǒzano co- |  |
@@ -49,7 +49,7 @@ Lexical coverage was checked after independent scan reading against Entry Words 
 | `c1-l031` | &emsp;*que não he familiar.* |  |
 | `c1-l032` | Tozamaxu. *Homẽs que ſeruem a algum ſenhor* |  |
 | `c1-l033` | &emsp;*estando abſentes, ou longe.* |  |
-| `c1-l034` | Tǒzan. Ataru yama. *Este monte, ou eſta Te-* |  |
+| `c1-l034` | *T*ǒzan. Ataru yama. *Este monte, ou eſta Te-* |  |
 | `c1-l035` | &emsp;*ra que ordinariamente està em monte.* |  |
 | `c1-l036` | Tôzan. Yamani noboru. *Oirem os mininos* |  |
 | `c1-l037` | &emsp;*às Teras dos Bonzos a aprender aler, & eſcre-* |  |
@@ -62,7 +62,7 @@ Lexical coverage was checked after independent scan reading against Entry Words 
 | `c1-l044` | &emsp;*pera Oriente.* |  |
 | `c1-l045` | Tozaxi, ſu, aita. *Fechar a porta. Vt,* To- |  |
 | `c1-l046` | &emsp;uo tozaſu. |  |
-| `c1-l047` | Tǒzocu. Nuſubito. *Ladrões.* |  |
+| `c1-l047` | *T*ǒzocu. Nuſubito. *Ladrões.* |  |
 
 ## Printed page number
 

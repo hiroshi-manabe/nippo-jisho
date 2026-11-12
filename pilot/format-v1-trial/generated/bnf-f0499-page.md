@@ -19,25 +19,25 @@ Lexical aid: [NINJAL, Entry Words Data of Nippojisho, version 202510](https://ww
 | `c1-l001` | &emsp;*¶ Per met.* Ano fitoua temochi varui. |  |
 | `c1-l002` | &emsp;*Aquele homem não anda bem, ou corrente cõ* |  |
 | `c1-l003` | &emsp;*o ſenhor, ou amo.* |  |
-| `c1-l004` | Temoto. *Lugar perto das mãos. ¶* Temo- |  |
+| `c1-l004` | *T*emoto. *Lugar perto das mãos. ¶ T*emo- |  |
 | `c1-l005` | &emsp;toni ſuſumu tçuuamonouo xichi fachi- |  |
 | `c1-l006` | &emsp;qi qitte votoita. *Cortou, & derrubou ſete,* |  |
 | `c1-l007` | &emsp;*ou oito de caualo, q̃ ſe lhe chegarão perto ata-* |  |
 | `c1-l008` | &emsp;*lho de mão.* |  |
-| `c1-l009` | Temuqi. *Modo, ou feição. ¶* Cano iye- |  |
+| `c1-l009` | *T*emuqi. *Modo, ou feição. ¶* Cano iye- |  |
 | `c1-l010` | &emsp;no temuqi qini auanu. *O modo, ou traça* |  |
 | `c1-l011` | &emsp;*daquella caſa não me contenta.* |  |
-| `c1-l012` | Temuſai. *Couſa ſuja, ou mallimpa, & com-* |  |
+| `c1-l012` | *T*emuſai. *Couſa ſuja, ou mallimpa, & com-* |  |
 | `c1-l013` | &emsp;*poſta.* |  |
-| `c1-l014` | Ten. *Ceo. ¶ Item, Nos liuros he o meſ-* |  |
-| `c1-l015` | &emsp;*mo que* Tentǒ. *Ordem, ou reuolução, & go* |  |
+| `c1-l014` | *T*en. *Ceo. ¶ Item, Nos liuros he o meſ-* |  |
+| `c1-l015` | &emsp;*mo que T*entǒ. *Ordem, ou reuolução, & go* |  |
 | `c1-l016` | &emsp;*uerno do ceo, pollo qual algũs parece q̃entendẽ* |  |
 | `c1-l017` | &emsp;*a Deos, ou o gouernador do ceo.* |  |
-| `c1-l018` | Ten. *Hũ animalinho como doninha, ou mayor.* |  |
-| `c1-l019` | Ten. *Pontinho, ou riſca, ou maneira de til q̃* |  |
+| `c1-l018` | *T*en. *Hũ animalinho como doninha, ou mayor.* |  |
+| `c1-l019` | *T*en. *Pontinho, ou riſca, ou maneira de til q̃* |  |
 | `c1-l020` | &emsp;*ſe poem nas letras, ou junto dellas, ou nos ro-* |  |
 | `c1-l021` | &emsp;*is. ¶* Tenuo vtçu. *Por eſte pontinho nas* |  |
-| `c1-l022` | &emsp;*letras de Iapão. ¶* Tenuo caquru. *Por,* |  |
+| `c1-l022` | &emsp;*letras de Iapão. ¶ T*enuo caquru. *Por,* |  |
 | `c1-l023` | &emsp;*ou fazer hũa riſca comprida, ao longo das le-* |  |
 | `c1-l024` | &emsp;*tras da china, ou Iapão porſinal de ſerem boas,* |  |
 | `c1-l025` | &emsp;*ou ruins. ¶ Item, Riſcas que ſe dão em al-* |  |
@@ -48,17 +48,17 @@ Lexical aid: [NINJAL, Entry Words Data of Nippojisho, version 202510](https://ww
 | `c1-l030` | &emsp;mu, l, riǒtengaara. *Eſta ſentença leeſe* |  |
 | `c1-l031` | &emsp;*de duas maneiras, ou tem dous ſinais pollos qua-* |  |
 | `c1-l032` | &emsp;*es ſe pode ler de hũa maneira, & doutra.* |  |
-| `c1-l033` | Tenaga. *O ſeruir à meſa leuando as meſas a-* |  |
+| `c1-l033` | *T*enaga. *O ſeruir à meſa leuando as meſas a-* |  |
 | `c1-l034` | &emsp;*te o caminho ſem entrar com ellas no Zaxiqui.* |  |
-| `c1-l035` | &emsp;*¶* Tenaga tçucamatçuru. *Fazer este of-* |  |
+| `c1-l035` | &emsp;*¶ T*enaga tçucamatçuru. *Fazer este of-* |  |
 | `c1-l036` | &emsp;*ficio de leuar as meſas.* |  |
-| `c1-l037` | Tenaguſami. *Folguedo, ou brinco de mãos.* |  |
-| `c1-l038` | Tenami. *Força, ou valentia com q̃ hum joga* |  |
-| `c1-l039` | &emsp;*as armas, ou faz façanhas. ¶* Tenamiuo vo- |  |
+| `c1-l037` | *T*enaguſami. *Folguedo, ou brinco de mãos.* |  |
+| `c1-l038` | *T*enami. *Força, ou valentia com q̃ hum joga* |  |
+| `c1-l039` | &emsp;*as armas, ou faz façanhas. ¶ T*enamiuo vo- |  |
 | `c1-l040` | &emsp;boyeta. *Ia ſei as forças que tendes, ou que* |  |
-| `c1-l041` | &emsp;*eu tenho. ¶* Tenamino rodouo mixôzo. |  |
+| `c1-l041` | &emsp;*eu tenho. ¶ T*enamino rodouo mixôzo. |  |
 | `c1-l042` | &emsp;*Moſtrar vos ei quanto poßo com meu braço.* |  |
-| `c1-l043` | Tenare, ru, eta. *Trazer ordinariamente al* |  |
+| `c1-l043` | *T*enare, ru, eta. *Trazer ordinariamente al* |  |
 | `c1-l044` | &emsp;*gũa couſa na mão. ¶* Cono monodomo- |  |
 | `c1-l045` | &emsp;no tenare motta aſobi dǒgu. *Brincos que* |  |
 | `c1-l046` | &emsp;*costumão trazer nas mãos eſtes moços. ¶ Itẽ,* |  |
@@ -74,11 +74,11 @@ Lexical aid: [NINJAL, Entry Words Data of Nippojisho, version 202510](https://ww
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | &emsp;*paſſaro, &c. ¶* Tenareta tori, l, inu. |  |
+| `c2-l001` | &emsp;*paſſaro, &c. ¶ T*enareta tori, l, inu. |  |
 | `c2-l002` | &emsp;*Paßaro, ou cão manſo, & domestico.* |  |
-| `c2-l003` | Tenaye. *Aleijão das mãos.* |  |
-| `c2-l004` | Tenba. Dairino vma. *Caualo do Rey.* |  |
-| `c2-l005` | Tenbachi. *Melius,* Tenbat. *Caſtigo do ceo.* |  |
+| `c2-l003` | *T*enaye. *Aleijão das mãos.* |  |
+| `c2-l004` | *T*enba. Dairino vma. *Caualo do Rey.* |  |
+| `c2-l005` | *T*enbachi. *Melius, T*enbat. *Caſtigo do ceo.* |  |
 | `c2-l006` | Tenben. i, Vtçuri cauaru. *Mudança. Vt,* |  |
 | `c2-l007` | &emsp;Xiqino tenben. *Mudança, ou variedade* |  |
 | `c2-l008` | &emsp;*dos 4. tempos. ¶* Xejǒno tenben. |  |
@@ -103,7 +103,7 @@ Lexical aid: [NINJAL, Entry Words Data of Nippojisho, version 202510](https://ww
 | `c2-l027` | &emsp;*ſuir, ou ter na mão o imperio, ou monarchia.* |  |
 | `c2-l028` | &emsp;*¶* Tenca dai ichi. *Couſa vnica, & ſin-* |  |
 | `c2-l029` | &emsp;*gular no mundo. ¶* Tencabuſǒ. *Idem.* |  |
-| `c2-l030` | Tenca busǒna. l, Tenca dai ichina. *Couſa* |  |
+| `c2-l030` | *T*enca busǒna. l, Tenca dai ichina. *Couſa* |  |
 | `c2-l031` | &emsp;*vnica, & ſingular no mundo.* |  |
 | `c2-l032` | Tencai. Tenno imaxime. *Ley, ou prohi-* |  |
 | `c2-l033` | &emsp;*bição de Deos, ou do ceo.* |  |

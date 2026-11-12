@@ -51,7 +51,7 @@ Lexical cross-check: supplied NINJAL Entry Words Data of Nippojisho, version 202
 | `c1-l033` | &emsp;*muitas pontas de que vſão quando prendem al-* |  |
 | `c1-l034` | &emsp;*guem pera o ſujugar, & domar.* |  |
 | `c1-l035` | Tçucubuxi, l, tçububuxi. *Rodela do joelho.* |  |
-| `c1-l036` | Tçucumo. *P. Hũa erua do mar.* |  |
+| `c1-l036` | *T*çucumo. *P. Hũa erua do mar.* |  |
 | `c1-l037` | Tçucumogami. *P. 99. Annos.* |  |
 | `c1-l038` | Tçucune, uru, eta. *Fazer pilouros com as* |  |
 | `c1-l039` | &emsp;*mãos como de neue, de barro, ou maßa.* |  |
@@ -120,7 +120,7 @@ Lexical cross-check: supplied NINJAL Entry Words Data of Nippojisho, version 202
 | `c2-l044` | Tçucurigauo. *Rosto fingido, ou contrafeito.* |  |
 | `c2-l045` | Tçucuridaxi, ſu, aita. *Fazer de nouo, ou* |  |
 | `c2-l046` | &emsp;*inuentar algũa couſa de mãos. ¶ Item, Fin* |  |
-| `c2-l047` | &emsp;*gir de ſi, ou de nouo algũa couſa. Vt,* Tçu |  |
+| `c2-l047` | &emsp;*gir de ſi, ou de nouo algũa couſa. Vt, T*çu |  |
 
 ## Printed catchword
 

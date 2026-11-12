@@ -44,7 +44,7 @@ Lexical cross-check: supplied NINJAL Entry Words Data of Nippojisho, version 202
 | `c1-l026` | Tçubone. *Hum repartimento, ou caſa ſepa* |  |
 | `c1-l027` | &emsp;*rada onde habita algũa molher. ¶ Tambem* |  |
 | `c1-l028` | &emsp;*ſe toma por camara, ou cubiculo de molheres.* |  |
-| `c1-l029` | Tçubonomi. *Certo eſcopro hum pouco dobra-* |  |
+| `c1-l029` | *T*çubonomi. *Certo eſcopro hum pouco dobra-* |  |
 | `c1-l030` | &emsp;*do, ou redondo. & apanhado, ou fechado* |  |
 | `c1-l031` | Tçuboſode. *Mangas redondas que tem a boca* |  |
 | `c1-l032` | &emsp;*pequena, & apanhada.* |  |
@@ -75,14 +75,14 @@ Lexical cross-check: supplied NINJAL Entry Words Data of Nippojisho, version 202
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | Tçuburi. i, Atama. *Cabeça. ¶* Tçubu- |  |
+| `c2-l001` | *T*çuburi. i, Atama. *Cabeça. ¶* Tçubu- |  |
 | `c2-l002` | &emsp;riga itai. *Doer a cabeça.* |  |
-| `c2-l003` | Tçubuſa. l, tçubuſana. *Couſa inteira, diffu-* |  |
+| `c2-l003` | *T*çubuſa. l, tçubuſana. *Couſa inteira, diffu-* |  |
 | `c2-l004` | &emsp;*ſa, & que não he abreuiada.* |  |
-| `c2-l005` | Tçubuſani. *Adu. Miudamente. ¶* Tçu- |  |
+| `c2-l005` | *T*çubuſani. *Adu. Miudamente. ¶ T*çu- |  |
 | `c2-l006` | &emsp;buſani qijta. *Ouui inteira, & diffuſamente.* |  |
-| `c2-l007` | Tçubute. *Pedrada. ¶* Tçubuteuo vtçu. |  |
-| `c2-l008` | &emsp;*Atirar cõ pedras. ¶* Tçubuteni vtçu. *A-* |  |
+| `c2-l007` | *T*çubute. *Pedrada. ¶ T*çubuteuo vtçu. |  |
+| `c2-l008` | &emsp;*Atirar cõ pedras. ¶ T*çubuteni vtçu. *A-* |  |
 | `c2-l009` | &emsp;*tirar com outra couſa em lugar de pedra, & a* |  |
 | `c2-l010` | &emsp;*couſa em accuſatiuo. Vt,* Pão mochiuo tçu |  |
 | `c2-l011` | &emsp;buteni vtçu. *Atirar com pão, ou Mochi,* |  |
@@ -90,30 +90,30 @@ Lexical cross-check: supplied NINJAL Entry Words Data of Nippojisho, version 202
 | `c2-l013` | &emsp;tçu. *Gastar ſem tento, & ſem propoſito.* |  |
 | `c2-l014` | &emsp;*¶* Mucai tçubuteuo ſuru. *Iugar às pedradas* |  |
 | `c2-l015` | &emsp;*hũs com os outros.* |  |
-| `c2-l016` | Tçububuxi. *Rodela do joelho. Posto que a-* |  |
-| `c2-l017` | &emsp;*gente popular diga,* Tçubuxi. |  |
-| `c2-l018` | Tçubuxi. *Idem.* X. |  |
-| `c2-l019` | Tçubuxi, ſu, uita. *Eſmagar, ou eſborra-* |  |
+| `c2-l016` | *T*çububuxi. *Rodela do joelho. Posto que a-* |  |
+| `c2-l017` | &emsp;*gente popular diga, T*çubuxi. |  |
+| `c2-l018` | *T*çubuxi. *Idem.* X. |  |
+| `c2-l019` | *T*çubuxi, ſu, uita. *Eſmagar, ou eſborra-* |  |
 | `c2-l020` | &emsp;*char. ¶ Per met.* Q imouo tçubuſu. *Eſ-* |  |
 | `c2-l021` | &emsp;*pantarſe. ¶* Faremonouo tçubuſu. *Fu-* |  |
 | `c2-l022` | &emsp;*rar, ou fazer arrebentar o inchaço.* |  |
 | `c2-l023` | Tçubuyaqi, u, aita. *Falar por antre os dẽ-* |  |
 | `c2-l024` | &emsp;*tes, ou falar cõſigo agaſtado, ou murmurãdo.* |  |
-| `c2-l025` | Tçubuyaqigoye. *Voz de quem fala aßi por* |  |
+| `c2-l025` | *T*çubuyaqigoye. *Voz de quem fala aßi por* |  |
 | `c2-l026` | &emsp;*antre os dentes agaſtado.* |  |
-| `c2-l027` | Tçuca. *Terra aleuantada como ſepultura, ou* |  |
+| `c2-l027` | *T*çuca. *Terra aleuantada como ſepultura, ou* |  |
 | `c2-l028` | &emsp;*tumulo.* |  |
-| `c2-l029` | Tçuca, l, tçucabaxira. *Columna pequena, ou* |  |
+| `c2-l029` | *T*çuca, l, tçucabaxira. *Columna pequena, ou* |  |
 | `c2-l030` | &emsp;*eſpeque que ſe poem pera ſuſtentar de baixo o* |  |
-| `c2-l031` | &emsp;*ſolhado, &c. ¶* Tçucauo cǒ. *Por eſtes* |  |
+| `c2-l031` | &emsp;*ſolhado, &c. ¶ T*çucauo cǒ. *Por eſtes* |  |
 | `c2-l032` | &emsp;*pontaletes de baixo dalgum pao.* |  |
-| `c2-l033` | Tçuca. *Punhos da eſpada, ou cabo de faca, &c.* |  |
-| `c2-l034` | Tçuca ana. *Caſa feita de baixo da terra.* |  |
+| `c2-l033` | *T*çuca. *Punhos da eſpada, ou cabo de faca, &c.* |  |
+| `c2-l034` | *T*çuca ana. *Caſa feita de baixo da terra.* |  |
 | `c2-l035` | Tçucagaxira. *Maçaã dos punhos da Catana.* |  |
-| `c2-l036` | Tçucaguchi. *Parte dos punhos da Catana que* |  |
+| `c2-l036` | *T*çucaguchi. *Parte dos punhos da Catana que* |  |
 | `c2-l037` | &emsp;*esta junto das guardas.* |  |
-| `c2-l038` | Tçucai. *Recado, ou menſageiro. ¶* Tçu- |  |
-| `c2-l039` | &emsp;caiuo ſuru. *Ser, ou ir por recado. ¶* Tçu- |  |
+| `c2-l038` | *T*çucai. *Recado, ou menſageiro. ¶ T*çu- |  |
+| `c2-l039` | &emsp;caiuo ſuru. *Ser, ou ir por recado. ¶ T*çu- |  |
 | `c2-l040` | &emsp;caini yaru. *Mandar a alguem cõ recado.* |  |
 | `c2-l041` | Tçucai, ǒ, ǒta. *Vſar, ou ſeruirſe de algũa* |  |
 | `c2-l042` | &emsp;*couſa. Vt,* Fitouo tçucô. *Seruirſe de al-* |  |

@@ -24,7 +24,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l008` | &emsp;*a algũa couſa.* |  |
 | `c1-l009` | Tçucuritate, uru eta. *Edificar, l, aleuantar* |  |
 | `c1-l010` | &emsp;*fabricas, &c.* |  |
-| `c1-l011` | Tçucuriuarai. *Riſo fingido.* |  |
+| `c1-l011` | *T*çucuriuarai. *Riſo fingido.* |  |
 | `c1-l012` | Tçucuriyamai. l, ſacubiǒ. *Doença fingida.* |  |
 | `c1-l013` | Tçucurizame. *Couſa feita artificioſamente à* |  |
 | `c1-l014` | &emsp;*maneira de pelle de lica que poem os Iapões nos* |  |
@@ -110,7 +110,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l030` | &emsp;*¶* Torino fitotçugai. *Hum par de paßa-* |  |
 | `c2-l031` | &emsp;*ros. i, Macho e femea. ¶* Fato fitotçu- |  |
 | `c2-l032` | &emsp;gai. *Hum par de rolas, ou pombas.* |  |
-| `c2-l033` | Tçugaigomono. *Dous criados que vão diante* |  |
+| `c2-l033` | *T*çugaigomono. *Dous criados que vão diante* |  |
 | `c2-l034` | &emsp;*do caualo, ou do Coxi de hũa librè juntos.* |  |
 | `c2-l035` | Tçugaime. *Aquelle nô, ou juntura onde ſe a-* |  |
 | `c2-l036` | &emsp;*juntão, ou lião duas couſas.* |  |

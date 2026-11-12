@@ -16,49 +16,49 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c1-l001` | Tôchincǒ. *Hũs grãosſinhos pretos feios de va-* |  |
 | `c1-l002` | &emsp;*rias confeições medicinaes.* |  |
-| `c1-l003` | Tochitochito. *Aduerb. Vide,* Tochime- |  |
+| `c1-l003` | *T*ochitochito. *Aduerb. Vide, T*ochime- |  |
 | `c1-l004` | &emsp;qi, qu. |  |
 | `c1-l005` | Tochǒ. *Cortinas que ſe poem diante do altar, ou* |  |
 | `c1-l006` | &emsp;*da capella, ou de outro lugar ẽ caſas de nobres.* |  |
-| `c1-l007` | Tochǔ. l, tochǔni. Michino naca. *Meo* |  |
+| `c1-l007` | *T*ochǔ. l, tochǔni. Michino naca. *Meo* |  |
 | `c1-l008` | &emsp;*do caminho, ou caminho.* |  |
 | `c1-l009` | Tǒchǔ. Ataraxiqi chǔxet. *Seruiços feitos* |  |
 | `c1-l010` | &emsp;*de nouo, ou dagora. S.* |  |
-| `c1-l011` | Tocǒ. *Adu.* l, tocacu. *Aßi, ou de qual-* |  |
-| `c1-l012` | &emsp;*quer maneira. Vt,* Tocǒ mǒſuni voyoba- |  |
+| `c1-l011` | *T*ocǒ. *Adu.* l, tocacu. *Aßi, ou de qual-* |  |
+| `c1-l012` | &emsp;*quer maneira. Vt, T*ocǒ mǒſuni voyoba- |  |
 | `c1-l013` | &emsp;nu. *Não ha pera que falar mais de qualquer* |  |
-| `c1-l014` | &emsp;*maneira que ſeja. ¶* Tocǒ ſuru mani fi- |  |
+| `c1-l014` | &emsp;*maneira que ſeja. ¶ T*ocǒ ſuru mani fi- |  |
 | `c1-l015` | &emsp;ga cureta. *Em quanto homem deſcuidada-* |  |
 | `c1-l016` | &emsp;*mente ſe ocupa aßi, ou aßi, ou em não ſei que* |  |
 | `c1-l017` | &emsp;*o ſol ſe pos, ou ſe fez noite.* |  |
 | `c1-l018` | Tôcô. Forano cuchi. *Boca da cauerna, ou lapa.* |  |
-| `c1-l019` | Toco. *Baileu, ou catre de dormir.* |  |
+| `c1-l019` | *T*oco. *Baileu, ou catre de dormir.* |  |
 | `c1-l020` | Toco. *Hũa maneira de baileu, ou degrao que* |  |
 | `c1-l021` | &emsp;*està na cabeceira do Zaxiqu, onde poem rama-* |  |
 | `c1-l022` | &emsp;*lhetes, &c.* |  |
-| `c1-l023` | Tocogamachi. *Faſquias, ou molduras que eſ-* |  |
+| `c1-l023` | *T*ocogamachi. *Faſquias, ou molduras que eſ-* |  |
 | `c1-l024` | &emsp;*tãc nas bordas deſte baileu.* |  |
-| `c1-l025` | Tocomuxi. *Perſouejo.* |  |
-| `c1-l026` | Toconatçu. *Nome de hũa flor que ſempre hà.* |  |
+| `c1-l025` | *T*ocomuxi. *Perſouejo.* |  |
+| `c1-l026` | *T*oconatçu. *Nome de hũa flor que ſempre hà.* |  |
 | `c1-l027` | &emsp;*¶ Item, per met, ſe diz de hum homem* |  |
 | `c1-l028` | &emsp;*que quaſi ſempre està, ou parece da meſma* |  |
 | `c1-l029` | &emsp;*idade.* |  |
-| `c1-l030` | Toconatçuna. l, toconatçuno. *Couſa que* |  |
+| `c1-l030` | *T*oconatçuna. l, toconatçuno. *Couſa que* |  |
 | `c1-l031` | &emsp;*ſempre està da meſma maneira ſem ſe mudar,* |  |
 | `c1-l032` | &emsp;*como aruores que lhe não cae a folha, &c.* |  |
 | `c1-l033` | Tocono vmi. P. i, Namida. *Lagrimas.* |  |
-| `c1-l034` | Tocoro. *Hũas raizes de erua amargoſas que* |  |
+| `c1-l034` | *T*ocoro. *Hũas raizes de erua amargoſas que* |  |
 | `c1-l035` | &emsp;*ſe comem.* |  |
-| `c1-l036` | Tocoro. *Lugar.* |  |
-| `c1-l037` | Tocorode. *Por tanto, ou por quanto: por iſ-* |  |
+| `c1-l036` | *T*ocoro. *Lugar.* |  |
+| `c1-l037` | *T*ocorode. *Por tanto, ou por quanto: por iſ-* |  |
 | `c1-l038` | &emsp;*ſo, ou ſendo aßi. Vt,* Cǒ aru tocorode. |  |
 | `c1-l039` | &emsp;*Sendo aßi desta maneira, ou por quanto aßi* |  |
 | `c1-l040` | &emsp;*he, &c.* |  |
 | `c1-l041` | Tocorodocoro. *Lugares, ou cada lugar.* |  |
-| `c1-l042` | Tocorojichi. *Penhor que ſe toma noutra terra* |  |
+| `c1-l042` | *T*ocorojichi. *Penhor que ſe toma noutra terra* |  |
 | `c1-l043` | &emsp;*de fazenda, ou algũa peßoa que ahi foy ter* |  |
 | `c1-l044` | &emsp;*por algũ agrauo, ou diuida.* |  |
-| `c1-l045` | Tocoroni. *He particula como de Datiuo junta* |  |
+| `c1-l045` | *T*ocoroni. *He particula como de Datiuo junta* |  |
 | `c1-l046` | &emsp;*com verbos. Vt,* Mairǒzuru tocoroni. *A-* |  |
 | `c1-l047` | &emsp;*uendo deir, ou estando pera ir me veo ao encõ-* |  |
 | `c1-l048` | &emsp;*tro, ou me derão, &c.* |  |
@@ -83,15 +83,15 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l002` | &emsp;*em todo tempo. ¶* Anjo tachi Eccleſia- |  |
 | `c2-l003` | &emsp;uo tocoxinayeni mamoraxeraruru. *Os* |  |
 | `c2-l004` | &emsp;*Anjos ſempre estão guardando a Igreja.* |  |
-| `c2-l005` | Tocoyami. *Treuas, ou eſcuridade. ¶* Xe- |  |
+| `c2-l005` | *T*ocoyami. *Treuas, ou eſcuridade. ¶* Xe- |  |
 | `c2-l006` | &emsp;caiga tocoyamini natta. *Eſcureceoſe o mũ-* |  |
 | `c2-l007` | &emsp;*do, ou ficou em treuas.* |  |
 | `c2-l008` | Tocqua. *Premio, ou retribuição das obras que* |  |
 | `c2-l009` | &emsp;*hum fez neſta vida, ou noutra idade, ou naci-* |  |
 | `c2-l010` | &emsp;*mento como imaginão os gentios.* |  |
 | `c2-l011` | Tocu. l, tocutocu. *Adu. Depreßa, ou ce-* |  |
-| `c2-l012` | &emsp;*do. Vt,* Tocu ſuru. *Fazer depreßa.* |  |
-| `c2-l013` | Tocu. *Proueito. ¶* Tocuye. *Proueito, &* |  |
+| `c2-l012` | &emsp;*do. Vt, T*ocu ſuru. *Fazer depreßa.* |  |
+| `c2-l013` | *T*ocu. *Proueito. ¶ T*ocuye. *Proueito, &* |  |
 | `c2-l014` | &emsp;*intereße proprio.* |  |
 | `c2-l015` | Tocǔ. l, nengu. *Rendimento que ſe paga* |  |
 | `c2-l016` | &emsp;*da nouidade das varzeas, ou campos.* |  |
@@ -108,7 +108,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l027` | &emsp;*¶* Tocudǒno fito. *Homem entendido, ou* |  |
 | `c2-l028` | &emsp;*conſumado nas couſas da ley, ou do Buppô.* |  |
 | `c2-l029` | Tocudǒxa. *Idem.* i, Tocudǒno fito. |  |
-| `c2-l030` | Tocufit. Chibifude. *Pena de eſcreuer que tẽ* |  |
+| `c2-l030` | *T*ocufit. Chibifude. *Pena de eſcreuer que tẽ* |  |
 | `c2-l031` | &emsp;*a ponta toſca jà, & desfeita. ¶* Tocufit |  |
 | `c2-l032` | &emsp;ni atauazu. *Não ſe pode eſcreuer, ou não* |  |
 | `c2-l033` | &emsp;*pode ir a pena por diante. ¶* Tocufitni ito- |  |

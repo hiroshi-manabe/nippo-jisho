@@ -16,28 +16,28 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | Taqitçuzzuqe, quru, eta. *Queimar em fiei-* |  |
+| `c1-l001` | *T*aqitçuzzuqe, quru, eta. *Queimar em fiei-* |  |
 | `c1-l002` | &emsp;*ra, ou continuar com fogos por algũ eſpaço* |  |
-| `c1-l003` | Tara. *Hum peixe de rio muito estimado que cõ-* |  |
+| `c1-l003` | *T*ara. *Hum peixe de rio muito estimado que cõ-* |  |
 | `c1-l004` | &emsp;*mummente vai morrer ao mar.* |  |
 | `c1-l005` | Tara. l, tarano qi. *Hũa aruore q̃ tem eſpinhos.* |  |
-| `c1-l006` | Tarachime. *P*. i, Faua. *Mãy.* |  |
-| `c1-l007` | Tarachine. *P*. i, Voya. *Pay, & mãy.* |  |
+| `c1-l006` | *T*arachime. *P*. i, Faua. *Mãy.* |  |
+| `c1-l007` | *T*arachine. *P*. i, Voya. *Pay, & mãy.* |  |
 | `c1-l008` | Tarachiuo. i, Chichi. *Pay.* |  |
-| `c1-l009` | Tarai. *Gamela de pao, ou ſelha.* |  |
-| `c1-l010` | Tarai, ǒ, ǒta. *Ser perfeito em algũa couſa,* |  |
+| `c1-l009` | *T*arai. *Gamela de pao, ou ſelha.* |  |
+| `c1-l010` | *T*arai, ǒ, ǒta. *Ser perfeito em algũa couſa,* |  |
 | `c1-l011` | &emsp;*ou estar a couſa perfeita, & ſem falta.* |  |
 | `c1-l012` | &emsp;*¶* Yorozzuno cotoni tarǒta fitogia. *Ho* |  |
 | `c1-l013` | &emsp;*mem perfeito em tudo. ¶* Iinbutno tarǒ- |  |
 | `c1-l014` | &emsp;ta fito gia. *He peßoa de bom parecer, &* |  |
 | `c1-l015` | &emsp;*de perfeita fermoſura. O negatiuo deste verbo.* |  |
-| `c1-l016` | &emsp;*Vt,* Tarauanu, tarauazu. *Significa faltar.* |  |
+| `c1-l016` | &emsp;*Vt, T*arauanu, tarauazu. *Significa faltar.* |  |
 | `c1-l017` | Tarameqi, u. l, darameqi, u. *Fazer ſom* |  |
 | `c1-l018` | &emsp;*como quãdo caem goteiras dagoa, ou choue, &c.* |  |
 | `c1-l019` | Taraju. *Palmeira braua em cujas folhas eſcreuẽ* |  |
 | `c1-l020` | &emsp;*os da India.* |  |
-| `c1-l021` | Tararito. *Modo, ou ſõ de goteiar, ou cair agoa.* |  |
-| `c1-l022` | Taratarato. *Adu. Modo de gotejar. Vt,* |  |
+| `c1-l021` | *T*ararito. *Modo, ou ſõ de goteiar, ou cair agoa.* |  |
+| `c1-l022` | *T*aratarato. *Adu. Modo de gotejar. Vt,* |  |
 | `c1-l023` | &emsp;Mizzuga taratarato votçuru. *Cai a agoa* |  |
 | `c1-l024` | &emsp;*dalto ſoando.* |  |
 | `c1-l025` | Taraxi, ſu, aita. *Enganar, ou embair.* |  |
@@ -107,13 +107,13 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c2-l031` | &emsp;*¶ Per met.* Cocorouo tarumuru. i, Yu- |  |
 | `c2-l032` | &emsp;dan ſuru. *Deſcuidarſe, ou afroxar nalgũa* |  |
 | `c2-l033` | &emsp;*obra, &c.* |  |
-| `c2-l034` | Tarumi, u, ǔda. *Afroxar. ¶ Permet.* |  |
+| `c2-l034` | *T*arumi, u, ǔda. *Afroxar. ¶ Permet.* |  |
 | `c2-l035` | &emsp;Cocoroga tarumu. *Deſcuidarſe, ou en-* |  |
 | `c2-l036` | &emsp;*tibiarſe.* |  |
 | `c2-l037` | Tarumiga yuqu. *Ir afroxando couſa que eſta-* |  |
 | `c2-l038` | &emsp;*ua teſa. ¶ Item, permet. Se diz de couſa* |  |
 | `c2-l039` | &emsp;*que hia com feruor, & ſe eſfriou, ou afroxou.* |  |
-| `c2-l040` | Taruqi. *Aguieiros.* |  |
+| `c2-l040` | *T*aruqi. *Aguieiros.* |  |
 | `c2-l041` | Taruqi bana. *Frontaria dos aguieiros que eſtão* |  |
 | `c2-l042` | &emsp;*com as pontas juntas.* |  |
 | `c2-l043` | Taruxen. *Caixas que ſeruem pera ſe darem de* |  |

@@ -33,7 +33,7 @@ Lexical reference consulted after independent scan reading: NINJAL, *Entry Words
 | `c1-l015` | &emsp;*Desbaratar o Reino, & as caſas.* |  |
 | `c1-l016` | Tçuye. *Bordão, ou vara. ¶* Tçuyeuo a- |  |
 | `c1-l017` | &emsp;tçuru. *Dar açoutes, ou pancadas cõ vara, &c.* |  |
-| `c1-l018` | Tçuye, uru, eta. *Eſperdiçarſe, ou gaſtarſe* |  |
+| `c1-l018` | *T*çuye, uru, eta. *Eſperdiçarſe, ou gaſtarſe* |  |
 | `c1-l019` | &emsp;*mal algũa couſa. Vt,* Tacaraga tçuyuru. |  |
 | `c1-l020` | &emsp;*Eſperdiçarſe a fazẽda. ¶* Faremonoga tçu- |  |
 | `c1-l021` | &emsp;yeta. i, Tçubureta. *Arrebentou o leicẽ-* |  |
@@ -110,17 +110,17 @@ Lexical reference consulted after independent scan reading: NINJAL, *Entry Words
 | `c2-l034` | Tçuzzu. *Portos onde ſurgem as embarcações.* |  |
 | `c2-l035` | Tçuzzu. *Numero de 10. ¶* Tçuzzu fatachi. |  |
 | `c2-l036` | &emsp;l, tçuzzu nijǔ. *Vinte annos de idade.* |  |
-| `c2-l037` | Tçuzzumari, u, atta. *Meliùs,* Xijimari, u |  |
+| `c2-l037` | *T*çuzzumari, u, atta. *Meliùs,* Xijimari, u |  |
 | `c2-l038` | &emsp;*Encurtarſe, ou encolherſe.* |  |
 | `c2-l039` | Tçuzzume, uru, eta. *Meliùs,* Xijime, uru. |  |
 | `c2-l040` | &emsp;*Encurtar, ou encolher. ¶* Xotaiuo tçuz- |  |
 | `c2-l041` | &emsp;zumuru. *Diminuir a gente, & os gaſtos* |  |
 | `c2-l042` | &emsp;*da caſa, &c.* |  |
-| `c2-l043` | Tçuzzumi. *Tabaquinho, ou tamboril.* |  |
-| `c2-l044` | Tçuzzumuqi. *Deſafio, peleja, luta, &c. de* |  |
-| `c2-l045` | &emsp;*dous. ¶* Tçuzzumuqini qiriyǒta. *Fe-* |  |
+| `c2-l043` | *T*çuzzumi. *Tabaquinho, ou tamboril.* |  |
+| `c2-l044` | *T*çuzzumuqi. *Deſafio, peleja, luta, &c. de* |  |
+| `c2-l045` | &emsp;*dous. ¶ T*çuzzumuqini qiriyǒta. *Fe-* |  |
 | `c2-l046` | &emsp;*rirãoſe dous q̃ entre ſi ſem mais companhia pe-* |  |
-| `c2-l047` | &emsp;*lejarão como em deſafio. ¶* Tçuzzumuqini |  |
+| `c2-l047` | &emsp;*lejarão como em deſafio. ¶ T*çuzzumuqini |  |
 
 ## Printed catchword
 

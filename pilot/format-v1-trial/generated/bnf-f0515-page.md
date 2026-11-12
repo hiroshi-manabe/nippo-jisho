@@ -14,30 +14,30 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | Toqiua. l, toqiuana. *Couſa q̃ não ſe muda,* |  |
+| `c1-l001` | *T*oqiua. l, toqiuana. *Couſa q̃ não ſe muda,* |  |
 | `c1-l002` | &emsp;*ou ſẽpre eſtà no meſmo ſer. ¶* Toqiua- |  |
 | `c1-l003` | &emsp;na fito. *Homẽ q̃ parece ſẽpre està no meſmo* |  |
 | `c1-l004` | &emsp;*ſer ſem enuelhecer, ou q̃ não faz mudança* |  |
 | `c1-l005` | &emsp;*nos propoſitos, cuſtumes, &c.* |  |
-| `c1-l006` | Toqiua caqiua. *P. Modo de caſas, ou edi-* |  |
+| `c1-l006` | *T*oqiua caqiua. *P. Modo de caſas, ou edi-* |  |
 | `c1-l007` | &emsp;*ficios muito vnidos, & juntos.* |  |
 | `c1-l008` | Toqiuagui. *Aruores que ſempre estão verdes* |  |
 | `c1-l009` | &emsp;*& nunca lhes cae a folha.* |  |
-| `c1-l010` | Toqiyo. *Tempo, ou idade que corre. ¶* To- |  |
+| `c1-l010` | *T*oqiyo. *Tempo, ou idade que corre. ¶* To- |  |
 | `c1-l011` | &emsp;qiyoni xitagǒte. *Conforme ao tempo,* |  |
 | `c1-l012` | &emsp;*ou idade.* |  |
 | `c1-l013` | Toqiyuruxi, ſu, ita. *Deſatar, & ſoltar.* |  |
-| `c1-l014` | Toqizaxi. *O determinar, ou limitar a hora* |  |
-| `c1-l015` | &emsp;*pera algũa couſa. ¶* Toqizaxiuo xite mai- |  |
+| `c1-l014` | *T*oqizaxi. *O determinar, ou limitar a hora* |  |
+| `c1-l015` | &emsp;*pera algũa couſa. ¶ T*oqizaxiuo xite mai- |  |
 | `c1-l016` | &emsp;ru. *Ir determinando a hora, ou tempo.* |  |
 | `c1-l017` | Toqizzuqe. *O eſcreuer a hora como em que ſe* |  |
 | `c1-l018` | &emsp;*manda a carta, ou aconteceo algũa couſa no-* |  |
-| `c1-l019` | &emsp;*tauel. Vt,* Toqizzuqeuo ſuru. |  |
+| `c1-l019` | &emsp;*tauel. Vt, T*oqizzuqeuo ſuru. |  |
 | `c1-l020` | Tǒqua. Momono fana. *Flor de peſegueiro.* |  |
 | `c1-l021` | Tôqua. i, Tomoxibi. *Fogo de candea de* |  |
 | `c1-l022` | &emsp;*azeite.* |  |
 | `c1-l023` | Tora. *Tigre.* |  |
-| `c1-l024` | Tora. *Hum dos animaes, ou ſignos celestes por* |  |
+| `c1-l024` | *T*ora. *Hum dos animaes, ou ſignos celestes por* |  |
 | `c1-l025` | &emsp;*onde os Iapões contão as horas, ou annos.* |  |
 | `c1-l026` | &emsp;*¶* Torano cocu. *As 4. ou 5. horas* |  |
 | `c1-l027` | &emsp;*depois da mea noite.* |  |

@@ -34,7 +34,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l018` | Tôdai. *Candieiro de pee de ferro, ou outro* |  |
 | `c1-l019` | &emsp;*metal. ¶* Caqetôdai. *Candieiro que ſe* |  |
 | `c1-l020` | &emsp;*dependura.* |  |
-| `c1-l021` | Tǒdai. i, Imanoyo. *Esta, ou apreſente idade.* |  |
+| `c1-l021` | *T*ǒdai. i, Imanoyo. *Esta, ou apreſente idade.* |  |
 | `c1-l022` | Todaqe. *Circulo do arco de atirar da parte de* |  |
 | `c1-l023` | &emsp;*fora.* Mayedaqe. *O da parte de dentro.* |  |
 | `c1-l024` | Todaxi, ſu, aita. i, Toriidaſu. *Tirar fora.* |  |
@@ -53,7 +53,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l037` | &emsp;*modo de curar.* |  |
 | `c1-l038` | Todo. *Hum certo animal do mar, que tẽ ca-* |  |
 | `c1-l039` | &emsp;*belo, & quatro pees, &c.* |  |
-| `c1-l040` | Tǒdo. Morocoxi. i, Taitǒ. *China.* |  |
+| `c1-l040` | *T*ǒdo. Morocoxi. i, Taitǒ. *China.* |  |
 | `c1-l041` | Tôdo. i, Xicato. *A ſua vontade, ou deſcã* |  |
 | `c1-l042` | &emsp;*ſadamente. Vt,* Tôdo monouo voqu. |  |
 | `c1-l043` | &emsp;*Por algũa couſa ſeguramente. ¶* Tôdo go- |  |
@@ -82,7 +82,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l008` | &emsp;*¶* Iigaiuo todomaru. *Deixar de ſe matar* |  |
 | `c2-l009` | &emsp;*aßi meſmo.* |  |
 | `c2-l010` | Todome, uru, eta. *Fazer ceſſar, ou deter.* |  |
-| `c2-l011` | &emsp;*¶* Todomeuo ſaſu. *Degolar cortando ſò-* |  |
+| `c2-l011` | &emsp;*¶ T*odomeuo ſaſu. *Degolar cortando ſò-* |  |
 | `c2-l012` | &emsp;*mente aguela, ou todo o peſcoço.* |  |
 | `c2-l013` | Todoqe, uru, eta. *Perſeuerar, ou continuar* |  |
 | `c2-l014` | &emsp;*com algũa couſa. Ajuntaſe às raizes dos ver-* |  |

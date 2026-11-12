@@ -59,7 +59,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l043` | Tobera. *Aruore aßi chamada.* |  |
 | `c1-l044` | Tobet. *Quantidade, ou porção que ſe toma por* |  |
 | `c1-l045` | &emsp;*cada dez medidas que ſe medẽ, ou dão darroz.* |  |
-| `c1-l046` | Tobi. *Minhoto.* |  |
+| `c1-l046` | *T*obi. *Minhoto.* |  |
 | `c1-l047` | Tobi, bu, ôda. *Voar. ¶ Item, Saltar.* |  |
 
 ## Column 2 running header
@@ -88,22 +88,22 @@ The right running header prints ATES without N; this source anomaly is retained.
 | `c2-l012` | Tobicayeri, ru, etta. *Voando tornar. Item,* |  |
 | `c2-l013` | &emsp;*Tornar, & ſaltar pera tras como ſeta que dà* |  |
 | `c2-l014` | &emsp;*nalgũa pedra.* |  |
-| `c2-l015` | Tobichiri, ru, itta. *Voar eſpalhandoſe por di-* |  |
+| `c2-l015` | *T*obichiri, ru, itta. *Voar eſpalhandoſe por di-* |  |
 | `c2-l016` | &emsp;*uerſas partes. ¶ Item, Saltar, ou bulir* |  |
 | `c2-l017` | &emsp;*muito de cà pera là.* |  |
 | `c2-l018` | Tobicoye, uru, eta. *Paſſar de voo, como* |  |
 | `c2-l019` | &emsp;*por cima dalgũs montes, aruores, &c.* |  |
-| `c2-l020` | Tobicudari, ru, atta. *Decer voando, ou* |  |
+| `c2-l020` | *T*obicudari, ru, atta. *Decer voando, ou* |  |
 | `c2-l021` | &emsp;*ſaltando.* |  |
-| `c2-l022` | Tobifaxiri, u, itta. *Correr a toda preßa, ou* |  |
+| `c2-l022` | *T*obifaxiri, u, itta. *Correr a toda preßa, ou* |  |
 | `c2-l023` | &emsp;*ſaltar, & correr.* |  |
-| `c2-l024` | Tobifi. *Faiſca de fogo que ſalta.* |  |
-| `c2-l025` | Tobiiuo. l, tobivuo. *Peixe voador.* |  |
+| `c2-l024` | *T*obifi. *Faiſca de fogo que ſalta.* |  |
+| `c2-l025` | *T*obiiuo. l, tobivuo. *Peixe voador.* |  |
 | `c2-l026` | Tobimeguri, ru, utta. *Andar às voltas* |  |
 | `c2-l027` | &emsp;*voando.* |  |
-| `c2-l028` | Tobimuxi. *Hum bichinho aßi chamado que ſal-* |  |
+| `c2-l028` | *T*obimuxi. *Hum bichinho aßi chamado que ſal-* |  |
 | `c2-l029` | &emsp;*ta como pulga.* |  |
-| `c2-l030` | Tǒbin. *Hũs bules, ou fraſcos de metal que ſer-* |  |
+| `c2-l030` | *T*ǒbin. *Hũs bules, ou fraſcos de metal que ſer-* |  |
 | `c2-l031` | &emsp;*uem de ter agoa quente.* |  |
 | `c2-l032` | Tobinoqi, qu, oita. *Voando, ou ſaltando a-* |  |
 | `c2-l033` | &emsp;*fastarſe.* |  |

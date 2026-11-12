@@ -31,7 +31,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l015` | &emsp;*cebe do ceo.* |  |
 | `c1-l016` | Tenno cô. *Costas da mão.* |  |
 | `c1-l017` | Teno fura. l, *potiùs,* Teno vra. *Palma da mão.* |  |
-| `c1-l018` | Teno giǒ. *Vt,* Teno giǒuo tçucuſu. *Fa* |  |
+| `c1-l018` | *T*eno giǒ. *Vt,* Teno giǒuo tçucuſu. *Fa* |  |
 | `c1-l019` | &emsp;*zer algũa couſa cõ todas as forças, & exacção.* |  |
 | `c1-l020` | Tenogoi. *Toalha de alimpar as mãos, ou o rosto.* |  |
 | `c1-l021` | Teno muxi. *Oução. Poſto que não he palaura* |  |
@@ -48,12 +48,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l032` | &emsp;*centa de mais alem da regra, ou porção ordina-* |  |
 | `c1-l033` | &emsp;*ria na cozinha dos Ienxùs.* |  |
 | `c1-l034` | Tenpi. i, Tenno fi. l, tenqua. *Fogo do ceo.* |  |
-| `c1-l035` | Tenpo. Soye voguinô. *Refazer, & acre-* |  |
+| `c1-l035` | *T*enpo. Soye voguinô. *Refazer, & acre-* |  |
 | `c1-l036` | &emsp;*centar como forças, &c. S.* |  |
 | `c1-l037` | Tenpucu. *Frauta, q̃ tangem os que andão per* |  |
 | `c1-l038` | &emsp;*diuerſas partes pedindo eſmola pollas portas.* |  |
 | `c1-l039` | &emsp;*¶* Tenpucuuo fuqu. *Tanger eſta frauta.* |  |
-| `c1-l040` | Tenqe. Tenno fana. *Roſas, ou fulas que caẽ* |  |
+| `c1-l040` | Tenqe. *T*enno fana. *Roſas, ou fulas que caẽ* |  |
 | `c1-l041` | &emsp;*do ceo, como dizem os Bonzos que cahião quã-* |  |
 | `c1-l042` | &emsp;*do prègaua* Xaca. |  |
 | `c1-l043` | Tenqen. i, Xiruxi, xiruſu. *Eſcreuer, ou a-* |  |
@@ -75,13 +75,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l001` | &emsp;*maneira do tempo como quandoſe diz, faz bõ* |  |
 | `c2-l002` | &emsp;*tempo, ou ruim. ¶* Tenqiga nodoyaca- |  |
 | `c2-l003` | &emsp;na. *Estar o tempo ſereno.* |  |
-| `c2-l004` | Tenqua. Matoi tçutçumu. *O emburulharſe,* |  |
+| `c2-l004` | *T*enqua. Matoi tçutçumu. *O emburulharſe,* |  |
 | `c2-l005` | &emsp;*ou encobrirſe como faz o bicho de ſeda meten-* |  |
 | `c2-l006` | &emsp;*doſe dentro do folhelho.* |  |
-| `c2-l007` | Tenqua. Tenno fi. *Fogo do ceo. ¶* Ten- |  |
+| `c2-l007` | Tenqua. Tenno fi. *Fogo do ceo. ¶ T*en- |  |
 | `c2-l008` | &emsp;qua furicudaru. *Decer fogo do ceo.* |  |
 | `c2-l009` | Tenquafun. *Hũa certa mezinha.* |  |
-| `c2-l010` | Tenquǒ. Tenno ficari. *Claridade do ceo. S.* |  |
+| `c2-l010` | *T*enquǒ. Tenno ficari. *Claridade do ceo. S.* |  |
 | `c2-l011` | Tenrio. Teiuǒno vomonbacari. *Saber, &* |  |
 | `c2-l012` | &emsp;*prudencia do Rey.* |  |
 | `c2-l013` | Tenri. *Ley, ou ordem com que ſe gouerna o* |  |
@@ -90,35 +90,35 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l016` | Tenſai. *Saber do ceo. ¶* Ninchi tenſaini- |  |
 | `c2-l017` | &emsp;mo voyobanu. *Não ſe pode ſaber por ſciẽ-* |  |
 | `c2-l018` | &emsp;*cia humana, nem celestial.* |  |
-| `c2-l019` | Tenſat. *Prohibição, ou mandado por eſcrito a* |  |
+| `c2-l019` | *T*enſat. *Prohibição, ou mandado por eſcrito a* |  |
 | `c2-l020` | &emsp;*cerca das ſearas dos campos, ou varzeas pera* |  |
 | `c2-l021` | &emsp;*que ſe não ſeguem, ou laurem por algũa cauſa.* |  |
-| `c2-l022` | &emsp;*¶* Tenſatuo voroſu. *Por eſta ley, ou pro* |  |
+| `c2-l022` | &emsp;*¶ T*enſatuo voroſu. *Por eſta ley, ou pro* |  |
 | `c2-l023` | &emsp;*hibição eſcrita nalgũa taboa.* |  |
-| `c2-l024` | Tenſô. i, Sômonno yacu. *Officio de dar* |  |
+| `c2-l024` | *T*enſô. i, Sômonno yacu. *Officio de dar* |  |
 | `c2-l025` | &emsp;*recado, ou falar ao Rey.* |  |
-| `c2-l026` | Tenſon. *Palaura que corre na igreja por Deos,* |  |
+| `c2-l026` | *T*enſon. *Palaura que corre na igreja por Deos,* |  |
 | `c2-l027` | &emsp;*ou ſenhor do ceo.* |  |
-| `c2-l028` | Tenſu. *Freſta como trapeira do telhado que ſ* |  |
+| `c2-l028` | *T*enſu. *Freſta como trapeira do telhado que ſ* |  |
 | `c2-l029` | &emsp;*abaixa, & aleuanta.* |  |
-| `c2-l030` | Tenſui. *Agoa, ou chuua do ceo. Mas cõmun-* |  |
+| `c2-l030` | *T*enſui. *Agoa, ou chuua do ceo. Mas cõmun-* |  |
 | `c2-l031` | &emsp;*mente ſe toma per tina, ou balde que poem ſo-* |  |
 | `c2-l032` | &emsp;*bre os telhados, ou noutra parte pera receber* |  |
-| `c2-l033` | &emsp;*agoa da chuua pera contra o fogo. Vt,* Ten- |  |
+| `c2-l033` | &emsp;*agoa da chuua pera contra o fogo. Vt, T*en- |  |
 | `c2-l034` | &emsp;ſuiuo voqu. *Por eſta tina.* |  |
-| `c2-l035` | Tentacu. i, Tenno gotçugue. *Reuelação* |  |
+| `c2-l035` | *T*entacu. i, *T*enno gotçugue. *Reuelação* |  |
 | `c2-l036` | &emsp;*do ceo, ou de Deos. ¶ Item, Influencias* |  |
 | `c2-l037` | &emsp;*do ceo, ou beneficios, & merces que Deos faz.* |  |
-| `c2-l038` | Tentçǔ. i, Tenni tçǔzuru. *Communicarſe* |  |
+| `c2-l038` | *T*entçǔ. i, *T*enni tçǔzuru. *Communicarſe* |  |
 | `c2-l039` | &emsp;*com o ceo, ou chegar tè o ceo. S.* |  |
-| `c2-l040` | Tentei. Tẽno micado. *Rey. ¶ Itẽ, Deos.* |  |
-| `c2-l041` | Tenteqi. *Inimigo de Deos, ou do ceo.* |  |
-| `c2-l042` | Tentǒ. Tenno michi. *Caminho, ou ordẽ,* |  |
+| `c2-l040` | *T*entei. *T*ẽno micado. *Rey. ¶ Itẽ, Deos.* |  |
+| `c2-l041` | *T*enteqi. *Inimigo de Deos, ou do ceo.* |  |
+| `c2-l042` | *T*entǒ. *T*enno michi. *Caminho, ou ordẽ,* |  |
 | `c2-l043` | &emsp;*& prouidencia do ceo. Commummente chama-* |  |
 | `c2-l044` | &emsp;*mos ja a Deos por eſte nome. Poſtoque os ge-* |  |
 | `c2-l045` | &emsp;*tios não parece que atinauão mais que com o* |  |
 | `c2-l046` | &emsp;*primeiro ſentido.* |  |
-| `c2-l047` | Tentocu. l, *potiùs,* Tenno tocu. *Bẽs do ceo.* |  |
+| `c2-l047` | *T*entocu. l, *potiùs, T*enno tocu. *Bẽs do ceo.* |  |
 
 ## Printed page number
 

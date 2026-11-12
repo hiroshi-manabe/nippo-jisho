@@ -14,7 +14,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | Tçuqimairi. *O ir cada mes à* Tera, *ou ermi-* |  |
+| `c1-l001` | Tçuqimairi. *O ir cada mes à T*era, *ou ermi-* |  |
 | `c1-l002` | &emsp;*da dos* Camis, *&c.* |  |
 | `c1-l003` | Tçuguimauaxi, ſu, aita. *Cercar fazendo pa* |  |
 | `c1-l004` | &emsp;*rede, vallado, &c. ao redor. Vt,* Tçuigi |  |
@@ -23,7 +23,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l007` | Tçuqimi. *O ver a lũa por ceremonia, recrea-* |  |
 | `c1-l008` | &emsp;*ção, &c. Vt,* Tçuqimini mairu. *Ir a* |  |
 | `c1-l009` | &emsp;*ver a lũa.* |  |
-| `c1-l010` | Tçuqimǒde. *O ir cada mes à* Tera, *ou diante* |  |
+| `c1-l010` | *T*çuqimǒde. *O ir cada mes à* Tera, *ou diante* |  |
 | `c1-l011` | &emsp;*dalgum* Cami, *ou* Fotoque. |  |
 | `c1-l012` | Tçuqinami. *Continuação de meſes q̃ ſe ſeguẽ hũ* |  |
 | `c1-l013` | &emsp;*a pos outro. Vt,* Tçuqinamino quai. *A-* |  |
@@ -99,7 +99,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l024` | &emsp;*amão.* |  |
 | `c2-l025` | Tçuqiyama. *Monte feito à mão, ou artifi-* |  |
 | `c2-l026` | &emsp;*cioſamente.* |  |
-| `c2-l027` | Tçuqiyo. *Noite de lũa, ou lũar.* |  |
+| `c2-l027` | *T*çuqiyo. *Noite de lũa, ou lũar.* |  |
 | `c2-l028` | Tçuqiyogaraſu. *Coruo q̃ gralhea de noite pel-* |  |
 | `c2-l029` | &emsp;*lo luar.* |  |
 | `c2-l030` | Tçuqiyoxe, ſuru, eta. *Botar pera diãte, ou* |  |
@@ -115,7 +115,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l040` | &emsp;i, Sorazayano nai fito. *Homem apreſſa-* |  |
 | `c2-l041` | &emsp;*do, & ſofrego que não da vagar, nem deſcã-* |  |
 | `c2-l042` | &emsp;*ſo a nada.* |  |
-| `c2-l043` | Tçura. *Cara, ou focinho. Item, Parte, ou* |  |
+| `c2-l043` | *T*çura. *Cara, ou focinho. Item, Parte, ou* |  |
 | `c2-l044` | &emsp;*banda. Vt,* Figaxino, l, nixino tçura. |  |
 | `c2-l045` | &emsp;*Parte do Leſte, ou Oeſte. ¶* Soretçurano |  |
 | `c2-l046` | &emsp;mono. *Couſa deßa laya, teor, ou aparencia.* |  |

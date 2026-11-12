@@ -36,7 +36,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l020` | &emsp;*couſa.* |  |
 | `c1-l021` | Toritçucuroi, ô, ôta. *Concertar, & apare-* |  |
 | `c1-l022` | &emsp;*lhar bem, & polidamente quer ſeja vestido,* |  |
-| `c1-l023` | &emsp;*quer Zaxiqu, &c. ¶* Toritçucurôta fu- |  |
+| `c1-l023` | &emsp;*quer Zaxiqu, &c. ¶ T*oritçucurôta fu- |  |
 | `c1-l024` | &emsp;rumai. *Conuite bem concertado, & apa-* |  |
 | `c1-l025` | &emsp;*relhado.* |  |
 | `c1-l026` | Toritçugui, gu, ida. *Ser medianeiro, ou dar* |  |
@@ -54,7 +54,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l038` | Toritçuqe, uru, eta. *Tomando pegar, ou acre-* |  |
 | `c1-l039` | &emsp;*centar. ¶* Toritçuqe, fittçuqe monouo |  |
 | `c1-l040` | &emsp;yǔ. *Falar acrecentando de cà, & de là.* |  |
-| `c1-l041` | Toritçuqi, u, uita. *Afferrar, ou apegarſe* |  |
+| `c1-l041` | *T*oritçuqi, u, uita. *Afferrar, ou apegarſe* |  |
 | `c1-l042` | &emsp;*dalgũa couſa. Vt,* Fitono teni toritçuqu. |  |
 | `c1-l043` | &emsp;*Pegar, ou afferrar da mão dalguem. ¶* Tẽ- |  |
 | `c1-l044` | &emsp;guga fitoni toritçuqu. *Entrar o diabo em* |  |
@@ -83,23 +83,23 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l003` | &emsp;*latar o arrayal. ¶ Item, Socorrer a alguẽ* |  |
 | `c2-l004` | &emsp;*em algũa falta, ou neceßidade como de dinhei-* |  |
 | `c2-l005` | &emsp;*ro, arroz, &c.* |  |
-| `c2-l006` | Toritçuzzuqi, u, ita. *Continuar ſem en-* |  |
+| `c2-l006` | *T*oritçuzzuqi, u, ita. *Continuar ſem en-* |  |
 | `c2-l007` | &emsp;*teruallo.* |  |
 | `c2-l008` | Tǒriten. *Nome de hum ceo.* |  |
 | `c2-l009` | Toritome, uru, eta. *Deter a alguem pegando* |  |
 | `c2-l010` | &emsp;*delle. ¶* Toritomete monouo ſuru. *Fa-* |  |
 | `c2-l011` | &emsp;*zer algũa couſa com diligencia, & cuidado.* |  |
 | `c2-l012` | Tori tori. *O que caça, ou toma paßaros.* |  |
-| `c2-l013` | Tori torimochi. *Viſco pera tomar paßaros.* |  |
+| `c2-l013` | *T*ori torimochi. *Viſco pera tomar paßaros.* |  |
 | `c2-l014` | Toritouonoqi, u, oita. *Alongarſe, ou a-* |  |
 | `c2-l015` | &emsp;*fastarſe longe.* |  |
-| `c2-l016` | Tôriǔ. *Detença. Vt,* Tôriǔ ſuru. *Deter-* |  |
+| `c2-l016` | *T*ôriǔ. *Detença. Vt,* Tôriǔ ſuru. *Deter-* |  |
 | `c2-l017` | &emsp;*ſe, ou fazer detença.* |  |
 | `c2-l018` | Tǒriǔ. *Eſta arte, ou doutrina, ou ley que a-* |  |
 | `c2-l019` | &emsp;*gora corre.* |  |
 | `c2-l020` | Torivaqe. l, toriuaqi. *Aduerb. Particu-* |  |
 | `c2-l021` | &emsp;*larmente.* |  |
-| `c2-l022` | Torivaqe, quru, eta. *Tomar a metade dal-* |  |
+| `c2-l022` | *T*orivaqe, quru, eta. *Tomar a metade dal-* |  |
 | `c2-l023` | &emsp;*gũa couſa, ou partir pollo meo.* |  |
 | `c2-l024` | Torivatari, ru, atta. *Paſar o mar, ou rio* |  |
 | `c2-l025` | &emsp;*muita gente.* |  |

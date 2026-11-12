@@ -32,7 +32,7 @@ Lexical reference: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and 
 | `c1-l014` | &emsp;*brigo nem peßoa de quem ſe valha. ¶* Ta- |  |
 | `c1-l015` | &emsp;yorinǒ vomô. *Eſtar aßi deſemparado, ou* |  |
 | `c1-l016` | &emsp;*ſem abrigo.* |  |
-| `c1-l017` | Tayotayoto. *Adu. Modo de eſtar a couſa* |  |
+| `c1-l017` | *T*ayotayoto. *Adu. Modo de eſtar a couſa* |  |
 | `c1-l018` | &emsp;*branda, meneauel, & fraca, &c. ¶* Co- |  |
 | `c1-l019` | &emsp;coro tayotayoto naru. *O coração vai en-* |  |
 | `c1-l020` | &emsp;*fraquecendo.* |  |
@@ -47,22 +47,22 @@ Lexical reference: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and 
 | `c1-l029` | &emsp;*fio que estaua teſo.* |  |
 | `c1-l030` | Tayutai, ǒ. P. *Andar ſobre as ondas co-* |  |
 | `c1-l031` | &emsp;*mo balanceando. Vt,* Namini tayutǒ. |  |
-| `c1-l032` | Tazai. Tano tacara. *Fazenda, ou riquezas* |  |
+| `c1-l032` | *T*azai. *T*ano tacara. *Fazenda, ou riquezas* |  |
 | `c1-l033` | &emsp;*alheas.* |  |
-| `c1-l034` | Tazzu. *Hũa aruore aßi chamada.* |  |
-| `c1-l035` | Tazzu. P. i, Tçuru. *Grou.* |  |
+| `c1-l034` | *T*azzu. *Hũa aruore aßi chamada.* |  |
+| `c1-l035` | *T*azzu. P. i, *T*çuru. *Grou.* |  |
 | `c1-l036` | Tazzugaſa. *Hũa certa ſarna.* |  |
-| `c1-l037` | Tazzuna. *Redeas do caualo. ¶* Tazzuna- |  |
-| `c1-l038` | &emsp;uo yuruſu. *Largar as redeas. ¶* Taz- |  |
+| `c1-l037` | *T*azzuna. *Redeas do caualo. ¶ T*azzuna- |  |
+| `c1-l038` | &emsp;uo yuruſu. *Largar as redeas. ¶ T*az- |  |
 | `c1-l039` | &emsp;zunauo ficayuru. *Puxar pollas redeas.* |  |
 | `c1-l040` | &emsp;*¶* Tazzunauo caicuru. *Emburulhar as re-* |  |
-| `c1-l041` | &emsp;*deas na mão. ¶ Item,* Tazzuna. i, Xi- |  |
+| `c1-l041` | &emsp;*deas na mão. ¶ Item, T*azzuna. i, Xi- |  |
 | `c1-l042` | &emsp;tavobi. *Encacho.* |  |
-| `c1-l043` | Tazzune, uru, eta. *Buſcar. ¶ Item,* |  |
+| `c1-l043` | *T*azzune, uru, eta. *Buſcar. ¶ Item,* |  |
 | `c1-l044` | &emsp;*Perguntar.* |  |
 | `c1-l045` | Tazzuneai, ǒ, ǒta. *Buſcando encontrarſe cõ* |  |
 | `c1-l046` | &emsp;*alguem, ou achar a peßoa que ſe buſca.* |  |
-| `c1-l047` | Tazzunecaqe, uru. *Começar aperguntar.* |  |
+| `c1-l047` | *T*azzunecaqe, uru. *Começar aperguntar.* |  |
 
 ## Column 2 running header
 
@@ -81,7 +81,7 @@ Lexical reference: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c2-l001` | &emsp;*¶ Item, Perguntar como inquirindo.* |  |
-| `c2-l002` | Tazzunedaxi, ſu, aita. *Buſcando deſcobrir* |  |
+| `c2-l002` | *T*azzunedaxi, ſu, aita. *Buſcando deſcobrir* |  |
 | `c2-l003` | &emsp;*a couſa, ou dar com ella, ou achalla.* |  |
 | `c2-l004` | Tazzuneidaxi, ſu, aita. *Idem.* |  |
 | `c2-l005` | Tazzune motome, uru, eta. *Buſcando alcã-* |  |
@@ -90,13 +90,13 @@ Lexical reference: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and 
 | `c2-l008` | &emsp;*quirir miudamente.* |  |
 | `c2-l009` | Tazzunevabi, uru, ita. *Buſcar, ou inquirir* |  |
 | `c2-l010` | &emsp;*com difficuldade, ou trabalho.* |  |
-| `c2-l011` | Tazzùra. *P.* i, Ta. *Varzea.* |  |
-| `c2-l012` | Tazzuſauari, ru, atta. *Occuparſe, ou emba-* |  |
+| `c2-l011` | *T*azzùra. *P.* i, *T*a. *Varzea.* |  |
+| `c2-l012` | *T*azzuſauari, ru, atta. *Occuparſe, ou emba-* |  |
 | `c2-l013` | &emsp;*raçarſe em algũa couſa. Vt,* Gacumonni |  |
 | `c2-l014` | &emsp;tazzuſauaru. *Occuparſe em estudar.* |  |
 | `c2-l015` | &emsp;*¶* Qiǔxenni tazzuſauaru. *Andar metido, ou* |  |
 | `c2-l016` | &emsp;*occupado em guerras, ou acuſtumarſe às armas.* |  |
-| `c2-l017` | Tazzuſaye, uru, eta. *Trazer algũa couſa cõſi-* |  |
+| `c2-l017` | *T*azzuſaye, uru, eta. *Trazer algũa couſa cõſi-* |  |
 | `c2-l018` | &emsp;*go. ¶* Fiôguuo tazzuſayuru. *Trazer armas.* |  |
 
 ## Column 2 internal heading

@@ -18,7 +18,7 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | --- | --- | --- |
 | `c1-l001` | Taſo. *Quem, ou quem he? quem eſtà ahi.* |  |
 | `c1-l002` | Taſocare doqi. *Entre luſco, & fuſco da noite.* |  |
-| `c1-l003` | Taſucari. *Saluação.* |  |
+| `c1-l003` | *T*aſucari. *Saluação.* |  |
 | `c1-l004` | Taſucari, ru, atta. *Saluarſe, ou eſcapar.* |  |
 | `c1-l005` | &emsp;*Vt,* goxǒuo taſucaru. *Saluarſe na outra* |  |
 | `c1-l006` | &emsp;*vida. ¶* Nanguiuo taſucaru. *Eſcapar* |  |
@@ -31,10 +31,10 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c1-l013` | &emsp;no tçuuamono. *Soldados de ſocorro.* |  |
 | `c1-l014` | Taſuqi. *Fita, ou corda com que atão as mãgas* |  |
 | `c1-l015` | &emsp;*arregaçandoas pera trabalhar.* |  |
-| `c1-l016` | Taſuqe bune. *Embarcação em que ſe alguem* |  |
+| `c1-l016` | *T*aſuqe bune. *Embarcação em que ſe alguem* |  |
 | `c1-l017` | &emsp;*ſalua do naufragio.* |  |
-| `c1-l018` | Taſuqete. *Saluador, ou liurador.* |  |
-| `c1-l019` | Tatacai, ǒ, ǒta. *Pelejar, ou contender.* |  |
+| `c1-l018` | *T*aſuqete. *Saluador, ou liurador.* |  |
+| `c1-l019` | *T*atacai, ǒ, ǒta. *Pelejar, ou contender.* |  |
 | `c1-l020` | Tatacai. *Peleja, contenda, ou batalha.* |  |
 | `c1-l021` | Tatacai cutabire, uru, eta. *Canſar de pelejar.* |  |
 | `c1-l022` | Tatacai maqe, uru, eta. *Ser vencido na pe-* |  |
@@ -81,7 +81,7 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c2-l001` | &emsp;*ca ſobre que poem, & fazem Tatamis.* |  |
-| `c2-l002` | Tatamiya. *Caſa onde fazem, ou vendem Ta-* |  |
+| `c2-l002` | *T*atamiya. *Caſa onde fazem, ou vendem Ta-* |  |
 | `c2-l003` | &emsp;*tamis, ou o q̃ osfaz.* |  |
 | `c2-l004` | Tatan. l, Tatanna. Vouoi. *Muitos em* |  |
 | `c2-l005` | &emsp;*quantidade.* |  |
@@ -111,7 +111,7 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c2-l029` | &emsp;uo tatayuru. *Encher de agoa atè tresbordar.* |  |
 | `c2-l030` | &emsp;*¶* Vtçuuamononi ſaqeuo tatayuru. *En-* |  |
 | `c2-l031` | &emsp;*cher o vaſo de vinho atè treſbordar.* |  |
-| `c2-l032` | Tatazumai. *Estado, ou modo de viuer, &* |  |
+| `c2-l032` | *T*atazumai. *Estado, ou modo de viuer, &* |  |
 | `c2-l033` | &emsp;*paßar a vida. Vt,* Miyacono tatazumai- |  |
 | `c2-l034` | &emsp;ga narumai. *O estado, ou modo de viuer no* |  |
 | `c2-l035` | &emsp;*Miyaco não poderà ſer. ¶* Iyeno tatazu- |  |
@@ -121,7 +121,7 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c2-l039` | &emsp;*indeterminado ſem fazer nada, &c.* |  |
 | `c2-l040` | Tatazumi aruqi, qu, uita. *Andar por va-* |  |
 | `c2-l041` | &emsp;*rias partes como indeterminado, & ſuſpenſo.* |  |
-| `c2-l042` | Tatchǔ. *Ermidas, ou cellas de cada Bonzo* |  |
+| `c2-l042` | *T*atchǔ. *Ermidas, ou cellas de cada Bonzo* |  |
 | `c2-l043` | &emsp;*que estão dentro do circuito dalgũa Tera prin-* |  |
 | `c2-l044` | &emsp;*cipal.* |  |
 | `c2-l045` | Tatçu. *Lagarto.* |  |

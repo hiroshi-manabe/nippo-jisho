@@ -16,53 +16,53 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | Ten-v. Tenno vôzora. *Ceo.* |  |
-| `c1-l002` | Ten-vn. i, Tenno facarai. *Prouidencia di-* |  |
+| `c1-l001` | *T*en-v. *T*enno vôzora. *Ceo.* |  |
+| `c1-l002` | *T*en-vn. i, *T*enno facarai. *Prouidencia di-* |  |
 | `c1-l003` | &emsp;*uina, ou do ceo.* |  |
-| `c1-l004` | Ten-von. Tenno von. *Beneficios do ceo, ou* |  |
+| `c1-l004` | *T*en-von. *T*enno von. *Beneficios do ceo, ou* |  |
 | `c1-l005` | &emsp;*de Deos.* |  |
-| `c1-l006` | Tenurui. *Homem frio em ſuas obras, ou tar-* |  |
+| `c1-l006` | *T*enurui. *Homem frio em ſuas obras, ou tar-* |  |
 | `c1-l007` | &emsp;*dio de mãos. ¶ Item, Homem hum pouco* |  |
 | `c1-l008` | &emsp;*molle, & vagaroso.* |  |
-| `c1-l009` | Tenxei. i, Tẽnẽ. *Naturalmente, ou natureza.* |  |
-| `c1-l010` | Tenxi. i, Teiuǒ. *Rey. Vt,* Tenxi xǒgunno |  |
+| `c1-l009` | *T*enxei. i, *T*ẽnẽ. *Naturalmente, ou natureza.* |  |
+| `c1-l010` | Tenxi. i, *T*eiuǒ. *Rey. Vt,* Tenxi xǒgunno |  |
 | `c1-l011` | &emsp;cǒqetotemo xǒjiuo manucare yezu. *A-* |  |
 | `c1-l012` | &emsp;*inda que ſeja Rey, capitão, ou nobre não pode* |  |
 | `c1-l013` | &emsp;*eſcapar de nacer, & morrer.* |  |
-| `c1-l014` | Tenxin. *Coração, ou vontade del Rey, ou* |  |
+| `c1-l014` | *T*enxin. *Coração, ou vontade del Rey, ou* |  |
 | `c1-l015` | &emsp;*de Deos.* |  |
-| `c1-l016` | Tenxin. Tenno macoto. *Verdade diuina.* |  |
-| `c1-l017` | Tenxocu. Tẽno xocubut. *Comer, ou manjar* |  |
+| `c1-l016` | *T*enxin. *T*enno macoto. *Verdade diuina.* |  |
+| `c1-l017` | *T*enxocu. *T*ẽno xocubut. *Comer, ou manjar* |  |
 | `c1-l018` | &emsp;*celeſtial.* |  |
-| `c1-l019` | Ten xu. Tenno nuxi. *Senhor do ceo. Pala-* |  |
+| `c1-l019` | *T*en xu. Tenno nuxi. *Senhor do ceo. Pala-* |  |
 | `c1-l020` | &emsp;*ura dos liuros da igreja.* |  |
-| `c1-l021` | Tenxu. *Torre de muitos ſobrados que ſe faz de* |  |
+| `c1-l021` | *T*enxu. *Torre de muitos ſobrados que ſe faz de* |  |
 | `c1-l022` | &emsp;*madeira em Iapão nas fortalezas.* |  |
-| `c1-l023` | Tenya. *Tenda, ou botica ondeſe vendem di-* |  |
+| `c1-l023` | *T*enya. *Tenda, ou botica ondeſe vendem di-* |  |
 | `c1-l024` | &emsp;*uerſas couſas.* |  |
-| `c1-l025` | Tenyacu. *Encargo, ou obrigação que poem o* |  |
-| `c1-l026` | &emsp;*ſenhor a todos de fazerẽ algũa obra. ¶* Tẽ- |  |
+| `c1-l025` | *T*enyacu. *Encargo, ou obrigação que poem o* |  |
+| `c1-l026` | &emsp;*ſenhor a todos de fazerẽ algũa obra. ¶ T*ẽ- |  |
 | `c1-l027` | &emsp;ya uuo atçuru. l, caquru. *Por o ſenhor* |  |
 | `c1-l028` | &emsp;*eſta obrigação, ou encargo em commum.* |  |
-| `c1-l029` | Tenyacu. *Fiſicos principaes del Rey.* |  |
-| `c1-l030` | Tenyacu. *Promeſſa celestial, ou de Deos.* |  |
-| `c1-l031` | Tenye. Tenno ixǒ. *Veſtido celeſtial, ou de* |  |
+| `c1-l029` | *T*enyacu. *Fiſicos principaes del Rey.* |  |
+| `c1-l030` | *T*enyacu. *Promeſſa celestial, ou de Deos.* |  |
+| `c1-l031` | *T*enye. *T*enno ixǒ. *Veſtido celeſtial, ou de* |  |
 | `c1-l032` | &emsp;*Anjo.* |  |
-| `c1-l033` | Tenzo. *Certo officio, ou cargo entre os Ienxùs* |  |
+| `c1-l033` | *T*enzo. *Certo officio, ou cargo entre os Ienxùs* |  |
 | `c1-l034` | &emsp;*co no official, ou prefeito da cuzinha.* |  |
-| `c1-l035` | Tenzui. *Sinal, ou prenoſtico do ceo.* |  |
-| `c1-l036` | Teppan. *Laminas de ferro. S.* |  |
-| `c1-l037` | Teppeqi. Curoganeno cabe. *Parede de fer-* |  |
+| `c1-l035` | *T*enzui. *Sinal, ou prenoſtico do ceo.* |  |
+| `c1-l036` | *T*eppan. *Laminas de ferro. S.* |  |
+| `c1-l037` | *T*eppeqi. Curoganeno cabe. *Parede de fer-* |  |
 | `c1-l038` | &emsp;*ro. ¶* Guinzan teppeqi. *Montes de* |  |
 | `c1-l039` | &emsp;*prata, & paredes de ferro.* |  |
-| `c1-l040` | Teppô. *Eſpingarda.* |  |
-| `c1-l041` | Teppôno dai. *Coronha da eſpingarda.* |  |
-| `c1-l042` | Teppôzucume. *O por cõ a eſpingardaria em* |  |
+| `c1-l040` | *T*eppô. *Eſpingarda.* |  |
+| `c1-l041` | *T*eppôno dai. *Coronha da eſpingarda.* |  |
+| `c1-l042` | *T*eppôzucume. *O por cõ a eſpingardaria em* |  |
 | `c1-l043` | &emsp;*aperto a alguem.* |  |
-| `c1-l044` | Teqi. Cataqi. *Inimigo. ¶* Teqiuo ſuru. |  |
+| `c1-l044` | *T*eqi. Cataqi. *Inimigo. ¶ T*eqiuo ſuru. |  |
 | `c1-l045` | &emsp;l, naſu. *Fazerſe inimigo.* |  |
 | `c1-l046` | Teqian. Cataqi cangayuru. *Inuenção, ou* |  |
-| `c1-l047` | &emsp;*ardil dos inimigos. Vt,* Teqianni iru. *Cair* |  |
+| `c1-l047` | &emsp;*ardil dos inimigos. Vt, T*eqianni iru. *Cair* |  |
 
 ## Column 2 running header
 
@@ -86,11 +86,11 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c2-l010` | &emsp;*Noſſo ſenhor, ou os Chriſtãos dos Apoſtoles.* |  |
 | `c2-l011` | Teqifǒ. Teqino cata. *Parte, ou banda dos* |  |
 | `c2-l012` | &emsp;*inimigos.* |  |
-| `c2-l013` | Teqigata. *Peſoa da bãda dos inimigos. ¶* Te- |  |
+| `c2-l013` | *T*eqigata. *Peſoa da bãda dos inimigos. ¶* Te- |  |
 | `c2-l014` | &emsp;qigatauo ſuru. l, teqigatani naru. *Fa-* |  |
 | `c2-l015` | &emsp;*zerſe, ou ſer da parte dos inimigos.* |  |
-| `c2-l016` | Teqigin. *Arrayal dos inimigos.* |  |
-| `c2-l017` | Teqigun. *Exercito dos inimigos.* |  |
+| `c2-l016` | *T*eqigin. *Arrayal dos inimigos.* |  |
+| `c2-l017` | *T*eqigun. *Exercito dos inimigos.* |  |
 | `c2-l018` | Teqijin. l, teqinin. *Inimigo.* |  |
 | `c2-l019` | Teqijǒ. *Fortaleza dos inimigos.* |  |
 | `c2-l020` | Teqimen. *Em preſença, ou diante dos olhos.* |  |

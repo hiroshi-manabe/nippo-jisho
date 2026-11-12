@@ -19,13 +19,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l003` | Torimaguiracaxi, ſu, ita. *Emburulhar, ou* |  |
 | `c1-l004` | &emsp;*miſturar hũa couſa com outra demaneira que ſe* |  |
 | `c1-l005` | &emsp;*não distingua.* |  |
-| `c1-l006` | Torimaguire, ru, eta. *Eſtar muito occupa-* |  |
+| `c1-l006` | *T*orimaguire, ru, eta. *Eſtar muito occupa-* |  |
 | `c1-l007` | &emsp;*do, ou depreßa, & embaraçado com diuerſas* |  |
 | `c1-l008` | &emsp;*couſas.* |  |
-| `c1-l009` | Torimajiye, ru, eta. *Miſturar com as mãos.* |  |
+| `c1-l009` | *T*orimajiye, ru, eta. *Miſturar com as mãos.* |  |
 | `c1-l010` | Torimaqi, u, ita. *Cercar com gente. Vt,* |  |
 | `c1-l011` | &emsp;Xirouo torimaqu. *Cercar a fortaleza.* |  |
-| `c1-l012` | Torimauaxi, ſu, ita. *Idem.* |  |
+| `c1-l012` | *T*orimauaxi, ſu, ita. *Idem.* |  |
 | `c1-l013` | Torimauaxi. *Meneo de algũa couſa. ¶* Ca- |  |
 | `c1-l014` | &emsp;no fitono torimauaxiga fayai, l, voſoi. |  |
 | `c1-l015` | &emsp;*Aquelle homem he diligente, & expedito no* |  |
@@ -112,7 +112,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l038` | Toriqirameqi, u, eita. *Idem.* |  |
 | `c2-l039` | Toriqixe, ru, eta. *Tomando algũa couſa de mais* |  |
 | `c2-l040` | &emsp;*veſtila, ou cubrir com ella a outro.* |  |
-| `c2-l041` | Toriſata. *Pratica que corre. ¶* Toriſata |  |
+| `c2-l041` | *T*oriſata. *Pratica que corre. ¶* Toriſata |  |
 | `c2-l042` | &emsp;ſuru. *Falar, ou tratar das couſas que cor-* |  |
 | `c2-l043` | &emsp;*rem, &c.* |  |
 | `c2-l044` | Toriſaxi. *Oque toma paſſaros com cana enuis-* |  |

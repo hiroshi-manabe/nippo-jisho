@@ -18,10 +18,10 @@ Lexical aid: [NINJAL, Entry Words Data of Nippojisho, version 202510](https://ww
 | --- | --- | --- |
 | `c1-l001` | Teifat. Cami ſoru. *O rapar a cabeça.* |  |
 | `c1-l002` | Teifei. *Soldado forte, & robuſto.* |  |
-| `c1-l003` | Teiguet. i, Tçumogori. *O derradeiro dia* |  |
+| `c1-l003` | *T*eiguet. i, Tçumogori. *O derradeiro dia* |  |
 | `c1-l004` | &emsp;*do mes.* |  |
-| `c1-l005` | Teiguiô. *Couſas, que o Reyfaz, ou ordena.* |  |
-| `c1-l006` | Teigi. Fiſſague motçu. *Ter algũa couſa de-* |  |
+| `c1-l005` | *T*eiguiô. *Couſas, que o Reyfaz, ou ordena.* |  |
+| `c1-l006` | *T*eigi. Fiſſague motçu. *Ter algũa couſa de-* |  |
 | `c1-l007` | &emsp;*pendurada na mão. S.* |  |
 | `c1-l008` | Teigio. Tadaxij vonna. *Boa, & caſta molher.* |  |
 | `c1-l009` | Teigiǔ. *Reuerencia, & agaſalhado. Vt,* |  |
@@ -59,7 +59,7 @@ Lexical aid: [NINJAL, Entry Words Data of Nippojisho, version 202510](https://ww
 | `c1-l041` | Teixei. i, Teiuǒno miyaco. *Corte del Rey, ou* |  |
 | `c1-l042` | &emsp;*cidade principal onde reſide o Rey.* |  |
 | `c1-l043` | Teixei. Naqu coye. *Voz choroſa. S.* |  |
-| `c1-l044` | Teixin. Taxicana xinca. *Criado leal do Rey,* |  |
+| `c1-l044` | *T*eixin. *T*axicana xinca. *Criado leal do Rey,* |  |
 | `c1-l045` | &emsp;*ou doutro ſenhor.* |  |
 | `c1-l046` | Teixin. Micado, xinca. *Rey, & vaſallo.* |  |
 | `c1-l047` | Teixin. Tadaxij cocoro. *Fidelidade. ¶ Itẽ,* |  |
@@ -95,31 +95,31 @@ Lexical aid: [NINJAL, Entry Words Data of Nippojisho, version 202510](https://ww
 | `c2-l019` | Temareô. l, Temariô. *Idem.* |  |
 | `c2-l020` | Temari. *Pela que ſe joga com a mão. ¶* Te- |  |
 | `c2-l021` | &emsp;mariuo tçuqu. *Iugar à pela com a mão.* |  |
-| `c2-l022` | Temariqua. *Hũa roſa, ou fula branca.* |  |
-| `c2-l023` | Temaſari. l, temaſarina. i, Temaxi. *Vide* |  |
+| `c2-l022` | *T*emariqua. *Hũa roſa, ou fula branca.* |  |
+| `c2-l023` | *T*emaſari. l, temaſarina. i, *T*emaxi. *Vide* |  |
 | `c2-l024` | &emsp;*infrà.* |  |
-| `c2-l025` | Tematai. *Homem ſimples, & recto.* |  |
+| `c2-l025` | *T*ematai. *Homem ſimples, & recto.* |  |
 | `c2-l026` | &emsp;Temataſa. |  |
-| `c2-l027` | &emsp;Tematǒ. |  |
-| `c2-l028` | Temaxi. l, temaxina. l, temaſarina. *Peßoa* |  |
-| `c2-l029` | &emsp;*que excede a outro em obras de mãos.* Teuo- |  |
+| `c2-l027` | &emsp;*T*ematǒ. |  |
+| `c2-l028` | *T*emaxi. l, temaxina. l, temaſarina. *Peßoa* |  |
+| `c2-l029` | &emsp;*que excede a outro em obras de mãos. T*euo- |  |
 | `c2-l030` | &emsp;tori. *He o contrario.* |  |
-| `c2-l031` | Temaye. *Couſa que toca, ou pertence a alguẽ,* |  |
+| `c2-l031` | *T*emaye. *Couſa que toca, ou pertence a alguẽ,* |  |
 | `c2-l032` | &emsp;*ou obra que hum faz. ¶* Sonatano tema- |  |
 | `c2-l033` | &emsp;yegia. *A vos pertence eſta obra, ou eſta he a* |  |
 | `c2-l034` | &emsp;*voſſa vez. ¶* Temaye iſogaxij. *Eſtar* |  |
 | `c2-l035` | &emsp;*ocupado com algũa couſa, ou obra propria.* |  |
-| `c2-l036` | &emsp;*¶* Temayega naranu. *Não ter poße pe-* |  |
-| `c2-l037` | &emsp;*ra algũa couſa. ¶* Temaye docu. *Obra,* |  |
+| `c2-l036` | &emsp;*¶ T*emayega naranu. *Não ter poße pe-* |  |
+| `c2-l037` | &emsp;*ra algũa couſa. ¶ T*emaye docu. *Obra,* |  |
 | `c2-l038` | &emsp;*ou empreitada que hum toma à ſua conta a qual* |  |
 | `c2-l039` | &emsp;*pode acabar quando quiſer ſem ter deuer mais* |  |
-| `c2-l040` | &emsp;*com nada. ¶* Temayeni canega nai fo- |  |
+| `c2-l040` | &emsp;*com nada. ¶ T*emayeni canega nai fo- |  |
 | `c2-l041` | &emsp;doni caſaxerarei. *Porque não tenho agora* |  |
 | `c2-l042` | &emsp;*prata empreſtaime.* |  |
-| `c2-l043` | Temayedocu. *Vide,* Temaye. |  |
+| `c2-l043` | *T*emayedocu. *Vide, T*emaye. |  |
 | `c2-l044` | Temochi. *Modo, ou geito de ter, ou tomar* |  |
 | `c2-l045` | &emsp;*algũa couſa nas mãos como pena, abano, &c.* |  |
-| `c2-l046` | &emsp;*¶* Temochiga yoi, l, varui. *Bom, ou ru-* |  |
+| `c2-l046` | &emsp;*¶ T*emochiga yoi, l, varui. *Bom, ou ru-* |  |
 | `c2-l047` | &emsp;*im geito de tomar: ou ter na mão algũa couſa.* |  |
 
 ## Printed catchword

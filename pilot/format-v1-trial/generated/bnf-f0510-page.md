@@ -42,7 +42,7 @@ Lexical coverage was checked after independent scan reading against Entry Words 
 | `c1-l024` | &emsp;*Encadernar, ou coſer ajuntando. Vt,* Qiǒ- |  |
 | `c1-l025` | &emsp;uo tozzuru. *¶* Côrini togiraruru. *Eſ-* |  |
 | `c1-l026` | &emsp;*tar enregelado, & como tolheito com frio.* |  |
-| `c1-l027` | Togiai, ǒ, ǒta. *Fecharſe, ou pegarſe hũa cou-* |  |
+| `c1-l027` | *T*ogiai, ǒ, ǒta. *Fecharſe, ou pegarſe hũa cou-* |  |
 | `c1-l028` | &emsp;*ſa molle com outra. Vt,* Mega togiyǒta. |  |
 | `c1-l029` | &emsp;*Fecharamſe os olhos pegandoſe hũa peſtana, ou* |  |
 | `c1-l030` | &emsp;*capela do olho na outra.* |  |
@@ -94,12 +94,12 @@ Lexical coverage was checked after independent scan reading against Entry Words 
 | `c2-l018` | Toicaqe, ru, eta. *Perguntar a alguem.* |  |
 | `c2-l019` | Toicauaxi, ſu, ita. *Perguntar entreſi hum a* |  |
 | `c2-l020` | &emsp;*outro como eſtà, &c.* |  |
-| `c2-l021` | Toicotaye, uru, eta. *Pergũtar, & reſpõder.* |  |
+| `c2-l021` | *T*oicotaye, uru, eta. *Pergũtar, & reſpõder.* |  |
 | `c2-l022` | Tǒin. Taitǒno coye. *Voz, ou ſonjonete* |  |
 | `c2-l023` | &emsp;*pro prio da Chinu.* |  |
-| `c2-l024` | Toiqi. *Suſpiros. ¶* Toiqiuo tçuqu. *Dar* |  |
+| `c2-l024` | *T*oiqi. *Suſpiros. ¶ T*oiqiuo tçuqu. *Dar* |  |
 | `c2-l025` | &emsp;*ſuſpiros.* |  |
-| `c2-l026` | Toitomurai, ǒ, ǒta. *Viſitar a alguem, ou* |  |
+| `c2-l026` | *T*oitomurai, ǒ, ǒta. *Viſitar a alguem, ou* |  |
 | `c2-l027` | &emsp;*mãdalo viſitar por doẽte, ou por outro reſpeito.* |  |
 | `c2-l028` | Tojacu. i, Caqitçubata. *Lirio.* |  |
 | `c2-l029` | Tôjacu. l, tôxacu. *Pardaes que eſtão pele-* |  |
@@ -108,13 +108,13 @@ Lexical coverage was checked after independent scan reading against Entry Words 
 | `c2-l032` | &emsp;*jando não tem medo da gente.* |  |
 | `c2-l033` | Tǒjen. Xenni ataru. i, *Valer por mil ¶* Ichi- |  |
 | `c2-l034` | &emsp;nin tǒjenno mononari. *Hum tem pormil.* |  |
-| `c2-l035` | Tojen. l, tojenna. *O eſtar ſò, & ſolitario.* |  |
+| `c2-l035` | *T*ojen. l, tojenna. *O eſtar ſò, & ſolitario.* |  |
 | `c2-l036` | &emsp;*¶* Tojenna tei. *Solidão, ou maneira de* |  |
 | `c2-l037` | &emsp;*eſtar ſolitario. ¶ Item, permet.* Tojena. |  |
 | `c2-l038` | &emsp;*Ter fome.* |  |
 | `c2-l039` | &emsp;Tojenni. |  |
-| `c2-l040` | &emsp;Tojenſa. |  |
-| `c2-l041` | Tôjen. Toboxibino maye. *Diante, ou jum* |  |
+| `c2-l040` | &emsp;*T*ojenſa. |  |
+| `c2-l041` | Tôjen. *T*oboxibino maye. *Diante, ou jum* |  |
 | `c2-l042` | &emsp;*to da candea aceſa.* |  |
 | `c2-l043` | Tôjen. *Vt,* Fuppô tôjen. *O dilatarſe a ley,* |  |
 | `c2-l044` | &emsp;*ou doutrina de* Xaca *pera a parte de Oriente* |  |

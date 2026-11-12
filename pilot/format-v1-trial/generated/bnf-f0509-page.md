@@ -29,7 +29,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l013` | Tofi. Qiǒ, inaca. *Corte, aldea.* |  |
 | `c1-l014` | Tǒfit. Tǒno fude. *Pintura, ou eſcritura da* |  |
 | `c1-l015` | &emsp;*China.* |  |
-| `c1-l016` | Tofǒ. Iippǒ. *10. partes, ou rumos. ¶* To- |  |
+| `c1-l016` | *T*ofǒ. Iippǒ. *10. partes, ou rumos. ¶* To- |  |
 | `c1-l017` | &emsp;fǒuo vxinǒ. *Não ſaber parte de ſi com tri-* |  |
 | `c1-l018` | &emsp;*ſteza, &c. ¶* Tofǒuo vaqimayenu fi- |  |
 | `c1-l019` | &emsp;togia. *He homem que eſtà alienado, ou como* |  |

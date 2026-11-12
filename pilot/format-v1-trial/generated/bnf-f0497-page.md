@@ -19,19 +19,19 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l003` | Tefon. *Treslado, ou modelo da letra. ¶ Itẽ,* |  |
 | `c1-l004` | &emsp;*per met. Exemplo. Vt,* Tefonni naru. *Ser* |  |
 | `c1-l005` | &emsp;*exemplo pera outros.* |  |
-| `c1-l006` | Tegai. *O amãſar, ou domeſticar. Vt,* Ne- |  |
+| `c1-l006` | *T*egai. *O amãſar, ou domeſticar. Vt,* Ne- |  |
 | `c1-l007` | &emsp;co, inu, tori nadouo tegaini ſuru. *Amẽſar,* |  |
 | `c1-l008` | &emsp;*ou domesticar gatos, cães, paßaros, &c.* |  |
 | `c1-l009` | Tegamaxij. *Peßoa inquieta, ou buliçoſa de* |  |
 | `c1-l010` | &emsp;*mãos.* X. |  |
 | `c1-l011` | Tegame. *Certo vaſo, ou boceta em que metẽ* |  |
 | `c1-l012` | &emsp;*Cha moido.* |  |
-| `c1-l013` | Tegara. *Obra aſinalada, ou façanha. ¶* Te |  |
+| `c1-l013` | *T*egara. *Obra aſinalada, ou façanha. ¶* Te |  |
 | `c1-l014` | &emsp;garauo ſuru, l, arauaſu. *Fazer façanhas.* |  |
 | `c1-l015` | &emsp;*¶ Item, Obra prima de mãos. Vt,* Tega- |  |
 | `c1-l016` | &emsp;rauo tçucuſu. *Eſmerarſe em fazer algũa* |  |
 | `c1-l017` | &emsp;*obra bem feita.* |  |
-| `c1-l018` | Tegaraxa. *Homẽ que faz façanhas na guerra.* |  |
+| `c1-l018` | *T*egaraxa. *Homẽ que faz façanhas na guerra.* |  |
 | `c1-l019` | Tegaraxi. *Destro na arte de eſgrima, ou em* |  |
 | `c1-l020` | &emsp;*algũa outra obra de mãos.* |  |
 | `c1-l021` | Tegarui. *Diligente, & ligeiro de mãos, ou no* |  |
@@ -51,7 +51,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l035` | &emsp;Tegataſa. Tegatǒ. |  |
 | `c1-l036` | Tegaxe. *Hũa taboa furada em que metem as* |  |
 | `c1-l037` | &emsp;*mãos dalgum mal feitor, & lhe ficão ſujugadas.* |  |
-| `c1-l038` | Tegaye. *O fazerſe inimigo, ou tredo. Vt,* |  |
+| `c1-l038` | *T*egaye. *O fazerſe inimigo, ou tredo. Vt,* |  |
 | `c1-l039` | &emsp;Tegayeuo ſuru. *Idem.* |  |
 | `c1-l040` | Tegui. l, ximegui. *Hum paoſinho curto em* |  |
 | `c1-l041` | &emsp;*q̃ embarulhão a corda pera apertar muito o ve-* |  |
@@ -100,9 +100,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l026` | Teguri. *Nome de hũa rede pequena de peſcar.* |  |
 | `c2-l027` | Teguribune. *Embarcação onde ſòmente cabe* |  |
 | `c2-l028` | &emsp;*hùm, ou dous que puxão por eſta rede.* |  |
-| `c2-l029` | Teguſocu. *Caixinhas, & outros petrechos, ou* |  |
+| `c2-l029` | *T*eguſocu. *Caixinhas, & outros petrechos, ou* |  |
 | `c2-l030` | &emsp;*brincos de molheres.* |  |
-| `c2-l031` | Teguſune. *Eſfregar as mãos tomando o cuſpo* |  |
+| `c2-l031` | *T*eguſune. *Eſfregar as mãos tomando o cuſpo* |  |
 | `c2-l032` | &emsp;*da boca como quando hum quer lutar, &c.* |  |
 | `c2-l033` | &emsp;*¶* Teguſuneuo fiqu. *Cuſpir nas mãos, &* |  |
 | `c2-l034` | &emsp;*eſfregalas deſta maneira, ou molhando os dedos* |  |
@@ -110,14 +110,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l036` | Tegicai. *Couſa q̃ eſtà perto da mão, ou à mão.* |  |
 | `c2-l037` | &emsp;*¶ Item, Couſa q̃ eſtà longe pera lhe apontar cõ* |  |
 | `c2-l038` | &emsp;*o arco, &c.* |  |
-| `c2-l039` | Tei. *Maneira, feição, modo.* |  |
+| `c2-l039` | *T*ei. *Maneira, feição, modo.* |  |
 | `c2-l040` | Teichǔ. i, Giqiniſoxôuo mǒſu. l, meya- |  |
 | `c2-l041` | &emsp;ſuuo aguru. *Fazer petição, & apreſenta-* |  |
 | `c2-l042` | &emsp;*la a algum ſenhor, eſperandoo no caminho cõ* |  |
 | `c2-l043` | &emsp;*apetição, ou papel poſto em hum bambu aleuã-* |  |
-| `c2-l044` | &emsp;*tado. Vt,* Teichǔuo ſuru l, moſu. *Fa-* |  |
+| `c2-l044` | &emsp;*tado. Vt, T*eichǔuo ſuru l, moſu. *Fa-* |  |
 | `c2-l045` | &emsp;*zer, ou apreſentar eſta petição.* |  |
-| `c2-l046` | Teido. *Adu. Sem falta, ou certa, & de-* |  |
+| `c2-l046` | *T*eido. *Adu. Sem falta, ou certa, & de-* |  |
 | `c2-l047` | &emsp;*terminadamente.* |  |
 
 ## Printed page number

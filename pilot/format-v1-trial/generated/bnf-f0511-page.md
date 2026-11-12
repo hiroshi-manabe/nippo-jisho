@@ -16,12 +16,12 @@ Lexical cross-check after independent scan reading: the supplied National Instit
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | Tǒji. Imano toqi. *Agora, ou esta hora* |  |
+| `c1-l001` | *T*ǒji. Imano toqi. *Agora, ou esta hora* |  |
 | `c1-l002` | &emsp;*preſente.* |  |
-| `c1-l003` | Tǒji. *Eſte mosteiro, ou varela.* |  |
+| `c1-l003` | *T*ǒji. *Eſte mosteiro, ou varela.* |  |
 | `c1-l004` | Tôjimi. *Miolo de junco, que ſerue de torcida.* |  |
 | `c1-l005` | Tǒjin. Carano fito. *Homem da China.* |  |
-| `c1-l006` | Tǒjin. i, Nuſubito. *Ladrão.* |  |
+| `c1-l006` | *T*ǒjin. i, Nuſubito. *Ladrão.* |  |
 | `c1-l007` | Tojiqimi. l, xiqij. *Pao que atraueſa no por-* |  |
 | `c1-l008` | &emsp;*tal da porta em baixo.* |  |
 | `c1-l009` | Tôjit. Fuyuno fi. *Dia de inuerno.* |  |
@@ -31,13 +31,13 @@ Lexical cross-check after independent scan reading: the supplied National Instit
 | `c1-l013` | Tôjǒ. Xironi noboru. *O ſubir à fortaleza.* |  |
 | `c1-l014` | Tojǒ. *Aderradeira cerca, ou castello, & ca-* |  |
 | `c1-l015` | &emsp;*ſas que eſtão dentro da fortaleza.* |  |
-| `c1-l016` | Tǒjǔ. Cotaye, mucǔ. *Repoſta. ¶ Item,* |  |
+| `c1-l016` | *T*ǒjǔ. Cotaye, mucǔ. *Repoſta. ¶ Item,* |  |
 | `c1-l017` | &emsp;*Palaura q̃ ſe poem nos ſobreſcritos das cartas* |  |
 | `c1-l018` | &emsp;*que vão em repoſta de outras. S.* |  |
 | `c1-l019` | Tǒjǔ. Budǒno xiru. *Vinho de vuas. S.* |  |
 | `c1-l020` | Toma. *Esteira que ſe vſa pera emparo da chu-* |  |
 | `c1-l021` | &emsp;*ua nas embarcações, ou noutras partes.* |  |
-| `c1-l022` | &emsp;*¶* Tomauo fuqu. *Cobrir a embarcação* |  |
+| `c1-l022` | &emsp;*¶ T*omauo fuqu. *Cobrir a embarcação* |  |
 | `c1-l023` | &emsp;*deſtas esteiras.* |  |
 | `c1-l024` | Tomabuqi. *Vt,* Tomabuqini ſuru. *Cobrir* |  |
 | `c1-l025` | &emsp;*aßi de empreſtado algũa caſa, ou outra couſa* |  |
@@ -109,7 +109,7 @@ Lexical cross-check after independent scan reading: the supplied National Instit
 | `c2-l033` | Tomo. *Companhia, ou os que a companhão.* |  |
 | `c2-l034` | &emsp;*¶* Votomoni mairǒ. *Irei com voſco, ou* |  |
 | `c2-l035` | &emsp;*com voßa mercè. ¶ Item, Moços, ou cri-* |  |
-| `c2-l036` | &emsp;*ados que acompanhão aſeu amo. Vt,* To- |  |
+| `c2-l036` | &emsp;*ados que acompanhão aſeu amo. Vt, T*o- |  |
 | `c2-l037` | &emsp;mo ſuru. *A companhar o moço aſeu amo.* |  |
 | `c2-l038` | &emsp;*¶* Tomono xǔ. *Companheiros, ou gente* |  |
 | `c2-l039` | &emsp;*que a companha.* |  |
@@ -118,7 +118,7 @@ Lexical cross-check after independent scan reading: the supplied National Instit
 | `c2-l042` | &emsp;naritomo. *Ainda que ſeja homem.* |  |
 | `c2-l043` | Tomocacumo. *Como quer que ſeja, ou de qual* |  |
 | `c2-l044` | &emsp;*quer maneira que ſeja.* |  |
-| `c2-l045` | Tomo cǒmo. *Idem.* |  |
+| `c2-l045` | *T*omo cǒmo. *Idem.* |  |
 | `c2-l046` | Tomo cǒmo zzuqin. *Barrete aberto em cima* |  |
 | `c2-l047` | &emsp;*de maneira que ſe pode por na cabeça por am-* |  |
 | `c2-l048` | &emsp;*bas as aberturas.* |  |

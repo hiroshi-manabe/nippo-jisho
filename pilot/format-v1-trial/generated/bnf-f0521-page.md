@@ -37,22 +37,22 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l021` | &emsp;*virar o que vai fugindo.* |  |
 | `c1-l022` | Tottenoqi, u, oita. *Afaſtarſe, ou retirar-* |  |
 | `c1-l023` | &emsp;*ſe. ¶ Item, Tomando afaſtarſe, & irſe.* |  |
-| `c1-l024` | Totto. *Adu. Muito, ou eficazmente.* |  |
-| `c1-l025` | Tǒua. Cotaye cataru. *Reposta que hum dà* |  |
-| `c1-l026` | &emsp;*branda, ou riſpida. Vt,* Tǒuano yoi fito. |  |
+| `c1-l024` | *T*otto. *Adu. Muito, ou eficazmente.* |  |
+| `c1-l025` | *T*ǒua. Cotaye cataru. *Reposta que hum dà* |  |
+| `c1-l026` | &emsp;*branda, ou riſpida. Vt, T*ǒuano yoi fito. |  |
 | `c1-l027` | &emsp;*Homem de boas repoſtas.* |  |
-| `c1-l028` | Tǒvchiua. *Abano redondo da China.* |  |
+| `c1-l028` | *T*ǒvchiua. *Abano redondo da China.* |  |
 | `c1-l029` | Touo. *Numero de dez.* |  |
-| `c1-l030` | Touoaſa. *Lugar baixo em algum rio, ou mar* |  |
+| `c1-l030` | *T*ouoaſa. *Lugar baixo em algum rio, ou mar* |  |
 | `c1-l031` | &emsp;*estreito que ſe pode paßar a vao.* |  |
-| `c1-l032` | Touobiqi. *Vt,* Touobiqiuo ſuru, l, touo- |  |
+| `c1-l032` | *T*ouobiqi. *Vt, T*ouobiqiuo ſuru, l, touo- |  |
 | `c1-l033` | &emsp;fauo fiqu. *Voar o falcão longe, ou deſgar-* |  |
 | `c1-l034` | &emsp;*rarſe a tomar algum paßaro.* |  |
-| `c1-l035` | Touodouoto. *Adu. Longe. Vt,* Touo- |  |
+| `c1-l035` | *T*ouodouoto. *Adu. Longe. Vt, T*ouo- |  |
 | `c1-l036` | &emsp;douoto ficayeta. *Afastarſe longe não ou-* |  |
 | `c1-l037` | &emsp;*ſando chegar perto por reſpeito.* |  |
-| `c1-l038` | Touodouoxij. *Couſa afaſtada, ou alongada.* |  |
-| `c1-l039` | Touofa. *Vt,* Touofauo fiqu. *Vide,* To- |  |
+| `c1-l038` | *T*ouodouoxij. *Couſa afaſtada, ou alongada.* |  |
+| `c1-l039` | *T*ouofa. *Vt, T*ouofauo fiqu. *Vide, T*o- |  |
 | `c1-l040` | &emsp;uobiqi. |  |
 | `c1-l041` | Touoficata. *Lugar, ou praya onde vaza mui-* |  |
 | `c1-l042` | &emsp;*to amarè, & fica muito eſpaço em ſeco.* |  |
@@ -60,7 +60,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l044` | &emsp;*guerra indo longe adar nos inimigos. Vt,* To- |  |
 | `c1-l045` | &emsp;uogaqeuo ſuru. |  |
 | `c1-l046` | Touoi. *Couſa alongada, ou que eſtà longe.* |  |
-| `c1-l047` | &emsp;Touô. *Vt,* Touôm iru. *Ver a olonge.* |  |
+| `c1-l047` | &emsp;*T*ouô. *Vt,* Touôm iru. *Ver a olonge.* |  |
 | `c1-l048` | &emsp;Touoſa. |  |
 
 ## Column 2 running header
@@ -88,7 +88,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l013` | &emsp;uoriuo yǔ. *Dizer a ſuſtancia, ou teor do reca-* |  |
 | `c2-l014` | &emsp;*do. ¶* Sonatano touorino bun. *Da meſma* |  |
 | `c2-l015` | &emsp;*maneira, ou teor q̃ vos. Itẽ, O teor do q̃ dizeis.* |  |
-| `c2-l016` | Touori, ru, otta. *Paßar. Vt,* Michiuo |  |
+| `c2-l016` | *T*ouori, ru, otta. *Paßar. Vt,* Michiuo |  |
 | `c2-l017` | &emsp;touoru. *Paßar pollo caminho. ¶* Qiǒuo |  |
 | `c2-l018` | &emsp;ichibu mitouoru. *Paßar hum liuro de prin-* |  |
 | `c2-l019` | &emsp;*cipio atè ocabo. ¶* Côquai cocoroni to- |  |

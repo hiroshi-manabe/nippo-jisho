@@ -26,10 +26,10 @@ Lexical reference: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and 
 | `c1-l008` | &emsp;*do. Vt,* Taxini ſuru. |  |
 | `c1-l009` | Taxicana. *Fiel, ou leal, conſtante, &c.* |  |
 | `c1-l010` | &emsp;Taxicani. *Adu.* |  |
-| `c1-l011` | &emsp;Taxicaſa. |  |
+| `c1-l011` | &emsp;*T*axicaſa. |  |
 | `c1-l012` | Taxin. Bechino cocoro. *Outro coração.* |  |
 | `c1-l013` | &emsp;*Item, Coração de tredo, ou inimigo, ou desle-* |  |
-| `c1-l014` | &emsp;*al. ¶* Taxinuo ſaxifaſamu. *Ter o co-* |  |
+| `c1-l014` | &emsp;*al. ¶ T*axinuo ſaxifaſamu. *Ter o co-* |  |
 | `c1-l015` | &emsp;*ração trocado, ou atreiçoado.* |  |
 | `c1-l016` | Taxinami, u, ǒda. *Conſeruar, poupar.* |  |
 | `c1-l017` | &emsp;*¶* Miuo taxinamu. *Ter boa conta conſi-* |  |
@@ -62,7 +62,7 @@ Lexical reference: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and 
 | `c1-l044` | Taxu. Amatano nuxi. *Muitos donos, ou ſe-* |  |
 | `c1-l045` | &emsp;*nhores.* |  |
 | `c1-l046` | Taxxa. Taxxita fito. *Deſtro em algũa couſa.* |  |
-| `c1-l047` | &emsp;*Vt,* Taxxa vomomuqiuo qirauazu. *O* |  |
+| `c1-l047` | &emsp;*Vt, T*axxa vomomuqiuo qirauazu. *O* |  |
 
 ## Column 2 running header
 
@@ -114,7 +114,7 @@ Lexical reference: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and 
 | `c2-l038` | &emsp;xinno tayemaga nai. *Não ha ceßar, nem* |  |
 | `c2-l039` | &emsp;*interromper as obras.* |  |
 | `c2-l040` | Tayena. l, tayenaru. *Couſa marauilhoſa, ine* |  |
-| `c2-l041` | &emsp;*fauel, &c. S. Vt,* Tayenaru niuoi. |  |
+| `c2-l041` | &emsp;*fauel, &c. S. Vt, T*ayenaru niuoi. |  |
 | `c2-l042` | &emsp;iro. coye, &c. *Excellente, & marauilho-* |  |
 | `c2-l043` | &emsp;*ſo cheiro, cor, voz, &c.* |  |
 | `c2-l044` | &emsp;Tayeni. *Aduerb.* |  |

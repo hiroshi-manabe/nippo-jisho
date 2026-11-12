@@ -90,7 +90,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l016` | &emsp;*matar, &c. propriamente ſe diz dos inimigos* |  |
 | `c2-l017` | &emsp;*que fazem por força recolher à fortaleza aos q̃* |  |
 | `c2-l018` | &emsp;*ſairão a pelejar.* |  |
-| `c2-l019` | Tçuqeire. *Vt,* Tçuqeireuo ſuru. *Idem.* |  |
+| `c2-l019` | Tçuqeire. *Vt, T*çuqeireuo ſuru. *Idem.* |  |
 | `c2-l020` | Tçuqeito. l, neriguri. *Seda batida, & brã-* |  |
 | `c2-l021` | &emsp;*da, ou cozida.* |  |
 | `c2-l022` | Tçuqemono. *Couſa de conſerua, ou ſalmoura* |  |
@@ -105,7 +105,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l031` | &emsp;tçuqu. *Chegar ao porto.* |  |
 | `c2-l032` | Tçuqi. *Vt,* Votçuqi. *Chegada dalgũſe-* |  |
 | `c2-l033` | &emsp;*nhor, ou peſſoa honrada.* |  |
-| `c2-l034` | Tçuqi. *Mes, ou lũa. ¶* Tçuqiga mitçu- |  |
+| `c2-l034` | Tçuqi. *Mes, ou lũa. ¶ T*çuqiga mitçu- |  |
 | `c2-l035` | &emsp;ru. *Serlũa chea. ¶* Tçuqiga caquru. |  |
 | `c2-l036` | &emsp;*Minguar a lũa. ¶* Tçuqiga caqicumoru. |  |
 | `c2-l037` | &emsp;*Eſcurecerſe a lũa. ¶* Tçuqiga teru. *A-* |  |

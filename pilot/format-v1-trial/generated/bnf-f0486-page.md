@@ -18,13 +18,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l002` | &emsp;*dedos. Vt,* Sacanauo tçumamu. *Tomar* |  |
 | `c1-l003` | &emsp;*a Sacana com dous dedos. ¶ Item, Zom-* |  |
 | `c1-l004` | &emsp;*bar dalguem.* |  |
-| `c1-l005` | Tçumamicoroxi, ſu, oita. *Matar afferrã-* |  |
+| `c1-l005` | *T*çumamicoroxi, ſu, oita. *Matar afferrã-* |  |
 | `c1-l006` | &emsp;*do com dous dedos: iſto ſe pode dizer por rõca,* |  |
 | `c1-l007` | &emsp;*mataruos ei com dous dedos, &c.* |  |
 | `c1-l008` | Tçumamigvi. *O comer aqui, & ali, como go-* |  |
 | `c1-l009` | &emsp;*loſo apanhando algũas couſinhas às eſcondidas.* |  |
 | `c1-l010` | &emsp;*Vt,* Tçumamigviuo ſuru. |  |
-| `c1-l011` | Tçumane. *Raiz, ou arreigada da vnha.* |  |
+| `c1-l011` | *T*çumane. *Raiz, ou arreigada da vnha.* |  |
 | `c1-l012` | Tçumaqiri. *Canuete, ou ferro pera cortar* |  |
 | `c1-l013` | &emsp;*vnhas.* |  |
 | `c1-l014` | Tçumaſaqi. *Ponta da vnha.* |  |
@@ -39,7 +39,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l023` | &emsp;*¶* Qiga tçumaru. *Eſtar afrontado, ou a-* |  |
 | `c1-l024` | &emsp;*bafado do coração. ¶* Riga tçumaru. |  |
 | `c1-l025` | &emsp;*Nãopoder fazer camara.* |  |
-| `c1-l026` | Tçumari. *Paſſo, ou lugar apertado, por onde* |  |
+| `c1-l026` | *T*çumari. *Paſſo, ou lugar apertado, por onde* |  |
 | `c1-l027` | &emsp;*ſe não pode paſſar, ou caminhar liuremente,* |  |
 | `c1-l028` | &emsp;*ou onde pouca gente pode defender a paſſagem* |  |
 | `c1-l029` | &emsp;*aos inimigos.* |  |

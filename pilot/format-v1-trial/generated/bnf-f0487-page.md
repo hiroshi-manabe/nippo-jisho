@@ -52,7 +52,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l036` | &emsp;*ou outro legume partindoo com os dentes.* |  |
 | `c1-l037` | &emsp;*¶* Vatauo tçumu. *Abrir com os dedos,* |  |
 | `c1-l038` | &emsp;*ou eſcarpear borra, ou algodão.* |  |
-| `c1-l039` | Tçumiague, uru, eta. *Acumular muito, ou* |  |
+| `c1-l039` | *T*çumiague, uru, eta. *Acumular muito, ou* |  |
 | `c1-l040` | &emsp;*ajuntar como em montes. ¶* Riôra, qinxu |  |
 | `c1-l041` | &emsp;igueno chôfôuo yamano gotocuni tçumi |  |
 | `c1-l042` | &emsp;aguete. Taif. *Lib. 28. Ajuntando* |  |
@@ -87,7 +87,7 @@ The right running header prints DA, unlike DO in the left header.
 | `c2-l011` | &emsp;fôga tçumoru. *Crecerem as riquezas.* |  |
 | `c2-l012` | &emsp;*¶* Chiri tçumotte yamato naru. *De peque-* |  |
 | `c2-l013` | &emsp;*nas couſas acumuladas ſe fazem grandes.* |  |
-| `c2-l014` | Tçumori. *Recopilação, ou ſumma.* |  |
+| `c2-l014` | *T*çumori. *Recopilação, ou ſumma.* |  |
 | `c2-l015` | Tçumu. l, tçumi. *Fuſo de ferro pera fiar ſe-* |  |
 | `c2-l016` | &emsp;*da, algodão, &c.* |  |
 | `c2-l017` | Tçumugui. *Peças tecidas com borra de Iapão.* |  |
@@ -95,14 +95,14 @@ The right running header prints DA, unlike DO in the left header.
 | `c2-l019` | &emsp;*tros, &c. ¶ Itẽ, Fiar.* Vata, l, itouo tçu- |  |
 | `c2-l020` | &emsp;mugu. *Fiar borra, ou ſeda.* |  |
 | `c2-l021` | Tçuna. *Amarra, ou corda groſſa.* |  |
-| `c2-l022` | Tçunade. l, tçunate. *Cordas, ou amarras* |  |
+| `c2-l022` | *T*çunade. l, tçunate. *Cordas, ou amarras* |  |
 | `c2-l023` | &emsp;*da Fune.* |  |
-| `c2-l024` | Tçunagui, gu, aida. *Amarrar como animaes,* |  |
+| `c2-l024` | *T*çunagui, gu, aida. *Amarrar como animaes,* |  |
 | `c2-l025` | &emsp;*embarcação, &c.* |  |
 | `c2-l026` | Tçunaguibaxira. *Columnas onde amarrão as* |  |
 | `c2-l027` | &emsp;*bestas na eſtrebaria.* |  |
 | `c2-l028` | Tçunate. *Cordas, ou amarras da embarcação.* |  |
-| `c2-l029` | Tçunena, l, tçuneno. *Couſa commũa, ou* |  |
+| `c2-l029` | *T*çunena, l, tçuneno. *Couſa commũa, ou* |  |
 | `c2-l030` | &emsp;*ordinaria.* |  |
 | `c2-l031` | Tçuneni. *Adu. Sempre, ou cõmũmente.* |  |
 | `c2-l032` | Tçunexiqino. *Couſa ordinaria.* |  |

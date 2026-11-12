@@ -19,9 +19,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l003` | Torixizzume, uru, eta. *Aquietar, ou apa-* |  |
 | `c1-l004` | &emsp;*ziguar. ¶* Cocorouo torixizzumuru. *A-* |  |
 | `c1-l005` | &emsp;*quietar o coração.* |  |
-| `c1-l006` | Toriyari. *O dar, & tomar. Vt,* Toriyari |  |
+| `c1-l006` | Toriyari. *O dar, & tomar. Vt, T*oriyari |  |
 | `c1-l007` | &emsp;uo ſuru. *Mãdar, ou dar, & receber entre ſi.* |  |
-| `c1-l008` | Toriye. *Occaſião, ou achaque. Vt,* Coreuo |  |
+| `c1-l008` | *T*oriye. *Occaſião, ou achaque. Vt,* Coreuo |  |
 | `c1-l009` | &emsp;toriyeni xite. *Tomando isto por occaſião.* |  |
 | `c1-l010` | Toriyoxe, ſuru, eta. *Chegar pera ſi, ou fa-* |  |
 | `c1-l011` | &emsp;*zer trazer perto de ſi.* |  |
@@ -78,16 +78,16 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l004` | &emsp;*Vt,* Toſanuo yaru. *Mandar, ou dar* |  |
 | `c2-l005` | &emsp;*preſente.* |  |
 | `c2-l006` | Tǒſǒ. i, Tǒgaſa. *Boubas.* |  |
-| `c2-l007` | Toſô. *Melius,* Toſǔ. i, Anguiano bǒzu. |  |
+| `c2-l007` | Toſô. *Melius, T*oſǔ. i, Anguiano bǒzu. |  |
 | `c2-l008` | &emsp;*Bonzo peregrino.* |  |
-| `c2-l009` | Toſot. *Vt,* Toſotno naiin. *Paraiſo de A-* |  |
+| `c2-l009` | *T*oſot. *Vt,* Toſotno naiin. *Paraiſo de A-* |  |
 | `c2-l010` | &emsp;*mida que os Gentios imaginão auer.* |  |
 | `c2-l011` | Toſotten. *Nomede hum ceo.* |  |
 | `c2-l012` | Tosǔ. *Vide,* Toſô. *Vt,* Toſǔno guiǒnin. |  |
 | `c2-l013` | &emsp;*Bonzo que anda peregrinando.* |  |
 | `c2-l014` | Tôſu. *Secretas que eſtão da parte do Leste.* |  |
-| `c2-l015` | Toſſaca. *Vide,* Toſaca. |  |
-| `c2-l016` | Toſsacanori. *Vide ſuprà,* Toſacanori. |  |
+| `c2-l015` | Toſſaca. *Vide, T*oſaca. |  |
+| `c2-l016` | *T*oſsacanori. *Vide ſuprà,* Toſacanori. |  |
 | `c2-l017` | Tôtçǔ. Xibiruru itami. *Doerſe muito, ou ar-* |  |
 | `c2-l018` | &emsp;*der, & eſcozer com dor.* |  |
 | `c2-l019` | Totçugai, gǒ, ǒta. *Terem copula os animaes,* |  |
@@ -100,7 +100,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l026` | Tote. *Particula do gerundio, & participio* |  |
 | `c2-l027` | &emsp;*quando ſe ajunta à voz do futuro.* i, *Pera,* |  |
 | `c2-l028` | &emsp;*ou por. Como ſe verà na Arte.* |  |
-| `c2-l029` | Tôtei. *Hũa pintura em que està pintada a lũa* |  |
+| `c2-l029` | *T*ôtei. *Hũa pintura em que està pintada a lũa* |  |
 | `c2-l030` | &emsp;*do Outono que ſe vè em hua certa parte da Chi* |  |
 | `c2-l031` | &emsp;*na, dõde he mais apraziuel, & tida por hua das* |  |
 | `c2-l032` | &emsp;*oito vistas celebradas na China.* |  |

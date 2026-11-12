@@ -36,31 +36,31 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l020` | &emsp;*Vt,* Iyeno xozaimotuo toriaraſu. *Rou-* |  |
 | `c1-l021` | &emsp;*bando o fato da caſa deixar o pior por ahi eſpa-* |  |
 | `c1-l022` | &emsp;*lhado, & desbaratado.* |  |
-| `c1-l023` | Toriatari, ru, atta. *Tomar, ou ſair por ſor-* |  |
+| `c1-l023` | *T*oriatari, ru, atta. *Tomar, ou ſair por ſor-* |  |
 | `c1-l024` | &emsp;*tes. ¶* Cujini toriataru. *Idem.* |  |
-| `c1-l025` | Toriatçucai, ǒ, ǒta. *Negocear, ou tratar.* |  |
+| `c1-l025` | *T*oriatçucai, ǒ, ǒta. *Negocear, ou tratar.* |  |
 | `c1-l026` | &emsp;*¶* Cujiuo toriatçucǒ. *Tratar, ou andar* |  |
 | `c1-l027` | &emsp;*em algũa demanda. ¶* Iyeno ſaibanuo |  |
 | `c1-l028` | &emsp;toriatçucǒ. *Entender no negocio, & me-* |  |
 | `c1-l029` | &emsp;*neo, ou gouerno da caſa.* |  |
-| `c1-l030` | Toriatçume, uru, eta. *Ajuntar tomando cõ* |  |
-| `c1-l031` | &emsp;*a mão. ¶* Tacarauo toriatçumuru. *A-* |  |
+| `c1-l030` | *T*oriatçume, uru, eta. *Ajuntar tomando cõ* |  |
+| `c1-l031` | &emsp;*a mão. ¶ T*acarauo toriatçumuru. *A-* |  |
 | `c1-l032` | &emsp;*juntar muitas riquezas.* |  |
-| `c1-l033` | Toriauaxe, ſuru, eta. *Ajuntar varias cou-* |  |
+| `c1-l033` | *T*oriauaxe, ſuru, eta. *Ajuntar varias cou-* |  |
 | `c1-l034` | &emsp;*ſas, & prouar ſe fazem, ou ſão proporciona-* |  |
 | `c1-l035` | &emsp;*das, como o forro do vestido com aparte de fora* |  |
 | `c1-l036` | &emsp;*ou de cima. ¶ Item, Ajuntar duas peßoas* |  |
 | `c1-l037` | &emsp;*pera caſar. Vt,* Vottoni vonnauo tori- |  |
 | `c1-l038` | &emsp;auaſuru. |  |
-| `c1-l039` | Toriauaxe. *Interceßão. ¶* Toriauaxeuo |  |
+| `c1-l039` | *T*oriauaxe. *Interceßão. ¶ T*oriauaxeuo |  |
 | `c1-l040` | &emsp;ſuru. *Interceder.* |  |
-| `c1-l041` | Toriauaxete. *Interceßor, ou terceiro.* |  |
-| `c1-l042` | Toribacama. *O aleuantar os calções, ou arre-* |  |
-| `c1-l043` | &emsp;*gaçarſe hum pouco. ¶* Toribacamauo ſu- |  |
+| `c1-l041` | *T*oriauaxete. *Interceßor, ou terceiro.* |  |
+| `c1-l042` | *T*oribacama. *O aleuantar os calções, ou arre-* |  |
+| `c1-l043` | &emsp;*gaçarſe hum pouco. ¶ T*oribacamauo ſu- |  |
 | `c1-l044` | &emsp;ru. *Idem.* |  |
-| `c1-l045` | Toribe. *Vaſo como barça de vinho que tem dã-* |  |
+| `c1-l045` | *T*oribe. *Vaſo como barça de vinho que tem dã-* |  |
 | `c1-l046` | &emsp;*bas as partes como aſas por onde ſe toma.* |  |
-| `c1-l047` | Toribixiuo. *Paßaros feitos em pedacinhos po-* |  |
+| `c1-l047` | *T*oribixiuo. *Paßaros feitos em pedacinhos po-* |  |
 
 ## Column 2 running header
 
@@ -74,18 +74,18 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c2-l001` | &emsp;*ſtos de molho em hũa certa ſalmoura pera depo-* |  |
 | `c2-l002` | &emsp;*is ſe comerem.* |  |
-| `c2-l003` | Toribuqi. *Modo de telhar com taboinhas lar-* |  |
-| `c2-l004` | &emsp;*gas ſem as pregar com pregos. Vt,* Toribuqi- |  |
+| `c2-l003` | *T*oribuqi. *Modo de telhar com taboinhas lar-* |  |
+| `c2-l004` | &emsp;*gas ſem as pregar com pregos. Vt, T*oribuqi- |  |
 | `c2-l005` | &emsp;ni ſuru. *Telhar deſta maneira.* |  |
 | `c2-l006` | Toricacari, ru, atta. *Começar a fazer. Vt,* |  |
 | `c2-l007` | &emsp;Gacumonni toricacaru. *Começar a eſtudar,* |  |
 | `c2-l008` | &emsp;*&c. ¶ Item, Acometer, ou arremeter.* |  |
-| `c2-l009` | Toricacomi, u, ôda. *Cercar a alguem, ou* |  |
+| `c2-l009` | *T*oricacomi, u, ôda. *Cercar a alguem, ou* |  |
 | `c2-l010` | &emsp;*algũa fortaleza, caſa, &c.* |  |
-| `c2-l011` | Toricacuxi, ſu, ita. *Tomando a couſa eſcon-* |  |
+| `c2-l011` | *T*oricacuxi, ſu, ita. *Tomando a couſa eſcon-* |  |
 | `c2-l012` | &emsp;*dela. ¶ Item, Enterrar o corpo morto. Vt,* |  |
 | `c2-l013` | &emsp;Xigaiuo toricacuſu. |  |
-| `c2-l014` | Toricagi. *Bumbordo. ¶* Funeuo torica- |  |
+| `c2-l014` | *T*oricagi. *Bumbordo. ¶* Funeuo torica- |  |
 | `c2-l015` | &emsp;gini yaru. *Nauegar, ou fazer ir a embar-* |  |
 | `c2-l016` | &emsp;*cação pera a parte de bombordo que he a parte* |  |
 | `c2-l017` | &emsp;*eſquerda, eſtando virado pera a proa. ¶ Vo-* |  |
@@ -101,22 +101,22 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l027` | &emsp;*&c. ¶ Per met.* Fitouo toricǒ. *En-* |  |
 | `c2-l028` | &emsp;*godar alguem dando lhealgũa couſa, ou fazẽ-* |  |
 | `c2-l029` | &emsp;*do lhe mimos pera o ter da ſua mão, &c.* |  |
-| `c2-l030` | Toricaqe, uru, eta. *Abalroar, ou acometer,* |  |
-| `c2-l031` | &emsp;*& arremeter aos inimigos. Vt,* Teqini to- |  |
-| `c2-l032` | &emsp;ricaquru. *¶* Toricaqete cono cotouo |  |
+| `c2-l030` | *T*oricaqe, uru, eta. *Abalroar, ou acometer,* |  |
+| `c2-l031` | &emsp;*& arremeter aos inimigos. Vt, T*eqini to- |  |
+| `c2-l032` | &emsp;ricaquru. *¶ T*oricaqete cono cotouo |  |
 | `c2-l033` | &emsp;iuaruru. *Dezia eſtas couſas ſofregamente,* |  |
 | `c2-l034` | &emsp;*& com impeto.* |  |
-| `c2-l035` | Toricaqe, quru, eta. *Começar a tirar dal* |  |
+| `c2-l035` | *T*oricaqe, quru, eta. *Começar a tirar dal* |  |
 | `c2-l036` | &emsp;*gũa couſa.* |  |
-| `c2-l037` | Toricarame, uru, eta. *Prender, ou amarrar.* |  |
+| `c2-l037` | *T*oricarame, uru, eta. *Prender, ou amarrar.* |  |
 | `c2-l038` | Toricaſane, ru, eta. *Acrecentar, ou por hũa* |  |
 | `c2-l039` | &emsp;*couſa ſobre outra.* |  |
-| `c2-l040` | Toricatame, uru, eta. *Ter forte. Vt,* Gin |  |
+| `c2-l040` | *T*oricatame, uru, eta. *Ter forte. Vt,* Gin |  |
 | `c2-l041` | &emsp;l, Xirouo toricatamuru. *Ter o arrayal bẽ* |  |
 | `c2-l042` | &emsp;*compoſto, & fortalecido, ou a fortaleza.* |  |
-| `c2-l043` | Toricaua. *Pelle que ſe poem nos punhos da* |  |
+| `c2-l043` | *T*oricaua. *Pelle que ſe poem nos punhos da* |  |
 | `c2-l044` | &emsp;*Catana.* |  |
-| `c2-l045` | Toricauaxi, ſu, ita. *Dar, ou trocar entre ſi* |  |
+| `c2-l045` | *T*oricauaxi, ſu, ita. *Dar, ou trocar entre ſi* |  |
 | `c2-l046` | &emsp;*algũa couſa.* |  |
 | `c2-l047` | Toricaye, ru, eta. *Mudar, ou trocarcomo* |  |
 

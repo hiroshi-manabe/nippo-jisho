@@ -15,47 +15,47 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c1-l001` | &emsp;zuga tamaru. *Conſeruarſe, & terſe a agoa* |  |
-| `c1-l002` | &emsp;*que não ſe entorne, ou corra, &c. ¶* Ta- |  |
+| `c1-l002` | &emsp;*que não ſe entorne, ou corra, &c. ¶ T*a- |  |
 | `c1-l003` | &emsp;maranu yoi, l, varui fitode gozaru. *Ho-* |  |
 | `c1-l004` | &emsp;*mem tão bom, ou tão ruim queſe não pode ſo-* |  |
 | `c1-l005` | &emsp;*frer, & aßi ſerue este negatiuo pera encarecer* |  |
 | `c1-l006` | &emsp;*muito as couſas.* |  |
-| `c1-l007` | Tamari. *O terſe, ou ſofrer. Mas não ſe vſa ſòſẽ* |  |
+| `c1-l007` | *T*amari. *O terſe, ou ſofrer. Mas não ſe vſa ſòſẽ* |  |
 | `c1-l008` | &emsp;*outra palaura. Vt,* Fitotamarimo corayeji- |  |
-| `c1-l009` | &emsp;to zonzuru. Taif. *Lib. 16. Pareceme que* |  |
+| `c1-l009` | &emsp;to zonzuru. *T*aif. *Lib. 16. Pareceme que* |  |
 | `c1-l010` | &emsp;*não poderei eſtar, ou deter me nem hum ta-* |  |
-| `c1-l011` | &emsp;*manino. ¶* Tamarigatai. *Não ha quem* |  |
+| `c1-l011` | &emsp;*manino. ¶ T*amarigatai. *Não ha quem* |  |
 | `c1-l012` | &emsp;*ſe tenha, ou não ſe pode ſofrer, &c.* |  |
-| `c1-l013` | Tamari. *Hum licor muito ſaboroſo que ſe tira* |  |
+| `c1-l013` | *T*amari. *Hum licor muito ſaboroſo que ſe tira* |  |
 | `c1-l014` | &emsp;*do Miſò, & ſerue pera temperar o comer.* |  |
-| `c1-l015` | Tamarimizzu. *Agoa repreſada, ou detida* |  |
+| `c1-l015` | *T*amarimizzu. *Agoa repreſada, ou detida* |  |
 | `c1-l016` | &emsp;*em algũa parte.* |  |
 | `c1-l017` | Tamaſacana. *Couſa rara.* |  |
-| `c1-l018` | Tamaſacani. *Adu. Raramente. ¶* Ta- |  |
+| `c1-l018` | Tamaſacani. *Adu. Raramente. ¶ T*a- |  |
 | `c1-l019` | &emsp;maſacani mairiyǒte. *Encontrandome por* |  |
 | `c1-l020` | &emsp;*marauilha, &c.* |  |
-| `c1-l021` | Tamaſuri. *Lapidairo.* |  |
-| `c1-l022` | Tamatama. l, tamatamano. *Couſa rara.* |  |
-| `c1-l023` | Tamatebaco. *Boceta rica de que vſão as mo-* |  |
+| `c1-l021` | *T*amaſuri. *Lapidairo.* |  |
+| `c1-l022` | *T*amatama. l, tamatamano. *Couſa rara.* |  |
+| `c1-l023` | *T*amatebaco. *Boceta rica de que vſão as mo-* |  |
 | `c1-l024` | &emsp;*lheres.* |  |
-| `c1-l025` | Tamatçubaqi. P. i, Tçubaqi. *Hũa cer-* |  |
+| `c1-l025` | *T*amatçubaqi. P. i, *T*çubaqi. *Hũa cer-* |  |
 | `c1-l026` | &emsp;*ta aruore que dà hũas fulas vermelhas.* |  |
-| `c1-l027` | Tamauari, ru, atta. *Dar peßoa honrada a ou-* |  |
+| `c1-l027` | *T*amauari, ru, atta. *Dar peßoa honrada a ou-* |  |
 | `c1-l028` | &emsp;*tra ſomenos, ou a peßoa igual. Vt,* Catana- |  |
 | `c1-l029` | &emsp;uo tamauaru. *Dar hũa Catana a alguem.* |  |
-| `c1-l030` | &emsp;*¶ Item, Na eſcritura,* Tamauaru. *Comer,* |  |
+| `c1-l030` | &emsp;*¶ Item, Na eſcritura, T*amauaru. *Comer,* |  |
 | `c1-l031` | &emsp;*falando hum de ſi.* |  |
 | `c1-l032` | Tamaxij. *Alma. ¶* Qimo, tamaxijuo |  |
 | `c1-l033` | &emsp;qeſu. *Admirarſe, ou eſpantarſe. ¶* Ta- |  |
 | `c1-l034` | &emsp;maxij mini ſouazu. *Idem. l. não estar* |  |
 | `c1-l035` | &emsp;*em ſi.* |  |
-| `c1-l036` | Tamaya. *Sepultura, ou caſa dentro daqual* |  |
+| `c1-l036` | *T*amaya. *Sepultura, ou caſa dentro daqual* |  |
 | `c1-l037` | &emsp;*eſtà algũa ſepultura.* |  |
 | `c1-l038` | Tamaya. *Lapidairo que laura pedras precioſas.* |  |
-| `c1-l039` | Tamayura. P. i, Tçuyuno vouoqu aru tei. |  |
+| `c1-l039` | *T*amayura. P. i, *T*çuyuno vouoqu aru tei. |  |
 | `c1-l040` | &emsp;*Modo de estar muito orualho junto. ¶ Itẽ,* |  |
 | `c1-l041` | &emsp;*Breue eſpaço de tempo, ou vida.* |  |
-| `c1-l042` | Tamazuſuqi. P. Suſuqi. *Hũa certa erua* |  |
+| `c1-l042` | *T*amazuſuqi. P. Suſuqi. *Hũa certa erua* |  |
 | `c1-l043` | &emsp;*alta que crece muito.* |  |
 | `c1-l044` | Tamazzuſa. P. *Carta. ¶ Item, Modo* |  |
 | `c1-l045` | &emsp;*de dar nò em algum papel eſcrito como carta* |  |
@@ -113,17 +113,17 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l033` | Tamexi. *Proua, l, experiencia. ¶* Tame- |  |
 | `c2-l034` | &emsp;xini fiqu. *Trazer, ou alegar por proua, ou* |  |
 | `c2-l035` | &emsp;*custume antiguo.* |  |
-| `c2-l036` | Tamexi, ſu, eita. *Prouar, & experimentar* |  |
+| `c2-l036` | *T*amexi, ſu, eita. *Prouar, & experimentar* |  |
 | `c2-l037` | &emsp;*¶* Catanauo tameſu. *Prouar a Catana* |  |
 | `c2-l038` | &emsp;*cortando algum corpo morto, &c. ¶* Fito- |  |
 | `c2-l039` | &emsp;uo tameſu. *Prouar, ou fazer experiencia* |  |
 | `c2-l040` | &emsp;*dalguem.* |  |
-| `c2-l041` | Tami. *Pouo, ou gente plebea.* |  |
-| `c2-l042` | Tamiǒ. l, tameǒji. Bechino na. *Outro no-* |  |
+| `c2-l041` | *T*ami. *Pouo, ou gente plebea.* |  |
+| `c2-l042` | *T*amiǒ. l, tameǒji. Bechino na. *Outro no-* |  |
 | `c2-l043` | &emsp;*me, ou alcunha que algum da meſma familia* |  |
 | `c2-l044` | &emsp;*toma differente por algum reſpeito, como de* |  |
 | `c2-l045` | &emsp;*quem perfilhou, &c.* |  |
-| `c2-l046` | Tamochi, tçu, otta. *Ter, ou guardar.* |  |
+| `c2-l046` | *T*amochi, tçu, otta. *Ter, ou guardar.* |  |
 | `c2-l047` | &emsp;*¶* Youo tamotçu. *Ter o imperio, ou go-* |  |
 
 ## Printed signature

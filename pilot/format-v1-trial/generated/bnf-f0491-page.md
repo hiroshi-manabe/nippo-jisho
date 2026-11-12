@@ -87,7 +87,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l007` | Tçuredachi, tçu, atta. *Ir, ou leuar em cõ-* |  |
 | `c2-l008` | &emsp;*panhia. Vt,* Fucari tçuredachi atte vo- |  |
 | `c2-l009` | &emsp;giare. Mon. *Trazei ambos com voſco.* |  |
-| `c2-l010` | Tçǔrei. i, Tçuneno catagui. *Cuſtume or-* |  |
+| `c2-l010` | *T*çǔrei. i, Tçuneno catagui. *Cuſtume or-* |  |
 | `c2-l011` | &emsp;*dinario.* |  |
 | `c2-l012` | Tçuremai. *Romance que cantão dous, ou mais* |  |
 | `c2-l013` | &emsp;*juntos. ¶ Item, Bailo que fazem dous, ou* |  |
@@ -104,7 +104,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l024` | &emsp;*Dar cruelmente no coração dalguem.* |  |
 | `c2-l025` | Tçureqitari, ru, atta. *Vindo trazer a alguẽ* |  |
 | `c2-l026` | &emsp;*conſigo.* |  |
-| `c2-l027` | Tçurezzure. l, tçurezzurena. i, Tojenna. |  |
+| `c2-l027` | *T*çurezzure. l, tçurezzurena. i, Tojenna. |  |
 | `c2-l028` | &emsp;*Couſa ſolitaria.* |  |
 | `c2-l029` | Tçuri. *Anzol. ¶* Tçurino taruru. *Peſ-* |  |
 | `c2-l030` | &emsp;*car com anzol. ¶* Tçuriuo ſuru. *Idem.* |  |
