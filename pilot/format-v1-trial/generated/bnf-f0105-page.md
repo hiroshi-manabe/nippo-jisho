@@ -39,7 +39,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l023` | &emsp;*as forças. ¶* Chicaraga tçuquru. *A-* |  |
 | `c1-l024` | &emsp;*cabaremſe as forças. ¶* Chicarauo tçu- |  |
 | `c1-l025` | &emsp;quſu. *Por todas as forças. ¶* Chica- |  |
-| `c1-l026` | &emsp;rauo vru. *Tomar forças.* |  |
+| `c1-l026` | &emsp;rauo vru. T*omar forças.* |  |
 | `c1-l027` | Chicaragane. *Fiuela com que ſe prende o* |  |
 | `c1-l028` | &emsp;*estribo do caualo.* |  |
 | `c1-l029` | C hicarajeme. *Combate a força de braço.* |  |

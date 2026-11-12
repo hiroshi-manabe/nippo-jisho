@@ -46,7 +46,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l030` | Aitçugai, ǒ, ǒta. *Vide* Tçugai, ǒ. |  |
 | `c1-l031` | Aitçunori, ru, otta. *Vide* Tçunori, u. |  |
 | `c1-l032` | Aitçuqe, ru, eta. *Atrahir aſi, domesticar.* |  |
-| `c1-l033` | Aituzzuqe, ru, eta. *Vide* Tçuzzuqe, ru. |  |
+| `c1-l033` | Aituzzuqe, ru, eta. *Vide T*çuzzuqe, ru. |  |
 | `c1-l034` | Aitçuzzuqi, u, uita. *Vide* Tçuzzuqi, qu. |  |
 | `c1-l035` | Aite. *Competidor, parte, ou companheiro,* |  |
 | `c1-l036` | &emsp;*&c. ¶* Aiteuo toru. *Matar o inimigo, ou* |  |

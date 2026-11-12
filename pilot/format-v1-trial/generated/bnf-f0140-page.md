@@ -22,7 +22,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l006` | Cuji. *Demanda. Vt.* Cujiuo ſabaqu. *Tra-* |  |
 | `c1-l007` | &emsp;*tar a demanda. ¶* Cujiuo caquru. *Pòr* |  |
 | `c1-l008` | &emsp;*demanda.* |  |
-| `c1-l009` | Cuji. *Sortes. ¶* Cujiuo toru. *Tirar ſor-* |  |
+| `c1-l009` | Cuji. *Sortes. ¶* Cujiuo toru. T*irar ſor-* |  |
 | `c1-l010` | &emsp;*tes. ¶* Cujidorini ſuru. *Lançar ſortes,* |  |
 | `c1-l011` | &emsp;*ou aueriguar a couſa com ſortes.* |  |
 | `c1-l012` | Cuji. *Bixigas. ¶* Cujiuo ſuru. T*er bi-* |  |

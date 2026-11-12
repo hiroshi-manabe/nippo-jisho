@@ -65,7 +65,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1b-l015` | &emsp;*o* cha. |  |
 | `c1b-l016` | Chaccocu. Cunini tçuqu. *Chegar ao Reino.* |  |
 | `c1b-l017` | &emsp;*¶* Gochaccocu naſareta. T*er chegado ao* |  |
-| `c1b-l018` | &emsp;*Reino algum ſenhor, ou* Tono. |  |
+| `c1b-l018` | &emsp;*Reino algum ſenhor, ou T*ono. |  |
 | `c1b-l019` | Chacinato. *Adu. Depreſſa.* |  |
 | `c1b-l020` | Chacǒ. *ajuntamento doſ que ſe ajuntaõ abeber* |  |
 | `c1b-l021` | &emsp;cha. |  |

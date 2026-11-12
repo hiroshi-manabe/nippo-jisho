@@ -20,7 +20,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1a-l004` | &emsp;zainafito. *Homem ſagaz, & eſperto.* |  |
 | `c1a-l005` | Cozaixǒ. *Certa dignidade de homẽs, & mo-* |  |
 | `c1a-l006` | &emsp;*lheres que ſeruem na caſa do Dairi*. |  |
-| `c1a-l007` | Cǒzan. Tacaiyama. *Monte alto.* |  |
+| `c1a-l007` | Cǒzan. *T*acaiyama. *Monte alto.* |  |
 | `c1a-l008` | Cozaſa. *Certa layade erua como caninhas curtas.* |  |
 | `c1a-l009` | Cozauaxi. *Hum genero de figos de Iapão.* |  |
 | `c1a-l010` | Cozaxiqi. *Caſa, ou camara pequena.* |  |

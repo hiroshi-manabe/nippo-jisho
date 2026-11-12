@@ -81,9 +81,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l007` | Denqi. Tçutaye xiruſu. *Eſcritura, ou li-* |  |
 | `c2-l008` | &emsp;*uro de historia.* |  |
 | `c2-l009` | Denquǒ. Inabicari. *Relampago.* |  |
-| `c2-l010` | Denſô. Tçutaye vocuru. *Mandar algũa* |  |
+| `c2-l010` | Denſô. *T*çutaye vocuru. *Mandar algũa* |  |
 | `c2-l011` | &emsp;*couſa a alguem, ou recebela dalguem.* |  |
-| `c2-l012` | Denſô, l, Tenſô. Tçutaye mǒſu. *Officio* |  |
+| `c2-l012` | Denſô, l, Tenſô. *T*çutaye mǒſu. *Officio* |  |
 | `c2-l013` | &emsp;*de porteiro, ou que da recado, & faz a ſaber* |  |
 | `c2-l014` | &emsp;*ao ſenhor o que uem de fora.* |  |
 | `c2-l015` | Denſui. Tano mizzu. *Agua das varzeas.* |  |

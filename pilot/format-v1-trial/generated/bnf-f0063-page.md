@@ -58,7 +58,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l042` | Bucureǒ. *Certa mezinha.* |  |
 | `c1-l043` | Bucuxocu. i. Cuimono. *Comer.* |  |
 | `c1-l044` | Bucuyacu. *Vt,* Bucuyacuſuru. i. Cuſuriuo |  |
-| `c1-l045` | &emsp;mochijru. *Tomar, ou beber mezinhas.* |  |
+| `c1-l045` | &emsp;mochijru. T*omar, ou beber mezinhas.* |  |
 | `c1-l046` | Bucuyô. Mochijru. *Comer. Item, Beber cha*, |  |
 | `c1-l047` | &emsp;*ou mezinhas, &c. ¶* Bucuyôſuru. *Idẽ.* |  |
 | `c1-l048` | Buda. niuoi vma. *Caualo de carga.* |  |

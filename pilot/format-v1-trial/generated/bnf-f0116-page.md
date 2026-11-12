@@ -91,7 +91,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l017` | Cobun. Furui fumi. *Eſcritura antigua.* |  |
 | `c2-l018` | &emsp;¶ *Item nome de hum certo liuro de bom es* |  |
 | `c2-l019` | &emsp;*tillo pera compor.* |  |
-| `c2-l020` | Cǒbun. Tçuguru fumi. *Carta, ou papel* |  |
+| `c2-l020` | Cǒbun. *T*çuguru fumi. *Carta, ou papel* |  |
 | `c2-l021` | &emsp;*em que ſe notifica algũa couſa certa a alguem.* |  |
 | `c2-l022` | Cǒbun. *Eſcritura de eſtilo alto, & excellẽte.* |  |
 | `c2-l023` | Cobune. *Embarcação pequena.* |  |

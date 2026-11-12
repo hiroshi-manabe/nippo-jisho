@@ -133,7 +133,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2b-l029` | &emsp;*mezas de peſsoa honrrada. ¶ Itẽ, Aca* |  |
 | `c2b-l030` | &emsp;*barſe, ou ceſſar alguã couſa. Vt,* Fu- |  |
 | `c2b-l031` | &emsp;xinga agaru. *Acabarenſe as obras, ou* |  |
-| `c2b-l032` | &emsp;*ceſsar dellas. ¶* Tçuyu, l, Nagaxiga |  |
+| `c2b-l032` | &emsp;*ceſsar dellas. ¶ T*çuyu, l, Nagaxiga |  |
 | `c2b-l033` | &emsp;agaru. *Acabaremſe as chuuas custuma-* |  |
 | `c2b-l034` | &emsp;*das no verão. ¶* Tenqiga agaru. *A-* |  |
 | `c2b-l035` | &emsp;*clararſe, ou concertarſe o tempo. ¶ Itẽ,* |  |

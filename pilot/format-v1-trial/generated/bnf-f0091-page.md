@@ -114,7 +114,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l034` | Caraſugaxira. *Iuntura dos oßos das pernas tra* |  |
 | `c2-l035` | &emsp;*zeiras do caualo.* |  |
 | `c2-l036` | Caraſuguchinaua. *Cobra preta.* |  |
-| `c2-l037` | Caraſumi. *Tinta da China. ¶ Item, Per-* |  |
+| `c2-l037` | Caraſumi. T*inta da China. ¶ Item, Per-* |  |
 | `c2-l038` | &emsp;*met. Certas ouas ſecas de peixe como trubò.* |  |
 | `c2-l039` | Caraſumugui. *Ioyo.* |  |
 | `c2-l040` | Caraſuuǒgui. *Hũa certa erua.* |  |

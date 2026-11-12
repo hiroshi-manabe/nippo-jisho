@@ -117,7 +117,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l043` | Acoda, l, acodauri. *Hũs meloẽs ama-* |  |
 | `c2-l044` | &emsp;*relos, & redondos.* |  |
 | `c2-l045` | Acogare, ruru, eta. *Affligirſe muito com* |  |
-| `c2-l046` | &emsp;*affecto, ou deſejo dalgũa couſa. ¶* Tçuqi, |  |
+| `c2-l046` | &emsp;*affecto, ou deſejo dalgũa couſa. ¶ T*çuqi, |  |
 | `c2-l047` | &emsp;fanani acogaruru. *Sentir grande apetite,* |  |
 
 ## Catchword

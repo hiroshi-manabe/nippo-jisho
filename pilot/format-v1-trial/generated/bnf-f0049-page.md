@@ -19,7 +19,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l003` | Baichi. *Terras compradas, ou arrendadas.* |  |
 | `c1-l004` | Baidori. *Tomar por força. ¶* Baidorini |  |
 | `c1-l005` | &emsp;ſuru. *Idem.* |  |
-| `c1-l006` | Baigachi. *Tomar oque ſe lança arrebatinhas.* |  |
+| `c1-l006` | Baigachi. T*omar oque ſe lança arrebatinhas.* |  |
 | `c1-l007` | &emsp;*¶ Vt,* Baigachini ſuru. *Idem.* |  |
 | `c1-l008` | Baiguet. *Lũa do quinto mez quando certas a-* |  |
 | `c1-l009` | &emsp;*meixeas a madurecem.* |  |

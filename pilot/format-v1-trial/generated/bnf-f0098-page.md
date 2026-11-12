@@ -117,7 +117,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l043` | Cauaguinu. *Veſtido de pelle.* |  |
 | `c2-l044` | Cauaguiri. *Neuoeiro, ou vapores que ſe ale-* |  |
 | `c2-l045` | &emsp;*uantão do rio.* |  |
-| `c2-l046` | Cauaguixi. *Terra hum pouco alta, ou barreca* |  |
+| `c2-l046` | Cauaguixi. T*erra hum pouco alta, ou barreca* |  |
 | `c2-l047` | &emsp;*que esta ao longo do rio.* |  |
 
 ## Catchword

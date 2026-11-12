@@ -33,7 +33,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l017` | &emsp;*vſão os* Bõzos. *¶ Item, Alicubi*, *alpar* |  |
 | `c1-l018` | &emsp;*cas de ſolas de couro.* |  |
 | `c1-l019` | Bicquai. *Adulterio, ou andar com molher* |  |
-| `c1-l020` | &emsp;*alhea. ¶* Tano tcumauo bicquai ſuru. |  |
+| `c1-l020` | &emsp;*alhea. ¶ T*ano tcumauo bicquai ſuru. |  |
 | `c1-l021` | &emsp;*Adulterar com molher alhea.* |  |
 | `c1-l022` | Bicǔ, l, bicǒ Fanano ana. *Vetas dos narizes.* |  |
 | `c1-l023` | Bicu. *Parte exterior das orelhas.* |  |

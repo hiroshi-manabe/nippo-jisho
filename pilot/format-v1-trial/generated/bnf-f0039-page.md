@@ -47,7 +47,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l031` | &emsp;*gatorio ao ſenhor. ¶* Vtteni ataru. *Serde* |  |
 | `c1-l032` | &emsp;*terminado do ſenhor por matador, ou executor da* |  |
 | `c1-l033` | &emsp;*morte dalguem. ¶ Itẽ,* Fitoni yô ataru, l, |  |
-| `c1-l034` | &emsp;axǔ ataru. *Tratar bem, ou mal a outros. ¶* |  |
+| `c1-l034` | &emsp;axǔ ataru. T*ratar bem, ou mal a outros. ¶* |  |
 | `c1-l035` | &emsp;*Itẽ,* Ataru. *Adeuinhar, ou acertar.* |  |
 | `c1-l036` | Atarizama. *Bom, ou mao tratamento.* |  |
 | `c1-l037` | Atatacana. *Couſa quente, ou temperada na* |  |
@@ -95,7 +95,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l015` | &emsp;tçucaiuo iruru. *Tratar de concertos, &* |  |
 | `c2-l016` | &emsp;*pazes.* |  |
 | `c2-l017` | Atçucai, ǒ, ǒta. *Tratar, negociar, ou* |  |
-| `c2-l018` | &emsp;*fazer concertos. ¶ Item, Tratar com as* |  |
+| `c2-l018` | &emsp;*fazer concertos. ¶ Item,* T*ratar com as* |  |
 | `c2-l019` | &emsp;*maõs, palauras, &c. ¶ Vt,* Cuchide a- |  |
 | `c2-l020` | &emsp;tçucǒ, tede atçucǒ, axide atçucǒ, &c. |  |
 | `c2-l021` | &emsp;*Tratar com a boca, mãos, ou pès.* |  |

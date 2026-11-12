@@ -90,7 +90,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l016` | &emsp;*tidade. ¶* Bacutaino go von. *Muitos be-* |  |
 | `c2-l017` | &emsp;*nefiçios.* |  |
 | `c2-l018` | Bacuxû. Mugui aqi, i. Goguachino jibun. |  |
-| `c2-l019` | &emsp;*Tempo em que o trigo, ou ceuada eſta de vez* |  |
+| `c2-l019` | &emsp;T*empo em que o trigo, ou ceuada eſta de vez* |  |
 | `c2-l020` | &emsp;*pera ſe ſegar.* |  |
 | `c2-l021` | Bacuyeqi. i. Bacuchi. *Iogo de dados,* |  |
 | `c2-l022` | &emsp;*tabolas &c. ¶* Bacuyeqi ſuru. *Iugar.* |  |

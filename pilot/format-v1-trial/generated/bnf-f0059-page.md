@@ -102,7 +102,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l022` | &emsp;*dir, ou dar o* ſacazzuqi *a alguem. Falando* |  |
 | `c2-l023` | &emsp;*com reſpeito da peßoa.* |  |
 | `c2-l024` | Bocujũ. i. Guenindomo. *Criados, & ſeruos.* |  |
-| `c2-l025` | Bocujǔ. Sumino xiru, l, ſuritaru ſumi. *Tĩta mo* |  |
+| `c2-l025` | Bocujǔ. Sumino xiru, l, ſuritaru ſumi. T*ĩta mo* |  |
 | `c2-l026` | &emsp;*ida liquida, como a que esta nos tinteiros de* |  |
 | `c2-l027` | &emsp;*Iapão, ou China.* |  |
 | `c2-l028` | Bocuri. *Tamancos, ou chiripos de pao.* |  |

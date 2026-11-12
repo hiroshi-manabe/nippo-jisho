@@ -89,7 +89,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l009` | Cada. *O faltar no que ſe ha de fazer por pri* |  |
 | `c2-l010` | &emsp;*guiça, ou negligencia. ¶* Vmano ca- |  |
 | `c2-l011` | &emsp;da. *Falta do caualo quando não quer andar,* |  |
-| `c2-l012` | &emsp;*&c. ¶* Cadauo ſuru. *Ter priguiça, ou* |  |
+| `c2-l012` | &emsp;*&c. ¶* Cadauo ſuru. T*er priguiça, ou* |  |
 | `c2-l013` | &emsp;*fazer com priguiça, & negligencia as couſas.* |  |
 | `c2-l014` | Cadamaxij. *Vt,* Cadamaxij fito. *Homẽ* |  |
 | `c2-l015` | &emsp;*maliçioſo, ou que dißimula, & finge algũa* |  |
@@ -121,7 +121,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l041` | Cado. *Eſquina, canto, ou ponta aguda, ou* |  |
 | `c2-l042` | &emsp;*aleuantada de algũa couſa. ¶* Meni ca- |  |
 | `c2-l043` | &emsp;douo tatçuru. *Mostrarſe irado nos olhos.* |  |
-| `c2-l044` | &emsp;*¶* Cadoga tatçu. *Ter a couſa pontas, ou* |  |
+| `c2-l044` | &emsp;*¶* Cadoga tatçu. T*er a couſa pontas, ou* |  |
 | `c2-l045` | &emsp;*cantos. ¶ Item,* Cadoga tatçu. *Se* |  |
 | `c2-l046` | &emsp;*diz nas obras, & cuſtumes que dão nos o-* |  |
 | `c2-l047` | &emsp;*lhos, ou ſão notados.* Cado cadoxi. *Couſa de* |  |

@@ -83,7 +83,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l003` | Cangǒ xen. *Nome de hũas embarcaçoẽs an* |  |
 | `c2-l004` | &emsp;*tiguas que hião de Iapão à China.* |  |
 | `c2-l005` | Cangi. Samui tçuchi. T*erra fria.* |  |
-| `c2-l006` | Cangi. Cauaita tçuchi. *Terra ſeca, &* |  |
+| `c2-l006` | Cangi. Cauaita tçuchi. T*erra ſeca, &* |  |
 | `c2-l007` | &emsp;*eſteril.* |  |
 | `c2-l008` | Cangiǒ. Cangaye ſadamuru. *O tomar, ou* |  |
 | `c2-l009` | &emsp;*dar conta. Vt,* Cangiǒuo toguru. *Dar* |  |

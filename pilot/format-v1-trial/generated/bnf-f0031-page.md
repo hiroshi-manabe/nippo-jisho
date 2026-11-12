@@ -92,7 +92,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2a-l012` | Anxin. Yaſuqi mi. *Estar em quietação.* |  |
 | `c2a-l013` | Anxo. Sǒan. *Minuta de carta, ou borrão* |  |
 | `c2a-l014` | &emsp;*de couſa que ſe hade eſcreuer em limpo.* |  |
-| `c2a-l015` | Anxǒ. Tçucuyeno vye. *Encima do banco,* |  |
+| `c2a-l015` | Anxǒ. *T*çucuyeno vye. *Encima do banco,* |  |
 | `c2a-l016` | &emsp;*ou eſcabello, ou meza.* |  |
 | `c2a-l017` | Anya. Yamino yo. *Noite eſcura.* |  |
 | `c2a-l018` | Anyǒcai. i. Gocuracu. *Paraiſo de* Amida. |  |

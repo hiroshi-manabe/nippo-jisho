@@ -121,7 +121,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2b-l008` | &emsp;*honrrãdo a peßoa que veo rodeando, & cõ tra-* |  |
 | `c2b-l009` | &emsp;*balho no* Norimono. |  |
 | `c2b-l010` | Ca. Cǒbaxij. *Cheiro, ou perfume. ¶* Ca- |  |
-| `c2b-l011` | &emsp;ga vtçuru. *Tomar algũa couſa, ou cheiro de* |  |
+| `c2b-l011` | &emsp;ga vtçuru. T*omar algũa couſa, ou cheiro de* |  |
 | `c2b-l012` | &emsp;*outra. ¶* Caga qicoyuru. *Sentir ſe bom* |  |
 | `c2b-l013` | &emsp;*cheiro. ¶* Cauo tomuru. *Perfumarſe,* |  |
 | `c2b-l014` | &emsp;*ou perfumar os vestidos. ¶* Cauo xitǒ. |  |

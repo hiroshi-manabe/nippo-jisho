@@ -38,11 +38,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l022` | Cacayaqi, u, aita. *Reſplandecer, ou luzir.* |  |
 | `c1-l023` | Cacayaqi vatari, ru, atta. *Reſplandecer* |  |
 | `c1-l024` | &emsp;*muito, ou por todas as partes.* |  |
-| `c1-l025` | Cacaye, uru, eta. *Ter mão em algũa couſa,* |  |
+| `c1-l025` | Cacaye, uru, eta. T*er mão em algũa couſa,* |  |
 | `c1-l026` | &emsp;*ou ſostentar a couſa que quer cair. ¶ Item,* |  |
 | `c1-l027` | &emsp;*Defender a alguem recolhendoo. ¶* Xirouo |  |
 | `c1-l028` | &emsp;cacayuru. *Sostentar, & defender a forta-* |  |
-| `c1-l029` | &emsp;*leza. ¶* Fitouo cacayuru. *Tomar a al* |  |
+| `c1-l029` | &emsp;*leza. ¶* Fitouo cacayuru. T*omar a al* |  |
 | `c1-l030` | &emsp;*guem em ſeu ſeruiço, & ſostentalo.* |  |
 | `c1-l031` | Cacaye voqi, u, oita. *Sostentar a alguem* |  |
 | `c1-l032` | &emsp;*& tomalo em ſeu ſeruiç o.* |  |

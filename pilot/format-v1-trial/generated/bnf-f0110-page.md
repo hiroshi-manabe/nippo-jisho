@@ -17,7 +17,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l001` | Chocan. *Hum certo comer doce, que fazem* |  |
 | `c1-l002` | &emsp;*de feijoẽs, aſuquere, &c àſemelhança de hũ* |  |
 | `c1-l003` | &emsp;*comer que fazem na China como ſarapatel.* |  |
-| `c1-l004` | Chôcan. Tçurizauo. *Cana de peſcar.* |  |
+| `c1-l004` | Chôcan. *T*çurizauo. *Cana de peſcar.* |  |
 | `c1-l005` | Chocca. Miuoroſu. i. Fitouo vare yorimo |  |
 | `c1-l006` | &emsp;ſagattato miru coto. *O ver a baixando a* |  |
 | `c1-l007` | &emsp;*peßoa que ſe vè.* |  |

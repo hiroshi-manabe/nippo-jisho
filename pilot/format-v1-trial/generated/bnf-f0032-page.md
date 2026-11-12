@@ -40,7 +40,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l024` | Aqi. *Outono. ¶* Aqi fuquru, l, taqu- |  |
 | `c1-l025` | &emsp;ru. P. *Ter paſſado boa parte do Outo-* |  |
 | `c1-l026` | &emsp;*no. ¶* Aqiga tatçu. *Começarſe o Outo-* |  |
-| `c1-l027` | &emsp;*no. ¶* Tatçu aqi. i. Rixxû. *Princi-* |  |
+| `c1-l027` | &emsp;*no. ¶ T*atçu aqi. i. Rixxû. *Princi-* |  |
 | `c1-l028` | &emsp;*pio do Outono.* |  |
 | `c1-l029` | Aqi, u, aita. *Enfastiarſe, ou enfadarſe cõ* |  |
 | `c1-l030` | &emsp;*algũa couſa, ou fartarſe atè mais não poder.* |  |

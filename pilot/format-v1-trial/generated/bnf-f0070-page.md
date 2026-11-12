@@ -42,7 +42,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l026` | Cacai. Mifaxini cuuauaru. i. Curaini agaru. |  |
 | `c1-l027` | &emsp;*Subir em dignidade. ¶* Quancacai. *O* |  |
 | `c1-l028` | &emsp;*ſobir a dignidade, cargo, ou officio.* |  |
-| `c1-l029` | Cacarai, ǒ, ǒta. *Tocar nalgũa couſa, ou ter* |  |
+| `c1-l029` | Cacarai, ǒ, ǒta. T*ocar nalgũa couſa, ou ter* |  |
 | `c1-l030` | &emsp;*deuer, &c. B.* |  |
 | `c1-l031` | Cacari, u, atta. *Pendurarſe, ou estar depen* |  |
 | `c1-l032` | &emsp;*durado. ¶* Caguini cacaru. *Eſta depẽ* |  |

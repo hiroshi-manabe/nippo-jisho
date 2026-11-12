@@ -102,7 +102,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l022` | &emsp;tamagoga cayetta. *Sairem os pintãos, ou* |  |
 | `c2-l023` | &emsp;*paſſarinhos dos ouos.* |  |
 | `c2-l024` | Cayeracaxi, ſu, aita. Vt Caigo, l, tamagouo |  |
-| `c2-l025` | &emsp;cayeracaſu. *Tirar a galinha, ou outro paſ-* |  |
+| `c2-l025` | &emsp;cayeracaſu. T*irar a galinha, ou outro paſ-* |  |
 | `c2-l026` | &emsp;*ſaro os filhos da caſca. ¶ Item, Fazendo* |  |
 | `c2-l027` | &emsp;*chocar a galinha fazer tirar os ouos, &c.* |  |
 | `c2-l028` | Cayeri axi. *Tornada. Vt,* Cari no Cayeri- |  |

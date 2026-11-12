@@ -82,7 +82,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l008` | Caſume, uru, eta. *Eſcureçer, ou offuſcar,* |  |
 | `c2-l009` | &emsp;*& palear de maneira que não pareça o que he.* |  |
 | `c2-l010` | &emsp;*¶* Riuoji caſumuru. *Palear a rezão.* |  |
-| `c2-l011` | Caſumetori, u, otta. *Tomar algũa couſa por* |  |
+| `c2-l011` | Caſumetori, u, otta. T*omar algũa couſa por* |  |
 | `c2-l012` | &emsp;*engano.* |  |
 | `c2-l013` | Caſumi. *Neuoa, ou vapor. ¶ Item, Fu-* |  |
 | `c2-l014` | &emsp;*mo, ou bafo do vinho, ou vinagre, &c. quã* |  |

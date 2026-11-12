@@ -32,7 +32,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l016` | Fiǒxa, l, feǒxa. Tçuuamonono curuma. |  |
 | `c1-l017` | &emsp;*Carro do fato, &c. dos ſoldados, ou carrua-* |  |
 | `c1-l018` | &emsp;*gem do exercito.* |  |
-| `c1-l019` | Fiǒxen, l, feǒxen. Tçuuamonono fune. i, |  |
+| `c1-l019` | Fiǒxen, l, feǒxen. *T*çuuamonono fune. i, |  |
 | `c1-l020` | &emsp;Icuſabune. *Armada. ¶* Fiǒxenuo ſo- |  |
 | `c1-l021` | &emsp;royuru. *Fazer frota, ou ajuntar nauios* |  |
 | `c1-l022` | &emsp;*darmada.* |  |

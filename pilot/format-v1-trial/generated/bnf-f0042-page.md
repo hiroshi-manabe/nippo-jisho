@@ -21,7 +21,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l005` | &emsp;xeni camiuo coxinayuru. *Fazer pasta de* |  |
 | `c1-l006` | &emsp;*duas folhas &c.* |  |
 | `c1-l007` | Auaxe, auaſuru, auaxeta. *Ajuntar hũa* |  |
-| `c1-l008` | &emsp;*couſa com outra ¶* Teuo auaſuru. |  |
+| `c1-l008` | &emsp;*couſa com outra ¶ T*euo auaſuru. |  |
 | `c1-l009` | &emsp;*Aleuantar as maõs juntas. ¶* San- |  |
 | `c1-l010` | &emsp;yôuo auaſuru. *Fazer contas. ¶* Fiǒgui- |  |
 | `c1-l011` | &emsp;uo auaſuru. *Concertarſe & concordar com ou-* |  |

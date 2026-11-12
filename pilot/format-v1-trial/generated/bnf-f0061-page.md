@@ -117,7 +117,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l037` | Botan. *Erua, ou roſa aßi chamada.* |  |
 | `c2-l038` | Botbot. Fucaxi fucaxi. *Couſa profunda.* |  |
 | `c2-l039` | Botdeqi. Xizzumi, voboruru. *O afogarſe.* |  |
-| `c2-l040` | Boten. Cureno ſora. *Tempo do ſol poſto, ou* |  |
+| `c2-l040` | Boten. Cureno ſora. T*empo do ſol poſto, ou* |  |
 | `c2-l041` | &emsp;*datarde.* |  |
 | `c2-l042` | Bǒtô. Bǒno caxira. *Cabeça do bordão, ou* |  |
 | `c2-l043` | &emsp;*bastão. ¶ Prouerb.* Bǒtôni manaco |  |

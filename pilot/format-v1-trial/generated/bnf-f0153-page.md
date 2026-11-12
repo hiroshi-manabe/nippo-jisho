@@ -28,7 +28,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1a-l012` | &emsp;*do de varãda que ſe faz ſaida hũ pouco fora* |  |
 | `c1a-l013` | &emsp;*da caſa. ¶* Xirono daxi. *Lugar forte* |  |
 | `c1a-l014` | &emsp;*que ſe faz hum pouco fora da fortaleza.* |  |
-| `c1a-l015` | Daxi, ſu, aita. *Tirar fora, ou fazer ſair. Vt,* |  |
+| `c1a-l015` | Daxi, ſu, aita. T*irar fora, ou fazer ſair. Vt,* |  |
 | `c1a-l016` | &emsp;Funeuo daſu. *Fazer ſair, ou partir a em* |  |
 | `c1a-l017` | &emsp;*barcação. ¶* Cotobauo daſu. *Falar.* |  |
 | `c1a-l018` | &emsp;*¶* Teuo daſu. *Começar, ou dar principio* |  |

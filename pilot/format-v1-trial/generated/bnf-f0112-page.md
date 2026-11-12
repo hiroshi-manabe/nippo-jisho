@@ -96,7 +96,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l021` | Chôxei. Torino coye. *Voz do paßaro.* |  |
 | `c2-l022` | Chôxeiden. *Nome de hũa caſa, que està* |  |
 | `c2-l023` | &emsp;*dentro nos paßos del Rei.* |  |
-| `c2-l024` | Chôxen. Tçuribune. *Embarcação peſca-* |  |
+| `c2-l024` | Chôxen. *T*çuribune. *Embarcação peſca-* |  |
 | `c2-l025` | &emsp;*reza.* |  |
 | `c2-l026` | Chôxeqi. Aſa yǔ. *Pollamenhaã, & à tarde.* |  |
 | `c2-l027` | Chǒxi. Sôriǒgo. *Filho mòrgado.* |  |
@@ -107,7 +107,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l032` | &emsp;rô. *Concordarẽ as vozes, ou tom da muſica,* |  |
 | `c2-l033` | &emsp;*ou deſcante.* |  |
 | `c2-l034` | Chôxin. *Criado priuado, ou q̃ contẽta ao ſenhor.* |  |
-| `c2-l035` | Chôxin. Totonoye xinzuru. *Aparelhan-* |  |
+| `c2-l035` | Chôxin. *T*otonoye xinzuru. *Aparelhan-* |  |
 | `c2-l036` | &emsp;*do, ou negociando algũa couſa dala, ou offe-* |  |
 | `c2-l037` | &emsp;*recella. Vt,* Chôxin mǒſu, l, ſuru. |  |
 | `c2-l038` | Chôxǒ. Maneqi xǒzuru. i. Fitouo xǒ- |  |

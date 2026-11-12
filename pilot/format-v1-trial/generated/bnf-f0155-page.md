@@ -65,7 +65,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1b-l024` | &emsp;*do vinho, agua, &c.* |  |
 | `c1b-l025` | Dobumeqi, qu, ita. *Chocalhar, ou ſoar a-* |  |
 | `c1b-l026` | &emsp;*gua, vinho na vaſilha.* |  |
-| `c1b-l027` | Dobut. Tçuchibotoqe. *Idolo feito de barro.* |  |
+| `c1b-l027` | Dobut. *T*çuchibotoqe. *Idolo feito de barro.* |  |
 | `c1b-l028` | Dobutçuqi, u, uita. *Baſcolejarſe agua,* |  |
 | `c1b-l029` | &emsp;*vinho, &c. em algũa vaſilha.* |  |
 | `c1b-l030` | Dǒca. *Em baixo, ou àporta dos paços do Rei.* |  |
@@ -115,7 +115,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l026` | Docomo. *Por todas as partes, ou ẽ toda aparte.* |  |
 | `c2-l027` | Docomo, caxicomo. *Idem.* |  |
 | `c2-l028` | Dôcon. Vonaji ne. *A meſma raiz, ou* |  |
-| `c2-l029` | &emsp;*principio. Vt,* Tenchi dôcon. *O ceo, &* |  |
+| `c2-l029` | &emsp;*principio. Vt, T*enchi dôcon. *O ceo, &* |  |
 | `c2-l030` | &emsp;*a terra tem omeſmo principio. S.* |  |
 | `c2-l031` | Doconimo. *Em toda parte.* |  |
 | `c2-l032` | Docono. *Dedonde ou de que lugar. Vt,* |  |

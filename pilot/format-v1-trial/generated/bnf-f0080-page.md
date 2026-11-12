@@ -26,7 +26,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l010` | Camaye, ru, eta. *Cercar, ou aparelhar, ou* |  |
 | `c1-l011` | &emsp;*concertar. ¶* Xirouo camayuru. *Cercar,* |  |
 | `c1-l012` | &emsp;*& concertar a fortaleza. ¶* Buxǒuo ca- |  |
-| `c1-l013` | &emsp;mayuru. *Ter priguiça. ¶* Yocuuo ca |  |
+| `c1-l013` | &emsp;mayuru. T*er priguiça. ¶* Yocuuo ca |  |
 | `c1-l014` | &emsp;mayuru. *Cubiçar, ou grangear com cubiça.* |  |
 | `c1-l015` | &emsp;*¶* Yaxinuo camayuru. *Fazer traição.* |  |
 | `c1-l016` | &emsp;*¶* Yari, catana nadouo camayete iru. *Eſ* |  |
@@ -51,7 +51,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l035` | Cami. *Cabellos da cabeça. ¶* Camiga ta- |  |
 | `c1-l036` | &emsp;tçu. *Arrepiarem ſe os cabellos. ¶* Ca- |  |
 | `c1-l037` | &emsp;miuo ſoru. *Rapar a cabeça. ¶* Cami- |  |
-| `c1-l038` | &emsp;ga chigimu. *Ter os cabellos creſpos. ¶* Ca |  |
+| `c1-l038` | &emsp;ga chigimu. T*er os cabellos creſpos. ¶* Ca |  |
 | `c1-l039` | &emsp;miuo nazzuru. *Affagar pondo a mão polla* |  |
 | `c1-l040` | &emsp;*cabeça. ¶* Camino vochi. *Cabellos que* |  |
 | `c1-l041` | &emsp;*caem da cabeça das molheres.* |  |

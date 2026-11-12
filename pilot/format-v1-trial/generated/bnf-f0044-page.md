@@ -20,8 +20,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l004` | Axiai, ǒ. *Ir a poz a caça.* |  |
 | `c1-l005` | Axiato. *Pègada, ou rasto. ¶* Axiatouo |  |
 | `c1-l006` | &emsp;tçunagu. *Ir pollo rasto, ou pègadas de alguẽ.* |  |
-| `c1-l007` | Axiba. *Lugar, ou estançia. ¶* Teqiga axi- |  |
-| `c1-l008` | &emsp;bauo toru. *Tomar a estancia, ou arrayal dos* |  |
+| `c1-l007` | Axiba. *Lugar, ou estançia. ¶ T*eqiga axi- |  |
+| `c1-l008` | &emsp;bauo toru. T*omar a estancia, ou arrayal dos* |  |
 | `c1-l009` | &emsp;*inimigos. ¶* Axibano yoitocoro. *Lu-* |  |
 | `c1-l010` | &emsp;*gar bom para estar, paßear, &c.* |  |
 | `c1-l011` | Axibayana, l, axibayai. *Ligeiro dos pès* |  |
