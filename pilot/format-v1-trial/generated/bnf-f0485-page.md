@@ -29,14 +29,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l013` | &emsp;*gear, ou falar meiguices.* |  |
 | `c1-l014` | Tçuixu. *Vaſo, ou outra obra de varios lauores* |  |
 | `c1-l015` | &emsp;*com tintas, & molduras, que vem da China.* |  |
-| `c1-l016` | *T*çuiyari. *Lanças do meſmo tamanho, fei-* |  |
+| `c1-l016` | *Tç*uiyari. *Lanças do meſmo tamanho, fei-* |  |
 | `c1-l017` | &emsp;*tio, &c.* |  |
 | `c1-l018` | Tçuiyaxi, ſu, ita. l, Tçuyaxi, ſu. *Gaſ-* |  |
 | `c1-l019` | &emsp;*tar mal, ou eſperdiçar. Vt, T*acarauo tçuiyaſu. |  |
 | `c1-l020` | Tçuiye, uru, eta. l, *T*çuye, uru. *Eſperdi-* |  |
 | `c1-l021` | &emsp;*çarſe, ou gaſtarſe mal algua couſa. Vide T*çu- |  |
 | `c1-l022` | &emsp;ye, uru. |  |
-| `c1-l023` | *T*çuiye. *Gaſto, perda, ou cuſtos. ¶ T*çui- |  |
+| `c1-l023` | *T*çuiye. *Gaſto, perda, ou cuſtos. ¶ Tç*ui- |  |
 | `c1-l024` | &emsp;yeni naru. *Ser, ou fazerſe perda, cuſto, &c.* |  |
 | `c1-l025` | *T*çuijen. *Saimẽto, ou comẽdação por defũto.* |  |
 | `c1-l026` | *T*çǔji, zuru, ita. *Communicarſe. Vt,* Co- |  |
@@ -80,7 +80,7 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c2-l001` | Tçujiguiri. *Os que andão de noite matando nas* |  |
 | `c2-l002` | &emsp;*encruzilhadas.* |  |
-| `c2-l003` | *T*çujimaqi. *Redemoinho de vento.* X. |  |
+| `c2-l003` | *Tç*ujimaqi. *Redemoinho de vento.* X. |  |
 | `c2-l004` | Tçujimoto. *Caſa como oratorio, onde ſe ajũ-* |  |
 | `c2-l005` | &emsp;*tão a fazer oração, &c. os Icòxus. ¶ Itẽ,* |  |
 | `c2-l006` | &emsp;*homem caſado que he como meſtre dos Icǒxus.* |  |
@@ -117,7 +117,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l037` | &emsp;uo tçumaguru. *Dar voltas à ſeta ſobre a* |  |
 | `c2-l038` | &emsp;*vnha do dedo polegar pera ver ſe eſtà torta, ou* |  |
 | `c2-l039` | &emsp;*direita. ¶* Yauo tçumayoru. *Idem.* |  |
-| `c2-l040` | *T*çumajiro. *Certa eſpecie de carangrejos q̃ tem* |  |
+| `c2-l040` | *Tç*umajiro. *Certa eſpecie de carangrejos q̃ tem* |  |
 | `c2-l041` | &emsp;*as vnhas brancas. ¶ Item, Mãos brancas co-* |  |
 | `c2-l042` | &emsp;*mo de cão, &c.* V*t,* Cono inuua tçu- |  |
 | `c2-l043` | &emsp;majirogia. *Eſte cão tem as mãos brancas.* |  |

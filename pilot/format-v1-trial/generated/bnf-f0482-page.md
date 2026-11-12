@@ -120,7 +120,7 @@ Lexical cross-check: supplied NINJAL Entry Words Data of Nippojisho, version 202
 | `c2-l044` | Tçucurigauo. *Rosto fingido, ou contrafeito.* |  |
 | `c2-l045` | Tçucuridaxi, ſu, aita. *Fazer de nouo, ou* |  |
 | `c2-l046` | &emsp;*inuentar algũa couſa de mãos. ¶ Item, Fin* |  |
-| `c2-l047` | &emsp;*gir de ſi, ou de nouo algũa couſa. Vt, T*çu |  |
+| `c2-l047` | &emsp;*gir de ſi, ou de nouo algũa couſa. Vt, Tç*u |  |
 
 ## Printed catchword
 

@@ -22,7 +22,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l006` | &emsp;*tasſeguindo. ¶* Q iga tçuzzucanu. *Não* |  |
 | `c1-l007` | &emsp;*ſe continuar o folego com bradar, &c.* |  |
 | `c1-l008` | *T*çuzzura. *Ceſto, ou canaſtra de vimes, ou rota.* |  |
-| `c1-l009` | *T*çuzzure, l, tçuzzuri. *Farrapo velho, ou* |  |
+| `c1-l009` | *Tç*uzzure, l, tçuzzuri. *Farrapo velho, ou* |  |
 | `c1-l010` | &emsp;*veſtido muito remendado.* |  |
 | `c1-l011` | Tçuzzuri, ru, utta. *Remendar, & coſer* |  |
 | `c1-l012` | &emsp;*couſa rota como veſtido, &c. ¶ ,* Cotoba- |  |

@@ -95,7 +95,7 @@ Lexical reference consulted after independent scan reading: NINJAL, *Entry Words
 | `c2-l019` | &emsp;*da breue q̃ logo ſe acaba como orualho. ¶* Tçu |  |
 | `c2-l020` | &emsp;yufodomo zonjenu. l. itaſanu. *O não ſaber,* |  |
 | `c2-l021` | &emsp;*ou não fazer nẽ hũ tamanino dalgũa couſa.* |  |
-| `c2-l022` | Tçuyu. *Chuuas grãdes, & continuadas q̃ ha em* |  |
+| `c2-l022` | T*ç*uyu. *Chuuas grãdes, & continuadas q̃ ha em* |  |
 | `c2-l023` | &emsp;*certo tempo do verão. No* Ximo, Nagaxi. |  |
 | `c2-l024` | Tçuyucuſa. *Hũa certa erua pequena.* |  |
 | `c2-l025` | Tçuyu farai. *O ſair no principio do auto por* |  |

@@ -24,7 +24,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l008` | Tçumamigvi. *O comer aqui, & ali, como go-* |  |
 | `c1-l009` | &emsp;*loſo apanhando algũas couſinhas às eſcondidas.* |  |
 | `c1-l010` | &emsp;*Vt,* Tçumamigviuo ſuru. |  |
-| `c1-l011` | *T*çumane. *Raiz, ou arreigada da vnha.* |  |
+| `c1-l011` | *Tç*umane. *Raiz, ou arreigada da vnha.* |  |
 | `c1-l012` | Tçumaqiri. *Canuete, ou ferro pera cortar* |  |
 | `c1-l013` | &emsp;*vnhas.* |  |
 | `c1-l014` | Tçumaſaqi. *Ponta da vnha.* |  |
@@ -57,7 +57,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l041` | &emsp;*rigos, &c.* |  |
 | `c1-l042` | Tçume. *O mais alto da fortaleza. Vt,* Xi- |  |
 | `c1-l043` | &emsp;rono tçume. |  |
-| `c1-l044` | Tçume. *Vnha. ¶* Tçumeuo qiru. l, ro- |  |
+| `c1-l044` | T*ç*ume. *Vnha. ¶* Tçumeuo qiru. l, ro- |  |
 | `c1-l045` | &emsp;ru. *Cortar as vnhas. ¶* Tçumeuo v- |  |
 | `c1-l046` | &emsp;tçu. *Cortar as vnhas dos caualos.* |  |
 | `c1-l047` | Tçume, uru, eta. *Apertar, ou atochar.* |  |
@@ -102,7 +102,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l028` | Tçumegin. *Exercito pera dar em algũa for-* |  |
 | `c2-l029` | &emsp;*taleza, ou exercito que eſtà muito chegado, &* |  |
 | `c2-l030` | &emsp;*fronteiro aos inimigos.* |  |
-| `c2-l031` | Tçumegoi. *O pedir com efficacia, & imper-* |  |
+| `c2-l031` | T*ç*umegoi. *O pedir com efficacia, & imper-* |  |
 | `c2-l032` | &emsp;*tunamẽte. Vt,* Tçumegoinicô. *O meſmo.* |  |
 | `c2-l033` | Tçumegoroxi. *O matar a alguem ſecretamẽ-* |  |
 | `c2-l034` | &emsp;*te, & ſem o deixar falar palaura.* |  |

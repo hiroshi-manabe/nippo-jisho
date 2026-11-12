@@ -75,7 +75,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l001` | *T*çui. *Palaura que jũta aos verbos denota preſ-* |  |
 | `c2-l002` | &emsp;*ſa, ou algũa energia, & vigor, & às vezes* |  |
 | `c2-l003` | &emsp;*no mais q̃ elegancia. Vt, T*çui caqu. *Eſ-* |  |
-| `c2-l004` | &emsp;*creuer depreßa, ou facilmente. ¶ T*çuimo- |  |
+| `c2-l004` | &emsp;*creuer depreßa, ou facilmente. ¶ Tç*uimo- |  |
 | `c2-l005` | &emsp;doru. *Tornar depreßa. ¶ T*çuifataſu, |  |
 | `c2-l006` | &emsp;*Acabar algũa couſa depreßa.* |  |
 | `c2-l007` | *T*çui. *Couſa ſemelhante, ou correſpõdãte a outra.* |  |
