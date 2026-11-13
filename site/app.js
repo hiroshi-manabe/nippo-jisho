@@ -909,13 +909,17 @@ function updateColumnNavigation() {
   top.innerHTML = visible ? columnNavigationHTML('column-nav-inline').replace(/^<nav[^>]*>|<\/nav>$/g, '') : '';
 }
 
-function entryPlainText(page, startId) {
+function entryPlainText(page, startId, edits = {}) {
   const lines = page.zones.filter(zone => zone.kind === 'column').flatMap(zone => zone.lines);
   const start = lines.findIndex(line => line.id === startId);
   if (start < 0 || lines[start].indent) return '';
-  const entry = [lines[start].text];
+  const textFor = line => {
+    const after = edits[line.id]?.after;
+    return typeof after === 'string' ? NippoQuickEdit.parse(after).text ?? line.text : line.text;
+  };
+  const entry = [textFor(lines[start])];
   for (let index = start + 1; index < lines.length && lines[index].indent; index++) {
-    entry.push(lines[index].text);
+    entry.push(textFor(lines[index]));
   }
   return entry.join('\n');
 }
@@ -1570,7 +1574,8 @@ async function copyLineReference(control) {
 }
 
 async function copyEntry(control) {
-  const entry = entryPlainText(state.currentPage, control.dataset.copyEntry);
+  const page = state.currentPage;
+  const entry = entryPlainText(page, control.dataset.copyEntry, pageEdits(page));
   if (!entry) return;
   if (await copyText(entry)) toast('Copied entry');
   else prompt('Copy this entry:', entry);

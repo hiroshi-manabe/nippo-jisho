@@ -651,6 +651,7 @@ equal(q.align('foo, bar.', 'foo bar.').deletions.map(item => [item.character, it
 const fs = require('fs'), assert = require('assert');
 const app = fs.readFileSync('site/app.js', 'utf8');
 const helpers = app.slice(app.indexOf('function entryPlainText('), app.indexOf('function continuousHTML('));
+const NippoQuickEdit = require('./site/quick-edit.js');
 const escapeHTML = text => text;
 eval(helpers + `
 const page = {zones: [
@@ -665,6 +666,12 @@ assert.strictEqual(entryPlainText(page, 'start'), 'Tame. cõmum-\\nmente. ¶ Vt,
 assert.strictEqual(entryPlainText(page, 'next'), '');
 assert.strictEqual(entryPlainText(page, 'header'), '');
 assert.strictEqual(entryPlainText(page, 'new'), 'Tameire.');
+assert.strictEqual(entryPlainText(page, 'start', {
+  start: {after: '[Tame.] {comum-}', note_after: 'not copied'},
+  next: {after: 'mente. ¶ Vt.', message: 'not copied'},
+  new: {after: 'Outside the entry.'}
+}), 'Tame. comum-\\nmente. ¶ Vt.');
+assert.strictEqual(entryPlainText(page, 'new', {new: {after: '{invalid'}}), 'Tameire.');
 assert.match(copyEntryButton(page.zones[0].lines[0]), /data-copy-entry="start"/);
 assert.strictEqual(copyEntryButton(page.zones[2].lines[0]), '');
 `);
