@@ -17,7 +17,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l001` | &emsp;*uerno da Tenca. ¶* Yauo tamotçu. *Ter,* |  |
 | `c1-l002` | &emsp;*ou eſperar com a frecha no arco pera tirar.* |  |
 | `c1-l003` | &emsp;*¶* Gouoqiteuo tamotçu. *Guardar a ley* |  |
-| `c1-l004` | &emsp;*ſancta. ¶* Inochiuotamotçu. *Viuer, ou* |  |
+| `c1-l004` | &emsp;*ſancta. ¶* Inochiuo tamotçu. *Viuer, ou* |  |
 | `c1-l005` | &emsp;*eſtar com vida.* |  |
 | `c1-l006` | Tamochitodoqe, uru, eta. *Perſeuerar na* |  |
 | `c1-l007` | &emsp;*guarda, ou obſeruancia de algũa couſa.* |  |
@@ -30,7 +30,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l014` | *T*amot. i, *T*ano mono. *Couſa alhea.* |  |
 | `c1-l015` | Tamoto. *Bolſo da manga. ¶ T*amotouo |  |
 | `c1-l016` | &emsp;nuraſu. *P. Chorar. T*amotono cauaqu |  |
-| `c1-l017` | &emsp;fimamonaxi. *Chorar muito. ¶ T*amo- |  |
+| `c1-l017` | &emsp;fimamo naxi. *Chorar muito. ¶ T*amo- |  |
 | `c1-l018` | &emsp;toni toritçuqu. l, ſugaru. *Pegarſe, ou* |  |
 | `c1-l019` | &emsp;*afferrarſe das mangas. ¶ T*amotouo fi- |  |
 | `c1-l020` | &emsp;cayuru. l, fiqitodomuru. *Deter a alguem* |  |
@@ -39,16 +39,16 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l023` | &emsp;*ou ſacrificio.* |  |
 | `c1-l024` | *T*amuqe, uru, eta. *Offerecer, ou por diante* |  |
 | `c1-l025` | &emsp;*do idolo, ou defuncto. ¶* Chatǒ, fana, |  |
-| `c1-l026` | &emsp;cǒuo tamuquru. *Offerecer diantedo Foto-* |  |
-| `c1-l027` | &emsp;*que, ou do morto cha, & fulhas, ou pòs de hũa* |  |
+| `c1-l026` | &emsp;cǒuo tamuquru. *Offerecer diante do Foto-* |  |
+| `c1-l027` | &emsp;*que, ou do morto cha, & folhas, ou pòs de hũa* |  |
 | `c1-l028` | &emsp;*aruore como loureiro que poem ſobre a cinza,* |  |
 | `c1-l029` | &emsp;*& vai ardendo pouco a pouco. ¶ Item, Offe-* |  |
-| `c1-l030` | &emsp;*recer, ou fazerſacrificio a Deos.* |  |
+| `c1-l030` | &emsp;*recer, ou fazer ſacrificio a Deos.* |  |
 | `c1-l031` | *T*amura. Bechino mura. *Outro lugar, ou* |  |
 | `c1-l032` | &emsp;*pouoação.* |  |
 | `c1-l033` | *T*amuxi. *Empingem. ¶* Tamuxiga dequru. |  |
 | `c1-l034` | &emsp;*Nacer ẽpingẽ. ¶ T*amuxiga firogaru. *Estẽ-* |  |
-| `c1-l035` | &emsp;*derſe, ou ir lastrando a empingẽ. ¶ T*amuxiga |  |
+| `c1-l035` | &emsp;*derſe, ou ir laurando a empingẽ. ¶ T*amuxiga |  |
 | `c1-l036` | &emsp;cuimauaru. *Ir a empingẽ comẽdo, ou laurãdo.* |  |
 | `c1-l037` | *T*an. *Tinta vermelha clara em pò, que ſerue* |  |
 | `c1-l038` | &emsp;*tambem pera mezinha.* |  |
@@ -57,7 +57,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l041` | *T*ana. *Almario, ou parteleiro.* |  |
 | `c1-l042` | *T*anabata. *Duas estrellas aßi chamadas que e-* |  |
 | `c1-l043` | &emsp;*ſtão na via lactea de fronte hũa da outra.* |  |
-| `c1-l044` | &emsp;*¶ Item, O ſeptimo dia da ſeptima lua em que* |  |
+| `c1-l044` | &emsp;*¶ Item, O ſeptimo dia da ſeptima lũa em que* |  |
 | `c1-l045` | &emsp;*ſe aſoalha, ou tira fora fato, & roupa, &c.* |  |
 | `c1-l046` | &emsp;*& ſe offerece a aquellas eſtrellas. ¶ T*ana- |  |
 | `c1-l047` | &emsp;batano fi. *Dia em que fazem esta ceremo-* |  |
@@ -82,14 +82,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l008` | *T*anagayeri, u, etta. *Danarſe a ſemente, ou* |  |
 | `c2-l009` | &emsp;*degenerar algũa couſa como animal, fruita, &c.* |  |
 | `c2-l010` | &emsp;*¶* Inuga tanagayeru. *Deixar o cão de* |  |
-| `c2-l011` | &emsp;*cheirar, ou de lhe dar o faro na cuça.* |  |
+| `c2-l011` | &emsp;*cheirar, ou de lhe dar o faro na caça.* |  |
 | `c2-l012` | *T*anago. *Hum peixe aßi chamado.* |  |
 | `c2-l013` | *T*anagocoro. *Palmas das mãos. Vt,* Ta- |  |
 | `c2-l014` | &emsp;nagocorouo auaſuru. *Ajuntar, ou aleuen-* |  |
 | `c2-l015` | &emsp;*tar as mãos. ¶ T*anagocoroni niguiru. |  |
 | `c2-l016` | &emsp;*Estar de poße dalgũa couſa, ou tela ja nas mãos.* |  |
-| `c2-l017` | *T*anagumori, u, otta. P. *Irſe toldandoo* |  |
-| `c2-l018` | &emsp;*tempo de maneira que pareçẽ hũas diuiſẽes co* |  |
+| `c2-l017` | *T*anagumori, u, otta. *P. Irſe toldandoo* |  |
+| `c2-l018` | &emsp;*tempo de maneira que pareçã hũas diuiſões co* |  |
 | `c2-l019` | &emsp;*mo de grãos, ou ſemente hũa ſobre outra.* |  |
 | `c2-l020` | Tanavoroxi. *O meter nagoa ſemente de arroz* |  |
 | `c2-l021` | &emsp;*em ſacos pera amolecer, & começar abrotar* |  |
@@ -100,7 +100,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l026` | Tanbo. Aqe, cure. *Menhãa, & tarde.* |  |
 | `c2-l027` | &emsp;*Vt, T*anbo coreuo vomô. *Sempre cui-* |  |
 | `c2-l028` | &emsp;*do iste deſejando, amando, &c. ¶ T*an- |  |
-| `c2-l029` | &emsp;bo yucaxij. *Dedia, & denoite andar com* |  |
+| `c2-l029` | &emsp;bo yucaxij. *Dedia, & de noite andar com* |  |
 | `c2-l030` | &emsp;*ſaudades.* |  |
 | `c2-l031` | *T*anca. Mijicai vta. *Verſos, ou cantigas* |  |
 | `c2-l032` | &emsp;*breues.* |  |

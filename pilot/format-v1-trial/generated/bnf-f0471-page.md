@@ -17,7 +17,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l001` | *T*andon. *Huns pilouros que fazem de pò de cer-* |  |
 | `c1-l002` | &emsp;*to caruão que poem nos perfumadores os quaes* |  |
 | `c1-l003` | &emsp;*durão muito aceſos.* |  |
-| `c1-l004` | Tane. *Semente. ¶* Tanega cauaru. *Se-* |  |
+| `c1-l004` | *T*ane. *Semente. ¶* Tanega cauaru. *Se-* |  |
 | `c1-l005` | &emsp;*rem dous, ou mais filhos da meſma mãy, &* |  |
 | `c1-l006` | &emsp;*de differente pay. ¶ T*aneuo tatçu. *Dei-* |  |
 | `c1-l007` | &emsp;*tar a perder a ſemẽte. Itẽ, permet deſtruir de* |  |
@@ -35,13 +35,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l019` | &emsp;xe. *Orai ſem cuidar outras couſas, ou ſem* |  |
 | `c1-l020` | &emsp;*vos deſtrahir com o penſamento.* |  |
 | `c1-l021` | *T*ango. i, Goguat itçuca. *Aos cinco dias* |  |
-| `c1-l022` | &emsp;*da quinta lua, ou mes.* |  |
+| `c1-l022` | &emsp;*da quinta lũa, ou mes.* |  |
 | `c1-l023` | *T*angua. l, Tanguaya. *Caſa como hoſpital* |  |
 | `c1-l024` | &emsp;*onde agaſalhão Bonzos peregrinos. ¶* Tan- |  |
 | `c1-l025` | &emsp;guayano yǒna tocoro. *Caſa, ou lugar co-* |  |
 | `c1-l026` | &emsp;*mo hoſpital onde concorre muita gente de vari-* |  |
 | `c1-l027` | &emsp;*as partes.* |  |
-| `c1-l028` | Tanguaya. *Vide* Tangua. |  |
+| `c1-l028` | *T*anguaya. *Vide* Tangua. |  |
 | `c1-l029` | *T*ani. *Valle.* |  |
 | `c1-l030` | *T*ani. *Carrapato.* |  |
 | `c1-l031` | *T*anigaua. *Ribeiro, ou ribeira dagoa, que vai* |  |
@@ -51,7 +51,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l034` | &emsp;*parente.* |  |
 | `c1-l035` | *T*an-in. *Doença de freimas.* |  |
 | `c1-l036` | *T*aninju. *Muita gente.* |  |
-| `c1-l037` | *T*aninoto. i, *T*ani. *valle.* P. |  |
+| `c1-l037` | *T*aninoto. i, *T*ani. *valle. P.* |  |
 | `c1-l038` | *T*anixi. *Caramujos das varzeas.* |  |
 | `c1-l039` | Tanja. l, *T*anxa. *Hũs poos vermelhos, que* |  |
 | `c1-l040` | &emsp;*ſeruẽ de tinta vermelha clara, ou de mezinha.* |  |
@@ -73,12 +73,12 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c2-l001` | &emsp;zuru. *Tanger viola.* |  |
 | `c2-l002` | *T*anjit. Mijicai fi. *Dias pequenos.* |  |
-| `c2-l003` | *T*anjǒ. *Couſa fermoſa. ¶* Xenqen tan- |  |
+| `c2-l003` | *T*anjǒ. *Couſa fermoſa. ¶ X*enqen tan- |  |
 | `c2-l004` | &emsp;jǒna. *Idem.* |  |
 | `c2-l005` | *T*anjǒ. Vmare, uru. *Nacimẽto. ¶ T*anjǒ ſu- |  |
 | `c2-l006` | &emsp;ru. *Nacer, ou parir. ¶* Sãcta Maria võcouo |  |
 | `c2-l007` | &emsp;tãjǒ naſareta. *Sãcta Maria pario hũ filho.* |  |
-| `c2-l008` | *T*anjóya. *Lugar do nacimento, ou caſa onde* |  |
+| `c2-l008` | *T*anjǒya. *Lugar do nacimento, ou caſa onde* |  |
 | `c2-l009` | &emsp;*alguem pario.* |  |
 | `c2-l010` | *T*anmat. Fajimeto, ſuye. *Principio, & fim.* |  |
 | `c2-l011` | *T*anmei. Mijicai inochi. *Vida breue.* |  |
@@ -95,7 +95,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l022` | &emsp;miuo caquru. *Por a confiança, & eſperã-* |  |
 | `c2-l023` | &emsp;*ça em alguem. ¶ Item, Preſente que ſe* |  |
 | `c2-l024` | &emsp;*manda como arras em ſinal dos deſpoſorios.* |  |
-| `c2-l025` | &emsp;*¶ T*anomiuo yaru. l,vocuru. *Mãdar eſtas* |  |
+| `c2-l025` | &emsp;*¶ T*anomiuo yaru. *l*,vocuru. *Mãdar eſtas* |  |
 | `c2-l026` | &emsp;*arras, ou dar ſinal como penhor pera comprar,* |  |
 | `c2-l027` | &emsp;*ou vender algũa couſa.* |  |
 | `c2-l028` | *T*anomi, u, ôda. *Rogar, ou encomendarſe* |  |
@@ -115,7 +115,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l042` | *T*anomiqiri, u, itta. *Cõfiar ẽ alguẽ totalmẽte.* |  |
 | `c2-l043` | *T*anomiqiri. *O confiar, ou eſtribar de todo em* |  |
 | `c2-l044` | &emsp;*alguem. Vt,* Core vaga fitorigo nareba, |  |
-| `c2-l045` | &emsp;miga tanomiqiride gozaru. *Sendo eſte meu* |  |
+| `c2-l045` | &emsp;miga tanomiqiride gozaru. *Sendo este meu* |  |
 | `c2-l046` | &emsp;*filho vnico, nelle tenho todo meu arrimo, &* |  |
 | `u2b-l001` | &emsp;*encoſto.* |  |
 
