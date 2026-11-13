@@ -909,9 +909,24 @@ function updateColumnNavigation() {
   top.innerHTML = visible ? columnNavigationHTML('column-nav-inline').replace(/^<nav[^>]*>|<\/nav>$/g, '') : '';
 }
 
+function entryPlainText(page, startId) {
+  const lines = page.zones.filter(zone => zone.kind === 'column').flatMap(zone => zone.lines);
+  const start = lines.findIndex(line => line.id === startId);
+  if (start < 0 || lines[start].indent) return '';
+  const entry = [lines[start].text];
+  for (let index = start + 1; index < lines.length && lines[index].indent; index++) {
+    entry.push(lines[index].text);
+  }
+  return entry.join('\n');
+}
+
+function copyEntryButton(line) {
+  return line.indent ? '' : `<button class="copy-entry" type="button" data-copy-entry="${escapeHTML(line.id)}">Copy entry</button>`;
+}
+
 function continuousHTML(page, unit) {
   if (!page.processed) return '<div class="empty"><div><strong>Not yet processed</strong><p>The source scan is available now; transcription will appear here when produced.</p></div></div>';
-  return zonesFor(page, unit).map(zone => `<section><h3>${escapeHTML(zone.label)}</h3>${zone.lines.map(line => `<div class="continuous-line indent-${line.indent}"><span class="line-reference"><code class="line-id">${escapeHTML(line.id)}</code><button class="copy-line-reference" type="button" data-copy-line-reference="${escapeHTML(`${page.view}/${line.id}`)}" title="Copy ${escapeHTML(`${page.view}/${line.id}`)}" aria-label="Copy full line reference">⧉</button></span><span>${renderRuns(line.runs)}</span></div>`).join('')}</section>`).join('');
+  return zonesFor(page, unit).map(zone => `<section><h3>${escapeHTML(zone.label)}</h3>${zone.lines.map(line => `<div class="continuous-line indent-${line.indent}"><span class="line-reference"><code class="line-id">${escapeHTML(line.id)}</code><button class="copy-line-reference" type="button" data-copy-line-reference="${escapeHTML(`${page.view}/${line.id}`)}" title="Copy ${escapeHTML(`${page.view}/${line.id}`)}" aria-label="Copy full line reference">⧉</button>${zone.kind === 'column' ? copyEntryButton(line) : ''}</span><span>${renderRuns(line.runs)}</span></div>`).join('')}</section>`).join('');
 }
 
 function scanPane(page) {
@@ -1287,7 +1302,7 @@ function lineHTML(page, line) {
   const markers = `${tildeWarning}${edit?.machine_suggestion === 'ocr_terminal_hyphen' ? '<span class="review-marker suggestion-marker">OCR: no hyphen</span>' : ''}${edit?.base_changed ? '<span class="review-marker">Base updated</span>' : ''}${edit?.comment_review_needed ? '<span class="review-marker comment-marker">Note needs review</span>' : ''}${edit?.second_opinion ? '<span class="review-marker opinion-marker">Second opinion requested</span>' : ''}${message ? '<span class="review-marker opinion-marker">Message to AI</span>' : ''}`;
   const reference = `${page.view}/${line.id}`;
   const annotations = `${note ? `<button class="annotation-preview comment-preview" type="button" data-action="edit" title="${escapeHTML(note)}"><span>Comment</span>${escapeHTML(note)}</button>` : ''}${message ? `<button class="annotation-preview message-preview" type="button" data-action="edit" title="${escapeHTML(message)}"><span>Message to AI</span>${escapeHTML(message)}</button>` : ''}`;
-  return `<article class="line-row ${edit ? 'changed' : ''} ${edit?.machine_suggestion ? 'suggested' : ''} ${edit?.base_changed ? 'rebased' : ''}" data-line="${line.id}"><div class="line-head"><code>${line.id}</code><button class="copy-line-reference" type="button" data-copy-line-reference="${escapeHTML(reference)}" title="Copy ${escapeHTML(reference)}" aria-label="Copy full line reference">⧉</button>${markers}<button class="context-toggle" type="button" aria-expanded="false">Show context</button></div><button class="line-crop" type="button" style="aspect-ratio:${line.crop[2]}/${line.crop[3]}" data-crop='${JSON.stringify(line.crop)}' data-context='${JSON.stringify(line.context_crop)}' aria-label="Show context for ${line.id}"><img loading="lazy" data-iiif-page alt="" style="width:${page.width / line.crop[2] * 100}%;transform:translate(${-line.crop[0] / page.width * 100}% ,${-line.crop[1] / page.height * 100}%)"></button><div class="line-text-row" title="Click beside the text for the full editor"><div class="line-transcription"><div class="line-text indent-${line.indent}">${interactiveLineHTML(line, current, edit?.nasal_restorations, edit?.machine_suggestion)}</div>${kanaGuideHTML(line)}</div>${annotations ? `<div class="line-annotations">${annotations}</div>` : ''}</div></article>`;
+  return `<article class="line-row ${edit ? 'changed' : ''} ${edit?.machine_suggestion ? 'suggested' : ''} ${edit?.base_changed ? 'rebased' : ''}" data-line="${line.id}"><div class="line-head"><code>${line.id}</code><button class="copy-line-reference" type="button" data-copy-line-reference="${escapeHTML(reference)}" title="Copy ${escapeHTML(reference)}" aria-label="Copy full line reference">⧉</button>${copyEntryButton(line)}${markers}<button class="context-toggle" type="button" aria-expanded="false">Show context</button></div><button class="line-crop" type="button" style="aspect-ratio:${line.crop[2]}/${line.crop[3]}" data-crop='${JSON.stringify(line.crop)}' data-context='${JSON.stringify(line.context_crop)}' aria-label="Show context for ${line.id}"><img loading="lazy" data-iiif-page alt="" style="width:${page.width / line.crop[2] * 100}%;transform:translate(${-line.crop[0] / page.width * 100}% ,${-line.crop[1] / page.height * 100}%)"></button><div class="line-text-row" title="Click beside the text for the full editor"><div class="line-transcription"><div class="line-text indent-${line.indent}">${interactiveLineHTML(line, current, edit?.nasal_restorations, edit?.machine_suggestion)}</div>${kanaGuideHTML(line)}</div>${annotations ? `<div class="line-annotations">${annotations}</div>` : ''}</div></article>`;
 }
 
 function setCrop(row, expanded) {
@@ -1554,6 +1569,13 @@ async function copyLineReference(control) {
   else prompt('Copy this line reference:', reference);
 }
 
+async function copyEntry(control) {
+  const entry = entryPlainText(state.currentPage, control.dataset.copyEntry);
+  if (!entry) return;
+  if (await copyText(entry)) toast('Copied entry');
+  else prompt('Copy this entry:', entry);
+}
+
 function clearSubmittedMessages(edits, messages) {
   for (const [id, message] of Object.entries(messages)) {
     if (message && edits[id]?.message === message) {
@@ -1749,6 +1771,8 @@ document.addEventListener('click', event => {
   if (columnButton) { showPage(pageKey(columnButton.dataset.columnLeaf), columnButton.dataset.columnUnit); window.scrollTo(0, 0); return; }
   const referenceButton = event.target.closest('[data-copy-line-reference]');
   if (referenceButton) { void copyLineReference(referenceButton); return; }
+  const entryButton = event.target.closest('[data-copy-entry]');
+  if (entryButton) { void copyEntry(entryButton); return; }
   const row = event.target.closest('.line-row');
   if (row) {
     const characterButton = event.target.closest('[data-character-key]');

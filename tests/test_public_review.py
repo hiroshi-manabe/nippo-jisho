@@ -646,6 +646,32 @@ equal(q.align('foo, bar.', 'foo bar.').deletions.map(item => [item.character, it
         self.assertIn("baseline_updated_at", builder)
         self.assertIn(".review-status", styles)
 
+    def test_copy_entry_preserves_physical_lines_and_skips_nonbody_zones(self):
+        script = r"""
+const fs = require('fs'), assert = require('assert');
+const app = fs.readFileSync('site/app.js', 'utf8');
+const helpers = app.slice(app.indexOf('function entryPlainText('), app.indexOf('function continuousHTML('));
+const escapeHTML = text => text;
+eval(helpers + `
+const page = {zones: [
+  {kind: 'column', lines: [{id: 'start', text: 'Tame. cõmum-', note: 'not copied', runs: []}]},
+  {kind: 'running_header', lines: [{id: 'header', text: 'Not part of entry'}]},
+  {kind: 'column', lines: [
+    {id: 'next', text: 'mente. ¶ Vt,', indent: 1},
+    {id: 'new', text: 'Tameire.', indent: 0}
+  ]}
+]};
+assert.strictEqual(entryPlainText(page, 'start'), 'Tame. cõmum-\\nmente. ¶ Vt,');
+assert.strictEqual(entryPlainText(page, 'next'), '');
+assert.strictEqual(entryPlainText(page, 'header'), '');
+assert.strictEqual(entryPlainText(page, 'new'), 'Tameire.');
+assert.match(copyEntryButton(page.zones[0].lines[0]), /data-copy-entry="start"/);
+assert.strictEqual(copyEntryButton(page.zones[2].lines[0]), '');
+`);
+"""
+        result = subprocess.run(["node", "-e", script], cwd=ROOT, capture_output=True, text=True)
+        self.assertEqual(result.returncode, 0, result.stderr)
+
     def test_submission_omits_unchanged_durable_notes(self):
         script = r"""
 const fs = require('fs'), vm = require('vm'), assert = require('assert');

@@ -21,3 +21,5 @@
 .line-row.review-current{border-color:#9c733e;box-shadow:0 0 0 2px #caa876,0 3px 12px rgba(55,43,27,.12)}.line-row.review-current .line-head{background:#efe3cf}
 .line-list{padding-bottom:calc(7rem + var(--review-extra-space,0px))}
 .overview-controls{flex-wrap:wrap}.page-card.overview-target{outline:3px solid var(--accent);outline-offset:3px}
+.copy-entry{padding:.1rem .35rem;color:var(--muted);background:transparent;white-space:nowrap;font:10px ui-sans-serif,system-ui,sans-serif}
+.continuous-text section:has(.copy-entry) .continuous-line{grid-template-columns:8.5rem minmax(0,1fr)}
