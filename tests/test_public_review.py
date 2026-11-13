@@ -631,17 +631,18 @@ equal(q.align('foo, bar.', 'foo bar.').deletions.map(item => [item.character, it
         )
         self.assertEqual(result.returncode, 0, result.stderr)
 
-    def test_page_status_and_known_roman_typeface_controls_are_data_driven(self):
+    def test_page_status_and_typeface_shortcut_routing(self):
         app = (ROOT / "site" / "app.js").read_text(encoding="utf-8")
         helper = (ROOT / "site" / "quick-edit.js").read_text(encoding="utf-8")
         builder = (ROOT / "scripts" / "build_public_review.py").read_text(encoding="utf-8")
         styles = (ROOT / "site" / "styles.css").read_text(encoding="utf-8")
         self.assertIn("function renderReviewStatus(page)", app)
         self.assertIn("function checkCorpusFreshness()", app)
-        self.assertIn("knownTypefaceTokenRange", app)
+        self.assertNotIn("knownTypefaceTokenRange", app)
+        self.assertIn("initialCapitalTypefaceRange", app)
+        self.assertIn("citationTypefaceTokenRange", app)
         self.assertNotIn("isItalicWordInitial", app)
         self.assertNotIn("uppercasePeriodTokenRange", helper)
-        self.assertIn("typeface_toggle_terms", builder)
         self.assertIn("baseline_updated_at", builder)
         self.assertIn(".review-status", styles)
 
