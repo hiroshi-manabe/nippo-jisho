@@ -22,10 +22,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l006` | &emsp;*propria palaura he Daqe.* |  |
 | `c1-l007` | *T*aqe, uru, eta. *Aleuantarſe em alto. Vt,* |  |
 | `c1-l008` | &emsp;Figa taqeta. *Eſtà o ſol alto. ¶* Faru, |  |
-| `c1-l009` | &emsp;natçu taquru. *Irſe acabando a prima ve-* |  |
+| `c1-l009` | &emsp;natçu taquru. *Ir ſe acabando a prima ve-* |  |
 | `c1-l010` | &emsp;*ra, verão, &c. ¶* Chiyeno taqeta fito. |  |
-| `c1-l011` | &emsp;l, taqeta fito. *Homem de grande ſaber.* |  |
-| `c1-l012` | &emsp;*¶* Qimono taqeta mono. *Homem eſfor-* |  |
+| `c1-l011` | &emsp;*l*, taqeta fito. *Homem de grande ſaber.* |  |
+| `c1-l012` | &emsp;*¶ Q*imono taqeta mono. *Homem eſfor-* |  |
 | `c1-l013` | &emsp;*çado. ¶* Gacumonno taqeta fito. *Grã-* |  |
 | `c1-l014` | &emsp;*de letrado. ¶ T*oxiga taqeta fito. *Ho-* |  |
 | `c1-l015` | &emsp;*mem ja de muita idade como de quarenta por* |  |
@@ -34,13 +34,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l018` | *T*aqebaxira. *Colunnas de bambu.* |  |
 | `c1-l019` | *T*aqebayaxi. *Bambual, ou canaueal.* |  |
 | `c1-l020` | *T*aqebinaua. *Murrão feito de caſca de bambus.* |  |
-| `c1-l021` | Taqecurabe. *O igualar ſe pera ver quẽ he mais* |  |
+| `c1-l021` | Taqecurabe. *O igualar ſe pera ver quẽ he ma*i*s* |  |
 | `c1-l022` | &emsp;*alto do corpo. ¶ Itẽ, permet. Fazer pro-* |  |
 | `c1-l023` | &emsp;*ua, ou comparação das forças, habilidade, le-* |  |
 | `c1-l024` | &emsp;*tras, &c. Vt,* Taqecurabeuo ſuru. |  |
 | `c1-l025` | Taqedaruqi. *Aguieiro de bambu.* |  |
 | `c1-l026` | Taqefubaco. *Canudo pera meter cartas.* |  |
-| `c1-l027` | Taqegaqi. *Sebe de bambus.* |  |
+| `c1-l027` | Taqe*g*aqi. *Sebe de bambus.* |  |
 | `c1-l028` | Taqegari. *Certo folguedo de ir a õde ha canas.* |  |
 | `c1-l029` | Taqegatana. l, fadaqegatana. *Almofaça* |  |
 | `c1-l030` | &emsp;*dos caualos feita de cana à maneira de Cata-* |  |
@@ -54,7 +54,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l038` | &emsp;*treis a ninguem.* |  |
 | `c1-l039` | *T*aqeno fada. *Aquella caſquinha mais interior* |  |
 | `c1-l040` | &emsp;*do bambu que ſe toma pera mezinha.* |  |
-| `c1-l041` | *T*aqenomi. *Hũa fruita que dão os bambus co-* |  |
+| `c1-l041` | *T*aqenomi. *Hũa frutia que dão os bambus co-* |  |
 | `c1-l042` | &emsp;*mo ſemente de trigo.* |  |
 | `c1-l043` | Taqeri. *Vergalho de balea.* |  |
 | `c1-l044` | Taqeri, u, etta. *Fazer eſtremos com colera* |  |
