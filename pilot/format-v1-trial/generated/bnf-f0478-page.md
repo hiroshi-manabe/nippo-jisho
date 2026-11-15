@@ -82,7 +82,7 @@ Lexical reference: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and 
 | `c2-l006` | &emsp;Taxxani. |  |
 | `c2-l007` | &emsp;Taxxaſa. |  |
 | `c2-l008` | Taxxi, ſuru, ita. *Aperfeiçoarſe, ou ſer per* |  |
-| `c2-l009` | &emsp;*feito. ¶ Item, comprir, ou aperfeiçoar.* |  |
+| `c2-l009` | &emsp;*feito. ¶ Item, Comprir, ou aperfeiçoar.* |  |
 | `c2-l010` | &emsp;*Vt,* Negaiuo taſſuru. *Comprir o deſejo.* |  |
 | `c2-l011` | &emsp;*¶* Taxxite monouo ſuru. *Fazer algũa* |  |
 | `c2-l012` | &emsp;*couſa perfeitamente.* |  |
@@ -95,9 +95,9 @@ Lexical reference: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and 
 | `c2-l019` | &emsp;*ramo dalgũa ſeita. ¶* Neuo tayaſu. *De-* |  |
 | `c2-l020` | &emsp;*ſtruir, ou arrancar a raiz da aruore, &c.* |  |
 | `c2-l021` | &emsp;*¶ Item, per met. Deſtruir a couſa de raiz.* |  |
-| `c2-l022` | Taye, uru, eta. *Acabarſe de tudo, ceſſar, &c.* |  |
+| `c2-l022` | Taye, uru, eta. *Acabarſe de tudo, ceßar, &c.* |  |
 | `c2-l023` | &emsp;*¶* Nacaga tayuru. *Quebrarſe a amiza-* |  |
-| `c2-l024` | &emsp;*de. ¶* Michiga tayuru. *Tomarſe, ou* |  |
+| `c2-l024` | &emsp;*de. ¶* Michiga tayuru. T*omarſe, ou* |  |
 | `c2-l025` | &emsp;*impedirenſe os caminhos. ¶* Inochiga ta- |  |
 | `c2-l026` | &emsp;yuru. *Acabarſe a vida. i, Morrer.* |  |
 | `c2-l027` | &emsp;*¶* Iqiga tayuru. *Faltar o follego. ¶* Ato- |  |
@@ -108,7 +108,7 @@ Lexical reference: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and 
 | `c2-l032` | &emsp;yegatai curuximi. *Tormentos inſofriueis.* |  |
 | `c2-l033` | &emsp;Tayegataſa. |  |
 | `c2-l034` | &emsp;Tayegatǒ. |  |
-| `c2-l035` | Tayeiri, ru, ita. *Eſmorecer, ou ficar fo-* |  |
+| `c2-l035` | Tayeiri, ru, itta. *Eſmorecer, ou ficar fo-* |  |
 | `c2-l036` | &emsp;*ra deſi.* |  |
 | `c2-l037` | Tayema. *Eſpaço, ou interrupção. ¶* Fu- |  |
 | `c2-l038` | &emsp;xinno tayemaga nai. *Não ha ceßar, nem* |  |

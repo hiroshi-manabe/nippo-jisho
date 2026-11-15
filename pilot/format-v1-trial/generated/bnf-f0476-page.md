@@ -19,8 +19,8 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c1-l001` | &emsp;*nos, & horas. ¶* Tatçuno toqi. *Das* |  |
 | `c1-l002` | &emsp;*oito peru as noue horas da manhãa.* |  |
 | `c1-l003` | Tatçuboye. *O ladrar o cão à maneira de lobo* |  |
-| `c1-l004` | &emsp;*que voyua continuando por algum eſpaço. No* |  |
-| `c1-l005` | &emsp;*Cami ſe diz, Nagaboye.* |  |
+| `c1-l004` | &emsp;*que vyua continuando por algum eſpaço. No* |  |
+| `c1-l005` | &emsp;*Cami ſe diz,* N*agaboye.* |  |
 | `c1-l006` | Tatçugaxira. *Cabeça de lagarto, que poẽ por* |  |
 | `c1-l007` | &emsp;*ornato na cimeira dos capacetes.* |  |
 | `c1-l008` | Tatçumi. Figaxito Minamino ai. *Parte do* |  |
@@ -39,7 +39,7 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c1-l021` | &emsp;*xiras. ¶* Chauo tatçuru. *Concertar o* |  |
 | `c1-l022` | &emsp;*Cha na porſolano. ¶* Xeimonuo tatçuru. |  |
 | `c1-l023` | &emsp;*Iurar. ¶* Zonbunuo tatçuru. *Ter mão,* |  |
-| `c1-l024` | &emsp;*ou ſustentar ſeu parecer. ¶* Farano tatçu- |  |
+| `c1-l024` | &emsp;*ou ſustentar ſeu parecer. ¶* Farauo tatçu- |  |
 | `c1-l025` | &emsp;ru. *Agaſtarſe. ¶* Fizauo tatçuru. *Por-* |  |
 | `c1-l026` | &emsp;*ſe de joelhos ao modo de Iapão. ¶* Guãuo |  |
 | `c1-l027` | &emsp;tatçuru. *Fazer votos. ¶* Monouo me- |  |
@@ -75,7 +75,7 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c2-l001` | &emsp;*corpo por mezinha. ¶* Qirifauo tatçuru. |  |
-| `c2-l002` | &emsp;*Fazer o corte à faca, ou caniuete de Iapão dei-* |  |
+| `c2-l002` | &emsp;*Fazer o còrte à faca, ou caniuete de Iapão dei-* |  |
 | `c2-l003` | &emsp;*xando lho hũ tamanino inclinado de hũa bãda.* |  |
 | `c2-l004` | Tateai, ǒ, ǒta. *Contrariar, ou ſer contrario.* |  |
 | `c2-l005` | Tateauaxe, furu, eta. *Encontrarſe com ou-* |  |
@@ -112,9 +112,9 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c2-l036` | Tatemono. *Inſignia, ou ornato do capacete* |  |
 | `c2-l037` | &emsp;*de Iapão.* |  |
 | `c2-l038` | Tatenarabe, uru, eta. *Aleuantando igualar.* |  |
-| `c2-l039` | Tatenauoxi, ſu, oita. *Reedificar, ou desmã-* |  |
+| `c2-l039` | Tatenauoxi, ſu, oita. *Reedificar, ou des mã-* |  |
 | `c2-l040` | &emsp;*char, & tornar a fazer de nouo caſas, &c.* |  |
-| `c2-l041` | &emsp;*¶* Teqiga tatenauoita. *Tornarão os ini-* |  |
+| `c2-l041` | &emsp;*¶* Teqiga tatenauoita. T*ornarão os ini-* |  |
 | `c2-l042` | &emsp;*migos a cobrar animo pera pelejar, ou tornarão* |  |
 | `c2-l043` | &emsp;*a virar o roſto aos contrarios.* |  |
 | `c2-l044` | Tatevoqi, qu, oita. *Por algũa couſa aleuan-* |  |

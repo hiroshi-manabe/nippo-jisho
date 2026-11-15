@@ -18,7 +18,7 @@ Lexical cross-check: supplied NINJAL Entry Words Data of Nippojisho, version 202
 | --- | --- | --- |
 | `c1-l001` | Tçubi. *Pudenda mulieris.* B. |  |
 | `c1-l002` | Tçubo. *Boyão, ou jarra. ¶* Daicuno tçu- |  |
-| `c1-l003` | &emsp;bo. l, ſumitçubo. *Tinteiro dos carpĩteiros.* |  |
+| `c1-l003` | &emsp;bo. l, ſumitçubo. T*inteiro dos carpĩteiros.* |  |
 | `c1-l004` | Tçubo. *Engonço femea. ¶* Figitçubo. |  |
 | `c1-l005` | &emsp;*Macho, & femea.* |  |
 | `c1-l006` | Tçubo. *Pateo, ou Niua pequena. Mais or-* |  |
@@ -37,7 +37,7 @@ Lexical cross-check: supplied NINJAL Entry Words Data of Nippojisho, version 202
 | `c1-l019` | &emsp;*lhada. Vt,* Ninjuga tçubomu. |  |
 | `c1-l020` | Tçubomuxi. *Oução. ¶* Tçubomuxiga- |  |
 | `c1-l021` | &emsp;cǔ. *Comer, o oução, ou eſtar comendo na* |  |
-| `c1-l022` | &emsp;*mão. ¶* Tçubomuxiga fǒ. *Ir laurando* |  |
+| `c1-l022` | &emsp;*mão. ¶* Tçubomuxiga fǒ. I*r laurando* |  |
 | `c1-l023` | &emsp;*o oução.* |  |
 | `c1-l024` | T*ç*ubone. *Molher principal que gouerna o in-* |  |
 | `c1-l025` | &emsp;*terior da caſa de algum ſenhor.* |  |
@@ -94,7 +94,7 @@ Lexical cross-check: supplied NINJAL Entry Words Data of Nippojisho, version 202
 | `c2-l017` | &emsp;*gente popular diga, T*çubuxi. |  |
 | `c2-l018` | *T*çubuxi. *Idem.* X. |  |
 | `c2-l019` | *T*çubuxi, ſu, uita. *Eſmagar, ou eſborra-* |  |
-| `c2-l020` | &emsp;*char. ¶ Per met.* Q imouo tçubuſu. *Eſ-* |  |
+| `c2-l020` | &emsp;*char. ¶ Per met.* Qimouo tçubuſu. *Eſ-* |  |
 | `c2-l021` | &emsp;*pantarſe. ¶* Faremonouo tçubuſu. *Fu-* |  |
 | `c2-l022` | &emsp;*rar, ou fazer arrebentar o inchaço.* |  |
 | `c2-l023` | Tçubuyaqi, u, aita. *Falar por antre os dẽ-* |  |
@@ -116,7 +116,7 @@ Lexical cross-check: supplied NINJAL Entry Words Data of Nippojisho, version 202
 | `c2-l039` | &emsp;caiuo ſuru. *Ser, ou ir por recado. ¶ T*çu- |  |
 | `c2-l040` | &emsp;caini yaru. *Mandar a alguem cõ recado.* |  |
 | `c2-l041` | Tçucai, ǒ, ǒta. *Vſar, ou ſeruirſe de algũa* |  |
-| `c2-l042` | &emsp;*couſa. Vt,* Fitouo tçucô. *Seruirſe de al-* |  |
+| `c2-l042` | &emsp;*couſa. Vt,* Fitouo tçucǒ. *Seruirſe de al-* |  |
 | `c2-l043` | &emsp;*guem. ¶* Teuo tçucǒ. *Vſar de algum* |  |
 | `c2-l044` | &emsp;*tempo, ou lição de eſgrima. ¶ Item, Ga-* |  |
 | `c2-l045` | &emsp;*ſtar. Vt,* Zaifôuo tçucǒ. *Gastar a fazem* |  |

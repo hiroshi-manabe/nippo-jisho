@@ -35,9 +35,9 @@ Lexical reference: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and 
 | `c1-l017` | &emsp;*a Igreja ao reino do ceo.* |  |
 | `c1-l018` | Tatoyeba. l, tatouaba. *Fazendo compara-* |  |
 | `c1-l019` | &emsp;*ção, ou trazendo exemplo, ou aßi como, &c.* |  |
-| `c1-l020` | Tatta. i, Tada. *Tem varias ſignificaçòes.* |  |
-| `c1-l021` | &emsp;*Vt,* Tatta fitocaiuo fucǒzu. *So hũa vez* |  |
-| `c1-l022` | &emsp;*tangerei o bazio. ¶* Tattamononi xemu- |  |
+| `c1-l020` | Tatta. i, Tada. T*em varias ſignificaçòes.* |  |
+| `c1-l021` | &emsp;*Vt,* Tatta fitocaiuo fucǒzu. *Sò hũa vez* |  |
+| `c1-l022` | &emsp;*tangerei o buzio. ¶* Tattamononi xemu- |  |
 | `c1-l023` | &emsp;ru. *Não fazia ſe não apertar, ou combater.* |  |
 | `c1-l024` | Tattǒ. Michini taſſuru. *Perfeição em algũa* |  |
 | `c1-l025` | &emsp;*arte, eſtudo, &c. Vt,* Tattǒno nin. |  |
@@ -46,7 +46,7 @@ Lexical reference: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and 
 | `c1-l028` | &emsp;Tattô. |  |
 | `c1-l029` | &emsp;Tattoſa. |  |
 | `c1-l030` | Tattomi, u, ôda. *Venerar, honrar, &c.* |  |
-| `c1-l031` | &emsp;*Vt,* Qimiuo fucǒ tattomeba, xinuo vya- |  |
+| `c1-l031` | &emsp;*Vt, Q*imiuo fucǒ tattomeba, xinuo vya- |  |
 | `c1-l032` | &emsp;mǒ dǒri aruzo. Tac. *Honrando mui-* |  |
 | `c1-l033` | &emsp;*to ao ſenhor, ha razão pera tambem eſtimar a* |  |
 | `c1-l034` | &emsp;*o criado.* |  |
@@ -93,7 +93,7 @@ Lexical reference: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and 
 | `c2-l011` | Tauara. *Fardo, ou ſaco darroz, trigo, &c.* |  |
 | `c2-l012` | Tauarago. l, Namaco. *Leſmas do mar que* |  |
 | `c2-l013` | &emsp;*ſe comem em Iapão.* |  |
-| `c2-l014` | Tauareme. i, Qeixei. *Molher publica.* P. |  |
+| `c2-l014` | Tauareme. i, *Q*eixei. *Molher publica. P.* |  |
 | `c2-l015` | Tauo. *Vide ſuprà.* Taua. |  |
 | `c2-l016` | Tauomacaxi, ſu, l, tauomaxi, ſu, aita. *Do-* |  |
 | `c2-l017` | &emsp;*brar, ou entortar como cana, ramo, &c.* |  |
@@ -125,8 +125,8 @@ Lexical reference: Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and 
 | `c2-l043` | Tauoyacana. *Idem.* |  |
 | `c2-l044` | Tauoyacani. *Adu. Polida, ou gracioſamẽte.* |  |
 | `c2-l045` | &emsp;Tauoyacaſa. |  |
-| `c2-l046` | Tavzzura. *Rũa que ſe come.* |  |
-| `c2-l047` | Taxacu. Tano monouo caru. *Tomar empreſ-* |  |
+| `c2-l046` | Tavzzura. *Rãa que ſe come.* |  |
+| `c2-l047` | Taxacu. Tano monouo caru. T*omar empreſ-* |  |
 
 ## Printed signature
 
