@@ -80,12 +80,12 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c2-l004` | Tarefô. *Faces cahidas, ou maçãas do rosto der-* |  |
 | `c2-l005` | &emsp;*rubadas pera baixo.* |  |
 | `c2-l006` | Taremiſo. *Miſo coado.* |  |
-| `c2-l007` | Taremo. *Todos, com verbos affirmatiuos. Itẽ,* |  |
+| `c2-l007` | Taremo. *Todos, com verbos affirmatiuos.* I*tẽ,* |  |
 | `c2-l008` | &emsp;*Ninguem, ou nenhum, com negatiuos.* |  |
 | `c2-l009` | Taremuxiro. *Eſteiras dependuradas por guar-* |  |
 | `c2-l010` | &emsp;*da da porta, &c.* |  |
 | `c2-l011` | Tarenaritomo. *Quem quer que ſeja.* |  |
-| `c2-l012` | Ta enuno. *Guardaporta de linho canemo.* |  |
+| `c2-l012` | Tarenuno. *Guardaporta de linho canemo.* |  |
 | `c2-l013` | Tari, ru, atta. *Correr como ſangue, ſuor, &c.* |  |
 | `c2-l014` | Tari, ru, ata. *Verb. defect. Estar a couſa* |  |
 | `c2-l015` | &emsp;*perfeita, & juſta. Vt,* Cazuni tatta. *Estar* |  |
@@ -96,12 +96,12 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c2-l020` | &emsp;marazu tarazuxite totonoyeyo. *Apare-* |  |
 | `c2-l021` | &emsp;*lhai de maneira que não ſobeje, nem falte. He* |  |
 | `c2-l022` | &emsp;*ſentido particular neſte modo de falar.* |  |
-| `c2-l023` | Tariǒ. Yoſonoriǒ. *Rẽda, ou terras alheas.* |  |
+| `c2-l023` | Tariǒ. Yoſono riǒ. *Rẽda, ou terras alheas.* |  |
 | `c2-l024` | Tariqi. Tano chicara. *Forças alheas, ou* |  |
 | `c2-l025` | &emsp;*de outro.* |  |
 | `c2-l026` | Tariǔ. Bechino nagare, l, tçutaye. *Outra* |  |
 | `c2-l027` | &emsp;*arte, doutrina, ou ſeita, &c.* |  |
-| `c2-l028` | Taru. *Piparite, ou barça.* |  |
+| `c2-l028` | Taru. *Piparòte, ou barça.* |  |
 | `c2-l029` | Tarume, uru, eta. *Afroxar, ou alargar. Vt,* |  |
 | `c2-l030` | &emsp;Tçunauo tarumuru. *Afroxar a corda.* |  |
 | `c2-l031` | &emsp;*¶ Per met.* Cocorouo tarumuru. i, Yu- |  |
@@ -113,7 +113,7 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c2-l037` | Tarumiga yuqu. *Ir afroxando couſa que eſta-* |  |
 | `c2-l038` | &emsp;*ua teſa. ¶ Item, permet. Se diz de couſa* |  |
 | `c2-l039` | &emsp;*que hia com feruor, & ſe eſfriou, ou afroxou.* |  |
-| `c2-l040` | *T*aruqi. *Aguieiros.* |  |
+| `c2-l040` | *T*aruqi. *Aguiejros.* |  |
 | `c2-l041` | Taruqi bana. *Frontaria dos aguieiros que eſtão* |  |
 | `c2-l042` | &emsp;*com as pontas juntas.* |  |
 | `c2-l043` | Taruxen. *Caixas que ſeruem pera ſe darem de* |  |

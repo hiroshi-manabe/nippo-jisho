@@ -50,7 +50,7 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c1-l032` | &emsp;tamu nami. *Ondas que vem com furia, &* |  |
 | `c1-l033` | &emsp;*como encapelladas.* |  |
 | `c1-l034` | Tatami ague, uru, eta. *Aleuantar pedras* |  |
-| `c1-l035` | &emsp;*aßentandoas no edificio, &c. Vt,* Ixiuo ta- |  |
+| `c1-l035` | &emsp;*aßentandoas no edificio, &c. Vt,* Ixi uo ta- |  |
 | `c1-l036` | &emsp;tami aguru. |  |
 | `c1-l037` | Tatami bǒchǒ. *Hũa maneira de cutelo com* |  |
 | `c1-l038` | &emsp;*q̃ os oficiaes de Tatamis cortão as eſteiras, &c.* |  |
@@ -92,8 +92,8 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c2-l010` | Tataqi ai, ǒ, ǒta. *Iugar às porradas, ou* |  |
 | `c2-l011` | &emsp;*darſe de pancadas hũ a outro.* |  |
 | `c2-l012` | Tataqi comi, u, ôda. *Batendo meter pera* |  |
-| `c2-l013` | &emsp;*dentro como pregos, &c.* |  |
-| `c2-l014` | Tataqi coroxi, ſu, oita. *Matar às pẽcadas.* |  |
+| `c2-l013` | &emsp;*dentro como prègos, &c.* |  |
+| `c2-l014` | Tataqi coroxi, ſu, oita. *Matar às pãcadas.* |  |
 | `c2-l015` | Tatara. *Fornalha em que fazem ferro de area,* |  |
 | `c2-l016` | &emsp;*ou fundem panelas de cobre, ou ferro.* |  |
 | `c2-l017` | Tatari. i, Bachi. *Caſtigo, ou vexação que os* |  |
@@ -103,7 +103,7 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c2-l021` | &emsp;*ou vexação do diabo.* |  |
 | `c2-l022` | Tatari, u, atta. *Fazer mal algũa couſa. Vt,* |  |
 | `c2-l023` | &emsp;Coreua facuchǔni tataru. *Iſto faz mal ao* |  |
-| `c2-l024` | &emsp;*eſtamago. ¶* Camiga tatararuru. *Fa-* |  |
+| `c2-l024` | &emsp;*eſtamago. ¶* Cami*g*a tatararuru. *Fa-* |  |
 | `c2-l025` | &emsp;*zer o Cami mal, ou vexar a alguem.* |  |
 | `c2-l026` | Tataye, uru, eta. *Treſbordar. Vt,* Xiuoga |  |
 | `c2-l027` | &emsp;tatayuru. *Eſtar a marè chea ou ſer preamar.* |  |
