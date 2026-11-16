@@ -17,6 +17,22 @@ class KanaCorpusTests(unittest.TestCase):
             {'typeface': 'italic', 'text': 'Rainha'}, {'typeface': 'roman', 'text': ' inu.'}
         ]), 'inu/イヌ')
 
+    def test_mixed_typeface_cedilla_stays_in_japanese_word(self):
+        for parts in [
+            [('roman', 'T'), ('italic', 'ç'), ('roman', 'uitachi')],
+            [('italic', 'Tç'), ('roman', 'uitachi')],
+            [('italic', 'T'), ('roman', 'çuitachi')],
+            [('roman', 'Tçuitachi')],
+        ]:
+            runs = [{'typeface': face, 'text': text} for face, text in
+                    [*parts, ('italic', '. Primeiro dia da lũa.')]]
+            self.assertEqual(reading_hint(runs), 'Tçuitachi/ツイタチ')
+        self.assertEqual(reading_hint([
+            {'typeface': 'roman', 'text': 'mit'},
+            {'typeface': 'italic', 'text': 'ç'},
+            {'typeface': 'roman', 'text': 'u.'},
+        ]), 'mitçu/ミツ')
+
     def test_unmarked_reo_is_short_contracted_o(self):
         for token, expected in [('reo', 'リョ'), ('Reoſô', 'リョソゥ'),
                                 ('Reocacu', 'リョカク'), ('Reochi', 'リョチ'),

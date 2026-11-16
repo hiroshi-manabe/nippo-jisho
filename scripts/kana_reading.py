@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import re
 import unicodedata
+from itertools import groupby
 
 
 LABELS = {"ad", "adu", "aduer", "aduerb", "alicubi", "bup", "fab", "fei", "feiq", "fox", "i", "item", "l", "lib", "melius", "mon", "nome", "p", "permet", "s", "tac", "taif", "ut", "vt", "voi", "x", "xix"}
@@ -254,16 +255,27 @@ def phrase_hint(text: str) -> str | None:
 
 
 def roman_review_texts(runs: list[dict]):
-    """Keep an isolated italic initial attached to its roman Japanese word."""
-    for index, run in enumerate(runs):
-        if run.get('typeface') != 'roman':
+    """Treat mixed-type initials and tç as part of a Roman Japanese word."""
+    texts = [run.get("text", "") for run in runs]
+    text = "".join(texts)
+    faces = [run.get("typeface") for run, part in zip(runs, texts) for _ in part]
+    include = [face == "roman" for face in faces]
+    for match in re.finditer(r"[^\W\d_]+", text):
+        start, end = match.span()
+        # Keep wholly Italic words out: these are usually Portuguese glosses.
+        if not any(include[start:end]):
             continue
-        text = run.get('text', '')
-        if index and text[:1].islower() and runs[index - 1].get('typeface') == 'italic':
-            initial = re.search(r'(?<!\w)([A-Z])$', runs[index - 1].get('text', ''))
-            if initial:
-                text = initial[1] + text
-        yield text
+        for index in range(start, end):
+            if faces[index] != "italic":
+                continue
+            if (index == start and text[index].isupper()
+                    and index + 1 < end and text[index + 1].islower()):
+                include[index] = True
+            elif index > start and text[index] == "ç" and include[index - 1] and text[index - 1] in "Tt":
+                include[index] = True
+    for included, chars in groupby(zip(include, text), key=lambda pair: pair[0]):
+        if included:
+            yield "".join(char for _, char in chars)
 
 
 def reading_hint(runs: list[dict]) -> str | None:
