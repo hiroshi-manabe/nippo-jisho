@@ -1,0 +1,36 @@
+{
+  "reference": "Human-reviewed Tç/tç typefaces on f438–f484, including Issue 297",
+  "reference_commit": "38c24623",
+  "output_directory": "build/cedilla-learn",
+  "script": "scripts/train_cedilla_typeface.py",
+  "seed": 842,
+  "split": "5-fold StratifiedGroupKFold, grouped by scan page",
+  "reference_counts": {"matched": 503, "roman": 433, "italic": 70, "segmentable": 478},
+  "ocr": {"matched": 503, "roman_predictions": 503, "italic_predictions": 0},
+  "experiments": ["context, segmented glyph, upper glyph body, tight crop, fixed upper crop", "Logistic regression, RBF SVM, ExtraTrees"],
+  "selective_rule": {
+    "italic": "glyph-trees > 0.5 AND body-trees > 0.5",
+    "roman": "glyph-trees, body-trees, glyph-lr, context-lr all < 0.2",
+    "otherwise": "abstain; do not modify current transcription"
+  },
+  "exploratory_validation": {
+    "eligible": 478,
+    "classified": 155,
+    "correct": 150,
+    "italic_correct": 27,
+    "italic_incorrect": 1,
+    "roman_correct": 123,
+    "roman_incorrect": 4,
+    "abstained": 323,
+    "f484_classified": 27,
+    "f484_correct": 27,
+    "f484_abstained": 38,
+    "caveat": "Thresholds and methods were explored on these folds. This is not an untouched final test; scores are not calibrated confidence probabilities."
+  },
+  "application": {
+    "scope": "Available aligned Japanese Tç/tç on f485–f542; f484 and earlier unchanged",
+    "italic_to_roman": 84,
+    "roman_to_italic": 19,
+    "text_and_comments": "unchanged"
+  }
+}
