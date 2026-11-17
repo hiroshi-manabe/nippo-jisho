@@ -19,12 +19,12 @@ Lexical cross-check: supplied NINJAL Entry Words Data of Nippojisho, version 202
 | `c1-l001` | Tçucaicuzzuxi, ſu, uita. *Gaſtando, ou vſã-* |  |
 | `c1-l002` | &emsp;*do deſtruir, ou conſumir de todo. Vt,* Taca- |  |
 | `c1-l003` | &emsp;rauo tçucai cuzzuſu. *Gaſtar, & deſba-* |  |
-| `c1-l004` | &emsp;*ratara fazenda.* |  |
+| `c1-l004` | &emsp;*ratar a fazenda.* |  |
 | `c1-l005` | Tçucaijre, ruru. *Inſtruir, & enſinar bem a gẽ-* |  |
 | `c1-l006` | &emsp;*te, ou moços de que hum ſe ſerue. ¶* Taca- |  |
-| `c1-l007` | &emsp;uo tçucaiiruru. *Domeſticar falcão, &.* |  |
+| `c1-l007` | &emsp;uo tçucaiiruru. *Domeſticar falcão, &* |  |
 | `c1-l008` | &emsp;*inſtruirlo pera caçar, &c.* |  |
-| `c1-l009` | Tçucaiſonzaxi, ſu, aita. *Tratar mal, ou da-* |  |
+| `c1-l009` | Tçucaiſonzaxi, ſu, aita. T*ratar mal, ou da-* |  |
 | `c1-l010` | &emsp;*nar a couſa de que hum ſe ſerue.* |  |
 | `c1-l011` | Tçucaivxinai, ǒ, ǒta. *Eſperdiçar, ou gaſtar* |  |
 | `c1-l012` | &emsp;*mal. Vt,* Zaifouo tçucaivxinǒ. *Eſper-* |  |
@@ -55,7 +55,7 @@ Lexical cross-check: supplied NINJAL Entry Words Data of Nippojisho, version 202
 | `c1-l036` | &emsp;Tçucanagano catana. *Catana de punhos cõ-* |  |
 | `c1-l037` | &emsp;*pridos.* |  |
 | `c1-l038` | Tçucane, uru, eta. *Fazer ẽ feixes, ou mo-* |  |
-| `c1-l039` | &emsp;*lhos. Vt,* Ineuo tçucanuru. *Enfeixar o* |  |
+| `c1-l039` | &emsp;*lhos.* V*t,* Ineuo tçucanuru. *Enfeixar o* |  |
 | `c1-l040` | &emsp;*bate, ou arroz. ¶* Camiuo tçucanuru. |  |
 | `c1-l041` | &emsp;*Ajuntar com amão os cabelos como madeixa,* |  |
 | `c1-l042` | &emsp;*ou meada. ¶* Teuo tçucanuru. *Eſtar cõ* |  |
@@ -111,7 +111,7 @@ Lexical cross-check: supplied NINJAL Entry Words Data of Nippojisho, version 202
 | `c2-l035` | &emsp;*corpo, ou nas mezinhas, &c.* |  |
 | `c2-l036` | Tçucauare, ruru, eta. *Seruir a alguem. Vt,* |  |
 | `c2-l037` | &emsp;Fitoni tçucauaruru. |  |
-| `c2-l038` | Tçucauaxi, ſu, aita. *Mandar. ¶ Itẽ, Dar* |  |
+| `c2-l038` | Tçu*c*auaxi, ſu, aita. *Mandar. ¶ Itẽ, Dar* |  |
 | `c2-l039` | &emsp;*algũa couſa.* |  |
 | `c2-l040` | Tçucauaxime. *Meliùs,* Xixa. i, Tçucaimo- |  |
 | `c2-l041` | &emsp;no. *Animaes dedicados aos Camis, em os* |  |

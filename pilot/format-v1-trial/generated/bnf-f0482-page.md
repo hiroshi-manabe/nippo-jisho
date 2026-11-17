@@ -23,15 +23,15 @@ Lexical cross-check: supplied NINJAL Entry Words Data of Nippojisho, version 202
 | `c1-l005` | &emsp;*poder ir por diante, como a porta que não ſe po-* |  |
 | `c1-l006` | &emsp;*de fechar, hum pao comprido que não pode en-* |  |
 | `c1-l007` | &emsp;*trar todo nalgum lugar, por embaçar diante,* |  |
-| `c1-l008` | &emsp;*&c. ¶* Xocuga tçucayuru. *Eſtar ja far-* |  |
+| `c1-l008` | &emsp;*&c. ¶ X*ocuga tçucayuru. *Eſtar ja far-* |  |
 | `c1-l009` | &emsp;*to de maneira que não pode o estamago leuar* |  |
-| `c1-l010` | &emsp;*mais. ¶* Qi. l, munega tçucayuru. *Eſ-* |  |
+| `c1-l010` | &emsp;*mais. ¶ Q*i. l, munega tçucayuru. *Eſ-* |  |
 | `c1-l011` | &emsp;*tar o coração abafado, & apertado.* |  |
-| `c1-l012` | Tçuchi. *Terra, ou barro.* |  |
+| `c1-l012` | Tçuchi. T*erra, ou barro.* |  |
 | `c1-l013` | T*ç*uchi. *Maço, ou maçete de pao, ou martello* |  |
 | `c1-l014` | &emsp;*de ferro. ¶* Sayezzuchi. *Pilão de pilar* |  |
 | `c1-l015` | &emsp;*arroz, ou maço de carpinteiro.* |  |
-| `c1-l016` | Tçuchicure. *Torrão de terra.* |  |
+| `c1-l016` | Tçuchicure. T*orrão de terra.* |  |
 | `c1-l017` | Tçuchicurebato. *Rola.* |  |
 | `c1-l018` | Tçuchidan. l, dodan. *Degrao feito de terra,* |  |
 | `c1-l019` | &emsp;*ou lugar mais aleuãtado pera por algũa couſa.* |  |
@@ -77,7 +77,7 @@ Lexical cross-check: supplied NINJAL Entry Words Data of Nippojisho, version 202
 | `c2-l001` | &emsp;nano mayuuo tçucuru. *Enfeitarſe a mo-* |  |
 | `c2-l002` | &emsp;*lher concertando as ſobrancelhas. ¶* Iyeuo |  |
 | `c2-l003` | &emsp;tçucuru. *Edificar caſa. ¶* Tauo tçu- |  |
-| `c2-l004` | &emsp;curu. *Cultiuar as varzeas. ¶* Deustẽ- |  |
+| `c2-l004` | &emsp;curu. *Cultiuar as varzeas. ¶* Deus tẽ- |  |
 | `c2-l005` | &emsp;chiuo naqi tocoroyori tçucuri tamǒ. *De-* |  |
 | `c2-l006` | &emsp;*os criou o ceo, & terra de nada. ¶* Toqi- |  |
 | `c2-l007` | &emsp;uo, l, toqino coyeuo tçucuru. *Dar gri-* |  |
@@ -85,7 +85,7 @@ Lexical cross-check: supplied NINJAL Entry Words Data of Nippojisho, version 202
 | `c2-l009` | &emsp;miuo tçucuru. *Fazer peccados. ¶* Xi- |  |
 | `c2-l010` | &emsp;uo tçucuru. *Fazer hũs certos verſos daChina.* |  |
 | `c2-l011` | &emsp;*¶* Michiuo tçucuru. *Fazer os caminhos.* |  |
-| `c2-l012` | &emsp;*¶* Cotobauo tçucuru. *Compor, ou inuẽ.* |  |
+| `c2-l012` | &emsp;*¶* Cotobauo tçucuru. *Compor, ou inuẽ-* |  |
 | `c2-l013` | &emsp;*tar palauras. ¶ Item, Fingir, ou contra-* |  |
 | `c2-l014` | &emsp;*fazer algũa couſa. Mas commũmente ſe vſa* |  |
 | `c2-l015` | &emsp;*neste ſentido compoſto como ſe verà a baixo.* |  |
