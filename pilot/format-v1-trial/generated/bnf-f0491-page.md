@@ -27,10 +27,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l011` | T*ç*urai. *Palaura de queixume pera ſignificar* |  |
 | `c1-l012` | &emsp;*couſa deshumana, ou pouco apraziuel, & ſem* |  |
 | `c1-l013` | &emsp;*piedade, & que da no coração.* |  |
-| `c1-l014` | &emsp;T*ç*uraſa. |  |
+| `c1-l014` | &emsp;Tçuraſa. |  |
 | `c1-l015` | &emsp;T*ç*urǒ. |  |
 | `c1-l016` | T*ç*uranari, u, atta. *Eſtar algũa couſa enfia-* |  |
-| `c1-l017` | &emsp;*da, ou por ordem. Vt,* Zani t*ç*uranaru. |  |
+| `c1-l017` | &emsp;*da, ou por ordem. Vt,* Zani tçuranaru. |  |
 | `c1-l018` | &emsp;*Eſtar no Zaxi qui por ordem. ¶* Ichimon- |  |
 | `c1-l019` | &emsp;nit*ç*uranaru fito. *Homem aparentado com* |  |
 | `c1-l020` | &emsp;*algũa familia, ou que he daqu lla gèração, &* |  |
@@ -118,7 +118,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l038` | &emsp;*em alto.* |  |
 | `c2-l039` | T*ç*uribari. *Anzol.* |  |
 | `c2-l040` | T*ç*uribito. *Peſcador de cana.* |  |
-| `c2-l041` | Tçuribune. *Embarcação peſcareza, ou onde ſe* |  |
+| `c2-l041` | T*ç*uribune. *Embarcação peſcareza, ou onde ſe* |  |
 | `c2-l042` | &emsp;*peſca com anzol.* |  |
 | `c2-l043` | T*ç*uribune. *Vaſo à maneira de naueta de pen-* |  |
 | `c2-l044` | &emsp;*durada q̃ antiguamente ſeruia de porem flores,* |  |

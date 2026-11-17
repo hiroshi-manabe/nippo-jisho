@@ -43,7 +43,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l027` | Torimochi, t*ç*u, otta.i, Torifayaſu. l, Chi |  |
 | `c1-l028` | &emsp;ſô ſuru. *Fazer agaſalhado.* |  |
 | `c1-l029` | Torimochi. *Agaſalhado, & fauor.* |  |
-| `c1-l030` | Torimochi, t*ç*u, otta. *Leuar, ou ter nas* |  |
+| `c1-l030` | Torimochi, tçu, otta. *Leuar, ou ter nas* |  |
 | `c1-l031` | &emsp;*mãos. ¶ Vt,* Tegotoni raſsocuuo torimo- |  |
 | `c1-l032` | &emsp;t*ç*u. *Ter candea em cada mão.* |  |
 | `c1-l033` | Torimuſubi, bu, unda. *Trauar, ou atar* |  |

@@ -31,7 +31,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l015` | &emsp;qiuo vxinǒ. *Perder tempo, ou conjunção.* |  |
 | `c1-l016` | &emsp;*¶ T*oqiuo toru. l, toqidoriuo ſuru. *To-* |  |
 | `c1-l017` | &emsp;*mar, ou escolher tẽpo por agouro pera fazer al-* |  |
-| `c1-l018` | &emsp;*gũa couſa. ¶* Toqiga vt*ç*uru. *Mudarſe,* |  |
+| `c1-l018` | &emsp;*gũa couſa. ¶* Toqiga vtçuru. *Mudarſe,* |  |
 | `c1-l019` | &emsp;*ou paßarſe o tempo, & as horas. ¶* Toqi |  |
 | `c1-l020` | &emsp;itaru. *Chegarſe, ou vir a hora determinada* |  |
 | `c1-l021` | &emsp;*de algũa couſa. Vt,* Fanjǒno toqi itatta. |  |
@@ -40,7 +40,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l024` | &emsp;*ſião, & tempo.* |  |
 | `c1-l025` | &emsp;*¶ Tem os Iapoẽs ſeis horasde dia, & ſeis* |  |
 | `c1-l026` | &emsp;*de noite, as quais contão por nomes de deze* |  |
-| `c1-l027` | &emsp;*animaes. ſ.* Ne, Vxi, *T*ora, V, *T*at*ç*u, |  |
+| `c1-l027` | &emsp;*animaes. ſ.* Ne, Vxi, *T*ora, V, *T*atçu, |  |
 | `c1-l028` | &emsp;Mi, Vma, Fit*ç*uji, Saru, Tori, Inu, Y. |  |
 | `c1-l029` | &emsp;*Pollos quaes parece que entendem doze ſignos* |  |
 | `c1-l030` | &emsp;*celeſtes.* |  |

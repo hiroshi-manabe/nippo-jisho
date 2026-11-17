@@ -18,7 +18,7 @@ Lexical reference consulted after independent scan reading: NINJAL, *Entry Words
 | --- | --- | --- |
 | `c1-l001` | &emsp;*continuarſe de idade em idade como algũa pe-* |  |
 | `c1-l002` | &emsp;*ça, ou doutrina, arte, &c.* |  |
-| `c1-l003` | T*ç*utaye, uru, eta. *Deixar por tradição, ou* |  |
+| `c1-l003` | Tçutaye, uru, eta. *Deixar por tradição, ou* |  |
 | `c1-l004` | &emsp;*enſinar como doutrina, arte, &c.* |  |
 | `c1-l005` | T*ç*utayeqiqi, u, jta. *Ouuir por tradição, ou* |  |
 | `c1-l006` | &emsp;*de boca em boca.* |  |
@@ -28,8 +28,8 @@ Lexical reference consulted after independent scan reading: NINJAL, *Entry Words
 | `c1-l010` | &emsp;*tradiçio. ¶* T*ç*utayezzutayeni yǔ. *Di-* |  |
 | `c1-l011` | &emsp;*zer hum a outro por tradição, ou deſcendencia.* |  |
 | `c1-l012` | T*ç*ut*ç*u. *Canudo de bambu.* |  |
-| `c1-l013` | T*ç*ut*ç*udori. *Hum certo paſſaro.* |  |
-| `c1-l014` | T*ç*ut*ç*uga. *Vt,* T*ç*ut*ç*uganǒ maitta. *Veo* |  |
+| `c1-l013` | T*ç*utçudori. *Hum certo paſſaro.* |  |
+| `c1-l014` | Tçut*ç*uga. *Vt,* T*ç*ut*ç*uganǒ maitta. *Veo* |  |
 | `c1-l015` | &emsp;*ſem perigo.* |  |
 | `c1-l016` | T*ç*ut*ç*uguiri. *Cortar algũa couſa direito, ou em* |  |
 | `c1-l017` | &emsp;*redondo.* |  |
@@ -43,14 +43,14 @@ Lexical reference consulted after independent scan reading: NINJAL, *Entry Words
 | `c1-l025` | &emsp;*pera ter mãonos rios, &c. ¶* T*ç*ut*ç*umi- |  |
 | `c1-l026` | &emsp;uo t*ç*uqu. *Fazer eſtes vallos.* |  |
 | `c1-l027` | T*ç*ut*ç*umi. *Saco de canga, ou ſeda, &c.* |  |
-| `c1-l028` | &emsp;*¶ Item,* T*ç*ut*ç*umi. *Fardo de linho, ou* |  |
+| `c1-l028` | &emsp;*¶ Item,* Tçut*ç*umi. *Fardo de linho, ou* |  |
 | `c1-l029` | &emsp;*trouxa. Mas não ſe vſa ſe não com algũa com-* |  |
 | `c1-l030` | &emsp;*poſição. Vt,* Fitotçu çumi, futat*ç*u- |  |
 | `c1-l031` | &emsp;t*ç*umi. |  |
 | `c1-l032` | T*ç*u çumi, u, unda. *Enuoluer, ou enfarde-* |  |
-| `c1-l033` | &emsp;*lar, &c. Vt,* Cuſuriuo t*ç*ut*ç*umu. *En-* |  |
+| `c1-l033` | &emsp;*lar, &c. Vt,* Cuſuriuo t*ç*utçumu. *En-* |  |
 | `c1-l034` | &emsp;*uoluer, ou emburulhar algũa mezinha com pa-* |  |
-| `c1-l035` | &emsp;*pel. ¶* Xirouo t*ç*ut*ç*umu. i, Cacoi ma- |  |
+| `c1-l035` | &emsp;*pel. ¶* Xirouo tçut*ç*umu. i, Cacoi ma- |  |
 | `c1-l036` | &emsp;uaſu. *Cercar a fortaleza. ¶* Teqiuo |  |
 | `c1-l037` | &emsp;torit*ç*ut*ç*umu. *Tomar ao imigo no meo,* |  |
 | `c1-l038` | &emsp;*ou cercalo. ¶* Tçut*ç*umazu monouo yǔ. |  |
@@ -80,7 +80,7 @@ Lexical reference consulted after independent scan reading: NINJAL, *Entry Words
 | `c2-l004` | &emsp;*¶ Item, No Ximo, Arder, ou latejar cõdor.* |  |
 | `c2-l005` | T*ç*ut*ç*uqinuqi, u, uita. *Tirar o paſſaro algũa* |  |
 | `c2-l006` | &emsp;*couſa com o bico, como olhos dalgum animal.* |  |
-| `c2-l007` | T*ç*ut*ç*uximi, u, ǔda. *Humilharſe, ou ter* |  |
+| `c2-l007` | T*ç*utçuximi, u, ǔda. *Humilharſe, ou ter* |  |
 | `c2-l008` | &emsp;*tento, ou reſpeito. ¶* Miuo t*ç*ut*ç*uximu. |  |
 | `c2-l009` | &emsp;*Ter tento, & precato ſobre ſi compondoſe, &* |  |
 | `c2-l010` | &emsp;*temperandoſe.* |  |
@@ -93,10 +93,10 @@ Lexical reference consulted after independent scan reading: NINJAL, *Entry Words
 | `c2-l017` | T*ç*utome. *Obra deler liuros, ou orar, ou que* |  |
 | `c2-l018` | &emsp;*pertence a ſaluação. ¶* T*ç*utomeuo naiu. |  |
 | `c2-l019` | &emsp;*Fazer ſemelhantes obras.* |  |
-| `c2-l020` | T*ç*utome, uru, eta. *Comprir com ſua obri-* |  |
+| `c2-l020` | Tçutome, uru, eta. *Comprir com ſua obri-* |  |
 | `c2-l021` | &emsp;*gação, ou fazer boas obras, &c. ¶* Yacuuo |  |
 | `c2-l022` | &emsp;tçutomuru. *Fazer ſeu officio. ¶* Ienuo- |  |
-| `c2-l023` | &emsp;t*ç*utomuru. *Fazer obras virtuoſas.* |  |
+| `c2-l023` | &emsp;tçutomuru. *Fazer obras virtuoſas.* |  |
 | `c2-l024` | T*ç*utome faguemaxi, ſu, ita. *Comprir cõ di-* |  |
 | `c2-l025` | &emsp;*ligencia, ou fazer com todas as forças. Vt,* |  |
 | `c2-l026` | &emsp;Ienuo t*ç*utome faguemaſu. *Fazer obras* |  |
@@ -106,15 +106,15 @@ Lexical reference consulted after independent scan reading: NINJAL, *Entry Words
 | `c2-l030` | T*ç*uttachiagari, ru, atta. *Idem.* |  |
 | `c2-l031` | T*ç*utto. *Muito, ou perto, fundo, &c. ¶* Tçut- |  |
 | `c2-l032` | &emsp;to coreye vogiare. *Chegar bem pera cà.* |  |
-| `c2-l033` | T*ç*uua. *Erua aßichamada que ſe dà nas prayas.* |  |
-| `c2-l034` | T*ç*uua. *Cuſpo: palaura de molheres.* |  |
-| `c2-l035` | Tçuuamono. *Soldado, ou gente de guerra.* |  |
+| `c2-l033` | Tçuua. *Erua aßichamada que ſe dà nas prayas.* |  |
+| `c2-l034` | Tçuua. *Cuſpo: palaura de molheres.* |  |
+| `c2-l035` | T*ç*uuamono. *Soldado, ou gente de guerra.* |  |
 | `c2-l036` | T*ç*uuari, ru, atta. *Eſtar doente de prenhicão.* |  |
 | `c2-l037` | &emsp;*¶ Item, Brotarem as aruores com gomos, &* |  |
-| `c2-l038` | &emsp;*folhas nouas. Vt,* Ciga t*ç*uuaru. *¶ Per-* |  |
-| `c2-l039` | &emsp;*met.* Qedamonoga t*ç*uuaru. *Andarem* |  |
+| `c2-l038` | &emsp;*folhas nouas. Vt,* Ciga tçuuaru. *¶ Per-* |  |
+| `c2-l039` | &emsp;*met.* Qedamonoga tçuuaru. *Andarem* |  |
 | `c2-l040` | &emsp;*os animaes com o cio. Meliùs, Sacaru.* |  |
-| `c2-l041` | T*ç*uuari. *Doẽça de molher prenhe. Vt,* T*ç*u- |  |
+| `c2-l041` | T*ç*uuari. *Doẽça de molher prenhe. Vt,* Tçu- |  |
 | `c2-l042` | &emsp;uariuo ſuru. |  |
 | `c2-l043` | T*ç*uxi. *Caniçada que ſe faz de bambus em alto* |  |
 | `c2-l044` | &emsp;*como jũto do forro da caſa, & pera por algũas* |  |

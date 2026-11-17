@@ -15,7 +15,7 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c1-l001` | &emsp;*uelo. ¶* Vmaga qeuo cayuru. *Mudar* |  |
-| `c1-l002` | &emsp;*os cabelos o caualo. ¶* Vmauo t*ç*ucurô. |  |
+| `c1-l002` | &emsp;*os cabelos o caualo. ¶* Vmauo tçucurô. |  |
 | `c1-l003` | &emsp;*Curar ao caualo ſangrandoo, &c. ¶* Vma- |  |
 | `c1-l004` | &emsp;uo fayamuru. *Dar de eſporas ao caualo, ou* |  |
 | `c1-l005` | &emsp;*fazelo ir de preßa. ¶* Vmauo tat*ç*uru. *Por* |  |

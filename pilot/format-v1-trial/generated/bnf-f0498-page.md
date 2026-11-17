@@ -31,7 +31,7 @@ Lexical aid: [NINJAL, Entry Words Data of Nippojisho, version 202510](https://ww
 | `c1-l013` | &emsp;Teijenno fana. *Roſas, ou fulas da Niua.* |  |
 | `c1-l014` | Teijit. *Verdade certa, & determinada. S.* |  |
 | `c1-l015` | Teinei. *Grãde agaſalhado, & amor. ¶* Tei- |  |
-| `c1-l016` | &emsp;neiuo t*ç*ucuſu. *Fazer grande agaſalhado.* |  |
+| `c1-l016` | &emsp;neiuo tçucuſu. *Fazer grande agaſalhado.* |  |
 | `c1-l017` | Teineini. *Adu. Amigauelmente, ou amo-* |  |
 | `c1-l018` | &emsp;*roſamente, com muito agaſalhado, &c.* |  |
 | `c1-l019` | Teineiſa. *Amor, & agaſalhado.* |  |

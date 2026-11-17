@@ -22,7 +22,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l006` | &emsp;*tasſeguindo. ¶* Q iga t*ç*uzzucanu. *Não* |  |
 | `c1-l007` | &emsp;*ſe continuar o folego com bradar, &c.* |  |
 | `c1-l008` | *Tç*uzzura. *Ceſto, ou canaſtra de vimes, ou rota.* |  |
-| `c1-l009` | *Tç*uzzure, l, t*ç*uzzuri. *Farrapo velho, ou* |  |
+| `c1-l009` | *Tç*uzzure, l, tçuzzuri. *Farrapo velho, ou* |  |
 | `c1-l010` | &emsp;*veſtido muito remendado.* |  |
 | `c1-l011` | T*ç*uzzuri, ru, utta. *Remendar, & coſer* |  |
 | `c1-l012` | &emsp;*couſa rota como veſtido, &c. ¶ ,* Cotoba- |  |
@@ -109,7 +109,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l020` | &emsp;*atirar com arco, &c. ¶ Item,* Te. *Gẽ-* |  |
 | `c2-l021` | &emsp;*te de guerra. ¶* Tevaqeuo ſuru, l, teuo |  |
 | `c2-l022` | &emsp;vaquru, l, vacat*ç*u. *Repartir gente de* |  |
-| `c2-l023` | &emsp;*guerra. ¶* Nanigaxino teni t*ç*uqu. *Eſ-* |  |
+| `c2-l023` | &emsp;*guerra. ¶* Nanigaxino teni tçuqu. *Eſ-* |  |
 | `c2-l024` | &emsp;*tar de baixo da bandeira, ou capitania dalguẽ.* |  |
 | `c2-l025` | &emsp;*¶* Tezzucaiuo ſuru. *Dar algũa ſaida, ou* |  |
 | `c2-l026` | &emsp;*arremetida nos inimigos, ou combate na forta-* |  |

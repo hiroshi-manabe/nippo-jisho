@@ -29,7 +29,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l013` | *T*orico. *Catiuo, ou tomado em guerra.* |  |
 | `c1-l014` | &emsp;*¶* Toriconi ſuru. *Tomar, ou catiuar* |  |
 | `c1-l015` | &emsp;*na guerra.* |  |
-| `c1-l016` | Toricobochi, t*ç*u, otta. *Desfazer,ou deſ-* |  |
+| `c1-l016` | Toricobochi, tçu, otta. *Desfazer,ou deſ-* |  |
 | `c1-l017` | &emsp;*manchar como caſas, &c. pera ſe tornarem a* |  |
 | `c1-l018` | &emsp;*edificar, ou ſe guardar a madeira.* |  |
 | `c1-l019` | Toricome, uru, eta. *Cercar, ou tomar no meo* |  |

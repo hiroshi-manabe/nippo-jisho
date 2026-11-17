@@ -60,7 +60,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l044` | &emsp;T*ç*uqiaini mairǒzu. *Ireino cabo deſte mes,* |  |
 | `c1-l045` | &emsp;*ou no principio do outro.* |  |
 | `c1-l046` | T*ç*uqiai. *Commercio, & trato de varias par-* |  |
-| `c1-l047` | &emsp;*tes, ou gentes. Vt,* T*ç*uqiaino tocoro. *Lu* |  |
+| `c1-l047` | &emsp;*tes, ou gentes. Vt,* Tçuqiaino tocoro. *Lu* |  |
 
 ## Column 2 running header
 
@@ -87,7 +87,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l007` | T*ç*uqicacari, ru, atta. *Encontrarſe, ou* |  |
 | `c2-l008` | &emsp;*dar de encõtro com alguem como no caminho,* |  |
 | `c2-l009` | &emsp;*&c. Itẽ, Dar ſobre alguẽ cõ lãça, ou eſtocadas.* |  |
-| `c2-l010` | Tçuqi cague. *Sombra, ou ſemelhança da lũa.* |  |
+| `c2-l010` | T*ç*uqi cague. *Sombra, ou ſemelhança da lũa.* |  |
 | `c2-l011` | &emsp;*¶ Item, Claridade, ou rayo da lũa. Vt,* |  |
 | `c2-l012` | &emsp;T*ç*uqi caguega ſaſu. *Entrar a claridade da* |  |
 | `c2-l013` | &emsp;*lũa em algũa parte.* |  |

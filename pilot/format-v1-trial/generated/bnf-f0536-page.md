@@ -14,7 +14,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | &emsp;vgat*ç*u niuoide gozaru. *He cheiro que* |  |
+| `c1-l001` | &emsp;vgatçu niuoide gozaru. *He cheiro que* |  |
 | `c1-l002` | &emsp;*parece esfolar os narizes.* |  |
 | `c1-l003` | Vgacu. *Saber letras, ou ter eſtudado. Vt,* V- |  |
 | `c1-l004` | &emsp;gacu, mugacu. *O q̃ tem eſtudado, & não tem* |  |
@@ -137,7 +137,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l042` | &emsp;ſuru. *Enraſtarem as lanças os caualeiros.* |  |
 | `c2-l043` | &emsp;*¶* Vmauo finmauaſu. *Fazer virar o ca-* |  |
 | `c2-l044` | &emsp;*ualo pera aparte, ou mãoeſquerda puxandoo.* |  |
-| `c2-l045` | &emsp;*¶* Vmauo t*ç*unmauaſu. *Fazelo virar pera a* |  |
+| `c2-l045` | &emsp;*¶* Vmauo tçunmauaſu. *Fazelo virar pera a* |  |
 | `c2-l046` | &emsp;*parte direita. ¶* Vmauo noru. *Ir a ca-* |  |
 
 ## Column 2 catchword

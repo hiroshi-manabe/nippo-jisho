@@ -84,7 +84,7 @@ Lexical coverage was cross-checked after the independent scan reading against En
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c2-l001` | &emsp;*ſaro que canta triste no verão.* |  |
-| `c2-l002` | Vnaimat*ç*u. *Pinheirinho que começa a cre-* |  |
+| `c2-l002` | Vnaimatçu. *Pinheirinho que começa a cre-* |  |
 | `c2-l003` | &emsp;*cer.* P. |  |
 | `c2-l004` | Vnaji. *Fio do lombo entre os dous ombros.* |  |
 | `c2-l005` | Vname. i, Mevji. *Vaca.* |  |

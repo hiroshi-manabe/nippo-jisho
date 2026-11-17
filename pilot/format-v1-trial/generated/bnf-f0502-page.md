@@ -80,7 +80,7 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c2-l004` | Teqicocu. Teqino cuni. *Reino de inimigos.* |  |
 | `c2-l005` | Teqichocu. T*ç*utçujino fana. *Flor aßi cha-* |  |
 | `c2-l006` | &emsp;*mada que ſe dà em hũas aruorezinhas domato.* |  |
-| `c2-l007` | Teqiden. i, Taxicara t*ç*utaye. *Doutrina,* |  |
+| `c2-l007` | Teqiden. i, Taxicara tçutaye. *Doutrina,* |  |
 | `c2-l008` | &emsp;*ou enſino que ſe dà fielmente, & em preſença:* |  |
 | `c2-l009` | &emsp;*como o que os Apoſtolos aprenderão de Chriſto* |  |
 | `c2-l010` | &emsp;*Noſſo ſenhor, ou os Chriſtãos dos Apoſtoles.* |  |

@@ -22,7 +22,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l006` | Toriſucume, uru, eta. *Forçar, ou conſtrãger.* |  |
 | `c1-l007` | Toriſute, t*ç*uru, eta. *Lançar, ou deitar fora* |  |
 | `c1-l008` | &emsp;*com a mão, &c.* |  |
-| `c1-l009` | Toritate, t*ç*uru, eta. *Edificar, ou aleuantar* |  |
+| `c1-l009` | Toritate, tçuru, eta. *Edificar, ou aleuantar* |  |
 | `c1-l010` | &emsp;*caſas. ¶ Item, Tornar por a alguem no ſeu* |  |
 | `c1-l011` | &emsp;*proprio eſtado. ¶* Fitono iyeuo tori ta- |  |
 | `c1-l012` | &emsp;t*ç*uru. *Aleuantar, & por empès a alguẽ,* |  |
@@ -48,11 +48,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l032` | &emsp;*alguem a ſeus tẽpos diante do ſenhor. ¶* To- |  |
 | `c1-l033` | &emsp;rit*ç*uguiuo ſuru. *Ser medianeiro, ou in-* |  |
 | `c1-l034` | &emsp;*terceßor.* |  |
-| `c1-l035` | Torit*ç*ume, uru, eta. *Por em aperto. ¶* Xi- |  |
+| `c1-l035` | Toritçume, uru, eta. *Por em aperto. ¶* Xi- |  |
 | `c1-l036` | &emsp;rouo torit*ç*umuru. *Por em aperto a for-* |  |
 | `c1-l037` | &emsp;*taleza.* |  |
 | `c1-l038` | Torit*ç*uqe, uru, eta. *Tomando pegar, ou acre-* |  |
-| `c1-l039` | &emsp;*centar. ¶* Torit*ç*uqe, fitt*ç*uqe monouo |  |
+| `c1-l039` | &emsp;*centar. ¶* Torit*ç*uqe, fittçuqe monouo |  |
 | `c1-l040` | &emsp;yǔ. *Falar acrecentando de cà, & de là.* |  |
 | `c1-l041` | *T*orit*ç*uqi, u, uita. *Afferrar, ou apegarſe* |  |
 | `c1-l042` | &emsp;*dalgũa couſa. Vt,* Fitono teni torit*ç*uqu. |  |
@@ -83,7 +83,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l003` | &emsp;*latar o arrayal. ¶ Item, Socorrer a alguẽ* |  |
 | `c2-l004` | &emsp;*em algũa falta, ou neceßidade como de dinhei-* |  |
 | `c2-l005` | &emsp;*ro, arroz, &c.* |  |
-| `c2-l006` | *T*orit*ç*uzzuqi, u, ita. *Continuar ſem en-* |  |
+| `c2-l006` | *T*oritçuzzuqi, u, ita. *Continuar ſem en-* |  |
 | `c2-l007` | &emsp;*teruallo.* |  |
 | `c2-l008` | Tǒriten. *Nome de hum ceo.* |  |
 | `c2-l009` | Toritome, uru, eta. *Deter a alguem pegando* |  |

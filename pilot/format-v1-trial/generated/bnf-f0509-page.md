@@ -57,7 +57,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l041` | &emsp;*meter peccados. ¶* Togauo yamuru. *Ceſ-* |  |
 | `c1-l042` | &emsp;*ſar de peccar. ¶* Togauo caiumuru. *En* |  |
 | `c1-l043` | &emsp;*cobrir, ou eſcuſar os peccados. ¶* Togani |  |
-| `c1-l044` | &emsp;vot*ç*uru. *Cair em peccados. ¶* Togani |  |
+| `c1-l044` | &emsp;votçuru. *Cair em peccados. ¶* Togani |  |
 | `c1-l045` | &emsp;qiuamaru. *Estar conſumado nos peccados.* |  |
 | `c1-l046` | Tǒgacu. Imano gacumon. *Eſtudo preſente,* |  |
 | `c1-l047` | &emsp;*ou dagora.* |  |
@@ -111,7 +111,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l031` | &emsp;*¶* Muronuo toguru. *Sair contraição, ou* |  |
 | `c2-l032` | &emsp;*polla em effeito. ¶* Tẽno yorocobiuo to- |  |
 | `c2-l033` | &emsp;guru. *Gozar das alegrias celeſtiaes.* |  |
-| `c2-l034` | Tôguet. Fuyuno t*ç*uqi. *Lũa do inuerno. S.* |  |
+| `c2-l034` | Tôguet. Fuyuno tçuqi. *Lũa do inuerno. S.* |  |
 | `c2-l035` | Togui. *O que tem por officioalimpar, & aſa-* |  |
 | `c2-l036` | &emsp;*calar eſpadas, &c.* |  |
 | `c2-l037` | Togui, gu, oida. *Amolar, ou aſacalar eſpa-* |  |

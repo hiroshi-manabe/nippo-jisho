@@ -30,7 +30,7 @@ Lexical coverage was checked after independent scan reading against Entry Words 
 | `c1-l012` | Tǒgura. *Enxada da China, que tem o cabo me-* |  |
 | `c1-l013` | &emsp;*tido pollo meyo do ferro.* |  |
 | `c1-l014` | Tôgua. *Abobora, ou combalenga.* |  |
-| `c1-l015` | Tǒguat. Ataru t*ç*uqi. *Eſte mes, ou eſta lũa.* |  |
+| `c1-l015` | Tǒguat. Ataru tçuqi. *Eſte mes, ou eſta lũa.* |  |
 | `c1-l016` | Tǒgi. i, Yuni iru. *Tomar os banhos, ou en* |  |
 | `c1-l017` | &emsp;*trar nas caldas por algũa doença.* |  |
 | `c1-l018` | Togi, zzuru, ita. *Tapar, ou fechar. Vt,* |  |
@@ -78,7 +78,7 @@ Lexical coverage was checked after independent scan reading against Entry Words 
 | `c2-l002` | &emsp;*amão nas armas.* |  |
 | `c2-l003` | Togit*ç*uqe, ru, eta. *Ajuntar coſendo, ou pe-* |  |
 | `c2-l004` | &emsp;*gondo hũa couſa com outra.* |  |
-| `c2-l005` | Togit*ç*uqi, u, uita. *Eſtar hũa couſa aßi jũ-* |  |
+| `c2-l005` | Togitçuqi, u, uita. *Eſtar hũa couſa aßi jũ-* |  |
 | `c2-l006` | &emsp;*ta, ou pegada.* |  |
 | `c2-l007` | Tǒgiǔ. i, Tǒgiǔgi. *Superior dagora, ou de* |  |
 | `c2-l008` | &emsp;*preſente.* |  |

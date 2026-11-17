@@ -34,7 +34,7 @@ Lexical reference consulted after independent scan reading: NINJAL, *Entry Words
 | `c1-l016` | &emsp;*ſa pera baixo.* |  |
 | `c1-l017` | T*ç*uritôdai. *Candieiro que ſe dependura.* |  |
 | `c1-l018` | T*ç*uriǔdo. *Peſcador de cana.* |  |
-| `c1-l019` | Tçurizauo. *Cana de peſcar.* |  |
+| `c1-l019` | T*ç*urizauo. *Cana de peſcar.* |  |
 | `c1-l020` | T*ç*ǔro. Touoru michi. *Caminho que ſe paſ-* |  |
 | `c1-l021` | &emsp;*ſa, ou anda. Vt,* T*ç*ǔroga tomatta, l, |  |
 | `c1-l022` | &emsp;qireta. *Estão os caminhos tomados, ou im-* |  |
@@ -50,7 +50,7 @@ Lexical reference consulted after independent scan reading: NINJAL, *Entry Words
 | `c1-l034` | &emsp;*de quem poem, ou dependura balde em poço* |  |
 | `c1-l035` | &emsp;*pera declarar couſa imgreme como rocha talha-* |  |
 | `c1-l036` | &emsp;*da ou grande precipicio.* |  |
-| `c1-l037` | Tçurubenaua. *Corda do balde de tirar agoa.* |  |
+| `c1-l037` | T*ç*urubenaua. *Corda do balde de tirar agoa.* |  |
 | `c1-l038` | T*ç*urubucuro. *Saco da corda do arco.* |  |
 | `c1-l039` | T*ç*urucabura. *Aſelha da corda do arco por on-* |  |
 | `c1-l040` | &emsp;*de ſe mete, & poem no arco.* |  |
@@ -107,7 +107,7 @@ Lexical reference consulted after independent scan reading: NINJAL, *Entry Words
 | `c2-l031` | &emsp;*las pontas dos ramos como paßaro, ou bugio.* |  |
 | `c2-l032` | &emsp;*¶* Souano caqegiuo t*ç*utai yuqu. *Ir por* |  |
 | `c2-l033` | &emsp;*algũas partes, ou caminhos ingremes ao longo* |  |
-| `c2-l034` | &emsp;*dalgum precipicio. ¶* Ixiuo t*ç*utǒ. *Ir de* |  |
+| `c2-l034` | &emsp;*dalgum precipicio. ¶* Ixiuo tçutǒ. *Ir de* |  |
 | `c2-l035` | &emsp;*pedra em pedra, ou como por ruim caminho,* |  |
 | `c2-l036` | &emsp;*ou depenedo empenedo por ſerra fragoſa.* |  |
 | `c2-l037` | T*ç*utaimichi. *Caminho que ſe continua por par* |  |

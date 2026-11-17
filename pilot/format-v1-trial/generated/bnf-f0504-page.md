@@ -92,7 +92,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l018` | &emsp;*to de ſi.* |  |
 | `c2-l019` | *T*ezzuqe, uru, eta. *O criar a alguem junto* |  |
 | `c2-l020` | &emsp;*de ſi, ou domesticalo, &c.* |  |
-| `c2-l021` | *T*ezzut*ç*u. l, tezzutçuna. *Peſſoa inhabil q̃* |  |
+| `c2-l021` | *T*ezzutçu. l, tezzutçuna. *Peſſoa inhabil q̃* |  |
 | `c2-l022` | &emsp;*não ſabe fazer nada: particularmente ſe diz* |  |
 | `c2-l023` | &emsp;*de hũa molher deſmazelada, & que não ſabe* |  |
 | `c2-l024` | &emsp;*fazer as couſas de caſa.* |  |

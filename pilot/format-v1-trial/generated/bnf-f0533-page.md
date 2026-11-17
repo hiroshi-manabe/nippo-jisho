@@ -15,7 +15,7 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c1-l001` | &emsp;*lhas, &c. ¶* Zaxiqiuo vchifarǒ. *Var* |  |
-| `c1-l002` | &emsp;*rer, & alimpar o* Zaxiqui. *¶* T*ç*uyuuo |  |
+| `c1-l002` | &emsp;*rer, & alimpar o* Zaxiqui. *¶* Tçuyuuo |  |
 | `c1-l003` | &emsp;vchi farǒte touoru. *Paßar ſacudindo o* |  |
 | `c1-l004` | &emsp;*orualho do caminho.* |  |
 | `c1-l005` | Vchifare, uru, eta. *Eſtar algum lugar deſa-* |  |

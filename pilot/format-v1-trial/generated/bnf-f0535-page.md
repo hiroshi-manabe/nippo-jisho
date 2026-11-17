@@ -88,7 +88,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l014` | &emsp;*que vão ardendo por cima da carne.* |  |
 | `c2-l015` | Vdenuqi. *Hũ cordão que tẽ a eſpada, ou Catana* |  |
 | `c2-l016` | &emsp;*nos punhos q̃ ſe mete no braço pera lhenão cair.* |  |
-| `c2-l017` | Vdeſaqi. *Mãos. ¶* Vdeſaqiga t*ç*uyoi, |  |
+| `c2-l017` | Vdeſaqi. *Mãos. ¶* Vdeſaqiga tçuyoi, |  |
 | `c2-l018` | &emsp;l, youai fito. *Homẽ forte, ou fraco das mãos.* |  |
 | `c2-l019` | Vdevaza. *Obra do braço. Vt,* Vdevazauo |  |
 | `c2-l020` | &emsp;ſuru fito. *Homem que faz façanhas, ou a-* |  |

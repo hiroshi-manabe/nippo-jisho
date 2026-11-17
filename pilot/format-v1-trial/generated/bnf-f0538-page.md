@@ -16,8 +16,8 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c1-l001` | Vmareqi, uru, ita. *Nacendo vir a este* |  |
 | `c1-l002` | &emsp;*mundo.* |  |
-| `c1-l003` | Vmaret*ç*uqi, qu, ita. *Nacer, ou ter algũa* |  |
-| `c1-l004` | &emsp;*couſa natural. ¶* Vmaret*ç*uita catagui- |  |
+| `c1-l003` | Vmaretçuqi, qu, ita. *Nacer, ou ter algũa* |  |
+| `c1-l004` | &emsp;*couſa natural. ¶* Vmaretçuita catagui- |  |
 | `c1-l005` | &emsp;gia. *He cuſtume natural, ou com que naceo.* |  |
 | `c1-l006` | &emsp;*¶* Donni. l, riconni vmaret*ç*uqu. *Na-* |  |
 | `c1-l007` | &emsp;*cer naturalmente paruo, ou diſcreto.* |  |

@@ -52,7 +52,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l036` | &emsp;*lher de agora.* |  |
 | `c1-l037` | *T*ǒbun. i, Saxiataru bun. *Parte que cabe a* |  |
 | `c1-l038` | &emsp;*alguem como ſe repartißem por algũs tantas* |  |
-| `c1-l039` | &emsp;*oraçoẽs, &c. ¶* Tǒbun t*ç*ucamat*ç*utta. |  |
+| `c1-l039` | &emsp;*oraçoẽs, &c. ¶* Tǒbun tçucamat*ç*utta. |  |
 | `c1-l040` | &emsp;*Fiz, ou compri com o que me coube.* |  |
 | `c1-l041` | Tôbun. *Igualdade no peſo, medida, ou quã-* |  |
 | `c1-l042` | &emsp;*tidade.* |  |

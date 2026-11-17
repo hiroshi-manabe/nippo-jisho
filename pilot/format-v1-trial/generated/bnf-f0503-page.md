@@ -51,7 +51,7 @@ Lexical aid: NINJAL, Hideyuki Ohshima and Taichi Aida, Entry Words Data of Nippo
 | `c1-l033` | *T*etdai. *Ajuda, ou ajudante. ¶ T*etdai |  |
 | `c1-l034` | &emsp;ſuru. *Dar ajuda a outro, ou ſer ajudante.* |  |
 | `c1-l035` | *T*ete. l, chichi. *Pay.* |  |
-| `c1-l036` | *T*etgiǒ. Curoganeno t*ç*uye. *Bordão de fer-* |  |
+| `c1-l036` | *T*etgiǒ. Curoganeno tçuye. *Bordão de fer-* |  |
 | `c1-l037` | &emsp;*ro, ou baſtão. S.* |  |
 | `c1-l038` | *T*etguio. *Peixe que fica de pois de paßar o car-* |  |
 | `c1-l039` | &emsp;*ro no caminho em algũa pouca dagoa, ou lama.* |  |
@@ -81,7 +81,7 @@ Lexical aid: NINJAL, Hideyuki Ohshima and Taichi Aida, Entry Words Data of Nippo
 | `c2-l004` | *T*etrin. Curoganeno va. *Roda, ou circulo* |  |
 | `c2-l005` | &emsp;*de ferro.* |  |
 | `c2-l006` | *T*ettai. Canagut*ç*u. *Ferraduras.* |  |
-| `c2-l007` | *T*ett*ç*ui. *Martelo de ferro.* |  |
+| `c2-l007` | *T*ettçui. *Martelo de ferro.* |  |
 | `c2-l008` | *T*ettei. Soconi touoru. *Penetrar interior-* |  |
 | `c2-l009` | &emsp;*mente. S.* |  |
 | `c2-l010` | *T*ettǒ. *Catana de ferro. S.* |  |

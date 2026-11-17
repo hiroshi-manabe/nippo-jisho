@@ -19,7 +19,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l003` | &emsp;*gar, ou offerecer ao ſenhor, ou dono das terras* |  |
 | `c1-l004` | &emsp;*o rendimento, ou foro dellas. Vt,* Nenguuo |  |
 | `c1-l005` | &emsp;vnjǒ ſuru. *¶ Item, O rendimento.* |  |
-| `c1-l006` | Vnmei. *Fortuna, ou vẽtura. ¶* Vnmeiga t*ç*uqi- |  |
+| `c1-l006` | Vnmei. *Fortuna, ou vẽtura. ¶* Vnmeiga tçuqi- |  |
 | `c1-l007` | &emsp;ta. l, qiuamatta. *Acabouſe a dita, ou ventura.* |  |
 | `c1-l008` | Vnmot. *Comer que tem calidade quente, ou* |  |
 | `c1-l009` | &emsp;*virtude daquentar o estamago.* |  |

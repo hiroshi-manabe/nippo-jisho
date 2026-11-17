@@ -104,7 +104,7 @@ The scan prints an anomalous initial T in this V-before-O running header; it is 
 | `c2-l028` | &emsp;*¶* Sono fitoni vochita. *Conſenti com eſte* |  |
 | `c2-l029` | &emsp;*homem, ou com eßa peßoa caindo com ellaem* |  |
 | `c2-l030` | &emsp;*peccado. ¶* Xirogavot*ç*uru. *Render-* |  |
-| `c2-l031` | &emsp;*ſe a fortaleza. ¶* Xucqeuo vot*ç*uru. *Dei* |  |
+| `c2-l031` | &emsp;*ſe a fortaleza. ¶* Xucqeuo votçuru. *Dei* |  |
 | `c2-l032` | &emsp;*xar a religião, & fazerſe ſecular. ¶ Itẽ,* |  |
 | `c2-l033` | &emsp;*Fugir, ou acolherſe vencido na guerra. ¶ Itẽ,* |  |
 | `c2-l034` | &emsp;Vochi t*ç*uru. *Confeßar o reo, ou o que* |  |

@@ -77,8 +77,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l002` | &emsp;*mo prègo, &c. ¶ Item, Lançando, ou* |  |
 | `c2-l003` | &emsp;*dando com algũa couſa pegala como barro à pa-* |  |
 | `c2-l004` | &emsp;*rede, &c.* |  |
-| `c2-l005` | Vchit*ç*uredachi, t*ç*u, atta. *Ir em cõpanhia.* |  |
-| `c2-l006` | Vchit*ç*uzzuqi, u, ita. *Continuarſe, ou vir* |  |
+| `c2-l005` | Vchit*ç*uredachi, tçu, atta. *Ir em cõpanhia.* |  |
+| `c2-l006` | Vchitçuzzuqi, u, ita. *Continuarſe, ou vir* |  |
 | `c2-l007` | &emsp;*logo hum a pos outro.* |  |
 | `c2-l008` | Vchite. *Matador. ¶ Item, Iugador de* |  |
 | `c2-l009` | &emsp;*dados, tabolas, ou Go, &c. Vt,* Bacuchi, |  |

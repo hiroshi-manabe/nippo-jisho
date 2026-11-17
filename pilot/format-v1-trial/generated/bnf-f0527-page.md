@@ -38,7 +38,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l022` | &emsp;*goa, ou feruer em burbulhões.* |  |
 | `c1-l023` | Vaqitame, uru, eta. *Vide,* Vaqimaye, |  |
 | `c1-l024` | &emsp;uru. *que he propria palaura.* |  |
-| `c1-l025` | Vaqit*ç*ubo. *Debaixo do braço, ou ſouaco.* |  |
+| `c1-l025` | Vaqitçubo. *Debaixo do braço, ou ſouaco.* |  |
 | `c1-l026` | Vaqite. *Particularmente.* |  |
 | `c1-l027` | Vaqivaqi. *Os inferiores, ou gente ſomenos.* |  |
 | `c1-l028` | Vaqivaqini. *Emparticular, ou nos inferiores.* |  |

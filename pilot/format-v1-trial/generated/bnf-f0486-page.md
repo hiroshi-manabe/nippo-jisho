@@ -14,7 +14,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | Tçumami, u, ǒda. *Tomar a couſa com dous* |  |
+| `c1-l001` | T*ç*umami, u, ǒda. *Tomar a couſa com dous* |  |
 | `c1-l002` | &emsp;*dedos. Vt,* Sacanauo t*ç*umamu. *Tomar* |  |
 | `c1-l003` | &emsp;*a Sacana com dous dedos. ¶ Item, Zom-* |  |
 | `c1-l004` | &emsp;*bar dalguem.* |  |
@@ -31,7 +31,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l015` | T*ç*umari, u, atta. *Eſtar, ou ſer muito aperta-* |  |
 | `c1-l016` | &emsp;*do. ¶* Fanaga t*ç*umaru. *Ter os narizes* |  |
 | `c1-l017` | &emsp;*apertados, & entupidos como com cadarram,* |  |
-| `c1-l018` | &emsp;*&c. ¶* Cut*ç*uga tçumaru. *Ser o calça-* |  |
+| `c1-l018` | &emsp;*&c. ¶* Cutçuga tçumaru. *Ser o calça-* |  |
 | `c1-l019` | &emsp;*do apertado. ¶* Cotobani t*ç*umaru. *Fi-* |  |
 | `c1-l020` | &emsp;*car concluido cõ palauras. ¶* Rini tçuma- |  |
 | `c1-l021` | &emsp;ru. *Ser conuencido da razão. ¶* Cate, |  |
@@ -58,8 +58,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l042` | Tçume. *O mais alto da fortaleza. Vt,* Xi- |  |
 | `c1-l043` | &emsp;rono t*ç*ume. |  |
 | `c1-l044` | T*ç*ume. *Vnha. ¶* T*ç*umeuo qiru. l, ro- |  |
-| `c1-l045` | &emsp;ru. *Cortar as vnhas. ¶* Tçumeuo v- |  |
-| `c1-l046` | &emsp;t*ç*u. *Cortar as vnhas dos caualos.* |  |
+| `c1-l045` | &emsp;ru. *Cortar as vnhas. ¶* T*ç*umeuo v- |  |
+| `c1-l046` | &emsp;tçu. *Cortar as vnhas dos caualos.* |  |
 | `c1-l047` | T*ç*ume, uru, eta. *Apertar, ou atochar.* |  |
 
 ## Column 2 running header
@@ -118,7 +118,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l044` | &emsp;*de frio, ou eſtar o tempo muito frio.* |  |
 | `c2-l045` | &emsp;T*ç*umetaſa. *Frialdade.* |  |
 | `c2-l046` | &emsp;T*ç*umetǒ. *Adu.* |  |
-| `c2-l047` | Tçumetçuqete. *Vt,* T*ç*umet*ç*uqete ſuru. l, |  |
+| `c2-l047` | Tçumet*ç*uqete. *Vt,* T*ç*umet*ç*uqete ſuru. l, |  |
 
 ## Printed catchword
 

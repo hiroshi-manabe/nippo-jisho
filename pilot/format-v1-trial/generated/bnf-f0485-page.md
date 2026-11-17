@@ -49,7 +49,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l033` | &emsp;*des liuremente. Vt,* Daiben. l, Xôbenga |  |
 | `c1-l034` | &emsp;t*ç*ûzuru. *¶* Riga t*ç*ǔzuru. *Fazer ca-* |  |
 | `c1-l035` | &emsp;*mara liuremente, ou ſem impedimento.* |  |
-| `c1-l036` | *T*çǔji. l, Tçǔzzu. *Interprete.* |  |
+| `c1-l036` | *T*çǔji. l, T*ç*ǔzzu. *Interprete.* |  |
 | `c1-l037` | T*ç*ǔji. l, Michi t*ç*uji. *Encruzilhada.* |  |
 | `c1-l038` | &emsp;*¶* Atamano t*ç*uji *Cucuruta da cabeça.* |  |
 | `c1-l039` | T*ç*ujicaje. *Redemoinho de vento.* |  |
@@ -93,7 +93,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l013` | &emsp;*nùs proprie, Marido, ou homẽ caſado. ¶ Tç*u- |  |
 | `c2-l014` | &emsp;mani naſu. l, ſuru. l, ſadamuru. *Ca-* |  |
 | `c2-l015` | &emsp;*ſarſe com algũa molher.* |  |
-| `c2-l016` | *T*çuma barami. *Vnheiro.* |  |
+| `c2-l016` | *Tç*uma barami. *Vnheiro.* |  |
 | `c2-l017` | T*ç*umabiracana. *Couſa clara, ou diſtincta.* |  |
 | `c2-l018` | &emsp;T*ç*umabiracani. *Adu. Clara mente.* |  |
 | `c2-l019` | &emsp;T*ç*umabiracaſa. |  |
@@ -105,8 +105,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l025` | Tçumafajiqi. *Paparote, ou caſtanheta.* |  |
 | `c2-l026` | &emsp;*¶* T*ç*umafajiqi ſuru. *Dar paparotes, ou* |  |
 | `c2-l027` | &emsp;*caſtanhetas.* |  *(vnhas.* |
-| `c2-l028` | Tçumagatana. *Caniuete, ou faca de cortar* |  |
-| `c2-l029` | *T*çumague, uru, eta. *Arregaçar os veſtidos,* |  |
+| `c2-l028` | T*ç*umagatana. *Caniuete, ou faca de cortar* |  |
+| `c2-l029` | *Tç*umague, uru, eta. *Arregaçar os veſtidos,* |  |
 | `c2-l030` | &emsp;*ou aleuantar as abas, &c.* |  |
 | `c2-l031` | T*ç*umagui. *Maraualhas, cauacos, &c. Vt,* |  |
 | `c2-l032` | &emsp;*Tç*umaguiuo firô. *Apanhar cauacos, ou pao-* |  |
@@ -123,7 +123,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l043` | &emsp;majirogia. *Eſte cão tem as mãos brancas.* |  |
 | `c2-l044` | &emsp;*¶ Item, Hũa laya de mariſco como ameijoas.* |  |
 | `c2-l045` | Tçumamare. *Paruo, ou tolo. Palaura que ſe* |  |
-| `c2-l046` | &emsp;*diz ẽ deſprezo dos criados, &c. ¶ T*çu- |  |
+| `c2-l046` | &emsp;*diz ẽ deſprezo dos criados, &c. ¶ Tç*u- |  |
 | `c2-l047` | &emsp;mamareta mono. *Idem.* |  |
 
 ## Printed signature

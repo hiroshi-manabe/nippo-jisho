@@ -21,7 +21,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l005` | T*ç*umevotoxi, ſu, oita. *Render porforça.* |  |
 | `c1-l006` | &emsp;*Vt,* Xirouo t*ç*umevotoſu. *Tomar algũa* |  |
 | `c1-l007` | &emsp;*Fortaleza por força.* |  |
-| `c1-l008` | Tçumeyoxe, uru, eta. *Por força chegar, ou* |  |
+| `c1-l008` | T*ç*umeyoxe, uru, eta. *Por força chegar, ou* |  |
 | `c1-l009` | &emsp;*fazer chegar como à fortaleza, ou aos inimi-* |  |
 | `c1-l010` | &emsp;*gos, &c.* |  |
 | `c1-l011` | T*ç*umi. l, tçumu. *Fuſo de fiar ſeda, algodão,* |  |
@@ -48,7 +48,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l032` | &emsp;*gar com os dentes, & comer esta fruita que* |  |
 | `c1-l033` | &emsp;*he como bolotas: o meſmo ſe dirà de outra frui* |  |
 | `c1-l034` | &emsp;*ta ſemelhante, ou de eſpiga darroz, &c.* |  |
-| `c1-l035` | &emsp;*¶* Mame, nadouo tçumu. *Comer grãos,* |  |
+| `c1-l035` | &emsp;*¶* Mame, nadouo t*ç*umu. *Comer grãos,* |  |
 | `c1-l036` | &emsp;*ou outro legume partindoo com os dentes.* |  |
 | `c1-l037` | &emsp;*¶* Vatauo t*ç*umu. *Abrir com os dedos,* |  |
 | `c1-l038` | &emsp;*ou eſcarpear borra, ou algodão.* |  |
@@ -90,7 +90,7 @@ The right running header prints DA, unlike DO in the left header.
 | `c2-l014` | *Tç*umori. *Recopilação, ou ſumma.* |  |
 | `c2-l015` | T*ç*umu. l, tçumi. *Fuſo de ferro pera fiar ſe-* |  |
 | `c2-l016` | &emsp;*da, algodão, &c.* |  |
-| `c2-l017` | Tçumugui. *Peças tecidas com borra de Iapão.* |  |
+| `c2-l017` | T*ç*umugui. *Peças tecidas com borra de Iapão.* |  |
 | `c2-l018` | T*ç*umugui, gu, uida. *Torcer linhas, re-* |  |
 | `c2-l019` | &emsp;*tros, &c. ¶ Itẽ, Fiar.* Vata, l, itouo t*ç*u- |  |
 | `c2-l020` | &emsp;mugu. *Fiar borra, ou ſeda.* |  |
@@ -104,7 +104,7 @@ The right running header prints DA, unlike DO in the left header.
 | `c2-l028` | T*ç*unate. *Cordas, ou amarras da embarcação.* |  |
 | `c2-l029` | *Tç*unena, l, t*ç*uneno. *Couſa commũa, ou* |  |
 | `c2-l030` | &emsp;*ordinaria.* |  |
-| `c2-l031` | Tçuneni. *Adu. Sempre, ou cõmũmente.* |  |
+| `c2-l031` | T*ç*uneni. *Adu. Sempre, ou cõmũmente.* |  |
 | `c2-l032` | T*ç*unexiqino. *Couſa ordinaria.* |  |
 | `c2-l033` | T*ç*unezzune. *Adu. Sempre, ou muitas* |  |
 | `c2-l034` | &emsp;*vezes.* |  |
@@ -114,7 +114,7 @@ The right running header prints DA, unlike DO in the left header.
 | `c2-l038` | &emsp;*ta pera a eſquerda.* |  |
 | `c2-l039` | T*ç*uno. *Corno. ¶* T*ç*unoga vouoru. *Na-* |  |
 | `c2-l040` | &emsp;*cerem cornos ao animal.* |  |
-| `c2-l041` | Tçunodarai. *Certo vaſo como gamela cõ hũas* |  |
+| `c2-l041` | T*ç*unodarai. *Certo vaſo como gamela cõ hũas* |  |
 | `c2-l042` | &emsp;*pontas ſaidas pera fora cõ q̃ ſe da agoa às mãos.* |  |
 | `c2-l043` | T*ç*unogui. *Frecha que tem corno por ferro.* |  |
 | `c2-l044` | T*ç*unogumi, u, unda. *Brotarem, ou nacerem* |  |

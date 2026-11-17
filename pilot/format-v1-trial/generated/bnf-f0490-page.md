@@ -73,12 +73,12 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | T*ç*uqit*ç*umeta fito. *Homem ſofrego, & a-* |  |
+| `c2-l001` | T*ç*uqitçumeta fito. *Homem ſofrego, & a-* |  |
 | `c2-l002` | &emsp;*preſſado em fazer, ou pedir algũa couſa, ou q̃* |  |
 | `c2-l003` | &emsp;*não pode ſofrer vagar nem dilação nas couſas.* |  |
 | `c2-l004` | T*ç*uqit*ç*uqi. l, tçuqit*ç*uqini. *Cada mes, ou* |  |
 | `c2-l005` | &emsp;*todos os meſes.* |  |
-| `c2-l006` | T*ç*uqit*ç*uranuqi, u, uita. *Atraueſar de par-* |  |
+| `c2-l006` | T*ç*uqitçuranuqi, u, uita. *Atraueſar de par-* |  |
 | `c2-l007` | &emsp;*te a parte com lança, eſtocada, &c.* |  |
 | `c2-l008` | T*ç*uqitouoxi, ſu, oita. *Idem.* |  |
 | `c2-l009` | T*ç*uqivochi. l, t*ç*uqivochite. *Abaixandoſe* |  |

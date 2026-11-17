@@ -73,7 +73,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | Vchi, vt*ç*u, vtta. *Bater, ou dar pancadas.* |  |
+| `c2-l001` | Vchi, vtçu, vtta. *Bater, ou dar pancadas.* |  |
 | `c2-l002` | &emsp;*¶* Cauouo vt*ç*u. *Dar bofetadas. ¶* Te- |  |
 | `c2-l003` | &emsp;qiuo vt*ç*u. *Dar nos inimigos matandoos.* |  |
 | `c2-l004` | &emsp;*¶* T*ç*uzzumiuo vt*ç*u. *Tanger hum certo* |  |
@@ -89,7 +89,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l014` | &emsp;*ſela de caualo. ¶* Yumiuo vt*ç*u. *Fazer* |  |
 | `c2-l015` | &emsp;*arcos de atirar. ¶* Yumi vchi. *Official* |  |
 | `c2-l016` | &emsp;*de arcos. ¶* Muxirouo vt*ç*u. *Fazer* |  |
-| `c2-l017` | &emsp;*esteiras, &c. ¶* Vouo vt*ç*u. *Fazer* |  |
+| `c2-l017` | &emsp;*esteiras, &c. ¶* Vouo vtçu. *Fazer* |  |
 | `c2-l018` | &emsp;*cordões, ou trança, &c. ¶* Catanauo v- |  |
 | `c2-l019` | &emsp;t*ç*u. *Fazer eſpadas. ¶* Tauo vt*ç*u. *La* |  |
 | `c2-l020` | &emsp;*urar, ou cauar as varzeas. ¶* Qirimu- |  |
@@ -110,7 +110,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l035` | &emsp;*mais força, & enfaſi: & outras no mais que* |  |
 | `c2-l036` | &emsp;*elegancia, como ſe verà a baixo.* |  |
 | `c2-l037` | Vchiague, uru, eta. *Lançar pera cima. Vt,* |  |
-| `c2-l038` | &emsp;T*ç*ubuteuo vchiaguru. *Tirar alto às pe-* |  |
+| `c2-l038` | &emsp;Tçubuteuo vchiaguru. *Tirar alto às pe-* |  |
 | `c2-l039` | &emsp;*dradas. ¶ Item, Dar a embarcação à costa.* |  |
 | `c2-l040` | &emsp;*Vt,* Funeuo vchiagueta. *Varou a Fune.i,* |  |
 | `c2-l041` | &emsp;*as ondas derão com a Fune à costa. ¶* Co- |  |

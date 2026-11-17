@@ -53,7 +53,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l037` | Tǒbat. *Vide,* Tǒbachi. |  |
 | `c1-l038` | Tobat*ç*uqi, qu, ita. l, Tofat*ç*uqu. *Ser,* |  |
 | `c1-l039` | &emsp;*ou andarinquieto, ou com eſtrondo, & traqui-* |  |
-| `c1-l040` | &emsp;*nada. ¶* Tobat*ç*uqu. *l*, Tobat*ç*uita mo- |  |
+| `c1-l040` | &emsp;*nada. ¶* Tobat*ç*uqu. *l*, Tobatçuita mo- |  |
 | `c1-l041` | &emsp;no. *Homem deſaſoſegado, ou atabalhoado* |  |
 | `c1-l042` | &emsp;*em fazer as couſas.* |  |
 | `c1-l043` | Tobera. *Aruore aßi chamada.* |  |

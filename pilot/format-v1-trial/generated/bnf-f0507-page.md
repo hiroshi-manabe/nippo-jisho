@@ -43,7 +43,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l027` | &emsp;*¶ Item, per met, ſe diz de hum homem* |  |
 | `c1-l028` | &emsp;*que quaſi ſempre està, ou parece da meſma* |  |
 | `c1-l029` | &emsp;*idade.* |  |
-| `c1-l030` | *T*oconat*ç*una. l, toconat*ç*uno. *Couſa que* |  |
+| `c1-l030` | *T*oconat*ç*una. l, toconatçuno. *Couſa que* |  |
 | `c1-l031` | &emsp;*ſempre està da meſma maneira ſem ſe mudar,* |  |
 | `c1-l032` | &emsp;*como aruores que lhe não cae a folha, &c.* |  |
 | `c1-l033` | Tocono vmi. P. i, Namida. *Lagrimas.* |  |

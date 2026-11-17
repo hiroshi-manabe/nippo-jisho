@@ -45,7 +45,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l029` | &emsp;*¶* Caneuo t*ç*uquru. *Tingir os dentes de* |  |
 | `c1-l030` | &emsp;*preto. ¶* Cǒbeuo chini t*ç*uquru. *Pro-* |  |
 | `c1-l031` | &emsp;*ſtrarſe com a cabeça por terra. ¶* Funeuo |  |
-| `c1-l032` | &emsp;tçuquru. *Chegar com a embarcação a algũa* |  |
+| `c1-l032` | &emsp;t*ç*uquru. *Chegar com a embarcação a algũa* |  |
 | `c1-l033` | &emsp;*parte, ou fazela chegar. ¶ Item, Por;* |  |
 | `c1-l034` | &emsp;*como empraſto, mezinha, &c. Vt,* Qizuni cu- |  |
 | `c1-l035` | &emsp;ſuriuo t*ç*uquru. *Por mezinha na ferida.* |  |
@@ -97,15 +97,15 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l023` | &emsp;*achar, &c.* |  |
 | `c2-l024` | Tçuqete. *Acerca. Participio de* T*ç*uqe, |  |
 | `c2-l025` | &emsp;uru. *Vt,* Coreni t*ç*uqete. *Acerca diſto.* |  |
-| `c2-l026` | T*ç*uqexiro. *Padraſto, ou forte que ſe faz jũ-* |  |
+| `c2-l026` | Tçuqexiro. *Padraſto, ou forte que ſe faz jũ-* |  |
 | `c2-l027` | &emsp;*to à fortaleza dos inimigos pera a combater.* |  |
 | `c2-l028` | &emsp;*¶* T*ç*uqexirouo ſuru. *Fazer eſte forte.* |  |
 | `c2-l029` | T*ç*uqi. *Aruore aſi chamada.* |  |
-| `c2-l030` | T*ç*uqi, u, uita. *Chegar. Vt,* Minatoni |  |
+| `c2-l030` | Tçuqi, u, uita. *Chegar. Vt,* Minatoni |  |
 | `c2-l031` | &emsp;t*ç*uqu. *Chegar ao porto.* |  |
 | `c2-l032` | T*ç*uqi. *Vt,* Vot*ç*uqi. *Chegada dalgũſe-* |  |
 | `c2-l033` | &emsp;*nhor, ou peſſoa honrada.* |  |
-| `c2-l034` | T*ç*uqi. *Mes, ou lũa. ¶ Tç*uqiga mit*ç*u- |  |
+| `c2-l034` | T*ç*uqi. *Mes, ou lũa. ¶ T*çuqiga mit*ç*u- |  |
 | `c2-l035` | &emsp;ru. *Serlũa chea. ¶* Tçuqiga caquru. |  |
 | `c2-l036` | &emsp;*Minguar a lũa. ¶* T*ç*uqiga caqicumoru. |  |
 | `c2-l037` | &emsp;*Eſcurecerſe a lũa. ¶* T*ç*uqiga teru. *A-* |  |
@@ -115,7 +115,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l041` | &emsp;T*ç*uqiſayete. P. *Estando a lũa freſca,* |  |
 | `c2-l042` | &emsp;*& fria. ¶* T*ç*uqiga tachinoboru. *Irſe* |  |
 | `c2-l043` | &emsp;*aleuantando a lũa. ¶* T*ç*uqino caſa. *Cir-* |  |
-| `c2-l044` | &emsp;*culo que aparece ao derredor da lũa. ¶* T*ç*u- |  |
+| `c2-l044` | &emsp;*culo que aparece ao derredor da lũa. ¶* Tçu- |  |
 | `c2-l045` | &emsp;qi catamuqu. *Ir decendo, ou abaixando-* |  |
 | `c2-l046` | &emsp;*ſe a lũa.* |  |
 | `c2-l047` | T*ç*uqi, qu, ita. *Dar com a mão, peitos, &c* |  |
