@@ -1,36 +1,76 @@
 {
-  "reference": "Human-reviewed Tç/tç typefaces on f438–f484, including Issue 297",
-  "reference_commit": "38c24623",
-  "output_directory": "build/cedilla-learn",
+  "version": 2,
+  "date": "2026-11-18",
+  "objective": "Reduce subsequent human correction work across all Japanese Tç/tç targets, not merely maximize precision on a small selected subset.",
+  "reference": "Canonical human-reviewed ç typefaces through f484, including Japanese and Portuguese examples; no f485+ label was used for training.",
+  "reference_commit": "79ce5c4f",
+  "output_directory": "build/cedilla-expanded",
   "script": "scripts/train_cedilla_typeface.py",
-  "seed": 842,
+  "seed": 72491,
   "split": "5-fold StratifiedGroupKFold, grouped by scan page",
-  "reference_counts": {"matched": 503, "roman": 433, "italic": 70, "segmentable": 478},
-  "ocr": {"matched": 503, "roman_predictions": 503, "italic_predictions": 0},
-  "experiments": ["context, segmented glyph, upper glyph body, tight crop, fixed upper crop", "Logistic regression, RBF SVM, ExtraTrees"],
-  "selective_rule": {
-    "italic": "glyph-trees > 0.5 AND body-trees > 0.5",
-    "roman": "glyph-trees, body-trees, glyph-lr, context-lr all < 0.2",
-    "otherwise": "abstain; do not modify current transcription"
+  "reference_counts": {"total": 6745, "roman": 2633, "italic": 4112, "japanese_post_t": 2697},
+  "previous_method_problems": [
+    "Connected-component selection sometimes chose the following u rather than ç.",
+    "72-by-48 crops discarded native scan detail before magnification.",
+    "The reported 96.8 percent precision covered only 155 of 478 eligible validation cases, with thresholds explored on the same folds. It did not establish high full-coverage accuracy."
+  ],
+  "method": {
+    "crop": "144-by-96 scan-derived patches, retaining twice the previous normalized resolution",
+    "segmentation": "Target-position and descender-aware connected-component selection, isotropic resizing with padding",
+    "features": "48-by-48 glyph image; 4-pixel cells, 8 unsigned gradient orientation bins",
+    "classifier": "StandardScaler followed by balanced LogisticRegression, C=0.01, threshold=0",
+    "score": "Signed decision score, not a calibrated probability",
+    "labels": "Roman=0, Italic=1"
   },
-  "exploratory_validation": {
-    "eligible": 478,
-    "classified": 155,
-    "correct": 150,
-    "italic_correct": 27,
-    "italic_incorrect": 1,
-    "roman_correct": 123,
-    "roman_incorrect": 4,
-    "abstained": 323,
-    "f484_classified": 27,
-    "f484_correct": 27,
-    "f484_abstained": 38,
-    "caveat": "Thresholds and methods were explored on these folds. This is not an untouched final test; scores are not calibrated confidence probabilities."
+  "chronological_holdout": {
+    "train": "Pages through f482",
+    "test": "Every extracted Japanese Tç/tç on f483–f484",
+    "cases": 117,
+    "correct": 113,
+    "abstentions": 0,
+    "confusion_rows_actual_columns_predicted_roman_italic": [[67, 1], [3, 46]],
+    "caveat": "These pages had been explored in the earlier experiment; this is a chronological held-out check for the new training run, not a never-seen final benchmark."
   },
+  "page_grouped_validation": {
+    "folds": 5,
+    "seed": 72491,
+    "coverage": "All extracted examples; no confidence-based exclusion",
+    "all_references": {"cases": 6745, "correct": 6623, "confusion": [[2579, 54], [68, 4044]]},
+    "japanese_post_t": {"cases": 2697, "correct": 2619, "confusion": [[2571, 54], [24, 48]]},
+    "japanese_f468_f484": {"cases": 394, "correct": 364, "confusion": [[318, 6], [24, 46]]},
+    "japanese_f483_f484": {"cases": 117, "correct": 112, "confusion": [[67, 1], [4, 45]]},
+    "interpretation": "Overall accuracy is dominated by easier examples. The relevant recent T section scores 92.4 percent, not 98.2 percent. Rare Italic forms remain difficult."
+  },
+  "other_experiments": [
+    "Corrected segmentation alone, HOG/pixel features, SVM and tree models, wider/tighter crops",
+    "An expanded-reference context CNN learned neighboring-language/typeface cues and missed most recent Japanese Italics; rejected",
+    "A glyph-only CNN reached approximately the same recent held-out result as HOG, without a compelling gain",
+    "Japanese-domain weights 5/20/100 did not solve the rare Italic misses; retained the simpler unweighted HOG recipe",
+    "Previously cached styled OCR classified all 503 tested Japanese reference cedillas Roman; not used as a style authority"
+  ],
   "application": {
-    "scope": "Available aligned Japanese Tç/tç on f485–f542; f484 and earlier unchanged",
-    "italic_to_roman": 84,
-    "roman_to_italic": 19,
-    "text_and_comments": "unchanged"
+    "scope": "Prepared Japanese Tç/tç targets after f484, found on f485–f542 and f643",
+    "candidates": 884,
+    "matched_crops": 859,
+    "recovered_crops": 25,
+    "classified": 881,
+    "difficult_cases_visually_checked": 80,
+    "visual_overrides_of_model": 10,
+    "visually_uncertain_kept_as_provisional_model_choices": 15,
+    "damaged_catchwords_left_unchanged": ["f489/cw-l001", "f491/u2b-l001a", "f493/u2b-l001"],
+    "changes": 330,
+    "pages_changed": 49,
+    "roman_to_italic": 47,
+    "italic_to_roman": 283,
+    "f485_c1_l001": "Italic; model score +6.09, consistent with the user's explicit visual identification",
+    "preserved": "All characters, comments, geometry, non-target typefaces, and pages through f484",
+    "status": "AI-provisional typeface corrections, not human approval"
+  },
+  "local_work_products": {
+    "dataset": "build/cedilla-expanded",
+    "model_and_validation": "build/cedilla-alternative/final-*",
+    "decisions": "build/cedilla-queue/decisions-final.json",
+    "changes": "build/cedilla-queue/selected-final.json",
+    "remaining_uncertainty": "build/cedilla-queue/unresolved-final.json"
   }
 }
