@@ -24,7 +24,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l008` | Tofameqi, qu, eita. *Modo de andar, ou fa-* |  |
 | `c1-l009` | &emsp;*zer algũa couſa atabalhoadamente, ou cõ per-* |  |
 | `c1-l010` | &emsp;*turbação.* |  |
-| `c1-l011` | Tofat*ç*uqi, qu, ita. *Idem.* |  |
+| `c1-l011` | Tofatçuqi, qu, ita. *Idem.* |  |
 | `c1-l012` | Tofatofato. *Vt,* Tofatofato ſuru. *Idem.* |  |
 | `c1-l013` | Tofi. Qiǒ, inaca. *Corte, aldea.* |  |
 | `c1-l014` | Tǒfit. Tǒno fude. *Pintura, ou eſcritura da* |  |

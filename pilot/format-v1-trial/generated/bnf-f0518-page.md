@@ -40,12 +40,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l024` | &emsp;*uer ocupado, ou impedido.* |  |
 | `c1-l025` | Torimochi. *Viſco de tomar paßaros: às vezes* |  |
 | `c1-l026` | &emsp;*ſe diz ſoomente,* Mochi. |  |
-| `c1-l027` | Torimochi, t*ç*u, otta.i, Torifayaſu. l, Chi |  |
+| `c1-l027` | Torimochi, tçu, otta.i, Torifayaſu. l, Chi |  |
 | `c1-l028` | &emsp;ſô ſuru. *Fazer agaſalhado.* |  |
 | `c1-l029` | Torimochi. *Agaſalhado, & fauor.* |  |
 | `c1-l030` | Torimochi, tçu, otta. *Leuar, ou ter nas* |  |
 | `c1-l031` | &emsp;*mãos. ¶ Vt,* Tegotoni raſsocuuo torimo- |  |
-| `c1-l032` | &emsp;t*ç*u. *Ter candea em cada mão.* |  |
+| `c1-l032` | &emsp;tçu. *Ter candea em cada mão.* |  |
 | `c1-l033` | Torimuſubi, bu, unda. *Trauar, ou atar* |  |
 | `c1-l034` | &emsp;*hũa couſa com outra. ¶ Permet.* Caxxen- |  |
 | `c1-l035` | &emsp;uo torimuſubu. *Trauar peleja, ou dar* |  |

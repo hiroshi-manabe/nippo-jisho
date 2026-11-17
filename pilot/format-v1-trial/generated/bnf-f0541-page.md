@@ -41,7 +41,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l025` | &emsp;*ſatar afita, ou cingidouro.* Vobiuo ſuru. |  |
 | `c1-l026` | &emsp;*Cingirſe. ¶* Vobiuo cumu. *Fazer cin-* |  |
 | `c1-l027` | &emsp;*gidouro como quem faz trança. ¶* Vobi- |  |
-| `c1-l028` | &emsp;uo vt*ç*u. *Fazer cingidouro como quem faz* |  |
+| `c1-l028` | &emsp;uo vtçu. *Fazer cingidouro como quem faz* |  |
 | `c1-l029` | &emsp;*cordão.* |  |
 | `c1-l030` | Vobiuo voru. *Tecer cingidouro.* |  |
 | `c1-l031` | Vobinauoxi. i, Fibo, l, fimo vo toxi. *O dei-* |  |
@@ -107,9 +107,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l033` | &emsp;*ſamente apàrece.* |  |
 | `c2-l034` | Voborozzuqiyo. *Noite pouco clara, ou de* |  |
 | `c2-l035` | &emsp;*lũar pouco claro.* |  |
-| `c2-l036` | Vobot*ç*ucanai. *Couſa duuidoſa, ou incerta.* |  |
-| `c2-l037` | &emsp;Vobot*ç*ucanaſa. |  |
-| `c2-l038` | &emsp;Vobot*ç*ucanǒ. *Adu.* |  |
+| `c2-l036` | Vobotçucanai. *Couſa duuidoſa, ou incerta.* |  |
+| `c2-l037` | &emsp;Vobotçucanaſa. |  |
+| `c2-l038` | &emsp;Vobotçucanǒ. *Adu.* |  |
 | `c2-l039` | Voboxi, ſu, xita. *Cuidar, ou amar. Vide* |  |
 | `c2-l040` | &emsp;*infrà,* Voboximexi, ſu. |  |
 | `c2-l041` | Voboximexi, ſu, xita. *Cuidar, ou amar. i,* |  |

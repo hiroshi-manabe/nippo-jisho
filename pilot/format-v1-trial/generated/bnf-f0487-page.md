@@ -15,7 +15,7 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c1-l001` | &emsp;t*ç*uzzuqete. *Fazer com diligencia ſem des-* |  |
-| `c1-l002` | &emsp;*canſar, ou interrõper algũa couſa. ¶* Tçu- |  |
+| `c1-l002` | &emsp;*canſar, ou interrõper algũa couſa. ¶* T*ç*u- |  |
 | `c1-l003` | &emsp;met*ç*uqeteyǔ. l, cô. *Dizer, ou pedir* |  |
 | `c1-l004` | &emsp;*importunamente, & ſem interpolação.* |  |
 | `c1-l005` | T*ç*umevotoxi, ſu, oita. *Render porforça.* |  |
@@ -24,14 +24,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l008` | T*ç*umeyoxe, uru, eta. *Por força chegar, ou* |  |
 | `c1-l009` | &emsp;*fazer chegar como à fortaleza, ou aos inimi-* |  |
 | `c1-l010` | &emsp;*gos, &c.* |  |
-| `c1-l011` | T*ç*umi. l, tçumu. *Fuſo de fiar ſeda, algodão,* |  |
+| `c1-l011` | T*ç*umi. l, t*ç*umu. *Fuſo de fiar ſeda, algodão,* |  |
 | `c1-l012` | &emsp;*&c. ¶* T*ç*umide itouo t*ç*umugu. *Torcer* |  |
 | `c1-l013` | &emsp;*fio, ou fiado, & ajuntalo no fuſo.* |  |
 | `c1-l014` | T*ç*umi. *Peccado. ¶ Item, Caſtigo, ou pena* |  |
 | `c1-l015` | &emsp;*do peccado. ¶* T*ç*umiuo nadamuru. *Per-* |  |
 | `c1-l016` | &emsp;*doar o crime, ou pena por elle merecida.* |  |
 | `c1-l017` | &emsp;*¶* T*ç*umiuo itô. *Não querer, ou aborre-* |  |
-| `c1-l018` | &emsp;*cer o peccado. ¶* Tçumiuo foroboſu. *Deſ-* |  |
+| `c1-l018` | &emsp;*cer o peccado. ¶* T*ç*umiuo foroboſu. *Deſ-* |  |
 | `c1-l019` | &emsp;*fazer, ou deſtruir o pecado. ¶* Tçumi- |  |
 | `c1-l020` | &emsp;xeraruru. *Ser caſtigado, ou juſtiçado por* |  |
 | `c1-l021` | &emsp;*algum crime Commummente eſtes modos de* |  |
@@ -54,13 +54,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l038` | &emsp;*ou eſcarpear borra, ou algodão.* |  |
 | `c1-l039` | *Tç*umiague, uru, eta. *Acumular muito, ou* |  |
 | `c1-l040` | &emsp;*ajuntar como em montes. ¶* Riôra, qinxu |  |
-| `c1-l041` | &emsp;igueno chôfôuo yamano gotocuni tçumi |  |
+| `c1-l041` | &emsp;igueno chôfôuo yamano gotocuni t*ç*umi |  |
 | `c1-l042` | &emsp;aguete. Taif. *Lib. 28. Ajuntando* |  |
 | `c1-l043` | &emsp;*como montes de vestidos ricos, & outras peças* |  |
 | `c1-l044` | &emsp;*de preço, ou riquezas.* |  |
 | `c1-l045` | T*ç*umicaſane, uru, eta. *Acumular muito,* |  |
 | `c1-l046` | &emsp;*ou por huas couſas ſobre outras.* |  |
-| `c1-l047` | Tçumogori. *Derradeiro dia do mes.* |  |
+| `c1-l047` | T*ç*umogori. *Derradeiro dia do mes.* |  |
 
 ## Column 2 running header
 
@@ -88,7 +88,7 @@ The right running header prints DA, unlike DO in the left header.
 | `c2-l012` | &emsp;*¶* Chiri t*ç*umotte yamato naru. *De peque-* |  |
 | `c2-l013` | &emsp;*nas couſas acumuladas ſe fazem grandes.* |  |
 | `c2-l014` | *Tç*umori. *Recopilação, ou ſumma.* |  |
-| `c2-l015` | T*ç*umu. l, tçumi. *Fuſo de ferro pera fiar ſe-* |  |
+| `c2-l015` | T*ç*umu. l, t*ç*umi. *Fuſo de ferro pera fiar ſe-* |  |
 | `c2-l016` | &emsp;*da, algodão, &c.* |  |
 | `c2-l017` | T*ç*umugui. *Peças tecidas com borra de Iapão.* |  |
 | `c2-l018` | T*ç*umugui, gu, uida. *Torcer linhas, re-* |  |

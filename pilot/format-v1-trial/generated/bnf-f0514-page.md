@@ -27,7 +27,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l011` | &emsp;*çarſangue polla boca.* |  |
 | `c1-l012` | *T*oqi. *Hora. ¶* Toqiuo facaru. *Me-* |  |
 | `c1-l013` | &emsp;*dir o tempo, ou as horas. ¶* Toqiuo ma- |  |
-| `c1-l014` | &emsp;t*ç*u. *Eſperar tempo, ou conjunção. ¶* To- |  |
+| `c1-l014` | &emsp;tçu. *Eſperar tempo, ou conjunção. ¶* To- |  |
 | `c1-l015` | &emsp;qiuo vxinǒ. *Perder tempo, ou conjunção.* |  |
 | `c1-l016` | &emsp;*¶ T*oqiuo toru. l, toqidoriuo ſuru. *To-* |  |
 | `c1-l017` | &emsp;*mar, ou escolher tẽpo por agouro pera fazer al-* |  |
@@ -50,7 +50,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l034` | &emsp;*Iantar, & cea dos Bonzos.* |  |
 | `c1-l035` | *T*oqi. l, *T*oqino coye. *Grita que dão quando* |  |
 | `c1-l036` | &emsp;*começão a batalha. ¶* Toqiuo aguru. l, |  |
-| `c1-l037` | &emsp;t*ç*ucuru. *Dargrita antes de arremeter co-* |  |
+| `c1-l037` | &emsp;tçucuru. *Dargrita antes de arremeter co-* |  |
 | `c1-l038` | &emsp;*mo quem dà Sanctiago.* |  |
 | `c1-l039` | Toqi, qu, oita. *Deſatar. ¶ Item, Derre-* |  |
 | `c1-l040` | &emsp;*ter. ¶* Danguiuo toqu. *Pregar.* |  |

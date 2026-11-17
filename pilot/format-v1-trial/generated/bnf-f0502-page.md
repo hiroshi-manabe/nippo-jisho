@@ -42,7 +42,7 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c1-l024` | &emsp;*uerſas couſas.* |  |
 | `c1-l025` | *T*enyacu. *Encargo, ou obrigação que poem o* |  |
 | `c1-l026` | &emsp;*ſenhor a todos de fazerẽ algũa obra. ¶ T*ẽ- |  |
-| `c1-l027` | &emsp;ya uuo at*ç*uru. l, caquru. *Por o ſenhor* |  |
+| `c1-l027` | &emsp;ya uuo atçuru. l, caquru. *Por o ſenhor* |  |
 | `c1-l028` | &emsp;*eſta obrigação, ou encargo em commum.* |  |
 | `c1-l029` | *T*enyacu. *Fiſicos principaes del Rey.* |  |
 | `c1-l030` | *T*enyacu. *Promeſſa celestial, ou de Deos.* |  |
@@ -78,7 +78,7 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c2-l002` | Teqibin. i, Fayai taxicana tayori. *Men-* |  |
 | `c2-l003` | &emsp;*ſageiro, ou portador ligeiro, & ſeguro.* |  |
 | `c2-l004` | Teqicocu. Teqino cuni. *Reino de inimigos.* |  |
-| `c2-l005` | Teqichocu. T*ç*utçujino fana. *Flor aßi cha-* |  |
+| `c2-l005` | Teqichocu. Tçutçujino fana. *Flor aßi cha-* |  |
 | `c2-l006` | &emsp;*mada que ſe dà em hũas aruorezinhas domato.* |  |
 | `c2-l007` | Teqiden. i, Taxicara tçutaye. *Doutrina,* |  |
 | `c2-l008` | &emsp;*ou enſino que ſe dà fielmente, & em preſença:* |  |
@@ -120,7 +120,7 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c2-l044` | Teri, ru, etta. *Alumiar, ou reſplandecer o* |  |
 | `c2-l045` | &emsp;*ſol, ou lũa. ¶ Item, per met. Reſplande-* |  |
 | `c2-l046` | &emsp;*cer a cor vermelha de algum paßaro. ¶* Te- |  |
-| `c2-l047` | &emsp;ru fi. *Sol claro. ¶* Teru t*ç*uqi. *Lua clara.* |  |
+| `c2-l047` | &emsp;ru fi. *Sol claro. ¶* Teru tçuqi. *Lua clara.* |  |
 
 ## Printed catchword
 

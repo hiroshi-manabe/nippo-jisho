@@ -18,11 +18,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l002` | &emsp;*os cabelos o caualo. ¶* Vmauo tçucurô. |  |
 | `c1-l003` | &emsp;*Curar ao caualo ſangrandoo, &c. ¶* Vma- |  |
 | `c1-l004` | &emsp;uo fayamuru. *Dar de eſporas ao caualo, ou* |  |
-| `c1-l005` | &emsp;*fazelo ir de preßa. ¶* Vmauo tat*ç*uru. *Por* |  |
+| `c1-l005` | &emsp;*fazelo ir de preßa. ¶* Vmauo tatçuru. *Por* |  |
 | `c1-l006` | &emsp;*o caualo na estrebaria. ¶* Vmauo fadaqu- |  |
 | `c1-l007` | &emsp;ru, l, coxirayuru. *Almofaçar o caualo.* |  |
 | `c1-l008` | &emsp;*¶* Vmaga agaru. *Porſe o caualo em ge-* |  |
-| `c1-l009` | &emsp;*meas. ¶* Vmaga t*ç*uqe ſumǒ. *Repug-* |  |
+| `c1-l009` | &emsp;*meas. ¶* Vmaga tçuqe ſumǒ. *Repug-* |  |
 | `c1-l010` | &emsp;*nar o caualo quando quer ſubir o caualeiro che-* |  |
 | `c1-l011` | &emsp;*gandoſe muito, & afastando ao que quer ca-* |  |
 | `c1-l012` | &emsp;*ualgar. ¶* T*ç*uqevma. *Caualo que tem* |  |

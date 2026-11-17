@@ -127,7 +127,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l032` | Vma. *Caualo. Vt,* Vmani noru. l, Me- |  |
 | `c2-l033` | &emsp;ſu. *Caualgar. ¶* Vmano tazzunauo |  |
 | `c2-l034` | &emsp;cayeſu. *Fazer voltar o caualo. ¶* Vma- |  |
-| `c2-l035` | &emsp;ga yocodat*ç*u. *Atraueſarſe o caualo no* |  |
+| `c2-l035` | &emsp;ga yocodatçu. *Atraueſarſe o caualo no* |  |
 | `c2-l036` | &emsp;*caminho. ¶* Vmauo xemuru. *Exercitar* |  |
 | `c2-l037` | &emsp;*o caualo. ¶* Xeme vma. *Caualo que ſe* |  |
 | `c2-l038` | &emsp;*exercita correndo, &c. ¶* Vmauo fiyaſu. |  |

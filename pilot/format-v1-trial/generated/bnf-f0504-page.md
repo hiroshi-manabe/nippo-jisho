@@ -48,7 +48,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l032` | &emsp;Tezauayacani. *T*ezauayacaſa. |  |
 | `c1-l033` | *T*ezuſami. *O eſcreuer, ou fazer algũa couſa* |  |
 | `c1-l034` | &emsp;*não de propoſito, mas por paßa tempo.* |  |
-| `c1-l035` | Tezuxi, l, tecugut*ç*u. *Obra, ou officio de* |  |
+| `c1-l035` | Tezuxi, l, tecugutçu. *Obra, ou officio de* |  |
 | `c1-l036` | &emsp;*fazer andar à roda, & menear bonifrates.* |  |
 | `c1-l037` | &emsp;*Vt, T*ezuxiuo ſuru. *¶ Item, Official q̃* |  |
 | `c1-l038` | &emsp;*faz este officio.* |  |
@@ -115,7 +115,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l030` | To. *Hũa medida como alqueire q̃ leua 10.* |  |
 | `c2-l031` | &emsp;*medidas de Iapão. Mas não ſe vſa per ſi ſe não* |  |
 | `c2-l032` | &emsp;*com algũa compoſição. Vt,* Itto, toate, &c. |  |
-| `c2-l033` | To. *Porta. ¶* Touo tat*ç*uru. l, Saſu. |  |
+| `c2-l033` | To. *Porta. ¶* Touo tatçuru. l, Saſu. |  |
 | `c2-l034` | &emsp;*Fechar a porta. ¶* Toguchi. *Entrada* |  |
 | `c2-l035` | &emsp;*da porta.* |  |
 | `c2-l036` | To. i. Foca. *Vſa ſe principalmente quando ſe* |  |

@@ -100,7 +100,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l026` | *T*oneri. *Homem que tem cuidado dos caualos* |  |
 | `c2-l027` | &emsp;*como faraz.* |  |
 | `c2-l028` | *T*onerico. *Nome de hũa aruore.* |  |
-| `c2-l029` | Tongiacu. Muſabori t*ç*uqu. *Deleitação, &* |  |
+| `c2-l029` | Tongiacu. Muſabori tçuqu. *Deleitação, &* |  |
 | `c2-l030` | &emsp;*affeição em algũa couſa. ¶* Togani tongia- |  |
 | `c2-l031` | &emsp;cu xite iru. *Estar metido, & atolado nos* |  |
 | `c2-l032` | &emsp;*peccados.* |  |

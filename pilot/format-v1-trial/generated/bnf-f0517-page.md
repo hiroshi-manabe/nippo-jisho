@@ -91,14 +91,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l010` | *T*orifadachi, u, datta. *Ter a carne como em* |  |
 | `c2-l011` | &emsp;*polada, & aſpera comfrio naspartes dos ca-* |  |
 | `c2-l012` | &emsp;*belos, como a das aues depenadas.* |  |
-| `c2-l013` | Torifanachi, t*ç*u, atta. *Botar, ou deſapegar* |  |
+| `c2-l013` | Torifanachi, tçu, atta. *Botar, ou deſapegar* |  |
 | `c2-l014` | &emsp;*deſi, ou apartar. S.* |  |
 | `c2-l015` | Torifanaxi, ſu, ita. *Idem, na pratica. ¶ Item,* |  |
 | `c2-l016` | &emsp;*Tirar o officio, renda, &c. Vt,* Yacu, |  |
 | `c2-l017` | &emsp;chiguiǒuo torifanaſu. |  |
 | `c2-l018` | Torifarai, ǒ, ǒta. *Concertar o Zaxiqui tiran-* |  |
 | `c2-l019` | &emsp;*dolhe as portas, ou repartimentos, &c.* |  |
-| `c2-l020` | Torifayaxi, ſu, ita. l, torimochi, tçu. *Fa-* |  |
+| `c2-l020` | Torifayaxi, ſu, ita. l, torimochi, t*ç*u. *Fa-* |  |
 | `c2-l021` | &emsp;*zer agaſalhado, fauor, &c.* |  |
 | `c2-l022` | Torifazzuxi, ſu, ita. *Largar, ou deixar fu-* |  |
 | `c2-l023` | &emsp;*gir a caſo como paßaro, &c. ¶ Item, Errar* |  |

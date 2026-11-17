@@ -18,18 +18,18 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l002` | &emsp;*mem de ruim ſembrante, & malenconizado* |  |
 | `c1-l003` | &emsp;*naturalmente, ou que por algũà cauſa eſtà car-* |  |
 | `c1-l004` | &emsp;*regado, &c.* |  |
-| `c1-l005` | T*ç*uradamaxij. *Homem que no geſto, ou ſem-* |  |
+| `c1-l005` | Tçuradamaxij. *Homem que no geſto, ou ſem-* |  |
 | `c1-l006` | &emsp;*brante moſtra algum affeito interior como de* |  |
 | `c1-l007` | &emsp;*ira, ſeueridade, &c.* |  |
-| `c1-l008` | T*ç*uragama hi. *Queixadas. ¶* T*ç*uraga- |  |
+| `c1-l008` | Tçuragama hi. *Queixadas. ¶* Tçuraga- |  |
 | `c1-l009` | &emsp;machino yoi. l, varui fito. *Homem bem,* |  |
 | `c1-l010` | &emsp;*ou mal parecido das faces, & queixadas.* |  |
-| `c1-l011` | T*ç*urai. *Palaura de queixume pera ſignificar* |  |
+| `c1-l011` | Tçurai. *Palaura de queixume pera ſignificar* |  |
 | `c1-l012` | &emsp;*couſa deshumana, ou pouco apraziuel, & ſem* |  |
 | `c1-l013` | &emsp;*piedade, & que da no coração.* |  |
 | `c1-l014` | &emsp;Tçuraſa. |  |
-| `c1-l015` | &emsp;T*ç*urǒ. |  |
-| `c1-l016` | T*ç*uranari, u, atta. *Eſtar algũa couſa enfia-* |  |
+| `c1-l015` | &emsp;Tçurǒ. |  |
+| `c1-l016` | Tçuranari, u, atta. *Eſtar algũa couſa enfia-* |  |
 | `c1-l017` | &emsp;*da, ou por ordem. Vt,* Zani tçuranaru. |  |
 | `c1-l018` | &emsp;*Eſtar no Zaxi qui por ordem. ¶* Ichimon- |  |
 | `c1-l019` | &emsp;nit*ç*uranaru fito. *Homem aparentado com* |  |
@@ -37,15 +37,15 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l021` | &emsp;*linhagem.* |  |
 | `c1-l022` | T*ç*urane, uru, eta. *Enfiar, ou por por ordem* |  |
 | `c1-l023` | &emsp;*algũa couſa. ¶* Vtauo t*ç*uranuru. *Com-* |  |
-| `c1-l024` | &emsp;*por verſos. ¶* Xuguiocuuo tçuranetaru |  |
+| `c1-l024` | &emsp;*por verſos. ¶* Xuguiocuuo t*ç*uranetaru |  |
 | `c1-l025` | &emsp;ixǒ. *Veſtido ornado com pedras precioſas ẽ-* |  |
 | `c1-l026` | &emsp;*fiadas.* |  |
-| `c1-l027` | T*ç*uranuqi. *Certo calçado de couro duro q̃ ſer-* |  |
+| `c1-l027` | Tçuranuqi. *Certo calçado de couro duro q̃ ſer-* |  |
 | `c1-l028` | &emsp;*ue na caça, ou naguerra, &c.* |  |
 | `c1-l029` | T*ç*ur. nuqi, qu, ita. *Enfiar, ou traſpaßar al-* |  |
 | `c1-l030` | &emsp;*gũa couſa. Vt,* Tamauo t*ç*uranuqu. *En-* |  |
 | `c1-l031` | &emsp;*fiar pedras precioſas em algum cordão, ou nou-* |  |
-| `c1-l032` | &emsp;*tra couſa. ¶* Yarini t*ç*uranucarete xinu- |  |
+| `c1-l032` | &emsp;*tra couſa. ¶* Yarini tçuranucarete xinu- |  |
 | `c1-l033` | &emsp;ru. *Morrer alanceado, ou atraueſado com* |  |
 | `c1-l034` | &emsp;*algũa lança.* |  |
 | `c1-l035` | Tçurara. *Candeas do caramelo que fica depen-* |  |
@@ -53,14 +53,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l037` | T*ç*urat*ç*ura. *Adu. Atentamente. ¶* T*ç*u- |  |
 | `c1-l038` | &emsp;rat*ç*ura anzuru. *Conſiderar algũa couſa a-* |  |
 | `c1-l039` | &emsp;*tentamente.* |  |
-| `c1-l040` | Tçure. i, Rui. *Laya. Vt,* Sonot*ç*ureno |  |
+| `c1-l040` | T*ç*ure. i, Rui. *Laya. Vt,* Sonot*ç*ureno |  |
 | `c1-l041` | &emsp;mono. *Couſa deßa laya.* |  |
 | `c1-l042` | T*ç*ure. *Companhia. Vt,* Rocuninzzure, |  |
 | `c1-l043` | &emsp;*&c. Companhia deſeis. ¶* Fǒguan do- |  |
 | `c1-l044` | &emsp;nono von t*ç*ure. *Companhia, ou companhei* |  |
 | `c1-l045` | &emsp;*ro de Fóguandono.* |  |
 | `c1-l046` | T*ç*ure, uru, eta. *Leuar a alguem de compa-* |  |
-| `c1-l047` | &emsp;*nhia. ¶* Cajeni tçureraruru. *Ser leua-* |  |
+| `c1-l047` | &emsp;*nhia. ¶* Cajeni t*ç*ureraruru. *Ser leua-* |  |
 
 ## Column 2 running header
 
@@ -78,16 +78,16 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | &emsp;*do do vento. ¶* Fitouo t*ç*ururu. *Co-* |  |
+| `c2-l001` | &emsp;*do do vento. ¶* Fitouo tçururu. *Co-* |  |
 | `c2-l002` | &emsp;*mummente ſe vſa com eſta voz,* Mexi. *Vt,* |  |
-| `c2-l003` | &emsp;Mexit*ç*ururu. *Leuar conſigo em companhia:* |  |
+| `c2-l003` | &emsp;Mexitçururu. *Leuar conſigo em companhia:* |  |
 | `c2-l004` | &emsp;*mas não ſe dirà de gente mais alta, ou igual.* |  |
-| `c2-l005` | &emsp;*¶* Co. l, Comonouo mexit*ç*ureôzu. |  |
+| `c2-l005` | &emsp;*¶* Co. l, Comonouo mexitçureôzu. |  |
 | `c2-l006` | &emsp;*Leuarei comigo os filhos, ou moç s.* |  |
-| `c2-l007` | T*ç*uredachi, t*ç*u, atta. *Ir, ou leuar em cõ-* |  |
-| `c2-l008` | &emsp;*panhia. Vt,* Fucari t*ç*uredachi atte vo- |  |
+| `c2-l007` | Tçuredachi, tçu, atta. *Ir, ou leuar em cõ-* |  |
+| `c2-l008` | &emsp;*panhia. Vt,* Fucari tçuredachi atte vo- |  |
 | `c2-l009` | &emsp;giare. Mon. *Trazei ambos com voſco.* |  |
-| `c2-l010` | *Tç*ǔrei. i, T*ç*uneno catagui. *Cuſtume or-* |  |
+| `c2-l010` | *T*çǔrei. i, Tçuneno catagui. *Cuſtume or-* |  |
 | `c2-l011` | &emsp;*dinario.* |  |
 | `c2-l012` | Tçuremai. *Romance que cantão dous, ou mais* |  |
 | `c2-l013` | &emsp;*juntos. ¶ Item, Bailo que fazem dous, ou* |  |
@@ -111,7 +111,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l031` | T*ç*uri, ru, utta. *Peſcar. Vt,* Iuouo t*ç*u- |  |
 | `c2-l032` | &emsp;ru. *¶ Item, Dependurar algũa couſa. Vt,* |  |
 | `c2-l033` | &emsp;Cayauo t*ç*uru. *Armar, ou dependurar a* |  |
-| `c2-l034` | &emsp;*Caya. ¶ Item,* Tçuri, ru. *Encolherſe,* |  |
+| `c2-l034` | &emsp;*Caya. ¶ Item,* T*ç*uri, ru. *Encolherſe,* |  |
 | `c2-l035` | &emsp;*ou apertarſe como neruo, &c. Vt,* Sugiga |  |
 | `c2-l036` | &emsp;t*ç*uru. *¶ Item,* T*ç*uri, u. *Agaſtarſe.* |  |
 | `c2-l037` | T*ç*uriague, ru, eta. *Dependurar em cima, ou* |  |
@@ -120,10 +120,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l040` | T*ç*uribito. *Peſcador de cana.* |  |
 | `c2-l041` | T*ç*uribune. *Embarcação peſcareza, ou onde ſe* |  |
 | `c2-l042` | &emsp;*peſca com anzol.* |  |
-| `c2-l043` | T*ç*uribune. *Vaſo à maneira de naueta de pen-* |  |
+| `c2-l043` | Tçuribune. *Vaſo à maneira de naueta de pen-* |  |
 | `c2-l044` | &emsp;*durada q̃ antiguamente ſeruia de porem flores,* |  |
 | `c2-l045` | &emsp;*ou fullas nella.* |  |
-| `c2-l046` | T*ç*uridana. *Parteleiro dependurado, ou pre-* |  |
+| `c2-l046` | Tçuridana. *Parteleiro dependurado, ou pre-* |  |
 | `c2-l047` | &emsp;*gado em alto.* |  |
 
 ## Printed signature

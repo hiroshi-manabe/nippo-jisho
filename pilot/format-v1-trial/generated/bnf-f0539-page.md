@@ -65,7 +65,7 @@ Lexical coverage was cross-checked after the independent scan reading against En
 | `c1-l036` | &emsp;*ſe. ¶* Vnga qiuamaru. *Acabarſe a* |  |
 | `c1-l037` | &emsp;*boa dita, ou ventura de alguem. ¶* Vn- |  |
 | `c1-l038` | &emsp;ga catamuqu. *Irſe acabando a boa dita.* |  |
-| `c1-l039` | &emsp;*¶* Vnga t*ç*uquru. *Acabarſe a ventura.* |  |
+| `c1-l039` | &emsp;*¶* Vnga tçuquru. *Acabarſe a ventura.* |  |
 | `c1-l040` | Vnagaxi, ſu. l, fure vnagaſu. *Apregoar,* |  |
 | `c1-l041` | &emsp;*ou dar rebate, & auiſo.* |  *(chamar, &c.* |
 | `c1-l042` | Vnagaxi. *O q̃ tem este officio de apregoar, ou* |  |
@@ -119,7 +119,7 @@ Lexical coverage was cross-checked after the independent scan reading against En
 | `c2-l034` | &emsp;*Vt,* Tenno vndô. *Mouimento do ceo. S.* |  |
 | `c2-l035` | Vndon. *Mas pronunciaſe,* Vdon. *Vide ſuprà.* |  |
 | `c2-l036` | Vne. *Margem que fica entre rego, & rego.* |  |
-| `c2-l037` | &emsp;*¶* Vneuo yaru, l, vneuo tat*ç*uru. *Fazer* |  |
+| `c2-l037` | &emsp;*¶* Vneuo yaru, l, vneuo tatçuru. *Fazer* |  |
 | `c2-l038` | &emsp;*estas margens. ¶ Item, per met. Em* |  |
 | `c2-l039` | &emsp;*algũas obras de mãos fazer hũa maneira de* |  |
 | `c2-l040` | &emsp;*margem, ou vinco aleuantado.* |  |
@@ -128,7 +128,7 @@ Lexical coverage was cross-checked after the independent scan reading against En
 | `c2-l043` | &emsp;ſaguevo. *Huns cordões que ſe dependurauão* |  |
 | `c2-l044` | &emsp;*nas Catanas feitos desta maneira.* |  |
 | `c2-l045` | Vnguenberi. *Debrum dos Tatamis do Dairi.* |  |
-| `c2-l046` | Vnguet. Cumo, t*ç*uqi. *Nuuem, & lũa. S.* |  |
+| `c2-l046` | Vnguet. Cumo, tçuqi. *Nuuem, & lũa. S.* |  |
 | `c2-l047` | Vngin. *Fretes. Vt* Vnginuo naſu. *Pagar* |  |
 | `c2-l048` | &emsp;*fretes.* |  |
 

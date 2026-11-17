@@ -34,7 +34,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l018` | Tǒboxi. *Arroz vermelho. No Cami ſe diz* |  |
 | `c1-l019` | &emsp;*T*aitogome. |  |
 | `c1-l020` | *T*oboxi, ſu, oita. *Acender candea, ou lu-* |  |
-| `c1-l021` | &emsp;*me. Vt,* Fiuo toboſu. *¶* Mat*ç*ubiuo |  |
+| `c1-l021` | &emsp;*me. Vt,* Fiuo toboſu. *¶* Matçubiuo |  |
 | `c1-l022` | &emsp;toboſu. l, acaſu. *Acender facha, ou achas* |  |
 | `c1-l023` | &emsp;*de pinho.* |  |
 | `c1-l024` | Toboxij. *Couſa pobre, & neceßitada. ¶* Tobo- |  |
@@ -43,16 +43,16 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l027` | &emsp;*met.* Toboxij. *Ter fome.* |  |
 | `c1-l028` | &emsp;*T*oboxiſa. |  |
 | `c1-l029` | &emsp;*T*oboxǔ. |  |
-| `c1-l030` | Toboxit*ç*ure, ruru, eta. *Leuarem muitos iũ-* |  |
+| `c1-l030` | Toboxitçure, ruru, eta. *Leuarem muitos iũ-* |  |
 | `c1-l031` | &emsp;*tos candeas, ou tochas aceſas. Vt, T*ede- |  |
-| `c1-l032` | &emsp;ni taimat*ç*uuo toboxit*ç*ure. *Leuãdo mui-* |  |
+| `c1-l032` | &emsp;ni taimatçuuo toboxitçure. *Leuãdo mui-* |  |
 | `c1-l033` | &emsp;*tos de companhia fachas aceſas nas mãos.* |  |
 | `c1-l034` | Tǒbucu. *Filho deſta molher de agora. Vt,* |  |
 | `c1-l035` | &emsp;Careua tǒbucugia. *Eſte he filho deſta mo-* |  |
 | `c1-l036` | &emsp;*lher de agora.* |  |
 | `c1-l037` | *T*ǒbun. i, Saxiataru bun. *Parte que cabe a* |  |
 | `c1-l038` | &emsp;*alguem como ſe repartißem por algũs tantas* |  |
-| `c1-l039` | &emsp;*oraçoẽs, &c. ¶* Tǒbun tçucamat*ç*utta. |  |
+| `c1-l039` | &emsp;*oraçoẽs, &c. ¶* Tǒbun tçucamatçutta. |  |
 | `c1-l040` | &emsp;*Fiz, ou compri com o que me coube.* |  |
 | `c1-l041` | Tôbun. *Igualdade no peſo, medida, ou quã-* |  |
 | `c1-l042` | &emsp;*tidade.* |  |

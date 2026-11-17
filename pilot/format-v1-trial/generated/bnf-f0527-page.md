@@ -34,7 +34,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l018` | Vaqinô. l, vaqino nô. *Vide,* Vaqi. |  |
 | `c1-l019` | Vaqino ca. *Fedor, ou ruim cheiro dos ſouacos.* |  |
 | `c1-l020` | Vaqino ita. *Armas das ilhargas, ou lados.* |  |
-| `c1-l021` | Vaqitachi, t*ç*u, atta. *Começar aferuer a a-* |  |
+| `c1-l021` | Vaqitachi, tçu, atta. *Começar aferuer a a-* |  |
 | `c1-l022` | &emsp;*goa, ou feruer em burbulhões.* |  |
 | `c1-l023` | Vaqitame, uru, eta. *Vide,* Vaqimaye, |  |
 | `c1-l024` | &emsp;uru. *que he propria palaura.* |  |
@@ -75,7 +75,7 @@ The running header visibly prints ATES without an N or a secure nasal abbreviati
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c2-l001` | &emsp;*de palha como alparcas que ſe atão nos pès.* |  |
-| `c2-l002` | Varagut*ç*u. *Idem.* |  |
+| `c2-l002` | Varagutçu. *Idem.* |  |
 | `c2-l003` | Varai, rǒ, ǒta. *Rir. Vt,* Dotto varǒ. |  |
 | `c2-l004` | &emsp;*Rirem muitos juntos alto. ¶* Fitouo va- |  |
 | `c2-l005` | &emsp;rǒ. *Zombar, & rir dalguem.* |  |
@@ -91,7 +91,7 @@ The running header visibly prints ATES without an N or a secure nasal abbreviati
 | `c2-l015` | Varaiguſa. *Couſa de riſo, ou occaſião de riſo.* |  |
 | `c2-l016` | &emsp;*¶* Varaiguſani naru. *Ficar em materia* |  |
 | `c2-l017` | &emsp;*de riſo, & zombaria.* |  |
-| `c2-l018` | Varaitate, t*ç*uru, eta. *Rirem muitos juntos* |  |
+| `c2-l018` | Varaitate, tçuru, eta. *Rirem muitos juntos* |  |
 | `c2-l019` | &emsp;*ou zombarem dalguem.* |  |
 | `c2-l020` | Varamuxiro. *Eſteira de palha.* |  |
 | `c2-l021` | Varanbe. *Minino.* |  |

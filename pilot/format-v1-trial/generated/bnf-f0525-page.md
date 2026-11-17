@@ -16,7 +16,7 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c1-l001` | &emsp;*ofiado, ou fio de ſeda. ¶* Vacuuo curu. |  |
 | `c1-l002` | &emsp;*Andar com eſte ſarilho. ¶* Vacuni ito- |  |
-| `c1-l003` | &emsp;uo curit*ç*uquru. *Debar o fiado, & polo no* |  |
+| `c1-l003` | &emsp;uo curitçuquru. *Debar o fiado, & polo no* |  |
 | `c1-l004` | &emsp;*ſarilho.* |  |
 | `c1-l005` | Vacugô. Madô xiuaza. i, *Ruins obras, ou de-* |  |
 | `c1-l006` | &emsp;*prauadas, ou feitas ao contrario do que ſe de-* |  |
@@ -43,7 +43,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l027` | &emsp;naru. *Fazerenſe pazes, ou fazerenſe a-* |  |
 | `c1-l028` | &emsp;*mizades entre os que erão contrarios.* |  |
 | `c1-l029` | Vadano fara. *P.* i, Vmi. *Mar.* |  |
-| `c1-l030` | Vdat*ç*u. Vmi. *P. Idem.* |  |
+| `c1-l030` | Vdatçu. Vmi. *P. Idem.* |  |
 | `c1-l031` | Vafon. *O traduzir em lingua de Iapão: palaura* |  |
 | `c1-l032` | &emsp;*compoſta, & vſada na Igreja.* |  |
 | `c1-l033` | Vaga. *Eu. ¶ Item, Aliquãdo minùs pro-* |  |

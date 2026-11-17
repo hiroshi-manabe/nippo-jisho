@@ -61,7 +61,7 @@ Lexical coverage was checked after independent scan reading against Entry Words 
 | `c1-l043` | Tǒgin. Ataru gin. *Eſte arrayal, ou exercito.* |  |
 | `c1-l044` | Tôgiǒ. Tatacǒ niua. *Campo, ou terreiro da* |  |
 | `c1-l045` | &emsp;*batalha, ou briga.* |  |
-| `c1-l046` | Tǒgiǒ. Catana, t*ç*uye. *Eſpada, & pao, ou* |  |
+| `c1-l046` | Tǒgiǒ. Catana, tçuye. *Eſpada, & pao, ou* |  |
 | `c1-l047` | &emsp;*bordão. ¶* Qiǔxen tǒgioni tazzuſana- |  |
 
 ## Column 2 running header
@@ -76,7 +76,7 @@ Lexical coverage was checked after independent scan reading against Entry Words 
 | --- | --- | --- |
 | `c2-l001` | &emsp;ru. *Andar occupado em guerras, ou com* |  |
 | `c2-l002` | &emsp;*amão nas armas.* |  |
-| `c2-l003` | Togit*ç*uqe, ru, eta. *Ajuntar coſendo, ou pe-* |  |
+| `c2-l003` | Togitçuqe, ru, eta. *Ajuntar coſendo, ou pe-* |  |
 | `c2-l004` | &emsp;*gondo hũa couſa com outra.* |  |
 | `c2-l005` | Togitçuqi, u, uita. *Eſtar hũa couſa aßi jũ-* |  |
 | `c2-l006` | &emsp;*ta, ou pegada.* |  |
@@ -97,11 +97,11 @@ Lexical coverage was checked after independent scan reading against Entry Words 
 | `c2-l021` | *T*oicotaye, uru, eta. *Pergũtar, & reſpõder.* |  |
 | `c2-l022` | Tǒin. Taitǒno coye. *Voz, ou ſonjonete* |  |
 | `c2-l023` | &emsp;*pro prio da Chinu.* |  |
-| `c2-l024` | *T*oiqi. *Suſpiros. ¶ T*oiqiuo t*ç*uqu. *Dar* |  |
+| `c2-l024` | *T*oiqi. *Suſpiros. ¶ T*oiqiuo tçuqu. *Dar* |  |
 | `c2-l025` | &emsp;*ſuſpiros.* |  |
 | `c2-l026` | *T*oitomurai, ǒ, ǒta. *Viſitar a alguem, ou* |  |
 | `c2-l027` | &emsp;*mãdalo viſitar por doẽte, ou por outro reſpeito.* |  |
-| `c2-l028` | Tojacu. i, Caqit*ç*ubata. *Lirio.* |  |
+| `c2-l028` | Tojacu. i, Caqitçubata. *Lirio.* |  |
 | `c2-l029` | Tôjacu. l, tôxacu. *Pardaes que eſtão pele-* |  |
 | `c2-l030` | &emsp;*jando, & picandoſe hum a outro. ¶* Tôja- |  |
 | `c2-l031` | &emsp;cu fitoni vogizu. *Os pardaes que eſtão pele-* |  |

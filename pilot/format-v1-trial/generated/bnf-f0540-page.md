@@ -87,7 +87,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l013` | &emsp;*tiplicadas hũas ſobre outras.* |  |
 | `c2-l014` | Vnriǔcacu. *Certo Zaxiqui del rey da China.* |  |
 | `c2-l015` | Vnsô. Facobi vocuru. *Fazer leuar, ou vir* |  |
-| `c2-l016` | &emsp;*de carreto. ¶* Vnsô baibaino t*ç*u. *Por-* |  |
+| `c2-l016` | &emsp;*de carreto. ¶* Vnsô baibaino tçu. *Por-* |  |
 | `c2-l017` | &emsp;*to que he eſcala de varias mercadorias.* |  |
 | `c2-l018` | Vn vn. i, *Dizem: palaura com que ſe acaba* |  |
 | `c2-l019` | &emsp;*algũa clauſula de liuro, ou eſcritura.* |  |
@@ -100,7 +100,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l026` | &emsp;*tomaſe por paços reais.* |  |
 | `c2-l027` | Vnyacu. *Mezinha que he quente naturalmẽte.* |  |
 | `c2-l028` | Vnyei. Cumono cague. *Sombra da nuuem.* |  |
-| `c2-l029` | Vnzai. *Dita. ¶* Vnzaiga t*ç*uqifateta. |  |
+| `c2-l029` | Vnzai. *Dita. ¶* Vnzaiga tçuqifateta. |  |
 | `c2-l030` | &emsp;*Acabouſe adita, ou ventura.* |  |
 | `c2-l031` | Vnzan. Cumo, yama. *Nuuens, & mon* |  |
 | `c2-l032` | &emsp;*tes. S.* |  |

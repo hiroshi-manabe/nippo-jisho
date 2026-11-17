@@ -18,10 +18,10 @@ Lexical aid: [NINJAL, Entry Words Data of Nippojisho, version 202510](https://ww
 | --- | --- | --- |
 | `c1-l001` | Teifat. Cami ſoru. *O rapar a cabeça.* |  |
 | `c1-l002` | Teifei. *Soldado forte, & robuſto.* |  |
-| `c1-l003` | *T*eiguet. i, T*ç*umogori. *O derradeiro dia* |  |
+| `c1-l003` | *T*eiguet. i, Tçumogori. *O derradeiro dia* |  |
 | `c1-l004` | &emsp;*do mes.* |  |
 | `c1-l005` | *T*eiguiô. *Couſas, que o Reyfaz, ou ordena.* |  |
-| `c1-l006` | *T*eigi. Fiſſague mot*ç*u. *Ter algũa couſa de-* |  |
+| `c1-l006` | *T*eigi. Fiſſague motçu. *Ter algũa couſa de-* |  |
 | `c1-l007` | &emsp;*pendurada na mão. S.* |  |
 | `c1-l008` | Teigio. Tadaxij vonna. *Boa, & caſta molher.* |  |
 | `c1-l009` | Teigiǔ. *Reuerencia, & agaſalhado. Vt,* |  |

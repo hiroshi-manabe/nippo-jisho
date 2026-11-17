@@ -32,7 +32,7 @@ Lexical aid consulted after scan reading: Entry Words Data of Nippojisho, NINJAL
 | `c1-l014` | &emsp;ru. *Partir moendo. Vt,* Comeuo fiqivaru. |  |
 | `c1-l015` | &emsp;*Moer arroz de maneira que não fique em fari-* |  |
 | `c1-l016` | &emsp;*nha, mas empedacinhos.* |  |
-| `c1-l017` | Variate, t*ç*uru, eta. l, varit*ç*uqe, quru. |  |
+| `c1-l017` | Variate, tçuru, eta. l, varitçuqe, quru. |  |
 | `c1-l018` | &emsp;*Diuidindo, ou fazendo partição encarregar a* |  |
 | `c1-l019` | &emsp;*alguem como parede, vallo, &c.* |  |
 | `c1-l020` | Varicudaqi, qu, ita. *Quebrando fazer em* |  |

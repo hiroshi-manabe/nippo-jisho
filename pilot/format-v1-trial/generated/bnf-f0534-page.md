@@ -54,14 +54,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l038` | Vchiſauagui, gu, ida. i, Sauagui, gu. |  |
 | `c1-l039` | Vchiſoi, ô, ôta. *Estar muito apegado, ou* |  |
 | `c1-l040` | &emsp;*junto a alguem.* |  |
-| `c1-l041` | Vchit*ç*ugai, ǒ, ǒta. *Por a frecha no arco.* |  |
-| `c1-l042` | &emsp;*Vt,* Yumito yauo vchit*ç*ugǒ. *Idem.* |  |
-| `c1-l043` | Vchit*ç*uqena. *Couſa de atreuimento, ou deſa-* |  |
-| `c1-l044` | &emsp;*tentada. ¶* Vchit*ç*uqena cotonaredo- |  |
+| `c1-l041` | Vchitçugai, ǒ, ǒta. *Por a frecha no arco.* |  |
+| `c1-l042` | &emsp;*Vt,* Yumito yauo vchitçugǒ. *Idem.* |  |
+| `c1-l043` | Vchitçuqena. *Couſa de atreuimento, ou deſa-* |  |
+| `c1-l044` | &emsp;*tentada. ¶* Vchitçuqena cotonaredo- |  |
 | `c1-l045` | &emsp;mo, goyǒuo mǒsǒzu. *Ainda que ſeja* |  |
 | `c1-l046` | &emsp;*muita liberdade, ou atreuimento pedirei hũa* |  |
 | `c1-l047` | &emsp;*merce, ou graça.* |  |
-| `c1-l048` | Vchit*ç*uqeni. *Adu.* |  |
+| `c1-l048` | Vchitçuqeni. *Adu.* |  |
 
 ## Column 2 running header
 
@@ -73,11 +73,11 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | Vchit*ç*uqe, uru, eta. *Pregar algũa couſa co* |  |
+| `c2-l001` | Vchitçuqe, uru, eta. *Pregar algũa couſa co* |  |
 | `c2-l002` | &emsp;*mo prègo, &c. ¶ Item, Lançando, ou* |  |
 | `c2-l003` | &emsp;*dando com algũa couſa pegala como barro à pa-* |  |
 | `c2-l004` | &emsp;*rede, &c.* |  |
-| `c2-l005` | Vchit*ç*uredachi, tçu, atta. *Ir em cõpanhia.* |  |
+| `c2-l005` | Vchitçuredachi, tçu, atta. *Ir em cõpanhia.* |  |
 | `c2-l006` | Vchitçuzzuqi, u, ita. *Continuarſe, ou vir* |  |
 | `c2-l007` | &emsp;*logo hum a pos outro.* |  |
 | `c2-l008` | Vchite. *Matador. ¶ Item, Iugador de* |  |

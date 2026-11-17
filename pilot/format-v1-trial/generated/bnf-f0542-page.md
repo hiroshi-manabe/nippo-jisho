@@ -19,7 +19,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l003` | &emsp;iuo Deus ni voboximexi cayerareta. *Os* |  |
 | `c1-l004` | &emsp;*Sanctos amarão mais a Deos, que ao mundo.* |  |
 | `c1-l005` | Voboximexi ire, uru, eta. *Amar muito a alguẽ.* |  |
-| `c1-l006` | Voboye. *Memoria. ¶* Voboyeno t*ç*u- |  |
+| `c1-l006` | Voboye. *Memoria. ¶* Voboyeno tçu- |  |
 | `c1-l007` | &emsp;yoi fito. *Homem de boa memoria.* |  |
 | `c1-l008` | Voboye. Fama. *¶* Voboyeuo toru. *Co-* |  |
 | `c1-l009` | &emsp;*brar nome, & fama.* |  |
@@ -98,18 +98,18 @@ The scan prints an anomalous initial T in this V-before-O running header; it is 
 | `c2-l022` | &emsp;*de fausto, &c.* |  |
 | `c2-l023` | Vochi. l, vochino fito. *Ama que cria.* |  |
 | `c2-l024` | Vǒchi. *Hũa aruore aßi chamada.* |  |
-| `c2-l025` | Vochi, t*ç*uru, ita. *Cair de alto. ¶* Co- |  |
-| `c2-l026` | &emsp;nomiga vot*ç*uru. *Cair a fruita da aruore.* |  |
-| `c2-l027` | &emsp;*¶* Togani vot*ç*uru. *Cair em peccado.* |  |
+| `c2-l025` | Vochi, tçuru, ita. *Cair de alto. ¶* Co- |  |
+| `c2-l026` | &emsp;nomiga votçuru. *Cair a fruita da aruore.* |  |
+| `c2-l027` | &emsp;*¶* Togani votçuru. *Cair em peccado.* |  |
 | `c2-l028` | &emsp;*¶* Sono fitoni vochita. *Conſenti com eſte* |  |
 | `c2-l029` | &emsp;*homem, ou com eßa peßoa caindo com ellaem* |  |
-| `c2-l030` | &emsp;*peccado. ¶* Xirogavot*ç*uru. *Render-* |  |
+| `c2-l030` | &emsp;*peccado. ¶* Xirogavotçuru. *Render-* |  |
 | `c2-l031` | &emsp;*ſe a fortaleza. ¶* Xucqeuo votçuru. *Dei* |  |
 | `c2-l032` | &emsp;*xar a religião, & fazerſe ſecular. ¶ Itẽ,* |  |
 | `c2-l033` | &emsp;*Fugir, ou acolherſe vencido na guerra. ¶ Itẽ,* |  |
-| `c2-l034` | &emsp;Vochi t*ç*uru. *Confeßar o reo, ou o que* |  |
+| `c2-l034` | &emsp;Vochi tçuru. *Confeßar o reo, ou o que* |  |
 | `c2-l035` | &emsp;*leua tratos a verdade. Vt,* Tôniua vochi- |  |
-| `c2-l036` | &emsp;ide, cataruni vot*ç*uru. *Perguntando lhe* |  |
+| `c2-l036` | &emsp;ide, cataruni votçuru. *Perguntando lhe* |  |
 | `c2-l037` | &emsp;*calou, & em pratica ſem tratos confeßou.* |  |
 | `c2-l038` | Vochi. l, *potiùs,* Camino vochi. *Os cabe-* |  |
 | `c2-l039` | &emsp;*los que caem da cabeça das molheres de que fa-* |  |

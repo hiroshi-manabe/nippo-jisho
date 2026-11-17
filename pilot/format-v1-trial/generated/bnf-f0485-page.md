@@ -14,32 +14,32 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | Tçuiqiacu. i, Voi vxinǒ. *O botar fora, ou* |  |
+| `c1-l001` | T*ç*uiqiacu. i, Voi vxinǒ. *O botar fora, ou* |  |
 | `c1-l002` | &emsp;*deſterrar.* |  |
 | `c1-l003` | T*ç*uitachi. *Primeiro dia da lũa, ou mes.* |  |
 | `c1-l004` | T*ç*uitachi xǒji. *Hũa taboa, ou porta como* |  |
 | `c1-l005` | &emsp;*beǒboſinho baixo, que poem como por antepa-* |  |
 | `c1-l006` | &emsp;*ro do vento ao derredor do fogão da caſa.* |  |
-| `c1-l007` | T*ç*uite. *Aduer. Acerca. Rege datiuo. Vt,* So- |  |
-| `c1-l008` | &emsp;reni t*ç*uite. *Acerca dißo.* |  |
-| `c1-l009` | T*ç*uitǒ. *O matar, & deſtruir como por juſti-* |  |
+| `c1-l007` | Tçuite. *Aduer. Acerca. Rege datiuo. Vt,* So- |  |
+| `c1-l008` | &emsp;reni tçuite. *Acerca dißo.* |  |
+| `c1-l009` | Tçuitǒ. *O matar, & deſtruir como por juſti-* |  |
 | `c1-l010` | &emsp;*ça, ou mandado dalgum ſenhor, &c.* |  |
-| `c1-l011` | T*ç*uixô. *Liſonias, ou meiguices. ¶* Tçui- |  |
+| `c1-l011` | Tçuixô. *Liſonias, ou meiguices. ¶* Tçui- |  |
 | `c1-l012` | &emsp;xôni môſu. l, Tçuixôuo mǒſu. *Liſõ-* |  |
 | `c1-l013` | &emsp;*gear, ou falar meiguices.* |  |
 | `c1-l014` | T*ç*uixu. *Vaſo, ou outra obra de varios lauores* |  |
 | `c1-l015` | &emsp;*com tintas, & molduras, que vem da China.* |  |
 | `c1-l016` | *Tç*uiyari. *Lanças do meſmo tamanho, fei-* |  |
 | `c1-l017` | &emsp;*tio, &c.* |  |
-| `c1-l018` | Tçuiyaxi, ſu, ita. l, T*ç*uyaxi, ſu. *Gaſ-* |  |
-| `c1-l019` | &emsp;*tar mal, ou eſperdiçar. Vt, T*acarauo tçuiyaſu. |  |
+| `c1-l018` | Tçuiyaxi, ſu, ita. l, Tçuyaxi, ſu. *Gaſ-* |  |
+| `c1-l019` | &emsp;*tar mal, ou eſperdiçar. Vt, T*acarauo t*ç*uiyaſu. |  |
 | `c1-l020` | T*ç*uiye, uru, eta. l, *Tç*uye, uru. *Eſperdi-* |  |
 | `c1-l021` | &emsp;*çarſe, ou gaſtarſe mal algua couſa. Vide Tç*u- |  |
 | `c1-l022` | &emsp;ye, uru. |  |
 | `c1-l023` | *Tç*uiye. *Gaſto, perda, ou cuſtos. ¶ Tç*ui- |  |
 | `c1-l024` | &emsp;yeni naru. *Ser, ou fazerſe perda, cuſto, &c.* |  |
-| `c1-l025` | *Tç*uijen. *Saimẽto, ou comẽdação por defũto.* |  |
-| `c1-l026` | *Tç*ǔji, zuru, ita. *Communicarſe. Vt,* Co- |  |
+| `c1-l025` | *T*çuijen. *Saimẽto, ou comẽdação por defũto.* |  |
+| `c1-l026` | *T*çǔji, zuru, ita. *Communicarſe. Vt,* Co- |  |
 | `c1-l027` | &emsp;corouo tçǔzuru. i, Cocorozaxiuo cayo- |  |
 | `c1-l028` | &emsp;uaſu. *Communicarenſe, ou combinarem os* |  |
 | `c1-l029` | &emsp;*corações, & vontades. ¶* Inxinuo t*ç*ǔzu- |  |
@@ -55,7 +55,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l039` | T*ç*ujicaje. *Redemoinho de vento.* |  |
 | `c1-l040` | T*ç*ujidǒro. *Lanterna que ſe poem em alto nas* |  |
 | `c1-l041` | &emsp;*encruzilhadas.* |  |
-| `c1-l042` | Tçujiga fana. *Catabira pintada com certas fo-* |  |
+| `c1-l042` | T*ç*ujiga fana. *Catabira pintada com certas fo-* |  |
 | `c1-l043` | &emsp;*lhagens, lauores vermelhos, & de outras co-* |  |
 | `c1-l044` | &emsp;*res. ¶ Itẽ, os meſmos lauores, ou pinturas.* |  |
 | `c1-l045` | *Tç*uji gatame. *Guardas que ſe poem no cami-* |  |
@@ -97,12 +97,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l017` | T*ç*umabiracana. *Couſa clara, ou diſtincta.* |  |
 | `c2-l018` | &emsp;T*ç*umabiracani. *Adu. Clara mente.* |  |
 | `c2-l019` | &emsp;T*ç*umabiracaſa. |  |
-| `c2-l020` | *Tç*umabucuro. l, Cobucuro. *Bolſinha em q̃ as* |  |
+| `c2-l020` | *T*çumabucuro. l, Cobucuro. *Bolſinha em q̃ as* |  |
 | `c2-l021` | &emsp;*molheres metem varias couſas, como agu-* |  |
 | `c2-l022` | &emsp;*lhas, &c.* |  |
 | `c2-l023` | T*ç*umado. *Porta eſtreita de engonços, ou de* |  |
 | `c2-l024` | &emsp;*couceira.* |  |
-| `c2-l025` | Tçumafajiqi. *Paparote, ou caſtanheta.* |  |
+| `c2-l025` | T*ç*umafajiqi. *Paparote, ou caſtanheta.* |  |
 | `c2-l026` | &emsp;*¶* T*ç*umafajiqi ſuru. *Dar paparotes, ou* |  |
 | `c2-l027` | &emsp;*caſtanhetas.* |  *(vnhas.* |
 | `c2-l028` | T*ç*umagatana. *Caniuete, ou faca de cortar* |  |
@@ -122,7 +122,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l042` | &emsp;*mo de cão, &c.* V*t,* Cono inuua t*ç*u- |  |
 | `c2-l043` | &emsp;majirogia. *Eſte cão tem as mãos brancas.* |  |
 | `c2-l044` | &emsp;*¶ Item, Hũa laya de mariſco como ameijoas.* |  |
-| `c2-l045` | Tçumamare. *Paruo, ou tolo. Palaura que ſe* |  |
+| `c2-l045` | T*ç*umamare. *Paruo, ou tolo. Palaura que ſe* |  |
 | `c2-l046` | &emsp;*diz ẽ deſprezo dos criados, &c. ¶ Tç*u- |  |
 | `c2-l047` | &emsp;mamareta mono. *Idem.* |  |
 
@@ -136,4 +136,4 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `cw-l001` |  | Tçu- |
+| `cw-l001` |  | T*ç*u- |

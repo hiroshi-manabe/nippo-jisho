@@ -38,13 +38,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l022` | &emsp;*lhado, & desbaratado.* |  |
 | `c1-l023` | *T*oriatari, ru, atta. *Tomar, ou ſair por ſor-* |  |
 | `c1-l024` | &emsp;*tes. ¶* Cujini toriataru. *Idem.* |  |
-| `c1-l025` | *T*oriat*ç*ucai, ǒ, ǒta. *Negocear, ou tratar.* |  |
-| `c1-l026` | &emsp;*¶* Cujiuo toriat*ç*ucǒ. *Tratar, ou andar* |  |
+| `c1-l025` | *T*oriatçucai, ǒ, ǒta. *Negocear, ou tratar.* |  |
+| `c1-l026` | &emsp;*¶* Cujiuo toriatçucǒ. *Tratar, ou andar* |  |
 | `c1-l027` | &emsp;*em algũa demanda. ¶* Iyeno ſaibanuo |  |
-| `c1-l028` | &emsp;toriat*ç*ucǒ. *Entender no negocio, & me-* |  |
+| `c1-l028` | &emsp;toriatçucǒ. *Entender no negocio, & me-* |  |
 | `c1-l029` | &emsp;*neo, ou gouerno da caſa.* |  |
-| `c1-l030` | *T*oriat*ç*ume, uru, eta. *Ajuntar tomando cõ* |  |
-| `c1-l031` | &emsp;*a mão. ¶ T*acarauo toriat*ç*umuru. *A-* |  |
+| `c1-l030` | *T*oriatçume, uru, eta. *Ajuntar tomando cõ* |  |
+| `c1-l031` | &emsp;*a mão. ¶ T*acarauo toriatçumuru. *A-* |  |
 | `c1-l032` | &emsp;*juntar muitas riquezas.* |  |
 | `c1-l033` | *T*oriauaxe, ſuru, eta. *Ajuntar varias cou-* |  |
 | `c1-l034` | &emsp;*ſas, & prouar ſe fazem, ou ſão proporciona-* |  |

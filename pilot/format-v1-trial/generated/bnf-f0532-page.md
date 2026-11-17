@@ -16,7 +16,7 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c1-l001` | &emsp;*Deſpejar de todo a vaſilha, caſa, ou outra couſa.* |  |
 | `c1-l002` | Vchiarai, rǒ, ǒta. *Lauar.* |  |
-| `c1-l003` | Vchiate, t*ç*uru, eta. *Acertar tirando como* |  |
+| `c1-l003` | Vchiate, tçuru, eta. *Acertar tirando como* |  |
 | `c1-l004` | &emsp;*com pedra, &c. ¶ Item, Cairem os pon-* |  |
 | `c1-l005` | &emsp;*tos dos dados à vontade. Vt,* Saino meuo |  |
 | `c1-l006` | &emsp;vchiateta. *Sairão lhe os dados como queria.* |  |
@@ -28,7 +28,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l012` | Vchibaba. *Rua, ou carreira de caualos que* |  |
 | `c1-l013` | &emsp;*està dentro dalgũa cerca, &c.* |  |
 | `c1-l014` | Vchibari. *Agulha que ſe mete no corpo baten-* |  |
-| `c1-l015` | &emsp;*do. ¶* Vchibariuo vt*ç*u. *Meter esta a-* |  |
+| `c1-l015` | &emsp;*do. ¶* Vchibariuo vtçu. *Meter esta a-* |  |
 | `c1-l016` | &emsp;*gulha aßi.* |  |
 | `c1-l017` | Vchibari. *Forro de papel que ſe poem por den-* |  |
 | `c1-l018` | &emsp;*tro dalgũa caixa, Cauago, &c. ¶* Vchi- |  |
@@ -40,7 +40,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l024` | Vchicacari, u, atta. *Estar encoſtado, ou ar-* |  |
 | `c1-l025` | &emsp;*rimado. ¶ Item, per met. Estar enco-* |  |
 | `c1-l026` | &emsp;*ſtado, & emparado com alguem.* |  |
-| `c1-l027` | Vchicachi, t*ç*u, atta. *Vencer na guerra, ou* |  |
+| `c1-l027` | Vchicachi, tçu, atta. *Vencer na guerra, ou* |  |
 | `c1-l028` | &emsp;*ganhar no jogo.* |  |
 | `c1-l029` | Vchicacomi, mu, ôda. *Cercar por todas as* |  |
 | `c1-l030` | &emsp;*partes comgente.* |  |
@@ -50,7 +50,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l034` | &emsp;*ou vestir ſobre outra ſem ſe cingir. ¶ Itẽ,* |  |
 | `c1-l035` | &emsp;*Bater. ¶* Miguiuano iuani nami vchica- |  |
 | `c1-l036` | &emsp;quru. *Baterem as ondas na penedia da pra-* |  |
-| `c1-l037` | &emsp;*ya. ¶* T*ç*ubuteuo vchicaquru. *Tirar* |  |
+| `c1-l037` | &emsp;*ya. ¶* Tçubuteuo vchicaquru. *Tirar* |  |
 | `c1-l038` | &emsp;*às pedradas. ¶ Item, Dependurar dalgum* |  |
 | `c1-l039` | &emsp;*pao, ou cana.* |  |
 | `c1-l040` | Vchicata. *Molher de homem ordinario, caſada.* |  |
@@ -74,7 +74,7 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c2-l001` | &emsp;*como prego, &c. ¶* Cuguiuo faxirani |  |
 | `c2-l002` | &emsp;vchicomu. *Meter na Faxira algum prego.* |  |
-| `c2-l003` | &emsp;*¶* T*ç*ubuteuo vchicomu. *Atirando com* |  |
+| `c2-l003` | &emsp;*¶* Tçubuteuo vchicomu. *Atirando com* |  |
 | `c2-l004` | &emsp;*pedra metela dentro dalgũa caſa. ¶ Item,* |  |
 | `c2-l005` | &emsp;Vchicomu. *Estar metido no interior, &* |  |
 | `c2-l006` | &emsp;*coração dalguem. Vt,* Sono fitoni vchicô- |  |

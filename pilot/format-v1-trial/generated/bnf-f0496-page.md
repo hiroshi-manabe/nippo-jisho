@@ -41,9 +41,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l025` | &emsp;*junto da mão. Vt, T*ebinniua nai. i, *Não* |  |
 | `c1-l026` | &emsp;*tenho agora aqui à mão.* |  |
 | `c1-l027` | *T*ebiǒxi. *Obater das mãos a compaſſo. Vt,* |  |
-| `c1-l028` | &emsp;*T*ebiǒxiuo vt*ç*u. |  |
+| `c1-l028` | &emsp;*T*ebiǒxiuo vtçu. |  |
 | `c1-l029` | *T*ebiroi. *Couſa larga, ou eſpaçoſa, como caſa,* |  |
-| `c1-l030` | &emsp;*fortaleza, &c. ¶ T*ebirô t*ç*ucǒ. *Ga-* |  |
+| `c1-l030` | &emsp;*fortaleza, &c. ¶ T*ebirô tçucǒ. *Ga-* |  |
 | `c1-l031` | &emsp;*ſtar francamente por muitas partes, ou em mui-* |  |
 | `c1-l032` | &emsp;*tas couſas.* |  |
 | `c1-l033` | *T*ebirô. *Adu.* Tebiro*ſ*a. |  |
@@ -104,7 +104,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l030` | *T*ecqiǔ. Curoganeno yumi. *Arco pequeno* |  |
 | `c2-l031` | *T*ecubi. *Colo da mão.* |  |
 | `c2-l032` | *T*ecubo. *Coua que està na palma da mão.* |  |
-| `c2-l033` | Tecugut*ç*u. *O fazer andar às voltas, ou me-* |  |
+| `c2-l033` | Tecugutçu. *O fazer andar às voltas, ou me-* |  |
 | `c2-l034` | &emsp;*near os bonifratres.* |  |
 | `c2-l035` | *T*edaimatçu. *Amarradoſinho de achas, ou* |  |
 | `c2-l036` | &emsp;*cauaquinhos de pinheiro pera acender.* |  |

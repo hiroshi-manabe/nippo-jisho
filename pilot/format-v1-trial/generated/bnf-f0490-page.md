@@ -58,7 +58,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l042` | &emsp;*da como adaga nos peitos, &c. ¶ Item,* |  |
 | `c1-l043` | &emsp;*Pregando, ou fixando aleuantar algũa couſa* |  |
 | `c1-l044` | &emsp;*como bandeira, lança, &c.* |  |
-| `c1-l045` | T*ç*uqitateno mochi. *Bolinhos de arroz fei-* |  |
+| `c1-l045` | Tçuqitateno mochi. *Bolinhos de arroz fei-* |  |
 | `c1-l046` | &emsp;*tos daquella hora, & aßi em quentes.* |  |
 | `c1-l047` | T*ç*uqitauoxi, ſu, oita. *Empuxando derru-* |  |
 | `u1b-l001` | &emsp;*bar.* |  |
@@ -73,15 +73,15 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | T*ç*uqitçumeta fito. *Homem ſofrego, & a-* |  |
+| `c2-l001` | Tçuqitçumeta fito. *Homem ſofrego, & a-* |  |
 | `c2-l002` | &emsp;*preſſado em fazer, ou pedir algũa couſa, ou q̃* |  |
 | `c2-l003` | &emsp;*não pode ſofrer vagar nem dilação nas couſas.* |  |
-| `c2-l004` | T*ç*uqit*ç*uqi. l, tçuqit*ç*uqini. *Cada mes, ou* |  |
+| `c2-l004` | Tçuqitçuqi. l, tçuqitçuqini. *Cada mes, ou* |  |
 | `c2-l005` | &emsp;*todos os meſes.* |  |
-| `c2-l006` | T*ç*uqitçuranuqi, u, uita. *Atraueſar de par-* |  |
+| `c2-l006` | Tçuqitçuranuqi, u, uita. *Atraueſar de par-* |  |
 | `c2-l007` | &emsp;*te a parte com lança, eſtocada, &c.* |  |
-| `c2-l008` | T*ç*uqitouoxi, ſu, oita. *Idem.* |  |
-| `c2-l009` | T*ç*uqivochi. l, t*ç*uqivochite. *Abaixandoſe* |  |
+| `c2-l008` | Tçuqitouoxi, ſu, oita. *Idem.* |  |
+| `c2-l009` | Tçuqivochi. l, t*ç*uqivochite. *Abaixandoſe* |  |
 | `c2-l010` | &emsp;*a lũa, ou pondoſe: he modo de falar, que não* |  |
 | `c2-l011` | &emsp;*ſe vſa mais que deſta maneira.* |  |
 | `c2-l012` | T*ç*uqivotoxi, ſu, oita. *Derrubar de lugar al-* |  |
@@ -115,11 +115,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l040` | &emsp;i, Sorazayano nai fito. *Homem apreſſa-* |  |
 | `c2-l041` | &emsp;*do, & ſofrego que não da vagar, nem deſcã-* |  |
 | `c2-l042` | &emsp;*ſo a nada.* |  |
-| `c2-l043` | *Tç*ura. *Cara, ou focinho. Item, Parte, ou* |  |
-| `c2-l044` | &emsp;*banda. Vt,* Figaxino, l, nixino t*ç*ura. |  |
-| `c2-l045` | &emsp;*Parte do Leſte, ou Oeſte. ¶* Soret*ç*urano |  |
+| `c2-l043` | *T*çura. *Cara, ou focinho. Item, Parte, ou* |  |
+| `c2-l044` | &emsp;*banda. Vt,* Figaxino, l, nixino tçura. |  |
+| `c2-l045` | &emsp;*Parte do Leſte, ou Oeſte. ¶* Soretçurano |  |
 | `c2-l046` | &emsp;mono. *Couſa deßa laya, teor, ou aparencia.* |  |
-| `c2-l047` | T*ç*uracuxe. *Ruim ſembrante, ou roſto carre-* |  |
+| `c2-l047` | Tçuracuxe. *Ruim ſembrante, ou roſto carre-* |  |
 
 ## Printed catchword
 

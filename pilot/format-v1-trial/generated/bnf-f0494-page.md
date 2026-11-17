@@ -22,17 +22,17 @@ Lexical reference consulted after independent scan reading: NINJAL, *Entry Words
 | `c1-l004` | &emsp;*varela, ou igreja. ¶* Tcuyauo ſuru. l, |  |
 | `c1-l005` | &emsp;mǒſu. *Paßar a noite na* Tera, *ou ermida* |  |
 | `c1-l006` | &emsp;*vigiando.* |  |
-| `c1-l007` | T*ç*uyatcuya. *Aduerbio que ſe vſa commũ-* |  |
+| `c1-l007` | Tçuyatcuya. *Aduerbio que ſe vſa commũ-* |  |
 | `c1-l008` | &emsp;*mente por elegancia, & com verbos negatiuos* |  |
 | `c1-l009` | &emsp;*em couſas de conſideração, &c. Vt,* T*ç*uya- |  |
 | `c1-l010` | &emsp;tçuya fenjiuo mǒſazu. *Não reſpondendo* |  |
 | `c1-l011` | &emsp;*nada.* |  |
 | `c1-l012` | T*ç*uyaxi, ſu, aita. *Eſperdiçar. ¶* Taca- |  |
-| `c1-l013` | &emsp;rauo t*ç*uyaſu. *Eſperdiçar, ou geſtar mal a* |  |
+| `c1-l013` | &emsp;rauo tçuyaſu. *Eſperdiçar, ou geſtar mal a* |  |
 | `c1-l014` | &emsp;*fazenda. ¶ Per met.* Coccauo t*ç*uyaſu. |  |
 | `c1-l015` | &emsp;*Desbaratar o Reino, & as caſas.* |  |
 | `c1-l016` | T*ç*uye. *Bordão, ou vara. ¶* T*ç*uyeuo a- |  |
-| `c1-l017` | &emsp;t*ç*uru. *Dar açoutes, ou pancadas cõ vara, &c.* |  |
+| `c1-l017` | &emsp;tçuru. *Dar açoutes, ou pancadas cõ vara, &c.* |  |
 | `c1-l018` | *Tç*uye, uru, eta. *Eſperdiçarſe, ou gaſtarſe* |  |
 | `c1-l019` | &emsp;*mal algũa couſa. Vt,* Tacaraga tçuyuru. |  |
 | `c1-l020` | &emsp;*Eſperdiçarſe a fazẽda. ¶* Faremonoga tçu- |  |
@@ -41,19 +41,19 @@ Lexical reference consulted after independent scan reading: NINJAL, *Entry Words
 | `c1-l023` | &emsp;*cair a parede, ou arruinar a terra. Vt,* Ixi- |  |
 | `c1-l024` | &emsp;caqi. l, Qixiga tçuyeta. *Cahio a pare-* |  |
 | `c1-l025` | &emsp;*de de pedra, ou arruinou a terra, barroca, &c.* |  |
-| `c1-l026` | T*ç*uye. i, Xit*ç*ui. *Gaſtos, ou deſſeſas.* |  |
+| `c1-l026` | Tçuye. i, Xitçui. *Gaſtos, ou deſſeſas.* |  |
 | `c1-l027` | T*ç*uye yari. *Certa lança curta, como bordão,* |  |
 | `c1-l028` | &emsp;*que tẽ o ferro ẽ baixo como de bordão, & o de* |  |
 | `c1-l029` | &emsp;*cima como de lãça curta cuberto cõ hũa bainha.* |  |
 | `c1-l030` | T*ç*ǔyǒ. Itami cayugaru. *O doerſe, & ter co-* |  |
 | `c1-l031` | &emsp;*mechão. S.* |  |
-| `c1-l032` | T*ç*ǔyô. *Communicação, & trato, ou comer-* |  |
-| `c1-l033` | &emsp;*cio. Vt,* Nagaſaqi yori Arimaye t*ç*ǔ- |  |
+| `c1-l032` | Tçǔyô. *Communicação, & trato, ou comer-* |  |
+| `c1-l033` | &emsp;*cio. Vt,* Nagaſaqi yori Arimaye tçǔ- |  |
 | `c1-l034` | &emsp;yô ſuru. *Auer trato, & cõmunicação deſ-* |  |
 | `c1-l035` | &emsp;*de Nagaſaqui a Arima.* |  |
-| `c1-l036` | T*ç*uyoi. *Couſa rija, ou forte.* |  |
+| `c1-l036` | Tçuyoi. *Couſa rija, ou forte.* |  |
 | `c1-l037` | &emsp;T*ç*uyoſa. T*ç*uyô. |  |
-| `c1-l038` | T*ç*uyome, uru, eta. *Fortalecer, ou fazer* |  |
+| `c1-l038` | Tçuyome, uru, eta. *Fortalecer, ou fazer* |  |
 | `c1-l039` | &emsp;*forte. ¶* Fitono cocorouo t*ç*uyomuru. |  |
 | `c1-l040` | &emsp;*Esforçar, ou dar alento a alguem.* |  |
 | `c1-l041` | T*ç*uyomi. *Força, & animo, ou couſa de valẽ* |  |
@@ -75,8 +75,8 @@ Lexical reference consulted after independent scan reading: NINJAL, *Entry Words
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c2-l001` | T*ç*uyoraxi, ſu, ita. *Idem. ¶* Cocoro- |  |
-| `c2-l002` | &emsp;uo t*ç*uyoraſu. *Animar, ou eſforçar.* |  |
-| `c2-l003` | T*ç*uyori. *Fortaleza, ou força. Vt,* T*ç*u- |  |
+| `c2-l002` | &emsp;uo tçuyoraſu. *Animar, ou eſforçar.* |  |
+| `c2-l003` | T*ç*uyori. *Fortaleza, ou força. Vt,* Tçu- |  |
 | `c2-l004` | &emsp;yorini naru. *Fazerſe, ou ficar forte com a* |  |
 | `c2-l005` | &emsp;*ajuda de alguem.* |  |
 | `c2-l006` | T*ç*uyori, ru, otta. *Fortalecerſe, ou ſer forte.* |  |
@@ -89,10 +89,10 @@ Lexical reference consulted after independent scan reading: NINJAL, *Entry Words
 | `c2-l013` | &emsp;*uas. ¶* T*ç*uyuuo voqu. *Ornar as* |  |
 | `c2-l014` | &emsp;*iguarias, ou comer que ſe poem na ne-* |  |
 | `c2-l015` | &emsp;*ſa, ou em algũa caixa com folha de ouro, ou* |  |
-| `c2-l016` | &emsp;*de prata. ¶* T*ç*uyuuo vt*ç*u. *Botar agoa* |  |
+| `c2-l016` | &emsp;*de prata. ¶* Tçuyuuo vt*ç*u. *Botar agoa* |  |
 | `c2-l017` | &emsp;*com a mão, ou cõ ramo por cima dalgũa couſa* |  |
-| `c2-l018` | &emsp;*pera a refreſcar. ¶* T*ç*uyuno inochi. *Vi-* |  |
-| `c2-l019` | &emsp;*da breue q̃ logo ſe acaba como orualho. ¶* Tçu |  |
+| `c2-l018` | &emsp;*pera a refreſcar. ¶* Tçuyuno inochi. *Vi-* |  |
+| `c2-l019` | &emsp;*da breue q̃ logo ſe acaba como orualho. ¶* T*ç*u |  |
 | `c2-l020` | &emsp;yufodomo zonjenu. l. itaſanu. *O não ſaber,* |  |
 | `c2-l021` | &emsp;*ou não fazer nẽ hũ tamanino dalgũa couſa.* |  |
 | `c2-l022` | T*ç*uyu. *Chuuas grãdes, & continuadas q̃ ha em* |  |
@@ -106,21 +106,21 @@ Lexical reference consulted after independent scan reading: NINJAL, *Entry Words
 | `c2-l030` | &emsp;*dem. ¶ Itẽ, permet. Dar principio a algũa* |  |
 | `c2-l031` | &emsp;*couſa como no beberete tomar primeiro o Sa-* |  |
 | `c2-l032` | &emsp;*cazzuqui, &c.* |  |
-| `c2-l033` | Tçǔzu. l, t*ç*ǔji. *Interprete.* |  |
-| `c2-l034` | T*ç*uzzu. *Portos onde ſurgem as embarcações.* |  |
-| `c2-l035` | T*ç*uzzu. *Numero de 10. ¶* T*ç*uzzu fatachi. |  |
-| `c2-l036` | &emsp;l, t*ç*uzzu nijǔ. *Vinte annos de idade.* |  |
-| `c2-l037` | *Tç*uzzumari, u, atta. *Meliùs,* Xijimari, u |  |
+| `c2-l033` | Tçǔzu. l, tçǔji. *Interprete.* |  |
+| `c2-l034` | Tçuzzu. *Portos onde ſurgem as embarcações.* |  |
+| `c2-l035` | Tçuzzu. *Numero de 10. ¶* Tçuzzu fatachi. |  |
+| `c2-l036` | &emsp;l, tçuzzu nijǔ. *Vinte annos de idade.* |  |
+| `c2-l037` | *T*çuzzumari, u, atta. *Meliùs,* Xijimari, u |  |
 | `c2-l038` | &emsp;*Encurtarſe, ou encolherſe.* |  |
 | `c2-l039` | Tçuzzume, uru, eta. *Meliùs,* Xijime, uru. |  |
 | `c2-l040` | &emsp;*Encurtar, ou encolher. ¶* Xotaiuo tçuz- |  |
 | `c2-l041` | &emsp;zumuru. *Diminuir a gente, & os gaſtos* |  |
 | `c2-l042` | &emsp;*da caſa, &c.* |  |
-| `c2-l043` | *Tç*uzzumi. *Tabaquinho, ou tamboril.* |  |
+| `c2-l043` | *T*çuzzumi. *Tabaquinho, ou tamboril.* |  |
 | `c2-l044` | *Tç*uzzumuqi. *Deſafio, peleja, luta, &c. de* |  |
-| `c2-l045` | &emsp;*dous. ¶ Tç*uzzumuqini qiriyǒta. *Fe-* |  |
+| `c2-l045` | &emsp;*dous. ¶ T*çuzzumuqini qiriyǒta. *Fe-* |  |
 | `c2-l046` | &emsp;*rirãoſe dous q̃ entre ſi ſem mais companhia pe-* |  |
-| `c2-l047` | &emsp;*lejarão como em deſafio. ¶ Tç*uzzumuqini |  |
+| `c2-l047` | &emsp;*lejarão como em deſafio. ¶ T*çuzzumuqini |  |
 
 ## Printed catchword
 
