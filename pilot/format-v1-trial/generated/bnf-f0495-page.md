@@ -15,18 +15,18 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c1-l001` | &emsp;ſumǒ toru. *Lutarem dous à porfia.* X. |  |
-| `c1-l002` | *T*çuzzuqe, uru, eta. *Fazer ir continuando,* |  |
-| `c1-l003` | &emsp;*ou continuar algũa couſa. Vt,* Cateuo tçuz- |  |
+| `c1-l002` | *Tç*uzzuqe, uru, eta. *Fazer ir continuando,* |  |
+| `c1-l003` | &emsp;*ou continuar algũa couſa. Vt,* Cateuo t*ç*uz- |  |
 | `c1-l004` | &emsp;zuquru. *Continuar com os mantimentos.* |  |
 | `c1-l005` | *Tç*uzzuqi, u, uita. *Cõtinuarſe, ou ir nas coſ-* |  |
-| `c1-l006` | &emsp;*tasſeguindo. ¶* Q iga tçuzzucanu. *Não* |  |
+| `c1-l006` | &emsp;*tasſeguindo. ¶* Q iga t*ç*uzzucanu. *Não* |  |
 | `c1-l007` | &emsp;*ſe continuar o folego com bradar, &c.* |  |
-| `c1-l008` | *T*çuzzura. *Ceſto, ou canaſtra de vimes, ou rota.* |  |
-| `c1-l009` | *Tç*uzzure, l, tçuzzuri. *Farrapo velho, ou* |  |
+| `c1-l008` | *Tç*uzzura. *Ceſto, ou canaſtra de vimes, ou rota.* |  |
+| `c1-l009` | *Tç*uzzure, l, t*ç*uzzuri. *Farrapo velho, ou* |  |
 | `c1-l010` | &emsp;*veſtido muito remendado.* |  |
-| `c1-l011` | Tçuzzuri, ru, utta. *Remendar, & coſer* |  |
+| `c1-l011` | T*ç*uzzuri, ru, utta. *Remendar, & coſer* |  |
 | `c1-l012` | &emsp;*couſa rota como veſtido, &c. ¶ ,* Cotoba- |  |
-| `c1-l013` | &emsp;uo tçuzzuru. *Compor bem, ou ornar com pa-* |  |
+| `c1-l013` | &emsp;uo t*ç*uzzuru. *Compor bem, ou ornar com pa-* |  |
 | `c1-l014` | &emsp;*lauras poſtas por ordem, ou bem enfiadas.* |  |
 
 ## Column 1 internal heading
@@ -51,7 +51,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l024` | &emsp;*Camis, & Fotoques: particularmente ſe vſa nas* |  |
 | `c1-l025` | &emsp;*couſas de guerra. Vt,* Teuo cudaite tatacǒ. |  |
 | `c1-l026` | &emsp;*Pelejar com força, & rijamente. ¶* Teuo |  |
-| `c1-l027` | &emsp;tçucuſu. *Por as forças em fazer bem algũa* |  |
+| `c1-l027` | &emsp;t*ç*ucuſu. *Por as forças em fazer bem algũa* |  |
 | `c1-l028` | &emsp;*couſa de mãos, ou eſgotar a arte, & liçoes da* |  |
 | `c1-l029` | &emsp;*eſgrima, ou de pintar, &c. ¶ T*euo vxi- |  |
 | `c1-l030` | &emsp;nǒ. *Perder as forças, ou a confiança que ſe* |  |
@@ -92,11 +92,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l003` | &emsp;*¶ T*ega agatta. *Idem. ¶* Teuo toru. |  |
 | `c2-l004` | &emsp;*Apegarſe algũa couſa mal enxuta nas mãos co-* |  |
 | `c2-l005` | &emsp;*mo Vruxi, &c. ¶* Teuo ſuru. *Pedir* |  |
-| `c2-l006` | &emsp;*miſericordia. ¶* Teuo tçuqu. *Por as* |  |
-| `c2-l007` | &emsp;*mãos no chão. ¶* Teuo tçucunuru. *Ren-* |  |
+| `c2-l006` | &emsp;*miſericordia. ¶* Teuo t*ç*uqu. *Por as* |  |
+| `c2-l007` | &emsp;*mãos no chão. ¶* Teuo t*ç*ucunuru. *Ren-* |  |
 | `c2-l008` | &emsp;*derſe, ou pedir miſericordia, ou humilharſe,* |  |
 | `c2-l009` | &emsp;*& liſongear pera auer algũa couſa. ¶* Te- |  |
-| `c2-l010` | &emsp;uo tçucanuru. *Ajuntar as mãos pondo hũa* |  |
+| `c2-l010` | &emsp;uo t*ç*ucanuru. *Ajuntar as mãos pondo hũa* |  |
 | `c2-l011` | &emsp;*ſobre a outra como fazem os Chinas quando ſau* |  |
 | `c2-l012` | &emsp;*dão a alguem. ¶ T*euo comanuqu. *En-* |  |
 | `c2-l013` | &emsp;*cruzar as mãos, ou metelas encontradas nas* |  |
@@ -108,8 +108,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l019` | &emsp;no fito. *Homem deſtro em jugar as armas,* |  |
 | `c2-l020` | &emsp;*atirar com arco, &c. ¶ Item,* Te. *Gẽ-* |  |
 | `c2-l021` | &emsp;*te de guerra. ¶* Tevaqeuo ſuru, l, teuo |  |
-| `c2-l022` | &emsp;vaquru, l, vacatçu. *Repartir gente de* |  |
-| `c2-l023` | &emsp;*guerra. ¶* Nanigaxino teni tçuqu. *Eſ-* |  |
+| `c2-l022` | &emsp;vaquru, l, vacat*ç*u. *Repartir gente de* |  |
+| `c2-l023` | &emsp;*guerra. ¶* Nanigaxino teni t*ç*uqu. *Eſ-* |  |
 | `c2-l024` | &emsp;*tar de baixo da bandeira, ou capitania dalguẽ.* |  |
 | `c2-l025` | &emsp;*¶* Tezzucaiuo ſuru. *Dar algũa ſaida, ou* |  |
 | `c2-l026` | &emsp;*arremetida nos inimigos, ou combate na forta-* |  |

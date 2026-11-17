@@ -42,16 +42,16 @@ Lexical aid: NINJAL, Hideyuki Ohshima and Taichi Aida, Entry Words Data of Nippo
 | `c1-l024` | *T*etba. *Caualo feito de ferro.* |  |
 | `c1-l025` | *T*etbǒ. Curoganeno bǒ. *Bordão, ou baſtão* |  |
 | `c1-l026` | &emsp;*de ferro.* |  |
-| `c1-l027` | *T*etçugui. *Succeßão de hũs a outros, ou paßar* |  |
-| `c1-l028` | &emsp;*de mão em mão. ¶ T*etçugui ſǒtenno |  |
+| `c1-l027` | *T*et*ç*ugui. *Succeßão de hũs a outros, ou paßar* |  |
+| `c1-l028` | &emsp;*de mão em mão. ¶ T*et*ç*ugui ſǒtenno |  |
 | `c1-l029` | &emsp;voxiye. *Doutrina que vem por tradição, ou* |  |
 | `c1-l030` | &emsp;*ſucceßão de huns a outros.* |  |
-| `c1-l031` | *T*etçuzzura. *Ceſto o canaſtra pequena de vi-* |  |
+| `c1-l031` | *T*et*ç*uzzura. *Ceſto o canaſtra pequena de vi-* |  |
 | `c1-l032` | &emsp;*mes, ou certa era.* |  |
 | `c1-l033` | *T*etdai. *Ajuda, ou ajudante. ¶ T*etdai |  |
 | `c1-l034` | &emsp;ſuru. *Dar ajuda a outro, ou ſer ajudante.* |  |
 | `c1-l035` | *T*ete. l, chichi. *Pay.* |  |
-| `c1-l036` | *T*etgiǒ. Curoganeno tçuye. *Bordão de fer-* |  |
+| `c1-l036` | *T*etgiǒ. Curoganeno t*ç*uye. *Bordão de fer-* |  |
 | `c1-l037` | &emsp;*ro, ou baſtão. S.* |  |
 | `c1-l038` | *T*etguio. *Peixe que fica de pois de paßar o car-* |  |
 | `c1-l039` | &emsp;*ro no caminho em algũa pouca dagoa, ou lama.* |  |
@@ -80,8 +80,8 @@ Lexical aid: NINJAL, Hideyuki Ohshima and Taichi Aida, Entry Words Data of Nippo
 | `c2-l003` | *T*etmon. Curoganeno mon. *Porta de ferro.* |  |
 | `c2-l004` | *T*etrin. Curoganeno va. *Roda, ou circulo* |  |
 | `c2-l005` | &emsp;*de ferro.* |  |
-| `c2-l006` | *T*ettai. Canagutçu. *Ferraduras.* |  |
-| `c2-l007` | *T*ettçui. *Martelo de ferro.* |  |
+| `c2-l006` | *T*ettai. Canagut*ç*u. *Ferraduras.* |  |
+| `c2-l007` | *T*ett*ç*ui. *Martelo de ferro.* |  |
 | `c2-l008` | *T*ettei. Soconi touoru. *Penetrar interior-* |  |
 | `c2-l009` | &emsp;*mente. S.* |  |
 | `c2-l010` | *T*ettǒ. *Catana de ferro. S.* |  |
@@ -91,7 +91,7 @@ Lexical aid: NINJAL, Hideyuki Ohshima and Taichi Aida, Entry Words Data of Nippo
 | `c2-l014` | *T*evataxi. *Entrega de algũa couſa preſencial.* |  |
 | `c2-l015` | &emsp;*Vt, T*evataxiuo ſuru. |  |
 | `c2-l016` | *T*euoi, ô, ôta. l, teuo vô. *Ser ferido.* |  |
-| `c2-l017` | &emsp;*¶* Iǒchǔno tçuuamonoua imada ichinin |  |
+| `c2-l017` | &emsp;*¶* Iǒchǔno t*ç*uuamonoua imada ichinin |  |
 | `c2-l018` | &emsp;mo teuo vouazu. *T*aif. *Lib. 16. Nẽ* |  |
 | `c2-l019` | &emsp;*hum ſò foi ferido dos ſoldados q̃ estauão dentro* |  |
 | `c2-l020` | &emsp;*da fortaleza.* |  |

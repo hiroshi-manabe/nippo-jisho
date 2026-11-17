@@ -90,10 +90,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l016` | *T*oſsacanori. *Vide ſuprà,* Toſacanori. |  |
 | `c2-l017` | Tôtçǔ. Xibiruru itami. *Doerſe muito, ou ar-* |  |
 | `c2-l018` | &emsp;*der, & eſcozer com dor.* |  |
-| `c2-l019` | Totçugai, gǒ, ǒta. *Terem copula os animaes,* |  |
+| `c2-l019` | Tot*ç*ugai, gǒ, ǒta. *Terem copula os animaes,* |  |
 | `c2-l020` | &emsp;*ou homẽs.* |  |
-| `c2-l021` | Totçugui, u, uida. *Terẽ copula os animaes.* |  |
-| `c2-l022` | Totçu totçuto. *Adu. Modo de fazer as* |  |
+| `c2-l021` | Tot*ç*ugui, u, uida. *Terẽ copula os animaes.* |  |
+| `c2-l022` | Tot*ç*u tot*ç*uto. *Adu. Modo de fazer as* |  |
 | `c2-l023` | &emsp;*couſas apreßadamẽte, & cõ algũa perturbação.* |  |
 | `c2-l024` | Tote. i, Toyǔte. *Dizendo que. Vt,* Mai- |  |
 | `c2-l025` | &emsp;ru, l, mairǒtote. *Dizendo que iria.* |  |

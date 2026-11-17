@@ -29,7 +29,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l013` | *T*egara. *Obra aſinalada, ou façanha. ¶* Te |  |
 | `c1-l014` | &emsp;garauo ſuru, l, arauaſu. *Fazer façanhas.* |  |
 | `c1-l015` | &emsp;*¶ Item, Obra prima de mãos. Vt,* Tega- |  |
-| `c1-l016` | &emsp;rauo tçucuſu. *Eſmerarſe em fazer algũa* |  |
+| `c1-l016` | &emsp;rauo t*ç*ucuſu. *Eſmerarſe em fazer algũa* |  |
 | `c1-l017` | &emsp;*obra bem feita.* |  |
 | `c1-l018` | *T*egaraxa. *Homẽ que faz façanhas na guerra.* |  |
 | `c1-l019` | Tegaraxi. *Destro na arte de eſgrima, ou em* |  |

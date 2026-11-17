@@ -18,10 +18,10 @@ Lexical aid: [NINJAL, Entry Words Data of Nippojisho, version 202510](https://ww
 | --- | --- | --- |
 | `c1-l001` | Teifat. Cami ſoru. *O rapar a cabeça.* |  |
 | `c1-l002` | Teifei. *Soldado forte, & robuſto.* |  |
-| `c1-l003` | *T*eiguet. i, Tçumogori. *O derradeiro dia* |  |
+| `c1-l003` | *T*eiguet. i, T*ç*umogori. *O derradeiro dia* |  |
 | `c1-l004` | &emsp;*do mes.* |  |
 | `c1-l005` | *T*eiguiô. *Couſas, que o Reyfaz, ou ordena.* |  |
-| `c1-l006` | *T*eigi. Fiſſague motçu. *Ter algũa couſa de-* |  |
+| `c1-l006` | *T*eigi. Fiſſague mot*ç*u. *Ter algũa couſa de-* |  |
 | `c1-l007` | &emsp;*pendurada na mão. S.* |  |
 | `c1-l008` | Teigio. Tadaxij vonna. *Boa, & caſta molher.* |  |
 | `c1-l009` | Teigiǔ. *Reuerencia, & agaſalhado. Vt,* |  |
@@ -31,7 +31,7 @@ Lexical aid: [NINJAL, Entry Words Data of Nippojisho, version 202510](https://ww
 | `c1-l013` | &emsp;Teijenno fana. *Roſas, ou fulas da Niua.* |  |
 | `c1-l014` | Teijit. *Verdade certa, & determinada. S.* |  |
 | `c1-l015` | Teinei. *Grãde agaſalhado, & amor. ¶* Tei- |  |
-| `c1-l016` | &emsp;neiuo tçucuſu. *Fazer grande agaſalhado.* |  |
+| `c1-l016` | &emsp;neiuo t*ç*ucuſu. *Fazer grande agaſalhado.* |  |
 | `c1-l017` | Teineini. *Adu. Amigauelmente, ou amo-* |  |
 | `c1-l018` | &emsp;*roſamente, com muito agaſalhado, &c.* |  |
 | `c1-l019` | Teineiſa. *Amor, & agaſalhado.* |  |
@@ -94,7 +94,7 @@ Lexical aid: [NINJAL, Entry Words Data of Nippojisho, version 202510](https://ww
 | `c2-l018` | &emsp;*balhar.* |  |
 | `c2-l019` | Temareô. l, Temariô. *Idem.* |  |
 | `c2-l020` | Temari. *Pela que ſe joga com a mão. ¶* Te- |  |
-| `c2-l021` | &emsp;mariuo tçuqu. *Iugar à pela com a mão.* |  |
+| `c2-l021` | &emsp;mariuo t*ç*uqu. *Iugar à pela com a mão.* |  |
 | `c2-l022` | *T*emariqua. *Hũa roſa, ou fula branca.* |  |
 | `c2-l023` | *T*emaſari. l, temaſarina. i, *T*emaxi. *Vide* |  |
 | `c2-l024` | &emsp;*infrà.* |  |

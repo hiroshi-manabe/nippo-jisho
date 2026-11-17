@@ -28,7 +28,7 @@ Lexical coverage was checked after independent scan reading against Entry Words 
 | `c1-l010` | &emsp;mauaſu. *Cercar com muita gente, ou com* |  |
 | `c1-l011` | &emsp;*muitas rodas degente.* |  |
 | `c1-l012` | Tǒyô. *Neceßidade preſente. ¶* Tǒyôni |  |
-| `c1-l013` | &emsp;tatçu. *Preſtar, ou ſeruir em algũa nece-* |  |
+| `c1-l013` | &emsp;tat*ç*u. *Preſtar, ou ſeruir em algũa nece-* |  |
 | `c1-l014` | &emsp;*ßidade preſente.* |  |
 | `c1-l015` | Toyoxe. *Pao que ſe prèga ao comprido na om* |  |
 | `c1-l016` | &emsp;*breira da porta pera q̃ entre a porta, & a ombrei* |  |
@@ -123,7 +123,7 @@ Lexical coverage was checked after independent scan reading against Entry Words 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c2-l020` | VA. *Particula de que ſe vſa desta maneira.* |  |
-| `c2-l021` | &emsp;*¶* Nuſumiua tçucamatçuranu. *Quã-* |  |
+| `c2-l021` | &emsp;*¶* Nuſumiua t*ç*ucamat*ç*uranu. *Quã-* |  |
 | `c2-l022` | &emsp;*to he furtar não o faço. ¶* Yomiua yome |  |
 | `c2-l023` | &emsp;domo, gatten xenu. *Quanto a ler leo, por* |  |
 | `c2-l024` | &emsp;*em não entendo. Iunta tambẽ esta particula aos* |  |

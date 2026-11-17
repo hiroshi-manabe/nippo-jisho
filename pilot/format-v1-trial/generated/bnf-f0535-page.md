@@ -75,7 +75,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l001` | Vcogui. *Aruore aßi chamada, cuia raiz ſer-* |  |
 | `c2-l002` | &emsp;*ue de mezinha, & as folhas de Ayemono, &* |  |
 | `c2-l003` | &emsp;*o pao ſerue pera fazer vinho cozido com elle.* |  |
-| `c2-l004` | Vcqi. l, qiut. i, Qino tçumaru coto. *Aba-* |  |
+| `c2-l004` | Vcqi. l, qiut. i, Qino t*ç*umaru coto. *Aba-* |  |
 | `c2-l005` | &emsp;*famento, ou a perto do coração. ¶* Vcqi- |  |
 | `c2-l006` | &emsp;uoſanzuru. l, faraſu. *Deſabafar o coração.* |  |
 | `c2-l007` | Vde. *Braços. ¶* Vdeno foneuo miſuru. |  |
@@ -88,7 +88,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l014` | &emsp;*que vão ardendo por cima da carne.* |  |
 | `c2-l015` | Vdenuqi. *Hũ cordão que tẽ a eſpada, ou Catana* |  |
 | `c2-l016` | &emsp;*nos punhos q̃ ſe mete no braço pera lhenão cair.* |  |
-| `c2-l017` | Vdeſaqi. *Mãos. ¶* Vdeſaqiga tçuyoi, |  |
+| `c2-l017` | Vdeſaqi. *Mãos. ¶* Vdeſaqiga t*ç*uyoi, |  |
 | `c2-l018` | &emsp;l, youai fito. *Homẽ forte, ou fraco das mãos.* |  |
 | `c2-l019` | Vdevaza. *Obra do braço. Vt,* Vdevazauo |  |
 | `c2-l020` | &emsp;ſuru fito. *Homem que faz façanhas, ou a-* |  |
@@ -117,7 +117,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l043` | Vfu. *Certa dignidade. Vt,* Vfu, Safu. i, |  |
 | `c2-l044` | &emsp;Vdaijin, Sadaijin. *Dignidades que tem ſeu* |  |
 | `c2-l045` | &emsp;*lugar à mão direita, & eſquerda do* Dairi*.* |  |
-| `c2-l046` | Vgachi, tçu, atta. *Abrir, ou eſcaruar como* |  |
+| `c2-l046` | Vgachi, t*ç*u, atta. *Abrir, ou eſcaruar como* |  |
 | `c2-l047` | &emsp;*agoa que choa, & caua a terra. ¶* Fanauo |  |
 
 ## Printed page number

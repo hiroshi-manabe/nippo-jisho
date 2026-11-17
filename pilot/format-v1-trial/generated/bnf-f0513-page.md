@@ -50,10 +50,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l034` | Tonoimono. *Vestido de que vſão eſtas vigias* |  |
 | `c1-l035` | &emsp;*de noite em lugar de cama, ou cobertor, & q̃* |  |
 | `c1-l036` | &emsp;*fazem leuar ao lugar da vigia.* |  |
-| `c1-l037` | *T*ǒno tçuchi. *Aluayade.* |  |
+| `c1-l037` | *T*ǒno t*ç*uchi. *Aluayade.* |  |
 | `c1-l038` | *T*onozzucuri. *O edificar caſas principaes,* |  |
 | `c1-l039` | &emsp;*ou paços.* |  |
-| `c1-l040` | Tonpi. *Vt,* Tonpiuo vtçuſazu. *Depreßa,* |  |
+| `c1-l040` | Tonpi. *Vt,* Tonpiuo vt*ç*uſazu. *Depreßa,* |  |
 | `c1-l041` | &emsp;*ſem tardança.* |  |
 | `c1-l042` | Tonqi. Fayaqi qi. *Viueza, ou animo eſper-* |  |
 | `c1-l043` | &emsp;*to, & habil. ¶* Tonqina fito. *Homẽ* |  |
@@ -76,7 +76,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l002` | &emsp;*teza, & ligeiramente.* |  |
 | `c2-l003` | *T*onſocuna. *Idem.* |  |
 | `c2-l004` | *T*onſocuni. *Adu.* |  |
-| `c2-l005` | *T*onxa. Niuacani vtçuſu. *Tresladar de* |  |
+| `c2-l005` | *T*onxa. Niuacani vt*ç*uſu. *Tresladar de* |  |
 | `c2-l006` | &emsp;*preſſa o Foquequiǒ repartindo as folhas por* |  |
 | `c2-l007` | &emsp;*muitos eſcriuaẽs fazẽ iſto por algũ defuncto* |  |
 | `c2-l008` | &emsp;*nas exequias, ou enterramento, &c.* |  |

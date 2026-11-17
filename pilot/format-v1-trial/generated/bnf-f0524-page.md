@@ -28,8 +28,8 @@ Lexical identifications were checked after independent scan reading against Entr
 | `c1-l010` | &emsp;*trechos, & cobitos, ou pobres paredes, &c.* |  |
 | `c1-l011` | Vaca. *Verſos, ou cantigas de Iapão.* |  |
 | `c1-l012` | Vacaba. *Folhas nouas de aruores, & eruas.* |  |
-| `c1-l013` | Vacachi, tçu, atta. *Diuidir, ou diſcernir.* |  |
-| `c1-l014` | &emsp;*¶* Iefiuo vacatçu. *Diſcernir o bem, & o* |  |
+| `c1-l013` | Vacachi, t*ç*u, atta. *Diuidir, ou diſcernir.* |  |
+| `c1-l014` | &emsp;*¶* Iefiuo vacat*ç*u. *Diſcernir o bem, & o* |  |
 | `c1-l015` | &emsp;*mal. ¶ Item, Repartir, ou fazer differẽ-* |  |
 | `c1-l016` | &emsp;*ça. Vt,* Xiſuru cotoua qixen, jǒgue, fin- |  |
 | `c1-l017` | &emsp;pucuuo vacatazu. *A morte não faz dif-* |  |
@@ -83,13 +83,13 @@ Lexical identifications were checked after independent scan reading against Entr
 | `c2-l006` | &emsp;*ja groſsas ſe chamão,* Faſu. |  |
 | `c2-l007` | Vacaqi. *Aruore noua.* |  |
 | `c2-l008` | Vacare, ruru, eta. *Apartarſe, ou diuidirſe.* |  |
-| `c2-l009` | &emsp;*¶* Voya, tçuma, co nadoni vacaruru. |  |
+| `c2-l009` | &emsp;*¶* Voya, t*ç*uma, co nadoni vacaruru. |  |
 | `c2-l010` | &emsp;*Apartarſe dos pais, molheres, filhos, &c.* |  |
 | `c2-l011` | Vacare. *Apartamento.* |  |
 | `c2-l012` | Vacari, u, atta. *Diuidirſe, ou apartarſe. Vt,* |  |
 | `c2-l013` | &emsp;Tôzaini vacaru. *Diuidirſe, & apartarſe* |  |
 | `c2-l014` | &emsp;*pera a parte do Oriẽte, & Poente. ¶* Ecleſiano |  |
-| `c2-l015` | &emsp;Sacramentos ua nanatçuni vacaru. *Os Sa-* |  |
+| `c2-l015` | &emsp;Sacramentos ua nanat*ç*uni vacaru. *Os Sa-* |  |
 | `c2-l016` | &emsp;*cramentos da Igreja ſe diuidem em ſete. ¶* Ri- |  |
 | `c2-l017` | &emsp;ga vacaru, l, vacaranu. *Perceberſe, ou en-* |  |
 | `c2-l018` | &emsp;*tenderſe bem algũa couſa, ou não ſe entender,* |  |

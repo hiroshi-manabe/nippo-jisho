@@ -31,12 +31,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l015` | &emsp;*cebe do ceo.* |  |
 | `c1-l016` | Tenno cô. *Costas da mão.* |  |
 | `c1-l017` | Teno fura. l, *potiùs,* Teno vra. *Palma da mão.* |  |
-| `c1-l018` | *T*eno giǒ. *Vt,* Teno giǒuo tçucuſu. *Fa* |  |
+| `c1-l018` | *T*eno giǒ. *Vt,* Teno giǒuo t*ç*ucuſu. *Fa* |  |
 | `c1-l019` | &emsp;*zer algũa couſa cõ todas as forças, & exacção.* |  |
 | `c1-l020` | Tenogoi. *Toalha de alimpar as mãos, ou o rosto.* |  |
 | `c1-l021` | Teno muxi. *Oução. Poſto que não he palaura* |  |
 | `c1-l022` | &emsp;*corrente. Mais propriamente ſe diz,* Muxi, |  |
-| `c1-l023` | &emsp;l, tçubomuxi. *Vide ſuprà.* |  |
+| `c1-l023` | &emsp;l, t*ç*ubomuxi. *Vide ſuprà.* |  |
 | `c1-l024` | Teno vra. *Palma da mão. ¶* Teno vra- |  |
 | `c1-l025` | &emsp;uo cayeſu. *Virar a mão. ¶* Teno vra- |  |
 | `c1-l026` | &emsp;uo cayeſuga gotoqu cauaru fitogia. *He* |  |
@@ -75,7 +75,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l001` | &emsp;*maneira do tempo como quandoſe diz, faz bõ* |  |
 | `c2-l002` | &emsp;*tempo, ou ruim. ¶* Tenqiga nodoyaca- |  |
 | `c2-l003` | &emsp;na. *Estar o tempo ſereno.* |  |
-| `c2-l004` | *T*enqua. Matoi tçutçumu. *O emburulharſe,* |  |
+| `c2-l004` | *T*enqua. Matoi t*ç*ut*ç*umu. *O emburulharſe,* |  |
 | `c2-l005` | &emsp;*ou encobrirſe como faz o bicho de ſeda meten-* |  |
 | `c2-l006` | &emsp;*doſe dentro do folhelho.* |  |
 | `c2-l007` | Tenqua. Tenno fi. *Fogo do ceo. ¶ T*en- |  |
@@ -106,10 +106,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l032` | &emsp;*bre os telhados, ou noutra parte pera receber* |  |
 | `c2-l033` | &emsp;*agoa da chuua pera contra o fogo. Vt, T*en- |  |
 | `c2-l034` | &emsp;ſuiuo voqu. *Por eſta tina.* |  |
-| `c2-l035` | *T*entacu. i, *T*enno gotçugue. *Reuelação* |  |
+| `c2-l035` | *T*entacu. i, *T*enno got*ç*ugue. *Reuelação* |  |
 | `c2-l036` | &emsp;*do ceo, ou de Deos. ¶ Item, Influencias* |  |
 | `c2-l037` | &emsp;*do ceo, ou beneficios, & merces que Deos faz.* |  |
-| `c2-l038` | *T*entçǔ. i, *T*enni tçǔzuru. *Communicarſe* |  |
+| `c2-l038` | *T*ent*ç*ǔ. i, *T*enni t*ç*ǔzuru. *Communicarſe* |  |
 | `c2-l039` | &emsp;*com o ceo, ou chegar tè o ceo. S.* |  |
 | `c2-l040` | *T*entei. *T*ẽno micado. *Rey. ¶ Itẽ, Deos.* |  |
 | `c2-l041` | *T*enteqi. *Inimigo de Deos, ou do ceo.* |  |

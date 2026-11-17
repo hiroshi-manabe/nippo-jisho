@@ -18,18 +18,18 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l002` | &emsp;*Ià hà pedaço que ſahio com preßa.* |  |
 | `c1-l003` | Tô. *Particula, que ſe ajunta no cabo de outras* |  |
 | `c1-l004` | &emsp;*palauras, como quẽ diz, &c. Eo de mais, ou* |  |
-| `c1-l005` | &emsp;*outras couſas. Vt,* Goyôtô vôxe tçuqe- |  |
+| `c1-l005` | &emsp;*outras couſas. Vt,* Goyôtô vôxe t*ç*uqe- |  |
 | `c1-l006` | &emsp;rarei. *Mandaime, que farei tudo o que vos* |  |
 | `c1-l007` | &emsp;*comprir, & o de mais.* |  |
 | `c1-l008` | Tô. *Rota, ou canas de Bengala. ¶* Tô- |  |
-| `c1-l009` | &emsp;no tçuye. *Bordão de cana de Bengala.* |  |
+| `c1-l009` | &emsp;no t*ç*uye. *Bordão de cana de Bengala.* |  |
 | `c1-l010` | Tô. i, Atama. *Cabeça. mas não ſe vſa ſẽ al-* |  |
 | `c1-l011` | &emsp;*gũa compoſição. Vt,* Gitô, *&c. ¶ Itẽ,* |  |
 | `c1-l012` | &emsp;*Codea da buſtella, ou ſarna.* |  |
 | `c1-l013` | Tǒ. *Hũa piramide alta, ou torre de madeira.* |  |
 | `c1-l014` | Tǒ. *Aue aßi chamada de cor vermelha.* |  |
 | `c1-l015` | Tǒ. *Grelo dalface, moſtarda, &c. Vt,* Tǒ- |  |
-| `c1-l016` | &emsp;ga tatçu. *Crecer o grelo, ou gomo das eruas.* |  |
+| `c1-l016` | &emsp;ga tat*ç*u. *Crecer o grelo, ou gomo das eruas.* |  |
 | `c1-l017` | &emsp;*¶* Qirino tǒ. *Gomo, ou flor deſta aruo-* |  |
 | `c1-l018` | &emsp;*re Qiri.* |  |
 | `c1-l019` | To. *Conjunção copulatiua: &, ou com.* |  |
@@ -51,9 +51,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l035` | Tobari. *O porſe atraueſado na porta pera não* |  |
 | `c1-l036` | &emsp;*deixar paßar a alguem. Vt,* Tobariuo ſuru. |  |
 | `c1-l037` | Tǒbat. *Vide,* Tǒbachi. |  |
-| `c1-l038` | Tobatçuqi, qu, ita. l, Tofatçuqu. *Ser,* |  |
+| `c1-l038` | Tobat*ç*uqi, qu, ita. l, Tofat*ç*uqu. *Ser,* |  |
 | `c1-l039` | &emsp;*ou andarinquieto, ou com eſtrondo, & traqui-* |  |
-| `c1-l040` | &emsp;*nada. ¶* Tobatçuqu. *l*, Tobatçuita mo- |  |
+| `c1-l040` | &emsp;*nada. ¶* Tobat*ç*uqu. *l*, Tobat*ç*uita mo- |  |
 | `c1-l041` | &emsp;no. *Homem deſaſoſegado, ou atabalhoado* |  |
 | `c1-l042` | &emsp;*em fazer as couſas.* |  |
 | `c1-l043` | Tobera. *Aruore aßi chamada.* |  |
@@ -117,7 +117,7 @@ The right running header prints ATES without N; this source anomaly is retained.
 | `c2-l041` | Tobiſagari, ru, atta. *Decer voando.* |  |
 | `c2-l042` | Tobiſari, ru, atta. *Aleuantarſe o paſſaro,* |  |
 | `c2-l043` | &emsp;*ou acolherſe voando.* |  |
-| `c2-l044` | Tobitachi, tçu, atta. *Aleuantarſe voando.* |  |
+| `c2-l044` | Tobitachi, t*ç*u, atta. *Aleuantarſe voando.* |  |
 | `c2-l045` | &emsp;*¶ Per met.* Cocoro tobitatçu. *Alegrar-* |  |
 | `c2-l046` | &emsp;*ſe muito, ou ſaltar de prazer.* |  |
 | `c2-l047` | Tobivatari, ru,atta. *Voando paßar a algũ lugar.* |  |

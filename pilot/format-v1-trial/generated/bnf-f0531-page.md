@@ -59,7 +59,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l043` | Vchi. *Dentro, ou em quanto. Vt,* Iyeno |  |
 | `c1-l044` | &emsp;vchi. *Dentro da caſa. ¶* Mairanu vchi |  |
 | `c1-l045` | &emsp;ni. *Em quanto não vou.* |  |
-| `c1-l046` | Vchi. *Eſterco de falcões. ¶* Vchiuo tçu. |  |
+| `c1-l046` | Vchi. *Eſterco de falcões. ¶* Vchiuo t*ç*u. |  |
 | `c1-l047` | &emsp;qu. *Botarem os falcões o eſterco, ou excre-* |  |
 | `c1-l048` | &emsp;*mentos.* |  |
 
@@ -73,36 +73,36 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | Vchi, vtçu, vtta. *Bater, ou dar pancadas.* |  |
-| `c2-l002` | &emsp;*¶* Cauouo vtçu. *Dar bofetadas. ¶* Te- |  |
-| `c2-l003` | &emsp;qiuo vtçu. *Dar nos inimigos matandoos.* |  |
-| `c2-l004` | &emsp;*¶* Tçuzzumiuo vtçu. *Tanger hum certo* |  |
-| `c2-l005` | &emsp;*tabaquinho. ¶* Bacuchiuo vtçu. *Iugar* |  |
-| `c2-l006` | &emsp;*os dados. ¶* Caneuo vtçu. *Iurar cer-* |  |
+| `c2-l001` | Vchi, vt*ç*u, vtta. *Bater, ou dar pancadas.* |  |
+| `c2-l002` | &emsp;*¶* Cauouo vt*ç*u. *Dar bofetadas. ¶* Te- |  |
+| `c2-l003` | &emsp;qiuo vt*ç*u. *Dar nos inimigos matandoos.* |  |
+| `c2-l004` | &emsp;*¶* T*ç*uzzumiuo vt*ç*u. *Tanger hum certo* |  |
+| `c2-l005` | &emsp;*tabaquinho. ¶* Bacuchiuo vt*ç*u. *Iugar* |  |
+| `c2-l006` | &emsp;*os dados. ¶* Caneuo vt*ç*u. *Iurar cer-* |  |
 | `c2-l007` | &emsp;*to juramento batendo com hum ferro noutro.* |  |
-| `c2-l008` | &emsp;*¶* Gouo vtçu. *Iugar hum certo jogo de* |  |
-| `c2-l009` | &emsp;*muitas pedrinhas. ¶* Fitouo vtçu. *Eſpã-* |  |
+| `c2-l008` | &emsp;*¶* Gouo vt*ç*u. *Iugar hum certo jogo de* |  |
+| `c2-l009` | &emsp;*muitas pedrinhas. ¶* Fitouo vt*ç*u. *Eſpã-* |  |
 | `c2-l010` | &emsp;*car, ou matar a alguem. ¶* Mizzuuo v- |  |
-| `c2-l011` | &emsp;tçu. i, Soſoqu. *Botar agoa com a mão, ou* |  |
+| `c2-l011` | &emsp;t*ç*u. i, Soſoqu. *Botar agoa com a mão, ou* |  |
 | `c2-l012` | &emsp;*agoar. ¶ Item, Fazer certas obras de* |  |
-| `c2-l013` | &emsp;*mãos. Vt,* Vmano curauo vtçu. *Fazer* |  |
-| `c2-l014` | &emsp;*ſela de caualo. ¶* Yumiuo vtçu. *Fazer* |  |
+| `c2-l013` | &emsp;*mãos. Vt,* Vmano curauo vt*ç*u. *Fazer* |  |
+| `c2-l014` | &emsp;*ſela de caualo. ¶* Yumiuo vt*ç*u. *Fazer* |  |
 | `c2-l015` | &emsp;*arcos de atirar. ¶* Yumi vchi. *Official* |  |
-| `c2-l016` | &emsp;*de arcos. ¶* Muxirouo vtçu. *Fazer* |  |
-| `c2-l017` | &emsp;*esteiras, &c. ¶* Vouo vtçu. *Fazer* |  |
+| `c2-l016` | &emsp;*de arcos. ¶* Muxirouo vt*ç*u. *Fazer* |  |
+| `c2-l017` | &emsp;*esteiras, &c. ¶* Vouo vt*ç*u. *Fazer* |  |
 | `c2-l018` | &emsp;*cordões, ou trança, &c. ¶* Catanauo v- |  |
-| `c2-l019` | &emsp;tçu. *Fazer eſpadas. ¶* Tauo vtçu. *La* |  |
+| `c2-l019` | &emsp;t*ç*u. *Fazer eſpadas. ¶* Tauo vt*ç*u. *La* |  |
 | `c2-l020` | &emsp;*urar, ou cauar as varzeas. ¶* Qirimu- |  |
-| `c2-l021` | &emsp;guiuo vtçu. *Fazer a letria de trigo.* |  |
-| `c2-l022` | &emsp;*¶* Fiuo vtçu. *Ferir fogo. ¶* Tori- |  |
-| `c2-l023` | &emsp;uo vtçu. *Tomar com rede marrecas que ſe* |  |
+| `c2-l021` | &emsp;guiuo vt*ç*u. *Fazer a letria de trigo.* |  |
+| `c2-l022` | &emsp;*¶* Fiuo vt*ç*u. *Ferir fogo. ¶* Tori- |  |
+| `c2-l023` | &emsp;uo vt*ç*u. *Tomar com rede marrecas que ſe* |  |
 | `c2-l024` | &emsp;*leuantão do chão, & vão voando. ¶* Tori- |  |
 | `c2-l025` | &emsp;vchi. *Lugar onde tomão eſtas marrecas com* |  |
 | `c2-l026` | &emsp;*rede que ſe lhes lança em cima. ¶* Fatouo |  |
-| `c2-l027` | &emsp;vtçu. *Tomar pombas com rede de tombo.* |  |
+| `c2-l027` | &emsp;vt*ç*u. *Tomar pombas com rede de tombo.* |  |
 | `c2-l028` | &emsp;*¶* Vchiami. *Rede de tombo de tomar paſ* |  |
 | `c2-l029` | &emsp;*ſaros, ou rede como tarrafa pera tomar peixe.* |  |
-| `c2-l030` | &emsp;*¶* Tçuruuo vtçu. *Tocar na corda do arco* |  |
+| `c2-l030` | &emsp;*¶* Tçuruuo vt*ç*u. *Tocar na corda do arco* |  |
 | `c2-l031` | &emsp;*puxando por ella pera ver ſe ſoa bem. Item,* |  |
 | `c2-l032` | &emsp;*per met. Ver, & palpar algũa couſa que hum* |  |
 | `c2-l033` | &emsp;*quer ſaber, &c. ¶ Este verbo ſe ajunta, & cõ-* |  |
@@ -110,7 +110,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l035` | &emsp;*mais força, & enfaſi: & outras no mais que* |  |
 | `c2-l036` | &emsp;*elegancia, como ſe verà a baixo.* |  |
 | `c2-l037` | Vchiague, uru, eta. *Lançar pera cima. Vt,* |  |
-| `c2-l038` | &emsp;Tçubuteuo vchiaguru. *Tirar alto às pe-* |  |
+| `c2-l038` | &emsp;T*ç*ubuteuo vchiaguru. *Tirar alto às pe-* |  |
 | `c2-l039` | &emsp;*dradas. ¶ Item, Dar a embarcação à costa.* |  |
 | `c2-l040` | &emsp;*Vt,* Funeuo vchiagueta. *Varou a Fune.i,* |  |
 | `c2-l041` | &emsp;*as ondas derão com a Fune à costa. ¶* Co- |  |

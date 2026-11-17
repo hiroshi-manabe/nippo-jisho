@@ -44,7 +44,7 @@ Lexical checks used Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and
 | `c1-l026` | *T*ǒxet. Catanade coroſu. *O matar cõ Catana.* |  |
 | `c1-l027` | *T*ǒxi. *T*atacai xiſuru. *O Morrer pelejando,* |  |
 | `c1-l028` | &emsp;*ou à eſpada.* |  |
-| `c1-l029` | *T*oxi. *Anno. Vt, T*oxiga tçumoru. *En-* |  |
+| `c1-l029` | *T*oxi. *Anno. Vt, T*oxiga t*ç*umoru. *En-* |  |
 | `c1-l030` | &emsp;*uelhecer. ¶ T*oxiga taquru. *Ir* |  |
 | `c1-l031` | &emsp;*crecendo na idade. ¶ T*oxiga yuqu. *En-* |  |
 | `c1-l032` | &emsp;*uelhecer. ¶ T*oxiuo coyuru. l, toru. |  |

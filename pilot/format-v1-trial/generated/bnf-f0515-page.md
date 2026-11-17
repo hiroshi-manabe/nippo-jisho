@@ -80,8 +80,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l006` | &emsp;*¶ Per met.* Saqeni cocoroga toraquru. |  |
 | `c2-l007` | &emsp;*Abrandarſe, & mouerſe de todo pera algũa* |  |
 | `c2-l008` | &emsp;*couſa o coração do homem com vinho.* |  |
-| `c2-l009` | Toratçuqigue. *Cor de caualo malhado como ti-* |  |
-| `c2-l010` | &emsp;*gre. Vt,* Toratçuqigueno vma. |  |
+| `c2-l009` | Torat*ç*uqigue. *Cor de caualo malhado como ti-* |  |
+| `c2-l010` | &emsp;*gre. Vt,* Torat*ç*uqigueno vma. |  |
 | `c2-l011` | Torauare, ruru, eta. *Ser preſo, ou catiuo* |  |
 | `c2-l012` | &emsp;*na guerra, &c.* |  |
 | `c2-l013` | Torauarebito. *Catiuo, ou tomado dos inimigos.* |  |

@@ -30,7 +30,7 @@ Lexical coverage was checked after independent scan reading against Entry Words 
 | `c1-l012` | Tǒgura. *Enxada da China, que tem o cabo me-* |  |
 | `c1-l013` | &emsp;*tido pollo meyo do ferro.* |  |
 | `c1-l014` | Tôgua. *Abobora, ou combalenga.* |  |
-| `c1-l015` | Tǒguat. Ataru tçuqi. *Eſte mes, ou eſta lũa.* |  |
+| `c1-l015` | Tǒguat. Ataru t*ç*uqi. *Eſte mes, ou eſta lũa.* |  |
 | `c1-l016` | Tǒgi. i, Yuni iru. *Tomar os banhos, ou en* |  |
 | `c1-l017` | &emsp;*trar nas caldas por algũa doença.* |  |
 | `c1-l018` | Togi, zzuru, ita. *Tapar, ou fechar. Vt,* |  |
@@ -61,7 +61,7 @@ Lexical coverage was checked after independent scan reading against Entry Words 
 | `c1-l043` | Tǒgin. Ataru gin. *Eſte arrayal, ou exercito.* |  |
 | `c1-l044` | Tôgiǒ. Tatacǒ niua. *Campo, ou terreiro da* |  |
 | `c1-l045` | &emsp;*batalha, ou briga.* |  |
-| `c1-l046` | Tǒgiǒ. Catana, tçuye. *Eſpada, & pao, ou* |  |
+| `c1-l046` | Tǒgiǒ. Catana, t*ç*uye. *Eſpada, & pao, ou* |  |
 | `c1-l047` | &emsp;*bordão. ¶* Qiǔxen tǒgioni tazzuſana- |  |
 
 ## Column 2 running header
@@ -76,9 +76,9 @@ Lexical coverage was checked after independent scan reading against Entry Words 
 | --- | --- | --- |
 | `c2-l001` | &emsp;ru. *Andar occupado em guerras, ou com* |  |
 | `c2-l002` | &emsp;*amão nas armas.* |  |
-| `c2-l003` | Togitçuqe, ru, eta. *Ajuntar coſendo, ou pe-* |  |
+| `c2-l003` | Togit*ç*uqe, ru, eta. *Ajuntar coſendo, ou pe-* |  |
 | `c2-l004` | &emsp;*gondo hũa couſa com outra.* |  |
-| `c2-l005` | Togitçuqi, u, uita. *Eſtar hũa couſa aßi jũ-* |  |
+| `c2-l005` | Togit*ç*uqi, u, uita. *Eſtar hũa couſa aßi jũ-* |  |
 | `c2-l006` | &emsp;*ta, ou pegada.* |  |
 | `c2-l007` | Tǒgiǔ. i, Tǒgiǔgi. *Superior dagora, ou de* |  |
 | `c2-l008` | &emsp;*preſente.* |  |
@@ -97,11 +97,11 @@ Lexical coverage was checked after independent scan reading against Entry Words 
 | `c2-l021` | *T*oicotaye, uru, eta. *Pergũtar, & reſpõder.* |  |
 | `c2-l022` | Tǒin. Taitǒno coye. *Voz, ou ſonjonete* |  |
 | `c2-l023` | &emsp;*pro prio da Chinu.* |  |
-| `c2-l024` | *T*oiqi. *Suſpiros. ¶ T*oiqiuo tçuqu. *Dar* |  |
+| `c2-l024` | *T*oiqi. *Suſpiros. ¶ T*oiqiuo t*ç*uqu. *Dar* |  |
 | `c2-l025` | &emsp;*ſuſpiros.* |  |
 | `c2-l026` | *T*oitomurai, ǒ, ǒta. *Viſitar a alguem, ou* |  |
 | `c2-l027` | &emsp;*mãdalo viſitar por doẽte, ou por outro reſpeito.* |  |
-| `c2-l028` | Tojacu. i, Caqitçubata. *Lirio.* |  |
+| `c2-l028` | Tojacu. i, Caqit*ç*ubata. *Lirio.* |  |
 | `c2-l029` | Tôjacu. l, tôxacu. *Pardaes que eſtão pele-* |  |
 | `c2-l030` | &emsp;*jando, & picandoſe hum a outro. ¶* Tôja- |  |
 | `c2-l031` | &emsp;cu fitoni vogizu. *Os pardaes que eſtão pele-* |  |

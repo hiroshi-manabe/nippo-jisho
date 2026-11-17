@@ -16,13 +16,13 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c1-l001` | Vmareqi, uru, ita. *Nacendo vir a este* |  |
 | `c1-l002` | &emsp;*mundo.* |  |
-| `c1-l003` | Vmaretçuqi, qu, ita. *Nacer, ou ter algũa* |  |
-| `c1-l004` | &emsp;*couſa natural. ¶* Vmaretçuita catagui- |  |
+| `c1-l003` | Vmaret*ç*uqi, qu, ita. *Nacer, ou ter algũa* |  |
+| `c1-l004` | &emsp;*couſa natural. ¶* Vmaret*ç*uita catagui- |  |
 | `c1-l005` | &emsp;gia. *He cuſtume natural, ou com que naceo.* |  |
-| `c1-l006` | &emsp;*¶* Donni. l, riconni vmaretçuqu. *Na-* |  |
+| `c1-l006` | &emsp;*¶* Donni. l, riconni vmaret*ç*uqu. *Na-* |  |
 | `c1-l007` | &emsp;*cer naturalmente paruo, ou diſcreto.* |  |
-| `c1-l008` | Vmaretçuqi. *Natureza, ou natural. ¶* V- |  |
-| `c1-l009` | &emsp;maretçuqino yoi. l, varui fito. *Homem* |  |
+| `c1-l008` | Vmaret*ç*uqi. *Natureza, ou natural. ¶* V- |  |
+| `c1-l009` | &emsp;maret*ç*uqino yoi. l, varui fito. *Homem* |  |
 | `c1-l010` | &emsp;*de bom, ou ruim natural.* |  |
 | `c1-l011` | Vmarevochi, uru, ita. *Nacer: palaura com* |  |
 | `c1-l012` | &emsp;*que declarão o tempo, em que hum nace logo* |  |
@@ -77,7 +77,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l003` | &emsp;ni mizzuuo vmuru. *Botar agoa fria pera* |  |
 | `c2-l004` | &emsp;*temperar a quẽte.* |  |
 | `c2-l005` | Vmeague, uru, eta. *Entulhar ate cima.* |  |
-| `c2-l006` | &emsp;*¶* Tani fitotçuuo Feiqeno ninju xichiman |  |
+| `c2-l006` | &emsp;*¶* Tani fitot*ç*uuo Feiqeno ninju xichiman |  |
 | `c2-l007` | &emsp;amariuo motte vmeague. Feiq. *Lib.* |  |
 | `c2-l008` | &emsp;*3. Enchendo, & entulhãdo ate cima hum* |  |
 | `c2-l009` | &emsp;*valle com mais de ſetenta milhomens mortos da* |  |

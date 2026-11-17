@@ -84,7 +84,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l009` | Touonǒqe, ru, eta. *Afaſtar algũa couſa, ou* |  |
 | `c2-l010` | &emsp;*apartarla longe.* |  |
 | `c2-l011` | Touonoqi, u, ita. *Alongarſe, ou afaſtarſe.* |  |
-| `c2-l012` | Touori. *Teor, ou laya. ¶* Tçucaino to- |  |
+| `c2-l012` | Touori. *Teor, ou laya. ¶* T*ç*ucaino to- |  |
 | `c2-l013` | &emsp;uoriuo yǔ. *Dizer a ſuſtancia, ou teor do reca-* |  |
 | `c2-l014` | &emsp;*do. ¶* Sonatano touorino bun. *Da meſma* |  |
 | `c2-l015` | &emsp;*maneira, ou teor q̃ vos. Itẽ, O teor do q̃ dizeis.* |  |

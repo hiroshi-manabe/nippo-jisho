@@ -26,7 +26,7 @@ Lexical checkpoint after independent scan reading: NINJAL, Hideyuki Ohshima and 
 | `c1-l008` | &emsp;*¶* Vazzucani fiacuni tarazu. *Faltaua* |  |
 | `c1-l009` | &emsp;*pouco pera cento.* |  |
 | `c1-l010` | Vazzurai, ǒ, ǒta. *Adoecer, ou eſtar doente.* |  |
-| `c1-l011` | &emsp;*¶* Me. l, zzutçǔ nadono vazzurǒ. *Eſtar* |  |
+| `c1-l011` | &emsp;*¶* Me. l, zzut*ç*ǔ nadono vazzurǒ. *Eſtar* |  |
 | `c1-l012` | &emsp;*doente dos olhos, ou de enxaqueca, &c. Item,* |  |
 | `c1-l013` | &emsp;*junto com outros verbos de cuidar, &c ſig-* |  |
 | `c1-l014` | &emsp;*nifica ter afflição, & perplexidade. Vt,* An- |  |

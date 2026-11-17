@@ -20,46 +20,46 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l004` | Toriſoye, uru, eta. *Acrecẽtar, ou tomar hũa* |  |
 | `c1-l005` | &emsp;*couſa, & outra como o bule, & taça, ou copo.* |  |
 | `c1-l006` | Toriſucume, uru, eta. *Forçar, ou conſtrãger.* |  |
-| `c1-l007` | Toriſute, tçuru, eta. *Lançar, ou deitar fora* |  |
+| `c1-l007` | Toriſute, t*ç*uru, eta. *Lançar, ou deitar fora* |  |
 | `c1-l008` | &emsp;*com a mão, &c.* |  |
-| `c1-l009` | Toritate, tçuru, eta. *Edificar, ou aleuantar* |  |
+| `c1-l009` | Toritate, t*ç*uru, eta. *Edificar, ou aleuantar* |  |
 | `c1-l010` | &emsp;*caſas. ¶ Item, Tornar por a alguem no ſeu* |  |
 | `c1-l011` | &emsp;*proprio eſtado. ¶* Fitono iyeuo tori ta- |  |
-| `c1-l012` | &emsp;tçuru. *Aleuantar, & por empès a alguẽ,* |  |
+| `c1-l012` | &emsp;t*ç*uru. *Aleuantar, & por empès a alguẽ,* |  |
 | `c1-l013` | &emsp;*ou milhorar lhe o eſtado. ¶* Fitouo tori |  |
-| `c1-l014` | &emsp;tatçuru. *Armar a alguem, ou fazelo homẽ.* |  |
+| `c1-l014` | &emsp;tat*ç*uru. *Armar a alguem, ou fazelo homẽ.* |  |
 | `c1-l015` | Toritate. *O edificar. ¶ Item, O fazer a* |  |
 | `c1-l016` | &emsp;*alguem homem, ou pollo com eſtado. ¶* A- |  |
 | `c1-l017` | &emsp;no fitoua vaga toritategia. *Aquelle he fei-* |  |
 | `c1-l018` | &emsp;*tura minha. i, Eu o fiz homem.* |  |
-| `c1-l019` | Toritçucami, u, ǒda. *Afferrar de algũa* |  |
+| `c1-l019` | Torit*ç*ucami, u, ǒda. *Afferrar de algũa* |  |
 | `c1-l020` | &emsp;*couſa.* |  |
-| `c1-l021` | Toritçucuroi, ô, ôta. *Concertar, & apare-* |  |
+| `c1-l021` | Torit*ç*ucuroi, ô, ôta. *Concertar, & apare-* |  |
 | `c1-l022` | &emsp;*lhar bem, & polidamente quer ſeja vestido,* |  |
-| `c1-l023` | &emsp;*quer Zaxiqu, &c. ¶ T*oritçucurôta fu- |  |
+| `c1-l023` | &emsp;*quer Zaxiqu, &c. ¶ T*orit*ç*ucurôta fu- |  |
 | `c1-l024` | &emsp;rumai. *Conuite bem concertado, & apa-* |  |
 | `c1-l025` | &emsp;*relhado.* |  |
-| `c1-l026` | Toritçugui, gu, ida. *Ser medianeiro, ou dar* |  |
+| `c1-l026` | Torit*ç*ugui, gu, ida. *Ser medianeiro, ou dar* |  |
 | `c1-l027` | &emsp;*recado, ou parte a algum ſenhor do que lhe tra-* |  |
 | `c1-l028` | &emsp;*zem, ou mandão dizer. ¶ Item, Alicu-* |  |
 | `c1-l029` | &emsp;*bi, Socorrer com mantimẽto, ou prata. Meliùs,* |  |
 | `c1-l030` | &emsp;Tori çuzzuquru. |  |
-| `c1-l031` | Toritçugui. *Medianeiro, ou o que falla por* |  |
+| `c1-l031` | Torit*ç*ugui. *Medianeiro, ou o que falla por* |  |
 | `c1-l032` | &emsp;*alguem a ſeus tẽpos diante do ſenhor. ¶* To- |  |
-| `c1-l033` | &emsp;ritçuguiuo ſuru. *Ser medianeiro, ou in-* |  |
+| `c1-l033` | &emsp;rit*ç*uguiuo ſuru. *Ser medianeiro, ou in-* |  |
 | `c1-l034` | &emsp;*terceßor.* |  |
-| `c1-l035` | Toritçume, uru, eta. *Por em aperto. ¶* Xi- |  |
-| `c1-l036` | &emsp;rouo toritçumuru. *Por em aperto a for-* |  |
+| `c1-l035` | Torit*ç*ume, uru, eta. *Por em aperto. ¶* Xi- |  |
+| `c1-l036` | &emsp;rouo torit*ç*umuru. *Por em aperto a for-* |  |
 | `c1-l037` | &emsp;*taleza.* |  |
-| `c1-l038` | Toritçuqe, uru, eta. *Tomando pegar, ou acre-* |  |
-| `c1-l039` | &emsp;*centar. ¶* Toritçuqe, fittçuqe monouo |  |
+| `c1-l038` | Torit*ç*uqe, uru, eta. *Tomando pegar, ou acre-* |  |
+| `c1-l039` | &emsp;*centar. ¶* Torit*ç*uqe, fitt*ç*uqe monouo |  |
 | `c1-l040` | &emsp;yǔ. *Falar acrecentando de cà, & de là.* |  |
-| `c1-l041` | *T*oritçuqi, u, uita. *Afferrar, ou apegarſe* |  |
-| `c1-l042` | &emsp;*dalgũa couſa. Vt,* Fitono teni toritçuqu. |  |
+| `c1-l041` | *T*orit*ç*uqi, u, uita. *Afferrar, ou apegarſe* |  |
+| `c1-l042` | &emsp;*dalgũa couſa. Vt,* Fitono teni torit*ç*uqu. |  |
 | `c1-l043` | &emsp;*Pegar, ou afferrar da mão dalguem. ¶* Tẽ- |  |
-| `c1-l044` | &emsp;guga fitoni toritçuqu. *Entrar o diabo em* |  |
+| `c1-l044` | &emsp;guga fitoni torit*ç*uqu. *Entrar o diabo em* |  |
 | `c1-l045` | &emsp;*alguem.* |  |
-| `c1-l046` | Toritçutçumi, u, unda. *Cercar com gente,* |  |
+| `c1-l046` | Torit*ç*ut*ç*umi, u, unda. *Cercar com gente,* |  |
 | `c1-l047` | &emsp;*como fortaleza, exercito, cidade, &c.* |  |
 
 ## Column 2 running header
@@ -78,12 +78,12 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | Toritçuzzuqe, uru, eta. *Fazer continuar. Vt,* |  |
-| `c2-l002` | &emsp;Ginuo toritçuzzuquru. *Estender, ou di-* |  |
+| `c2-l001` | Torit*ç*uzzuqe, uru, eta. *Fazer continuar. Vt,* |  |
+| `c2-l002` | &emsp;Ginuo torit*ç*uzzuquru. *Estender, ou di-* |  |
 | `c2-l003` | &emsp;*latar o arrayal. ¶ Item, Socorrer a alguẽ* |  |
 | `c2-l004` | &emsp;*em algũa falta, ou neceßidade como de dinhei-* |  |
 | `c2-l005` | &emsp;*ro, arroz, &c.* |  |
-| `c2-l006` | *T*oritçuzzuqi, u, ita. *Continuar ſem en-* |  |
+| `c2-l006` | *T*orit*ç*uzzuqi, u, ita. *Continuar ſem en-* |  |
 | `c2-l007` | &emsp;*teruallo.* |  |
 | `c2-l008` | Tǒriten. *Nome de hum ceo.* |  |
 | `c2-l009` | Toritome, uru, eta. *Deter a alguem pegando* |  |
@@ -106,7 +106,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l026` | Torivchi. *Hũa parte do arco adiante donde o* |  |
 | `c2-l027` | &emsp;*tomão pello meo na mão.* |  |
 | `c2-l028` | Torivoconai, ǒ, ǒta. *Dar leis, ou gouernar.* |  |
-| `c2-l029` | &emsp;*¶* Matçurigotouo torivoconǒ. *Dar le-* |  |
+| `c2-l029` | &emsp;*¶* Mat*ç*urigotouo torivoconǒ. *Dar le-* |  |
 | `c2-l030` | &emsp;*is, ou gouernar. ¶* Fôjiuo torivoconǒ. |  |
 | `c2-l030a` | &emsp;*Celebrar, ou fazer algum officio, ou ſolẽnidade.* |  |
 | `c2-l031` | Torivoqi, qu, oita. *Guardar, & por em ſeu* |  |

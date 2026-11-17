@@ -15,7 +15,7 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c1-l001` | Tçumami, u, ǒda. *Tomar a couſa com dous* |  |
-| `c1-l002` | &emsp;*dedos. Vt,* Sacanauo tçumamu. *Tomar* |  |
+| `c1-l002` | &emsp;*dedos. Vt,* Sacanauo t*ç*umamu. *Tomar* |  |
 | `c1-l003` | &emsp;*a Sacana com dous dedos. ¶ Item, Zom-* |  |
 | `c1-l004` | &emsp;*bar dalguem.* |  |
 | `c1-l005` | *Tç*umamicoroxi, ſu, oita. *Matar afferrã-* |  |
@@ -25,42 +25,42 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l009` | &emsp;*loſo apanhando algũas couſinhas às eſcondidas.* |  |
 | `c1-l010` | &emsp;*Vt,* T*ç*umamigviuo ſuru. |  |
 | `c1-l011` | *Tç*umane. *Raiz, ou arreigada da vnha.* |  |
-| `c1-l012` | Tçumaqiri. *Canuete, ou ferro pera cortar* |  |
+| `c1-l012` | T*ç*umaqiri. *Canuete, ou ferro pera cortar* |  |
 | `c1-l013` | &emsp;*vnhas.* |  |
-| `c1-l014` | Tçumaſaqi. *Ponta da vnha.* |  |
-| `c1-l015` | Tçumari, u, atta. *Eſtar, ou ſer muito aperta-* |  |
-| `c1-l016` | &emsp;*do. ¶* Fanaga tçumaru. *Ter os narizes* |  |
+| `c1-l014` | T*ç*umaſaqi. *Ponta da vnha.* |  |
+| `c1-l015` | T*ç*umari, u, atta. *Eſtar, ou ſer muito aperta-* |  |
+| `c1-l016` | &emsp;*do. ¶* Fanaga t*ç*umaru. *Ter os narizes* |  |
 | `c1-l017` | &emsp;*apertados, & entupidos como com cadarram,* |  |
-| `c1-l018` | &emsp;*&c. ¶* Cutçuga tçumaru. *Ser o calça-* |  |
-| `c1-l019` | &emsp;*do apertado. ¶* Cotobani tçumaru. *Fi-* |  |
+| `c1-l018` | &emsp;*&c. ¶* Cut*ç*uga tçumaru. *Ser o calça-* |  |
+| `c1-l019` | &emsp;*do apertado. ¶* Cotobani t*ç*umaru. *Fi-* |  |
 | `c1-l020` | &emsp;*car concluido cõ palauras. ¶* Rini tçuma- |  |
 | `c1-l021` | &emsp;ru. *Ser conuencido da razão. ¶* Cate, |  |
-| `c1-l022` | &emsp;fiǒrǒni tçumaru. *Faltarem os ma timẽtos.* |  |
-| `c1-l023` | &emsp;*¶* Qiga tçumaru. *Eſtar afrontado, ou a-* |  |
+| `c1-l022` | &emsp;fiǒrǒni t*ç*umaru. *Faltarem os ma timẽtos.* |  |
+| `c1-l023` | &emsp;*¶* Qiga t*ç*umaru. *Eſtar afrontado, ou a-* |  |
 | `c1-l024` | &emsp;*bafado do coração. ¶* Riga tçumaru. |  |
 | `c1-l025` | &emsp;*Nãopoder fazer camara.* |  |
-| `c1-l026` | *T*çumari. *Paſſo, ou lugar apertado, por onde* |  |
+| `c1-l026` | *Tç*umari. *Paſſo, ou lugar apertado, por onde* |  |
 | `c1-l027` | &emsp;*ſe não pode paſſar, ou caminhar liuremente,* |  |
 | `c1-l028` | &emsp;*ou onde pouca gente pode defender a paſſagem* |  |
 | `c1-l029` | &emsp;*aos inimigos.* |  |
-| `c1-l030` | Tçumar zzumari. *Lugares, ou paſſos aperta-* |  |
+| `c1-l030` | T*ç*umar zzumari. *Lugares, ou paſſos aperta-* |  |
 | `c1-l031` | &emsp;*dos deſta maneira.* |  |
-| `c1-l032` | Tçumaxij. *Peſſoa apertada, ou eſcaſa. Vt,* |  |
+| `c1-l032` | T*ç*umaxij. *Peſſoa apertada, ou eſcaſa. Vt,* |  |
 | `c1-l033` | &emsp;Tçumaxij fito. |  |
-| `c1-l034` | Tçumaye, uru, eta. *Cortar as pontas das ar-* |  |
+| `c1-l034` | T*ç*umaye, uru, eta. *Cortar as pontas das ar-* |  |
 | `c1-l035` | &emsp;*uores, vides, &c.* |  |
-| `c1-l036` | Tçumayori, ru. *Prouar a frecha virãdoa ſo-* |  |
+| `c1-l036` | T*ç*umayori, ru. *Prouar a frecha virãdoa ſo-* |  |
 | `c1-l037` | &emsp;*bre a vnha, pera ver ſe eſta liſa, ou direita.* |  |
 | `c1-l038` | T*ç*umazzuqi, u, uita. *Embicar, ou trope-* |  |
-| `c1-l039` | &emsp;*çar. ¶ Per met.* Nãguini tçumazzu- |  |
+| `c1-l039` | &emsp;*çar. ¶ Per met.* Nãguini t*ç*umazzu- |  |
 | `c1-l040` | &emsp;qu. *Encontrar, ou acharſe emtrabalhos, pe-* |  |
 | `c1-l041` | &emsp;*rigos, &c.* |  |
 | `c1-l042` | Tçume. *O mais alto da fortaleza. Vt,* Xi- |  |
-| `c1-l043` | &emsp;rono tçume. |  |
-| `c1-l044` | T*ç*ume. *Vnha. ¶* Tçumeuo qiru. l, ro- |  |
+| `c1-l043` | &emsp;rono t*ç*ume. |  |
+| `c1-l044` | T*ç*ume. *Vnha. ¶* T*ç*umeuo qiru. l, ro- |  |
 | `c1-l045` | &emsp;ru. *Cortar as vnhas. ¶* Tçumeuo v- |  |
-| `c1-l046` | &emsp;tçu. *Cortar as vnhas dos caualos.* |  |
-| `c1-l047` | Tçume, uru, eta. *Apertar, ou atochar.* |  |
+| `c1-l046` | &emsp;t*ç*u. *Cortar as vnhas dos caualos.* |  |
+| `c1-l047` | T*ç*ume, uru, eta. *Apertar, ou atochar.* |  |
 
 ## Column 2 running header
 
@@ -73,52 +73,52 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c2-l001` | &emsp;*¶* Dǒriuomotte iytçumuru. *Conuencer a* |  |
-| `c2-l002` | &emsp;*alguem com rezoẽs. ¶* Xirouo tçumuru. |  |
+| `c2-l002` | &emsp;*alguem com rezoẽs. ¶* Xirouo t*ç*umuru. |  |
 | `c2-l003` | &emsp;*Por em aperto a fortaleza, ou combatela.* |  |
 | `c2-l004` | &emsp;*¶* Chauo tçumuru. *Meter o Cha no* |  |
 | `c2-l005` | &emsp;*boyão ate cima, ou enchelo de Cha.* |  |
-| `c2-l006` | &emsp;*¶* Xujinno mayeni tçumere iru. *Aßistir* |  |
+| `c2-l006` | &emsp;*¶* Xujinno mayeni t*ç*umere iru. *Aßistir* |  |
 | `c2-l007` | &emsp;*ſempre diante do ſenhor, ou em ſua caſa pera* |  |
-| `c2-l008` | &emsp;*o ſeruir, &c. ¶* Tçumexu. *Os queſẽ-* |  |
+| `c2-l008` | &emsp;*o ſeruir, &c. ¶* T*ç*umexu. *Os queſẽ-* |  |
 | `c2-l009` | &emsp;*pre aßiſtem desta maneira.* |  |
-| `c2-l010` | Tçume. *Couſa q̃ ſe mete pera apertar como cu* |  |
-| `c2-l011` | &emsp;*nha. Vt* tçumeuo cǒ. *Meter algũa ma-* |  |
+| `c2-l010` | T*ç*ume. *Couſa q̃ ſe mete pera apertar como cu* |  |
+| `c2-l011` | &emsp;*nha. Vt* t*ç*umeuo cǒ. *Meter algũa ma-* |  |
 | `c2-l012` | &emsp;*neira de cunha pera atochar.* |  |
-| `c2-l013` | Tçume. *Concluſam.* |  |
+| `c2-l013` | T*ç*ume. *Concluſam.* |  |
 | `c2-l014` | T*ç*umeai, ǒ, ǒta. *Contender pera concluir* |  |
 | `c2-l015` | &emsp;*hum a outro, l, chegar perto com as mãos, ou* |  |
 | `c2-l016` | &emsp;*Catana hum do outro pera pelejar, l, dous exer-* |  |
 | `c2-l017` | &emsp;*citos, &c.* |  |
-| `c2-l018` | Tçumeauaxe, uru, eta. *Chegarem a pelejar* |  |
+| `c2-l018` | T*ç*umeauaxe, uru, eta. *Chegarem a pelejar* |  |
 | `c2-l019` | &emsp;*de perto dous exercitos, ou muita gente.* |  |
-| `c2-l020` | Tçumecaqe, uru, eta. *Ir no alcance pondo* |  |
-| `c2-l021` | &emsp;*em aperto. ¶* Xirouo tçumecaqete xe- |  |
+| `c2-l020` | T*ç*umecaqe, uru, eta. *Ir no alcance pondo* |  |
+| `c2-l021` | &emsp;*em aperto. ¶* Xirouo t*ç*umecaqete xe- |  |
 | `c2-l022` | &emsp;muru. *Combater a fortaleza com força, &* |  |
 | `c2-l023` | &emsp;*violencia.* |  |
-| `c2-l024` | Tçumefiraqi. *Vide,* Firaqi, u. |  |
+| `c2-l024` | T*ç*umefiraqi. *Vide,* Firaqi, u. |  |
 | `c2-l025` | T*ç*umegia. *Cha metido em boyão aßi em fo-* |  |
 | `c2-l026` | &emsp;*lha pera apertar, & atochar os ſaquinhos de* |  |
 | `c2-l027` | &emsp;*Cha, que eſtão dentro.* |  |
-| `c2-l028` | Tçumegin. *Exercito pera dar em algũa for-* |  |
+| `c2-l028` | T*ç*umegin. *Exercito pera dar em algũa for-* |  |
 | `c2-l029` | &emsp;*taleza, ou exercito que eſtà muito chegado, &* |  |
 | `c2-l030` | &emsp;*fronteiro aos inimigos.* |  |
 | `c2-l031` | T*ç*umegoi. *O pedir com efficacia, & imper-* |  |
-| `c2-l032` | &emsp;*tunamẽte. Vt,* Tçumegoinicô. *O meſmo.* |  |
+| `c2-l032` | &emsp;*tunamẽte. Vt,* T*ç*umegoinicô. *O meſmo.* |  |
 | `c2-l033` | T*ç*umegoroxi. *O matar a alguem ſecretamẽ-* |  |
 | `c2-l034` | &emsp;*te, & ſem o deixar falar palaura.* |  |
-| `c2-l035` | Tçumejǒ. *Fortaleza que eſtà cercada, & poſ-* |  |
+| `c2-l035` | T*ç*umejǒ. *Fortaleza que eſtà cercada, & poſ-* |  |
 | `c2-l036` | &emsp;*ta em aperto dos inimigos.* |  |
-| `c2-l037` | T*ç*umeri, ru, etta. *Beliſcar. ¶* Miuo tçu- |  |
-| `c2-l038` | &emsp;meru. *Beliſcar o corpo. ¶* Miuo tçume- |  |
+| `c2-l037` | T*ç*umeri, ru, etta. *Beliſcar. ¶* Miuo t*ç*u- |  |
+| `c2-l038` | &emsp;meru. *Beliſcar o corpo. ¶* Miuo t*ç*ume- |  |
 | `c2-l039` | &emsp;ru. *Mortificarſe, & tratarſe mal. ¶* Va- |  |
-| `c2-l040` | &emsp;gamiuo tçumette, fitono itaſauo xire. *Be-* |  |
+| `c2-l040` | &emsp;gamiuo t*ç*umette, fitono itaſauo xire. *Be-* |  |
 | `c2-l041` | &emsp;*liſcando, ou fazẽdo doer a voſsa carne, aprẽ-* |  |
 | `c2-l042` | &emsp;*dei como doe aos outros.* |  |
 | `c2-l043` | T*ç*umetai. *Couſa fria. ¶ Item, Auer grã-* |  |
 | `c2-l044` | &emsp;*de frio, ou eſtar o tempo muito frio.* |  |
-| `c2-l045` | &emsp;Tçumetaſa. *Frialdade.* |  |
-| `c2-l046` | &emsp;Tçumetǒ. *Adu.* |  |
-| `c2-l047` | Tçumetçuqete. *Vt,* Tçumetçuqete ſuru. l, |  |
+| `c2-l045` | &emsp;T*ç*umetaſa. *Frialdade.* |  |
+| `c2-l046` | &emsp;T*ç*umetǒ. *Adu.* |  |
+| `c2-l047` | Tçumetçuqete. *Vt,* T*ç*umet*ç*uqete ſuru. l, |  |
 
 ## Printed catchword
 

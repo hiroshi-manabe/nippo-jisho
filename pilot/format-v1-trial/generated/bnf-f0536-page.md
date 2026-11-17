@@ -14,7 +14,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | &emsp;vgatçu niuoide gozaru. *He cheiro que* |  |
+| `c1-l001` | &emsp;vgat*ç*u niuoide gozaru. *He cheiro que* |  |
 | `c1-l002` | &emsp;*parece esfolar os narizes.* |  |
 | `c1-l003` | Vgacu. *Saber letras, ou ter eſtudado. Vt,* V- |  |
 | `c1-l004` | &emsp;gacu, mugacu. *O q̃ tem eſtudado, & não tem* |  |
@@ -127,7 +127,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l032` | Vma. *Caualo. Vt,* Vmani noru. l, Me- |  |
 | `c2-l033` | &emsp;ſu. *Caualgar. ¶* Vmano tazzunauo |  |
 | `c2-l034` | &emsp;cayeſu. *Fazer voltar o caualo. ¶* Vma- |  |
-| `c2-l035` | &emsp;ga yocodatçu. *Atraueſarſe o caualo no* |  |
+| `c2-l035` | &emsp;ga yocodat*ç*u. *Atraueſarſe o caualo no* |  |
 | `c2-l036` | &emsp;*caminho. ¶* Vmauo xemuru. *Exercitar* |  |
 | `c2-l037` | &emsp;*o caualo. ¶* Xeme vma. *Caualo que ſe* |  |
 | `c2-l038` | &emsp;*exercita correndo, &c. ¶* Vmauo fiyaſu. |  |
@@ -137,7 +137,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l042` | &emsp;ſuru. *Enraſtarem as lanças os caualeiros.* |  |
 | `c2-l043` | &emsp;*¶* Vmauo finmauaſu. *Fazer virar o ca-* |  |
 | `c2-l044` | &emsp;*ualo pera aparte, ou mãoeſquerda puxandoo.* |  |
-| `c2-l045` | &emsp;*¶* Vmauo tçunmauaſu. *Fazelo virar pera a* |  |
+| `c2-l045` | &emsp;*¶* Vmauo t*ç*unmauaſu. *Fazelo virar pera a* |  |
 | `c2-l046` | &emsp;*parte direita. ¶* Vmauo noru. *Ir a ca-* |  |
 
 ## Column 2 catchword

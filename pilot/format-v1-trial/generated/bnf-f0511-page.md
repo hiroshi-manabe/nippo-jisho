@@ -88,7 +88,7 @@ Lexical cross-check after independent scan reading: the supplied National Instit
 | `c2-l012` | &emsp;*gũa couſa.* |  |
 | `c2-l013` | Tomebari. *Agulha que ſe mete em certa par-* |  |
 | `c2-l014` | &emsp;*te do corpo pera impedir as camaras. ¶* To- |  |
-| `c2-l015` | &emsp;mebariuo tatçuru. *Dar esta agulhada.* |  |
+| `c2-l015` | &emsp;mebariuo tat*ç*uru. *Dar esta agulhada.* |  |
 | `c2-l016` | &emsp;*¶ Item, O arrematar a costura. Vt,* To- |  |
 | `c2-l017` | &emsp;mebariuo ſuru. |  |
 | `c2-l018` | Tomedocoro. *Lugar, ou modo de ter, ou fa-* |  |

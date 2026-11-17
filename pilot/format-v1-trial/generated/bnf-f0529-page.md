@@ -39,7 +39,7 @@ Lexical cross-checks use Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshim
 | `c1-l021` | &emsp;gomiuo ſuru. |  |
 | `c1-l022` | Vataito. *Fio de berra. ¶ Itẽ aliquando,* |  |
 | `c1-l023` | &emsp;*Seda branda, ou cozida: poſto que mais corrẽ-* |  |
-| `c1-l024` | &emsp;*te he,* Tçuqeito, l, Neriguri. |  |
+| `c1-l024` | &emsp;*te he,* T*ç*uqeito, l, Neriguri. |  |
 | `c1-l025` | Vatamaxi. *Mudãça pera a caſa noua. ¶* Va- |  |
 | `c1-l026` | &emsp;tamaxiuo ſuru. *Fazer eſta mudança.* |  |
 | `c1-l027` | Vatanome. *Fios da borra que ſam fora do* |  |

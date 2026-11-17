@@ -20,7 +20,7 @@ Lexical aid: [NINJAL, Entry Words Data of Nippojisho, version 202510](https://ww
 | `c1-l002` | &emsp;*Aquele homem não anda bem, ou corrente cõ* |  |
 | `c1-l003` | &emsp;*o ſenhor, ou amo.* |  |
 | `c1-l004` | *T*emoto. *Lugar perto das mãos. ¶ T*emo- |  |
-| `c1-l005` | &emsp;toni ſuſumu tçuuamonouo xichi fachi- |  |
+| `c1-l005` | &emsp;toni ſuſumu t*ç*uuamonouo xichi fachi- |  |
 | `c1-l006` | &emsp;qi qitte votoita. *Cortou, & derrubou ſete,* |  |
 | `c1-l007` | &emsp;*ou oito de caualo, q̃ ſe lhe chegarão perto ata-* |  |
 | `c1-l008` | &emsp;*lho de mão.* |  |
@@ -36,7 +36,7 @@ Lexical aid: [NINJAL, Entry Words Data of Nippojisho, version 202510](https://ww
 | `c1-l018` | *T*en. *Hũ animalinho como doninha, ou mayor.* |  |
 | `c1-l019` | *T*en. *Pontinho, ou riſca, ou maneira de til q̃* |  |
 | `c1-l020` | &emsp;*ſe poem nas letras, ou junto dellas, ou nos ro-* |  |
-| `c1-l021` | &emsp;*is. ¶* Tenuo vtçu. *Por eſte pontinho nas* |  |
+| `c1-l021` | &emsp;*is. ¶* Tenuo vt*ç*u. *Por eſte pontinho nas* |  |
 | `c1-l022` | &emsp;*letras de Iapão. ¶ T*enuo caquru. *Por,* |  |
 | `c1-l023` | &emsp;*ou fazer hũa riſca comprida, ao longo das le-* |  |
 | `c1-l024` | &emsp;*tras da china, ou Iapão porſinal de ſerem boas,* |  |
@@ -50,7 +50,7 @@ Lexical aid: [NINJAL, Entry Words Data of Nippojisho, version 202510](https://ww
 | `c1-l032` | &emsp;*es ſe pode ler de hũa maneira, & doutra.* |  |
 | `c1-l033` | *T*enaga. *O ſeruir à meſa leuando as meſas a-* |  |
 | `c1-l034` | &emsp;*te o caminho ſem entrar com ellas no Zaxiqui.* |  |
-| `c1-l035` | &emsp;*¶ T*enaga tçucamatçuru. *Fazer este of-* |  |
+| `c1-l035` | &emsp;*¶ T*enaga t*ç*ucamat*ç*uru. *Fazer este of-* |  |
 | `c1-l036` | &emsp;*ficio de leuar as meſas.* |  |
 | `c1-l037` | *T*enaguſami. *Folguedo, ou brinco de mãos.* |  |
 | `c1-l038` | *T*enami. *Força, ou valentia com q̃ hum joga* |  |
@@ -79,7 +79,7 @@ Lexical aid: [NINJAL, Entry Words Data of Nippojisho, version 202510](https://ww
 | `c2-l003` | *T*enaye. *Aleijão das mãos.* |  |
 | `c2-l004` | *T*enba. Dairino vma. *Caualo do Rey.* |  |
 | `c2-l005` | *T*enbachi. *Melius, T*enbat. *Caſtigo do ceo.* |  |
-| `c2-l006` | Tenben. i, Vtçuri cauaru. *Mudança. Vt,* |  |
+| `c2-l006` | Tenben. i, Vt*ç*uri cauaru. *Mudança. Vt,* |  |
 | `c2-l007` | &emsp;Xiqino tenben. *Mudança, ou variedade* |  |
 | `c2-l008` | &emsp;*dos 4. tempos. ¶* Xejǒno tenben. |  |
 | `c2-l009` | &emsp;*Mudança, & variedade do mundo.* |  |
@@ -95,7 +95,7 @@ Lexical aid: [NINJAL, Entry Words Data of Nippojisho, version 202510](https://ww
 | `c2-l019` | &emsp;*o imperio. ¶* Tencauo toru. *Tomar,* |  |
 | `c2-l020` | &emsp;*ou apoderarſe do imperio. ¶* Tencauo xiz- |  |
 | `c2-l021` | &emsp;zumuru. *Aquietar o imperio. ¶* Ten- |  |
-| `c2-l022` | &emsp;cauo cutçugayeſu. *Reuoluer, & pertur-* |  |
+| `c2-l022` | &emsp;cauo cut*ç*ugayeſu. *Reuoluer, & pertur-* |  |
 | `c2-l023` | &emsp;*bar o imperio. ¶* Tencauo midaſu. *Per-* |  |
 | `c2-l024` | &emsp;*turbar o imperio. ¶* Tencauo araſô. *Cõ-* |  |
 | `c2-l025` | &emsp;*tender ſobre o imperio. ¶* Tencauo xiru. |  |
@@ -110,8 +110,8 @@ Lexical aid: [NINJAL, Entry Words Data of Nippojisho, version 202510](https://ww
 | `c2-l034` | Tencan. *Olhos de Deos. ¶* Tencan vata- |  |
 | `c2-l035` | &emsp;cuxinaxi. *Deos tudo vè rectamente, & ſem* |  |
 | `c2-l036` | &emsp;*aceptação de peßoas.* |  |
-| `c2-l037` | Tencan. i, Cutçuchi. *Gota coral.* |  |
-| `c2-l038` | Tenchi. Ame, tçuchi. *Ceo, & terra.* |  |
+| `c2-l037` | Tencan. i, Cut*ç*uchi. *Gota coral.* |  |
+| `c2-l038` | Tenchi. Ame, t*ç*uchi. *Ceo, & terra.* |  |
 | `c2-l039` | &emsp;*¶* Tenchi caifiacu yori conocata. *Deſ-* |  |
 | `c2-l040` | &emsp;*do principio, ou começo do ceo, & da terra a-* |  |
 | `c2-l041` | &emsp;*tè agora.* |  |

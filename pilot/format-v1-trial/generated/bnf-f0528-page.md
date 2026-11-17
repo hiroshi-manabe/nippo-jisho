@@ -32,7 +32,7 @@ Lexical aid consulted after scan reading: Entry Words Data of Nippojisho, NINJAL
 | `c1-l014` | &emsp;ru. *Partir moendo. Vt,* Comeuo fiqivaru. |  |
 | `c1-l015` | &emsp;*Moer arroz de maneira que não fique em fari-* |  |
 | `c1-l016` | &emsp;*nha, mas empedacinhos.* |  |
-| `c1-l017` | Variate, tçuru, eta. l, varitçuqe, quru. |  |
+| `c1-l017` | Variate, t*ç*uru, eta. l, varit*ç*uqe, quru. |  |
 | `c1-l018` | &emsp;*Diuidindo, ou fazendo partição encarregar a* |  |
 | `c1-l019` | &emsp;*alguem como parede, vallo, &c.* |  |
 | `c1-l020` | Varicudaqi, qu, ita. *Quebrando fazer em* |  |
@@ -57,7 +57,7 @@ Lexical aid consulted after scan reading: Entry Words Data of Nippojisho, NINJAL
 | `c1-l039` | &emsp;*tre gente. Vt,* Teqino nacaye vari iru, l, |  |
 | `c1-l040` | &emsp;vatte iru. *Romper, ou entrar pollo meo* |  |
 | `c1-l041` | &emsp;*dos inimigos.* |  |
-| `c1-l042` | Varitçuqe, uru, eta. *Vide,* Variate, tçuru. |  |
+| `c1-l042` | Varit*ç*uqe, uru, eta. *Vide,* Variate, t*ç*uru. |  |
 | `c1-l043` | Varǒ. l, ſumitçubono cugui. *Preguinho a* |  |
 | `c1-l044` | &emsp;*que ſe amarra a linha do carpinteiro.* |  |
 | `c1-l045` | Varobe. *Minino.* |  |
