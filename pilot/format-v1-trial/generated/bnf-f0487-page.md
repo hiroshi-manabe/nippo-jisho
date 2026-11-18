@@ -19,20 +19,20 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l003` | &emsp;met*ç*uqeteyǔ. l, cô. *Dizer, ou pedir* |  |
 | `c1-l004` | &emsp;*importunamente, & ſem interpolação.* |  |
 | `c1-l005` | T*ç*umevotoxi, ſu, oita. *Render porforça.* |  |
-| `c1-l006` | &emsp;*Vt,* Xirouo t*ç*umevotoſu. *Tomar algũa* |  |
+| `c1-l006` | &emsp;*Vt,* Xirouo t*ç*umevotoſu. T*omar algũa* |  |
 | `c1-l007` | &emsp;*Fortaleza por força.* |  |
 | `c1-l008` | T*ç*umeyoxe, uru, eta. *Por força chegar, ou* |  |
 | `c1-l009` | &emsp;*fazer chegar como à fortaleza, ou aos inimi-* |  |
 | `c1-l010` | &emsp;*gos, &c.* |  |
 | `c1-l011` | T*ç*umi. l, t*ç*umu. *Fuſo de fiar ſeda, algodão,* |  |
-| `c1-l012` | &emsp;*&c. ¶* T*ç*umide itouo t*ç*umugu. *Torcer* |  |
+| `c1-l012` | &emsp;*&c. ¶* T*ç*umide itouo t*ç*umugu. T*orcer* |  |
 | `c1-l013` | &emsp;*fio, ou fiado, & ajuntalo no fuſo.* |  |
 | `c1-l014` | T*ç*umi. *Peccado. ¶ Item, Caſtigo, ou pena* |  |
 | `c1-l015` | &emsp;*do peccado. ¶* T*ç*umiuo nadamuru. *Per-* |  |
 | `c1-l016` | &emsp;*doar o crime, ou pena por elle merecida.* |  |
 | `c1-l017` | &emsp;*¶* T*ç*umiuo itô. *Não querer, ou aborre-* |  |
 | `c1-l018` | &emsp;*cer o peccado. ¶* T*ç*umiuo foroboſu. *Deſ-* |  |
-| `c1-l019` | &emsp;*fazer, ou deſtruir o pecado. ¶* Tçumi- |  |
+| `c1-l019` | &emsp;*fazer, ou deſtruir o peccado. ¶* Tçumi- |  |
 | `c1-l020` | &emsp;xeraruru. *Ser caſtigado, ou juſtiçado por* |  |
 | `c1-l021` | &emsp;*algum crime Commummente eſtes modos de* |  |
 | `c1-l022` | &emsp;*falar ſe vſão nos liuros.* |  |
@@ -40,8 +40,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l024` | &emsp;*¶* Funeni niuo t*ç*umu. *Arrumar o fato* |  |
 | `c1-l025` | &emsp;*naembarcação. ¶* Côuo t*ç*umu. *Fazer* |  |
 | `c1-l026` | &emsp;*habito. ¶* Ienno côuo t*ç*umu. *Fazer ha-* |  |
-| `c1-l027` | &emsp;*bito na virtude. ¶* Yuqiga furi çumu. |  |
-| `c1-l028` | &emsp;l,t*ç*umoru. *Chouer muito, & crecer a ne-* |  |
+| `c1-l027` | &emsp;*bito na virtude. ¶* Yuqiga furitçumu. |  |
+| `c1-l028` | &emsp;l, t*ç*umoru. *Chouer muito, & crecer a ne-* |  |
 | `c1-l029` | &emsp;*ue em montes.* |  |
 | `c1-l030` | T*ç*umi, u, unda. *Colher eruas, folhas, roſas,* |  |
 | `c1-l031` | &emsp;*&c. com a mão. ¶* Xijuo t*ç*umu. *Eſbru-* |  |
@@ -83,7 +83,7 @@ The right running header prints DA, unlike DO in the left header.
 | `c2-l007` | &emsp;*tarenſe os annos, meſes, & dias. ¶* Fica- |  |
 | `c2-l008` | &emsp;zugat*ç*umoru. *Paßarenſe muitos dias.* |  |
 | `c2-l009` | &emsp;*¶* Toga, l, t*ç*umiga t*ç*umoru. *Ajunta-* |  |
-| `c2-l010` | &emsp;*renſe, ou acumularenſe peccados. ¶* Zai- |  |
+| `c2-l010` | &emsp;*renſe, ou acumularenſe peccados. ¶ Z*ai- |  |
 | `c2-l011` | &emsp;fôga t*ç*umoru. *Crecerem as riquezas.* |  |
 | `c2-l012` | &emsp;*¶* Chiri t*ç*umotte yamato naru. *De peque-* |  |
 | `c2-l013` | &emsp;*nas couſas acumuladas ſe fazem grandes.* |  |
@@ -110,7 +110,7 @@ The right running header prints DA, unlike DO in the left header.
 | `c2-l034` | &emsp;*vezes.* |  |
 | `c2-l035` | T*ç*unmauaxi, ſu. *Fazer rodear o caualo pu-* |  |
 | `c2-l036` | &emsp;*xãdo pera aparte eſquerda o meſmo caualo.* Fin |  |
-| `c2-l037` | &emsp;mauaxi, ſu. *He o contrario. ſ. da parte direi-* |  |
+| `c2-l037` | &emsp;m*a*uaxi, ſu. *He o contrario. ſ. da parte direi-* |  |
 | `c2-l038` | &emsp;*ta pera a eſquerda.* |  |
 | `c2-l039` | T*ç*uno. *Corno. ¶* T*ç*unoga vouoru. *Na-* |  |
 | `c2-l040` | &emsp;*cerem cornos ao animal.* |  |

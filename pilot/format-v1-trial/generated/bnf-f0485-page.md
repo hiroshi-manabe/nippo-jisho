@@ -24,8 +24,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l008` | &emsp;reni tçuite. *Acerca dißo.* |  |
 | `c1-l009` | Tçuitǒ. *O matar, & deſtruir como por juſti-* |  |
 | `c1-l010` | &emsp;*ça, ou mandado dalgum ſenhor, &c.* |  |
-| `c1-l011` | Tçuixô. *Liſonias, ou meiguices. ¶* Tçui- |  |
-| `c1-l012` | &emsp;xôni môſu. l, Tçuixôuo mǒſu. *Liſõ-* |  |
+| `c1-l011` | Tçuixô. *Liſonjas, ou meiguices. ¶* Tçui- |  |
+| `c1-l012` | &emsp;xôni môſu. *l*, Tçuixôuo mǒſu. *Liſõ-* |  |
 | `c1-l013` | &emsp;*gear, ou falar meiguices.* |  |
 | `c1-l014` | T*ç*uixu. *Vaſo, ou outra obra de varios lauores* |  |
 | `c1-l015` | &emsp;*com tintas, & molduras, que vem da China.* |  |
@@ -33,7 +33,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l017` | &emsp;*tio, &c.* |  |
 | `c1-l018` | Tçuiyaxi, ſu, ita. l, Tçuyaxi, ſu. *Gaſ-* |  |
 | `c1-l019` | &emsp;*tar mal, ou eſperdiçar. Vt, T*acarauo t*ç*uiyaſu. |  |
-| `c1-l020` | T*ç*uiye, uru, eta. l, *Tç*uye, uru. *Eſperdi-* |  |
+| `c1-l020` | T*ç*uiye, uru, eta. *l*, *Tç*uye, uru. *Eſperdi-* |  |
 | `c1-l021` | &emsp;*çarſe, ou gaſtarſe mal algua couſa. Vide Tç*u- |  |
 | `c1-l022` | &emsp;ye, uru. |  |
 | `c1-l023` | *Tç*uiye. *Gaſto, perda, ou cuſtos. ¶ Tç*ui- |  |
@@ -47,13 +47,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l031` | &emsp;*parte.* Cuchiga t*ç*ǔzuru. *Entenderſe en-* |  |
 | `c1-l032` | &emsp;*treſi no falar. ¶ Item, Fazer ſuas neceßida-* |  |
 | `c1-l033` | &emsp;*des liuremente. Vt,* Daiben. l, Xôbenga |  |
-| `c1-l034` | &emsp;t*ç*ûzuru. *¶* Riga t*ç*ǔzuru. *Fazer ca-* |  |
+| `c1-l034` | &emsp;*tç*ûzuru. *¶* Riga t*ç*ǔzuru. *Fazer ca-* |  |
 | `c1-l035` | &emsp;*mara liuremente, ou ſem impedimento.* |  |
 | `c1-l036` | *T*çǔji. l, T*ç*ǔzzu. *Interprete.* |  |
-| `c1-l037` | T*ç*ǔji. l, Michi t*ç*uji. *Encruzilhada.* |  |
+| `c1-l037` | *Tç*ǔji. l, Michi t*ç*uji. *Encruzilhada.* |  |
 | `c1-l038` | &emsp;*¶* Atamano t*ç*uji *Cucuruta da cabeça.* |  |
 | `c1-l039` | T*ç*ujicaje. *Redemoinho de vento.* |  |
-| `c1-l040` | T*ç*ujidǒro. *Lanterna que ſe poem em alto nas* |  |
+| `c1-l040` | T*ç*ujidǒro. L*anterna que ſe poem em alto nas* |  |
 | `c1-l041` | &emsp;*encruzilhadas.* |  |
 | `c1-l042` | T*ç*ujiga fana. *Catabira pintada com certas fo-* |  |
 | `c1-l043` | &emsp;*lhagens, lauores vermelhos, & de outras co-* |  |
@@ -80,7 +80,7 @@ Scope: `full_dictionary_text_and_furniture`
 | --- | --- | --- |
 | `c2-l001` | T*ç*ujiguiri. *Os que andão de noite matando nas* |  |
 | `c2-l002` | &emsp;*encruzilhadas.* |  |
-| `c2-l003` | *Tç*ujimaqi. *Redemoinho de vento.* X. |  |
+| `c2-l003` | *Tç*ujimaqi. *Redemoinho de vento. X.* |  |
 | `c2-l004` | T*ç*ujimoto. *Caſa como oratorio, onde ſe ajũ-* |  |
 | `c2-l005` | &emsp;*tão a fazer oração, &c. os Icòxus. ¶ Itẽ,* |  |
 | `c2-l006` | &emsp;*homem caſado que he como meſtre dos Icǒxus.* |  |
@@ -90,7 +90,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l010` | &emsp;*Tomar, ou aleuantar as fraldas do veſtido.* |  |
 | `c2-l011` | &emsp;*¶* Noqino t*ç*uma. *Borda do telhado.* |  |
 | `c2-l012` | T*ç*uma. *Eſpoſa, ou molher caſada. Item mi-* |  |
-| `c2-l013` | &emsp;*nùs proprie, Marido, ou homẽ caſado. ¶ Tç*u- |  |
+| `c2-l013` | &emsp;*nùs propriè, Marido, ou homẽ caſado. ¶ Tç*u- |  |
 | `c2-l014` | &emsp;mani naſu. l, ſuru. l, ſadamuru. *Ca-* |  |
 | `c2-l015` | &emsp;*ſarſe com algũa molher.* |  |
 | `c2-l016` | *Tç*uma barami. *Vnheiro.* |  |
@@ -123,7 +123,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l043` | &emsp;majirogia. *Eſte cão tem as mãos brancas.* |  |
 | `c2-l044` | &emsp;*¶ Item, Hũa laya de mariſco como ameijoas.* |  |
 | `c2-l045` | T*ç*umamare. *Paruo, ou tolo. Palaura que ſe* |  |
-| `c2-l046` | &emsp;*diz ẽ deſprezo dos criados, &c. ¶ Tç*u- |  |
+| `c2-l046` | &emsp;*dizẽ deſprezo dos criados, &c. ¶ Tç*u- |  |
 | `c2-l047` | &emsp;mamareta mono. *Idem.* |  |
 
 ## Printed signature
