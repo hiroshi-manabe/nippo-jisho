@@ -7,6 +7,12 @@ from scripts.kana_reading import transliterate_token, phrase_hint, reading_hint,
 
 
 class KanaCorpusTests(unittest.TestCase):
+    def test_voi_is_japanese_not_a_label(self):
+        for token in ('Voi', 'voi'):
+            self.assertEqual(transliterate_token(token), 'オイ')
+        self.assertEqual(phrase_hint('Voi vxinǒ'), 'Voi vxinǒ/オイ ウシノゥ')
+        self.assertTrue(reading_hint_applicable([{'typeface': 'roman', 'text': 'Voi'}]))
+
     def test_italic_initial_stays_with_roman_japanese_hint(self):
         for prefix in ['R', 'Victoria. ¶ R']:
             runs = [{'typeface': 'italic', 'text': prefix}, {'typeface': 'roman', 'text': 'iun.'}]

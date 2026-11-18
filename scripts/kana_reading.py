@@ -7,7 +7,7 @@ import unicodedata
 from itertools import groupby
 
 
-LABELS = {"ad", "adu", "aduer", "aduerb", "alicubi", "bup", "fab", "fei", "feiq", "fox", "i", "item", "l", "lib", "melius", "mon", "nome", "p", "permet", "s", "tac", "taif", "ut", "vt", "voi", "x", "xix"}
+LABELS = {"ad", "adu", "aduer", "aduerb", "alicubi", "bup", "fab", "fei", "feiq", "fox", "i", "item", "l", "lib", "melius", "mon", "nome", "p", "permet", "s", "tac", "taif", "ut", "vt", "x", "xix"}
 VOWELS = {"a": "ア", "i": "イ", "u": "ウ", "e": "エ", "o": "オ"}
 LABELS.add("yax")  # Citation label, not Japanese running text (f169).
 ROWS = {
