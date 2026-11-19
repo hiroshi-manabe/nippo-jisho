@@ -24,7 +24,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l008` | &emsp;*de pao pera ſe encoſtar, ou bordão. ¶* Co- |  |
 | `c1-l009` | &emsp;meuo t*ç*uqu. *Pilar arroz. ¶* T*ç*uchi- |  |
 | `c1-l010` | &emsp;uo t*ç*uqu. *Bater, ou pilar a terra como quẽ* |  |
-| `c1-l011` | &emsp;*faz taipa, &c. ¶* Qenuo motte fitouo |  |
+| `c1-l011` | &emsp;*faz taipa, &c. ¶ Q*enuo motte fitouo |  |
 | `c1-l012` | &emsp;t*ç*uqu. *Dar destocadas com eſpada ẽ alguẽ.* |  |
 | `c1-l013` | &emsp;*¶* Yariuo t*ç*uqu. *Dar lançadas. ¶* Ta- |  |
 | `c1-l014` | &emsp;teuo t*ç*uqu. *Arrodelarſe ao modo de Iapão* |  |
@@ -86,7 +86,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l006` | &emsp;*os bois, veados, &c.* |  |
 | `c2-l007` | Tçuqicacari, ru, atta. *Encontrarſe, ou* |  |
 | `c2-l008` | &emsp;*dar de encõtro com alguem como no caminho,* |  |
-| `c2-l009` | &emsp;*&c. Itẽ, Dar ſobre alguẽ cõ lãça, ou eſtocadas.* |  |
+| `c2-l009` | &emsp;*&c.* I*tẽ, Dar ſobre alguẽ cõ lãça, ou eſtocadas.* |  |
 | `c2-l010` | T*ç*uqi cague. *Sombra, ou ſemelhança da lũa.* |  |
 | `c2-l011` | &emsp;*¶ Item, Claridade, ou rayo da lũa. Vt,* |  |
 | `c2-l012` | &emsp;Tçuqi caguega ſaſu. *Entrar a claridade da* |  |
@@ -95,7 +95,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l015` | &emsp;*couſa como com rodela, &c. ou pondoa por* |  |
 | `c2-l016` | &emsp;*emparo ſobre outra couſa. Vt,* Ichimai fa- |  |
 | `c2-l017` | &emsp;guino vataridateuo vmano caxirani t*ç*uqi |  |
-| `c2-l018` | &emsp;cazaite, &c. Yax. *Pondo nas cabeças* |  |
+| `c2-l018` | &emsp;cazaite, &c. Yax. P*ondo nas cabeças* |  |
 | `c2-l019` | &emsp;*dos caualos hũas rodelas leues de hũa ſoò taboa.* |  |
 | `c2-l020` | T*ç*uqicomi, mu, ôda. *Meter a lança, ou* |  |
 | `c2-l021` | &emsp;*adaga, &c. ¶* Miſouo t*ç*uqicomu. *Cal-* |  |

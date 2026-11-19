@@ -22,7 +22,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l006` | &emsp;*ſto, &c. ¶* Iy t*ç*unoru. *Ir crecendo,* |  |
 | `c1-l007` | &emsp;*& leuantandoſe no falar como quãdo vai cre-* |  |
 | `c1-l008` | &emsp;*cendo a colera a alguem.* |  |
-| `c1-l009` | T*ç*unoriai, ǒ, ǒta. *Acharemſe algũas peſſoas* |  |
+| `c1-l009` | T*ç*unoriai, ǒ, ǒta. *Acharenſe algũas peſſoas* |  |
 | `c1-l010` | &emsp;*conhecidas, parentes, ou naturaes da meſma* |  |
 | `c1-l011` | &emsp;*terra vendoſe, ou encontrandoſe de nouo, ou* |  |
 | `c1-l012` | &emsp;*depois de muito tempo.* |  |
@@ -31,7 +31,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l015` | &emsp;*põtaletes a algũa parede, ou outra couſa fraca.* |  |
 | `c1-l016` | T*ç*uppato. *Adu. Modo de eſtar algũa couſa* |  |
 | `c1-l017` | &emsp;*chea, ou tresbordar. ¶* T*ç*uppato tatayu- |  |
-| `c1-l018` | &emsp;ru. *Tresbordar por fora.* |  |
+| `c1-l018` | &emsp;ru. T*resbordar por fora.* |  |
 | `c1-l019` | T*ç*uqe, uru, eta. *Por, ou pegar hũa couſa* |  |
 | `c1-l020` | &emsp;*a outra. Vt,* Iyeni fiuo t*ç*uquru. *Por fo-* |  |
 | `c1-l021` | &emsp;*go à caſa. ¶* Nauo t*ç*uquru. *Por nome.* |  |
@@ -42,7 +42,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l026` | &emsp;*lento ao que eſtà eſmorecido, ou ſem forças.* |  |
 | `c1-l027` | &emsp;*Item, Aplicar o animo, & atenção. ¶* Me- |  |
 | `c1-l028` | &emsp;uo t*ç*uquru. *Por os olhos em algũa couſa.* |  |
-| `c1-l029` | &emsp;*¶* Caneuo tçuquru. *Tingir os dentes de* |  |
+| `c1-l029` | &emsp;*¶* Caneuo t*ç*uquru. T*ingir os dentes de* |  |
 | `c1-l030` | &emsp;*preto. ¶* Cǒbeuo chini t*ç*uquru. *Pro-* |  |
 | `c1-l031` | &emsp;*ſtrarſe com a cabeça por terra. ¶* Funeuo |  |
 | `c1-l032` | &emsp;t*ç*uquru. *Chegar com a embarcação a algũa* |  |
@@ -52,7 +52,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l036` | &emsp;*¶* Fitoni fitouo t*ç*uquru. *Mandar algũa* |  |
 | `c1-l038` | &emsp;*peßoa com outra pera acompanhar. ¶* Ato- |  |
 | `c1-l039` | &emsp;uo t*ç*uquru. *Deixar raſto de ſi. Item.* A- |  |
-| `c1-l040` | &emsp;touot*ç*uquru. l, Atouo t*ç*uqete yuqu. *Ir* |  |
+| `c1-l040` | &emsp;touo t*ç*uquru. l, Atouo t*ç*uqete yuqu. *Ir* |  |
 | `c1-l041` | &emsp;*de tras no alcance dos que vão fugindo, ou* |  |
 | `c1-l042` | &emsp;*dalgum animal. ¶* Teqiga t*ç*uquru. *I-* |  |
 | `c1-l043` | &emsp;*rem os inimigos no alcance dos que fogem.* |  |
@@ -112,7 +112,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l038` | &emsp;*lumiar, ou reſplandecer a lũa. ¶* T*ç*uqiga |  |
 | `c2-l039` | &emsp;ſayuru. *Estar a lũa clara, & fermoſa. prin-* |  |
 | `c2-l040` | &emsp;*cipalmente no Inuerno ſe vſa desta palaura.* |  |
-| `c2-l041` | &emsp;T*ç*uqiſayete. P. *Estando a lũa freſca,* |  |
+| `c2-l041` | &emsp;T*ç*uqiſayete. *P. Estando a lũa freſca,* |  |
 | `c2-l042` | &emsp;*& fria. ¶* T*ç*uqiga tachinoboru. *Irſe* |  |
 | `c2-l043` | &emsp;*aleuantando a lũa. ¶* Tçuqino caſa. *Cir-* |  |
 | `c2-l044` | &emsp;*culo que aparece ao derredor da lũa. ¶* Tçu- |  |
