@@ -14,7 +14,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | T*ç*uqimairi. *O ir cada mes à T*era, *ou ermi-* |  |
+| `c1-l001` | T*ç*uqi mairi. *O ir cada mes à T*era, *ou ermi-* |  |
 | `c1-l002` | &emsp;*da dos* Camis, *&c.* |  |
 | `c1-l003` | T*ç*uguimauaxi, ſu, aita. *Cercar fazendo pa* |  |
 | `c1-l004` | &emsp;*rede, vallado, &c. ao redor. Vt,* T*ç*uigi |  |
@@ -23,8 +23,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l007` | T*ç*uqimi. *O ver a lũa por ceremonia, recrea-* |  |
 | `c1-l008` | &emsp;*ção, &c. Vt,* T*ç*uqimini mairu. *Ir a* |  |
 | `c1-l009` | &emsp;*ver a lũa.* |  |
-| `c1-l010` | *Tç*uqimǒde. *O ir cada mes à* Tera, *ou diante* |  |
-| `c1-l011` | &emsp;*dalgum* Cami, *ou* Fotoque. |  |
+| `c1-l010` | *Tç*uqimǒde. *O ir cada mes à* T*era*, *ou diante* |  |
+| `c1-l011` | &emsp;*dalgum Cami*, *ou Fotoque*. |  |
 | `c1-l012` | T*ç*uqinami. *Continuação de meſes q̃ ſe ſeguẽ hũ* |  |
 | `c1-l013` | &emsp;*a pos outro. Vt,* T*ç*uqinamino quai. *A-* |  |
 | `c1-l014` | &emsp;*juntamento, ou folguedo de muitos continuado* |  |
@@ -32,16 +32,16 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l016` | &emsp;*tinuação de meſes, & dias.* |  |
 | `c1-l017` | T*ç*uqinarabe, ru, eta. *Fixar algũas couſas* |  |
 | `c1-l018` | &emsp;*igualmente como rodelas, ou repairos que ſe v-* |  |
-| `c1-l019` | &emsp;*ſão na guerra em Iapão.* |  |
+| `c1-l019` | &emsp;*ſão na guerra em* I*apão.* |  |
 | `c1-l020` | T*ç*uqinaraxi, ſu, aita. *Igualar, ou aprai-* |  |
-| `c1-l021` | &emsp;*nar como terra aleuantada. ¶ Item, Tan-* |  |
+| `c1-l021` | &emsp;*nar como terra aleuantada. ¶ Item,* T*an-* |  |
 | `c1-l022` | &emsp;*ger ſinos, &c. ou fazelos ſoar dandolhes com* |  |
 | `c1-l023` | &emsp;*algum pao, ou martelo, &c.* |  |
-| `c1-l024` | T*ç*uqino caſa. *Vide,* Tçuqi. |  |
+| `c1-l024` | T*ç*uqino caſa. *Vide, T*çuqi. |  |
 | `c1-l025` | T*ç*uqino cat*ç*ura. *Hũa materia craſſa, ou pre* |  |
 | `c1-l026` | &emsp;*to que aparece dentro da lũa.* |  |
-| `c1-l027` | T*ç*uqino cuma. P. i, T*ç*uqino cumori. *O* |  |
-| `c1-l028` | &emsp;*estar a lũa hum pouco teldada, ou aparecer co-* |  |
+| `c1-l027` | T*ç*uqino cuma. *P.* i, T*ç*uqino cumori. *O* |  |
+| `c1-l028` | &emsp;*estar a lũa hum pouco toldada, ou aparecer co-* |  |
 | `c1-l029` | &emsp;*mo por antre nuuẽs, ou neuoa.* |  |
 | `c1-l030` | T*ç*uqino ſauari. *Regra das molheres.* |  |
 | `c1-l031` | &emsp;*¶* T*ç*uqino ſauariga aru. *Auer, ou terẽ* |  |
@@ -52,7 +52,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l036` | &emsp;*ou estocada.* |  |
 | `c1-l037` | T*ç*uqiſoi, ô, ôta. *Eſtar junto, ou pegado cõ* |  |
 | `c1-l038` | &emsp;*alguem. Vt,* Fitoni t*ç*uqiſô. |  |
-| `c1-l039` | T*ç*uqit tari, ru, atta. *Entrar o diabo, ou* |  |
+| `c1-l039` | T*ç*uqitatari, ru, atta. *Entrar o diabo, ou* |  |
 | `c1-l040` | &emsp;Cami *em alguem, & fazer lhe mal, ou auexalo.* |  |
 | `c1-l041` | T*ç*uqitate, uru, eta. *Meter algũa couſa agu-* |  |
 | `c1-l042` | &emsp;*da como adaga nos peitos, &c. ¶ Item,* |  |
@@ -81,7 +81,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l006` | Tçuqitçuranuqi, u, uita. *Atraueſar de par-* |  |
 | `c2-l007` | &emsp;*te a parte com lança, eſtocada, &c.* |  |
 | `c2-l008` | Tçuqitouoxi, ſu, oita. *Idem.* |  |
-| `c2-l009` | Tçuqivochi. l, t*ç*uqivochite. *Abaixandoſe* |  |
+| `c2-l009` | Tçuqivochi. *l*, t*ç*uqivochite. *Abaixandoſe* |  |
 | `c2-l010` | &emsp;*a lũa, ou pondoſe: he modo de falar, que não* |  |
 | `c2-l011` | &emsp;*ſe vſa mais que deſta maneira.* |  |
 | `c2-l012` | T*ç*uqivotoxi, ſu, oita. *Derrubar de lugar al-* |  |
@@ -117,8 +117,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l042` | &emsp;*ſo a nada.* |  |
 | `c2-l043` | *T*çura. *Cara, ou focinho. Item, Parte, ou* |  |
 | `c2-l044` | &emsp;*banda. Vt,* Figaxino, l, nixino tçura. |  |
-| `c2-l045` | &emsp;*Parte do Leſte, ou Oeſte. ¶* Soretçurano |  |
-| `c2-l046` | &emsp;mono. *Couſa deßa laya, teor, ou aparencia.* |  |
+| `c2-l045` | &emsp;*Parte do* L*eſte, ou Oeſte. ¶* Soretçurano |  |
+| `c2-l046` | &emsp;mono. *Couſa deſſa laya, teor, ou aparencia.* |  |
 | `c2-l047` | Tçuracuxe. *Ruim ſembrante, ou roſto carre-* |  |
 
 ## Printed catchword
