@@ -22,6 +22,9 @@ rows along with ordinary text. Use the same schema-2 structural authority.
 3. For each `targets/` page, follow the shared two-pass procedure. Read all lines
    against the native scan and write substantive English notes while reading.
    Inspect every final crop and then perform the separate complete second pass.
+   In that pass, check changed readings in both languages against the meaning
+   of the whole entry. Reinspect the scan if a reading does not fit; apply the
+   contextually plausible alternative directly if the print supports it.
    The initial kana readings are fallible and may become stale after edits;
    reason from the revised Japanese rather than preserving a bad hint.
 4. Copy `result-template/` to a working output directory. Edit its page Markdown
@@ -44,7 +47,16 @@ rows along with ordinary text. Use the same schema-2 structural authority.
    read-only until the request is resolved, rather than blocking other imports.
    An applied structural correction or ordinary damaged glyph is not itself a
    reason to stop. Keep useful uncertainties in the corresponding line notes
-   as well, so the human sees them. Empty lists mean none. `typeface_terms` maps body
+   as well, so the human sees them. If the scan appears to support one reading
+   but context points to a concrete, meaning-changing alternative worth checking,
+   keep the scan-based reading and record the alternative in the line note and
+   in the page object's optional `suggestions` list, not in `decision_requests`.
+   Each suggestion has `line_id`, `before`, `after`, and `reason`. Use the complete
+   compact Markdown line without its ID or note for `before` and `after`;
+   `before` must exactly match the returned transcription. The reason should
+   state what the scan appears to show and why the alternative fits the entry.
+   Do not suggest changes already applied or flag uncertainty without a concrete
+   alternative. Empty lists mean none. `typeface_terms` maps body
    line IDs to exact substrings: Japanese words embedded in Portuguese or
    citation labels for human whole-word font toggling, not ordinary headwords.
    Do not mark Japanese synonyms after `i,`, standalone Japanese example

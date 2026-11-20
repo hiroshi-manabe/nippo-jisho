@@ -36,6 +36,17 @@ rerun OCR, or run a language model over every page.
    wrong-row associations, meaningful confusions, typography and graphic detail.
    Amend comments when subsequent corrections invalidate their explanation.
 
+   For changed readings in either Japanese or Portuguese, check whether the
+   wording fits the entry as a whole, using each language to check the other.
+   If it does not fit, identify a concrete contextually plausible alternative
+   and compare both readings against the native scan again. If the scan
+   supports the alternative, apply it directly. If the scan appears to support
+   a different reading, retain that reading. When the alternative would
+   materially change the meaning and is worth a human look, record it as a
+   nonblocking suggestion: explain what the scan appears to show and why the
+   alternative fits the entry. Ask the human to judge what is printed, not to
+   normalize it. Keep the caveat in the line note.
+
 For meaning-changing alternatives (f/ſ, q/g, word identity and morphology),
 linguistic evidence guides reinspection. For arbitrary graphic distinctions
 (s/ſ, accents, spacing, punctuation, terminal hyphens), respect aligned OCR
