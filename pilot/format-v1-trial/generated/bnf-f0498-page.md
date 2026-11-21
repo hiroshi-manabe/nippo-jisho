@@ -86,17 +86,17 @@ Lexical aid: [NINJAL, Entry Words Data of Nippojisho, version 202510](https://ww
 | `c2-l010` | Tejei. *Gente, ou ſoldados proprios.* |  |
 | `c2-l011` | Tejina. *Arte, & meneo das mãos como em* |  |
 | `c2-l012` | &emsp;*dançar, ou vſar do abano, &c.* |  |
-| `c2-l013` | Tejita. *Couſa ſomenos, & inferior. Vt,* T- |  |
+| `c2-l013` | Tejita. *Couſa ſomenos, & inferior. Vt,* Te- |  |
 | `c2-l014` | &emsp;vye tejita. *Couſas altas, & baixas, ou in-* |  |
 | `c2-l015` | &emsp;*feriores.* |  |
 | `c2-l016` | Temachin. *Iornal, ou paga, que ſe dà a algum* |  |
 | `c2-l017` | &emsp;*official, ou a algum homem alugado pera tra-* |  |
 | `c2-l018` | &emsp;*balhar.* |  |
-| `c2-l019` | Temareô. l, Temariô. *Idem.* |  |
+| `c2-l019` | Temareô. *l*, Temariô. *Idem.* |  |
 | `c2-l020` | Temari. *Pela que ſe joga com a mão. ¶* Te- |  |
 | `c2-l021` | &emsp;mariuo t*ç*uqu. *Iugar à pela com a mão.* |  |
 | `c2-l022` | *T*emariqua. *Hũa roſa, ou fula branca.* |  |
-| `c2-l023` | *T*emaſari. l, temaſarina. i, *T*emaxi. *Vide* |  |
+| `c2-l023` | *T*emaſari. *l*, temaſarina. i, *T*emaxi. *Vide* |  |
 | `c2-l024` | &emsp;*infrà.* |  |
 | `c2-l025` | *T*ematai. *Homem ſimples, & recto.* |  |
 | `c2-l026` | &emsp;Temataſa. |  |
@@ -106,12 +106,12 @@ Lexical aid: [NINJAL, Entry Words Data of Nippojisho, version 202510](https://ww
 | `c2-l030` | &emsp;tori. *He o contrario.* |  |
 | `c2-l031` | *T*emaye. *Couſa que toca, ou pertence a alguẽ,* |  |
 | `c2-l032` | &emsp;*ou obra que hum faz. ¶* Sonatano tema- |  |
-| `c2-l033` | &emsp;yegia. *A vos pertence eſta obra, ou eſta he a* |  |
+| `c2-l033` | &emsp;yegia. *A vos pertence eſta obra, ou eſta he à* |  |
 | `c2-l034` | &emsp;*voſſa vez. ¶* Temaye iſogaxij. *Eſtar* |  |
 | `c2-l035` | &emsp;*ocupado com algũa couſa, ou obra propria.* |  |
 | `c2-l036` | &emsp;*¶ T*emayega naranu. *Não ter poße pe-* |  |
 | `c2-l037` | &emsp;*ra algũa couſa. ¶ T*emaye docu. *Obra,* |  |
-| `c2-l038` | &emsp;*ou empreitada que hum toma à ſua conta a qual* |  |
+| `c2-l038` | &emsp;*ou empreitada que hum toma á ſua conta a qual* |  |
 | `c2-l039` | &emsp;*pode acabar quando quiſer ſem ter deuer mais* |  |
 | `c2-l040` | &emsp;*com nada. ¶ T*emayeni canega nai fo- |  |
 | `c2-l041` | &emsp;doni caſaxerarei. *Porque não tenho agora* |  |

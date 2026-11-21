@@ -33,19 +33,19 @@ Lexical aid: [NINJAL, Entry Words Data of Nippojisho, version 202510](https://ww
 | `c1-l015` | &emsp;*mo que T*entǒ. *Ordem, ou reuolução, & go* |  |
 | `c1-l016` | &emsp;*uerno do ceo, pollo qual algũs parece q̃entendẽ* |  |
 | `c1-l017` | &emsp;*a Deos, ou o gouernador do ceo.* |  |
-| `c1-l018` | *T*en. *Hũ animalinho como doninha, ou mayor.* |  |
+| `c1-l018` | *T*en. *Hũ animalinho como dòninha, ou mayor.* |  |
 | `c1-l019` | *T*en. *Pontinho, ou riſca, ou maneira de til q̃* |  |
 | `c1-l020` | &emsp;*ſe poem nas letras, ou junto dellas, ou nos ro-* |  |
 | `c1-l021` | &emsp;*is. ¶* Tenuo vt*ç*u. *Por eſte pontinho nas* |  |
 | `c1-l022` | &emsp;*letras de Iapão. ¶ T*enuo caquru. *Por,* |  |
 | `c1-l023` | &emsp;*ou fazer hũa riſca comprida, ao longo das le-* |  |
-| `c1-l024` | &emsp;*tras da china, ou Iapão porſinal de ſerem boas,* |  |
+| `c1-l024` | &emsp;*tras da China, ou Iapão por ſinal de ſerem boas,* |  |
 | `c1-l025` | &emsp;*ou ruins. ¶ Item, Riſcas que ſe dão em al-* |  |
 | `c1-l026` | &emsp;*gũas contas, ou roes que eſtão ja liquidados.* |  |
 | `c1-l027` | &emsp;*¶ Item, Sinal, ou letra chamada Catacana que* |  |
 | `c1-l028` | &emsp;*ſe poem ao pè das letras Chinas pera denotar o* |  |
-| `c1-l029` | &emsp;*modo de ler. Vt,* Cono goua reǒtenni yo. |  |
-| `c1-l030` | &emsp;mu, l, riǒtengaara. *Eſta ſentença leeſe* |  |
+| `c1-l029` | &emsp;*modo de ler. Vt,* Cono goua reǒtenni yo- |  |
+| `c1-l030` | &emsp;mu, l, riǒtenga aru. *Eſta ſentença lèeſe* |  |
 | `c1-l031` | &emsp;*de duas maneiras, ou tem dous ſinais pollos qua-* |  |
 | `c1-l032` | &emsp;*es ſe pode ler de hũa maneira, & doutra.* |  |
 | `c1-l033` | *T*enaga. *O ſeruir à meſa leuando as meſas a-* |  |
@@ -74,11 +74,11 @@ Lexical aid: [NINJAL, Entry Words Data of Nippojisho, version 202510](https://ww
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | &emsp;*paſſaro, &c. ¶ T*enareta tori, l, inu. |  |
+| `c2-l001` | &emsp;*paſſaro, &c. ¶ T*enareta tori, *l*, inu. |  |
 | `c2-l002` | &emsp;*Paßaro, ou cão manſo, & domestico.* |  |
 | `c2-l003` | *T*enaye. *Aleijão das mãos.* |  |
 | `c2-l004` | *T*enba. Dairino vma. *Caualo do Rey.* |  |
-| `c2-l005` | *T*enbachi. *Melius, T*enbat. *Caſtigo do ceo.* |  |
+| `c2-l005` | *T*enbachi. *Meliùs, T*enbat. *Caſtigo do ceo.* |  |
 | `c2-l006` | Tenben. i, Vt*ç*uri cauaru. *Mudança. Vt,* |  |
 | `c2-l007` | &emsp;Xiqino tenben. *Mudança, ou variedade* |  |
 | `c2-l008` | &emsp;*dos 4. tempos. ¶* Xejǒno tenben. |  |
@@ -103,7 +103,7 @@ Lexical aid: [NINJAL, Entry Words Data of Nippojisho, version 202510](https://ww
 | `c2-l027` | &emsp;*ſuir, ou ter na mão o imperio, ou monarchia.* |  |
 | `c2-l028` | &emsp;*¶* Tenca dai ichi. *Couſa vnica, & ſin-* |  |
 | `c2-l029` | &emsp;*gular no mundo. ¶* Tencabuſǒ. *Idem.* |  |
-| `c2-l030` | *T*enca busǒna. l, Tenca dai ichina. *Couſa* |  |
+| `c2-l030` | *T*enca busǒna. *l*, Tenca dai ichina. *Couſa* |  |
 | `c2-l031` | &emsp;*vnica, & ſingular no mundo.* |  |
 | `c2-l032` | Tencai. Tenno imaxime. *Ley, ou prohi-* |  |
 | `c2-l033` | &emsp;*bição de Deos, ou do ceo.* |  |
@@ -115,7 +115,7 @@ Lexical aid: [NINJAL, Entry Words Data of Nippojisho, version 202510](https://ww
 | `c2-l039` | &emsp;*¶* Tenchi caifiacu yori conocata. *Deſ-* |  |
 | `c2-l040` | &emsp;*do principio, ou começo do ceo, & da terra a-* |  |
 | `c2-l041` | &emsp;*tè agora.* |  |
-| `c2-l042` | Tenchocu. *Mandado, ou recado do Rey.* |  |
+| `c2-l042` | Tenchocu. M*andado, ou recado do Rey.* |  |
 | `c2-l043` | &emsp;*¶* Tenchocuni macaxete. *Conforme ao* |  |
 | `c2-l044` | &emsp;*que o Rey manda. ¶ Item, Mandado, ou or-* |  |
 | `c2-l045` | &emsp;*denação de Deos.* |  |
