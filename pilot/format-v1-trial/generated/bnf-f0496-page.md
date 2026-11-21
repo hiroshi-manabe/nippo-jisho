@@ -24,7 +24,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l008` | &emsp;*ſtre, &c.* |  |
 | `c1-l009` | *T*ebaco. *Boceta, ou caixinha.* |  |
 | `c1-l010` | *T*ebana. *O aſoarſe com a mão. Vt,* Teba. |  |
-| `c1-l011` | &emsp;nauo camu. B. |  |
+| `c1-l011` | &emsp;nauo camu. *B.* |  |
 | `c1-l012` | Tebatebaxij. *Liſongeiro, ou peſſoa que quer* |  |
 | `c1-l013` | &emsp;*contentar com palauras brandas, & meigas.* |  |
 | `c1-l014` | &emsp;*¶* Tebatebaxij ixǒuo qiru. *Vestir algũ* |  |
@@ -38,7 +38,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l022` | *T*ebayai. *Peſſoa diligẽte, & lestes das mãos.* |  |
 | `c1-l023` | *T*ebayana. *Idem.* |  |
 | `c1-l024` | *T*ebin. i, *T*emoto, l, temauari. *Apar, ou* |  |
-| `c1-l025` | &emsp;*junto da mão. Vt, T*ebinniua nai. i, *Não* |  |
+| `c1-l025` | &emsp;*junto da mão. Vt, T*ebinniua nai. *i*, *Não* |  |
 | `c1-l026` | &emsp;*tenho agora aqui à mão.* |  |
 | `c1-l027` | *T*ebiǒxi. *Obater das mãos a compaſſo. Vt,* |  |
 | `c1-l028` | &emsp;*T*ebiǒxiuo vtçu. |  |
@@ -79,7 +79,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l005` | &emsp;*bulir, ou menear as mãos. Vt, T*eburiga |  |
 | `c2-l006` | &emsp;yoi, l, varui fito. *Homem que tem bom,* |  |
 | `c2-l007` | &emsp;*ou ruim meneo, ou postura das mãos.* |  |
-| `c2-l008` | *T*ecagami. *Muitos treslados juntos encadena.* |  |
+| `c2-l008` | *T*ecagami. M*uitos treslados juntos encadena-* |  |
 | `c2-l009` | &emsp;*dos de letra boa de homẽs antigos, & inſignes.* |  |
 | `c2-l010` | *T*ecaqe. *Manceba.* |  |
 | `c2-l011` | *T*ecaqi. *Bom eſcriuão.* |  |
@@ -95,7 +95,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l021` | *T*ecô. *Adu.* |  |
 | `c2-l022` | *T*ecqua. Curogane fi. *Ferro abraſado.* |  |
 | `c2-l023` | *T*ecqeô. Curoganeno faxi. *Faxis, ou eſpetinho* |  |
-| `c2-l024` | &emsp;*de ferro ſobre q̃ aſão algũa couſa metendo bra-* |  |
+| `c2-l024` | &emsp;*de ferro ſobre q̃ aßão algũa couſa metendo bra-* |  |
 | `c2-l025` | &emsp;*ſas de baixo.* |  |
 | `c2-l026` | *T*ecqi. Curoganeno qi. l, xǒ. *Qualida-* |  |
 | `c2-l027` | &emsp;*de, ou natureza de ferro. Vt, T*ecqiuo imu |  |
@@ -116,7 +116,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l042` | &emsp;*viuo aquelle homem. T*ac. |  |
 | `c2-l043` | *T*edori. *Aſas da panela de ferro do Chanoyu.* |  |
 | `c2-l044` | *T*edouoi. *Couſa que eſtà longe, & afaſtada* |  |
-| `c2-l045` | &emsp;*pera lhe apontar, ou atirar com arco. ¶ Ite,* |  |
+| `c2-l045` | &emsp;*pera lhe apontar, ou atirar com arco. ¶* I*te,* |  |
 | `c2-l046` | &emsp;*Couſa afastada das mãos.* |  |
 | `c2-l047` | *T*efen. *Hum buraco q̃ tem o capecete na cimeira* |  |
 
