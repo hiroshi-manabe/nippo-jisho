@@ -16,7 +16,7 @@ Lexical reference consulted after independent scan reading: NINJAL, *Entry Words
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | Tçuridôro. *Lanterna que ſe dependura.* |  |
+| `c1-l001` | Tçuridôro. *Lanterna que fe dependura.* |  |
 | `c1-l002` | Tçuri ito. *Linha de peſcar.* |  |
 | `c1-l003` | Tçurimono. *Couſa dependurada: particular-* |  |
 | `c1-l004` | &emsp;*mente ſe toma por hũa panela de ferro, que ſer* |  |
@@ -24,9 +24,9 @@ Lexical reference consulted after independent scan reading: NINJAL, *Entry Words
 | `c1-l006` | T*ç*ǔriqi. *Forças penetratiuas, ou qualidades* |  |
 | `c1-l007` | &emsp;*glorioſas que ſão ſeis. Primeira,* Iinqiǒt*ç*ǔ. |  |
 | `c1-l008` | &emsp;*Velocidade no andar. Segũda,* Tenguent*ç*ǔ. |  |
-| `c1-l009` | &emsp;*Vista penetratiua de tudo. Terceira,* Tenni- |  |
+| `c1-l009` | &emsp;*Vista penetratiua de tudo.* T*erceira,* Tenni- |  |
 | `c1-l010` | &emsp;t*ç*ǔ. *Ouuir todas as couſas do mundo. Quar* |  |
-| `c1-l011` | &emsp;*ta,* Taxin çǔ. *Saber os corações de todos.* |  |
+| `c1-l011` | &emsp;*ta,* Taxintçǔ. *Saber os corações de todos.* |  |
 | `c1-l012` | &emsp;*Quinta,* Rojint*ç*ǔ. *Não ter macula nenhũa,* |  |
 | `c1-l013` | &emsp;*nem imperfeição. Sexta,* Xucumiǒt*ç*ǔ. *Sa-* |  |
 | `c1-l014` | &emsp;*ber todo o paßado.* |  |
@@ -44,9 +44,9 @@ Lexical reference consulted after independent scan reading: NINJAL, *Entry Words
 | `c1-l026` | &emsp;*zer cordas de arco. ¶* T*ç*uruvotouo furu. |  |
 | `c1-l027` | &emsp;*Prouar com a mão a corda fazendoa ſoar.* |  |
 | `c1-l028` | &emsp;*¶* T*ç*uruuo caquru. *Por a corda no arco* |  |
-| `c1-l030` | &emsp;*¶* T*ç*uruuo fazzuſu. *Tirar a corda do arco.* |  |
+| `c1-l030` | &emsp;*¶* T*ç*uruuo fazzuſu. T*irar a corda do arco.* |  |
 | `c1-l032` | T*ç*urube. *Balde.* |  |
-| `c1-l033` | Tçurubedachi. l, t*ç*urubedachini. *Feição* |  |
+| `c1-l033` | T*ç*urubedachi. l, t*ç*urubedachini. *Feição* |  |
 | `c1-l034` | &emsp;*de quem poem, ou dependura balde em poço* |  |
 | `c1-l035` | &emsp;*pera declarar couſa imgreme como rocha talha-* |  |
 | `c1-l036` | &emsp;*da ou grande precipicio.* |  |
@@ -58,9 +58,9 @@ Lexical reference consulted after independent scan reading: NINJAL, *Entry Words
 | `c1-l042` | &emsp;*particular trajo em Iapão. ſ. touca na cabeça,* |  |
 | `c1-l043` | &emsp;*& Catabira vermelha curta.* |  |
 | `c1-l044` | T*ç*urucaqe. *Vide,* T*ç*urunabe. |  |
-| `c1-l045` | Tçurucubi. *Hũa laya de bules de vinho d* |  |
+| `c1-l045` | Tçurucubi. *Hũa laya de bules de vinho de* |  |
 | `c1-l046` | &emsp;*bronzo como galhetas grandes, ou guindes.* |  |
-| `c1-l047` | T*ç*urucubino fiotan. *Cabaças que tem peſco-* |  |
+| `c1-l047` | T*ç*urucubino fiǒtan. *Cabaças que tem peſco-* |  |
 | `c1-l048` | &emsp;*ço como de grou. ¶ Item, Qualquer outro* |  |
 | `c1-l049` | &emsp;*vaſo desta figura, ou feição.* |  |
 
@@ -74,19 +74,19 @@ Lexical reference consulted after independent scan reading: NINJAL, *Entry Words
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | Tçurugui. *Eſpada que corta muito. ¶ Itẽ,* |  |
-| `c2-l002` | &emsp;*Catana em geral.* |  |
+| `c2-l001` | Tçurugui. *Eſpada que corta muito. ¶* I*tẽ,* |  |
+| `c2-l002` | &emsp;*Catana em gèral.* |  |
 | `c2-l003` | Tçurumaqi. *Hum aparelho de rota em que em* |  |
 | `c2-l004` | &emsp;*burulhão a corda do arco q̃ ſe leua de ſobreſe-* |  |
 | `c2-l005` | &emsp;*lente à guerra.* |  |
-| `c2-l006` | Tçurumi, u, da. *Terem copula, ou ajunta-* |  |
+| `c2-l006` | Tçurumi, u, da. T*erem copula, ou ajunta-* |  |
 | `c2-l007` | &emsp;*mento os animaes.* |  |
 | `c2-l008` | Tçurunabe. l, t*ç*urucaqe. *Certa laya de pa-* |  |
 | `c2-l009` | &emsp;*nela de ferro, ou tacho que ſe toma com hum* |  |
 | `c2-l010` | &emsp;*ferro que prende nas aſas.* |  |
 | `c2-l011` | T*ç*uruno co. i, Fimagono co. *Tataraneto.* |  |
 | `c2-l012` | Tçuruno faxi. *Certo ferro como picão, ou ponta* |  |
-| `c2-l013` | &emsp;*da lauanca com ſua hastea de pao pera arrancar* |  |
+| `c2-l013` | &emsp;*da lauanca com ſua hastea de pao pera arrãcar* |  |
 | `c2-l014` | &emsp;*pedras, ou desfazelas, &c.* |  |
 | `c2-l015` | Tçuruno motojiro. *Penas de grou que ſeruẽ* |  |
 | `c2-l016` | &emsp;*pera empenar frechas.* |  |
@@ -116,7 +116,7 @@ Lexical reference consulted after independent scan reading: NINJAL, *Entry Words
 | `c2-l040` | Tçǔtan. *Hum pao, ou aruore da China boa pe-* |  |
 | `c2-l041` | &emsp;*ra fazer obra.* |  |
 | `c2-l042` | Tçutanai. *Couſa ſuja, ou vil: cõmummente ſe* |  |
-| `c2-l043` | &emsp;*diz de homẽs. ¶* Quafô tçutanai mono. |  |
+| `c2-l043` | &emsp;*diz de homẽs. ¶* Quafǒ tçutanai mono. |  |
 | `c2-l044` | &emsp;*Homem deſauenturado, ou infeliz.* |  |
 | `c2-l045` | &emsp;Tçutanaſa. |  |
 | `c2-l046` | &emsp;Tçutanǒ. |  |

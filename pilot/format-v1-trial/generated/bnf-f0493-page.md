@@ -38,26 +38,26 @@ Lexical reference consulted after independent scan reading: NINJAL, *Entry Words
 | `c1-l020` | &emsp;*eſta flor.* |  |
 | `c1-l021` | Tçutçujin. *Canudozinho de metal pera meter* |  |
 | `c1-l022` | &emsp;*nos inchaços, ou noutras partes leſas pera por* |  |
-| `c1-l023` | &emsp;*elle ſayr algu humor, ou materia.* |  |
+| `c1-l023` | &emsp;*elle ſayr algũ humor, ou materia.* |  |
 | `c1-l024` | Tçutçumi. *Vallos, ou marachões que ſeruem* |  |
 | `c1-l025` | &emsp;*pera ter mãonos rios, &c. ¶* Tçutçumi- |  |
 | `c1-l026` | &emsp;uo tçuqu. *Fazer eſtes vallos.* |  |
 | `c1-l027` | Tçutçumi. *Saco de canga, ou ſeda, &c.* |  |
 | `c1-l028` | &emsp;*¶ Item,* Tçutçumi. *Fardo de linho, ou* |  |
 | `c1-l029` | &emsp;*trouxa. Mas não ſe vſa ſe não com algũa com-* |  |
-| `c1-l030` | &emsp;*poſição. Vt,* Fitotçu çumi, futatçu- |  |
+| `c1-l030` | &emsp;*poſição. Vt,* Fitotçutçumi, futatçu- |  |
 | `c1-l031` | &emsp;tçumi. |  |
-| `c1-l032` | Tçu çumi, u, unda. *Enuoluer, ou enfarde-* |  |
+| `c1-l032` | Tçutçumi, u, unda. *Enuoluer, ou enfarde-* |  |
 | `c1-l033` | &emsp;*lar, &c. Vt,* Cuſuriuo tçutçumu. *En-* |  |
 | `c1-l034` | &emsp;*uoluer, ou emburulhar algũa mezinha com pa-* |  |
 | `c1-l035` | &emsp;*pel. ¶* Xirouo tçutçumu. i, Cacoi ma- |  |
 | `c1-l036` | &emsp;uaſu. *Cercar a fortaleza. ¶* Teqiuo |  |
-| `c1-l037` | &emsp;torit*ç*utçumu. *Tomar ao imigo no meo,* |  |
+| `c1-l037` | &emsp;torit*ç*utçumu. T*omar ao imigo no meo,* |  |
 | `c1-l038` | &emsp;*ou cercalo. ¶* Tçut*ç*umazu monouo yǔ. |  |
 | `c1-l039` | &emsp;*Fallar ſem encobrir nada. ¶* Fitomeuo |  |
 | `c1-l040` | &emsp;t*ç*ut*ç*umu. *Encobrirſe, ou diſfraçarſe pe-* |  |
 | `c1-l041` | &emsp;*ra não ſer viſto, & conhecido.* |  |
-| `c1-l042` | Tçutçumiguſocu. *Armas cubertas com al.* |  |
+| `c1-l042` | Tçutçumiguſocu. *Armas cubertas com al-* |  |
 | `c1-l043` | &emsp;*gũa couſa por cima do ferro com o cubertas de* |  |
 | `c1-l044` | &emsp;*couro, &c.* |  |
 | `c1-l045` | T*ç*utçumimauaxi, ſu, aita. *Emburulhar à roda.* |  |
@@ -74,7 +74,7 @@ Lexical reference consulted after independent scan reading: NINJAL, *Entry Words
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | T*ç*ut*ç*umitate, uru, eta. *Acabar de em buru-* |  |
+| `c2-l001` | T*ç*ut*ç*umitate, uru, eta. *Acabar de emburu-* |  |
 | `c2-l002` | &emsp;*lhar, ou enuoluer algũa couſa.* |  |
 | `c2-l003` | Tçutçuqi, u, uita. *Picar o paſſaro cõ o bico.* |  |
 | `c2-l004` | &emsp;*¶ Item, No Ximo, Arder, ou latejar cõdor.* |  |
@@ -87,11 +87,11 @@ Lexical reference consulted after independent scan reading: NINJAL, *Entry Words
 | `c2-l011` | Tçute. *Portador, ou ocaſião de mandar carta,* |  |
 | `c2-l012` | &emsp;*&c. ¶* Tçuteuo qijte fumiuo yarǒzu. |  |
 | `c2-l013` | &emsp;*Ouuindo que ha portador eſcreuerei.* |  |
-| `c2-l014` | Tçuto. *Preſente de inaca emburulhado em pa-* |  |
-| `c2-l015` | &emsp;*lha. Vt,* Inacazzuto. l, cuſazzuto. *Idẽ.* |  |
+| `c2-l014` | Tçuto. *Preſente de Inaca emburulhado em pa-* |  |
+| `c2-l015` | &emsp;*lha. Vt,* Inacazzuto. *l*, cuſazzuto. *Idẽ.* |  |
 | `c2-l016` | T*ç*uto. l, t*ç*utoni. *Polamenhaã cedo.* |  |
 | `c2-l017` | T*ç*utome. *Obra deler liuros, ou orar, ou que* |  |
-| `c2-l018` | &emsp;*pertence a ſaluação. ¶* Tçutomeuo naiu. |  |
+| `c2-l018` | &emsp;*pertence a ſaluação. ¶* Tçutomeuo naſu. |  |
 | `c2-l019` | &emsp;*Fazer ſemelhantes obras.* |  |
 | `c2-l020` | Tçutome, uru, eta. *Comprir com ſua obri-* |  |
 | `c2-l021` | &emsp;*gação, ou fazer boas obras, &c. ¶* Yacuuo |  |
@@ -111,7 +111,7 @@ Lexical reference consulted after independent scan reading: NINJAL, *Entry Words
 | `c2-l035` | T*ç*uuamono. *Soldado, ou gente de guerra.* |  |
 | `c2-l036` | T*ç*uuari, ru, atta. *Eſtar doente de prenhicão.* |  |
 | `c2-l037` | &emsp;*¶ Item, Brotarem as aruores com gomos, &* |  |
-| `c2-l038` | &emsp;*folhas nouas. Vt,* Ciga t*ç*uuaru. *¶ Per-* |  |
+| `c2-l038` | &emsp;*folhas nouas. Vt,* Qiga t*ç*uuaru. *¶ Per-* |  |
 | `c2-l039` | &emsp;*met.* Qedamonoga tçuuaru. *Andarem* |  |
 | `c2-l040` | &emsp;*os animaes com o cio. Meliùs, Sacaru.* |  |
 | `c2-l041` | Tçuuari. *Doẽça de molher prenhe. Vt,* Tçu- |  |

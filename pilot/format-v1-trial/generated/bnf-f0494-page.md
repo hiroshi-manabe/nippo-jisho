@@ -39,9 +39,9 @@ Lexical reference consulted after independent scan reading: NINJAL, *Entry Words
 | `c1-l021` | &emsp;yeta. i, T*ç*ubureta. *Arrebentou o leicẽ-* |  |
 | `c1-l022` | &emsp;*ſo, ou inchaço. ¶ Item, Desmancharſe, ou* |  |
 | `c1-l023` | &emsp;*cair a parede, ou arruinar a terra. Vt,* Ixi- |  |
-| `c1-l024` | &emsp;caqi. l, Qixiga tçuyeta. *Cahio a pare-* |  |
+| `c1-l024` | &emsp;caqi. l, *Q*ixiga tçuyeta. *Cahio a pare-* |  |
 | `c1-l025` | &emsp;*de de pedra, ou arruinou a terra, barroca, &c.* |  |
-| `c1-l026` | Tçuye. i, Xitçui. *Gaſtos, ou deſſeſas.* |  |
+| `c1-l026` | Tçuye. i, Xitçui. *Gaſtos, ou deſpeſas.* |  |
 | `c1-l027` | T*ç*uye yari. *Certa lança curta, como bordão,* |  |
 | `c1-l028` | &emsp;*que tẽ o ferro ẽ baixo como de bordão, & o de* |  |
 | `c1-l029` | &emsp;*cima como de lãça curta cuberto cõ hũa bainha.* |  |
@@ -76,11 +76,11 @@ Lexical reference consulted after independent scan reading: NINJAL, *Entry Words
 | --- | --- | --- |
 | `c2-l001` | T*ç*uyoraxi, ſu, ita. *Idem. ¶* Cocoro- |  |
 | `c2-l002` | &emsp;uo tçuyoraſu. *Animar, ou eſforçar.* |  |
-| `c2-l003` | T*ç*uyori. *Fortaleza, ou força. Vt,* Tçu- |  |
+| `c2-l003` | T*ç*uyori. *Fortaleza, ou força. Vt,* T*ç*u- |  |
 | `c2-l004` | &emsp;yorini naru. *Fazerſe, ou ficar forte com a* |  |
 | `c2-l005` | &emsp;*ajuda de alguem.* |  |
 | `c2-l006` | T*ç*uyori, ru, otta. *Fortalecerſe, ou ſer forte.* |  |
-| `c2-l007` | &emsp;*Vt,* Ienga tçuyoreba, acuga youaru. *Sen-* |  |
+| `c2-l007` | &emsp;*Vt,* Ienga t*ç*uyoreba, acuga youaru. *Sen-* |  |
 | `c2-l008` | &emsp;*do a virtude forte, os vicios enfraquecem.* |  |
 | `c2-l009` | T*ç*uyoyumi. *Arco forte, & großo. Item, Bom* |  |
 | `c2-l010` | &emsp;*frecheiro, & forçoſo.* |  |
@@ -110,7 +110,7 @@ Lexical reference consulted after independent scan reading: NINJAL, *Entry Words
 | `c2-l034` | Tçuzzu. *Portos onde ſurgem as embarcações.* |  |
 | `c2-l035` | Tçuzzu. *Numero de 10. ¶* Tçuzzu fatachi. |  |
 | `c2-l036` | &emsp;l, tçuzzu nijǔ. *Vinte annos de idade.* |  |
-| `c2-l037` | *T*çuzzumari, u, atta. *Meliùs,* Xijimari, u |  |
+| `c2-l037` | *T*çuzzumari, u, atta. *Meliùs,* Xijimari, u. |  |
 | `c2-l038` | &emsp;*Encurtarſe, ou encolherſe.* |  |
 | `c2-l039` | Tçuzzume, uru, eta. *Meliùs,* Xijime, uru. |  |
 | `c2-l040` | &emsp;*Encurtar, ou encolher. ¶* Xotaiuo tçuz- |  |

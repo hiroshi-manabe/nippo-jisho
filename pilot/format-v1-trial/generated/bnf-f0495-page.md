@@ -14,15 +14,15 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | &emsp;ſumǒ toru. *Lutarem dous à porfia.* X. |  |
+| `c1-l001` | &emsp;ſumǒ toru. *Lutarem dous à porfia. X.* |  |
 | `c1-l002` | *T*çuzzuqe, uru, eta. *Fazer ir continuando,* |  |
 | `c1-l003` | &emsp;*ou continuar algũa couſa. Vt,* Cateuo tçuz- |  |
 | `c1-l004` | &emsp;zuquru. *Continuar com os mantimentos.* |  |
 | `c1-l005` | *Tç*uzzuqi, u, uita. *Cõtinuarſe, ou ir nas coſ-* |  |
-| `c1-l006` | &emsp;*tasſeguindo. ¶* Q iga t*ç*uzzucanu. *Não* |  |
+| `c1-l006` | &emsp;*tasſeguindo. ¶* Qiga t*ç*uzzucanu. *Não* |  |
 | `c1-l007` | &emsp;*ſe continuar o folego com bradar, &c.* |  |
 | `c1-l008` | *T*çuzzura. *Ceſto, ou canaſtra de vimes, ou rota.* |  |
-| `c1-l009` | *Tç*uzzure, l, tçuzzuri. *Farrapo velho, ou* |  |
+| `c1-l009` | *Tç*uzzure, *l*, tçuzzuri. *Farrapo velho, ou* |  |
 | `c1-l010` | &emsp;*veſtido muito remendado.* |  |
 | `c1-l011` | Tçuzzuri, ru, utta. *Remendar, & coſer* |  |
 | `c1-l012` | &emsp;*couſa rota como veſtido, &c. ¶ ,* Cotoba- |  |
@@ -43,7 +43,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l016` | &emsp;*tar as mãos. ¶ Item, Fazer encontrar a* |  |
 | `c1-l017` | &emsp;*gẽte de hũ eſquadrão com a do outro quãdo vão* |  |
 | `c1-l018` | &emsp;*pera a guerra, fazẽdo primeiro cõcerto entreſi.* |  |
-| `c1-l019` | &emsp;*¶* Tegavǒta. *Ajuntarſe, ou encontrarſe* |  |
+| `c1-l019` | &emsp;*¶* Tega vǒta. *Ajuntarſe, ou encontrarſe* |  |
 | `c1-l020` | &emsp;*deſta maneira a gente. ¶* Teuo comuru |  |
 | `c1-l021` | &emsp;*Fazer a couſa muito perfeita, & acabada.* |  |
 | `c1-l022` | &emsp;*¶* Teuo cudaqu. *Por todas as forças, ou pe-* |  |
@@ -65,7 +65,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l038` | &emsp;*Chanoyu, no concerto de hum ramalhete, ou* |  |
 | `c1-l039` | &emsp;*couſa ſemelhante. ¶ T*euo yaſumuru. *Deſ-* |  |
 | `c1-l040` | &emsp;*canſar dalgũa obra, ou trabalho. ¶* Teni |  |
-| `c1-l041` | &emsp;ſauaru. *Tocar algũa couſa nas mãos.* |  |
+| `c1-l041` | &emsp;ſauaru. T*ocar algũa couſa nas mãos.* |  |
 | `c1-l042` | &emsp;*¶* Teuo fiqu. *Guiar a alguem, ou leualo* |  |
 | `c1-l043` | &emsp;*pella mão. ¶* Tega nagai. *O ſer ladrão.* |  |
 | `c1-l044` | &emsp;*¶* Teno nagai fito. *Ladrão. ¶* Tega |  |
