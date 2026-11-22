@@ -42,14 +42,14 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c1-l024` | &emsp;*uerſas couſas.* |  |
 | `c1-l025` | *T*enyacu. *Encargo, ou obrigação que poem o* |  |
 | `c1-l026` | &emsp;*ſenhor a todos de fazerẽ algũa obra. ¶ T*ẽ- |  |
-| `c1-l027` | &emsp;ya uuo atçuru. l, caquru. *Por o ſenhor* |  |
+| `c1-l027` | &emsp;yacuuo atçuru. l, caquru. *Por o ſenhor* |  |
 | `c1-l028` | &emsp;*eſta obrigação, ou encargo em commum.* |  |
 | `c1-l029` | *T*enyacu. *Fiſicos principaes del Rey.* |  |
 | `c1-l030` | *T*enyacu. *Promeſſa celestial, ou de Deos.* |  |
 | `c1-l031` | *T*enye. *T*enno ixǒ. *Veſtido celeſtial, ou de* |  |
 | `c1-l032` | &emsp;*Anjo.* |  |
 | `c1-l033` | *T*enzo. *Certo officio, ou cargo entre os Ienxùs* |  |
-| `c1-l034` | &emsp;*co no official, ou prefeito da cuzinha.* |  |
+| `c1-l034` | &emsp;*como official, ou prefeito da cuzinha.* |  |
 | `c1-l035` | *T*enzui. *Sinal, ou prenoſtico do ceo.* |  |
 | `c1-l036` | *T*eppan. *Laminas de ferro. S.* |  |
 | `c1-l037` | *T*eppeqi. Curoganeno cabe. *Parede de fer-* |  |
@@ -82,11 +82,11 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c2-l006` | &emsp;*mada que ſe dà em hũas aruorezinhas domato.* |  |
 | `c2-l007` | Teqiden. i, Taxicara tçutaye. *Doutrina,* |  |
 | `c2-l008` | &emsp;*ou enſino que ſe dà fielmente, & em preſença:* |  |
-| `c2-l009` | &emsp;*como o que os Apoſtolos aprenderão de Chriſto* |  |
-| `c2-l010` | &emsp;*Noſſo ſenhor, ou os Chriſtãos dos Apoſtoles.* |  |
+| `c2-l009` | &emsp;*como o que os Apoſtolos aprenderão de Christo* |  |
+| `c2-l010` | &emsp;*Noſſo ſenhor, ou os Chriſtãos dos Apoſtolos.* |  |
 | `c2-l011` | Teqifǒ. Teqino cata. *Parte, ou banda dos* |  |
 | `c2-l012` | &emsp;*inimigos.* |  |
-| `c2-l013` | *T*eqigata. *Peſoa da bãda dos inimigos. ¶* Te- |  |
+| `c2-l013` | *T*eqigata. *Peſſoa da bãda dos inimigos. ¶* Te- |  |
 | `c2-l014` | &emsp;qigatauo ſuru. l, teqigatani naru. *Fa-* |  |
 | `c2-l015` | &emsp;*zerſe, ou ſer da parte dos inimigos.* |  |
 | `c2-l016` | *T*eqigin. *Arrayal dos inimigos.* |  |
@@ -104,8 +104,8 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c2-l028` | Teqiſui. Mizzuno xizzucu. *Gota de agoa.* |  |
 | `c2-l029` | Teqitai, tǒ, ǒta. *Contrariar, ou reſiſtir.* |  |
 | `c2-l030` | Teqiteqi. *O receber algũa ley, ou doutrina por* |  |
-| `c2-l031` | &emsp;*tradição de peßoa a peßoa, ou por ſucceſão de* |  |
-| `c2-l032` | &emsp;*muitos. Vt,* Teqiteqi ſojo. *Idem.* |  |
+| `c2-l031` | &emsp;*tradição de peßoa a peßoa, ou por ſucceßão de* |  |
+| `c2-l032` | &emsp;*muitos. Vt,* Teqiteqi ſǒjo. *Idem.* |  |
 | `c2-l033` | Teqixin. Teqino cocoro. *Coração de ini-* |  |
 | `c2-l034` | &emsp;*migo. ¶* Teqixinuo camayuru. *Fazerſe* |  |
 | `c2-l035` | &emsp;*inimigo, ou armar traição.* |  |
@@ -115,7 +115,7 @@ Lexical aid consulted after independent scan reading: Entry Words Data of Nippoj
 | `c2-l039` | Teradera. *Moſteiros, ou varelas.* |  |
 | `c2-l040` | Teraxi. *Palaura que vſão os homens do mar* |  |
 | `c2-l041` | &emsp;*ẽ lugar de fogo, por terẽ agouro ẽ nomear, Fi.* |  |
-| `c2-l042` | Teraxi, ſu, aia. *Alumiar, ou dar luz, &* |  |
+| `c2-l042` | Teraxi, ſu, aita. *Alumiar, ou dar luz, &* |  |
 | `c2-l043` | &emsp;*claridade a outra couſa como o ſol, &c.* |  |
 | `c2-l044` | Teri, ru, etta. *Alumiar, ou reſplandecer o* |  |
 | `c2-l045` | &emsp;*ſol, ou lũa. ¶ Item, per met. Reſplande-* |  |

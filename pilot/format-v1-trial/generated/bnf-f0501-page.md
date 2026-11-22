@@ -58,7 +58,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l042` | &emsp;*do prègaua* Xaca. |  |
 | `c1-l043` | Tenqen. i, Xiruxi, xiruſu. *Eſcreuer, ou a-* |  |
 | `c1-l044` | &emsp;*pontar cantidade, ou numero dalgũa couſa co-* |  |
-| `c1-l045` | &emsp;*mo quem faz rol de quanto tem, ou empreſtoa,* |  |
+| `c1-l045` | &emsp;*mo quem faz rol de quanto tem, ou empreſtou,* |  |
 | `c1-l046` | &emsp;*&c. Vt,* Tenqen ſuru. |  |
 | `c1-l047` | Tenqi. Sorano qi. *Tempo, ou qualidade, &* |  |
 
@@ -115,10 +115,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l041` | *T*enteqi. *Inimigo de Deos, ou do ceo.* |  |
 | `c2-l042` | *T*entǒ. *T*enno michi. *Caminho, ou ordẽ,* |  |
 | `c2-l043` | &emsp;*& prouidencia do ceo. Commummente chama-* |  |
-| `c2-l044` | &emsp;*mos ja a Deos por eſte nome. Poſtoque os ge-* |  |
+| `c2-l044` | &emsp;*mos ja a Deos por eſte nome. Poſtoque os gẽ-* |  |
 | `c2-l045` | &emsp;*tios não parece que atinauão mais que com o* |  |
 | `c2-l046` | &emsp;*primeiro ſentido.* |  |
-| `c2-l047` | *T*entocu. l, *potiùs, T*enno tocu. *Bẽs do ceo.* |  |
+| `c2-l047` | *T*entocu. *l*, *potiùs, T*enno tocu. *Bẽs do ceo.* |  |
 
 ## Printed page number
 

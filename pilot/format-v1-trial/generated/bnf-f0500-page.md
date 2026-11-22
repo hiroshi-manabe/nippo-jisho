@@ -30,21 +30,21 @@ Lexical aid: [NINJAL, Entry Words Data of Nippojisho, version 202510](https://ww
 | `c1-l012` | &emsp;*veo por dedução por diuerſas peßoas, ou tẽpos.* |  |
 | `c1-l013` | *T*endô. *Algum veſtido de ſeda, ou peça que* |  |
 | `c1-l014` | &emsp;*ſe dà a molheres publicas. Item, Perturbação.* |  |
-| `c1-l015` | Tendǒ. l, Tentǒ. *Vt,* Tendǒ memǒ. |  |
+| `c1-l015` | Tendǒ. l, Tentǒ. *Vt,* Tendǒ meimǒ. |  |
 | `c1-l016` | &emsp;*O ir aueſo da razão, virtude, ou juſtiça, ou* |  |
-| `c1-l017` | &emsp;*andar errado, & fora do bom caminho. S.* |  |
+| `c1-l017` | &emsp;*andar errado, & fora do bom caminho.* S. |  |
 | `c1-l018` | Tendǒ. *Em cima do ceo, ou ceo.* |  |
 | `c1-l019` | Tendô. *Minino celeſtial que cuſtuma eſtar jũto* |  |
 | `c1-l020` | &emsp;*do Fotoque.* |  |
 | `c1-l021` | Tendocu. *Ler algum liuro principalmente hum* |  |
-| `c1-l022` | &emsp;*q̃ chamão Daifanya deſdo principio te o cabo,* |  |
+| `c1-l022` | &emsp;*q̃ chamõo Daifanya deſdo principio tè o cabo,* |  |
 | `c1-l023` | &emsp;*não lendo todas as regras, ou paginas, mas em* |  |
 | `c1-l024` | &emsp;*alguns lugares.* |  |
 | `c1-l025` | Tenebana. i, Tenebai. *Vagaroſo de mãos.* |  |
 | `c1-l026` | Tenga. *Dignidade de Quambacu.* |  |
 | `c1-l027` | Tenga. i, Amano gaua. *Via lactea.* |  |
 | `c1-l028` | Tengai. Ten futa, l, vouoi. *Sobre ceo, ou pa-* |  |
-| `c1-l029` | &emsp;*leo. ¶* Tengaiuo ſaſu. l, ſaxicazaſu. *Le-* |  |
+| `c1-l029` | &emsp;*leo. ¶* Tengaiuo ſaſu. *l*, ſaxicazaſu. *Le-* |  |
 | `c1-l030` | &emsp;*uar o paleo aleuantado.* |  |
 | `c1-l031` | Tengai. *Ceo. S.* |  |
 | `c1-l032` | Tengue. i, Tenno xita. *De baixo do ceo.* |  |
@@ -58,7 +58,7 @@ Lexical aid: [NINJAL, Entry Words Data of Nippojisho, version 202510](https://ww
 | `c1-l040` | &emsp;*da como de anjos, ou gente celeſtial.* |  |
 | `c1-l041` | *T*en-i. Tenno ixei. *Poder, ou mageſtade* |  |
 | `c1-l042` | &emsp;*de Deos, ou de Rey.* |  |
-| `c1-l043` | *T*en-i. Tenno cuſuxi. *Medico celeſtial.* |  |
+| `c1-l043` | *T*en-i. Tenno *c*uſuxi. *Medico celeſtial.* |  |
 | `c1-l044` | *T*enifa. *Modo de falar conforme, ou contra* |  |
 | `c1-l045` | &emsp;*as leis da grammatica.* |  |
 | `c1-l046` | *T*enji, zuru, ita. *Mudar, ou virar.* |  |
@@ -86,7 +86,7 @@ Lexical aid: [NINJAL, Entry Words Data of Nippojisho, version 202510](https://ww
 | `c2-l010` | &emsp;rayuru. *Aparelhar eſta merenda.* |  |
 | `c2-l011` | *T*enjǒ. *T*enno vye. *Em cima dos ceos.* |  |
 | `c2-l012` | &emsp;*¶ T*enjǒ ſuru. *Subir ao ceo. ¶* Ani- |  |
-| `c2-l013` | &emsp;ma tenjǒ vtagai naxi. *Eſtar a alma no ceo,* |  |
+| `c2-l013` | &emsp;ma tenjǒ vtagai naxi. E*ſtar a alma no ceo,* |  |
 | `c2-l014` | &emsp;*ou ter ſubido ao ceo não ha que duuidar.* |  |
 | `c2-l015` | Tenjǒ. *Paços reais.* |  |
 | `c2-l016` | *T*enjǒ. *Forro da caſa. ¶ T*enjǒuo faru. |  |
@@ -113,7 +113,7 @@ Lexical aid: [NINJAL, Entry Words Data of Nippojisho, version 202510](https://ww
 | `c2-l037` | *T*enmǒ. i, *T*enno ami. *Rede, ou laço do* |  |
 | `c2-l038` | &emsp;*ceo em que hum vem a cair por ſeus peccados* |  |
 | `c2-l039` | &emsp;*ſendo caſtigado, ou justiçado demaneira q̃ não* |  |
-| `c2-l040` | &emsp;*pode eſcapar. ¶ T*enmôni cacaru. *Cair* |  |
+| `c2-l040` | &emsp;*pode eſcapar. ¶ T*enmǒni cacaru. *Cair* |  |
 | `c2-l041` | &emsp;*nesta rede.* |  |
 | `c2-l042` | *T*enmocu. *Porſolana de Iapão por onde ſe be-* |  |
 | `c2-l043` | &emsp;*be o Cha, ou mezinha, &c.* |  |
