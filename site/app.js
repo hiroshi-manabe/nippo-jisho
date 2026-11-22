@@ -1415,6 +1415,8 @@ function saveEditor(form) {
   return true;
 }
 
+const editorReadingTops = new WeakMap();
+
 function openEditor(row) {
   if (state.currentPage.review_blocked) return toast('Resolve the external-review problem before editing this page.');
   const lineId = row.dataset.line;
@@ -1424,15 +1426,30 @@ function openEditor(row) {
     if (!saveEditor(activeForm)) return;
     replaceRenderedLine(activeForm.closest('.line-row'), lineById(activeForm.closest('.line-row').dataset.line), row);
   }
+  const readingTop = row.getBoundingClientRect().top;
   const line = lineById(lineId);
   const edit = pageEdits(state.currentPage)[lineId];
   row.insertAdjacentHTML('beforeend', `<form class="edit-form"><div class="transcription-editor"><textarea name="transcription" aria-label="Revised transcription">${escapeHTML(edit?.after || line.text)}</textarea>${paletteHTML()}</div><div class="comment-editor"><textarea name="note" aria-label="Durable note" placeholder="Durable line note">${escapeHTML(edit?.note_after ?? line.note ?? '')}</textarea><textarea name="message" aria-label="Message to AI" placeholder="Message to AI (always reviewed)">${escapeHTML(edit?.message || '')}</textarea><label class="second-opinion-toggle"><input type="checkbox" name="second-opinion" ${edit?.second_opinion ? 'checked' : ''}>Request a second opinion (message optional)</label></div><div class="edit-actions"><button type="button" data-action="cancel">Cancel</button>${edit ? '<button type="button" data-action="revert">Revert</button>' : ''}<button class="primary" type="submit">OK</button></div></form>`);
   const form = row.querySelector('.edit-form');
+  editorReadingTops.set(form, readingTop);
   row.querySelector('[name="transcription"]').focus();
 }
 
-function replaceRenderedLine(row, line, anchor = row) {
-  const top = anchor.getBoundingClientRect().top;
+function restoreLineTop(row, top) {
+  window.scrollBy({top: row.getBoundingClientRect().top - top, behavior: 'instant'});
+}
+
+function closeEditor(form, line) {
+  const row = form.closest('.line-row');
+  const top = editorReadingTops.get(form) ?? row.getBoundingClientRect().top;
+  if (line) replaceRenderedLine(row, line, row, top);
+  else {
+    form.remove();
+    restoreLineTop(row, top);
+  }
+}
+
+function replaceRenderedLine(row, line, anchor = row, top = anchor.getBoundingClientRect().top) {
   const template = document.createElement('template');
   template.innerHTML = lineHTML(state.currentPage, line);
   const replacement = template.content.firstElementChild;
@@ -1451,7 +1468,7 @@ function replaceRenderedLine(row, line, anchor = row) {
   if (unavailable) replacement.append(unavailable);
   row.replaceWith(replacement);
   const retainedAnchor = anchor === row ? replacement : anchor;
-  window.scrollBy(0, retainedAnchor.getBoundingClientRect().top - top);
+  restoreLineTop(retainedAnchor, top);
 }
 
 function applyQuickEdit(row, control) {
@@ -1789,8 +1806,8 @@ document.addEventListener('click', event => {
     if (quickControl) return applyQuickEdit(row, quickControl);
     if (event.target.closest('[data-action="edit"]')) return openEditor(row);
     if (event.target.closest('.line-text-row') && !event.target.closest('.line-text > *')) return openEditor(row);
-    if (event.target.closest('[data-action="cancel"]')) { row.querySelector('.edit-form').remove(); return; }
-    if (event.target.closest('[data-action="revert"]')) { const line = lineById(row.dataset.line); const edit = pageEdits(state.currentPage)[row.dataset.line]; dismissMachineSuggestion(state.currentPage, line, edit?.machine_suggestion); delete pageEdits(state.currentPage)[row.dataset.line]; persistEdits(state.currentPage); replaceRenderedLine(row, line); return; }
+    if (event.target.closest('[data-action="cancel"]')) { closeEditor(row.querySelector('.edit-form')); return; }
+    if (event.target.closest('[data-action="revert"]')) { const line = lineById(row.dataset.line); const edit = pageEdits(state.currentPage)[row.dataset.line]; dismissMachineSuggestion(state.currentPage, line, edit?.machine_suggestion); delete pageEdits(state.currentPage)[row.dataset.line]; persistEdits(state.currentPage); closeEditor(row.querySelector('.edit-form'), line); return; }
   }
 });
 
@@ -1813,7 +1830,7 @@ document.addEventListener('keydown', event => {
   if (!area || event.isComposing || event.ctrlKey || event.metaKey || event.altKey) return;
   if (event.key === 'Enter') {
     event.preventDefault();
-    if (saveEditor(area.form)) { const row = area.closest('.line-row'); replaceRenderedLine(row, lineById(row.dataset.line)); }
+    if (saveEditor(area.form)) closeEditor(area.form, lineById(area.closest('.line-row').dataset.line));
     return;
   }
   if (!TRANSCRIPTION_KEYS[event.key] || area.form.elements['literal-digits'].checked) return;
@@ -1824,7 +1841,7 @@ document.addEventListener('keydown', event => {
 document.addEventListener('submit', event => {
   const form = event.target.closest('.edit-form'); if (!form) return;
   event.preventDefault();
-  if (saveEditor(form)) { const row = form.closest('.line-row'); replaceRenderedLine(row, lineById(row.dataset.line)); }
+  if (saveEditor(form)) closeEditor(form, lineById(form.closest('.line-row').dataset.line));
 });
 
 $('#home').addEventListener('click', () => showOverview());
