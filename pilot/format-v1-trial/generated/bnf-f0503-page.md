@@ -18,7 +18,7 @@ Lexical aid: NINJAL, Hideyuki Ohshima and Taichi Aida, Entry Words Data of Nippo
 | --- | --- | --- |
 | `c1-l001` | Tericacayaqi, u, aita. *Reſplandecer.* |  |
 | `c1-l002` | &emsp;*¶* Vma, cura, yoroi, cabuto, tachi, ca- |  |
-| `c1-l003` | &emsp;tana made tericacayaqu fodoni det vareta. |  |
+| `c1-l003` | &emsp;tana made tericacayaqu fodoni detatareta. |  |
 | `c1-l004` | &emsp;Feiq. *Lib. 2. Sahio tambem veſtido, &* |  |
 | `c1-l005` | &emsp;*luſtroſo com caualo ajaezado, armas, &c. que* |  |
 | `c1-l006` | &emsp;*deitaua de ſi reſplandor.* |  |
@@ -43,14 +43,14 @@ Lexical aid: NINJAL, Hideyuki Ohshima and Taichi Aida, Entry Words Data of Nippo
 | `c1-l025` | *T*etbǒ. Curoganeno bǒ. *Bordão, ou baſtão* |  |
 | `c1-l026` | &emsp;*de ferro.* |  |
 | `c1-l027` | *T*etçugui. *Succeßão de hũs a outros, ou paßar* |  |
-| `c1-l028` | &emsp;*de mão em mão. ¶ T*etçugui ſǒtenno |  |
+| `c1-l028` | &emsp;*de mão em mão. ¶ T*etçugui ſǒdenno |  |
 | `c1-l029` | &emsp;voxiye. *Doutrina que vem por tradição, ou* |  |
 | `c1-l030` | &emsp;*ſucceßão de huns a outros.* |  |
 | `c1-l031` | *T*etçuzzura. *Ceſto o canaſtra pequena de vi-* |  |
 | `c1-l032` | &emsp;*mes, ou certa era.* |  |
 | `c1-l033` | *T*etdai. *Ajuda, ou ajudante. ¶ T*etdai |  |
 | `c1-l034` | &emsp;ſuru. *Dar ajuda a outro, ou ſer ajudante.* |  |
-| `c1-l035` | *T*ete. l, chichi. *Pay.* |  |
+| `c1-l035` | *T*ete. *l*, chichi. *Pay.* |  |
 | `c1-l036` | *T*etgiǒ. Curoganeno tçuye. *Bordão de fer-* |  |
 | `c1-l037` | &emsp;*ro, ou baſtão. S.* |  |
 | `c1-l038` | *T*etguio. *Peixe que fica de pois de paßar o car-* |  |
@@ -60,9 +60,9 @@ Lexical aid: NINJAL, Hideyuki Ohshima and Taichi Aida, Entry Words Data of Nippo
 | `c1-l042` | &emsp;Vruga gotocu yorocôda. *Alegrou ſe como* |  |
 | `c1-l043` | &emsp;*peixe que paßado o carro acha algũa agoa com* |  |
 | `c1-l044` | &emsp;*que folga.* |  |
-| `c1-l045` | *T*etguiǔ. Curoganeno vxi. *Boy, ou vaca* |  |
+| `c1-l045` | *T*et*g*uiǔ. Curoganeno vxi. *Boy, ou vaca* |  |
 | `c1-l046` | &emsp;*feita de ferro.* |  |
-| `c1-l047` | *T*etguàn. Curoganeno marucaxi. *Pilou-* |  |
+| `c1-l047` | *T*etguan. Curoganeno marucaxi. *Pilou-* |  |
 | `c1-l048` | &emsp;*ro, ou bola de ferro.* |  |
 
 ## Column 2 running header
@@ -89,7 +89,7 @@ Lexical aid: NINJAL, Hideyuki Ohshima and Taichi Aida, Entry Words Data of Nippo
 | `c2-l012` | &emsp;*drões, ou de outra gente pera diuerſas partes.* |  |
 | `c2-l013` | &emsp;*Vt, T*evaqeuo ſuru. |  |
 | `c2-l014` | *T*evataxi. *Entrega de algũa couſa preſencial.* |  |
-| `c2-l015` | &emsp;*Vt, T*evataxiuo ſuru. |  |
+| `c2-l015` | &emsp;*Vt, Te*vataxiuo ſuru. |  |
 | `c2-l016` | *T*euoi, ô, ôta. l, teuo vô. *Ser ferido.* |  |
 | `c2-l017` | &emsp;*¶* Iǒchǔno tçuuamonoua imada ichinin |  |
 | `c2-l018` | &emsp;mo teuo vouazu. *T*aif. *Lib. 16. Nẽ* |  |

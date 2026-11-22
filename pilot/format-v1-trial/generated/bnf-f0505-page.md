@@ -85,7 +85,7 @@ The right running header prints ATES without N; this source anomaly is retained.
 | `c2-l009` | &emsp;*dà ſobre outro, ou arremete com furia.* |  |
 | `c2-l010` | Tobicaqeri, ru, ta. *Voar. Vt,* Sorauo |  |
 | `c2-l011` | &emsp;tobicaqeru tori. *Paßaros que voão pello ar.* |  |
-| `c2-l012` | Tobicayeri, ru, etta. *Voando tornar. Item,* |  |
+| `c2-l012` | Tobicayeri, ru, etta. *Voando tornar.* I*tem,* |  |
 | `c2-l013` | &emsp;*Tornar, & ſaltar pera tras como ſeta que dà* |  |
 | `c2-l014` | &emsp;*nalgũa pedra.* |  |
 | `c2-l015` | *T*obichiri, ru, itta. *Voar eſpalhandoſe por di-* |  |
