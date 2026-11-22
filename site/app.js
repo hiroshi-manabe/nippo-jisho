@@ -283,7 +283,10 @@ function toast(message) {
 
 function route() {
   const match = location.hash.match(/^#(f\d+|bodleian-f\d{4}[rv])(?::(page|column-1|column-2|furniture))?$/);
-  if (match && state.byLeaf.has(pageKey(match[1]))) showPage(pageKey(match[1]), match[2] || 'page', false);
+  if (match && state.byLeaf.has(pageKey(match[1]))) {
+    showPage(pageKey(match[1]), match[2] || 'page', false);
+    restorePageReadingPosition();
+  }
   else showOverview(false);
 }
 
@@ -354,7 +357,7 @@ function jumpToFirstUnreviewedPage() {
 
 function showOverview(update = true) {
   const departedPage = state.currentPage;
-  saveColumnPosition();
+  savePageReadingPosition();
   clearReviewCursor();
   window.NippoPageTimer?.select(null);
   imageLoadGeneration++;
@@ -795,7 +798,7 @@ function updateRebaseNotice() {
 function showPage(leaf, unit = 'page', update = true) {
   const page = state.byLeaf.get(leaf);
   if (!page) return;
-  if (state.currentPage && (state.currentPage !== page || state.unit !== unit)) saveColumnPosition();
+  if (state.currentPage && (state.currentPage !== page || state.unit !== unit)) savePageReadingPosition();
   if (overviewDisplayed && !state.currentPage) saveOverviewPosition();
   overviewDisplayed = false;
   if (reviewCursor && (reviewCursor.pageId !== page.page_id || reviewCursor.unit !== unit)) clearReviewCursor();
@@ -1012,6 +1015,42 @@ function columnPositionKey(page, unit) {
   return `${page.page_id}:${unit}`;
 }
 
+function savePageReadingPosition() {
+  if (!state.currentPage || $('#page-view').classList.contains('hidden')) return;
+  if (['column-1', 'column-2'].includes(state.unit)) return saveColumnPosition();
+  columnPositions[columnPositionKey(state.currentPage, state.unit)] = {
+    scrollY: window.scrollY,
+    textTop: $('.continuous-text')?.scrollTop,
+    scanTop: $('.scan-frame')?.scrollTop,
+  };
+  persistReadingPositions();
+}
+
+function restorePageReadingPosition() {
+  const page = state.currentPage;
+  const unit = state.unit;
+  const saved = columnPositions[columnPositionKey(page, unit)];
+  if (!saved || !Number.isFinite(saved.scrollY)) return;
+  if (['column-1', 'column-2'].includes(unit)
+      && reviewRows().some(row => row.dataset.line === saved.lineId)) {
+    return restoreColumnPosition(page, unit);
+  }
+  window.scrollTo({top: saved.scrollY, behavior: 'instant'});
+  const text = $('.continuous-text');
+  if (text && Number.isFinite(saved.textTop)) text.scrollTop = saved.textTop;
+  const scan = $('.scan-frame');
+  if (scan && saved.scanTop > 0) {
+    scan.scrollTop = saved.scanTop;
+    if (scan.scrollTop < saved.scanTop) scan.querySelector('img')?.addEventListener('load', () => {
+      if (scan.isConnected && !scan.scrollTop) scan.scrollTop = saved.scanTop;
+    }, {once: true});
+  }
+}
+
+function persistReadingPositions() {
+  try { sessionStorage.setItem(COLUMN_POSITIONS_KEY, JSON.stringify(columnPositions)); } catch (_) { /* In-memory positions still work. */ }
+}
+
 function saveColumnPosition() {
   if (!state.currentPage?.processed || !['column-1', 'column-2'].includes(state.unit)
       || $('#page-view').classList.contains('hidden')) return;
@@ -1029,7 +1068,7 @@ function saveColumnPosition() {
     scrollY: window.scrollY,
     extraSpace: parseFloat(row.closest('.line-list')?.style.getPropertyValue('--review-extra-space')) || 0,
   };
-  try { sessionStorage.setItem(COLUMN_POSITIONS_KEY, JSON.stringify(columnPositions)); } catch (_) { /* In-memory positions still work. */ }
+  persistReadingPositions();
 }
 
 function restoreColumnPosition(page, unit) {
@@ -1921,7 +1960,9 @@ if ('ResizeObserver' in window) {
 }
 window.addEventListener('resize', updateTopbarHeight);
 window.addEventListener('popstate', route);
+window.addEventListener('pagehide', savePageReadingPosition);
 document.addEventListener('visibilitychange', () => {
+  if (document.visibilityState === 'hidden') savePageReadingPosition();
   if (document.visibilityState === 'visible') showSubmissionConfirmation();
   if (document.visibilityState === 'visible' && state.currentPage) void checkCorpusFreshness();
 });
