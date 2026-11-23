@@ -15,7 +15,7 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c1-l001` | Tomodachi. *Matalotes, ou companheiros.* |  |
-| `c1-l002` | Tomodochi. P. i, *T*omodachi. *Idem.* |  |
+| `c1-l002` | Tomodochi. *P.* i, *T*omodachi. *Idem.* |  |
 | `c1-l003` | Tomodori. l, Tomotori. *Remeiro que re-* |  |
 | `c1-l004` | &emsp;*ma junto ao leme.* |  |
 | `c1-l005` | *T*omodori. *Paßaros de hũa meſma eſpecie que* |  |
@@ -45,9 +45,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l029` | Tomoyeno maru. *Idem.* |  |
 | `c1-l030` | *T*omozzuna. *Certa corda großa da popa do na-* |  |
 | `c1-l031` | &emsp;*uio, ou amarra. ¶* Tomozzunauo toqu. |  |
-| `c1-l032` | &emsp;*Leuarſe, ou deſamarrar a Fune.* |  |
+| `c1-l032` | &emsp;L*euarſe, ou deſamarrar a Fune.* |  |
 | `c1-l033` | Tomurai, ǒ, ǒta. *Fazer as exequias, ou cõ-* |  |
-| `c1-l034` | &emsp;*mendação, & obras pias por algum de funto,* |  |
+| `c1-l034` | &emsp;*mendação, & obras pias por algum defunto,* |  |
 | `c1-l035` | &emsp;*&c. ¶* Goxeuo tomurǒ. *Idem.* |  |
 | `c1-l036` | Tomurai. l, toburai. *Exequias, ou ſaimento,* |  |
 | `c1-l037` | &emsp;*ou commendação por algum de funto.* |  |

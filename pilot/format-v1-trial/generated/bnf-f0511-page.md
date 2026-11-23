@@ -47,21 +47,21 @@ Lexical cross-check after independent scan reading: the supplied National Instit
 | `c1-l029` | &emsp;*homẽs juntos, particularmente quando eſtão com* |  |
 | `c1-l030` | &emsp;*as armas, & lanças aleuantadas. ¶* Tǒma- |  |
 | `c1-l031` | &emsp;chicu-ino gotoqu yari, nagui natauo ta- |  |
-| `c1-l032` | &emsp;terareta. *Tinhão aleuãtado as lanças, & Na* |  |
+| `c1-l032` | &emsp;terareta. T*inhão aleuãtado as lanças, & Na* |  |
 | `c1-l033` | &emsp;*guinatas à maneira de ſementeira de arroz eſ-* |  |
 | `c1-l034` | &emsp;*pigado, linho canemo, bambus, & caniços* |  |
 | `c1-l035` | &emsp;*crecidos.* |  |
 | `c1-l036` | Tǒmame. *Fauas.* |  |
 | `c1-l037` | Tomari. *Detença, ou porto pera ſurgirem as* |  |
 | `c1-l038` | &emsp;*embarcações.* |  |
-| `c1-l039` | Tomari, ru, atta. *Deterſe, pouſar, ou ficar.* |  |
+| `c1-l039` | *T*omari, ru, atta. *Deterſe, pouſar, ou ficar.* |  |
 | `c1-l040` | &emsp;*¶* Toriga qino yedani tomaru. *Pouſar, ou* |  |
 | `c1-l041` | &emsp;*deterſe o paßaro no ramo daruore. ¶* Dangui |  |
 | `c1-l042` | &emsp;uo qiqedomo nanimo mimini tomaranu. |  |
-| `c1-l043` | &emsp;*Ainda q̃ ouço pregação não me fica nada nos* |  |
+| `c1-l043` | &emsp;*Ainda q̃ ouço prègação não me fica nada nos* |  |
 | `c1-l044` | &emsp;*ouuidos. ¶ Item, Ceßar a couſa. ¶* Co- |  |
 | `c1-l045` | &emsp;no cuni ranno vchinareba, ranbuto, cha- |  |
-| `c1-l046` | &emsp;noyuzuqi fattato tomatta. Mon. *Aue-* |  |
+| `c1-l046` | &emsp;noyuzuqi fattato tomatta. Mon. *Auẽ-* |  |
 | `c1-l047` | &emsp;*do neste reino reuoltas, & perturbações ceßa-* |  |
 
 ## Column 2 running header
@@ -75,7 +75,7 @@ Lexical cross-check after independent scan reading: the supplied National Instit
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c2-l001` | &emsp;*rão derepente os bailos, tangeres, & cantos,* |  |
-| `c2-l002` | &emsp;*& exercicio do chanoyu.* |  |
+| `c2-l002` | &emsp;*& exercicio do Chanoyu.* |  |
 | `c2-l003` | Tǒmaru. *Gallinha, ou gallo da China, que he* |  |
 | `c2-l004` | &emsp;*mayor, & mais forte que o de Iapão.* |  |
 | `c2-l005` | Tǒmat. Ima, ſuye. *Tempo preſente, & fu-* |  |
@@ -89,7 +89,7 @@ Lexical cross-check after independent scan reading: the supplied National Instit
 | `c2-l013` | Tomebari. *Agulha que ſe mete em certa par-* |  |
 | `c2-l014` | &emsp;*te do corpo pera impedir as camaras. ¶* To- |  |
 | `c2-l015` | &emsp;mebariuo tatçuru. *Dar esta agulhada.* |  |
-| `c2-l016` | &emsp;*¶ Item, O arrematar a costura. Vt,* To- |  |
+| `c2-l016` | &emsp;*¶ Item, O arrematar a custura. Vt,* To- |  |
 | `c2-l017` | &emsp;mebariuo ſuru. |  |
 | `c2-l018` | Tomedocoro. *Lugar, ou modo de ter, ou fa-* |  |
 | `c2-l019` | &emsp;*zer ceßar. ¶* Tomedocoromo nai fito. |  |
