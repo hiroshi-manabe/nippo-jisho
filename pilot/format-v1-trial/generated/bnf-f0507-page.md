@@ -37,7 +37,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l021` | &emsp;*està na cabeceira do Zaxiqu, onde poem rama-* |  |
 | `c1-l022` | &emsp;*lhetes, &c.* |  |
 | `c1-l023` | *T*ocogamachi. *Faſquias, ou molduras que eſ-* |  |
-| `c1-l024` | &emsp;*tãc nas bordas deſte baileu.* |  |
+| `c1-l024` | &emsp;*tão nas bordas deſte baileu.* |  |
 | `c1-l025` | *T*ocomuxi. *Perſouejo.* |  |
 | `c1-l026` | *T*oconatçu. *Nome de hũa flor que ſempre hà.* |  |
 | `c1-l027` | &emsp;*¶ Item, per met, ſe diz de hum homem* |  |
@@ -46,7 +46,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l030` | *T*oconatçuna. l, toconatçuno. *Couſa que* |  |
 | `c1-l031` | &emsp;*ſempre està da meſma maneira ſem ſe mudar,* |  |
 | `c1-l032` | &emsp;*como aruores que lhe não cae a folha, &c.* |  |
-| `c1-l033` | Tocono vmi. P. i, Namida. *Lagrimas.* |  |
+| `c1-l033` | Tocono vmi. *P.* i, Namida. *Lagrimas.* |  |
 | `c1-l034` | *T*ocoro. *Hũas raizes de erua amargoſas que* |  |
 | `c1-l035` | &emsp;*ſe comem.* |  |
 | `c1-l036` | *T*ocoro. *Lugar.* |  |
@@ -60,7 +60,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l044` | &emsp;*por algũ agrauo, ou diuida.* |  |
 | `c1-l045` | *T*ocoroni. *He particula como de Datiuo junta* |  |
 | `c1-l046` | &emsp;*com verbos. Vt,* Mairǒzuru tocoroni. *A-* |  |
-| `c1-l047` | &emsp;*uendo deir, ou estando pera ir me veo ao encõ-* |  |
+| `c1-l047` | &emsp;*uendo de ir, ou estando pera ir me veo ao encõ-* |  |
 | `c1-l048` | &emsp;*tro, ou me derão, &c.* |  |
 
 ## Column 2 running header

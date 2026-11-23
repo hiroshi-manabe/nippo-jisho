@@ -19,36 +19,36 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l003` | Tôbǒ. Figaxino cata. *Parte do Leste, ou* |  |
 | `c1-l004` | &emsp;*Oriente.* |  |
 | `c1-l005` | Tobocaxij. *Couſa incerta, duuidoſa, ou que* |  |
-| `c1-l006` | &emsp;*cauſa arreceo, & cuidado. ¶* Tobocaxij |  |
+| `c1-l006` | &emsp;*cauſa arreceo, & cuidado. ¶* Tobocaxǔ |  |
 | `c1-l007` | &emsp;mo nai, l, tobocaxij cotoga nai. *Não ha* |  |
 | `c1-l008` | &emsp;*que recear, ou duuidar.* |  |
 | `c1-l009` | Toboqe, uru, eta. *Dißimular, ou fingir al-* |  |
 | `c1-l010` | &emsp;*gũa couſa. ¶* Toboqeta cotouo mǒſu. |  |
 | `c1-l011` | &emsp;*Dizer couſas fingidas, ou com dißimulação.* |  |
 | `c1-l012` | &emsp;*¶* Soratoboqeuo ſuru. *Moſtrar algũa diſ-* |  |
-| `c1-l013` | &emsp;*ſimulação falando aßino ar, ou de maneira que* |  |
+| `c1-l013` | &emsp;*ſimulação falando aßi no ar, ou de maneira que* |  |
 | `c1-l014` | &emsp;*não ſe entende.* |  |
 | `c1-l015` | Toboqemono. *Peßoa fingida, & dißimulada.* |  |
 | `c1-l016` | Toboſo. *P. Portas de couceira. ¶* Tobo- |  |
 | `c1-l017` | &emsp;ſouo firaqu. *Abrir estas portas.* |  |
-| `c1-l018` | Tǒboxi. *Arroz vermelho. No Cami ſe diz* |  |
-| `c1-l019` | &emsp;*T*aitogome. |  |
+| `c1-l018` | *T*ǒboxi. *Arroz vermelho. No Cami ſe diz* |  |
+| `c1-l019` | &emsp;*T*aitǒgome. |  |
 | `c1-l020` | *T*oboxi, ſu, oita. *Acender candea, ou lu-* |  |
 | `c1-l021` | &emsp;*me. Vt,* Fiuo toboſu. *¶* Matçubiuo |  |
 | `c1-l022` | &emsp;toboſu. l, acaſu. *Acender facha, ou achas* |  |
 | `c1-l023` | &emsp;*de pinho.* |  |
-| `c1-l024` | Toboxij. *Couſa pobre, & neceßitada. ¶* Tobo- |  |
+| `c1-l024` | *T*oboxij. *Couſa pobre, & neceßitada. ¶* Tobo- |  |
 | `c1-l025` | &emsp;xij teide gozaru. *Modo, ou aparencia de* |  |
 | `c1-l026` | &emsp;*pobreza, & falta, ou mingoa. ¶ Itẽ, per* |  |
 | `c1-l027` | &emsp;*met.* Toboxij. *Ter fome.* |  |
 | `c1-l028` | &emsp;*T*oboxiſa. |  |
 | `c1-l029` | &emsp;*T*oboxǔ. |  |
-| `c1-l030` | Toboxitçure, ruru, eta. *Leuarem muitos iũ-* |  |
+| `c1-l030` | Toboxitçure, ruru, eta. *Leuarem muitos jũ-* |  |
 | `c1-l031` | &emsp;*tos candeas, ou tochas aceſas. Vt, T*ede- |  |
 | `c1-l032` | &emsp;ni taimatçuuo toboxitçure. *Leuãdo mui-* |  |
 | `c1-l033` | &emsp;*tos de companhia fachas aceſas nas mãos.* |  |
 | `c1-l034` | Tǒbucu. *Filho deſta molher de agora. Vt,* |  |
-| `c1-l035` | &emsp;Careua tǒbucugia. *Eſte he filho deſta mo-* |  |
+| `c1-l035` | &emsp;Coreua tǒbucugia. *Eſte he filho deſta mo-* |  |
 | `c1-l036` | &emsp;*lher de agora.* |  |
 | `c1-l037` | *T*ǒbun. i, Saxiataru bun. *Parte que cabe a* |  |
 | `c1-l038` | &emsp;*alguem como ſe repartißem por algũs tantas* |  |
@@ -75,11 +75,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l001` | &emsp;*mendação que ſe faz por de functo.* |  |
 | `c2-l002` | *T*oburai, rǒ, ǒta. *Fazer as exequias, ou en-* |  |
 | `c2-l003` | &emsp;*comendar a alma dalguem. Vt,* Fitono ato. |  |
-| `c2-l004` | &emsp;l, goxeno toburǒ. *Idem.* |  |
-| `c2-l005` | Toburai, rǒ, òta. *Viſitar a alguem, ou per-* |  |
+| `c2-l004` | &emsp;l, goxeuo toburǒ. *Idem.* |  |
+| `c2-l005` | Toburai, rǒ, ǒta. *Viſitar a alguem, ou per-* |  |
 | `c2-l006` | &emsp;*gũtar por elle: cõmummẽte ſe vſa nos liuros.* |  |
 | `c2-l007` | *T*ocacu. *Adu. i*, *T*omocacumo. *De qualquer* |  |
-| `c2-l008` | &emsp;*maneira que ſeia, ou em todo caſo, ou de hũa* |  |
+| `c2-l008` | &emsp;*maneira que ſeja, ou em todo caſo, ou de hũa* |  |
 | `c2-l009` | &emsp;*maneira, ou de outra. ¶ Com verbos ne-* |  |
 | `c2-l010` | &emsp;*gatiuos ſignifica de nenhũa maneira.* |  |
 | `c2-l011` | *T*ocague. *Lagartixa.* |  |
@@ -89,8 +89,8 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l015` | *T*ocai. Vmiuo vataru. *Paßar mares, ou na-* |  |
 | `c2-l016` | &emsp;*uegar. Vt, T*ocai ſuru. |  |
 | `c2-l017` | Tôcaidǒ. Figaxino vmino michi. *Eſtrada,* |  |
-| `c2-l018` | &emsp;*ou caminho da parte do Leſte, ou caminho por* |  |
-| `c2-l019` | &emsp;*mar, ou ao longo do mar do Leſte em reſpeito* |  |
+| `c2-l018` | &emsp;*ou caminho da parte do* L*eſte, ou caminho por* |  |
+| `c2-l019` | &emsp;*mar, ou ao longo do mar do* L*eſte em reſpeito* |  |
 | `c2-l020` | &emsp;*do Miaco.* |  |
 | `c2-l021` | Tôcan. i, Nauozari. *Couſa de pouco mais,* |  |
 | `c2-l022` | &emsp;*ou menos, ou ordinaria. Vſaſe eſta palaura cõ-* |  |
@@ -112,7 +112,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l038` | Tochi iy. *Arroz, ou comer feito da quella* |  |
 | `c2-l039` | &emsp;*fruita Tochi.* |  |
 | `c2-l040` | Tochimeqi, qu, eita. *Andar inquieto, &* |  |
-| `c2-l041` | &emsp;*apreßado como quando hum ſe ve ſobreſalteado* |  |
+| `c2-l041` | &emsp;*apreßado como quando hum ſe ve ſobre ſalteado* |  |
 | `c2-l042` | &emsp;*de inimigos na guerra, ou com o fogo poſto na* |  |
 | `c2-l043` | &emsp;*caſa, &c. ¶* Tochitochito ſuru. *Idem.* |  |
 | `c2-l044` | Tochimecaxi, ſu, aita. *Fazer apreßar a al-* |  |
