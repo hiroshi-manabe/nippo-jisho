@@ -34,10 +34,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l018` | Tôdai. *Candieiro de pee de ferro, ou outro* |  |
 | `c1-l019` | &emsp;*metal. ¶* Caqetôdai. *Candieiro que ſe* |  |
 | `c1-l020` | &emsp;*dependura.* |  |
-| `c1-l021` | *T*ǒdai. i, Imanoyo. *Esta, ou apreſente idade.* |  |
+| `c1-l021` | Tǒdai. i, Imanoyo. *Esta, ou apreſente idade.* |  |
 | `c1-l022` | Todaqe. *Circulo do arco de atirar da parte de* |  |
 | `c1-l023` | &emsp;*fora.* Mayedaqe. *O da parte de dentro.* |  |
-| `c1-l024` | Todaxi, ſu, aita. i, Toriidaſu. *Tirar fora.* |  |
+| `c1-l024` | Todaxi, ſu, aita. i, Toriidaſu. T*irar fora.* |  |
 | `c1-l025` | Todaye. *Interrupção, ou o ceßar algũa couſa.* |  |
 | `c1-l026` | &emsp;*¶* Todaye ſuru. *Interromperſe, ou ceßar.* |  |
 | `c1-l027` | &emsp;*¶* Cotoxi curofunega todaye xita, l, to- |  |
@@ -54,12 +54,12 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l038` | Todo. *Hum certo animal do mar, que tẽ ca-* |  |
 | `c1-l039` | &emsp;*belo, & quatro pees, &c.* |  |
 | `c1-l040` | *T*ǒdo. Morocoxi. i, Taitǒ. *China.* |  |
-| `c1-l041` | Tôdo. i, Xicato. *A ſua vontade, ou deſcã* |  |
+| `c1-l041` | Tôdo. i, Xicato. *A ſua vontade, ou deſcã-* |  |
 | `c1-l042` | &emsp;*ſadamente. Vt,* Tôdo monouo voqu. |  |
 | `c1-l043` | &emsp;*Por algũa couſa ſeguramente. ¶* Tôdo go- |  |
 | `c1-l044` | &emsp;zare. *Eſtai à voſſa vontade.* |  |
 | `c1-l045` | Todocouori, u, otta. *Deterſe, ou impedir-* |  |
-| `c1-l046` | &emsp;*ſe couſa que continua, anda, ou corre como a-* |  |
+| `c1-l046` | &emsp;*ſe couſa que eontinua, anda, ou corre como a-* |  |
 | `c1-l047` | &emsp;*goa, relogio, &c. ¶ Item, Differirſe* |  |
 
 ## Column 2 running header
@@ -75,7 +75,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l001` | &emsp;*algum negocio por impedimento, ou outra cou-* |  |
 | `c2-l002` | &emsp;*ſa que ſobre vem, ou impedirſe alguem que eſ-* |  |
 | `c2-l003` | &emsp;*taua pera caminhar, &c.* |  |
-| `c2-l004` | Todocouori. *Impedimẽto, ou eſtoruo. ¶* To. |  |
+| `c2-l004` | Todocouori. *Impedimẽto, ou eſtoruo. ¶* To- |  |
 | `c2-l005` | &emsp;docouorimo nǒ monouo yǔ. *Falar com* |  |
 | `c2-l006` | &emsp;*corrente ſem embaraço.* |  |
 | `c2-l007` | Todomari, u, atta. *Deterſe, ou ceßar.* |  |
@@ -85,10 +85,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l011` | &emsp;*¶ T*odomeuo ſaſu. *Degolar cortando ſò-* |  |
 | `c2-l012` | &emsp;*mente aguela, ou todo o peſcoço.* |  |
 | `c2-l013` | Todoqe, uru, eta. *Perſeuerar, ou continuar* |  |
-| `c2-l014` | &emsp;*com algũa couſa. Ajuntaſe às raizes dos ver-* |  |
+| `c2-l014` | &emsp;*com algũa couſa. Ajuntaſe ás raizes dos ver-* |  |
 | `c2-l015` | &emsp;*bos. Vt,* Govoqiteuo tamochi todoquru. |  |
 | `c2-l016` | &emsp;*Perſeuerar na guarda deſta ley. ¶* Yacuſo- |  |
-| `c2-l017` | &emsp;cuuo tod quru. *Comprir a promeſſa.* |  |
+| `c2-l017` | &emsp;cuuo todoquru. *Comprir a promeſſa.* |  |
 | `c2-l018` | &emsp;*¶* Fumi nadouo todoquru. *Entregar fiel-* |  |
 | `c2-l019` | &emsp;*mente a carta, ou outra couſa. ¶ Item,* |  |
 | `c2-l020` | &emsp;Todoquru. *Dar conta, ou fazer a ſaber a* |  |
@@ -99,7 +99,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l025` | &emsp;*ra.* X. |  |
 | `c2-l026` | Todoqi, u, oita. *Perſeuerar atè o fim, ou che-* |  |
 | `c2-l027` | &emsp;*gar. ¶* Yorozzuni todocanu fitogia. |  |
-| `c2-l028` | &emsp;*He homem inconſtante, ou que quebra facilmẽ* |  |
+| `c2-l028` | &emsp;*He homem inconſtante, ou que quebra facilmẽ-* |  |
 | `c2-l029` | &emsp;*te a promeſſa, &c. ¶* Ienno michinito- |  |
 | `c2-l030` | &emsp;doqu. *Perſeuerar no caminho da virtude.* |  |
 | `c2-l031` | &emsp;*¶* Tega todoqu. *Chegar, ou abranger a* |  |
@@ -109,7 +109,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l035` | Todoro todoroto. *Modo de andar fraco co-* |  |
 | `c2-l036` | &emsp;*mo pera cair. ¶* Todoro todoroto ayu- |  |
 | `c2-l037` | &emsp;mu. *O andar desta maneira. ¶ Item,* |  |
-| `c2-l038` | &emsp;*Modo de fazer eſtrondo o carro que vai rangẽ* |  |
+| `c2-l038` | &emsp;*Modo de fazer eſtrondo o carro que vai rangẽ-* |  |
 | `c2-l039` | &emsp;*do, ou com difficuldade por ruins caminhos,* |  |
 | `c2-l040` | &emsp;*&c. ¶ Item, Modo de ſoarẽ trouões cõ tra-* |  |
 | `c2-l041` | &emsp;*quinada, & furia. ¶* Todoro todoro- |  |

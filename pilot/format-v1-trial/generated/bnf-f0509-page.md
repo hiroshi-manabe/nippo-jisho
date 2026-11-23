@@ -32,7 +32,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l016` | *T*ofǒ. Iippǒ. *10. partes, ou rumos. ¶* To- |  |
 | `c1-l017` | &emsp;fǒuo vxinǒ. *Não ſaber parte de ſi com tri-* |  |
 | `c1-l018` | &emsp;*ſteza, &c. ¶* Tofǒuo vaqimayenu fi- |  |
-| `c1-l019` | &emsp;togia. *He homem que eſtà alienado, ou como* |  |
+| `c1-l019` | &emsp;togia. *He homem que està alienado, ou como* |  |
 | `c1-l020` | &emsp;*fora de ſi.* |  |
 | `c1-l021` | Tǒfǒ. *Esta parte, ou os da noßa parte. Pala-* |  |
 | `c1-l022` | &emsp;*ura que ſe vſa na guerra.* |  |
