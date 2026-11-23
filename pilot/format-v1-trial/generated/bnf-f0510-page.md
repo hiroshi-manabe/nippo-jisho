@@ -30,11 +30,11 @@ Lexical coverage was checked after independent scan reading against Entry Words 
 | `c1-l012` | Tǒgura. *Enxada da China, que tem o cabo me-* |  |
 | `c1-l013` | &emsp;*tido pollo meyo do ferro.* |  |
 | `c1-l014` | Tôgua. *Abobora, ou combalenga.* |  |
-| `c1-l015` | Tǒguat. Ataru tçuqi. *Eſte mes, ou eſta lũa.* |  |
+| `c1-l015` | Tǒguat. A*t*aru tçuqi. *Eſte mes, ou eſta lũa.* |  |
 | `c1-l016` | Tǒgi. i, Yuni iru. *Tomar os banhos, ou en* |  |
 | `c1-l017` | &emsp;*trar nas caldas por algũa doença.* |  |
 | `c1-l018` | Togi, zzuru, ita. *Tapar, ou fechar. Vt,* |  |
-| `c1-l019` | &emsp;Cado. l, monuo tozzuru. *Fechar apor-* |  |
+| `c1-l019` | &emsp;Cado. *l*, monuo tozzuru. *Fechar apor-* |  |
 | `c1-l020` | &emsp;*ta. ¶* Cuchi. l, Meuo tozzuru. *Fe-* |  |
 | `c1-l021` | &emsp;*char a boca, ou os olhos. ¶* Vaguemonouo |  |
 | `c1-l022` | &emsp;tozzuru. *Liar, ou fechar caixas, bocetas,* |  |
@@ -52,8 +52,8 @@ Lexical coverage was checked after independent scan reading against Entry Words 
 | `c1-l034` | &emsp;*mo porta, entrada, &c.* |  |
 | `c1-l035` | Togimame. *Certa iguaria, que ſe faz de fei-* |  |
 | `c1-l036` | &emsp;*jões torrados, & hũa raiz de erua moida.* |  |
-| `c1-l037` | Togime, uru, eta. *Concluir, ou aueriguar al-* |  |
-| `c1-l038` | &emsp;*gũa couſa. ¶* Cotobauo rogimuru. *A-* |  |
+| `c1-l037` | To*g*ime, uru, eta. *Concluir, ou aueriguar al-* |  |
+| `c1-l038` | &emsp;*gũa couſa. ¶* Cotobauo to*g*imuru. *A-* |  |
 | `c1-l039` | &emsp;*veriguar as palauras, que hum diße, ou por que* |  |
 | `c1-l040` | &emsp;*as diße, &c. ¶* Iytogimete voqu. *Dei-* |  |
 | `c1-l041` | &emsp;*xar algũa couſa aueriguada, & bẽ arrecadada.* |  |
@@ -62,7 +62,7 @@ Lexical coverage was checked after independent scan reading against Entry Words 
 | `c1-l044` | Tôgiǒ. Tatacǒ niua. *Campo, ou terreiro da* |  |
 | `c1-l045` | &emsp;*batalha, ou briga.* |  |
 | `c1-l046` | Tǒgiǒ. Catana, tçuye. *Eſpada, & pao, ou* |  |
-| `c1-l047` | &emsp;*bordão. ¶* Qiǔxen tǒgioni tazzuſana- |  |
+| `c1-l047` | &emsp;*bordão. ¶* Qiǔxen tǒgiǒni tazzuſana- |  |
 
 ## Column 2 running header
 
@@ -85,7 +85,7 @@ Lexical coverage was checked after independent scan reading against Entry Words 
 | `c2-l009` | Toi. *Homem em cuja caſa communmente ſe aga-* |  |
 | `c2-l010` | &emsp;*ſalhão os hoſpedes, & que os negocea do que tẽ* |  |
 | `c2-l011` | &emsp;*neceßidade principalmẽte de embarcação.* |  |
-| `c2-l012` | Tôi. Figaxino yebnù. *Gente ruſtica, ou bar-* |  |
+| `c2-l012` | Tôi. Figaxino yebiſu. *Gente ruſtica, ou bar-* |  |
 | `c2-l013` | &emsp;*bara da parte do Leſte.* |  |
 | `c2-l014` | Toi, ô, ôta. *Perguntar.* |  |
 | `c2-l015` | Toi. *Cano de pao poſtiço por onde corre a agoa* |  |
@@ -95,8 +95,8 @@ Lexical coverage was checked after independent scan reading against Entry Words 
 | `c2-l019` | Toicauaxi, ſu, ita. *Perguntar entreſi hum a* |  |
 | `c2-l020` | &emsp;*outro como eſtà, &c.* |  |
 | `c2-l021` | *T*oicotaye, uru, eta. *Pergũtar, & reſpõder.* |  |
-| `c2-l022` | Tǒin. Taitǒno coye. *Voz, ou ſonjonete* |  |
-| `c2-l023` | &emsp;*pro prio da Chinu.* |  |
+| `c2-l022` | Tǒin. Taitǒno coye. *Voz, ou ſonſonete* |  |
+| `c2-l023` | &emsp;*pro prio da China.* |  |
 | `c2-l024` | *T*oiqi. *Suſpiros. ¶ T*oiqiuo tçuqu. *Dar* |  |
 | `c2-l025` | &emsp;*ſuſpiros.* |  |
 | `c2-l026` | *T*oitomurai, ǒ, ǒta. *Viſitar a alguem, ou* |  |
@@ -105,8 +105,8 @@ Lexical coverage was checked after independent scan reading against Entry Words 
 | `c2-l029` | Tôjacu. l, tôxacu. *Pardaes que eſtão pele-* |  |
 | `c2-l030` | &emsp;*jando, & picandoſe hum a outro. ¶* Tôja- |  |
 | `c2-l031` | &emsp;cu fitoni vogizu. *Os pardaes que eſtão pele-* |  |
-| `c2-l032` | &emsp;*jando não tem medo da gente.* |  |
-| `c2-l033` | Tǒjen. Xenni ataru. i, *Valer por mil ¶* Ichi- |  |
+| `c2-l032` | &emsp;j*ando não tem medo da gente.* |  |
+| `c2-l033` | Tǒjen. Xenni ataru. i, *Valer por mil. ¶* Ichi- |  |
 | `c2-l034` | &emsp;nin tǒjenno mononari. *Hum tem pormil.* |  |
 | `c2-l035` | *T*ojen. l, tojenna. *O eſtar ſò, & ſolitario.* |  |
 | `c2-l036` | &emsp;*¶* Tojenna tei. *Solidão, ou maneira de* |  |
@@ -116,11 +116,11 @@ Lexical coverage was checked after independent scan reading against Entry Words 
 | `c2-l040` | &emsp;*T*ojenſa. |  |
 | `c2-l041` | Tôjen. *T*oboxibino maye. *Diante, ou jum* |  |
 | `c2-l042` | &emsp;*to da candea aceſa.* |  |
-| `c2-l043` | Tôjen. *Vt,* Fuppô tôjen. *O dilatarſe a ley,* |  |
-| `c2-l044` | &emsp;*ou doutrina de* Xaca *pera a parte de Oriente* |  |
+| `c2-l043` | Tôjen. *Vt,* Buppô tôjen. *O dilatarſe a ley,* |  |
+| `c2-l044` | &emsp;*ou doutrina de* X*aca pera a parte de Oriente* |  |
 | `c2-l045` | &emsp;*ſ. China, & Iapão.* |  |
-| `c2-l046` | Tôji. Fuyu itaru. *Coração do inuerno que he* |  |
-| `c2-l047` | &emsp;*na vndicima lua. ¶* Guexi. *He a for-* |  |
+| `c2-l046` | *T*ôji. Fuyu itaru. *Coração do inuerno que he* |  |
+| `c2-l047` | &emsp;*na vndecima lũa. ¶* Guexi. *He a for-* |  |
 | `u2b-l001` | &emsp;*ça do verão.* |  |
 
 ## Printed catchword
