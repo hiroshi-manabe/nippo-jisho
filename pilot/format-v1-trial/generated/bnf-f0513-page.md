@@ -80,11 +80,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l006` | &emsp;*preſſa o Foquequiǒ repartindo as folhas por* |  |
 | `c2-l007` | &emsp;*muitos eſcriuaẽs fazẽ iſto por algũ defuncto* |  |
 | `c2-l008` | &emsp;*nas exequias, ou enterramento, &c.* |  |
-| `c2-l009` | *T*onxei. l, tonjei. Youo nogaruru. *O rapar-* |  |
+| `c2-l009` | *T*onxei. *l*, *t*onjei. Youo nogaruru. *O rapar-* |  |
 | `c2-l010` | &emsp;*ſe. i, Deixar a caſa, ou o mundo. Vt,* Ten- |  |
 | `c2-l011` | &emsp;xeino mitonaru. *Fazerſe rapado desta* |  |
 | `c2-l012` | &emsp;*maneira.* |  |
-| `c2-l013` | *T*onxi. l, tonji. Niuacani xiſuru. *Morte ſu-* |  |
+| `c2-l013` | *T*onxi. *l*, tonji. Niuacani xiſuru. *Morte ſu-* |  |
 | `c2-l014` | &emsp;*bitanea. Vt, T*onxi xerareta. l, xita. *Mor-* |  |
 | `c2-l015` | &emsp;*reo de morte ſubitanea.* |  |
 | `c2-l016` | *T*onxin. Muſaboru cocoro. *Coração de aua-* |  |
@@ -93,7 +93,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l019` | &emsp;*que ſe eſcreue no cabo das cartas. Vt,* Qiô- |  |
 | `c2-l020` | &emsp;qiô tonxu. |  |
 | `c2-l021` | *T*onyocu. i, Yocuxin. *Auareza, ou cubiça.* |  |
-| `c2-l022` | *T*oppa. l, toppana. *Homem a tabalhoado,* |  |
+| `c2-l022` | *T*oppa. *l*, toppana. *Homem a tabalhoado,* |  |
 | `c2-l023` | &emsp;*ou deſatentado. Vt,* Toppana mono. *Idẽ.* |  |
 | `c2-l024` | *T*oppo. i, Fitori ayomu. *O andar, ou ir* |  |
 | `c2-l025` | &emsp;*hum ſoo.* |  |
@@ -114,7 +114,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l040` | Toqe, ru, eta. *Desatarſe. ¶ Item, Der-* |  |
 | `c2-l041` | &emsp;*reterſe. Vt,* Rǒga toquru. *Derreterſe a ce-* |  |
 | `c2-l042` | &emsp;*ra. ¶* Cocoro toqete monouo yǔ. *Fa-* |  |
-| `c2-l043` | &emsp;*lar ſẽ ter pejo; ou muito familiarmente.* |  |
+| `c2-l043` | &emsp;*lar ſẽ ter pejo, ou muito familiarmente.* |  |
 | `c2-l044` | *T*oqeai, ǒ, ǒta. *Derreterenſe muitas couſas* |  |
 | `c2-l045` | &emsp;*jũtas como caramelos, ou neues de muitas partes.* |  |
 | `c2-l046` | Toqei. Vſaguino michi. *Caminho eſtreito da* |  |
