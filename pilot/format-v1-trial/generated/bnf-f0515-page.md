@@ -36,7 +36,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l020` | Tǒqua. Momono fana. *Flor de peſegueiro.* |  |
 | `c1-l021` | Tôqua. i, Tomoxibi. *Fogo de candea de* |  |
 | `c1-l022` | &emsp;*azeite.* |  |
-| `c1-l023` | Tora. *Tigre.* |  |
+| `c1-l023` | *T*ora. *Tigre.* |  |
 | `c1-l024` | *T*ora. *Hum dos animaes, ou ſignos celestes por* |  |
 | `c1-l025` | &emsp;*onde os Iapões contão as horas, ou annos.* |  |
 | `c1-l026` | &emsp;*¶* Torano cocu. *As 4. ou 5. horas* |  |
@@ -101,14 +101,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l027` | Tori. *Hum dos animaes por onde contão os Ia-* |  |
 | `c2-l028` | &emsp;*pões as horas, & annos. ¶* Torino cocu. |  |
 | `c2-l029` | &emsp;*As 6. ou 7. horas depois do meo dia.* |  |
-| `c2-l030` | Tori, ru, otta. *Tomar. ¶* Toriuo toru. |  |
-| `c2-l031` | &emsp;*Tomar paßaros com viſco, ou com rede, &c.* |  |
-| `c2-l032` | &emsp;*¶* Cubiuo toru. *Tomar cabeça na guerra.* |  |
+| `c2-l030` | Tori, ru, otta. T*omar. ¶* Toriuo toru. |  |
+| `c2-l031` | &emsp;T*omar paßaros com viſco, ou com rede, &c.* |  |
+| `c2-l032` | &emsp;*¶* Cubiuo toru. T*omar cabeça na guerra.* |  |
 | `c2-l033` | &emsp;*¶* Nauo toru. *Alcançar nome, ou fama.* |  |
-| `c2-l034` | &emsp;*¶* Yadouo toru. *Tomar, ou alugar caſas.* |  |
+| `c2-l034` | &emsp;*¶* Yadouo toru. T*omar, ou alugar caſas.* |  |
 | `c2-l035` | &emsp;*¶* Xoriǒuo toru. *Alcançar renda.* |  |
 | `c2-l036` | &emsp;*¶* Tano meuo toru. *Furtar a molher a-* |  |
-| `c2-l037` | &emsp;*lhea. ¶* Teuo toricumu. *Tomar entre* |  |
+| `c2-l037` | &emsp;*lhea. ¶* Teuo toricumu. T*omar entre* |  |
 | `c2-l038` | &emsp;*ſi as mãos como quem luta, &c. ¶* Cuji- |  |
 | `c2-l039` | &emsp;uo toru. *Deitar ſortes. ¶* Momodachi- |  |
 | `c2-l040` | &emsp;uo toru. *Arregaçar os calções, & meter* |  |
@@ -117,7 +117,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l043` | &emsp;uo totte voxiyuru. *Enſinar ao aprendiz* |  |
 | `c2-l044` | &emsp;*tomando lhe a mão, & guiando. ¶* Aca- |  |
 | `c2-l045` | &emsp;uo toru. *Dar à bomba. ¶* Miuo toru. |  |
-| `c2-l046` | &emsp;*Tomar, ou recolher fruito dos campos, ou das* |  |
+| `c2-l046` | &emsp;T*omar, ou recolher fruito dos campos, ou das* |  |
 | `c2-l047` | &emsp;*aruores, &c. ¶ Itẽ, per met.* Miuo toru. |  |
 
 ## Printed page number

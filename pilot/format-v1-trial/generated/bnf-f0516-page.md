@@ -18,10 +18,10 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l002` | &emsp;*lição, &c.* |  |
 | `c1-l003` | Toriagari, ru, atta. *Subir a lugar alto como* |  |
 | `c1-l004` | &emsp;*a fortaleza.* |  |
-| `c1-l005` | Toriague, uru, eta. *Tomar, & aleuantar* |  |
-| `c1-l006` | &emsp;*algũa couſa. ¶ Item, Tirar o cargo, ou rẽ-* |  |
+| `c1-l005` | Toriague, uru, eta. T*omar, & aleuantar* |  |
+| `c1-l006` | &emsp;*algũa couſa. ¶ Item,* T*irar o cargo, ou rẽ-* |  |
 | `c1-l007` | &emsp;*da a alguem. Vt,* Yacu, l, chiguiǒuo to- |  |
-| `c1-l008` | &emsp;riaguru. *¶* Couo toriaguru. *Tomar a* |  |
+| `c1-l008` | &emsp;riaguru. *¶* Couo toriaguru. T*omar a* |  |
 | `c1-l009` | &emsp;*criança nos braços quãdo nace, em ſinal q̃ a to-* |  |
 | `c1-l010` | &emsp;*ma a cargo como padrinho, ou madrinha.* |  |
 | `c1-l011` | Toriaguevoya. *Padrinho, ou madrinha que* |  |
@@ -31,7 +31,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l015` | &emsp;*dar por achado. ¶* Nanto mǒxitemo to- |  |
 | `c1-l016` | &emsp;riauanu fitogia. *He homem que por mais q̃* |  |
 | `c1-l017` | &emsp;*lhe digão não ſe lhe dà nada.* |  |
-| `c1-l018` | Toriaraxi, ſu, aita. *Tomando algũa couſa* |  |
+| `c1-l018` | Toriaraxi, ſu, aita. T*omando algũa couſa* |  |
 | `c1-l019` | &emsp;*deixar o mais deſmanchado, & botado por ahi.* |  |
 | `c1-l020` | &emsp;*Vt,* Iyeno xozaimotuo toriaraſu. *Rou-* |  |
 | `c1-l021` | &emsp;*bando o fato da caſa deixar o pior por ahi eſpa-* |  |
@@ -93,7 +93,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l019` | Toricago. *Gayola de paßaros.* |  |
 | `c2-l020` | Toricai, ǒ, ǒta. *Dar por derradeiro de co-* |  |
 | `c2-l021` | &emsp;*mer ao falcão quanto quer, de pois que por vezes* |  |
-| `c2-l022` | &emsp;*lheforão dando pouco a pouco pera o fazer ca-* |  |
+| `c2-l022` | &emsp;*lhe forão dando pouco a pouco pera o fazer ca-* |  |
 | `c2-l023` | &emsp;*çar. ¶* Inuuo toricǒ. *Enſayar o cão* |  |
 | `c2-l024` | &emsp;*pera a caça dos porcos pera que não tenha me-* |  |
 | `c2-l025` | &emsp;*do, ou das aues engodandoo com lhe dàr de co* |  |
@@ -111,7 +111,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l037` | *T*oricarame, uru, eta. *Prender, ou amarrar.* |  |
 | `c2-l038` | Toricaſane, ru, eta. *Acrecentar, ou por hũa* |  |
 | `c2-l039` | &emsp;*couſa ſobre outra.* |  |
-| `c2-l040` | *T*oricatame, uru, eta. *Ter forte. Vt,* Gin |  |
+| `c2-l040` | *T*oricatame, uru, eta. T*er forte. Vt,* Gin |  |
 | `c2-l041` | &emsp;l, Xirouo toricatamuru. *Ter o arrayal bẽ* |  |
 | `c2-l042` | &emsp;*compoſto, & fortalecido, ou a fortaleza.* |  |
 | `c2-l043` | *T*oricaua. *Pelle que ſe poem nos punhos da* |  |
