@@ -21,13 +21,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l005` | Toricayexi, ſu, ita. *Tornar a tomar, ou re-* |  |
 | `c1-l006` | &emsp;*colher a couſa.* |  |
 | `c1-l007` | Torichigaye, ru, eta. *Tomar hũa couſa por* |  |
-| `c1-l008` | &emsp;*outra. ¶ Item, Tomar entre ſi. i, T*ori- |  |
-| `c1-l009` | &emsp;cauaſu. *Vt,* Sacazzuqiuo torichigayu- |  |
-| `c1-l010` | &emsp;ru. *Tomar, & dar entre ſi o Sacazzuqui.* |  |
-| `c1-l011` | Torichiraxi, ſu, ita. *Tomando eſpalhar, ou* |  |
-| `c1-l012` | &emsp;*eſpalhar algũa couſa, & deixalaſem ordem, &c.* |  |
+| `c1-l008` | &emsp;*outra. ¶ Item, Tomar entre ſi.* i*, T*ori- |  |
+| `c1-l009` | &emsp;cauaſu. *Vt, S*acazzuqiuo torichigayu- |  |
+| `c1-l010` | &emsp;ru. T*omar, & dar entre ſi o Sacazzuqui.* |  |
+| `c1-l011` | *T*orichiraxi, ſu, ita. T*omando eſpalhar, ou* |  |
+| `c1-l012` | &emsp;*eſpalhar algũa couſa, & deixala ſem ordem, &c.* |  |
 | `c1-l013` | *T*orico. *Catiuo, ou tomado em guerra.* |  |
-| `c1-l014` | &emsp;*¶* Toriconi ſuru. *Tomar, ou catiuar* |  |
+| `c1-l014` | &emsp;*¶* Toriconi ſuru. T*omar, ou catiuar* |  |
 | `c1-l015` | &emsp;*na guerra.* |  |
 | `c1-l016` | Toricobochi, tçu, otta. *Desfazer,ou deſ-* |  |
 | `c1-l017` | &emsp;*manchar como caſas, &c. pera ſe tornarem a* |  |
@@ -37,11 +37,11 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l021` | Toricoroxi, ſu, oita. *Matar o diabo, ou Ca-* |  |
 | `c1-l022` | &emsp;*mi, &c. entrando em alguem.* |  |
 | `c1-l023` | Toricube, uru, eta. *Meter lenha no fogo.* |  |
-| `c1-l024` | Toricui, ǔ, ǔta. *Tomando algũa couſa* |  |
+| `c1-l024` | Toricui, ǔ, ǔta. T*omando algũa couſa* |  |
 | `c1-l025` | &emsp;*comela. ¶* Muſato toricǔ, l, toricurǒ |  |
 | `c1-l026` | &emsp;*Comer qual quer couſa ſem eſcolha, ou com* |  |
 | `c1-l027` | &emsp;*deſordem.* |  |
-| `c1-l028` | Toricumi, u, unda. *Trauar de mãos com al-* |  |
+| `c1-l028` | *T*oricumi, u, unda. *Trauar de mãos com al-* |  |
 | `c1-l029` | &emsp;*guem. ¶ T*againi teto teuo toricumu. |  |
 | `c1-l030` | &emsp;*Idem.* |  |
 | `c1-l031` | Toricurai, ǒ, ǒta. *Tomar, & comer ſofre* |  |
@@ -80,7 +80,7 @@ Scope: `full_dictionary_text_and_furniture`
 | Physical line | Main position | Far right |
 | --- | --- | --- |
 | `c2-l001` | *T*oridori. *De diuerſas maneiras. ¶ T*ori- |  |
-| `c2-l002` | &emsp;dorini mǒſu. *Falar diuerſas couſas, ou di-* |  |
+| `c2-l002` | &emsp;dorini mǒſu.*Falar diuerſas couſas, ou di-* |  |
 | `c2-l003` | &emsp;*zer diuerſos pareceres.* |  |
 | `c2-l004` | Torifada. *Acarne dagalinha, ou de outra aue* |  |
 | `c2-l005` | &emsp;*de pois de depenada. ¶ Item, permet.* |  |
@@ -88,7 +88,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l007` | &emsp;*ra comfrio, como carne de paßaro depenado,* |  |
 | `c2-l008` | &emsp;*que tem os pelos da carne, ou lugares a onde* |  |
 | `c2-l009` | &emsp;*arrancarão as penas, inchados.* |  |
-| `c2-l010` | *T*orifadachi, u, datta. *Ter a carne como em* |  |
+| `c2-l010` | *T*orifadachi, u, datta. T*er a carne como em* |  |
 | `c2-l011` | &emsp;*polada, & aſpera comfrio naspartes dos ca-* |  |
 | `c2-l012` | &emsp;*belos, como a das aues depenadas.* |  |
 | `c2-l013` | Torifanachi, tçu, atta. *Botar, ou deſapegar* |  |
@@ -109,14 +109,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l028` | &emsp;*tendella, ou eſtender ſem concerto, & ordẽ.* |  |
 | `c2-l029` | *T*orifiſome, ru, eta. *Por as couſas a hũa par-* |  |
 | `c2-l030` | &emsp;*te, ou em algũ lugar ſecreto, ou menos publico.* |  |
-| `c2-l031` | Torifixigui, u, da. *Desbaratar, ou deſtruir,* |  |
+| `c2-l031` | Torifixigui, u, da. D*esbaratar, ou deſtruir,* |  |
 | `c2-l032` | &emsp;*& eſmiuçar.* |  |
 | `c2-l033` | Torifodoqi, u, oita. *Deſmanchar, deſatar,* |  |
 | `c2-l034` | &emsp;*ou desfazir.* |  |
 | `c2-l035` | Torigai. *Certo mariſco.* |  |
 | `c2-l036` | *T*origaye. *O tomar hũa couſa por outra. Vt, T*o- |  |
 | `c2-l037` | &emsp;rigayeni ſuru. |  |
-| `c2-l038` | Toriguchi. l, Torino faxi. *Tanaz de ferreiro.* |  |
+| `c2-l038` | Toriguchi. l, Torino faxi. T*anaz de ferreiro.* |  |
 | `c2-l039` | *T*orij. *Hũ portal q̃ eſta diante da ermida do Ca* |  |
 | `c2-l040` | Torijdaxi, ſu, ita. *Tirar fora.* | *(mi.* |
 | `c2-l041` | *T*oriide, zzuru, eta. *Sair, ou partirſe muita* |  |
