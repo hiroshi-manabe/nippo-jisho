@@ -14,7 +14,7 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c1-l001` | Toriſoroye, uru, eta. *Tomando ajuntar, ou* |  |
+| `c1-l001` | *T*oriſoroye, uru, eta. *Tomando ajuntar, ou* |  |
 | `c1-l002` | &emsp;*igualar. ¶* Taru, ſacanauo toriſoroyuru. |  |
 | `c1-l003` | &emsp;*Por por ordẽ as barças de vinho, & Sacanas.* |  |
 | `c1-l004` | Toriſoye, uru, eta. *Acrecẽtar, ou tomar hũa* |  |
@@ -23,9 +23,9 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l007` | Toriſute, t*ç*uru, eta. *Lançar, ou deitar fora* |  |
 | `c1-l008` | &emsp;*com a mão, &c.* |  |
 | `c1-l009` | Toritate, tçuru, eta. *Edificar, ou aleuantar* |  |
-| `c1-l010` | &emsp;*caſas. ¶ Item, Tornar por a alguem no ſeu* |  |
+| `c1-l010` | &emsp;*caſas. ¶ Item,* T*ornar por a alguem no ſeu* |  |
 | `c1-l011` | &emsp;*proprio eſtado. ¶* Fitono iyeuo tori ta- |  |
-| `c1-l012` | &emsp;tçuru. *Aleuantar, & por empès a alguẽ,* |  |
+| `c1-l012` | &emsp;tçuru. *Aleuantar, & por em pès a alguẽ,* |  |
 | `c1-l013` | &emsp;*ou milhorar lhe o eſtado. ¶* Fitouo tori |  |
 | `c1-l014` | &emsp;tatçuru. *Armar a alguem, ou fazelo homẽ.* |  |
 | `c1-l015` | Toritate. *O edificar. ¶ Item, O fazer a* |  |
@@ -36,14 +36,14 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l020` | &emsp;*couſa.* |  |
 | `c1-l021` | Toritçucuroi, ô, ôta. *Concertar, & apare-* |  |
 | `c1-l022` | &emsp;*lhar bem, & polidamente quer ſeja vestido,* |  |
-| `c1-l023` | &emsp;*quer Zaxiqu, &c. ¶ T*oritçucurôta fu- |  |
+| `c1-l023` | &emsp;*quer Zaxiqui, &c. ¶ T*oritçucurôta fu- |  |
 | `c1-l024` | &emsp;rumai. *Conuite bem concertado, & apa-* |  |
 | `c1-l025` | &emsp;*relhado.* |  |
 | `c1-l026` | Toritçugui, gu, ida. *Ser medianeiro, ou dar* |  |
 | `c1-l027` | &emsp;*recado, ou parte a algum ſenhor do que lhe tra-* |  |
 | `c1-l028` | &emsp;*zem, ou mandão dizer. ¶ Item, Alicu-* |  |
 | `c1-l029` | &emsp;*bi, Socorrer com mantimẽto, ou prata. Meliùs,* |  |
-| `c1-l030` | &emsp;Tori çuzzuquru. |  |
+| `c1-l030` | &emsp;Toritçuzzuquru. |  |
 | `c1-l031` | Toritçugui. *Medianeiro, ou o que falla por* |  |
 | `c1-l032` | &emsp;*alguem a ſeus tẽpos diante do ſenhor. ¶* To- |  |
 | `c1-l033` | &emsp;ritçuguiuo ſuru. *Ser medianeiro, ou in-* |  |
@@ -51,7 +51,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l035` | Toritçume, uru, eta. *Por em aperto. ¶* Xi- |  |
 | `c1-l036` | &emsp;rouo toritçumuru. *Por em aperto a for-* |  |
 | `c1-l037` | &emsp;*taleza.* |  |
-| `c1-l038` | Toritçuqe, uru, eta. *Tomando pegar, ou acre-* |  |
+| `c1-l038` | Toritçuqe, uru, eta. T*omando pegar, ou acre-* |  |
 | `c1-l039` | &emsp;*centar. ¶* Toritçuqe, fittçuqe monouo |  |
 | `c1-l040` | &emsp;yǔ. *Falar acrecentando de cà, & de là.* |  |
 | `c1-l041` | *T*oritçuqi, u, uita. *Afferrar, ou apegarſe* |  |
@@ -95,13 +95,13 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l015` | &emsp;*fastarſe longe.* |  |
 | `c2-l016` | *T*ôriǔ. *Detença. Vt,* Tôriǔ ſuru. *Deter-* |  |
 | `c2-l017` | &emsp;*ſe, ou fazer detença.* |  |
-| `c2-l018` | Tǒriǔ. *Eſta arte, ou doutrina, ou ley que a-* |  |
+| `c2-l018` | *T*ǒriǔ. *Eſta arte, ou doutrina, ou ley que a-* |  |
 | `c2-l019` | &emsp;*gora corre.* |  |
 | `c2-l020` | Torivaqe. l, toriuaqi. *Aduerb. Particu-* |  |
 | `c2-l021` | &emsp;*larmente.* |  |
 | `c2-l022` | *T*orivaqe, quru, eta. *Tomar a metade dal-* |  |
 | `c2-l023` | &emsp;*gũa couſa, ou partir pollo meo.* |  |
-| `c2-l024` | Torivatari, ru, atta. *Paſar o mar, ou rio* |  |
+| `c2-l024` | Torivatari, ru, atta. *Paßar o mar, ou rio* |  |
 | `c2-l025` | &emsp;*muita gente.* |  |
 | `c2-l026` | Torivchi. *Hũa parte do arco adiante donde o* |  |
 | `c2-l027` | &emsp;*tomão pello meo na mão.* |  |
@@ -122,7 +122,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l041` | &emsp;*pera ſe tomar.* |  |
 | `c2-l042` | Torixiqi, qu, ijta. *Tomar o falcão algũa aue* |  |
 | `c2-l043` | &emsp;*entre as eruas.* |  |
-| `c2-l044` | Torixitatame, uru, eta. *Concertar algũa cou* |  |
+| `c2-l044` | Torixitata*m*e, uru, eta. *Concertar algũa cou* |  |
 | `c2-l045` | &emsp;*ſa como cama, ou fato que ſe amarra, ou* |  |
 | `c2-l046` | &emsp;*outra couſa que ſe poem em ſeu lugar. ¶* Fu- |  |
 
