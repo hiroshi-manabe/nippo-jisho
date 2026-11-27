@@ -29,21 +29,21 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l013` | &emsp;*he temperado, nem com molho pera ſobre elle* |  |
 | `c1-l014` | &emsp;*beber vinho.* |  |
 | `c1-l015` | Tǒrǒ. l, Camaqiri. *Bicho da ſaude. ¶* Tǒ- |  |
-| `c1-l016` | &emsp;rǒga vonouo aguete riù xani mucǒga go- |  |
+| `c1-l016` | &emsp;rǒga vonouo aguete riǔxani mucǒga go- |  |
 | `c1-l017` | &emsp;toxi. *Como eſte bichinho que aleuantando as* |  |
 | `c1-l018` | &emsp;*mãos ſe poẽ contra o carro que vailigeiro pera* |  |
 | `c1-l019` | &emsp;*o deter: acommodaſe aos que compoucas forças* |  |
-| `c1-l020` | &emsp;*ſe querem tom arcom os muito poderoſos.* |  |
+| `c1-l020` | &emsp;*ſe querem tomarcom os muito poderoſos.* |  |
 | `c1-l021` | Tôro. *Lanterna.* |  |
 | `c1-l022` | Toromen. *Cangas de cordão.* |  |
-| `c1-l023` | Toroqe l, Toraqe, uru, eta. *Derreterſe* |  |
+| `c1-l023` | Toroqe. l, Toraqe, uru, eta. *Derreterſe* |  |
 | `c1-l024` | &emsp;*como cera, metal, &c. ou desfazerſe algũa* |  |
 | `c1-l025` | &emsp;*couſa molle como açucar, &c. ¶* Co- |  |
 | `c1-l026` | &emsp;coro toroquru. *Eſtar o coração brando, &* |  |
 | `c1-l027` | &emsp;*deſfeito como hũa cera.* |  |
 | `c1-l028` | Tororito. *Aduer. Modo de ſe derreter, ou a-* |  |
 | `c1-l029` | &emsp;*brandar deſta maneira. Vt,* Tororito naru. |  |
-| `c1-l030` | Tororo jiru. *Hum Xiru feito de inhames, &* |  |
+| `c1-l030` | Tororo jiru. *Hum* X*iru feito de inhames, &* |  |
 | `c1-l031` | &emsp;*outras eruas à maneira de papas.* |  |
 | `c1-l032` | Tǒrui. *Companheiros da meſma laya, ou gẽte* |  |
 | `c1-l033` | &emsp;*que eſtà vnida no meſmo parecer, & vontade* |  |
@@ -72,13 +72,13 @@ Scope: `full_dictionary_text_and_furniture`
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | &emsp;*preſtado, ou que nãohe de propoſito.* |  |
+| `c2-l001` | &emsp;*preſtado, ou que não he de propoſito.* |  |
 | `c2-l002` | Toſamani. *Adu.* |  |
 | `c2-l003` | Toſan. Fiqidemono. *Preſente, ou dadiua.* |  |
 | `c2-l004` | &emsp;*Vt,* Toſanuo yaru. *Mandar, ou dar* |  |
 | `c2-l005` | &emsp;*preſente.* |  |
 | `c2-l006` | Tǒſǒ. i, Tǒgaſa. *Boubas.* |  |
-| `c2-l007` | Toſô. *Melius, T*oſǔ. i, Anguiano bǒzu. |  |
+| `c2-l007` | Toſô. *Meliús, T*oſǔ. i, Anguiano bǒzu. |  |
 | `c2-l008` | &emsp;*Bonzo peregrino.* |  |
 | `c2-l009` | *T*oſot. *Vt,* Toſotno naiin. *Paraiſo de A-* |  |
 | `c2-l010` | &emsp;*mida que os Gentios imaginão auer.* |  |
@@ -90,7 +90,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l016` | *T*oſsacanori. *Vide ſuprà,* Toſacanori. |  |
 | `c2-l017` | Tôtçǔ. Xibiruru itami. *Doerſe muito, ou ar-* |  |
 | `c2-l018` | &emsp;*der, & eſcozer com dor.* |  |
-| `c2-l019` | Totçugai, gǒ, ǒta. *Terem copula os animaes,* |  |
+| `c2-l019` | Totçugai, gǒ, ǒta. T*erem copula os animaes,* |  |
 | `c2-l020` | &emsp;*ou homẽs.* |  |
 | `c2-l021` | Totçugui, u, uida. *Terẽ copula os animaes.* |  |
 | `c2-l022` | Totçu totçuto. *Adu. Modo de fazer as* |  |
@@ -101,7 +101,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l027` | &emsp;*quando ſe ajunta à voz do futuro.* i, *Pera,* |  |
 | `c2-l028` | &emsp;*ou por. Como ſe verà na Arte.* |  |
 | `c2-l029` | *T*ôtei. *Hũa pintura em que està pintada a lũa* |  |
-| `c2-l030` | &emsp;*do Outono que ſe vè em hua certa parte da Chi* |  |
+| `c2-l030` | &emsp;*do Outono que ſe vè em hũa certa parte da Chi* |  |
 | `c2-l031` | &emsp;*na, dõde he mais apraziuel, & tida por hua das* |  |
 | `c2-l032` | &emsp;*oito vistas celebradas na China.* |  |
 | `c2-l033` | Totemo. *Adu. Aßi como aßi, ou de qual* |  |

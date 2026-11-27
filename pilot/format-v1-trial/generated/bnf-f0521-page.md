@@ -35,7 +35,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l019` | Totte. *Aſa de algum vaſo, cesto, &c.* |  |
 | `c1-l020` | Totte cayexi, ſu, ita. *Voltar, ou tornar a* |  |
 | `c1-l021` | &emsp;*virar o que vai fugindo.* |  |
-| `c1-l022` | Tottenoqi, u, oita. *Afaſtarſe, ou retirar-* |  |
+| `c1-l022` | Tottenoqi, u, oita. *Afastarſe, ou retirar-* |  |
 | `c1-l023` | &emsp;*ſe. ¶ Item, Tomando afaſtarſe, & irſe.* |  |
 | `c1-l024` | *T*otto. *Adu. Muito, ou eficazmente.* |  |
 | `c1-l025` | *T*ǒua. Cotaye cataru. *Reposta que hum dà* |  |
@@ -48,7 +48,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l032` | *T*ouobiqi. *Vt, T*ouobiqiuo ſuru, l, touo- |  |
 | `c1-l033` | &emsp;fauo fiqu. *Voar o falcão longe, ou deſgar-* |  |
 | `c1-l034` | &emsp;*rarſe a tomar algum paßaro.* |  |
-| `c1-l035` | *T*ouodouoto. *Adu. Longe. Vt, T*ouo- |  |
+| `c1-l035` | *T*ouo*d*ouoto. *Adu. Longe. Vt, T*ouo- |  |
 | `c1-l036` | &emsp;douoto ficayeta. *Afastarſe longe não ou-* |  |
 | `c1-l037` | &emsp;*ſando chegar perto por reſpeito.* |  |
 | `c1-l038` | *T*ouodouoxij. *Couſa afaſtada, ou alongada.* |  |
@@ -60,7 +60,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c1-l044` | &emsp;*guerra indo longe adar nos inimigos. Vt,* To- |  |
 | `c1-l045` | &emsp;uogaqeuo ſuru. |  |
 | `c1-l046` | Touoi. *Couſa alongada, ou que eſtà longe.* |  |
-| `c1-l047` | &emsp;*T*ouô. *Vt,* Touôm iru. *Ver a olonge.* |  |
+| `c1-l047` | &emsp;*T*ouô. *Vt,* Touômiru. *Ver a olonge.* |  |
 | `c1-l048` | &emsp;Touoſa. |  |
 
 ## Column 2 running header
@@ -77,7 +77,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l002` | &emsp;*de longe, como quando ſe combate a fortaleza* |  |
 | `c2-l003` | &emsp;*não chegando muito perto.* |  |
 | `c2-l004` | Touomi. *Atalayas, ou eſpias que vão deſcobrir* |  |
-| `c2-l005` | &emsp;*o campo na guerra. ¶ Itẽ, Na caça q̃ ſe faz cõ-* |  |
+| `c2-l005` | &emsp;*o campo na guerra. ¶* I*tẽ, Na caça q̃ ſe faz cõ-* |  |
 | `c2-l006` | &emsp;*falcão os que eſpreitão, & notão onde pouſa al-* |  |
 | `c2-l007` | &emsp;*gũa aue. Vt,* Touomiuo voqu. *Por vi* |  |
 | `c2-l008` | &emsp;*gias, ou eſpias.* |  |
@@ -88,7 +88,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l013` | &emsp;uoriuo yǔ. *Dizer a ſuſtancia, ou teor do reca-* |  |
 | `c2-l014` | &emsp;*do. ¶* Sonatano touorino bun. *Da meſma* |  |
 | `c2-l015` | &emsp;*maneira, ou teor q̃ vos. Itẽ, O teor do q̃ dizeis.* |  |
-| `c2-l016` | *T*ouori, ru, otta. *Paßar. Vt,* Michiuo |  |
+| `c2-l016` | *T*ouori, ru, otta. *Paßar. Vt, M*ichiuo |  |
 | `c2-l017` | &emsp;touoru. *Paßar pollo caminho. ¶* Qiǒuo |  |
 | `c2-l018` | &emsp;ichibu mitouoru. *Paßar hum liuro de prin-* |  |
 | `c2-l019` | &emsp;*cipio atè ocabo. ¶* Côquai cocoroni to- |  |
@@ -115,7 +115,7 @@ Scope: `full_dictionary_text_and_furniture`
 | `c2-l040` | &emsp;yǒna itami. *Dores que parece atraueſar o* |  |
 | `c2-l041` | &emsp;*peito, ou coração.* |  |
 | `c2-l042` | Touozacari, ru, atta. *Afaſtarſe, ou alongarſe.* |  |
-| `c2-l043` | Touoxiguiri. *Hũa laya de verruma de Iapão.* |  |
+| `c2-l043` | Touoxiguiri. *Hũa laya de verruma de* I*apão.* |  |
 | `c2-l044` | Touoya. *Frecha delgada pera voar, ou che-* |  |
 | `c2-l045` | &emsp;*gar longe.* |  |
 | `c2-l046` | Touoyama. *Monte que eſtà longe, ou* |  |
