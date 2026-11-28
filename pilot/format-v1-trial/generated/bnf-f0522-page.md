@@ -23,8 +23,8 @@ Lexical checks used Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and
 | `c1-l005` | Tôxacu. Tatacǒ ſuzume. *Pardal que eſtà* |  |
 | `c1-l006` | &emsp;*baralhado com outro pelejando. ¶* Tôxacu |  |
 | `c1-l007` | &emsp;fitoni vogizu. *Opardal que eſtà trauado* |  |
-| `c1-l008` | &emsp;*com outro pelejando não temegente. Aplicaſe* |  |
-| `c1-l009` | &emsp;*ta nbem a homens que quando eſtão brigando não* |  |
+| `c1-l008` | &emsp;*com outro pele*j*ando não temegente. Aplicaſe* |  |
+| `c1-l009` | &emsp;*tambem a homens que quando eſtão brigando não* |  |
 | `c1-l010` | &emsp;*tem conta com ſenhor, nem com ninguem.* |  |
 | `c1-l011` | *T*ǒxei. Ataruyo. l, imano jidai. *Eſta ida-* |  |
 | `c1-l012` | &emsp;*de, ou eſte mundo de agora. ¶ Item, Cou* |  |
@@ -55,7 +55,7 @@ Lexical checks used Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and
 | `c1-l037` | &emsp;*Começar o anno.* |  |
 | `c1-l038` | *T*ǒxi. *T*aitǒno cami. *Papel da China.* |  |
 | `c1-l039` | Toxibai. l, toxiubai. *Proporção da idade.* |  |
-| `c1-l040` | &emsp;*T*oxibaiga yoi. *Ter ainda boa idade como* |  |
+| `c1-l040` | &emsp;*T*oxibaiga yoi. T*er ainda boa idade como* |  |
 | `c1-l041` | &emsp;*de 30. tè 40. & tantos. ¶ T*oxibaiga |  |
 | `c1-l042` | &emsp;ſuguita. *Paſſouſe ja aboa idade, ou he ja* |  |
 | `c1-l043` | &emsp;*velho. ¶* Toxibaiga vacai fito. *Homẽ* |  |
@@ -74,11 +74,11 @@ Lexical checks used Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and
 
 | Physical line | Main position | Far right |
 | --- | --- | --- |
-| `c2-l001` | *T*oxicoxi. *O paßar de hum anno à outro, ou* |  |
+| `c2-l001` | *T*oxicoxi. *O paßar de hum anno a outro, ou* |  |
 | `c2-l002` | &emsp;*ſair do inuerno, & entrar na prima vera, o* |  |
 | `c2-l003` | &emsp;*que acontece na derradeira noite do Xiuaſu,* |  |
 | `c2-l004` | &emsp;*que he a duodecima lũa, & no cabo, ou ter-* |  |
-| `c2-l005` | &emsp;*mino do inuerno, que às vezes ſe desencontra* |  |
+| `c2-l005` | &emsp;*mino do Inuerno, que às vezes ſe desencontra* |  |
 | `c2-l006` | &emsp;*do derradeiro dia do Xiuaſu: estes dous tem-* |  |
 | `c2-l007` | &emsp;*pos chamão Rixxun que ſão duas maneiras de* |  |
 | `c2-l008` | &emsp;*começar o Faru.* |  |
@@ -92,7 +92,7 @@ Lexical checks used Entry Words Data of Nippojisho, NINJAL, Hideyuki Ohshima and
 | `c2-l016` | &emsp;*mida, &c.* |  |
 | `c2-l017` | *T*ôxin. *Pauio, ou torcida: propriamente ſe* |  |
 | `c2-l018` | &emsp;*diz do miolo do junco que ſerue de torcida.* |  |
-| `c2-l019` | Toxinami. i, Toxinorei. *Proporção, ou a-* |  |
+| `c2-l019` | Toxinami. i, Toxinotei. *Proporção, ou a-* |  |
 | `c2-l020` | &emsp;*parencia da idade. Vt,* Fatachi bacarino |  |
 | `c2-l021` | &emsp;toxinami. *Aparencia de idade de 20. an-* |  |
 | `c2-l022` | &emsp;*nos pouco mais, ou menos.* |  |
